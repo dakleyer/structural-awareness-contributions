@@ -1,6 +1,6 @@
 # Structural Awareness Programme
 
-> **Controlled working repository — research programme, not a validated method, adopted standard or institutional position**
+> **Publication-oriented repository — currently private and under editorial preparation; not a validated method, adopted standard or institutional position**
 
 This repository organizes a connected body of work on how technical and institutional systems understand the structure on which their decisions depend, recognize when that understanding is incomplete or no longer valid, and respond with sufficient but bounded control.
 
@@ -73,7 +73,7 @@ See [`governance/CLAIM_BOUNDARIES.md`](./governance/CLAIM_BOUNDARIES.md) for the
 
 ## Repository status and licensing
 
-This repository is a controlled working space. No open-source or content licence has yet been selected. Unless and until a licence is added, no permission beyond GitHub's applicable platform terms should be inferred.
+This is the curated contribution repository for material intended for possible external release. It remains private until an explicit publication decision is made. No open-source or content licence has yet been selected. Unless and until a licence is added, no permission beyond GitHub's applicable platform terms should be inferred.
 
 ---
 
