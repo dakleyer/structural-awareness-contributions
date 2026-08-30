@@ -71,6 +71,10 @@ See [`governance/CLAIM_BOUNDARIES.md`](./governance/CLAIM_BOUNDARIES.md) for the
 - [Regime Awareness in Adaptive Systems](https://tegrity.ai/series/regime-awareness-in-adaptive-systems/)
 - [The Cost of Clarity](https://tegrity.ai/series/cost_of_clarity/)
 
+## Public-ready submissions and contributions
+
+The [`submissions/`](./submissions/) library preserves the relevant documents and public discussion contributions routed to UNECE WP.5, the UN CSTD Working Group on Data Governance at All Levels, ITU-T FG-AI4SSC and ITU-T FG-TIDA. Each folder records provenance, file hashes and the exact procedural status without implying adoption or endorsement.
+
 ## Repository status and licensing
 
 This is the curated contribution repository for material intended for possible external release. It remains private until an explicit publication decision is made. No open-source or content licence has yet been selected. Unless and until a licence is added, no permission beyond GitHub's applicable platform terms should be inferred.
