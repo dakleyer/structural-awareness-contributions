@@ -12,9 +12,10 @@
 2. [Annex I v0.3 — Minimal Operational Case Outline](02_ANNEX_I_Minimal_Operational_Case_Outline_v0.3.md)
 3. [Annex II v1.2 — Why the Minimal Case Is Extensible](03_ANNEX_II_Case_Extensibility_Upward_Downward_Horizontal_v1.2.md)
 4. [Annex III v1.3 — Challenges Exposed by the Case](04_ANNEX_III_PostFreeze_Solution_Challenges_v1.3.md)
-5. [Annex V v1.1 — Adjacent Standards and Research Relevance](06_ANNEX_V_Adjacent_Standards_and_Research_Relevance_v1.1.md)
+5. [Annex IV v1.0 — FG-TIDA ToR Mapping and Traceability](05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability_v1.0.md)
+6. [Annex V v1.1 — Adjacent Standards and Research Relevance](06_ANNEX_V_Adjacent_Standards_and_Research_Relevance_v1.1.md)
 
-There is **no Annex IV source in the current controlled candidate-case package**. This index therefore does not invent, renumber or silently reconstruct one.
+The six-document package is intentionally modular: the main case states the candidate shared problem; Annex I fixes the minimal operational case; Annex II tests bounded extensibility; Annex III preserves the solution-challenge surface; Annex IV maps those challenges to the FG-TIDA Terms of Reference; and Annex V identifies controlled interfaces with adjacent standards and research work.
 
 ## Central lineage to review
 
@@ -36,6 +37,7 @@ This leaves participating companies, research teams, open-source communities and
 | Annex I v0.3 | `02_ANNEX_I_Minimal_Operational_Case_Outline_v0.3.docx` | `332DA783C5A776351361B5A137C085DFDA75B6525E44991DBE4C7852B9293593` |
 | Annex II v1.2 | `03_ANNEX_II_Case_Extensibility_Upward_Downward_Horizontal_v1.2.docx` | `6EF93CA9DD7B276F0D87FDAF7455C764B29EFE74FFCBAC3CCA3CEBF27D2ECC86` |
 | Annex III v1.3 | `04_Annex_III_PostFreeze_Solution_Challenges_v1.3.docx` | `606C0C0783D0418DB8AFCE15F1B0431CEA01F27D8C951EC383D056FBE1772DFC` |
+| Annex IV v1.0 | `05_Annex_IV_FG-TIDA_ToR_Mapping_and_Traceability_v1.0.docx` | `8067F6BB2CD717CE410ED7361262F222C119424E17EA80F15147C619C262ACFB` |
 | Annex V v1.1 | `06_Annex_V_Adjacent_Standards_and_Research_Relevance_v1.1.docx` | `D15D3C4AC4BF6C480FD8B95D7F5D4A0273FA766DAE1A26A7A553A4EDC690B7DC` |
 
 The Markdown annexes preserve the substantive text, tables and hyperlinks of the controlled Word sources. The Word files remain the source-format records; these Markdown files are the public review layer.
