@@ -28,9 +28,11 @@ That division is consistent with the [FG-TIDA Terms of Reference](https://www.it
 
 ### Supporting package
 
+- [Package index and source custody](README.md)
 - [Annex I — Minimal Operational Case Outline](02_ANNEX_I_Minimal_Operational_Case_Outline_v0.3.md)
 - [Annex II — Why the Minimal Case Is Extensible](03_ANNEX_II_Case_Extensibility_Upward_Downward_Horizontal_v1.2.md)
 - [Annex III — Challenges Exposed by the Case](04_ANNEX_III_PostFreeze_Solution_Challenges_v1.3.md)
+- [Annex IV — FG-TIDA ToR Mapping and Traceability](05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability_v1.0.md)
 - [Annex V — Adjacent Standards and Research Relevance](06_ANNEX_V_Adjacent_Standards_and_Research_Relevance_v1.1.md)
 
 ## 1. Question and purpose
@@ -42,7 +44,7 @@ This document proposes one deliberately restricted case through which existing F
 The work is **pre-freeze**. Two things remain separate:
 
 - **Case-design gates D1–D3** determine whether the case is intelligible, boundedly extensible and properly traceable to the FG-TIDA Terms of Reference.
-- **Solution challenges S1–S12** identify trust, identity, delegation, oversight and interoperability questions that existing themes may test once the relevant case facts are stable.
+- **Solution challenges S1–S14** identify trust, identity, delegation, oversight and interoperability questions that existing themes may test once the relevant case facts are stable.
 
 A technically interesting challenge list cannot compensate for a case that is unclear, unbounded or outside the mandate.
 
@@ -197,7 +199,7 @@ The collaborative pre-freeze sequence is:
 2. test D1 across the four audiences;
 3. use the extension envelope only to test D2 and document its limits;
 4. refine the D3 ToR and theme interfaces;
-5. select the first subset of S1–S12;
+5. select the first subset of S1–S14;
 6. define the evidence available at each event in the restricted sequence;
 7. test positive, negative, indeterminate and adversarial variants; and
 8. freeze a numbered version only when the facts are stable enough to compare requirements consistently.
