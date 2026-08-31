@@ -1,6 +1,6 @@
 # Public-ready submissions and contributions
 
-This library contains material already transmitted to, acknowledged by or publicly discussed within United Nations and ITU technical processes. The repository remains private while the release package is curated, but the files are organized so that they can be made public through a single deliberate repository-visibility decision.
+This library contains material already transmitted to, acknowledged by or publicly discussed within United Nations and ITU technical processes. The repository is public for review and traceability; each package retains its own status and attribution limits.
 
 | Route | Contribution | Included record | Procedural status |
 |---|---|---|---|
