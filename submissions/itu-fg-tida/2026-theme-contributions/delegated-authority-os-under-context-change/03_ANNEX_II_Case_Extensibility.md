@@ -1,7 +1,7 @@
 # Annex II — Why the Minimal Case Is Extensible
 
 - **Version:** 1.2
-- **Parent case:** [TIDA — Delegated Authority OS under Context Change v0.6](01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md)
+- **Parent case:** [Annex I — Minimal Operational Case](02_ANNEX_I_Minimal_Operational_Case.md)
 - **Status:** Public pre-freeze working material; not an adopted FG-TIDA deliverable.
 
 The case is deliberately small, but it is not deliberately rigid. Annex I defines the deliberately restricted mobility instantiation. This Annex II tests whether its core concepts survive controlled changes in scale and service domain; it does not add those extensions to the initial case commitment. Upward extension adds actors, roles and objective layers; downward extension reduces the setting to a private factory or production cell; horizontal extension changes the service domain. An extension passes only if it can be represented without redefining the core meanings of principal, role, agent, authority, preference, policy, grant, commitment and decision. This is a design test, not a claim of universality.

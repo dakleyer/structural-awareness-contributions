@@ -1,7 +1,7 @@
 # Annex III — Challenges Exposed by the Case
 
 - **Version:** 1.3
-- **Parent case:** [TIDA — Delegated Authority OS under Context Change v0.6](01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md)
+- **Parent case:** [Annex I — Minimal Operational Case](02_ANNEX_I_Minimal_Operational_Case.md)
 - **Status:** Public working post-freeze challenge framework; not an adopted FG-TIDA deliverable.
 
 These are post-freeze solution challenges, not additional design challenges of the case itself. A theme, workstream or architecture does not need to solve the whole case. It should be able to test the challenge dimensions that fall within the scope it claims to cover against the same stable facts. The value of the case is precisely that it has enough depth to expose unresolved seams even when individual components appear to work.

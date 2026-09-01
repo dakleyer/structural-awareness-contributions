@@ -1,7 +1,7 @@
 # Annex IV — FG-TIDA Terms of Reference Mapping and Traceability
 
 - **Version:** 1.0
-- **Parent case:** [TIDA — Delegated Authority OS under Context Change v0.6](01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md)
+- **Parent case:** [Annex I — Minimal Operational Case](02_ANNEX_I_Minimal_Operational_Case.md)
 - **Status:** Public pre-freeze working annex; not an adopted FG-TIDA deliverable.
 
 ## Case-level anchor

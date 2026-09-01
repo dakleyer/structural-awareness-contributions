@@ -1,7 +1,7 @@
 # Annex V — Adjacent Standards and Research Relevance
 
 - **Version:** 1.1 (31 August 2026)
-- **Parent case:** [TIDA — Delegated Authority OS under Context Change v0.6](01_TIDA_Delegated_Authority_OS_under_Context_Change_v0.6.md)
+- **Parent case:** [Annex I — Minimal Operational Case](02_ANNEX_I_Minimal_Operational_Case.md)
 - **Status:** Public pre-freeze working annex; not an adopted FG-TIDA deliverable.
 
 Working note. The base case should be frozen early enough to remain usable. Adjacent groups should not continuously redesign that base. After the first stable version exists, however, the same case can become a shared stress-test substrate: another group may test its architecture against an existing challenge, propose a controlled variant, or add a clearly bounded challenge relevant to its mandate. Such extensions should be versioned and should not silently alter the frozen facts.
