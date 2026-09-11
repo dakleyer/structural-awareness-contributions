@@ -62,17 +62,17 @@ The first loop establishes the frame within which determination is expected to b
 
 Mission / objective / criticality
 
-\+ constraints and applicable authority
++ constraints and applicable authority
 
-\+ ecosystem sensitivity / exposure and consequence profile
++ ecosystem sensitivity / exposure and consequence profile
 
-\+ available observation / determination capacity and cost
++ available observation / determination capacity and cost
 
-\+ reachable response capability
++ reachable response capability
 
-\+ time horizon and reversibility
++ time horizon and reversibility
 
-\+ dependency assumptions
++ dependency assumptions
 
 → F1 Mission & Decision Context Qualification
 
@@ -98,19 +98,19 @@ Operational agents, tools, humans and external peers act inside or around that f
 
 local outputs and local epistemic states
 
-\+ external certainty / uncertainty signals
++ external certainty / uncertainty signals
 
-\+ measurement, drift and dependency evidence
++ measurement, drift and dependency evidence
 
 → F3 Local Epistemic State Qualification
 
-\+ F4 External Epistemic Signal Qualification
++ F4 External Epistemic Signal Qualification
 
 → F5 Scope-Indexed Epistemic Composition & Coupling Assessment
 
 → F6 Systemic Epistemic & Operating-Frame Assessment
 
-→ epistemic condition \+ operating posture
+→ epistemic condition + operating posture
 
 → F7 Requalification & Corrective Directive Generation
 
@@ -184,7 +184,7 @@ Type 1 and Type 2 detection therefore do not mechanically select a posture. They
 
 &nbsp;
 
-Presentation projection. F6's normative output remains scope-indexed. For display, alerting or routing, F8 or a downstream adapter may expose a deliberately lossy `Posture(D_receiver)` plus material qualifiers such as response-capacity sufficiency, response-window state, frame recoverability and transition readiness where relevant. The projection must identify its receiving decision scope and the domain(s) driving it, must not be treated as a composition input or averaged back into E*(d), and must not be represented as a single global ecosystem posture. If a defensible single projection cannot be produced for a multi-domain consumer, the system preserves the multi-domain posture state rather than fabricating a scalar or universal label.
+Presentation projection. F6's normative output remains scope-indexed. For display, alerting or routing, F8 or a downstream adapter may expose a deliberately lossy \`Posture(D\_receiver)\` plus material qualifiers such as response-capacity sufficiency, response-window state, frame recoverability and transition readiness where relevant. The projection must identify its receiving decision scope and the domain(s) driving it, must not be treated as a composition input or averaged back into E\*(d), and must not be represented as a single global ecosystem posture. If a defensible single projection cannot be produced for a multi-domain consumer, the system preserves the multi-domain posture state rather than fabricating a scalar or universal label.
 
 &nbsp;
 
@@ -196,7 +196,7 @@ U — bounded represented operational universe used in the foundational developm
 
 W(d) — active, domain- and decision-time-scoped working observation/context frame used by this functional architecture; it refines the operational boundary without closing Ω.
 
-A/B/C/D — epistemic classifications relative to the active scope/window; they are not a set-theoretic partition of Ω. C and D are not defined as subsets whose union equals the open residual R_U; no normative identity R = C ∪ D is assumed.
+A/B/C/D — epistemic classifications relative to the active scope/window; they are not a set-theoretic partition of Ω. C and D are not defined as subsets whose union equals the open residual R\_U; no normative identity R = C ∪ D is assumed.
 
 Type 0 — structural qualification; Type 1/Type 2 — failures of epistemic management.
 
@@ -242,31 +242,31 @@ Establish what must be epistemically justified for the current operation before 
 
 Inputs
 
-\- mission, task or objective envelope;
+- mission, task or objective envelope;
 
-\- material decision domains and intended outputs;
+- material decision domains and intended outputs;
 
-\- criticality and stakes;
+- criticality and stakes;
 
-\- ecosystem sensitivity/exposure: which environmental, human, agentic or dependency changes could materially alter the decision and how quickly;
+- ecosystem sensitivity/exposure: which environmental, human, agentic or dependency changes could materially alter the decision and how quickly;
 
-\- consequence severity and tolerated residual by domain;
+- consequence severity and tolerated residual by domain;
 
-\- hard constraints, applicable policy and authority;
+- hard constraints, applicable policy and authority;
 
-\- reversibility and acceptable failure consequences;
+- reversibility and acceptable failure consequences;
 
-\- time horizon and decision deadline;
+- time horizon and decision deadline;
 
-\- autonomy and action scope;
+- autonomy and action scope;
 
-\- known human, agentic and environmental dependencies;
+- known human, agentic and environmental dependencies;
 
-\- reachable response capabilities, including containment, fallback, human intervention and migration capabilities;
+- reachable response capabilities, including containment, fallback, human intervention and migration capabilities;
 
-\- available observation/determination capacity and burden: compute, context, latency, bandwidth, privacy/disclosure cost, evidence access and human attention;
+- available observation/determination capacity and burden: compute, context, latency, bandwidth, privacy/disclosure cost, evidence access and human attention;
 
-\- current operating-frame assumptions.
+- current operating-frame assumptions.
 
 &nbsp;
 
@@ -286,25 +286,25 @@ F1 must not assume that maximum information is optimal. The required determinati
 
 Outputs
 
-\- Operation Context Profile;
+- Operation Context Profile;
 
-\- material domain set D = {d1…dn};
+- material domain set D = {d1…dn};
 
-\- required determination/sufficiency criteria by domain;
+- required determination/sufficiency criteria by domain;
 
-\- dependency and coupling hypotheses;
+- dependency and coupling hypotheses;
 
-\- response and warning horizon;
+- response and warning horizon;
 
-\- criticality, ecosystem-sensitivity/exposure and reversibility profile;
+- criticality, ecosystem-sensitivity/exposure and reversibility profile;
 
-\- observation/determination capacity and burden profile;
+- observation/determination capacity and burden profile;
 
-\- tolerated residual / decision-risk tolerance by domain;
+- tolerated residual / decision-risk tolerance by domain;
 
-\- applicable validity assumptions;
+- applicable validity assumptions;
 
-\- triggers requiring context requalification.
+- triggers requiring context requalification.
 
 &nbsp;
 
@@ -324,27 +324,27 @@ Construct and continuously maintain the minimum sufficient observation/context w
 
 Inputs
 
-\- Operation Context Profile from F1;
+- Operation Context Profile from F1;
 
-\- technically observable sources, sensors, memory, retrieval systems, tools and peer interfaces;
+- technically observable sources, sensors, memory, retrieval systems, tools and peer interfaces;
 
-\- current W(d);
+- current W(d);
 
-\- evidence availability and access constraints;
+- evidence availability and access constraints;
 
-\- compute, latency and context budgets;
+- compute, latency and context budgets;
 
-\- human-attention, evidence-access, communication, privacy/disclosure and other observation-cost constraints;
+- human-attention, evidence-access, communication, privacy/disclosure and other observation-cost constraints;
 
-\- domain sensitivity/exposure and tolerated residual from F1;
+- domain sensitivity/exposure and tolerated residual from F1;
 
-\- source and dependency map;
+- source and dependency map;
 
-\- freshness requirements;
+- freshness requirements;
 
-\- feedback and revalidation triggers;
+- feedback and revalidation triggers;
 
-\- required response horizon.
+- required response horizon.
 
 &nbsp;
 
@@ -384,20 +384,20 @@ The window must be revisable. F2 may widen, narrow or redirect attention when mi
 
 Outputs
 
-\- qualified Window Profile W(d);
+- qualified Window Profile W(d);
 
-\- included scope and material exclusions;
+- included scope and material exclusions;
 
-\- known limitations and unknown-scope markers;
+- known limitations and unknown-scope markers;
 
-\- coverage and freshness state;
+- coverage and freshness state;
 
-\- required evidence/source classes;
+- required evidence/source classes;
 
-\- dependency visibility state;
+- dependency visibility state;
 
-\- revalidation conditions and validity interval;
+- revalidation conditions and validity interval;
 
-\- candidate expansion paths;
+- candidate expansion paths;
 
-\-
+- 
