@@ -1,4 +1,4 @@
-asoning becomes Type 1.
+asoning becomes Type 1\.
 
 &nbsp;
 
@@ -230,7 +230,7 @@ Identity is evidence about the actor/binding; it does not predict behaviour and 
 
 Generic role
 
-Specifies where authority originated, the grant/mandate, scope, limits, conditions, delegation chain, version and revocation/standing. This aligns closely with FG-TIDA Theme #5 and with ordinary authorization systems.
+Specifies where authority originated, the grant/mandate, scope, limits, conditions, delegation chain, version and revocation/standing. This aligns closely with FG-TIDA Theme \#5 and with ordinary authorization systems.
 
 &nbsp;
 
@@ -286,7 +286,7 @@ EA consumes authority state. It does not originate a grant or decide legal stand
 
 Generic role
 
-Produces evidence about runtime, code/data/policy/model/harness or interaction state; a verifier appraises that evidence and produces an Attestation Result for a relying party. RFC 9334 RATS provides the canonical Evidence → Verifier → Attestation Result architecture. Current FG-TIDA Theme #22 explores its agentic extension.
+Produces evidence about runtime, code/data/policy/model/harness or interaction state; a verifier appraises that evidence and produces an Attestation Result for a relying party. RFC 9334 RATS provides the canonical Evidence → Verifier → Attestation Result architecture. Current FG-TIDA Theme \#22 explores its agentic extension.
 
 &nbsp;
 
@@ -340,7 +340,7 @@ A valid Attestation Result establishes what the verifier vouches for under its a
 
 Generic role
 
-Defines the authored policy/intent reference and evaluates an action against it at runtime. This aligns closely with FG-TIDA Theme #6.
+Defines the authored policy/intent reference and evaluates an action against it at runtime. This aligns closely with FG-TIDA Theme \#6.
 
 &nbsp;
 
@@ -398,7 +398,7 @@ A conformance verdict answers whether observed/action behaviour conforms to a re
 
 Generic role
 
-Checks whether evidence/records/claims are entitled to be relied upon and produces explicit appraisal or rejection outcomes. This aligns with RATS appraisal and FG-TIDA Theme #7 / the appraisal half incorporated into Theme #6.
+Checks whether evidence/records/claims are entitled to be relied upon and produces explicit appraisal or rejection outcomes. This aligns with RATS appraisal and FG-TIDA Theme \#7 / the appraisal half incorporated into Theme \#6.
 
 &nbsp;
 
@@ -448,7 +448,7 @@ Evidence-side failure and action-side indeterminate remain different semantic ca
 
 Generic role
 
-Manages escalation, qualified reviewers, human authority, decision rights, intervention records, bounded mandates and return-to-operation conditions. This aligns closely with FG-TIDA Theme #16.
+Manages escalation, qualified reviewers, human authority, decision rights, intervention records, bounded mandates and return-to-operation conditions. This aligns closely with FG-TIDA Theme \#16.
 
 &nbsp;
 
@@ -562,7 +562,7 @@ EA interprets the epistemic significance of telemetry. It does not replace the t
 
 Generic role
 
-Records at action time enough information for a later party to establish who acted, under what authority and scope, and to verify that the record/claims have not been altered. This aligns closely with FG-TIDA Theme #1.
+Records at action time enough information for a later party to establish who acted, under what authority and scope, and to verify that the record/claims have not been altered. This aligns closely with FG-TIDA Theme \#1.
 
 &nbsp;
 
@@ -614,7 +614,7 @@ The record preserves evidence for reconstruction. It does not itself prove that 
 
 Generic role
 
-Reads many records/measurements to determine what can be concluded at population or evaluator-family scale when single records cannot establish certain claims. This aligns with FG-TIDA Theme #21 and parts of Theme #18.
+Reads many records/measurements to determine what can be concluded at population or evaluator-family scale when single records cannot establish certain claims. This aligns with FG-TIDA Theme \#21 and parts of Theme \#18.
 
 &nbsp;
 
@@ -668,7 +668,7 @@ Population size can reduce sampling uncertainty but does not automatically remov
 
 Generic role
 
-Controls what identity, authority, context, trust, behavioural, telemetry and audit information each party may learn, retain or disclose. This aligns with FG-TIDA Theme #19 and standard privacy-preserving design.
+Controls what identity, authority, context, trust, behavioural, telemetry and audit information each party may learn, retain or disclose. This aligns with FG-TIDA Theme \#19 and standard privacy-preserving design.
 
 &nbsp;
 
