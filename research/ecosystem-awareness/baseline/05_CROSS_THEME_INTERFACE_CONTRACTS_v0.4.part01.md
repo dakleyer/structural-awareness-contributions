@@ -46,7 +46,7 @@ Cross-layer namespace: `IF-S#` denotes Functional Interface S#; `CH-S#` denotes 
 
 &nbsp;
 
-1\. Common contract rules
+1. Common contract rules
 
 &nbsp;
 
@@ -136,7 +136,7 @@ Where the acquisition path is itself a tool/API/resource or a human reporting/re
 
 &nbsp;
 
-2\. Common Theme → EA kernel
+2. Common Theme → EA kernel
 
 &nbsp;
 
@@ -148,17 +148,12 @@ Beyond that kernel, contract-level fields may include:
 
 &nbsp;
 
-\- result / claim: what the producer concluded or emitted;
-
-\- scope / coverage: the decision domain, action, population, component, geography, time horizon or other boundary to which the claim applies, including known exclusions where material;
-
-\- source / provenance: who produced the claim and the relevant provenance/source relationship;
-
-\- evidence class: observed/measured versus derived/inferred/aggregated where material;
-
-\- temporal validity: as-of, freshness, validity or revalidation condition where time affects reliance;
-
-\- unknown qualifiers: material qualifiers the producer did not establish.
+- result / claim: what the producer concluded or emitted;
+- scope / coverage: the decision domain, action, population, component, geography, time horizon or other boundary to which the claim applies, including known exclusions where material;
+- source / provenance: who produced the claim and the relevant provenance/source relationship;
+- evidence class: observed/measured versus derived/inferred/aggregated where material;
+- temporal validity: as-of, freshness, validity or revalidation condition where time affects reliance;
+- unknown qualifiers: material qualifiers the producer did not establish.
 
 &nbsp;
 
@@ -170,19 +165,15 @@ Mission-side risk/capacity note. Ecosystem sensitivity/exposure, consequence sev
 
 &nbsp;
 
-\- dependency / correlation / source-independence information;
-
-\- human/compute/evidence/authority/time capacity binding;
-
-\- uncertainty/confidence/evidence-sufficiency semantics;
-
-\- inherited upstream indeterminacy;
-
-\- interaction/action binding for ephemeral agents or action-specific claims.
+- dependency / correlation / source-independence information;
+- human/compute/evidence/authority/time capacity binding;
+- uncertainty/confidence/evidence-sufficiency semantics;
+- inherited upstream indeterminacy;
+- interaction/action binding for ephemeral agents or action-specific claims.
 
 &nbsp;
 
-3\. Common EA → Theme kernel
+3. Common EA → Theme kernel
 
 &nbsp;
 
@@ -218,7 +209,7 @@ Every EA output carries EA’s own scope/coverage/unknown/residual qualification
 
 &nbsp;
 
-4\. Provisional contract — Theme #13 Ecosystem-level Agent Defense / Incident Signal Exchange
+4. Provisional contract — Theme #13 Ecosystem-level Agent Defense / Incident Signal Exchange
 
 &nbsp;
 
@@ -233,16 +224,11 @@ Theme #13 owns incident-signal lifecycle, corroboration, affected-scope/blast-ra
 &nbsp;
 
 Stable profile may declare:
-
-\- signal type/taxonomy and lifecycle semantics;
-
-\- normal observed-versus-derived classification;
-
-\- provenance/reporter relationship vocabulary;
-
-\- blast-radius/dependency representation semantics;
-
-\- containment-response vocabulary and normal validity rules.
+- signal type/taxonomy and lifecycle semantics;
+- normal observed-versus-derived classification;
+- provenance/reporter relationship vocabulary;
+- blast-radius/dependency representation semantics;
+- containment-response vocabulary and normal validity rules.
 
 &nbsp;
 
@@ -251,26 +237,16 @@ Where #13 exposes stable properties of the signalling mechanism itself, those pr
 &nbsp;
 
 Per handoff where material:
-
-\- observed condition / derived determination;
-
-\- issuer/reporter and provenance;
-
-\- scope and freshness/as-of;
-
-\- evidence/confidence semantics;
-
-\- affected and potentially affected scope;
-
-\- corroboration/amendment history;
-
-\- source-dependence/correlation information where known;
-
-\- response/containment reach and response window;
-
-\- unresolved/unknown qualifiers;
-
-\- resolution/correction state.
+- observed condition / derived determination;
+- issuer/reporter and provenance;
+- scope and freshness/as-of;
+- evidence/confidence semantics;
+- affected and potentially affected scope;
+- corroboration/amendment history;
+- source-dependence/correlation information where known;
+- response/containment reach and response window;
+- unresolved/unknown qualifiers;
+- resolution/correction state.
 
 &nbsp;
 
@@ -284,128 +260,4 @@ If several signalling/acquisition routes are available, EA may use F2.APQ to det
 
 &nbsp;
 
-EA → #13
-
-&nbsp;
-
-\- affected decision domains/dependencies;
-
-\- qualified system-level determination/residual indeterminacy for the relevant incident scope;
-
-\- source-dependence or unresolved-coupling warning;
-
-\- specific corroboration/requalification target;
-
-\- qualified operating posture relevant to containment consumers;
-
-\- where material, a statement that further corroboration/observation is or is not proportionate to the current sensitivity, available response capacity and response window;
-
-\- EA scope/coverage/unknowns for the assessment.
-
-&nbsp;
-
-What #13 is expected to do with EA output
-
-#13 may use the assessment to prioritize corroboration, distinguish locally strong but systemically insufficient evidence, refine affected-scope interpretation, select among already-authorized containment options, or determine that more evidence/requalification is needed before expanding containment. EA does not issue containment authority and does not replace the #13 signal lifecycle.
-
-&nbsp;
-
-Validation Profile traceability
-
-Primary: UC-EA-02 and UC-EA-04. External validation: FG-TIDA/use-cases #4. Supports UC-EA-01 when incident/context change affects frame validity.
-
-&nbsp;
-
-5\. Provisional contract — Theme #16 Operational Human Oversight
-
-&nbsp;
-
-Interface role
-
-Theme #16 owns human-intervention lifecycle, human authority/decision rights, intervention evidence, bounded mandates where applicable, reconciliation and return to operation. EA treats effective human capacity and the resulting decision as qualified inputs, not as automatic epistemic repair.
-
-&nbsp;
-
-#16 → EA
-
-&nbsp;
-
-Stable profile may declare:
-
-\- oversight lifecycle/state semantics;
-
-\- reviewer-role and authority vocabulary;
-
-\- capacity-state vocabulary;
-
-\- evidence-status / decision-status vocabulary;
-
-\- return-to-operation semantics.
-
-&nbsp;
-
-Per handoff where material:
-
-\- required human role and authority reference;
-
-\- effective human capacity: available / binding / unavailable / equivalent;
-
-\- useful response/intervention window;
-
-\- reviewer information scope / coverage;
-
-\- evidence sufficiency or limitations;
-
-\- human decision and its scope;
-
-\- intervention mandate/validity where used;
-
-\- intervention outcome/reconciliation state;
-
-\- material change since the decision;
-
-\- unknown qualifiers.
-
-&nbsp;
-
-What EA does with it
-
-EA determines whether the human path is an effective current dependency rather than a nominal role; checks whether reviewer scope covers the domain creating the systemic condition; prevents a human approval from retroactively curing contrary evidence unless new evidence actually requalifies that domain; and incorporates capacity into frame/posture assessment. Repeated review/evidence requests are also treated as consumption of finite extended-system capacity, so EA can distinguish a useful escalation from Type-1 escalation that is depleting the very human capacity needed for recovery.
-
-&nbsp;
-
-EA → #16
-
-&nbsp;
-
-\- domain/dependency creating the systemic concern;
-
-\- whether the current oversight evidence frame is sufficient for that domain;
-
-\- residual/structural limitations relevant to the intervention;
-
-\- specific information or requalification needed for a human decision to affect the domain;
-
-\- whether human capacity is itself binding;
-
-\- qualified Normal / Containment / potential Regime-Transition posture;
-
-\- EA scope/coverage/unknowns.
-
-&nbsp;
-
-What #16 is expected to do with EA output
-
-#16 uses the result to qualify the intervention path, decide whether ordinary escalation remains meaningful, target the correct reviewer/information set, avoid repeated ineffective escalation, preserve scarce human attention when additional review has low decision value, and re-evaluate return to operation. #16 retains human authority and intervention ownership.
-
-&nbsp;
-
-Validation Profile traceability
-
-Primary: UC-EA-03; supporting UC-EA-01.
-
-&nbsp;
-
-6\. Provisional contract — Theme #6 Intent/Policy Runtime Conformance
-
-&nb
+EA 
