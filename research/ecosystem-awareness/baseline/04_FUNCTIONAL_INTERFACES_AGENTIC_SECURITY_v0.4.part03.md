@@ -2,7 +2,7 @@ l / Incident Exchange & Defence
 
 Generic role
 
-Distributes, amends/corroborates and correlates ecosystem-relevant signals; represents affected scope/blast radius and may feed containment/resolution. This aligns closely with FG-TIDA Theme #13.
+Distributes, amends/corroborates and correlates ecosystem-relevant signals; represents affected scope/blast radius and may feed containment/resolution. This aligns closely with FG-TIDA Theme \#13.
 
 &nbsp;
 
@@ -86,7 +86,7 @@ F4, F5, F6, F7, F8, F9.
 
 Boundary
 
-Signal infrastructure carries and correlates claims. EA assesses what those claims justify epistemically. Signal exchange does not create authority. The current FG-TIDA Theme #13 / incident-signal-and-blast-radius direction is therefore a concrete S11 peer capability that EA can consume rather than reproduce. EA may also be required when no incident or malicious agent exists—for example, when honest locally correct subsystems remain epistemically fragmented at composition level—so S11 is an important interface, not the semantic boundary of Ecosystem Awareness. EA does not rank or certify S11 mechanisms globally. It qualifies the sufficiency of an available route for a stated decision and preserves the distinction between declared mechanism properties and independently supported properties.
+Signal infrastructure carries and correlates claims. EA assesses what those claims justify epistemically. Signal exchange does not create authority. The current FG-TIDA Theme \#13 / incident-signal-and-blast-radius direction is therefore a concrete S11 peer capability that EA can consume rather than reproduce. EA may also be required when no incident or malicious agent exists—for example, when honest locally correct subsystems remain epistemically fragmented at composition level—so S11 is an important interface, not the semantic boundary of Ecosystem Awareness. EA does not rank or certify S11 mechanisms globally. It qualifies the sufficiency of an available route for a stated decision and preserves the distinction between declared mechanism properties and independently supported properties.
 
 &nbsp;
 
@@ -150,7 +150,7 @@ EA identifies the epistemic need and target. Enforcement/recovery functions own 
 
 Generic role
 
-Provides the trust framework, assurance levels, jurisdictional constraints, mutual-recognition/equivalence mappings and governance references under which identity, authority, evidence and interaction are interpreted. This corresponds to ordinary enterprise/government trust frameworks and is adjacent to FG-TIDA Themes #3 and #8.
+Provides the trust framework, assurance levels, jurisdictional constraints, mutual-recognition/equivalence mappings and governance references under which identity, authority, evidence and interaction are interpreted. This corresponds to ordinary enterprise/government trust frameworks and is adjacent to FG-TIDA Themes \#3 and \#8.
 
 &nbsp;
 
@@ -268,7 +268,7 @@ For a simple local agent, the minimum may be:
 
 \- O1 mission/orchestration context, including enough sensitivity/exposure, consequence/reversibility and finite capacity information to calibrate the required awareness burden;
 
-\- O3 local output + EHD;
+\- O3 local output \+ EHD;
 
 \- O4/O5 context and tool state where used;
 
@@ -374,43 +374,43 @@ RFC 9334 RATS gives a mature generic architecture for Attester → Evidence → 
 
 &nbsp;
 
-FG-TIDA Theme #5 provides a strong emerging boundary for provenance of authority: origination, grant content, limits, delegation/redelegation, revocation and anchor integrity.
+FG-TIDA Theme \#5 provides a strong emerging boundary for provenance of authority: origination, grant content, limits, delegation/redelegation, revocation and anchor integrity.
 
 &nbsp;
 
-FG-TIDA Theme #6 provides a strong emerging boundary for intent/policy expression and runtime conformance verdicts, including explicit indeterminate, scope, issuer binding and named/versioned references.
+FG-TIDA Theme \#6 provides a strong emerging boundary for intent/policy expression and runtime conformance verdicts, including explicit indeterminate, scope, issuer binding and named/versioned references.
 
 &nbsp;
 
-FG-TIDA Theme #7 contributes verifier-side appraisal/rejection semantics and negative vectors rather than a competing standalone layer.
+FG-TIDA Theme \#7 contributes verifier-side appraisal/rejection semantics and negative vectors rather than a competing standalone layer.
 
 &nbsp;
 
-FG-TIDA Theme #1 provides a strong emerging boundary for verifiable action records and the properties carried claims need for later reconstruction.
+FG-TIDA Theme \#1 provides a strong emerging boundary for verifiable action records and the properties carried claims need for later reconstruction.
 
 &nbsp;
 
-FG-TIDA Theme #16 provides the human-oversight lifecycle and, critically for Ecosystem Awareness, human-capacity state as an input rather than transferring oversight ownership into EA.
+FG-TIDA Theme \#16 provides the human-oversight lifecycle and, critically for Ecosystem Awareness, human-capacity state as an input rather than transferring oversight ownership into EA.
 
 &nbsp;
 
-FG-TIDA Theme #21 provides a population-level reading layer that explicitly distinguishes sampling uncertainty from structural indeterminacy and hands operational use back to oversight/EA-like consumers.
+FG-TIDA Theme \#21 provides a population-level reading layer that explicitly distinguishes sampling uncertainty from structural indeterminacy and hands operational use back to oversight/EA-like consumers.
 
 &nbsp;
 
-FG-TIDA Theme #19 provides privacy/minimum-disclosure requirements across identity, authorization and audit artefacts.
+FG-TIDA Theme \#19 provides privacy/minimum-disclosure requirements across identity, authorization and audit artefacts.
 
 &nbsp;
 
-FG-TIDA Theme #13 provides the closest current ecosystem-signal and defence interface: shared signals, provenance/confidence/freshness/scope, correlation/blast radius and containment lifecycle.
+FG-TIDA Theme \#13 provides the closest current ecosystem-signal and defence interface: shared signals, provenance/confidence/freshness/scope, correlation/blast radius and containment lifecycle.
 
 &nbsp;
 
-FG-TIDA Theme #22 provides the emerging agentic Remote Attestation interface and is already converging with Theme #6 around attested policy/version, verifier relationship and interaction-bound evidence.
+FG-TIDA Theme \#22 provides the emerging agentic Remote Attestation interface and is already converging with Theme \#6 around attested policy/version, verifier relationship and interaction-bound evidence.
 
 &nbsp;
 
-Themes #18, #20 and the model-level/trust-mechanics work provide specialized evidence sources and profiles that can be consumed through the generic interfaces above without changing F1–F9.
+Themes \#18, \#20 and the model-level/trust-mechanics work provide specialized evidence sources and profiles that can be consumed through the generic interfaces above without changing F1–F9.
 
 &nbsp;
 
