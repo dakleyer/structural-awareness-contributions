@@ -62,7 +62,7 @@ Structural residual. The agent recognizes that there will always be decision-rel
 
 &nbsp;
 
-Relation to the open residual. C and D are epistemic classifications relative to the active scope/window, not set-theoretic subsets whose union is defined to equal R\_U. No normative identity R \= C ∪ D is assumed. C identifies recognized potentially knowable out-of-window state that may justify bounded expansion; D preserves the structural residual whose exhaustive discovery cannot be presumed. O1 governs bounded expansion toward C-type state, O0 preserves D-type residual awareness, and O2 prevents the current window from being promoted into ecosystem completeness.
+Relation to the open residual. C and D are epistemic classifications relative to the active scope/window, not set-theoretic subsets whose union is defined to equal R\_U. No normative identity R = C ∪ D is assumed. C identifies recognized potentially knowable out-of-window state that may justify bounded expansion; D preserves the structural residual whose exhaustive discovery cannot be presumed. O1 governs bounded expansion toward C-type state, O0 preserves D-type residual awareness, and O2 prevents the current window from being promoted into ecosystem completeness.
 
 &nbsp;
 
@@ -98,7 +98,7 @@ At ecosystem level, lower epistemic risk is associated with preserving the four-
 
 # Part I — Six internal epistemic controls
 
-These controls apply to the agent’s own state. They apply one structural condition (Type 0\) and two management failure classes (Type 1 and Type 2\) separately inside and outside the observation window.
+These controls apply to the agent’s own state. They apply one structural condition (Type 0) and two management failure classes (Type 1 and Type 2) separately inside and outside the observation window.
 
 &nbsp;
 
@@ -114,7 +114,7 @@ Control intent: distinguish incomplete effort from a condition that is not suffi
 
 Question: For what I know is unresolved inside the window, is there a bounded and justified path toward further determination?
 
-Control intent: prevent indefinite HOLD, escalation, retrieval, compute, human waiting or context expansion. Uncertainty may remain while operational closure proceeds under an explicitly bounded rule. The bound should reflect marginal decision value as well as resource consumption: repeated evidence requests, recursive agents, additional compute and human escalation can deplete the extended system's future determination capacity and thereby amplify Type 1\.
+Control intent: prevent indefinite HOLD, escalation, retrieval, compute, human waiting or context expansion. Uncertainty may remain while operational closure proceeds under an explicitly bounded rule. The bound should reflect marginal decision value as well as resource consumption: repeated evidence requests, recursive agents, additional compute and human escalation can deplete the extended system's future determination capacity and thereby amplify Type 1.
 
 &nbsp;
 
@@ -184,7 +184,7 @@ Control intent: absence of reported uncertainty is not evidence of absence of un
 
 Question: Does the source’s uncertainty statement say anything about the limits of its observation window and structural residual, or only about uncertainty inside what it observed?
 
-Control intent: never interpret “my uncertainty \= 0.3” as “ecosystem uncertainty is 0.3” unless the scope of that statement justifies the inference. If the source window or residual treatment is unknown, keep that qualifier unknown.
+Control intent: never interpret “my uncertainty is 0.3” as “ecosystem uncertainty is 0.3” unless the scope of that statement justifies the inference. If the source window or residual treatment is unknown, keep that qualifier unknown.
 
 &nbsp;
 
@@ -210,7 +210,7 @@ A source is a source, not the ecosystem.
 
 &nbsp;
 
-If another participant reports “uncertainty \= 0.3”, the first justified statement is only: “Source S reports uncertainty 0.3 about proposition P under whatever scope and method have actually been provided.” The receiver may integrate that signal with other evidence, but must not silently assume the source’s window, coverage, independence, method, completeness or ecosystem representativeness.
+If another participant reports “uncertainty = 0.3”, the first justified statement is only: “Source S reports uncertainty 0.3 about proposition P under whatever scope and method have actually been provided.” The receiver may integrate that signal with other evidence, but must not silently assume the source’s window, coverage, independence, method, completeness or ecosystem representativeness.
 
 &nbsp;
 
