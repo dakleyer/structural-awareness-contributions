@@ -82,45 +82,45 @@ Conditional-field rule. A qualifier is required when its absence can change the 
 
 &nbsp;
 
-Irreducible interoperability kernel. To avoid every implementation selecting a mutually incompatible subset, an EHD intended for cross-component interoperability should expose at least six semantic elements, each of which may itself contain an explicit UNKNOWN where the producer cannot establish the value: (1) producer-profile reference and version, or an inline-equivalent semantic/profile identifier when no separate profile artifact is used; (2) subject/proposition/decision-domain together with the scope to which the statement applies; (3) producer/issuer; (4) operational result/closure; (5) determination state; and (6) an explicit unknown-qualifier declaration identifying material qualification that was not established. This is a parseability/interoperability minimum, not a completeness claim. Freshness, observed-versus-derived status, evidence class, window-selection basis, capacity, dependency/coupling and other fields remain conditional when they are material to the relying decision. A producer that cannot establish scope does not omit the element; it carries scope \= UNKNOWN.
+Irreducible interoperability kernel. To avoid every implementation selecting a mutually incompatible subset, an EHD intended for cross-component interoperability should expose at least six semantic elements, each of which may itself contain an explicit UNKNOWN where the producer cannot establish the value: (1) producer-profile reference and version, or an inline-equivalent semantic/profile identifier when no separate profile artifact is used; (2) subject/proposition/decision-domain together with the scope to which the statement applies; (3) producer/issuer; (4) operational result/closure; (5) determination state; and (6) an explicit unknown-qualifier declaration identifying material qualification that was not established. This is a parseability/interoperability minimum, not a completeness claim. Freshness, observed-versus-derived status, evidence class, window-selection basis, capacity, dependency/coupling and other fields remain conditional when they are material to the relying decision. A producer that cannot establish scope does not omit the element; it carries scope = UNKNOWN.
 
 &nbsp;
 
 Core fields extending the interoperability kernel
 
-\- subject / proposition / decision domain: what the statement is about;
+- subject / proposition / decision domain: what the statement is about;
 
-\- scope: the population, subsystem, geography, time horizon, action, policy domain or other bounded area to which the statement applies;
+- scope: the population, subsystem, geography, time horizon, action, policy domain or other bounded area to which the statement applies;
 
-\- producer / issuer: which agent, human, verifier, service or subsystem issued the statement;
+- producer / issuer: which agent, human, verifier, service or subsystem issued the statement;
 
-\- operational result / closure: what the producer decided or emitted;
+- operational result / closure: what the producer decided or emitted;
 
-\- determination state: determined, indeterminate, fallback, held or an implementation-equivalent state;
+- determination state: determined, indeterminate, fallback, held or an implementation-equivalent state;
 
-\- uncertainty statement: the reported uncertainty/confidence, if any, together with its semantics; a number without semantics is not sufficient;
+- uncertainty statement: the reported uncertainty/confidence, if any, together with its semantics; a number without semantics is not sufficient;
 
-\- as-of / freshness: when the supporting state was valid or observed;
+- as-of / freshness: when the supporting state was valid or observed;
 
-\- unknown qualifiers: qualifiers the producer cannot establish and therefore explicitly leaves unknown.
+- unknown qualifiers: qualifiers the producer cannot establish and therefore explicitly leaves unknown.
 
 &nbsp;
 
 Window-qualification fields
 
-\- window / observation-boundary descriptor: the relevant context or evidence boundary used for the statement, at an abstraction level that does not require disclosure of the private window;
+- window / observation-boundary descriptor: the relevant context or evidence boundary used for the statement, at an abstraction level that does not require disclosure of the private window;
 
-\- window-selection basis: why that boundary was considered sufficient for the task, e.g. mission relevance, policy scope, evidence class, coverage rule, criticality, ecosystem sensitivity/exposure, consequence severity, reversibility, tolerated residual, observation/determination burden, response horizon or bounded stopping rule;
+- window-selection basis: why that boundary was considered sufficient for the task, e.g. mission relevance, policy scope, evidence class, coverage rule, criticality, ecosystem sensitivity/exposure, consequence severity, reversibility, tolerated residual, observation/determination burden, response horizon or bounded stopping rule;
 
-\- included scope and known exclusions;
+- included scope and known exclusions;
 
-\- validity interval or revalidation condition;
+- validity interval or revalidation condition;
 
-\- coverage statement where meaningful;
+- coverage statement where meaningful;
 
-\- expansion capability: known evidence, sources or context that could in principle be brought into the window if further determination is justified;
+- expansion capability: known evidence, sources or context that could in principle be brought into the window if further determination is justified;
 
-\- residual statement: what the producer acknowledges cannot be presumed exhaustively known or enumerated.
+- residual statement: what the producer acknowledges cannot be presumed exhaustively known or enumerated.
 
 &nbsp;
 
@@ -146,15 +146,15 @@ Uncertainty-method fields
 
 When a producer reports confidence or uncertainty, it should identify enough of the interpretation to prevent category error:
 
-\- whether the value is probability, model confidence, calibration score, qualitative class, evidence sufficiency, disagreement, residual estimate or another construct;
+- whether the value is probability, model confidence, calibration score, qualitative class, evidence sufficiency, disagreement, residual estimate or another construct;
 
-\- the proposition and window/scope to which it applies;
+- the proposition and window/scope to which it applies;
 
-\- the method, evaluator, threshold, policy or reference identifier when one exists;
+- the method, evaluator, threshold, policy or reference identifier when one exists;
 
-\- known calibration or applicability limits when material;
+- known calibration or applicability limits when material;
 
-\- whether the value is direct, inherited or aggregated from upstream sources.
+- whether the value is direct, inherited or aggregated from upstream sources.
 
 &nbsp;
 
@@ -162,19 +162,19 @@ Dependency and capacity fields
 
 Where material:
 
-\- provenance/source class;
+- provenance/source class;
 
-\- direct versus inherited evidence;
+- direct versus inherited evidence;
 
-\- source independence or shared-source dependency where known;
+- source independence or shared-source dependency where known;
 
-\- unresolved upstream dependencies;
+- unresolved upstream dependencies;
 
-\- human, compute, evidence, authority or time capacity binding;
+- human, compute, evidence, authority or time capacity binding;
 
-\- observation/determination burden or capacity consumption where material to deciding whether further awareness is proportionate;
+- observation/determination burden or capacity consumption where material to deciding whether further awareness is proportionate;
 
-\- source/producer relationship such as self, contracted or independent where relevant to interpretation.
+- source/producer relationship such as self, contracted or independent where relevant to interpretation.
 
 &nbsp;
 
@@ -258,43 +258,43 @@ Defines the task, workflow, objective, execution graph, dependencies, criticalit
 
 Inputs to Ecosystem Awareness
 
-\- mission/task identifier and objective;
+- mission/task identifier and objective;
 
-\- material decision/output domains;
+- material decision/output domains;
 
-\- criticality/stakes and reversibility;
+- criticality/stakes and reversibility;
 
-\- ecosystem sensitivity/exposure and consequence severity by material domain where available;
+- ecosystem sensitivity/exposure and consequence severity by material domain where available;
 
-\- tolerated residual / decision-risk tolerance where defined;
+- tolerated residual / decision-risk tolerance where defined;
 
-\- available observation/determination budget or capacity constraints at the orchestration level;
+- available observation/determination budget or capacity constraints at the orchestration level;
 
-\- expected workflow or dependency graph at the needed abstraction level;
+- expected workflow or dependency graph at the needed abstraction level;
 
-\- deadlines/time horizon;
+- deadlines/time horizon;
 
-\- available fallback/containment/recovery/migration capabilities;
+- available fallback/containment/recovery/migration capabilities;
 
-\- current task state and material changes to the workflow;
+- current task state and material changes to the workflow;
 
-\- relevant authority/policy references.
+- relevant authority/policy references.
 
 &nbsp;
 
 EA outputs to this function
 
-\- qualified operating posture from F6;
+- qualified operating posture from F6;
 
-\- affected domains/dependencies;
+- affected domains/dependencies;
 
-\- domain-targeted requalification directives from F7;
+- domain-targeted requalification directives from F7;
 
-\- requests to alter scope, pause boundedly, re-evaluate or change the observation frame;
+- requests to alter scope, pause boundedly, re-evaluate or change the observation frame;
 
-\- epistemic statement explaining what remains determined/indeterminate for orchestration purposes;
+- epistemic statement explaining what remains determined/indeterminate for orchestration purposes;
 
-\- current window-selection / sensitivity-capacity mismatch where observation effort is materially too high or too low for the receiving decision.
+- current window-selection / sensitivity-capacity mismatch where observation effort is materially too high or too low for the receiving decision.
 
 &nbsp;
 
@@ -320,31 +320,31 @@ Allows a client or orchestrator to discover an agent/service and learn its decla
 
 Inputs to Ecosystem Awareness
 
-\- discovered agent/service identifier;
+- discovered agent/service identifier;
 
-\- capability/skill claims;
+- capability/skill claims;
 
-\- endpoint/interface information;
+- endpoint/interface information;
 
-\- authentication requirements;
+- authentication requirements;
 
-\- declared version/capability changes;
+- declared version/capability changes;
 
-\- discovery source and freshness;
+- discovery source and freshness;
 
-\- any provenance or trust metadata supplied by the discovery mechanism.
+- any provenance or trust metadata supplied by the discovery mechanism.
 
 &nbsp;
 
 EA outputs to this function
 
-\- required additional qualification before relying on a capability;
+- required additional qualification before relying on a capability;
 
-\- request for refreshed capability/discovery information;
+- request for refreshed capability/discovery information;
 
-\- reduced reliance/scope if capability evidence is stale or epistemically weak;
+- reduced reliance/scope if capability evidence is stale or epistemically weak;
 
-\- external epistemic envelope where the discovery layer can carry extensions.
+- external epistemic envelope where the discovery layer can carry extensions.
 
 &nbsp;
 
@@ -370,34 +370,34 @@ Executes domain reasoning or work using one or more models, instructions, tools 
 
 Inputs to Ecosystem Awareness
 
-\- operational result/closure;
+- operational result/closure;
 
-\- EHD or equivalent local epistemic state;
+- EHD or equivalent local epistemic state;
 
-\- model/runtime identity or version where material;
+- model/runtime identity or version where material;
 
-\- local determination/indeterminate state;
+- local determination/indeterminate state;
 
-\- uncertainty semantics and method/reference where available;
+- uncertainty semantics and method/reference where available;
 
-\- unresolved dependencies;
+- unresolved dependencies;
 
-\- local capacity-binding state;
+- local capacity-binding state;
 
-\- local scope/window descriptor and selection basis;
+- local scope/window descriptor and selection basis;
 
-\- inherited upstream uncertainty.
+- inherited upstream uncertainty.
 
 &nbsp;
 
 EA outputs to this function
 
-\- targeted re-evaluation request for the same domain;
+- targeted re-evaluation request for the same domain;
 
-\- request to preserve INDETERMINATE/fallback rather than force certainty;
+- request to preserve INDETERMINATE/fallback rather than force certainty;
 
-\- request for a different evidence class or genuinely independent source;
+- request for a different evidence class or genuinely independent source;
 
-\- scope/window adjustment request;
+- scope/window adjustment request;
 
-\- bounded stop condition when continued re
+- bounded stop condition when continued re
