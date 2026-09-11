@@ -1,4 +1,99 @@
-sp;
+→ #13
+
+&nbsp;
+
+- affected decision domains/dependencies;
+- qualified system-level determination/residual indeterminacy for the relevant incident scope;
+- source-dependence or unresolved-coupling warning;
+- specific corroboration/requalification target;
+- qualified operating posture relevant to containment consumers;
+- where material, a statement that further corroboration/observation is or is not proportionate to the current sensitivity, available response capacity and response window;
+- EA scope/coverage/unknowns for the assessment.
+
+&nbsp;
+
+What #13 is expected to do with EA output
+
+#13 may use the assessment to prioritize corroboration, distinguish locally strong but systemically insufficient evidence, refine affected-scope interpretation, select among already-authorized containment options, or determine that more evidence/requalification is needed before expanding containment. EA does not issue containment authority and does not replace the #13 signal lifecycle.
+
+&nbsp;
+
+Validation Profile traceability
+
+Primary: UC-EA-02 and UC-EA-04. External validation: FG-TIDA/use-cases #4. Supports UC-EA-01 when incident/context change affects frame validity.
+
+&nbsp;
+
+5. Provisional contract — Theme #16 Operational Human Oversight
+
+&nbsp;
+
+Interface role
+
+Theme #16 owns human-intervention lifecycle, human authority/decision rights, intervention evidence, bounded mandates where applicable, reconciliation and return to operation. EA treats effective human capacity and the resulting decision as qualified inputs, not as automatic epistemic repair.
+
+&nbsp;
+
+#16 → EA
+
+&nbsp;
+
+Stable profile may declare:
+- oversight lifecycle/state semantics;
+- reviewer-role and authority vocabulary;
+- capacity-state vocabulary;
+- evidence-status / decision-status vocabulary;
+- return-to-operation semantics.
+
+&nbsp;
+
+Per handoff where material:
+- required human role and authority reference;
+- effective human capacity: available / binding / unavailable / equivalent;
+- useful response/intervention window;
+- reviewer information scope / coverage;
+- evidence sufficiency or limitations;
+- human decision and its scope;
+- intervention mandate/validity where used;
+- intervention outcome/reconciliation state;
+- material change since the decision;
+- unknown qualifiers.
+
+&nbsp;
+
+What EA does with it
+
+EA determines whether the human path is an effective current dependency rather than a nominal role; checks whether reviewer scope covers the domain creating the systemic condition; prevents a human approval from retroactively curing contrary evidence unless new evidence actually requalifies that domain; and incorporates capacity into frame/posture assessment. Repeated review/evidence requests are also treated as consumption of finite extended-system capacity, so EA can distinguish a useful escalation from Type-1 escalation that is depleting the very human capacity needed for recovery.
+
+&nbsp;
+
+EA → #16
+
+- domain/dependency creating the systemic concern;
+- whether the current oversight evidence frame is sufficient for that domain;
+- residual/structural limitations relevant to the intervention;
+- specific information or requalification needed for a human decision to affect the domain;
+- whether human capacity is itself binding;
+- qualified Normal / Containment / potential Regime-Transition posture;
+- EA scope/coverage/unknowns.
+
+&nbsp;
+
+What #16 is expected to do with EA output
+
+#16 uses the result to qualify the intervention path, decide whether ordinary escalation remains meaningful, target the correct reviewer/information set, avoid repeated ineffective escalation, preserve scarce human attention when additional review has low decision value, and re-evaluate return to operation. #16 retains human authority and intervention ownership.
+
+&nbsp;
+
+Validation Profile traceability
+
+Primary: UC-EA-03; supporting UC-EA-01.
+
+&nbsp;
+
+6. Provisional contract — Theme #6 Intent/Policy Runtime Conformance
+
+&nbsp;
 
 Interface role
 
@@ -11,40 +106,25 @@ Theme #6 produces the action-side conformance determination and evidence/apprais
 &nbsp;
 
 Stable profile may declare:
-
-\- verdict vocabulary and semantics;
-
-\- evidence-side rejection / attested-absence semantics;
-
-\- issuer-relationship vocabulary;
-
-\- policy/reference provenance/version semantics;
-
-\- confidence/threshold semantics where used.
+- verdict vocabulary and semantics;
+- evidence-side rejection / attested-absence semantics;
+- issuer-relationship vocabulary;
+- policy/reference provenance/version semantics;
+- confidence/threshold semantics where used.
 
 &nbsp;
 
 Per handoff where material:
-
-\- action-side verdict;
-
-\- named/versioned reference evaluated;
-
-\- issuing evaluator and relationship to evaluated party;
-
-\- action/decision scope examined;
-
-\- freshness/as-of;
-
-\- confidence/threshold semantics where relevant;
-
-\- intents in collision and criticality where material;
-
-\- indeterminate with scope;
-
-\- attested absence distinctly from indeterminate;
-
-\- unknown qualifiers.
+- action-side verdict;
+- named/versioned reference evaluated;
+- issuing evaluator and relationship to evaluated party;
+- action/decision scope examined;
+- freshness/as-of;
+- confidence/threshold semantics where relevant;
+- intents in collision and criticality where material;
+- indeterminate with scope;
+- attested absence distinctly from indeterminate;
+- unknown qualifiers.
 
 &nbsp;
 
@@ -56,21 +136,13 @@ EA treats the verdict as a source-attributed scoped determination; checks whethe
 
 EA → #6
 
-&nbsp;
-
-\- whether the existing verdict scope is sufficient for the current higher-level claim;
-
-\- affected domain/dependency requiring requalification;
-
-\- request for reevaluation under refreshed/current reference when material and decision-relevant;
-
-\- explicit indication that reevaluation is not currently justified when its expected decision value is below its burden or remaining response window;
-
-\- request for independent evaluation when source dependence is binding;
-
-\- requirement to preserve current indeterminate rather than promote it to broader certainty;
-
-\- EA scope/coverage/unknowns.
+- whether the existing verdict scope is sufficient for the current higher-level claim;
+- affected domain/dependency requiring requalification;
+- request for reevaluation under refreshed/current reference when material and decision-relevant;
+- explicit indication that reevaluation is not currently justified when its expected decision value is below its burden or remaining response window;
+- request for independent evaluation when source dependence is binding;
+- requirement to preserve current indeterminate rather than promote it to broader certainty;
+- EA scope/coverage/unknowns.
 
 &nbsp;
 
@@ -86,7 +158,7 @@ Primary: UC-EA-02 and UC-EA-04; supporting UC-EA-01.
 
 &nbsp;
 
-7\. Provisional contract — Theme #21 Population-Level Evaluation
+7. Provisional contract — Theme #21 Population-Level Evaluation
 
 &nbsp;
 
@@ -101,42 +173,26 @@ Theme #21 owns population-level inference: what can be concluded from a populati
 &nbsp;
 
 Stable profile may declare:
-
-\- taxonomy/reference semantics;
-
-\- evaluator-family characterization fields;
-
-\- rate/statistical-result semantics;
-
-\- sampling-vs-structural classification method;
-
-\- pooling/independence assumptions where used.
+- taxonomy/reference semantics;
+- evaluator-family characterization fields;
+- rate/statistical-result semantics;
+- sampling-vs-structural classification method;
+- pooling/independence assumptions where used.
 
 &nbsp;
 
 Per handoff where material:
-
-\- assessment claim;
-
-\- defined population;
-
-\- observation period;
-
-\- taxonomy/policy version;
-
-\- per-type rate or other non-composite result;
-
-\- evaluator/evaluator-family characteristics;
-
-\- independence/diversity information where established;
-
-\- sampling uncertainty where applicable;
-
-\- residual indeterminacy under the stated observation architecture;
-
-\- statement of what the result can/cannot establish;
-
-\- unknown qualifiers.
+- assessment claim;
+- defined population;
+- observation period;
+- taxonomy/policy version;
+- per-type rate or other non-composite result;
+- evaluator/evaluator-family characteristics;
+- independence/diversity information where established;
+- sampling uncertainty where applicable;
+- residual indeterminacy under the stated observation architecture;
+- statement of what the result can/cannot establish;
+- unknown qualifiers.
 
 &nbsp;
 
@@ -148,21 +204,13 @@ EA determines whether the population result materially requalifies a current dec
 
 EA → #21 / operational consumer
 
-&nbsp;
-
-\- the specific system-level hypothesis for which population evidence is requested and why it is material to the current decision;
-
-\- where useful, the observation/evaluation budget or stopping condition under which additional population evidence remains worth acquiring;
-
-\- whether the returned result requalifies the affected domain;
-
-\- remaining material source/evaluator dependence;
-
-\- residual state not resolved by the population evidence;
-
-\- scope beyond which the result must not be projected;
-
-\- EA scope/coverage/unknowns.
+- the specific system-level hypothesis for which population evidence is requested and why it is material to the current decision;
+- where useful, the observation/evaluation budget or stopping condition under which additional population evidence remains worth acquiring;
+- whether the returned result requalifies the affected domain;
+- remaining material source/evaluator dependence;
+- residual state not resolved by the population evidence;
+- scope beyond which the result must not be projected;
+- EA scope/coverage/unknowns.
 
 &nbsp;
 
@@ -178,7 +226,7 @@ Primary: UC-EA-02 and UC-EA-04.
 
 &nbsp;
 
-8\. Provisional contract — Theme #22 Remote Attestation for Agentic AI
+8. Provisional contract — Theme #22 Remote Attestation for Agentic AI
 
 &nbsp;
 
@@ -193,38 +241,24 @@ Theme #22 owns evidence generation/appraisal for attested runtime/model/policy/i
 &nbsp;
 
 Stable profile may declare:
-
-\- attestation/appraisal profile and covered components;
-
-\- verifier relationship semantics;
-
-\- subject/runtime/interaction binding semantics;
-
-\- no-assertion/limitation semantics;
-
-\- default freshness/replay policy.
+- attestation/appraisal profile and covered components;
+- verifier relationship semantics;
+- subject/runtime/interaction binding semantics;
+- no-assertion/limitation semantics;
+- default freshness/replay policy.
 
 &nbsp;
 
 Per handoff where material:
-
-\- Attestation Result;
-
-\- attested subject/runtime/interaction/action;
-
-\- verifier/issuer;
-
-\- model/runtime/policy/reference identifiers/versions where material;
-
-\- freshness/replay state;
-
-\- verifier/appraisal relationship where known;
-
-\- what was actually covered/appraised;
-
-\- known exclusions and limitations;
-
-\- no-assertion/unknown state.
+- Attestation Result;
+- attested subject/runtime/interaction/action;
+- verifier/issuer;
+- model/runtime/policy/reference identifiers/versions where material;
+- freshness/replay state;
+- verifier/appraisal relationship where known;
+- what was actually covered/appraised;
+- known exclusions and limitations;
+- no-assertion/unknown state.
 
 &nbsp;
 
@@ -236,19 +270,12 @@ EA determines whether the attested scope covers the proposition being relied upo
 
 EA → #22
 
-&nbsp;
-
-\- claim/domain for which attestation is currently material;
-
-\- insufficiency of current attested scope;
-
-\- request for re-attestation due to material state change;
-
-\- request for independent/differently rooted evidence where source dependence matters;
-
-\- whether the new result materially requalifies the affected system domain;
-
-\- EA scope/coverage/unknowns.
+- claim/domain for which attestation is currently material;
+- insufficiency of current attested scope;
+- request for re-attestation due to material state change;
+- request for independent/differently rooted evidence where source dependence matters;
+- whether the new result materially requalifies the affected system domain;
+- EA scope/coverage/unknowns.
 
 &nbsp;
 
@@ -264,7 +291,7 @@ Primary: UC-EA-02; supporting UC-EA-04 and future embodied/profile cases.
 
 &nbsp;
 
-9\. Provisional contract — Theme #5 Provenance of Authority / #9 fuzzy-authority case
+9. Provisional contract — Theme #5 Provenance of Authority / #9 fuzzy-authority case
 
 &nbsp;
 
@@ -279,38 +306,24 @@ Theme #5 specifies authority origination, grant content, scope, limits, composit
 &nbsp;
 
 Stable profile may declare:
-
-\- grant/mandate schema and provenance semantics;
-
-\- standing/revocation/version semantics;
-
-\- delegation/redelegation semantics;
-
-\- fuzzy/absent/contested authority-state semantics.
+- grant/mandate schema and provenance semantics;
+- standing/revocation/version semantics;
+- delegation/redelegation semantics;
+- fuzzy/absent/contested authority-state semantics.
 
 &nbsp;
 
 Per handoff where material:
-
-\- principal/grantor and grantee;
-
-\- grant/mandate identifier;
-
-\- purpose/action scope;
-
-\- hard limits/conditions;
-
-\- delegation lineage;
-
-\- standing/validity/revocation;
-
-\- policy/reference linkage/version;
-
-\- authority provenance/anchor information;
-
-\- explicit fuzzy, absent, contested or unresolved state;
-
-\- unknown qualifiers.
+- principal/grantor and grantee;
+- grant/mandate identifier;
+- purpose/action scope;
+- hard limits/conditions;
+- delegation lineage;
+- standing/validity/revocation;
+- policy/reference linkage/version;
+- authority provenance/anchor information;
+- explicit fuzzy, absent, contested or unresolved state;
+- unknown qualifiers.
 
 &nbsp;
 
@@ -322,17 +335,11 @@ EA treats authority as a separate epistemic domain; detects when downstream conf
 
 EA → #5/#9 or authority consumer
 
-&nbsp;
-
-\- authority uncertainty material to a specific action/domain;
-
-\- request to refresh/resolve standing or applicable grant where possible;
-
-\- request to narrow action scope to what remains qualified;
-
-\- statement that downstream evidence did not repair the unresolved authority root;
-
-\- EA scope/coverage/unknowns.
+- authority uncertainty material to a specific action/domain;
+- request to refresh/resolve standing or applicable grant where possible;
+- request to narrow action scope to what remains qualified;
+- statement that downstream evidence did not repair the unresolved authority root;
+- EA scope/coverage/unknowns.
 
 &nbsp;
 
@@ -348,7 +355,7 @@ Primary support for UC-EA-01, UC-EA-03 and UC-EA-04.
 
 &nbsp;
 
-10\. Supporting contract — Theme #1 Accountability / action records
+10. Supporting contract — Theme #1 Accountability / action records
 
 &nbsp;
 
@@ -360,170 +367,4 @@ Actor/action/interaction identity, timestamp, authority reference, policy/verdic
 
 What EA does
 
-Uses records as historical/outcome evidence for F9 revalidation and for checking whether current claims align with prior action state; does not treat the record as proof that every carried claim was substantively true.
-
-&nbsp;
-
-EA → #1
-
-Optional bounded EA statement for later reconstruction: assessed scope, management condition/structural markers, posture, requalification decision and material residual/inherited-indeterminacy markers.
-
-&nbsp;
-
-What #1 does
-
-Preserves the EA statement as one attributable record artifact where relevant; it does not turn EA output into liability or legal responsibility.
-
-&nbsp;
-
-Validation Profiles
-
-Supports UC-EA-01/03 and downstream Value Advantage/repair tests.
-
-&nbsp;
-
-11\. Supporting contract — Theme #10 / enforcement-containment plane
-
-&nbsp;
-
-#10/S12-like plane → EA
-
-Available response capabilities, required authority, effective reach, latency/actionability window, reversibility/rollback, execution outcome, residual exposure, migration/reconfiguration readiness and unknown execution state.
-
-&nbsp;
-
-What EA does
-
-Uses response capability to determine whether the current operating frame remains actionable and whether a bounded containment path exists versus a need to qualify migration/regime transition. Response reach, reversibility and remaining time also bound how much further observation/determination effort is rational before control options expire.
-
-&nbsp;
-
-EA → enforcement plane
-
-Qualified posture, affected scope/domain, targeted scope/autonomy reduction request, request to invoke an already-defined containment mechanism, migration/requalification preparation request and success/revalidation criteria.
-
-&nbsp;
-
-What enforcement plane does
-
-Owns authorization and execution. EA does not directly block, revoke, quarantine or migrate.
-
-&nbsp;
-
-Validation Profiles
-
-Primary support for UC-EA-01 and UC-EA-02.
-
-&nbsp;
-
-12\. Supporting contract — Theme #19 Privacy / minimum disclosure
-
-&nbsp;
-
-#19 → EA
-
-Disclosure policy, recipient/purpose, permitted/forbidden attributes, retention/linkability constraints, selective-disclosure capabilities and privacy-risk constraints.
-
-&nbsp;
-
-What EA does
-
-Computes the minimum semantic information needed for the receiving decision; accepts coarser privacy-preserving representations; and leaves unavailable qualifiers UNKNOWN rather than forcing disclosure or inventing values.
-
-&nbsp;
-
-EA → #19
-
-Minimum required semantic fields for a particular handoff, acceptable abstraction/coarsening, and the epistemic consequence of non-disclosure.
-
-&nbsp;
-
-What #19 does
-
-Applies privacy/minimum-disclosure controls; it does not decide the epistemic conclusion.
-
-&nbsp;
-
-Validation Profiles
-
-Supports UC-EA-02 and interoperability/privacy aspects of Challenge 6.
-
-&nbsp;
-
-13\. Supporting contract — Theme #18 Multi-objective / operator-drift evaluation
-
-&nbsp;
-
-#18 → EA
-
-Declared/effective operator or drift result, observation/evaluation scope, evaluator/method, applicable reference/version, confidence/limitations and source relationship where available.
-
-&nbsp;
-
-What EA does
-
-Treats the result as one scoped external assessment; determines whether operator/drift evidence is material to the current decision domain or operating-frame assumption; and avoids promoting one evaluation channel to global certainty.
-
-&nbsp;
-
-EA → #18
-
-Specific unresolved system hypothesis requiring operator/drift evaluation, target scope/domain, and whether the resulting evidence materially changed the system-level qualification.
-
-&nbsp;
-
-What #18 does
-
-Performs or refines its own evaluation; it does not adopt EA as the operator classifier.
-
-&nbsp;
-
-Validation Profiles
-
-Potential external fixture for UC-EA-01 and UC-EA-04.
-
-&nbsp;
-
-14\. Efficiency and deployment expectations
-
-&nbsp;
-
-\- Profile + handoff delta should avoid repeating stable semantics on every hot-path message.
-
-\- Risk/sensitivity calibration should not become a universal Theme metadata tax: mission-side sensitivity/consequence and awareness budgets normally stay in O1/F1, while Themes expose only the capacity/cost facts they actually own.
-
-\- Decision-scope projection should keep state proportional to the receiving decision scope rather than path length.
-
-\- A producer may adopt fields incrementally; conformance is honest declaration, not complete population.
-
-\- Fields are conditional on material decision relevance.
-
-\- An implementation may begin in shadow mode: EA emits assessments without gating the existing control path, enabling comparison, overhead measurement and field-utility pruning.
-
-\- Before a production profile is proposed, measure envelope overhead (bytes and encode/decode latency) under representative chains with and without profile caching and scope projection.
-
-\- Separately measure awareness overhead and value: retrieval/tool calls, compute/tokens, latency, bandwidth/privacy burden, human-review time, and whether additional observation actually changed a decision or preserved an option.
-
-&nbsp;
-
-15\. Use Case contract sufficiency audit
-
-&nbsp;
-
-The cross-Theme contracts are not intended to replace ordinary EA operational inputs. The frozen parent Case Study supplies mission, principal preferences/objectives and T0–T2 facts; O1 supplies mission/orchestration context, including the v0.2 ecosystem-sensitivity/consequence/reversibility and finite-capacity basis; and O4 supplies ordinary state/retrieval availability and, where available, observation burden. A new Theme contract is justified only for a state actually owned by that Theme.
-
-&nbsp;
-
-UC-EA-01 — Action-time operating-frame requalification. Required external state is available from the parent Case Study/O1 plus #5/#9 authority, #6 policy/conformance where used, #13 or another qualified context/incident signal, #16 effective human capacity, and #10/S12 response capability. O1/F1 supplies the sensitivity/consequence and observation-capacity basis needed to distinguish a material change requiring wider/fresher W(d,t) from a low-sensitivity change where broad requalification would be wasteful. EA can produce frame qualification, posture/posture qualifier and the specific requalification target. Result: contract set sufficient for the frozen and v0.2 sensitivity branches.
-
-&nbsp;
-
-UC-EA-02 — Bounded determination under incomplete/conflicting/partially scoped evidence. Qualified external evidence can be supplied by #6, #13, #21 and #22; O4 provides availability and burden of potentially obtainable evidence and #19 constrains disclosure where applicable. Scope/coverage, UNKNOWN, provenance, freshness when material and dependency/source relationship are expressible without requiring full histories. The same contract can test Type-1 over-observation/resource depletion and Type-2 under-observation/hidden exposure against a fixed awareness budget. Result: contract set sufficient for Type-1, Type-2, structural-residual, risk/resource and privacy/interoperability branches.
-
-&nbsp;
-
-UC-EA-03 — Human oversight under bounded effective capacity and non-curative approval. #16 supplies role/authority reference, effective capacity, information coverage, decision scope and reconciliation/outcome state; #5/#9 supplies authority standing; #6/#22 may supply decision-relevant evidence; #1 can supply historical outcome records. EA can test whether human intervention actually requalifies the affected domain, whether capacity is binding, and whether repeated escalation/evidence requests deplete the extended human-agent system's future capacity. Result: contract set sufficient without EA owning HITL.
-
-&nbsp;
-
-UC-EA-04 — Scope-indexed composition of locally valid determinations. The parent Case Study/O1 supplies the relevant principal objectives/preferences and sensitivity/consequence profile; #5/#9 supplies authority domains; #6 supplies policy/conformance determinations; #13/#21/#18 may supply additional scoped assessments; source/dependency/correlation qualifiers support the independence and no
+Uses records as hi
