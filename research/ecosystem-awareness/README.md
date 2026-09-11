@@ -1,22 +1,51 @@
 # Ecosystem Awareness — Canonical Public Corpus
 
-> **Public mirror of the controlled Ecosystem Awareness corpus.** This repository preserves the complete current canonical/release baseline and the current validation freeze defined in Google Drive. It is contributor-level research and pre-standardization material: it is **not** an ITU-T deliverable, Recommendation, adoption statement, certification, or institutional endorsement.
+> **Public mirror of the controlled Ecosystem Awareness corpus.** This repository preserves the complete current canonical/release baseline, the current validation freeze, the preserved research lineage and the public provenance material defined in Google Drive. It is contributor-level research and pre-standardization material: it is **not** an ITU-T deliverable, Recommendation, adoption statement, certification, or institutional endorsement.
 
 **Public corpus freeze:** 11 September 2026  
 **Controlled baseline freeze:** 10 September 2026  
-**Maintainer:** Iván Abril Palma / Tegrity.AI / The Integral Management Society  
-**Institutional context:** The Integral Management Society is a Swiss non-profit association.
+**Maintainer:** Iván Abril Palma / Tegrity.AI / The Integral Management Society
 
 ## Start here
 
 Agents and reviewers should read in this order:
 
-1. [`CANONICAL_CORPUS_MANIFEST.md`](./CANONICAL_CORPUS_MANIFEST.md) — exact scope, source Drive IDs/revisions, SHA-256 checksums and current/superseded rules.
-2. [`baseline/`](./baseline/) — the six complete canonical architecture documents.
-3. [`validation/`](./validation/) — the current validation family, four current profiles and the interoperability test.
-4. [`governance/`](./governance/) — original freeze and maintenance-freeze controls.
-5. [`provenance/`](./provenance/) — public FG-TIDA provenance and status boundaries.
-6. [`lineage/`](./lineage/) — preserved derivation/conservation material. Read this for history and rationale, not as a substitute for the current baseline.
+1. [`CANONICAL_CORPUS_MANIFEST.md`](./CANONICAL_CORPUS_MANIFEST.md) — exact scope, Drive source IDs/revisions, current/superseded rules and corpus structure.
+2. [`CORPUS_FILE_INVENTORY.sha256.md`](./CORPUS_FILE_INVENTORY.sha256.md) — SHA-256 inventory of every file in the exact complete public bundle.
+3. [`baseline/`](./baseline/) — canonical architecture baseline.
+4. [`validation/`](./validation/) — the Validation Profile Family, UC-EA-01…04 and EA-ITP-01.
+5. [`governance/`](./governance/) — freeze and maintenance-freeze controls.
+6. [`lineage/`](./lineage/) — preserved derivation, Articles 01–05, predecessor architecture and conservation records.
+7. Public provenance material and the linked Parent Case Study.
+
+The complete corpus is also preserved as one SHA-verifiable machine-readable archive:
+
+[`ECOSYSTEM_AWARENESS_CANONICAL_PUBLIC_CORPUS_2026-09-11.tar.gz`](./ECOSYSTEM_AWARENESS_CANONICAL_PUBLIC_CORPUS_2026-09-11.tar.gz)
+
+This archive contains the exact full Markdown files enumerated in `CORPUS_FILE_INVENTORY.sha256.md`, including all six current validation artifacts.
+
+## Corpus boundary — what is included
+
+The public corpus includes the complete controlled research object, not merely an executive extract:
+
+- problem definition and foundational theory;
+- epistemic principles, four-pole model and Type 0 / Type 1 / Type 2 control model;
+- F1–F9 functional architecture;
+- O1–O6 and IF-S1–IF-S13 functional interfaces and EHD semantics;
+- provisional cross-theme interface contracts;
+- benchmark, prior-art and falsification boundary;
+- deep conceptual derivation and Articles 01–05;
+- predecessor architecture and conservation/change-control records;
+- Validation Profile Family & Traceability;
+- UC-EA-01, UC-EA-02, UC-EA-03 and UC-EA-04 in their current frozen/maintenance-frozen versions;
+- EA-ITP-01 interoperability test;
+- freeze and maintenance-freeze manifests;
+- public provenance register;
+- the public Parent Case Study package, linked rather than duplicated.
+
+### Deliberate exclusion
+
+The only deliberate exclusion from the frozen corpus is **draft communication intended for future GitHub / FG-TIDA thread actions**: draft comments, ready-to-post replies and unpublished posting copy. Those are working communications, not canonical corpus artifacts. Once actually posted, they become public provenance and may be indexed in a later provenance/corpus release.
 
 ## Canonical architecture baseline
 
@@ -29,7 +58,7 @@ The controlling Drive freeze manifest defines six baseline documents:
 5. Provisional Cross-Theme Interface Contracts — v0.4
 6. Architecture Benchmark & Novelty Audit — v0.4
 
-Together they preserve the problem definition, epistemic principles, Type 0/1/2 taxonomy, four-position epistemic state, F1–F9 architecture, O1–O6 and IF-S1–IF-S13 interfaces, EHD/handoff semantics, cross-theme boundaries, prior-art benchmark and falsification boundary. No one file should be treated as the whole architecture by itself.
+No one file should be treated as the whole architecture by itself.
 
 ## Current validation set
 
@@ -66,8 +95,16 @@ The earlier frozen UC-EA-02 v0.5, UC-EA-03 v0.3 and UC-EA-04 v0.4 remain histori
 
 These are public provenance anchors. They do not imply ITU-T adoption of this corpus.
 
+## Parent Case Study
+
+The public Parent Case Study is part of the corpus evidence chain and remains at:
+
+`submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/`
+
+It is linked rather than duplicated here so that there is one public case source.
+
 ## Source-of-truth rule
 
-The Markdown files here are complete exports of the identified Google Drive documents at the controlled corpus revision. For exact freeze provenance, **Drive file ID + revisionId in the freeze manifest remains the controlling content anchor**. This GitHub directory is the canonical **public mirror** and public entry point.
+Drive file ID + revisionId in the freeze manifests remains the controlling content anchor for the controlled release. This GitHub location is the canonical **public mirror / discovery point**.
 
-Do not silently edit a frozen document in place. A substantive successor must have a new version/freeze record and must preserve the previous public state.
+Do not silently edit a frozen document in place. A substantive successor requires a new version/freeze record and preservation of the previous state.
