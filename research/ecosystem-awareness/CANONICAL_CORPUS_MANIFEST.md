@@ -1,80 +1,79 @@
 # Ecosystem Awareness — Canonical Corpus Manifest
 
-**Public mirror freeze:** 2026-09-11  
+**Public mirror status:** publication in progress  
 **Controlled architecture/validation freeze:** 2026-09-10  
 **Repository:** `dakleyer/structural-awareness-contributions`  
 **Path:** `research/ecosystem-awareness/`
 
-This manifest maps the public mirror to the controlled Google Drive corpus. The corpus is intentionally **complete rather than promotional**: it includes the current architecture baseline, the current validation/use-case apparatus, lineage/conservation material and public provenance. The only deliberate exclusion is unpublished communication intended for future GitHub / FG-TIDA thread actions (draft comments, ready-to-post replies and unpublished posting copy).
+This manifest maps the intended public mirror to the exact controlled Google Drive corpus. Until every file listed below exists at the stated public path and passes the corresponding SHA-256 check, the public repository must be treated as an **incomplete mirror** of the controlled corpus.
 
-A SHA-verifiable complete bundle is available as `ECOSYSTEM_AWARENESS_CANONICAL_PUBLIC_CORPUS_2026-09-11.tar.gz`, with file hashes in `CORPUS_FILE_INVENTORY.sha256.md`.
+## A. Canonical / release baseline — publication status
 
-## A. Canonical / release baseline
+The controlled baseline is complete in Google Drive. Public materialization is still being completed.
 
-1. `baseline/01_FOUNDATIONAL_THEORY_v0.4.md` — Drive `1LxqqoNOO6R9_7kcp6KqaVQ2crIKRzucKWejtivKB8uk`, revision `ANLCKQmp0V9u69sLsH5XHV6Q6Lg1fZLfJaHQ32ArxA_liRNy9u0JQa-l7qpCbbFj5Au7PSsRO9OiJMDqD5aEtG4g9EsSfnNtI_GeuhpcDF0`.
-2. `baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.md` — Drive `1IZKJJZr3_CDyPng789faWfpawWRgzwzMZvg_EkLdkbs`, revision `ANLCKQl9a5A9ajYc030714xfFvxewlMfHZjiCs-CpUgX_Pp1y2FMooLb8nTTwpwmPEFGVSoinNTaDTG-g-IyZWb_2I73Yr-OiNb3_wRxcQo`.
-3. `baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.md` — Drive `1lfF9p1acEYzGNGLr5KJxv3tH7XJu9X2J5lPJApK8Jmc`, revision `ANLCKQmgG1FE5jC8TA9UQ_0GhDeCZRFe0Vyp9_QQ7JQxNWj8TaFNxh-SnZPY5VGH5RZZS7-5YexRDK7r4noRsMhWfciDAsS73Sc1ErDp78o`.
-4. `baseline/04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.md` — Drive `1yqMqaurnlGgN2x-JDJ6AgXtRGus1MMXcVKTPg7cR5_I`, revision `ANLCKQm5ms8pBLW3eq6__GP6Kt2rQTH34Lo9Dz2NzyEdOTZLEL5I_z0yBMIN12jyZuA3zIC37utA_0doS2K2B7kGW61l5XZfuaNVKHpNT00`.
-5. `baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.md` — Drive `1kSMeygAUe8JaM5MHTnT6DMvhiwVM8sWV1-Bc6A1H7-E`, revision `ANLCKQmUwXDM6IqUWIiBsj58jDvN-RVa7afZfa3gCx3kzo4Jao-zXB5d6UAm-qZzj_OFPt7_419A09XUDwbpHAjEz8vofc_ZlCbXBFDc1LA`.
-6. `baseline/06_ARCHITECTURE_BENCHMARK_v0.4.md` — Drive `1ZYVI6Co5kMoH-0rhVVChYvrACJaGjARl4qX1TD3iAf8`, revision `ANLCKQneShuN5FImVibFhuL3HNGeHjWk3tzExdtE38Au3rzNbsQnbO6uj5qh_i6mSC7_HnfH4ptlVSihA95HuulB-ItXQgNq_YUVz4kL6Ck`.
+| # | Intended public file | Controlled Drive source | Public status |
+|---|---|---|---|
+| 1 | `baseline/01_FOUNDATIONAL_THEORY_v0.4.md` | `1LxqqoNOO6R9_7kcp6KqaVQ2crIKRzucKWejtivKB8uk` | Pending canonical single-file publication; split parts currently present |
+| 2 | `baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.md` | `1IZKJJZr3_CDyPng789faWfpawWRgzwzMZvg_EkLdkbs` | Pending canonical single-file publication; split parts currently present |
+| 3 | `baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.md` | `1lfF9p1acEYzGNGLr5KJxv3tH7XJu9X2J5lPJApK8Jmc` | Pending canonical single-file publication; split parts currently present |
+| 4 | `baseline/04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.md` | `1yqMqaurnlGgN2x-JDJ6AgXtRGus1MMXcVKTPg7cR5_I` | Pending canonical single-file publication; split parts currently present |
+| 5 | `baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.md` | `1kSMeygAUe8JaM5MHTnT6DMvhiwVM8sWV1-Bc6A1H7-E` | **Incomplete public split — part 3 missing** |
+| 6 | `baseline/06_ARCHITECTURE_BENCHMARK_v0.4.md` | `1ZYVI6Co5kMoH-0rhVVChYvrACJaGjARl4qX1TD3iAf8` | Pending canonical baseline-path publication; a separate top-level public-freeze copy exists |
 
-## B. Current validation / use-case apparatus — INCLUDED IN THE CORPUS
+## B. Current validation set — publication status
 
-The validation profiles and interoperability test are part of the canonical public corpus. They are not unpublished comments and must not be omitted.
+These validation artifacts are part of the canonical corpus. They are not unpublished comments and must not be omitted.
 
-- `validation/VALIDATION_PROFILE_FAMILY_v0.5_FROZEN.md` — Drive `1qjCLvOp02Lgh9hVlJae_GZTNImenMXboEJ3fJMsqmok`.
-- `validation/UC-EA-01_v0.3_FROZEN.md` — Drive `19k4fY-zu3IoRmsSuUyS0xgjqX7NhvvgoTAeZLN3ijI8`.
-- `validation/UC-EA-02_v0.6_MAINTENANCE_FREEZE.md` — Drive `1_a1edMjJx4ozTmMn9iT23j7zYjOcX7Fmln8Zn_Tf8Qw`.
-- `validation/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md` — Drive `1Mhv4mUIU-S5yifmH8G0UDRdf0ItXt1aEK4kn0kAG6uY`.
-- `validation/UC-EA-04_v0.5_MAINTENANCE_FREEZE.md` — Drive `1y8wRR89mAYSgkYvsMS2ljr7V5jV1P2My1fIkonGkv1Y`.
-- `validation/EA-ITP-01_v0.1_FROZEN.md` — Drive `1OnBzCX0TP6mtxdLjn9_OORq0UIOdl9I_3vkVsmRW1XA`.
+| Intended public file | Status | Controlled Drive source | Public status |
+|---|---|---|---|
+| `validation/VALIDATION_PROFILE_FAMILY_v0.5_FROZEN.md` | Frozen / unchanged | `1qjCLvOp02Lgh9hVlJae_GZTNImenMXboEJ3fJMsqmok` | Pending upload |
+| `validation/UC-EA-01_v0.3_FROZEN.md` | Frozen / unchanged | `19k4fY-zu3IoRmsSuUyS0xgjqX7NhvvgoTAeZLN3ijI8` | Present only at top level; canonical validation-path copy pending |
+| `validation/UC-EA-02_v0.6_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1_a1edMjJx4ozTmMn9iT23j7zYjOcX7Fmln8Zn_Tf8Qw` | Pending upload |
+| `validation/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1Mhv4mUIU-S5yifmH8G0UDRdf0ItXt1aEK4kn0kAG6uY` | Pending upload |
+| `validation/UC-EA-04_v0.5_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1y8wRR89mAYSgkYvsMS2ljr7V5jV1P2My1fIkonGkv1Y` | Pending upload |
+| `validation/EA-ITP-01_v0.1_FROZEN.md` | Frozen / unchanged | `1OnBzCX0TP6mtxdLjn9_OORq0UIOdl9I_3vkVsmRW1XA` | Pending upload |
 
-Current-use rule: the 10 September maintenance release supersedes only UC-EA-02 v0.5, UC-EA-03 v0.3 and UC-EA-04 v0.4. UC-EA-01 v0.3, Family v0.5 and EA-ITP-01 remain unchanged.
+## C. Governance controls — publication status
 
-These UC-EA artifacts are internal/public **Architecture-Validation Profiles**, not four adopted FG-TIDA Use Cases. Their inclusion in the corpus does not alter that status boundary.
+- `governance/FREEZE_MANIFEST_2026-09-10.md` — present.
+- `governance/MAINTENANCE_FREEZE_MANIFEST_2026-09-10.md` — present.
+- `governance/MAINTENANCE_FREEZE_README_2026-09-10.md` — pending upload.
 
-## C. Governance controls
+## D. Preserved lineage / conservation — publication status
 
-- `governance/FREEZE_MANIFEST_2026-09-10.md` — Drive `19OLmEG9CHdR1SfFk_FqoKp-xMdJaiudXZWkU4zYQ1eg`.
-- `governance/MAINTENANCE_FREEZE_README_2026-09-10.md` — Drive `1PBhXM-b6RufsGkSaBiaJ1cVVj3hxU09eDIM-R_QHDs8`.
-- `governance/MAINTENANCE_FREEZE_MANIFEST_2026-09-10.md` — Drive `1xEaPw-FTwZSEkaQ1Xwn2rbywggBFIsx4vISoNe9YYv8`.
+These materials preserve the path from problem definition and derivation into the current baseline. They do not override the current baseline.
 
-## D. Preserved lineage / conservation — INCLUDED
+- `lineage/ARCHITECTURAL_PRINCIPLES_v0.1.md` — present.
+- `lineage/THREE_DIMENSIONS_OF_INDETERMINACY_WORKING_TECHNICAL_ARCHITECTURE.md` — pending upload.
+- `lineage/DEEP_CONCEPTUAL_LINEAGE_DERIVATION_MAP_v0.1.md` — pending upload.
+- `lineage/PROMPT_TO_CANON_CONSERVATION_MATRIX_v0.1.md` — pending upload.
+- `lineage/CORPUS_CHANGE_RECORD_APQ_CONSERVATION_v0.1.md` — pending upload.
+- `lineage/ARTICLE_01_NATURALISTIC_FOUNDATIONS_AND_AGENTIC_LIFECYCLE_INVERSION.md` — pending upload.
+- `lineage/ARTICLE_02_MINIMUM_CONTROL_ARCHITECTURE_MULTI_OPTIMA.md` — pending upload.
+- `lineage/ARTICLE_03_SEMANTIC_WINDOW_AND_GOOD_ENOUGH_EARLY_WARNING.md` — pending upload.
+- `lineage/ARTICLE_04_ECOSYSTEM_SIGNALLING_WITHOUT_REQUIRED_COOPERATION.md` — pending upload.
+- `lineage/ARTICLE_05_INTEGRATED_REFERENCE_MODEL_FOR_FG_TIDA.md` — pending upload.
 
-The lineage is preserved because the compact architecture intentionally compresses prior derivation. It does not override the baseline.
+## E. Parent case and public provenance
 
-- Architectural Principles v0.1.
-- Deep Conceptual Lineage and Derivation Map v0.1.
-- Articles 01–05: Naturalistic Foundations; Minimum Control Architecture; Semantic Window / Good Enough Early Warning; Ecosystem Signalling without Required Cooperation; Integrated Reference Model for FG-TIDA.
-- predecessor `Three Dimensions of Indeterminacy — Working Technical Architecture`.
-- Prompt-to-Canon Conservation Matrix.
-- Corpus Change Record — APQ / Conservation Reconciliation.
+- Parent Case Study / DAOS fixture: publicly available elsewhere in this same repository under the ITU-T FG-TIDA submission tree and linked from the corpus README; it is not duplicated here unless a later preservation need requires it.
+- `provenance/PUBLIC_PROVENANCE_2026-09-08.md` — pending canonical-path materialization; an earlier top-level public provenance copy exists.
 
-## E. Public provenance — INCLUDED
+## F. Publication boundary
 
-The public-footprint/provenance snapshot is part of the evidence layer of the corpus. It records public FG-TIDA contributions and third-party responses while preserving the contributor-level/pre-standardization status boundary.
+The canonical corpus is intended to include the complete architecture, interfaces, benchmark, lineage, Articles 01–05, validation family, UC-EA-01…04, EA-ITP-01, freeze/maintenance controls, conservation/provenance material and the linked Parent Case Study.
 
-## F. Parent Case Study — LINKED CANONICAL FIXTURE
+The only deliberate exclusion is **unpublished GitHub/FG-TIDA comment, reply or posting-draft material** prepared for future public threads. Those drafts remain private until actually posted. Once posted, the public artifact may be cited as provenance/evidence, but the private drafting file does not become canon automatically.
 
-The public Parent Case Study is already maintained in the same repository at:
+## G. Verification route
 
-`submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/`
+The corpus must not be described as complete until all three conditions are true:
 
-It is linked rather than duplicated. Its Annexes include the minimal operational case, extensibility, Challenges, ToR mapping/traceability and adjacent standards/research relevance.
+1. Every intended canonical public file exists at the path named in this manifest.
+2. The generated SHA-256 inventory exists and verifies every canonical file.
+3. No truncated split artifact, aborted transfer residue or competing obsolete top-level copy can be mistaken for the current canonical file.
 
-## G. Deliberate exclusion — UNPUBLISHED COMMENTS ONLY
-
-The following do **not** belong to this frozen corpus while unpublished:
-
-- draft comments prepared for FG-TIDA Theme threads;
-- ready-to-post replies that have not yet been posted;
-- private publication workbench copy whose purpose is only a future thread action.
-
-Once a comment is actually posted, the public comment is evidence/provenance and may be indexed by a later corpus release. The private pre-post draft itself does not become canonical merely because its public descendant was posted.
-
-## Current-vs-historical rule
-
-The baseline in section A controls the architecture release. Section B is the current validation set after maintenance freeze. Historical predecessor versions remain preserved in Drive. No predecessor is silently deleted or rewritten.
+The previously advertised verification bundle/inventory is not yet present and therefore must not be cited as completed verification.
 
 ## Status boundary
 
