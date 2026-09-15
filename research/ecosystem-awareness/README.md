@@ -6,9 +6,20 @@
 **Maintainer:** Iván Abril Palma / Tegrity.AI / The Integral Management Society  
 **Institutional context:** The Integral Management Society is a Swiss non-profit association.
 
+## Current EA corpus reading order
+
+1. [01 — Integrated Foundational Theory v0.5](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) — the current working, single-file foundation: §1.1 residual indeterminacy, §1.2 ecosystem change, §1.3 integration and neighbouring approaches. It retains all 18 source sections of the controlled v0.4 theory and the working dictionary. The v0.4 parts and 01A remain preserved historical sources; v0.5 is not part of their controlled freeze.
+2. [02 — Epistemic Safety Principles & Control Matrix v0.4](./baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) — four poles and twelve control surfaces; continue through [parts 2](./baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part02.md) and [3](./baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part03.md).
+3. [03 — Functional Architecture v0.4](./baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) — F1–F9; continue through [parts 2](./baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md) and [3](./baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part03.md).
+4. [04 — General Functional Interfaces v0.4](./baseline/04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part01.md) — technology-neutral O/S interface landscape; continue through [parts 2](./baseline/04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part02.md) and [3](./baseline/04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part03.md).
+5. [05 — Provisional FG-TIDA Cross-Theme Contracts v0.4](./baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md) — preserved implementation/interface example, not the definition of EA; continue through [parts 2](./baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part02.md) and [3](./baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part03.md).
+6. [06 — Reviewed Architecture Benchmark v0.5](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — current comparative test proposition; the v0.4 source remains preserved.
+
+The [EA/MSCA annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md), [EA/Regime Awareness annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), [joint operation profile](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), and [DAOS-derived use-case masterclass](./validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) extend this one EA argument at declared interfaces; they do not move the neighbouring programmes into EA or turn proposed integration into validated interoperability. The [four validation profiles](./validation/README.md) form its test suite. Governance, lineage and provenance are source/evidence layers rather than alternative current theories.
+
 ## Read EA in human terms
 
-EA asks how a mission can be pursued with **enough justified knowledge and control for a particular decision** when part of the ecosystem remains unknowable or changes under our feet. The [human-language corpus index](./READING_MAP.md) leads through the actual main documents: the two foundations, epistemic controls, F1–F9 architecture, general interfaces, the extensible DAO/DAOS case, MSCA and Regime Awareness relations, and the benchmark and proposed tests. Begin there if you want the argument; use the manifest and freeze records below when you need to audit a version or citation.
+EA asks how a mission can be pursued with **enough justified knowledge and control for a particular decision** when part of the ecosystem remains unknowable or changes under our feet. Begin with the [integrated 01 foundation](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), then follow the ordered core above. The [reader map](./READING_MAP.md) offers optional routes through its tests and interfaces; use the manifest and freeze records below when auditing source versions or citations.
 
 ## Start here
 
@@ -46,7 +57,7 @@ The [v0.5 reviewed benchmark](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md)
 
 ## Working foundation companion
 
-- [Two Foundational Origins and Their Architectural Integration](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) — new §1.1 residual indeterminacy, §1.2 ecosystem change, §1.3 integration/neighbouring approaches, and a 50-entry non-normative reader's dictionary. It preserves all five v0.4 foundational parts unchanged, links the published Theme #13 formulation and is **not** a controlled-freeze baseline replacement. Its public authorship does not change the incomplete-mirror status in the manifest.
+- [Two Foundational Origins and Their Architectural Integration](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) — new §1.1 residual indeterminacy, §1.2 ecosystem change, §1.3 integration/neighbouring approaches, and a 50-entry non-normative reader's dictionary. It preserves all five v0.4 foundational parts unchanged and links the published Theme #13 formulation. Its substantive §§1.1–1.3 and dictionary now also appear inside the current integrated 01 v0.5 successor; this separate file remains as source history, **not** an alternative current foundation or a controlled-freeze replacement. Its public authorship does not change the incomplete-mirror status in the manifest.
 
 ## Working MSCA interface annex
 
