@@ -2,6 +2,8 @@
 
 ## A human route through the corpus
 
+For the actual ordered main documents and annexes in the corpus folder, start with the [primary baseline index](./baseline/README.md). This map is a secondary reading aid across programmes and evidence layers.
+
 Ecosystem Awareness (EA) begins with a practical question: **for this mission and this decision, what do we need to know and control well enough to proceed, what remains unresolved, and what would make us reconsider?** An ecosystem cannot be fully known, and it changes while we operate. EA therefore seeks a minimally sufficient, explicitly qualified control architecture under uncertainty—not maximum information collection or a claim to have mapped the entire world.
 
 Read the main argument in this order:
