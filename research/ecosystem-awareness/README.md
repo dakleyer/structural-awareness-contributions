@@ -16,6 +16,10 @@
 6. `lineage/` — predecessor architecture, derivation/conservation records and Articles 01–05.
 7. `provenance/` — public FG-TIDA provenance and claim boundaries.
 
+## Public reading routes
+
+The [public reading and integration map](./READING_MAP.md) separates the controlled v0.4 core, additive 01A–01D companions, tests, lineage, and contributor provenance. It offers first-reading, engineering and evidence-audit routes, and links [Cost of Clarity](../../applied-research/cost-of-clarity-rup/), [Regime Awareness](../regime-awareness/), [Minimum Sufficient Control](../../standards/minimum-sufficient-control/) and the [DAOS parent case](../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/) without absorbing their distinct evidence or institutional status into EA. The v0.4 general interface taxonomy remains distinct from the provisional FG-TIDA cross-theme example.
+
 ## Complete-corpus boundary
 
 The public corpus is intended to include:
