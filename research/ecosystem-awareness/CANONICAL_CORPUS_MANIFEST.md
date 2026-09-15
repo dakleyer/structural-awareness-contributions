@@ -38,6 +38,10 @@ The controlled baseline is complete in Google Drive. All six are now publicly pr
 
 **Historic source-status boundary:** `baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md` retains the source document's original “Private working specification for collaborative discussion” wording. The mirror is now public, but that wording has not been silently rewritten in the frozen text. Public availability does not imply FG-TIDA adoption or a new source-status determination.
 
+## A.5 Reviewed public architecture benchmark successor (outside the controlled release baseline)
+
+- `ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md` — present as the current comparative working review. It identifies candidate EA architectural differentiation, potential operational benefits and adversarial tests against a strong peer composition. The earlier `ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md` and the controlled `baseline/06_ARCHITECTURE_BENCHMARK_v0.4` source/split remain preserved. v0.5 is **not** an extra frozen baseline document, a successful comparison, proof of novelty, independent replication or standards adoption.
+
 ## B. Current validation set — publication status
 
 These validation artifacts are part of the canonical corpus. They are not unpublished comments and must not be omitted.
