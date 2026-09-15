@@ -83,6 +83,9 @@ See [`governance/CLAIM_BOUNDARIES.md`](./governance/CLAIM_BOUNDARIES.md) for the
 
 The [`submissions/`](./submissions/) library preserves the relevant documents and public discussion contributions routed to UNECE WP.5, the UN CSTD Working Group on Data Governance at All Levels, ITU-T FG-AI4SSC and ITU-T FG-TIDA. Each folder records provenance, file hashes and the exact procedural status without implying adoption or endorsement.
 
+**FG-TIDA case-study package:** [Delegated Authority OS under Context Change](./submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/) links the [minimal operational case (Annex I)](./submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/02_ANNEX_I_Minimal_Operational_Case.md), [case extensibility (Annex II)](./submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/03_ANNEX_II_Case_Extensibility.md), challenges and FG-TIDA ToR traceability. The mobility scenario is one bounded instantiation; the package is a public pre-freeze working contribution, not an adopted FG-TIDA position.
+
+
 ## Repository status and licensing
 
 This is the curated public contribution repository for material released for review and discussion. No open-source or content licence has yet been selected. Unless and until a licence is added, no permission beyond GitHub's applicable platform terms should be inferred.
