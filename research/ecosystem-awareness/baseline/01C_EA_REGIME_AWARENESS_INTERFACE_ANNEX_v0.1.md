@@ -110,6 +110,8 @@ These are **proposed, transport-neutral semantic fields** for engineering and fa
 | Epistemic limits | insufficient context, invisible scoped changes, dependency on upstream evidence, source lineage, unresolved sign or stale baseline | F5 must not cancel residual or call duplicated paths independent corroboration. |
 | Evidence status | qualified continuation; qualified directional departure; or unresolved/unsupported representation/context/detection (candidate envelope categories) | These categories are *interface design*, not a replacement for paper P_t={−1,0,+1}. UNKNOWN must remain explicit. |
 
+**Payload validity rule:** I-RA-03 carries a qualification state as well as any directional posture. P_t = 0 is emitted only for a qualified, fresh representation/context/baseline/threshold within the declared Δ/τ/ℓ; if representation, context, detection or baseline is unsupported, unresolved or expired, P_t is absent or explicitly UNKNOWN, never neutral. A prior qualified posture expires when its source contract is invalidated. This interface refinement and its no-context/stale-baseline tests are specified in the [joint operation-composition profile 01D](./01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md); they are **proposed payload semantics**, not extra outputs claimed by the RA paper.
+
 ### I-RA-04: action-safety declaration and response trace (owner/RA governor/control → EA F6/F9)
 
 | Field group | Concrete content | Boundary |
