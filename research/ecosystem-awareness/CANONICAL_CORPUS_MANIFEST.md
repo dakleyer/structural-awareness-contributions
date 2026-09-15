@@ -20,6 +20,10 @@ The controlled baseline is complete in Google Drive. Public materialization is s
 | 5 | `baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.md` | `1kSMeygAUe8JaM5MHTnT6DMvhiwVM8sWV1-Bc6A1H7-E` | **Incomplete public split — part 3 missing** |
 | 6 | `baseline/06_ARCHITECTURE_BENCHMARK_v0.4.md` | `1ZYVI6Co5kMoH-0rhVVChYvrACJaGjARl4qX1TD3iAf8` | Pending canonical baseline-path publication; a separate top-level public-freeze copy exists |
 
+## A.1 Newly authored working foundation companion (outside the controlled release baseline)
+
+- `baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md` — present as a public, additive working note. It separates residual indeterminacy, ecosystem change and their integration, with conservation links to the unchanged v0.4 parts and the already published Theme #13 comment. It is **not** one of the six controlled/frozen baseline documents, does not have a Google Drive freeze ID/revision anchor, and does not make the incomplete public mirror complete.
+
 ## B. Current validation set — publication status
 
 These validation artifacts are part of the canonical corpus. They are not unpublished comments and must not be omitted.
