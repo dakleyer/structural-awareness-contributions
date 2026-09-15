@@ -294,4 +294,4 @@ Common antecedents: context engineering, retrieval, memory pruning, progressive 
 
 Differential element: W(d,t) is not just context optimization; it carries an explicit boundary, selection basis, expandable outside state and structural residual, and is requalified against mission sensitivity/risk, observation/determination burden and response capacity. The architecture must support both widening when under-observation creates hidden exposure and narrowing/stopping when further awareness has become Type-1 resource consumption.
 
-Assessment: strong partial prior art; architecture-level extension is potentially differentiated.
+Assessment: strong partial prior art; architecture-level extension is potentially distinctive.
