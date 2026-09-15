@@ -20,9 +20,13 @@ The controlled baseline is complete in Google Drive. All six are now publicly pr
 | 5 | `baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.md` | `1kSMeygAUe8JaM5MHTnT6DMvhiwVM8sWV1-Bc6A1H7-E` | All three ordered split parts present; canonical single-file path / SHA check pending |
 | 6 | `baseline/06_ARCHITECTURE_BENCHMARK_v0.4.md` | `1ZYVI6Co5kMoH-0rhVVChYvrACJaGjARl4qX1TD3iAf8` | All three ordered split parts present and transfer residue repaired 15 September 2026; canonical single-file path / SHA check pending; separate top-level public-freeze copy exists |
 
+## A.0 Current integrated working foundation successor (outside the controlled release baseline)
+
+- [`baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md`](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) — published 15 September 2026 as the current single-file **working successor of document 01**. It reorganizes and retains the full prose of v0.4 §§1–18, once each, under the two related foundational origins and their integration; includes the new 01A §§1.1–1.3, reader dictionary and provenance register. The five v0.4 split parts and 01A source note remain intact and independently accessible. This successor is **not** a controlled Google Drive freeze/revision anchor, an extra seventh frozen baseline document, completed validation or proof of exact parity with the pinned v0.4 revision. It does not close the incomplete-mirror/SHA verification issue.
+
 ## A.1 Newly authored working foundation companion (outside the controlled release baseline)
 
-- `baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md` — present as a public, additive working note. It separates residual indeterminacy, ecosystem change and their integration, with conservation links to the unchanged v0.4 parts and the already published Theme #13 comment. It is **not** one of the six controlled/frozen baseline documents, does not have a Google Drive freeze ID/revision anchor, and does not make the incomplete public mirror complete.
+- `baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md` — present as a public, additive working note. It separates residual indeterminacy, ecosystem change and their integration, with conservation links to the unchanged v0.4 parts and the already published Theme #13 comment. Its substantive development is now incorporated into the current working 01 v0.5 successor; this separate 01A file remains preserved as source history. It is **not** one of the six controlled/frozen baseline documents, does not have a Google Drive freeze ID/revision anchor, and does not make the incomplete public mirror complete.
 
 ## A.2 Newly authored EA/MSCA working interface annex (outside the controlled release baseline)
 
