@@ -8,6 +8,8 @@
 
 ## Current EA corpus reading order
 
+The [index inside the baseline corpus folder](./baseline/README.md) is the primary local index for the six documents and four annexes. This page is the broader public entry and status guide.
+
 1. [01 — Integrated Foundational Theory v0.5](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) — the current working, single-file foundation: §1.1 residual indeterminacy, §1.2 ecosystem change, §1.3 integration and neighbouring approaches. It retains all 18 source sections of the controlled v0.4 theory and the working dictionary. The v0.4 parts and 01A remain preserved historical sources; v0.5 is not part of their controlled freeze.
 2. [02 — Epistemic Safety Principles & Control Matrix v0.4](./baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) — four poles and twelve control surfaces; continue through [parts 2](./baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part02.md) and [3](./baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part03.md).
 3. [03 — Functional Architecture v0.4](./baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) — F1–F9; continue through [parts 2](./baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md) and [3](./baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part03.md).
