@@ -71,7 +71,7 @@ Any material change in S, Q, E, Ψ/context/baseline, Δ/τ/ℓ, action library/U
 | T7 — budget double counting | Same human reviewer appears in RA warning response and MSCA permit path | One attributed attention/latency cost; if remaining horizon becomes infeasible, no composite live-action approval. |
 | T8 — receipt without effect | Dispatch receipt arrives, no independent effect evidence | Keep outcome unresolved; reopen EA F9 and MSCA/RA evaluation as applicable. |
 
-Each test is a **proposal**. No benchmark result, pilot pass or institutional validation is asserted. Existing [EA validation profiles](../validation/) and the RA [paper's theoretical/empirical claim separation](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/) are inputs to an eventual test design, not evidence that these joint tests have run.
+Each test is a **proposal**. No benchmark result, pilot pass or institutional validation is asserted. Existing [EA validation profiles](./README.md#validation-profiles) and the RA [paper's theoretical/empirical claim separation](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/) are inputs to an eventual test design, not evidence that these joint tests have run.
 
 ## 7. Architectural disposition
 

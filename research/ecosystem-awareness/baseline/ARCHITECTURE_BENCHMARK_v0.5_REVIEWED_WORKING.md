@@ -29,7 +29,7 @@ A peer that reproduces the same scoped behaviour with its existing mechanisms an
 
 This table reports **architectural task boundaries**, not a comprehensive negative search over every extension or implementation. Public standards/framework specifications and research papers are moving targets. A comparative claim must cite the exact peer version, configured behaviour and date, rather than infer absence from an overview page.
 
-The nearby [EA/MSCA annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md), [EA/Regime Awareness annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md) and [joint operation profile](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) clarify adjacent responsibilities. They are **candidate integrations**, not extra validated EA differentiators.
+The nearby [EA/MSCA annex](./01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md), [EA/Regime Awareness annex](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md) and [joint operation profile](./01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) clarify adjacent responsibilities. They are **candidate integrations**, not extra validated EA differentiators.
 
 ## 3. The differential to test: four coupled claims, not seven isolated inventions
 

@@ -3,7 +3,7 @@
 **Corpus placement:** current EA baseline working successor to the preserved v0.4 benchmark. The earlier top-level v0.5 publication remains a source/publication alias; this baseline copy keeps the same comparative analysis with only relative links adjusted for its corpus location. It is not a controlled freeze, completed comparative result, or proof of novelty.
 
 **Benchmark review:** v0.5 working successor, 15 September 2026  
-**Source baseline:** [v0.4 public reference freeze](../ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md) and the six controlled EA v0.4 documents listed in the [corpus manifest](../CANONICAL_CORPUS_MANIFEST.md).  
+**Source baseline:** [v0.4 public reference freeze](./ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md) and the six controlled EA v0.4 documents listed in the [corpus manifest](./CANONICAL_CORPUS_MANIFEST.md).  
 **Status:** research benchmark and test specification; no completed comparative validation, novelty proof, standards adoption, implementation superiority or quantified benefit. This document **does not modify** the frozen baseline or the preserved v0.4 benchmark.
 
 ## 1. Reviewed conclusion — a real candidate, not an established win

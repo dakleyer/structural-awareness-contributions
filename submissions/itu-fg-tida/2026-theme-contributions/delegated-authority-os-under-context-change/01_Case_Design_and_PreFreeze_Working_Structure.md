@@ -18,7 +18,7 @@ The case must describe one understandable future real-life situation, not an abs
 
 The concrete case is described separately in:
 
-[Annex I — Minimal Operational Case Outline](02_ANNEX_I_Minimal_Operational_Case.md)
+[Annex I — Minimal Operational Case Outline](./02_ANNEX_I_Minimal_Operational_Case.md)
 
 ### D2 — Minimality with bounded extensibility
 
@@ -28,7 +28,7 @@ For a shared or reusable case, this is an ideal condition rather than an exclusi
 
 The bounded extensibility analysis is kept separately in:
 
-[Annex II — Why the Minimal Case Is Extensible](03_ANNEX_II_Case_Extensibility.md)
+[Annex II — Why the Minimal Case Is Extensible](./03_ANNEX_II_Case_Extensibility.md)
 
 ### D3 — FG-TIDA ToR alignment
 
@@ -36,7 +36,7 @@ The case and the later technical challenges must map clearly to the FG-TIDA Term
 
 The detailed ToR mapping is kept separately in:
 
-[Annex IV — FG-TIDA ToR Mapping and Traceability](05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability.md)
+[Annex IV — FG-TIDA ToR Mapping and Traceability](./05_ANNEX_IV_FG-TIDA_ToR_Mapping_and_Traceability.md)
 
 ### +1 — Declared governing regime for authority determinations
 
@@ -58,11 +58,11 @@ The frozen case will expose a set of technical or solution challenges. Different
 
 The technical challenge surface is kept separately in:
 
-[Annex III — Challenges Exposed by the Case](04_ANNEX_III_Challenges_Exposed_by_the_Case.md)
+[Annex III — Challenges Exposed by the Case](./04_ANNEX_III_Challenges_Exposed_by_the_Case.md)
 
 Relevant interfaces with adjacent standards, groups and research are kept separately in:
 
-[Annex V — Adjacent Standards and Research Relevance](06_ANNEX_V_Adjacent_Standards_and_Research_Relevance.md)
+[Annex V — Adjacent Standards and Research Relevance](./06_ANNEX_V_Adjacent_Standards_and_Research_Relevance.md)
 
 ## What follows
 

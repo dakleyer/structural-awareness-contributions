@@ -2,6 +2,10 @@
 
 ## Public pre-freeze working package
 
+This package asks how an agent can make and later revise a commitment when private preference, public policy, delegated authority, evidence and operational context change at different times. The mobility scene is its **minimum concrete case**, not a universal transport model. Annex II states how the same distinctions may be tested upward, downward or horizontally without silently changing the case facts. Challenges and Terms-of-Reference links are kept separate from the scene so readers can use the package as a bounded, extensible model case.
+
+**Reading route:** design boundary → minimum case → controlled extension → solution challenges → ToR traceability → adjacent standards. The [Ecosystem Awareness corpus](../../../../research/ecosystem-awareness/baseline/README.md) uses this case as a test fixture through its [interface annex 01E](../../../../research/ecosystem-awareness/baseline/01E_EA_DAOS_MODEL_CASE_INTERFACE_ANNEX_v0.1.md) and [validation guide](../../../../research/ecosystem-awareness/baseline/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md); those EA interpretations do not amend this parent package. [MSCA](../../../../standards/minimum-sufficient-control/README.md) and [EWS](../../../../research/regime-awareness/minimalistic-early-warning-systems/README.md) are adjacent independent lines, not parts of this case.
+
 - **Status:** Public working material for collaborative FG-TIDA discussion; not an adopted or endorsed FG-TIDA deliverable.
 - **Version control:** Canonical filenames remain stable. Document revisions are recorded inside each file and in Git history.
 

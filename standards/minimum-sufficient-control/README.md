@@ -1,59 +1,19 @@
-# Minimum Sufficient Control
+# Minimum Sufficient Control / MSCA — corpus index
 
-> **Standards-oriented working note — not an adopted ITU position, recommendation or validated universal architecture**
+Minimum Sufficient Control asks which **authorized configuration** of coordination, interventions and enabling means can keep owner-declared outcomes inside an acceptable Objective Envelope under stated operating assumptions — and which supported alternative has the lowest justified burden. It is a conditional, multi-objective sufficiency problem, not one fixed stack or proof of a global optimum. Detection and epistemic qualification matter, but neither automatically grants an intervention permit.
 
-Minimum Sufficient Control asks:
+This folder is the **reading entry point for the MSCA line**. The formal submission remains in its own submission route and the Tegrity.AI paper remains at its publication URL; the links below identify the source artefacts rather than creating uncontrolled duplicate copies.
 
-> **What minimum level of coordination, architecture and technology is needed to achieve a legitimately defined objective within agreed effectiveness ranges?**
+## Read in order
 
-The question follows downstream from Structural and Regime Awareness. Once a system recognizes that its representation is incomplete or that operating conditions are departing from the current regime, detection alone is insufficient. The system must still have enough observation, coordination and intervention capacity to maintain or recover its objective.
+1. [Architectural and standards working context](./ARCHITECTURE_AND_STANDARDS_CONTEXT.md): the original working note, candidate Objective Envelope/coordination/mechanism/means/response dimensions, research questions and programme boundaries.
+2. [FG-AI4SSC input FGAI4SSC-I-097](../../submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/README.md): controlled submitted PDF/DOCX and receipt status. Posting records an input, **not** adoption.
+3. [Minimum Sufficient Control Architecture working paper](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/): current working architecture, illustrative component handoffs and staged assessment; additional analysis must not be retroactively attributed to the submitted input.
+4. [EA research lineage article II — multi-optima](../../research/ecosystem-awareness/baseline/ARTICLE_02_MINIMUM_CONTROL_ARCHITECTURE_MULTI_OPTIMA.md): predecessor exploration of feasible sufficiency regions, plural local/Pareto alternatives and response capability; not an adopted MCA.
+5. [EA ↔ MSCA interface annex 01B](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) and [joint operation annex 01D](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md): **candidate** input/output and same-operation contracts. EA qualifies the current ecosystem/decision frame; MSCA assesses support for S/E/C/P/M. Their proposed integration remains to be tested.
 
-## Position in the programme
+## Case and neighbouring corpora
 
-```text
-Cost of Clarity
-pre-commitment structural conditions
-        ↓
-Regime Awareness and Regime Change Detection
-continued validity and observable departure
-        ↓
-Minimum Sufficient Control
-bounded response capacity
-        ↺
-outcomes update structural understanding
-```
+The [extensible DAOS case](../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) supplies a separate source fixture for commitments under context change; its EA test interpretation is not an MSCA deployment result. The [EWS corpus](../../research/regime-awareness/minimalistic-early-warning-systems/README.md) concerns observable-regime evidence and bounded response safety. The [EA corpus](../../research/ecosystem-awareness/baseline/README.md) concerns decision-scoped epistemic qualification. The three responsibilities are related but not yet shown to be completely integrated.
 
-External shocks may also create regime departure even when the starting representation was adequate. Minimum Sufficient Control therefore concerns response adequacy regardless of whether the upstream cause was initial structural blindness, gradual drift or an external event.
-
-## Candidate architectural dimensions
-
-1. **Objective envelope** — the declared outcomes, mandatory constraints and acceptable effectiveness ranges.
-2. **Coordination scope** — which actors or flows must be observed, coordinated, directly controlled or legitimately influenced, and in what proportion.
-3. **Operational mechanisms** — the interventions available to preserve or recover the objective.
-4. **Enabling means** — observation, communication, interoperability and actuation capabilities.
-5. **Response conditions** — thresholds, authority, timing, escalation and return-to-operation requirements.
-
-No universal minimum is proposed. Sufficiency depends on the objective, operating conditions, authority structure and available response mechanisms.
-
-## Research questions
-
-- How should an objective envelope be declared and audited?
-- Which architectures are decision-equivalent despite using different technologies or coordination scopes?
-- When can selective control produce a system-level effect?
-- How should detection sufficiency be distinguished from intervention sufficiency?
-- What evidence shows that a lower-bound architecture remains effective under regime change?
-- Which negative cases establish that a proposed minimum is inadequate?
-
-## Standards context
-
-This line has been developed as an input relevant to architectural frameworks, coordination mechanisms and assessment of AI-enabled urban systems. Its presence in a Focus Group discussion or contribution process must not be described as ITU adoption, endorsement or a Recommendation.
-
-The controlled submission documents remain outside this repository. This page exposes the research question and its relation to the wider programme without replacing formal document custody.
-
-## Related workstreams
-
-- [Programme overview](../../README.md)
-- [Regime Awareness](../../research/regime-awareness/)
-- [Regime Change Detection](../../research/regime-awareness/regime-change-qava-uv.md)
-- [Cost of Clarity](../../applied-research/cost-of-clarity-rup/)
-
+**Claim status:** standards-oriented research and a posted focus-group input; no adopted ITU position, universal minimum, completed comparative validation or production certification.
