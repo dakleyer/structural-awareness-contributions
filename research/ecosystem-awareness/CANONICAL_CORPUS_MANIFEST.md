@@ -28,6 +28,10 @@ The controlled baseline is complete in Google Drive. Public materialization is s
 
 - `baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md` — present as a public, additive source-grounded I/O and function map. It relates the FG-AI4SSC Minimum Sufficient Control submission and the Tegrity.AI MSCA working paper's illustrative integration to candidate EA F1–F9 interfaces. It is **not** a seventh/eighth frozen baseline document, implemented interprogramme API, completed validation, or controlled Google Drive freeze/revision anchor. The two programmes and extensible case package remain incompletely integrated. This addition does not alter the incomplete-mirror status.
 
+## A.3 Newly authored EA/Regime Awareness working interface annex (outside the controlled release baseline)
+
+- `baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md` — present as an additive public working annex. It traces the Minimalistic Regime-Aware Early Warning Systems anchor paper's ten defining Sufficiently Good requirements and nine non-defining items; specifies the source-defined RA operating chain, contextual boundary and three contracts; and designs candidate RA↔EA F1–F9 exchanges, authority limits and falsification tests. It is **not** an extra frozen baseline document, implemented common API, independent empirical validation or controlled Google Drive freeze/revision anchor. The public mirror remains incomplete.
+
 ## B. Current validation set — publication status
 
 These validation artifacts are part of the canonical corpus. They are not unpublished comments and must not be omitted.
