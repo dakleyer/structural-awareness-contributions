@@ -11,7 +11,7 @@
 1. [`CANONICAL_CORPUS_MANIFEST.md`](./CANONICAL_CORPUS_MANIFEST.md) — current publication truth, exact intended scope and missing/present status.
 2. [Reviewed Architecture Benchmark v0.5](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — current testable differentiation/benefit judgment and strong-peer comparison protocol; the [v0.4 public reference freeze](./ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md) remains preserved as provenance.
 3. `baseline/` — canonical architecture baseline, currently stored in ordered split files while publication is normalized; [dual-origin working foundation note](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [EA/MSCA interface annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) and [EA/Regime Awareness interface annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), plus the [joint operation-composition profile](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), are additive, non-frozen companions, not additional release-baseline documents.
-4. `validation/` — ordered split parts of the Validation Profile Family and UC-EA-01…04, plus EA-ITP-01, are present; canonical single-file paths, revision-anchored checks and inventory verification are still pending.
+4. [DAOS-derived use-case masterclass](./validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) and [validation reader index](./validation/README.md) — the four complete UC‑EA profiles, their parent case, extensibility and CH‑S1…14 traceability; revision-anchored checks and SHA inventory remain pending.
 5. `governance/` — original freeze and maintenance-freeze controls.
 6. `lineage/` — predecessor architecture, derivation/conservation records and Articles 01–05.
 7. `provenance/` — public FG-TIDA provenance and claim boundaries.
@@ -56,7 +56,17 @@ The [v0.5 reviewed benchmark](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md)
 
 ## Use cases / validation profiles
 
-The files named `UC-EA-01…04` are part of the corpus and must be publicly preserved. Their controlled status is **Architecture-Validation Profiles**, not four separate adopted FG-TIDA Use Case submissions. The public submission strategy may project one concrete situational use case while retaining these four profiles as the deeper falsification/test apparatus.
+Read the [DAOS → EA use-case masterclass](./validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) first. It grounds all four profiles in **TIDA — Delegated Authority OS under Context Change**: Annex I mobility is the minimum scene; Annex II controls upward/downward/horizontal extension; Annex III exposes CH‑S1…14 solution challenges; the profiles select four EA decision surfaces under the **same** T0–T2 facts. They are publicly preserved architecture-validation profiles, **not** four filed/adopted FG-TIDA Use Case submissions.
+
+| Complete public profile | Primary DAOS challenge | EA question |
+|---|---|---|
+| [Validation family & traceability](./validation/VALIDATION_PROFILE_FAMILY_v0.5_FROZEN.md) | Family map | Why one case generates four distinct validation lenses and not four unrelated situations. |
+| [UC‑EA‑01 — operating-frame requalification](./validation/UC-EA-01_v0.3_FROZEN.md) | CH‑S3 | Is T1 closure still adequate after T2 context change? |
+| [UC‑EA‑02 — bounded determination](./validation/UC-EA-02_v0.6_MAINTENANCE_FREEZE.md) | CH‑S5 | Which evidence is worth obtaining and what residual must remain open? |
+| [UC‑EA‑03 — effective human oversight](./validation/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md) | CH‑S4 | Can a human intervene in time, and does approval cure any epistemic gap? |
+| [UC‑EA‑04 — scoped composition](./validation/UC-EA-04_v0.5_MAINTENANCE_FREEZE.md) | CH‑S9 | Do locally valid but differently scoped outputs support one action? |
+
+The continuous documents are assembled from previously published ordered parts, which remain preserved. File visibility is now solved; exact controlled-revision/SHA equality is **not** yet certified. Any future single external mobility Use Case is a separate public artifact, not the validation family itself.
 
 ## Claim boundary
 
