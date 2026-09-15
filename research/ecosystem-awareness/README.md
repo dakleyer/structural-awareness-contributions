@@ -6,6 +6,10 @@
 **Maintainer:** Iván Abril Palma / Tegrity.AI / The Integral Management Society  
 **Institutional context:** The Integral Management Society is a Swiss non-profit association.
 
+## Read EA in human terms
+
+EA asks how a mission can be pursued with **enough justified knowledge and control for a particular decision** when part of the ecosystem remains unknowable or changes under our feet. The [human-language corpus index](./READING_MAP.md) leads through the actual main documents: the two foundations, epistemic controls, F1–F9 architecture, general interfaces, the extensible DAO/DAOS case, MSCA and Regime Awareness relations, and the benchmark and proposed tests. Begin there if you want the argument; use the manifest and freeze records below when you need to audit a version or citation.
+
 ## Start here
 
 1. [`CANONICAL_CORPUS_MANIFEST.md`](./CANONICAL_CORPUS_MANIFEST.md) — current publication truth, exact intended scope and missing/present status.
