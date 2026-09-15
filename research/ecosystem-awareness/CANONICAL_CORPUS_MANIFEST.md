@@ -44,7 +44,11 @@ The controlled baseline is complete in Google Drive. All six are now publicly pr
 
 ## A.5 Reviewed public architecture benchmark successor (outside the controlled release baseline)
 
-- `ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md` — present as the current comparative working review. It identifies candidate EA architectural differentiation, potential operational benefits and adversarial tests against a strong peer composition. The earlier `ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md` and the controlled `baseline/06_ARCHITECTURE_BENCHMARK_v0.4` source/split remain preserved. v0.5 is **not** an extra frozen baseline document, a successful comparison, proof of novelty, independent replication or standards adoption.
+- [`baseline/06_ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md`](./baseline/06_ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — present as the current comparative working successor within the EA baseline directory. The earlier top-level `ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md` publication remains preserved as a source/publication alias with equivalent analysis and original-location links. It identifies candidate EA architectural differentiation, potential operational benefits and adversarial tests against a strong peer composition. The earlier `ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md` and the controlled `baseline/06_ARCHITECTURE_BENCHMARK_v0.4` source/split remain preserved. v0.5 is **not** an extra frozen baseline document, a successful comparison, proof of novelty, independent replication or standards adoption.
+
+## A.6 Newly authored EA/DAOS model-case interface annex (outside the controlled release baseline)
+
+- [`baseline/01E_EA_DAOS_MODEL_CASE_INTERFACE_ANNEX_v0.1.md`](./baseline/01E_EA_DAOS_MODEL_CASE_INTERFACE_ANNEX_v0.1.md) — current public candidate interface between the intact TIDA — Delegated Authority OS under Context Change parent case and EA F1–F9. It states T0–T2 source-fact inputs, bounded EA outputs, CH-S1…14 ownership, four validation lenses, extension invariants and fair-test conditions. The detailed `validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md` remains the reader/test guide, not an additional parent-case freeze. This annex does **not** rename or edit the parent submission, add an implemented API, certify interoperability, or turn UC-EA-01…04 into four FG-TIDA submissions.
 
 ## B. Current validation set — publication status
 
