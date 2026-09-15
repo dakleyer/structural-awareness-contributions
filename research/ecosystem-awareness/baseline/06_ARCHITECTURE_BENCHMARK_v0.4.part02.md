@@ -1,5 +1,3 @@
-lly distinctive.
-
 &nbsp;
 
 APQ benchmark consequence. Acquisition-pathway qualification does not earn differentiation merely by selecting a secure, fast, reputable or low-cost source. The test is whether decision-relative acquisition, under the current scope/open-residual/non-fungibility state, changes the supported decision or preserves a viable response better than a strong conventional selector.
