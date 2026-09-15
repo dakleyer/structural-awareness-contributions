@@ -9,8 +9,8 @@
 ## Start here
 
 1. [`CANONICAL_CORPUS_MANIFEST.md`](./CANONICAL_CORPUS_MANIFEST.md) — current publication truth, exact intended scope and missing/present status.
-2. `baseline/` — canonical architecture baseline, currently stored in ordered split files while publication is normalized; [dual-origin working foundation note](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [EA/MSCA interface annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) and [EA/Regime Awareness interface annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md) are additive, non-frozen companions, not additional release-baseline documents.
-3. `validation/` — must contain the Validation Profile Family, UC-EA-01…04 and EA-ITP-01 before the mirror can be called complete.
+2. `baseline/` — canonical architecture baseline, currently stored in ordered split files while publication is normalized; [dual-origin working foundation note](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [EA/MSCA interface annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) and [EA/Regime Awareness interface annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), plus the [joint operation-composition profile](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), are additive, non-frozen companions, not additional release-baseline documents.
+3. `validation/` — ordered split parts of the Validation Profile Family and UC-EA-01…04, plus EA-ITP-01, are present; canonical single-file paths, revision-anchored checks and inventory verification are still pending.
 4. `governance/` — original freeze and maintenance-freeze controls.
 5. `lineage/` — predecessor architecture, derivation/conservation records and Articles 01–05.
 6. `provenance/` — public FG-TIDA provenance and claim boundaries.
@@ -42,6 +42,12 @@ The **only deliberate exclusion** is unpublished GitHub / FG-TIDA comment, reply
 ## Working Regime Awareness interface annex
 
 - [EA / Regime Awareness architecture and Sufficiently Good Early Warning](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md) — detailed, source-traceable account of the ten defining properties of the strong detector class, the other nine items' logical status, contextual sufficiency, representation/detection/action contracts and proposed EA F1–F9 input/output interfaces. It distinguishes RA directional evidence from EA systemic posture and from action authorization. This is **candidate integration**, not an implemented API or completed joint validation.
+
+## Independently reviewed joint operation profile
+
+- [EA / MSCA / Regime Awareness operation composition](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) — candidate versioned compatibility and eligibility profile for an RA-triggered MSCA action, with explicit UNKNOWN/null RA payload semantics, separate owner authority, a shared decision-wide cost ledger and race/expiry tests. Optional RA monitoring is not a universal veto. This closes a **documentation gap**, not an implementation or validation gap.
+
+**Source-status note:** the published split of v0.4 Cross-Theme Interface Contracts retains the frozen source's historical “Private working specification for collaborative discussion” label. Publication here does not imply formal FG-TIDA adoption; the label has not been silently rewritten.
 
 ## Use cases / validation profiles
 
