@@ -13,9 +13,9 @@
 3. [03 — Functional Architecture v0.4](./baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) — F1–F9; continue through [parts 2](./baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md) and [3](./baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part03.md).
 4. [04 — General Functional Interfaces v0.4](./baseline/04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part01.md) — technology-neutral O/S interface landscape; continue through [parts 2](./baseline/04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part02.md) and [3](./baseline/04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part03.md).
 5. [05 — Provisional FG-TIDA Cross-Theme Contracts v0.4](./baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md) — preserved implementation/interface example, not the definition of EA; continue through [parts 2](./baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part02.md) and [3](./baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part03.md).
-6. [06 — Reviewed Architecture Benchmark v0.5](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — current comparative test proposition; the v0.4 source remains preserved.
+6. [06 — Reviewed Architecture Benchmark v0.5](./baseline/06_ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — current comparative test proposition; the v0.4 source remains preserved.
 
-The [EA/MSCA annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md), [EA/Regime Awareness annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), [joint operation profile](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), and [DAOS-derived use-case masterclass](./validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) extend this one EA argument at declared interfaces; they do not move the neighbouring programmes into EA or turn proposed integration into validated interoperability. The [four validation profiles](./validation/README.md) form its test suite. Governance, lineage and provenance are source/evidence layers rather than alternative current theories.
+The [EA/MSCA annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md), [EA/Regime Awareness annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), [joint operation profile](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), and [DAOS model-case interface annex](./baseline/01E_EA_DAOS_MODEL_CASE_INTERFACE_ANNEX_v0.1.md) extend this one EA argument at declared interfaces; they do not move the neighbouring programmes into EA or turn proposed integration into validated interoperability. The [DAOS-derived use-case masterclass](./validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) is the detailed test/reader guide; the [four validation profiles](./validation/README.md) form its test suite. Governance, lineage and provenance are source/evidence layers rather than alternative current theories.
 
 ## Read EA in human terms
 
@@ -24,7 +24,7 @@ EA asks how a mission can be pursued with **enough justified knowledge and contr
 ## Start here
 
 1. [`CANONICAL_CORPUS_MANIFEST.md`](./CANONICAL_CORPUS_MANIFEST.md) — current publication truth, exact intended scope and missing/present status.
-2. [Reviewed Architecture Benchmark v0.5](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — current testable differentiation/benefit judgment and strong-peer comparison protocol; the [v0.4 public reference freeze](./ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md) remains preserved as provenance.
+2. [Reviewed Architecture Benchmark v0.5](./baseline/06_ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — current testable differentiation/benefit judgment and strong-peer comparison protocol; the [v0.4 public reference freeze](./ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md) remains preserved as provenance.
 3. `baseline/` — canonical architecture baseline, currently stored in ordered split files while publication is normalized; [dual-origin working foundation note](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [EA/MSCA interface annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) and [EA/Regime Awareness interface annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), plus the [joint operation-composition profile](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), are additive, non-frozen companions, not additional release-baseline documents.
 4. [DAOS-derived use-case masterclass](./validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) and [validation reader index](./validation/README.md) — the four complete UC‑EA profiles, their parent case, extensibility and CH‑S1…14 traceability; revision-anchored checks and SHA inventory remain pending.
 5. `governance/` — original freeze and maintenance-freeze controls.
@@ -53,7 +53,9 @@ The **only deliberate exclusion** is unpublished GitHub / FG-TIDA comment, reply
 
 ## Benchmark status
 
-The [v0.5 reviewed benchmark](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) identifies a potentially differential **combination** — decision-scoped windows, structural residual, non-fungible cross-domain composition and risk/capacity-indexed requalification — and specifies UC-EA-01…04 tests against a strong peer composition. Its possible benefits remain hypotheses, not demonstrated comparative superiority. The preserved v0.4 benchmark and controlled EA baseline are not overwritten.
+The earlier [top-level v0.5 publication](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) remains preserved; the reviewed working successor is now placed as document 06 within `baseline/`, with relative source links adjusted.
+
+The [v0.5 reviewed benchmark](./baseline/06_ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) identifies a potentially differential **combination** — decision-scoped windows, structural residual, non-fungible cross-domain composition and risk/capacity-indexed requalification — and specifies UC-EA-01…04 tests against a strong peer composition. Its possible benefits remain hypotheses, not demonstrated comparative superiority. The preserved v0.4 benchmark and controlled EA baseline are not overwritten.
 
 ## Working foundation companion
 
@@ -72,6 +74,10 @@ The [v0.5 reviewed benchmark](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md)
 - [EA / MSCA / Regime Awareness operation composition](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) — candidate versioned compatibility and eligibility profile for an RA-triggered MSCA action, with explicit UNKNOWN/null RA payload semantics, separate owner authority, a shared decision-wide cost ledger and race/expiry tests. Optional RA monitoring is not a universal veto. This closes a **documentation gap**, not an implementation or validation gap.
 
 **Source-status note:** the published split of v0.4 Cross-Theme Interface Contracts retains the frozen source's historical “Private working specification for collaborative discussion” label. Publication here does not imply formal FG-TIDA adoption; the label has not been silently rewritten.
+
+## Working DAOS model-case interface annex
+
+- [EA / Delegated Authority OS under Context Change — Model Case Study interface](./baseline/01E_EA_DAOS_MODEL_CASE_INTERFACE_ANNEX_v0.1.md) — explicit case-fact → EA F1–F9 input/output and test contract for the extensible parent case, with CH-S1…14 ownership boundaries and UC-EA-01…04 mapping. The parent submission files remain unchanged; the [validation masterclass](./validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) remains the detailed reader/test guide. This is not an implemented DAO API, an adopted Use Case, or a frozen source document.
 
 ## Use cases / validation profiles
 
