@@ -9,7 +9,7 @@
 ## Start here
 
 1. [`CANONICAL_CORPUS_MANIFEST.md`](./CANONICAL_CORPUS_MANIFEST.md) — current publication truth, exact intended scope and missing/present status.
-2. `baseline/` — canonical architecture baseline, currently stored in ordered split files while publication is normalized; [dual-origin working foundation note](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) is an additive, non-frozen companion, not a seventh release-baseline document.
+2. `baseline/` — canonical architecture baseline, currently stored in ordered split files while publication is normalized; [dual-origin working foundation note](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [EA/MSCA interface annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) are additive, non-frozen companions, not seventh/eighth release-baseline documents.
 3. `validation/` — must contain the Validation Profile Family, UC-EA-01…04 and EA-ITP-01 before the mirror can be called complete.
 4. `governance/` — original freeze and maintenance-freeze controls.
 5. `lineage/` — predecessor architecture, derivation/conservation records and Articles 01–05.
@@ -34,6 +34,10 @@ The **only deliberate exclusion** is unpublished GitHub / FG-TIDA comment, reply
 ## Working foundation companion
 
 - [Two Foundational Origins and Their Architectural Integration](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) — new §1.1 residual indeterminacy, §1.2 ecosystem change, §1.3 integration/neighbouring approaches, and a 50-entry non-normative reader's dictionary. It preserves all five v0.4 foundational parts unchanged, links the published Theme #13 formulation and is **not** a controlled-freeze baseline replacement. Its public authorship does not change the incomplete-mirror status in the manifest.
+
+## Working MSCA interface annex
+
+- [EA / MSCA functions, inputs and outputs](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) — source-grounded map of the FGAI4SSC-I-097 control proposition, the Tegrity.AI MSCA working paper's illustrative §5.1 component handoffs and candidate EA↔MSCA exchanges. The programmes are **not yet completely integrated**; the annex is not a controlled-freeze baseline, implemented API or standards adoption.
 
 ## Use cases / validation profiles
 
