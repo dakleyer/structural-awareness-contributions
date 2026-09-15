@@ -33,7 +33,7 @@ The **only deliberate exclusion** is unpublished GitHub / FG-TIDA comment, reply
 
 ## Working foundation companion
 
-- [Two Foundational Origins and Their Architectural Integration](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) — new §1.1 residual indeterminacy, §1.2 ecosystem change and §1.3 integration/neighbouring approaches. It preserves all five v0.4 foundational parts unchanged, links the published Theme #13 formulation and is **not** a controlled-freeze baseline replacement. Its public authorship does not change the incomplete-mirror status in the manifest.
+- [Two Foundational Origins and Their Architectural Integration](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) — new §1.1 residual indeterminacy, §1.2 ecosystem change, §1.3 integration/neighbouring approaches, and a 50-entry non-normative reader's dictionary. It preserves all five v0.4 foundational parts unchanged, links the published Theme #13 formulation and is **not** a controlled-freeze baseline replacement. Its public authorship does not change the incomplete-mirror status in the manifest.
 
 ## Use cases / validation profiles
 
