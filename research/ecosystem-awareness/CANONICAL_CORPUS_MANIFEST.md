@@ -91,7 +91,9 @@ The corpus must not be described as complete until all three conditions are true
 2. The generated SHA-256 inventory exists and verifies every canonical file.
 3. No truncated split artifact, aborted transfer residue or competing obsolete top-level copy can be mistaken for the current canonical file.
 
-The previously advertised verification bundle/inventory is not yet present and therefore must not be cited as completed verification. Presence of ordered parts is not proof of equality. The 15 September 2026 text comparison used normalized word sequences, not frozen-revision SHA-256, and found link/format additions in some validation mirrors; these require explicit disposition before any completeness claim.
+The previously advertised verification bundle/inventory is not yet present and therefore must not be cited as completed verification.
+
+**Revision-anchor exception:** the current Google Docs revisionId for controlled baseline document 02 (Epistemic Safety Principles & Control Matrix) differs from the revisionId fixed in `governance/FREEZE_MANIFEST_2026-09-10.md`. A word-level comparison of the *current* Doc 02 against its GitHub split found no missing words, but does **not** certify that the public file matches the exact frozen revision. No substantive change has been established from the revision-token difference alone; the pinned revision still requires direct verification. Presence of ordered parts is not proof of equality. The 15 September 2026 text comparison used normalized word sequences, not frozen-revision SHA-256, and found link/format additions in some validation mirrors; these require explicit disposition before any completeness claim.
 
 ## Status boundary
 
