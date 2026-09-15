@@ -9,6 +9,8 @@ This manifest maps the intended public mirror to the exact controlled Google Dri
 
 ## A. Canonical / release baseline — publication status
 
+The [`baseline/README.md`](./baseline/README.md) now supplies the ordered folder-level reader index for the six documents, current working successors and four candidate interfaces. It is navigation, not a seventh controlled/frozen document or a substitute for this publication-status manifest.
+
 The controlled baseline is complete in Google Drive. All six are now publicly present as ordered split parts; the six intended single-file canonical paths and checksum inventory remain pending. A word-level comparison on 15 September 2026 found parity across the six after repair of a benchmark split artifact; this is not byte-level or revision-anchored verification.
 
 | # | Intended public file | Controlled Drive source | Public status |
