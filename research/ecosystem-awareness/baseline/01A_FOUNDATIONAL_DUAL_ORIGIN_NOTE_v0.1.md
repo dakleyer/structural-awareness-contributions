@@ -66,3 +66,72 @@ This document is additive. It does **not** move, delete, renumber or edit any fr
 The 8 September 2026 comment also contains links to public discussions across Themes #6, #10, #13, #16, #18, #19 and #21, a call for foundational use cases, and an explicit reservation of consolidated inputs/outputs and high-level interfaces for later discussion. Those **discussion-history and work-programme statements remain in the comment itself**; this general foundation neither erases them nor turns them into an adopted FG-TIDA architecture. Later architecture/interface work must cite the specific public artifacts and retain the general-versus-Theme-specific boundary.
 
 **Source integrity rule:** the controlled Google Drive freeze/maintenance manifests remain the exact internal anchors for the six v0.4 release-baseline documents. This note is a newly authored public working companion; it has no controlled-freeze status or Drive revision anchor until separately reconciled. The public mirror's completeness status in `CANONICAL_CORPUS_MANIFEST.md` is unchanged by this addition.
+
+## Reader's dictionary — scope-qualified, non-normative
+
+This dictionary is a reader aid, **not** an EA taxonomy imposed on other Themes, a replacement for their producer-owned terminology, a protocol specification, or evidence of FG-TIDA agreement. Terms from the v0.4 theory describe the current **working EA model**; Theme-numbered entries below are **provisional EA-side readings**, open to correction by their producers. Different local states must remain distinguishable when they cross a boundary. The cross-Theme discussion draft used to check these distinctions is not posted and is neither quoted here as public provenance nor linked as a published artifact.
+
+### A. Foundational and temporal terms
+
+- **Ecosystem:** A dynamic mesh of materially interdependent participants, dependencies and conditions. It need not be a single system, reciprocally beneficial network or centrally governed entity.
+- **Ecosystem Awareness (EA):** The distributed-capable architectural function that tests whether the present decision frame remains sufficiently qualified and manages uncertainty inside and beyond its selected observation window. It does not imply a mandatory named software module.
+- **Ω (open decision-relevant class):** Potentially material actors, conditions, dependencies and configurations. Ω is not assumed closed or exhaustively enumerable.
+- **U (represented operational universe):** The bounded set of entities, variables, sources, actors and controls explicitly included in the current decision model.
+- **R_U (open residual relative to U):** Potentially decision-relevant state not represented in U, including state not yet enumerated or categorized. It is not a computed, complete set complement.
+- **W(d,t) (observation window):** The selected, time-sensitive information boundary for decision `d`; it can be expanded, restricted or requalified, but not costlessly.
+- **Inside-U uncertainty:** An identified entity or determination inside U remains unresolved—for example a named but unavailable authorised human, a noisy sensor or contradictory evidence.
+- **Out-of-window uncertainty:** Decision-relevant state may lie beyond W/U; some of it may be recognized as potentially obtainable, and some may remain structural residual.
+- **Four epistemic positions (Poles A–D):** Sufficiently determined; explicitly unresolved; recognized potentially knowable beyond the active window; and structural residual. These are decision-relative qualifications, not equal proportions or a closed partition of Ω.
+- **Type 0 (structural non-determination):** A mission-level/global property cannot be sufficiently determined under the available class, resources or response horizon despite correct uncertainty management. This is a condition, not a third management failure; restricted local subproblems may still be solvable.
+- **Type 1 (unbounded non-closure):** Uncertainty is acknowledged but search, HOLD or escalation lacks a bounded legitimate escape condition and may exhaust compute, time or human capacity.
+- **Type 2 (false closure):** Missing or inherited uncertainty, stale scope or a material dependency is suppressed so an insufficiently supported result appears certain or globally valid.
+- **Minimum sufficient awareness/control:** The observation, determination and control position adequate for *this* mission and risk, feasible within finite capacity and time. It is neither maximum information nor a universal smallest configuration.
+- **Qualified operating envelope Q:** The currently supported range of operating conditions/modes for which applicability and mission-relevant response mappings have sufficient evidence.
+- **Regime change:** A transition in which Q no longer supports a sufficiently valid mission-level response mapping. Ordinary change within Q is not automatically a regime change.
+- **Requalification:** Renewed assessment of the evidence, dependencies, window, capacity and response mapping needed to justify a decision or renewed operation. Incident resolution or another actor's approval does not by itself complete it.
+- **Normal / Containment / Migration–Regime Transition:** Broad, decision-scoped operating postures: continue in a qualified frame; reduce exposure/scope while preserving a workable frame; or prepare for a possible critical bifurcation and a still unknown or newly qualified frame. They are not an exhaustive action list and do not themselves grant enforcement authority.
+- **Posture(D_receiver):** Posture indexed to the receiving decision's mission, scope and evidence. Different receivers may legitimately have different postures; no global posture or scalar EA score follows automatically.
+- **Response window / response capacity:** Time in which new evidence can still alter the outcome, and the available technical and human ability to observe, decide and act. Further inquiry can consume both.
+- **Epistemic versus operational closure:** A system may legitimately restrict, defer, contain or hand off an operation while acknowledging unresolved knowledge; an operational outcome is not proof of epistemic certainty.
+
+### B. Producer-owned states — provisional EA-side readings
+
+The labels below remain owned by the producing Theme. They are not interchangeable synonyms for generic “uncertainty” and must not be silently transformed into an EA verdict.
+
+- **Theme #6 `INDETERMINATE` (action-side conformance):** The relevant evaluation occurred, but its evidence/reference/scope does not sufficiently support an ordinary action verdict. This does not declare the whole ecosystem indeterminate or authority invalid.
+- **Theme #6 attested absence of evaluation:** The specified conformance evaluation did not occur and no verdict was issued, with that absence itself legible. This is not #6 `INDETERMINATE`, PASS/FAIL or an evidence-side no-assertion.
+- **Theme #22 / RATS-AR4SI `no-assertion` (evidence-side):** The attestation/appraisal path does not assert the claim under the available evidence and appraisal semantics. It is not an action-side conformance result or operational permission.
+- **Theme #16 `HELD` (human-oversight lifecycle):** Operation is not currently proceeding while an applicable intervention, authority, evidence or reconciliation condition is handled. The state alone does not say whether the epistemic question is solved.
+- **Theme #16 `INDETERMINATE` (execution/admission):** The execution/admission outcome cannot be established after provider entry may have occurred. It blocks blind retry or automatic restoration pending authenticated reconciliation; it is not #16 `HELD` or #6 `INDETERMINATE`.
+- **Theme #21 population residual:** A population-level claim remains limited by the declared population, observation architecture and evaluator-family assumptions. A structural limitation is not necessarily cured by more samples; the finding does not choose an operational response.
+- **Theme #5/#9 absent, fuzzy or contested authority:** Grant, standing, provenance or scope cannot be established crisply. Downstream approval, conformance or containment must not silently repair that authority basis.
+- **Theme #13 incident/signal state:** Incident detection, signal lifecycle, corroboration/amendment, affected scope, response coordination and containment workflow belong to the incident-side mechanism, which is independently testable from EA.
+- **Theme #13 unresolved incident qualifier or edge (`UNKNOWN`):** A material affected-scope, provenance or blast-radius relation is not established. This does not make the entire incident false or become an EA system-level determination.
+- **Locally authorised containment:** Execution remains with the actor or mechanism holding the relevant authority. Neither a signal nor an EA assessment creates a new permission, human decision or containment command.
+
+A single action may consistently carry `#6 INDETERMINATE`, `#16 HELD`, `#22 no-assertion` and an established authority basis at the same time. The receiving decision qualifies their *combined significance*; it does not replace their native meanings.
+
+### C. Cross-boundary composition and handoff terms
+
+- **Producer semantics/profile reference:** A versioned reference, or inline equivalent, identifying what the producing mechanism normally means by its fields, evidence boundaries and states. It is not a demand to reveal internal prompts or reasoning.
+- **Producer Epistemic Profile:** Stable, source-attributed coverage/claim/qualifier semantics and default validity rules, when such a profile exists.
+- **Decision-Relevant Handoff:** The current result's small, decision-material delta against its profile. It should not become a mandatory full-history export.
+- **Epistemic Handoff Descriptor (EHD):** A candidate, implementation-neutral semantic handoff whose irreducible composition kernel is: (1) profile/semantic reference and version, (2) subject/proposition/decision domain with scope, (3) producer/issuer, (4) operational result/closure, (5) determination/state kind, and (6) explicit material unknown qualifiers. Values may be `UNKNOWN`; Theme-specific details remain conditional.
+- **Subject / proposition / decision domain:** Respectively the entity/action concerned, the claim being assessed, and the domain of the receiving decision. Conflating them can promote a source-native result beyond its boundary.
+- **Scope:** The coverage to which a statement applies. `scope = UNKNOWN` is preferable to invented completeness.
+- **Operational result versus determination state:** What happened or was operationally closed is distinct from what the producer established. `HELD`, no-assertion and conformance indeterminacy therefore cannot be flattened into one outcome.
+- **Explicit unknown qualifier:** A material property the producer did not establish, such as source independence, affected scope, response reach or freshness. Honest partiality is a usable handoff, not automatic contract failure.
+- **Unknown reason versus not applicable:** `not_observed`, `not_tracked`, `unavailable`, `privacy_restricted`, `unsupported` and `not_established` can explain an unknown when known; the reason itself may remain `UNKNOWN`. `not_applicable` is a determination, not an unknown.
+- **Conditional qualifier:** Freshness, provenance, confidence, capacity, observation window or similar state carried only when its absence could change the relying decision. It is not a universal required field.
+- **Inherited indeterminacy:** Unresolved state or source dependence passed through an upstream actor, conclusion or compressed output. A downstream closure does not erase it.
+- **Corroboration versus pathway diversity:** Several reports or acquisition routes are not independent evidence merely because there are many; they may share upstream lineage. Dependence not established remains `UNKNOWN`.
+- **Epistemic non-fungibility:** A control or approval in domain `d2` does not compensate for a knowledge fault in `d1` without demonstrated coupling and fresh evidence that actually requalifies `d1`.
+- **Operational blast-radius graph:** Incident-side representation of agents, services, actions or assets observed or potentially affected and the response/containment reach.
+- **Epistemic dependency graph:** EA-side representation of which relying conclusions inherit uncertainty or dependence across those relationships. The two graphs can share evidence without merging ownership.
+- **Affected scope versus decision scope:** What an incident may affect is not automatically the scope for which a receiving decision may rely on a signal.
+- **Theme #13 determinacy-envelope profile:** The four context-specific fields `closure`, `determinacy_margin`, `capacity_binding` and `inherited_indeterminacy` can be read as a candidate #13 profile of the more general EHD—not a replacement for the existing Use Case #4 Requirement 20 or a vocabulary required of other Themes. This mapping remains open to contributor confirmation.
+- **Targeted requalification request:** A bounded request to refine the particular source, graph branch, evaluation or human path whose resolution could materially change the receiving decision before its response window closes.
+- **System security versus ecosystem security:** Working, non-normative distinction: local identity/authority/policy/attestation/control compliance versus whether surrounding dependencies and capacities still support the locally valid operation. “Systemic” describes a wider condition or consequence, not a substitute label for the first term.
+- **Source-native ownership:** Each producer retains its verdicts, evidence semantics, authority and decision logic. EA qualifies what those outputs support *for the receiving decision*; it does not score or certify the producer globally.
+
+**Reader rule:** carry the producer's native state, reference, scope and material unresolved qualifiers first; assess the decision-relative significance second; authorize or execute action only through the existing authority path. These three steps are related but not interchangeable.
