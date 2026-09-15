@@ -9,11 +9,12 @@
 ## Start here
 
 1. [`CANONICAL_CORPUS_MANIFEST.md`](./CANONICAL_CORPUS_MANIFEST.md) — current publication truth, exact intended scope and missing/present status.
-2. `baseline/` — canonical architecture baseline, currently stored in ordered split files while publication is normalized; [dual-origin working foundation note](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [EA/MSCA interface annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) and [EA/Regime Awareness interface annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), plus the [joint operation-composition profile](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), are additive, non-frozen companions, not additional release-baseline documents.
-3. `validation/` — ordered split parts of the Validation Profile Family and UC-EA-01…04, plus EA-ITP-01, are present; canonical single-file paths, revision-anchored checks and inventory verification are still pending.
-4. `governance/` — original freeze and maintenance-freeze controls.
-5. `lineage/` — predecessor architecture, derivation/conservation records and Articles 01–05.
-6. `provenance/` — public FG-TIDA provenance and claim boundaries.
+2. [Reviewed Architecture Benchmark v0.5](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — current testable differentiation/benefit judgment and strong-peer comparison protocol; the [v0.4 public reference freeze](./ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md) remains preserved as provenance.
+3. `baseline/` — canonical architecture baseline, currently stored in ordered split files while publication is normalized; [dual-origin working foundation note](./baseline/01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [EA/MSCA interface annex](./baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) and [EA/Regime Awareness interface annex](./baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), plus the [joint operation-composition profile](./baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), are additive, non-frozen companions, not additional release-baseline documents.
+4. `validation/` — ordered split parts of the Validation Profile Family and UC-EA-01…04, plus EA-ITP-01, are present; canonical single-file paths, revision-anchored checks and inventory verification are still pending.
+5. `governance/` — original freeze and maintenance-freeze controls.
+6. `lineage/` — predecessor architecture, derivation/conservation records and Articles 01–05.
+7. `provenance/` — public FG-TIDA provenance and claim boundaries.
 
 ## Complete-corpus boundary
 
@@ -30,6 +31,10 @@ The public corpus is intended to include:
 - the linked Parent Case Study / DAOS fixture.
 
 The **only deliberate exclusion** is unpublished GitHub / FG-TIDA comment, reply or posting-draft material prepared for future public threads. Those drafts remain private until actually posted. Once posted, the public artifact may be cited as provenance/evidence; the private draft does not become canon automatically.
+
+## Benchmark status
+
+The [v0.5 reviewed benchmark](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) identifies a potentially differential **combination** — decision-scoped windows, structural residual, non-fungible cross-domain composition and risk/capacity-indexed requalification — and specifies UC-EA-01…04 tests against a strong peer composition. Its possible benefits remain hypotheses, not demonstrated comparative superiority. The preserved v0.4 benchmark and controlled EA baseline are not overwritten.
 
 ## Working foundation companion
 
