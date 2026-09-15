@@ -39,6 +39,12 @@ This is one important causal and operational path, not a claim that every regime
 | **Regime Change Detection** | Is observable behaviour departing from the regime against which current assumptions were established? | [`research/regime-awareness/regime-change-qava-uv.md`](./research/regime-awareness/regime-change-qava-uv.md) | Preliminary methodological review route with QAVA–Universitat de València; no validation or institutional endorsement claim |
 | **Minimum Sufficient Control** | What minimum observation, coordination and intervention capacity can maintain or recover a declared objective? | [`standards/minimum-sufficient-control/`](./standards/minimum-sufficient-control/) | Standards-oriented research input; not an adopted ITU position or recommendation |
 
+## Navigate the public work
+
+This repository keeps different evidence and institutional routes separate while giving readers a continuous path through them. For a first pass, follow [Cost of Clarity / RUP](./applied-research/cost-of-clarity-rup/) (pre-commitment information and authority), the [Ecosystem Awareness reading map](./research/ecosystem-awareness/READING_MAP.md) (decision-scoped epistemic qualification and residual), [Regime Awareness](./research/regime-awareness/) (continued operating validity), and [Minimum Sufficient Control](./standards/minimum-sufficient-control/) (bounded response architecture). This is a candidate programme relationship, not a validation chain or a claim that all objects have already been integrated.
+
+For EA engineering detail, the [canonical corpus index](./research/ecosystem-awareness/) distinguishes the controlled baseline from later working annexes; the [validation reader index](./research/ecosystem-awareness/validation/README.md) and [DAOS-derived four-profile masterclass](./research/ecosystem-awareness/validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) lead to the proposed tests. For the external case and its challenges, use the separately preserved [TIDA — Delegated Authority OS under Context Change package](./submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/). The [submissions library](./submissions/) records procedural status rather than implying adoption.
+
 ## How the workstreams connect
 
 ### 1. Before commitment — Cost of Clarity
