@@ -22,7 +22,7 @@ R3. The system shall preserve non-substitution between independently valid autho
 
 R4. Local certainty shall not be promoted to ecosystem certainty solely because the local subsystem is authoritative within its scope.
 
-R5. A system shall preserve known source dependence and shall not count duplicated/derived claims as independent corroboration unless independence is established.
+R5. A system shall preserve known source dependence and shall not count duplicated/derived claims as independent corroboration.
 
 R6. A multi-agent sectioning pattern shall not be treated as a multiple-opinion pattern unless more than one agent actually evaluates the same material proposition/domain.
 
