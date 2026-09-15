@@ -32,6 +32,12 @@ The controlled baseline is complete in Google Drive. All six are now publicly pr
 
 - `baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md` — present as an additive public working annex. It traces the Minimalistic Regime-Aware Early Warning Systems anchor paper's ten defining Sufficiently Good requirements and nine non-defining items; specifies the source-defined RA operating chain, contextual boundary and three contracts; and designs candidate RA↔EA F1–F9 exchanges, authority limits and falsification tests. It is **not** an extra frozen baseline document, implemented common API, independent empirical validation or controlled Google Drive freeze/revision anchor. The public mirror remains incomplete.
 
+## A.4 Independently reviewed joint EA/MSCA/RA operation profile (outside the controlled release baseline)
+
+- `baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md` — additive candidate composition profile, published 15 September 2026 after independent architecture review. It binds operation, S/Q, RA Ψ/context/posture/action-safety, MSCA S/E/C/P/M, authority/permit and useful cost/response horizon; distinguishes required RA-triggered action from optional advisory RA evidence; and proposes falsification tests. It is **not** a seventh frozen baseline document, an implemented joint gate, a safety proof, a completed pilot or an adopted standard. The controlled v0.4 baseline remains unchanged.
+
+**Historic source-status boundary:** `baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md` retains the source document's original “Private working specification for collaborative discussion” wording. The mirror is now public, but that wording has not been silently rewritten in the frozen text. Public availability does not imply FG-TIDA adoption or a new source-status determination.
+
 ## B. Current validation set — publication status
 
 These validation artifacts are part of the canonical corpus. They are not unpublished comments and must not be omitted.
