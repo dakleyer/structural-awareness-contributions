@@ -44,16 +44,18 @@ The controlled baseline is complete in Google Drive. All six are now publicly pr
 
 ## B. Current validation set — publication status
 
-These validation artifacts are part of the canonical corpus. They are not unpublished comments and must not be omitted.
+These validation artifacts are part of the canonical corpus. They are not unpublished comments and must not be omitted. On 15 September 2026 the five previously split validation documents were materialized as continuous public files at the intended paths; their ordered parts remain preserved. This resolves reader visibility and midword part boundaries, **not** the revision-anchored SHA-256 inventory.
 
 | Intended public file | Status | Controlled Drive source | Public status |
 |---|---|---|---|
-| `validation/VALIDATION_PROFILE_FAMILY_v0.5_FROZEN.md` | Frozen / unchanged | `1qjCLvOp02Lgh9hVlJae_GZTNImenMXboEJ3fJMsqmok` | Present as ordered split parts; canonical path / SHA check pending |
-| `validation/UC-EA-01_v0.3_FROZEN.md` | Frozen / unchanged | `19k4fY-zu3IoRmsSuUyS0xgjqX7NhvvgoTAeZLN3ijI8` | Present at top level and in three ordered validation-path split parts; single canonical-path file / SHA check pending |
-| `validation/UC-EA-02_v0.6_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1_a1edMjJx4ozTmMn9iT23j7zYjOcX7Fmln8Zn_Tf8Qw` | Present as ordered split parts; canonical path / SHA check pending |
-| `validation/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1Mhv4mUIU-S5yifmH8G0UDRdf0ItXt1aEK4kn0kAG6uY` | Present as ordered split parts; canonical path / SHA check pending |
-| `validation/UC-EA-04_v0.5_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1y8wRR89mAYSgkYvsMS2ljr7V5jV1P2My1fIkonGkv1Y` | Present as ordered split parts; canonical path / SHA check pending |
+| `validation/VALIDATION_PROFILE_FAMILY_v0.5_FROZEN.md` | Frozen / unchanged | `1qjCLvOp02Lgh9hVlJae_GZTNImenMXboEJ3fJMsqmok` | Continuous file and ordered split parts present; controlled revision / SHA check pending |
+| `validation/UC-EA-01_v0.3_FROZEN.md` | Frozen / unchanged | `19k4fY-zu3IoRmsSuUyS0xgjqX7NhvvgoTAeZLN3ijI8` | Continuous validation-path file and ordered split parts now present; older top-level copy preserved; controlled revision / SHA check pending |
+| `validation/UC-EA-02_v0.6_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1_a1edMjJx4ozTmMn9iT23j7zYjOcX7Fmln8Zn_Tf8Qw` | Continuous file and ordered split parts present; controlled revision / SHA check pending |
+| `validation/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1Mhv4mUIU-S5yifmH8G0UDRdf0ItXt1aEK4kn0kAG6uY` | Continuous file and ordered split parts present; controlled revision / SHA check pending |
+| `validation/UC-EA-04_v0.5_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1y8wRR89mAYSgkYvsMS2ljr7V5jV1P2My1fIkonGkv1Y` | Continuous file and ordered split parts present; controlled revision / SHA check pending |
 | `validation/EA-ITP-01_v0.1_FROZEN.md` | Frozen / unchanged | `1OnBzCX0TP6mtxdLjn9_OORq0UIOdl9I_3vkVsmRW1XA` | Present at canonical validation path; SHA check pending |
+
+**Reader guide:** `validation/README.md` and `validation/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md` are present as additive public navigation. The masterclass traces the parent TIDA — Delegated Authority OS under Context Change case, Annex I's minimal mobility facts, Annex II's bounded extensions, Annex III CH‑S1…14, and the four Architecture-Validation Profiles. These are not extra controlled/frozen validation artefacts or four adopted FG-TIDA submissions.
 
 ## C. Governance controls — publication status
 
