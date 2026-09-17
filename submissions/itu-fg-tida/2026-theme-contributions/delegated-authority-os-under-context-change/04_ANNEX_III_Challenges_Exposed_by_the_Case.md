@@ -6,6 +6,20 @@
 
 These are post-freeze solution challenges, not additional design challenges of the case itself. A theme, workstream or architecture does not need to solve the whole case. It should be able to test the challenge dimensions that fall within the scope it claims to cover against the same stable facts. The value of the case is precisely that it has enough depth to expose unresolved seams even when individual components appear to work.
 
+## Case model — a valid commitment under changed conditions
+
+**Business question:** can an organization still rely on an AI-supported commitment when the conditions that justified it have materially changed?
+
+A person or organization authorizes one or more agents to pursue an objective—such as arranging a payment, route, delivery, production activity or service—within defined authority, policies, preferences and hard limits. The decision depends on people, evidence, services and infrastructure governed by different parties.
+
+- **T0 — operating basis:** the relevant identities, authority, policies, preferences, evidence sources, dependencies and human oversight roles are established.
+- **T1 — commitment:** an agent uses that basis to recommend, reserve or make a bounded commitment.
+- **T2 — material change:** before or during execution, a dependency, policy, authority, capacity, cost, risk or evidence condition changes, becomes unavailable or can no longer be established with sufficient confidence.
+
+The system must then decide—within a useful response window—whether it may continue, must revalidate, restrict or reroute the action, should hold or escalate it, or must enter a governed safe state. That requires it to distinguish what remains valid, what has changed, what is unresolved, which actor may decide or intervene, and what evidence supports the next action.
+
+This is a reusable **case-model abstraction**, not a complete Case Study or a claim that every sector has the same governing regime. The minimum mobility case is one concrete instantiation; the same structure can be instantiated in banking, industry, logistics, digital platforms, public services or other multi-actor environments. The fourteen challenges below decompose the model into testable problem areas. A concrete Use Case may exercise one, several or all of them, while each architecture remains responsible only for the challenge dimensions within its declared scope.
+
 | Challenges 1–7 | Challenges 8–14 |
 | --- | --- |
 | 1. Authority provenance & current applicability. Can the system establish who conferred authority, on whom, for what purpose and scope, and whether that authority still binds at commitment and action time? This includes origin, standing, expiry, revocation, composition and evidence. | 8. Bounded subdelegation & non-amplification. When an agent delegates to one or more sub-agents, can purpose, scope, time, hard limits, relevant preferences and revocation conditions survive without expansion? Delegation must not manufacture authority that the original principal never granted. |
