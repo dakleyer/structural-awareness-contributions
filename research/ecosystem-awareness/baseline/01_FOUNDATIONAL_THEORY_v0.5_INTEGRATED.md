@@ -1595,7 +1595,15 @@ The required awareness budget depends on mission criticality, sensitivity to eco
 
 &nbsp;
 
+<a id="candidate-research-hypotheses"></a>
+
 #### Source v0.4 §11 — Candidate research hypotheses
+
+**Domain-scoped reading rule (applies to H1–H6; it is not a seventh hypothesis).** In this section, a **[decision domain](#decision-domain)** `d` is the material subject–proposition–decision boundary for which evidence and a result are being qualified. It is not the whole enterprise, the whole ecosystem or every item of context that a system could retrieve. **[Scope](#scope)** states the coverage to which a claim applies. Each hypothesis is therefore evaluated for a declared decision `d`, time `t` and active [`W(d,t)`](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#1-canonical-topology), under comparable evidence and finite compute, bandwidth, time, privacy and human-attention capacity.
+
+**Cross-domain non-fungibility.** A result, control or additional context in domain `d1` does not improve, compensate for or close an epistemic gap in domain `d2` unless a material dependency between them is established and the new evidence actually requalifies `d2`.
+
+**Non-monotonicity of context growth.** Increasing tokens, observations, signals, agents or retrieved context is not monotonically equivalent to increasing decision-relevant determination. Expansion outside the material domain can consume the time and capacity required to preserve or improve the original A–D position: sufficiently determined state can become stale or unresolved, potentially obtainable state can fall beyond the useful response horizon, structural residual remains, and the remaining response capacity decreases. A system may therefore hold more raw information while occupying a worse decision state. This is an explanatory consequence of H5 and H6, not an additional hypothesis and not a claim that every context expansion is harmful.
 
 ##### H1 — Boundary-aware local closure
 
@@ -1632,6 +1640,17 @@ For a fixed observation and verification budget, increasing participant/dependen
 Systems that adapt observation-window breadth, freshness and determination effort to mission sensitivity, consequence severity, available capacity and response horizon will achieve a better risk/resource frontier than systems using either fixed broad observation or fixed narrow observation under otherwise comparable conditions.
 
 &nbsp;
+
+**Domain-qualified interpretation of the unchanged hypotheses**
+
+| Hypothesis | Reading by declared decision domain |
+|---|---|
+| **H1** | Assess local closure separately for each material domain `d`. Explicit unresolved state and capacity limits remain attached to the decision they qualify; determination elsewhere does not turn this closure into a justified binary result. |
+| **H2** | Confidence remains conditional on U and `W(d,t)` for the declared domain. Confidence in `d1` cannot be promoted to global confidence or used to cancel residual uncertainty in `d2`. |
+| **H3** | Compare systems for the same downstream decision domain and under comparable evidence and resources. A representation is materially lossy when it drops scope, provenance, dependency, freshness or unknowns that could change that decision. |
+| **H4** | The bounded envelope is defined for the declared domain and carries the minimum A–D qualification and reliance conditions needed downstream. “Bounded” does not mean universal context or disclosure of full internal state. |
+| **H5** | Churn pressure is evaluated in each material domain and dependency capable of invalidating the current frame. It justifies targeted preservation and requalification, not indiscriminate global refresh. |
+| **H6** | Window breadth, freshness and determination effort adapt for each domain and decision according to risk, capacity and response horizon. A better frontier means better support for the same scoped decision under comparable conditions, not maximum observation. |
 
 These are research hypotheses, not established results.
 
@@ -1937,7 +1956,9 @@ A single action may consistently carry `#6 INDETERMINATE`, `#16 HELD`, `#22 no-a
 - **Producer Epistemic Profile:** Stable, source-attributed coverage/claim/qualifier semantics and default validity rules, when such a profile exists.
 - **Decision-Relevant Handoff:** The current result's small, decision-material delta against its profile. It should not become a mandatory full-history export.
 - **Epistemic Handoff Descriptor (EHD):** A candidate, implementation-neutral semantic handoff whose candidate six-element semantic kernel is: (1) profile/semantic reference and version, (2) subject/proposition/decision domain with scope, (3) producer/issuer, (4) operational result/closure, (5) determination/state kind, and (6) explicit material unknown qualifiers. Values may be `UNKNOWN`; Theme-specific details remain conditional.
+<a id="decision-domain"></a>
 - **Subject / proposition / decision domain:** Respectively the entity/action concerned, the claim being assessed, and the domain of the receiving decision. Conflating them can promote a source-native result beyond its boundary.
+<a id="scope"></a>
 - **Scope:** The coverage to which a statement applies. `scope = UNKNOWN` is preferable to invented completeness.
 - **Operational result versus determination state:** What happened or was operationally closed is distinct from what the producer established. `HELD`, no-assertion and conformance indeterminacy therefore cannot be flattened into one outcome.
 - **Explicit unknown qualifier:** A material property the producer did not establish, such as source independence, affected scope, response reach or freshness. Honest partiality is a usable handoff, not automatic contract failure.
