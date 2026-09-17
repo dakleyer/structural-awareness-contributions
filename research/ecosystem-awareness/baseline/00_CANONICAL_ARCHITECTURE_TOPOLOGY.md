@@ -8,6 +8,12 @@ Ecosystem Awareness (EA) is a decision-scoped architecture for preserving a just
 
 The public corpus contains this architecture at several necessary levels: foundational limits, four epistemic positions, functional loops, transport-neutral handoff semantics, cross-theme examples and validation profiles. This page makes their shared topology explicit so that the symbols and boundaries are read consistently.
 
+## Before this architecture: problem, requirements and hypotheses
+
+This topology follows the [foundation](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), [EA principles](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) and [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). Use this page and documents 01–05 to inspect the proposed mechanism, then use the [canonical architecture benchmark and reference-scenario evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) for EA-H1–EA-H4, strong-peer comparison and empirical corroboration. The benchmark is a test route, not part of the universal requirement definition.
+
+That route avoids two category errors: treating a generic challenge statement as a proof of a solution, or treating EA's architecture as the universal definition of a sufficient solution.
+
 ## 1. Canonical topology
 
 For a decision `d` at time `t`:
@@ -66,7 +72,7 @@ These categories can arise inside U or in relation to residual uncertainty. They
 | **03 — Functional Architecture** | Implements the two qualification loops through F1–F9: decision/frame qualification, evidence qualification, scoped composition, posture, requalification and learning. | [03 — Functional Architecture v0.4](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) |
 | **04 — Functional Interfaces & Agentic Security** | Makes qualified claims transport-neutral through the EHD and maintains the no-supercontroller rule across agents and security functions. | [04 — Functional Interfaces v0.4](./04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part01.md) |
 | **05 — Provisional Cross-Theme Contracts** | Provides an FG-TIDA-oriented application example of the general interface architecture. It is not the definition of EA or an adopted group contract. | [05 — Cross-Theme Contracts v0.4](./05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md) |
-| **06 — Architecture Benchmark** | Specifies comparative and falsifiable test conditions for the four validation profiles. | [06 — Reviewed Architecture Benchmark v0.5](./06_ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) |
+| **00D — Canonical Architecture Benchmark and Reference-Scenario Evidence** | States EA-H1…EA-H4, matched B0–B3 comparison, evidence grades and empirical corroboration of 00E/00F. | [00D — Canonical Benchmark v0.2](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) |
 
 ## 6. Reading rule
 
@@ -78,4 +84,4 @@ The architecture does not promise complete ecosystem knowledge. Its claim is nar
 
 ## Status and source boundaries
 
-This page is a public, canonical reading and reconciliation aid for the existing EA corpus. The controlled/frozen release baseline remains the six source documents recorded in the [Canonical Corpus Manifest](./CANONICAL_CORPUS_MANIFEST.md). The current integrated v0.5 foundation and reviewed v0.5 benchmark are working successors with their own stated status. No statement on this page implies standards adoption, deployed interoperability, completed comparative validation or a claim that EA has complete knowledge of an ecosystem.
+This page is a public, canonical reading and reconciliation aid for the existing EA corpus. The controlled/frozen release baseline remains the six source documents recorded in the [Canonical Corpus Manifest](./CANONICAL_CORPUS_MANIFEST.md). The current integrated v0.5 foundation and canonical working benchmark v0.2 are working successors with their own stated status. No statement on this page implies standards adoption, deployed interoperability, completed comparative validation or a claim that EA has complete knowledge of an ecosystem.

@@ -19,7 +19,7 @@ The [index inside the baseline corpus folder](./README.md) is the primary local 
 3. [03 — Functional Architecture v0.4](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) — F1–F9; continue through [parts 2](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md) and [3](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part03.md).
 4. [04 — General Functional Interfaces v0.4](./04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part01.md) — technology-neutral O/S interface landscape; continue through [parts 2](./04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part02.md) and [3](./04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part03.md).
 5. [05 — Provisional FG-TIDA Cross-Theme Contracts v0.4](./05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md) — preserved implementation/interface example, not the definition of EA; continue through [parts 2](./05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part02.md) and [3](./05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part03.md).
-6. [06 — Reviewed Architecture Benchmark v0.5](./06_ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — current comparative test proposition; the v0.4 source remains preserved.
+6. [07 — EA Candidate Differential Hypotheses v0.5](./07_EA_CANDIDATE_DIFFERENTIAL_HYPOTHESES_v0.5_REVIEWED_WORKING.md) — current EA-specific comparative proposition; the v0.4 source remains preserved.
 
 The [EA/MSCA annex](./01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md), [EA/Regime Awareness annex](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), [joint operation profile](./01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), and [DAOS model-case interface annex](./01E_EA_DAOS_MODEL_CASE_INTERFACE_ANNEX_v0.1.md) extend this one EA argument at declared interfaces; they do not move the neighbouring programmes into EA or turn proposed integration into validated interoperability. The [DAOS-derived use-case masterclass](./DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) is the detailed test/reader guide; the [four validation profiles](./VALIDATION_PROFILE_READING_NOTE.md) form its test suite. Governance, lineage and provenance are source/evidence layers rather than alternative current theories.
 
@@ -30,7 +30,7 @@ EA asks how a mission can be pursued with **enough justified knowledge and contr
 ## Start here
 
 1. [`CANONICAL_CORPUS_MANIFEST.md`](./CANONICAL_CORPUS_MANIFEST.md) — current publication truth, exact intended scope and missing/present status.
-2. [Reviewed Architecture Benchmark v0.5](./06_ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) — current testable differentiation/benefit judgment and strong-peer comparison protocol; the [v0.4 public reference freeze](./ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md) remains preserved as provenance.
+2. [EA Candidate Differential Hypotheses v0.5](./07_EA_CANDIDATE_DIFFERENTIAL_HYPOTHESES_v0.5_REVIEWED_WORKING.md) — current testable EA differentiation/benefit judgment; the [v0.4 public reference freeze](./ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md) remains preserved as provenance.
 3. `baseline/` — canonical architecture baseline, currently stored in ordered split files while publication is normalized; [dual-origin working foundation note](./01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md) and [EA/MSCA interface annex](./01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md) and [EA/Regime Awareness interface annex](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), plus the [joint operation-composition profile](./01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), are additive, non-frozen companions, not additional release-baseline documents.
 4. [DAOS-derived use-case masterclass](./DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md) and [validation reader index](./VALIDATION_PROFILE_READING_NOTE.md) — the four complete UC‑EA profiles, their parent case, extensibility and CH‑S1…14 traceability; revision-anchored checks and SHA inventory remain pending.
 5. `governance/` — original freeze and maintenance-freeze controls.
@@ -61,7 +61,7 @@ The **only deliberate exclusion** is unpublished GitHub / FG-TIDA comment, reply
 
 The earlier [top-level v0.5 publication](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) remains preserved; the reviewed working successor is now placed as document 06 within `baseline/`, with relative source links adjusted.
 
-The [v0.5 reviewed benchmark](./06_ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) identifies a potentially differential **combination** — decision-scoped windows, structural residual, non-fungible cross-domain composition and risk/capacity-indexed requalification — and specifies UC-EA-01…04 tests against a strong peer composition. Its possible benefits remain hypotheses, not demonstrated comparative superiority. The preserved v0.4 benchmark and controlled EA baseline are not overwritten.
+The [v0.5 EA differential hypotheses](./07_EA_CANDIDATE_DIFFERENTIAL_HYPOTHESES_v0.5_REVIEWED_WORKING.md) identify a potentially differential **combination** — decision-scoped windows, structural residual, non-fungible cross-domain composition and risk/capacity-indexed requalification — to test after the architecture-neutral candidate hypotheses in [00C](./00C_FALSIFIABLE_CANDIDATE_SOLUTION_HYPOTHESES_AND_KPIS.md). Their possible benefits remain hypotheses, not demonstrated comparative superiority. The preserved v0.4 benchmark and controlled EA baseline are not overwritten.
 
 ## Working foundation companion
 
