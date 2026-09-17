@@ -4,6 +4,10 @@ Ecosystem Awareness (EA) asks whether the evidence, assumptions and available re
 
 This is the **single public reading folder for the EA corpus**. It contains the current architectural argument, candidate integration annexes, validation profiles, research lineage, conservation and governance records. These are distinct artefact types, not one article or one validated stack. The case and adjacent programmes retain their own corpora; EA links them rather than importing their source texts. Start with 01–06, then follow the annex or test relevant to your question.
 
+## Canonical architecture topology
+
+Start with [00 — Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) for the shared reading key across the corpus: **Ω** as the open ecosystem class; **U** as the bounded represented universe; **R_U** as its open residual; **W(d,t)** as the decision-scoped active window; and **A–D** as the four epistemic positions. It also distinguishes Condition Type 0 and Failure Types 1/2 from the four positions, and shows how this topology is carried through F1–F9 and the Epistemic Handoff Descriptor. This is a canonical public reconciliation page; it does not modify or replace the controlled v0.4 baseline documents.
+
 ## Current architectural argument — read 01 to 06
 
 1. [01 — Integrated Foundational Theory v0.5](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md): §1.1 residual indeterminacy and epistemic posture; §1.2 changing ecosystem and loss of frame qualification; §1.3 neighbouring approaches, EA's candidate differential, hypotheses, measures, claim limits and dictionary. The five preserved [v0.4 source parts](./01_FOUNDATIONAL_THEORY_v0.4.part01.md) ([2](./01_FOUNDATIONAL_THEORY_v0.4.part02.md), [3](./01_FOUNDATIONAL_THEORY_v0.4.part03.md), [4](./01_FOUNDATIONAL_THEORY_v0.4.part04.md), [5](./01_FOUNDATIONAL_THEORY_v0.4.part05.md)) are the earlier controlled source.
