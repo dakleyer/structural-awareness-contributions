@@ -72,9 +72,13 @@ At 08:18:
 
 Each local closure can be faithful to its own evidence and rules. The divergence is itself the important new ecosystem signal.
 
+The opposite visible pattern is also possible. Fleets that reuse the same delayed map or imitate the first authoritative-looking closure can converge on `NORMAL` even though their apparent agreement comes from one correlated, stale basis. This is **false convergence**, not corroboration. It is a Type-2 closure if the shared corridor decision is treated as determined without sufficient support.
+
 ### Stage 4 — the divergence is not composed
 
 The exchanged messages carry actions and alert severity, but not consistently the observation boundary, source dependence, freshness, residual, expiry or condition for reopening. Each receiver therefore interprets the message inside a different frame. Plan A and Plan B both claim Central Bridge; NORMAL actors continue entering; HOLD actors remain in place.
+
+As delayed alerts alternate, some actors can reverse repeatedly between A, B, NORMAL and HOLD. Without an evidence-change rule, expiry and hysteresis, this is not adaptive agility but oscillation between Type-2 closure and Type-1 non-closure. A timeout can force a Type-1 queue into an unsupported Type-2 default; a later contradiction can reopen that closure as Type-1 search when the discarded basis is no longer recoverable.
 
 ### Stage 5 — local safety preserves vehicles but loses the mission
 
@@ -86,7 +90,7 @@ The city has not suffered a universal technical failure. It has produced four te
 
 ## 4. The failure mechanism
 
-The initiating condition is **residual uncertainty after a material frame change**, not a requirement to reproduce all four failure classes from the enterprise case.
+The initiating condition is **residual uncertainty after a material frame change**, not a requirement to reproduce all four quadrant positions from the enterprise case.
 
 1. The event leaves the qualified operating envelope: the former response mapping is no longer sufficient.
 2. Observation windows diverge because coverage, freshness and source dependence differ.
@@ -94,12 +98,14 @@ The initiating condition is **residual uncertainty after a material frame change
 4. The closures share a physical resource but do not carry enough qualification to compose safely.
 5. The ecosystem mistakes local correctness for a globally determined response.
 
-Type 0 is temporarily present: the mission-level response is not yet sufficiently determined even if each actor manages its local uncertainty correctly. Mismanagement can then add:
+At the foundational level, the mission response may face an established structural or declared-frame limit. Operationally, however, the architecture need not prove Type 0 while the event is unfolding: it may preserve the state as unresolved and manage it through Type 1/Type 2 controls. Mismanagement can then add:
 
 - **Type 1:** indefinite HOLD, escalation or search that consumes time and human capacity;
 - **Type 2:** continued NORMAL or confident Plan A/B execution after its local basis is no longer sufficient for the wider corridor decision.
 
 The existence of A/B/NORMAL/HOLD is not itself proof of failure. The failure occurs when their incompatibility over a material shared resource is not detected, qualified and bounded in time.
+
+False convergence, divergence, oscillation and cascade are observable trajectories, not additional failure types. Defensive `UNKNOWN`, qualifier saturation or injected doubt create Type 1 when they impose unbounded HOLD/containment; they create Type 2 when habituation, pressure or a default suppresses the unresolved state and forces closure. A safe, reversible routing or segmentation test may also be an observation instrument: treating every unknown as permanently unknowable can create Type 1 just as treating it as harmless can create Type 2.
 
 ## 5. Quality-plan fixture
 
@@ -126,10 +132,10 @@ These values are virtual test parameters, not operational recommendations for a 
 | --- | --- | --- | --- | --- | --- |
 | **Q0 — frame shared use** | Is normal shared use of Central Bridge currently qualified? | S1/S3/S9/S14 → T2/T3/T4 → H2/H4/H6 | decision/scope, owners, authority, source map, normal envelope, capacity, deadline, invariant controls and fallback | bounded scopes and response rules are current | actors begin without a common decision/resource boundary or bounded fallback |
 | **Q1 — qualify the material break** | Has the normal frame become insufficient, and what remains observable? | S3/S5/S10/S14 → T1/T2/T4 → H1/H2/H3/H5/H6 | material-break recall/precision; freshness/staleness; source diversity/retrievability; correlated-evidence error; U-invalidation; inherited indeterminacy; residual preservation; response margin | preserve the affected scope and explicit `UNKNOWN`; continue only unaffected qualified scopes | stale/correlated signals are treated as independent certainty or absence of one alert is treated as stability |
-| **Q2 — compose local postures** | Are A, B, NORMAL and HOLD compatible over the shared corridor? | S5/S6/S9/S11/S14 → T2/T4 → H2/H3/H4 | handoff integrity; qualification loss; scope/dependency preservation; wrong-domain/systemic closure; targeted re-entry; incompatible-posture exposure | compatible postures compose, or material incompatibility triggers bounded requalification | local confidence is promoted to a system-wide plan and opposed uses of the same resource advance |
-| **Q3 — select bounded posture** | What may safely and legitimately happen before the cause is fully known? | S1/S3/S4/S5/S14 → T2/T3/T4 → H1/H4/H6 | owner/authority/expiry; posture correctness; false continuation/containment; authorised-response compliance; HELD time; human demand/capacity; deadline pass; response margin | authorised owner applies scoped containment, restricted operation, reversible action or no commitment | a blanket halt, unauthorised plan, infinite escalation or unrestricted continuation is executed |
+| **Q2 — compose local postures** | Are A, B, NORMAL and HOLD compatible over the shared corridor? | S5/S6/S9/S11/S14 → T2/T4 → H2/H3/H4 | handoff integrity; qualification loss; scope/dependency preservation; wrong-domain/systemic closure; false convergence; incompatible-posture exposure; Type-1↔Type-2 transitions; targeted re-entry | compatible postures compose, or material incompatibility triggers bounded requalification | correlated agreement is mistaken for corroboration, local confidence is promoted system-wide, or opposed uses of the same resource advance |
+| **Q3 — select bounded posture** | What may safely and legitimately happen before the cause is fully known? | S1/S3/S4/S5/S14 → T2/T3/T4 → H1/H4/H6 | owner/authority/expiry; posture correctness; false continuation/containment; authorised-response compliance; HELD time; human demand/capacity; qualifier burden; defensive/injected-UNKNOWN effect; deadline pass; response margin; posture oscillation | authorised owner applies scoped containment, restricted operation, reversible action or no commitment | a blanket halt, unauthorised plan, infinite escalation, silent timeout/default or unrestricted continuation is executed |
 | **Q4 — targeted requalification** | What smallest evidence/review can restore a usable response mapping? | S3/S10/S12/S14 → T1/T2/T4 → H4/H5/H6 | requalification latency; freshness; targeted re-entry precision/recall; evidence yield; marginal decision value; total burden; response margin | reopen only the material sources/dependencies and update affected scopes before expiry | undirected telemetry, agents and human review expand until the response window is exhausted |
-| **Q5 — compose and resume** | May shared use resume, remain segmented or terminate? | S9/S11/S12/S14 → T1/T2/T4 → H2/H4/H5/H6 | residual preservation; handoff integrity; posture correctness; observable outcome effect; deadline pass; common outcome vector; total burden | compatible resource use resumes, or a qualified partial/no-conclusion state remains explicit | audit completeness or one successful local outcome is presented as a qualified city-wide closure |
+| **Q5 — compose, arbitrate and resume** | May shared use resume, remain segmented or terminate, and which scoped result may govern? | S9/S11/S12/S14 → T1/T2/T4 and T3 for any non-null default/action → H2/H4/H5/H6 | residual preservation; handoff integrity; posture correctness; common outcome vector; dependency/hard-constraint map; veto owner/scope/expiry; timeout/default; evidence-versus-authority role; re-entry; oscillation and cascade reach/latency; observable outcome; deadline; total burden | declared precedence is applied; compatible use resumes, scopes are separated, or a qualified partial/no-conclusion state remains explicit | confidence, signature, timeout, stale veto or one successful local outcome silently becomes city-wide closure |
 
 **Fixture-specific outcome measures.** `Incompatible-posture exposure` records the duration and criticality of simultaneously active incompatible postures over the same resource-time segment. `Conflicted corridor occupancy`, emergency-access delay and exposed-passenger time are observed effects. They supplement the canonical KPI set for this case; they do not create new universal hypotheses.
 
@@ -138,11 +144,12 @@ These values are virtual test parameters, not operational recommendations for a 
 1. A mandatory field or KPI in `UNKNOWN` cannot produce `PASS`. It produces targeted `REQUALIFY`, bounded `HOLD/CONTAIN`, authorised `ESCALATE` or `NO COMMITMENT` according to remaining time and capacity.
 2. A material disagreement between sources is not automatically an emergency and is not averaged away. Q1 states what is affected and what remains qualified.
 3. If two or more postures require incompatible use of the same resource-time segment, Q2 cannot pass merely because each posture is locally valid.
-4. `PASS WITH TYPE 0 MARKER` is permitted only where the residual is explicit and the selected action remains bounded, authorised and timely. It is not permission to choose Plan A or B without a qualified basis.
+4. `PASS WITH EXPLICIT LIMIT` preserves unresolved or residual state without requiring the runtime to prove Type 0. A Type-0 marker may be added only when its structural or declared-frame basis is explicit. Neither status permits Plan A or B without a qualified basis.
 5. If human demand exceeds declared capacity or the response margin falls below its minimum, Q3 applies the pre-authorised bounded fallback; it does not leave an indefinite HOLD.
 6. Q4 stops evidence expansion when yield falls below its floor, burden exceeds its ceiling or the response margin is exhausted.
 7. Q5 passes only when the shared-resource postures are compatible or physically/temporally separated, or when the output explicitly preserves a qualified partial/no-conclusion state.
-8. Any continuation that overrides these dispositions is recorded as a failure-route bypass.
+8. Q5 applies the predeclared order: material dependency and hard constraint; legitimate veto owner, scope and expiry; qualified bounded response; timeout/default treatment; targeted re-entry; and posture-stability rule. Approval may authorize action but is not new evidence.
+9. A posture reversal without new material evidence, expiry or changed authority fails the anti-oscillation rule. Any continuation that overrides these dispositions is recorded as a failure-route bypass.
 
 EA assesses and requests requalification. It does not create municipal authority, command private fleets or actuate the containment itself.
 
@@ -166,11 +173,11 @@ Within the declared fixture, mixed-mode divergence follows from bypassing Q2/Q3 
 | Step | Quality-plan behaviour | Gate result | What moves forward |
 | --- | --- | --- | --- |
 | Q0 | decision scope, shared corridor, authorities, deadlines, invariant controls and fallback are bound | PASS | one qualified test frame without creating a supercontroller |
-| Q1 | freshness, dependence and coverage degradation are exposed; affected scopes become explicit `UNKNOWN` | REQUALIFY or PASS WITH TYPE 0 | qualified local evidence plus residual, not a premature global plan |
+| Q1 | freshness, dependence and coverage degradation are exposed; affected scopes become explicit `UNKNOWN` | REQUALIFY or PASS WITH EXPLICIT LIMIT | qualified local evidence plus residual, not a premature global plan |
 | Q2 | the system detects that A, B, NORMAL and HOLD compete for the same resource-time segment | REQUALIFY/CONTAIN | a systemic warning with exact affected scopes and owners |
 | Q3 | the existing authorised emergency role applies the pre-declared bounded corridor posture; local collision avoidance remains active | bounded CONTAIN/ESCALATE | restricted/segmented operation and a finite review request |
 | Q4 | only the source dependence, wind/plume path, fire-access state and affected authority are reopened | PASS, bounded HOLD or NO COMMITMENT | updated evidence before expiry, or an explicit limit without endless search |
-| Q5 | compatible flows resume in separated segments/times; otherwise bounded containment remains | PASS, PASS WITH TYPE 0 or explicit no-conclusion | a timely, auditable posture that preserves unresolved residual |
+| Q5 | the declared arbitration order separates compatible flows by segment/time; otherwise bounded containment or explicit no-conclusion remains | PASS, PASS WITH EXPLICIT LIMIT or explicit no-conclusion | a timely, auditable posture that preserves unresolved residual without allowing confidence, timeout or signature to decide silently |
 
 The quality route does not need to know the whole city or forecast the exact incident. It must identify that the former shared-use mapping is no longer sufficiently qualified, prevent incompatible closures from consuming the same resource, and direct the smallest useful requalification while legitimate response remains possible.
 
@@ -180,7 +187,7 @@ The case tests whether a candidate architecture improves the common outcome vect
 
 The EA-enabled route must be non-inferior on normal-operation branches and should reduce incompatible-posture exposure, false continuation/containment, emergency-access delay or total burden on declared regime-change branches. The claimed differential is narrowed or falsified if a strong peer without equivalent EA semantics achieves the same or better posture correctness, timeliness, residual trace, authorised response and burden.
 
-The case does not test universal emergency prediction, city-wide command, legal authority creation or perfect knowledge of `R_U`. It treats literal non-observability as a Type 0 boundary and tests whether that boundary is managed rather than hidden.
+The case does not test universal emergency prediction, city-wide command, legal authority creation or perfect knowledge of `R_U`. It preserves literal non-observability as a foundational Type-0 boundary, but the operational test does not require runtime proof of that classification: it tests whether unresolved limits are managed rather than hidden.
 
 ## 10. Product-annex boundary
 

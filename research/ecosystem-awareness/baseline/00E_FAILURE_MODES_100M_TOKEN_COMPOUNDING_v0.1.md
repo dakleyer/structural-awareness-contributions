@@ -22,6 +22,8 @@ The system launches thousands of exploration agents across markets, customers, c
 
 Because the agents are sectioned across different scopes, their numerical diversity does not imply independent opinions about the same claims. If uncertainty, window boundaries, exclusions and unresolved alternatives are progressively removed during aggregation, the resulting enterprise world model can look highly comprehensive while containing Type 2 overconfidence across many distinct domains.
 
+The sectioning can also omit the interactions **between** those domains. A regulation × product, fraud × identity-provider or claims × macroeconomic dependency may belong to no specialist's declared window. That cross-domain coupling is not corrected by better work inside either section; it must be represented as a material dependency or remain an explicit gap at composition.
+
 The failure is not lack of exploration. The system may have explored an enormous space. The failure is that broad coverage has been composed as broad certainty.
 
 ### Stage 2 — Human escalation layered on the collapsed world model
@@ -30,9 +32,9 @@ The architecture then applies a strong human-oversight policy. Exceptions, KPI c
 
 This appears to add caution, but the human is not observing the original world. Management receives the system’s selected and compressed representation of it. If Stage 1 has already produced Type 2 collapse, the human is being asked to approve or reject decisions inside a Type 2 world model.
 
-At the same time, repeated escalation can exceed human attention capacity. Management may be asked dozens of similar questions, face repeated approval interruptions and eventually accept, reject or defer simply because the workflow must continue. This is a Type 1 pressure layered on top of a Type 2 representation.
+At the same time, repeated escalation can exceed human attention capacity. Two branches must remain separate. If management repeatedly defers, requests missing material or remains in HOLD without a bounded escape, the oversight channel creates Type 1. If a manager accepts or rejects merely because the workflow, timeout or queue must advance, the channel creates Type 2 closure unless new qualifying evidence supports that decision.
 
-The two errors do not cancel. Human hesitation does not restore the missing epistemic qualification of the upstream evidence, and human approval does not retroactively validate the upstream model. The composed state is Type 2 in the represented world plus Type 1 in the oversight channel.
+The two errors do not cancel. Human hesitation does not restore the missing epistemic qualification of the upstream evidence, and human approval does not retroactively validate the upstream model. An approval may be valid authorization while remaining zero new evidence about the world represented. The composed state can therefore be inherited Type 2 in the represented world plus Type 1 in the oversight channel, or a Type-1 queue forced into a new Type-2 closure.
 
 ### Stage 3 — Alternative-generation and brainstorming over different domains
 
@@ -40,13 +42,13 @@ After detecting poor KPIs or strategic tension, the system launches creative age
 
 These agents are intentionally oriented toward Pole C — what could potentially be known or explored. That specialization can be valuable. The failure appears when potentially knowable possibilities are not brought through sufficient determination before being promoted into strategic options with implicit credibility.
 
-The creativity function may therefore generate another Type 2 condition, but in a different domain. The alternatives are not correcting the Type 2 errors in the original market model. They are adding speculative certainty about a new possibility space on top of already biased premises and overloaded management decisions.
+The creativity function may therefore generate another Type 2 condition, but in a different domain. Two components are distinguished: inherited Type 2 from the compressed premises supplied by Stage 1, and a new local O2 failure when the strategy function itself promotes an unevaluated possibility into a sufficiently supported option. The alternatives are not correcting the original market-model error; they can propagate it and add speculative certainty about a new possibility space.
 
 ### Stage 4 — Structural-residual aversion in another part of the architecture
 
 A separate risk or market-entry function may be strongly oriented toward Pole D — what cannot be fully known. For example, an agent assessing entry into China may correctly recognize that important regulatory, competitive, political, distribution and execution conditions cannot be fully known before actual entry.
 
-If that residual awareness is over-weighted, the agent can turn structural uncertainty into Type 1 out-of-window paralysis: because complete determination is impossible, the proposed market is treated as too uncertain to enter or is repeatedly escalated for more evidence.
+If that residual awareness is over-weighted, the agent can turn structural uncertainty into Type 1 out-of-window paralysis: because complete determination is impossible, the proposed market is treated as too uncertain to enter or is repeatedly escalated for more evidence. The analysis must first separate residual that no current finite window can eliminate from uncertainty that can be reduced by an authorised reversible action—a pilot, staged entry or limited partnership. Action can be an observation instrument; refusing every bounded experiment can misclassify learnable C-state as permanent D-state.
 
 This can happen while the alternative-generation agents elsewhere are accepting much weaker speculative possibilities. The architecture is therefore not conservative or aggressive in any coherent global sense. It is simultaneously overconfident in some domains, over-escalated in others, over-creative in others and over-paralyzed by structural residual in others.
 
@@ -60,6 +62,8 @@ The final strategy function receives:
 - market or competitor assessments carrying Type 1 residual paralysis from Pole-D overextension.
 
 These are not balancing forces. They are multiple coupled imbalances attached to different parts of the decision space.
+
+Their enterprise effect depends on an arbitration rule. A risk gate may give a scoped Type-1 veto precedence and end in HOLD; a commercial deadline or default may force that HOLD into Type-2 commitment; a human signature may be misread as evidence; or missing hysteresis may alternate the result between containment and continuation. The failure is therefore not that Type 1 and Type 2 numerically cancel or that one always dominates. It is that the composition function lacks a qualified rule for dependency, veto scope and expiry, timeout/default, evidence versus authority, re-entry and posture stability.
 
 A final synthesis can therefore be extremely articulate, extensively researched and computationally expensive while remaining epistemically malformed. The system may have consumed 100 million tokens without ever requalifying the specific domains in which the upstream errors originated.
 
@@ -93,6 +97,7 @@ The problem is not the use of agents. The failure begins when the orchestration 
 
 1. **Production and execution appear efficient.** Banking agents see slightly rising SME arrears; insurance agents see a small increase in claim severity; fraud agents see weak anomalies; operational-resilience agents see intermittent delays from a shared data supplier. Each local agent selects its most likely explanation and reports “within tolerance” or an equivalent best answer. Its second and third explanations, uncertainty range, source dependence and change in uncertainty are not sent upward.
 2. **The funnel silences a gradual change.** Every local answer is plausible by itself. The aggregator receives only the winners, not the fact that several weak signals may share one dependency. The enterprise view remains “stable” until a threshold is crossed. At that point several downstream agents reverse together, so a gradual deterioration appears to management as a sudden cascade.
+   Interactions between sections can disappear completely: no banking, insurance, fraud or resilience worker owns the combined proposition connecting regulation, portfolio risk, a shared identity-data provider and operational capacity.
 3. **Quality control escalates without the missing context.** Control agents repeatedly ask humans to approve, reject or investigate binary tickets. When a manager asks why the system is unsure, the lower-level alternatives and uncertainty history are no longer recoverable from the handoff. Some cases remain on HOLD while people request data that the pipeline discarded; in other cases the manager accepts “safe” because every upstream message says “safe.” The channel therefore creates primary in-window Type 1 and can reproduce the inherited Type 2.
 4. **Strategy treats possibilities as credible options.** Using the compressed execution picture, creative agents propose new products, partnerships and a China market entry. Many ideas are articulate and internally coherent. Because the creativity function is rewarded for option generation, potentially knowable possibilities are promoted as if they were already sufficiently determined.
 5. **Deployment tries to eliminate the irreducible.** Business-development and market-entry agents try to make licensing, data localisation, partner reliability, distribution economics, political change and competitor response perfectly clear before acting. Some of those conditions cannot be exhaustively known before entry. The system keeps researching, escalating and revising instead of selecting a bounded experiment, a qualified no-go or another authorised posture.
@@ -111,9 +116,21 @@ Let `U = W(d,t)` be the bounded working universe selected for a material decisio
 | **Beyond U, Pole C:** what could potentially be learned or explored | Possibilities remain hypotheses until they are brought into a qualified decision window | Creative possibilities are promoted into credible strategy before sufficient determination | **O2 — out-of-window Type 2 possibility-to-fact collapse** | Strategy / creativity |
 | **Beyond U, Pole D:** what no finite current window may presume to exhaust | Structural residual is preserved while a bounded posture is still selected | Irreducible residual becomes a veto, unlimited research programme or permanent escalation | **O1 — out-of-window Type 1 expansion/paralysis** | Tactics / deployment / business development |
 
-Type 0 remains distinct. An in-window fact may be structurally undeterminable with present capacity, and no finite window can guarantee exhaustive knowledge of the ecosystem. Those are limits to manage, not failures. Meridian creates Type 1 or Type 2 only when it mismanages those limits.
+Type 0 remains a foundational distinction. A limit may be structurally established for the admitted problem class or may be infeasible within a declared frame, resources and horizon; persistent non-resolution alone proves neither. No finite window can guarantee exhaustive knowledge of the ecosystem. The runtime may therefore leave the state explicitly unresolved and bound its response without diagnosing Type 0. Meridian creates Type 1 or Type 2 only when it mismanages those limits.
 
 The four labels are primary failure positions. The human stage also **inherits and may reproduce** upstream I2 when a manager accepts a binary “safe” answer. That secondary effect does not convert the four-mode map into five modes: the control channel's own failure is I1, and the false certainty remains traceable to the I2 representation it received.
+
+### 3.1 Operational and hybrid patterns remain Type 1 or Type 2
+
+| Observable pattern | Type-1 path | Type-2 path | Required control evidence |
+| --- | --- | --- | --- |
+| **Defensive `UNKNOWN`** | An agent protects itself by transferring responsibility and creating repeated HOLD/escalation. | A reviewer, timeout or default suppresses the unresolved state and forces approval/rejection. | materiality, reason, issuer incentive, affected scope, owner, expiry and bounded escape. |
+| **Qualifier saturation** | Duplicated, stale or immaterial qualifiers consume reviewer capacity and block closure. | Receivers become habituated, ignore all qualifiers and accept a closure as clean. | material-qualifier retention, duplication/expiry, review burden and qualification-loss rate. |
+| **Injected doubt** | False freshness/dependency/uncertainty signals produce unnecessary containment or search. | Repeated false alarms are ignored, including a later valid material warning. | adversarial branch, false-containment cost, rejection/recovery time and later-warning response. |
+| **Oscillation** | Repeated reopening produces HOLD/search without bounded progress. | A timeout/default repeatedly forces unsupported continuation between reopenings. | transition reason, new-evidence test, dwell time, hysteresis/equivalent control and transition count. |
+| **False convergence / cascade** | Later contradiction reopens a common closure into a system-wide search or escalation surge. | Correlated or imitated binary outputs converge prematurely; dependent conclusions then reverse together. | source dependence, false-convergence rate, cascade latency/reach and re-entry recoverability. |
+
+These are failure mechanisms and trajectories, not Types 3–7. The same run may move between Type 1 and Type 2, but each transition must be recorded rather than describing the whole architecture as one undifferentiated personality.
 
 ## 4. Why the many-to-one funnel loses decision power
 
@@ -274,7 +291,7 @@ There are four substantive gates, one for each subsystem. A framing control prec
 A gate may emit:
 
 - `PASS`;
-- `PASS WITH TYPE 0 MARKER`;
+- `PASS WITH EXPLICIT LIMIT`—optionally carrying a Type-0 marker only when its structural or declared-frame basis is established;
 - `REQUALIFY`;
 - `HOLD/CONTAIN` within a declared deadline and owner;
 - `ESCALATE` to an available authorised owner within a declared deadline;
@@ -288,10 +305,10 @@ A material gate may not emit `PASS` when a required field or KPI is missing, whe
 | --- | --- | --- | --- | --- | --- |
 | **Q0 — frame and allocate** | May the 100-million-token programme begin, and for which decisions? | S14 → T1, T4 → H6; H5 only in a controlled churn branch | declared `σ(d,t)` and `W(d,t)` per subsystem; window breadth/freshness; baseline burden; response margin; stop/expansion rule | bounded scopes, budgets, dependencies, deadlines and null actions are fixed | “more research” is authorised without a decision boundary or stop rule |
 | **Q1 — production/execution (I2 control)** | May each local result enter the enterprise operating picture? | S5, S6, S11, S14 → T1, T2, T4 → H2, H3, H4, H6 | residual-scope preservation; inherited-indeterminacy detection; source diversity/retrievability; correlated-evidence error; compression exposure; handoff integrity; qualification-loss; retained fields; evidence yield; burden | winner and bounded qualification travel together; correlated/uncertain claims remain explicit; material assumptions can be reopened | best answer and binary state advance after alternatives, uncertainty, dependency, freshness or scope are discarded |
-| **Q2 — quality control/human oversight (I1 control)** | Can the authorised owner decide or intervene usefully? | S4, S5, S12, S14 → T1 where needed, T2, T3, T4 → H1, H4, H6 | explicit-indeterminate rate; HELD time; escalation demand/capacity; handoff integrity; qualification loss; targeted re-entry precision/recall; posture correctness; false continuation; response margin; burden | the owner receives a reconstructable qualified basis and selects a bounded posture before the deadline | binary tickets loop, humans are repeatedly queried, missing context cannot be recovered, or approval is treated as new evidence |
+| **Q2 — quality control/human oversight (I1/I2 transition control)** | Can the authorised owner decide or intervene usefully without treating authorization as evidence? | S4, S5, S12, S14 → T1 where needed, T2, T3, T4 → H1, H4, H6 | explicit-indeterminate rate; HELD time; escalation demand/capacity; Type-1→Type-2 forced closure; Type-2→Type-1 reopened loop; defensive-UNKNOWN effect; handoff integrity; qualification loss; targeted re-entry; posture correctness; false continuation; response margin; burden | the owner receives a reconstructable qualified basis and selects a bounded posture before the deadline; approval remains distinct from evidentiary requalification | binary tickets loop, humans are repeatedly queried, missing context cannot be recovered, or queue pressure/approval is treated as new evidence and forces closure |
 | **Q3 — strategy/creativity (O2 control)** | May a generated possibility become a strategic option? | S2, S10, S11, S14 → T1, T2, T4 and T3 if action follows → H1, H2, H3, H6 | local determinacy margin; residual preservation; wrong-domain closure; owner/version/scope/dependency preservation; correlated-evidence error; evidence yield; posture correctness; response compliance | an idea remains C until the evidence threshold, hard limits and decision relevance for its own scope are met | fluency, novelty or option count is treated as sufficient credibility, or the option is used to compensate for Q1/Q2 failure |
-| **Q4 — tactics/deployment/BD (O1 control)** | What bounded posture is justified despite structural residual? | S3, S4, S5, S10, S14 → T1, T2, T3, T4 → H1, H5, H6 | material-break recall/precision; HELD time; freshness; requalification latency; evidence yield; response margin; false containment; posture correctness; response compliance; burden | choose an authorised experiment, proceed-under-limits, requalify, contain, escalate or no commitment before expiry; carry D explicitly | every new unknown triggers more search; complete market knowledge is required; capacity expires and HOLD becomes permanent |
-| **Q5 — enterprise composition** | May Meridian issue a final strategy? | S11, S12, S14 → T1, T2, T4 → H1, H2, H3, H4, H6 | common outcome vector; wrong-domain closure; residual preservation; targeted re-entry; handoff integrity; qualification loss; deadline pass; observable outcome; total burden | all material gates are PASS/PASS WITH TYPE 0, or the final statement explicitly preserves the qualified limit/no-conclusion | I2, I1, O2 and O1 are narrated as a balanced strategy and the 100-million-token activity is mistaken for support |
+| **Q4 — tactics/deployment/BD (O1 control)** | What bounded posture is justified despite structural residual, and what can be learned safely by acting? | S3, S4, S5, S10, S14 → T1, T2, T3, T4 → H1, H5, H6 | material-break recall/precision; HELD time; freshness; requalification latency; evidence yield; response margin; false containment; posture correctness; response compliance; experiment information gain; burden | choose an authorised experiment, proceed-under-limits, requalify, contain, escalate or no commitment before expiry; distinguish learnable C from retained D | every new unknown triggers more search; complete market knowledge is required; a safe learning action is ignored; capacity expires and HOLD becomes permanent |
+| **Q5 — enterprise composition and arbitration** | May Meridian issue a final strategy, and which scoped result may govern? | S9, S11, S12, S14 → T1, T2, T4 and T3 for any non-null default/action → H1, H2, H3, H4, H6 | common outcome vector; dependency/coupling map; false convergence; incompatible-posture exposure; Type-1↔Type-2 transitions; posture oscillation; veto owner/scope/expiry; timeout/default; evidence-versus-authority role; re-entry; handoff integrity; deadline; outcome; burden | every material dependency is qualified; hard constraints and legitimate scoped vetoes apply only within scope/expiry; no unresolved material gate is averaged away; the result is PASS, PASS WITH EXPLICIT LIMIT or explicit no-conclusion | I2, I1, O2 and O1 are narrated as balance; a signature becomes evidence; an expired veto blocks indefinitely; or deadline/default silently forces unsupported closure |
 
 The canonical chain is read in order for the **same scope**: challenge S# → sufficiently-good condition T# → falsifiable expectation H# → KPI evidence → gate disposition. A KPI pass alone does not solve a challenge; the complete T# condition, its required fields and the applicable outcome evidence must also hold.
 
@@ -311,9 +328,11 @@ The gate algorithm is:
 1. If a mandatory field or KPI is `UNKNOWN`, the gate cannot emit `PASS`; it emits `REQUALIFY`, a bounded `HOLD/ESCALATE`, or `NO COMMITMENT` according to remaining authority, capacity and time.
 2. If any mandatory KPI is `FAIL`, the linked T# condition is insufficient for that scope and the gate cannot emit `PASS`.
 3. If all mandatory KPIs pass but a non-metric part of the linked T# condition is absent—for example, no legitimate owner or no authorised response—the gate still cannot emit `PASS`.
-4. `PASS WITH TYPE 0 MARKER` is permitted only when the structural limit is explicit, the residual is preserved and the selected posture remains bounded, authorised and timely.
+4. `PASS WITH EXPLICIT LIMIT` preserves unresolved or residual state without requiring the runtime to prove Type 0. A Type-0 marker may be added only when its structural or declared-frame basis is explicit; otherwise the state remains unresolved. In either case, the selected posture must remain bounded, authorised and timely.
 5. A failed gate returns to the named re-entry point or terminates in a qualified non-advance. If the workflow advances anyway, the advance is a recorded bypass and injects the named Type 1 or Type 2 failure into the next scope.
-6. Q5 cannot pass unless every material upstream gate is `PASS` or `PASS WITH TYPE 0 MARKER`. A good result in another scope never changes a failed gate.
+6. Q5 cannot pass unless every materially dependent upstream gate is `PASS` or `PASS WITH EXPLICIT LIMIT`. A good result in another scope never changes a failed gate.
+7. Q5 applies the predeclared arbitration record in this order: material dependency and hard constraint; legitimate veto owner, scope and expiry; qualified bounded response; timeout/default treatment; targeted re-entry; and posture-stability rule. Human approval may authorize an action but is not new evidence about the upstream model. No Type-1 veto persists beyond its authority/expiry, and no timeout converts uncertainty to Type-2 closure silently.
+8. A posture reversal without new material evidence, expiry or changed authority fails the anti-oscillation rule and cannot be counted as successful adaptation.
 
 | Gate and KPI failure | Mandatory disposition in Route Q | What happens only if the disposition is bypassed | Introduced/propagated failure |
 | --- | --- | --- | --- |
@@ -323,6 +342,7 @@ The gate algorithm is:
 | **Q1:** evidence yield falls below its floor, burden exceeds its ceiling or response margin is exhausted | stop/redirect acquisition and issue the best qualified posture still available | more agents and tokens continue without decision-relevant gain | late detection, capacity loss and preparation for Q2 I1 |
 | **Q2:** handoff integrity, qualification loss or targeted re-entry precision/recall fails | return to Q1 or the named source; the human receives no approval request yet | the human is asked to decide from a binary, non-reconstructable representation | inherited **I2** receives a human signature or generates repeated requests |
 | **Q2:** HELD time or escalation demand exceeds its limit, or remaining response margin/capacity falls below its minimum | terminate the loop with bounded containment, an available authorised escalation or `NO COMMITMENT` | search, HOLD and escalation continue after useful closure is no longer available | **I1:** human/control determination loop and attention exhaustion |
+| **Q2:** timeout, default, defensive approval or queue pressure closes the unresolved ticket without new qualifying evidence | reject the closure; apply bounded fallback or `NO COMMITMENT` and record the transition | the workflow treats operational pressure or a signature as determination | **Type 1→Type 2:** forced closure and legitimised inherited I2 |
 | **Q2:** posture correctness or false-continuation KPI fails | reject the proposed posture; contain or requalify within the remaining window | an incorrect PASS/HOLD is allowed to govern the next stage | I1 or inherited I2 is propagated according to the failed branch |
 | **Q3:** local determinacy margin is insufficient, residual preservation fails or wrong-domain closure exceeds tolerance | keep the idea in Pole C as a hypothesis; `REQUALIFY` before option admission | an attractive possibility is labelled a credible strategic option | **O2:** possibility-to-fact collapse |
 | **Q3:** owner/version/scope/dependency preservation or correlated-evidence KPI fails | restore the decision basis or return to the affected upstream gate | the option appears independently supported although it reuses the same compressed premises | **O2** compounded with upstream I2 |
@@ -331,6 +351,7 @@ The gate algorithm is:
 | **Q4:** HELD time/burden exceeds its limit, evidence yield is below its floor or response margin is exhausted | stop window expansion and choose an allowed posture: bounded experiment, proceed-under-limits, contain or no commitment | each residual generates another research cycle with no legitimate stopping state | **O1:** unlimited expansion and terminal paralysis |
 | **Q4:** false containment, posture correctness or authorised-response compliance fails | reject the action and return to the responsible owner within the response window | an unsupported veto, commitment or intervention is executed | O1 paralysis or an unauthorised/incorrect response |
 | **Q5:** wrong-domain closure, residual preservation, targeted re-entry, handoff integrity or qualification-loss KPI fails | no enterprise `PASS`; return to the exact failed Q1–Q4 scope or state an explicit no-conclusion | the four incompatible states are narrated as checks and balances | compounded I2 + I1 + O2 + O1 |
+| **Q5:** arbitration, veto scope/expiry, timeout/default, evidence-versus-authority or anti-oscillation record is absent/fails | no enterprise `PASS`; use the declared bounded fallback or explicit no-conclusion | an unspecified precedence rule lets confidence, delay, signature or risk veto determine the answer | unsupported Type-1/Type-2 dominance or oscillation |
 | **Q5:** deadline pass, outcome or total-burden criterion fails | record the qualified limit and terminate the run | activity volume and the 100-million-token spend are presented as decision support | terminal costly report without a qualified basis |
 
 This makes the causal rule explicit: **a failed KPI does not by itself cause the 100-million-token collapse; it deterministically blocks or redirects its gate. The collapse is reproduced when the system overrides those gate dispositions and carries each failed condition into the next subsystem.** A KPI failure limits the linked H# for that run and scope; it does not, by itself, falsify the hypothesis universally.
@@ -358,7 +379,7 @@ This trace is understandable in both directions. Read downward, it shows how byp
 | Q2 | control agents and humans receive binary tickets; requests cannot reopen discarded state | FAIL, I1 injected; inherited I2 may pass | HOLD/escalation consumes capacity, while some “safe” conclusions gain human approval without new evidence |
 | Q3 | strategy turns an apparently stable operating picture into many attractive market/product options | FAIL, O2 injected | possibility is confused with sufficient support |
 | Q4 | deployment tries to eliminate all China-entry residual before acting | FAIL, O1 injected | every research cycle discovers another unknown; the system cannot meet its own completion criterion |
-| Q5 | final synthesis treats the four outputs as checks and balances | FAIL | after 100 million tokens, the system is overconfident, overloaded, speculative and paralysed at the same time |
+| Q5 | final synthesis treats the four outputs as checks and balances, without a declared precedence rule | FAIL | after 100 million tokens, a Type-2 operating picture and speculative strategy dominate some decisions while an overloaded review queue and terminal Type-1 HOLD block others; the contradiction is propagated, not cancelled |
 
 Within this deliberately constructed branch, the terminal HOLD is not a mysterious model failure. It follows from the gate history: the decision basis was compressed at Q1, could not be reconstructed at Q2, was expanded speculatively at Q3 and was subjected to an impossible completeness criterion at Q4. The plan does not claim that every non-conforming system must spend exactly 100 million tokens or reach the same commercial outcome.
 
@@ -367,13 +388,13 @@ Within this deliberately constructed branch, the terminal HOLD is not a mysterio
 | Gate | Agentic behaviour | Gate result | What is passed onward |
 | --- | --- | --- | --- |
 | Q0 | fixes the four scopes, the enterprise decision, resource ledger, deadlines and stop rules | PASS | bounded programme and matched comparison baseline |
-| Q1 | each specialist sends its best answer **and** the bounded qualification envelope; common data dependencies are marked | PASS or PASS WITH TYPE 0 | enterprise picture with uncertainty trajectory, scope and reopening links intact |
+| Q1 | each specialist sends its best answer **and** the bounded qualification envelope; common data dependencies are marked | PASS or PASS WITH EXPLICIT LIMIT | enterprise picture with uncertainty trajectory, scope and reopening links intact |
 | Q2 | control reopens only material assumptions; humans see qualified alternatives and remaining response time | PASS, REQUALIFY or bounded HOLD/ESCALATE | an actionable authorised posture, not nominal human approval |
 | Q3 | ideas remain hypotheses until their own evidence and hard-limit criteria are met | PASS or REQUALIFY | qualified options; unsupported ideas stay in C rather than entering A |
-| Q4 | deployment distinguishes learnable unknowns from structural residual and applies a bounded experiment/no-go rule | PASS WITH TYPE 0, bounded HOLD or NO COMMITMENT | a timely posture with residual D preserved, including a legitimate decision not to enter |
-| Q5 | composes only evidenced dependencies and preserves unresolved scopes | PASS or explicit no-conclusion | a qualified enterprise strategy that states what is known, unresolved, potentially learnable and structurally residual |
+| Q4 | deployment distinguishes learnable unknowns from unresolved or established structural limits and applies a bounded experiment/no-go rule | PASS WITH EXPLICIT LIMIT, bounded HOLD or NO COMMITMENT | a timely posture with residual D preserved, including a legitimate decision not to enter |
+| Q5 | composes only evidenced dependencies, applies the declared arbitration order and preserves unresolved scopes | PASS, PASS WITH EXPLICIT LIMIT or explicit no-conclusion | a qualified enterprise strategy that states what is known, unresolved, potentially learnable and, where established, structurally residual |
 
-Route Q does not promise a successful China entry or an error-free world model. Its success criterion is narrower: it reaches a qualified epistemic and action posture inside the declared deadline without creating Type 1 or Type 2 through its own management. A Type 0 limit may remain.
+Route Q does not promise a successful China entry or an error-free world model. Its success criterion is narrower: it reaches a qualified epistemic and action posture inside the declared deadline without creating Type 1 or Type 2 through its own management. An explicit unresolved limit may remain; a Type-0 marker is optional and requires an established structural or declared-frame basis.
 
 ## 9. Gate acceptance logic and recording form
 
@@ -384,8 +405,9 @@ For each gate and scope:
 3. name the H# expectation and matched comparison branch;
 4. record KPI numerator, denominator, oracle, threshold, value, missing-data treatment and outcome;
 5. check whether the bounded handoff preserved `scope, provenance/freshness, dependency, unresolved state, capacity, authority, expiry`;
-6. issue one allowed gate disposition and its expiry/re-entry condition;
-7. block final PASS if a material upstream failure remains unresolved or is being “compensated” from another domain.
+6. at composition gates, record dependency, hard constraint, legitimate veto scope/expiry, timeout/default, evidence-versus-authority role, re-entry and anti-oscillation rule;
+7. issue one allowed gate disposition and its expiry/re-entry condition;
+8. block final PASS if a material upstream failure remains unresolved or is being “compensated” from another domain.
 
 Minimum record:
 
@@ -397,7 +419,9 @@ Minimum record:
 | Requirement route | applicable S#, full T# condition and H# expectation |
 | KPI evidence | threshold, numerator, denominator, oracle, observed value and missing-data treatment |
 | Resource state | cumulative tokens/compute, communication, storage, reviewer demand and remaining response margin |
-| Disposition | PASS, PASS WITH TYPE 0, REQUALIFY, HOLD/CONTAIN, ESCALATE or NO COMMITMENT |
+| Arbitration | dependency/hard constraint; veto owner, scope and expiry; timeout/default; evidence-versus-authority role; re-entry; anti-oscillation rule |
+| Trajectory evidence | Type-1→Type-2 forced closure; Type-2→Type-1 reopening; false convergence; incompatible-posture exposure; oscillation; cascade reach/latency |
+| Disposition | PASS, PASS WITH EXPLICIT LIMIT, REQUALIFY, HOLD/CONTAIN, ESCALATE or NO COMMITMENT; optional Type-0 marker only with stated basis |
 | Downstream payload | retained winner, alternatives/uncertainty, scope, dependencies, residual and re-entry link |
 | Outcome | observable effect and assumptions to reopen; no retrospective rewriting of provenance |
 

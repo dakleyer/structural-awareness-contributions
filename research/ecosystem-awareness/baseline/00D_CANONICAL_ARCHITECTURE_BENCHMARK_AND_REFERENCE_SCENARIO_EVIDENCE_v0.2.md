@@ -145,23 +145,27 @@ The number **100 million tokens is a fixture parameter**, not an empirical findi
 | Source and grade | Direct finding used | 00E mechanism corroborated | Exact limit |
 | --- | --- | --- | --- |
 | **Tishby, Pereira & Bialek, “The information bottleneck method”** (E1) | Formalizes the trade-off between a compressed representation of `X` and information it preserves about relevant `Y`. | A best-answer-only many-to-one handoff is not automatically a sufficient statistic for later decisions; compression must be assessed against downstream relevance. | Does not show that every summary loses material information or identify an enterprise threshold. |
+| **Bikhchandani, Hirshleifer & Welch, informational cascades** (E1) | Under the model's assumptions, observing prior actions can cause localized conformity based on limited information; the resulting cascades can be fragile. | Compression of private evidence into visible actions can produce **false convergence**, not only divergence. A shared closure is not automatically independent corroboration. | Economic model, not evidence that every agent hierarchy converges falsely or a frequency estimate for 00E. |
+| **Howard, “Information Value Theory”** (E1) | Frames the value of additional information through its effect on a decision, rather than information quantity alone. | Supports decision-relative evidence yield and stopping tests: more tokens or facts need not have positive marginal decision value after cost and time. | Does not prescribe EA, a universal threshold or a specific organizational stopping rule. |
 | **Stasser & Titus, hidden-profile experiment** (E2) | Groups with distributed information were biased toward discussing shared information, and could fail to discover the option supported by pooled unshared facts. | Distributed local access does not guarantee the final group/aggregator receives or uses the decisive non-shared evidence. | Human small-group experiment, not an LLM hierarchy or proof of a specific interface loss. |
 | **Columbia Accident Investigation Board, Volume I** (E3) | The Board identified organizational barriers to effective communication of critical safety information, stifled differences, lack of integrated management and reliance on past success; it gave organizational factors weight comparable to the physical cause. | Locally available concern, compressed/filtered communication and prior-success confidence can combine into unsupported system closure. | A spaceflight accident with distinct institutions and stakes; not evidence that agents behave identically. |
 | **NTSB Tempe automated-driving report** (E3) | The ADS detected the pedestrian but repeatedly misclassified her; emergency braking was precluded in the design and the system relied on the operator. The NTSB identified ineffective operator oversight and automation complacency among contributing factors. | Human-in-the-loop is not effective merely because a person is present; the handoff, remaining response time, attention and retained safety layers matter. | A single-vehicle test programme, not a multi-agent enterprise workflow. |
 | **Lost in the Middle** (E2) | Models did not robustly use relevant evidence across long contexts; performance varied by position. | Expanding context/tokens can fail to improve and can obscure decision-relevant evidence, supporting the non-monotonicity test in T4/H6. | Tests retrieval/use in specified language tasks, not token-budget exhaustion or organizational atrophy. |
+| **Lempert et al., Robust Decision Making under deep uncertainty** (E2) | Tests candidate plans over many plausible futures and uses vulnerability analysis and adaptive monitoring rather than requiring one confident forecast. | Supports the distinction between residual uncertainty and action that can safely generate information; a bounded pilot can be an observation instrument rather than evidence of failure to know. | Decision-support prior art, not runtime EA or proof of pointwise non-inferiority. |
+| **Mitroff & Featheringham, Type-III error** (E1) | Identifies solving the wrong problem or using the wrong problem representation as a distinct systemic failure. | Supports testing the declared Objective Envelope and cross-domain interactions before optimizing a well-formed answer inside the wrong frame. | Does not assign EA authority to choose objectives or prove that a particular envelope is correct. |
 
 ### 10.1 Evidence-to-stage mapping
 
 | 00E stage | Observable benchmark signature | Requirement route | Corroborating evidence |
 | --- | --- | --- | --- |
-| **Production I2** — local winners move upward without uncertainty, alternatives or dependence | qualification-loss rate; compression exposure; correlated-evidence error; false continuation | S5/S9/S11/S14 → T1/T2/T4 → H2/H3/H4 | Information bottleneck; hidden-profile experiment; CAIB. |
-| **Quality-control/human I1** — binary tickets, missing context, overload and late intervention | human-capacity binding; required handoff fields; HELD time; response margin | S3/S4/S5/S14 → T2/T3/T4 → H1/H4/H6 | NTSB Tempe; CAIB. |
+| **Production I2** — local winners move upward without uncertainty, alternatives or dependence | qualification-loss rate; compression exposure; correlated-evidence error; false convergence/continuation | S5/S9/S11/S14 → T1/T2/T4 → H2/H3/H4 | Information bottleneck; informational cascades; hidden-profile experiment; CAIB. |
+| **Quality-control/human I1→I2** — binary tickets, missing context and overload first create HOLD; workflow pressure, timeout or nominal approval can then force unsupported closure | human-capacity binding; required handoff fields; HELD time; Type-1→Type-2 forced closure; response margin | S3/S4/S5/S14 → T2/T3/T4 → H1/H4/H6 | NTSB Tempe; CAIB. |
 | **Strategy O2** — possibilities promoted as sufficiently supported | local-to-global confidence inflation; residual preservation; wrong-domain closure | S2/S5/S9/S14 → T2/T4 → H1/H2 | Hidden-profile result supports the information-pooling risk; the specific creative overconfidence remains a scenario hypothesis. |
-| **Deployment O1** — irreducible residual triggers unlimited research and HOLD | evidence yield; marginal decision value; total burden; deadline pass | S3/S4/S10/S14 → T3/T4 → H5/H6 | Lost in the Middle supports non-monotonic context; no cited occurrence establishes the literal token total. |
+| **Deployment O1** — unresolved residual triggers unlimited research and HOLD instead of distinguishing learnable uncertainty, bounded experiment and established structural limit | evidence yield; marginal decision value; total burden; deadline pass | S3/S4/S10/S14 → T3/T4 → H5/H6 | Howard and RDM support decision-relative information value and action under deep uncertainty; Lost in the Middle supports non-monotonic context; no cited occurrence establishes the literal token total. |
 
 ### 10.2 What is and is not corroborated
 
-**Corroborated as plausible:** relevant information can be lost or underused during compression and group aggregation; organizational barriers can suppress critical safety information; a nominal human monitor can lack attention, context or response margin; and additional context is not guaranteed to improve performance.
+**Corroborated as plausible:** relevant information can be lost or underused during compression and group aggregation; action-only observation can generate false convergence as well as divergence; organizational barriers can suppress critical safety information; a nominal human monitor can lack attention, context or response margin; additional information has decision-relative value; and additional context is not guaranteed to improve performance.
 
 **Not established:** that a named enterprise spent 100 million tokens in this pattern; that every hierarchy is inferior; that no bounded summary can be sufficient; or that EA would have prevented the cited accidents. Those are benchmark questions.
 
@@ -182,7 +186,7 @@ The number **100 million tokens is a fixture parameter**, not an empirical findi
 | 00F stage | Observable benchmark signature | Requirement route | Corroborating evidence |
 | --- | --- | --- | --- |
 | **Noise/dependence accumulates** | freshness, known/unmeasured dependency, material-break recall, U-invalidation | S3/S5/S10/S14 → T1/T4 → H1/H5/H6 | 2003 blackout report. |
-| **Local windows close differently** | residual-scope preservation; source/authority/version fields; posture divergence | S1/S6/S9/S11/S14 → T2 → H2/H4 | BFU Überlingen. |
+| **Local windows close differently—or converge falsely on one correlated basis** | residual-scope preservation; source/authority/version fields; posture divergence; false convergence | S1/S6/S9/S11/S14 → T2 → H2/H4 | BFU Überlingen supports incompatible authoritative responses; informational-cascade theory supports false convergence as the complementary trajectory. |
 | **A/B/NORMAL/HOLD are not composed** | incompatible-posture exposure; wrong-domain/systemic closure; qualification loss | S5/S9/S11/S14 → T2/T4 → H2/H3/H4 | BFU; blackout report. |
 | **Human escalation misses the useful window** | human-capacity binding; posture time; deadline pass; response margin | S3/S4/S5/S14 → T2/T3/T4 → H1/H6 | NTSB Tempe; blackout report. |
 | **Local collision avoidance produces gridlock** | conflicted occupancy; emergency-access delay; observable outcome effect | S5/S9/S14 → T3/T4 → H2/H6 | Sugiyama experiment; Stern experiment. |
@@ -290,10 +294,14 @@ The benchmark is already useful to adopters and implementation partners because 
 ### 00E mechanism evidence
 
 - Tishby, Pereira & Bialek, *The information bottleneck method*: https://arxiv.org/abs/physics/0004057
+- Bikhchandani, Hirshleifer & Welch, *A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades*, 1992: https://doi.org/10.1086/261849
+- Howard, *Information Value Theory*, 1966: https://doi.org/10.1109/TSSC.1966.300074
 - Stasser & Titus, *Pooling of Unshared Information in Group Decision Making: Biased Information Sampling During Discussion*, 1985: https://doi.org/10.1037/0022-3514.48.6.1467
 - Columbia Accident Investigation Board, *Report, Volume I*, 2003: https://ehss.energy.gov/deprep/archive/documents/0308_caib_report_volume1.pdf
 - NTSB, *Collision Between Vehicle Controlled by Developmental Automated Driving System and Pedestrian, Tempe, Arizona*, HAR-19/03, 2019: https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR1903.pdf
 - Liu et al., *Lost in the Middle: How Language Models Use Long Contexts*: https://arxiv.org/abs/2307.03172
+- Lempert et al., *Making Good Decisions Without Predictions: Robust Decision Making for Planning Under Deep Uncertainty*, RAND, 2013: https://www.rand.org/pubs/research_briefs/RB9701.html
+- Mitroff & Featheringham, *On Systemic Problem Solving and the Error of the Third Kind*, 1974: https://doi.org/10.1002/bs.3830190605
 
 ### 00F mechanism evidence
 

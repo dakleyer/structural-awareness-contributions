@@ -75,7 +75,7 @@ The gate service then applies the deterministic rules already defined in 00E:
 1. a missing mandatory field or `UNKNOWN` KPI can never generate `PASS`;
 2. a failed mandatory KPI blocks the gate for that scope;
 3. a pass in another scope cannot compensate for it;
-4. `PASS WITH TYPE 0 MARKER` requires an explicit residual and a bounded, authorised, timely posture;
+4. `PASS WITH EXPLICIT LIMIT` requires an explicit residual and a bounded, authorised, timely posture; an optional Type-0 marker additionally requires a stated structural or declared-frame basis;
 5. an override is logged as a Route-N bypass, not silently relabelled as compliance.
 
 This control profile can be implemented around Agent 365's governance and observability substrate. The exact adapter, workflow and enforcement mechanism will depend on the agent platform, data availability and organisational control design.

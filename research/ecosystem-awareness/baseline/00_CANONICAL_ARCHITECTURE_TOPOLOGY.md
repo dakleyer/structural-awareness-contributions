@@ -63,6 +63,8 @@ The architecture separately distinguishes:
 
 These categories can arise inside U or in relation to residual uncertainty. They do not add a fifth, sixth or seventh epistemic position.
 
+Type 1 and Type 2 are endpoint failure classes, not necessarily pure end-to-end system states. A Type-1 loop may be forced by timeout, default or review pressure into Type-2 closure; a Type-2 closure may later reopen as Type-1 HOLD/search when contradiction appears but its discarded basis cannot be reconstructed. False convergence, incompatible divergence, oscillation and cascades describe observable trajectories or consequences of those two classes. Defensive `UNKNOWN`, qualifier saturation and injected doubt are classified by what they do: unbounded delay/containment is Type 1; suppression, habituation or forced unsupported closure is Type 2. No additional failure type is introduced.
+
 ## 5. How the topology maps to the architecture
 
 | Architecture layer | Role in the canonical topology | Source |

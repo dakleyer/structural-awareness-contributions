@@ -1086,6 +1086,8 @@ Condition Type 0 — structural non-determination
 
 Type 0 is not a management error. It is the condition in which the global property remains non-determined under the available system class even when uncertainty is acknowledged and handled correctly. This includes formally undecidable classes and operationally intractable cases for which no available procedure can produce a sufficiently reliable global determination within the relevant resources and time.
 
+**Foundational distinction; not a runtime oracle.** A formally or otherwise structurally established limit is not the same claim as present-frame infeasibility, and neither follows merely from persistent non-resolution. The first concerns the admitted problem class; the second concerns the declared evidence, capacity and useful response horizon; the third may remain simply unresolved. An operational architecture is not required to know in advance whether more effort would eventually succeed. It is required to preserve the unresolved state, bound further effort and select an authorised posture before the useful horizon expires. A Type-0 marker therefore needs a stated structural or frame-relative basis; otherwise the runtime state remains unresolved rather than being promoted to an ontological conclusion. This clarification adds no failure class and no demand that an agent prove undecidability online.
+
 The failure associated with Type 0 is not its presence but its misclassification. Treating a structurally non-determinable condition as if further effort were guaranteed to resolve it produces Type 1 pressure; treating it as if it were already resolved produces Type 2\. Type-0 controls therefore exist to prevent misclassification and to support restriction, decomposition or requalification—not to remove the structural condition.
 
 &nbsp;
@@ -1105,6 +1107,12 @@ Type 1 occurs when the system recognizes uncertainty but fails to bound the dete
 Failure Type 2 — suppressed contradiction / false certainty
 
 Type 2 occurs when the system closes by suppressing the unresolved side of the contradiction. It treats a bounded or uncertain result as if it were sufficiently determined for a wider scope.
+
+##### 17.1.1 Type 1 and Type 2 as endpoints with hybrid trajectories
+
+Type 1 and Type 2 remain the two management-failure classes; they are not pure, permanent personalities of a subsystem. A Type-1 path can collapse into Type 2 when a timeout, default, queue pressure, defensive approval or exhausted reviewer forces closure without new qualifying evidence. A Type-2 path can collapse into Type 1 when a confident compressed closure is later contradicted but the discarded uncertainty, alternatives or dependencies cannot be reconstructed, causing repeated HOLD, search or escalation.
+
+False convergence is principally Type 2 when several actors inherit or imitate the same insufficiently supported closure. Divergence can combine Type 1 and Type 2 when some actors remain unresolved while others close falsely. Oscillation is a repeated transition between the two when posture changes lack a material-evidence rule, expiry discipline or hysteresis. A cascade describes propagation or abrupt system-level consequence; it is not a third failure type. Defensive `UNKNOWN`, qualifier saturation and adversarial doubt injection are likewise operational mechanisms: they create Type 1 when they generate unbounded delay or containment, and Type 2 when pressure, habituation or a default suppresses the unresolved state and forces closure.
 
 &nbsp;
 
@@ -1187,6 +1195,10 @@ A regime change occurs when the ecosystem moves to a state for which the current
 Operational definition:
 
 A regime change is a transition from a qualified operating envelope into an unqualified ecosystem state in which the correct mission-relevant response mapping is not yet sufficiently known or qualified.
+
+**Foundational terminology boundary.** Evidence that observable dynamics have departed from a declared regime and a conclusion that a decision frame no longer supports its former response mapping are related but distinct claims. A Regime Awareness detector may supply representation-relative departure evidence for a specified observation map, context and threshold; EA assesses what that evidence, together with other dependencies, means for one mission-level decision frame. Neither claim requires access to a unique, globally observable “true regime,” and neither may be inferred solely from the other. This is an explanatory distinction, not an additional runtime state or detector requirement.
+
+Accordingly, a test must predeclare which proposition it measures: **dynamical departure** from characterized state-transition or statistical behaviour, **decision-frame invalidation** of the former response mapping, or both. Increased uncertainty alone does not establish dynamical departure, and a detected departure alone does not establish that the mission response mapping has failed. Where only the second is evidenced, the operational record should say `decision-frame invalidation` or `insufficiently qualified frame` rather than using regime change as a self-validating label.
 
 Under this definition, uncertainty is not merely a common consequence of regime change. It is its epistemic signature. If the correct response mapping for the new state were already sufficiently known and qualified, the transition would belong to the known operating envelope and would be classified as a mode change instead.
 
@@ -1304,15 +1316,17 @@ Repeated recursively, this acts as a Type-2 multiplier. The downstream agent may
 
 &nbsp;
 
-Candidate divergence-threshold hypothesis
+Candidate coordination-distortion hypothesis
 
 &nbsp;
 
 Under comparable underlying evidence, honest propagation of uncertainty should require greater epistemic separation between participant windows before strongly incompatible operational closures emerge. Type-2 compression may lower that threshold: by collapsing uncertainty into apparently determined binary outputs, a smaller or less heterogeneous ecosystem may reproduce systemic divergence similar to that which structural Type-0 non-determination would otherwise require under much greater separation.
 
+The same compression can also produce the opposite visible pattern: premature convergence on one unsupported closure when actors reuse correlated evidence, observe one another's actions or treat prior closures as stronger than their own residual information. Subsequent contradiction may reopen that Type-2 convergence as Type-1 search/HOLD, generate oscillation, or produce an abrupt cascade when several dependent closures reverse together. Which pattern appears depends on source dependence, window heterogeneity, communication topology, authority, payoff and arbitration rules. Divergence, false convergence, oscillation and cascade are therefore candidate observable trajectories of Type 1/Type 2 management failures, not additional error classes.
+
 &nbsp;
 
-This is a research hypothesis, not an established law. It can be tested by varying ecosystem size, window heterogeneity, propagation depth, uncertainty preservation and compression rate, and measuring the onset of incompatible closures such as HOLD, Emergency Plan A, Emergency Plan B and NORMAL.
+This is a research hypothesis, not an established law. It can be tested by varying ecosystem size, window heterogeneity, source correlation, propagation depth, uncertainty preservation, compression rate, timeout/default policy and arbitration rules, and measuring false convergence, incompatible closures, Type-1/Type-2 transitions, oscillation and cascade onset.
 
 &nbsp;
 
@@ -1597,6 +1611,7 @@ The required awareness budget depends on mission criticality, sensitivity to eco
 
 <a id="candidate-research-hypotheses"></a>
 
+<a id="candidate-research-hypotheses"></a>
 #### Source v0.4 §11 — Candidate research hypotheses
 
 **Domain-scoped reading rule (applies to H1–H6; it is not a seventh hypothesis).** In this section, a **[decision domain](#decision-domain)** `d` is the material subject–proposition–decision boundary for which evidence and a result are being qualified. It is not the whole enterprise, the whole ecosystem or every item of context that a system could retrieve. **[Scope](#scope)** states the coverage to which a claim applies. Each hypothesis is therefore evaluated for a declared decision `d`, time `t` and active [`W(d,t)`](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#1-canonical-topology), under comparable evidence and finite compute, bandwidth, time, privacy and human-attention capacity.
