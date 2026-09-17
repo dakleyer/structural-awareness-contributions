@@ -10,7 +10,7 @@ The public corpus contains this architecture at several necessary levels: founda
 
 ## 1. Canonical topology
 
-For a decision (d) at time (t):
+For a decision `d` at time `t`:
 
 | Element | Canonical meaning | Architectural consequence |
 |---|---|---|
@@ -32,7 +32,7 @@ The four positions are **A, B, C and D**. They are not equal quadrants and must 
 | **C — recognized and potentially obtainable** | State outside the current window is recognized as potentially obtainable and may justify bounded expansion or refresh. | Expand only when its expected decision value warrants the observation, verification, time and human/compute capacity required. |
 | **D — structural residual** | State beyond the active window cannot be presumed fully discoverable, enumerable or eliminable. | Preserve the residual limitation rather than silently treating it as irrelevant or determined. |
 
-C and D provide the operational reading of what remains outside the active window. They are a useful conceptual decomposition of residual uncertainty, but neither makes (R_U) a closed set complement or Ω a closed universe.
+C and D provide the operational reading of what remains outside the active window. They are a useful conceptual decomposition of residual uncertainty, but neither makes `R_U` a closed set complement or Ω a closed universe.
 
 ## 3. Agent-local qualification and ecosystem composition
 
@@ -61,7 +61,7 @@ These categories can arise inside U or in relation to residual uncertainty. They
 
 | Architecture layer | Role in the canonical topology | Source |
 |---|---|---|
-| **01 — Foundational Theory** | Defines Ω, U, (R_U), bounded representation, residual indeterminacy, Type 0/1/2 and the need to qualify W(d,t). | [01 — Integrated Foundational Theory v0.5](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and preserved [v0.4 source parts](./01_FOUNDATIONAL_THEORY_v0.4.part01.md) |
+| **01 — Foundational Theory** | Defines Ω, U, `R_U`, bounded representation, residual indeterminacy, Type 0/1/2 and the need to qualify W(d,t). | [01 — Integrated Foundational Theory v0.5](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and preserved [v0.4 source parts](./01_FOUNDATIONAL_THEORY_v0.4.part01.md) |
 | **02 — Epistemic Safety Principles & Control Matrix** | Defines A–D and the internal and received-signal controls that prevent bounded evidence from becoming an unjustified global conclusion. | [02 — Control Matrix v0.4](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) |
 | **03 — Functional Architecture** | Implements the two qualification loops through F1–F9: decision/frame qualification, evidence qualification, scoped composition, posture, requalification and learning. | [03 — Functional Architecture v0.4](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) |
 | **04 — Functional Interfaces & Agentic Security** | Makes qualified claims transport-neutral through the EHD and maintains the no-supercontroller rule across agents and security functions. | [04 — Functional Interfaces v0.4](./04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part01.md) |
