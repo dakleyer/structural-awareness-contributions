@@ -90,6 +90,8 @@ Inputs to Ecosystem Awareness
 
 \- action request/result/status;
 
+\- decision/operation and predecessor-handoff reference where the action continues a material decision;
+
 \- read/write/reversibility and material impact characteristics where available;
 
 \- authorization scope and relevant policy/mandate reference;
@@ -102,6 +104,8 @@ Inputs to Ecosystem Awareness
 
 \- provenance of returned data where available.
 
+\- shared resource-time segment and competing operation/directive reference where the action can collide with another legitimate action.
+
 &nbsp;
 
 EA outputs to this function
@@ -113,6 +117,8 @@ EA outputs to this function
 \- request for outcome reconciliation when execution status is indeterminate;
 
 \- containment/scope-reduction request sent to the function that actually owns enforcement.
+
+\- where the Composition-Critical EHD Profile applies, the targeted re-entry reference and expected revalidation criterion; this is not an execution command.
 
 &nbsp;
 
@@ -142,6 +148,8 @@ Inputs to Ecosystem Awareness
 
 \- sender/receiver or interaction binding available at the transport layer;
 
+\- decision/operation correlation and parent-handoff reference where the message continues or changes a material decision;
+
 \- timestamps/freshness;
 
 \- extension metadata carrying an EHD or external epistemic envelope;
@@ -159,6 +167,8 @@ EA outputs to this function
 \- updated scope/freshness qualifiers;
 
 \- requalification or correction signal where the transport supports amendments/status updates.
+
+\- Composition-Critical EHD Profile fields, where material, so that the receiving function can correlate the decision basis, conflict relation or targeted re-entry without interpreting a transport identifier as sufficient semantic identity.
 
 &nbsp;
 
@@ -243,6 +253,8 @@ Inputs to Ecosystem Awareness
 \- mandate/action scope;
 
 \- limits and conditions;
+
+\- applicable authority/mandate reference for a competing directive, including any source-owned exception, veto or precedence rule where one exists;
 
 \- delegation/redelegation chain where material;
 
@@ -364,7 +376,7 @@ Inputs to Ecosystem Awareness
 
 \- freshness/tamper-evidence of the verdict;
 
-\- intents in collision and criticality where material;
+\- competing intents/directives, their shared decision or resource-time reference, and the source-owned priority/precedence basis where material;
 
 \- attested absence of evaluation where no evaluation occurred.
 
@@ -572,6 +584,8 @@ Inputs to Ecosystem Awareness
 
 \- action/task and timestamp;
 
+\- decision/operation and parent-handoff reference where needed to reconstruct a composition-critical path;
+
 \- authority/provenance reference;
 
 \- declared scope;
@@ -595,6 +609,8 @@ EA outputs to this function
 \- scope, posture, residual/inherited-indeterminacy markers relevant to later reconstruction;
 
 \- request to preserve a material requalification/containment/migration decision and its basis.
+
+\- where material, the targeted re-entry reference, review/expiry condition and observed outcome/revalidation link for the same decision/operation.
 
 &nbsp;
 

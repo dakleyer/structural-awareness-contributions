@@ -178,6 +178,42 @@ Where material:
 
 &nbsp;
 
+## Composition-Critical EHD Profile (optional)
+
+The EHD kernel remains sufficient for ordinary bounded handoff. This optional profile applies only when several components must preserve the basis, continuity or arbitration of the **same material decision** across handoffs: for example, a principal-bound decision basis, a transition from commitment to execution, competing directives over one resource-time segment, or a later requalification of an earlier decision. It introduces no O7, IF-S14, producer family or mandatory wire format.
+
+The profile is a conditional metadata overlay. References may be stable identifiers, versioned semantic references or privacy-preserving record references; they do not require full context, private reasoning or a common global database. If a material relation cannot be established, it remains UNKNOWN rather than being inferred.
+
+Producer → EA fields, where material:
+
+- decision/operation reference and, where a handoff continues an earlier result, parent-handoff or predecessor reference;
+
+- decision-basis reference and version for the relevant principal preference, hard limit, mandate or permitted trade-off;
+
+- commitment state, such as recommendation, negotiation, reservation, binding commitment or execution, or an implementation-equivalent state;
+
+- source-owned validity, review, transition or return condition, including normal versus exceptional path qualification where supplied by its owner;
+
+- shared dependency or resource-time reference, and competing-directive references where the same material action or resource is affected;
+
+- source-owned priority, precedence, veto or arbitration reference where a legitimate owner has supplied one.
+
+EA → receiving function fields, where material:
+
+- the same decision/operation reference and affected scope;
+
+- the qualified residual, capacity, authority or evidence limitation relevant to that decision;
+
+- a targeted re-entry reference: the assumption, evidence, window, dependency, authority or policy/reference that must be refreshed, widened, narrowed or otherwise requalified;
+
+- review/expiry condition and the identified receiving function that retains the authority to decide or execute;
+
+- expected outcome or revalidation criterion, without treating the request itself as execution confirmation.
+
+The profile provides the links needed to test preservation and re-entry. It does not carry KPIs, Q0–Q5 dispositions, quality gates, a universal precedence hierarchy or an EA command. Those remain test, governance or owner-specific artifacts outside the runtime handoff.
+
+&nbsp;
+
 The descriptor may be partial. “Unknown” is a valid value. Silent substitution is not. Where the reason for an unknown is itself known, producers should preferably preserve it (for example not observed, not tracked, unavailable, privacy-restricted, unsupported or not established); the reason itself may remain UNKNOWN. `not_applicable` is separate because it is a determination, not an unknown state.
 
 &nbsp;
@@ -280,6 +316,12 @@ Inputs to Ecosystem Awareness
 
 - relevant authority/policy references.
 
+- decision/operation reference and commitment state where the workflow moves from recommendation, negotiation or reservation to commitment or execution;
+
+- principal preference, hard-limit or permitted-trade-off reference and version where it materially defines the decision basis;
+
+- source-owned review, transition or return condition where a material change can distinguish normal revalidation from an exceptional governed path.
+
 &nbsp;
 
 EA outputs to this function
@@ -295,6 +337,8 @@ EA outputs to this function
 - epistemic statement explaining what remains determined/indeterminate for orchestration purposes;
 
 - current window-selection / sensitivity-capacity mismatch where observation effort is materially too high or too low for the receiving decision.
+
+- where the Composition-Critical EHD Profile applies, the decision/operation reference, targeted re-entry reference and review/expiry condition.
 
 &nbsp;
 

@@ -102,6 +102,8 @@ Inputs to Ecosystem Awareness
 
 \- available control/response capabilities and effective reach;
 
+\- decision/operation and shared resource-time reference where a response can collide with another legitimate action;
+
 \- authority required for each response;
 
 \- current response latency and actionability window;
@@ -131,6 +133,8 @@ EA outputs to this function
 \- request to prepare migration/requalification where the old frame is no longer sufficient;
 
 \- success/revalidation criteria for returning to normal operation.
+
+\- where the Composition-Critical EHD Profile applies, the same decision/operation reference, targeted re-entry reference and review/expiry condition so that a containment or migration result can be reconciled with the decision it qualifies.
 
 &nbsp;
 
