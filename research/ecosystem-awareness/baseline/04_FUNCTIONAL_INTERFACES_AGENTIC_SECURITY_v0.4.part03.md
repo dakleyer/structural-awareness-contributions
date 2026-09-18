@@ -449,3 +449,162 @@ An enforcement system says what response capacity exists and what was actually e
 Ecosystem Awareness then performs the meta-level task: preserve those distinctions, compose them by domain rather than by average confidence, detect Type 0/1/2 and cross-domain collapse, dynamically calibrate the observation frame to mission sensitivity/risk and finite capacity, requalify that frame where necessary, and emit a bounded epistemic statement that the rest of the system can use.
 
 &nbsp;
+
+# Appendix A — Interface Quality and Conformance Plan for Ecosystem Awareness
+
+## A.1 Status, purpose and scope
+
+**Status.** This is an internal quality and conformance plan for the generic Ecosystem Awareness interface model in this document. It is an additional verification artifact: it does not modify F1–F9, O1–O6, IF-S1–IF-S13, the EHD kernel, the optional Composition-Critical EHD Profile, or any producer's native semantics. It is not a certification scheme, a standards claim, an implementation claim or a quality plan for another architecture.
+
+**Purpose.** The plan determines, for a declared decision scope, whether the available inputs and outputs of actual generic AI components are sufficient for EA to qualify and return an epistemic result without inventing information, taking another component's authority or losing a material qualifier in handoff. It therefore tests the interface, not whether EA is universally effective or whether a producer's underlying domain decision is substantively true.
+
+**In scope.** A test may involve any active subset of O1–O6 and IF-S1–IF-S13, provided that every input has an identified producer or is explicitly UNKNOWN and every EA output has an identified receiving function. The plan covers two bounded levels:
+
+- **Level 1 — internal coordination and integration.** Mission/orchestration, local runtime, context/retrieval, tools, transport and internal trust/control functions exchange qualified state for one declared decision.
+
+- **Level 2 — independent-boundary information.** EA consumes an externally originating signal, record, assessment or other bounded claim through the same EHD discipline. A Level 2 signal changes the receiver's evidence state; it does not transfer authority, prove the whole ecosystem or force a common action.
+
+The Mission/Context Assessment (MCA) remains the basis for deciding before and after a run how much knowledge, retrieval, review or response effort is justified. The plan does not require maximum information collection.
+
+**Out of scope.** This plan does not define a production API, require full internal reasoning or memory disclosure, transmit KPIs, Q0–Q5 dispositions or quality gates in the runtime payload, set a universal policy hierarchy, or execute containment, human intervention or authority decisions.
+
+## A.2 Quality objectives
+
+| Objective | What the plan establishes | What it does not establish |
+| --- | --- | --- |
+| **Q1 — Boundary ownership** | Each input, output, semantic owner and receiving function is identified. | That EA owns the source function's authority or action. |
+| **Q2 — Qualified handoff integrity** | Material scope, provenance/freshness, determination/UNKNOWN state, dependency, capacity, authority and validity/review qualifiers survive where required. | That every possible qualifier is known or universally mandatory. |
+| **Q3 — Semantic preservation** | A receiver can interpret the result according to the producer profile/reference and does not confuse observation, attestation, appraisal, verdict, assessment or execution. | That independently implemented components already share one wire format. |
+| **Q4 — Bounded disclosure and burden** | The chosen handoff avoids unnecessary private context and records the relevant latency, retrieval, communication and review burden. | That lower overhead is automatically safer or more correct. |
+| **Q5 — Correctly bounded EA return** | EA returns a scoped assessment, limitation and targeted requalification to an identified receiver without issuing another owner's command. | That the receiver executed the request or that the request was the best possible action. |
+| **Q6 — Composition-critical continuity** | Where the optional profile applies, the decision basis, decision/operation continuity, conflict relation, precedence reference and targeted re-entry remain reconstructible. | A universal precedence hierarchy or a complete history of every upstream system. |
+| **Q7 — Revalidation closure** | A material change, execution result or elapsed validity condition can be connected to the affected decision and re-entry point. | That a successful action proves the earlier epistemic basis was complete. |
+
+## A.3 Unit under test: Interface Conformance Record
+
+Every test run creates an **Interface Conformance Record (ICR)**. The ICR is a test artifact, not a new runtime message. It contains:
+
+| ICR element | Required content |
+| --- | --- |
+| Test identity | ICR identifier, date, interface-model version, profile/delta version and test-vector version. |
+| Decision context | Declared subject, proposition, receiving decision, scope, mission/MCA basis, useful horizon and materiality condition. |
+| Boundary | Producing component, consuming EA function, receiving component, semantic owner and adapter/maintenance owner. |
+| Native result | The producer's native result and the reference/profile through which it is interpreted. |
+| Required qualifiers | Which of scope, provenance/freshness, dependency, unresolved state, capacity, authority, validity/review and privacy constraint are material for this run. |
+| Unknown treatment | Explicit UNKNOWN, `not_applicable`, unavailable, not-observed, privacy-restricted or other declared reason where known. |
+| Test vector | Positive, boundary or rejection fixture; injected change or limitation; expected EA interpretation and expected receiving consequence. |
+| Evidence | Handoff trace, profile/reference, adapter mapping where used, receiving result, observed execution/outcome when available and burden observations. |
+| Conclusion | Interface sufficiency finding, open field gap if any, retest decision and responsible maintenance owner. |
+
+For a Composition-Critical test, the ICR additionally records the decision/operation and parent-handoff references, decision-basis reference, commitment state where relevant, shared resource-time or conflict relation, source-owned precedence/arbitration reference where present, and targeted re-entry reference.
+
+## A.4 Entry conditions
+
+A test may start only when the following are declared for its bounded scope:
+
+1. the producer, EA consumer and receiving function are identified;
+2. the producer profile/reference and its version are available, or their absence is declared;
+3. the native result and the decision it can affect are distinguishable;
+4. the material fields and permitted disclosure boundary are specified;
+5. the expected result is stated as an interface interpretation or requalification consequence, not as an assumed global truth;
+6. the positive, boundary and rejection fixtures have an observable oracle; and
+7. the semantic owner and adapter/maintenance owner accept responsibility for the test mapping they control.
+
+Failure to satisfy an entry condition is itself a useful finding: it means the proposed interface cannot yet be tested for that scope without inventing a producer, a receiver, semantics or an oracle.
+
+## A.5 Test method
+
+### A.5.1 Prepare the declared route
+
+1. Select the active interfaces and the relevant EA functions F1–F9.
+2. Freeze the decision scope, the available evidence boundary, the useful response horizon, the MCA capacity basis and the disclosure constraint.
+3. Identify whether the ordinary EHD kernel is sufficient or whether the Composition-Critical EHD Profile is required.
+4. Map native producer fields to the EHD/profile semantics. An adapter may translate representation; it must not silently upgrade UNKNOWN, authority, provenance, independence or determination.
+
+### A.5.2 Exercise three fixture classes
+
+| Fixture class | Minimum situation | Expected interface result |
+| --- | --- | --- |
+| **Positive** | A producer supplies the material result and qualifiers within scope and validity. | EA preserves the qualification, returns a scoped assessment or no-change result to the identified receiver, and does not claim more than the producer supplied. |
+| **Boundary** | One material qualifier is absent, stale, privacy-restricted, capacity-binding, partly scoped or correlated. | The qualifier remains UNKNOWN/limited; EA narrows reliance, requests targeted requalification or records that the available route is insufficient for the decision. |
+| **Rejection** | A mapping would collapse UNKNOWN, extend scope, confuse evidence with authority, treat a transport identifier as semantic identity, or send an EA request as an execution command. | The handoff is nonconforming for that use; the ICR identifies the field, ownership or adapter defect rather than manufacturing a value. |
+
+Composition-Critical tests add at least one vector for each material condition present: a decision-basis/version change, an execution or commitment transition, competing directives over one resource-time segment, and re-entry after changed evidence, authority, dependency or validity.
+
+### A.5.3 Evaluate the handoff and return
+
+For each fixture, the reviewer checks:
+
+- **Input provenance.** Was every required input produced by the named component and attached to its native/profile semantics?
+- **Qualifier preservation.** Did scope, freshness, dependency, capacity, authority, validity/review and UNKNOWN survive the handoff where material?
+- **EA interpretation.** Did EA preserve the distinction between local result, evidence appraisal, systemic assessment, operating posture and execution status?
+- **Output ownership.** Did the EA return identify a receiver and stay within assessment/requalification rather than grant, authorize or execute?
+- **Re-entry and feedback.** If the vector changes a material condition, does the return identify the exact re-entry target and can the later outcome be associated with the same decision/operation where required?
+- **Disclosure and burden.** Did the route remain within the declared disclosure boundary and was its material operational burden observed?
+
+## A.6 Evidence and test measures
+
+These are post-run measures for the ICR. They are not EHD fields, runtime KPIs or automatic release criteria.
+
+| Measure | Calculation or observation |
+| --- | --- |
+| Field preservation | Material required qualifiers delivered and interpretable at the receiver ÷ material required qualifiers for the declared scope. |
+| UNKNOWN preservation | Material unavailable/limited qualifiers still explicit at the receiver ÷ material unavailable/limited qualifiers at the producer. |
+| Scope fidelity | Runs in which a receiving conclusion stays within the declared scope, known exclusions and dependency treatment ÷ applicable runs. |
+| Semantic mapping integrity | Mappings in which the receiver preserves the producer's result category and profile semantics ÷ mappings exercised. |
+| Re-entry traceability | Material changes that produce a specific, reachable re-entry reference and later outcome association ÷ applicable change vectors. |
+| Composition continuity | In composition-critical runs, required decision/operation, basis, conflict/precedence and parent-handoff relations retained and interpretable ÷ required relations. |
+| Boundedness observation | Relevant latency, retrieval/communication effort, human-review demand and disclosure burden, reported beside the fixture result. |
+
+The plan records observed burden so that a semantically complete handoff is not accepted blindly when it consumes the response opportunity it is meant to protect. It does not prescribe one universal threshold; the declared mission, scope and MCA capacity basis determine materiality.
+
+## A.7 Conformance findings
+
+The quality conclusion is made **after** the run. It is not a runtime posture or command.
+
+| Finding | Meaning | Required follow-up |
+| --- | --- | --- |
+| **Sufficient for declared scope** | The ordinary EHD kernel or active generic interface set preserved every material qualifier and produced an owner-preserving EA return for the fixture. | Retain the ICR and repeat only when version, scope or material assumptions change. |
+| **Sufficient with Composition-Critical Profile** | The ordinary kernel alone was not enough, but the optional profile preserved the material decision continuity, basis, conflict or re-entry relation. | Version-pin the profile and retain the associated fixtures. |
+| **Insufficient field expression** | A material fact exists at a named producer but cannot be expressed or interpreted through the active interface/profile. | Record the smallest candidate field addition, its producer and consumer; retest before changing the baseline. |
+| **Producer or receiver unavailable** | The required fact has no available producer, no identified receiving function or no responsible semantic owner. | Preserve UNKNOWN and mark the decision scope limited; do not infer a contract. |
+| **Nonconforming mapping** | An adapter, transport or consumer changed scope, meaning, UNKNOWN, authority or ownership. | Correct the mapping or reject the route for that scope; do not patch the result. |
+| **Out of declared scope** | The fixture needs a decision, authority, disclosure or execution rule not owned by the tested generic interfaces. | Refer the matter to its legitimate owner; do not expand EA by assertion. |
+
+## A.8 Interface coverage plan
+
+| Interface group | Principal quality question | Minimum evidence |
+| --- | --- | --- |
+| **O1** mission/orchestration | Is the receiving decision, materiality, capacity basis and decision basis sufficiently declared? | Mission/context record, scope, decision/operation reference where material and EA return. |
+| **O2/O6** discovery and transport | Does discovery/transport preserve source, recipient, version and semantic handoff without becoming the truth owner? | Capability/profile reference, transport trace and EHD/profile mapping. |
+| **O3/O4/O5** runtime, context and action | Can local result, retrieval boundary, source dependence, tool outcome and re-entry be tied to the affected decision? | Local result, retrieval/tool traces, scope/freshness/dependency qualifiers and observed outcome. |
+| **IF-S1/IF-S2** identity and authority | Are identity/binding and applicable authority kept distinct, current and bounded? | Binding/grant references, validity/revocation condition and receiving scope. |
+| **IF-S3/IF-S4/IF-S5** assurance, policy and appraisal | Does EA preserve the distinction among attestation, appraisal, conformance, indeterminate and reference validity? | Native result, issuer relationship, policy/reference version, scope and limitation. |
+| **IF-S6/IF-S12** human capacity and response | Does a qualified assessment reach an owner with usable response capacity without treating approval or execution as new evidence? | Capacity/window, authority, actionability, execution result and revalidation link. |
+| **IF-S7/IF-S9** telemetry and population evidence | Are measurement scope, method, limitations and correlation preserved before composition? | Measurement/evaluator profile, period, source dependence and stated limit. |
+| **IF-S8** records | Can a later reviewer reconstruct the bounded decision path without treating the record as proof of every claim? | Record linkage, result/outcome, re-entry and integrity evidence. |
+| **IF-S10** privacy | Does minimum disclosure leave unavailable qualification explicit rather than force disclosure or inference? | Disclosure rule, permitted abstraction and resulting UNKNOWN/limit. |
+| **IF-S11/IF-S13** external signal and trust context | Can an external claim or framework condition be consumed as bounded evidence without creating authority or false equivalence? | Signal/framework reference, scope, freshness, provenance/dependence and limitation. |
+
+## A.9 Change and maintenance discipline
+
+1. A failed fixture does not by itself justify a new interface family or a redesign of EA.
+2. The ICR must identify the missing fact, its actual producer, intended receiver, semantic owner, test vector and why UNKNOWN is not sufficient for the declared decision.
+3. First consider an existing conditional field, profile reference or bounded adapter. Add a new field only when the existing model cannot express the fact without ambiguity.
+4. A Composition-Critical requirement remains conditional and versioned; it must not become a metadata tax on simple local decisions.
+5. Any approved change is retested against the positive, boundary and rejection fixtures that exposed it, plus a no-regression ordinary-kernel fixture.
+6. Source profile, adapter and fixture changes are version-pinned. The named maintenance owner records whether the semantic mapping remains valid after a producer or consumer changes.
+
+## A.10 Decision on interface sufficiency
+
+The plan is complete for a declared component route when the relevant ICR set shows that:
+
+1. every material input is available from a named producer or explicitly UNKNOWN;
+2. the producer's native semantics and material qualifiers survive to EA and to the identified receiver;
+3. EA returns only a bounded assessment, limitation or requalification request within its authority boundary;
+4. positive, boundary and rejection fixtures produce the expected interpretation without invented information;
+5. a material change can be connected to the appropriate re-entry and later outcome where the route requires it;
+6. the observed disclosure and operational burden remain visible against the declared MCA capacity and useful horizon; and
+7. any remaining failure is classified as an interface field gap, producer/receiver gap, nonconforming mapping or out-of-scope owner issue.
+
+This conclusion answers a narrow but necessary question: **whether the interfaces are sufficient for the declared EA test route.** It does not prove that EA is effective for every ecosystem, that all components interoperate without adapters, or that the underlying business/operational decision is correct.
