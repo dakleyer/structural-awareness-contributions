@@ -488,11 +488,14 @@ Every test run creates an **Interface Conformance Record (ICR)**. The ICR is a t
 | --- | --- |
 | Test identity | ICR identifier, date, interface-model version, profile/delta version and test-vector version. |
 | Decision context | Declared subject, proposition, receiving decision, scope, mission/MCA basis, useful horizon and materiality condition. |
+| Materiality control | Frozen set of material qualifiers, the semantic owner who fixed it before execution, rationale and version. A later reduction of that set is a recorded change, not a silent improvement in the result. |
 | Boundary | Producing component, consuming EA function, receiving component, semantic owner and adapter/maintenance owner. |
+| Evaluation independence | Named reviewer for the mapping, plus any relevant relationship to the producer, receiver or adapter. The reviewer of a mapping cannot be that mapping's adapter/maintenance owner. |
 | Native result | The producer's native result and the reference/profile through which it is interpreted. |
 | Required qualifiers | Which of scope, provenance/freshness, dependency, unresolved state, capacity, authority, validity/review and privacy constraint are material for this run. |
 | Unknown treatment | Explicit UNKNOWN, `not_applicable`, unavailable, not-observed, privacy-restricted or other declared reason where known. |
 | Test vector | Positive, boundary or rejection fixture; injected change or limitation; expected EA interpretation and expected receiving consequence. |
+| Route shape | Level 1 or Level 2 designation; for Level 2, whether the producer is independently operated; for a chain, the ordered hops; and for an aggregation, input-assertion count and declared transformation or loss. |
 | Evidence | Handoff trace, profile/reference, adapter mapping where used, receiving result, observed execution/outcome when available and burden observations. |
 | Conclusion | Interface sufficiency finding, open field gap if any, retest decision and responsible maintenance owner. |
 
@@ -509,6 +512,10 @@ A test may start only when the following are declared for its bounded scope:
 5. the expected result is stated as an interface interpretation or requalification consequence, not as an assumed global truth;
 6. the positive, boundary and rejection fixtures have an observable oracle; and
 7. the semantic owner and adapter/maintenance owner accept responsibility for the test mapping they control.
+8. any material adversarial-assertion fixture has an observable oracle;
+9. the semantic owner has fixed the material qualifier set and its rationale before the fixture is executed;
+10. a named reviewer, distinct from the adapter/maintenance owner of the mapping under review, is available; and
+11. where Level 2 is claimed, the producer is independently operated, or the fixture is explicitly marked as a simulated boundary that does not establish independent interoperability.
 
 Failure to satisfy an entry condition is itself a useful finding: it means the proposed interface cannot yet be tested for that scope without inventing a producer, a receiver, semantics or an oracle.
 
@@ -528,15 +535,21 @@ Failure to satisfy an entry condition is itself a useful finding: it means the p
 | **Positive** | A producer supplies the material result and qualifiers within scope and validity. | EA preserves the qualification, returns a scoped assessment or no-change result to the identified receiver, and does not claim more than the producer supplied. |
 | **Boundary** | One material qualifier is absent, stale, privacy-restricted, capacity-binding, partly scoped or correlated. | The qualifier remains UNKNOWN/limited; EA narrows reliance, requests targeted requalification or records that the available route is insufficient for the decision. |
 | **Rejection** | A mapping would collapse UNKNOWN, extend scope, confuse evidence with authority, treat a transport identifier as semantic identity, or send an EA request as an execution command. | The handoff is nonconforming for that use; the ICR identifies the field, ownership or adapter defect rather than manufacturing a value. |
+| **Adversarial assertion** | A producer emits a well-formed material qualifier that is false or unsupported in the controlled fixture, such as independence, freshness or scope. | Without independent contradictory evidence, EA preserves the qualifier as declared rather than established and the ICR records the route guarantee as conditional on producer honesty. Where contradictory independent evidence is supplied, EA preserves the conflict or indeterminacy rather than promoting the assertion. |
 
 Composition-Critical tests add at least one vector for each material condition present: a decision-basis/version change, an execution or commitment transition, competing directives over one resource-time segment, and re-entry after changed evidence, authority, dependency or validity.
+
+Where the route has more than one handoff, the fixture includes at least two intermediate hops and evaluates qualifier preservation, transformation and declared loss at each hop, not only end to end. Where a component aggregates two or more prior assertions, the fixture records the input-assertion count and any declared loss, collapse or change of dependency treatment. At least one claimed Level 2 route uses an independently operated producer; a simulated external source is recorded as such and cannot support a claim of established cross-boundary interoperability.
 
 ### A.5.3 Evaluate the handoff and return
 
 For each fixture, the reviewer checks:
 
+The named reviewer of an adapter mapping is distinct from that mapping's adapter/maintenance owner; the ICR records any remaining relationship that could affect the review.
+
 - **Input provenance.** Was every required input produced by the named component and attached to its native/profile semantics?
 - **Qualifier preservation.** Did scope, freshness, dependency, capacity, authority, validity/review and UNKNOWN survive the handoff where material?
+- **Dependency declaration.** Does each composed input distinguish established independence, known shared dependency, dependency not evaluated, or another stated relation/basis, rather than treating absence of a dependency finding as independence?
 - **EA interpretation.** Did EA preserve the distinction between local result, evidence appraisal, systemic assessment, operating posture and execution status?
 - **Output ownership.** Did the EA return identify a receiver and stay within assessment/requalification rather than grant, authorize or execute?
 - **Re-entry and feedback.** If the vector changes a material condition, does the return identify the exact re-entry target and can the later outcome be associated with the same decision/operation where required?
@@ -552,11 +565,17 @@ These are post-run measures for the ICR. They are not EHD fields, runtime KPIs o
 | UNKNOWN preservation | Material unavailable/limited qualifiers still explicit at the receiver ÷ material unavailable/limited qualifiers at the producer. |
 | Scope fidelity | Runs in which a receiving conclusion stays within the declared scope, known exclusions and dependency treatment ÷ applicable runs. |
 | Semantic mapping integrity | Mappings in which the receiver preserves the producer's result category and profile semantics ÷ mappings exercised. |
+| Hop-by-hop qualifier preservation | For every material qualifier in a chained route, the number of hops at which it remains interpretable, explicitly limited or explicitly lost ÷ applicable hops. The ICR reports each hop as well as the end-to-end result. |
+| Dependency-declaration completeness | Material composed inputs with an explicit dependency status and stated basis where independence or no dependency is claimed ÷ material composed inputs. `not evaluated` remains distinct from `no dependency detected`. |
+| Aggregation transparency | Aggregations in which input-assertion count, dependency treatment and declared transformation/loss remain reconstructible ÷ aggregations exercised. |
 | Re-entry traceability | Material changes that produce a specific, reachable re-entry reference and later outcome association ÷ applicable change vectors. |
 | Composition continuity | In composition-critical runs, required decision/operation, basis, conflict/precedence and parent-handoff relations retained and interpretable ÷ required relations. |
 | Boundedness observation | Relevant latency, retrieval/communication effort, human-review demand and disclosure burden, reported beside the fixture result. |
+| Horizon viability | Whether the observed route burden remains usable within the pre-declared MCA capacity basis and useful horizon; recorded as viable, non-viable or indeterminate for that declared route. |
 
 The plan records observed burden so that a semantically complete handoff is not accepted blindly when it consumes the response opportunity it is meant to protect. It does not prescribe one universal threshold; the declared mission, scope and MCA capacity basis determine materiality.
+
+Where fewer than five applicable vectors or relations are exercised, the ICR reports numerator and denominator as counts and does not present the resulting percentage as a rate estimate. Counts remain useful evidence; they are not statistical generalisation.
 
 ## A.7 Conformance findings
 
@@ -565,6 +584,7 @@ The quality conclusion is made **after** the run. It is not a runtime posture or
 | Finding | Meaning | Required follow-up |
 | --- | --- | --- |
 | **Sufficient for declared scope** | The ordinary EHD kernel or active generic interface set preserved every material qualifier and produced an owner-preserving EA return for the fixture. | Retain the ICR and repeat only when version, scope or material assumptions change. |
+| **Semantically sufficient, operationally non-viable for declared horizon** | Qualifiers and semantics were preserved, but the observed retrieval, communication, review or disclosure burden is not usable within the pre-declared MCA capacity basis or useful horizon. | Do not accept the route as sufficient for that decision; narrow the scope, change the route/profile or record the decision as limited and retest. |
 | **Sufficient with Composition-Critical Profile** | The ordinary kernel alone was not enough, but the optional profile preserved the material decision continuity, basis, conflict or re-entry relation. | Version-pin the profile and retain the associated fixtures. |
 | **Insufficient field expression** | A material fact exists at a named producer but cannot be expressed or interpreted through the active interface/profile. | Record the smallest candidate field addition, its producer and consumer; retest before changing the baseline. |
 | **Producer or receiver unavailable** | The required fact has no available producer, no identified receiving function or no responsible semantic owner. | Preserve UNKNOWN and mark the decision scope limited; do not infer a contract. |
@@ -578,6 +598,7 @@ The quality conclusion is made **after** the run. It is not a runtime posture or
 | **O1** mission/orchestration | Is the receiving decision, materiality, capacity basis and decision basis sufficiently declared? | Mission/context record, scope, decision/operation reference where material and EA return. |
 | **O2/O6** discovery and transport | Does discovery/transport preserve source, recipient, version and semantic handoff without becoming the truth owner? | Capability/profile reference, transport trace and EHD/profile mapping. |
 | **O3/O4/O5** runtime, context and action | Can local result, retrieval boundary, source dependence, tool outcome and re-entry be tied to the affected decision? | Local result, retrieval/tool traces, scope/freshness/dependency qualifiers and observed outcome. |
+| **F5 / intermediate aggregation boundary** | When two or more prior assertions are composed, can the receiver reconstruct their count, dependency treatment and any declared transformation or loss? | Ordered input assertions, aggregation output, input-assertion count, dependency declaration, transformation/loss declaration and hop-by-hop mapping. |
 | **IF-S1/IF-S2** identity and authority | Are identity/binding and applicable authority kept distinct, current and bounded? | Binding/grant references, validity/revocation condition and receiving scope. |
 | **IF-S3/IF-S4/IF-S5** assurance, policy and appraisal | Does EA preserve the distinction among attestation, appraisal, conformance, indeterminate and reference validity? | Native result, issuer relationship, policy/reference version, scope and limitation. |
 | **IF-S6/IF-S12** human capacity and response | Does a qualified assessment reach an owner with usable response capacity without treating approval or execution as new evidence? | Capacity/window, authority, actionability, execution result and revalidation link. |
@@ -595,6 +616,11 @@ The quality conclusion is made **after** the run. It is not a runtime posture or
 5. Any approved change is retested against the positive, boundary and rejection fixtures that exposed it, plus a no-regression ordinary-kernel fixture.
 6. Source profile, adapter and fixture changes are version-pinned. The named maintenance owner records whether the semantic mapping remains valid after a producer or consumer changes.
 
+7. Any approved change that affects a material asserted qualifier is also retested against the adversarial-assertion fixture that exposed it.
+8. The semantic owner freezes the material qualifier set before execution. Adding, removing or reducing a material qualifier between ICR versions is version-pinned, justified and retested; reducing the set is a registrable finding, not evidence of better preservation.
+9. An asserted source property remains declared unless its stated basis supports a stronger status. A fixture that depends on producer honesty records that limitation explicitly.
+10. A Level 2 claim is retained only when the ICR identifies an independently operated producer; otherwise the result is labelled simulated-boundary evidence.
+
 ## A.10 Decision on interface sufficiency
 
 The plan is complete for a declared component route when the relevant ICR set shows that:
@@ -606,5 +632,10 @@ The plan is complete for a declared component route when the relevant ICR set sh
 5. a material change can be connected to the appropriate re-entry and later outcome where the route requires it;
 6. the observed disclosure and operational burden remain visible against the declared MCA capacity and useful horizon; and
 7. any remaining failure is classified as an interface field gap, producer/receiver gap, nonconforming mapping or out-of-scope owner issue.
+8. the material qualifier set was frozen by its semantic owner before execution, and any later reduction is recorded and justified;
+9. any chained or aggregating route preserves or explicitly declares the loss of material qualifiers at each hop; and
+10. any claimed Level 2 result identifies an independently operated producer, or is limited to simulated-boundary evidence.
+11. any material asserted qualifier was exercised against an adversarial-assertion fixture, or the route guarantee is explicitly conditional on the declared basis; and
+12. a route classified as operationally non-viable is not accepted as sufficient for the declared horizon.
 
 This conclusion answers a narrow but necessary question: **whether the interfaces are sufficient for the declared EA test route.** It does not prove that EA is effective for every ecosystem, that all components interoperate without adapters, or that the underlying business/operational decision is correct.
