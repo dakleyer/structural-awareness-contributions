@@ -178,7 +178,7 @@ Transport preserves and conveys information. It does not determine the truth of 
 
 &nbsp;
 
-## S1 — Identity, Authentication & Principal Binding
+## IF-S1 — Identity, Authentication & Principal Binding
 
 Generic role
 
@@ -226,7 +226,7 @@ Identity is evidence about the actor/binding; it does not predict behaviour and 
 
 &nbsp;
 
-## S2 — Provenance of Authority, Delegation & Authorization
+## IF-S2 — Provenance of Authority, Delegation & Authorization
 
 Generic role
 
@@ -282,7 +282,7 @@ EA consumes authority state. It does not originate a grant or decide legal stand
 
 &nbsp;
 
-## S3 — Remote Attestation & Runtime / Interaction Assurance
+## IF-S3 — Remote Attestation & Runtime / Interaction Assurance
 
 Generic role
 
@@ -336,7 +336,7 @@ A valid Attestation Result establishes what the verifier vouches for under its a
 
 &nbsp;
 
-## S4 — Policy / Intent Expression & Runtime Conformance
+## IF-S4 — Policy / Intent Expression & Runtime Conformance
 
 Generic role
 
@@ -394,7 +394,7 @@ A conformance verdict answers whether observed/action behaviour conforms to a re
 
 &nbsp;
 
-## S5 — Evidence Appraisal & Verifier-Side Failure Semantics
+## IF-S5 — Evidence Appraisal & Verifier-Side Failure Semantics
 
 Generic role
 
@@ -444,7 +444,7 @@ Evidence-side failure and action-side indeterminate remain different semantic ca
 
 &nbsp;
 
-## S6 — Human Oversight & Intervention Capacity
+## IF-S6 — Human Oversight & Intervention Capacity
 
 Generic role
 
@@ -500,7 +500,7 @@ Human oversight owns human capacity and intervention. EA consumes human-capacity
 
 &nbsp;
 
-## S7 — Observability, Telemetry, Evaluation & Drift
+## IF-S7 — Observability, Telemetry, Evaluation & Drift
 
 Generic role
 
@@ -558,7 +558,7 @@ EA interprets the epistemic significance of telemetry. It does not replace the t
 
 &nbsp;
 
-## S8 — Accountability, Attribution & Verifiable Action Records
+## IF-S8 — Accountability, Attribution & Verifiable Action Records
 
 Generic role
 
@@ -610,7 +610,7 @@ The record preserves evidence for reconstruction. It does not itself prove that 
 
 &nbsp;
 
-## S9 — External / Population-Level Evaluation
+## IF-S9 — External / Population-Level Evaluation
 
 Generic role
 
@@ -664,7 +664,7 @@ Population size can reduce sampling uncertainty but does not automatically remov
 
 &nbsp;
 
-## S10 — Privacy & Minimum Disclosure
+## IF-S10 — Privacy & Minimum Disclosure
 
 Generic role
 
@@ -710,4 +710,4 @@ Privacy can legitimately limit what EA learns. The correct consequence is bounde
 
 &nbsp;
 
-## S11 — Ecosystem Signa
+## IF-S11 — Ecosystem Signa

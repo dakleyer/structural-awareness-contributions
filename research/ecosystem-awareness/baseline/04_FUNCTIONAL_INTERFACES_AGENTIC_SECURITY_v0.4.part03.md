@@ -6,7 +6,7 @@ Distributes, amends/corroborates and correlates ecosystem-relevant signals; repr
 
 &nbsp;
 
-Optional S11 Ecosystem Signalling Capability Profile. Where a signalling mechanism can expose stable capability semantics, S11 may make available a versioned profile describing signalling properties it declares or that have been externally established. The profile is evidence about the mechanism, not the EA qualification itself. The candidate inventory is grouped below for scanning; the list remains open and each property remains conditional on decision relevance.
+Optional IF-S11 Ecosystem Signalling Capability Profile. Where a signalling mechanism can expose stable capability semantics, IF-S11 may make available a versioned profile describing signalling properties it declares or that have been externally established. The profile is evidence about the mechanism, not the EA qualification itself. The candidate inventory is grouped below for scanning; the list remains open and each property remains conditional on decision relevance.
 
 &nbsp;
 
@@ -86,11 +86,11 @@ F4, F5, F6, F7, F8, F9.
 
 Boundary
 
-Signal infrastructure carries and correlates claims. EA assesses what those claims justify epistemically. Signal exchange does not create authority. The current FG-TIDA Theme \#13 / incident-signal-and-blast-radius direction is therefore a concrete S11 peer capability that EA can consume rather than reproduce. EA may also be required when no incident or malicious agent exists—for example, when honest locally correct subsystems remain epistemically fragmented at composition level—so S11 is an important interface, not the semantic boundary of Ecosystem Awareness. EA does not rank or certify S11 mechanisms globally. It qualifies the sufficiency of an available route for a stated decision and preserves the distinction between declared mechanism properties and independently supported properties.
+Signal infrastructure carries and correlates claims. EA assesses what those claims justify epistemically. Signal exchange does not create authority. The current FG-TIDA Theme \#13 / incident-signal-and-blast-radius direction is therefore a concrete IF-S11 peer capability that EA can consume rather than reproduce. EA may also be required when no incident or malicious agent exists—for example, when honest locally correct subsystems remain epistemically fragmented at composition level—so IF-S11 is an important interface, not the semantic boundary of Ecosystem Awareness. EA does not rank or certify IF-S11 mechanisms globally. It qualifies the sufficiency of an available route for a stated decision and preserves the distinction between declared mechanism properties and independently supported properties.
 
 &nbsp;
 
-## S12 — Enforcement, Containment, Revocation, Recovery & Migration
+## IF-S12 — Enforcement, Containment, Revocation, Recovery & Migration
 
 Generic role
 
@@ -146,7 +146,7 @@ EA identifies the epistemic need and target. Enforcement/recovery functions own 
 
 &nbsp;
 
-## S13 — Trust Framework / Assurance Mapping / Jurisdictional Context
+## IF-S13 — Trust Framework / Assurance Mapping / Jurisdictional Context
 
 Generic role
 
@@ -200,57 +200,57 @@ EA does not create jurisdictional policy or a global trust authority.
 
 ## Embodied-system binding
 
-For robotics/embodied AI, the trust interface may additionally bind logical agent, runtime/controller, physical device and authority. Relevant inputs include binding identity, device/runtime attestation, binding freshness, control-transfer state and physical-action attribution. These specialize S1, S2, S3 and S8 rather than creating a new EA core function.
+For robotics/embodied AI, the trust interface may additionally bind logical agent, runtime/controller, physical device and authority. Relevant inputs include binding identity, device/runtime attestation, binding freshness, control-transfer state and physical-action attribution. These specialize IF-S1, IF-S2, IF-S3 and IF-S8 rather than creating a new EA core function.
 
 &nbsp;
 
 ## Model-level trust and lineage
 
-Model identity/version, training/lineage claims, adaptation state and model-level assurance can enter through S3 attestation, S7 evaluation/drift and S8 records. A lineage or provenance claim is evidence; it does not by itself establish behaviour.
+Model identity/version, training/lineage claims, adaptation state and model-level assurance can enter through IF-S3 attestation, IF-S7 evaluation/drift and IF-S8 records. A lineage or provenance claim is evidence; it does not by itself establish behaviour.
 
 &nbsp;
 
 ## Credential / wallet / secret / confidential execution
 
-Credential vaults, wallets, key stores and confidential-computing mechanisms support S1 identity/authentication, S2 authorization and S3 runtime assurance. EA should consume only their assurance/availability/validity state, never secret material.
+Credential vaults, wallets, key stores and confidential-computing mechanisms support IF-S1 identity/authentication, IF-S2 authorization and IF-S3 runtime assurance. EA should consume only their assurance/availability/validity state, never secret material.
 
 &nbsp;
 
 # 7\. Interface completeness against F1–F9
 
-F1 Mission & Decision Context Qualification consumes principally O1, S2, S6, S10, S12 and S13. In v0.2 O1 supplies the mission-side ecosystem sensitivity/exposure, consequence/reversibility and available observation/determination-budget context; S6 and S12 contribute effective human and response capacity.
+F1 Mission & Decision Context Qualification consumes principally O1, IF-S2, IF-S6, IF-S10, IF-S12 and IF-S13. In v0.2 O1 supplies the mission-side ecosystem sensitivity/exposure, consequence/reversibility and available observation/determination-budget context; IF-S6 and IF-S12 contribute effective human and response capacity.
 
 &nbsp;
 
-F2 Decision-Relevant Window Qualification & Management consumes principally O2, O4, O6, S7, S10 and S11. It combines F1’s sensitivity/risk basis with source availability, retrieval/instrumentation burden, privacy limits and freshness to maintain W(d,t). When F2.APQ is invoked, S13 contributes assurance/trust-framework context where material; O5 contributes direct tool/API/resource pathway state when a tool or API is itself the acquisition path; and S6 contributes human-channel availability/information-scope/response-window state when human reporting or review is itself the acquisition path. Equivalent pathway descriptions may be mediated through O2/O4/F1, but the mediation remains explicit. No new O/S family is required.
+F2 Decision-Relevant Window Qualification & Management consumes principally O2, O4, O6, IF-S7, IF-S10 and IF-S11. It combines F1’s sensitivity/risk basis with source availability, retrieval/instrumentation burden, privacy limits and freshness to maintain W(d,t). When F2.APQ is invoked, IF-S13 contributes assurance/trust-framework context where material; O5 contributes direct tool/API/resource pathway state when a tool or API is itself the acquisition path; and IF-S6 contributes human-channel availability/information-scope/response-window state when human reporting or review is itself the acquisition path. Equivalent pathway descriptions may be mediated through O2/O4/F1, but the mediation remains explicit. No new O/S family is required.
 
 &nbsp;
 
-F3 Local Epistemic State Qualification consumes principally O3, O4, O5, S4, S5, S6 and S7.
+F3 Local Epistemic State Qualification consumes principally O3, O4, O5, IF-S4, IF-S5, IF-S6 and IF-S7.
 
 &nbsp;
 
-F4 External Epistemic Signal Qualification consumes principally O2, O6, S1, S3, S4, S5, S8, S9, S11 and S13.
+F4 External Epistemic Signal Qualification consumes principally O2, O6, IF-S1, IF-S3, IF-S4, IF-S5, IF-S8, IF-S9, IF-S11 and IF-S13.
 
 &nbsp;
 
-F5 Scope-Indexed Epistemic Composition & Coupling Assessment consumes all qualified local/external states and especially dependency/provenance information from S2, S3, S8, S9 and S11.
+F5 Scope-Indexed Epistemic Composition & Coupling Assessment consumes all qualified local/external states and especially dependency/provenance information from IF-S2, IF-S3, IF-S8, IF-S9 and IF-S11.
 
 &nbsp;
 
-F6 Systemic Epistemic & Operating-Frame Assessment consumes F5 plus mission/criticality and ecosystem-sensitivity/exposure from O1/F1, observation/determination burden from F2/O4/S7, human capacity from S6, response capability from S12 and applicable trust-frame assumptions from S13.
+F6 Systemic Epistemic & Operating-Frame Assessment consumes F5 plus mission/criticality and ecosystem-sensitivity/exposure from O1/F1, observation/determination burden from F2/O4/IF-S7, human capacity from IF-S6, response capability from IF-S12 and applicable trust-frame assumptions from IF-S13.
 
 &nbsp;
 
-F7 Requalification & Corrective Directive Generation targets O1, O3, O4, O5, S1–S7, S9, S11, S12 and S13 according to the affected domain. It does not broadcast generic “add control” requests.
+F7 Requalification & Corrective Directive Generation targets O1, O3, O4, O5, IF-S1–IF-S7, IF-S9, IF-S11, IF-S12 and IF-S13 according to the affected domain. It does not broadcast generic “add control” requests.
 
 &nbsp;
 
-F8 Epistemic Statement & Envelope Generation publishes through O6, S8 and S11, subject to S10 privacy/minimum-disclosure constraints.
+F8 Epistemic Statement & Envelope Generation publishes through O6, IF-S8 and IF-S11, subject to IF-S10 privacy/minimum-disclosure constraints.
 
 &nbsp;
 
-F9 Outcome Feedback & Revalidation consumes O3/O5 execution results, S6 intervention outcomes, S7 telemetry/evaluation, S8 records, S11 resolution/correction signals and S12 containment/recovery/migration outcomes.
+F9 Outcome Feedback & Revalidation consumes O3/O5 execution results, IF-S6 intervention outcomes, IF-S7 telemetry/evaluation, IF-S8 records, IF-S11 resolution/correction signals and IF-S12 containment/recovery/migration outcomes.
 
 &nbsp;
 
@@ -272,11 +272,11 @@ For a simple local agent, the minimum may be:
 
 \- O4/O5 context and tool state where used;
 
-\- S2 authority state where actions are delegated;
+\- IF-S2 authority state where actions are delegated;
 
-\- S7 outcome/telemetry;
+\- IF-S7 outcome/telemetry;
 
-\- S12 available response capability.
+\- IF-S12 available response capability.
 
 &nbsp;
 
@@ -284,29 +284,29 @@ For an interoperating multi-agent security system, the minimum expands to includ
 
 \- O2/O6 discovery and task/message transport;
 
-\- S1 identity/authentication;
+\- IF-S1 identity/authentication;
 
-\- S2 authority provenance;
+\- IF-S2 authority provenance;
 
-\- S3 attestation where runtime assurance matters;
+\- IF-S3 attestation where runtime assurance matters;
 
-\- S4 conformance verdicts;
+\- IF-S4 conformance verdicts;
 
-\- S5 appraisal semantics;
+\- IF-S5 appraisal semantics;
 
-\- S6 human-capacity state where humans are in the control path;
+\- IF-S6 human-capacity state where humans are in the control path;
 
-\- S8 verifiable records;
+\- IF-S8 verifiable records;
 
-\- S10 privacy/minimum disclosure;
+\- IF-S10 privacy/minimum disclosure;
 
-\- S11 ecosystem signal exchange;
+\- IF-S11 ecosystem signal exchange;
 
-\- S12 enforcement/containment/recovery.
+\- IF-S12 enforcement/containment/recovery.
 
 &nbsp;
 
-S9 population evaluation and S13 cross-domain trust mapping are activated when the problem requires those scales. They are not universal mandatory dependencies.
+IF-S9 population evaluation and IF-S13 cross-domain trust mapping are activated when the problem requires those scales. They are not universal mandatory dependencies.
 
 &nbsp;
 
@@ -354,6 +354,8 @@ When an interface cannot establish a qualifier, Ecosystem Awareness preserves th
 
 # 10\. Alignment with current external architectures
 
+**Evidence status — source snapshot: 18 September 2026 (UTC).** The mappings below are **E4 market/standard evidence** in the sense of [00D's evidence-grade definition](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#3-evidence-grades): they support only the documented scope or capability of the named specification, public product/documentation source or current FG-TIDA working direction. They do not establish adoption, universal interoperability, interface completeness or EA effectiveness.
+
 Operational plane
 
 Current A2A specifications provide concrete concepts for Agent Cards, discovery, capabilities/skills, authentication requirements, tasks, messages, artifacts, task status and extensions. These fit O2 and O6 directly.
@@ -364,13 +366,13 @@ Current MCP specifications expose resources, prompts and tools, and client-side 
 
 &nbsp;
 
-OpenTelemetry GenAI semantic conventions increasingly expose agent invocation, model calls, retrieval and tool execution as standardized telemetry operations. These fit S7.
+OpenTelemetry GenAI semantic conventions increasingly expose agent invocation, model calls, retrieval and tool execution as standardized telemetry operations. These fit IF-S7.
 
 &nbsp;
 
 Trust/security plane
 
-RFC 9334 RATS gives a mature generic architecture for Attester → Evidence → Verifier → Attestation Result → Relying Party, fitting S3/S5.
+RFC 9334 RATS gives a mature generic architecture for Attester → Evidence → Verifier → Attestation Result → Relying Party, fitting IF-S3/IF-S5.
 
 &nbsp;
 

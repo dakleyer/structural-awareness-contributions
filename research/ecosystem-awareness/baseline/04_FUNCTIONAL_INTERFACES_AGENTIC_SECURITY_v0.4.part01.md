@@ -6,7 +6,7 @@
 
 # Status and purpose
 
-This document defines the external functional interfaces required by the Ecosystem Awareness architecture. The nine internal functions F1–F9 remain the fixed functional set. v0.4 preserves O1–O6 and S1–S13 exactly as the interface taxonomy, preserves the v0.2 risk/sensitivity and finite-capacity qualification, and adds the validation-gated acquisition-pathway/profile semantics required by F2.APQ. No O7, S14 or new mandatory producer family is introduced.
+This document defines the external functional interfaces required by the Ecosystem Awareness architecture. The nine internal functions F1–F9 remain the fixed functional set. v0.4 preserves O1–O6 and IF-S1–IF-S13 exactly as the interface taxonomy, preserves the v0.2 risk/sensitivity and finite-capacity qualification, and adds the validation-gated acquisition-pathway/profile semantics required by F2.APQ. No O7, IF-S14 or new mandatory producer family is introduced. `IF-S#` is an unambiguous namespace prefix only; it does not change any interface family, payload or ownership boundary.
 
 Status boundary. This is an internal working architecture and research object. It is not an ITU-T deliverable, not evidence of FG-TIDA adoption, and not a standards-body endorsement or implementation claim.
 
@@ -18,7 +18,7 @@ The model is technology-neutral. It deliberately aligns with common agentic arch
 
 &nbsp;
 
-The bilateral Theme-specific mappings are maintained separately in “Ecosystem Awareness — Provisional Cross-Theme Interface Contracts — v0.4”. Those contracts are discussion artifacts derived from this interface model; they do not modify O1–O6 or S1–S13 unless later Use Case/testbed evidence exposes a real interface gap.
+The bilateral Theme-specific mappings are maintained separately in “Ecosystem Awareness — Provisional Cross-Theme Interface Contracts — v0.4”. Those contracts are discussion artifacts derived from this interface model; they do not modify O1–O6 or IF-S1–IF-S13 unless later Use Case/testbed evidence exposes a real interface gap.
 
 &nbsp;
 
@@ -182,7 +182,7 @@ The descriptor may be partial. “Unknown” is a valid value. Silent substituti
 
 &nbsp;
 
-Risk/capacity allocation fields are conditional rather than universal producer requirements. Ecosystem sensitivity/exposure, consequence severity, tolerated residual and observation/determination budget normally originate from the mission/context side through O1/F1. A Theme-specific producer should carry such fields only when it actually owns or observes them, for example human-capacity state from S6, measurement burden from S7 or response capability from S12.
+Risk/capacity allocation fields are conditional rather than universal producer requirements. Ecosystem sensitivity/exposure, consequence severity, tolerated residual and observation/determination budget normally originate from the mission/context side through O1/F1. A Theme-specific producer should carry such fields only when it actually owns or observes them, for example human-capacity state from IF-S6, measurement burden from IF-S7 or response capability from IF-S12.
 
 &nbsp;
 
@@ -210,33 +210,33 @@ O6 Task, Message, Artifact & Inter-Agent Transport
 
 Trust & Security Plane
 
-Within this document, `S1–S13` means Functional Interface families. DAOS Challenge identifiers use a separate namespace and are referred to as `CH-S#` only in cross-layer maps. No Interface S14 is created.
+Namespace rule. `IF-S1–IF-S13` denotes Functional Interface families in this document. `CH-S#` denotes preserved DAOS challenge identifiers in cross-layer maps. `REQ-S1–REQ-S14` denotes the canonical solution challenges in [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). No Interface `IF-S14` is created.
 
-S1 Identity, Authentication & Principal Binding
+IF-S1 Identity, Authentication & Principal Binding
 
-S2 Provenance of Authority, Delegation & Authorization
+IF-S2 Provenance of Authority, Delegation & Authorization
 
-S3 Remote Attestation & Runtime / Interaction Assurance
+IF-S3 Remote Attestation & Runtime / Interaction Assurance
 
-S4 Policy / Intent Expression & Runtime Conformance
+IF-S4 Policy / Intent Expression & Runtime Conformance
 
-S5 Evidence Appraisal & Verifier-Side Failure Semantics
+IF-S5 Evidence Appraisal & Verifier-Side Failure Semantics
 
-S6 Human Oversight & Intervention Capacity
+IF-S6 Human Oversight & Intervention Capacity
 
-S7 Observability, Telemetry, Evaluation & Drift
+IF-S7 Observability, Telemetry, Evaluation & Drift
 
-S8 Accountability, Attribution & Verifiable Action Records
+IF-S8 Accountability, Attribution & Verifiable Action Records
 
-S9 External / Population-Level Evaluation
+IF-S9 External / Population-Level Evaluation
 
-S10 Privacy & Minimum Disclosure
+IF-S10 Privacy & Minimum Disclosure
 
-S11 Ecosystem Signal / Incident Exchange & Defence
+IF-S11 Ecosystem Signal / Incident Exchange & Defence
 
-S12 Enforcement, Containment, Revocation, Recovery & Migration
+IF-S12 Enforcement, Containment, Revocation, Recovery & Migration
 
-S13 Trust Framework / Assurance Mapping / Jurisdictional Context
+IF-S13 Trust Framework / Assurance Mapping / Jurisdictional Context
 
 &nbsp;
 
