@@ -6,7 +6,7 @@
 
 **Related but separate mobility case:** [TIDA — Delegated Authority OS under Context Change, Annex I](../../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/02_ANNEX_I_Minimal_Operational_Case.md). That case supplies bounded authority, commitment and action-time distinctions. The fictional multi-actor event below is a new EA reference failure scenario; it does not add facts to the TIDA parent case.
 
-**Companion requirements:** [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md).
+**Companion requirements and bidirectional traceability:** [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). The requirements document defines the terms used below; this scenario is a concrete source of failure mechanisms and quality-plan pressure for the selected routes. Its Q0–Q5 gates make the same route inspectable as `scope → S# → T# → H# → KPI → disposition`. It does not redefine the canonical requirements or create another challenge set.
 
 **Benchmark and plausibility evidence:** [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) maps this scenario to controlled traffic experiments and officially investigated transport/network occurrences, with explicit limits. It does not claim that the fictional A/B/NORMAL/HOLD event occurred historically.
 
@@ -155,7 +155,7 @@ EA assesses and requests requalification. It does not create municipal authority
 
 ## 8. Two routes through the same event
 
-### 8.1 Route N — no ecosystem-level qualification
+### 8.1 Route N — requirements not satisfied for the event
 
 | Step | Local behaviour | Gate result | Propagated consequence |
 | --- | --- | --- | --- |
@@ -168,7 +168,7 @@ EA assesses and requests requalification. It does not create municipal authority
 
 Within the declared fixture, mixed-mode divergence follows from bypassing Q2/Q3 after the incompatible postures are observable. The exact physical harm is not deterministic and must not be claimed as inevitable.
 
-### 8.2 Route Q — requirements-conforming quality plan
+### 8.2 Route Q — requirements satisfied for the event
 
 | Step | Quality-plan behaviour | Gate result | What moves forward |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ The quality route does not need to know the whole city or forecast the exact inc
 
 The case tests whether a candidate architecture improves the common outcome vector under the same actors, telemetry, event sequence, compute, communication, human capacity and deadlines.
 
-The EA-enabled route must be non-inferior on normal-operation branches and should reduce incompatible-posture exposure, false continuation/containment, emergency-access delay or total burden on declared regime-change branches. The claimed differential is narrowed or falsified if a strong peer without equivalent EA semantics achieves the same or better posture correctness, timeliness, residual trace, authorised response and burden.
+The `Route Q` candidate must be non-inferior on normal-operation branches and should reduce incompatible-posture exposure, false continuation/containment, emergency-access delay or total burden on declared regime-change branches. The claimed differential is narrowed or falsified if a strong peer without equivalent EA semantics achieves the same or better posture correctness, timeliness, residual trace, authorised response and burden.
 
 The case does not test universal emergency prediction, city-wide command, legal authority creation or perfect knowledge of `R_U`. It preserves literal non-observability as a foundational Type-0 boundary, but the operational test does not require runtime proof of that classification: it tests whether unresolved limits are managed rather than hidden.
 

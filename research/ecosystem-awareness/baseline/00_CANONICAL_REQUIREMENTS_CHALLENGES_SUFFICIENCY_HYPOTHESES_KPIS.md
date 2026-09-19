@@ -13,7 +13,9 @@ The canonical reading sequence is:
 3. **This document:** the complete challenge set, the sufficiently-good conditions, the research hypotheses and their KPIs.
 4. [Topology and architecture](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), then functions and interfaces: how EA is proposed to meet the requirements.
 
-The source case uses `T0 → T1 → T2`: a basis is established, a commitment relies on it, and a material condition changes or becomes insufficiently established. In this document, **T1–T4 are condition identifiers**, not those case times.
+The DAOS source case uses `T0 → T1 → T2`: a basis is established, a commitment relies on it, and a material condition changes or becomes insufficiently established. In this document, **T1–T4 are condition identifiers**, not those case times.
+
+**Bidirectional provenance and reference-scenario application.** DAOS is one concrete source of the challenge taxonomy. The [100-million-token reference failure scenario](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) and the [smart-city mobility reference failure scenario](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) are additional concrete sources of failure mechanisms and quality-plan pressure for the same canonical requirements. They do not create a second challenge set or alter S1–S14, T1–T4, H1–H6 or the KPI protocol. Instead, each scenario makes a selected route explicit in both directions: a declared scope and failure mechanism identify the applicable `S# → T# → H# → KPI → gate disposition`; the canonical requirements determine what a requirements-conforming route must preserve, test and report in that scenario. The scenario documents retain their own facts, gates and outcome measures.
 
 ### 1.1 Common language for every challenge, hypothesis and KPI
 

@@ -6,7 +6,7 @@
 
 **Product-implementation annexes:** [00E-A01 — Microsoft Agent 365 implementation profile](./00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.1.md) and [00E-A02 — LangGraph/LangSmith implementation profile](./00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.1.md) separate documented platform capabilities, implementation-dependent mitigation and the additional EA controls needed to execute Q0–Q5, including excellent implementations stressed by a latent regime change. They are not product benchmarks or negative product assessments.
 
-**Companion requirements:** [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). The requirements document defines the terms used below; this document does not redefine them.
+**Companion requirements and bidirectional traceability:** [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). The requirements document defines the terms used below; this scenario is a concrete source of failure mechanisms and quality-plan pressure for the selected routes. Its Q0–Q5 gates make the same route inspectable as `scope → S# → T# → H# → KPI → disposition`. It does not redefine the canonical requirements or create another challenge set.
 
 **Benchmark and plausibility evidence:** [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) maps this scenario to formal, experimental and officially investigated analogues, with explicit limits. It does not recast the fictional token total as an observed incident.
 
@@ -258,9 +258,9 @@ The relevant scopes are separate material subject–proposition–decision bound
 
 ## 7. Integrated quality plan
 
-### 7.1 Meaning of “with Ecosystem Awareness” in this test
+### 7.1 Meaning of the requirements-conforming candidate (`Route Q`) in this test
 
-“With Ecosystem Awareness” does not name a finished product, vendor implementation or proven market capability. In this quality plan it means only **a candidate architecture that follows the foundation principles and satisfies the applicable canonical S1–S14, T1–T4, H1–H6 and KPI tests for each declared scope**.
+`Route Q` does not name a finished EA product, vendor implementation or proven market capability. In this quality plan it means only **a candidate architecture that follows the foundation principles and satisfies the applicable canonical S1–S14, T1–T4, H1–H6 and KPI tests for each declared scope**.
 
 The controlled routes are therefore:
 
@@ -370,7 +370,7 @@ This trace is understandable in both directions. Read downward, it shows how byp
 
 ## 8. The two routes through the same company
 
-### 8.1 Route N — without satisfaction of the requirements
+### 8.1 Route N — requirements not satisfied for the run
 
 | Gate | Agentic behaviour | Gate result | What becomes inevitable under the fixture's branch conditions |
 | --- | --- | --- | --- |
@@ -383,7 +383,7 @@ This trace is understandable in both directions. Read downward, it shows how byp
 
 Within this deliberately constructed branch, the terminal HOLD is not a mysterious model failure. It follows from the gate history: the decision basis was compressed at Q1, could not be reconstructed at Q2, was expanded speculatively at Q3 and was subjected to an impossible completeness criterion at Q4. The plan does not claim that every non-conforming system must spend exactly 100 million tokens or reach the same commercial outcome.
 
-### 8.2 Route Q — with satisfaction of the requirements
+### 8.2 Route Q — requirements satisfied for the run
 
 | Gate | Agentic behaviour | Gate result | What is passed onward |
 | --- | --- | --- | --- |

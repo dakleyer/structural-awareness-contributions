@@ -18,6 +18,7 @@ For an industrial or research reader evaluating the proposition from first princ
    - [00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile](./00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.1.md): the second smart-city technology annex. It compares a standard IoT/digital-twin/event implementation, a top governed and monitored implementation and that same implementation after a hidden dependency, timestamp-semantic and model-validity pivot. It keeps safety actuation outside TwinMaker in accordance with the documented product boundary and tests T1/H5 and T2/T4/H2/H4/H6. It is neither a benchmark nor a claim that AWS technology causes the failure.
 5. [Concrete candidate architecture — 00 topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), followed by 01–05 below: EA's specific conceptual, functional and interface design.
 6. [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md): the single benchmark route. It integrates EA-H1–EA-H4, B0–B3 fair comparison, existing agent benchmarks and primary-source corroboration of the mechanisms in 00E/00F. It distinguishes formal results, controlled experiments, investigated occurrences and market/standard evidence, and states exactly what each source does and does not establish.
+   - [00D-A01 — Reference-Scenario Test Artifacts and Bounded Reference-Oracle Proof Sketch](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md): companion evidence-design annex for readers who need to turn the fictional scenarios into reproducible fixtures. Its traceability matrix, bounded deterministic oracle, controls and Stage 0–2 progression make the already-declared regime-change/residual boundary testable rather than implicit. It is a plan for test construction, not an executed testbed, validation or claim that EA has passed.
 
 Across this route, Type 1 and Type 2 remain the only operational management-failure classes. False convergence, incompatible divergence, defensive `UNKNOWN`, qualifier saturation, induced doubt, oscillation and cascade are recorded as mechanisms, transitions or consequences and are measured through the existing H1–H6 and KPI route rather than promoted to new types or hypotheses.
 
@@ -28,6 +29,8 @@ The document in step 2 is the only canonical requirements document in this route
 ## Canonical architecture benchmark and empirical corroboration
 
 [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) is the sole current benchmark in this reader route. It conserves the prior market comparison and EA-H1–EA-H4, adds a matched B3 EA arm and records empirical support and limits for the mechanisms in 00E/00F. The former 00D v0.1 and 07 working files are preserved non-canonical predecessors, not alternative current benchmarks.
+
+Read its [00D-A01 reference-scenario test-artifacts annex](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md) before treating 00E/00F as a future executable test programme. It makes the declared fixture boundary, controls and falsifiers explicit; it does not add a benchmark result.
 
 ## Canonical architecture topology
 
@@ -65,6 +68,8 @@ Start with the [DAOS→EA engineering masterclass](./DAOS_EA_USE_CASES_MASTERCLA
 4. [UC-EA-04 — scope-indexed composition](./UC-EA-04_v0.5_MAINTENANCE_FREEZE.md): local validity versus system support, source dependence and wrong-domain compensation.
 
 [EA-ITP-01](./EA-ITP-01_v0.1_FROZEN.md) is a separate EHD/Theme #13 interoperability test, not a fifth UC or F10. These are **architecture-validation profiles, not four FG-TIDA Use Case submissions**. Their [prior ordered source parts](./UC-EA-01_v0.3_FROZEN.part01.md) and [validation reading note](./VALIDATION_PROFILE_READING_NOTE.md) remain for publication traceability; the [manifest](./CANONICAL_CORPUS_MANIFEST.md) records status and verification limits.
+
+The [Use-Case Portfolio — Canonical Requirements Coverage Map](./USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) is the requirements-first annex for this family. It maps S1–S14 and their T/H/KPI routes to the four profiles, EA-ITP-01 and 00E/00F; distinguishes direct EA validation from external-owner boundary coverage; and identifies the next non-redundant validation workbook. It does not modify the frozen profiles or turn them into FG-TIDA submissions.
 
 ## Research lineage
 
