@@ -45,6 +45,10 @@ The controlled baseline is complete in Google Drive. All six are now publicly pr
 
 **Historic source-status boundary:** `baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md` retains the source document's original “Private working specification for collaborative discussion” wording. The mirror is now public, but that wording has not been silently rewritten in the frozen text. Public availability does not imply FG-TIDA adoption or a new source-status determination.
 
+## A.4a Current FG-TIDA interface and conformance bridge (outside the controlled release baseline)
+
+- [`baseline/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md`](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md) — additive public working companion to the unchanged 05 ideal contract. It fixes a dated public-source snapshot and distinguishes current Theme-owned state, candidate cross-Theme fields and test-only conformance evidence; it applies the 04 Appendix A ICR discipline to bounded UC #4 adapter/fixture routes. It is not a modification of 05, an adopted FG-TIDA contract, a common wire schema, completed interoperability validation or a new control layer.
+
 ## A.5 Canonical universal test document and canonical working benchmark (outside the controlled release baseline)
 
 - [`baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md`](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) — the sole canonical requirements document in the current reader route: complete S1–S14 challenge taxonomy, T1–T4 sufficiently-good conditions, foundational H1–H6 and their KPI/falsification protocol. It is not an EA differential or a market result.
