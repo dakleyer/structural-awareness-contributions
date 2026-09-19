@@ -10,7 +10,7 @@
 
 The harness asks one narrow question:
 
-> When two reports carry a declared common upstream source, does a configuration preserve that dependency, avoid calling them independent corroboration, preserve the affected residual and issue a bounded qualified posture?
+> When two reports carry either a declared or a derivable common upstream source, does a configuration preserve that dependency, avoid calling them independent corroboration, preserve the affected residual and issue a bounded qualified posture?
 
 The fixture family contains three branches. **P1** gives both reports the same received `upstream_source_id=P`; it is a preservation and instrumentation branch, not an expected discriminator. **P2** gives A `feed-7` and B `vendor-X`, while a frozen source registry available equally to every configuration resolves both to `P`; it is the discriminating composition branch. **C0** gives distinct roots `P_A` and `P_B` as the negative control. All branches carry the same proposition, scope, deadline and resource envelope. The registry is a declared context resource, not a primary-source re-query. This family does not claim that the harness discovers every hidden dependency in an open ecosystem.
 
@@ -37,8 +37,6 @@ The smallest viable demonstration is therefore a **deterministic harness**, not 
 ## 3. Fixture family and frozen branch model
 
 This is one fixture family under 00D-A01 §3: P1, P2 and C0 use one pre-registration, one public pre-execution commit and one completed evaluation. A run omitting any branch is incomplete, not a positive result. The family is declared **facts self-declared**. It is also **comparator self-configured** unless the later pre-registration names a B1 comparator defender; without that defender no differential conclusion is permitted.
-
-The primary and control branch are one fixture family under the rule in 00D-A01 §3. The later pre-registration publishes them together and no primary-only execution is interpretable.
 
 ### 3.1 Shared envelope
 
@@ -145,10 +143,12 @@ A minimal file layout is:
 
 ```text
 fixtures/RS-00E-Q1a/
-  frozen_facts.primary.json
-  frozen_facts.control.json
-  oracle.primary.json
-  oracle.control.json
+  frozen_facts.p1.json
+  frozen_facts.p2.json
+  frozen_facts.c0.json
+  oracle.p1.json
+  oracle.p2.json
+  oracle.c0.json
   gate_policy.json
   pre_registration.md                 # created and committed before execution
 harness/
@@ -167,7 +167,7 @@ This is a proposed implementation layout, not a claim that these files or module
 
 ## 6. Candidate contract and fairness
 
-Each adapter receives the same `report_id`, proposition, scope, freshness, producer ID, `upstream_source_id`, deadline and resource ledger. No arm receives extra evidence, authority, time, reviewers or source re-query.
+Each adapter receives the same `report_id`, proposition, scope, freshness, producer ID, `upstream_source_id`, deadline, frozen source-registry access and resource ledger. No arm receives extra evidence, authority, time, reviewers or source re-query.
 
 The candidate must emit:
 
@@ -217,6 +217,8 @@ A result is interpreted separately:
 | B1 lacks a defensible configuration. | Descriptive configuration finding only; no EA differential claim. |
 
 ## 8. Mandatory Step 0: harness self-tests
+
+### 8.1 Qualifier-loss instrumentation self-test
 
 Before a candidate run, the harness deliberately removes `upstream_source_id` from a named adapter handoff in P1.
 
