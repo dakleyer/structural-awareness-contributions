@@ -72,6 +72,10 @@ These are public working cases, not additional frozen baseline documents, real i
 
 - [`baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md`](./USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) — additive public working annex that starts from the canonical S1–S14 / T1–T4 / H1–H6 / KPI route and maps coverage by UC-EA-01…04, EA-ITP-01 and 00E/00F. It distinguishes direct EA validation from external-owner boundary coverage and identifies the next requirements-first validation workbook. It does not modify the controlled requirements document, the frozen validation profiles, the Parent Case Study, 04, 05 or 05A; it is not a completed-validation claim.
 
+## A.9 Stage-0 execution and coverage-alignment plan (outside the controlled release baseline)
+
+- [`baseline/00D_A02_STAGE_0_EXECUTION_AND_COVERAGE_ALIGNMENT_CHANGE_PLAN_v0.1.md`](./00D_A02_STAGE_0_EXECUTION_AND_COVERAGE_ALIGNMENT_CHANGE_PLAN_v0.1.md) — additive public review plan that consolidates the pending changes to 00D-A01, the coverage map and the S14 reading before Stage-0 pre-registration. It preserves the frozen scenarios and architecture, does not report an executed fixture or EA result, and is limited to the public Contributions corpus.
+
 ## B. Current validation set — publication status
 
 These validation artifacts are part of the canonical corpus. They are not unpublished comments and must not be omitted. On 15 September 2026 the five previously split validation documents were materialized as continuous public files at the intended paths; their ordered parts remain preserved. This resolves reader visibility and midword part boundaries, **not** the revision-anchored SHA-256 inventory.

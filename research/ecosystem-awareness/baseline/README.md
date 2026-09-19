@@ -19,6 +19,7 @@ For an industrial or research reader evaluating the proposition from first princ
 5. [Concrete candidate architecture — 00 topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), followed by 01–05 below: EA's specific conceptual, functional and interface design.
 6. [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md): the single benchmark route. It integrates EA-H1–EA-H4, B0–B3 fair comparison, existing agent benchmarks and primary-source corroboration of the mechanisms in 00E/00F. It distinguishes formal results, controlled experiments, investigated occurrences and market/standard evidence, and states exactly what each source does and does not establish.
    - [00D-A01 — Reference-Scenario Test Artifacts and Bounded Reference-Oracle Proof Sketch](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md): companion evidence-design annex for readers who need to turn the fictional scenarios into reproducible fixtures. Its traceability matrix, bounded deterministic oracle, controls and Stage 0–2 progression make the already-declared regime-change/residual boundary testable rather than implicit. It is a plan for test construction, not an executed testbed, validation or claim that EA has passed.
+   - [00D-A02 — Stage-0 Execution and Coverage-Alignment Change Plan](./00D_A02_STAGE_0_EXECUTION_AND_COVERAGE_ALIGNMENT_CHANGE_PLAN_v0.1.md): consolidated public review plan for the pending fixture, KPI, coverage-map and S14-alignment changes. It fixes the bounded change set before Stage-0 pre-registration; it is not an execution result.
 
 Across this route, Type 1 and Type 2 remain the only operational management-failure classes. False convergence, incompatible divergence, defensive `UNKNOWN`, qualifier saturation, induced doubt, oscillation and cascade are recorded as mechanisms, transitions or consequences and are measured through the existing H1–H6 and KPI route rather than promoted to new types or hypotheses.
 
@@ -31,6 +32,8 @@ The document in step 2 is the only canonical requirements document in this route
 [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) is the sole current benchmark in this reader route. It conserves the prior market comparison and EA-H1–EA-H4, adds a matched B3 EA arm and records empirical support and limits for the mechanisms in 00E/00F. The former 00D v0.1 and 07 working files are preserved non-canonical predecessors, not alternative current benchmarks.
 
 Read its [00D-A01 reference-scenario test-artifacts annex](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md) before treating 00E/00F as a future executable test programme. It makes the declared fixture boundary, controls and falsifiers explicit; it does not add a benchmark result.
+
+[00D-A02](./00D_A02_STAGE_0_EXECUTION_AND_COVERAGE_ALIGNMENT_CHANGE_PLAN_v0.1.md) is the bounded public change plan under review before Stage-0 pre-registration. It aligns the planned fixtures and KPI evidence with the portfolio map without changing the scenarios or frozen architecture.
 
 ## Canonical architecture topology
 
