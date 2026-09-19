@@ -1,0 +1,25 @@
+# RS-00E-Q1a Fixture Family — Index
+
+> **Status:** pre-execution. No Step-0 trace or fixture-family execution has been published.
+
+## Operative pre-registration
+
+The only operative record for a new RS-00E-Q1a run is:
+
+| Record | Public commit | Use |
+| --- | --- | --- |
+| [Pre-registration v0.4](./pre_registration_v0.4.md) | `351923834ea21445dc7d38a1d4ebff968f41587e` | Cite this commit in every Step-0 trace and later fixture-family trace. It permits descriptive Stage-0 verification only; no EA differential conclusion is available without a later record naming a comparator defender and independent reviewer. |
+
+## Historical records — not operative
+
+These records are immutable and retained for public lineage. They must not be cited for a new run.
+
+| Record | Public commit | Status |
+| --- | --- | --- |
+| [v0.1](./pre_registration_v0.1.md) | `dab01272a8d599b277c20519e9cf35d5344533bd` | Superseded before execution |
+| [v0.2](./pre_registration_v0.2.md) | `1b9fed23eb3e4868a29ea86892c52f21983aa742` | Superseded before execution |
+| [v0.3](./pre_registration_v0.3.md) | `830148260493bd6b46b5889e2ce326c86544b30f` | Superseded before execution |
+
+## Next execution boundary
+
+Implement the harness, publish the qualifier-loss instrumentation trace and determinism trace citing v0.4, then execute P1, P2 and C0 together as one fixture family.
