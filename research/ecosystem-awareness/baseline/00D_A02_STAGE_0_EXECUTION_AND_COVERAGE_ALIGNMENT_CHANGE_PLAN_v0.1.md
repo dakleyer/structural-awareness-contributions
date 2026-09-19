@@ -1,15 +1,18 @@
 # Annex 00D-A02 — Stage-0 Execution and Coverage-Alignment Change Plan — Ecosystem Awareness
 
-> **Public review plan.** This document consolidates the pending, reviewable changes to the public Contributions corpus before any Stage-0 scenario execution. It is not an executed fixture, testbed, benchmark, validation result or change to the frozen reference scenarios.
+> **Dated public change record.** This document consolidated the reviewable changes to the public Contributions corpus before any Stage-0 scenario execution. Its specified document changes are enacted in the same public commit that updates this record. It is not an executed fixture, testbed, benchmark or validation result.
 
 **Version:** 0.1 — 19 September 2026  
-**Status:** additive public working plan to [00D](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md), [00D-A01](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md) and the [Use-Case Portfolio Requirements Coverage Map](./USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md).
+**Status:** enacted public change record; not a further approval gate.
 
-## 1. Purpose and decision requested
+**Reviewed baseline:** public Contributions commit [`063999acaa0c09f9e61bf94c0446e27c23633bf5`](https://github.com/dakleyer/structural-awareness-contributions/commit/063999acaa0c09f9e61bf94c0446e27c23633bf5), including [00D-A01](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md), the [coverage map](./USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) and [00](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md).
+**Change authority:** corpus maintainer — **self-approved implementation**. Independent reviewer: not named in the public record; no independent-validation claim follows.
+
+## 1. Purpose and enacted decision
 
 The corpus now has a requirements route, two Reference Failure Scenarios, a bounded-oracle fixture design and a portfolio coverage map. The remaining issue is alignment: narrative gates, planned fixtures, KPI evidence and future execution must not be read as the same thing.
 
-This plan asks a reviewer to approve one bounded public change set. After approval, the work moves directly to pre-registration and Stage-0 execution rather than creating further methodological layers.
+The bounded public change set below is enacted. The next work is the harness self-test, pre-registration and Stage-0 execution—not another methodological layer. This record remains only to make the reviewed change set inspectable against its fixed baseline.
 
 The canonical route remains:
 
@@ -17,12 +20,12 @@ The canonical route remains:
 
 ## 2. Scope and conservation rule
 
-### 2.1 Documents changed by the approved implementation
+### 2.1 Documents changed by this implementation
 
 1. [00D-A01 — Reference-Scenario Test Artifacts and Bounded Reference-Oracle Proof Sketch](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md)
 2. [Use-Case Portfolio Requirements Coverage Map](./USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md)
 3. [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), only for a short clarification of the already-existing S14 aggregate.
-4. [README](./README.md) and [Canonical Corpus Manifest](./CANONICAL_CORPUS_MANIFEST.md), only to identify this approved public working plan and its reading position.
+4. [README](./README.md) and [Canonical Corpus Manifest](./CANONICAL_CORPUS_MANIFEST.md), to identify this dated change record, its reading position and the open product-profile source-basis review.
 
 ### 2.2 Documents deliberately unchanged
 
@@ -30,7 +33,7 @@ The implementation does **not** alter the facts, gates or outcomes in 00E/00F; t
 
 It does not claim that a planned fixture has executed, that a stipulated Stage-0 oracle is observational, or that an EA differential has been established.
 
-## 3. Consolidated changes to 00D-A01
+## 3. Enacted changes to 00D-A01
 
 ### 3.1 Fixture-record discipline
 
@@ -69,7 +72,7 @@ Add **RS-00E-Q4 — bounded requalification under non-reducing residual**:
 
 This makes containment falsifiable in both directions: unsafe closure and avoidable abstention.
 
-## 4. Consolidated changes to the portfolio coverage map
+## 4. Enacted changes to the portfolio coverage map
 
 ### 4.1 Separate narrative coverage from executable evidence
 
@@ -99,7 +102,7 @@ Each fixture names the S14 component it exercises. “S14 everywhere” will no 
 
 The map will replace Route N/Q as a reusable workbook field with **configuration under test and pre-registered comparator**, using the common authority, evidence, resource and time envelope.
 
-The public execution sequence will be:
+The public execution sequence is:
 
 1. pre-register and run the Stage-0 atomic 00E Q1 branches, Q2 and Q4, with the 00F composition branches and their controls;
 2. seek an independently operated producer/receiver pair for EA-ITP-01 in parallel for **90 days**;
@@ -121,8 +124,8 @@ The reviewer can approve this plan if all of the following hold:
 5. comparator, facts and Stage-0 burden limitations are visible rather than absorbed into a claimed EA differential; and
 6. the implementation changes no scenario facts, frozen profile, interface contract or canonical taxonomy.
 
-Approval of this plan authorizes the document edits in §2.1 only. It does not authorize an execution result: each Stage-0 fixture must still be separately pre-registered before it runs.
+This implementation changes the documents in §2.1 only. It does not authorize an execution result: each Stage-0 fixture must still be separately pre-registered before it runs.
 
 ## 7. Out of scope for this change set
 
-Product-profile source registers, external corpus mirrors, licensing, and evidence outside this public Contributions repository are not part of this plan. They do not block the controlled changes above or the first stipulated Stage-0 fixture.
+External corpus mirrors, licensing and evidence outside this public Contributions repository are not part of this change set. Product-profile source review remains open inside this repository with owner and review date recorded in the manifest; it does not block the controlled changes above or the first stipulated Stage-0 fixture.

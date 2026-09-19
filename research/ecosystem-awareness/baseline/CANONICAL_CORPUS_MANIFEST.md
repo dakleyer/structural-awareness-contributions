@@ -72,9 +72,15 @@ These are public working cases, not additional frozen baseline documents, real i
 
 - [`baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md`](./USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) — additive public working annex that starts from the canonical S1–S14 / T1–T4 / H1–H6 / KPI route and maps coverage by UC-EA-01…04, EA-ITP-01 and 00E/00F. It distinguishes direct EA validation from external-owner boundary coverage and identifies the next requirements-first validation workbook. It does not modify the controlled requirements document, the frozen validation profiles, the Parent Case Study, 04, 05 or 05A; it is not a completed-validation claim.
 
-## A.9 Stage-0 execution and coverage-alignment plan (outside the controlled release baseline)
+## A.9 Stage-0 execution and coverage-alignment change record (outside the controlled release baseline)
 
-- [`baseline/00D_A02_STAGE_0_EXECUTION_AND_COVERAGE_ALIGNMENT_CHANGE_PLAN_v0.1.md`](./00D_A02_STAGE_0_EXECUTION_AND_COVERAGE_ALIGNMENT_CHANGE_PLAN_v0.1.md) — additive public review plan that consolidates the pending changes to 00D-A01, the coverage map and the S14 reading before Stage-0 pre-registration. It preserves the frozen scenarios and architecture, does not report an executed fixture or EA result, and is limited to the public Contributions corpus.
+- [`baseline/00D_A02_STAGE_0_EXECUTION_AND_COVERAGE_ALIGNMENT_CHANGE_PLAN_v0.1.md`](./00D_A02_STAGE_0_EXECUTION_AND_COVERAGE_ALIGNMENT_CHANGE_PLAN_v0.1.md) — dated public record of the enacted changes to 00D-A01, the coverage map and the S14 reading. It preserves the frozen scenarios and architecture, does not report an executed fixture or EA result, and is limited to the public Contributions corpus.
+
+## A.10 Open public maintenance items (outside the controlled release baseline)
+
+| Item | Owner | Review date | Status boundary |
+| --- | --- | --- | --- |
+| Product-implementation profile source-basis review | EA corpus maintainer | 18 December 2026 | Record for each material product assertion whether it derives from dated public documentation, deployment configuration or inference. This is not a product benchmark, certification or execution result. |
 
 ## B. Current validation set — publication status
 

@@ -32,34 +32,34 @@ The same case may support several challenges, and one challenge may need several
 - **B — boundary or supporting coverage:** the artifact invokes the requirement or tests preservation of a received determination, but does not independently validate the externally owned source function.
 - **C — no dedicated fixture:** no current artifact supplies a concrete decision path and evidence plan for the requirement.
 
-`A` and `B` are scope-specific. Neither means that the requirement is solved universally.
+`A` and `B` are scope-specific architecture-coverage labels. Neither means that the requirement is solved universally, that a fixture has been implemented or that it has executed. The next three columns make that distinction visible.
 
 ## 4. Canonical challenge coverage map
 
-The T/H entries below are the normal routes from [00 §6.1](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md#61-challenge-to-condition-to-hypothesis-map). KPI families remain defined there; this table identifies which current cases exercise them and what evidence is still missing.
+The T/H entries below are the normal routes from [00 §6.1](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md#61-challenge-to-condition-to-hypothesis-map). “Named” identifies a gate or profile that invokes the route; “fixture” identifies an executable branch; “execution” records actual evidence. None is inferred from another.
 
-| Challenge | Canonical route | Existing case / fixture evidence | Coverage | Residual gap and required evidence |
-| --- | --- | --- | --- | --- |
-| **S1 — authority provenance and current applicability** | T2, T3 → H2, H4 | 00F Q0/Q3 consumes authority, owner and expiry; DAOS supplies the source boundary. | B | Independently produced grant, revocation and current-standing record; EA may only preserve/qualify it. |
-| **S2 — preference fidelity and reviewable decision basis** | T2 → H1, H2 | 00E Q3 tests whether a strategic option preserves its evidence threshold, hard limits and decision relevance. | B | Principal-owned preference/version change and an independently reviewable decision-basis record. |
-| **S3 — regime, context, escalation and bounded escape path** | T1, T2, T3, T4 → H1, H5, H6 | UC-EA-01 primary; 00E Q4; 00F Q1/Q4. | A | Replication under an independently operated source/receiver pair. |
-| **S4 — human-inclusive oversight authority and capacity** | T2, T3, T4 → H1, H6 | UC-EA-03 primary; 00E Q2/Q4; 00F Q3. | A | External validation of the declared human lifecycle; EA does not appoint or assess reviewer competence. |
-| **S5 — operational indeterminacy and containment** | T1, T2, T3, T4 → H1, H2, H5 | UC-EA-02 primary; 00E Q1/Q2/Q4; 00F Q1/Q2/Q3. | A | Independent execution of the declared containment owner/action, rather than EA inference of execution. |
-| **S6 — interoperable, privacy-preserving trust determination** | T2, T4 → H2, H4 | UC-EA-02 secondary; 00E Q1; 00F Q2; EA-ITP-01 defines reciprocal EHD fixtures. | B | Executed independent producer/consumer fixture, including privacy/authorization constraints owned outside EA. |
-| **S7 — identity and representation link** | T2, T3 → H2, H4 | No dedicated current case or reference-scenario gate. | C | Identity/role/substitute relationship from an external owner, preserved through a decision and response path. |
-| **S8 — bounded subdelegation and non-amplification** | T2, T3 → H2, H4 | No dedicated current case or reference-scenario gate. | C | Delegation chain with purpose, scope, time, hard limits and revocation propagation. |
-| **S9 — multi-principal composition, non-substitution and conflict** | T2, T4 → H2, H3, H4 | UC-EA-04 primary; 00E Q5; 00F Q0/Q2/Q5. | A | Cross-organization replication with independent evidence producers and declared arbitration owners. |
-| **S10 — commitment state, material change and normal escalation** | T1, T2, T4 → H1, H5, H6 | UC-EA-01 secondary; 00E Q3/Q4; 00F Q1/Q4. | A | None for requirements coverage; broader domain replication remains useful. |
-| **S11 — policy, objective and preference integrity across domains** | T2, T4 → H2, H3, H4 | UC-EA-04 secondary; 00E Q1/Q3/Q5; 00F Q2/Q5. | B | Source-owner version/priority conflict, showing EA preserves rather than sets policy or preference. |
-| **S12 — accountability, challenge and repair** | T2, T4 → H4, H5 | 00E Q2/Q5 and 00F Q4/Q5 require targeted re-entry and observable outcome. | B | Independent decision, intervention, execution and outcome record that can be reconstructed without rewriting history. |
-| **S13 — authority history versus intervention history** | T2, T3 → H2, H4 | UC-EA-03 secondary distinguishes approval from evidence; DAOS supplies the distinction. | B | Paired authority/intervention histories and an independent execution receipt. |
-| **S14 — evidence-to-decision assessment** | T1, T2, T3, T4 → H1–H6 | All four UC-EA profiles; all 00E/00F Q0–Q5 gates; EA-ITP-01 at handoff. | A | Cross-case replication and independent adjudication, not a new requirement. |
+| Challenge | Canonical route and KPI family | Named in gate/profile | Architecture coverage | Fixture status | Execution status | Residual gap and required evidence |
+| --- | --- | --- | --- | --- | --- | --- |
+| **S1 — authority provenance and current applicability** | T2, T3 → H2, H4; authority-field completeness, residual preservation, authorized-response compliance. | 00F Q0/Q3; RS-00F-C1/C2. | B | Planned RS-00F-C1/C2. | Not executed. | Independently produced grant, revocation and current-standing record; EA may only preserve/qualify it. |
+| **S2 — preference fidelity and reviewable decision basis** | T2 → H1, H2; local determinacy margin, qualified-posture correctness, residual preservation. | 00E Q3; RS-00E-Q1c-R/NR. | B | Planned Q1c pair. | Not executed. | Principal-owned preference/version change and independently reviewable decision-basis record. |
+| **S3 — regime, context, escalation and bounded escape path** | T1, T2, T3, T4 → H1, H5, H6; material-break recall/precision, false continuation, latency, deadline pass. | UC-EA-01; 00E Q4; 00F Q1/Q4; RS-00E-Q1b/Q1e/Q4/N0. | A | Planned listed fixtures. | Not executed. | Replication under independently operated source/receiver pair. |
+| **S4 — human-inclusive oversight authority and capacity** | T2, T3, T4 → H1, H6; human-capacity binding, forced closure, response margin, deadline pass. | UC-EA-03; 00E Q2/Q4; 00F Q3; RS-00E-Q2/Q4. | A | Planned Q2/Q4. | Not executed. | External validation of declared human lifecycle; EA does not appoint or assess reviewer competence. |
+| **S5 — operational indeterminacy and containment** | T1, T2, T3, T4 → H1, H2, H5; explicit indeterminacy, false continuation, Type transitions, containment recovery. | UC-EA-02; 00E Q1/Q2/Q4; 00F Q1/Q2/Q3; planned 00E fixture set. | A | Planned Q1/Q2/Q4 and controls. | Not executed. | Independent execution of containment owner/action, rather than EA inference of execution. |
+| **S6 — interoperable, privacy-preserving trust determination** | T2, T4 → H2, H4; handoff integrity, qualification loss, retained fields, latency/bandwidth/privacy cost. | UC-EA-02; 00E Q1; 00F Q2; EA-ITP-01. | B | EA-ITP-01 specified; no independent fixture yet. | Not executed. | Independent producer/consumer run with privacy/authorization constraints owned outside EA. |
+| **S7 — identity and representation link** | T2, T3 → H2, H4; authority-field completeness, provenance/freshness preservation, handoff integrity. | No dedicated current gate. | C | No fixture. | Not executed. | Identity/role/substitute relation from external owner, preserved through decision and response. |
+| **S8 — bounded subdelegation and non-amplification** | T2, T3 → H2, H4; scope/expiry completeness, inherited indeterminacy, unauthorized-response rate. | No dedicated current gate. | C | No fixture. | Not executed. | Delegation chain with purpose, scope, time, hard limits and revocation propagation. |
+| **S9 — multi-principal composition, non-substitution and conflict** | T2, T4 → H2, H3, H4; incompatible-posture exposure, false convergence, correlated-evidence error, re-entry precision. | UC-EA-04; 00E Q5; 00F Q0/Q2/Q5; RS-00E-Q1a/Q1c, RS-00F-C1/C2. | A | Planned listed fixtures. | Not executed. | Cross-organization replication with independent evidence producers and declared arbitration owners. |
+| **S10 — commitment state, material change and normal escalation** | T1, T2, T4 → H1, H5, H6; material-break recall/precision, freshness, latency, response margin, evidence yield. | UC-EA-01; 00E Q3/Q4; 00F Q1/Q4; RS-00E-Q1b/Q4. | A | Planned Q1b/Q4. | Not executed. | Broader domain replication remains useful. |
+| **S11 — policy, objective and preference integrity across domains** | T2, T4 → H2, H3, H4; owner/version/scope preservation, wrong-domain closure, qualification loss. | UC-EA-04; 00E Q1/Q3/Q5; 00F Q2/Q5; RS-00F-C1. | B | Planned C1. | Not executed. | Source-owner version/priority conflict, showing EA preserves rather than sets policy or preference. |
+| **S12 — accountability, challenge and repair** | T2, T4 → H4, H5; handoff integrity, targeted re-entry, containment recovery, observable outcome effect. | 00E Q2/Q5; 00F Q4/Q5; RS-00E-Q1c-R/NR. | B | Planned Q1c pair. | Not executed. | Independent decision, intervention, execution and outcome record reconstructable without rewriting history. |
+| **S13 — authority history versus intervention history** | T2, T3 → H2, H4; authority/provenance preservation, authorized-response compliance, action/outcome trace. | UC-EA-03; DAOS; RS-00F-C2. | B | Planned C2. | Not executed. | Paired authority/intervention histories and independent execution receipt. |
+| **S14 — evidence-to-decision assessment** | Aggregate of the common outcome vector, condition-specific KPI/trajectory sets and precedence record. | All UC-EA profiles; 00E/00F; EA-ITP-01; all listed fixtures only for their named component. | Aggregate — not scored A/B/C. | Component-specific planned fixtures; no standalone S14 fixture. | Not executed. | Cross-case replication and independent adjudication; see the five components in 00 §6.1.1. |
 
 ## 5. What the current portfolio establishes
 
 The four UC-EA profiles directly exercise the EA architecture's F1–F9 surfaces. The two reference scenarios make the same canonical requirements operational under different failure pressure: 00E stresses information compression, human overload and non-monotone resource use; 00F stresses shared-resource conflict, heterogeneous freshness and local-to-systemic divergence.
 
-This is sufficient to test the EA-owned core around S3, S4, S5, S9, S10 and S14. It is not sufficient to claim end-to-end validation of all fourteen challenges. Across the portfolio, S1, S2, S6, S11, S12 and S13 have supporting/boundary coverage; S7 and S8 have no dedicated fixture.
+This is sufficient to design tests of the EA-owned core around S3, S4, S5, S9 and S10. It is not sufficient to claim an executed test or end-to-end validation of all fourteen challenges. S14 is aggregate, not a breadth score. Across the portfolio, S1, S2, S6, S11, S12 and S13 have supporting/boundary coverage; S7 and S8 have no dedicated fixture.
 
 ## 6. Required next workbook: delegated decision integrity and accountable intervention
 
@@ -73,7 +73,7 @@ It should describe one bounded cross-organization decision in which a principal'
 | --- | --- |
 | Primary requirements | S1, S2, S7, S8, S12 and S13. |
 | Supporting requirements | S3, S4, S5, S6, S10, S11 and S14 where material to the declared decision. |
-| Quality plan | Matched Route N/Q evidence: no requirement is satisfied merely because a grant, approval or message exists; each selected S/T/H/KPI route has a gate, oracle, threshold, disposition and observable outcome. |
+| Quality plan | Configuration under test and pre-registered comparator under the same resource, evidence, authority and time envelope: no requirement is satisfied merely because a grant, approval or message exists; each selected S/T/H/KPI route has a gate, oracle, threshold, disposition and observable outcome. |
 | External ownership | Identity/role, grant/delegation/revocation, policy/preference, action authority, execution record and accountability remain with named source owners. EA only qualifies, preserves, composes and requests re-entry. |
 | Interface discipline | Apply [04](./04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part01.md) to every handoff; map the ideal bilateral route to [05](./05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md) only where needed; use [05A](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md) solely to limit what is presently defensible in a FG-TIDA route. |
 | Evidence needed | Independently produced records for identity/representation, grant/delegation, revocation, intervention, execution and outcome; a source/version/freshness/dependency trail; an observable effect and an independent reviewer/oracle where applicable. |
@@ -82,10 +82,11 @@ This one workbook closes the two absent fixtures, S7 and S8, and converts the cu
 
 ## 7. Sequencing and admission rule
 
-1. Keep UC-EA-01…04 frozen and retain 00E/00F unchanged as the existing direct EA and failure-pressure evidence.
-2. Use this map to draft WB-EA-01 from the requirements outward; select a concrete source case only after its primary S1/S2/S7/S8/S12/S13 route is fixed.
-3. Run EA-ITP-01 with an independently operated producer and receiver. That is completion of an existing interoperability profile, not another use case.
-4. Admit a later workbook only if it adds a challenge/evidence/owner combination not covered above. A new domain alone is not sufficient reason to duplicate a case.
+1. Run the Stage-0 harness self-test, then pre-register the atomic 00E Q1 branches, Q2, Q4 and 00F composition branches with their controls.
+2. Seek an independently operated EA-ITP-01 producer/receiver pair in parallel. The 90-day clock starts only once the dated counterpart ledger contains a named candidate, role, owner and contact record.
+3. If no counterpart is secured after that 90-day search, record the outreach evidence and begin WB-EA-01 with the limit visible rather than blocking it.
+4. Use Stage-0 results to constrain WB-EA-01 from the requirements outward; select its concrete source case only after its primary S1/S2/S7/S8/S12/S13 route is fixed.
+5. Admit a later workbook only if it adds a challenge/evidence/owner combination not covered above. A new domain alone is not sufficient reason to duplicate a case.
 
 ## 8. Minimum reusable workbook record
 
@@ -94,7 +95,7 @@ Every future workbook should contain the following sections, in this order:
 1. bounded case facts, `σ(d,t)`, owner, authority, deadline, null action and source boundary;
 2. selected primary and secondary S# routes, with the complete T# conditions, H# expectations and KPI thresholds;
 3. external-owner inputs and the EA boundary;
-4. Route N and Route Q with the same resources, evidence, authority and time envelope;
+4. configuration under test and pre-registered comparator with the same resources, evidence, authority and time envelope;
 5. interface classification: 04 generic requirement, 05 ideal bilateral target, 05A current-state limitation where relevant;
 6. gate disposition, observable outcome, residual limitation and determination.
 

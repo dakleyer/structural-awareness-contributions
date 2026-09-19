@@ -168,6 +168,10 @@ The map identifies the normal test route. It does not convert upstream functions
 | **S13** Authority versus intervention history | T2, T3 | H2, H4 | authority/provenance field preservation; qualification-loss rate; authorized-response compliance; action/outcome trace | overwriting or curing source provenance |
 | **S14** Evidence-to-decision assessment | T1, T2, T3, T4 | H1–H6 as applicable | the common outcome vector plus the condition-specific KPI and trajectory set above; arbitration/precedence record | a mandatory runtime architecture or automatic permission to act |
 
+### 6.1.1 S14 aggregate reading
+
+S14 is an aggregate assessment route, not a separate breadth score. A declared test names the material component or components it exercises: **(1)** evidence sufficiency; **(2)** Type-1 / Type-2 transition; **(3)** conflict, arbitration or precedence record; **(4)** expiry; and **(5)** re-entry and disposition update. The third component records the applicable owner or the absence of one; it does not authorize EA to arbitrate or create precedence. These components reuse the S1–S14, T1–T4, H1–H6 and KPI protocol above; they create no new requirements or KPI taxonomy.
+
 ### 6.2 How to run a complete test
 
 1. **Freeze the scope.** Declare `σ(d,t)`: subject, proposition, receiving decision, legitimate owner, commitment state, evidence and observation boundary, materiality threshold, authority, deadline, capacity and null action. Record the selected `W(d,t)`.
