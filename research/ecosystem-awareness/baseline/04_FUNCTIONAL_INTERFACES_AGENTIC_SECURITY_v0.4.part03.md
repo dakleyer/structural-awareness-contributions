@@ -464,6 +464,8 @@ Ecosystem Awareness then performs the meta-level task: preserve those distinctio
 
 - **Level 2 — independent-boundary information.** EA consumes an externally originating signal, record, assessment or other bounded claim through the same EHD discipline. A Level 2 signal changes the receiver's evidence state; it does not transfer authority, prove the whole ecosystem or force a common action.
 
+For this plan, **independently operated** is assessed relative to the EA/adaptor side: the ICR identifies the producer's operating organisation, the organisation that controls the producer's semantics, and the adapter's authorship/maintenance. A claimed independent boundary requires a distinct producer operation, producer-side semantic control, and an adapter not exclusively authored or maintained by the EA side. If any condition is absent, the ICR records which one and the result is simulated-boundary evidence rather than established independent interoperability.
+
 The Mission/Context Assessment (MCA) remains the basis for deciding before and after a run how much knowledge, retrieval, review or response effort is justified. The plan does not require maximum information collection.
 
 **Out of scope.** This plan does not define a production API, require full internal reasoning or memory disclosure, transmit KPIs, Q0–Q5 dispositions or quality gates in the runtime payload, set a universal policy hierarchy, or execute containment, human intervention or authority decisions.
@@ -488,15 +490,15 @@ Every test run creates an **Interface Conformance Record (ICR)**. The ICR is a t
 | --- | --- |
 | Test identity | ICR identifier, date, interface-model version, profile/delta version and test-vector version. |
 | Decision context | Declared subject, proposition, receiving decision, scope, mission/MCA basis, useful horizon and materiality condition. |
-| Materiality control | Frozen set of material qualifiers, the semantic owner who fixed it before execution, rationale and version. A later reduction of that set is a recorded change, not a silent improvement in the result. |
+| Materiality control | Frozen set of material qualifiers, the semantic owner who fixed it before execution, rationale and version. A later reduction of that set is a recorded change, not a silent improvement in the result. If the semantic owner and adapter/maintenance owner are the same person or organisation, the ICR labels the result **materiality self-declared**. |
 | Boundary | Producing component, consuming EA function, receiving component, semantic owner and adapter/maintenance owner. |
-| Evaluation independence | Named reviewer for the mapping, plus any relevant relationship to the producer, receiver or adapter. The reviewer of a mapping cannot be that mapping's adapter/maintenance owner. |
+| Evaluation independence | Named reviewer for the mapping, plus any relevant relationship to the producer, receiver or adapter. The reviewer of a mapping cannot be that mapping's adapter/maintenance owner. Any unresolved reviewer objection is recorded and blocks a sufficient conclusion. |
 | Native result | The producer's native result and the reference/profile through which it is interpreted. |
 | Required qualifiers | Which of scope, provenance/freshness, dependency, unresolved state, capacity, authority, validity/review and privacy constraint are material for this run. |
 | Unknown treatment | Explicit UNKNOWN, `not_applicable`, unavailable, not-observed, privacy-restricted or other declared reason where known. |
-| Test vector | Positive, boundary or rejection fixture; injected change or limitation; expected EA interpretation and expected receiving consequence. |
-| Route shape | Level 1 or Level 2 designation; for Level 2, whether the producer is independently operated; for a chain, the ordered hops; and for an aggregation, input-assertion count and declared transformation or loss. |
-| Evidence | Handoff trace, profile/reference, adapter mapping where used, receiving result, observed execution/outcome when available and burden observations. |
+| Test vector | Positive, boundary, rejection or adversarial-assertion fixture; injected change or limitation; expected EA interpretation and expected receiving consequence. |
+| Route shape | Level 1 or Level 2 designation; for Level 2, the independent-operation assessment; for a chain, the ordered hops and declared aggregation points before execution; and for an aggregation, input-assertion count and declared transformation or loss. An aggregation later discovered but absent from this declaration is a nonconforming mapping finding. |
+| Evidence | Handoff trace, profile/reference, adapter mapping where used, receiving result, observed execution/outcome when available, burden observations and, for a non-deterministic route, repeated-run dispersion. |
 | Conclusion | Interface sufficiency finding, open field gap if any, retest decision and responsible maintenance owner. |
 
 For a Composition-Critical test, the ICR additionally records the decision/operation and parent-handoff references, decision-basis reference, commitment state where relevant, shared resource-time or conflict relation, source-owned precedence/arbitration reference where present, and targeted re-entry reference.
@@ -515,7 +517,9 @@ A test may start only when the following are declared for its bounded scope:
 8. any material adversarial-assertion fixture has an observable oracle;
 9. the semantic owner has fixed the material qualifier set and its rationale before the fixture is executed;
 10. a named reviewer, distinct from the adapter/maintenance owner of the mapping under review, is available; and
-11. where Level 2 is claimed, the producer is independently operated, or the fixture is explicitly marked as a simulated boundary that does not establish independent interoperability.
+11. where Level 2 is claimed, the producer is independently operated as defined in A.1, or the fixture is explicitly marked as a simulated boundary that does not establish independent interoperability;
+12. the ordered route map and any intended aggregation point are declared in the ICR before execution; and
+13. any reviewer objection is resolved, or the fixture is declared unable to support a sufficient conclusion.
 
 Failure to satisfy an entry condition is itself a useful finding: it means the proposed interface cannot yet be tested for that scope without inventing a producer, a receiver, semantics or an oracle.
 
@@ -527,8 +531,9 @@ Failure to satisfy an entry condition is itself a useful finding: it means the p
 2. Freeze the decision scope, the available evidence boundary, the useful response horizon, the MCA capacity basis and the disclosure constraint.
 3. Identify whether the ordinary EHD kernel is sufficient or whether the Composition-Critical EHD Profile is required.
 4. Map native producer fields to the EHD/profile semantics. An adapter may translate representation; it must not silently upgrade UNKNOWN, authority, provenance, independence or determination.
+5. Declare the ordered route map, including every intended aggregation point, before execution. A subsequently discovered undeclared aggregation is recorded as a nonconforming mapping rather than normalised into the result.
 
-### A.5.2 Exercise three fixture classes
+### A.5.2 Exercise four fixture classes
 
 | Fixture class | Minimum situation | Expected interface result |
 | --- | --- | --- |
@@ -539,13 +544,15 @@ Failure to satisfy an entry condition is itself a useful finding: it means the p
 
 Composition-Critical tests add at least one vector for each material condition present: a decision-basis/version change, an execution or commitment transition, competing directives over one resource-time segment, and re-entry after changed evidence, authority, dependency or validity.
 
-Where the route has more than one handoff, the fixture includes at least two intermediate hops and evaluates qualifier preservation, transformation and declared loss at each hop, not only end to end. Where a component aggregates two or more prior assertions, the fixture records the input-assertion count and any declared loss, collapse or change of dependency treatment. At least one claimed Level 2 route uses an independently operated producer; a simulated external source is recorded as such and cannot support a claim of established cross-boundary interoperability.
+Where the route has more than one handoff, the fixture includes at least two intermediate hops and evaluates qualifier preservation, transformation and declared loss at each hop, not only end to end. Where a component aggregates two or more prior assertions, the fixture records the input-assertion count and any declared loss, collapse or change of dependency treatment. An aggregation discovered after execution that was not declared in the route map is a nonconforming mapping. At least one claimed Level 2 route uses an independently operated producer as defined in A.1; a simulated external source is recorded as such and cannot support a claim of established cross-boundary interoperability.
 
 ### A.5.3 Evaluate the handoff and return
 
 For each fixture, the reviewer checks:
 
 The named reviewer of an adapter mapping is distinct from that mapping's adapter/maintenance owner; the ICR records any remaining relationship that could affect the review.
+
+An unresolved objection by that reviewer is recorded in the ICR and prevents the run from being concluded sufficient for its declared scope or horizon.
 
 - **Input provenance.** Was every required input produced by the named component and attached to its native/profile semantics?
 - **Qualifier preservation.** Did scope, freshness, dependency, capacity, authority, validity/review and UNKNOWN survive the handoff where material?
@@ -572,6 +579,7 @@ These are post-run measures for the ICR. They are not EHD fields, runtime KPIs o
 | Composition continuity | In composition-critical runs, required decision/operation, basis, conflict/precedence and parent-handoff relations retained and interpretable ÷ required relations. |
 | Boundedness observation | Relevant latency, retrieval/communication effort, human-review demand and disclosure burden, reported beside the fixture result. |
 | Horizon viability | Whether the observed route burden remains usable within the pre-declared MCA capacity basis and useful horizon; recorded as viable, non-viable or indeterminate for that declared route. |
+| Non-deterministic route stability | Where any producer, adapter, receiver or material route component is non-deterministic, repeat each applicable fixture and record the run count, outcome distribution and material qualifier/viability dispersion. A single run is not treated as stable evidence. |
 
 The plan records observed burden so that a semantically complete handoff is not accepted blindly when it consumes the response opportunity it is meant to protect. It does not prescribe one universal threshold; the declared mission, scope and MCA capacity basis determine materiality.
 
@@ -585,6 +593,7 @@ The quality conclusion is made **after** the run. It is not a runtime posture or
 | --- | --- | --- |
 | **Sufficient for declared scope** | The ordinary EHD kernel or active generic interface set preserved every material qualifier and produced an owner-preserving EA return for the fixture. | Retain the ICR and repeat only when version, scope or material assumptions change. |
 | **Semantically sufficient, operationally non-viable for declared horizon** | Qualifiers and semantics were preserved, but the observed retrieval, communication, review or disclosure burden is not usable within the pre-declared MCA capacity basis or useful horizon. | Do not accept the route as sufficient for that decision; narrow the scope, change the route/profile or record the decision as limited and retest. |
+| **Horizon viability indeterminate** | The available evidence cannot establish whether the route is usable within the declared MCA capacity basis or useful horizon. | Do not accept the route as sufficient for that horizon; retain the limited scope, obtain the missing burden evidence or change the declared route and retest. |
 | **Sufficient with Composition-Critical Profile** | The ordinary kernel alone was not enough, but the optional profile preserved the material decision continuity, basis, conflict or re-entry relation. | Version-pin the profile and retain the associated fixtures. |
 | **Insufficient field expression** | A material fact exists at a named producer but cannot be expressed or interpreted through the active interface/profile. | Record the smallest candidate field addition, its producer and consumer; retest before changing the baseline. |
 | **Producer or receiver unavailable** | The required fact has no available producer, no identified receiving function or no responsible semantic owner. | Preserve UNKNOWN and mark the decision scope limited; do not infer a contract. |
@@ -620,6 +629,9 @@ The quality conclusion is made **after** the run. It is not a runtime posture or
 8. The semantic owner freezes the material qualifier set before execution. Adding, removing or reducing a material qualifier between ICR versions is version-pinned, justified and retested; reducing the set is a registrable finding, not evidence of better preservation.
 9. An asserted source property remains declared unless its stated basis supports a stronger status. A fixture that depends on producer honesty records that limitation explicitly.
 10. A Level 2 claim is retained only when the ICR identifies an independently operated producer; otherwise the result is labelled simulated-boundary evidence.
+11. The route map and every intended aggregation point are declared before execution. A later-discovered undeclared aggregation is recorded as a nonconforming mapping and is not normalised by a later ICR version.
+12. Where a material route component is non-deterministic, the applicable fixtures are repeated and their outcome dispersion is retained in the ICR.
+13. An unresolved reviewer objection blocks a finding of sufficient for the declared scope or horizon.
 
 ## A.10 Decision on interface sufficiency
 
@@ -637,5 +649,9 @@ The plan is complete for a declared component route when the relevant ICR set sh
 10. any claimed Level 2 result identifies an independently operated producer, or is limited to simulated-boundary evidence.
 11. any material asserted qualifier was exercised against an adversarial-assertion fixture, or the route guarantee is explicitly conditional on the declared basis; and
 12. a route classified as operationally non-viable is not accepted as sufficient for the declared horizon.
+13. a route whose horizon viability is indeterminate is not accepted as sufficient for that horizon;
+14. the ordered route map and all intended aggregation points were declared before execution, and any undeclared aggregation discovered later is classified as a nonconforming mapping;
+15. any self-declared materiality condition is labelled as such; and
+16. any non-deterministic material route component was exercised repeatedly with outcome dispersion retained, while any unresolved reviewer objection blocks a sufficient conclusion.
 
 This conclusion answers a narrow but necessary question: **whether the interfaces are sufficient for the declared EA test route.** It does not prove that EA is effective for every ecosystem, that all components interoperate without adapters, or that the underlying business/operational decision is correct.
