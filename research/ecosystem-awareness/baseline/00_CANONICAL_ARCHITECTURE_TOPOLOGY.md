@@ -42,7 +42,7 @@ C and D provide the operational reading of what remains outside the active windo
 
 ## 3. Agent-local qualification and ecosystem composition
 
-EA is **not an epistemic super-controller** and does not reconstruct every participant’s internal reasoning.
+EA is **not an epistemic super-controller**, does not reconstruct every participant’s internal reasoning and does not require one mandatory shared ecosystem state. Ω retains its open ecosystem meaning. Where participant locality is material, U, W(d,t), R_U and A–D are interpreted for the declared receiving participant/decision; use U_i(d,t), W_i(d,t) and R_{U_i} when the participant index would otherwise be ambiguous.
 
 1. A producer or agent qualifies a decision-relevant result for its own domain and window.
 2. It preserves material scope, determination state, unresolved qualifiers, provenance, freshness, dependency and capacity information through the **Epistemic Handoff Descriptor (EHD)** or an equivalent semantic handoff.
