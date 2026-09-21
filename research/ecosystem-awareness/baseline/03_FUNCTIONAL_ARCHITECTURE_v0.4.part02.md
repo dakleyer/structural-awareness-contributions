@@ -614,6 +614,8 @@ The architecture therefore learns operationally without assuming that previous c
 
 Pathway learning remains scope-indexed. F9 may retain evidence that an acquisition pathway was useful, stale, redundant, costly or independently informative for a stated domain, decision/context and time profile, but it must not convert repeated historical success into a portable global trust or quality score for that pathway. Historical usefulness is evidence for a new qualification; it does not substitute for current scope, provenance, freshness, source dependence, property basis or response conditions.
 
+When an external EHD/signalling peer or channel is used as an acquisition pathway, the same rule applies: F9 may retain scoped evidence that the route was useful, stale, redundant, costly, misleading or independently informative, but repeated success must not become a portable global trust score for the peer or channel.
+
 &nbsp;
 
 Outputs
