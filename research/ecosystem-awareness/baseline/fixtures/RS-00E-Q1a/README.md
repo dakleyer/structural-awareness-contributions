@@ -8,7 +8,7 @@ The only operative record for a new RS-00E-Q1a run is:
 
 | Record | Public commit | Use |
 | --- | --- | --- |
-| [Pre-registration v0.4](./pre_registration_v0.4.md) | `351923834ea21445dc7d38a1d4ebff968f41587e` | Cite this commit in every Step-0 trace and later fixture-family trace. It permits descriptive Stage-0 verification only; no EA differential conclusion is available without a later record naming a comparator defender and independent reviewer. |
+| [Pre-registration v0.5](./pre_registration_v0.5.md) | `00241c5c3ab554dd732467ef0ae4c175f958d144` | Cite this commit in every Step-0 trace and later fixture-family trace. It adds Canonical Trace v1 and the inverse instrumentation negative control while preserving descriptive Stage-0 scope only; no EA differential conclusion is available without a later record naming a comparator defender and independent reviewer. |
 
 ## Historical records — not operative
 
