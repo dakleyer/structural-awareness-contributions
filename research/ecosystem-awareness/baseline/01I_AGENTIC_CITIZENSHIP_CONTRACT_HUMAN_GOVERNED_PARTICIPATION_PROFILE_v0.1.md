@@ -46,7 +46,7 @@ Holding a local reference to S_j does not make the participant its owner.
 
 Let C_j(v) denote a versioned participation/governance profile for a declared domain.
 
-It may specify membership scope; admissible roles/capabilities; permissions; obligations; prohibitions; non-compensable constraints; accountability/evidence duties; applicable Objective Envelope references; join/acceptance conditions; amendment/supersession; suspension/revocation/exit; effective time/expiry; and a conflict/precedence owner where one exists.
+It may specify membership scope; admissible roles/capabilities; interaction-bound role eligibility; permissions; obligations; prohibitions; non-compensable constraints; autonomy bounds; resource/control-budget references; accountability/evidence duties; applicable Objective Envelope references; join/acceptance conditions; amendment/supersession; suspension/revocation/exit; effective time/expiry; and a conflict/precedence owner where one exists.
 
 Adopting another participant's local goal does **not** grant institutional authority and does not rewrite an applicable Objective Envelope or participation profile.
 
