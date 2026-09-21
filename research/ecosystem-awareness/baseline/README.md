@@ -6,6 +6,8 @@ Ecosystem Awareness (EA) asks whether the evidence, assumptions and available re
 
 This is the **single public reading folder for the general EA corpus**. It contains the current architectural argument, general integration annexes, validation profiles, research lineage, conservation and governance records. These are distinct artefact types, not one article or one validated stack. **FG-TIDA-specific application material is maintained separately in the [EA / FG-TIDA application package](../fg-tida/README.md)** so that programme-specific Theme mappings cannot be mistaken for the canonical general architecture.
 
+**Status key.** **Controlled/frozen** means a preserved release source. **Integrated working successor** means a current research integration that does not silently replace the freeze. **Additive annex** means a non-canonical research/interface extension. **Application package** means a programme-specific projection that cannot redefine the general EA semantics.
+
 ## Problem-to-architecture reading route
 
 For an industrial or research reader evaluating the proposition from first principles, use this order:
