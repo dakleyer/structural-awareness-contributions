@@ -61,8 +61,9 @@ The v0.4 split files are **ordered materialisations**, not separately complete c
 - [01C — EA ↔ Regime Awareness/EWS](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md): Sufficiently Good detector requirements, representation/detection/action contracts, contextual boundary T*, responsibilities, five candidate interface payloads and falsifiers.
 - [01D — joint EA/MSCA/RA operation](./01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md): same-decision/scope/version binding, qualified versus UNKNOWN payloads, conditional RA dependency, permit precedence, shared cost ledger and race tests.
 - [01E — EA ↔ extensible DAOS model case](./01E_EA_DAOS_MODEL_CASE_INTERFACE_ANNEX_v0.1.md): T0–T2 case-fact to F1–F9 mapping, bounded EA outputs, CH-S1…14 ownership limits, upward/downward/horizontal extension rules and UC profile links.
+- [01F — FG-TIDA Specification Preparation Map](./01F_EA_FG_TIDA_SPECIFICATION_PREPARATION_ANNEX_v0.1_DRAFT.md): draft editorial bridge from the canonical EA corpus to a possible future FG-TIDA Working Group specification. It maps source material, normative maturity, candidate document structure, external-owner dependencies, conformance readiness and publication gates without creating a WG/specification or changing the underlying architecture.
 
-These annexes are **candidate interfaces and extensions within EA**, while their parent MSCA, EWS and DAOS documents remain in independent corpora. None is an implemented common API or completed joint validation.
+These annexes are **candidate interfaces, extensions and preparation controls within EA**, while their parent MSCA, EWS and DAOS documents remain in independent corpora. None is an implemented common API, completed joint validation or adopted FG-TIDA specification.
 
 ## Validation profiles — one case, four diagnostic lenses
 
