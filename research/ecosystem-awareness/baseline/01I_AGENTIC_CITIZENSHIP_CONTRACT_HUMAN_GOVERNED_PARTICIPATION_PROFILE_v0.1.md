@@ -78,6 +78,7 @@ A citizenship/participation profile may represent machine-interpretable particip
 - obligations;
 - prohibitions;
 - non-compensable constraints;
+- autonomy/control bounds and resource-budget references where the participation domain owns them;
 - accountability/evidence requirements;
 - validity/start/expiry/version/supersession;
 - revocation/suspension;
