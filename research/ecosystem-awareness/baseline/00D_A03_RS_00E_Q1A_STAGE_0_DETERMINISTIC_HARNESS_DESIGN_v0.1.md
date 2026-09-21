@@ -233,9 +233,25 @@ The trace must record:
 
 If any field is absent, or the loss is not detected at that handoff, the self-test fails and the candidate run must not be reported as evidence.
 
-### 8.2 Determinism self-test
+**Negative-control instrumentation test.** Repeat the same injected-loss fixture with the qualifier-loss detector/hook disabled or replaced by a no-op. The self-test MUST return FAIL. If it returns PASS, the self-test is non-discriminating and no candidate run is admissible.
 
-Two executions of the same frozen bundle and configuration must produce byte-identical **canonical traces** after excluding run ID and wall-clock timestamps. Their canonical-trace hashes must match. A mismatch is a harness failure, not a candidate finding.
+### 8.2 Canonical Trace v1 and determinism self-test
+
+Before any trace hash is evidence-bearing, the harness uses **Canonical Trace v1**:
+
+1. UTF-8 JSON only.
+2. Object keys sorted lexicographically.
+3. Semantic arrays retain declared order; collections declared set-like are sorted by their documented stable key before serialization.
+4. Repository/file paths are normalized to repository-relative POSIX form; absolute/local runtime prefixes are forbidden.
+5. The closed excluded-field set is: `run_id`, `wall_clock_timestamp`, `host_process_id` and `temporary_output_path`. No other field is silently dropped.
+6. JSON numbers are integers only. Any non-integral measurement is represented as a normalized decimal string by the trace producer; NaN and Infinity are forbidden.
+7. Serialization uses no insignificant whitespace and UTF-8 characters are emitted directly rather than platform-specific escapes where the reference helper permits.
+8. The record carries `canonicalization_version = "CTv1"`.
+9. SHA-256 is calculated over the exact Canonical Trace v1 bytes.
+
+The reference implementation is `fixtures/RS-00E-Q1a/canonical_trace_v1.py`; its unit tests are `fixtures/RS-00E-Q1a/test_canonical_trace_v1.py`.
+
+Two executions of the same frozen bundle and configuration must produce byte-identical Canonical Trace v1 bytes after the declared exclusions. Their SHA-256 hashes must match. A mismatch is a harness failure, not a candidate finding.
 
 ## 9. Execution sequence
 
