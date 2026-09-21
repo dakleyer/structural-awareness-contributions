@@ -364,8 +364,6 @@ F2.APQ is decision-relative rather than a global channel-ranking function. It co
 
 The central optimization is architectural rather than omniscient: expand, refresh, redirect or narrow W(d,t) only when the expected decision value of doing so is material relative to its resource/privacy/latency burden and the remaining response horizon. F2 therefore guards both sides of the governing contradiction: Type 1 over-observation/over-processing and Type 2 under-observation/stale-frame overconfidence.
 
-Redirect changes which actors, dependencies, domains or acquisition pathways are admitted to or prioritized within W(d,t), or the selection basis used to construct that window. It does not imply a geometric centre, a change of identity or an authority grant. Candidate information/signalling actions may be compared by their decision-scoped epistemic value relative to cost, capacity and response horizon without creating a new F-function.
-
 &nbsp;
 
 For each domain, F2 must keep distinct:
