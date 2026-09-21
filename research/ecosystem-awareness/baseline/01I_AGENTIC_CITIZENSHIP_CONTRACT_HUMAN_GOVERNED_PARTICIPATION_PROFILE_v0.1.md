@@ -18,6 +18,14 @@ The concept has substantial prior art in normative multi-agent systems and elect
 
 This layer does not own identity, delegated authority, EA qualification, MSCA sufficiency or defence execution.
 
+### 1.1 Dependency key for a first-time reader
+
+- **EA / Ecosystem Awareness:** the decision-scoped epistemic-qualification architecture that determines what a participant can responsibly rely on from its bounded ecosystem representation.
+- **01H:** the additive participant-local/distributed reading of EA, including optional signalling and local requalification.
+- **EHD / Epistemic Handoff Descriptor:** the bounded semantic handoff used to preserve result meaning, scope, UNKNOWN and source/dependency qualifiers across components.
+- **MSCA / Minimum Sufficient Control Architecture:** the separate control-sufficiency line that represents/assesses S/E/C/P/M under an applicable Objective Envelope and legitimate authority.
+- **Identity / Delegated Authority:** neighbouring mechanisms that establish who/what is acting and which mandate/capability is valid; 01I does not replace them.
+
 ## 2. Substrate assumption — autonomy without mandatory common governance
 
 The underlying ecosystem may contain participants with a locally declared objective, no declared objective, an acquired or negotiated objective, several competing objectives, no common policy, local-only policy, shared or incompatible interfaces, no external signalling, bilateral signalling, broad signalling meshes, heterogeneous technologies/control means, or cooperative/competitive/opportunistic/deceptive/adversarial strategies.
