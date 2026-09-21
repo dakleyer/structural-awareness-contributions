@@ -51,6 +51,8 @@ For participant i, decision d and time t, use participant indices when locality 
 - A/B/C/D — the canonical four epistemic positions, interpreted relative to the participant's active decision/window;
 - Q_i(d,t) — participant-local qualified operating-frame assessment for the declared receiving decision and scope.
 
+When this annex refers to F6 **systemic** assessment, systemic means composition across the domains and dependencies material to the declared receiving decision and scope. It does not denote one global ecosystem state, universal knowledge or a global posture.
+
 The base symbols Ω, U, R_U and W(d,t) retain their canonical meanings. The participant index is a locality clarification, not a new ontology.
 
 A participant may also hold **local, versioned references or representations** of:
