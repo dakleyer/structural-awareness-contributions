@@ -53,7 +53,7 @@ The first problem is whether the system or organization has represented the cond
 
 ### 2. Bounded epistemic state — Ecosystem Awareness
 
-No agent, human or subsystem has the complete ecosystem. Ecosystem Awareness asks what is sufficiently determined for the current decision, what remains unresolved, what potentially relevant state can reasonably be brought into the active window, and what structural residual remains beyond the bounded representation. The public reference freeze preserves the current architecture, validation profile and public FG-TIDA provenance without implying standards adoption.
+No agent, human or subsystem has the complete ecosystem. Ecosystem Awareness asks what is sufficiently determined for the current decision, what remains unresolved, what potentially relevant state can reasonably be brought into the active window, and what structural residual remains beyond the bounded representation. Current additive annexes make explicit that this qualification may remain participant-local in a non-orchestrated signalling mesh and separately explore a human-governed agent-participation/citizenship profile; neither extension replaces the frozen architecture or external identity, authority, policy or governance owners. The public reference freeze preserves the current architecture, validation profile and public FG-TIDA provenance without implying standards adoption.
 
 ### 3. During operation — Regime Awareness
 
