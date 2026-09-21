@@ -8,6 +8,8 @@
 2. [**Minimum Sufficient Control / MSCA**](../../standards/minimum-sufficient-control/README.md) — the control-sufficiency and authorized-response line, including its proposed interfaces with EA.
 3. [**Regime Awareness**](../regime-awareness/README.md) — the operating-validity line, including Minimalistic Regime-Aware Early Warning Systems and the Regime Change Detection review route.
 
+The canonical corpus index now also routes two additive, non-frozen extensions: **01H Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity**, which makes the distributed/no-supercontroller reading explicit, and **01I Agentic Citizenship Contract**, a separate human-governed participation/constraint neighbour outside the EA core.
+
 ## Routing rule
 
 This page should remain a router while the programme structure is still being consolidated. New substantive documents, cases, interface annexes, validation material and historical records should be indexed in the appropriate destination README rather than linked directly from here.
