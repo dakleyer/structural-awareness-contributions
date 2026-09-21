@@ -20,7 +20,15 @@ The architecture therefore separates:
 
 No EA or MSCA result creates identity, authority, policy, contractual standing or permission to act.
 
-### 1.1 Plain-language reading key
+### 1.1 Dependency key for a first-time reader
+
+- **Objective Envelope:** owner-declared outcomes, acceptable ranges and non-compensable constraints applicable to a mission/decision.
+- **EHD (Epistemic Handoff Descriptor):** implementation-neutral semantic handoff that preserves the decision-relevant meaning and qualifiers of an ordinary result; it is not a central bus or mandatory wire format.
+- **MSCA:** Minimum Sufficient Control Architecture; the separate control-sufficiency line that represents/assesses S/E/C/P/M and never creates authority by itself.
+- **APQ:** the existing F2 acquisition-pathway qualification mechanism used to compare whether additional evidence pathways are sufficiently useful for the current decision relative to burden and horizon.
+- **F1–F9:** the fixed EA functional architecture; this annex does not add a tenth function.
+
+### 1.2 Plain-language reading key
 
 A participant asks, for a declared receiving decision:
 
