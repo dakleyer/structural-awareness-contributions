@@ -125,7 +125,7 @@ A KPI pass is evidence for the declared scope; it does not prove an S# challenge
 | **C7 — gradual regime drift** | Individually sub-threshold changes jointly invalidate the prior mapping. | Late threshold cascade. | Detect cumulative basis loss within the declared boundary and requalify the affected window. |
 | **C8 — hidden common dependency** | Apparently independent signals share an upstream source or failure. | False corroboration and coordinated reversal. | Preserve or discover dependence; do not count correlated feeds as independent support. |
 
-**Fixture-coverage note.** The Stage-0 programme in [00D-A01 §4](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md#4-core-traceability-matrix) does not yet include a dedicated fixture for the simultaneous-reversal cascade mechanism in 00E §4.2. Q1d and N0 are not credited as its coverage.
+**Fixture-coverage note.** The Stage-0 programme in [00D-A01 §4](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md#4-core-traceability-matrix) does not yet include a dedicated fixture for the simultaneous-reversal cascade mechanism in 00E §4.2. Q1d and N0 are not credited as its coverage.
 
 ## 9. Existing agent benchmarks: useful evidence and missing joint test
 
