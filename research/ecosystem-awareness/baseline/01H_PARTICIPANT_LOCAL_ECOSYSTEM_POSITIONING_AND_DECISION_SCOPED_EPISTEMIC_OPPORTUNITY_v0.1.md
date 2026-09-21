@@ -65,7 +65,7 @@ A participant may also hold **local, versioned references or representations** o
 
 Those representations do not transfer ownership. If applicability, version, precedence or standing cannot be established, the state remains qualified, unresolved or UNKNOWN rather than becoming self-issued authority.
 
-A participant therefore never begins epistemically from "nothing" merely because the ecosystem has no central state. It begins from whatever local representation, constraints, memory, authority and current window it actually has — including the possibility that some of those fields are unknown or unpopulated.
+A newly instantiated participant may begin with an empty or nearly empty represented state, no external handoffs and no populated MSCA fields. EA treats that emptiness explicitly rather than assuming a shared default state. As soon as any local representation, constraint, memory, authority reference or observation exists, it is qualified as participant-local and may remain partly UNKNOWN or UNPOPULATED.
 
 ## 3. Optional and resource-bounded epistemic signalling
 
