@@ -60,8 +60,10 @@ The v0.4 split files are **ordered materialisations**, not separately complete c
 - [01B — EA ↔ MSCA](./01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md): owner-declared objective S, operating assumptions E, control dimensions C/P/M, candidate bidirectional inputs/outputs, permit and effect boundaries, requalification tests.
 - [01C — EA ↔ Regime Awareness/EWS](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md): Sufficiently Good detector requirements, representation/detection/action contracts, contextual boundary T*, responsibilities, five candidate interface payloads and falsifiers.
 - [01D — joint EA/MSCA/RA operation](./01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md): same-decision/scope/version binding, qualified versus UNKNOWN payloads, conditional RA dependency, permit precedence, shared cost ledger and race tests.
+- [01H — Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md): additive reconciliation of participant-local EA positioning, optional/resource-bounded signalling, Semantic-Window redirect, sparse/empty MSCA representation and anti-self-confirming EHD lineage. It creates no new F-function, interface family or operating posture.
+- [01I — Agentic Citizenship Contract](./01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md): additive neighbouring participation/governance profile for human-defined membership, admissible objectives, obligations/prohibitions, non-compensable constraints, revocation/exit and their bounded interfaces with EA, authority and MSCA. It is outside the EA core and does not assert legal personhood.
 
-These annexes are **general EA integration extensions**. Their parent MSCA and Regime Awareness/EWS documents remain independent corpora. They do not import programme-specific Theme numbering into the general architecture.
+These annexes are **general EA integration extensions or neighbouring governance extensions**. Their parent MSCA and Regime Awareness/EWS documents remain independent corpora. 01I also remains a separate governance/participation neighbour rather than an EA subcomponent. They do not import programme-specific Theme numbering into the general architecture.
 
 ## FG-TIDA application package
 
