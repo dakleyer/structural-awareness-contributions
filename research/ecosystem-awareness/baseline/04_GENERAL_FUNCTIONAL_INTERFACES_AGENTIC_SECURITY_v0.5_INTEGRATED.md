@@ -60,6 +60,12 @@ Relationship map. Producer result/profile â†’ EHD / decision-relevant handoff â†
 
 Emission-side obligation. The Epistemic Handoff Descriptor does not create a third epistemic control family. A producer remains responsible for applying the internal controls to its own state; the handoff obligation is to preserve the decision-relevant qualifiers needed for downstream interpretation. Where a qualifier cannot be established, it remains UNKNOWN rather than being fabricated. Missing qualification creates downstream Type-2 exposure, not automatic Type 2; the failure materializes only when an intermediary or receiver promotes the missing or bounded qualification into greater determination than was supplied.
 
+EHD exchange does not imply broadcast, reciprocal signalling, consensus or a common ecosystem view. A participant may emit without receiving, receive from one or several peers, or operate without external epistemic signalling.
+
+Where material, a handoff may carry a versioned reference to an applicable Objective Envelope, participation/citizenship profile, operating-frame version or local MSCA representation/profile, or only the bounded decision-relevant delta. These referenced objects remain source-owned and are not added to the universal EHD kernel.
+
+When a claim is re-emitted after material dependence on received handoffs, the applicable mapping/profile must preserve material upstream lineage or source dependence. Forwarding, aggregation or local recomposition does not create independent corroboration.
+
 # 
 
 Any component that emits a decision-relevant certainty, uncertainty, closure, verdict, assessment or recommendation should be able to attach an Epistemic Handoff Descriptor (EHD) at the abstraction level appropriate to the receiving decision.
