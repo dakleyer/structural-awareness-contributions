@@ -18,7 +18,7 @@ The fixture family contains three branches. **P1** gives both reports the same r
 | --- | --- |
 | Requirements and KPI protocol | [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), especially §5 and §6.1, at commit `5687b26b10dba065d56ccdaf31a2a028a3d06142` |
 | Comparator fairness | [00D — Canonical Architecture Benchmark](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) §4, at the same commit |
-| Fixture and oracle rules | [00D-A01](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md) §§3–8, at the same commit |
+| Fixture and oracle rules | [00D-A01](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) §§3–8, current renamed test-design artifact introduced at commit `721dc42b91e852f13c3d07971b919f6ef811d751`; historical pre-registration records retain their original filename/commit anchors |
 | Scenario facts and mechanism | [00E — Reference Failure Scenario](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), at commit `5687b26b10dba065d56ccdaf31a2a028a3d06142` |
 
 The actual pre-registration must replace this design anchor with exact document paths, versions and commits, including its own **prior** public commit. A document cannot self-anchor to the commit that creates it.
