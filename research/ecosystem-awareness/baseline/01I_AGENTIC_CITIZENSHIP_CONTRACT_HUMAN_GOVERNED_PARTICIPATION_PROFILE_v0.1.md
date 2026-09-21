@@ -98,7 +98,7 @@ EA does **not** invent precedence between conflicting profiles.
 
 If no legitimate conflict/precedence owner or rule is available, the conflict remains explicit and may force requalification, containment or owner escalation according to the surrounding architecture.
 
-Membership and applicability can change over time. A participant may join, leave, be suspended, lose a role, obtain a delegated capability or move into a different interaction context without any global controller knowing or approving every local state transition.
+Membership and applicability can change over time. Role enactment may also change interaction by interaction: the participation profile constrains eligibility and admissibility, while identity/delegation/policy mechanisms establish the actual role or authority in force for the interaction. A participant may join, leave, be suspended, lose a role, obtain a delegated capability or move into a different interaction context without any global controller knowing or approving every local state transition.
 
 ## 7. Cooperation, competition, deception and free-riding
 
