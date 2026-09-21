@@ -124,6 +124,8 @@ The intended ownership chain is:
 
 No layer substitutes for another.
 
+A defence or self-healing mechanism may consume compliance findings, qualified signals or containment/recovery needs relative to an applicable participation profile, but it remains a separate authorized downstream capability. 01I does not itself monitor, sanction, quarantine or heal the ecosystem.
+
 The citizenship layer defines admissible participation conditions. EA decides neither what those conditions ought to be nor whether a human/legal order is normatively justified.
 
 ## 9. Human-governance anchor and future population/game-theoretic tests
