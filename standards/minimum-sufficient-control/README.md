@@ -2,6 +2,8 @@
 
 Minimum Sufficient Control asks which **authorized configuration** of coordination, interventions and enabling means can keep owner-declared outcomes inside an acceptable Objective Envelope under stated operating assumptions — and which supported alternative has the lowest justified burden. It is a conditional, multi-objective sufficiency problem, not one fixed stack or proof of a global optimum. Detection and epistemic qualification matter, but neither automatically grants an intervention permit.
 
+The S/E/C/P/M **representation** may exist before sufficiency can be assessed and may be partial, UNKNOWN or unpopulated. Such a representation supports discovery, comparison and progressive qualification; it is not a supported minimum until the applicable Objective Envelope, assumptions, evidence and authorization justify that status.
+
 This folder is the **reading entry point for the MSCA line**. The formal submission remains in its own submission route and the Tegrity.AI paper remains at its publication URL; the links below identify the source artefacts rather than creating uncontrolled duplicate copies.
 
 ## Read in order
