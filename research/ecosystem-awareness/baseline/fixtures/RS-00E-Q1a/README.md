@@ -19,6 +19,7 @@ These records are immutable and retained for public lineage. They must not be ci
 | [v0.1](./pre_registration_v0.1.md) | `dab01272a8d599b277c20519e9cf35d5344533bd` | Superseded before execution |
 | [v0.2](./pre_registration_v0.2.md) | `1b9fed23eb3e4868a29ea86892c52f21983aa742` | Superseded before execution |
 | [v0.3](./pre_registration_v0.3.md) | `830148260493bd6b46b5889e2ce326c86544b30f` | Superseded before execution |
+| [v0.4](./pre_registration_v0.4.md) | `351923834ea21445dc7d38a1d4ebff968f41587e` | Superseded before execution by v0.5; retained immutable for public lineage |
 
 ## Next execution boundary
 
