@@ -255,7 +255,7 @@ Two executions of the same frozen bundle and configuration must produce byte-ide
 
 ## 9. Execution sequence
 
-1. Create and publicly commit the `RS-00E-Q1a` pre-registration record, with final owners, B1 configuration/defender, closed postures, tolerances, stop rule and source anchors.
+1. Use the operative `RS-00E-Q1a` pre-registration v0.5 and cite commit `00241c5c3ab554dd732467ef0ae4c175f958d144` in every Step-0 trace; do not execute against superseded v0.1–v0.4 records.
 2. Build the P1, P2 and C0 bundles, `O_ref`, adapters, evaluator and trace writer from this design.
 3. Run the determinism self-test and qualifier-loss instrumentation self-test; publish both traces.
 4. Execute P1, P2 and C0 as one fixture family.
