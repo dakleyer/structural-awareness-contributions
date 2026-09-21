@@ -292,6 +292,8 @@ Purpose
 
 Determine whether the composed epistemic state is sufficient to justify the current operating frame and identify the appropriate high-level posture.
 
+For F6, **systemic** means composed across the domains and dependencies material to the declared receiving decision and scope. It does not denote one global ecosystem state, universal knowledge or a global posture.
+
 &nbsp;
 
 Inputs
