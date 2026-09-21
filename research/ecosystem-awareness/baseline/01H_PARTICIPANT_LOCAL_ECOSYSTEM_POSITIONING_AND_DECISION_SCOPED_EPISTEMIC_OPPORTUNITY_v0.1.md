@@ -47,7 +47,7 @@ For participant i, decision d and time t, use participant indices when locality 
 
 - U_i(d,t) — bounded represented universe used by participant i;
 - W_i(d,t) — active decision-scoped Semantic Window selected from the represented/observable state available to i;
-- R_Ui — open decision-relevant residual relative to U_i;
+- R_{U_i} — open decision-relevant residual relative to U_i;
 - A/B/C/D — the canonical four epistemic positions, interpreted relative to the participant's active decision/window;
 - Q_i(d,t) — participant-local qualified operating-frame assessment for the declared receiving decision and scope.
 
