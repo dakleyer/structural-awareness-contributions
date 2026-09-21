@@ -292,8 +292,6 @@ Purpose
 
 Determine whether the composed epistemic state is sufficient to justify the current operating frame and identify the appropriate high-level posture.
 
-For F6, **systemic** means composed across the domains and dependencies material to the declared receiving decision and scope. It does not denote one global ecosystem state, universal knowledge or a global posture.
-
 &nbsp;
 
 Inputs
@@ -613,8 +611,6 @@ The architecture therefore learns operationally without assuming that previous c
 &nbsp;
 
 Pathway learning remains scope-indexed. F9 may retain evidence that an acquisition pathway was useful, stale, redundant, costly or independently informative for a stated domain, decision/context and time profile, but it must not convert repeated historical success into a portable global trust or quality score for that pathway. Historical usefulness is evidence for a new qualification; it does not substitute for current scope, provenance, freshness, source dependence, property basis or response conditions.
-
-When an external EHD/signalling peer or channel is used as an acquisition pathway, the same rule applies: F9 may retain scoped evidence that the route was useful, stale, redundant, costly, misleading or independently informative, but repeated success must not become a portable global trust score for the peer or channel.
 
 &nbsp;
 
