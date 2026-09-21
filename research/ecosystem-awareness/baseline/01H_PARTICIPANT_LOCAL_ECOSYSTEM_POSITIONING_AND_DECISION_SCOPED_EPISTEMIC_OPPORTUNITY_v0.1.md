@@ -91,6 +91,8 @@ More signalling is therefore not intrinsically better. Consistent with the prese
 
 The receiver remains independently governed. It may trust, distrust, weight, corroborate, reject or ignore a signal according to its own legitimate logic and available evidence.
 
+When an external EHD/signalling peer or channel is used as an acquisition pathway, the existing F9 pathway-learning discipline applies: a participant may retain scoped evidence that the route was useful, stale, redundant, costly, misleading or independently informative for a stated decision/context/time profile, but repeated success must not become a portable global trust score for the peer or channel.
+
 Partial participation is an ordinary condition, not an exception. The architecture must remain meaningful when some participants refuse to signal, disclose minimally, disappear, free-ride or operate under incompatible objectives.
 
 ## 4. Semantic Window redirection and decision-scoped epistemic opportunity
