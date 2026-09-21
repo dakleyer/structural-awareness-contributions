@@ -1,6 +1,6 @@
 # Ecosystem Awareness — DAOS-derived validation profiles
 
-Start with the [DAOS → EA use-case engineering masterclass](./DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md). It explains the parent Case Study, its minimum mobility instantiation, upward/downward/horizontal extensibility, the exposed CH‑S1…14 challenges, and how four EA profiles derive from the **same** T0–T2 facts.
+Start with the general EA validation family below. The DAOS → EA engineering masterclass is FG-TIDA-specific and is maintained separately in the [FG-TIDA cases package](../fg-tida/cases/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md); it can be used as one concrete external fixture without making the four EA profiles FG-TIDA-owned.
 
 ## Read the complete profiles
 
@@ -9,7 +9,7 @@ Start with the [DAOS → EA use-case engineering masterclass](./DAOS_EA_USE_CASE
 3. [UC‑EA‑02 v0.6 — bounded determination under incomplete evidence](./UC-EA-02_v0.6_MAINTENANCE_FREEZE.md) — maintenance freeze.
 4. [UC‑EA‑03 v0.4 — human oversight under bounded effective capacity](./UC-EA-03_v0.4_MAINTENANCE_FREEZE.md) — maintenance freeze.
 5. [UC‑EA‑04 v0.5 — scope-indexed composition of local determinations](./UC-EA-04_v0.5_MAINTENANCE_FREEZE.md) — maintenance freeze.
-6. [EA‑ITP‑01 interoperability test profile](./EA-ITP-01_v0.1_FROZEN.md) — frozen, separate test artifact.
+6. [EA‑ITP‑01 interoperability test profile](../fg-tida/tests/EA-ITP-01_v0.1_FROZEN.md) — frozen, separate **FG-TIDA-specific** test artifact; not a fifth general EA validation profile.
 
 The continuous files are **source-preserving assemblies of their previously published ordered parts**. The parts remain available as transfer/provenance artefacts. File presence and word-level reading checks do not yet establish the controlled Drive revision and SHA‑256 inventory required by the [corpus manifest](./CANONICAL_CORPUS_MANIFEST.md).
 
