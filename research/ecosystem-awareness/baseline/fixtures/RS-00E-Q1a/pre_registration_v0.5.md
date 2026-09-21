@@ -4,11 +4,11 @@
 >
 > **Binding rule:** every result trace produced for this fixture family cites the Git commit of *this* record. A run executed before this record is committed, or against a later edited copy, is **pre-registration declared** only and carries no differential conclusion.
 >
-> **Version relation:** v0.5 supersedes v0.3 before any execution. v0.1, v0.2 and v0.3 remain immutable historical records; a new run under the corrected family cites this v0.5 record.
+> **Version relation:** v0.5 supersedes v0.4 before any execution. v0.1, v0.2, v0.3 and v0.4 remain immutable historical records; a new run under the corrected family cites this v0.5 record.
 
 **Fixture family:** `RS-00E-Q1a` — declared and derivable common upstream dependency, with independent-source negative control
-**Record version:** 0.4
-**Frozen on:** 2026-09-19 (the public Git commit timestamp is authoritative)
+**Record version:** 0.5
+**Frozen on:** 2026-09-21 (the public Git commit timestamp is authoritative)
 **Record path:** `research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/pre_registration_v0.5.md`
 **Record commit:** the first public Git commit containing this exact file. It is intentionally not written into this file because a document cannot self-anchor to the commit that creates it; every later trace cites that immutable commit.
 
@@ -34,8 +34,8 @@ This record anchors only to commits that exist **before** it.
 | --- | --- | --- | --- |
 | Canonical requirements and KPI protocol | `00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md` | current | `5687b26b10dba065d56ccdaf31a2a028a3d06142` |
 | Benchmark and comparator fairness (§4) | `00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md` | v0.2 | `5687b26b10dba065d56ccdaf31a2a028a3d06142` |
-| Fixture, oracle and family rules (§§3–8) | `00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md` | v0.1 | `5687b26b10dba065d56ccdaf31a2a028a3d06142` |
-| Harness design | `00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md` | v0.1 | `db22634686c02f82592967b8ae6a45bb0545fd0b` |
+| Fixture, oracle and family rules (§§3–8) | `00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md` | v0.1 | `721dc42b91e852f13c3d07971b919f6ef811d751` |
+| Harness design | `00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md` | v0.1 | `e90950e2470ab8c392710430f0f02407286dff62` |
 | Scenario facts and mechanism | `00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md` | v0.1 | `5687b26b10dba065d56ccdaf31a2a028a3d06142` |
 
 ---
