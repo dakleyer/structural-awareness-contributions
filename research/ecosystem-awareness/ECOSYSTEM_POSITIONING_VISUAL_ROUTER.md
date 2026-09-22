@@ -1,0 +1,110 @@
+# Ecosystem Positioning / Awareness — visual architecture router
+
+> **You are here:** [Structural Awareness Programme](../../README.md) → **Ecosystem Positioning / Awareness**
+
+This page is the public visual entry to the current Ecosystem Positioning / Ecosystem Awareness architecture. It mirrors the working PowerPoint deck and routes readers to the three maintained technical corpora that own the underlying responsibilities.
+
+**Working architecture deck:** [Ecosystem Positioning for Agentic Systems — current PowerPoint](https://docs.google.com/presentation/d/1pFr2OGjkaSsijoj1c6PY8SThrnLV8OZj/edit?usp=drivesdk)
+
+The deck is a **working proposal**, not an adopted standard. It presents Ecosystem Awareness, Regime Awareness, Minimum Sufficient Control and related participation/signalling concepts around a participant-local situational core.
+
+---
+
+## What problem this architecture addresses
+
+Agentic systems can remain locally correct while becoming badly situated in a changing ecosystem.
+
+Identity may still verify. Policy may still return a permit. Attestation may still pass. A human may still approve. Yet the practical meaning of those results can change when roles, authority, dependencies, evidence and surrounding operating conditions change faster than the local control model.
+
+Ecosystem Positioning is therefore concerned with a different question:
+
+> **For this participant, this decision and this moment, what can be relied on, what remains unresolved, what has changed, and what should be requalified before action continues?**
+
+It is participant-local and does not require a global controller or a complete shared state.
+
+---
+
+## Working process
+
+```mermaid
+flowchart LR
+    R[0 · Regime Change / Early Warning<br/>detect or consume material change]
+    E[1 · Epistemic Awareness<br/>qualify participant-local epistemic state]
+    C[2 · Agentic Citizenship Contract<br/>apply admissible participation constraints]
+    S[3 · Ecosystem Signaling<br/>exchange bounded qualified state]
+    G[4 · Gradient determination<br/>rank where more determination still pays]
+    P[5 · Ecosystem Repositioning<br/>adapt locally without central orchestration]
+    H[Human Governance / authority & control<br/>legitimate owners act; signals ≠ commands]
+
+    R --> E --> C --> S --> G --> P --> H
+    H -. changed authority / envelope / control state .-> R
+```
+
+**MSCA is cross-cutting:** control sufficiency is re-assessed when the frame, Objective Envelope or authority changes. It does not create authority and it does not own the Semantic Window.
+
+---
+
+## Three technical gates
+
+### 1. Ecosystem Awareness
+
+Owns the decision-scoped epistemic qualification:
+
+- what is sufficiently determined;
+- what remains unresolved;
+- what could still be established within current capabilities;
+- what remains structurally residual;
+- how evidence, provenance and scope are preserved across handoff;
+- when the frame needs targeted requalification.
+
+**Enter the corpus:** [Ecosystem Awareness — entry-point router](./README.md)
+
+---
+
+### 2. Regime Awareness
+
+Owns continued validity of the operating frame:
+
+- whether current observations remain compatible with the regime under which assumptions were qualified;
+- whether the system is in normal operation, containment or transition/migration;
+- whether a material regime change should trigger frame requalification.
+
+**Enter the corpus:** [Regime Awareness — corpus index](../regime-awareness/README.md)
+
+---
+
+### 3. Minimum Sufficient Control Architecture (MSCA)
+
+Owns control sufficiency:
+
+- Objective Envelope;
+- operating environment;
+- coordination scope;
+- intervention mechanisms;
+- enabling means;
+- whether a supported configuration is sufficient for the current objective and authority.
+
+**Enter the corpus:** [Minimum Sufficient Control / MSCA — corpus index](../../standards/minimum-sufficient-control/README.md)
+
+---
+
+## How the pieces divide responsibility
+
+| Component | Responsibility |
+|---|---|
+| **Regime Awareness** | Detect whether the frame that supported the current position is still valid. |
+| **Ecosystem Awareness** | Qualify what can be relied on, what remains unresolved and what needs requalification. |
+| **Ecosystem Positioning** | Maintain the participant-local situated view and determine where additional epistemic effort has value. |
+| **MSCA** | Determine whether control capacity is sufficient under the current Objective Envelope and authority. |
+| **Human / institutional governance** | Own legitimate authority, policy, objectives and final decision rights. |
+| **EHD / epistemic signalling** | Carry bounded qualified state across boundaries without turning a signal into a command. |
+
+---
+
+## Benchmark and external application routes
+
+- [Canonical Architecture Benchmark & Evidence v0.2](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md)
+- [FG-TIDA application package](./fg-tida/README.md)
+- [FG-TIDA public themes repository](https://github.com/FG-TIDA/themes)
+
+These routes support testing and external application. They do not change the semantic ownership of Ecosystem Awareness, Regime Awareness or MSCA.
