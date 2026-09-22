@@ -1,5 +1,8 @@
 # Ecosystem Awareness — FG-TIDA application package
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../README.md) → **FG-TIDA application package**
+
+
 > **FG-TIDA-specific application package.** This folder is deliberately separate from the general Ecosystem Awareness canonical architecture. It records how EA is being projected into the current FG-TIDA process, what an ideal FG-TIDA mapping would look like, what the public source state currently supports, and which FG-TIDA-specific cases/tests are available. Nothing in this package changes the general EA architecture by itself.
 
 ## Read in this order
