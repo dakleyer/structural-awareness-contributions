@@ -37,6 +37,7 @@ documents, evidence, cases, tests, manifests and provenance
 - [Structural Awareness Programme](./README.md)
 - Purpose: route only to principal Level-3 entries.
 - It must not become a detailed technical index and must not deep-link benchmark files, fixtures, failure scenarios, FG-TIDA cases or other corpus-internal documents.
+- **Every current or future Level-2 README must contain a direct link to this `DOCUMENT_CONTROL.md` and instruct editors/bots to verify and update it whenever navigation changes.**
 
 ### Level 3 — principal routed entries
 
