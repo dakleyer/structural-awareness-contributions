@@ -11,7 +11,7 @@ It is deliberately organized in **four parts**:
 1. **Mathematics and formal theory** — the abstract limits, structures and candidate mathematical objects.
 2. **Series and Field Notes** — the explanatory theories that make the structural problem understandable in organizational and systems terms.
 3. **Field work and engineering lineage** — systems that were actually built or operated and that expose the problem under real constraints.
-4. **Ecosystem Positioning / Ecosystem Awareness** — the current architecture that turns those lessons into a participant-local operating model for changing agentic ecosystems.
+4. **Ecosystem Positioning** — the current **Agentic Architecture** component: a participant-local architecture for remaining situated and requalifying as evidence, authority, roles and the surrounding ecosystem change.
 
 These are four parts of one programme, not four competing indexes.
 
@@ -157,11 +157,11 @@ That is the bridge into the current architecture.
 
 ---
 
-# 4. Ecosystem Positioning / Ecosystem Awareness
+# 4. Ecosystem Positioning
 
 ## What this part is
 
-This is the current architecture work.
+This is the **Agentic Architecture** part of Structural Awareness.
 
 It addresses agentic and institutional systems in which **no participant has the complete ecosystem, roles and authority can change, evidence arrives from independently governed sources, and there may be no central orchestrator capable of maintaining one global state**.
 
@@ -169,9 +169,9 @@ The core question is:
 
 > **For this participant, this decision and this moment, what can be relied on, what remains unresolved, what has changed, and where would additional determination still matter?**
 
-**Ecosystem Positioning** is the participant-local situational view.
+**Ecosystem Positioning** is the architectural component: the participant-local situational core for an agent or institution operating in a changing ecosystem.
 
-**Ecosystem Awareness** provides the decision-scoped epistemic qualification that supports that view.
+It is supported by separate technical responsibilities, including **Ecosystem Awareness**, **Regime Awareness** and **Minimum Sufficient Control Architecture (MSCA)**. Those corpora keep their own semantics and evidence; Ecosystem Positioning composes their decision-relevant state without absorbing their ownership.
 
 The current working architecture coordinates this with:
 
@@ -180,9 +180,9 @@ The current working architecture coordinates this with:
 - **epistemic handoff / signalling** — how bounded qualified state crosses organizational and technical boundaries;
 - **human and institutional governance** — the owners of legitimate authority, policy, objectives and final decision rights.
 
-## Visual entry: the working Ecosystem Positioning architecture
+## Visual entry: Ecosystem Positioning Agentic Architecture
 
-The PowerPoint working deck is intended as the **visual router** for this fourth part of Structural Awareness.
+The PowerPoint working deck is the **visual router** for this fourth part of Structural Awareness and the current canonical presentation of the Ecosystem Positioning Agentic Architecture.
 
 **[Open the current Ecosystem Positioning working deck](https://docs.google.com/presentation/d/1pFr2OGjkaSsijoj1c6PY8SThrnLV8OZj/edit?usp=drivesdk)**
 
@@ -225,7 +225,7 @@ If you arrived here with a particular question:
 | the mathematical/formal work | [ResearchGate](https://www.researchgate.net/profile/Ivan-Abril-Palma-2) |
 | the explanatory theories and Field Notes | [Tegrity.AI Field Notes](https://tegrity.ai/articles/) |
 | the engineering lineage and field cases | Phylons, [xSeil](https://jubap.net/xseil-vrp/) and [Mobility Operating System](https://jubap.eu/car-pooling-orchestration/) above |
-| the current agentic architecture | [Ecosystem Positioning visual router](./research/ecosystem-awareness/ECOSYSTEM_POSITIONING_VISUAL_ROUTER.md) |
+| the current Ecosystem Positioning Agentic Architecture | [Ecosystem Positioning visual router](./research/ecosystem-awareness/ECOSYSTEM_POSITIONING_VISUAL_ROUTER.md) |
 | the Ecosystem Awareness corpus | [Ecosystem Awareness README](./research/ecosystem-awareness/README.md) |
 | regime validity / regime change | [Regime Awareness README](./research/regime-awareness/README.md) |
 | sufficient authorized response | [MSCA README](./standards/minimum-sufficient-control/README.md) |
