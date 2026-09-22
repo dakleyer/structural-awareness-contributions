@@ -1,5 +1,8 @@
 # Regime Awareness — corpus index
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → **Regime Awareness**
+
+
 Regime Awareness asks whether the evidence and historical context behind a current inference or control posture still belong to the operating regime for which they were qualified. It does not require complete hidden-state reconstruction or exact future prediction. Regime Change Detection is the narrower quantitative question of observable departure; actionable warning additionally needs representational sufficiency, a useful response horizon, legitimate authority and bounded action downside.
 
 This folder keeps the programme, EWS anchor and quantitative review route distinct. The previously published [programme context](./PROGRAMME_CONTEXT.md) remains intact as a separate explanatory source; this page is the short navigation entry point.
