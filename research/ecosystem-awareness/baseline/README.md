@@ -1,5 +1,8 @@
 # Ecosystem Awareness — canonical corpus
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../README.md) → **Canonical corpus**
+
+
 > **Substantive corpus citation anchor (19 September 2026):** [`55fb4da3e5b6c54ecdffe7b12670e1edde408787`](https://github.com/dakleyer/structural-awareness-contributions/commit/55fb4da3e5b6c54ecdffe7b12670e1edde408787). `main` is the live public reading route; cite the full commit URL of the corpus version read for a stable reference.
 
 Ecosystem Awareness (EA) asks whether the evidence, assumptions and available response behind **this decision** still justify its operating frame when the surrounding ecosystem is only partly known and changing. A locally correct agent, policy result or human approval need not establish a supported whole-system conclusion. More search, more agents or more review may consume the time and capacity needed to respond without resolving the material gap. EA therefore makes the observation boundary, residual uncertainty, source dependence and decision horizon explicit; qualifies what can be composed; and requests the smallest useful requalification when the frame changes.
