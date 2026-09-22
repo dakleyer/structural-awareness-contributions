@@ -8,16 +8,16 @@ The programme is developed through **Tegrity.AI, part of The Integral Management
 
 It is deliberately organized in **four parts**:
 
-1. **Mathematics and formal theory** — the abstract limits, structures and candidate mathematical objects.
-2. **Series and Field Notes** — the explanatory theories that make the structural problem understandable in organizational and systems terms.
-3. **Field Practice / engineering** — systems that were actually built or operated and that expose the problem under real constraints.
+1. **Mathematical Contributions** — the formal and mathematical work published through the ResearchGate route.
+2. **Field Notes / Research Series** — the explanatory series that make the structural problem understandable in organizational, economic and systems terms.
+3. **Field Practice / Engineering** — systems that were actually built or operated and that expose the problem under real constraints.
 4. **Architectural Contributions / pre-standardization** — current architecture contributions derived from the programme. The first maintained contribution is **Ecosystem Positioning**, a participant-local Agentic Architecture for remaining situated and requalifying as evidence, authority, roles and the surrounding ecosystem change.
 
 These are four parts of one programme, not four competing indexes.
 
 ---
 
-# 1. Mathematics and formal theory
+# 1. Mathematical Contributions
 
 ## What this part is
 
@@ -37,7 +37,7 @@ That is the place to start if the question is:
 
 ---
 
-# 2. Series and Field Notes
+# 2. Field Notes / Research Series
 
 ## What this part is
 
@@ -104,7 +104,7 @@ Together they explain different mechanisms through which structural awareness ca
 
 ---
 
-# 3. Field work and engineering lineage
+# 3. Field Practice / Engineering
 
 ## What this part is
 
