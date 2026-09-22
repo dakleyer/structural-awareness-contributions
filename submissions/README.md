@@ -1,5 +1,8 @@
 # Public-ready submissions and contributions
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → **Public submissions and contributions**
+
+
 This library contains material already transmitted to, acknowledged by or publicly discussed within United Nations and ITU technical processes. The repository is public for review and traceability; each package retains its own status and attribution limits.
 
 | Route | Contribution | Included record | Procedural status |
