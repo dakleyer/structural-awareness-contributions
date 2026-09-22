@@ -1,8 +1,5 @@
 # Minimum Sufficient Control / MSCA — corpus index
 
-> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → **Minimum Sufficient Control / MSCA**
-
-
 Minimum Sufficient Control asks which **authorized configuration** of coordination, interventions and enabling means can keep owner-declared outcomes inside an acceptable Objective Envelope under stated operating assumptions — and which supported alternative has the lowest justified burden. It is a conditional, multi-objective sufficiency problem, not one fixed stack or proof of a global optimum. Detection and epistemic qualification matter, but neither automatically grants an intervention permit.
 
 The S/E/C/P/M **representation** may exist before sufficiency can be assessed and may be partial, UNKNOWN or unpopulated. Such a representation supports discovery, comparison and progressive qualification; it is not a supported minimum until the applicable Objective Envelope, assumptions, evidence and authorization justify that status.
