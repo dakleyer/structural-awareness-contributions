@@ -10,8 +10,8 @@ It is deliberately organized in **four parts**:
 
 1. **Mathematics and formal theory** — the abstract limits, structures and candidate mathematical objects.
 2. **Series and Field Notes** — the explanatory theories that make the structural problem understandable in organizational and systems terms.
-3. **Field work and engineering lineage** — systems that were actually built or operated and that expose the problem under real constraints.
-4. **Ecosystem Positioning** — the current **Agentic Architecture** component: a participant-local architecture for remaining situated and requalifying as evidence, authority, roles and the surrounding ecosystem change.
+3. **Field Practice / engineering** — systems that were actually built or operated and that expose the problem under real constraints.
+4. **Architectural Contributions / pre-standardization** — current architecture contributions derived from the programme. The first maintained contribution is **Ecosystem Positioning**, a participant-local Agentic Architecture for remaining situated and requalifying as evidence, authority, roles and the surrounding ecosystem change.
 
 These are four parts of one programme, not four competing indexes.
 
@@ -157,62 +157,54 @@ That is the bridge into the current architecture.
 
 ---
 
-# 4. Ecosystem Positioning
+# 4. Architectural Contributions / pre-standardization
 
 ## What this part is
 
-This is the **Agentic Architecture** part of Structural Awareness.
+This is where Structural Awareness becomes architecture.
 
-It addresses agentic and institutional systems in which **no participant has the complete ecosystem, roles and authority can change, evidence arrives from independently governed sources, and there may be no central orchestrator capable of maintaining one global state**.
+Architectural Contributions translate the mathematical, Field Notes and Field Practice work into inspectable components that can be reviewed, benchmarked and, where appropriate, carried into pre-standardization discussions.
 
-The core question is:
+For now there is **one maintained architectural contribution in this section: Ecosystem Positioning**.
+
+## Ecosystem Positioning — Agentic Architecture
+
+Ecosystem Positioning addresses agentic and institutional systems in which **no participant has the complete ecosystem, roles and authority can change, evidence arrives from independently governed sources, and there may be no central orchestrator capable of maintaining one global state**.
+
+Its core question is:
 
 > **For this participant, this decision and this moment, what can be relied on, what remains unresolved, what has changed, and where would additional determination still matter?**
 
-**Ecosystem Positioning** is the architectural component: the participant-local situational core for an agent or institution operating in a changing ecosystem.
+Ecosystem Positioning is the participant-local situational core. It is supported by separate technical responsibilities — **Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control Architecture (MSCA)** — without absorbing their semantic ownership.
 
-It is supported by separate technical responsibilities, including **Ecosystem Awareness**, **Regime Awareness** and **Minimum Sufficient Control Architecture (MSCA)**. Those corpora keep their own semantics and evidence; Ecosystem Positioning composes their decision-relevant state without absorbing their ownership.
+### Canonical presentation
 
-The current working architecture coordinates this with:
+The presentation is the **visual router** for Ecosystem Positioning and the fastest way to enter this architectural contribution.
 
-- **Regime Awareness / Regime Change Detection** — whether the frame supporting the current position is still valid;
-- **Minimum Sufficient Control Architecture (MSCA)** — whether the available authorized control configuration is sufficient;
-- **epistemic handoff / signalling** — how bounded qualified state crosses organizational and technical boundaries;
-- **human and institutional governance** — the owners of legitimate authority, policy, objectives and final decision rights.
+### ⬇️ [Download the canonical PowerPoint (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
 
-## Visual entry: Ecosystem Positioning Agentic Architecture
+### 📄 [Open the canonical PDF](./presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
 
-The PowerPoint working deck is the **visual router** for this fourth part of Structural Awareness and the current canonical presentation of the Ecosystem Positioning Agentic Architecture.
+[Presentation manifest](./presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) · [Human-readable visual router](./research/ecosystem-awareness/ECOSYSTEM_POSITIONING_VISUAL_ROUTER.md)
 
-**[Open the current Ecosystem Positioning working deck](https://docs.google.com/presentation/d/1pFr2OGjkaSsijoj1c6PY8SThrnLV8OZj/edit?usp=drivesdk)**
+The deck routes upward to the **Structural Awareness Programme** and downward to the three maintained technical gates:
 
-For a public GitHub-readable version of the same route:
+- **Ecosystem Awareness** — decision-scoped epistemic qualification;
+- **Regime Awareness** — continued validity of the operating frame and regime-change detection;
+- **MSCA** — control sufficiency under the current Objective Envelope, authority and operating conditions.
 
-**[Ecosystem Positioning / Awareness — visual architecture router](./research/ecosystem-awareness/ECOSYSTEM_POSITIONING_VISUAL_ROUTER.md)**
+It also preserves the benchmark and FG-TIDA reference routes used by the working architecture.
 
-The visual route starts with regime change / early warning, qualifies the participant-local epistemic state, carries bounded state through signalling, evaluates where further determination has decision value, and supports local repositioning without requiring a global controller.
+### Technical gates
 
-## The three maintained technical gates
+**Ecosystem Awareness:** [entry-point README](./research/ecosystem-awareness/README.md)
 
-### Ecosystem Awareness
+**Regime Awareness:** [corpus README](./research/regime-awareness/README.md)
 
-Owns the epistemic qualification: what is established, unresolved, potentially obtainable or structurally residual; how scope and provenance are preserved; and when targeted requalification is required.
+**Minimum Sufficient Control / MSCA:** [corpus README](./standards/minimum-sufficient-control/README.md)
 
-**Enter:** [Ecosystem Awareness — entry-point router](./research/ecosystem-awareness/README.md)
+These corpora remain separate because they answer different questions. Ecosystem Positioning composes their decision-relevant state; it does not redefine their responsibilities.
 
-### Regime Awareness
-
-Owns continued validity of the operating frame and the regime-change question.
-
-**Enter:** [Regime Awareness — corpus index](./research/regime-awareness/README.md)
-
-### Minimum Sufficient Control Architecture
-
-Owns control sufficiency under the current Objective Envelope, environment, coordination scope, intervention mechanisms and enabling means.
-
-**Enter:** [Minimum Sufficient Control / MSCA — corpus index](./standards/minimum-sufficient-control/README.md)
-
-These three corpora remain separate because they answer different questions. Ecosystem Positioning uses their outputs to remain situated; it does not absorb their semantic ownership.
 
 ---
 
@@ -225,7 +217,7 @@ If you arrived here with a particular question:
 | the mathematical/formal work | [ResearchGate](https://www.researchgate.net/profile/Ivan-Abril-Palma-2) |
 | the explanatory theories and Field Notes | [Tegrity.AI Field Notes](https://tegrity.ai/articles/) |
 | the engineering lineage and field cases | Phylons, [xSeil](https://jubap.net/xseil-vrp/) and [Mobility Operating System](https://jubap.eu/car-pooling-orchestration/) above |
-| the current Ecosystem Positioning Agentic Architecture | [Ecosystem Positioning visual router](./research/ecosystem-awareness/ECOSYSTEM_POSITIONING_VISUAL_ROUTER.md) |
+| the current architectural contribution | [Ecosystem Positioning visual router](./research/ecosystem-awareness/ECOSYSTEM_POSITIONING_VISUAL_ROUTER.md) · [download canonical PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) |
 | the Ecosystem Awareness corpus | [Ecosystem Awareness README](./research/ecosystem-awareness/README.md) |
 | regime validity / regime change | [Regime Awareness README](./research/regime-awareness/README.md) |
 | sufficient authorized response | [MSCA README](./standards/minimum-sufficient-control/README.md) |
