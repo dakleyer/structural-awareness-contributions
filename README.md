@@ -185,7 +185,7 @@ The presentation is the **visual router** for Ecosystem Positioning and the fast
 
 ### 📄 [Open the canonical PDF](./presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
 
-[Presentation manifest](./presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) · [Human-readable visual router](./research/ecosystem-awareness/ECOSYSTEM_POSITIONING_VISUAL_ROUTER.md)
+[Presentation manifest](./presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) · [Human-readable visual router](./architectural-contributions/ecosystem-positioning/README.md)
 
 The deck routes upward to the **Structural Awareness Programme** and downward to the three maintained technical gates:
 
@@ -217,7 +217,7 @@ If you arrived here with a particular question:
 | the mathematical/formal work | [ResearchGate](https://www.researchgate.net/profile/Ivan-Abril-Palma-2) |
 | the explanatory theories and Field Notes | [Tegrity.AI Field Notes](https://tegrity.ai/articles/) |
 | the engineering lineage and field cases | Phylons, [xSeil](https://jubap.net/xseil-vrp/) and [Mobility Operating System](https://jubap.eu/car-pooling-orchestration/) above |
-| the current architectural contribution | [Ecosystem Positioning visual router](./research/ecosystem-awareness/ECOSYSTEM_POSITIONING_VISUAL_ROUTER.md) · [download canonical PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) |
+| the current architectural contribution | [Ecosystem Positioning visual router](./architectural-contributions/ecosystem-positioning/README.md) · [download canonical PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) |
 | the Ecosystem Awareness corpus | [Ecosystem Awareness README](./research/ecosystem-awareness/README.md) |
 | regime validity / regime change | [Regime Awareness README](./research/regime-awareness/README.md) |
 | sufficient authorized response | [MSCA README](./standards/minimum-sufficient-control/README.md) |
