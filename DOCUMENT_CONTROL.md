@@ -35,8 +35,10 @@ documents, evidence, cases, tests, manifests and provenance
 ### Level 2 — programme repository router
 
 - [Structural Awareness Programme](./README.md)
-- Purpose: route only to principal Level-3 entries.
-- It must not become a detailed technical index and must not deep-link benchmark files, fixtures, failure scenarios, FG-TIDA cases or other corpus-internal documents.
+- Purpose: explain the Structural Awareness programme to a human reader **and** route to the principal technical entries.
+- The Level-2 README must preserve the four-part programme explanation: **(1) mathematics/formal theory, (2) series and Field Notes, (3) field work/engineering lineage, (4) Ecosystem Positioning / Ecosystem Awareness architecture**.
+- It may link directly to the public sources that define those four parts (for example ResearchGate, Tegrity.AI series and field-work sources) and to the maintained technical gates for the fourth part.
+- It must not become a detailed technical file index or duplicate the internal document lists owned by the technical corpus routers.
 - **Every current or future Level-2 README must contain a direct link to this `DOCUMENT_CONTROL.md` and instruct editors/bots to verify and update it whenever navigation changes.**
 
 ### Level 3 — principal routed entries
@@ -159,6 +161,17 @@ A README must not be reduced to a sitemap, path table, index-of-indexes or bot-o
 Maintenance metadata, canonical path rules, controlled README counts and migration procedures belong in this `DOCUMENT_CONTROL.md`, not in place of the substantive human explanation.
 
 When simplifying a README, an editor must preserve its intellectual narrative, definitions, distinctions, relationships and evidence boundaries. Navigation should support the explanation rather than replace it.
+
+### Structural Awareness Level-2 content rule
+
+The repository root README is not merely a router. It is the human explanation of the programme and must continue to present **four stable parts**:
+
+1. **Mathematics and formal theory** — ResearchGate/publication route.
+2. **Series and Field Notes** — explanatory research such as Cost of Clarity, Human Intelligence Debt, Attribution Gap, Informational Friction and related series.
+3. **Field work and engineering lineage** — Phylons, xSeil and Mobility Operating System / Car Evolution.
+4. **Ecosystem Positioning / Ecosystem Awareness** — current architecture, including the visual architecture router and maintained gates to Ecosystem Awareness, Regime Awareness and MSCA.
+
+An editor must not replace those four explanatory parts with a generic sitemap, a table of folders or a list of README files.
 
 **Consistency rule:** if two public READMEs describe the same concept, they must not silently assign it different meanings. One page may be more detailed than another, but the conceptual relationship must remain compatible with the owning corpus.
 
