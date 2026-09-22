@@ -142,6 +142,28 @@ This sitemap describes navigation ownership, not every file in the repository.
 
 ---
 
+## 4A. Human-readable public information architecture
+
+**Primary rule:** public README files are written for human readers first.
+
+Every routed public README must answer, in ordinary language and before presenting navigation:
+
+1. **Where am I?**
+2. **What is this?**
+3. **Why does it exist / what problem does it solve?**
+4. **How does it relate to the surrounding programme without duplicating it?**
+5. **Where should I go next for the question I actually have?**
+
+A README must not be reduced to a sitemap, path table, index-of-indexes or bot-oriented routing contract if doing so removes the explanatory content that makes the work intelligible.
+
+Maintenance metadata, canonical path rules, controlled README counts and migration procedures belong in this `DOCUMENT_CONTROL.md`, not in place of the substantive human explanation.
+
+When simplifying a README, an editor must preserve its intellectual narrative, definitions, distinctions, relationships and evidence boundaries. Navigation should support the explanation rather than replace it.
+
+**Consistency rule:** if two public READMEs describe the same concept, they must not silently assign it different meanings. One page may be more detailed than another, but the conceptual relationship must remain compatible with the owning corpus.
+
+---
+
 ## 5. Modification rules
 
 ### Rule 1 — preserve the cascade
