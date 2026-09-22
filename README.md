@@ -16,6 +16,12 @@ The programme is developed through **Tegrity.AI, part of The Integral Management
 | **Applied research — Cost of Clarity / RUP** | Are the information, distinctions and authority required before commitment sufficiently available? | [Cost of Clarity / RUP](./applied-research/cost-of-clarity-rup/README.md) |
 | **Public submissions and contributions** | What material has been transmitted, acknowledged or publicly discussed through external institutional routes? | [Submissions library](./submissions/README.md) |
 
+## Document control
+
+Before changing repository navigation, moving or renaming routed documents, or creating/removing a README, read and verify [**DOCUMENT_CONTROL.md**](./DOCUMENT_CONTROL.md).
+
+That control file defines the current sitemap, protected routes, target canonical README count, migration rules and the required editor/bot checklist. **If navigation changes, it must be reviewed and updated in the same change.**
+
 ## Navigation contract
 
 The intended public navigation is:
