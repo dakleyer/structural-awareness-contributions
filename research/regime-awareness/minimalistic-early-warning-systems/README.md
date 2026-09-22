@@ -1,5 +1,8 @@
 # Minimalistic Regime-Aware Early Warning Systems — corpus index
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Regime Awareness](../README.md) → **Minimalistic Regime-Aware Early Warning Systems**
+
+
 The EWS line asks a narrower question than forecasting: given a declared observation map and finite history, does present observable behaviour remain compatible with its recent regime, and can a **bounded, authorized response** be justified while the response window is still useful? The hard boundary is often contextual: which observations, historical extent, resolution and transformation preserve the regime distinction without requiring the whole world as input?
 
 This folder is the **public reading index for the EWS anchor line**. The articles remain at their canonical Tegrity.AI publication URLs; this index does not claim to mirror, amend or independently validate them.
