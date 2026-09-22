@@ -1,5 +1,8 @@
 # Preserved non-canonical working inputs
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../../README.md) → [Canonical corpus](../README.md) → **Preserved non-canonical inputs**
+
+
 This folder records documents that remain available unchanged for provenance, working comparison and existing cross-references, but are **not** part of the canonical reading route.
 
 - [00A — Requirements for a Sufficiently Good Solution](../00A_SUFFICIENTLY_GOOD_SOLUTION_REQUIREMENTS.md) — preserved working source of the condition set.
