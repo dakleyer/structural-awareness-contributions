@@ -1,5 +1,8 @@
 # ITU-T FG-AI4SSC input FGAI4SSC-I-097
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Public submissions](../../README.md) → **ITU-T FG-AI4SSC input FGAI4SSC-I-097**
+
+
 `Minimum Sufficient Control: An Architectural Property of AI-enabled Urban Systems`, submitted to the ITU-T Focus Group on AI for Smart Sustainable Cities and Communities.
 
 ## Files
