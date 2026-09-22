@@ -1,12 +1,12 @@
-# Ecosystem Positioning / Awareness — visual architecture router
+# Ecosystem Positioning — Agentic Architecture visual router
 
-> **You are here:** [Structural Awareness Programme](../../README.md) → **Ecosystem Positioning / Awareness**
+> **You are here:** [Structural Awareness Programme](../../README.md) → **Ecosystem Positioning**
 
-This page is the public visual entry to the current Ecosystem Positioning / Ecosystem Awareness architecture. It mirrors the working PowerPoint deck and routes readers to the three maintained technical corpora that own the underlying responsibilities.
+This page is the public visual entry to the current **Ecosystem Positioning Agentic Architecture**. It mirrors the working PowerPoint deck and routes readers to the three maintained technical corpora that own the underlying responsibilities.
 
 **Working architecture deck:** [Ecosystem Positioning for Agentic Systems — current PowerPoint](https://docs.google.com/presentation/d/1pFr2OGjkaSsijoj1c6PY8SThrnLV8OZj/edit?usp=drivesdk)
 
-The deck is a **working proposal**, not an adopted standard. It presents Ecosystem Awareness, Regime Awareness, Minimum Sufficient Control and related participation/signalling concepts around a participant-local situational core.
+The deck is a **working proposal**, not an adopted standard. It presents Ecosystem Positioning as the participant-local architectural core, supported by Ecosystem Awareness, Regime Awareness, Minimum Sufficient Control and related participation/signalling concepts.
 
 ---
 
