@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository or adapt its original material, cite the repository
+  and the specific document and commit or release consulted.
+type: dataset
+title: "Structural Awareness Programme: Public Working Corpus"
+authors:
+  - family-names: "Abril Palma"
+    given-names: "Iván"
+    affiliation: "Tegrity.AI / The Integral Management Society"
+version: "0.1-working"
+date-released: 2026-09-22
+repository-code: "https://github.com/dakleyer/structural-awareness-contributions"
+url: "https://tegrity.ai/structural-awareness-program/"
+license: CC-BY-SA-4.0
+keywords:
+  - structural awareness
+  - ecosystem awareness
+  - ecosystem positioning
+  - regime awareness
+  - minimum sufficient control
+  - agentic AI
+  - AI integrity management
+abstract: >-
+  Public working research corpus on Structural Awareness, Ecosystem Positioning
+  and Awareness, Regime Awareness, Minimum Sufficient Control, failure modes,
+  interfaces, validation profiles and pre-standardization contributions.

@@ -124,15 +124,26 @@ This is one important causal and operational path, not a claim that every regime
 
 | Area | Question | Repository entry | Current status |
 |---|---|---|---|
-| **Cost of Clarity** | Are the information, distinctions and authority required for commitment actually available? | [`applied-research/cost-of-clarity-rup/`](./applied-research/cost-of-clarity-rup/) | Applied-research project under an EIS Estonia RUP assessment route; no funding or approval claim |
+| **Cost of Clarity** | Are the information, distinctions and authority required for commitment actually available? | [`applied-research/cost-of-clarity-rup/`](./applied-research/cost-of-clarity-rup/) | EIS Estonia RUP proposal under assessment, with a prospective TalTech research route described in the proposal; no funding, contracted work package or institutional endorsement claimed |
 | **Ecosystem Positioning / Awareness** | What is sufficiently determined, unresolved or outside the current decision frame, and when must that frame be requalified? | [`research/ecosystem-awareness/`](./research/ecosystem-awareness/) | Candidate pre-standardization architecture with a frozen core and additive working annexes; not an adopted standard |
 | **Regime Awareness** | Does the context supporting a decision remain valid as the system operates? | [`research/regime-awareness/`](./research/regime-awareness/) | Public research direction and field-derived candidate framework |
-| **Regime Change Detection** | Is observable behaviour departing from the regime against which current assumptions were established? | [`research/regime-awareness/regime-change-qava-uv.md`](./research/regime-awareness/regime-change-qava-uv.md) | Preliminary methodological review route; no validation or institutional endorsement claim |
+| **Regime Change Detection** | Is observable behaviour departing from the regime against which current assumptions were established? | [`research/regime-awareness/regime-change-qava-uv.md`](./research/regime-awareness/regime-change-qava-uv.md) | Validation work in progress through a preliminary methodological review route with QAVA/UV; no completed validation or institutional endorsement claimed |
 | **Minimum Sufficient Control** | What minimum observation, coordination and intervention capacity can maintain or recover a declared objective? | [`standards/minimum-sufficient-control/`](./standards/minimum-sufficient-control/) | Standards-oriented research input; not an adopted ITU position or recommendation |
 
 ## Evidence, validation and contributions
 
 For engineering detail, the [canonical EA corpus index](./research/ecosystem-awareness/baseline/README.md) distinguishes general architecture from programme-specific application material. The [validation reader index](./research/ecosystem-awareness/baseline/VALIDATION_PROFILE_READING_NOTE.md) leads to the general validation profiles. The separate [EA / FG-TIDA application package](./research/ecosystem-awareness/fg-tida/) contains Charter/specification preparation, ideal/current interface mappings and FG-TIDA-specific cases and tests.
+
+### Benchmark and failure-scenario entry
+
+The [canonical architecture benchmark](./research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) compares four progressively stronger configurations: an ordinary baseline (**B0**), a strong conventional architecture (**B1**), an interoperability/control-plane architecture (**B2**) and the same bounded setting with the minimum Ecosystem Awareness semantics under test (**B3**). The comparison is designed to count a B1/B2 reproduction of the candidate EA behaviour as evidence against differentiation rather than as an EA success.
+
+Two bounded scenarios anchor the present validation programme:
+
+- [**100 Million Tokens — compounding context and decision-frame failure**](./research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)
+- [**Smart-city mobility — systemic divergence across independently governed participants**](./research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md)
+
+The benchmark contract, hypotheses, falsifiers, implementation-profile analyses, fixture design, pre-registration and deterministic harness are published. **No comparative B0–B3 result or independent validation result has yet been published.** The [Ecosystem Awareness router](./research/ecosystem-awareness/) provides the short benchmark reading route; the canonical corpus preserves the complete evidence and provenance chain.
 
 The [`submissions/`](./submissions/) library preserves public-ready documents and discussion contributions routed to UNECE WP.5, the UN CSTD Working Group on Data Governance at All Levels, ITU-T FG-AI4SSC and ITU-T FG-TIDA. It records procedural status rather than implying adoption.
 
@@ -159,7 +170,9 @@ See [`governance/CLAIM_BOUNDARIES.md`](./governance/CLAIM_BOUNDARIES.md) for the
 
 ## Repository status and licensing
 
-This is the curated public contribution repository for material released for review and discussion. No open-source or content licence has yet been selected. Unless and until a licence is added, no permission beyond GitHub's applicable platform terms should be inferred.
+This is the curated public contribution repository for material released for review and discussion. Except where a file identifies a different rightsholder or licence, the original documentation and research material is available under [Creative Commons Attribution-ShareAlike 4.0 International](./LICENSE.md). Reuse requires attribution, a link to the licence, an indication of changes and ShareAlike distribution of adaptations. Third-party material and linked external resources remain governed by their own terms.
+
+Use [`CITATION.cff`](./CITATION.cff) for the repository-level citation record and [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the bounded contribution and review route.
 
 ---
 
