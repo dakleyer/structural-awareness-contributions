@@ -1,5 +1,8 @@
 # FG-TIDA provenance
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../../README.md) → [FG-TIDA application package](../README.md) → **FG-TIDA provenance**
+
+
 This folder preserves the public FG-TIDA-specific provenance used to bound claims made in the application package.
 
 - [EA public FG-TIDA footprint — 8 September 2026](./FG_TIDA_ECOSYSTEM_AWARENESS_PUBLIC_FOOTPRINT_2026-09-08.part01.md)
