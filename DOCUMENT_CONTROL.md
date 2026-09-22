@@ -166,10 +166,10 @@ When simplifying a README, an editor must preserve its intellectual narrative, d
 
 The repository root README is not merely a router. It is the human explanation of the programme and must continue to present **four stable parts**:
 
-1. **Mathematics and formal theory** — ResearchGate/publication route.
-2. **Series and Field Notes** — explanatory research such as Cost of Clarity, Human Intelligence Debt, Attribution Gap, Informational Friction and related series.
-3. **Field work and engineering lineage** — Phylons, xSeil and Mobility Operating System / Car Evolution.
-4. **Ecosystem Positioning** — the current **Agentic Architecture** component, including the visual architecture router and maintained gates to Ecosystem Awareness, Regime Awareness and MSCA.
+1. **Mathematical Contributions** — ResearchGate/publication route.
+2. **Field Notes / Research Series** — explanatory research such as Cost of Clarity, Human Intelligence Debt, Attribution Gap, Informational Friction and related series.
+3. **Field Practice / Engineering** — Phylons, xSeil and Mobility Operating System / Car Evolution.
+4. **Architectural Contributions / pre-standardization** — the architecture contribution layer. The current maintained contribution is **Ecosystem Positioning**, with the canonical presentation and maintained gates to Ecosystem Awareness, Regime Awareness and MSCA.
 
 An editor must not replace those four explanatory parts with a generic sitemap, a table of folders or a list of README files.
 
@@ -307,6 +307,29 @@ Use stable public names in reader-facing text. Where an older filename must rema
 - **legacy/preserved filename or identifier**.
 
 Do not rename frozen evidence solely to improve presentation if that would weaken traceability.
+
+---
+
+## 8A. Canonical presentations
+
+Canonical presentations are first-class controlled artefacts.
+
+For Ecosystem Positioning, the stable public paths are:
+
+- `presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx` — canonical editable artefact.
+- `presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf` — canonical reading snapshot.
+- `presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md` — status and routing contract.
+
+Rules:
+
+1. GitHub is the canonical public version-control location for the presentation.
+2. The stable canonical filenames remain unchanged; Git history records revisions.
+3. The PPTX and PDF should be updated together when the canonical presentation changes.
+4. The presentation must link upward to the Structural Awareness Programme README.
+5. Its maintained technical gates must link to the GitHub READMEs for Ecosystem Awareness, Regime Awareness and MSCA.
+6. The presentation may link directly to benchmark or standards-facing references where they are part of the architecture, but it must not create a competing parent router.
+7. Milestone states may be tagged or released rather than copied into multiple numbered canonical filenames.
+8. The Structural Awareness README and the Ecosystem Positioning visual router must expose a clear direct route to the canonical presentation.
 
 ---
 
