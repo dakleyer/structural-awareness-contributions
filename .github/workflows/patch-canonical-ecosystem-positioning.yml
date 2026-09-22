@@ -1,0 +1,134 @@
+name: Patch canonical Ecosystem Positioning deck
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch-canonical-ecosystem-positioning.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch-deck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Patch PowerPoint routing links and labels
+        shell: python
+        run: |
+          from pathlib import Path
+          import shutil
+          import tempfile
+          import zipfile
+          import xml.etree.ElementTree as ET
+
+          pptx = Path('presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx')
+          if not pptx.exists():
+              raise SystemExit(f'Missing canonical deck: {pptx}')
+
+          work = Path(tempfile.mkdtemp(prefix='ecosystem-positioning-'))
+          with zipfile.ZipFile(pptx, 'r') as z:
+              z.extractall(work)
+
+          A = 'http://schemas.openxmlformats.org/drawingml/2006/main'
+          P = 'http://schemas.openxmlformats.org/presentationml/2006/main'
+          R = 'http://schemas.openxmlformats.org/officeDocument/2006/relationships'
+          REL = 'http://schemas.openxmlformats.org/package/2006/relationships'
+          ET.register_namespace('a', A)
+          ET.register_namespace('p', P)
+          ET.register_namespace('r', R)
+
+          slide_path = work / 'ppt/slides/slide10.xml'
+          tree = ET.parse(slide_path)
+          root = tree.getroot()
+          ns = {'a': A, 'p': P, 'r': R}
+
+          for sp in root.findall('.//p:sp', ns):
+              ts = sp.findall('.//a:t', ns)
+              if not ts:
+                  continue
+              joined = ''.join((t.text or '') for t in ts)
+              if 'entry-point router' in joined:
+                  replacement = [
+                      'Structural ',
+                      'Awareness',
+                      ' Programme',
+                      'Programme structure and public work.'
+                  ]
+                  if len(ts) != len(replacement):
+                      raise RuntimeError(f'Unexpected run count for parent route: {len(ts)}')
+                  for t, value in zip(ts, replacement):
+                      t.text = value
+              elif 'Ecosystem Awareness — canonical corpus' in joined:
+                  replacement = [
+                      'Ecosystem Awareness — public corpus ',
+                      'Entry point for the Ecosystem Awareness architecture and evidence.'
+                  ]
+                  if len(ts) != len(replacement):
+                      raise RuntimeError(f'Unexpected run count for EA route: {len(ts)}')
+                  for t, value in zip(ts, replacement):
+                      t.text = value
+
+          tree.write(slide_path, encoding='UTF-8', xml_declaration=True)
+
+          rels_path = work / 'ppt/slides/_rels/slide10.xml.rels'
+          rel_tree = ET.parse(rels_path)
+          rel_root = rel_tree.getroot()
+          for rel in rel_root.findall(f'{{{REL}}}Relationship'):
+              rid = rel.attrib.get('Id')
+              if rid == 'rId3':
+                  rel.set('Target', 'https://github.com/dakleyer/structural-awareness-contributions/blob/main/README.md')
+              elif rid == 'rId4':
+                  rel.set('Target', 'https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/README.md')
+          rel_tree.write(rels_path, encoding='UTF-8', xml_declaration=True)
+
+          tmp = pptx.with_suffix('.pptx.tmp')
+          with zipfile.ZipFile(tmp, 'w', zipfile.ZIP_DEFLATED) as z:
+              for p in sorted(work.rglob('*')):
+                  if p.is_file():
+                      z.write(p, p.relative_to(work))
+          tmp.replace(pptx)
+          shutil.rmtree(work)
+
+      - name: Regenerate canonical PDF snapshot
+        run: |
+          if ! command -v libreoffice >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq libreoffice-impress >/dev/null
+          fi
+          mkdir -p /tmp/rendered
+          libreoffice --headless --convert-to pdf --outdir /tmp/rendered presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx
+          cp /tmp/rendered/Ecosystem_Positioning_Canonical.pdf presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf
+
+      - name: Verify required routes in canonical deck
+        shell: python
+        run: |
+          import zipfile
+          from pathlib import Path
+          p = Path('presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx')
+          required = [
+              'https://github.com/dakleyer/structural-awareness-contributions/blob/main/README.md',
+              'https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/README.md',
+              'https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/regime-awareness/README.md',
+              'https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/README.md',
+              'https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md',
+          ]
+          with zipfile.ZipFile(p) as z:
+              rels = z.read('ppt/slides/_rels/slide10.xml.rels').decode('utf-8')
+          missing = [u for u in required if u not in rels]
+          if missing:
+              raise SystemExit('Missing routes: ' + ', '.join(missing))
+
+      - name: Commit canonical presentation update
+        run: |
+          git config user.name 'Iván Abril Palma'
+          git config user.email 'ivan.abril@tegrity.ai'
+          git add presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf
+          if git diff --cached --quiet; then
+            echo 'No presentation changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Correct canonical Ecosystem Positioning presentation routing'
+          git push
