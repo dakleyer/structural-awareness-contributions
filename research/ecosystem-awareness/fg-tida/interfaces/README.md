@@ -1,5 +1,8 @@
 # FG-TIDA interface projection
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../../README.md) → [FG-TIDA application package](../README.md) → **Interface projection**
+
+
 This folder contains **FG-TIDA-specific mappings of the general EA interface architecture**. It is not the canonical definition of EA interfaces.
 
 Start with the general interface contract:
