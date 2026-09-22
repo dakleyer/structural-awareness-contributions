@@ -1,8 +1,8 @@
-# Ecosystem Positioning — Agentic Architecture visual router
+# Ecosystem Positioning — Agentic Architecture
 
 > **You are here:** [Structural Awareness Programme](../../README.md) → **Architectural Contributions / pre-standardization** → **Ecosystem Positioning**
 
-This page is the public visual entry to the current **Ecosystem Positioning Agentic Architecture**. It mirrors the working PowerPoint deck and routes readers to the three maintained technical corpora that own the underlying responsibilities.
+This README is the human entry point to the current **Ecosystem Positioning Agentic Architecture**. It mirrors the working PowerPoint deck and routes readers to the three maintained technical corpora that own the underlying responsibilities.
 
 ## Canonical presentation
 
