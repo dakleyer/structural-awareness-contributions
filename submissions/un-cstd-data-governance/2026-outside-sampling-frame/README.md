@@ -1,5 +1,8 @@
 # UN CSTD Data Governance — Outside the Sampling Frame
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Public submissions](../../README.md) → **UN CSTD Data Governance — Outside the Sampling Frame**
+
+
 Short supplementary practitioner note sent to the Secretariat of the United Nations Commission on Science and Technology for Development Working Group on Data Governance at All Levels.
 
 ## Files
