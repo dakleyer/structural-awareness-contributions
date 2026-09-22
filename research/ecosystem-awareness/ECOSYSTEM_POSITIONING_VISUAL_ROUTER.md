@@ -4,7 +4,15 @@
 
 This page is the public visual entry to the current **Ecosystem Positioning Agentic Architecture**. It mirrors the working PowerPoint deck and routes readers to the three maintained technical corpora that own the underlying responsibilities.
 
-**Working architecture deck:** [Ecosystem Positioning for Agentic Systems — current PowerPoint](https://docs.google.com/presentation/d/1pFr2OGjkaSsijoj1c6PY8SThrnLV8OZj/edit?usp=drivesdk)
+## Canonical presentation
+
+### ⬇️ [Download the canonical PowerPoint (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
+
+### 📄 [Open the canonical PDF](../../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
+
+[Presentation manifest](../../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md)
+
+The PowerPoint above is the canonical editable presentation for this contribution; Git history provides its version lineage. The PDF is the canonical reading snapshot.
 
 The deck is a **working proposal**, not an adopted standard. It presents Ecosystem Positioning as the participant-local architectural core, supported by Ecosystem Awareness, Regime Awareness, Minimum Sufficient Control and related participation/signalling concepts.
 
