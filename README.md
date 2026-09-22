@@ -50,10 +50,7 @@ A public contribution, standards discussion, programme assessment, research cont
 
 ## Repository governance
 
-- [Claim boundaries](./governance/CLAIM_BOUNDARIES.md)
-- [Contribution route](./CONTRIBUTING.md)
-- [Repository citation](./CITATION.cff)
-- [Licence](./LICENSE.md)
+Repository-level contribution, citation, licence and claim-boundary files remain at repository root. They support maintenance and reuse but are not navigation levels.
 
 ---
 
