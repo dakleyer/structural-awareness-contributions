@@ -1,5 +1,8 @@
 # FG-TIDA-specific EA cases
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../../README.md) → [FG-TIDA application package](../README.md) → **FG-TIDA-specific cases**
+
+
 This folder contains case material whose interpretation depends specifically on FG-TIDA sources or mappings.
 
 ## Included here
