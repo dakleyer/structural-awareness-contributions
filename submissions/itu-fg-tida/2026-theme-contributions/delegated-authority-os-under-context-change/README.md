@@ -1,5 +1,8 @@
 # TIDA — Delegated Authority OS under Context Change
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Public submissions](../../../README.md) → [ITU-T FG-TIDA contributions](../README.md) → **Delegated Authority OS under Context Change**
+
+
 ## Public pre-freeze working package
 
 This package asks how an agent can make and later revise a commitment when private preference, public policy, delegated authority, evidence and operational context change at different times. The mobility scene is its **minimum concrete case**, not a universal transport model. Annex II states how the same distinctions may be tested upward, downward or horizontally without silently changing the case facts. Challenges and Terms-of-Reference links are kept separate from the scene so readers can use the package as a bounded, extensible model case.
