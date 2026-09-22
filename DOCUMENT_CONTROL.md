@@ -169,7 +169,7 @@ The repository root README is not merely a router. It is the human explanation o
 1. **Mathematics and formal theory** — ResearchGate/publication route.
 2. **Series and Field Notes** — explanatory research such as Cost of Clarity, Human Intelligence Debt, Attribution Gap, Informational Friction and related series.
 3. **Field work and engineering lineage** — Phylons, xSeil and Mobility Operating System / Car Evolution.
-4. **Ecosystem Positioning / Ecosystem Awareness** — current architecture, including the visual architecture router and maintained gates to Ecosystem Awareness, Regime Awareness and MSCA.
+4. **Ecosystem Positioning** — the current **Agentic Architecture** component, including the visual architecture router and maintained gates to Ecosystem Awareness, Regime Awareness and MSCA.
 
 An editor must not replace those four explanatory parts with a generic sitemap, a table of folders or a list of README files.
 
