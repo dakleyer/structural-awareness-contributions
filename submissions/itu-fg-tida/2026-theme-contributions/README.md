@@ -1,5 +1,8 @@
 # ITU-T FG-TIDA — public theme contributions
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Public submissions](../../README.md) → **ITU-T FG-TIDA public theme contributions**
+
+
 These records preserve bounded contributions and working material connected with the public theme-development repository of the ITU-T Focus Group on Trustworthy Intelligent Digital Agents.
 
 ## Contributions
