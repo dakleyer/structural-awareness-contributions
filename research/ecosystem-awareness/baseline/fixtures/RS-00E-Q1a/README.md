@@ -1,5 +1,8 @@
 # RS-00E-Q1a Fixture Family — Index
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../../../README.md) → [Canonical corpus](../../README.md) → **RS-00E-Q1a fixture family**
+
+
 > **Status:** pre-execution. No Step-0 trace or fixture-family execution has been published.
 
 ## Operative pre-registration
