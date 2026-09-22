@@ -1,5 +1,8 @@
 # FG-TIDA-specific EA tests
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../../README.md) → [FG-TIDA application package](../README.md) → **FG-TIDA-specific tests**
+
+
 This folder contains tests whose fixture or interface meaning is specifically tied to FG-TIDA.
 
 ## Current test
