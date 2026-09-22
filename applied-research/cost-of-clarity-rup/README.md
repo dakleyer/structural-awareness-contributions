@@ -1,5 +1,8 @@
 # The Cost of Clarity / EIS Estonia RUP: concrete applied-research work and stakeholder architecture
 
+> **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → **Cost of Clarity / RUP applied research**
+
+
 > **Public working note — project description, not evidence of funding, programme approval, institutional endorsement or a concluded partnership**
 
 This note describes the concrete applied-research work behind **The Cost of Clarity** and the roles of the organizations and participant groups around it. Within the broader Structural Awareness Programme, Cost of Clarity addresses upstream information-and-authority conditions that can later affect operational validity, regime-change awareness and the capacity to respond. The connected objects still retain their own evidence, institutional routes and validation requirements.
