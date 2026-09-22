@@ -1,30 +1,37 @@
 # Document Control — navigation, sitemap and modification rules
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Control date:** 22 September 2026  
 **Owner:** Iván Abril  
-**Scope:** public navigation, README governance, routing integrity, document moves/renames and editor/bot maintenance rules for `dakleyer/structural-awareness-contributions`.
+**Scope:** public navigation, README governance, routing integrity, canonical presentations, document moves/renames and editor/bot maintenance rules for `dakleyer/structural-awareness-contributions`.
 
-> **Mandatory maintenance rule.** Any editor, bot or contributor that changes repository navigation, moves or renames a routed document, creates or removes a README, or changes a corpus entry path **must read this file first, verify the sitemap after the change, and update this file when the controlled structure changes**.
+> **Mandatory maintenance rule.** Any editor, bot or contributor that changes repository navigation, moves or renames a routed document, creates or removes a README, changes a corpus entry path, or changes a canonical presentation **must read this file first, verify the sitemap after the change, and update this file when the controlled structure changes**.
 
-This file is a control artefact, not a new navigation level. The canonical public entry remains [dakleyer/dakleyer](https://github.com/dakleyer/dakleyer).
+This file is a control artefact, not a public reading level. The canonical public entry remains [dakleyer/dakleyer](https://github.com/dakleyer/dakleyer).
 
 ---
 
 ## 1. Navigation model
 
-The intended public route is deliberately shallow:
+The public information architecture is human-first:
 
 ```text
 LEVEL 1 — canonical initial entry
 https://github.com/dakleyer/dakleyer
         ↓
-LEVEL 2 — programme repository router
+LEVEL 2 — Structural Awareness Programme
 https://github.com/dakleyer/structural-awareness-contributions
         ↓
-LEVEL 3 — principal corpus / applied-research / submissions routers
+LEVEL 3 — four human programme routes
+Mathematical Contributions
+Field Notes / Research Series
+Field Practice / Engineering
+Architectural Contributions / pre-standardization
         ↓
-documents, evidence, cases, tests, manifests and provenance
+LEVEL 4 — current architectural contribution
+Ecosystem Positioning
+        ↓
+maintained technical gates / evidence / benchmark / public application routes
 ```
 
 ### Level 1 — canonical initial entry
@@ -32,24 +39,37 @@ documents, evidence, cases, tests, manifests and provenance
 - [Iván Abril Palma / profile repository](https://github.com/dakleyer/dakleyer)
 - Purpose: identify the architect, explain Tegrity.AI as the platform, and route public technical work.
 
-### Level 2 — programme repository router
+### Level 2 — Structural Awareness Programme
 
 - [Structural Awareness Programme](./README.md)
-- Purpose: explain the Structural Awareness programme to a human reader **and** route to the principal technical entries.
-- The Level-2 README must preserve the four-part programme explanation: **(1) mathematics/formal theory, (2) series and Field Notes, (3) field work/engineering lineage, (4) Ecosystem Positioning / Ecosystem Awareness architecture**.
-- It may link directly to the public sources that define those four parts (for example ResearchGate, Tegrity.AI series and field-work sources) and to the maintained technical gates for the fourth part.
-- It must not become a detailed technical file index or duplicate the internal document lists owned by the technical corpus routers.
+- Purpose: explain the complete programme to a human reader and route into its four parts.
+- The Level-2 README must preserve the four-part programme explanation:
+  1. **Mathematical Contributions** — ResearchGate/publication route.
+  2. **Field Notes / Research Series** — Tegrity.AI explanatory series and Field Notes.
+  3. **Field Practice / Engineering** — Phylons, xSeil and Mobility Operating System / Car Evolution.
+  4. **Architectural Contributions / pre-standardization** — current architecture contributions; presently Ecosystem Positioning.
+- It may link directly to the defining public sources for those four parts and to the canonical Ecosystem Positioning presentation.
+- It must not become a detailed technical file index or duplicate the internal document lists owned by technical corpus routers.
 - **Every current or future Level-2 README must contain a direct link to this `DOCUMENT_CONTROL.md` and instruct editors/bots to verify and update it whenever navigation changes.**
 
-### Level 3 — principal routed entries
+### Level 3 — four human programme routes
+
+1. **Mathematical Contributions** — public formal/publication route through ResearchGate.
+2. **Field Notes / Research Series** — public explanatory research through Tegrity.AI series and Field Notes.
+3. **Field Practice / Engineering** — public engineering route through Phylons, xSeil and Mobility Operating System / Car Evolution.
+4. **Architectural Contributions / pre-standardization** — current contribution route through [Ecosystem Positioning](./architectural-contributions/ecosystem-positioning/README.md).
+
+### Level 4 — Ecosystem Positioning technical gates
+
+The Ecosystem Positioning contribution routes to three maintained technical corpora:
 
 1. [Ecosystem Awareness — entry-point router](./research/ecosystem-awareness/README.md)
 2. [Regime Awareness — corpus index](./research/regime-awareness/README.md)
 3. [Minimum Sufficient Control / MSCA — corpus index](./standards/minimum-sufficient-control/README.md)
-4. [Cost of Clarity / RUP — applied-research entry](./applied-research/cost-of-clarity-rup/README.md)
-5. [Public submissions and contributions](./submissions/README.md)
 
-From Level 3 downward, content may use ordinary Markdown documents, manifests, project notes, case packages, evidence records and test artefacts. A file does not become a new canonical navigation level merely because it is named `README.md`.
+Its canonical presentation also links upward to the Structural Awareness Programme and directly to the benchmark and public application references used by the architecture.
+
+Applied-research records and public submissions remain reachable supporting routes, but they are not additional top-level parts of Structural Awareness.
 
 ---
 
@@ -57,20 +77,21 @@ From Level 3 downward, content may use ordinary Markdown documents, manifests, p
 
 ### Current transitional state
 
-At the date of this control file, the repository contains **22 README files**. Several are historical/local indexes rather than true canonical navigation nodes.
+At the date of this control file, the repository contains **22 README files**. Several are historical/local indexes rather than true controlled navigation nodes.
 
 ### Target controlled state
 
-The approved consolidation target is **8 canonical README files**:
+The approved consolidation target is **9 controlled README files**:
 
-1. `README.md` — Structural Awareness programme router.
-2. `research/ecosystem-awareness/README.md` — Ecosystem Awareness router.
-3. `research/ecosystem-awareness/baseline/README.md` — canonical EA corpus.
-4. `research/ecosystem-awareness/fg-tida/README.md` — FG-TIDA application package.
-5. `research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md` — operative fixture-family index.
-6. `research/regime-awareness/README.md` — Regime Awareness corpus.
-7. `standards/minimum-sufficient-control/README.md` — MSCA corpus.
-8. `submissions/README.md` — public submissions router.
+1. `README.md` — Structural Awareness Programme.
+2. `architectural-contributions/ecosystem-positioning/README.md` — Ecosystem Positioning architectural contribution landing page.
+3. `research/ecosystem-awareness/README.md` — Ecosystem Awareness router.
+4. `research/ecosystem-awareness/baseline/README.md` — canonical EA corpus.
+5. `research/ecosystem-awareness/fg-tida/README.md` — FG-TIDA application package.
+6. `research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md` — operative fixture-family index.
+7. `research/regime-awareness/README.md` — Regime Awareness corpus.
+8. `standards/minimum-sufficient-control/README.md` — MSCA corpus.
+9. `submissions/README.md` — public submissions router.
 
 The remaining README files are **transitional** until their unique content is either:
 - absorbed into one of the controlled READMEs;
@@ -96,6 +117,8 @@ Rule:
 - Maintenance work must route around it.
 - If a future explicit instruction authorizes a change, update both the protected SHA and this section immediately.
 
+The current Regime Awareness and MSCA READMEs are also maintained as preserved technical corpus entry points. Navigation changes should route to them rather than rewriting them unless the owner explicitly requests a content change.
+
 ---
 
 ## 4. General sitemap
@@ -103,20 +126,31 @@ Rule:
 ```text
 dakleyer/dakleyer
 └── structural-awareness-contributions/
-    ├── README.md
+    ├── README.md                              [STRUCTURAL AWARENESS PROGRAMME]
+    ├── DOCUMENT_CONTROL.md
+    │
+    ├── architectural-contributions/
+    │   └── ecosystem-positioning/
+    │       └── README.md                      [ARCHITECTURAL CONTRIBUTION]
+    │
+    ├── presentations/
+    │   └── ecosystem-positioning/
+    │       ├── Ecosystem_Positioning_Canonical.pptx
+    │       ├── Ecosystem_Positioning_Canonical.pdf
+    │       └── PRESENTATION_MANIFEST.md
     │
     ├── research/
     │   ├── ecosystem-awareness/
-    │   │   ├── README.md                    [PROTECTED ROUTER]
+    │   │   ├── README.md                      [PROTECTED ROUTER]
     │   │   ├── baseline/
-    │   │   │   ├── README.md                [CANONICAL EA CORPUS]
+    │   │   │   ├── README.md                  [CANONICAL EA CORPUS]
     │   │   │   ├── architecture / theory / benchmark / validation
     │   │   │   ├── fixtures/
     │   │   │   │   └── RS-00E-Q1a/
-    │   │   │   │       └── README.md        [OPERATIVE FIXTURE INDEX]
+    │   │   │   │       └── README.md          [OPERATIVE FIXTURE INDEX]
     │   │   │   └── historical / non-canonical material
     │   │   └── fg-tida/
-    │   │       ├── README.md                [APPLICATION PACKAGE]
+    │   │       ├── README.md                  [APPLICATION PACKAGE]
     │   │       ├── charter/
     │   │       ├── specifications/
     │   │       ├── interfaces/
@@ -125,18 +159,18 @@ dakleyer/dakleyer
     │   │       └── provenance/
     │   │
     │   └── regime-awareness/
-    │       └── README.md                    [CORPUS ROUTER]
+    │       └── README.md                      [CORPUS ROUTER]
     │
     ├── standards/
     │   └── minimum-sufficient-control/
-    │       └── README.md                    [CORPUS ROUTER]
+    │       └── README.md                      [CORPUS ROUTER]
     │
     ├── applied-research/
     │   └── cost-of-clarity-rup/
-    │       └── README.md                    [TRANSITIONAL; target PROJECT.md]
+    │       └── README.md                      [TRANSITIONAL; target PROJECT.md]
     │
     └── submissions/
-        ├── README.md                        [SUBMISSIONS ROUTER]
+        ├── README.md                          [SUBMISSIONS ROUTER]
         └── institution/package records
 ```
 
@@ -181,15 +215,17 @@ An editor must not replace those four explanatory parts with a generic sitemap, 
 
 ### Rule 1 — preserve the cascade
 
-Every public content item must be reachable through:
+Every public content item must be reachable through a human-readable programme path.
 
-`dakleyer/dakleyer → structural-awareness-contributions → Level-3 router → item`
+For the current architectural contribution the canonical cascade is:
+
+`dakleyer/dakleyer → Structural Awareness Programme → Architectural Contributions / pre-standardization → Ecosystem Positioning → technical gate / evidence`
 
 Cross-links may provide shortcuts, but they do not replace this canonical route.
 
-### Rule 2 — no root deep-links
+### Rule 2 — root links explain; they do not duplicate corpora
 
-The Level-2 repository README may link only to the principal Level-3 entries and repository-level control/context resources. It must not become a duplicate corpus index.
+The Level-2 repository README may link directly to the defining sources for its four human programme parts and to the canonical Ecosystem Positioning presentation. It must not duplicate the internal document indexes owned by EA, Regime Awareness, MSCA or other routed corpora.
 
 ### Rule 3 — one navigation owner per content family
 
@@ -210,6 +246,8 @@ Non-canonical does **not** mean disposable.
 ### Rule 6 — README is reserved for real navigation nodes
 
 New `README.md` files should be created only when a directory genuinely needs to act as a stable routed entry.
+
+The Ecosystem Positioning README is a legitimate controlled node because it is the human landing page for an Architectural Contribution and routes to the canonical presentation and three technical gates.
 
 Prefer purpose-specific names for non-router artefacts:
 
@@ -232,7 +270,7 @@ For every rename or move:
 5. verify the new path;
 6. verify zero remaining live references to the old path;
 7. only then remove the old file;
-8. update this Document Control file if the sitemap, canonical README count or routing rule changed.
+8. update this Document Control file if the sitemap, controlled README count or routing rule changed.
 
 Do not perform destructive cleanup first.
 
@@ -270,8 +308,8 @@ Before changing navigation or document placement:
 
 After the change:
 
-- [ ] Verify Level 1 → Level 2 → Level 3 reachability.
-- [ ] Verify the Level-2 root still contains no corpus-internal deep-links.
+- [ ] Verify Level 1 → Level 2 → Level 3 reachability; for Architectural Contributions, also verify the Ecosystem Positioning landing page and technical gates.
+- [ ] Verify the Level-2 root still explains the four programme parts rather than duplicating corpus-internal indexes.
 - [ ] Verify all changed relative links resolve.
 - [ ] Search for the old path and confirm no unintended live references remain.
 - [ ] Confirm no unique text was lost.
@@ -279,17 +317,19 @@ After the change:
 - [ ] Confirm the protected EA README SHA is unchanged unless owner authorization explicitly allowed a change.
 - [ ] Update the sitemap and controlled README count in this file if necessary.
 - [ ] Update any affected parent router.
+- [ ] If a canonical presentation changed, verify PPTX/PDF parity and all required hyperlinks.
 - [ ] State explicitly in the commit message that document control and navigation were verified.
 
 ---
 
 ## 7. Current consolidation rule
 
-The current approved consolidation objective is to reduce the transitional **22 README files to 8 controlled README files without losing content**.
+The current approved consolidation objective is to reduce the transitional **22 README files to 9 controlled README files without losing content**.
 
 The reduction must follow the case-by-case audit already established:
 
 - keep genuine corpus/router READMEs;
+- keep the Ecosystem Positioning architectural contribution README as a legitimate human landing page;
 - absorb small local router text into its parent;
 - rename unique non-router documents to purpose-specific names;
 - preserve unique non-canonical material outside the canonical reading tree;
@@ -329,7 +369,8 @@ Rules:
 5. Its maintained technical gates must link to the GitHub READMEs for Ecosystem Awareness, Regime Awareness and MSCA.
 6. The presentation may link directly to benchmark or standards-facing references where they are part of the architecture, but it must not create a competing parent router.
 7. Milestone states may be tagged or released rather than copied into multiple numbered canonical filenames.
-8. The Structural Awareness README and the Ecosystem Positioning visual router must expose a clear direct route to the canonical presentation.
+8. The Structural Awareness README and `architectural-contributions/ecosystem-positioning/README.md` must expose a clear direct route to the canonical presentation.
+9. The presentation must not route upward to an Ecosystem Positioning page at the same level; its parent route is Structural Awareness.
 
 ---
 
@@ -338,9 +379,10 @@ Rules:
 This file **must be reviewed and, where necessary, updated** whenever any of the following occurs:
 
 - a README is created, deleted, renamed or demoted;
-- a Level-1, Level-2 or Level-3 route changes;
+- a Level-1, Level-2, Level-3 or architectural contribution route changes;
 - a corpus is split or merged;
 - a canonical document changes path;
+- a canonical presentation changes path or routing contract;
 - a new public submission package is introduced;
 - a protected-file rule changes;
 - a new navigation convention is adopted;
@@ -356,4 +398,4 @@ The repository should remain understandable to a new human editor or automated a
 
 The control objective is:
 
-> **one canonical entry, one shallow routing cascade, explicit semantic ownership, preserved evidence, and no destructive navigation cleanup without traceable migration.**
+> **one canonical entry, four understandable programme routes, explicit architectural contribution ownership, preserved evidence, and no destructive navigation cleanup without traceable migration.**
