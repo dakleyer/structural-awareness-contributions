@@ -1,6 +1,6 @@
 # Ecosystem Positioning — Agentic Architecture visual router
 
-> **You are here:** [Structural Awareness Programme](../../README.md) → **Ecosystem Positioning**
+> **You are here:** [Structural Awareness Programme](../../README.md) → **Architectural Contributions / pre-standardization** → **Ecosystem Positioning**
 
 This page is the public visual entry to the current **Ecosystem Positioning Agentic Architecture**. It mirrors the working PowerPoint deck and routes readers to the three maintained technical corpora that own the underlying responsibilities.
 
@@ -8,9 +8,9 @@ This page is the public visual entry to the current **Ecosystem Positioning Agen
 
 ### ⬇️ [Download the canonical PowerPoint (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
 
-### 📄 [Open the canonical PDF](../../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
+### 📄 [Open the canonical PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
 
-[Presentation manifest](../../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md)
+[Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md)
 
 The PowerPoint above is the canonical editable presentation for this contribution; Git history provides its version lineage. The PDF is the canonical reading snapshot.
 
@@ -65,7 +65,7 @@ Owns the decision-scoped epistemic qualification:
 - how evidence, provenance and scope are preserved across handoff;
 - when the frame needs targeted requalification.
 
-**Enter the corpus:** [Ecosystem Awareness — entry-point router](./README.md)
+**Enter the corpus:** [Ecosystem Awareness — entry-point router](../../research/ecosystem-awareness/README.md)
 
 ---
 
@@ -77,7 +77,7 @@ Owns continued validity of the operating frame:
 - whether the system is in normal operation, containment or transition/migration;
 - whether a material regime change should trigger frame requalification.
 
-**Enter the corpus:** [Regime Awareness — corpus index](../regime-awareness/README.md)
+**Enter the corpus:** [Regime Awareness — corpus index](../../research/regime-awareness/README.md)
 
 ---
 
@@ -111,8 +111,8 @@ Owns control sufficiency:
 
 ## Benchmark and external application routes
 
-- [Canonical Architecture Benchmark & Evidence v0.2](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md)
-- [FG-TIDA application package](./fg-tida/README.md)
+- [Canonical Architecture Benchmark & Evidence v0.2](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md)
+- [FG-TIDA application package](../../research/ecosystem-awareness/fg-tida/README.md)
 - [FG-TIDA public themes repository](https://github.com/FG-TIDA/themes)
 
 These routes support testing and external application. They do not change the semantic ownership of Ecosystem Awareness, Regime Awareness or MSCA.
