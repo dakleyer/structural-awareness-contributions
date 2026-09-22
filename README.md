@@ -2,221 +2,338 @@
 
 > **You are here:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → **Structural Awareness Programme**
 
-Structural Awareness is a research and architecture programme about a practical problem: **systems make decisions using representations that are always incomplete, can become stale, and may no longer describe the conditions under which action is justified**.
+Structural Awareness is a research and architecture programme about one recurring failure: **we act on representations of systems that are incomplete, politically shaped, economically distorted or simply no longer true — and the act of managing through those representations changes the real system underneath them.**
 
-The programme asks how that incompleteness appears, how it can be detected before and during operation, and how organizations and AI-enabled systems can respond without assuming unlimited information, unlimited human attention or centralized control.
+That problem appears in transformations, enterprise architecture, automation, AI, operations, governance and control. The vocabulary changes by field, but the structural question is the same:
 
-The work is developed through **Tegrity.AI, part of The Integral Management Society**. Different workstreams have different evidence, owners and institutional routes. They are connected because they address different parts of the same structural problem; one workstream does not automatically validate another.
+> **What happens when the map used to govern a system diverges from the flow that actually keeps it working?**
 
----
-
-## The programme in one view
-
-A complex initiative can fail at several different moments:
-
-1. **Before commitment**, because important information, distinctions or authority were never established.
-2. **At decision time**, because the available evidence supports only part of the conclusion being made.
-3. **During operation**, because the environment changes and yesterday's valid frame becomes stale.
-4. **At detection**, because the system does not notice that its operating regime has changed.
-5. **At response**, because even a correct warning is useless if there is no legitimate and sufficient capacity to act.
-
-Those five moments correspond to the main workstreams in this repository.
-
-```mermaid
-flowchart LR
-    C[Cost of Clarity<br/>What must be known before commitment?]
-    E[Ecosystem Awareness / Positioning<br/>What is sufficiently determined now?]
-    R[Regime Awareness<br/>Does the current frame still hold?]
-    D[Regime Change Detection<br/>Has observable behaviour departed?]
-    M[Minimum Sufficient Control<br/>What bounded response is enough?]
-
-    C --> E
-    E --> R
-    R --> D
-    D --> M
-    M -->|outcomes update the next decision| C
-```
-
-This is a reading logic, not a claim that every real failure follows the same sequence.
+The programme is developed through **Tegrity.AI, part of The Integral Management Society**. It combines formal work, Field Notes, engineering reconstruction, current architecture research and standards-facing contributions. Different lines retain different evidence burdens; one line does not validate another merely because they connect.
 
 ---
 
-## Where this work comes from
+## The core idea: the map and the flow
 
-The present architecture did not begin as a document taxonomy. It grew from three bodies of work that gradually converged.
+There are two things to keep separate:
 
-### Formal and mathematical foundations
+- **the flow** — what is actually happening: who really does what, what depends on what, where value is produced, which workarounds are keeping the system alive;
+- **the map** — the representation used to manage that flow: application inventories, org charts, ownership records, process models, KPIs, policies, architecture diagrams, agent state and other formal descriptions.
 
-The formal line includes work on logic, representation, information, incompleteness, computational exergy, semantic windows and regime-aware formulations. These contributions supply mathematical objects, limits and testable propositions rather than a finished operational architecture.
+No organization, operator or AI system sees the whole flow directly. Decisions therefore have to be made through a map.
 
-**Read more:** [Iván Abril Palma — ResearchGate publications](https://www.researchgate.net/profile/Ivan-Abril-Palma-2)
+The problem is not merely that “the map is not the territory.” The stronger claim is that **the map is a control surface**. Decisions are made through it, and those decisions act back on the real system.
 
-### Field Notes and theoretical research
+If the map has drifted from the flow:
 
-The Tegrity.AI Field Notes explain the structural mechanisms in ordinary language: why clarity has a cost, why human attention becomes a hidden bottleneck, how attribution and authority diverge, how representations become stale and why nominal oversight can cease to be effective.
+1. the system can misunderstand what is load-bearing;
+2. optimization can remove what the map failed to value;
+3. control can become denser while coherence gets worse;
+4. more automation can scale the wrong representation faster;
+5. the work needed to compensate for the mismatch can migrate into human effort.
 
-Key series include:
+The programme uses three related terms deliberately:
 
-- [The Cost of Clarity](https://tegrity.ai/series/cost_of_clarity/)
-- [Human Intelligence Debt / The Human Intelligence Gap](https://tegrity.ai/series/human-intelligence-gap/)
-- [The Attribution Gap](https://tegrity.ai/series/attribution_gap/)
-- [Informational Friction](https://tegrity.ai/series/informational_friction/)
-- [Regime Awareness in Adaptive Systems](https://tegrity.ai/series/regime-awareness-in-adaptive-systems/)
-- [AI Operational Integrity Management Architecture](https://tegrity.ai/series/ai-operational-integrity-architecture/)
-- [AI Integrity Management](https://tegrity.ai/series/ai_integrity/)
+- **Structural awareness** — the capacity to see enough of the real structure to act without destroying it.
+- **Structural gap** — the divergence between the representation and the underlying flow.
+- **Informational friction** — the loss produced when action is repeatedly mediated through a divergent representation.
 
-**Start here:** [Structural Awareness Programme at Tegrity.AI](https://tegrity.ai/structural-awareness-program/) · [Field Notes](https://tegrity.ai/articles/)
-
-### Implemented-system lineage
-
-The practical line comes from systems built and operated before the present research language existed. They provide engineering provenance and concrete mechanisms to test; they are not automatic proof of the later general architecture.
-
-Examples include:
-
-- [xSeil — mission-critical mobility orchestration](https://jubap.net/xseil-vrp/)
-- [Regime Awareness capability development across field cases](https://tegrity.ai/evolution-of-regime-awareness-capability/)
-- [Phylons — predictive factors to semantic windows](https://jubap.net/phylons-predictive-factors-cascade/)
-- [Phylons — dynamic combinatorial search](https://jubap.net/phylons-dynamic-combinations/)
-- [Mobility Operating System / Car Evolution](https://jubap.eu/car-pooling-orchestration/)
-
-These cases are useful because they expose the same practical tensions: incomplete context, changing conditions, competing objectives, limited response windows and distributed authority.
+This is the throughline. The rest of the programme asks **why the gap appears, why it persists, how it can be measured, how to detect when it becomes operationally dangerous, and what a bounded response should look like**. citeturn463330view0turn315947search6
 
 ---
 
-# The five workstreams
+# Four disciplines explain why structural awareness is lost
 
-## 1. Cost of Clarity — before commitment
+The core research programme approaches the same phenomenon from four different starting points. They are not four proofs of the same claim. Their value is that they ask different causal questions and can therefore be tested separately.
 
-**Question:** do we actually have the information, distinctions and authority required to make a defensible commitment?
+## 1. The Cost of Clarity — information economics
 
-Organizations can perform extensive readiness, due-diligence or maturity work and still commit on a structurally incomplete basis. Relevant facts may be missing, contradictory, tacit, distributed across people or never institutionally declared.
+**Why doesn't the organization simply discover the truth and fix its map?**
 
-The Cost of Clarity work asks whether those conditions can be identified **before** commitment, at an economically useful cost, and whether a sealed pre-commitment assessment later predicts information-acquisition burden or decision difficulty.
+Because clarity is not free.
 
-**Go to:** [Cost of Clarity / EIS Estonia RUP applied research](./applied-research/cost-of-clarity-rup/README.md)
+As systems grow, dependencies become entangled: applications, teams, rules, data sources, owners and constraints interconnect faster than they can be inspected one by one. Discovering how the system really works requires lineage tracing, reconciliation, interviews, observation, exception analysis and often new institutional declarations.
+
+The series adds a second point that is usually missed: **clarity has risk, not only cost**.
+
+- Asking a question can change the answer: “who owns this?” can trigger repositioning before ownership is actually observed.
+- Decisions often have to be made before discovery is complete.
+- A “clean” target architecture can destroy value hidden in exactly the disorder being removed.
+
+The practical consequence is that transformation cannot treat information about the current system as a free prerequisite. **The cost and risk of producing sufficient clarity belong in the business case.**
+
+The series develops ways to measure that burden and asks whether clarity is becoming more expensive as systems become more entangled. citeturn888702search3turn315947search8
+
+**Read:** [The Cost of Clarity](https://tegrity.ai/series/cost_of_clarity/)
 
 ---
 
-## 2. Ecosystem Awareness / Ecosystem Positioning — what can be justified now?
+## 2. The Attribution Gap — economics of contribution and credit
 
-**Question:** given an incomplete and changing ecosystem, what is actually established for this participant, this decision and this moment?
+**Why does the organizational map drift in a direction that can destroy strong capabilities rather than weak ones?**
 
-No agent, organization or human observer has the whole ecosystem. A local result can be correct while the larger conclusion remains unsupported.
+Because contribution and credit are not the same thing.
 
-Ecosystem Awareness therefore keeps explicit:
+A capability can be structurally critical while receiving little formal recognition. Making a dependency explicit can create a legitimate claim for budget, authority or ownership at its source — which can reduce the credit captured elsewhere. That creates an incentive to keep important dependencies implicit.
+
+The resulting **Attribution Gap** is the distance between:
+
+- how much a capability actually contributes; and
+- how much formal credit, ownership, investment or recognition it receives.
+
+The theory proposes a causal chain:
+
+**incomplete contribution visibility → attribution distortion → weak ownership/funding → capability loss**
+
+This reframes some “legacy retirement” and rationalization failures. A capability may disappear not because it performed badly, but because the organization was unable to attribute its value correctly.
+
+The empirical programme therefore looks for signatures such as ownership silence, discovery gaps, build-vs-buy inversion and high-contribution capabilities hidden in undocumented sets. citeturn888702search4turn315947search9
+
+**Read:** [The Attribution Gap](https://tegrity.ai/series/attribution_gap/)
+
+---
+
+## 3. Human Intelligence Debt — organizational theory
+
+**If the structure is wrong, why doesn't someone with enough authority simply step back, see the problem and correct it?**
+
+Because the human capacity to integrate across the whole system is scarce — and the people who have it are often consumed by the very fragmentation they should be resolving.
+
+Human Intelligence Debt measures the gap between:
+
+- the human contribution current technology could make possible; and
+- the human contribution that actually occurs when people are used as middleware: reconciling systems, re-entering data, validating exceptions, translating between silos and repairing fragmented workflows.
+
+The series distinguishes the feasible human contribution from realized human-intelligence density and treats the deficit as debt.
+
+The important bridge to Cost of Clarity is that **the cost of missing clarity does not disappear**. If architecture does not pay it structurally, people pay it cognitively.
+
+That can become self-reinforcing:
+
+**missing architectural decisions → unclear information → manual reconciliation → less capacity for architectural decisions**
+
+The measurement programme explicitly tests the debt, its recovery coefficient and the point at which added oversight begins to create more human validation work than it removes. citeturn315947search0turn315947search1turn315947search3
+
+**Read:** [Human Intelligence Debt research](https://tegrity.ai/series/human-intelligence-gap/)
+
+---
+
+## 4. Informational Friction — systems theory
+
+**Does the same phenomenon still exist if we remove human psychology, politics and incentives entirely?**
+
+Yes. That is the purpose of the systems-theory line.
+
+Informational Friction treats the map–flow problem as a general control problem. A system acts using a representation of its own state. When that representation diverges materially from the real flow, actions computed from the representation can deform the flow.
+
+This line develops several consequences:
+
+- a **frame-bounded optimizer** can be locally rational and still destroy cross-frame coherence;
+- a fully map-specified agent cannot preserve structure that is absent from its observable/declared frame;
+- a system can reach **failure by compliance**: every mandatory local rule is satisfied, yet the upstream objective is lost;
+- mature systems can accumulate **control density without integration**, becoming increasingly dependent on off-map compensating work;
+- external selection sees outcomes, while internal selection often runs on the same distorted proxies that created the problem.
+
+This is the same structural object with the specifically human mechanisms removed. citeturn888702search2turn315947search6turn315947search7
+
+**Read:** [Informational Friction](https://tegrity.ai/series/informational_friction/)
+
+---
+
+# Why four disciplines?
+
+The programme does **not** argue:
+
+> four series agree, therefore the theory is proven.
+
+The claim is narrower.
+
+Each discipline starts from a different primitive:
+
+| Discipline | Starting problem |
+|---|---|
+| **Cost of Clarity** | Resolving the state of a complex system consumes resources and carries risk. |
+| **Attribution Gap** | Credit and contribution can diverge because incentives act on attribution. |
+| **Human Intelligence Debt** | Cross-system human judgment is scarce and can be consumed by compensating work. |
+| **Informational Friction** | A controller acting on a divergent representation can drive the real system in the wrong direction. |
+
+The interesting result is that these different mechanisms converge on the same practical warning:
+
+> **Do not optimize, automate or rationalize a system until you understand which structure is actually carrying the outcome.**
+
+That convergence is a reason to test the phenomenon more seriously, not a substitute for evidence. The programme therefore emphasizes falsifiable measurements, counterfactuals and negative tests. citeturn463330view0
+
+---
+
+# From explanation to operational architecture
+
+The four disciplines explain why structural awareness can be lost. The next part of the programme asks what an operating system or institution can do about it.
+
+This is where **Regime Awareness, Ecosystem Awareness / Positioning and Minimum Sufficient Control** enter. They are not additional explanations of the same phenomenon. They are different architectural responsibilities.
+
+---
+
+## Regime Awareness — detect when yesterday's frame stops being valid
+
+A system can begin with a good representation and still fail because the world changes.
+
+Regime Awareness asks:
+
+> **Do the evidence, assumptions, thresholds and control structures supporting the current position still belong to the operating regime for which they were qualified?**
+
+This is deliberately different from forecasting. The objective is not perfect prediction or hidden-state reconstruction. It is to detect when current observable behaviour is no longer compatible with the regime against which the system is operating.
+
+The field reconstruction traces this capability across logistics, finance, enterprise architecture and adaptive systems. The current research programme develops minimalistic early-warning architectures and explicit comparison tests. citeturn888702search1turn888702search13turn888702search14turn888702search18
+
+**Read:** [Regime Awareness — corpus index](./research/regime-awareness/README.md)
+
+---
+
+## Ecosystem Awareness / Ecosystem Positioning — qualify what can be relied on now
+
+Regime Awareness can tell us that a frame is becoming invalid. A harder question remains:
+
+> **Given a changing ecosystem that no participant sees completely, what can this participant legitimately rely on for this decision now?**
+
+Ecosystem Awareness addresses that decision-scoped epistemic problem.
+
+It keeps separate:
 
 - what is established;
 - how strongly it is established;
-- what remains knowable within current capabilities;
+- what could still be determined with current capabilities;
 - what remains outside the active or knowable boundary;
-- which evidence depends on other evidence;
-- and when the current frame must be requalified.
+- which evidence inherits other dependencies;
+- and when a local result must be requalified before it is composed into a wider conclusion.
 
-**Ecosystem Positioning** is the participant-local situational view produced from that qualification: where am I, what applies here, what can I rely on, what remains unresolved and where would additional determination still change the decision?
+**Ecosystem Positioning** is the participant-local situational result of that qualification: where the participant is situated, what applies, what can be relied on, what remains unresolved and where additional epistemic effort still has decision value.
 
-It does **not** replace identity, delegated authority, policy, attestation, human governance or control systems. It consumes their bounded state and keeps their meaning explicit.
+The architecture explicitly avoids a global supercontroller. It consumes identity, authority, policy, attestation, population evidence, human context and execution outcomes from the components that own them rather than redefining those semantics itself.
 
-**Go to:** [Ecosystem Awareness — entry-point router](./research/ecosystem-awareness/README.md)
-
----
-
-## 3. Regime Awareness — does the current frame still hold?
-
-**Question:** even if the current decision was justified, are the assumptions and evidence that supported it still valid as the system operates?
-
-Actors change. Dependencies move. Objectives change. Service availability changes. Historical correlations stop holding. New constraints appear.
-
-Regime Awareness is therefore about **continued validity**, not simply prediction. It asks whether the current evidence still belongs to the operating regime for which it was qualified.
-
-**Go to:** [Regime Awareness — corpus index](./research/regime-awareness/README.md)
-
-### Regime Change Detection
-
-Regime Change Detection is the narrower quantitative problem inside Regime Awareness.
-
-It asks whether observable behaviour has departed materially from the regime against which current assumptions were established, how early that can be detected, and whether the signal is useful enough to support action.
-
-A detector can establish observable departure without reconstructing the complete hidden state of the world.
+**Read:** [Ecosystem Awareness — entry-point router](./research/ecosystem-awareness/README.md)
 
 ---
 
-## 4. Minimum Sufficient Control — can the system respond?
+## Minimum Sufficient Control — determine whether a useful response is actually possible
 
-**Question:** what is the smallest authorized combination of observation, coordination, intervention and enabling means that is sufficient for the declared objective?
+Knowing that the frame is wrong is not the same as being able to act.
 
-A correct diagnosis is not enough. A system may know that something has changed and still lack authority, intervention reach, time or resources to respond.
+Minimum Sufficient Control asks:
 
-MSCA treats control as a **conditional sufficiency problem**, not a maximization problem. More data, more orchestration or more centralization is not automatically better.
+> **What authorized configuration of coordination, intervention mechanisms and enabling means is sufficient to keep or return a declared objective inside an acceptable Objective Envelope?**
 
-The architecture asks whether a candidate configuration is sufficient for the current Objective Envelope and operating assumptions, and whether a lower-burden supported alternative exists.
+It is a sufficiency problem, not a maximization problem.
 
-**Go to:** [Minimum Sufficient Control / MSCA — corpus index](./standards/minimum-sufficient-control/README.md)
+More monitoring, more orchestration, more intervention and more centralization are not automatically better. The architecture compares supported configurations under stated assumptions and asks whether a lower-burden sufficient alternative exists.
 
----
+This is the response side of structural awareness: not perfect control, but **enough legitimate control for the current objective and conditions**.
 
-## 5. AI Integrity Management — putting the responsibilities together
-
-AI Integrity Management is the management and architecture layer that connects these questions to operational AI governance.
-
-It does not collapse them into one mechanism. Instead, it asks whether an AI-enabled operating model has:
-
-- a defensible commitment basis;
-- a qualified current position;
-- awareness of changing operating conditions;
-- a meaningful detection path;
-- legitimate and sufficient response capacity;
-- and evidence that those responsibilities remain connected during operation.
-
-This is where the programme becomes relevant to enterprise AI governance, safety, reliability, security, assurance and accountability.
-
-**Public context:** [AI Integrity Management](https://tegrity.ai/series/ai_integrity/)
+**Read:** [Minimum Sufficient Control / MSCA — corpus index](./standards/minimum-sufficient-control/README.md)
 
 ---
 
-## How the pieces fit without becoming one system
+# AI Operational Integrity Architecture — what happens around statistical AI
 
-The workstreams have different responsibilities:
+Modern enterprise AI commonly places a probabilistic or statistical core inside a deterministic envelope of rules, validation, guardrails, policy checks, human approvals and compliance controls.
 
-| Workstream | Owns this question | Does **not** automatically own |
-|---|---|---|
-| **Cost of Clarity** | Is the commitment basis sufficiently established? | Runtime regime validity |
-| **Ecosystem Awareness / Positioning** | What is established, unresolved or worth requalifying for this decision? | Identity, authority or execution |
-| **Regime Awareness** | Does the operating frame remain valid? | Complete ecosystem truth |
-| **Regime Change Detection** | Has observable behaviour materially departed? | Legitimate response authority |
-| **MSCA** | Is a proposed control configuration sufficient and authorized? | Epistemic truth |
-| **AI Integrity Management** | Are these responsibilities coherently governed? | Automatic validation of any component |
+That architecture is necessary — but it has structural limits.
 
-The value of the programme is precisely in keeping these boundaries visible while making their interfaces testable.
+The AI Operational Integrity Architecture line asks what happens when:
 
----
+- the operating regime shifts;
+- the envelope inherits an incomplete representation;
+- multiple controls become coupled;
+- local guardrails interact in ways that were not designed together;
+- the residual validation load moves to humans.
 
-## Architecture, evidence and pre-standardization
+The key point is that downstream validators cannot recover distinctions that were never represented upstream. Oversight therefore has a residual floor, and beyond a coupling/exception threshold, adding controls can increase rather than reduce Human Intelligence Debt. citeturn888702search12turn315947search3
 
-The architecture work is public and inspectable, but its evidence status matters.
-
-Current public material includes:
-
-- architecture and interface proposals;
-- reference failure scenarios;
-- benchmark design and comparison arms;
-- validation profiles;
-- implementation profiles;
-- pre-registration and test-harness design;
-- public contribution packages and standards-facing discussion.
-
-This does **not** mean comparative superiority, independent validation or standards adoption has already been established.
-
-For detailed technical work, enter through the relevant corpus rather than through this page.
+**Read:** [AI Operational Integrity Architecture](https://tegrity.ai/series/ai-operational-integrity-architecture/)
 
 ---
 
-## Public submissions and institutional routes
+# AI Integrity Management — the enterprise function
 
-A separate library records material sent to or publicly discussed through UNECE, UN CSTD and ITU processes.
+AI Integrity Management is the governance and management proposition that sits above these architectural questions.
 
-It preserves exact procedural status so that “submitted”, “received”, “posted”, “discussed” and “adopted” are not confused.
+Its argument is organizational:
 
-**Go to:** [Public submissions and contributions](./submissions/README.md)
+> as AI moves into mission-critical operations, operational reliability, security, compliance, governance, ethics, human authority and resilience cannot be managed as unrelated silos.
+
+The proposed enterprise function brings those concerns together around one question:
+
+> **Does the AI-enabled system remain reliable, controllable and aligned under real operating conditions?**
+
+The research explicitly treats this as an emerging discipline, not an established organizational standard. It examines whether the enterprise should manage AI integrity as one integrated function or as multiple coordinated functions, and what evidence would justify either model. citeturn463330view2turn888702search6turn888702search7
+
+**Read:** [AI Integrity Management](https://tegrity.ai/series/ai_integrity/)
+
+---
+
+# How the programme connects
+
+The programme can now be read as a chain of responsibilities without pretending they are one mechanism:
+
+```mermaid
+flowchart LR
+    SA[Structural Awareness<br/>see the real structure]
+    CC[Cost of Clarity<br/>price the information needed]
+    AG[Attribution Gap<br/>detect distorted contribution / credit]
+    HID[Human Intelligence Debt<br/>measure cognition spent compensating]
+    IF[Informational Friction<br/>model map–flow back-action]
+
+    RA[Regime Awareness<br/>detect loss of frame validity]
+    EA[Ecosystem Positioning<br/>qualify what can be relied on]
+    MSCA[MSCA<br/>find sufficient authorized control]
+    AIM[AI Integrity Management<br/>govern the whole operating responsibility]
+
+    SA --> CC
+    SA --> AG
+    SA --> HID
+    SA --> IF
+
+    IF --> RA
+    RA --> EA
+    EA --> MSCA
+    MSCA --> AIM
+```
+
+The diagram is a conceptual route, not a claim that every implementation must instantiate every box.
+
+---
+
+# What is being tested now
+
+The public work has moved beyond Field Notes into architecture, benchmarks, reference scenarios and pre-standardization contributions.
+
+Current work includes:
+
+- Regime Change Detection and minimalistic early-warning research;
+- the applied Cost of Clarity / information-readiness research programme;
+- Ecosystem Awareness / Ecosystem Positioning architecture;
+- Minimum Sufficient Control Architecture;
+- reference failure scenarios and benchmark design;
+- cross-agent epistemic handoff and signalling;
+- effective human oversight under bounded capacity;
+- standards-facing work in ITU, UNECE and related public processes.
+
+The important evidence boundary is simple:
+
+**architecture is not validation; a benchmark design is not a benchmark result; public discussion is not standards adoption.**
+
+---
+
+# Where to go next
+
+Choose the question you actually have:
+
+- **I want to understand the theory behind Structural Awareness** → [Structural Awareness synthesis](https://tegrity.ai/structural-awareness-program/)
+- **I want the formal/publication line** → [ResearchGate publications](https://www.researchgate.net/profile/Ivan-Abril-Palma-2)
+- **I want the Field Notes and research series** → [Field Notes](https://tegrity.ai/articles/)
+- **I want to understand Regime Awareness** → [Regime Awareness corpus](./research/regime-awareness/README.md)
+- **I want the current agentic architecture / Ecosystem Positioning** → [Ecosystem Awareness router](./research/ecosystem-awareness/README.md)
+- **I want the control-sufficiency architecture** → [MSCA corpus](./standards/minimum-sufficient-control/README.md)
+- **I want the applied Cost of Clarity work** → [Cost of Clarity / RUP](./applied-research/cost-of-clarity-rup/README.md)
+- **I want to see submitted/public institutional contributions** → [Submissions](./submissions/README.md)
 
 ---
 
@@ -233,9 +350,9 @@ It preserves exact procedural status so that “submitted”, “received”, �
 
 ## For maintainers
 
-The public pages are written for human readers. Repository maintenance rules, the sitemap and document-migration controls are kept separately in [DOCUMENT_CONTROL.md](./DOCUMENT_CONTROL.md).
+This README is intentionally written for **human readers first**. It must continue to explain the programme, not degrade into a sitemap or an index of indexes.
 
-That file must be consulted before moving, renaming or removing routed material, but it is **not** a substitute for the explanatory content of this README.
+Repository-maintenance rules, the controlled sitemap and document-migration procedures are kept separately in [DOCUMENT_CONTROL.md](./DOCUMENT_CONTROL.md). Editors and bots must read that file before moving, renaming or removing routed material.
 
 ---
 
