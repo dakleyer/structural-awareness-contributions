@@ -46,7 +46,9 @@ If a proposed change is reviewed and rejected, move it to **Closed / not adopted
 
 **Decision gate:** do **not** create S15+, T5+, H7+ or new KPI families merely because a later document uses new vocabulary. A new requirement is justified only when the behaviour/evidence cannot be expressed without semantic distortion in the current system.
 
-**Expected output:** one versioned Requirements-vNext change proposal, followed only after review by a versioned successor/update to the canonical requirements.
+**Current review artefact:** [Requirements vNext Review & Delta v0.1 Draft](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Its current W1 determination is **no new S15/T5/H7/KPI family**: later concepts are predominantly existing mappings, component conformance or benchmark-specific measures. Two future clarification candidates remain open: `Role_bound ↔ Role_effective` visibility, and explicit opportunity/admissibility/authority/execution separation.
+
+**Expected output:** only if a later review identifies a genuine solution-requirement gap, prepare a versioned Requirements-vNext change proposal. The current canonical requirements remain unchanged.
 
 **Must preserve:** current tests and pre-registrations remain interpretable against the requirement version/commit they cite.
 
