@@ -265,7 +265,7 @@ The [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient
 
 The three top-level postures are **not three RA detector outputs** and are not a linear rescaling of B_RA.
 
-For participant i, EA/Positioning applies a participant-local posture operator:
+For participant i, EA supplies the qualified mission/frame inputs, while [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) operationally applies the participant-local posture operator:
 
 ~~~text
 Posture_i(t)
@@ -302,6 +302,8 @@ The transition is intentionally **nonlinear**. A small additional fall in B_RA m
 Illustrative confidence values such as 0.5→0.4 for containment or <0.1 for migration are examples only. This architecture does not prescribe universal numeric thresholds.
 
 Loss of sufficient regime qualification may correspond to the existing **potential critical bifurcation** condition: the previous response mapping is no longer sufficiently qualified while several future response paths may remain locally plausible. That term is operational, not a claim that every transition is a mathematical bifurcation.
+
+Operation/Repositioning additionally catalogues material received/local A/B/C/D compositions against the canonical Type 0/Type 1/Type 2 taxonomy before fixing P1/P2/P3. RA does not own that management-failure classification or the final hard posture decision.
 
 ### I-RA-04: action-safety declaration and response trace (owner/RA governor/control → EA F6/F9)
 
