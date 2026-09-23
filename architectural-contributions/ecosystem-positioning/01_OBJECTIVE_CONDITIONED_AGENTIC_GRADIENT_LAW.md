@@ -45,14 +45,13 @@ where:
 - **C_X** — recognized control/capability state that could still be established or activated with current capabilities;
 - **D_X** — residual control-relevant state outside that represented/currently obtainable boundary.
 
-A Regime Awareness source may emit:
+A Regime Awareness source may emit the qualified delta:
 
 ~~~text
-Π_RA(t) = [ A_RA, B_RA, C_RA, D_RA ]
-Δ_RA(t)
+Δ_RA(t) = [ A_RA, B_RA, C_RA, D_RA ]
 ~~~
 
-where Δ_RA is a qualified ecosystem/regime change direction and B_RA carries its directional confidence/strength.
+where **A_RA is direction**, **B_RA is confidence/intensity attached to that direction**, C_RA is the current-capability frontier and D_RA is residual. Scope, Ψ/context/baseline, provenance, freshness and sign semantics qualify the delta but are not substitutes for its direction.
 
 ACC, identity/delegation, signalling and authority remain separate objects that constrain which transitions may be pursued.
 
@@ -192,7 +191,7 @@ It MAY be:
 
 The law does not require a universal weighted sum.
 
-## 6. Ecosystem gradient from Regime Awareness
+## 6. Ecosystem delta from Regime Awareness
 
 Regime Awareness supplies a qualified ecosystem/regime delta:
 
@@ -202,9 +201,9 @@ Regime Awareness supplies a qualified ecosystem/regime delta:
 
 together with A_RA/B_RA/C_RA/D_RA.
 
-This is an **ecosystem gradient**: it describes where the represented operating regime appears to be moving and with what qualified strength/confidence.
+This is an **ecosystem delta**, not a gradient: it describes where the represented operating regime appears to be moving and how strongly that direction is supported.
 
-It is not yet the participant's own action gradient.
+The gradient exists only after the receiving participant projects this delta through its own objectives, dependencies and MSCA.
 
 The participant first projects that delta through its represented dependencies:
 
@@ -278,7 +277,53 @@ This is the core law.
 
 It is valid for discrete transitions through finite differences and for continuous state spaces through an ordinary differential gradient when such a representation is justified.
 
-## 8. Admissible versus executable gradient
+## 8. Nonlinear posture operator
+
+The agentic gradient and the three operating postures are related but not identical.
+
+A participant-local posture is produced by a nonlinear operator:
+
+~~~text
+Posture_i
+=
+Γ_i(
+  Δ_RA,
+  R_i,
+  Π_X,i,
+  ACC_i,
+  authority_i,
+  capacity_i,
+  response_horizon_i
+)
+~~~
+
+with:
+
+~~~text
+NORMAL
+CONTAINMENT
+MIGRATION / REGIME_TRANSITION
+~~~
+
+**NORMAL is compatible with continuous change.** The regime delta may have a clear A_RA direction and high B_RA confidence while the participant continues to operate because its historical/current response mapping remains sufficiently qualified.
+
+**CONTAINMENT** occurs when confidence in the current regime mapping or the objective-conditioned risk crosses a local threshold, while a known bounded fallback/containment mapping remains qualified.
+
+**MIGRATION / REGIME TRANSITION** occurs when the current regime/history no longer supplies a sufficiently qualified mapping for the mission. At that point extrapolation/forecasting from the old regime is not a justified control basis; invariant safety controls may remain usable while the new frame is qualified.
+
+Because Γ_i contains thresholds, hard constraints and possibly hysteresis, the compound response is deliberately non-linear:
+
+~~~text
+small change in B_RA
++ threshold crossing
+→ discrete posture change
+~~~
+
+The thresholds belong to the participant's legitimate configuration — potentially ACC, control policy or mission owner — not to Regime Awareness universally.
+
+A sufficiently severe loss of regime qualification may place the participant in the existing **potential critical bifurcation** condition: the old mapping is invalid or insufficiently qualified while several successor paths remain plausible.
+
+## 9. Admissible versus executable gradient
 
 The raw gradient does not create authority.
 
@@ -332,7 +377,7 @@ This preserves:
 opportunity ≠ admissibility ≠ authority ≠ execution
 ~~~
 
-## 9. Burden and time
+## 10. Burden and time
 
 Observation, signalling, verification, compute, human review, switching and intervention consume resources.
 
@@ -360,13 +405,13 @@ No universal burden scalar is imposed.
 
 Hard limits such as deadline, privacy, safety or authority remain constraints rather than quantities that can always be bought off with benefit elsewhere.
 
-## 10. Mechanical RA → MSCA → agentic gradient mapping
+## 11. Mechanical RA → MSCA → agentic gradient mapping
 
 The full sequence is:
 
 ~~~text
 Regime Awareness
-Π_RA + Δ_RA
+Δ_RA = [A_RA,B_RA,C_RA,D_RA]
         ↓
 participant-local dependency projection
 δ_i = P_i(Δ_RA)
@@ -390,9 +435,9 @@ executable repositioning
 
 The architecture therefore does not calculate a second unrelated gradient after Regime Awareness.
 
-It **translates the ecosystem gradient into an agentic gradient by objective-conditioned projection over the participant's MSCA position**.
+It **translates the ecosystem delta into an agentic gradient by objective-conditioned projection over the participant's MSCA position**.
 
-## 11. Positioning consequences by region
+## 12. Positioning consequences by region
 
 ### Δ aligns with A_X
 
@@ -435,7 +480,7 @@ No repositioning pressure follows for the current objective.
 
 The signal may still be retained for other decisions or future dependency changes.
 
-## 12. Multi-agent dependence
+## 13. Multi-agent dependence
 
 Participant i may depend on objectives or control states owned by participant j.
 
@@ -451,7 +496,7 @@ Participant i may therefore include j-related uncertainty in R_i while still hav
 
 This is how independent local gradients can generate choreography without a central optimizer.
 
-## 13. Choreography law
+## 14. Choreography law
 
 When each participant repeatedly:
 
@@ -464,11 +509,11 @@ When each participant repeatedly:
 
 the collective system evolves through **choreography** rather than orchestration.
 
-Each local repositioning alters the ecosystem seen by others and therefore changes their future Δ_RA and gradients.
+Each local repositioning alters the ecosystem seen by others and therefore changes their future Δ_RA inputs and local agentic gradients.
 
 No global objective, common ACC, common MSCA or equilibrium is required.
 
-## 14. Falsification / boundary conditions
+## 15. Falsification / boundary conditions
 
 A candidate implementation violates this law if it:
 
@@ -483,7 +528,7 @@ A candidate implementation violates this law if it:
 - ignores cost/deadline/capacity when those affect S;
 - claims a globally optimal gradient from a participant-local bounded model.
 
-## 15. Canonical law
+## 16. Canonical law
 
 The law can be stated compactly:
 
