@@ -2,21 +2,21 @@
 
 > **Maintenance backlog only.** This is not a canonical architecture document, benchmark result or publication-status statement. It records items deliberately deferred from the 23 September surgical coherence/integrity pass.
 
-## 1. Deferred priority — baseline / FG-TIDA duplicate disposition
+**Conservation audit:** [Corpus Information Conservation Audit — 23 September 2026](./CORPUS_INFORMATION_CONSERVATION_AUDIT_2026-09-23.md) · [Preserved Public Snapshots](./preserved-public-snapshots/README.md)
 
-**Not executed in the current pass.** Review case by case before creating stubs, deleting copies or changing ownership.
+## 1. Baseline / FG-TIDA duplicate disposition — conservation audit completed
 
-Exact-name pairs measured in the current tree:
+The duplicate pairs were reviewed during the [Corpus Information Conservation Audit](./CORPUS_INFORMATION_CONSERVATION_AUDIT_2026-09-23.md) before Priority B. **No copy was deleted, stubbed or shortened.**
 
-| Baseline copy | FG-TIDA copy | Current relation | Next review question |
+| Baseline copy | FG-TIDA copy | Audit finding | Current conservation decision |
 |---|---|---|---|
-| `baseline/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md` | `fg-tida/cases/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md` | Different blobs | Which copy is source/provenance and which is the current package reader? |
-| `baseline/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md` | `fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md` | Different blobs | Reconcile content before choosing canonical package location/stub. |
-| `baseline/FG_TIDA_ECOSYSTEM_AWARENESS_PUBLIC_FOOTPRINT_2026-09-08.part01.md` | `fg-tida/provenance/FG_TIDA_ECOSYSTEM_AWARENESS_PUBLIC_FOOTPRINT_2026-09-08.part01.md` | Byte-identical at review time | Decide whether baseline remains preserved source or becomes redirect/stub. |
-| `baseline/PUBLIC_PROVENANCE_2026-09-08.md` | `fg-tida/provenance/PUBLIC_PROVENANCE_2026-09-08.md` | Byte-identical at review time | Same provenance decision. |
-| `baseline/EA-ITP-01_v0.1_FROZEN.md` | `fg-tida/tests/EA-ITP-01_v0.1_FROZEN.md` | Byte-identical at review time | Preserve freeze ownership before deciding which side may be a stub. |
+| `baseline/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md` | `fg-tida/cases/DAOS_EA_USE_CASES_MASTERCLASS_v0.1.md` | Same substantive text; blob difference is relative-link rebasing after package relocation | FG-TIDA path is the current package reader; retain baseline copy as compatibility/source copy |
+| `baseline/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md` | `fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md` | Same substantive bridge; differences are rebased links and the current general-interface target | FG-TIDA path is the application-package reader; retain baseline copy |
+| `baseline/FG_TIDA_ECOSYSTEM_AWARENESS_PUBLIC_FOOTPRINT_2026-09-08.part01.md` | `fg-tida/provenance/FG_TIDA_ECOSYSTEM_AWARENESS_PUBLIC_FOOTPRINT_2026-09-08.part01.md` | Byte-identical | Retain both pending any later explicit physical deduplication |
+| `baseline/PUBLIC_PROVENANCE_2026-09-08.md` | `fg-tida/provenance/PUBLIC_PROVENANCE_2026-09-08.md` | Byte-identical | Retain both pending any later explicit physical deduplication |
+| `baseline/EA-ITP-01_v0.1_FROZEN.md` | `fg-tida/tests/EA-ITP-01_v0.1_FROZEN.md` | Byte-identical frozen artifact | Retain both; do not change freeze/source ownership casually |
 
-Do **not** assume that `fg-tida/` must always be the only physical home. Frozen/control provenance may justify the inverse relation.
+This closes the immediate **information-loss risk**, not the future storage-normalization question. A later deduplication pass may choose a single physical home only if it preserves the historical/freeze route and does not discard information.
 
 ## 2. Presentation finalization — still on hold
 
@@ -54,14 +54,16 @@ These four items were applied additively after the semantic/coherence pass. Exis
 - **P06** EA corpus status legend table, without bulk reclassification of existing files — commit `3771998`.
 - **P10** Regime Awareness producer/consumer input-output interface table, retaining the original producer list and output prose — commit `d6627cf`.
 
-### Priority B — pending
+### Priority B — completed 23 September 2026
 
-Execute only after reviewing the affected current text again. Preserve the full existing explanations.
+Executed only after the independent conservation audit. All four changes were additive; the pre-existing explanatory text remains in place.
 
-- **P03** root evidence-boundary table tied to E1–E4. This may be added under the existing evidence-boundary bullets rather than replacing them.
-- **P07** corpus-at-a-glance table + collapsible long route. **Wait for the baseline / FG-TIDA duplicate disposition** so the compact route does not canonize the wrong physical copy.
-- **P02** root architecture Mermaid. The EP/EA hierarchy coherence dependency is now resolved, but this is a visual architecture aid and should be checked against the then-current text immediately before insertion.
-- **P09** topology reading-rule Mermaid. Keep the existing written reading rule; the visual is supplementary.
+- **P03** root evidence-boundary table added beneath the existing evidence-boundary bullets — commit `b3143bb`.
+- **P02** root architecture Mermaid added as a supplementary navigation aid over the existing Technical Gates text — commit `2009716`.
+- **P07** corpus-at-a-glance table added above the full annotated reading route — commit `42846a9`. **The long route was deliberately not collapsed or removed.**
+- **P09** topology reading-rule Mermaid added beneath the existing written reading rule — commit `a811725`.
+
+The baseline / FG-TIDA duplicate review found no semantic-content conflict requiring deletion, so P07 could be added without choosing a destructive physical deduplication.
 
 ### Priority C — pending / lower urgency
 
