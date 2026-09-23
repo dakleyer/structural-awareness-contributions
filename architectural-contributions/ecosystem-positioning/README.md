@@ -41,7 +41,7 @@ flowchart LR
     A[Participant action / observation]
     E[EA local position<br/>Π_EA,i = A/B/C/D]
     S[Qualified Ecosystem Signalling<br/>ReceivedSignals_i]
-    M[MSCA Ecosystem Composition & Control<br/>ECM_i / Δ_ECM,i]
+    M[MSCA Ecosystem Composition & Control<br/>Cart_i / Δ_Cart,i]
     R[Regime Awareness<br/>Δ_RA + regime overlay]
     G[Agentic Gradient / posture interpretation]
     P[Future Repositioning<br/>not yet specified]
@@ -65,7 +65,7 @@ The component contract is:
 
 - [01H](../../research/ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) supplies the participant-local qualified epistemic position and material local action/effect changes;
 - [01J](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) supplies receiver-qualified external messages as `ReceivedSignals_i`;
-- [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) maintains the participant-local multi-resolution ecosystem map `ECM_i` and its structural change-set `Δ_ECM,i`;
+- [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) maintains the participant-local qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` and its cartographic change-set `Δ_Cart,i`;
 - [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) consumes those inputs plus focal MSCA/Role/decision context and returns `Δ_RA`, a regime-qualified overlay and bounded requalification requests;
 - the [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) interprets that delta relative to the focal participant; the actual repositioning mechanism remains pending.
 
