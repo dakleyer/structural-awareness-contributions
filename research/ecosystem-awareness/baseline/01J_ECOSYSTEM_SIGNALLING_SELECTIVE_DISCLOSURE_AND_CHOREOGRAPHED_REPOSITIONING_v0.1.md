@@ -72,6 +72,12 @@ A decision-scoped projection may include:
 
 This says what the sender currently considers established, unresolved, potentially obtainable or structurally residual.
 
+The four-position model is a semantic space, not a four-field transmission requirement. A participant MAY disclose any subset of A/B/C/D, including a single component. An omitted component remains **UNKNOWN / NOT DECLARED** to the receiver. Omission MUST NOT be interpreted as zero uncertainty, absence of residual unknowns, epistemic completeness or evidence that the omitted position is empty.
+
+This allows low-capability, legacy or specialised devices to participate without implementing the complete EA representation. A device may, for example, emit only a determined observation. An EA-capable receiver may use that observation while preserving the other epistemic positions as unknown.
+
+The receiver may therefore maintain a richer local epistemic position for the contact than the sender explicitly transmits. Receiver-added qualification remains receiver-local and MUST NOT be rewritten as a sender claim.
+
 ### 3.2 MSCA projection
 
 A bounded MSCA projection may include only the elements material to the interaction, for example:
@@ -169,6 +175,8 @@ Possible receiver states include, for example:
 - contested;
 - stale;
 - dependent / non-independent;
+- unsupported by the receiver's current semantic or protocol frame;
+- incompatible for the relevant interaction;
 - not established.
 
 The sender's claim that it has broad visibility, many peers, high confidence or exhausted further acquisition capacity is itself a claim to be qualified, not a substitute for independent evidence.
@@ -262,7 +270,7 @@ The architecture therefore preserves the difference between:
 - what is institutionally admissible;
 - what is actually authorized.
 
-## 9. Handshake, active exchange, amendment and termination
+## 9. Handshake, compatibility mode, active exchange, amendment and termination
 
 A minimum interaction lifecycle may contain:
 
@@ -270,15 +278,64 @@ A minimum interaction lifecycle may contain:
 
 Participants may exchange selected references describing identity, local purpose, ACC/profile, authority/delegation, epistemic scope and MSCA-relevant capability.
 
+The handshake also performs an initial **semantic coupling / compatibility check**. Its purpose is not to require the same protocol or the same epistemic sophistication. It determines whether the receiver can interpret enough of the sender's frame for the intended bounded interaction.
+
+At architecture level, the minimum interoperable envelope is therefore distinct from minimum epistemic disclosure. The handshake needs only enough information to bind and qualify the exchange and to determine whether a usable mapping exists. It does **not** require a complete A/B/C/D vector, common ACC, common MSCA or common protocol version.
+
+The receiver may classify the interaction, for example, as:
+
+- **direct / native compatibility** — the relevant semantics can be interpreted without a material translation gap;
+- **bounded compatibility mode** — a material subset can be mapped into the receiver's frame while some semantics remain unavailable, legacy, version-different or otherwise non-equivalent;
+- **incompatible / unsupported** — no sufficiently reliable mapping exists for the intended interaction.
+
+Compatibility may operate downward toward legacy or lower-capability devices and upward toward richer or newer participants. A legacy device therefore does not need to implement the complete EA model in order to communicate. If at least one material signal can be mapped responsibly into the receiver's frame, the interaction may proceed fully **within that bounded compatibility scope**.
+
+### Bounded compatibility and epistemic residual
+
+Bounded compatibility is not semantic equivalence.
+
+When the receiver translates, adapts or infers meaning across a different protocol, schema, capability level or legacy interface, the receiver MUST preserve the uncertainty introduced by that mapping. For the receiver's local epistemic position of the contact, this creates a **compatibility residual in D**: a structural UNKNOWN associated with what may have been lost, collapsed, omitted or differently encoded by the compatibility mapping.
+
+This compatibility residual is receiver-local. It is not a claim that the sender declared D, and it does not modify the sender's original message. It records that the receiver is relying on an interpretation mediated by its own compatibility mode.
+
+Conceptually:
+
+sender signal
+-> handshake / frame coupling
+-> bounded compatibility mapping
+-> receiver-qualified signal
+   + D_compatibility = UNKNOWN
+-> receiver-local contact position
+
+D_compatibility MUST NOT be interpreted as zero merely because communication succeeds. Successful exchange establishes usable coupling for the bounded interaction; it does not establish full semantic equivalence.
+
+Likewise, if the sender transmits only one epistemic component, the receiver may use that component while the undeclared components remain UNKNOWN / NOT DECLARED. The compatibility residual is additional to those undeclared positions and records uncertainty introduced by translation itself.
+
+The receiver SHOULD retain enough lineage to reconstruct, where material:
+
+- sender protocol/profile/version or observable equivalent;
+- compatibility mode used;
+- mapping or adapter reference where available;
+- sender-declared fields/components;
+- undeclared or unsupported fields/components;
+- translation/semantic-loss residual;
+- freshness and revalidation conditions.
+
+This does not create a new central compatibility service, mandatory adapter catalogue or fifth epistemic position. It is a receiver-local qualification rule within the existing signalling and A/B/C/D architecture.
+
 Low compatibility is a valid outcome. The handshake does not require the parties to share a worldview, objective or participation profile.
 
 ### Active exchange
 
 Participants exchange bounded signals at their own discretion or according to an applicable domain profile.
 
+A participant operating in bounded compatibility mode may continue to exchange useful signals as long as the mapping remains sufficient for the current decision/scope. A change in protocol, schema, role, context or material semantics may trigger re-handshake or requalification.
+
 ### Amendment / requalification
 
 Signals may be corrected, narrowed, superseded, corroborated, contested or revoked. Material lineage must remain reconstructible.
+
+Compatibility assumptions may also be amended or invalidated. A previously accepted mapping becoming stale or insufficient is itself a requalification condition.
 
 ### Termination / exit
 
