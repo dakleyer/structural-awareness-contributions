@@ -56,7 +56,9 @@ Relationship map. Producer result/profile → EHD / decision-relevant handoff �
 
 &nbsp;
 
-# 2\. Common Epistemic Handoff Descriptor\n\n**Current A/B/C/D reconciliation — 23 September 2026.** This integrated interface document retains the frozen v0.4 source lineage, but current reader-facing A/B/C/D semantics follow the [Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position): A = situated assertion/scope; B = confidence/intensity; C = recognized current-capability frontier; D = structural/residual unknown. Earlier determined/unresolved wording is preserved only as source lineage, not as a competing current tuple.
+# 2\. Common Epistemic Handoff Descriptor
+
+**Current A/B/C/D reconciliation — 23 September 2026.** This integrated interface document retains the frozen v0.4 source lineage, but current reader-facing A/B/C/D semantics follow the [Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position): A = situated assertion/scope; B = confidence/intensity; C = recognized current-capability frontier; D = structural/residual unknown. Earlier determined/unresolved wording is preserved only as source lineage, not as a competing current tuple.
 
 Emission-side obligation. The Epistemic Handoff Descriptor does not create a third epistemic control family. A producer remains responsible for applying the internal controls to its own state; the handoff obligation is to preserve the decision-relevant qualifiers needed for downstream interpretation. Where a qualifier cannot be established, it remains UNKNOWN rather than being fabricated. Missing qualification creates downstream Type-2 exposure, not automatic Type 2; the failure materializes only when an intermediary or receiver promotes the missing or bounded qualification into greater determination than was supplied.
 
@@ -130,21 +132,21 @@ Window-qualification fields
 
 &nbsp;
 
-Four-pole epistemic position
+Four-component qualified epistemic position
 
 Where the producer can express it, the EHD should make legible:
 
-A — sufficiently determined state inside the active window;
+A — situated assertion/scope: what is represented or asserted, where/from which frame and under which material qualifiers;
 
-B — defined state inside the window that remains unresolved;
+B — confidence/intensity: how strongly A is supported within that admitted frame;
 
-C — recognised state outside the current window that could potentially be brought into it;
+C — recognized current-capability frontier: additional decision-relevant state that could still be established with current observation, review, acquisition or computation capability;
 
-D — structural residual that the producer does not presume it can exhaustively eliminate.
+D — structural/residual unknown outside the represented and recognized-obtainable capability boundary.
 
 &nbsp;
 
-A producer is not required to have a perfect enumeration of B, C or D. The key requirement is that unavailable categories do not silently collapse into A.
+A producer is not required to have a perfect enumeration of C or D, nor one universal numeric B. The key requirement is that missing qualification does not silently collapse into an unscoped or overconfident A assertion.
 
 &nbsp;
 
