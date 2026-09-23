@@ -34,23 +34,44 @@ It is participant-local and does not require a global controller or a complete s
 
 ## Working process
 
+The current circuit is event/threshold/schedule driven; it does **not** require one fixed polling cadence.
+
 ```mermaid
 flowchart LR
-    R[0 · Regime Change / Early Warning<br/>detect or consume material change]
-    E[1 · Epistemic Awareness<br/>qualify participant-local epistemic state]
-    C[2 · Agentic Citizenship Contract<br/>apply admissible participation constraints]
-    S[3 · Ecosystem Signaling<br/>exchange bounded qualified state]
-    G[4 · Gradient determination<br/>rank where more determination still pays]
-    P[5 · Ecosystem Repositioning<br/>adapt locally without central orchestration]
-    H[Human Governance / authority & control<br/>legitimate owners act; signals ≠ commands]
+    A[Participant action / observation]
+    E[EA local position<br/>Π_EA,i = A/B/C/D]
+    S[Qualified Ecosystem Signalling<br/>ReceivedSignals_i]
+    M[MSCA Ecosystem Composition & Control<br/>ECM_i / Δ_ECM,i]
+    R[Regime Awareness<br/>Δ_RA + regime overlay]
+    G[Agentic Gradient / posture interpretation]
+    P[Future Repositioning<br/>not yet specified]
+    H[Authority / execution / effects]
 
-    R --> E --> C --> S --> G --> P --> H
-    H -. changed authority / envelope / control state .-> R
+    A --> E
+    S --> E
+    E --> M
+    S --> M
+    M --> R
+    E --> R
+    S --> R
+    R --> G
+    G -. candidate transition .-> P
+    P -. when specified / authorized .-> H
+    H --> A
+    R -. requalification / resolution request .-> M
 ```
 
-**MSCA is cross-cutting:** control sufficiency is re-assessed when the frame, Objective Envelope or authority changes. It does not create authority and it does not own the Semantic Window.
+The component contract is:
 
-The current gradient rule is defined in the [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md): Regime Awareness supplies a qualified ecosystem delta; each participant projects that delta onto its own MSCA/dependencies and ranks candidate repositioning by expected reduction of objective-conditioned uncertainty/risk, subject to ACC, authority, capability and time.
+- [01H](../../research/ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) supplies the participant-local qualified epistemic position and material local action/effect changes;
+- [01J](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) supplies receiver-qualified external messages as `ReceivedSignals_i`;
+- [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) maintains the participant-local multi-resolution ecosystem map `ECM_i` and its structural change-set `Δ_ECM,i`;
+- [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) consumes those inputs plus focal MSCA/Role/decision context and returns `Δ_RA`, a regime-qualified overlay and bounded requalification requests;
+- the [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) interprets that delta relative to the focal participant; the actual repositioning mechanism remains pending.
+
+**MSCA is cross-cutting:** control sufficiency is re-assessed when the frame, Objective Envelope, dependency map or authority changes. It does not create authority and it does not own the Semantic Window.
+
+The cycle may be triggered by local epistemic movement, one or several material external signals, signal insufficiency/staleness, dependency-map change, action/effect mismatch, owner/policy request or a domain-appropriate periodic refresh.
 
 ---
 
