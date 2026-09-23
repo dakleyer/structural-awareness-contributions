@@ -36,7 +36,7 @@ The symbol **X** is used for an MSCA representation/configuration. Older researc
 | **P — Intervention mechanisms** | Feasible actions available to maintain, recover, contain, migrate, reconfigure or otherwise influence the objective, with preconditions, latency, reversibility and required authority. | Feasibility is not permission. |
 | **M — Enabling means** | Observation, communication, interoperability, computation/processing where material, human/external capacity, actuation and independent effect-measurement capabilities that make C/P usable. | Technology is represented by capability and evidence, not by one mandatory stack. |
 
-S/E/C/P/M are **semantic slots**, not five mandatory software components.
+S/E/C/P/M are **semantic slots**, not five mandatory software components. The earlier working-note category “response conditions” is retained as cross-cutting binding/operation metadata — thresholds, authority, timing, escalation and return/requalification conditions — rather than promoted to a sixth canonical kernel element.
 
 ## 3. Representation is not sufficiency
 
@@ -303,6 +303,8 @@ MSCA only needs enough of that richer object to:
 
 Communication itself is also extensible.
 
+Generic Ecosystem Signalling or an EHD-equivalent handoff may carry a versioned MSCA reference or only the bounded decision-relevant delta. The referenced MSCA object remains source-owned and is not added to the universal EHD/signalling kernel.
+
 Generic Ecosystem Signalling may carry:
 
 - partial MSCA representations;
@@ -362,6 +364,8 @@ EA qualifies what a participant can responsibly rely on for the current decision
 EA may provide qualified evidence to MSCA and may consume partial/UNASSESSED/SUPPORTED/FAILED/UNRESOLVED MSCA state.
 
 EA owns the Semantic Window W(d,t). MSCA may change means/capability that justify changing W(d,t), but does not own or directly modify it.
+
+The EA healthy postures **Normal / Containment / Migration-Regime Transition** remain EA epistemic-management/posture semantics. MSCA may represent the control capabilities needed to execute an authorized containment, migration or reconfiguration, but those postures are not redefined as canonical MSCA assessment states.
 
 Current candidate boundary: [EA ↔ MSCA interface 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md).
 
