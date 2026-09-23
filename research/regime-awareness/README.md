@@ -4,6 +4,8 @@ Regime Awareness asks whether the evidence and historical context behind a curre
 
 This folder keeps the programme, EWS anchor and quantitative review route distinct. The previously published [programme context](./PROGRAMME_CONTEXT.md) remains intact as a separate explanatory source; this page is the short navigation entry point.
 
+**Cross-corpus visual map:** [Structural / Ecosystem Awareness Visual Guide](../ecosystem-awareness/VISUAL_GUIDE.md) — see the ownership and current positioning-cycle diagrams for the RA boundary with EA, Cartography and MSCA Operation/Repositioning.
+
 ## Research-series lineage
 
 The short router below sits inside the broader [Structural Awareness programme](../../README.md). The principal conceptual routes feeding this line are:
