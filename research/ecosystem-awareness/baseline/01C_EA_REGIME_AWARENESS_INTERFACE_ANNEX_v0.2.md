@@ -167,7 +167,7 @@ RA_Output_i(t) = [
 where:
 
 - **Δ_RA = [A_RA,B_RA,C_RA,D_RA]** is the qualified directional ecosystem/regime delta;
-- **RegimeOverlay_i** identifies which represented regions, dependencies, assumptions or MSCA/ECM elements are still compatible, weakening, departed or unresolved under the current regime evidence;
+- **RegimeOverlay_i** identifies which represented cartographic regions/elements, dependencies, assumptions or focal-MSCA elements are still compatible, weakening, departed or unresolved under the current regime evidence;
 - **RequalificationRequests_i** identifies bounded areas requiring richer observation, different context, dependency refresh, resolution change or owner/control review.
 
 RegimeOverlay_i is not a second persistent Ecosystem Cartography. [Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) owns Cart_i persistence and may use the overlay/request to produce Cart_i(t+1).
