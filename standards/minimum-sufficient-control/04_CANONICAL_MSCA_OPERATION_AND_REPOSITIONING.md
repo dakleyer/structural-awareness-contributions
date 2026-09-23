@@ -523,14 +523,17 @@ The new cycle begins only after the new binding is established and the canonical
 
 ~~~text
 RepositionResult_i(t) = [
+  Π_RP,i = [A_RP,B_RP,C_RP,D_RP],
+  TypeCatalogue_i,
   drift_status,
   selected / retained Role,
   focal MSCA / Objective Envelope,
   ACC binding + lineage,
   authority state,
-  posture,
+  posture P1/P2/P3,
   accepted / rejected candidate transitions,
   resulting Cart_i impacts,
+  RepositionIntent / AuthorityResponse state,
   signalling obligations,
   validity / provenance / requalification conditions
 ]
@@ -584,6 +587,8 @@ high opportunity
 ~~~
 
 The participant should preserve the bar Objective Envelope, reject the mission pivot, verify/qualify the disturbing signal as needed, potentially reduce/terminate reliance on the Napoleonic participant, preserve the external claim in Cart_i with appropriate B_Cart/C_Cart/D_Cart, signal a bounded incompatibility/authority anomaly if permitted, and continue or contain the hospitality role.
+
+If N sends near-absolute B confidence while its own message/profile exposes large unresolved D, omitted provenance, no established authority and no legitimate scope bridge, Repositioning may classify the **received claim** as a Type 2 failure: uncertainty has been suppressed while certainty is asserted. If R instead spends its entire useful response window repeatedly investigating every Napoleonic possibility without bounded closure, R risks Type 1.
 
 The same logic applies to a plausible temptation: a waiter may detect that opening a new restaurant would be highly profitable. If entrepreneurship/ownership is outside the role-bound ACC and authority, the opportunity remains visible but does not authorize abandonment of the current role.
 
@@ -747,12 +752,17 @@ participant acts
 → Ecosystem Cartography Cart_i
 → Regime Awareness Δ_RA + overlay
 → detect already-effective role drift
+→ catalogue material inputs as Type 0 / Type 1 / Type 2 / NOT_ESTABLISHED
+→ derive P1 Normal / P2 Containment / P3 Migration
 → project Δ_RA onto focal MSCA / Cart_i
 → calculate agentic gradient over candidate transitions
+→ produce Π_RP=[A_RP,B_RP,C_RP,D_RP]
 → ACC / lineage / authority gate
+→ if external approval needed: emit RepositionIntent signalling
+→ APPROVE | REJECT | MODIFY | REQUEST_EVIDENCE | ESCALATE
 → HOLD | RESTORE | CONTAIN | REBIND | RECONTRACT | MIGRATE | ISOLATE | ESCALATE
 → update Role / ACC / authority / Cart_i
-→ emit bounded signalling
+→ emit bounded post-transition signalling
 → next cycle
 ~~~
 
@@ -777,7 +787,14 @@ A repositioning implementation fails this architecture if it:
 - forces global consensus before local defensive action;
 - treats dependency isolation as failure when isolation reduces objective-conditioned risk;
 - claims systemic self-healing as guaranteed convergence;
-- begins a new cycle without updating Role/ACC/authority/cartographic state after a legitimate transition.
+- begins a new cycle without updating Role/ACC/authority/cartographic state after a legitimate transition;
+- linearly averages A/B/C/D across sources instead of preserving source/domain qualification and Type classification;
+- treats Type 0 structural residual as a management failure;
+- treats Type 1 or Type 2 as alternative operating postures rather than failure markers;
+- emits a repositioning request without A_RP/B_RP/C_RP/D_RP qualifiers;
+- treats RepositionIntent transport as approval;
+- escalates without a bounded destination/deadline/fallback, creating Type 1;
+- forces an approval/default by suppressing material uncertainty, creating Type 2.
 
 ## 26. Canonical thesis
 
@@ -795,4 +812,4 @@ And only after that:
 
 > **Which of those positions am I contractually and authoritatively allowed to occupy, and what re-contracting is required to make the transition legitimate?**
 
-That ordering allows autonomous adaptation without allowing objective drift, authority drift or collective false-context opportunity to silently rewrite the participant's mission.
+That ordering allows autonomous adaptation without allowing objective drift, authority drift or collective false-context opportunity to silently rewrite the participant's mission. Repositioning is the hard-decision boundary: it catalogues Type 0/1/2, selects P1/P2/P3, closes operationally, and still emits a qualified A/B/C/D repositioning position so that authority and downstream participants can see what remains uncertain.
