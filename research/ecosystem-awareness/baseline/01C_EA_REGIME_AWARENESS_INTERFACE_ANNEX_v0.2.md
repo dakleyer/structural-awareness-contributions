@@ -99,7 +99,84 @@ Five questions must remain separate: (1) can Ψ preserve the relevant distinctio
 
 The paper's multiscale nested-memory construction is a **candidate companion hypothesis**, not a property proved for all Sufficiently Good detectors. Short, intermediate and long layers can hedge against context-window failure; extra layers may increase contradiction, false alerts, cost and latency. Set-theoretic coverage is monotone only if old layers remain available and the governor may ignore the new one; net utility is not monotone ([paper §9 and §15](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/)).
 
-## 5. Candidate architectural responsibility map
+## 5. Regime Awareness input/output circuit
+
+The broader Regime Awareness integration consumes a **bounded participant-local input bundle**. The list below defines the current architectural minimum; implementations may add further qualified inputs.
+
+For participant i:
+
+~~~text
+RA_Input_i(t) = [
+  Π_EA,i(t),
+  ReceivedSignals_i(t),
+  ECM_i(t) / Δ_ECM,i(t),
+  focal MSCA X_i(t),
+  ArchitecturalRole_i(t),
+  decision / Objective Envelope / W_i(d,t),
+  qualified direct observations,
+  action/effect history where material
+]
+~~~
+
+### 5.1 Input owners
+
+| Input | Producer / owner | RA use |
+|---|---|---|
+| **Π_EA,i** | Participant-local EA / [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) | Current situated epistemic state, confidence/intensity, capability frontier and residual for the affected decision/scope. |
+| **ReceivedSignals_i** | Receiver-local [Ecosystem Signalling 01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) | Qualified external messages from peers, systems, institutions or other ecosystem sources; only semantically/compatibly qualified content is eligible. |
+| **ECM_i / Δ_ECM,i** | [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | Current multi-resolution semantic/dependency map, bounded dependency neighbourhood and material structural map changes. |
+| **focal MSCA X_i** | [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) | Current Objective Envelope, operating assumptions and C/P/M architecture against which regime change becomes control-relevant. |
+| **ArchitecturalRole_i** | [MSCA Architectural Role](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) | What this participant actually does, consumes, produces, depends on and is authorized/contracted to perform inside the focal MSCA. |
+| **Decision / W_i / owner scope** | Legitimate owner + EA F1/F2 | Defines the active decision, observation boundary, materiality, response horizon and residual tolerance. |
+| **Direct observations / action effects** | Local sensors, systems, human/technical observation, execution/effect records | Evidence of local change that need not arrive through inter-agent signalling. |
+
+RA MAY consume other qualified sources. Absence from this table does not make another source invalid.
+
+### 5.2 Trigger policy
+
+RA need not run continuously or at one universal frequency.
+
+An RA evaluation may be triggered by:
+
+- material movement in Π_EA,i;
+- one received signal crossing a declared materiality/confidence threshold;
+- a set of received signals becoming jointly material after composition;
+- signal insufficiency, contradiction, staleness or expiry that weakens the current regime basis;
+- Δ_ECM,i showing a new, changed or disappearing dependency/cluster;
+- focal MSCA, role, ACC, authority or capability change;
+- a local action/effect mismatch;
+- explicit owner/policy request;
+- periodic scheduled refresh;
+- a previous RA result requesting targeted requalification.
+
+Each implementation SHOULD define appropriate debounce/hysteresis/evidence-change rules. No architectural requirement implies millisecond polling.
+
+### 5.3 RA outputs
+
+The broader RA integration produces:
+
+~~~text
+RA_Output_i(t) = [
+  Δ_RA(t),
+  RegimeOverlay_i(t),
+  RequalificationRequests_i(t),
+  validity / provenance / freshness
+]
+~~~
+
+where:
+
+- **Δ_RA = [A_RA,B_RA,C_RA,D_RA]** is the qualified directional ecosystem/regime delta;
+- **RegimeOverlay_i** identifies which represented regions, dependencies, assumptions or MSCA/ECM elements are still compatible, weakening, departed or unresolved under the current regime evidence;
+- **RequalificationRequests_i** identifies bounded areas requiring richer observation, different context, dependency refresh, resolution change or owner/control review.
+
+RegimeOverlay_i is not a second persistent ecosystem map. [Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) owns ECM_i persistence and may use the overlay/request to produce ECM_i(t+1).
+
+A material Δ_RA or bounded RA statement MAY itself be selectively disclosed through [Ecosystem Signalling 01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). RA does not require broadcast and does not turn its output into a command.
+
+The downstream repositioning mechanism remains outside this document.
+
+## 6. Candidate architectural responsibility map
 
 | Boundary / producer | Owns | Receives | Supplies; recipient |
 |---|---|---|---|
@@ -114,7 +191,7 @@ The paper's multiscale nested-memory construction is a **candidate companion hyp
 
 EA does not own RA invariant extraction, prove PNI or issue actuation authority. RA does not own ecosystem-wide epistemic composition or choose the legitimate mission objective. [EA Functional Architecture, F6–F9](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md) preserves these responsibilities. The RA [public working note](../../regime-awareness/README.md) distinguishes contextual validity from intervention sufficiency.
 
-## 6. Candidate interface contracts and concrete payloads
+## 7. Candidate interface contracts and concrete payloads
 
 These are **proposed, transport-neutral semantic fields** for engineering and falsification. They are not an adopted message schema, a mandatory implementation, or claimed fields of the anchor paper.
 
@@ -238,7 +315,28 @@ The strict strong-class inequality is **U_t(A(P_t),ω) ≥ U_t(A_null,ω) for ev
 
 Payload: affected decision/domain/dependency; invalidated Ψ, context T*/m, I, B, τ, Δ, Q, evidence source or action-domain assumption; fresh evidence need; bounded acquisition budget; response horizon; explicit UNKNOWN/residual; authority owner; requested re-test and success/stop criterion. The recipient may return a revised scoped RA report, insufficient-context finding, action-safety downgrade, or no feasible timely detector. EA then recomposes rather than merely repeating a stale P_t.
 
-## 7. End-to-end candidate lifecycle, including disagreement
+## 8. End-to-end candidate lifecycle, including disagreement
+
+The broader circuit is:
+
+~~~text
+participant action / observation
+→ Π_EA,i update
+        ↘
+qualified external messages → ReceivedSignals_i
+        ↘
+Composition & Control → ECM_i / Δ_ECM,i
+        ↓
+triggered / scheduled Regime Awareness
+        ↓
+Δ_RA + RegimeOverlay + requalification requests
+        ↓
+EA / focal-MSCA interpretation
+        ↓
+future repositioning layer (not defined here)
+        ↺
+new action / effects / signalling / map updates
+~~~
 
 1. **Declare the decision before the series:** owner sets objective and constraints, Δ, admissible action/state/utility scope and deadline. EA F1 identifies the material domain, consequences, capacity and response margin; F2 qualifies W and available acquisition paths. RA cannot choose the legitimate objective.
 2. **Qualify representation and context:** RA tests whether Ψ preserves the needed change distinctions, whether a sufficient H_t(m) exists and is effectively identifiable, and whether acquisition/processing fits the deadline. If not, it reports the specific failure, not a fabricated neutral posture.
@@ -249,7 +347,7 @@ Payload: affected decision/domain/dependency; invalidated Ψ, context T*/m, I, B
 
 **Disagreement cases are architecturally informative:** (a) RA reports directional departure while EA has insufficient source independence or mission relevance → hold the stronger systemic conclusion and seek bounded corroboration; (b) RA reports neutral while another dependency/human-capacity source changes → EA can requalify Q independently of RA; (c) RA can detect but no response is authorized, safe or fast enough → detection sufficiency does not establish intervention sufficiency; (d) context is non-identifiable/too costly → preserve UNKNOWN and choose an authorized bounded fallback if one exists; (e) an action is pointwise-safe in an old utility/actor domain but stakeholders or costs change → the PNI claim expires and must be reassessed.
 
-## 8. Evaluation and falsification surface
+## 9. Evaluation and falsification surface
 
 The paper's formal witness shows the strong class is logically **non-empty** in a stylized two-state, zero-incremental-cost mirrored-route model; it is not field validation. The public RA review line is preliminary methodological challenge, not QAVA/Universitat de València endorsement or completed validation. A joint EA–RA interface evaluation is **proposed**. At minimum, it should measure:
 
@@ -266,7 +364,7 @@ The paper's formal witness shows the strong class is logically **non-empty** in 
 
 The [EA validation files](./README.md#validation-profiles) and [RA preliminary evaluation design](../../regime-awareness/regime-change-qava-uv.md) are adjacent research apparatus. This annex does not claim that their test protocols have already been merged or run. The paper's §13 deployment order—decision scope, observation, representativeness, context boundary, detector, action library, cost/deadline, layered deployment, operational evaluation and continuous boundary governance—provides the source-grounded staging for a future joint experiment.
 
-## 9. Relation to Minimum Sufficient Control Architecture and status boundary
+## 10. Relation to Minimum Sufficient Control Architecture and status boundary
 
 The [EA–MSCA working annex](./01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md) maps owner-approved objectives, coordination, intervention means and response capacity. Its candidate response latency, authority, reversibility and contingency define what warning would be *useful*; RA provides a possible scoped regime-validity signal for EA; EA requests requalification when the epistemic or ecosystem frame no longer supports that MSCA record. This is a compositional design, **not** proof that the three programmes are completely integrated. A statistically excellent warning that arrives after the only feasible response window is not sufficient; a quick safe response may need less expensive advance warning. The strong RA PNI action condition and MSCA's conditional control sufficiency are different tests.
 
