@@ -27,6 +27,27 @@ For a decision `d` at time `t`:
 
 **Ω is not a final universe.** It names the open ecosystem condition against which every local representation remains bounded. U and W(d,t) make that boundedness operational without turning the residual into an enumerable remainder.
 
+### 1.1 Notation used across the current architecture
+
+All participant-local qualified positions remain **decision-scoped**. The canonical index is `(d,t)`: declared decision/scope `d` and time `t`. A current working document that writes `(t)` alone is using shorthand for the **currently declared decision `d`**; it MUST NOT be read as a participant-global state.
+
+| Symbol | Object qualified / represented | Current owner | Canonical reading |
+|---|---|---|---|
+| `Ω, U, R_U, W(d,t)` | Open ecosystem, represented universe, open residual and active Semantic Window | EA foundation / this topology | Decision-scoped bounded representation |
+| `Π_EA,i` | Participant-local epistemic position | [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) | `Π_EA,i(d,t)` |
+| `ReceivedSignals_i` | Receiver-qualified external messages relevant to the active decision | [01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) | `ReceivedSignals_i(d,t)` |
+| `Cart_i, Δ_Cart,i` | Ecosystem Cartography and its bounded change-set | [MSCA 03](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | `Cart_i(d,t)`, `Δ_Cart,i(d,t)` |
+| `Δ_RA` | Qualified regime delta | [01C v0.2](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) | `Δ_RA(t)` under the declared observable/change family and receiving decision scope |
+| `Π_MSCA,i` | Qualified position over the focal S/E/C/P/M control architecture | [MSCA 00](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) | `Π_MSCA,i(d,t)` |
+| `Π_X,i` | Earlier/current Gradient-Law notation for the same qualified MSCA position | [Gradient Law](../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) | Alias of `Π_MSCA,i(d,t)`; not a second position object |
+| `Role_bound,i, Role_effective,i` | Contracted role and qualified observed effective role | [MSCA 04](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) | Time-varying role state interpreted for the active decision/MSCA |
+| `TypeCatalogue_i` | Type 0 / Type 1 / Type 2 / NOT_ESTABLISHED by source/domain/proposition | MSCA 04 | `TypeCatalogue_i(d,t)` |
+| `Posture_i, Γ_i` | P1 Normal / P2 Containment / P3 Migration and the **sole current operational posture operator** | [MSCA 04 §11](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#11-hard-posture-gate--p1--p2--p3) | `Posture_i(d,t)`; `Γ_i` is defined there only |
+| `G_i(τ)` | Objective-conditioned agentic gradient for candidate transition `τ` | [Gradient Law](../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) | Evaluated from the active decision and `Role_effective` |
+| `Π_RP,i` | Qualified repositioning result | MSCA 04 | `Π_RP,i(d,t)` |
+
+This table reconciles notation across current working documents. It does not rewrite frozen source notation.
+
 ## 2. Four-component qualified epistemic position
 
 **Reconciliation update — 23 September 2026.** A/B/C/D are read canonically as four **components of one qualified position**, not as four mutually exclusive quadrants or four mandatory transmission fields. Earlier frozen/source documents that use a coarser “determined / unresolved / obtainable / residual” wording remain preserved for provenance; this page supplies the current reconciliation.
