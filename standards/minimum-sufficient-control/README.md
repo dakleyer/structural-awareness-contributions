@@ -70,6 +70,7 @@ A proposed profile is compatible only if it can add structure without redefining
 
 MSCA owns **control sufficiency**, not epistemic truth, regime detection, participation legitimacy or authority creation.
 
+- [Ecosystem Positioning — Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md): cross-cutting law that projects qualified ecosystem change onto the participant's MSCA and ranks repositioning by objective-conditioned risk reduction.
 - [Ecosystem Awareness corpus](../../research/ecosystem-awareness/baseline/README.md): decision-scoped epistemic qualification and requalification.
 - [Regime Awareness / Minimalistic EWS corpus](../../research/regime-awareness/minimalistic-early-warning-systems/README.md): observable-regime evidence, regime departure and bounded response-safety questions.
 - [EA ↔ MSCA interface annex 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md): current candidate EA/MSCA boundary; v0.1 remains preserved in the EA corpus for provenance.
@@ -96,7 +97,8 @@ No layer substitutes for another.
 | EA / MSCA / RA same-operation composition | **Candidate, documented in 01D** |
 | Generic upward/downward/horizontal/normative extensibility rules | **DEFINED in Canonical MSCA Architecture v0.1** |
 | Generic MSCA architecture specification | **CURRENT — [Canonical MSCA Architecture v0.1](./00_CANONICAL_MSCA_ARCHITECTURE.md)** |
-| Qualified MSCA A/B/C/D position and RA delta alignment | **DEFINED architecturally; transition lifecycle/Control Positioning still pending** |
+| Qualified MSCA A/B/C/D position and RA delta alignment | **DEFINED architecturally** |
+| Objective-conditioned agentic gradient | **DEFINED in Ecosystem Positioning canonical working law; Control Positioning/transition lifecycle still pending** |
 | Canonical MSCA operating specification | **PENDING** |
 | MSCA Control Positioning specification | **PENDING** |
 | ACC normative-extension coupling / Ecosystem Signalling compatibility boundary | **ARCHITECTURALLY DEFINED; runtime operation still pending** |
