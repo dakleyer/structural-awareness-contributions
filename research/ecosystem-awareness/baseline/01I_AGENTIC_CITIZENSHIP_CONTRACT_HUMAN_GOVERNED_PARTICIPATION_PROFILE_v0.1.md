@@ -4,6 +4,8 @@
 
 **Terminology boundary:** “citizenship” and “contract” are architectural working metaphors for machine-interpretable participation and governance conditions. They do not assert that software agents possess legal contractual capacity, sovereign membership or human-equivalent rights.
 
+**MSCA reconciliation note — 23 September 2026:** ACC remains a separately owned governance/participation object, but the [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) defines its operational coupling as a **normative MSCA extension profile**. Extension does not mean subset or inheritance: an ACC may be substantially richer than MSCA and retain semantics that MSCA does not own. It is loaded into an MSCA instance only after compatibility/applicability qualification.
+
 ## 1. Purpose, prior art and non-ownership boundary
 
 Autonomous or semi-autonomous agents can interact in ecosystems where no common orchestrator, common objective or common internal logic is guaranteed. Ecosystem Awareness can qualify what a participant locally understands about such an ecosystem; MSCA can assess what local control configuration is supported; identity and delegated authority can establish who/what is acting and under which mandate.
@@ -129,7 +131,7 @@ The intended ownership chain is:
 2. **Identity / Delegated Authority / Policy / Attestation** establishes who/what is acting, mandate, capability, standing and validity.
 3. **EA / 01H** qualifies local applicability, version, scope, evidence, dependencies and UNKNOWN conditions for a receiving decision.
 4. **EHD / Ecosystem Signalling** carries or references bounded qualified state, loads an applicable ACC-defined signalling profile where required, and performs bounded compatibility/normalization without creating authority or consensus. The ACC owns the signalling obligation; Ecosystem Signalling owns the exchange semantics and compatibility mapping.
-5. **MSCA** assesses what authorized local control configuration is supported under the applicable frame using only signalling inputs that remain qualified and representable for the receiving decision.
+5. **MSCA** assesses what authorized local control configuration is supported under the applicable frame using only signalling inputs that remain qualified and representable for the receiving decision. Where the ACC is applicable, its compatible constraints are loaded as a normative extension of the MSCA instance; unmapped ACC semantics remain externally owned rather than being forced into S/E/C/P/M.
 6. **Defence / containment / recovery / execution** acts only under legitimate authority.
 7. **Outcome / F9** feeds observed consequences back into local requalification.
 
