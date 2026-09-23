@@ -180,11 +180,11 @@ The correct result is not "the opportunity does not exist." The result is:
 
 > high/interesting candidate opportunity -> not admissible / not authorized for this participant -> no mission pivot
 
-This tests the separation of opportunity, admissibility and authority. The current control logic is defined in [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md): a high gradient can remain visible while the transition is rejected, contained, or escalated because the current Role/ACC/authority does not permit it.
+This tests the separation of opportunity, admissibility and authority. The current control logic is defined in [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md): a high gradient can remain visible while the transition is rejected or escalated, or while a containment request is sent to the appropriate control owner, because the current Role/ACC/authority does not permit the pivot.
 
 Repositioning also tests the management taxonomy on the received A/B/C/D composition. If N emits near-absolute B confidence while the same signal/profile leaves large material D residual, missing provenance, unresolved authority and no legitimate scope bridge, the **claim** is a Type 2 candidate: uncertainty is being suppressed while certainty is asserted. If R instead spends the useful response window repeatedly investigating every Napoleonic possibility without a bounded closure/escalation rule, R creates Type 1 behaviour. Type 0 remains possible where structural residual is explicitly preserved and managed correctly.
 
-That classification does not itself dictate the operating posture. If the Napoleonic claim is isolated and immaterial to bar operation, R may remain P1 Normal. If it contaminates a material dependency but the bar can remain safe under bounded isolation/revalidation, P2 Containment is appropriate. P3 Migration / Regime Transition applies only if the current hospitality frame can no longer establish a sufficiently qualified response mapping.
+That classification does not itself dictate the operating posture. If the Napoleonic claim is isolated and immaterial to bar operation, R may remain P1 Normal. If it contaminates a material dependency but the bar can remain safe under bounded isolation/revalidation, Repositioning may classify P2 Containment and request the relevant authorized control response. P3 Migration / Regime Transition applies only if the current hospitality frame can no longer establish a sufficiently qualified response mapping.
 
 ## 8. Handshake and termination
 
