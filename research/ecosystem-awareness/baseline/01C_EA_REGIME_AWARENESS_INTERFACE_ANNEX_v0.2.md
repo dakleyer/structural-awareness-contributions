@@ -120,6 +120,8 @@ These are **proposed, transport-neutral semantic fields** for engineering and fa
 
 ### I-RA-01: scoped assessment mandate (owner + EA → RA)
 
+Where ecosystem composition is material, the mandate may carry a versioned reference to the participant-local [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map or only the bounded dependency neighbourhood relevant to the decision. RA does not require or infer a complete ecosystem graph.
+
 | Field group | Concrete content | Failure rule |
 |---|---|---|
 | Binding | decision/operation ID, material domain, owner-approved objective/constraints, version, as-of and expiry | A report for another mission or expired scope is not portable. |
@@ -176,7 +178,7 @@ RA observation/context
 → MSCA/ACC/authority-constrained repositioning
 ~~~
 
-The current [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md#32-mechanical-alignment-with-a-regime-awareness-delta) defines how Δ_RA can be projected onto S/E/C/P/M and compared with the participant's qualified MSCA position. The [Objective-Conditioned Agentic Gradient Law](../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) then defines the participant-local gradient as the expected reduction in objective-conditioned MSCA risk for a candidate repositioning, before ACC/authority execution filtering.
+The [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map supplies the multi-resolution semantic/dependency context in which ecosystem change can be observed. The current [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md#32-mechanical-alignment-with-a-regime-awareness-delta) defines how Δ_RA can then be projected onto S/E/C/P/M and compared with the participant's qualified focal-MSCA position. The [Objective-Conditioned Agentic Gradient Law](../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) defines the participant-local gradient only after that projection, before ACC/authority execution filtering.
 
 
 ### I-RA-03B: downstream posture interpretation — nonlinear by design
