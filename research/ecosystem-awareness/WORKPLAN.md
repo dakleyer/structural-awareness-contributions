@@ -159,6 +159,8 @@ Failure of the continuity gate blocks the arm from being interpreted on the corr
 
 **C12 — attractive inadmissible opportunity** remains a preferred paired fixture. The strong peer must have a legitimate **escalation/request path**; it cannot be artificially limited to EXECUTE-or-DROP. The comparison is whether EP improves preservation/routing of beneficial blocked opportunities, not whether only EP is permitted to ask an authority.
 
+**Current cross-theme convergence — UC-6 → UC-4.** The 23 September public #13/#16 discussion now provides a bounded path that can proceed without waiting for the full C9/C12 programme: use UC-6 as the semantic reference, annotate the Theme #13 and Theme #16 interfaces against the same frozen facts, obtain contributor review, then import the reviewed mapping into Nelson's UC-4 as a versioned executable profile with mapping, fixtures, traces and report. This route is tracked through the [Decision Boundary Challenge v0.2](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) and the [FG-TIDA Decision Boundary Evaluation Profile](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md). It is a conformance/test route, not evidence that DBC has been adopted by FG-TIDA.
+
 **Coverage rule:** A01/A03 and Q1a are selected test artefacts. Their existence does not imply complete testbed coverage of S1–S14 or later Ecosystem Positioning.
 
 **Expected outputs:** admitted fixtures, pre-registrations, executable harnesses where appropriate, traces/results and explicit coverage-map updates.
@@ -167,7 +169,7 @@ Failure of the continuity gate blocks the arm from being interpreted on the corr
 
 ### W4 — FG-TIDA Specification vNext
 
-**Question:** which developments after Specification Preparation v0.2 should be incorporated into a future FG-TIDA preparation revision, which should be mapped only as informative dependencies, and which should remain outside FG-TIDA?
+**Question:** which developments after Specification Preparation v0.3 should be incorporated into a future FG-TIDA preparation revision, which should be mapped only as informative dependencies, and which should remain outside FG-TIDA?
 
 **Delta review must include:**
 
@@ -179,7 +181,9 @@ Failure of the continuity gate blocks the arm from being interpreted on the corr
 - Ecosystem Cartography;
 - Canonical MSCA Operation & Repositioning;
 - updated Requirements vNext disposition, if any;
-- Benchmark/Testbed vNext changes, if any.
+- Benchmark/Testbed vNext changes, if any;
+- Decision Boundary Challenge v0.2 and its FG-TIDA test/conformance projection;
+- the UC-6 → UC-4 executable-profile route emerging from the 23 September #13/#16 discussion.
 
 **For every item choose one:**
 
@@ -195,6 +199,8 @@ Failure of the continuity gate blocks the arm from being interpreted on the corr
 05/05A are not silently rewritten merely because the general architecture evolves.
 
 **Parallel participation rule:** W4 institutional/editorial participation does **not** wait for v0.3-r2. Continue source mapping, editor/working-group participation and non-normative dependency preparation in parallel. What remains blocked is **normative promotion of untested Benchmark-vNext hypotheses/results** into FG-TIDA requirements.
+
+**Current artefact:** [Specification Preparation v0.3 Draft](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) now carries the Decision Boundary / cross-Theme evaluation route as **T — test/conformance only**, linked bidirectionally to the general DBC and the FG-TIDA test profile.
 
 **Expected output:** a versioned Specification Preparation successor and, where justified, dated 05A/current-source updates. Nothing becomes an FG-TIDA requirement without the appropriate external-owner process.
 
@@ -365,7 +371,7 @@ flowchart TB
 | Test design | A01, A02, A03, coverage map, Q1a pre-registration and trace helpers | Q1a v0.5 residual/date ambiguity must be corrected in new v0.6 before Stage-0; later layers still incomplete | **W3:** Q1a v0.6 → Stage-0 → continuity gate → C9/C12 |
 | Validation profiles | UC-EA-01…04 + EA-ITP-01 preserved | No completed broad independent validation | Stage 1/2 evidence programme |
 | RA / MSCA integration | Current interfaces and operation owners defined | Comparative/empirical validation of later composition/repositioning remains open | W2/W3 |
-| FG-TIDA application | 05 ideal, 05A dated current bridge, spec v0.2, charter/cases/tests | Later general architecture not reconciled | **W4 Specification-vNext** |
+| FG-TIDA application | 05 ideal, 05A dated current bridge, spec v0.3, charter/cases/tests + Decision Boundary profile | External-owner review and first UC-6 → UC-4 executable profile still open | **W4 / W3 cross-theme conformance route** |
 | Controlled provenance | Freeze manifests + public source preservation | Revision/SHA parity and single-file materialization open | **C1 parity inventory** |
 | Product profiles | 2+2 dated design analyses | Dated capability freeze must be integrated with B2 audit | **C3 / W2 Track C** |
 | Publication | Live corpus + visual guide + release candidate | Final deck/PDF; real release/DOI tooling | **C4** |
@@ -384,6 +390,7 @@ This table should remain short. Detailed historical maintenance records live und
 | 2026-09-23 | Readability priorities A/B/C | `governance/NEXT_REVIEW_BACKLOG_2026-09-23.md` |
 | 2026-09-23 | Live cross-corpus visual navigation | [VISUAL_GUIDE.md](./VISUAL_GUIDE.md) |
 | 2026-09-23 | W1 Requirements review completed — no canonical requirement change | [Requirements vNext Review & Delta v0.1 Draft](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); benchmark traceability applied in 00D v0.3 draft |
+| 2026-09-23 | Decision Boundary Challenge v0.2 + FG-TIDA cross-theme test/specification route | [DBC v0.2](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) · [FG-TIDA test profile](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md) · [Specification Preparation v0.3](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) |
 
 ---
 
