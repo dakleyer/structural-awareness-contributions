@@ -28,6 +28,8 @@ For a declared change family Δ, detectability threshold τ, admissible delay �
 
 **External process Ω → observation Ψ → finite observable history H_t(m) / contextual boundary T*_t → invariant d_t=I(H_t) → recent baseline B_t → deviation s_t=d_t−B_t → directional posture P_t∈{−1,0,+1} → separately authorized action A(P_t) → bounded guardrail/operation → observed consequences.**
 
+**Terminology reconciliation:** “directional posture” is the source paper's term for `P_t`. In the current architecture, `P_t` is treated as the **RA directional detector output / directional signal**, not as the participant's P1/P2/P3 operating posture.
+
 A single scalar series is the severe minimum observation setting, not a requirement to ignore other available evidence. Ψ may embody sensor placement, variable selection, aggregation, sampling, synchronization, filtering and transformation. The invariant may concern stability, recurrence, spectral organization, entropy or other regime-relevant structure; it is not a universal feature. The same present value can have different regime meaning under different histories. Negative/positive signs are **directional partitions**, not universal “harm”/“recovery” semantics. Buffer (distance to boundary) and inertia (persistence/rate) are optional descriptors, not forecasts or class-defining requirements.
 
 The maximal defensible detector claim is present-tense: **the selected observable invariant remains compatible with, or departs directionally from, its contextually defined recent baseline above the declared threshold and within the admitted scope**. It is not identification of the unique hidden cause, the exact tipping instant, the future path/magnitude, or all changes in the ecosystem. Hidden transitions invisible under Ψ remain invisible to this detector. A neutral P_t is not proof that EA's wider operating frame is valid.
@@ -265,30 +267,14 @@ The [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient
 
 The three top-level postures are **not three RA detector outputs** and are not a linear rescaling of B_RA.
 
-For participant i, EA supplies the qualified mission/frame inputs, while [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) operationally applies the participant-local posture operator:
+For participant i, EA supplies the qualified mission/frame inputs, while [Canonical MSCA Operation & Repositioning §11](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#11-hard-posture-gate--p1--p2--p3) owns the **sole current operational definition** of the participant-local posture operator `Γ_i`. This annex does not define a second signature.
+
+The resulting posture vocabulary is:
 
 ~~~text
-Posture_i(t)
-=
-Γ_i(
-  Δ_RA,
-  projected MSCA risk,
-  current MSCA support,
-  ACC constraints,
-  authority/capacity,
-  response horizon,
-  thresholds + hysteresis
-)
-~~~
-
-with:
-
-~~~text
-Posture_i ∈ {
-  NORMAL,
-  CONTAINMENT,
-  MIGRATION / REGIME_TRANSITION
-}
+P1 = NORMAL
+P2 = CONTAINMENT / MITIGATION
+P3 = MIGRATION / REGIME TRANSITION
 ~~~
 
 The intended reading is:
