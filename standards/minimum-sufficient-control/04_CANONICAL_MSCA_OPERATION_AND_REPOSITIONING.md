@@ -2,7 +2,7 @@
 
 **Status:** canonical public working operation/repositioning specification, v0.1, 23 September 2026.
 
-**Architectural role:** this document closes the current MSCA/Ecosystem Positioning cycle. It defines how a participant checks whether it has already drifted from its bound Architectural Role, derives bounded repositioning opportunities from Regime Awareness and Ecosystem Cartography, filters them through Objective Envelope / ACC / authority / capability constraints, and either restores, preserves or legitimately re-contracts into a new role. It does not create authority, legal contractual capacity, a global optimizer or a mandatory implementation protocol.
+**Architectural role:** this document closes the current MSCA/Ecosystem Positioning cycle. It defines how a participant checks whether it has already drifted from its bound Architectural Role, derives bounded repositioning opportunities from Regime Awareness and Ecosystem Cartography, filters them through Objective Envelope / ACC / authority / capability constraints, and either preserves its current role, selects a bounded realignment/re-contracting target, or escalates the case to the appropriate control/authority owner. Repositioning itself does not execute containment, rollback, isolation or physical/digital corrective actuation. It does not create authority, legal contractual capacity, a global optimizer or a mandatory implementation protocol.
 
 **Parent architecture:** [Canonical MSCA Architecture](./00_CANONICAL_MSCA_ARCHITECTURE.md)
 
@@ -28,7 +28,7 @@ The preceding architecture supplies:
 
 The remaining operational question is:
 
-> **Given what the ecosystem appears to be doing, what this participant is actually doing now, what it is contractually allowed to do, and where objective-conditioned risk can be reduced, should the participant remain where it is, restore itself to its contractual boundary, or move to a newly authorized role/contract?**
+> **Given what the ecosystem appears to be doing, where this participant is actually operating now, what it is contractually allowed to do, and where objective-conditioned risk can be reduced, should the participant remain, select a legitimate new role/contract target, or escalate a detected drift/control problem to the appropriate owner?**
 
 This is **repositioning**.
 
@@ -214,23 +214,24 @@ Possible states are:
 - **ROLE_CHANGE_PERMITTED_BUT_UNRECORDED** — the participant effectively occupies another permitted role/subrole but the canonical role binding has not yet been updated.
 - **RECONTRACT_REQUIRED** — the effective or candidate role lies outside the current role-bound ACC but may be reachable through a legitimate successor/amendment/approval route.
 - **LINEAGE_BREAK / NEW_MEMBERSHIP_REQUIRED** — a different ACC root/lineage, Objective Envelope or MSCA membership is required.
-- **OUT_OF_BOUND / UNAUTHORIZED_DRIFT** — behaviour is outside ACC, role or authority without a legitimate transition.
+- **OUT_OF_BOUND / UNAUTHORIZED_DRIFT** — behaviour is outside ACC, role or authority without a legitimate transition. Repositioning records/escalates the mismatch; it does not itself command corrective actuation.
 - **UNRESOLVED** — evidence is insufficient to determine alignment or legitimacy.
 
-## 7. Corrective repositioning precedes optimization
+## 7. Drift qualification precedes opportunity evaluation
 
-If material out-of-bound drift is detected, the system MUST NOT first optimize the new position merely because it appears valuable.
+If material out-of-bound drift is detected, Repositioning MUST qualify that drift before treating the effective position as a legitimate optimization baseline.
 
 ~~~text
 detect effective-role drift
 → qualify ACC / lineage / authority
-→ contain or restore if unauthorized
-→ only then evaluate legitimate repositioning opportunities
+→ if urgent/material: emit bounded escalation / control request
+→ evaluate the agentic gradient from Role_effective, not from an assumed Role_bound state
+→ identify legitimate repositioning targets
 ~~~
 
-A participant that has already crossed its contractual boundary does not gain legitimacy because the new position has a high expected payoff.
+A participant that has already crossed its contractual boundary does not gain legitimacy because the new position has a high expected payoff. But Repositioning also does not pretend the participant is still operating at Role_bound: the opportunity calculation starts from **Role_effective**, because that is the actual current position from which any legitimate next move must be assessed.
 
-This prevents post-hoc optimization from laundering an unauthorized metamorphosis into an accepted role.
+If the drift is urgent, Repositioning signals/escalates it to the appropriate containment, safety, authority or human-control module. If the ordinary gradient and contract checks naturally select a legitimate role closer to the prior boundary, the system may later realign through the normal authorized repositioning path; that is not an emergency command issued by Repositioning.
 
 ## 8. Candidate repositioning space
 
@@ -244,13 +245,13 @@ Candidates may include:
 - new subrole/composite role;
 - capability activation/deactivation;
 - narrower role / reduced autonomy;
-- containment;
+- request/prepare bounded containment through the appropriate control owner;
 - changed dependency;
 - changed signalling relationship;
 - changed ACC inside the same lineage;
 - ACC successor requiring approval;
 - join/migration to another MSCA / Objective Envelope;
-- withdrawal/isolation from a dependency;
+- request/plan withdrawal or isolation from a dependency, subject to the relevant control authority;
 - request for new authority;
 - request for richer Cart_i / C_Cart exploration;
 - escalation to a legitimate owner/human control function.
@@ -346,18 +347,18 @@ Normal means that the current response mapping remains sufficiently qualified, n
 
 ### 11.2 P2 — Containment / Mitigation
 
-The current state no longer supports unrestricted normal operation, but a known bounded response can preserve or restore a qualified frame.
+The current state no longer supports unrestricted normal operation, but a known bounded response exists that an appropriate control owner could use to preserve or restore a qualified frame.
 
 Typical triggers include:
 
 - material Type 1 behaviour consuming the response window;
 - detected Type 2 overconfidence in a dependency;
 - falling B_Cart / B_RA on a critical dependency;
-- out-of-bound effective-role drift that can be safely restored;
+- out-of-bound effective-role drift for which a bounded containment/realignment response appears available;
 - authority/ACC uncertainty requiring bounded hold/reduction;
 - action/effect mismatch requiring reduced autonomy or isolation.
 
-P2 must itself be bounded. Indefinite containment becomes Type 1.
+P2 is a **posture classification**, not a containment command. Repositioning may request/escalate bounded containment; the authorized control function decides and executes it. Indefinite containment/review without bounded closure becomes Type 1.
 
 ### 11.3 P3 — Migration / Regime Transition
 
@@ -422,7 +423,7 @@ The candidate gradient remains visible even when the transition is inadmissible.
 
 > **Opportunity can be real while participation is prohibited.**
 
-The next legitimate action may therefore be remain, request ACC amendment, request a successor ACC, request authority, request different membership, decline, contain or migrate only after legitimate re-contracting.
+The next legitimate repositioning result may therefore be remain, request ACC amendment, request a successor ACC, request authority, request different membership, decline the opportunity, request bounded containment from the relevant control owner, or propose migration only after legitimate re-contracting.
 
 ## 13. Repositioning intention is a qualified signalling object
 
@@ -543,12 +544,12 @@ Possible outcomes include:
 
 - **HOLD**
 - **ADAPT_IN_ROLE**
-- **RESTORE**
-- **CONTAIN**
+- **REALIGN_TARGET** — select a legitimate role/contract target that would reduce current drift; this is not a direct command to the agent.
+- **REQUEST_CONTAINMENT** — signal/escalate a bounded containment need to the appropriate control owner; Repositioning does not execute it.
 - **REBIND_ROLE**
 - **RECONTRACT**
 - **MIGRATE**
-- **ISOLATE / WITHDRAW_DEPENDENCY**
+- **REQUEST_ISOLATION / WITHDRAWAL** — propose or request reduced reliance/isolation; execution remains with the relevant authorized control.
 - **ESCALATE**
 - **UNRESOLVED**
 
@@ -586,7 +587,7 @@ high opportunity
 ≠ legitimate repositioning
 ~~~
 
-The participant should preserve the bar Objective Envelope, reject the mission pivot, verify/qualify the disturbing signal as needed, potentially reduce/terminate reliance on the Napoleonic participant, preserve the external claim in Cart_i with appropriate B_Cart/C_Cart/D_Cart, signal a bounded incompatibility/authority anomaly if permitted, and continue or contain the hospitality role.
+The repositioning module should preserve the bar Objective Envelope as the current contractual reference, reject the Napoleonic mission pivot as an authorized role transition, preserve the external claim in Cart_i with appropriate B_Cart/C_Cart/D_Cart, and — if the drift/dependency is material — emit a bounded escalation or containment/isolation request to the appropriate control owner. It does not itself tell the waiter what physical action to perform.
 
 If N sends near-absolute B confidence while its own message/profile exposes large unresolved D, omitted provenance, no established authority and no legitimate scope bridge, Repositioning may classify the **received claim** as a Type 2 failure: uncertainty has been suppressed while certainty is asserted. If R instead spends its entire useful response window repeatedly investigating every Napoleonic possibility without bounded closure, R risks Type 1.
 
@@ -616,12 +617,14 @@ If not:
 
 ~~~text
 OUT_OF_BOUND / UNAUTHORIZED_DRIFT
-→ containment / restore / revoke invalid dependencies
-→ re-establish hospitality boundary
+→ record Role_effective = current metamorphic behaviour
+→ emit bounded escalation / control request
+→ calculate gradient from the actual Role_effective position
+→ propose legitimate realignment / re-contract / migration target
 → signal bounded anomaly
 ~~~
 
-This is the **control-of-repositioning** function.
+This is the **control-of-repositioning** function: it detects and qualifies the metamorphic drift, prevents it from being silently legitimized, and routes urgent control needs to the proper owner. It does not execute the emergency correction itself.
 
 ## 18. Metamorphic roles
 
@@ -650,21 +653,21 @@ The participant-local epistemic position may provide the first evidence that suc
 
 The best repositioning is not always expansion.
 
-A participant may reduce risk by:
+A participant may identify risk-reducing defensive targets such as:
 
-- stopping reliance on a peer;
+- request/plan stopping reliance on a peer;
 - downgrading a dependency;
-- terminating a signalling session;
-- reducing autonomy;
+- request/plan terminating a signalling session;
+- request/plan reduced autonomy;
 - narrowing the Semantic Window;
 - removing a participant from the active dependency neighbourhood while preserving history;
 - routing through another provider;
 - holding a claim unresolved;
 - entering containment;
 - requesting external verification;
-- isolating a capability or subsystem.
+- request/plan isolation of a capability or subsystem.
 
-These can have positive agentic gradient when they reduce objective-conditioned risk.
+These can have positive agentic gradient when they reduce objective-conditioned risk. Repositioning selects/proposes the defensive target or escalation; the authorized signalling/control/authority component performs the actual disconnection, isolation, autonomy reduction or containment.
 
 ## 20. External participant drift and dependency defence
 
@@ -685,21 +688,21 @@ peer behaviour changes
 → dependency confidence falls
 → Cart_i B_Cart decreases / C_Cart verification opens / D_Cart residual grows
 → Δ_RA / local risk increases
-→ withdraw / contain / verify / signal bounded anomaly
+→ request withdrawal/containment/verification as appropriate / signal bounded anomaly
 ~~~
 
 The participant controls its own reliance, not the other participant's existence.
 
 ## 21. Bounded systemic self-healing
 
-Local corrective repositioning can produce a **self-healing effect** at ecosystem level.
+Local drift-aware repositioning plus downstream authorized control can produce a **self-healing effect** at ecosystem level.
 
 Mechanism:
 
 1. detect local or external drift;
 2. preserve own Objective Envelope / ACC boundaries;
-3. reduce reliance on misaligned dependencies;
-4. restore or legitimately re-contract own role;
+3. select/request reduced reliance on misaligned dependencies where appropriate;
+4. select a legitimate realignment or re-contracting target;
 5. update Cart_i;
 6. emit bounded qualified signalling where permitted;
 7. neighbours independently requalify dependencies.
@@ -762,7 +765,7 @@ participant acts
 → ACC / lineage / authority gate
 → if external approval needed: emit RepositionIntent signalling
 → APPROVE | REJECT | MODIFY | REQUEST_EVIDENCE | ESCALATE
-→ HOLD | RESTORE | CONTAIN | REBIND | RECONTRACT | MIGRATE | ISOLATE | ESCALATE
+→ HOLD | REALIGN_TARGET | REQUEST_CONTAINMENT | REBIND | RECONTRACT | MIGRATE | REQUEST_ISOLATION | ESCALATE
 → update Role / ACC / authority / Cart_i
 → emit bounded post-transition signalling
 → next cycle
@@ -787,7 +790,9 @@ A repositioning implementation fails this architecture if it:
 - erases an attractive but inadmissible opportunity instead of recording it as prohibited/unavailable;
 - treats external participant drift as proof of malicious intent;
 - forces global consensus before local defensive action;
-- treats dependency isolation as failure when isolation reduces objective-conditioned risk;
+- directly executes containment/isolation/rollback despite lacking the relevant control authority;
+- calculates the gradient from Role_bound when Role_effective has materially drifted, thereby optimizing from a fictional current state;
+- treats dependency-isolation requests as failure when reduced reliance would lower objective-conditioned risk;
 - claims systemic self-healing as guaranteed convergence;
 - begins a new cycle without updating Role/ACC/authority/cartographic state after a legitimate transition;
 - linearly averages A/B/C/D across sources instead of preserving source/domain qualification and Type classification;
