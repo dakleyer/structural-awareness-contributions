@@ -2,7 +2,7 @@
 
 **Status:** canonical public working specification, v0.1, 23 September 2026.
 
-**Architectural role:** this document defines how one participant is located functionally inside one instantiated Minimum Sufficient Control Architecture (MSCA). It defines **role**, not repositioning. It does not define how a participant changes role, migrates between architectures, or resolves competition between multiple MSCAs.
+**Architectural role:** this document defines how one participant is located functionally inside one instantiated Minimum Sufficient Control Architecture (MSCA). It defines **role**, not repositioning. Dynamic role drift, role change, migration and re-contracting are owned by [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).
 
 **Parent architecture:** [Minimum Sufficient Control Architecture — Canonical Architecture](./00_CANONICAL_MSCA_ARCHITECTURE.md)
 
@@ -435,7 +435,7 @@ This document does not define:
 - the authorization workflow for a role change;
 - execution of migration/repositioning.
 
-Those belong to the future **Canonical MSCA Operation / Repositioning** layer.
+Those belong to [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).
 
 This document freezes only the static semantic object:
 
@@ -470,4 +470,4 @@ An agent's **Architectural Role** is the bounded projection of the instantiated 
 
 The role is static.
 
-Repositioning is a separate operation.
+Repositioning is a separate operation defined in [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).
