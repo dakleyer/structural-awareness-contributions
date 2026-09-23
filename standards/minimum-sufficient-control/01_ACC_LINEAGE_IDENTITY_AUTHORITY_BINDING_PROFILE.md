@@ -215,7 +215,7 @@ Examples can include:
 - extension of validity;
 - modification of non-compensable participation constraints where the governing system permits such amendment.
 
-The participant's local reasoning, opportunity gradient or MSCA assessment may justify requesting the change. They do not approve it.
+The participant's local reasoning, agentic gradient or MSCA assessment may justify requesting the change. [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) uses this boundary when deciding whether to HOLD, RESTORE, REBIND, RECONTRACT or MIGRATE. None of those inputs self-approve the contractual change.
 
 ### 6.4 Lineage-breaking change
 
