@@ -1,8 +1,8 @@
-# MSCA Ecosystem Composition & Control — Multi-Resolution Composition of Objective-Bound Architectures
+# MSCA Ecosystem Composition & Control — Ecosystem Cartography of Objective-Bound Architectures
 
 **Status:** canonical public working specification, v0.1, 23 September 2026.
 
-**Architectural role:** this document defines how multiple MSCA instances are represented together as an ecosystem composition, how their semantic and material relationships are maintained at different levels of resolution, and how that composition becomes structural input to Ecosystem Awareness and Regime Awareness. It does not define participant repositioning or a global ecosystem controller.
+**Architectural role:** this document defines the participant-local **Ecosystem Cartography** used to represent multiple MSCA instances together, how semantic and material relationships are maintained at different levels of resolution, and how that qualified cartography becomes structural input to Ecosystem Awareness and Regime Awareness. It does not define participant repositioning or a global ecosystem controller.
 
 **Parent architecture:** [Minimum Sufficient Control Architecture — Canonical Architecture](./00_CANONICAL_MSCA_ARCHITECTURE.md)
 
@@ -77,24 +77,126 @@ is a valid nested composition because S_mobility supplies the higher-order objec
 
 Composition alone does not create that higher-order envelope.
 
-## 3. The ecosystem composition object
+## 3. Ecosystem Cartography — the qualified composition object
 
-For focal participant or focal MSCA i, define a bounded local ecosystem composition map:
+For focal participant or focal MSCA i, define the bounded local **Ecosystem Cartography**:
 
 ~~~text
-ECM_i(t) = [ V_i(t), D_i(t), R_i(t), Q_i(t) ]
+Cart_i(t) = [ A_Cart,i(t), B_Cart,i(t), C_Cart,i(t), D_Cart,i(t) ]
 ~~~
 
-where:
+This deliberately uses the same qualified A/B/C/D semantic form as the rest of the architecture.
 
-- **V_i — semantic representation map:** what neighbouring/known MSCAs are represented as concepts, summaries or richer semantic profiles;
-- **D_i — dependency map:** material relations among those MSCAs and between them and the focal MSCA;
-- **R_i — resolution map:** how much structural detail is currently represented for each MSCA/relationship;
-- **Q_i — qualification map:** provenance, freshness, confidence/intensity, capability frontier and residual/UNKNOWN attached to the composition.
+### 3.1 A_Cart — represented cartography
 
-ECM_i is participant-local and incomplete by design.
+**A_Cart** is the cartography that is actually represented now.
 
-It is not an ecosystem master model.
+It contains the currently mapped ecosystem structure, including as available:
+
+- semantic MSCA entries / clusters;
+- Objective-Envelope signatures;
+- dependency edges;
+- resolution level per element/relationship;
+- structural/process models;
+- focal MSCA and role references;
+- provenance/freshness metadata needed to interpret the mapped elements.
+
+The prior internal decomposition remains useful inside A_Cart:
+
+~~~text
+A_Cart ≈ {
+  V_i   semantic representation,
+  Dep_i dependency graph,
+  R_i   resolution map,
+  structural/process detail
+}
+~~~
+
+A_Cart is therefore **the map**, not a claim that the mapped ecosystem is complete.
+
+### 3.2 B_Cart — confidence / intensity overlay
+
+**B_Cart** attaches confidence/intensity to the represented cartographic elements and relations.
+
+For each mapped element or edge e:
+
+~~~text
+B_Cart,i(e,t) = qualified confidence / support for e
+~~~
+
+B_Cart may vary element by element.
+
+A remote R0 entry represented only as a concept may often have low confidence or weak support. A close R3/R4 process element may often have higher confidence because it is directly observed and structurally detailed.
+
+However:
+
+> **resolution ≠ confidence**
+
+A coarse label can be highly reliable, while a detailed model can be stale, inferred or weakly supported. B_Cart is therefore driven by evidence, provenance, freshness and compatibility as well as representation resolution.
+
+Operationally, the represented cartography is **A_Cart with its B_Cart confidence overlay**.
+
+### 3.3 C_Cart — cartographic expansion capability
+
+**C_Cart** is the recognized frontier of what the participant could still add, inspect, refine or verify **with its current capabilities**.
+
+It may include:
+
+- known but unqueried neighbouring MSCAs;
+- dependencies that could be checked;
+- richer semantic/profile information that could be requested;
+- available sensors, signalling routes or registries;
+- analysis/computation that could refine a relationship;
+- human/owner review capacity;
+- effort, cost and useful-time budget available to increase resolution or confidence.
+
+Conceptually:
+
+~~~text
+C_Cart = {
+  candidate expansion/refinement targets,
+  available acquisition paths,
+  effort/capacity/time needed,
+  expected gain in resolution/confidence
+}
+~~~
+
+C_Cart is not already-established map content. It is the participant's current **capacity to enlarge or improve the cartography**.
+
+### 3.4 D_Cart — cartographic residual
+
+**D_Cart** is the structural residual beyond both the represented map and the recognized current-capability frontier.
+
+It includes:
+
+- MSCAs not represented and not currently enumerable;
+- unrecognized dependencies;
+- relationships whose knowability is itself uncertain;
+- external structure outside current acquisition/compatibility capability;
+- other ecosystem state that cannot responsibly be promoted into A_Cart or C_Cart.
+
+D_Cart is not zero merely because the current map is detailed.
+
+### 3.5 Compatibility alias
+
+Earlier documents used:
+
+~~~text
+Cart_i
+~~~
+
+for the participant-local ecosystem composition map.
+
+For compatibility with those references:
+
+~~~text
+ECM_i ≡ Cart_i
+Δ_ECM,i ≡ Δ_Cart,i
+~~~
+
+in the current corpus. New reader-facing text SHOULD use **Ecosystem Cartography / Cart_i**.
+
+Cart_i is participant-local and incomplete by design. It is not an ecosystem master model.
 
 ## 4. Semantic representation and dependency are different layers
 
@@ -110,7 +212,7 @@ Therefore:
 
 Taxi and bus MSCAs may be semantically close because both are mobility services. A food-production MSCA may be semantically distant from bus routing. Nevertheless, a food process can become materially coupled to logistics if transport disruption affects ingredient availability. Conversely, two semantically similar mobility MSCAs may have little direct dependency.
 
-The composition map keeps both dimensions explicit.
+The Ecosystem Cartography keeps both dimensions explicit.
 
 ## 5. Multi-resolution semantic representation
 
@@ -203,7 +305,7 @@ Inside the participant's own process/role boundary, the model may become operati
 
 This is where high-level semantic composition meets concrete operations.
 
-## 6. Resolution-gradient principle
+## 6. Variable-resolution principle
 
 Resolution is intentionally non-uniform.
 
@@ -275,7 +377,7 @@ The architecture requires only that richer resolution can be added without chang
 Material dependency is represented separately:
 
 ~~~text
-D_i[j,k] = qualified dependency from X_j to X_k
+Dep_i[j,k] = qualified dependency from X_j to X_k
 ~~~
 
 A dependency may concern:
@@ -344,7 +446,7 @@ Composition control does not grant authority over another MSCA.
 
 ### 10.1 Composition update input contract
 
-ECM_i may be updated from several qualified input classes. The list is extensible; no implementation is limited to these sources.
+Cart_i may be updated from several qualified input classes. The list is extensible; no implementation is limited to these sources.
 
 Core inputs include:
 
@@ -361,7 +463,7 @@ Each input retains source, scope, freshness, confidence/intensity, compatibility
 
 The map is not required to run on a fixed millisecond cadence.
 
-A participant MAY update ECM_i through any combination of:
+A participant MAY update Cart_i through any combination of:
 
 - **event trigger** — a material local event, action/effect, authority or dependency change;
 - **signal trigger** — one qualified signal or a composed set of signals crosses a declared materiality/confidence threshold;
@@ -383,41 +485,45 @@ A signal may therefore matter in two opposite ways:
 A triggered composition update may:
 
 ~~~text
-current ECM_i
+current Cart_i
 + local Π_EA,i changes
 + ReceivedSignals_i
 + focal MSCA / Role state
 + qualified direct observations
 + RA requalification feedback
-→ ECM_i(t+1)
+→ Cart_i(t+1)
 ~~~
 
-The update may change:
+The update may change the qualified cartography directly:
 
-- semantic entries V_i;
-- dependency edges D_i;
-- representation resolution R_i;
-- qualification/provenance state Q_i.
+- **A_Cart:** represented semantic entries, dependency edges, process detail or resolution;
+- **B_Cart:** confidence/intensity of one or more mapped elements/relations;
+- **C_Cart:** recognized expansion/refinement capability and effort budget;
+- **D_Cart:** residual/UNKNOWN boundary.
+
+Internal V_i / Dep_i / R_i structures remain representations within A_Cart rather than independent top-level epistemic categories.
 
 The update SHOULD preserve a bounded change-set:
 
 ~~~text
-Δ_ECM,i = changed semantic/dependency/resolution/qualification state
+Δ_Cart,i = changed A_Cart / B_Cart / C_Cart / D_Cart state
 ~~~
 
-Δ_ECM,i is **not** the Regime Awareness delta. It is a structural map change-set that may become input to Regime Awareness.
+Δ_Cart,i is **not** the Regime Awareness delta. It records a qualified change in the cartography itself and may become input to Regime Awareness.
 
 ### 10.4 Outputs from Composition & Control
 
 Composition & Control supplies downstream:
 
-- current ECM_i/version;
+- current Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart] / version;
 - bounded focal dependency neighbourhood;
-- Δ_ECM,i when material;
+- element-wise B_Cart confidence/intensity;
+- C_Cart expansion/refinement opportunities and effort/capacity limits;
+- Δ_Cart,i when material;
 - newly unresolved/stale dependencies;
 - resolution/coverage gaps;
 - provenance/freshness;
-- explicit residual/UNKNOWN;
+- explicit D_Cart residual/UNKNOWN;
 - requested richer observations where appropriate.
 
 These outputs feed Ecosystem Awareness qualification and the [Regime Awareness interface 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md).
@@ -485,26 +591,26 @@ The architecture therefore expands knowledge along material dependency, not by a
 
 ## 13. Input to Ecosystem Awareness
 
-Ecosystem Awareness consumes the composition map as bounded structural context.
+Ecosystem Awareness consumes the Ecosystem Cartography as bounded qualified structural context.
 
-EA may use the focal Objective Envelope/MSCA, participant role, semantic neighbours, dependency edges, source/freshness state, resolution level, known capability frontier and residual/UNKNOWN.
+EA may use A_Cart mapped structure, B_Cart element-wise confidence/intensity, C_Cart expansion capability, D_Cart residual, plus the focal Objective Envelope/MSCA and participant role.
 
 EA decides what is sufficiently represented for the current decision and where additional determination has value.
 
-It does not convert the composition map into ecosystem-wide truth.
+It does not convert the Ecosystem Cartography into ecosystem-wide truth.
 
 ## 14. Input to Regime Awareness
 
 Regime Awareness evaluates change against a represented operating regime.
 
-The ecosystem composition map supplies part of that representation:
+The qualified Ecosystem Cartography supplies part of that representation:
 
 ~~~text
 Π_EA,i
 +
 ReceivedSignals_i
 +
-ECM_i / Δ_ECM,i
+Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart] / Δ_Cart,i
 +
 focal MSCA + Architectural Role
 +
@@ -533,13 +639,13 @@ Its output remains:
 Δ_RA = [A_RA, B_RA, C_RA, D_RA]
 ~~~
 
-RA may additionally return a regime-qualified overlay identifying which ECM/MSCA assumptions or dependency regions require requalification. Composition & Control owns persistence/update of ECM_i; RA does not become the map repository. The participant later projects Δ_RA onto its own focal MSCA/objectives to calculate the agentic gradient.
+RA may additionally return a regime-qualified overlay identifying which cartographic/MSCA assumptions, elements or dependency regions require requalification. Because Cart_i uses the same A/B/C/D semantic form, the overlay can be applied element-wise: weakening B_Cart, requesting C_Cart refinement, or preserving/escalating D_Cart residual where appropriate. Composition & Control owns persistence/update of Cart_i; RA does not become the cartography repository. The participant later projects Δ_RA onto its own focal MSCA/objectives to calculate the agentic gradient.
 
 ## 15. Ecosystem composition is not global orchestration
 
 The composition layer MUST NOT be interpreted as one global controller, one complete ecosystem graph, one global ontology, one common Objective Envelope, one universal ACC, one shared MSCA, one mandatory embedding space, one universal dependency score or proof that unrepresented MSCAs do not exist.
 
-Different participants may maintain different ECM_i maps.
+Different participants may maintain different Cart_i cartographies.
 
 Their maps may overlap, disagree or have different resolution.
 
@@ -573,14 +679,14 @@ The composition model fails its architectural purpose if an implementation:
 - requires full-detail representation of every known MSCA;
 - prevents resolution from increasing around newly material dependencies;
 - flattens an R3/R4 deterministic process back into an ambiguous semantic label at the point of control;
-- converts a local composition map into global ecosystem truth;
+- converts a local Ecosystem Cartography into global ecosystem truth;
 - claims authority over another MSCA merely because it is represented;
 - forces all MSCAs into one common ACC or objective;
 - uses composition to hide provenance, freshness or residual uncertainty.
 
 ## 19. Canonical thesis
 
-An ecosystem is represented as a **bounded, multi-resolution composition of objective-bound MSCAs**.
+An ecosystem is represented as a **bounded, multi-resolution Ecosystem Cartography of objective-bound MSCAs**.
 
 The focal participant does not need to know the entire ecosystem equally well.
 
