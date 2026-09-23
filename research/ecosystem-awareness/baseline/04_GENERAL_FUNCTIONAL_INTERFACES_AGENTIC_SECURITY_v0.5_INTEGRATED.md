@@ -1847,3 +1847,11 @@ The plan is complete for a declared component route when the relevant ICR set sh
 16. any non-deterministic material route component was exercised repeatedly with outcome dispersion retained, while any unresolved reviewer objection blocks a sufficient conclusion.
 
 This conclusion answers a narrow but necessary question: **whether the interfaces are sufficient for the declared EA test route.** It does not prove that EA is effective for every ecosystem, that all components interoperate without adapters, or that the underlying business/operational decision is correct.
+
+## Editorial continuity note — interface snapshot and later consumers
+
+This integrated reader is the current programme-independent general-interface route derived from the 04 lineage and its conformance work. It defines the O1–O6 / IF-S1–IF-S13 interface landscape, EHD semantics and Appendix-A conformance discipline.
+
+Later participant-local positioning, ACC/admissibility, signalling/choreography, Ecosystem Cartography, agentic-gradient and MSCA Operation/Repositioning work may **consume, specialize or test** these interfaces. They do not automatically create new 04 interface families or rewrite earlier 04 semantics. Any new mandatory interface family, field or conformance requirement must be introduced through an explicit versioned interface change.
+
+The controlled/repaired v0.4 source blobs remain preserved separately for historical/freeze reconstruction.

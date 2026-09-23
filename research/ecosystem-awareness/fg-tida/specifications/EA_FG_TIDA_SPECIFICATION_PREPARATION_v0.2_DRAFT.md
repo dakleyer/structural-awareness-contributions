@@ -1019,3 +1019,11 @@ Accordingly, the correct next state is:
 **canonical corpus → this specification-preparation annex → reviewed candidate outline/profile maturity → official WG specification when placement and ownership are resolved.**
 
 It is **not** necessary to create additional theory or duplicate use cases merely to justify specification drafting.
+
+## Editorial continuity note — specification-preparation snapshot
+
+This v0.2 preparation map reflects the source corpus and FG-TIDA application state available when it was drafted. It is intentionally **not self-updating** as the general architecture evolves.
+
+Later work on participant-local Ecosystem Positioning, ACC/lineage, current signalling/choreography, the objective-conditioned gradient, 00G and Canonical MSCA Operation/Repositioning may require new source-to-specification rows, normative-maturity decisions, conformance routes or explicit exclusions. None of those later developments is an FG-TIDA requirement until it is deliberately reconciled through a versioned specification-preparation update and the appropriate external-owner process.
+
+The existing v0.2 sections remain useful as a dated design record and should not be rewritten solely to make the historical draft appear current.

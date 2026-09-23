@@ -167,3 +167,9 @@ The narrower finding is that excellent orchestration, persistence, traces and ev
 - **[L5] LangSmith evaluation:** https://docs.langchain.com/langsmith/evaluation
 
 **Source boundary:** the profile records documented capabilities at the review date. Product behaviour, hosted services, integrations and evaluation features can change. A deployment assessment must verify its graph code, state schema, persistence, evaluator definitions, monitoring coverage, reviewer capacity and observed outcomes.
+
+## Editorial continuity note — source and scenario snapshot
+
+This profile is a **17 September 2026 source-reviewed design analysis of LangGraph/LangSmith against 00E**. Its comparison is bounded to the documented runtime/observability capabilities and the 100-million-token quality-plan fixture.
+
+Later framework capabilities or later architecture work — including 00G, ACC, signalling/choreography, the agentic gradient and MSCA Operation/Repositioning — are not silently imported into this profile. A cross-scenario or refreshed product assessment requires an explicit successor/profile.

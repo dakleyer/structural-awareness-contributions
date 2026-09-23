@@ -209,3 +209,9 @@ The narrower finding is that a digital twin is only as current and sufficient as
 - **[A5] Amazon EventBridge event buses and pipes:** https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html
 
 **Source boundary:** the profile records documented capabilities and constraints at the review date. The smart-city design, EA semantics and gate implementation are proposed architecture, not advertised AWS product functionality. AWS services, regions, quotas, integrations and pricing change; a real assessment must verify the selected services, device and partner coverage, schemas, connectors, identity/policies, delivery semantics, model validity, operating authority and observed outcomes.
+
+## Editorial continuity note — source and scenario snapshot
+
+This profile is a **17 September 2026 source-reviewed design analysis of AWS IoT TwinMaker / IoT Core against 00F**. It is bounded to the declared IoT/event/digital-twin architecture and the Mobility Divergence fixture.
+
+Later AWS capabilities, other deployment topologies, DAOS extensions, 00G, ACC, signalling/choreography, the agentic gradient or MSCA Operation/Repositioning are not silently included. A refreshed or cross-scenario analysis requires an explicit successor/profile.

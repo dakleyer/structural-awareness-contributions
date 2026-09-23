@@ -207,3 +207,9 @@ The narrower finding is that technical health, semantic interoperability and rec
 - **[F7] ETSI NGSI-LD API specification:** https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.09.01_60/gs_CIM009v010901p.pdf
 
 **Source boundary:** the profile records documented capabilities at the review date and makes explicit inferences where the reviewed documentation does not establish native EA semantics. FIWARE is modular, and Context Broker choice, feature coverage, integrations, deployment topology and operating controls vary. A real assessment must verify the selected broker release, API conformance, adapters, data models, source registrations, security, persistence, analytics, authority and observed outcomes.
+
+## Editorial continuity note — source and scenario snapshot
+
+This profile is a **17 September 2026 source-reviewed design analysis of FIWARE NGSI-LD / Orion-LD against 00F**. It examines one plausible smart-city context/interoperability architecture under the declared Mobility Divergence fixture.
+
+Later FIWARE capabilities, other urban architectures, DAOS extensions, 00G, ACC, signalling/choreography, the agentic gradient or MSCA Operation/Repositioning are not silently included. A refreshed or different deployment analysis requires an explicit successor/profile.

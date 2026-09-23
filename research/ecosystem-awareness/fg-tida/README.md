@@ -58,3 +58,14 @@ The parent DAOS contribution remains separately preserved under the repository's
 ## Status
 
 Preparation and contributor-level research only. This package is not an FG-TIDA Working Group, charter, deliverable, specification, adopted interface or ITU-T position.
+
+## Cumulative application-state note — 23 September 2026
+
+This FG-TIDA package is an **application snapshot over the broader evolving EA/Positioning corpus**, not a promise that every later general-architecture development is already represented in FG-TIDA terms.
+
+- **05 ideal** preserves the candidate ideal cross-Theme projection.
+- **05A current-state bridge** records what was defensible from the dated public FG-TIDA source state used by that bridge.
+- **Specification preparation v0.2** is a draft mapping of the source corpus into a possible future specification structure.
+- Later general work on participant-local positioning, ACC, signalling/choreography, the objective-conditioned gradient, 00G and Canonical MSCA Operation/Repositioning does not become an FG-TIDA requirement or adopted Theme contract merely because it exists in the same repository.
+
+Future FG-TIDA updates should therefore be made as explicit dated revisions to 05A/specification/charter material, while preserving the earlier application snapshot for comparison.

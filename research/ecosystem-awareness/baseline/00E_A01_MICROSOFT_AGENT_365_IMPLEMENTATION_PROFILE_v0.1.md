@@ -196,3 +196,9 @@ The narrower conclusion is that product presence—and even an excellent initial
 - **[M7] Microsoft Agent 365 Observability SDK:** https://learn.microsoft.com/en-us/microsoft-agent-365/developer/observability
 
 **Source boundary:** the profile records capabilities and limitations documented at the review date. Product behaviour, licensing, previews, supported agent types and telemetry coverage can change; a deployment assessment must verify its own tenant, connectors, policy configuration and observed data.
+
+## Editorial continuity note — source and scenario snapshot
+
+This profile is a **17 September 2026 source-reviewed design analysis of Microsoft Agent 365 against 00E**. It should be read with the product documentation and architecture assumptions cited in the profile at that date.
+
+Later vendor capabilities, later EA requirements, 00G, ACC, signalling/choreography, the agentic gradient or MSCA Operation/Repositioning are not silently attributed to the product and are not automatically included in this profile. Refreshing the product evidence or applying Microsoft Agent 365 to the 00F mobility scenario requires a new version or a separate implementation profile.
