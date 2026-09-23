@@ -1,0 +1,208 @@
+name: Publish Ecosystem Positioning canonical v1.0
+
+on:
+  push:
+    paths:
+      - '.tmp/ecosystem-positioning-v1.0/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install presentation tooling
+        run: |
+          python -m pip install --disable-pip-version-check python-pptx
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-impress >/dev/null
+
+      - name: Apply only the approved canonical v1.0 changes
+        shell: python
+        run: |
+          from pathlib import Path
+          from pptx import Presentation
+          from pptx.dml.color import RGBColor
+          from pptx.enum.shapes import MSO_AUTO_SHAPE_TYPE
+          from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
+          from pptx.util import Pt
+
+          path = Path('presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx')
+          prs = Presentation(path)
+          assert len(prs.slides) == 9, f'Expected 9 slides, found {len(prs.slides)}'
+
+          def slide_by_text(anchor):
+              matches = []
+              for slide in prs.slides:
+                  if any(getattr(shape, 'text', '').strip() == anchor for shape in slide.shapes):
+                      matches.append(slide)
+              assert len(matches) == 1, f'Expected one slide anchored by {anchor!r}, found {len(matches)}'
+              return matches[0]
+
+          # §02 Structural Limits — one compact standards-boundary box.
+          slide = slide_by_text('STRUCTURAL LIMITS')
+          existing = [shape for shape in slide.shapes if 'EXISTING PRIMITIVES' in getattr(shape, 'text', '')]
+          if not existing:
+              box = slide.shapes.add_shape(
+                  MSO_AUTO_SHAPE_TYPE.ROUNDED_RECTANGLE,
+                  658368, 4553712, 10652760, 429768
+              )
+              box.fill.solid()
+              box.fill.fore_color.rgb = RGBColor(0xF7, 0xF9, 0xFB)
+              box.line.color.rgb = RGBColor(0xD6, 0xDC, 0xE4)
+              box.line.width = 10160
+              tf = box.text_frame
+              tf.clear()
+              tf.margin_left = 118872
+              tf.margin_right = 118872
+              tf.margin_top = 41148
+              tf.margin_bottom = 32004
+              tf.word_wrap = True
+              tf.vertical_anchor = MSO_ANCHOR.MIDDLE
+
+              p = tf.paragraphs[0]
+              p.alignment = PP_ALIGN.LEFT
+              p.space_before = 0
+              p.space_after = 0
+              r = p.add_run()
+              r.text = 'EXISTING PRIMITIVES  '
+              r.font.name = 'Consolas'
+              r.font.size = 99060
+              r.font.bold = True
+              r.font.color.rgb = RGBColor(0xA8, 0x64, 0x2A)
+              r = p.add_run()
+              r.text = 'SPIFFE · identity/authentication   |   RFC 8693 · subject/actor token exchange   |   RATS · attestation/appraisal   |   NIST 2026 · active agent-IAM work'
+              r.font.name = 'Calibri'
+              r.font.size = 104013
+              r.font.color.rgb = RGBColor(0x55, 0x59, 0x5F)
+
+              p = tf.add_paragraph()
+              p.alignment = PP_ALIGN.LEFT
+              p.space_before = 0
+              p.space_after = 0
+              r = p.add_run()
+              r.text = 'REMAINING GAP  '
+              r.font.name = 'Consolas'
+              r.font.size = 101600
+              r.font.bold = True
+              r.font.color.rgb = RGBColor(0x00, 0x7B, 0x82)
+              r = p.add_run()
+              r.text = 'Preserve what remains valid, knowable and actionable as authority, evidence and context change across handoffs.'
+              r.font.name = 'Calibri'
+              r.font.size = 109220
+              r.font.bold = True
+              r.font.color.rgb = RGBColor(0x1B, 0x27, 0x3F)
+          else:
+              assert len(existing) == 1, 'Duplicate standards-boundary boxes found'
+
+          # EA subsystem I/O — one consume-not-replace boundary line.
+          slide = None
+          for candidate in prs.slides:
+              if any(getattr(shape, 'text', '').strip() == 'Ecosystem Awareness — subsystem inputs and outputs' for shape in candidate.shapes):
+                  slide = candidate
+                  break
+          assert slide is not None, 'EA subsystem inputs/outputs slide not found'
+          subtitle = [shape for shape in slide.shapes if getattr(shape, 'text', '').startswith('EA interface slice.')]
+          assert len(subtitle) == 1, f'Expected one EA subtitle, found {len(subtitle)}'
+          sh = subtitle[0]
+          target_second = 'Consumes existing identity, authorization and attestation mechanisms as inputs; does not replace them.'
+          if target_second not in sh.text:
+              first = 'EA interface slice. Green = inputs to EA; orange = EA outputs / requests — never commands or authority.'
+              sh.height = 356616
+              tf = sh.text_frame
+              tf.clear()
+              tf.margin_left = 18288
+              tf.margin_right = 18288
+              tf.margin_top = 9144
+              tf.margin_bottom = 9144
+              tf.vertical_anchor = MSO_ANCHOR.TOP
+              p = tf.paragraphs[0]
+              p.alignment = PP_ALIGN.LEFT
+              p.space_before = 0
+              p.space_after = 0
+              r = p.add_run()
+              r.text = first
+              r.font.name = 'Aptos'
+              r.font.size = 120650
+              r.font.bold = False
+              r.font.italic = False
+              r.font.color.rgb = RGBColor(0x5D, 0x65, 0x72)
+              p = tf.add_paragraph()
+              p.alignment = PP_ALIGN.LEFT
+              p.space_before = 0
+              p.space_after = 0
+              r = p.add_run()
+              r.text = target_second
+              r.font.name = 'Aptos'
+              r.font.size = 99060
+              r.font.italic = True
+              r.font.color.rgb = RGBColor(0x5D, 0x65, 0x72)
+
+          # Title slide — version marker only; recipient-specific names do not enter the canonical artefact.
+          title_slide = prs.slides[0]
+          footer = [shape for shape in title_slide.shapes if 'CREATIVE COMMONS · ATTRIBUTION' in getattr(shape, 'text', '')]
+          assert len(footer) == 1, f'Expected one title footer, found {len(footer)}'
+          tf = footer[0].text_frame
+          assert len(tf.paragraphs) >= 2, 'Title footer second line missing'
+          version_text = 'V1.0 · 23 SEPTEMBER 2026 · CANONICAL WORKING PROPOSAL'
+          p = tf.paragraphs[1]
+          if p.runs:
+              p.runs[0].text = version_text
+              for extra in p.runs[1:]:
+                  extra.text = ''
+          else:
+              r = p.add_run()
+              r.text = version_text
+              r.font.name = 'Consolas'
+              r.font.size = 107950
+              r.font.color.rgb = RGBColor(0xA6, 0xAB, 0xB5)
+
+          cp = prs.core_properties
+          cp.title = 'Ecosystem Positioning for Agentic Systems — Canonical v1.0'
+          cp.subject = 'Canonical working visual router for Ecosystem Positioning'
+          cp.author = 'Iván Abril Palma'
+          cp.keywords = 'Ecosystem Positioning; Ecosystem Awareness; Agentic Systems; Structural Awareness; pre-standardization'
+          cp.comments = 'Canonical working proposal v1.0 — 23 September 2026'
+
+          prs.save(path)
+
+      - name: Regenerate canonical PDF snapshot
+        run: |
+          mkdir -p /tmp/ecopos-pdf
+          libreoffice --headless --convert-to pdf --outdir /tmp/ecopos-pdf presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx
+          test -s /tmp/ecopos-pdf/Ecosystem_Positioning_Canonical.pdf
+          cp /tmp/ecopos-pdf/Ecosystem_Positioning_Canonical.pdf presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf
+
+      - name: Verify canonical artefacts and clean temporary publication files
+        run: |
+          python - <<'PY'
+          from pptx import Presentation
+          p='presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx'
+          prs=Presentation(p)
+          assert len(prs.slides)==9
+          text='\n'.join(getattr(sh,'text','') for sl in prs.slides for sh in sl.shapes)
+          assert 'Ward' not in text
+          assert 'V1.0 · 23 SEPTEMBER 2026 · CANONICAL WORKING PROPOSAL' in text
+          assert 'EXISTING PRIMITIVES' in text
+          assert 'Consumes existing identity, authorization and attestation mechanisms as inputs; does not replace them.' in text
+          PY
+          test -s presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf
+          rm -rf .tmp/ecosystem-positioning-v1.0
+          git rm --ignore-unmatch .github/workflows/publish-ecosystem-positioning-v1.yml
+
+      - name: Commit canonical v1.0 binaries
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx
+          git add presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf
+          git add -u .tmp/ecosystem-positioning-v1.0 || true
+          git status --short
+          git commit -m 'Publish Ecosystem Positioning canonical presentation v1.0'
+          git push
