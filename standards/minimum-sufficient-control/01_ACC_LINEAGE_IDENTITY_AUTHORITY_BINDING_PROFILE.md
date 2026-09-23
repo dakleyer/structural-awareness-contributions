@@ -16,6 +16,10 @@ An ACC can constrain participation, roles, signalling, permissions, prohibitions
 
 This profile supplies that architectural binding.
 
+An ACC profile may exist at **MSCA level without yet being bound to a particular participant**. In that state it is an available contractual/participation framework for one or more roles inside the Objective Envelope. Subject binding becomes mandatory when the ACC is instantiated as the role-defining contract for a concrete participant.
+
+The static participant binding is defined by the [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md).
+
 It intentionally does **not** prescribe how an organization creates its constitution, IAM system, trust framework, legal authority or approval workflow. Those remain external systems. MSCA only requires enough references and qualified state to know which ACC it is loading and the limits of relying on it.
 
 ## 2. ACC lineage is the stable identity of the contract family
@@ -64,7 +68,7 @@ A loadable ACC profile SHOULD expose or reference enough information to establis
 | **ACC_Root / Lineage Authority** | Governance/issuance authority that anchors the lineage. This is an architectural trust/authority reference, not necessarily one cryptographic key or one server. |
 | **ACC_Instance_ID** | Identifier of the specific current ACC instance. |
 | **Parent_ACC_ID** | Previous instance from which the current instance derives, where lineage is versioned through successor records. |
-| **Subject binding** | Identity or actor binding for the participant to which the ACC applies. |
+| **Subject binding** | Identity or actor binding for the participant to which the ACC applies. It MAY be UNBOUND for an MSCA-level ACC template/profile and becomes required when the ACC is instantiated as a participant's role-defining contract. |
 | **Domain / membership scope** | Organization, ecosystem, service, role-domain or participation context in which the ACC is meaningful. |
 | **Issuer / approver reference** | Authority that issued, approved or attested the current instance. |
 | **Authority evidence reference** | External evidence used to establish the issuer/approver mandate where required. |
@@ -81,17 +85,69 @@ A loadable ACC profile SHOULD expose or reference enough information to establis
 
 The profile may carry these values directly or reference external authoritative objects. MSCA does not require one universal storage format.
 
-## 4. Root, authority and identity are distinct
+## 4. MSCA-level ACC profile versus role-bound ACC
+
+The architecture distinguishes two states of the same contractual lineage.
+
+### 4.1 MSCA-level ACC profile
+
+An MSCA may expose a set of compatible ACC profiles associated with its Objective Envelope and role topology:
+
+~~~text
+ACC_Set(X) = { ACC_1, ACC_2, ... ACC_n }
+~~~
+
+A profile in ACC_Set(X) may define:
+
+- eligible role classes;
+- obligations/prohibitions;
+- signalling requirements;
+- mutation rules;
+- governance lineage;
+- applicability conditions.
+
+It does **not** become every participant's ACC merely because it is present in the MSCA.
+
+### 4.2 Role-bound ACC instance
+
+A participant-specific binding is created only when one ACC/profile is instantiated for a concrete [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md):
+
+~~~text
+ACC_Role(i,X)
+~~~
+
+The role binding adds or confirms:
+
+- subject identity;
+- role reference;
+- Objective Envelope/MSCA reference;
+- current ACC instance/version;
+- lineage/root;
+- validity/status;
+- applicable authority references.
+
+Additional overlapping ACCs may constrain the participant or interaction, but they remain separately identified and MUST NOT be silently collapsed into the role-defining ACC.
+
+This preserves:
+
+~~~text
+ACC available in MSCA
+≠ ACC bound to role
+≠ participant identity
+≠ runtime authority
+~~~
+
+## 5. Root, authority and identity are distinct
 
 The architecture distinguishes three questions.
 
-### 4.1 Who/what is the participant?
+### 5.1 Who/what is the participant?
 
 This is the **subject identity/binding** question.
 
 The ACC does not need to implement identity proofing itself. It may rely on an external identity/federation/attestation mechanism and retain a qualified reference.
 
-### 4.2 Who may issue or approve this ACC?
+### 5.2 Who may issue or approve this ACC?
 
 This is the **lineage authority** question.
 
@@ -99,7 +155,7 @@ The participant's identity does not prove that it may issue, amend or approve it
 
 The root/lineage authority may be an organization, institution, delegated governance role, policy authority, multisignature body, federation, service owner or other legitimate external owner.
 
-### 4.3 What may this participant do under the current ACC?
+### 5.3 What may this participant do under the current ACC?
 
 This is the **contract/admissibility** question.
 
@@ -113,13 +169,13 @@ identity ≠ ACC membership ≠ ACC mutation authority ≠ runtime action author
 
 They may be linked, but they are not interchangeable.
 
-## 5. Mutation envelope — what may change without breaking lineage
+## 6. Mutation envelope — what may change without breaking lineage
 
 The **mutation envelope** defines the maximum set of ACC changes that may occur while preserving the current lineage relationship and the participant's authority to make or request those changes.
 
 A profile may divide fields into four classes.
 
-### 5.1 Self-mutable within delegated bounds
+### 6.1 Self-mutable within delegated bounds
 
 The participant may change the value within an explicitly delegated range.
 
@@ -133,7 +189,7 @@ Examples may include:
 
 Self-mutable does not mean untracked. Where material, the successor state remains versioned and attributable.
 
-### 5.2 Delegated successor issuance
+### 6.2 Delegated successor issuance
 
 The participant or a delegated local authority may create/approve a successor ACC instance **within explicitly delegated issuance rights**.
 
@@ -145,7 +201,7 @@ The successor retains:
 - current authority evidence;
 - the non-modifiable lineage constraints.
 
-### 5.3 Approval-required mutation
+### 6.3 Approval-required mutation
 
 The participant may identify or request the change, but another legitimate authority must approve/issue the successor ACC.
 
@@ -161,7 +217,7 @@ Examples can include:
 
 The participant's local reasoning, opportunity gradient or MSCA assessment may justify requesting the change. They do not approve it.
 
-### 5.4 Lineage-breaking change
+### 6.4 Lineage-breaking change
 
 Some changes cannot be represented as a valid mutation of the current lineage.
 
@@ -177,7 +233,7 @@ Such a change requires an **external issuance, join, migration or governance pro
 
 A new ACC may later be loaded, but the previous system must not fabricate continuity merely because the new ACC is operationally convenient.
 
-## 6. Change lifecycle
+## 7. Change lifecycle
 
 An ACC change may originate from many sources:
 
@@ -221,7 +277,7 @@ opportunity
 
 The gradient never becomes the approval authority.
 
-## 7. Lineage continuity rule
+## 8. Lineage continuity rule
 
 An ACC successor belongs to the same lineage only if continuity can be established under the governing profile.
 
@@ -244,7 +300,7 @@ according to the applicable profile.
 
 It must not be silently treated as a valid successor.
 
-## 8. ACC loading into MSCA
+## 9. ACC loading into MSCA
 
 ACC is loaded into MSCA only after two different questions are answered:
 
@@ -267,7 +323,7 @@ A contract can therefore be authentic but MSCA-incompatible, or MSCA-compatible 
 
 These states must remain distinct.
 
-## 9. ACC and Ecosystem Signalling across organizations
+## 10. ACC and Ecosystem Signalling across organizations
 
 Ecosystem Signalling does not require:
 
@@ -307,7 +363,7 @@ foreign ACC
 → automatic local citizenship
 ~~~
 
-## 10. Overlapping ACCs
+## 11. Overlapping ACCs
 
 A participant may simultaneously hold ACCs from multiple organizations, domains or roles.
 
@@ -330,7 +386,7 @@ Each ACC retains:
 
 Where profiles overlap, a legitimate conflict/precedence owner or rule may determine which constraint applies. If no such owner/rule can be established, the conflict remains explicit and may render the relevant MSCA assessment UNRESOLVED or force targeted requalification.
 
-## 11. Protocol-neutral compatibility with IAM and credential systems
+## 12. Protocol-neutral compatibility with IAM and credential systems
 
 This profile defines semantics, not a security protocol.
 
@@ -359,7 +415,7 @@ Current reference anchors:
 
 These references establish interoperability neighbours, not endorsement of ACC by those standards bodies.
 
-## 12. Minimum internal ACC-lineage state
+## 13. Minimum internal ACC-lineage state
 
 For an implementation that only needs the minimum internal kernel, a compact ACC lineage state can be represented conceptually as:
 
@@ -388,7 +444,7 @@ This is an architectural example, not a mandatory wire schema.
 
 The important property is reconstructibility of lineage and mutation authority, not field naming.
 
-## 13. What this profile does not own
+## 14. What this profile does not own
 
 This profile does not define:
 
@@ -409,7 +465,7 @@ Those may be external systems referenced by the profile.
 
 The MSCA/ACC architecture needs only enough qualified information to preserve **who/what, which lineage, under whose authority, within which mutation limits, and for what validity period**.
 
-## 14. Conformance / falsification conditions
+## 15. Conformance / falsification conditions
 
 The lineage profile fails its architectural purpose if an implementation:
 
@@ -424,7 +480,7 @@ The lineage profile fails its architectural purpose if an implementation:
 - treats possession of an ACC as a runtime action permit;
 - cannot represent an unresolved lineage/authority question explicitly.
 
-## 15. Canonical thesis
+## 16. Canonical thesis
 
 ACC lineage is the minimum continuity mechanism that prevents a participation contract from becoming a mutable, self-declared blob.
 
