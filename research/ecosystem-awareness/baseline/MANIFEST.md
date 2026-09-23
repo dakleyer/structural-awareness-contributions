@@ -40,11 +40,15 @@ It does not mean:
 
 ## Change rule
 
+The list above identifies the **11 September 2026 publication snapshot**, not immutable ownership of the current pathname forever. In particular, `README.md` means the README state captured by that snapshot and recoverable through Git history; the current routed README may evolve later under `DOCUMENT_CONTROL.md` without rewriting the historical freeze.
+
 These frozen files should not be silently rewritten to reflect later architecture decisions.
 
 Material evolution should be published as a later version or later dated snapshot, with the earlier freeze retained in repository history.
 
 Minor corrections that do not alter substantive meaning should still be made through ordinary Git commits so the public provenance remains visible.
+
+For controlled Drive-backed sources, use the applicable freeze/maintenance manifest's Drive file ID + `revisionId` as the historical exact-content anchor. For current public working successors and routed pages, cite the Git commit containing the public state used. See [Canonical Corpus Manifest — Provenance bridge](./CANONICAL_CORPUS_MANIFEST.md#provenance-bridge--controlled-source-anchors-versus-current-public-citations).
 
 ## Public claim rule
 
