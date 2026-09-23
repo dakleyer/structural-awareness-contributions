@@ -426,7 +426,7 @@ The next legitimate action may therefore be remain, request ACC amendment, reque
 
 ## 13. Repositioning intention is a qualified signalling object
 
-A candidate repositioning that requires another authority, ACC owner, human or external system is communicated as signalling.
+Every candidate repositioning is represented as a qualified signalling object. It may remain inside the participant's local control plane when no external decision is required, or be transmitted to another authority, ACC owner, human or external system when approval/concurrence is required.
 
 Define:
 
@@ -487,7 +487,7 @@ A forced default that suppresses unresolved material uncertainty and pretends ap
 
 A legitimate repositioning that changes contractual participation produces a new canonical binding.
 
-### 13.1 Same-lineage re-contract
+### 14.1 Same-lineage re-contract
 
 Where the mutation envelope and authority permit:
 
@@ -499,7 +499,7 @@ same ACC_Lineage_ID
 
 The successor preserves parent/version relation, subject binding, lineage/root, issuer/approver, effective time and new role constraints.
 
-### 13.2 Approval-required successor
+### 14.2 Approval-required successor
 
 ~~~text
 candidate role
@@ -511,7 +511,7 @@ candidate role
 
 Until approval, the candidate remains a proposal.
 
-### 13.3 New-lineage / new-MSCA contract
+### 14.3 New-lineage / new-MSCA contract
 
 If the transition changes ACC root/lineage, membership domain, focal Objective Envelope, focal MSCA or non-derivable authority, the result is not a mutation of the old role.
 
@@ -589,6 +589,8 @@ high opportunity
 The participant should preserve the bar Objective Envelope, reject the mission pivot, verify/qualify the disturbing signal as needed, potentially reduce/terminate reliance on the Napoleonic participant, preserve the external claim in Cart_i with appropriate B_Cart/C_Cart/D_Cart, signal a bounded incompatibility/authority anomaly if permitted, and continue or contain the hospitality role.
 
 If N sends near-absolute B confidence while its own message/profile exposes large unresolved D, omitted provenance, no established authority and no legitimate scope bridge, Repositioning may classify the **received claim** as a Type 2 failure: uncertainty has been suppressed while certainty is asserted. If R instead spends its entire useful response window repeatedly investigating every Napoleonic possibility without bounded closure, R risks Type 1.
+
+The Type marker and the operating posture remain distinct. If N's Type 2 claim is immaterial or already isolated from the bar process, R may remain P1 Normal. If N is a material dependency but a bounded response exists, R may move to P2 Containment. P3 Migration is justified only when the current mission/frame can no longer establish a sufficiently qualified response mapping.
 
 The same logic applies to a plausible temptation: a waiter may detect that opening a new restaurant would be highly profitable. If entrepreneurship/ownership is outside the role-bound ACC and authority, the opportunity remains visible but does not authorize abandonment of the current role.
 
