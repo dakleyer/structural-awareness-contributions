@@ -19,6 +19,22 @@ The corpus distinguishes the **public minimal detector** from the broader curren
 - `Δ_RA` is a **qualified directional change input**, not a gradient. Its structural context may include the participant-local [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map: semantic neighbours, dependency edges and their resolution/qualification. The participant-local agentic gradient is computed only after projection through the receiver's own objectives/dependencies/focal MSCA.
 - Regime Awareness does **not** issue the participant's final Normal / Containment / Migration-Regime Transition posture. EA/Positioning derives that posture nonlinearly from the delta plus MSCA risk, ACC, authority/capacity and local thresholds/hysteresis.
 
+## Circuit inputs, triggers and outputs
+
+The broader RA integration receives a bounded participant-local input bundle. Core producers are:
+
+- [01H participant-local EA](../ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) → current qualified epistemic position and material local action/effect changes;
+- [01J Ecosystem Signalling](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) → receiver-qualified external messages as `ReceivedSignals_i`;
+- [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) → current `ECM_i`, bounded dependency neighbourhood and `Δ_ECM,i`;
+- [Canonical MSCA](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) + [Architectural Role](../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) → focal Objective Envelope/process/control context and what this participant actually does;
+- legitimate owner/EA window/direct observations → decision scope, W(d,t), thresholds, horizon, local telemetry and other qualified evidence.
+
+RA may consume additional qualified sources.
+
+Evaluation may be event-driven, threshold-triggered or periodic. Material local epistemic movement, sufficient external signalling, signalling insufficiency/staleness, dependency-map change, action/effect mismatch, role/authority/capability change or explicit owner policy may all trigger re-evaluation.
+
+Outputs are `Δ_RA=[A_RA,B_RA,C_RA,D_RA]`, a regime-qualified overlay over the represented map/frame, and bounded requalification requests. Composition & Control owns persistent `ECM_i` updates; RA does not become the ecosystem-map repository. A material RA output may itself be selectively signalled to peers.
+
 ## Architecture links
 
 The [EA ↔ RA annex 01C v0.2](../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) is the current interface route. It preserves the public minimal detector boundary while adding the qualified `Δ_RA=[A_RA,B_RA,C_RA,D_RA]` projection used by EA/MSCA positioning. The [joint operation annex 01D](../ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) checks the same decision, versions and permit when RA evidence is used to justify an MSCA action. [EA](../ecosystem-awareness/baseline/README.md), [MSCA](../../standards/minimum-sufficient-control/README.md) and the [DAOS case](../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) retain independent source corpora.
