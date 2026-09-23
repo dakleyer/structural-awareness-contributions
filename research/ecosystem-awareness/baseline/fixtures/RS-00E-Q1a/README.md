@@ -24,6 +24,8 @@ These records are immutable and retained for public lineage. They must not be ci
 | [v0.3](./pre_registration_v0.3.md) | `830148260493bd6b46b5889e2ce326c86544b30f` | Superseded before execution |
 | [v0.4](./pre_registration_v0.4.md) | `351923834ea21445dc7d38a1d4ebff968f41587e` | Superseded before execution by v0.5; retained immutable for public lineage |
 
+> **Namespace note:** fixture labels `P1`, `P2` and `C0` in this pre-registration are immutable test-branch identifiers. They are **not** the P1 Normal / P2 Containment / P3 Migration operating-posture namespace defined later in MSCA Operation/Repositioning.
+
 ## Next execution boundary
 
 Implement the harness, publish the qualifier-loss instrumentation trace and determinism trace citing v0.5, then execute P1, P2 and C0 together as one fixture family.
