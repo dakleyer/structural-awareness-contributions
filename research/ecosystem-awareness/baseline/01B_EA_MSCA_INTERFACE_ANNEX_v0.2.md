@@ -63,6 +63,8 @@ This section preserves the useful concrete mapping from the current MSCA working
 
 The working-paper record binds S, E, configuration, evidence, decision owner, permissions, deadlines and contingency policy. A shared operation identifier may link observation, reach, proposal, permit, command receipt and measured effect; configuration version, provenance, timestamps, permission reference and expiry preserve the conditions behind each step. These remain **illustrative integration requirements**, not mandatory generic MSCA fields or a published executable API.
 
+The working paper's §5.2 also separates replay/shadow assessment from separately authorized bounded live pilots and from production approval. This evidence-progression distinction is preserved here as source lineage; it does not define the still-pending Canonical MSCA Operation.
+
 The xSeil/urban source profile is useful evidence of implementation thinking but does not establish causal regional benefit, generic MSCA minimality, comparative superiority, universal domain validity or production certification.
 
 ## 4. Candidate EA → MSCA qualified inputs
@@ -78,6 +80,8 @@ EA does not originate S(t), participation legitimacy, identity or control mandat
 | F7 targeted requalification + F8 bounded statement | Affected domain/dependency, what changed, capacity gap, residual, requested requalification, receiver-specific bounded statement | Reassess only materially affected S/E/C/P/M assumptions; avoid a universal “add control” response. |
 | F9 feedback/revalidation | Outcome-to-assumption discrepancy, pathway learning and reason for reopening the frame | Re-enter MSCA assessment after material change instead of carrying forward an expired sufficiency claim. |
 | Qualified Ecosystem Signalling input | Native or compatibility-mapped external signal that survived receiver-side semantic/epistemic qualification, including provenance, freshness and residual | Allow MSCA to use external evidence or capability information without confusing transport success with qualified evidence. |
+
+F1–F9 meanings remain those of the preserved [EA Functional Architecture v0.4 part 1](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md), [part 2](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md) and [part 3](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part03.md). This annex changes the current cross-boundary packaging, not the frozen F1–F9 definitions.
 
 ### 4.1 Signal admissibility for MSCA evidence
 
@@ -187,7 +191,7 @@ It should verify at minimum that:
 7. Sparse/legacy participants can interoperate without requiring a complete MSCA export.
 8. A richer domain-specific profile cannot silently redefine S/E/C/P/M.
 
-These are **proposed tests**, not completed validation.
+These are **proposed tests**, not completed validation. The [EA validation apparatus](./README.md#validation-profiles) remains the neighbouring EA test route; it does not imply that these EA↔MSCA interface tests have already been executed.
 
 ### 7.1 Joint-operation boundary with Regime Awareness
 
