@@ -17,7 +17,7 @@ EA and Minimum Sufficient Control Architecture (MSCA) answer different questions
 
 No layer substitutes for another. EA does not create authority or control sufficiency. MSCA does not create epistemic truth, identity, authority, participation legitimacy or a Semantic Window. A successful signal transport or compatibility mapping does not by itself establish evidence sufficiency.
 
-The current MSCA corpus entry point is [Minimum Sufficient Control / MSCA](../../../standards/minimum-sufficient-control/README.md). The [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) now owns the generic S/E/C/P/M kernel, invariants and extension contract. Canonical MSCA Operation and MSCA Control Positioning remain pending. This annex defines only the EA↔MSCA boundary and does not treat the urban/smart-city working paper as the generic canonical specification.
+The current MSCA corpus entry point is [Minimum Sufficient Control / MSCA](../../../standards/minimum-sufficient-control/README.md). The [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) owns the generic S/E/C/P/M kernel, the [MSCA Architectural Role](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) owns static participant placement, and [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) owns drift control / transition / re-contracting. This annex defines only the EA↔MSCA boundary and does not treat the urban/smart-city working paper as the generic canonical specification.
 
 The **MSCA representation/schema instance** and an **MSCA sufficiency determination** are distinct objects. For discovery/interchange, S/E/C/P/M may be represented with qualified values, UNKNOWN or UNPOPULATED fields; an entirely unpopulated instance is a valid representation with status UNASSESSED, not a supported minimum. SUPPORTED, FAILED and UNRESOLVED remain assessment outcomes that require the applicable objective/assumptions, evidence and authority for the declared scope.
 
@@ -63,7 +63,7 @@ This section preserves the useful concrete mapping from the current MSCA working
 
 The working-paper record binds S, E, configuration, evidence, decision owner, permissions, deadlines and contingency policy. A shared operation identifier may link observation, reach, proposal, permit, command receipt and measured effect; configuration version, provenance, timestamps, permission reference and expiry preserve the conditions behind each step. These remain **illustrative integration requirements**, not mandatory generic MSCA fields or a published executable API.
 
-The working paper's §5.2 also separates replay/shadow assessment from separately authorized bounded live pilots and from production approval. This evidence-progression distinction is preserved here as source lineage; it does not define the still-pending Canonical MSCA Operation.
+The working paper's §5.2 also separates replay/shadow assessment from separately authorized bounded live pilots and from production approval. This evidence-progression distinction remains source lineage; the current runtime semantics are defined separately by [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).
 
 The xSeil/urban source profile is useful evidence of implementation thinking but does not establish causal regional benefit, generic MSCA minimality, comparative superiority, universal domain validity or production certification.
 
@@ -151,11 +151,13 @@ The Canonical MSCA Architecture defines downward, upward, horizontal and normati
 
 This annex does not itself declare a domain profile canonical. The urban/smart-city paper and DAOS remain source/example material, not definitions of generic MSCA.
 
-### 6.4 Future Control Positioning
+### 6.4 Architectural Role and Repositioning boundary
 
-The MSCA corpus reserves **MSCA Control Positioning** as a pending canonical specification. Until that document exists, this annex may exchange current/alternative configuration, support state, burden, capability gaps and transition-relevant data, but it MUST NOT invent a normative control-position object or gradient semantics on behalf of MSCA.
+The static participant location inside one focal MSCA is defined by the [MSCA Architectural Role](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md). Dynamic role/configuration transition, effective-role drift control, agentic-gradient candidate handling, ACC/lineage/authority gating and re-contracting are defined by [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).
 
-EA's Decision-Scoped Epistemic Opportunity remains an epistemic/value-of-information ordering; it is not automatically identical to a future MSCA control-transition ordering.
+This annex may exchange current/alternative configuration, support state, burden, capability gaps and transition-relevant data, but it does not own the role object or the transition decision.
+
+EA's Decision-Scoped Epistemic Opportunity remains an epistemic/value-of-information ordering; the canonical agentic-gradient/repositioning semantics are owned by the Ecosystem Positioning gradient law and MSCA Operation/Repositioning respectively.
 
 ## 7. Candidate interface interaction sequence and falsifiable checks
 
@@ -209,6 +211,6 @@ EA's general architecture is not limited to FG-TIDA Theme #13. MSCA's submitted 
 
 No platform, MIM extension, Python module, BPMN workflow, signalling transport, adapter registry, SLM compatibility component or message schema is prescribed by this annex. Implementations may realize the semantics differently if the ownership boundaries, qualification states, lineage and falsifiers remain inspectable.
 
-For the general EA foundation and the system-security versus ecosystem-security distinction, see [Two Foundational Origins](./01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md). For participant-local sparse MSCA representation, see [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md). For current MSCA corpus status and pending canonical documents, see the [MSCA corpus entry](../../../standards/minimum-sufficient-control/README.md).
+For the general EA foundation and the system-security versus ecosystem-security distinction, see [Two Foundational Origins](./01A_FOUNDATIONAL_DUAL_ORIGIN_NOTE_v0.1.md). For participant-local sparse MSCA representation, see [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md). For current MSCA corpus status and canonical documents, see the [MSCA corpus entry](../../../standards/minimum-sufficient-control/README.md).
 
 This annex updates the **current interface reading** while preserving the v0.1 file, controlled/frozen EA baseline documents and original focus-group submission artefacts unchanged.
