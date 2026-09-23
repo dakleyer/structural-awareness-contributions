@@ -2,7 +2,7 @@
 
 **Status:** canonical public working specification, v0.1, 23 September 2026.
 
-**Architectural role:** this document defines the participant-local **Ecosystem Cartography** used to represent multiple MSCA instances together, how semantic and material relationships are maintained at different levels of resolution, and how that qualified cartography becomes structural input to Ecosystem Awareness and Regime Awareness. It does not define participant repositioning or a global ecosystem controller.
+**Architectural role:** this document defines the participant-local **Ecosystem Cartography** used to represent multiple MSCA instances together, how semantic and material relationships are maintained at different levels of resolution, and how that qualified cartography becomes structural input to Ecosystem Awareness and Regime Awareness. It does not define participant repositioning or a global ecosystem controller. Repositioning is owned by [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).
 
 **Parent architecture:** [Minimum Sufficient Control Architecture — Canonical Architecture](./00_CANONICAL_MSCA_ARCHITECTURE.md)
 
@@ -667,7 +667,7 @@ Otherwise they remain peer MSCAs in the ecosystem composition.
 
 This document does not define how a participant changes Architectural Role, how an MSCA changes its Objective Envelope, how the agent chooses a new MSCA, the full repositioning lifecycle, global convergence, a universal semantic-embedding algorithm, a universal clustering algorithm, a global dependency-discovery service, a mandatory BPMN/Lean notation or central control over peer MSCAs.
 
-Those belong to future operation/repositioning or implementation-specific profiles.
+Participant role/contract transition belongs to [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md); implementation-specific semantic/clustering/process notations remain profile concerns.
 
 ## 18. Conformance / falsification conditions
 
