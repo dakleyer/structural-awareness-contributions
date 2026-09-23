@@ -298,13 +298,13 @@ candidate role
 
 Until approval, the candidate remains a proposal.
 
-### 11.3 New-lineage / new-MSA contract
+### 11.3 New-lineage / new-MSCA contract
 
 If the transition changes ACC root/lineage, membership domain, focal Objective Envelope, focal MSCA or non-derivable authority, the result is not a mutation of the old role.
 
 It requires explicit new issuance/join/migration.
 
-The new cycle begins only after the new binding is established.
+The new cycle begins only after the new binding is established and the canonical Architectural Role document/state is updated to reference the new ACC/lineage/authority binding.
 
 ## 12. Repositioning result object
 
