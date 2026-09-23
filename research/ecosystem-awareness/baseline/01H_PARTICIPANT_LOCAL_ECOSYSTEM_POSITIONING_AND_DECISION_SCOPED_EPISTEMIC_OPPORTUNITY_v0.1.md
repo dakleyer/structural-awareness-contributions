@@ -92,7 +92,7 @@ For the ecosystem-positioning circuit, the participant-local EA layer can supply
 - explicit UNKNOWN/residual;
 - a material-change or requalification trigger where established.
 
-These outputs may feed the participant's [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map and the [EA ↔ Regime Awareness interface](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md).
+These outputs may feed the participant's [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map `ECM_i`; a material local epistemic change may therefore contribute to structural change-set `Δ_ECM,i` and/or directly enter the [EA ↔ Regime Awareness interface](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md).
 
 EA does not own the persistent ecosystem-composition map and does not convert local action success into proof that the wider regime is unchanged.
 
