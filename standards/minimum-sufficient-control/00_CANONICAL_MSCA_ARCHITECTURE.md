@@ -133,7 +133,7 @@ The three top-level postures remain downstream interpretations rather than RA st
 
 When regime qualification is lost sufficiently that the old historical mapping no longer supports reliable forecast/control for the mission, the participant may enter the existing **potential critical bifurcation** condition: several successor paths may be plausible while the destination frame is not yet sufficiently qualified. Invariant safety/containment controls may remain valid.
 
-This is the architectural bridge to the pending **MSCA Control Positioning** and **Canonical MSCA Operation** documents. Those future documents will specify transition mechanics and lifecycle in detail; this section fixes the shared representation and matching rule.
+This is the architectural bridge to the [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) specification, which owns transition mechanics, drift control, re-contracting and lifecycle.
 
 ## 4. Canonical architecture layers
 
@@ -481,7 +481,7 @@ MSCA may reference their state, require them as preconditions and be invalidated
 
 The [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md) defines the participant-specific functional projection of one instantiated MSCA under one Objective Envelope: contribution, inputs/outputs, dependencies, C/P/M projection, role-bound ACC and authority references.
 
-Role is static architectural placement. Role change/repositioning belongs to the future operation layer.
+Role is static architectural placement. Role change/repositioning belongs to [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).
 
 ### 11.7 MSCA Ecosystem Composition & Control
 
@@ -501,9 +501,9 @@ The current static canonical set is:
 - **MSCA Ecosystem Composition & Control — current:** multi-MSCA semantic/dependency composition and variable-resolution ecosystem representation.
 - **MSCA Architectural Role — current:** the participant's static functional/contractual location inside one instantiated MSCA and one Objective Envelope.
 
-A separate **Canonical MSCA Operation / Repositioning** specification remains pending. It will define runtime change, role/configuration transition, authorization, execution, effect measurement and requalification.
+The [**Canonical MSCA Operation & Repositioning**](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) specification is current. It defines runtime drift control, candidate repositioning, agentic-gradient use, ACC/lineage/authority gating, re-contracting, role/configuration transition, defensive repositioning, effect feedback and next-cycle emission.
 
-This document does not pre-empt those future transition semantics.
+This Architecture document defines the static semantics; the Operation document owns the dynamic transition semantics.
 
 ## 13. Source profiles and provenance
 
