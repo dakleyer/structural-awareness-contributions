@@ -195,22 +195,11 @@ The participant-local opportunity assessment uses its own objective, epistemic p
 
 Only received information that has survived local semantic/compatibility qualification and can be represented as bounded qualified state enters this calculation as `ReceivedSignals_i`. Opaque, unsupported or unmappable payloads may be retained as evidence or trigger requalification, but they MUST NOT be treated as normalized inputs to the opportunity gradient or MSCA assessment merely because transport succeeded.
 
-Conceptually:
+The current canonical gradient semantics are defined in the [Objective-Conditioned Agentic Gradient Law](../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md). In compact form, signalling changes the qualified evidence available to the receiver; Regime Awareness and other change sources provide a qualified ecosystem delta; the receiver projects that delta onto its own MSCA/objective dependencies and ranks candidate transitions by expected reduction of objective-conditioned risk.
 
-```
-Gradient_i(d,t) = rank(
-  candidate actions |
-  Objective_i,
-  EpistemicState_i,
-  MSCA_i,
-  ReceivedSignals_i,
-  cost / privacy / capacity / time
-)
-```
+The law is generalized and need not be differentiable. Signalling therefore supplies inputs to the gradient; it does not own the gradient or a global opportunity function.
 
-This is not claimed to be a differentiable mathematical gradient.
-
-The useful interpretation is a local ordering over opportunities such as:
+The useful interpretation remains a local ordering over opportunities such as:
 
 - observe / re-observe a source;
 - verify or request a handoff;
