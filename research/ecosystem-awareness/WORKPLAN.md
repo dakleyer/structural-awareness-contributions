@@ -20,41 +20,9 @@ If a proposed change is reviewed and rejected, move it to **Closed / not adopted
 
 ## Active work — strategic vNext streams
 
-### W1 — Requirements vNext
-
-**Question:** do later developments require genuinely new requirements, or are they already representable inside the current `S1–S14 / T1–T4 / H1–H6 / KPI` system?
-
-**Later developments to audit at minimum:**
-
-- 00G collective false-context convergence;
-- participant-local Ecosystem Positioning / 01H;
-- Agentic Citizenship Contract, lineage and admissibility / 01I + canonical ACC profile;
-- ecosystem signalling and choreography / 01J;
-- Objective-Conditioned Agentic Gradient;
-- Ecosystem Cartography `Cart_i / Δ_Cart,i`;
-- effective-role drift;
-- Type 0/1/2 catalogue as used operationally before repositioning closure;
-- P1/P2/P3 operational posture;
-- Canonical MSCA Operation & Repositioning;
-- `RepositionIntent / AuthorityResponse` and owner-action boundary.
-
-**Required method:** build a delta table before editing the canonical requirements:
-
-| Later concept | Existing S/T/H/KPI coverage | Missing behaviour / evidence | Disposition |
-|---|---|---|---|
-| Concept under review | Exact current route | Exact gap, if any | Existing mapping / clarify wording / new S# / new T# / new H# / new KPI / out of scope |
-
-**Decision gate:** do **not** create S15+, T5+, H7+ or new KPI families merely because a later document uses new vocabulary. A new requirement is justified only when the behaviour/evidence cannot be expressed without semantic distortion in the current system.
-
-**Current review artefact:** [Requirements vNext Review & Delta v0.1 Draft](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Its current W1 determination is **no new S15/T5/H7/KPI family**: later concepts are predominantly existing mappings, component conformance or benchmark-specific measures. Two future clarification candidates remain open: `Role_bound ↔ Role_effective` visibility, and explicit opportunity/admissibility/authority/execution separation.
-
-**Expected output:** only if a later review identifies a genuine solution-requirement gap, prepare a versioned Requirements-vNext change proposal. The current canonical requirements remain unchanged.
-
-**Must preserve:** current tests and pre-registrations remain interpretable against the requirement version/commit they cite.
-
----
-
 ### W2 — Benchmark vNext
+
+**Prerequisite status:** W1 Requirements review is complete. The current requirement system remains S1–S14 / T1–T4 / H1–H6 / KPI; no S15/T5/H7/new canonical KPI was introduced. See [Requirements vNext Review & Delta v0.1 Draft](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
 
 **Question:** how should the matched-comparator programme extend beyond the current EA differential `EA-H1–EA-H4` without silently broadening 00D?
 
@@ -232,6 +200,8 @@ These are real review items but should not interrupt W1–W4 unless they become 
 | MSCA 04 physical section order | The semantic runtime order is already correct; editorial section order could later mirror it | Optional editorial change only |
 | Visual/static asset refresh | Current GitHub diagrams are live Mermaid; older SVG/PNG pack was verified at commit `4093bc6` | Refresh static assets when preparing final deck/PDF, not as a competing semantic source |
 | New scenario/profile candidates | New domains may be useful, but domain novelty alone is not a reason to duplicate a case | Admit only if they add a new requirement/evidence/owner combination |
+| Requirements clarification CAND-R1 | Make `Role_bound ↔ Role_effective` visibility explicit if a future Requirements edition needs it | Clarification candidate only; current S7/S10/S12/S13 coverage is sufficient for now |
+| Requirements clarification CAND-R2 | Make `opportunity ≠ admissibility ≠ authority ≠ execution` visually explicit | Clarification candidate only; current S1/S2/S8/S11/S14 + T2/T3/T4 already carry the semantics |
 
 ---
 
@@ -239,7 +209,7 @@ These are real review items but should not interrupt W1–W4 unless they become 
 
 ```mermaid
 flowchart TB
-    W1["W1 Requirements vNext"]
+    W1["W1 Requirements review\nCOMPLETED — no canonical change"]
     W2["W2 Benchmark vNext"]
     W3["W3 Testbed coverage vNext"]
     W4["W4 FG-TIDA Specification vNext"]
@@ -249,26 +219,24 @@ flowchart TB
     C4["C4 Presentation / Release"]
     C5["C5 Coherence / navigation"]
 
-    W1 --> W2
-    W1 --> W3
+    W1 -. "traceability gate closed" .-> W2
+    W1 -. "existing S/T/H/KPI basis" .-> W3
     W2 --> W3
-    W1 --> W4
+    W1 -. "requirements disposition" .-> W4
     W2 -. "evidence scope" .-> W4
     W3 -. "conformance evidence" .-> W4
 
-    C1 -. "source integrity" .-> W1
     C1 -. "source integrity" .-> W4
     C2 --> W2
     C2 --> W3
     C3 -. "dated implementation evidence" .-> W2
-    W1 --> C5
     W2 --> C5
     W3 --> C5
     W4 --> C5
     C5 -. "reader state" .-> C4
 ```
 
-**Interpretation:** the arrows are practical dependencies, not a rigid project-management waterfall. For example, Stage-0 execution can proceed while Requirements-vNext analysis is underway **only against the already pinned requirement/pre-registration versions**.
+**Interpretation:** W1 is now a closed review gate: later EP concepts were mapped to the existing requirement system without creating a new canonical Requirements version. The remaining arrows are practical dependencies, not a rigid project-management waterfall. Stage-0 execution continues against the pinned requirement/pre-registration versions actually cited.
 
 ---
 
@@ -277,7 +245,7 @@ flowchart TB
 | Area | Current usable state | Main gap | Next controlled artefact |
 |---|---|---|---|
 | Foundation / principles | v0.4 sources preserved; 01 v0.5 integrated reader; 02 controlled | Later architecture is not retrofitted into frozen sources | Continuity notes + future explicit successor only if needed |
-| Requirements | S1–S14 / T1–T4 / H1–H6 / KPI protocol | Later Positioning/ACC/signalling/MSCA-operation coverage not yet dispositioned | **W1 Requirements-vNext delta** |
+| Requirements | S1–S14 / T1–T4 / H1–H6 / KPI protocol | Later EP concepts reviewed; no canonical gap requiring S15/T5/H7 found | [Requirements vNext Review & Delta](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); two clarification candidates remain non-canonical |
 | Reference scenarios | 00E + 00F full quality plans; 00G candidate | 00G and later positioning surfaces not integrated into the main comparator programme | W1/W2 disposition |
 | Benchmark | 00D B0–B3 / EA-H1–EA-H4 | Does not cover all later Positioning layers | **W2 Benchmark-vNext** |
 | Test design | A01, A02, A03, coverage map, Q1a pre-registration and trace helpers | Selected fixtures only; S7/S8 + later layers incomplete | **W3 Testbed-vNext + Stage-0 execution** |
@@ -301,6 +269,7 @@ This table should remain short. Detailed historical maintenance records live und
 | 2026-09-23 | Cumulative integration/continuity notes | `governance/CUMULATIVE_INTEGRATION_AUDIT_2026-09-23.md` |
 | 2026-09-23 | Readability priorities A/B/C | `governance/NEXT_REVIEW_BACKLOG_2026-09-23.md` |
 | 2026-09-23 | Live cross-corpus visual navigation | [VISUAL_GUIDE.md](./VISUAL_GUIDE.md) |
+| 2026-09-23 | W1 Requirements review completed — no canonical requirement change | [Requirements vNext Review & Delta v0.1 Draft](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); benchmark traceability applied in 00D v0.3 draft |
 
 ---
 
