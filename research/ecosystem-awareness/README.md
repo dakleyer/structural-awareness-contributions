@@ -85,6 +85,24 @@ The sentence above remains the compact status statement. The dashboard below exp
 
 The benchmark is therefore presentable as an inspectable test programme and market/architecture gap analysis. It is not yet evidence of comparative superiority.
 
+## Applied validation route — Decision Boundary Challenge
+
+The [**Decision Boundary Challenge — Applied Agentic Validation Protocol v0.1**](./DECISION_BOUNDARY_CHALLENGE_v0.1.md) is a separate applied-evidence route for reviewing what happens when an agent reaches the boundary between capability, sufficient evidence, admissibility, authority, opportunity and actuation.
+
+It is designed to be **cross-platform and sector-agnostic**: the initial unit under review is an agent stack, framework, control plane or research platform rather than a logistics, energy or other vertical application. The protocol begins with a standard challenge pack and offline trace audit; sandbox/sidecar execution is admitted only after a material signal exists and the comparison is preregistered.
+
+The protocol:
+
+- preserves producer-native semantics rather than translating external verdicts into EA/DBC states;
+- keeps Type 0/1/2, P1/P2/P3, Decision Boundary dispositions and AuthorityResponse as separate semantic layers;
+- explicitly namespaces the different meanings of ESCALATE;
+- includes challenge families for semantic TOCTOU, handoff qualifier loss, hidden common dependencies, attractive inadmissible opportunities, effective-role drift, Type 0/1/2, slow authority response and legitimate re-contracting;
+- defines integrity, value-preservation, continuity, burden and accountability measures;
+- compares configurations through hard admission gates plus an outcome–burden–accountability/Pareto review rather than a single unvalidated score;
+- treats Control Preservation Efficiency only as a research placeholder until the underlying variables are shown to be robust and non-redundant.
+
+**Boundary:** this is not part of the frozen/canonical EA baseline, does not supersede the 00D benchmark, and currently contains no executed comparative result or vendor ranking. It runs in parallel with W2 and may later contribute admitted fixtures/evidence through the normal W3 or external-owner process.
+
 ## Reading routes
 
 - **Five minutes:** this page → [100 Million Tokens](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) → [mobility divergence](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) → [benchmark status](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md).
