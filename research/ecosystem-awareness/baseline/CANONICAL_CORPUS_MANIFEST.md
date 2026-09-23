@@ -38,7 +38,7 @@ The controlled baseline is complete in Google Drive. All six are now publicly pr
 
 ## A.2 Newly authored EA/MSCA working interface annex (outside the controlled release baseline)
 
-- `baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md` — current public additive EA↔MSCA interface successor. It preserves the v0.1 source-profile mapping while adding the current S/E/C/P/M representation/assessment boundary, sparse/UNASSESSED state, ACC/signalling/authority separation, compatibility-qualified inputs, extensibility boundary and pending Control Positioning limit. It is **not** a seventh/eighth frozen baseline document, implemented interprogramme API, completed validation, canonical MSCA Architecture/Operation, or controlled Google Drive freeze/revision anchor. `01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md` remains preserved provenance.
+- `baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md` — current public additive EA↔MSCA interface successor. It preserves the v0.1 source-profile mapping while adding the current S/E/C/P/M representation/assessment boundary, sparse/UNASSESSED state, ACC/signalling/authority separation, compatibility-qualified inputs, extensibility boundary and explicit handoff to the current MSCA Architectural Role / Operation & Repositioning owners. It is **not** a seventh/eighth frozen baseline document, implemented interprogramme API, completed validation, substitute for the canonical MSCA Architecture/Role/Operation documents, or controlled Google Drive freeze/revision anchor. `01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md` remains preserved provenance.
 
 ## A.3 Newly authored EA/Regime Awareness working interface annex (outside the controlled release baseline)
 
