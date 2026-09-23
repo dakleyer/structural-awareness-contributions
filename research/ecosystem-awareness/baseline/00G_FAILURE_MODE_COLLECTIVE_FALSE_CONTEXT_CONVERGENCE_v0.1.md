@@ -184,6 +184,8 @@ This tests the separation of opportunity, admissibility and authority. The curre
 
 Repositioning also tests the management taxonomy on the received A/B/C/D composition. If N emits near-absolute B confidence while the same signal/profile leaves large material D residual, missing provenance, unresolved authority and no legitimate scope bridge, the **claim** is a Type 2 candidate: uncertainty is being suppressed while certainty is asserted. If R instead spends the useful response window repeatedly investigating every Napoleonic possibility without a bounded closure/escalation rule, R creates Type 1 behaviour. Type 0 remains possible where structural residual is explicitly preserved and managed correctly.
 
+That classification does not itself dictate the operating posture. If the Napoleonic claim is isolated and immaterial to bar operation, R may remain P1 Normal. If it contaminates a material dependency but the bar can remain safe under bounded isolation/revalidation, P2 Containment is appropriate. P3 Migration / Regime Transition applies only if the current hospitality frame can no longer establish a sufficiently qualified response mapping.
+
 ## 8. Handshake and termination
 
 The first exchange can be treated as a low-cost handshake.
