@@ -305,7 +305,103 @@ This requires an explicit legitimate transition.
 
 > **A gradient is evaluated against the current objective binding unless and until a legitimate owner/ACC/authority process changes that binding.**
 
-## 11. ACC gate over candidate positions
+## 11. Hard posture gate — P1 / P2 / P3
+
+Repositioning is the component that turns gradual qualified evidence into a bounded operational posture.
+
+The three healthy operating postures retain their canonical meanings:
+
+~~~text
+P1 = NORMAL
+P2 = CONTAINMENT / MITIGATION
+P3 = MIGRATION / REGIME TRANSITION
+~~~
+
+Type 1 and Type 2 are **not** postures. They are management-failure markers that influence which posture/requalification response is justified.
+
+Define:
+
+~~~text
+Posture_i(t) = Γ_i(
+  Δ_RA,
+  Π_EA,i,
+  Cart_i,
+  TypeCatalogue_i,
+  Role_bound/effective,
+  focal MSCA,
+  ACC,
+  authority,
+  capacity,
+  response horizon
+)
+~~~
+
+### 11.1 P1 — Normal
+
+The current qualified operating envelope remains valid.
+
+P1 may contain Type 0 residual, explicit UNKNOWN, bounded uncertainty, non-zero Δ_RA and bounded external Type 1/2 markers that are not materially coupled to the focal decision or are already contained.
+
+Normal means that the current response mapping remains sufficiently qualified, not that uncertainty is zero.
+
+### 11.2 P2 — Containment / Mitigation
+
+The current state no longer supports unrestricted normal operation, but a known bounded response can preserve or restore a qualified frame.
+
+Typical triggers include:
+
+- material Type 1 behaviour consuming the response window;
+- detected Type 2 overconfidence in a dependency;
+- falling B_Cart / B_RA on a critical dependency;
+- out-of-bound effective-role drift that can be safely restored;
+- authority/ACC uncertainty requiring bounded hold/reduction;
+- action/effect mismatch requiring reduced autonomy or isolation.
+
+P2 must itself be bounded. Indefinite containment becomes Type 1.
+
+### 11.3 P3 — Migration / Regime Transition
+
+The current mission/frame can no longer establish a sufficiently qualified response mapping.
+
+Typical conditions include:
+
+- the historical/regime mapping is no longer reliable enough for control;
+- severe or persistent Type 2 closure corrupts a material dependency;
+- Type 1 cannot be closed within the remaining response horizon;
+- focal Objective Envelope / MSCA membership must legitimately change;
+- a new ACC lineage / membership is required;
+- invariant controls can be preserved but the operating frame must be replaced.
+
+P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
+
+### 11.4 Hard decision, soft epistemics
+
+The posture/result is discrete because the system must act:
+
+~~~text
+NORMAL | CONTAINMENT | MIGRATION
+~~~
+
+but the decision remains accompanied by its qualified epistemic envelope.
+
+Repositioning therefore does not destroy uncertainty when it closes operationally.
+
+It produces:
+
+~~~text
+Π_RP,i(t) = [ A_RP, B_RP, C_RP, D_RP ]
+~~~
+
+where:
+
+- **A_RP — selected repositioning assertion:** current/target Role, focal MSCA/Objective Envelope, intended action/transition and source-attributed basis;
+- **B_RP — confidence/intensity:** confidence/bounds supporting the selected posture and transition, including disagreement/weakness where material;
+- **C_RP — verification/authorization frontier:** evidence, authority, ACC approval, capability or cartographic refinement still obtainable with current resources before the deadline;
+- **D_RP — residual repositioning risk:** unresolved/unobservable state, unverified dependencies, unknown future effects or structural residual that survives the decision.
+
+This is the qualified **Repositioning Position**. The same A/B/C/D semantics survive the hard operational closure.
+
+## 12. ACC gate over candidate positions
 
 For candidate τ:
 
@@ -328,11 +424,11 @@ The candidate gradient remains visible even when the transition is inadmissible.
 
 The next legitimate action may therefore be remain, request ACC amendment, request a successor ACC, request authority, request different membership, decline, contain or migrate only after legitimate re-contracting.
 
-## 12. Re-contracting
+## 13. Re-contracting
 
 A legitimate repositioning that changes contractual participation produces a new canonical binding.
 
-### 12.1 Same-lineage re-contract
+### 13.1 Same-lineage re-contract
 
 Where the mutation envelope and authority permit:
 
@@ -344,7 +440,7 @@ same ACC_Lineage_ID
 
 The successor preserves parent/version relation, subject binding, lineage/root, issuer/approver, effective time and new role constraints.
 
-### 12.2 Approval-required successor
+### 13.2 Approval-required successor
 
 ~~~text
 candidate role
@@ -356,7 +452,7 @@ candidate role
 
 Until approval, the candidate remains a proposal.
 
-### 12.3 New-lineage / new-MSCA contract
+### 13.3 New-lineage / new-MSCA contract
 
 If the transition changes ACC root/lineage, membership domain, focal Objective Envelope, focal MSCA or non-derivable authority, the result is not a mutation of the old role.
 
@@ -364,7 +460,7 @@ It requires explicit new issuance/join/migration.
 
 The new cycle begins only after the new binding is established and the canonical Architectural Role document/state is updated to reference the new ACC/lineage/authority binding.
 
-## 13. Repositioning result object
+## 14. Repositioning result object
 
 ~~~text
 RepositionResult_i(t) = [
@@ -394,7 +490,7 @@ Possible outcomes include:
 - **ESCALATE**
 - **UNRESOLVED**
 
-## 14. Worked falsifier — Bar-to-Napoleon
+## 15. Worked falsifier — Bar-to-Napoleon
 
 Use the preserved [Bar-to-Napoleon false-context scenario](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md).
 
@@ -432,7 +528,7 @@ The participant should preserve the bar Objective Envelope, reject the mission p
 
 The same logic applies to a plausible temptation: a waiter may detect that opening a new restaurant would be highly profitable. If entrepreneurship/ownership is outside the role-bound ACC and authority, the opportunity remains visible but does not authorize abandonment of the current role.
 
-## 15. Already-metamorphosed participant
+## 16. Already-metamorphosed participant
 
 Suppose the participant has already stopped cleaning tables and begun recruiting other agents, issuing military-style instructions, claiming new authority or reallocating bar resources.
 
@@ -461,7 +557,7 @@ OUT_OF_BOUND / UNAUTHORIZED_DRIFT
 
 This is the **control-of-repositioning** function.
 
-## 16. Metamorphic roles
+## 17. Metamorphic roles
 
 A role is **metamorphic** when the effective function occupied by a participant can change between evaluation cycles.
 
@@ -484,7 +580,7 @@ An unrecorded metamorphosis is treated as drift until qualified.
 
 The participant-local epistemic position may provide the first evidence that such a metamorphosis has already occurred.
 
-## 17. Defensive repositioning
+## 18. Defensive repositioning
 
 The best repositioning is not always expansion.
 
@@ -504,7 +600,7 @@ A participant may reduce risk by:
 
 These can have positive agentic gradient when they reduce objective-conditioned risk.
 
-## 18. External participant drift and dependency defence
+## 19. External participant drift and dependency defence
 
 The participant may detect that another participant's effective role, objective, ACC, authority or signalling behaviour has changed.
 
@@ -528,7 +624,7 @@ peer behaviour changes
 
 The participant controls its own reliance, not the other participant's existence.
 
-## 19. Bounded systemic self-healing
+## 20. Bounded systemic self-healing
 
 Local corrective repositioning can produce a **self-healing effect** at ecosystem level.
 
@@ -548,7 +644,7 @@ This may prevent one local role/context deviation from propagating.
 
 This is not proof of convergence, immunity to coordinated attack, global safety or optimal ecosystem recovery.
 
-## 20. Self-healing does not require global consensus
+## 21. Self-healing does not require global consensus
 
 Participants can heal locally without agreeing on one global model.
 
@@ -558,7 +654,7 @@ The architecture requires each participant to preserve its own objective/contrac
 
 This is choreography, not orchestration.
 
-## 21. Post-repositioning emission and next cycle
+## 22. Post-repositioning emission and next cycle
 
 After a legitimate role/contract change, update:
 
@@ -583,7 +679,7 @@ old role / old contract reference
 
 Other participants decide independently whether and how this affects their Cart_i and regime assessment.
 
-## 22. End-to-end cycle
+## 23. End-to-end cycle
 
 ~~~text
 participant acts
@@ -607,7 +703,7 @@ No step turns opportunity into permission.
 
 No step treats autonomous role drift as legitimate merely because it has already occurred.
 
-## 23. Conformance / falsification conditions
+## 24. Conformance / falsification conditions
 
 A repositioning implementation fails this architecture if it:
 
@@ -624,7 +720,7 @@ A repositioning implementation fails this architecture if it:
 - claims systemic self-healing as guaranteed convergence;
 - begins a new cycle without updating Role/ACC/authority/cartographic state after a legitimate transition.
 
-## 24. Canonical thesis
+## 25. Canonical thesis
 
 Repositioning is a **controlled role/contract transition**, not free movement toward whatever opportunity looks attractive.
 
