@@ -269,7 +269,7 @@ The useful interpretation remains a local ordering over opportunities such as:
 - offer a capability;
 - acquire a tool or resource;
 - change dependency;
-- prepare containment or migration;
+- prepare/request containment or migration through the appropriate authorized transition/control path;
 - seek a new authority / role / membership;
 - cooperate;
 - compete;
