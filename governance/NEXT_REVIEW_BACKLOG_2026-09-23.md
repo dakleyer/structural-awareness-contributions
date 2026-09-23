@@ -77,9 +77,22 @@ The baseline / FG-TIDA duplicate review found no semantic-content conflict requi
 - **P12 substance:** predecessor / controlled-source banners added to the priority predecessor/source set.
 - **P14 substance:** Ecosystem Positioning working-process order now runs through effective-role drift / Type catalogue / P1–P3 before the objective-conditioned Gradient from `Role_effective`.
 
-### Visual aids and PowerPoint — separate later wave
+### Visual aids — completed as a live navigation layer; PowerPoint still separate
 
-Do not import the companion visual pack wholesale into the canonical corpus. Reuse an individual table, Mermaid or image only after the corresponding current text has been rechecked and the visual is demonstrably supplementary rather than a competing semantic source.
+The GitHub visual layer is now implemented through [research/ecosystem-awareness/VISUAL_GUIDE.md](../research/ecosystem-awareness/VISUAL_GUIDE.md) and routed from the root, EA, baseline, Ecosystem Positioning, Regime Awareness and MSCA READMEs.
+
+The live guide uses current Markdown/Mermaid rather than importing the companion visual pack wholesale. It includes:
+
+- cumulative programme/corpus evolution;
+- architecture ownership;
+- current positioning cycle;
+- requirements → evidence → execution maturity;
+- 00E/00F/00G and the 2+2 implementation-profile matrix;
+- DAOS / UC-EA / EA-ITP / reference-scenario distinctions;
+- 04 general → 05 ideal → 05A current FG-TIDA layering;
+- question-to-document navigation and status rules.
+
+The older SVG/PNG visual pack remains useful for slides/PDFs but was verified against commit `4093bc6`; it is therefore not treated as a second semantic source for the evolving Git corpus.
 
 The canonical PowerPoint/PDF replacement remains a separate finalization step under §2. Do not replace the stable presentation pair until its remaining text-only items are approved and both artefacts can be updated together.
 
