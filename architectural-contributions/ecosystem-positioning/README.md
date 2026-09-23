@@ -56,7 +56,7 @@ flowchart LR
     S --> R
     R --> G
     G -. candidate transition .-> P
-    P -. when specified / authorized .-> H
+    P -. when authorized .-> H
     H --> A
     R -. requalification / resolution request .-> M
 ```
