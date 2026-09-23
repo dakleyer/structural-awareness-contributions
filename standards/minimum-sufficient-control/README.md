@@ -24,7 +24,7 @@ The static MSCA corpus is consolidated around three canonical documents:
    Authoritative generic architecture for the S/E/C/P/M kernel, one-MSCA/one-Objective-Envelope coherence rule, representation versus sufficiency assessment, process/topology extensibility, authority/evidence boundaries, multi-optima and burden, shared A/B/C/D qualified-position semantics, and ACC/role boundaries.
 
 2. [**MSCA Ecosystem Composition & Control**](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) — **CURRENT, v0.1 (23 September 2026).**  
-   Defines the participant-local multi-resolution composition of multiple objective-bound MSCAs: semantic matrix, separate dependency matrix/graph, resolution levels from semantic anchors to deterministic local process models, peer versus higher-order composite MSCAs, and an explicit trigger/update contract consuming local epistemic movement, qualified `ReceivedSignals_i`, focal MSCA/Role state, direct observations and RA feedback. Composition & Control owns persistent `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` / cartographic change-set `Δ_Cart,i`; RA consumes the bounded map/dependency neighbourhood and returns `Δ_RA`, regime overlay and requalification requests.
+   Defines the participant-local **Ecosystem Cartography** of multiple objective-bound MSCAs. `A_Cart` is the represented semantic/dependency/process map, `B_Cart` is confidence/intensity per mapped element or relation, `C_Cart` is the current capability/effort frontier for expanding or refining the cartography, and `D_Cart` is residual. Resolution may range from semantic anchors to deterministic local process models. Composition & Control owns persistent `Cart_i` and cartographic change-set `Δ_Cart,i`; RA consumes a bounded qualified slice and returns `Δ_RA`, regime overlay and requalification requests.
 
 3. [**MSCA Architectural Role**](./02_MSCA_ARCHITECTURAL_ROLE.md) — **CURRENT, v0.1 (23 September 2026).**  
    Defines the participant's static functional/contractual place inside one instantiated MSCA and one Objective Envelope: contribution, inputs/outputs, dependencies, C/P/M projection, role-bound ACC/lineage and authority references. It is deliberately **not** repositioning.
@@ -109,7 +109,8 @@ No layer substitutes for another.
 | Qualified MSCA A/B/C/D position and RA delta alignment | **DEFINED architecturally** |
 | Objective-conditioned agentic gradient | **DEFINED in Ecosystem Positioning canonical working law; Control Positioning/transition lifecycle still pending** |
 | MSCA Ecosystem Composition & Control | **CURRENT — [v0.1](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md)** |
-| Semantic-matrix + dependency-map multi-resolution composition | **DEFINED in Composition & Control v0.1** |
+| Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` | **DEFINED in Composition & Control v0.1** |
+| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
 | Composition update inputs/triggers/outputs (`Π_EA,i`, `ReceivedSignals_i`, `Cart_i/Δ_Cart,i`, RA feedback) | **DEFINED in Composition & Control v0.1** |
 | Peer-MSCAs vs legitimate higher-order composite MSCA | **DEFINED in Composition & Control v0.1** |
 | Canonical MSCA Operation / Repositioning specification | **PENDING** |
