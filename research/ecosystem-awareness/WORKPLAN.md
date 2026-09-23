@@ -76,7 +76,9 @@ If a proposed change is reviewed and rejected, move it to **Closed / not adopted
 5. separate architecture conformance from comparative performance;
 6. preserve the current 00D claim boundary until execution exists.
 
-**Expected output:** a Benchmark-vNext design/change proposal; no “tested” label until matched execution is actually completed.
+**Current artefact:** [00D v0.3 Draft — Ecosystem Positioning](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) is now the bounded Benchmark-vNext working draft. It keeps v0.2 canonical and makes adoption conditional on W1 traceability, source audits, ablation/complexity protocol and fixture admission.
+
+**Expected output:** after those gates, a reviewed v0.3 successor proposal; no “tested” label until matched execution is actually completed.
 
 ---
 
