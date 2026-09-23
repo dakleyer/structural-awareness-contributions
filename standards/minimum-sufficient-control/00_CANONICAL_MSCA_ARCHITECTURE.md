@@ -489,6 +489,8 @@ The [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_C
 
 It distinguishes peer-MSCAs from legitimate higher-order composite MSCAs, allows representation to become progressively more deterministic near the focal role/process, and supplies bounded structural input to Ecosystem Awareness and Regime Awareness without creating a global controller.
 
+Composition & Control owns persistent `ECM_i` state. It may update that map from participant-local epistemic movement, qualified `ReceivedSignals_i`, focal MSCA/Role changes, direct observations, freshness/expiry and RA feedback. Regime Awareness consumes the bounded map/dependency neighbourhood and returns `Δ_RA` plus overlay/requalification indications; it does not become the persistent map owner.
+
 ## 12. Architecture versus composition, role and operation
 
 This document defines **architecture**, not the complete runtime protocol.
