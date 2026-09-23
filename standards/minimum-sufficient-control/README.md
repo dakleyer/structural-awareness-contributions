@@ -24,7 +24,7 @@ The static MSCA corpus is consolidated around three canonical documents:
    Authoritative generic architecture for the S/E/C/P/M kernel, one-MSCA/one-Objective-Envelope coherence rule, representation versus sufficiency assessment, process/topology extensibility, authority/evidence boundaries, multi-optima and burden, shared A/B/C/D qualified-position semantics, and ACC/role boundaries.
 
 2. [**MSCA Ecosystem Composition & Control**](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) — **CURRENT, v0.1 (23 September 2026).**  
-   Defines the participant-local multi-resolution composition of multiple objective-bound MSCAs: semantic matrix, separate dependency matrix/graph, resolution levels from semantic anchors to deterministic local process models, peer versus higher-order composite MSCAs, and an explicit trigger/update contract consuming local epistemic movement, qualified `ReceivedSignals_i`, focal MSCA/Role state, direct observations and RA feedback. Composition & Control owns persistent `ECM_i` / structural change-set `Δ_ECM,i`; RA consumes the bounded map/dependency neighbourhood and returns `Δ_RA`, regime overlay and requalification requests.
+   Defines the participant-local multi-resolution composition of multiple objective-bound MSCAs: semantic matrix, separate dependency matrix/graph, resolution levels from semantic anchors to deterministic local process models, peer versus higher-order composite MSCAs, and an explicit trigger/update contract consuming local epistemic movement, qualified `ReceivedSignals_i`, focal MSCA/Role state, direct observations and RA feedback. Composition & Control owns persistent `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` / cartographic change-set `Δ_Cart,i`; RA consumes the bounded map/dependency neighbourhood and returns `Δ_RA`, regime overlay and requalification requests.
 
 3. [**MSCA Architectural Role**](./02_MSCA_ARCHITECTURAL_ROLE.md) — **CURRENT, v0.1 (23 September 2026).**  
    Defines the participant's static functional/contractual place inside one instantiated MSCA and one Objective Envelope: contribution, inputs/outputs, dependencies, C/P/M projection, role-bound ACC/lineage and authority references. It is deliberately **not** repositioning.
@@ -45,7 +45,7 @@ The Architecture document is now the canonical semantic reference. Source papers
 Read the corpus in this order:
 
 1. [Canonical MSCA Architecture](./00_CANONICAL_MSCA_ARCHITECTURE.md): current generic kernel, Objective-Envelope coherence rule, process/topology boundary, invariants and extension contract. **Status: canonical public working architecture.**
-2. [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md): current multi-MSCA semantic/dependency composition map and variable-resolution ecosystem-control representation. **Status: canonical public working specification.**
+2. [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md): current multi-MSCA **Ecosystem Cartography**: variable-resolution semantic/dependency representation with A_Cart map, B_Cart confidence, C_Cart expansion capability and D_Cart residual. **Status: canonical public working specification.**
 3. [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md): current participant-role model within one focal MSCA/Objective Envelope, including role-bound ACC and lineage. **Status: canonical public working specification.**
 4. [Architectural and standards working context](./ARCHITECTURE_AND_STANDARDS_CONTEXT.md): original working note for the Objective Envelope, coordination/mechanism/means/response dimensions, research questions and programme boundaries. **Status: working context / lineage; not the final canonical architecture.**
 5. [FG-AI4SSC input FGAI4SSC-I-097](../../submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/README.md): controlled submitted PDF/DOCX and receipt status. **Status: public standards provenance.** Posting records an input, not adoption.
@@ -77,7 +77,7 @@ A proposed profile is compatible only if it can add structure without redefining
 
 MSCA owns **control sufficiency**, not epistemic truth, regime detection, participation legitimacy or authority creation.
 
-- [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md): multi-resolution semantic/dependency map of peer and nested MSCAs; the bounded ecosystem-structure input used by EA/RA around the focal MSCA.
+- [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md): multi-resolution Ecosystem Cartography of peer and nested MSCAs; the bounded ecosystem-structure input used by EA/RA around the focal MSCA.
 - [Ecosystem Positioning — Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md): cross-cutting law that projects qualified ecosystem change onto the participant's focal MSCA and ranks candidate repositioning by objective-conditioned risk reduction.
 - [Ecosystem Awareness corpus](../../research/ecosystem-awareness/baseline/README.md): decision-scoped epistemic qualification and requalification.
 - [Regime Awareness / Minimalistic EWS corpus](../../research/regime-awareness/minimalistic-early-warning-systems/README.md): observable-regime evidence, regime departure and bounded response-safety questions.
@@ -110,7 +110,7 @@ No layer substitutes for another.
 | Objective-conditioned agentic gradient | **DEFINED in Ecosystem Positioning canonical working law; Control Positioning/transition lifecycle still pending** |
 | MSCA Ecosystem Composition & Control | **CURRENT — [v0.1](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md)** |
 | Semantic-matrix + dependency-map multi-resolution composition | **DEFINED in Composition & Control v0.1** |
-| Composition update inputs/triggers/outputs (`Π_EA,i`, `ReceivedSignals_i`, `ECM_i/Δ_ECM,i`, RA feedback) | **DEFINED in Composition & Control v0.1** |
+| Composition update inputs/triggers/outputs (`Π_EA,i`, `ReceivedSignals_i`, `Cart_i/Δ_Cart,i`, RA feedback) | **DEFINED in Composition & Control v0.1** |
 | Peer-MSCAs vs legitimate higher-order composite MSCA | **DEFINED in Composition & Control v0.1** |
 | Canonical MSCA Operation / Repositioning specification | **PENDING** |
 | MSCA Architectural Role | **CURRENT — [v0.1](./02_MSCA_ARCHITECTURAL_ROLE.md)** |
