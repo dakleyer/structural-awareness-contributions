@@ -44,7 +44,7 @@ flowchart LR
     M[MSCA Ecosystem Composition & Control<br/>Cart_i / Δ_Cart,i]
     R[Regime Awareness<br/>Δ_RA + regime overlay]
     G[Agentic Gradient / posture interpretation]
-    P[Future Repositioning<br/>not yet specified]
+    P[MSCA Operation / Repositioning<br/>drift control + re-contracting]
     H[Authority / execution / effects]
 
     A --> E
@@ -67,7 +67,7 @@ The component contract is:
 - [01J](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) supplies receiver-qualified external messages as `ReceivedSignals_i`;
 - [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) maintains the participant-local qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` and its cartographic change-set `Δ_Cart,i`;
 - [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) consumes those inputs plus focal MSCA/Role/decision context and returns `Δ_RA`, a regime-qualified overlay and bounded requalification requests;
-- the [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) interprets that delta relative to the focal participant; the actual repositioning mechanism remains pending.
+- the [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) ranks candidate transitions; [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) first checks already-effective role drift, then applies ACC/lineage/authority gates and produces HOLD/RESTORE/CONTAIN/REBIND/RECONTRACT/MIGRATE/ISOLATE/ESCALATE outcomes.
 
 **MSCA is cross-cutting:** control sufficiency is re-assessed when the frame, Objective Envelope, dependency map or authority changes. It does not create authority and it does not own the Semantic Window.
 
@@ -125,7 +125,7 @@ Owns control sufficiency:
 |---|---|
 | **Regime Awareness** | Emit a qualified ecosystem/regime delta — direction + confidence/intensity + capability frontier + residual — without deciding the participant's final posture. |
 | **Ecosystem Awareness** | Qualify what can be relied on, what remains unresolved and what needs requalification. |
-| **Ecosystem Positioning** | Maintain the participant-local situated view and translate qualified ecosystem change into an objective-conditioned local gradient and repositioning pressure. |
+| **Ecosystem Positioning** | Maintain the participant-local situated view, derive the objective-conditioned agentic gradient, and hand candidate transitions to MSCA Operation/Repositioning for drift control and legitimate re-contracting. |
 | **MSCA** | Determine whether control capacity is sufficient under the current Objective Envelope and authority. |
 | **Human / institutional governance** | Own legitimate authority, policy, objectives and final decision rights. |
 | **EHD / epistemic signalling** | Carry bounded qualified state across boundaries without turning a signal into a command. See [01J Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). |
