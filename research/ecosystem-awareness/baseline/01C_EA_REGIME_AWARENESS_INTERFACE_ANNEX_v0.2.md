@@ -294,7 +294,7 @@ Posture_i ∈ {
 The intended reading is:
 
 - **NORMAL:** Δ_RA may be non-zero and directional. The participant can still rely sufficiently on the current regime/response mapping for its Objective Envelope. Normal therefore means **qualified continuation under change**, not “no change”.
-- **CONTAINMENT:** confidence/support for the current regime mapping has fallen, or objective-conditioned risk has crossed a participant-defined threshold, but a known bounded response remains qualified. The participant may reduce autonomy, scope, exposure or actuation while preserving/requalifying the current or nearby frame.
+- **CONTAINMENT:** confidence/support for the current regime mapping has fallen, or objective-conditioned risk has crossed a participant-defined threshold, but a known bounded response remains qualified. Operation/Repositioning may classify/request this posture; any reduction of autonomy, scope, exposure or actuation is decided/executed by the appropriate authorized control function.
 - **MIGRATION / REGIME TRANSITION:** the current historical/response mapping can no longer be relied on sufficiently for the mission. The participant must stop treating the old regime history as an adequate forecast/control basis and qualify another frame while preserving invariant controls where available.
 
 The transition is intentionally **nonlinear**. A small additional fall in B_RA may cross a local threshold and trigger a discrete posture change. Thresholds may be encoded in the ACC, control policy or another legitimate owner profile and SHOULD use hysteresis or an equivalent evidence-change rule to avoid oscillation.
