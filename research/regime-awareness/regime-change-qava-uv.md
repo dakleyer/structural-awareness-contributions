@@ -49,7 +49,7 @@ The current line separates six objects that are often collapsed into one “chan
 2. **Contextual boundary** — the rule that determines which historical observations are relevant to the present comparison.
 3. **Candidate invariant or structural descriptor** — a quantity intended to remain sufficiently stable inside a regime and to respond when its structure changes.
 4. **Departure signal** — evidence that current observations are no longer compatible with the selected regime representation.
-5. **Directional posture** — an interpretable indication of the kind or direction of departure, without claiming a full causal model.
+5. **Directional detector output / signal** — the source paper's “directional posture”: an interpretable indication of the kind or direction of departure, without claiming a full causal model. It is not the participant's P1/P2/P3 operating posture.
 6. **Authorized response envelope** — the set of bounded actions, abstentions or escalation steps that the available evidence can support.
 
 This separation matters. A method can detect a distributional shift without knowing whether it is harmful; it can identify fragility without knowing the cause; and it can generate an accurate alarm whose prescribed intervention still produces more harm than inaction.
