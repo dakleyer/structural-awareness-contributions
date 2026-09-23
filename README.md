@@ -1,5 +1,10 @@
 # Structural Awareness Programme
 
+[![Licence: CC BY-SA 4.0](https://img.shields.io/badge/licence-CC%20BY--SA%204.0-lightgrey)](./LICENSE.md)
+[![Status: working proposal](https://img.shields.io/badge/status-working%20proposal-blue)](./governance/CLAIM_BOUNDARIES.md)
+[![Validation: comparative execution pending](https://img.shields.io/badge/validation-comparative%20execution%20pending-orange)](./research/ecosystem-awareness/README.md#benchmark--what-is-being-compared)
+[![Cite: CITATION.cff](https://img.shields.io/badge/cite-CITATION.cff-green)](./CITATION.cff)
+
 > **You are here:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → **Structural Awareness Programme**
 
 Structural Awareness is the umbrella programme. It connects four different kinds of work that answer four different questions about the same problem: **how do we understand enough of a complex system to act without destroying what actually makes it work?**
