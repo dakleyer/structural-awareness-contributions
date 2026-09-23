@@ -18,7 +18,7 @@ The public minimal detector and the broader current Regime Awareness architectur
 
 The **public minimal detector** establishes only the bounded representation/context/detection/action contracts supported by the published source.
 
-The **broader Regime Awareness working architecture** may additionally project its result into the same [four-component qualified position](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position) used by EA and MSCA and may expose a directional confidence-bearing delta/gradient. This v0.2 interface records that architectural projection as a current programme integration; it does not retroactively attribute the full projection or gradient semantics to the public minimal-detector paper.
+The **broader Regime Awareness working architecture** may additionally project its result into the same [four-component qualified position](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position) used by EA and MSCA and may expose a qualified directional **delta**. In Regime Awareness this object is called a delta, not a gradient. This v0.2 interface records that architectural projection as a current programme integration; it does not retroactively attribute the full projection or gradient semantics to the public minimal-detector paper.
 
 This distinction allows the public detector to remain minimal while the surrounding architecture uses a richer, interoperable output.
 
@@ -32,20 +32,29 @@ A single scalar series is the severe minimum observation setting, not a requirem
 
 The maximal defensible detector claim is present-tense: **the selected observable invariant remains compatible with, or departs directionally from, its contextually defined recent baseline above the declared threshold and within the admitted scope**. It is not identification of the unique hidden cause, the exact tipping instant, the future path/magnitude, or all changes in the ecosystem. Hidden transitions invisible under Ψ remain invisible to this detector. A neutral P_t is not proof that EA's wider operating frame is valid.
 
-For the broader RA architecture, that bounded result can be projected as a qualified position:
+For the broader RA architecture, that bounded result can be projected as a qualified **regime delta**:
 
 ~~~text
-Π_RA(d,t) = [ A_RA, B_RA, C_RA, D_RA ]
+Δ_RA(d,t) = [ A_RA, B_RA, C_RA, D_RA ]
 ~~~
 
-where:
+with scope/provenance/context carried as qualifiers of the delta rather than confused with its direction:
 
-- **A_RA** binds the observable/regime scope: what is being observed, from where/under which representation Ψ, for which decision/change family Δ and with which calibration, baseline, provenance and freshness;
-- **B_RA** carries directional confidence / gradient strength: the direction of present regime movement or posture pressure together with the confidence/bounds supporting that direction;
-- **C_RA** identifies recognized regime-relevant information that could still be established using currently available observation, acquisition, computation or review capability but has not yet been established;
-- **D_RA** preserves regime-relevant residual outside the current representation/capability boundary, including invisible changes and unresolved compatibility/context residual.
+- **A_RA — direction:** the qualified direction of observed regime movement/change under the declared Ψ, context, baseline, change family Δ and sign semantics. A_RA is not a generic YES/NO state and does not by itself say whether the change is good or bad for a particular agent.
+- **B_RA — confidence / intensity:** the confidence, interval or bounded support attached to A_RA. B_RA determines how strongly the current evidence supports that direction. In the architectural shorthand used here, this is the **intensity of the delta**, not a second direction and not an agentic gradient.
+- **C_RA — current-capability frontier:** recognized regime-relevant evidence/context that could still be acquired, tested or recomputed with currently available observation, computation or review capability before the useful deadline, but has not yet been established.
+- **D_RA — residual:** regime-relevant state outside the current represented/recognized-obtainable capability boundary, including invisible changes, non-identifiable context and unresolved compatibility residual.
 
-A useful architectural reading of the gradient is therefore **direction + qualified confidence**, not a requirement for a differentiable mathematical derivative. Strong directional confidence creates a stronger local change pressure in that declared direction; weak or unresolved confidence produces a weaker/qualified pressure.
+The delta therefore says, in bounded form:
+
+~~~text
+where the observable regime appears to be moving
++ how strongly that direction is supported
++ what else could still be established now
++ what remains outside current determination capability
+~~~
+
+Regime Awareness does **not** turn this into an agent-specific action gradient. That translation occurs only after the delta is projected through the receiving participant's MSCA/objective dependencies.
 
 The [paper §2.7](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/) separates three contracts, each of which must be qualified independently:
 
@@ -139,30 +148,78 @@ These are **proposed, transport-neutral semantic fields** for engineering and fa
 
 **Payload validity rule:** I-RA-03 carries a qualification state as well as any directional posture. P_t = 0 is emitted only for a qualified, fresh representation/context/baseline/threshold within the declared Δ/τ/ℓ; if representation, context, detection or baseline is unsupported, unresolved or expired, P_t is absent or explicitly UNKNOWN, never neutral. A prior qualified posture expires when its source contract is invalidated. This interface refinement and its no-context/stale-baseline tests are specified in the [joint operation-composition profile 01D](./01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md); they are **proposed payload semantics**, not extra outputs claimed by the RA paper.
 
-### I-RA-03A: qualified regime position / delta projection (broader RA → EA/MSCA positioning)
+### I-RA-03A: qualified regime delta projection (broader RA → EA/MSCA positioning)
 
-The broader RA integration may normalize I-RA-02/I-RA-03 into a compact qualified delta:
+The broader RA integration may normalize I-RA-02/I-RA-03 into the compact delta defined above:
 
 | Component | RA projection |
 |---|---|
-| **A_RA — situated regime scope** | decision/domain, Ψ/context/baseline/version, location/subject/frame and the observable claim being made |
-| **B_RA — direction + confidence** | current qualified direction/posture pressure plus confidence/interval/bounds; this is the local regime gradient strength |
+| **A_RA — direction** | qualified direction of regime movement/change under the declared observation/context/sign semantics |
+| **B_RA — confidence / intensity** | confidence, interval or bounded support attached to A_RA; stronger support means a stronger delta in that direction |
 | **C_RA — current-capability frontier** | additional observable/context/evidence state that could still be acquired or tested with current available capability before the useful deadline |
 | **D_RA — residual** | invisible, structurally unavailable, unenumerated or otherwise non-establishable regime-relevant state under the current capability/representation |
 
-The projection may additionally carry a **regime-local posture candidate** using the shared Normal / Containment / Migration-Regime Transition vocabulary where the broader RA implementation supports that mapping. EA still qualifies the mission-level posture after composition with other dependencies; RA does not become a global posture authority.
+Decision/domain, Ψ/context/baseline/version, location/subject/frame, provenance, freshness and validity remain mandatory **qualifiers of Δ_RA**; they are not collapsed into A_RA.
+
+RA does **not** emit the final Normal / Containment / Migration-Regime Transition posture for the participant. Those are downstream EA/Positioning interpretations of Δ_RA under the participant's own MSCA risk, ACC, authority, capacity and response horizon.
 
 Conceptually:
 
 ~~~text
 RA observation/context
-→ qualified departure / continuity evidence
-→ Π_RA + Δ_RA
-→ EA mission-level composition
-→ MSCA projection / gradient alignment
+→ qualified direction A_RA
+→ confidence/intensity B_RA
+→ capability/residual C_RA/D_RA
+→ Δ_RA
+→ EA / participant-local projection
+→ nonlinear posture + agentic gradient
+→ MSCA/ACC/authority-constrained repositioning
 ~~~
 
 The current [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md#32-mechanical-alignment-with-a-regime-awareness-delta) defines how Δ_RA can be projected onto S/E/C/P/M and compared with the participant's qualified MSCA position. The [Objective-Conditioned Agentic Gradient Law](../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) then defines the participant-local gradient as the expected reduction in objective-conditioned MSCA risk for a candidate repositioning, before ACC/authority execution filtering.
+
+
+### I-RA-03B: downstream posture interpretation — nonlinear by design
+
+The three top-level postures are **not three RA detector outputs** and are not a linear rescaling of B_RA.
+
+For participant i, EA/Positioning applies a participant-local posture operator:
+
+~~~text
+Posture_i(t)
+=
+Γ_i(
+  Δ_RA,
+  projected MSCA risk,
+  current MSCA support,
+  ACC constraints,
+  authority/capacity,
+  response horizon,
+  thresholds + hysteresis
+)
+~~~
+
+with:
+
+~~~text
+Posture_i ∈ {
+  NORMAL,
+  CONTAINMENT,
+  MIGRATION / REGIME_TRANSITION
+}
+~~~
+
+The intended reading is:
+
+- **NORMAL:** Δ_RA may be non-zero and directional. The participant can still rely sufficiently on the current regime/response mapping for its Objective Envelope. Normal therefore means **qualified continuation under change**, not “no change”.
+- **CONTAINMENT:** confidence/support for the current regime mapping has fallen, or objective-conditioned risk has crossed a participant-defined threshold, but a known bounded response remains qualified. The participant may reduce autonomy, scope, exposure or actuation while preserving/requalifying the current or nearby frame.
+- **MIGRATION / REGIME TRANSITION:** the current historical/response mapping can no longer be relied on sufficiently for the mission. The participant must stop treating the old regime history as an adequate forecast/control basis and qualify another frame while preserving invariant controls where available.
+
+The transition is intentionally **nonlinear**. A small additional fall in B_RA may cross a local threshold and trigger a discrete posture change. Thresholds may be encoded in the ACC, control policy or another legitimate owner profile and SHOULD use hysteresis or an equivalent evidence-change rule to avoid oscillation.
+
+Illustrative confidence values such as 0.5→0.4 for containment or <0.1 for migration are examples only. This architecture does not prescribe universal numeric thresholds.
+
+Loss of sufficient regime qualification may correspond to the existing **potential critical bifurcation** condition: the previous response mapping is no longer sufficiently qualified while several future response paths may remain locally plausible. That term is operational, not a claim that every transition is a mathematical bifurcation.
 
 ### I-RA-04: action-safety declaration and response trace (owner/RA governor/control → EA F6/F9)
 
@@ -183,7 +240,7 @@ Payload: affected decision/domain/dependency; invalidated Ψ, context T*/m, I, B
 
 1. **Declare the decision before the series:** owner sets objective and constraints, Δ, admissible action/state/utility scope and deadline. EA F1 identifies the material domain, consequences, capacity and response margin; F2 qualifies W and available acquisition paths. RA cannot choose the legitimate objective.
 2. **Qualify representation and context:** RA tests whether Ψ preserves the needed change distinctions, whether a sufficient H_t(m) exists and is effectively identifiable, and whether acquisition/processing fits the deadline. If not, it reports the specific failure, not a fabricated neutral posture.
-3. **Detect present compatibility:** with admitted context, RA computes I, B, deviation and directional P_t above declared thresholds. The report keeps source, context, scope, delay and invisible-change qualifiers. Approximate instability is admissible; exact tipping prediction is not. Where the broader RA profile is available, it also produces Π_RA/Δ_RA so that direction and confidence can be consumed directly by EA/MSCA positioning without inventing a second gradient calculation.
+3. **Detect present compatibility:** with admitted context, RA computes I, B, deviation and directional P_t above declared thresholds. The report keeps source, context, scope, delay and invisible-change qualifiers. Approximate instability is admissible; exact tipping prediction is not. Where the broader RA profile is available, it also produces Δ_RA so that direction A_RA and confidence/intensity B_RA can be consumed directly by EA/MSCA positioning without calling the RA output a gradient.
 4. **Compose ecosystem evidence:** EA F3/F4 qualifies the RA report; F5 checks lineage and coupling with other domains; F6 assesses whether Q still supports **this mission** under the remaining response capacity. RA departure may be immaterial to this mission, and RA neutral may coexist with a changed dependency that EA found elsewhere.
 5. **Request or perform response through legitimate authority:** EA F7 selects a targeted evidence/window/control-review request. The RA Safety Governor may propose an A(P_t) only within its declared safety/action library; owner/authority/control functions permit and execute it if feasible. No RA or EA signal by itself authorizes a command.
 6. **Close evidence, not just alarms:** execution receipt, independently observed effect, intervention cost and unchanged/changed assumptions feed EA F9 and RA evaluation. Material mismatch re-enters the affected representation, window, action or frame qualification; it does not silently widen S or assume that the historical baseline is still current.
