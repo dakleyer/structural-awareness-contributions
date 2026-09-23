@@ -403,6 +403,24 @@ The correct granularity is the smallest role decomposition needed to preserve ma
 
 Role decomposition must not be used to hide shared dependencies or manufacture independent corroboration.
 
+### 13.1 Role output into the ecosystem-awareness circuit
+
+The Architectural Role supplies the focal structural binding used by the cycle:
+
+- MSCA instance / Objective Envelope;
+- participant identity/subject;
+- role purpose;
+- inputs/outputs;
+- material upstream/downstream dependencies;
+- relevant C/P/M projection;
+- role-bound ACC;
+- authority/delegation references;
+- validity/capacity constraints.
+
+These fields allow [Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) and [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) to interpret a change relative to **what this participant actually does** rather than relative to the whole MSCA indiscriminately.
+
+The role object remains static. Supplying it as context does not itself change the role.
+
 ## 14. What this document does not define
 
 This document does not define:
