@@ -2069,3 +2069,11 @@ This document is additive. It does **not** move, delete, renumber or edit any fr
 The 8 September 2026 comment also contains links to public discussions across Themes #6, #10, #13, #16, #18, #19 and #21, a call for foundational use cases, and an explicit reservation of consolidated inputs/outputs and high-level interfaces for later discussion. Those **discussion-history and work-programme statements remain in the comment itself**; this general foundation neither erases them nor turns them into an adopted FG-TIDA architecture. Later architecture/interface work must cite the specific public artifacts and retain the general-versus-Theme-specific boundary.
 
 **Source integrity rule:** the controlled Google Drive freeze/maintenance manifests remain the exact internal anchors for the six v0.4 release-baseline documents. This note is a newly authored public working companion; it has no controlled-freeze status or Drive revision anchor until separately reconciled. The public mirror's completeness status in `CANONICAL_CORPUS_MANIFEST.md` is unchanged by this addition.
+
+## Editorial continuity note — later corpus development (23 September 2026)
+
+This integrated foundation is the current reader successor for the foundational argument and conserves the earlier v0.4 derivation plus the 01A development. It is **not a rolling container for every later architectural object**.
+
+Material developed after this foundation includes, among other things, the current EA↔MSCA and EA↔Regime Awareness interfaces, participant-local positioning (01H), Agentic Citizenship (01I), current ecosystem signalling/choreography (01J), the canonical requirements/scenario/benchmark programme, the Objective-Conditioned Agentic Gradient Law, Ecosystem Cartography and Canonical MSCA Operation & Repositioning. Those later artefacts should be read as cumulative architecture and testing work; they are not silently retrofitted into the foundational source.
+
+If a future foundation edition incorporates those developments, it should be published as an explicitly versioned successor. The controlled v0.4 parts and this v0.5 working successor remain preserved for lineage.

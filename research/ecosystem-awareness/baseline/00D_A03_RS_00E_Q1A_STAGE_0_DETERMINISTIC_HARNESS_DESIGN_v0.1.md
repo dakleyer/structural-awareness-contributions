@@ -276,3 +276,9 @@ Two executions of the same frozen bundle and configuration must produce byte-ide
 This design leaves out B0/B2, stochastic repetition, real producers, human-capacity Q2, bounded-requalification Q4, 00F and the common-dependency cascade fixture. Modelled burden is deliberately non-discriminating in this small family. It does not validate EA or justify a Stage-1 claim.
 
 Its sole purpose is to make one public, reproducible Stage-0 execution possible. Once its pre-registration and first trace exist, the corpus will contain evidence of an executed measurement path rather than only evidence-design documentation.
+
+## Editorial continuity note — one harness family only
+
+This document designs **one Stage-0 fixture family: RS-00E-Q1a**. It is evidence that a bounded deterministic harness architecture has been specified for that family, not that the complete EA testbed has been implemented.
+
+The broader programme still includes other planned 00E branches, 00F composition fixtures, EA-ITP-01, validation workbooks and later architecture-specific tests. A future shared harness may reuse this canonical-trace discipline, but such reuse must be declared explicitly; it cannot convert Q1a coverage into coverage of unrelated scenarios or requirements.

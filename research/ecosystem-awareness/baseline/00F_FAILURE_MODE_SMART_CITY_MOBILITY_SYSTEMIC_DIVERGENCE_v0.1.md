@@ -208,3 +208,11 @@ This document defines the technology-neutral case and quality plan. Product anne
 Neither annex may change the event, actors, deadlines, resources or outcome vector to favour a product or EA.
 
 **Status:** public working reference failure scenario and proposed test plan; not a real incident report, deployed city design, safety case, product comparison, adopted standard or validated proof of EA effectiveness.
+
+## Editorial continuity note — bounded mobility scenario, not the whole mobility architecture
+
+00F is the bounded Smart-City Mobility Divergence reference scenario and Quality-Gate Plan. Emergency Plan A / Emergency Plan B / NORMAL / HOLD, the shared-corridor conflict and Q0–Q5 route remain the controlling facts and test logic for this scenario.
+
+It does **not** define the complete Mobility Operating System, DAOS case family, all possible urban regime changes or every later Ecosystem Positioning / MSCA repositioning behaviour. DAOS remains an independent extensible source case; later 00G, ACC, signalling, gradient and role-repositioning work are cumulative additions rather than silent amendments to 00F.
+
+The two maintained 00F implementation profiles are FIWARE NGSI-LD / Orion-LD and AWS IoT TwinMaker / IoT Core. No Microsoft Agent 365 mobility profile is implied by the 00E Microsoft profile.

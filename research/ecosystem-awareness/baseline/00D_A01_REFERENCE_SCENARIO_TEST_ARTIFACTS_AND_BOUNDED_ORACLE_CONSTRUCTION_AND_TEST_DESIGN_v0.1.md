@@ -227,3 +227,9 @@ These are findings, not reasons to silently widen the scope or lower the test co
 ## 9. Summary of the architectural boundary
 
 The design needs neither an absolute oracle nor a claim that every residual is unknowable. It uses a deterministic, bounded reference oracle wherever the fixture makes a relevant distinction decidable; it explicitly preserves a possible residual where the declared test frame does not. A qualified regime-change detector is a useful but limited input, not the oracle and not a substitute for EA’s stronger T1/T4 obligations. The resulting programme is sufficient to produce a traceable evidence design now; it is not yet evidence that EA is necessary, sufficient or superior.
+
+## Editorial continuity note — selected fixture programme
+
+This annex is a construction and test-design layer for **selected** 00E/00F branches. Its traceability matrix, bounded oracle, negative controls and Stage 0–2 progression are not an exhaustive testbed for every S1–S14 requirement, every validation profile, every scenario or every later Ecosystem Positioning component.
+
+Coverage gaps remain visible in the Use-Case Portfolio Requirements Coverage Map and in later pre-registration records. 00G, ACC/admissibility, agentic-gradient and full repositioning/choreography tests require their own admitted fixtures or a versioned extension of this programme; they are not silently covered by the existing matrix.

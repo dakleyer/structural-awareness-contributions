@@ -327,3 +327,11 @@ The benchmark is already useful to adopters and implementation partners because 
 This integration conserves the comparator arms, benchmark families, industry-layer boundaries, required branches, negative-result taxonomy and claim limits from 00D v0.1, and EA-H1–EA-H4 with their effects and decisive falsifiers from 07. It adds evidence grading, two new regime/dependency branches, direct corroboration tables for 00E/00F, one common execution protocol and canonical terminology.
 
 The predecessor files remain readable to verify conservation but are not alternative current benchmarks. The v0.4 controlled benchmark and its split/public-freeze records remain historical sources and are not modified by this working successor.
+
+## Editorial continuity note — benchmark scope after later architecture work
+
+This v0.2 benchmark remains the canonical matched-comparator route for the **EA differential EA-H1–EA-H4** using B0–B3 and the declared 00E/00F evidence programme.
+
+Subsequent architecture work on 00G, the Objective-Conditioned Agentic Gradient, Canonical MSCA Operation/Repositioning, Agentic Citizenship and signalling/choreography has not automatically acquired B0–B3 matched-comparator evidence merely because it is now connected to Ecosystem Positioning. Those layers have architectural, conformance or falsification conditions of their own and require explicitly designed comparator execution before any comparable empirical claim is made.
+
+A future benchmark revision may extend the comparator programme. Until then, this document should be cited for the scope it actually tests rather than as a benchmark of the entire later positioning architecture.

@@ -448,3 +448,11 @@ This case demonstrates a falsifiable mechanism, not a universal verdict on multi
 - Route Q is a candidate requirements-conforming configuration to be tested, not a deployed EA product or proof of superiority.
 
 The practical question is therefore exact: **under matched facts and resources, does the candidate preserve enough decision-relevant qualification across Q1–Q4 to reduce hidden residual, false closure, unbounded HOLD and late reaction before the enterprise response window closes?** The S→T→H→KPI record makes that question answerable without confusing computation volume with epistemic quality.
+
+## Editorial continuity note — bounded scenario, not an exhaustive failure catalogue
+
+00E is a deliberately bounded enterprise reference failure scenario and Quality-Gate Plan. Its five-stage story, FM-I2/FM-I1/FM-O2/FM-O1 analysis and Q0–Q5 route remain the controlling 00E fixture narrative.
+
+The scenario does **not** claim to enumerate every failure mode now represented elsewhere in the corpus. Later work on collective false-context convergence (00G), participant-local positioning, ACC/admissibility, ecosystem signalling/choreography, objective-conditioned repositioning and effective-role drift adds distinct failure/test surfaces. Those later developments do not retroactively change the frozen 00E facts or the meaning of an earlier 00E test run.
+
+The two maintained 00E product profiles are Microsoft Agent 365 and LangGraph/LangSmith. They are scenario-specific design analyses, not generic conclusions about those products across every Structural Awareness use case.

@@ -211,3 +211,11 @@ The four EA-specific differential propositions are: scoped non-fungible determin
 This document integrates the complete DAOS challenge taxonomy, the EWS-derived sufficiently-good requirements, the EA foundation’s H1–H6 and the previously defined operational KPI protocol. The source materials remain unchanged as preserved non-canonical working inputs. The separate [canonical architecture benchmark and reference-scenario evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) applies these requirements to strong-peer comparison and empirical corroboration; it does not redefine them.
 
 No statement here implies that Ω is closed or exhaustively enumerable, that `R_U = Ω − U`, that UNKNOWN means independence, that more agents necessarily improve determination, or that EA replaces authority, identity, governance, human oversight, control execution, observability, provenance or incident management.
+
+## Editorial continuity note — requirements are versioned, not exhaustive
+
+The current canonical requirements route is **S1–S14 → T1–T4 → H1–H6 → KPI/falsification**. It is the controlling requirements basis for tests and fixtures that cite this document/version; it is not a claim that fourteen challenges, four sufficiency conditions or six hypotheses exhaust every future Structural Awareness / Ecosystem Positioning requirement.
+
+Later developments — including 00G false-context convergence, participant-local positioning, ACC/admissibility, selective signalling/choreography, the objective-conditioned gradient, Ecosystem Cartography, effective-role drift and MSCA Operation/Repositioning — may expose additional challenge surfaces, conditions, measures or cross-component conformance needs. They do **not** silently add requirements to this document.
+
+Any such extension must be introduced through an explicit, version-controlled requirements change with traceability to the affected S/T/H/KPI routes. Existing pre-registrations and tests remain interpretable against the version they actually cite.
