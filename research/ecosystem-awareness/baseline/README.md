@@ -54,6 +54,8 @@ The programme-level Field Notes remain important because they explain different 
 
 The root [Structural Awareness README](../../../README.md) remains the programme-level explanation of these series and their relationship to Field Practice and Architectural Contributions.
 
+**Visual navigation:** [Structural / Ecosystem Awareness Visual Guide](../VISUAL_GUIDE.md) — use this for the one-page cumulative map, requirements→test route, scenario/profile matrix, validation/case map and FG-TIDA application layering. It is a navigation aid; this README and the linked source documents remain the status/semantic authorities.
+
 **Status key.** **Controlled/frozen** means a preserved release source. **Integrated working successor** means a current research integration that does not silently replace the freeze. **Additive annex** means a non-canonical research/interface extension. **Application package** means a programme-specific projection that cannot redefine the general EA semantics.
 
 ### Status legend
