@@ -4,6 +4,17 @@ Regime Awareness asks whether the evidence and historical context behind a curre
 
 This folder keeps the programme, EWS anchor and quantitative review route distinct. The previously published [programme context](./PROGRAMME_CONTEXT.md) remains intact as a separate explanatory source; this page is the short navigation entry point.
 
+## Research-series lineage
+
+The short router below sits inside the broader [Structural Awareness programme](../../README.md). The principal conceptual routes feeding this line are:
+
+- [Regime Awareness in Adaptive Systems](https://tegrity.ai/series/regime-awareness-in-adaptive-systems/) — the direct theoretical/field series for continued operating validity;
+- [The Cost of Clarity](https://tegrity.ai/series/cost_of_clarity/) — the upstream question of what was sufficiently established before commitment;
+- [Human Intelligence Debt](https://tegrity.ai/series/human-intelligence-gap/) — the finite human-capacity problem behind escalation and review;
+- [Informational Friction](https://tegrity.ai/series/informational_friction/) — the map/flow mismatch that makes stale-but-locally-correct operation possible.
+
+[PROGRAMME_CONTEXT.md](./PROGRAMME_CONTEXT.md) retains the fuller explanation, including Attribution Gap, xSeil and Phylons. These are conceptual and engineering lineage, not validation of the detector or broader RA architecture.
+
 ## Read in order
 
 1. [Programme context](./PROGRAMME_CONTEXT.md): structural-awareness relation, regime-aware assessment, agentic-trust interfaces, research questions and public-status limits.
