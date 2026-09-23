@@ -29,6 +29,10 @@ The corpus is consolidated around three canonical documents. Existing artefacts 
 3. **MSCA Control Positioning — PENDING.**  
    This will define how a participant represents its current control-sufficiency position relative to the supported configuration region, alternative configurations, control gaps, transition possibilities, burden, switching cost, authority constraints and response horizon. It is distinct from Ecosystem Awareness epistemic positioning.
 
+### Canonical extension profiles
+
+- [**ACC Lineage, Identity & Authority Binding Profile**](./01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md) — **CURRENT, v0.1 (23 September 2026).** Defines the minimum ACC root/lineage, subject binding, issuer/approval authority, validity/status, mutation envelope, successor continuity and loading boundary needed to use ACC as a normative MSCA extension. It is a canonical extension profile, **not** another MSCA kernel document and not a universal IAM protocol.
+
 The Architecture document is now the canonical semantic reference. Source papers, interface annexes and cases below remain authoritative only for the portions and provenance they actually own.
 
 ## Canonical and source reading route
@@ -71,6 +75,7 @@ MSCA owns **control sufficiency**, not epistemic truth, regime detection, partic
 - [EA ↔ MSCA interface annex 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md): current candidate EA/MSCA boundary; v0.1 remains preserved in the EA corpus for provenance.
 - [Joint EA/MSCA/RA operation annex 01D](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md): candidate same-operation composition.
 - [Agentic Citizenship Contract 01I](../../research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md): separately owned participation/governance semantics that couple to MSCA through the canonical normative-extension mechanism; ACC is not an MSCA subset.
+- [ACC Lineage, Identity & Authority Binding Profile](./01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md): canonical extension profile for lineage/root, identity binding, issuer/approval authority, mutation limits, validity/status and successor continuity.
 - [Ecosystem Signalling 01J](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md): bounded qualified signalling and compatibility mapping. **Status: working signalling extension; its architectural boundary with MSCA is defined in the Canonical MSCA Architecture, while runtime operation remains pending.**
 
 The intended boundary is:
@@ -93,7 +98,8 @@ No layer substitutes for another.
 | Generic MSCA architecture specification | **CURRENT — [Canonical MSCA Architecture v0.1](./00_CANONICAL_MSCA_ARCHITECTURE.md)** |
 | Canonical MSCA operating specification | **PENDING** |
 | MSCA Control Positioning specification | **PENDING** |
-| ACC normative-extension coupling / Ecosystem Signalling compatibility boundary | **ARCHITECTURALLY DEFINED; operational specification still pending** |
+| ACC normative-extension coupling / Ecosystem Signalling compatibility boundary | **ARCHITECTURALLY DEFINED; runtime operation still pending** |
+| ACC lineage / identity / authority / mutation binding | **DEFINED in canonical extension profile v0.1** |
 | Completed comparative validation / production certification | **NOT ESTABLISHED** |
 
 ## Maintenance rule
