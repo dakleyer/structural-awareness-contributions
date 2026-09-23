@@ -18,16 +18,21 @@ Assessment state is separate from representation. Current working semantics dist
 
 ## Canonical MSCA document set
 
-The corpus is consolidated around three canonical documents. Existing artefacts are linked; pending documents remain deliberately unlinked so that this README never routes to a non-existent file.
+The static MSCA corpus is consolidated around three canonical documents:
 
 1. [**Canonical MSCA Architecture**](./00_CANONICAL_MSCA_ARCHITECTURE.md) — **CURRENT, v0.1 (23 September 2026).**  
-   Authoritative generic architecture for the S/E/C/P/M kernel, representation versus sufficiency assessment, authority/evidence boundaries, multi-optima and burden, canonical invariants, downward/upward/horizontal/**normative-contractual** extensibility, shared A/B/C/D qualified-position semantics, and the qualified MSCA position / mechanical alignment with a Regime Awareness delta (A_RA direction, B_RA confidence/intensity, C_RA capability frontier, D_RA residual). It defines ACC coupling as a normative MSCA extension after compatibility/applicability qualification while preserving ACC's separate semantic ownership. Smart-city, DAOS and other domain material remain examples, profiles or provenance rather than definitions of the generic architecture.
+   Authoritative generic architecture for the S/E/C/P/M kernel, one-MSCA/one-Objective-Envelope coherence rule, representation versus sufficiency assessment, process/topology extensibility, authority/evidence boundaries, multi-optima and burden, shared A/B/C/D qualified-position semantics, and ACC/role boundaries.
 
-2. **Canonical MSCA Operation / Repositioning — PENDING.**  
-   This will define how an MSCA instance and its participant roles are operated and changed over time: declaration, representation, qualification, assessment, comparison, selection, authorization, execution, effect measurement, invalidation, role/configuration transition and requalification. Existing 01B/01D material provides part of this lineage but does not yet constitute the canonical operating specification.
+2. [**MSCA Ecosystem Composition & Control**](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) — **CURRENT, v0.1 (23 September 2026).**  
+   Defines the participant-local multi-resolution composition of multiple objective-bound MSCAs: semantic matrix, separate dependency matrix/graph, resolution levels from semantic anchors to deterministic local process models, peer versus higher-order composite MSCAs, composition-control rules and bounded structural input to Ecosystem Awareness and Regime Awareness.
 
 3. [**MSCA Architectural Role**](./02_MSCA_ARCHITECTURAL_ROLE.md) — **CURRENT, v0.1 (23 September 2026).**  
-   Defines the participant's static functional/contractual place inside one instantiated MSCA and one Objective Envelope: contribution, inputs/outputs, dependencies, C/P/M projection, role-bound ACC/lineage and authority references. It is deliberately **not** repositioning; role transition belongs to the pending Operation/Repositioning specification.
+   Defines the participant's static functional/contractual place inside one instantiated MSCA and one Objective Envelope: contribution, inputs/outputs, dependencies, C/P/M projection, role-bound ACC/lineage and authority references. It is deliberately **not** repositioning.
+
+### Pending dynamic specification
+
+**Canonical MSCA Operation / Repositioning — PENDING.**  
+This will define how an MSCA instance and its participant roles are operated and changed over time: declaration, representation, qualification, assessment, comparison, selection, authorization, execution, effect measurement, invalidation, role/configuration transition and requalification. Existing 01B/01D material and the current gradient/posture work provide part of this lineage but do not yet constitute the canonical runtime specification.
 
 ### Canonical extension profiles
 
@@ -40,13 +45,14 @@ The Architecture document is now the canonical semantic reference. Source papers
 Read the corpus in this order:
 
 1. [Canonical MSCA Architecture](./00_CANONICAL_MSCA_ARCHITECTURE.md): current generic kernel, Objective-Envelope coherence rule, process/topology boundary, invariants and extension contract. **Status: canonical public working architecture.**
-2. [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md): current participant-role model within one MSCA/Objective Envelope, including role-bound ACC and lineage. **Status: canonical public working specification.**
-3. [Architectural and standards working context](./ARCHITECTURE_AND_STANDARDS_CONTEXT.md): original working note for the Objective Envelope, coordination/mechanism/means/response dimensions, research questions and programme boundaries. **Status: working context / lineage; not the final canonical architecture.**
-4. [FG-AI4SSC input FGAI4SSC-I-097](../../submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/README.md): controlled submitted PDF/DOCX and receipt status. **Status: public standards provenance.** Posting records an input, not adoption.
-5. [Minimum Sufficient Control Architecture working paper](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/): current working architecture developed through the AI-enabled urban-systems / smart-city context, including illustrative component handoffs and staged assessment. **Status: source architecture and domain-oriented working paper; not the generic canonical MSCA specification.** Additional analysis must not be retroactively attributed to the submitted input.
-6. [EA research lineage article II — multi-optima](../../research/ecosystem-awareness/baseline/ARTICLE_02_MINIMUM_CONTROL_ARCHITECTURE_MULTI_OPTIMA.md): predecessor exploration of feasible sufficiency regions, plural local/Pareto alternatives, response capability and resource trade-offs. **Status: research lineage.** Its earlier notation is not the canonical S/E/C/P/M schema.
-7. [EA ↔ MSCA interface annex 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md): current candidate boundary covering S/E/C/P/M representation versus assessment, partial/UNASSESSED state, qualified signalling/compatibility inputs, ACC and authority separation, extensibility and targeted requalification. **Status: candidate interface annex; not the Canonical MSCA Architecture itself.**
-8. [Joint operation annex 01D](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md): same-operation binding across EA, MSCA and Regime Awareness, including scope/version/time compatibility, permit precedence, cost ownership and race tests. **Status: candidate composition profile.**
+2. [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md): current multi-MSCA semantic/dependency composition map and variable-resolution ecosystem-control representation. **Status: canonical public working specification.**
+3. [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md): current participant-role model within one focal MSCA/Objective Envelope, including role-bound ACC and lineage. **Status: canonical public working specification.**
+4. [Architectural and standards working context](./ARCHITECTURE_AND_STANDARDS_CONTEXT.md): original working note for the Objective Envelope, coordination/mechanism/means/response dimensions, research questions and programme boundaries. **Status: working context / lineage; not the final canonical architecture.**
+5. [FG-AI4SSC input FGAI4SSC-I-097](../../submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/README.md): controlled submitted PDF/DOCX and receipt status. **Status: public standards provenance.** Posting records an input, not adoption.
+6. [Minimum Sufficient Control Architecture working paper](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/): current working architecture developed through the AI-enabled urban-systems / smart-city context, including illustrative component handoffs and staged assessment. **Status: source architecture and domain-oriented working paper; not the generic canonical MSCA specification.** Additional analysis must not be retroactively attributed to the submitted input.
+7. [EA research lineage article II — multi-optima](../../research/ecosystem-awareness/baseline/ARTICLE_02_MINIMUM_CONTROL_ARCHITECTURE_MULTI_OPTIMA.md): predecessor exploration of feasible sufficiency regions, plural local/Pareto alternatives, response capability and resource trade-offs. **Status: research lineage.** Its earlier notation is not the canonical S/E/C/P/M schema.
+8. [EA ↔ MSCA interface annex 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md): current candidate boundary covering S/E/C/P/M representation versus assessment, partial/UNASSESSED state, qualified signalling/compatibility inputs, ACC and authority separation, extensibility and targeted requalification. **Status: candidate interface annex; not the Canonical MSCA Architecture itself.**
+9. [Joint operation annex 01D](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md): same-operation binding across EA, MSCA and Regime Awareness, including scope/version/time compatibility, permit precedence, cost ownership and race tests. **Status: candidate composition profile.**
 
 ## Extensibility and domain profiles
 
@@ -71,7 +77,8 @@ A proposed profile is compatible only if it can add structure without redefining
 
 MSCA owns **control sufficiency**, not epistemic truth, regime detection, participation legitimacy or authority creation.
 
-- [Ecosystem Positioning — Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md): cross-cutting law that projects qualified ecosystem change onto the participant's MSCA and ranks repositioning by objective-conditioned risk reduction.
+- [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md): multi-resolution semantic/dependency map of peer and nested MSCAs; the bounded ecosystem-structure input used by EA/RA around the focal MSCA.
+- [Ecosystem Positioning — Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md): cross-cutting law that projects qualified ecosystem change onto the participant's focal MSCA and ranks candidate repositioning by objective-conditioned risk reduction.
 - [Ecosystem Awareness corpus](../../research/ecosystem-awareness/baseline/README.md): decision-scoped epistemic qualification and requalification.
 - [Regime Awareness / Minimalistic EWS corpus](../../research/regime-awareness/minimalistic-early-warning-systems/README.md): observable-regime evidence, regime departure and bounded response-safety questions.
 - [EA ↔ MSCA interface annex 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md): current candidate EA/MSCA boundary; v0.1 remains preserved in the EA corpus for provenance.
@@ -101,6 +108,9 @@ No layer substitutes for another.
 | Generic MSCA architecture specification | **CURRENT — [Canonical MSCA Architecture v0.1](./00_CANONICAL_MSCA_ARCHITECTURE.md)** |
 | Qualified MSCA A/B/C/D position and RA delta alignment | **DEFINED architecturally** |
 | Objective-conditioned agentic gradient | **DEFINED in Ecosystem Positioning canonical working law; Control Positioning/transition lifecycle still pending** |
+| MSCA Ecosystem Composition & Control | **CURRENT — [v0.1](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md)** |
+| Semantic-matrix + dependency-map multi-resolution composition | **DEFINED in Composition & Control v0.1** |
+| Peer-MSCAs vs legitimate higher-order composite MSCA | **DEFINED in Composition & Control v0.1** |
 | Canonical MSCA Operation / Repositioning specification | **PENDING** |
 | MSCA Architectural Role | **CURRENT — [v0.1](./02_MSCA_ARCHITECTURAL_ROLE.md)** |
 | One-role / one-Objective-Envelope binding | **DEFINED in Architectural Role v0.1** |
