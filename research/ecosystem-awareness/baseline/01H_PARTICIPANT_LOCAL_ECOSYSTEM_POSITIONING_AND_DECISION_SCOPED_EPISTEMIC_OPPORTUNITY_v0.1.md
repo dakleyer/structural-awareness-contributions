@@ -200,7 +200,7 @@ Read this annex with:
 - [Article IV — Ecosystem Signalling Without Required Cooperation](./ARTICLE_04_ECOSYSTEM_SIGNALLING_WITHOUT_REQUIRED_COOPERATION.part01.md) and [part 2](./ARTICLE_04_ECOSYSTEM_SIGNALLING_WITHOUT_REQUIRED_COOPERATION.part02.md);
 - [03 — Functional Architecture](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md);
 - [04 — General Functional Interfaces & Agentic Security](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md);
-- [01B — EA / MSCA interface](./01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md);
+- [01B — EA / MSCA interface](./01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md);
 - [01I — Agentic Citizenship Contract](./01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md).
 
 Neighbouring prior art includes Distributed Situation Awareness, Value of Information, Knowledge Gradient, context engineering, adaptive observation and established multi-agent communication research. This annex does not claim those primitives as inventions of EA.
