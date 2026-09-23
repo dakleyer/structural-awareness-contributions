@@ -162,7 +162,7 @@ RA observation/context
 → MSCA projection / gradient alignment
 ~~~
 
-The current [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md#32-mechanical-alignment-with-a-regime-awareness-delta) defines how Δ_RA can be projected onto S/E/C/P/M and compared with the participant's qualified MSCA position.
+The current [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md#32-mechanical-alignment-with-a-regime-awareness-delta) defines how Δ_RA can be projected onto S/E/C/P/M and compared with the participant's qualified MSCA position. The [Objective-Conditioned Agentic Gradient Law](../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) then defines the participant-local gradient as the expected reduction in objective-conditioned MSCA risk for a candidate repositioning, before ACC/authority execution filtering.
 
 ### I-RA-04: action-safety declaration and response trace (owner/RA governor/control → EA F6/F9)
 
