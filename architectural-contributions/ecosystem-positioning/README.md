@@ -43,9 +43,10 @@ flowchart LR
     S[Qualified Ecosystem Signalling<br/>ReceivedSignals_i]
     M[MSCA Ecosystem Composition & Control<br/>Cart_i / Δ_Cart,i]
     R[Regime Awareness<br/>Δ_RA + regime overlay]
-    G[Agentic Gradient / posture interpretation]
-    P[MSCA Operation / Repositioning<br/>drift control + re-contracting]
-    H[Authority / execution / effects]
+    D[MSCA Operation<br/>effective-role drift · Type 0/1/2 · P1/P2/P3]
+    G[Agentic Gradient<br/>rank from Role_effective]
+    P[Repositioning / contract gate<br/>ACC · lineage · authority · escalation]
+    H[Authorized control / execution / effects]
 
     A --> E
     S --> E
@@ -54,8 +55,9 @@ flowchart LR
     M --> R
     E --> R
     S --> R
-    R --> G
-    G -. candidate transition .-> P
+    R --> D
+    D --> G
+    G --> P
     P -. when authorized .-> H
     H --> A
     R -. requalification / resolution request .-> M
@@ -67,7 +69,7 @@ The component contract is:
 - [01J](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) supplies receiver-qualified external messages as `ReceivedSignals_i`;
 - [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) maintains the participant-local qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` and its cartographic change-set `Δ_Cart,i`;
 - [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) consumes those inputs plus focal MSCA/Role/decision context and returns `Δ_RA`, a regime-qualified overlay and bounded requalification requests;
-- the [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) ranks candidate transitions; [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) first checks already-effective role drift, then applies ACC/lineage/authority gates and produces HOLD/REALIGN_TARGET/REQUEST_CONTAINMENT/REBIND/RECONTRACT/MIGRATE/REQUEST_ISOLATION/ESCALATE outcomes. Repositioning selects/proposes/escalates; containment/isolation actuation remains with the authorized control owner.
+- [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) first checks `Role_effective` drift, catalogues Type 0/1/2 and instantiates P1/P2/P3; the [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) then ranks candidate transitions from that effective position; ACC/lineage/authority gating produces HOLD/REALIGN_TARGET/REQUEST_CONTAINMENT/REBIND/RECONTRACT/MIGRATE/REQUEST_ISOLATION/ESCALATE outcomes. Repositioning selects/proposes/escalates; containment/isolation actuation remains with the authorized control owner.
 
 **MSCA is cross-cutting:** control sufficiency is re-assessed when the frame, Objective Envelope, dependency map or authority changes. It does not create authority and it does not own the Semantic Window.
 
