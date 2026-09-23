@@ -8,6 +8,18 @@ An agent or institution can be locally correct while the wider decision remains 
 
 **Ecosystem Awareness is one of the three maintained technical gates of Ecosystem Positioning**, alongside Regime Awareness and Minimum Sufficient Control / MSCA. EA owns the decision-scoped epistemic-qualification layer: for a defined decision, scope and time, it states what can responsibly be relied on, what remains unresolved or outside the active window, and what must be requalified when the ecosystem changes. Ecosystem Positioning composes that EA output with Regime Awareness and MSCA/Role/Cartography/Operation outputs; EA does not own the complete positioning architecture.
 
+## Programme lineage — why this architecture exists
+
+EA is not presented as an isolated invention. The programme-level [Structural Awareness README](../../README.md#2-field-notes--research-series) preserves the explanatory lineage:
+
+- [The Cost of Clarity](https://tegrity.ai/series/cost_of_clarity/) — why obtaining sufficient clarity has cost, delay and risk;
+- [Human Intelligence Debt](https://tegrity.ai/series/human-intelligence-gap/) — why human attention/review is a finite system resource rather than free external capacity;
+- [The Attribution Gap](https://tegrity.ai/series/attribution_gap/) — why real contribution, ownership and formal visibility can diverge;
+- [Informational Friction](https://tegrity.ai/series/informational_friction/) — why a representation can drift from the flow on which action depends;
+- [Regime Awareness in Adaptive Systems](https://tegrity.ai/series/regime-awareness-in-adaptive-systems/) — why a once-valid decision frame may cease to be valid.
+
+Historical engineering lines such as xSeil and Phylons provide field provenance for bounded coordination, semantic windows and changing operational state. These series/cases motivate questions and tests; they do **not** transfer validation into EA.
+
 ## Current routed indexes
 
 1. [**Ecosystem Awareness — canonical corpus**](./baseline/README.md) — the authoritative EA reading index for foundation, requirements, topology, functional architecture, interfaces and EHD, validation profiles, benchmarks, research lineage, governance, provenance and linked case material.
