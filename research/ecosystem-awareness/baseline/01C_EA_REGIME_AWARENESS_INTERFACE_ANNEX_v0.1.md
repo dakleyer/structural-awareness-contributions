@@ -153,7 +153,7 @@ The paper's formal witness shows the strong class is logically **non-empty** in 
 | Cross-domain composition | RA departure in one domain; local certainty elsewhere; changed ecosystem dependency not visible to Ψ | EA cannot compensate without demonstrated coupling; RA sign cannot set whole-system posture. |
 | Outcome feedback | Receipt without effect, effect outside S, changing action externality/stakeholder | F9 reopens context/frame/action assumptions; no silent success or carried-forward PNI claim. |
 
-The [EA validation files](./README.md#validation-profiles) and [RA preliminary evaluation design](../../regime-awareness/regime-change-qava-uv.md) are adjacent research apparatus. This annex does not claim that their test protocols have already been merged or run. The paper's §13 deployment order—decision scope, observation, representativeness, context boundary, detector, action library, cost/deadline, layered deployment, operational evaluation and continuous boundary governance—provides the source-grounded staging for a future joint experiment.
+The [EA validation files](./VALIDATION_PROFILE_READING_NOTE.md) and [RA preliminary evaluation design](../../regime-awareness/regime-change-qava-uv.md) are adjacent research apparatus. This annex does not claim that their test protocols have already been merged or run. The paper's §13 deployment order—decision scope, observation, representativeness, context boundary, detector, action library, cost/deadline, layered deployment, operational evaluation and continuous boundary governance—provides the source-grounded staging for a future joint experiment.
 
 ## 9. Relation to Minimum Sufficient Control Architecture and status boundary
 
