@@ -187,9 +187,43 @@ The receiving participant owns the **reliance boundary** for its decision. Recei
 
 Ecosystem Signalling is not an oracle. It does not reconstruct untransmitted internal state, infer missing truth merely because a device class is known, or convert compatibility metadata into ecosystem-wide certainty. Receiver-side enrichment is permitted only where a verified profile, device capability model, protocol contract or other qualified evidence justifies the mapping, and the resulting qualification remains receiver-local.
 
-## 6. Signalling and the opportunity gradient
+### 5.1 Receiver output contract to EA, ecosystem composition and Regime Awareness
 
-The purpose of signalling is not only incident defence. It can alter the opportunity surface visible to another participant.
+After compatibility/semantic qualification, the receiver may expose a bounded local collection:
+
+~~~text
+ReceivedSignals_i(t)
+~~~
+
+containing only the parts of external messages that remain interpretable and qualified for the receiving decision.
+
+ReceivedSignals_i may contain:
+
+- epistemic A/B/C/D projections;
+- bounded MSCA/objective/dependency information;
+- ACC / participation-profile references;
+- authority/delegation references;
+- explicit ecosystem messages such as dependency change, capability availability, constraint change, incident/change evidence or another participant's qualified Regime Awareness delta;
+- provenance, freshness, scope, compatibility residual and expiry.
+
+The receiver uses these inputs to update its own qualified state and, where material, its [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map.
+
+A received signal may trigger map/regime requalification when it:
+
+- crosses a declared materiality/confidence threshold;
+- materially changes a represented dependency;
+- contradicts or weakens current qualified state;
+- exposes insufficient/stale context;
+- introduces a relevant previously unrepresented MSCA/capability/constraint;
+- collectively becomes material when composed with other independent or dependent signals.
+
+Transport success alone never triggers a semantic update.
+
+Qualified ReceivedSignals_i may be included in the input bundle to [Regime Awareness 01C](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md). Regime Awareness remains free to consume additional qualified sources.
+
+## 6. Signalling and the downstream agentic gradient
+
+The purpose of signalling is not only incident defence. It can alter the receiver's epistemic state, ecosystem-composition map and downstream opportunity surface.
 
 The participant-local opportunity assessment uses its own objective, epistemic position, MSCA, resources and received signals to rank candidate epistemic or control actions.
 
