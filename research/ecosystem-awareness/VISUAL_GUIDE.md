@@ -281,3 +281,89 @@ The visual guide intentionally leaves these as open work rather than pretending 
 - additional fixture/testbed coverage, including S7/S8 and later positioning layers;
 - future versioned reconciliation of later architecture into FG-TIDA preparation material;
 - final static SVG/PNG assets for presentations after the current Markdown/Mermaid semantics stabilize.
+
+---
+
+## 11. Active workfront — what is being worked on next
+
+This map is a reader shortcut to the [Living Workplan](./WORKPLAN.md). It shows dependencies, not a rigid waterfall.
+
+```mermaid
+flowchart TB
+    W1["W1 Requirements vNext<br/>Do later concepts require new S/T/H/KPI?"]
+    W2["W2 Benchmark vNext<br/>Extend beyond EA-H1–EA-H4"]
+    W3["W3 Testbed coverage vNext<br/>S7/S8 · 00G · ACC · gradient · drift/repositioning"]
+    W4["W4 FG-TIDA Specification vNext<br/>incorporate / inform / exclude explicitly"]
+
+    C1["C1 Controlled parity<br/>Drive revision ↔ Git SHA"]
+    C2["C2 Empirical execution<br/>Stage 0 → Stage 1 → Stage 2"]
+    C3["C3 Product evidence refresh<br/>dated 2+2 profiles"]
+    C4["C4 Presentation / Release<br/>deck · GitHub Release · DOI"]
+    C5["C5 Coherence pass<br/>README · Visual Guide · coverage map"]
+
+    W1 --> W2
+    W1 --> W3
+    W1 --> W4
+    W2 --> W3
+    W2 -. "evidence scope" .-> W4
+    W3 -. "test / conformance evidence" .-> W4
+
+    C1 -. "source integrity" .-> W1
+    C1 -. "source integrity" .-> W4
+    C2 --> W2
+    C2 --> W3
+    C3 -. "implementation evidence" .-> W2
+
+    W1 --> C5
+    W2 --> C5
+    W3 --> C5
+    W4 --> C5
+    C5 -. "stable reader state" .-> C4
+```
+
+**Current first empirical milestone:** RS-00E-Q1a Stage-0 descriptive execution under operative pre-registration v0.5.
+
+**Read:** [Living Workplan](./WORKPLAN.md).
+
+---
+
+## 12. How a new idea enters the corpus without deleting the past
+
+Use this change-control map when a new concept, requirement, scenario or interface appears.
+
+```mermaid
+flowchart TD
+    N["New concept / evidence / case"]
+    G["Gap analysis<br/>What exact problem is not already covered?"]
+    O{"Existing semantic owner?"}
+    M{"Fits current requirement / interface / test route<br/>without semantic distortion?"}
+    C["Clarify / map in current working document<br/>with explicit traceability"]
+    S["Create versioned successor or additive annex<br/>preserve predecessor"]
+    T{"Needs empirical / conformance claim?"}
+    D["Design comparator / fixture / falsifier<br/>pre-register where applicable"]
+    E["Execute and record evidence<br/>do not promote design to result"]
+    A{"Programme-specific application?"}
+    P["Project into application package<br/>e.g. 05/05A/FG-TIDA<br/>without redefining general architecture"]
+    R["Update routers / workplan / visual guide / coverage map"]
+    H["Preserve historical public wording<br/>snapshot / predecessor / freeze"]
+
+    N --> G --> O
+    O -->|Yes| M
+    O -->|No| S
+    M -->|Yes| C
+    M -->|No| S
+    C --> T
+    S --> H
+    S --> T
+    T -->|Yes| D --> E --> A
+    T -->|No| A
+    A -->|Yes| P --> R
+    A -->|No| R
+    C --> R
+    H --> R
+```
+
+**Conservation rule:** a later clarification may change the current route, but it does not erase what an earlier dated or frozen document actually said.
+
+**Read:** [Living Workplan](./WORKPLAN.md) · [Preserved Public Snapshots](../../governance/preserved-public-snapshots/README.md) · [Canonical Corpus Manifest](./baseline/CANONICAL_CORPUS_MANIFEST.md).
+
