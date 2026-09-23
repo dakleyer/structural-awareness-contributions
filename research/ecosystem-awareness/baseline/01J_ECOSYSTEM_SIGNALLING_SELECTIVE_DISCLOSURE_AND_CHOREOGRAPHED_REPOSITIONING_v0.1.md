@@ -206,7 +206,7 @@ ReceivedSignals_i may contain:
 - explicit ecosystem messages such as dependency change, capability availability, constraint change, incident/change evidence or another participant's qualified Regime Awareness delta;
 - provenance, freshness, scope, compatibility residual and expiry.
 
-The receiver uses these inputs to update its own qualified state and, where material, its [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map `ECM_i`, producing `Δ_ECM,i` when the structural map changes materially.
+The receiver uses these inputs to update its own qualified state and, where material, its [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]`, producing `Δ_Cart,i` when the cartography changes materially.
 
 A received signal may trigger map/regime requalification when it:
 
@@ -223,7 +223,7 @@ Qualified `ReceivedSignals_i` may be included in the input bundle to [Regime Awa
 
 ## 6. Signalling and the downstream agentic gradient
 
-The purpose of signalling is not only incident defence. It can alter the receiver's epistemic state, ecosystem-composition map and downstream opportunity surface.
+The purpose of signalling is not only incident defence. It can alter the receiver's epistemic state, Ecosystem Cartography and downstream opportunity surface.
 
 The participant-local opportunity assessment uses its own objective, epistemic position, MSCA, resources and received signals to rank candidate epistemic or control actions.
 
