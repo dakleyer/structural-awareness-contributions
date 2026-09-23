@@ -48,12 +48,12 @@ For participant i, decision d and time t, use participant indices when locality 
 - U_i(d,t) — bounded represented universe used by participant i;
 - W_i(d,t) — active decision-scoped Semantic Window selected from the represented/observable state available to i;
 - R_{U_i} — open decision-relevant residual relative to U_i;
-- A/B/C/D — the canonical four epistemic positions, interpreted relative to the participant's active decision/window;
+- A/B/C/D — the canonical four-component qualified epistemic position: situated scope/assertion (A), directional confidence/gradient strength (B), recognized current-capability frontier (C), and structural/residual unknown (D), interpreted relative to the participant's active decision/window;
 - Q_i(d,t) — participant-local qualified operating-frame assessment for the declared receiving decision and scope.
 
 When this annex refers to F6 **systemic** assessment, systemic means composition across the domains and dependencies material to the declared receiving decision and scope. It does not denote one global ecosystem state, universal knowledge or a global posture.
 
-The base symbols Ω, U, R_U and W(d,t) retain their canonical meanings. The participant index is a locality clarification, not a new ontology.
+The base symbols Ω, U, R_U and W(d,t) retain their canonical meanings. The participant index is a locality clarification, not a new ontology. The current A/B/C/D reconciliation is owned by the [Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position); this annex does not create a competing definition.
 
 A participant may also hold **local, versioned references or representations** of:
 
