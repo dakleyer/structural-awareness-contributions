@@ -277,49 +277,27 @@ This is the core law.
 
 It is valid for discrete transitions through finite differences and for continuous state spaces through an ordinary differential gradient when such a representation is justified.
 
-## 8. Nonlinear posture operator
+## 8. Relation to the canonical nonlinear posture operator
 
 The agentic gradient and the three operating postures are related but not identical.
 
-A participant-local posture is produced by a nonlinear operator:
+The **sole current operational definition** of the participant-local posture operator `Γ_i` is maintained in [Canonical MSCA Operation & Repositioning §11](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#11-hard-posture-gate--p1--p2--p3). This Gradient Law does not define a competing signature.
+
+The gradient supplies objective-conditioned opportunity over candidate transitions. MSCA Operation/Repositioning combines the qualified regime delta, participant-local epistemic/cartographic state, Type catalogue, effective/bound role, focal MSCA, ACC, authority, capacity and response horizon to instantiate:
 
 ~~~text
-Posture_i
-=
-Γ_i(
-  Δ_RA,
-  R_i,
-  Π_X,i,
-  ACC_i,
-  authority_i,
-  capacity_i,
-  response_horizon_i
-)
+P1 = NORMAL
+P2 = CONTAINMENT / MITIGATION
+P3 = MIGRATION / REGIME TRANSITION
 ~~~
 
-with:
+**NORMAL is compatible with continuous change.** A non-zero, well-qualified regime delta may coexist with continued operation where the current response mapping remains sufficiently qualified.
 
-~~~text
-NORMAL
-CONTAINMENT
-MIGRATION / REGIME_TRANSITION
-~~~
+**CONTAINMENT** is a posture classification indicating that unrestricted normal operation is no longer supported while a bounded response remains available; Repositioning does not itself execute containment.
 
-**NORMAL is compatible with continuous change.** The regime delta may have a clear A_RA direction and high B_RA confidence while the participant continues to operate because its historical/current response mapping remains sufficiently qualified.
+**MIGRATION / REGIME TRANSITION** indicates that the current regime/history no longer supplies a sufficiently qualified response mapping and that a legitimate transition path must be qualified.
 
-**CONTAINMENT** occurs when confidence in the current regime mapping or the objective-conditioned risk crosses a local threshold, while a known bounded fallback/containment mapping remains qualified.
-
-**MIGRATION / REGIME TRANSITION** occurs when the current regime/history no longer supplies a sufficiently qualified mapping for the mission. At that point extrapolation/forecasting from the old regime is not a justified control basis; invariant safety controls may remain usable while the new frame is qualified.
-
-Because Γ_i contains thresholds, hard constraints and possibly hysteresis, the compound response is deliberately non-linear:
-
-~~~text
-small change in B_RA
-+ threshold crossing
-→ discrete posture change
-~~~
-
-The thresholds belong to the participant's legitimate configuration — potentially ACC, control policy or mission owner — not to Regime Awareness universally.
+Thresholds and hysteresis belong to the participant's legitimate configuration — potentially ACC, control policy or mission owner — not to Regime Awareness universally.
 
 A sufficiently severe loss of regime qualification may place the participant in the existing **potential critical bifurcation** condition: the old mapping is invalid or insufficiently qualified while several successor paths remain plausible.
 
