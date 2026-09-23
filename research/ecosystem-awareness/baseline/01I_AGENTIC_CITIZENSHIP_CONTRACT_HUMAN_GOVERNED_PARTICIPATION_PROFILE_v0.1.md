@@ -1,6 +1,6 @@
 # Annex 01I — Agentic Citizenship Contract: Human-Governed Participation and Constraint Profile
 
-**Status:** additive public working annex, v0.1, 21 September 2026. This document is outside the controlled/frozen v0.4 release baseline and outside the EA core. It is not an adopted legal framework, a grant of legal personhood, a human-equivalent civil-rights model, an implemented governance protocol, an ITU-T deliverable or a standards claim.
+**Status:** additive public working annex, v0.1, 21 September 2026. This is an **Ecosystem Positioning-related governance extension hosted in the EA folder for lineage/routing**; it remains outside the controlled/frozen v0.4 release baseline and outside the EA core. It is not an adopted legal framework, a grant of legal personhood, a human-equivalent civil-rights model, an implemented governance protocol, an ITU-T deliverable or a standards claim.
 
 **Terminology boundary:** “citizenship” and “contract” are architectural working metaphors for machine-interpretable participation and governance conditions. They do not assert that software agents possess legal contractual capacity, sovereign membership or human-equivalent rights.
 
