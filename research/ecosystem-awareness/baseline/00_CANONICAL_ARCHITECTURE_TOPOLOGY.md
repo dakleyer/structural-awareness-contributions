@@ -122,6 +122,19 @@ Read the architecture in this order:
 
 **open ecosystem Ω → represented universe U → active window W(d,t) → A/B/C/D qualification → bounded handoff and composition → requalification or bounded operating posture.**
 
+The visual below is supplementary to that written rule. It shows targeted re-entry and the fact that the open residual is not closed by the qualification process.
+
+```mermaid
+flowchart LR
+    O["Ω<br/>open ecosystem"] --> U["U<br/>represented universe"]
+    U --> W["W(d,t)<br/>active decision window"]
+    W --> Q["Π(d,t)<br/>A / B / C / D qualification"]
+    Q --> H["bounded handoff<br/>and scoped composition"]
+    H --> P["requalification or<br/>bounded operating posture"]
+    P -. "targeted re-entry" .-> W
+    O -. "R_U remains open<br/>not an enumerable complement" .-> Q
+```
+
 The architecture does not promise complete ecosystem knowledge. Its claim is narrower: a decision can remain operational while explicitly preserving what is determined, unresolved, potentially obtainable and structurally residual, together with the authority and evidence limits that condition reliance.
 
 ## Status and source boundaries
