@@ -235,6 +235,20 @@ The four parts of Structural Awareness do not have the same evidential status.
 - An architecture proposal is inspectable and testable, not automatically demonstrated.
 - A public contribution or standards discussion is not adoption or endorsement.
 
+### Evidence-boundary reading table
+
+The bullets above remain the compact rule. The table below makes the same boundary explicit for external review; it does not upgrade the evidential status of any workstream.
+
+| Part | Judge it by | It can establish | It does not establish by itself |
+|---|---|---|---|
+| **Mathematical Contributions** | Proof, formal argument and declared assumptions | That a stated limit, relation or mechanism follows within the formal frame | That an engineering architecture works in operation |
+| **Field Notes / Research Series** | Explanatory coherence, source quality and usefulness of the conceptual distinction | A structured way to understand a problem and formulate testable questions | A validated method, benchmark result or production capability |
+| **Field Practice / Engineering** | Engineering provenance, operational records and the scope of the observed case | That a mechanism, constraint or architectural problem occurred under stated real conditions | Universal transferability or validation of the later general architecture |
+| **Architectural Contributions / pre-standardization** | Inspectability, internal coherence, falsifiability, interfaces and the declared benchmark/test route | A reviewable and testable architecture proposal | Demonstrated superiority over strong peers, standards adoption or deployed interoperability |
+| **Public submissions / standards discussion** | The dated source record and the status of the relevant process | That a contribution, discussion or mapping was publicly made | Adoption, endorsement, institutional ownership or validation |
+
+External evidence used inside the EA benchmark is additionally graded E1–E4 in [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence v0.2](./research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md). Evidence grades must not be silently promoted across categories.
+
 ---
 
 ## For maintainers
