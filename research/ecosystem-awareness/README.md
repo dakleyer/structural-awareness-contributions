@@ -38,7 +38,9 @@ The canonical corpus index also hosts three additive, non-frozen **Ecosystem Pos
 
 ## Benchmark — what is being compared
 
-The [canonical architecture benchmark and reference-scenario evidence](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) remains the current canonical benchmark for EA-H1–EA-H4. The bounded [00D v0.3 Ecosystem Positioning draft](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) is the active Benchmark-vNext design and does **not** supersede v0.2 yet.
+The [canonical architecture benchmark and reference-scenario evidence](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) uses matched comparison arms so that EA is tested against progressively stronger alternatives rather than against a weak strawman:
+
+**Benchmark vNext:** the bounded [00D v0.3 Ecosystem Positioning draft](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) extends the design toward the later positioning architecture but does **not** supersede v0.2. v0.2 remains the current canonical benchmark for EA-H1–EA-H4 until the v0.3 adoption gates close.
 
 
 | Arm | Compared configuration | Purpose |
