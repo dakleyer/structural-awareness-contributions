@@ -27,18 +27,37 @@ For a decision `d` at time `t`:
 
 **Ω is not a final universe.** It names the open ecosystem condition against which every local representation remains bounded. U and W(d,t) make that boundedness operational without turning the residual into an enumerable remainder.
 
-## 2. Four epistemic positions
+## 2. Four-component qualified epistemic position
 
-The four positions are **A, B, C and D**. They are not equal quadrants and must not be read as a 25/25/25/25 allocation. Their balance is dynamic, risk-indexed and decision-specific.
+**Reconciliation update — 23 September 2026.** A/B/C/D are read canonically as four **components of one qualified position**, not as four mutually exclusive quadrants or four mandatory transmission fields. Earlier frozen/source documents that use a coarser “determined / unresolved / obtainable / residual” wording remain preserved for provenance; this page supplies the current reconciliation.
 
-| Position | Meaning relative to the active decision window | Required treatment |
+For participant i, decision d and time t, a qualified position may be read conceptually as:
+
+~~~text
+Π_i(d,t) = [ A_i, B_i, C_i, D_i ]
+~~~
+
+| Component | Canonical meaning | Example / treatment |
 |---|---|---|
-| **A — sufficiently determined** | State inside the active window is sufficiently determined for the relying decision. | A conclusion remains qualified by its scope, freshness, provenance and decision conditions. |
-| **B — recognized and unresolved** | A defined state inside the active window remains unresolved. | Preserve it explicitly as unresolved, INDETERMINATE, HELD, fallback or another bounded operating posture; do not promote it to certainty. |
-| **C — recognized and potentially obtainable** | State outside the current window is recognized as potentially obtainable and may justify bounded expansion or refresh. | Expand only when its expected decision value warrants the observation, verification, time and human/compute capacity required. |
-| **D — structural residual** | State beyond the active window cannot be presumed fully discoverable, enumerable or eliminable. | Preserve the residual limitation rather than silently treating it as irrelevant or determined. |
+| **A — situated scope / qualified assertion** | What is being represented or asserted, **where/from which frame**, for which subject/decision, under which scope, provenance, calibration, freshness and other material qualifiers. A is not an unscoped YES/NO. | A telemetry device may assert “temperature at this sensor/location, using this calibration, at this time.” |
+| **B — directional confidence / gradient strength** | How strongly and in which qualified direction the current evidence supports the position or change relative to its admitted frame. B may be expressed as confidence, interval/bounds, directional strength or another profile-appropriate uncertainty representation. | A high-confidence directional departure produces a stronger local gradient in that declared direction than a weak/noisy departure. Confidence in decoding is distinct from physical measurement accuracy. |
+| **C — recognized capability frontier / potentially obtainable state** | What additional decision-relevant state is recognized and could be determined **with the participant's current capabilities** through more observation, review, acquisition, computation, interaction or time, but has not yet been established for the current position. | A telemetry system may support a diagnostic register or another sensor read that has not yet been queried. |
+| **D — structural / residual unknown** | What remains outside the currently represented and recognized-obtainable capability boundary, including what may be unenumerated, structurally unavailable or unknown as to knowability. Compatibility/translation residuals may also contribute to D on the receiver side. | A local temperature device does not thereby establish humidity, occupancy, external conditions or unmodelled dependencies. |
 
-C and D provide the operational reading of what remains outside the active window. They are a useful conceptual decomposition of residual uncertainty, but neither makes `R_U` a closed set complement or Ω a closed universe.
+The four components are **not required to sum to a fixed whole** and need not all be transmitted. A producer may emit only A, or A+B, or another material subset. Missing components remain **UNKNOWN / NOT DECLARED** to the receiver unless a verified profile legitimately supplies receiver-local qualification.
+
+### 2.1 Relation to the earlier coarse four-position wording
+
+The earlier wording can be conserved as a useful operational reading **inside** the richer tuple:
+
+- a “sufficiently determined” result is an A assertion with enough B support for the receiving decision;
+- “recognized unresolved” state is represented through insufficient/contested B and the qualified unresolved content attached to A;
+- “potentially obtainable” remains the C frontier;
+- “structural residual” remains D.
+
+This reconciliation prevents B from being treated as a second content bucket when the architecture needs B to carry confidence/direction, while preserving the earlier safety rule: unresolved state must never be promoted to certainty.
+
+C and D preserve the distinction between what could still be known with current capability and what remains structurally residual. Neither makes `R_U` a closed set complement or Ω a closed universe.
 
 ## 3. Agent-local qualification and ecosystem composition
 
