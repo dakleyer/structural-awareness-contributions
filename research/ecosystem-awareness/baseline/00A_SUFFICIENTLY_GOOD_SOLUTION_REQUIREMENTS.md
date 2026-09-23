@@ -1,3 +1,5 @@
+> **Preserved working source — integrated for current reading into [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md).** Kept for provenance and existing cross-references; do not treat as a second canonical requirements document.
+
 # Requirements for a Sufficiently Good Solution to the Ecosystem Awareness Challenge
 
 > **Reader bridge and solution-neutral requirements.** This page sits between the industrial challenge and a candidate solution. It adapts the *structure* of the “Sufficiently Good” requirements in [Minimalistic Regime-Aware Early Warning Systems](https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/); it does not transfer that paper's detector theorem, action guarantee or validation result to Ecosystem Awareness (EA).
