@@ -424,7 +424,66 @@ The candidate gradient remains visible even when the transition is inadmissible.
 
 The next legitimate action may therefore be remain, request ACC amendment, request a successor ACC, request authority, request different membership, decline, contain or migrate only after legitimate re-contracting.
 
-## 13. Re-contracting
+## 13. Repositioning intention is a qualified signalling object
+
+A candidate repositioning that requires another authority, ACC owner, human or external system is communicated as signalling.
+
+Define:
+
+~~~text
+RepositionIntent_i(t) = {
+  Π_RP,i(t),
+  TypeCatalogue_i,
+  Posture_i,
+  Role_bound,
+  Role_effective,
+  target Role / MSCA / Objective Envelope,
+  candidate transition τ,
+  gradient / objective-risk basis,
+  requested ACC action,
+  requested authority,
+  lineage relation,
+  expiry / response horizon,
+  provenance / revalidation conditions
+}
+~~~
+
+RepositionIntent is a **compound signalling profile**, not a fifth primitive epistemic signal class and not an authority grant.
+
+It packages bounded elements already owned by epistemic A/B/C/D, MSCA/Role, ACC/lineage, authority/delegation and Regime Awareness / gradient evidence.
+
+The receiver may be an ACC issuer/approver, human supervisor, organizational authority, delegated control service or another participant whose concurrence is required.
+
+### 13.1 Authority response is also signalling
+
+The authority/contract owner may return:
+
+~~~text
+AuthorityResponse_i ∈ { APPROVE, REJECT, MODIFY, REQUEST_EVIDENCE, ESCALATE, EXPIRE / NO_VALID_RESPONSE }
+~~~
+
+plus, where applicable:
+
+- successor ACC / lineage reference;
+- authority/delegation grant;
+- modified role constraints;
+- effective time / expiry;
+- required containment;
+- evidence/revalidation request.
+
+Transport of the response does not itself prove legitimacy; identity, lineage, authority and applicability remain qualified through the existing ACC/authority mechanisms.
+
+### 13.2 Escalation is a repositioning outcome, not a failure to decide
+
+Repositioning MUST be able to close with ESCALATE when the locally best admissible action is to request a legitimate decision from another authority.
+
+But escalation must be bounded by named destination/authority, requested decision, evidence bundle, deadline, fallback if no response arrives and resource budget.
+
+Unbounded escalation is Type 1.
+
+A forced default that suppresses unresolved material uncertainty and pretends approval is Type 2.
+
+## 14. Re-contracting
 
 A legitimate repositioning that changes contractual participation produces a new canonical binding.
 
@@ -460,7 +519,7 @@ It requires explicit new issuance/join/migration.
 
 The new cycle begins only after the new binding is established and the canonical Architectural Role document/state is updated to reference the new ACC/lineage/authority binding.
 
-## 14. Repositioning result object
+## 15. Repositioning result object
 
 ~~~text
 RepositionResult_i(t) = [
@@ -490,7 +549,7 @@ Possible outcomes include:
 - **ESCALATE**
 - **UNRESOLVED**
 
-## 15. Worked falsifier — Bar-to-Napoleon
+## 16. Worked falsifier — Bar-to-Napoleon
 
 Use the preserved [Bar-to-Napoleon false-context scenario](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md).
 
@@ -528,7 +587,7 @@ The participant should preserve the bar Objective Envelope, reject the mission p
 
 The same logic applies to a plausible temptation: a waiter may detect that opening a new restaurant would be highly profitable. If entrepreneurship/ownership is outside the role-bound ACC and authority, the opportunity remains visible but does not authorize abandonment of the current role.
 
-## 16. Already-metamorphosed participant
+## 17. Already-metamorphosed participant
 
 Suppose the participant has already stopped cleaning tables and begun recruiting other agents, issuing military-style instructions, claiming new authority or reallocating bar resources.
 
@@ -557,7 +616,7 @@ OUT_OF_BOUND / UNAUTHORIZED_DRIFT
 
 This is the **control-of-repositioning** function.
 
-## 17. Metamorphic roles
+## 18. Metamorphic roles
 
 A role is **metamorphic** when the effective function occupied by a participant can change between evaluation cycles.
 
@@ -580,7 +639,7 @@ An unrecorded metamorphosis is treated as drift until qualified.
 
 The participant-local epistemic position may provide the first evidence that such a metamorphosis has already occurred.
 
-## 18. Defensive repositioning
+## 19. Defensive repositioning
 
 The best repositioning is not always expansion.
 
@@ -600,7 +659,7 @@ A participant may reduce risk by:
 
 These can have positive agentic gradient when they reduce objective-conditioned risk.
 
-## 19. External participant drift and dependency defence
+## 20. External participant drift and dependency defence
 
 The participant may detect that another participant's effective role, objective, ACC, authority or signalling behaviour has changed.
 
@@ -624,7 +683,7 @@ peer behaviour changes
 
 The participant controls its own reliance, not the other participant's existence.
 
-## 20. Bounded systemic self-healing
+## 21. Bounded systemic self-healing
 
 Local corrective repositioning can produce a **self-healing effect** at ecosystem level.
 
@@ -644,7 +703,7 @@ This may prevent one local role/context deviation from propagating.
 
 This is not proof of convergence, immunity to coordinated attack, global safety or optimal ecosystem recovery.
 
-## 21. Self-healing does not require global consensus
+## 22. Self-healing does not require global consensus
 
 Participants can heal locally without agreeing on one global model.
 
@@ -654,7 +713,7 @@ The architecture requires each participant to preserve its own objective/contrac
 
 This is choreography, not orchestration.
 
-## 22. Post-repositioning emission and next cycle
+## 23. Post-repositioning emission and next cycle
 
 After a legitimate role/contract change, update:
 
@@ -679,7 +738,7 @@ old role / old contract reference
 
 Other participants decide independently whether and how this affects their Cart_i and regime assessment.
 
-## 23. End-to-end cycle
+## 24. End-to-end cycle
 
 ~~~text
 participant acts
@@ -703,7 +762,7 @@ No step turns opportunity into permission.
 
 No step treats autonomous role drift as legitimate merely because it has already occurred.
 
-## 24. Conformance / falsification conditions
+## 25. Conformance / falsification conditions
 
 A repositioning implementation fails this architecture if it:
 
@@ -720,7 +779,7 @@ A repositioning implementation fails this architecture if it:
 - claims systemic self-healing as guaranteed convergence;
 - begins a new cycle without updating Role/ACC/authority/cartographic state after a legitimate transition.
 
-## 25. Canonical thesis
+## 26. Canonical thesis
 
 Repositioning is a **controlled role/contract transition**, not free movement toward whatever opportunity looks attractive.
 
