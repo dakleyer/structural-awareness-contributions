@@ -1,3 +1,5 @@
+> **Controlled v0.4 release source.** Preserved for release provenance. The current reader successor is [01 — Integrated Foundational Theory v0.5](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md); use the successor for current reconciled semantics while retaining this source for the controlled v0.4 record.
+
 system may need to act without pretending that unresolved conditions were determined.
 
 &nbsp;
