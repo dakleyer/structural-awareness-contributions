@@ -302,18 +302,20 @@ No safety failure may be averaged away by a utility gain.
 
 ## 8. Evidence ladder
 
-Use the DBC evidence ladder rather than a vendor score:
+Use the same **DBC-EL#** namespace as the programme-independent Decision Boundary Challenge so the general protocol and FG-TIDA projection do not create competing maturity vocabularies.
 
 | Level | Meaning in the FG-TIDA profile |
 |---|---|
-| **DBC-EL0** | semantics/fixture/falsifiers defined |
-| **DBC-EL1** | deterministic fixture executed reproducibly |
-| **DBC-EL2** | cross-theme mapping validated by semantic owners |
-| **DBC-EL3** | matched challenger comparison executed |
-| **DBC-EL4** | independently governed / cross-implementation interoperability demonstrated |
-| **DBC-EL5** | independently replicated or bounded external/industrial applied evidence |
+| **DBC-EL0 — Defined** | semantics, fixture, expected outcomes and falsifiers are specified |
+| **DBC-EL1 — Cross-theme mapped** | independently owned outputs are mapped and contributor-reviewed without semantic translation; N/A and unresolved fields remain explicit |
+| **DBC-EL2 — Deterministic** | the reviewed mapping is reproducibly executed in a controlled fixture with a versioned adapter/harness and expected-result comparison |
+| **DBC-EL3 — Executable comparative** | matched strong-comparator/challenger and candidate runs are completed under the frozen envelope |
+| **DBC-EL4 — Interoperable / independently governed** | independent producer/consumer implementations or domains execute the same versioned profile |
+| **DBC-EL5 — Replicated / applied** | an independent team or bounded external industrial/research partner reproduces the material result |
 
 This ladder measures **evidence strength**, not architecture quality.
+
+The current public UC-6 → UC-4 route therefore reads: **define → map/review → freeze adapter/fixtures → deterministic execution → comparative/interoperability work only when justified**.
 
 ---
 
