@@ -11,6 +11,8 @@
 
 > **Canonical requirements document.** This is the single canonical document that states what a solution to the EA challenge must address and how its underlying hypotheses are assessed. It does not define a product, implementation, benchmark result, standards adoption, or a claim that EA or another candidate has passed.
 
+> **Requirements vNext review is open — the requirements themselves are unchanged.** The current working review is [**Requirements vNext Review & Delta v0.1 Draft**](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Its present recommendation is **not** to create S15+, T5+, H7+ or a new canonical KPI family: most later Ecosystem Positioning developments map into the existing S1–S14 / T1–T4 / H1–H6 system or belong to component conformance. The draft records two clarification candidates (effective-role drift; opportunity/admissibility/authority/execution separation) for possible future versioned consideration. This document remains the current canonical Requirements.
+
 **Status:** public working research specification. It applies to a human-led process, conventional control system, agentic architecture or composed system, within its declared decision scope, authority, evidence boundary, response horizon and resource envelope.
 
 ## 1. Position in the EA corpus
