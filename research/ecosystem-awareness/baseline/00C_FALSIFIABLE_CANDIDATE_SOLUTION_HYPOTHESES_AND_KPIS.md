@@ -1,3 +1,5 @@
+> **Preserved working source — integrated for current reading into [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md).** Kept for provenance and existing cross-references; do not treat as a second canonical hypothesis/KPI document.
+
 # Falsifiable Candidate-Solution Hypotheses and KPI Protocol
 
 > **Universal test layer.** This page states the hypotheses that **any** candidate solution to the changed-decision-basis challenge must make testable. It is not an EA architecture description, a market benchmark, a maturity score, or evidence that a candidate has passed.
