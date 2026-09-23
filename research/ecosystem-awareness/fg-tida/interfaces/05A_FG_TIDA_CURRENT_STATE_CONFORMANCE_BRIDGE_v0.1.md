@@ -8,7 +8,7 @@ Document 05 is the **ideal FG-TIDA-oriented bilateral contract**: the complete t
 
 “Current” below means public and explicitly stated at the cited source; it does not mean adopted ITU text, final Theme consensus or independently established interoperability. “Candidate” means a bounded, source-linked field or route that may be tested with its semantic owner; it is not yet a shared requirement. “Test-only” means an ICR or fixture datum that must not be promoted into an operational payload merely because it is useful for evaluation.
 
-The external statements in this document are **E4 working-source evidence** under the [canonical evidence-grade definition](../../../baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#3-evidence-grades). They support the stated public discussion and no stronger claim. This bridge must be reviewed when any cited source materially changes and no later than 19 December 2026 (UTC). Without that review, a row labelled **Current source state** remains only a dated consultation record and cannot be carried forward as current support for a new route.
+The external statements in this document are **E4 working-source evidence** under the [canonical evidence-grade definition](../../baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#3-evidence-grades). They support the stated public discussion and no stronger claim. This bridge must be reviewed when any cited source materially changes and no later than 19 December 2026 (UTC). Without that review, a row labelled **Current source state** remains only a dated consultation record and cannot be carried forward as current support for a new route.
 
 ## 1. Source basis and ownership boundary
 
@@ -101,13 +101,13 @@ No item in this table creates O7, IF-S14, a new Theme, a universal precedence hi
 
 ## 5. Conformance bridge to Appendix A
 
-The [Appendix A Interface Quality and Conformance Plan](../../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#appendix-a--interface-quality-and-conformance-plan-for-ecosystem-awareness) is the decision rule for this bridge. It is not transmitted in a Theme payload and it does not convert UC #4 into a new governing body. Its cited sections, rather than this bridge, define the ICR and generic control requirements.
+The [Appendix A Interface Quality and Conformance Plan](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#appendix-a--interface-quality-and-conformance-plan-for-ecosystem-awareness) is the decision rule for this bridge. It is not transmitted in a Theme payload and it does not convert UC #4 into a new governing body. Its cited sections, rather than this bridge, define the ICR and generic control requirements.
 
 | Governing Appendix A section | 05A application |
 | --- | --- |
-| [A.3 — ICR](../../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a3-unit-under-test-interface-conformance-record) and [A.4 — entry conditions](../../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a4-entry-conditions) | Record the FG-TIDA route, its owners, materiality status, declared route map, review status and admissibility exactly as governed there. |
-| [A.5.1–A.5.3 — route and fixtures](../../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a5-test-method) | Apply the generic semantic-preservation, fixture, aggregation and reviewer controls to the specific route; no additional 05A control is created. |
-| [A.6 — evidence and test measures](../../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a6-evidence-and-test-measures) and [A.7 — findings](../../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a7-conformance-findings) | Assess the named FG-TIDA vector under the declared capacity basis and horizon, and use the generic result vocabulary. |
+| [A.3 — ICR](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a3-unit-under-test-interface-conformance-record) and [A.4 — entry conditions](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a4-entry-conditions) | Record the FG-TIDA route, its owners, materiality status, declared route map, review status and admissibility exactly as governed there. |
+| [A.5.1–A.5.3 — route and fixtures](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a5-test-method) | Apply the generic semantic-preservation, fixture, aggregation and reviewer controls to the specific route; no additional 05A control is created. |
+| [A.6 — evidence and test measures](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a6-evidence-and-test-measures) and [A.7 — findings](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md#a7-conformance-findings) | Assess the named FG-TIDA vector under the declared capacity basis and horizon, and use the generic result vocabulary. |
 
 Thus a 05A route is called **sufficient only for its declared scope and horizon after ICR evidence exists**. Before that, it is a candidate architecture profile, not an interoperability claim.
 
