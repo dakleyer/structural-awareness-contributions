@@ -113,7 +113,7 @@ Owns control sufficiency:
 
 ## Canonical positioning law
 
-- [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) — current canonical working law for ecosystem-gradient projection, objective-conditioned risk, non-fungible A/B/C/D composition, ACC/authority filtering and local choreography.
+- [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) — current canonical working law for ecosystem-delta projection, objective-conditioned risk, non-fungible A/B/C/D composition, ACC/authority filtering and local choreography.
 
 ---
 
