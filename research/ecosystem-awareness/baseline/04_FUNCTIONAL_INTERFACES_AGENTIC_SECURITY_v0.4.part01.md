@@ -1,3 +1,5 @@
+> **Controlled v0.4 release source.** Preserved for release provenance. The current reader successor is [04 — General Functional Interfaces v0.5 Integrated](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md); use the successor for current reconciled semantics while retaining this source for the controlled v0.4 record.
+
 # Ecosystem Awareness — Functional Interfaces & Agentic Security Integration — v0.4
 
 ## Companion interface model to the fixed F1–F9 Functional Architecture
