@@ -127,14 +127,16 @@ Owns control sufficiency:
 | **Ecosystem Awareness** | Qualify what can be relied on, what remains unresolved and what needs requalification. |
 | **Ecosystem Positioning** | Maintain the participant-local situated view, derive the objective-conditioned agentic gradient, and hand candidate transitions to MSCA Operation/Repositioning for drift control and legitimate re-contracting. |
 | **MSCA** | Determine whether control capacity is sufficient under the current Objective Envelope and authority. |
+| **MSCA Operation / Repositioning** | Compare bound vs effective role, catalogue Type 0/1/2, instantiate P1/P2/P3, produce qualified `Π_RP=[A_RP,B_RP,C_RP,D_RP]`, emit `RepositionIntent` where external approval is required, and close with a bounded role/contract decision. |
 | **Human / institutional governance** | Own legitimate authority, policy, objectives and final decision rights. |
-| **EHD / epistemic signalling** | Carry bounded qualified state across boundaries without turning a signal into a command. See [01J Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). |
+| **EHD / ecosystem signalling** | Carry bounded qualified state, including `RepositionIntent` / `AuthorityResponse` compound profiles, across boundaries without turning a signal into a command. See [01J Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). |
 
 ---
 
 ## Canonical positioning law
 
-- [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) — current canonical working law for ecosystem-delta projection, objective-conditioned risk, non-fungible A/B/C/D composition, ACC/authority filtering and local choreography.
+- [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) — current canonical working law for ecosystem-delta projection and objective-conditioned candidate opportunity.
+- [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) — hard-decision layer for Type 0/1/2 catalogue, P1/P2/P3 posture, qualified repositioning A/B/C/D, re-contracting, escalation and role transition.
 
 ---
 
