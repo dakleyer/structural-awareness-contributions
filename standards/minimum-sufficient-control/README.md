@@ -21,7 +21,7 @@ Assessment state is separate from representation. Current working semantics dist
 The corpus is consolidated around three canonical documents. Existing artefacts are linked; pending documents remain deliberately unlinked so that this README never routes to a non-existent file.
 
 1. [**Canonical MSCA Architecture**](./00_CANONICAL_MSCA_ARCHITECTURE.md) — **CURRENT, v0.1 (23 September 2026).**  
-   Authoritative generic architecture for the S/E/C/P/M kernel, representation versus sufficiency assessment, authority/evidence boundaries, multi-optima and burden, canonical invariants, and downward/upward/horizontal/**normative-contractual** extensibility. It defines ACC coupling as a normative MSCA extension after compatibility/applicability qualification while preserving ACC's separate semantic ownership. Smart-city, DAOS and other domain material remain examples, profiles or provenance rather than definitions of the generic architecture.
+   Authoritative generic architecture for the S/E/C/P/M kernel, representation versus sufficiency assessment, authority/evidence boundaries, multi-optima and burden, canonical invariants, downward/upward/horizontal/**normative-contractual** extensibility, and the qualified MSCA position / mechanical alignment with a Regime Awareness delta. It defines ACC coupling as a normative MSCA extension after compatibility/applicability qualification while preserving ACC's separate semantic ownership. Smart-city, DAOS and other domain material remain examples, profiles or provenance rather than definitions of the generic architecture.
 
 2. **Canonical MSCA Operation — PENDING.**  
    This will define how an MSCA instance is operated and changed over time: declaration, representation, qualification, assessment, comparison, selection, authorization, execution, effect measurement, invalidation and requalification. Existing 01B/01D material provides part of this lineage but does not yet constitute the canonical operating specification.
@@ -96,6 +96,7 @@ No layer substitutes for another.
 | EA / MSCA / RA same-operation composition | **Candidate, documented in 01D** |
 | Generic upward/downward/horizontal/normative extensibility rules | **DEFINED in Canonical MSCA Architecture v0.1** |
 | Generic MSCA architecture specification | **CURRENT — [Canonical MSCA Architecture v0.1](./00_CANONICAL_MSCA_ARCHITECTURE.md)** |
+| Qualified MSCA A/B/C/D position and RA delta alignment | **DEFINED architecturally; transition lifecycle/Control Positioning still pending** |
 | Canonical MSCA operating specification | **PENDING** |
 | MSCA Control Positioning specification | **PENDING** |
 | ACC normative-extension coupling / Ecosystem Signalling compatibility boundary | **ARCHITECTURALLY DEFINED; runtime operation still pending** |
