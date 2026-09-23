@@ -26,4 +26,4 @@ These records are immutable and retained for public lineage. They must not be ci
 
 ## Next execution boundary
 
-Implement the harness, publish the qualifier-loss instrumentation trace and determinism trace citing v0.4, then execute P1, P2 and C0 together as one fixture family.
+Implement the harness, publish the qualifier-loss instrumentation trace and determinism trace citing v0.5, then execute P1, P2 and C0 together as one fixture family.
