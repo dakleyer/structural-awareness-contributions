@@ -342,6 +342,86 @@ Composition control includes:
 
 Composition control does not grant authority over another MSCA.
 
+### 10.1 Composition update input contract
+
+ECM_i may be updated from several qualified input classes. The list is extensible; no implementation is limited to these sources.
+
+Core inputs include:
+
+- **local epistemic movement:** a material change in the participant's [qualified epistemic position](../../research/ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md), including action/effect observations;
+- **qualified external signalling:** ReceivedSignals_i from [Ecosystem Signalling 01J](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md);
+- **focal MSCA/role state:** changes in Objective Envelope, Architectural Role, C/P/M capability, ACC binding, authority or local dependency state;
+- **direct observations / telemetry / owner updates:** qualified observations not necessarily originating from another agent;
+- **freshness/expiry:** a previously represented dependency, signal, authority or semantic summary becoming stale or expired;
+- **Regime Awareness feedback:** a qualified regime overlay, invalidation or targeted requalification request returned by RA.
+
+Each input retains source, scope, freshness, confidence/intensity, compatibility residual and other material qualifiers.
+
+### 10.2 Update triggers
+
+The map is not required to run on a fixed millisecond cadence.
+
+A participant MAY update ECM_i through any combination of:
+
+- **event trigger** — a material local event, action/effect, authority or dependency change;
+- **signal trigger** — one qualified signal or a composed set of signals crosses a declared materiality/confidence threshold;
+- **insufficiency trigger** — current evidence becomes stale, contradictory, too weak or insufficient for a represented dependency;
+- **epistemic-position trigger** — Π_EA,i changes materially in A/B/C/D;
+- **regime-feedback trigger** — RA identifies a dependency/context region requiring requalification or increased resolution;
+- **periodic trigger** — scheduled refresh appropriate to the participant's domain;
+- **owner/policy trigger** — explicit revalidation requested by a legitimate owner or control policy.
+
+Implementations SHOULD define hysteresis, debounce, evidence-change or equivalent anti-churn rules where repeated small signals could otherwise cause oscillatory map updates.
+
+A signal may therefore matter in two opposite ways:
+
+- enough qualified evidence arrives to justify adding/refining a relation; or
+- the evidence supporting an existing relation becomes insufficient, requiring downgrade, UNKNOWN, expiry or wider observation.
+
+### 10.3 Composition update operation
+
+A triggered composition update may:
+
+~~~text
+current ECM_i
++ local Π_EA,i changes
++ ReceivedSignals_i
++ focal MSCA / Role state
++ qualified direct observations
++ RA requalification feedback
+→ ECM_i(t+1)
+~~~
+
+The update may change:
+
+- semantic entries V_i;
+- dependency edges D_i;
+- representation resolution R_i;
+- qualification/provenance state Q_i.
+
+The update SHOULD preserve a bounded change-set:
+
+~~~text
+Δ_ECM,i = changed semantic/dependency/resolution/qualification state
+~~~
+
+Δ_ECM,i is **not** the Regime Awareness delta. It is a structural map change-set that may become input to Regime Awareness.
+
+### 10.4 Outputs from Composition & Control
+
+Composition & Control supplies downstream:
+
+- current ECM_i/version;
+- bounded focal dependency neighbourhood;
+- Δ_ECM,i when material;
+- newly unresolved/stale dependencies;
+- resolution/coverage gaps;
+- provenance/freshness;
+- explicit residual/UNKNOWN;
+- requested richer observations where appropriate.
+
+These outputs feed Ecosystem Awareness qualification and the [Regime Awareness interface 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md).
+
 ## 11. Focal MSCA and participant interest surface
 
 The participant normally reasons from:
@@ -420,11 +500,19 @@ Regime Awareness evaluates change against a represented operating regime.
 The ecosystem composition map supplies part of that representation:
 
 ~~~text
-ECM_i(t)
+Π_EA,i
++
+ReceivedSignals_i
++
+ECM_i / Δ_ECM,i
++
+focal MSCA + Architectural Role
 +
 EA-qualified window/context
-→ Regime Awareness observation/context
-→ Δ_RA
++
+other qualified observations
+→ Regime Awareness
+→ Δ_RA + regime-qualified overlay / requalification requests
 ~~~
 
 RA may observe:
@@ -437,7 +525,7 @@ RA may observe:
 - movement of a dependency from represented/current into capability frontier or residual;
 - divergence among related MSCAs.
 
-RA does not require the full ecosystem map.
+RA does not require the full ecosystem map. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family.
 
 Its output remains:
 
@@ -445,7 +533,7 @@ Its output remains:
 Δ_RA = [A_RA, B_RA, C_RA, D_RA]
 ~~~
 
-The participant later projects that delta onto its own MSCA/objectives to calculate the agentic gradient.
+RA may additionally return a regime-qualified overlay identifying which ECM/MSCA assumptions or dependency regions require requalification. Composition & Control owns persistence/update of ECM_i; RA does not become the map repository. The participant later projects Δ_RA onto its own focal MSCA/objectives to calculate the agentic gradient.
 
 ## 15. Ecosystem composition is not global orchestration
 
