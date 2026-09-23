@@ -110,7 +110,8 @@ A bounded ACC projection may include:
 - hard / non-compensable participation constraints;
 - autonomy bounds;
 - validity / expiry / supersession;
-- suspension / revocation / exit conditions.
+- suspension / revocation / exit conditions;
+- an applicable signalling-profile / signalling-contract reference where the participation profile requires specific communication behaviour.
 
 ACC does not erase an opportunity from the ecosystem landscape. It constrains whether that participant may take a candidate transition.
 
@@ -143,9 +144,11 @@ A participant may deliberately disclose only part of its state. It may reveal mo
 
 A participant may also use received signals to update trust in another participant. For example, if another participant independently reveals a participation constraint or local condition that matches undisclosed information already held by the receiver, that compatibility may increase confidence in the sender's model. It is not proof of global truth and must not become self-confirmation.
 
-A regulated domain may impose a signalling profile requiring selected fields, proofs, reporting frequency, revocation state, auditability or incident disclosure.
+A regulated domain or an applicable ACC / participation profile may impose a signalling profile requiring selected fields, recipient classes, identity checks, authority/delegation evidence, freshness, proofs, reporting frequency, revocation state, auditability or incident disclosure.
 
 That requirement belongs to the applicable governance / participation profile. It does not turn the general ecosystem architecture into a mandatory global signalling mesh.
+
+Where such a profile applies, the obligation to signal is no longer optional for that participant within the profile's legitimate scope. The ACC owns the obligation/admissibility condition; Ecosystem Signalling owns the bounded semantic exchange, compatibility qualification and normalization needed to make the resulting signal usable by EA/MSCA without creating authority or global truth.
 
 ## 5. Signal reception and trust update
 
@@ -181,11 +184,17 @@ Possible receiver states include, for example:
 
 The sender's claim that it has broad visibility, many peers, high confidence or exhausted further acquisition capacity is itself a claim to be qualified, not a substitute for independent evidence.
 
+The receiving participant owns the **reliance boundary** for its decision. Receiving, decoding or successfully mapping a signal does not oblige the receiver to rely on it. The receiver may use it, constrain it, seek corroboration, hold it unresolved or reject it according to its own qualified frame.
+
+Ecosystem Signalling is not an oracle. It does not reconstruct untransmitted internal state, infer missing truth merely because a device class is known, or convert compatibility metadata into ecosystem-wide certainty. Receiver-side enrichment is permitted only where a verified profile, device capability model, protocol contract or other qualified evidence justifies the mapping, and the resulting qualification remains receiver-local.
+
 ## 6. Signalling and the opportunity gradient
 
 The purpose of signalling is not only incident defence. It can alter the opportunity surface visible to another participant.
 
 The participant-local opportunity assessment uses its own objective, epistemic position, MSCA, resources and received signals to rank candidate epistemic or control actions.
+
+Only received information that has survived local semantic/compatibility qualification and can be represented as bounded qualified state enters this calculation as `ReceivedSignals_i`. Opaque, unsupported or unmappable payloads may be retained as evidence or trigger requalification, but they MUST NOT be treated as normalized inputs to the opportunity gradient or MSCA assessment merely because transport succeeded.
 
 Conceptually:
 
@@ -322,6 +331,72 @@ The receiver SHOULD retain enough lineage to reconstruct, where material:
 - freshness and revalidation conditions.
 
 This does not create a new central compatibility service, mandatory adapter catalogue or fifth epistemic position. It is a receiver-local qualification rule within the existing signalling and A/B/C/D architecture.
+
+### Compatibility profiles and handshake-free legacy operation
+
+A live handshake is one way to establish semantic coupling, but it is not the only one.
+
+For legacy, telemetry or otherwise non-agentic devices, a receiver MAY use a preconfigured or previously verified **compatibility profile** when the device/protocol identity can be bound with sufficient confidence. Such a profile may describe, for example:
+
+- protocol/schema/version;
+- signal meaning and units;
+- device class and measurement scope;
+- deterministic or probabilistic output semantics;
+- supported/unsupported fields;
+- known measurement or reporting limits;
+- acquisition cadence and freshness behaviour;
+- available but unused sensing/measurement capability;
+- known blind spots;
+- mapping rules into A/B/C/D and other signal qualifiers;
+- conditions that invalidate the mapping.
+
+This permits useful ecosystem communication without requiring the legacy device itself to implement an EA handshake or native A/B/C/D signalling.
+
+A known device/profile may justify receiver-side population of additional epistemic qualification. For example, if a telemetry device is verified to measure only a fixed set of variables, the receiver may explicitly represent what is determined by the current reading, what recognized state remains unresolved, what additional state is potentially obtainable within that device's known capability, and what remains structurally outside the represented capability boundary.
+
+A deterministic protocol declaration may also justify a strong determination/confidence qualifier **for the bounded signal semantics it actually guarantees**. It does not establish that the device knows the whole relevant world, and it does not erase C or D outside the verified device/profile scope.
+
+If profile knowledge is incomplete, stale or only approximately mapped, the mapping itself carries a compatibility/capability residual. The receiver MUST preserve that limitation rather than filling the missing semantics by assumption.
+
+### ACC-defined signalling contract / module
+
+An applicable ACC / participation profile MAY reference or require a specialised signalling contract or module for a participant, role, domain or interaction.
+
+Such a module may define or reference:
+
+- who must signal and to which participant, role or recipient class;
+- identity/binding and identity-review requirements;
+- accepted trust anchors or attestation requirements;
+- authority and delegation evidence;
+- required decision/scope binding;
+- mandatory or optional epistemic qualifiers;
+- provenance/source-dependence requirements;
+- freshness, cadence, expiry and revalidation rules;
+- acknowledgement/challenge/response semantics;
+- revocation/suspension state;
+- privacy/disclosure class;
+- permitted transport/profile versions;
+- domain-specific fields and extensions.
+
+The specialised module does not replace generic Ecosystem Signalling. It is loaded through it as an **extensible signalling profile** and must expose enough semantics for the generic layer to determine what can be mapped, what cannot, and under which bounded reliance conditions.
+
+Conceptually:
+
+ACC / participation profile
+-> signalling-contract reference
+-> signalling-module load / binding
+-> identity + authority + freshness qualification
+-> generic Ecosystem Signalling compatibility mapping
+-> receiver-local qualified epistemic state
+-> MSCA / opportunity-gradient use where representable
+
+This is the **upward compatibility path**: a richer or domain-specific contract can add requirements and semantics while remaining interoperable with the generic signalling substrate.
+
+The legacy/profile route above is the corresponding **downward compatibility path**: a simpler device can contribute useful bounded signals even when it does not implement the richer contract itself.
+
+In either direction, compatibility is explicit and bounded. A specialised signalling module may improve precision, identity assurance, authority proof or freshness guarantees, but any semantics that cannot be faithfully mapped into the generic receiver frame remain UNKNOWN/unsupported and contribute to the compatibility residual.
+
+A specialised module is usable for EA/MSCA/gradient processing only to the extent that its outputs can be normalized into the generic qualified signalling model. Transport-only interoperability is insufficient.
 
 Low compatibility is a valid outcome. The handshake does not require the parties to share a worldview, objective or participation profile.
 
