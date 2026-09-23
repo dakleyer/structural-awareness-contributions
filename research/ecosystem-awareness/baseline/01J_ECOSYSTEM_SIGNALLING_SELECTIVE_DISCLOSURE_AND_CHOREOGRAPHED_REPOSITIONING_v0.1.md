@@ -98,7 +98,7 @@ The MSCA is the main local control-sufficiency object: it represents the partici
 
 ### 3.3 ACC / participation-profile projection
 
-ACC is **semantically separate from MSCA but extension-coupled at the control-architecture boundary**. Under the [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md), an applicable ACC may be loaded as a normative MSCA extension profile after compatibility/applicability qualification. It is not an MSCA subset and may carry richer governance semantics that remain externally owned.
+ACC is **semantically separate from MSCA but extension-coupled at the control-architecture boundary**. Under the [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md), an applicable ACC may be loaded as a normative MSCA extension profile after compatibility/applicability qualification. It is not an MSCA subset and may carry richer governance semantics that remain externally owned. Where a signal relies materially on ACC identity, membership, issuer, mutation authority or version continuity, the receiver may consume the bounded references defined by the [ACC Lineage, Identity & Authority Binding Profile](../../../standards/minimum-sufficient-control/01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md); signalling does not itself validate or create that lineage.
 
 A bounded ACC projection may include:
 
