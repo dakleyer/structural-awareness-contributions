@@ -238,6 +238,8 @@ An ACC may therefore be **strictly richer** than the MSCA instance it extends.
 
 ## 8. ACC as a normative MSCA extension
 
+The canonical lineage/identity/authority binding for this extension is defined in [ACC Lineage, Identity & Authority Binding Profile](./01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md). This architecture section defines the coupling; the companion profile defines how root, lineage, subject binding, mutation authority, validity and successor continuity are represented.
+
 ### 8.1 Extension mapping
 
 A compatible ACC may affect MSCA through the following bindings.
