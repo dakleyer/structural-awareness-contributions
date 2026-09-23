@@ -297,18 +297,28 @@ The principal current example is the **Agentic Citizenship Contract (ACC)**.
 
 The pure architectural relation is:
 
-> **ACC is a separate semantic/governance object that may be loaded into a participant's MSCA as a normative extension profile once compatibility is established. It is not an MSCA subset, and MSCA does not subsume ACC's full semantics.**
+> **ACC is a separate semantic/governance object that may be loaded into an MSCA as a compatible normative extension profile. An MSCA may expose several compatible ACC profiles for different roles, participant classes or interaction domains. An ACC becomes participant-specific only when it is bound through a concrete Architectural Role or another explicit subject/applicability binding.**
 
-This resolves two requirements simultaneously:
+This resolves three requirements simultaneously:
 
 - ACC retains independent semantic ownership of membership, participation, obligations, prohibitions, lineage, governance and signalling duties;
-- MSCA gains a formal way to apply those constraints to its control representation and sufficiency assessment.
+- MSCA gains a formal way to expose one or more contractual frameworks inside the same Objective Envelope;
+- the [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md) identifies which ACC actually constrains a participant **for that role**, without treating every ACC visible in the MSCA as that agent's contract.
 
-An ACC may therefore be **strictly richer** than the MSCA instance it extends.
+ACC remains neither an MSCA subset nor a universal agent property. It may be **strictly richer** than the MSCA instance it extends.
 
 ## 8. ACC as a normative MSCA extension
 
 The canonical lineage/identity/authority binding for this extension is defined in [ACC Lineage, Identity & Authority Binding Profile](./01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md). This architecture section defines the coupling; the companion profile defines how root, lineage, subject binding, mutation authority, validity and successor continuity are represented.
+
+The MSCA-level distinction is:
+
+~~~text
+ACC_Set(X) = compatible contractual/participation frameworks available in this MSCA
+ACC_Role(i,X) = the ACC bound to participant i for one concrete Architectural Role
+~~~
+
+ACC_Set(X) may contain several profiles. ACC_Role(i,X) is established only through a concrete role/subject binding. Additional overlapping ACCs may constrain the participant without becoming the role-defining ACC.
 
 ### 8.1 Extension mapping
 
@@ -467,17 +477,23 @@ These remain external semantic/operational owners.
 
 MSCA may reference their state, require them as preconditions and be invalidated when they change. It does not create them.
 
-## 12. Architecture versus operation versus control positioning
+### 11.6 MSCA Architectural Role
+
+The [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md) defines the participant-specific functional projection of one instantiated MSCA under one Objective Envelope: contribution, inputs/outputs, dependencies, C/P/M projection, role-bound ACC and authority references.
+
+Role is static architectural placement. Role change/repositioning belongs to the future operation layer.
+
+## 12. Architecture versus operation versus architectural role
 
 This document defines **architecture**, not the complete runtime protocol.
 
 The following are intentionally separate canonical artefacts:
 
 - **Canonical MSCA Architecture — this document:** objects, invariants, extension rules and boundaries.
-- **Canonical MSCA Operation — pending:** lifecycle for declare → represent → qualify → assess → compare → select → authorize → execute → measure → requalify.
-- **MSCA Control Positioning — pending:** representation of the participant's current location relative to supported configurations, gaps, available transitions, burden, switching cost, authority constraints and response horizon.
+- **MSCA Architectural Role — current:** the participant's static functional/contractual location inside one instantiated MSCA and one Objective Envelope.
+- **Canonical MSCA Operation / Repositioning — pending:** lifecycle for declare → represent → qualify → assess → compare → select → authorize → execute → measure → requalify, including any transition from one Architectural Role/configuration to another.
 
-This document may state required boundaries for operation/positioning but does not pre-empt their full semantics.
+This document defines the architecture and links the static role object. It does not pre-empt the future transition/repositioning semantics.
 
 ## 13. Source profiles and provenance
 
