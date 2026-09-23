@@ -50,6 +50,8 @@ flowchart LR
 
 **MSCA is cross-cutting:** control sufficiency is re-assessed when the frame, Objective Envelope or authority changes. It does not create authority and it does not own the Semantic Window.
 
+The current gradient rule is defined in the [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md): Regime Awareness supplies a qualified ecosystem delta; each participant projects that delta onto its own MSCA/dependencies and ranks candidate repositioning by expected reduction of objective-conditioned uncertainty/risk, subject to ACC, authority, capability and time.
+
 ---
 
 ## Three technical gates
@@ -102,10 +104,16 @@ Owns control sufficiency:
 |---|---|
 | **Regime Awareness** | Detect whether the frame that supported the current position is still valid. |
 | **Ecosystem Awareness** | Qualify what can be relied on, what remains unresolved and what needs requalification. |
-| **Ecosystem Positioning** | Maintain the participant-local situated view and determine where additional epistemic effort has value. |
+| **Ecosystem Positioning** | Maintain the participant-local situated view and translate qualified ecosystem change into an objective-conditioned local gradient and repositioning pressure. |
 | **MSCA** | Determine whether control capacity is sufficient under the current Objective Envelope and authority. |
 | **Human / institutional governance** | Own legitimate authority, policy, objectives and final decision rights. |
-| **EHD / epistemic signalling** | Carry bounded qualified state across boundaries without turning a signal into a command. See [01J Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_DISTRIBUTED_OPPORTUNITY_v0.1.md). |
+| **EHD / epistemic signalling** | Carry bounded qualified state across boundaries without turning a signal into a command. See [01J Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). |
+
+---
+
+## Canonical positioning law
+
+- [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) — current canonical working law for ecosystem-gradient projection, objective-conditioned risk, non-fungible A/B/C/D composition, ACC/authority filtering and local choreography.
 
 ---
 
@@ -113,7 +121,7 @@ Owns control sufficiency:
 
 - [01H — Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity](../../research/ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md)
 - [01I — Agentic Citizenship Contract](../../research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md)
-- [01J — Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_DISTRIBUTED_OPPORTUNITY_v0.1.md)
+- [01J — Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md)
 - [00G — Collective False-Context Convergence ("Bar-to-Napoleon" Cascade)](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md)
 
 These are additive working extensions/cases. They do not redefine the frozen baseline.
