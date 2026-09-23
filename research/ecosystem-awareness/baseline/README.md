@@ -28,6 +28,24 @@ Where a file carries more specific status prose, freeze language or a controlled
 
 ## Problem-to-architecture reading route
 
+### Corpus at a glance
+
+This table is an additional reader map. It does **not** replace or collapse the full annotated route below, and it does not change the status or ownership of any source.
+
+| Step | Document / route | Question it answers | Status |
+|---|---|---|---|
+| **1** | [01 — Integrated Foundational Theory v0.5](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) | Why can a bounded representation not close an open, changing ecosystem? | **Integrated working successor** |
+| **1** | [02 — Epistemic Safety Principles & Control Matrix v0.4](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) | Which epistemic/control boundaries prevent bounded evidence from becoming an unjustified global conclusion? | **Controlled / frozen** source route |
+| **2** | [00 — Canonical Requirements, Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | What must a sufficiently good solution demonstrate, and how can it fail? | **Canonical working** |
+| **3–4** | [00E — 100 Million Tokens](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F — Smart-City Mobility Divergence](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) | Where can locally plausible systems fail under compounding context loss or distributed divergence? | **Canonical working** reference scenarios; not executed benchmark results |
+| **5** | [00G — Collective False-Context Convergence](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md) | How can correlated narrative/signalling produce false contextual convergence and authority confusion? | **Additive annex / candidate scenario**; 00D integration pending |
+| **6** | [00 — Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) | How do Ω, U, R_U, W(d,t), A/B/C/D and participant-local qualification fit together? | **Canonical working** reader / reconciliation page |
+| **6** | [03 — Functional Architecture v0.4](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) | Which F1–F9 functions implement decision-scoped qualification, composition, requalification and learning? | **Controlled / frozen** source route |
+| **6** | [04 — General Functional Interfaces & Agentic Security v0.5](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) | How does qualified state cross agent, security, evidence and governance boundaries? | **Integrated working successor** |
+| **6 — extensions** | [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) · [01I](./01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md) · [01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) | How are participant locality, admissible participation and qualified ecosystem signalling projected into the wider positioning architecture? | **Additive working extensions**; distinct semantic ownership retained |
+| **7** | [00D — Canonical Architecture Benchmark & Reference-Scenario Evidence v0.2](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) | How is the EA differential EA-H1–EA-H4 compared against B0–B3 under explicit evidence/falsification rules? | **Canonical working** benchmark design; comparative execution pending |
+| **Application** | [EA / FG-TIDA application package](../fg-tida/README.md) | How is the general architecture projected into the current FG-TIDA source/process boundary? | **Application package**; cannot redefine general EA semantics |
+
 For an industrial or research reader evaluating the proposition from first principles, use this order:
 
 1. [01 — Integrated Foundational Theory](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and [02 — EA Principles and Control Matrix](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md): the foundation and principles that precede the requirements.
