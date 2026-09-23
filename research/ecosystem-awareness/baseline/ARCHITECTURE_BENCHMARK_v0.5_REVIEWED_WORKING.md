@@ -1,3 +1,5 @@
+> **Preserved predecessor — superseded for current benchmark reading by [00D Canonical Architecture Benchmark & Evidence v0.2](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md).** Kept for provenance. Do not cite as the current benchmark.
+
 # Ecosystem Awareness — Reviewed Architecture Benchmark
 
 **Benchmark review:** v0.5 working successor, 15 September 2026  
