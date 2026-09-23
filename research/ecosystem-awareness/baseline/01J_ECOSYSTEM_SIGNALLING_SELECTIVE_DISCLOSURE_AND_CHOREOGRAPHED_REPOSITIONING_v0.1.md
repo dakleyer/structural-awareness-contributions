@@ -137,7 +137,7 @@ The receiver may recognize, contest or reject that chain according to its own ac
 
 ### 3.5 Repositioning intention — compound signalling profile
 
-[Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) defines `RepositionIntent_i` as a **compound signalling profile**.
+[Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) defines every candidate `RepositionIntent_i` as a **compound signalling profile**. It may be consumed locally by the participant's own authority/control boundary or transmitted externally when another authority/ACC owner/concurrent participant must decide.
 
 It is not a fifth primitive signal class. It packages bounded parts of the existing four classes together with the proposed transition:
 
