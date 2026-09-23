@@ -13,7 +13,7 @@
 | **Execution ceiling today** | Synthetic challenge pack and offline trace audit; sandbox/sidecar only after a partner and preregistered protocol exist |
 | **Control route** | [Ecosystem Awareness / Positioning Living Workplan](./WORKPLAN.md) |
 | **Predecessor** | [Decision Boundary Challenge v0.1](./DECISION_BOUNDARY_CHALLENGE_v0.1.md) — preserved working predecessor |
-| **FG-TIDA specification relation** | Bidirectionally mapped to [EA / FG-TIDA Specification Preparation v0.3 Draft](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) and the [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md) |
+| **FG-TIDA specification relation** | Bidirectionally mapped to [EA / FG-TIDA Specification Preparation v0.3 Draft](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) and the [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1.md) |
 | **Benchmark relation** | Parallel applied-evidence route; does not supersede [00D v0.2](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) or the bounded [00D v0.3 draft](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) |
 
 ---
@@ -373,7 +373,7 @@ For fixed blinded traces, record:
 
 The earlier brainstorming notion of **Control Preservation Efficiency (CPE)** remains a research placeholder for the joint idea of preserving useful agency while preventing illegitimate action at bounded control cost.
 
-**No CPE formula or aggregate score is defined in v0.1.**
+**No CPE formula or aggregate score is defined in v0.2.**
 
 It MUST NOT be formalized until:
 
@@ -437,8 +437,8 @@ To avoid collision with the canonical 00D evidence grades E1–E4 and the EP mod
 | Level | Evidence state | Minimum basis | What may be said |
 |---|---|---|---|
 | **DBC-EL0 — Defined** | Semantics, fixture and falsifiers are specified. | Reviewable protocol and frozen expected outcomes. | The property is testable. |
-| **DBC-EL1 — Deterministic** | A controlled fixture has been executed reproducibly. | Versioned harness, deterministic trace and expected-result comparison. | The configured system produced the observed result in the controlled fixture. |
-| **DBC-EL2 — Cross-theme mapped** | Independently owned semantic outputs are mapped without translation. | Named source owners, version-pinned mappings, positive/boundary/rejection cases. | The interfaces can be tested together under the declared mapping. |
+| **DBC-EL1 — Cross-theme mapped** | Independently owned semantic outputs are mapped and reviewed without translation. | Named source owners, version-pinned mappings, explicit N/A/unresolved fields and expected positive/boundary/rejection outcomes. | The interfaces are semantically ready for a frozen executable profile. |
+| **DBC-EL2 — Deterministic** | The reviewed mapping has been executed reproducibly in a controlled fixture. | Versioned adapter/harness, deterministic trace and expected-result comparison. | The configured system produced the observed result in the controlled fixture. |
 | **DBC-EL3 — Executable comparative** | Strong native/challenger configuration and candidate configuration have been run under matched conditions. | Frozen comparator, resources, authority, facts, measures and adjudication. | A bounded comparative result exists for the declared envelope. |
 | **DBC-EL4 — Interoperable / independently governed** | The property survives across independent producer/consumer implementations or domains. | Versioned adapter/profile, separate governance, cross-implementation traces. | The tested semantics interoperate beyond one implementation. |
 | **DBC-EL5 — Replicated / applied** | An independent team or external industrial/research partner reproduces the material result. | Independent execution or bounded external applied run with limitations published. | The bounded finding has external replication/applied evidence. |
@@ -561,7 +561,7 @@ Results may later inform a standards/pre-standardization contribution only throu
 
 ## 13A. FG-TIDA cross-theme projection
 
-The general DBC remains programme-independent. Its FG-TIDA projection is maintained separately as the [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md), and its specification disposition is maintained in [EA / FG-TIDA Specification Preparation v0.3 Draft](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md).
+The general DBC remains programme-independent. Its FG-TIDA projection is maintained separately as the [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1.md), and its specification disposition is maintained in [EA / FG-TIDA Specification Preparation v0.3 Draft](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md).
 
 The FG-TIDA projection has a narrower purpose:
 
@@ -752,7 +752,7 @@ The first meaningful evidence step is a preregistered Phase-0 challenge-pack exe
 - [01J — Ecosystem Signalling & Choreographed Repositioning](./baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md)
 - [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md)
 - [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md)
-- [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md)
+- [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1.md)
 - [EA / FG-TIDA Specification Preparation v0.3 Draft](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md)
 - [FG-TIDA Theme #13 — Nelson executable-profile proposal, 23 Sep 2026](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5802619701)
 - [FG-TIDA Theme #16 — Nelson common-UC-6 mapping proposal, 23 Sep 2026](https://github.com/FG-TIDA/themes/issues/16#issuecomment-5803023066)
