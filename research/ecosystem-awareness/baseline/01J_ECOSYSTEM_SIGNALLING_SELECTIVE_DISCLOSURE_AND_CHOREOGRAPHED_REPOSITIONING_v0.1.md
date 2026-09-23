@@ -358,6 +358,94 @@ A deterministic protocol declaration may also justify a strong determination/con
 
 If profile knowledge is incomplete, stale or only approximately mapped, the mapping itself carries a compatibility/capability residual. The receiver MUST preserve that limitation rather than filling the missing semantics by assumption.
 
+#### Worked example — deterministic telemetry device
+
+Consider a legacy telemetry device that emits only a compact temperature payload and never emits native EA qualifiers.
+
+Assume the receiver has a verified compatibility profile stating that:
+
+- device identity/model and firmware family are bound;
+- payload field `T` is a deterministic fixed-point Celsius value;
+- checksum-valid decoding of `T` is deterministic;
+- the device samples one local temperature channel every five seconds;
+- the physical sensor has a documented measurement tolerance;
+- a diagnostic/status register and raw sensor channel are available on request but are not part of the normal emitted signal;
+- the device has no capability to observe humidity, occupancy, external weather, room topology or downstream operational effects.
+
+A received payload may therefore be normalized by the receiver as follows:
+
+| Receiver-local element | Example interpretation |
+|---|---|
+| **A — sufficiently determined** | `T = 21.4 °C @ 10:15:05` is sufficiently determined as the value encoded by this device at that timestamp. If identity, checksum and profile binding are valid, **protocol/mapping confidence may be 1.0** because the decoding rule is deterministic. Physical measurement accuracy remains separately bounded by the documented sensor tolerance; mapping certainty is not the same as perfect truth about the environment. |
+| **B — recognized and unresolved** | The profile can pre-populate recognized unresolved conditions that the ordinary payload does not settle, for example current calibration drift, whether the local probe is representative of the wider room, or a diagnostic state that is not emitted in the normal frame. These are not UNKNOWN merely because the device does not send an explicit B field; the receiver knows from the verified profile that they are relevant and unresolved. |
+| **C — recognized and potentially obtainable** | The profile can identify information obtainable with current device/system capability but not currently acquired, for example the diagnostic/status register, raw sensor channel, or a supported higher-frequency sample mode. C is therefore known from capability metadata even though the current telemetry message does not contain it. If the verified profile establishes that no additional state is obtainable under the current capability boundary, C may be explicitly represented as empty **within that bounded profile**, without implying that D is empty. |
+| **D — structural residual** | Conditions outside the device/profile capability boundary remain residual: humidity, occupancy, other rooms, unmodelled environmental effects, hidden dependencies and any decision-relevant state not covered by the verified sensing model. A separate `D_compatibility` is added if the receiver's mapping from this device/protocol remains approximate or incomplete. |
+
+The important distinction is:
+
+> **absence of native epistemic fields does not imply absence of epistemic qualification.**
+
+A receiver with verified knowledge of the sender/device class may populate A/B/C/D from the combination of the live signal and the compatibility profile. What it MUST NOT do is infer beyond the verified profile boundary.
+
+A deterministic device can therefore participate usefully in Ecosystem Signalling without becoming an agent. The receiver may know with certainty how to decode what the device says, know which unresolved conditions remain, know which additional observations are obtainable, and still preserve a structural residual beyond the device's capability.
+
+#### Compatibility-profile acquisition and discovery
+
+Compatibility profiles need not all be manually preloaded.
+
+A receiver MAY obtain or construct a candidate compatibility mode through several bounded routes:
+
+1. **Preloaded profile** — vendor/device/protocol mappings installed beforehand.
+2. **Previously verified local profile** — a mapping learned and validated in an earlier interaction and retained with version, provenance and freshness.
+3. **Handshake/negotiation** — participants expose enough schema/capability information to establish a mapping dynamically.
+4. **Profile/adapter registry lookup** — the receiver queries an authorized local or distributed catalogue for a compatible mapping.
+5. **Observed-protocol discovery** — the receiver fingerprints message structure, identifiers, units, cadence, schema/version markers, challenge/response behaviour or other observable invariants to identify a known profile.
+6. **Reasoning-assisted synthesis** — where the receiver has local reasoning capability, including a specialised small language model (SLM) or other inference component, it may propose a candidate mapping from available specifications, schemas, examples, observed signals and known protocol families.
+
+A reasoning component does not make the candidate mapping true. A discovered or synthesized profile remains **UNVERIFIED / PROVISIONAL** until enough evidence exists to qualify it for the intended decision.
+
+A candidate profile may be promoted toward operational use through checks such as:
+
+- exact schema/version match;
+- signed or trusted metadata;
+- test vectors;
+- checksum or encoding invariants;
+- challenge/response;
+- known-unit/range validation;
+- repeated observation consistency;
+- comparison against an authoritative specification;
+- device attestation;
+- controlled readback or diagnostic query;
+- bounded human/owner approval where required.
+
+The result may be represented as:
+
+```
+unknown signal
+-> profile discovery / candidate synthesis
+-> provisional mapping
+-> validation / falsification
+-> native | bounded-compatible | unsupported
+-> qualified receiver-local A/B/C/D
+```
+
+The receiver SHOULD record at least:
+
+- profile source and provenance;
+- discovery/synthesis method;
+- protocol/schema/version evidence;
+- validation evidence;
+- mapping confidence;
+- capability boundary;
+- known unresolved conditions;
+- obtainable-but-not-acquired state;
+- structural residual;
+- expiry/revalidation trigger.
+
+A profile synthesized by an SLM or other reasoning component SHOULD default to bounded compatibility until independently validated. Where semantic ambiguity is material, the mapping residual remains in D and the signal may be restricted to observation, corroboration or requalification rather than direct control use.
+
+Compatibility discovery is therefore itself an epistemic process: the system may search for a way to understand a signal, but it must preserve uncertainty about the correctness and completeness of that understanding.
+
 ### ACC-defined signalling contract / module
 
 An applicable ACC / participation profile MAY reference or require a specialised signalling contract or module for a participant, role, domain or interaction.
