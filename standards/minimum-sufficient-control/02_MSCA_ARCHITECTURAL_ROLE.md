@@ -322,7 +322,18 @@ authority = current reference(s)
 
 Occupying a role does not transfer ownership of S, the MSCA, the ACC lineage or another participant's role.
 
-## 10. Role and qualified epistemic/MSCA position are different
+## 10. Role inside the ecosystem composition
+
+A participant's role is defined in one focal MSCA, but that MSCA may itself sit inside the wider [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map.
+
+The role therefore has two structural views:
+
+- **inside view:** exact function, inputs/outputs, dependencies, C/P/M, ACC and authority within the focal MSCA;
+- **outside view:** only those cross-MSCA dependencies from the ecosystem composition map that are materially relevant to this role or its Objective Envelope.
+
+The role does not need to import the full ecosystem composition. It consumes the bounded dependency neighbourhood needed for its process/control responsibilities.
+
+## 11. Role and qualified epistemic/MSCA position are different
 
 Three objects must remain distinct.
 
@@ -344,7 +355,7 @@ Conversely, it can possess rich ecosystem knowledge while occupying a very narro
 
 Role is therefore **structural/function assignment**, not epistemic confidence.
 
-## 11. Worked role example — route-planning participant
+## 12. Worked role example — route-planning participant
 
 Using the logistics/mobility envelope above, suppose an MSCA contains:
 
@@ -372,7 +383,7 @@ The role does not own the whole MSCA.
 
 It also does not own the Objective Envelope merely because its planning function optimizes against it.
 
-## 12. Multiple roles and role granularity
+## 13. Multiple roles and role granularity
 
 One participant may perform several functions inside the **same** MSCA.
 
@@ -392,7 +403,7 @@ The correct granularity is the smallest role decomposition needed to preserve ma
 
 Role decomposition must not be used to hide shared dependencies or manufacture independent corroboration.
 
-## 13. What this document does not define
+## 14. What this document does not define
 
 This document does not define:
 
@@ -412,7 +423,7 @@ This document freezes only the static semantic object:
 
 > **where this participant is, functionally and contractually, inside this MSCA and this Objective Envelope.**
 
-## 14. Conformance conditions
+## 15. Conformance conditions
 
 An implementation violates this role model if it:
 
@@ -427,7 +438,7 @@ An implementation violates this role model if it:
 - treats architectural role as equivalent to epistemic position;
 - changes role while pretending the static role document itself defines repositioning.
 
-## 15. Canonical thesis
+## 16. Canonical thesis
 
 MSCA represents one objective-bound control/process architecture.
 
