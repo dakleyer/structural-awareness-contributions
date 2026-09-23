@@ -151,7 +151,7 @@ and classify its management condition against the canonical EA taxonomy:
 TypeClass_i(e) ∈ { TYPE_0_CONDITION, TYPE_1_FAILURE, TYPE_2_FAILURE, NOT_ESTABLISHED }
 ~~~
 
-The meanings remain those of the canonical EA topology:
+The meanings remain those of the [Canonical EA Architecture Topology](../../research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#4-conditions-and-failures-are-not-additional-poles):
 
 - **Type 0 condition** — structural non-determination despite correct local management. Residual/UNKNOWN may remain, but it is honestly represented and managed within a bounded legitimate response.
 - **Type 1 failure** — acknowledged uncertainty without bounded legitimate closure: search, HOLD, review, escalation, context expansion or verification consumes the capacity/time needed to act.
