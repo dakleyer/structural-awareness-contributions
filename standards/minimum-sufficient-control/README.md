@@ -16,6 +16,21 @@ An S/E/C/P/M **representation** may exist before sufficiency can be assessed and
 
 Assessment state is separate from representation. Current working semantics distinguish **UNASSESSED**, **SUPPORTED**, **FAILED** and **UNRESOLVED**. A supported configuration is always scoped to its declared S/E conditions, evidence, authority, version and validity boundary; it is not proof of a universal or global minimum.
 
+## Programme lineage and source provenance
+
+MSCA is the control-sufficiency branch of the wider [Structural Awareness programme](../../README.md), not a stand-alone claim that control can be optimized independently of evidence, human capacity or regime validity.
+
+| Source line | Contribution to the MSCA question | Boundary |
+|---|---|---|
+| [The Cost of Clarity](https://tegrity.ai/series/cost_of_clarity/) | Makes information/coordination effort and burden part of the control problem | Economic/conceptual lineage, not an MSCA validation |
+| [Human Intelligence Debt](https://tegrity.ai/series/human-intelligence-gap/) | Treats human review, reconciliation and intervention capacity as finite resources | Motivates capacity accounting; does not define the MSCA kernel |
+| [Informational Friction](https://tegrity.ai/series/informational_friction/) | Explains why represented structure and real operational flow can diverge | Conceptual precursor to environment/dependency qualification |
+| [Regime Awareness in Adaptive Systems](https://tegrity.ai/series/regime-awareness-in-adaptive-systems/) | Tests whether the S/E assumptions supporting a control posture remain valid | Neighbouring architecture; RA does not own MSCA sufficiency |
+| [EA Article II — Minimum Control & Multi-Optima](../../research/ecosystem-awareness/baseline/ARTICLE_02_MINIMUM_CONTROL_ARCHITECTURE_MULTI_OPTIMA.md) | Research precursor for plural sufficient configurations and burden trade-offs | Lineage; earlier notation is not canonical S/E/C/P/M |
+| [FG-AI4SSC input FGAI4SSC-I-097](../../submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/README.md) | Public standards-provenance anchor for Minimum Sufficient Control | Submitted input; not adoption or validation |
+
+The canonical MSCA documents below are cumulative successors/clarifications over that lineage. Source papers and submissions remain separately citable for what they actually stated at their publication date.
+
 ## Canonical MSCA document set
 
 The static MSCA corpus is consolidated around three canonical documents:
