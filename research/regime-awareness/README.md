@@ -33,7 +33,7 @@ RA may consume additional qualified sources.
 
 Evaluation may be event-driven, threshold-triggered or periodic. Material local epistemic movement, sufficient external signalling, signalling insufficiency/staleness, dependency-map change, action/effect mismatch, role/authority/capability change or explicit owner policy may all trigger re-evaluation.
 
-Outputs are `Δ_RA=[A_RA,B_RA,C_RA,D_RA]`, a regime-qualified overlay over the represented map/frame, and bounded requalification requests. Composition & Control owns persistent `Cart_i` updates; RA does not become the Ecosystem Cartography repository. A material RA output may itself be selectively signalled to peers.
+Outputs are `Δ_RA=[A_RA,B_RA,C_RA,D_RA]`, a regime-qualified overlay over the represented map/frame, and bounded requalification requests. Composition & Control owns persistent `Cart_i` updates; RA does not become the Ecosystem Cartography repository. These outputs feed [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), which owns drift control and role/contract transition. A material RA output may itself be selectively signalled to peers.
 
 ## Architecture links
 
