@@ -14,7 +14,7 @@ An agent or institution can be locally correct while the wider decision remains 
 2. [**Minimum Sufficient Control / MSCA**](../../standards/minimum-sufficient-control/README.md) — the control-sufficiency and authorized-response line, including its proposed interfaces with EA.
 3. [**Regime Awareness**](../regime-awareness/README.md) — the operating-validity line, including Minimalistic Regime-Aware Early Warning Systems and the Regime Change Detection review route.
 
-The canonical corpus index now also routes two additive, non-frozen extensions: **01H Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity**, which makes the distributed/no-supercontroller reading explicit, and **01I Agentic Citizenship Contract**, a separate human-governed participation/constraint neighbour outside the EA core.
+The canonical corpus index now also routes three additive, non-frozen extensions: **01H Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity**, which makes the distributed/no-supercontroller reading explicit; **01I Agentic Citizenship Contract**, a separate human-governed participation/constraint neighbour outside the EA core; and **01J Ecosystem Signalling**, which develops selective disclosure, distributed opportunity gradients, authority/ACC qualification and choreographed repositioning without assuming common governance or a global state.
 
 ## Benchmark — what is being compared
 
