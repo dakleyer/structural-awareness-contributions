@@ -483,17 +483,25 @@ The [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md) defines the parti
 
 Role is static architectural placement. Role change/repositioning belongs to the future operation layer.
 
-## 12. Architecture versus operation versus architectural role
+### 11.7 MSCA Ecosystem Composition & Control
+
+The [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) specification defines how several objective-bound MSCAs are represented together through a participant-local multi-resolution semantic map plus a separate material-dependency map.
+
+It distinguishes peer-MSCAs from legitimate higher-order composite MSCAs, allows representation to become progressively more deterministic near the focal role/process, and supplies bounded structural input to Ecosystem Awareness and Regime Awareness without creating a global controller.
+
+## 12. Architecture versus composition, role and operation
 
 This document defines **architecture**, not the complete runtime protocol.
 
-The following are intentionally separate canonical artefacts:
+The current static canonical set is:
 
-- **Canonical MSCA Architecture — this document:** objects, invariants, extension rules and boundaries.
+- **Canonical MSCA Architecture — this document:** kernel, Objective-Envelope coherence, invariants, extension rules and boundaries.
+- **MSCA Ecosystem Composition & Control — current:** multi-MSCA semantic/dependency composition and variable-resolution ecosystem representation.
 - **MSCA Architectural Role — current:** the participant's static functional/contractual location inside one instantiated MSCA and one Objective Envelope.
-- **Canonical MSCA Operation / Repositioning — pending:** lifecycle for declare → represent → qualify → assess → compare → select → authorize → execute → measure → requalify, including any transition from one Architectural Role/configuration to another.
 
-This document defines the architecture and links the static role object. It does not pre-empt the future transition/repositioning semantics.
+A separate **Canonical MSCA Operation / Repositioning** specification remains pending. It will define runtime change, role/configuration transition, authorization, execution, effect measurement and requalification.
+
+This document does not pre-empt those future transition semantics.
 
 ## 13. Source profiles and provenance
 
