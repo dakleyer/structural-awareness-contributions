@@ -12,7 +12,7 @@ Read this route in order:
 2. **Requirements:** this page states what *any* solution claiming to master the problem would have to show before its mechanism is considered.
 3. **Universal candidate hypotheses and measurement:** [00C — Falsifiable Candidate-Solution Hypotheses and KPIs](./00C_FALSIFIABLE_CANDIDATE_SOLUTION_HYPOTHESES_AND_KPIS.md) turns these requirements into tests and measures that any candidate must meet.
 4. **EA-specific differential hypotheses:** [07 — EA Candidate Differential Hypotheses](./07_EA_CANDIDATE_DIFFERENTIAL_HYPOTHESES_v0.5_REVIEWED_WORKING.md) asks the narrower question of whether EA's particular architecture has a bounded advantage over a strong peer.
-5. **Concrete candidate architecture:** [00 — Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), then [01–05 in the corpus index](./README.md#current-architectural-argument--read-01-to-07), specify the EA proposition and its interfaces.
+5. **Concrete candidate architecture:** [00 — Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), then [01–05 in the corpus index](./README.md#problem-to-architecture-reading-route), specify the EA proposition and its interfaces.
 
 The [00D market and industry benchmark](./00D_MARKET_AND_INDUSTRY_BENCHMARK_RESEARCH_v0.1.md) is deliberately separate from this route: it applies the 00C tests to existing industry configurations and records the evidence/comparator boundary.
 
