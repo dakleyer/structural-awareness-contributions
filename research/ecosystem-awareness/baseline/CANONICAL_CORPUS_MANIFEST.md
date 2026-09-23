@@ -38,7 +38,7 @@ The controlled baseline is complete in Google Drive. All six are now publicly pr
 
 ## A.2 Newly authored EA/MSCA working interface annex (outside the controlled release baseline)
 
-- `baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md` — present as a public, additive source-grounded I/O and function map. It relates the FG-AI4SSC Minimum Sufficient Control submission and the Tegrity.AI MSCA working paper's illustrative integration to candidate EA F1–F9 interfaces. It is **not** a seventh/eighth frozen baseline document, implemented interprogramme API, completed validation, or controlled Google Drive freeze/revision anchor. The two programmes and extensible case package remain incompletely integrated. This addition does not alter the incomplete-mirror status.
+- `baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md` — current public additive EA↔MSCA interface successor. It preserves the v0.1 source-profile mapping while adding the current S/E/C/P/M representation/assessment boundary, sparse/UNASSESSED state, ACC/signalling/authority separation, compatibility-qualified inputs, extensibility boundary and pending Control Positioning limit. It is **not** a seventh/eighth frozen baseline document, implemented interprogramme API, completed validation, canonical MSCA Architecture/Operation, or controlled Google Drive freeze/revision anchor. `01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md` remains preserved provenance.
 
 ## A.3 Newly authored EA/Regime Awareness working interface annex (outside the controlled release baseline)
 
