@@ -174,7 +174,7 @@ RegimeOverlay_i is not a second persistent Ecosystem Cartography. [Composition &
 
 A material Δ_RA or bounded RA statement MAY itself be selectively disclosed through [Ecosystem Signalling 01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). RA does not require broadcast and does not turn its output into a command.
 
-The downstream repositioning mechanism remains outside this document.
+The downstream mechanism is [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md). RA supplies Δ_RA / overlay / requalification inputs; it does not select or authorize the resulting role/contract transition.
 
 ## 6. Candidate architectural responsibility map
 
@@ -255,7 +255,7 @@ RA observation/context
 → Δ_RA
 → EA / participant-local projection
 → nonlinear posture + agentic gradient
-→ MSCA/ACC/authority-constrained repositioning
+→ [MSCA Operation/Repositioning] ACC/lineage/authority-constrained transition
 ~~~
 
 The [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map supplies the multi-resolution semantic/dependency context in which ecosystem change can be observed. The current [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md#32-mechanical-alignment-with-a-regime-awareness-delta) defines how Δ_RA can then be projected onto S/E/C/P/M and compared with the participant's qualified focal-MSCA position. The [Objective-Conditioned Agentic Gradient Law](../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) defines the participant-local gradient only after that projection, before ACC/authority execution filtering.
@@ -336,7 +336,7 @@ triggered / scheduled Regime Awareness
         ↓
 EA / focal-MSCA interpretation
         ↓
-future repositioning layer (not defined here)
+Canonical MSCA Operation & Repositioning
         ↺
 new action / effects / signalling / map updates
 ~~~
