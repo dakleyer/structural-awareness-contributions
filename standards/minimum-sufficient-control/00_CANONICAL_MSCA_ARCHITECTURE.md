@@ -107,9 +107,13 @@ The minimum impact classes are:
 - **into D_X:** the delta reaches beyond the current control-capability representation; the system must preserve the residual and may need discovery, signalling, human/owner input, a new extension/profile, containment or migration rather than fabricate a configuration;
 - **not materially coupled:** the delta is qualified but no represented dependency connects it to the current MSCA decision; no control change follows merely from observing change elsewhere.
 
-The **direction and confidence carried in B_RA** determine the strength of the local change pressure. A large, well-qualified directional delta creates a stronger candidate gradient than a weak/noisy delta, but it still does not authorize action.
+The **direction carried in A_RA** and the **confidence/intensity carried in B_RA** determine the strength of the local change pressure. A large, well-qualified directional delta creates a stronger candidate agentic gradient than a weak/noisy delta, but it still does not authorize action.
 
 Only after this mechanical alignment do ACC/admissibility, authority/delegation, burden, timing and sufficiency determine which candidate transition may actually be pursued.
+
+The three top-level postures remain downstream interpretations rather than RA states. A participant may continue in **Normal** while Δ_RA is non-zero if the current regime/control mapping remains sufficiently qualified. A threshold crossing may produce **Containment** when bounded known controls remain usable, or **Migration / Regime Transition** when the historical/current regime mapping is no longer sufficiently qualified. This posture mapping is nonlinear and participant-specific; thresholds/hysteresis may be supplied by ACC, control policy or another legitimate owner profile.
+
+When regime qualification is lost sufficiently that the old historical mapping no longer supports reliable forecast/control for the mission, the participant may enter the existing **potential critical bifurcation** condition: several successor paths may be plausible while the destination frame is not yet sufficiently qualified. Invariant safety/containment controls may remain valid.
 
 This is the architectural bridge to the pending **MSCA Control Positioning** and **Canonical MSCA Operation** documents. Those future documents will specify transition mechanics and lifecycle in detail; this section fixes the shared representation and matching rule.
 
