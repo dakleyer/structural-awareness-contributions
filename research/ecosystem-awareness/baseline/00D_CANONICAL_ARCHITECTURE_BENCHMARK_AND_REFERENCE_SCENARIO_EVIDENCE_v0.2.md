@@ -93,7 +93,18 @@ The benchmark is a complement test, not an assertion that existing systems have 
 
 This boundary is configuration-specific. The benchmark must inspect the implemented payloads, policies and traces and must not infer capability or absence from marketing labels.
 
-### 5.1 Concrete scope example: guardrails are placed controls, not a system-wide sufficiency claim
+### 5.1 Standards boundary: adjacent primitives do not by themselves establish continuing applicability
+
+**Standards-boundary clarification — 23 September 2026.** The benchmark should credit mature identity, delegation and attestation mechanisms fully, while keeping their documented scope separate from the later composition/requalification problem tested here.
+
+- **SPIFFE / SPIRE** provides portable workload identity, workload attestation and authenticated workload-to-workload interaction. Its documentation explicitly separates this from authorization policy: SPIFFE/SPIRE identifies and authenticates workloads; authorization remains a separate policy function. Source: [SPIFFE — comparison and authorization boundary](https://spiffe.io/docs/latest/spire-about/comparisons/).
+- **OAuth 2.0 Token Exchange — RFC 8693** represents subject/actor relationships and token exchange for delegated access. The RFC states that an exchange is a one-time event that does not create a tight linkage between input and output tokens; propagation of revocation may be desirable but is not a general property of the protocol. Source: [RFC 8693](https://www.rfc-editor.org/rfc/rfc8693.html).
+- **RATS — RFC 9334** separates Evidence, Verifier appraisal, Attestation Results and the Relying Party's application-specific decision. EA reuses that producer/appraiser/relying-party separation and does not treat an attestation result as authority or as the operational decision itself. Source: [RFC 9334](https://www.rfc-editor.org/rfc/rfc9334.html).
+- **NIST NCCoE software/AI-agent identity and authorization work (2026)** explicitly asks how current or emerging standards should address agent identification, authorization, auditing and non-repudiation. This is evidence that those agent-IAM questions are active standardization/engineering subjects; it is not evidence that NIST has adopted the EA model or that existing standards are insufficient in every deployment. Source: [NIST NCCoE concept paper, 5 February 2026](https://www.nist.gov/news-events/news/2026/02/new-concept-paper-identity-and-authority-software-agents).
+
+The benchmark differential is therefore **not** “identity, authorization or attestation are missing.” It is whether a composed system preserves what remains **valid, knowable and actionable** when identity, authority, evidence, dependencies and context change across handoffs and time. A strong B2 implementation that already preserves current applicability, revocation/standing, scope, residual qualification and targeted re-entry receives full credit and can falsify the EA differential.
+
+### 5.2 Concrete scope example: guardrails are placed controls, not a system-wide sufficiency claim
 
 The current OpenAI Agents SDK documentation illustrates the distinction without implying a product deficiency. Input guardrails run for the first agent in a chain and output guardrails for the final-output agent. Tool guardrails can wrap guarded function-tool invocations, while handoffs use a different pipeline; hosted and built-in execution tools do not use the function-tool guardrail pipeline. Blocking and parallel guardrail execution also have different token/tool side-effect timing.
 
