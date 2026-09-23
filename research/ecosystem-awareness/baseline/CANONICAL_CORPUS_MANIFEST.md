@@ -9,6 +9,21 @@
 
 This manifest maps the general public reading corpus to the exact controlled Google Drive corpus. On 21 September 2026, FG-TIDA-specific application material was separated into `research/ecosystem-awareness/fg-tida/` so Theme-number mappings, charter/specification preparation, FG-TIDA-specific cases/tests and provenance cannot be mistaken for the programme-independent EA architecture. **Location consolidation on 15 September 2026** relocated the previously separate validation, lineage, governance and provenance Markdown into `baseline/`; the former blob paths remain recoverable in Git history at commit `bbd3ed275309e4087cbe06b654472e31c3cd186f`. Relative Markdown links were mechanically rebased for navigation. Thus relocated blobs are **not byte-identical** to the former public blobs, even where research prose is unchanged; controlled Drive-revision/SHA parity remains unverified. Until every file listed below exists at the stated public path and passes the corresponding SHA-256 check, the public repository must be treated as an **incomplete mirror** of the controlled corpus.
 
+## Provenance bridge — controlled source anchors versus current public citations
+
+The repository uses two provenance systems for different purposes; neither silently replaces the other.
+
+| Artifact class | Exact control / historical anchor | Current public citation anchor | Rule |
+|---|---|---|---|
+| **Controlled v0.4 / validation freeze source** | Google Drive file ID + pinned `revisionId` in the applicable freeze/maintenance manifest | Public Git path **plus the Git commit SHA of the cited mirror state** | Drive remains the exact controlled-source anchor until revision/SHA parity is verified. A later Git edit or banner does not rewrite the frozen source. |
+| **Current integrated working successor / additive annex / canonical reader page** | No Drive freeze anchor unless explicitly stated | Public Git path + commit SHA | Cite the Git revision that contains the semantics being relied on. |
+| **Preserved predecessor / non-canonical source** | Its historical Drive anchor where one exists; otherwise Git history | Preserved Git path + commit SHA, only when lineage itself is the subject | Use the declared successor for current semantics. |
+| **FG-TIDA application package** | Public source/version record named by the package | Git path + commit SHA, plus external source pin where applicable | Package provenance does not become a controlled EA freeze merely because it is routed from the EA repository. |
+
+**Interpretation rule:** the 10–11 September freeze manifests remain historical/control records for the frozen material they identify. Git is the public revision system for the evolving corpus and current working successors. Where a public Git mirror of a frozen source is cited, record both the controlled Drive anchor (when exact parity matters) and the Git commit used for the public copy.
+
+The older publication-freeze `MANIFEST.md` names files such as `README.md` as members of the **11 September snapshot**. That statement refers to the frozen snapshot recoverable in Git history; it does not prohibit later versioned evolution of the current README under `DOCUMENT_CONTROL.md`.
+
 ## A. Canonical / release baseline — publication status
 
 The [`baseline/README.md`](./README.md) supplies the ordered reader index for the general EA architecture and validation corpus. The separate [`fg-tida/README.md`](../fg-tida/README.md) supplies the FG-TIDA application route. The original controlled v0.4 release baseline historically contained six documents, including the FG-TIDA-oriented document 05; current reader navigation now treats 05 as an FG-TIDA application source rather than part of the general canonical interface layer.
