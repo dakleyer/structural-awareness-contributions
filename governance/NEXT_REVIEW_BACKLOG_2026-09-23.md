@@ -2,6 +2,8 @@
 
 > **Maintenance backlog only.** This is not a canonical architecture document, benchmark result or publication-status statement. It records items deliberately deferred from the 23 September surgical coherence/integrity pass.
 
+> **Ongoing work has moved to the live [EA / Positioning Workplan](../research/ecosystem-awareness/WORKPLAN.md).** This dated file remains the maintenance record for the 23 September pass and should not accumulate new strategic work indefinitely.
+
 **Conservation audit:** [Corpus Information Conservation Audit — 23 September 2026](./CORPUS_INFORMATION_CONSERVATION_AUDIT_2026-09-23.md) · [Preserved Public Snapshots](./preserved-public-snapshots/README.md)
 
 ## 1. Baseline / FG-TIDA duplicate disposition — conservation audit completed
