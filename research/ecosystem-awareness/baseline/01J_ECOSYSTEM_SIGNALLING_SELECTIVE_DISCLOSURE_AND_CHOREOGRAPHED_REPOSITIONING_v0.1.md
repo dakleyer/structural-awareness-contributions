@@ -63,7 +63,7 @@ The following can travel together in one bounded handoff, but they are not one o
 A decision-scoped projection may include any material part of the [canonical four-component qualified position](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position):
 
 - **A — situated scope / qualified assertion:** what is being asserted or represented, from which location/frame, for which subject/decision and under which provenance/calibration/freshness qualifiers;
-- **B — directional confidence / gradient strength:** how strongly and in which qualified direction the current evidence supports the position or change;
+- **B — confidence / intensity:** how strongly the disclosed A assertion or direction is supported under the stated qualifiers;
 - **C — recognized capability frontier:** what additional state could be determined with current capability but has not yet been established;
 - **D — structural / residual unknown:** what remains outside that represented/recognized-obtainable capability boundary, including receiver-side compatibility residual where applicable;
 - current EA operating posture where material;
@@ -464,7 +464,7 @@ ACC / participation profile
 -> identity + authority + freshness qualification
 -> generic Ecosystem Signalling compatibility mapping
 -> receiver-local qualified epistemic state
--> MSCA / opportunity-gradient use where representable
+-> MSCA / downstream agentic-gradient use where representable
 
 This is the **upward compatibility path**: a richer or domain-specific contract can add requirements and semantics while remaining interoperable with the generic signalling substrate.
 
@@ -472,7 +472,7 @@ The legacy/profile route above is the corresponding **downward compatibility pat
 
 In either direction, compatibility is explicit and bounded. A specialised signalling module may improve precision, identity assurance, authority proof or freshness guarantees, but any semantics that cannot be faithfully mapped into the generic receiver frame remain UNKNOWN/unsupported and contribute to the compatibility residual.
 
-A specialised module is usable for EA/MSCA/gradient processing only to the extent that its outputs can be normalized into the generic qualified signalling model. Transport-only interoperability is insufficient.
+A specialised module is usable for EA/MSCA/downstream agentic-gradient processing only to the extent that its outputs can be normalized into the generic qualified signalling model. Transport-only interoperability is insufficient.
 
 Low compatibility is a valid outcome. The handshake does not require the parties to share a worldview, objective or participation profile.
 
