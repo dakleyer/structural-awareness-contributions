@@ -26,7 +26,7 @@ For participant or system i, decision or mission d and time t, the canonical MSC
 X_i(d,t) = [ S, E, C, P, M ]
 ~~~
 
-The symbol **X** is used for an MSCA representation/configuration. Older research lineage may use A or other symbols; those are not canonical because **A** is reserved by Ecosystem Awareness for the sufficiently-determined epistemic position.
+The symbol **X** is used for an MSCA representation/configuration. Older research lineage may use A or other symbols; those are not canonical because **A** is already a component of the shared qualified-position semantics and must not be overloaded as the MSCA configuration symbol.
 
 | Element | Canonical meaning | Architectural boundary |
 |---|---|---|
