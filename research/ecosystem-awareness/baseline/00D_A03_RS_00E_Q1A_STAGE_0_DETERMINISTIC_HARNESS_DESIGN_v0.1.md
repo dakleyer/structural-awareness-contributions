@@ -1,5 +1,14 @@
 # RS-00E-Q1a Stage-0 Deterministic Harness Design
 
+| | |
+|---|---|
+| **ID** | 00D-A03 |
+| **Type** | Stage-0 deterministic harness implementation design |
+| **Status** | Additive annex · implementation design only · not a pre-registration or executed result |
+| **Version · date** | v0.1 · 2026-09-19 |
+| **Owner corpus** | Ecosystem Awareness benchmark route |
+| **Supersedes / superseded by** | — |
+
 > **Status:** public implementation design only. This is not a pre-registration, implemented harness, executed fixture, comparative result, validation claim or product assessment.
 >
 > **Scope:** one Stage-0 fixture family only: declared common dependency `P → {A,B}`, derivable common dependency `feed-7 → P ← vendor-X`, and an independent-source negative-control branch.

@@ -1,5 +1,14 @@
 # Annex 00F-A01 — FIWARE NGSI-LD / Orion-LD implementation profile for the smart-city mobility quality plan
 
+| | |
+|---|---|
+| **ID** | 00F-A01 |
+| **Type** | Product-implementation profile |
+| **Status** | Additive annex · source-reviewed working profile · not a product benchmark, certification or endorsement |
+| **Version · date** | v0.1 · 2026-09-17 |
+| **Owner corpus** | Ecosystem Awareness / 00F route |
+| **Supersedes / superseded by** | — |
+
 > **Product-implementation annex; source-reviewed working profile, 17 September 2026.** This annex applies the frozen [00F smart-city mobility case and Q0–Q5 quality plan](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) to a FIWARE NGSI-LD architecture using Orion-LD as the Context Broker. It compares a standard implementation, an excellent implementation and the excellent implementation after a gradual or initially unrecognised regime change. It is not a product benchmark, certification, endorsement or claim that FIWARE causes the failure.
 
 ## 1. The claim in one sentence

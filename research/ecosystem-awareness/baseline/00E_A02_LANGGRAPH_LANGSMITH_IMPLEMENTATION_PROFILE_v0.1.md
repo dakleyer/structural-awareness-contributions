@@ -1,5 +1,14 @@
 # Annex 00E-A02 — LangGraph/LangSmith implementation profile for the 100-million-token quality plan
 
+| | |
+|---|---|
+| **ID** | 00E-A02 |
+| **Type** | Product-implementation profile |
+| **Status** | Additive annex · source-reviewed working profile · not a product ranking, certification or endorsement |
+| **Version · date** | v0.1 · 2026-09-17 |
+| **Owner corpus** | Ecosystem Awareness / 00E route |
+| **Supersedes / superseded by** | — |
+
 > **Product-implementation annex; source-reviewed working profile, 17 September 2026.** This annex applies the [00E quality plan](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) to LangGraph with LangSmith observability and evaluation. It compares a standard implementation, an excellent implementation and an excellent implementation under regime change. It is not a product ranking, certification, endorsement or claim that LangGraph causes the 00E failure.
 
 ## 1. The claim in one sentence

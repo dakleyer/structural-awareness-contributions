@@ -1,5 +1,14 @@
 # Annex 00D-A01 — Reference-Scenario Test Artifacts and Bounded Reference-Oracle Construction & Test Design — Ecosystem Awareness
 
+| | |
+|---|---|
+| **ID** | 00D-A01 |
+| **Type** | Reference-scenario fixture, bounded-oracle construction and test-design annex |
+| **Status** | Additive annex · evidence design · not an executed test or validation result |
+| **Version · date** | v0.1 · current filename since 2026-09-21 |
+| **Owner corpus** | Ecosystem Awareness benchmark route |
+| **Supersedes / superseded by** | Renamed successor to the historical “Proof Sketch” filename; historical alias preserved |
+
 > **Additive working evidence-design annex.** This annex turns selected branches of the 00E and 00F Reference Failure Scenarios into a traceable future fixture and testbed programme. It does not modify the canonical requirements, the benchmark, the scenarios, the frozen validation profiles or Appendix A of 04. It does not report an executed test, a completed comparison, an independently validated oracle or an EA result.
 
 **Version:** 0.1 — 19 September 2026

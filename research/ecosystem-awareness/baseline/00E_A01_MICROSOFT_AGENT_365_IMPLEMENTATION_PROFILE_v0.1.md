@@ -1,5 +1,14 @@
 # Annex 00E-A01 — Microsoft Agent 365 implementation profile for the 100-million-token quality plan
 
+| | |
+|---|---|
+| **ID** | 00E-A01 |
+| **Type** | Product-implementation profile |
+| **Status** | Additive annex · source-reviewed working profile · not a product benchmark, certification or endorsement |
+| **Version · date** | v0.1 · 2026-09-17 |
+| **Owner corpus** | Ecosystem Awareness / 00E route |
+| **Supersedes / superseded by** | — |
+
 > **Product-implementation annex; source-reviewed working profile, 17 September 2026.** This annex asks how Microsoft Agent 365—the control plane for agents—can mitigate the four concrete failure modes in [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), and what an implementation must add to execute that case's Q0–Q5 quality plan. It is not a product benchmark, certification, endorsement or claim that Microsoft Agent 365 causes those failures.
 
 ## 1. The claim in one sentence
