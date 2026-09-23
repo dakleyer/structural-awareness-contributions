@@ -1,5 +1,14 @@
 # Reference Failure Scenario and Quality-Gate Plan: 100 Million Tokens and Compounded Epistemic Collapse
 
+| | |
+|---|---|
+| **ID** | 00E |
+| **Type** | Reference failure scenario (fictional) and quality-gate plan |
+| **Status** | Canonical working · fictional reference scenario · not a benchmark result |
+| **Version · date** | v0.1 · 2026-09-17 |
+| **Owner corpus** | Ecosystem Awareness |
+| **Supersedes / superseded by** | — |
+
 > **Worked reference scenario, mechanism reconstruction and integrated quality plan.** This document reconstructs the existing 100-million-token enterprise-strategy example as a testable failure route and then controls the same case through quality gates. It does not add a benchmark result, establish that EA prevents the failure, or make the source example a claim about any real company.
 
 **Source case:** [02 — Worked example: 100 million tokens and compounded epistemic collapse](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part02.md#worked-example--100-million-tokens-and-compounded-epistemic-collapse-in-enterprise-strategy). The source text remains the controlling five-stage narrative. This document keeps those stages and adds the explicit route from scope to challenge, sufficiently-good condition, hypothesis, KPI and observable failure.

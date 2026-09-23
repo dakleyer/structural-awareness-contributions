@@ -1,5 +1,14 @@
 # Canonical Architecture Benchmark and Reference-Scenario Evidence — Ecosystem Awareness
 
+| | |
+|---|---|
+| **ID** | 00D |
+| **Type** | Architecture benchmark design and evidence register |
+| **Status** | Canonical working · comparative execution pending · independent validation pending |
+| **Version · date** | v0.2 · 2026-09-17 |
+| **Owner corpus** | Ecosystem Awareness |
+| **Supersedes / superseded by** | Current canonical benchmark; earlier market/industry benchmark and differential-hypothesis files preserved as predecessors |
+
 > **Sole current benchmark in the canonical reader route.** This document integrates the EA differential hypotheses, the fair architecture-comparison protocol, the industry benchmark landscape and empirical corroboration of the two reference failure scenarios. It does not report a completed EA experiment, rank products, prove novelty or claim that any cited incident was caused by the absence of EA.
 
 **Version:** 0.2 — 17 September 2026  

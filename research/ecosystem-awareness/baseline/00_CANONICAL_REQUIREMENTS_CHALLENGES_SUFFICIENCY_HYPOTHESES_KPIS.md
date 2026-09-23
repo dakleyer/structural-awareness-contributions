@@ -1,5 +1,14 @@
 # Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs
 
+| | |
+|---|---|
+| **ID** | 00 — Requirements |
+| **Type** | Canonical requirements, sufficiency conditions, hypotheses and KPI protocol |
+| **Status** | Canonical working · requirements/test protocol · not evidence that EA satisfies the requirements |
+| **Version · date** | Unversioned canonical reader · 2026-09-17 |
+| **Owner corpus** | Ecosystem Awareness |
+| **Supersedes / superseded by** | Current canonical requirements route; earlier 00A/00C inputs preserved separately |
+
 > **Canonical requirements document.** This is the single canonical document that states what a solution to the EA challenge must address and how its underlying hypotheses are assessed. It does not define a product, implementation, benchmark result, standards adoption, or a claim that EA or another candidate has passed.
 
 **Status:** public working research specification. It applies to a human-led process, conventional control system, agentic architecture or composed system, within its declared decision scope, authority, evidence boundary, response horizon and resource envelope.

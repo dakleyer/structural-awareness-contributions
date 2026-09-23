@@ -1,5 +1,14 @@
 # 00G — Reference Failure Scenario: Collective False-Context Convergence ("Bar-to-Napoleon" Cascade)
 
+| | |
+|---|---|
+| **ID** | 00G |
+| **Type** | Technology-neutral reference failure scenario and candidate test plan |
+| **Status** | Additive annex · fictional candidate scenario · not integrated into 00D execution |
+| **Version · date** | v0.1 · 2026-09-23 |
+| **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning-related signalling route |
+| **Supersedes / superseded by** | — |
+
 **Status:** additive technology-neutral reference scenario and candidate test plan, v0.1, 23 September 2026. This is a fictional stress test. It is not an incident report, completed benchmark, executed experiment, safety proof or claim that Ecosystem Awareness prevents hallucination or catastrophic forgetting.
 
 ## 1. Purpose

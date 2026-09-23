@@ -1,5 +1,14 @@
 # Reference Failure Scenario and Quality-Gate Plan: Smart-City Mobility Divergence under Residual Uncertainty
 
+| | |
+|---|---|
+| **ID** | 00F |
+| **Type** | Reference failure scenario (fictional) and quality-gate plan |
+| **Status** | Canonical working · fictional reference scenario · not a benchmark result |
+| **Version · date** | v0.1 · 2026-09-17 |
+| **Owner corpus** | Ecosystem Awareness |
+| **Supersedes / superseded by** | — |
+
 > **Worked virtual case and integrated quality plan.** This document turns the existing EA proposition `HOLD / Emergency Plan A / Emergency Plan B / NORMAL` into one concrete smart-city mobility failure route. It does not describe a real incident, require central orchestration of every actor, establish that EA prevents catastrophe, or modify the parent TIDA mobility case.
 
 **Conceptual source:** [01 — Systemic divergence under heterogeneous windows](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md#173-systemic-divergence-under-heterogeneous-windows) and its adjacent [regime-change definition](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md#174-regime-change--transition-beyond-the-qualified-operating-envelope). The source proposition is preserved: locally justified closures can become mutually incompatible when the ecosystem-level frame is not sufficiently qualified.

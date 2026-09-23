@@ -1,5 +1,14 @@
 # Ecosystem Awareness — Canonical Architecture Topology
 
+| | |
+|---|---|
+| **ID** | 00 — Topology |
+| **Type** | Canonical architecture reader and reconciliation page |
+| **Status** | Canonical working · reader/reconciliation aid · not an adopted standard or completed validation |
+| **Version · date** | Unversioned reader · 2026-09-17 |
+| **Owner corpus** | Ecosystem Awareness |
+| **Supersedes / superseded by** | — |
+
 > **Canonical public reader and reconciliation page.** It makes the common topology explicit across the controlled architecture documents. It does not replace, modify or extend the controlled v0.4 release baseline; it is not an adopted standard, an ITU-T deliverable, an implemented interface or completed validation.
 
 ## Purpose
