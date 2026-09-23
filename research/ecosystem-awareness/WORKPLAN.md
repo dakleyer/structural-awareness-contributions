@@ -52,6 +52,62 @@ If a proposed change is reviewed and rejected, move it to **Closed / not adopted
 
 The bounded v0.3 draft is the current implementation of that expected output; after the adoption gates close, it may become a reviewed successor proposal.
 
+
+#### W2 operational order and critical path
+
+The next W2 work is intentionally ordered so the source audit has a **stopping rule** and the strongest peers are not self-configured after the fact.
+
+**Track A — comparator-defender search starts immediately and runs in parallel.**
+
+- seek a named defender for **B2**;
+- prioritize a named defender/challenger for **PA-5**, because PA-5 is the decisive test of the compositional differential;
+- where practical, identify specialists for PA-2 / PA-3 / PA-4;
+- record defender identity, allowed configuration envelope and any unresolved objection before a differential run is frozen;
+- a self-configured comparator may still produce descriptive evidence, but cannot support the strongest differential claim.
+
+**PA-5 special rule.** PA-5 should be treated as a public challenge contract, not as an internal strawman. Before execution:
+
+1. publish the allowed PA-5 mechanism/resource envelope;
+2. invite explicit challenge/improvement of the arm;
+3. freeze the defended configuration before the EP run;
+4. pre-register that **EP losing to PA-5 is published/reported on the same basis as an EP-supporting result**.
+
+**Track B — complexity, burden and equivalence protocol comes before the broad source audit.**
+
+The protocol must define, before comparator optimization:
+
+- **outcome measures and branch-specific equivalence / non-inferiority margins**;
+- **burden vector:** compute/tokens, processing or elapsed steps, messages/handoffs, bandwidth, human-review demand, external calls, privacy/disclosure burden and authority/escalation demand where material;
+- **complexity surface:** semantic obligations, decision gates, interface contracts, normalized policy/profile/adapter configuration units, stateful components and cross-owner dependencies;
+- **accountability / reconstructability:** reviewer steps/time, source objects consulted, reconstruction error and reviewer disagreement;
+- preregistered Pareto/equivalence rules for any claim of “same result with simpler accountable composition”.
+
+Raw lines of code/configuration are not a sufficient primary complexity measure.
+
+**Track C — B2 / PA source audit and product capability freeze.**
+
+After Track B defines what “strong enough”, “equal burden” and “simpler” mean:
+
+- verify PA-1…PA-5/OR against primary literature;
+- verify B2 capabilities against dated primary vendor/standard sources;
+- integrate **C3 product-profile refresh into this same audit** for Microsoft Agent 365, LangGraph/LangSmith, FIWARE and AWS IoT/TwinMaker;
+- publish a dated **capability freeze** for every material B2/product capability used in a run.
+
+A later vendor/framework change does **not** invalidate a frozen run. It opens a new benchmark envelope/version.
+
+**Track D — freeze v0.3-r2 only after Tracks A–C are sufficiently closed.**
+
+Minimum freeze inputs:
+
+- W1 traceability already closed;
+- measurement/equivalence protocol frozen;
+- B2/PA capability/source audit pinned;
+- PA-5 contract and defender status recorded;
+- ablation/interaction protocol fixed;
+- continuity admission gate defined;
+- positioning-specific fixture admission path defined.
+
+
 ---
 
 ### W3 — Testbed coverage vNext
@@ -71,7 +127,37 @@ The bounded v0.3 draft is the current implementation of that expected output; af
 - selected 00F composition branches;
 - independent producer/receiver operation for EA-ITP-01.
 
-**Immediate execution milestone:** publish the first **RS-00E-Q1a Stage-0 descriptive execution** under operative pre-registration v0.5, including the qualifier-loss instrumentation self-test and Canonical Trace v1 determinism evidence.
+**Pre-execution correction gate — Q1a must not execute under v0.5 as currently written.** Preserve v0.5 unchanged as frozen history and prepare a **new pre-registration v0.6** before any Stage-0 run.
+
+v0.6 must resolve at minimum:
+
+- distinguish **residual-field presence** from **material residual existence**; the current v0.5 combination of `R_ref = none material` and mandatory `residual.present = true` is ambiguous and can unfairly privilege B3;
+- ensure B1 and B3 are evaluated against the same branch-observable envelope rather than requiring B1 to emit an EA-specific field merely because B3 does;
+- distinguish **fact freeze date** from **pre-registration publication/freeze date** so the current 19/21 September wording is unambiguous;
+- preserve the existing descriptive-only boundary when no comparator defender is named;
+- pin trace namespaces so management condition and operational posture cannot be confused:
+  - `TYPE_0_CONDITION | TYPE_1_FAILURE | TYPE_2_FAILURE | NOT_ESTABLISHED`
+  - `P1_NORMAL | P2_CONTAINMENT | P3_MIGRATION`.
+
+**Immediate execution milestone after v0.6 freezes:** publish the first **RS-00E-Q1a Stage-0 descriptive execution** under the new operative record, including the qualifier-loss instrumentation self-test and Canonical Trace v1 determinism evidence.
+
+### Comparative admission gate — continuity first
+
+Valid-continuity controls are an **admission gate**, not merely a later stage. Before an arm may enter a failure branch supporting a comparative claim, it must demonstrate under a matched valid-continuity branch that it does not win by:
+
+- blanket HOLD/containment;
+- unnecessary escalation;
+- manufactured uncertainty/dependency warnings;
+- material nominal-outcome degradation;
+- unjustified burden.
+
+Failure of the continuity gate blocks the arm from being interpreted on the corresponding failure branch until the configuration is corrected and re-frozen.
+
+### First positioning fixtures after W2 freeze
+
+**C9 — effective-role drift** remains a preferred first fixture, but “material drift” must be operationally frozen before observing results. The fixture should define the material role dimensions/invariants — e.g. objective, outputs, consumed inputs, intervention mechanisms, dependencies, authority lineage and ACC binding — and the exact condition under which `Role_effective ≠ Role_bound` becomes material.
+
+**C12 — attractive inadmissible opportunity** remains a preferred paired fixture. The strong peer must have a legitimate **escalation/request path**; it cannot be artificially limited to EXECUTE-or-DROP. The comparison is whether EP improves preservation/routing of beneficial blocked opportunities, not whether only EP is permitted to ask an authority.
 
 **Coverage rule:** A01/A03 and Q1a are selected test artefacts. Their existence does not imply complete testbed coverage of S1–S14 or later Ecosystem Positioning.
 
@@ -108,7 +194,27 @@ The bounded v0.3 draft is the current implementation of that expected output; af
 
 05/05A are not silently rewritten merely because the general architecture evolves.
 
+**Parallel participation rule:** W4 institutional/editorial participation does **not** wait for v0.3-r2. Continue source mapping, editor/working-group participation and non-normative dependency preparation in parallel. What remains blocked is **normative promotion of untested Benchmark-vNext hypotheses/results** into FG-TIDA requirements.
+
 **Expected output:** a versioned Specification Preparation successor and, where justified, dated 05A/current-source updates. Nothing becomes an FG-TIDA requirement without the appropriate external-owner process.
+
+---
+
+## Recommended operational order
+
+The current recommended sequence is:
+
+1. **Start comparator-defender search now** — B2 and especially PA-5; run in parallel with technical work.
+2. **Freeze W2 measurement / complexity / burden / equivalence protocol.**
+3. **Prepare and freeze Q1a pre-registration v0.6**; only then execute Q1a Stage-0.
+4. **Run B2 + PA-1…PA-5 source audit with C3 product capability freeze integrated.**
+5. **Freeze Benchmark v0.3-r2** with defender status, source pins, margins and ablation protocol.
+6. **Apply continuity admission gate** to comparative arms.
+7. **Build C9 and C12 fixtures** with material-drift and legitimate-escalation conditions fixed in advance.
+8. **Run comparative execution.**
+9. **Continue W4 participation/mapping in parallel**, but do not promote untested benchmark claims into normative requirements.
+
+This order is intended to prevent unbounded comparator search, self-authored weak peers and fixtures whose result is determined by asymmetric specification rather than architecture.
 
 ---
 
@@ -143,7 +249,9 @@ design → pre-registration → Stage 0 deterministic verification
 
 ---
 
-### C3 — Product-profile evidence refresh
+### C3 — Product-profile evidence refresh / B2 capability freeze
+
+**Dependency:** this is now an explicit input to W2 Track C, not an independent later refresh.
 
 The maintained 2+2 profiles are dated design analyses:
 
@@ -161,6 +269,8 @@ For each future refresh, record whether each material assertion is:
 The Canonical Corpus Manifest currently carries a **18 December 2026** review date for the product-profile source-basis review.
 
 Do not infer a Microsoft/Mobility profile, or any other cross-scenario profile, from the existing 2+2 set; create an explicit new profile if such work is needed.
+
+For a benchmark run, record a dated capability/source freeze. Later provider changes open a new profile/benchmark envelope; they do not retroactively invalidate a correctly frozen earlier run.
 
 ---
 
@@ -218,8 +328,12 @@ flowchart TB
     C3["C3 Product evidence refresh"]
     C4["C4 Presentation / Release"]
     C5["C5 Coherence / navigation"]
+    M2["W2 measurement / equivalence protocol"]
+    DEF["Comparator defenders / PA-5 challenge"]
 
     W1 -. "traceability gate closed" .-> W2
+    M2 --> W2
+    DEF -. "calendar critical path" .-> W2
     W1 -. "existing S/T/H/KPI basis" .-> W3
     W2 --> W3
     W1 -. "requirements disposition" .-> W4
@@ -229,7 +343,7 @@ flowchart TB
     C1 -. "source integrity" .-> W4
     C2 --> W2
     C2 --> W3
-    C3 -. "dated implementation evidence" .-> W2
+    C3 --> W2
     W2 --> C5
     W3 --> C5
     W4 --> C5
@@ -247,13 +361,13 @@ flowchart TB
 | Foundation / principles | v0.4 sources preserved; 01 v0.5 integrated reader; 02 controlled | Later architecture is not retrofitted into frozen sources | Continuity notes + future explicit successor only if needed |
 | Requirements | S1–S14 / T1–T4 / H1–H6 / KPI protocol | Later EP concepts reviewed; no canonical gap requiring S15/T5/H7 found | [Requirements vNext Review & Delta](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); two clarification candidates remain non-canonical |
 | Reference scenarios | 00E + 00F full quality plans; 00G candidate | 00G and later positioning surfaces not integrated into the main comparator programme | W1/W2 disposition |
-| Benchmark | 00D B0–B3 / EA-H1–EA-H4 | Does not cover all later Positioning layers | **W2 Benchmark-vNext** |
-| Test design | A01, A02, A03, coverage map, Q1a pre-registration and trace helpers | Selected fixtures only; S7/S8 + later layers incomplete | **W3 Testbed-vNext + Stage-0 execution** |
+| Benchmark | 00D v0.2 canonical + bounded v0.3 draft | Measurement/equivalence protocol, defenders, B2/PA source audit and PA-5 contract still open | **W2:** protocol → defenders/source freeze → v0.3-r2 |
+| Test design | A01, A02, A03, coverage map, Q1a pre-registration and trace helpers | Q1a v0.5 residual/date ambiguity must be corrected in new v0.6 before Stage-0; later layers still incomplete | **W3:** Q1a v0.6 → Stage-0 → continuity gate → C9/C12 |
 | Validation profiles | UC-EA-01…04 + EA-ITP-01 preserved | No completed broad independent validation | Stage 1/2 evidence programme |
 | RA / MSCA integration | Current interfaces and operation owners defined | Comparative/empirical validation of later composition/repositioning remains open | W2/W3 |
 | FG-TIDA application | 05 ideal, 05A dated current bridge, spec v0.2, charter/cases/tests | Later general architecture not reconciled | **W4 Specification-vNext** |
 | Controlled provenance | Freeze manifests + public source preservation | Revision/SHA parity and single-file materialization open | **C1 parity inventory** |
-| Product profiles | 2+2 dated design analyses | Source refresh and future product evolution | **C3 evidence refresh** |
+| Product profiles | 2+2 dated design analyses | Dated capability freeze must be integrated with B2 audit | **C3 / W2 Track C** |
 | Publication | Live corpus + visual guide + release candidate | Final deck/PDF; real release/DOI tooling | **C4** |
 
 ---
