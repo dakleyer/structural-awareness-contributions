@@ -1,3 +1,5 @@
+> **Preserved predecessor — superseded for current reading by [01C v0.2](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md).** Kept for lineage. Do not cite for current interface semantics.
+
 # Annex 01C — Ecosystem Awareness / Regime Awareness architectural relation
 
 **Status:** public working architectural interface annex, v0.1, 15 September 2026. Additive companion to the Ecosystem Awareness (EA) corpus, outside the six controlled/frozen v0.4 release-baseline documents. It is a candidate composition, not an implemented common API, an empirically validated detector, an adopted ITU-T architecture or an institutional endorsement.
