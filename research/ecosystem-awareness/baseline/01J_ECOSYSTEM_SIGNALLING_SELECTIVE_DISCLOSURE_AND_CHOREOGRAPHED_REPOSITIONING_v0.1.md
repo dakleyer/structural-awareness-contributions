@@ -206,7 +206,7 @@ ReceivedSignals_i may contain:
 - explicit ecosystem messages such as dependency change, capability availability, constraint change, incident/change evidence or another participant's qualified Regime Awareness delta;
 - provenance, freshness, scope, compatibility residual and expiry.
 
-The receiver uses these inputs to update its own qualified state and, where material, its [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map.
+The receiver uses these inputs to update its own qualified state and, where material, its [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map `ECM_i`, producing `Δ_ECM,i` when the structural map changes materially.
 
 A received signal may trigger map/regime requalification when it:
 
@@ -219,7 +219,7 @@ A received signal may trigger map/regime requalification when it:
 
 Transport success alone never triggers a semantic update.
 
-Qualified ReceivedSignals_i may be included in the input bundle to [Regime Awareness 01C](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md). Regime Awareness remains free to consume additional qualified sources.
+Qualified `ReceivedSignals_i` may be included in the input bundle to [Regime Awareness 01C](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md). Regime Awareness remains free to consume additional qualified sources and may return a material `Δ_RA`; such an RA result can itself later be selectively disclosed as another bounded ecosystem signal.
 
 ## 6. Signalling and the downstream agentic gradient
 
