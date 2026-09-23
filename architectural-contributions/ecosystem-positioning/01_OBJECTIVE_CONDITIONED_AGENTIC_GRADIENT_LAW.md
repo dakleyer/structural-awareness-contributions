@@ -118,7 +118,7 @@ Typical consequence:
 reassess current MSCA support
 ~~~
 
-### B — confidence / gradient-strength region
+### B — confidence / intensity region
 
 B does not represent a separate world domain. It qualifies how strongly a direction/position is supported.
 
@@ -546,4 +546,4 @@ subject to
 ACC + authority + capability + time
 ~~~
 
-This law supplies the common mathematical/architectural bridge between Regime Awareness, MSCA Control Positioning and ecosystem choreography.
+This law supplies the mathematical/architectural bridge between Regime Awareness, [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) and ecosystem choreography.
