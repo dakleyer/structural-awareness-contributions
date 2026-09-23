@@ -76,8 +76,8 @@ Owns the decision-scoped epistemic qualification:
 Owns continued validity of the operating frame:
 
 - whether current observations remain compatible with the regime under which assumptions were qualified;
-- whether the system is in normal operation, containment or transition/migration;
-- whether a material regime change should trigger frame requalification.
+- the qualified **direction of regime change (`A_RA`)** and its **confidence/intensity (`B_RA`)**, with `C_RA/D_RA` preserving capability frontier and residual;
+- whether the resulting delta should trigger downstream frame requalification. **RA does not decide the participant's Normal / Containment / Migration posture.**
 
 **Enter the corpus:** [Regime Awareness — corpus index](../../research/regime-awareness/README.md)
 
@@ -102,7 +102,7 @@ Owns control sufficiency:
 
 | Component | Responsibility |
 |---|---|
-| **Regime Awareness** | Detect whether the frame that supported the current position is still valid. |
+| **Regime Awareness** | Emit a qualified ecosystem/regime delta — direction + confidence/intensity + capability frontier + residual — without deciding the participant's final posture. |
 | **Ecosystem Awareness** | Qualify what can be relied on, what remains unresolved and what needs requalification. |
 | **Ecosystem Positioning** | Maintain the participant-local situated view and translate qualified ecosystem change into an objective-conditioned local gradient and repositioning pressure. |
 | **MSCA** | Determine whether control capacity is sufficient under the current Objective Envelope and authority. |
