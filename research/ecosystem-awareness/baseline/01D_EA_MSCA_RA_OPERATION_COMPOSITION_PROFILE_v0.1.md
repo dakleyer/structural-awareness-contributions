@@ -22,7 +22,7 @@ A legitimate decision owner first declares an operation identifier, objective en
 | Authority and execution | Reachable actor/mandate, permit or refusal, permit target/version/expiry, dispatch recheck, receipt and separately observed effect | Legitimate authority/control owner. Evidence or a feasible proposal is never an execution permit. |
 | Feasibility and cost | Useful action deadline, acquisition/processing/response latencies, compute, intervention and human-attention cost, available capacity | Owners jointly assess one decision horizon; cost is not counted twice or assumed zero. |
 
-The symbol P_RA denotes RA directional posture; P_MSCA denotes the MSCA intervention/planning dimension. They are **not the same variable**. Similarly, RA neutral (P_RA = 0) is not EA Normal Operation, and RA Pointwise Non-Inferiority (PNI) is not an MSCA proof of S/E/C/P_MSCA/M sufficiency.
+The symbol P_RA denotes the source-defined **RA directional detector output** (called directional posture in the minimal-detector paper); P_MSCA denotes the MSCA intervention/planning dimension. They are **not the same variable**. P_RA is not one of the three EA/Positioning operating postures. In particular, RA neutral (P_RA = 0) is not EA Normal Operation, and RA Pointwise Non-Inferiority (PNI) is not an MSCA proof of S/E/C/P_MSCA/M sufficiency.
 
 ## 3. Candidate eligibility rules and precedence
 
