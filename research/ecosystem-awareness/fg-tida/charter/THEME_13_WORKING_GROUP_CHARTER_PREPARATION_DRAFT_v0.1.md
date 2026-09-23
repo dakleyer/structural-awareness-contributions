@@ -386,7 +386,7 @@ After charter/WG structure is accepted sufficiently to assign document ownership
 
 ## 6. Relationship to Annex 01F
 
-[Annex 01F — EA / FG-TIDA Specification Preparation Map](../../specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.2_DRAFT.md) prepares the **document(s)**.
+[Annex 01F — EA / FG-TIDA Specification Preparation Map](../specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.2_DRAFT.md) prepares the **document(s)**.
 
 This 01G prepares the **organizational/charter container** that could own those documents.
 
