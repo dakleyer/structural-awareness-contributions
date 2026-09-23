@@ -60,21 +60,20 @@ The following can travel together in one bounded handoff, but they are not one o
 
 ### 3.1 Epistemic projection
 
-A decision-scoped projection may include:
+A decision-scoped projection may include any material part of the [canonical four-component qualified position](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position):
 
-- receiving decision / scope;
-- A/B/C/D composition;
-- residual / UNKNOWN;
-- provenance and source dependence;
-- freshness;
-- revalidation conditions;
-- current posture where material.
+- **A — situated scope / qualified assertion:** what is being asserted or represented, from which location/frame, for which subject/decision and under which provenance/calibration/freshness qualifiers;
+- **B — directional confidence / gradient strength:** how strongly and in which qualified direction the current evidence supports the position or change;
+- **C — recognized capability frontier:** what additional state could be determined with current capability but has not yet been established;
+- **D — structural / residual unknown:** what remains outside that represented/recognized-obtainable capability boundary, including receiver-side compatibility residual where applicable;
+- current EA operating posture where material;
+- revalidation conditions.
 
-This says what the sender currently considers established, unresolved, potentially obtainable or structurally residual.
+This is one qualified position, not four independent content buckets.
 
-The four-position model is a semantic space, not a four-field transmission requirement. A participant MAY disclose any subset of A/B/C/D, including a single component. An omitted component remains **UNKNOWN / NOT DECLARED** to the receiver. Omission MUST NOT be interpreted as zero uncertainty, absence of residual unknowns, epistemic completeness or evidence that the omitted position is empty.
+A participant MAY disclose any subset of A/B/C/D, including only A. An omitted component remains **UNKNOWN / NOT DECLARED** to the receiver. Omission MUST NOT be interpreted as zero uncertainty, zero residual, complete confidence or epistemic completeness.
 
-This allows low-capability, legacy or specialised devices to participate without implementing the complete EA representation. A device may, for example, emit only a determined observation. An EA-capable receiver may use that observation while preserving the other epistemic positions as unknown.
+This allows low-capability, legacy or specialised devices to participate without implementing the complete EA representation. For example, a telemetry device may emit only a situated reading A. A verified compatibility profile may allow the receiver to add a qualified B and/or C based on known device semantics/capability; D remains where the capability boundary or translation leaves residual unknown.
 
 The receiver may therefore maintain a richer local epistemic position for the contact than the sender explicitly transmits. Receiver-added qualification remains receiver-local and MUST NOT be rewritten as a sender claim.
 
