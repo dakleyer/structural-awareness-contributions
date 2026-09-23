@@ -109,14 +109,15 @@ The following file is explicitly protected by owner instruction:
 `research/ecosystem-awareness/README.md`
 
 **Protected content SHA at control date:**  
-`4f3f2138b67aac28943bed94bc344d563e946d65`
+`be2467353841eae8b55a506911be56dc0056c1b8`
 
 Rule:
 
 - Do not edit, reformat, reorder, rename or normalize this file without explicit new instruction from Iván Abril.
 - Maintenance work must route around it.
 - If a future explicit instruction authorizes a change, update both the protected SHA and this section immediately.
-- **23 September 2026 owner-authorized maintenance:** routed the protected EA entry point to the current 01J signalling successor and reconciled delta/agentic-gradient terminology; protected SHA updated above.
+- **23 September 2026 owner-authorized maintenance:** routed the protected EA entry point to the current 01J signalling successor and reconciled delta/agentic-gradient terminology.
+- **23 September 2026 owner-authorized hierarchy reconciliation:** clarified that EA is one of the three maintained technical gates of Ecosystem Positioning; protected SHA updated above.
 
 The current Regime Awareness and MSCA READMEs are also maintained as preserved technical corpus entry points. Navigation changes should route to them rather than rewriting them unless the owner explicitly requests a content change.
 
