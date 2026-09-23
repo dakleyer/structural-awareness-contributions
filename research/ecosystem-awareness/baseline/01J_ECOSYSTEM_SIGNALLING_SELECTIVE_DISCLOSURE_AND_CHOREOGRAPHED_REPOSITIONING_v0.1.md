@@ -98,7 +98,7 @@ The MSCA is the main local control-sufficiency object: it represents the partici
 
 ### 3.3 ACC / participation-profile projection
 
-ACC is separate from MSCA.
+ACC is **semantically separate from MSCA but extension-coupled at the control-architecture boundary**. Under the [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md), an applicable ACC may be loaded as a normative MSCA extension profile after compatibility/applicability qualification. It is not an MSCA subset and may carry richer governance semantics that remain externally owned.
 
 A bounded ACC projection may include:
 
@@ -466,7 +466,7 @@ Such a module may define or reference:
 - permitted transport/profile versions;
 - domain-specific fields and extensions.
 
-The specialised module does not replace generic Ecosystem Signalling. It is loaded through it as an **extensible signalling profile** and must expose enough semantics for the generic layer to determine what can be mapped, what cannot, and under which bounded reliance conditions.
+The specialised module does not replace generic Ecosystem Signalling. It is loaded through it as an **extensible signalling profile** and must expose enough semantics for the generic layer to determine what can be mapped, what cannot, and under which bounded reliance conditions. Where that signalling module is required by an ACC, the ACC first passes the MSCA normative-extension compatibility/applicability boundary; only then may its signalling obligations become active for the participant.
 
 Conceptually:
 
