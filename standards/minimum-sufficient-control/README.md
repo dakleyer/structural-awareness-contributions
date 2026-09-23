@@ -117,10 +117,10 @@ No layer substitutes for another.
 | Peer-MSCAs vs legitimate higher-order composite MSCA | **DEFINED in Composition & Control v0.1** |
 | Canonical MSCA Operation & Repositioning specification | **CURRENT — [v0.1](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md)** |
 | Effective-role drift / metamorphic-role control | **DEFINED in Operation & Repositioning v0.1** |
-| Type 0/1/2 source/domain catalogue before repositioning closure | **DEFINED in Operation & Repositioning v0.1** |
+| Type 0 condition / Type 1–2 failure catalogue by source/domain before repositioning closure | **DEFINED in Operation & Repositioning v0.1** |
 | P1 Normal / P2 Containment / P3 Migration hard posture gate | **DEFINED in Operation & Repositioning v0.1** |
 | Qualified repositioning position `Π_RP=[A_RP,B_RP,C_RP,D_RP]` | **DEFINED in Operation & Repositioning v0.1** |
-| `RepositionIntent` / `AuthorityResponse` as compound ecosystem signalling | **DEFINED across Operation & Repositioning and 01J Signalling** |
+| Every `RepositionIntent` as qualified compound signalling (local or external) + `AuthorityResponse` | **DEFINED across Operation & Repositioning and 01J Signalling** |
 | Re-contracting / role rebinding / migration outcomes | **DEFINED in Operation & Repositioning v0.1** |
 | Defensive repositioning / bounded systemic self-healing | **DEFINED as bounded architecture property; not guaranteed convergence** |
 | MSCA Architectural Role | **CURRENT — [v0.1](./02_MSCA_ARCHITECTURAL_ROLE.md)** |
