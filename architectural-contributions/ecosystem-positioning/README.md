@@ -12,6 +12,8 @@ This README is the human entry point to the current **Ecosystem Positioning Agen
 
 [Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md)
 
+[Visual guide to the wider corpus](../../research/ecosystem-awareness/VISUAL_GUIDE.md) — cumulative lineage, ownership, current positioning cycle, requirements/test maturity, scenarios/cases and FG-TIDA application layers.
+
 The PowerPoint above is the canonical editable presentation for this contribution; Git history provides its version lineage. The PDF is the canonical reading snapshot.
 
 The deck is a **working proposal**, not an adopted standard. It presents Ecosystem Positioning as the participant-local architectural core, supported by Ecosystem Awareness, Regime Awareness, Minimum Sufficient Control and related participation/signalling concepts.
