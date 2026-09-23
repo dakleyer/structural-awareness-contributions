@@ -489,7 +489,7 @@ The [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_C
 
 It distinguishes peer-MSCAs from legitimate higher-order composite MSCAs, allows representation to become progressively more deterministic near the focal role/process, and supplies bounded structural input to Ecosystem Awareness and Regime Awareness without creating a global controller.
 
-Composition & Control owns persistent `ECM_i` state. It may update that map from participant-local epistemic movement, qualified `ReceivedSignals_i`, focal MSCA/Role changes, direct observations, freshness/expiry and RA feedback. Regime Awareness consumes the bounded map/dependency neighbourhood and returns `Δ_RA` plus overlay/requalification indications; it does not become the persistent map owner.
+Composition & Control owns persistent Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` state. `A_Cart` is the represented map, `B_Cart` is element-wise confidence/intensity, `C_Cart` is the current capability/effort frontier for expanding or refining the map, and `D_Cart` is residual. It may update that cartography from participant-local epistemic movement, qualified `ReceivedSignals_i`, focal MSCA/Role changes, direct observations, freshness/expiry and RA feedback. Regime Awareness consumes the bounded qualified cartography/dependency neighbourhood and returns `Δ_RA` plus overlay/requalification indications; it does not become the persistent map owner.
 
 ## 12. Architecture versus composition, role and operation
 
