@@ -1,6 +1,6 @@
 # Annex 01B — Ecosystem Awareness / Minimum Sufficient Control Architecture interface
 
-**Status:** public working interface annex, v0.2, 23 September 2026. Additive companion to the Ecosystem Awareness (EA) corpus; not one of the six controlled/frozen v0.4 release-baseline documents. This is a proposed cross-programme integration surface, not a deployed interface, completed joint validation, ITU-T deliverable, FG-AI4SSC/FG-TIDA adoption, production certification or substitute for the future Canonical MSCA Architecture.
+**Status:** public working interface annex, v0.2, 23 September 2026. Additive companion to the Ecosystem Awareness (EA) corpus; not one of the six controlled/frozen v0.4 release-baseline documents. This is a proposed cross-programme integration surface, not a deployed interface, completed joint validation, ITU-T deliverable, FG-AI4SSC/FG-TIDA adoption, production certification or substitute for the [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md).
 
 **Supersedes for current reading:** [v0.1](./01B_EA_MSCA_INTERFACE_ANNEX_v0.1.md), which remains preserved for provenance.
 
@@ -17,7 +17,7 @@ EA and Minimum Sufficient Control Architecture (MSCA) answer different questions
 
 No layer substitutes for another. EA does not create authority or control sufficiency. MSCA does not create epistemic truth, identity, authority, participation legitimacy or a Semantic Window. A successful signal transport or compatibility mapping does not by itself establish evidence sufficiency.
 
-The current MSCA corpus entry point is [Minimum Sufficient Control / MSCA](../../../standards/minimum-sufficient-control/README.md). It now distinguishes the stable working S/E/C/P/M semantics from three still-pending canonical documents: Canonical MSCA Architecture, Canonical MSCA Operation and MSCA Control Positioning. Until those documents exist, this annex uses the current common MSCA semantics without treating the urban/smart-city working paper as the generic canonical specification.
+The current MSCA corpus entry point is [Minimum Sufficient Control / MSCA](../../../standards/minimum-sufficient-control/README.md). The [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) now owns the generic S/E/C/P/M kernel, invariants and extension contract. Canonical MSCA Operation and MSCA Control Positioning remain pending. This annex defines only the EA↔MSCA boundary and does not treat the urban/smart-city working paper as the generic canonical specification.
 
 The **MSCA representation/schema instance** and an **MSCA sufficiency determination** are distinct objects. For discovery/interchange, S/E/C/P/M may be represented with qualified values, UNKNOWN or UNPOPULATED fields; an entirely unpopulated instance is a valid representation with status UNASSESSED, not a supported minimum. SUPPORTED, FAILED and UNRESOLVED remain assessment outcomes that require the applicable objective/assumptions, evidence and authority for the declared scope.
 
@@ -125,7 +125,7 @@ A SUPPORTED configuration may still be refused. A valid permit may expire or bec
 
 ### 6.1 ACC / participation profile
 
-An applicable [Agentic Citizenship Contract / participation profile](./01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md) may define membership, role eligibility, obligations/prohibitions, non-compensable constraints and required signalling behaviour.
+An applicable [Agentic Citizenship Contract / participation profile](./01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md) may define membership, role eligibility, obligations/prohibitions, non-compensable constraints and required signalling behaviour. Under the [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md), ACC remains a separately owned governance object but couples operationally to MSCA as a **normative extension profile** after compatibility/applicability qualification; it is not an MSCA subset.
 
 At the EA↔MSCA boundary:
 
@@ -143,7 +143,7 @@ A full MSCA export is not universally required. A signal may carry or reference 
 
 ### 6.3 Extensibility
 
-The future Canonical MSCA Architecture is expected to define generic upward, downward and horizontal extensibility. This interface already preserves the necessary boundary:
+The Canonical MSCA Architecture defines downward, upward, horizontal and normative/contractual extensibility. This interface preserves that boundary:
 
 - **downward:** a participant may expose a sparse/legacy MSCA representation and remain interoperable;
 - **upward:** richer domain profiles may refine S/E/C/P/M without redefining their canonical meanings;
