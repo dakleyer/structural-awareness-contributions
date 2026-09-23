@@ -105,7 +105,18 @@ Owns control sufficiency:
 | **Ecosystem Positioning** | Maintain the participant-local situated view and determine where additional epistemic effort has value. |
 | **MSCA** | Determine whether control capacity is sufficient under the current Objective Envelope and authority. |
 | **Human / institutional governance** | Own legitimate authority, policy, objectives and final decision rights. |
-| **EHD / epistemic signalling** | Carry bounded qualified state across boundaries without turning a signal into a command. |
+| **EHD / epistemic signalling** | Carry bounded qualified state across boundaries without turning a signal into a command. See [01J Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_DISTRIBUTED_OPPORTUNITY_v0.1.md). |
+
+---
+
+## Signalling and participation working extensions
+
+- [01H — Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity](../../research/ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md)
+- [01I — Agentic Citizenship Contract](../../research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md)
+- [01J — Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_DISTRIBUTED_OPPORTUNITY_v0.1.md)
+- [00G — Collective False-Context Convergence ("Bar-to-Napoleon" Cascade)](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md)
+
+These are additive working extensions/cases. They do not redefine the frozen baseline.
 
 ---
 
