@@ -34,7 +34,7 @@ A participant asks, for a declared receiving decision:
 
 1. What objective, mandate, policy or participation conditions appear applicable here?
 2. What ecosystem state is actually represented for that decision?
-3. Which part of that state is sufficiently determined, unresolved, potentially obtainable or structurally residual?
+3. What situated state is being asserted, with what confidence/intensity, what could still be established with current capability, and what remains structurally residual?
 4. Would obtaining or exchanging more information materially improve the decision before cost, privacy, capacity or time remove the option to act?
 5. Does the current control configuration remain supportable?
 6. What bounded state, limitation or requalification request should be handed to another participant or owner?
@@ -48,7 +48,7 @@ For participant i, decision d and time t, use participant indices when locality 
 - U_i(d,t) — bounded represented universe used by participant i;
 - W_i(d,t) — active decision-scoped Semantic Window selected from the represented/observable state available to i;
 - R_{U_i} — open decision-relevant residual relative to U_i;
-- A/B/C/D — the canonical four-component qualified epistemic position: situated scope/assertion (A), directional confidence/gradient strength (B), recognized current-capability frontier (C), and structural/residual unknown (D), interpreted relative to the participant's active decision/window;
+- A/B/C/D — the canonical four-component qualified epistemic position: situated scope/assertion (A), confidence/intensity (B), recognized current-capability frontier (C), and structural/residual unknown (D), interpreted relative to the participant's active decision/window;
 - Q_i(d,t) — participant-local qualified operating-frame assessment for the declared receiving decision and scope.
 
 When this annex refers to F6 **systemic** assessment, systemic means composition across the domains and dependencies material to the declared receiving decision and scope. It does not denote one global ecosystem state, universal knowledge or a global posture.
@@ -119,7 +119,7 @@ EA does not overwrite the participant's programming, utility function, identity 
 
 This annex distinguishes an **MSCA representation/schema instance** from an **MSCA sufficiency determination**.
 
-For participant i, let X_i = (S_i, E_i, C_i, P_i, M_i), where, for interchange/discovery purposes, each component may be represented as a qualified value, UNKNOWN or UNPOPULATED. X_i follows the canonical MSCA notation; A remains reserved for the EA sufficiently-determined epistemic position.
+For participant i, let X_i = (S_i, E_i, C_i, P_i, M_i), where, for interchange/discovery purposes, each component may be represented as a qualified value, UNKNOWN or UNPOPULATED. X_i follows the canonical MSCA notation; the symbol X avoids collision with A, which is already a component of the canonical EA qualified-position tuple.
 
 Keep assessment status separate:
 
