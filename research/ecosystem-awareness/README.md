@@ -14,7 +14,7 @@ An agent or institution can be locally correct while the wider decision remains 
 2. [**Minimum Sufficient Control / MSCA**](../../standards/minimum-sufficient-control/README.md) — the control-sufficiency and authorized-response line, including its proposed interfaces with EA.
 3. [**Regime Awareness**](../regime-awareness/README.md) — the operating-validity line, including Minimalistic Regime-Aware Early Warning Systems and the Regime Change Detection review route.
 
-The canonical corpus index now also routes three additive, non-frozen extensions: **01H Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity**, which makes the distributed/no-supercontroller reading explicit; **01I Agentic Citizenship Contract**, a separate human-governed participation/constraint neighbour outside the EA core; and **01J Ecosystem Signalling**, which develops selective disclosure, distributed opportunity gradients, authority/ACC qualification and choreographed repositioning without assuming common governance or a global state.
+The canonical corpus index now also routes three additive, non-frozen extensions: [**01H Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity**](./baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md), which makes the distributed/no-supercontroller reading explicit; [**01I Agentic Citizenship Contract**](./baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md), a separate human-governed participation/constraint neighbour outside the EA core; and [**01J Ecosystem Signalling**](./baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_DISTRIBUTED_OPPORTUNITY_v0.1.md), which develops selective disclosure, distributed opportunity gradients, authority/ACC qualification and choreographed repositioning without assuming common governance or a global state.
 
 ## Benchmark — what is being compared
 
@@ -33,7 +33,7 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 
 - [00E — 100 Million Tokens / compounding context failure](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)
 - [00F — smart-city mobility systemic divergence](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md)
-- [00G — collective false-context convergence / "Bar-to-Napoleon" cascade](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md)
+- [00G — collective false-context convergence / "Bar-to-Napoleon" cascade](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md) — additive candidate scenario; integration into the canonical 00D benchmark is still pending.
 - [00D-A01 — bounded reference-oracle and test construction](./baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
 - [00D-A03 — deterministic Stage-0 harness design](./baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
 - [RS-00E-Q1a fixture and pre-registration](./baseline/fixtures/RS-00E-Q1a/README.md)
@@ -45,7 +45,7 @@ The benchmark is therefore presentable as an inspectable test programme and mark
 ## Reading routes
 
 - **Five minutes:** this page → [100 Million Tokens](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) → [mobility divergence](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) → [benchmark status](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md).
-- **Architecture:** [canonical EA corpus](./baseline/README.md) → topology → documents 01–04 → 01H/01I → interface annexes.
+- **Architecture:** [canonical EA corpus](./baseline/README.md) → topology → documents 01–04 → 01H/01I/01J → interface annexes.
 - **Validation:** benchmark → A01/A03 → validation profiles → fixture/pre-registration → future execution traces.
 - **Institutional application:** [EA / FG-TIDA package](./fg-tida/README.md) → specifications/interfaces → cases/tests → provenance.
 
