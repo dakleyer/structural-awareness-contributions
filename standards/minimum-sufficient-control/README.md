@@ -32,7 +32,7 @@ The static MSCA corpus is consolidated around three canonical documents:
 ### Canonical dynamic specification
 
 [**Canonical MSCA Operation & Repositioning**](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) — **CURRENT, v0.1 (23 September 2026).**  
-Defines the runtime cycle from current epistemic/cartographic/regime state to controlled role/contract transition: effective-role drift detection; source/domain Type 0/1/2 catalogue; P1 Normal / P2 Containment / P3 Migration hard posture closure; qualified repositioning output `Π_RP=[A_RP,B_RP,C_RP,D_RP]`; agentic-gradient candidate generation; ACC/lineage/authority gating; `RepositionIntent` / `AuthorityResponse` signalling; restoration, rebinding, re-contracting, migration, defensive isolation, post-transition signalling and bounded systemic self-healing.
+Defines the runtime cycle from current epistemic/cartographic/regime state to controlled role/contract transition: effective-role drift detection; source/domain Type 0/1/2 catalogue; P1 Normal / P2 Containment / P3 Migration hard posture closure; qualified repositioning output `Π_RP=[A_RP,B_RP,C_RP,D_RP]`; agentic-gradient candidate generation; ACC/lineage/authority gating; `RepositionIntent` / `AuthorityResponse` signalling; realignment targets, containment/isolation requests, rebinding, re-contracting, migration, post-transition signalling and bounded systemic self-healing. Repositioning does not itself execute containment, rollback or isolation.
 
 ### Canonical extension profiles
 
