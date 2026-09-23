@@ -35,6 +35,23 @@ Evaluation may be event-driven, threshold-triggered or periodic. Material local 
 
 Outputs are `Δ_RA=[A_RA,B_RA,C_RA,D_RA]`, a regime-qualified overlay over the represented map/frame, and bounded requalification requests. Composition & Control owns persistent `Cart_i` updates; RA does not become the Ecosystem Cartography repository. These outputs feed [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), which owns drift control, source/domain Type 0/1/2 catalogue, operational P1 Normal / P2 Containment / P3 Migration closure, qualified repositioning output `Π_RP` and role/contract transition. A material RA output may itself be selectively signalled to peers.
 
+### Producer / consumer interface view
+
+The producer list and output description above remain the normative reading context. This table is an interface-oriented view of the same circuit; it does not create new ownership or mandatory transport semantics.
+
+| Direction | Object / state | Producer → consumer | Boundary |
+|---|---|---|---|
+| **In** | Participant-local qualified epistemic position `Π_EA,i` and material local action/effect changes | [01H participant-local EA](../ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) → RA | EA qualification remains decision-scoped; RA does not convert it into participant-global knowledge |
+| **In** | Receiver-qualified external messages `ReceivedSignals_i` | [01J Ecosystem Signalling](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) → RA | Signals remain attributed and receiver-qualified; signal ≠ command |
+| **In** | `Cart_i`, bounded dependency neighbourhood and `Δ_Cart,i` | [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) → RA | Composition & Control retains ownership of persistent Cartography |
+| **In** | Objective Envelope, process/control context and current architectural role | [Canonical MSCA](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) + [Architectural Role](../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) → RA | RA evaluates change relative to the focal objective/control frame; it does not create authority |
+| **In** | Decision scope, `W(d,t)`, thresholds, horizon, local telemetry and other qualified evidence | Legitimate owner / EA window / direct observations → RA | Inputs remain bounded by declared scope, provenance, freshness and capability |
+| **Out** | Qualified regime delta `Δ_RA=[A_RA,B_RA,C_RA,D_RA]` | RA → [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) | A qualified directional change input; not the participant's final posture and not a command |
+| **Out** | Regime-qualified overlay over the represented map/frame | RA → MSCA Composition & Control / receiving decision context | May inform Cartography requalification; RA does not become the persistent Cartography repository |
+| **Out** | Bounded requalification / resolution requests | RA → legitimate owner / EA / Composition & Control as applicable | Requests do not create authority or imply that requested information is obtainable |
+| **Out** | Material qualified change signal, when selectively disclosed | RA → peers / authorities through the signalling profile where applicable | Cross-boundary signalling preserves qualification and authority separation |
+
+
 ## Architecture links
 
 The [EA ↔ RA annex 01C v0.2](../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) is the current interface route. It preserves the public minimal detector boundary while adding the qualified `Δ_RA=[A_RA,B_RA,C_RA,D_RA]` projection used by EA/MSCA positioning. The [joint operation annex 01D](../ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) checks the same decision, versions and permit when RA evidence is used to justify an MSCA action. [EA](../ecosystem-awareness/baseline/README.md), [MSCA](../../standards/minimum-sufficient-control/README.md) and the [DAOS case](../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) retain independent source corpora.
