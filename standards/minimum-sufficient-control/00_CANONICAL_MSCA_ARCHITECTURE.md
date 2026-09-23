@@ -18,6 +18,20 @@ MSCA is therefore a **minimum modular reference architecture**. Its canonical co
 
 The architecture does not require one globally optimal configuration. More than one configuration may be sufficient under the same Objective Envelope and different local conditions, resource allocations or operational histories.
 
+### 1.1 One MSCA instance is bound to one Objective Envelope
+
+An instantiated MSCA represents one bounded process/control problem under one Objective Envelope.
+
+The represented process need not be centrally orchestrated or linear. It may be distributed, partially ordered, event-driven, cyclic, human-machine or multi-agent. What gives the instance architectural unity is that its represented roles, dependencies, mechanisms and means contribute to one Objective Envelope and can be assessed together for control sufficiency.
+
+An Objective Envelope may contain several objectives, including objectives that compete or require explicit trade-offs, provided they belong to the same process/control problem and a legitimate owner/governance boundary can declare hard constraints and admissible compromises among them.
+
+Example: a logistics/mobility process may seek both lower fuel/CO2 burden and a high share of direct journeys/fewer transfers. The same routing/fleet decisions affect both and may create a legitimate trade-off, so both may belong to one S.
+
+By contrast, unrelated objectives such as healthy-food preparation and transport-transfer reduction do not belong in one S merely because they coexist in the same wider ecosystem. Likewise, competing taxi-utilization and bus-utilization objectives remain separate Objective Envelopes when they are separate operational processes; a broader legitimate mobility owner could explicitly create a new multimodal envelope, but coexistence alone does not merge them.
+
+A participant may serve several Objective Envelopes only through separate MSCA/role bindings. One role or sufficiency claim MUST NOT silently span two envelopes.
+
 ## 2. Canonical kernel — S / E / C / P / M
 
 For participant or system i, decision or mission d and time t, the canonical MSCA representation is a versioned structure:
@@ -30,13 +44,17 @@ The symbol **X** is used for an MSCA representation/configuration. Older researc
 
 | Element | Canonical meaning | Architectural boundary |
 |---|---|---|
-| **S — Objective Envelope** | Owner-declared outcomes, acceptable ranges, hard/non-compensable constraints, relevant trade-off limits and mission/service viability conditions. | MSCA represents and assesses S; it does not self-author or silently relax S. |
+| **S — Objective Envelope** | Owner-declared outcomes belonging to one bounded process/control problem, including acceptable ranges, hard/non-compensable constraints, legitimate trade-off rules and mission/service viability conditions. Objectives inside S may compete; they need not be reducible to one scalar. | MSCA represents and assesses S; it does not self-author, silently merge unrelated objectives or silently relax S. |
 | **E — Operating assumptions / environment** | The material conditions under which a sufficiency claim is intended to hold: demand, dependencies, infrastructure, staffing, information quality, actors, applicable regime, time/horizon and other material conditions. | A configuration supported under E1 is not automatically supported under E2. |
 | **C — Coordination scope** | Which actors, flows, resources or domains can be observed, coordinated, directly controlled or legitimately influenced, including reach and coverage gaps. | Connectivity does not imply coordination reach, mandate or authority. |
 | **P — Intervention mechanisms** | Feasible actions available to maintain, recover, contain, migrate, reconfigure or otherwise influence the objective, with preconditions, latency, reversibility and required authority. | Feasibility is not permission. |
 | **M — Enabling means** | Observation, communication, interoperability, computation/processing where material, human/external capacity, actuation and independent effect-measurement capabilities that make C/P usable. | Technology is represented by capability and evidence, not by one mandatory stack. |
 
 S/E/C/P/M are **semantic slots**, not five mandatory software components. The earlier working-note category “response conditions” is retained as cross-cutting binding/operation metadata — thresholds, authority, timing, escalation and return/requalification conditions — rather than promoted to a sixth canonical kernel element.
+
+An instantiated MSCA may represent a much richer **process/architecture topology**: actors, roles, software components, protocols, inputs, outputs, dependencies, rules, signalling, authority references and feedback loops. That topology is an extension/view of the S/E/C/P/M kernel, not a sixth kernel element.
+
+A participant's functional place inside that instantiated topology is defined by the [MSCA Architectural Role](./02_MSCA_ARCHITECTURAL_ROLE.md). The role is a bounded projection of the instantiated MSCA, not a second architecture and not an epistemic-position object.
 
 ## 3. Representation is not sufficiency
 
