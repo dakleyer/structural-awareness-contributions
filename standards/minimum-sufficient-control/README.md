@@ -18,10 +18,10 @@ Assessment state is separate from representation. Current working semantics dist
 
 ## Canonical MSCA document set
 
-The corpus is being consolidated around three canonical documents. Only existing artefacts are linked; pending documents are deliberately shown without placeholder links so that this README never routes to a non-existent file.
+The corpus is consolidated around three canonical documents. Existing artefacts are linked; pending documents remain deliberately unlinked so that this README never routes to a non-existent file.
 
-1. **Canonical MSCA Architecture — PENDING.**  
-   This will be the authoritative architecture document for the stable MSCA objects and invariants: S/E/C/P/M, representation versus sufficiency assessment, authority/evidence boundaries, multi-optima and burden, version/scope/freshness/provenance, and the rules for upward, downward and horizontal extensibility. Smart-city, DAOS and other domain material will remain examples, profiles or provenance rather than definitions of the generic architecture.
+1. [**Canonical MSCA Architecture**](./00_CANONICAL_MSCA_ARCHITECTURE.md) — **CURRENT, v0.1 (23 September 2026).**  
+   Authoritative generic architecture for the S/E/C/P/M kernel, representation versus sufficiency assessment, authority/evidence boundaries, multi-optima and burden, canonical invariants, and downward/upward/horizontal/**normative-contractual** extensibility. It defines ACC coupling as a normative MSCA extension after compatibility/applicability qualification while preserving ACC's separate semantic ownership. Smart-city, DAOS and other domain material remain examples, profiles or provenance rather than definitions of the generic architecture.
 
 2. **Canonical MSCA Operation — PENDING.**  
    This will define how an MSCA instance is operated and changed over time: declaration, representation, qualification, assessment, comparison, selection, authorization, execution, effect measurement, invalidation and requalification. Existing 01B/01D material provides part of this lineage but does not yet constitute the canonical operating specification.
@@ -29,28 +29,30 @@ The corpus is being consolidated around three canonical documents. Only existing
 3. **MSCA Control Positioning — PENDING.**  
    This will define how a participant represents its current control-sufficiency position relative to the supported configuration region, alternative configurations, control gaps, transition possibilities, burden, switching cost, authority constraints and response horizon. It is distinct from Ecosystem Awareness epistemic positioning.
 
-Until these documents exist, **no current source artefact should be treated as a substitute for the complete canonical MSCA architecture**. The documents below remain the authoritative public sources for the portions they actually define.
+The Architecture document is now the canonical semantic reference. Source papers, interface annexes and cases below remain authoritative only for the portions and provenance they actually own.
 
-## Current source and reading route
+## Canonical and source reading route
 
-Read the existing material in this order:
+Read the corpus in this order:
 
-1. [Architectural and standards working context](./ARCHITECTURE_AND_STANDARDS_CONTEXT.md): original working note for the Objective Envelope, coordination/mechanism/means/response dimensions, research questions and programme boundaries. **Status: working context / lineage; not the final canonical architecture.**
-2. [FG-AI4SSC input FGAI4SSC-I-097](../../submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/README.md): controlled submitted PDF/DOCX and receipt status. **Status: public standards provenance.** Posting records an input, not adoption.
-3. [Minimum Sufficient Control Architecture working paper](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/): current working architecture developed through the AI-enabled urban-systems / smart-city context, including illustrative component handoffs and staged assessment. **Status: source architecture and domain-oriented working paper; not the generic canonical MSCA specification.** Additional analysis must not be retroactively attributed to the submitted input.
-4. [EA research lineage article II — multi-optima](../../research/ecosystem-awareness/baseline/ARTICLE_02_MINIMUM_CONTROL_ARCHITECTURE_MULTI_OPTIMA.md): predecessor exploration of feasible sufficiency regions, plural local/Pareto alternatives, response capability and resource trade-offs. **Status: research lineage.** Its earlier notation is not the canonical S/E/C/P/M schema.
-5. [EA ↔ MSCA interface annex 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md): current candidate boundary covering S/E/C/P/M representation versus assessment, partial/UNASSESSED state, qualified signalling/compatibility inputs, ACC and authority separation, extensibility and targeted requalification. **Status: candidate interface annex; not the pending canonical MSCA architecture.**
-6. [Joint operation annex 01D](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md): same-operation binding across EA, MSCA and Regime Awareness, including scope/version/time compatibility, permit precedence, cost ownership and race tests. **Status: candidate composition profile.**
+1. [Canonical MSCA Architecture](./00_CANONICAL_MSCA_ARCHITECTURE.md): current generic kernel, invariants and extension contract. **Status: canonical public working architecture.**
+2. [Architectural and standards working context](./ARCHITECTURE_AND_STANDARDS_CONTEXT.md): original working note for the Objective Envelope, coordination/mechanism/means/response dimensions, research questions and programme boundaries. **Status: working context / lineage; not the final canonical architecture.**
+3. [FG-AI4SSC input FGAI4SSC-I-097](../../submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/README.md): controlled submitted PDF/DOCX and receipt status. **Status: public standards provenance.** Posting records an input, not adoption.
+4. [Minimum Sufficient Control Architecture working paper](https://tegrity.ai/minimum-sufficient-control-architecture-for-ai-enabled-urban-systems/): current working architecture developed through the AI-enabled urban-systems / smart-city context, including illustrative component handoffs and staged assessment. **Status: source architecture and domain-oriented working paper; not the generic canonical MSCA specification.** Additional analysis must not be retroactively attributed to the submitted input.
+5. [EA research lineage article II — multi-optima](../../research/ecosystem-awareness/baseline/ARTICLE_02_MINIMUM_CONTROL_ARCHITECTURE_MULTI_OPTIMA.md): predecessor exploration of feasible sufficiency regions, plural local/Pareto alternatives, response capability and resource trade-offs. **Status: research lineage.** Its earlier notation is not the canonical S/E/C/P/M schema.
+6. [EA ↔ MSCA interface annex 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md): current candidate boundary covering S/E/C/P/M representation versus assessment, partial/UNASSESSED state, qualified signalling/compatibility inputs, ACC and authority separation, extensibility and targeted requalification. **Status: candidate interface annex; not the pending canonical MSCA architecture.**
+7. [Joint operation annex 01D](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md): same-operation binding across EA, MSCA and Regime Awareness, including scope/version/time compatibility, permit precedence, cost ownership and race tests. **Status: candidate composition profile.**
 
 ## Extensibility and domain profiles
 
-The generic MSCA architecture is intended to remain stable while domain-specific representations extend it.
+The generic MSCA architecture is intended to remain stable while domain-specific and normative representations extend it.
 
-The canonical architecture document is expected to make three extension directions explicit:
+The [Canonical MSCA Architecture](./00_CANONICAL_MSCA_ARCHITECTURE.md) defines four extension directions:
 
 - **downward extensibility / compatibility:** a smaller or legacy implementation may expose only the subset of S/E/C/P/M it can represent, while absent material remains UNKNOWN or UNPOPULATED rather than being invented;
 - **upward extensibility:** richer implementations may refine S/E/C/P/M into nested objectives, capabilities, controls, evidence, constraints or domain-specific substructures without redefining the canonical meanings;
-- **horizontal extensibility:** the domain may change — urban systems, mobility, manufacturing, cloud, healthcare, finance or another bounded system — while the meanings of S/E/C/P/M remain invariant.
+- **horizontal extensibility:** the domain may change — urban systems, mobility, manufacturing, cloud, healthcare, finance or another bounded system — while the meanings of S/E/C/P/M remain invariant;
+- **normative / contractual extensibility:** richer governance objects such as ACC may be compatibility-checked and loaded as normative extension profiles that constrain S/E/C/P/M and reference external authority objects without becoming MSCA subsets.
 
 A proposed profile is compatible only if it can add structure without redefining the canonical MSCA semantics. If a domain requires different core meanings, that is a boundary of the current architecture rather than evidence that the existing schema is universal.
 
@@ -68,7 +70,7 @@ MSCA owns **control sufficiency**, not epistemic truth, regime detection, partic
 - [Regime Awareness / Minimalistic EWS corpus](../../research/regime-awareness/minimalistic-early-warning-systems/README.md): observable-regime evidence, regime departure and bounded response-safety questions.
 - [EA ↔ MSCA interface annex 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md): current candidate EA/MSCA boundary; v0.1 remains preserved in the EA corpus for provenance.
 - [Joint EA/MSCA/RA operation annex 01D](../../research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md): candidate same-operation composition.
-- [Agentic Citizenship Contract 01I](../../research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md): participation/admissibility constraints and neighbouring authority relationships.
+- [Agentic Citizenship Contract 01I](../../research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md): separately owned participation/governance semantics that couple to MSCA through the canonical normative-extension mechanism; ACC is not an MSCA subset.
 - [Ecosystem Signalling 01J](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md): bounded qualified signalling and compatibility mapping. **Status: working signalling extension; its integration into the future canonical MSCA architecture remains pending.**
 
 The intended boundary is:
@@ -87,11 +89,11 @@ No layer substitutes for another.
 | Multi-optima / feasible sufficiency region / burden | **Developed in research lineage and working architecture** |
 | EA ↔ MSCA interface | **Candidate, documented in 01B** |
 | EA / MSCA / RA same-operation composition | **Candidate, documented in 01D** |
-| Generic upward/downward/horizontal extensibility rules | **PENDING canonical consolidation** |
-| Generic MSCA architecture specification | **PENDING** |
+| Generic upward/downward/horizontal/normative extensibility rules | **DEFINED in Canonical MSCA Architecture v0.1** |
+| Generic MSCA architecture specification | **CURRENT — [Canonical MSCA Architecture v0.1](./00_CANONICAL_MSCA_ARCHITECTURE.md)** |
 | Canonical MSCA operating specification | **PENDING** |
 | MSCA Control Positioning specification | **PENDING** |
-| ACC / Ecosystem Signalling integration into MSCA | **PENDING canonical consolidation** |
+| ACC normative-extension coupling / Ecosystem Signalling compatibility boundary | **ARCHITECTURALLY DEFINED; operational specification still pending** |
 | Completed comparative validation / production certification | **NOT ESTABLISHED** |
 
 ## Maintenance rule
