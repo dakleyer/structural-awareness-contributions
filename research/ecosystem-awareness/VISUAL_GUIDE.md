@@ -276,7 +276,7 @@ When in doubt, follow the status declaration in the source document and cite the
 
 The visual guide intentionally leaves these as open work rather than pretending they are already complete:
 
-- Requirements vNext assessment for 00G / ACC / signalling / Gradient / role drift / MSCA Operation;
+- Requirements-vNext **review completed**: later EP concepts map to the current S1–S14 / T1–T4 / H1–H6 / KPI basis; two non-canonical clarification candidates remain;
 - benchmark extension beyond EA-H1–EA-H4;
 - additional fixture/testbed coverage, including S7/S8 and later positioning layers;
 - future versioned reconciliation of later architecture into FG-TIDA preparation material;
@@ -290,7 +290,7 @@ This map is a reader shortcut to the [Living Workplan](./WORKPLAN.md). It shows 
 
 ```mermaid
 flowchart TB
-    W1["W1 Requirements vNext<br/>Do later concepts require new S/T/H/KPI?"]
+    W1["W1 Requirements review<br/>COMPLETED · no canonical change"]
     W2["W2 Benchmark vNext<br/>Extend beyond EA-H1–EA-H4"]
     W3["W3 Testbed coverage vNext<br/>S7/S8 · 00G · ACC · gradient · drift/repositioning"]
     W4["W4 FG-TIDA Specification vNext<br/>incorporate / inform / exclude explicitly"]
@@ -301,26 +301,25 @@ flowchart TB
     C4["C4 Presentation / Release<br/>deck · GitHub Release · DOI"]
     C5["C5 Coherence pass<br/>README · Visual Guide · coverage map"]
 
-    W1 --> W2
-    W1 --> W3
-    W1 --> W4
+    W1 -. "traceability gate closed" .-> W2
+    W1 -. "existing requirement basis" .-> W3
+    W1 -. "requirements disposition" .-> W4
     W2 --> W3
     W2 -. "evidence scope" .-> W4
     W3 -. "test / conformance evidence" .-> W4
 
-    C1 -. "source integrity" .-> W1
     C1 -. "source integrity" .-> W4
     C2 --> W2
     C2 --> W3
     C3 -. "implementation evidence" .-> W2
 
-    W1 --> C5
     W2 --> C5
     W3 --> C5
     W4 --> C5
     C5 -. "stable reader state" .-> C4
 ```
 
+**Current strategic front:** W2 Benchmark vNext, now using the completed W1 mapping.  
 **Current first empirical milestone:** RS-00E-Q1a Stage-0 descriptive execution under operative pre-registration v0.5.
 
 **Read:** [Living Workplan](./WORKPLAN.md).
