@@ -69,6 +69,33 @@ Those representations do not transfer ownership. If applicability, version, prec
 
 A newly instantiated participant may begin with an empty or nearly empty represented state, no external handoffs and no populated MSCA fields. EA treats that emptiness explicitly rather than assuming a shared default state. As soon as any local representation, constraint, memory, authority reference or observation exists, it is qualified as participant-local and may remain partly UNKNOWN or UNPOPULATED.
 
+### 2.1 Action-generated local state and circuit output
+
+The participant is not assumed to be only deliberating. It may act, receive effects and update its local representation.
+
+After a material action, observation, execution result, measured effect, authority change or other locally visible event, the participant may requalify:
+
+~~~text
+Π_EA,i(t) = [A_i, B_i, C_i, D_i]
+~~~
+
+for the affected decision/scope.
+
+For the ecosystem-positioning circuit, the participant-local EA layer can supply:
+
+- current qualified epistemic position Π_EA,i;
+- focal decision / Objective Envelope / MSCA reference;
+- current Architectural Role reference where applicable;
+- locally observed action/effect changes;
+- affected dependencies/domains;
+- provenance/freshness;
+- explicit UNKNOWN/residual;
+- a material-change or requalification trigger where established.
+
+These outputs may feed the participant's [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map and the [EA ↔ Regime Awareness interface](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md).
+
+EA does not own the persistent ecosystem-composition map and does not convert local action success into proof that the wider regime is unchanged.
+
 ## 3. Optional and resource-bounded epistemic signalling
 
 External epistemic signalling is optional.
