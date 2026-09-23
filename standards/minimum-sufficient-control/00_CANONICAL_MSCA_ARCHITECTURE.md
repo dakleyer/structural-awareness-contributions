@@ -65,6 +65,54 @@ UNKNOWN, UNPOPULATED and UNRESOLVED MUST NOT be silently converted to SUPPORTED.
 
 A representation may therefore be useful for discovery, interoperability, planning, signalling or comparison before it is sufficient for operational reliance.
 
+### 3.1 Qualified MSCA position over S/E/C/P/M
+
+MSCA also exposes a **qualified position** over its own control architecture. This does not replace X=[S,E,C,P,M] and does not create a second control schema. It applies the common EA A/B/C/D qualification form to the MSCA representation.
+
+For an MSCA instance X_i(d,t):
+
+~~~text
+Π_MSCA,i(d,t) = [ A_X, B_X, C_X, D_X ]
+~~~
+
+where:
+
+- **A_X — situated control scope / represented architecture:** the current S/E/C/P/M scope actually represented for this participant/decision, including version, locality/domain, effective assumptions and material provenance;
+- **B_X — confidence / directional support:** the strength and direction of evidence supporting the current MSCA position or a proposed change. This may include confidence/bounds on the current sufficiency claim or on a detected movement away from it. It does **not** replace the separate UNASSESSED/SUPPORTED/FAILED/UNRESOLVED assessment state;
+- **C_X — recognized current-capability frontier:** control/configuration information or alternatives that the participant could still establish, test or activate with its current sensing, computation, coordination, authority-request, human-review or other available capabilities, but has not yet established for the current decision;
+- **D_X — control residual:** control-relevant state, dependencies or alternatives outside the current represented/recognized-obtainable capability boundary, including compatibility or domain-extension residual where material.
+
+This makes an MSCA position **partial by design**. The system can know exactly which control architecture it currently represents without claiming that its control landscape is complete.
+
+A high B_X means strong support **inside A_X**. It does not eliminate C_X or D_X.
+
+### 3.2 Mechanical alignment with a Regime Awareness delta
+
+Where Regime Awareness supplies a qualified directional change/delta using the same A/B/C/D form, MSCA does not need a separate abstract “gradient algorithm” merely to discover whether the change is relevant.
+
+The first architectural operation is a bounded projection:
+
+~~~text
+Δ_RA
+→ bind affected scope/dependency
+→ project onto [S,E,C,P,M]
+→ compare with Π_MSCA
+→ classify impact
+~~~
+
+The minimum impact classes are:
+
+- **inside A_X:** the regime delta intersects currently represented S/E/C/P/M assumptions or capabilities; the affected MSCA support claim may require reassessment;
+- **inside C_X:** the delta points toward a recognized state/capability/configuration that could be determined or activated with current capability; this creates a candidate requalification or repositioning path;
+- **into D_X:** the delta reaches beyond the current control-capability representation; the system must preserve the residual and may need discovery, signalling, human/owner input, a new extension/profile, containment or migration rather than fabricate a configuration;
+- **not materially coupled:** the delta is qualified but no represented dependency connects it to the current MSCA decision; no control change follows merely from observing change elsewhere.
+
+The **direction and confidence carried in B_RA** determine the strength of the local change pressure. A large, well-qualified directional delta creates a stronger candidate gradient than a weak/noisy delta, but it still does not authorize action.
+
+Only after this mechanical alignment do ACC/admissibility, authority/delegation, burden, timing and sufficiency determine which candidate transition may actually be pursued.
+
+This is the architectural bridge to the pending **MSCA Control Positioning** and **Canonical MSCA Operation** documents. Those future documents will specify transition mechanics and lifecycle in detail; this section fixes the shared representation and matching rule.
+
 ## 4. Canonical architecture layers
 
 The minimum architecture contains five logical layers. They may be implemented together or separately.
