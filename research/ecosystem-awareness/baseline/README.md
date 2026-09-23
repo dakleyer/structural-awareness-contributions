@@ -9,6 +9,51 @@ Ecosystem Awareness (EA) asks whether the evidence, assumptions and available re
 
 This is the **single public reading folder for the general EA corpus**. It contains the current architectural argument, general integration annexes, validation profiles, research lineage, conservation and governance records. These are distinct artefact types, not one article or one validated stack. **FG-TIDA-specific application material is maintained separately in the [EA / FG-TIDA application package](../fg-tida/README.md)** so that programme-specific Theme mappings cannot be mistaken for the canonical general architecture.
 
+## Conceptual lineage and cumulative evolution
+
+This corpus is **cumulative rather than replacement-based**. Later architecture and test material may refine, extend or re-route earlier work, but an earlier public source remains part of the research lineage unless it is explicitly marked as superseded for current semantics.
+
+A useful reading of the accumulation is:
+
+```text
+Field Notes / engineering provenance
+        ↓
+01 Foundation — why bounded representation and open residual matter
+        ↓
+02 Principles & Control Matrix — how epistemic limits must be handled
+        ↓
+00 Requirements — S1–S14 / T1–T4 / H1–H6 / KPIs
+        ↓
+Topology + 03 Functional Architecture + 04 General Interfaces
+        ↓
+01B / 01C / 01D and later 01H / 01I / 01J integration annexes
+        ↓
+Validation profiles + 00E / 00F / 00G scenarios
+        ↓
+00D benchmark + A01/A03 + fixtures / pre-registration
+        ↓
+Ecosystem Positioning + Regime Awareness + MSCA composition / operation
+        ↓
+FG-TIDA and other programme-specific application packages
+```
+
+The arrows describe **research derivation and reader order**, not institutional adoption or ownership transfer. A later document may introduce objects that an earlier snapshot could not contain. That does not make the earlier document wrong or disposable; it means the reader must follow its **later-development note** or successor route.
+
+### Field-note and engineering lineage
+
+The programme-level Field Notes remain important because they explain different causes of structural loss before the EA architecture formalizes them:
+
+| Source line | Why it matters to this corpus | Boundary |
+|---|---|---|
+| [The Cost of Clarity](https://tegrity.ai/series/cost_of_clarity/) | Cost, delay and risk of establishing sufficient information before commitment | Conceptual/economic lineage; not an EA validation result |
+| [Human Intelligence Debt / Human Intelligence Gap](https://tegrity.ai/series/human-intelligence-gap/) | Human capacity consumed by reconciliation, fragmented representations and unclear ownership | Explains why human review is finite rather than a free safety resource |
+| [The Attribution Gap](https://tegrity.ai/series/attribution_gap/) | Divergence between real contribution and formal visibility/ownership | Motivates explicit role, dependency and authority representation |
+| [Informational Friction](https://tegrity.ai/series/informational_friction/) | Map–flow mismatch and locally rational action under an incomplete representation | Conceptual precursor to scope/dependency qualification |
+| [Regime Awareness in Adaptive Systems](https://tegrity.ai/series/regime-awareness-in-adaptive-systems/) | When a once-valid frame no longer supports the current operating decision | Direct neighbouring line to 01C / RA / MSCA Operation |
+| [xSeil technical series](https://jubap.net/series/xseil_technical/) and [Phylons papers](https://jubap.net/series/phylons_papers/) | Historical engineering provenance for bounded coordination, semantic windows, relabelling and changing operational state | Field provenance; not proof of the current EA architecture |
+
+The root [Structural Awareness README](../../../README.md) remains the programme-level explanation of these series and their relationship to Field Practice and Architectural Contributions.
+
 **Status key.** **Controlled/frozen** means a preserved release source. **Integrated working successor** means a current research integration that does not silently replace the freeze. **Additive annex** means a non-canonical research/interface extension. **Application package** means a programme-specific projection that cannot redefine the general EA semantics.
 
 ### Status legend
@@ -45,6 +90,19 @@ This table is an additional reader map. It does **not** replace or collapse the 
 | **6 — extensions** | [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) · [01I](./01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md) · [01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) | How are participant locality, admissible participation and qualified ecosystem signalling projected into the wider positioning architecture? | **Additive working extensions**; distinct semantic ownership retained |
 | **7** | [00D — Canonical Architecture Benchmark & Reference-Scenario Evidence v0.2](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) | How is the EA differential EA-H1–EA-H4 compared against B0–B3 under explicit evidence/falsification rules? | **Canonical working** benchmark design; comparative execution pending |
 | **Application** | [EA / FG-TIDA application package](../fg-tida/README.md) | How is the general architecture projected into the current FG-TIDA source/process boundary? | **Application package**; cannot redefine general EA semantics |
+
+### Implementation-profile matrix
+
+The current product/application analyses form a deliberate **2 + 2** set. They are design profiles over the frozen scenarios, not four interchangeable product benchmarks.
+
+| Reference scenario | Implementation profile | What it is used to examine | Current boundary |
+|---|---|---|---|
+| **00E — 100 Million Tokens** | [00E-A01 — Microsoft Agent 365](./00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.1.md) | Enterprise agent control-plane, identity/security/compliance/observability and what additional decision-scoped EA gates would still be needed | Design analysis; not a measured benchmark or product deficiency claim |
+| **00E — 100 Million Tokens** | [00E-A02 — LangGraph / LangSmith](./00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.1.md) | Stateful orchestration, durable execution, observability/evaluation, HITL and latent regime-change stress | Design analysis; not a product ranking |
+| **00F — Smart-City Mobility Divergence** | [00F-A01 — FIWARE NGSI-LD / Orion-LD](./00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.1.md) | Federated context management, shared urban data and cross-actor composition under changing conditions | Design analysis; not an incident or product benchmark |
+| **00F — Smart-City Mobility Divergence** | [00F-A02 — AWS IoT TwinMaker / IoT Core](./00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.1.md) | IoT/event/digital-twin representation and the boundary between a healthy represented twin and a still-valid response mapping | Design analysis; not a safety certification |
+
+No current repository artifact defines **Microsoft Agent 365 as a 00F/Mobility implementation profile**. If a future mobility/Microsoft profile is authored, it should be added as a new, explicitly versioned profile rather than inferred from 00E-A01.
 
 For an industrial or research reader evaluating the proposition from first principles, use this order:
 
@@ -145,6 +203,17 @@ The predecessor [Architectural Principles](./ARCHITECTURAL_PRINCIPLES_v0.1.md) a
 ## Governance and provenance
 
 The [initial freeze](./FREEZE_MANIFEST_2026-09-10.md), [maintenance freeze manifest](./MAINTENANCE_FREEZE_MANIFEST_2026-09-10.md) and [maintenance reading note](./MAINTENANCE_FREEZE_README_2026-09-10.md) govern the internal validation release, not standards adoption. The [FG-TIDA public footprint](../fg-tida/provenance/FG_TIDA_ECOSYSTEM_AWARENESS_PUBLIC_FOOTPRINT_2026-09-08.part01.md) and [public provenance](../fg-tida/provenance/PUBLIC_PROVENANCE_2026-09-08.md) are maintained in the FG-TIDA application package and trace contributor discussion and claim boundaries. The [canonical corpus manifest](./CANONICAL_CORPUS_MANIFEST.md) and [earlier publication manifest](./MANIFEST.md) inventory current, frozen and historical records. The [earlier EA gateway/index source](./EA_PARENT_INDEX_SOURCE_2026-09-15.md) is preserved for conservation only; it is not a competing current index. Earlier [foundation](./FOUNDATIONAL_THEORY_v0.4_PUBLIC_FREEZE.md), [benchmark v0.4](./ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md), [benchmark v0.5 alias](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) and [UC-EA-01 public alias](./UC-EA-01_v0.3_EARLIER_PUBLIC_FREEZE.md) remain historical sources, not alternative current chapters.
+
+## External cases, submissions and standards provenance
+
+These materials are deliberately linked as **examples, source cases or standards provenance**. They do not become EA canon merely because they are useful to exercise the architecture.
+
+| External/source artefact | Role in the EA/MSCA/RA story | Boundary |
+|---|---|---|
+| [Delegated Authority OS under Context Change](../../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) | Parent T0–T2 case with minimal mobility instantiation, extensibility, CH-S1…14, ToR mapping and adjacent-standards annexes | Source case / contributor package; not an adopted FG-TIDA architecture |
+| [FG-AI4SSC input FGAI4SSC-I-097 — Minimum Sufficient Control](../../../submissions/itu-fg-ai4ssc/FGAI4SSC-I-097/README.md) | Standards-provenance anchor for the MSCA line and urban-systems source context | Submitted input; posting does not mean adoption |
+| [Operational Human Oversight](../../../submissions/itu-fg-tida/2026-theme-contributions/operational-human-oversight.md) | Contributor-level material relevant to effective human capacity and authority boundaries | Discussion contribution; not institutional validation |
+| [Ecosystem-Level Agent Defense](../../../submissions/itu-fg-tida/2026-theme-contributions/ecosystem-level-agent-defense.md) | Contributor-level material relevant to signalling, blast radius and ecosystem defence | Discussion contribution; not the general EA architecture |
 
 ## Independent linked corpora
 
