@@ -135,6 +135,33 @@ ACC may say that a role is admissible. Authority/delegation establishes whether 
 
 The receiver may recognize, contest or reject that chain according to its own accepted trust roots.
 
+### 3.5 Repositioning intention — compound signalling profile
+
+[Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) defines `RepositionIntent_i` as a **compound signalling profile**.
+
+It is not a fifth primitive signal class. It packages bounded parts of the existing four classes together with the proposed transition:
+
+- repositioning position `Π_RP=[A_RP,B_RP,C_RP,D_RP]`;
+- Type 0/1/2/NOT_ESTABLISHED catalogue where material;
+- P1 Normal / P2 Containment / P3 Migration posture;
+- current and target Role / MSCA / Objective Envelope;
+- gradient / objective-risk basis;
+- requested ACC mutation/re-contracting action;
+- requested authority/delegation;
+- lineage relation;
+- expiry / response horizon;
+- provenance / revalidation conditions.
+
+A RepositionIntent may be sent to an ACC issuer, human supervisor, institutional authority, delegated control service or another participant whose concurrence is required.
+
+Transport of RepositionIntent does **not** authorize the transition.
+
+The receiver qualifies it using the same source/identity/ACC/authority/epistemic rules as any other bounded signal.
+
+An authority/contract owner may reply with an `AuthorityResponse` carrying APPROVE, REJECT, MODIFY, REQUEST_EVIDENCE, ESCALATE or expiry/no-valid-response, plus any successor ACC, grant, modified role constraints or revalidation request.
+
+This request/response loop is ecosystem signalling even when the receiver is an institutional authority rather than a peer agent.
+
 ## 4. Signalling strategy is open
 
 Ecosystem signalling is strategic as well as informational.
