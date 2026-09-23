@@ -119,13 +119,13 @@ EA does not overwrite the participant's programming, utility function, identity 
 
 This annex distinguishes an **MSCA representation/schema instance** from an **MSCA sufficiency determination**.
 
-For participant i, let A_i = (S_i, E_i, C_i, P_i, M_i), where, for interchange/discovery purposes, each component may be represented as a qualified value, UNKNOWN or UNPOPULATED.
+For participant i, let X_i = (S_i, E_i, C_i, P_i, M_i), where, for interchange/discovery purposes, each component may be represented as a qualified value, UNKNOWN or UNPOPULATED. X_i follows the canonical MSCA notation; A remains reserved for the EA sufficiently-determined epistemic position.
 
 Keep assessment status separate:
 
 UNASSESSED | SUPPORTED | FAILED | UNRESOLVED.
 
-An all-UNPOPULATED A_i is a valid schema/representation instance with status UNASSESSED. It is **not** a supported minimum and makes no sufficiency claim.
+An all-UNPOPULATED X_i is a valid schema/representation instance with status UNASSESSED. It is **not** a supported minimum and makes no sufficiency claim.
 
 This allows a participant to expose that it uses the MSCA structure even when it has not yet established the applicable Objective Envelope, operating assumptions, coordination reach, intervention mechanisms or enabling means.
 
