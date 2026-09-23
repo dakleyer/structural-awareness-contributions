@@ -8,10 +8,10 @@
 ## Read in this order
 
 1. [**Working Group / Phase 2 Charter preparation**](./charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md) — candidate Theme #13 charter/WG structure for review; not submitted and not an established WG.
-2. [**Specification preparation**](./specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.2_DRAFT.md) — source-to-specification map, normative maturity, conformance/readiness gates and candidate document structure.
+2. [**Specification preparation**](./specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) — current source-to-specification map, normative maturity, Decision Boundary / cross-Theme conformance route, readiness gates and candidate document structure.
 3. [**FG-TIDA interfaces**](./interfaces/README.md) — separates the **ideal FG-TIDA cross-Theme projection** from the **currently defensible public-source bridge**.
 4. [**FG-TIDA-specific cases**](./cases/README.md) — DAOS-derived case material used to exercise the FG-TIDA mapping.
-5. [**FG-TIDA-specific tests**](./tests/README.md) — EHD / Theme #13 interoperability test material.
+5. [**FG-TIDA-specific tests**](./tests/README.md) — EHD / Theme #13 interoperability material plus the Decision Boundary cross-Theme evaluation profile.
 6. [**FG-TIDA provenance**](./provenance/README.md) — public footprint and provenance records.
 
 ## General EA architecture versus FG-TIDA application
@@ -65,7 +65,7 @@ This FG-TIDA package is an **application snapshot over the broader evolving EA/P
 
 - **05 ideal** preserves the candidate ideal cross-Theme projection.
 - **05A current-state bridge** records what was defensible from the dated public FG-TIDA source state used by that bridge.
-- **Specification preparation v0.2** is a draft mapping of the source corpus into a possible future specification structure.
+- **Specification preparation v0.3** is the current draft mapping of the source corpus into a possible future specification structure; it adds the Decision Boundary / evidence-strength conformance route and the current UC-6 → UC-4 executable-profile convergence. v0.2 remains preserved as the predecessor snapshot.
 - Later general work on participant-local positioning, ACC, signalling/choreography, the objective-conditioned gradient, 00G and Canonical MSCA Operation/Repositioning does not become an FG-TIDA requirement or adopted Theme contract merely because it exists in the same repository.
 
-Future FG-TIDA updates should therefore be made as explicit dated revisions to 05A/specification/charter material, while preserving the earlier application snapshot for comparison.
+Future FG-TIDA updates should therefore be made as explicit dated revisions to 05A/specification/charter material, while preserving the earlier application snapshot for comparison. Test/conformance development should remain in `tests/` until the relevant WG/external-owner process promotes any property into normative specification text.
