@@ -24,7 +24,7 @@ The static MSCA corpus is consolidated around three canonical documents:
    Authoritative generic architecture for the S/E/C/P/M kernel, one-MSCA/one-Objective-Envelope coherence rule, representation versus sufficiency assessment, process/topology extensibility, authority/evidence boundaries, multi-optima and burden, shared A/B/C/D qualified-position semantics, and ACC/role boundaries.
 
 2. [**MSCA Ecosystem Composition & Control**](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) — **CURRENT, v0.1 (23 September 2026).**  
-   Defines the participant-local multi-resolution composition of multiple objective-bound MSCAs: semantic matrix, separate dependency matrix/graph, resolution levels from semantic anchors to deterministic local process models, peer versus higher-order composite MSCAs, composition-control rules and bounded structural input to Ecosystem Awareness and Regime Awareness.
+   Defines the participant-local multi-resolution composition of multiple objective-bound MSCAs: semantic matrix, separate dependency matrix/graph, resolution levels from semantic anchors to deterministic local process models, peer versus higher-order composite MSCAs, and an explicit trigger/update contract consuming local epistemic movement, qualified `ReceivedSignals_i`, focal MSCA/Role state, direct observations and RA feedback before supplying `ECM_i/Δ_ECM,i` to EA/RA.
 
 3. [**MSCA Architectural Role**](./02_MSCA_ARCHITECTURAL_ROLE.md) — **CURRENT, v0.1 (23 September 2026).**  
    Defines the participant's static functional/contractual place inside one instantiated MSCA and one Objective Envelope: contribution, inputs/outputs, dependencies, C/P/M projection, role-bound ACC/lineage and authority references. It is deliberately **not** repositioning.
@@ -110,6 +110,7 @@ No layer substitutes for another.
 | Objective-conditioned agentic gradient | **DEFINED in Ecosystem Positioning canonical working law; Control Positioning/transition lifecycle still pending** |
 | MSCA Ecosystem Composition & Control | **CURRENT — [v0.1](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md)** |
 | Semantic-matrix + dependency-map multi-resolution composition | **DEFINED in Composition & Control v0.1** |
+| Composition update inputs/triggers/outputs (`Π_EA,i`, `ReceivedSignals_i`, `ECM_i/Δ_ECM,i`, RA feedback) | **DEFINED in Composition & Control v0.1** |
 | Peer-MSCAs vs legitimate higher-order composite MSCA | **DEFINED in Composition & Control v0.1** |
 | Canonical MSCA Operation / Repositioning specification | **PENDING** |
 | MSCA Architectural Role | **CURRENT — [v0.1](./02_MSCA_ARCHITECTURAL_ROLE.md)** |
