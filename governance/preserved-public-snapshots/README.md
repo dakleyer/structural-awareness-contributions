@@ -21,6 +21,21 @@ Rather than reinsert old formulations into the live canonical route, the relevan
 | [FUNCTIONAL_INTERFACES_v0.4_part02_PUBLIC_MIRROR_2026-09-11.md](./FUNCTIONAL_INTERFACES_v0.4_part02_PUBLIC_MIRROR_2026-09-11.md) | Public mirror state of controlled 04 part 2 | `081ff3b9` | `0d91755d` |
 | [FUNCTIONAL_INTERFACES_v0.4_part03_PUBLIC_MIRROR_2026-09-11.md](./FUNCTIONAL_INTERFACES_v0.4_part03_PUBLIC_MIRROR_2026-09-11.md) | Public mirror state of controlled 04 part 3 | `081ff3b9` | `aa768d40` |
 
+## 17 September initial integrated suite
+
+These exact blobs preserve the first integrated publication of the requirements / benchmark / reference-scenario suite at commit `239ec5f5b17a6aedda111184725b5c9409deeb16`. Later working documents expanded or clarified some passages; the current canonical route remains authoritative for current semantics.
+
+| Snapshot | Original integrated artifact | Source blob |
+|---|---|---|
+| [EA_REQUIREMENTS_INITIAL_INTEGRATED_2026-09-17.md](./EA_REQUIREMENTS_INITIAL_INTEGRATED_2026-09-17.md) | 00 Canonical Requirements — S1–S14 / T1–T4 / H1–H6 / KPI protocol | `fc6c3a25` |
+| [EA_BENCHMARK_00D_INITIAL_INTEGRATED_2026-09-17.md](./EA_BENCHMARK_00D_INITIAL_INTEGRATED_2026-09-17.md) | 00D Canonical Architecture Benchmark and Reference-Scenario Evidence v0.2 | `30970a79` |
+| [EA_SCENARIO_00E_INITIAL_2026-09-17.md](./EA_SCENARIO_00E_INITIAL_2026-09-17.md) | 00E 100 Million Tokens reference scenario and quality plan | `e2e2c381` |
+| [EA_SCENARIO_00F_INITIAL_2026-09-17.md](./EA_SCENARIO_00F_INITIAL_2026-09-17.md) | 00F Smart-City Mobility Divergence reference scenario and quality plan | `4e21fb96` |
+| [EA_PROFILE_00E_A01_INITIAL_2026-09-17.md](./EA_PROFILE_00E_A01_INITIAL_2026-09-17.md) | Microsoft Agent 365 implementation profile | `5632fed2` |
+| [EA_PROFILE_00E_A02_INITIAL_2026-09-17.md](./EA_PROFILE_00E_A02_INITIAL_2026-09-17.md) | LangGraph/LangSmith implementation profile | `6590032c` |
+| [EA_PROFILE_00F_A01_INITIAL_2026-09-17.md](./EA_PROFILE_00F_A01_INITIAL_2026-09-17.md) | FIWARE NGSI-LD / Orion-LD implementation profile | `80235f29` |
+| [EA_PROFILE_00F_A02_INITIAL_2026-09-17.md](./EA_PROFILE_00F_A02_INITIAL_2026-09-17.md) | AWS IoT TwinMaker / IoT Core implementation profile | `a0af9c1b` |
+
 ## 19 September public snapshots
 
 | Snapshot | Original public path / meaning | Source commit | Source blob |
