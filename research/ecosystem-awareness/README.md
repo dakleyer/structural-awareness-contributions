@@ -20,6 +20,10 @@ EA is not presented as an isolated invention. The programme-level [Structural Aw
 
 Historical engineering lines such as xSeil and Phylons provide field provenance for bounded coordination, semantic windows and changing operational state. These series/cases motivate questions and tests; they do **not** transfer validation into EA.
 
+## Visual navigation
+
+For a diagram-first orientation before entering the detailed corpus, use the [**Structural / Ecosystem Awareness Visual Guide**](./VISUAL_GUIDE.md). It shows the cumulative research route, architectural ownership, current positioning cycle, requirements-to-evidence pipeline, scenario/profile matrix, validation/case families and the 04 → 05 → 05A FG-TIDA layering. The source documents remain authoritative.
+
 ## Current routed indexes
 
 1. [**Ecosystem Awareness — canonical corpus**](./baseline/README.md) — the authoritative EA reading index for foundation, requirements, topology, functional architecture, interfaces and EHD, validation profiles, benchmarks, research lineage, governance, provenance and linked case material.
