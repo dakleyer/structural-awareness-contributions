@@ -65,11 +65,11 @@ Executed only after the independent conservation audit. All four changes were ad
 
 The baseline / FG-TIDA duplicate review found no semantic-content conflict requiring deletion, so P07 could be added without choosing a destructive physical deduplication.
 
-### Priority C — pending / lower urgency
+### Priority C — executed conservatively 23 September 2026
 
-- **P01** root status/licence/validation/citation badges.
-- **P11** uniform document cards — start only with the main reading route, not the whole corpus.
-- **P13** tagged release + Zenodo DOI — requires Iván's explicit publication approval and should follow a deliberate milestone/freeze decision rather than routine editorial cleanup.
+- **P01 completed** — root licence/status/validation/citation badges added without replacing the title or navigation text — commit `50f23f1`.
+- **P11 completed for the current working route/evidence annexes** — uniform document cards added in two additive commits: core current route `6589075`; current evidence/implementation annexes `e335c61`. Controlled/frozen documents and preserved predecessors were deliberately not edited.
+- **P13 approved, externally blocked** — Iván explicitly approved Priority C on 23 September 2026. The repository now contains [RELEASE_CANDIDATE_SA_WORKING_2026-09.md](./RELEASE_CANDIDATE_SA_WORKING_2026-09.md), commit `16c5943`, with the exact release boundary and execution sequence. The available GitHub connection does not expose GitHub Release creation and no Zenodo/DOI connector is available, so `CITATION.cff` and the root README intentionally contain **no fabricated DOI or release metadata**. Execute the external release/Zenodo step only when real tooling/credentials are available.
 
 ### Already addressed before Priority A
 
