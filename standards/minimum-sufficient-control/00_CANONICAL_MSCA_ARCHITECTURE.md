@@ -447,7 +447,7 @@ EA may provide qualified evidence to MSCA and may consume partial/UNASSESSED/SUP
 
 EA owns the Semantic Window W(d,t). MSCA may change means/capability that justify changing W(d,t), but does not own or directly modify it.
 
-The EA healthy postures **Normal / Containment / Migration-Regime Transition** remain EA epistemic-management/posture semantics. MSCA may represent the control capabilities needed to execute an authorized containment, migration or reconfiguration, but those postures are not redefined as canonical MSCA assessment states.
+The preserved EA/F6 lineage supplies epistemic-management evidence relevant to **Normal / Containment / Migration-Regime Transition**, but the current operational P1/P2/P3 posture closure is owned by [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#11-hard-posture-gate--p1--p2--p3). These postures are not MSCA assessment states, and MSCA/Repositioning does not itself create the authority needed to execute containment, migration or reconfiguration.
 
 Current candidate boundary: [EA ↔ MSCA interface 01B v0.2](../../research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md).
 
