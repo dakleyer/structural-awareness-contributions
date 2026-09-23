@@ -56,7 +56,7 @@ Relationship map. Producer result/profile → EHD / decision-relevant handoff �
 
 &nbsp;
 
-# 2\. Common Epistemic Handoff Descriptor
+# 2\. Common Epistemic Handoff Descriptor\n\n**Current A/B/C/D reconciliation — 23 September 2026.** This integrated interface document retains the frozen v0.4 source lineage, but current reader-facing A/B/C/D semantics follow the [Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position): A = situated assertion/scope; B = confidence/intensity; C = recognized current-capability frontier; D = structural/residual unknown. Earlier determined/unresolved wording is preserved only as source lineage, not as a competing current tuple.
 
 Emission-side obligation. The Epistemic Handoff Descriptor does not create a third epistemic control family. A producer remains responsible for applying the internal controls to its own state; the handoff obligation is to preserve the decision-relevant qualifiers needed for downstream interpretation. Where a qualifier cannot be established, it remains UNKNOWN rather than being fabricated. Missing qualification creates downstream Type-2 exposure, not automatic Type 2; the failure materializes only when an intermediary or receiver promotes the missing or bounded qualification into greater determination than was supplied.
 
