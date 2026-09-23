@@ -1,26 +1,72 @@
-name: Diagnose Ecosystem Positioning canonical deck
+name: Publish Ecosystem Positioning canonical v1.0
 
 on:
   push:
     paths:
-      - '.tmp/ecosystem-positioning-v1.0/READY2'
+      - '.tmp/ecosystem-positioning-v1.0/READY_FINAL'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  diagnose:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: python -m pip install --disable-pip-version-check python-pptx
-      - name: Print canonical slide anchors
-        shell: python
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install presentation tooling
         run: |
+          python -m pip install --disable-pip-version-check python-pptx
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-impress >/dev/null
+
+      - name: Fetch approved canonical PPTX
+        env:
+          CANONICAL_URL: 'https://sdmntpritalynorth.oaiusercontent.com/files/00000000-b4d0-8246-92e4-b2c03a370ce4/raw?se=2026-09-23T21%3A03%3A15Z&sp=r&sv=2026-02-06&sr=b&scid=e4496587-d35d-5d94-a898-214d635e7d92&skoid=a4604a88-85e4-4562-b6ab-a5622268de80&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-23T18%3A34%3A56Z&ske=2026-09-24T18%3A34%3A56Z&sks=b&skv=2026-02-06&sig=jDiOfwJUCp8jgd2S4ovdh2ondHsLL7EIaB0FruydnhI%3D'
+        run: |
+          curl -fL "$CANONICAL_URL" -o presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx
+
+      - name: Verify canonical PPTX
+        run: |
+          python - <<'PY'
           from pptx import Presentation
           p='presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx'
           prs=Presentation(p)
-          print('SLIDE_COUNT', len(prs.slides))
-          for i, slide in enumerate(prs.slides, 1):
-              texts=[getattr(sh,'text','').strip().replace('\n',' | ') for sh in slide.shapes if getattr(sh,'text','').strip()]
-              print(f'SLIDE {i}:', ' || '.join(texts[:8]))
+          assert len(prs.slides)==9, f'Expected 9 slides, found {len(prs.slides)}'
+          slides=['\n'.join(getattr(sh,'text','') for sh in sl.shapes) for sl in prs.slides]
+          all_text='\n'.join(slides)
+          assert 'Ward' not in all_text
+          assert 'V1.0 · 2026-09-23 · CANONICAL WORKING PROPOSAL' in slides[0]
+          assert 'Benchmark, differential and public work' in slides[2]
+          assert 'PUBLIC / CANONICAL ROUTES' in slides[2]
+          assert '#16 · Operational human oversight' in slides[2]
+          assert 'External industry case mapping · Panodyssey' in slides[2]
+          assert 'Consumes existing identity, authorization and attestation mechanisms as inputs; does not replace them.' in all_text
+          PY
+
+      - name: Regenerate canonical PDF snapshot
+        run: |
+          mkdir -p /tmp/ecopos-pdf
+          libreoffice --headless --convert-to pdf --outdir /tmp/ecopos-pdf presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx
+          test -s /tmp/ecopos-pdf/Ecosystem_Positioning_Canonical.pdf
+          cp /tmp/ecopos-pdf/Ecosystem_Positioning_Canonical.pdf presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf
+
+      - name: Clean temporary publication files
+        run: |
+          rm -rf .tmp/ecosystem-positioning-v1.0
+          git rm --ignore-unmatch .github/workflows/publish-ecosystem-positioning-v1.yml
+          git add -u .tmp/ecosystem-positioning-v1.0 || true
+
+      - name: Commit canonical v1.0 binaries
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx
+          git add presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf
+          git add -u
+          git status --short
+          git commit -m 'Publish Ecosystem Positioning canonical v1.0'
+          git push
