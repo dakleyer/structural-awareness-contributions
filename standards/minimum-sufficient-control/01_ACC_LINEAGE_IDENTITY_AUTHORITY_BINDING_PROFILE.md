@@ -267,15 +267,16 @@ change opportunity / requirement
 The gradient may therefore lead to:
 
 ~~~text
-opportunity
-→ request ACC modification
-→ authority decision
-→ approved successor ACC
+opportunity / gradient
+→ qualified RepositionIntent signalling
+→ ACC-lineage / mutation-envelope check
+→ authority decision / AuthorityResponse
+→ approved successor ACC where permitted
 → compatibility/reload
-→ new control/admissibility possibilities
+→ new canonical Role / control-admissibility possibilities
 ~~~
 
-The gradient never becomes the approval authority.
+The gradient never becomes the approval authority. RepositionIntent is a request/qualified proposal; it is not an ACC mutation until the legitimate lineage/authority process accepts and issues the successor state.
 
 ## 8. Lineage continuity rule
 
