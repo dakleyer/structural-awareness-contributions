@@ -33,6 +33,7 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 
 - [00E — 100 Million Tokens / compounding context failure](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)
 - [00F — smart-city mobility systemic divergence](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md)
+- [00G — collective false-context convergence / "Bar-to-Napoleon" cascade](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md)
 - [00D-A01 — bounded reference-oracle and test construction](./baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
 - [00D-A03 — deterministic Stage-0 harness design](./baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
 - [RS-00E-Q1a fixture and pre-registration](./baseline/fixtures/RS-00E-Q1a/README.md)
