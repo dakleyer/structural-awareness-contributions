@@ -1,3 +1,5 @@
+> **Preserved predecessor — superseded for current reading by [01F v0.2](./01F_EA_FG_TIDA_SPECIFICATION_PREPARATION_ANNEX_v0.2_DRAFT.md).** Kept for lineage. Do not cite for current specification-preparation semantics.
+
 # Annex 01F — Ecosystem Awareness / FG-TIDA Specification Preparation Map
 
 **Status:** Draft v0.1 — specification-preparation control document  
