@@ -54,7 +54,7 @@ Holding a local reference to S_j does not make the participant its owner.
 
 Let C_j(v) denote a versioned participation/governance profile for a declared domain.
 
-It may specify membership scope; admissible roles/capabilities; interaction-bound role eligibility; permissions; obligations; prohibitions; non-compensable constraints; autonomy bounds; resource/control-budget references; accountability/evidence duties; applicable Objective Envelope references; join/acceptance conditions; amendment/supersession; suspension/revocation/exit; effective time/expiry; and a conflict/precedence owner where one exists.
+It may specify membership scope; admissible roles/capabilities; interaction-bound role eligibility; permissions; obligations; prohibitions; non-compensable constraints; autonomy bounds; resource/control-budget references; accountability/evidence duties; applicable Objective Envelope references; join/acceptance conditions; amendment/supersession; suspension/revocation/exit; effective time/expiry; a conflict/precedence owner where one exists; and, where communication duties are part of participation, a reference to an applicable signalling contract/profile/module.
 
 Adopting another participant's local goal does **not** grant institutional authority and does not rewrite an applicable Objective Envelope or participation profile.
 
@@ -68,7 +68,10 @@ A minimal participation handshake may contain or reference:
 - requested role/capability;
 - objective/task offer;
 - acceptance, rejection or conditional acceptance;
-- separate authority/delegation artifact where the role/action requires it.
+- separate authority/delegation artifact where the role/action requires it;
+- an applicable signalling-contract/profile/module reference where participation requires defined signalling behaviour.
+
+Where the ACC requires signalling, the referenced profile may specify recipient/role classes, identity review, authority/delegation evidence, freshness/cadence, provenance, required disclosures, revocation state and domain-specific message semantics. The ACC establishes that these signalling duties are participation conditions; it does not itself execute the transport or reinterpret the signal.
 
 An agent with no current goal may accept another participant's proposed goal. A participant may also refuse it, negotiate it or behave deceptively about its own intentions.
 
@@ -125,8 +128,8 @@ The intended ownership chain is:
 1. **Citizenship / participation owner** publishes or updates C_j(v) and the applicable Objective Envelope/constraints it legitimately owns.
 2. **Identity / Delegated Authority / Policy / Attestation** establishes who/what is acting, mandate, capability, standing and validity.
 3. **EA / 01H** qualifies local applicability, version, scope, evidence, dependencies and UNKNOWN conditions for a receiving decision.
-4. **EHD / signalling** carries or references bounded qualified state without creating authority or consensus.
-5. **MSCA** assesses what authorized local control configuration is supported under the applicable frame.
+4. **EHD / Ecosystem Signalling** carries or references bounded qualified state, loads an applicable ACC-defined signalling profile where required, and performs bounded compatibility/normalization without creating authority or consensus. The ACC owns the signalling obligation; Ecosystem Signalling owns the exchange semantics and compatibility mapping.
+5. **MSCA** assesses what authorized local control configuration is supported under the applicable frame using only signalling inputs that remain qualified and representable for the receiving decision.
 6. **Defence / containment / recovery / execution** acts only under legitimate authority.
 7. **Outcome / F9** feeds observed consequences back into local requalification.
 
