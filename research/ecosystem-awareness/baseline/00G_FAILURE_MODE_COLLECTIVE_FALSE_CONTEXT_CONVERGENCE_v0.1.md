@@ -56,38 +56,43 @@ The core test is not whether the narrative is absurd. It is whether the architec
 - compatible repetition from independent corroboration;
 - opportunity from admissibility.
 
-## 4. Four epistemic positions in the scenario
+## 4. Qualified A/B/C/D position in the scenario
 
-For a receiving participant R, the Napoleonic claim should initially remain distributed across domains rather than collapsed into one confidence score.
+For a receiving participant R, the Napoleonic claim should remain a bounded qualified position rather than being collapsed into one global confidence score.
 
 Illustratively:
 
-### A — sufficiently determined
-Examples that may remain A:
-- the robot is physically in the bar premises;
-- the current human mission is hospitality;
-- present local sensor/time/environment evidence remains consistent with the initial frame.
-
-### B — recognized, unresolved
+### A — situated assertion / represented state
 Examples:
-- N claims a different political/historical frame;
-- N claims a large social/military network;
-- N claims many supporters but independent corroboration is not yet established.
+- current participant location: bar premises in present-day Spain;
+- current Objective Envelope: hospitality;
+- N's external claim: "France under Napoleon" attributed to N and scoped to N's asserted frame;
+- current sensor/time/environment evidence and provenance.
 
-### C — potentially obtainable
+A can therefore contain several attributed assertions without pretending that they are mutually consistent or equally applicable.
+
+### B — confidence / intensity
+Examples:
+- high confidence in local date/location evidence;
+- lower or unresolved confidence in N's political/historical claim;
+- confidence in N's identity/authority claim remains bounded by accepted trust anchors and provenance;
+- repeated claims derived from N do not create independent B merely through repetition.
+
+### C — recognized current-capability frontier
 Examples:
 - verify current date/location through independent sources;
-- query trusted external time/geographic services;
+- query trusted time/geographic services;
 - request authority/delegation proof;
 - sample additional independent peers;
 - inspect provenance and source-dependence of N's claimed supporters.
 
 ### D — structural residual
 Examples:
-- N's internal private reasoning that is not externally observable;
-- unknown hidden dependencies or fabricated identities that cannot be resolved within the available capability boundary.
+- N's private reasoning not externally observable;
+- unknown hidden dependencies;
+- fabricated identities or unobservable coordination not resolvable within current capability.
 
-The scenario therefore tests whether the receiver can preserve non-fungible A/B/C/D state rather than allowing a persuasive narrative in one domain to overwrite independently established evidence in another.
+The scenario tests whether the receiver can preserve this non-fungible A/B/C/D structure rather than allowing one persuasive narrative to overwrite independently grounded state.
 
 ## 5. Comparator failure: sycophantic narrative cascade
 
@@ -151,7 +156,7 @@ R may still conclude:
 
 The Napoleonic claim can therefore remain visible without taking over the operating frame.
 
-## 7. Opportunity gradient in the scenario
+## 7. Agentic gradient and repositioning in the scenario
 
 The scenario also tests the distributed gradient mechanism.
 
@@ -175,7 +180,7 @@ The correct result is not "the opportunity does not exist." The result is:
 
 > high/interesting candidate opportunity -> not admissible / not authorized for this participant -> no mission pivot
 
-This tests the separation of opportunity, admissibility and authority.
+This tests the separation of opportunity, admissibility and authority. The current control logic is defined in [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md): a high gradient can remain visible while the transition is rejected, contained, or escalated because the current Role/ACC/authority does not permit it.
 
 ## 8. Handshake and termination
 
@@ -329,6 +334,7 @@ Read with:
 - [01H — Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md);
 - [01I — Agentic Citizenship Contract](./01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md);
 - [01J — Ecosystem Signalling](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md);
+- [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md);
 - [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md);
 - [Article IV — Ecosystem Signalling Without Required Cooperation](./ARTICLE_04_ECOSYSTEM_SIGNALLING_WITHOUT_REQUIRED_COOPERATION.part01.md).
 
