@@ -21,7 +21,7 @@ EA is already larger and more mature than a single theme comment or concept pape
 - reference failure scenarios and product-implementation profiles;
 - architecture-validation profiles and an interoperability test;
 - benchmark and falsification design;
-- the programme-independent [Decision Boundary Challenge v0.2](../../DECISION_BOUNDARY_CHALLENGE_v0.2.md) and its bounded [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1.md);
+- the programme-independent [Decision Boundary Challenge v0.2](../../DECISION_BOUNDARY_CHALLENGE_v0.2.md) and its bounded [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md);
 - research lineage, provenance and governance records; and
 - explicit interfaces with independently maintained MSCA, Regime Awareness/EWS and DAOS corpora.
 
@@ -201,7 +201,7 @@ This should be considered only after CORE and EHD semantics are stable. It could
 - challenger/defender comparison discipline where comparative evidence is claimed;
 - per-measure rates, burden/accountability vectors and evidence-maturity state rather than an opaque composite score.
 
-For now, conformance material can remain an annex of an integrated specification or of EA-EHD. The current working applied route is [Decision Boundary Challenge v0.2](../../DECISION_BOUNDARY_CHALLENGE_v0.2.md), with the FG-TIDA-specific projection maintained under [tests](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1.md).
+For now, conformance material can remain an annex of an integrated specification or of EA-EHD. The current working applied route is [Decision Boundary Challenge v0.2](../../DECISION_BOUNDARY_CHALLENGE_v0.2.md), with the FG-TIDA-specific projection maintained under [tests](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md).
 
 ### Split decision rule
 
@@ -233,7 +233,7 @@ Its FG-TIDA projection asks whether independently owned Theme outputs can meet a
 The current working source pair is:
 
 - [Decision Boundary Challenge v0.2](../../DECISION_BOUNDARY_CHALLENGE_v0.2.md) — programme-independent applied protocol;
-- [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1.md) — FG-TIDA cross-Theme projection.
+- [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md) — FG-TIDA cross-Theme projection.
 
 ### 5A.1 Specification disposition
 
@@ -306,7 +306,7 @@ The following table is the primary editorial bridge. A future specification shou
 | DAOS illustrative case | 01E + DAOS package | masterclass | Informative case / traceability source |
 | Reference failure scenarios | 00E / 00F | product annexes | Informative scenarios and test design |
 | Benchmark / falsification | 00D + A01–A03 | requirements map | Informative evidence/test programme |
-| Decision Boundary Evaluation | [DBC v0.2](../../DECISION_BOUNDARY_CHALLENGE_v0.2.md) + [FG-TIDA profile](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1.md) | UC-6 / UC-4 public test route | **T — Test/conformance only**; no universal score or adoption claim |
+| Decision Boundary Evaluation | [DBC v0.2](../../DECISION_BOUNDARY_CHALLENGE_v0.2.md) + [FG-TIDA profile](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md) | UC-6 / UC-4 public test route | **T — Test/conformance only**; no universal score or adoption claim |
 | Research lineage | Articles I–V | Three Dimensions, derivation maps | Informative bibliography/background |
 | Governance / status / provenance | manifests and provenance records | root claim boundaries | Editorial control, not technical requirements |
 
@@ -705,7 +705,7 @@ Where comparison is performed, the profile should include:
 - comparator defender/challenger status;
 - DBC evidence level.
 
-The current FG-TIDA test projection is [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1.md).
+The current FG-TIDA test projection is [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](../tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md).
 
 
 ## 13. Use cases and examples
