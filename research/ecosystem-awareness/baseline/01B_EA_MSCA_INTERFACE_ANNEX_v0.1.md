@@ -1,3 +1,5 @@
+> **Preserved predecessor — superseded for current reading by [01B v0.2](./01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md).** Kept for lineage. Do not cite for current interface semantics.
+
 # Annex 01B — Ecosystem Awareness / Minimum Sufficient Control Architecture interface
 
 **Status:** public working interface annex, v0.1, 15 September 2026. Additive companion to the Ecosystem Awareness (EA) corpus; not one of the six controlled/frozen v0.4 release-baseline documents. This is a proposed cross-programme integration, not a deployed interface, a completed joint validation, an ITU-T deliverable, or FG-AI4SSC/FG-TIDA adoption.
