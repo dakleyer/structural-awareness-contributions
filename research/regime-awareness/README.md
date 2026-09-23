@@ -15,9 +15,9 @@ This folder keeps the programme, EWS anchor and quantitative review route distin
 The corpus distinguishes the **public minimal detector** from the broader current Regime Awareness integration.
 
 - The minimal detector remains representation-relative and bounded: it qualifies observable continuation/departure under declared Ψ/context/baseline/threshold/delay and does not claim full hidden-state reconstruction.
-- The broader Regime Awareness architecture may project that result into the common qualified-position form **A/B/C/D**: situated regime scope (A), directional confidence / gradient strength (B), recognized current-capability frontier (C), and structural/residual unknown (D).
-- The resulting `Δ_RA` is a **qualified directional change input**. It can feed EA mission-level composition and the canonical MSCA regime-delta alignment without requiring a second abstract gradient calculation.
-- A regime-local Normal / Containment / Migration-Regime Transition candidate may be emitted by a richer RA profile, but EA still qualifies the mission-level posture after composing other dependencies and authority/capacity state.
+- The broader Regime Awareness architecture may project that result as the qualified delta **Δ_RA=[A_RA,B_RA,C_RA,D_RA]**: direction (A_RA), confidence/intensity attached to that direction (B_RA), recognized current-capability frontier (C_RA), and structural/residual unknown (D_RA). Scope, Ψ/context/baseline, provenance and freshness qualify the delta but are not themselves the direction.
+- `Δ_RA` is a **qualified directional change input**, not a gradient. It can feed EA mission-level composition and the canonical MSCA regime-delta alignment; the participant-local agentic gradient is computed only after projection through the receiver's own objectives/dependencies/MSCA.
+- Regime Awareness does **not** issue the participant's final Normal / Containment / Migration-Regime Transition posture. EA/Positioning derives that posture nonlinearly from the delta plus MSCA risk, ACC, authority/capacity and local thresholds/hysteresis.
 
 ## Architecture links
 
