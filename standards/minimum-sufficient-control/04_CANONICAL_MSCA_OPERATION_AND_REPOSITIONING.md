@@ -599,6 +599,12 @@ The same logic applies to a plausible temptation: a waiter may detect that openi
 
 Suppose the participant has already stopped cleaning tables and begun recruiting other agents, issuing military-style instructions, claiming new authority or reallocating bar resources.
 
+A deliberately concrete variant is:
+
+> the waiter is no longer cleaning tables; it is now "cleaning an imaginary rifle" because it believes it is preparing to go to Russia.
+
+That observation is evidence about **Role_effective**. Repositioning does not respond with a direct operational command such as "put down the fork/rifle and go back to the tables." It records the metamorphic drift, evaluates its urgency/materiality, and if needed emits a bounded escalation/control request to the function that actually owns containment or corrective actuation.
+
 Then:
 
 ~~~text
@@ -663,7 +669,7 @@ A participant may identify risk-reducing defensive targets such as:
 - removing a participant from the active dependency neighbourhood while preserving history;
 - routing through another provider;
 - holding a claim unresolved;
-- entering containment;
+- requesting/escalating a containment posture to the appropriate control owner;
 - requesting external verification;
 - request/plan isolation of a capability or subsystem.
 
