@@ -185,9 +185,9 @@ A participant's earlier output cannot become independent external evidence merel
 
 Where material, an EHD may reference an applicable Objective Envelope/version, policy/participation-profile version, operating-frame version, MSCA representation/profile, or relevant authority/grant reference. These remain source-owned objects and are not added to the universal EHD kernel by this annex.
 
-## 7. Local adaptation across Normal, Containment and Migration / Regime Transition
+## 7. Local adaptation evidence for Normal, Containment and Migration / Regime Transition
 
-The three canonical top-level postures remain unchanged and decision/scope indexed.
+This annex preserves the EA/F6 lineage and decision/scope-indexed evidence relevant to the three postures. The current operational P1/P2/P3 closure and sole `Γ_i` definition are owned by [Canonical MSCA Operation & Repositioning](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md#11-hard-posture-gate--p1--p2--p3).
 
 ### Normal
 
