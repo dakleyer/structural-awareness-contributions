@@ -287,15 +287,17 @@ Do not declare “simpler” using an arbitrary two-of-four rule. Compare arms o
 
 Before this draft can replace v0.2, W1 Requirements-vNext must produce a delta table for every EP-BH#:
 
-| Benchmark hypothesis | Current S/T/H/KPI route | Missing semantics/evidence | W1 disposition |
+| Benchmark hypothesis | Current S/T/H/KPI route | W1 finding | Requirements disposition |
 |---|---|---|---|
-| EP-BH1 | Pending W1 review | — | Existing mapping / clarify / extend |
-| EP-BH2 | Pending W1 review | — | Existing mapping / clarify / extend |
-| EP-BH3 | Pending W1 review | — | Existing mapping / clarify / extend |
-| EP-BH4 | Pending W1 review | — | Existing mapping / clarify / extend |
-| EP-BH5 | Pending W1 review | — | Existing mapping / clarify / extend |
-| EP-BH6 | Pending W1 review | — | Existing mapping / clarify / extend |
-| EP-BH7 | Pending W1 review | — | Existing mapping / clarify / extend |
+| **EP-BH1 — drift-first repositioning** | S7/S10/S12/S13/S14 · T1/T2/T3/T4 · H1/H4/H5/H6 | Covered in substance; `Role_effective` versus `Role_bound` is not named explicitly | **No new S/T/H.** Future S7/S10/S12/S13 clarification candidate only. |
+| **EP-BH2 — opportunity / admissibility / execution** | S1/S2/S8/S11/S14 · T2/T3/T4 · H2/H4/H6 | Objective/policy/authority/action boundaries already exist; the exact EP chain is not one explicit reading rule | **No new S/T/H.** Optional future clarification; opportunity metrics remain benchmark-specific. |
+| **EP-BH3 — qualified signalling** | S6/S9/S11/S14 · T1/T2/T4 · H2/H3/H4/H5/H6 | False convergence, correlation, privacy/disclosure and handoff are already covered | **Existing mapping.** |
+| **EP-BH4 — objective-conditioned requalification** | S2/S3/S10/S11/S14 · T1/T3/T4 · H5/H6 | H6 already covers risk/capacity-calibrated window selection and marginal decision value | **Existing mapping.** |
+| **EP-BH5 — participant-local choreography** | S6/S9/S11/S14 · T2/T4 (+T3 where action follows) · H2/H3/H4/H5/H6 | Requirements support distributed composition but do not mandate decentralized choreography | **Benchmark-only differential.** No requirement change. |
+| **EP-BH6 — Type-gated posture** | S3/S4/S5/S14 · T2/T3/T4 · H1/H5/H6 | Type transitions, posture correctness, false continuation/containment and oscillation are already explicit | **Existing mapping.** |
+| **EP-BH7 — multi-resolution cartography** | S9/S11/S14 · T1/T2/T4 · H2/H3/H4/H5 | Dependency/correlation/cross-domain requirements already exist; variable-resolution Cartography is an implementation | **Existing mapping.** Hidden-dependency recall remains a benchmark/fixture measure. |
+
+**W1 review result:** the current canonical requirements are sufficient to host the bounded Benchmark-vNext design without creating S15+, T5+, H7+ or a new canonical KPI family. Component-specific conformance continues to come from the owning architecture documents. The detailed review is [Requirements vNext Review & Delta v0.1 Draft](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
 
 This prevents the benchmark from creating a second hidden requirements system.
 
