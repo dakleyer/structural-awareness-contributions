@@ -197,6 +197,24 @@ It also preserves the benchmark and FG-TIDA reference routes used by the working
 
 ### Technical gates
 
+The diagram is a navigation aid over the text below. It does not merge semantic ownership or introduce a central controller.
+
+```mermaid
+flowchart TB
+    SA["Structural Awareness Programme"]
+    EP["Ecosystem Positioning<br/>participant-local situational core"]
+    EA["Ecosystem Awareness<br/>decision-scoped epistemic qualification"]
+    RA["Regime Awareness<br/>continued validity of the operating frame"]
+    MSCA["MSCA<br/>control sufficiency · Cartography · Repositioning"]
+    GOV["Human / institutional governance<br/>authority · objectives · final decision rights"]
+
+    SA --> EP
+    EP --> EA
+    EP --> RA
+    EP --> MSCA
+    MSCA -. "RepositionIntent / request — never a command" .-> GOV
+```
+
 **Ecosystem Awareness:** [entry-point README](./research/ecosystem-awareness/README.md)
 
 **Regime Awareness:** [corpus README](./research/regime-awareness/README.md)
