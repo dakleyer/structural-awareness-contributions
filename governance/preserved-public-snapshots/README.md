@@ -21,6 +21,16 @@ Rather than reinsert old formulations into the live canonical route, the relevan
 | [FUNCTIONAL_INTERFACES_v0.4_part02_PUBLIC_MIRROR_2026-09-11.md](./FUNCTIONAL_INTERFACES_v0.4_part02_PUBLIC_MIRROR_2026-09-11.md) | Public mirror state of controlled 04 part 2 | `081ff3b9` | `0d91755d` |
 | [FUNCTIONAL_INTERFACES_v0.4_part03_PUBLIC_MIRROR_2026-09-11.md](./FUNCTIONAL_INTERFACES_v0.4_part03_PUBLIC_MIRROR_2026-09-11.md) | Public mirror state of controlled 04 part 3 | `081ff3b9` | `aa768d40` |
 
+## 11 September repaired frozen-interface anchors
+
+These are the later 11 September blobs explicitly committed as repaired exact exports of the controlled Functional Interfaces v0.4 source. They are stronger historical anchors than the earlier same-day public mirror snapshots above for reconstructing the frozen 04 source.
+
+| Snapshot | Source repair commit | Source blob |
+|---|---|---|
+| [FUNCTIONAL_INTERFACES_v0.4_part01_FROZEN_REPAIRED_2026-09-11.md](./FUNCTIONAL_INTERFACES_v0.4_part01_FROZEN_REPAIRED_2026-09-11.md) | `173efdad` | `6284c8b2` |
+| [FUNCTIONAL_INTERFACES_v0.4_part02_FROZEN_REPAIRED_2026-09-11.md](./FUNCTIONAL_INTERFACES_v0.4_part02_FROZEN_REPAIRED_2026-09-11.md) | `63ac40bd` | `3920223c` |
+| [FUNCTIONAL_INTERFACES_v0.4_part03_FROZEN_REPAIRED_2026-09-11.md](./FUNCTIONAL_INTERFACES_v0.4_part03_FROZEN_REPAIRED_2026-09-11.md) | `4b5e8aa7` | `6f349120` |
+
 ## 17 September initial integrated suite
 
 These exact blobs preserve the first integrated publication of the requirements / benchmark / reference-scenario suite at commit `239ec5f5b17a6aedda111184725b5c9409deeb16`. Later working documents expanded or clarified some passages; the current canonical route remains authoritative for current semantics.
