@@ -649,6 +649,8 @@ Generic role
 
 Establishes who/what is interacting and, where relevant, the binding between agent/runtime/interacting system and the human or organization behind it. Authentication proves control of credentials; legal or operational principal binding may be a separate function.
 
+**Standards boundary.** SPIFFE/SPIRE is a representative workload-identity and authentication mechanism; its own documentation explicitly leaves authorization policy to separate mechanisms. EA may consume the resulting authenticated identity/binding state, but a valid identity is not silently promoted into authority for a particular action.
+
 &nbsp;
 
 Inputs to Ecosystem Awareness
@@ -696,6 +698,8 @@ Identity is evidence about the actor/binding; it does not predict behaviour and 
 Generic role
 
 Specifies where authority originated, the grant/mandate, scope, limits, conditions, delegation chain, version and revocation/standing. This aligns with ordinary authorization, delegation and mandate systems.
+
+**Standards boundary.** RFC 8693 is a relevant subject/actor token-exchange mechanism, but the RFC defines exchange as a one-time event without a general tight linkage between input and output tokens; revocation propagation is implementation-, token-type- or deployment-specific rather than a general protocol property. IF-S2 therefore consumes existing delegation/authorization mechanisms rather than replacing them, while preserving current standing/applicability and revocation state explicitly where they are material to the receiving decision.
 
 &nbsp;
 
@@ -754,6 +758,8 @@ EA consumes authority state. It does not originate a grant or decide legal stand
 Generic role
 
 Produces evidence about runtime, code/data/policy/model/harness or interaction state; a verifier appraises that evidence and produces an Attestation Result for a relying party. RFC 9334 RATS provides the canonical Evidence → Verifier → Attestation Result architecture.
+
+**Standards boundary.** RATS deliberately keeps Evidence, Verifier appraisal, Attestation Results and the Relying Party's application-specific decision distinct. EA preserves that separation: an attestation result is qualified evidence, not delegated authority and not the authorized operational decision. NIST NCCoE's 2026 software/AI-agent identity-and-authorization concept work further identifies identification, authorization, auditing and non-repudiation as active agent-IAM questions; this is current standards context, not an EA adoption claim.
 
 &nbsp;
 
