@@ -215,7 +215,7 @@ flowchart LR
     G04["04 General EA Interfaces<br/>programme-independent"]
     I05["05 Ideal FG-TIDA projection<br/>candidate cross-Theme contracts"]
     C05A["05A Current-State Bridge<br/>dated public-source-constrained mapping"]
-    SPEC["Specification preparation<br/>v0.2 draft"]
+    SPEC["Specification preparation<br/>v0.3 draft"]
     CHAR["Charter / WG preparation"]
     CASES["FG-TIDA cases"]
     TESTS["FG-TIDA tests"]
@@ -235,7 +235,7 @@ flowchart LR
 
 **Rule:** 05A may be narrower than 05. Later general architecture does not become an FG-TIDA requirement until a dated application revision and the relevant external-owner process support it.
 
-**Read:** [FG-TIDA package](./fg-tida/README.md) · [Interface projection](./fg-tida/interfaces/README.md) · [Specification preparation](./fg-tida/specifications/README.md).
+**Read:** [FG-TIDA package](./fg-tida/README.md) · [Interface projection](./fg-tida/interfaces/README.md) · [Specification preparation](./fg-tida/specifications/README.md). The current v0.3 preparation route also links the Decision Boundary / cross-Theme conformance profile under FG-TIDA-specific tests.
 
 ---
 
