@@ -20,6 +20,8 @@ It is deliberately organized in **four parts**:
 
 These are four parts of one programme, not four competing indexes.
 
+**Visual navigation:** [Structural / Ecosystem Awareness Visual Guide](./research/ecosystem-awareness/VISUAL_GUIDE.md) — cumulative lineage, architecture ownership, runtime cycle, requirements-to-evidence route, scenarios/profiles, validation/case map and FG-TIDA layering.
+
 ---
 
 # 1. Mathematical Contributions
