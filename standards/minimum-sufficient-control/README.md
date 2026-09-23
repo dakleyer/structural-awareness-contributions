@@ -32,7 +32,7 @@ The static MSCA corpus is consolidated around three canonical documents:
 ### Canonical dynamic specification
 
 [**Canonical MSCA Operation & Repositioning**](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) — **CURRENT, v0.1 (23 September 2026).**  
-Defines the runtime cycle from current epistemic/cartographic/regime state to controlled role/contract transition: effective-role drift detection, agentic-gradient candidate generation, ACC/lineage/authority gating, corrective restoration/containment, legitimate role rebinding or re-contracting, migration, defensive dependency isolation, post-transition signalling and bounded systemic self-healing.
+Defines the runtime cycle from current epistemic/cartographic/regime state to controlled role/contract transition: effective-role drift detection; source/domain Type 0/1/2 catalogue; P1 Normal / P2 Containment / P3 Migration hard posture closure; qualified repositioning output `Π_RP=[A_RP,B_RP,C_RP,D_RP]`; agentic-gradient candidate generation; ACC/lineage/authority gating; `RepositionIntent` / `AuthorityResponse` signalling; restoration, rebinding, re-contracting, migration, defensive isolation, post-transition signalling and bounded systemic self-healing.
 
 ### Canonical extension profiles
 
@@ -117,6 +117,10 @@ No layer substitutes for another.
 | Peer-MSCAs vs legitimate higher-order composite MSCA | **DEFINED in Composition & Control v0.1** |
 | Canonical MSCA Operation & Repositioning specification | **CURRENT — [v0.1](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md)** |
 | Effective-role drift / metamorphic-role control | **DEFINED in Operation & Repositioning v0.1** |
+| Type 0/1/2 source/domain catalogue before repositioning closure | **DEFINED in Operation & Repositioning v0.1** |
+| P1 Normal / P2 Containment / P3 Migration hard posture gate | **DEFINED in Operation & Repositioning v0.1** |
+| Qualified repositioning position `Π_RP=[A_RP,B_RP,C_RP,D_RP]` | **DEFINED in Operation & Repositioning v0.1** |
+| `RepositionIntent` / `AuthorityResponse` as compound ecosystem signalling | **DEFINED across Operation & Repositioning and 01J Signalling** |
 | Re-contracting / role rebinding / migration outcomes | **DEFINED in Operation & Repositioning v0.1** |
 | Defensive repositioning / bounded systemic self-healing | **DEFINED as bounded architecture property; not guaranteed convergence** |
 | MSCA Architectural Role | **CURRENT — [v0.1](./02_MSCA_ARCHITECTURAL_ROLE.md)** |
