@@ -5,7 +5,7 @@
 **Version:** 0.1 — 19 September 2026
 
 **Status:** public working annex to [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md). It is deliberately incomplete evidence design, not evidence.
-**Dependencies:** [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), [00 — Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), [00D](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md), [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), [00F](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md), [01C — EA / Regime Awareness](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md) and [04 Appendix A — Interface Quality and Conformance Plan](./04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part03.md#appendix-a--interface-quality-and-conformance-plan-for-ecosystem-awareness).
+**Dependencies:** [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), [00 — Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), [00D](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md), [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), [00F](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md), [01C — EA / Regime Awareness](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) and [04 Appendix A — Interface Quality and Conformance Plan](./04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.part03.md#appendix-a--interface-quality-and-conformance-plan-for-ecosystem-awareness).
 
 ## 1. Purpose, reading rule and claim boundary
 
