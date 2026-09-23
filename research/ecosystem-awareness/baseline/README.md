@@ -11,6 +11,21 @@ This is the **single public reading folder for the general EA corpus**. It conta
 
 **Status key.** **Controlled/frozen** means a preserved release source. **Integrated working successor** means a current research integration that does not silently replace the freeze. **Additive annex** means a non-canonical research/interface extension. **Application package** means a programme-specific projection that cannot redefine the general EA semantics.
 
+### Status legend
+
+The paragraph above is retained as the compact reading rule. The table below makes the citation and change implications explicit without changing any document's declared status.
+
+| Label | Meaning | Can it change? | Cite for current semantics? |
+|---|---|---|---|
+| **Controlled / frozen** | Preserved release source governed by its freeze / manifest boundary | No silent edits; changes require a successor or an explicitly governed maintenance action | Yes, when the frozen release itself is the intended source; pin the relevant commit / controlled source |
+| **Canonical working** | Current document on the canonical reader route; working and versioned, but not a frozen release | Yes, through version-controlled changes | Yes, with the specific commit/version read |
+| **Integrated working successor** | Current integration or successor of a preserved source; it does not silently replace the freeze | Yes, versioned | Yes, with the specific commit/version read |
+| **Additive annex** | Non-canonical research, interface or integration extension around the core architecture | Yes, versioned | As the stated proposal/annex; it does not redefine a frozen source by itself |
+| **Application package** | Programme-specific projection of the general architecture | Yes, subject to the programme/source boundary | Only for that application context; it cannot redefine general EA semantics |
+| **Preserved predecessor** | Superseded document retained for lineage, provenance or conservation | No semantic maintenance as the current route | No for current semantics; cite its successor unless historical lineage is the subject |
+
+Where a file carries more specific status prose, freeze language or a controlled-source banner, that local declaration remains authoritative for that file. This legend is a reading aid, not a bulk reclassification of the corpus.
+
 ## Problem-to-architecture reading route
 
 For an industrial or research reader evaluating the proposition from first principles, use this order:
