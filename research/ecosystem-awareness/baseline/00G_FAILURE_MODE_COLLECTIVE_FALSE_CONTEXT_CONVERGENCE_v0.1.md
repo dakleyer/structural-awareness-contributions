@@ -113,6 +113,8 @@ This is a self-reinforcing false-context loop.
 
 The scenario calls this **collective false-context convergence**. Any relationship to formal catastrophic forgetting remains a separate empirical question; the runtime mechanism tested here is mission/context displacement and loss of source/epistemic boundaries.
 
+A concrete metamorphic-role variant used by the current Repositioning specification is deliberately simple: a waiter that was cleaning tables is now "cleaning an imaginary rifle" because it believes it is preparing to go to Russia. The architectural test is not whether Repositioning can shout an operational correction at the waiter. It is whether the system can identify `Role_effective ≠ Role_bound`, preserve the hospitality Objective Envelope/ACC reference, qualify the drift, and escalate the issue to the appropriate control/authority owner while computing any legitimate next role from the waiter’s **actual effective position**.
+
 ## 6. Qualified-signalling arm
 
 In the EA/signalling arm, any received Napoleonic claim is treated as a bounded external signal.
