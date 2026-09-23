@@ -16,7 +16,7 @@ The corpus distinguishes the **public minimal detector** from the broader curren
 
 - The minimal detector remains representation-relative and bounded: it qualifies observable continuation/departure under declared Ψ/context/baseline/threshold/delay and does not claim full hidden-state reconstruction.
 - The broader Regime Awareness architecture may project that result as the qualified delta **Δ_RA=[A_RA,B_RA,C_RA,D_RA]**: direction (A_RA), confidence/intensity attached to that direction (B_RA), recognized current-capability frontier (C_RA), and structural/residual unknown (D_RA). Scope, Ψ/context/baseline, provenance and freshness qualify the delta but are not themselves the direction.
-- `Δ_RA` is a **qualified directional change input**, not a gradient. Its structural context may include the participant-local [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) map: semantic neighbours, dependency edges and their resolution/qualification. The participant-local agentic gradient is computed only after projection through the receiver's own objectives/dependencies/focal MSCA.
+- `Δ_RA` is a **qualified directional change input**, not a gradient. Its structural context may include the participant-local [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) Ecosystem Cartography: represented elements/dependencies (`A_Cart`), element-wise confidence (`B_Cart`), expansion capability (`C_Cart`) and residual (`D_Cart`). The participant-local agentic gradient is computed only after projection through the receiver's own objectives/dependencies/focal MSCA.
 - Regime Awareness does **not** issue the participant's final Normal / Containment / Migration-Regime Transition posture. EA/Positioning derives that posture nonlinearly from the delta plus MSCA risk, ACC, authority/capacity and local thresholds/hysteresis.
 
 ## Circuit inputs, triggers and outputs
@@ -25,7 +25,7 @@ The broader RA integration receives a bounded participant-local input bundle. Co
 
 - [01H participant-local EA](../ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) → current qualified epistemic position and material local action/effect changes;
 - [01J Ecosystem Signalling](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) → receiver-qualified external messages as `ReceivedSignals_i`;
-- [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) → current `ECM_i`, bounded dependency neighbourhood and `Δ_ECM,i`;
+- [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) → current qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]`, bounded dependency neighbourhood and `Δ_Cart,i`;
 - [Canonical MSCA](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) + [Architectural Role](../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) → focal Objective Envelope/process/control context and what this participant actually does;
 - legitimate owner/EA window/direct observations → decision scope, W(d,t), thresholds, horizon, local telemetry and other qualified evidence.
 
@@ -33,7 +33,7 @@ RA may consume additional qualified sources.
 
 Evaluation may be event-driven, threshold-triggered or periodic. Material local epistemic movement, sufficient external signalling, signalling insufficiency/staleness, dependency-map change, action/effect mismatch, role/authority/capability change or explicit owner policy may all trigger re-evaluation.
 
-Outputs are `Δ_RA=[A_RA,B_RA,C_RA,D_RA]`, a regime-qualified overlay over the represented map/frame, and bounded requalification requests. Composition & Control owns persistent `ECM_i` updates; RA does not become the ecosystem-map repository. A material RA output may itself be selectively signalled to peers.
+Outputs are `Δ_RA=[A_RA,B_RA,C_RA,D_RA]`, a regime-qualified overlay over the represented map/frame, and bounded requalification requests. Composition & Control owns persistent `Cart_i` updates; RA does not become the Ecosystem Cartography repository. A material RA output may itself be selectively signalled to peers.
 
 ## Architecture links
 
