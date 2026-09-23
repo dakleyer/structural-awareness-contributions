@@ -12,6 +12,8 @@ The current common representation is **S/E/C/P/M**:
 - **P — Intervention mechanisms:** feasible actions available under stated preconditions, authority and timing.
 - **M — Enabling means:** observation, communication, interoperability, computation/processing where relevant, actuation and effect-measurement capabilities.
 
+**Cross-corpus visual map:** [Structural / Ecosystem Awareness Visual Guide](../../research/ecosystem-awareness/VISUAL_GUIDE.md) — use the ownership and current-positioning-cycle diagrams to place MSCA, Cartography, RA, EA, ACC and governance without collapsing their responsibilities.
+
 An S/E/C/P/M **representation** may exist before sufficiency can be assessed and may be partial, UNKNOWN or unpopulated. Such a representation supports discovery, comparison and progressive qualification; it is not a supported minimum until the applicable Objective Envelope, assumptions, evidence and authorization justify that status.
 
 Assessment state is separate from representation. Current working semantics distinguish **UNASSESSED**, **SUPPORTED**, **FAILED** and **UNRESOLVED**. A supported configuration is always scoped to its declared S/E conditions, evidence, authority, version and validity boundary; it is not proof of a universal or global minimum.
