@@ -1,6 +1,6 @@
 # Annex 01H — Participant-Local Ecosystem Positioning and Decision-Scoped Epistemic Opportunity
 
-**Status:** additive public working annex, v0.1, 21 September 2026. This document is outside the controlled/frozen v0.4 release baseline. It does not create F10, a new O/S interface family, a new epistemic position, a new operating posture, an implemented protocol, an adopted standard or an ITU-T deliverable.
+**Status:** additive public working annex, v0.1, 21 September 2026. This is an **Ecosystem Positioning-related extension hosted in the EA folder for lineage/routing**, and it remains an additive EA integration annex outside the controlled/frozen v0.4 release baseline. It does not create F10, a new O/S interface family, a new epistemic position, a new operating posture, an implemented protocol, an adopted standard or an ITU-T deliverable.
 
 **Reading boundary:** this annex reconciles and makes explicit mechanisms already distributed across the Ecosystem Awareness corpus: individual adaptation and multi-optima control architecture, signalling without required cooperation, partial participation, competing objectives, Semantic Window management, APQ/F9 pathway learning, EHD handoff semantics and the EA↔MSCA boundary. It does not claim those antecedents as newly invented here.
 
