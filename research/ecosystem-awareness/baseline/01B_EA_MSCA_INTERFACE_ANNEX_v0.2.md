@@ -193,7 +193,7 @@ It should verify at minimum that:
 7. Sparse/legacy participants can interoperate without requiring a complete MSCA export.
 8. A richer domain-specific profile cannot silently redefine S/E/C/P/M.
 
-These are **proposed tests**, not completed validation. The [EA validation apparatus](./README.md#validation-profiles) remains the neighbouring EA test route; it does not imply that these EA↔MSCA interface tests have already been executed.
+These are **proposed tests**, not completed validation. The [EA validation apparatus](./VALIDATION_PROFILE_READING_NOTE.md) remains the neighbouring EA test route; it does not imply that these EA↔MSCA interface tests have already been executed.
 
 ### 7.1 Joint-operation boundary with Regime Awareness
 
