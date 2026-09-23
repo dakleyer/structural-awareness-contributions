@@ -109,7 +109,7 @@ For participant i:
 RA_Input_i(t) = [
   Π_EA,i(t),
   ReceivedSignals_i(t),
-  ECM_i(t) / Δ_ECM,i(t),
+  Cart_i(t) / Δ_Cart,i(t),
   focal MSCA X_i(t),
   ArchitecturalRole_i(t),
   decision / Objective Envelope / W_i(d,t),
@@ -124,7 +124,7 @@ RA_Input_i(t) = [
 |---|---|---|
 | **Π_EA,i** | Participant-local EA / [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) | Current situated epistemic state, confidence/intensity, capability frontier and residual for the affected decision/scope. |
 | **ReceivedSignals_i** | Receiver-local [Ecosystem Signalling 01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) | Qualified external messages from peers, systems, institutions or other ecosystem sources; only semantically/compatibly qualified content is eligible. |
-| **ECM_i / Δ_ECM,i** | [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | Current multi-resolution semantic/dependency map, bounded dependency neighbourhood and material structural map changes. |
+| **Cart_i / Δ_Cart,i** | [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | Current qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]`, bounded dependency neighbourhood and material cartographic change-set. |
 | **focal MSCA X_i** | [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) | Current Objective Envelope, operating assumptions and C/P/M architecture against which regime change becomes control-relevant. |
 | **ArchitecturalRole_i** | [MSCA Architectural Role](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) | What this participant actually does, consumes, produces, depends on and is authorized/contracted to perform inside the focal MSCA. |
 | **Decision / W_i / owner scope** | Legitimate owner + EA F1/F2 | Defines the active decision, observation boundary, materiality, response horizon and residual tolerance. |
@@ -142,7 +142,7 @@ An RA evaluation may be triggered by:
 - one received signal crossing a declared materiality/confidence threshold;
 - a set of received signals becoming jointly material after composition;
 - signal insufficiency, contradiction, staleness or expiry that weakens the current regime basis;
-- Δ_ECM,i showing a new, changed or disappearing dependency/cluster;
+- Δ_Cart,i showing a new, changed or disappearing dependency/cluster;
 - focal MSCA, role, ACC, authority or capability change;
 - a local action/effect mismatch;
 - explicit owner/policy request;
@@ -170,7 +170,7 @@ where:
 - **RegimeOverlay_i** identifies which represented regions, dependencies, assumptions or MSCA/ECM elements are still compatible, weakening, departed or unresolved under the current regime evidence;
 - **RequalificationRequests_i** identifies bounded areas requiring richer observation, different context, dependency refresh, resolution change or owner/control review.
 
-RegimeOverlay_i is not a second persistent ecosystem map. [Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) owns ECM_i persistence and may use the overlay/request to produce ECM_i(t+1).
+RegimeOverlay_i is not a second persistent Ecosystem Cartography. [Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) owns Cart_i persistence and may use the overlay/request to produce Cart_i(t+1).
 
 A material Δ_RA or bounded RA statement MAY itself be selectively disclosed through [Ecosystem Signalling 01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). RA does not require broadcast and does not turn its output into a command.
 
@@ -184,7 +184,7 @@ The downstream repositioning mechanism remains outside this document.
 | EA F1/F2/APQ | Decision relevance, residual tolerance, capacity/response horizon, qualified W(d,t) and pathway fitness | Owner scope; available sensors/sources; RA representativeness/context evidence | Candidate observation need and constraints; RA representation/context design. |
 | Participant-local EA / 01H | Current Π_EA,i and material local action/effect change | Local observations, handoffs, focal decision and role/MSCA context | Qualified local epistemic-state update; Composition & Control and RA input bundle. |
 | Ecosystem Signalling / 01J receiver | ReceivedSignals_i and compatibility residual | External messages from agents, systems or institutions | Receiver-qualified external state; Composition & Control and RA input bundle. |
-| MSCA Ecosystem Composition & Control | ECM_i, Δ_ECM,i, bounded dependency neighbourhood and resolution/qualification state | Local Π_EA,i changes, ReceivedSignals_i, focal MSCA/role changes, direct observations and RA feedback | Current structural ecosystem map and material map change-set; EA and RA. |
+| MSCA Ecosystem Composition & Control | Cart_i, Δ_Cart,i, bounded dependency neighbourhood and resolution/qualification state | Local Π_EA,i changes, ReceivedSignals_i, focal MSCA/role changes, direct observations and RA feedback | Current qualified Ecosystem Cartography and material cartographic change-set; EA and RA. |
 | RA representation/context layer | Ψ, admitted H_t(m), T*_t status, I and invisible-change declaration | Scoped Δ/τ/ℓ and observable access; EA burden/freshness challenge; ECM/dependency context where material | Context/representation qualification, data series and limitations; RA detector and EA F3/F4. |
 | RA detector | d_t, B_t, s_t, thresholds, directional P_t and instability evidence | Qualified context, invariant, baseline and data | Present-tense, scoped report; EA F3 (embedded) or F4 (independent producer), then F5/F6. |
 | RA Safety Governor/action design | P_t→candidate A(P_t), declared PNI or weaker bounded-downside proof, response feasibility | Owner-approved action library, utility domain, authority constraints, detector posture | Guarded proposal/abstention/escalation; authority/control function. **Not** an EA command. |
@@ -328,7 +328,7 @@ participant action / observation
         ↘
 qualified external messages → ReceivedSignals_i
         ↘
-Composition & Control → ECM_i / Δ_ECM,i
+Composition & Control → Cart_i / Δ_Cart,i
         ↓
 triggered / scheduled Regime Awareness
         ↓
