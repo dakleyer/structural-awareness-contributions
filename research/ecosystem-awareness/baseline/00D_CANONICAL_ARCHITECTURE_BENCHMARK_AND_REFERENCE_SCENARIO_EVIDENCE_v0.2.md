@@ -11,6 +11,8 @@
 
 > **Sole current benchmark in the canonical reader route.** This document integrates the EA differential hypotheses, the fair architecture-comparison protocol, the industry benchmark landscape and empirical corroboration of the two reference failure scenarios. It does not report a completed EA experiment, rank products, prove novelty or claim that any cited incident was caused by the absence of EA.
 
+> **Benchmark vNext is now open.** The current architecture has expanded from EA alone to the broader Ecosystem Positioning composition. A bounded [**00D v0.3 draft — Ecosystem Positioning**](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) documents what v0.2 does **not** yet benchmark: later signalling, Cartography, Regime Awareness composition, MSCA sufficiency/operation, drift-first repositioning, Gradient and ACC/authority gating. **v0.2 remains canonical until the v0.3 adoption gates are completed** (Requirements-vNext traceability, prior-art/industry source audit, ablation/complexity protocol and positioning-specific fixture admission).
+
 **Version:** 0.2 — 17 September 2026  
 **Status:** public working benchmark and evidence register; hypotheses and test design, not validated superiority.  
 **Canonical dependencies:** [00 — Requirements: S1–S14, T1–T4, H1–H6 and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), [00 — Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), [00E — 100-million-token reference scenario](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) and [00F — smart-city mobility reference scenario](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md).
