@@ -1,0 +1,80 @@
+# Ecosystem Awareness — Canonical Corpus Manifest
+
+**Public mirror status:** publication in progress  
+**Controlled architecture/validation freeze:** 2026-09-10  
+**Repository:** `dakleyer/structural-awareness-contributions`  
+**Path:** `research/ecosystem-awareness/`
+
+This manifest maps the intended public mirror to the exact controlled Google Drive corpus. Until every file listed below exists at the stated public path and passes the corresponding SHA-256 check, the public repository must be treated as an **incomplete mirror** of the controlled corpus.
+
+## A. Canonical / release baseline — publication status
+
+The controlled baseline is complete in Google Drive. Public materialization is still being completed.
+
+| # | Intended public file | Controlled Drive source | Public status |
+|---|---|---|---|
+| 1 | `baseline/01_FOUNDATIONAL_THEORY_v0.4.md` | `1LxqqoNOO6R9_7kcp6KqaVQ2crIKRzucKWejtivKB8uk` | Pending canonical single-file publication; split parts currently present |
+| 2 | `baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.md` | `1IZKJJZr3_CDyPng789faWfpawWRgzwzMZvg_EkLdkbs` | Pending canonical single-file publication; split parts currently present |
+| 3 | `baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.md` | `1lfF9p1acEYzGNGLr5KJxv3tH7XJu9X2J5lPJApK8Jmc` | Pending canonical single-file publication; split parts currently present |
+| 4 | `baseline/04_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.4.md` | `1yqMqaurnlGgN2x-JDJ6AgXtRGus1MMXcVKTPg7cR5_I` | Pending canonical single-file publication; split parts currently present |
+| 5 | `baseline/05_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.md` | `1kSMeygAUe8JaM5MHTnT6DMvhiwVM8sWV1-Bc6A1H7-E` | **Incomplete public split — part 3 missing** |
+| 6 | `baseline/06_ARCHITECTURE_BENCHMARK_v0.4.md` | `1ZYVI6Co5kMoH-0rhVVChYvrACJaGjARl4qX1TD3iAf8` | Pending canonical baseline-path publication; a separate top-level public-freeze copy exists |
+
+## B. Current validation set — publication status
+
+These validation artifacts are part of the canonical corpus. They are not unpublished comments and must not be omitted.
+
+| Intended public file | Status | Controlled Drive source | Public status |
+|---|---|---|---|
+| `validation/VALIDATION_PROFILE_FAMILY_v0.5_FROZEN.md` | Frozen / unchanged | `1qjCLvOp02Lgh9hVlJae_GZTNImenMXboEJ3fJMsqmok` | Pending upload |
+| `validation/UC-EA-01_v0.3_FROZEN.md` | Frozen / unchanged | `19k4fY-zu3IoRmsSuUyS0xgjqX7NhvvgoTAeZLN3ijI8` | Present only at top level; canonical validation-path copy pending |
+| `validation/UC-EA-02_v0.6_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1_a1edMjJx4ozTmMn9iT23j7zYjOcX7Fmln8Zn_Tf8Qw` | Pending upload |
+| `validation/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1Mhv4mUIU-S5yifmH8G0UDRdf0ItXt1aEK4kn0kAG6uY` | Pending upload |
+| `validation/UC-EA-04_v0.5_MAINTENANCE_FREEZE.md` | Current maintenance successor | `1y8wRR89mAYSgkYvsMS2ljr7V5jV1P2My1fIkonGkv1Y` | Pending upload |
+| `validation/EA-ITP-01_v0.1_FROZEN.md` | Frozen / unchanged | `1OnBzCX0TP6mtxdLjn9_OORq0UIOdl9I_3vkVsmRW1XA` | Pending upload |
+
+## C. Governance controls — publication status
+
+- `governance/FREEZE_MANIFEST_2026-09-10.md` — present.
+- `governance/MAINTENANCE_FREEZE_MANIFEST_2026-09-10.md` — present.
+- `governance/MAINTENANCE_FREEZE_README_2026-09-10.md` — pending upload.
+
+## D. Preserved lineage / conservation — publication status
+
+These materials preserve the path from problem definition and derivation into the current baseline. They do not override the current baseline.
+
+- `lineage/ARCHITECTURAL_PRINCIPLES_v0.1.md` — present.
+- `lineage/THREE_DIMENSIONS_OF_INDETERMINACY_WORKING_TECHNICAL_ARCHITECTURE.md` — pending upload.
+- `lineage/DEEP_CONCEPTUAL_LINEAGE_DERIVATION_MAP_v0.1.md` — pending upload.
+- `lineage/PROMPT_TO_CANON_CONSERVATION_MATRIX_v0.1.md` — pending upload.
+- `lineage/CORPUS_CHANGE_RECORD_APQ_CONSERVATION_v0.1.md` — pending upload.
+- `lineage/ARTICLE_01_NATURALISTIC_FOUNDATIONS_AND_AGENTIC_LIFECYCLE_INVERSION.md` — pending upload.
+- `lineage/ARTICLE_02_MINIMUM_CONTROL_ARCHITECTURE_MULTI_OPTIMA.md` — pending upload.
+- `lineage/ARTICLE_03_SEMANTIC_WINDOW_AND_GOOD_ENOUGH_EARLY_WARNING.md` — pending upload.
+- `lineage/ARTICLE_04_ECOSYSTEM_SIGNALLING_WITHOUT_REQUIRED_COOPERATION.md` — pending upload.
+- `lineage/ARTICLE_05_INTEGRATED_REFERENCE_MODEL_FOR_FG_TIDA.md` — pending upload.
+
+## E. Parent case and public provenance
+
+- Parent Case Study / DAOS fixture: publicly available elsewhere in this same repository under the ITU-T FG-TIDA submission tree and linked from the corpus README; it is not duplicated here unless a later preservation need requires it.
+- `provenance/PUBLIC_PROVENANCE_2026-09-08.md` — pending canonical-path materialization; an earlier top-level public provenance copy exists.
+
+## F. Publication boundary
+
+The canonical corpus is intended to include the complete architecture, interfaces, benchmark, lineage, Articles 01–05, validation family, UC-EA-01…04, EA-ITP-01, freeze/maintenance controls, conservation/provenance material and the linked Parent Case Study.
+
+The only deliberate exclusion is **unpublished GitHub/FG-TIDA comment, reply or posting-draft material** prepared for future public threads. Those drafts remain private until actually posted. Once posted, the public artifact may be cited as provenance/evidence, but the private drafting file does not become canon automatically.
+
+## G. Verification route
+
+The corpus must not be described as complete until all three conditions are true:
+
+1. Every intended canonical public file exists at the path named in this manifest.
+2. The generated SHA-256 inventory exists and verifies every canonical file.
+3. No truncated split artifact, aborted transfer residue or competing obsolete top-level copy can be mistaken for the current canonical file.
+
+The previously advertised verification bundle/inventory is not yet present and therefore must not be cited as completed verification.
+
+## Status boundary
+
+This corpus is public research / pre-standardization material. It is not an ITU-T deliverable, adopted FG-TIDA architecture, NIST submission, product certification, or proof of novelty/superiority. Public FG-TIDA references document contributor-level provenance and third-party discussion only.
