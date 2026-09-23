@@ -1,6 +1,6 @@
 # Annex 01J — Ecosystem Signalling: Selective Disclosure, Distributed Opportunity and Choreographed Repositioning
 
-**Status:** additive public working annex, v0.1, 23 September 2026. This document is outside the controlled/frozen v0.4 release baseline. It develops ecosystem signalling before a later reconciliation of the MSCA and Agentic Citizenship Contract (ACC) lines. It does not define a mandatory protocol, shared ecosystem contract, global state, global gradient, common MSCA, standards claim or adopted FG-TIDA architecture.
+**Status:** additive public working annex, v0.1, 23 September 2026. This is an **Ecosystem Positioning-related signalling extension hosted in the EA folder for lineage/routing** and remains outside the controlled/frozen v0.4 release baseline. It develops ecosystem signalling across EA/MSCA/ACC boundaries. It does not define a mandatory protocol, shared ecosystem contract, global state, global gradient, common MSCA, standards claim or adopted FG-TIDA architecture.
 
 ## 1. Purpose and architectural boundary
 
