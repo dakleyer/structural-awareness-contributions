@@ -182,7 +182,7 @@ D_Cart is not zero merely because the current map is detailed.
 Earlier documents used:
 
 ~~~text
-Cart_i
+ECM_i
 ~~~
 
 for the participant-local ecosystem composition map.
@@ -631,7 +631,7 @@ RA may observe:
 - movement of a dependency from represented/current into capability frontier or residual;
 - divergence among related MSCAs.
 
-RA does not require the full ecosystem map. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family.
+RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. Because Cart_i already uses A/B/C/D semantics, that bounded slice can enter RA without inventing a second epistemic translation layer.
 
 Its output remains:
 
