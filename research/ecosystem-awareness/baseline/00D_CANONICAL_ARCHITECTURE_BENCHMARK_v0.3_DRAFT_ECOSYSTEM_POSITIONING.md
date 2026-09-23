@@ -162,6 +162,8 @@ v0.2 B0/B1 remain unchanged.
 
 The exact product/protocol capabilities used in B2 must be pinned in the pre-registration. Capability names alone are not evidence.
 
+**Standards-boundary inheritance from v0.2.** B2 should credit relevant existing primitives at full strength, including workload identity/authentication such as SPIFFE/SPIRE, subject/actor token exchange such as RFC 8693, and attestation/appraisal such as RFC 9334 RATS. Their documented boundaries must also be preserved: authentication is not authorization policy; RFC 8693 token exchange does not create a general persistent input/output-token linkage or general revocation-propagation semantics; and RATS Attestation Results remain inputs to a relying party's own application-specific decision. NIST's 2026 NCCoE software/AI-agent identity-and-authorization work is treated as current standards-context evidence, not as endorsement of this architecture. See the canonical v0.2 benchmark §5.1 for the source-grounded boundary statement.
+
 ### 5.2 EP build-up ladder
 
 The build-up ladder is useful for observing when capabilities appear, but **is not by itself sufficient for causal attribution**.
