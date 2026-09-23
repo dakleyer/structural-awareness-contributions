@@ -35,7 +35,7 @@ That combination is plausibly differential as an explicit architectural responsi
 | [RATS / RFC 9334](https://www.rfc-editor.org/rfc/rfc9334.html) and trust frameworks | Evidence, appraisal result and relying-party decision are separated; authority and trust claims have specific owners | Does EA add decision-wide qualification of evidence outside attestation without taking identity, authorization, appraisal or enforcement ownership? |
 | [DebUnc](https://aclanthology.org/2025.findings-emnlp.1265/) and uncertainty-propagation work | Uncertainty can be communicated and propagated through agents | Does EA's window qualification, structural residual, source-lineage and domain non-substitution reduce false closure beyond a calibrated-UQ peer? |
 
-This table reports architectural task boundaries, not a negative search over all extensions or implementations. Any comparative claim must name the peer version, configuration and date. The [EA/MSCA annex](./01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md), [EA/Regime Awareness annex](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md) and [joint operation profile](./01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) are candidate integrations, not independently validated differentiators.
+This table reports architectural task boundaries, not a negative search over all extensions or implementations. Any comparative claim must name the peer version, configuration and date. The [EA/MSCA annex](./01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md), [EA/Regime Awareness annex](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) and [joint operation profile](./01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) are candidate integrations, not independently validated differentiators.
 
 ## 3. The EA differential to test: four coupled claims
 
