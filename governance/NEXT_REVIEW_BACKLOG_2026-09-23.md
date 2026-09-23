@@ -41,26 +41,45 @@ Before presenting Gradient / Repositioning / ACC / choreography as comparatively
 
 Do not silently broaden 00D's evidence claim.
 
-## 4. Readability / credibility backlog
+## 4. Readability / credibility execution waves
 
-From the presentation-and-credibility plan, defer until the duplicate disposition and remaining semantic checks are closed:
+**Safety rule for these waves:** preserve the existing substantive prose and source definitions. Presentation changes should be additive or locally structural; do not shorten, silently merge, or replace controlled/frozen meaning. Where a table or visual is added, the existing explanatory text remains available unless a later explicit editorial decision approves a replacement.
+
+### Priority A — completed 23 September 2026
+
+These four items were applied additively after the semantic/coherence pass. Existing prose was retained and the new tables were added as second-layer reading aids:
+
+- **P04** Ecosystem Positioning detailed responsibility matrix with `Owns / Emits / Never` and source routes — commit `57c6bfe`.
+- **P05** EA benchmark-status dashboard, including the explicit boundary between EA-H1–EA-H4 matched-comparator work and later positioning layers — commit `0f79c9d`.
+- **P06** EA corpus status legend table, without bulk reclassification of existing files — commit `3771998`.
+- **P10** Regime Awareness producer/consumer input-output interface table, retaining the original producer list and output prose — commit `d6627cf`.
+
+### Priority B — pending
+
+Execute only after reviewing the affected current text again. Preserve the full existing explanations.
+
+- **P03** root evidence-boundary table tied to E1–E4. This may be added under the existing evidence-boundary bullets rather than replacing them.
+- **P07** corpus-at-a-glance table + collapsible long route. **Wait for the baseline / FG-TIDA duplicate disposition** so the compact route does not canonize the wrong physical copy.
+- **P02** root architecture Mermaid. The EP/EA hierarchy coherence dependency is now resolved, but this is a visual architecture aid and should be checked against the then-current text immediately before insertion.
+- **P09** topology reading-rule Mermaid. Keep the existing written reading rule; the visual is supplementary.
+
+### Priority C — pending / lower urgency
 
 - **P01** root status/licence/validation/citation badges.
-- **P02** root architecture Mermaid.
-- **P03** root evidence-boundary table.
-- **P04** Ecosystem Positioning responsibility matrix with `Owns / Emits / Never`.
-- **P05** EA benchmark-status dashboard.
-- **P06** EA corpus status legend table.
-- **P07** corpus-at-a-glance table + collapsible long route.
-- **P09** topology reading-rule Mermaid.
-- **P10** Regime Awareness producer/consumer input-output table.
 - **P11** uniform document cards — start only with the main reading route, not the whole corpus.
-- **P13** tagged release + Zenodo DOI — requires Iván's explicit publication approval.
+- **P13** tagged release + Zenodo DOI — requires Iván's explicit publication approval and should follow a deliberate milestone/freeze decision rather than routine editorial cleanup.
 
-Already addressed in the current pass:
+### Already addressed before Priority A
 
 - **P08 substance:** canonical notation / owner / `(d,t)` reconciliation added to the topology page.
 - **P12 substance:** predecessor / controlled-source banners added to the priority predecessor/source set.
+- **P14 substance:** Ecosystem Positioning working-process order now runs through effective-role drift / Type catalogue / P1–P3 before the objective-conditioned Gradient from `Role_effective`.
+
+### Visual aids and PowerPoint — separate later wave
+
+Do not import the companion visual pack wholesale into the canonical corpus. Reuse an individual table, Mermaid or image only after the corresponding current text has been rechecked and the visual is demonstrably supplementary rather than a competing semantic source.
+
+The canonical PowerPoint/PDF replacement remains a separate finalization step under §2. Do not replace the stable presentation pair until its remaining text-only items are approved and both artefacts can be updated together.
 
 ## 5. Corpus provenance follow-up
 
