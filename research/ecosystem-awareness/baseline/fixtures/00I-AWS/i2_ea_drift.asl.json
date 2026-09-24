@@ -1,5 +1,5 @@
 {
-  "Comment": "00I AWS-I2-EA drift trajectory — design skeleton only",
+  "Comment": "00I AWS-I2-EA drift trajectory — design skeleton only; one bounded targeted re-entry",
   "StartAt": "QualifyAndPersistBasis",
   "States": {
     "QualifyAndPersistBasis": {
@@ -14,7 +14,7 @@
     },
     "WaitUntilT2": {
       "Type": "Wait",
-      "TimestampPath": "$.execute_at",
+      "TimestampPath": "$.qualification.Payload.execute_at",
       "Next": "CheckBasisModelCurrent"
     },
     "CheckBasisModelCurrent": {
@@ -33,7 +33,7 @@
         {
           "Variable": "$.basis_check.Payload.current",
           "BooleanEquals": true,
-          "Next": "AcquireLeaseAndRequalify"
+          "Next": "GuardCurrentBasis"
         },
         {
           "Variable": "$.basis_check.Payload.current",
@@ -59,22 +59,22 @@
         {
           "Variable": "$.reentry.Payload.status",
           "StringEquals": "SUPPORTED",
-          "Next": "AcquireLeaseAndRequalify"
+          "Next": "GuardAfterReentry"
         },
         {
           "Variable": "$.reentry.Payload.status",
-          "StringEquals": "DENY",
+          "StringEquals": "DBC_DENY",
           "Next": "Denied"
         },
         {
           "Variable": "$.reentry.Payload.status",
-          "StringEquals": "ESCALATE",
+          "StringEquals": "DBC_ESCALATE",
           "Next": "Escalated"
         }
       ],
       "Default": "BasisUnknown"
     },
-    "AcquireLeaseAndRequalify": {
+    "GuardCurrentBasis": {
       "Type": "Task",
       "Resource": "arn:aws:states:::lambda:invoke",
       "Parameters": {
@@ -82,30 +82,66 @@
         "Payload.$": "$"
       },
       "ResultPath": "$.guard",
-      "Next": "Disposition"
+      "Next": "InitialDisposition"
     },
-    "Disposition": {
+    "InitialDisposition": {
       "Type": "Choice",
       "Choices": [
         {
           "Variable": "$.guard.Payload.disposition",
-          "StringEquals": "EXECUTE",
+          "StringEquals": "DBC_EXECUTE",
           "Next": "ApplyUnderLease"
         },
         {
           "Variable": "$.guard.Payload.disposition",
-          "StringEquals": "REQUALIFY",
+          "StringEquals": "DBC_REQUALIFY",
           "Next": "TargetedReentry"
         },
         {
           "Variable": "$.guard.Payload.disposition",
-          "StringEquals": "DENY",
+          "StringEquals": "DBC_DENY",
           "Next": "Denied"
         },
         {
           "Variable": "$.guard.Payload.disposition",
-          "StringEquals": "ESCALATE",
+          "StringEquals": "DBC_ESCALATE",
           "Next": "Escalated"
+        }
+      ],
+      "Default": "BasisUnknown"
+    },
+    "GuardAfterReentry": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${AcquireLeaseAndRequalifyFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.guard_after_reentry",
+      "Next": "PostReentryDisposition"
+    },
+    "PostReentryDisposition": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.guard_after_reentry.Payload.disposition",
+          "StringEquals": "DBC_EXECUTE",
+          "Next": "ApplyUnderLease"
+        },
+        {
+          "Variable": "$.guard_after_reentry.Payload.disposition",
+          "StringEquals": "DBC_DENY",
+          "Next": "Denied"
+        },
+        {
+          "Variable": "$.guard_after_reentry.Payload.disposition",
+          "StringEquals": "DBC_ESCALATE",
+          "Next": "Escalated"
+        },
+        {
+          "Variable": "$.guard_after_reentry.Payload.disposition",
+          "StringEquals": "DBC_REQUALIFY",
+          "Next": "ReentryBudgetExhausted"
         }
       ],
       "Default": "BasisUnknown"
@@ -135,6 +171,11 @@
     },
     "Escalated": {
       "Type": "Succeed"
+    },
+    "ReentryBudgetExhausted": {
+      "Type": "Fail",
+      "Error": "00I.ReentryBudgetExhausted",
+      "Cause": "A second requalification request exceeded the skeleton's one-attempt bounded re-entry budget"
     },
     "BasisUnknown": {
       "Type": "Fail",
