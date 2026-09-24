@@ -56,6 +56,10 @@ The official CFTC material describes a large automated sell program, cross-marke
 
 The SEC public enforcement material confirms 212 customer orders leading to more than four million market orders/executions, hundreds of millions of shares and a loss above USD 460 million after deployment/control failures. The 00F table now points to the reader-friendly SEC public page rather than requiring the PDF order as the primary link.
 
+### Original v0.1 source-link preservation
+
+The v0.2 evidence table keeps the newer reader-friendly official pages **and** preserves the two original v0.1 source links as secondary references: the SEC administrative-order PDF for Knight Capital and the NTSB HAR-19/03 PDF. This closes literal source-link conservation without changing any evidence claim.
+
 ### NTSB Tempe
 
 The NTSB investigation page confirms ineffective operator oversight, automation complacency and inadequate safety-risk assessment as contributing factors. 00F uses this only for finite-human-oversight pressure; it is not presented as multi-actor systemic divergence.
