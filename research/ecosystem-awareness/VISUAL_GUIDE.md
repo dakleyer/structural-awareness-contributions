@@ -145,18 +145,21 @@ flowchart LR
 
 ## 5. Reference scenarios and implementation profiles
 
-The five current technology profiles are not generic product reviews. They are scenario-specific design analyses; the four earlier profiles now have quality-plan-synchronized v0.2 Draft successors, and 00G adds the first OpenAI implementation-trajectory draft.
+The seven current technology/strong-peer profiles are not generic product reviews. They are scenario-specific implementation-trajectory analyses: four synchronized 00E/00F successors, one OpenAI trajectory for 00G, and two deliberately different 00H peers (Claude Agent SDK and Stripe Radar + merchant authorization).
 
 ```mermaid
 flowchart TB
     E["00E<br/>100 Million Tokens"]
     F["00F<br/>Smart-City Mobility Divergence"]
     G["00G<br/>False-Context Convergence"]
+    H00["00H<br/>Batch Opportunity Beyond Authority"]
     M["00E-A01<br/>Microsoft Agent 365"]
     L["00E-A02<br/>LangGraph / LangSmith"]
     FW["00F-A01<br/>FIWARE NGSI-LD / Orion-LD"]
     AWS["00F-A02<br/>AWS IoT TwinMaker / IoT Core"]
     OAI["00G-A01<br/>OpenAI agent-stack trajectories"]
+    CLAUDE["00H-A01<br/>Claude Agent SDK"]
+    STRIPE["00H-A02<br/>Stripe Radar + merchant authorization"]
     FUT["Future explicit benchmark/profile work"]
 
     E --> M
@@ -164,10 +167,13 @@ flowchart TB
     F --> FW
     F --> AWS
     G --> OAI
+    H00 --> CLAUDE
+    H00 --> STRIPE
     G -. "additional profiles / matched execution pending" .-> FUT
+    H00 -. "Stage-0 / matched execution pending" .-> FUT
 ```
 
-**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md).
+**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.2_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md).
 
 ---
 
