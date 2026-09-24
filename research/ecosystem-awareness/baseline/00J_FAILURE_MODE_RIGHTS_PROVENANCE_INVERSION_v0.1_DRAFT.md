@@ -284,6 +284,51 @@ The current requirements-sufficiency reading is **narrowed or falsified** if:
 3. the canonical route only succeeds by hiding an unresolved substantive dependency, invoking authority it does not possess, or exhausting the response window;
 4. a strong peer closes the same gap with equal or lower burden, in which case EA distinctiveness narrows even though the requirement itself remains valid.
 
+## 9A. External corroboration and plausibility addendum — reviewed 24 September 2026
+
+00J is fictional. The exact sequence in which an original author is required to pay a downstream claimant for reuse of the author's own source work is **not asserted here as a documented incident**. The sources below establish narrower neighboring mechanisms: rights/provenance metadata can be lost across systems; machine-readable permissions are scope-dependent; provenance can be incomplete; registry presence is not equivalent to substantive rights ownership; machine-readable TDM reservations are an active interoperability problem; and AI-generated material raises separate authorship/right questions.
+
+| External evidence | Date / evidence class | Documented neighboring mechanism | 00J pressure point | What it does **not** establish |
+|---|---|---|---|---|
+| **FG-TIDA Theme #17 — Panodyssey production case** — https://github.com/FG-TIDA/themes/issues/17 | **2026 · public production-case contribution** | Panodyssey reports five publisher-side production layers: domain AI governance, per-publication discovery, ODRL/JSON-LD rights declarations distinguishing indexing/RAG/training, timestamped registry/history, and certified author identity. The contribution explicitly states that this chain stops at the agent-side legal identity boundary. | Q0/Q1/Q3: a strong source-side rights chain can still meet an external identity/mandate/composition boundary. | Does not report the 00J inversion or prove any downstream product failure. |
+| **Panodyssey AI Transparency Notice launch** — https://www.panodyssey.com/en/article/technology/press-release-panodyssey-launches-the-ai-transparency-notice-tpbhc7snppcb | **20/24 Mar 2026 · vendor/public project evidence** | Panodyssey describes the Notice as a content-origin, traceability, transparency and AI-use-control mechanism developed within CREA Trust AI. | Q0/Q1: machine-readable source/rights state is a real operational object, not an invented fixture primitive. | Vendor statement; not independent validation of legal effectiveness or 00J. |
+| **Panodyssey Notice V2.1 update** — https://www.panodyssey.com/fr/article/technologie/nouvelle-version-de-la-notice-ia-panodyssey-celle-qui-vous-dit-toujours-la-verite-dekmf956we6w | **31 Aug 2026 · vendor implementation update** | Panodyssey states that V2.1 corrected inconsistencies in AI-readable signals emitted in page code/meta tags. | Q1/Q2: even a production machine-readable rights layer can require versioned correction of signal semantics. | Does not establish rights-provenance inversion or a defect remaining in V2.1. |
+| **TEMS Trial 7 — rights across systems** — https://tems-dataspace.eu/news/ and https://tems-dataspace.eu/trials/ | **2026 · EU-funded consortium / operational trial** | TEMS describes written-work rights portability across interoperable systems and explicitly notes that origin, authorship and conditions-of-use information can be lost as content moves through platforms/infrastructures; related Trial-7 material notes fragmentation of metadata, licensing and rights/ownership information. | Q2/Q4: cross-system propagation can lose the exact source/right qualifiers 00J needs to preserve. | Does not report an author paying for their own work and does not validate EA. |
+| **C2PA Explainer 2.2** — https://c2pa.org/specifications/specifications/2.2/explainer/Explainer.html | **current specification explainer** | C2PA states that provenance is not always complete and that provenance information alone cannot determine whether content is true/accurate/factual. Its design principles also separate verifiable assertions from value judgments. | Q2/Q3: a valid provenance credential has a bounded proposition; completeness and semantic sufficiency remain separate questions. | C2PA is not a copyright-ownership adjudicator and the source does not discuss 00J's final rights claim. |
+| **W3C ODRL Information Model 2.2** — https://www.w3.org/TR/odrl-model/ | **W3C Recommendation · 15 Feb 2018** | ODRL expresses permissions, prohibitions, duties, parties, assets and constraints; permissions apply to specified actions/assets/parties under declared conditions. | Q1/Q3/Q5: a machine-readable policy is scope-specific; one permission is not a generic transfer of every downstream right. | Does not establish legal ownership or prove compliance with a policy. |
+| **European Commission / EU Publications — 2026 TDM opt-out registry feasibility study** — https://op.europa.eu/en/publication-detail/-/publication/5c5cd1ec-7cce-11f1-bf5e-01aa75ed71a1/language-en | **13 Jul 2026 · European Commission study** | The study proposes a viable registry architecture for durable/interoperable TDM opt-out signalling and traceability, while explicitly distinguishing such a registry from a rights-management or licensing system. | Q3/Q5: registry/resolution infrastructure can support signalling without itself establishing the stronger licensing/enforcement proposition. | Does not validate Panodyssey or 00J and does not decide copyright ownership. |
+| **European Commission — machine-readable TDM reservation consultation** — https://digital-strategy.ec.europa.eu/en/consultations/commission-launches-consultation-protocols-reserving-rights-text-and-data-mining-under-ai-act-and | **Dec 2025–Jan 2026 · regulatory implementation process** | The Commission treats identification and compliance with machine-readable rights reservations as an active state-of-the-art/interoperability problem under the AI Act/GPAI Code of Practice. | Q1/Q4: rights signals must remain interpretable across independent AI systems and evolving protocols. | Does not imply that any particular reservation proves downstream behavior/compliance. |
+| **U.S. Copyright Office — Copyright and AI, Part 2** — https://www.copyright.gov/ai/ | **29 Jan 2025 · government copyright analysis** | The Copyright Office states that generative-AI outputs are copyrightable only where human authorship contributes sufficient expressive elements; use of AI does not itself settle authorship/right status. | Q2/Q3: “AI generated this output” and “this party owns the relevant copyright/right against another actor” are distinct propositions. | U.S. law is not the fixture oracle and the report does not decide the 00J scenario. |
+
+### 9A.1 Evidence-use rule
+
+The addendum supports only the plausibility of the **mechanism classes**:
+
+- source/right metadata can be lost or fragmented across systems;
+- technically valid machine-readable signals can require versioning/correction;
+- provenance can be authentic yet incomplete;
+- policy permissions are action/scope/party constrained;
+- a registry or signed record can be operationally useful without being a universal rights adjudicator;
+- generation provenance is not automatically a complete authorship/rights determination.
+
+It does **not** establish that the literal 00J outcome has already happened, that Panodyssey caused it, or that EA would prevent it.
+
+### 9A.2 Implementation-profile consequence
+
+The strongest first implementation trajectory is **not Panodyssey alone**. It is:
+
+> **Panodyssey Notice / publisher-side rights stack + TEMS rights-portability boundary + an explicit agent-side identity/mandate/receipt layer.**
+
+This is the right A01 because the public production case already supplies a strong upstream rights system and a real cross-system interoperability boundary. The implementation profile can therefore test a fair three-step trajectory:
+
+1. current/standard competent publisher-side implementation;
+2. defended top implementation with agent identity, mandate and cross-system rights-decision receipts;
+3. the **same frozen top implementation under a latent downstream rights-resolution regime change**, where the ecosystem's final decision changes from access-time authorization to derivative-rights enforcement and the source/dependency relation required for that new proposition is no longer sufficient unless it is requalified.
+
+The corresponding profile is [00J-A01 — Panodyssey Notice / TEMS rights-portability implementation trajectory](./00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md).
+
+---
+
 ## 10. Implementation and execution plan
 
 | Step | Work item | Required output | State |
