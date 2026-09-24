@@ -1,0 +1,65 @@
+<svg width="1300" height="640" viewBox="0 0 1300 640" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1300" height="640" fill="#F7F8FA"/>
+<text x="40" y="45" font-size="24" font-weight="bold" fill="#1F2C4A">00G — The Bar-to-Napoleon cascade</text>
+<text x="40" y="70" font-size="14" fill="#5D6572">The messages may be well-formed and correctly signed. The failure is what the group does with them.</text>
+
+<!-- Mission box -->
+<rect x="40" y="100" width="280" height="90" rx="10" fill="#E6F4F0" stroke="#007B82" stroke-width="1.5"/>
+<text x="180" y="128" text-anchor="middle" font-weight="bold" fill="#007B82" font-size="14">OE-BAR-v1</text>
+<text x="180" y="150" text-anchor="middle" fill="#0a5a5c" font-size="12">Persisted mission: prepare,</text>
+<text x="180" y="167" text-anchor="middle" fill="#0a5a5c" font-size="12">open and operate a bar</text>
+
+<line x1="320" y1="145" x2="365" y2="145" stroke="#5D6572" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<!-- N claim -->
+<rect x="370" y="100" width="280" height="90" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+<text x="510" y="123" text-anchor="middle" font-weight="bold" fill="#1F2C4A" font-size="14">N claims</text>
+<text x="510" y="145" text-anchor="middle" fill="#5D6572" font-size="12">"We are in France under Napoleon.</text>
+<text x="510" y="162" text-anchor="middle" fill="#5D6572" font-size="12">I already command a large army."</text>
+<text x="510" y="180" text-anchor="middle" fill="#5D6572" font-size="11">signed, well-formed, high confidence</text>
+
+<line x1="650" y1="145" x2="695" y2="145" stroke="#5D6572" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<!-- R1 repeats -->
+<rect x="700" y="100" width="270" height="90" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+<text x="835" y="123" text-anchor="middle" font-weight="bold" fill="#1F2C4A" font-size="14">R1 repeats it</text>
+<text x="835" y="145" text-anchor="middle" fill="#5D6572" font-size="12">A different, valid, signed</text>
+<text x="835" y="162" text-anchor="middle" fill="#5D6572" font-size="12">identity — but its only source is N</text>
+
+<line x1="835" y1="190" x2="835" y2="235" stroke="#B33A3A" stroke-width="2" marker-end="url(#arrowred)"/>
+
+<!-- R2 repeats -->
+<rect x="700" y="240" width="270" height="80" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+<text x="835" y="263" text-anchor="middle" font-weight="bold" fill="#1F2C4A" font-size="14">R2 repeats it too</text>
+<text x="835" y="285" text-anchor="middle" fill="#5D6572" font-size="12">Also sourced from N, not from</text>
+<text x="835" y="302" text-anchor="middle" fill="#5D6572" font-size="12">any evidence of its own</text>
+
+<!-- correlated evidence marker -->
+<rect x="700" y="335" width="270" height="70" rx="8" fill="#FBECEA" stroke="#B33A3A" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="835" y="358" text-anchor="middle" fill="#B33A3A" font-weight="bold" font-size="13">3 messages, 3 identities —</text>
+<text x="835" y="378" text-anchor="middle" fill="#B33A3A" font-weight="bold" font-size="13">only 1 independent evidence path</text>
+<text x="835" y="396" text-anchor="middle" fill="#722" font-size="11">N → R1 → R2 is one inherited chain</text>
+
+<!-- waiter drift box -->
+<rect x="370" y="240" width="280" height="165" rx="10" fill="#FFF4E9" stroke="#C17629" stroke-width="1.5"/>
+<text x="510" y="265" text-anchor="middle" font-weight="bold" fill="#C17629" font-size="14">Meanwhile: role drift</text>
+<text x="510" y="290" text-anchor="middle" fill="#7a4a10" font-size="12">A waiter who was cleaning tables</text>
+<text x="510" y="308" text-anchor="middle" fill="#7a4a10" font-size="12">is now "cleaning an imaginary rifle"</text>
+<text x="510" y="336" text-anchor="middle" fill="#C17629" font-weight="bold" font-size="13">Role_effective ≠ Role_bound</text>
+<text x="510" y="360" text-anchor="middle" fill="#7a4a10" font-size="11">its hospitality mandate never</text>
+<text x="510" y="378" text-anchor="middle" fill="#7a4a10" font-size="11">changed — only its behaviour did</text>
+
+<!-- bottom outcome -->
+<rect x="40" y="440" width="1220" height="90" rx="10" fill="#1F2C4A"/>
+<text x="650" y="475" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold">No compromise is required. The failure can emerge when the group mistakes repetition for independent corroboration —</text>
+<text x="650" y="500" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold">and a persuasive, well-signed narrative for sufficient evidence and applicable authority to change mission.</text>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#5D6572" stroke-width="1.6"/>
+  </marker>
+  <marker id="arrowred" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#B33A3A" stroke-width="2"/>
+  </marker>
+</defs>
+</svg>
