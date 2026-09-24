@@ -1,6 +1,6 @@
 # Visual Guide — Structural / Ecosystem Awareness Corpus
 
-> **Navigation aid — not a normative source.** This page visualizes the current public reading routes and ownership boundaries of the corpus as of 23 September 2026. The linked source documents remain authoritative for semantics, status, evidence and scope. A diagram never upgrades a working proposal, frozen source, application package or unexecuted test into validation.
+> **Navigation aid — not a normative source.** This page visualizes the current public reading routes and ownership boundaries of the corpus as of 24 September 2026. The linked source documents remain authoritative for semantics, status, evidence and scope. A diagram never upgrades a working proposal, frozen source, application package or unexecuted test into validation.
 
 ## 1. How the programme accumulates
 
@@ -15,7 +15,7 @@ flowchart TB
     R["00 Requirements<br/>S1–S14 · T1–T4 · H1–H6 · KPIs"]
     A["Architecture<br/>Topology · 03 Functions · 04 General Interfaces"]
     I["Integration annexes<br/>01B / 01C / 01D · 01H / 01I / 01J"]
-    V["Validation & reference scenarios<br/>UC-EA-01…04 · 00E · 00F · 00G v0.3 Draft · 00H v0.5 Draft"]
+    V["Validation & reference scenarios<br/>UC-EA-01…04 · 00E · 00F · 00G v0.3 · 00H v0.5 · 00I v0.4"]
     B["Benchmark & evidence<br/>00D · B0–B3 · EA-H1–EA-H4"]
     T["Test programme<br/>A01 · A03 · fixtures · pre-registration"]
     EP["Ecosystem Positioning<br/>EA + RA + MSCA"]
@@ -110,7 +110,7 @@ flowchart LR
     F["01 Foundation"]
     P["02 Principles"]
     R["00 Requirements<br/>S1–S14 / T1–T4 / H1–H6 / KPI"]
-    C["Case / scenario<br/>UC-EA · 00E · 00F · 00G"]
+    C["Case / scenario<br/>UC-EA · 00E · 00F · 00G · 00H · 00I"]
     Q["Quality gate / requirement route<br/>S# → T# → H# → KPI → disposition"]
     BM["00D benchmark<br/>B0–B3 · EA-H1–EA-H4"]
     TD["A01 test/oracle design"]
@@ -131,6 +131,7 @@ flowchart LR
 | 00E / 00F scenarios and quality plans | **Documented** |
 | 00G v0.3 Draft | **Latest working candidate; paired false/genuine control + DBC gate namespace + KPI instrumentation; v0.2 preserved; 00D/W3 execution pending** |
 | 00H v0.5 Draft | **Latest working candidate; “The Refund Campaign Nobody Approved” — compromised outsourced CRM/helpdesk Dispatcher, valid leaf grants, unauthorized common root, U/G/I controls; EA0 requirements-conforming baseline expected to pass U/G/I; W3 execution pending** |
+| 00I v0.4 Draft | **Latest working candidate; “The Patch That Undid the Fix” — OOTB → top-notch → same frozen top-notch under observable regime/source/dependency drift; AWS profile and inspectable skeletons published; W3 execution pending** |
 | B0–B3 comparison contract | **Defined** |
 | A01 test/oracle construction | **Designed** |
 | A03 Q1a harness design | **Designed** |
@@ -145,7 +146,7 @@ flowchart LR
 
 ## 5. Reference scenarios and implementation profiles
 
-The seven current technology/strong-peer profiles are not generic product reviews. They are scenario-specific implementation-trajectory analyses: four synchronized 00E/00F successors, one OpenAI trajectory for 00G, and two deliberately different 00H peers (Claude Agent SDK and Stripe Radar + merchant authorization).
+The eight current technology/strong-peer profiles are not generic product reviews. They are scenario-specific implementation-trajectory analyses: four synchronized 00E/00F successors, one OpenAI trajectory for 00G, two deliberately different 00H peers, and one AWS Step Functions/RDS trajectory for 00I.
 
 ```mermaid
 flowchart TB
@@ -153,6 +154,7 @@ flowchart TB
     F["00F<br/>Smart-City Mobility Divergence"]
     G["00G<br/>False-Context Convergence"]
     H00["00H<br/>Batch Opportunity Beyond Authority"]
+    I00["00I<br/>Semantic TOCTOU"]
     M["00E-A01<br/>Microsoft Agent 365"]
     L["00E-A02<br/>LangGraph / LangSmith"]
     FW["00F-A01<br/>FIWARE NGSI-LD / Orion-LD"]
@@ -160,6 +162,7 @@ flowchart TB
     OAI["00G-A01<br/>OpenAI agent-stack trajectories"]
     CLAUDE["00H-A01 v0.4<br/>Claude Agent SDK"]
     STRIPE["00H-A02 v0.4<br/>Stripe Radar + merchant authorization"]
+    AWSI["00I-A01 v0.2<br/>AWS Step Functions / RDS"]
     FUT["Future explicit benchmark/profile work"]
 
     E --> M
@@ -169,11 +172,13 @@ flowchart TB
     G --> OAI
     H00 --> CLAUDE
     H00 --> STRIPE
+    I00 --> AWSI
     G -. "additional profiles / matched execution pending" .-> FUT
     H00 -. "Stage-0 / matched execution pending" .-> FUT
+    I00 -. "W3 fixture admission / matched execution pending" .-> FUT
 ```
 
-**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md).
+**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.4_DRAFT.md) · [00I-A01 AWS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md).
 
 ---
 
@@ -191,7 +196,7 @@ flowchart TB
     U3["UC-EA-03<br/>effective human oversight"]
     U4["UC-EA-04<br/>scope-indexed composition"]
     ITP["EA-ITP-01<br/>FG-TIDA-specific interoperability test"]
-    RS["00E / 00F / 00G<br/>reference failure scenarios"]
+    RS["00E / 00F / 00G / 00H / 00I<br/>reference failure scenarios"]
 
     DAOS --> MCASE --> MASTER
     DAOS --> U1
@@ -209,7 +214,7 @@ flowchart TB
 **Interpretation:**
 - UC-EA-01…04 are **general EA Architecture-Validation Profiles**, not four FG-TIDA submissions.
 - EA-ITP-01 is a **separate FG-TIDA-specific interoperability test**.
-- 00E/00F/00G are **reference failure scenarios**, not DAOS annexes and not validation results.
+- 00E/00F/00G/00H/00I are **reference failure scenarios**, not DAOS annexes and not validation results; 00G–00I remain additive/unexecuted where their local status says so.
 
 **Read:** [Validation reading note](./baseline/VALIDATION_PROFILE_READING_NOTE.md) · [FG-TIDA cases](./fg-tida/cases/README.md) · [Portfolio coverage map](./baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md).
 
@@ -255,7 +260,7 @@ flowchart LR
 | Why can the system never treat its represented world as complete? | [01 Foundational Theory](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) | 02 Principles → Topology |
 | What must any candidate solution demonstrate? | [00 Requirements](./baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | 00D benchmark / coverage map |
 | How does EA actually work? | [Topology](./baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) | 03 Functional Architecture → 04 Interfaces |
-| Where can a strong system still fail? | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) / [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) / [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) | product profiles / benchmark |
+| Where can a strong system still fail? | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) / [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) / [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) / [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) / [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.4_DRAFT.md) | product profiles / benchmark |
 | How is the claim falsified fairly? | [00D](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) | A01 → A03 → fixture/pre-registration |
 | Which cases exist and what do they cover? | [Use-Case Portfolio Coverage Map](./baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) | Validation reading note / FG-TIDA cases |
 | How does EA connect to regime change? | [RA README](../regime-awareness/README.md) | 01C → 01D |
@@ -301,7 +306,7 @@ This map is a reader shortcut to the [Living Workplan](./WORKPLAN.md). It shows 
 flowchart TB
     W1["W1 Requirements review<br/>COMPLETED · no canonical change"]
     W2["W2 Benchmark vNext<br/>Extend beyond EA-H1–EA-H4"]
-    W3["W3 Testbed coverage vNext<br/>S7/S8 · 00G · ACC · gradient · drift/repositioning"]
+    W3["W3 Testbed coverage vNext<br/>S7/S8 · 00G/00H/00I · ACC · gradient · drift/repositioning"]
     W4["W4 FG-TIDA Specification vNext<br/>incorporate / inform / exclude explicitly"]
 
     C1["C1 Controlled parity<br/>Drive revision ↔ Git SHA"]
