@@ -4,9 +4,38 @@
 **Originating theme:** [FG-TIDA Theme #13 — Ecosystem-level Agent Defense](https://github.com/FG-TIDA/themes/issues/13)  
 **Primary public use case:** [FG-TIDA Use Case #4 — Federated ecosystem defense across independently governed organizations](https://github.com/FG-TIDA/use-cases/issues/4)  
 **Institutional status:** preparation material only; not submitted as a Phase 2 Charter; not an established Working Group, deliverable, specification, chair/editor assignment or FG-TIDA decision  
-**Versioning rule:** this file remains **v0.1** while it is a preparation draft. Git history carries the successive revisions so previously shared links remain stable.
+**Versioning rule:** this file remains **v0.1** as the first reviewable preparation baseline. Git history carries successive revisions so previously shared links remain stable. Post-v0.1 contributor review is recorded below as preparation input for a later **v0.2 Working Draft**; recording that input here does **not** silently convert or rewrite the v0.1 candidate Charter text.
 
 > **Purpose.** Prepare a compact, reviewable Phase 2 charter candidate for Theme #13 while preserving the boundaries already emerging in public discussion. The draft is intentionally more mature than an Issue comment and less committal than an official Charter PR.
+
+## v0.1 review status — preparation input for v0.2
+
+**Status of this file:** v0.1 remains the initial reviewable Charter-preparation baseline. The candidate Charter text below is **not being silently rewritten in place** as later comments arrive.
+
+**Purpose of this review record:** capture contributor positions, implementation constraints and unresolved architectural decisions that should be reviewed before a successor **v0.2 Working Draft** is opened. This section is therefore a review envelope around v0.1, not a claim that the listed positions have already been adopted by FG-TIDA.
+
+**Current editorial posture:** preserve attribution and source lineage; distinguish supported working positions from still-open decisions; use v0.1 as the stable reference point; and carry reconciled changes into v0.2 only after review.
+
+### Contributor review record feeding v0.2
+
+| Contributor / source | Contribution or review position now carried forward | What this means for a future v0.2 | Status |
+|---|---|---|---|
+| **Ward Duchamps — originating Theme #13 proposer** | Proposed the signal lifecycle structure **birth → distribution → amendment/corroboration → containment → resolution**; argued that two domains prove protocol/interchange rather than ecosystem behaviour; placed **Ecosystem Awareness within #13**; supported keeping the determinacy envelope and signal lifecycle independently defined/testable; and framed defense as the first concrete use rather than the envelope's exclusive scope. [Lifecycle/scoping comment](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5508513343) · [EA placement / independent mechanisms](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5571476256) | Preserve Ward's lifecycle as a first-class operational mechanism; preserve the broader Theme #13 problem space; keep the EA↔Lifecycle interface explicit; do not reduce #13 to a transport-only or EA-only design. | **Source position recorded.** Final institutional packaging and exact wording remain subject to Ward / FG review. |
+| **Nelson Trasatti — UC #4 / progressive testbed** | Turned the lifecycle into a progressive, executable test path: deterministic/frozen fixtures first, then federated exchange, later multi-domain and adversarial stages. UC #4 keeps adjacent mechanisms independently maintained and uses bounded, versioned integration rather than absorbing their internal logic. [Progressive testbed](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5561245975) · [UC #4 submission](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5598536418) | Use **UC #4 as the executable integration spine**, with Stage 0/1 as the initial bounded commitment and stronger ecosystem claims reserved for later multi-participant stages. | **Supported implementation direction.** |
+| **Nelson Trasatti — architecture-boundary review** | Confirmed that the **Incident / Signal Lifecycle remains a complete operational mechanism**, not a transport layer for EA; supported a bounded **targeted-refinement loop** from EA into a specific dependency/blast-radius branch; accepted the four-field #13 envelope as a versioned profile of a more general EHD, consumed through a bounded adapter; and proposed Stage 0/1 checks for explicit `UNKNOWN`, independent upstream lineage and targeted graph refinement. [Boundary review](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5639226397) | v0.2 should make the ownership boundary explicit: Lifecycle owns signal/incident operation; EA owns decision-scoped systemic qualification; adapters preserve source-native semantics; targeted refinement is testable without indiscriminate graph expansion. | **Technically compatible working position.** Nelson explicitly leaves two architecture points for Ward / FG confirmation. |
+| **Nelson Trasatti — UC #6 → UC #4 execution sequence** | Supported UC #6 as the small semantic control, then a **bounded, versioned UC #4 executable profile** with mapping, fixtures, traces and an expected-vs-observed report; keeps investigation/corroboration/escalation distinct from authorization to intervene. [Execution sequence](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5802619701) | v0.2 should separate **semantic-source review** from the **executable UC #4 profile**, and should avoid creating extra intermediate artefacts unless they exercise a distinct interface or falsifier. | **Current execution path.** |
+
+### Open points intentionally not resolved inside v0.1
+
+The following remain review questions for the successor draft rather than changes silently imposed on v0.1:
+
+1. whether Incident / Signal Lifecycle and Ecosystem Awareness should be described formally as **two peer mechanisms within Theme #13**, or packaged differently;
+2. whether the **EHD** is the appropriate reusable general abstraction beyond the concrete #13 profile;
+3. how much of the broader Theme #13 surface — identity/accountability, detection, reputation, incentives and privacy-preserving operation — belongs in the first Charter cycle versus later profiles or adjacent work;
+4. which UC #4 fixtures provide the first decisive EA differential test, rather than only interface compatibility; and
+5. who will own/editorially maintain each deliverable if a Phase 2 structure is agreed.
+
+> **Successor rule:** a future **v0.2 Working Draft** should reconcile the review record above into explicit architecture boundaries, contributor attribution, UC #4 execution scope and unresolved-decision status. Until that successor exists, this v0.1 file remains the stable preparation reference.
 
 ---
 
