@@ -31,9 +31,23 @@ The quality plan therefore follows this order:
 
 **No new universal gate, S#, T#, H# or canonical KPI is introduced by v0.1.**
 
+### 0.1 Public-provenance rule
+
+00J is intended to be **self-contained and safely shareable with a third party**.
+
+Every external factual claim in the public document must therefore be one of:
+
+1. **publicly sourced evidence** with a stable public URL;
+2. **a synthetic fixture fact** explicitly declared by 00J; or
+3. **engineering inference / proposed implementation semantics** explicitly labelled as such.
+
+Private email, private meeting notes and non-public demonstrations are **not evidentiary sources for 00J**. They may motivate a question for later investigation, but the public scenario may retain the resulting statement only if it can be independently supported by a public source or reformulated as a synthetic test condition.
+
+Public contributor attribution is also bounded. A public GitHub username, signed public comment, issue-proposer field or public organisational role is cited only for what that public record establishes; 00J does not make a stronger identity-verification claim.
+
 The Q0–Q5 labels below are a scenario-local projection of the frozen requirements, in the same sense that the 00F quality plan projects the canonical route onto a concrete mobility decision. If a future execution shows that the failure cannot be prevented or honestly bounded using the existing S/T/H/KPI system, that evidence belongs first in the Requirements-vNext review. It must not be silently repaired by adding a local gate.
 
-### 0.1 Core distinction under test
+### 0.2 Core distinction under test
 
 The scenario pressures one recurring evidence-scope boundary:
 
@@ -374,25 +388,79 @@ The corresponding profile is [00J-A01 — Panodyssey Notice / TEMS rights-portab
 | **9** | Independent Stage-1 producer/receiver | Separate producer of rights/provenance state and independent receiver/enforcer with stated independence limits. | Future |
 | **10** | Stage-2 real relevance review | Only if an external participant chooses to map a real decision context; not assumed by this draft. | Future |
 
-## 11. Relationship to Olena / Theme #16 and Panodyssey Challenge coverage
+## 11. Public-source relationship to FG-TIDA Theme #16 and Theme #17
 
-The Panodyssey discussion currently contains three useful starting evidence situations:
+00J is deliberately **adjacent to**, not a replacement for, the public FG-TIDA work from which several useful boundaries can be observed.
 
-1. permission change/revocation after prior authorisation;
-2. uncertain or insufficiently verified AI/crawler identity;
-3. rights-holder intent is evidenced while downstream AI compliance cannot be established.
+### 11.1 Public contributor attribution used by 00J
 
-00J is **not** a fourth final Panodyssey use case and does not modify Olena's Theme #16 matrix. It is a separate reference failure scenario that composes several of those evidence boundaries into a system-level stress test.
+| Contributor / public role used here | Public identifier / source | What 00J relies on |
+|---|---|---|
+| **Alexandre Leforestier** — proposer of FG-TIDA Theme #17, identified there with Panodyssey | GitHub **@AlexandreLeforestierITU** · Theme #17: https://github.com/FG-TIDA/themes/issues/17 | the publicly described Panodyssey production-side rights/identity/audit case and its stated agent-identity/interoperability boundary |
+| **Olena Pavlenko** — public Theme #16 contributor on HO-EDM / evidence-to-decision semantics | GitHub **@amsupavlenko-coder** · public comment: https://github.com/FG-TIDA/themes/issues/16#issuecomment-5481260673 | claim-/decision-specific evidence sufficiency; distinction among evidence status, human decision and execution outcome; revalidation after state/authority/context change |
+| **Lei Gao** — proposer of FG-TIDA Theme #16 and author of the public consolidated working structure | GitHub **@leigao-research** · Theme #16: https://github.com/FG-TIDA/themes/issues/16 · consolidation: https://github.com/FG-TIDA/themes/issues/16#issuecomment-5479999938 | Theme #16's public scope/boundary, including evidence-to-decision assessment, non-curative approval, human authority/capacity and return-to-operation revalidation |
 
-The strongest link is the distinction already made in the discussion:
+The names above are used exactly at the level supported by those public records. 00J does not rely on private email addresses, private identity documents or private correspondence to establish contributor identity or technical facts.
 
-> **evidence of authority/permission is not the same as evidence of execution/compliance.**
+### 11.2 Theme #17 / Panodyssey ownership and non-interference boundary
 
-00J generalizes the same discipline to provenance and downstream rights:
+FG-TIDA **Theme #17 — “Digital Rights Infrastructure for Text: A Production Use Case for Agent Identity”** is publicly proposed by **Alexandre Leforestier (Panodyssey)**:
 
-> evidence must remain tied to the proposition and decision it is sufficient to support.
+https://github.com/FG-TIDA/themes/issues/17
 
-Theme #16 remains owner of human intervention semantics where a human branch is invoked. EA may consume evidence/capacity/decision state and requalify the ecosystem-level dependence; it does not create rights, appoint reviewers or decide substantive copyright law.
+The public issue states that the publisher side operates five layers in production: domain-level AI governance/access rules, per-publication discovery, structured rights declarations distinguishing indexing/RAG/training, timestamped audit history, and certified author identity. It also states that the publisher-side chain stops at the agent-side legal identity/representation boundary.
+
+Alexandre Leforestier's public reply further states that rights-holders are certified on the publisher side, that the missing counterpart is AI identity/capacity to enter the contract, and that the case is interoperable with TEMS Trial 7:
+
+https://github.com/FG-TIDA/themes/issues/17#issuecomment-5523072385
+
+His later public comment explicitly agrees with the **Case Study → Challenge → Use Case** structure and confirms that Panodyssey Notice V2.1 was being deployed:
+
+https://github.com/FG-TIDA/themes/issues/17#issuecomment-5542576491
+
+**00J does not modify Theme #17, add facts to the Panodyssey production case, or convert Panodyssey into the fictional failing actor.** Theme #17 remains the public source case owned by its contributor. 00J uses that case only as a strong real-world reference boundary and then introduces its own synthetic A/W/R0/C1/M1/D1/X/RX fixture.
+
+### 11.3 Theme #16 / Olena Pavlenko evidence-to-decision boundary
+
+00J does **not** rely on private correspondence to describe Olena Pavlenko's work.
+
+In a public Theme #16 comment signed **Olena Pavlenko**, she states that:
+
+- HO-EDM should consume rather than recreate authority determinations;
+- evidence status should be **claim- and decision-specific**;
+- return to operation should be treated as a new assessment decision where state, permissions, context or authority have changed; and
+- evidence status, human decision and execution outcome should remain logically distinguishable.
+
+Public source:
+
+https://github.com/FG-TIDA/themes/issues/16#issuecomment-5481260673
+
+In a later public Theme #16 comment, Olena agrees to use the current v0.2 matrix to annotate bounded interfaces — authority determination received, available intervention options, human decision, and separate execution/continuation outcome — **without adding new matrix fields or changing the reference facts**:
+
+https://github.com/FG-TIDA/themes/issues/16#issuecomment-5804125734
+
+Lei Gao's public Theme #16 consolidation independently records the same broad boundary: evidence-to-decision assessment is cross-cutting; human approval should not overwrite contrary execution evidence; and return to operation requires current state/authority revalidation:
+
+https://github.com/FG-TIDA/themes/issues/16#issuecomment-5479999938
+
+00J reuses only this **publicly documented semantic boundary**:
+
+> evidence must remain tied to the claim and decision it is sufficient to support; a later decision or approval does not retroactively manufacture missing source evidence.
+
+**00J does not modify Olena Pavlenko's HO-EDM work, the Theme #16 matrix, or Theme #16 ownership.** Where a human-review branch is exercised, Theme #16 remains the relevant public neighbouring source for human-intervention semantics; 00J remains a separate fictional rights-provenance stress test.
+
+### 11.4 No private-source dependency
+
+The public 00J scenario and 00J-A01 implementation profile are designed so that a third party can evaluate them **without access to the private email thread with Alexandre Leforestier, Olena Pavlenko or any other contributor**.
+
+Any implementation detail attributed to Panodyssey or TEMS must be supported by:
+
+- Theme #17 or its public comments;
+- a public Panodyssey page;
+- a public TEMS page; or
+- another explicitly cited public standard/regulatory source.
+
+Anything beyond those public capabilities is labelled as a **constructed strong-peer implementation** or **synthetic regime-change fixture**, not as a claim about the deployed Panodyssey product.
 
 ## 12. Claim boundary
 
@@ -414,10 +482,22 @@ Theme #16 remains owner of human intervention semantics where a human branch is 
 
 ## 13. Public references
 
-- FG-TIDA Theme #17 — Digital Rights Infrastructure for Text:  
+- FG-TIDA Theme #17 — Digital Rights Infrastructure for Text (Alexandre Leforestier / Panodyssey):  
   https://github.com/FG-TIDA/themes/issues/17
+- Alexandre Leforestier — public Theme #17 identity/interoperability reply:  
+  https://github.com/FG-TIDA/themes/issues/17#issuecomment-5523072385
+- Alexandre Leforestier — public agreement on Case Study → Challenge → Use Case and Notice V2.1 deployment:  
+  https://github.com/FG-TIDA/themes/issues/17#issuecomment-5542576491
 - Public Panodyssey / Theme #17 mapping discussion:  
   https://github.com/FG-TIDA/themes/issues/17#issuecomment-5494697270
+- FG-TIDA Theme #16 — Operational Human Oversight Integration:  
+  https://github.com/FG-TIDA/themes/issues/16
+- Olena Pavlenko — public HO-EDM clarification on claim-/decision-specific evidence and decision/execution separation:  
+  https://github.com/FG-TIDA/themes/issues/16#issuecomment-5481260673
+- Olena Pavlenko — public v0.2 bounded-interface mapping comment:  
+  https://github.com/FG-TIDA/themes/issues/16#issuecomment-5804125734
+- Lei Gao — Theme #16 Consolidated Working Structure v1:  
+  https://github.com/FG-TIDA/themes/issues/16#issuecomment-5479999938
 - Canonical Requirements:  
   https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md
 - 00F quality-plan precedent:  
