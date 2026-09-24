@@ -130,7 +130,7 @@ flowchart LR
 | Requirements / hypotheses / KPI protocol | **Defined and versioned** |
 | 00E / 00F scenarios and quality plans | **Documented** |
 | 00G v0.3 Draft | **Latest working candidate; paired false/genuine control + DBC gate namespace + KPI instrumentation; v0.2 preserved; 00D/W3 execution pending** |
-| 00H v0.5 Draft | **Latest working candidate; “The Refund Campaign Nobody Approved” — compromised Dispatcher, valid leaf grants, unauthorized common root, U/G/I controls; W3 execution pending** |
+| 00H v0.5 Draft | **Latest working candidate; “The Refund Campaign Nobody Approved” — compromised outsourced CRM/helpdesk Dispatcher, valid leaf grants, unauthorized common root, U/G/I controls; EA0 requirements-conforming baseline expected to pass U/G/I; W3 execution pending** |
 | B0–B3 comparison contract | **Defined** |
 | A01 test/oracle construction | **Designed** |
 | A03 Q1a harness design | **Designed** |
