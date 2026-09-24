@@ -194,7 +194,7 @@ AWS supplies the device, event, compute, workflow, model, data and observability
 
 T3 pointwise non-inferiority is not implied by an authenticated MQTT message, a current shadow, a successful rule, a complete TwinMaker query or a human dashboard approval. The city must define its stakeholders, utility, null action, covered admissible states and authorised alternatives before claiming that a non-neutral response is no worse than the null response.
 
-Outside the covered state set, or where the evidence cannot determine a response, the output remains Type 0: explicit `UNKNOWN` plus an authorised bounded posture. AWS services can carry and execute the declared workflow; neither the digital twin nor EA becomes an oracle.
+Outside the covered state set, or where the evidence cannot determine a response, the runtime output remains explicit `UNKNOWN` / unresolved (`NOT_ESTABLISHED` in the Type catalogue) plus an authorised bounded posture. A `TYPE_0_CONDITION` marker may be added only when structural non-determination or the applicable declared-frame limit has an explicit basis. AWS services can carry and execute the declared workflow; neither the digital twin nor EA becomes an oracle.
 
 ## 12. Balanced conclusion
 
