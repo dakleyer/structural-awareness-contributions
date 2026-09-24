@@ -510,6 +510,10 @@ This scenario is intentionally synthetic and exaggerated. Its reader-facing hist
 
 ## 16. Product / implementation-profile boundary
 
+Current first implementation-path draft:
+
+- [00G-A01 — OpenAI agent-stack implementation trajectories](./00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) — source-reviewed state-of-the-art draft using three trajectories: **OAI-G0 standard competent**, **OAI-G1 defended top-notch**, and **OAI-G2 the same top implementation under latent regime change / context-transformation stress**. It is unexecuted and makes no claim that OpenAI fails 00G.
+
 No technology-specific implementation annex is yet declared canonical for 00G.
 
 If one is added later—for example against an agent framework, control plane, A2A/MCP-style signalling stack or multi-agent runtime—it MUST:
