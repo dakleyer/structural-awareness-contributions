@@ -91,7 +91,7 @@ After Track B defines what “strong enough”, “equal burden” and “simple
 
 - verify PA-1…PA-5/OR against primary literature;
 - verify B2 capabilities against dated primary vendor/standard sources;
-- integrate **C3 product-profile refresh into this same audit** for Microsoft Agent 365, LangGraph/LangSmith, FIWARE and AWS IoT/TwinMaker;
+- integrate **C3 product-profile refresh into this same audit** for Microsoft Agent 365, LangGraph/LangSmith, FIWARE, AWS IoT/TwinMaker and the new OpenAI 00G agent-stack trajectory profile;
 - publish a dated **capability freeze** for every material B2/product capability used in a run.
 
 A later vendor/framework change does **not** invalidate a frozen run. It opens a new benchmark envelope/version.
@@ -121,6 +121,7 @@ Minimum freeze inputs:
 - S8 — bounded subdelegation and non-amplification;
 - the requirements-first `WB-EA-01 — Delegated Decision Integrity, Revocation and Accountable Intervention`;
 - 00G signalling / false-context convergence;
+  - current implementation-path draft: [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md), with OAI-G0 standard, OAI-G1 defended top-notch and OAI-G2 same-top-under-latent-regime-change trajectories; unexecuted;
 - ACC/admissibility and lineage validation;
 - gradient ranking versus permission/authority boundary;
 - effective-role drift and repositioning;
