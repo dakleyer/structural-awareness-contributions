@@ -12,7 +12,7 @@
 | **Status** | Cumulative current-state delta; incomplete by design; no change to the 19 September snapshot |
 | **Current-state baseline** | 05A v0.1 — source snapshot 19 September 2026 |
 | **Ideal source** | 05 v0.4 + 05 Ideal vNext Delta |
-| **Generic source** | 04 General Interfaces + 04 vNext Delta |
+| **Generic source** | [04 General Interfaces](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) + [04 vNext Delta](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 | **Review rule** | An ideal 05 relation enters 05A only to the extent supported by public FG-TIDA evidence; no internal EA/DBC/ACC artefact can promote a relation by itself |
 
 ---
