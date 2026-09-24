@@ -101,6 +101,25 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 
 **EA baseline:** the standard requirements-conforming **EA0** route is expected to pass U/G/I from the start using existing S1/S7/S8/S9/S12/S13/S14 obligations—especially S8 non-amplification. No additional non-Requirements gate is currently added. If executable evidence later shows those requirements are insufficient, that becomes a Requirements-vNext finding rather than a hidden scenario patch.
 
+
+#### 00I in 30 seconds — The Patch That Undid the Fix
+
+**What happens:** at 14:02 a rollback is correctly approved for a production database problem and queued for 14:42. Before it runs, an engineer applies a better fix, the incident is resolved and Finance starts a no-change period. The old job can still have a valid identity, token, signature and API call. If the workflow treats those technical facts as proof that the original decision is still current, it can undo the repair and reboot a healthy database.
+
+> **Everything was valid. The decision was stale.**
+
+**Why this is not science fiction:** TOCTOU is a recognized weakness class; AWS RDS documents deferred/pending changes and reboot-sensitive configuration; public GitHub and GitLab postmortems show that database automation/configuration can behave as configured while a changed operational state produces long degradation or recovery complexity. The exact Northwind timeline is synthetic so it can be replayed; the mechanism and consequences are documented public neighbors. See [00I §16](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.4_DRAFT.md#16-external-corroboration-and-reality-check--reviewed-24-september-2026).
+
+**The three implementation routes:**
+
+1. **Ordinary / OOTB-competent:** AWS Step Functions can legitimately implement `qualify → Wait → Task → RDS` with good IAM, retries, idempotency and logs. Without an explicit current-decision-basis guard, the queued action can still be stale.
+2. **Defended top-notch:** before touching RDS, re-read every currently known material condition, verify freeze/incident/configuration state, serialize material writers through a versioned change broker and bind actuation to a live lease/version. This route **must pass the base 00I case** before it is allowed into the drift comparison.
+3. **Same frozen top-notch under drift:** keep that excellent implementation unchanged, then change the legitimate policy/source/dependency/freshness model that defines what “sufficiently current” means. The test is whether the architecture notices that its own previously sufficient checklist has become stale and performs targeted requalification before acting.
+
+**What EA is actually being tested for:** not prediction, omniscience or “one more static rule.” V11 asks whether an observable change in the **decision-basis model itself** reopens the affected observation boundary under the existing S3/S10/S11/S14 → T1/T2/T4 → H5/H6 route. If the strong conventional peer already discovers and requalifies that drift at equal or lower burden, **the peer passes and the claimed EA differential disappears for that branch**.
+
+**Implementation evidence:** [00I-A01 v0.2 — AWS Step Functions / RDS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) contains the audited technology mapping and fairness rules; [the 00I-AWS fixture package](./baseline/fixtures/00I-AWS/README.md) publishes inspectable I0/I1/I2 state-machine skeletons, the D1 source-set-drift fixture and trace contract; the [four-lens adversarial audit](./governance/00I_FOUR_LENS_ADVERSARIAL_AUDIT_2026-09-24.md) records the Requirements, engineering, experimental-design and CEO-readability review. These are design artefacts, not execution results.
+
 ### Benchmark status dashboard
 
 The sentence above remains the compact status statement. The dashboard below exposes the same programme state by artefact so that design, publication and measured execution are not conflated.
