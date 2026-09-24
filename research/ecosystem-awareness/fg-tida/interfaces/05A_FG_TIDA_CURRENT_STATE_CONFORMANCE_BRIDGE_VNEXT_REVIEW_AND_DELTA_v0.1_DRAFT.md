@@ -354,6 +354,8 @@ A current-state profile may test candidate fields or profiles without pretending
 
 Where a comparative claim is made, a **strong native/control configuration** should be allowed to reproduce the same behaviour. If it does so at equal or lower burden, that result counts against an EA differential claim rather than being explained away.
 
+**Evidence ceiling:** a deterministic fixture or two-domain exchange can establish bounded semantics, adapter behaviour and interoperability. It does **not** by itself establish ecosystem behaviour. A stronger ecosystem-level claim requires a later multi-participant / multi-observer route with independently governed participants and material partial, conflicting or source-dependent observations. Non-adversarial agentic failure should be established before adding deliberate attack classes so the test can distinguish endogenous composition failure from hostile behaviour.
+
 This challenge floor does not promote DBC, EHD or any candidate field into adopted FG-TIDA semantics. It defines the minimum difficulty expected from a test that claims to exercise a material Ecosystem Awareness differential.
 
 ---
