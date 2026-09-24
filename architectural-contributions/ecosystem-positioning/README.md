@@ -26,32 +26,32 @@ These scenarios look strange. That is precisely the point.
 
 They describe situations in which individual technologies, agents, APIs or controls may continue to operate correctly while the **combined system produces an outcome that nobody intended, nobody explicitly authorised, or nobody is able to recognise in time**.
 
-### Scenario 1 — The 100 Million Token Enterprise
+### Scenario 1 — [The 100 Million Token Enterprise](../../research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)
 
 A large multinational automates work across the enterprise with AI and consumes **100 million tokens**, while also creating a massive human supervision burden.  
 At the end, it has gained no meaningful competitive advantage: no material work completed, no useful new information produced and no differentiated capability.
 
-### Scenario 2 — The Fragmented Smart City
+### Scenario 2 — [The Fragmented Smart City](../../research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md)
 
 A highly automated AI-driven smart city experiences small, gradual changes in operating conditions rather than one major failure.  
 Some vehicles continue normally, others execute completely different critical or emergency routes, while others remain blocked waiting for human intervention that never arrives.
 
-### Scenario 3 — Napoleon Goes to Russia
+### Scenario 3 — [Napoleon Goes to Russia](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md)
 
 Robots are cleaning a bar and preparing the tables when one incorrectly configured robot starts behaving as if it were Napoleon.  
 It gradually convinces the others; some time later the robots leave in formation, carrying forks as rifles, believing they are Napoleon's army marching from Spain toward Russia.
 
-### Scenario 4 — The Quiet Four Thousand
+### Scenario 4 — [The Quiet Four Thousand](../../research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md)
 
 A payments and claims company outsources its helpdesk; access to the helpdesk orchestrator becomes enough to transform bounded case authority into **4,000 refunds**.  
 In the adversarial hardening, the malicious operator never obtains access to the payment platform itself, yet the ecosystem can still create 4,000 fraudulent reimbursements without recognising the aggregate violation. The primary Quiet Four Thousand case remains the non-adversarial one: a good-faith one-case agent discovers a genuine 4,000-customer finding and the system must avoid both unauthorized cross-case execution and silent loss of the material remainder.
 
-### Scenario 5 — The Patch That Undid the Fix
+### Scenario 5 — [The Patch That Undid the Fix](../../research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md)
 
 A remediation action is correctly qualified and authorized when it is created, but a later repair changes the decision basis before that delayed action executes.  
 Each technical action may remain valid and the database may serialize them correctly, yet the stale action can execute after the newer repair and undo the fix the system was trying to preserve.
 
-### Scenario 6 — The Author Who Pays for His Own Work
+### Scenario 6 — [The Author Who Pays for His Own Work](../../research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md)
 
 An author correctly registers and publishes a work through a state-of-the-art copyright and rights-management ecosystem.  
 The work succeeds, is subsequently processed and summarized through third-party AI systems, and the rights chain eventually makes the author pay to use content derived from his own original work.
@@ -64,18 +64,18 @@ The corpus was built against **current, concrete technology architectures**, not
 
 The current implementation profiles include:
 
-- **Microsoft Agent 365** and **LangGraph / LangSmith** for the 100 Million Tokens scenario;
-- **FIWARE NGSI-LD / Orion-LD** and **AWS IoT Core / IoT TwinMaker** for Smart-City Mobility Chaos;
-- the **OpenAI Agents SDK / Agents API / Responses Multi-agent stack**, including durable sessions, handoffs, guardrails, approvals, tracing, sandboxing, recovery and context compaction, for the Bar-to-Napoleon scenario;
-- **Claude Agent SDK** and **Stripe Radar / Refund API**, including strong external grant/case and pre-refund control layers, for The Quiet Four Thousand;
-- **AWS Step Functions, Amazon RDS, Lambda / AWS SDK integration, Systems Manager Change Calendar, DynamoDB, EventBridge, CloudWatch and IAM** for The Patch That Undid the Fix;
-- **Panodyssey AI Transparency Notice, ODRL / JSON-LD and TEMS rights portability** for The Author Who Pays for His Own Work.
+- [**Microsoft Agent 365**](../../research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [**LangGraph / LangSmith**](../../research/ecosystem-awareness/baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for the 100 Million Tokens scenario;
+- [**FIWARE NGSI-LD / Orion-LD**](../../research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [**AWS IoT Core / IoT TwinMaker**](../../research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for Smart-City Mobility Chaos;
+- the [**OpenAI Agents SDK / Agents API / Responses Multi-agent stack**](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories), including durable sessions, handoffs, guardrails, approvals, tracing, sandboxing, recovery and context compaction, for the Bar-to-Napoleon scenario;
+- [**Claude Agent SDK**](../../research/ecosystem-awareness/baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) and [**Stripe Radar / Refund API**](../../research/ecosystem-awareness/baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md), including strong external grant/case and pre-refund control layers, for The Quiet Four Thousand;
+- [**AWS Step Functions, Amazon RDS, Lambda / AWS SDK integration, Systems Manager Change Calendar, DynamoDB, EventBridge, CloudWatch and IAM**](../../research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for The Patch That Undid the Fix;
+- [**Panodyssey AI Transparency Notice, ODRL / JSON-LD and TEMS rights portability**](../../research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) for The Author Who Pays for His Own Work.
 
 The question is not whether these technologies work.
 
 The question is whether a system that works **locally, correctly and according to specification** can remain valid when it becomes part of a changing ecosystem.
 
-# The validation journey
+# [The validation journey](../../research/ecosystem-awareness/05-validation/TESTBED_METHOD.md)
 
 Each scenario follows the same quality-oriented progression.
 
@@ -107,77 +107,23 @@ The relationship between the technology and its ecosystem has changed.
 
 ---
 
-# From the corpus to Ecosystem Awareness
+# Awareness → Positioning → Agent Defense
 
-This is the point at which **Ecosystem Awareness** becomes relevant.
+**[Ecosystem Awareness](../../research/ecosystem-awareness/README.md)** qualifies what can responsibly be relied on, what remains unresolved and what must be requalified as the ecosystem changes.
 
-The component is intended to maintain sufficient awareness of the conditions on which system behaviour depends: ecosystem dependencies, operating context, available capability, authority boundaries, inherited uncertainty and residual unknowns.
+**Ecosystem Positioning** uses that qualified state to determine whether the participant can continue from its current position or should realign, re-contract, constrain, hand off or escalate.
 
-For the FG-TIDA work, these observations are translated into explicit **challenges, requirements, test conditions and KPIs**, allowing the architectural proposition to be evaluated rather than merely described.
-
-The objective is not unlimited awareness.
-
-It is **minimum sufficient Ecosystem Awareness**: enough information to determine whether continued operation remains justified, whether further qualification is required, or whether the system should change how it participates in the ecosystem.
-
-# Ecosystem Positioning
-
-**Ecosystem Positioning** is the operational consequence of that awareness.
-
-As context drifts, the system does not simply continue executing from an increasingly obsolete position. It can requalify its situation and, where required, **reposition, re-contract, constrain, hand off, escalate or change its operational posture** before continuing.
-
-In that sense:
-
-**Ecosystem Awareness asks:**  
-*Are the conditions that justified this action still sufficiently true?*
-
-**Ecosystem Positioning asks:**  
-*Given what is now known, from what position should the system continue operating?*
-
-This also provides the basis for **Ecosystem Agent Defense**.
-
-Ecosystem Agent Defense extends this mechanism into **self-healing behaviour in choreographed, non-orchestrated agent ecosystems**.
-
-There does not need to be a central orchestrator deciding what every component should do. Individual agents continue performing their existing functions independently, while exchanging **ecosystem signals**, maintaining their own Ecosystem Awareness and adjusting their Ecosystem Positioning when relevant conditions change.
-
-The system therefore does not need to invent a new mission, centrally redesign itself or allow agents to decide freely what they should become.
-
-Instead, its components can independently **constrain, requalify, hand off, recover or adapt their existing behaviour within defined authority**, allowing the overall ecosystem to re-stabilize through signaling and local adaptation.
-
-In this sense, self-healing is not self-direction.
-
-It is the capacity of a distributed system to **recover justified operation without requiring a central orchestrator to reconstruct the ecosystem**.
+**Ecosystem Agent Defense** is the defensive consequence in a choreographed, non-orchestrated ecosystem: independently governed agents exchange qualified signals and can recover justified operation within their existing authority, without requiring a central orchestrator to invent a new mission.
 
 ---
 
-# Current State of the Work
+# Requirements — replaying the failure scenarios as tests
 
-This is no longer only an architectural idea.
+The [**00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) document is the **central normative test document of the corpus**. It defines the route **S1–S14 → T1–T4 → H1–H6 → KPI / falsification**.
 
-The work now includes a structured **requirements corpus**, defined challenges, explicit requirements, KPIs, test conditions and quality plans.
+The scenarios above are then turned back into **requirements-driven journeys**. For each applicable requirement route, the same frozen facts and failure pressure are replayed through a requirements-conforming path: the test is not merely whether the system can describe the risk, but whether it **prevents, requalifies or contains the critical failure route while preserving legitimate operation**.
 
-The scenarios are supported by executable or execution-ready validation structures including:
-
-- standard, defended and drifted routes;
-- Q0–Q5 quality gates where applicable;
-- frozen fixtures and expected outcomes;
-- positive, negative and adversarial comparators;
-- deterministic traces and evidence requirements;
-- per-hop and aggregate evaluation;
-- independent producer/reviewer controls where required;
-- Ecosystem Awareness interfaces and handoff structures;
-- FG-TIDA current-state and target-state interface mappings.
-
-The purpose of these artifacts is straightforward: the same failure routes that remain possible with the technologies above can be replayed under controlled conditions and compared with an implementation containing the required Ecosystem Awareness and Ecosystem Positioning mechanisms.
-
-A successful implementation must therefore do more than describe awareness conceptually.
-
-It must demonstrate through the corpus that the critical route is detected, requalified or constrained **before the previously observed systemic failure is reproduced**, while legitimate operation remains possible.
-
-The corpus therefore moves through a simple progression:
-
-**locally correct technology → carefully engineered technology → changing ecosystem → loss of systemic validity → awareness → requalification → positioning → ecosystem signaling → distributed self-healing → continued justified operation.**
-
-That progression is the purpose of the corpus.
+The [**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) shows which scenarios, use cases and planned fixtures exercise each requirement. Scenario quality gates then translate those requirements into concrete PASS / requalification / bounded-stop / failure conditions. Where execution has not yet occurred, the corpus describes the required result rather than claiming that it has already been demonstrated.
 
 ---
 
@@ -195,15 +141,9 @@ Together they provide the conceptual basis for the rest of the corpus. They are 
 
 ## 2. The central document — Canonical Requirements
 
-[**00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is the **central normative test document of the current corpus**.
+The [**00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) document is the **central normative test document of the current corpus**. Its role and the requirements-to-scenario validation route are explained above; this section does not repeat them.
 
-It defines the controlling route:
-
-**S1–S14 Challenges → T1–T4 sufficiently-good conditions → H1–H6 falsifiable hypotheses → KPI / falsification protocol.**
-
-Scenarios, use cases, fixtures, technology profiles, interfaces and benchmarks select and test applicable routes from this document. They do **not** create a parallel hidden requirements system.
-
-[Requirements-vNext review](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) checks whether later Ecosystem Positioning mechanisms require a new requirements version. The current bounded review finds that the later mechanisms can still be mapped to the existing requirements, with clarification candidates rather than an automatic S15/T5/H7 expansion.
+[Requirements-vNext review](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) records whether later Ecosystem Positioning mechanisms require an explicit versioned change to that requirements basis.
 
 ## 3. Requirements coverage — where each scenario and use case tests the requirements
 
