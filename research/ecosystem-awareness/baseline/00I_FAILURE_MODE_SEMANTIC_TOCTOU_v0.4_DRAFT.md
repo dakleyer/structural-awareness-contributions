@@ -37,6 +37,8 @@
 
 **Fairness rule.** The defended conventional peer must first pass the base case. Under drift, if it already discovers and requalifies the changed basis at equal or lower burden, it passes and the claimed EA differential disappears for that branch.
 
+**Suggested executive reading path:** this Executive section → §1 failure story → §12 three trajectories → §13A winner interpretation → §16.2 plausibility conclusion.
+
 **One-line progression:**
 
 `valid action → current-state guard → guard-model drift → requalify the model before acting`.
@@ -317,6 +319,8 @@ So the result is **6/7 gates explicitly covered at requirement level and 7/7 dir
 ---
 
 ## 10. Failure routes and correct route
+
+**Reading rule:** N0/N1/Q below are **gate-behavior traces through one event**, not competing product architectures. The implementation trajectories are R0/R1/R2 in §12. Keeping these namespaces separate lets the same implementation be classified by what actually happened at the gates.
 
 ### 10.1 Route N0 — ordinary implementation; semantic capability absent
 
@@ -656,9 +660,9 @@ Read with:
 
 ---
 
-## 19. External-review pass incorporated in v0.4
+## 19. Independent-lens review pass incorporated in v0.4
 
-The v0.4 pass reviewed the scenario through four lenses:
+The v0.4 pass subjected the scenario to four separate adversarial review lenses:
 
 - **architecture/Requirements:** confirmed that the drift route remains inside S3/S10/S11/S14, T1/T2/T4 and H5/H6 rather than creating S15/T5/H7;
 - **engineering:** corrected the implementation boundary so a DynamoDB conditional write is not misrepresented as atomic RDS protection; the defended AWS profile now uses a shared single-writer broker/lease assumption;
