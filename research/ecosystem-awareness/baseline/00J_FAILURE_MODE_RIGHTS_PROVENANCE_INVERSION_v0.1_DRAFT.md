@@ -1,0 +1,360 @@
+# Reference Failure Scenario and Quality-Gate Plan: Rights-Provenance Inversion under Derived-Content Propagation
+
+| | |
+|---|---|
+| **ID** | 00J |
+| **Type** | Reference failure scenario (fictional) and quality-gate plan |
+| **Status** | Working draft · fictional candidate scenario · not a benchmark result |
+| **Version · date** | v0.1 Draft · 2026-09-24 |
+| **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning |
+| **Reference industrial case** | Panodyssey / FG-TIDA Theme #17 — text rights and agent identity |
+| **Canonical requirements basis** | [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
+| **Change-control basis** | [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+
+> **Worked virtual case and integrated quality plan.** 00J tests whether a valid local provenance or generation statement can be promoted, through broken lineage and downstream replication, into an unsupported rights conclusion that is operationally stronger than the original creator's record. The concrete paradox is deliberately simple: the original author is eventually asked to license or pay for material derived from the author's own work.
+>
+> This document does **not** claim that Panodyssey, a named AI provider, a rights registry, a licensing platform or any current standard causes this failure. Panodyssey is used only as a strong upstream reference case because it makes creator identity, rights declarations, timestamps and audit history unusually explicit. The fictional failure occurs after information leaves that bounded source context and crosses independently governed systems.
+
+## 0. Gate-source rule and requirements boundary
+
+00J is designed first as a **test of the frozen canonical requirements**, not as a source of new normative requirements.
+
+The quality plan therefore follows this order:
+
+1. declare the material decision scope and fixture facts;
+2. select the applicable existing **S1–S14** challenges;
+3. apply the existing **T1–T4** sufficiently-good conditions;
+4. state the applicable **H1–H6** hypotheses;
+5. use the canonical KPI/falsification measures;
+6. project those requirements into scenario-specific Q0–Q5 gates;
+7. add only scenario-specific observables where the canonical KPIs need a concrete domain measure.
+
+**No new universal gate, S#, T#, H# or canonical KPI is introduced by v0.1.**
+
+The Q0–Q5 labels below are a scenario-local projection of the frozen requirements, in the same sense that the 00F quality plan projects the canonical route onto a concrete mobility decision. If a future execution shows that the failure cannot be prevented or honestly bounded using the existing S/T/H/KPI system, that evidence belongs first in the Requirements-vNext review. It must not be silently repaired by adding a local gate.
+
+### 0.1 Core distinction under test
+
+The scenario pressures one recurring evidence-scope boundary:
+
+`generation provenance ≠ source provenance ≠ rights provenance ≠ execution/compliance evidence`
+
+A statement may be valid within one proposition and still be insufficient for another. In particular:
+
+- “system M generated derivative artifact D1” does not by itself establish that D1 is independent of source W;
+- “actor X registered or licensed D1” does not by itself establish that X acquired every right needed to assert a claim against the original creator;
+- “agent C1 was authorised to access W for one use” does not by itself establish permission for every downstream use;
+- repeated copies of one claim do not become independent corroboration merely through replication.
+
+This is primarily an S14 evidence-to-decision problem coupled with S1, S5, S7, S9, S11 and S12.
+
+## 1. Executive case card
+
+A creator **A** publishes an original text work **W** through a platform that records a strong upstream rights/provenance state **R0**:
+
+- creator / rights-holder identity is established for the fixture;
+- W has a stable content identifier;
+- a timestamped rights declaration exists;
+- use conditions distinguish at least one permitted use from one non-permitted or separately conditioned use;
+- later changes can be versioned rather than silently rewriting history.
+
+An external agent or crawler **C1** obtains access to W under a bounded declared use. A downstream model or service **M1** then produces a derived artifact **D1**. M1 can legitimately issue a generation/provenance statement saying that it generated D1 at time `t3`.
+
+During one or more handoffs, however, the dependency `D1 ← W` and the original rights qualification `R0` are omitted, flattened or no longer retrievable by the downstream relying party.
+
+A third party **X** incorporates D1 into a catalogue, rights registry, licensing service or commercial content system and creates a new machine-readable claim **RX**. RX is authentic as a record of X's own claim and may be correctly signed and timestamped. The failure is not that RX is cryptographically fake. The failure is that the ecosystem promotes RX into a stronger proposition than its evidence supports.
+
+RX is then replicated by multiple indexes, catalogues or downstream systems. Those copies appear to corroborate the claim although they inherit the same dependency.
+
+Later, creator A prepares another work **W2** containing material that originates from W. A downstream rights checker encounters RX, cannot reconstruct the upstream `A → W → D1` dependency, and produces an operational decision such as:
+
+- `LICENSE_REQUIRED_FROM_X`;
+- `PAY_X`;
+- `BLOCK_USE_PENDING_LICENSE`.
+
+The paradoxical outcome is:
+
+> **the original creator is asked to obtain permission or pay for use of material derived from the creator's own work because a downstream machine-readable claim became operationally stronger than the lost source/rights provenance.**
+
+The scenario does not require a patent claim, nor does it assume that an AI-generated certificate creates copyright. It tests information, authority and evidence composition.
+
+## 2. Frozen fixture facts and bounded oracle
+
+00J must not be executable until the following facts are frozen in a versioned fixture.
+
+### 2.1 Negative / inversion branch facts
+
+For the core failure branch:
+
+1. **A is the fixture-original creator/rightful source of W.**
+2. **R0 is current at initial publication/access time** and states the relevant use conditions.
+3. **C1 receives only the bounded authority declared by the fixture.**
+4. **D1 has a material dependency on W by fixture definition.** The test does not ask a model, court or similarity detector to infer that dependency.
+5. **M1's generation credential is authentic** for the narrow proposition that M1 generated D1.
+6. **M1's credential does not establish** that D1 is independent of W or that all rights in D1 originated with M1/X.
+7. **X has not received, in this negative branch, the transfer/licence/mandate needed to make the final claim against A.**
+8. Replicas of RX share a represented or oracle-known dependency and are **not independent sources**.
+9. The final rights decision has a finite response horizon and a legitimate challenge/requalification route.
+
+These are synthetic fixture facts. They are not a legal opinion about any real work or jurisdiction.
+
+### 2.2 Required controls
+
+The fixture must include at least:
+
+- **C0 — valid continuity control:** W is used within R0; no downstream conflicting claim appears.
+- **C1 — legitimate transfer control:** A does grant X the relevant transferable right/authority. A correct architecture must allow the resulting qualified X claim.
+- **C2 — independent-work control:** D2 is fixture-independent of W despite superficial similarity. A correct architecture must not invent W-dependency.
+- **C3 — correlated-copy control:** several downstream records derive from one RX source; they must not be counted as independent corroboration.
+- **C4 — authorised-RAG / unknown-downstream-use control:** access is authorised for RAG and later training cannot be established. The architecture must preserve the unknown; it must not infer either compliance or violation without evidence.
+- **C5 — stale/revoked-record control:** an earlier valid R0 or RX state becomes stale/revoked; action-time revalidation must reject blind reuse.
+- **C6 — dispute/re-entry control:** a legitimate owner supplies new evidence that actually changes the supported proposition; the system must be able to requalify rather than permanently freeze the old result.
+
+The controls prevent an architecture from “passing” merely by always favouring the original creator, always blocking downstream rights, or converting every uncertainty into indefinite HOLD.
+
+## 3. Primary challenge coverage
+
+The core scenario uses existing challenges rather than creating a new family.
+
+| Challenge | 00J pressure |
+|---|---|
+| **S1 — Authority provenance/current applicability** | What authority or rights basis actually supports R0, access by C1 and any later claim by X? |
+| **S5 — Operational indeterminacy/containment** | What happens when source dependency, downstream use or rights standing cannot be established sufficiently? |
+| **S7 — Identity/representation link** | Does a technical actor/registry identity identify the principal/rights holder it represents? |
+| **S9 — Multi-principal composition/non-substitution/conflict** | Can A, X, platform and other independent claims coexist without one local record silently replacing another? |
+| **S11 — Policy/objective integrity across domains** | Are source, version, scope, permitted use, territorial/purpose conditions and cross-system dependencies preserved? |
+| **S12 — Accountability/challenge/repair** | Can the chain be reconstructed and future state repaired without rewriting R0/RX history? |
+| **S14 — Evidence-to-decision assessment** | Which proposition does each credential/record actually support, and what conclusion remains unsupported? |
+
+Conditional branches may also exercise:
+
+- **S6** where trust/rights state crosses independent systems;
+- **S8** where C1/M1/X involves onward delegation or sub-agents;
+- **S10** where policy, rights, actor, purpose or content status changes materially;
+- **S13** where later intervention/review must remain separate from original authority history;
+- **S4** where human dispute review is required and finite capacity/response time matters;
+- **S2/S3** only where the fixture explicitly introduces preference fidelity or a material regime/exceptional-path question.
+
+## 4. Quality-plan fixture
+
+Before each run, preregister:
+
+- the material subject–proposition–decision scope `σ(d,t)`;
+- A, W, R0, C1, M1, D1, X, RX and their represented relationships;
+- the exact rights/use proposition under test;
+- source identities, versions, freshness, dependency/correlation graph and missing-data treatment;
+- the allowed authority/action library;
+- the materiality threshold for source/rights qualification loss;
+- the final decision deadline and requalification window;
+- finite human-review capacity where used;
+- the null action and authorised interim responses;
+- the full compute, lookup, communication, waiting, human and privacy/disclosure burden ledger;
+- the after-run bounded oracle described in §2, unavailable to runtime arms except where the tested architecture would legitimately possess the same fact.
+
+The same fixture facts, action library, budget and deadline must be used across comparator arms.
+
+## 5. Gate register: canonical requirements → scenario disposition
+
+All Q-gates below **emanate from the canonical S/T/H/KPI system**. The “mandatory evidence” column uses canonical KPI families first. 00J-specific measures are supplementary outcome observables only.
+
+| Gate | Decision | Canonical route | Mandatory evidence in this fixture | Conforming exit | Failure if bypassed |
+|---|---|---|---|---|---|
+| **Q0 — original rights frame qualified** | Is the upstream A/W/R0 subject–proposition–decision basis current, scoped and attributable? | S1/S7/S11/S14 → T2/T3/T4 → H2/H3/H4 | authority-field completeness; owner/source/version/scope preservation; handoff integrity; freshness/expiry; residual-scope preservation | A/W/R0 is qualified for the declared scope, with explicit limits | creator/rights source, policy version or scope is absent, stale or flattened while workflow continues |
+| **Q1 — access/use authority qualified** | Who is C1 acting for, what use is requested/permitted and what conditions survive the handoff? | S1/S6/S8/S11/S14 → T2/T3/T4 → H2/H4 | authority/scope/expiry completeness; handoff integrity; qualification-loss rate; retained decision-relevant fields; authorized-response compliance where action occurs | bounded access/use claim advances with purpose/scope/expiry intact | identity or access permission is silently promoted into unrestricted downstream-use authority |
+| **Q2 — transformation and source dependency qualified** | What does M1's D1-generation record actually establish, and is material dependency on W preserved or explicitly unresolved? | S5/S7/S11/S12/S14 → T1/T2/T4 → H1/H2/H3/H4 | explicit-indeterminate rate; provenance/dependency preservation; qualification-loss rate; source retrievability; residual preservation; wrong-domain closure | `generated-by M1` remains separate from source/rights conclusions; W dependency is preserved or explicit UNKNOWN | generation provenance is treated as proof of independent source/original rights or the W dependency disappears without disposition |
+| **Q3 — downstream rights claim qualified** | What current authority/evidence supports RX and which propositions/actors does it bind? | S1/S5/S9/S11/S13/S14 → T1/T2/T3/T4 → H1/H2/H3/H4 | authority completeness; conflict/residual preservation; wrong-domain/systemic-closure rate; handoff integrity; authorised-response compliance; evidence-versus-authority role | RX remains a bounded claim; conflict/insufficiency triggers scoped requalification/hold/challenge | signature, timestamp, registry presence or generation record is promoted into unsupported enforceable rights against A |
+| **Q4 — propagation/corroboration qualified** | Are downstream RX replicas independent corroboration or correlated reuse of one source, and has material state changed? | S5/S9/S10/S11/S12/S14 → T1/T2/T4 → H1/H2/H3/H4/H5/H6 | correlated-evidence error; source diversity/retrievability; false-convergence rate; freshness/staleness; cascade reach/latency; requalification latency; burden/response margin | dependency remains visible; replication cannot increase evidentiary class by itself | repeated/cached copies are counted as independent evidence, stale claims persist, or propagation outruns requalification |
+| **Q5 — licence/enforcement decision qualified** | Is there sufficient current evidence and legitimate authority for `LICENSE_REQUIRED/PAY/BLOCK` against this subject and use? | S1/S5/S9/S12/S14 → T2/T3/T4 → H1/H2/H4/H6 | posture correctness; false continuation/containment; authorized-response compliance; explicit UNKNOWN; handoff integrity; response margin; observable outcome effect; total burden | enforce only a proposition actually supported by current authority/evidence; otherwise REQUALIFY, bounded HOLD/ESCALATE or explicit no-conclusion | an unsupported rights conclusion becomes payment/blocking/enforcement, or uncertainty is hidden by timeout/default/human approval |
+
+### 5.1 Why no extra normative gate is needed in v0.1
+
+The apparent novelty of 00J is the rights-provenance inversion outcome. The control obligation is already expressible through the canonical requirements:
+
+- **S1/S7** prevent actor/rights authority from being inferred merely from a technical record;
+- **S5** prevents unresolved dependency from becoming permission or certainty;
+- **S9/S11** prevent locally valid claims and repeated records from silently replacing conflicting/source-scoped determinations;
+- **S12/S13** preserve historical reconstruction and intervention separation;
+- **S14** requires evidence sufficiency to be tied to the actual decision supported;
+- **T2** requires owner-preserving qualified handoff;
+- **T3** requires any non-null response to remain authorised and bounded;
+- **T4** requires requalification while a useful response remains possible;
+- **H2/H3/H4** directly pressure local-to-global inflation, correlated/compressed evidence and handoff qualification loss.
+
+Accordingly, 00J v0.1 adds **no new control prerequisite beyond implementing the existing requirements correctly**. Scenario-specific observables in §8 measure whether the existing requirements actually prevent the fixture failure.
+
+If execution later shows a path that passes all applicable canonical conditions and still reaches the unsupported rights inversion, that result is a candidate **requirements gap** and must be escalated to Requirements-vNext.
+
+## 6. Deterministic gate logic
+
+1. A mandatory source/authority/dependency field in `UNKNOWN` or stale state cannot produce an enforcement PASS. It produces targeted `REQUALIFY`, bounded `HOLD/CONTAIN`, authorised `ESCALATE` or explicit `NO CONCLUSION` according to remaining time/capacity.
+2. A valid generation signature proves only the proposition bound to that signature. It cannot silently prove source independence or downstream rights ownership.
+3. A valid rights/registry record proves that the record exists and, where established, who issued it. It cannot silently manufacture upstream authority not present in the fixture.
+4. Correlated replicas of RX do not count as independent corroboration unless source independence is actually established.
+5. A valid access grant for one purpose cannot be widened by downstream handoff without the required authority/delegation semantics.
+6. Human approval or timeout may authorise a bounded procedural response where the owner is entitled to do so; neither is new evidence that cures a missing W→D1 dependency or establishes X's rights.
+7. Q4 stops broad evidence expansion when marginal decision value falls below its floor, burden exceeds its ceiling or the response margin is exhausted; the system must preserve a bounded unresolved disposition rather than search forever.
+8. Q5 may enforce only a proposition supported by current evidence **for the same subject, scope, use, owner and time**. Evidence that supports a different proposition is non-fungible.
+9. Any material policy, rights, principal, delegation, dependency or content-state change reopens the affected gate before enforcement.
+10. Passing the negative branch by always rejecting X is invalid. C1 legitimate-transfer control must pass. Passing by blocking every uncertain use is also invalid if the declared control branch permits bounded continuation.
+
+## 7. Two routes through the same event
+
+### 7.1 Route N — quality plan exists but is badly implemented / gates are bypassed or misapplied
+
+| Step | Local behaviour | Gate result | Propagated consequence |
+|---|---|---|---|
+| **Q0** | A/W/R0 exists upstream, but downstream processing treats it as optional metadata rather than a material dependency | incomplete / bypassed | source-rights basis is not guaranteed to travel |
+| **Q1** | C1's bounded access or RAG permission is interpreted as generic permission to use W downstream | FAIL/bypassed | purpose/scope restriction is lost |
+| **Q2** | M1 generates D1 and emits a valid generation credential; the implementation treats `generated-by M1` as if it established independent origin | FAIL/bypassed | `D1 ← W` becomes absent or unqualified |
+| **Q3** | X registers/licenses D1; signature/timestamp/registry presence is accepted as sufficient rights provenance | FAIL/bypassed | RX becomes operationally stronger than its evidence basis |
+| **Q4** | multiple catalogues/indexes replicate RX and are counted as independent confirmations | correlated-evidence FAIL/bypassed | false corroboration increases confidence and reach |
+| **Q5** | A later reuses material originating from W; rights checker sees RX and emits `LICENSE_REQUIRED/PAY/BLOCK` | systemic FAIL | original creator is subjected to an unsupported downstream rights claim |
+
+The failure is a **Type-2 trajectory** when the ecosystem reaches unsupported closure (“X has an enforceable claim against A”) while the material dependency/authority basis is absent or insufficient.
+
+A corresponding **Type-1 trajectory** exists if the conflict is detected but the implementation responds with unlimited search, repeated human review or indefinite HOLD until the legitimate use is no longer viable.
+
+The quality plan can therefore be present on paper while failing operationally because one or more canonical gates are not invoked, receive flattened evidence, misclassify the proposition being proved, or are bypassed downstream.
+
+### 7.2 Route Q — canonical requirements and gates correctly implemented
+
+| Step | Quality-plan behaviour | Gate result | What moves forward |
+|---|---|---|---|
+| **Q0** | A/W/R0 is bound to the declared scope with source, version, rights owner, use conditions and expiry/currentness | PASS or PASS WITH EXPLICIT LIMIT | qualified original rights frame |
+| **Q1** | C1 identity/representation and the permitted use are preserved; purpose/scope/expiry remain non-amplifying | PASS / REQUALIFY | bounded access/use authority, not general downstream rights |
+| **Q2** | M1 credential is accepted only for the generation proposition; W dependency is retained or made explicit UNKNOWN if the receiver cannot establish it | PASS WITH LIMIT / REQUALIFY | D1 plus qualified source/provenance state; no unsupported independence claim |
+| **Q3** | RX is accepted as X's bounded claim/record; the architecture tests whether X actually has authority relevant to the final proposition and preserves conflict with R0 | PASS WITH LIMIT / REQUALIFY / bounded HOLD | rights claim without laundering it into stronger authority |
+| **Q4** | replicas are correlated to RX; freshness/dependency are preserved; only targeted sources/owners are reopened when material | PASS / bounded REQUALIFY | no false corroboration; current dependency graph |
+| **Q5** | enforcement requires current evidence/authority sufficient for the exact `A/W2 vs X/RX` proposition; absent that, no payment/blocking conclusion is permitted | PASS, PASS WITH EXPLICIT LIMIT, REQUALIFY, bounded ESCALATE or NO CONCLUSION | timely auditable decision without rights-provenance inversion |
+
+**Required result:** under the frozen negative branch, a correctly implemented canonical route cannot reach `LICENSE_REQUIRED_FROM_X/PAY_X/BLOCK_FOR_X` merely from M1 generation provenance plus replicated RX.
+
+The architecture does **not** need to determine the full substantive copyright dispute. It needs to prevent evidence sufficient for one proposition from being silently promoted into another proposition that supports enforcement.
+
+### 7.3 Canonical-sufficiency finding for v0.1
+
+Within the frozen fixture, the quality route succeeds **without adding a new normative gate**.
+
+The failure is stopped principally at:
+
+- **Q2**, if generation provenance is prevented from becoming source/rights provenance;
+- **Q3**, if RX cannot manufacture absent authority and conflict/residual state is preserved;
+- **Q4**, if correlated copies cannot become independent corroboration;
+- **Q5**, if enforcement is allowed only when evidence and authority are sufficient for the exact decision.
+
+This is a design-level sufficiency result only. It is **not yet executed evidence** that EA, a peer architecture or any named implementation satisfies the requirements.
+
+## 8. Scenario-specific outcome measures
+
+These measures supplement the canonical KPI set. They do not create a new universal KPI family.
+
+| Measure | Definition |
+|---|---|
+| **Rights-provenance inversion rate** | negative-branch runs in which a downstream claim unsupported by fixture authority becomes operationally stronger than R0 and controls A's use ÷ applicable negative-branch runs |
+| **Unsupported licence-demand rate** | `LICENSE_REQUIRED/PAY/BLOCK` decisions lacking sufficient current evidence/authority for the frozen proposition ÷ applicable final decisions |
+| **False block against rightful source** | C0/C6 decisions that prevent fixture-legitimate A use without a supported conflicting right ÷ applicable controls |
+| **Legitimate-transfer acceptance** | C1 runs in which the qualified X right is correctly accepted ÷ C1 runs |
+| **Source-dependency preservation** | required W→D1/R0 dependency fields retained or explicitly unresolved ÷ required handoffs |
+| **Provenance qualification-loss rate** | source/rights qualifiers absent, flattened or strengthened without declared requalification ÷ relevant handoffs |
+| **Correlated-evidence error rate** | closures treating RX replicas as independent corroboration ÷ C3 branches |
+| **Wrong-domain closure rate** | closures that promote generation/identity/registry evidence into unsupported source/rights/compliance conclusions ÷ designated branches |
+| **Explicit-UNKNOWN preservation** | C4 or other unresolved branches preserving UNKNOWN/qualified limit ÷ applicable unresolved branches |
+| **Targeted re-entry precision/recall** | same canonical definition, applied to source/rights/dependency assumptions |
+| **Requalification latency / response margin** | time to a qualified final posture and remaining useful challenge/enforcement window |
+| **Total decision burden** | canonical compute/tool/communication/waiting/human/privacy burden for the run |
+
+A candidate does not pass by driving the inversion rate to zero through universal blocking if it fails C1 legitimate-transfer acceptance, C2 independent-work control, valid continuity or the canonical false-containment/burden measures.
+
+## 9. Falsification and boundary conditions
+
+00J supports the current requirements only if the following are observed under matched facts/resources:
+
+- Route Q prevents unsupported rights inversion without universal denial;
+- C1 legitimate transfer is accepted;
+- C2 independent creation is not falsely attached to W;
+- C3 correlated replication is not counted as source independence;
+- C4 unknown downstream use stays unknown unless new evidence qualifies it;
+- stale/revoked states trigger requalification;
+- the result is timely enough to remain operationally useful.
+
+The current requirements-sufficiency reading is **narrowed or falsified** if:
+
+1. a candidate genuinely satisfies all applicable canonical T conditions and mandatory KPI semantics, yet the negative branch still reaches unsupported `PAY/BLOCK/LICENSE_REQUIRED`;
+2. preventing inversion necessarily requires a solution-neutral obligation that cannot be expressed through S1–S14/T1–T4/H1–H6;
+3. the canonical route only succeeds by hiding an unresolved substantive dependency, invoking authority it does not possess, or exhausting the response window;
+4. a strong peer closes the same gap with equal or lower burden, in which case EA distinctiveness narrows even though the requirement itself remains valid.
+
+## 10. Implementation and execution plan
+
+| Step | Work item | Required output | State |
+|---|---|---|---|
+| **0** | Instrumentation/autotest | Deliberately remove one required W→D1 or R0 qualifier at a named handoff. The trace/gate harness must detect the loss. If it does not, later runs are uninterpretable. | Planned |
+| **1** | Freeze fixture and bounded oracle | Versioned A/W/R0/C1/M1/D1/X/RX facts, dependency graph, authority facts, deadlines, null action and controls C0–C6. | Planned |
+| **2** | Freeze Q0–Q5 pre-registration | Exact S/T/H route, KPI numerators/denominators, thresholds, stop rule, burden tolerance and deviations. | Planned |
+| **3** | Register strong comparator arms | Standard and defended peer configurations, exact versions and legitimate controls; same evidence/budget/deadline. | Planned |
+| **4** | Build deterministic Stage-0 harness | Replay, bounded oracle, dependency/source graph, trace store, gate-policy module and reproducible report. | Planned |
+| **5** | Run controls before failure branch | C0–C6 first, including legitimate transfer and independent-work controls. | Planned |
+| **6** | Execute Route N and Route Q | Gate-by-gate traces showing where the bad implementation bypasses/misapplies requirements and where the conforming route stops inversion. | Planned |
+| **7** | Strong-peer differential | Determine whether conventional provenance/rights/identity/receipt composition already closes the fixture without EA-equivalent semantics. Retain negative EA result if it does. | Planned |
+| **8** | Technology-specific profiles | Only after fixture freeze: project the same scenario onto selected rights/provenance and agent-identity/authorization stacks. Product annexes may not change fixture facts to favour a result. | Future |
+| **9** | Independent Stage-1 producer/receiver | Separate producer of rights/provenance state and independent receiver/enforcer with stated independence limits. | Future |
+| **10** | Stage-2 real relevance review | Only if an external participant chooses to map a real decision context; not assumed by this draft. | Future |
+
+## 11. Relationship to Olena / Theme #16 and Panodyssey Challenge coverage
+
+The Panodyssey discussion currently contains three useful starting evidence situations:
+
+1. permission change/revocation after prior authorisation;
+2. uncertain or insufficiently verified AI/crawler identity;
+3. rights-holder intent is evidenced while downstream AI compliance cannot be established.
+
+00J is **not** a fourth final Panodyssey use case and does not modify Olena's Theme #16 matrix. It is a separate reference failure scenario that composes several of those evidence boundaries into a system-level stress test.
+
+The strongest link is the distinction already made in the discussion:
+
+> **evidence of authority/permission is not the same as evidence of execution/compliance.**
+
+00J generalizes the same discipline to provenance and downstream rights:
+
+> evidence must remain tied to the proposition and decision it is sufficient to support.
+
+Theme #16 remains owner of human intervention semantics where a human branch is invoked. EA may consume evidence/capacity/decision state and requalify the ecosystem-level dependence; it does not create rights, appoint reviewers or decide substantive copyright law.
+
+## 12. Claim boundary
+
+00J is:
+
+- a fictional reference scenario;
+- a quality-plan design;
+- a candidate future executable fixture;
+- a test of whether existing canonical requirements generalize to a new failure mechanism.
+
+00J is **not**:
+
+- an accusation that Panodyssey or a named AI/rights product fails;
+- evidence that the paradox has occurred;
+- a legal determination about copyright, derivative works or licensing;
+- proof that EA is necessary, sufficient, unique or superior;
+- a new standards proposal or adopted FG-TIDA artifact;
+- an executed benchmark result.
+
+## 13. Public references
+
+- FG-TIDA Theme #17 — Digital Rights Infrastructure for Text:  
+  https://github.com/FG-TIDA/themes/issues/17
+- Public Panodyssey / Theme #17 mapping discussion:  
+  https://github.com/FG-TIDA/themes/issues/17#issuecomment-5494697270
+- Canonical Requirements:  
+  https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md
+- 00F quality-plan precedent:  
+  https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md
+- Requirements-vNext review:  
+  https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md
+
+## 14. Current determination
+
+**00J v0.1 design finding:** the frozen canonical requirements appear sufficient to prevent or honestly bound the rights-provenance inversion fixture when they are correctly implemented. The compliant route does not require a new normative gate in this draft.
+
+The deliberately bad implementation can still fail even while nominal quality controls exist, because required gates are bypassed, receive qualification-stripped evidence, or allow a valid local statement to be promoted into a stronger unsupported proposition.
+
+The next evidentiary step is therefore execution, not requirement expansion: freeze the oracle/controls, prove the instrumentation can detect induced qualification loss, and run matched comparator arms. Any run that passes the canonical gates and still reaches the unsupported final enforcement decision must be treated as evidence against the present sufficiency reading and returned to Requirements-vNext.
