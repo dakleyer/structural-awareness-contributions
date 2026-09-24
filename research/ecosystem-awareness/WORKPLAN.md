@@ -411,6 +411,7 @@ This table should remain short. Detailed historical maintenance records live und
 | 2026-09-23 | Live cross-corpus visual navigation | [VISUAL_GUIDE.md](./VISUAL_GUIDE.md) |
 | 2026-09-23 | W1 Requirements review completed — no canonical requirement change | [Requirements vNext Review & Delta v0.1 Draft](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); benchmark traceability applied in 00D v0.3 draft |
 | 2026-09-23 | Decision Boundary Challenge v0.2 + FG-TIDA cross-theme test/specification route | [DBC v0.2](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) · [FG-TIDA test profile](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md) · [Specification Preparation v0.3](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) |
+| 2026-09-24 | 00I four-lens adversarial audit + AWS implementation skeletons | [Audit record](./governance/00I_FOUR_LENS_ADVERSARIAL_AUDIT_2026-09-24.md) · [00I v0.4](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.4_DRAFT.md) · [00I-A01 v0.2](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [fixture package](./baseline/fixtures/00I-AWS/README.md) |
 
 ---
 
