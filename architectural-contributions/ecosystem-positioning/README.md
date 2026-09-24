@@ -20,17 +20,76 @@ The deck is a **working proposal**, not an adopted standard. It presents Ecosyst
 
 ---
 
-## What problem this architecture addresses
+## Why Ecosystem Positioning exists
 
 Agentic systems can remain locally correct while becoming badly situated in a changing ecosystem.
 
-Identity may still verify. Policy may still return a permit. Attestation may still pass. A human may still approve. Yet the practical meaning of those results can change when roles, authority, dependencies, evidence and surrounding operating conditions change faster than the local control model.
+The corpus makes that problem concrete through six reference failure scenarios. They are **stress-test cases, not incident reports or product-failure claims**. Their purpose is to ask what happens when individually valid technologies, agents, controls or decisions are composed across a wider system whose context, authority, dependencies or evidence can change.
+
+### 1. 100 Million Tokens
+
+A large multinational automates work across the enterprise with AI and consumes **100 million tokens**, while also creating a major human supervision burden.  
+At the end, it has gained no meaningful differential advantage: no material work completed, no useful new information produced and no capability that justifies the accumulated computational and human effort.
+
+### 2. Smart-City Mobility Chaos — "The City That Stopped Safely"
+
+A highly automated smart city experiences small, gradual changes in operating conditions rather than one obvious failure.  
+Some vehicles continue normally, others execute incompatible critical or emergency routes, while others remain in HOLD waiting for human intervention that may no longer arrive within the useful response window.
+
+### 3. Bar-to-Napoleon
+
+Robots/agents are preparing and opening a bar in present-day Spain when one participant begins signalling a false Napoleonic frame.  
+Repeated reinforcement can make the group progressively abandon the valid bar mission until the absurd reader-facing endpoint: robots marching in formation with forks as rifles, believing they are Napoleon's army heading toward Russia.
+
+### 4. The Quiet Four Thousand
+
+A good-faith remediation agent authorized for one customer discovers a genuine overcharge affecting roughly **4,000 customers**.  
+The system can fail silently in either direction: it may extend case-local authority into unauthorized refunds, or correctly close the assigned case while allowing the remaining material finding to disappear. A separate adversarial hardening tests a compromised outsourced Customer Operations Dispatcher that can create locally valid downstream case grants without ever receiving authority for the common financial campaign.
+
+### 5. The Patch That Undid the Fix
+
+A remediation rollback is correctly qualified and queued while a production database is degraded; before it executes, a newer repair legitimately resolves the incident.  
+The original action can remain technically valid, correctly authenticated and even correctly serialized by the database, yet execute later and undo the newer fix because the decision basis changed before actuation.
+
+### 6. The Author Pays for Their Own Work
+
+An author correctly publishes and registers a work through a strong rights/provenance chain.  
+As the work moves across systems, a technically valid record can be promoted through a changed resolver, identifier or lineage relation into an unsupported downstream rights claim — ultimately allowing the original author to be blocked or charged for use of content derived from their own work.
+
+## Concrete technology anchors
+
+The scenarios are evaluated against concrete current architectures rather than against a generic idea of "AI". The named technologies are substrates and strong comparison paths; the corpus does **not** claim that they cause the failures.
+
+| Scenario | Current technology / implementation profiles |
+|---|---|
+| **00E — 100 Million Tokens** | **Microsoft Agent 365**; **LangGraph / LangSmith** |
+| **00F — Smart-City Mobility Chaos** | **FIWARE NGSI-LD / Orion-LD**; **AWS IoT Core / IoT TwinMaker** |
+| **00G — Bar-to-Napoleon** | **OpenAI Agents SDK / Agents API / Responses multi-agent stack**, including durable sessions/state, handoffs, guardrails/approvals, tracing, compaction and recovery |
+| **00H — The Quiet Four Thousand** | **Claude Agent SDK** plus authoritative grant/case controls; **Stripe Radar / Refund API** plus a strong merchant pre-refund authorization and cumulative-ledger layer |
+| **00I — The Patch That Undid the Fix** | **AWS Step Functions, Amazon RDS, Lambda / AWS SDK, Systems Manager Change Calendar, DynamoDB, EventBridge, CloudWatch / execution history and IAM** |
+| **00J — The Author Pays for Their Own Work** | **Panodyssey AI Transparency Notice / ODRL-JSON-LD rights stack** plus **TEMS Trial 7 rights portability**, with identity, mandate, resolver and lineage controls |
+
+The question is not whether these technologies work.
+
+The question is whether a system that works **locally, correctly and according to specification** can remain valid when the ecosystem around that decision changes.
+
+Identity may still verify. Policy may still return a permit. Attestation may still pass. A human may still approve. A database may correctly serialize the operation. A rights record may remain authentic. Yet the **meaning and sufficiency** of those results can change when roles, authority, dependencies, evidence, source relationships and surrounding operating conditions change faster than the local control model.
+
+> **The technology has not necessarily broken. The relationship between the technology and its ecosystem has changed.**
 
 Ecosystem Positioning is therefore concerned with a different question:
 
 > **For this participant, this decision and this moment, what can be relied on, what remains unresolved, what has changed, and what should be requalified before action continues?**
 
 It is participant-local and does not require a global controller or a complete shared state.
+
+### From positioning to bounded ecosystem self-healing
+
+Ecosystem Positioning also provides the situational basis for **Ecosystem Agent Defense**: bounded self-healing in a choreographed, non-orchestrated ecosystem.
+
+A central controller does not need to invent a new mission for every component. Participants can continue their existing functions independently, exchange qualified ecosystem signals, maintain their own awareness of material changes and requalify their position when the conditions that justified previous action no longer hold.
+
+Self-healing here means **distributed recovery of justified operation**, not unconstrained self-direction: components may constrain, requalify, hand off, re-contract, recover or escalate within defined authority while the wider system re-stabilizes through signalling and local adaptation.
 
 ---
 
