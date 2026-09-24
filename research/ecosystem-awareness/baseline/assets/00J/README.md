@@ -1,6 +1,6 @@
 # 00J visual aids — Rights-Provenance Inversion
 
-> **Navigation:** [Ecosystem Awareness](../../README.md) → [Canonical corpus](../README.md) → [00J — Rights-Provenance Inversion](../00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) → **Visual aids**
+> **Navigation:** [Ecosystem Awareness](../../../README.md) → [Canonical corpus](../../README.md) → [00J — Rights-Provenance Inversion](../../00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) → **Visual aids**
 
 These visuals are additive reader aids for **00J — “The Author Pays for Their Own Work”**. They do not create new requirements, gates, evidence or benchmark results. The technical meaning remains controlled by the parent 00J scenario and its canonical S1–S14 / T1–T4 / H1–H6 / KPI trace.
 
