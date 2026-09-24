@@ -39,13 +39,6 @@
     "freshness_budget_ms",
     "status"
   ],
-  "disposition_values": [
-    "EXECUTE",
-    "REQUALIFY",
-    "DENY",
-    "ESCALATE",
-    "HOLD"
-  ],
   "evidence_labels": [
     "CAPABILITY_ABSENT",
     "CONTROL_PRESENT_NOT_INVOKED",
@@ -53,5 +46,16 @@
     "CONTROL_EXECUTED_PASS",
     "NOT_OBSERVABLE"
   ],
-  "note": "Design contract only; not an execution trace."
+  "note": "Design contract only; DBC disposition and operational posture are separate namespaces; not an execution trace.",
+  "dbc_disposition_values": [
+    "DBC_EXECUTE",
+    "DBC_REQUALIFY",
+    "DBC_DENY",
+    "DBC_ESCALATE"
+  ],
+  "posture_values": [
+    "P1_NORMAL",
+    "P2_CONTAINMENT",
+    "P3_MIGRATION"
+  ]
 }
