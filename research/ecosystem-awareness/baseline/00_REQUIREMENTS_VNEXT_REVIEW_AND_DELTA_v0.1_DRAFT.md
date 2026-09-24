@@ -7,17 +7,90 @@
 | | |
 |---|---|
 | **ID** | Requirements-vNext Review |
-| **Version · date** | v0.1-draft · 23 September 2026 |
+| **Version · date** | v0.1-draft · cumulative review refreshed 24 September 2026 |
 | **Status** | Working delta/review; no canonical requirement change |
 | **Canonical requirements under review** | S1–S14 · T1–T4 · H1–H6 · KPI/falsification protocol |
-| **Later corpus reviewed** | 00G · 01H · 01I · 01J · ACC Lineage · MSCA 00/03/04 · Gradient Law · Benchmark v0.3 draft |
+| **Review window** | Frozen 00 Requirements baseline · 17 September 2026 → cumulative corpus state reviewed through 24 September 2026 |
+| **Later corpus reviewed** | 00G · 00H · 01H · 01I · current 01J signalling/choreography · ACC Lineage · Regime Awareness delta · MSCA 00/03/04 · Objective-Conditioned Gradient · Decision Boundary Challenge v0.2 · Benchmark v0.3 draft · FG-TIDA application/test deltas |
 | **Control route** | [Living Workplan — W1](../WORKPLAN.md) |
+
+---
+
+## Review provenance and freeze boundary
+
+This delta exists because the canonical [00 Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) was frozen as the controlling S1–S14 / T1–T4 / H1–H6 / KPI baseline on **17 September 2026**, while the surrounding Ecosystem Awareness / Ecosystem Positioning corpus continued to evolve.
+
+The purpose of this file is therefore not to rewrite the frozen baseline in place. It is to maintain an explicit **change-control layer** between:
+
+1. the requirements that downstream work is currently allowed to rely on;
+2. later architecture, control, signalling, positioning and validation material;
+3. new reference failure scenarios that stress the requirements from additional directions; and
+4. any future editorial or semantic change that may eventually justify a deliberately versioned Requirements successor.
+
+A post-freeze document is not automatically a new requirement source. For every later development this review asks:
+
+> **Does the new material reveal a genuinely missing solution-neutral requirement, or does it instantiate, clarify, test or provide evidence for a requirement that is already present?**
+
+Only the first case could justify a future canonical Requirements change. Architecture objects, component vocabularies, test dispositions, benchmark hypotheses, scenario metrics and FG-TIDA mappings remain in their owning layers unless the review shows that the existing S/T/H system cannot express the required behaviour without distortion.
+
+### Change-control rule
+
+- The frozen 00 Requirements remains the controlling baseline for existing fixtures, benchmarks and traceability.
+- This delta may evolve during review without changing the canonical Requirements.
+- A later canonical edit, if ever justified, must be explicit, versioned and traceable back to the delta item that motivated it.
+- Existing test runs and preregistrations continue to cite the Requirements commit/version they actually used; a later clarification does not retroactively rewrite their semantics.
+
+---
+
+## Post-freeze corpus change ledger
+
+The following are the main substantive changes reviewed since the 17 September freeze. Routing, visual-navigation and source-refresh commits are not treated as requirement changes unless they alter a solution-neutral obligation.
+
+| Post-freeze development | What changed / became explicit | Requirements-review consequence |
+|---|---|---|
+| **00G — Collective False-Context Convergence** | Adds a third reference failure family: correlated repetition, false corroboration, mission/context displacement, authority spoofing, effective-role drift and high-value but inadmissible opportunity pressure. | Stresses S2/S3/S6/S9/S11/S14 and T1/T2/T4 without exposing a missing S/T/H. It strengthens the case for an editorial role-drift clarification and for preserving opportunity/admissibility/authority separation. |
+| **00H — Batch Opportunity Beyond Authority** | Adds a fourth reference failure family: a beneficial, technically reachable and well-evidenced opportunity lies outside the current grant; aggregate exposure may escape per-action checks; the legitimate route is preserve → request/re-contract → authority response → requalify → only then act. | Uses the existing S1/S2/S8/S11/S14 → T2/T3/T4 → H2/H4/H6 route. It materially strengthens the readability case for `opportunity ≠ admissibility ≠ authority ≠ execution`, but does not justify T5 or S15. |
+| **01H — participant-local Ecosystem Positioning / decision-scoped epistemic opportunity** | Makes participant-local state, bounded epistemic opportunity and decision-relative effort allocation more explicit. | Existing S9/S11/S14 and T1/T2/T4 cover the solution obligation; the representation is architectural. |
+| **01I / ACC-related participation and lineage work** | Makes role, participation, permissions/obligations/prohibitions, hard constraints, versioning, revocation/exit and lineage more explicit. | Existing S1/S2/S7/S8/S11/S12/S13/S14 cover the requirement surface. Do not promote ACC objects into universal Requirements merely because the current architecture uses them. |
+| **Current 01J signalling / choreographed repositioning** | Adds selective participant-local signalling, bounded `RepositionIntent` / `AuthorityResponse`, compatibility/qualification boundaries and distributed choreography without requiring shared world-state. | Existing S6/S9/S11/S14 and T2/T3/T4 cover qualified handoff, authority preservation and bounded response. Transport objects remain implementation/interface semantics. |
+| **Regime Awareness delta** | Makes material regime/context change a bounded, source-owned delta rather than a generic global state replacement. | Existing S3/S10/S14 and T1/T2/T4 remain sufficient; no new requirement is created by the `Δ_RA` representation. |
+| **MSCA 00/03/04 evolution** | Makes control sufficiency, Type 0/1/2, P1/P2/P3 posture, effective-role drift, repositioning and authority-response separation operationally explicit. | Mostly component conformance. `Role_bound ≠ Role_effective` remains the strongest candidate for future Requirements wording clarification. |
+| **Objective-Conditioned Agentic Gradient** | Makes opportunity ranking / marginal value of transition explicit while keeping admissibility and authority external. | T4/H6 already require decision-relevant bounded effort and T3 preserves authorization. Gradient semantics stay implementation-specific. |
+| **Decision Boundary Challenge v0.2** | Consolidates CAN / KNOW / MAY / SHOULD / ACT review questions, Type condition, posture, DBC disposition and AuthorityResponse into separate namespaces; adds C01–C12 boundary fixtures. | Strong applied-validation pressure for existing requirements, especially S1/S3/S5/S7/S8/S10/S14 and T2/T3/T4. DBC is test/adjudication vocabulary, not a new canonical ontology. |
+| **00D Benchmark v0.3 draft / EP-BH1…EP-BH7** | Adds bounded Ecosystem Positioning hypotheses covering drift-first repositioning, opportunity/admissibility separation, qualified signalling, objective-conditioned requalification, participant-local choreography, Type-gated posture and multi-resolution cartography. | Benchmark hypotheses must remain traced to existing S/T/H rather than becoming a hidden second requirement set. |
+| **FG-TIDA application/test deltas** | The current UC-6 → Theme #16 v0.2 matrix → UC-4 executable-profile sequence makes authority applicability, human decision, execution confirmation and semantic-owner review more testable. | Useful external/interface evidence for S1/S4/S10/S13/S14 and T2/T3/T4. It does not create a new EA requirement or transfer Theme ownership. |
+| **00E/00F named-technology source re-audits (24 Sep)** | Product/technology implementation profiles were date-pinned and evidence boundaries tightened for presentation use. | Evidence provenance improvement only. No solution-neutral Requirements change. |
+
+---
+
+## Reference failure-scenario expansion — two scenarios to four
+
+At the 17 September freeze, the Requirements document explicitly routed two reference scenarios back into the same canonical requirement system:
+
+1. [**00E — 100 Million Tokens and Compounded Epistemic Collapse**](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), testing compositional overconfidence, capacity/oversight pressure, speculative promotion and structural-residual mismanagement; and
+2. [**00F — Smart-City Mobility Divergence under Residual Uncertainty**](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md), testing incompatible locally justified closures, correlated/stale false convergence, shared-resource conflict and bounded ecosystem qualification.
+
+The post-freeze corpus now adds two independent reference scenarios:
+
+3. [**00G — Collective False-Context Convergence**](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md), testing whether unsupported external context, correlated repetition, claimed authority and attractive opportunity can displace a legitimate mission when source independence, role, authority and admissibility are not preserved; and
+4. [**00H — Batch Opportunity Beyond Authority**](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.1.md), testing whether a valuable and technically reachable opportunity is preserved and routed without being silently discarded **or** converted into execution authority, including aggregate/salami-slicing failure and bounded re-contracting.
+
+The four scenarios are deliberately different stress surfaces. They do **not** create four requirement families. Their role in this delta is to ask whether the same frozen S1–S14 / T1–T4 / H1–H6 system survives materially different failure mechanisms.
+
+| Scenario | Primary new stress relative to the others | Current delta disposition |
+|---|---|---|
+| **00E** | Compounded epistemic collapse across exploration, aggregation, human review and alternative generation. | Pre-freeze source; retained canonical pressure. |
+| **00F** | Systemic divergence / false convergence among independently governed actors competing over a shared operational surface. | Pre-freeze source; retained canonical pressure. |
+| **00G** | Collective false-context convergence, mission displacement, source-correlation error and effective-role drift. | Post-freeze stressor; covered by existing S/T/H; strengthens CAND-R1/CAND-R2. |
+| **00H** | Beneficial opportunity beyond current authority, aggregate authorization failure and legitimate re-contracting. | Post-freeze stressor; covered by existing S/T/H; strongly operationalizes CAND-R2. |
+
+**Current conclusion from the 2→4 scenario expansion:** the requirement system has so far generalized without requiring a new challenge, sufficient condition or hypothesis. The added scenarios increase confidence in the *coverage review*, not confidence that EA satisfies the requirements. They also expose where editorial clarity may still be improved even when semantic coverage is already present.
 
 ---
 
 ## 0. Executive determination
 
-The review does **not currently justify a new S15, T5, H7 or new canonical KPI family**.
+The cumulative post-freeze review — now including the expansion from two to four reference failure scenarios (00E–00H), the later Ecosystem Positioning architecture/control work and DBC v0.2 — does **not currently justify a new S15, T5, H7 or new canonical KPI family**.
 
 Most later Ecosystem Positioning semantics fall into one of three categories:
 
@@ -61,6 +134,7 @@ The W1 question is therefore:
 | Later concept | Existing S/T/H/KPI coverage | Missing behaviour / evidence | W1 disposition |
 |---|---|---|---|
 | **00G false-context convergence / mission displacement** | S2, S3, S6, S9, S11, S14 · T1/T2/T4 · H2/H3/H4/H5/H6 · false convergence, correlated-evidence error, wrong-domain closure, handoff integrity, injected-doubt/cascade measures | 00G-specific mission-displacement and re-grounding measures are not canonical KPI names | **No new requirement.** Use scenario/benchmark-specific measures under existing routes. |
+| **00H batch opportunity beyond authority / aggregate authorization** | S1, S2, S8, S11, S14 · T2/T3/T4 · H2/H4/H6 · authority-field completeness, aggregate-action trace, authorized-response compliance, response-horizon and requalification evidence | Opportunity-preservation, aggregate-authority and re-contracting measures are scenario/DBC measures rather than canonical KPI names | **No new requirement.** Strongly operationalizes the existing opportunity/admissibility/authority/execution separation and tests whether per-action compliance launders aggregate unauthorized action. |
 | **Participant-local positioning / 01H** | common `σ(d,t)`, W(d,t), non-fungibility · S9/S11/S14 · T1/T2/T4 · H2/H4/H6 | None at requirement level; participant-local representation is an architectural realization | **Existing mapping.** No requirement change. |
 | **ACC admissibility / lineage / participation conditions** | S1, S2, S7, S8, S11, S12, S13, S14 · T2/T3/T4 · H2/H4/H6 · authority-field completeness, authorized-response compliance, handoff/lineage evidence | “Admissibility” is not named as its own universal layer, but policy/hard-limit/authority/delegation boundaries are already explicit | **Existing mapping; possible future vocabulary clarification only.** Do not create a new challenge merely to encode ACC. |
 | **Selective signalling / receiver-side qualification / compatibility mode** | S6, S9, S11, S14 · T1/T2/T4 · H2/H3/H4/H5/H6 · handoff integrity, qualification loss, false convergence, correlated evidence, privacy/disclosure cost | Compatibility residual and signalling-profile mechanics are implementation/interface detail | **Existing mapping.** No new requirement. |
@@ -114,7 +188,7 @@ Later MSCA 04 makes an additional distinction operational:
 
 `Role_bound ↔ Role_effective`.
 
-A future wording change could clarify that a sufficiently-good representation/attribution route must be able to identify a **material observed function/behaviour mismatch with the bound role** without treating observed behaviour as proof of legitimate authority or membership.
+A future wording change could clarify that a sufficiently-good representation/attribution route must be able to identify a **material observed function/behaviour mismatch with the bound role** without treating observed behaviour as proof of legitimate authority or membership. 00G now supplies a concrete mission-displacement / metamorphic-role stressor for that distinction, and DBC-C06 provides an applied validation route. The same clarification should preserve the guardrail that continuity of identity, name, runtime lineage or newly acquired capability does **not** by itself establish continuity or expansion of authority.
 
 Why this is probably a clarification, not S15:
 
@@ -140,7 +214,7 @@ A future edition could add one sentence or reading aid stating:
 
 `opportunity ≠ admissibility ≠ authority ≠ execution`.
 
-That would improve readability but would **not** create T5 or a new challenge.
+00H now gives this separation a concrete failure and recovery path: a candidate can be reachable, well-evidenced and materially beneficial while remaining outside the current grant; the correct route is preserve/rank → check admissibility/authority → request or re-contract through the legitimate owner → requalify → only then execute if authorized. That strengthens the case for an editorial reading aid while still **not** creating T5 or a new challenge.
 
 ---
 
@@ -179,7 +253,11 @@ Later benchmark/test work may define **derived or scenario-specific measures** u
 - genuine-change false-rejection;
 - hidden-dependency recall;
 - oscillation / settling time;
-- outcome gap to orchestrated reference.
+- outcome gap to orchestrated reference;
+- aggregate-authority failure rate / cap-decomposition escape rate;
+- targeted re-contracting / recovery rate;
+- source-independence error under correlated repetition;
+- mission-displacement and re-grounding latency.
 
 These measures should be linked back to the relevant H#/T#/S# and clearly labelled as benchmark/fixture measures unless and until a future Requirements version adopts them as canonical.
 
@@ -227,6 +305,6 @@ The current requirement system is broad enough to support the bounded Benchmark-
 4. Role_effective/Role_bound and opportunity/admissibility/authority/execution remain explicit clarification candidates for a future editorial/versioned pass;
 5. any future change is versioned and preserves the requirement commit used by existing fixtures/pre-registrations.
 
-This closes the **analysis stage of W1** without creating Requirements vNext.
+This closes the **analysis stage of W1** for the corpus state reviewed through 24 September 2026 without creating a canonical Requirements successor. The review now includes the 00E–00H four-scenario set and DBC v0.2. Future post-freeze material should be added to this delta first and should reopen W1 only if it exposes a genuinely missing solution-neutral obligation rather than another architecture, interface, scenario or conformance realization.
 
 The next W1 action, if desired, is an editorial proposal containing only the two clarification candidates above. It should remain a proposal until explicitly approved.
