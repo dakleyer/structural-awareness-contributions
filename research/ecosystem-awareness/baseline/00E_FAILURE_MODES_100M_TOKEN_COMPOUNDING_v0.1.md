@@ -294,6 +294,8 @@ The relevant scopes are separate material subject–proposition–decision bound
 
 `Route Q` does not name a finished EA product, vendor implementation or proven market capability. In this quality plan it means only **a candidate architecture that follows the foundation principles and satisfies the applicable canonical S1–S14, T1–T4, H1–H6 and KPI tests for each declared scope**.
 
+Those S/T/H/KPI requirements are the canonical **Ecosystem Awareness** requirements owned by this corpus; the controlled phrase “requirements-conforming candidate” is used here deliberately so that the quality plan does not overclaim a finished EA product or a proven deployment.
+
 The controlled routes are therefore:
 
 - **Route N — requirements not satisfied:** the same company and technology stack reproduce the four failures.
