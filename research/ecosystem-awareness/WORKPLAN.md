@@ -270,6 +270,8 @@ The maintained 2+2 profiles are dated design analyses:
 - 00F → FIWARE NGSI-LD / Orion-LD;
 - 00F → AWS IoT TwinMaker / IoT Core.
 
+**24 September 2026 source-basis re-audit:** completed for all four maintained profiles. Microsoft claims are now pinned to dated Microsoft Learn pages; LangGraph is pinned to the latest release preceding the original 17 September freeze and living docs carry an explicit access date; FIWARE separates ETSI NGSI-LD V1.9.1 from Orion-LD 1.12.0 and its own conformance statement; AWS rolling service docs carry an explicit 24 September access cut-off and the TwinMaker safety boundary is preserved. This closes the immediate presentation-source hygiene gap for the 2+2 set, but does **not** close W2 Track C: the broader B2/PA capability audit, defender configuration and benchmark capability freeze remain pending.
+
 For each future refresh, record whether each material assertion is:
 
 - directly supported by dated public product documentation;
