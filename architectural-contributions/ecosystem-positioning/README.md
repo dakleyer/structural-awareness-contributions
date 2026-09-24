@@ -1,8 +1,40 @@
-# Ecosystem Positioning — Agentic Architecture
+<div align="center">
 
-> **You are here:** [Structural Awareness Programme](../../README.md) → **Architectural Contributions / pre-standardization** → **Ecosystem Positioning**
+# Ecosystem Positioning
+### Agentic Architecture for staying situated as the ecosystem changes
 
-**Level-2 entry point:** [PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) · [PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) · [presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) · [visual guide](../../research/ecosystem-awareness/VISUAL_GUIDE.md). Detailed mechanisms remain in [Ecosystem Awareness](../../research/ecosystem-awareness/README.md), [Regime Awareness](../../research/regime-awareness/README.md) and [MSCA](../../standards/minimum-sufficient-control/README.md). **Working proposal; not an adopted standard.**
+[![PowerPoint](https://img.shields.io/badge/OPEN-POWERPOINT-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
+[![PDF](https://img.shields.io/badge/OPEN-PDF-C62828?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
+[![Visual Guide](https://img.shields.io/badge/EXPLORE-VISUAL%20GUIDE-006970?style=for-the-badge)](../../research/ecosystem-awareness/VISUAL_GUIDE.md)
+
+**[Structural Awareness Programme](../../README.md) → Ecosystem Positioning**
+
+> **For this participant, this decision and this moment: what can be relied on, what remains unresolved, what has changed, and what should be requalified before action continues?**
+
+</div>
+
+---
+
+## Start here
+
+| Route | What it gives you | Enter |
+|---|---|---|
+| **Canonical presentation** | Fast visual tour of the problem, proposed architecture and architectural differential | **[PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)** · **[PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)** |
+| **Ecosystem Awareness** | Decision-scoped qualification: what can be relied on, what remains unresolved and what must be requalified | **[Enter EA](../../research/ecosystem-awareness/README.md)** |
+| **Regime Awareness** | Whether the operating frame that justified the current position is still valid | **[Enter Regime Awareness](../../research/regime-awareness/README.md)** |
+| **MSCA** | Control sufficiency, Ecosystem Cartography and bounded repositioning under legitimate authority | **[Enter MSCA](../../standards/minimum-sufficient-control/README.md)** |
+
+### Reading map
+
+**Scenarios → technology trajectories → requirements → architecture → interfaces → fixtures / harness → benchmark / public ranking**
+
+[Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) ·
+[Canonical Requirements](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) ·
+[Canonical Benchmark v0.2](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) ·
+[Benchmark vNext v0.3](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) ·
+[Public ranking / applied validation](../../research/ecosystem-awareness/DECISION_BOUNDARY_CHALLENGE_v0.2.md)
+
+> **Status:** working, pre-standardization architecture and validation programme. Detailed semantic ownership remains with EA, Regime Awareness and MSCA.
 
 ---
 
