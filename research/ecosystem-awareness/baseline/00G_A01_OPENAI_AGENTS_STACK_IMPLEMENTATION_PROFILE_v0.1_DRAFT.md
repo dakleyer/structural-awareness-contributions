@@ -1,5 +1,7 @@
 # Annex 00G-A01 — OpenAI agent-stack implementation trajectories for Collective False-Context Convergence
 
+> **SUPERSEDED ACTIVE REFERENCE — lineage only.** The complete OpenAI OAI-G0/G1/G2 trajectory from this file is integrated in the controlling [00G v0.4 canonical reference](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) §17. This standalone draft is preserved for audit/history and should not be used as the active implementation specification.
+
 | | |
 |---|---|
 | **ID** | 00G-A01 |
