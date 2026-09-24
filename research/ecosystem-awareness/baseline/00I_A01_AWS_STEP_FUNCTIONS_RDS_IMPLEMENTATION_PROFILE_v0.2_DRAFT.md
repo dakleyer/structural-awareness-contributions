@@ -7,7 +7,7 @@
 | **Status** | Candidate draft · source-reviewed · implementation skeleton published · unexecuted · not W3-admitted · not a product benchmark, certification or vendor-failure claim |
 | **Version · date** | v0.2 Draft · 2026-09-24 |
 | **Evidence freeze** | 2026-09-24 |
-| **Parent scenario** | [00I — Semantic TOCTOU / “The Patch That Undid the Fix” v0.4 Draft](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.4_DRAFT.md) |
+| **Parent scenario** | [00I — Semantic TOCTOU / “The Patch That Undid the Fix” v0.4 Draft](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) |
 | **Predecessor** | [v0.1 Draft](./00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |
 | **Implementation skeletons** | [00I-AWS fixture package](./fixtures/00I-AWS/README.md) |
 
