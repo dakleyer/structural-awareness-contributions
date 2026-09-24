@@ -4,6 +4,8 @@
 > The current programme-independent interface reference remains [**04 — General Functional Interfaces & Agentic Security v0.5 Integrated**](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md).  
 > The historical controlled v0.4 source remains preserved separately.  
 > This file accumulates post-baseline addenda, clarifications and review questions. It may remain partial while review is active. Nothing here changes O1–O6, IF-S1–IF-S13, the EHD kernel, the Composition-Critical profile or Appendix A unless a later 04 version is explicitly promoted.
+>
+> **Downstream navigation only.** The FG-TIDA-specific ideal/current projections are 05/05A. They consume this layer; no FG-TIDA Theme semantics belong in the 04 technical delta itself.
 
 | | |
 |---|---|
@@ -288,43 +290,40 @@ No new mandatory kernel field at this stage.
 
 ---
 
-## 8. IF-S11 peer capability relation — preserve, do not redesign
+## 8. IF-S11 external signal / incident peer capability — preserve, do not redesign
 
-The current 04 already states that an incident-signal / blast-radius mechanism is a concrete **IF-S11 peer capability** that EA can consume rather than reproduce, and that EA may also be needed where no incident or malicious agent exists.
+The current 04 already states that an external incident-signal / affected-scope mechanism is a concrete **IF-S11 peer capability** that EA can consume rather than reproduce, and that EA may also be needed where no incident or malicious participant exists.
 
-This is the correct programme-independent boundary.
+This is the correct programme-independent boundary:
 
-The stronger Theme #13-specific evidence that Ecosystem Awareness and the incident/signal lifecycle are independently testable peer mechanisms belongs downstream in **05 / 05A**, not in the generic 04 as Theme-specific prose.
+**external signal / incident capability ↔ EA qualification / requalification**
+
+Both sides may be independently implemented and tested. The external mechanism owns its signal/lifecycle semantics; EA owns decision-scoped systemic qualification. Neither side gains action authority merely by emitting a signal, assessment or request.
 
 ### Delta disposition
 
 **No generic architectural change required. Preserve the current peer-capability boundary.**
 
-A future 04 editorial revision may make the bidirectionality more visible generically:
-
-external signal/incident capability ↔ EA qualification/requalification,
-
-while leaving programme-specific ownership and lifecycle semantics outside 04.
+A later 04 editorial revision may make the bidirectionality easier to read while keeping every programme-specific owner, Theme number, lifecycle name or institutional mapping outside 04.
 
 ---
 
-## 9. Relationship to 05 and 05A
+## 9. Downstream specialization rule
 
-The correct change-control order is:
+The change-control order is generic:
 
-**00 Requirements baseline**  
-→ **00 Requirements delta**  
+**Requirements baseline**  
+→ **Requirements delta/review**  
 → **04 General Interfaces baseline**  
-→ **04 General Interfaces delta**  
-→ **05 FG-TIDA Ideal mapping baseline/delta**  
-→ **05A FG-TIDA Current-State bridge baseline/delta**
+→ **04 General Interfaces delta/review**  
+→ **programme/domain-specific mappings**
 
 Therefore:
 
-- 05 may specialize or map a reviewed 04 capability into FG-TIDA Theme relationships;
-- 05 cannot create a new generic EA interface merely because a Theme needs it;
-- 05A must be narrower still and support each mapped field/relationship from current public FG-TIDA source evidence;
-- a 05/05A issue that reveals a genuine generic gap should return upstream to this 04 delta rather than silently changing 04 semantics downstream.
+- a downstream application may specialize, map or narrow a reviewed 04 capability;
+- a downstream application cannot create a new generic EA interface merely because its local programme needs it;
+- current-state application profiles may be narrower than an ideal application profile;
+- a downstream issue that reveals a genuine generic gap returns upstream to this 04 delta rather than silently changing 04 semantics.
 
 ---
 
