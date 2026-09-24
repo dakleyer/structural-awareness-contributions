@@ -6,6 +6,7 @@
 | **Type** | Product-implementation profile |
 | **Status** | Additive annex · source-reviewed working profile · not a product ranking, certification or endorsement |
 | **Version · date** | v0.1 · 2026-09-17 |
+| **Evidence-source refresh** | 2026-09-24 · source/version audit; technical analysis and claim boundary unchanged |
 | **Owner corpus** | Ecosystem Awareness / 00E route |
 | **Technology evidence re-audit** | 2026-09-24 · LangGraph release baseline and living-doc review dates pinned below |
 | **Supersedes / superseded by** | — |
@@ -159,29 +160,23 @@ The result is not “LangGraph is unsafe” or “human-in-the-loop does not wor
 
 The narrower finding is that excellent orchestration, persistence, traces and evaluation remain bounded by the state, tests, signals and human capacity designed into them. After a regime change, a system may execute perfectly against an obsolete representation. EA supplies the additional requirement that the representation's validity, residual, observation window, response margin and posture be requalified automatically and tested under matched resources.
 
-## 12. Official product sources reviewed
+## 12. Official product sources reviewed — dated evidence freeze
 
-LangChain documentation is living documentation and the reviewed pages do not expose a stable page-level publication/revision date. This profile therefore pins **both an access/review date and a LangGraph runtime release baseline**.
+**Evidence freeze used for presentation:** 24 September 2026. LangChain's live documentation pages do **not** expose a page-level "last updated" date. For reproducibility, the documentation is therefore paired with dated official release anchors. The original 17 September analysis is preserved; the current source pin is refreshed to the latest stable releases available by 24 September.
 
-**Runtime release baseline.** The original profile freeze is **17 September 2026**. The latest Python LangGraph release preceding that freeze was **LangGraph 1.2.11, released 11 August 2026**. LangGraph **1.2.12 was released 21 September 2026**, after the original profile freeze, and is **not retroactively included** in claims about the 17 September implementation. The source basis was re-checked on **24 September 2026**.
+| ID | Official source | Date / version basis | Use in this profile |
+|---|---|---|---|
+| **L1** | [LangGraph overview](https://docs.langchain.com/oss/python/langgraph/overview) | Live docs **retrieved 24 Sep 2026**; paired with LangGraph release pin below | Low-level orchestration/runtime, long-running stateful agents, durable execution, streaming, human-in-the-loop and persistence. |
+| **L2** | [LangGraph persistence](https://docs.langchain.com/oss/python/langgraph/persistence) | Live docs **retrieved 24 Sep 2026** | Checkpointers, graph-state checkpoints, stores, resumption/fault-tolerance and state persistence. |
+| **L3** | [LangGraph interrupts](https://docs.langchain.com/oss/python/langgraph/interrupts) | Live docs **retrieved 24 Sep 2026** | Dynamic pause/resume, checkpointed state and human approval/intervention mechanics. |
+| **L4** | [LangSmith observability](https://docs.langchain.com/langsmith/observability) | Live docs **retrieved 24 Sep 2026** | Traces, production metrics, dashboards, alerts, automations/webhooks and online evaluation hooks. |
+| **L5** | [LangSmith evaluation](https://docs.langchain.com/langsmith/evaluation) | Live docs **retrieved 24 Sep 2026** | Offline/online evaluation, datasets/evaluators, regression testing, production evaluation and monitoring. |
+| **L6** | [LangGraph release 1.2.12](https://github.com/langchain-ai/langgraph/releases/tag/1.2.12) | **1.2.12 · published 21 Sep 2026** | Stable runtime release anchor for the 24 Sep evidence freeze. The original 17 Sep review would have been bounded by 1.2.11 (11 Aug 2026). |
+| **L7** | [LangSmith SDK release v0.14.0](https://github.com/langchain-ai/langsmith-sdk/releases/tag/v0.14.0) | **v0.14.0 · published 21 Sep 2026** | SDK provenance anchor for the 24 Sep evidence freeze. The original 17 Sep review was bounded by v0.12.6 (16 Sep 2026). |
 
-| Ref | Authoritative source | Evidence basis used |
-|---|---|---|
-| **L0** | LangGraph GitHub releases | Release pin: **1.2.11 (11 Aug 2026)** for the original profile; later 1.2.12 (21 Sep 2026) excluded from the original freeze unless a successor profile adopts it. |
-| **L1** | LangGraph overview | Living docs, re-checked **24 Sep 2026**; basis for low-level orchestration/runtime, durable execution, streaming and HITL claims. |
-| **L2** | LangGraph persistence | Living docs, re-checked **24 Sep 2026**; basis for checkpointers/thread state and stores/application-defined durable data. |
-| **L3** | LangGraph interrupts | Living docs, re-checked **24 Sep 2026**; explicitly documents pausing, persisted state and waiting until resumed. |
-| **L4** | LangSmith observability | Living docs, re-checked **24 Sep 2026**; basis for traces, production metrics, dashboards, alerts, rules/webhooks and online evaluations. |
-| **L5** | LangSmith evaluation | Living docs, re-checked **24 Sep 2026**; basis for offline/online evaluation, human/code/LLM evaluators, automatic production evaluation and feedback loops. |
+**Version boundary:** LangSmith is a hosted platform and its documentation is not equivalent to the Python SDK release number; L7 pins the client SDK state, while L4/L5 remain the authoritative feature documentation. Likewise, the release pin does not imply that every deployment uses the latest package.
 
-**URLs**
-
-- **[L0]** https://github.com/langchain-ai/langgraph/releases
-- **[L1]** https://docs.langchain.com/oss/python/langgraph/overview
-- **[L2]** https://docs.langchain.com/oss/python/langgraph/persistence
-- **[L3]** https://docs.langchain.com/oss/python/langgraph/interrupts
-- **[L4]** https://docs.langchain.com/langsmith/observability
-- **[L5]** https://docs.langchain.com/langsmith/evaluation
+**Dating rule for presentation use:** quote the evidence freeze (**24 Sep 2026**) plus the relevant live-doc retrieval date and, for runtime claims, the release anchor (**LangGraph 1.2.12 / LangSmith SDK v0.14.0**). Avoid undated phrases such as "current LangGraph" without the source freeze.
 
 **Source boundary:** the product pages are dynamic, so **24 September 2026 is the evidence-access cut-off**, not a claim that the pages themselves were published on that date. The runtime comparison remains anchored to LangGraph 1.2.11 for the original 17 September profile. Later LangGraph/LangSmith capabilities, including anything added after the cut-off, require an explicit successor or source-basis refresh before they can support presentation claims.
 
