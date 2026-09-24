@@ -8,9 +8,9 @@
 | **Version · date** | v0.1 Draft · 2026-09-24 |
 | **Evidence freeze** | 2026-09-24 |
 | **Parent scenario** | [00J — Rights-Provenance Inversion](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
-| **Primary implementation reference** | Panodyssey AI Transparency Notice / publisher-side rights stack |
-| **Interoperability reference** | TEMS Trial 7 — rights portability across systems |
-| **Public FG-TIDA reference** | Theme #17 — Digital Rights Infrastructure for Text |
+| **Primary implementation reference** | [Panodyssey AI Transparency Notice](https://panodyssey.com/en/article/technology/press-release-panodyssey-launches-the-ai-transparency-notice-tpbhc7snppcb) + [FG-TIDA Theme #17](https://github.com/FG-TIDA/themes/issues/17) publisher-side rights stack |
+| **Interoperability reference** | [TEMS Trial 7 — How Rights Travel Across Systems](https://tems-dataspace.eu/tems-trial-7-how-rights-travel-across-systems/) |
+| **Public FG-TIDA reference** | [Theme #17 — Digital Rights Infrastructure for Text](https://github.com/FG-TIDA/themes/issues/17), proposer: Alexandre Leforestier (Panodyssey) |
 
 > **Unexecuted implementation-path analysis.** This profile asks how a standard competent Panodyssey-side implementation, a defended top implementation extended through the agent/interoperability boundary, and that exact frozen top implementation under a latent downstream rights-resolution regime change interact with 00J Q0–Q5. It does **not** report that Panodyssey, TEMS, ODRL or any named AI/right-management system fails 00J.
 
