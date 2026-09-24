@@ -1,10 +1,12 @@
-# Ecosystem Awareness — Functional Interfaces & Agentic Security Integration — v0.4
+# Ecosystem Awareness — General Functional Interfaces & Agentic Security — v0.5 Integrated
 
 ## Companion interface model to the fixed F1–F9 Functional Architecture
 
 &nbsp;
 
 # Status and purpose
+
+> **vNext review notice.** This **v0.5 Integrated** document is the current programme-independent **04 interface baseline for the active review cycle**; the historical controlled v0.4 source remains preserved separately. Post-baseline interface changes are accumulated in [**04 General Interfaces vNext Review & Delta v0.1 Draft**](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). The delta is upstream-controlled by the frozen [00 Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) and its [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). This notice is change-control metadata only: it does not alter O1–O6, IF-S1–IF-S13, EHD semantics or Appendix A below. A later 04 version must be promoted explicitly rather than silently rewriting this review baseline.
 
 This document defines the external functional interfaces required by the Ecosystem Awareness architecture. The nine internal functions F1–F9 remain the fixed functional set. v0.4 preserves O1–O6 and IF-S1–IF-S13 exactly as the interface taxonomy, preserves the v0.2 risk/sensitivity and finite-capacity qualification, and adds the validation-gated acquisition-pathway/profile semantics required by F2.APQ. No O7, IF-S14 or new mandatory producer family is introduced. `IF-S#` is an unambiguous namespace prefix only; it does not change any interface family, payload or ownership boundary.
 
