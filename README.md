@@ -7,6 +7,23 @@
 
 > **You are here:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → **Structural Awareness Programme**
 
+<div align="center">
+
+## Start here — Ecosystem Positioning
+
+**The main architectural entry point for the Structural Awareness Programme.**
+
+[![Enter Ecosystem Positioning](https://img.shields.io/badge/ENTER-ECOSYSTEM%20POSITIONING-1B4D8E?style=for-the-badge)](./architectural-contributions/ecosystem-positioning/README.md)
+[![PowerPoint](https://img.shields.io/badge/OPEN-POWERPOINT-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
+
+**Architecture:** [Ecosystem Positioning](./architectural-contributions/ecosystem-positioning/README.md)  
+**Technical gates:** [Ecosystem Awareness](./research/ecosystem-awareness/README.md) · [Regime Awareness](./research/regime-awareness/README.md) · [MSCA](./standards/minimum-sufficient-control/README.md)
+
+</div>
+
+---
+
+
 Structural Awareness is the umbrella programme. It connects four different kinds of work that answer four different questions about the same problem: **how do we understand enough of a complex system to act without destroying what actually makes it work?**
 
 The programme is developed through **Tegrity.AI, part of The Integral Management Society**.
