@@ -7,13 +7,13 @@
 | **Status** | Working draft · fictional candidate scenario · not a benchmark result |
 | **Version · date** | v0.1 Draft · 2026-09-24 |
 | **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning |
-| **Reference industrial case** | Panodyssey / FG-TIDA Theme #17 — text rights and agent identity |
+| **Reference industrial case** | [FG-TIDA Theme #17 — Digital Rights Infrastructure for Text: A Production Use Case for Agent Identity](https://github.com/FG-TIDA/themes/issues/17), proposed publicly by Alexandre Leforestier (Panodyssey) |
 | **Canonical requirements basis** | [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
 | **Change-control basis** | [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 
 > **Worked virtual case and integrated quality plan.** 00J tests whether a valid local provenance or generation statement can be promoted, through broken lineage and downstream replication, into an unsupported rights conclusion that is operationally stronger than the original creator's record. The concrete paradox is deliberately simple: the original author is eventually asked to license or pay for material derived from the author's own work.
 >
-> This document does **not** claim that Panodyssey, a named AI provider, a rights registry, a licensing platform or any current standard causes this failure. Panodyssey is used only as a strong upstream reference case because it makes creator identity, rights declarations, timestamps and audit history unusually explicit. The fictional failure occurs after information leaves that bounded source context and crosses independently governed systems.
+> This document does **not** claim that Panodyssey, a named AI provider, a rights registry, a licensing platform or any current standard causes this failure. [FG-TIDA Theme #17](https://github.com/FG-TIDA/themes/issues/17) is used only as a strong upstream reference case because its public description makes creator identity, rights declarations, timestamps and audit history explicit on the publisher side. The fictional failure occurs after information leaves that bounded source context and crosses independently governed systems.
 
 ## 0. Gate-source rule and requirements boundary
 
