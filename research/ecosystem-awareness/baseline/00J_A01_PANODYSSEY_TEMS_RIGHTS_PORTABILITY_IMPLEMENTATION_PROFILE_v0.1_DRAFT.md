@@ -14,6 +14,10 @@
 
 > **Unexecuted implementation-path analysis.** This profile asks how a standard competent Panodyssey-side implementation, a defended top implementation extended through the agent/interoperability boundary, and that exact frozen top implementation under a latent downstream rights-resolution regime change interact with 00J Q0–Q5. It does **not** report that Panodyssey, TEMS, ODRL or any named AI/right-management system fails 00J.
 
+The purpose of 00J-A01 is not to benchmark Panodyssey or TEMS as products. It is to use a comparatively strong public rights-and-portability context to ask a more difficult implementation question: what happens when an already competent system is frozen, the final business question remains the same, and the external resolver or lineage contract that made the earlier answer sufficient is no longer semantically stable?
+
+That is why this profile distinguishes so carefully between **publicly documented capability**, **constructed strong-peer engineering**, and **synthetic regime-change stress**.
+
 ---
 
 ## 1. Why Panodyssey/TEMS is the first implementation trajectory
@@ -168,6 +172,8 @@ The three arms intentionally mirror the existing 00E/00H implementation-profile 
 
 A future EA-enabled arm is admitted only if H1/H2 leave a measurable differential. H1 is allowed to be strengthened before fixture freeze by a competent defender. No post-result patching is permitted.
 
+The trajectory is intentionally asymmetric in difficulty: H0 establishes the public source boundary; H1 is allowed to become genuinely excellent; and only then may H2 ask whether that excellence survives a material change in the external relation on which its earlier sufficiency depended.
+
 ---
 
 ## 3A. Public capability versus constructed test architecture
@@ -191,6 +197,8 @@ This classification table is controlling whenever prose elsewhere could be read 
 ---
 
 ## 4. PANO-H0 — standard competent source-side route
+
+**The trajectory begins from the documented source boundary, not from a strawman.**
 
 ### 4.1 What H0 legitimately does well
 
@@ -236,6 +244,8 @@ An H0 failure here is not evidence that Panodyssey is defective. It is evidence 
 ---
 
 ## 5. PANO-H1 — defended top interoperability implementation
+
+**H1 gives the strongest reasonable conventional defender every fair advantage, including controls that are not attributed to the current Panodyssey product unless separately evidenced.**
 
 PANO-H1 is **not claimed to be the current Panodyssey product**. It is the strongest reasonable implementation a competent defender can build using Panodyssey/TEMS as the source/interoperability substrate.
 
@@ -299,6 +309,8 @@ If H1 cannot pass these under the original regime, the failure is ordinary missi
 ---
 
 ## 6. PANO-H2 — same top implementation under regime change
+
+**Only after the defended route has demonstrated competence on the same final enforcement question is it frozen and exposed to a genuine regime stress.**
 
 This is the decisive trajectory.
 
@@ -496,7 +508,7 @@ These remain scenario/profile observables, not new canonical KPI families.
 The proposed differential is weakened or rejected if a frozen strong H1 implementation:
 
 - passes all original-regime controls;
-- detects the H2 decision-proposition shift;
+- detects the H2 resolver/evidence-contract invalidation while the final Q5 proposition remains unchanged;
 - retrieves/preserves the required upstream dependency/authority state;
 - blocks unsupported enforcement;
 - accepts legitimate transfer/independent work;
@@ -572,6 +584,12 @@ This gives 00J the same architecture-testing discipline used in the LangGraph, A
 - let an excellent conventional implementation solve ordinary failures;
 - freeze that excellent implementation;
 - then change the material ecosystem relation without changing its code;
-- test whether it recognizes that the old representation is no longer sufficient for the new decision.
+- test whether it recognizes that the old representation is no longer sufficient for the same decision after the external resolver/lineage relation changes.
+
+The value of this trajectory is not that H2 is expected to fail. Its value is that H2 gives a strong conventional implementation a fair opportunity to prove that it can detect and requalify a changed evidence contract without relying on EA-specific terminology.
+
+A successful H1/H2 result therefore counts against the proposed differential. A failure counts only if H1 was genuinely strong, passed the paired enforcement controls under the original regime, and then continued to rely on an externally changed relation as though its decision meaning had remained stable.
+
+**The implementation question is ultimately the same as the scenario question: when a record remains technically valid, can the system still establish that it remains sufficient for the proposition now being enforced?**
 
 **Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.
