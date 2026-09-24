@@ -654,7 +654,7 @@ Read with:
 - [00D-A01](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md), if/when 00I is converted into an admitted reproducible fixture.
 - [00I-A01 — AWS Step Functions / RDS implementation trajectories](./00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md), the audited concrete OOTB → top-notch → frozen-top-notch-under-drift profile with implementation skeletons.
 
-**Comparator/product boundary:** no implementation-profile annex is created by this document. Any later product profile must freeze this event, source/version semantics, gates, positive controls and outcome oracle before testing, and must allow the strongest materially relevant peer configuration rather than treating absence of EP terminology as failure.
+**Comparator/product boundary:** the current implementation-profile annex is [00I-A01 — AWS Step Functions / RDS v0.2 Draft](./00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md), with its inspectable [00I-AWS fixture package](./fixtures/00I-AWS/README.md). Any future product or platform profile must freeze this event, source/version semantics, gates, positive controls and outcome oracle before testing, and must allow the strongest materially relevant peer configuration rather than treating absence of EP terminology as failure.
 
 **Status:** public working reference failure scenario and quality-gate plan; not a real incident, deployed database policy, completed benchmark, safety case, product comparison, adopted standard or validated proof of EP effectiveness.
 
