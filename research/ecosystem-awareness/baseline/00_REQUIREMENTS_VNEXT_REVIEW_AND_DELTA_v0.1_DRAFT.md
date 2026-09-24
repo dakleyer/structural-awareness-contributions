@@ -77,7 +77,9 @@ The post-freeze corpus now adds three independent reference scenarios:
 4. [**00H — Batch Opportunity Beyond Authority**](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.4_DRAFT.md), testing whether a valuable and technically reachable opportunity is preserved and routed without being silently discarded **or** converted into execution authority, including aggregate/salami-slicing failure and bounded re-contracting; and
 5. [**00I — Semantic TOCTOU / The Patch That Undid the Fix**](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md), testing whether a previously correct queued decision is requalified against current authoritative state at time of use, rather than being executed merely because its token, job and endpoint remain technically valid.
 
-The five scenarios are deliberately different stress surfaces. They do **not** create five requirement families. Their role in this delta is to ask whether the same frozen S1–S14 / T1–T4 / H1–H6 system survives materially different failure mechanisms.
+The five scenarios are deliberately different stress surfaces. They do **not** create five requirement families.
+
+**Review-count boundary:** this 2→5 count is the scenario set actually reviewed in this W1 delta through 00I. The canonical corpus router also currently lists **00J — Rights-Provenance Inversion** as a separate candidate scenario. 00J is not silently treated as reviewed here; its requirement implications must be added in a separate W1 review step before this section's count or conclusions are extended again. Their role in this delta is to ask whether the same frozen S1–S14 / T1–T4 / H1–H6 system survives materially different failure mechanisms.
 
 | Scenario | Primary new stress relative to the others | Current delta disposition |
 |---|---|---|
