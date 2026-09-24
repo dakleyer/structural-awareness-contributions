@@ -6,6 +6,8 @@
 
 # Status and purpose
 
+> **Layering / navigation note.** This document is the **programme-independent general Ecosystem Awareness interface layer**. Its semantics are expressed only in generic producer/consumer, operational-agent and trust/security capabilities. A downstream FG-TIDA application is maintained separately as [**05 — Ideal FG-TIDA Cross-Theme Interfaces**](../fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md), with its [vNext ideal delta](../fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); the dated realistic FG-TIDA subset is [**05A — Current-State Bridge**](../fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md). Those application layers may map or narrow 04, but they cannot redefine it.
+
 > **vNext review notice.** This **v0.5 Integrated** document is the current programme-independent **04 interface baseline for the active review cycle**; the historical controlled v0.4 source remains preserved separately. Post-baseline interface changes are accumulated in [**04 General Interfaces vNext Review & Delta v0.1 Draft**](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). The delta is upstream-controlled by the frozen [00 Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) and its [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). This notice is change-control metadata only: it does not alter O1–O6, IF-S1–IF-S13, EHD semantics or Appendix A below. A later 04 version must be promoted explicitly rather than silently rewriting this review baseline.
 
 This document defines the external functional interfaces required by the Ecosystem Awareness architecture. The nine internal functions F1–F9 remain the fixed functional set. v0.4 preserves O1–O6 and IF-S1–IF-S13 exactly as the interface taxonomy, preserves the v0.2 risk/sensitivity and finite-capacity qualification, and adds the validation-gated acquisition-pathway/profile semantics required by F2.APQ. No O7, IF-S14 or new mandatory producer family is introduced. `IF-S#` is an unambiguous namespace prefix only; it does not change any interface family, payload or ownership boundary.
@@ -20,7 +22,7 @@ The model is technology-neutral. It deliberately aligns with common agentic arch
 
 &nbsp;
 
-The bilateral Theme-specific mappings are maintained separately in “Ecosystem Awareness — Provisional Cross-Theme Interface Contracts — v0.4”. Those contracts are discussion artifacts derived from this interface model; they do not modify O1–O6 or IF-S1–IF-S13 unless later Use Case/testbed evidence exposes a real interface gap.
+Programme- or domain-specific mappings are maintained outside this document. They may specialize or constrain these interfaces for a particular institutional setting, but they do not modify O1–O6 or IF-S1–IF-S13. If downstream evidence exposes a genuinely generic interface gap, that gap must return to the 04 review/change-control route rather than being introduced silently in an application profile.
 
 &nbsp;
 
