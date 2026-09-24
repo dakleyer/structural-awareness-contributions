@@ -10,6 +10,8 @@
 
 > **v0.5 editorial-successor note.** [00I v0.5 Draft](../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) is the active reader-facing successor. It preserves the v0.4 scenario/gate/implementation semantics audited here and adds case-card, audience-routing, diagrams, nomenclature and evidence-presentation improvements only. The engineering and experimental findings below therefore remain applicable; v0.5 does not claim a new independent audit.
 
+> **Freeze Edition publication note.** The current public/presentation route is the [00I v0.5 Freeze Edition](../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md). It adds only machine-marked presentation/visual blocks over the complete v0.5 technical source. Exact zero-loss reconstruction is recorded in the [Freeze Edition conservation manifest](./00I_V0.5_FREEZE_EDITION_MANIFEST_2026-09-24.md). This audit remains a historical adversarial review of the underlying v0.4 semantics and does not pretend to be a new independent audit of the presentation layer.
+
 ## Audit A — EA / Requirements traceability
 
 ### Question
