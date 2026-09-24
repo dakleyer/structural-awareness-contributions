@@ -45,18 +45,43 @@ The profile therefore does **not** treat Panodyssey as the weak baseline. It sta
 
 ## 2. Public source boundary
 
+### 2.0 Public-only evidence rule
+
+00J-A01 is intended to be independently reviewable by a third party.
+
+**No private email, private meeting note, non-public demonstration or undocumented product claim is used as evidence for Panodyssey/TEMS capability in this profile.**
+
+Every product/project assertion must be traceable to one of the public sources P1–P8 below. Where the profile needs a capability beyond those public sources, it is explicitly classified as one of:
+
+- **strong-peer engineering extension** — something a competent defender is allowed to add for H1;
+- **synthetic fixture fact** — a frozen condition created by 00J for comparison; or
+- **regime-change mutation** — an externally changed resolver/identifier/lineage condition injected only in H2.
+
+This prevents private implementation knowledge from becoming an unreviewable advantage and prevents H1/H2 from being misread as descriptions of the deployed Panodyssey product.
+
+Public contributor attribution is likewise bounded. Theme #17 publicly identifies **Alexandre Leforestier (Panodyssey)** as proposer and GitHub **@AlexandreLeforestierITU** as the public contributor in the discussion. This profile relies only on what those public records and linked public Panodyssey/TEMS pages establish.
+
 ### P1 — FG-TIDA Theme #17
 
 https://github.com/FG-TIDA/themes/issues/17
 
 Used for:
 
+- public identification of **Alexandre Leforestier (Panodyssey)** as Theme #17 proposer;
 - five production publisher-side layers;
 - indexing/RAG/training distinction;
 - timestamped rights-declaration history;
 - certified author identity;
 - explicit statement that the chain stops at the agent-side identity/legal-representation boundary;
 - proposed evidence/rejection classes such as current, replayed, expired, malformed and signed-but-out-of-mandate.
+
+Public Alexandre Leforestier reply used for KYC / missing AI identity / TEMS Trial 7 interoperability statements:
+
+https://github.com/FG-TIDA/themes/issues/17#issuecomment-5523072385
+
+Public Alexandre Leforestier comment used for Case Study → Challenge → Use Case alignment and V2.1 deployment statement:
+
+https://github.com/FG-TIDA/themes/issues/17#issuecomment-5542576491
 
 ### P2 — Panodyssey AI Transparency Notice launch
 
@@ -137,11 +162,31 @@ The three arms intentionally mirror the existing 00E/00H implementation-profile 
 
 | Arm | Configuration | Purpose |
 |---|---|---|
-| **PANO-H0 — standard competent source-side implementation** | Current publicly described publisher-side Panodyssey/Notice capabilities: certified author identity, per-publication machine-readable rights, ODRL/JSON-LD-style rights state, timestamps/history, domain/discovery signals, ordinary cross-system publication/export | Establish what a real strong publisher-side implementation already prevents without pretending it controls the entire downstream ecosystem |
+| **PANO-H0 — standard competent source-side implementation** | **Publicly documented as of the 24 Sep 2026 evidence freeze:** publisher-side Panodyssey/Notice capabilities described in Theme #17 and public Panodyssey/TEMS sources, including certified author identity, per-publication machine-readable rights, ODRL/JSON-LD-style rights state, timestamps/history, domain/discovery signals and rights-portability context | Establish what the public source-side implementation already supports without importing private implementation detail or pretending it controls the entire downstream ecosystem |
 | **PANO-H1 — premium / defended top interoperability implementation** | H0 plus verifiable agent principal/representation, current mandate/purpose/scope, signed access/right-decision receipt, versioned source/right identifiers across TEMS-style handoff, explicit claim-supported-proposition, source/dependency lineage, expiry/revocation, bounded challenge/re-entry **and a stable downstream enforcement resolver that must pass the unsupported-claim and legitimate-transfer controls before H2 is admitted** | Give the strongest reasonable peer the controls needed to attack 00J directly; “premium” is an analysis label, not a Panodyssey commercial tier |
 | **PANO-H2 — same frozen top implementation under latent resolver/lineage regime change** | Freeze H1 code/resources/interfaces after it correctly resolves the same final licensing/enforcement proposition. Then change the external resolver/identifier/evidence contract: D1/RX remain authentic and current, but the source-dependency/authority relation that H1 previously relied on is no longer required, represented or retrievable with the same semantics | Test whether the excellent implementation detects that its previously sufficient evidence contract has become invalid for the **same Q5 enforcement decision**, rather than merely handling a new decision type |
 
 A future EA-enabled arm is admitted only if H1/H2 leave a measurable differential. H1 is allowed to be strengthened before fixture freeze by a competent defender. No post-result patching is permitted.
+
+---
+
+## 3A. Public capability versus constructed test architecture
+
+| Element | Classification | Evidence / boundary |
+|---|---|---|
+| Panodyssey publisher-side five-layer chain | **Publicly documented** | Theme #17 P1 |
+| Certified author/rightsholder identity on publisher side | **Publicly documented** | Theme #17 P1 + Alexandre Leforestier public reply |
+| Per-publication machine-readable rights and indexing/RAG/training distinction | **Publicly documented** | Theme #17 P1 |
+| Timestamped/versioned rights declaration history | **Publicly documented** | Theme #17 P1 |
+| Panodyssey / TEMS Trial 7 interoperability and rights-portability context | **Publicly documented** | Theme #17 public reply + TEMS P5 |
+| Panodyssey Notice launch / V2.1 / certified-human-content licensing claims | **Public vendor/project documentation** | P2–P4 |
+| Agent principal/mandate binding used by PANO-H1 | **Constructed strong-peer extension** | not attributed to current Panodyssey unless separately evidenced |
+| Proposition-bound decision receipt used by PANO-H1 | **Constructed strong-peer extension** | test architecture |
+| Explicit W→D1 source-dependency service used by PANO-H1 | **Constructed strong-peer extension** | test architecture; C2PA/ODRL are neighboring public references, not proof Panodyssey implements this exact service |
+| Original lineage-aware Q5 resolver used by H1 | **Synthetic/constructed strong-peer fixture** | must pass paired negative/legitimate-transfer controls before H2 |
+| Resolver/identifier/lineage mutation in H2 | **Synthetic regime-change fixture** | not claimed to be a Panodyssey/TEMS incident |
+
+This classification table is controlling whenever prose elsewhere could be read ambiguously.
 
 ---
 
@@ -469,6 +514,8 @@ This profile distinguishes three layers.
 ### Documented Panodyssey/TEMS capability
 
 Public source evidence supports the publisher-side rights/identity/audit stack and the cross-system rights-portability work.
+
+**Nothing in this section is sourced from the private email thread.** If a privately discussed implementation detail is not present in P1–P8, it is excluded from the documented-capability claim.
 
 ### Strong-peer engineering extension
 
