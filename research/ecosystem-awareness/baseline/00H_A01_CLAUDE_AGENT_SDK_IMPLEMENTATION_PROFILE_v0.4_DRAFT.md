@@ -146,7 +146,7 @@ The test does **not** assume compaction or subagents lose authority state. It as
 
 The fair defender extension **CLAUDE-H1-L** adds authoritative root/delegation lineage and S8 non-amplification. If H1-L passes U/G/I at equal or lower burden, that weakens the EA differential. The profile therefore does not claim an inherent Claude limitation.
 
-## 8. Three decisive matched tests
+## 8. Five decisive matched tests
 
 ### Test A — cross-case mandate
 
