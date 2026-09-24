@@ -277,9 +277,10 @@ The most mature near-term current-state execution path is now:
 
 **UC #6 facts / expected outcomes**  
 → **Theme #16 v0.2 annotations**  
-→ **bounded UC #4 executable profile**  
+→ **draft bounded cross-interface / UC #4 profile**  
 → **semantic-owner review**  
-→ **fixture/trace freeze only after review**
+→ **version-pinned adapter / fixture / expected-outcome freeze**  
+→ **UC #4 executable traces / report**
 
 The executable profile should preserve:
 
