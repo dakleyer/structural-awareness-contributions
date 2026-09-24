@@ -156,7 +156,49 @@ Theme #11 has been updated and is open for comments, but the public record revie
 
 **05A delta disposition:** **Not established** for a #11↔EA profile. The ideal 05 mapping remains an ideal target only.
 
-### 2.7 New public use cases #9 and #10
+### 2.7 Use Case #7 — identity / execution / action-time state
+
+UC #7 was published after the 19 September 05A snapshot and is directly relevant to the current interface boundary.
+
+It distinguishes:
+
+- persistent/logical agent identity from a particular execution;
+- action-time material state from later/current state;
+- continuity assertions from mere shared model/runtime/checkpoint similarity;
+- request/acceptance/completed effect as separate records;
+- current authorization from earlier approval; and
+- supported continuity from unresolved or missing evidence.
+
+**05A delta disposition:**
+
+- UC #7 case facts and expected findings: **Current source state** as a public use case;
+- identity / execution / action-time-state distinction: **Current source state** as case semantics;
+- a common cross-Theme identity-state handoff/profile: **Candidate cross-Theme field/profile**;
+- any claim that persistent identity proves current authority or state continuity: **Not established / prohibited inference**.
+
+### 2.8 Theme #6, verifier-side Theme #7, and Theme #22 — source semantics versus EA mapping
+
+The public record now supports a more precise distinction than the original 05A row that grouped #6/#22 together.
+
+**Theme #6** publicly maintains source-native action/verdict semantics with scope, attribution/issuer and versioned reference semantics; its contributors have also explicitly stated that #6 does not own the cross-scope/systemic conclusion.
+
+- #6 source-native verdict/reference semantics: **Current source state**;
+- #6 → EA bounded adapter/profile: **Candidate cross-Theme field/profile**;
+- EA rewriting a #6 verdict into a systemic state: **Not established / prohibited semantic translation**.
+
+**Theme #7** explicitly proposes verifier-side obligations and deterministic negative vectors around identifier control, freshness/replay, authorization scope and attestation appraisal.
+
+- verifier-side failure/check semantics as a public contribution: **Current source state**;
+- a common #7 → EA runtime handoff: **Candidate / Not established** depending on the field;
+- negative vectors used in an EA/FG-TIDA conformance profile: **Test-only** until reviewed in that route.
+
+**Theme #22** publicly defines Remote Attestation for Agentic AI as a separate Theme/WG concerned with what/how/when to attest.
+
+- Theme #22 attestation function/scope: **Current source state**;
+- a common #22 → EA attestation-result profile: **Candidate cross-Theme field/profile**;
+- any inference that attestation alone establishes systemic sufficiency: **Not established**.
+
+### 2.9 New public use cases #9 and #10
 
 Two new public cases materially expand test pressure:
 
@@ -190,6 +232,10 @@ Two new public cases materially expand test pressure:
 | 01I / ACC participation profile | **Not established as FG-TIDA profile** | internal corpus profile only |
 | #23↔#16 bounded privilege/oversight route | **Candidate cross-Theme route** | public contributor discussion |
 | #11 model-level EA profile | **Not established** | Theme exists/updated; EA mapping not publicly agreed |
+| UC #7 identity/execution/action-time-state case | **Current source state as case semantics**; common handoff candidate | public use case exists; no common cross-Theme profile frozen |
+| #6 source-native verdict/reference semantics | **Current source state**; #6→EA adapter **Candidate** | public Theme discussion preserves local semantics and rejects cross-scope ownership |
+| #7 verifier-side obligations / negative vectors | **Current source state as contribution**; EA mapping **Candidate/Test-only** | public verifier proposal exists; no common EA handoff adopted |
+| #22 attestation Theme capability | **Current source state**; #22→EA result profile **Candidate** | public Theme/WG scope exists; no common EA profile adopted |
 | UC #9/#10 as semantic cases | **Current source state as cases**; interface consequences candidate | public use cases exist, mapping not reviewed |
 | Theme #17 production rights case | **Current source state only to last public Theme #17 record** | later private correspondence does not change public Theme state |
 | Future 00I Semantic TOCTOU scenario | **Not established / nonexistent in repo** | must not be assumed until committed and reviewed |
@@ -292,7 +338,26 @@ Private email, internal EA documents and ideal 05 mappings may inform questions,
 
 ---
 
-## 8. Current determination
+## 8. Challenge floor — realistic does not mean weak
+
+05A narrows **claims of present support**, not the difficulty of the tests.
+
+A current-state profile may test candidate fields or profiles without pretending that they are adopted runtime semantics. To remain meaningful for Ecosystem Awareness, the near-term route should include at least the following challenge classes once their semantic mappings are reviewed:
+
+1. **Nominal continuity control** — when nothing material changes, EA instrumentation must not create unnecessary HOLD, escalation, containment or requalification.
+2. **Local-equivalence / systemic-divergence pair** — hold the relevant local/native result constant while changing a material ecosystem qualifier such as source independence, inherited indeterminacy, validity or capacity. The systemic qualification should change only when the changed qualifier is decision-material.
+3. **Targeted requalification** — when one specific basis becomes stale or insufficient, the route should refresh/re-enter at that basis rather than restart or expand the whole context indiscriminately.
+4. **Source-dependence control** — nominally multiple corroborators sharing one material upstream source must not be counted as independent corroboration.
+5. **Decision / execution separation** — a decision or agent assertion must not be treated as externally confirmed outcome when that confirmation is material and available.
+6. **Independent interoperability** — at least one admitted route should eventually cross independently implemented or independently governed producer/consumer boundaries without requiring shared internal EA logic.
+
+Where a comparative claim is made, a **strong native/control configuration** should be allowed to reproduce the same behaviour. If it does so at equal or lower burden, that result counts against an EA differential claim rather than being explained away.
+
+This challenge floor does not promote DBC, EHD or any candidate field into adopted FG-TIDA semantics. It defines the minimum difficulty expected from a test that claims to exercise a material Ecosystem Awareness differential.
+
+---
+
+## 9. Current determination
 
 As of the public record reviewed through **24 September 2026**:
 
@@ -300,9 +365,10 @@ As of the public record reviewed through **24 September 2026**:
 2. #13's EA/lifecycle independence and bidirectional relation are substantially better supported than in the 19 September snapshot, while exact institutional packaging remains open.
 3. Theme #16 now has a contributor/Theme-lead-approved bounded sequence for UC #6 → matrices → UC #4, but no frozen common runtime schema.
 4. The human-review four-part profile, validity/response timing, #23↔#16 route and several Composition-Critical refinements remain **candidate** rather than adopted.
-5. UC #9 and UC #10 broaden the public semantic case portfolio without automatically creating interface fields.
+5. UC #7, UC #9 and UC #10 broaden the public semantic case portfolio without automatically creating common interface fields.
 6. DBC, 00E–00H and 01I/ACC remain test/internal architecture sources unless independently supported by FG-TIDA public semantics.
 7. Theme #11 and several other ideal 05 mappings remain **Not established** as EA interfaces today.
 8. No universal FG-TIDA EHD, common schema, central controller or cross-Theme authority model is established.
+9. Current-state realism does not lower the challenge floor: a meaningful EA test must still distinguish nominal continuity from material systemic divergence, preserve source dependence/UNKNOWN, support targeted requalification and permit strong native controls to falsify an EA differential claim.
 
 This delta remains open and cumulative. Future public FG-TIDA changes should update this **current-state mask** rather than modifying 05 Ideal to look artificially current.
