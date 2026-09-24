@@ -28,6 +28,24 @@ For a diagram-first orientation before entering the detailed corpus, use the [**
 
 The live research and integration queue is maintained in [**Ecosystem Awareness / Positioning — Living Workplan**](./WORKPLAN.md). It separates active vNext work (Requirements, Benchmark, Testbed coverage and FG-TIDA Specification) from cross-cutting provenance, execution, product-evidence and publication controls. Completed items move out of the active queue into the workplan's short completion record rather than accumulating indefinitely here.
 
+
+## FG-TIDA / Theme #13 — current charter preparation
+
+The current public working draft for the proposed Theme #13 work structure is:
+
+- [**Annex 01G — FG-TIDA Theme #13 Working Group / Charter Preparation Draft**](./fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md)
+
+This is the direct entry point for the **Ecosystem-level Agent Defense + Ecosystem Awareness** charter preparation. It is a living preparation draft, not a submitted or adopted FG-TIDA charter.
+
+The draft itself contains a short **About / minimum reading path** and links directly to the architecture it depends on:
+
+- frozen Requirements + Requirements vNext Delta;
+- 04 General Interfaces + 04 vNext Delta;
+- 05 Ideal FG-TIDA Interfaces + 05 Ideal Delta; and
+- 05A Current-State Bridge + 05A Current-State Delta.
+
+The drafting rule is: **05 defines the target architecture; 05A determines what can responsibly be treated as current/mature in the draft.** The broader [FG-TIDA application package](./fg-tida/README.md) remains available for specification preparation, interfaces, cases, tests and provenance, but a reviewer who only needs the current charter draft should use the direct 01G link above.
+
 ## Current routed indexes
 
 1. [**Ecosystem Awareness — canonical corpus**](./baseline/README.md) — the authoritative EA reading index for foundation, requirements, topology, functional architecture, interfaces and EHD, validation profiles, benchmarks, research lineage, governance, provenance and linked case material.
@@ -114,7 +132,7 @@ The protocol:
 - **Five minutes:** this page → [100 Million Tokens](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) → [mobility divergence](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) → [benchmark status](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md).
 - **Architecture:** [canonical EA corpus](./baseline/README.md) → topology → documents 01–04 → 01H/01I/01J → interface annexes.
 - **Validation:** benchmark → A01/A03 → validation profiles → fixture/pre-registration → future execution traces.
-- **Institutional application:** [EA / FG-TIDA package](./fg-tida/README.md) → specifications/interfaces → cases/tests → provenance.
+- **Institutional application:** [**current Theme #13 charter-preparation draft (01G)**](./fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md) for the direct working document; use the broader [EA / FG-TIDA package](./fg-tida/README.md) for specifications/interfaces → cases/tests → provenance.
 
 ## Routing rule
 
