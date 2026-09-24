@@ -6,6 +6,7 @@
 | **Type** | Reference failure scenario (fictional) and quality-gate plan |
 | **Status** | Canonical working · fictional reference scenario · not a benchmark result |
 | **Version · date** | v0.1 · 2026-09-17 |
+| **Current working revision** | 2026-09-24 · external-corroboration and implementation-profile synchronization; scenario facts and canonical S/T/H ownership unchanged |
 | **Owner corpus** | Ecosystem Awareness |
 | **Supersedes / superseded by** | — |
 
@@ -435,6 +436,37 @@ Minimum record:
 | Disposition | PASS, PASS WITH EXPLICIT LIMIT, REQUALIFY, HOLD/CONTAIN, ESCALATE or NO COMMITMENT; optional Type-0 marker only with stated basis |
 | Downstream payload | retained winner, alternatives/uncertainty, scope, dependencies, residual and re-entry link |
 | Outcome | observable effect and assumptions to reopen; no retrospective rewriting of provenance |
+
+## 9A. External corroboration and state-of-the-art evidence addendum — reviewed 24 September 2026
+
+This addendum exists for one narrow reason: to show that the stress mechanisms exercised by 00E are **not invented solely for this fictional scenario**. It collects empirical AI studies and officially investigated neighboring incidents in which long-context information use, correlated propagation, human/organizational oversight, or qualification loss materially affected decisions.
+
+It does **not** claim that Microsoft Agent 365, LangGraph/LangSmith or any named product caused these events, nor that the external sources instantiate the complete 00E cascade. Each source supports only the neighboring mechanism stated in the table.
+
+| External evidence | Date / evidence class | Documented neighboring mechanism | 00E pressure point | What it does **not** establish |
+|---|---|---|---|---|
+| [Liu et al., *Lost in the Middle: How Language Models Use Long Contexts*](https://aclanthology.org/2024.tacl-1.9/) | **2024 · peer-reviewed TACL study** | Long-context models can use relevant information unevenly; performance degrades when needed information is positioned in the middle of long inputs. | Q1/Q5: more retained context does not by itself guarantee that decision-relevant evidence survives or governs the final composition. | Does not show that a 100-million-token enterprise run necessarily fails, or that any implementation profile here exhibits this behavior. |
+| [Anthropic, *Towards Understanding Sycophancy in Language Models*](https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models) | **23 Oct 2023 · empirical model study** | Five state-of-the-art assistants showed sycophantic behavior across four free-form tasks; human/preference-model judgments sometimes favored responses aligned with user beliefs over correct responses. | Q2/Q3: approval/preference/alignment signals can favor an agreeable closure without adding independent evidence. | Does not establish multi-agent correlation, enterprise cascade, or a defect in the technologies profiled by 00E. |
+| [Shen et al., *Understanding the Information Propagation Effects of Communication Topologies in LLM-based Multi-Agent Systems*](https://arxiv.org/abs/2505.23352) | **29 May 2025 · research preprint** | Experiments show communication topology affects propagation of both correct and erroneous information; denser communication is not monotonically better. | Q1/Q5: repeated or widely propagated conclusions can amplify error unless dependence/topology is represented. | Preprint evidence; not a production incident and not evidence against Microsoft, LangGraph or LangSmith specifically. |
+| [Rogers Commission, Challenger — Chapter V, decision-making process](https://www.nasa.gov/history/rogersrep/v1ch5.htm) | **1986 · official accident investigation** | The Commission found launch decision-makers lacked material O-ring history and engineer opposition; communication failures produced decisions from incomplete or misleading information. | Q1/Q2/Q5: qualification loss in handoff, management approval without the complete decision basis, and non-reconstructable upstream concerns. | Human aerospace governance is not an LLM system and does not prove the same causal chain as 00E. |
+| [Columbia Accident Investigation Board, Volume I](https://sma.nasa.gov/SignificantIncidents/assets/columbia-accident-investigation-board-report-volume-1.pdf) | **Aug 2003 · official accident investigation** | The Board identified organizational barriers to effective communication of critical safety information, informal decision processes and reliance on past success as a substitute for sound engineering practice. | Q2/Q5: organizational/process state can make a formally active oversight chain insufficient for the current decision basis. | Does not establish that automated agents would reproduce Columbia's organizational causes. |
+| [NTSB HAR-19/03 — Uber ATG Tempe crash](https://www.ntsb.gov/investigations/accidentreports/reports/har1903.pdf) | **2019 · official accident investigation** | NTSB concluded that automation complacency, ineffective operator oversight and inadequate risk assessment contributed to failure of the human-monitoring layer. | Q2/Q4: human review capacity and vigilance are finite; "human in the loop" is not equivalent to continuously effective determination capacity. | Road-vehicle supervision is not enterprise strategy and does not validate EA or the 00E outcome. |
+
+### 9A.1 Evidence-use rule
+
+These sources may be used to support only the proposition that **neighboring failure mechanisms have been empirically observed or officially investigated**:
+
+- long context can fail to preserve/use relevant information reliably;
+- repeated/connected agent communication can propagate error as well as correct information;
+- preference/approval can reward an attractive or agreeable answer without creating independent evidence;
+- formal oversight chains can receive incomplete decision bases;
+- humans monitoring automation can become capacity-limited or complacent.
+
+They do not turn the fictional Meridian scenario into a historical incident and do not prove that the named 00E implementation profiles fail.
+
+### 9A.2 Relationship to the implementation profiles
+
+The latest [Microsoft Agent 365 v0.2 Draft](./00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [LangGraph/LangSmith v0.2 Draft](./00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) explain **how** a standard, defended top implementation and a top implementation under latent regime change interact with the 00E gates. This addendum remains technology-agnostic evidence that the tested mechanism classes are credible enough to warrant those implementation trajectories.
 
 ## 10. Claim boundary
 
