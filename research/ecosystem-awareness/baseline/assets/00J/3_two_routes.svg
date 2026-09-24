@@ -1,0 +1,56 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1200" height="760" fill="#F7F8FA"/>
+<text x="40" y="45" font-size="24" font-weight="bold" fill="#1F2C4A">Same event, two implementations</text>
+<text x="40" y="70" font-size="14" fill="#5D6572">Both routes see the same facts. Only one preserves the difference between "generated" and "owned".</text>
+<rect x="40" y="95" width="540" height="45" rx="8" fill="#B33A3A"/>
+<text x="310" y="123" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">Route N — gates bypassed / misapplied</text>
+<rect x="620" y="95" width="540" height="45" rx="8" fill="#007B82"/>
+<text x="890" y="123" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">Route Q — gates correctly implemented</text>
+<g font-size="12.5">
+<rect x="40" y="155" width="540" height="95" rx="8" fill="#FBECEA" stroke="#B33A3A" stroke-width="1"/>
+<text x="60" y="178" font-weight="bold" fill="#B33A3A">Q2 · generation vs source</text>
+<text x="60" y="200" fill="#722">"Generated-by M1" is treated as proof</text>
+<text x="60" y="218" fill="#722">that D1 is independent of W.</text>
+<text x="60" y="238" fill="#B33A3A" font-weight="bold">D1 ← W dependency silently disappears.</text>
+<rect x="620" y="155" width="540" height="95" rx="8" fill="#E6F4F0" stroke="#007B82" stroke-width="1"/>
+<text x="640" y="178" font-weight="bold" fill="#007B82">Q2 · generation vs source</text>
+<text x="640" y="200" fill="#0a5a5c">M1's credential is accepted only for the</text>
+<text x="640" y="218" fill="#0a5a5c">generation proposition, nothing wider.</text>
+<text x="640" y="238" fill="#007B82" font-weight="bold">W dependency kept, or explicit UNKNOWN.</text>
+<rect x="40" y="265" width="540" height="95" rx="8" fill="#FBECEA" stroke="#B33A3A" stroke-width="1"/>
+<text x="60" y="288" font-weight="bold" fill="#B33A3A">Q3 · downstream claim</text>
+<text x="60" y="310" fill="#722">Signature + timestamp + registry presence</text>
+<text x="60" y="328" fill="#722">is accepted as sufficient rights authority.</text>
+<text x="60" y="348" fill="#B33A3A" font-weight="bold">RX becomes stronger than its evidence.</text>
+<rect x="620" y="265" width="540" height="95" rx="8" fill="#E6F4F0" stroke="#007B82" stroke-width="1"/>
+<text x="640" y="288" font-weight="bold" fill="#007B82">Q3 · downstream claim</text>
+<text x="640" y="310" fill="#0a5a5c">RX accepted as X's own bounded record;</text>
+<text x="640" y="328" fill="#0a5a5c">conflict with R0 stays visible.</text>
+<text x="640" y="348" fill="#007B82" font-weight="bold">RX cannot manufacture absent authority.</text>
+<rect x="40" y="375" width="540" height="95" rx="8" fill="#FBECEA" stroke="#B33A3A" stroke-width="1"/>
+<text x="60" y="398" font-weight="bold" fill="#B33A3A">Q4 · replication</text>
+<text x="60" y="420" fill="#722">Multiple catalogues copying RX are</text>
+<text x="60" y="438" fill="#722">counted as independent confirmations.</text>
+<text x="60" y="458" fill="#B33A3A" font-weight="bold">False corroboration increases confidence.</text>
+<rect x="620" y="375" width="540" height="95" rx="8" fill="#E6F4F0" stroke="#007B82" stroke-width="1"/>
+<text x="640" y="398" font-weight="bold" fill="#007B82">Q4 · replication</text>
+<text x="640" y="420" fill="#0a5a5c">Replicas are correlated to one RX;</text>
+<text x="640" y="438" fill="#0a5a5c">copies never increase evidentiary class.</text>
+<text x="640" y="458" fill="#007B82" font-weight="bold">Dependent replicas do not become independent corroboration.</text>
+<rect x="40" y="485" width="540" height="110" rx="8" fill="#FBECEA" stroke="#B33A3A" stroke-width="1"/>
+<text x="60" y="508" font-weight="bold" fill="#B33A3A">Q5 · final decision</text>
+<text x="60" y="530" fill="#722">A later reuses material from W in W2;</text>
+<text x="60" y="548" fill="#722">checker emits LICENSE_REQUIRED / PAY_X</text>
+<text x="60" y="566" fill="#722">/ BLOCK based on RX alone.</text>
+<text x="60" y="586" fill="#B33A3A" font-weight="bold">The original author is billed for their own work.</text>
+<rect x="620" y="485" width="540" height="110" rx="8" fill="#E6F4F0" stroke="#007B82" stroke-width="1"/>
+<text x="640" y="508" font-weight="bold" fill="#007B82">Q5 · final decision</text>
+<text x="640" y="530" fill="#0a5a5c">Enforcement requires current evidence</text>
+<text x="640" y="548" fill="#0a5a5c">AND authority for this exact proposition —</text>
+<text x="640" y="566" fill="#0a5a5c">otherwise REQUALIFY / HOLD / no conclusion.</text>
+<text x="640" y="586" fill="#007B82" font-weight="bold">No unsupported payment or block occurs.</text>
+</g>
+<rect x="40" y="620" width="1120" height="100" rx="10" fill="#1F2C4A"/>
+<text x="600" y="655" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Route Q uses the existing canonical requirements — the core controls here trace to S1, S5, S7, S9, S11, S12 and S14.</text>
+<text x="600" y="680" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="bold">Route N fails only where those existing requirements were skipped or given flattened evidence.</text>
+</svg>
