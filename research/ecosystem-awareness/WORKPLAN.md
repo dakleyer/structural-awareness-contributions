@@ -122,6 +122,8 @@ Minimum freeze inputs:
 - the requirements-first `WB-EA-01 — Delegated Decision Integrity, Revocation and Accountable Intervention`;
 - 00G signalling / false-context convergence;
   - current implementation-path draft: [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md), with OAI-G0 standard, OAI-G1 defended top-notch and OAI-G2 same-top-under-latent-regime-change trajectories; unexecuted;
+- 00I semantic TOCTOU / stale decision-basis applicability;
+  - current scenario: [00I v0.2 Draft — The Patch That Undid the Fix](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md), with Q0–Q6 gates, A0–A3 strong-peer arms, positive continuity control and CAND-R4 check-to-act binding probe; not yet W3-admitted or executable;
 - ACC/admissibility and lineage validation;
 - gradient ranking versus permission/authority boundary;
 - effective-role drift and repositioning;
@@ -166,6 +168,8 @@ Failure of the continuity gate blocks the arm from being interpreted on the corr
 **V19/V20 authority-laundering correction.** The next 00H stress no longer asks only whether an aggregate key becomes stale. It allows a bounded adaptive coordinator to compose **individually valid leaf grants** through legitimate routing/delegation until they share one unauthorized root objective. The U/G/I paired controls force three outcomes: prevent U, permit G, keep I independent. The quality-plan correction makes canonical S8 non-amplification plus S7/S9/S12/S13 lineage/reconstruction explicit in Q0/Q2/Q5. This is recorded as a 00H coverage/instrumentation correction; no S15/H7 is created.
 
 **00H implementation trajectories / strong-peer attack:** [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.3_DRAFT.md) and [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.3_DRAFT.md) are the current unexecuted product-path drafts. Claude supplies the agent-runtime/pre-action-hook peer; Stripe supplies a genuinely different payment-risk/velocity peer, with the scientifically relevant strong comparator defined as **Radar + authoritative merchant pre-refund mandate/ledger control** rather than pretending Radar rules run on refund creation. Their v0.3 Draft successors are dated 24 Sep 2026 and align through V19/V20 and the U/G/I authority-lineage stress; both remain subject to capability/source refresh before any run.
+
+**00I — Semantic TOCTOU / The Patch That Undid the Fix:** [v0.2 Draft](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md) is now the working DBC-C02 scenario, with [v0.1](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.1.md) preserved. Its W3 purpose is narrower than 00H: freeze a queued remediation, introduce a later legitimate repair/freeze/version change, then test whether a competent technical scheduler and a strong peer requalify the decision basis at time of use. Q0–Q5 are traced to the frozen Requirements; Q6 is a CAND-R4 clarification probe, not a new S/T/H. W3 admission requires a frozen machine-readable fixture, deterministic oracle, arm configuration, DBC-R# mapping, continuity branch and trace schema before execution.
 
 **Route separation.** 00H is parallel to the FG-TIDA UC-6 → UC-4 route: 00H is an EA/DBC-owned synthetic C12/DBC-C05 scenario, while UC-6 → UC-4 is the current cross-Theme semantic-review and executable-profile path using externally owned FG-TIDA case facts. They may inform each other but are not sequential stages of one experiment.
 
