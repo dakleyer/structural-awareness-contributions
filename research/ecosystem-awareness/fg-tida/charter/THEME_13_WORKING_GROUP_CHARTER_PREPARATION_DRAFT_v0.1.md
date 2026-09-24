@@ -239,6 +239,8 @@ The first D5 package should include:
 
 Where a comparative EA claim is made, a **strong native/control configuration should be allowed to reproduce the same behaviour**. If it does so at equal or lower burden, that result counts against an EA differential claim.
 
+A two-domain or deterministic pass establishes only the bounded property actually tested. It must not be reported as proof of ecosystem behaviour. Stronger ecosystem-level evidence requires later composition across multiple independently governed participants/observers with partial, conflicting or source-dependent observations.
+
 ## Related Work
 
 The work should coordinate with, rather than reproduce, relevant standards and practices, including where applicable:
@@ -365,6 +367,8 @@ Then exercise the #13 mechanism across independently governed participants:
 - locally authorized containment;
 - explicit UNKNOWN/source-dependence preservation; and
 - revalidation.
+
+This stage should establish the first interoperable/federated route, not claim that two endpoints prove ecosystem behaviour. Before making a stronger ecosystem-level claim, the test programme should expand to multiple independently governed observers/participants with partial, conflicting and shared-lineage evidence. Agent-native / non-adversarial failure should be characterized before deliberate attack classes are added.
 
 ### C.4 Minimum Strong-EA Challenge Set
 
