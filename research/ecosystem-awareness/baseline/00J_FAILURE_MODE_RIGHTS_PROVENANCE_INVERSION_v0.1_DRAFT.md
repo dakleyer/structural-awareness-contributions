@@ -58,7 +58,7 @@ A creator **A** publishes an original text work **W** through a platform that re
 - use conditions distinguish at least one permitted use from one non-permitted or separately conditioned use;
 - later changes can be versioned rather than silently rewriting history.
 
-An external agent or crawler **C1** obtains access to W under a bounded declared use. A downstream model or service **M1** then produces a derived artifact **D1**. M1 can legitimately issue a generation/provenance statement saying that it generated D1 at time `t3`.
+An external agent or crawler **C1** obtains access to W under a bounded declared use. A downstream model or service **M1** then produces a derived artifact **D1**. M1 can legitimately issue a generation/provenance statement saying that it generated D1 at the transformation time `t_D1`.
 
 During one or more handoffs, however, the dependency `D1 ← W` and the original rights qualification `R0` are omitted, flattened or no longer retrievable by the downstream relying party.
 
@@ -77,6 +77,19 @@ The paradoxical outcome is:
 > **the original creator is asked to obtain permission or pay for use of material derived from the creator's own work because a downstream machine-readable claim became operationally stronger than the lost source/rights provenance.**
 
 The scenario does not require a patent claim, nor does it assume that an AI-generated certificate creates copyright. It tests information, authority and evidence composition.
+
+### 1.1 Reader walk-through — how the author ends up paying
+
+The scenario should be readable without the symbols:
+
+1. **The author publishes first.** A publishes W with a strong identity, timestamp and machine-readable rights record R0.
+2. **An AI actor gets a bounded permission.** C1 may access W for one declared use; that permission is not ownership and is not a blanket right to relicense.
+3. **A downstream system makes something new.** M1 produces D1 and correctly records “M1 generated D1”. D1 still depends materially on W in the fixture.
+4. **The source link becomes weak or disappears downstream.** A later receiver can validate G1/D1 but cannot reconstruct, or does not carry, the W→D1 dependency and R0 qualification.
+5. **A third party registers the downstream object.** X creates RX. RX can be authentic as X's own record even though X lacks the fixture authority needed to assert the final claim against A. Several indexes copy RX, creating apparent corroboration from one lineage.
+6. **The author publishes again.** A reuses material from W in W2. A rights checker sees the newer/easier-to-resolve RX lineage, cannot reconstruct the source chain, and asks A to license, pay X or stop.
+
+The paradox therefore does **not** require a fake signature. It requires a chain in which narrower valid statements become easier to consume than the older source/authority relation and are then silently promoted into a stronger enforcement proposition.
 
 ## 2. Frozen fixture facts and bounded oracle
 
@@ -293,8 +306,8 @@ The current requirements-sufficiency reading is **narrowed or falsified** if:
 | **FG-TIDA Theme #17 — Panodyssey production case** — https://github.com/FG-TIDA/themes/issues/17 | **2026 · public production-case contribution** | Panodyssey reports five publisher-side production layers: domain AI governance, per-publication discovery, ODRL/JSON-LD rights declarations distinguishing indexing/RAG/training, timestamped registry/history, and certified author identity. The contribution explicitly states that this chain stops at the agent-side legal identity boundary. | Q0/Q1/Q3: a strong source-side rights chain can still meet an external identity/mandate/composition boundary. | Does not report the 00J inversion or prove any downstream product failure. |
 | **Panodyssey AI Transparency Notice launch** — https://www.panodyssey.com/en/article/technology/press-release-panodyssey-launches-the-ai-transparency-notice-tpbhc7snppcb | **20/24 Mar 2026 · vendor/public project evidence** | Panodyssey describes the Notice as a content-origin, traceability, transparency and AI-use-control mechanism developed within CREA Trust AI. | Q0/Q1: machine-readable source/rights state is a real operational object, not an invented fixture primitive. | Vendor statement; not independent validation of legal effectiveness or 00J. |
 | **Panodyssey Notice V2.1 update** — https://www.panodyssey.com/fr/article/technologie/nouvelle-version-de-la-notice-ia-panodyssey-celle-qui-vous-dit-toujours-la-verite-dekmf956we6w | **31 Aug 2026 · vendor implementation update** | Panodyssey states that V2.1 corrected inconsistencies in AI-readable signals emitted in page code/meta tags. | Q1/Q2: even a production machine-readable rights layer can require versioned correction of signal semantics. | Does not establish rights-provenance inversion or a defect remaining in V2.1. |
-| **TEMS Trial 7 — rights across systems** — https://tems-dataspace.eu/news/ and https://tems-dataspace.eu/trials/ | **2026 · EU-funded consortium / operational trial** | TEMS describes written-work rights portability across interoperable systems and explicitly notes that origin, authorship and conditions-of-use information can be lost as content moves through platforms/infrastructures; related Trial-7 material notes fragmentation of metadata, licensing and rights/ownership information. | Q2/Q4: cross-system propagation can lose the exact source/right qualifiers 00J needs to preserve. | Does not report an author paying for their own work and does not validate EA. |
-| **C2PA Explainer 2.2** — https://c2pa.org/specifications/specifications/2.2/explainer/Explainer.html | **current specification explainer** | C2PA states that provenance is not always complete and that provenance information alone cannot determine whether content is true/accurate/factual. Its design principles also separate verifiable assertions from value judgments. | Q2/Q3: a valid provenance credential has a bounded proposition; completeness and semantic sufficiency remain separate questions. | C2PA is not a copyright-ownership adjudicator and the source does not discuss 00J's final rights claim. |
+| **TEMS Trial 7 — rights across systems** — https://tems-dataspace.eu/tems-trial-7-protecting-and-valuing-cultural-content-in-the-age-of-ai/ · https://tems-dataspace.eu/tems-trial-7-making-intellectual-property-visible-and-actionable-in-the-age-of-ai/ · https://tems-dataspace.eu/trials/ | **2026 · EU-funded consortium / operational trial** | TEMS describes written-work rights portability across interoperable systems and documents the neighboring problem that origin, authorship, metadata and conditions-of-use information can become detached or difficult to trace as content moves across platforms and organisations. | Q2/Q4: cross-system propagation can lose the exact source/right qualifiers 00J needs to preserve. | Does not report an author paying for their own work and does not validate EA. |
+| **C2PA Content Credentials 2.4 + provenance explainer** — https://spec.c2pa.org/specifications/specifications/2.4/specs/ContentCredentials.html · https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html | **Apr 2026 technical specification + explainer** | C2PA 2.4 defines provenance as asset history including ingredients and supports ingredient relations for derived/composed assets; the explainer states that provenance may be incomplete and cannot by itself settle a stronger truth/accuracy proposition. | Q2/Q3/Q4: provenance lineage is representable, but completeness and decision sufficiency remain separate questions. | C2PA is not a copyright-ownership adjudicator and the sources do not discuss 00J's final rights claim. |
 | **W3C ODRL Information Model 2.2** — https://www.w3.org/TR/odrl-model/ | **W3C Recommendation · 15 Feb 2018** | ODRL expresses permissions, prohibitions, duties, parties, assets and constraints; permissions apply to specified actions/assets/parties under declared conditions. | Q1/Q3/Q5: a machine-readable policy is scope-specific; one permission is not a generic transfer of every downstream right. | Does not establish legal ownership or prove compliance with a policy. |
 | **European Commission / EU Publications — 2026 TDM opt-out registry feasibility study** — https://op.europa.eu/en/publication-detail/-/publication/5c5cd1ec-7cce-11f1-bf5e-01aa75ed71a1/language-en | **13 Jul 2026 · European Commission study** | The study proposes a viable registry architecture for durable/interoperable TDM opt-out signalling and traceability, while explicitly distinguishing such a registry from a rights-management or licensing system. | Q3/Q5: registry/resolution infrastructure can support signalling without itself establishing the stronger licensing/enforcement proposition. | Does not validate Panodyssey or 00J and does not decide copyright ownership. |
 | **European Commission — machine-readable TDM reservation consultation** — https://digital-strategy.ec.europa.eu/en/consultations/commission-launches-consultation-protocols-reserving-rights-text-and-data-mining-under-ai-act-and | **Dec 2025–Jan 2026 · regulatory implementation process** | The Commission treats identification and compliance with machine-readable rights reservations as an active state-of-the-art/interoperability problem under the AI Act/GPAI Code of Practice. | Q1/Q4: rights signals must remain interpretable across independent AI systems and evolving protocols. | Does not imply that any particular reservation proves downstream behavior/compliance. |
@@ -319,11 +332,13 @@ The strongest first implementation trajectory is **not Panodyssey alone**. It is
 
 > **Panodyssey Notice / publisher-side rights stack + TEMS rights-portability boundary + an explicit agent-side identity/mandate/receipt layer.**
 
-This is the right A01 because the public production case already supplies a strong upstream rights system and a real cross-system interoperability boundary. The implementation profile can therefore test a fair three-step trajectory:
+This is the right A01 because the public production case already supplies a strong upstream rights system and a real cross-system interoperability boundary. The implementation profile therefore uses a fair three-step trajectory:
 
-1. current/standard competent publisher-side implementation;
-2. defended top implementation with agent identity, mandate and cross-system rights-decision receipts;
-3. the **same frozen top implementation under a latent downstream rights-resolution regime change**, where the ecosystem's final decision changes from access-time authorization to derivative-rights enforcement and the source/dependency relation required for that new proposition is no longer sufficient unless it is requalified.
+1. **PANO-H0:** current/standard competent publisher-side implementation;
+2. **PANO-H1:** defended top implementation with agent identity, mandate, proposition-bound receipts, source/dependency lineage and a stable downstream rights-resolution path that is required to pass both the unsupported-claim and legitimate-transfer controls;
+3. **PANO-H2:** the **same frozen H1 under a genuine interoperability/regime shift**: the final licensing/enforcement decision remains the same, but the downstream resolver/identifier/evidence contract changes so that D1/RX can remain authentic/current while the W→D1 source dependency is no longer required, represented or retrievable with the semantics that made the earlier H1 result sufficient.
+
+This correction is important: merely changing from an access decision to a different downstream decision would be a new decision scope, not by itself a regime-change test. H2 therefore freezes the **same final enforcement proposition** before and after the change and mutates the ecosystem relation that previously made its evidence contract sufficient.
 
 The corresponding profile is [00J-A01 — Panodyssey Notice / TEMS rights-portability implementation trajectory](./00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md).
 
@@ -395,6 +410,8 @@ Theme #16 remains owner of human intervention semantics where a human branch is 
   https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md
 - Requirements-vNext review:  
   https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md
+- 00J-A01 — Panodyssey Notice / TEMS implementation trajectory:  
+  https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md
 
 ## 14. Current determination
 
