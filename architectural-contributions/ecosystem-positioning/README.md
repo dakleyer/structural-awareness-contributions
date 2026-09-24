@@ -3,7 +3,8 @@
 # Ecosystem Positioning
 ### Agentic Architecture for staying situated as the ecosystem changes
 
-[![PowerPoint](https://img.shields.io/badge/OPEN-POWERPOINT-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
+[![Open PowerPoint](https://img.shields.io/badge/OPEN-POWERPOINT-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
+[![Read the Architecture](https://img.shields.io/badge/READ-THE%20ARCHITECTURE-1B4D8E?style=for-the-badge)](#awareness--positioning--agent-defense)
 
 **[Structural Awareness Programme](../../README.md) → Ecosystem Positioning**
 
@@ -12,7 +13,6 @@
 </div>
 
 ---
-
 # When Correct Systems Produce Absurd Outcomes
 
 These scenarios look strange. That is precisely the point.
@@ -51,20 +51,64 @@ The work succeeds, is subsequently processed and summarized through third-party 
 
 ---
 
-## Explore the architecture
+## Choose your route
 
-[![PDF](https://img.shields.io/badge/OPEN-PDF-C62828?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
-[![Visual Guide](https://img.shields.io/badge/EXPLORE-VISUAL%20GUIDE-006970?style=for-the-badge)](../../research/ecosystem-awareness/VISUAL_GUIDE.md)
+> [!IMPORTANT]
+> **The key idea:** local correctness does not guarantee ecosystem validity. The architecture is about preserving enough qualified state to know when a locally valid position must be reconsidered.
 
-| Route | Enter |
-|---|---|
-| **Canonical presentation** | [PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) · [PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) |
-| **Ecosystem Awareness** | [Enter EA](../../research/ecosystem-awareness/README.md) |
-| **Regime Awareness** | [Enter Regime Awareness](../../research/regime-awareness/README.md) |
-| **MSCA** | [Enter MSCA](../../standards/minimum-sufficient-control/README.md) |
+<table>
+<tr>
+<td width="33%" valign="top">
 
-**Reading map:** scenarios → technology trajectories → requirements → architecture → interfaces → fixtures / harness → benchmark / public ranking.
+### Ecosystem Awareness
+**What can be relied on now?**  
+Decision-scoped qualification of what is established, unresolved, still obtainable and residual.
 
+<a href="../../research/ecosystem-awareness/README.md"><strong>Enter EA →</strong></a>
+
+</td>
+<td width="33%" valign="top">
+
+### Regime Awareness
+**Is the operating frame still valid?**  
+Detects material departure from the frame under which the current position was qualified.
+
+<a href="../../research/regime-awareness/README.md"><strong>Enter Regime Awareness →</strong></a>
+
+</td>
+<td width="33%" valign="top">
+
+### MSCA
+**What control is sufficient now?**  
+Control sufficiency, Ecosystem Cartography and bounded repositioning under legitimate authority.
+
+<a href="../../standards/minimum-sufficient-control/README.md"><strong>Enter MSCA →</strong></a>
+
+</td>
+</tr>
+</table>
+
+### How far do you want to go?
+
+| **5 minutes** | **20 minutes** | **Technical review** |
+|---|---|---|
+| Read the six scenarios and open the [PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Follow Requirements → interfaces → fixtures/harness → benchmark → public ranking. |
+
+```mermaid
+flowchart LR
+    EA["Ecosystem Awareness"] --> EP["Ecosystem Positioning"]
+    RA["Regime Awareness"] --> EP
+    MSCA["MSCA"] --> EP
+    EP --> EAD["Ecosystem Agent Defense"]
+```
+
+<details>
+<summary><strong>More navigation & document control</strong></summary>
+
+<br>
+
+[PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) ·
+[Visual Guide](../../research/ecosystem-awareness/VISUAL_GUIDE.md) ·
 [Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) ·
 [Canonical Requirements](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) ·
 [Canonical Benchmark v0.2](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) ·
@@ -73,8 +117,9 @@ The work succeeds, is subsequently processed and summarized through third-party 
 
 > **Status:** working, pre-standardization architecture and validation programme. Detailed semantic ownership remains with EA, Regime Awareness and MSCA.
 
----
+</details>
 
+---
 # These are not stories about bad technology
 
 The corpus was built against **current, concrete technology architectures**, not abstract descriptions of AI.
