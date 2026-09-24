@@ -6,6 +6,7 @@
 | **Type** | Reference failure scenario (fictional) and quality-gate plan |
 | **Status** | Canonical working · fictional reference scenario · not a benchmark result |
 | **Version · date** | v0.1 · 2026-09-17 |
+| **Current working revision** | 2026-09-24 · external-corroboration and implementation-profile synchronization; fictional event and canonical S/T/H ownership unchanged |
 | **Owner corpus** | Ecosystem Awareness |
 | **Supersedes / superseded by** | — |
 
@@ -197,6 +198,37 @@ The case tests whether a candidate architecture improves the common outcome vect
 The `Route Q` candidate must be non-inferior on normal-operation branches and should reduce incompatible-posture exposure, false continuation/containment, emergency-access delay or total burden on declared regime-change branches. The claimed differential is narrowed or falsified if a strong peer without equivalent EA semantics achieves the same or better posture correctness, timeliness, residual trace, authorised response and burden.
 
 The case does not test universal emergency prediction, city-wide command, legal authority creation or perfect knowledge of `R_U`. It preserves literal non-observability as a foundational Type-0 boundary, but the operational test does not require runtime proof of that classification: it tests whether unresolved limits are managed rather than hidden.
+
+## 9A. External corroboration and state-of-the-art evidence addendum — reviewed 24 September 2026
+
+00F is fictional, but the classes of failure it stresses—loss of situational awareness, locally reasonable automated actions composing into systemic instability, weak signals not becoming effective alarms, finite human oversight, and digital-model credibility under changing conditions—have documented neighbors in real systems.
+
+The sources below are deliberately **technology-agnostic**. They are not claims that FIWARE, Orion-LD, AWS IoT Core or TwinMaker caused these events.
+
+| External evidence | Date / evidence class | Documented neighboring mechanism | 00F pressure point | What it does **not** establish |
+|---|---|---|---|---|
+| [NERC Final Report on the August 14, 2003 Blackout](https://www.nerc.com/globalassets/our-work/reports/event-reports/august_2003_blackout_final_report.pdf) | **2004 · official reliability investigation** | FirstEnergy's alarm processor failed; operators lost a major situational-awareness function, and multiple clues from customers, generators and neighboring operators were not pieced together until the system was already severely compromised. | Q1/Q3/Q4: local signals can exist while the shared operating frame is not recognized/requalified in time. | Does not reproduce the 00F mobility topology, telemetry or A/B/NORMAL/HOLD branches. |
+| [CFTC statement on the Joint CFTC/SEC May 6, 2010 Flash Crash report](https://www.cftc.gov/PressRoom/SpeechesTestimony/chiltonstatement100710) | **1 Oct 2010 · official market investigation summary** | A large automated sell program interacted with other automated market behavior; disruption propagated across venues and the interrelatedness of markets amplified the event. | Q2/Q5: locally programmed automated actions can compose into a system-level state that no individual action expresses on its own. | Financial-market microstructure is not urban mobility and does not imply the same control solution. |
+| [SEC order / Knight Capital automated-router incident](https://www.sec.gov/litigation/admin/2013/34-70694.pdf) | **incident 1 Aug 2012; SEC order 16 Oct 2013 · official enforcement findings** | 212 customer orders triggered millions of automated orders and more than 4 million executions in 154 stocks; the firm lost more than USD 460 million. The SEC also documented control/deployment failures around the automated router. | Q0/Q2/Q3: a locally executing automated subsystem can rapidly create a much larger system state when control assumptions/configuration are wrong. | Does not establish a hidden regime change or any defect in FIWARE/AWS technologies. |
+| [NTSB HAR-19/03 — Uber ATG Tempe crash](https://www.ntsb.gov/investigations/accidentreports/reports/har1903.pdf) | **2019 · official accident investigation** | NTSB identified ineffective oversight of vehicle operators, automation complacency and inadequate safety risk assessment; the report notes humans are poor monitors of automation failures over time. | Q3/Q4: human oversight cannot be treated as infinite, continuously effective determination capacity. | Does not establish the 00F multi-actor divergence mechanism or a digital-twin failure. |
+| [NIST, *Credibility Consideration for Digital Twins in Manufacturing*](https://www.nist.gov/publications/credibility-consideration-digital-twins-manufacturing) | **16 Dec 2022 · NIST / peer-reviewed publication** | NIST states that digital-twin results used for decision support require verification, validation and uncertainty quantification throughout the twin life cycle; credibility is purpose/context dependent. | Q1/Q5: a current/available digital representation is not automatically sufficient for a decision if its model validity/uncertainty is not qualified. | Manufacturing twins are not the Aurora City case and the source does not evaluate FIWARE or TwinMaker. |
+| [NISTIR 8620, *Digital Twins Workshops Summary Report*](https://www.nist.gov/publications/digital-twins-workshops-summary-report) | **21 Jul 2026; updated 31 Aug 2026 · NIST state-of-the-art workshop report** | Industry/academia/government participants identified persistent challenges in interoperability, verification/validation/uncertainty quantification, cybersecurity and trustworthy scalable digital twins. | Q1/Q2/Q5: state-of-the-art practice still treats interoperability and model credibility as separate problems, consistent with 00F's distinction between data integration and decision sufficiency. | Does not show a specific smart-city incident or product failure. |
+
+### 9A.1 Evidence-use rule
+
+This addendum supports the narrower proposition that the 00F stress surfaces have real neighbors:
+
+- loss of situational awareness can occur while signals and systems remain partially operational;
+- interactions among automated actors can create system-level effects beyond each local rule;
+- weak alerts or monitoring outputs do not become effective control merely because they exist;
+- human oversight has finite vigilance/capacity;
+- digital-twin trustworthiness requires continuing validation, uncertainty qualification and context-appropriate credibility.
+
+It does **not** establish that Aurora City happened, that FIWARE/AWS are inadequate, or that EA would have prevented any cited occurrence.
+
+### 9A.2 Relationship to the implementation profiles
+
+The latest [FIWARE/Orion-LD v0.2 Draft](./00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [AWS IoT TwinMaker / IoT Core v0.2 Draft](./00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) show how the same quality-plan gates can be projected onto strong technology-specific substrates. This addendum remains outside those product analyses so the external corroboration is not misread as evidence against either technology.
 
 ## 10. Product-annex boundary
 
