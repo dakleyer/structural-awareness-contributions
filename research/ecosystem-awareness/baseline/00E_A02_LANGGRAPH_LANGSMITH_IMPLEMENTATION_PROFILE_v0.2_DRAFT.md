@@ -9,9 +9,10 @@
 | **Evidence-source refresh** | 2026-09-24 · source/version audit; technical analysis and claim boundary unchanged |
 | **Owner corpus** | Ecosystem Awareness / 00E route |
 | **Technology evidence re-audit** | 2026-09-24 · LangGraph release baseline and living-doc review dates pinned below |
+| **External-corroboration route** | [00E §9A external corroboration](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · reviewed 2026-09-24 · technology-agnostic neighboring evidence only; not evidence of failure by this product |
 | **Predecessor** | [v0.1 — preserved public profile](./00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.1.md) |
 
-> **Product-implementation annex; source-reviewed working profile, 17 September 2026.** This annex applies the [00E quality plan](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) to LangGraph with LangSmith observability and evaluation. It compares a standard implementation, an excellent implementation and an excellent implementation under regime change. It is not a product ranking, certification, endorsement or claim that LangGraph causes the 00E failure.
+> **Product-implementation successor draft; original product analysis 17 September 2026, quality-plan synchronization and external-corroboration routing reviewed 24 September 2026.** This annex applies the [00E quality plan](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) to LangGraph with LangSmith observability and evaluation. It compares a standard implementation, an excellent implementation and an excellent implementation under regime change. It is not a product ranking, certification, endorsement or claim that LangGraph causes the 00E failure.
 
 ## 1. The claim in one sentence
 
