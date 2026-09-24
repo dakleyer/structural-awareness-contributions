@@ -134,6 +134,8 @@ Minimum freeze inputs:
 - effective-role drift and repositioning;
 - signalling + `RepositionIntent / AuthorityResponse` choreography;
 - selected 00F composition branches;
+  - current scenario: [00F v0.2 — The City That Stopped Safely](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) · [Freeze Edition](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md);
+  - current design now exposes Q0–Q5, N0/N1/Q evidence routes, V0–V9 controls and R0/R1/R2 strong-peer drift comparison across FIWARE and AWS; the remaining step is executable W3 fixture/oracle/threshold/pre-registration work, not narrative completion;
 - independent producer/receiver operation for EA-ITP-01.
 
 **Pre-execution correction gate — Q1a must not execute under v0.5 as currently written.** Preserve v0.5 unchanged as frozen history and prepare a **new pre-registration v0.6** before any Stage-0 run.
@@ -393,7 +395,7 @@ flowchart TB
 |---|---|---|---|
 | Foundation / principles | v0.4 sources preserved; 01 v0.5 integrated reader; 02 controlled | Later architecture is not retrofitted into frozen sources | Continuity notes + future explicit successor only if needed |
 | Requirements | S1–S14 / T1–T4 / H1–H6 / KPI protocol | Later EP concepts reviewed; no canonical gap requiring S15/T5/H7 found | [Requirements vNext Review & Delta](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); two clarification candidates remain non-canonical |
-| Reference scenarios | 00E/00F canonical-working; 00G/00H/00I additive candidates with quality plans; 00I AWS skeletons published | 00G–00I remain outside completed main comparator execution; W3 fixture admission/execution still open | W2/W3 disposition |
+| Reference scenarios | 00E canonical-working; 00F v0.2 current working successor + zero-loss Freeze Edition; 00G/00H/00I later candidates; 00I AWS skeletons published | 00F still needs W3 executable fixture/admission despite publication completeness; later scenario execution also open | W2/W3 disposition |
 | Benchmark | 00D v0.2 canonical + bounded v0.3 draft | Measurement/equivalence protocol, defenders, B2/PA source audit and PA-5 contract still open | **W2:** protocol → defenders/source freeze → v0.3-r2 |
 | Test design | A01, A02, A03, coverage map, Q1a pre-registration and trace helpers | Q1a v0.5 residual/date ambiguity must be corrected in new v0.6 before Stage-0; later layers still incomplete | **W3:** Q1a v0.6 → Stage-0 → continuity gate → C9/C12 |
 | Validation profiles | UC-EA-01…04 + EA-ITP-01 preserved | No completed broad independent validation | Stage 1/2 evidence programme |
@@ -420,6 +422,7 @@ This table should remain short. Detailed historical maintenance records live und
 | 2026-09-23 | Decision Boundary Challenge v0.2 + FG-TIDA cross-theme test/specification route | [DBC v0.2](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) · [FG-TIDA test profile](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md) · [Specification Preparation v0.3](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) |
 | 2026-09-24 | 00I four-lens adversarial audit + AWS implementation skeletons | [Audit record](./governance/00I_FOUR_LENS_ADVERSARIAL_AUDIT_2026-09-24.md) · [00I v0.5](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) · [00I-A01 v0.2](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [fixture package](./baseline/fixtures/00I-AWS/README.md) |
 | 2026-09-24 | 00I zero-loss Freeze Edition + visual publication layer | [Freeze Edition](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [conservation manifest](./governance/00I_V0.5_FREEZE_EDITION_MANIFEST_2026-09-24.md) |
+| 2026-09-24 | 00F mobility v0.2 completion + premium Freeze Edition | [00F v0.2](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) · [Freeze Edition](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) · [audit](./governance/00F_COMPLETENESS_PUBLICATION_AUDIT_2026-09-24.md) · [manifest](./governance/00F_V0.2_FREEZE_EDITION_MANIFEST_2026-09-24.md) |
 
 ---
 
