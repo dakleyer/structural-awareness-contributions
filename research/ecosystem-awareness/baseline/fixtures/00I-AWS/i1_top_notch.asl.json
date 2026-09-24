@@ -14,7 +14,7 @@
     },
     "WaitUntilT2": {
       "Type": "Wait",
-      "TimestampPath": "$.execute_at",
+      "TimestampPath": "$.qualification.Payload.execute_at",
       "Next": "AcquireLeaseAndRequalify"
     },
     "AcquireLeaseAndRequalify": {
@@ -32,22 +32,22 @@
       "Choices": [
         {
           "Variable": "$.guard.Payload.disposition",
-          "StringEquals": "EXECUTE",
+          "StringEquals": "DBC_EXECUTE",
           "Next": "ApplyUnderLease"
         },
         {
           "Variable": "$.guard.Payload.disposition",
-          "StringEquals": "REQUALIFY",
+          "StringEquals": "DBC_REQUALIFY",
           "Next": "RequalificationRequired"
         },
         {
           "Variable": "$.guard.Payload.disposition",
-          "StringEquals": "DENY",
+          "StringEquals": "DBC_DENY",
           "Next": "Denied"
         },
         {
           "Variable": "$.guard.Payload.disposition",
-          "StringEquals": "ESCALATE",
+          "StringEquals": "DBC_ESCALATE",
           "Next": "Escalated"
         }
       ],
