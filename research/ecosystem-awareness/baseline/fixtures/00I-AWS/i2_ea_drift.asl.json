@@ -1,0 +1,145 @@
+{
+  "Comment": "00I AWS-I2-EA drift trajectory — design skeleton only",
+  "StartAt": "QualifyAndPersistBasis",
+  "States": {
+    "QualifyAndPersistBasis": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${QualifyAndPersistBasisFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.qualification",
+      "Next": "WaitUntilT2"
+    },
+    "WaitUntilT2": {
+      "Type": "Wait",
+      "TimestampPath": "$.execute_at",
+      "Next": "CheckBasisModelCurrent"
+    },
+    "CheckBasisModelCurrent": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${CheckBasisModelCurrentFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.basis_check",
+      "Next": "BasisModelCurrent"
+    },
+    "BasisModelCurrent": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.basis_check.Payload.current",
+          "BooleanEquals": true,
+          "Next": "AcquireLeaseAndRequalify"
+        },
+        {
+          "Variable": "$.basis_check.Payload.current",
+          "BooleanEquals": false,
+          "Next": "TargetedReentry"
+        }
+      ],
+      "Default": "BasisUnknown"
+    },
+    "TargetedReentry": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${TargetedReentryFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.reentry",
+      "Next": "ReentrySucceeded"
+    },
+    "ReentrySucceeded": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.reentry.Payload.status",
+          "StringEquals": "SUPPORTED",
+          "Next": "AcquireLeaseAndRequalify"
+        },
+        {
+          "Variable": "$.reentry.Payload.status",
+          "StringEquals": "DENY",
+          "Next": "Denied"
+        },
+        {
+          "Variable": "$.reentry.Payload.status",
+          "StringEquals": "ESCALATE",
+          "Next": "Escalated"
+        }
+      ],
+      "Default": "BasisUnknown"
+    },
+    "AcquireLeaseAndRequalify": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${AcquireLeaseAndRequalifyFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.guard",
+      "Next": "Disposition"
+    },
+    "Disposition": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.guard.Payload.disposition",
+          "StringEquals": "EXECUTE",
+          "Next": "ApplyUnderLease"
+        },
+        {
+          "Variable": "$.guard.Payload.disposition",
+          "StringEquals": "REQUALIFY",
+          "Next": "TargetedReentry"
+        },
+        {
+          "Variable": "$.guard.Payload.disposition",
+          "StringEquals": "DENY",
+          "Next": "Denied"
+        },
+        {
+          "Variable": "$.guard.Payload.disposition",
+          "StringEquals": "ESCALATE",
+          "Next": "Escalated"
+        }
+      ],
+      "Default": "BasisUnknown"
+    },
+    "ApplyUnderLease": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${ApplyUnderLeaseFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.apply_result",
+      "Next": "ReleaseLease"
+    },
+    "ReleaseLease": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${ReleaseLeaseFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.release_result",
+      "End": true
+    },
+    "Denied": {
+      "Type": "Succeed"
+    },
+    "Escalated": {
+      "Type": "Succeed"
+    },
+    "BasisUnknown": {
+      "Type": "Fail",
+      "Error": "00I.BasisUnknown",
+      "Cause": "Current decision-basis model could not be established inside the admitted path"
+    }
+  }
+}
