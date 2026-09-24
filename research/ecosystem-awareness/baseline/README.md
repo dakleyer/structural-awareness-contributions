@@ -231,6 +231,8 @@ The predecessor [Architectural Principles](./ARCHITECTURAL_PRINCIPLES_v0.1.md) a
 
 ## Governance and provenance
 
+The [00I four-lens adversarial audit record](../governance/00I_FOUR_LENS_ADVERSARIAL_AUDIT_2026-09-24.md) records the current pre-W3 review of the semantic-TOCTOU case, AWS peer, implementation skeletons, source claims and executive readability. It is an editorial/adversarial review record, not independent validation or execution evidence.
+
 The [initial freeze](./FREEZE_MANIFEST_2026-09-10.md), [maintenance freeze manifest](./MAINTENANCE_FREEZE_MANIFEST_2026-09-10.md) and [maintenance reading note](./MAINTENANCE_FREEZE_README_2026-09-10.md) govern the internal validation release, not standards adoption. The [FG-TIDA public footprint](../fg-tida/provenance/FG_TIDA_ECOSYSTEM_AWARENESS_PUBLIC_FOOTPRINT_2026-09-08.part01.md) and [public provenance](../fg-tida/provenance/PUBLIC_PROVENANCE_2026-09-08.md) are maintained in the FG-TIDA application package and trace contributor discussion and claim boundaries. The [canonical corpus manifest](./CANONICAL_CORPUS_MANIFEST.md) and [earlier publication manifest](./MANIFEST.md) inventory current, frozen and historical records. The [earlier EA gateway/index source](./EA_PARENT_INDEX_SOURCE_2026-09-15.md) is preserved for conservation only; it is not a competing current index. Earlier [foundation](./FOUNDATIONAL_THEORY_v0.4_PUBLIC_FREEZE.md), [benchmark v0.4](./ARCHITECTURE_BENCHMARK_v0.4_PUBLIC_FREEZE.md), [benchmark v0.5 alias](./ARCHITECTURE_BENCHMARK_v0.5_REVIEWED_WORKING.md) and [UC-EA-01 public alias](./UC-EA-01_v0.3_EARLIER_PUBLIC_FREEZE.md) remain historical sources, not alternative current chapters.
 
 ## External cases, submissions and standards provenance
