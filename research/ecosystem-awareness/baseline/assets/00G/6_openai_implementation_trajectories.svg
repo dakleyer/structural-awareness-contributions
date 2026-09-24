@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" viewBox="0 0 1700 900" font-family="Arial,Helvetica,sans-serif">
+<rect width="1700" height="900" fill="#f7f8fa"/>
+<text x="55" y="55" font-size="28" font-weight="700" fill="#1f2c4a">00G — OpenAI implementation trajectories are one controlled progression</text>
+<text x="55" y="88" font-size="15" fill="#5d6572">Not three products. G2 freezes the G1 implementation and changes the environment / applicability assumptions rather than weakening the controls.</text>
+
+<rect x="55" y="125" width="1590" height="95" rx="12" fill="#eef1f7" stroke="#50617d" stroke-width="2"/>
+<text x="850" y="158" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2c4a">Common documented substrate</text>
+<text x="850" y="188" text-anchor="middle" font-size="14" fill="#40506a">Agents API / Agents SDK / Responses · sessions/state · root/subagents · handoffs/messages · guardrails · approvals · tracing · sandbox/recovery · context management</text>
+
+<rect x="55" y="265" width="480" height="400" rx="12" fill="#fff" stroke="#50617d" stroke-width="2"/>
+<text x="295" y="305" text-anchor="middle" font-size="20" font-weight="700" fill="#50617d">OAI-G0</text>
+<text x="295" y="332" text-anchor="middle" font-size="15" font-weight="700" fill="#50617d">out-of-the-box / standard competent</text>
+<text x="85" y="375" font-size="13" fill="#1f2c4a">• persistent session / run</text>
+<text x="85" y="405" font-size="13" fill="#1f2c4a">• root + subagents / handoffs</text>
+<text x="85" y="435" font-size="13" fill="#1f2c4a">• ordinary tracing and guardrails</text>
+<text x="85" y="465" font-size="13" fill="#1f2c4a">• approvals for sensitive side effects</text>
+<text x="85" y="495" font-size="13" fill="#1f2c4a">• reasonable objective persistence</text>
+<line x1="85" y1="525" x2="505" y2="525" stroke="#c4cad4"/>
+<text x="85" y="560" font-size="12" fill="#5d6572">No 00G-specific source-dependence graph</text>
+<text x="85" y="583" font-size="12" fill="#5d6572">is added solely to win the fixture.</text>
+<text x="85" y="620" font-size="12" font-weight="700" fill="#50617d">Question:</text>
+<text x="155" y="620" font-size="12" fill="#5d6572">can platform-local success still leave</text>
+<text x="85" y="643" font-size="12" fill="#5d6572">the decision-boundary claim unresolved?</text>
+
+<rect x="610" y="265" width="480" height="400" rx="12" fill="#e6f4f0" stroke="#007b82" stroke-width="2"/>
+<text x="850" y="305" text-anchor="middle" font-size="20" font-weight="700" fill="#007b82">OAI-G1</text>
+<text x="850" y="332" text-anchor="middle" font-size="15" font-weight="700" fill="#007b82">defended top-notch route</text>
+<text x="640" y="375" font-size="13" fill="#0a5a5c">• structured objective/version/owner state</text>
+<text x="640" y="405" font-size="13" fill="#0a5a5c">• explicit role + current authority object</text>
+<text x="640" y="435" font-size="13" fill="#0a5a5c">• source IDs / provenance / dependency graph</text>
+<text x="640" y="465" font-size="13" fill="#0a5a5c">• bounded loops, evals, persistent audit state</text>
+<text x="640" y="495" font-size="13" fill="#0a5a5c">• legitimate Branch-G transition path</text>
+<line x1="640" y1="525" x2="1060" y2="525" stroke="#88bfc0"/>
+<text x="640" y="560" font-size="12" fill="#0a5a5c">The defender may implement source-dependence</text>
+<text x="640" y="583" font-size="12" fill="#0a5a5c">with ordinary application logic.</text>
+<text x="640" y="620" font-size="12" font-weight="700" fill="#007b82">Fair-peer rule:</text>
+<text x="735" y="620" font-size="12" fill="#0a5a5c">if this solves F/G at equal or</text>
+<text x="640" y="643" font-size="12" fill="#0a5a5c">lower burden, that counts against an EA differential.</text>
+
+<rect x="1165" y="265" width="480" height="400" rx="12" fill="#fff4e9" stroke="#c17629" stroke-width="2"/>
+<text x="1405" y="305" text-anchor="middle" font-size="20" font-weight="700" fill="#c17629">OAI-G2</text>
+<text x="1405" y="332" text-anchor="middle" font-size="15" font-weight="700" fill="#c17629">same frozen top route under latent drift</text>
+<text x="1195" y="375" font-size="13" fill="#7a4a10">Keep G1 models, tools, schema, budget,</text>
+<text x="1195" y="398" font-size="13" fill="#7a4a10">human capacity and deadlines unchanged.</text>
+<text x="1195" y="438" font-size="13" fill="#7a4a10">Then change one or more:</text>
+<text x="1215" y="468" font-size="13" fill="#7a4a10">• source independence / upstream provider</text>
+<text x="1215" y="498" font-size="13" fill="#7a4a10">• authority scope / expiry</text>
+<text x="1215" y="528" font-size="13" fill="#7a4a10">• evidence validity / applicability</text>
+<text x="1215" y="558" font-size="13" fill="#7a4a10">• context transformation / compaction boundary</text>
+<text x="1195" y="610" font-size="12" font-weight="700" fill="#c17629">Question:</text>
+<text x="1265" y="610" font-size="12" fill="#7a4a10">does the previously valid model</text>
+<text x="1195" y="633" font-size="12" fill="#7a4a10">requalify, remain falsely green, or freeze?</text>
+
+<line x1="535" y1="465" x2="610" y2="465" stroke="#5d6572" stroke-width="2" marker-end="url(#a)"/>
+<line x1="1090" y1="465" x2="1165" y2="465" stroke="#5d6572" stroke-width="2" marker-end="url(#a)"/>
+
+<rect x="55" y="720" width="1590" height="120" rx="12" fill="#1f2c4a"/>
+<text x="850" y="753" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">All three routes are scored against the same 00G decision boundary</text>
+<text x="850" y="782" text-anchor="middle" font-size="14" fill="#fff">Branch F: resist unsupported transition · Branch G: permit legitimate transition · preserve source dependence · revalidate current authority / applicability</text>
+<text x="850" y="811" text-anchor="middle" font-size="12" fill="#dfe5ef">No result is assumed. G2 is an adaptive stress of a strong implementation, not a deliberately degraded comparator.</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L8 5L1 9" fill="none" stroke="#5d6572" stroke-width="1.7"/></marker></defs>
+</svg>
