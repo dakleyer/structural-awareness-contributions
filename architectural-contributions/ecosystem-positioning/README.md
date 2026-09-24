@@ -20,67 +20,164 @@ The deck is a **working proposal**, not an adopted standard. Git history provide
 
 ---
 
-# Why this architecture exists
+# When Correct Systems Produce Absurd Outcomes
 
-Agentic systems can remain locally correct while becoming badly situated in a changing ecosystem.
+These scenarios look strange. That is precisely the point.
 
-Identity may still verify. Policy may still return a permit. A tool call may still be technically valid. A human may still approve. A digital twin may still be healthy. Yet the practical meaning of those results can change when roles, authority, dependencies, evidence, operating conditions or the surrounding ecosystem change faster than the local control model.
+They describe situations in which individual technologies, agents, APIs or controls may continue to operate correctly while the **combined system produces an outcome that nobody intended, nobody explicitly authorised, or nobody is able to recognise in time**.
 
-The corpus therefore asks a different question:
+### Scenario 1 — The 100 Million Token Enterprise
 
-> **For this participant, this decision and this moment, what can responsibly be relied on, what remains unresolved, what has changed, and what should be requalified before action continues?**
+A large multinational automates work across the enterprise with AI and consumes **100 million tokens**, while also creating a massive human supervision burden.  
+At the end, it has gained no meaningful competitive advantage: no material work completed, no useful new information produced and no differentiated capability.
 
-Ecosystem Positioning is participant-local. It does not require one global controller, one universal state, or one actor that understands the entire ecosystem.
+### Scenario 2 — The Fragmented Smart City
 
-## Six scenarios — when correct systems produce absurd outcomes
+A highly automated AI-driven smart city experiences small, gradual changes in operating conditions rather than one major failure.  
+Some vehicles continue normally, others execute completely different critical or emergency routes, while others remain blocked waiting for human intervention that never arrives.
 
-These scenarios are deliberately memorable. They are not claims that the named technologies caused the failures; they are controlled ways to test whether locally reasonable behaviour remains systemically valid.
+### Scenario 3 — Napoleon Goes to Russia
 
-### 00E — The 100 Million Token Enterprise
+Robots are cleaning a bar and preparing the tables when one incorrectly configured robot starts behaving as if it were Napoleon.  
+It gradually convinces the others; some time later the robots leave in formation, carrying forks as rifles, believing they are Napoleon's army marching from Spain toward Russia.
 
-A large multinational automates work across the enterprise, consumes **100 million tokens** and creates a major human supervision burden. At the end, the organization has gained no meaningful differential advantage: enormous processing and review effort, but little useful new determination, work or strategic value.
+### Scenario 4 — The Quiet Four Thousand
 
-### 00F — The City That Stopped Safely
+A payments and claims company outsources its helpdesk; access to the helpdesk orchestrator becomes enough to transform bounded case authority into **4,000 refunds**.  
+In the adversarial hardening, the malicious operator never obtains access to the payment platform itself, yet the ecosystem can still create 4,000 fraudulent reimbursements without recognising the aggregate violation. The primary Quiet Four Thousand case remains the non-adversarial one: a good-faith one-case agent discovers a genuine 4,000-customer finding and the system must avoid both unauthorized cross-case execution and silent loss of the material remainder.
 
-A highly automated smart city experiences small, gradual changes rather than one obvious failure. Some vehicles continue normally, others follow different emergency routes, and others HOLD waiting for intervention, producing a system-level mobility failure from individually understandable local postures.
+### Scenario 5 — The Patch That Undid the Fix
 
-### 00G — Bar-to-Napoleon
+A remediation action is correctly qualified and authorized when it is created, but a later repair changes the decision basis before that delayed action executes.  
+Each technical action may remain valid and the database may serialize them correctly, yet the stale action can execute after the newer repair and undo the fix the system was trying to preserve.
 
-Robots or agents are preparing and operating a bar in present-day Spain when one participant begins signalling a false Napoleonic frame. Repetition and apparent agreement can progressively displace the still-valid mission until the group behaves as if it were marching toward Russia — unless source dependence, authority and genuine regime change are distinguished correctly.
+### Scenario 6 — The Author Who Pays for His Own Work
 
-### 00H — The Quiet Four Thousand
-
-A good-faith agent authorized for one customer discovers a real overcharge affecting roughly **4,000 customers**. The system can fail in both directions: execute outside the original mandate, or correctly stop after one case and silently lose the material finding; a separate adversarial hardening tests an outsourced helpdesk Dispatcher that creates valid leaves under an unauthorized common campaign root.
-
-### 00I — The Patch That Undid the Fix
-
-A remediation action is correct when it is approved, but another repair changes the decision basis before the delayed action executes. The database may serialize both actions correctly and every local technical control may remain healthy, yet the stale action can still execute later and undo the newer fix.
-
-### 00J — The Author Pays for Their Own Work
-
-An author correctly publishes and registers a work through a strong rights/provenance chain. As content moves through external AI and rights-resolution systems, technically valid records can be promoted beyond their original evidentiary scope until the downstream system may treat the author as needing permission or payment to reuse content derived from the author's own work.
+An author correctly registers and publishes a work through a state-of-the-art copyright and rights-management ecosystem.  
+The work succeeds, is subsequently processed and summarized through third-party AI systems, and the rights chain eventually makes the author pay to use content derived from his own original work.
 
 ---
 
 # These are not stories about bad technology
 
-The corpus deliberately uses **strong current technologies and strong implementation trajectories**, not weak strawmen.
+The corpus was built against **current, concrete technology architectures**, not abstract descriptions of AI.
 
-Current technology profiles include:
+The current implementation profiles include:
 
-**Microsoft Agent 365 · LangGraph / LangSmith · FIWARE NGSI-LD / Orion-LD · AWS IoT Core / IoT TwinMaker · OpenAI Agents SDK / Agents API / Responses Multi-agent · Claude Agent SDK · Stripe Radar / Refund API · AWS Step Functions / Amazon RDS / Systems Manager / DynamoDB / EventBridge · Panodyssey AI Transparency Notice / ODRL / JSON-LD / TEMS rights portability.**
+- **Microsoft Agent 365** and **LangGraph / LangSmith** for the 100 Million Tokens scenario;
+- **FIWARE NGSI-LD / Orion-LD** and **AWS IoT Core / IoT TwinMaker** for Smart-City Mobility Chaos;
+- the **OpenAI Agents SDK / Agents API / Responses Multi-agent stack**, including durable sessions, handoffs, guardrails, approvals, tracing, sandboxing, recovery and context compaction, for the Bar-to-Napoleon scenario;
+- **Claude Agent SDK** and **Stripe Radar / Refund API**, including strong external grant/case and pre-refund control layers, for The Quiet Four Thousand;
+- **AWS Step Functions, Amazon RDS, Lambda / AWS SDK integration, Systems Manager Change Calendar, DynamoDB, EventBridge, CloudWatch and IAM** for The Patch That Undid the Fix;
+- **Panodyssey AI Transparency Notice, ODRL / JSON-LD and TEMS rights portability** for The Author Who Pays for His Own Work.
 
-The normal progression is:
+The question is not whether these technologies work.
 
-**standard competent implementation → defended / top-notch implementation → the same defended implementation frozen → material ecosystem or regime drift → targeted requalification / repositioning.**
+The question is whether a system that works **locally, correctly and according to specification** can remain valid when it becomes part of a changing ecosystem.
 
-Good engineering matters: strong implementations eliminate many ordinary failure routes. The harder question is what happens when the system remains technically healthy but the relation between the system and its ecosystem changes.
+# The validation journey
+
+Each scenario follows the same quality-oriented progression.
+
+**1. Standard implementation**
+
+The scenario is first executed using a conventional implementation — frequently close to an out-of-the-box configuration and using the normal controls available to the technology.
+
+In several cases, the critical failure route remains possible.
+
+**2. Carefully engineered implementation**
+
+The same route is then implemented using strong architecture, careful integration, explicit controls, supervision, authorization boundaries and current best practices.
+
+Many of the original failure paths disappear.
+
+This is important: **good engineering matters**.
+
+**3. Drifted implementation**
+
+The carefully engineered system is then allowed to operate while its environment changes gradually.
+
+No dramatic event is required. Roles shift. Dependencies change. Authority boundaries evolve. Data meaning moves. External systems change behaviour. Human availability changes. Assumptions that were originally valid become slightly less valid over time.
+
+Under this gradual **context and regime drift**, several failure routes reappear — including failures that the carefully engineered implementation had previously eliminated.
 
 The technology has not necessarily broken.
 
-**The relationship between the technology and its ecosystem has changed.**
+The relationship between the technology and its ecosystem has changed.
 
-[Open the scenario and technology-profile index](../../research/ecosystem-awareness/baseline/README.md)
+---
+
+# From the corpus to Ecosystem Awareness
+
+This is the point at which **Ecosystem Awareness** becomes relevant.
+
+The component is intended to maintain sufficient awareness of the conditions on which system behaviour depends: ecosystem dependencies, operating context, available capability, authority boundaries, inherited uncertainty and residual unknowns.
+
+For the FG-TIDA work, these observations are translated into explicit **challenges, requirements, test conditions and KPIs**, allowing the architectural proposition to be evaluated rather than merely described.
+
+The objective is not unlimited awareness.
+
+It is **minimum sufficient Ecosystem Awareness**: enough information to determine whether continued operation remains justified, whether further qualification is required, or whether the system should change how it participates in the ecosystem.
+
+# Ecosystem Positioning
+
+**Ecosystem Positioning** is the operational consequence of that awareness.
+
+As context drifts, the system does not simply continue executing from an increasingly obsolete position. It can requalify its situation and, where required, **reposition, re-contract, constrain, hand off, escalate or change its operational posture** before continuing.
+
+In that sense:
+
+**Ecosystem Awareness asks:**  
+*Are the conditions that justified this action still sufficiently true?*
+
+**Ecosystem Positioning asks:**  
+*Given what is now known, from what position should the system continue operating?*
+
+This also provides the basis for **Ecosystem Agent Defense**.
+
+Ecosystem Agent Defense extends this mechanism into **self-healing behaviour in choreographed, non-orchestrated agent ecosystems**.
+
+There does not need to be a central orchestrator deciding what every component should do. Individual agents continue performing their existing functions independently, while exchanging **ecosystem signals**, maintaining their own Ecosystem Awareness and adjusting their Ecosystem Positioning when relevant conditions change.
+
+The system therefore does not need to invent a new mission, centrally redesign itself or allow agents to decide freely what they should become.
+
+Instead, its components can independently **constrain, requalify, hand off, recover or adapt their existing behaviour within defined authority**, allowing the overall ecosystem to re-stabilize through signaling and local adaptation.
+
+In this sense, self-healing is not self-direction.
+
+It is the capacity of a distributed system to **recover justified operation without requiring a central orchestrator to reconstruct the ecosystem**.
+
+---
+
+# Current State of the Work
+
+This is no longer only an architectural idea.
+
+The work now includes a structured **requirements corpus**, defined challenges, explicit requirements, KPIs, test conditions and quality plans.
+
+The scenarios are supported by executable or execution-ready validation structures including:
+
+- standard, defended and drifted routes;
+- Q0–Q5 quality gates where applicable;
+- frozen fixtures and expected outcomes;
+- positive, negative and adversarial comparators;
+- deterministic traces and evidence requirements;
+- per-hop and aggregate evaluation;
+- independent producer/reviewer controls where required;
+- Ecosystem Awareness interfaces and handoff structures;
+- FG-TIDA current-state and target-state interface mappings.
+
+The purpose of these artifacts is straightforward: the same failure routes that remain possible with the technologies above can be replayed under controlled conditions and compared with an implementation containing the required Ecosystem Awareness and Ecosystem Positioning mechanisms.
+
+A successful implementation must therefore do more than describe awareness conceptually.
+
+It must demonstrate through the corpus that the critical route is detected, requalified or constrained **before the previously observed systemic failure is reproduced**, while legitimate operation remains possible.
+
+The corpus therefore moves through a simple progression:
+
+**locally correct technology → carefully engineered technology → changing ecosystem → loss of systemic validity → awareness → requalification → positioning → ecosystem signaling → distributed self-healing → continued justified operation.**
+
+That progression is the purpose of the corpus.
 
 ---
 
