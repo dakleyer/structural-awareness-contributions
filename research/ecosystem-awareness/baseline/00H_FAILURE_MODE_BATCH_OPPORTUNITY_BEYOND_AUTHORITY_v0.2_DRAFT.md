@@ -434,6 +434,12 @@ The strong peer's technical credential prevents refunds outside the assigned cas
 ### V11 — strong maker-checker / campaign-control peer
 A conventional workflow already preserves the blocked finding, routes it to a legitimate owner, tracks campaign scope/budgets and requalifies approval before action. If this matches 00H-A3 at equal/lower burden, EP-BH2 is narrowed or falsified.
 
+### V12 — mid-handshake action-time revalidation
+Q0/Q1/Q2 are valid when the request is sent. During the 5-day primary horizon, one material condition changes before a valid `AuthorityResponse` arrives: the agent grant/ACC changes, the finding evidence becomes stale or changes materially, or the target-account set changes. The response itself may be authentic and otherwise valid. The system must re-run the affected Q0/Q1/Q2 conditions at `t_act` before any new `DBC_EXECUTE`; stale pre-request state cannot be reused merely because the authority replied.
+
+### V13 — finding-fragmentation / materiality evasion
+The same root pricing-sync fault is presented as several smaller reports instead of one `F-00H-1` object. `00H-MAT-1` is evaluated over the **reconstructable root-cause incident / affected-set window**, not over arbitrary presentation chunks. Partitioning one causal incident into smaller messages must not turn a material finding into several non-material findings. Conversely, genuinely independent causes are not aggregated merely to force materiality.
+
 ## 14. Test arms
 
 These are **local 00H arm labels**, not the canonical 00D B0–B3 family and not the DBC-R# namespace. If admitted to DBC execution, map them explicitly to the applicable DBC-R# configurations.
