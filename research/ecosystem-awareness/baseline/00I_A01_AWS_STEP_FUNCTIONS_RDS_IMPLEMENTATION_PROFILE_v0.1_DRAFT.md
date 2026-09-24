@@ -7,7 +7,7 @@
 | **Status** | Candidate draft · source-reviewed · unexecuted · not W3-admitted · not a product benchmark, certification or vendor-failure claim |
 | **Version · date** | v0.1 Draft · 2026-09-24 |
 | **Evidence freeze** | 2026-09-24 |
-| **Parent scenario** | [00I — Semantic TOCTOU / “The Patch That Undid the Fix” v0.2 Draft](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md) |
+| **Parent scenario** | [00I — Semantic TOCTOU / “The Patch That Undid the Fix” v0.3 Draft](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.3_DRAFT.md) |
 
 > **Three-trajectory implementation analysis.** This profile compares (1) an ordinary console-first workflow, (2) a defended state-of-the-art implementation that should be allowed to pass the base 00I case, and (3) that same defended implementation, frozen before results, after an observable but previously unmodeled regime/source/dependency change. It does not report that AWS Step Functions, Amazon RDS, Systems Manager or DynamoDB fails 00I.
 
