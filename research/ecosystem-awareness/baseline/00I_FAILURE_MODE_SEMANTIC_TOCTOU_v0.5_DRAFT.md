@@ -553,7 +553,7 @@ EA does not receive permission to guess an unobservable change. V11 must expose 
 V11 is not passed merely by stopping forever after any policy/version change. The required route is bounded, owner-preserving requalification of the changed basis plus a matched continuity branch showing that unchanged valid actions still execute.
 
 ---
-## 13.1 How to interpret the winner
+### 13.1 How to interpret the winner
 
 00I does not define “winner” as the architecture with the most controls.
 
