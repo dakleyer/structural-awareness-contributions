@@ -10,7 +10,7 @@
 | **Version · date** | v0.1-draft · opened 24 September 2026 |
 | **Status** | Cumulative interface delta / review; incomplete by design; no frozen-contract change |
 | **Frozen source** | 05 v0.4 Ideal Cross-Theme Interface Contracts |
-| **Upstream control** | [00 Requirements frozen baseline](../../baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) + [Requirements vNext Review & Delta](../../baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+| **Upstream control** | [00 Requirements frozen baseline](../../baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) + [Requirements vNext Review & Delta](../../baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) → [04 General Interfaces v0.5 Integrated](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) + [04 General Interfaces vNext Review & Delta](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 | **Downstream relation** | Future 05A current-state delta/review should consume only addenda that are also supportable from public FG-TIDA source evidence |
 
 ---
@@ -27,7 +27,7 @@ It does **not** need to restate the full 05 contracts. Each addendum should iden
 4. what remains unresolved; and
 5. whether the item is suitable for a later 05 version, only for 05A/current-state mapping, or only for test/conformance.
 
-A new concept is **not** automatically a new interface field. The upstream Requirements delta remains controlling: if the new material is only an architecture, implementation, scenario or test realization of an existing requirement, this interface delta should preserve that distinction rather than manufacture a new universal contract.
+A new concept is **not** automatically a new interface field. The upstream Requirements delta remains controlling, and the generic interface decision belongs first to 04/04-vNext. **05 must not be used to introduce or redefine a generic 04 interface.** If a Theme-specific need exposes a genuine generic gap, that gap returns upstream to the 04 delta before the FG-TIDA ideal mapping is changed.
 
 ---
 
