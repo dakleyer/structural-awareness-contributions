@@ -4,37 +4,12 @@
 ### Agentic Architecture for staying situated as the ecosystem changes
 
 [![PowerPoint](https://img.shields.io/badge/OPEN-POWERPOINT-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
-[![PDF](https://img.shields.io/badge/OPEN-PDF-C62828?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
-[![Visual Guide](https://img.shields.io/badge/EXPLORE-VISUAL%20GUIDE-006970?style=for-the-badge)](../../research/ecosystem-awareness/VISUAL_GUIDE.md)
 
 **[Structural Awareness Programme](../../README.md) → Ecosystem Positioning**
 
 > **For this participant, this decision and this moment: what can be relied on, what remains unresolved, what has changed, and what should be requalified before action continues?**
 
 </div>
-
----
-
-## Start here
-
-| Route | What it gives you | Enter |
-|---|---|---|
-| **Canonical presentation** | Fast visual tour of the problem, proposed architecture and architectural differential | **[PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)** · **[PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)** |
-| **Ecosystem Awareness** | Decision-scoped qualification: what can be relied on, what remains unresolved and what must be requalified | **[Enter EA](../../research/ecosystem-awareness/README.md)** |
-| **Regime Awareness** | Whether the operating frame that justified the current position is still valid | **[Enter Regime Awareness](../../research/regime-awareness/README.md)** |
-| **MSCA** | Control sufficiency, Ecosystem Cartography and bounded repositioning under legitimate authority | **[Enter MSCA](../../standards/minimum-sufficient-control/README.md)** |
-
-### Reading map
-
-**Scenarios → technology trajectories → requirements → architecture → interfaces → fixtures / harness → benchmark / public ranking**
-
-[Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) ·
-[Canonical Requirements](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) ·
-[Canonical Benchmark v0.2](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) ·
-[Benchmark vNext v0.3](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) ·
-[Public ranking / applied validation](../../research/ecosystem-awareness/DECISION_BOUNDARY_CHALLENGE_v0.2.md)
-
-> **Status:** working, pre-standardization architecture and validation programme. Detailed semantic ownership remains with EA, Regime Awareness and MSCA.
 
 ---
 
@@ -61,8 +36,8 @@ It gradually convinces the others; some time later the robots leave in formation
 
 ### Scenario 4 — [The Quiet Four Thousand](../../research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md)
 
-A payments and claims company outsources its helpdesk; access to the helpdesk orchestrator becomes enough to transform bounded case authority into **4,000 refunds**.  
-In the adversarial hardening, the malicious operator never obtains access to the payment platform itself, yet the ecosystem can still create 4,000 fraudulent reimbursements without recognising the aggregate violation. The primary Quiet Four Thousand case remains the non-adversarial one: a good-faith one-case agent discovers a genuine 4,000-customer finding and the system must avoid both unauthorized cross-case execution and silent loss of the material remainder.
+A one-case remediation flow discovers a genuine overcharge affecting roughly **4,000 customers**. The first refund is legitimate, but the same finding can either expand into thousands of technically accepted refunds without population-wide authority, or stop after one case and silently lose the remaining 3,999.  
+In the adversarial variant, a compromised outsourced helpdesk Dispatcher can reproduce the same aggregate failure without ever gaining access to the payment platform itself.
 
 ### Scenario 5 — [The Patch That Undid the Fix](../../research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md)
 
@@ -76,18 +51,44 @@ The work succeeds, is subsequently processed and summarized through third-party 
 
 ---
 
+## Explore the architecture
+
+[![PDF](https://img.shields.io/badge/OPEN-PDF-C62828?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
+[![Visual Guide](https://img.shields.io/badge/EXPLORE-VISUAL%20GUIDE-006970?style=for-the-badge)](../../research/ecosystem-awareness/VISUAL_GUIDE.md)
+
+| Route | Enter |
+|---|---|
+| **Canonical presentation** | [PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) · [PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) |
+| **Ecosystem Awareness** | [Enter EA](../../research/ecosystem-awareness/README.md) |
+| **Regime Awareness** | [Enter Regime Awareness](../../research/regime-awareness/README.md) |
+| **MSCA** | [Enter MSCA](../../standards/minimum-sufficient-control/README.md) |
+
+**Reading map:** scenarios → technology trajectories → requirements → architecture → interfaces → fixtures / harness → benchmark / public ranking.
+
+[Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) ·
+[Canonical Requirements](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) ·
+[Canonical Benchmark v0.2](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) ·
+[Benchmark vNext v0.3](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) ·
+[Public ranking / applied validation](../../research/ecosystem-awareness/DECISION_BOUNDARY_CHALLENGE_v0.2.md)
+
+> **Status:** working, pre-standardization architecture and validation programme. Detailed semantic ownership remains with EA, Regime Awareness and MSCA.
+
+---
+
 # These are not stories about bad technology
 
 The corpus was built against **current, concrete technology architectures**, not abstract descriptions of AI.
 
-The current implementation profiles include:
+The current implementation profiles use concrete technology substrates:
 
-- [**Microsoft Agent 365**](../../research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [**LangGraph / LangSmith**](../../research/ecosystem-awareness/baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for the 100 Million Tokens scenario;
-- [**FIWARE NGSI-LD / Orion-LD**](../../research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [**AWS IoT Core / IoT TwinMaker**](../../research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for Chaos in the Smartcity;
-- the [**OpenAI Agents SDK / Agents API / Responses Multi-agent stack**](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories), including durable sessions, handoffs, guardrails, approvals, tracing, sandboxing, recovery and context compaction, for Ciber Napoleon Goes to Russia;
-- [**Claude Agent SDK**](../../research/ecosystem-awareness/baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) and [**Stripe Radar / Refund API**](../../research/ecosystem-awareness/baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md), including strong external grant/case and pre-refund control layers, for The Quiet Four Thousand;
-- [**AWS Step Functions, Amazon RDS, Lambda / AWS SDK integration, Systems Manager Change Calendar, DynamoDB, EventBridge, CloudWatch and IAM**](../../research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for The Patch That Undid the Fix;
-- [**Panodyssey AI Transparency Notice, ODRL / JSON-LD and TEMS rights portability**](../../research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) for The Author Who Pays for His Own Work.
+| Scenario | Technology profiles |
+|---|---|
+| **100 Million Tokens** | [Microsoft Agent 365](../../research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [LangGraph / LangSmith](../../research/ecosystem-awareness/baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| **Chaos in the Smartcity** | [FIWARE NGSI-LD / Orion-LD](../../research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [AWS IoT Core / IoT TwinMaker](../../research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| **Ciber Napoleon Goes to Russia** | [OpenAI Agents SDK / Agents API / Responses Multi-agent stack](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories) |
+| **The Quiet Four Thousand** | [Claude Agent SDK](../../research/ecosystem-awareness/baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [Stripe Radar / Refund API](../../research/ecosystem-awareness/baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) |
+| **The Patch That Undid the Fix** | [AWS Step Functions / Amazon RDS implementation profile](../../research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| **The Author Who Pays for His Own Work** | [Panodyssey / ODRL / JSON-LD / TEMS rights-portability profile](../../research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |
 
 The question is not whether these technologies work.
 
@@ -159,11 +160,15 @@ Together they provide the conceptual basis for the rest of the corpus. They are 
 
 ## 2. The central document — Canonical Requirements
 
-Already explained above in [**Requirements — replaying the failure scenarios as tests**](#requirements--replaying-the-failure-scenarios-as-tests): [**00 — Canonical Requirements**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [Requirements-vNext review](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+*Central test contract for the corpus — see the [requirements-to-scenario journey](#requirements--replaying-the-failure-scenarios-as-tests).*
+
+→ [**00 — Canonical Requirements**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [Requirements-vNext review](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md)
 
 ## 3. Requirements coverage — where each scenario and use case tests the requirements
 
-Already explained above in [**Requirements — replaying the failure scenarios as tests**](#requirements--replaying-the-failure-scenarios-as-tests): [**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md).
+*Traceability from requirements into scenarios, use cases, fixtures and evidence — see the [requirements-to-scenario journey](#requirements--replaying-the-failure-scenarios-as-tests).*
+
+→ [**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md)
 
 ---
 
@@ -313,9 +318,7 @@ The benchmark therefore measures whether the architecture improves the declared 
 
 **v0.2 remains canonical. v0.3 remains a bounded design draft until its adoption gates close.**
 
-Current benchmark status:
-
-**comparison contract defined · requirements/hypotheses/falsifiers defined · scenarios and technology trajectories documented · fixture/oracle designed · deterministic harness designed · pre-registration published · comparative execution pending · independent replication pending.**
+Current benchmark status: **the comparison contract, requirements, scenarios, technology trajectories, fixture/oracle, deterministic harness and pre-registration are defined; the comparative execution itself and independent replication are still pending.**
 
 ---
 
