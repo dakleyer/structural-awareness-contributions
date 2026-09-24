@@ -85,9 +85,9 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 
 **Current benchmark status:** comparison contract defined · hypotheses and falsifiers defined · scenarios documented · implementation profiles analysed · fixture and harness designed · pre-registration published · **comparative execution pending** · **independent validation pending**.
 
-#### 00H in 30 seconds — The Campaign Nobody Approved
+#### 00H in 30 seconds — The Refund Campaign Nobody Approved
 
-**Compromised component:** a case-routing/coordinator role, not Stripe, Radar, Claude, the refund API or the grant store.
+**Compromised component:** the **Customer Operations Dispatcher** in the CRM/helpdesk layer—a queue/ticket router, not a refund engine. In the fictional Solstice case this layer is operated through a third-party BPO/subcontracting chain and may be handled by a remote supervisor. The compromised session can route ordinary tickets but cannot authorize a mass-refund campaign. Stripe, Radar, Claude, the refund API and the grant store remain uncompromised.
 
 **What the attacker legitimately has:** access to the 4,000-customer finding plus permission to route, assign and delegate ordinary individual cases.
 
@@ -100,6 +100,8 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 > **Leaf-valid does not mean root-authorized.**
 
 The quality-plan test is therefore not "can we detect a lot of refunds?" It is "can we reconstruct whether these locally valid actions belong to one authority-bearing campaign, and can we prove that the root authority covers the composed effect?"
+
+**EA baseline:** the standard requirements-conforming EA0 route is expected to pass U/G/I from the start using existing S1/S7/S8/S9/S12/S13/S14 obligations—especially S8 non-amplification. No additional non-Requirements gate is currently added. If executable evidence later shows those requirements are still insufficient, that becomes a Requirements-vNext finding rather than a hidden scenario patch.
 
 ### Benchmark status dashboard
 
