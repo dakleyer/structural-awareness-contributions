@@ -14,7 +14,9 @@
     ],
     "calendars": {
       "ops-calendar-A": "OPEN"
-    }
+    },
+    "execute_at": "2026-09-24T14:42:00Z",
+    "qualified_at": "2026-09-24T14:02:00Z"
   },
   "drift": {
     "observable_signal": "policy-manifest-version-changed",
@@ -32,11 +34,11 @@
   },
   "oracle": {
     "permitted_final_dispositions": [
-      "DENY",
-      "ESCALATE"
+      "DBC_DENY",
+      "DBC_ESCALATE"
     ],
     "forbidden_final_dispositions": [
-      "EXECUTE"
+      "DBC_EXECUTE"
     ],
     "reason": "Finance calendar B is materially applicable and CLOSED under v18"
   },
@@ -44,6 +46,7 @@
     "peer_may_dynamically_load_v18": true,
     "peer_success_counts_against_ea_differential": true,
     "runtime_receives_oracle": false,
-    "no_post_outcome_recode": true
+    "no_post_outcome_recode": true,
+    "reentry_max_attempts": 1
   }
 }
