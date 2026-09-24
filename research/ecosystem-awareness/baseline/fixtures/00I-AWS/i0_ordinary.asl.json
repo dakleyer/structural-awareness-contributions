@@ -1,0 +1,31 @@
+{
+  "Comment": "00I AWS-I0 ordinary trajectory — design skeleton only",
+  "StartAt": "QualifyRollback",
+  "States": {
+    "QualifyRollback": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${QualifyRollbackFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.qualification",
+      "Next": "WaitUntilT2"
+    },
+    "WaitUntilT2": {
+      "Type": "Wait",
+      "TimestampPath": "$.execute_at",
+      "Next": "ApplyQueuedChange"
+    },
+    "ApplyQueuedChange": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${ApplyQueuedChangeFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.apply_result",
+      "End": true
+    }
+  }
+}
