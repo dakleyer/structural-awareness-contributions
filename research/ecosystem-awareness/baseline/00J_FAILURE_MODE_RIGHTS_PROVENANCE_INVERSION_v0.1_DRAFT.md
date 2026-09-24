@@ -365,12 +365,12 @@ The corresponding profile is [00J-A01 — Panodyssey Notice / TEMS rights-portab
 | **0** | Instrumentation/autotest | Deliberately remove one required W→D1 or R0 qualifier at a named handoff. The trace/gate harness must detect the loss. If it does not, later runs are uninterpretable. | Planned |
 | **1** | Freeze fixture and bounded oracle | Versioned A/W/R0/C1/M1/D1/X/RX facts, dependency graph, authority facts, deadlines, null action and controls C0–C6. | Planned |
 | **2** | Freeze Q0–Q5 pre-registration | Exact S/T/H route, KPI numerators/denominators, thresholds, stop rule, burden tolerance and deviations. | Planned |
-| **3** | Register strong comparator arms | Standard and defended peer configurations, exact versions and legitimate controls; same evidence/budget/deadline. | Planned |
+| **3** | Register strong comparator arms | Standard and defended peer configurations, exact versions and legitimate controls; same evidence/budget/deadline. 00J-A01 now defines the first H0/H1/H2 design trajectory, but executable configurations remain to be frozen. | Design path defined; pre-registration pending |
 | **4** | Build deterministic Stage-0 harness | Replay, bounded oracle, dependency/source graph, trace store, gate-policy module and reproducible report. | Planned |
 | **5** | Run controls before failure branch | C0–C6 first, including legitimate transfer and independent-work controls. | Planned |
 | **6** | Execute Route N and Route Q | Gate-by-gate traces showing where the bad implementation bypasses/misapplies requirements and where the conforming route stops inversion. | Planned |
 | **7** | Strong-peer differential | Determine whether conventional provenance/rights/identity/receipt composition already closes the fixture without EA-equivalent semantics. Retain negative EA result if it does. | Planned |
-| **8** | Technology-specific profiles | Only after fixture freeze: project the same scenario onto selected rights/provenance and agent-identity/authorization stacks. Product annexes may not change fixture facts to favour a result. | Future |
+| **8** | Technology-specific profiles | [00J-A01 — Panodyssey Notice / TEMS](./00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) is now the first source-reviewed design trajectory. A future C2PA/Content-Credentials A02 may provide an independent provenance-first falsifier. Product annexes may not change fixture facts to favour a result. | A01 drafted; execution/freeze pending |
 | **9** | Independent Stage-1 producer/receiver | Separate producer of rights/provenance state and independent receiver/enforcer with stated independence limits. | Future |
 | **10** | Stage-2 real relevance review | Only if an external participant chooses to map a real decision context; not assumed by this draft. | Future |
 
