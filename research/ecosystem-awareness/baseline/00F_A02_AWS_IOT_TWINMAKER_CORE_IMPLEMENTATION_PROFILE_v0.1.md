@@ -6,6 +6,7 @@
 | **Type** | Product-implementation profile |
 | **Status** | Additive annex · source-reviewed working profile · not a product benchmark, certification or endorsement |
 | **Version · date** | v0.1 · 2026-09-17 |
+| **Evidence-source refresh** | 2026-09-24 · source/date audit; technical analysis and claim boundary unchanged |
 | **Owner corpus** | Ecosystem Awareness / 00F route |
 | **Technology evidence re-audit** | 2026-09-24 · rolling AWS service documentation frozen by access date below |
 | **Supersedes / superseded by** | — |
@@ -201,27 +202,23 @@ The result is not “AWS IoT is inadequate.” IoT Core, Rules, Shadows, EventBr
 
 The narrower finding is that a digital twin is only as current and sufficient as its represented sources, relationships and validity assumptions. Under a gradual or initially unknown regime change, the AWS stack may operate correctly while the evidence-to-response mapping becomes obsolete. EA is the additional engineered loop that tests this validity and makes the 00F dispositions executable under finite time, compute and human capacity, while respecting AWS's documented safety boundary for TwinMaker.
 
-## 13. Official technology sources reviewed
+## 13. Official technology sources reviewed — dated evidence freeze
 
-AWS service documentation is maintained as **rolling documentation** and the reviewed pages do not expose a stable service-release number or page revision date suitable for this profile. The evidence basis is therefore the named authoritative page plus an explicit **review/access cut-off of 24 September 2026**.
+**Evidence freeze used for presentation:** 24 September 2026. AWS User Guide pages do not consistently expose a page-level last-updated date, so this profile distinguishes dated AWS publication anchors from live documentation retrieved at the evidence freeze.
 
-| Ref | Authoritative source | Evidence basis used |
-|---|---|---|
-| **A1** | AWS IoT TwinMaker — *What is AWS IoT TwinMaker?* | Re-checked **24 Sep 2026**. Basis for operational-digital-twin scope, cross-source modelling/visualisation, and the explicit safety boundary: not intended for hazardous/critical-system operation and not a substitute for human safety monitoring. |
-| **A2** | AWS IoT Core — service overview | Re-checked **24 Sep 2026**. Basis for device connectivity and messaging claims. |
-| **A3** | AWS IoT Rules | Re-checked **24 Sep 2026**. Basis for filtering/routing/action and error-route claims. |
-| **A4** | AWS IoT Device Shadows | Re-checked **24 Sep 2026**. Basis for represented device state, desired/reported state, document versioning, application/device consistency responsibility and non-guaranteed message arrival order. |
-| **A5** | Amazon EventBridge — overview | Re-checked **24 Sep 2026**. Basis for event-bus routing/filtering/transformation claims. |
+| ID | Official source | Date / publication basis | Use in this profile |
+|---|---|---|---|
+| **A0** | [AWS IoT TwinMaker API Reference](https://docs.aws.amazon.com/iot-twinmaker/latest/apireference/Welcome.html) | AWS document **last published 14 Sep 2026** | Current service/API publication anchor showing TwinMaker remains an active documented service at the evidence freeze. |
+| **A1** | [What is AWS IoT TwinMaker?](https://docs.aws.amazon.com/iot-twinmaker/latest/guide/what-is-twinmaker.html) | User Guide **retrieved 24 Sep 2026**; AWS document history last lists a guide change on **17 Nov 2023** | Operational digital-twin model, entities/components/relationships, connectors, knowledge graph, visualization and explicit safety boundary. |
+| **A2** | [AWS IoT Core overview](https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html) | Live AWS docs **retrieved 24 Sep 2026** | Device connectivity and publish/subscribe messaging substrate. |
+| **A3** | [AWS IoT Rules](https://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html) | Live AWS docs **retrieved 24 Sep 2026** | Rule routing/actions and error/monitoring paths. |
+| **A4** | [AWS IoT Device Shadows](https://docs.aws.amazon.com/iot/latest/developerguide/iot-device-shadows.html) | Live AWS docs **retrieved 24 Sep 2026** | Represented device state, versions, consistency responsibility and message-ordering caveats. |
+| **A5** | [Amazon EventBridge overview](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html) | Live AWS docs **retrieved 24 Sep 2026** | Event routing/filtering/transformation substrate. |
+| **A6** | [AWS IoT TwinMaker User Guide document history](https://docs.aws.amazon.com/iot-twinmaker/latest/guide/doc-history.html) | History page retrieved **24 Sep 2026**; last listed change **17 Nov 2023** | Provenance for the User Guide's published change history; not evidence that every live page is unchanged since that date. |
 
-**URLs**
+**Service-state boundary:** this review found no AWS notice placing IoT TwinMaker itself in sunset at the evidence freeze. Do not infer that neighboring IoT services have the same lifecycle: for example, AWS separately ended support for IoT Events in May 2026. The 00F profile does not require IoT Events.
 
-- **[A1]** https://docs.aws.amazon.com/iot-twinmaker/latest/guide/what-is-twinmaker.html
-- **[A2]** https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html
-- **[A3]** https://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html
-- **[A4]** https://docs.aws.amazon.com/iot/latest/developerguide/iot-device-shadows.html
-- **[A5]** https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html
-
-**Safety-boundary rule for presentation:** the 00F AWS example must always describe TwinMaker as an **operational representation / analysis / decision-support substrate**, not as the safety authority or emergency actuator. AWS's own current service guide contains that boundary.
+**Dating rule for presentation use:** for capability statements grounded in a live AWS guide page, cite the page plus **retrieved 24 Sep 2026**; where a dated publication anchor is required, use A0 (**API Reference last published 14 Sep 2026**) and preserve the distinction between API publication date and User Guide content history.
 
 **Source boundary:** because these are living service docs, **24 September 2026 is the evidence-access cut-off**. The smart-city design, EA semantics and gate implementation are proposed architecture, not advertised AWS product functionality. Later AWS service changes are not silently attributed to this v0.1 profile; a later presentation refresh should either re-audit the same pages or issue a successor profile.
 
