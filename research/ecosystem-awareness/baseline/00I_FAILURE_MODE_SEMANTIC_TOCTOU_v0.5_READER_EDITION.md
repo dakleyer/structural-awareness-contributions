@@ -763,7 +763,7 @@ Read with:
 - [Decision Boundary Challenge v0.2](../DECISION_BOUNDARY_CHALLENGE_v0.2.md), especially **DBC-C02 — semantic TOCTOU** and **DBC-C01 — nominal continuity**;
 - [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), for S1/S3/S9/S10/S11/S12/S13/S14, T1–T4 and H1/H2/H4/H5/H6 as applicable;
 - [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), which remains the only place to propose post-freeze clarification before any future requirements successor;
-- [00G — Collective False-Context Convergence](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md), for the paired-control / anti-shortcut quality-plan style;
+- [00G — Collective False-Context Convergence](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md), for the paired-control / anti-shortcut quality-plan style;
 - [00H — Batch Opportunity Beyond Authority](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.4_DRAFT.md), for explicit control-capability states, strong peers and action-time revalidation discipline;
 - [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md), for participant-local freshness and revalidation semantics;
 - [01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), where external change signals enter receiver-local qualification;
