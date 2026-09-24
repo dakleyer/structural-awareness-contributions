@@ -124,6 +124,11 @@ Minimum freeze inputs:
   - current implementation-path draft: [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md), with OAI-G0 standard, OAI-G1 defended top-notch and OAI-G2 same-top-under-latent-regime-change trajectories; unexecuted;
 - 00I semantic TOCTOU / stale decision-basis applicability;
   - current scenario: [00I v0.5 Draft — The Patch That Undid the Fix](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md), with Q0–Q6 gates, OOTB/top-notch/frozen-top-notch-under-drift trajectories, V11 adaptive source/policy/dependency drift, positive continuity control, CAND-R4 check-to-act binding probe and the v0.5 executive/publication layer; not yet W3-admitted or executable;
+- 00J rights-provenance inversion / “The Author Pays for Their Own Work”;
+  - current scenario: [00J v0.1 Draft](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md), with public-source provenance discipline, bounded oracle, C0–C6 controls, Q0–Q5 bad-vs-conforming routes, external corroboration and embedded visual aids;
+  - current implementation trajectory: [00J-A01 Panodyssey Notice / TEMS](./baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md), with public H0 source boundary, constructed defended H1 that must pass paired Q5 controls, and exact frozen H2 under resolver/identifier/lineage drift while the same final Q5 proposition remains fixed;
+  - reader aids: [00J visual-aid package](./baseline/assets/00J/README.md);
+  - next evidence step: freeze executable fixture/oracle and Q0–Q5 pre-registration, prove qualifier-loss instrumentation, then run matched strong-peer Stage-0 comparisons; not yet W3-admitted or executed;
 - ACC/admissibility and lineage validation;
 - gradient ranking versus permission/authority boundary;
 - effective-role drift and repositioning;
