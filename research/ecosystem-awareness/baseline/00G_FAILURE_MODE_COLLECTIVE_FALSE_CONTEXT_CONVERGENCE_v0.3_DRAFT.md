@@ -1,5 +1,7 @@
 # 00G — Reference Failure Scenario and Quality-Gate Plan: Collective False-Context Convergence ("Bar-to-Napoleon" Cascade)
 
+> **SUPERSEDED ACTIVE REFERENCE — lineage only.** The controlling Bar-to-Napoleon scenario is now [00G v0.4 canonical](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md), which integrates this scenario, the complete quality/KPI plan, visual aids and the OpenAI OAI-G0/G1/G2 implementation trajectory. This draft is preserved for audit/history and should not be used as the active 00G specification.
+
 | | |
 |---|---|
 | **ID** | 00G |
