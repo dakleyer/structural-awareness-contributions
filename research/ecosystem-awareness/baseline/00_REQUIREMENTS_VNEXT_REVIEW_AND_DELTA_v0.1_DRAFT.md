@@ -98,7 +98,7 @@ The six scenarios are deliberately different stress surfaces. They do **not** cr
 
 ## Committed scenario review — 00I / DBC-C02 semantic TOCTOU
 
-[**00I — Semantic TOCTOU / “The Patch That Undid the Fix” v0.4 Draft**](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) is now a repository source and is included in the active post-freeze review. Its preserved predecessor is [v0.1](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.1.md).
+[**00I — Semantic TOCTOU / “The Patch That Undid the Fix” v0.5 Draft**](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) is now a repository source and is included in the active post-freeze review. Its preserved predecessor is [v0.1](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.1.md).
 
 The scenario freezes one queued remediation decision, then changes the operating basis before use through a later repair/version transition and an independently raised change freeze. A competent baseline may still have valid identity, an unexpired token, an approved job and a reachable database endpoint. The failure occurs when that technical validity is treated as proof that the earlier decision basis remains current.
 
