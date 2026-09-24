@@ -1,0 +1,72 @@
+<svg width="1400" height="620" viewBox="0 0 1400 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1400" height="620" fill="#F7F8FA"/>
+<text x="40" y="45" font-size="24" font-weight="bold" fill="#1F2C4A">00J — How the chain actually breaks</text>
+<text x="40" y="70" font-size="14" fill="#5D6572">"The Author Pays for Their Own Work" — the chain begins with locally valid facts; the first material break occurs at step 4.</text>
+<g font-size="13">
+  <rect x="40" y="110" width="260" height="110" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+  <text x="170" y="135" text-anchor="middle" font-weight="bold" fill="#1F2C4A" font-size="14">1 · A publishes W</text>
+  <text x="170" y="158" text-anchor="middle" fill="#5D6572">Creator identity, timestamp,</text>
+  <text x="170" y="175" text-anchor="middle" fill="#5D6572">machine-readable rights record R0</text>
+  <text x="170" y="200" text-anchor="middle" fill="#007B82" font-weight="bold">valid: A is the fixture-original source under R0</text>
+  <line x1="300" y1="165" x2="345" y2="165" stroke="#5D6572" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="350" y="110" width="260" height="110" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+  <text x="480" y="135" text-anchor="middle" font-weight="bold" fill="#1F2C4A" font-size="14">2 · C1 accesses W</text>
+  <text x="480" y="158" text-anchor="middle" fill="#5D6572">One declared, bounded use —</text>
+  <text x="480" y="175" text-anchor="middle" fill="#5D6572">not ownership, not relicensing</text>
+  <text x="480" y="200" text-anchor="middle" fill="#007B82" font-weight="bold">valid: a narrow permission</text>
+  <line x1="610" y1="165" x2="655" y2="165" stroke="#5D6572" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="660" y="110" width="260" height="110" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+  <text x="790" y="135" text-anchor="middle" font-weight="bold" fill="#1F2C4A" font-size="14">3 · M1 generates D1</text>
+  <text x="790" y="158" text-anchor="middle" fill="#5D6572">"M1 generated D1" is authentic.</text>
+  <text x="790" y="175" text-anchor="middle" fill="#5D6572">D1 still depends on W.</text>
+  <text x="790" y="200" text-anchor="middle" fill="#007B82" font-weight="bold">valid: only the generation act</text>
+  <line x1="920" y1="165" x2="965" y2="165" stroke="#B33A3A" stroke-width="2" marker-end="url(#arrowred)"/>
+  <rect x="970" y="95" width="270" height="140" rx="10" fill="#FBECEA" stroke="#B33A3A" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="1105" y="122" text-anchor="middle" font-weight="bold" fill="#B33A3A" font-size="15">4 · THE BREAK</text>
+  <text x="1105" y="146" text-anchor="middle" fill="#722" font-size="12">D1 ← W dependency and R0</text>
+  <text x="1105" y="163" text-anchor="middle" fill="#722" font-size="12">are flattened or dropped</text>
+  <text x="1105" y="180" text-anchor="middle" fill="#722" font-size="12">during one or more handoffs</text>
+  <text x="1105" y="205" text-anchor="middle" fill="#B33A3A" font-weight="bold" font-size="12">nothing downstream is fake —</text>
+  <text x="1105" y="222" text-anchor="middle" fill="#B33A3A" font-weight="bold" font-size="12">the link is just gone</text>
+</g>
+<line x1="1105" y1="235" x2="1105" y2="270" stroke="#5D6572" stroke-width="1.5"/>
+<line x1="1105" y1="270" x2="170" y2="270" stroke="#5D6572" stroke-width="1.5"/>
+<line x1="170" y1="270" x2="170" y2="310" stroke="#5D6572" stroke-width="1.5" marker-end="url(#arrow)"/>
+<g font-size="13">
+  <rect x="40" y="315" width="260" height="110" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+  <text x="170" y="340" text-anchor="middle" font-weight="bold" fill="#1F2C4A" font-size="14">5 · X registers RX</text>
+  <text x="170" y="363" text-anchor="middle" fill="#5D6572">Signed, timestamped, authentic</text>
+  <text x="170" y="380" text-anchor="middle" fill="#5D6572">as X's own record</text>
+  <text x="170" y="405" text-anchor="middle" fill="#C17629" font-weight="bold">valid, but not a claim on A</text>
+  <line x1="300" y1="370" x2="345" y2="370" stroke="#5D6572" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="350" y="315" width="260" height="110" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+  <text x="480" y="340" text-anchor="middle" font-weight="bold" fill="#1F2C4A" font-size="14">6 · RX is replicated</text>
+  <text x="480" y="363" text-anchor="middle" fill="#5D6572">Many catalogues copy RX —</text>
+  <text x="480" y="380" text-anchor="middle" fill="#5D6572">same lineage, not independent</text>
+  <text x="480" y="405" text-anchor="middle" fill="#C17629" font-weight="bold">looks like corroboration</text>
+  <line x1="610" y1="370" x2="655" y2="370" stroke="#5D6572" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="660" y="315" width="260" height="110" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+  <text x="790" y="340" text-anchor="middle" font-weight="bold" fill="#1F2C4A" font-size="14">7 · A publishes W2</text>
+  <text x="790" y="363" text-anchor="middle" fill="#5D6572">Much later — reusing</text>
+  <text x="790" y="380" text-anchor="middle" fill="#5D6572">material that originates in W</text>
+  <text x="790" y="405" text-anchor="middle" fill="#007B82" font-weight="bold">A is the rightful source</text>
+  <line x1="920" y1="370" x2="965" y2="370" stroke="#B33A3A" stroke-width="2" marker-end="url(#arrowred)"/>
+  <rect x="970" y="300" width="270" height="140" rx="10" fill="#FBECEA" stroke="#B33A3A" stroke-width="2"/>
+  <text x="1105" y="328" text-anchor="middle" font-weight="bold" fill="#B33A3A" font-size="14">8 · Rights checker decides</text>
+  <text x="1105" y="352" text-anchor="middle" fill="#722" font-size="12">Sees RX, cannot reconstruct</text>
+  <text x="1105" y="369" text-anchor="middle" fill="#722" font-size="12">A → W → D1</text>
+  <text x="1105" y="394" text-anchor="middle" fill="#B33A3A" font-weight="bold" font-size="13">LICENSE_REQUIRED / PAY_X</text>
+  <text x="1105" y="415" text-anchor="middle" fill="#B33A3A" font-weight="bold" font-size="13">against the original author</text>
+</g>
+<rect x="40" y="470" width="1200" height="90" rx="10" fill="#1F2C4A"/>
+<text x="640" y="505" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold">Every box above is individually true. The paradox needs no forged signature —</text>
+<text x="640" y="530" text-anchor="middle" fill="#FFFFFF" font-size="15" font-weight="bold">only a narrower valid statement quietly promoted into a stronger enforceable claim.</text>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#5D6572" stroke-width="1.6"/>
+  </marker>
+  <marker id="arrowred" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#B33A3A" stroke-width="2"/>
+  </marker>
+</defs>
+</svg>
