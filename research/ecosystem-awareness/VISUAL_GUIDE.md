@@ -15,7 +15,7 @@ flowchart TB
     R["00 Requirements<br/>S1–S14 · T1–T4 · H1–H6 · KPIs"]
     A["Architecture<br/>Topology · 03 Functions · 04 General Interfaces"]
     I["Integration annexes<br/>01B / 01C / 01D · 01H / 01I / 01J"]
-    V["Validation & reference scenarios<br/>UC-EA-01…04 · 00E · 00F · 00G v0.2 · 00H"]
+    V["Validation & reference scenarios<br/>UC-EA-01…04 · 00E · 00F · 00G v0.2 · 00H v0.2 Draft"]
     B["Benchmark & evidence<br/>00D · B0–B3 · EA-H1–EA-H4"]
     T["Test programme<br/>A01 · A03 · fixtures · pre-registration"]
     EP["Ecosystem Positioning<br/>EA + RA + MSCA"]
@@ -130,6 +130,7 @@ flowchart LR
 | Requirements / hypotheses / KPI protocol | **Defined and versioned** |
 | 00E / 00F scenarios and quality plans | **Documented** |
 | 00G v0.2 | **Published working candidate; paired false/genuine control defined; 00D/W3 execution pending** |
+| 00H v0.2 Draft | **Latest working candidate; causal split / materiality / bounded authority closure defined; W3 execution pending** |
 | B0–B3 comparison contract | **Defined** |
 | A01 test/oracle construction | **Designed** |
 | A03 Q1a harness design | **Designed** |
