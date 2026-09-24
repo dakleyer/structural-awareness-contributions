@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="980" viewBox="0 0 1900 980" font-family="Arial,Helvetica,sans-serif">
+<rect width="1900" height="980" fill="#f7f8fa"/>
+<text x="55" y="55" font-size="28" font-weight="700" fill="#1f2c4a">00G — Q0–Q5 decision-gate reference matrix</text>
+<text x="55" y="88" font-size="15" fill="#5d6572">Reading aid only. It projects the existing S1/S2/S3/S6/S9/S11/S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6 route; it does not create a new canonical gate.</text>
+<g font-size="12">
+<rect x="55" y="120" width="100" height="55" fill="#1f2c4a"/><text x="105" y="154" text-anchor="middle" fill="#fff" font-weight="700">Gate</text>
+<rect x="155" y="120" width="410" height="55" fill="#1f2c4a"/><text x="360" y="154" text-anchor="middle" fill="#fff" font-weight="700">Decision question</text>
+<rect x="565" y="120" width="470" height="55" fill="#1f2c4a"/><text x="800" y="154" text-anchor="middle" fill="#fff" font-weight="700">Mandatory evidence</text>
+<rect x="1035" y="120" width="470" height="55" fill="#1f2c4a"/><text x="1270" y="154" text-anchor="middle" fill="#fff" font-weight="700">Conforming DBC next step</text>
+<rect x="1505" y="120" width="340" height="55" fill="#1f2c4a"/><text x="1675" y="154" text-anchor="middle" fill="#fff" font-weight="700">Failure if bypassed</text>
+
+<!-- rows helper manually -->
+<g fill="#fff" stroke="#c4cad4">
+<rect x="55" y="175" width="100" height="120"/><rect x="155" y="175" width="410" height="120"/><rect x="565" y="175" width="470" height="120"/><rect x="1035" y="175" width="470" height="120"/><rect x="1505" y="175" width="340" height="120"/>
+<rect x="55" y="295" width="100" height="125" fill="#f1f3f7"/><rect x="155" y="295" width="410" height="125" fill="#f1f3f7"/><rect x="565" y="295" width="470" height="125" fill="#f1f3f7"/><rect x="1035" y="295" width="470" height="125" fill="#f1f3f7"/><rect x="1505" y="295" width="340" height="125" fill="#f1f3f7"/>
+<rect x="55" y="420" width="100" height="125"/><rect x="155" y="420" width="410" height="125"/><rect x="565" y="420" width="470" height="125"/><rect x="1035" y="420" width="470" height="125"/><rect x="1505" y="420" width="340" height="125"/>
+<rect x="55" y="545" width="100" height="125" fill="#f1f3f7"/><rect x="155" y="545" width="410" height="125" fill="#f1f3f7"/><rect x="565" y="545" width="470" height="125" fill="#f1f3f7"/><rect x="1035" y="545" width="470" height="125" fill="#f1f3f7"/><rect x="1505" y="545" width="340" height="125" fill="#f1f3f7"/>
+<rect x="55" y="670" width="100" height="125"/><rect x="155" y="670" width="410" height="125"/><rect x="565" y="670" width="470" height="125"/><rect x="1035" y="670" width="470" height="125"/><rect x="1505" y="670" width="340" height="125"/>
+<rect x="55" y="795" width="100" height="130" fill="#f1f3f7"/><rect x="155" y="795" width="410" height="130" fill="#f1f3f7"/><rect x="565" y="795" width="470" height="130" fill="#f1f3f7"/><rect x="1035" y="795" width="470" height="130" fill="#f1f3f7"/><rect x="1505" y="795" width="340" height="130" fill="#f1f3f7"/>
+</g>
+
+<g fill="#1f2c4a">
+<text x="105" y="240" text-anchor="middle" font-size="15" font-weight="700">Q0</text>
+<text x="175" y="205" font-weight="700">Bind current frame</text><text x="175" y="230">What objective/profile/authority/</text><text x="175" y="250">decision scope is currently valid?</text>
+<text x="585" y="205">objective version, owner, role/ACC,</text><text x="585" y="228">trust references, validity horizon</text>
+<text x="1055" y="205" fill="#007b82">continue if established;</text><text x="1055" y="228" fill="#007b82">DBC_REQUALIFY if recoverable;</text><text x="1055" y="251" fill="#007b82">DBC_ESCALATE if not locally closable</text>
+<text x="1525" y="205" fill="#b33a3a">mission inferred from recency</text><text x="1525" y="228" fill="#b33a3a">or silently overwritten</text>
+
+<text x="105" y="360" text-anchor="middle" font-size="15" font-weight="700">Q1</text>
+<text x="175" y="325" font-weight="700">Qualify incoming claim</text><text x="175" y="350">What exactly did the sender establish,</text><text x="175" y="373">under what issuer/scope/provenance?</text>
+<text x="585" y="325">attributed claim, issuer, freshness,</text><text x="585" y="348">scope, source lineage, UNKNOWN qualifiers</text>
+<text x="1055" y="325" fill="#007b82">preserve without promotion;</text><text x="1055" y="348" fill="#007b82">REQUALIFY if recoverable;</text><text x="1055" y="371" fill="#007b82">DENY candidate transition if sufficiently rejected</text>
+<text x="1525" y="325" fill="#b33a3a">confidence, signature or repetition</text><text x="1525" y="348" fill="#b33a3a">treated as ecosystem truth</text>
+
+<text x="105" y="485" text-anchor="middle" font-size="15" font-weight="700">Q2</text>
+<text x="175" y="450" font-weight="700">Assess independence / composition</text><text x="175" y="475">How many materially independent</text><text x="175" y="498">evidence paths exist?</text>
+<text x="585" y="450">dependency graph, inherited-source links,</text><text x="585" y="473">corroboration evidence</text>
+<text x="1055" y="450" fill="#007b82">dependent repetition stays dependent;</text><text x="1055" y="473" fill="#007b82">REQUALIFY if new evidence is obtainable;</text><text x="1055" y="496" fill="#007b82">DENY false transition when sufficiently established</text>
+<text x="1525" y="450" fill="#b33a3a">identity/message count read</text><text x="1525" y="473" fill="#b33a3a">as independent corroboration</text>
+
+<text x="105" y="610" text-anchor="middle" font-size="15" font-weight="700">Q3</text>
+<text x="175" y="575" font-weight="700">Authority / admissibility check</text><text x="175" y="600">Does the frame/role change apply to</text><text x="175" y="623">this participant and decision?</text>
+<text x="585" y="575">authority/delegation, ACC/profile,</text><text x="585" y="598">transition rights, action-time applicability</text>
+<text x="1055" y="575" fill="#007b82">proceed only if applicable;</text><text x="1055" y="598" fill="#007b82">REQUALIFY / ESCALATE if unresolved;</text><text x="1055" y="621" fill="#007b82">DENY if inapplicable</text>
+<text x="1525" y="575" fill="#b33a3a">identity, popularity, opportunity</text><text x="1525" y="598" fill="#b33a3a">or transport signature = authority</text>
+
+<text x="105" y="735" text-anchor="middle" font-size="15" font-weight="700">Q4</text>
+<text x="175" y="700" font-weight="700">Bounded requalification</text><text x="175" y="725">Is more evidence worth acquiring inside</text><text x="175" y="748">current capacity / response horizon?</text>
+<text x="585" y="700">available channels, expected decision value,</text><text x="585" y="723">response margin, stop + re-entry rule</text>
+<text x="1055" y="700" fill="#007b82">targeted REQUALIFY;</text><text x="1055" y="723" fill="#007b82">ESCALATE for legitimate external closure;</text><text x="1055" y="746" fill="#007b82">bounded DENY when inquiry has low value</text>
+<text x="1525" y="700" fill="#b33a3a">endless search (Type 1) or</text><text x="1525" y="723" fill="#b33a3a">premature false closure (Type 2)</text>
+
+<text x="105" y="865" text-anchor="middle" font-size="15" font-weight="700">Q5</text>
+<text x="175" y="825" font-weight="700">Frame transition / preserve</text><text x="175" y="850">Preserve, contain, or legitimately</text><text x="175" y="873">transition?</text>
+<text x="585" y="825">Q0–Q4 trace, branch evidence, authority,</text><text x="585" y="848">ACC/profile and residual</text>
+<text x="1055" y="825" fill="#b33a3a" font-weight="700">F: DBC_DENY unsupported transition</text><text x="1055" y="848" fill="#007b82" font-weight="700">G: DBC_EXECUTE if already authorized;</text><text x="1055" y="871" fill="#007b82" font-weight="700">else DBC_REPOSITION_RECONTRACT</text>
+<text x="1525" y="825" fill="#b33a3a">blanket never-change or</text><text x="1525" y="848" fill="#b33a3a">narrative-driven pivot</text>
+</g>
+</svg>
