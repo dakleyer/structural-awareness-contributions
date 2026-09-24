@@ -1,0 +1,57 @@
+{
+  "schema_id": "00I-AWS-trace-v0.1",
+  "required_fields": [
+    "run_id",
+    "configuration",
+    "fixture_id",
+    "intent_id",
+    "target",
+    "decision_time",
+    "action_time",
+    "grant_version",
+    "policy_manifest_version_observed",
+    "policy_manifest_version_used",
+    "source_set_observed",
+    "source_set_used",
+    "source_observations",
+    "config_generation_observed",
+    "diagnosis_version",
+    "lease_id",
+    "lease_expected_generation",
+    "lease_acquired_at",
+    "lease_expires_at",
+    "dbc_disposition",
+    "reason_code",
+    "reentry_target",
+    "requalification_latency_ms",
+    "remaining_response_margin_ms",
+    "action_attempted",
+    "action_effect_observed",
+    "control_burden"
+  ],
+  "source_observation_fields": [
+    "source_id",
+    "owner",
+    "value",
+    "observed_at",
+    "version",
+    "freshness_age_ms",
+    "freshness_budget_ms",
+    "status"
+  ],
+  "disposition_values": [
+    "EXECUTE",
+    "REQUALIFY",
+    "DENY",
+    "ESCALATE",
+    "HOLD"
+  ],
+  "evidence_labels": [
+    "CAPABILITY_ABSENT",
+    "CONTROL_PRESENT_NOT_INVOKED",
+    "CONTROL_EXECUTED_FAILED",
+    "CONTROL_EXECUTED_PASS",
+    "NOT_OBSERVABLE"
+  ],
+  "note": "Design contract only; not an execution trace."
+}
