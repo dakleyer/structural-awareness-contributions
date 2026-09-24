@@ -8,6 +8,8 @@
 
 > **Review-boundary note.** The four “auditors” below are four deliberately separate review lenses applied in this editorial pass. They are **not four independent external human reviewers**. Their purpose is to make disagreement surfaces and corrections explicit before W3 fixture admission.
 
+> **v0.5 editorial-successor note.** [00I v0.5 Draft](../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) is the active reader-facing successor. It preserves the v0.4 scenario/gate/implementation semantics audited here and adds case-card, audience-routing, diagrams, nomenclature and evidence-presentation improvements only. The engineering and experimental findings below therefore remain applicable; v0.5 does not claim a new independent audit.
+
 ## Audit A — EA / Requirements traceability
 
 ### Question
