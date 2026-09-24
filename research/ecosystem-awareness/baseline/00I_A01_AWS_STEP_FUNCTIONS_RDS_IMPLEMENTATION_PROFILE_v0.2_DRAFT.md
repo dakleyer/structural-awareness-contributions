@@ -25,6 +25,8 @@ The experiment asks one question at three levels.
 
 The proposed EA differential begins only at the third route. If AWS-I1 already adapts generically to the drift at equal or lower burden, **that is a pass for the peer and evidence against an EA-specific differential**.
 
+**Suggested executive reading path:** Executive view → §1 technology map → §2.3 single-writer correction → §7 drift ladder → §10 outcome adjudication. Engineers should then read §§3–6 and the fixture package.
+
 ## 1. What each AWS component does — non-specialist reading
 
 | Technology | Role in this fixture | Plain-English interpretation |
@@ -497,7 +499,7 @@ These files make the architecture concrete enough for review. They are **not** e
 - optimistic locking: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/BestPractices_OptimisticLocking.html
 - condition expressions: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html
 
-## 16. External-review findings incorporated in v0.2
+## 16. Four-lens audit findings incorporated in v0.2
 
 The profile was re-reviewed through four independent lenses.
 
