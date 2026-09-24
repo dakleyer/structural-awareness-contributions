@@ -1,0 +1,69 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1200" height="600" fill="#F7F8FA"/>
+<text x="40" y="45" font-size="24" font-weight="bold" fill="#1F2C4A">00G quick reference — six gates in one glance</text>
+<text x="40" y="70" font-size="14" fill="#5D6572">No new canonical gate. Projects S1/S2/S3/S6/S9/S11/S14 → T1–T4 → H2–H6 onto the Napoleon fixture.</text>
+
+<g font-size="12.5">
+<rect x="40" y="95" width="110" height="40" fill="#1F2C4A"/>
+<text x="95" y="120" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Gate</text>
+<rect x="150" y="95" width="480" height="40" fill="#1F2C4A"/>
+<text x="390" y="120" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Question it asks</text>
+<rect x="630" y="95" width="530" height="40" fill="#1F2C4A"/>
+<text x="895" y="120" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Correct exit</text>
+
+<rect x="40" y="135" width="110" height="70" fill="#FFFFFF" stroke="#C4CAD4"/>
+<text x="95" y="175" text-anchor="middle" font-weight="bold" fill="#1F2C4A">Q0</text>
+<rect x="150" y="135" width="480" height="70" fill="#FFFFFF" stroke="#C4CAD4"/>
+<text x="165" y="160" fill="#1F2C4A">What objective/authority is</text>
+<text x="165" y="180" fill="#1F2C4A">currently valid (OE-BAR-v1)?</text>
+<rect x="630" y="135" width="530" height="70" fill="#FFFFFF" stroke="#C4CAD4"/>
+<text x="645" y="160" fill="#007B82">Never inferred from recency —</text>
+<text x="645" y="180" fill="#007B82">persisted, inspectable state.</text>
+
+<rect x="40" y="205" width="110" height="70" fill="#F7F8FA" stroke="#C4CAD4"/>
+<text x="95" y="245" text-anchor="middle" font-weight="bold" fill="#1F2C4A">Q1</text>
+<rect x="150" y="205" width="480" height="70" fill="#F7F8FA" stroke="#C4CAD4"/>
+<text x="165" y="230" fill="#1F2C4A">What did N's message actually</text>
+<text x="165" y="250" fill="#1F2C4A">establish, under what provenance?</text>
+<rect x="630" y="205" width="530" height="70" fill="#F7F8FA" stroke="#C4CAD4"/>
+<text x="645" y="230" fill="#007B82">Preserve as an attributed claim; do not</text>
+<text x="645" y="250" fill="#007B82">promote solely from receipt/signature/repetition.</text>
+
+<rect x="40" y="275" width="110" height="70" fill="#FFFFFF" stroke="#C4CAD4"/>
+<text x="95" y="315" text-anchor="middle" font-weight="bold" fill="#1F2C4A">Q2</text>
+<rect x="150" y="275" width="480" height="70" fill="#FFFFFF" stroke="#C4CAD4"/>
+<text x="165" y="300" fill="#1F2C4A">How many independent evidence</text>
+<text x="165" y="320" fill="#1F2C4A">paths actually exist behind it?</text>
+<rect x="630" y="275" width="530" height="70" fill="#FFFFFF" stroke="#C4CAD4"/>
+<text x="645" y="300" fill="#007B82">N → R1 → R2 stays one path unless</text>
+<text x="645" y="320" fill="#007B82">R1/R2 add materially independent evidence.</text>
+
+<rect x="40" y="345" width="110" height="70" fill="#F7F8FA" stroke="#C4CAD4"/>
+<text x="95" y="385" text-anchor="middle" font-weight="bold" fill="#1F2C4A">Q3</text>
+<rect x="150" y="345" width="480" height="70" fill="#F7F8FA" stroke="#C4CAD4"/>
+<text x="165" y="370" fill="#1F2C4A">Does this frame/role change apply</text>
+<text x="165" y="390" fill="#1F2C4A">to this participant right now?</text>
+<rect x="630" y="345" width="530" height="70" fill="#F7F8FA" stroke="#C4CAD4"/>
+<text x="645" y="370" fill="#007B82">Identity / valid signature ≠</text>
+<text x="645" y="390" fill="#007B82">applicable authority for this decision.</text>
+
+<rect x="40" y="415" width="110" height="70" fill="#FFFFFF" stroke="#C4CAD4"/>
+<text x="95" y="455" text-anchor="middle" font-weight="bold" fill="#1F2C4A">Q4</text>
+<rect x="150" y="415" width="480" height="70" fill="#FFFFFF" stroke="#C4CAD4"/>
+<text x="165" y="440" fill="#1F2C4A">Is more evidence worth acquiring</text>
+<text x="165" y="460" fill="#1F2C4A">inside the current time/capacity?</text>
+<rect x="630" y="415" width="530" height="70" fill="#FFFFFF" stroke="#C4CAD4"/>
+<text x="645" y="440" fill="#007B82">Targeted inquiry with stop + re-entry rule —</text>
+<text x="645" y="460" fill="#007B82">no endless search; no premature closure.</text>
+
+<rect x="40" y="485" width="110" height="80" fill="#F7F8FA" stroke="#C4CAD4"/>
+<text x="95" y="530" text-anchor="middle" font-weight="bold" fill="#1F2C4A">Q5</text>
+<rect x="150" y="485" width="480" height="80" fill="#F7F8FA" stroke="#C4CAD4"/>
+<text x="165" y="510" fill="#1F2C4A">Preserve the current mission,</text>
+<text x="165" y="530" fill="#1F2C4A">contain, or legitimately transition?</text>
+<rect x="630" y="485" width="530" height="80" fill="#F7F8FA" stroke="#C4CAD4"/>
+<text x="645" y="505" fill="#B33A3A" font-weight="bold">Branch F: DBC_DENY unsupported transition; preserve OE-BAR-v1.</text>
+<text x="645" y="527" fill="#007B82" font-weight="bold">Branch G: DBC_EXECUTE if already admissible/authorized;</text>
+<text x="645" y="547" fill="#007B82" font-weight="bold">otherwise DBC_REPOSITION_RECONTRACT to the proper owner.</text>
+</g>
+</svg>
