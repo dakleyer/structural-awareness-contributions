@@ -160,7 +160,7 @@ Passing requires the **merchant authority layer** to reopen Q0/Q2/Q5 and revalid
 
 The fair defender extension **RADAR-H1-L** adds authoritative root campaign/delegation lineage to the merchant authorization architecture. If it passes U/G/I at equal or lower burden, the EP/EA differential is narrowed or falsified. The profile does not claim Radar should natively solve an organizational authority problem outside its documented product role.
 
-## 8. Three decisive tests
+## 8. Five decisive tests
 
 ### Test A — native-axis positive control
 
