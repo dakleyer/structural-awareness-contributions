@@ -555,7 +555,7 @@ Possible outcomes include:
 
 ## 16. Worked falsifier — Bar-to-Napoleon
 
-Use the latest working [Bar-to-Napoleon false-context scenario v0.3 Draft](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md). The narrative remains illustrative; the executable contract uses paired opaque false/genuine regime-change branches, DBC-namespaced decision-boundary dispositions and strong source-dependence/authority controls, so this falsifier cannot pass through historical common knowledge or blanket mission persistence. v0.2 remains the preserved published predecessor.
+Use the canonical working [Bar-to-Napoleon false-context scenario v0.4](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md). The narrative remains illustrative; the executable contract uses paired opaque false/genuine regime-change branches, DBC-namespaced decision-boundary dispositions and strong source-dependence/authority controls, and now integrates the complete quality plan plus the OpenAI OAI-G0/G1/G2 implementation trajectories in the same controlling artifact. Earlier 00G versions remain preserved as lineage.
 
 Initial binding:
 
