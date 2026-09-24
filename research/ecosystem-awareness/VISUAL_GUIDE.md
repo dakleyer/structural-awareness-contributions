@@ -128,7 +128,8 @@ flowchart LR
 | Layer | Current state |
 |---|---|
 | Requirements / hypotheses / KPI protocol | **Defined and versioned** |
-| 00E / 00F scenarios and quality plans | **Documented** |
+| 00E scenario / quality plan | **Documented** |
+| 00F v0.2 · [Freeze Edition](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) | **“The City That Stopped Safely” — Q0–Q5 + N0/N1/Q + V0–V9 + R0/R1/R2, FIWARE/AWS profiles, source audit and zero-loss public edition; comparative execution pending** |
 | 00G v0.4 | **Canonical working reference; paired false/genuine control + DBC gate namespace + KPI instrumentation + integrated OpenAI G0/G1/G2 implementation trajectories; unexecuted; 00D/W3 execution pending** |
 | 00H v0.5 Draft | **Latest working candidate; "The Quiet Four Thousand" primary no-attacker case pairs helpful overreach with discovery-without-preservation; "The Refund Campaign Nobody Approved" adds the outsourced-Dispatcher V19/V20 hardening with valid leaves under an unauthorized common root; EA0 baseline expected to pass both base paths and U/G/I; W3 execution pending** |
 | 00I v0.5 Draft · [Freeze Edition](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) | **Latest working candidate; “The Patch That Undid the Fix” — OOTB → top-notch → same frozen top-notch under observable regime/source/dependency drift; zero-loss public Freeze Edition, AWS profile and inspectable skeletons published; W3 execution pending** |
@@ -151,7 +152,7 @@ The current technology/strong-peer profiles are not generic product reviews. The
 ```mermaid
 flowchart TB
     E["00E<br/>100 Million Tokens"]
-    F["00F<br/>Smart-City Mobility Divergence"]
+    F["00F v0.2<br/>The City That Stopped Safely"]
     G["00G<br/>False-Context Convergence"]
     H00["00H<br/>Batch Opportunity Beyond Authority"]
     I00["00I<br/>Semantic TOCTOU"]
@@ -178,7 +179,7 @@ flowchart TB
     I00 -. "W3 fixture admission / matched execution pending" .-> FUT
 ```
 
-**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00I technical](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) · [00I Freeze Edition](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [00I-A01 AWS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md).
+**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) · [00F Freeze Edition](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00I technical](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) · [00I Freeze Edition](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [00I-A01 AWS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md).
 
 ---
 
@@ -260,7 +261,7 @@ flowchart LR
 | Why can the system never treat its represented world as complete? | [01 Foundational Theory](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) | 02 Principles → Topology |
 | What must any candidate solution demonstrate? | [00 Requirements](./baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | 00D benchmark / coverage map |
 | How does EA actually work? | [Topology](./baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) | 03 Functional Architecture → 04 Interfaces |
-| Where can a strong system still fail? | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) / [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) / [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) / [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) / [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) | product profiles / benchmark |
+| Where can a strong system still fail? | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) / [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) / [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) / [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) / [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) | product profiles / benchmark |
 | How is the claim falsified fairly? | [00D](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) | A01 → A03 → fixture/pre-registration |
 | Which cases exist and what do they cover? | [Use-Case Portfolio Coverage Map](./baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) | Validation reading note / FG-TIDA cases |
 | How does EA connect to regime change? | [RA README](../regime-awareness/README.md) | 01C → 01D |
