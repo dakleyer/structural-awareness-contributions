@@ -15,7 +15,7 @@ flowchart TB
     R["00 Requirements<br/>S1–S14 · T1–T4 · H1–H6 · KPIs"]
     A["Architecture<br/>Topology · 03 Functions · 04 General Interfaces"]
     I["Integration annexes<br/>01B / 01C / 01D · 01H / 01I / 01J"]
-    V["Validation & reference scenarios<br/>UC-EA-01…04 · 00E · 00F · 00G v0.2 · 00H v0.2 Draft"]
+    V["Validation & reference scenarios<br/>UC-EA-01…04 · 00E · 00F · 00G v0.3 Draft · 00H v0.2 Draft"]
     B["Benchmark & evidence<br/>00D · B0–B3 · EA-H1–EA-H4"]
     T["Test programme<br/>A01 · A03 · fixtures · pre-registration"]
     EP["Ecosystem Positioning<br/>EA + RA + MSCA"]
@@ -129,7 +129,7 @@ flowchart LR
 |---|---|
 | Requirements / hypotheses / KPI protocol | **Defined and versioned** |
 | 00E / 00F scenarios and quality plans | **Documented** |
-| 00G v0.2 | **Published working candidate; paired false/genuine control defined; 00D/W3 execution pending** |
+| 00G v0.3 Draft | **Latest working candidate; paired false/genuine control + DBC gate namespace + KPI instrumentation; v0.2 preserved; 00D/W3 execution pending** |
 | 00H v0.2 Draft | **Latest working candidate; causal split / materiality / bounded authority closure defined; W3 execution pending** |
 | B0–B3 comparison contract | **Defined** |
 | A01 test/oracle construction | **Designed** |
@@ -165,7 +165,7 @@ flowchart TB
     G -. "candidate; not yet in 00D matched execution" .-> FUT
 ```
 
-**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2.md).
+**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md).
 
 ---
 
@@ -247,7 +247,7 @@ flowchart LR
 | Why can the system never treat its represented world as complete? | [01 Foundational Theory](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) | 02 Principles → Topology |
 | What must any candidate solution demonstrate? | [00 Requirements](./baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | 00D benchmark / coverage map |
 | How does EA actually work? | [Topology](./baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) | 03 Functional Architecture → 04 Interfaces |
-| Where can a strong system still fail? | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) / [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) / [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2.md) | product profiles / benchmark |
+| Where can a strong system still fail? | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) / [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) / [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) | product profiles / benchmark |
 | How is the claim falsified fairly? | [00D](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) | A01 → A03 → fixture/pre-registration |
 | Which cases exist and what do they cover? | [Use-Case Portfolio Coverage Map](./baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) | Validation reading note / FG-TIDA cases |
 | How does EA connect to regime change? | [RA README](../regime-awareness/README.md) | 01C → 01D |
