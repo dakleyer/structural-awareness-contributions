@@ -1,7 +1,7 @@
 # Ecosystem Positioning — Canonical Presentation
 
 **Status:** Working architecture / pre-standardization contribution  
-**Current canonical revision:** **v1.10 — 2026-09-24**  
+**Current canonical revision:** **v1.11 — 2026-09-24**  
 **Canonical editable artefact:** [Ecosystem_Positioning_Canonical.pptx](./Ecosystem_Positioning_Canonical.pptx)  
 **Canonical reading snapshot:** [Ecosystem_Positioning_Canonical.pdf](./Ecosystem_Positioning_Canonical.pdf)  
 **Google Drive canonical PPTX:** https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit  
@@ -11,7 +11,7 @@
 
 This presentation is the canonical visual router for the **Ecosystem Positioning** architectural contribution inside the **Architectural Contributions / pre-standardization** part of the Structural Awareness Programme.
 
-Version 1.10 is the current 17-slide canonical router. It links the failure scenarios and technology implementation profiles to their controlling corpus material, adds the canonical Requirements bridge before the proposed operating cycle, preserves the benchmark / public ranking route, and closes with the bounded FG-TIDA application layer. The presentation remains a working proposal and does not claim standards-body adoption or endorsement.
+Version 1.11 is the current 17-slide canonical router. It preserves the v1.10 architecture, scenario, benchmark and FG-TIDA routing, while replacing the Requirements slide with the central requirements result: **six severe reference failure routes, fourteen canonical requirements and one common test contract**. The slide now links directly to the Canonical Requirements, the coverage map and each scenario's requirements-conforming Route Q. The presentation remains a working proposal and does not claim standards-body adoption, completed comparative execution or independent replication.
 
 ## Routing contract
 
