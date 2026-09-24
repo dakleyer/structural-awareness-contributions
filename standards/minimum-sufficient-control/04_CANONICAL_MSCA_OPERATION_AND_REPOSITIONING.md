@@ -555,7 +555,7 @@ Possible outcomes include:
 
 ## 16. Worked falsifier — Bar-to-Napoleon
 
-Use the current published [Bar-to-Napoleon false-context scenario v0.2](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2.md). The narrative remains illustrative; the v0.2 executable contract uses paired opaque false/genuine regime-change branches so this falsifier cannot pass through historical common knowledge or blanket mission persistence.
+Use the latest working [Bar-to-Napoleon false-context scenario v0.3 Draft](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md). The narrative remains illustrative; the executable contract uses paired opaque false/genuine regime-change branches, DBC-namespaced decision-boundary dispositions and strong source-dependence/authority controls, so this falsifier cannot pass through historical common knowledge or blanket mission persistence. v0.2 remains the preserved published predecessor.
 
 Initial binding:
 
