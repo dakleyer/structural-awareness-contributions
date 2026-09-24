@@ -9,9 +9,10 @@
 | **Evidence-source refresh** | 2026-09-24 · source/version audit; technical analysis and claim boundary unchanged |
 | **Owner corpus** | Ecosystem Awareness / 00F route |
 | **Technology evidence re-audit** | 2026-09-24 · ETSI standard version and Orion-LD release/conformance boundary pinned below |
+| **External-corroboration route** | [00F §9A external corroboration](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · reviewed 2026-09-24 · technology-agnostic neighboring evidence only; not evidence of failure by this product |
 | **Predecessor** | [v0.1 — preserved public profile](./00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.1.md) |
 
-> **Product-implementation annex; source-reviewed working profile, 17 September 2026.** This annex applies the frozen [00F smart-city mobility case and Q0–Q5 quality plan](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) to a FIWARE NGSI-LD architecture using Orion-LD as the Context Broker. It compares a standard implementation, an excellent implementation and the excellent implementation after a gradual or initially unrecognised regime change. It is not a product benchmark, certification, endorsement or claim that FIWARE causes the failure.
+> **Product-implementation successor draft; original product analysis 17 September 2026, quality-plan synchronization and external-corroboration routing reviewed 24 September 2026.** This annex applies the frozen [00F smart-city mobility case and Q0–Q5 quality plan](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) to a FIWARE NGSI-LD architecture using Orion-LD as the Context Broker. It compares a standard implementation, an excellent implementation and the excellent implementation after a gradual or initially unrecognised regime change. It is not a product benchmark, certification, endorsement or claim that FIWARE causes the failure.
 
 ## 1. The claim in one sentence
 
