@@ -46,7 +46,7 @@ That constrains 04-vNext in the same direction:
 - do **not** expand the six-element EHD interoperability kernel merely because one fixture benefits from an extra qualifier;
 - prefer conditional/profile semantics where the information is material only to specific compositions.
 
-Two Requirements clarification candidates are interface-relevant.
+Three Requirements clarification candidates are interface-relevant.
 
 ### CAND-R1 — effective-role drift
 
@@ -83,6 +83,20 @@ In particular:
 - an execution/outcome record remains distinct from the decision or request that preceded it.
 
 The current 04 already supports most of this through O1/O5, IF-S2, IF-S4, IF-S8, IF-S11/12 and the Composition-Critical EHD profile. The delta therefore records a likely **editorial clarification**, not a new interface family.
+
+### CAND-R3 — per-action compliance versus aggregate/composed authorization
+
+The upstream Requirements delta now makes explicit:
+
+`per-action compliance ≠ aggregate/composed authorization`.
+
+00H supplies the concrete falsifier: every atomic action may satisfy a local cap or rule while the cumulative campaign remains outside the participant's legitimate authority boundary.
+
+**Tentative 04 consequence:** where authority is defined over a cumulative, campaign-level, resource-time or other composed effect, the interface route may need a **conditional Composition-Critical relation** that preserves enough action-history / aggregate-lineage state for the legitimate owner or relying party to evaluate the composed effect.
+
+This should **not** become a seventh mandatory EHD kernel element. The relevant aggregate/composition boundary is source-owned and context-specific. A simple single-action route should not carry aggregate-history metadata merely because another profile needs it.
+
+The current 04 already provides the right extension point through decision/operation references, predecessor/parent relations, decision-basis references and source-owned authority semantics in the Composition-Critical EHD profile. The vNext question is therefore whether that profile should state the aggregate/cumulative case explicitly, not whether a new interface family is needed.
 
 ---
 
@@ -201,7 +215,7 @@ Use DBC to expose missing or laundered boundaries in 04 implementations; do not 
 
 ## 6. Semantic/qualification validity window versus response window
 
-Post-baseline Theme #13 work, especially the Operational Risk / Response Window / Epistemic Opportunity v0.2 discussion, makes two temporal concepts more explicit:
+Two independent post-baseline routes make the same temporal distinction visible. Theme #13 work — especially the Operational Risk / Response Window / Epistemic Opportunity v0.2 discussion — separates qualification validity from response timing. Independently, [DBC-C02 — semantic TOCTOU](../DECISION_BOUNDARY_CHALLENGE_v0.2.md#5-challenge-pack-families) tests whether a result can remain technically available or syntactically valid while a material authority/evidence/context condition has become stale before use. Together they make two temporal concepts more explicit:
 
 1. **semantic / qualification validity window** — how long evidence, authority, delegation, policy, configuration and supporting assumptions remain applicable; and
 2. **operational response window** — how long remains to materially affect the outcome.
@@ -241,6 +255,8 @@ must remain distinct from an authorized operational intervention.
 ### Delta disposition
 
 Likely **editorial/interface clarification**, not a new function or interface family.
+
+DBC-C02 provides the applied-validation route for this distinction now. If a future 00I Semantic TOCTOU scenario is committed, it should be cited here as an additional scenario-level stressor only after its repository text is reviewed; it must not be presumed from a chat-only draft.
 
 ---
 
@@ -326,9 +342,11 @@ The strongest likely 04-vNext changes are presently **clarifications and conditi
 
 1. make effective-role drift preservable where material without treating observed function as authority;
 2. make opportunity / admissibility / authority / execution separation visually explicit;
-3. distinguish qualification-validity time from operational response time;
-4. clarify that human review outputs can carry bounded assurance/capacity/residual qualification;
-5. reinforce source-dependence / independent-corroboration preservation; and
-6. preserve the current IF-S11 peer-capability relation while making generic bidirectionality easier to read.
+3. make per-action compliance versus aggregate/composed authorization explicit where the authority boundary is cumulative;
+4. distinguish qualification-validity time from operational response time;
+5. clarify that human review outputs can carry bounded assurance/capacity/residual qualification;
+6. reinforce source-dependence / independent-corroboration preservation;
+7. treat cumulative/aggregate action-history as a **conditional Composition-Critical profile element** where the authority rule is aggregate rather than per transaction, without adding it to the universal EHD kernel; and
+8. preserve the current IF-S11 peer-capability relation while making generic bidirectionality easier to read.
 
 This delta remains open and cumulative. New post-baseline interface findings should be appended here first. The 04 v0.5 Integrated baseline is not silently rewritten while review is active.
