@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Parent scenario** | [00I v0.4 Draft](../../00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.4_DRAFT.md) |
+| **Parent scenario** | [00I v0.5 Draft](../../00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) |
 | **Implementation profile** | [00I-A01 AWS Step Functions / RDS v0.2 Draft](../../00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
 | **Status** | Design skeleton only · unexecuted · not W3-admitted |
 | **Purpose** | Make the three trajectories inspectable before fixture freeze |
