@@ -2,6 +2,8 @@
 
 ## Status and reading rule
 
+> **Layering / reading note.** 05A is **not a third or competing interface architecture**. It is the **dated current-state filter over 05 Ideal**: start from the ideal FG-TIDA projection in [05 v0.4](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md) and its [05 Ideal vNext Delta](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), then retain only what the public FG-TIDA record can presently support, downgrading unsupported ideal relations to **Candidate**, **Test-only** or **Not established**. Post-snapshot changes after 19 September 2026 are accumulated in the [**05A Current-State vNext Review & Delta**](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) rather than silently rewriting this dated bridge.
+
 **Status: public working bridge; source snapshot and consultation record 19 September 2026 (UTC).** This document is an additive EA corpus companion. It does not modify the controlled text of [05 — Provisional Cross-Theme Contracts v0.4](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md), claim FG-TIDA adoption, define an FG-TIDA common schema, or require a Theme to accept EA theory or payloads.
 
 Document 05 is the **ideal FG-TIDA-oriented bilateral contract**: the complete target relationship between EA and neighbouring functions, subject to validation. This document, 05A, states the **maximum interface and conformance profile defensible from the current public FG-TIDA state**: published Theme discussions, explicitly discussed handoffs and the near-term, contributor-owned testbed direction. It is deliberately smaller than 05 wherever the public discussion has not established a common handoff.
