@@ -7,6 +7,7 @@
 | **Status** | Additive annex · source-reviewed working profile · not a product benchmark, certification or endorsement |
 | **Version · date** | v0.1 · 2026-09-17 |
 | **Owner corpus** | Ecosystem Awareness / 00E route |
+| **Technology evidence re-audit** | 2026-09-24 · capability claims remain bounded to the dated sources below |
 | **Supersedes / superseded by** | — |
 
 > **Product-implementation annex; source-reviewed working profile, 17 September 2026.** This annex asks how Microsoft Agent 365—the control plane for agents—can mitigate the four concrete failure modes in [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), and what an implementation must add to execute that case's Q0–Q5 quality plan. It is not a product benchmark, certification, endorsement or claim that Microsoft Agent 365 causes those failures.
@@ -187,15 +188,31 @@ The narrower conclusion is that product presence—and even an excellent initial
 
 ## 10. Official product sources reviewed
 
-- **[M1] Microsoft Ignite 2025 Book of News — Microsoft Agent 365:** https://news.microsoft.com/ignite-2025-book-of-news/
-- **[M2] Security in Microsoft Agent 365:** https://learn.microsoft.com/en-us/security/security-for-ai/agent-365-security
-- **[M3] Microsoft Agent 365 — Agent Registry:** https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide
-- **[M4] View details and manage an agent:** https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-details?view=o365-worldwide
-- **[M5] Microsoft Agent 365 — Agent Map:** https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-map?view=o365-worldwide
-- **[M6] Microsoft Agent 365 observability data:** https://learn.microsoft.com/en-us/microsoft-agent-365/admin/data-residency-protection-compliance
-- **[M7] Microsoft Agent 365 Observability SDK:** https://learn.microsoft.com/en-us/microsoft-agent-365/developer/observability
+The source list below is an **evidence freeze**, not a generic pointer to whatever the product may support later. Microsoft Learn pages are living documents; where Microsoft exposes a page-level update date, that date is recorded. The profile was re-audited on **24 September 2026** against those dated pages.
 
-**Source boundary:** the profile records capabilities and limitations documented at the review date. Product behaviour, licensing, previews, supported agent types and telemetry coverage can change; a deployment assessment must verify its own tenant, connectors, policy configuration and observed data.
+| Ref | Authoritative source | Publication / update basis used |
+|---|---|---|
+| **M1** | Microsoft Ignite 2025 Book of News — Microsoft Agent 365 | **18–21 Nov 2025** launch/preview announcement. Historical provenance only; not used as the sole basis for 2026 capability claims. |
+| **M2** | Microsoft Learn — *Secure AI agents at scale using Microsoft Agent 365* | **Last updated 30 Apr 2026**. Basis for Entra/Purview/Defender security and access-control claims. |
+| **M3** | Microsoft 365 admin — *Manage agent registry* | **Last updated 6 Jul 2026**. Basis for registry, ownerless/unmanaged agents, risk aggregation and administrative actions. |
+| **M4** | Microsoft 365 admin — *Understand agent details* | **Last updated 5 Aug 2026**. Basis for agent details, Data & Tools, permissions, certification and activity surfaces. |
+| **M5** | Microsoft 365 admin — *Use Agent Map* | **Last updated 12 Jun 2026**; page explicitly marks limitations as **preview**, dependent on observability data, with knowledge signals not yet included. |
+| **M6** | Microsoft Agent 365 developer — *Observability concepts* | **Last updated 7 Jul 2026**. Basis for ingestion/data-surface limits, including the requirement for an `invoke_agent` root span for admin-center visibility and documented drop/coverage conditions. |
+| **M7** | Microsoft Agent 365 developer — *Observability SDK* | **Last updated 7 Jul 2026**. Basis for OpenTelemetry-based instrumentation and cross-platform invocation/tool/exception traces. |
+| **M8** | Microsoft Agent 365 developer — *Observability attribute reference* | **Last updated 7 Jul 2026**. Canonical attribute-level ingestion schema used to bound what telemetry fields Agent 365 can consume. |
+
+**URLs**
+
+- **[M1]** https://news.microsoft.com/ignite-2025-book-of-news/
+- **[M2]** https://learn.microsoft.com/en-us/security/security-for-ai/agent-365-security
+- **[M3]** https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide
+- **[M4]** https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-details?view=o365-worldwide
+- **[M5]** https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-map?view=o365-worldwide
+- **[M6]** https://learn.microsoft.com/en-us/microsoft-agent-365/developer/observability-concepts
+- **[M7]** https://learn.microsoft.com/en-us/microsoft-agent-365/developer/observability
+- **[M8]** https://learn.microsoft.com/en-us/microsoft-agent-365/developer/observability-attribute-reference
+
+**Source boundary:** the profile records capabilities and limitations documented by the sources above, with a capability evidence cut-off of **24 September 2026**. M1 records the original preview announcement; current capability statements are anchored to the later Microsoft Learn pages. Product behaviour, licensing, previews, supported agent types and telemetry coverage can change. A deployment assessment must verify its own tenant, connectors, policy configuration and observed data. Nothing published after the evidence cut-off is silently imported into this v0.1 profile.
 
 ## Editorial continuity note — source and scenario snapshot
 
