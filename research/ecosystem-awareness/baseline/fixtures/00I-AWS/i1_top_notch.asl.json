@@ -1,0 +1,91 @@
+{
+  "Comment": "00I AWS-I1 defended top-notch trajectory — design skeleton only",
+  "StartAt": "QualifyAndPersistBasis",
+  "States": {
+    "QualifyAndPersistBasis": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${QualifyAndPersistBasisFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.qualification",
+      "Next": "WaitUntilT2"
+    },
+    "WaitUntilT2": {
+      "Type": "Wait",
+      "TimestampPath": "$.execute_at",
+      "Next": "AcquireLeaseAndRequalify"
+    },
+    "AcquireLeaseAndRequalify": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${AcquireLeaseAndRequalifyFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.guard",
+      "Next": "Disposition"
+    },
+    "Disposition": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.guard.Payload.disposition",
+          "StringEquals": "EXECUTE",
+          "Next": "ApplyUnderLease"
+        },
+        {
+          "Variable": "$.guard.Payload.disposition",
+          "StringEquals": "REQUALIFY",
+          "Next": "RequalificationRequired"
+        },
+        {
+          "Variable": "$.guard.Payload.disposition",
+          "StringEquals": "DENY",
+          "Next": "Denied"
+        },
+        {
+          "Variable": "$.guard.Payload.disposition",
+          "StringEquals": "ESCALATE",
+          "Next": "Escalated"
+        }
+      ],
+      "Default": "Inconclusive"
+    },
+    "ApplyUnderLease": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${ApplyUnderLeaseFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.apply_result",
+      "Next": "ReleaseLease"
+    },
+    "ReleaseLease": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName": "${ReleaseLeaseFunctionArn}",
+        "Payload.$": "$"
+      },
+      "ResultPath": "$.release_result",
+      "End": true
+    },
+    "RequalificationRequired": {
+      "Type": "Succeed"
+    },
+    "Denied": {
+      "Type": "Succeed"
+    },
+    "Escalated": {
+      "Type": "Succeed"
+    },
+    "Inconclusive": {
+      "Type": "Fail",
+      "Error": "00I.InconclusiveGuard",
+      "Cause": "Guard returned no admitted disposition"
+    }
+  }
+}
