@@ -137,6 +137,8 @@ The review deliberately asks whether a new local gate is needed **after** trying
 
 00J also includes legitimate-transfer, independent-work, correlated-copy, unknown-downstream-use, stale/revoked-record and dispute/re-entry controls. These prevent a candidate from passing through a trivial “always side with the original author” or “block everything” policy.
 
+The current [00J-A01 Panodyssey/TEMS implementation trajectory](./00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) does not alter that requirements finding. It deliberately separates **publicly documented capability**, **constructed strong-peer engineering**, and a **synthetic same-Q5 resolver/identifier/lineage regime shift**. Its H1/H2 controls are implementation/test realizations of the existing requirement route, not new S/T/H obligations. The [00J visual-aid package](./assets/00J/README.md) is likewise explanatory only.
+
 **Requirements-vNext disposition:** no S15/T5/H7 and no fifth clarification candidate are added by 00J v0.1. The scenario reinforces existing evidence-scope and non-substitution semantics, especially the reading aid:
 
 `generation provenance ≠ source provenance ≠ rights provenance ≠ execution/compliance evidence`.
