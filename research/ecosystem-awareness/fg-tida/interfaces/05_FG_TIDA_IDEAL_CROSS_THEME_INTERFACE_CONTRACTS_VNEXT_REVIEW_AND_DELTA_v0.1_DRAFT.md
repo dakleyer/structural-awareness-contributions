@@ -116,9 +116,10 @@ The current public sequence is now sufficiently clear to define the ideal route:
 
 **UC #6 semantic source**  
 → **Theme #16 v0.2 matrices annotate bounded interfaces**  
-→ **UC #4 executable mapping / fixtures / traces**  
+→ **draft bounded cross-interface / UC #4 mapping**  
 → **case + matrix semantic-owner review**  
-→ **freeze only after review**
+→ **freeze version-pinned adapter / fixtures / expected outcomes**  
+→ **execute traces / report in UC #4**
 
 Public anchors:
 
