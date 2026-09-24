@@ -146,7 +146,7 @@ flowchart LR
 
 ## 5. Reference scenarios and implementation profiles
 
-The eight current technology/strong-peer profiles are not generic product reviews. They are scenario-specific implementation-trajectory analyses: four synchronized 00E/00F successors, one OpenAI trajectory for 00G, two deliberately different 00H peers, and one AWS Step Functions/RDS trajectory for 00I.
+The current technology/strong-peer profiles are not generic product reviews. They are scenario-specific implementation-trajectory analyses: four synchronized 00E/00F successors, the OpenAI trajectory integrated inside canonical 00G §17, two deliberately different 00H peers, and one AWS Step Functions/RDS trajectory for 00I.
 
 ```mermaid
 flowchart TB
@@ -159,7 +159,7 @@ flowchart TB
     L["00E-A02<br/>LangGraph / LangSmith"]
     FW["00F-A01<br/>FIWARE NGSI-LD / Orion-LD"]
     AWS["00F-A02<br/>AWS IoT TwinMaker / IoT Core"]
-    OAI["00G-A01<br/>OpenAI agent-stack trajectories"]
+    OAI["00G §17<br/>Integrated OpenAI trajectories"]
     CLAUDE["00H-A01 v0.4<br/>Claude Agent SDK"]
     STRIPE["00H-A02 v0.4<br/>Stripe Radar + merchant authorization"]
     AWSI["00I-A01 v0.2<br/>AWS Step Functions / RDS"]
