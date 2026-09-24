@@ -386,7 +386,7 @@ flowchart TB
 |---|---|---|---|
 | Foundation / principles | v0.4 sources preserved; 01 v0.5 integrated reader; 02 controlled | Later architecture is not retrofitted into frozen sources | Continuity notes + future explicit successor only if needed |
 | Requirements | S1–S14 / T1–T4 / H1–H6 / KPI protocol | Later EP concepts reviewed; no canonical gap requiring S15/T5/H7 found | [Requirements vNext Review & Delta](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); two clarification candidates remain non-canonical |
-| Reference scenarios | 00E + 00F full quality plans; 00G candidate | 00G and later positioning surfaces not integrated into the main comparator programme | W1/W2 disposition |
+| Reference scenarios | 00E/00F canonical-working; 00G/00H/00I additive candidates with quality plans; 00I AWS skeletons published | 00G–00I remain outside completed main comparator execution; W3 fixture admission/execution still open | W2/W3 disposition |
 | Benchmark | 00D v0.2 canonical + bounded v0.3 draft | Measurement/equivalence protocol, defenders, B2/PA source audit and PA-5 contract still open | **W2:** protocol → defenders/source freeze → v0.3-r2 |
 | Test design | A01, A02, A03, coverage map, Q1a pre-registration and trace helpers | Q1a v0.5 residual/date ambiguity must be corrected in new v0.6 before Stage-0; later layers still incomplete | **W3:** Q1a v0.6 → Stage-0 → continuity gate → C9/C12 |
 | Validation profiles | UC-EA-01…04 + EA-ITP-01 preserved | No completed broad independent validation | Stage 1/2 evidence programme |
