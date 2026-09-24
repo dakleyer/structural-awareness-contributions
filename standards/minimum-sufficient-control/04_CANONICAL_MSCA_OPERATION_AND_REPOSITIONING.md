@@ -555,7 +555,7 @@ Possible outcomes include:
 
 ## 16. Worked falsifier — Bar-to-Napoleon
 
-Use the preserved [Bar-to-Napoleon false-context scenario](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md).
+Use the current published [Bar-to-Napoleon false-context scenario v0.2](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2.md). The narrative remains illustrative; the v0.2 executable contract uses paired opaque false/genuine regime-change branches so this falsifier cannot pass through historical common knowledge or blanket mission persistence.
 
 Initial binding:
 
@@ -589,7 +589,7 @@ high opportunity
 
 The repositioning module should preserve the bar Objective Envelope as the current contractual reference, reject the Napoleonic mission pivot as an authorized role transition, preserve the external claim in Cart_i with appropriate B_Cart/C_Cart/D_Cart, and — if the drift/dependency is material — emit a bounded escalation or containment/isolation request to the appropriate control owner. It does not itself tell the waiter what physical action to perform.
 
-If N sends near-absolute B confidence while its own message/profile exposes large unresolved D, omitted provenance, no established authority and no legitimate scope bridge, Repositioning may classify the **received claim** as a Type 2 failure: uncertainty has been suppressed while certainty is asserted. If R instead spends its entire useful response window repeatedly investigating every Napoleonic possibility without bounded closure, R risks Type 1.
+Near-absolute sender confidence is not by itself a Type 2 diagnosis. Type 2 arises when the receiving/composing process promotes unresolved, stale or insufficiently supported state into a determined closure beyond what the evidence supports. If R instead spends its entire useful response window repeatedly investigating every Napoleonic possibility without bounded closure, R risks Type 1.
 
 The Type marker and the operating posture remain distinct. If N's Type 2 claim is immaterial or already isolated from the bar process, R may remain P1 Normal. If N is a material dependency but a bounded response exists, R may move to P2 Containment. P3 Migration is justified only when the current mission/frame can no longer establish a sufficiently qualified response mapping.
 
