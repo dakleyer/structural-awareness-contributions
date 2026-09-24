@@ -73,7 +73,7 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 ### Reference scenarios and executable route
 
 - [00E — 100 Million Tokens / compounding context failure](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)
-- [00F — smart-city mobility systemic divergence](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md)
+- [00F — smart-city mobility chaos / "The City That Stopped Safely"](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) · [**Freeze Edition**](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) — current working successor; Q0–Q5, N0/N1/Q routes, V0–V9 controls, R0/R1/R2 strong-peer drift comparison, FIWARE/AWS profiles and public corroboration; v0.1 remains preserved for older pinned benchmark references.
 - [00G — collective false-context convergence / "Bar-to-Napoleon" cascade](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) — **canonical working v0.4**; one integrated reference containing the paired opaque false/genuine fixture, corrected A/B/C/D semantics, DBC-namespaced Q0–Q5 quality plan, KPI instrumentation, seven explanatory figures and the OpenAI OAI-G0/G1/G2 implementation trajectories; unexecuted and not W3-admitted.
 - [00H — batch opportunity beyond authority / "The Quiet Four Thousand"](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) — **primary case: no attacker required.** A good-faith one-case remediation agent discovers a genuine ~4,000-customer overcharge. The system can fail silently in either direction: refund #2 is already outside mandate, or the agent closes its own case and the material remainder disappears because preservation/reporting is never enforced. V19/V20 then add the companion adversarial hardening, **"The Refund Campaign Nobody Approved"**, using a compromised outsourced CRM/helpdesk Dispatcher. EA0 is the standard requirements-conforming baseline; not yet W3-admitted.
 - [00I — semantic TOCTOU / "The Patch That Undid the Fix"](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) · [**Freeze Edition**](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [Reader Edition](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_READER_EDITION.md) — latest working draft for DBC-C02; preserves the base stale-patch fixture and adds the three-trajectory quality plan **OOTB-competent → defended top-notch → same frozen top-notch under observable regime/source/dependency drift**. Q0–Q6 remain traced to the current Requirements; V11 tests adaptive requalification of the decision-basis model itself. [00I-A01 AWS Step Functions/RDS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) is the first concrete implementation profile; not yet W3-admitted or executed.
@@ -85,6 +85,30 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 - [RS-00E-Q1a fixture and pre-registration](./baseline/fixtures/RS-00E-Q1a/README.md)
 
 **Current benchmark status:** comparison contract defined · hypotheses and falsifiers defined · scenarios documented · implementation profiles analysed · fixture and harness designed · pre-registration published · **comparative execution pending** · **independent validation pending**.
+
+#### 00F in 30 seconds — The City That Stopped Safely
+
+**Recommended public entry:** [**00F v0.2 Freeze Edition — Smart-City Mobility Chaos**](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md). The [technical v0.2 Draft](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) remains the semantic source; [v0.1](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) is preserved provenance and may remain pinned by older benchmark artefacts.
+
+**What happens:** severe rain and a logistics fire degrade several partially dependent information channels. Four locally understandable mobility postures emerge over the same five-minute Central Bridge window: **Plan A** evacuates east, **Plan B** reserves westbound rescue access, some fleets remain **NORMAL**, and some buses/agents enter **HOLD**.
+
+No attacker is required. No vehicle has to violate its rules.
+
+> **Every vehicle can avoid a collision and the city can still fail.**
+
+Local collision avoidance can stop the immediate crash while simultaneously destroying corridor capacity: evacuation slows, rescue access is blocked, HOLD vehicles consume scarce space and NORMAL traffic continues to arrive.
+
+**What the Quality Plan tests:** Q0–Q5 asks whether the shared-resource frame is current, the material break is exposed, A/B/NORMAL/HOLD are composed over the same resource-time segment, a bounded authorized posture is selected, only material evidence/dependencies are reopened, and resumption occurs only on a qualified basis.
+
+**The three implementation trajectories:**
+
+1. **R0 — standard competent:** good authenticated context/event transport + local rules; may still lack cross-actor resource composition.
+2. **R1 — defended top-notch:** known dependencies, temporal/freshness controls, corridor reservation/conflict logic, finite review queues and bounded fallback. R1 must pass valid continuity and known A/B conflict before drift testing.
+3. **R2 — same frozen top-notch under drift:** dependency graph, timestamp semantics, model relation or response margin changes after R1 is frozen. The question becomes whether the architecture notices that its old model of “sufficient current state” is stale.
+
+If the strong peer already adapts under V8 at equal or lower burden, **the peer passes and the EA differential disappears for that branch**.
+
+**Technology evidence:** [00F-A01 FIWARE / Orion-LD](./baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [00F-A02 AWS IoT TwinMaker / IoT Core](./baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) implement the same comparison on two materially different substrates. The [completeness/publication audit](./governance/00F_COMPLETENESS_PUBLICATION_AUDIT_2026-09-24.md) verifies sources, profiles and route completeness; the [Freeze manifest](./governance/00F_V0.2_FREEZE_EDITION_MANIFEST_2026-09-24.md) records zero-loss preservation.
 
 #### 00H in 30 seconds — The Quiet Four Thousand
 
@@ -137,7 +161,8 @@ The sentence above remains the compact status statement. The dashboard below exp
 |---|---|---|
 | Comparison contract — B0/B1/B2/B3 | [00D — Canonical Architecture Benchmark & Evidence v0.2](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) | **Defined** |
 | EA-H1–EA-H4 hypotheses and decisive falsifiers | [00D — Canonical Architecture Benchmark & Evidence v0.2](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) | **Defined** |
-| Reference scenarios 00E / 00F | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) | **Documented** |
+| Reference scenario 00E | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) | **Documented** |
+| Reference scenario 00F | [00F technical v0.2](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) · [Freeze Edition](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) | **Current working successor v0.2** — “The City That Stopped Safely”; complete Q0–Q5 / N0-N1-Q / V0–V9 / R0-R1-R2 design; FIWARE/AWS profiles; source audit + zero-loss Freeze Edition; comparative execution pending |
 | Canonical signalling / false-context scenario 00G | [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) | **Canonical working v0.4** — integrated scenario, Q0–Q5 quality plan, KPI contract and OpenAI OAI-G0/G1/G2 trajectories; historical drafts preserved as lineage; 00D/W3 execution pending |
 | Candidate opportunity / authority scenario 00H | [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) | **Latest working draft v0.5** — primary no-attacker "Quiet Four Thousand" with paired execution-vs-preservation silent failures; outsourced-Dispatcher V19/V20 adversarial hardening; EA0 gate audit; W3 admission/execution pending |
 | Candidate semantic-TOCTOU scenario 00I | [00I technical v0.5](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) · [Freeze Edition](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) | **Latest working draft v0.5** — “The Patch That Undid the Fix”; OOTB/top-notch/frozen-top-notch-under-drift + V11 adaptive basis-model drift; audited AWS v0.2 profile, implementation skeletons and zero-loss Freeze Edition published; CAND-R4 remains review-only; W3 admission/execution pending |
@@ -180,7 +205,7 @@ The protocol:
 
 ## Reading routes
 
-- **Five minutes:** this page → [100 Million Tokens](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) → [mobility divergence](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) → [00I Freeze Edition — The Patch That Undid the Fix](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) → [benchmark status](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md).
+- **Five minutes:** this page → [100 Million Tokens](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) → [Mobility Chaos — The City That Stopped Safely](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) → [00I Freeze Edition — The Patch That Undid the Fix](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) → [benchmark status](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md).
 - **Architecture:** [canonical EA corpus](./baseline/README.md) → topology → documents 01–04 → 01H/01I/01J → interface annexes.
 - **Validation:** benchmark → A01/A03 → validation profiles → fixture/pre-registration → future execution traces.
 - **Institutional application:** [**current Theme #13 charter-preparation draft (01G)**](./fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md) for the direct working document; use the broader [EA / FG-TIDA package](./fg-tida/README.md) for specifications/interfaces → cases/tests → provenance.
