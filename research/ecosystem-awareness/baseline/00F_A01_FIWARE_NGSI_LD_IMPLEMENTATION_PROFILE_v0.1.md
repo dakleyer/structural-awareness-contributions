@@ -190,7 +190,7 @@ FIWARE supplies much of the integration, context, history and notification subst
 
 T3 pointwise non-inferiority is not implied by a successful NGSI-LD query, a recent `observedAt` value or a valid actuator command. For each covered admissible state, the city must define the stakeholders, utility, null action and authorised alternatives before claiming that a non-neutral posture is no worse than the null posture.
 
-Where the regime leaves the covered state set or the evidence is insufficient, the result remains Type 0. The appropriate output is explicit `UNKNOWN` plus an authorised bounded posture. FIWARE can carry and distribute that result; neither the broker nor EA turns it into perfect knowledge.
+Where the regime leaves the covered state set or the evidence is insufficient, the runtime result remains explicit `UNKNOWN` / unresolved (`NOT_ESTABLISHED` in the Type catalogue) and must be managed through an authorised bounded posture. A `TYPE_0_CONDITION` marker may be added only when structural non-determination or the applicable declared-frame limit has an explicit basis. FIWARE can carry and distribute that qualified result; neither the broker nor EA turns it into perfect knowledge.
 
 ## 12. Balanced conclusion
 
