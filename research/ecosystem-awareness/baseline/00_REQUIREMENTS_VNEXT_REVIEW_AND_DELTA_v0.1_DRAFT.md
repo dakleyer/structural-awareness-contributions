@@ -11,7 +11,7 @@
 | **Status** | Working delta/review; no canonical requirement change |
 | **Canonical requirements under review** | S1–S14 · T1–T4 · H1–H6 · KPI/falsification protocol |
 | **Review window** | Frozen 00 Requirements baseline · 17 September 2026 → cumulative corpus state reviewed through 24 September 2026 |
-| **Later corpus reviewed** | 00G · 00H · 01H · 01I · current 01J signalling/choreography · ACC Lineage · Regime Awareness delta · MSCA 00/03/04 · Objective-Conditioned Gradient · Decision Boundary Challenge v0.2 · Benchmark v0.3 draft · FG-TIDA application/test deltas |
+| **Later corpus reviewed** | 00G · 00H · 00I · 00J · 01H · 01I · current 01J signalling/choreography · ACC Lineage · Regime Awareness delta · MSCA 00/03/04 · Objective-Conditioned Gradient · Decision Boundary Challenge v0.2 · Benchmark v0.3 draft · FG-TIDA application/test deltas |
 | **Control route** | [Living Workplan — W1](../WORKPLAN.md) |
 
 ---
@@ -51,6 +51,7 @@ The following are the main substantive changes reviewed since the 17 September f
 | **00G — Collective False-Context Convergence** | Adds a third reference failure family: correlated repetition, false corroboration, mission/context displacement, authority spoofing, effective-role drift and high-value but inadmissible opportunity pressure. The latest v0.3 Draft also makes the existing S1 authority-current-applicability surface explicit at the frame/role transition gate. | Stresses S1/S2/S3/S6/S9/S11/S14 and T1/T2/T3/T4 without exposing a missing S/T/H. It strengthens the case for an editorial role-drift clarification and for preserving opportunity/admissibility/authority separation. |
 | **00H — Batch Opportunity Beyond Authority** | Adds a fourth reference failure family: a materially qualified opportunity lies outside the current grant. The v0.4 Draft preserves the prior causal/adaptive split and adds V19/V20 authority-laundering: individually valid leaf grants can compose into a common-root campaign whose root authority is absent. Review shows this does **not** require S15/H7: existing S7/S8/S9/S12/S13 already express representation, non-amplification, composition and reconstruction, especially S8's rule that subdelegation must not manufacture authority absent from the original principal. The gap was scenario coverage/instrumentation in 00H v0.3, now corrected in Q0/Q2/Q5; the legitimate route is preserve → request/re-contract → authority response → requalify → only then act. | **Base C12 route:** S1/S2/S8/S11/S14 → T2/T3/T4 → H2/H4/H6. **V19/V20 extension:** additionally activates S7/S9/S12/S13 around the same frozen T/H system because representation/delegation lineage and reconstructable authority history are now material to the decision. This is coverage expansion, not a new canonical requirement family. |
 | **00I — Semantic TOCTOU / The Patch That Undid the Fix** | Adds a fifth reference failure family: a queued remediation remains technically valid after a later repair, incident-state change or freeze has changed the semantic basis on which the queued action was qualified. v0.2 adds a positive continuity control, strong-peer arms, Q0–Q6 gates, explicit source/freshness checks, action-time decision-basis comparison and public corroboration from database/cloud operational mechanisms. | **Core route:** S1/S3/S10/S14 → T1/T2/T3/T4 → H2/H5/H6, with S9/S11/S12/S13 becoming material where intervening patch/version/source lineage must be composed and reconstructed. No S15/T5/H7 is required. The review does identify **CAND-R4**: make the binding between a time-of-use requalification and the state actually consumed by execution editorially explicit. |
+| **00J — Rights-Provenance Inversion / The Author Pays for Their Own Work** | Adds a sixth reference failure family: a locally valid generation/provenance statement can lose source/rights qualification, be replicated through dependent registries, and become an unsupported downstream rights claim operationally stronger than the original creator record. v0.1 separates a misimplemented Route N from a requirements-conforming Route Q and uses positive/negative controls to prevent deny-all shortcuts. | **Core route:** S1/S5/S7/S9/S11/S12/S14, with S6/S8/S10/S13 and S4 conditionally material → T1/T2/T3/T4 → H1/H2/H3/H4/H5/H6 as applicable. Q0–Q5 are scenario projections of existing canonical requirements; current review finds no new universal gate, S15, T5, H7 or KPI family necessary. |
 | **01H — participant-local Ecosystem Positioning / decision-scoped epistemic opportunity** | Makes participant-local state, bounded epistemic opportunity and decision-relative effort allocation more explicit. | Existing S9/S11/S14 and T1/T2/T4 cover the solution obligation; the representation is architectural. |
 | **01I / ACC-related participation and lineage work** | Makes role, participation, permissions/obligations/prohibitions, hard constraints, versioning, revocation/exit and lineage more explicit. | Existing S1/S2/S7/S8/S11/S12/S13/S14 cover the requirement surface. Do not promote ACC objects into universal Requirements merely because the current architecture uses them. |
 | **Current 01J signalling / choreographed repositioning** | Adds selective participant-local signalling, bounded `RepositionIntent` / `AuthorityResponse`, compatibility/qualification boundaries and distributed choreography without requiring shared world-state. | Existing S6/S9/S11/S14 and T2/T3/T4 cover qualified handoff, authority preservation and bounded response. Transport objects remain implementation/interface semantics. |
@@ -75,11 +76,12 @@ The post-freeze corpus now adds three independent reference scenarios:
 
 3. [**00G — Collective False-Context Convergence**](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md), testing whether unsupported external context, correlated repetition, claimed authority and attractive opportunity can displace a legitimate mission when source independence, role, authority and admissibility are not preserved;
 4. [**00H — Batch Opportunity Beyond Authority**](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.4_DRAFT.md), testing whether a valuable and technically reachable opportunity is preserved and routed without being silently discarded **or** converted into execution authority, including aggregate/salami-slicing failure and bounded re-contracting; and
-5. [**00I — Semantic TOCTOU / The Patch That Undid the Fix**](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md), testing whether a previously correct queued decision is requalified against current authoritative state at time of use, rather than being executed merely because its token, job and endpoint remain technically valid.
+5. [**00I — Semantic TOCTOU / The Patch That Undid the Fix**](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md), testing whether a previously correct queued decision is requalified against current authoritative state at time of use, rather than being executed merely because its token, job and endpoint remain technically valid; and
+6. [**00J — Rights-Provenance Inversion / The Author Pays for Their Own Work**](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md), testing whether valid local generation/provenance evidence can be promoted through broken source/rights lineage and correlated replication into an unsupported rights-enforcement decision against the original creator.
 
-The five scenarios are deliberately different stress surfaces. They do **not** create five requirement families.
+The six scenarios are deliberately different stress surfaces. They do **not** create six requirement families.
 
-**Review-count boundary:** this 2→5 count is the scenario set actually reviewed in this W1 delta through 00I. The canonical corpus router also currently lists **00J — Rights-Provenance Inversion** as a separate candidate scenario. 00J is not silently treated as reviewed here; its requirement implications must be added in a separate W1 review step before this section's count or conclusions are extended again. Their role in this delta is to ask whether the same frozen S1–S14 / T1–T4 / H1–H6 system survives materially different failure mechanisms.
+**Review-count boundary:** this 2→6 count is the scenario set actually reviewed in this W1 delta through 00J. Their role is to ask whether the same frozen S1–S14 / T1–T4 / H1–H6 system survives materially different failure mechanisms; inclusion in this review does not make any scenario an executed result or canonical requirement source.
 
 | Scenario | Primary new stress relative to the others | Current delta disposition |
 |---|---|---|
@@ -88,8 +90,9 @@ The five scenarios are deliberately different stress surfaces. They do **not** c
 | **00G** | Collective false-context convergence, mission displacement, source-correlation error and effective-role drift. | Post-freeze stressor; covered by existing S/T/H; strengthens CAND-R1/CAND-R2. |
 | **00H** | Beneficial opportunity beyond current authority, aggregate authorization failure and legitimate re-contracting. | Post-freeze stressor; covered by existing S/T/H; strongly operationalizes CAND-R2 and supplies the concrete falsifier motivating CAND-R3. |
 | **00I** | Semantic TOCTOU: technical validity survives while the decision basis, source state or applicability has changed before use. | Post-freeze stressor; core behavior covered by existing S/T/H. Q6 exposes an editorially under-specified check-to-use binding boundary, recorded as CAND-R4 rather than S15/T5/H7. |
+| **00J** | Rights-provenance inversion: locally authentic generation/registry evidence is promoted beyond its supported proposition until a downstream rights claim is enforced against the original creator. | Post-freeze stressor; existing S1/S5/S7/S9/S11/S12/S14 and conditional S6/S8/S10/S13/S4 cover the solution obligation. Q0–Q5 require no new normative gate; the scenario strengthens evidence-scope/non-substitution testing rather than creating S15/T5/H7. |
 
-**Current conclusion from the 2→5 scenario expansion:** the requirement system has so far generalized without requiring a new challenge, sufficient condition or hypothesis. The added scenarios increase confidence in the *coverage review*, not confidence that EA satisfies the requirements. They also expose where editorial clarity may still be improved even when semantic coverage is already present.
+**Current conclusion from the 2→6 scenario expansion:** the requirement system has so far generalized without requiring a new challenge, sufficient condition or hypothesis. The added scenarios increase confidence in the *coverage review*, not confidence that EA satisfies the requirements. They also expose where editorial clarity may still be improved even when semantic coverage is already present.
 
 ---
 
@@ -113,9 +116,36 @@ This remains a **clarification candidate**, not a canonical edit. W1 remains clo
 
 ---
 
+## Committed scenario review — 00J rights-provenance inversion
+
+[**00J — Rights-Provenance Inversion / “The Author Pays for Their Own Work” v0.1 Draft**](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) is now a repository source and is included in the active post-freeze review.
+
+The scenario freezes a strong original creator/right record, a bounded agent-access decision, a transformed artifact with a fixture-defined source dependency, a valid narrow generation credential, a downstream rights claim without the required upstream authority chain, and correlated registry/index replication. The terminal failure is intentionally concrete: a downstream checker asks the original creator to license, pay for, or stop using material derived from the creator's own source work.
+
+The reviewed gate route is requirements-first:
+
+- **Q0 original rights frame:** S1/S7/S11/S14 → T2/T3/T4 → H2/H3/H4;
+- **Q1 access/use authority:** S1/S6/S8/S11/S14 → T2/T3/T4 → H2/H4;
+- **Q2 transformation/source dependency:** S5/S7/S11/S12/S14 → T1/T2/T4 → H1/H2/H3/H4;
+- **Q3 downstream claim composition:** S1/S5/S9/S11/S13/S14 → T1/T2/T3/T4 → H1/H2/H3/H4;
+- **Q4 propagation/corroboration:** S5/S9/S10/S11/S12/S14 → T1/T2/T4 → H1/H2/H3/H4/H5/H6;
+- **Q5 licence/enforcement decision:** S1/S5/S9/S12/S14 → T2/T3/T4 → H1/H2/H4/H6, with S4 only if human review is invoked.
+
+The review deliberately asks whether a new local gate is needed **after** trying the canonical Requirements. Current determination: **no**. Correctly implemented Q2–Q5 already prevent the unsupported transition from generation provenance to source independence to rights ownership to enforcement. Scenario-specific measures such as rights-provenance inversion rate and unsupported licence-demand rate are fixture observables under the existing KPI/falsification protocol, not a new canonical KPI family.
+
+00J also includes legitimate-transfer, independent-work, correlated-copy, unknown-downstream-use, stale/revoked-record and dispute/re-entry controls. These prevent a candidate from passing through a trivial “always side with the original author” or “block everything” policy.
+
+**Requirements-vNext disposition:** no S15/T5/H7 and no fifth clarification candidate are added by 00J v0.1. The scenario reinforces existing evidence-scope and non-substitution semantics, especially the reading aid:
+
+`generation provenance ≠ source provenance ≠ rights provenance ≠ execution/compliance evidence`.
+
+If an executable implementation later satisfies all applicable canonical gate conditions and still reaches the unsupported creator-pay/enforcement outcome, that run is evidence against this sufficiency determination and must reopen W1.
+
+---
+
 ## 0. Executive determination
 
-The cumulative post-freeze review — now including the expansion from two to five reference failure scenarios (00E–00I), the later Ecosystem Positioning architecture/control work and DBC v0.2 — does **not currently justify a new S15, T5, H7 or new canonical KPI family**.
+The cumulative post-freeze review — now including the expansion from two to six reference failure scenarios (00E–00J), the later Ecosystem Positioning architecture/control work and DBC v0.2 — does **not currently justify a new S15, T5, H7 or new canonical KPI family**.
 
 Most later Ecosystem Positioning semantics fall into one of three categories:
 
@@ -409,6 +439,6 @@ The current requirement system is broad enough to support the bounded Benchmark-
 4. Role_effective/Role_bound, opportunity/admissibility/authority/execution, per-action compliance versus aggregate/composed authorization, and action-time decision-basis binding remain explicit clarification candidates for a future editorial/versioned pass;
 5. any future change is versioned and preserves the requirement commit used by existing fixtures/pre-registrations.
 
-This closes the **analysis stage of W1** for the corpus state reviewed through 24 September 2026 without creating a canonical Requirements successor. The review now includes the 00E–00I five-scenario set and DBC v0.2. Future post-freeze material should be added to this delta first and should reopen W1 only if it exposes a genuinely missing solution-neutral obligation rather than another architecture, interface, scenario or conformance realization.
+This closes the **analysis stage of W1** for the corpus state reviewed through 24 September 2026 without creating a canonical Requirements successor. The review now includes the 00E–00J six-scenario set and DBC v0.2. Future post-freeze material should be added to this delta first and should reopen W1 only if it exposes a genuinely missing solution-neutral obligation rather than another architecture, interface, scenario or conformance realization.
 
 The next W1 action, if desired, is an editorial proposal containing only the four clarification candidates above. It should remain a proposal until explicitly approved.
