@@ -145,7 +145,7 @@ flowchart LR
 
 ## 5. Reference scenarios and implementation profiles
 
-The four technology profiles are not four generic product reviews. They are scenario-specific design analyses.
+The five current technology profiles are not generic product reviews. They are scenario-specific design analyses; the four earlier profiles now have quality-plan-synchronized v0.2 Draft successors, and 00G adds the first OpenAI implementation-trajectory draft.
 
 ```mermaid
 flowchart TB
@@ -156,16 +156,18 @@ flowchart TB
     L["00E-A02<br/>LangGraph / LangSmith"]
     FW["00F-A01<br/>FIWARE NGSI-LD / Orion-LD"]
     AWS["00F-A02<br/>AWS IoT TwinMaker / IoT Core"]
+    OAI["00G-A01<br/>OpenAI agent-stack trajectories"]
     FUT["Future explicit benchmark/profile work"]
 
     E --> M
     E --> L
     F --> FW
     F --> AWS
-    G -. "candidate; not yet in 00D matched execution" .-> FUT
+    G --> OAI
+    G -. "additional profiles / matched execution pending" .-> FUT
 ```
 
-**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md).
+**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md).
 
 ---
 
