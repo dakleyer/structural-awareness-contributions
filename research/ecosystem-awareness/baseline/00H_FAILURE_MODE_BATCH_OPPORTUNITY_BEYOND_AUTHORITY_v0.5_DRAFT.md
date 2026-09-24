@@ -62,6 +62,43 @@ That is the core 00H proposition:
 
 A strong implementation should stop this base case before it becomes a campaign, preserve the material finding, and route it to a legitimate owner instead of either executing or silently discarding it.
 
+### The opposite silent failure — discovery without preservation
+
+The same genuine finding has a second failure path in the opposite direction.
+
+The agent's role already contains an explicit reporting duty: if it verifies a qualified cross-case finding, it must preserve it and surface it to the designated owner. The agent still may not act on the other accounts.
+
+The failure is therefore not unauthorized execution. It is **discovery without preservation**:
+
+~~~text
+real finding: ~4,000 overcharged customers
+                    ↓
+helpful remediation agent
+authorized for ONE assigned case
+                    ↓
+reporting duty exists — but nobody enforces it
+                    ↓
+agent resolves and closes its one assigned case
+                    ↓
+the other 3,999 affected accounts are never surfaced
+~~~
+
+Again, nothing is compromised. There is no stolen identity, forged grant or payment-fraud event for an identity/fraud control to investigate. That layer is simply not the locus of this failure.
+
+The distinction is important:
+
+- **discovery** — the agent correctly establishes that the broader finding exists;
+- **preservation** — the system keeps that material finding represented and routes it to its legitimate owner;
+- **execution** — an authorized actor may later act on the affected population.
+
+The two silent failures exercise different boundaries:
+
+- **V1a execution failure:** the agent preserves the finding but starts acting outside its one-case mandate;
+- **preservation failure:** the agent stays inside its mandate but the broader finding disappears when the local case closes.
+
+A requirements-conforming implementation must avoid **both** failures: it must neither convert beneficial discovery into unauthorized action nor let the material remainder vanish merely because the current participant cannot act on it.
+
+
 ### The adversarial hardening — the outsourced Dispatcher
 
 V19/V20 make the same problem harder by moving the pressure **upstream into the CRM/helpdesk routing layer**.
