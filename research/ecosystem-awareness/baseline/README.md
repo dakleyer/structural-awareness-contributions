@@ -101,6 +101,8 @@ This table is an additional reader map. It does **not** replace or collapse the 
 
 The current product/application analyses form a deliberate **2 + 2** set. They are design profiles over the frozen scenarios, not four interchangeable product benchmarks.
 
+**Evidence-source freeze:** the 2 + 2 profile source bases were re-audited on **24 September 2026**. Each profile now distinguishes the original scenario/profile date from the vendor/standard evidence date: Microsoft Learn pages use their published `Last updated` dates; LangGraph/LangSmith living docs use an access/review cut-off plus a pinned LangGraph release; FIWARE separates ETSI NGSI-LD standard version from Orion-LD implementation conformance/release; AWS rolling service documentation uses an explicit access/review cut-off. These are source-basis controls, not measured product results.
+
 | Reference scenario | Implementation profile | What it is used to examine | Current boundary |
 |---|---|---|---|
 | **00E — 100 Million Tokens** | [00E-A01 — Microsoft Agent 365](./00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.1.md) | Enterprise agent control-plane, identity/security/compliance/observability and what additional decision-scoped EA gates would still be needed | Design analysis; not a measured benchmark or product deficiency claim |
