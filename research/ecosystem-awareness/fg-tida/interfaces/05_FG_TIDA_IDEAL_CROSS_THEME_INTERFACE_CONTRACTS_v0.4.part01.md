@@ -6,6 +6,10 @@ Status
 
 &nbsp;
 
+> **Freeze / delta notice.** **05 v0.4 remains the frozen ideal FG-TIDA interface baseline for the current review cycle.** Post-freeze interface changes, clarifications and candidate addenda are accumulated in [**05 Ideal Interfaces vNext Review & Delta v0.1 Draft**](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). This notice is routing/change-control metadata only; it does not modify the v0.4 contracts below. A later interface version must be promoted explicitly rather than silently rewriting this frozen baseline.
+
+&nbsp;
+
 FG-TIDA-specific ideal interface projection for collaborative discussion. This document does not claim FG-TIDA adoption, does not prescribe internal implementations for neighbouring Themes, and does not require any Theme to adopt the Ecosystem Awareness internal theory. It defines provisional producer/consumer contracts that can be tested against frozen architecture-validation profiles and revised collaboratively.
 
 &nbsp;
