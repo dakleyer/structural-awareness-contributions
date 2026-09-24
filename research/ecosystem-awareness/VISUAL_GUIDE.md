@@ -15,7 +15,7 @@ flowchart TB
     R["00 Requirements<br/>S1–S14 · T1–T4 · H1–H6 · KPIs"]
     A["Architecture<br/>Topology · 03 Functions · 04 General Interfaces"]
     I["Integration annexes<br/>01B / 01C / 01D · 01H / 01I / 01J"]
-    V["Validation & reference scenarios<br/>UC-EA-01…04 · 00E · 00F · 00G v0.3 Draft · 00H v0.2 Draft"]
+    V["Validation & reference scenarios<br/>UC-EA-01…04 · 00E · 00F · 00G v0.3 Draft · 00H v0.3 Draft"]
     B["Benchmark & evidence<br/>00D · B0–B3 · EA-H1–EA-H4"]
     T["Test programme<br/>A01 · A03 · fixtures · pre-registration"]
     EP["Ecosystem Positioning<br/>EA + RA + MSCA"]
@@ -130,7 +130,7 @@ flowchart LR
 | Requirements / hypotheses / KPI protocol | **Defined and versioned** |
 | 00E / 00F scenarios and quality plans | **Documented** |
 | 00G v0.3 Draft | **Latest working candidate; paired false/genuine control + DBC gate namespace + KPI instrumentation; v0.2 preserved; 00D/W3 execution pending** |
-| 00H v0.2 Draft | **Latest working candidate; causal split / materiality / bounded authority closure defined; W3 execution pending** |
+| 00H v0.3 Draft | **Latest working candidate; base fixture + V14–V18 adaptive authority/aggregation-model stress; W3 execution pending** |
 | B0–B3 comparison contract | **Defined** |
 | A01 test/oracle construction | **Designed** |
 | A03 Q1a harness design | **Designed** |
@@ -158,8 +158,8 @@ flowchart TB
     FW["00F-A01<br/>FIWARE NGSI-LD / Orion-LD"]
     AWS["00F-A02<br/>AWS IoT TwinMaker / IoT Core"]
     OAI["00G-A01<br/>OpenAI agent-stack trajectories"]
-    CLAUDE["00H-A01<br/>Claude Agent SDK"]
-    STRIPE["00H-A02<br/>Stripe Radar + merchant authorization"]
+    CLAUDE["00H-A01 v0.2<br/>Claude Agent SDK"]
+    STRIPE["00H-A02 v0.2<br/>Stripe Radar + merchant authorization"]
     FUT["Future explicit benchmark/profile work"]
 
     E --> M
@@ -173,7 +173,7 @@ flowchart TB
     H00 -. "Stage-0 / matched execution pending" .-> FUT
 ```
 
-**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.2_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md).
+**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.3_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md).
 
 ---
 
