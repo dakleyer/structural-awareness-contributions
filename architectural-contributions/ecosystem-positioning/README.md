@@ -160,6 +160,15 @@ The technology has not necessarily broken.
 
 The relationship between the technology and its ecosystem has changed.
 
+```mermaid
+flowchart LR
+    A["1 · Standard implementation<br/>often close to out-of-the-box"]
+    B["2 · Carefully engineered<br/>strong controls, supervision, explicit boundaries"]
+    C["3 · Drifted<br/>same system, environment changes gradually"]
+    A --> B --> C
+    C -. "several eliminated failure routes reappear" .-> B
+```
+
 ---
 
 # Awareness → Positioning → Agent Defense
@@ -258,6 +267,21 @@ The operating logic is therefore:
 
 **observe / receive signal → qualify A/B/C/D → update cartography → qualify regime change → detect effective-role drift → establish posture → rank candidate repositioning → filter by ACC / lineage / authority → execute only through the legitimate control owner → signal material changes back into the ecosystem.**
 
+```mermaid
+flowchart LR
+    S1["Observe / receive signal"] --> S2["Qualify A/B/C/D"]
+    S2 --> S3["Update cartography"]
+    S3 --> S4["Qualify regime change"]
+    S4 --> S5["Detect effective-role drift"]
+    S5 --> S6["Establish posture"]
+    S6 --> S7["Rank candidate repositioning"]
+    S7 --> S8["Filter by ACC / lineage / authority"]
+    S8 --> S9["Execute only through<br/>the legitimate control owner"]
+    S9 --> S10["Signal material changes<br/>back into the ecosystem"]
+    S10 -.-> S1
+    style S9 stroke:#B33A3A,stroke-width:2px
+```
+
 ## Ecosystem Agent Defense and bounded self-healing
 
 This cycle opens the path to **Ecosystem Agent Defense** in choreographed, non-orchestrated systems.
@@ -271,6 +295,14 @@ Self-healing therefore means **distributed recovery of justified operation**, no
 # Architecture and interfaces — three levels
 
 The interface architecture is intentionally separated into three layers so that the generic architecture is not contaminated by one standards programme.
+
+```mermaid
+flowchart TB
+    L1["Level 1 · 04 General Interfaces<br/>programme-independent, canonical"]
+    L2["Level 2 · 05 FG-TIDA Ideal<br/>what the complete target interface would need"]
+    L3["Level 3 · 05A Current-State Bridge<br/>what public FG-TIDA state can actually support today"]
+    L1 --> L2 --> L3
+```
 
 ### Level 1 — canonical / programme-independent interfaces
 
