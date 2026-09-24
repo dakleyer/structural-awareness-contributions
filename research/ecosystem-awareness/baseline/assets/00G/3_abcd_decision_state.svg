@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" font-family="Arial,Helvetica,sans-serif">
+<rect width="1500" height="760" fill="#f7f8fa"/>
+<text x="55" y="55" font-size="28" font-weight="700" fill="#1f2c4a">00G — A/B/C/D is decision-scoped, not one global confidence score</text>
+<text x="55" y="88" font-size="15" fill="#5d6572">The existence of N's claim can be established now without establishing the truth or applicability of the Napoleonic frame.</text>
+<rect x="55" y="125" width="330" height="420" rx="12" fill="#e6f4f0" stroke="#007b82" stroke-width="2"/>
+<text x="220" y="165" text-anchor="middle" font-size="24" font-weight="700" fill="#007b82">A</text>
+<text x="220" y="193" text-anchor="middle" font-size="15" font-weight="700" fill="#0a5a5c">Sufficiently established now</text>
+<text x="80" y="235" font-size="13" fill="#0a5a5c">• current OE-BAR-v1 + provenance</text>
+<text x="80" y="265" font-size="13" fill="#0a5a5c">• local date/location evidence</text>
+<text x="80" y="295" font-size="13" fill="#0a5a5c">• N did send the attributed claim</text>
+<text x="80" y="325" font-size="13" fill="#0a5a5c">• current local sensor state</text>
+<line x1="85" y1="355" x2="355" y2="355" stroke="#88bfc0"/>
+<text x="80" y="390" font-size="12" fill="#0a5a5c">The claim's existence may be A.</text>
+<text x="80" y="414" font-size="12" fill="#0a5a5c">Its proposition need not be.</text>
+
+<rect x="405" y="125" width="330" height="420" rx="12" fill="#eef1f7" stroke="#50617d" stroke-width="2"/>
+<text x="570" y="165" text-anchor="middle" font-size="24" font-weight="700" fill="#50617d">B</text>
+<text x="570" y="193" text-anchor="middle" font-size="15" font-weight="700" fill="#50617d">Determination / assurance around A</text>
+<text x="430" y="235" font-size="13" fill="#40506a">• strong determination on objective version</text>
+<text x="430" y="265" font-size="13" fill="#40506a">• strong attribution of N's signed message</text>
+<text x="430" y="295" font-size="13" fill="#40506a">• low/unresolved determination on</text>
+<text x="447" y="318" font-size="13" fill="#40506a">Napoleonic frame applicability</text>
+<text x="430" y="350" font-size="13" fill="#40506a">• repetition does not increase independence</text>
+<text x="430" y="380" font-size="13" fill="#40506a">• authority remains bounded by anchors</text>
+
+<rect x="755" y="125" width="330" height="420" rx="12" fill="#fff4e9" stroke="#c17629" stroke-width="2"/>
+<text x="920" y="165" text-anchor="middle" font-size="24" font-weight="700" fill="#c17629">C</text>
+<text x="920" y="193" text-anchor="middle" font-size="15" font-weight="700" fill="#c17629">Still knowable with current capacity</text>
+<text x="780" y="235" font-size="13" fill="#7a4a10">• verify date/location independently</text>
+<text x="780" y="265" font-size="13" fill="#7a4a10">• query trusted environmental services</text>
+<text x="780" y="295" font-size="13" fill="#7a4a10">• request authority/delegation proof</text>
+<text x="780" y="325" font-size="13" fill="#7a4a10">• inspect source-dependence graph</text>
+<text x="780" y="355" font-size="13" fill="#7a4a10">• sample independent peers</text>
+<text x="780" y="385" font-size="13" fill="#7a4a10">• use only currently available time,</text>
+<text x="797" y="408" font-size="13" fill="#7a4a10">observation, compute and human capacity</text>
+
+<rect x="1105" y="125" width="330" height="420" rx="12" fill="#fbecea" stroke="#b33a3a" stroke-width="2"/>
+<text x="1270" y="165" text-anchor="middle" font-size="24" font-weight="700" fill="#b33a3a">D</text>
+<text x="1270" y="193" text-anchor="middle" font-size="15" font-weight="700" fill="#b33a3a">Residual beyond current capability</text>
+<text x="1130" y="235" font-size="13" fill="#722">• N's private reasoning</text>
+<text x="1130" y="265" font-size="13" fill="#722">• hidden collusion not observable</text>
+<text x="1130" y="295" font-size="13" fill="#722">• fabricated external state not resolvable</text>
+<text x="1147" y="318" font-size="13" fill="#722">inside the response horizon</text>
+<text x="1130" y="350" font-size="13" fill="#722">• interactions outside represented ecosystem</text>
+<line x1="1135" y1="380" x2="1405" y2="380" stroke="#d8a4a4"/>
+<text x="1130" y="415" font-size="12" fill="#722">D is preserved as residual,</text>
+<text x="1130" y="439" font-size="12" fill="#722">not silently converted into certainty.</text>
+
+<rect x="55" y="585" width="1380" height="115" rx="12" fill="#1f2c4a"/>
+<text x="745" y="620" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">Key test: a persuasive external assertion does not become A merely because it is represented in state.</text>
+<text x="745" y="650" text-anchor="middle" fill="#fff" font-size="14">B describes how strongly the A-state is determined; C is reachable knowledge with current capacity; D is the residual outside that capacity.</text>
+<text x="745" y="678" text-anchor="middle" fill="#dfe5ef" font-size="12">The four positions are non-fungible and remain indexed to the receiving decision.</text>
+</svg>
