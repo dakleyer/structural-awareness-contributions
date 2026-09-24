@@ -68,6 +68,8 @@ The fixture contains two legitimate but temporally conflicting interventions:
 - **Patch A — queued rollback:** `cfg-217 → cfg-216`, qualified at T1 from the evidence then available and scheduled for T2.
 - **Patch B — later forward fix:** `cfg-217 → cfg-218`, applied by the database engineer after additional evidence becomes available and validated by recovery of replication.
 
+For the baseline arm, Patch A is encoded as an ordinary **absolute desired-state operation** — “apply `cfg-216` to this target” — with normal request validity/idempotency but **without a compare-against-current-generation precondition**. That is a legitimate implementation pattern for queued control-plane work: replaying the same job is safe relative to its own requested state, yet the job does not prove that `cfg-216` is still the right state after another controller has advanced the system to `cfg-218`. Stronger peers may add generation/ETag/lease or equivalent conditional binding; if they close the failure at equal or lower burden, that counts against the claimed EA differential.
+
 Patch A and Patch B are not assumed to execute atomically at the exact same nanosecond. In many real databases and control planes, locks, workflow serialization or provider APIs will sequence conflicting changes. **The tested hazard is that the stale earlier action remains executable after the later action has changed the relevant state.** A counter-patch race variant is included separately.
 
 ---
@@ -180,6 +182,7 @@ Before a run, freeze:
 - incident `INC-5521` and its authoritative source;
 - grant `G-5521`, issuer, subject, scope, issue/expiry/revocation state;
 - Patch A exact intent, target, configuration generation and queue time;
+- Patch A command semantics: absolute desired-state write versus conditional/version-bound write; the baseline A0 uses the former, while stronger peers may use the latter;
 - Patch B exact intent, target, configuration generation, owner and completion time;
 - authoritative current configuration/version source;
 - freeze source, scope and effective time;
@@ -346,7 +349,7 @@ These are local 00I labels, not canonical 00D B0–B3 labels and not DBC-R# labe
 
 ### 00I-A0 — competent technical scheduler
 
-Checks workload identity, job approval/signature, token expiry/revocation, target reachability, request validity/idempotency and completion state. It is not intentionally broken. It simply has no explicit model of the semantic decision basis.
+Checks workload identity, job approval/signature, token expiry/revocation, target reachability, request validity/idempotency and completion state. Patch A is a valid idempotent desired-state job targeting `cfg-216`; A0 does not require the live configuration generation still to equal the generation observed at T1. It is not intentionally broken. It simply has no explicit model of the semantic decision basis or compare-before-act binding.
 
 ### 00I-A1 — queue-time semantic qualification
 
