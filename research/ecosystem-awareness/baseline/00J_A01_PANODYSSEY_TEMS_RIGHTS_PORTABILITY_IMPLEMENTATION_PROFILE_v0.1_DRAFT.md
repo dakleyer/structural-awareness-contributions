@@ -92,7 +92,8 @@ Used for:
 ### P5 — TEMS Trial 7
 
 https://tems-dataspace.eu/trials/
-https://tems-dataspace.eu/news/
+https://tems-dataspace.eu/tems-trial-7-protecting-and-valuing-cultural-content-in-the-age-of-ai/
+https://tems-dataspace.eu/tems-trial-7-making-intellectual-property-visible-and-actionable-in-the-age-of-ai/
 
 Used for:
 
@@ -111,7 +112,8 @@ Used for:
 
 ### P7 — C2PA provenance boundary
 
-https://c2pa.org/specifications/specifications/2.2/explainer/Explainer.html
+https://spec.c2pa.org/specifications/specifications/2.4/specs/ContentCredentials.html
+https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html
 
 Used only as an external technical comparator for the proposition that provenance may be incomplete and that verifiable provenance does not automatically settle a stronger truth/rights proposition.
 
@@ -124,8 +126,8 @@ The three arms intentionally mirror the existing 00E/00H implementation-profile 
 | Arm | Configuration | Purpose |
 |---|---|---|
 | **PANO-H0 — standard competent source-side implementation** | Current publicly described publisher-side Panodyssey/Notice capabilities: certified author identity, per-publication machine-readable rights, ODRL/JSON-LD-style rights state, timestamps/history, domain/discovery signals, ordinary cross-system publication/export | Establish what a real strong publisher-side implementation already prevents without pretending it controls the entire downstream ecosystem |
-| **PANO-H1 — defended top interoperability implementation** | H0 plus verifiable agent principal/representation, current mandate/purpose/scope, signed access/right-decision receipt, versioned source/right identifiers across TEMS-style handoff, explicit claim-supported-proposition, source/dependency lineage, expiry/revocation and bounded challenge/re-entry | Give the strongest reasonable peer the controls needed to attack 00J directly |
-| **PANO-H2 — same frozen top implementation under latent downstream rights-resolution regime change** | Freeze H1 code/resources/interfaces. Then change the downstream decision domain from **access/use authorization of W** to **derivative-rights/licensing enforcement over D1/W2**, introduce a new or changed downstream resolver/registry that accepts authentic D1/RX records but does not consume or require the source/dependency relation needed for the stronger proposition | Test whether the excellent implementation requalifies the decision basis and interface semantics, or continues to treat locally valid records as sufficient after the ecosystem's decision meaning has changed |
+| **PANO-H1 — premium / defended top interoperability implementation** | H0 plus verifiable agent principal/representation, current mandate/purpose/scope, signed access/right-decision receipt, versioned source/right identifiers across TEMS-style handoff, explicit claim-supported-proposition, source/dependency lineage, expiry/revocation, bounded challenge/re-entry **and a stable downstream enforcement resolver that must pass the unsupported-claim and legitimate-transfer controls before H2 is admitted** | Give the strongest reasonable peer the controls needed to attack 00J directly; “premium” is an analysis label, not a Panodyssey commercial tier |
+| **PANO-H2 — same frozen top implementation under latent resolver/lineage regime change** | Freeze H1 code/resources/interfaces after it correctly resolves the same final licensing/enforcement proposition. Then change the external resolver/identifier/evidence contract: D1/RX remain authentic and current, but the source-dependency/authority relation that H1 previously relied on is no longer required, represented or retrievable with the same semantics | Test whether the excellent implementation detects that its previously sufficient evidence contract has become invalid for the **same Q5 enforcement decision**, rather than merely handling a new decision type |
 
 A future EA-enabled arm is admitted only if H1/H2 leave a measurable differential. H1 is allowed to be strengthened before fixture freeze by a competent defender. No post-result patching is permitted.
 
@@ -229,7 +231,11 @@ H1 should pass:
 - independent-work control;
 - correlated-copy control;
 - unknown downstream-use control;
-- stale/revoked-record revalidation.
+- stale/revoked-record revalidation;
+- **stable downstream enforcement, negative branch:** RX exists without the required A→X authority chain and the resolver returns REQUALIFY/DENY/no-enforcement rather than PAY/BLOCK;
+- **stable downstream enforcement, positive branch:** the legitimate-transfer control supplies the required A→X authority chain and the same resolver accepts the qualified X claim.
+
+Those last two branches are mandatory before H2. They establish that H1 already handles the **same final Q5 proposition** correctly under the original resolver regime.
 
 If H1 cannot pass these under the original regime, the failure is ordinary missing control engineering and cannot be attributed to a latent EA differential.
 
@@ -251,68 +257,76 @@ Before H2:
 
 H2 is not allowed to add a new field after observing the failure.
 
-### 6.2 Latent regime shift
+### 6.2 Original qualified resolver regime
 
-Under H1's original operating regime, the key decision is:
+Under H1's original operating regime, the **same final decision** that 00J will later stress is already exercised:
 
-> **May agent C1 access/use work W for purpose P under current rights record R0?**
+> **May downstream claimant X require A to license/pay or may the relying system block A's use of W/W2 on the basis of D1/RX?**
 
-The H1 receipt and interface are designed around that proposition.
+The frozen H1 resolver/interoperability contract is lineage-aware. For this decision it requires, directly or through an authoritative dependency service:
 
-The regime then changes downstream.
+- current RX identity/version;
+- the asserted right and its scope;
+- the source/dependency relation relevant to D1;
+- the authority chain needed for the claim against A;
+- conflict with R0;
+- freshness/expiry;
+- the proposition actually supported by the returned status.
 
-A new/changed rights-resolution context begins making a materially different decision:
+Under this original regime H1 MUST pass both paired controls:
 
-> **May downstream claimant X assert a licensing/blocking/payment claim against A for A's later use of W/W2 because D1/RX exists?**
+- **N — no A→X authority:** D1 materially depends on W; RX is authentic; X lacks the required authority chain → no enforcement against A.
+- **G — legitimate A→X authority:** same general topology, but A has granted X the relevant right → qualified X enforcement may proceed.
 
-At the same time:
+Only after N and G pass is H1 frozen for H2.
 
-- D1 is accepted as a first-class rights/licensing object by a downstream registry or resolver;
-- G1/RX remain technically valid and correctly signed;
-- the downstream resolver consumes D1/RX but no longer requires, understands or retrieves the W→D1 source-dependency relation with the same semantics;
-- several services replicate RX;
-- no revocation or security alarm necessarily fires;
-- A/W/R0 remains valid upstream;
-- H1's original access-time controls can remain green.
+### 6.3 Latent interoperability / rights-resolution regime shift
 
-Nothing requires a forged credential.
+Now mutate **one external ecosystem relation without changing the Q5 proposition**.
 
-The **mapping from available evidence to the justified decision has changed**.
+Primary H2 branch:
 
-### 6.3 Why this is a regime change rather than an ordinary bug
+- the downstream ecosystem migrates to a new resolver, registry profile or canonical-identifier regime;
+- D1 becomes a first-class/root-resolved asset under that regime;
+- G1 and RX remain authentic, current and technically valid;
+- the new resolver can answer the same high-level rights query, but its represented/required evidence contract no longer guarantees the W→D1 source dependency or the upstream A/R0 authority relation with the semantics H1 previously relied on;
+- the mapping from the old W/source namespace to the new D1/root namespace is absent, optional, stale or outside the resolver's declared coverage;
+- several downstream services consume the new resolver result;
+- no credential revocation, signature error, API outage or conventional security alert is required.
 
-H2 does not merely delete a field.
+The important change is **not** that a new business question suddenly appears. The business question is held constant. What changed is the ecosystem relationship that made a particular source/resolver result sufficient evidence for that question.
 
-The system has moved from one decision domain to another:
+This is a genuine 00J regime/dependency stress:
 
-**access authorization for W → downstream derivative-rights enforcement against A.**
+**same Q5 proposition + same H1 code + technically healthy records + changed resolver/lineage semantics.**
 
-A record sufficient for the first decision may be insufficient for the second even though:
+### 6.4 Why this is a regime change rather than an ordinary integration bug
 
-- identities are valid;
-- signatures validate;
-- receipts are present;
-- R0 is current;
-- G1 is current;
-- RX is current;
-- network/security health is green.
+H2 does not score a trivial missing-field implementation.
 
-A fixed H1 implementation can therefore execute exactly as designed against a **decision proposition it was not designed to qualify**.
+Before the mutation, the frozen H1 integration is demonstrated to be sufficient on N and G. After the mutation:
 
-### 6.4 Expected H2 failure without dynamic requalification
+- the source/resolver identity or semantic version is observable or discoverable within the declared fixture;
+- the old evidence contract is no longer entitled to the same decision reliance;
+- local records may all remain authentic/current;
+- the correct response is to requalify the resolver coverage, source lineage and supported proposition before enforcement.
 
-| Gate | What remains locally healthy | What changed outside H1's original decision model | Failure mode |
+A candidate that simply ignores an explicit incompatible API error is an ordinary bad implementation and is not credited as an H2 regime failure. H2 is admitted only where the interface remains technically usable while its **decision-sufficiency semantics or lineage coverage have materially changed**.
+
+### 6.5 Expected H2 failure without dynamic requalification
+
+| Gate | What remains locally healthy | What changed in the ecosystem relation | Failure mode |
 |---|---|---|---|
-| **Q0** | A/W/R0 current | final decision now concerns X's authority against A, not only W access | original Q0 frame is necessary but no longer sufficient |
-| **Q1** | C1 access/mandate receipt valid | access authorization is mistaken for downstream rights provenance | old permit semantics overextended |
-| **Q2** | G1 authentic | downstream resolver treats generated-by as a root/source fact because W→D1 is outside its consumed schema | evidence-scope promotion |
-| **Q3** | RX authentic/current | registry membership/recency becomes de facto rights precedence | unsupported authority promotion |
-| **Q4** | replicated records consistent | consistency derives from one lineage, not independent sources | false corroboration |
-| **Q5** | rights checker receives multiple valid records | decision proposition is stronger than the evidence contract H1 qualified | author can be asked to pay/block despite all local green signals |
+| **Q0** | A/W/R0 current | new resolver no longer guarantees that the original-source relation participates in the final resolution | source frame becomes non-fungible but is treated as covered |
+| **Q1** | C1 access/mandate receipt valid | old access semantics remain true but say nothing new about resolver coverage | valid permit is over-relied upon downstream |
+| **Q2** | G1 authentic; D1 current | D1 is now resolved as a root/first-class asset without the previously required W lineage | evidence-scope / lineage promotion |
+| **Q3** | RX authentic/current | resolver's rights status is derived under a different authority/lineage contract | unsupported authority promotion if old trust mapping is reused |
+| **Q4** | replicated records consistent | replicas inherit the new resolver result and can look mutually corroborating | false convergence from one changed dependency |
+| **Q5** | same licensing/enforcement question | H1 trusts a result whose semantic coverage has changed since qualification | author can be asked to pay/block despite technically green local controls |
 
-This is the 00J analogue of the LangGraph/Agent-365 result:
+This is the 00J analogue of the LangGraph/Agent-365 stress:
 
-> an excellent implementation may be operationally correct and reproducible while the **validity of the representation for the current decision** has changed.
+> an excellent implementation can remain operationally correct against its frozen local contract while the **external relation that made that contract decision-sufficient has changed**.
 
 ---
 
@@ -373,9 +387,9 @@ H1/H2 must not treat multiplicity as source independence.
 
 ### Test F — latent rights-resolution regime shift
 
-Freeze H1 after A–E pass. Change the downstream decision from access authorization to derivative-rights enforcement and introduce the changed resolver semantics described in §6.
+Freeze H1 only after the paired Q5 enforcement controls pass under the original lineage-aware resolver: unsupported X claim blocked/requalified; legitimate A→X transfer accepted. Then apply the resolver/identifier/lineage mutation in §6 while keeping the **same Q5 licensing/enforcement proposition**.
 
-Passing requires requalification of the **decision proposition and evidence contract**, not merely revalidation of signatures.
+Passing requires requalification of the **resolver coverage, source lineage and evidence contract**, not merely revalidation of signatures.
 
 ### Test G — strengthened conventional falsifier
 
@@ -395,12 +409,12 @@ If strengthened H1 passes Test F at equal or lower burden, the proposed EA diffe
 
 | Gate | PANO-H0 | PANO-H1 | PANO-H2 stress |
 |---|---|---|---|
-| **Q0 source/right frame** | strong publisher-side record | source/version/owner/currentness bound to receipt | old frame remains valid but may no longer cover new final proposition |
-| **Q1 access authority** | rights signal; agent-side representation gap remains | verifiable agent/principal/mandate/use | old access grant remains technically valid and can be over-promoted downstream |
-| **Q2 transformation/source dependency** | outside publisher boundary after transformation | explicit source-dependency / UNKNOWN | new resolver does not consume the dependency semantics required for derivative enforcement |
-| **Q3 downstream claim** | outside source platform | bounded RX claim with authority/source checks | registry semantics shift toward latest/locally valid D1/RX claim unless decision is requalified |
-| **Q4 propagation** | no whole-ecosystem correlation guarantee | dependency-aware replication | multiple consistent copies can still share one unsupported source |
-| **Q5 enforcement** | external | proposition-specific evidence/authority check | new proposition can outrun H1's original evidence contract unless gate reopens |
+| **Q0 source/right frame** | strong publisher-side record | source/version/owner/currentness bound to receipt | original frame remains valid, but changed resolver coverage may no longer include it in the same way |
+| **Q1 access authority** | rights signal; agent-side representation gap remains | verifiable agent/principal/mandate/use | access remains valid but cannot compensate for changed downstream resolver semantics |
+| **Q2 transformation/source dependency** | outside publisher boundary after transformation | explicit source-dependency / UNKNOWN | new resolver/identifier regime treats D1 as root or no longer guarantees W→D1 lineage |
+| **Q3 downstream claim** | outside source platform | bounded RX claim with authority/source checks | same rights-status query is answered under a changed authority/lineage evidence contract |
+| **Q4 propagation** | no whole-ecosystem correlation guarantee | dependency-aware replication | multiple consistent copies inherit one changed resolver/dependency basis |
+| **Q5 enforcement** | external | same proposition-specific enforcement check passes N/G under original regime | same Q5 proposition can false-pass if H1 continues to trust the obsolete resolver semantics |
 
 ---
 
@@ -408,8 +422,8 @@ If strengthened H1 passes Test F at equal or lower burden, the proposed EA diffe
 
 Use the parent 00J measures plus:
 
-- **decision-proposition drift detection** — H2 runs where the final requested proposition differs materially from the proposition covered by the current evidence contract and is exposed before enforcement ÷ applicable H2 runs;
-- **evidence-contract mismatch rate** — final decisions consuming records outside their declared supported proposition ÷ applicable material decisions;
+- **resolver/evidence-contract invalidation detection** — H2 runs where the external resolver/lineage contract changes materially and the dependency is exposed before enforcement ÷ applicable H2 runs;
+- **evidence-contract mismatch rate** — final decisions consuming a resolver result outside its currently qualified semantic/lineage coverage ÷ applicable material decisions;
 - **source-lineage availability at enforcement**;
 - **rights-resolution requalification latency**;
 - **false enforcement after regime change**;
@@ -469,8 +483,8 @@ A future 00J-A02 could therefore ask whether a strong C2PA/Content-Credentials i
 The recommended first 00J implementation trajectory is:
 
 > **PANO-H0 — strong publisher-side Panodyssey/Notice implementation**  
-> → **PANO-H1 — defended Panodyssey/TEMS + agent identity/mandate + proposition-bound receipt/source-lineage implementation**  
-> → **PANO-H2 — exact frozen H1 under a downstream rights-resolution regime shift.**
+> → **PANO-H1 — premium/defended Panodyssey/TEMS + agent identity/mandate + proposition-bound receipt/source-lineage + stable Q5 resolver implementation**  
+> → **PANO-H2 — exact frozen H1 under a resolver/identifier/lineage regime shift while the same Q5 enforcement proposition is held constant.**
 
 This gives 00J the same architecture-testing discipline used in the LangGraph, Agent 365, Claude and Stripe profiles:
 
