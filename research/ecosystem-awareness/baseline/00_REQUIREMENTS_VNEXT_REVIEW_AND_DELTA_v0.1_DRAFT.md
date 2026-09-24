@@ -49,7 +49,7 @@ The following are the main substantive changes reviewed since the 17 September f
 | Post-freeze development | What changed / became explicit | Requirements-review consequence |
 |---|---|---|
 | **00G — Collective False-Context Convergence** | Adds a third reference failure family: correlated repetition, false corroboration, mission/context displacement, authority spoofing, effective-role drift and high-value but inadmissible opportunity pressure. | Stresses S2/S3/S6/S9/S11/S14 and T1/T2/T4 without exposing a missing S/T/H. It strengthens the case for an editorial role-drift clarification and for preserving opportunity/admissibility/authority separation. |
-| **00H — Batch Opportunity Beyond Authority** | Adds a fourth reference failure family: a beneficial, technically reachable and well-evidenced opportunity lies outside the current grant; aggregate exposure may escape per-action checks; the legitimate route is preserve → request/re-contract → authority response → requalify → only then act. | Uses the existing S1/S2/S8/S11/S14 → T2/T3/T4 → H2/H4/H6 route. It materially strengthens the readability case for `opportunity ≠ admissibility ≠ authority ≠ execution`, but does not justify T5 or S15. |
+| **00H — Batch Opportunity Beyond Authority** | Adds a fourth reference failure family: a beneficial, technically reachable and well-evidenced opportunity lies outside the current grant; aggregate exposure may escape per-action checks; the legitimate route is preserve → request/re-contract → authority response → requalify → only then act. | Uses the existing S1/S2/S8/S11/S14 → T2/T3/T4 → H2/H4/H6 route. It materially strengthens the readability case for both `opportunity ≠ admissibility ≠ authority ≠ execution` and `per-action compliance ≠ aggregate/composed authorization`, but does not justify T5 or S15. |
 | **01H — participant-local Ecosystem Positioning / decision-scoped epistemic opportunity** | Makes participant-local state, bounded epistemic opportunity and decision-relative effort allocation more explicit. | Existing S9/S11/S14 and T1/T2/T4 cover the solution obligation; the representation is architectural. |
 | **01I / ACC-related participation and lineage work** | Makes role, participation, permissions/obligations/prohibitions, hard constraints, versioning, revocation/exit and lineage more explicit. | Existing S1/S2/S7/S8/S11/S12/S13/S14 cover the requirement surface. Do not promote ACC objects into universal Requirements merely because the current architecture uses them. |
 | **Current 01J signalling / choreographed repositioning** | Adds selective participant-local signalling, bounded `RepositionIntent` / `AuthorityResponse`, compatibility/qualification boundaries and distributed choreography without requiring shared world-state. | Existing S6/S9/S11/S14 and T2/T3/T4 cover qualified handoff, authority preservation and bounded response. Transport objects remain implementation/interface semantics. |
@@ -82,9 +82,26 @@ The four scenarios are deliberately different stress surfaces. They do **not** c
 | **00E** | Compounded epistemic collapse across exploration, aggregation, human review and alternative generation. | Pre-freeze source; retained canonical pressure. |
 | **00F** | Systemic divergence / false convergence among independently governed actors competing over a shared operational surface. | Pre-freeze source; retained canonical pressure. |
 | **00G** | Collective false-context convergence, mission displacement, source-correlation error and effective-role drift. | Post-freeze stressor; covered by existing S/T/H; strengthens CAND-R1/CAND-R2. |
-| **00H** | Beneficial opportunity beyond current authority, aggregate authorization failure and legitimate re-contracting. | Post-freeze stressor; covered by existing S/T/H; strongly operationalizes CAND-R2. |
+| **00H** | Beneficial opportunity beyond current authority, aggregate authorization failure and legitimate re-contracting. | Post-freeze stressor; covered by existing S/T/H; strongly operationalizes CAND-R2 and supplies the concrete falsifier motivating CAND-R3. |
 
 **Current conclusion from the 2→4 scenario expansion:** the requirement system has so far generalized without requiring a new challenge, sufficient condition or hypothesis. The added scenarios increase confidence in the *coverage review*, not confidence that EA satisfies the requirements. They also expose where editorial clarity may still be improved even when semantic coverage is already present.
+
+---
+
+## Pending scenario candidate — 00I is not yet a repository source
+
+An external review supplied a proposed future traceability row for a possible **00I — Semantic TOCTOU / stale grant-condition revalidation** scenario. **No 00I file is present in the repository at this review point, so it is not included in the active post-freeze corpus ledger or the 2→4 scenario count.**
+
+If/when that scenario is committed and its actual text is reviewed, the provisional route to verify is:
+
+- S1, S3, S10, S14;
+- T1/T2/T3/T4;
+- H2/H5/H6;
+- freshness/staleness, material-break/current-applicability and targeted-requalification evidence.
+
+The anticipated requirement question is whether the scenario exposes anything beyond the existing distinction between **technical/token validity** and the **continued semantic applicability of the conditions that justified reliance**. The working expectation is **no new requirement**, with DBC-C02 already providing the current applied-validation expression of the same freshness/applicability boundary.
+
+This paragraph is a **review placeholder only**. It must not be cited as 00I analysis or as evidence that 00I exists until the repository source is available and reviewed.
 
 ---
 
@@ -105,6 +122,12 @@ A second possible clarification is the explicit four-way separation:
 `opportunity ≠ admissibility ≠ authority ≠ execution`.
 
 The current requirements already distribute this boundary across S1/S2/S8/S11/S14 and T2/T3/T4. A future editorial clarification may make that separation easier to see, but no new sufficiency condition is presently required.
+
+A third clarification candidate is the scope-of-authorization distinction exposed concretely by 00H:
+
+`per-action compliance ≠ aggregate/composed authorization`.
+
+The current requirements already cover authority scope, non-amplification, composition and evidence-to-decision assessment through S1/S8/S9/S10/S14 and T2/T3/T4. The candidate is therefore editorial/traceability clarification, not a new S15.
 
 ---
 
@@ -178,7 +201,7 @@ The current benchmark draft can proceed with EP-BH1…EP-BH7 **without first cre
 
 ## 4. Genuine clarification candidates — not yet edits
 
-The review found two areas worth considering in a future Requirements edition.
+The review now identifies three areas worth considering in a future Requirements edition.
 
 ### CAND-R1 — effective-role drift within S7 / S10 / S12 / S13
 
@@ -215,6 +238,43 @@ A future edition could add one sentence or reading aid stating:
 `opportunity ≠ admissibility ≠ authority ≠ execution`.
 
 00H now gives this separation a concrete failure and recovery path: a candidate can be reachable, well-evidenced and materially beneficial while remaining outside the current grant; the correct route is preserve/rank → check admissibility/authority → request or re-contract through the legitimate owner → requalify → only then execute if authorized. That strengthens the case for an editorial reading aid while still **not** creating T5 or a new challenge.
+
+### CAND-R3 — per-action compliance does not establish aggregate authorization
+
+00H exposes a boundary that is semantically covered by the current Requirements but not stated with enough visibility:
+
+> **Compliance or authorization of each individual action does not by itself establish authorization of the cumulative or composed effect of a sequence of those actions.**
+
+The concrete 00H failure is simple: every refund may satisfy a per-transaction cap while the aggregate campaign remains outside the participant's current grant. Treating each micro-action as independently sufficient can therefore launder an unauthorized aggregate outcome through a locally conforming sequence.
+
+Current coverage already exists:
+
+- **S1** requires current authority provenance, scope and applicability at action time;
+- **S8** requires bounded delegation / non-amplification and prevents manufacture of authority outside the original grant;
+- **S9** requires composition without silent substitution where multiple determinations or effects interact;
+- **S10** requires detection of material commitment/action change;
+- **S12/S13** preserve reconstructable authority and intervention history; and
+- **S14** requires evidence-to-decision assessment at each transition, including the arbitration rule governing what advances.
+
+T2/T3/T4 already require owner-preserving handoff, bounded authorized response and timely requalification. Therefore the present issue is not absence of a solution-neutral requirement family.
+
+What is missing is **editorial explicitness about the unit of authorization**. A future Requirements edition could clarify that where the legitimate authority constraint is cumulative, campaign-level, resource-time-based or otherwise compositional, the determination must be made against the **material composed effect**, not only against each atomic action viewed in isolation.
+
+This clarification should remain implementation-neutral. It must not mandate one universal aggregation window, one accounting schema or one centralized ledger. The applicable authority owner defines the relevant aggregate/composition boundary; the solution must preserve enough action/lineage state to avoid treating local compliance as proof of composed authorization.
+
+Why this is probably a clarification, not S15:
+
+- S1 already owns scope/current applicability of authority;
+- S8 already owns non-amplification;
+- S9 already owns composition/non-substitution;
+- S10/S14 already own material-change and evidence-to-decision transition assessment; and
+- 00H now provides the concrete falsifier showing why atomic compliance is insufficient when the authority condition is aggregate.
+
+**Candidate reading aid:**
+
+`per-action compliance ≠ aggregate/composed authorization`.
+
+This candidate is independent of CAND-R2. CAND-R2 asks whether opportunity/admissibility/authority/execution are being collapsed. CAND-R3 asks whether the **scope of the authority check itself** is too narrow to cover the composed effect.
 
 ---
 
@@ -257,7 +317,8 @@ Later benchmark/test work may define **derived or scenario-specific measures** u
 - aggregate-authority failure rate / cap-decomposition escape rate;
 - targeted re-contracting / recovery rate;
 - source-independence error under correlated repetition;
-- mission-displacement and re-grounding latency.
+- mission-displacement and re-grounding latency;
+- stale-basis use rate / semantic-TOCTOU detection and targeted-requalification rate.
 
 These measures should be linked back to the relevant H#/T#/S# and clearly labelled as benchmark/fixture measures unless and until a future Requirements version adopts them as canonical.
 
@@ -302,9 +363,9 @@ The current requirement system is broad enough to support the bounded Benchmark-
 1. EP-BH1…EP-BH7 remain benchmark hypotheses, not new canonical H#;
 2. later component conformance is tested against the component-owner documents;
 3. benchmark-specific metrics are traced to existing S/T/H routes;
-4. Role_effective/Role_bound and opportunity/admissibility/authority/execution remain explicit clarification candidates for a future editorial/versioned pass;
+4. Role_effective/Role_bound, opportunity/admissibility/authority/execution, and per-action compliance versus aggregate/composed authorization remain explicit clarification candidates for a future editorial/versioned pass;
 5. any future change is versioned and preserves the requirement commit used by existing fixtures/pre-registrations.
 
 This closes the **analysis stage of W1** for the corpus state reviewed through 24 September 2026 without creating a canonical Requirements successor. The review now includes the 00E–00H four-scenario set and DBC v0.2. Future post-freeze material should be added to this delta first and should reopen W1 only if it exposes a genuinely missing solution-neutral obligation rather than another architecture, interface, scenario or conformance realization.
 
-The next W1 action, if desired, is an editorial proposal containing only the two clarification candidates above. It should remain a proposal until explicitly approved.
+The next W1 action, if desired, is an editorial proposal containing only the three clarification candidates above. It should remain a proposal until explicitly approved.
