@@ -4,14 +4,14 @@
 |---|---|
 | **ID** | 00 — Requirements |
 | **Type** | Canonical requirements, sufficiency conditions, hypotheses and KPI protocol |
-| **Status** | Canonical working · requirements/test protocol · not evidence that EA satisfies the requirements |
-| **Version · date** | Unversioned canonical reader · 2026-09-17 |
+| **Status** | **Frozen canonical baseline** · requirements/test protocol · not evidence that EA satisfies the requirements |
+| **Version · date** | Freeze snapshot · 2026-09-17 |
 | **Owner corpus** | Ecosystem Awareness |
-| **Supersedes / superseded by** | Current canonical requirements route; earlier 00A/00C inputs preserved separately |
+| **Supersedes / superseded by** | Current frozen canonical Requirements baseline; earlier 00A/00C inputs preserved separately; no successor promoted — review changes through the linked vNext delta |
 
-> **Canonical requirements document.** This is the single canonical document that states what a solution to the EA challenge must address and how its underlying hypotheses are assessed. It does not define a product, implementation, benchmark result, standards adoption, or a claim that EA or another candidate has passed.
+> **Frozen canonical requirements baseline.** This is the single canonical document that states what a solution to the EA challenge must address and how its underlying hypotheses are assessed. Its S1–S14 / T1–T4 / H1–H6 / KPI semantics are frozen at this baseline while vNext review is open. Proposed semantic changes are reviewed in the linked delta before any later explicit versioned promotion; editorial routing/link updates do not alter this freeze. It does not define a product, implementation, benchmark result, standards adoption, or a claim that EA or another candidate has passed.
 
-> **Requirements vNext review is open — the requirements themselves are unchanged.** The current working review is [**Requirements vNext Review & Delta v0.1 Draft**](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Its present recommendation is **not** to create S15+, T5+, H7+ or a new canonical KPI family: most later Ecosystem Positioning developments map into the existing S1–S14 / T1–T4 / H1–H6 system or belong to component conformance. The draft records two clarification candidates (effective-role drift; opportunity/admissibility/authority/execution separation) for possible future versioned consideration. This document remains the current canonical Requirements.
+> **Requirements vNext review is open — the frozen requirements themselves are unchanged.** The current cumulative working review is [**Requirements vNext Review & Delta v0.1 Draft**](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). It records post-freeze corpus evolution, including the two additional 00G/00H reference failure scenarios, and tests whether that material exposes a genuine requirement gap or only architecture/conformance/evidence deltas. Its current recommendation remains **not** to create S15+, T5+, H7+ or a new canonical KPI family. This document remains the frozen canonical Requirements until an explicit versioned successor is deliberately promoted.
 
 **Status:** public working research specification. It applies to a human-led process, conventional control system, agentic architecture or composed system, within its declared decision scope, authority, evidence boundary, response horizon and resource envelope.
 
