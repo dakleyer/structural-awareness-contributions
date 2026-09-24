@@ -506,7 +506,7 @@ Read with:
 - [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md);
 - [Article IV — Ecosystem Signalling Without Required Cooperation](./ARTICLE_04_ECOSYSTEM_SIGNALLING_WITHOUT_REQUIRED_COOPERATION.part01.md).
 
-This scenario is intentionally synthetic and exaggerated. Its reader-facing historical narrative is not the executable oracle; the v0.2 test contract requires an opaque paired fixture so performance cannot be attributed to memorized history or blanket rejection.
+This scenario is intentionally synthetic and exaggerated. Its reader-facing historical narrative is not the executable oracle; the v0.3 Draft test contract requires an opaque paired fixture so performance cannot be attributed to memorized history or blanket rejection.
 
 ## 16. Product / implementation-profile boundary
 
