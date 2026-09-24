@@ -29,7 +29,7 @@ If a proposed change is reviewed and rejected, move it to **Closed / not adopted
 **Candidate layers to assess:**
 
 - 00G false-context/signalling case;
-  - current artefact: [00G v0.2](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2.md) — published working candidate with paired false/genuine branches, opaque fixture rule and Q0–Q5 gates; not yet W3-admitted or 00D-integrated;
+  - latest artefact: [00G v0.3 Draft](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) — preserves the v0.2 paired opaque false/genuine design and adds DBC-namespaced gates, S1 authority-applicability coverage, bidirectional DBC-C04/C06 routing and canonical KPI instrumentation; [v0.2](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2.md) remains the published predecessor; not yet W3-admitted or 00D-integrated;
 - selective signalling/choreography;
 - ACC/admissibility/lineage gates;
 - Objective-Conditioned Agentic Gradient;
