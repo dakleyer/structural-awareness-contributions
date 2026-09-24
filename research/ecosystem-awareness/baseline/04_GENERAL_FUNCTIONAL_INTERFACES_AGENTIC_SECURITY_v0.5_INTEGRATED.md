@@ -1654,7 +1654,7 @@ Ecosystem Awareness then performs the meta-level task: preserve those distinctio
 
 &nbsp;
 
-This v0.5 integrated document preserves the general O/S interface semantics of the controlled v0.4 source while separating programme-specific mappings from the canonical interface layer. Concrete FG-TIDA Theme mappings, the ideal cross-Theme projection and the current-source-constrained bridge are maintained in the dedicated [EA / FG-TIDA application package](../fg-tida/README.md). The v0.4 split files remain preserved as historical controlled sources and provenance.
+This v0.5 integrated document preserves the general O/S interface semantics of the controlled v0.4 source while separating programme- or domain-specific mappings from the canonical interface layer. Those application mappings are maintained outside 04 and cannot redefine its generic interface semantics. The v0.4 split files remain preserved as historical controlled sources and provenance.
 
 &nbsp;
 
