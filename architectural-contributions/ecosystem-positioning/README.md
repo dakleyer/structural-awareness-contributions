@@ -31,12 +31,12 @@ They describe situations in which individual technologies, agents, APIs or contr
 A large multinational automates work across the enterprise with AI and consumes **100 million tokens**, while also creating a massive human supervision burden.  
 At the end, it has gained no meaningful competitive advantage: no material work completed, no useful new information produced and no differentiated capability.
 
-### Scenario 2 — [The Fragmented Smart City](../../research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md)
+### Scenario 2 — [Chaos in the Smartcity](../../research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md)
 
 A highly automated AI-driven smart city experiences small, gradual changes in operating conditions rather than one major failure.  
 Some vehicles continue normally, others execute completely different critical or emergency routes, while others remain blocked waiting for human intervention that never arrives.
 
-### Scenario 3 — [Napoleon Goes to Russia](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md)
+### Scenario 3 — [Ciber Napoleon Goes to Russia](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md)
 
 Robots are cleaning a bar and preparing the tables when one incorrectly configured robot starts behaving as if it were Napoleon.  
 It gradually convinces the others; some time later the robots leave in formation, carrying forks as rifles, believing they are Napoleon's army marching from Spain toward Russia.
@@ -65,8 +65,8 @@ The corpus was built against **current, concrete technology architectures**, not
 The current implementation profiles include:
 
 - [**Microsoft Agent 365**](../../research/ecosystem-awareness/baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [**LangGraph / LangSmith**](../../research/ecosystem-awareness/baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for the 100 Million Tokens scenario;
-- [**FIWARE NGSI-LD / Orion-LD**](../../research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [**AWS IoT Core / IoT TwinMaker**](../../research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for Smart-City Mobility Chaos;
-- the [**OpenAI Agents SDK / Agents API / Responses Multi-agent stack**](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories), including durable sessions, handoffs, guardrails, approvals, tracing, sandboxing, recovery and context compaction, for the Bar-to-Napoleon scenario;
+- [**FIWARE NGSI-LD / Orion-LD**](../../research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [**AWS IoT Core / IoT TwinMaker**](../../research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for Chaos in the Smartcity;
+- the [**OpenAI Agents SDK / Agents API / Responses Multi-agent stack**](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories), including durable sessions, handoffs, guardrails, approvals, tracing, sandboxing, recovery and context compaction, for Ciber Napoleon Goes to Russia;
 - [**Claude Agent SDK**](../../research/ecosystem-awareness/baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) and [**Stripe Radar / Refund API**](../../research/ecosystem-awareness/baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md), including strong external grant/case and pre-refund control layers, for The Quiet Four Thousand;
 - [**AWS Step Functions, Amazon RDS, Lambda / AWS SDK integration, Systems Manager Change Calendar, DynamoDB, EventBridge, CloudWatch and IAM**](../../research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) for The Patch That Undid the Fix;
 - [**Panodyssey AI Transparency Notice, ODRL / JSON-LD and TEMS rights portability**](../../research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) for The Author Who Pays for His Own Work.
@@ -109,11 +109,11 @@ The relationship between the technology and its ecosystem has changed.
 
 # Awareness → Positioning → Agent Defense
 
-**[Ecosystem Awareness](../../research/ecosystem-awareness/README.md)** qualifies what can responsibly be relied on, what remains unresolved and what must be requalified as the ecosystem changes.
+The philosophy starts from the [**Integrated Foundational Theory**](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md): no participant has the whole ecosystem. Every agent, human or subsystem acts from a **bounded and revisable representation**, while a decision-relevant residual remains outside what is currently represented and the useful observation window can change with time, risk and capacity. The objective is therefore not omniscience, global consensus or permanent HOLD, but **bounded, justified closure that can be requalified when its basis changes**.
 
-**Ecosystem Positioning** uses that qualified state to determine whether the participant can continue from its current position or should realign, re-contract, constrain, hand off or escalate.
+**[Ecosystem Awareness](../../research/ecosystem-awareness/README.md)** keeps that local view qualified: what can be relied on now, what remains unresolved, what could still be established and what remains residual. **Ecosystem Positioning** uses the qualified view to determine whether the participant can continue from its present role or should realign, re-contract, constrain, hand off or escalate.
 
-**Ecosystem Agent Defense** is the defensive consequence in a choreographed, non-orchestrated ecosystem: independently governed agents exchange qualified signals and can recover justified operation within their existing authority, without requiring a central orchestrator to invent a new mission.
+**Ecosystem Agent Defense** is the defensive consequence in a choreographed, non-orchestrated ecosystem: independently governed agents can exchange qualified signals and recover justified operation within existing authority. It does not require a central orchestrator, a shared world model or universal cooperation.
 
 ---
 
@@ -141,25 +141,19 @@ Together they provide the conceptual basis for the rest of the corpus. They are 
 
 ## 2. The central document — Canonical Requirements
 
-The [**00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) document is the **central normative test document of the current corpus**. Its role and the requirements-to-scenario validation route are explained above; this section does not repeat them.
+As explained above in [**Requirements — replaying the failure scenarios as tests**](#requirements--replaying-the-failure-scenarios-as-tests), the [**00 — Canonical Requirements**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) document is the central normative test contract. This section only keeps the corpus route visible and does not repeat that explanation.
 
 [Requirements-vNext review](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) records whether later Ecosystem Positioning mechanisms require an explicit versioned change to that requirements basis.
 
 ## 3. Requirements coverage — where each scenario and use case tests the requirements
 
-[**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) is the requirements-first map across scenarios, use cases, fixtures, execution status and gaps.
-
-The six reference scenarios above then turn the requirements into concrete quality routes. Each scenario freezes facts, defines positive/negative/adversarial controls where needed, maps relevant requirements into gates, and records what would count as a pass, fail, requalification or unresolved result.
-
-This is why the scenarios are detailed: they are not illustrations added after the architecture; they are part of the requirements-to-evidence path.
+The [**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) was also introduced above as the requirements-first map across scenarios, use cases, fixtures, execution status and gaps. It remains here as the navigation point rather than a second explanation of the same validation route.
 
 ---
 
 # The shared epistemic position
 
-A central structural pattern is the four-part participant-local epistemic position.
-
-[**Canonical Architecture Topology**](../../research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) provides the shared reading key across the corpus.
+The four-part participant-local epistemic position is a practical way to **understand uncertainty and carry it across an ecosystem without pretending that participants share one world model, one controller or even the same objective**. It is always relative to a declared participant, decision, scope and time. [**Canonical Architecture Topology**](../../research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) provides the shared reading key.
 
 In compact form:
 
@@ -171,6 +165,8 @@ In compact form:
 | **D** | Residual that is not presently established as knowable within that capability boundary. |
 
 These positions are deliberately **non-fungible**. More confidence in A cannot compensate for an unexamined residual in D; more compute cannot automatically substitute for missing authority; more messages do not automatically create independent evidence.
+
+This becomes especially important in [**Ecosystem Signalling**](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). A participant may communicate a bounded qualified position, but the receiver must interpret and requalify it locally. Signalling therefore does **not** presume orchestration, cooperation or common governance: participants may be cooperative, indifferent, competing, misaligned, adversarial or effectively parasitic. A received signal can contribute evidence; transport success, repetition or apparent consensus cannot by themselves create truth, authority or a common state.
 
 ## Epistemic Handoff Descriptor — preserving meaning across systems
 
