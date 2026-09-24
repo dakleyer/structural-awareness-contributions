@@ -24,6 +24,8 @@
 
 **Publication integrity route:** the published 00E unit consists of this canonical scenario plus its two technology-specific implementation annexes, [00E-A01 — Microsoft Agent 365](./00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [00E-A02 — LangGraph/LangSmith](./00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md). The **main 00E document itself** contains the preserved five-stage case, Meridian reconstruction, four-quadrant/funnel analysis, the integrated Q0–Q5 quality plan, deterministic gate trace, Route N/Route Q comparison, recording form and §9A external-corroboration addendum. The annexes retain the product-specific standard/top/regime-change implementation trajectories and their synchronized quality-plan overlays. This split is editorial, not substantive: the annexes do not replace any part of the scenario or quality plan.
 
+**Publication completeness audit:** [00E Publication Completeness Audit — 24 September 2026](../../../governance/00E_PUBLICATION_COMPLETENESS_AUDIT_2026-09-24.md) records the conservation check against the controlling source case and the preserved 17 September scenario/profile snapshots.
+
 ## 1. Preserved source case: the exact five-stage story
 
 This is the concrete case. It is a stylised **enterprise-strategy system**, not xSeil, a named company or a historical event. The narrative below is retained from the controlling source before the analysis and quality plan are applied.
