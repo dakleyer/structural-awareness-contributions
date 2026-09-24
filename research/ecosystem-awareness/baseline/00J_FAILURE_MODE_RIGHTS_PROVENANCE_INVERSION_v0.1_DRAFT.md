@@ -11,6 +11,10 @@
 | **Canonical requirements basis** | [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
 | **Change-control basis** | [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 
+Digital rights infrastructures are strongest where they make authorship, provenance, permission and accountability explicit. They become dangerous when valid but narrower records travel further — and become easier to consume — than the original source relationship they were never entitled to replace. 00J tests exactly that inversion.
+
+The scenario is intentionally concrete. It does not ask whether every provenance mechanism is insufficient, nor whether every downstream rights claim is suspect. It asks a narrower operational question: can a system distinguish a locally valid downstream record from a record that is sufficient to support a stronger licensing or enforcement claim against the original source author?
+
 > **Worked virtual case and integrated quality plan.** 00J tests whether a valid local provenance or generation statement can be promoted, through broken lineage and downstream replication, into an unsupported rights conclusion that is operationally stronger than the original creator's record. The concrete paradox is deliberately simple: the original author is eventually asked to license or pay for material derived from the author's own work.
 >
 > This document does **not** claim that Panodyssey, a named AI provider, a rights registry, a licensing platform or any current standard causes this failure. [FG-TIDA Theme #17](https://github.com/FG-TIDA/themes/issues/17) is used only as a strong upstream reference case because its public description makes creator identity, rights declarations, timestamps and audit history explicit on the publisher side. The fictional failure occurs after information leaves that bounded source context and crosses independently governed systems.
@@ -62,6 +66,24 @@ A statement may be valid within one proposition and still be insufficient for an
 
 This is primarily an S14 evidence-to-decision problem coupled with S1, S5, S7, S9, S11 and S12.
 
+The central risk in 00J is therefore not forgery, but semantic promotion: a statement that is valid for one proposition becomes operationally stronger than the chain that produced it.
+
+**00J tests composition, not isolated validity. This is a rights-provenance inversion, not merely a metadata-loss event.**
+
+![Figure 1 — Four distinct evidence scopes](./assets/00J/2_evidence_scopes.svg)
+
+**Figure 1 — Four distinct evidence scopes.** Generation provenance, source provenance, rights provenance and execution/compliance evidence may all be individually valid while still supporting different propositions. 00J tests the failure mode in which those scopes are silently collapsed.
+
+> **How to read 00J**
+>
+> Read the scenario in three layers:
+>
+> **Fixture layer** — the frozen A/W/R0/C1/M1/D1/X/RX facts.  
+> **Gate layer** — Q0–Q5 as a scenario-local projection of the canonical requirements.  
+> **Interpretive layer** — whether a valid record is being used within, or beyond, the proposition it is sufficient to support.
+>
+> The scenario fails only when a narrower valid record is silently promoted into a stronger enforcement claim.
+
 ## 1. Executive case card
 
 A creator **A** publishes an original text work **W** through a platform that records a strong upstream rights/provenance state **R0**:
@@ -104,6 +126,12 @@ The scenario should be readable without the symbols:
 6. **The author publishes again.** A reuses material from W in W2. A rights checker sees the newer/easier-to-resolve RX lineage, cannot reconstruct the source chain, and asks A to license, pay X or stop.
 
 The paradox therefore does **not** require a fake signature. It requires a chain in which narrower valid statements become easier to consume than the older source/authority relation and are then silently promoted into a stronger enforcement proposition.
+
+The reader-facing paradox is simple, but the underlying mechanism is not a single false statement. It is a cross-system composition problem. Figure 2 makes that chain visible end to end before the scenario formalizes it gate by gate.
+
+![Figure 2 — The full rights-provenance inversion chain](./assets/00J/1_lineage_chain.svg)
+
+**Figure 2 — How the author ends up paying for their own work.** A publishes W under a valid source/right record R0; a bounded downstream use produces D1; the source relation then weakens or disappears; X creates RX; replicated downstream records become operationally prominent; and a later checker reaches the unsupported conclusion that A must pay, license from X, or stop. The failure does not require a false signature or forged record. It begins when a narrower valid statement loses the lineage required to prevent its promotion into a stronger rights-enforcement proposition.
 
 ## 2. Frozen fixture facts and bounded oracle
 
@@ -184,6 +212,12 @@ The same fixture facts, action library, budget and deadline must be used across 
 
 All Q-gates below **emanate from the canonical S/T/H/KPI system**. The “mandatory evidence” column uses canonical KPI families first. 00J-specific measures are supplementary outcome observables only.
 
+For rapid orientation, Figure 3 compresses the six gates into one lookup card. It is a reading aid only: the canonical S/T/H/KPI route and the detailed gate register below remain authoritative.
+
+![Figure 3 — Q0–Q5 quick reference](./assets/00J/4_gate_reference_card.svg)
+
+**Figure 3 — Q0–Q5 quick reference.** The six scenario-local gates in one view: source/right frame, access authority, transformation/source dependency, downstream claim, propagation/correlation and final enforcement. No new canonical gate is created by this figure or by 00J.
+
 | Gate | Decision | Canonical route | Mandatory evidence in this fixture | Conforming exit | Failure if bypassed |
 |---|---|---|---|---|---|
 | **Q0 — original rights frame qualified** | Is the upstream A/W/R0 subject–proposition–decision basis current, scoped and attributable? | S1/S7/S11/S14 → T2/T3/T4 → H2/H3/H4 | authority-field completeness; owner/source/version/scope preservation; handoff integrity; freshness/expiry; residual-scope preservation | A/W/R0 is qualified for the declared scope, with explicit limits | creator/rights source, policy version or scope is absent, stale or flattened while workflow continues |
@@ -225,6 +259,12 @@ If execution later shows a path that passes all applicable canonical conditions 
 10. Passing the negative branch by always rejecting X is invalid. C1 legitimate-transfer control must pass. Passing by blocking every uncertain use is also invalid if the declared control branch permits bounded continuation.
 
 ## 7. Two routes through the same event
+
+The two routes deliberately receive the same underlying facts. Their difference is not access to a better oracle, more authority or a safer business rule. Their difference is whether the existing requirements preserve the scope of each claim as the evidence moves across the chain.
+
+![Figure 4 — Route N versus Route Q](./assets/00J/3_two_routes.svg)
+
+**Figure 4 — Two routes through the same fixture.** Route N bypasses or misapplies the existing gates and allows generation provenance, source provenance, rights provenance and replicated evidence to collapse into an unsupported enforcement result. Route Q preserves those distinctions and stops the inversion without introducing a new universal requirement.
 
 ### 7.1 Route N — quality plan exists but is badly implemented / gates are bypassed or misapplied
 
@@ -313,6 +353,10 @@ The current requirements-sufficiency reading is **narrowed or falsified** if:
 
 ## 9A. External corroboration and plausibility addendum — reviewed 24 September 2026
 
+The external addendum does not attempt to prove that the literal terminal event has already been documented. Its role is narrower and more disciplined: to show that the mechanism classes on which 00J depends are publicly observable, technically current, and serious enough to justify the fixture.
+
+Each source is therefore read twice: first for what it positively establishes, and then for what it explicitly does not establish.
+
 00J is fictional. The exact sequence in which an original author is required to pay a downstream claimant for reuse of the author's own source work is **not asserted here as a documented incident**. The sources below establish narrower neighboring mechanisms: rights/provenance metadata can be lost across systems; machine-readable permissions are scope-dependent; provenance can be incomplete; registry presence is not equivalent to substantive rights ownership; machine-readable TDM reservations are an active interoperability problem; and AI-generated material raises separate authorship/right questions.
 
 **Evidence-grade boundary:** the sources in this addendum are primarily **E4-type market/standard/public-documentation evidence** under the 00D grading discipline. No E3 investigated occurrence is cited for the literal “author pays for their own work” event. Their role is to corroborate the component mechanisms and current technical/regulatory boundaries, not to transform the fictional sequence into a reported incident.
@@ -390,7 +434,9 @@ The corresponding profile is [00J-A01 — Panodyssey Notice / TEMS rights-portab
 
 ## 11. Public-source relationship to FG-TIDA Theme #16 and Theme #17
 
-00J is deliberately **adjacent to**, not a replacement for, the public FG-TIDA work from which several useful boundaries can be observed.
+00J is intentionally adjacent to public FG-TIDA work, but it is not interchangeable with it. This section makes that adjacency explicit and bounded: what 00J takes from the public Theme #16 and Theme #17 record, what it does not take, and why that distinction matters for independent third-party review.
+
+It is therefore **adjacent to**, not a replacement for, the public FG-TIDA work from which several useful boundaries can be observed.
 
 ### 11.1 Public contributor attribution used by 00J
 
@@ -514,3 +560,9 @@ Anything beyond those public capabilities is labelled as a **constructed strong-
 The deliberately bad implementation can still fail even while nominal quality controls exist, because required gates are bypassed, receive qualification-stripped evidence, or allow a valid local statement to be promoted into a stronger unsupported proposition.
 
 The next evidentiary step is therefore execution, not requirement expansion: freeze the oracle/controls, prove the instrumentation can detect induced qualification loss, and run matched comparator arms. Any run that passes the canonical gates and still reaches the unsupported final enforcement decision must be treated as evidence against the present sufficiency reading and returned to Requirements-vNext.
+
+The point of 00J is therefore not to show that every downstream registry is unsafe, nor that every AI-derived artifact threatens the original source author. It is to test whether a system can preserve the difference between a locally valid downstream record and a record that is sufficient to justify a stronger claim against the original source.
+
+If that distinction holds, the scenario resolves without new universal requirements. If it fails, the problem is not merely missing data but a deeper collapse in how evidence, authority and enforcement are composed across systems.
+
+**00J ultimately tests not whether provenance exists, but whether provenance remains proportionate to the proposition it is asked to support.**
