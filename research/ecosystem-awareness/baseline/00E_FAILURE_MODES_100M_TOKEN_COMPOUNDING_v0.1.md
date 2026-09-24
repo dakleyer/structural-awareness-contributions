@@ -22,6 +22,8 @@
 
 **Benchmark and plausibility evidence:** [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) maps this scenario to formal, experimental and officially investigated analogues, with explicit limits. It does not recast the fictional token total as an observed incident.
 
+**Publication integrity route:** the published 00E unit consists of this canonical scenario plus its two technology-specific implementation annexes, [00E-A01 — Microsoft Agent 365](./00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [00E-A02 — LangGraph/LangSmith](./00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md). The **main 00E document itself** contains the preserved five-stage case, Meridian reconstruction, four-quadrant/funnel analysis, the integrated Q0–Q5 quality plan, deterministic gate trace, Route N/Route Q comparison, recording form and §9A external-corroboration addendum. The annexes retain the product-specific standard/top/regime-change implementation trajectories and their synchronized quality-plan overlays. This split is editorial, not substantive: the annexes do not replace any part of the scenario or quality plan.
+
 ## 1. Preserved source case: the exact five-stage story
 
 This is the concrete case. It is a stylised **enterprise-strategy system**, not xSeil, a named company or a historical event. The narrative below is retained from the controlling source before the analysis and quality plan are applied.
@@ -88,6 +90,12 @@ The architectural lesson is:
 - More creativity does not imply that possibilities have become determined.
 - More recognition of structural residual does not justify paralysis.
 
+<p align="center">
+  <img src="./assets/00E/figure_00E_01_five_stage_cascade.svg" alt="Figure 00E-1 — Five-stage cascade: 100 million tokens, four non-compensating failures" width="100%">
+</p>
+
+*Figure 00E-1. Five-stage cascade. The four failure positions accumulate through composition; none is treated as cancelling another. Visual aid only — the source narrative and gate plan remain controlling.*
+
 ## 2. Executive case-study sheet: one company, one technology stack, four failures
 
 ### 2.1 The company and its decision
@@ -128,6 +136,12 @@ Let `U = W(d,t)` be the bounded working universe selected for a material decisio
 | **Beyond U, Pole C:** what could potentially be learned or explored | Possibilities remain hypotheses until they are brought into a qualified decision window | Creative possibilities are promoted into credible strategy before sufficient determination | **O2 — out-of-window Type 2 possibility-to-fact collapse** | Strategy / creativity |
 | **Beyond U, Pole D:** what no finite current window may presume to exhaust | Structural residual is preserved while a bounded posture is still selected | Irreducible residual becomes a veto, unlimited research programme or permanent escalation | **O1 — out-of-window Type 1 expansion/paralysis** | Tactics / deployment / business development |
 
+<p align="center">
+  <img src="./assets/00E/figure_00E_02_four_quadrant_map.svg" alt="Figure 00E-2 — Four-quadrant map around U = W(d,t)" width="100%">
+</p>
+
+*Figure 00E-2. Four-quadrant map around the bounded working universe `U = W(d,t)`. The figure reproduces the §3 pole semantics and failure labels; the table remains controlling.*
+
 Type 0 remains a foundational distinction. A limit may be structurally established for the admitted problem class or may be infeasible within a declared frame, resources and horizon; persistent non-resolution alone proves neither. No finite window can guarantee exhaustive knowledge of the ecosystem. The runtime may therefore leave the state explicitly unresolved and bound its response without diagnosing Type 0. Meridian creates Type 1 or Type 2 only when it mismanages those limits.
 
 The four labels are primary failure positions. The human stage also **inherits and may reproduce** upstream I2 when a manager accepts a binary “safe” answer. That secondary effect does not convert the four-mode map into five modes: the control channel's own failure is I1, and the false certainty remains traceable to the I2 representation it received.
@@ -161,6 +175,12 @@ where `Q` is a later decision-relevant state. Under the data-processing inequali
 `I(Q; Zₙ) ≤ I(Q; Zₙ₋₁) ≤ ... ≤ I(Q; X₀)`.
 
 The inequality alone does **not** show that every shorter message is harmful. Equality is possible when `Z_i` is a sufficient statistic for the later decision: `I(Q; X_i | Z_i) = 0`. Meridian's fault is testable precisely because the dropped alternatives, dependence, uncertainty movement, freshness and scope can change the later control, strategy and deployment decisions. If they do, the summary was not sufficient for those decisions.
+
+<p align="center">
+  <img src="./assets/00E/figure_00E_03_many_to_one_funnel.svg" alt="Figure 00E-3 — Many-to-one funnel and loss of decision-relevant qualification" width="100%">
+</p>
+
+*Figure 00E-3. Many-to-one funnel. Locally plausible answers can become enterprise-insufficient when alternatives, uncertainty, scope, provenance/freshness, dependencies, residual and re-entry information are dropped during handoff.*
 
 ### 4.2 Why the failure appears late and then cascades
 
@@ -381,6 +401,12 @@ This makes the causal rule explicit: **a failed KPI does not by itself cause the
 This trace is understandable in both directions. Read downward, it shows how bypassed controls compound into the failure case. Read upward from the terminal HOLD, it identifies the first failed gate and KPI evidence that must be reopened; it does not respond by launching another undirected 100-million-token search.
 
 ## 8. The two routes through the same company
+
+<p align="center">
+  <img src="./assets/00E/figure_00E_04_route_n_vs_q.svg" alt="Figure 00E-4 — Route N versus Route Q under the same 100-million-token ceiling" width="100%">
+</p>
+
+*Figure 00E-4. Route N versus Route Q. The comparison holds the fictional company, facts, tools, human-review capacity and deadline constant; it changes the quality discipline, not the resource ceiling.*
 
 ### 8.1 Route N — requirements not satisfied for the run
 
