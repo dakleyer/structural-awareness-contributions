@@ -50,6 +50,7 @@ The following are the main substantive changes reviewed since the 17 September f
 |---|---|---|
 | **00G — Collective False-Context Convergence** | Adds a third reference failure family: correlated repetition, false corroboration, mission/context displacement, authority spoofing, effective-role drift and high-value but inadmissible opportunity pressure. The latest v0.3 Draft also makes the existing S1 authority-current-applicability surface explicit at the frame/role transition gate. | Stresses S1/S2/S3/S6/S9/S11/S14 and T1/T2/T3/T4 without exposing a missing S/T/H. It strengthens the case for an editorial role-drift clarification and for preserving opportunity/admissibility/authority separation. |
 | **00H — Batch Opportunity Beyond Authority** | Adds a fourth reference failure family: a materially qualified opportunity lies outside the current grant. The v0.4 Draft preserves the prior causal/adaptive split and adds V19/V20 authority-laundering: individually valid leaf grants can compose into a common-root campaign whose root authority is absent. Review shows this does **not** require S15/H7: existing S7/S8/S9/S12/S13 already express representation, non-amplification, composition and reconstruction, especially S8's rule that subdelegation must not manufacture authority absent from the original principal. The gap was scenario coverage/instrumentation in 00H v0.3, now corrected in Q0/Q2/Q5; the legitimate route is preserve → request/re-contract → authority response → requalify → only then act. | **Base C12 route:** S1/S2/S8/S11/S14 → T2/T3/T4 → H2/H4/H6. **V19/V20 extension:** additionally activates S7/S9/S12/S13 around the same frozen T/H system because representation/delegation lineage and reconstructable authority history are now material to the decision. This is coverage expansion, not a new canonical requirement family. |
+| **00I — Semantic TOCTOU / The Patch That Undid the Fix** | Adds a fifth reference failure family: a queued remediation remains technically valid after a later repair, incident-state change or freeze has changed the semantic basis on which the queued action was qualified. v0.2 adds a positive continuity control, strong-peer arms, Q0–Q6 gates, explicit source/freshness checks, action-time decision-basis comparison and public corroboration from database/cloud operational mechanisms. | **Core route:** S1/S3/S10/S14 → T1/T2/T3/T4 → H2/H5/H6, with S9/S11/S12/S13 becoming material where intervening patch/version/source lineage must be composed and reconstructed. No S15/T5/H7 is required. The review does identify **CAND-R4**: make the binding between a time-of-use requalification and the state actually consumed by execution editorially explicit. |
 | **01H — participant-local Ecosystem Positioning / decision-scoped epistemic opportunity** | Makes participant-local state, bounded epistemic opportunity and decision-relative effort allocation more explicit. | Existing S9/S11/S14 and T1/T2/T4 cover the solution obligation; the representation is architectural. |
 | **01I / ACC-related participation and lineage work** | Makes role, participation, permissions/obligations/prohibitions, hard constraints, versioning, revocation/exit and lineage more explicit. | Existing S1/S2/S7/S8/S11/S12/S13/S14 cover the requirement surface. Do not promote ACC objects into universal Requirements merely because the current architecture uses them. |
 | **Current 01J signalling / choreographed repositioning** | Adds selective participant-local signalling, bounded `RepositionIntent` / `AuthorityResponse`, compatibility/qualification boundaries and distributed choreography without requiring shared world-state. | Existing S6/S9/S11/S14 and T2/T3/T4 cover qualified handoff, authority preservation and bounded response. Transport objects remain implementation/interface semantics. |
@@ -63,19 +64,20 @@ The following are the main substantive changes reviewed since the 17 September f
 
 ---
 
-## Reference failure-scenario expansion — two scenarios to four
+## Reference failure-scenario expansion — two scenarios to five
 
 At the 17 September freeze, the Requirements document explicitly routed two reference scenarios back into the same canonical requirement system:
 
 1. [**00E — 100 Million Tokens and Compounded Epistemic Collapse**](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), testing compositional overconfidence, capacity/oversight pressure, speculative promotion and structural-residual mismanagement; and
 2. [**00F — Smart-City Mobility Divergence under Residual Uncertainty**](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md), testing incompatible locally justified closures, correlated/stale false convergence, shared-resource conflict and bounded ecosystem qualification.
 
-The post-freeze corpus now adds two independent reference scenarios:
+The post-freeze corpus now adds three independent reference scenarios:
 
-3. [**00G — Collective False-Context Convergence**](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.1.md), testing whether unsupported external context, correlated repetition, claimed authority and attractive opportunity can displace a legitimate mission when source independence, role, authority and admissibility are not preserved; and
-4. [**00H — Batch Opportunity Beyond Authority**](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.4_DRAFT.md), testing whether a valuable and technically reachable opportunity is preserved and routed without being silently discarded **or** converted into execution authority, including aggregate/salami-slicing failure and bounded re-contracting.
+3. [**00G — Collective False-Context Convergence**](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md), testing whether unsupported external context, correlated repetition, claimed authority and attractive opportunity can displace a legitimate mission when source independence, role, authority and admissibility are not preserved;
+4. [**00H — Batch Opportunity Beyond Authority**](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.4_DRAFT.md), testing whether a valuable and technically reachable opportunity is preserved and routed without being silently discarded **or** converted into execution authority, including aggregate/salami-slicing failure and bounded re-contracting; and
+5. [**00I — Semantic TOCTOU / The Patch That Undid the Fix**](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md), testing whether a previously correct queued decision is requalified against current authoritative state at time of use, rather than being executed merely because its token, job and endpoint remain technically valid.
 
-The four scenarios are deliberately different stress surfaces. They do **not** create four requirement families. Their role in this delta is to ask whether the same frozen S1–S14 / T1–T4 / H1–H6 system survives materially different failure mechanisms.
+The five scenarios are deliberately different stress surfaces. They do **not** create five requirement families. Their role in this delta is to ask whether the same frozen S1–S14 / T1–T4 / H1–H6 system survives materially different failure mechanisms.
 
 | Scenario | Primary new stress relative to the others | Current delta disposition |
 |---|---|---|
@@ -83,31 +85,35 @@ The four scenarios are deliberately different stress surfaces. They do **not** c
 | **00F** | Systemic divergence / false convergence among independently governed actors competing over a shared operational surface. | Pre-freeze source; retained canonical pressure. |
 | **00G** | Collective false-context convergence, mission displacement, source-correlation error and effective-role drift. | Post-freeze stressor; covered by existing S/T/H; strengthens CAND-R1/CAND-R2. |
 | **00H** | Beneficial opportunity beyond current authority, aggregate authorization failure and legitimate re-contracting. | Post-freeze stressor; covered by existing S/T/H; strongly operationalizes CAND-R2 and supplies the concrete falsifier motivating CAND-R3. |
+| **00I** | Semantic TOCTOU: technical validity survives while the decision basis, source state or applicability has changed before use. | Post-freeze stressor; core behavior covered by existing S/T/H. Q6 exposes an editorially under-specified check-to-use binding boundary, recorded as CAND-R4 rather than S15/T5/H7. |
 
-**Current conclusion from the 2→4 scenario expansion:** the requirement system has so far generalized without requiring a new challenge, sufficient condition or hypothesis. The added scenarios increase confidence in the *coverage review*, not confidence that EA satisfies the requirements. They also expose where editorial clarity may still be improved even when semantic coverage is already present.
+**Current conclusion from the 2→5 scenario expansion:** the requirement system has so far generalized without requiring a new challenge, sufficient condition or hypothesis. The added scenarios increase confidence in the *coverage review*, not confidence that EA satisfies the requirements. They also expose where editorial clarity may still be improved even when semantic coverage is already present.
 
 ---
 
-## Pending scenario candidate — 00I is not yet a repository source
+## Committed scenario review — 00I / DBC-C02 semantic TOCTOU
 
-An external review supplied a proposed future traceability row for a possible **00I — Semantic TOCTOU / stale grant-condition revalidation** scenario. **No 00I file is present in the repository at this review point, so it is not included in the active post-freeze corpus ledger or the 2→4 scenario count.**
+[**00I — Semantic TOCTOU / “The Patch That Undid the Fix” v0.2 Draft**](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md) is now a repository source and is included in the active post-freeze review. Its preserved predecessor is [v0.1](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.1.md).
 
-If/when that scenario is committed and its actual text is reviewed, the provisional route to verify is:
+The scenario freezes one queued remediation decision, then changes the operating basis before use through a later repair/version transition and an independently raised change freeze. A competent baseline may still have valid identity, an unexpired token, an approved job and a reachable database endpoint. The failure occurs when that technical validity is treated as proof that the earlier decision basis remains current.
 
-- S1, S3, S10, S14;
-- T1/T2/T3/T4;
-- H2/H5/H6;
-- freshness/staleness, material-break/current-applicability and targeted-requalification evidence.
+The reviewed requirement route is:
 
-The anticipated requirement question is whether the scenario exposes anything beyond the existing distinction between **technical/token validity** and the **continued semantic applicability of the conditions that justified reliance**. The working expectation is **no new requirement**, with DBC-C02 already providing the current applied-validation expression of the same freshness/applicability boundary.
+- **core freshness/applicability:** S1, S3, S10, S14 → T1/T2/T3/T4 → H2/H5/H6;
+- **intervening version/source/history where material:** S9, S11, S12, S13 → the same T1–T4 system with H2/H4/H5 as applicable;
+- **scenario measures:** stale-action execution, false continuation, stale-source acceptance, decision-basis mismatch, requalification latency, response margin, unnecessary hold and check-to-use binding violations.
 
-This paragraph is a **review placeholder only**. It must not be cited as 00I analysis or as evidence that 00I exists until the repository source is available and reviewed.
+The review confirms the prior expectation: **00I does not expose a missing universal S/T/H family.** Existing Requirements already demand current applicability, material-change recognition, provenance/freshness preservation, evidence-to-decision assessment and timely requalification.
+
+One boundary is nevertheless under-specified editorially: after a valid time-of-use recheck, the world may change again before actuation. 00I Q6 therefore records **CAND-R4 — action-time decision-basis binding**. This is not a demand for one implementation mechanism. A sufficiently-good architecture may use version/ETag/generation checks, leases, conditional writes, locks, epochs, event invalidation or a bounded freshness interval. The solution-neutral requirement question is only whether the execution can still be shown to rely on the state that was just requalified, or whether a material intervening change must reopen the affected gate.
+
+This remains a **clarification candidate**, not a canonical edit. W1 remains closed to new S15/T5/H7 unless later execution or review shows that S10/S14/T4 cannot express the obligation without distortion.
 
 ---
 
 ## 0. Executive determination
 
-The cumulative post-freeze review — now including the expansion from two to four reference failure scenarios (00E–00H), the later Ecosystem Positioning architecture/control work and DBC v0.2 — does **not currently justify a new S15, T5, H7 or new canonical KPI family**.
+The cumulative post-freeze review — now including the expansion from two to five reference failure scenarios (00E–00I), the later Ecosystem Positioning architecture/control work and DBC v0.2 — does **not currently justify a new S15, T5, H7 or new canonical KPI family**.
 
 Most later Ecosystem Positioning semantics fall into one of three categories:
 
@@ -202,7 +208,7 @@ The current benchmark draft can proceed with EP-BH1…EP-BH7 **without first cre
 
 ## 4. Genuine clarification candidates — not yet edits
 
-The review now identifies three areas worth considering in a future Requirements edition.
+The review now identifies four areas worth considering in a future Requirements edition.
 
 ### CAND-R1 — effective-role drift within S7 / S10 / S12 / S13
 
@@ -276,6 +282,40 @@ Why this is probably a clarification, not S15:
 `per-action compliance ≠ aggregate/composed authorization`.
 
 This candidate is independent of CAND-R2. CAND-R2 asks whether opportunity/admissibility/authority/execution are being collapsed. CAND-R3 asks whether the **scope of the authority check itself** is too narrow to cover the composed effect.
+
+
+### CAND-R4 — bind action-time requalification to the state actually used
+
+00I exposes a narrow TOCTOU boundary after an otherwise correct time-of-use requalification:
+
+`requalify(t_check) → intervening material change → execute(t_act)`.
+
+Current coverage is substantial:
+
+- **S10** requires material change to trigger confirmation/revalidation/cancellation/change of authority;
+- **S14** requires evidence-to-decision assessment at each transition and explicit expiry/re-entry;
+- **T2** requires provenance/freshness/expiry to survive the handoff;
+- **T4** requires timely requalification inside a useful response horizon; and
+- **H5/H6** make shortening state validity and freshness-budget selection explicit research pressure.
+
+What is not stated with equal visibility is the **binding relation between the state that passed the recheck and the state consumed by the actuation step**. A future Requirements edition could clarify:
+
+> **A successful requalification does not remain sufficient after a material intervening state/version change; execution must be demonstrably bound to the requalified state or the affected gate must reopen before actuation.**
+
+This should remain implementation-neutral. It must not mandate transactions, locks, ETags, leases or one centralized state store. Those are possible mechanisms, not the requirement.
+
+Why this is probably a clarification, not S15:
+
+- the material-change obligation already exists in S10;
+- transition assessment/re-entry already exists in S14;
+- freshness and expiry already exist in T2/T4;
+- H5/H6 already make shortening state validity and freshness-budget choice testable; and
+- 00I supplies a concrete adversarial branch (V10) showing where a purely timestamped “I checked just before execution” interpretation can still fail.
+
+**Candidate reading aid:**
+
+`requalification pass ≠ indefinite permission to execute; bind or requalify again after material change`.
+
 
 ---
 
@@ -364,9 +404,9 @@ The current requirement system is broad enough to support the bounded Benchmark-
 1. EP-BH1…EP-BH7 remain benchmark hypotheses, not new canonical H#;
 2. later component conformance is tested against the component-owner documents;
 3. benchmark-specific metrics are traced to existing S/T/H routes;
-4. Role_effective/Role_bound, opportunity/admissibility/authority/execution, and per-action compliance versus aggregate/composed authorization remain explicit clarification candidates for a future editorial/versioned pass;
+4. Role_effective/Role_bound, opportunity/admissibility/authority/execution, per-action compliance versus aggregate/composed authorization, and action-time decision-basis binding remain explicit clarification candidates for a future editorial/versioned pass;
 5. any future change is versioned and preserves the requirement commit used by existing fixtures/pre-registrations.
 
-This closes the **analysis stage of W1** for the corpus state reviewed through 24 September 2026 without creating a canonical Requirements successor. The review now includes the 00E–00H four-scenario set and DBC v0.2. Future post-freeze material should be added to this delta first and should reopen W1 only if it exposes a genuinely missing solution-neutral obligation rather than another architecture, interface, scenario or conformance realization.
+This closes the **analysis stage of W1** for the corpus state reviewed through 24 September 2026 without creating a canonical Requirements successor. The review now includes the 00E–00I five-scenario set and DBC v0.2. Future post-freeze material should be added to this delta first and should reopen W1 only if it exposes a genuinely missing solution-neutral obligation rather than another architecture, interface, scenario or conformance realization.
 
-The next W1 action, if desired, is an editorial proposal containing only the three clarification candidates above. It should remain a proposal until explicitly approved.
+The next W1 action, if desired, is an editorial proposal containing only the four clarification candidates above. It should remain a proposal until explicitly approved.
