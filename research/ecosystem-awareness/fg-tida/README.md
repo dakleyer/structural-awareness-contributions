@@ -41,8 +41,8 @@ Theme numbers, FG-TIDA-specific ownership assumptions and current public discuss
 
 ## Ideal versus current FG-TIDA interface rule
 
-- **05 — ideal FG-TIDA projection:** the target architecture if the relevant Theme semantics, semantic owners, implementations and review/test capacity were available. It is the **maximum coherent application of 04 to FG-TIDA**, not a claim about present adoption.
-- **05A — current FG-TIDA bridge:** a **current-state filter over 05**, retaining only what the public FG-TIDA record presently supports and downgrading the rest to candidate, test-only or not established.
+- [**05 — ideal FG-TIDA projection**](./interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md) + [**05 Ideal Delta**](./interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md): the target architecture if the relevant Theme semantics, semantic owners, implementations and review/test capacity were available. It is the **maximum coherent application of 04 to FG-TIDA**, not a claim about present adoption.
+- [**05A — current FG-TIDA bridge**](./interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md) + [**05A Current-State Delta**](./interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md): a **current-state filter over 05**, retaining only what the public FG-TIDA record presently supports and downgrading the rest to candidate, test-only or not established.
 
 05 and 05A intentionally overlap heavily because they describe the **same target architecture at different maturity levels**. 05A is not an alternative design. The difference between them is the current evidence/adoption gap.
 
