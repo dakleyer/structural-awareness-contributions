@@ -7,6 +7,7 @@
 | **Status** | Additive annex · source-reviewed working profile · not a product benchmark, certification or endorsement |
 | **Version · date** | v0.1 · 2026-09-17 |
 | **Owner corpus** | Ecosystem Awareness / 00F route |
+| **Technology evidence re-audit** | 2026-09-24 · rolling AWS service documentation frozen by access date below |
 | **Supersedes / superseded by** | — |
 
 > **Product-implementation annex; source-reviewed working profile, 17 September 2026.** This annex applies the frozen [00F smart-city mobility case and Q0–Q5 quality plan](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) to an AWS architecture using AWS IoT Core, AWS IoT TwinMaker, Amazon EventBridge and implementation-defined analytics/workflows. It compares a standard implementation, an excellent implementation and the excellent implementation after a gradual or initially unrecognised regime change. It is not a product benchmark, certification, endorsement or claim that AWS technology causes the failure.
@@ -202,13 +203,27 @@ The narrower finding is that a digital twin is only as current and sufficient as
 
 ## 13. Official technology sources reviewed
 
-- **[A1] AWS IoT TwinMaker overview, model, connectors, knowledge graph and safety boundary:** https://docs.aws.amazon.com/iot-twinmaker/latest/guide/what-is-twinmaker.html
-- **[A2] AWS IoT Core overview and supported device communication:** https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html
-- **[A3] AWS IoT Rules actions and error/monitoring route:** https://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html
-- **[A4] AWS IoT Device Shadows, consistency responsibility, versions and message ordering:** https://docs.aws.amazon.com/iot/latest/developerguide/iot-device-shadows.html
-- **[A5] Amazon EventBridge event buses and pipes:** https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html
+AWS service documentation is maintained as **rolling documentation** and the reviewed pages do not expose a stable service-release number or page revision date suitable for this profile. The evidence basis is therefore the named authoritative page plus an explicit **review/access cut-off of 24 September 2026**.
 
-**Source boundary:** the profile records documented capabilities and constraints at the review date. The smart-city design, EA semantics and gate implementation are proposed architecture, not advertised AWS product functionality. AWS services, regions, quotas, integrations and pricing change; a real assessment must verify the selected services, device and partner coverage, schemas, connectors, identity/policies, delivery semantics, model validity, operating authority and observed outcomes.
+| Ref | Authoritative source | Evidence basis used |
+|---|---|---|
+| **A1** | AWS IoT TwinMaker — *What is AWS IoT TwinMaker?* | Re-checked **24 Sep 2026**. Basis for operational-digital-twin scope, cross-source modelling/visualisation, and the explicit safety boundary: not intended for hazardous/critical-system operation and not a substitute for human safety monitoring. |
+| **A2** | AWS IoT Core — service overview | Re-checked **24 Sep 2026**. Basis for device connectivity and messaging claims. |
+| **A3** | AWS IoT Rules | Re-checked **24 Sep 2026**. Basis for filtering/routing/action and error-route claims. |
+| **A4** | AWS IoT Device Shadows | Re-checked **24 Sep 2026**. Basis for represented device state, desired/reported state, document versioning, application/device consistency responsibility and non-guaranteed message arrival order. |
+| **A5** | Amazon EventBridge — overview | Re-checked **24 Sep 2026**. Basis for event-bus routing/filtering/transformation claims. |
+
+**URLs**
+
+- **[A1]** https://docs.aws.amazon.com/iot-twinmaker/latest/guide/what-is-twinmaker.html
+- **[A2]** https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html
+- **[A3]** https://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html
+- **[A4]** https://docs.aws.amazon.com/iot/latest/developerguide/iot-device-shadows.html
+- **[A5]** https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-what-is.html
+
+**Safety-boundary rule for presentation:** the 00F AWS example must always describe TwinMaker as an **operational representation / analysis / decision-support substrate**, not as the safety authority or emergency actuator. AWS's own current service guide contains that boundary.
+
+**Source boundary:** because these are living service docs, **24 September 2026 is the evidence-access cut-off**. The smart-city design, EA semantics and gate implementation are proposed architecture, not advertised AWS product functionality. Later AWS service changes are not silently attributed to this v0.1 profile; a later presentation refresh should either re-audit the same pages or issue a successor profile.
 
 ## Editorial continuity note — source and scenario snapshot
 
