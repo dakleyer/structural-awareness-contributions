@@ -13,7 +13,7 @@
 
 > **Requirements vNext review is open — the frozen requirements themselves are unchanged.** The current cumulative working review is [**Requirements vNext Review & Delta v0.1 Draft**](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). It records post-freeze corpus evolution, including the two additional 00G/00H reference failure scenarios, and tests whether that material exposes a genuine requirement gap or only architecture/conformance/evidence deltas. Its current recommendation remains **not** to create S15+, T5+, H7+ or a new canonical KPI family. This document remains the frozen canonical Requirements until an explicit versioned successor is deliberately promoted.
 
-**Status:** public working research specification. It applies to a human-led process, conventional control system, agentic architecture or composed system, within its declared decision scope, authority, evidence boundary, response horizon and resource envelope.
+**Freeze status:** public frozen canonical requirements baseline for the current review cycle. It applies to a human-led process, conventional control system, agentic architecture or composed system, within its declared decision scope, authority, evidence boundary, response horizon and resource envelope. Post-freeze changes are reviewed through the linked vNext delta rather than inserted here.
 
 ## 1. Position in the EA corpus
 
