@@ -2,9 +2,9 @@
 
 **Status:** Working architecture / pre-standardization contribution  
 **Current canonical revision:** **v1.11 — 2026-09-24**  
-**Canonical editable artefact:** [Ecosystem_Positioning_Canonical.pptx](./Ecosystem_Positioning_Canonical.pptx)  
+**Canonical editable artefact:** [Google Drive canonical PPTX](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit)  
+**Repository PPTX mirror:** [Ecosystem_Positioning_Canonical.pptx](./Ecosystem_Positioning_Canonical.pptx) — binary mirror awaiting v1.11 sync  
 **Canonical reading snapshot:** [Ecosystem_Positioning_Canonical.pdf](./Ecosystem_Positioning_Canonical.pdf)  
-**Google Drive canonical PPTX:** https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit  
 **Google Drive reading snapshot:** https://drive.google.com/file/d/11Qg30zgwgpT4JE-rNIW69ikn5jOa4pYQ/view
 
 ## Purpose
