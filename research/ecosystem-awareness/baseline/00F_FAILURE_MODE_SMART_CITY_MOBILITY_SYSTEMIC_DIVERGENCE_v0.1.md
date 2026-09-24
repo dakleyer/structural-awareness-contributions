@@ -207,6 +207,8 @@ This document defines the technology-neutral case and quality plan. Product anne
 
 Neither annex may change the event, actors, deadlines, resources or outcome vector to favour a product or EA.
 
+**Technology-evidence freeze for presentation use:** the FIWARE/Orion-LD and AWS IoT TwinMaker/IoT Core annexes are dated design analyses, not rolling product descriptions. Their source bases were re-audited on **24 September 2026**. Each annex records the applicable standard/release date where one exists and otherwise the review/access date of the living vendor documentation. Presentation claims about a named technology should cite the annex's frozen source basis and must not infer later service capabilities into the 17 September fixture.
+
 **Status:** public working reference failure scenario and proposed test plan; not a real incident report, deployed city design, safety case, product comparison, adopted standard or validated proof of EA effectiveness.
 
 ## Editorial continuity note — bounded mobility scenario, not the whole mobility architecture
