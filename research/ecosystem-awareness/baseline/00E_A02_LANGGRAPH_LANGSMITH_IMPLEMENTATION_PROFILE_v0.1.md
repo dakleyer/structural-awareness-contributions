@@ -7,6 +7,7 @@
 | **Status** | Additive annex · source-reviewed working profile · not a product ranking, certification or endorsement |
 | **Version · date** | v0.1 · 2026-09-17 |
 | **Owner corpus** | Ecosystem Awareness / 00E route |
+| **Technology evidence re-audit** | 2026-09-24 · LangGraph release baseline and living-doc review dates pinned below |
 | **Supersedes / superseded by** | — |
 
 > **Product-implementation annex; source-reviewed working profile, 17 September 2026.** This annex applies the [00E quality plan](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) to LangGraph with LangSmith observability and evaluation. It compares a standard implementation, an excellent implementation and an excellent implementation under regime change. It is not a product ranking, certification, endorsement or claim that LangGraph causes the 00E failure.
@@ -160,13 +161,29 @@ The narrower finding is that excellent orchestration, persistence, traces and ev
 
 ## 12. Official product sources reviewed
 
-- **[L1] LangGraph overview:** https://docs.langchain.com/oss/python/langgraph/overview
-- **[L2] LangGraph persistence:** https://docs.langchain.com/oss/python/langgraph/persistence
-- **[L3] LangGraph interrupts:** https://docs.langchain.com/oss/python/langgraph/interrupts
-- **[L4] LangSmith observability:** https://docs.langchain.com/langsmith/observability
-- **[L5] LangSmith evaluation:** https://docs.langchain.com/langsmith/evaluation
+LangChain documentation is living documentation and the reviewed pages do not expose a stable page-level publication/revision date. This profile therefore pins **both an access/review date and a LangGraph runtime release baseline**.
 
-**Source boundary:** the profile records documented capabilities at the review date. Product behaviour, hosted services, integrations and evaluation features can change. A deployment assessment must verify its graph code, state schema, persistence, evaluator definitions, monitoring coverage, reviewer capacity and observed outcomes.
+**Runtime release baseline.** The original profile freeze is **17 September 2026**. The latest Python LangGraph release preceding that freeze was **LangGraph 1.2.11, released 11 August 2026**. LangGraph **1.2.12 was released 21 September 2026**, after the original profile freeze, and is **not retroactively included** in claims about the 17 September implementation. The source basis was re-checked on **24 September 2026**.
+
+| Ref | Authoritative source | Evidence basis used |
+|---|---|---|
+| **L0** | LangGraph GitHub releases | Release pin: **1.2.11 (11 Aug 2026)** for the original profile; later 1.2.12 (21 Sep 2026) excluded from the original freeze unless a successor profile adopts it. |
+| **L1** | LangGraph overview | Living docs, re-checked **24 Sep 2026**; basis for low-level orchestration/runtime, durable execution, streaming and HITL claims. |
+| **L2** | LangGraph persistence | Living docs, re-checked **24 Sep 2026**; basis for checkpointers/thread state and stores/application-defined durable data. |
+| **L3** | LangGraph interrupts | Living docs, re-checked **24 Sep 2026**; explicitly documents pausing, persisted state and waiting until resumed. |
+| **L4** | LangSmith observability | Living docs, re-checked **24 Sep 2026**; basis for traces, production metrics, dashboards, alerts, rules/webhooks and online evaluations. |
+| **L5** | LangSmith evaluation | Living docs, re-checked **24 Sep 2026**; basis for offline/online evaluation, human/code/LLM evaluators, automatic production evaluation and feedback loops. |
+
+**URLs**
+
+- **[L0]** https://github.com/langchain-ai/langgraph/releases
+- **[L1]** https://docs.langchain.com/oss/python/langgraph/overview
+- **[L2]** https://docs.langchain.com/oss/python/langgraph/persistence
+- **[L3]** https://docs.langchain.com/oss/python/langgraph/interrupts
+- **[L4]** https://docs.langchain.com/langsmith/observability
+- **[L5]** https://docs.langchain.com/langsmith/evaluation
+
+**Source boundary:** the product pages are dynamic, so **24 September 2026 is the evidence-access cut-off**, not a claim that the pages themselves were published on that date. The runtime comparison remains anchored to LangGraph 1.2.11 for the original 17 September profile. Later LangGraph/LangSmith capabilities, including anything added after the cut-off, require an explicit successor or source-basis refresh before they can support presentation claims.
 
 ## Editorial continuity note — source and scenario snapshot
 
