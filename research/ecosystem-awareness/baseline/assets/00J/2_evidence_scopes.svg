@@ -1,0 +1,32 @@
+<svg width="1200" height="640" viewBox="0 0 1200 640" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1200" height="640" fill="#F7F8FA"/>
+<text x="40" y="45" font-size="24" font-weight="bold" fill="#1F2C4A">Four different questions, four different evidence types</text>
+<text x="40" y="70" font-size="14" fill="#5D6572">A statement that is valid for one of these does not, by itself, answer any of the other three.</text>
+<g font-size="13">
+  <rect x="40" y="100" width="1120" height="110" rx="10" fill="#FFFFFF" stroke="#007B82" stroke-width="1.5"/>
+  <rect x="40" y="100" width="10" height="110" fill="#007B82"/>
+  <text x="70" y="128" font-weight="bold" fill="#007B82" font-size="15">GENERATION PROVENANCE</text>
+  <text x="70" y="152" fill="#1F2C4A">"System M1 generated artifact D1 at time t."</text>
+  <text x="70" y="175" fill="#5D6572">Answers: who/what produced this artifact, and when.</text>
+  <text x="70" y="196" fill="#B33A3A" font-weight="bold">Does NOT answer: whether D1 is independent of any source it drew on.</text>
+  <rect x="40" y="225" width="1120" height="110" rx="10" fill="#FFFFFF" stroke="#1F2C4A" stroke-width="1.5"/>
+  <rect x="40" y="225" width="10" height="110" fill="#1F2C4A"/>
+  <text x="70" y="253" font-weight="bold" fill="#1F2C4A" font-size="15">SOURCE PROVENANCE</text>
+  <text x="70" y="277" fill="#1F2C4A">"D1 materially depends on source work W."</text>
+  <text x="70" y="300" fill="#5D6572">Answers: what this artifact was derived from.</text>
+  <text x="70" y="321" fill="#B33A3A" font-weight="bold">Does NOT answer: who owns the rights in the result, or against whom.</text>
+  <rect x="40" y="350" width="1120" height="110" rx="10" fill="#FFFFFF" stroke="#C17629" stroke-width="1.5"/>
+  <rect x="40" y="350" width="10" height="110" fill="#C17629"/>
+  <text x="70" y="378" font-weight="bold" fill="#C17629" font-size="15">RIGHTS PROVENANCE</text>
+  <text x="70" y="402" fill="#1F2C4A">"X registered/licensed a claim RX over D1."</text>
+  <text x="70" y="425" fill="#5D6572">Answers: that X made an authentic record of its own claim.</text>
+  <text x="70" y="446" fill="#B33A3A" font-weight="bold">Does NOT answer: that X acquired every right needed to enforce it against A.</text>
+  <rect x="40" y="475" width="1120" height="110" rx="10" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.5"/>
+  <rect x="40" y="475" width="10" height="110" fill="#B33A3A"/>
+  <text x="70" y="503" font-weight="bold" fill="#B33A3A" font-size="15">EXECUTION / COMPLIANCE EVIDENCE</text>
+  <text x="70" y="527" fill="#1F2C4A">"A's use of W2 is / is not compliant with a specific condition."</text>
+  <text x="70" y="550" fill="#5D6572">Answers: whether one particular use matches one particular rule.</text>
+  <text x="70" y="571" fill="#B33A3A" font-weight="bold">Does NOT follow automatically from any of the three rows above.</text>
+</g>
+<rect x="40" y="600" width="1120" height="0" fill="none"/>
+</svg>
