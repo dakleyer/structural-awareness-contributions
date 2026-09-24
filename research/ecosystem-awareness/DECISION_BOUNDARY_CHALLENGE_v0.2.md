@@ -746,6 +746,7 @@ The first meaningful evidence step is a preregistered Phase-0 challenge-pack exe
 - [Ecosystem Awareness entry-point router](./README.md)
 - [Canonical EA benchmark v0.2](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md)
 - [Benchmark-vNext v0.3 draft — Ecosystem Positioning](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md)
+- [00G — Collective False-Context Convergence v0.3 Draft](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) — synthetic narrative / quality-gate reference for DBC-C04 hidden common dependency and DBC-C06 effective-role drift; not W3-admitted or executed
 - [00H — Batch Opportunity Beyond Authority / "The Quiet Four Thousand"](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.2_DRAFT.md) — synthetic DBC-C05 / C12 latest v0.2 Draft reference failure scenario and quality-gate plan; not yet an admitted executable fixture
 - [UC-EA-02 — native-semantic preservation / EHD validation](./baseline/UC-EA-02_v0.6_MAINTENANCE_FREEZE.md)
 - [04 — General Functional Interfaces & Agentic Security v0.5](./baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md)
