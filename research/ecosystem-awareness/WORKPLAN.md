@@ -91,7 +91,7 @@ After Track B defines what “strong enough”, “equal burden” and “simple
 
 - verify PA-1…PA-5/OR against primary literature;
 - verify B2 capabilities against dated primary vendor/standard sources;
-- integrate **C3 product-profile refresh into this same audit** for Microsoft Agent 365, LangGraph/LangSmith, FIWARE, AWS IoT/TwinMaker and the new OpenAI 00G agent-stack trajectory profile;
+- integrate **C3 product-profile refresh into this same audit** for Microsoft Agent 365, LangGraph/LangSmith, FIWARE, AWS IoT/TwinMaker, OpenAI 00G, Claude Agent SDK 00H and Stripe Radar/merchant-control 00H trajectories;
 - publish a dated **capability freeze** for every material B2/product capability used in a run.
 
 A later vendor/framework change does **not** invalidate a frozen run. It opens a new benchmark envelope/version.
@@ -162,6 +162,8 @@ Failure of the continuity gate blocks the arm from being interpreted on the corr
 **C12 — attractive inadmissible opportunity** remains a preferred paired fixture. The strong peer must have a legitimate **escalation/request path**; it cannot be artificially limited to EXECUTE-or-DROP. The comparison is whether EP improves preservation/routing of beneficial blocked opportunities, not whether only EP is permitted to ask an authority.
 
 **00H — Batch Opportunity Beyond Authority**: the latest working artefact is [v0.2 Draft](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.2_DRAFT.md). It preserves the v0.1 scenario while cleaning causal attribution: aggregate/campaign controls remain strong-peer capabilities; the EP-BH2 comparison starts only after Q0–Q2 establish the same material/reachable-but-not-authorized state. The draft also freezes `00H-MAT-1`, a 5+2 business-day authority path, non-material/own-grant-staleness/REJECT controls, absent-vs-bypass evidence states and gate×variant coverage. [`v0.1`](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.1.md) remains preserved. The scenario is **not W3-admitted**; admission still requires frozen executable fixtures, expected outcomes and DBC-R# mapping.
+
+**00H implementation trajectories / strong-peer attack:** [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) and [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) are the current unexecuted product-path drafts. Claude supplies the agent-runtime/pre-action-hook peer; Stripe supplies a genuinely different payment-risk/velocity peer, with the scientifically relevant strong comparator defined as **Radar + authoritative merchant pre-refund mandate/ledger control** rather than pretending Radar rules run on refund creation. Both are dated 24 Sep 2026 and remain subject to capability/source refresh before any run.
 
 **Route separation.** 00H is parallel to the FG-TIDA UC-6 → UC-4 route: 00H is an EA/DBC-owned synthetic C12/DBC-C05 scenario, while UC-6 → UC-4 is the current cross-Theme semantic-review and executable-profile path using externally owned FG-TIDA case facts. They may inform each other but are not sequential stages of one experiment.
 
