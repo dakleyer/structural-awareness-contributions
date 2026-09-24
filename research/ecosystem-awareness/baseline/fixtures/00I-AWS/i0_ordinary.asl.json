@@ -14,7 +14,7 @@
     },
     "WaitUntilT2": {
       "Type": "Wait",
-      "TimestampPath": "$.execute_at",
+      "TimestampPath": "$.qualification.Payload.execute_at",
       "Next": "ApplyQueuedChange"
     },
     "ApplyQueuedChange": {
