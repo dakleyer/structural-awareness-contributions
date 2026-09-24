@@ -41,6 +41,20 @@ Nothing needs to be hacked. Nothing needs to hallucinate. No token needs to be s
 
 The failure is not that the agent made a bad decision at 14:02. The failure is that **the system treats “correctly authorized when queued” as equivalent to “still justified when executed.”**
 
+### 1.1 Reality anchor — the company is fictional; the mechanism is not
+
+The exact Northwind timeline is synthetic so the fixture can be frozen and replayed, but the mechanism is deliberately assembled from **documented production behaviors and public incidents** rather than invented database magic:
+
+- MITRE maintains TOCTOU as CWE-367: a checked property can change before use and invalidate the check.
+- Amazon RDS explicitly supports deferred **pending modifications** that are applied later; applying a new modification immediately can also apply pending changes and AWS warns that this can create **unexpected downtime**.
+- RDS static parameter changes can remain **pending-reboot**, and rebooting a DB instance restarts the database engine and causes a service outage.
+- PostgreSQL explicitly serializes many incompatible schema operations with strong locks; therefore 00I does **not** depend on claiming simultaneous uncontrolled corruption. A stale operation can instead wait, obtain its turn later and apply a now-wrong state.
+- GitHub publicly documented a 2018 database incident in which automated Orchestrator actions **behaved as configured** while the resulting cross-region topology was unsupported by the application tier; a 43-second partition led to **24 hours and 11 minutes** of degraded service, divergent writes and lagging replicas showing inconsistent data.
+- GitLab publicly documented a 2017 PostgreSQL recovery sequence in which replication trouble led engineers to change `max_wal_senders`, restart PostgreSQL, discover interaction with the pre-existing `max_connections` setting and change configuration again during the incident. The later destructive deletion was human error and is **not** presented as 00I; the useful evidence is that recovery-time configuration/restart state is real, coupled and consequential.
+- Kubernetes provides a strong conventional countermeasure to one part of the same class: clients can bind an update to the current `resourceVersion`; a stale update is rejected with `409 Conflict`. This is important because it shows that Q6 is not an EP-only mechanism and gives A2 a fair way to defeat the fixture.
+
+The exact evidence boundaries and source URLs are retained in §16. These sources support **mechanism plausibility and consequence**, not the claim that any cited incident was exactly the Northwind sequence or that EA would have prevented it.
+
 ---
 
 ## 2. Initial legitimate frame
@@ -171,6 +185,16 @@ A stronger implementation re-queries `incident.status` immediately before execut
 
 A recheck exists, but reads a cache or replica whose own freshness is outside the fixture's bound. The existence of a function named `revalidate()` does not establish that the observed state is current enough to support actuation.
 
+### 6.5 First concrete implementation trajectory to test — ordinary workflow + managed database
+
+A deliberately ordinary first implementation can be built from **AWS Step Functions + an RDS modification task** without weakening either product:
+
+`qualify rollback → Wait until T2 → call database modification/reboot task`.
+
+Step Functions' documented `Wait` state delays the workflow and then proceeds to its configured next state. A `Task` state can then invoke a worker or AWS service integration. RDS separately supports deferred/pending modifications and later application. Nothing in that ordinary control flow automatically means that the incident state, change-freeze state, causal diagnosis and configuration generation captured at T1 are re-read and requalified at T2; those checks must be designed into the workflow or enforced by a conditional/version-bound target API.
+
+This makes the trajectory useful for A0/A1 because it can be **technically correct and operationally ordinary** while still exercising 00I. It is not a claim that Step Functions or RDS is defective. A strengthened A2 is allowed to add explicit pre-action reads, `Choice`/guard states, current-generation comparison, idempotency, conditional update/version checks, human change approval and any other materially relevant native/conventional controls. If that strengthened peer passes the fixture at equal or lower burden, it counts against the claimed EP differential.
+
 ---
 
 ## 7. Quality-plan fixture
@@ -234,6 +258,22 @@ However, Q6 exposes a useful editorial/operational clarification candidate:
 This can be satisfied by different architectures: version/ETag compare, generation number, lease, transactional/conditional write, lock, monotonic epoch, event-invalidated intent, or a sufficiently tight freshness bound. **The Requirements should not mandate one mechanism.**
 
 CAND-R4 is therefore proposed for the Requirements vNext review as a clarification of S10/S14/T4/H5/H6, not a new universal challenge.
+
+### 8.2 Quality-plan coverage audit — how much is actually new?
+
+The current seven-gate plan requires **zero new canonical requirement families**:
+
+| Quality-plan gate | Coverage finding | New requirement needed? |
+|---|---|---|
+| Q0 technical grant current | Directly covered by S1 / T2–T3 | **No** |
+| Q1 explicit decision basis | Covered by S10/S11/S14 / T1–T2–T4 | **No** |
+| Q2 time-of-use requalification | Directly covered by S3/S10/S14 / T1–T2–T4 | **No** |
+| Q3 authoritative freshness | Covered by S11/S14 plus T2/T4 provenance/freshness | **No** |
+| Q4 later intervention/supersession | Covered through S9/S10/S12/S13/S14 composition/history | **No** |
+| Q5 scoped bounded response | Directly covered by S3/S5/S10/S14 / T2–T4 | **No** |
+| Q6 recheck-to-act binding | Conceptually implied by current material-change/freshness/requalification semantics, but not stated with an explicit check→use binding sentence | **No new S/T/H; one clarification candidate (CAND-R4)** |
+
+So the result is **6/7 gates explicitly covered at requirement level and 7/7 directionally covered**. The only addition proposed by 00I is to make the final binding rule explicit enough to test deterministically. If a future review concludes that S10/S14/T4 already express Q6 without ambiguity, even CAND-R4 can remain only a fixture-level operationalization.
 
 ---
 
