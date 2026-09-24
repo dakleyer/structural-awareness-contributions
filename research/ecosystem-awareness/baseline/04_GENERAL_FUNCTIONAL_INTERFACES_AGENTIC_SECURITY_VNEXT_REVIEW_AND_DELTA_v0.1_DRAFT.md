@@ -15,7 +15,7 @@
 | **Current 04 baseline** | General Functional Interfaces & Agentic Security v0.5 Integrated |
 | **Historical controlled source** | 04 Functional Interfaces & Agentic Security v0.4 split source |
 | **Upstream control** | [00 Requirements frozen baseline](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) + [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
-| **Downstream consumers** | FG-TIDA 05 ideal mapping, 05A current-state bridge, validation/test profiles and later specification-preparation work |
+| **Downstream consumers** | Programme/domain-specific application mappings, validation/test profiles and later specification-preparation work |
 
 ---
 
@@ -23,7 +23,7 @@
 
 04 is the **programme-independent interface layer**. This delta therefore asks only whether post-baseline work requires a change to the generic EA interface architecture.
 
-It does **not** import FG-TIDA Theme numbers, Theme ownership or programme-specific mappings into 04. Those belong downstream in 05/05A.
+It does **not** import programme-specific identifiers, ownership structures or institutional mappings into 04. Those belong only in downstream application profiles.
 
 For each new development, the review asks:
 
@@ -217,7 +217,7 @@ Use DBC to expose missing or laundered boundaries in 04 implementations; do not 
 
 ## 6. Semantic/qualification validity window versus response window
 
-Two independent post-baseline routes make the same temporal distinction visible. Theme #13 work — especially the Operational Risk / Response Window / Epistemic Opportunity v0.2 discussion — separates qualification validity from response timing. Independently, [DBC-C02 — semantic TOCTOU](../DECISION_BOUNDARY_CHALLENGE_v0.2.md#5-challenge-pack-families) tests whether a result can remain technically available or syntactically valid while a material authority/evidence/context condition has become stale before use. Together they make two temporal concepts more explicit:
+Two independent post-baseline routes make the same temporal distinction visible. The Operational Risk / Response Window / Epistemic Opportunity v0.2 work separates qualification validity from response timing. Independently, [DBC-C02 — semantic TOCTOU](../DECISION_BOUNDARY_CHALLENGE_v0.2.md#5-challenge-pack-families) tests whether a result can remain technically available or syntactically valid while a material authority/evidence/context condition has become stale before use. Together they make two temporal concepts more explicit:
 
 1. **semantic / qualification validity window** — how long evidence, authority, delegation, policy, configuration and supporting assumptions remain applicable; and
 2. **operational response window** — how long remains to materially affect the outcome.
@@ -334,7 +334,7 @@ The post-baseline material reviewed through 24 September 2026 does **not** curre
 - O7;
 - IF-S14;
 - a seventh mandatory EHD kernel element;
-- a mandatory DBC/ACC/MSCA/FG-TIDA-specific vocabulary in the generic interface layer; or
+- a mandatory DBC/ACC/MSCA/programme-specific vocabulary in the generic interface layer; or
 - a new universal human-review or incident payload.
 
 The strongest likely 04-vNext changes are presently **clarifications and conditional profile refinements**:
