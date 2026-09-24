@@ -59,31 +59,22 @@ The work succeeds, is subsequently processed and summarized through third-party 
 <table>
 <tr>
 <td width="33%" valign="top">
-
-### Ecosystem Awareness
-**What can be relied on now?**  
-Decision-scoped qualification of what is established, unresolved, still obtainable and residual.
-
+<h3>Ecosystem Awareness</h3>
+<strong>What can be relied on now?</strong><br><br>
+Decision-scoped qualification of what is established, unresolved, still obtainable and residual.<br><br>
 <a href="../../research/ecosystem-awareness/README.md"><strong>Enter EA →</strong></a>
-
 </td>
 <td width="33%" valign="top">
-
-### Regime Awareness
-**Is the operating frame still valid?**  
-Detects material departure from the frame under which the current position was qualified.
-
+<h3>Regime Awareness</h3>
+<strong>Is the operating frame still valid?</strong><br><br>
+Detects material departure from the frame under which the current position was qualified.<br><br>
 <a href="../../research/regime-awareness/README.md"><strong>Enter Regime Awareness →</strong></a>
-
 </td>
 <td width="33%" valign="top">
-
-### MSCA
-**What control is sufficient now?**  
-Control sufficiency, Ecosystem Cartography and bounded repositioning under legitimate authority.
-
+<h3>MSCA</h3>
+<strong>What control is sufficient now?</strong><br><br>
+Control sufficiency, Ecosystem Cartography and bounded repositioning under legitimate authority.<br><br>
 <a href="../../standards/minimum-sufficient-control/README.md"><strong>Enter MSCA →</strong></a>
-
 </td>
 </tr>
 </table>
