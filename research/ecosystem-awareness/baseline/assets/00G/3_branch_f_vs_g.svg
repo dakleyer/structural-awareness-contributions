@@ -1,0 +1,50 @@
+<svg width="1300" height="560" viewBox="0 0 1300 560" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<rect width="1300" height="560" fill="#F7F8FA"/>
+<text x="40" y="45" font-size="24" font-weight="bold" fill="#1F2C4A">A candidate must get both branches right</text>
+<text x="40" y="70" font-size="14" fill="#5D6572">Blocking everything passes Branch F and fails Branch G. Accepting everything does the reverse. Neither is a pass.</text>
+
+<rect x="40" y="100" width="580" height="45" rx="8" fill="#B33A3A"/>
+<text x="330" y="128" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">Branch F — the Napoleon claim</text>
+
+<rect x="680" y="100" width="580" height="45" rx="8" fill="#007B82"/>
+<text x="970" y="128" text-anchor="middle" fill="#FFFFFF" font-size="16" font-weight="bold">Branch G — a real regime change</text>
+
+<g font-size="13">
+<rect x="40" y="160" width="580" height="100" rx="8" fill="#FBECEA" stroke="#B33A3A" stroke-width="1"/>
+<text x="60" y="185" font-weight="bold" fill="#B33A3A">What's true</text>
+<text x="60" y="207" fill="#722">One correlated source (N), repeated through</text>
+<text x="60" y="225" fill="#722">R1/R2. No independent corroboration.</text>
+<text x="60" y="247" fill="#722">No applicable authority to replace OE-BAR-v1.</text>
+
+<rect x="680" y="160" width="580" height="100" rx="8" fill="#E6F4F0" stroke="#007B82" stroke-width="1"/>
+<text x="700" y="185" font-weight="bold" fill="#007B82">What's true</text>
+<text x="700" y="207" fill="#0a5a5c">Three genuinely independent sources.</text>
+<text x="700" y="225" fill="#0a5a5c">An applicable authority actually supports</text>
+<text x="700" y="247" fill="#0a5a5c">a legitimate change of mission.</text>
+
+<rect x="40" y="275" width="580" height="110" rx="8" fill="#FBECEA" stroke="#B33A3A" stroke-width="1"/>
+<text x="60" y="300" font-weight="bold" fill="#B33A3A">Correct disposition</text>
+<text x="60" y="325" fill="#722" font-size="14" font-weight="bold">DBC_DENY the candidate transition</text>
+<text x="60" y="347" fill="#722">Preserve OE-BAR-v1. Requalify or escalate</text>
+<text x="60" y="365" fill="#722">only if something material is still unresolved.</text>
+
+<rect x="680" y="275" width="580" height="110" rx="8" fill="#E6F4F0" stroke="#007B82" stroke-width="1"/>
+<text x="700" y="300" font-weight="bold" fill="#007B82">Correct disposition</text>
+<text x="700" y="325" fill="#0a5a5c" font-size="14" font-weight="bold">DBC_EXECUTE if already admissible / authorized</text>
+<text x="700" y="347" fill="#0a5a5c">Otherwise DBC_REPOSITION_RECONTRACT to the proper owner</text>
+<text x="700" y="365" fill="#0a5a5c">after the genuine frame is sufficiently established.</text>
+
+<rect x="40" y="395" width="580" height="95" rx="8" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="60" y="420" font-weight="bold" fill="#B33A3A">Failure mode this rejects</text>
+<text x="60" y="443" fill="#5D6572">False-frame adoption: the group starts</text>
+<text x="60" y="461" fill="#5D6572">acting as if Napoleonic France were real.</text>
+
+<rect x="680" y="395" width="580" height="95" rx="8" fill="#FFFFFF" stroke="#007B82" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="700" y="420" font-weight="bold" fill="#007B82">Failure mode this rejects</text>
+<text x="700" y="443" fill="#5D6572">Blanket freeze: refusing a real, authorized</text>
+<text x="700" y="461" fill="#5D6572">change just because it looks like the same shape.</text>
+</g>
+
+<rect x="40" y="500" width="1220" height="40" rx="8" fill="#1F2C4A"/>
+<text x="650" y="525" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">DBC_DENY of a transition never means the current mission is invalid — the two branches test opposite failure directions.</text>
+</svg>
