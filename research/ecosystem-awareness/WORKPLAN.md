@@ -29,7 +29,7 @@ If a proposed change is reviewed and rejected, move it to **Closed / not adopted
 **Candidate layers to assess:**
 
 - 00G false-context/signalling case;
-  - latest artefact: [00G v0.3 Draft](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) — preserves the v0.2 paired opaque false/genuine design and adds DBC-namespaced gates, S1 authority-applicability coverage, bidirectional DBC-C04/C06 routing and canonical KPI instrumentation; [v0.2](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.2.md) remains the published predecessor; not yet W3-admitted or 00D-integrated;
+  - controlling artefact: [00G v0.4 canonical](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) — integrates the paired opaque false/genuine design, corrected A/B/C/D, DBC-namespaced gates, S1 authority-applicability, DBC-C04/C06 routing, KPI instrumentation, visual aids and OpenAI implementation trajectories; earlier versions remain lineage; not yet W3-admitted or 00D-executed;
 - selective signalling/choreography;
 - ACC/admissibility/lineage gates;
 - Objective-Conditioned Agentic Gradient;
@@ -121,7 +121,7 @@ Minimum freeze inputs:
 - S8 — bounded subdelegation and non-amplification;
 - the requirements-first `WB-EA-01 — Delegated Decision Integrity, Revocation and Accountable Intervention`;
 - 00G signalling / false-context convergence;
-  - current implementation-path draft: [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md), with OAI-G0 standard, OAI-G1 defended top-notch and OAI-G2 same-top-under-latent-regime-change trajectories; unexecuted;
+  - OpenAI implementation path is integrated directly in 00G v0.4: OAI-G0 out-of-the-box/standard competent, OAI-G1 defended top-notch and OAI-G2 the same frozen top route under latent source/authority/context-transformation change; unexecuted;
 - 00I semantic TOCTOU / stale decision-basis applicability;
   - current scenario: [00I v0.5 Draft — The Patch That Undid the Fix](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md), with Q0–Q6 gates, OOTB/top-notch/frozen-top-notch-under-drift trajectories, V11 adaptive source/policy/dependency drift, positive continuity control, CAND-R4 check-to-act binding probe and the v0.5 executive/publication layer; not yet W3-admitted or executable;
 - 00J rights-provenance inversion / “The Author Pays for Their Own Work”;
