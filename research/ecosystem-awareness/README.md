@@ -75,7 +75,7 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 - [00E — 100 Million Tokens / compounding context failure](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)
 - [00F — smart-city mobility systemic divergence](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md)
 - [00G — collective false-context convergence / "Bar-to-Napoleon" cascade](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) — latest working draft; v0.3 retains the paired opaque false/genuine control and adds DBC-namespaced gate dispositions, S1 authority-applicability coverage and fully instrumented KPI rates; v0.2 remains preserved; 00D/W3 admission remains pending.
-- [00H — batch opportunity beyond authority / "The Quiet Four Thousand"](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.4_DRAFT.md) — latest working draft for C12 / DBC-C05; preserves the base and V14–V18 strong-peer stress, then adds V19/V20 adaptive delegation / authority-laundering: locally valid leaf grants can compose into one root-unauthorized campaign. U/G/I paired controls and S8 non-amplification/root-lineage gates prevent trivial deny-all or aggregate-everything solutions; not yet W3-admitted.
+- [00H — batch opportunity beyond authority / "The Quiet Four Thousand"](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.4_DRAFT.md) — **"The Campaign Nobody Approved."** A compromised case-routing coordinator cannot authorize a 4,000-customer remediation campaign, but it can legitimately route/delegate individual cases. Claude/merchant controls can therefore see valid workers, valid assigned cases and valid leaf grants while Stripe/Radar remains correctly green on payment risk. The failure is only visible if the system reconstructs the common root/delegation lineage and detects that no authority covers the composed campaign. U/G/I controls require: block unauthorized common root, allow authorized common root, keep genuinely independent cases independent. Not yet W3-admitted.
 - [00I — semantic TOCTOU / "The Patch That Undid the Fix"](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.2_DRAFT.md) — latest working draft for DBC-C02; a previously correct queued database remediation remains technically authorized after a later fix/freeze changes the decision basis. Q0–Q6 distinguish technical validity, explicit decision basis, time-of-use requalification, authoritative freshness, intervening state/version change, bounded response and check-to-act binding. The scenario maps the core failure to existing S1/S3/S10/S14 → T1–T4 → H2/H5/H6, records CAND-R4 as a clarification candidate rather than a new requirement, and includes public database/cloud corroboration; not yet W3-admitted or executed.
 - [00J — rights-provenance inversion / "The Author Pays for Their Own Work"](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) — a valid generation/provenance record is allowed to propagate into an unsupported downstream rights claim. Q0–Q5 is derived directly from the frozen S1–S14/T1–T4/H1–H6/KPI route and separates a deliberately misimplemented failure route from a requirements-conforming route; current design review finds no new universal gate or S/T/H family necessary; not yet W3-admitted or executed.
 - [00D-A01 — bounded reference-oracle and test construction](./baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
@@ -83,6 +83,22 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 - [RS-00E-Q1a fixture and pre-registration](./baseline/fixtures/RS-00E-Q1a/README.md)
 
 **Current benchmark status:** comparison contract defined · hypotheses and falsifiers defined · scenarios documented · implementation profiles analysed · fixture and harness designed · pre-registration published · **comparative execution pending** · **independent validation pending**.
+
+#### 00H in 30 seconds — The Campaign Nobody Approved
+
+**Compromised component:** a case-routing/coordinator role, not Stripe, Radar, Claude, the refund API or the grant store.
+
+**What the attacker legitimately has:** access to the 4,000-customer finding plus permission to route, assign and delegate ordinary individual cases.
+
+**What the attacker does not have:** population-wide refund authority, grant-forging capability, control over Radar/Claude hooks, hidden thresholds or audit-log write access.
+
+**Why the strong controls can still look green:** each downstream worker can receive a real case assignment and a real case-local grant. Claude can correctly authorize each leaf call; Stripe/Radar can correctly see legitimate underlying payments; merchant per-agent ledgers can also be correct.
+
+**What is wrong:** the 4,000 locally valid leaves share one campaign/root decision that nobody authorized.
+
+> **Leaf-valid does not mean root-authorized.**
+
+The quality-plan test is therefore not "can we detect a lot of refunds?" It is "can we reconstruct whether these locally valid actions belong to one authority-bearing campaign, and can we prove that the root authority covers the composed effect?"
 
 ### Benchmark status dashboard
 
