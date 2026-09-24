@@ -2,21 +2,7 @@
 
 > **You are here:** [Structural Awareness Programme](../../README.md) → **Architectural Contributions / pre-standardization** → **Ecosystem Positioning**
 
-This README is the **human entry point and reading map for the complete Ecosystem Positioning corpus**. It explains why the architecture exists, how the principal pieces fit together, what is already specified, and where to go for the technical detail.
-
-The PowerPoint remains the visual companion. The three Level-3 corpora — **Ecosystem Awareness, Regime Awareness and Minimum Sufficient Control Architecture (MSCA)** — remain the semantic owners of their detailed mechanisms. This page does not replace them; it makes the whole system intelligible before the reader enters them.
-
-## Canonical presentation
-
-### ⬇️ [Download the canonical PowerPoint (.pptx)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
-
-### 📄 [Open the canonical PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf)
-
-[Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md)
-
-[Visual guide to the wider corpus](../../research/ecosystem-awareness/VISUAL_GUIDE.md)
-
-The deck is a **working proposal**, not an adopted standard. Git history provides its version lineage.
+**Level-2 entry point:** [PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) · [PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) · [presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) · [visual guide](../../research/ecosystem-awareness/VISUAL_GUIDE.md). Detailed mechanisms remain in [Ecosystem Awareness](../../research/ecosystem-awareness/README.md), [Regime Awareness](../../research/regime-awareness/README.md) and [MSCA](../../standards/minimum-sufficient-control/README.md). **Working proposal; not an adopted standard.**
 
 ---
 
@@ -141,13 +127,11 @@ Together they provide the conceptual basis for the rest of the corpus. They are 
 
 ## 2. The central document — Canonical Requirements
 
-As explained above in [**Requirements — replaying the failure scenarios as tests**](#requirements--replaying-the-failure-scenarios-as-tests), the [**00 — Canonical Requirements**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) document is the central normative test contract. This section only keeps the corpus route visible and does not repeat that explanation.
-
-[Requirements-vNext review](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) records whether later Ecosystem Positioning mechanisms require an explicit versioned change to that requirements basis.
+Already explained above in [**Requirements — replaying the failure scenarios as tests**](#requirements--replaying-the-failure-scenarios-as-tests): [**00 — Canonical Requirements**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [Requirements-vNext review](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
 
 ## 3. Requirements coverage — where each scenario and use case tests the requirements
 
-The [**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) was also introduced above as the requirements-first map across scenarios, use cases, fixtures, execution status and gaps. It remains here as the navigation point rather than a second explanation of the same validation route.
+Already explained above in [**Requirements — replaying the failure scenarios as tests**](#requirements--replaying-the-failure-scenarios-as-tests): [**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md).
 
 ---
 
@@ -292,6 +276,8 @@ All arms receive the same frozen facts, evidence access, authority, compute/toke
 The benchmark therefore measures whether the architecture improves the declared **outcome–burden–accountability frontier**. It is not a vendor league table.
 
 [**00D v0.3 Draft — Ecosystem Positioning Benchmark vNext**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) extends the design from EA alone to the complete composition: signalling, Cartography, Regime Awareness, MSCA, effective-role drift, Gradient, ACC/authority and repositioning. It introduces module attribution, later positioning branches, choreography/partition tests and complexity/accountability measures.
+
+[**Decision Boundary Challenge v0.2 — public ranking-by-evidence / applied validation**](../../research/ecosystem-awareness/DECISION_BOUNDARY_CHALLENGE_v0.2.md) is the separate cross-platform review and public ranking route: hard admission gates, outcome–burden–accountability/Pareto comparison, and the DBC-EL0 → DBC-EL5 evidence-maturity ladder. It does not replace either 00D benchmark.
 
 **v0.2 remains canonical. v0.3 remains a bounded design draft until its adoption gates close.**
 
