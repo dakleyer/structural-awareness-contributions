@@ -1,0 +1,483 @@
+# 00J-A01 — Panodyssey Notice / TEMS Rights-Portability Implementation Trajectory
+
+| | |
+|---|---|
+| **ID** | 00J-A01 |
+| **Type** | Product / interoperability implementation-trajectory profile |
+| **Status** | Source-reviewed working draft · unexecuted · not W3-admitted · not a product benchmark or failure claim |
+| **Version · date** | v0.1 Draft · 2026-09-24 |
+| **Evidence freeze** | 2026-09-24 |
+| **Parent scenario** | [00J — Rights-Provenance Inversion](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
+| **Primary implementation reference** | Panodyssey AI Transparency Notice / publisher-side rights stack |
+| **Interoperability reference** | TEMS Trial 7 — rights portability across systems |
+| **Public FG-TIDA reference** | Theme #17 — Digital Rights Infrastructure for Text |
+
+> **Unexecuted implementation-path analysis.** This profile asks how a standard competent Panodyssey-side implementation, a defended top implementation extended through the agent/interoperability boundary, and that exact frozen top implementation under a latent downstream rights-resolution regime change interact with 00J Q0–Q5. It does **not** report that Panodyssey, TEMS, ODRL or any named AI/right-management system fails 00J.
+
+---
+
+## 1. Why Panodyssey/TEMS is the first implementation trajectory
+
+Panodyssey is unusually well suited to 00J because the public FG-TIDA Theme #17 case already describes a strong publisher-side production chain rather than a hypothetical minimum implementation.
+
+The Theme #17 contribution states that Panodyssey operates five publisher-side layers:
+
+1. domain-level AI governance/access rules;
+2. machine-readable discovery per publication;
+3. structured rights declaration per work using ODRL/JSON-LD and distinguishing indexing, RAG and training;
+4. auditable timestamped history of rights declarations; and
+5. certified author/rightsholder identity.
+
+The same contribution states the boundary clearly: the publisher-side chain can be correct while the **agent-side verifiable identity/representation counterpart is missing**. It also identifies interoperability beyond Panodyssey as a separate layer.
+
+TEMS Trial 7 is a particularly relevant external boundary because it is explicitly about written-work interoperability and rights portability across systems. TEMS' public material notes that origin, authorship and conditions-of-use information can be lost as content moves across platforms and infrastructures.
+
+That combination makes Panodyssey/TEMS stronger for 00J than a generic rights database:
+
+- the source-side rights state is real and comparatively rich;
+- the cross-system boundary is real;
+- the missing/variable agent-side and downstream semantics are explicit;
+- and the profile can fairly ask whether a strong rights stack remains sufficient when the **decision proposition itself changes downstream**.
+
+The profile therefore does **not** treat Panodyssey as the weak baseline. It starts from a competent production-oriented source-side system.
+
+---
+
+## 2. Public source boundary
+
+### P1 — FG-TIDA Theme #17
+
+https://github.com/FG-TIDA/themes/issues/17
+
+Used for:
+
+- five production publisher-side layers;
+- indexing/RAG/training distinction;
+- timestamped rights-declaration history;
+- certified author identity;
+- explicit statement that the chain stops at the agent-side identity/legal-representation boundary;
+- proposed evidence/rejection classes such as current, replayed, expired, malformed and signed-but-out-of-mandate.
+
+### P2 — Panodyssey AI Transparency Notice launch
+
+https://www.panodyssey.com/en/article/technology/press-release-panodyssey-launches-the-ai-transparency-notice-tpbhc7snppcb
+
+Used for:
+
+- Panodyssey Security / AI Transparency Notice as a public source-side content-origin, traceability and AI-use-control mechanism;
+- CREA Trust AI context.
+
+### P3 — Panodyssey Notice V2.1 public update
+
+https://www.panodyssey.com/fr/article/technologie/nouvelle-version-de-la-notice-ia-panodyssey-celle-qui-vous-dit-toujours-la-verite-dekmf956we6w
+
+Used only for:
+
+- public evidence that Panodyssey continued versioning the Notice;
+- the statement that V2.1 corrected inconsistencies in AI-readable signals in code/meta tags.
+
+It is **not** used as evidence that V2.1 or Panodyssey causes 00J.
+
+### P4 — Panodyssey licensing / certified human content description
+
+https://www.panodyssey.com/en/article/technology/panodyssey-offers-ai-companies-licensed-access-to-certified-human-content-the-author-decides-publication-by-publication-ai-by-ai-wd7wg7c36e67
+
+Used for:
+
+- publication-by-publication / AI-by-AI control framing;
+- RAG/inference licensing as a distinct use;
+- certified/timestamped/attributed content;
+- stated TEMS rights-portability context.
+
+### P5 — TEMS Trial 7
+
+https://tems-dataspace.eu/trials/
+https://tems-dataspace.eu/news/
+
+Used for:
+
+- interoperability/connectors for written works;
+- rights portability across systems;
+- public statement that origin/authorship/conditions-of-use information can be lost across platforms/infrastructures.
+
+### P6 — W3C ODRL
+
+https://www.w3.org/TR/odrl-model/
+
+Used for:
+
+- scope-specific permissions/prohibitions/duties/parties/assets/constraints;
+- distinction between an expressed permission and generic downstream authority.
+
+### P7 — C2PA provenance boundary
+
+https://c2pa.org/specifications/specifications/2.2/explainer/Explainer.html
+
+Used only as an external technical comparator for the proposition that provenance may be incomplete and that verifiable provenance does not automatically settle a stronger truth/rights proposition.
+
+---
+
+## 3. Three implementation arms
+
+The three arms intentionally mirror the existing 00E/00H implementation-profile discipline.
+
+| Arm | Configuration | Purpose |
+|---|---|---|
+| **PANO-H0 — standard competent source-side implementation** | Current publicly described publisher-side Panodyssey/Notice capabilities: certified author identity, per-publication machine-readable rights, ODRL/JSON-LD-style rights state, timestamps/history, domain/discovery signals, ordinary cross-system publication/export | Establish what a real strong publisher-side implementation already prevents without pretending it controls the entire downstream ecosystem |
+| **PANO-H1 — defended top interoperability implementation** | H0 plus verifiable agent principal/representation, current mandate/purpose/scope, signed access/right-decision receipt, versioned source/right identifiers across TEMS-style handoff, explicit claim-supported-proposition, source/dependency lineage, expiry/revocation and bounded challenge/re-entry | Give the strongest reasonable peer the controls needed to attack 00J directly |
+| **PANO-H2 — same frozen top implementation under latent downstream rights-resolution regime change** | Freeze H1 code/resources/interfaces. Then change the downstream decision domain from **access/use authorization of W** to **derivative-rights/licensing enforcement over D1/W2**, introduce a new or changed downstream resolver/registry that accepts authentic D1/RX records but does not consume or require the source/dependency relation needed for the stronger proposition | Test whether the excellent implementation requalifies the decision basis and interface semantics, or continues to treat locally valid records as sufficient after the ecosystem's decision meaning has changed |
+
+A future EA-enabled arm is admitted only if H1/H2 leave a measurable differential. H1 is allowed to be strengthened before fixture freeze by a competent defender. No post-result patching is permitted.
+
+---
+
+## 4. PANO-H0 — standard competent source-side route
+
+### 4.1 What H0 legitimately does well
+
+A competent Panodyssey-side implementation can establish a strong Q0 source frame:
+
+- verified/certified author identity;
+- publication/content identifier;
+- machine-readable rights declaration;
+- use distinctions such as indexing/RAG/training;
+- timestamped/versioned changes;
+- auditable history;
+- domain/discovery signals;
+- a route toward licensing for declared uses.
+
+This materially reduces trivial 00J failures.
+
+### 4.2 What remains outside H0's guaranteed boundary
+
+H0 does not, by the public Theme #17 case itself, establish:
+
+- a universally verifiable agent-side legal identity;
+- the agent's current principal/mandate/purpose in every downstream system;
+- proof of actual downstream execution/compliance;
+- complete source/dependency lineage after transformation outside the publisher's boundary;
+- how an independent downstream registry composes a new D1/RX claim with A/W/R0;
+- which proposition a future third-party enforcement system is entitled to infer from G1/RX.
+
+Therefore H0 can be entirely healthy while Q2–Q5 remain underdetermined downstream.
+
+### 4.3 H0 gate reading
+
+| 00J gate | H0 strength | Remaining boundary |
+|---|---|---|
+| **Q0 original rights frame** | Strong | source state can be well qualified |
+| **Q1 access/use authority** | Strong on publisher-side policy; weak/variable on agent principal/mandate | identity/access signal may not equal current legal representation/mandate |
+| **Q2 transformation/source dependency** | Outside source platform once downstream transformation occurs | W→D1 may be lost or not represented |
+| **Q3 downstream claim** | Outside H0 control | RX can be locally authentic without a complete upstream authority chain |
+| **Q4 propagation/corroboration** | Outside H0 control | replicated RX may appear independent |
+| **Q5 enforcement** | Outside H0 control | final rights checker may consume a stronger proposition than H0 ever issued |
+
+An H0 failure here is not evidence that Panodyssey is defective. It is evidence that a strong source-side rights system is not automatically a whole-ecosystem rights-adjudication system.
+
+---
+
+## 5. PANO-H1 — defended top interoperability implementation
+
+PANO-H1 is **not claimed to be the current Panodyssey product**. It is the strongest reasonable implementation a competent defender can build using Panodyssey/TEMS as the source/interoperability substrate.
+
+### 5.1 Additional H1 controls
+
+For each material access/handoff, H1 binds:
+
+- work identifier;
+- source-rights-record identifier;
+- source-rights version;
+- rights-holder/principal;
+- agent-instance identity;
+- agent operator/provider;
+- represented principal;
+- mandate/reference;
+- requested use;
+- purpose;
+- scope;
+- jurisdiction/territory where material;
+- expiry/revalidation;
+- downstream-use conditions;
+- claim-supported proposition;
+- source dependency;
+- decision-receipt identifier;
+- decision owner;
+- challenge/re-entry route.
+
+The signed receipt says what was decided. It does not assert future behavior beyond the evidence available.
+
+### 5.2 H1 gate behavior
+
+| Gate | H1 expected behavior |
+|---|---|
+| **Q0** | Preserve A/W/R0 identity, version, policy scope and currentness |
+| **Q1** | Bind access to verifiable agent/principal/mandate/use rather than technical identity alone |
+| **Q2** | Carry W→D1 dependency where known; otherwise preserve explicit UNKNOWN; keep generated-by separate from independent-source |
+| **Q3** | Accept RX only as a bounded downstream claim until authority/source relation for the final proposition is established |
+| **Q4** | Preserve registry/source dependencies and deduplicate dependent copies |
+| **Q5** | Enforce only where current evidence/authority supports the exact licensing/blocking proposition |
+
+### 5.3 Expected H1 result on original regime
+
+H1 should pass:
+
+- valid continuity;
+- permitted RAG;
+- explicit training prohibition;
+- current agent mandate;
+- legitimate transfer to X;
+- independent-work control;
+- correlated-copy control;
+- unknown downstream-use control;
+- stale/revoked-record revalidation.
+
+If H1 cannot pass these under the original regime, the failure is ordinary missing control engineering and cannot be attributed to a latent EA differential.
+
+---
+
+## 6. PANO-H2 — same top implementation under regime change
+
+This is the decisive trajectory.
+
+### 6.1 Freeze H1 first
+
+Before H2:
+
+- freeze H1 code;
+- freeze H1 schemas and interface contracts;
+- freeze resources, human capacity and deadlines;
+- freeze the positive-control results;
+- freeze the source/rights records and normal access-time decision semantics.
+
+H2 is not allowed to add a new field after observing the failure.
+
+### 6.2 Latent regime shift
+
+Under H1's original operating regime, the key decision is:
+
+> **May agent C1 access/use work W for purpose P under current rights record R0?**
+
+The H1 receipt and interface are designed around that proposition.
+
+The regime then changes downstream.
+
+A new/changed rights-resolution context begins making a materially different decision:
+
+> **May downstream claimant X assert a licensing/blocking/payment claim against A for A's later use of W/W2 because D1/RX exists?**
+
+At the same time:
+
+- D1 is accepted as a first-class rights/licensing object by a downstream registry or resolver;
+- G1/RX remain technically valid and correctly signed;
+- the downstream resolver consumes D1/RX but no longer requires, understands or retrieves the W→D1 source-dependency relation with the same semantics;
+- several services replicate RX;
+- no revocation or security alarm necessarily fires;
+- A/W/R0 remains valid upstream;
+- H1's original access-time controls can remain green.
+
+Nothing requires a forged credential.
+
+The **mapping from available evidence to the justified decision has changed**.
+
+### 6.3 Why this is a regime change rather than an ordinary bug
+
+H2 does not merely delete a field.
+
+The system has moved from one decision domain to another:
+
+**access authorization for W → downstream derivative-rights enforcement against A.**
+
+A record sufficient for the first decision may be insufficient for the second even though:
+
+- identities are valid;
+- signatures validate;
+- receipts are present;
+- R0 is current;
+- G1 is current;
+- RX is current;
+- network/security health is green.
+
+A fixed H1 implementation can therefore execute exactly as designed against a **decision proposition it was not designed to qualify**.
+
+### 6.4 Expected H2 failure without dynamic requalification
+
+| Gate | What remains locally healthy | What changed outside H1's original decision model | Failure mode |
+|---|---|---|---|
+| **Q0** | A/W/R0 current | final decision now concerns X's authority against A, not only W access | original Q0 frame is necessary but no longer sufficient |
+| **Q1** | C1 access/mandate receipt valid | access authorization is mistaken for downstream rights provenance | old permit semantics overextended |
+| **Q2** | G1 authentic | downstream resolver treats generated-by as a root/source fact because W→D1 is outside its consumed schema | evidence-scope promotion |
+| **Q3** | RX authentic/current | registry membership/recency becomes de facto rights precedence | unsupported authority promotion |
+| **Q4** | replicated records consistent | consistency derives from one lineage, not independent sources | false corroboration |
+| **Q5** | rights checker receives multiple valid records | decision proposition is stronger than the evidence contract H1 qualified | author can be asked to pay/block despite all local green signals |
+
+This is the 00J analogue of the LangGraph/Agent-365 result:
+
+> an excellent implementation may be operationally correct and reproducible while the **validity of the representation for the current decision** has changed.
+
+---
+
+## 7. What H2 must do to pass
+
+A passing H2 does not need omniscience.
+
+It must detect that the final decision depends on a proposition not established by the current evidence contract and then:
+
+1. reopen the material source/dependency/authority boundary;
+2. preserve R0 and RX as distinct records;
+3. identify that G1/RX supports a narrower proposition than the requested enforcement decision;
+4. avoid counting dependent replicas as independent corroboration;
+5. request only the missing authority/source relation or route to the legitimate owner;
+6. remain inside the response horizon;
+7. allow legitimate-transfer controls to pass;
+8. avoid universal denial.
+
+Expected disposition in the negative branch:
+
+**REQUALIFY, bounded HOLD, legitimate ESCALATE, or NO CONCLUSION.**
+
+Not:
+
+**PAY_X, LICENSE_REQUIRED_FROM_X or BLOCK_FOR_X.**
+
+---
+
+## 8. Matched stress tests
+
+### Test A — normal source continuity
+
+No downstream claim conflict. H0/H1/H2 should preserve normal publication/use without unnecessary blocking.
+
+### Test B — agent identity/mandate
+
+Authenticated agent, valid bounded RAG mandate.
+
+H1/H2 should allow the declared use and preserve purpose/scope.
+
+### Test C — legitimate transfer
+
+A grants X the relevant right.
+
+H1/H2 must recognize the qualified X claim. Deny-all fails.
+
+### Test D — source-dependency preservation
+
+D1 materially depends on W.
+
+H1 should preserve the dependency under the original interface.
+
+### Test E — correlated replication
+
+K1–K4 ingest RX.
+
+H1/H2 must not treat multiplicity as source independence.
+
+### Test F — latent rights-resolution regime shift
+
+Freeze H1 after A–E pass. Change the downstream decision from access authorization to derivative-rights enforcement and introduce the changed resolver semantics described in §6.
+
+Passing requires requalification of the **decision proposition and evidence contract**, not merely revalidation of signatures.
+
+### Test G — strengthened conventional falsifier
+
+Before fixture freeze, a defender may strengthen H1 with:
+
+- mandatory upstream dependency retrieval for every derivative-rights decision;
+- explicit evidence-purpose contracts;
+- current authority lineage;
+- dependency-aware registry resolution;
+- action-time source/rights revalidation.
+
+If strengthened H1 passes Test F at equal or lower burden, the proposed EA differential is narrowed or eliminated for this envelope.
+
+---
+
+## 9. Q0–Q5 implementation matrix
+
+| Gate | PANO-H0 | PANO-H1 | PANO-H2 stress |
+|---|---|---|---|
+| **Q0 source/right frame** | strong publisher-side record | source/version/owner/currentness bound to receipt | old frame remains valid but may no longer cover new final proposition |
+| **Q1 access authority** | rights signal; agent-side representation gap remains | verifiable agent/principal/mandate/use | old access grant remains technically valid and can be over-promoted downstream |
+| **Q2 transformation/source dependency** | outside publisher boundary after transformation | explicit source-dependency / UNKNOWN | new resolver does not consume the dependency semantics required for derivative enforcement |
+| **Q3 downstream claim** | outside source platform | bounded RX claim with authority/source checks | registry semantics shift toward latest/locally valid D1/RX claim unless decision is requalified |
+| **Q4 propagation** | no whole-ecosystem correlation guarantee | dependency-aware replication | multiple consistent copies can still share one unsupported source |
+| **Q5 enforcement** | external | proposition-specific evidence/authority check | new proposition can outrun H1's original evidence contract unless gate reopens |
+
+---
+
+## 10. Measures
+
+Use the parent 00J measures plus:
+
+- **decision-proposition drift detection** — H2 runs where the final requested proposition differs materially from the proposition covered by the current evidence contract and is exposed before enforcement ÷ applicable H2 runs;
+- **evidence-contract mismatch rate** — final decisions consuming records outside their declared supported proposition ÷ applicable material decisions;
+- **source-lineage availability at enforcement**;
+- **rights-resolution requalification latency**;
+- **false enforcement after regime change**;
+- **legitimate-transfer acceptance after regime change**;
+- **total interoperability burden**.
+
+These remain scenario/profile observables, not new canonical KPI families.
+
+---
+
+## 11. Falsification rule
+
+The proposed differential is weakened or rejected if a frozen strong H1 implementation:
+
+- passes all original-regime controls;
+- detects the H2 decision-proposition shift;
+- retrieves/preserves the required upstream dependency/authority state;
+- blocks unsupported enforcement;
+- accepts legitimate transfer/independent work;
+- does so within the same response horizon and equal/lower burden;
+- and does not require EA-specific semantics beyond ordinary strong rights/provenance engineering.
+
+Conversely, a H2 failure counts only if H1 was genuinely strong under the original regime. A weak source-side implementation is not evidence for regime-awareness differentiation.
+
+---
+
+## 12. Relationship to Panodyssey product claims
+
+This profile distinguishes three layers.
+
+### Documented Panodyssey/TEMS capability
+
+Public source evidence supports the publisher-side rights/identity/audit stack and the cross-system rights-portability work.
+
+### Strong-peer engineering extension
+
+PANO-H1 adds agent-side identity/mandate, signed decision receipts, explicit source dependency and proposition-bound evidence semantics as a **constructed defended peer**. These are not claimed to be current Panodyssey product features unless separately evidenced.
+
+### Synthetic regime-change test
+
+PANO-H2 is a fictional adversarial fixture over the frozen H1 architecture. It is not an incident report and does not state that Panodyssey/TEMS has experienced the described downstream rights inversion.
+
+---
+
+## 13. Why not use C2PA as A01
+
+C2PA is valuable as a **future independent A02 strong provenance comparator**, because its explicit provenance and ingredient model is close to 00J Q2/Q4.
+
+It is not the best A01 because 00J begins with **human author identity + machine-readable rights + allowed-use semantics + licensing/rights portability**, which Panodyssey/Theme #17 already exposes directly. C2PA's own guidance deliberately avoids treating provenance verification as a value judgment or complete truth/rights determination.
+
+A future 00J-A02 could therefore ask whether a strong C2PA/Content-Credentials implementation closes the source-dependency gap more efficiently than PANO-H1/H2.
+
+---
+
+## 14. Current conclusion
+
+The recommended first 00J implementation trajectory is:
+
+> **PANO-H0 — strong publisher-side Panodyssey/Notice implementation**  
+> → **PANO-H1 — defended Panodyssey/TEMS + agent identity/mandate + proposition-bound receipt/source-lineage implementation**  
+> → **PANO-H2 — exact frozen H1 under a downstream rights-resolution regime shift.**
+
+This gives 00J the same architecture-testing discipline used in the LangGraph, Agent 365, Claude and Stripe profiles:
+
+- do not compare against a strawman;
+- let an excellent conventional implementation solve ordinary failures;
+- freeze that excellent implementation;
+- then change the material ecosystem relation without changing its code;
+- test whether it recognizes that the old representation is no longer sufficient for the new decision.
+
+**Status:** unexecuted implementation-trajectory draft; not a Panodyssey/TEMS product benchmark, incident report, certification or claim of comparative superiority.
