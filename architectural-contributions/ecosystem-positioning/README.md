@@ -184,11 +184,26 @@ The philosophy starts from the [**Integrated Foundational Theory**](../../resear
 
 # Requirements — replaying the failure scenarios as tests
 
-The [**00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) document is the **central normative test document of the corpus**. It defines the route **S1–S14 → T1–T4 → H1–H6 → KPI / falsification**.
+> [!IMPORTANT]
+> **Central finding — six failure scenarios, fourteen requirements, one common contract.**
+>
+> Across **00E–00J**, the same **S1–S14 canonical requirements** define the requirements-conforming **Route Q**. No scenario-specific requirement family has been needed.
 
-The scenarios above are then turned back into **requirements-driven journeys**. For each applicable requirement route, the same frozen facts and failure pressure are replayed through a requirements-conforming path: the test is not merely whether the system can describe the risk, but whether it **prevents, requalifies or contains the critical failure route while preserving legitimate operation**.
+The [**00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is the central normative test contract: **S1–S14 → T1–T4 → H1–H6 → KPI / falsification**.
 
-The [**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) shows which scenarios, use cases and planned fixtures exercise each requirement. Scenario quality gates then translate those requirements into concrete PASS / requalification / bounded-stop / failure conditions. Where execution has not yet occurred, the corpus describes the required result rather than claiming that it has already been demonstrated.
+That reuse is a central result of the corpus: radically different failure mechanisms are judged against the same bounded requirement set rather than patched with case-specific rules.
+
+**Verify the conforming routes directly:**  
+[00E · 100M Tokens](../../research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md#82-route-q--requirements-satisfied-for-the-run) ·
+[00F · Smartcity](../../research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md#8a3-route-q--requirements-conforming-route) ·
+[00G · Napoleon](../../research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#9-executable-paired-fixture-and-quality-gate-plan) ·
+[00H · Quiet 4K](../../research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md#123-route-q--current-action-correctly-classified-as-not-authorized) ·
+[00I · Patch](../../research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md#103-route-q--requirements-conforming-route) ·
+[00J · Author](../../research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md#72-route-q--canonical-requirements-and-gates-correctly-implemented)
+
+The [**Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) shows which requirements each scenario, use case and fixture exercises. Each scenario quality plan then turns the shared requirements into explicit PASS / requalification / bounded-stop / failure gates.
+
+> **Evidence boundary:** this is a requirements-coverage / conformance-design result. Comparative execution and independent replication remain separately tracked.
 
 ---
 
