@@ -98,6 +98,7 @@ flowchart LR
 
 <br>
 
+[Google Drive canonical PPTX](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit) ·
 [PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) ·
 [Visual Guide](../../research/ecosystem-awareness/VISUAL_GUIDE.md) ·
 [Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) ·
