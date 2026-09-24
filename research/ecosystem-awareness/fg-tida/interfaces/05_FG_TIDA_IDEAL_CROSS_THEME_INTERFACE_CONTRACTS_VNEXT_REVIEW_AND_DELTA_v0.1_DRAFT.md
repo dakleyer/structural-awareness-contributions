@@ -252,6 +252,28 @@ This table is an **ideal integration map**, not a claim that every Theme has acc
 
 ---
 
+## 7A. Internal corpus profiles usable by the ideal projection
+
+05 Ideal may use programme-internal architecture/profile material as **integration aids**, but must not present those artefacts as FG-TIDA-owned semantics merely because they map cleanly to a Theme.
+
+A particularly relevant profile is [**01I — Agentic Citizenship Contract / Human-Governed Participation Profile**](../../baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md), together with the canonical ACC lineage/identity/authority binding profile maintained in the MSCA standards package.
+
+01I/ACC can help the ideal FG-TIDA projection express, where a Theme-owned case needs it:
+
+- participant membership / role;
+- admissible objectives and actions;
+- obligations / prohibitions / non-compensable constraints;
+- issuer / approval authority;
+- version / validity / revocation / exit;
+- lineage and subject binding; and
+- signalling or participation duties.
+
+This is especially relevant to ideal mappings around **Theme #4** (metamorphing-agent access/policy), **Theme #23** (authorization/privilege lifecycle), Theme #14 (principal binding), Theme #17 (rights/usage participation) and any future multi-party governance profile.
+
+Boundary: 01I/ACC is **not** silently imported into FG-TIDA as a mandatory common contract. It remains an EA/MSCA-side candidate profile until the relevant FG-TIDA semantic owners adopt equivalent semantics or a reviewed profile mapping. 05A must therefore treat any ACC-derived field as candidate/test-only/not-established unless supported independently by public FG-TIDA sources.
+
+---
+
 ## 8. Ideal case portfolio — use existing cases as semantic owners, not duplicate scenarios
 
 An ideal FG-TIDA programme should consume the strongest existing cases before inventing more.
@@ -266,6 +288,17 @@ An ideal FG-TIDA programme should consume the strongest existing cases before in
 | **UC #7 — identity/action-time state across executions** | Persistent identity versus execution/state continuity; action attribution; revalidation after state change. |
 | **UC #9 — national payment rail / principal authority** | Grant provenance, act-time standing, limits, composition, revocation, identity-anchor integrity. |
 | **UC #10 — self-expanding multi-agent molecular design** | Capability without conferral, agent recruitment, identity continuity versus authority continuity, missing grant. |
+
+### Future 00I / UC #6 route-separation reservation
+
+If a dedicated **00I Semantic TOCTOU** scenario is later committed and reviewed, it must remain **parallel to**, not a stage of, the public **UC #6 → Theme #16 matrices → UC #4 executable mapping** route.
+
+- **UC #6** remains the public FG-TIDA semantic case for changed-purpose/current-authority applicability.
+- **00I**, if created, would remain an EA/DBC reference failure scenario testing the broader stale-semantic-applicability pattern.
+- **UC #4** remains the downstream executable/testbed mapping layer only after the originating semantic owners review the mapping.
+
+The routes may inform one another and may share fixtures or boundary questions, but neither replaces the other's ownership or provenance. This reservation mirrors the existing separation discipline used for 00H versus FG-TIDA case/test routes and prevents a later internal scenario from being mistaken for the source case.
+
 
 ### FG-TIDA Theme #17 / production rights case
 
@@ -330,22 +363,24 @@ These are not Theme-owned standards cases. They are stress scenarios that can be
 
 ### B. DBC boundary fixtures
 
-DBC v0.2 currently defines:
+DBC v0.2 currently defines twelve boundary families. The table distinguishes the **challenge family** from any **dedicated narrative scenario** so that scenario coverage is not silently inferred from related stress material.
 
-- C01 nominal continuity;
-- C02 semantic TOCTOU;
-- C03 handoff laundering;
-- C04 hidden common dependency;
-- C05 attractive inadmissible opportunity;
-- C06 effective-role drift;
-- C07 targeted recoverable unknown;
-- C08 structural residual;
-- C09 unbounded HOLD/review loop;
-- C10 false closure;
-- C11 authority-capacity / slow-response boundary;
-- C12 authority-mediated re-contracting.
+| DBC family | Dedicated narrative scenario in repo | Related current stress material / note |
+|---|---|---|
+| **C01 nominal continuity** | None | Positive/control branches exist across validation work; no dedicated narrative scenario. |
+| **C02 semantic TOCTOU** | **None committed** | UC #6 exercises changed applicability; a future 00I has been discussed as a possible dedicated scenario but is not a repository source and is not assumed here. |
+| **C03 handoff laundering** | None | Related qualifier-preservation pressure exists in EHD/EA-ITP and 00E/00F; no dedicated narrative scenario. |
+| **C04 hidden common dependency** | None | 00G supplies related correlated-repetition/source-dependence stress, but is not a dedicated C04 scenario. |
+| **C05 attractive inadmissible opportunity** | **00H** | Direct narrative/quality-gate anchor. |
+| **C06 effective-role drift** | None | 00G contains a concrete metamorphic-role variant, but C06 has no separate dedicated scenario file. |
+| **C07 targeted recoverable unknown** | None | Exercised as a pattern in requalification work; no dedicated narrative scenario. |
+| **C08 structural residual** | None | 00E/00F contain structural-residual stress; no dedicated C08 narrative. |
+| **C09 unbounded HOLD / review loop** | None | 00E contains Type-1 review/escalation pressure; no dedicated C09 narrative. |
+| **C10 false closure** | None | 00E/00G contain Type-2/false-closure pressure; no dedicated C10 narrative. |
+| **C11 authority-capacity / slow-response boundary** | None | 00H non-response and #16 capacity material are related; no dedicated C11 narrative. |
+| **C12 authority-mediated re-contracting** | **00H** | 00H provides the bounded re-contracting sequence as part of the same narrative scenario. |
 
-DBC remains a **test/adjudication vocabulary**, not a runtime ontology.
+DBC remains a **test/adjudication vocabulary**, not a runtime ontology. A related stress case does not become the semantic owner of a DBC family unless the fixture is explicitly mapped and reviewed.
 
 ### C. Theme #13 interoperability
 
