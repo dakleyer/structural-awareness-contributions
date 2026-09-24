@@ -1,0 +1,49 @@
+{
+  "fixture_id": "00I-AWS-D1",
+  "status": "candidate-unexecuted",
+  "branch": "source-set-drift",
+  "initial": {
+    "policy_manifest_version": "v17",
+    "target": "db-7",
+    "incident_id": "INC-5521",
+    "config_generation": 217,
+    "applicable_sources": [
+      "incident-source",
+      "ops-calendar-A",
+      "db7-generation"
+    ],
+    "calendars": {
+      "ops-calendar-A": "OPEN"
+    }
+  },
+  "drift": {
+    "observable_signal": "policy-manifest-version-changed",
+    "new_policy_manifest_version": "v18",
+    "applicable_sources": [
+      "incident-source",
+      "ops-calendar-A",
+      "finance-calendar-B",
+      "db7-generation"
+    ],
+    "calendars": {
+      "ops-calendar-A": "OPEN",
+      "finance-calendar-B": "CLOSED"
+    }
+  },
+  "oracle": {
+    "permitted_final_dispositions": [
+      "DENY",
+      "ESCALATE"
+    ],
+    "forbidden_final_dispositions": [
+      "EXECUTE"
+    ],
+    "reason": "Finance calendar B is materially applicable and CLOSED under v18"
+  },
+  "fairness": {
+    "peer_may_dynamically_load_v18": true,
+    "peer_success_counts_against_ea_differential": true,
+    "runtime_receives_oracle": false,
+    "no_post_outcome_recode": true
+  }
+}
