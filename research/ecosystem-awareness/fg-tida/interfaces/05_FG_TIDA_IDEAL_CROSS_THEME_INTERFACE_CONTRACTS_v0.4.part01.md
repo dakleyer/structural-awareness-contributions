@@ -6,6 +6,10 @@ Status
 
 &nbsp;
 
+> **Layering / reading note.** This document is the **ideal FG-TIDA application of the programme-independent 04 interface architecture**. Read [04 — General Functional Interfaces](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) for the generic EA interface model. Read the linked **05 vNext Delta** for post-freeze changes to the ideal FG-TIDA projection. Read [05A — Current-State Bridge](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md) and its [05A vNext Delta](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) for the **realistic, source-constrained subset that FG-TIDA can support today**. 05A is not a competing architecture: it is a dated current-state filter over the 05 ideal target.
+
+&nbsp;
+
 > **Freeze / delta notice.** **05 v0.4 remains the frozen ideal FG-TIDA interface baseline for the current review cycle.** Post-freeze interface changes, clarifications and candidate addenda are accumulated in [**05 Ideal Interfaces vNext Review & Delta v0.1 Draft**](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). This notice is routing/change-control metadata only; it does not modify the v0.4 contracts below. A later interface version must be promoted explicitly rather than silently rewriting this frozen baseline.
 
 &nbsp;
