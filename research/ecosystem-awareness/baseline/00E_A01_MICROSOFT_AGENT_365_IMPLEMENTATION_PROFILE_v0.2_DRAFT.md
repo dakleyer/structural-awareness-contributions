@@ -9,9 +9,10 @@
 | **Evidence-source refresh** | 2026-09-24 · publication/update-date audit only; technical analysis and claim boundary unchanged |
 | **Owner corpus** | Ecosystem Awareness / 00E route |
 | **Technology evidence re-audit** | 2026-09-24 · capability claims remain bounded to the dated sources below |
+| **External-corroboration route** | [00E §9A external corroboration](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · reviewed 2026-09-24 · technology-agnostic neighboring evidence only; not evidence of failure by this product |
 | **Predecessor** | [v0.1 — preserved public profile](./00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.1.md) |
 
-> **Product-implementation annex; source-reviewed working profile, 17 September 2026.** This annex asks how Microsoft Agent 365—the control plane for agents—can mitigate the four concrete failure modes in [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), and what an implementation must add to execute that case's Q0–Q5 quality plan. It is not a product benchmark, certification, endorsement or claim that Microsoft Agent 365 causes those failures.
+> **Product-implementation successor draft; original product analysis 17 September 2026, quality-plan synchronization and external-corroboration routing reviewed 24 September 2026.** This annex asks how Microsoft Agent 365—the control plane for agents—can mitigate the four concrete failure modes in [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), and what an implementation must add to execute that case's Q0–Q5 quality plan. It is not a product benchmark, certification, endorsement or claim that Microsoft Agent 365 causes those failures.
 
 ## 1. The claim in one sentence
 
