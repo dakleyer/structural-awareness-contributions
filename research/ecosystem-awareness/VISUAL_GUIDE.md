@@ -131,7 +131,7 @@ flowchart LR
 | 00E / 00F scenarios and quality plans | **Documented** |
 | 00G v0.3 Draft | **Latest working candidate; paired false/genuine control + DBC gate namespace + KPI instrumentation; v0.2 preserved; 00D/W3 execution pending** |
 | 00H v0.5 Draft | **Latest working candidate; base case needs no attacker (refund #2 already exceeds one-case mandate); V19/V20 harden it with a compromised outsourced CRM/helpdesk Dispatcher that creates valid leaf grants under an unauthorized common root; EA0 standard requirements-conforming baseline expected to pass U/G/I; W3 execution pending** |
-| 00I v0.5 Draft | **Latest working candidate; “The Patch That Undid the Fix” — OOTB → top-notch → same frozen top-notch under observable regime/source/dependency drift; AWS profile and inspectable skeletons published; W3 execution pending** |
+| 00I v0.5 Draft · [Freeze Edition](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) | **Latest working candidate; “The Patch That Undid the Fix” — OOTB → top-notch → same frozen top-notch under observable regime/source/dependency drift; zero-loss public Freeze Edition, AWS profile and inspectable skeletons published; W3 execution pending** |
 | B0–B3 comparison contract | **Defined** |
 | A01 test/oracle construction | **Designed** |
 | A03 Q1a harness design | **Designed** |
@@ -178,7 +178,7 @@ flowchart TB
     I00 -. "W3 fixture admission / matched execution pending" .-> FUT
 ```
 
-**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) · [00I-A01 AWS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md).
+**Read:** [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) · [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) · [00G-A01 OpenAI](./baseline/00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) · [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00I technical](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) · [00I Freeze Edition](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [00I-A01 AWS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md).
 
 ---
 
