@@ -1,4 +1,4 @@
-# Reference Failure Scenario and Quality-Gate Plan: Rights-Provenance Inversion under Derived-Content Propagation
+# Reference Failure Scenario and Quality-Gate Plan: Rights-Provenance Inversion — “The Author Pays for Their Own Work”
 
 | | |
 |---|---|
@@ -301,6 +301,8 @@ The current requirements-sufficiency reading is **narrowed or falsified** if:
 
 00J is fictional. The exact sequence in which an original author is required to pay a downstream claimant for reuse of the author's own source work is **not asserted here as a documented incident**. The sources below establish narrower neighboring mechanisms: rights/provenance metadata can be lost across systems; machine-readable permissions are scope-dependent; provenance can be incomplete; registry presence is not equivalent to substantive rights ownership; machine-readable TDM reservations are an active interoperability problem; and AI-generated material raises separate authorship/right questions.
 
+**Evidence-grade boundary:** the sources in this addendum are primarily **E4-type market/standard/public-documentation evidence** under the 00D grading discipline. No E3 investigated occurrence is cited for the literal “author pays for their own work” event. Their role is to corroborate the component mechanisms and current technical/regulatory boundaries, not to transform the fictional sequence into a reported incident.
+
 | External evidence | Date / evidence class | Documented neighboring mechanism | 00J pressure point | What it does **not** establish |
 |---|---|---|---|---|
 | **FG-TIDA Theme #17 — Panodyssey production case** — https://github.com/FG-TIDA/themes/issues/17 | **2026 · public production-case contribution** | Panodyssey reports five publisher-side production layers: domain AI governance, per-publication discovery, ODRL/JSON-LD rights declarations distinguishing indexing/RAG/training, timestamped registry/history, and certified author identity. The contribution explicitly states that this chain stops at the agent-side legal identity boundary. | Q0/Q1/Q3: a strong source-side rights chain can still meet an external identity/mandate/composition boundary. | Does not report the 00J inversion or prove any downstream product failure. |
@@ -326,7 +328,19 @@ The addendum supports only the plausibility of the **mechanism classes**:
 
 It does **not** establish that the literal 00J outcome has already happened, that Panodyssey caused it, or that EA would prevent it.
 
-### 9A.2 Implementation-profile consequence
+### 9A.2 Evidence-to-stage mapping
+
+| 00J stage | Observable structural pressure | Requirement/gate pressure | Corroborating evidence |
+|---|---|---|---|
+| **Strong upstream author/right record exists** | author identity, publication-level rights, version/history and machine-readable use conditions are representable in production | Q0/Q1 · S1/S7/S11/S14 | FG-TIDA Theme #17; Panodyssey Notice; ODRL |
+| **Content crosses organisational/system boundaries** | source, authorship, metadata or conditions-of-use can become detached, stripped or not reliably processed | Q2/Q4 · S5/S11/S12/S14 | TEMS Trial 7; European Commission 2026 TDM-registry study |
+| **A downstream provenance/registry record remains technically valid** | provenance/registry validity can establish a bounded fact without establishing every stronger source/right proposition | Q2/Q3 · S7/S12/S14 | C2PA 2.4 + explainer; ODRL |
+| **Repeated machine-readable records become operationally prominent** | durable signalling/resolution improves interoperability but does not itself become a rights-management/licensing adjudication | Q3/Q4/Q5 · S9/S11/S14 | European Commission TDM-registry study; TDM reservation consultation |
+| **Final enforcement asks a stronger question** | AI generation and copyright/right status remain distinct analytical questions | Q5 · S1/S12/S14 | U.S. Copyright Office Part 2 |
+
+This mapping is deliberately one-directional: the sources make the 00J mechanism **plausible enough to test**. They do not establish that the full chain has occurred or that any cited system would produce the terminal outcome.
+
+### 9A.3 Implementation-profile consequence
 
 The strongest first implementation trajectory is **not Panodyssey alone**. It is:
 
