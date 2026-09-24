@@ -151,6 +151,25 @@ Completed:
 - public-router / canonical README / Requirements vNext / Workplan version reconciliation;
 - Visual Guide updated for 00I v0.4 and 00I-A01 v0.2.
 
+## Final implementation-skeleton pass
+
+A subsequent machine-structure pass found and corrected three additional issues:
+
+1. **Qualified execution time path:** the ASL `Wait` states now consume `execute_at` from the actual qualification result rather than assuming an unrelated root input field.
+2. **Namespace separation:** the trace contract no longer treats HOLD as a DBC disposition. It records `DBC_EXECUTE / DBC_REQUALIFY / DBC_DENY / DBC_ESCALATE` separately from `P1_NORMAL / P2_CONTAINMENT / P3_MIGRATION`.
+3. **Bounded adaptive re-entry:** the I2-EA skeleton allows one targeted re-entry. If the post-reentry guard still returns `DBC_REQUALIFY`, the skeleton terminates with `00I.ReentryBudgetExhausted` rather than entering an unbounded loop.
+
+After those corrections:
+
+- all five JSON artefacts parse successfully;
+- all ASL `Next`, `Default` and `Choice` targets resolve to existing states;
+- the D1 oracle uses DBC-namespaced dispositions;
+- the fixture freezes qualification/action timestamps and a one-attempt re-entry budget.
+
+These are design-structure checks only, not AWS deployment validation.
+
+---
+
 ## Current disposition
 
 **Suitable for continued W3 preparation, not yet for an empirical claim.**
