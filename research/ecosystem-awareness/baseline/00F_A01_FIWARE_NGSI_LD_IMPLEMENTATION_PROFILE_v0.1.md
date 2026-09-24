@@ -6,6 +6,7 @@
 | **Type** | Product-implementation profile |
 | **Status** | Additive annex · source-reviewed working profile · not a product benchmark, certification or endorsement |
 | **Version · date** | v0.1 · 2026-09-17 |
+| **Evidence-source refresh** | 2026-09-24 · source/version audit; technical analysis and claim boundary unchanged |
 | **Owner corpus** | Ecosystem Awareness / 00F route |
 | **Technology evidence re-audit** | 2026-09-24 · ETSI standard version and Orion-LD release/conformance boundary pinned below |
 | **Supersedes / superseded by** | — |
@@ -197,31 +198,23 @@ The result is not “FIWARE is inadequate.” FIWARE directly addresses several 
 
 The narrower finding is that technical health, semantic interoperability and recent context do not alone prove that the represented evidence still supports the same shared decision. Under a gradual or previously unknown regime change, an excellent implementation may detect the pivot only after local A/B/NORMAL/HOLD decisions have started consuming the common response margin. The additional EA component continuously tests that validity and makes the 00F quality-gate dispositions executable under finite time and human capacity.
 
-## 13. Official technology sources reviewed
+## 13. Official technology sources reviewed — dated evidence freeze
 
-The FIWARE evidence needs two different version pins: the **NGSI-LD standard** and the **Orion-LD implementation** must not be treated as the same thing.
+**Evidence freeze used for presentation:** 24 September 2026.
 
-| Ref | Authoritative source | Publication / release basis used |
-|---|---|---|
-| **F1** | FIWARE Catalogue / Core Context Management positioning | Living FIWARE site; re-checked **24 Sep 2026**. |
-| **F2** | FIWARE Smart Cities positioning | Living FIWARE site; re-checked **24 Sep 2026**. |
-| **F3** | FIWARE Smart Data Models | Living FIWARE site; re-checked **24 Sep 2026**. |
-| **F4** | FIWARE Orion-LD repository/releases | **Orion-LD 1.12.0, released 28 Jan 2026**. Repository states near compliance with **NGSI-LD API v1.6.1 plus selected newer features**, not blanket conformance to every later NGSI-LD feature. |
-| **F5** | FIWARE NGSI-LD subscriptions tutorial | Living tutorial; re-checked **24 Sep 2026**. |
-| **F6** | FIWARE NGSI-LD context-source/federation tutorial | Living tutorial; re-checked **24 Sep 2026**. |
-| **F7** | ETSI GS CIM 009 — NGSI-LD API | **V1.9.1 (2025-07)**, ETSI Group Specification. This is the standard reference, not an assertion that Orion-LD 1.12.0 implements every 1.9.1 feature. |
+| ID | Official source | Date / version basis | Use in this profile |
+|---|---|---|---|
+| **F1** | [FIWARE Catalogue](https://fiware.org/catalogue/) | Live site **retrieved 24 Sep 2026** | FIWARE component/catalogue positioning. |
+| **F2** | [FIWARE Smart Cities](https://fiware.org/about-us/smart-cities/) | Live site **retrieved 24 Sep 2026** | Smart-city reference positioning. |
+| **F3** | [FIWARE Smart Data Models](https://fiware.org/smart-data-models/) | Live site **retrieved 24 Sep 2026** | Shared data-model/schema ecosystem. |
+| **F4** | [FIWARE Orion-LD repository and releases](https://github.com/FIWARE/context.Orion-LD) | **Orion-LD 1.12.0 · released 28 Jan 2026** | Broker implementation, subscriptions/notifications, temporal representation, context-source/distributed operations and implementation-specific features. |
+| **F5** | [NGSI-LD subscriptions tutorial](https://ngsi-ld-tutorials.readthedocs.io/en/latest/subscriptions.html) | Live docs **retrieved 24 Sep 2026** | Subscription/notification mechanics. |
+| **F6** | [NGSI-LD context-source registrations/federation tutorial](https://ngsi-ld-tutorials.readthedocs.io/en/latest/context-providers.html) | Live docs **retrieved 24 Sep 2026** | Context-source registrations and federation mechanics. |
+| **F7** | [ETSI GS CIM 009 V1.9.1 — NGSI-LD API](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.09.01_60/gs_CIM009v010901p.pdf) | **V1.9.1 · published 2 Jul 2025** | Normative NGSI-LD API specification reference. |
 
-**URLs**
+**Critical compatibility boundary:** Orion-LD **1.12.0** is not claimed here to be fully conformant with ETSI NGSI-LD **V1.9.1**. The Orion-LD project itself describes the implementation as near-compliant with **NGSI-LD API V1.6.1**, with selected features from newer releases. F7 is therefore the standards reference for the API family, while the concrete implementation claims in this annex must remain bounded to the documented Orion-LD 1.12.0 feature set and any separately verified conformance evidence.
 
-- **[F1]** https://fiware.org/catalogue/
-- **[F2]** https://fiware.org/about-us/smart-cities/
-- **[F3]** https://fiware.org/smart-data-models/
-- **[F4]** https://github.com/FIWARE/context.Orion-LD
-- **[F5]** https://ngsi-ld-tutorials.readthedocs.io/en/latest/subscriptions.html
-- **[F6]** https://ngsi-ld-tutorials.readthedocs.io/en/latest/context-providers.html
-- **[F7]** https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.09.01_60/gs_CIM009v010901p.pdf
-
-**Conformance boundary:** this profile uses ETSI V1.9.1 as the current standards reference while pinning the examined Orion-LD implementation to **1.12.0** and to its own documented conformance statement. It therefore does **not** infer that an ETSI V1.9.1 capability exists in Orion-LD unless the Orion-LD source or the configured deployment establishes it.
+**Dating rule for presentation use:** cite both the implementation pin (**Orion-LD 1.12.0, 28 Jan 2026**) and the standards pin (**ETSI GS CIM 009 V1.9.1, 2 Jul 2025**); never collapse the two into an unsupported "Orion-LD implements NGSI-LD 1.9.1" statement.
 
 **Source boundary:** capabilities and inferences are bounded to this evidence cut-off (**24 September 2026**). FIWARE is modular, and Context Broker choice, feature coverage, integrations, deployment topology and operating controls vary. A real assessment must verify the selected broker release, API conformance, adapters, data models, source registrations, security, persistence, analytics, authority and observed outcomes.
 
