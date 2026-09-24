@@ -47,17 +47,17 @@ For deeper architectural provenance only:
 
 The section below is intentionally close to the structure of the official FG-TIDA [CHARTER-TEMPLATE](https://github.com/FG-TIDA/themes/blob/main/CHARTER-TEMPLATE.md) so that it can later be reviewed or projected into a Pull Request without first rewriting the whole document.
 
-# Ecosystem-level Agent Defense and Ecosystem Awareness — Charter
+# Ecosystem-level Agent Defense — Charter
 
 **Status:** Draft  
 **Originating issue:** [Theme #13 — Ecosystem-level Agent Defense](https://github.com/FG-TIDA/themes/issues/13)  
-**Proposer(s) / drafter(s):** to be agreed through the FG-TIDA process
+**Proposer(s) / drafter(s):** Ward Duchamps, Thales — originating Theme proposer; Phase 2 charter drafter(s)/editor(s) to be agreed through the FG-TIDA process
 
 ## Summary
 
 Agentic ecosystems increasingly connect independently governed agents, services, humans, evaluators, attesters and infrastructure. Each participant may reach a locally valid result while the combined ecosystem still lacks enough qualified information to support a receiving decision, or while harmful effects propagate across organizational boundaries.
 
-This theme would develop two related, independently testable capabilities: **(1) an Incident / Signal Lifecycle** for ecosystem-defense signalling, corroboration, affected-scope/blast-radius refinement, locally authorized response coordination and resolution; and **(2) Ecosystem Awareness**, which asks what independently produced results collectively establish for a specific decision, what remains unresolved or inherited through dependencies, and when targeted requalification is needed. The work would connect them through bounded, source-preserving interfaces without creating a central controller or new authority. **Defense is the first concrete implementation context, not a requirement that the reusable qualification/handoff semantics be defense-exclusive.**
+Within the existing Theme #13 scope, this charter candidate would develop two related, independently testable capabilities: **(1) an Incident / Signal Lifecycle** for ecosystem-defense signalling, corroboration, affected-scope/blast-radius refinement, locally authorized response coordination and resolution; and **(2) Ecosystem Awareness**, which asks what independently produced results collectively establish for a specific decision, what remains unresolved or inherited through dependencies, and when targeted requalification is needed. The work would connect them through bounded, source-preserving interfaces without creating a central controller or new authority. **Defense is the first concrete implementation context, not a requirement that the reusable qualification/handoff semantics be defense-exclusive.**
 
 ## Scope
 
