@@ -139,6 +139,8 @@ The work may define:
 - decision/execution reconstruction; and
 - bounded testbeds that do not absorb adjacent Theme semantics.
 
+At least one early profile should test the **EA-specific differential rather than only interface compatibility**: hold the relevant local/native result constant while changing a decision-material ecosystem qualifier such as source independence, inherited indeterminacy, semantic validity or available response capacity, and verify that the systemic qualification changes only when that qualifier materially changes the receiving decision. A paired nominal-continuity control should verify that EA does not create unnecessary HOLD, escalation or containment when nothing material changed.
+
 ## Out of Scope
 
 Unless FG-TIDA later changes the charter, this work would not:
@@ -226,6 +228,17 @@ Candidate content:
 
 D5 may initially remain an informative/test package rather than a standalone specification.
 
+The first D5 package should include:
+
+- a nominal-continuity control;
+- a local-equivalence / systemic-divergence pair;
+- a source-dependence / false-corroboration boundary;
+- a targeted-requalification branch;
+- an independent producer/consumer interoperability route where feasible; and
+- explicit falsifiers.
+
+Where a comparative EA claim is made, a **strong native/control configuration should be allowed to reproduce the same behaviour**. If it does so at equal or lower burden, that result counts against an EA differential claim.
+
 ## Related Work
 
 The work should coordinate with, rather than reproduce, relevant standards and practices, including where applicable:
@@ -243,13 +256,16 @@ A formal duplication review should be maintained before any specification is pro
 
 ## Related Themes
 
-The initial direct interfaces are expected to include:
+The initial **working boundaries** are strongest for:
 
 - **Theme #5 — Provenance of Authority:** grant origin, scope, limits, standing/revocation/current applicability.
-- **Theme #6 — Intent / Policy Runtime Conformance:** source-native conformance/verdict semantics.
-- **Theme #7 — Verifier-side requirements:** evidence appraisal/failure semantics where applicable.
 - **Theme #16 — Operational Human Oversight:** human authority/capacity/decision/execution/re-entry state.
-- **Theme #22 — Remote Attestation:** attested runtime/model/policy/interaction evidence where relevant.
+- **Theme #6 — Intent / Policy Runtime Conformance:** source-native conformance/verdict semantics are public; the specific #6→EA adapter remains a candidate profile.
+
+Useful **candidate supporting profiles** include:
+
+- **Theme #7 — Verifier-side requirements:** evidence appraisal/failure semantics and negative vectors.
+- **Theme #22 — Remote Attestation:** attested runtime/model/policy/interaction evidence where relevant; a common #22→EA profile is not yet established.
 
 Other Themes may become profiles when a concrete use case requires them. The charter should not turn the complete ideal map into first-cycle scope.
 
@@ -350,7 +366,20 @@ Then exercise the #13 mechanism across independently governed participants:
 - explicit UNKNOWN/source-dependence preservation; and
 - revalidation.
 
-### C.4 Later stress expansion
+### C.4 Minimum Strong-EA Challenge Set
+
+Before claiming that the first cycle exercises **Ecosystem Awareness itself**, rather than only a chain of well-behaved interfaces, the executable package should cover four bounded checks:
+
+1. **Nominal continuity:** same valid local states and no material frame change → no unnecessary systemic HOLD/escalation/requalification.
+2. **Local-equivalence / systemic-divergence:** keep the relevant local/native result constant, change one material ecosystem qualifier (for example independent versus shared provenance, current versus stale validity, or sufficient versus exhausted response capacity) → the EA qualification should change only when that difference matters to the receiving decision.
+3. **Targeted requalification:** invalidate one specific decision basis/dependency → request/re-enter at that basis, not a generic restart or indiscriminate context expansion.
+4. **Independent interoperability:** an external producer and receiver should exchange the admitted profile without sharing internal EA logic; source-native semantics and UNKNOWN must survive.
+
+For comparative evidence, add a strong conventional/native control. If it reproduces the same correct behaviour at equal or lower burden, that is negative evidence for an EA-specific differential.
+
+This is the **minimum challenge floor**, not a request to activate the whole 05 Ideal map in the first cycle.
+
+### C.5 Later stress expansion
 
 Only after the first route is stable, add cases or profiles that expose a distinct interface/falsifier, for example:
 
@@ -395,7 +424,8 @@ These are composition boundaries, not a mandatory common runtime vocabulary.
 - bounded human-oversight interface;
 - source-native handoff principles;
 - UC #4 executable/testbed direction;
-- UC #6 first deterministic mapping route; and
+- UC #6 first deterministic mapping route;
+- one EA-differential paired challenge with nominal-continuity control; and
 - positive/boundary/rejection test discipline.
 
 ### Still needed before formal Phase 2 promotion
@@ -430,6 +460,8 @@ The preparation material is now mature enough to support a real FG-TIDA review, 
 
 The strongest current work programme is deliberately bounded:
 
-> **Incident / Signal Lifecycle + Ecosystem Awareness → one small reviewed cross-interface mapping → bounded UC #4 executable profile → federated testbed → later stress/profile expansion.**
+> **Incident / Signal Lifecycle + Ecosystem Awareness → one small reviewed cross-interface mapping → one decisive EA-differential challenge → bounded UC #4 executable profile → federated testbed → later stress/profile expansion.**
+
+The draft should be considered too weak if it only proves that adapters can carry fields correctly. It must also show that a material ecosystem-level qualifier can change the justified systemic assessment while local/native results remain valid, and it must accept as negative evidence any case where strong native controls reproduce that behaviour with equal or lower burden.
 
 This gives Theme #13 a concrete path from discussion to versioned drafting while respecting the central FG-TIDA discipline already visible in the public process: Theme-owned semantics stay with their owners, public Issues retain decisions/attribution, and versioned documents/test artefacts provide stable objects for focused review.
