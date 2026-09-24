@@ -68,7 +68,7 @@ Metadata can be used as rule attributes on supported payment/account objects, bu
 
 ## 4A. Concrete Solstice instantiation
 
-The compromised component is **not Stripe/Radar**. It is the upstream customer-service **Dispatcher / supervisor session**.
+The compromised component is **not Stripe/Radar**. It is the upstream customer-service **Dispatcher / supervisor session** in a fictional third-party CRM/helpdesk/BPO chain. That dispatcher routes ordinary tickets of many types—delivery, account, return, billing and refund-related cases—and may be operated by subcontracted remote staff. It has ticket-routing authority, not population-wide financial authority.
 
 The Dispatcher may legitimately:
 
@@ -148,6 +148,17 @@ Freeze H1, then change one or more organizational facts without changing the ext
 Radar can remain perfectly healthy because the original payments did not become fraudulent.
 
 Passing requires the **merchant authority layer** to reopen Q0/Q2/Q5 and revalidate the business mandate at `t_act`.
+
+
+### 7.1 Three-route audit verdict
+
+| Route | Concrete configuration | V19/U expectation | Why |
+|---|---|---|---|
+| **RADAR-H0 — standard** | ordinary Radar payment-risk controls + normal refund API path | **FAIL for organizational root authority** | Radar is not the owner of Solstice's campaign mandate |
+| **RADAR-H1 — top-notch** | tuned Radar + authoritative workload/case grant + pre-refund gate + per-agent/per-mandate ledger | **FAIL on U if root lineage is absent** | payment risk and every leaf grant can be green while the common campaign has no authority |
+| **RADAR-H2 — same top-notch after regime change** | freeze H1, then change principal/campaign/delegation relation | **FAIL unless merchant authority/composition state is requalified** | the old grouping can stay technically healthy while becoming authority-wrong |
+
+The fair defender extension **RADAR-H1-L** adds authoritative root campaign/delegation lineage to the merchant authorization architecture. If it passes U/G/I at equal or lower burden, the EP/EA differential is narrowed or falsified. The profile does not claim Radar should natively solve an organizational authority problem outside its documented product role.
 
 ## 8. Three decisive tests
 
