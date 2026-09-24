@@ -92,6 +92,7 @@ Used for:
 ### P5 — TEMS Trial 7
 
 https://tems-dataspace.eu/trials/
+https://tems-dataspace.eu/tems-trial-7-how-rights-travel-across-systems/
 https://tems-dataspace.eu/tems-trial-7-protecting-and-valuing-cultural-content-in-the-age-of-ai/
 https://tems-dataspace.eu/tems-trial-7-making-intellectual-property-visible-and-actionable-in-the-age-of-ai/
 
@@ -116,6 +117,17 @@ https://spec.c2pa.org/specifications/specifications/2.4/specs/ContentCredentials
 https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html
 
 Used only as an external technical comparator for the proposition that provenance may be incomplete and that verifiable provenance does not automatically settle a stronger truth/rights proposition.
+
+### P8 — European Commission 2026 TDM opt-out registry feasibility study
+
+https://op.europa.eu/en/publication-detail/-/publication/5c5cd1ec-7cce-11f1-bf5e-01aa75ed71a1/language-en
+
+Used for:
+
+- official evidence that current rights-reservation mechanisms are fragmented and work-based metadata can be stripped or not reliably processed;
+- the explicit boundary that the proposed registry would improve durable/interoperable signalling and traceability while **not itself being a rights-management or licensing system**.
+
+This is important for 00J because a registry/resolver result can be highly useful and current without automatically carrying the stronger authority semantics needed for final enforcement.
 
 ---
 
@@ -478,7 +490,28 @@ A future 00J-A02 could therefore ask whether a strong C2PA/Content-Credentials i
 
 ---
 
-## 14. Current conclusion
+## 14. Evidence-source freeze and dating
+
+**Evidence freeze:** 24 September 2026.
+
+| Source | Public date / version used | Role in this profile |
+|---|---|---|
+| **FG-TIDA Theme #17** | Issue opened **31 Aug 2026**; public issue state reviewed 24 Sep 2026 | production-case boundary: publisher-side layers, agent-identity gap, evidence classes |
+| **Panodyssey AI Transparency Notice launch** | page published **24 Mar 2026**; press-release dateline 20 Mar 2026 | source-side traceability / AI-use-control claim |
+| **Panodyssey Notice V2.1 update** | **31 Aug 2026** | versioned correction of AI-readable signals; vendor statement |
+| **Panodyssey licensed certified-human-content page** | **9 Jun 2026** | publication-by-publication / AI-by-AI permissions, licensing and TEMS context |
+| **TEMS Trial 7 — Protecting and Valuing Cultural Content** | **17 Mar 2026** | fragmentation of metadata/licensing/rights information across systems |
+| **TEMS Trial 7 — Making IP Visible and Actionable** | **17 Apr 2026** | origin/authorship/use-condition portability and Panodyssey Trial-7 role |
+| **TEMS Trial 7 — How Rights Travel Across Systems** | **27 May 2026** | direct interoperability statement that origin/authorship/conditions can fragment or disappear across systems |
+| **W3C ODRL Information Model 2.2** | Recommendation **15 Feb 2018** | scope-specific permission/prohibition/duty semantics |
+| **C2PA Content Credentials 2.4** | **Apr 2026** technical specification; explainer lineage reviewed 24 Sep 2026 | derived/composed asset ingredients, bounded provenance semantics |
+| **European Commission TDM opt-out registry study** | released **13 Jul 2026** | metadata-stripping / unreliable-processing evidence; registry ≠ licensing system boundary |
+
+**Dating rule:** statements about the product/project surface are bounded to this evidence freeze. Later Panodyssey, TEMS, C2PA, standards or regulatory changes require an explicit source-basis refresh. H1/H2 remain synthetic implementation trajectories and are not back-attributed to the cited sources.
+
+---
+
+## 15. Current conclusion
 
 The recommended first 00J implementation trajectory is:
 
