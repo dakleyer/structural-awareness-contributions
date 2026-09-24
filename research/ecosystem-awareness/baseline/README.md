@@ -28,7 +28,7 @@ Topology + 03 Functional Architecture + 04 General Interfaces
         ↓
 01B / 01C / 01D and later 01H / 01I / 01J integration annexes
         ↓
-Validation profiles + 00E / 00F / 00G / 00H scenarios
+Validation profiles + 00E / 00F / 00G / 00H / 00J scenarios
         ↓
 00D benchmark + A01/A03 + fixtures / pre-registration
         ↓
@@ -89,6 +89,8 @@ This table is an additional reader map. It does **not** replace or collapse the 
 | **2 — review** | [Requirements vNext Review & Delta v0.1 Draft](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | Do later EP developments require new S/T/H/KPI, or do they map to the existing requirement system? | **Working review only**; current determination: no canonical requirement change |
 | **3–4** | [00E — 100 Million Tokens](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F — Smart-City Mobility Divergence](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) | Where can locally plausible systems fail under compounding context loss or distributed divergence? | **Canonical working** reference scenarios; not executed benchmark results |
 | **5** | [00G — Collective False-Context Convergence](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.3_DRAFT.md) | How can correlated narrative/signalling produce false contextual convergence and authority confusion? | **Additive annex / candidate scenario**; 00D integration pending |
+| **5** | [00H — Batch Opportunity Beyond Authority](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.2_DRAFT.md) | How can a materially valid opportunity exceed the acting participant’s current authority, and how must it be preserved/re-contracted without unauthorized execution? | **Additive annex / candidate scenario**; executable admission pending |
+| **5** | [00J — Rights-Provenance Inversion](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) | Can a valid generation/provenance statement be promoted through broken lineage into an unsupported downstream rights claim, and do the existing canonical gates prevent the inversion? | **Working draft / candidate scenario**; current design finding: existing S/T/H/KPI route is sufficient, execution pending |
 | **6** | [00 — Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) | How do Ω, U, R_U, W(d,t), A/B/C/D and participant-local qualification fit together? | **Canonical working** reader / reconciliation page |
 | **6** | [03 — Functional Architecture v0.4](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) | Which F1–F9 functions implement decision-scoped qualification, composition, requalification and learning? | **Controlled / frozen** source route |
 | **6** | [04 — General Functional Interfaces & Agentic Security v0.5](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) | How does qualified state cross agent, security, evidence and governance boundaries? | **Integrated working successor** |
