@@ -357,7 +357,7 @@ Before execution freeze:
 
 ### 9.3 Q0–Q5 gate register
 
-The gate route reuses the already frozen requirements coverage for 00G, with the authority-applicability surface made explicit: **S1, S2, S3, S6, S9, S11, S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6**. S1 is required because the scenario asks whether a claimed frame/role/authority remains binding and applicable to the receiving participant at commitment/action time. S6 remains relevant to privacy-preserving trust handoff; it is not a substitute for S1. This draft introduces no new canonical challenge, T-condition, hypothesis or KPI.
+The gate route reuses the already frozen requirements coverage for 00G, with the authority-applicability surface made explicit: **S1, S2, S3, S6, S9, S11, S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6**. S1 is required because the scenario asks whether a claimed frame/role/authority remains binding and applicable to the receiving participant at commitment/action time. S6 remains relevant to privacy-preserving trust handoff; it is not a substitute for S1. This canonical scenario introduces no new canonical challenge, T-condition, hypothesis or KPI.
 
 For rapid orientation, Figure 5 compresses Q0–Q5 while retaining the **mandatory evidence**, **DBC next step** and **failure-if-bypassed** dimensions. It remains a reading aid only; the detailed register below is authoritative.
 
@@ -556,7 +556,7 @@ Read with:
 - [00D — Canonical Architecture Benchmark and Reference-Scenario Evidence](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md);
 - [Article IV — Ecosystem Signalling Without Required Cooperation](./ARTICLE_04_ECOSYSTEM_SIGNALLING_WITHOUT_REQUIRED_COOPERATION.part01.md).
 
-This scenario is intentionally synthetic and exaggerated. Its reader-facing historical narrative is not the executable oracle; the v0.3 Draft test contract requires an opaque paired fixture so performance cannot be attributed to memorized history or blanket rejection.
+This scenario is intentionally synthetic and exaggerated. Its reader-facing historical narrative is not the executable oracle; the canonical v0.4 test contract requires an opaque paired fixture so performance cannot be attributed to memorized history or blanket rejection.
 
 ## 16. Product / implementation-profile boundary and integration rule
 
@@ -653,7 +653,7 @@ A future EA-enabled comparison may be added only after OAI-G1/OAI-G2 are frozen 
 
 The core comparison is therefore **platform success versus 00G gate success**, not platform failure versus platform success.
 
-### 17.5 OAI-G0 — standard competent route
+### 17.5 OAI-G0 — out-of-the-box / standard competent route
 
 OAI-G0 should be plausible, not deliberately negligent.
 
@@ -823,7 +823,7 @@ No result is assumed before execution.
 
 ### 17.10 Matched implementation tests
 
-### Test A — source-dependence across multi-agent synthesis and compaction
+#### 17.10.1 Test A — source-dependence across multi-agent synthesis and compaction
 
 **Route:** DBC-C04 / 00G Q1–Q2.
 
@@ -843,7 +843,7 @@ Report at minimum:
 - messages / independent-evidence ratio;
 - burden and response margin.
 
-### Test B — authority and legitimate mission transition
+#### 17.10.2 Test B — authority and legitimate mission transition
 
 **Route:** S1 + 00G Q3/Q5 / DBC-C06 where role drift is injected.
 
@@ -860,7 +860,7 @@ Report:
 - action/transition-time authority revalidation;
 - re-entry correctness.
 
-### Test C — latent regime pivot
+#### 17.10.3 Test C — latent regime pivot
 
 Freeze OAI-G1, then change one or more of:
 
@@ -917,7 +917,7 @@ A defended OpenAI peer that passes Branch F and Branch G at equal/lower burden i
 | **O9** | [Integrations and observability](https://developers.openai.com/api/docs/guides/agents/integrations-observability) | live docs **retrieved 24 Sep 2026** | Structured tracing of model calls, tool calls, handoffs, guardrails and custom spans. |
 | **O10** | [Agents overview](https://developers.openai.com/api/docs/guides/agents) | live docs **retrieved 24 Sep 2026** | Boundary between Agents API, Agents SDK and Responses; runtime/state ownership. |
 
-### Source boundary
+#### 17.12.1 Source boundary
 
 The OpenAI platform is evolving rapidly and several surfaces used here are beta. This profile freezes only what the cited public sources document through 24 September 2026.
 
