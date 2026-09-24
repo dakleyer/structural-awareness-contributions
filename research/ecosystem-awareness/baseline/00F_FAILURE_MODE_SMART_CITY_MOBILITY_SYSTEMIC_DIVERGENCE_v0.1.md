@@ -202,8 +202,8 @@ The case does not test universal emergency prediction, city-wide command, legal 
 
 This document defines the technology-neutral case and quality plan. Product annexes apply the same frozen fixture to different smart-city/agentic platforms, each comparing a standard implementation, a top implementation and the top implementation plus the EA profile:
 
-- [00F-A01 — FIWARE NGSI-LD / Orion-LD implementation profile](./00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.1.md).
-- [00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile](./00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.1.md).
+- [00F-A01 — FIWARE NGSI-LD / Orion-LD implementation profile](./00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md).
+- [00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile](./00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md).
 
 Neither annex may change the event, actors, deadlines, resources or outcome vector to favour a product or EA.
 
