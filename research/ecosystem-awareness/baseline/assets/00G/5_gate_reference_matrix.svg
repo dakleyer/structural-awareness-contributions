@@ -56,4 +56,5 @@
 <text x="1055" y="825" fill="#b33a3a" font-weight="700">F: DBC_DENY unsupported transition</text><text x="1055" y="848" fill="#007b82" font-weight="700">G: DBC_EXECUTE if already authorized;</text><text x="1055" y="871" fill="#007b82" font-weight="700">else DBC_REPOSITION_RECONTRACT</text>
 <text x="1525" y="825" fill="#b33a3a">blanket never-change or</text><text x="1525" y="848" fill="#b33a3a">narrative-driven pivot</text>
 </g>
+</g>
 </svg>
