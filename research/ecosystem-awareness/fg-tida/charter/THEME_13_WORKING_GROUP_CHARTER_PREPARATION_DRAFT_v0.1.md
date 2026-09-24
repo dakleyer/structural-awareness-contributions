@@ -59,6 +59,8 @@ Agentic ecosystems increasingly connect independently governed agents, services,
 
 Within the existing Theme #13 scope, this charter candidate would develop two related, independently testable capabilities: **(1) an Incident / Signal Lifecycle** for ecosystem-defense signalling, corroboration, affected-scope/blast-radius refinement, locally authorized response coordination and resolution; and **(2) Ecosystem Awareness**, which asks what independently produced results collectively establish for a specific decision, what remains unresolved or inherited through dependencies, and when targeted requalification is needed. The work would connect them through bounded, source-preserving interfaces without creating a central controller or new authority. **Defense is the first concrete implementation context, not a requirement that the reusable qualification/handoff semantics be defense-exclusive.**
 
+The originating Theme #13 is broader than these first two deliverables. Its ecosystem-defense problem space also includes identity/accountability, detection/monitoring, reputation, privacy-preserving operation and incentives/alignment. This charter does **not** silently delete those surfaces. It stages them: the first cycle concentrates on the lifecycle + EA foundation, while the broader Theme capabilities are consumed from adjacent work, retained as later profile/deliverable candidates, or separately scoped if FG-TIDA decides that another Theme/WG should own them.
+
 ## Scope
 
 ### 1. Incident / Signal Lifecycle
@@ -141,6 +143,28 @@ The work may define:
 
 At least one early profile should test the **EA-specific differential rather than only interface compatibility**: hold the relevant local/native result constant while changing a decision-material ecosystem qualifier such as source independence, inherited indeterminacy, semantic validity or available response capacity, and verify that the systemic qualification changes only when that qualifier materially changes the receiving decision. A paired nominal-continuity control should verify that EA does not create unnecessary HOLD, escalation or containment when nothing material changed.
 
+### 6. Broader Theme #13 defense surfaces
+
+The originating Theme also raises ecosystem-level capabilities around:
+
+- verifiable identity/accountability and privacy-preserving principal linkage;
+- remote or behavioural detection/fingerprinting where the agent does not cooperate;
+- reputation and concern-signalling across parties;
+- standardized event logging / observability;
+- mechanisms for incentives/alignment among otherwise independently governed agents; and
+- decentralization constraints intended to avoid one controlling operator or surveillance architecture.
+
+These remain part of the **Theme #13 problem space**, but they are not automatically first-cycle normative deliverables of this charter.
+
+The initial lifecycle/EA work should therefore:
+
+1. define interfaces capable of consuming such outputs where they are source-owned and available;
+2. avoid duplicating identity, attestation, enforcement, reputation or incentive mechanisms already owned elsewhere;
+3. keep privacy/selective-disclosure and decentralization as design constraints from the start; and
+4. allow later admission of a reputation, incentive, detection or identity profile only after duplication/ownership review and a concrete use case demonstrates the need.
+
+This preserves the breadth of Theme #13 without making the first charter cycle unreviewably large.
+
 ## Out of Scope
 
 Unless FG-TIDA later changes the charter, this work would not:
@@ -153,7 +177,8 @@ Unless FG-TIDA later changes the charter, this work would not:
 - require a central ecosystem controller or shared private reasoning model;
 - require disclosure of complete prompts, internal reasoning, objectives or private state;
 - define the complete human-oversight, policy/conformance, model-level or embodied-system lifecycle owned elsewhere;
-- treat an assessment, confidence value, human approval or signal as authority;
+- define a universal identity-binding scheme, reputation algorithm, incentive/economic mechanism, remote-fingerprinting method or kill-switch enforcement mechanism in the first cycle unless FG-TIDA explicitly assigns that work here after duplication/ownership review;
+- treat an assessment, confidence value, reputation value, human approval or signal as authority;
 - turn test vocabulary into mandatory runtime ontology;
 - force heterogeneous evidence/risk/capacity dimensions into one universal scalar;
 - require maximum context or telemetry collection;
@@ -245,7 +270,10 @@ A two-domain or deterministic pass establishes only the bounded property actuall
 
 The work should coordinate with, rather than reproduce, relevant standards and practices, including where applicable:
 
-- FG-TIDA Themes and Use Cases;
+- FG-TIDA Themes and Use Cases, especially originating Theme #13 and UC #4;
+- the 2026 Singapore Consensus on Global AI Safety Research Priorities and its Agentic Risk Management companion work referenced by Theme #13;
+- AI-agent observability work, including OpenTelemetry agent-observability practice;
+- decentralized identifier/naming work relevant to meaningful and verifiable agent identifiers, including the IETF DINRG material cited in Theme #13;
 - IETF RATS/EAT/AR4SI and related identity/workload assurance work;
 - STIX/TAXII and incident-exchange practice;
 - policy/enforcement mechanisms such as XACML/OpenC2 where relevant;
@@ -260,6 +288,7 @@ A formal duplication review should be maintained before any specification is pro
 
 The initial **working boundaries** are strongest for:
 
+- **Theme #13 — Ecosystem-level Agent Defense:** originating Theme and owner of the broader ecosystem-defense problem space; the first-cycle charter focuses its lifecycle/EA foundation without deleting the remaining identity, detection, reputation, privacy and incentive questions.
 - **Theme #5 — Provenance of Authority:** grant origin, scope, limits, standing/revocation/current applicability.
 - **Theme #16 — Operational Human Oversight:** human authority/capacity/decision/execution/re-entry state.
 - **Theme #6 — Intent / Policy Runtime Conformance:** source-native conformance/verdict semantics are public; the specific #6→EA adapter remains a candidate profile.
@@ -273,7 +302,9 @@ Other Themes may become profiles when a concrete use case requires them. The cha
 
 ## Open Questions
 
-Reviewers are invited to focus on questions that remain genuinely unresolved:
+Reviewers are invited to focus on questions that remain genuinely unresolved.
+
+### Architecture / packaging
 
 1. **Institutional packaging:** one Theme #13-derived WG with separate peer deliverables/specifications, another document structure, or another FG-TIDA arrangement?
 2. **Interoperability profile ownership:** should the general handoff abstraction become a reusable specification/profile beyond the #13 envelope, and who maintains it?
@@ -285,7 +316,18 @@ Reviewers are invited to focus on questions that remain genuinely unresolved:
 8. **Editorial ownership:** who is prepared to edit/maintain each deliverable?
 9. **Licensing/IP:** what terms should apply to specifications, fixtures and reference implementations?
 
-For this preparation draft, **independent Incident Lifecycle and Ecosystem Awareness mechanisms are the current technical drafting baseline**. The exact wording and institutional packaging remain reviewable through the FG-TIDA process.
+### Theme #13 defense questions preserved from the originating Issue
+
+10. **Privacy / surveillance boundary:** what minimum signal/provenance state is needed for meaningful blast-radius reduction without creating a surveillance architecture or unnecessary principal disclosure?
+11. **Coordination versus authority:** how should the architecture make it impossible to confuse shared defensive coordination, reputation or corroboration with authority to constrain another participant?
+12. **Containment authority:** who may authorize high-impact containment/kill-switch actions, on what evidence, and how is that authority itself bounded, contestable and auditable?
+13. **Reputation / assurance:** what role, if any, should reputation play, how should source dependence/collusion be handled, and should reputation remain a separate Theme/profile rather than a lifecycle field?
+14. **Detection without cooperation:** which behavioural/fingerprinting/detection outputs are legitimate ecosystem-defense inputs, and which mechanisms belong outside this charter?
+15. **Incentives / alignment:** should incentives for trustworthy/cooperative behaviour remain a later Theme #13 deliverable, be consumed from another workstream, or be split out?
+16. **Operator/decentralization model:** who operates shared infrastructure and what prevents the operator, trust anchor or dominant reporter from becoming a single point of control or failure?
+17. **Agent privacy:** what privacy interests, if any, should be represented for agents themselves, separately from the privacy of principals/users?
+
+For this preparation draft, **independent Incident Lifecycle and Ecosystem Awareness mechanisms are the current technical drafting baseline**. The exact wording, broader Theme #13 partitioning and institutional packaging remain reviewable through the FG-TIDA process.
 
 ---
 
@@ -431,6 +473,7 @@ These are composition boundaries, not a mandatory common runtime vocabulary.
 - UC #6 first deterministic mapping route;
 - one EA-differential paired challenge with nominal-continuity control; and
 - positive/boundary/rejection test discipline.
+- preservation of the broader Theme #13 problem space without forcing all surfaces into the first implementation cycle.
 
 ### Still needed before formal Phase 2 promotion
 
