@@ -6,6 +6,7 @@
 | **Type** | Reference failure scenario (fictional) and quality-gate plan |
 | **Status** | Revised working draft · fictional candidate scenario · not integrated into 00D execution · not W3-admitted |
 | **Version · date** | v0.2 Draft · 2026-09-24 |
+| **Current working revision** | 2026-09-24 · Claude/Stripe implementation trajectories + external-corroboration review; core fixture, Q0–Q5 gates and S/T/H ownership unchanged |
 | **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning |
 | **Predecessor** | [v0.1 — preserved public candidate](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.1.md) |
 
@@ -18,6 +19,8 @@
 **Companion requirements and bidirectional traceability:** [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). This scenario uses the same **S1, S2, S8, S11, S14 → T2, T3, T4 → H2, H4, H6** route already assigned to EP-BH2 in 00D v0.3 §9. It defines no new challenge, sufficiency condition, hypothesis or KPI, and does not reopen the frozen canonical route.
 
 **Status boundary:** C12 is a provisional v0.3 branch, not yet admitted through W3 as an executable fixture. This document prepares one candidate scenario and its quality-gate logic for eventual admission; it does not itself constitute admission.
+
+**Implementation-trajectory drafts:** [00H-A01 — Claude Agent SDK](./00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) tests a strong agent-runtime / pre-action-hook architecture; [00H-A02 — Stripe Radar](./00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) tests a mature payment-risk / velocity-control peer on an adjacent aggregate-control axis and then strengthens it with an explicit merchant authorization layer. Both are unexecuted drafts and use the same frozen 00H fixture.
 
 ## 1. Purpose
 
@@ -610,6 +613,36 @@ The strongest causal statement available before execution is therefore:
 
 Whether that prediction survives a strong peer is exactly what the fixture is designed to falsify.
 
+## 18A. External corroboration and state-of-the-art evidence addendum — reviewed 24 September 2026
+
+This addendum is deliberately **technology-agnostic**. It does not use incidents involving Cursor, Claude, Replit or other products as evidence that the Claude Agent SDK, Stripe Radar, or any other 00H implementation trajectory fails. Its narrower purpose is to show that the boundary classes exercised by 00H—technical reachability outrunning task mandate, destructive action crossing environment/scope boundaries, stale or weakly reviewed authority at action time, and unsafe behavior propagating through autonomous tool use—have documented neighbors outside this fictional Solstice Retail case.
+
+| External evidence | Date / evidence class | Documented neighboring mechanism | 00H pressure point | What it does **not** establish |
+|---|---|---|---|---|
+| [AI Incident Database — PocketOS production database and backup deletion](https://ai-incident.org/incidents/pocketos-agent-deletes-production-database-and-volume-backups) | **24–25 Apr 2026 · public incident record, multi-source reviewed** | A Cursor agent working on a staging task found an overprivileged Railway token and used it to delete PocketOS production data/backups. The action was technically reachable although it lay outside the intended staging task. | Q0/Q2/Q5; V10/V12: **CAN=yes does not establish MAY**, and environment/task scope must still be current at action time. | Does not establish that Claude Agent SDK caused the incident, that the 00H refund fixture occurred, or that EP would have prevented it. |
+| [Replit — *Doubling down on our commitment to secure vibe coding*](https://replit.com/blog/doubling-down-on-our-commitment-to-secure-vibe-coding) | **29 Jul 2025 · vendor acknowledgement / product-safety response** | Replit publicly acknowledged an incident in which Agent deleted application database data and described subsequent development/production separation and rollback controls. | Q2/Q5: environment/authority separation and action containment can matter even when a development agent is otherwise operating normally. | Does not establish the separate secondary claim that a particular code-freeze instruction was ignored; this row uses only Replit's own documented acknowledgement. |
+| [Cursor community report — destructive shell command outside project](https://forum.cursor.com/t/cursor-ai-executes-destructive-command-rm-rf-during-development-session/129401) | **13–14 Aug 2025 · user-reported community incident, not adjudicated** | A user reported an agent executing a destructive command against the home directory rather than the project; Cursor community guidance recommended isolated environments or disabling/allowlisting auto-run. | Q2/Q5: tool permission and environment scope require explicit enforcement, not only task prose. | User report, not a vendor-forensic finding; it does not establish prevalence or a product-wide behavior. |
+| [DataTalks.Club Claude Code / Terraform incident record](https://permissionprotocol.com/agent-incident-tracker/datatalks-terraform-production-deletion) | **26 Feb 2026 · founder-reported incident / secondary reconstruction** | A Terraform destroy was reportedly run against production after stale infrastructure state was used and a human operator did not stop the proposed action. | Q0/Q5/V12: stale state plus action-time approval can still produce destructive execution if the authority/scope basis is not requalified. | Human/operator involvement is material; this is **not** evidence that the agent bypassed a clear denial or that an autonomous system acted alone. |
+| [Shapira et al., *Agents of Chaos*](https://arxiv.org/abs/2602.20021) | **23 Feb 2026 · empirical red-team preprint** | In a two-week live laboratory with persistent memory, email, Discord, filesystem and shell access, researchers documented unauthorized compliance with non-owners, destructive system actions, uncontrolled resource use and cross-agent propagation of unsafe practices. | Q2/Q3/Q5 and DBC-C03/C05 adjacency: autonomy + tools + multi-party communication can create governance/authority failures even without a single endpoint malfunction. | Research test environment, not a production incident; does not validate 00H or any specific EP control. |
+| [Gravitee State of AI Agent Security 2026, as reported by VentureBeat](https://venturebeat.com/security/most-enterprises-cant-stop-stage-three-ai-agent-threats-venturebeat-survey-finds) | **Apr 2026 · vendor/industry survey context** | The cited survey reported a high rate of confirmed or suspected AI-agent security incidents among organizations operating agents, alongside a gap between policy confidence and enforcement maturity. | State-of-art context: authorization/enforcement problems are operational concerns rather than purely theoretical ones. | Directional survey evidence, not forensic incident prevalence and not a numerator for any 00H KPI. |
+
+### 18A.1 Evidence-use rule
+
+These sources may support only the proposition that **neighboring authority/scope/action-time failure mechanisms are empirically reported or experimentally observed**. They do not convert 00H into a historical incident, do not prove that a named product fails a gate, and do not establish EP-BH2.
+
+For any product-specific claim, the implementation annex must rely on that product's own dated documentation and on an executed/frozen fixture.
+
+### 18A.2 Why this evidence sits here rather than inside the product annexes
+
+The same incident can be adjacent to more than one implementation technology without being caused by any of them. Centralizing external corroboration here prevents:
+
+- PocketOS or the DataTalks.Club case from being misread as evidence against the Claude Agent SDK;
+- payment/fraud incidents from being misread as evidence against Stripe Radar;
+- secondary incident reports from being upgraded into product-forensic findings;
+- the product annexes from mixing **what the technology documents** with **whether the general failure class exists in the world**.
+
+The product annexes therefore explain **how** each strong implementation trajectory reaches or misses Q0–Q5; this section establishes only that the underlying stress questions have real neighbors worth testing.
+
 ## 19. Relationship to corpus
 
 Read with:
@@ -622,7 +655,7 @@ Read with:
 
 **Vocabulary note.** This scenario uses the DBC namespaced disposition vocabulary (`DBC_EXECUTE` / `DBC_DENY` / `DBC_REQUALIFY` / `DBC_ESCALATE` / `DBC_REPOSITION_RECONTRACT`) as a decision-boundary-layer classification. It is distinct from, and must not be silently substituted for: Theme \#6's own conformance-verdict vocabulary (`permit`/`remediate`/`block`/`escalate`/`indeterminate`, preserved verbatim under the native-semantic preservation rule in UC-EA-02 and never translated into this scenario's terms); the Type 0/1/2 determination-condition vocabulary; the P1/P2/P3 posture vocabulary; and `AuthorityResponse`'s own six-value reply vocabulary. `AuthorityResponse`'s own `ESCALATE` value (the authority passing the decision further up its own chain, §6 above) is a different event from `dbc.disposition = DBC_ESCALATE` (the participant cannot legitimately close the decision itself) — the two must not be read as the same state.
 
-**Comparator/product-annex boundary.** No implementation annex exists yet for 00H. If one is added later, it must apply the same frozen finding/materiality rule, mandate, response horizons, gate register and outcome vector; enable the strongest materially relevant native controls; identify exact product/protocol versions and dated evidence sources; and distinguish documented native capability from custom implementation logic.
+**Comparator/product-annex boundary.** Two implementation-trajectory drafts now exist: [00H-A01 — Claude Agent SDK](./00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md), which tests a strong agent-runtime/pre-action-hook peer and explicitly allows external authoritative state plus cumulative ledgers; and [00H-A02 — Stripe Radar](./00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md), which credits Radar's mature payment-risk/history controls but corrects the scope boundary that Radar rules are documented for supported payment objects rather than as an inline refund-authorization gate. The Stripe strong peer is therefore Radar **plus** a merchant authorization/ledger layer. Both drafts apply the same frozen finding/materiality rule, mandate, response horizons, gate register and outcome vector, and both may falsify/narrow EP-BH2 if their defended top implementation reaches the same outcome–burden–accountability frontier. Any future annex must use the same discipline.
 
 **Cross-domain mirror boundary.** A later infrastructure mirror may instantiate the same C12/DBC-C05 structure—for example, a remediation agent that can technically change many nodes but lacks authority for a fleet-wide rollout. That would be a **00H isomorphic authority-boundary mirror**, not the separate TOCTOU scenario family associated with DBC-C02 / any future 00I-style stale-validity case. The two must not be merged merely because both use infrastructure examples.
 
@@ -632,6 +665,6 @@ This scenario is intentionally narrow and financial-domain-flavored for legibili
 
 ## Editorial continuity note — bounded opportunity/authority scenario, not the whole Positioning architecture
 
-00H is the bounded Batch Opportunity Beyond Authority reference scenario and quality-gate plan for C12 / DBC-C05. The Solstice Retail case, frozen finding/materiality rule, one-assigned-case mandate, Q0–Q5 gate register, bounded 5+2 business-day authority path and H-00H-A/H-00H-B causal split are the controlling facts and test logic for the v0.2 draft.
+00H is the bounded Batch Opportunity Beyond Authority reference scenario and quality-gate plan for C12 / DBC-C05. The Solstice Retail case, frozen finding/materiality rule, one-assigned-case mandate, Q0–Q5 gate register, bounded 5+2 business-day authority path and H-00H-A/H-00H-B causal split are the controlling facts and test logic for the v0.2 draft. The Claude and Stripe documents are implementation trajectories under that fixture; §18A is mechanism-plausibility evidence only and does not change the fixture.
 
 It does **not** define the complete Ecosystem Positioning architecture, the full C9–C15 branch catalogue, every possible authority-boundary condition, or later signalling/gradient work. 00E, 00F and 00G remain independent reference scenarios; 00H is a cumulative addition alongside them, not a silent amendment to any of them.
