@@ -28,13 +28,13 @@ surface for six fixture-bounded ablation arguments.
 |---|---:|---|
 | [A6a / original 00G F/G falsifier](../00K-A6a-P6-00G/README.md) | **10** | demonstrates that the unmodified F/G pair is confounded: authority-only is a TRUE SUBSTITUTE for that pair |
 | [A6b / 00F P6 isolation](../00K-A6b-P6-00F/README.md) | **11** | re-tests P6 on shared-resource composition with local authority/freshness/determination held equal |
-| [Independent cross-scenario kernels](../00K-cross-scenario-independent/README.md) | **6** | reimplements P4/P5/P6 kernels without importing A1–A6 helper code |
+| [Independent cross-scenario kernels](../00K-cross-scenario-independent/README.md) | **12** | independently reimplements P1–P6 kernels across a second scenario family without importing A1–A6 helper code |
 
-**Supplemental surface: 27 tests.**
+**Supplemental surface: 33 tests.**
 
-**Full campaign surface: 128 tests.**
+**Full campaign surface: 134 tests.**
 
-Independent repository CI reproduction: [**GitHub Actions full campaign run**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) — all 10 jobs completed successfully, including the aggregate 128/128 gate.
+Independent repository CI reproduction: [**GitHub Actions full campaign run**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) — all 10 jobs completed successfully, including the aggregate 134/134 gate.
 
 ## Why the P6 falsifier belongs in the suite
 
@@ -45,7 +45,7 @@ A6a finds an authority-only TRUE SUBSTITUTE for that unmodified pair.
 The canonical A6 harness therefore freezes authority equal across F/G and
 isolates source dependence. A6b then tests the same composition principle on a
 different failure family. See
-[00K-A05 — P6 Confound Falsifier & Isolation Note](../../00K_A05_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
+[00K-A06 — P6 Confound Falsifier & Isolation Note](../../00K_A06_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
 
 This negative result is part of the evidence, not an exception to it.
 
