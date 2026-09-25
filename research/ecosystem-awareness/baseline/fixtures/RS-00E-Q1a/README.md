@@ -5,6 +5,8 @@
 
 > **Status:** pre-execution. No Step-0 trace or fixture-family execution has been published.
 
+The [Stage-0 runner](./stage0_runner.py), [frozen observations](./frozen_observations_v05.json) and [separate post-run oracle](./oracle_reference_v05.json) implement the v0.5 descriptive harness contract. The runner executes the active and detector-disabled Step-0 controls before B1/B3; once a run and its Canonical Trace v1 files have been published, this status must be updated with that commit and the exact result. The presence of runnable code alone does not change the pre-execution status.
+
 ## Operative pre-registration
 
 The only operative record for a new RS-00E-Q1a run is:

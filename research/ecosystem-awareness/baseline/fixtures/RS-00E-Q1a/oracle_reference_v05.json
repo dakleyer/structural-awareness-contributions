@@ -1,0 +1,5 @@
+{
+  "Q1a-P1": {"independent_support": false, "shared_upstream_sources": ["P"], "R_ref": "none material for this test question", "reason": "both received qualifiers name P"},
+  "Q1a-P2": {"independent_support": false, "shared_upstream_sources": ["P"], "R_ref": "none material for this test question", "reason": "the available registry resolves feed-7 and vendor-X to P"},
+  "Q1a-C0": {"independent_support": true, "shared_upstream_sources": [], "R_ref": "none material for this test question", "reason": "the available registry resolves P_A and P_B to distinct roots"}
+}
