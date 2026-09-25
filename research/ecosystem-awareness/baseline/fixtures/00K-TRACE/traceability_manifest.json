@@ -18,6 +18,7 @@
         "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part03.md"
       ],
       "primary_requirements": [
+        "S2",
         "S14"
       ],
       "requirements": [
