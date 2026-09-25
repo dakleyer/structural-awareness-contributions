@@ -10,6 +10,7 @@
 | **Corpus-grounded independence** | [00K-A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) |
 | **Formal sketch** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Shared-substrate mathematical independence** | [00K-A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
+| **Requirement closure/uniqueness proof** | [00K-A21](./00K_A21_REQUIREMENT_GRAMMAR_CLOSURE_AND_UNIQUENESS_PROOF_v0.1.md) |
 | **Machine-readable integrity check** | [fixtures/00K-TRACE](./fixtures/00K-TRACE/README.md) |
 | **Status** | semantic traceability proof; no change to frozen requirement semantics |
 | **Date** | 25 September 2026 |
@@ -266,7 +267,7 @@ and:
 \operatorname{range}(primary)=\{P1,\ldots,P6\}.
 \]
 
-This is **coverage and non-vacuity**, not a claim that the many-to-many semantics reduce to a partition.
+This is **coverage and non-vacuity**, not by itself a claim that the many-to-many semantics reduce to a partition. [A21](./00K_A21_REQUIREMENT_GRAMMAR_CLOSURE_AND_UNIQUENESS_PROOF_v0.1.md) supplies the stronger syntactic result: relative to the independently declared decision-boundary ontology, the grammar has exactly fourteen requirement normal forms and maps bijectively to S1–S14.
 
 ---
 
