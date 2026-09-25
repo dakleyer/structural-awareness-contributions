@@ -8,4 +8,4 @@ The negative branch supplies repeated non-decision-relevant evidence until finit
 
 P1/P3/P4 can preserve uncertainty and handoffs correctly yet continue consuming capacity. A crude one-step timeout stops the negative branch but fails the positive branch. A budgeted, decision-relevant search passes both — but that is **SEMANTIC RECONSTRUCTION of P2**.
 
-Result: **11/11**. No TRUE SUBSTITUTE found in the tested repair surface.
+Result after additive bounded-grid hardening: **13/13**. The grid varies the resolution position and finite budget, confirming the exact boundary between reachable resolution and bounded no-conclusion while the P2-blind path still exhausts capacity. No TRUE SUBSTITUTE found in the tested repair surface.
