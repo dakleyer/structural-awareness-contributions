@@ -57,7 +57,25 @@ commitment,\ history,\ frame,\ unresolved,\ multi\_principal
 \}.
 \]
 
-These are not new entities; they are the recurring typed objects already named by S1–S14.
+These are not inferred from the S# labels. They normalize decision-material objects already present in the pre-requirement Foundation / \(\sigma(d,t)\) / F1–F9 language. Their provenance is fixed below before the S1–S14 normalization is applied.
+
+### 2.1A Independent provenance of typed objects
+
+| Typed object | Pre-requirement source |
+|---|---|
+| **authority** | legitimate owner/applicable authority in \(\sigma(d,t)\); F1 authority/constraint boundary; Foundation rule that evidence/signalling does not create authority |
+| **preference** | principal preference, hard limits and tolerated trade-offs consumed as decision-context facts |
+| **identity** | subject/acting entity plus role/representation binding used at participant/interface boundaries |
+| **human** | finite human attention, availability and determination/intervention capacity already present in the Foundation |
+| **evidence** | subject–proposition–decision test unit and declared evidence/observation boundary |
+| **policy** | externally owned mission/policy/objective constraints consumed by F1 and preserved through composition |
+| **commitment** | receiving decision, null action, commitment/action boundary and action-time validity |
+| **history** | retained state/provenance/outcome history used by F9 re-entry, challenge and repair |
+| **frame** | \(W(d,t)\), operating context, regime assumptions and validity envelope |
+| **unresolved** | Poles B/C/D, Type 0 state and Type-1/Type-2 management boundaries |
+| **multi_principal** | F5 scope-indexed composition across participants/domains/dependencies |
+
+Every object above can therefore be named before consulting the S# taxonomy.
 
 ### 2.2 Lifecycle operators
 
@@ -84,6 +102,24 @@ Their meanings are the implementation-neutral lifecycle actions already present 
 - intervene through human/technical action;
 - reconstruct/challenge/repair historical state;
 - assess evidence against the receiving decision.
+
+### 2.2A Independent provenance of lifecycle operators
+
+| Operator | Pre-requirement architectural source |
+|---|---|
+| **QUALIFY** | F1/F3/F4 decision, local-result and received-evidence qualification |
+| **ESCALATE** | F7 targeted requalification / bounded escalation |
+| **CONTAIN** | F6/F7 bounded posture and corrective response request |
+| **HANDOFF** | F4/F8 qualified receive/signal boundary |
+| **BIND** | identity/representation and subject binding at the relying boundary |
+| **DELEGATE** | externally governed authority propagation / subdelegation relation |
+| **COMPOSE** | F5 General Law of Epistemic Composition |
+| **SHIFT** | F6/F9 continued validity and requalification across time/context change |
+| **INTERVENE** | human/technical intervention as a response distinct from evidence creation |
+| **REPAIR** | F9 feedback, re-entry and future-state correction |
+| **ASSESS** | evidence/proposition/decision sufficiency assessment used by the receiving decision |
+
+The lifecycle grammar therefore also exists independently of the S# labels.
 
 ### 2.3 Principle invariant
 
