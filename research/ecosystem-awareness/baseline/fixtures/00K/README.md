@@ -19,7 +19,7 @@
 
 Repository CI: [**00K symbolic ablations — successful bounded-grid run #10**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36091807530). Six matrix jobs independently re-run the updated expected counts **13/13/15/29/14/17** on Python 3.13.
 
-The count is not a score and not 101 independent experiments. It is the current executable **core** regression surface. Supplemental falsification/isolation/cross-scenario packages add 27 tests; see the [134-test campaign router](../00K-SUITE/README.md).
+The count is not a score and not 101 independent experiments. It is the current executable **core** regression surface. Supplemental falsification/isolation/cross-scenario packages add 33 tests; see the [134-test campaign router](../00K-SUITE/README.md).
 
 ## Common test discipline
 
@@ -54,6 +54,6 @@ They do not establish:
 - empirical failure of any named commercial technology;
 - a production certification;
 - an EA/EP-exclusive implementation claim; or
-- that 101 core (or 128 full-campaign) passing assertions are independent empirical observations.
+- that 101 core (or 134 full-campaign) passing assertions are independent empirical observations.
 
 A new branch-correct mechanism that passes without reconstructing a removed invariant is a valid counterexample and must be credited.
