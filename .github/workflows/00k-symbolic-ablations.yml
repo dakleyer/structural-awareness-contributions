@@ -114,6 +114,10 @@ jobs:
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-SUITE
         run: python validate_manifest.py
 
+      - name: Validate formal relative-independence certificate
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL
+        run: python formal_independence_certificate.py
+
       - name: Run complete symbolic campaign
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-SUITE
         shell: bash
