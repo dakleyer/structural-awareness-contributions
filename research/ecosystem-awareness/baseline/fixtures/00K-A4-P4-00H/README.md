@@ -112,3 +112,42 @@ Current active suite:
 ```
 
 The earlier duplicate alignment file created during integration was removed once the already-existing reviewed `test_ablation_A4_v02_additions.py` was confirmed to carry the same successor checks. The reviewed `ablation_A4.py` was also restored verbatim; A2-L remains isolated in `a2l_strong_peer.py`. This keeps one executable fixture family while preserving provenance of every layer.
+
+
+## Serious-repair hardening — minimal authority basis versus full lineage
+
+A later additive hardening layer is maintained in:
+
+- [`p4_strong_repairs.py`](./p4_strong_repairs.py)
+- [`test_p4_strong_repairs.py`](./test_p4_strong_repairs.py)
+- [00K-A10 — P4 Minimal Authority Basis & Lineage Refinement](../../00K_A10_P4_MINIMAL_AUTHORITY_BASIS_AND_LINEAGE_REFINEMENT_v0.1.md)
+
+This layer adds **47** tests and raises the active A4 surface from **29** to **76**.
+
+The important result is not only a larger count. The strong repair search finds that a
+full historical root→leaf delegation chain is **not necessary** for 00H when a
+legitimate owner-side PDP, scoped capability or maker-checker produces a current
+decision-sufficient permit bound to the actual campaign/action set.
+
+Therefore the current A4 conclusion is refined:
+
+- leaf RBAC, rate/amount caps, risk gates, static allow-lists and non-owner approval
+  remain FAILED SUBSTITUTES;
+- full lineage remains a valid SEMANTIC RECONSTRUCTION;
+- scoped capability and legitimate owner approval are alternative P4 implementations;
+- an opaque scoped PDP permit passes U/G/I/NM without exposing full delegation history;
+- the minimal invariant still required by the matched U/G fixture is a **current,
+  decision-sufficient, non-amplifying authority qualification**, not necessarily a
+  complete historical lineage at the relying component.
+
+Local execution of the additive serious-repair layer:
+
+```text
+47 passed
+```
+
+Current A4 total:
+
+```text
+76 tests
+```
