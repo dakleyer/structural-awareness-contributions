@@ -9,6 +9,8 @@
 | **Current working revision** | 2026-09-24 · route/variant/strong-peer completion + public/readability layer; fictional event and canonical S/T/H ownership unchanged |
 | **Owner corpus** | Ecosystem Awareness |
 | **Supersedes / superseded by** | Working successor to [v0.1](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md); v0.1 remains preserved provenance |
+**Model Case Study / bounded extensibility — CASE-STUDY-EXTENSIBILITY:00F.** This 00F scenario is the minimum concrete instantiation of the **Systemic Divergence under Heterogeneous Local Windows and Shared Capacity** family. Upward, downward and horizontal reuse is controlled by the [00F Case-Study Extensibility Profile](./00F_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) and [A25 — Failure Case-Study Extensibility & Requirements-Conformance Transfer](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). A variant inherits the conformance-transfer result only after the A25 admission tests are satisfied; the profile is a first-pass structural generalization, not universal or executed equivalence.
+
 
 > **Worked virtual case and integrated quality plan.** This document turns the existing EA proposition `HOLD / Emergency Plan A / Emergency Plan B / NORMAL` into one concrete smart-city mobility failure route. It does not describe a real incident, require central orchestration of every actor, establish that EA prevents catastrophe, or modify the parent TIDA mobility case.
 
