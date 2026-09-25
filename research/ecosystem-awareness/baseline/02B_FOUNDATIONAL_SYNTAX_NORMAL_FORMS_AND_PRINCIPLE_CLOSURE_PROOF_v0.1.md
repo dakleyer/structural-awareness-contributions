@@ -103,7 +103,7 @@ This is a formal reading aid for the existing subject–proposition–decision a
 
 ---
 
-## 3. Primitive failure terms
+## 3. Primitive failure terms and formation rules
 
 A primitive foundational failure term is:
 
@@ -113,13 +113,28 @@ F=\langle\tau,\mu,J\rangle
 
 possibly with one material qualifier from \(Q\) identified as the locus of the failure.
 
+The syntax does **not** admit the arbitrary Cartesian product \(\{T0,T1,T2\}\times\mu\). Only combinations already meaningful in 01/02 are well formed.
+
+Define the admitted primitive forms \(\Gamma_F\):
+
+| Form | Failure/condition class | Operator | Meaning |
+|---|---|---|---|
+| **G0** | T0 / category uncertainty | LOCAL or RECEIVE | structural-vs-incomplete status or residual is misclassified/strengthened |
+| **G1** | T1 | SEARCH | unresolved determination/expansion has no bounded viable closure |
+| **G2** | T2 | ACT | unresolved/materially insufficient state is promoted to local closure |
+| **G3** | T2-like qualification amplification | RECEIVE or COMPOSE, authority qualifier material | authority/representation claim is relied on beyond current scope/basis |
+| **G4** | T2-like stale-frame promotion | SHIFT→ACT | earlier qualified state is reused after material change without requalification |
+| **G5** | T2 | COMPOSE | local/scoped/dependent state is promoted or substituted into ecosystem-level support |
+
+A received Type-1 state, for example, is not a separate seventh primitive form: if the receiver mislabels the source's open-ended process, G0 applies; if the receiver itself enters unbounded determination, G1 applies.
+
 The syntax therefore asks three questions:
 
 1. **What epistemic position is being represented?**
 2. **Which Type-0/1/2 condition/failure is occurring?**
-3. **Under which operator does the qualification fail?**
+3. **Under which admitted operator does the qualification fail?**
 
-No P1–P6 label is used to construct this language.
+No P1–P6 label is used to construct \(\Gamma_F\).
 
 ---
 
@@ -186,18 +201,18 @@ The table is not the proof; §§6–7 establish coverage and the condition for a
 
 ### Theorem
 
-For every primitive failure term \(F\) well formed in \(L_F\), if \(F\) violates the root epistemic discipline of 01/02, then \(F\) violates at least one member of \(\{P1,\ldots,P6\}\).
+For every primitive failure term \(F\in\Gamma_F\) well formed in \(L_F\), if \(F\) violates the root epistemic discipline of 01/02, then \(F\) violates at least one member of \(\{P1,\ldots,P6\}\).
 
 ### Proof by operator/failure case
 
-Take any well-formed primitive failure term \(F=\langle\tau,\mu,J\rangle\).
+Take any admitted primitive failure term \(F\in\Gamma_F\). By the formation rules, it is one of G0–G5.
 
-1. If the failure is a misclassification or unjustified strengthening of A/B/C/D before a distinct closure/transition operator is material, R0 applies and the failure is a **P1** violation.
-2. If \(\tau=T1\) and \(\mu=SEARCH\), R1 applies and the failure is a **P2** violation.
-3. If \(\tau=T2\) and \(\mu=ACT\) at the local decision boundary, R2 applies and the failure is a **P3** violation.
-4. If the failed qualifier is authority/representation and reliance crosses RECEIVE/COMPOSE, R3 applies and the failure is a **P4** violation.
-5. If a previously qualified judgement is reused after material change under SHIFT→ACT, R4 applies and the failure is a **P5** violation.
-6. If several local/received judgements are combined and the failure is scope/dependence/compatibility substitution under COMPOSE, R5 applies and the failure is a **P6** violation.
+1. **G0** reduces by R0 to **P1**.
+2. **G1** reduces by R1 to **P2**.
+3. **G2** reduces by R2 to **P3**.
+4. **G3** reduces by R3 to **P4**.
+5. **G4** reduces by R4 to **P5**.
+6. **G5** reduces by R5 to **P6**.
 
 The operators can overlap. A concrete failure may violate more than one P. The theorem requires coverage, not a disjoint partition.
 
