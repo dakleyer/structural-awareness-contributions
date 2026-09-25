@@ -309,7 +309,7 @@ This is executable symbolic evidence.
 P_i \rightarrow A20
 \]
 
-A20 constructs a shared-substrate countermodel \(\omega_i\) satisfying all \(P_j,j\neq i\), while violating \(P_i\).
+A20 constructs a shared-substrate finite structure \(\mathcal M_i\) satisfying the common coherence theory \(B\) and all \(P_j,j\neq i\), while violating \(P_i\).
 
 This proves:
 
@@ -339,12 +339,12 @@ This gives the complete triangular relation:
 
 | Foundation/02 source | P | Anchor S | Scenario | Harness | Corpus witness | Pure-math witness |
 |---|---|---|---|---|---|---|
-| bounded determination/residual + received qualification | **P1** | **S14** | 00J | A1 | M1 | \(\omega_1\) |
-| finite capacity + I1/O1 | **P2** | **S4** | 00E | A2 | M2 | \(\omega_2\) |
-| unresolved ≠ certainty + I2 | **P3** | **S5** | 00F | A3 | M3 | \(\omega_3\) |
-| received-claim qualification + authority-specific S1/S8 | **P4** | **S8** | 00H | A4 | M4 | \(\omega_4\) |
-| dynamic validity/requalification | **P5** | **S10** | 00I | A5 | M5 | \(\omega_5\) |
-| O2/E2-O + General Law of Epistemic Composition | **P6** | **S9** | 00G | A6 | M6 | \(\omega_6\) |
+| bounded determination/residual + received qualification | **P1** | **S14** | 00J | A1 | M1 | \(\mathcal M_1\) |
+| finite capacity + I1/O1 | **P2** | **S4** | 00E | A2 | M2 | \(\mathcal M_2\) |
+| unresolved ≠ certainty + I2 | **P3** | **S5** | 00F | A3 | M3 | \(\mathcal M_3\) |
+| received-claim qualification + authority-specific S1/S8 | **P4** | **S8** | 00H | A4 | M4 | \(\mathcal M_4\) |
+| dynamic validity/requalification | **P5** | **S10** | 00I | A5 | M5 | \(\mathcal M_5\) |
+| O2/E2-O + General Law of Epistemic Composition | **P6** | **S9** | 00G | A6 | M6 | \(\mathcal M_6\) |
 
 This table is a router. The proof is in §§2–7 and the linked source documents.
 
@@ -361,9 +361,9 @@ Its validator checks:
 3. every S has one primary principle;
 4. every P owns at least one primary S;
 5. the six unique ablation anchors are present;
-6. each P has a scenario, harness, corpus witness and pure-math witness;
+6. each P has a scenario, harness, corpus witness and shared-substrate witness;
 7. every referenced repository path exists; and
-8. the pure-math witnesses are unique.
+8. the shared-substrate witnesses are unique.
 
 This does not replace semantic review. It makes **documentary drift detectable**.
 
