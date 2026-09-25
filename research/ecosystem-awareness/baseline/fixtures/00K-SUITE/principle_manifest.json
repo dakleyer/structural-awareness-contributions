@@ -80,13 +80,13 @@
       "invariant": "Locally valid or repeated determinations must not be promoted to ecosystem truth or silently substituted across principals/domains without explicit dependency, independence or compatibility composition.",
       "core_fixture": "../00K-A6-P6-00G",
       "expected_tests": 74,
-      "negative_control": "matched-authority correlated-source false frame",
-      "positive_control": "matched-authority materially independent support for legitimate transition",
+      "negative_control": "matched-authority hidden-dependency branch with six distinct agents, organizations and immediate sources that collapse transitively to one material root",
+      "positive_control": "same non-dependency observables but materially independent transitive roots support legitimate transition",
       "strong_peer_classification": "SEMANTIC_RECONSTRUCTION",
       "known_confounds": [
-        "unmodified 00G F/G changes both source independence and transition authority; A6a finds an authority-only TRUE SUBSTITUTE for that naive pair",
-        "counting distinct immediate source IDs is a partial implementation because apparently distinct sources may share a transitive material root",
-        "hardened A6 equalizes identities, organizations, immediate source count, signatures, freshness, confidence, timing and content diversity while varying only transitive dependency"
+        "unmodified 00G F/G changes both source independence and transition authority; authority-only is a TRUE SUBSTITUTE for that naive pair",
+        "distinct immediate source IDs are only a partial proxy; six immediate sources can collapse to one material upstream root",
+        "hardened P6 requires dependency/correlation/compatibility semantics at the decision-material level, not a specific graph implementation"
       ]
     }
   ],
