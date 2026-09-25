@@ -25,10 +25,8 @@ def main() -> int:
     supplemental = sum(int(x["expected_tests"]) for x in data["supplemental_fixtures"])
     total = core + supplemental
 
-    if core != data["core_expected_tests"] != 101:
-        raise SystemExit("invalid core total")
-    if core != 101:
-        raise SystemExit(f"core count mismatch: {core}")
+    if core != data["core_expected_tests"] or core != 101:
+        raise SystemExit(f"core count mismatch: computed={core}, declared={data['core_expected_tests']}")
 
     if supplemental != data["supplemental_expected_tests"] or supplemental != 33:
         raise SystemExit(f"supplemental count mismatch: {supplemental}")
