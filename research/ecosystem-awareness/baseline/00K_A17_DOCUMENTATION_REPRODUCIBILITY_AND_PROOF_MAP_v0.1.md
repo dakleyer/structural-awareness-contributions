@@ -63,6 +63,7 @@ For a new technical reviewer:
 | **A22** | full-cube realizability / Boolean diagnostic minimality | 64-signature construction + six-coordinate information lower bound |
 | **A23** | canonical requirement-conformance sufficiency | proves applicable S/T conformance ⇒ P1–P6; retains anchor-only counterexamples |
 | **A24** | P↔S information gain / non-equivalence | proves requirement refinement is richer than the P signature; many-to-one projection, not reformulation |
+| **A25** | failure case-study extensibility / conformance transfer | converts 00E–00J from one-off scenarios into bounded case families with upward/downward/horizontal extension tests and a conditional requirements-conformance transfer theorem |
 | **02B** | foundational syntax / principle closure proof | A/B/C/D + Type-0/1/2 + admitted operators normalize to P1–P6 |
 
 ---
