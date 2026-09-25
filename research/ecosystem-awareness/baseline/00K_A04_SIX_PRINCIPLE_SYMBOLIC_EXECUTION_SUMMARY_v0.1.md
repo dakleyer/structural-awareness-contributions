@@ -32,7 +32,7 @@
 
 **Full registered campaign:** **379 tests**.
 
-**Independent CI milestone:** GitHub Actions [run 36100046965](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) independently verified the prior **101 core + 33 supplemental = 134/134** campaign. The current all-six-hardened surface is **346 core + 33 supplemental = 379** and is configured in the workflow/manifest; the older run must not be cited as reproduction of the enlarged surface.
+**Independent CI reproduction:** GitHub Actions [run 36108965548](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548) completes successfully across all **10 jobs** and reproduces the current serious-hardened surface at **346/346 core + 33/33 supplemental = 379/379**. The prior 134/134 run remains historical lineage. See [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md).
 
 The count is a regression/execution count, **not a scientific score**: one pytest assertion is not one independent experiment. The evidentiary content is the branch structure, the attempted substitutes and the falsifiable distinction between TRUE SUBSTITUTE and SEMANTIC RECONSTRUCTION.
 
