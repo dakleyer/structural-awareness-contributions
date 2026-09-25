@@ -1,6 +1,6 @@
 # 00K-FORMAL/requirement-sufficiency — S/T conformance ⇒ P1–P6
 
-Executable companion to [00K-A23](../../00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md).
+Executable companion to [00K-A23](../../../00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md).
 
 This meta-proof package tests the reverse traceability direction:
 
