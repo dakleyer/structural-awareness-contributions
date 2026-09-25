@@ -130,11 +130,11 @@ The non-vacuous primitive combinations normalize as follows.
 | **S7 Identity/representation link** | identity × BIND/QUALIFY | P4, P6 |
 | **S8 Bounded subdelegation/non-amplification** | authority × DELEGATE | P4, P6 |
 | **S9 Multi-principal composition/non-substitution/conflict** | multi_principal × COMPOSE | P6, with P1/P4 where material |
-| **S10 Commitment/material change** | commitment/basis × SHIFT | P5, with P1/P2 |
-| **S11 Policy/objective integrity across domains** | policy/preference × COMPOSE/SHIFT | P6, P4, P5 |
+| **S10 Commitment/material change** | commitment/basis × SHIFT/ESCALATE | P5, with P1/P2 |
+| **S11 Policy/objective integrity across domains** | policy/preference × QUALIFY/COMPOSE/SHIFT | P6, P4, P5 |
 | **S12 Accountability/challenge/repair** | history/evidence × REPAIR | P4, P5 |
 | **S13 Authority history vs intervention history** | authority/history × INTERVENE/REPAIR | P4, P5, P6 |
-| **S14 Evidence-to-decision assessment** | evidence × ASSESS across all transitions | P1–P6 as applicable |
+| **S14 Evidence-to-decision assessment** | evidence × ASSESS/SHIFT across all transitions | P1–P6 as applicable |
 
 A concrete requirement may invoke several rows. That is composition of requirements, not evidence of a missing primitive generator.
 
@@ -156,12 +156,14 @@ Take any admissible \(\lambda\).
    - authority → S1;  
    - preference → S2;  
    - identity → S7;  
-   - evidence-to-decision → S14.
+   - evidence-to-decision → S14;
+   - policy/objective basis → S11.
 
 2. **ESCALATE**  
    - frame/context transition → S3;  
    - human capacity/intervention → S4;  
-   - unresolved containment → S5.
+   - unresolved containment → S5;  
+   - commitment-state escalation/revalidation → S10.
 
 3. **CONTAIN**  
    - unresolved/incomplete/conflicting state → S5.
@@ -185,7 +187,8 @@ Take any admissible \(\lambda\).
    - frame/regime transition → S3;  
    - commitment/material basis change → S10;  
    - policy/version change → S11;  
-   - authority currentness → S1.
+   - authority currentness → S1;  
+   - evidence-basis freshness/continued sufficiency → S14 (and S5 where unresolved/stale state is material).
 
 9. **INTERVENE**  
    - human effective oversight → S4;  
