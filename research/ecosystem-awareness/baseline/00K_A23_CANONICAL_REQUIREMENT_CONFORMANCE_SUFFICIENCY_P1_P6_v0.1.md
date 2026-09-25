@@ -6,6 +6,7 @@
 | **Forward semantic traceability** | [A19](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) |
 | **Requirement-basis closure** | [A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **Shared-substrate principle semantics** | [A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
+| **Information gain / non-equivalence companion** | [00K-A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) |
 | **Executable certificate** | [fixtures/00K-FORMAL/requirement-sufficiency](./fixtures/00K-FORMAL/requirement-sufficiency/README.md) |
 | **Status** | requirement-conformance → principle sufficiency proof |
 | **Date** | 25 September 2026 |
@@ -311,7 +312,7 @@ Therefore there is no requirements-conforming comprehensive trace in the declare
 
 ## 6. Why this is not six pairwise equivalences
 
-The correct relation is **refinement**:
+The correct relation is **refinement**, with the information asymmetry formalized separately in [A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md):
 
 \[
 \text{Canonical requirements conformance}
