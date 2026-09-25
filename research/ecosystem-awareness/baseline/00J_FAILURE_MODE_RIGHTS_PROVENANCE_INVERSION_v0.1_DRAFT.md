@@ -4,6 +4,7 @@
 |---|---|
 | **ID** | 00J |
 | **Type** | Reference failure scenario (fictional) and quality-gate plan |
+| **Case-study role** | Minimum concrete instantiation of the [00J extensible case family](./00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) |
 | **Status** | Working draft · fictional candidate scenario · not a benchmark result |
 | **Version · date** | v0.1 Draft · 2026-09-24 |
 | **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning |
