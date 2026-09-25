@@ -180,6 +180,85 @@ The philosophy starts from the [**Integrated Foundational Theory**](../../resear
 
 **Ecosystem Agent Defense** is the defensive consequence in a choreographed, non-orchestrated ecosystem: independently governed agents can exchange qualified signals and recover justified operation within existing authority. It does not require a central orchestrator, a shared world model or universal cooperation.
 
+
+## How the architecture is built — Foundation → Principles → Requirements → Tests
+
+The corpus is deliberately layered. The layers are connected, but they are **not repetitions of the same information**.
+
+### 1. Foundation — why the problem exists
+
+The [Integrated Foundational Theory](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and the [Epistemic Safety Principles & Control Matrix](../../research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) define the underlying problem:
+
+- every participant acts from a bounded and revisable representation;
+- the four epistemic positions **A/B/C/D** keep established, unresolved, potentially knowable and structural-residual state distinguishable;
+- **Type 0** represents legitimate structural non-determination;
+- **Type 1** captures unresolved determination that becomes unbounded or non-viable;
+- **Type 2** captures uncertainty, scope or residual being promoted into unjustified certainty or permission;
+- received signals, time/change and composition can preserve or destroy those qualifications.
+
+The Foundation is intentionally richer than the six operational principles. It contains the theory, taxonomy and explanatory machinery from which the operational basis is extracted.
+
+### 2. Principles — the compact operational invariants
+
+**P1–P6** are the smallest current operational basis used for ablation and formal reasoning. They answer:
+
+> **What property must survive if a system is to avoid the structural failure?**
+
+They are not a rewriting of the whole Foundation.
+
+[**02A — Foundation→Principles semantic derivation**](../../research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) shows where each P comes from semantically.  
+[**02B — Foundation syntax closure**](../../research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) strengthens that link: within the declared A/B/C/D + Type-0/1/2 + received/time/composition language, the normative failure forms normalize into P1–P6 unless a genuinely new foundational primitive is introduced.
+
+The direction is therefore deliberately:
+
+\[
+Foundation \longrightarrow P1\text{–}P6
+\]
+
+not an information-equivalence claim in the opposite direction.
+
+### 3. Requirements — where the invariants must become testable
+
+The [Canonical Requirements](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) refine the principles into **S1–S14**, with **T1–T4** sufficiently-good conditions and explicit evidence/KPI obligations.
+
+The requirements answer a different question:
+
+> **Where, on which object, under whose ownership, at which lifecycle transition and with what observable evidence must the principle be preserved?**
+
+That is why the requirements carry more operational information than a P label: authority, identity, human capacity, policy, handoff, delegation, composition, commitment, history, privacy, evidence-to-decision binding, deadlines and measurable conformance all become explicit.
+
+The connection is strong in both useful directions:
+
+- [**A19**](../../research/ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md): each principle has a real, falsifiable requirement surface;
+- [**A23**](../../research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md): canonical S/T conformance implies the applicable P invariant;
+- [**A24**](../../research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md): this two-way relation is **refinement, not reformulation** — several different requirements can project to the same P signature because requirements add object/lifecycle/owner/conformance information.
+
+So the useful relationship is:
+
+\[
+P1\text{–}P6
+\;\underset{\text{conformance sufficiency}}{\overset{\text{semantic refinement}}{\rightleftarrows}}\;
+S1\text{–}S14/T1\text{–}T4
+\]
+
+without claiming that the two layers contain exactly the same information.
+
+### 4. Tests — trying to break the construction
+
+The proof programme then asks several different questions rather than relying on one omnibus “validation” claim.
+
+| Question | Test / proof route | Current bounded result |
+|---|---|---|
+| **Are the six principles operationally sufficient across the declared failure corpus?** | [00K six-principle sufficiency & adversarial ablation](../../research/ecosystem-awareness/baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) · [A15 complete testbook](../../research/ecosystem-awareness/baseline/00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) | corrected leave-one-out / strongest-repair programme across 00E–00J; 346 core + 33 supplemental registered tests |
+| **Can any current principle be removed without losing a distinct invariant?** | [A16 corpus-grounded independence](../../research/ecosystem-awareness/baseline/00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) · [A20 shared-substrate mathematical independence](../../research/ecosystem-awareness/baseline/00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) | each Pi has a countermodel where the other five hold; current basis is irredundant relative to the declared semantics |
+| **Is six minimal for preserving the full Boolean diagnostic signature?** | [A22 full-cube / Boolean diagnostic minimality](../../research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) | all 64 P-signatures are realizable; fewer than six Boolean coordinates cannot preserve all 64 without loss |
+| **Could a requirement be missing even if the current P↔S matrix looks complete?** | [A21 requirement-basis closure](../../research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) | every admitted decision-frame object×lifecycle obligation normalizes to S1–S14; a genuine S15 must introduce a new primitive |
+| **Can a system comply with the canonical requirements and still violate the underlying principle?** | [A23 conformance-sufficiency proof](../../research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) | for the declared semantics, the applicable S/T conformance bundle entails the corresponding P invariant |
+| **Are principles and requirements merely duplicate descriptions?** | [A24 information gain / non-equivalence](../../research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) | no: requirements add typed operational information that is lost when projected back to the compact P signature |
+
+These results are deliberately bounded. “Minimality” above means the stated Boolean diagnostic lower bound, not absolute minimality across every imaginable mathematical formalization; symbolic fixtures are not live-product or universal empirical validation.
+
+
 ---
 
 # Requirements — replaying the failure scenarios as tests
@@ -188,6 +267,11 @@ The philosophy starts from the [**Integrated Foundational Theory**](../../resear
 > **Central finding — six failure scenarios, fourteen requirements, one common contract.**
 >
 > Across **00E–00J**, the same **S1–S14 canonical requirements** define the requirements-conforming **Route Q**. No scenario-specific requirement family has been needed.
+
+
+The requirement layer is where the architecture stops being only a theory and becomes a **testable contract**. The six scenarios are intentionally different, but they all ask the same underlying question: can the system preserve enough qualified state, authority, scope, timing and dependency information to reach a legitimate bounded disposition?
+
+That is why the same S1–S14/T1–T4 contract is reused instead of inventing one bespoke rule set per scenario. The requirement route is considered satisfied only when the applicable S# clause, the required T# sufficiently-good condition, the evidence and the relevant KPI/falsification record all refer to the same declared decision boundary \(\sigma(d,t)\).
 
 The [**00 — Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is the central normative test contract: **S1–S14 → T1–T4 → H1–H6 → KPI / falsification**.
 
@@ -225,6 +309,64 @@ The active positive case family is:
 | **00J** | [Proposition-Scoped Provenance](../../research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) | narrow evidence remains narrow across provenance/rights/attestation chains and new domains |
 
 The extension rule is deliberately bounded: an extension may activate additional **existing** S1–S14/T1–T4 obligations, but it may not invent a local normative gate and still claim to be the same family. If a decision-material obligation cannot normalize through [A21](../../research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md), that is Requirements-vNext evidence rather than a silent S15. Listed extensions are design-level structural mappings until separately frozen/executed.
+
+
+### Canonical reuse route — from one successful traversal to a family of cases
+
+The canonical path is now:
+
+\[
+Foundation
+\rightarrow
+P1\text{–}P6
+\rightarrow
+S1\text{–}S14/T1\text{–}T4
+\rightarrow
+Failure\ Scenario
+\rightarrow
+Requirements\text{-}Conforming\ Route
+\rightarrow
+Success\ Model\ Case
+\rightarrow
+\{Down,Up,Horizontal\}
+\]
+
+The six scenarios are therefore **minimum fixtures**, not the final scope of the contribution.
+
+[A25](../../research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) defines when a new situation is genuinely in the same structural family: it must preserve the kernel, decision boundary, failure predicate, inherited requirement route, positive controls and finite-resource assumptions. [A26](../../research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) then carries the successful S/T traversal through three controlled directions:
+
+- **downward** — reduce to the smallest implementation that still contains the structural problem and successful route;
+- **upward / vertical** — add agents, actors, organizations, sources, role chains, jurisdictions or aggregation depth;
+- **horizontal** — change sector, technology or service domain while preserving the same structural relations.
+
+The practical transfer statement is:
+
+\[
+C'\in Family(C)
+\land
+Conf_{R_C}(C')
+\Rightarrow
+\neg F_C(C')
+\]
+
+and, when the required positive controls also pass:
+
+\[
+C'\in Family(C)
+\land
+Conf_{R_C}(C')
+\land
+PositiveControls
+\Rightarrow
+G_C(C').
+\]
+
+In plain language: **if the new case really preserves the same structural mechanism and it satisfies the inherited canonical requirements, it cannot follow the same structural path to failure; it realizes the corresponding bounded success pattern instead.**
+
+This is why the extensibility matters. The result is not limited to six memorable stories. It transfers to admitted families of systems — for example 00G can move from a robot collective to a multi-agent organization and down to one LLM/SLM using conversation memory, RAG or vector storage — without creating a new S# merely because the implementation technology or domain changed.
+
+The boundary is equally important: if a new case needs a decision-material obligation that cannot be expressed through the current [A21 requirement grammar](../../research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md), that is **Requirements-vNext evidence**, not permission to add a local gate and still claim inherited conformance.
+
 
 The strongest current bounded conclusion is recorded in the [**Six-Principle Serious Ablation Completion Review**](../../research/ecosystem-awareness/baseline/00K_A13_SIX_PRINCIPLE_SERIOUS_ABLATION_COMPLETION_REVIEW_v0.1.md). The [**Complete Six-Principle Ablation Testbook**](../../research/ecosystem-awareness/baseline/00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) is the direct reader route for the six narrative ablations and their executable Python counterparts. The semantic proof spine is now explicit: [**02A**](../../research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) derives/conserves Foundation→P1–P6; [**02B**](../../research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) proves syntactic closure of A/B/C/D + Type 0/1/2 + received/time/composition semantics into P1–P6; [**A19**](../../research/ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) verifies non-vacuous P1–P6↔S1–S14 traceability; [**A21**](../../research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) proves relative requirement closure under the current decision-boundary grammar; [**A24**](../../research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) formalizes the information asymmetry between the compact P basis and the richer S/T conformance layer, showing that P↔S is refinement rather than reformulation; [**A25/A26 extensibility**](../../research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) is routed in the dedicated extensibility section above; [**A16**](../../research/ecosystem-awareness/baseline/00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) gives corpus-grounded relative independence; and [**A20**](../../research/ecosystem-awareness/baseline/00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) is the preferred shared-substrate mathematical independence proof. [A17](../../research/ecosystem-awareness/baseline/00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md) remains the complete documentation map. P1/P2/P3/P5/P6 retain provisional semantic-necessity support inside their corrected symbolic fixtures. P4 produces a refinement: **full receiver-side delegation history is not necessary in 00H**, while a current, decision-sufficient, non-amplifying authority qualification remains necessary in the tested surface and can be implemented by lineage, scoped capability, legitimate maker-checker or an owner-side PDP.
 
