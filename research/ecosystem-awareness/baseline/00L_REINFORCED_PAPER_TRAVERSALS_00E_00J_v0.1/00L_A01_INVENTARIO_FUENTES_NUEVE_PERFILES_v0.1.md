@@ -23,3 +23,19 @@
 ## Regla de evidencia
 
 Una fila solo autoriza la frase breve indicada. No autoriza inferir que el producto detecta régimen, conoce autoridad de negocio, preserva una oportunidad o supera una traza. Esas capacidades deben aparecer como implementación propuesta, hecho sintético o `NO CONCLUSION`.
+
+## Rutas exactas para auditar la procedencia
+
+Los identificadores M/L/F/A/O/P de la tabla superior son **índices internos de cada perfil**, no citas externas verificadas de nuevo por 00L. Consultar fuente primaria, sección y fecha dentro del perfil enlazado; para una afirmación publicable de funcionamiento actual volver a congelar la página/versionado externo. Esta matriz no afirma que las nueve fuentes vivas se hayan reconsultado el 25 de septiembre.
+
+| Perfil del inventario | Documento del repositorio |
+|---|---|
+| 00E-A01 | [Agent 365 v0.2](../00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| 00E-A02 | [LangGraph/LangSmith v0.2](../00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| 00F-A01 | [FIWARE/Orion-LD v0.2](../00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| 00F-A02 | [AWS IoT v0.1](../00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.1.md) |
+| 00G-A01 | [OpenAI stack v0.1](../00G_A01_OPENAI_AGENTS_STACK_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |
+| 00H-A01 | [Claude v0.4](../00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) |
+| 00H-A02 | [Stripe Radar v0.4](../00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) |
+| 00I-A01 | [AWS Step Functions/RDS v0.2](../00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
+| 00J-A01 | [Panodyssey/TEMS v0.1](../00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |

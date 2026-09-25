@@ -25,6 +25,29 @@ La decisión es producir una síntesis útil para cuatro departamentos dentro de
 | Dependencia oculta | tres respuestas proceden del mismo origen | contar una ruta de evidencia, no tres | aumentar confianza por número de mensajes |
 | Capacidad insuficiente | no caben verificación y salida antes de plazo | `NO_COMMITMENT`/`PRESERVE_RESIDUAL` | declarar completitud no demostrada |
 
+## Traza de los cuatro fallos no compensables
+
+La síntesis no es un único gate. [00E](../00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) §§1, 5–8 fija cinco etapas, cuatro subsistemas/Q1–Q4, enmarcado Q0 y composición Q5; un techo de **100 millones de tokens**, recursos humanos y deadlines finitos. Ese techo no es presupuesto individual de cada brazo ni evidencia de que se gastó realmente. El fixture debe congelar snapshots, modelo, denominadores y asignación entre subsistemas (§7.2). La tabla inicial «evidencia cae» es una rama ilustrativa, **no equivale** a los cuatro modos originales.
+
+| Paso | O / F del escenario | K | D condicionado |
+|---|---|---|---|
+| E0 marco | cuatro departamentos y decisión empresarial; presupuesto total común | Q0 alcance, fuente, capacidades, asignación, ventana | sin presupuesto por etapa y deadline explícitos, no afirmar que una ruta cabe. |
+| E1 producción I2 | banca/seguros/fraude/resiliencia pueden heredar misma dependencia de datos (§5.1) | Q1 preservar hechos materiales, dependencia y residual | «cuatro dicen estable» no son cuatro corroboraciones; la compresión falsa no pasa. |
+| E2 revisión I1 | dirección recibe representación ya empobrecida (§5.2) | Q2 capacidad humana/cola/alternativas para comprobar | repetir aprobación no corrige I2; escalar ilimitadamente tampoco. |
+| E3 estrategia O2 | hipótesis plausibles de otros dominios (§5.3) | Q3 no promover posibilidad a estrategia sin evidencia pertinente | conservar opciones como candidatas, no decisión confirmada. |
+| E4 despliegue O1 | residual estructural persiste (§5.4) | Q4 acción acotada y reversible si autorizada, plazo y residual | ni despliegue incierto como certeza ni veto infinito. |
+| E5 composición | salidas de Q1–Q4 pueden parecer complementarias | Q5 no compensar gates fallidos con aprobaciones/fluidéz | fallo material en un gate no se promedia; síntesis cualificada o límite explícito. |
+
+| Control/falsador | Resultado lógico |
+|---|---|
+| continuidad, snapshots/independencia estables | entregar decisión dentro de techo y plazo conservando lo decisivo; HOLD/búsqueda infinita falla. |
+| dependencia compartida revelada | revisar Q1 y Q5, no inflar evidencia por conteo de mensajes. |
+| nueva fuente independiente y autoridad aplicable | reabrir solo base afectada; cambio genuino no es sospechoso por definición. |
+| cómputo insuficiente | preservar hechos y residual; `NO_COMMITMENT` a cierre no justificado, con owner/plazo. |
+| peer fuerte | Agent 365 y LangGraph/LangSmith pueden instrumentar controles propuestos; si el peer preserva gates dentro del mismo techo/coste, no diferencial EA. |
+
+No hay numeradores ni trazas de ejecución para cobertura/latencia. Una asignación de tokens no fijada impide demostrar que Q0–Q5 y la respuesta final caben bajo 100M; la celda cuantitativa queda `NO CONCLUSION`.
+
 ## KPI en papel
 
 `Cobertura material = afirmaciones materiales conservadas / afirmaciones materiales del fixture`. La fracción no es una medición de producto: solo comprueba el cálculo sobre el denominador sintético fijado. Sin denominador fijado por el autor: `NO CONCLUSION`.

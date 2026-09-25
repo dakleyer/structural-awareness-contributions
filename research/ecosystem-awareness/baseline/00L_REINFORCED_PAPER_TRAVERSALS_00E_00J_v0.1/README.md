@@ -1,8 +1,8 @@
 # 00L — Refuerzo de recorridos 00E–00J
 
-**Estado:** paquete de trabajo aditivo · 25 de septiembre de 2026 · sin ejecución de productos.
+**Estado:** paquete de trabajo aditivo · 25 de septiembre de 2026 · sin ejecución de productos; deducciones condicionales, no resultados medidos.
 
-Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E–00J. No sustituye, congela ni reescribe los escenarios, perfiles de producto o requisitos canónicos. Sus tablas son **trazas calculadas en papel sobre hechos sintéticos**.
+Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E–00J. No sustituye, congela ni reescribe los escenarios, perfiles de producto o requisitos canónicos. Sus tablas son **deducciones condicionales en papel sobre hechos sintéticos**.
 
 ## Entregables
 
@@ -19,6 +19,7 @@ Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E�
 11. [Revisión adversarial corta](./00L_A05_REVISION_ADVERSARIAL_v0.1.md).
 12. [Índice de afirmaciones publicables](./00L_A06_INDICE_AFIRMACIONES_PUBLICABLES_v0.1.md).
 13. [Mapa de integración con los recorridos originales](./00L_A07_MAPA_INTEGRACION_RECORRIDOS_ORIGINALES_v0.1.md).
+14. [Protocolo de reproducibilidad, observación y oráculo](./00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md).
 
 ## Regla de lectura
 
@@ -26,4 +27,4 @@ Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E�
 
 ## Orden de trabajo
 
-El piloto se ejecuta primero en 00H y 00I. Después se completan las tablas de 00E, 00G, 00F y 00J con el mismo esquema, sin cambiar hechos, reglas o hipótesis después de observar una salida.
+Los seis anexos contienen ahora reglas paso a paso y controles adversos; todavía no hay ejecución de los nueve perfiles ni logs para comparar H0/H1/H2. El siguiente hito es congelar los campos pendientes de A04, registrar observaciones/costes conforme A08, y solo entonces adjudicar resultados. Los enlaces desde cada recorrido original siguen pendientes de la fase de integración/merge descrita en A07; este PR no los modifica.
