@@ -6,6 +6,7 @@
 | **Principle semantics** | [02A](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) |
 | **Canonical requirements** | [00 — S1–S14](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
 | **Traceability proof** | [00K-A19](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) |
+| **Conformance→principle sufficiency** | [00K-A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) |
 | **Post-freeze adversarial review** | [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 | **Status** | relative requirement-basis completeness proof; no modification of frozen S1–S14 semantics |
 | **Date** | 25 September 2026 |
@@ -317,7 +318,8 @@ It is distinct from:
 
 - A19 — semantic P↔S traceability;
 - A15/A1–A6 — operational strongest-repair necessity tests;
-- A16/A20 — logical independence/irredundancy of P1–P6.
+- A16/A20 — logical independence/irredundancy of P1–P6;
+- A23 — reverse specification-sufficiency: canonical requirement conformance entails the applicable P invariants.
 
 Together they support the chain:
 
