@@ -35,6 +35,8 @@ This document is now the **active 00G reference**. Earlier 00G files remain avai
 
 **Visual-reading rule.** Figures are explanatory, not normative. They may compress the prose but never replace fixture facts, gate evidence, DBC dispositions, KPI denominators/oracles or source boundaries.
 
+**Case-study family / extensibility:** the Bar-to-Napoleon narrative is the **minimum mnemonic instantiation** of the [00G Collective False-Context Convergence case-study family](./00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md). The profile explicitly includes qualifying multi-turn conversational-LLM / sycophantic-drift extensions when repeated dependent claims become pseudo-corroboration and displace a bound task/frame; one-turn agreement alone is not enough. Family admission follows [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md).
+
 ## 1. Purpose
 
 This scenario tests whether qualified ecosystem signalling can reduce **collective false-context convergence** and unjustified mission displacement **without becoming a blanket mechanism that rejects legitimate regime change**.
