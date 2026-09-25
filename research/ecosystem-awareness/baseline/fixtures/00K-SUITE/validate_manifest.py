@@ -1,6 +1,6 @@
 """Validate the 00K execution-lock manifest.
 
-This is a meta-integrity check. It is not counted in the 134 ablation tests.
+This is a meta-integrity check. It is not counted in the 163 ablation tests.
 """
 
 from __future__ import annotations
@@ -25,13 +25,13 @@ def main() -> int:
     supplemental = sum(int(x["expected_tests"]) for x in data["supplemental_fixtures"])
     total = core + supplemental
 
-    if core != data["core_expected_tests"] or core != 101:
+    if core != data["core_expected_tests"] or core != 130:
         raise SystemExit(f"core count mismatch: computed={core}, declared={data['core_expected_tests']}")
 
     if supplemental != data["supplemental_expected_tests"] or supplemental != 33:
         raise SystemExit(f"supplemental count mismatch: {supplemental}")
 
-    if total != data["campaign_expected_tests"] or total != 134:
+    if total != data["campaign_expected_tests"] or total != 163:
         raise SystemExit(f"campaign count mismatch: {total}")
 
     for p in principles:
