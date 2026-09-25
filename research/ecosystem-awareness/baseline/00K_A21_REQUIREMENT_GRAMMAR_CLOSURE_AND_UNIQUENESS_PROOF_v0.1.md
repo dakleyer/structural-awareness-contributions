@@ -1,5 +1,8 @@
 # 00K-A21 — Requirement Grammar Closure & S1–S14 Uniqueness Proof — v0.1
 
+> **Preserved explanatory companion.** The preferred requirement-completeness proof is [00K-A21 — Requirement Basis Closure & Relative Completeness](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md), which validates every admitted object×operator pair rather than only marginal ontology coverage.
+
+
 | | |
 |---|---|
 | **Upstream principle normal forms** | [02B — Foundational Failure Grammar & P1–P6 Normal Forms](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) |
