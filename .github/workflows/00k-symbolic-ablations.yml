@@ -134,7 +134,7 @@ jobs:
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE
         run: python validate_closure.py
 
-      - name: Validate A25 case-study extensibility registry (X1-X7)
+      - name: Validate A25/A26 failure-success case extensibility registry
         working-directory: research/ecosystem-awareness/baseline/fixtures/CASE-EXTENSION
         run: python validate_extensibility.py
 
