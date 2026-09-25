@@ -10,6 +10,8 @@
 | **Reference industrial case** | [FG-TIDA Theme #17 — Digital Rights Infrastructure for Text: A Production Use Case for Agent Identity](https://github.com/FG-TIDA/themes/issues/17), proposed publicly by Alexandre Leforestier (Panodyssey) |
 | **Canonical requirements basis** | [00 — Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
 | **Change-control basis** | [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+**Model Case Study / bounded extensibility — CASE-STUDY-EXTENSIBILITY:00J.** This 00J scenario is the minimum concrete instantiation of the **Provenance-Scope Inversion into Unsupported Downstream Decision** family. Upward, downward and horizontal reuse is controlled by the [00J Case-Study Extensibility Profile](./00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) and [A25 — Failure Case-Study Extensibility & Requirements-Conformance Transfer](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). A variant inherits the conformance-transfer result only after the A25 admission tests are satisfied; the profile is a first-pass structural generalization, not universal or executed equivalence.
+
 
 Digital rights infrastructures are strongest where they make authorship, provenance, permission and accountability explicit. They become dangerous when valid but narrower records travel further — and become easier to consume — than the original source relationship they were never entitled to replace. 00J tests exactly that inversion.
 
