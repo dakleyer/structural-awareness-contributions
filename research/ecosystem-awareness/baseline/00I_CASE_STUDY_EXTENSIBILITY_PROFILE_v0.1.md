@@ -4,7 +4,8 @@
 |---|---|
 | **Family** | Semantic TOCTOU / Stale Decision-Basis Reuse |
 | **Minimum instantiation** | [00I — The Patch That Undid the Fix](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) |
-| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) |
+| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [A26 success conversion](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) |
+| **Success Model Case** | [Action-Time Requalification](./00I_SUCCESS_MODEL_CASE_ACTION_TIME_REQUALIFICATION_v0.1.md) |
 | **Status** | first-pass structural family profile |
 
 > **Family claim.** PostgreSQL, rollback and a 40-minute queue are fixture parameters. The family is any system in which an action is correctly qualified at \(t_0\), remains technically executable, but a material part of the decision basis changes before \(t_1\) and the old determination is reused without sufficient requalification.
@@ -118,3 +119,8 @@ C'\in Family(00I)\land Conf(R_I)\Rightarrow\neg F_I.
 \]
 
 This is the cleanest of the six transfer families because the failure predicate is almost exactly the P5 predicate.
+
+
+## Success-case route
+
+The failure-family profile above is paired with the positive [**Action-Time Requalification**](./00I_SUCCESS_MODEL_CASE_ACTION_TIME_REQUALIFICATION_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.
