@@ -423,6 +423,14 @@ The six ablations deliberately use **one different reference scenario each**. In
 
 **Restoration test.** Restore P6 only: Branch F must preserve the valid mission and deny/requalify the unsupported transition, while matched Branch G must still permit a legitimate transition when genuinely independent evidence and applicable authority support it. A “never change” system fails.
 
+### A6 execution correction — isolate P6 before interpreting the result
+
+The unmodified 00G F/G pair is a valid safety scenario but is **confounded as a P6 necessity test** because genuine Branch G differs from false Branch F in both source independence **and applicable transition authority**. The [A6a falsification-first run](./fixtures/00K-A6a-P6-00G/README.md) finds a genuine **TRUE SUBSTITUTE for that unmodified pair**: an authority-only rule rejects F and accepts G without inspecting source independence.
+
+The executable canonical P6 test therefore uses the [matched-authority A6 fixture](./fixtures/00K-A6-P6-00G/README.md): authority, identity count, signatures, freshness and confidence are frozen equal across F/G, leaving source-dependence structure as the discriminating variable. That isolated suite is **17/17** and finds no TRUE SUBSTITUTE in its tested repair surface; the passing strong peer reconstructs P6 through explicit source-independence composition.
+
+A second, differently structured isolation, [A6b on 00F](./fixtures/00K-A6b-P6-00F/README.md), holds local authority/freshness/determination equal and varies only shared resource-time compatibility. It is **11/11** and again finds no TRUE SUBSTITUTE in the tested repair surface. Full methodological disposition: [00K-A05 — P6 Confound Falsifier & Isolation Note](./00K_A05_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
+
 ---
 
 ## 6. Ablation execution status
@@ -434,7 +442,7 @@ The six ablations deliberately use **one different reference scenario each**. In
 | **−P3** | S5 | 00F | unresolved/stale state can become determinate corridor posture | explicit unresolved state blocks/requalifies | **No TRUE SUBSTITUTE found; explicit unresolved/non-permission closure passes by reconstructing P3 semantics.** | **SYMBOLIC HARNESS + GRID EXECUTED — 15/15** |
 | **−P4** | S8 | 00H | root→leaf authority is lost; campaign amplification/loss route reopens | lineage + non-amplification restored | **No TRUE SUBSTITUTE found; A2-L passes U/G/I/NM by reconstructing P4 semantics.** | **PAPER EXECUTED + SYMBOLIC HARNESS + GRID EXECUTED — reviewed v0.2 21/21; active composed harness 29/29** |
 | **−P5** | S10 | 00I | stale-but-technically-valid action executes after material change | time-of-use requalification restored | **No TRUE SUBSTITUTE found; full material-basis compare/binding passes by reconstructing P5 semantics; generation-only compare is partial.** | **SYMBOLIC HARNESS + GRID EXECUTED — 14/14** |
-| **−P6** | S9 | 00G | dependent/local claims become collective truth | false transition rejected; genuine change still accepted | **No TRUE SUBSTITUTE found; dependency-aware source-independence peer passes by reconstructing P6 semantics.** | **SYMBOLIC HARNESS + GRID EXECUTED — 17/17** |
+| **−P6** | S9 | 00G + 00F isolation | dependent/local claims become collective truth or incompatible local postures compose unsafely | isolated false/composition branch rejected while matched positive branch remains executable | **Unmodified 00G F/G is confounded and admits an authority-only TRUE SUBSTITUTE; corrected matched-authority 00G and independent 00F isolation find no TRUE SUBSTITUTE, with passing peers reconstructing P6 semantics.** | **FALSIFIER 10/10 + ISOLATED 00G 17/17 + 00F CORROBORATION 11/11** |
 
 ---
 
