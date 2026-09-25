@@ -6,6 +6,8 @@
 **Institutional status:** preparation material only; not submitted as a Phase 2 Charter; not an established Working Group, deliverable, specification, chair/editor assignment or FG-TIDA decision  
 **Versioning rule:** this file remains **v0.1** as the first reviewable preparation baseline. Git history carries successive revisions so previously shared links remain stable. Post-v0.1 contributor review is recorded below as preparation input for a later **v0.2 Working Draft**; recording that input here does **not** silently convert or rewrite the v0.1 candidate Charter text.
 
+**Earlier source:** the [pre-restructuring charter-preparation draft](https://github.com/dakleyer/structural-awareness-contributions/blob/6ad0be7378bcc22d5977549d8d7a6adfb998495b/research/ecosystem-awareness/fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md) preserves the longer contributor, sequencing and promotion-gate account. Its earlier wording is historical preparation material, not a later FG-TIDA decision.
+
 > **Purpose.** Prepare a compact, reviewable Phase 2 charter candidate for Theme #13 while preserving the boundaries already emerging in public discussion. The draft is intentionally more mature than an Issue comment and less committal than an official Charter PR.
 
 ## v0.1 review status — preparation input for v0.2
