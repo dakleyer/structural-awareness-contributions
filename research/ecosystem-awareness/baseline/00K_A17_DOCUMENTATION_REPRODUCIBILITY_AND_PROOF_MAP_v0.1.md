@@ -6,7 +6,8 @@
 | **Parent** | [00K — Six-Principle Sufficiency & Adversarial Ablation Test](./00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) |
 | **Current executable testbook** | [00K-A15](./00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) |
 | **Corpus-grounded formal proof** | [00K-A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) |
-| **Pure mathematical proof** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
+| **Formal sketch** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
+| **Preferred pure mathematical proof** | [00K-A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **CI reproduction** | [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) |
 | **Date** | 25 September 2026 |
 
@@ -22,9 +23,10 @@ For a new technical reviewer:
 2. [**A02 Requirements Coverage Matrix**](./00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) — why S1–S14 already matter across 00E–00J.
 3. [**A15 Complete Six-Principle Ablation Testbook**](./00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) — all six narrative routes + Python surfaces in one place.
 4. [**A13 Completion Review**](./00K_A13_SIX_PRINCIPLE_SERIOUS_ABLATION_COMPLETION_REVIEW_v0.1.md) — current bounded scientific interpretation.
-5. [**A18 Pure Mathematical Independence Proof**](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) — self-contained model-theoretic proof using only abstract semantic definitions; no fixture/test premise.
-6. [**A16 Formal Relative Independence Proof**](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) — mathematical non-derivability / irredundancy theorem.
-7. [**A14 CI Reproduction Record**](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) — repository-level independent execution of 379/379 symbolic tests.
+5. [**A20 Shared-Substrate Mathematical Independence Proof**](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) — preferred pure mathematical route; common records/provenance/scope/time substrate plus background coherence theory, no fixture/test premise.
+6. [**A18 Formal Independence Sketch**](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) — retained lightweight Boolean sanity check; correct but structurally easier.
+7. [**A16 Formal Relative Independence Proof**](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) — mathematical non-derivability / irredundancy theorem.
+8. [**A14 CI Reproduction Record**](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) — repository-level independent execution of 379/379 symbolic tests.
 
 ---
 
@@ -50,7 +52,9 @@ For a new technical reviewer:
 | **A15** | complete six-principle ablation testbook | preferred single reader artifact |
 | **A16** | formal relative-independence proof | mathematical proof layer |
 | **A17** | this documentation/proof/reproducibility map | navigation / audit |
-| **A18** | pure mathematical independence proof | self-contained model-theoretic independence / irredundancy proof with no fixture or test premise |
+| **A18** | formal independence sketch | lightweight Boolean sanity check; not the strongest independence claim |
+| **A19** | principle–requirement semantic conservation proof | verifies non-vacuous P→S→scenario→ablation traceability |
+| **A20** | shared-substrate mathematical independence proof | preferred pure mathematical independence result relative to common coherence theory B |
 
 ---
 
