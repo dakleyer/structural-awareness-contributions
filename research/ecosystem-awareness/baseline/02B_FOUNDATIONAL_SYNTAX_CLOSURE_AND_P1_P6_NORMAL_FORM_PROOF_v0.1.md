@@ -1,6 +1,6 @@
 # 02B — Foundational Syntax Closure & P1–P6 Normal-Form Proof — v0.1
 
-> **Preserved alternate formalization.** The preferred syntactic closure proof is [02B — Foundational Syntax, Normal Forms & Principle Closure](./02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md).
+> **Canonical current syntactic-closure proof.** This is the active 02B reader route for Foundation → P1–P6 closure.
 
 
 | | |
