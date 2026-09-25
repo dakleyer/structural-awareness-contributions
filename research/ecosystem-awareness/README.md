@@ -74,6 +74,12 @@ The [canonical architecture benchmark and reference-scenario evidence](./baselin
 
 The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour with equal or lower burden, that result counts **against** EA differentiation.
 
+### Failure scenarios as extensible case-study families
+
+The six active failure scenarios **00E–00J are minimum concrete instantiations, not claims limited to their memorable story details**. [**A25 — Failure Case-Study Extensibility & Requirements-Conformance Transfer**](./baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) applies the DAOS Annex-II discipline to each family: **upward/vertical** extension increases scale or organizational depth, **downward** extension reduces the case to its smallest structural implementation, and **horizontal** extension changes domain while preserving the same failure kernel. The six profiles are [00E](./baseline/00E_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md), [00F](./baseline/00F_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md), [00G](./baseline/00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md), [00H](./baseline/00H_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md), [00I](./baseline/00I_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) and [00J](./baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md).
+
+Family membership is structural, not analogical: the kernel, decision boundary, failure predicate, inherited requirement route and positive controls must survive the mapping. For an admitted extension, A23 plus A25 gives the conditional result **canonical requirements conformance ⇒ the same family failure cannot occur**. The listed extensions are currently design-level mappings unless a profile separately records a frozen/executed fixture; this is not yet a claim that every superficially similar implementation has been proved equivalent.
+
 ### Reference scenarios and executable route
 
 - [00E — 100 Million Tokens / compounding context failure](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)
