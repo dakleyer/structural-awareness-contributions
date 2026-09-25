@@ -5,9 +5,12 @@
 | **Parent** | [00K — Six-Principle Sufficiency & Adversarial Ablation Test](./00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) |
 | **Executable testbook** | [00K-A15](./00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) |
 | **Proof certificate** | [fixtures/00K-FORMAL](./fixtures/00K-FORMAL/README.md) |
+| **Pure mathematical proof** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Status** | **Formal relative-independence proof for the current operational P1–P6 definitions** |
 | **Date** | 25 September 2026 |
 | **Boundary** | model-relative logical independence; not universal minimality or statistical independence |
+
+> **Scope note.** This A16 proof is corpus-grounded: its witness class is induced by the corrected 00K fixtures. For a proof that uses no scenario/test premise, see [00K-A18 — Pure Mathematical Independence](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md).
 
 > **Result.** Under the current 00K operational semantics, P1–P6 are logically independent as an axiom family: for every Pi, there exists a corrected fixture-derived witness model that satisfies the other five principles and violates Pi. Consequently, no Pi is derivable from the conjunction of the other five inside the declared model class.
 
