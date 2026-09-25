@@ -272,7 +272,16 @@ Such a mechanism would be a **TRUE SUBSTITUTE** and would count against P4 neces
 
 ---
 
-## 10. Next executable step
+## 9A. Subsequent executable harness
+
+The deterministic runtime step proposed below has now been implemented as a separate, additive fixture package:
+
+- [**00K-A4 / P4–00H executable harness**](./fixtures/00K-A4-P4-00H/README.md)
+- [**Independent execution + strengthening record**](./fixtures/00K-A4-P4-00H/CORPUS_INTEGRATION_AND_EXECUTION_RECORD.md)
+
+The reviewed imported harness passes **11/11** tests. An additive six-test adversarial layer makes the U/G P4-blind indistinguishability boundary explicit; the combined symbolic suite passes **17/17** tests. This remains deterministic symbolic execution, not live agent/product evidence.
+
+
 
 This annex is the first completed **paper execution** in the 00K family. The next evidence level is a minimal deterministic runtime fixture with four arms:
 
