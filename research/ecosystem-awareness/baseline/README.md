@@ -75,6 +75,18 @@ The paragraph above is retained as the compact reading rule. The table below mak
 
 Where a file carries more specific status prose, freeze language or a controlled-source banner, that local declaration remains authoritative for that file. This legend is a reading aid, not a bulk reclassification of the corpus.
 
+
+### Semantic proof spine — foundation → principles → requirements → tests
+
+The current semantic traceability spine is intentionally split from the frozen source documents:
+
+- [**02A — Foundation-to-Operational-Principle Derivation & Conservation Proof**](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) — verifies how P1–P6 are projected from 01/02, including the typed-boundary status of P4.
+- [**00K-A19 — Principle–Requirement Traceability & Semantic Conservation Proof**](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) — verifies non-vacuous P→S anchors, complete S1–S14 primary coverage, scenario routes and ablation links.
+- [**00K-A20 — Shared-Substrate Mathematical Independence**](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) — preferred pure mathematical independence proof relative to one shared provenance/scope/time substrate and coherence theory B.
+- [**00K-TRACE**](./fixtures/00K-TRACE/README.md) — machine-readable structural integrity check for the same chain; it detects broken coverage/paths but does not replace semantic review.
+
+These are additive proof/traceability artefacts. They do not modify the frozen semantics of 00 or 02.
+
 ## Problem-to-architecture reading route
 
 ### Corpus at a glance
