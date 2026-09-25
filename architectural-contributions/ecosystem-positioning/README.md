@@ -109,11 +109,11 @@ flowchart LR
 <br>
 
 [Ward Discussion v2 PPTX — 19 slides](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical_Ward_Discussion_v2.pptx) ·
-[Google Drive canonical presentation — v1.11](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit) ·
+[Google Drive presentation v1.11 — owner access](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit) ·
 [Combined canonical PPTX mirror — v1.10, pending v1.11 sync](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) ·
 [Requirements & Evidence PPTX](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) ·
 [Architecture & Implementation PPTX](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) ·
-[PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) ·
+[Historical PDF snapshot v1.0 — 9 pages](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) ·
 [Visual Guide](../../research/ecosystem-awareness/VISUAL_GUIDE.md) ·
 [Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) ·
 [Canonical Requirements](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) ·

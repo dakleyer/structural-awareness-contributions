@@ -76,6 +76,8 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 
 ### Reference scenarios and executable route
 
+[Preserved scenario reader guide](./SCENARIO_READER_GUIDE_2026-09-25.md) restores the earlier cross-scenario explanation and 00F/00H/00I walkthroughs; the scenario documents below remain the current sources for their own status.
+
 - [00E — 100 Million Tokens / compounding context failure](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)
 - [00F — smart-city mobility chaos / "The City That Stopped Safely"](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) · [**Freeze Edition**](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) — current working successor; Q0–Q5, N0/N1/Q routes, V0–V9 controls, R0/R1/R2 strong-peer drift comparison, FIWARE/AWS profiles and public corroboration; v0.1 remains preserved for older pinned benchmark references.
 - [00G — collective false-context convergence / "Bar-to-Napoleon" cascade](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) — **canonical working v0.4**; one integrated reference containing the paired opaque false/genuine fixture, corrected A/B/C/D semantics, DBC-namespaced Q0–Q5 quality plan, KPI instrumentation, seven explanatory figures, the OpenAI OAI-G0/G1/G2 implementation trajectories, and §13A external corroboration from documented neighboring sycophancy/conformity/consensus mechanisms; unexecuted and not W3-admitted.

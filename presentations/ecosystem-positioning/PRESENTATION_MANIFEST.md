@@ -2,10 +2,14 @@
 
 **Status:** Working architecture / pre-standardization contribution  
 **Current canonical revision:** **v1.11 — 2026-09-24**  
-**Canonical editable artefact:** [Google Drive canonical PPTX](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit)  
+**Canonical editable artefact (owner access; not public):** [Google Drive canonical PPTX](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit)\
 **Repository PPTX mirror:** [Ecosystem_Positioning_Canonical.pptx](./Ecosystem_Positioning_Canonical.pptx) — binary mirror awaiting v1.11 sync  
-**Repository PDF snapshot:** [Ecosystem_Positioning_Canonical.pdf](./Ecosystem_Positioning_Canonical.pdf) — reading snapshot awaiting v1.11 sync  
-**Google Drive reading snapshot:** https://drive.google.com/file/d/11Qg30zgwgpT4JE-rNIW69ikn5jOa4pYQ/view — awaiting v1.11 sync
+**Repository PDF snapshot:** [Ecosystem_Positioning_Canonical.pdf](./Ecosystem_Positioning_Canonical.pdf) — v1.0, 9-page historical reading snapshot, predating the 17-slide v1.10 mirror and the Ward Discussion v2; awaiting current sync\
+**Google Drive reading snapshot (owner access; not public):** https://drive.google.com/file/d/11Qg30zgwgpT4JE-rNIW69ikn5jOa4pYQ/view — v1.0 historical PDF, awaiting current sync
+
+## Ward discussion deck — v2
+
+[**Ecosystem Positioning · Ward Discussion v2 — 19 slides**](./Ecosystem_Positioning_Canonical_Ward_Discussion_v2.pptx) is the 25 September working discussion deck linked from the Ecosystem Positioning README. It is distinct from the editable canonical v1.11 presentation above and from the two split v1.1 decks below; the older repository mirror and PDF remain explicitly labelled as earlier snapshots.
 
 ## Split outreach decks
 
