@@ -87,6 +87,7 @@ The current semantic traceability spine is intentionally split from the frozen s
 - [**00K-A21 — Requirement Basis Closure & Relative Completeness**](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) — proves that every admitted decision-frame/lifecycle obligation normalizes to S1–S14; a legitimate S15 must introduce a new primitive.
 - [**00K-A21 — Requirement Normal-Form Closure & Relative Completeness**](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) — proves that every primitive requirement expressible in the current decision-boundary grammar normalizes to S1–S14; a non-normalizing in-scope obligation is an explicit S15 falsifier.
 - [**00K-A20 — Shared-Substrate Mathematical Independence**](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) — preferred pure mathematical independence proof relative to one shared provenance/scope/time substrate and coherence theory B.
+- [**00K-A22 — Full-Cube Realizability & Boolean Diagnostic Minimality**](./00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) — realizes all 64 P-signatures and proves that lossless recovery of the full six-principle Boolean diagnostic state requires at least six Boolean coordinates.
 - [**00K-TRACE**](./fixtures/00K-TRACE/README.md) — machine-readable structural integrity check for the same chain; it detects broken coverage/paths but does not replace semantic review.
 
 These are additive proof/traceability artefacts. They do not modify the frozen semantics of 00 or 02.
