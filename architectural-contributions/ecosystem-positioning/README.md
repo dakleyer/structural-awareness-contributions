@@ -137,11 +137,13 @@ The current implementation profiles use concrete technology substrates:
 | **The Patch That Undid the Fix** | [AWS Step Functions / Amazon RDS implementation profile](../../research/ecosystem-awareness/baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) |
 | **The Author Who Pays for His Own Work** | [Panodyssey / ODRL / JSON-LD / TEMS rights-portability profile](../../research/ecosystem-awareness/baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |
 
+[Detailed reader route through scenarios 00E–00J, implementation trajectories and fixtures](../../research/ecosystem-awareness/SCENARIO_READER_GUIDE_2026-09-25.md).
+
 The question is not whether these technologies work.
 
 The question is whether a system that works **locally, correctly and according to specification** can remain valid when it becomes part of a changing ecosystem.
 
-# [The validation journey](../../research/ecosystem-awareness/05-validation/TESTBED_METHOD.md)
+# [The validation journey](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md)
 
 Each scenario follows the same quality-oriented progression.
 
@@ -190,6 +192,40 @@ The philosophy starts from the [**Integrated Foundational Theory**](../../resear
 
 **Ecosystem Agent Defense** is the defensive consequence in a choreographed, non-orchestrated ecosystem: independently governed agents can exchange qualified signals and recover justified operation within existing authority. It does not require a central orchestrator, a shared world model or universal cooperation.
 
+
+---
+
+# The corpus spine
+
+The corpus is not a collection of unrelated papers. It has a controlled reading order.
+
+## 1. Foundations — why bounded knowledge cannot become global certainty
+
+[**01 — Integrated Foundational Theory**](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) establishes the open-ecosystem problem: a participant operates from a bounded representation, while a residual always remains outside the represented universe and the useful decision window can change over time.
+
+[**02 — Epistemic Safety Principles & Control Matrix**](../../research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) defines the principles that prevent bounded evidence, confidence, consensus or local closure from being silently promoted into an unjustified global conclusion.
+
+Together they provide the conceptual basis for the rest of the corpus. They are foundations, not a rolling container for every later mechanism.
+
+## 2. The central document — Canonical Requirements
+
+[**00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is the **central normative test document of the current corpus**.
+
+It defines the controlling route:
+
+**S1–S14 Challenges → T1–T4 sufficiently-good conditions → H1–H6 falsifiable hypotheses → KPI / falsification protocol.**
+
+Scenarios, use cases, fixtures, technology profiles, interfaces and benchmarks select and test applicable routes from this document. They do **not** create a parallel hidden requirements system.
+
+[Requirements-vNext review](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) checks whether later Ecosystem Positioning mechanisms require a new requirements version. The current bounded review finds that the later mechanisms can still be mapped to the existing requirements, with clarification candidates rather than an automatic S15/T5/H7 expansion.
+
+## 3. Requirements coverage — where each scenario and use case tests the requirements
+
+[**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) is the requirements-first map across scenarios, use cases, fixtures, execution status and gaps.
+
+The six reference scenarios above then turn the requirements into concrete quality routes. Each scenario freezes facts, defines positive/negative/adversarial controls where needed, maps relevant requirements into gates, and records what would count as a pass, fail, requalification or unresolved result.
+
+This is why the scenarios are detailed: they are not illustrations added after the architecture; they are part of the requirements-to-evidence path.
 
 ---
 
@@ -308,7 +344,7 @@ A narrative scenario is not evidence by itself. The corpus therefore separates *
 
 [**RS-00E-Q1a fixture and pre-registration**](../../research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md) pins the operative fixture family, branches, requirements, oracle, KPI definitions, harness version and execution conditions **before** a result is produced.
 
-[**Testbed Method**](../../research/ecosystem-awareness/05-validation/TESTBED_METHOD.md) defines the general comparative execution discipline: freeze the decision boundary, run the peer and EA configurations fairly, continue downstream after PASS/FAIL, and capture tokens/compute, calls, time, human interventions, disclosure and containment burden.
+[**Canonical Benchmark v0.2 — comparative execution method**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Comparative execution and independent replication remain pending.
 
 This distinction matters:
 
