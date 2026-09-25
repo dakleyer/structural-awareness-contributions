@@ -74,6 +74,10 @@ flowchart LR
 | **Version · date** | v0.5 Draft · 2026-09-24 |
 | **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning |
 | **Supersedes / superseded by** | Editorial/reader successor to [00I v0.4 Draft](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.4_DRAFT.md); v0.3/v0.2/v0.1 preserved; no scenario semantics or canonical requirement are changed by this pass |
+<!-- CASE-STUDY-EXTENSIBILITY:00I:START -->
+**Model Case Study / bounded extensibility.** This 00I narrative is the minimum concrete instantiation of the **Semantic TOCTOU / Stale Decision-Basis Reuse** family. Upward, downward and horizontal reuse is controlled by the [00I Case-Study Extensibility Profile](./00I_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) and [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). An extension inherits the requirements-conformance transfer result only after the A25 admission tests are satisfied; this does not claim universal implementation equivalence or executed cross-domain validation.
+<!-- CASE-STUDY-EXTENSIBILITY:00I:END -->
+
 
 > **Fictional stress test for Decision Boundary Challenge family DBC-C02 — semantic TOCTOU.** This is not an incident report, a completed benchmark, an executed experiment, or a claim that Ecosystem Positioning prevents database incidents. It is a synthetic, public-readable scenario built to test one architectural distinction: **a decision can be correct when qualified and still be wrong when used because its semantic basis changed while its technical authorization remained valid.**
 
