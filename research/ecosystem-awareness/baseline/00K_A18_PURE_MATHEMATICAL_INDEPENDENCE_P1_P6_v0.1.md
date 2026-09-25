@@ -4,12 +4,12 @@
 |---|---|
 | **Parent** | [00K — Six-Principle Sufficiency & Adversarial Ablation Test](./00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) |
 | **Related fixture-grounded proof** | [00K-A16 — Formal Relative Independence Proof](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) |
-| **Status** | **Pure model-theoretic independence proof** |
+| **Status** | **Formal independence sketch / sanity check; superseded for the stronger shared-substrate claim by [A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md)** |
 | **Date** | 25 September 2026 |
 | **Premises used** | abstract semantic definitions of P1–P6 only |
 | **Premises not used** | 00E–00J scenarios, pytest results, repair searches, GitHub Actions, empirical/product behaviour |
 
-> **Result.** Under the abstract semantic vocabulary defined below, the six principles P1–P6 are logically independent: for every Pi there exists an abstract state satisfying the other five principles and violating Pi. The proof is self-contained and does not use any executable fixture as a premise.
+> **Result.** Under the deliberately simple Boolean vocabulary defined below, the six formulas are logically independent. This result is correct but intentionally modest: several principle contents are represented by separate unconstrained coordinates, so the independence is partly facilitated by the representation. It is retained as a formal sanity check, not as the strongest architectural independence claim. See [A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) for the shared-substrate proof.
 
 ---
 
@@ -396,7 +396,7 @@ The only inputs are:
 1. the abstract semantic coordinates \(e,r,b,u,x,a,c,d\); and
 2. the formal definitions of P1–P6 over those coordinates.
 
-Therefore the independence result is **mathematical rather than test-derived**.
+Therefore the result is **mathematical rather than test-derived**, but it should be read as a clean formal sketch complementary to the fixtures, not as a replacement for their stronger operational falsification burden.
 
 The executable campaign has a different role: it asks whether concrete operational scenarios can be faithfully mapped into these semantic dimensions and whether plausible engineering substitutes escape the corresponding invariant.
 
