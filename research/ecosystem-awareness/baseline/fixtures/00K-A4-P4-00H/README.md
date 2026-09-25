@@ -74,3 +74,37 @@ so that attempt is one function and one test away, not a redesign.
 - `ablation_A4.py` — the simulation: Route Q and four ablated rescue attempts.
 - `test_ablation_A4.py` — the pytest suite that runs and checks all of it.
 - Run with: `pip install pytest && pytest -v test_ablation_A4.py`
+
+
+## Current corpus-integrated status — 25 September 2026
+
+A later independently-authored successor package was supplied after the original
+11-test harness. Its ZIP SHA-256 is
+`e7d1caf81e2534fa5b0250f8982fe16fb8e960a273803f151b9ca876dd7c4b63`.
+
+The successor package itself was independently executed before integration:
+
+```text
+21 passed in 0.25s
+```
+
+To preserve the already-reviewed corpus files and their Git history, the
+successor was integrated **additively** rather than by silently replacing the
+earlier tests:
+
+- `a2l_strong_peer_decision` was added to `ablation_A4.py`;
+- `test_ablation_A4_v0_2_alignment.py` carries the successor's A2-L, NM and
+  four-arm comparison checks;
+- `test_ablation_A4_extended.py` remains the independent six-test
+  indistinguishability strengthening.
+
+The resulting corpus suite corresponds to the successor's 21 checks plus the
+six independent strengthening checks:
+
+```text
+27 passed
+```
+
+This keeps one executable fixture family while preserving which checks came
+from the reviewed predecessor, the later successor, and the independent
+strengthening layer.
