@@ -29,7 +29,7 @@
       "scenario_file": "research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md",
       "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J",
       "corpus_witness": "M1",
-      "math_witness": "omega_1"
+      "math_witness": "M1_shared_substrate"
     },
     "P2": {
       "derivation_class": "direct",
@@ -51,7 +51,7 @@
       "scenario_file": "research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md",
       "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E",
       "corpus_witness": "M2",
-      "math_witness": "omega_2"
+      "math_witness": "M2_shared_substrate"
     },
     "P3": {
       "derivation_class": "direct",
@@ -70,7 +70,7 @@
       "scenario_file": "research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md",
       "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F",
       "corpus_witness": "M3",
-      "math_witness": "omega_3"
+      "math_witness": "M3_shared_substrate"
     },
     "P4": {
       "derivation_class": "typed_boundary_specialization",
@@ -99,7 +99,7 @@
       "scenario_file": "research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md",
       "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H",
       "corpus_witness": "M4",
-      "math_witness": "omega_4"
+      "math_witness": "M4_shared_substrate"
     },
     "P5": {
       "derivation_class": "direct",
@@ -117,7 +117,7 @@
       "scenario_file": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md",
       "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I",
       "corpus_witness": "M5",
-      "math_witness": "omega_5"
+      "math_witness": "M5_shared_substrate"
     },
     "P6": {
       "derivation_class": "direct",
@@ -138,7 +138,7 @@
       "scenario_file": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md",
       "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G",
       "corpus_witness": "M6",
-      "math_witness": "omega_6"
+      "math_witness": "M6_shared_substrate"
     }
   },
   "requirements": {
