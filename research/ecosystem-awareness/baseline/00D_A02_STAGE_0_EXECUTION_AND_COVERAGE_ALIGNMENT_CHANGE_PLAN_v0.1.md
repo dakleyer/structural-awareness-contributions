@@ -24,7 +24,7 @@ The canonical route remains:
 
 1. [00D-A01 — Reference-Scenario Test Artifacts and Bounded Reference-Oracle Proof Sketch](./00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_PROOF_SKETCH_v0.1.md)
 2. [Use-Case Portfolio Requirements Coverage Map](./USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md)
-3. [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), only for a short clarification of the already-existing S14 aggregate.
+3. [00 — Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), only for a short clarification of the already-existing S14 aggregate.
 4. [README](./README.md) and [Canonical Corpus Manifest](./CANONICAL_CORPUS_MANIFEST.md), to identify this dated change record, its reading position and the open product-profile source-basis review.
 
 ### 2.2 Documents deliberately unchanged
