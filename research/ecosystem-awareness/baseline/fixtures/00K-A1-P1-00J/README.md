@@ -8,6 +8,6 @@ The negative branch contains a valid, signed, fresh **generation-provenance** re
 
 P1-blind repairs test signed-record validity, perfect provenance preservation, freshness, independent replication and deny-all. None separates the two branches correctly. A vendor-neutral typed-evidence schema does, but only by explicitly binding evidence type to the proposition it can support: **SEMANTIC RECONSTRUCTION of P1**.
 
-Result: **11/11**. No TRUE SUBSTITUTE found in the tested repair surface.
+Result after additive bounded-grid hardening: **13/13**. The grid varies unsupported proposition types and independent replication counts; neither signatures, freshness nor more copies upgrade evidence that supports the wrong proposition. No TRUE SUBSTITUTE found in the tested repair surface.
 
 This does not establish universal P1 necessity. A future repair that correctly separates unsupported generation provenance from legitimate rights enforcement without an evidence→proposition→decision sufficiency invariant is a valid counterexample.
