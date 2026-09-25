@@ -1,6 +1,6 @@
 # P5 blind-signature proof supplement
 
-**Parent:** [00K-A5 — P5 / 00I](../README.md)  
+**Parent:** [00K-A5 — P5 / 00I](../../00K-A5-P5-00I/README.md)  
 **Formal proof:** [00K-A16 — P1–P6 relative independence](../../../00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md)  
 **Status:** compact mathematical illustration; **not counted** in the 47 canonical P5 tests or the 379 registered 00K campaign tests
 
