@@ -6,6 +6,7 @@
 | **Earlier formal sketch** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Corpus-grounded counterpart** | [00K-A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) |
 | **Traceability proof** | [00K-A19](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) |
+| **Full-cube / Boolean diagnostic minimality** | [00K-A22](./00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) |
 | **Status** | **shared-substrate model-theoretic independence proof** |
 | **Date** | 25 September 2026 |
 | **Premises used** | common semantic substrate + explicit background coherence theory B + P1–P6 definitions |
@@ -550,6 +551,7 @@ That boundary should remain explicit.
 
 - [A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) remains as the simpler formal sketch / sanity check.
 - **A20 is the preferred pure mathematical independence argument.**
+- [A22](./00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) extends the shared-substrate result to all 64 P-signatures and proves a six-coordinate lower bound for lossless Boolean diagnostic representations.
 - [A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) shows fixture-derived countermodels inside the corpus.
 - [A1–A6 / A15](./00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) perform the hard operational repair search.
 - [A19](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) proves the semantic chain from principles into requirements and scenario/ablation routes.
