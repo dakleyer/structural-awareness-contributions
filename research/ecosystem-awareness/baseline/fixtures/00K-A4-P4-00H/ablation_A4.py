@@ -221,39 +221,3 @@ def ablated_rescue_native_rate_cap(
     if check_P5_leaf_revalidation(actions):
         return Disposition.DBC_EXECUTE
     return Disposition.DBC_DENY
-
-
-# ---------------------------------------------------------------------------
-# A2-L -- strongest documented peer (00K-A03 R6). This is deliberately
-# non-EA-branded. It implements explicit root/delegation lineage and
-# non-amplification under its own name, which 00K classifies as SEMANTIC
-# RECONSTRUCTION rather than evidence that EA/EP is uniquely necessary.
-# ---------------------------------------------------------------------------
-
-def a2l_strong_peer_decision(
-    finding: Finding,
-    actions: list[LeafAction],
-    delegation_ledger: dict[str, RootCampaignAuthority],
-) -> Disposition:
-    """Strong peer with explicit root/delegation lineage.
-
-    Mechanically this computes the same root-authority fact as P4. That is
-    intentional: the question is whether a non-EA peer can pass U/G/I by
-    reconstructing the invariant, not whether EA owns the implementation.
-    """
-    if not check_P1_evidence_sufficiency(finding):
-        return Disposition.DBC_DENY
-
-    campaign_ref = detect_composition_P6(actions)
-    if campaign_ref is None:
-        return (
-            Disposition.DBC_EXECUTE
-            if check_P5_leaf_revalidation(actions)
-            else Disposition.DBC_REPOSITION_RECONTRACT
-        )
-
-    root = delegation_ledger.get(campaign_ref)
-    root_authority_current = root is not None and root.valid and root.expiry > NOW
-    if root_authority_current and check_P5_leaf_revalidation(actions):
-        return Disposition.DBC_EXECUTE
-    return Disposition.DBC_REPOSITION_RECONTRACT
