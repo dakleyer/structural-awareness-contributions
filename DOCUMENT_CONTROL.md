@@ -1,7 +1,7 @@
 # Document Control — navigation, sitemap and modification rules
 
 **Version:** 1.1  
-**Control date:** 22 September 2026  
+**Control date:** 25 September 2026  
 **Owner:** Iván Abril  
 **Scope:** public navigation, README governance, routing integrity, canonical presentations, document moves/renames and editor/bot maintenance rules for `dakleyer/structural-awareness-contributions`.
 
@@ -77,18 +77,18 @@ Applied-research records and public submissions remain reachable supporting rout
 
 ### Current transitional state
 
-At the date of this control file, the repository contains **22 README files**. Several are historical/local indexes rather than true controlled navigation nodes.
+At the current control date, the repository contains **40 README files**. Most of the increase is deliberate local package/fixture documentation (including the 00K executable ablation family), not new top-level navigation nodes. The controlled-navigation target below remains separate from the raw README count.
 
 ### Target controlled state
 
-The approved consolidation target is **9 controlled README files**:
+The approved navigation target remains **9 controlled README files**. Local executable-package READMEs may exist below a controlled corpus when they document a runnable fixture/package and are not treated as additional programme-level navigation nodes:
 
 1. `README.md` — Structural Awareness Programme.
 2. `architectural-contributions/ecosystem-positioning/README.md` — Ecosystem Positioning architectural contribution landing page.
 3. `research/ecosystem-awareness/README.md` — Ecosystem Awareness router.
 4. `research/ecosystem-awareness/baseline/README.md` — canonical EA corpus.
 5. `research/ecosystem-awareness/fg-tida/README.md` — FG-TIDA application package.
-6. `research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md` — operative fixture-family index.
+6. `research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md` — operative fixture-family index.\n\n**00K package READMEs are local execution documentation, not additional controlled navigation owners.** Their stable public route is owned by the canonical EA corpus and [00K-A17 Documentation, Reproducibility & Proof Map](./research/ecosystem-awareness/baseline/00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md).
 7. `research/regime-awareness/README.md` — Regime Awareness corpus.
 8. `standards/minimum-sufficient-control/README.md` — MSCA corpus.
 9. `submissions/README.md` — public submissions router.
