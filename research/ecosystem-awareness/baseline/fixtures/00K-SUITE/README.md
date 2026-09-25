@@ -59,7 +59,7 @@ The runner executes each harness in its own working directory, checks the
 expected regression count, and returns non-zero on any mismatch.
 
 The repository workflow
-[`00k-symbolic-ablations.yml`](../../../../.github/workflows/00k-symbolic-ablations.yml)
+[`00k-symbolic-ablations.yml`](../../../../../.github/workflows/00k-symbolic-ablations.yml)
 runs the same fixture families on pushes and pull requests that touch 00K.
 
 ## Claim boundary
