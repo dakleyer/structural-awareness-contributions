@@ -14,6 +14,95 @@
 
 ---
 
+## 0. Canonical relationship at a glance
+
+The three layers are related, but they are **not three restatements of the same information**.
+
+\[
+\boxed{
+Foundation
+\;\xrightarrow[\text{02B closure}]{\text{02A derivation}}\;
+P1\text{–}P6
+\;\underset{\text{A23 conformance sufficiency}}{\overset{\text{A19 semantic refinement}}{\rightleftarrows}}\;
+S1\text{–}S14/T1\text{–}T4
+}
+\]
+
+The arrows have different meanings.
+
+### Foundation → Principles
+
+This direction is **derivation plus operational normalization**, not equivalence.
+
+The Foundation contains the broader explanatory theory:
+
+- A/B/C/D epistemic positions;
+- Type 0 / Type 1 / Type 2;
+- open residual and bounded representation;
+- finite determination capacity;
+- received-signal qualification;
+- dynamic decision-window validity;
+- composition and non-fungibility;
+- hypotheses, mechanisms and explanatory consequences.
+
+P1–P6 **compress** that broader theory into six separately testable operational invariants. They add an operational structure that the Foundation does not itself need to expose in six ablation-ready labels:
+
+- a stable six-element invariant basis;
+- explicit normal forms;
+- leave-one-out identity;
+- mathematical independence objects;
+- cross-scenario diagnostic coordinates.
+
+So the principles **strengthen operational usability and falsifiability** of the Foundation while intentionally omitting much of its explanatory detail.
+
+Therefore neither statement is correct:
+
+\[
+Foundation=P
+\]
+
+or:
+
+\[
+Info(P)>Info(Foundation)
+\]
+
+as a total-information claim.
+
+The correct statement is:
+
+> **P1–P6 are a semantics-preserving operational compression/normalization of the relevant Foundation invariants, enriched with explicit ablation/test identity.**
+
+### Principles → Requirements
+
+This direction is **typed specification refinement**.
+
+The requirements retain the applicable P invariant and add:
+
+- decision-boundary identity;
+- typed object;
+- lifecycle operator;
+- owner/source;
+- scope/time;
+- handoff/delegation/composition location;
+- sufficiently-good T# conditions;
+- evidence/KPI/falsification obligations;
+- disposition and re-entry semantics.
+
+Thus the requirements are not a paraphrase of P1–P6.
+
+### Requirements → Principles
+
+This direction is **conformance sufficiency**, proved in A23.
+
+A canonically conforming S/T route guarantees the applicable P invariant, but the projection back to P deliberately drops the additional requirement metadata.
+
+Therefore the P↔S relation is bidirectional in **dependency/refinement**, while remaining non-equivalent in information content.
+
+A compact formulation for the whole corpus is:
+
+> **Foundation explains the semantic problem space; Principles normalize its operational invariants; Requirements refine those invariants into typed, owner-aware, observable conformance obligations. Requirements-conformance projects back to the Principles, but neither projection turns the layers into informational equals.**
+
 ## 1. Why this annex exists
 
 A19 and A23 establish two strong directions:
