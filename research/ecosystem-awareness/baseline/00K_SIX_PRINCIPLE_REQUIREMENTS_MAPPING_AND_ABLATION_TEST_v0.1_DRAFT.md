@@ -421,14 +421,14 @@ The six ablations deliberately use **one different reference scenario each**. In
 
 ---
 
-## 6. Result table to populate after execution
+## 6. Ablation execution status
 
 | Ablation | Traceability anchor | Frozen scenario | Required negative result | Restore-only-P# result | Strongest five-principle repair verdict | Status |
 |---|---|---|---|---|---|---|
 | **−P1** | S14 | 00J | unsupported rights-enforcement route reopens | Route Q blocks/requalifies unsupported enforcement | must not rescue without evidence→decision semantics | **DESIGNED / NOT EXECUTED** |
 | **−P2** | S4 | 00E | unbounded review/search or forced deadline closure reopens | bounded decision-relevant closure restored | must not rescue without stop/capacity semantics | **DESIGNED / NOT EXECUTED** |
 | **−P3** | S5 | 00F | unresolved/stale state can become determinate corridor posture | explicit unresolved state blocks/requalifies | must not rescue without anti-false-closure semantics | **DESIGNED / NOT EXECUTED** |
-| **−P4** | S8 | 00H | root→leaf authority is lost; campaign amplification/loss route reopens | lineage + non-amplification restored | must not rescue without qualification/lineage preservation | **DESIGNED / NOT EXECUTED** |
+| **−P4** | S8 | 00H | root→leaf authority is lost; campaign amplification/loss route reopens | lineage + non-amplification restored | **No TRUE SUBSTITUTE found in tested repair surface; strongest passing peer reconstructs P4 semantics.** | **PAPER EXECUTED + SYMBOLIC HARNESS EXECUTED — 11/11 reviewed tests reproduced; 17/17 with additive strengthening** |
 | **−P5** | S10 | 00I | stale-but-technically-valid action executes after material change | time-of-use requalification restored | must not rescue without change-triggered requalification | **DESIGNED / NOT EXECUTED** |
 | **−P6** | S9 | 00G | dependent/local claims become collective truth | false transition rejected; genuine change still accepted | must not rescue without composition/non-substitution semantics | **DESIGNED / NOT EXECUTED** |
 
