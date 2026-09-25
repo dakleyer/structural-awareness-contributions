@@ -12,6 +12,7 @@
 | **Shared-substrate mathematical independence** | [00K-A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Requirement closure / relative completeness** | [00K-A21](./00K_A21_REQUIREMENT_NORMAL_FORM_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **Requirement closure/uniqueness proof** | [00K-A21](./00K_A21_REQUIREMENT_GRAMMAR_CLOSURE_AND_UNIQUENESS_PROOF_v0.1.md) |
+| **Requirement-closure companion** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **Machine-readable integrity check** | [fixtures/00K-TRACE](./fixtures/00K-TRACE/README.md) |
 | **Status** | semantic traceability proof; no change to frozen requirement semantics |
 | **Date** | 25 September 2026 |
@@ -223,7 +224,7 @@ Therefore:
 2. every P has an observable requirements surface;
 3. each anchor has a concrete scenario route and ablation harness.
 
-This establishes **non-vacuous P→S traceability**.
+This establishes **non-vacuous P→S traceability**. The stronger claim that S1–S14 are generator-complete for the declared decision-frame/lifecycle language is proved in [A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md).
 
 It does **not** claim that each anchor requirement is equivalent to the whole principle in every context.
 
