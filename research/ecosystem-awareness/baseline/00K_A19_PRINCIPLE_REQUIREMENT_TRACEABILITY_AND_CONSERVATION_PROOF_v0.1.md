@@ -14,7 +14,7 @@
 | **Status** | semantic traceability proof; no change to frozen requirement semantics |
 | **Date** | 25 September 2026 |
 
-> **Claim.** The path from P1–P6 to S1–S14 and from those requirements to the six scenario/ablation routes is not accepted merely because labels appear in a matrix. Each P has a requirement whose text contains a direct, falsifiable instance of that principle's invariant; all S1–S14 are covered by a declared primary principle; each P/S anchor has an operational scenario and executable ablation; and P1–P6 are independently non-redundant in A18.
+> **Claim.** The path from P1–P6 to S1–S14 and from those requirements to the six scenario/ablation routes is not accepted merely because labels appear in a matrix. Each P has a requirement whose text contains a direct, falsifiable instance of that principle's invariant; all S1–S14 are covered by a declared primary principle; each P/S anchor has an operational scenario and executable ablation; and P1–P6 are independently non-redundant in the preferred shared-substrate proof A20.
 
 ---
 
@@ -306,7 +306,7 @@ This is executable symbolic evidence.
 ### Logical independence
 
 \[
-P_i \rightarrow A18
+P_i \rightarrow A20
 \]
 
 A20 constructs a shared-substrate countermodel \(\omega_i\) satisfying all \(P_j,j\neq i\), while violating \(P_i\).
@@ -390,10 +390,10 @@ In parallel:
 \[
 P1\text{–}P6
 \rightarrow
-A18
+A20
 \]
 
-establishes mathematical independence, while A16 demonstrates corpus-relative countermodels. A18 is retained as the earlier lightweight formal sketch.
+establishes shared-substrate mathematical independence, while A16 demonstrates corpus-relative countermodels. A18 is retained as the earlier lightweight formal sketch.
 
 The result is a traceable architecture with distinct evidence classes:
 
