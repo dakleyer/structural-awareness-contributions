@@ -7,13 +7,14 @@
 | **Downstream** | [00K — Six-Principle Sufficiency & Adversarial Ablation Test](./00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) |
 | **Syntactic normal-form proof** | [02B](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) |
 | **Companion syntactic-closure proof** | [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) |
+| **Syntactic closure companion** | [02B](./02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md) |
 | **Companion traceability proof** | [00K-A19](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) |
 | **Status** | working derivation proof; no change to controlled/frozen source semantics |
 | **Date** | 25 September 2026 |
 
 > **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a total, deterministic and surjective syntactic normalizer over A/B/C/D, Type 0/1/2 and the declared locus/propagation/time/claim axes.
 
-> Each P1–P6 is a compact operational projection of an identifiable upstream semantic invariant. Five are direct projections of the general epistemic/control model; P4 is an explicit authority-typed specialization of a boundary rule already present upstream. This document records the derivation and its limits.
+> Each P1–P6 is a compact operational projection of an identifiable upstream semantic invariant. Five are direct projections of the general epistemic/control model; P4 is an explicit authority-typed specialization of a boundary rule already present upstream. This document records the derivation and its limits. The stronger syntactic claim — that the declared A/B/C/D + Type-0/1/2 foundation normalizes into P1–P6 without an uncovered primitive form — is proved separately in [02B](./02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md).
 
 ---
 
