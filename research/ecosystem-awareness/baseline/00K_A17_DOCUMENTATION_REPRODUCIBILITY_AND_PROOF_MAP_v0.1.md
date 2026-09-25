@@ -24,7 +24,7 @@ For a new technical reviewer:
 4. [**A13 Completion Review**](./00K_A13_SIX_PRINCIPLE_SERIOUS_ABLATION_COMPLETION_REVIEW_v0.1.md) — current bounded scientific interpretation.
 5. [**A18 Pure Mathematical Independence Proof**](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) — self-contained model-theoretic proof using only abstract semantic definitions; no fixture/test premise.
 6. [**A16 Formal Relative Independence Proof**](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) — mathematical non-derivability / irredundancy theorem.
-6. [**A14 CI Reproduction Record**](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) — repository-level independent execution of 379/379 symbolic tests.
+7. [**A14 CI Reproduction Record**](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) — repository-level independent execution of 379/379 symbolic tests.
 
 ---
 
@@ -50,6 +50,7 @@ For a new technical reviewer:
 | **A15** | complete six-principle ablation testbook | preferred single reader artifact |
 | **A16** | formal relative-independence proof | mathematical proof layer |
 | **A17** | this documentation/proof/reproducibility map | navigation / audit |
+| **A18** | pure mathematical independence proof | self-contained model-theoretic independence / irredundancy proof with no fixture or test premise |
 
 ---
 
