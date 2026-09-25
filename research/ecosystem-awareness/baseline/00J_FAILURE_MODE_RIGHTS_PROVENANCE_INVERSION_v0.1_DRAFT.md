@@ -1,4 +1,6 @@
 # Reference Failure Scenario and Quality-Gate Plan: Rights-Provenance Inversion — “The Author Pays for Their Own Work”
+**Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Proposition-Scoped Provenance](./00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
+
 
 | | |
 |---|---|
