@@ -7,6 +7,15 @@
 **Repository PDF snapshot:** [Ecosystem_Positioning_Canonical.pdf](./Ecosystem_Positioning_Canonical.pdf) — reading snapshot awaiting v1.11 sync  
 **Google Drive reading snapshot:** https://drive.google.com/file/d/11Qg30zgwgpT4JE-rNIW69ikn5jOa4pYQ/view — awaiting v1.11 sync
 
+## Split outreach decks
+
+The canonical visual material is also maintained as two audience-specific decks derived from the same corpus. These do not create a second architecture or a parallel evidence base; they separate the review conversation into two entry points:
+
+- [**Requirements & Evidence — Canonical v1.1**](./Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) — problem, six failure families, current technology trajectories, the common S1–S14 contract, a conforming Route Q example, adversarial ablation/independence/minimality evidence, standards boundary and benchmark.
+- [**Architecture & Implementation — Canonical v1.1**](./Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) — proposed implementation architecture, process, governance boundaries, interfaces, extended situational core, FG-TIDA bounded application and current artefact/test maturity.
+
+For first-contact external review, the **Requirements & Evidence** deck is the preferred entry point. The **Architecture & Implementation** deck is the implementation-hypothesis companion for readers who want to inspect how the requirements could be realized.
+
 ## Purpose
 
 This presentation is the canonical visual router for the **Ecosystem Positioning** architectural contribution inside the **Architectural Contributions / pre-standardization** part of the Structural Awareness Programme.
