@@ -9,6 +9,8 @@
 | **Current working revision** | 2026-09-24 · external-corroboration and implementation-profile synchronization; scenario facts and canonical S/T/H ownership unchanged |
 | **Owner corpus** | Ecosystem Awareness |
 | **Supersedes / superseded by** | — |
+**Model Case Study / bounded extensibility — CASE-STUDY-EXTENSIBILITY:00E.** This 00E scenario is the minimum concrete instantiation of the **Compounded Epistemic Collapse under Lossy Qualification** family. Upward, downward and horizontal reuse is controlled by the [00E Case-Study Extensibility Profile](./00E_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) and [A25 — Failure Case-Study Extensibility & Requirements-Conformance Transfer](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). A variant inherits the conformance-transfer result only after the A25 admission tests are satisfied; the profile is a first-pass structural generalization, not universal or executed equivalence.
+
 
 > **Worked reference scenario, mechanism reconstruction and integrated quality plan.** This document reconstructs the existing 100-million-token enterprise-strategy example as a testable failure route and then controls the same case through quality gates. It does not add a benchmark result, establish that EA prevents the failure, or make the source example a claim about any real company.
 
