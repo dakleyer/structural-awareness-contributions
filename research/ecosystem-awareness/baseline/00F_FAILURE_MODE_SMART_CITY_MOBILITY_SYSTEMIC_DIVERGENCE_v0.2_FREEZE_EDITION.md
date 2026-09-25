@@ -38,6 +38,7 @@ That paradox is the reason to read 00F.
 |---|---|
 | **ID** | 00F |
 | **Type** | Reference failure scenario (fictional) and quality-gate plan |
+| **Case-study role** | Minimum concrete instantiation of the [00F extensible case family](./00F_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) |
 | **Status** | Working successor draft · fictional reference scenario · quality-plan/readability extension · not a benchmark result |
 | **Version · date** | v0.2 Draft · 2026-09-24 |
 | **Current working revision** | 2026-09-24 · route/variant/strong-peer completion + public/readability layer; fictional event and canonical S/T/H ownership unchanged |
