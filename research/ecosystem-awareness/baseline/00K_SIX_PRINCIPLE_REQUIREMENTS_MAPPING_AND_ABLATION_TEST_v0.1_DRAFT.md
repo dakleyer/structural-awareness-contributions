@@ -9,10 +9,20 @@
 | **Owner corpus** | Ecosystem Awareness |
 | **Primary dependencies** | [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [02 — Epistemic Safety Principles & Control Matrix](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) |
 | **Reference scenarios** | [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) · [00G](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [00H](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00I](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [00J](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
+| **Supporting addenda** | [00K-A01 — reviewed pre-principle-first design](./00K_A01_REVIEWED_PRE_PRINCIPLE_FIRST_DESIGN_ADDENDUM_v0.1.md) · [00K-A02 — requirements coverage matrix](./00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) |
 
 > **Purpose.** Test the **six operational principles themselves** as the primary sufficiency/necessity object. S1–S14 remain the observable specification layer that tells us what a sufficiently good route must demonstrate, but the ablation does **not** prove a principle necessary merely because a mapped S# falls. For each test, remove one principle, give the remaining five the strongest fair opportunity to redesign/recover the route using any available native technology/control mechanism, and ask whether the scenario can still pass its negative and positive controls **without reconstructing the removed principle's semantics**. If it can, the principle is not necessary as formulated. If every successful repair necessarily recreates the removed semantic invariant, that is evidence for principle-level necessity within this corpus.
 
 > **Evidence boundary.** This document defines a falsifiable ablation design. It does **not** claim that the six ablations have already been executed, that the six principles are universally minimal for all agentic systems, or that Ecosystem Positioning is the only architecture capable of satisfying them.
+
+### Document stack and conservation rule
+
+This file is the **current controlling 00K test design**. Supporting material is preserved rather than rewritten:
+
+- [**00K-A01 — Reviewed pre-principle-first design addendum**](./00K_A01_REVIEWED_PRE_PRINCIPLE_FIRST_DESIGN_ADDENDUM_v0.1.md) is a **verbatim preservation** of the previously reviewed 00K state at commit `fcd63e4907039f967c70de67f1c73040d1b40050`. It retains the earlier mapping, ablation routes, acceptance criteria and coverage work exactly as reviewed; it is not silently re-authored to match this successor framing.
+- [**00K-A02 — Requirements Coverage Matrix addendum**](./00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) isolates the verified S1–S14 × 00E–00J coverage matrix so the documentary premise can be audited independently before any principle-level execution.
+
+The addenda provide provenance, coverage and prior reviewed reasoning. They do **not** supersede this principle-first protocol.
 
 ---
 
@@ -220,6 +230,8 @@ For each principle Pk:
    - **TRUE SUBSTITUTE:** closes the critical route and preserves the positive control without recreating Pk's semantic invariant → evidence **against** Pk necessity;
    - **SEMANTIC RECONSTRUCTION:** closes the route only by implementing the same invariant under another mechanism/name → evidence that the **principle** is necessary but its implementation/name is not unique;
    - **FAILED SUBSTITUTE:** critical route remains reachable or the positive control is destroyed → evidence supporting Pk necessity.
+   - **Invariant-lock rule:** the semantic invariant being removed is the P# statement fixed in §2 **before** the repair attempt. A reviewer classifying “semantic reconstruction” must cite the specific invariant clause that the substitute reintroduces; successful outcome alone is not sufficient to label a mechanism as reconstruction.
+   - **Open repair frontier:** the repair attempts documented here are not exhaustive. A later mechanism that passes the same frozen negative and positive controls without reconstructing the removed invariant is a valid counterexample and must reopen the necessity claim.
 7. **Use S1–S14 after the attempt as instrumentation.** Record which requirements/gates became unsatisfied, but do not use that fact as the causal proof.
 8. **Restore Pk as a symmetry check.** Under the same frozen inputs, restoration should close the negative route while preserving the positive route.
 9. **Credit simpler alternatives.** If a different architecture achieves the same branch-correct result at equal/lower burden without Pk semantics, the six-principle model loses that ablation.
