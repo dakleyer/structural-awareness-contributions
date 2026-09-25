@@ -8,4 +8,4 @@ The negative branch has fresh, visible, mutually incompatible local postures ove
 
 Majority/default, timeout/default, perfect handoff, freshness and conflict visibility can all coexist with false operational closure. Deny-all fails continuity. A three-valued closure that treats unresolved material state as non-permission passes all branches — **SEMANTIC RECONSTRUCTION of P3**.
 
-Result: **13/13**. No TRUE SUBSTITUTE found in the tested repair surface.
+Result after additive bounded-grid hardening: **15/15**. The grid enumerates mixed NORMAL / PLAN_A posture combinations and confirms that every material mixed state remains unresolved while uniform determinate states remain executable. No TRUE SUBSTITUTE found in the tested repair surface.
