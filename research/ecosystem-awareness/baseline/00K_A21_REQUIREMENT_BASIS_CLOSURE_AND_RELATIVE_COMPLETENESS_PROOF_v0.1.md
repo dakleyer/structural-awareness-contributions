@@ -125,7 +125,7 @@ The non-vacuous primitive combinations normalize as follows.
 | **S2 Preference fidelity/reviewable basis** | preference × QUALIFY | P1, P6 |
 | **S3 Regime/context/escalation/bounded escape** | frame × ESCALATE/SHIFT | P2, P3, P5 |
 | **S4 Human-inclusive oversight authority/capacity** | human × INTERVENE/ESCALATE | P2, P3, P4 |
-| **S5 Operational indeterminacy/containment** | unresolved × CONTAIN/ACT-boundary | P1, P2, P3, P5 |
+| **S5 Operational indeterminacy/containment** | unresolved × CONTAIN/ESCALATE/ACT-boundary | P1, P2, P3, P5 |
 | **S6 Privacy-preserving trust handoff** | qualified object × HANDOFF | P1, P4, P6 |
 | **S7 Identity/representation link** | identity × BIND/QUALIFY | P4, P6 |
 | **S8 Bounded subdelegation/non-amplification** | authority × DELEGATE | P4, P6 |
@@ -134,7 +134,7 @@ The non-vacuous primitive combinations normalize as follows.
 | **S11 Policy/objective integrity across domains** | policy/preference × QUALIFY/COMPOSE/SHIFT | P6, P4, P5 |
 | **S12 Accountability/challenge/repair** | history/evidence × REPAIR | P4, P5 |
 | **S13 Authority history vs intervention history** | authority/history × INTERVENE/REPAIR | P4, P5, P6 |
-| **S14 Evidence-to-decision assessment** | evidence × ASSESS/SHIFT across all transitions | P1–P6 as applicable |
+| **S14 Evidence-to-decision assessment** | evidence × QUALIFY/ASSESS/SHIFT across all transitions | P1–P6 as applicable |
 
 A concrete requirement may invoke several rows. That is composition of requirements, not evidence of a missing primitive generator.
 
