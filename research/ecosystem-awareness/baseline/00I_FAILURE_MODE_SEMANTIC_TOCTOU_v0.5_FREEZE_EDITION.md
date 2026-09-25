@@ -1,5 +1,7 @@
 <!-- FREEZE-ADD:RELEASE:START -->
 # 00I · Freeze Edition
+**Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Action-Time Requalification](./00I_SUCCESS_MODEL_CASE_ACTION_TIME_REQUALIFICATION_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
+
 
 **The Patch That Undid the Fix**  
 *Public / executive presentation layer over the complete 00I v0.5 technical source*
