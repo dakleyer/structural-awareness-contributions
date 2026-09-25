@@ -34,7 +34,7 @@ Each strong peer is deliberately allowed to be conventional and non-EA-branded. 
 |---|---:|---|---|
 | [A6a — naive 00G F/G falsifier](./fixtures/00K-A6a-P6-00G/README.md) | **10** | asks whether the original scenario pair itself isolates P6 | **TRUE SUBSTITUTE found**: authority-only separates the unmodified pair |
 | [A6b — independent 00F P6 isolation](./fixtures/00K-A6b-P6-00F/README.md) | **11** | re-tests P6 where local authority/freshness/determination are matched and only shared-resource composition differs | no TRUE SUBSTITUTE found; compatibility peer reconstructs P6 |
-| [Independent cross-scenario kernels](./fixtures/00K-cross-scenario-independent/README.md) | **6** | reimplements P4/P5/P6 without importing A1–A6 helper code | **6/6**; same invariants reuse across a second scenario family |
+| [Independent cross-scenario kernels](./fixtures/00K-cross-scenario-independent/README.md) | **12** | reimplements P1–P6 without importing A1–A6 helper code | **12/12**; same invariants reuse across a second scenario family |
 
 **Supplemental total: 33 tests.**
 
@@ -42,7 +42,7 @@ Each strong peer is deliberately allowed to be conventional and non-EA-branded. 
 
 **Repository CI reproduction:** [GitHub Actions run 36108965548](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548) completes successfully across all 10 jobs and verifies **346/346 core + 33/33 supplemental = 379/379** for the current campaign. See [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md).
 
-The A6a negative result is methodologically important. It demonstrates that the programme is capable of rejecting its own first test construction. The P6 claim is retained only after the confound is removed in matched-authority A6 and independently re-isolated in 00F. See [00K-A05](./00K_A05_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
+The A6a negative result is methodologically important. It demonstrates that the programme is capable of rejecting its own first test construction. The P6 claim is retained only after the confound is removed in matched-authority A6 and independently re-isolated in 00F. See [00K-A06](./00K_A06_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
 
 ---
 
