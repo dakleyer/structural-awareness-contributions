@@ -36,10 +36,10 @@ En los seis casos el peer fuerte no EA toma la disposición correcta en las dos 
 
 > The six failure scenarios (00E–00J) now have paired companion paper traversals with explicit facts, gates, adverse controls and links from each canonical case. A separate symbolic replay exercises one isolated positive/negative pair per case (12 branches), rejects 128 missing/null input mutations at the 00L verifier boundary, and checks three 00H monetary threshold values. Its strong non-EA peer matches the reference route on every pair. The corrected 00K symbolic regression campaign passed 346 core and 33 supplemental checks on the pull request integration tree. These are fixture-bounded code and paper results, not executions of the nine named products or evidence of a differential EA advantage. RS-00E-Q1a Stage 0 and product comparisons remain pending.
 
-**Para el README canónico (inglés; añadir una línea en el bloque de 00L, sin sustituir las descripciones existentes):** el enlace del siguiente bloque está calculado desde `baseline/README.md`; aquí se muestra como texto para copiar.
+**Para el README canónico (inglés):** el párrafo y su enlace ya constan en el [README canónico](../README.md), junto al bloque de 00L; conservar su ruta real al actualizarlo. Este es el mensaje editorial, sin duplicar aquí un enlace relativo calculado desde otro directorio:
 
 ```markdown
-The [00L editorial and evidence register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) maps each canonical 00E–00J case to its paired paper traversal, executed symbolic subset, reproducible branch traces, CI run and remaining coverage. The 12 branches and 379 symbolic regression checks do not constitute product trials or a demonstrated EA differential.
+The 00L editorial and evidence register maps each canonical 00E–00J case to its paired paper traversal, executed symbolic subset, reproducible branch traces, CI run and remaining coverage. The 12 branches and 379 symbolic regression checks do not constitute product trials or a demonstrated EA differential.
 ```
 
 **Condición de publicación:** antes de trasladar ese párrafo al artículo Word/Google Doc, identificar su revisión actual, elegir la sección precisa y mantener el texto, tablas, fuentes y ejemplos originales. Revisar el estado del PR y sustituir “pull request integration tree” por una referencia al SHA realmente integrado en `main` **solo después de verificar el merge y sus checks**. No convertir un Internet-Draft en norma aprobada ni atribuir estas ejecuciones a vendors.
