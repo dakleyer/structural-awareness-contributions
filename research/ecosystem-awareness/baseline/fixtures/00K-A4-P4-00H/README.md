@@ -92,8 +92,8 @@ To preserve the already-reviewed corpus files and their Git history, the
 successor was integrated **additively** rather than by silently replacing the
 earlier tests:
 
-- `a2l_strong_peer_decision` was added to `ablation_A4.py`;
-- `test_ablation_A4_v0_2_alignment.py` carries the successor's A2-L, NM and
+- `a2l_strong_peer_decision` is provided by `a2l_strong_peer.py`;
+- `test_ablation_A4_v02_additions.py` carries the successor's A2-L, NM and
   four-arm comparison checks;
 - `test_ablation_A4_extended.py` remains the independent six-test
   indistinguishability strengthening.

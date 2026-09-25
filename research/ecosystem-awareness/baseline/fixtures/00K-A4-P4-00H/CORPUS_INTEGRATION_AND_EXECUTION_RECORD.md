@@ -150,8 +150,8 @@ The printed four-arm pattern matches the paper execution:
 The already-reviewed predecessor files were not silently replaced. The current
 fixture family was advanced by:
 
-1. adding the A2-L implementation to `ablation_A4.py`;
-2. adding `test_ablation_A4_v0_2_alignment.py` for the successor-only NM,
+1. retaining the A2-L implementation in `a2l_strong_peer.py`;
+2. adding `test_ablation_A4_v02_additions.py` for the successor-only NM,
    A2-L and four-arm checks; and
 3. retaining `test_ablation_A4_extended.py` as the independent six-test
    U/G indistinguishability strengthening.
