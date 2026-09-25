@@ -103,7 +103,7 @@ The passing peer introduces an explicit unresolved/non-permission state while st
 
 The strongest current A4 fixture holds finding, local grants, campaign identity, timing and volume constant across U/G. The material distinction is current root/campaign authority.
 
-The reviewed v0.2 package independently passes **21/21** and adds the explicit four-arm comparison. The active browsable harness preserves the earlier reviewed source and adds NM/A2-L/four-arm plus P4-blind indistinguishability sweeps, yielding **27/27**.
+The reviewed v0.2 package independently passes **21/21** and adds the explicit four-arm comparison. The active browsable harness preserves the earlier reviewed source and adds NM/A2-L/four-arm, P4-blind indistinguishability sweeps and the bounded authority/volume grid, yielding a **29-test** regression surface.
 
 A2-L is intentionally not EA-branded. It passes by implementing explicit root/delegation lineage and non-amplification.
 
@@ -126,6 +126,9 @@ The strengthened passing peer binds actuation to the **full declared material de
 ---
 
 ### P6 / 00G — can correlated consensus be distinguished from independent support?
+
+**Isolation correction.** The unmodified 00G F/G pair is not sufficient for P6 necessity because authority also differs. The [A6a falsifier](./fixtures/00K-A6a-P6-00G/README.md) finds an authority-only TRUE SUBSTITUTE for that naive pair. The canonical A6 result below therefore refers specifically to the **matched-authority** executable fixture; [A6b / 00F](./fixtures/00K-A6b-P6-00F/README.md) supplies an independent shared-resource composition isolation. See [00K-A06](./00K_A06_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
+
 
 The P6 harness deliberately holds **transition authority constant** across false Branch F and genuine Branch G. Both have five authenticated, fresh, high-confidence claims. The material distinction is source dependence:
 
@@ -169,7 +172,10 @@ If such a mechanism is found, it is evidence against the necessity of that P# an
 - [A4 / P4–00H active harness](./fixtures/00K-A4-P4-00H/README.md)
 - [A4 reviewed v0.2 package + independent verification](./fixtures/00K-A4-P4-00H-v0.2/README.md)
 - [A5 / P5–00I](./fixtures/00K-A5-P5-00I/README.md)
-- [A6 / P6–00G](./fixtures/00K-A6-P6-00G/README.md)
+- [A6 / P6–00G matched-authority isolation](./fixtures/00K-A6-P6-00G/README.md)
+- [A6a / P6–00G naive-pair falsifier](./fixtures/00K-A6a-P6-00G/README.md)
+- [A6b / P6–00F composition isolation](./fixtures/00K-A6b-P6-00F/README.md)
+- [Complete symbolic suite router](./fixtures/00K-SUITE/README.md)
 
 ---
 
