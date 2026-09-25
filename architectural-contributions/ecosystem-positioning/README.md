@@ -107,7 +107,8 @@ flowchart LR
 
 <br>
 
-[Google Drive canonical PPTX](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit) ·
+[Requirements & Evidence PPTX](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) ·
+[Architecture & Implementation PPTX](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) ·
 [PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) ·
 [Visual Guide](../../research/ecosystem-awareness/VISUAL_GUIDE.md) ·
 [Presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) ·
