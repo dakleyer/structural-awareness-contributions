@@ -2,9 +2,9 @@
   "schema_version": "0.1",
   "status": "execution-lock manifest; not a replacement normative register",
   "parent": "../../00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md",
-  "core_expected_tests": 130,
+  "core_expected_tests": 175,
   "supplemental_expected_tests": 33,
-  "campaign_expected_tests": 163,
+  "campaign_expected_tests": 208,
   "true_substitute_rule": "A repair must pass the frozen negative and positive/boundary controls under the same declared resource/authority boundary without implementing an operationally equivalent form of the removed invariant.",
   "principles": [
     {
@@ -24,11 +24,14 @@
       "id": "P2",
       "invariant": "Unresolved determination effort must be finite, decision-relevant and bounded by available capacity/response horizon, with an explicit bounded fallback.",
       "core_fixture": "../00K-A2-P2-00E",
-      "expected_tests": 13,
-      "negative_control": "unresolved search/review never becomes decision-relevant before capacity/deadline",
-      "positive_control": "resolvable branch becomes sufficient within the finite budget",
+      "expected_tests": 58,
+      "negative_control": "matched-prefix unresolved determination remains non-resolving through the declared useful horizon",
+      "positive_control": "same observed prefix resolves exactly at an allowed horizon step",
       "strong_peer_classification": "SEMANTIC_RECONSTRUCTION",
-      "known_confounds": []
+      "known_confounds": [
+        "fixed early timeout can appear safe on the negative branch but destroys a still-reachable positive resolution",
+        "external scheduler, circuit breaker, parallel budget or bounded probe may move P2 outside the component but still reconstruct the system-level invariant"
+      ]
     },
     {
       "id": "P3",
