@@ -37,7 +37,8 @@
         "operators": [
           "LOCAL",
           "RECEIVE"
-        ]
+        ],
+        "principle": "P1"
       },
       "G1": {
         "types": [
@@ -45,7 +46,8 @@
         ],
         "operators": [
           "SEARCH"
-        ]
+        ],
+        "principle": "P2"
       },
       "G2": {
         "types": [
@@ -53,7 +55,8 @@
         ],
         "operators": [
           "ACT"
-        ]
+        ],
+        "principle": "P3"
       },
       "G3": {
         "types": [
@@ -67,7 +70,8 @@
           "authority",
           "scope",
           "provenance"
-        ]
+        ],
+        "principle": "P4"
       },
       "G4": {
         "types": [
@@ -79,7 +83,8 @@
         ],
         "qualifiers": [
           "freshness"
-        ]
+        ],
+        "principle": "P5"
       },
       "G5": {
         "types": [
@@ -92,7 +97,8 @@
           "dependency",
           "scope",
           "source"
-        ]
+        ],
+        "principle": "P6"
       }
     }
   },
@@ -331,11 +337,17 @@
     },
     "S6": {
       "objects": [
-        "evidence",
         "authority",
-        "identity",
         "preference",
-        "policy"
+        "identity",
+        "human",
+        "evidence",
+        "policy",
+        "commitment",
+        "history",
+        "frame",
+        "unresolved",
+        "multi_principal"
       ],
       "operators": [
         "HANDOFF"
@@ -393,7 +405,8 @@
         "commitment"
       ],
       "operators": [
-        "SHIFT"
+        "SHIFT",
+        "ESCALATE"
       ],
       "principles": [
         "P5",
@@ -407,6 +420,7 @@
         "preference"
       ],
       "operators": [
+        "QUALIFY",
         "COMPOSE",
         "SHIFT"
       ],
@@ -449,7 +463,8 @@
         "evidence"
       ],
       "operators": [
-        "ASSESS"
+        "ASSESS",
+        "SHIFT"
       ],
       "principles": [
         "P1",
