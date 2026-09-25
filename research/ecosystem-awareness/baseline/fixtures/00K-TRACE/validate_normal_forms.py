@@ -28,6 +28,14 @@ def main() -> int:
         assert set(spec["types"]) <= ftypes, (pid, "unknown type")
         assert set(spec.get("qualifiers", [])) <= quals, (pid, "unknown qualifier")
 
+    admitted_f = M["foundation_language"]["admitted_forms"]
+    assert set(admitted_f) == {f"G{i}" for i in range(6)}
+    for gid, spec in admitted_f.items():
+        assert spec["principle"] in EXPECTED_P
+        assert set(spec["operators"]) <= fops
+        assert set(spec["types"]) <= ftypes
+        assert set(spec.get("qualifiers", [])) <= quals
+
     rops = set(M["requirement_language"]["operators"])
     robjs = set(M["requirement_language"]["objects"])
 
@@ -47,6 +55,23 @@ def main() -> int:
     assert covered_objs == robjs, ("uncovered requirement objects", robjs - covered_objs)
     assert covered_p == EXPECTED_P, ("uncovered principles", EXPECTED_P - covered_p)
 
+    # Stronger condition: every admitted object/operator pair must be covered
+    # by at least one canonical S normal form, not merely each marginal object
+    # and operator appearing somewhere.
+    admitted_atoms = M["requirement_language"]["admitted_atoms"]
+    missing_pairs = []
+    for op, objs in admitted_atoms.items():
+        assert op in rops
+        for obj in objs:
+            assert obj in robjs
+            covered = any(
+                op in spec["operators"] and obj in spec["objects"]
+                for spec in s.values()
+            )
+            if not covered:
+                missing_pairs.append((obj, op))
+    assert not missing_pairs, ("uncovered admitted requirement atoms", missing_pairs)
+
     print("00K normal-form syntactic closure: PASS")
     print("Foundation positions: 4/4")
     print("Foundation types: 3/3")
@@ -54,6 +79,8 @@ def main() -> int:
     print("Requirement normal forms: 14/14")
     print(f"Requirement operators covered: {len(covered_ops)}/{len(rops)}")
     print(f"Requirement objects covered: {len(covered_objs)}/{len(robjs)}")
+    pair_total = sum(len(v) for v in admitted_atoms.values())
+    print(f"Admitted object/operator atoms covered: {pair_total}/{pair_total}")
     return 0
 
 if __name__ == "__main__":
