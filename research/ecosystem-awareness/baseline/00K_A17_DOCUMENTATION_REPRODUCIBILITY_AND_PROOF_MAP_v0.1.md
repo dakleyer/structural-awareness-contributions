@@ -136,14 +136,11 @@ The symbolic tests and the mathematical proof are related but not identical.
 
 For the current formalized predicates:
 
-[
-orall i,quad
-{P_1,ldots,P_6}setminus{P_i}
+~~~text
+∀ i ∈ {1,...,6}:  {P1,...,P6} \\ {Pi} ⊭K Pi
+~~~
 
-otmodels P_i.
-]
-
-The proof uses six corrected fixture-derived countermodels.
+The proof uses six corrected fixture-derived countermodels. The certificate computes P1–P6 from lower-level semantic witness fields rather than storing the six truth values directly.
 
 Machine-checkable certificate:
 
