@@ -277,6 +277,8 @@ The predecessor [Architectural Principles](./ARCHITECTURAL_PRINCIPLES_v0.1.md) a
 
 > **Additive traversal reinforcement:** [00L — reinforced paper traversals 00E–00J](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md). This package contains paper calculations over synthetic facts; it does not replace or rewrite the canonical scenarios.
 
+The [00L editorial and evidence register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) maps each case to its paired traversal, executed symbolic subset, reproducible traces, CI evidence and remaining coverage. The 12 symbolic branches and 379 regression checks are not product trials or a demonstrated EA differential. The dated register states which revision was checked before each article update.
+
 ## Governance and provenance
 
 The [00I four-lens adversarial audit record](../governance/00I_FOUR_LENS_ADVERSARIAL_AUDIT_2026-09-24.md) records the current pre-W3 review of the semantic-TOCTOU case, AWS peer, implementation skeletons, source claims and executive readability. It is an editorial/adversarial review record, not independent validation or execution evidence.

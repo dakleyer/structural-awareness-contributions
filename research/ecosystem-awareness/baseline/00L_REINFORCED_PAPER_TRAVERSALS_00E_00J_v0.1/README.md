@@ -23,6 +23,7 @@ Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E�
 15. [Puente a fixtures simbólicos ejecutados y falsadores](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md).
 16. [Verificación ejecutada de parejas positivas/negativas y paso previo](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) · [datos](./00L_A10_PARES_CONTROLADOS.json) · [script](./verify_paired_symbolic.py).
 17. [Registro de reproducción A11 y CI de la revisión corregida](./00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) · [12 trazas JSONL](./00L_A11_TRAZAS_EJECUTADAS.jsonl).
+18. [Registro A12 de mejoras, evidencia y texto para artículo/README](./00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
 
 ## Regla de lectura
 

@@ -1,0 +1,53 @@
+# 00L-A12 — Registro de mejoras para el artículo y el README
+
+**Corte:** 25 de septiembre de 2026. **Fuente de trabajo:** [PR #1](https://github.com/dakleyer/structural-awareness-contributions/pull/1), rama `codex/00E-00J-paper-traversals-2026-09-25`, último commit de evidencia comprobado antes de abrir este registro: `f5a64d06677b980fad53c87abdc2b1e91dddfc2f`. En el corte, `main` estaba en `d82b2775873227362281f95efb0a8b096cb6d104` y **00L seguía en el PR, sin merge**. Consultar de nuevo ambos SHA antes de actualizar el artículo o trasladar afirmaciones a `main`.
+
+Este archivo reúne **qué se añadió, qué se ejecutó, dónde está la prueba y qué frase puede trasladarse** al artículo *When the Controls Work but the System Fails* y al README canónico. Es un registro de edición y evidencia, no un resultado adicional. Los documentos originales 00E–00J conservan sus gates y narrativa: las notas nuevas enlazan los refuerzos desde el lugar correspondiente.
+
+## 1. Registro de entregas y límites
+
+| Mejora realizada | Fuente directa | Estado que debe trasladarse | Límite que debe acompañarla |
+|---|---|---|---|
+| Inventario de nueve perfiles, hechos comunes, plantilla, seis trazas, revisión adversarial e índice de afirmaciones | [A01](./00L_A01_INVENTARIO_FUENTES_NUEVE_PERFILES_v0.1.md), [A02](./00L_A02_FICHAS_HECHOS_CONTROLES_00E_00J_v0.1.md), [A03](./00L_A03_PLANTILLA_TRAZA_PAPEL_v0.1.md), [A04](./00L_A04_ANEXOS_00E_00J_ESTADO_v0.1.md), [A05](./00L_A05_REVISION_ADVERSARIAL_v0.1.md), [A06](./00L_A06_INDICE_AFIRMACIONES_PUBLICABLES_v0.1.md) y trazas de la tabla siguiente | Deducción condicional en papel sobre hechos sintéticos | No son observaciones H0/H1/H2 ni se ejecutaron los nueve productos. Las fuentes de páginas vivas no equivalen a versiones congeladas. |
+| Protocolo de observación y enlace a evidencia simbólica anterior | [A08](./00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md), [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) | Mapa de gates, controles, peer fuerte, falsadores y registros 00K anteriores | El 00G F/G original confunde autoridad con dependencia: A6a encuentra un TRUE SUBSTITUTE para ese par; A6 y A6b son aislamientos distintos. Conservar también confusiones A1/A3 y peers que pasan. |
+| Seis parejas simbólicas aisladas: 12 ramas; 128 mutaciones omitidas/nulas; tres fronteras de 00H | [A10](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md), [manifiesto](./00L_A10_PARES_CONTROLADOS.json), [verificador](./verify_paired_symbolic.py) | Ejecución simbólica acotada, reproducida localmente y por [CI 00L](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36189672557) | Las 128 mutaciones son rechazos del guard del **verificador 00L**, no 128 recorridos ni capacidad certificada de los modelos o productos. El peer fuerte no EA empata en las 12 ramas: no hay diferencial EA demostrado. |
+| Salida por rama y hash de los tres artefactos de reproducción | [A11](./00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md), [12 registros JSONL](./00L_A11_TRAZAS_EJECUTADAS.jsonl), [workflow](../../../../.github/workflows/00l-paired-symbolic.yml) | El CI 00L conserva stdout, stderr, versión Python, SHA del checkout, hashes y comparación byte a byte; [run 36189672557](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36189672557), correcto | `expected` se agrega al registro **después** de evaluar; no entra en la implementación 00K. En PR, el checkout de CI es un commit de integración temporal. |
+| Umbral activo 00H `>USD10,000` en vez de `>=USD10,000` y comprobación completa posterior | [registro A4](../fixtures/00K-A4-P4-00H/CORPUS_INTEGRATION_AND_EXECUTION_RECORD.md), [A10](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md), [A11](./00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) y [CI 00K de este head](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36189672571) | El árbol de integración del PR pasó **346/346 core + 33/33 suplementarias = 379/379** en diez jobs; los tres valores frontera de A10 también pasan | Separar del [379/379 histórico](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548), anterior a la corrección. Son regresiones simbólicas del código y sus aserciones, no 379 ensayos independientes ni evidencia de producto. El ZIP anterior se conserva. |
+| Enlaces de vuelta desde los seis originales y estado del paquete | [A07](./00L_A07_MAPA_INTEGRACION_RECORRIDOS_ORIGINALES_v0.1.md), [README 00L](./README.md) y [README canónico](../README.md) | Cada original enlaza su traza y A08–A11; las notas explican alcance, peer fuerte y cobertura ausente | Los enlaces están en la rama del PR; al hacer merge, comprobar que siguen resolviendo desde `main` antes de describirlos como publicados allí. |
+
+El [control de integridad documental del mismo head](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36189672544) también terminó correctamente. Cada URL de CI identifica **su propio run**, no garantiza que una revisión posterior conserve ese resultado.
+
+## 2. Mapa caso → resultado verificable → cobertura pendiente
+
+| Caso canónico (nota aditiva) | Traza de papel | Cambio único ejecutado en A10 | Pendiente antes de una afirmación sobre el escenario completo |
+|---|---|---|---|
+| [00E](../00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) | [00L-00E](./00L_00E_TRAZA_PAPEL_EMPAREJADA_v0.1.md) | Un hecho se resuelve o no en el paso 3 bajo capacidad fija | Composición Q1–Q5, cuatro subsistemas, consumo real de 100M tokens; [RS-00E-Q1a](../fixtures/RS-00E-Q1a/README.md) permanece **pre-ejecución**. |
+| [00F](../00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) | [00L-00F](./00L_00F_TRAZA_PAPEL_EMPAREJADA_v0.1.md) | `fire_slot` 10→11 con grants locales iguales | V8, ciudad real, carga y ventanas de dos/cinco minutos. |
+| [00G](../00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) | [00L-00G](./00L_00G_TRAZA_PAPEL_EMPAREJADA_v0.1.md) | Cambia solo la raíz de la última fuente con autoridad igual | Tránsito multiagente completo; no utilizar F/G original como prueba de necesidad P6 por el falsador A6a. |
+| [00H](../00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) | [00L-00H](./00L_00H_TRAZA_PAPEL_EMPAREJADA_v0.1.md) | Autoridad raíz ausente→vigente, tres hojas representativas | El hallazgo afecta a 4.000 cuentas; no se ejecutaron 4.000 acciones ni Stripe/Claude reales. |
+| [00I](../00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) | [00L-00I](./00L_00I_TRAZA_PAPEL_EMPAREJADA_v0.1.md) | `freeze_active` verdadero→falso con la misma base Patch A | Atomicidad check→act V10 y deriva V11/H2 del modelo de fuentes. |
+| [00J](../00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) | [00L-00J](./00L_00J_TRAZA_PAPEL_EMPAREJADA_v0.1.md) | Cambia la proposición acreditada; emisor, clase y frescura iguales | Recorrido C0–C6 completo, derechos reales y cualquier conclusión jurídica. |
+
+En los seis casos el peer fuerte no EA toma la disposición correcta en las dos ramas del microfixture. Conservar ese resultado negativo al adaptar las tablas del artículo.
+
+## 3. Texto propuesto, listo para revisión editorial
+
+**Para el artículo (inglés; insertar junto a la metodología/evidencia de los seis escenarios, no como resultado de producto):**
+
+> The six failure scenarios (00E–00J) now have paired companion paper traversals with explicit facts, gates, adverse controls and links from each canonical case. A separate symbolic replay exercises one isolated positive/negative pair per case (12 branches), rejects 128 missing/null input mutations at the 00L verifier boundary, and checks three 00H monetary threshold values. Its strong non-EA peer matches the reference route on every pair. The corrected 00K symbolic regression campaign passed 346 core and 33 supplemental checks on the pull request integration tree. These are fixture-bounded code and paper results, not executions of the nine named products or evidence of a differential EA advantage. RS-00E-Q1a Stage 0 and product comparisons remain pending.
+
+**Para el README canónico (inglés; añadir una línea en el bloque de 00L, sin sustituir las descripciones existentes):** el enlace del siguiente bloque está calculado desde `baseline/README.md`; aquí se muestra como texto para copiar.
+
+```markdown
+The [00L editorial and evidence register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) maps each canonical 00E–00J case to its paired paper traversal, executed symbolic subset, reproducible branch traces, CI run and remaining coverage. The 12 branches and 379 symbolic regression checks do not constitute product trials or a demonstrated EA differential.
+```
+
+**Condición de publicación:** antes de trasladar ese párrafo al artículo Word/Google Doc, identificar su revisión actual, elegir la sección precisa y mantener el texto, tablas, fuentes y ejemplos originales. Revisar el estado del PR y sustituir “pull request integration tree” por una referencia al SHA realmente integrado en `main` **solo después de verificar el merge y sus checks**. No convertir un Internet-Draft en norma aprobada ni atribuir estas ejecuciones a vendors.
+
+## 4. Pendientes en orden, sin adjudicar resultados por adelantado
+
+1. **Stage 0 y RS-00E-Q1a:** controles de detector activo/desactivado, doce trazas de candidatos B1/B3 duplicadas, bytes y SHA idénticos por repetición conforme a la preinscripción v0.5. Registrar desviaciones y oráculo fuera de inputs.
+2. **Comparación B0–B3:** presupuesto, fuentes, cargas y oráculo predefinidos; peer convencional fuerte, controles positivos/de abstención y coste medido. Semillas e intervalos solo si hay aleatoriedad.
+3. **Revisión externa:** reproducción independiente del método, discrepancias y resultados negativos; actualizar artículo y README con SHA y estado realmente publicados.
+
+**Regla de mantenimiento:** añadir una entrada fechada por cada nueva mejora con commit, archivos afectados, comando/run, resultado, límite y frase admisible; cuando cambie una afirmación anterior, dejar constancia de la corrección en vez de borrar su historial. Revalidar links, recuentos y `main` en cada actualización.
