@@ -4,10 +4,58 @@
 **Scenario:** 00J — *The Author Pays for Their Own Work*  
 **Status:** deterministic symbolic execution; not a live rights platform or product benchmark
 
-The negative branch contains a valid, signed, fresh **generation-provenance** record. The positive branch contains an actual rights-grant record supporting the enforcement proposition.
+The A1 fixture now has two explicitly separated layers.
 
-P1-blind repairs test signed-record validity, perfect provenance preservation, freshness, independent replication and deny-all. None separates the two branches correctly. A vendor-neutral typed-evidence schema does, but only by explicitly binding evidence type to the proposition it can support: **SEMANTIC RECONSTRUCTION of P1**.
+## 1. Preserved original layer
 
-Result after additive bounded-grid hardening: **13/13**. The grid varies unsupported proposition types and independent replication counts; neither signatures, freshness nor more copies upgrade evidence that supports the wrong proposition. No TRUE SUBSTITUTE found in the tested repair surface.
+The original negative branch contains a valid, signed, fresh **generation-provenance** record. The original positive branch contains an actual rights-grant record supporting the enforcement proposition.
 
-This does not establish universal P1 necessity. A future repair that correctly separates unsupported generation provenance from legitimate rights enforcement without an evidence→proposition→decision sufficiency invariant is a valid counterexample.
+That layer plus the first bounded grid contributed **13 tests**. It remains preserved for lineage.
+
+## 2. Falsification-first correction
+
+The original pair also changed issuer/source and record class. That creates a genuine confound: a P1-blind rule that trusts `RIGHTS-OWNER` can reject the old negative branch and accept the old positive branch without evaluating evidence→proposition sufficiency.
+
+This is now an explicit methodological result, not hidden.
+
+See [00K-A07 — P1 Confound Falsifier & Matched-Semantic Isolation](../../00K_A07_P1_CONFOUND_FALSIFIER_AND_MATCHED_SEMANTIC_ISOLATION_v0.1.md).
+
+## 3. Corrected matched-semantic isolation
+
+The corrected pair holds equal:
+
+- source/issuer;
+- signature;
+- freshness;
+- record class;
+- record count;
+- provenance completeness; and
+- authority context.
+
+Only the **semantic proposition supported by the valid evidence** differs.
+
+Serious repair attempts include:
+
+- trusted-issuer allow-list;
+- complete provenance;
+- generic schema allow-list;
+- confidence/risk scoring;
+- independent quorum;
+- human approval without a new rights fact;
+- source reputation;
+- threshold sweeps; and
+- replicated valid-but-wrong propositions.
+
+None separates the corrected negative and positive branches.
+
+A vendor-neutral evidence-semantics / proposition / decision policy matrix does separate them, but only by implementing the operational P1 invariant: **SEMANTIC RECONSTRUCTION of P1**.
+
+## Result
+
+- preserved original + grid: **13**
+- serious-repair/falsifier layer: **29**
+- **current A1 total: 42/42**
+
+No TRUE SUBSTITUTE is found in the corrected matched-semantic repair surface.
+
+This does not establish universal P1 necessity. A future repair that correctly separates the matched branches without an evidence→proposition→decision sufficiency invariant or operational equivalent is a valid counterexample.
