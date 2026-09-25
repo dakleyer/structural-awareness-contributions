@@ -3,6 +3,7 @@
 # Ecosystem Positioning
 ### Agentic Architecture for staying situated as the ecosystem changes
 
+[![Open PowerPoint](https://img.shields.io/badge/OPEN-POWERPOINT-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx)
 [![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx)
 [![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx)
 [![Read the Architecture](https://img.shields.io/badge/READ-THE%20ARCHITECTURE-1B4D8E?style=for-the-badge)](#awareness--positioning--agent-defense)
@@ -107,6 +108,8 @@ flowchart LR
 
 <br>
 
+[Google Drive canonical PPTX](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit) ·
+[Combined canonical PPTX mirror — v1.10, pending v1.11 sync](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) ·
 [Requirements & Evidence PPTX](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) ·
 [Architecture & Implementation PPTX](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) ·
 [PDF](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) ·
@@ -219,6 +222,8 @@ Scenarios, use cases, fixtures, technology profiles, interfaces and benchmarks s
 
 [Requirements-vNext review](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) checks whether later Ecosystem Positioning mechanisms require a new requirements version. The current bounded review finds that the later mechanisms can still be mapped to the existing requirements, with clarification candidates rather than an automatic S15/T5/H7 expansion.
 
+*Requirements-to-scenario route: [replay the six failures against the canonical contract](#requirements--replaying-the-failure-scenarios-as-tests).*
+
 ## 3. Requirements coverage — where each scenario and use case tests the requirements
 
 [**Use Case Portfolio / Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) is the requirements-first map across scenarios, use cases, fixtures, execution status and gaps.
@@ -230,6 +235,8 @@ This is why the scenarios are detailed: they are not illustrations added after t
 ---
 
 # The shared epistemic position
+
+The four-part participant-local epistemic position is a practical way to **understand uncertainty and carry it across an ecosystem without pretending that participants share one world model, one controller or even the same objective**. It is always relative to a declared participant, decision, scope and time.
 
 A central structural pattern is the four-part participant-local epistemic position.
 
@@ -245,6 +252,8 @@ In compact form:
 | **D** | Residual that is not presently established as knowable within that capability boundary. |
 
 These positions are deliberately **non-fungible**. More confidence in A cannot compensate for an unexamined residual in D; more compute cannot automatically substitute for missing authority; more messages do not automatically create independent evidence.
+
+This becomes especially important in [**Ecosystem Signalling**](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). A participant may communicate a bounded qualified position, but the receiver must interpret and requalify it locally. Signalling therefore does **not** presume orchestration, cooperation or common governance: participants may be cooperative, indifferent, competing, misaligned, adversarial or effectively parasitic. A received signal can contribute evidence; transport success, repetition or apparent consensus cannot by themselves create truth, authority or a common state.
 
 ## Epistemic Handoff Descriptor — preserving meaning across systems
 
@@ -275,9 +284,89 @@ The complete architecture is composed from separately owned mechanisms. The link
 | **MSCA Operation & Repositioning** | Checks bound versus effective role, Type 0/1/2 state, P1/P2/P3 posture, then filters candidate transitions through ACC, lineage, authority, capacity and response horizon. | [MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) |
 | **Human / institutional authority** | Owns legitimate objectives, permissions, policy and final decision rights. The architecture can qualify or request; it does not create authority. | External legitimate owner; consumed through ACC / authority references and signalling |
 
+### Detailed ownership and boundary matrix
+
+The compact responsibility table above is retained as the high-level reading view. The matrix below adds the **Owns / Emits / Never** boundary needed to prevent responsibilities from being silently merged when the components are composed.
+
+| Component | Owns | Emits | Never | Source |
+|---|---|---|---|---|
+| **Ecosystem Positioning** | Participant-local situated composition across the maintained technical gates and the positioning circuit | Candidate positioning / transition context routed into the Gradient and MSCA Operation / Repositioning path | Absorbs the semantic ownership of EA, RA or MSCA; turns opportunity into permission; creates authority | This README · [Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [MSCA 04](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) |
+| **Ecosystem Awareness** | Decision-scoped epistemic qualification `Π_EA,i(d,t)` | Qualified state; F8 epistemic envelope; requalification and evidence requests | Acts as an epistemic super-controller; issues commands; promotes local confidence to a participant-global or ecosystem-global conclusion | [Topology](../../research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) · [01H](../../research/ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) |
+| **Regime Awareness** | Continued validity of the operating frame | `Δ_RA`; regime-qualified overlay; bounded requalification requests | Decides the participant's P1/P2/P3 posture; becomes the persistent Ecosystem Cartography repository | [01C v0.2](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [RA README](../../research/regime-awareness/README.md) |
+| **MSCA — canonical architecture** | Control sufficiency over the focal S/E/C/P/M architecture under the Objective Envelope | Sufficiency assessment under the declared objective, environment, coordination, intervention and enabling-means frame | Creates authority; owns the Semantic Window | [MSCA 00](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) |
+| **MSCA — Composition & Control** | Participant-local Ecosystem Cartography `Cart_i` and its bounded dependency representation | `Cart_i` and `Δ_Cart,i` | Silently merges peer MSCAs into a composite without a legitimate higher-order owner; becomes Regime Awareness | [MSCA 03](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) |
+| **Objective-Conditioned Agentic Gradient Law** | Objective-conditioned ranking of candidate transitions from the qualified effective position | Ranked candidate transitions / opportunity ordering | Treats opportunity as permission; claims a globally optimal gradient independent of the receiving participant and objective | [Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) |
+| **MSCA Operation / Repositioning** | Effective-role drift control; Type 0/1/2 catalogue; P1/P2/P3 posture; ACC/lineage/authority gate; bounded role/contract transition | `Π_RP`; `RepositionIntent`; bounded role/contract outcome | Actuates containment or isolation by itself; treats effective drift as legitimate merely because it already happened | [MSCA 04](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) |
+| **EHD / ecosystem signalling** | Boundary crossing of qualified state under receiver-side qualification | `ReceivedSignals_i`; bounded qualified state; `RepositionIntent` / `AuthorityResponse` compound profiles where material | Turns a signal into a command; creates a common global state or common governance | [01J](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) |
+| **Agentic Citizenship Contract** | Human-defined admissible participation conditions, including membership, roles, obligations, prohibitions, revocation and exit | Admissibility / normative constraints bound where applicable to the participant and MSCA | Owns identity, delegated authority, EA qualification, MSCA sufficiency or defence execution | [01I](../../research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md) |
+| **Human / institutional governance** | Legitimate authority, policy, objectives and final decision rights | Decisions; permissions / refusals; `AuthorityResponse` where the signalling profile is used | Delegates away accountability merely because an architectural component proposes or ranks a transition | This README · [MSCA 04](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) |
+
+The matrix is a boundary-reading aid over the current corpus. It does not replace the source definitions above or in the linked documents, and it does not turn cross-component composition into shared semantic ownership.
+
+
 The operating logic is therefore:
 
 **observe / receive signal → qualify A/B/C/D → update cartography → qualify regime change → detect effective-role drift → establish posture → rank candidate repositioning → filter by ACC / lineage / authority → execute only through the legitimate control owner → signal material changes back into the ecosystem.**
+
+```mermaid
+flowchart LR
+    S1["Observe / receive signal"] --> S2["Qualify A/B/C/D"]
+    S2 --> S3["Update cartography"]
+    S3 --> S4["Qualify regime change"]
+    S4 --> S5["Detect effective-role drift"]
+    S5 --> S6["Establish posture"]
+    S6 --> S7["Rank candidate repositioning"]
+    S7 --> S8["Filter by ACC / lineage / authority"]
+    S8 --> S9["Execute only through<br/>the legitimate control owner"]
+    S9 --> S10["Signal material changes<br/>back into the ecosystem"]
+    S10 -.-> S1
+    style S9 stroke:#B33A3A,stroke-width:2px
+```
+
+## Working process
+
+The current circuit is event/threshold/schedule driven; it does **not** require one fixed polling cadence.
+
+```mermaid
+flowchart LR
+    A[Participant action / observation]
+    E[EA local position<br/>Π_EA,i = A/B/C/D]
+    S[Qualified Ecosystem Signalling<br/>ReceivedSignals_i]
+    M[MSCA Ecosystem Composition & Control<br/>Cart_i / Δ_Cart,i]
+    R[Regime Awareness<br/>Δ_RA + regime overlay]
+    D[MSCA Operation<br/>effective-role drift · Type 0/1/2 · P1/P2/P3]
+    G[Agentic Gradient<br/>rank from Role_effective]
+    P[Repositioning / contract gate<br/>ACC · lineage · authority · escalation]
+    H[Authorized control / execution / effects]
+
+    A --> E
+    S --> E
+    E --> M
+    S --> M
+    M --> R
+    E --> R
+    S --> R
+    R --> D
+    D --> G
+    G --> P
+    P -. when authorized .-> H
+    H --> A
+    R -. requalification / resolution request .-> M
+```
+
+The component contract is:
+
+- [01H](../../research/ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) supplies the participant-local qualified epistemic position and material local action/effect changes;
+- [01J](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) supplies receiver-qualified external messages as `ReceivedSignals_i`;
+- [MSCA Ecosystem Composition & Control](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) maintains the participant-local qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` and its cartographic change-set `Δ_Cart,i`;
+- [Regime Awareness 01C](../../research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) consumes those inputs plus focal MSCA/Role/decision context and returns `Δ_RA`, a regime-qualified overlay and bounded requalification requests;
+- [Canonical MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) first checks `Role_effective` drift, catalogues Type 0/1/2 and instantiates P1/P2/P3; the [Objective-Conditioned Agentic Gradient Law](./01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) then ranks candidate transitions from that effective position; ACC/lineage/authority gating produces HOLD/REALIGN_TARGET/REQUEST_CONTAINMENT/REBIND/RECONTRACT/MIGRATE/REQUEST_ISOLATION/ESCALATE outcomes. Repositioning selects/proposes/escalates; containment/isolation actuation remains with the authorized control owner.
+
+**MSCA is cross-cutting:** control sufficiency is re-assessed when the frame, Objective Envelope, dependency map or authority changes. It does not create authority and it does not own the Semantic Window.
+
+The cycle may be triggered by local epistemic movement, one or several material external signals, signal insufficiency/staleness, dependency-map change, action/effect mismatch, owner/policy request or a domain-appropriate periodic refresh.
+
+---
 
 ## Ecosystem Agent Defense and bounded self-healing
 
@@ -292,6 +381,14 @@ Self-healing therefore means **distributed recovery of justified operation**, no
 # Architecture and interfaces — three levels
 
 The interface architecture is intentionally separated into three layers so that the generic architecture is not contaminated by one standards programme.
+
+```mermaid
+flowchart TB
+    L1["Level 1 · 04 General Interfaces<br/>programme-independent, canonical"]
+    L2["Level 2 · 05 FG-TIDA Ideal<br/>what the complete target interface would need"]
+    L3["Level 3 · 05A Current-State Bridge<br/>what public FG-TIDA state can actually support today"]
+    L1 --> L2 --> L3
+```
 
 ### Level 1 — canonical / programme-independent interfaces
 
@@ -312,6 +409,8 @@ Projects the general 04 architecture onto an ideal cross-Theme FG-TIDA structure
 Maps the ideal contract against what can presently be supported from the public FG-TIDA state and contributor-confirmed material. Missing fields remain UNKNOWN or require explicit clarification; they are not invented to make the ideal architecture appear implemented.
 
 [Open the FG-TIDA interface package](../../research/ecosystem-awareness/fg-tida/interfaces/README.md)
+
+[FG-TIDA public themes repository](https://github.com/FG-TIDA/themes)
 
 ---
 
@@ -346,6 +445,8 @@ A narrative scenario is not evidence by itself. The corpus therefore separates *
 
 [**Canonical Benchmark v0.2 — comparative execution method**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Comparative execution and independent replication remain pending.
 
+The comparative method freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published sources.
+
 This distinction matters:
 
 > **A designed harness is not an executed test. A pre-registration is not a result. A technology implementation profile is not a benchmark result.**
@@ -370,6 +471,8 @@ All arms receive the same frozen facts, evidence access, authority, compute/toke
 The benchmark therefore measures whether the architecture improves the declared **outcome–burden–accountability frontier**. It is not a vendor league table.
 
 [**00D v0.3 Draft — Ecosystem Positioning Benchmark vNext**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) extends the design from EA alone to the complete composition: signalling, Cartography, Regime Awareness, MSCA, effective-role drift, Gradient, ACC/authority and repositioning. It introduces module attribution, later positioning branches, choreography/partition tests and complexity/accountability measures.
+
+[**Decision Boundary Challenge v0.2 — public ranking-by-evidence / applied validation**](../../research/ecosystem-awareness/DECISION_BOUNDARY_CHALLENGE_v0.2.md) is the separate cross-platform review and public ranking route: hard admission gates, outcome–burden–accountability/Pareto comparison, and the DBC-EL0 → DBC-EL5 evidence-maturity ladder. It does not replace either 00D benchmark.
 
 **v0.2 remains canonical. v0.3 remains a bounded design draft until its adoption gates close.**
 
