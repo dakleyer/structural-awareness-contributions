@@ -84,6 +84,8 @@ The central risk in 00J is therefore not forgery, but semantic promotion: a stat
 >
 > The scenario fails only when a narrower valid record is silently promoted into a stronger enforcement claim.
 
+**Case-study family / extensibility:** the rights story is the **minimum concrete instantiation** of the [00J Provenance-Scope Inversion case-study family](./00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md). Copyright/payment is one consequence, not the family boundary: admitted extensions preserve the same `valid narrow record → broken lineage/promotion → stronger unsupported proposition → downstream decision` kernel under [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md).
+
 ## 1. Executive case card
 
 A creator **A** publishes an original text work **W** through a platform that records a strong upstream rights/provenance state **R0**:
