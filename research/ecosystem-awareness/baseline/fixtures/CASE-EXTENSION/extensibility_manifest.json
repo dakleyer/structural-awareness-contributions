@@ -45,7 +45,8 @@
           "R&D portfolio selection",
           "software operations"
         ]
-      }
+      },
+      "success_case": "research/ecosystem-awareness/baseline/00E_SUCCESS_MODEL_CASE_QUALIFIED_SYNTHESIS_v0.1.md"
     },
     "00F": {
       "parent": "research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md",
@@ -85,7 +86,8 @@
           "appointments/rooms/staff",
           "energy/charging capacity"
         ]
-      }
+      },
+      "success_case": "research/ecosystem-awareness/baseline/00F_SUCCESS_MODEL_CASE_SHARED_CAPACITY_REQUALIFICATION_v0.1.md"
     },
     "00G": {
       "parent": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md",
@@ -121,7 +123,8 @@
           "coding/operations agents",
           "multi-agent debate/review"
         ]
-      }
+      },
+      "success_case": "research/ecosystem-awareness/baseline/00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md"
     },
     "00H": {
       "parent": "research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md",
@@ -159,7 +162,8 @@
           "identity/access administration",
           "billing/warranty remediation"
         ]
-      }
+      },
+      "success_case": "research/ecosystem-awareness/baseline/00H_SUCCESS_MODEL_CASE_PRESERVE_WITHOUT_OVERREACH_v0.1.md"
     },
     "00I": {
       "parent": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md",
@@ -196,7 +200,8 @@
           "scheduled transactions",
           "logistics dispatch"
         ]
-      }
+      },
+      "success_case": "research/ecosystem-awareness/baseline/00I_SUCCESS_MODEL_CASE_ACTION_TIME_REQUALIFICATION_v0.1.md"
     },
     "00J": {
       "parent": "research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md",
@@ -235,7 +240,9 @@
           "model/artifact provenance",
           "supply-chain entitlement records"
         ]
-      }
+      },
+      "success_case": "research/ecosystem-awareness/baseline/00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md"
     }
-  }
+  },
+  "success_method": "research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md"
 }
