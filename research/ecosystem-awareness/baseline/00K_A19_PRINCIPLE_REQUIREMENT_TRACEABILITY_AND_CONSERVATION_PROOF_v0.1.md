@@ -8,7 +8,8 @@
 | **Scenario coverage evidence** | [00K-A02](./00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) |
 | **Executable testbook** | [00K-A15](./00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) |
 | **Corpus-grounded independence** | [00K-A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) |
-| **Pure mathematical independence** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
+| **Formal sketch** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
+| **Shared-substrate mathematical independence** | [00K-A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Machine-readable integrity check** | [fixtures/00K-TRACE](./fixtures/00K-TRACE/README.md) |
 | **Status** | semantic traceability proof; no change to frozen requirement semantics |
 | **Date** | 25 September 2026 |
@@ -40,7 +41,7 @@ with a second, orthogonal proof edge:
 \[
 P1\text{–}P6
 \rightarrow
-\text{A18 mathematical independence}.
+\text{A20 shared-substrate mathematical independence}.
 \]
 
 A16 then bridges the two by showing that corrected scenario-derived witnesses instantiate the same countermodel structure.
@@ -308,7 +309,7 @@ This is executable symbolic evidence.
 P_i \rightarrow A18
 \]
 
-A18 constructs an abstract countermodel \(\omega_i\) satisfying all \(P_j,j\neq i\), while violating \(P_i\).
+A20 constructs a shared-substrate countermodel \(\omega_i\) satisfying all \(P_j,j\neq i\), while violating \(P_i\).
 
 This proves:
 
@@ -316,7 +317,7 @@ This proves:
 T\setminus\{P_i\}\not\models P_i.
 \]
 
-No test result is a premise of A18.
+No test result is a premise of A20. A18 remains the simpler Boolean sanity check.
 
 ### Corpus-grounded bridge
 
@@ -325,7 +326,7 @@ A16 constructs scenario-derived witnesses \(M_i\) exhibiting the same independen
 This gives the complete triangular relation:
 
 \[
-\text{abstract independence (A18)}
+\text{shared-substrate independence (A20)}
 \leftrightarrow
 \text{corpus witness (A16)}
 \leftrightarrow
@@ -392,7 +393,7 @@ P1\text{–}P6
 A18
 \]
 
-establishes mathematical independence, while A16 demonstrates corpus-relative countermodels.
+establishes mathematical independence, while A16 demonstrates corpus-relative countermodels. A18 is retained as the earlier lightweight formal sketch.
 
 The result is a traceable architecture with distinct evidence classes:
 
