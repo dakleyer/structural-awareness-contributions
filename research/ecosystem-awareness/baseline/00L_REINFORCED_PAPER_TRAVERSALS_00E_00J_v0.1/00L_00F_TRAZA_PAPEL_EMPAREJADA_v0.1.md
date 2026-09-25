@@ -4,6 +4,8 @@
 
 ## Ficha congelada
 
+**Evidencia complementaria:** [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) traza dos ejecuciones simbólicas anteriores: 00K-A3/P3 (conflicto sin marcador HOLD tras detectar un confusor) y 00K-A6b/P6 (compatibilidad recurso-tiempo con autoridad y frescura emparejadas). No son simulación de ciudad, ni verifican la ventana física de 2/5 minutos.
+
 Varias aplicaciones urbanas usan Central Bridge. R1 debe superar V0/V1 y degradaciones conocidas antes de congelarse. H2/R2 introduce **V8, drift de dependencia, topología o mapeo**, no presupone cambio de prioridad municipal; el broker/twin puede seguir entregando datos formalmente válidos. Una prioridad autorizada nueva es control distinto que también exige recalificación.
 
 ## Recorrido H0/H1/H2 y ruta positiva

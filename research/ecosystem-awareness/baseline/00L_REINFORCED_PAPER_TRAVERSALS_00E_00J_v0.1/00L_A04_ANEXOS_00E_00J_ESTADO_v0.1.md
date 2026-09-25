@@ -1,6 +1,6 @@
 # 00L-A04 — Anexos 00E–00J y estado de preparación
 
-Este registro distingue traza lógica desarrollada de fixture ejecutable o medición. No se han ejecutado los nueve perfiles ni EA. Ver [A08](./00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md).
+Este registro distingue traza lógica desarrollada de fixture ejecutable o medición de productos. No se han ejecutado los nueve perfiles ni EA en esos productos. Sí hay fixtures simbólicos previos para principios parciales, con falsadores: [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md). Ver también [A08](./00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md).
 
 | Caso | Escenario y perfiles | Estado del anexo emparejado | Próximo dato que debe congelarse |
 |---|---|---|---|

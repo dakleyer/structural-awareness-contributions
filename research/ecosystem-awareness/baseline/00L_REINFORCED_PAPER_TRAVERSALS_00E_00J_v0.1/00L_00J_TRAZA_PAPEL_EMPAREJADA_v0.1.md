@@ -4,6 +4,8 @@
 
 ## Ficha congelada
 
+**Evidencia complementaria:** [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) enlaza 00K-A1/P1. Su primera pareja tenía un confusor de emisor/clase; el par corregido iguala esas señales y cambia la proposición sustentada. Es ejecución simbólica previa de suficiencia de evidencia, no decisión jurídica ni prueba de Panodyssey/TEMS.
+
 El fixture original fija A/W/R0/C1/M1/D1/X/RX; el fallo es elevar una credencial auténtica de generación/registro a un derecho de X **no acreditado** para imponer a A pago/licencia/cese. H2 es el mismo peer H1 congelado bajo pérdida de lineage/alcance; C1 transferencia legítima y C5 stale/revocación son controles **separados**, no su definición.
 
 ## Recorrido H0/H1/H2 y ruta positiva

@@ -4,6 +4,8 @@
 
 ## Ficha congelada para este cálculo
 
+**Evidencia complementaria:** [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) enlaza 00K-A5/P5, ejecutado simbólicamente en trabajos previos, y el skeleton 00I-AWS aún sin ejecución. El peer que liga la base material completa sí pasa el fixture A5; ese resultado no ejecuta AWS ni verifica el hueco V10 check→act.
+
 En `T1`, Patch A fue calificado con incidente abierto, diagnóstico y configuración `g9`. Antes de `t_act`, se publica Patch B, el incidente se resuelve y entra un freeze. El contrato exige volver a leer fuente, versión, freeze, diagnóstico e intervención en el límite de acción. La continuidad válida mantiene todas las precondiciones materiales.
 
 ## Recorrido R0/R1/R2 y ruta positiva

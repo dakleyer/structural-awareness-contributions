@@ -26,3 +26,5 @@
 | 00J | C0/C1/C2/C4/C6 preservan uso/transferencia/independencia/UNKNOWN/re-entry | sistema de derechos ordinario resuelve la proposición exacta y la disputa igual de bien |
 
 Cada salida comparativa sigue `NO CONCLUSION` sin logs, costes y mismo fixture. El oráculo nunca debe entregarse a un brazo para resolver una rama oculta.
+
+El caso [00K-A6a](../fixtures/00K-A6a-P6-00G/README.md) ya proporciona un resultado adverso concreto: en la pareja original 00G F/G, un control de autoridad sin P6 distingue las ramas. Esa pareja sigue sirviendo para validar la decisión completa de transición, pero no como aislamiento del principio P6. [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) también conserva los confusores documentados de las parejas iniciales A1 y A3 y los peers simbólicos fuertes que pasan al reconstruir el invariante.

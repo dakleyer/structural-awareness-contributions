@@ -20,11 +20,12 @@ Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E�
 12. [Índice de afirmaciones publicables](./00L_A06_INDICE_AFIRMACIONES_PUBLICABLES_v0.1.md).
 13. [Mapa de integración con los recorridos originales](./00L_A07_MAPA_INTEGRACION_RECORRIDOS_ORIGINALES_v0.1.md).
 14. [Protocolo de reproducibilidad, observación y oráculo](./00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md).
+15. [Puente a fixtures simbólicos ejecutados y falsadores](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md).
 
 ## Regla de lectura
 
-`H0`, `H1` y `H2` son brazos de comparación. La ruta positiva es un modelo de éxito de diseño. Ninguna tabla de este paquete informa telemetría, rendimiento observado, ejecución de EA o resultado de un producto. Cuando los documentos actuales no determinan una celda, se conserva `NO CONCLUSION`.
+`H0`, `H1` y `H2` son brazos de comparación. La ruta positiva es un modelo de éxito de diseño. Ninguna tabla de este paquete informa telemetría, rendimiento observado o resultado de los productos comparados. Sí existen **ejecuciones simbólicas previas de fixtures 00K**, enlazadas con sus límites y falsadores en A09; no equivalen a ejecución de EA en los productos. Cuando los documentos actuales no determinan una celda, se conserva `NO CONCLUSION`.
 
 ## Orden de trabajo
 
-Los seis anexos contienen ahora reglas paso a paso y controles adversos; todavía no hay ejecución de los nueve perfiles ni logs para comparar H0/H1/H2. El siguiente hito es congelar los campos pendientes de A04, registrar observaciones/costes conforme A08, y solo entonces adjudicar resultados. Los enlaces desde cada recorrido original siguen pendientes de la fase de integración/merge descrita en A07; este PR no los modifica.
+Los seis anexos contienen reglas paso a paso y controles adversos; A09 conecta evidencia simbólica existente y el resultado adverso A6a. Todavía no hay ejecución de los nueve perfiles ni logs para comparar H0/H1/H2. El siguiente hito es congelar campos pendientes de A04, registrar observaciones/costes conforme A08, y solo entonces adjudicar resultados. Los enlaces desde cada recorrido original siguen pendientes de la fase de integración/merge descrita en A07; este PR no los modifica.

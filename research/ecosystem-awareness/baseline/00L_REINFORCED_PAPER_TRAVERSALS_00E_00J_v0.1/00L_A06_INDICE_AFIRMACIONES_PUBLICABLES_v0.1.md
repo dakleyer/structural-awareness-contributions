@@ -12,3 +12,5 @@
 | EA supera a los productos comparados | hipótesis falsable | **no afirmada; no ejecutada** |
 | Los productos fallan en producción | afirmación empírica | **no afirmada; no hay evidencia aquí** |
 | Los productos ejecutaron estos recorridos | afirmación de ejecución | **falsa para este paquete; no se ejecutaron** |
+| Existen ejecuciones **simbólicas previas** de ablations 00K sobre abstracciones relacionadas con 00E–00J | registro de pruebas dentro del repositorio | publicable con los enlaces/alcance de [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md); no extender a producto o caso completo |
+| El par original F/G de 00G demuestra por sí solo necesidad de P6 | inferencia experimental | **refutada en ese par** por 00K-A6a (autoridad sola separa); consultar aislamiento corregido 00K-A6 y 00K-A6b |

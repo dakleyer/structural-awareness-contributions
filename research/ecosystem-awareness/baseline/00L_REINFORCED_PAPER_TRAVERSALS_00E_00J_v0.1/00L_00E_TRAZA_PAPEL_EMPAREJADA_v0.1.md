@@ -4,6 +4,8 @@
 
 ## Ficha congelada
 
+**Evidencia complementaria:** [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) enlaza la ablation simbólica 00K-A2/P2, que sí tiene registros de ejecución anterior, y separa RS-00E-Q1a todavía pre-ejecución. A2 aísla capacidad/esfuerzo; no ejecuta los cuatro gates sustantivos de esta tabla ni productos 00E.
+
 La decisión es producir una síntesis útil para cuatro departamentos dentro de un presupuesto fijo de tokens. En el estado inicial las fuentes son suficientes y relativamente independientes. En el cambio H2 la evidencia útil cae y dos fuentes pasan a depender de una misma cadena; el presupuesto y el objetivo no cambian.
 
 ## Recorrido H0/H1/H2 y ruta positiva
