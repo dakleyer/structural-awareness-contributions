@@ -1,5 +1,7 @@
 <!-- FREEZE-ADD:COVER:START -->
 # Smart-City Mobility Chaos
+**Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Coherent Shared-Capacity Requalification](./00F_SUCCESS_MODEL_CASE_SHARED_CAPACITY_REQUALIFICATION_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
+
 
 ## The City That Stopped Safely
 
