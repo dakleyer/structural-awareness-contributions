@@ -70,6 +70,7 @@ flowchart LR
 |---|---|
 | **ID** | 00I |
 | **Type** | Reference failure scenario (fictional), quality-gate plan and requirements-gap probe |
+| **Case-study role** | Minimum concrete instantiation of the [00I extensible case family](./00I_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) |
 | **Status** | Additive annex · fictional candidate scenario · not W3-admitted · not integrated into 00D execution |
 | **Version · date** | v0.5 Draft · 2026-09-24 |
 | **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning |
