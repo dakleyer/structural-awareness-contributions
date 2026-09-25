@@ -7,6 +7,8 @@
 **Repository PDF snapshot:** [Ecosystem_Positioning_Canonical.pdf](./Ecosystem_Positioning_Canonical.pdf) — v1.0, 9-page historical reading snapshot, predating the 17-slide v1.10 mirror and the Ward Discussion v2; awaiting current sync\
 **Google Drive reading snapshot (owner access; not public):** https://drive.google.com/file/d/11Qg30zgwgpT4JE-rNIW69ikn5jOa4pYQ/view — v1.0 historical PDF, awaiting current sync
 
+**Earlier visual versions retained in Git:** [22 September 10-slide PPTX](https://github.com/dakleyer/structural-awareness-contributions/blob/873622aa4832faf156fd35d0712df3d986e5cc07/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) · [matching 10-page PDF](https://github.com/dakleyer/structural-awareness-contributions/blob/873622aa4832faf156fd35d0712df3d986e5cc07/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf) · [23 September 9-slide PPTX](https://github.com/dakleyer/structural-awareness-contributions/blob/ec75c41b804752608e1bfbfb8a85c6f67ba19c31/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx). These are dated predecessors; the current links above keep their stated versions.
+
 ## Ward discussion deck — v2
 
 [**Ecosystem Positioning · Ward Discussion v2 — 19 slides**](./Ecosystem_Positioning_Canonical_Ward_Discussion_v2.pptx) is the 25 September working discussion deck linked from the Ecosystem Positioning README. It is distinct from the editable canonical v1.11 presentation above and from the two split v1.1 decks below; the older repository mirror and PDF remain explicitly labelled as earlier snapshots.
