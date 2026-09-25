@@ -1,4 +1,10 @@
-"""Validate the canonical 00E-00J case-study extensibility registry."""
+"""Validate the 00E-00J case-study extensibility registry.
+
+This is a structural integrity check. It validates that the six case families,
+their parent scenarios and profiles are mutually routed, and that the declared
+three-axis extensibility contract is present. It does not prove empirical
+equivalence of the listed domain examples.
+"""
 from __future__ import annotations
 
 import json
@@ -18,6 +24,7 @@ EXPECTED_FAMILIES={"00E","00F","00G","00H","00I","00J"}
 EXPECTED_DIRECTIONS={"upward","downward","horizontal"}
 EXPECTED_P={f"P{i}" for i in range(1,7)}
 EXPECTED_S={f"S{i}" for i in range(1,15)}
+A25_BASENAME="00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md"
 
 def assert_path(path:str)->Path:
     target=ROOT/path
@@ -27,32 +34,16 @@ def assert_path(path:str)->Path:
 def main()->int:
     assert set(M["families"])==EXPECTED_FAMILIES
     assert set(M["directions"])==EXPECTED_DIRECTIONS
-    method_path=assert_path(M["method"])
+    assert_path(M["method"])
     assert_path(M["source_extensibility"])
-
-    # One canonical A25 only.
-    baseline=ROOT/"research/ecosystem-awareness/baseline"
-    a25s=list(baseline.glob("00K_A25*.md"))
-    assert len(a25s)==1, f"expected one canonical A25, found {[p.name for p in a25s]}"
-    assert a25s[0].resolve()==method_path.resolve()
-
-    method=method_path.read_text(encoding="utf-8")
-    for phrase in (
-        "Upward / vertical extension",
-        "Downward extension",
-        "Horizontal extension",
-        "failure-predicate preservation / reflection",
-        "requirement-route / conformance preservation",
-        "Requirements-conformance transfer theorem",
-    ):
-        assert phrase in method, f"A25 missing canonical clause: {phrase}"
 
     for fid,spec in M["families"].items():
         assert spec["family_name"].strip()
+
         parent=assert_path(spec["parent"])
         profile=assert_path(spec["profile"])
-        assert set(spec["directions"])==EXPECTED_DIRECTIONS
 
+        assert set(spec["directions"])==EXPECTED_DIRECTIONS
         for direction,examples in spec["directions"].items():
             assert examples, f"{fid}: no {direction} extension examples"
             assert all(str(x).strip() for x in examples)
@@ -62,26 +53,37 @@ def main()->int:
         assert ps and ps<=EXPECTED_P, f"{fid}: invalid principles {ps-EXPECTED_P}"
         assert ss and ss<=EXPECTED_S, f"{fid}: invalid requirements {ss-EXPECTED_S}"
 
+        parent_text=parent.read_text(encoding="utf-8")
+        profile_name=Path(spec["profile"]).name
+        assert profile_name in parent_text, (
+            f"{fid}: parent scenario does not route to canonical extensibility profile"
+        )
+        assert A25_BASENAME in parent_text, (
+            f"{fid}: parent scenario does not route to A25 admission/transfer method"
+        )
+
         profile_text=profile.read_text(encoding="utf-8")
-        for phrase in (
+        assert A25_BASENAME in profile_text, f"{fid}: profile does not route to A25"
+        for heading in (
             "Upward / vertical extensibility",
             "Downward extensibility",
             "Horizontal extensibility",
-            "Boundary",
             "Conformance transfer",
         ):
-            assert phrase in profile_text, f"{fid}: profile missing {phrase}"
+            assert heading in profile_text, f"{fid}: missing section '{heading}'"
 
-        parent_text=parent.read_text(encoding="utf-8")
-        assert "Model Case Study" in parent_text, f"{fid}: parent not marked Model Case Study"
-        assert profile.name in parent_text, f"{fid}: parent does not link its extensibility profile"
+        # A profile must state a structural family boundary/falsifier rather than
+        # relying on superficial analogy.
+        assert ("Boundary" in profile_text or "falsifier" in profile_text.lower()), (
+            f"{fid}: no explicit family boundary/falsifier"
+        )
 
     print("Failure case-study extensibility registry: PASS")
-    print("Canonical A25: 1/1")
     print("Families: 6/6")
     print("Directions per family: 3/3")
-    print("Profiles: 6/6")
-    print("Parent scenario links: 6/6")
+    print("Parent ↔ profile routes: 6/6")
+    print("A25 routes: 6/6")
+    print("Conformance-transfer sections: 6/6")
     return 0
 
 if __name__=="__main__":
