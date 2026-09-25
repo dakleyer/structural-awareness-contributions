@@ -17,15 +17,15 @@ meta-integrity gate and is **not counted** among the 163 ablation tests.
 | Principle | Fixture | Current regression count | Current bounded result |
 |---|---|---:|---|
 | **P1** | [A1 / 00J](../00K-A1-P1-00J/README.md) | **42** | original naive pair admits a source-authority TRUE SUBSTITUTE; corrected matched-semantic isolation finds no TRUE SUBSTITUTE in the serious repair surface; evidence→proposition→decision peer reconstructs P1 |
-| **P2** | [A2 / 00E](../00K-A2-P2-00E/README.md) | **13** | no TRUE SUBSTITUTE; bounded decision-relevant search reconstructs P2 |
+| **P2** | [A2 / 00E](../00K-A2-P2-00E/README.md) | **58** | matched-prefix late-resolution audit + serious TTL/circuit-breaker/parallel/scheduler/probe repairs; no TRUE SUBSTITUTE; viable finite stopping/fallback reconstructs P2 |
 | **P3** | [A3 / 00F](../00K-A3-P3-00F/README.md) | **15** | no TRUE SUBSTITUTE; explicit unresolved/non-permission closure reconstructs P3 |
 | **P4** | [A4 / 00H](../00K-A4-P4-00H/README.md) | **29** | no TRUE SUBSTITUTE; A2-L root/delegation lineage reconstructs P4 |
 | **P5** | [A5 / 00I](../00K-A5-P5-00I/README.md) | **14** | no TRUE SUBSTITUTE; full action-time material-basis compare reconstructs P5 |
 | **P6** | [A6 / matched-authority 00G](../00K-A6-P6-00G/README.md) | **17** | no TRUE SUBSTITUTE in isolated surface; source-independence composition reconstructs P6 |
 
-**Core regression surface: 130 tests.**
+**Core regression surface: 175 tests.**
 
-These 130 tests are not 130 independent proofs. They are the current regression
+These 175 tests are not 175 independent proofs. They are the current regression
 surface for six fixture-bounded ablation arguments.
 
 ## Supplemental falsification / anti-tailoring surface
@@ -38,9 +38,9 @@ surface for six fixture-bounded ablation arguments.
 
 **Supplemental surface: 33 tests.**
 
-**Full campaign surface: 163 tests.**
+**Full campaign surface: 208 tests.**
 
-Independent repository CI reproduction: the prior [**134/134 full campaign run**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) remains a successful milestone. After P1 hardening, the workflow and manifest are configured for a **163-test** campaign; do not cite the older run as reproduction of the enlarged surface.
+Independent repository CI reproduction: the prior [**134/134 full campaign run**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) remains a successful milestone. After P1 hardening, the workflow and manifest are configured for a **208-test** campaign; do not cite the older run as reproduction of the enlarged surface.
 
 ## Why the P6 falsifier belongs in the suite
 
