@@ -24,9 +24,13 @@
 | **A5 / −P5** | Material-change requalification at time of use | **00I — Semantic TOCTOU** | stale queued action vs valid continuity + unavailable-current-source control | **14/14** | full material-basis compare/binding before actuation | **SEMANTIC RECONSTRUCTION of P5** |
 | **A6 / −P6** | No local→ecosystem promotion / non-substitution | **00G — False-Context Convergence** | correlated false frame F vs genuinely independent regime-change G | **17/17** | source-independence / dependency-aware peer | **SEMANTIC RECONSTRUCTION of P6** |
 
-**Current aggregate after bounded-grid hardening:** **101 passing symbolic tests** across the six principle harnesses.
+**Current core after bounded-grid hardening:** **101 passing symbolic tests** across the six isolated principle harnesses.
 
-**Independent CI reproduction:** GitHub Actions [run #10](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36091807530) completed successfully across all six matrix jobs on Python 3.13 after the bounded-grid pass. The workflow asserts the updated counts (13/13/15/29/14/17), so the **101-test** milestone is independently reproducible in repository CI. The earlier 89-test run remains part of Git history as the pre-grid milestone.
+**Supplemental adversarial surface:** A6a naive-pair falsifier **10**, A6b independent 00F P6 isolation **11**, and independent cross-scenario kernels **6** — **27 supplemental tests**.
+
+**Full registered campaign:** **128 tests**.
+
+**Independent CI reproduction:** GitHub Actions [full campaign run](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36099660874) completes successfully across all **10 jobs** on Python 3.13: the six core harnesses, A6a, A6b, cross-scenario kernels and the aggregate campaign gate. The aggregate job verifies **101/101 core + 27/27 supplemental = 128/128**. The earlier 101-only run and 89-test pre-grid run remain part of Git history as milestones.
 
 The count is a regression/execution count, **not a scientific score**: one pytest assertion is not one independent experiment. The evidentiary content is the branch structure, the attempted substitutes and the falsifiable distinction between TRUE SUBSTITUTE and SEMANTIC RECONSTRUCTION.
 
