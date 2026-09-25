@@ -94,6 +94,66 @@ The ontology is stated without S# identifiers.
 
 ---
 
+## 2A. Independent provenance of the ontology
+
+The fourteen ontology elements are not reverse-engineered from the fourteen S# labels. They are normalizations of objects and transitions already present in the pre-requirement decision-boundary and architecture language.
+
+### 2A.1 State-object provenance
+
+| Ontology element | Pre-S# source object |
+|---|---|
+| **AUTH** | legitimate owner / applicable authority / permitted action in \(\sigma(d,t)\), F1 and authority-policy boundaries |
+| **PREF** | principal preference, hard limit and reviewable decision basis consumed by the decision context |
+| **CTX** | operating conditions, W(d,t), regime/frame assumptions and bounded escape/re-entry context |
+| **HUM** | human role plus finite attention/availability/capacity and useful response horizon |
+| **UNRES** | T0 basis, residual, insufficiently established proposition and explicit unresolved state |
+| **IDREP** | subject/actor plus identity/role/representation relation used to bind claims and authority |
+| **POL** | externally owned policy/objective/constraint with source, version, scope and cross-domain applicability |
+| **E2D** | proposition + evidence boundary + receiving decision: the core subject–proposition–decision test unit |
+
+These objects are visible independently in the Foundation, Functional Architecture and the canonical definition of \(\sigma(d,t)\).
+
+### 2A.2 Operator provenance
+
+| Ontology operator | Pre-S# architectural operation |
+|---|---|
+| **HANDOFF** | qualified state crosses a participant/system boundary |
+| **DELEGATE** | authority/mandate is passed along an agent/human chain |
+| **COMPOSE** | several local/domain determinations are combined for one receiving decision |
+| **COMMIT_CHANGE** | a qualified basis moves through recommendation/commitment/execution while time/context can change |
+| **REPAIR** | challenge, re-entry, feedback and future-state correction |
+| **INTERVENE_HISTORY** | a later human/technical intervention acts on an earlier authority/provenance history |
+
+These are already present in the F1–F9 and interface/re-entry language; they are not introduced to make the count equal fourteen.
+
+### 2A.3 Coverage of the declared decision-boundary language
+
+The canonical boundary fields and lifecycle operations normalize as follows:
+
+| Decision-boundary/lifecycle term | Ontology owner |
+|---|---|
+| subject / actor | IDREP |
+| proposition / evidence boundary | E2D, with UNRES when insufficient |
+| receiving decision / null action | E2D + COMMIT_CHANGE |
+| legitimate owner / authority | AUTH |
+| preference / hard limit | PREF |
+| policy / objective / normative constraint | POL |
+| operating condition / regime / W(d,t) | CTX |
+| deadline / finite capacity / human availability | HUM + CTX |
+| residual / T0 basis / insufficient determination | UNRES |
+| cross-participant transfer | HANDOFF |
+| authority chain | DELEGATE |
+| material dependency across domains | COMPOSE |
+| material change before use | COMMIT_CHANGE |
+| challenge / re-entry / learning | REPAIR |
+| later intervention over prior authority state | INTERVENE_HISTORY |
+
+Therefore the ontology is **covering relative to the current declared decision-boundary syntax**.
+
+A proposed new canonical requirement must first identify a decision-material noun or lifecycle operator that is absent from this table. Without such a new primitive, the proposal is a refinement of an existing normal form.
+
+---
+
 ## 3. Requirement grammar
 
 A canonical requirement normal form is either:
