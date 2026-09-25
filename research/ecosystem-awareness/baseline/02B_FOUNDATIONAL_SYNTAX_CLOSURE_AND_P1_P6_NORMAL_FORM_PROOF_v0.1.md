@@ -4,7 +4,7 @@
 |---|---|
 | **Upstream semantic sources** | [01 — Integrated Foundational Theory](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) · [02 — Epistemic Safety Principles & Control Matrix](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) |
 | **Semantic derivation companion** | [02A](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) |
-| **Downstream requirement closure** | [00K-A21](./00K_A21_REQUIREMENT_NORMAL_FORM_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
+| **Downstream requirement closure** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **Operational ablation basis** | [00K](./00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) |
 | **Status** | syntactic closure / relative completeness proof over the declared foundation vocabulary |
 | **Date** | 25 September 2026 |
@@ -406,4 +406,4 @@ It proves the stronger internal statement that was previously missing:
 
 > **given the Foundation's own declared epistemic vocabulary and failure taxonomy, P1–P6 form a closed operational normal-form basis.**
 
-The next proof layer is [A21](./00K_A21_REQUIREMENT_NORMAL_FORM_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md), which performs the same closure test from P1–P6 into S1–S14.
+The next proof layer is [A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md), which performs the same closure test from P1–P6 into S1–S14.
