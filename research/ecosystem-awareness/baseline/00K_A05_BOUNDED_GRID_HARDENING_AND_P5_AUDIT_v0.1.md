@@ -114,6 +114,8 @@ This does not weaken P5. It strengthens the test by showing that one narrow impl
 
 ### P6 — source-diversity × Sybil-count grid
 
+**Isolation note.** This grid belongs to the corrected **matched-authority** A6 fixture. The unmodified 00G F/G scenario pair changes both evidence independence and transition authority and therefore admits an authority-only TRUE SUBSTITUTE. That confound and its correction are recorded separately in [00K-A06](./00K_A06_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
+
 The A6 grid varies:
 
 - number of authenticated participants;
