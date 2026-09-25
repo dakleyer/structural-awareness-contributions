@@ -4,7 +4,7 @@
 
 ## 1. Purpose and reading rule
 
-The [canonical requirements document](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is the source of truth for what a candidate must address. A Use Case, reference failure scenario, quality-plan fixture or interoperability test must select its applicable requirement route from that document; it must not create a parallel challenge taxonomy.
+The [canonical requirements document](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is the source of truth for what a candidate must address. A Use Case, reference failure scenario, quality-plan fixture or interoperability test must select its applicable requirement route from that document; it must not create a parallel requirement taxonomy.
 
 The portfolio is read in both directions:
 
@@ -36,7 +36,7 @@ The same case may support several challenges, and one challenge may need several
 
 ## 4. Canonical challenge coverage map
 
-The T/H entries below are the normal routes from [00 §6.1](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md#61-challenge-to-condition-to-hypothesis-map). “Named” identifies a gate or profile that invokes the route; “fixture” identifies an executable branch; “execution” records actual evidence. None is inferred from another.
+The T/H entries below are the normal routes from [00 §6.1](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md#61-requirement-to-condition-to-hypothesis-map). “Named” identifies a gate or profile that invokes the route; “fixture” identifies an executable branch; “execution” records actual evidence. None is inferred from another.
 
 | Challenge | Canonical route and KPI family | Named in gate/profile | Architecture coverage | Fixture status | Execution status | Residual gap and required evidence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -59,7 +59,7 @@ The T/H entries below are the normal routes from [00 §6.1](./00_CANONICAL_REQUI
 
 The four UC-EA profiles directly exercise the EA architecture's F1–F9 surfaces. The two reference scenarios make the same canonical requirements operational under different failure pressure: 00E stresses information compression, human overload and non-monotone resource use; 00F stresses shared-resource conflict, heterogeneous freshness and local-to-systemic divergence.
 
-This is sufficient to design tests of the EA-owned core around S3, S4, S5, S9 and S10. It is not sufficient to claim an executed test or end-to-end validation of all fourteen challenges. S14 is aggregate, not a breadth score. Across the portfolio, S1, S2, S6, S11, S12 and S13 have supporting/boundary coverage; S7 and S8 have no dedicated fixture.
+This is sufficient to design tests of the EA-owned core around S3, S4, S5, S9 and S10. It is not sufficient to claim an executed test or end-to-end validation of all fourteen requirements. S14 is aggregate, not a breadth score. Across the portfolio, S1, S2, S6, S11, S12 and S13 have supporting/boundary coverage; S7 and S8 have no dedicated fixture.
 
 ## 6. Required next workbook: delegated decision integrity and accountable intervention
 
