@@ -357,7 +357,7 @@ Before execution freeze:
 
 ### 9.3 Q0–Q5 gate register
 
-The gate route reuses the already frozen requirements coverage for 00G, with the authority-applicability surface made explicit: **S1, S2, S3, S6, S9, S11, S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6**. S1 is required because the scenario asks whether a claimed frame/role/authority remains binding and applicable to the receiving participant at commitment/action time. S6 remains relevant to privacy-preserving trust handoff; it is not a substitute for S1. This canonical scenario introduces no new canonical challenge, T-condition, hypothesis or KPI.
+The gate route reuses the already frozen requirements coverage for 00G, with the authority-applicability surface made explicit: **S1, S2, S3, S6, S9, S11, S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6**. S1 is required because the scenario asks whether a claimed frame/role/authority remains binding and applicable to the receiving participant at commitment/action time. S6 remains relevant to privacy-preserving trust handoff; it is not a substitute for S1. This canonical scenario introduces no new canonical requirement, T-condition, hypothesis or KPI.
 
 For rapid orientation, Figure 5 compresses Q0–Q5 while retaining the **mandatory evidence**, **DBC next step** and **failure-if-bypassed** dimensions. It remains a reading aid only; the detailed register below is authoritative.
 
@@ -589,7 +589,7 @@ The intended property is not immunity to hallucination. It is resistance to **co
 
 Read with:
 
-- [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), for the existing **S1/S2/S3/S6/S9/S11/S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6** coverage used here; S1 supplies authority provenance/current applicability at commitment/action time, while S6 remains the privacy-preserving trust-handoff surface; 00G defines no new canonical requirement or KPI;
+- [00 — Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), for the existing **S1/S2/S3/S6/S9/S11/S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6** coverage used here; S1 supplies authority provenance/current applicability at commitment/action time, while S6 remains the privacy-preserving trust-handoff surface; 00G defines no new canonical requirement or KPI;
 - [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), which explicitly keeps 00G-specific mission-displacement/re-grounding measures scenario-specific rather than creating a new H/KPI family;
 - [Decision Boundary Challenge v0.2](../DECISION_BOUNDARY_CHALLENGE_v0.2.md), especially **DBC-C04 — hidden common dependency** for the source-dependence/quorum surface and **DBC-C06 — effective-role drift** for the metamorphic-role surface. 00G is a narrative/quality-gate reference for both families; neither mapping makes 00G W3-admitted or DBC-executed;
 
