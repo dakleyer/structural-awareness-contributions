@@ -13,11 +13,13 @@ principle kernels on two scenario families each:
 - P5 on 00I and 00H; and
 - P6 on 00G and 00F.
 
-Current expected regression count:
+Current regression count:
 
 ```text
-12 tests
+12/12
 ```
+
+Independent GitHub Actions reproduction: [full 134-test campaign](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) — cross-scenario job completed successfully.
 
 The original P4/P5/P6 six-test package was independently executed at **6/6**
 before this extension. The P1/P2/P3 additions are intentionally separate source
