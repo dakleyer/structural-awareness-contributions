@@ -445,6 +445,12 @@ Within this deliberately constructed branch, the terminal HOLD is not a mysterio
 
 Route Q does not promise a successful China entry or an error-free world model. Its success criterion is narrower: it reaches a qualified epistemic and action posture inside the declared deadline without creating Type 1 or Type 2 through its own management. An explicit unresolved limit may remain; a Type-0 marker is optional and requires an established structural or declared-frame basis.
 
+### Companion traversal and verification status (25 September 2026)
+
+The [00L-00E paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_00E_TRAZA_PAPEL_EMPAREJADA_v0.1.md) expands this Route N/Route Q comparison with explicit facts, gate outcomes and adverse controls. The [A09 evidence map](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) distinguishes earlier 00K symbolic fixtures from the paper argument; the [A10 executed check](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) and its [reproduction protocol](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md) record the later controlled pair and its observation limits.
+
+**Evidence boundary:** A10 varies resolution of one fact at step 3 under a fixed three-step capacity; it does not run a 100M-token workload or establish Q1–Q5 composition across all subsystems. Its strong non-EA peer matches the reference on both branches. These are synthetic, conditional paper deductions plus a limited symbolic execution, not a product benchmark or evidence of an EA differential. The original gate acceptance and real-world validation requirements below remain open.
+
 ## 9. Gate acceptance logic and recording form
 
 For each gate and scope:

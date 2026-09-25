@@ -671,6 +671,12 @@ EA does not receive permission to guess an unobservable change. V11 must expose 
 <!-- PREMIUM-ADD:BRIDGE-MATRIX:START -->
 > **How to read the matrix:** each variant is a different way for a previously valid basis to become unreliable. The matrix is not a scorecard; it shows which gate must carry the burden of detecting or containing each change.
 <!-- PREMIUM-ADD:BRIDGE-MATRIX:END -->
+### Companion traversal and verification status (25 September 2026)
+
+The [00L-00I paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_00I_TRAZA_PAPEL_EMPAREJADA_v0.1.md) gives gate-level positive and negative controls for this scenario. The [A09 evidence map](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) relates prior 00K symbolic work; the [A10 executed pair](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) varies only `freeze_active` with the same qualified Patch A basis. The [A08 protocol](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md) describes the wider instrumentation needed for R2.
+
+**Evidence boundary:** A10 exercises freeze versus release in a symbolic microfixture; it does not test V10 check-to-act atomicity, V11/H2 source-set drift, or deployed implementations. A strong non-EA peer matches both branches, so there is no demonstrated EA differential. The broader trajectory and measured timing/burden comparisons below remain open.
+
 ## 13. Gate × variant coverage matrix
 
 | Gate / property | V0 | V1 | V2 | V3 | V4 | V5 | V6 | V7 | V8 | V9 | V10 | V11 regime drift |

@@ -498,6 +498,12 @@ flowchart LR
 
 00F therefore does not need the strong peer to fail. A peer win narrows the EA claim and is an admissible result.
 
+### Companion traversal and verification status (25 September 2026)
+
+The [00L-00F paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_00F_TRAZA_PAPEL_EMPAREJADA_v0.1.md) details these matched routes and their adverse controls. The [A09 evidence map](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) separates prior 00K fixtures and falsifiers from the [A10 controlled execution](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md); use the [A08 protocol](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md) for the fuller observation contract.
+
+**Evidence boundary:** A10 changes one shared `fire_slot` from 10 to 11 while holding local grants fixed; it checks the resource-time conflict in a symbolic model, not V8 drift, real city operations or the two/five-minute timing targets. A strong non-EA peer matches both branches, so the pair establishes no EA differential. The broader scenario and product comparisons remain unexecuted.
+
 ---
 
 ## 9. What this case tests and what would falsify the claim

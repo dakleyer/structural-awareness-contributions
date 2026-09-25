@@ -949,6 +949,12 @@ Not permitted before execution:
 
 A defended OpenAI peer that passes Branch F and Branch G at equal/lower burden is a valid negative result for the proposed EA differential.
 
+### 17.11.1 Companion traversal and verification status (25 September 2026)
+
+The [00L-00G paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_00G_TRAZA_PAPEL_EMPAREJADA_v0.1.md) expands these branches and adverse controls. The [A09 evidence map](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) records the earlier 00K A6a falsifier: the original F/G comparison also varied authority and cannot isolate P6 necessity. The [A10 executed pair](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) holds authority fixed and changes only the last message's source root (`SRC_N` to `SRC_B`); the [A08 protocol](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md) specifies what a fuller comparison must record.
+
+**Evidence boundary:** A10 executes one corrected symbolic pair, not the entire multi-agent scenario or a deployed OpenAI system. Its strong non-EA peer matches both branches; there is no demonstrated EA differential. The original F/G test design and its authority confound remain visible for review, and broader product outcomes remain untested.
+
 ### 17.12 Official OpenAI sources reviewed — dated evidence freeze
 
 **Evidence freeze:** 24 September 2026. Living developer documentation is marked by retrieval date; product announcements/changelog entries retain their publication date.
