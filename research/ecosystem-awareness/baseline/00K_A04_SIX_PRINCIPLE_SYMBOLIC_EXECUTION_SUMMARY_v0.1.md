@@ -9,6 +9,8 @@
 
 > **Central result at this evidence level.** All six operational principles now have an executable leave-one-principle-out fixture. In every current harness, the full principle route passes its frozen negative and positive/boundary controls. After ablation, the tested alternative repairs either fail a required branch or pass only by implementing an operationally equivalent form of the removed semantic invariant. **No TRUE SUBSTITUTE has been found in the tested repair surfaces.**
 
+> **Methodological falsifier retained.** This sentence refers to the **current isolated core harnesses**. The supplemental A6a run against the unmodified 00G F/G pair **does find a TRUE SUBSTITUTE** (authority-only), proving that the original pair was confounded for P6 necessity. The core A6 result is the corrected matched-authority isolation; see [00K-A06](./00K_A06_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
+
 > **Boundary.** This is not a proof of universal minimality, not a formal theorem, and not evidence that present commercial technologies fail these tests in production. It is stronger than prose-only reasoning because the claims are encoded as executable branch conditions, but the fixtures remain deliberately small symbolic models.
 
 ---
@@ -22,7 +24,7 @@
 | **A3 / −P3** | No false closure from unresolved material state | **00F — Chaos in the Smartcity** | incompatible shared-corridor postures vs continuity / determinate Plan A | **15/15** | explicit three-valued unresolved-state closure | **SEMANTIC RECONSTRUCTION of P3** |
 | **A4 / −P4** | Qualification-preserving handoff / authority lineage | **00H — The Quiet Four Thousand** | U unauthorized campaign / G authorized campaign / I independent cases / NM | **29/29 active composed harness** | A2-L explicit root/delegation lineage | **SEMANTIC RECONSTRUCTION of P4** |
 | **A5 / −P5** | Material-change requalification at time of use | **00I — Semantic TOCTOU** | stale queued action vs valid continuity + unavailable-current-source control | **14/14** | full material-basis compare/binding before actuation | **SEMANTIC RECONSTRUCTION of P5** |
-| **A6 / −P6** | No local→ecosystem promotion / non-substitution | **00G — False-Context Convergence** | correlated false frame F vs genuinely independent regime-change G | **17/17** | source-independence / dependency-aware peer | **SEMANTIC RECONSTRUCTION of P6** |
+| **A6 / −P6** | No local→ecosystem promotion / non-substitution | **00G — matched-authority isolation of False-Context Convergence** | same authority/count/confidence/freshness; correlated-source F vs independent-source G | **17/17** | source-independence / dependency-aware peer | **SEMANTIC RECONSTRUCTION of P6** |
 
 **Current core after bounded-grid hardening:** **101 passing symbolic tests** across the six isolated principle harnesses.
 
