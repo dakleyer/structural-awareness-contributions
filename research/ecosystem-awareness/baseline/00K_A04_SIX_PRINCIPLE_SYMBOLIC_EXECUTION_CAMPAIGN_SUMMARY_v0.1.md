@@ -40,6 +40,8 @@ Each strong peer is deliberately allowed to be conventional and non-EA-branded. 
 
 **Registered campaign total: 379 tests.**
 
+**Repository CI reproduction:** [GitHub Actions run 36108965548](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548) completes successfully across all 10 jobs and verifies **346/346 core + 33/33 supplemental = 379/379** for the current campaign. See [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md).
+
 The A6a negative result is methodologically important. It demonstrates that the programme is capable of rejecting its own first test construction. The P6 claim is retained only after the confound is removed in matched-authority A6 and independently re-isolated in 00F. See [00K-A05](./00K_A05_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
 
 ---
