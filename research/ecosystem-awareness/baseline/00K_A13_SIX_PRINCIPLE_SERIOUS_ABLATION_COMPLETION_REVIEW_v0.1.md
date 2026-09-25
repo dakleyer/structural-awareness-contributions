@@ -97,7 +97,7 @@ Supplemental:
 
 **Registered campaign = 379.**
 
-The [00K suite router](./fixtures/00K-SUITE/README.md), execution-lock manifest and GitHub Actions workflow are configured to use the current counts.
+The [00K suite router](./fixtures/00K-SUITE/README.md), execution-lock manifest and GitHub Actions workflow use the current counts. [GitHub Actions run 36108965548](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548) independently reproduces **346/346 core + 33/33 supplemental = 379/379** across all 10 jobs; see [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md).
 
 ---
 
@@ -122,7 +122,7 @@ This does **not** establish:
 
 The next meaningful increment is no longer another naive unit test. It is to move selected hardened fixtures into stronger execution environments while preserving the same falsification rules:
 
-1. independently reproduce the current **379-test** campaign in repository CI;
+1. **completed:** independently reproduce the current **379-test** campaign in repository CI — 379/379 on run 36108965548;
 2. execute the same branch oracles with more realistic stateful agent/workflow substrates;
 3. maintain matched resources, authority and evidence access;
 4. allow strong conventional peers to add any native controls they can justify;
