@@ -1,22 +1,33 @@
 """Machine-checkable finite-model certificate for 00K P1–P6 independence.
 
-Mathematical claim:
+Mathematical claim
+------------------
 For T={P1,...,P6}, the family is relatively logically independent in the
-declared model class iff for every Pi there exists a model Mi satisfying all
-Pj (j != i) and violating Pi.
+declared 00K model class if, for every Pi, there exists a witness model Mi that
+satisfies every Pj (j != i) and violates Pi.
 
-The six witnesses below are reduced semantic traces grounded in the corrected
-A1–A6 fixtures. The script checks the complete 6x6 countermodel matrix.
+This certificate deliberately computes P1–P6 from lower-level semantic fields.
+It does not store the six principle truth values directly. The witness states
+are reduced semantic models grounded in the corrected A1–A6 fixture families.
 
-This is a proof certificate for the formalized predicates, not a proof of
-universal AI-safety minimality.
+The executable fixture suites establish the concrete branch behaviour from
+which these reduced witnesses are abstracted. This file checks the formal
+countermodel relation; it is not a proof of universal AI-safety minimality.
 """
 from __future__ import annotations
 
 from dataclasses import dataclass
+from enum import Enum
 
 
 PRINCIPLES = ("P1", "P2", "P3", "P4", "P5", "P6")
+
+
+class Disposition(Enum):
+    EXECUTE = "EXECUTE"
+    HOLD = "HOLD"
+    REQUALIFY = "REQUALIFY"
+    DENY = "DENY"
 
 
 @dataclass(frozen=True)
@@ -24,105 +35,174 @@ class Trace:
     name: str
     scenario: str
 
-    # P1: evidence is sufficient for the actual receiving proposition/decision.
-    evidence_supports_decision: bool
+    # P1 primitives
+    evidence_supports_actual_decision: bool = True
+    residual_explicit: bool = True
 
-    # P2: unresolved determination effort is finite/viable and has bounded fallback.
-    effort_bounded_and_viable: bool
+    # P2 primitives
+    effort_decision_relevant: bool = True
+    determination_stop_step: int | None = 1
+    useful_horizon_step: int = 10
+    bounded_fallback_defined: bool = True
 
-    # P3: known unresolved material state is not promoted into permission/certainty.
-    unresolved_not_promoted: bool
+    # P3 primitives
+    unresolved_material: bool = False
+    disposition: Disposition = Disposition.EXECUTE
 
-    # P4 (refined): current decision-sufficient non-amplifying authority basis exists.
-    authority_basis_sufficient: bool
+    # P4 primitives
+    authority_current: bool = True
+    authority_receiver_verifiable: bool = True
+    authority_covers_action: bool = True
+    authority_non_amplifying: bool = True
 
-    # P5: the action-time material decision basis is current or requalification occurs.
-    material_basis_current_or_requalified: bool
+    # P5 primitives
+    material_basis_current: bool = True
+    requalified_before_actuation: bool = False
 
-    # P6: material dependence/compatibility is composed without silent substitution.
-    composition_non_substituting: bool
+    # P6 primitives
+    dependency_preserved: bool = True
+    compatibility_preserved: bool = True
+    no_silent_substitution: bool = True
 
-    expected_failure: str
+
+def p1(t: Trace) -> bool:
+    """Decision-sufficient evidence + explicit residual."""
+    return t.evidence_supports_actual_decision and t.residual_explicit
 
 
-def satisfies(trace: Trace, principle: str) -> bool:
-    return {
-        "P1": trace.evidence_supports_decision,
-        "P2": trace.effort_bounded_and_viable,
-        "P3": trace.unresolved_not_promoted,
-        "P4": trace.authority_basis_sufficient,
-        "P5": trace.material_basis_current_or_requalified,
-        "P6": trace.composition_non_substituting,
-    }[principle]
+def p2(t: Trace) -> bool:
+    """Finite viable determination with an explicit bounded fallback."""
+    return (
+        t.effort_decision_relevant
+        and t.determination_stop_step is not None
+        and t.determination_stop_step <= t.useful_horizon_step
+        and t.bounded_fallback_defined
+    )
+
+
+def p3(t: Trace) -> bool:
+    """Known unresolved material state is not promoted to execution."""
+    return not (
+        t.unresolved_material
+        and t.disposition is Disposition.EXECUTE
+    )
+
+
+def p4(t: Trace) -> bool:
+    """Executed action has current, verifiable, sufficient, non-amplifying authority."""
+    return (
+        t.disposition is not Disposition.EXECUTE
+        or (
+            t.authority_current
+            and t.authority_receiver_verifiable
+            and t.authority_covers_action
+            and t.authority_non_amplifying
+        )
+    )
+
+
+def p5(t: Trace) -> bool:
+    """Execution uses a current material basis or follows requalification."""
+    return (
+        t.disposition is not Disposition.EXECUTE
+        or t.material_basis_current
+        or t.requalified_before_actuation
+    )
+
+
+def p6(t: Trace) -> bool:
+    """Executed composition preserves dependence/compatibility without substitution."""
+    return (
+        t.disposition is not Disposition.EXECUTE
+        or (
+            t.dependency_preserved
+            and t.compatibility_preserved
+            and t.no_silent_substitution
+        )
+    )
+
+
+EVALUATORS = {
+    "P1": p1,
+    "P2": p2,
+    "P3": p3,
+    "P4": p4,
+    "P5": p5,
+    "P6": p6,
+}
 
 
 WITNESSES = {
-    # 00J matched-semantic negative branch:
-    # everything is current/bounded/provenanced/non-composed, but the evidence
-    # supports a narrower proposition than the enforcement decision.
+    # 00J matched-semantic negative:
+    # provenance/currentness can remain sound while the evidence supports a
+    # narrower proposition than the actual rights-enforcement decision.
     "P1": Trace(
-        "M1_00J_wrong_proposition",
-        "00J",
-        False, True, True, True, True, True,
-        "unsupported rights-enforcement conclusion",
+        name="M1_00J_wrong_proposition",
+        scenario="00J",
+        evidence_supports_actual_decision=False,
     ),
 
     # 00E unresolved-search branch:
-    # UNKNOWN is explicit and not false-closed; handoff/current/composition
-    # properties can all hold while search/review effort remains unbounded.
+    # uncertainty remains explicit (HOLD), but there is no finite viable
+    # determination stopping point inside the useful response horizon.
     "P2": Trace(
-        "M2_00E_unbounded_determination",
-        "00E",
-        True, False, True, True, True, True,
-        "capacity exhaustion / terminal unresolved search",
+        name="M2_00E_unbounded_determination",
+        scenario="00E",
+        determination_stop_step=None,
+        unresolved_material=True,
+        disposition=Disposition.HOLD,
     ),
 
     # 00F matched conflict:
-    # conflict is visible, fresh, bounded and fully preserved, but the system
-    # still promotes one unresolved posture to executable permission.
+    # conflict is explicit/current/bounded, but unresolved material state is
+    # still promoted to executable permission.
     "P3": Trace(
-        "M3_00F_false_closure",
-        "00F",
-        True, True, False, True, True, True,
-        "incompatible corridor posture is executed",
+        name="M3_00F_false_closure",
+        scenario="00F",
+        unresolved_material=True,
+        disposition=Disposition.EXECUTE,
     ),
 
-    # 00H Branch U:
-    # finding is real, process bounded, leaves fresh and campaign composition
-    # visible, but no current authority basis covers the composed campaign.
+    # 00H unauthorized composed campaign:
+    # local leaves can be valid while the composed action lacks sufficient
+    # current non-amplifying authority.
     "P4": Trace(
-        "M4_00H_authority_amplification",
-        "00H",
-        True, True, True, False, True, True,
-        "unauthorized composed campaign executes or is misclassified",
+        name="M4_00H_authority_amplification",
+        scenario="00H",
+        authority_covers_action=False,
+        authority_non_amplifying=False,
     ),
 
-    # 00I stale-action branch:
-    # original decision/provenance/conflict visibility remain intact, but the
-    # action-time material basis changed and is not requalified.
+    # 00I semantic TOCTOU:
+    # the queued action remains technically executable, but the material basis
+    # is stale and no action-time requalification occurred.
     "P5": Trace(
-        "M5_00I_semantic_toctou",
-        "00I",
-        True, True, True, True, False, True,
-        "stale but technically valid action executes",
+        name="M5_00I_semantic_toctou",
+        scenario="00I",
+        material_basis_current=False,
+        requalified_before_actuation=False,
     ),
 
-    # 00G hidden-common-root branch:
-    # every local claim is qualified/current/provenanced and process bounded;
-    # the missing property is transitive dependence/non-substitution.
+    # 00G hidden common root:
+    # local claims remain qualified/current, but dependent evidence is promoted
+    # as if it were independent ecosystem support.
     "P6": Trace(
-        "M6_00G_hidden_dependency",
-        "00G",
-        True, True, True, True, True, False,
-        "dependent evidence is promoted as independent ecosystem support",
+        name="M6_00G_hidden_dependency",
+        scenario="00G",
+        dependency_preserved=False,
+        no_silent_substitution=False,
     ),
 }
 
 
-def truth_matrix():
+def satisfies(trace: Trace, principle: str) -> bool:
+    return EVALUATORS[principle](trace)
+
+
+def truth_matrix() -> dict[str, dict[str, bool]]:
     return {
-        witness_name: {p: satisfies(w, p) for p in PRINCIPLES}
-        for witness_name, w in WITNESSES.items()
+        missing: {p: satisfies(w, p) for p in PRINCIPLES}
+        for missing, w in WITNESSES.items()
     }
 
 
@@ -130,27 +210,29 @@ def validate_countermodels() -> None:
     assert set(WITNESSES) == set(PRINCIPLES)
 
     for missing in PRINCIPLES:
-        w = WITNESSES[missing]
-        assert not satisfies(w, missing), (
-            f"{w.name} must violate {missing}"
+        witness = WITNESSES[missing]
+        assert not satisfies(witness, missing), (
+            f"{witness.name} must violate {missing}"
         )
         for other in PRINCIPLES:
             if other == missing:
                 continue
-            assert satisfies(w, other), (
-                f"{w.name} must satisfy {other} while violating {missing}"
+            assert satisfies(witness, other), (
+                f"{witness.name} must satisfy {other} while violating {missing}"
             )
 
 
 def validate_irredundancy() -> None:
-    # Removing Pi strictly enlarges the model class because Mi is then
-    # admissible under all remaining axioms while it is excluded by full T.
+    # Removing Pi strictly enlarges the admitted witness class because Mi then
+    # satisfies every remaining axiom while failing the complete theory T.
     for missing in PRINCIPLES:
-        w = WITNESSES[missing]
+        witness = WITNESSES[missing]
         reduced_theory_holds = all(
-            satisfies(w, p) for p in PRINCIPLES if p != missing
+            satisfies(witness, p) for p in PRINCIPLES if p != missing
         )
-        full_theory_holds = all(satisfies(w, p) for p in PRINCIPLES)
+        full_theory_holds = all(
+            satisfies(witness, p) for p in PRINCIPLES
+        )
         assert reduced_theory_holds
         assert not full_theory_holds
 
@@ -161,11 +243,11 @@ def main() -> int:
 
     print("      " + " ".join(f"{p:>3}" for p in PRINCIPLES))
     for missing in PRINCIPLES:
-        w = WITNESSES[missing]
+        witness = WITNESSES[missing]
         bits = " ".join(
-            f"{int(satisfies(w,p)):>3}" for p in PRINCIPLES
+            f"{int(satisfies(witness, p)):>3}" for p in PRINCIPLES
         )
-        print(f"{missing:>3}:  {bits}   {w.name}")
+        print(f"{missing:>3}:  {bits}   {witness.name}")
 
     print()
     print("00K formal relative-independence certificate: PASS (6/6 countermodels)")
