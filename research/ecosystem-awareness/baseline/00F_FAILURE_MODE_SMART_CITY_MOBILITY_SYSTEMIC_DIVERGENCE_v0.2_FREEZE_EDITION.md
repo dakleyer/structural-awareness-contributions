@@ -43,6 +43,10 @@ That paradox is the reason to read 00F.
 | **Current working revision** | 2026-09-24 · route/variant/strong-peer completion + public/readability layer; fictional event and canonical S/T/H ownership unchanged |
 | **Owner corpus** | Ecosystem Awareness |
 | **Supersedes / superseded by** | Working successor to [v0.1](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md); v0.1 remains preserved provenance |
+<!-- CASE-STUDY-EXTENSIBILITY:00F:START -->
+**Model Case Study / bounded extensibility.** This 00F narrative is the minimum concrete instantiation of the **Systemic Divergence under Heterogeneous Local Windows and Shared Capacity** family. Upward, downward and horizontal reuse is controlled by the [00F Case-Study Extensibility Profile](./00F_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) and [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). An extension inherits the requirements-conformance transfer result only after the A25 admission tests are satisfied; this does not claim universal implementation equivalence or executed cross-domain validation.
+<!-- CASE-STUDY-EXTENSIBILITY:00F:END -->
+
 
 > **Worked virtual case and integrated quality plan.** This document turns the existing EA proposition `HOLD / Emergency Plan A / Emergency Plan B / NORMAL` into one concrete smart-city mobility failure route. It does not describe a real incident, require central orchestration of every actor, establish that EA prevents catastrophe, or modify the parent TIDA mobility case.
 
