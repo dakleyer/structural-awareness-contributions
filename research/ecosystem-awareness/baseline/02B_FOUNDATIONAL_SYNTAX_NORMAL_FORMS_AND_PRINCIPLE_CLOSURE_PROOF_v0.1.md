@@ -1,3 +1,5 @@
+> **Superseded reader route.** This earlier 02B draft is retained for provenance. Use [02B — Foundational Syntax Closure & P1–P6 Normal-Form Proof](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) as the canonical current syntactic-closure proof.
+
 # 02B — Foundational Syntax, Normal Forms & Principle Closure Proof — v0.1
 
 | | |
