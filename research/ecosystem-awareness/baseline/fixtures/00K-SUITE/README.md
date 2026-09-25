@@ -6,6 +6,12 @@
 This directory is the execution router for the six principle-ablation harnesses.
 It does not replace the individual fixture READMEs or execution records.
 
+The [machine-readable principle manifest](./principle_manifest.json) freezes the
+six semantic invariants, branch controls, expected counts and known confounds
+used by the execution campaign. [`validate_manifest.py`](./validate_manifest.py)
+checks that lock before CI runs the aggregate suite. The validator is a
+meta-integrity gate and is **not counted** among the 134 ablation tests.
+
 ## Current core surface
 
 | Principle | Fixture | Current regression count | Current bounded result |
