@@ -1,8 +1,8 @@
 """Run the complete 00K symbolic regression campaign.
 
-Core A1–A6 count: 256 tests.
+Core A1–A6 count: 289 tests.
 Supplemental robustness/falsification count: 33 tests.
-Expected total: 289 tests.
+Expected total: 322 tests.
 
 This runner intentionally executes each fixture in its own working directory so
 module names cannot collide across independently authored harnesses.
@@ -34,7 +34,7 @@ HARNESSES = (
     Harness("A2 P2 / 00E", "00K-A2-P2-00E", 58, "core"),
     Harness("A3 P3 / 00F", "00K-A3-P3-00F", 49, "core"),
     Harness("A4 P4 / 00H", "00K-A4-P4-00H", 76, "core"),
-    Harness("A5 P5 / 00I", "00K-A5-P5-00I", 14, "core"),
+    Harness("A5 P5 / 00I", "00K-A5-P5-00I", 47, "core"),
     Harness("A6 P6 / 00G matched-authority", "00K-A6-P6-00G", 17, "core"),
     Harness("P6 naive 00G falsifier", "00K-A6a-P6-00G", 10, "supplemental"),
     Harness("P6 independent 00F isolation", "00K-A6b-P6-00F", 11, "supplemental"),
@@ -76,9 +76,9 @@ def main() -> int:
         else:
             failures.append(h.label)
 
-    print(f"Core passing regression count: {core}/256")
+    print(f"Core passing regression count: {core}/289")
     print(f"Supplemental passing count: {supplemental}/33")
-    print(f"Campaign total: {core + supplemental}/289")
+    print(f"Campaign total: {core + supplemental}/322")
 
     if failures:
         print("FAILED HARNESS(ES):", ", ".join(failures))
