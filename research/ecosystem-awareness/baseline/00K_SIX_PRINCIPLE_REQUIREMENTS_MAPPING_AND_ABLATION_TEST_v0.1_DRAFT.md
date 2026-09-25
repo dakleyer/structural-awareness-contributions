@@ -465,7 +465,7 @@ If a five-principle repair survives a target scenario without rebuilding the rem
 
 ## 8. Current symbolic claim boundary
 
-The six principle ablations now have executable symbolic harnesses. The [execution campaign summary](./00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_CAMPAIGN_SUMMARY_v0.1.md) records a **101-test core regression surface** plus **33 supplemental falsification / isolation / cross-scenario tests**.
+The six principle ablations now have executable symbolic harnesses. The [execution campaign summary](./00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_SUMMARY_v0.1.md) records a **101-test core regression surface** plus **33 supplemental falsification / isolation / cross-scenario tests**.
 
 The current bounded symbolic result is:
 
