@@ -54,7 +54,7 @@ jobs:
             expected: "11"
           - id: "Cross-scenario P4/P5/P6"
             harness: "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent"
-            expected: "6"
+            expected: "12"
 
     steps:
       - name: Checkout
@@ -96,7 +96,7 @@ jobs:
 
 
   campaign-total:
-    name: 00K full campaign (128)
+    name: 00K full campaign (134)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -117,8 +117,8 @@ jobs:
           set -euo pipefail
           python run_all.py | tee campaign-output.txt
           grep -F "Core passing regression count: 101/101" campaign-output.txt
-          grep -F "Supplemental passing count: 27/27" campaign-output.txt
-          grep -F "Campaign total: 128/128" campaign-output.txt
+          grep -F "Supplemental passing count: 33/33" campaign-output.txt
+          grep -F "Campaign total: 134/134" campaign-output.txt
 
       - name: Publish campaign summary
         if: always()
