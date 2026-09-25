@@ -1,4 +1,6 @@
 # 00G — Canonical Reference Failure Scenario and Integrated Quality / Implementation Plan: Collective False-Context Convergence ("Bar-to-Napoleon" Cascade)
+**Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Source-Aware Frame Stability](./00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
+
 
 | | |
 |---|---|
