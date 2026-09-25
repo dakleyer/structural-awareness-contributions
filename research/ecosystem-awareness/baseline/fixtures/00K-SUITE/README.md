@@ -34,6 +34,8 @@ surface for six fixture-bounded ablation arguments.
 
 **Full campaign surface: 128 tests.**
 
+Independent repository CI reproduction: [**GitHub Actions full campaign run**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36099660874) — all 10 jobs completed successfully, including the aggregate 128/128 gate.
+
 ## Why the P6 falsifier belongs in the suite
 
 A clean pass is not enough. The original 00G false/genuine pair changed two
