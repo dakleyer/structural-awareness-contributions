@@ -260,7 +260,7 @@ If you arrived here with a particular question:
 | the explanatory theories and Field Notes | [Tegrity.AI Field Notes](https://tegrity.ai/articles/) |
 | the Field Practice / Engineering cases | Phylons, [xSeil](https://jubap.net/xseil-vrp/) and [Mobility Operating System](https://jubap.eu/car-pooling-orchestration/) above |
 | the current architectural contribution | [Ecosystem Positioning README](./architectural-contributions/ecosystem-positioning/README.md) · [download canonical PowerPoint](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx) |
-| the Ecosystem Awareness corpus | [Ecosystem Awareness README](./research/ecosystem-awareness/README.md) |
+| the Ecosystem Awareness corpus | [Ecosystem Awareness README](./research/ecosystem-awareness/README.md) |\n| the six-principle ablation tests / mathematical independence proof | [Complete 00K Testbook](./research/ecosystem-awareness/baseline/00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) · [Formal Independence Proof](./research/ecosystem-awareness/baseline/00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) · [Documentation Map](./research/ecosystem-awareness/baseline/00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md) |
 | regime validity / regime change | [Regime Awareness README](./research/regime-awareness/README.md) |
 | sufficient authorized response | [MSCA README](./standards/minimum-sufficient-control/README.md) |
 | public institutional contributions | [Submissions](./submissions/README.md) |
