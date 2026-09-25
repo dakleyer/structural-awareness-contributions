@@ -1,5 +1,8 @@
 # 00K-A21 — Requirement Normal-Form Closure & Relative Completeness Proof — v0.1
 
+> **Preserved alternate formalization.** The preferred requirement-completeness proof is [00K-A21 — Requirement Basis Closure & Relative Completeness](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md).
+
+
 | | |
 |---|---|
 | **Upstream foundation closure** | [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) |
