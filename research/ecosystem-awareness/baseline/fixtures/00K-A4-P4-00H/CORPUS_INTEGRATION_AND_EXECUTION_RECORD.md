@@ -156,11 +156,6 @@ fixture family was advanced by:
 3. retaining `test_ablation_A4_extended.py` as the independent six-test
    U/G indistinguishability strengthening.
 
-This yields the current combined deterministic symbolic suite:
+The current active corpus composition is **29 tests**: 11 reviewed predecessor tests + 10 reviewed successor additions + 6 independent U/G indistinguishability checks + 2 bounded grid checks. During integration, a duplicate successor-alignment file was removed after confirming the reviewed `test_ablation_A4_v02_additions.py` already carried those checks, and the original reviewed `ablation_A4.py` was restored byte-for-byte. A2-L remains an additive peer implementation in `a2l_strong_peer.py`.
 
-```text
-27 passed
-```
-
-The evidence claim remains unchanged in kind: this is a runnable symbolic
-fixture result, not a live agent/product test and not universal proof of P4.
+The evidence claim remains unchanged in kind: this is a runnable symbolic fixture result, not a live agent/product test and not universal proof of P4.
