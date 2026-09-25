@@ -1,4 +1,4 @@
-# Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs
+# Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs
 
 | | |
 |---|---|
@@ -9,7 +9,7 @@
 | **Owner corpus** | Ecosystem Awareness |
 | **Supersedes / superseded by** | Current frozen canonical Requirements baseline; earlier 00A/00C inputs preserved separately; no successor promoted — review changes through the linked vNext delta |
 
-> **Frozen canonical requirements baseline.** This is the single canonical document that states what a solution to the EA challenge must address and how its underlying hypotheses are assessed. Its S1–S14 / T1–T4 / H1–H6 / KPI semantics are frozen at this baseline while vNext review is open. Proposed semantic changes are reviewed in the linked delta before any later explicit versioned promotion; editorial routing/link updates do not alter this freeze. It does not define a product, implementation, benchmark result, standards adoption, or a claim that EA or another candidate has passed.
+> **Frozen canonical requirements baseline.** This is the single canonical document that states what a solution to the EA problem must address and how its underlying hypotheses are assessed. Its S1–S14 / T1–T4 / H1–H6 / KPI semantics are frozen at this baseline while vNext review is open. Proposed semantic changes are reviewed in the linked delta before any later explicit versioned promotion; editorial routing/link updates do not alter this freeze. It does not define a product, implementation, benchmark result, standards adoption, or a claim that EA or another candidate has passed.
 
 > **Requirements vNext review is open — the frozen requirements themselves are unchanged.** The current cumulative working review is [**Requirements vNext Review & Delta v0.1 Draft**](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). It records post-freeze corpus evolution, including the two additional 00G/00H reference failure scenarios, and tests whether that material exposes a genuine requirement gap or only architecture/conformance/evidence deltas. Its current recommendation remains **not** to create S15+, T5+, H7+ or a new canonical KPI family. This document remains the frozen canonical Requirements until an explicit versioned successor is deliberately promoted.
 
@@ -21,14 +21,14 @@ The canonical reading sequence is:
 
 1. [Foundation — 01](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md): why an open ecosystem, bounded representation and residual indeterminacy matter.
 2. [EA principles and controls — 02](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md): how determinate, unresolved, obtainable and structural-residual state must be handled.
-3. **This document:** the complete challenge set, the sufficiently-good conditions, the research hypotheses and their KPIs.
+3. **This document:** the complete S1–S14 requirement set, the sufficiently-good conditions, the research hypotheses and their KPIs.
 4. [Topology and architecture](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), then functions and interfaces: how EA is proposed to meet the requirements.
 
 The DAOS source case uses `T0 → T1 → T2`: a basis is established, a commitment relies on it, and a material condition changes or becomes insufficiently established. In this document, **T1–T4 are condition identifiers**, not those case times.
 
 **Bidirectional provenance and reference-scenario application.** DAOS is one concrete source of the challenge taxonomy. The [100-million-token reference failure scenario](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) and the [smart-city mobility reference failure scenario](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.1.md) are additional concrete sources of failure mechanisms and quality-plan pressure for the same canonical requirements. They do not create a second challenge set or alter S1–S14, T1–T4, H1–H6 or the KPI protocol. Instead, each scenario makes a selected route explicit in both directions: a declared scope and failure mechanism identify the applicable `S# → T# → H# → KPI → gate disposition`; the canonical requirements determine what a requirements-conforming route must preserve, test and report in that scenario. The scenario documents retain their own facts, gates and outcome measures.
 
-### 1.1 Common language for every challenge, hypothesis and KPI
+### 1.1 Common language for every requirement, hypothesis and KPI
 
 The test unit is a **material subject–proposition–decision boundary**: the entity or action concerned, the claim being assessed, and the receiving decision that will rely on it. In the EA [dictionary](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md#readers-dictionary--scope-qualified-non-normative), these are the [subject, proposition and decision domain](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md#readers-dictionary--scope-qualified-non-normative); **scope** is the coverage to which the resulting statement applies. A scope is therefore not merely a technical field or a business label. It answers: *which subject, which claim, which decision, under which owner, time, evidence and operating conditions?*
 
@@ -40,13 +40,13 @@ For readability, this document calls that boundary `σ(d,t)`. It is a reader not
 
 - **Failure-trajectory rule:** Type 1 and Type 2 remain the only two management-failure classes, but a run may move between them. Timeout, default, defensive approval or reviewer pressure can force an unresolved Type-1 path into Type-2 closure; later contradiction of a compressed Type-2 closure can reopen as Type-1 HOLD/search when its discarded basis is unrecoverable. False convergence, divergence, oscillation and cascade are measured trajectories or consequences, not additional types. Defensive `UNKNOWN`, qualifier saturation and injected doubt are classified by whether they create unbounded delay/containment (Type 1) or suppress/force unsupported closure (Type 2).
 
-This prevents a new vocabulary at each stage: S# identifies the problem surface for `σ(d,t)`; T# states the condition the solution must show; H# states why the EA principles predict that condition can be met; and the KPI records supporting or falsifying evidence for that same scope.
+This prevents a new vocabulary at each stage: S# identifies the canonical requirement for `σ(d,t)`; T# states the condition the solution must show; H# states why the EA principles predict that condition can be met; and the KPI records supporting or falsifying evidence for that same scope.
 
-## 2. Challenges S1–S14
+## 2. Canonical requirements S1–S14
 
-The following are the complete solution challenges exposed by the DAOS case. A candidate need not solve every challenge. It must declare which challenge dimensions it addresses, what it consumes from other owners, and where it stops. A locally correct component does not establish a whole-system result by itself.
+The following are the complete canonical solution requirements exposed by the DAOS case. A candidate need not satisfy every requirement outside its declared scope. It must declare which S1–S14 requirements it addresses, what it consumes from other owners, and where it stops. A locally correct component does not establish a whole-system result by itself.
 
-| ID | Challenge and full requirement | EA relation |
+| ID | Canonical requirement | EA relation |
 | --- | --- | --- |
 | **S1** | **Authority provenance and current applicability.** Establish who conferred authority, on whom, for what purpose and scope, and whether it remains binding at commitment and action time; include origin, standing, expiry, revocation, composition and evidence. | Upstream authority fact. EA consumes its qualification and must not issue or invent the grant. |
 | **S2** | **Preference fidelity and reviewable decision basis.** Show that the decision still represents the principal’s declared preferences, hard limits and permitted trade-offs, at the decision-basis level without requiring disclosure of every internal model step. | Upstream decision-basis fact. EA does not own preference interpretation. |
@@ -154,15 +154,15 @@ A high `UNKNOWN` rate is not by itself failure, and a low one is not by itself s
 
 ## 6. End-to-end traceability: one scope, one test route
 
-The preceding sections are not four independent checklists. For each declared `σ(d,t)`, the assessor selects the relevant challenge surface (S#), applies the condition(s) that make that challenge sufficiently good (T#), states the foundation hypothesis or hypotheses being tested (H#), and records the named KPI evidence. The same scope, owner, time, evidence boundary and response horizon must remain visible throughout.
+The preceding sections are not four independent checklists. For each declared `σ(d,t)`, the assessor selects the relevant requirement (S#), applies the condition(s) that make that challenge sufficiently good (T#), states the foundation hypothesis or hypotheses being tested (H#), and records the named KPI evidence. The same scope, owner, time, evidence boundary and response horizon must remain visible throughout.
 
-A KPI pass is evidence for the stated hypothesis and condition; it is not by itself proof that a challenge has been solved. A condition is met only when its full requirement, the applicable evidence and the relevant KPIs hold together for the declared scope. Conversely, a failed KPI, missing required field, unavailable owner or expired response window is a direct reason to mark the linked condition insufficient for that run. It must not be averaged away by good results in another scope.
+A KPI pass is evidence for the stated hypothesis and condition; it is not by itself proof that a requirement has been satisfied. A condition is met only when the applicable S# requirement, the full T# condition, the evidence and the relevant KPIs hold together for the declared scope. Conversely, a failed KPI, missing required field, unavailable owner or expired response window is a direct reason to mark the linked condition insufficient for that run. It must not be averaged away by good results in another scope.
 
-### 6.1 Challenge-to-condition-to-hypothesis map
+### 6.1 Requirement-to-condition-to-hypothesis map
 
-The map identifies the normal test route. It does not convert upstream functions into EA functions: where a challenge is externally owned, the route tests whether the candidate preserves and qualifies the received determination rather than whether it issued the underlying grant, identity or policy.
+The map identifies the normal test route. It does not convert upstream functions into EA functions: where a requirement depends on an externally owned source function, the route tests whether the candidate preserves and qualifies the received determination rather than whether it issued the underlying grant, identity or policy.
 
-| Challenge | Normally required sufficiently-good condition(s) | Foundation hypothesis test | KPI evidence for the same `σ(d,t)` | What the route does **not** establish |
+| Requirement | Normally required sufficiently-good condition(s) | Foundation hypothesis test | KPI evidence for the same `σ(d,t)` | What the route does **not** establish |
 | --- | --- | --- | --- | --- |
 | **S1** Authority provenance | T2, T3 | H2, H4 | authority-field completeness; residual-scope preservation; handoff integrity; authorized-response compliance | issuance or legal validity of the grant |
 | **S2** Preference fidelity | T2 | H1, H2 | qualified-posture correctness; local determinacy margin; residual-scope preservation | interpretation or authorship of preferences |
@@ -186,7 +186,7 @@ S14 is an aggregate assessment route, not a separate breadth score. A declared t
 ### 6.2 How to run a complete test
 
 1. **Freeze the scope.** Declare `σ(d,t)`: subject, proposition, receiving decision, legitimate owner, commitment state, evidence and observation boundary, materiality threshold, authority, deadline, capacity and null action. Record the selected `W(d,t)`.
-2. **Select the challenge route.** Name every S# materially present in that scope and the T# conditions required by the map. If a source function is outside the candidate, name its owner and the handoff/re-entry boundary rather than silently assuming it works.
+2. **Select the requirement route.** Name every S# materially present in that scope and the T# conditions required by the map. If a source function is outside the candidate, name its owner and the handoff/re-entry boundary rather than silently assuming it works.
 3. **State the falsifiable expectation.** Name the H# being tested and the comparison configuration. Hold facts, authority, action library, deadline and resource envelope constant across configurations.
 4. **Instrument the KPIs.** For every required KPI, declare numerator, denominator, branch oracle, threshold and observable outcome. Preserve UNKNOWN, residual, scope, provenance, freshness, dependency, capacity, authority and expiry through each handoff.
 5. **Declare composition and arbitration.** Where several scopes or postures meet, state material dependencies, hard constraints, legitimate veto scope/expiry, timeout/default behaviour, evidence-versus-authority role, re-entry target and anti-oscillation rule. Human approval or a timeout may authorize a response; neither is new evidence about the world model.
@@ -218,6 +218,6 @@ No statement here implies that Ω is closed or exhaustively enumerable, that `R_
 
 The current canonical requirements route is **S1–S14 → T1–T4 → H1–H6 → KPI/falsification**. It is the controlling requirements basis for tests and fixtures that cite this document/version; it is not a claim that fourteen challenges, four sufficiency conditions or six hypotheses exhaust every future Structural Awareness / Ecosystem Positioning requirement.
 
-Later developments — including 00G false-context convergence, participant-local positioning, ACC/admissibility, selective signalling/choreography, the objective-conditioned gradient, Ecosystem Cartography, effective-role drift and MSCA Operation/Repositioning — may expose additional challenge surfaces, conditions, measures or cross-component conformance needs. They do **not** silently add requirements to this document.
+Later developments — including 00G false-context convergence, participant-local positioning, ACC/admissibility, selective signalling/choreography, the objective-conditioned gradient, Ecosystem Cartography, effective-role drift and MSCA Operation/Repositioning — may expose additional requirement surfaces, conditions, measures or cross-component conformance needs. They do **not** silently add requirements to this document.
 
 Any such extension must be introduced through an explicit, version-controlled requirements change with traceability to the affected S/T/H/KPI routes. Existing pre-registrations and tests remain interpretable against the version they actually cite.
