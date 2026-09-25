@@ -32,7 +32,7 @@
 
 **Full registered campaign:** **163 tests**.
 
-**Independent CI reproduction:** GitHub Actions [full campaign run](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) completes successfully across all **10 jobs** on Python 3.13: the six core harnesses, A6a, A6b, cross-scenario kernels and the aggregate campaign gate. The aggregate job verifies **101/101 core + 33/33 supplemental = 134/134**. The earlier 101-only run and 89-test pre-grid run remain part of Git history as milestones.
+**Independent CI milestone:** GitHub Actions [run 36100046965](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) independently verified the prior **101 core + 33 supplemental = 134/134** campaign. The current P1-hardened surface is **130 core + 33 supplemental = 163** and is configured in the workflow/manifest; the older run must not be cited as reproduction of the enlarged surface.
 
 The count is a regression/execution count, **not a scientific score**: one pytest assertion is not one independent experiment. The evidentiary content is the branch structure, the attempted substitutes and the falsifiable distinction between TRUE SUBSTITUTE and SEMANTIC RECONSTRUCTION.
 
