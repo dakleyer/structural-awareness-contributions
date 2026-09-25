@@ -9,7 +9,7 @@
 | **Owner corpus** | Ecosystem Awareness |
 | **Primary dependencies** | [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [02 — Epistemic Safety Principles & Control Matrix](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) |
 | **Reference scenarios** | [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) · [00G](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [00H](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00I](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [00J](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
-| **Supporting addenda** | [00K-A01 — reviewed pre-principle-first design](./00K_A01_REVIEWED_PRE_PRINCIPLE_FIRST_DESIGN_ADDENDUM_v0.1.md) · [00K-A02 — requirements coverage matrix](./00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) |
+| **Supporting addenda** | [00K-A01 — reviewed pre-principle-first design](./00K_A01_REVIEWED_PRE_PRINCIPLE_FIRST_DESIGN_ADDENDUM_v0.1.md) · [00K-A02 — requirements coverage matrix](./00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) · [00K-A03 — P4/00H deterministic paper execution](./00K_A03_P4_00H_PAPER_ABLATION_EXECUTION_v0.1.md) |
 
 > **Purpose.** Test the **six operational principles themselves** as the primary sufficiency/necessity object. S1–S14 remain the observable specification layer that tells us what a sufficiently good route must demonstrate, but the ablation does **not** prove a principle necessary merely because a mapped S# falls. For each test, remove one principle, give the remaining five the strongest fair opportunity to redesign/recover the route using any available native technology/control mechanism, and ask whether the scenario can still pass its negative and positive controls **without reconstructing the removed principle's semantics**. If it can, the principle is not necessary as formulated. If every successful repair necessarily recreates the removed semantic invariant, that is evidence for principle-level necessity within this corpus.
 
@@ -23,6 +23,8 @@ This file is the **current controlling 00K test design**. Supporting material is
 - [**00K-A02 — Requirements Coverage Matrix addendum**](./00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) isolates the verified S1–S14 × 00E–00J coverage matrix so the documentary premise can be audited independently before any principle-level execution.
 
 The addenda provide provenance, coverage and prior reviewed reasoning. They do **not** supersede this principle-first protocol.
+
+**First execution annex.** [00K-A03](./00K_A03_P4_00H_PAPER_ABLATION_EXECUTION_v0.1.md) applies this protocol to **−P4 on 00H** using the already-frozen deterministic U/G/I/NM fixture. Its current paper-level result is **SEMANTIC RECONSTRUCTION / no TRUE SUBSTITUTE found in the documented repair set**. It is analytical fixture execution, not a live runtime result.
 
 ---
 
