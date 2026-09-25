@@ -84,8 +84,8 @@ jobs:
           {
             echo "### ${{ matrix.id }}"
             echo
-            echo "- Harness: `${{ matrix.harness }}`"
-            echo "- Expected regression count: **${{ matrix.expected }}**"
+            echo '- Harness: `${{ matrix.harness }}`'
+            echo '- Expected regression count: **${{ matrix.expected }}**'
             if [ -f pytest-output.txt ]; then
               echo
               echo '~~~text'
