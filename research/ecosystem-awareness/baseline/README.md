@@ -80,9 +80,11 @@ Where a file carries more specific status prose, freeze language or a controlled
 
 The current semantic traceability spine is intentionally split from the frozen source documents:
 
-- [**02A — Foundation-to-Operational-Principle Derivation & Conservation Proof**](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) — verifies how P1–P6 are projected from 01/02, including the typed-boundary status of P4.
+- [**02A — Foundation-to-Operational-Principle Derivation & Conservation Proof**](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) — verifies semantic conservation from 01/02 into P1–P6.
+- [**02B — Foundational Syntax, Normal Forms & Principle Closure**](./02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md) — proves relative syntactic closure: A/B/C/D + Type-0/1/2 + declared operators have no uncovered primitive form outside P1–P6.
 - [**02B — Foundational Syntax Closure & P1–P6 Normal-Form Proof**](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) — proves that A/B/C/D + Type 0/1/2 + received-state, time/requalification and composition syntax closes into P1–P6 unless a genuinely new foundational primitive is introduced.
 - [**00K-A19 — Principle–Requirement Traceability & Semantic Conservation Proof**](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) — verifies non-vacuous P→S anchors, complete S1–S14 primary coverage, scenario routes and ablation links.
+- [**00K-A21 — Requirement Basis Closure & Relative Completeness**](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) — proves that every admitted decision-frame/lifecycle obligation normalizes to S1–S14; a legitimate S15 must introduce a new primitive.
 - [**00K-A21 — Requirement Normal-Form Closure & Relative Completeness**](./00K_A21_REQUIREMENT_NORMAL_FORM_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) — proves that every primitive requirement expressible in the current decision-boundary grammar normalizes to S1–S14; a non-normalizing in-scope obligation is an explicit S15 falsifier.
 - [**00K-A20 — Shared-Substrate Mathematical Independence**](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) — preferred pure mathematical independence proof relative to one shared provenance/scope/time substrate and coherence theory B.
 - [**00K-TRACE**](./fixtures/00K-TRACE/README.md) — machine-readable structural integrity check for the same chain; it detects broken coverage/paths but does not replace semantic review.
