@@ -232,7 +232,7 @@ But the correct oracle outputs differ. One common policy output cannot equal two
 
 A successful repair must add or infer a discriminator outside the blind projection. The 00K classification question is then whether that discriminator is a TRUE SUBSTITUTE or an operational reconstruction of the removed principle.
 
-The uploaded P5 blind-signature construction is an instance of this lemma: STALE and FRESH are intentionally equal on the P5-blind surface and have opposite correct dispositions. The current canonical A11 grid goes further by testing all 16 subsets of the declared material basis, so the 18-test package is useful as a compact proof illustration but is not needed as a second canonical test count.
+The [P5 blind-signature proof supplement](./fixtures/00K-A5-P5-00I/blind-signature-proof/README.md) is an instance of this lemma: STALE and FRESH are intentionally equal on the P5-blind surface and have opposite correct dispositions. The current canonical A11 grid goes further by testing all 16 subsets of the declared material basis, so the 18-test supplement is retained as a compact proof illustration and is not added to the canonical campaign count.
 
 ---
 
