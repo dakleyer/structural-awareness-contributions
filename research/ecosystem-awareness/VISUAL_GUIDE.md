@@ -127,7 +127,7 @@ flowchart LR
 
 | Layer | Current state |
 |---|---|
-| Requirements / hypotheses / KPI protocol | **Defined and versioned** |
+| Requirements / hypotheses / KPI protocol | **Defined and versioned** |\n| 00K six-principle symbolic ablation layer | **Serious hardening complete: 346 core + 33 supplemental = 379/379 CI-reproduced symbolic tests; P1/P3/P6 retain explicit falsified naive fixtures; P4 narrowed to minimal authority qualification** |\n| 00K formal independence layer | **A16 model-theoretic relative-independence / irredundancy proof with six fixture-derived countermodels; machine-checkable certificate; model-relative, not universal minimality** |
 | 00E scenario / quality plan | **Documented** |
 | 00F v0.2 · [Freeze Edition](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) | **“The City That Stopped Safely” — Q0–Q5 + N0/N1/Q + V0–V9 + R0/R1/R2, FIWARE/AWS profiles, source audit and zero-loss public edition; comparative execution pending** |
 | 00G v0.4 | **Canonical working reference; paired false/genuine control + DBC gate namespace + KPI instrumentation + integrated OpenAI G0/G1/G2 implementation trajectories; unexecuted; 00D/W3 execution pending** |
@@ -262,7 +262,7 @@ flowchart LR
 | What must any candidate solution demonstrate? | [00 Requirements](./baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) | 00D benchmark / coverage map |
 | How does EA actually work? | [Topology](./baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) | 03 Functional Architecture → 04 Interfaces |
 | Where can a strong system still fail? | [00E](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) / [00F](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) / [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) / [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) / [00I](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) | product profiles / benchmark |
-| How is the claim falsified fairly? | [00D](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) | A01 → A03 → fixture/pre-registration |
+| How is the claim falsified fairly? | [00D](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) | A01 → A03 → fixture/pre-registration |\n| Are P1–P6 independently necessary in the formalized symbolic model? | [00K-A16 Formal Relative Independence Proof](./baseline/00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) | [A15 Testbook](./baseline/00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) → [A17 documentation map](./baseline/00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md) |
 | Which cases exist and what do they cover? | [Use-Case Portfolio Coverage Map](./baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) | Validation reading note / FG-TIDA cases |
 | How does EA connect to regime change? | [RA README](../regime-awareness/README.md) | 01C → 01D |
 | How does control sufficiency and repositioning work? | [MSCA README](../../standards/minimum-sufficient-control/README.md) | MSCA 00 → 03 → 02 → 04 |
