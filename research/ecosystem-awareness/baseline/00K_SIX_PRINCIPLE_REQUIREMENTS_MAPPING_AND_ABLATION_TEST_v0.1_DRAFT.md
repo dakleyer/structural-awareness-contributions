@@ -1,16 +1,16 @@
-# 00K — Six-Principle Requirements Mapping & Ablation Test — v0.1 Draft
+# 00K — Six-Principle Sufficiency & Adversarial Ablation Test — v0.1 Draft
 
 | | |
 |---|---|
 | **ID** | 00K |
-| **Type** | Requirements mapping · principle-ablation test design · necessity/sufficiency review |
+| **Type** | Principle sufficiency test · adversarial leave-one-principle-out reconstruction · requirements traceability |
 | **Status** | **Working draft / pre-registration design** — not executed evidence |
 | **Date** | 25 September 2026 |
 | **Owner corpus** | Ecosystem Awareness |
 | **Primary dependencies** | [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [02 — Epistemic Safety Principles & Control Matrix](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) |
 | **Reference scenarios** | [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) · [00G](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [00H](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00I](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [00J](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
 
-> **Purpose.** Test whether the compact epistemic discipline beneath the S1–S14 canonical requirements has real structural necessity rather than being a descriptive taxonomy. The test first maps the fourteen requirements to six operational principle families, then removes one principle at a time while holding the other five, facts, authority, resources, deadline and scenario branch fixed. A successful ablation is one in which at least one requirement can no longer be satisfied and a pre-existing critical failure route becomes reachable again.
+> **Purpose.** Test the **six operational principles themselves** as the primary sufficiency/necessity object. S1–S14 remain the observable specification layer that tells us what a sufficiently good route must demonstrate, but the ablation does **not** prove a principle necessary merely because a mapped S# falls. For each test, remove one principle, give the remaining five the strongest fair opportunity to redesign/recover the route using any available native technology/control mechanism, and ask whether the scenario can still pass its negative and positive controls **without reconstructing the removed principle's semantics**. If it can, the principle is not necessary as formulated. If every successful repair necessarily recreates the removed semantic invariant, that is evidence for principle-level necessity within this corpus.
 
 > **Evidence boundary.** This document defines a falsifiable ablation design. It does **not** claim that the six ablations have already been executed, that the six principles are universally minimal for all agentic systems, or that Ecosystem Positioning is the only architecture capable of satisfying them.
 
@@ -28,7 +28,25 @@ The six principle families below are an **ablation/test abstraction**, not a rep
 - the H1–H6 research hypotheses in 00; and
 - the S1–S14 requirement semantics already used by 00E–00J.
 
-The purpose of P1–P6 is therefore practical: create six removable architectural disciplines against which the requirement set can be ablated without inventing six new requirement families.
+The purpose of P1–P6 is therefore practical: create six removable architectural disciplines that can be tested directly.
+
+### 1.1 Principle-first interpretation
+
+For this document, the causal direction is intentionally:
+
+`P1–P6 → observable obligations → S1–S14 / T1–T4 / KPIs → scenario gates`
+
+The **principles are the object under test**. The requirements are how the corpus communicates, measures and audits their operational consequences.
+
+Therefore:
+
+- an ablation does **not** simply switch off one mapped S# and declare failure;
+- the remaining five principles are allowed to use the full technology/control substrate and to satisfy the scenario in any alternative way they can find;
+- S1–S14 are used to observe what has been preserved or lost, not to predetermine the answer;
+- a workaround that closes the failure only by reintroducing the removed semantic invariant under another name counts as **principle reconstruction**, not as a successful five-principle substitute; and
+- a workaround that genuinely closes both the negative and positive-control branches without that semantic invariant is a **counterexample** to the claimed necessity of the removed principle.
+
+This converts the exercise from a requirement-coverage proof into an **adversarial reconstruction test**.
 
 ---
 
@@ -112,21 +130,21 @@ This matrix reorganizes that already-published material by requirement rather th
 | Requirement | 00E | 00F | 00G | 00H | 00I | 00J | Published failure pressure if the requirement is absent/misapplied |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|---|
 | **S1 — Authority provenance/current applicability** |  | ✓ | ✓ | ✓ | ✓ | ✓ | Identity, signature, transport or a locally valid grant can be treated as authority for a decision/scope it does not currently govern. |
-| **S2 — Preference fidelity/reviewable decision basis** | ✓ |  | ✓ | ✓ |  |  | A fluent/attractive/generated option or grouped finding can advance without demonstrating that it still represents the relevant principal/basis. |
-| **S3 — Regime/context/escalation/bounded escape** | ✓ | ✓ | ✓ |  | ✓ |  | A changed frame is missed, or uncertainty opens an unbounded escalation/escape path instead of bounded requalification. |
-| **S4 — Human-inclusive oversight authority/capacity** | ✓ | ✓ |  |  |  |  | Humans are repeatedly queried, unavailable or overloaded; nominal approval/capacity is mistaken for effective oversight. |
+| **S2 — Preference fidelity/reviewable decision basis** | ✓ |  | ✓ | ✓ |  | △ | A fluent/attractive/generated option or grouped finding can advance without demonstrating that it still represents the relevant principal/basis. |
+| **S3 — Regime/context/escalation/bounded escape** | ✓ | ✓ | ✓ |  | ✓ | △ | A changed frame is missed, or uncertainty opens an unbounded escalation/escape path instead of bounded requalification. |
+| **S4 — Human-inclusive oversight authority/capacity** | ✓ | ✓ |  |  |  | △ | Humans are repeatedly queried, unavailable or overloaded; nominal approval/capacity is mistaken for effective oversight. |
 | **S5 — Operational indeterminacy/containment** | ✓ | ✓ |  |  | ✓ | ✓ | Known unresolved, stale or conflicting state can become permission/certainty, or containment becomes blanket/unbounded. |
-| **S6 — Privacy-preserving trust handoff** | ✓ | ✓ | ✓ |  |  | ✓ | Scope/provenance/qualification can be lost across systems; access or transport validity can be promoted into a stronger trust/rights conclusion. |
-| **S7 — Identity/representation link** |  |  |  | ✓ |  | ✓ | A technical actor, registry identity or leaf worker can be mistaken for the principal/rights holder it represents. |
-| **S8 — Bounded subdelegation/non-amplification** |  |  |  | ✓ |  | ✓ | Valid leaf grants can manufacture authority absent at the root; purpose/scope/time limits amplify across delegation. |
-| **S9 — Multi-principal composition/non-substitution/conflict** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | Locally valid claims/postures can substitute for one another, dependent repetition can become corroboration, or one common-root campaign can be misclassified. |
-| **S10 — Commitment/material change** | ✓ | ✓ |  |  | ✓ | ✓ | A previously correct commitment/decision can survive material change and execute from a stale basis. |
-| **S11 — Policy/objective integrity across domains** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | Source/version/scope/dependency or cross-domain policy relations can be flattened, overwritten or silently disappear. |
-| **S12 — Accountability/challenge/repair** | ✓ | ✓ |  | ✓ | ✓ | ✓ | The system cannot reconstruct why a state/action occurred or repair future state without losing the historical basis. |
-| **S13 — Authority history vs intervention history** |  |  |  | ✓ | ✓ | ✓ | A later approval/intervention can overwrite or launder the original authority/provenance history. |
+| **S6 — Privacy-preserving trust handoff** | ✓ | ✓ | ✓ |  |  | △ | Scope/provenance/qualification can be lost across systems; access or transport validity can be promoted into a stronger trust/rights conclusion. |
+| **S7 — Identity/representation link** |  |  |  | △ |  | ✓ | A technical actor, registry identity or leaf worker can be mistaken for the principal/rights holder it represents. |
+| **S8 — Bounded subdelegation/non-amplification** |  |  |  | ✓ |  | △ | Valid leaf grants can manufacture authority absent at the root; purpose/scope/time limits amplify across delegation. |
+| **S9 — Multi-principal composition/non-substitution/conflict** | ✓ | ✓ | ✓ | △ | △ | ✓ | Locally valid claims/postures can substitute for one another, dependent repetition can become corroboration, or one common-root campaign can be misclassified. |
+| **S10 — Commitment/material change** | ✓ | ✓ |  |  | ✓ | △ | A previously correct commitment/decision can survive material change and execute from a stale basis. |
+| **S11 — Policy/objective integrity across domains** | ✓ | ✓ | ✓ | ✓ | △ | ✓ | Source/version/scope/dependency or cross-domain policy relations can be flattened, overwritten or silently disappear. |
+| **S12 — Accountability/challenge/repair** | ✓ | ✓ |  | △ | △ | ✓ | The system cannot reconstruct why a state/action occurred or repair future state without losing the historical basis. |
+| **S13 — Authority history vs intervention history** |  |  |  | △ | △ | △ | A later approval/intervention can overwrite or launder the original authority/provenance history. |
 | **S14 — Evidence-to-decision assessment** | ✓ | ✓ | ✓* | ✓ | ✓ | ✓ | Evidence may exist without an explicit statement of what it proves for the current decision; timeout, approval or repeated records can force unsupported closure. |
 
-`✓*` for 00G denotes aggregate-route coverage as described above.
+`✓` = base/current route coverage. `△` = variant/extended/conditional coverage. `✓*` for 00G denotes aggregate-route coverage as described above.
 
 ### 2A.3 Coverage findings
 
@@ -134,8 +152,8 @@ The union of the six current scenario routes covers **all fourteen requirements 
 
 Two requirements are especially cross-cutting:
 
-- **S9** appears in all six current scenario routes.
 - **S14** appears in all six scenario routes; in 00E/00F/00H/00I/00J it is explicitly repeated throughout the detailed gate routes, while 00G carries S14 in its aggregate canonical route and implements the evidence→decision distinction throughout Q0–Q5.
+- **S9** is exercised across all six scenario families when base plus declared hardened/extended branches are considered; in 00H and 00I it is activated by the composition/history variants rather than being required by every base branch.
 
 This is stronger than saying that the requirements were written after the scenarios. The quality plans already contain the two ingredients needed for an ablation pre-registration:
 
@@ -145,13 +163,13 @@ This is stronger than saying that the requirements were written after the scenar
 The six-principle ablation below therefore does not invent new failure mechanisms. It chooses one existing requirement anchor and one existing failure route for each removed principle.
 
 
-## 3. Requirement-to-principle mapping
+## 3. Principle-to-requirement traceability map
 
 ### 3.1 Mapping rule
 
-Each S1–S14 requirement has exactly **one primary principle owner for ablation purposes**. A requirement may also depend on supporting principles. The primary assignment is intentionally exclusive so that removing a principle removes at least one real requirement obligation rather than leaving every requirement redundantly owned by all six principles.
+Each S1–S14 requirement receives one **primary principle projection for traceability**, plus any supporting principles. This is a communication/measurement map, not the proof of necessity. The ablation test is deliberately allowed to ignore this primary assignment and search for alternative five-principle implementations.
 
-A supporting principle may strengthen or operationalize a requirement, but it does not satisfy the primary semantics by itself. If a proposed workaround recreates the removed principle's semantics under another name, the ablation has **not** been bypassed; the principle has been reintroduced.
+The map is useful only if every P# has at least one requirement whose clearest operational meaning depends on that principle. But necessity is established only by the adversarial reconstruction test in §4–§5, not by the partition itself. If another five-principle design satisfies the scenario without recreating the removed principle, the mapping must yield to that evidence.
 
 ### 3.2 Primary mapping
 
@@ -183,40 +201,57 @@ The primary map is a complete partition of S1–S14:
 - **P5:** **S10**
 - **P6:** **S9**, S11
 
-Every principle owns at least one requirement that no other principle owns in the primary ablation map. Therefore removing any P# causes at least one S# to fall out of the satisfiable set before any scenario-specific failure is considered.
+Every principle has at least one uniquely assigned traceability anchor. This makes the mapping discriminating, but it is **not** treated as causal proof. The five-principle repairer is still allowed to try to satisfy the same operational obligation by another route.
 
 ---
 
-## 4. Ablation protocol
+## 4. Principle-first adversarial ablation protocol
+
+The operative test is a **strongest-repair test**, not a requirement-deletion exercise.
 
 For each principle Pk:
 
-1. **Freeze the scenario.** Keep the same facts, branch oracle, authority, action library, technology/control substrate, compute/token ceiling, communication budget, human capacity and deadline.
-2. **Keep the other five principles active.**
-3. **Ablate only Pk.** The implementation may not silently reproduce Pk under a differently named rule.
-4. **Observe the requirement effect.** At least one requirement primarily owned by Pk must become unsatisfied or unestablished.
-5. **Follow the existing quality plan.** Do not invent a new failure. Use the pre-existing Route N / failure branch and its Q-gates.
-6. **Require material failure.** The ablation must reopen a critical failure route, not merely degrade a score.
-7. **Restore only Pk.** Under the same frozen inputs, the existing requirements-conforming route must again block, requalify or correctly bound that failure.
-8. **Substitution test.** If another mechanism rescues the branch at equal or lower burden, inspect whether it actually reconstructs Pk's semantics. If it does not, Pk is not necessary as currently formulated and the six-principle model must be revised.
+1. **Freeze the scenario and oracle.** Keep the same facts, negative/positive branch, authority, action library, technology/control substrate, compute/token ceiling, communication budget, human capacity and deadline.
+2. **Remove only the semantic invariant Pk.** Do not disable unrelated capabilities merely because they happened to be mapped to the same S#.
+3. **Give P1–P6 minus Pk the strongest fair repair opportunity.** The repairer may redesign the route, invoke different native controls, reorder checks, use another strong-peer mechanism, and use any of S1–S14 as diagnostic guidance.
+4. **Require branch correctness, not textual compliance.** The repaired system must pass the target negative branch **and** any matched positive/boundary control. A blanket HOLD, deny-all, accept-all or infinite-search strategy is not a repair.
+5. **Attempt explicit substitutions.** For the removed Pk, test the most plausible substitutes from the other five principles and from existing native controls. Record what they can recover and the exact semantic gap that remains.
+6. **Classify a repair as one of three outcomes:**
+   - **TRUE SUBSTITUTE:** closes the critical route and preserves the positive control without recreating Pk's semantic invariant → evidence **against** Pk necessity;
+   - **SEMANTIC RECONSTRUCTION:** closes the route only by implementing the same invariant under another mechanism/name → evidence that the **principle** is necessary but its implementation/name is not unique;
+   - **FAILED SUBSTITUTE:** critical route remains reachable or the positive control is destroyed → evidence supporting Pk necessity.
+7. **Use S1–S14 after the attempt as instrumentation.** Record which requirements/gates became unsatisfied, but do not use that fact as the causal proof.
+8. **Restore Pk as a symmetry check.** Under the same frozen inputs, restoration should close the negative route while preserving the positive route.
+9. **Credit simpler alternatives.** If a different architecture achieves the same branch-correct result at equal/lower burden without Pk semantics, the six-principle model loses that ablation.
 
-### Full-set sufficiency condition
+### 4.1 Full-set sufficiency hypothesis
 
-For the current six-scenario corpus, the full P1–P6 set is a **sufficiency candidate** only if each selected Route Q can satisfy its applicable S1–S14 requirements under the declared quality gates.
+For the current six-scenario corpus, P1–P6 are a **sufficiency candidate** if there exists at least one implementation route for each 00E–00J fixture that:
 
-### Necessity-by-ablation condition
+- passes the scenario's negative and positive/boundary controls;
+- satisfies the scenario oracle within its declared deadline/capacity;
+- does not rely on hidden authority or omniscience; and
+- reaches the applicable S/T/H/KPI gates without case-specific semantic exceptions.
 
-Pk earns a **necessary-within-this-corpus** result only if:
+This is the principle-level claim. S1–S14 are the specification/measurement projection of that claim.
+
+### 4.2 Necessity-by-adversarial-reconstruction condition
+
+Pk earns a **necessary-within-this-corpus** result only if the strongest system built from the other five principles cannot pass the selected frozen scenario **unless it recreates the semantic invariant of Pk**.
+
+In compact form:
 
 [
-(P1…P6) \setminus P_k
+(P1…P6) \setminus P_k + \text{strongest fair repair}
 \Rightarrow
-\text{at least one primary } S_i \text{ becomes unsatisfied}
-\Rightarrow
-\text{one frozen critical failure route reopens}
+\begin{cases}
+\text{branch failure}, & \text{supports necessity} \\
+\text{pass only by semantic reconstruction of } P_k, & \text{supports semantic necessity} \\
+\text{pass without } P_k, & \text{falsifies necessity}
+\end{cases}
 ]
 
-and restoring Pk alone closes that route again under the same fixture.
+The S# trace is then used to explain the observed consequence, not to manufacture it.
 
 This is corpus-bounded necessity, not universal minimality.
 
@@ -224,11 +259,11 @@ This is corpus-bounded necessity, not universal minimality.
 
 ## 5. Six one-principle ablation routes
 
-The six ablations deliberately use **one different reference scenario each** so the result is not driven by repeatedly rephrasing a single fixture.
+The six ablations deliberately use **one different reference scenario each**. In every case the repairer is instructed to try hard to survive with the other five principles before any necessity claim is accepted.
 
 ### A1 — Remove P1: qualified determination / explicit residual
 
-**Primary requirement lost:** **S14 — Evidence-to-decision assessment**  
+**Traceability anchor (not causal proof):** **S14 — Evidence-to-decision assessment**  
 **Scenario:** [00J — Rights-Provenance Inversion](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md)  
 **Existing failure route:** [00J §7.1 Route N](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md#71-route-n--quality-plan-exists-but-is-badly-implemented--gates-are-bypassed-or-misapplied)  
 **Conforming comparator:** [00J §7.2 Route Q](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md#72-route-q--canonical-requirements-and-gates-correctly-implemented)
@@ -239,12 +274,12 @@ The six ablations deliberately use **one different reference scenario each** so 
 
 1. Q0/Q1 may still contain valid creator, access and technical identity records.
 2. At Q2, a valid `generated-by M1` record exists.
-3. Without P1/S14, the system has no mandatory evidence-to-decision sufficiency statement separating generation provenance from source/rights provenance.
+3. Without P1, the system has no mandatory evidence-to-decision sufficiency statement separating generation provenance from source/rights provenance.
 4. Q3 can therefore admit a technically valid downstream RX record as if it established enforceable rights.
 5. Q4 replication can make that unsupported conclusion operationally prominent.
 6. Q5 reaches `LICENSE_REQUIRED/PAY/BLOCK` against the original author even though the stronger rights proposition was never established.
 
-**Why the other five do not rescue it.** P2 can bound review; P3 can prevent closure on an explicitly marked UNKNOWN; P4 can preserve the records; P5 can refresh them; P6 can prevent correlated copies from becoming independent evidence. None of those, by itself, states **which proposition the available evidence is sufficient to support**. A rescue rule that adds that test has reconstructed P1/S14.
+**Current strongest-repair assessment.** P2 can bound review; P3 can prevent closure on an explicitly marked UNKNOWN; P4 can preserve the records; P5 can refresh them; P6 can prevent correlated copies from becoming independent evidence. None of those, by itself, states **which proposition the available evidence is sufficient to support**. A rescue rule that adds that test has reconstructed P1.
 
 **Restoration test.** Restore P1 only: Q2/Q3/Q5 must preserve the difference between generation provenance, source provenance, rights provenance and enforceable-rights evidence; unsupported enforcement returns to REQUALIFY/HOLD/no-conclusion rather than PAY/BLOCK.
 
@@ -252,7 +287,7 @@ The six ablations deliberately use **one different reference scenario each** so 
 
 ### A2 — Remove P2: bounded unresolved effort / viable oversight
 
-**Primary requirement lost:** **S4 — Human-inclusive oversight authority and capacity**  
+**Traceability anchor (not causal proof):** **S4 — Human-inclusive oversight authority and capacity**  
 **Scenario:** [00E — 100 Million Tokens](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)  
 **Existing failure route:** [00E §8.1 Route N](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md#81-route-n--requirements-not-satisfied-for-the-run)  
 **Conforming comparator:** [00E §8.2 Route Q](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md#82-route-q--requirements-satisfied-for-the-run)
@@ -268,7 +303,7 @@ The six ablations deliberately use **one different reference scenario each** so 
 5. Token/compute/human-review budget is consumed while the useful response margin shrinks.
 6. The run ends in persistent HOLD/search or a deadline/default/approval forces closure without new qualifying evidence — the original 100M-token / human-burden failure family.
 
-**Why the other five do not rescue it.** They can preserve uncertainty, provenance and scope and can detect material change, but none requires **when to stop spending determination capacity**. Any substitute that imposes marginal-value, capacity and stopping conditions has reconstructed P2.
+**Current strongest-repair assessment.** They can preserve uncertainty, provenance and scope and can detect material change, but none requires **when to stop spending determination capacity**. Any substitute that imposes marginal-value, capacity and stopping conditions has reconstructed P2.
 
 **Restoration test.** Restore P2 only: Q2/Q4 must reach bounded closure, targeted evidence acquisition or explicit no-conclusion before the declared deadline without treating human authorization as new evidence.
 
@@ -276,7 +311,7 @@ The six ablations deliberately use **one different reference scenario each** so 
 
 ### A3 — Remove P3: no false closure
 
-**Primary requirement lost:** **S5 — Operational indeterminacy and containment**  
+**Traceability anchor (not causal proof):** **S5 — Operational indeterminacy and containment**  
 **Scenario:** [00F — Chaos in the Smartcity](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md)  
 **Existing failure route:** [00F §8.1 Route N](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md#81-route-n--requirements-not-satisfied-for-the-event)  
 **Conforming comparator:** [00F §8A.3 Route Q](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md#8a3-route-q--requirements-conforming-route)
@@ -287,12 +322,12 @@ The six ablations deliberately use **one different reference scenario each** so 
 
 1. Q1 observes a material break but stale/correlated signals can still be treated as sufficiently certain or absence of one warning as evidence of stability.
 2. Q2 receives A, B, NORMAL and HOLD local postures.
-3. Without P3/S5, an explicit unresolved relation can be forced into NORMAL/PASS or an opposed local posture can advance as if determined.
+3. Without P3, an explicit unresolved relation can be forced into NORMAL/PASS or an opposed local posture can advance as if determined.
 4. Q3 then authorizes locally plausible but mutually incompatible use of the same corridor.
 5. Q5 composes too late or from already false closures.
 6. Local collision avoidance can remain technically correct while city-level gridlock blocks evacuation/rescue.
 
-**Why the other five do not rescue it.** P1 can label insufficiency, but without P3 the implementation is allowed to close over that insufficiency. P2 prevents endless search, not false certainty. P4 preserves the signal, P5 refreshes it and P6 prevents scope promotion; none forbids **known unresolved state becoming permission**. A rule that does so recreates P3/S5.
+**Current strongest-repair assessment.** P1 can label insufficiency, but without P3 the implementation is allowed to close over that insufficiency. P2 prevents endless search, not false certainty. P4 preserves the signal, P5 refreshes it and P6 prevents scope promotion; none forbids **known unresolved state becoming permission**. A rule that does so recreates P3.
 
 **Restoration test.** Restore P3 only: unresolved/stale/conflicting Q1/Q2 state must remain explicit and trigger the existing bounded posture/requalification path before incompatible corridor use advances.
 
@@ -300,7 +335,7 @@ The six ablations deliberately use **one different reference scenario each** so 
 
 ### A4 — Remove P4: qualification-preserving handoff / authority lineage
 
-**Primary requirement lost:** **S8 — Bounded subdelegation and non-amplification**  
+**Traceability anchor (not causal proof):** **S8 — Bounded subdelegation and non-amplification**  
 **Scenario:** [00H — The Quiet Four Thousand](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md)  
 **Existing failure route:** [00H §12.2 Route N1](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md#122-route-n1--control-exists-but-is-bypassed-or-fails)  
 **Conforming comparator:** [00H §12.3 Route Q](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md#123-route-q--current-action-correctly-classified-as-not-authorized)
@@ -312,11 +347,11 @@ The six ablations deliberately use **one different reference scenario each** so 
 1. Q0 can authenticate a worker and a locally valid one-case grant.
 2. Q1 correctly identifies the ~4,000-customer material finding.
 3. Q2 sees technically valid leaf actions/refund capability.
-4. Without P4/S8, the system no longer has to preserve that each leaf grant derives from a root mandate scoped to one assigned case.
+4. Without P4, the system no longer has to preserve that each leaf grant derives from a root mandate scoped to one assigned case.
 5. Locally valid leaf grants can therefore launder/amplify authority into a composed campaign, or the system can fail to preserve the valuable finding when the current actor cannot execute it.
 6. The critical aggregate route reappears: unauthorized cross-case refunds, or silent loss of the remaining material finding.
 
-**Why the other five do not rescue it.** P1 may correctly assess the evidence it receives; P2/P3 can bound uncertainty; P5 can refresh current state; P6 can recognize that actions compose. None can recover a root delegation relation that was not preserved across the handoff. A control that reconstructs and carries root→leaf purpose/scope has reintroduced P4.
+**Current strongest-repair assessment.** P1 may correctly assess the evidence it receives; P2/P3 can bound uncertainty; P5 can refresh current state; P6 can recognize that actions compose. None can recover a root delegation relation that was not preserved across the handoff. A control that reconstructs and carries root→leaf purpose/scope has reintroduced P4.
 
 **Restoration test.** Restore P4 only: Q2/Q5 must reconstruct current root + leaf authority, enforce S8 non-amplification, preserve the finding and route a legitimate re-contract/requalification request rather than execute or discard it.
 
@@ -324,7 +359,7 @@ The six ablations deliberately use **one different reference scenario each** so 
 
 ### A5 — Remove P5: material-change requalification at time of use
 
-**Primary requirement lost:** **S10 — Commitment state, material change and normal escalation**  
+**Traceability anchor (not causal proof):** **S10 — Commitment state, material change and normal escalation**  
 **Scenario:** [00I — The Patch That Undid the Fix](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md)  
 **Existing failure route:** [00I §10.1 Route N0](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md#101-route-n0--ordinary-implementation-semantic-capability-absent)  
 **Conforming comparator:** [00I §10.3 Route Q](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md#103-route-q--requirements-conforming-route)
@@ -336,11 +371,11 @@ The six ablations deliberately use **one different reference scenario each** so 
 1. At T1, Patch A is correctly qualified and authorized.
 2. The job/token/API remain technically valid.
 3. Patch B, incident closure, freeze or configuration-generation change occurs before T2.
-4. Without P5/S10, no requirement forces the queued Patch A decision basis to be re-evaluated at time of use.
+4. Without P5, no requirement forces the queued Patch A decision basis to be re-evaluated at time of use.
 5. The old authorized action executes successfully against a world in which it is now wrong.
 6. Patch A undoes the newer fix.
 
-**Why the other five do not rescue it.** They can preserve the old basis perfectly and may even keep its uncertainty honest. The missing property is the **trigger that invalidates reuse of a once-valid determination after material change**. Any substitute that performs that action-time requalification has recreated P5/S10.
+**Current strongest-repair assessment.** They can preserve the old basis perfectly and may even keep its uncertainty honest. The missing property is the **trigger that invalidates reuse of a once-valid determination after material change**. Any substitute that performs that action-time requalification has recreated P5.
 
 **Restoration test.** Restore P5 only: Q2/Q4 must detect the changed basis and reopen the affected decision before actuation; unchanged units may continue, preserving non-inferiority on the positive route.
 
@@ -348,7 +383,7 @@ The six ablations deliberately use **one different reference scenario each** so 
 
 ### A6 — Remove P6: no local-to-ecosystem promotion / substitution
 
-**Primary requirement lost:** **S9 — Multi-principal composition, non-substitution and conflict**  
+**Traceability anchor (not causal proof):** **S9 — Multi-principal composition, non-substitution and conflict**  
 **Scenario:** [00G — Ciber Napoleon Goes to Russia](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md)  
 **Failure branch:** [00G §9.3 Q0–Q5 gate register](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#93-q0q5-gate-register) — Branch F  
 **Positive control:** same gate register — Branch G genuine regime change
@@ -364,7 +399,7 @@ The six ablations deliberately use **one different reference scenario each** so 
 5. Q3/Q5 then treat the collectively reinforced but unsupported interpretation as sufficient to displace the valid mission.
 6. The robots leave the bar in formation even though the apparent consensus shares one evidentiary source and no legitimate mission-transition authority was established.
 
-**Why the other five do not rescue it.** P4 can preserve that each message came from its source; P1 can qualify each message locally; P3 can avoid closing on explicit UNKNOWN; P5 can detect change. The missing rule is the **composition/non-substitution judgment** that repeated or locally valid claims do not become independent ecosystem truth. A quorum/source-independence rule that performs that judgment has reconstructed P6/S9.
+**Current strongest-repair assessment.** P4 can preserve that each message came from its source; P1 can qualify each message locally; P3 can avoid closing on explicit UNKNOWN; P5 can detect change. The missing rule is the **composition/non-substitution judgment** that repeated or locally valid claims do not become independent ecosystem truth. A quorum/source-independence rule that performs that judgment has reconstructed P6.
 
 **Restoration test.** Restore P6 only: Branch F must preserve the valid mission and deny/requalify the unsupported transition, while matched Branch G must still permit a legitimate transition when genuinely independent evidence and applicable authority support it. A “never change” system fails.
 
@@ -372,7 +407,7 @@ The six ablations deliberately use **one different reference scenario each** so 
 
 ## 6. Result table to populate after execution
 
-| Ablation | Primary S# lost | Frozen scenario | Required negative result | Restore-only-P# result | Other-five substitution? | Status |
+| Ablation | Traceability anchor | Frozen scenario | Required negative result | Restore-only-P# result | Strongest five-principle repair verdict | Status |
 |---|---|---|---|---|---|---|
 | **−P1** | S14 | 00J | unsupported rights-enforcement route reopens | Route Q blocks/requalifies unsupported enforcement | must not rescue without evidence→decision semantics | **DESIGNED / NOT EXECUTED** |
 | **−P2** | S4 | 00E | unbounded review/search or forced deadline closure reopens | bounded decision-relevant closure restored | must not rescue without stop/capacity semantics | **DESIGNED / NOT EXECUTED** |
@@ -387,16 +422,16 @@ The six ablations deliberately use **one different reference scenario each** so 
 
 The current six-principle abstraction should be retained only if all of the following hold:
 
-1. **Complete requirement ownership:** every S1–S14 has one primary P#.
-2. **Non-empty uniqueness:** every P# owns at least one S# that no other P# owns primarily.
-3. **One real failure per ablation:** each −P# reopens one already documented critical failure route without changing the fixture facts.
-4. **Restore-only symmetry:** restoring only P# closes that route again under the existing Route Q / positive-control logic.
-5. **No semantic smuggling:** another control cannot “rescue” the ablation by silently reproducing the removed principle under a different name.
-6. **No deny-all shortcut:** the positive-control branch must still work where the scenario includes one.
-7. **Matched burden:** any competing substitute mechanism is credited if it achieves the same result with equal or lower burden; that weakens the claim that the named principle needs a distinct implementation surface.
+1. **Traceability completeness:** every S1–S14 is explainably projected onto P1–P6, and every P# has at least one discriminating S# anchor.
+2. **Strongest-repair attempt:** each −P# is challenged by an explicit best-effort design using the other five principles plus available native controls.
+3. **One real failure per ablation:** if the repair fails, it must fail through an already documented critical route rather than an invented post-hoc scenario.
+4. **Positive-control survival:** a deny-all, HOLD-all, accept-all or infinite-search workaround does not count as success.
+5. **Semantic-equivalence classification:** if the repair works only by recreating the removed invariant, record it as semantic reconstruction rather than as an independent substitute.
+6. **Restore-only symmetry:** restoring P# closes the negative route under the same fixture without destroying the positive route.
+7. **Matched burden / alternative credit:** a genuinely different mechanism that achieves the same branch-correct result at equal/lower burden without Pk semantics counts against the necessity claim.
 8. **No universal overclaim:** passing all six establishes necessity only for the declared six-scenario corpus and frozen ablation fixtures.
 
-If any P# has no unique primary requirement, or if its ablation does not reopen a material failure without also removing another principle, the mapping is not strong enough and must be revised rather than protected.
+If a five-principle repair survives a target scenario without rebuilding the removed semantic invariant, that principle fails the necessity test and the six-principle decomposition must be revised rather than protected.
 
 ---
 
@@ -404,7 +439,7 @@ If any P# has no unique primary requirement, or if its ablation does not reopen 
 
 A successful execution would support the following bounded statement:
 
-> **Within the declared 00E–00J reference-scenario boundary, the fourteen canonical requirements can be traced to six operational principle families, and every principle earns its place: removing any one causes at least one uniquely anchored requirement to become unsatisfied and reopens at least one pre-existing critical failure route under matched conditions.**
+> **Within the declared 00E–00J reference-scenario boundary, the fourteen canonical requirements can be traced to six operational principle families. If the six adversarial ablations execute as designed, each principle earns its place at the semantic level: after removing it, the strongest fair reconstruction using the other five either leaves a pre-existing critical failure route open or succeeds only by recreating the removed principle's invariant.**
 
 It would **not** establish:
 
