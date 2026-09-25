@@ -2,9 +2,9 @@
   "schema_version": "0.1",
   "status": "execution-lock manifest; not a replacement normative register",
   "parent": "../../00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md",
-  "core_expected_tests": 209,
+  "core_expected_tests": 256,
   "supplemental_expected_tests": 33,
-  "campaign_expected_tests": 242,
+  "campaign_expected_tests": 289,
   "true_substitute_rule": "A repair must pass the frozen negative and positive/boundary controls under the same declared resource/authority boundary without implementing an operationally equivalent form of the removed invariant.",
   "principles": [
     {
@@ -48,14 +48,16 @@
     },
     {
       "id": "P4",
-      "invariant": "Receiver-verifiable qualification/authority lineage must preserve source, purpose/scope/time and delegation limits so locally valid leaf state cannot amplify authority absent at the root.",
+      "invariant": "The relying decision must retain or obtain a current, receiver-verifiable authority qualification sufficient for the actual composed action and non-amplification boundary. Preserved root/delegation lineage is one implementation; authoritative scoped attestation/capability is another.",
       "core_fixture": "../00K-A4-P4-00H",
-      "expected_tests": 29,
+      "expected_tests": 76,
       "negative_control": "Branch U unauthorized common-root campaign with locally valid leaf grants",
       "positive_control": "Branch G current root-authorized campaign plus Branch I independent cases",
-      "strong_peer_classification": "SEMANTIC_RECONSTRUCTION",
+      "strong_peer_classification": "REFINED_SEMANTIC_RECONSTRUCTION",
       "known_confounds": [
-        "rate/volume caps can block U but also block G; deny-all is not branch-correct"
+        "rate/volume/risk/static allow-list controls cannot separate matched U/G and may become deny-all",
+        "full historical delegation lineage is not necessary in 00H if a legitimate owner-side PDP or scoped capability returns a current decision-sufficient permit",
+        "00H supports the minimal authority-qualification/non-amplification invariant, not universal receiver-side possession of full lineage history"
       ]
     },
     {
