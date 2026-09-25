@@ -245,7 +245,7 @@ S1\text{–}S14
 A1\text{–}A6
 \]
 
-and joins it to the independent mathematical result in [A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md).
+and joins it to the preferred shared-substrate mathematical independence result in [A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md). [A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) remains the earlier lightweight formal sketch.
 
 ---
 
