@@ -98,13 +98,17 @@ earlier tests:
 - `test_ablation_A4_extended.py` remains the independent six-test
   indistinguishability strengthening.
 
-The resulting corpus suite corresponds to the successor's 21 checks plus the
-six independent strengthening checks:
+The active corpus fixture family now composes four preserved/additive layers:
+
+- reviewed predecessor: **11** tests;
+- reviewed v0.2 successor additions: **10** tests, bringing the successor contract to **21**;
+- independent U/G indistinguishability strengthening: **6** tests;
+- bounded root-authority / campaign-volume grid: **2** tests.
+
+Current active suite:
 
 ```text
-27 passed
+29 tests
 ```
 
-This keeps one executable fixture family while preserving which checks came
-from the reviewed predecessor, the later successor, and the independent
-strengthening layer.
+The earlier duplicate alignment file created during integration was removed once the already-existing reviewed `test_ablation_A4_v02_additions.py` was confirmed to carry the same successor checks. The reviewed `ablation_A4.py` was also restored verbatim; A2-L remains isolated in `a2l_strong_peer.py`. This keeps one executable fixture family while preserving provenance of every layer.
