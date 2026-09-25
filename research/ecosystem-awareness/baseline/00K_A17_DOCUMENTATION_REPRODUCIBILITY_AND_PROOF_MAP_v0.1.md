@@ -65,7 +65,6 @@ For a new technical reviewer:
 | **A24** | P↔S information gain / non-equivalence | proves requirement refinement is richer than the P signature; many-to-one projection, not reformulation |
 | **A25** | failure case-family extensibility | defines structural family admission and conformance transfer for 00E–00J |
 | **A26** | failure→success model-case conversion | pairs every 00E–00J failure fixture with a positive S/T traversal and three-axis extensibility map |
-| **A25** | failure case-study extensibility / conformance transfer | converts 00E–00J from one-off scenarios into bounded case families with upward/downward/horizontal extension tests and a conditional requirements-conformance transfer theorem |
 | **02B** | foundational syntax / principle closure proof | A/B/C/D + Type-0/1/2 + admitted operators normalize to P1–P6 |
 
 ---
