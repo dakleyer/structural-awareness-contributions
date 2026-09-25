@@ -4,6 +4,7 @@
 |---|---|
 | **ID** | 00G |
 | **Type** | Technology-neutral reference failure scenario and candidate test plan |
+| **Case-study role** | Minimum mnemonic/concrete instantiation of the [00G extensible case family](./00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) |
 | **Status** | **Canonical working 00G reference** · integrated scenario + quality-gate + OpenAI implementation trajectory · unexecuted · not W3-admitted |
 | **Version · date** | **v0.4 · 2026-09-24** |
 | **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning-related signalling route |
