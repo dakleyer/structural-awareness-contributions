@@ -28,11 +28,11 @@
 
 **Current core after bounded-grid hardening:** **101 passing symbolic tests** across the six isolated principle harnesses.
 
-**Supplemental adversarial surface:** A6a naive-pair falsifier **10**, A6b independent 00F P6 isolation **11**, and independent cross-scenario kernels **6** — **27 supplemental tests**.
+**Supplemental adversarial surface:** A6a naive-pair falsifier **10**, A6b independent 00F P6 isolation **11**, and independent cross-scenario kernels **12** — **33 supplemental tests**.
 
-**Full registered campaign:** **128 tests**.
+**Full registered campaign:** **134 tests**.
 
-**Independent CI reproduction:** GitHub Actions [full campaign run](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36099824950) completes successfully across all **10 jobs** on Python 3.13: the six core harnesses, A6a, A6b, cross-scenario kernels and the aggregate campaign gate. The aggregate job verifies **101/101 core + 27/27 supplemental = 128/128**. The earlier 101-only run and 89-test pre-grid run remain part of Git history as milestones.
+**Independent CI reproduction:** GitHub Actions [full campaign run](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) completes successfully across all **10 jobs** on Python 3.13: the six core harnesses, A6a, A6b, cross-scenario kernels and the aggregate campaign gate. The aggregate job verifies **101/101 core + 27/33 supplemental = 128/128**. The earlier 101-only run and 89-test pre-grid run remain part of Git history as milestones.
 
 The count is a regression/execution count, **not a scientific score**: one pytest assertion is not one independent experiment. The evidentiary content is the branch structure, the attempted substitutes and the falsifiable distinction between TRUE SUBSTITUTE and SEMANTIC RECONSTRUCTION.
 
