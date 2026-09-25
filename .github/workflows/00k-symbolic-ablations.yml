@@ -1,0 +1,82 @@
+name: 00K symbolic ablations
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "research/ecosystem-awareness/baseline/00K_*.md"
+      - "research/ecosystem-awareness/baseline/fixtures/00K-*/**"
+      - ".github/workflows/00k-symbolic-ablations.yml"
+  pull_request:
+    paths:
+      - "research/ecosystem-awareness/baseline/00K_*.md"
+      - "research/ecosystem-awareness/baseline/fixtures/00K-*/**"
+      - ".github/workflows/00k-symbolic-ablations.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  symbolic-ablation:
+    name: ${{ matrix.id }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - id: "A1 P1 / 00J"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J"
+            expected: "11"
+          - id: "A2 P2 / 00E"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E"
+            expected: "11"
+          - id: "A3 P3 / 00F"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F"
+            expected: "13"
+          - id: "A4 P4 / 00H"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H"
+            expected: "27"
+          - id: "A5 P5 / 00I"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I"
+            expected: "12"
+          - id: "A6 P6 / 00G"
+            harness: "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G"
+            expected: "15"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install pytest
+        run: python -m pip install --upgrade pytest
+
+      - name: Run symbolic harness
+        working-directory: ${{ matrix.harness }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pytest -q | tee pytest-output.txt
+          grep -Eq "${{ matrix.expected }} passed" pytest-output.txt
+
+      - name: Publish execution summary
+        if: always()
+        working-directory: ${{ matrix.harness }}
+        shell: bash
+        run: |
+          {
+            echo "### ${{ matrix.id }}"
+            echo
+            echo "- Harness: `${{ matrix.harness }}`"
+            echo "- Expected regression count: **${{ matrix.expected }}**"
+            if [ -f pytest-output.txt ]; then
+              echo
+              echo '~~~text'
+              cat pytest-output.txt
+              echo '~~~'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
