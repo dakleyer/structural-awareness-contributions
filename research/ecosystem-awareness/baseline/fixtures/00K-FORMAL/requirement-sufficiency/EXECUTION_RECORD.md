@@ -20,3 +20,10 @@ Python 3.12.14: all three commands exit 0; **11 tests pass**, including regressi
 | [`clause_audit_certificate.json](./clause_audit_certificate.json) | `d4df2ab543b3e349b4af6205420d5e7ebd70cbdf97ce7481351415251c380699` |
 
 Canonical S/T source SHA-256: `36c5ed27590e7deb68aab9968410a9d0894b411bee3ecc238cdead1dc0eebc73`. The canonical source, P1–P6 formulas, original six scenario files and A1–A6 fixture code are unchanged. Fresh pytest runs are not claimed locally (pytest unavailable); use the linked CI run in [A12](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) for the published revision.
+
+
+## Published revision and CI
+
+Code and certificate were published in [`bf99a53cb34257ea8c3a80983eb5778d82f2bcb0`](https://github.com/dakleyer/structural-awareness-contributions/commit/bf99a53cb34257ea8c3a80983eb5778d82f2bcb0). [00K run 36195668166](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36195668166) succeeded on the PR integration checkout for this head, with all ten jobs successful. The full campaign job ran the requirement-conformance step (11 audit tests) and the distinct 346 core + 33 supplemental symbolic regression campaign (379 checks); A3, A4 and A6 also passed their individual jobs.
+
+[Documentation integrity](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36195668174), [00L replay](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36195668158), and [Stage-0 replay](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36195668223) also succeeded for that head. These runs do not establish semantic fidelity, universal reachability or full canonical conformance. In particular, passing tests preserve the P3/P5/P6 countermodels rather than claiming their sufficiency. PR #1 remains unmerged.
