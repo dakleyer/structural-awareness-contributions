@@ -35,6 +35,7 @@ def main()->int:
     assert set(M["families"])==EXPECTED_FAMILIES
     assert set(M["directions"])==EXPECTED_DIRECTIONS
     method=assert_path(M["method"])
+    success_method=assert_path(M["success_method"])
     assert_path(M["source_extensibility"])
 
     method_text=method.read_text(encoding="utf-8")
@@ -56,6 +57,7 @@ def main()->int:
 
         parent=assert_path(spec["parent"])
         profile=assert_path(spec["profile"])
+        success_case=assert_path(spec["success_case"])
 
         assert set(spec["directions"])==EXPECTED_DIRECTIONS
         for direction,examples in spec["directions"].items():
@@ -78,6 +80,7 @@ def main()->int:
 
         profile_text=profile.read_text(encoding="utf-8")
         assert A25_BASENAME in profile_text, f"{fid}: profile does not route to A25"
+        assert Path(spec["success_case"]).name in profile_text, f"{fid}: profile does not route to success case"
         for heading in (
             "Upward / vertical extensibility",
             "Downward extensibility",
@@ -85,6 +88,29 @@ def main()->int:
             "Conformance transfer",
         ):
             assert heading in profile_text, f"{fid}: missing section '{heading}'"
+
+
+        success_text=success_case.read_text(encoding="utf-8")
+        for heading in (
+            "Minimum successful traversal",
+            "Existing route",
+            "Success predicate",
+            "Upward extension",
+            "Downward extension",
+            "Horizontal extension",
+            "Extension boundary",
+            "Transfer result",
+        ):
+            assert heading in success_text, f"{fid}: success case missing section '{heading}'"
+
+        assert "No new" in success_text or "No S15" in success_text or "No new requirement" in success_text, (
+            f"{fid}: success case does not explicitly preserve the no-new-requirement boundary"
+        )
+
+        parent_text=parent.read_text(encoding="utf-8")
+        assert Path(spec["success_case"]).name in parent_text, (
+            f"{fid}: parent scenario does not route to success model case"
+        )
 
         # A profile must state a structural family boundary/falsifier rather than
         # relying on superficial analogy.
@@ -99,6 +125,8 @@ def main()->int:
     print("Parent ↔ profile routes: 6/6")
     print("A25 routes: 6/6")
     print("Conformance-transfer sections: 6/6")
+    print("Success model cases: 6/6")
+    print("Success extension directions: 3/3 per case")
     return 0
 
 if __name__=="__main__":
