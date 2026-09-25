@@ -463,11 +463,15 @@ If a five-principle repair survives a target scenario without rebuilding the rem
 
 ---
 
-## 8. Claim boundary if all six ablations pass
+## 8. Current symbolic claim boundary
 
-A successful execution would support the following bounded statement:
+The six principle ablations now have executable symbolic harnesses. The [execution campaign summary](./00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_CAMPAIGN_SUMMARY_v0.1.md) records a **101-test core regression surface** plus **27 supplemental falsification / isolation / cross-scenario tests**.
 
-> **Within the declared 00E–00J reference-scenario boundary, the fourteen canonical requirements can be traced to six operational principle families. If the six adversarial ablations execute as designed, each principle earns its place at the semantic level: after removing it, the strongest fair reconstruction using the other five either leaves a pre-existing critical failure route open or succeeds only by recreating the removed principle's invariant.**
+The current bounded symbolic result is:
+
+> **Within the declared isolated 00E–00J-derived fixture boundary, the fourteen canonical requirements trace to six operational principle families. P1–P6 jointly admit branch-correct solutions, and leave-one-principle-out strongest-repair tests have not found a TRUE SUBSTITUTE for any principle after known fixture confounds are controlled. Passing alternative architectures in the tested surfaces succeed by reconstructing the removed semantic invariant rather than eliminating its need.**
+
+The P6 qualification is material: the unmodified 00G F/G pair **did** admit an authority-only TRUE SUBSTITUTE and therefore failed as a P6 necessity isolation. The necessity claim is retained only on the corrected matched-authority 00G fixture and the independent 00F composition isolation; see [00K-A05](./00K_A05_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md).
 
 It would **not** establish:
 
