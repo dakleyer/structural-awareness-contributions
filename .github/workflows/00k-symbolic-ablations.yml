@@ -96,7 +96,7 @@ jobs:
 
 
   campaign-total:
-    name: 00K full campaign (163)
+    name: 00K full campaign (208)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -120,9 +120,9 @@ jobs:
         run: |
           set -euo pipefail
           python run_all.py | tee campaign-output.txt
-          grep -F "Core passing regression count: 130/130" campaign-output.txt
+          grep -F "Core passing regression count: 175/175" campaign-output.txt
           grep -F "Supplemental passing count: 33/33" campaign-output.txt
-          grep -F "Campaign total: 163/163" campaign-output.txt
+          grep -F "Campaign total: 208/208" campaign-output.txt
 
       - name: Publish campaign summary
         if: always()
