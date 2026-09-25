@@ -14,7 +14,8 @@
     "requirement_conformance_sufficiency": "research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md",
     "principle_requirement_information_gain": "research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md",
     "case_study_extensibility": "research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md",
-    "case_study_extensibility_registry": "research/ecosystem-awareness/baseline/fixtures/CASE-EXTENSION"
+    "case_study_extensibility_registry": "research/ecosystem-awareness/baseline/fixtures/CASE-EXTENSION",
+    "success_case_extensibility": "research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md"
   },
   "principles": {
     "P1": {
