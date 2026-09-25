@@ -93,3 +93,44 @@ jobs:
               echo '~~~'
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+
+
+  campaign-total:
+    name: 00K full campaign (128)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install pytest
+        run: python -m pip install --upgrade pytest
+
+      - name: Run complete symbolic campaign
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-SUITE
+        shell: bash
+        run: |
+          set -euo pipefail
+          python run_all.py | tee campaign-output.txt
+          grep -F "Core passing regression count: 101/101" campaign-output.txt
+          grep -F "Supplemental passing count: 27/27" campaign-output.txt
+          grep -F "Campaign total: 128/128" campaign-output.txt
+
+      - name: Publish campaign summary
+        if: always()
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-SUITE
+        shell: bash
+        run: |
+          {
+            echo "### 00K full symbolic campaign"
+            echo
+            if [ -f campaign-output.txt ]; then
+              echo '~~~text'
+              tail -n 12 campaign-output.txt
+              echo '~~~'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
