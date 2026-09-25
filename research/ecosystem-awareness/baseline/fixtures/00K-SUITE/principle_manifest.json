@@ -2,20 +2,23 @@
   "schema_version": "0.1",
   "status": "execution-lock manifest; not a replacement normative register",
   "parent": "../../00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md",
-  "core_expected_tests": 101,
+  "core_expected_tests": 130,
   "supplemental_expected_tests": 33,
-  "campaign_expected_tests": 134,
+  "campaign_expected_tests": 163,
   "true_substitute_rule": "A repair must pass the frozen negative and positive/boundary controls under the same declared resource/authority boundary without implementing an operationally equivalent form of the removed invariant.",
   "principles": [
     {
       "id": "P1",
       "invariant": "Evidence may support a receiving decision only for the proposition it sufficiently establishes; insufficient or residual state must not be silently promoted.",
       "core_fixture": "../00K-A1-P1-00J",
-      "expected_tests": 13,
-      "negative_control": "unsupported generation/registry evidence presented as rights-enforcement support",
-      "positive_control": "legitimate current rights grant supports enforcement",
+      "expected_tests": 42,
+      "negative_control": "matched-source/issuer/record-class valid evidence supports a narrower proposition than the rights-enforcement decision requires",
+      "positive_control": "same source/issuer/record-class carries evidence that actually supports the enforcement proposition",
       "strong_peer_classification": "SEMANTIC_RECONSTRUCTION",
-      "known_confounds": []
+      "known_confounds": [
+        "original naive A1 pair changed issuer/source and record class as well as semantic proposition; source-authority-only is a TRUE SUBSTITUTE for that naive pair",
+        "corrected A1 matched-semantic isolation freezes nonsemantic observables and varies only proposition sufficiency"
+      ]
     },
     {
       "id": "P2",
