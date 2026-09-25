@@ -189,7 +189,7 @@ The philosophy starts from the [**Integrated Foundational Theory**](../../resear
 >
 > Across **00E–00J**, the same **S1–S14 canonical requirements** define the requirements-conforming **Route Q**. No scenario-specific requirement family has been needed.
 
-The [**00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is the central normative test contract: **S1–S14 → T1–T4 → H1–H6 → KPI / falsification**.
+The [**00 — Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs**](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) is the central normative test contract: **S1–S14 → T1–T4 → H1–H6 → KPI / falsification**.
 
 That reuse is a central result of the corpus: radically different failure mechanisms are judged against the same bounded requirement set rather than patched with case-specific rules.
 
@@ -204,6 +204,8 @@ That reuse is a central result of the corpus: radically different failure mechan
 The [**Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/USE_CASE_PORTFOLIO_REQUIREMENTS_COVERAGE_MAP_v0.1.md) shows which requirements each scenario, use case and fixture exercises. Each scenario quality plan then turns the shared requirements into explicit PASS / requalification / bounded-stop / failure gates.
 
 > **Evidence boundary:** this is a requirements-coverage / conformance-design result. Comparative execution and independent replication remain separately tracked.
+
+The next falsification step is the [**00K — Six-Principle Requirements Mapping & Ablation Test**](../../research/ecosystem-awareness/baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md): it maps S1–S14 to six operational principle families and pre-registers one leave-one-principle-out failure route per scenario. The claim is deliberately reversible: if another five-principle configuration closes an ablated route without reconstructing the removed principle, the six-principle decomposition must be revised.
 
 ---
 
