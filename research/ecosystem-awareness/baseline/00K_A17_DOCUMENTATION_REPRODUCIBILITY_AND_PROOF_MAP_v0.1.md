@@ -10,8 +10,6 @@
 | **Preferred pure mathematical proof** | [00K-A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Foundation syntactic closure** | [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) |
 | **Requirement-basis closure** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
-| **Foundation syntactic closure** | [02B](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) |
-| **Requirement grammar closure** | [00K-A21](./00K_A21_REQUIREMENT_GRAMMAR_CLOSURE_AND_UNIQUENESS_PROOF_v0.1.md) |
 | **Foundational syntactic closure** | [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) |
 | **Requirement closure / relative completeness** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **CI reproduction** | [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) |
@@ -64,9 +62,6 @@ For a new technical reviewer:
 | **A21** | requirement grammar closure / S1–S14 uniqueness proof | syntactic closure relative to declared decision-boundary ontology |
 | **A22** | full-cube realizability / Boolean diagnostic minimality | 64-signature construction + six-coordinate information lower bound |
 | **02B** | foundational syntax / principle closure proof | A/B/C/D + Type-0/1/2 + admitted operators normalize to P1–P6 |
-| **A21** | requirement basis closure / relative completeness | declared decision-frame lifecycle atoms normalize to S1–S14 |
-| **A21** | requirement grammar closure / uniqueness proof | exact 14 normal forms relative to the declared decision-boundary ontology |
-| **A21** | requirement-basis closure / relative completeness proof | tests whether an in-scope primitive requirement can escape S1–S14 normalization |
 
 ---
 
