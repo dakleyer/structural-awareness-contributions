@@ -28,11 +28,13 @@ The queued Patch A object, original grant and original decision basis are identi
 
 ## Result
 
-The suite passes **12/12**.
+The suite passes **14/14** after additive material-basis grid hardening.
 
 The first five P5-blind repairs false-continue the stale branch or cannot discriminate it from continuity. Deny-all blocks the stale branch but fails the continuity positive control.
 
-The native generation/version compare passes both stale and continuity branches. Under the 00K classification it is **SEMANTIC RECONSTRUCTION of P5**, because it makes the previously qualified action conditional on action-time current state/version and reopens qualification on mismatch.
+The original native **generation-only** compare passes the first stale branch, but the grid shows that it is only a partial repair: it misses incident-only, freeze-only and source/policy-version-only changes when the configuration generation is unchanged.
+
+The strengthened peer in `p5_strong_peer.py` binds actuation to the **full declared material decision basis** and reopens qualification on any material mismatch. Under 00K this is **SEMANTIC RECONSTRUCTION of P5**.
 
 No TRUE SUBSTITUTE is established by this fixture execution.
 
