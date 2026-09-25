@@ -62,6 +62,7 @@ For a new technical reviewer:
 | **A21** | requirement grammar closure / S1–S14 uniqueness proof | syntactic closure relative to declared decision-boundary ontology |
 | **A22** | full-cube realizability / Boolean diagnostic minimality | 64-signature construction + six-coordinate information lower bound |
 | **A23** | canonical requirement-conformance sufficiency | proves applicable S/T conformance ⇒ P1–P6; retains anchor-only counterexamples |
+| **A24** | P↔S information gain / non-equivalence | proves requirement refinement is richer than the P signature; many-to-one projection, not reformulation |
 | **02B** | foundational syntax / principle closure proof | A/B/C/D + Type-0/1/2 + admitted operators normalize to P1–P6 |
 
 ---
