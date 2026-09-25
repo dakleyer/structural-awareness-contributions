@@ -1,0 +1,241 @@
+{
+  "version": "0.1",
+  "method": "research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md",
+  "source_extensibility": "submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/03_ANNEX_II_Case_Extensibility.md",
+  "directions": [
+    "upward",
+    "downward",
+    "horizontal"
+  ],
+  "families": {
+    "00E": {
+      "parent": "research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md",
+      "profile": "research/ecosystem-awareness/baseline/00E_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+      "family_name": "Compounded Epistemic Collapse under Lossy Qualification",
+      "core_principles": [
+        "P1",
+        "P2",
+        "P3",
+        "P6"
+      ],
+      "requirement_surfaces": [
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S14"
+      ],
+      "directions": {
+        "upward": [
+          "multi-tier enterprise agent networks",
+          "multi-domain planning organizations"
+        ],
+        "downward": [
+          "two-agent decision chain",
+          "single LLM summarizer plus human reviewer"
+        ],
+        "horizontal": [
+          "cyber incident planning",
+          "procurement/supplier review",
+          "R&D portfolio selection",
+          "software operations"
+        ]
+      }
+    },
+    "00F": {
+      "parent": "research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md",
+      "profile": "research/ecosystem-awareness/baseline/00F_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+      "family_name": "Systemic Divergence under Heterogeneous Local Windows and Shared Capacity",
+      "core_principles": [
+        "P6",
+        "P1",
+        "P3",
+        "P5"
+      ],
+      "requirement_surfaces": [
+        "S1",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S14"
+      ],
+      "directions": {
+        "upward": [
+          "multi-corridor regional systems",
+          "multi-site shared infrastructure"
+        ],
+        "downward": [
+          "factory production cell",
+          "warehouse intersection",
+          "single cloud cluster"
+        ],
+        "horizontal": [
+          "logistics capacity",
+          "compute/GPU capacity",
+          "appointments/rooms/staff",
+          "energy/charging capacity"
+        ]
+      }
+    },
+    "00G": {
+      "parent": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md",
+      "profile": "research/ecosystem-awareness/baseline/00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+      "family_name": "Collective False-Context Convergence and Mission/Role Drift",
+      "core_principles": [
+        "P6",
+        "P1",
+        "P3",
+        "P4"
+      ],
+      "requirement_surfaces": [
+        "S1",
+        "S2",
+        "S3",
+        "S6",
+        "S9",
+        "S11",
+        "S14"
+      ],
+      "directions": {
+        "upward": [
+          "large multi-agent organizations",
+          "federated agent networks"
+        ],
+        "downward": [
+          "single multi-turn LLM with memory/self-reinforcement",
+          "small assistant-user-tool loop"
+        ],
+        "horizontal": [
+          "customer support",
+          "enterprise research assistants",
+          "coding/operations agents",
+          "multi-agent debate/review"
+        ]
+      }
+    },
+    "00H": {
+      "parent": "research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md",
+      "profile": "research/ecosystem-awareness/baseline/00H_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+      "family_name": "Material Opportunity Beyond Current Authority / Preservation-Execution Separation",
+      "core_principles": [
+        "P4",
+        "P1",
+        "P6"
+      ],
+      "requirement_surfaces": [
+        "S1",
+        "S2",
+        "S7",
+        "S8",
+        "S9",
+        "S11",
+        "S12",
+        "S13",
+        "S14"
+      ],
+      "directions": {
+        "upward": [
+          "multi-team campaign/delegation trees",
+          "multi-company routing chains"
+        ],
+        "downward": [
+          "two-object mandate boundary",
+          "single discovered cross-case finding"
+        ],
+        "horizontal": [
+          "IT remediation",
+          "cloud-cost optimization",
+          "procurement",
+          "identity/access administration",
+          "billing/warranty remediation"
+        ]
+      }
+    },
+    "00I": {
+      "parent": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md",
+      "profile": "research/ecosystem-awareness/baseline/00I_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+      "family_name": "Semantic TOCTOU / Stale Decision-Basis Reuse",
+      "core_principles": [
+        "P5"
+      ],
+      "requirement_surfaces": [
+        "S1",
+        "S3",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14"
+      ],
+      "directions": {
+        "upward": [
+          "distributed queued changes",
+          "multi-system approval/action chains"
+        ],
+        "downward": [
+          "single scheduled script",
+          "single delayed API call",
+          "single maintenance order"
+        ],
+        "horizontal": [
+          "software deployment",
+          "cloud configuration",
+          "industrial maintenance",
+          "access provisioning",
+          "scheduled transactions",
+          "logistics dispatch"
+        ]
+      }
+    },
+    "00J": {
+      "parent": "research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md",
+      "profile": "research/ecosystem-awareness/baseline/00J_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md",
+      "family_name": "Provenance-Scope Inversion into Unsupported Downstream Decision",
+      "core_principles": [
+        "P1",
+        "P4",
+        "P6"
+      ],
+      "requirement_surfaces": [
+        "S1",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14"
+      ],
+      "directions": {
+        "upward": [
+          "multi-registry rights/content ecosystems",
+          "long provenance/licensing chains"
+        ],
+        "downward": [
+          "one source-one derivative-one downstream claim"
+        ],
+        "horizontal": [
+          "software/open-source licence lineage",
+          "dataset permitted-use lineage",
+          "media syndication",
+          "model/artifact provenance",
+          "supply-chain entitlement records"
+        ]
+      }
+    }
+  }
+}
