@@ -126,6 +126,10 @@ jobs:
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube
         run: python -m unittest -v
 
+      - name: Validate requirement-conformance sufficiency
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency
+        run: python -m unittest -v
+
       - name: Validate syntactic closure graph
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE
         run: python validate_closure.py
