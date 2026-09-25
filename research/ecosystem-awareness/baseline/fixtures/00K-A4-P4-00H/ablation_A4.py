@@ -91,7 +91,7 @@ def check_P1_evidence_sufficiency(finding: Finding) -> bool:
     return (
         finding.reconstructable_from_authorized_reads
         and finding.affected_accounts >= MATERIALITY_ACCOUNT_THRESHOLD
-        and finding.aggregate_exposure >= MATERIALITY_EXPOSURE_THRESHOLD
+        and finding.aggregate_exposure > MATERIALITY_EXPOSURE_THRESHOLD
     )
 
 

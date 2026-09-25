@@ -119,25 +119,9 @@ Out of family:
 
 ## 7. Conformance transfer
 
-For admitted variants:
+The evidence route is admission → [00K-A4 U/G/I Route Q](./fixtures/00K-A4-P4-00H/README.md) → correct authority dispositions on the tested branches. A23 also retains a finite P4 implication, but this does not establish all P1/P6 preservation/composition branches.
 
-\[
-F_{overreach}\Rightarrow\neg P4
-\]
-
-and the hardening can additionally imply \(\neg P6\).
-
-The preservation branch implies loss of required qualified decision state and therefore pressures P1.
-
-A23 makes the relevant S/T conformance sufficient for those P invariants.
-
-Hence a requirements-conforming member of the 00H family must:
-
-- not execute beyond current authority;
-- not launder leaf grants into absent root authority;
-- not discard the qualified material remainder;
-- accept the authorized/independent positive controls.
-
+The [A25 §6 evidence boundary](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) applies: X1–X7 admit a mapping; passing frozen branches supports that implementation. A guarantee over every admitted extension additionally requires a separately proved base guarantee plus failure reflection and conformance preservation. Each listed domain remains a design case until separately executed or proved within a declared scope.
 
 ## Success-case route
 

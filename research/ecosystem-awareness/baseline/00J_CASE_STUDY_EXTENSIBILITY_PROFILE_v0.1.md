@@ -110,19 +110,9 @@ Out of family:
 
 ## 7. Conformance transfer
 
-For every admitted extension:
+A23 retains finite P1/P4 implications; its P6 bridge remains unclosed. Proposition-fit sufficiency cannot certify the entire provenance/composition/enforcement family.
 
-\[
-F_J\Rightarrow
-(\neg P1\lor\neg P4\lor\neg P6)
-\]
-
-depending on whether the decisive defect is proposition fit, absent authority or correlated/non-substituting composition.
-
-A23 supplies sufficiency of the relevant S/T route for those P invariants.
-
-Therefore an in-family requirements-conforming implementation cannot reach the same unsupported provenance-to-enforcement inversion, while still being required to pass legitimate-transfer and independent-work controls.
-
+The [A25 §6 evidence boundary](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) applies: X1–X7 admit a mapping; passing frozen branches supports that implementation. A guarantee over every admitted extension additionally requires a separately proved base guarantee plus failure reflection and conformance preservation. Each listed domain remains a design case until separately executed or proved within a declared scope.
 
 ## Success-case route
 

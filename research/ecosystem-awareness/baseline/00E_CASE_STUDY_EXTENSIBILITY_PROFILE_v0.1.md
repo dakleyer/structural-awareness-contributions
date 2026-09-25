@@ -103,31 +103,9 @@ Out of family:
 
 ## 7. Conformance transfer
 
-For every admitted extension:
+A23 retains finite P1/P2 implications only for this route. Its P3/P6 bridges remain unclosed; the whole 00E family is not certified by those partial results.
 
-\[
-F_E\Rightarrow
-(\neg P1\lor\neg P2\lor\neg P3\lor\neg P6)
-\]
-
-with P5/P4 added on branches that materially exercise them.
-
-By A23:
-
-\[
-Conf(R_E)\Rightarrow P1\land P2\land P3\land P6
-\]
-
-for the applicable route.
-
-Therefore:
-
-\[
-C'\in Family(00E)\land Conf(R_E)\Rightarrow\neg F_E.
-\]
-
-This is a structural design result. Each listed domain still needs a frozen fixture before it can be counted as executed generalization evidence.
-
+The [A25 §6 evidence boundary](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) applies: X1–X7 admit a mapping; passing frozen branches supports that implementation. A guarantee over every admitted extension additionally requires a separately proved base guarantee plus failure reflection and conformance preservation. Each listed domain remains a design case until separately executed or proved within a declared scope.
 
 ## Success-case route
 

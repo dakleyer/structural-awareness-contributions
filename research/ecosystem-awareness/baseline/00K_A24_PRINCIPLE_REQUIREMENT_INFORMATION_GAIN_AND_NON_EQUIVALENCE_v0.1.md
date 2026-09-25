@@ -1,5 +1,7 @@
 # 00K-A24 — Principle ↔ Requirement Refinement, Information Gain & Non-Equivalence Annex — v0.1
 
+> **A23 audit qualification:** the reverse all-six sufficiency implication remains an unproved obligation; conditional formulas below do not assert its closure. A23 now certifies only its finite P1/P2/P4 projections and records P3/P5/P6 countermodels. The information/non-equivalence discussion does not supply the missing reverse proof. See [current A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md).
+
 | | |
 |---|---|
 | **Principle semantics** | [02A](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) · [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) |
@@ -11,7 +13,7 @@
 | **Status** | information-structure annex; no change to frozen requirement or principle semantics |
 | **Date** | 25 September 2026 |
 
-> **Result.** P1–P6 and S1–S14/T1–T4 are bidirectionally connected by semantic traceability and conformance sufficiency, but they are **not informationally equivalent**. The requirement layer is a strict refinement: it preserves the applicable principle invariant while adding decision-boundary typing, ownership, lifecycle location, conformance conditions and observable evidence obligations. Projecting a conforming requirement record back to P1–P6 is therefore a many-to-one, information-losing operation.
+> **Result.** P1–P6 and S1–S14/T1–T4 are connected by semantic traceability; reverse conformance sufficiency remains partial and under review. They are **not informationally equivalent**. The requirement layer is a typed specification refinement: it states obligations to preserve the applicable principle invariant while adding decision-boundary typing, ownership, lifecycle location, conformance conditions and observable evidence obligations. Projecting a requirement record to its assigned P signature is therefore a many-to-one, information-losing operation.
 
 ---
 
@@ -24,7 +26,7 @@ The three layers are related, but they are **not three restatements of the same 
 Foundation
 \;\xrightarrow[\text{02B closure}]{\text{02A derivation}}\;
 P1\text{–}P6
-\;\underset{\text{A23 conformance sufficiency}}{\overset{\text{A19 semantic refinement}}{\rightleftarrows}}\;
+\;\underset{\text{A23 partial; remainder open}}{\overset{\text{A19 semantic refinement}}{\rightleftarrows}}\;
 S1\text{–}S14/T1\text{–}T4
 }
 \]
@@ -78,7 +80,7 @@ The correct statement is:
 
 This direction is **typed specification refinement**.
 
-The requirements retain the applicable P invariant and add:
+The requirements specify preservation of the applicable P invariant and add:
 
 - decision-boundary identity;
 - typed object;
@@ -94,28 +96,28 @@ Thus the requirements are not a paraphrase of P1–P6.
 
 ### Requirements → Principles
 
-This direction is **conformance sufficiency**, proved in A23.
+This direction is the **conformance-sufficiency obligation** tested in A23: P1/P2/P4 hold in its finite projections; P3/P5/P6 remain open with countermodels.
 
-A canonically conforming S/T route guarantees the applicable P invariant, but the projection back to P deliberately drops the additional requirement metadata.
+A universal S/T-to-P guarantee requires a separately established semantic and execution bridge. The projection to assigned P labels deliberately drops the additional requirement metadata and supplies no such guarantee.
 
-Therefore the P↔S relation is bidirectional in **dependency/refinement**, while remaining non-equivalent in information content.
+The forward refinement and partial reverse results remain non-equivalent in information content; they do not establish all-six bidirectional conformance.
 
 A compact formulation for the whole corpus is:
 
-> **Foundation explains the semantic problem space; Principles normalize its operational invariants; Requirements refine those invariants into typed, owner-aware, observable conformance obligations. Requirements-conformance projects back to the Principles, but neither projection turns the layers into informational equals.**
+> **Foundation explains the semantic problem space; Principles normalize its operational invariants; Requirements refine those invariants into typed, owner-aware, observable conformance obligations. A record projects to its assigned principle labels, while proof that conformance preserves every assigned invariant remains incomplete; the layers are not informational equals.**
 
 ## 1. Why this annex exists
 
-A19 and A23 establish two strong directions:
+A19 establishes forward traceability; A23 tests the reverse obligation:
 
 \[
 P\rightarrow \text{requirement surface}
 \]
 
-and:
+and, still unclosed for all six:
 
 \[
-\text{canonical requirement conformance}\rightarrow P.
+\text{canonical requirement conformance}\mathrel{\overset{?}{\Longrightarrow}} P.
 \]
 
 That can be misunderstood as:
@@ -143,12 +145,12 @@ and:
 \[
 \boxed{
 \text{conforming requirement record}
-\quad\overset{\text{projection}}{\Longrightarrow}\quad
+\quad\overset{\text{if preservation is proved}}{\Longrightarrow}\quad
 \text{principle invariant}
 }
 \]
 
-where the reverse projection deliberately forgets requirement-specific information.
+where projection to assigned labels forgets requirement-specific information; satisfying those labels is a separate proof obligation.
 
 ---
 
@@ -215,7 +217,7 @@ Where:
 - \(o\) = typed object such as authority, identity, policy, human capacity, evidence, commitment or history;
 - \(\lambda\) = lifecycle operator such as QUALIFY, HANDOFF, DELEGATE, COMPOSE, SHIFT, INTERVENE, REPAIR or ASSESS;
 - \(Owner\) = legitimate owner/source of the underlying fact or action;
-- \(P\)-signature = one or more preserved P invariants;
+- \(P\)-signature = assigned P invariants whose preservation must be checked;
 - \(T\) = applicable sufficiently-good conditions T1–T4;
 - \(Evidence/KPI\) = observable proof/falsification instrumentation;
 - \(Disposition\) = what the route is entitled to conclude/do for that declared scope.
@@ -333,7 +335,7 @@ Define the forgetful projection:
 \pi(R_\sigma)=Sig_P(R_\sigma)
 \]
 
-where \(Sig_P\subseteq\{P1,\ldots,P6\}\) is the set of P invariants preserved by that requirement record.
+where \(Sig_P\subseteq\{P1,\ldots,P6\}\) is the set of P invariants assigned to that requirement record. Assignment is not evidence that they hold.
 
 The projection discards:
 
@@ -341,12 +343,10 @@ The projection discards:
 \{\sigma,o,\lambda,Owner,T,Evidence,KPI,Disposition\}.
 \]
 
-A23 proves that for a canonically conforming route the projected P invariant(s) hold.
-
-Thus:
+The corresponding preservation obligation is shown below. A23 currently verifies only finite P1/P2/P4 projections and records P3/P5/P6 countermodels; it does not establish this obligation for every canonical route:
 
 \[
-Conf(R_\sigma)\Rightarrow \bigwedge_{P_i\in\pi(R_\sigma)}P_i.
+Conf(R_\sigma)\mathrel{\overset{?}{\Longrightarrow}} \bigwedge_{P_i\in\pi(R_\sigma)}P_i.
 \]
 
 ---
@@ -432,15 +432,13 @@ P1\text{–}P6
 S1\text{–}S14/T1\text{–}T4.
 \]
 
-The reverse sufficiency theorem A23 does not change this.
-
-A23 says:
+The partial reverse results in A23 do not change this information argument. Even if the following general obligation were established:
 
 \[
-Conf(S/T)\Rightarrow P.
+Conf(S/T)\mathrel{\overset{?}{\Longrightarrow}} P.
 \]
 
-It does **not** say:
+it would **not** establish:
 
 \[
 P\Rightarrow Conf(S/T)
@@ -526,7 +524,7 @@ This is the precise sense in which the requirement layer **aggregates informatio
 
 ## 10. Relation to bidirectional proof
 
-The complete relationship is now:
+The current relationship distinguishes established traceability, partial sufficiency and information loss:
 
 ### Forward — A19
 
@@ -539,23 +537,25 @@ with falsifiable semantic anchors.
 ### Reverse — A23
 
 \[
-Conf(S/T)\rightarrow P_i.
+R_i^{finite}\Rightarrow P_i\quad(i\in\{1,2,4\}).
 \]
+
+P3/P5/P6 remain under semantic review; this is not full canonical conformance.
 
 ### Information structure — A24
 
 \[
-Conf(S/T)\rightarrow P
+R_\sigma\mapsto Sig_P(R_\sigma)
 \]
 
-is a **forgetful projection**, not an equivalence.
+is a **forgetful projection to assigned labels**, not an implication that the labels hold.
 
 Therefore the correct notation is:
 
 \[
 \boxed{
 P1\text{–}P6
-\;\underset{\text{conformance sufficiency}}{\overset{\text{semantic refinement}}{\rightleftarrows}}\;
+\;\underset{\text{partial reverse; remainder open}}{\overset{\text{semantic refinement}}{\rightleftarrows}}\;
 S1\text{–}S14/T1\text{–}T4
 }
 \]
@@ -580,6 +580,6 @@ It establishes only that:
 
 1. P1–P6 are the compact invariant basis;
 2. S1–S14/T1–T4 refine those invariants into typed, observable, owner-aware conformance obligations;
-3. canonical conformance implies the applicable P invariant;
+3. A23 retains finite P1/P2/P4 implications, while all-six canonical conformance sufficiency remains unclosed;
 4. the P signature does not uniquely reconstruct the richer requirement record;
 5. therefore the two layers are both necessary and are not redundant.

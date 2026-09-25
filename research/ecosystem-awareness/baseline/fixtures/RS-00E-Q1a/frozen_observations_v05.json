@@ -1,0 +1,10 @@
+{
+  "schema": "RS-00E-Q1a-stage0-v0.5",
+  "pre_registration_commit": "00241c5c3ab554dd732467ef0ae4c175f958d144",
+  "registry": {"feed-7": "P", "vendor-X": "P", "P_A": "P_A", "P_B": "P_B"},
+  "branches": {
+    "Q1a-P1": {"reports": [{"report_id": "A", "producer_id": "producer_A", "upstream_source_id": "P"}, {"report_id": "B", "producer_id": "producer_B", "upstream_source_id": "P"}]},
+    "Q1a-P2": {"reports": [{"report_id": "A", "producer_id": "producer_A", "upstream_source_id": "feed-7"}, {"report_id": "B", "producer_id": "producer_B", "upstream_source_id": "vendor-X"}]},
+    "Q1a-C0": {"reports": [{"report_id": "A", "producer_id": "producer_A", "upstream_source_id": "P_A"}, {"report_id": "B", "producer_id": "producer_B", "upstream_source_id": "P_B"}]}
+  }
+}

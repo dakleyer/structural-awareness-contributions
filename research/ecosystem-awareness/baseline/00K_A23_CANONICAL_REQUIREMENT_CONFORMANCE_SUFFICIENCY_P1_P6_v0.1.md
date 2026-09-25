@@ -8,10 +8,21 @@
 | **Shared-substrate principle semantics** | [A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Information gain / non-equivalence companion** | [00K-A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) |
 | **Executable certificate** | [fixtures/00K-FORMAL/requirement-sufficiency](./fixtures/00K-FORMAL/requirement-sufficiency/README.md) |
-| **Status** | requirement-conformance → principle sufficiency proof |
+| **Status** | under semantic revision; former all-six closure withdrawn after clause-equivalence audit |
 | **Date** | 25 September 2026 |
 
-> **Result.** For a declared decision boundary \(\sigma(d,t)\), satisfaction of the applicable canonical requirement route — meaning the applicable S# clauses together with their required T# conditions, evidence and falsification/KPI obligations — entails the corresponding P1–P6 invariants. Consequently a fully requirements-conforming route cannot satisfy the canonical specification while violating one of the six principles. This is a refinement/sufficiency relation, not six pairwise S#⇔P# equivalences.
+> **Current result — revised after circularity audit.** The former all-six canonical-conformance claim is withdrawn. Nine clause/target equivalences were confirmed over the old 65,536 states. After source-led reconstruction, the finite clause projections imply P1, P2 and P4, while P3, P5 and P6 have explicit countermodels. These countermodels expose missing semantic bridges in the current reduction; they do not yet prove a defect in the canonical S/T text or a reachable failure in a conforming implementation. A23 remains **under semantic revision**, with no general all-six certificate.
+
+The [clause audit and source map](./fixtures/00K-FORMAL/requirement-sufficiency/CLAUSE_AUDIT.md) records the old equivalences, changed meanings, exact state-space accounting, witnesses and review candidates. The [machine-readable certificate](./fixtures/00K-FORMAL/requirement-sufficiency/clause_audit_certificate.json) and [permanent guard](./fixtures/00K-FORMAL/requirement-sufficiency/audit_requirement_sufficiency.py) check every clause against its target, including target formulas padded with an unrelated condition. The [pre-audit text](https://github.com/dakleyer/structural-awareness-contributions/blob/aff0c3787d0b8ee5915a2fcde8ea0be5cecbbd9e/research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) remains in Git history.
+
+| Target | Current executable result | Interpretation |
+|---|---|---|
+| P1 | implication holds in finite projection | Separate evidence-fit and residual clauses; full source/implementation fidelity still requires review. |
+| P2 | implication holds in finite projection | Separate bounded effort, viable horizon and fallback. |
+| P3 | countermodel | S5's non-permission rule is not the same as a blanket ban on every response under uncertainty. |
+| P4 | implication holds in finite projection | S1 + S6 + S8 supply the four authority obligations without T3 copying P4. |
+| P5 | countermodel | Detecting, recording and handing off a changed basis does not encode an actuation interlock. |
+| P6 | countermodel | Preserving correlated evidence without false promotion is not the same as requiring all active composition to be independent. |
 
 ---
 
@@ -63,9 +74,9 @@ Those are **negative controls**, not defects in the requirements system.
 
 ---
 
-## 3. Principle-sufficient requirement bundles
+## 3. Candidate requirement bundles and clause projections
 
-For each Pi, the proof uses the smallest current **defensible conformance bundle** rather than pretending one anchor S# is always equivalent to the whole principle.
+For each Pi, the model uses a declared clause inventory. These are partial projections of S/T obligations, not complete canonical conformance and not proven minimal bundles. The complete clause inventory is audited; no individual clause may be equivalent to, or alone imply, its target in this compositional certificate.
 
 ### R1 — sufficient bundle for P1
 
@@ -101,7 +112,7 @@ Thus an acknowledged unresolved process cannot remain indefinitely unbounded whi
 
 ---
 
-### R3 — sufficient bundle for P3
+### R3 — candidate bundle for P3 (implication unclosed)
 
 \[
 R_3 = S5 + T2 + T3
@@ -111,9 +122,9 @@ Relevant clauses:
 
 - S5 explicitly forbids incomplete/conflicting/stale state from becoming permission;
 - T2 preserves UNKNOWN/INDETERMINATE and its receiving consequence;
-- T3 treats timeout/default/forced approval/containment as responses that require authorization and qualification rather than as evidence.
+- T3 requires an authorized response with declared failure, reversibility, externalities, downside and null action; a strongest-class claim additionally requires a per-admissible-state no-worse bound. One shared T3 function is used in R3/R4.
 
-Thus a material unresolved state cannot be promoted into certainty-equivalent executable closure.
+The intended non-permission obligation is retained. The old Boolean P3 additionally rules out every `unresolved_material and executes` state; the current source projection does not justify that stronger implication.
 
 ---
 
@@ -136,7 +147,7 @@ S7/S13 strengthen attribution/history where applicable but are not required in e
 
 ---
 
-### R5 — sufficient bundle for P5
+### R5 — candidate bundle for P5 (implication unclosed)
 
 \[
 R_5 = S10 + T1 + T2 + T4 + S5
@@ -150,11 +161,11 @@ Relevant clauses:
 - T4 requires requalification while a useful response remains possible;
 - S5 prevents stale/unresolved state from silently becoming permission.
 
-Therefore a materially changed basis cannot be reused for execution without reopening/requalifying the affected decision.
+The intended requalification obligation remains. The current projection records detection and disposition; a bridge from that obligation to enforced action-time requalification is not yet certified.
 
 ---
 
-### R6 — sufficient bundle for P6
+### R6 — candidate bundle for P6 (implication unclosed)
 
 \[
 R_6 = S9 + S11 + T2 + T4
@@ -165,13 +176,13 @@ Relevant clauses:
 - S9 forbids silent replacement among independently valid principals/domains and explicitly requires detection of unsupported convergence from correlated evidence, imitation or shared compressed closure;
 - S11 preserves owner/source/version/scope/dependency and material cross-domain coupling;
 - T2 carries dependencies, scope, provenance and unresolved state through the handoff;
-- T4 requires non-monotone composition and visible contradiction/burden effects.
+- T4 requires timely, finite, decision-relevant effort and visible incremental composition effects. It does not require source independence itself.
 
-Therefore dependent evidence cannot count as independent ecosystem corroboration and incompatible scoped claims cannot silently collapse into one system-level conclusion.
+S9 prohibits promoting dependent evidence as independent support. The old P6 predicate instead requires independence whenever composition is active; that stronger projection has a countermodel even when correlation is explicitly carried and not promoted.
 
 ---
 
-## 4. Six reverse-direction lemmas
+## 4. Reverse-direction arguments and their current status
 
 ### Lemma 1
 
@@ -209,17 +220,9 @@ Therefore P2 holds. ∎
 
 ---
 
-### Lemma 3
+### Lemma 3 — not established by the current projection
 
-\[
-Conf_\sigma(R_3)\Rightarrow P_3.
-\]
-
-If P3 were false, a known material unresolved/conflicting/stale state would advance as permission/certainty-equivalent closure.
-
-S5 prohibits exactly that transition. T2 requires the unresolved state to remain explicit and T3 prevents a default/approval/timeout from masquerading as new evidence.
-
-Contradiction. ∎
+An R3 countermodel has explicit residual, no permission inferred from uncertainty, and a bounded authorized response with the required T3 declarations, while `unresolved_material` and `executes` are both true. The old P3 formula rejects it. Distinguishing execution that relies on unresolved evidence from a qualified containment/response is a missing typed bridge, recorded as CAND-A23-P3. The former proof used S5 and T3 clauses each identical to P3; its exhaustive success did not establish an independent translation.
 
 ---
 
@@ -236,83 +239,35 @@ If P4 were false while a non-null action executes, at least one of the following
 - receiver verification of sufficient authority/status; or
 - non-amplification through delegation/composition.
 
-Those are respectively required by S1, S6, S8 and T3.
+Currentness and scope are required by S1, verification by S6, and non-amplification by S8. T3 adds its own declared-response conditions and does not copy the P4 target.
 
 Contradiction. ∎
 
 ---
 
-### Lemma 5
+### Lemma 5 — not established by the current projection
 
-\[
-Conf_\sigma(R_5)\Rightarrow P_5.
-\]
-
-If P5 were false, a material basis would change between qualification and use and the old decision would execute without requalification.
-
-S10 classifies that change as requiring confirmation/revalidation/cancellation/authority change; T1 requires the material break to be recognized; T2 preserves the changed basis; T4 requires timely requalification; S5 prevents stale state from silently becoming permission.
-
-Contradiction. ∎
+An R5 countermodel detects the material change, records the required disposition, carries the changed basis and meets the effort/horizon conditions, yet executes without requalification. It is a reduced-model interlock gap, recorded as CAND-A23-P5; whether it represents a reachable canonically conforming trace remains to be adjudicated. Previously S10, T1, T2 and T4 each independently copied P5. Neither their conjunction nor its exhaustive pass demonstrated separate work by those clauses.
 
 ---
 
-### Lemma 6
+### Lemma 6 — not established by the current projection
 
-\[
-Conf_\sigma(R_6)\Rightarrow P_6.
-\]
-
-If P6 were false, composition would either:
-
-- treat materially dependent/correlated records as independent support;
-- silently substitute one scoped principal/domain for another; or
-- collapse material incompatibility/coupling.
-
-S9 explicitly forbids the first two classes; S11 requires the material cross-domain coupling/source/scope relation to remain represented; T2/T4 require those qualifiers and contradiction effects to remain visible through composition.
-
-Contradiction. ∎
+An R6 countermodel composes correlated records while preserving their dependency qualifiers and compatibility and making no false promotion. S9/T2 allow that qualified posture; the old P6 formula fails solely because the sources are not independent. CAND-A23-P6 records the distinction between dependence and unsupported independent corroboration. The former T2 and T4 formulas each equalled P6 and could not justify this semantic bridge.
 
 ---
 
-## 5. Global conformance-sufficiency theorem
+## 5. No current global conformance-sufficiency theorem
 
-Let:
+The former theorem `Conf(S1–S14,T1–T4) ⇒ P1∧…∧P6` is not certified by this package. The current finite result is `R1 ⇒ P1`, `R2 ⇒ P2`, `R4 ⇒ P4`, where R denotes the explicitly modelled clause projection. R3/R5/R6 retain executable countermodels. Therefore the conjunction of all six implications must not be reported as closed.
 
-\[
-Applicable(\sigma)\subseteq\{S1,\ldots,S14\}
-\]
-
-be the canonical requirement route for one declared decision boundary, together with every T# condition required by the map in 00 §6.1.
-
-Suppose the route is canonically conforming and exercises the surfaces relevant to P1–P6.
-
-By Lemmas 1–6:
-
-\[
-Conf_\sigma(Applicable(\sigma))
-\Rightarrow
-\bigwedge_{i\in I(\sigma)} P_i
-\]
-
-where \(I(\sigma)\) is the set of principles material to that scope.
-
-For a comprehensive route in which all six principle surfaces are material:
-
-\[
-\boxed{
-Conf_\sigma(S1\text{–}S14,T1\text{–}T4)
-\Rightarrow
-P_1\land P_2\land P_3\land P_4\land P_5\land P_6
-}
-\]
-
-Therefore there is no requirements-conforming comprehensive trace in the declared semantics that violates one of P1–P6.
+A failed implication in this partial model is a review finding. It does not by itself establish that the full canonical text permits the countermodel, that the state is reachable, or that a new requirement is necessary.
 
 ---
 
 ## 6. Why this is not six pairwise equivalences
 
-The correct relation is **refinement**, with the information asymmetry formalized separately in [A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md):
+The intended relation is **refinement**, with the information asymmetry formalized separately in [A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md):
 
 \[
 \text{Canonical requirements conformance}
@@ -340,7 +295,7 @@ Thus:
 P_i \not\Rightarrow S_j
 \]
 
-as a universal pairwise equivalence, even though A19 provides non-vacuous anchor/failure relations.
+as a universal pairwise equivalence, even though A19 provides non-vacuous anchor/failure relations. The displayed reverse implication is an intended relation; its present executable status is limited by §5.
 
 ---
 
@@ -366,31 +321,17 @@ Subdelegation can be perfectly non-amplifying while the underlying grant is expi
 
 S1/S6/T3 close that gap.
 
-These counterexamples are important evidence that A23 was not obtained by simply relabelling each anchor requirement as its principle.
+These three negative controls were insufficient to catch the nine clause/target equivalences elsewhere. The permanent whole-inventory audit now supplies that missing check.
 
 ---
 
 ## 8. Machine-checkable certificate
 
-The companion package exhaustively enumerates a finite shared semantic state space.
+The model retains the six original P formulas and extends the original 16 fields with 17 independent source observations/obligations. It has **33 Boolean fields**, representing 8,589,934,592 unconstrained assignments. The audit exhaustively checks each expression's exact field projection; a restricted Boolean-expression validator rejects calls, hidden globals or undeclared accesses. The certificate reports the number of projected rows and how many full assignments each row represents. This is exact for these expressions, not a literal enumeration of all 8.6 billion rows or a reachability proof.
 
-It computes:
+Each clause has a witness distinguishing it from its target and a witness where that clause holds but the target does not. Thus neither a direct copy nor a target plus extra conjunct can masquerade as an independently working bundle. This guard is necessary for this certificate but does not automatically establish semantic faithfulness: the source map and independent review remain essential.
 
-- P1–P6 from lower-level semantic fields;
-- the clause-level requirement/T-condition checks from different combinations of those fields;
-- each sufficient bundle \(R_i\).
-
-For every enumerated state it verifies:
-
-\[
-Conf(R_i)\Rightarrow P_i
-\]
-
-for all six \(i\).
-
-It also verifies explicit anchor-only countermodels for P1, P2 and P4.
-
-The certificate therefore tests the logical shape of the reverse traceability claim instead of merely restating the table.
+The [fixture README](./fixtures/00K-FORMAL/requirement-sufficiency/README.md) gives the replay commands, counts and interpretation. Unit tests preserve the three known gaps and test the guard against reordered, padded and hidden-call regressions. A passing CI means the audit reproduced, not that all six sufficiency claims passed.
 
 ---
 
@@ -414,7 +355,7 @@ No, relative to the declared grammar.
 
 Can a canonically requirements-conforming route violate an applicable Pi?
 
-No, relative to the declared conformance semantics.
+Not yet established generally. The current clause projections certify P1/P2/P4; P3/P5/P6 remain under semantic review.
 
 Together:
 
@@ -428,7 +369,7 @@ S1\text{–}S14/T1\text{–}T4
 \text{scenarios/tests}.
 \]
 
-The double arrow denotes **semantic refinement with proved conformance sufficiency**, not literal information equivalence.
+The double arrow denotes the intended semantic refinement relation. Its reverse all-six direction remains unclosed; it is not literal information equivalence.
 
 ---
 
@@ -444,4 +385,4 @@ A23 does not claim:
 
 The precise result is:
 
-> **Within the declared canonical conformance semantics, the requirement specification is sound with respect to P1–P6: a conforming route cannot violate an applicable principle.**
+> **Within the current finite clause projections, sufficiency holds for P1/P2/P4. P3/P5/P6 have explicit reduced-model countermodels, logged for semantic/reachability review. Full canonical-conformance sufficiency for all six is not established.**

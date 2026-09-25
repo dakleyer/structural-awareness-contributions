@@ -446,3 +446,15 @@ The current requirement system is broad enough to support the bounded Benchmark-
 This closes the **analysis stage of W1** for the corpus state reviewed through 24 September 2026 without creating a canonical Requirements successor. The review now includes the 00E–00J six-scenario set and DBC v0.2. Future post-freeze material should be added to this delta first and should reopen W1 only if it exposes a genuinely missing solution-neutral obligation rather than another architecture, interface, scenario or conformance realization.
 
 The next W1 action, if desired, is an editorial proposal containing only the four clarification candidates above. It should remain a proposal until explicitly approved.
+
+## A23 clause audit — model-to-source bridge candidates (26 September 2026 Europe/Madrid)
+
+The [A23 reconstruction audit](./fixtures/00K-FORMAL/requirement-sufficiency/CLAUSE_AUDIT.md) withdraws the old all-six reverse-conformance closure. Its partial finite model retains P1/P2/P4 implications and records P3/P5/P6 countermodels. These findings concern source translation and missing action-time bridges; **they do not establish canonical gaps without semantic/reachability review**. This entry does not reopen or overwrite the frozen requirements.
+
+| Candidate | Finding | Required adjudication / acceptance evidence |
+|---|---|---|
+| **CAND-A23-P3** — uncertainty, permission and response linkage | The old `unresolved_material AND executes` prohibition also rejects a declared authorized bounded response whose permission was not inferred from uncertainty. | Bind the unresolved proposition to the actual action and distinguish false permission from qualified containment/response. Check canonical S5/T2/T3 and preserve both adverse and positive controls. |
+| **CAND-A23-P5** — recorded requalification obligation versus actuation | Detection, recorded disposition and owner handoff can hold in the reduction while stale execution remains possible. | Reconcile with existing S10/S14 and CAND-R4 action-time binding. Show a source-derived transition/actuation bridge or a reachable fully conforming counterexample before proposing a new requirement. |
+| **CAND-A23-P6** — dependence versus false corroboration | Active correlated composition can preserve qualifiers and avoid unsupported independent corroboration, yet fail the old P6 Boolean formula. | Distinguish actual source dependence from promotion beyond supported scope; review S9/S11/T2/T4 against receiving decisions. Do not prohibit all correlated evidence merely to recover the old formula. |
+
+**Disposition:** three named review candidates; no S15/T5/H7 adopted. A23 is under semantic revision. A25 uses bounded A3/A4/A6 branch evidence for the affected transfer claims; universal extension guarantees remain conditional on a separately established base theorem.

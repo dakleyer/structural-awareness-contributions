@@ -1,0 +1,70 @@
+{
+  "canonical_trace_version": "CTv1",
+  "instrumentation": {
+    "active": "PASS",
+    "detector_disabled": "FAIL (required negative control)"
+  },
+  "interpretation": "descriptive only; both self-configured arms pass; no EA differential",
+  "pre_registration_commit": "00241c5c3ab554dd732467ef0ae4c175f958d144",
+  "schema": "RS-00E-Q1a-stage0-manifest-v1",
+  "summary": {
+    "B1": {
+      "burden_per_branch": {
+        "Q1a-C0": {
+          "modelled_time_steps": 5,
+          "processing_steps": 5
+        },
+        "Q1a-P1": {
+          "modelled_time_steps": 4,
+          "processing_steps": 4
+        },
+        "Q1a-P2": {
+          "modelled_time_steps": 5,
+          "processing_steps": 5
+        }
+      },
+      "candidate_passes": 3,
+      "correlated_evidence_errors": 0,
+      "false_convergence": 0,
+      "primary_denominator": 2,
+      "residual_scope_fields_required": 6,
+      "residual_scope_fields_retained": 6
+    },
+    "B3": {
+      "burden_per_branch": {
+        "Q1a-C0": {
+          "modelled_time_steps": 5,
+          "processing_steps": 5
+        },
+        "Q1a-P1": {
+          "modelled_time_steps": 4,
+          "processing_steps": 4
+        },
+        "Q1a-P2": {
+          "modelled_time_steps": 5,
+          "processing_steps": 5
+        }
+      },
+      "candidate_passes": 3,
+      "correlated_evidence_errors": 0,
+      "false_convergence": 0,
+      "primary_denominator": 2,
+      "residual_scope_fields_required": 6,
+      "residual_scope_fields_retained": 6
+    }
+  },
+  "trace_sha256": {
+    "Q1a-C0_B1_repeat1.json": "b81bd56e78479e983fb6a063c8f6be3e00052370b57e93e6225cff5e19f151ee",
+    "Q1a-C0_B1_repeat2.json": "b81bd56e78479e983fb6a063c8f6be3e00052370b57e93e6225cff5e19f151ee",
+    "Q1a-C0_B3_repeat1.json": "329fe316e0547b6cc46aa49d84b3cf473fdb63ff0c9e0c25287386537931eb8b",
+    "Q1a-C0_B3_repeat2.json": "329fe316e0547b6cc46aa49d84b3cf473fdb63ff0c9e0c25287386537931eb8b",
+    "Q1a-P1_B1_repeat1.json": "2fc0da5db45db1129fc481d73d4b5bd7d603392e08fcba38674cd414334a1321",
+    "Q1a-P1_B1_repeat2.json": "2fc0da5db45db1129fc481d73d4b5bd7d603392e08fcba38674cd414334a1321",
+    "Q1a-P1_B3_repeat1.json": "29f9146143b573c84280344a55375bc2ec6aa2e3d109ee9ea5f9be64c58eaedc",
+    "Q1a-P1_B3_repeat2.json": "29f9146143b573c84280344a55375bc2ec6aa2e3d109ee9ea5f9be64c58eaedc",
+    "Q1a-P2_B1_repeat1.json": "21732f954947bd4a71ce24889309cd1ee1cea37d3ee5692deab7e66fe4bcfcea",
+    "Q1a-P2_B1_repeat2.json": "21732f954947bd4a71ce24889309cd1ee1cea37d3ee5692deab7e66fe4bcfcea",
+    "Q1a-P2_B3_repeat1.json": "ad822b2d8b60d8b1384724587b30a29c1267f8a135b5e317f219ad2909ad5345",
+    "Q1a-P2_B3_repeat2.json": "ad822b2d8b60d8b1384724587b30a29c1267f8a135b5e317f219ad2909ad5345"
+  }
+}

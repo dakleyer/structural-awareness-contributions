@@ -61,7 +61,7 @@ For a new technical reviewer:
 | **A20** | shared-substrate mathematical independence proof | preferred pure mathematical independence result relative to common coherence theory B |
 | **A21** | requirement grammar closure / S1–S14 uniqueness proof | syntactic closure relative to declared decision-boundary ontology |
 | **A22** | full-cube realizability / Boolean diagnostic minimality | 64-signature construction + six-coordinate information lower bound |
-| **A23** | canonical requirement-conformance sufficiency | proves applicable S/T conformance ⇒ P1–P6; retains anchor-only counterexamples |
+| **A23** | canonical requirement-conformance sufficiency | finite projections imply P1/P2/P4; P3/P5/P6 countermodels remain under semantic review; all-six closure withdrawn |
 | **A24** | P↔S information gain / non-equivalence | proves requirement refinement is richer than the P signature; many-to-one projection, not reformulation |
 | **A25** | failure case-family extensibility | defines structural family admission and conformance transfer for 00E–00J |
 | **A26** | failure→success model-case conversion | pairs every 00E–00J failure fixture with a positive S/T traversal and three-axis extensibility map |

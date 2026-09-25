@@ -1160,6 +1160,16 @@ For the current paper/fixture execution:
 This remains a deterministic design execution, not empirical vendor evidence. Claude/Stripe defender extensions with explicit root lineage are allowed and may falsify the EA differential.
 
 
+### 17A.6 Companion traversal and verification status (25 September 2026)
+
+The [00L-00H paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_00H_TRAZA_PAPEL_EMPAREJADA_v0.1.md) makes the root-authority and bounded-response routes explicit. The [A09 evidence map](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) tracks earlier 00K fixtures; the [A10 executed pair](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) varies root authorization with the same finding and three representative leaves. The [A08 protocol](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md) defines the remaining observation and burden checks.
+
+The [A11 replay record and 12 branch traces](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) provide hashes and the later 00K CI result for this revision; they do not extend this pair to a product test.
+
+The [A12 cumulative improvement and correction register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) links the later A23/A25 audit and its evidence. A4 supplies tested authority branches and A23 retains a finite P4 implication; neither establishes the whole P1/P6-dependent family.
+
+**Evidence boundary:** The finding concerns 4,000 accounts; A10 does not execute 4,000 actions. Its strong non-EA peer matches both branches, so this is no EA differential. A10 also corrects the active 00K A4 monetary materiality boundary to **>USD10,000**, as specified by `00H-MAT-1` in §9, and checks three boundary values; the earlier ZIP remains unchanged. A11 identifies the later CI run of the full 00K suite on the PR integration tree. No live Stripe/Claude or EA product result follows from these symbolic checks.
+
 ## 18. Why this scenario matters
 
 The scenario now separates three layers that are easy to conflate:

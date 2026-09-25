@@ -1,0 +1,905 @@
+{
+  "bundles": [
+    {
+      "clauses": {
+        "s14_evidence_to_decision": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "evidence_fit": true,
+            "residual_explicit": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "evidence_fit",
+            "residual_explicit"
+          ],
+          "non_equivalence_witness": {
+            "evidence_fit": true,
+            "residual_explicit": false
+          },
+          "satisfiable": true,
+          "states_checked": 4
+        },
+        "s5_residual_nonpermission": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "evidence_fit": false,
+            "permission_from_uncertainty": false,
+            "residual_explicit": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "evidence_fit",
+            "residual_explicit",
+            "permission_from_uncertainty"
+          ],
+          "non_equivalence_witness": {
+            "evidence_fit": false,
+            "permission_from_uncertainty": false,
+            "residual_explicit": true
+          },
+          "satisfiable": true,
+          "states_checked": 8
+        },
+        "t2_qualified_residual": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "evidence_fit": false,
+            "residual_explicit": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "evidence_fit",
+            "residual_explicit"
+          ],
+          "non_equivalence_witness": {
+            "evidence_fit": false,
+            "residual_explicit": true
+          },
+          "satisfiable": true,
+          "states_checked": 4
+        }
+      },
+      "conforming_projected_states": 1,
+      "counterexample": null,
+      "fields": [
+        "evidence_fit",
+        "residual_explicit",
+        "permission_from_uncertainty"
+      ],
+      "full_cube_assignments_per_row": 1073741824,
+      "implies_target": true,
+      "principle": "P1",
+      "projected_states_checked": 8,
+      "status": "finite-projection implication",
+      "violating_projected_states": 0
+    },
+    {
+      "clauses": {
+        "s14_evidence_to_decision": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "bounded_progress": false,
+            "deadline_viable": false,
+            "evidence_fit": true,
+            "fallback_defined": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "evidence_fit",
+            "bounded_progress",
+            "fallback_defined",
+            "deadline_viable"
+          ],
+          "non_equivalence_witness": {
+            "bounded_progress": true,
+            "deadline_viable": true,
+            "evidence_fit": false,
+            "fallback_defined": true
+          },
+          "satisfiable": true,
+          "states_checked": 16
+        },
+        "s3_bounded_escape": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "bounded_progress": false,
+            "deadline_viable": false,
+            "fallback_defined": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "bounded_progress",
+            "fallback_defined",
+            "deadline_viable"
+          ],
+          "non_equivalence_witness": {
+            "bounded_progress": false,
+            "deadline_viable": false,
+            "fallback_defined": true
+          },
+          "satisfiable": true,
+          "states_checked": 8
+        },
+        "t4_viable_requalification": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "bounded_progress": true,
+            "composition_active": false,
+            "composition_effects_declared": false,
+            "cost_ledger_declared": true,
+            "deadline_viable": true,
+            "expansion_value_declared": true,
+            "fallback_defined": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "bounded_progress",
+            "fallback_defined",
+            "deadline_viable",
+            "composition_active",
+            "cost_ledger_declared",
+            "expansion_value_declared",
+            "composition_effects_declared"
+          ],
+          "non_equivalence_witness": {
+            "bounded_progress": true,
+            "composition_active": false,
+            "composition_effects_declared": false,
+            "cost_ledger_declared": true,
+            "deadline_viable": true,
+            "expansion_value_declared": true,
+            "fallback_defined": false
+          },
+          "satisfiable": true,
+          "states_checked": 128
+        }
+      },
+      "conforming_projected_states": 3,
+      "counterexample": null,
+      "fields": [
+        "evidence_fit",
+        "bounded_progress",
+        "fallback_defined",
+        "deadline_viable",
+        "composition_active",
+        "cost_ledger_declared",
+        "expansion_value_declared",
+        "composition_effects_declared"
+      ],
+      "full_cube_assignments_per_row": 33554432,
+      "implies_target": true,
+      "principle": "P2",
+      "projected_states_checked": 256,
+      "status": "finite-projection implication",
+      "violating_projected_states": 0
+    },
+    {
+      "clauses": {
+        "s5_no_false_permission": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "executes": true,
+            "permission_from_uncertainty": false,
+            "unresolved_material": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "unresolved_material",
+            "executes",
+            "permission_from_uncertainty"
+          ],
+          "non_equivalence_witness": {
+            "executes": false,
+            "permission_from_uncertainty": true,
+            "unresolved_material": false
+          },
+          "satisfiable": true,
+          "states_checked": 8
+        },
+        "t2_qualified_residual": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "executes": true,
+            "residual_explicit": true,
+            "unresolved_material": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "residual_explicit",
+            "unresolved_material",
+            "executes"
+          ],
+          "non_equivalence_witness": {
+            "executes": false,
+            "residual_explicit": false,
+            "unresolved_material": false
+          },
+          "satisfiable": true,
+          "states_checked": 8
+        },
+        "t3_bounded_authorized_response": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "executes": true,
+            "no_worse_than_null": false,
+            "null_action_declared": true,
+            "response_authorized": true,
+            "response_downside_declared": true,
+            "response_externalities_declared": true,
+            "response_failure_declared": true,
+            "response_reversibility_declared": true,
+            "strong_response_claimed": false,
+            "unresolved_material": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "unresolved_material",
+            "executes",
+            "response_authorized",
+            "response_failure_declared",
+            "response_reversibility_declared",
+            "response_externalities_declared",
+            "response_downside_declared",
+            "null_action_declared",
+            "strong_response_claimed",
+            "no_worse_than_null"
+          ],
+          "non_equivalence_witness": {
+            "executes": true,
+            "no_worse_than_null": false,
+            "null_action_declared": false,
+            "response_authorized": false,
+            "response_downside_declared": false,
+            "response_externalities_declared": false,
+            "response_failure_declared": false,
+            "response_reversibility_declared": false,
+            "strong_response_claimed": false,
+            "unresolved_material": false
+          },
+          "satisfiable": true,
+          "states_checked": 1024
+        }
+      },
+      "conforming_projected_states": 518,
+      "counterexample": {
+        "authority_current": false,
+        "authority_nonamplifying": false,
+        "authority_scoped": false,
+        "authority_verifiable": false,
+        "bounded_progress": false,
+        "change_disposition_recorded": false,
+        "changed_basis_carried": false,
+        "compatibility_preserved": false,
+        "composition_active": false,
+        "composition_effects_declared": false,
+        "cost_ledger_declared": false,
+        "deadline_viable": false,
+        "dependency_independent": false,
+        "dependency_qualifiers_carried": false,
+        "dependent_support_promoted": false,
+        "evidence_fit": false,
+        "executes": true,
+        "expansion_value_declared": false,
+        "fallback_defined": false,
+        "material_break_detected": false,
+        "material_changed": false,
+        "no_worse_than_null": false,
+        "null_action_declared": true,
+        "permission_from_uncertainty": false,
+        "requalified": false,
+        "residual_explicit": true,
+        "response_authorized": true,
+        "response_downside_declared": true,
+        "response_externalities_declared": true,
+        "response_failure_declared": true,
+        "response_reversibility_declared": true,
+        "strong_response_claimed": false,
+        "unresolved_material": true
+      },
+      "fields": [
+        "residual_explicit",
+        "unresolved_material",
+        "executes",
+        "permission_from_uncertainty",
+        "response_authorized",
+        "response_failure_declared",
+        "response_reversibility_declared",
+        "response_externalities_declared",
+        "response_downside_declared",
+        "null_action_declared",
+        "strong_response_claimed",
+        "no_worse_than_null"
+      ],
+      "full_cube_assignments_per_row": 2097152,
+      "implies_target": false,
+      "principle": "P3",
+      "projected_states_checked": 4096,
+      "status": "countermodel; semantic review pending",
+      "violating_projected_states": 3
+    },
+    {
+      "clauses": {
+        "s1_authority_current_scope": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "authority_current": true,
+            "authority_nonamplifying": false,
+            "authority_scoped": true,
+            "authority_verifiable": false,
+            "executes": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "executes",
+            "authority_current",
+            "authority_scoped",
+            "authority_verifiable",
+            "authority_nonamplifying"
+          ],
+          "non_equivalence_witness": {
+            "authority_current": true,
+            "authority_nonamplifying": false,
+            "authority_scoped": true,
+            "authority_verifiable": false,
+            "executes": true
+          },
+          "satisfiable": true,
+          "states_checked": 32
+        },
+        "s6_receiver_can_verify_authority": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "authority_current": false,
+            "authority_nonamplifying": false,
+            "authority_scoped": false,
+            "authority_verifiable": true,
+            "executes": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "executes",
+            "authority_current",
+            "authority_scoped",
+            "authority_verifiable",
+            "authority_nonamplifying"
+          ],
+          "non_equivalence_witness": {
+            "authority_current": false,
+            "authority_nonamplifying": false,
+            "authority_scoped": false,
+            "authority_verifiable": true,
+            "executes": true
+          },
+          "satisfiable": true,
+          "states_checked": 32
+        },
+        "s8_nonamplification": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "authority_current": false,
+            "authority_nonamplifying": true,
+            "authority_scoped": false,
+            "authority_verifiable": false,
+            "executes": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "executes",
+            "authority_current",
+            "authority_scoped",
+            "authority_verifiable",
+            "authority_nonamplifying"
+          ],
+          "non_equivalence_witness": {
+            "authority_current": false,
+            "authority_nonamplifying": true,
+            "authority_scoped": false,
+            "authority_verifiable": false,
+            "executes": true
+          },
+          "satisfiable": true,
+          "states_checked": 32
+        },
+        "t3_bounded_authorized_response": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "authority_current": false,
+            "authority_nonamplifying": false,
+            "authority_scoped": false,
+            "authority_verifiable": false,
+            "executes": true,
+            "no_worse_than_null": false,
+            "null_action_declared": true,
+            "response_authorized": true,
+            "response_downside_declared": true,
+            "response_externalities_declared": true,
+            "response_failure_declared": true,
+            "response_reversibility_declared": true,
+            "strong_response_claimed": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "executes",
+            "authority_current",
+            "authority_scoped",
+            "authority_verifiable",
+            "authority_nonamplifying",
+            "response_authorized",
+            "response_failure_declared",
+            "response_reversibility_declared",
+            "response_externalities_declared",
+            "response_downside_declared",
+            "null_action_declared",
+            "strong_response_claimed",
+            "no_worse_than_null"
+          ],
+          "non_equivalence_witness": {
+            "authority_current": false,
+            "authority_nonamplifying": false,
+            "authority_scoped": false,
+            "authority_verifiable": false,
+            "executes": true,
+            "no_worse_than_null": false,
+            "null_action_declared": true,
+            "response_authorized": true,
+            "response_downside_declared": true,
+            "response_externalities_declared": true,
+            "response_failure_declared": true,
+            "response_reversibility_declared": true,
+            "strong_response_claimed": false
+          },
+          "satisfiable": true,
+          "states_checked": 8192
+        }
+      },
+      "conforming_projected_states": 4099,
+      "counterexample": null,
+      "fields": [
+        "executes",
+        "authority_current",
+        "authority_scoped",
+        "authority_verifiable",
+        "authority_nonamplifying",
+        "response_authorized",
+        "response_failure_declared",
+        "response_reversibility_declared",
+        "response_externalities_declared",
+        "response_downside_declared",
+        "null_action_declared",
+        "strong_response_claimed",
+        "no_worse_than_null"
+      ],
+      "full_cube_assignments_per_row": 1048576,
+      "implies_target": true,
+      "principle": "P4",
+      "projected_states_checked": 8192,
+      "status": "finite-projection implication",
+      "violating_projected_states": 0
+    },
+    {
+      "clauses": {
+        "s10_material_change_path": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "change_disposition_recorded": true,
+            "executes": true,
+            "material_break_detected": true,
+            "material_changed": true,
+            "requalified": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "executes",
+            "material_changed",
+            "requalified",
+            "material_break_detected",
+            "change_disposition_recorded"
+          ],
+          "non_equivalence_witness": {
+            "change_disposition_recorded": false,
+            "executes": false,
+            "material_break_detected": false,
+            "material_changed": true,
+            "requalified": false
+          },
+          "satisfiable": true,
+          "states_checked": 32
+        },
+        "s5_no_false_permission": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "executes": true,
+            "material_changed": true,
+            "permission_from_uncertainty": false,
+            "requalified": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "executes",
+            "material_changed",
+            "requalified",
+            "permission_from_uncertainty"
+          ],
+          "non_equivalence_witness": {
+            "executes": false,
+            "material_changed": false,
+            "permission_from_uncertainty": true,
+            "requalified": false
+          },
+          "satisfiable": true,
+          "states_checked": 16
+        },
+        "t1_material_break_visible": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "executes": true,
+            "material_break_detected": true,
+            "material_changed": true,
+            "requalified": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "executes",
+            "material_changed",
+            "requalified",
+            "material_break_detected"
+          ],
+          "non_equivalence_witness": {
+            "executes": false,
+            "material_break_detected": false,
+            "material_changed": true,
+            "requalified": false
+          },
+          "satisfiable": true,
+          "states_checked": 16
+        },
+        "t2_changed_basis_carried": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "changed_basis_carried": true,
+            "executes": true,
+            "material_changed": true,
+            "requalified": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "executes",
+            "material_changed",
+            "requalified",
+            "changed_basis_carried"
+          ],
+          "non_equivalence_witness": {
+            "changed_basis_carried": false,
+            "executes": false,
+            "material_changed": true,
+            "requalified": false
+          },
+          "satisfiable": true,
+          "states_checked": 16
+        },
+        "t4_viable_requalification": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "bounded_progress": true,
+            "composition_active": false,
+            "composition_effects_declared": false,
+            "cost_ledger_declared": true,
+            "deadline_viable": true,
+            "executes": true,
+            "expansion_value_declared": true,
+            "material_changed": true,
+            "requalified": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "bounded_progress",
+            "deadline_viable",
+            "executes",
+            "material_changed",
+            "requalified",
+            "composition_active",
+            "cost_ledger_declared",
+            "expansion_value_declared",
+            "composition_effects_declared"
+          ],
+          "non_equivalence_witness": {
+            "bounded_progress": false,
+            "composition_active": false,
+            "composition_effects_declared": false,
+            "cost_ledger_declared": false,
+            "deadline_viable": false,
+            "executes": false,
+            "expansion_value_declared": false,
+            "material_changed": false,
+            "requalified": false
+          },
+          "satisfiable": true,
+          "states_checked": 512
+        }
+      },
+      "conforming_projected_states": 108,
+      "counterexample": {
+        "authority_current": false,
+        "authority_nonamplifying": false,
+        "authority_scoped": false,
+        "authority_verifiable": false,
+        "bounded_progress": true,
+        "change_disposition_recorded": true,
+        "changed_basis_carried": true,
+        "compatibility_preserved": false,
+        "composition_active": false,
+        "composition_effects_declared": false,
+        "cost_ledger_declared": true,
+        "deadline_viable": true,
+        "dependency_independent": false,
+        "dependency_qualifiers_carried": false,
+        "dependent_support_promoted": false,
+        "evidence_fit": false,
+        "executes": true,
+        "expansion_value_declared": true,
+        "fallback_defined": false,
+        "material_break_detected": true,
+        "material_changed": true,
+        "no_worse_than_null": false,
+        "null_action_declared": false,
+        "permission_from_uncertainty": false,
+        "requalified": false,
+        "residual_explicit": false,
+        "response_authorized": false,
+        "response_downside_declared": false,
+        "response_externalities_declared": false,
+        "response_failure_declared": false,
+        "response_reversibility_declared": false,
+        "strong_response_claimed": false,
+        "unresolved_material": false
+      },
+      "fields": [
+        "bounded_progress",
+        "deadline_viable",
+        "executes",
+        "material_changed",
+        "requalified",
+        "composition_active",
+        "permission_from_uncertainty",
+        "material_break_detected",
+        "change_disposition_recorded",
+        "changed_basis_carried",
+        "cost_ledger_declared",
+        "expansion_value_declared",
+        "composition_effects_declared"
+      ],
+      "full_cube_assignments_per_row": 1048576,
+      "implies_target": false,
+      "principle": "P5",
+      "projected_states_checked": 8192,
+      "status": "countermodel; semantic review pending",
+      "violating_projected_states": 3
+    },
+    {
+      "clauses": {
+        "s11_cross_domain_coupling_preserved": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "compatibility_preserved": true,
+            "composition_active": true,
+            "dependency_independent": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "composition_active",
+            "dependency_independent",
+            "compatibility_preserved"
+          ],
+          "non_equivalence_witness": {
+            "compatibility_preserved": true,
+            "composition_active": true,
+            "dependency_independent": false
+          },
+          "satisfiable": true,
+          "states_checked": 8
+        },
+        "s9_non_substituting_composition": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "compatibility_preserved": false,
+            "composition_active": true,
+            "dependency_independent": false,
+            "dependent_support_promoted": false
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "composition_active",
+            "dependency_independent",
+            "compatibility_preserved",
+            "dependent_support_promoted"
+          ],
+          "non_equivalence_witness": {
+            "compatibility_preserved": false,
+            "composition_active": true,
+            "dependency_independent": false,
+            "dependent_support_promoted": false
+          },
+          "satisfiable": true,
+          "states_checked": 16
+        },
+        "t2_composition_qualifiers_preserved": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "compatibility_preserved": false,
+            "composition_active": true,
+            "dependency_independent": false,
+            "dependency_qualifiers_carried": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "composition_active",
+            "dependency_independent",
+            "compatibility_preserved",
+            "dependency_qualifiers_carried"
+          ],
+          "non_equivalence_witness": {
+            "compatibility_preserved": false,
+            "composition_active": true,
+            "dependency_independent": false,
+            "dependency_qualifiers_carried": true
+          },
+          "satisfiable": true,
+          "states_checked": 16
+        },
+        "t4_viable_requalification": {
+          "alone_implies_target": false,
+          "clause_without_target_witness": {
+            "bounded_progress": true,
+            "compatibility_preserved": false,
+            "composition_active": true,
+            "composition_effects_declared": true,
+            "cost_ledger_declared": true,
+            "deadline_viable": true,
+            "dependency_independent": false,
+            "expansion_value_declared": true
+          },
+          "equivalent_to_target": false,
+          "falsifiable": true,
+          "fields": [
+            "bounded_progress",
+            "deadline_viable",
+            "composition_active",
+            "dependency_independent",
+            "compatibility_preserved",
+            "cost_ledger_declared",
+            "expansion_value_declared",
+            "composition_effects_declared"
+          ],
+          "non_equivalence_witness": {
+            "bounded_progress": false,
+            "compatibility_preserved": false,
+            "composition_active": false,
+            "composition_effects_declared": false,
+            "cost_ledger_declared": false,
+            "deadline_viable": false,
+            "dependency_independent": false,
+            "expansion_value_declared": false
+          },
+          "satisfiable": true,
+          "states_checked": 256
+        }
+      },
+      "conforming_projected_states": 34,
+      "counterexample": {
+        "authority_current": false,
+        "authority_nonamplifying": false,
+        "authority_scoped": false,
+        "authority_verifiable": false,
+        "bounded_progress": true,
+        "change_disposition_recorded": false,
+        "changed_basis_carried": false,
+        "compatibility_preserved": true,
+        "composition_active": true,
+        "composition_effects_declared": true,
+        "cost_ledger_declared": true,
+        "deadline_viable": true,
+        "dependency_independent": false,
+        "dependency_qualifiers_carried": true,
+        "dependent_support_promoted": false,
+        "evidence_fit": false,
+        "executes": false,
+        "expansion_value_declared": true,
+        "fallback_defined": false,
+        "material_break_detected": false,
+        "material_changed": false,
+        "no_worse_than_null": false,
+        "null_action_declared": false,
+        "permission_from_uncertainty": false,
+        "requalified": false,
+        "residual_explicit": false,
+        "response_authorized": false,
+        "response_downside_declared": false,
+        "response_externalities_declared": false,
+        "response_failure_declared": false,
+        "response_reversibility_declared": false,
+        "strong_response_claimed": false,
+        "unresolved_material": false
+      },
+      "fields": [
+        "bounded_progress",
+        "deadline_viable",
+        "composition_active",
+        "dependency_independent",
+        "compatibility_preserved",
+        "cost_ledger_declared",
+        "expansion_value_declared",
+        "composition_effects_declared",
+        "dependency_qualifiers_carried",
+        "dependent_support_promoted"
+      ],
+      "full_cube_assignments_per_row": 8388608,
+      "implies_target": false,
+      "principle": "P6",
+      "projected_states_checked": 1024,
+      "status": "countermodel; semantic review pending",
+      "violating_projected_states": 1
+    }
+  ],
+  "full_state_count": 8589934592,
+  "method": "exhaustive support projections; syntactically validated Boolean field expressions",
+  "schema": "A23-clause-audit-v1",
+  "scope": "partial clause projections, not full canonical conformance or reachability",
+  "source": "00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md sections 2-3",
+  "state_fields": [
+    "evidence_fit",
+    "residual_explicit",
+    "bounded_progress",
+    "fallback_defined",
+    "deadline_viable",
+    "unresolved_material",
+    "executes",
+    "authority_current",
+    "authority_scoped",
+    "authority_verifiable",
+    "authority_nonamplifying",
+    "material_changed",
+    "requalified",
+    "composition_active",
+    "dependency_independent",
+    "compatibility_preserved",
+    "permission_from_uncertainty",
+    "material_break_detected",
+    "change_disposition_recorded",
+    "changed_basis_carried",
+    "response_authorized",
+    "response_failure_declared",
+    "response_reversibility_declared",
+    "response_externalities_declared",
+    "response_downside_declared",
+    "null_action_declared",
+    "strong_response_claimed",
+    "no_worse_than_null",
+    "cost_ledger_declared",
+    "expansion_value_declared",
+    "composition_effects_declared",
+    "dependency_qualifiers_carried",
+    "dependent_support_promoted"
+  ]
+}

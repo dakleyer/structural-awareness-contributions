@@ -104,22 +104,9 @@ Out of family:
 
 ## 7. Conformance transfer
 
-For every admitted extension:
+The former A23 P5 implication was carried by S10 alone and repeated in T1/T2/T4. After independent reconstruction, the reduction has an action-time interlock countermodel. This family transfer remains pending semantic adjudication; it is not closed merely because the failure resembles P5.
 
-\[
-F_I\Rightarrow\neg P5.
-\]
-
-A23 proves that canonical conformance to the applicable S1/S3/S10/S14/T1–T4 route entails P5.
-
-Thus:
-
-\[
-C'\in Family(00I)\land Conf(R_I)\Rightarrow\neg F_I.
-\]
-
-This is the cleanest of the six transfer families because the failure predicate is almost exactly the P5 predicate.
-
+The [A25 §6 evidence boundary](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) applies: X1–X7 admit a mapping; passing frozen branches supports that implementation. A guarantee over every admitted extension additionally requires a separately proved base guarantee plus failure reflection and conformance preservation. Each listed domain remains a design case until separately executed or proved within a declared scope.
 
 ## Success-case route
 

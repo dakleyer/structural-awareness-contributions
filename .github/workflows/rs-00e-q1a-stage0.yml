@@ -1,0 +1,49 @@
+name: RS-00E-Q1a Stage-0 replay
+
+on:
+  push:
+    paths:
+      - "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/**"
+      - ".github/workflows/rs-00e-q1a-stage0.yml"
+  pull_request:
+    paths:
+      - "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/**"
+      - ".github/workflows/rs-00e-q1a-stage0.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deterministic-replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Replay frozen v0.5 controls and all candidate traces
+        working-directory: research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a
+        shell: bash
+        run: |
+          set -euo pipefail
+          python --version | tee python-version.txt
+          git rev-parse HEAD | tee checked-out-revision.txt
+          PYTHONDONTWRITEBYTECODE=1 python -m unittest -v test_canonical_trace_v1.py > unit-tests.txt 2>&1
+          PYTHONDONTWRITEBYTECODE=1 python stage0_runner.py --output replay > stdout.txt 2> stderr.txt
+          cat stdout.txt
+          diff -r runs/stage0_v05_4193199 replay
+          sha256sum stage0_runner.py frozen_observations_v05.json oracle_reference_v05.json pre_registration_v0.5.md canonical_trace_v1.py runs/stage0_v05_4193199/step0_*.json | tee SHA256SUMS.txt
+      - name: Preserve replay output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rs-00e-q1a-stage0-replay
+          if-no-files-found: warn
+          path: |
+            research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/stdout.txt
+            research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/stderr.txt
+            research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/unit-tests.txt
+            research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/python-version.txt
+            research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/checked-out-revision.txt
+            research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/SHA256SUMS.txt

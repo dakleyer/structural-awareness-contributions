@@ -284,17 +284,17 @@ The requirements answer a different question:
 
 That is why the requirements carry more operational information than a P label: authority, identity, human capacity, policy, handoff, delegation, composition, commitment, history, privacy, evidence-to-decision binding, deadlines and measurable conformance all become explicit.
 
-The connection is strong in both useful directions:
+The connection has distinct forward, reverse and information checks:
 
 - [**A19**](../../research/ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md): each principle has a real, falsifiable requirement surface;
-- [**A23**](../../research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md): canonical S/T conformance implies the applicable P invariant;
-- [**A24**](../../research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md): this two-way relation is **refinement, not reformulation** — several different requirements can project to the same P signature because requirements add object/lifecycle/owner/conformance information.
+- [**A23**](../../research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md): finite projections imply P1/P2/P4; P3/P5/P6 remain under semantic review, with no all-six closure;
+- [**A24**](../../research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md): the specification relation is **refinement, not reformulation**, while reverse sufficiency remains partial — several different requirements can project to the same P signature because requirements add object/lifecycle/owner/conformance information.
 
 So the useful relationship is:
 
 \[
 P1\text{–}P6
-\;\underset{\text{conformance sufficiency}}{\overset{\text{semantic refinement}}{\rightleftarrows}}\;
+\;\underset{\text{partial reverse; remainder open}}{\overset{\text{semantic refinement}}{\rightleftarrows}}\;
 S1\text{–}S14/T1\text{–}T4
 \]
 
@@ -310,7 +310,7 @@ The proof programme then asks several different questions rather than relying on
 | **Can any current principle be removed without losing a distinct invariant?** | [A16 corpus-grounded independence](../../research/ecosystem-awareness/baseline/00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) · [A20 shared-substrate mathematical independence](../../research/ecosystem-awareness/baseline/00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) | each Pi has a countermodel where the other five hold; current basis is irredundant relative to the declared semantics |
 | **Is six minimal for preserving the full Boolean diagnostic signature?** | [A22 full-cube / Boolean diagnostic minimality](../../research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) | all 64 P-signatures are realizable; fewer than six Boolean coordinates cannot preserve all 64 without loss |
 | **Could a requirement be missing even if the current P↔S matrix looks complete?** | [A21 requirement-basis closure](../../research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) | every admitted decision-frame object×lifecycle obligation normalizes to S1–S14; a genuine S15 must introduce a new primitive |
-| **Can a system comply with the canonical requirements and still violate the underlying principle?** | [A23 conformance-sufficiency proof](../../research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) | for the declared semantics, the applicable S/T conformance bundle entails the corresponding P invariant |
+| **Can a system comply with the canonical requirements and still violate the underlying principle?** | [A23 conformance-sufficiency proof](../../research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) | finite P1/P2/P4 implications; explicit P3/P5/P6 countermodels require semantic/reachability review before any full-canon claim |
 | **Are principles and requirements merely duplicate descriptions?** | [A24 information gain / non-equivalence](../../research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) | no: requirements add typed operational information that is lost when projected back to the compact P signature |
 
 These results are deliberately bounded. “Minimality” above means the stated Boolean diagnostic lower bound, not absolute minimality across every imaginable mathematical formalization; symbolic fixtures are not live-product or universal empirical validation.
@@ -368,9 +368,11 @@ The six scenarios are therefore **minimum fixtures**, not the final scope of the
 - **upward / vertical** — add agents, actors, organizations, sources, role chains, jurisdictions or aggregation depth;
 - **horizontal** — change sector, technology or service domain while preserving the same structural relations.
 
-The practical transfer statement is:
+The following transfer statements are conditional on a separately established base guarantee, failure reflection and conformance preservation (A25 §6). A23 does not currently supply that guarantee for all six; A3/A4/A6 supply only their tested branches:
 
 \[
+BaseGuarantee_C\land X3\land X4
+\land
 C'\in Family(C)
 \land
 Conf_{R_C}(C')
@@ -381,6 +383,8 @@ Conf_{R_C}(C')
 and, when the required positive controls also pass:
 
 \[
+BaseGuarantee_C\land X3\land X4
+\land
 C'\in Family(C)
 \land
 Conf_{R_C}(C')
@@ -390,9 +394,9 @@ PositiveControls
 G_C(C').
 \]
 
-In plain language: **if the new case really preserves the same structural mechanism and it satisfies the inherited canonical requirements, it cannot follow the same structural path to failure; it realizes the corresponding bounded success pattern instead.**
+In plain language: **if a base guarantee is independently established and the new case really preserves the same structural mechanism and it satisfies the inherited canonical requirements, it cannot follow the same structural path to failure; with the required positive controls, it realizes the corresponding bounded success pattern.**
 
-This is why the extensibility matters. The result is not limited to six memorable stories. It transfers to admitted families of systems — for example 00G can move from a robot collective to a multi-agent organization and down to one LLM/SLM using conversation memory, RAG or vector storage — without creating a new S# merely because the implementation technology or domain changed.
+This is why the extensibility matters. The result is not limited to six memorable stories. Under those premises, it transfers to admitted families of systems — for example 00G can move from a robot collective to a multi-agent organization and down to one LLM/SLM using conversation memory, RAG or vector storage — without creating a new S# merely because the implementation technology or domain changed.
 
 The boundary is equally important: if a new case needs a decision-material obligation that cannot be expressed through the current [A21 requirement grammar](../../research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md), that is **Requirements-vNext evidence**, not permission to add a local gate and still claim inherited conformance.
 
@@ -407,14 +411,14 @@ For technical review, the proof programme is split by question:
 - **Operational sufficiency / adversarial ablation:** [00K](../../research/ecosystem-awareness/baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) + [A15 testbook](../../research/ecosystem-awareness/baseline/00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md).
 - **Logical independence / irredundancy:** [A16](../../research/ecosystem-awareness/baseline/00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) + preferred shared-substrate [A20](../../research/ecosystem-awareness/baseline/00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md).
 - **Boolean diagnostic minimality:** [A22](../../research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md).
-- **Requirements conformance ⇒ principles:** [A23](../../research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md).
+- **Requirements conformance → principles, partial and under review:** [A23](../../research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md).
 - **Why P and S are not duplicate layers:** [A24](../../research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md).
 - **Failure families and reusable success cases:** [A25](../../research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) + [A26](../../research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md).
 - **Full navigation / reproducibility map:** [A17](../../research/ecosystem-awareness/baseline/00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md).
 
 This separation is intentional: no single test is being used to claim derivation, sufficiency, independence, minimality and extensibility at once. Each claim has its own falsifiable route.
 
-Repository CI currently reproduces the symbolic campaign at **379/379** across all 10 jobs and also passes the semantic-traceability, A22 full-cube/minimality, A23 requirement-conformance sufficiency, syntactic-closure and A25/A26 extensibility-registry checks ([GitHub Actions run 334 / 36138839271](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36138839271); [379 reproduction record](../../research/ecosystem-awareness/baseline/00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md)). This is deterministic formal/fixture integrity evidence, not universal minimality, live product evidence or proof of Ecosystem Positioning superiority.
+The historical repository CI run reproduced the symbolic campaign at **379/379** across all 10 jobs and also passed its then-current semantic-traceability, A22 full-cube/minimality, A23 reduction, syntactic-closure and A25/A26 extensibility-registry checks ([GitHub Actions run 334 / 36138839271](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36138839271); [379 reproduction record](../../research/ecosystem-awareness/baseline/00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md)). After the circularity audit, [run 36196286646](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36196286646) passes the corrected A23 auditor, including its expected P3/P5/P6 countermodels, and the separate 379 symbolic regressions. This is deterministic formal/fixture integrity evidence, not all-six canonical sufficiency, universal minimality, live product evidence or proof of Ecosystem Positioning superiority.
 
 ---
 
