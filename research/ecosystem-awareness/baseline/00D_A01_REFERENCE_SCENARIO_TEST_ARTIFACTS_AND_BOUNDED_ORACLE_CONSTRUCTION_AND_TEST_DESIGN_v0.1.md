@@ -36,7 +36,7 @@ No fixture is admitted merely because it tells a persuasive scenario. Before fac
 | **Stage 1 verification** | A versioned implementation can be compared with B0–B3 using observable producer/receiver data and independent-boundary evidence where claimed. | That the requirement is the right societal or operational need. |
 | **Validation** | Requires a party independent of the requirement author to corroborate relevance, need and outcome in a real decision context. | It is not completed by Stage 0 or Stage 1 alone. |
 
-`S#` are asserted challenge surfaces to be corroborated; they are not external binding requirements. `T#` are target sufficiently-good properties and can act as acceptance conditions only for their declared scope. `H#` are falsifiable research hypotheses and never acceptance criteria. KPIs are evidence, not truth.
+`S#` are the canonical requirement surfaces of this corpus; they are not external legal, standards-body or product-certification requirements. `T#` are target sufficiently-good properties and can act as acceptance conditions only for their declared scope. `H#` are falsifiable research hypotheses and never acceptance criteria. KPIs are evidence, not truth.
 
 ### 1.2 Relation to Appendix A of 04
 
