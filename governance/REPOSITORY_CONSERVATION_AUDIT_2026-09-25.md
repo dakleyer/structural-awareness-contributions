@@ -1,10 +1,10 @@
 # Repository conservation audit — 25 September 2026
 
-**Scope:** `dakleyer/structural-awareness-contributions`, published `main` history from 29 August to 25 September 2026. This is a conservation and navigation audit, not an independent proof of the architecture or its empirical performance.
+**Scope:** `dakleyer/structural-awareness-contributions`, published `main` history from 29 August to 25 September 2026, anchored at `ba68bbe` immediately before these audit repairs. This is a conservation and navigation audit, not an independent proof of the architecture or its empirical performance.
 
 ## Method and coverage
 
-- Cloned the complete reachable Git history and checked connectivity: **1,711 commits**, one published branch, **427 current blobs**, and **46 distinct paths that have been deleted at some point in history**. Deleted historical blobs remain retrievable by commit SHA.
+- Cloned the complete reachable Git history at that anchor and checked connectivity: **1,711 commits**, one published branch, **427 blobs at the audit anchor**, and **46 distinct paths that had been deleted at some point in that history**. Deleted historical blobs remain retrievable by commit SHA.
 - Scanned the numstat and patches of the entire history, including every Markdown edit. Reviewed **38 individual Markdown path changes with a net reduction of at least 20 lines**, then inspected the major removals, replacements and canonical successors.
 - Checked all current Markdown local links and image paths outside `governance/preserved-public-snapshots/`. Those historical snapshots retain their original relative links and are deliberately excluded from active-route integrity checks.
 - Inspected slide XML across all four historical revisions of the combined Ecosystem Positioning deck and both current split decks. The combined deck progressed **10 → 10 → 9 → 17 slides**; the current split decks have **8 architecture** and **12 requirements** slides. Current combined and split decks contain their distinct architecture and evidence routes; the manifest explicitly labels the combined repository binary as a v1.10 mirror pending v1.11 sync.
