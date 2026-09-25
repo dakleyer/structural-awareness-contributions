@@ -40,7 +40,7 @@ surface for six fixture-bounded ablation arguments.
 
 **Full campaign surface: 163 tests.**
 
-Independent repository CI reproduction: [**GitHub Actions full campaign run**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) — all 10 jobs completed successfully, The prior 134/134 run remains a milestone; the current campaign gate is 163/163 after P1 hardening.
+Independent repository CI reproduction: the prior [**134/134 full campaign run**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) remains a successful milestone. After P1 hardening, the workflow and manifest are configured for a **163-test** campaign; do not cite the older run as reproduction of the enlarged surface.
 
 ## Why the P6 falsifier belongs in the suite
 
