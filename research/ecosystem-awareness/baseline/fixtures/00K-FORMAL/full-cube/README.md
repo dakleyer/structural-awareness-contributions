@@ -1,6 +1,6 @@
 # 00K-FORMAL/full-cube — P1–P6 full-cube realizability certificate
 
-This package is the executable companion to [00K-A22](../../00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md).
+This package is the executable companion to [00K-A22](../../../00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md).
 
 It is a **meta-proof package**, not part of the 379 symbolic ablation campaign.
 
