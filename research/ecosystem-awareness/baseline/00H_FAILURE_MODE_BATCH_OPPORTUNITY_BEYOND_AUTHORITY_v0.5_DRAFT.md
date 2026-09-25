@@ -4,6 +4,7 @@
 |---|---|
 | **ID** | 00H |
 | **Type** | Reference failure scenario (fictional) and quality-gate plan |
+| **Case-study role** | Minimum concrete instantiation of the [00H extensible case family](./00H_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) |
 | **Status** | Revised working draft · fictional candidate scenario · not integrated into 00D execution · not W3-admitted |
 | **Version · date** | v0.5 Draft · 2026-09-24 |
 | **Current working revision** | 2026-09-24 · base no-attacker "Quiet Four Thousand" restored as the primary reader frame; opposite silent preservation failure made explicit; V19/V20 outsourced-Dispatcher case retained as adversarial hardening; EA0 gate audit unchanged |
