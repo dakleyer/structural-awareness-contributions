@@ -4,7 +4,8 @@
 |---|---|
 | **Family** | Provenance-Scope Inversion into Unsupported Downstream Decision |
 | **Minimum instantiation** | [00J — The Author Pays for Their Own Work](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
-| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) |
+| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [A26 success conversion](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) |
+| **Success Model Case** | [Proposition-Scoped Provenance](./00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) |
 | **Status** | first-pass structural family profile |
 
 > **Family claim.** Copyright/payment is one vivid enforcement consequence. The structural case is that a valid record proving proposition \(q\) is promoted through broken lineage, correlation or authority substitution into a stronger proposition \(q^+\) that the record does not establish, and \(q^+\) controls a downstream decision.
@@ -121,3 +122,8 @@ depending on whether the decisive defect is proposition fit, absent authority or
 A23 supplies sufficiency of the relevant S/T route for those P invariants.
 
 Therefore an in-family requirements-conforming implementation cannot reach the same unsupported provenance-to-enforcement inversion, while still being required to pass legitimate-transfer and independent-work controls.
+
+
+## Success-case route
+
+The failure-family profile above is paired with the positive [**Proposition-Scoped Provenance**](./00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.
