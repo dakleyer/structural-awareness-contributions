@@ -2,9 +2,9 @@
   "schema_version": "0.1",
   "status": "execution-lock manifest; not a replacement normative register",
   "parent": "../../00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md",
-  "core_expected_tests": 175,
+  "core_expected_tests": 209,
   "supplemental_expected_tests": 33,
-  "campaign_expected_tests": 208,
+  "campaign_expected_tests": 242,
   "true_substitute_rule": "A repair must pass the frozen negative and positive/boundary controls under the same declared resource/authority boundary without implementing an operationally equivalent form of the removed invariant.",
   "principles": [
     {
@@ -37,11 +37,14 @@
       "id": "P3",
       "invariant": "Known unresolved material state must not be converted into permission, PASS or certainty-equivalent closure.",
       "core_fixture": "../00K-A3-P3-00F",
-      "expected_tests": 15,
-      "negative_control": "material corridor/posture state remains unresolved or conflicting",
-      "positive_control": "determinate compatible/authorized state remains executable",
+      "expected_tests": 49,
+      "negative_control": "matched-authority/confidence/freshness corridor postures remain materially incompatible without an explicit HOLD marker",
+      "positive_control": "uniform determinate NORMAL and PLAN_A states remain executable",
       "strong_peer_classification": "SEMANTIC_RECONSTRUCTION",
-      "known_confounds": []
+      "known_confounds": [
+        "original base conflict included a literal HOLD posture; a HOLD-marker veto is a TRUE SUBSTITUTE for that naive base pair",
+        "corrected matched-conflict isolation removes HOLD and equalizes authority/confidence/freshness"
+      ]
     },
     {
       "id": "P4",
