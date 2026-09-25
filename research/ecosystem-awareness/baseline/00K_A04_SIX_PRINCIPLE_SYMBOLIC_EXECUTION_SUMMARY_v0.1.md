@@ -22,17 +22,17 @@
 | **A1 / −P1** | Qualified determination / evidence→proposition→decision sufficiency | **00J — Rights-Provenance Inversion, corrected matched-semantic isolation** | same issuer/source/record class/freshness; narrower valid proposition vs enforcement proposition | **42/42** | evidence-semantics / proposition / decision policy contract | **SEMANTIC RECONSTRUCTION of P1** |
 | **A2 / −P2** | Bounded unresolved effort / viable oversight | **00E — 100 Million Tokens, matched-prefix late-resolution isolation** | identical unresolved prefix; negative remains unresolved at horizon while positive resolves at final allowed step | **58/58** | finite horizon/budget/patience/scheduler/probe rules | **SEMANTIC RECONSTRUCTION of P2** |
 | **A3 / −P3** | No false closure from unresolved material state | **00F — Chaos in the Smartcity, corrected matched-conflict isolation** | equal authority/confidence/freshness; incompatible PLAN_A/PLAN_B mix vs uniform PLAN_A/NORMAL controls | **49/49** | supermajority/unanimity/action-set intersection with unresolved non-permission | **SEMANTIC RECONSTRUCTION of P3** |
-| **A4 / −P4** | Qualification-preserving handoff / authority lineage | **00H — The Quiet Four Thousand** | U unauthorized campaign / G authorized campaign / I independent cases / NM | **29/29 active composed harness** | A2-L explicit root/delegation lineage | **SEMANTIC RECONSTRUCTION of P4** |
+| **A4 / −P4** | Qualification-preserving authority basis | **00H — The Quiet Four Thousand** | matched U unauthorized / G authorized / I independent / NM | **76/76** | A2-L lineage, scoped capability, legitimate maker-checker, opaque owner-side PDP | **MINIMAL P4 INVARIANT SUPPORTED; FULL-LINEAGE FORMULATION REFINED** |
 | **A5 / −P5** | Material-change requalification at time of use | **00I — Semantic TOCTOU** | stale queued action vs valid continuity + unavailable-current-source control | **14/14** | full material-basis compare/binding before actuation | **SEMANTIC RECONSTRUCTION of P5** |
 | **A6 / −P6** | No local→ecosystem promotion / non-substitution | **00G — matched-authority isolation of False-Context Convergence** | same authority/count/confidence/freshness; correlated-source F vs independent-source G | **17/17** | source-independence / dependency-aware peer | **SEMANTIC RECONSTRUCTION of P6** |
 
-**Current core after P1+P2+P3 serious-repair hardening:** **209 passing symbolic tests** across the six isolated principle harnesses.
+**Current core after P1–P4 serious-repair hardening:** **256 passing symbolic tests** across the six isolated principle harnesses.
 
 **Supplemental adversarial surface:** A6a naive-pair falsifier **10**, A6b independent 00F P6 isolation **11**, and independent cross-scenario kernels **12** — **33 supplemental tests**.
 
-**Full registered campaign:** **242 tests**.
+**Full registered campaign:** **289 tests**.
 
-**Independent CI milestone:** GitHub Actions [run 36100046965](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) independently verified the prior **101 core + 33 supplemental = 134/134** campaign. The current P1+P2+P3-hardened surface is **209 core + 33 supplemental = 242** and is configured in the workflow/manifest; the older run must not be cited as reproduction of the enlarged surface.
+**Independent CI milestone:** GitHub Actions [run 36100046965](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) independently verified the prior **101 core + 33 supplemental = 134/134** campaign. The current P1–P4-hardened surface is **256 core + 33 supplemental = 289** and is configured in the workflow/manifest; the older run must not be cited as reproduction of the enlarged surface.
 
 The count is a regression/execution count, **not a scientific score**: one pytest assertion is not one independent experiment. The evidentiary content is the branch structure, the attempted substitutes and the falsifiable distinction between TRUE SUBSTITUTE and SEMANTIC RECONSTRUCTION.
 
