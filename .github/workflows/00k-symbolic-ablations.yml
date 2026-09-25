@@ -134,6 +134,10 @@ jobs:
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE
         run: python validate_closure.py
 
+      - name: Validate case-study extensibility registry
+        working-directory: research/ecosystem-awareness/baseline/fixtures/CASE-EXTENSION
+        run: python validate_extensibility.py
+
       - name: Run complete symbolic campaign
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-SUITE
         shell: bash
