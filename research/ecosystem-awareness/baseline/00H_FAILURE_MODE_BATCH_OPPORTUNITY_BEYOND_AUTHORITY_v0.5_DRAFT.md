@@ -1,4 +1,6 @@
 # 00H — Reference Failure Scenario and Quality-Gate Plan: Batch Opportunity Beyond Authority ("The Quiet Four Thousand")
+**Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Preserve the Finding, Do Not Overreach](./00H_SUCCESS_MODEL_CASE_PRESERVE_WITHOUT_OVERREACH_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
+
 
 | | |
 |---|---|
