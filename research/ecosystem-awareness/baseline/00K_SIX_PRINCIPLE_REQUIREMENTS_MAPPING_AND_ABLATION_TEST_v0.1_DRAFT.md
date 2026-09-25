@@ -74,7 +74,8 @@ This converts the exercise from a requirement-coverage proof into an **adversari
 
 A system must distinguish what is sufficiently established, what is insufficient/inconclusive, and what remains outside the justified determination boundary. Evidence is always relative to a subject–proposition–decision scope; residual state must not disappear merely because a decision needs closure.
 
-**Source basis:** I0/O0 + E0-I/E0-O; H1/H2.
+**Source basis:** I0/O0 + E0-I/E0-O; H1/H2.  
+**Derivation proof:** [02A — P1 derivation](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md#p1--qualified-determination-and-explicit-residual).
 
 **Unique ablation anchor:** **S14 — Evidence-to-decision assessment.**
 
@@ -84,7 +85,8 @@ A system must distinguish what is sufficiently established, what is insufficient
 
 Recognized uncertainty does not justify unlimited search, review, escalation, human waiting or context expansion. Determination effort must have a finite, decision-relevant stopping rule inside the useful response horizon and available capacity.
 
-**Source basis:** I1/O1 + E1-I/E1-O; H1/H6.
+**Source basis:** I1/O1 + E1-I/E1-O; H1/H6.  
+**Derivation proof:** [02A — P2 derivation](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md#p2--bounded-unresolved-effort-and-viable-oversight).
 
 **Unique ablation anchor:** **S4 — Human-inclusive oversight authority and capacity.**
 
@@ -94,7 +96,8 @@ Recognized uncertainty does not justify unlimited search, review, escalation, hu
 
 Known unresolved, stale, conflicting or missing material state must not be converted into PASS/FAIL, permission or certainty-equivalent closure merely because the system needs to act, a timeout expires, a human approves, or several weak signals agree.
 
-**Source basis:** I2 + E2-I; H1.
+**Source basis:** I2 + E2-I; H1.  
+**Derivation proof:** [02A — P3 derivation](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md#p3--no-false-closure-from-unresolved-state).
 
 **Unique ablation anchor:** **S5 — Operational indeterminacy and containment.**
 
@@ -104,7 +107,8 @@ Known unresolved, stale, conflicting or missing material state must not be conve
 
 When authority/representation state crosses participants or systems, the relying decision must retain **or obtain** a current, receiver-verifiable qualification sufficient for the action being considered: legitimate authority source, purpose/scope/time, non-amplification limits and any other material qualifier needed by that decision. Preserved root/delegation lineage is one valid implementation; an authoritative scoped attestation/capability may also be sufficient where full history is not decision-material. A technically valid leaf or downstream record must not silently acquire stronger authority merely because the relying system cannot establish the authority basis for the composed effect.
 
-**Source basis:** received-signal controls + cross-cutting source rule + H4 bounded preservation.
+**Source basis:** received-signal controls + cross-cutting source rule + H4 bounded preservation.  
+**Derivation proof:** [02A — P4 typed-boundary derivation](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md#p4--qualification-preserving-authority-basis).
 
 **Unique ablation anchor:** **S8 — Bounded subdelegation and non-amplification.**
 
@@ -114,7 +118,8 @@ When authority/representation state crosses participants or systems, the relying
 
 A decision that was correct when established must be requalified when a material condition changes before commitment or actuation. Technical validity of a token, job, API, cached verdict or prior approval does not prove that the original decision basis is still current.
 
-**Source basis:** root dynamic-window principle + H5/H6.
+**Source basis:** root dynamic-window principle + H5/H6.  
+**Derivation proof:** [02A — P5 derivation](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md#p5--material-change-requalification-at-time-of-use).
 
 **Unique ablation anchor:** **S10 — Commitment state, material change and normal escalation.**
 
@@ -124,7 +129,8 @@ A decision that was correct when established must be requalified when a material
 
 A locally valid determination, repeated signal, majority view, policy result or correlated set of observations must not become ecosystem truth outside its justified scope. Composition must preserve source dependence, independent evidence, conflicts and non-substitution among principals/domains.
 
-**Source basis:** O2 + E2-O + H2/H3.
+**Source basis:** O2 + E2-O + H2/H3.  
+**Derivation proof:** [02A — P6 derivation](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md#p6--no-local-to-ecosystem-promotion-or-silent-substitution).
 
 **Unique ablation anchor:** **S9 — Multi-principal composition, non-substitution and conflict.**
 
