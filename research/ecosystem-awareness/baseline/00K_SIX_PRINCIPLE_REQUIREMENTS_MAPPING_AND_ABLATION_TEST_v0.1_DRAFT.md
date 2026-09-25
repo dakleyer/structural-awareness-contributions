@@ -24,7 +24,9 @@ This file is the **current controlling 00K test design**. Supporting material is
 
 The addenda provide provenance, coverage and prior reviewed reasoning. They do **not** supersede this principle-first protocol.
 
-**First execution annex.** [00K-A03](./00K_A03_P4_00H_PAPER_ABLATION_EXECUTION_v0.1.md) applies this protocol to **−P4 on 00H** using the already-frozen deterministic U/G/I/NM fixture. Its current paper-level result is **SEMANTIC RECONSTRUCTION / no TRUE SUBSTITUTE found in the documented repair set**. It is analytical fixture execution, not a live runtime result.
+**First execution annex.** [00K-A03](./00K_A03_P4_00H_PAPER_ABLATION_EXECUTION_v0.1.md) applies this protocol to **−P4 on 00H** using the already-frozen deterministic U/G/I/NM fixture. Its current paper-level result is **SEMANTIC RECONSTRUCTION / no TRUE SUBSTITUTE found in the documented repair set**.
+
+That paper result now has a runnable companion: [**00K-A4 / P4–00H executable harness**](./fixtures/00K-A4-P4-00H/README.md), with an [independent execution/strengthening record](./fixtures/00K-A4-P4-00H/CORPUS_INTEGRATION_AND_EXECUTION_RECORD.md). The reviewed suite was independently re-run at **11/11**, then strengthened additively to **17/17** with explicit P4-blind U/G indistinguishability checks. This is deterministic symbolic execution, not a live runtime/product benchmark.
 
 ---
 
