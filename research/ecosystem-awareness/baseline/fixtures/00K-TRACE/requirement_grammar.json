@@ -141,5 +141,21 @@
     "P4": "S8",
     "P5": "S10",
     "P6": "S9"
+  },
+  "provenance": {
+    "AUTH": "sigma owner/authority + F1 authority boundary",
+    "PREF": "principal preference/hard-limit decision basis",
+    "CTX": "W(d,t) operating context/regime and escape/re-entry",
+    "HUM": "human role + finite capacity/response horizon",
+    "UNRES": "T0/residual/insufficiently-established state",
+    "IDREP": "subject/actor identity-role-representation relation",
+    "POL": "externally-owned policy/objective/constraint",
+    "E2D": "subject-proposition-evidence-receiving-decision relation",
+    "HANDOFF": "cross-participant qualified-state transfer",
+    "DELEGATE": "authority/mandate chain propagation",
+    "COMPOSE": "multi-domain/participant composition",
+    "COMMIT_CHANGE": "qualification-to-commitment/action under change",
+    "REPAIR": "challenge/re-entry/future-state correction",
+    "INTERVENE_HISTORY": "later intervention over prior authority/provenance"
   }
 }
