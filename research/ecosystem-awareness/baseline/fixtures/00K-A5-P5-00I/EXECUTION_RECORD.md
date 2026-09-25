@@ -1,7 +1,9 @@
 # 00K-A5 / P5–00I execution record
 
 **Execution environment:** Python 3.13.5 · pytest 9.0.2  
-**Result:** **12 passed in 0.04s**  
+**Reviewed base result:** **12 passed in 0.04s**  
+**Additive material-basis grid:** **2 additional tests**  
+**Current corpus suite:** **14/14**  
 **Source SHA-256:** `80d71c73e6afb570205d4ae42b547ac647974eb4986a747cc4783115f5d2bc74`  
 **Test SHA-256:** `2ea3b50684d130c263b5bb59d735ac1f6a7da906c14dfbf3cae1e85bc15613c4`
 
