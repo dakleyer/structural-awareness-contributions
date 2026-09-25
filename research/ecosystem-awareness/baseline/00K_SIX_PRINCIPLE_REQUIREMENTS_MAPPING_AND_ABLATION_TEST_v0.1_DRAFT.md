@@ -28,6 +28,8 @@ The addenda provide provenance, coverage and prior reviewed reasoning. They do *
 
 That paper result now has a runnable companion: [**00K-A4 / P4–00H executable harness**](./fixtures/00K-A4-P4-00H/README.md), with an [independent execution/strengthening record](./fixtures/00K-A4-P4-00H/CORPUS_INTEGRATION_AND_EXECUTION_RECORD.md). The reviewed suite was independently re-run at **11/11**, then strengthened additively to **17/17** with explicit P4-blind U/G indistinguishability checks. This is deterministic symbolic execution, not a live runtime/product benchmark.
 
+**Second symbolic execution.** [00K-A5 / P5–00I](./fixtures/00K-A5-P5-00I/README.md) removes action-time material-change requalification from the Semantic TOCTOU fixture. Queue-time evidence, provenance preservation, conflict visibility and database serialization all leave the stale action executable; deny-all fails the continuity control. A generation/version compare passes both branches but is classified as **SEMANTIC RECONSTRUCTION of P5**. Current symbolic result: **12/12**, no TRUE SUBSTITUTE found in the tested repair surface.
+
 ---
 
 ## 1. Terminology and relation to the existing corpus
@@ -429,7 +431,7 @@ The six ablations deliberately use **one different reference scenario each**. In
 | **−P2** | S4 | 00E | unbounded review/search or forced deadline closure reopens | bounded decision-relevant closure restored | must not rescue without stop/capacity semantics | **DESIGNED / NOT EXECUTED** |
 | **−P3** | S5 | 00F | unresolved/stale state can become determinate corridor posture | explicit unresolved state blocks/requalifies | must not rescue without anti-false-closure semantics | **DESIGNED / NOT EXECUTED** |
 | **−P4** | S8 | 00H | root→leaf authority is lost; campaign amplification/loss route reopens | lineage + non-amplification restored | **No TRUE SUBSTITUTE found in tested repair surface; strongest passing peer reconstructs P4 semantics.** | **PAPER EXECUTED + SYMBOLIC HARNESS EXECUTED — 11/11 reviewed tests reproduced; 17/17 with additive strengthening** |
-| **−P5** | S10 | 00I | stale-but-technically-valid action executes after material change | time-of-use requalification restored | must not rescue without change-triggered requalification | **DESIGNED / NOT EXECUTED** |
+| **−P5** | S10 | 00I | stale-but-technically-valid action executes after material change | time-of-use requalification restored | **No TRUE SUBSTITUTE found in tested repair surface; native generation/version compare passes only by reconstructing P5 semantics.** | **SYMBOLIC HARNESS EXECUTED — 12/12** |
 | **−P6** | S9 | 00G | dependent/local claims become collective truth | false transition rejected; genuine change still accepted | must not rescue without composition/non-substitution semantics | **DESIGNED / NOT EXECUTED** |
 
 ---
