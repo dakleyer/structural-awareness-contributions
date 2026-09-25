@@ -11,7 +11,8 @@
     "shared_substrate_independence": "research/ecosystem-awareness/baseline/00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md",
     "formal_sketch": "research/ecosystem-awareness/baseline/00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md",
     "boolean_diagnostic_minimality": "research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md",
-    "requirement_conformance_sufficiency": "research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md"
+    "requirement_conformance_sufficiency": "research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md",
+    "principle_requirement_information_gain": "research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md"
   },
   "principles": {
     "P1": {
