@@ -26,6 +26,8 @@
 
 **Current aggregate:** **89 passing symbolic tests** across the six principle harnesses.
 
+**Independent CI reproduction:** GitHub Actions [run #1](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36091488903) completed successfully across all six matrix jobs on Python 3.13. The workflow asserts the expected regression count for each harness (11/11/13/27/12/15), so the 89-test milestone is now reproducible both in the local analysis environment and in repository CI.
+
 The count is a regression/execution count, **not a scientific score**: one pytest assertion is not one independent experiment. The evidentiary content is the branch structure, the attempted substitutes and the falsifiable distinction between TRUE SUBSTITUTE and SEMANTIC RECONSTRUCTION.
 
 ---
