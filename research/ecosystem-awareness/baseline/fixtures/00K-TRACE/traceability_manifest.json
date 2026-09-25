@@ -8,9 +8,9 @@
     "scenario_coverage": "research/ecosystem-awareness/baseline/00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md",
     "testbook": "research/ecosystem-awareness/baseline/00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md",
     "formal_sketch": "research/ecosystem-awareness/baseline/00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md",
-    "foundation_syntax": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md",
-    "requirement_closure": "research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_GRAMMAR_CLOSURE_AND_UNIQUENESS_PROOF_v0.1.md",
-    "foundation_syntactic_closure": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md",
+    "foundation_syntax": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md",
+    "requirement_closure": "research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md",
+    "foundation_syntactic_closure": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md",
     "requirement_basis_closure": "research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md",
     "boolean_diagnostic_minimality": "research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md"
   },
