@@ -40,6 +40,8 @@ These are four parts of one programme, not four competing indexes.
 
 **Visual navigation:** [Structural / Ecosystem Awareness Visual Guide](./research/ecosystem-awareness/VISUAL_GUIDE.md) — cumulative lineage, architecture ownership, runtime cycle, requirements-to-evidence route, scenarios/profiles, validation/case map and FG-TIDA layering.
 
+**Earlier full programme explanation:** [22 September synthesis, preserved verbatim](./README_PROGRAMME_SYNTHESIS_2026-09-22.md). It expands the map–flow argument, the four research lenses and their links to Regime Awareness, Ecosystem Awareness and MSCA; its publication statuses are historical.
+
 ---
 
 # 1. Mathematical Contributions
