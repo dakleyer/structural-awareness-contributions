@@ -8,10 +8,10 @@
 | **Information refinement** | [A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) |
 | **Positive success-case companion** | [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) |
 | **Machine-readable registry** | [fixtures/CASE-EXTENSION](./fixtures/CASE-EXTENSION/README.md) |
-| **Status** | first-pass structural extensibility framework; logical transfer theorem; listed domain extensions remain design-level until separately executed |
+| **Status** | first-pass structural extensibility framework; fixture-bounded support; general transfer remains conditional on a separately established base guarantee |
 | **Date** | 25 September 2026 |
 
-> **Result.** 00E–00J are treated as **minimum concrete instantiations of six structural failure case-study families**, not as one-off stories. [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) is the positive companion: it converts each admitted family into a requirements-conforming Success Model Case and tests the same upward/downward/horizontal transfer on the successful traversal. An upward/vertical, downward or horizontal variant belongs to the same family only when it preserves the family's independently stated failure kernel, decision semantics and requirement surface. For every admitted extension, canonical requirements conformance transfers through A23 to the relevant P invariants; because the family failure predicate requires violation of at least one of those invariants, a canonically conforming implementation cannot exhibit that same structural failure. This is a conditional structural theorem, not a claim that every superficially similar real-world situation has already been proved equivalent.
+> **Result.** 00E–00J are treated as **minimum concrete instantiations of six structural failure case-study families**, not as one-off stories. [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) is the positive companion: it converts each admitted family into a requirements-conforming Success Model Case and tests the same upward/downward/horizontal transfer on the successful traversal. An upward/vertical, downward or horizontal variant belongs to the same family only when it preserves the family's independently stated failure kernel, decision semantics and requirement surface. For 00F/P3, 00H/P4 and 00G/P6, the current evidence route is admission → the corresponding executable Route Q fixture → no failure on its tested branches, with positive controls. This route does not depend on A23. A finite fixture establishes an implementation result for those branches, not a guarantee for every admitted extension. The general transfer argument below requires a separately established base guarantee. A23 is under semantic revision; its former all-six closure must not be used as that guarantee.
 
 ---
 
@@ -119,7 +119,7 @@ where:
 - \(K_C\) — structural failure kernel;
 - \(\sigma_C\) — type of subject–proposition–decision boundary;
 - \(F_C\) — family failure predicate;
-- \(I_C\subseteq\{P1,\ldots,P6\}\) — principle witnesses whose violation is sufficient for the family failure route;
+- \(I_C\subseteq\{P1,\ldots,P6\}\) — principle invariants such that the family failure requires violation of at least one;
 - \(R_C\) — canonical S/T conformance route that protects those invariants.
 
 The story-specific names, amounts, vendors, locations and technologies are **parameters**, not the kernel.
@@ -237,49 +237,32 @@ A requirements-conforming implementation may therefore pass or fail the extensio
 
 ---
 
-## 6. Requirements-conformance transfer theorem
+## 6. Evidence routes and conditional transfer
 
-For an admitted extension \(C'\in Family(C)\), each family profile establishes:
+### 6.1 Executed base branches, independent of A23
 
-\[
-F_C(C')\Rightarrow
-\bigvee_{i\in I_C}\neg P_i(C').
-\]
+| Family / isolated obligation | Concrete Route Q source | What the fixture supports |
+|---|---|---|
+| 00F / P3 | [00K-A3](./fixtures/00K-A3-P3-00F/README.md), [base controls](./fixtures/00K-A3-P3-00F/test_ablation_A3.py), [matched-conflict repairs](./fixtures/00K-A3-P3-00F/test_p3_strong_repairs.py) | Unresolved corridor conflict is held/requalified; uniform NORMAL and authorized PLAN_A remain executable. The original explicit-HOLD shortcut is retained as a falsifier; use the later equal-authority PLAN_A/PLAN_B isolation for the stronger claim. |
+| 00H / P4 | [00K-A4](./fixtures/00K-A4-P4-00H/README.md), [U/G/I tests](./fixtures/00K-A4-P4-00H/test_ablation_A4.py), [integration record](./fixtures/00K-A4-P4-00H/CORPUS_INTEGRATION_AND_EXECUTION_RECORD.md) | The implemented route distinguishes unauthorized common-root U from authorized G and independent I. Strong scoped permits remain valid alternative implementations; full historical lineage is not universally necessary. |
+| 00G / P6 | [00K-A6](./fixtures/00K-A6-P6-00G/README.md), [matched-authority tests](./fixtures/00K-A6-P6-00G/test_ablation_A6.py), [hidden-dependency controls](./fixtures/00K-A6-P6-00G/test_p6_serious_repairs.py) | With the same authority, correlated F is rejected and independent-source G accepted under the fixture's source threshold. This is the corrected A6, not the authority-confounded earlier A6a pair. |
 
-That statement means that the structural family failure cannot occur without violating at least one of its mapped P invariants.
+Admission supplies the declared mapping and controls. Execution then measures the mapped implementation. **Admission alone does not execute an extension or prove its outcome.** None of these fixtures certifies all S/T obligations or all reachable states. Strong peers that pass remain part of the evidence.
 
-A23 establishes:
+00E/P2 and 00J/P1 retain the reduced A23 results for those individual invariants only. Their family profiles also list other principles: this does not establish the entire multi-principle family. The former 00I/P5 route depended on S10 alone equalling P5 (and three duplicate T clauses); it remains pending independent clause reconstruction and adjudication of the resulting countermodels.
 
-\[
-Conf_{R_C}(C')
-\Rightarrow
-\bigwedge_{i\in I_C}P_i(C').
-\]
+### 6.2 Conditional mathematical statement
 
-Therefore:
+If a **separate base theorem** establishes that every conforming base trace excludes the family failure, X3 failure reflection and X4 conformance preservation transport that theorem to an extension. In symbols, for all base traces x:
 
-\[
-\boxed{
-C'\in Family(C)
-\land
-Conf_{R_C}(C')
-\Rightarrow
-\neg F_C(C')
-}
-\]
+~~~text
+Base guarantee: Conf_C(x) => not F_C(x)
+X4: Conf_C'(t) => Conf_C(alpha(t))
+X3: F_C'(t) => F_C(alpha(t))
+Therefore: Conf_C'(t) => not F_C'(t)
+~~~
 
-by contradiction.
-
-### Interpretation
-
-If:
-
-1. the variant really is an extension of the same case family under X1–X7; and
-2. the implementation really satisfies the applicable canonical requirement route;
-
-then it cannot exhibit the **same structural failure** represented by the base scenario.
-
-This is the desired transport from one minimum fixture to a larger case family.
+The implication is valid by contradiction, but its base premise is not supplied by a few passing tests. Current A3/A4/A6 evidence supports **tested conforming implementations on frozen branches**. Extending that evidence to all traces requires a reachability/refinement proof or additional bounded executions with their own scope, not the withdrawn A23 all-six assertion.
 
 ---
 
@@ -295,7 +278,7 @@ It does not establish that:
 
 The theorem is deliberately scoped:
 
-> **same family kernel + failure reflection + conformance preservation + canonical conformance ⇒ no same-family structural failure.**
+> **separately proved base guarantee + failure reflection + conformance preservation + canonical conformance ⇒ no same-family structural failure. Passing finite branches is not the base universal guarantee.**
 
 ---
 
@@ -365,7 +348,7 @@ Therefore:
 \text{case-family extension}
 \]
 
-is an information-refinement chain, while A23 supplies the reverse conformance guarantee.
+is an information-refinement chain. The current reverse-conformance status must be read per principle in A23; §6 identifies the fixture evidence and the still-required base guarantee.
 
 ---
 

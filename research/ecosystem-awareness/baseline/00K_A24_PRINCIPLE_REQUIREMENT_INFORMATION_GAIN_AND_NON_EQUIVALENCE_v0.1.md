@@ -1,5 +1,7 @@
 # 00K-A24 — Principle ↔ Requirement Refinement, Information Gain & Non-Equivalence Annex — v0.1
 
+> **A23 audit qualification:** the reverse all-six sufficiency statements below are historical conditional arguments, not a currently closed result. A23 now certifies only its finite P1/P2/P4 projections and records P3/P5/P6 countermodels. The information/non-equivalence discussion does not supply the missing reverse proof. See [current A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md).
+
 | | |
 |---|---|
 | **Principle semantics** | [02A](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) · [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) |

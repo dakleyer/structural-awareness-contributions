@@ -85,19 +85,9 @@ Out of family:
 
 ## 7. Conformance transfer
 
-For an admitted extension:
+The evidence route is admission → [00K-A3 Route Q and matched-conflict controls](./fixtures/00K-A3-P3-00F/README.md) → no false closure on the tested P3 branches. The broader P6/P1/P5 family is not certified by this isolated result.
 
-\[
-F_F\Rightarrow
-(\neg P6\lor\neg P1\lor\neg P3\lor\neg P5)
-\]
-
-with P2 joining HOLD/search branches.
-
-A23 makes the applicable 00F S/T route sufficient for those P invariants.
-
-Hence a requirements-conforming in-family extension cannot exhibit the same local-correct/system-incompatible failure predicate, although it may fail for unrelated reasons.
-
+The [A25 §6 evidence boundary](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) applies: X1–X7 admit a mapping; passing frozen branches supports that implementation. A guarantee over every admitted extension additionally requires a separately proved base guarantee plus failure reflection and conformance preservation. Each listed domain remains a design case until separately executed or proved within a declared scope.
 
 ## Success-case route
 

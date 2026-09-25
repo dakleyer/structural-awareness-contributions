@@ -124,19 +124,9 @@ Out of family:
 
 ## 7. Conformance transfer
 
-For every admitted extension:
+The evidence route is admission → [corrected 00K-A6 Route Q](./fixtures/00K-A6-P6-00G/README.md) → correlated F rejected and independent G accepted under equal authority on the tested branches. This does not establish every conversational or multi-agent extension.
 
-\[
-F_G\Rightarrow
-(\neg P6\lor\neg P1\lor\neg P4\lor\neg P3)
-\]
-
-with P5 when the transition is a genuine material-time/frame change that is not requalified.
-
-By A23, full conformance with the inherited S/T route entails those invariants. Therefore a conforming conversational or multi-agent implementation cannot exhibit the same **correlated-claim → false-context → unauthorized mission/role drift** predicate.
-
-This does not claim that the requirements eliminate every form of LLM sycophancy.
-
+The [A25 §6 evidence boundary](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md#6-evidence-routes-and-conditional-transfer) applies: X1–X7 admit a mapping; passing frozen branches supports that implementation. A guarantee over every admitted extension additionally requires a separately proved base guarantee plus failure reflection and conformance preservation. Each listed domain remains a design case until separately executed or proved within a declared scope.
 
 ## Success-case route
 

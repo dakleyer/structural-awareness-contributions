@@ -153,7 +153,7 @@ Changing labels is not sufficient; semantic relations must map.
 
 ---
 
-## 5. No-new-requirement theorem
+## 5. Conditional no-new-requirement argument
 
 Let \(C'\) be an admitted Success Model Case extension.
 
@@ -165,7 +165,7 @@ C'\in Family(C)
 
 only if the same structural failure kernel and inherited requirement route are preserved.
 
-A23 gives:
+A23 formerly supplied the following all-six premise; it is now **unclosed**, with P3/P5/P6 countermodels in the revised reduction. The derivation below is conditional on separately establishing this premise for the full inherited route:
 
 \[
 Conf_{R_C}(C')\Rightarrow \bigwedge_{i\in I_C}P_i.
@@ -190,7 +190,7 @@ Conf_{R_C}(C')\land PositiveControlsPass
 \Rightarrow G_C(C').
 \]
 
-No S15 is required for this transfer.
+If all of those premises are independently established, no S15 follows merely from this transfer. The current A3/A4/A6 results are finite executed branches, as bounded in A25 §6; they do not establish this universal premise.
 
 A new S# is justified only if an extension cannot be represented through the current A21 object/operator grammar without losing a decision-material obligation.
 
