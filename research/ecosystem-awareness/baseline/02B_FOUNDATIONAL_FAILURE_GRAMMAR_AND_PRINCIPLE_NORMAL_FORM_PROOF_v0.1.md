@@ -1,5 +1,8 @@
 # 02B — Foundational Failure Grammar & P1–P6 Syntactic Normal-Form Proof — v0.1
 
+> **Preserved explanatory companion.** The preferred syntactic closure proof is [02B — Foundational Syntax, Normal Forms & Principle Closure](./02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md). This file remains useful for the ordered-normalizer presentation but is not the canonical proof route.
+
+
 | | |
 |---|---|
 | **Upstream foundation** | [01 — Integrated Foundational Theory](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) · [02 — Epistemic Safety Principles & Control Matrix](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) |
