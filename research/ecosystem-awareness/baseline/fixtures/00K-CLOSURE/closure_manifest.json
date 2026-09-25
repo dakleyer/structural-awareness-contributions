@@ -1,0 +1,126 @@
+{
+  "version": "0.1",
+  "foundational_controls": {
+    "I0": [
+      "P1"
+    ],
+    "I1": [
+      "P2"
+    ],
+    "I2": [
+      "P3"
+    ],
+    "O0": [
+      "P1"
+    ],
+    "O1": [
+      "P2"
+    ],
+    "O2": [
+      "P6"
+    ],
+    "E0-I": [
+      "P1"
+    ],
+    "E1-I": [
+      "P1",
+      "P2"
+    ],
+    "E2-I": [
+      "P1",
+      "P3"
+    ],
+    "E0-O": [
+      "P1"
+    ],
+    "E1-O": [
+      "P1",
+      "P2"
+    ],
+    "E2-O": [
+      "P1",
+      "P6"
+    ],
+    "temporal_material_change": [
+      "P5"
+    ],
+    "authority_typed_received_claim": [
+      "P4"
+    ],
+    "general_composition_law": [
+      "P6"
+    ]
+  },
+  "principles": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+  ],
+  "requirement_normal_forms": {
+    "S1": {
+      "primary": "P4",
+      "surface": "authority/grant standing"
+    },
+    "S2": {
+      "primary": "P1",
+      "surface": "principal decision basis"
+    },
+    "S3": {
+      "primary": "P2",
+      "surface": "regime/context transition"
+    },
+    "S4": {
+      "primary": "P2",
+      "surface": "oversight capacity"
+    },
+    "S5": {
+      "primary": "P3",
+      "surface": "operational indeterminacy/containment"
+    },
+    "S6": {
+      "primary": "P4",
+      "surface": "qualified trust/evidence handoff"
+    },
+    "S7": {
+      "primary": "P4",
+      "surface": "identity/representation"
+    },
+    "S8": {
+      "primary": "P4",
+      "surface": "delegation/non-amplification"
+    },
+    "S9": {
+      "primary": "P6",
+      "surface": "multi-principal composition"
+    },
+    "S10": {
+      "primary": "P5",
+      "surface": "commitment/material change"
+    },
+    "S11": {
+      "primary": "P6",
+      "surface": "policy/objective cross-domain integrity"
+    },
+    "S12": {
+      "primary": "P4",
+      "surface": "accountability/challenge/repair"
+    },
+    "S13": {
+      "primary": "P4",
+      "surface": "authority/intervention history"
+    },
+    "S14": {
+      "primary": "P1",
+      "surface": "evidence-to-decision assessment"
+    }
+  },
+  "proofs": {
+    "foundation_semantic": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+    "foundation_syntax": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md",
+    "principle_requirement_semantic": "research/ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md",
+    "requirement_closure": "research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_NORMAL_FORM_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md"
+  }
+}
