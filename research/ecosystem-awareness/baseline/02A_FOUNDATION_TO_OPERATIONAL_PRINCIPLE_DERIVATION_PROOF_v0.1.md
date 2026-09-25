@@ -5,11 +5,14 @@
 | **Role** | additive semantic bridge; does not replace 01, 02 or 00K |
 | **Upstream** | [01 — Integrated Foundational Theory](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) · [02 — Epistemic Safety Principles & Control Matrix](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) |
 | **Downstream** | [00K — Six-Principle Sufficiency & Adversarial Ablation Test](./00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) |
+| **Syntactic normal-form proof** | [02B](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) |
 | **Companion traceability proof** | [00K-A19](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) |
 | **Status** | working derivation proof; no change to controlled/frozen source semantics |
 | **Date** | 25 September 2026 |
 
-> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. Each is a compact operational projection of an identifiable upstream semantic invariant. Five are direct projections of the foundational/control model; P4 is an explicit boundary specialization obtained when the received proposition being qualified is an authority/representation claim. This document records the derivation and its limits.
+> **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a total, deterministic and surjective syntactic normalizer over A/B/C/D, Type 0/1/2 and the declared locus/propagation/time/claim axes.
+
+> P1–P6 Each is a compact operational projection of an identifiable upstream semantic invariant. Five are direct projections of the foundational/control model; P4 is an explicit boundary specialization obtained when the received proposition being qualified is an authority/representation claim. This document records the derivation and its limits.
 
 ---
 
