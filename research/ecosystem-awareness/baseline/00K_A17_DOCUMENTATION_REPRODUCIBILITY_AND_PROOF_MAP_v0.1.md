@@ -13,7 +13,7 @@
 | **Foundation syntactic closure** | [02B](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) |
 | **Requirement grammar closure** | [00K-A21](./00K_A21_REQUIREMENT_GRAMMAR_CLOSURE_AND_UNIQUENESS_PROOF_v0.1.md) |
 | **Foundational syntactic closure** | [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) |
-| **Requirement closure / relative completeness** | [00K-A21](./00K_A21_REQUIREMENT_NORMAL_FORM_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
+| **Requirement closure / relative completeness** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **CI reproduction** | [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) |
 | **Date** | 25 September 2026 |
 
@@ -64,7 +64,7 @@ For a new technical reviewer:
 | **02B** | foundational syntax / principle closure proof | A/B/C/D + Type-0/1/2 + admitted operators normalize to P1–P6 |
 | **A21** | requirement basis closure / relative completeness | declared decision-frame lifecycle atoms normalize to S1–S14 |
 | **A21** | requirement grammar closure / uniqueness proof | exact 14 normal forms relative to the declared decision-boundary ontology |
-| **A21** | requirement normal-form closure / relative completeness proof | tests whether an in-scope primitive requirement can escape S1–S14 normalization |
+| **A21** | requirement-basis closure / relative completeness proof | tests whether an in-scope primitive requirement can escape S1–S14 normalization |
 
 ---
 
