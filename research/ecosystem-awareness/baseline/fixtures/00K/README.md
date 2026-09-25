@@ -17,6 +17,8 @@
 
 **Aggregate regression count: 89 passing symbolic tests.**
 
+Repository CI: [**00K symbolic ablations — successful run #1**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36091488903). Six matrix jobs independently re-run the expected counts on Python 3.13.
+
 The count is not a score and not 89 independent experiments. It is the current executable regression surface.
 
 ## Common test discipline
