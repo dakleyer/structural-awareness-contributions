@@ -1,34 +1,30 @@
-# 00K-TRACE — Machine-readable traceability integrity
+# 00K-TRACE — semantic/documentary traceability integrity
 
-**Semantic proof:** [00K-A19](../../00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md)  
-**Upstream semantic derivation:** [02A](../../02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md)  
-**Foundation syntactic closure:** [02B](../../02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md)  
-**Requirement semantic traceability:** [A19](../../00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md)  
-**Requirement grammar closure:** [A21](../../00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md)
+**Foundation semantic derivation:** [02A](../../02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md)  
+**Principle↔requirement semantic traceability:** [A19](../../00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md)  
+**Syntactic closure package:** [00K-CLOSURE](../00K-CLOSURE/README.md)
 
-This package checks the **structural integrity** of the Foundation → P → S → scenario → harness → proof chain.
+This package checks the structural integrity of the:
 
-It does not decide whether a semantic mapping is intellectually correct; that argument is in 02A/A19. It prevents silent documentary drift once the mapping has been reviewed.
+Foundation → P1–P6 → S1–S14 → scenario → harness → proof
 
-Run from this directory:
+graph.
+
+It verifies:
+
+- exactly P1–P6 and S1–S14 are registered;
+- every S has one declared primary P;
+- every P owns at least one primary S;
+- the six ablation anchors are present;
+- each P has a scenario, harness, corpus witness and mathematical witness; and
+- every referenced repository path exists.
+
+It deliberately does **not** duplicate the syntactic grammar/closure validator. That responsibility belongs to 00K-CLOSURE.
+
+Run:
 
 ~~~bash
 python validate_traceability.py
-python validate_normal_forms.py
 ~~~
 
-Expected:
-
-~~~text
-00K semantic traceability integrity: PASS
-Principles: 6/6
-Requirements: 14/14
-Anchor routes: 6/6
-Foundation normal forms: 6/6
-Requirement normal forms: 14/14
-~~~
-
-This meta-check is not counted in the 379 symbolic ablation tests.
-
-
-`normal_form_manifest.json` records the declared foundation language, admitted primitive forms, P1–P6 normal forms, requirement language and S1–S14 normal forms. `validate_normal_forms.py` checks both marginal coverage and every admitted object/operator atom.
+This meta-check is not part of the 379 symbolic ablation count.
