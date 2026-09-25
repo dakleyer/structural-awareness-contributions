@@ -4,6 +4,7 @@
 |---|---|
 | **ID** | 00E |
 | **Type** | Reference failure scenario (fictional) and quality-gate plan |
+| **Case-study role** | Minimum concrete instantiation of the [00E extensible case family](./00E_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) |
 | **Status** | Canonical working · fictional reference scenario · not a benchmark result |
 | **Version · date** | v0.1 · 2026-09-17 |
 | **Current working revision** | 2026-09-24 · external-corroboration and implementation-profile synchronization; scenario facts and canonical S/T/H ownership unchanged |
