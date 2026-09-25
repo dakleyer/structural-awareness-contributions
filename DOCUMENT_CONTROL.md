@@ -88,7 +88,9 @@ The approved navigation target remains **9 controlled README files**. Local exec
 3. `research/ecosystem-awareness/README.md` — Ecosystem Awareness router.
 4. `research/ecosystem-awareness/baseline/README.md` — canonical EA corpus.
 5. `research/ecosystem-awareness/fg-tida/README.md` — FG-TIDA application package.
-6. `research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md` — operative fixture-family index.\n\n**00K package READMEs are local execution documentation, not additional controlled navigation owners.** Their stable public route is owned by the canonical EA corpus and [00K-A17 Documentation, Reproducibility & Proof Map](./research/ecosystem-awareness/baseline/00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md).
+6. `research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md` — operative fixture-family index.
+
+**00K package READMEs are local execution documentation, not additional controlled navigation owners.** Their stable public route is owned by the canonical EA corpus and [00K-A17 Documentation, Reproducibility & Proof Map](./research/ecosystem-awareness/baseline/00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md).
 7. `research/regime-awareness/README.md` — Regime Awareness corpus.
 8. `standards/minimum-sufficient-control/README.md` — MSCA corpus.
 9. `submissions/README.md` — public submissions router.
