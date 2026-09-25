@@ -1,126 +1,487 @@
 {
   "version": "0.1",
-  "foundational_controls": {
-    "I0": [
-      "P1"
+  "foundation_language": {
+    "positions": [
+      "A",
+      "B",
+      "C",
+      "D"
     ],
-    "I1": [
-      "P2"
+    "types": [
+      "T0",
+      "T1",
+      "T2"
     ],
-    "I2": [
-      "P3"
+    "operators": [
+      "LOCAL",
+      "SEARCH",
+      "RECEIVE",
+      "ACT",
+      "SHIFT",
+      "COMPOSE"
     ],
-    "O0": [
-      "P1"
+    "qualifiers": [
+      "scope",
+      "source",
+      "provenance",
+      "freshness",
+      "dependency",
+      "authority"
     ],
-    "O1": [
-      "P2"
-    ],
-    "O2": [
-      "P6"
-    ],
-    "E0-I": [
-      "P1"
-    ],
-    "E1-I": [
-      "P1",
-      "P2"
-    ],
-    "E2-I": [
-      "P1",
-      "P3"
-    ],
-    "E0-O": [
-      "P1"
-    ],
-    "E1-O": [
-      "P1",
-      "P2"
-    ],
-    "E2-O": [
-      "P1",
-      "P6"
-    ],
-    "temporal_material_change": [
-      "P5"
-    ],
-    "authority_typed_received_claim": [
-      "P4"
-    ],
-    "general_composition_law": [
-      "P6"
-    ]
+    "admitted_forms": {
+      "G0": {
+        "types": [
+          "T0",
+          "T2"
+        ],
+        "operators": [
+          "LOCAL",
+          "RECEIVE"
+        ],
+        "principle": "P1"
+      },
+      "G1": {
+        "types": [
+          "T1"
+        ],
+        "operators": [
+          "SEARCH"
+        ],
+        "principle": "P2"
+      },
+      "G2": {
+        "types": [
+          "T2"
+        ],
+        "operators": [
+          "ACT"
+        ],
+        "principle": "P3"
+      },
+      "G3": {
+        "types": [
+          "T2"
+        ],
+        "operators": [
+          "RECEIVE",
+          "COMPOSE"
+        ],
+        "qualifiers": [
+          "authority",
+          "scope",
+          "provenance"
+        ],
+        "principle": "P4"
+      },
+      "G4": {
+        "types": [
+          "T2"
+        ],
+        "operators": [
+          "SHIFT",
+          "ACT"
+        ],
+        "qualifiers": [
+          "freshness"
+        ],
+        "principle": "P5"
+      },
+      "G5": {
+        "types": [
+          "T2"
+        ],
+        "operators": [
+          "COMPOSE"
+        ],
+        "qualifiers": [
+          "dependency",
+          "scope",
+          "source"
+        ],
+        "principle": "P6"
+      }
+    }
   },
-  "principles": [
-    "P1",
-    "P2",
-    "P3",
-    "P4",
-    "P5",
-    "P6"
-  ],
+  "principle_normal_forms": {
+    "P1": {
+      "operators": [
+        "LOCAL",
+        "RECEIVE"
+      ],
+      "types": [
+        "T0",
+        "T2"
+      ],
+      "role": "classification_residual_preservation"
+    },
+    "P2": {
+      "operators": [
+        "SEARCH"
+      ],
+      "types": [
+        "T1"
+      ],
+      "role": "bounded_determination"
+    },
+    "P3": {
+      "operators": [
+        "ACT"
+      ],
+      "types": [
+        "T2"
+      ],
+      "role": "local_non_promotion"
+    },
+    "P4": {
+      "operators": [
+        "RECEIVE",
+        "COMPOSE"
+      ],
+      "types": [
+        "T2"
+      ],
+      "qualifiers": [
+        "authority",
+        "scope",
+        "provenance"
+      ],
+      "role": "authority_non_amplification"
+    },
+    "P5": {
+      "operators": [
+        "SHIFT",
+        "ACT"
+      ],
+      "types": [
+        "T2"
+      ],
+      "qualifiers": [
+        "freshness"
+      ],
+      "role": "material_change_requalification"
+    },
+    "P6": {
+      "operators": [
+        "COMPOSE"
+      ],
+      "types": [
+        "T2"
+      ],
+      "qualifiers": [
+        "dependency",
+        "scope",
+        "source"
+      ],
+      "role": "composition_non_substitution"
+    }
+  },
+  "requirement_language": {
+    "objects": [
+      "authority",
+      "preference",
+      "identity",
+      "human",
+      "evidence",
+      "policy",
+      "commitment",
+      "history",
+      "frame",
+      "unresolved",
+      "multi_principal"
+    ],
+    "operators": [
+      "QUALIFY",
+      "ESCALATE",
+      "CONTAIN",
+      "HANDOFF",
+      "BIND",
+      "DELEGATE",
+      "COMPOSE",
+      "SHIFT",
+      "INTERVENE",
+      "REPAIR",
+      "ASSESS"
+    ],
+    "admitted_atoms": {
+      "QUALIFY": [
+        "authority",
+        "preference",
+        "identity",
+        "evidence",
+        "policy"
+      ],
+      "ESCALATE": [
+        "frame",
+        "human",
+        "unresolved",
+        "commitment"
+      ],
+      "CONTAIN": [
+        "unresolved"
+      ],
+      "HANDOFF": [
+        "authority",
+        "preference",
+        "identity",
+        "human",
+        "evidence",
+        "policy",
+        "commitment",
+        "history",
+        "frame",
+        "unresolved",
+        "multi_principal"
+      ],
+      "BIND": [
+        "identity"
+      ],
+      "DELEGATE": [
+        "authority"
+      ],
+      "COMPOSE": [
+        "multi_principal",
+        "authority",
+        "preference",
+        "policy",
+        "evidence"
+      ],
+      "SHIFT": [
+        "frame",
+        "commitment",
+        "policy",
+        "authority",
+        "evidence"
+      ],
+      "INTERVENE": [
+        "human",
+        "authority",
+        "history"
+      ],
+      "REPAIR": [
+        "history",
+        "evidence",
+        "authority"
+      ],
+      "ASSESS": [
+        "evidence"
+      ]
+    }
+  },
   "requirement_normal_forms": {
     "S1": {
-      "primary": "P4",
-      "surface": "authority/grant standing"
+      "objects": [
+        "authority"
+      ],
+      "operators": [
+        "QUALIFY",
+        "SHIFT"
+      ],
+      "principles": [
+        "P4",
+        "P5"
+      ]
     },
     "S2": {
-      "primary": "P1",
-      "surface": "principal decision basis"
+      "objects": [
+        "preference"
+      ],
+      "operators": [
+        "QUALIFY"
+      ],
+      "principles": [
+        "P1",
+        "P6"
+      ]
     },
     "S3": {
-      "primary": "P2",
-      "surface": "regime/context transition"
+      "objects": [
+        "frame"
+      ],
+      "operators": [
+        "ESCALATE",
+        "SHIFT"
+      ],
+      "principles": [
+        "P2",
+        "P3",
+        "P5"
+      ]
     },
     "S4": {
-      "primary": "P2",
-      "surface": "oversight capacity"
+      "objects": [
+        "human"
+      ],
+      "operators": [
+        "INTERVENE",
+        "ESCALATE"
+      ],
+      "principles": [
+        "P2",
+        "P3",
+        "P4"
+      ]
     },
     "S5": {
-      "primary": "P3",
-      "surface": "operational indeterminacy/containment"
+      "objects": [
+        "unresolved"
+      ],
+      "operators": [
+        "CONTAIN",
+        "ESCALATE"
+      ],
+      "principles": [
+        "P1",
+        "P2",
+        "P3",
+        "P5"
+      ]
     },
     "S6": {
-      "primary": "P4",
-      "surface": "qualified trust/evidence handoff"
+      "objects": [
+        "authority",
+        "preference",
+        "identity",
+        "human",
+        "evidence",
+        "policy",
+        "commitment",
+        "history",
+        "frame",
+        "unresolved",
+        "multi_principal"
+      ],
+      "operators": [
+        "HANDOFF"
+      ],
+      "principles": [
+        "P1",
+        "P4",
+        "P6"
+      ]
     },
     "S7": {
-      "primary": "P4",
-      "surface": "identity/representation"
+      "objects": [
+        "identity"
+      ],
+      "operators": [
+        "BIND",
+        "QUALIFY"
+      ],
+      "principles": [
+        "P4",
+        "P6"
+      ]
     },
     "S8": {
-      "primary": "P4",
-      "surface": "delegation/non-amplification"
+      "objects": [
+        "authority"
+      ],
+      "operators": [
+        "DELEGATE"
+      ],
+      "principles": [
+        "P4",
+        "P6"
+      ]
     },
     "S9": {
-      "primary": "P6",
-      "surface": "multi-principal composition"
+      "objects": [
+        "multi_principal",
+        "authority",
+        "preference",
+        "evidence",
+        "policy"
+      ],
+      "operators": [
+        "COMPOSE"
+      ],
+      "principles": [
+        "P6",
+        "P1",
+        "P4"
+      ]
     },
     "S10": {
-      "primary": "P5",
-      "surface": "commitment/material change"
+      "objects": [
+        "commitment"
+      ],
+      "operators": [
+        "SHIFT",
+        "ESCALATE"
+      ],
+      "principles": [
+        "P5",
+        "P1",
+        "P2"
+      ]
     },
     "S11": {
-      "primary": "P6",
-      "surface": "policy/objective cross-domain integrity"
+      "objects": [
+        "policy",
+        "preference"
+      ],
+      "operators": [
+        "QUALIFY",
+        "COMPOSE",
+        "SHIFT"
+      ],
+      "principles": [
+        "P6",
+        "P4",
+        "P5"
+      ]
     },
     "S12": {
-      "primary": "P4",
-      "surface": "accountability/challenge/repair"
+      "objects": [
+        "history",
+        "evidence"
+      ],
+      "operators": [
+        "REPAIR"
+      ],
+      "principles": [
+        "P4",
+        "P5"
+      ]
     },
     "S13": {
-      "primary": "P4",
-      "surface": "authority/intervention history"
+      "objects": [
+        "authority",
+        "history"
+      ],
+      "operators": [
+        "INTERVENE",
+        "REPAIR"
+      ],
+      "principles": [
+        "P4",
+        "P5",
+        "P6"
+      ]
     },
     "S14": {
-      "primary": "P1",
-      "surface": "evidence-to-decision assessment"
+      "objects": [
+        "evidence"
+      ],
+      "operators": [
+        "QUALIFY",
+        "ASSESS",
+        "SHIFT"
+      ],
+      "principles": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6"
+      ]
     }
   },
   "proofs": {
     "foundation_semantic": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
     "foundation_syntax": "research/ecosystem-awareness/baseline/02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md",
     "principle_requirement_semantic": "research/ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md",
-    "requirement_closure": "research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_NORMAL_FORM_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md"
+    "requirement_closure": "research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md"
   }
 }
