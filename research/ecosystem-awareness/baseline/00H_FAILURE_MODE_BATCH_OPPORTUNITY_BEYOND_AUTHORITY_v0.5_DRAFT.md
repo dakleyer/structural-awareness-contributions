@@ -16,7 +16,7 @@
 
 **Conceptual source:** [00D — Canonical Architecture Benchmark v0.3 Draft](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), branch **C12 — attractive inadmissible opportunity** and hypothesis **EP-BH2 — opportunity / admissibility / execution separation**; [Decision Boundary Challenge v0.2](../DECISION_BOUNDARY_CHALLENGE_v0.2.md), challenge family **DBC-C05 — attractive inadmissible opportunity** and the C12/re-contracting reference sequence; [01H — Participant-Local Ecosystem Positioning & Decision-Scoped Epistemic Opportunity](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md); [01J — Ecosystem Signalling](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), `RepositionIntent` / `AuthorityResponse`.
 
-**Companion requirements and bidirectional traceability:** [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). The preserved base/C12 route remains **S1, S2, S8, S11, S14 → T2, T3, T4 → H2, H4, H6** as assigned to EP-BH2 in 00D v0.3 §9. **V19/V20 additionally activate existing S7, S9, S12 and S13 surfaces because the scored decision depends on representation, delegation lineage, multi-principal composition and reconstructable authority history.** This is a scenario-coverage expansion using already frozen requirements; it creates no S15+, T5+, H7+ or new canonical KPI family.
+**Companion requirements and bidirectional traceability:** [00 — Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). The preserved base/C12 route remains **S1, S2, S8, S11, S14 → T2, T3, T4 → H2, H4, H6** as assigned to EP-BH2 in 00D v0.3 §9. **V19/V20 additionally activate existing S7, S9, S12 and S13 surfaces because the scored decision depends on representation, delegation lineage, multi-principal composition and reconstructable authority history.** This is a scenario-coverage expansion using already frozen requirements; it creates no S15+, T5+, H7+ or new canonical KPI family.
 
 **Status boundary:** C12 remains a provisional branch in Benchmark-vNext / 00D v0.3 Draft, not yet admitted through W3 as an executable fixture. This document prepares one candidate scenario and its quality-gate logic for eventual admission; it does not itself constitute admission.
 
@@ -488,7 +488,7 @@ For experimental isolation, 00H models the remediation-authority path as **Finan
 
 Real deployments may also involve legal, compliance, consumer-protection, accounting, regulator-notification, privacy or jurisdiction-specific owners. Those obligations are held constant/out of scope in this fixture so the experiment can isolate the agent-mandate / authority-transition question. A real-world implementation MUST represent any additional legitimate co-owners or mandatory notification paths rather than silently routing everything through Finance Ops.
 
-## 10. Gate register: challenge → sufficiency → hypothesis → KPI → disposition
+## 10. Gate register: requirement → sufficiency → hypothesis → KPI → disposition
 
 The base route remains the v0.3 route for ordinary 00H branches. **V19/V20 add existing canonical surfaces rather than inventing new requirements:** S7 identity/representation, S8 bounded subdelegation/non-amplification, S9 multi-principal composition, S12 accountability/reconstruction and S13 authority-history/intervention-history become mandatory where the decision depends on a delegation chain or composed campaign.
 
@@ -1207,7 +1207,7 @@ Read with:
 
 - [Decision Boundary Challenge v0.2](../DECISION_BOUNDARY_CHALLENGE_v0.2.md), especially **DBC-C05 — attractive inadmissible opportunity**, §6 C12/re-contracting reference sequence and §11.1 beneficial-opportunity rule;
 - [00D — Canonical Architecture Benchmark v0.3 Draft](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), branch C12, EP-BH2 and its §9 requirements-traceability row;
-- [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), for S1, S2, S8, S11, S14, T2, T3, T4, H2, H4, H6 exactly as defined there;
+- [00 — Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), for S1, S2, S8, S11, S14, T2, T3, T4, H2, H4, H6 exactly as defined there;
 - [01H — Participant-Local Ecosystem Positioning](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md);
 - [01J — Ecosystem Signalling](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), for `RepositionIntent` and `AuthorityResponse` exactly as specified there.
 
