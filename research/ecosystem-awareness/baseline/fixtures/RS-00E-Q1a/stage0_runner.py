@@ -172,9 +172,11 @@ def run(output: Path) -> None:
         for config, adapter in (("B1", conventional_b1), ("B3", ea_profiled_b3)):
             result = adapter(observation)
             events = play_events(observation, result)
-            if events[-1]["step"] > observation["deadline_step"]:
+            replay = adapter(observation)  # separate invocation before oracle is loaded
+            replay_events = play_events(observation, replay)
+            if max(events[-1]["step"], replay_events[-1]["step"]) > observation["deadline_step"]:
                 raise RuntimeError("STOP: modelled deadline exceeded")
-            pending.append((branch, config, observation, result, events))
+            pending.append((branch, config, observation, result, events, replay, replay_events))
 
     oracle_table = json.loads((HERE / "oracle_reference_v05.json").read_text())
     if set(oracle_table) != set(BRANCHES):
@@ -184,8 +186,9 @@ def run(output: Path) -> None:
                    "residual_scope_fields_retained": 0, "residual_scope_fields_required": 0,
                    "candidate_passes": 0, "primary_denominator": 2,
                    "burden_per_branch": {}} for c in CONFIGS}
-    for branch, config, observation, result, events in pending:
+    for branch, config, observation, result, events, replay, replay_events in pending:
         evaluation = score(branch, result, oracle_table[branch], observation)
+        replay_evaluation = score(branch, replay, oracle_table[branch], observation)
         if evaluation["candidate_status"] != "PASS":
             raise RuntimeError(f"candidate failure: {branch}/{config}")
         s = summary[config]
@@ -203,11 +206,9 @@ def run(output: Path) -> None:
                  "candidate": result, "post_run_evaluation": evaluation,
                  "deviations": []}
         first = canonical_trace_bytes(trace)
-        # Replay the same frozen input and adapter separately; no reused candidate result.
-        replay = ea_profiled_b3(observation) if config == "B3" else conventional_b1(observation)
         second = canonical_trace_bytes(dict(trace, candidate=replay,
-            runtime_events=play_events(observation, replay),
-            post_run_evaluation=score(branch, replay, oracle_table[branch], observation)))
+            runtime_events=replay_events,
+            post_run_evaluation=replay_evaluation))
         if first != second:
             raise RuntimeError(f"STOP: non-deterministic trace {branch}/{config}")
         for repeat, payload in ((1, first), (2, second)):
