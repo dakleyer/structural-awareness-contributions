@@ -12,6 +12,7 @@
 | **Shared-substrate mathematical independence** | [00K-A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Requirement basis closure / relative completeness** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **Reverse conformance sufficiency** | [00K-A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) |
+| **Information gain / non-equivalence** | [00K-A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) |
 | **Machine-readable integrity check** | [fixtures/00K-TRACE](./fixtures/00K-TRACE/README.md) |
 | **Status** | semantic traceability proof; no change to frozen requirement semantics |
 | **Date** | 25 September 2026 |
@@ -225,7 +226,7 @@ Therefore:
 
 This establishes **non-vacuous P→S traceability**. The stronger claim that S1–S14 are generator-complete for the declared decision-frame/lifecycle language is proved in [A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md).
 
-It does **not** claim that each anchor requirement is equivalent to the whole principle in every context. The reverse question — whether canonical S/T conformance is sufficient to guarantee the applicable P invariant — is proved separately in [A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md).
+It does **not** claim that each anchor requirement is equivalent to the whole principle in every context. The reverse question — whether canonical S/T conformance is sufficient to guarantee the applicable P invariant — is proved separately in [A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md). The information asymmetry between the compact P basis and the richer S/T specification is formalized in [A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md).
 
 ---
 
