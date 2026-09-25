@@ -2,9 +2,9 @@
   "schema_version": "0.1",
   "status": "execution-lock manifest; not a replacement normative register",
   "parent": "../../00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md",
-  "core_expected_tests": 289,
+  "core_expected_tests": 346,
   "supplemental_expected_tests": 33,
-  "campaign_expected_tests": 322,
+  "campaign_expected_tests": 379,
   "true_substitute_rule": "A repair must pass the frozen negative and positive/boundary controls under the same declared resource/authority boundary without implementing an operationally equivalent form of the removed invariant.",
   "principles": [
     {
@@ -79,12 +79,14 @@
       "id": "P6",
       "invariant": "Locally valid or repeated determinations must not be promoted to ecosystem truth or silently substituted across principals/domains without explicit dependency, independence or compatibility composition.",
       "core_fixture": "../00K-A6-P6-00G",
-      "expected_tests": 17,
+      "expected_tests": 74,
       "negative_control": "matched-authority correlated-source false frame",
       "positive_control": "matched-authority materially independent support for legitimate transition",
       "strong_peer_classification": "SEMANTIC_RECONSTRUCTION",
       "known_confounds": [
-        "unmodified 00G F/G changes both source independence and transition authority; A6a finds an authority-only TRUE SUBSTITUTE for that naive pair"
+        "unmodified 00G F/G changes both source independence and transition authority; A6a finds an authority-only TRUE SUBSTITUTE for that naive pair",
+        "counting distinct immediate source IDs is a partial implementation because apparently distinct sources may share a transitive material root",
+        "hardened A6 equalizes identities, organizations, immediate source count, signatures, freshness, confidence, timing and content diversity while varying only transitive dependency"
       ]
     }
   ],
