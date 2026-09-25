@@ -8,7 +8,7 @@
 | **Version · date** | v0.1 Draft · 2026-09-24 |
 | **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning |
 | **Reference industrial case** | [FG-TIDA Theme #17 — Digital Rights Infrastructure for Text: A Production Use Case for Agent Identity](https://github.com/FG-TIDA/themes/issues/17), proposed publicly by Alexandre Leforestier (Panodyssey) |
-| **Canonical requirements basis** | [00 — Canonical Requirements: Challenges, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
+| **Canonical requirements basis** | [00 — Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
 | **Change-control basis** | [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 
 Digital rights infrastructures are strongest where they make authorship, provenance, permission and accountability explicit. They become dangerous when valid but narrower records travel further — and become easier to consume — than the original source relationship they were never entitled to replace. 00J tests exactly that inversion.
@@ -26,7 +26,7 @@ The scenario is intentionally concrete. It does not ask whether every provenance
 The quality plan therefore follows this order:
 
 1. declare the material decision scope and fixture facts;
-2. select the applicable existing **S1–S14** challenges;
+2. select the applicable existing **S1–S14** requirements;
 3. apply the existing **T1–T4** sufficiently-good conditions;
 4. state the applicable **H1–H6** hypotheses;
 5. use the canonical KPI/falsification measures;
