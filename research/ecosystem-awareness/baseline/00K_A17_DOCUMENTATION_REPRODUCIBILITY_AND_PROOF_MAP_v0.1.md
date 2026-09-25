@@ -8,6 +8,8 @@
 | **Corpus-grounded formal proof** | [00K-A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) |
 | **Formal sketch** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Preferred pure mathematical proof** | [00K-A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
+| **Foundation syntactic closure** | [02B](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) |
+| **Requirement grammar closure** | [00K-A21](./00K_A21_REQUIREMENT_GRAMMAR_CLOSURE_AND_UNIQUENESS_PROOF_v0.1.md) |
 | **Foundational syntactic closure** | [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) |
 | **Requirement closure / relative completeness** | [00K-A21](./00K_A21_REQUIREMENT_NORMAL_FORM_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **CI reproduction** | [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) |
@@ -57,6 +59,7 @@ For a new technical reviewer:
 | **A18** | formal independence sketch | lightweight Boolean sanity check; not the strongest independence claim |
 | **A19** | principle–requirement semantic conservation proof | verifies non-vacuous P→S→scenario→ablation traceability |
 | **A20** | shared-substrate mathematical independence proof | preferred pure mathematical independence result relative to common coherence theory B |
+| **A21** | requirement grammar closure / uniqueness proof | exact 14 normal forms relative to the declared decision-boundary ontology |
 | **A21** | requirement normal-form closure / relative completeness proof | tests whether an in-scope primitive requirement can escape S1–S14 normalization |
 
 ---
