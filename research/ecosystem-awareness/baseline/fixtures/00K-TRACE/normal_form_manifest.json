@@ -326,7 +326,8 @@
         "unresolved"
       ],
       "operators": [
-        "CONTAIN"
+        "CONTAIN",
+        "ESCALATE"
       ],
       "principles": [
         "P1",
@@ -463,6 +464,7 @@
         "evidence"
       ],
       "operators": [
+        "QUALIFY",
         "ASSESS",
         "SHIFT"
       ],
