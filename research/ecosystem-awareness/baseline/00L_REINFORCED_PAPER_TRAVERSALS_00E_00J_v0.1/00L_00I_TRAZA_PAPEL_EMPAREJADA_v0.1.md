@@ -6,6 +6,8 @@
 
 **Evidencia complementaria:** [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) enlaza 00K-A5/P5, ejecutado simbólicamente en trabajos previos, y el skeleton 00I-AWS aún sin ejecución. El peer que liga la base material completa sí pasa el fixture A5; ese resultado no ejecuta AWS ni verifica el hueco V10 check→act.
 
+[A10](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) ejecuta continuidad frente a un cambio solo de `freeze_active`: el peer de base completa pasa ambos y el comparador de generación sola ejecuta indebidamente bajo freeze. No cubre V10.
+
 En `T1`, Patch A fue calificado con incidente abierto, diagnóstico y configuración `g9`. Antes de `t_act`, se publica Patch B, el incidente se resuelve y entra un freeze. El contrato exige volver a leer fuente, versión, freeze, diagnóstico e intervención en el límite de acción. La continuidad válida mantiene todas las precondiciones materiales.
 
 ## Recorrido R0/R1/R2 y ruta positiva

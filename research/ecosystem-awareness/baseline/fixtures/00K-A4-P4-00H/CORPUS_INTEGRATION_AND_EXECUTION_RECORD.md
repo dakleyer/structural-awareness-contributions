@@ -159,3 +159,7 @@ fixture family was advanced by:
 The current active corpus composition is **29 tests**: 11 reviewed predecessor tests + 10 reviewed successor additions + 6 independent U/G indistinguishability checks + 2 bounded grid checks. During integration, a duplicate successor-alignment file was removed after confirming the reviewed `test_ablation_A4_v02_additions.py` already carried those checks, and the original reviewed `ablation_A4.py` was restored byte-for-byte. A2-L remains an additive peer implementation in `a2l_strong_peer.py`.
 
 The evidence claim remains unchanged in kind: this is a runnable symbolic fixture result, not a live agent/product test and not universal proof of P4.
+
+## Addendum — 25 September 2026, strict 00H-MAT-1 boundary
+
+The earlier byte-for-byte preservation statement above describes the reviewed predecessor at the time of that integration. A later additive 00L verification found that the active harness used `>= USD 10,000` whereas the scenario's frozen `00H-MAT-1` requires **more than USD 10,000**. The active `ablation_A4.py` now uses `>` for the exposure threshold; the reviewed ZIP is untouched. [00L-A10](../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) records the failing-before/fixed-after boundary check and the limited standard-library replay. Previously published full-suite totals apply to the previous code revision; the full `pytest` suite has not been rerun after this one-operator correction in the current environment.

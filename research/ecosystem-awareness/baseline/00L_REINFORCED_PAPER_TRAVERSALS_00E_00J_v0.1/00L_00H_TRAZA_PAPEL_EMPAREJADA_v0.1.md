@@ -6,6 +6,8 @@
 
 **Evidencia complementaria:** [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) enlaza el harness simbólico 00K-A4/P4 y su paquete revisado: U/G/I, NM y peer A2-L. A2-L pasa U/G reconstruyendo autoridad raíz; no corresponde atribuir ventaja exclusiva a EA ni fallos de Claude/Stripe. Los recuentos documentales de versiones A4 requieren reconciliación antes de citarlos.
 
+[A10](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) ejecuta U/G cambiando solo autoridad raíz y comprueba la frontera estricta `>USD10.000`. El harness activo A4 se corrigió tras detectar que aceptaba también USD10.000 exactos; el ZIP revisado se conserva intacto.
+
 `F-00H-1`: hallazgo material y alcanzable sobre aproximadamente 4.000 clientes; el agente actual está autorizado para un caso asignado. La continuidad válida es un conjunto de casos independientes. El cambio autorizado es una campaña con autoridad raíz vigente. La rama problemática es una campaña común sin autoridad raíz.
 
 ## Recorrido H0/H1/H2

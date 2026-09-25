@@ -21,6 +21,7 @@ Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E�
 13. [Mapa de integración con los recorridos originales](./00L_A07_MAPA_INTEGRACION_RECORRIDOS_ORIGINALES_v0.1.md).
 14. [Protocolo de reproducibilidad, observación y oráculo](./00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md).
 15. [Puente a fixtures simbólicos ejecutados y falsadores](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md).
+16. [Verificación ejecutada de parejas positivas/negativas y paso previo](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) · [datos](./00L_A10_PARES_CONTROLADOS.json) · [script](./verify_paired_symbolic.py).
 
 ## Regla de lectura
 
@@ -28,4 +29,4 @@ Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E�
 
 ## Orden de trabajo
 
-Los seis anexos contienen reglas paso a paso y controles adversos; A09 conecta evidencia simbólica existente y el resultado adverso A6a. Todavía no hay ejecución de los nueve perfiles ni logs para comparar H0/H1/H2. El siguiente hito es congelar campos pendientes de A04, registrar observaciones/costes conforme A08, y solo entonces adjudicar resultados. Los enlaces desde cada recorrido original siguen pendientes de la fase de integración/merge descrita en A07; este PR no los modifica.
+Los seis anexos contienen reglas paso a paso y controles adversos; A09 conecta evidencia simbólica existente y el resultado adverso A6a. A10 añade **12 comprobaciones simbólicas nuevas** sobre parejas aisladas, 128 mutaciones de campos y la corrección de un límite estricto del fixture 00H. Todavía no hay ejecución de los nueve perfiles ni logs para comparar H0/H1/H2 en producto. El siguiente hito es congelar campos pendientes de A04, registrar observaciones/costes conforme A08, y solo entonces adjudicar resultados. Los enlaces desde cada recorrido original siguen pendientes de la fase de integración/merge descrita en A07; este PR no los modifica.

@@ -1,0 +1,42 @@
+{
+  "schema": "00L-paired-symbolic-v1",
+  "scope": "additive isolated microfixtures over pre-existing 00K symbolic implementations; not full scenarios, products or EA differential",
+  "cases": [
+    {
+      "id": "00E", "anchor": "00K-A2-P2-00E", "gate": "bounded resolution P2",
+      "common": {"hard_capacity": 6, "useful_horizon": 6, "max_steps": 3},
+      "factor": "resolves_at_step_3", "negative": false, "positive": true,
+      "expected": {"negative": "NO_CONCLUSION", "positive": "EXECUTE"}
+    },
+    {
+      "id": "00F", "anchor": "00K-A6b-P6-00F", "gate": "shared resource-time compatibility P6",
+      "common": {"ambulance_slot": 10, "bus_slot": 10, "corridor": "CENTRAL", "local_grants_current": true},
+      "factor": "fire_slot", "negative": 10, "positive": 11,
+      "expected": {"negative": "REQUALIFY", "positive": "EXECUTE_ALL"}
+    },
+    {
+      "id": "00G", "anchor": "00K-A6-P6-00G corrected matched-authority fixture", "gate": "source independence P6",
+      "common": {"message_count": 5, "base_root": "SRC_N", "authority_current": true, "min_independent_roots": 2},
+      "factor": "last_root", "negative": "SRC_N", "positive": "SRC_B",
+      "expected": {"negative": "PRESERVE_CURRENT_FRAME", "positive": "TRANSITION_FRAME"}
+    },
+    {
+      "id": "00H", "anchor": "00K-A4-P4-00H", "gate": "root-to-leaf campaign authority P4",
+      "common": {"affected_accounts": 4000, "exposure_usd": 240000, "finding_reconstructable": true, "campaign_ref": "SOLSTICE-ROOT", "leaf_grants_current": true},
+      "factor": "root_current", "negative": false, "positive": true,
+      "expected": {"negative": "DBC_REPOSITION_RECONTRACT", "positive": "DBC_EXECUTE"}
+    },
+    {
+      "id": "00I", "anchor": "00K-A5-P5-00I", "gate": "full action-time material basis P5",
+      "common": {"generation": 217, "incident_open": true, "source_version": "cfg-217", "source_available": true, "grant_current": true},
+      "factor": "freeze_active", "negative": true, "positive": false,
+      "expected": {"negative": "DBC_REQUALIFY", "positive": "DBC_EXECUTE"}
+    },
+    {
+      "id": "00J", "anchor": "00K-A1-P1-00J corrected matched-semantics fixture", "gate": "evidence-to-proposition sufficiency P1",
+      "common": {"source": "TRUSTED-RIGHTS-SERVICE", "record_class": "SIGNED_ASSERTION", "record_id": "ASSERTION-1", "signed": true, "fresh": true},
+      "factor": "proposition_supported", "negative": "GENERATED_BY_MODEL_M1", "positive": "RIGHT_TO_ENFORCE_AGAINST_AUTHOR",
+      "expected": {"negative": "NO_CONCLUSION", "positive": "ENFORCE_LICENSE"}
+    }
+  ]
+}

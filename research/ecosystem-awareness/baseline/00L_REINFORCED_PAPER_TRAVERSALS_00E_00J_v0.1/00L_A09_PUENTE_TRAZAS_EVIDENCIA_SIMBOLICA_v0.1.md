@@ -19,3 +19,5 @@
 4. Separar cuatro estados en cualquier informe: `DEDUCCIÓN_PAPEL`, `EJECUCIÓN_SIMBÓLICA_PREVIA`, `REPRODUCCIÓN_SIMBÓLICA_ACTUAL`, `EJECUCIÓN_PRODUCTO`. Este paquete proporciona el primero y referencias al segundo. **No proporciona los otros dos.**
 
 **Intento de reproducción de esta revisión:** se invocaron las ocho suites enlazadas, pero el entorno de esta revisión respondió `No module named pytest`; no se obtuvo ningún resultado de test nuevo. Los registros enlazados describen ejecuciones anteriores. Un revisor con pytest instalado debe repetirlas antes de usar un recuento actualizado, en especial el paquete A4 cuya documentación contiene totales de versiones diferentes.
+
+**Trabajo posterior, acotado:** [A10](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) sí ejecuta con la biblioteca estándar **12 ramas nuevas seleccionadas** llamando funciones 00K, más mutaciones de entrada y un valor de frontera corregido en A4. No reejecuta las ocho suites `pytest` mencionadas arriba ni resuelve sus recuentos.

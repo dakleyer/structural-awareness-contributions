@@ -2,6 +2,8 @@
 
 Este registro distingue traza lógica desarrollada de fixture ejecutable o medición de productos. No se han ejecutado los nueve perfiles ni EA en esos productos. Sí hay fixtures simbólicos previos para principios parciales, con falsadores: [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md). Ver también [A08](./00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md).
 
+[A10](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) ejecuta seis parejas **simbólicas aisladas** con funciones 00K y barrera de campos obligatorios. El estado «no ejecutado» de cada fila se refiere a **producto/escenario íntegro**; no niega estas ejecuciones parciales.
+
 | Caso | Escenario y perfiles | Estado del anexo emparejado | Próximo dato que debe congelarse |
 |---|---|---|---|
 | 00E | Agent 365; LangGraph/LangSmith | **reglas ampliadas; no ejecutado**, 00L-00E | presupuesto por etapa y denominadores |

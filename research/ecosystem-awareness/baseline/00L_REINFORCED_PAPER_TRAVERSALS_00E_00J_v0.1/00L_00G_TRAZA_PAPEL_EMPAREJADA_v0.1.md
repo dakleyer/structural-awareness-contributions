@@ -6,6 +6,8 @@
 
 **Falsador existente:** [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) enlaza 00K-A6a: el par F/G original cambia también autoridad; una regla de **solo autoridad** pasa ambas ramas sin evaluar independencia, un TRUE SUBSTITUTE **para ese par**. Por ello esta tabla F/G prueba una transición bien fundada pero no aísla necesidad de P6. La prueba aislada 00K-A6 mantiene autoridad igual en ambas ramas y varía independencia; un peer fuerte que calcula linaje pasa sin marca EA.
 
+[A10](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) ejecuta el **par corregido** con autoridad constante y cambio de una raíz de fuente; sus salidas no corrigen retroactivamente la confusión del F/G original.
+
 El objetivo inicial es operar un bar en España. Un participante emite un marco napoleónico y varios agentes lo repiten. En Branch F las repeticiones dependen de una sola fuente. En Branch G hay evidencia independiente y una autoridad válida para cambiar el marco. La continuidad y el cambio genuino deben permanecer separados.
 
 ## Recorrido H0/H1/H2 y ruta positiva
