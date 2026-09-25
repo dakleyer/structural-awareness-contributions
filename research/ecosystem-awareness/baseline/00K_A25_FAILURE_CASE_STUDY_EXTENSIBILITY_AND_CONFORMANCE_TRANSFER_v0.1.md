@@ -127,7 +127,7 @@ The story-specific names, amounts, vendors, locations and technologies are **par
 
 ## 4. Admission test for an extension
 
-A proposed extension \(C'\) belongs to \(Family(C)\) only if all six tests pass.
+A proposed extension \(C'\) belongs to \(Family(C)\) only if all seven tests pass.
 
 ### X1 — kernel preservation
 
@@ -155,20 +155,42 @@ with the same structural proposition and decision dependency.
 
 The subject may change; the role played by evidence/scope/authority/time in the final decision may not.
 
-### X3 — failure-predicate preservation
+### X3 — failure-predicate preservation / reflection
 
 The terminal failure is the same **structural predicate**, not merely a similarly bad outcome.
+
+The kernel mapping induces a trace abstraction:
+
+\[
+\alpha_h:Trace_{C'}\rightarrow Trace_C.
+\]
+
+An admitted extension must satisfy **failure reflection**:
+
+\[
+F_{C'}(\tau)\Rightarrow F_C(\alpha_h(\tau)).
+\]
+
+This prevents a superficially similar bad outcome from being counted as evidence for the family.
 
 For example:
 
 - downtime caused by stale queued action may be 00I;
 - downtime caused only by hardware failure is not.
 
-### X4 — requirement-route preservation
+### X4 — requirement-route / conformance preservation
 
 Every canonical S/T clause that is material to the base kernel remains applicable under the mapped roles.
 
-An extension may activate additional requirements. It may not weaken the inherited route and still claim to be the same family.
+The abstraction must preserve conformance:
+
+\[
+Conf_{C'}(R_C,\tau)
+\Rightarrow
+Conf_C(R_C,\alpha_h(\tau)).
+\]
+
+An extension may activate additional **existing** requirements when new typed objects become material. It may not weaken the inherited route and still claim to be the same family.
 
 ### X5 — positive-control preservation
 
@@ -180,7 +202,11 @@ Examples:
 - 00H must accept genuinely authorized campaigns and preserve genuine findings;
 - 00J must accept legitimate transfer/independent creation rather than block all downstream rights claims.
 
-### X6 — no hidden new primitive
+### X6 — finite resource and response declaration
+
+Scale may change, but finite decision resources remain explicit: deadline/response horizon, observation or review capacity, relevant cost/burden and fallback. Upward extension does not grant unlimited time, evidence, humans or compute.
+
+### X7 — no hidden new primitive
 
 If the proposed variant needs a new semantic object/operator that does not normalize through the current A21 requirement grammar, it is a **case-family extension candidate**, not yet an admitted member.
 
@@ -268,7 +294,7 @@ It does not establish that:
 
 The theorem is deliberately scoped:
 
-> **same family kernel + canonical conformance ⇒ no same-family structural failure.**
+> **same family kernel + failure reflection + conformance preservation + canonical conformance ⇒ no same-family structural failure.**
 
 ---
 
