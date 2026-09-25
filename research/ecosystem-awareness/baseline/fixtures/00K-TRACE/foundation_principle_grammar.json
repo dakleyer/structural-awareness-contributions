@@ -1,0 +1,87 @@
+{
+  "version": "0.1",
+  "axes": {
+    "type": [
+      "T0",
+      "T1",
+      "T2"
+    ],
+    "locus": [
+      "I",
+      "O"
+    ],
+    "propagation": [
+      "L",
+      "R",
+      "C"
+    ],
+    "temporal": [
+      "S",
+      "DELTA"
+    ],
+    "claim_class": [
+      "G",
+      "AUT"
+    ]
+  },
+  "precedence": [
+    "P5",
+    "P4",
+    "P6",
+    "P3",
+    "P2",
+    "P1"
+  ],
+  "rules": {
+    "P5": "temporal=DELTA and previously-qualified basis reused without requalification",
+    "P4": "claim_class=AUT and current decision-sufficient non-amplifying authority basis absent",
+    "P6": "propagation=C or local/windowed evidence promoted to ecosystem-level support",
+    "P3": "type=T2 after higher-precedence specializations are excluded",
+    "P2": "type=T1",
+    "P1": "remaining well-formed type=T0 / determination-boundary preservation"
+  },
+  "witnesses": {
+    "P1": {
+      "type": "T0",
+      "locus": "O",
+      "propagation": "R",
+      "temporal": "S",
+      "claim_class": "G"
+    },
+    "P2": {
+      "type": "T1",
+      "locus": "I",
+      "propagation": "L",
+      "temporal": "S",
+      "claim_class": "G"
+    },
+    "P3": {
+      "type": "T2",
+      "locus": "I",
+      "propagation": "L",
+      "temporal": "S",
+      "claim_class": "G"
+    },
+    "P4": {
+      "type": "T2",
+      "locus": "I",
+      "propagation": "R",
+      "temporal": "S",
+      "claim_class": "AUT"
+    },
+    "P5": {
+      "type": "T2",
+      "locus": "I",
+      "propagation": "R",
+      "temporal": "DELTA",
+      "claim_class": "G"
+    },
+    "P6": {
+      "type": "T2",
+      "locus": "O",
+      "propagation": "C",
+      "temporal": "S",
+      "claim_class": "G"
+    }
+  }
+}
