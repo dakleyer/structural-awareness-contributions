@@ -81,3 +81,25 @@ Current A5 total:
 ```text
 47 tests
 ```
+
+
+## Serious-repair hardening — exhaustive material basis
+
+The additive serious-repair layer is maintained in:
+
+- [`p5_serious_repairs.py`](./p5_serious_repairs.py)
+- [`test_p5_serious_repairs.py`](./test_p5_serious_repairs.py)
+- [00K-A11 — P5 Exhaustive Material-Basis Ablation](../../00K_A11_P5_EXHAUSTIVE_MATERIAL_BASIS_ABLATION_v0.1.md)
+
+It enumerates all **16 subsets** of the four declared material basis fields:
+`generation`, `incident_open`, `freeze_active`, and `source_version`.
+
+Only the full set passes continuity, unavailable-source handling and every
+single-field material-change branch. TTL, serialization, idempotency, human
+reapproval without current facts and partial compares all fail at least one
+branch. Full state hashes, version vectors, material epochs and complete event
+invalidation pass only when they cover the same full material basis, so they are
+classified as **SEMANTIC RECONSTRUCTION of P5**.
+
+Additive layer: **33 tests**.  
+Current A5 total: **47/47**.
