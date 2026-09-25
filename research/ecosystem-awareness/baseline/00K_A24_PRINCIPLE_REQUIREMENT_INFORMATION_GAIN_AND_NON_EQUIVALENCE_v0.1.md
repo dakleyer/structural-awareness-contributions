@@ -7,6 +7,7 @@
 | **Requirement-basis closure** | [A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **Reverse S/T→P sufficiency** | [A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) |
 | **Canonical requirements** | [00 — S1–S14 / T1–T4 / H1–H6 / KPI protocol](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
+| **Case-family transfer** | [00K-A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) |
 | **Status** | information-structure annex; no change to frozen requirement or principle semantics |
 | **Date** | 25 September 2026 |
 
