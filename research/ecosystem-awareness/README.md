@@ -26,7 +26,7 @@ For a diagram-first orientation before entering the detailed corpus, use the [**
 
 ## Requirements necessity / principle ablation
 
-The current follow-on to the S1–S14 requirements result is the [**00K — Six-Principle Requirements Mapping & Ablation Test v0.1 Draft**](./baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md). It partitions the fourteen canonical requirements across six operational principle families and pre-registers one ablation per reference scenario: remove one principle, keep the other five and the fixture boundary fixed, require at least one uniquely anchored S# to become unsatisfied, and verify that an existing critical failure route reopens. This is test design, not executed evidence.
+The current follow-on to the S1–S14 requirements result is the [**00K — Six-Principle Sufficiency & Adversarial Ablation Test v0.1 Draft**](./baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md). The six principles are the object under test; S1–S14 are the observable specification/measurement layer. Each ablation removes one principle, gives the other five the strongest fair opportunity to redesign the route, and asks whether they can pass the frozen negative and positive controls without reconstructing the removed semantic invariant. [A01](./baseline/00K_A01_REVIEWED_PRE_PRINCIPLE_FIRST_DESIGN_ADDENDUM_v0.1.md) preserves the previously reviewed design verbatim, and [A02](./baseline/00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) isolates the verified S1–S14 × 00E–00J coverage matrix. This is test design, not executed evidence.
 
 ## Current work / next steps
 
