@@ -273,7 +273,7 @@ by contradiction.
 
 If:
 
-1. the variant really is an extension of the same case family under X1–X6; and
+1. the variant really is an extension of the same case family under X1–X7; and
 2. the implementation really satisfies the applicable canonical requirement route;
 
 then it cannot exhibit the **same structural failure** represented by the base scenario.
