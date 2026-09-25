@@ -677,6 +677,8 @@ The [00L-00I paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v
 
 The [A11 replay record and 12 branch traces](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) provide hashes and the later 00K CI result for this revision; they do not extend this pair to a product test.
 
+The [A12 cumulative improvement and correction register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) links the later A23/A25 audit and its evidence. The A5 fixture result is preserved; the separate A23 P5 reduction has an action-time countermodel awaiting semantic review.
+
 **Evidence boundary:** A10 exercises freeze versus release in a symbolic microfixture; it does not test V10 check-to-act atomicity, V11/H2 source-set drift, or deployed implementations. A strong non-EA peer matches both branches, so there is no demonstrated EA differential. The broader trajectory and measured timing/burden comparisons below remain open.
 
 ## 13. Gate × variant coverage matrix

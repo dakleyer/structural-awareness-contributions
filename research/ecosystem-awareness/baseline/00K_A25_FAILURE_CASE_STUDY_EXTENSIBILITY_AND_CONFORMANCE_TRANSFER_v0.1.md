@@ -249,7 +249,7 @@ A requirements-conforming implementation may therefore pass or fail the extensio
 
 Admission supplies the declared mapping and controls. Execution then measures the mapped implementation. **Admission alone does not execute an extension or prove its outcome.** None of these fixtures certifies all S/T obligations or all reachable states. Strong peers that pass remain part of the evidence.
 
-00E/P2 and 00J/P1 retain the reduced A23 results for those individual invariants only. Their family profiles also list other principles: this does not establish the entire multi-principle family. The former 00I/P5 route depended on S10 alone equalling P5 (and three duplicate T clauses); it remains pending independent clause reconstruction and adjudication of the resulting countermodels.
+00E/P2 and 00J/P1 retain the reduced A23 results for those individual invariants only. Their family profiles also list other principles: this does not establish the entire multi-principle family. The former 00I/P5 route depended on S10 alone equalling P5 (and three duplicate T clauses); independent clause reconstruction now yields an action-time countermodel whose semantic and reachability adjudication remains pending.
 
 ### 6.2 Conditional mathematical statement
 

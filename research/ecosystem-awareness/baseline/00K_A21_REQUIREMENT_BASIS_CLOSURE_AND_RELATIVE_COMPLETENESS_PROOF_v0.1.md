@@ -320,7 +320,7 @@ It is distinct from:
 - A19 — semantic P↔S traceability;
 - A15/A1–A6 — operational strongest-repair necessity tests;
 - A16/A20 — logical independence/irredundancy of P1–P6;
-- A23 — reverse specification-sufficiency: canonical requirement conformance entails the applicable P invariants.
+- A23 — reverse specification-sufficiency audit: finite P1/P2/P4 implications; P3/P5/P6 remain under semantic review, with no all-six closure.
 
 Together they support the chain:
 

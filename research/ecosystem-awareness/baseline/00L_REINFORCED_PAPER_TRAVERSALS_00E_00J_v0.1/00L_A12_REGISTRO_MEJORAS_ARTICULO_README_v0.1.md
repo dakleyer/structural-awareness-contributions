@@ -1,5 +1,7 @@
 # 00L-A12 — Registro de mejoras para el artículo y el README
 
+**Última revisión editorial: 26/09/2026, Europe/Madrid.** Consultar §8 para la armonización y el cierre de integración. Los cortes anteriores se conservan como historial; no describen automáticamente el estado actual del PR o del artículo.
+
 **Corte:** 25 de septiembre de 2026. **Fuente de trabajo:** [PR #1](https://github.com/dakleyer/structural-awareness-contributions/pull/1), rama `codex/00E-00J-paper-traversals-2026-09-25`, último commit de evidencia comprobado antes de abrir este registro: `f5a64d06677b980fad53c87abdc2b1e91dddfc2f`. En el corte, `main` estaba en `d82b2775873227362281f95efb0a8b096cb6d104` y **00L seguía en el PR, sin merge**. Consultar de nuevo ambos SHA antes de actualizar el artículo o trasladar afirmaciones a `main`.
 
 Este archivo reúne **qué se añadió, qué se ejecutó, dónde está la prueba y qué frase puede trasladarse** al artículo *When the Controls Work but the System Fails* y al README canónico. Es un registro de edición y evidencia, no un resultado adicional. Los documentos originales 00E–00J conservan sus gates y narrativa: las notas nuevas enlazan los refuerzos desde el lugar correspondiente.
@@ -114,3 +116,20 @@ La corrección de código y documentación se publicó en [`bf99a53`](https://gi
 | Replay RS-00E-Q1a Stage 0 | [36195668223](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36195668223) | Correcto; no amplía Q1a al escenario completo. |
 
 **Pendiente científico:** resolver la correspondencia semántica P3/P5/P6, revisar los puentes entre obligaciones y ejecución y obtener revisión independiente. Los tests verdes certifican el comportamiento declarado del auditor y sus contraejemplos; no restauran el teorema general retirado. Esta entrada registra resultados ya obtenidos; no atribuye esos runs a un commit documental posterior.
+
+
+## 8. Armonización editorial e integración (26/09/2026, Europe/Madrid)
+
+El usuario autorizó completar la armonización y hacer merge conservando los pendientes científicos. Esta entrada amplía §7: ya no se limita la corrección del artículo a una sola frase.
+
+| Cambio | Archivo / destino | Alcance preservado |
+|---|---|---|
+| Corrección de referencias activas al antiguo cierre total | [README de Ecosystem Positioning](../../../../architectural-contributions/ecosystem-positioning/README.md), [README de EA](../../README.md), [README canónico](../README.md), [manifiesto](../CANONICAL_CORPUS_MANIFEST.md), [mapa A17](../00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md) | P1/P2/P4 finitos; P3/P5/P6 abiertos. La transferencia universal exige una garantía base independiente, reflexión y preservación. Los runs históricos siguen identificados como históricos. |
+| Corrección localizada de enlaces descriptivos | [A19](../00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md), [A21](../00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md), [A25](../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) | A19/A21 conservan sus demostraciones: solo cambia la frase que atribuía cierre a A23. A25 reconoce que las cláusulas ya se reconstruyeron y queda pendiente adjudicar el contraejemplo P5. |
+| Coherencia interna de la explicación de información | [A24](../00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) | Se distingue la firma de principios asignada a un requisito de la prueba de que esos principios se cumplen. Se conservan los testigos de pérdida de información, pero no se utilizan para cerrar la suficiencia inversa. |
+| Enlace directo al registro y salvedad propia de cada caso | Los seis [originales de §2](#2-mapa-caso--resultado-verificable--cobertura-pendiente) | Se añaden dos líneas junto a A11 por original. Permanecen las historias, gates, rutas positivas/negativas y enlaces A08–A11 existentes. |
+| Armonización del artículo, desde su versión 3 | *When the Controls Work but the System Fails — Ecosystem Positioning article.docx* | Cambios localizados en 14 párrafos: 62, 67, 83, 84, 87, 92, 93, 96, 101, 110, 150–153. Se actualizan A23/A25, el estado ejecutado de 00L y Stage 0, empate B1/B3, límites y tres enlaces nuevos al replay, ejecución y A12. La estructura, los seis relatos y las citas canónicas se conservan. |
+
+**Verificación previa:** integridad documental correcta, seis originales con enlaces directos a su recorrido y A08–A12; artículo renderizado en 14 páginas y revisado visualmente. Los cambios de esta fase son documentales; no modifican código, fixtures ni el canon S/T. El guard de concurrencia conserva la versión 3 del artículo como base de sustitución. La versión final y sus enlaces se fijarán al SHA de integración verificado y se registrarán aquí después de guardar.
+
+**Pendientes que sobreviven al merge:** CAND-A23-P3/P5/P6, fidelidad semántica y alcanzabilidad, revisión independiente de Stage 0, comparación B0–B3 con productos y cobertura de los escenarios completos. Ninguna comprobación documental o CI cierra esos puntos por sí sola.

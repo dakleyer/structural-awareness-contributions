@@ -504,6 +504,8 @@ The [00L-00F paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v
 
 The [A11 replay record and 12 branch traces](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) provide hashes and the later 00K CI result for this revision; they do not extend this pair to a product test.
 
+The [A12 cumulative improvement and correction register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) links the later A23/A25 audit and its evidence. The A3 Route Q evidence concerns the tested shared-capacity branches; the A23 P3 semantic bridge remains open.
+
 **Evidence boundary:** A10 changes one shared `fire_slot` from 10 to 11 while holding local grants fixed; it checks the resource-time conflict in a symbolic model, not V8 drift, real city operations or the two/five-minute timing targets. A strong non-EA peer matches both branches, so the pair establishes no EA differential. The broader scenario and product comparisons remain unexecuted.
 
 ---

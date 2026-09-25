@@ -955,6 +955,8 @@ The [00L-00G paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v
 
 The [A11 replay record and 12 branch traces](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) provide hashes and the later 00K CI result for this revision; they do not extend this pair to a product test.
 
+The [A12 cumulative improvement and correction register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) links the later A23/A25 audit and its evidence. The corrected A6 Route Q evidence concerns tested dependency branches; the A23 P6 semantic bridge remains open.
+
 **Evidence boundary:** A10 executes one corrected symbolic pair, not the entire multi-agent scenario or a deployed OpenAI system. Its strong non-EA peer matches both branches; there is no demonstrated EA differential. The original F/G test design and its authority confound remain visible for review, and broader product outcomes remain untested.
 
 ### 17.12 Official OpenAI sources reviewed — dated evidence freeze

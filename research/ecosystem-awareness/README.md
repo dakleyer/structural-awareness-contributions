@@ -176,7 +176,7 @@ The six active scenarios **00E–00J are minimum concrete instantiations of stru
 
 **00G is the clearest horizontal/downward transfer example:** the robot/multi-agent story reduces to a single LLM or SLM when conversation-derived statements, memory summaries, RAG/vector-store entries or prior assistant outputs are recursively reused and their common provenance/dependence can be flattened. The extension is admitted only when that propagation affects the receiving task/frame/role; one-turn agreeableness alone is not the same case.
 
-Family membership is structural, not analogical. For an admitted extension, A23 + A25/A26 gives the bounded transfer result: canonical conformance to the inherited S/T route prevents the **same family failure** and realizes the declared success predicate. If a proposed extension needs a decision-material obligation not expressible through the current A21 requirement grammar, it is Requirements-vNext evidence rather than a silent S15. Listed extensions remain design-level mappings unless separately frozen/executed.
+Family membership is structural, not analogical. A25/A26 transport a **separately proved base guarantee** only when failure reflection, conformance preservation and positive controls also hold. A23 currently supports finite P1/P2/P4 projections; P3/P5/P6 remain under semantic review. A3/A4/A6 support their tested 00F/00H/00G branches, not all admitted extensions. If a proposed extension needs a decision-material obligation not expressible through the current A21 requirement grammar, it is Requirements-vNext evidence rather than a silent S15. Listed extensions remain design-level mappings unless separately frozen/executed.
 
 
 ### Benchmark status dashboard

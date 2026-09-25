@@ -324,6 +324,8 @@ The [00L-00J paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v
 
 The [A11 replay record and 12 branch traces](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) provide hashes and the later 00K CI result for this revision; they do not extend this pair to a product test.
 
+The [A12 cumulative improvement and correction register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) links the later A23/A25 audit and its evidence. The finite P1/P4 results do not certify the full rights/composition family; the A23 P6 semantic bridge remains open.
+
 **Evidence boundary:** A10 checks one semantic proposition pair, not a C0–C6 complete route or a real rights dispute. Its strong non-EA peer matches both branches, so it does not demonstrate an EA differential. This limited symbolic execution is neither a legal determination nor an executed benchmark of Panodyssey or another deployed product.
 
 ## 8. Scenario-specific outcome measures
