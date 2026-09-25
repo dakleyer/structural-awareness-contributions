@@ -85,7 +85,7 @@ Current A5 total:
 
 ## Mathematical supplement — matched blind-signature pair
 
-The [blind-signature proof supplement](./blind-signature-proof/README.md) preserves the compact STALE/FRESH construction supplied during the formalization work.
+The [blind-signature proof supplement](../00K-FORMAL/p5-blind-signature/README.md) preserves the compact STALE/FRESH construction supplied during the formalization work.
 
 It proves the projection-separation result directly: STALE and FRESH are identical on token validity, scope and elapsed time but require opposite dispositions because the current material condition differs. No deterministic policy restricted to that blind surface can classify both correctly.
 
