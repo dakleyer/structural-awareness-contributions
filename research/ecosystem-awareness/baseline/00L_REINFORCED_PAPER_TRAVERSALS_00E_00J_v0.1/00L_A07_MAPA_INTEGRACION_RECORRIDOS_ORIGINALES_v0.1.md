@@ -1,6 +1,6 @@
 # 00L-A07 — Mapa de integración con los recorridos originales
 
-**Estado al 25 de septiembre de 2026:** las seis ediciones actuales de los escenarios originales enlazan este paquete mediante notas aditivas junto a sus recorridos. El usuario adelantó esta integración a la rama del PR antes del merge. Los enlaces de esta tabla resuelven desde A07; cada original usa su propia ruta relativa desde `baseline/` y enlaza directamente su traza, A08, A09 y A10.
+**Estado al 25 de septiembre de 2026:** las seis ediciones actuales de los escenarios originales enlazan este paquete mediante notas aditivas junto a sus recorridos. El usuario adelantó esta integración a la rama del PR antes del merge. Los enlaces de esta tabla resuelven desde A07; cada original usa su propia ruta relativa desde `baseline/` y enlaza directamente su traza, A08, A09, A10 y el posterior registro A11.
 
 | Recorrido original | Ubicación de la nota incorporada | Refuerzo enlazado directamente |
 |---|---|---|

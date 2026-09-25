@@ -449,6 +449,8 @@ Route Q does not promise a successful China entry or an error-free world model. 
 
 The [00L-00E paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_00E_TRAZA_PAPEL_EMPAREJADA_v0.1.md) expands this Route N/Route Q comparison with explicit facts, gate outcomes and adverse controls. The [A09 evidence map](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) distinguishes earlier 00K symbolic fixtures from the paper argument; the [A10 executed check](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) and its [reproduction protocol](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md) record the later controlled pair and its observation limits.
 
+The [A11 replay record and 12 branch traces](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) provide hashes and the later 00K CI result for this revision; they do not extend this pair to a product test.
+
 **Evidence boundary:** A10 varies resolution of one fact at step 3 under a fixed three-step capacity; it does not run a 100M-token workload or establish Q1–Q5 composition across all subsystems. Its strong non-EA peer matches the reference on both branches. These are synthetic, conditional paper deductions plus a limited symbolic execution, not a product benchmark or evidence of an EA differential. The original gate acceptance and real-world validation requirements below remain open.
 
 ## 9. Gate acceptance logic and recording form

@@ -22,6 +22,7 @@ Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E�
 14. [Protocolo de reproducibilidad, observación y oráculo](./00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md).
 15. [Puente a fixtures simbólicos ejecutados y falsadores](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md).
 16. [Verificación ejecutada de parejas positivas/negativas y paso previo](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) · [datos](./00L_A10_PARES_CONTROLADOS.json) · [script](./verify_paired_symbolic.py).
+17. [Registro de reproducción A11 y CI de la revisión corregida](./00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) · [12 trazas JSONL](./00L_A11_TRAZAS_EJECUTADAS.jsonl).
 
 ## Regla de lectura
 
@@ -29,4 +30,4 @@ Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E�
 
 ## Orden de trabajo
 
-Los seis anexos contienen reglas paso a paso y controles adversos; A09 conecta evidencia simbólica existente y el resultado adverso A6a. A10 añade **12 comprobaciones simbólicas nuevas** sobre parejas aisladas, 128 mutaciones de campos interceptadas por el verificador 00L y la corrección de un límite estricto del fixture activo 00H. Todavía no hay ejecución de los nueve perfiles ni logs para comparar H0/H1/H2 en producto. El siguiente hito es congelar campos pendientes de A04, registrar observaciones/costes conforme A08, y solo entonces adjudicar resultados. Cada uno de los seis escenarios originales ahora incluye una nota aditiva con enlaces directos a su anexo, A08, A09 y A10; [A07](./00L_A07_MAPA_INTEGRACION_RECORRIDOS_ORIGINALES_v0.1.md) indica dónde y aclara el alcance de la evidencia antes del merge.
+Los seis anexos contienen reglas paso a paso y controles adversos; A09 conecta evidencia simbólica existente y el resultado adverso A6a. A10 añade **12 comprobaciones simbólicas nuevas** sobre parejas aisladas, 128 mutaciones de campos interceptadas por el verificador 00L y la corrección de un límite estricto del fixture activo 00H. A11 conserva las doce observaciones/disposiciones con hashes e identifica el run de CI **379/379 del árbol de integración posterior a la corrección**, sin confundirlo con el run histórico. Todavía no hay ejecución de los nueve perfiles ni logs para comparar H0/H1/H2 en producto. El siguiente hito es congelar campos pendientes de A04, registrar observaciones/costes conforme A08, y solo entonces adjudicar resultados. Cada uno de los seis escenarios originales ahora incluye una nota aditiva con enlaces directos a su anexo, A08–A11; [A07](./00L_A07_MAPA_INTEGRACION_RECORRIDOS_ORIGINALES_v0.1.md) indica dónde y aclara el alcance de la evidencia antes del merge.

@@ -502,6 +502,8 @@ flowchart LR
 
 The [00L-00F paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_00F_TRAZA_PAPEL_EMPAREJADA_v0.1.md) details these matched routes and their adverse controls. The [A09 evidence map](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) separates prior 00K fixtures and falsifiers from the [A10 controlled execution](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md); use the [A08 protocol](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A08_PROTOCOLO_REPRODUCIBILIDAD_v0.1.md) for the fuller observation contract.
 
+The [A11 replay record and 12 branch traces](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) provide hashes and the later 00K CI result for this revision; they do not extend this pair to a product test.
+
 **Evidence boundary:** A10 changes one shared `fire_slot` from 10 to 11 while holding local grants fixed; it checks the resource-time conflict in a symbolic model, not V8 drift, real city operations or the two/five-minute timing targets. A strong non-EA peer matches both branches, so the pair establishes no EA differential. The broader scenario and product comparisons remain unexecuted.
 
 ---

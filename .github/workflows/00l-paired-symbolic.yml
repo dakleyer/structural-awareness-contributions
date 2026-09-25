@@ -1,0 +1,51 @@
+name: 00L paired symbolic replay
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/**"
+      - "research/ecosystem-awareness/baseline/fixtures/00K-*/**"
+      - ".github/workflows/00l-paired-symbolic.yml"
+  pull_request:
+    paths:
+      - "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/**"
+      - "research/ecosystem-awareness/baseline/fixtures/00K-*/**"
+      - ".github/workflows/00l-paired-symbolic.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  paired-replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Reproduce 12 branches, Step-0 guard, and 00H boundary
+        working-directory: research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1
+        shell: bash
+        run: |
+          set -euo pipefail
+          python --version | tee python-version.txt
+          git rev-parse HEAD | tee checked-out-revision.txt
+          PYTHONDONTWRITEBYTECODE=1 python verify_paired_symbolic.py --trace-jsonl replay.jsonl > stdout.txt 2> stderr.txt
+          cat stdout.txt
+          test "$(wc -l < replay.jsonl)" -eq 12
+          diff -u 00L_A11_TRAZAS_EJECUTADAS.jsonl replay.jsonl
+          sha256sum verify_paired_symbolic.py 00L_A10_PARES_CONTROLADOS.json 00L_A11_TRAZAS_EJECUTADAS.jsonl replay.jsonl | tee SHA256SUMS.txt
+      - name: Preserve replay outputs and hashes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 00l-paired-replay
+          if-no-files-found: warn
+          path: |
+            research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/stdout.txt
+            research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/stderr.txt
+            research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/replay.jsonl
+            research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/python-version.txt
+            research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/checked-out-revision.txt
+            research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/SHA256SUMS.txt

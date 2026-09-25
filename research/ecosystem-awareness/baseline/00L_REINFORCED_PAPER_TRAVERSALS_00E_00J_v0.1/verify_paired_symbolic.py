@@ -6,6 +6,7 @@ This does not execute the full 00K pytest suites or any commercial product.
 
 from __future__ import annotations
 
+import argparse
 import importlib
 import json
 from datetime import timedelta
@@ -114,13 +115,14 @@ def evaluate(case_id: str, observation: dict) -> tuple[str, str, str]:
     raise ValueError(f"unknown case {case_id}")
 
 
-def verify() -> None:
+def verify(trace_jsonl: Path | None = None) -> None:
     document = json.loads((HERE / "00L_A10_PARES_CONTROLADOS.json").read_text(encoding="utf-8"))
     assert document["schema"] == "00L-paired-symbolic-v1"
     cases = document["cases"]
     assert [c["id"] for c in cases] == ["00E", "00F", "00G", "00H", "00I", "00J"]
     preflight_checks = 0
     branch_checks = 0
+    trace_records = []
     for case in cases:
         factor = case["factor"]
         assert factor not in case["common"] and case["negative"] != case["positive"]
@@ -144,6 +146,18 @@ def verify() -> None:
             assert route == case["expected"][branch], (case["id"], branch, route)
             assert strong_peer == route, (case["id"], branch, strong_peer)
             outputs[branch] = {"route": route, "strong_peer": strong_peer, "weak_peer": weak_peer}
+            trace_records.append({
+                "schema": "00L-symbolic-branch-v1",
+                "case": case["id"],
+                "branch": branch,
+                "factor": factor,
+                "observation": visible,
+                "actual": outputs[branch],
+                # The expected disposition is added to the trace only after evaluate().
+                # It is never passed to any 00K implementation.
+                "expected": case["expected"][branch],
+                "preflight_guard_mutations_rejected": 2 * len(required),
+            })
             branch_checks += 1
         assert outputs["negative"]["weak_peer"] != outputs["negative"]["route"], case["id"]
         assert outputs["negative"]["route"] != outputs["positive"]["route"], case["id"]
@@ -154,9 +168,16 @@ def verify() -> None:
     assert not h.check_P1_evidence_sufficiency(h.Finding(100, 10_000.0, True))
     assert h.check_P1_evidence_sufficiency(h.Finding(100, 10_000.01, True))
     assert not h.check_P1_evidence_sufficiency(h.Finding(99, 240_000.0, True))
+    if trace_jsonl is not None:
+        trace_jsonl.write_text(
+            "".join(json.dumps(record, sort_keys=True, ensure_ascii=False, separators=(",", ":")) + "\n"
+                    for record in trace_records), encoding="utf-8")
     print(f"OK: {branch_checks} symbolic branches; {preflight_checks} Step-0 drop/null mutations; "
           "00H strict boundary 3/3. Strong peer passes every pair: no EA differential inferred.")
 
 
 if __name__ == "__main__":
-    verify()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--trace-jsonl", type=Path,
+                        help="Write 12 deterministic, post-evaluation branch records to this path")
+    verify(parser.parse_args().trace_jsonl)
