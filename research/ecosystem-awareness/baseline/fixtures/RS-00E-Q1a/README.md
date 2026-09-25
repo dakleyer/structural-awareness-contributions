@@ -3,9 +3,9 @@
 > **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../../../README.md) → [Canonical corpus](../../README.md) → **RS-00E-Q1a fixture family**
 
 
-> **Status:** pre-execution. No Step-0 trace or fixture-family execution has been published.
+> **Status:** descriptive Stage-0 execution published for Q1a only; B1 and B3 tie in this deterministic fixture. No comparative EA or product result.
 
-The [Stage-0 runner](./stage0_runner.py), [frozen observations](./frozen_observations_v05.json) and [separate post-run oracle](./oracle_reference_v05.json) implement the v0.5 descriptive harness contract. The runner executes the active and detector-disabled Step-0 controls before B1/B3; once a run and its Canonical Trace v1 files have been published, this status must be updated with that commit and the exact result. The presence of runnable code alone does not change the pre-execution status.
+The [Stage-0 runner](./stage0_runner.py), [frozen observations](./frozen_observations_v05.json) and [separate post-run oracle](./oracle_reference_v05.json) implement the v0.5 descriptive harness contract. The runner executes the active and detector-disabled Step-0 controls before B1/B3. The [v0.5 execution record](./EXECUTION_RECORD_v0.5.md) reports the run from committed code `41931997b4f8ac2d2cbbdff696705cd610105a71`, with [12 candidate traces, two controls and hashes](./runs/stage0_v05_4193199/manifest.json). The [CI replay workflow](../../../../../.github/workflows/rs-00e-q1a-stage0.yml) checks the committed files byte for byte. Both configurations pass all three branches; this is a self-configured descriptive harness, with no independent reviewer.
 
 ## Operative pre-registration
 
@@ -28,6 +28,6 @@ These records are immutable and retained for public lineage. They must not be ci
 
 > **Namespace note:** fixture labels `P1`, `P2` and `C0` in this pre-registration are immutable test-branch identifiers. They are **not** the P1 Normal / P2 Containment / P3 Migration operating-posture namespace defined later in MSCA Operation/Repositioning.
 
-## Next execution boundary
+## Next evidence boundary
 
-Implement the harness, publish the qualifier-loss instrumentation trace and determinism trace citing v0.5, then execute P1, P2 and C0 together as one fixture family.
+Independently review and replay the oracle and comparator. A separately pre-registered B0–B3 comparison requires named defenders and a reviewer before claiming a differential. This Stage-0 run covers Q1a only.

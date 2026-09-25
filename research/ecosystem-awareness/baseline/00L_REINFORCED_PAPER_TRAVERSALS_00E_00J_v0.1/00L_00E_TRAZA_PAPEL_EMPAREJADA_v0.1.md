@@ -4,7 +4,7 @@
 
 ## Ficha congelada
 
-**Evidencia complementaria:** [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) enlaza la ablation simbólica 00K-A2/P2, que sí tiene registros de ejecución anterior, y separa RS-00E-Q1a todavía pre-ejecución. A2 aísla capacidad/esfuerzo; no ejecuta los cuatro gates sustantivos de esta tabla ni productos 00E.
+**Evidencia complementaria:** [A09](./00L_A09_PUENTE_TRAZAS_EVIDENCIA_SIMBOLICA_v0.1.md) enlaza la ablation simbólica 00K-A2/P2, que sí tiene registros de ejecución anterior, y separa el [Stage 0 descriptivo RS-00E-Q1a](../fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md), ejecutado después de este par. B1 y B3 empatan allí. La ablation A2 aísla capacidad/esfuerzo. Ninguna de estas fixtures ejecuta los cuatro gates sustantivos de esta tabla ni productos 00E.
 
 [A10](./00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) ejecuta un par mínimo: solo cambia si la tercera observación resuelve; el peer fuerte empata en ambas ramas. Es un control de P2, no prueba de síntesis empresarial completa.
 

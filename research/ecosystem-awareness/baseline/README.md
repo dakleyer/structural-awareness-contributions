@@ -277,7 +277,7 @@ The predecessor [Architectural Principles](./ARCHITECTURAL_PRINCIPLES_v0.1.md) a
 
 > **Additive traversal reinforcement:** [00L — reinforced paper traversals 00E–00J](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md). This package contains paper calculations over synthetic facts; it does not replace or rewrite the canonical scenarios.
 
-The [00L editorial and evidence register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) maps each case to its paired traversal, executed symbolic subset, reproducible traces, CI evidence and remaining coverage. The 12 symbolic branches and 379 regression checks are not product trials or a demonstrated EA differential. The dated register states which revision was checked before each article update.
+The [00L editorial and evidence register](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) maps each case to its paired traversal, executed symbolic subset, reproducible traces, CI evidence and remaining coverage. The separate [RS-00E-Q1a Stage-0 record](./fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) documents two Step-0 controls and twelve deterministic Q1a candidate traces: B1 and B3 tie, pending independent review. The 12 00L symbolic branches, 379 regression checks and the Q1a run are not product trials or a demonstrated EA differential. The dated register states which revision was checked before each article update.
 
 ## Governance and provenance
 

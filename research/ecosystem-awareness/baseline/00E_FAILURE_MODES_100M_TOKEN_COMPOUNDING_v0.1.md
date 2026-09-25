@@ -451,6 +451,8 @@ The [00L-00E paired paper traversal](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v
 
 The [A11 replay record and 12 branch traces](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) provide hashes and the later 00K CI result for this revision; they do not extend this pair to a product test.
 
+The later [RS-00E-Q1a Stage-0 execution record](./fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) and [fixture index](./fixtures/RS-00E-Q1a/README.md) provide two Step-0 controls and twelve deterministic candidate traces for Q1a alone. B1 and B3 both pass the three branches with identical modelled burden. The comparator is self-configured and no independent reviewer participated; this does not execute the four-subsystem Q1–Q5 scenario or establish an EA advantage. The [A12 editorial/evidence ledger](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md) records the later addition for article and README reuse.
+
 **Evidence boundary:** A10 varies resolution of one fact at step 3 under a fixed three-step capacity; it does not run a 100M-token workload or establish Q1–Q5 composition across all subsystems. Its strong non-EA peer matches the reference on both branches. These are synthetic, conditional paper deductions plus a limited symbolic execution, not a product benchmark or evidence of an EA differential. The original gate acceptance and real-world validation requirements below remain open.
 
 ## 9. Gate acceptance logic and recording form
