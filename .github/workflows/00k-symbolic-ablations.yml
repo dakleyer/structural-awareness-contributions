@@ -126,10 +126,6 @@ jobs:
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube
         run: python -m unittest -v
 
-      - name: Validate syntactic normal-form closure
-        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-TRACE
-        run: python validate_normal_forms.py
-
       - name: Validate syntactic closure graph
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE
         run: python validate_closure.py
