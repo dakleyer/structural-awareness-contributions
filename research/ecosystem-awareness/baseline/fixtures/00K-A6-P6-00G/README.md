@@ -26,7 +26,7 @@ P6 is removed and the fixture tries:
 
 ## Result
 
-**15/15** tests pass.
+**17/17** tests pass after additive source-diversity/Sybil grid hardening.
 
 Identity quorum, confidence, preserved provenance and human majority all false-transition Branch F. Deny-all blocks F but fails genuine Branch G. A source-independence strong peer passes both branches, but does so by explicitly computing materially independent evidence paths — **SEMANTIC RECONSTRUCTION of P6**.
 
