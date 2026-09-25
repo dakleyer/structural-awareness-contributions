@@ -19,7 +19,7 @@
 
 Repository CI: [**00K symbolic ablations — successful bounded-grid run #10**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36091807530). Six matrix jobs independently re-run the updated expected counts **13/13/15/29/14/17** on Python 3.13.
 
-The count is not a score and not 101 independent experiments. It is the current executable **core** regression surface. Supplemental falsification/isolation/cross-scenario packages add 27 tests; see the [128-test campaign router](../00K-SUITE/README.md).
+The count is not a score and not 101 independent experiments. It is the current executable **core** regression surface. Supplemental falsification/isolation/cross-scenario packages add 27 tests; see the [134-test campaign router](../00K-SUITE/README.md).
 
 ## Common test discipline
 
