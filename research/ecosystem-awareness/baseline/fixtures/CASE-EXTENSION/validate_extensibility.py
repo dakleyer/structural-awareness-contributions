@@ -34,8 +34,22 @@ def assert_path(path:str)->Path:
 def main()->int:
     assert set(M["families"])==EXPECTED_FAMILIES
     assert set(M["directions"])==EXPECTED_DIRECTIONS
-    assert_path(M["method"])
+    method=assert_path(M["method"])
     assert_path(M["source_extensibility"])
+
+    method_text=method.read_text(encoding="utf-8")
+    for gate in (
+        "X1 — kernel preservation",
+        "X2 — decision-boundary preservation",
+        "X3 — failure-predicate preservation / reflection",
+        "X4 — requirement-route / conformance preservation",
+        "X5 — positive-control preservation",
+        "X6 — finite resource and response declaration",
+        "X7 — no hidden new primitive",
+    ):
+        assert gate in method_text, f"A25 missing admission gate: {gate}"
+    assert "failure reflection" in method_text.lower()
+    assert "conformance preservation" in method_text.lower()
 
     for fid,spec in M["families"].items():
         assert spec["family_name"].strip()
@@ -80,6 +94,7 @@ def main()->int:
 
     print("Failure case-study extensibility registry: PASS")
     print("Families: 6/6")
+    print("A25 admission gates: 7/7")
     print("Directions per family: 3/3")
     print("Parent ↔ profile routes: 6/6")
     print("A25 routes: 6/6")
