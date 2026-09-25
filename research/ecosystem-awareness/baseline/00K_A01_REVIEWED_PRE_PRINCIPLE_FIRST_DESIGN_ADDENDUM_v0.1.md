@@ -1,0 +1,417 @@
+# 00K — Six-Principle Requirements Mapping & Ablation Test — v0.1 Draft
+
+| | |
+|---|---|
+| **ID** | 00K |
+| **Type** | Requirements mapping · principle-ablation test design · necessity/sufficiency review |
+| **Status** | **Working draft / pre-registration design** — not executed evidence |
+| **Date** | 25 September 2026 |
+| **Owner corpus** | Ecosystem Awareness |
+| **Primary dependencies** | [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [02 — Epistemic Safety Principles & Control Matrix](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) |
+| **Reference scenarios** | [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · [00F](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) · [00G](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [00H](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) · [00I](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [00J](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) |
+
+> **Purpose.** Test whether the compact epistemic discipline beneath the S1–S14 canonical requirements has real structural necessity rather than being a descriptive taxonomy. The test first maps the fourteen requirements to six operational principle families, then removes one principle at a time while holding the other five, facts, authority, resources, deadline and scenario branch fixed. A successful ablation is one in which at least one requirement can no longer be satisfied and a pre-existing critical failure route becomes reachable again.
+
+> **Evidence boundary.** This document defines a falsifiable ablation design. It does **not** claim that the six ablations have already been executed, that the six principles are universally minimal for all agentic systems, or that Ecosystem Positioning is the only architecture capable of satisfying them.
+
+---
+
+## 1. Terminology and relation to the existing corpus
+
+The current canonical name for **S1–S14 is “canonical requirements.”** Earlier documents may still contain the historical label “challenges”; the IDs and semantics are unchanged.
+
+The six principle families below are an **ablation/test abstraction**, not a replacement normative register. They compact existing material from:
+
+- the root epistemic principle and I0/I1/I2/O0/O1/O2 controls in 02;
+- the paired received-signal controls E0-I/E1-I/E2-I/E0-O/E1-O/E2-O;
+- the cross-cutting rule that a source is a source, not the ecosystem;
+- the H1–H6 research hypotheses in 00; and
+- the S1–S14 requirement semantics already used by 00E–00J.
+
+The purpose of P1–P6 is therefore practical: create six removable architectural disciplines against which the requirement set can be ablated without inventing six new requirement families.
+
+---
+
+## 2. Six operational principle families
+
+### P1 — Qualified determination and explicit residual
+
+A system must distinguish what is sufficiently established, what is insufficient/inconclusive, and what remains outside the justified determination boundary. Evidence is always relative to a subject–proposition–decision scope; residual state must not disappear merely because a decision needs closure.
+
+**Source basis:** I0/O0 + E0-I/E0-O; H1/H2.
+
+**Unique ablation anchor:** **S14 — Evidence-to-decision assessment.**
+
+---
+
+### P2 — Bounded unresolved effort and viable oversight
+
+Recognized uncertainty does not justify unlimited search, review, escalation, human waiting or context expansion. Determination effort must have a finite, decision-relevant stopping rule inside the useful response horizon and available capacity.
+
+**Source basis:** I1/O1 + E1-I/E1-O; H1/H6.
+
+**Unique ablation anchor:** **S4 — Human-inclusive oversight authority and capacity.**
+
+---
+
+### P3 — No false closure from unresolved state
+
+Known unresolved, stale, conflicting or missing material state must not be converted into PASS/FAIL, permission or certainty-equivalent closure merely because the system needs to act, a timeout expires, a human approves, or several weak signals agree.
+
+**Source basis:** I2 + E2-I; H1.
+
+**Unique ablation anchor:** **S5 — Operational indeterminacy and containment.**
+
+---
+
+### P4 — Qualification-preserving handoff and authority lineage
+
+When state crosses participants or systems, the receiving side must retain the material qualification needed to interpret it: source, provenance, representation relation, purpose/scope/time, delegation limits, history and unresolved qualifiers. A technically valid leaf or downstream record must not silently acquire stronger meaning because its lineage was lost.
+
+**Source basis:** received-signal controls + cross-cutting source rule + H4 bounded preservation.
+
+**Unique ablation anchor:** **S8 — Bounded subdelegation and non-amplification.**
+
+---
+
+### P5 — Material-change requalification at time of use
+
+A decision that was correct when established must be requalified when a material condition changes before commitment or actuation. Technical validity of a token, job, API, cached verdict or prior approval does not prove that the original decision basis is still current.
+
+**Source basis:** root dynamic-window principle + H5/H6.
+
+**Unique ablation anchor:** **S10 — Commitment state, material change and normal escalation.**
+
+---
+
+### P6 — No local-to-ecosystem promotion or silent substitution
+
+A locally valid determination, repeated signal, majority view, policy result or correlated set of observations must not become ecosystem truth outside its justified scope. Composition must preserve source dependence, independent evidence, conflicts and non-substitution among principals/domains.
+
+**Source basis:** O2 + E2-O + H2/H3.
+
+**Unique ablation anchor:** **S9 — Multi-principal composition, non-substitution and conflict.**
+
+---
+
+## 2A. Pre-ablation documentary coverage matrix
+
+Before testing P1–P6, the corpus already provides a useful **requirements-necessity precursor**: the existing scenario quality plans state which S1–S14 requirements each gate depends on and what failure occurs when a gate is bypassed, absent or misapplied.
+
+This matrix reorganizes that already-published material by requirement rather than by scenario. It is **documentary coverage, not execution evidence**.
+
+### 2A.1 Method boundary
+
+- **00E, 00F, 00H, 00I and 00J** expose requirement routes directly in their gate tables.
+- **00G** declares the aggregate route **S1/S2/S3/S6/S9/S11/S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6**, while its Q0–Q5 register expresses the evidence/failure semantics gate by gate without repeating the S# route in every row. The matrix therefore marks 00G coverage from that aggregate declaration rather than pretending each individual row contains a separate S# annotation.
+- **00J S2/S3/S4 are conditional extensions** when the fixture explicitly introduces preference fidelity, regime/exception or finite human dispute review. The base Q0–Q5 route already supplies the coverage listed below without relying on those optional branches.
+- A checkmark means the current published scenario uses the requirement in its declared gate/route. It does not mean an executable test has been run.
+
+### 2A.2 S1–S14 × reference-scenario matrix
+
+| Requirement | 00E | 00F | 00G | 00H | 00I | 00J | Published failure pressure if the requirement is absent/misapplied |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|---|
+| **S1 — Authority provenance/current applicability** |  | ✓ | ✓ | ✓ | ✓ | ✓ | Identity, signature, transport or a locally valid grant can be treated as authority for a decision/scope it does not currently govern. |
+| **S2 — Preference fidelity/reviewable decision basis** | ✓ |  | ✓ | ✓ |  |  | A fluent/attractive/generated option or grouped finding can advance without demonstrating that it still represents the relevant principal/basis. |
+| **S3 — Regime/context/escalation/bounded escape** | ✓ | ✓ | ✓ |  | ✓ |  | A changed frame is missed, or uncertainty opens an unbounded escalation/escape path instead of bounded requalification. |
+| **S4 — Human-inclusive oversight authority/capacity** | ✓ | ✓ |  |  |  |  | Humans are repeatedly queried, unavailable or overloaded; nominal approval/capacity is mistaken for effective oversight. |
+| **S5 — Operational indeterminacy/containment** | ✓ | ✓ |  |  | ✓ | ✓ | Known unresolved, stale or conflicting state can become permission/certainty, or containment becomes blanket/unbounded. |
+| **S6 — Privacy-preserving trust handoff** | ✓ | ✓ | ✓ |  |  | ✓ | Scope/provenance/qualification can be lost across systems; access or transport validity can be promoted into a stronger trust/rights conclusion. |
+| **S7 — Identity/representation link** |  |  |  | ✓ |  | ✓ | A technical actor, registry identity or leaf worker can be mistaken for the principal/rights holder it represents. |
+| **S8 — Bounded subdelegation/non-amplification** |  |  |  | ✓ |  | ✓ | Valid leaf grants can manufacture authority absent at the root; purpose/scope/time limits amplify across delegation. |
+| **S9 — Multi-principal composition/non-substitution/conflict** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | Locally valid claims/postures can substitute for one another, dependent repetition can become corroboration, or one common-root campaign can be misclassified. |
+| **S10 — Commitment/material change** | ✓ | ✓ |  |  | ✓ | ✓ | A previously correct commitment/decision can survive material change and execute from a stale basis. |
+| **S11 — Policy/objective integrity across domains** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | Source/version/scope/dependency or cross-domain policy relations can be flattened, overwritten or silently disappear. |
+| **S12 — Accountability/challenge/repair** | ✓ | ✓ |  | ✓ | ✓ | ✓ | The system cannot reconstruct why a state/action occurred or repair future state without losing the historical basis. |
+| **S13 — Authority history vs intervention history** |  |  |  | ✓ | ✓ | ✓ | A later approval/intervention can overwrite or launder the original authority/provenance history. |
+| **S14 — Evidence-to-decision assessment** | ✓ | ✓ | ✓* | ✓ | ✓ | ✓ | Evidence may exist without an explicit statement of what it proves for the current decision; timeout, approval or repeated records can force unsupported closure. |
+
+`✓*` for 00G denotes aggregate-route coverage as described above.
+
+### 2A.3 Coverage findings
+
+The union of the six current scenario routes covers **all fourteen requirements S1–S14**. No S# is absent from the six-scenario corpus.
+
+Two requirements are especially cross-cutting:
+
+- **S9** appears in all six current scenario routes.
+- **S14** appears in all six scenario routes; in 00E/00F/00H/00I/00J it is explicitly repeated throughout the detailed gate routes, while 00G carries S14 in its aggregate canonical route and implements the evidence→decision distinction throughout Q0–Q5.
+
+This is stronger than saying that the requirements were written after the scenarios. The quality plans already contain the two ingredients needed for an ablation pre-registration:
+
+1. **requirement route** — which S#/T#/H# a gate needs; and
+2. **failure-if-bypassed semantics** — what concrete bad outcome becomes reachable if that gate does not hold.
+
+The six-principle ablation below therefore does not invent new failure mechanisms. It chooses one existing requirement anchor and one existing failure route for each removed principle.
+
+
+## 3. Requirement-to-principle mapping
+
+### 3.1 Mapping rule
+
+Each S1–S14 requirement has exactly **one primary principle owner for ablation purposes**. A requirement may also depend on supporting principles. The primary assignment is intentionally exclusive so that removing a principle removes at least one real requirement obligation rather than leaving every requirement redundantly owned by all six principles.
+
+A supporting principle may strengthen or operationalize a requirement, but it does not satisfy the primary semantics by itself. If a proposed workaround recreates the removed principle's semantics under another name, the ablation has **not** been bypassed; the principle has been reintroduced.
+
+### 3.2 Primary mapping
+
+| Canonical requirement | Primary principle | Supporting principles | Why the primary link is non-substitutable |
+|---|---|---|---|
+| **S1 — Authority provenance/current applicability** | **P4** | P5, P6 | Authority can only remain decision-usable across handoffs if issuer, scope, standing and applicability remain linked to the record being consumed. |
+| **S2 — Preference fidelity/reviewable basis** | **P1** | P3, P6 | A preference or basis must be explicitly qualified for the receiving decision rather than inferred from fluency, recency or output similarity. |
+| **S3 — Regime/context/escalation/bounded escape** | **P2** | P3, P5 | Escalation and escape must terminate under bounded conditions; otherwise recognized change becomes unbounded search or suspension. |
+| **S4 — Human-inclusive oversight authority/capacity** | **P2** | P3, P5 | A nominal human is not a safety mechanism unless review is reachable, capacitated and timely. |
+| **S5 — Operational indeterminacy/containment** | **P3** | P1, P2, P5 | Its decisive obligation is that unresolved/stale/conflicting state must not be converted into permission or certainty. |
+| **S6 — Privacy-preserving trust determination** | **P4** | P1, P6 | Minimum disclosure is useful only if enough qualification survives the handoff for the receiver not to over-interpret the signal. |
+| **S7 — Identity/representation link** | **P4** | P6 | The representation relation must survive across actors/instances; similar behaviour cannot substitute for lineage. |
+| **S8 — Bounded subdelegation/non-amplification** | **P4** | P6 | Purpose/scope/time/hard limits must survive delegation; losing the root-to-leaf relation permits authority laundering. |
+| **S9 — Multi-principal composition/non-substitution/conflict** | **P6** | P1, P4 | Locally valid determinations must not silently substitute for one another or be promoted to system-wide truth. |
+| **S10 — Commitment/material change** | **P5** | P1, P2 | The defining obligation is requalification when the basis changes between recommendation/commitment and execution. |
+| **S11 — Policy/objective integrity across domains** | **P6** | P4, P5 | Cross-domain policy/objective state must compose without silent overwrite, disappearing couplings or false consensus. |
+| **S12 — Accountability/challenge/repair** | **P4** | P5 | Repair requires reconstructable provenance/history rather than a rewritten present that destroys the original basis. |
+| **S13 — Authority history versus intervention history** | **P4** | P5, P6 | Original authority and later intervention must remain distinct linked objects; otherwise provenance is overwritten. |
+| **S14 — Evidence-to-decision assessment** | **P1** | P2, P3, P4, P5, P6 | S14 is the explicit bridge from evidence to what it actually establishes for the current decision. Without that bridge, evidence can be present yet semantically insufficient. |
+
+### 3.3 Coverage / uniqueness check
+
+The primary map is a complete partition of S1–S14:
+
+- **P1:** S2, **S14**
+- **P2:** S3, **S4**
+- **P3:** **S5**
+- **P4:** S1, S6, S7, **S8**, S12, S13
+- **P5:** **S10**
+- **P6:** **S9**, S11
+
+Every principle owns at least one requirement that no other principle owns in the primary ablation map. Therefore removing any P# causes at least one S# to fall out of the satisfiable set before any scenario-specific failure is considered.
+
+---
+
+## 4. Ablation protocol
+
+For each principle Pk:
+
+1. **Freeze the scenario.** Keep the same facts, branch oracle, authority, action library, technology/control substrate, compute/token ceiling, communication budget, human capacity and deadline.
+2. **Keep the other five principles active.**
+3. **Ablate only Pk.** The implementation may not silently reproduce Pk under a differently named rule.
+4. **Observe the requirement effect.** At least one requirement primarily owned by Pk must become unsatisfied or unestablished.
+5. **Follow the existing quality plan.** Do not invent a new failure. Use the pre-existing Route N / failure branch and its Q-gates.
+6. **Require material failure.** The ablation must reopen a critical failure route, not merely degrade a score.
+7. **Restore only Pk.** Under the same frozen inputs, the existing requirements-conforming route must again block, requalify or correctly bound that failure.
+8. **Substitution test.** If another mechanism rescues the branch at equal or lower burden, inspect whether it actually reconstructs Pk's semantics. If it does not, Pk is not necessary as currently formulated and the six-principle model must be revised.
+
+### Full-set sufficiency condition
+
+For the current six-scenario corpus, the full P1–P6 set is a **sufficiency candidate** only if each selected Route Q can satisfy its applicable S1–S14 requirements under the declared quality gates.
+
+### Necessity-by-ablation condition
+
+Pk earns a **necessary-within-this-corpus** result only if:
+
+[
+(P1…P6) \setminus P_k
+\Rightarrow
+\text{at least one primary } S_i \text{ becomes unsatisfied}
+\Rightarrow
+\text{one frozen critical failure route reopens}
+]
+
+and restoring Pk alone closes that route again under the same fixture.
+
+This is corpus-bounded necessity, not universal minimality.
+
+---
+
+## 5. Six one-principle ablation routes
+
+The six ablations deliberately use **one different reference scenario each** so the result is not driven by repeatedly rephrasing a single fixture.
+
+### A1 — Remove P1: qualified determination / explicit residual
+
+**Primary requirement lost:** **S14 — Evidence-to-decision assessment**  
+**Scenario:** [00J — Rights-Provenance Inversion](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md)  
+**Existing failure route:** [00J §7.1 Route N](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md#71-route-n--quality-plan-exists-but-is-badly-implemented--gates-are-bypassed-or-misapplied)  
+**Conforming comparator:** [00J §7.2 Route Q](./00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md#72-route-q--canonical-requirements-and-gates-correctly-implemented)
+
+**Ablation.** Keep provenance transport, bounded search, anti-false-closure, material-change requalification and composition controls, but remove the obligation to state **what each record actually establishes for the receiving rights/enforcement decision**.
+
+**Route reopened.**
+
+1. Q0/Q1 may still contain valid creator, access and technical identity records.
+2. At Q2, a valid `generated-by M1` record exists.
+3. Without P1/S14, the system has no mandatory evidence-to-decision sufficiency statement separating generation provenance from source/rights provenance.
+4. Q3 can therefore admit a technically valid downstream RX record as if it established enforceable rights.
+5. Q4 replication can make that unsupported conclusion operationally prominent.
+6. Q5 reaches `LICENSE_REQUIRED/PAY/BLOCK` against the original author even though the stronger rights proposition was never established.
+
+**Why the other five do not rescue it.** P2 can bound review; P3 can prevent closure on an explicitly marked UNKNOWN; P4 can preserve the records; P5 can refresh them; P6 can prevent correlated copies from becoming independent evidence. None of those, by itself, states **which proposition the available evidence is sufficient to support**. A rescue rule that adds that test has reconstructed P1/S14.
+
+**Restoration test.** Restore P1 only: Q2/Q3/Q5 must preserve the difference between generation provenance, source provenance, rights provenance and enforceable-rights evidence; unsupported enforcement returns to REQUALIFY/HOLD/no-conclusion rather than PAY/BLOCK.
+
+---
+
+### A2 — Remove P2: bounded unresolved effort / viable oversight
+
+**Primary requirement lost:** **S4 — Human-inclusive oversight authority and capacity**  
+**Scenario:** [00E — 100 Million Tokens](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md)  
+**Existing failure route:** [00E §8.1 Route N](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md#81-route-n--requirements-not-satisfied-for-the-run)  
+**Conforming comparator:** [00E §8.2 Route Q](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md#82-route-q--requirements-satisfied-for-the-run)
+
+**Ablation.** Preserve explicit uncertainty and all provenance, but remove the requirement that unresolved determination, human review and window expansion terminate under a finite decision-relevant capacity/deadline rule.
+
+**Route reopened.**
+
+1. Q1 preserves uncertainty correctly.
+2. Q2 sends the impoverished representation to authorized humans repeatedly.
+3. Review does not produce new decision-relevant evidence, but without P2 there is no mandatory stop/viability condition.
+4. Q4 can also keep widening search/context because more information remains conceivable.
+5. Token/compute/human-review budget is consumed while the useful response margin shrinks.
+6. The run ends in persistent HOLD/search or a deadline/default/approval forces closure without new qualifying evidence — the original 100M-token / human-burden failure family.
+
+**Why the other five do not rescue it.** They can preserve uncertainty, provenance and scope and can detect material change, but none requires **when to stop spending determination capacity**. Any substitute that imposes marginal-value, capacity and stopping conditions has reconstructed P2.
+
+**Restoration test.** Restore P2 only: Q2/Q4 must reach bounded closure, targeted evidence acquisition or explicit no-conclusion before the declared deadline without treating human authorization as new evidence.
+
+---
+
+### A3 — Remove P3: no false closure
+
+**Primary requirement lost:** **S5 — Operational indeterminacy and containment**  
+**Scenario:** [00F — Chaos in the Smartcity](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md)  
+**Existing failure route:** [00F §8.1 Route N](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md#81-route-n--requirements-not-satisfied-for-the-event)  
+**Conforming comparator:** [00F §8A.3 Route Q](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md#8a3-route-q--requirements-conforming-route)
+
+**Ablation.** Keep bounded search, current authority, handoff lineage, requalification triggers and composition awareness, but permit recognized unresolved/stale/correlated state to be converted into a determinate operational posture.
+
+**Route reopened.**
+
+1. Q1 observes a material break but stale/correlated signals can still be treated as sufficiently certain or absence of one warning as evidence of stability.
+2. Q2 receives A, B, NORMAL and HOLD local postures.
+3. Without P3/S5, an explicit unresolved relation can be forced into NORMAL/PASS or an opposed local posture can advance as if determined.
+4. Q3 then authorizes locally plausible but mutually incompatible use of the same corridor.
+5. Q5 composes too late or from already false closures.
+6. Local collision avoidance can remain technically correct while city-level gridlock blocks evacuation/rescue.
+
+**Why the other five do not rescue it.** P1 can label insufficiency, but without P3 the implementation is allowed to close over that insufficiency. P2 prevents endless search, not false certainty. P4 preserves the signal, P5 refreshes it and P6 prevents scope promotion; none forbids **known unresolved state becoming permission**. A rule that does so recreates P3/S5.
+
+**Restoration test.** Restore P3 only: unresolved/stale/conflicting Q1/Q2 state must remain explicit and trigger the existing bounded posture/requalification path before incompatible corridor use advances.
+
+---
+
+### A4 — Remove P4: qualification-preserving handoff / authority lineage
+
+**Primary requirement lost:** **S8 — Bounded subdelegation and non-amplification**  
+**Scenario:** [00H — The Quiet Four Thousand](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md)  
+**Existing failure route:** [00H §12.2 Route N1](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md#122-route-n1--control-exists-but-is-bypassed-or-fails)  
+**Conforming comparator:** [00H §12.3 Route Q](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md#123-route-q--current-action-correctly-classified-as-not-authorized)
+
+**Ablation.** Keep decision qualification, bounded inquiry, anti-false-closure, action-time requalification and composition checks, but allow delegation/representation qualification to lose the root-to-leaf purpose/scope/time/hard-limit relation across handoffs.
+
+**Route reopened.**
+
+1. Q0 can authenticate a worker and a locally valid one-case grant.
+2. Q1 correctly identifies the ~4,000-customer material finding.
+3. Q2 sees technically valid leaf actions/refund capability.
+4. Without P4/S8, the system no longer has to preserve that each leaf grant derives from a root mandate scoped to one assigned case.
+5. Locally valid leaf grants can therefore launder/amplify authority into a composed campaign, or the system can fail to preserve the valuable finding when the current actor cannot execute it.
+6. The critical aggregate route reappears: unauthorized cross-case refunds, or silent loss of the remaining material finding.
+
+**Why the other five do not rescue it.** P1 may correctly assess the evidence it receives; P2/P3 can bound uncertainty; P5 can refresh current state; P6 can recognize that actions compose. None can recover a root delegation relation that was not preserved across the handoff. A control that reconstructs and carries root→leaf purpose/scope has reintroduced P4.
+
+**Restoration test.** Restore P4 only: Q2/Q5 must reconstruct current root + leaf authority, enforce S8 non-amplification, preserve the finding and route a legitimate re-contract/requalification request rather than execute or discard it.
+
+---
+
+### A5 — Remove P5: material-change requalification at time of use
+
+**Primary requirement lost:** **S10 — Commitment state, material change and normal escalation**  
+**Scenario:** [00I — The Patch That Undid the Fix](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md)  
+**Existing failure route:** [00I §10.1 Route N0](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md#101-route-n0--ordinary-implementation-semantic-capability-absent)  
+**Conforming comparator:** [00I §10.3 Route Q](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md#103-route-q--requirements-conforming-route)
+
+**Ablation.** Keep original authority, provenance, anti-false-closure, bounded inquiry and cross-system composition, but remove the obligation to reopen a previously correct decision when a material condition changes before use.
+
+**Route reopened.**
+
+1. At T1, Patch A is correctly qualified and authorized.
+2. The job/token/API remain technically valid.
+3. Patch B, incident closure, freeze or configuration-generation change occurs before T2.
+4. Without P5/S10, no requirement forces the queued Patch A decision basis to be re-evaluated at time of use.
+5. The old authorized action executes successfully against a world in which it is now wrong.
+6. Patch A undoes the newer fix.
+
+**Why the other five do not rescue it.** They can preserve the old basis perfectly and may even keep its uncertainty honest. The missing property is the **trigger that invalidates reuse of a once-valid determination after material change**. Any substitute that performs that action-time requalification has recreated P5/S10.
+
+**Restoration test.** Restore P5 only: Q2/Q4 must detect the changed basis and reopen the affected decision before actuation; unchanged units may continue, preserving non-inferiority on the positive route.
+
+---
+
+### A6 — Remove P6: no local-to-ecosystem promotion / substitution
+
+**Primary requirement lost:** **S9 — Multi-principal composition, non-substitution and conflict**  
+**Scenario:** [00G — Ciber Napoleon Goes to Russia](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md)  
+**Failure branch:** [00G §9.3 Q0–Q5 gate register](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#93-q0q5-gate-register) — Branch F  
+**Positive control:** same gate register — Branch G genuine regime change
+
+**Ablation.** Keep source qualifiers, bounded inquiry, anti-false-closure, authority lineage and change requalification, but remove the rule that locally valid or repeated determinations cannot silently substitute for independent ecosystem-level support.
+
+**Route reopened.**
+
+1. Q0 preserves the original valid hospitality mission.
+2. Q1 receives a new “Napoleon” frame from multiple authenticated participants.
+3. Each signal may be accurately represented and signed.
+4. At Q2, without P6/S9, the receiver may count multiple dependent reports as independent corroboration or allow one local frame to become the shared frame.
+5. Q3/Q5 then treat the collectively reinforced but unsupported interpretation as sufficient to displace the valid mission.
+6. The robots leave the bar in formation even though the apparent consensus shares one evidentiary source and no legitimate mission-transition authority was established.
+
+**Why the other five do not rescue it.** P4 can preserve that each message came from its source; P1 can qualify each message locally; P3 can avoid closing on explicit UNKNOWN; P5 can detect change. The missing rule is the **composition/non-substitution judgment** that repeated or locally valid claims do not become independent ecosystem truth. A quorum/source-independence rule that performs that judgment has reconstructed P6/S9.
+
+**Restoration test.** Restore P6 only: Branch F must preserve the valid mission and deny/requalify the unsupported transition, while matched Branch G must still permit a legitimate transition when genuinely independent evidence and applicable authority support it. A “never change” system fails.
+
+---
+
+## 6. Result table to populate after execution
+
+| Ablation | Primary S# lost | Frozen scenario | Required negative result | Restore-only-P# result | Other-five substitution? | Status |
+|---|---|---|---|---|---|---|
+| **−P1** | S14 | 00J | unsupported rights-enforcement route reopens | Route Q blocks/requalifies unsupported enforcement | must not rescue without evidence→decision semantics | **DESIGNED / NOT EXECUTED** |
+| **−P2** | S4 | 00E | unbounded review/search or forced deadline closure reopens | bounded decision-relevant closure restored | must not rescue without stop/capacity semantics | **DESIGNED / NOT EXECUTED** |
+| **−P3** | S5 | 00F | unresolved/stale state can become determinate corridor posture | explicit unresolved state blocks/requalifies | must not rescue without anti-false-closure semantics | **DESIGNED / NOT EXECUTED** |
+| **−P4** | S8 | 00H | root→leaf authority is lost; campaign amplification/loss route reopens | lineage + non-amplification restored | must not rescue without qualification/lineage preservation | **DESIGNED / NOT EXECUTED** |
+| **−P5** | S10 | 00I | stale-but-technically-valid action executes after material change | time-of-use requalification restored | must not rescue without change-triggered requalification | **DESIGNED / NOT EXECUTED** |
+| **−P6** | S9 | 00G | dependent/local claims become collective truth | false transition rejected; genuine change still accepted | must not rescue without composition/non-substitution semantics | **DESIGNED / NOT EXECUTED** |
+
+---
+
+## 7. Acceptance criteria for the six-principle claim
+
+The current six-principle abstraction should be retained only if all of the following hold:
+
+1. **Complete requirement ownership:** every S1–S14 has one primary P#.
+2. **Non-empty uniqueness:** every P# owns at least one S# that no other P# owns primarily.
+3. **One real failure per ablation:** each −P# reopens one already documented critical failure route without changing the fixture facts.
+4. **Restore-only symmetry:** restoring only P# closes that route again under the existing Route Q / positive-control logic.
+5. **No semantic smuggling:** another control cannot “rescue” the ablation by silently reproducing the removed principle under a different name.
+6. **No deny-all shortcut:** the positive-control branch must still work where the scenario includes one.
+7. **Matched burden:** any competing substitute mechanism is credited if it achieves the same result with equal or lower burden; that weakens the claim that the named principle needs a distinct implementation surface.
+8. **No universal overclaim:** passing all six establishes necessity only for the declared six-scenario corpus and frozen ablation fixtures.
+
+If any P# has no unique primary requirement, or if its ablation does not reopen a material failure without also removing another principle, the mapping is not strong enough and must be revised rather than protected.
+
+---
+
+## 8. Claim boundary if all six ablations pass
+
+A successful execution would support the following bounded statement:
+
+> **Within the declared 00E–00J reference-scenario boundary, the fourteen canonical requirements can be traced to six operational principle families, and every principle earns its place: removing any one causes at least one uniquely anchored requirement to become unsatisfied and reopens at least one pre-existing critical failure route under matched conditions.**
+
+It would **not** establish:
+
+- universal minimality for every present or future agentic system;
+- that only Ecosystem Awareness / Ecosystem Positioning can implement the principles;
+- that the fourteen requirements are mathematically minimal;
+- that every requirement is exercised by every scenario; or
+- that comparative technology execution has already occurred.
+
+The stronger long-term test is deliberately open: if a simpler architecture or different principle set satisfies S1–S14 and closes all six failure families at equal or lower burden, that result should count against this six-principle decomposition rather than be excluded.
