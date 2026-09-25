@@ -4,7 +4,8 @@
 |---|---|
 | **Family** | Compounded Epistemic Collapse under Lossy Qualification |
 | **Minimum instantiation** | [00E — 100 Million Tokens / Meridian](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) |
-| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) |
+| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [A26 success conversion](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) |
+| **Success Model Case** | [Qualified Synthesis Under Finite Capacity](./00E_SUCCESS_MODEL_CASE_QUALIFIED_SYNTHESIS_v0.1.md) |
 | **Status** | first-pass structural family profile; extensions unexecuted unless separately recorded |
 
 > **Family claim.** The 100-million-token number, banking/insurance sectors and Meridian organization are fixture parameters. The structural case is a composed decision system in which decision-relevant qualification is lost or mismanaged across recursive handoffs, causing Type-2 false closure and/or Type-1 determination expansion that compound instead of cancelling.
@@ -126,3 +127,8 @@ C'\in Family(00E)\land Conf(R_E)\Rightarrow\neg F_E.
 \]
 
 This is a structural design result. Each listed domain still needs a frozen fixture before it can be counted as executed generalization evidence.
+
+
+## Success-case route
+
+The failure-family profile above is paired with the positive [**Qualified Synthesis Under Finite Capacity**](./00E_SUCCESS_MODEL_CASE_QUALIFIED_SYNTHESIS_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.
