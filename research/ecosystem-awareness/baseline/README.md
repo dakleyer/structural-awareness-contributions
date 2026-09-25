@@ -94,6 +94,21 @@ The current semantic traceability spine is intentionally split from the frozen s
 
 These are additive proof/traceability artefacts. They do not modify the frozen semantics of 00 or 02.
 
+### Failure → Success Model Cases and bounded extensibility
+
+[A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) defines when an upward/vertical, downward or horizontal variant remains in the same structural failure family. [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) adds the positive layer: the same kernel is traversed through the existing S1–S14/T1–T4 route to a legitimate bounded disposition, and that successful pattern is then tested for the same three extension directions.
+
+| Family | Success Model Case |
+|---|---|
+| **00E** | [Qualified Synthesis Under Finite Capacity](./00E_SUCCESS_MODEL_CASE_QUALIFIED_SYNTHESIS_v0.1.md) |
+| **00F** | [Coherent Shared-Capacity Requalification](./00F_SUCCESS_MODEL_CASE_SHARED_CAPACITY_REQUALIFICATION_v0.1.md) |
+| **00G** | [Source-Aware Frame Stability](./00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md) |
+| **00H** | [Preserve the Finding, Do Not Overreach](./00H_SUCCESS_MODEL_CASE_PRESERVE_WITHOUT_OVERREACH_v0.1.md) |
+| **00I** | [Action-Time Requalification](./00I_SUCCESS_MODEL_CASE_ACTION_TIME_REQUALIFICATION_v0.1.md) |
+| **00J** | [Proposition-Scoped Provenance](./00J_SUCCESS_MODEL_CASE_PROPOSITION_SCOPED_PROVENANCE_v0.1.md) |
+
+The extension contract is deliberately conservative: an extension may activate additional **existing** canonical requirements, but it may not invent a local S15 and still claim inherited conformance. If the current [A21 requirement grammar](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) cannot express a decision-material obligation, that result is Requirements-vNext evidence. The machine-readable route is [CASE-EXTENSION](./fixtures/CASE-EXTENSION/README.md).
+
 ## Problem-to-architecture reading route
 
 ### Corpus at a glance
