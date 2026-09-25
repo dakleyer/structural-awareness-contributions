@@ -205,7 +205,7 @@ The [**Requirements Coverage Map**](../../research/ecosystem-awareness/baseline/
 
 > **Evidence boundary:** this is a requirements-coverage / conformance-design result. Comparative execution and independent replication remain separately tracked.
 
-The next falsification step is the [**00K — Six-Principle Requirements Mapping & Ablation Test**](../../research/ecosystem-awareness/baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md): it maps S1–S14 to six operational principle families and pre-registers one leave-one-principle-out failure route per scenario. The claim is deliberately reversible: if another five-principle configuration closes an ablated route without reconstructing the removed principle, the six-principle decomposition must be revised.
+The next falsification step is the [**00K — Six-Principle Sufficiency & Adversarial Ablation Test**](../../research/ecosystem-awareness/baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md): the principles are tested directly, while S1–S14 remain their observable requirements projection. Each leave-one-principle-out run gives the other five the strongest fair repair opportunity; a true substitute counts against necessity, while a repair that works only by recreating the removed semantic invariant is recorded as semantic reconstruction. The [reviewed prior design](../../research/ecosystem-awareness/baseline/00K_A01_REVIEWED_PRE_PRINCIPLE_FIRST_DESIGN_ADDENDUM_v0.1.md) and [coverage matrix](../../research/ecosystem-awareness/baseline/00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) are preserved as supporting addenda.
 
 ---
 
