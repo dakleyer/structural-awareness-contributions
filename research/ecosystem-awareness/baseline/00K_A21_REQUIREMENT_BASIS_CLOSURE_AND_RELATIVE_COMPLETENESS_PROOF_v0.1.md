@@ -7,6 +7,7 @@
 | **Canonical requirements** | [00 — S1–S14](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
 | **Traceability proof** | [00K-A19](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) |
 | **Conformance→principle sufficiency** | [00K-A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) |
+| **Information gain / non-equivalence** | [00K-A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) |
 | **Post-freeze adversarial review** | [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
 | **Status** | relative requirement-basis completeness proof; no modification of frozen S1–S14 semantics |
 | **Date** | 25 September 2026 |
@@ -173,7 +174,7 @@ The non-vacuous primitive combinations normalize as follows.
 | **S13 Authority history vs intervention history** | authority/history × INTERVENE/REPAIR | P4, P5, P6 |
 | **S14 Evidence-to-decision assessment** | evidence × QUALIFY/ASSESS/SHIFT across all transitions | P1–P6 as applicable |
 
-A concrete requirement may invoke several rows. That is composition of requirements, not evidence of a missing primitive generator.
+A concrete requirement may invoke several rows. That is composition of requirements, not evidence of a missing primitive generator. Conversely, several distinct requirements may share the same P signature while differing in typed object, lifecycle operator, owner and conformance evidence; [A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) proves that this projection is information-losing rather than a reformulation.
 
 ---
 
