@@ -26,22 +26,22 @@ jobs:
         include:
           - id: "A1 P1 / 00J"
             harness: "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J"
-            expected: "11"
+            expected: "13"
           - id: "A2 P2 / 00E"
             harness: "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E"
-            expected: "11"
+            expected: "13"
           - id: "A3 P3 / 00F"
             harness: "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F"
-            expected: "13"
+            expected: "15"
           - id: "A4 P4 / 00H"
             harness: "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H"
-            expected: "27"
+            expected: "29"
           - id: "A5 P5 / 00I"
             harness: "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I"
-            expected: "12"
+            expected: "14"
           - id: "A6 P6 / 00G"
             harness: "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G"
-            expected: "15"
+            expected: "17"
 
     steps:
       - name: Checkout
