@@ -24,6 +24,10 @@ Historical engineering lines such as xSeil and Phylons provide field provenance 
 
 For a diagram-first orientation before entering the detailed corpus, use the [**Structural / Ecosystem Awareness Visual Guide**](./VISUAL_GUIDE.md). It shows the cumulative research route, architectural ownership, current positioning cycle, requirements-to-evidence pipeline, scenario/profile matrix, validation/case families and the 04 → 05 → 05A FG-TIDA layering. The source documents remain authoritative.
 
+## Requirements necessity / principle ablation
+
+The current follow-on to the S1–S14 requirements result is the [**00K — Six-Principle Requirements Mapping & Ablation Test v0.1 Draft**](./baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md). It partitions the fourteen canonical requirements across six operational principle families and pre-registers one ablation per reference scenario: remove one principle, keep the other five and the fixture boundary fixed, require at least one uniquely anchored S# to become unsatisfied, and verify that an existing critical failure route reopens. This is test design, not executed evidence.
+
 ## Current work / next steps
 
 The live research and integration queue is maintained in [**Ecosystem Awareness / Positioning — Living Workplan**](./WORKPLAN.md). It separates active vNext work (Requirements, Benchmark, Testbed coverage and FG-TIDA Specification) from cross-cutting provenance, execution, product-evidence and publication controls. Completed items move out of the active queue into the workplan's short completion record rather than accumulating indefinitely here.
