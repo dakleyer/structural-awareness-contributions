@@ -105,3 +105,62 @@ python -m pytest -q
 ```
 
 The intended falsification route remains open: add a new repair that passes U, G, I and NM under matched facts/resources **without** using or reconstructing a receiver-verifiable root/campaign authority relation. Such a passing repair counts against P4 necessity.
+
+
+## 7. Reviewed successor package and unified current fixture
+
+A later reviewed successor package, again supplied as
+`00K_A4_executed_ablation.zip`, was received after the original 11-test
+package. It extends the same model with:
+
+- NM checks across the ablated arms and A2-L;
+- an explicit non-EA-branded A2-L strong peer;
+- the four-arm comparison requested by 00K-A03 §10; and
+- a summary test that no TRUE SUBSTITUTE is present among the tested repairs.
+
+### 7.1 Successor provenance
+
+| Artifact | SHA-256 |
+|---|---|
+| successor ZIP | `e7d1caf81e2534fa5b0250f8982fe16fb8e960a273803f151b9ca876dd7c4b63` |
+| successor `README.md` | `266eb42543bbddc7e3f0be5b49b11575f1ab1cada41b093b02adf0c53c014da9` |
+| successor `ablation_A4.py` | `6cd2f24629672e5337bdf512dc1612e704c5f7828b462de04bb8ae7c174e4f26` |
+| successor `test_ablation_A4.py` | `38fc897f7eafaf5f700fcaddfd40eae20866fc2546d150027a6563b6875f97b5` |
+
+### 7.2 Independent successor execution
+
+The successor package was executed unmodified before corpus integration:
+
+```text
+.....................                                                    [100%]
+21 passed in 0.25s
+```
+
+The printed four-arm pattern matches the paper execution:
+
+| Arm | Branch U | Branch G | Interpretation |
+|---|---|---|---|
+| −P4 leaf/local baseline | EXECUTE | — | unsafe on U |
+| −P4 native rate cap | DENY | DENY | blocks blindly; positive-control failure |
+| A2-L semantic reconstruction | REPOSITION/RECONTRACT | EXECUTE | branch-correct; reconstructs P4 invariant |
+| full six-principle Route Q | REPOSITION/RECONTRACT | EXECUTE | branch-correct |
+
+### 7.3 Corpus-preserving integration
+
+The already-reviewed predecessor files were not silently replaced. The current
+fixture family was advanced by:
+
+1. adding the A2-L implementation to `ablation_A4.py`;
+2. adding `test_ablation_A4_v0_2_alignment.py` for the successor-only NM,
+   A2-L and four-arm checks; and
+3. retaining `test_ablation_A4_extended.py` as the independent six-test
+   U/G indistinguishability strengthening.
+
+This yields the current combined deterministic symbolic suite:
+
+```text
+27 passed
+```
+
+The evidence claim remains unchanged in kind: this is a runnable symbolic
+fixture result, not a live agent/product test and not universal proof of P4.
