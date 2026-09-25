@@ -2,7 +2,9 @@
 
 - Python 3.13.5
 - pytest 9.0.2
-- Result: **15 passed in 0.05s**
+- Reviewed base result: **15 passed in 0.05s**
+- Additive source-diversity/Sybil grid: **2 additional tests**
+- Current isolated matched-authority suite: **17/17**
 - Evidence class: deterministic symbolic fixture
 - TRUE SUBSTITUTE found: **No**
 - Strongest passing repair: source-independence peer
