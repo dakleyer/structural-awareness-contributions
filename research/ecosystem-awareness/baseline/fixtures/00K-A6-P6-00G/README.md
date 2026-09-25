@@ -35,3 +35,41 @@ No TRUE SUBSTITUTE is found in the tested repair surface.
 ## Boundary
 
 This is a deliberately simplified executable fixture for the 00G principle question. It does not simulate physical robots marching anywhere, and it does not test OpenAI or another agent platform. A future mechanism that passes the same F/G controls without source-independence/non-substitution semantics is a valid counterexample to P6 necessity.
+
+
+## Serious-repair hardening — transitive dependency
+
+The canonical A6 fixture now also includes:
+
+- [`p6_serious_repairs.py`](./p6_serious_repairs.py)
+- [`test_p6_serious_repairs.py`](./test_p6_serious_repairs.py)
+- [00K-A12 — P6 Transitive-Dependency & Strongest-Repair Audit](../../00K_A12_P6_TRANSITIVE_DEPENDENCY_AND_STRONGEST_REPAIR_AUDIT_v0.1.md)
+
+This layer attacks a weakness in direct source counting: several visibly distinct
+source IDs can still inherit one upstream material root.
+
+The hardened branch pair equalizes identity count, organization diversity,
+immediate source count, signatures, freshness, confidence, timing and content
+diversity. Only the transitive dependency graph differs.
+
+Serious alternatives — identity quorum, organization diversity, direct source
+count, confidence weighting, temporal/content diversity, human committee and
+source reputation — cannot separate the branches.
+
+A transitive dependency-graph / effective-material-root peer does pass, but only
+by reconstructing P6's dependency/non-substitution composition invariant.
+
+Additive execution:
+
+```text
+57 passed
+```
+
+Current canonical A6 core:
+
+```text
+74 tests
+```
+
+A6a (the original confounded 00G falsifier) and A6b (independent 00F isolation)
+remain separate supplemental packages.
