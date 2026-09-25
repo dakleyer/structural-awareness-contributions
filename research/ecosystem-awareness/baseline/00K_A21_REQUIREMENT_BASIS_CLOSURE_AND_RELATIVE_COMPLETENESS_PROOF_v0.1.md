@@ -53,7 +53,7 @@ Let the typed decision objects be:
 \[
 X=\{
 authority,\ preference,\ identity,\ human,\ evidence,\ policy,
-commitment,\ history
+commitment,\ history,\ frame,\ unresolved,\ multi\_principal
 \}.
 \]
 
@@ -97,7 +97,21 @@ r=\langle x,\lambda,P_i\rangle
 
 for typed object \(x\in X\), lifecycle operator \(\lambda\in\Lambda\), and operational invariant \(P_i\).
 
-This grammar is derived from the declared decision frame plus 02B; it is not generated from the names S1–S14.
+As in 02B, \(L_R\) does not admit every arbitrary object/operator pair. The admitted atoms \(\Gamma_R\) are the lifecycle-meaningful combinations already present in the declared decision frame:
+
+- QUALIFY: authority, preference, identity, evidence, policy;
+- ESCALATE: frame, human, unresolved, commitment;
+- CONTAIN: unresolved;
+- HANDOFF: any qualified object crossing participants;
+- BIND: identity/representation;
+- DELEGATE: authority;
+- COMPOSE: multi-principal/domain, authority, preference/policy, evidence;
+- SHIFT: frame, commitment, policy, authority, evidence;
+- INTERVENE: human, authority/history;
+- REPAIR: history, evidence, authority;
+- ASSESS: evidence/proposition/decision.
+
+This grammar is derived from the declared decision lifecycle plus 02B; it is not generated from the names S1–S14. A candidate atom outside \(\Gamma_R\) is precisely a proposed language extension and therefore a possible falsifier of the closure theorem.
 
 ---
 
@@ -109,13 +123,13 @@ The non-vacuous primitive combinations normalize as follows.
 |---|---|---|
 | **S1 Authority provenance/current applicability** | authority × QUALIFY/SHIFT | P4, P5 |
 | **S2 Preference fidelity/reviewable basis** | preference × QUALIFY | P1, P6 |
-| **S3 Regime/context/escalation/bounded escape** | decision frame × ESCALATE/SHIFT | P2, P3, P5 |
+| **S3 Regime/context/escalation/bounded escape** | frame × ESCALATE/SHIFT | P2, P3, P5 |
 | **S4 Human-inclusive oversight authority/capacity** | human × INTERVENE/ESCALATE | P2, P3, P4 |
-| **S5 Operational indeterminacy/containment** | unresolved evidence/state × CONTAIN/ACT-boundary | P1, P2, P3, P5 |
+| **S5 Operational indeterminacy/containment** | unresolved × CONTAIN/ACT-boundary | P1, P2, P3, P5 |
 | **S6 Privacy-preserving trust handoff** | qualified object × HANDOFF | P1, P4, P6 |
 | **S7 Identity/representation link** | identity × BIND/QUALIFY | P4, P6 |
 | **S8 Bounded subdelegation/non-amplification** | authority × DELEGATE | P4, P6 |
-| **S9 Multi-principal composition/non-substitution/conflict** | multi-principal/domain × COMPOSE | P6, with P1/P4 where material |
+| **S9 Multi-principal composition/non-substitution/conflict** | multi_principal × COMPOSE | P6, with P1/P4 where material |
 | **S10 Commitment/material change** | commitment/basis × SHIFT | P5, with P1/P2 |
 | **S11 Policy/objective integrity across domains** | policy/preference × COMPOSE/SHIFT | P6, P4, P5 |
 | **S12 Accountability/challenge/repair** | history/evidence × REPAIR | P4, P5 |
@@ -130,7 +144,7 @@ A concrete requirement may invoke several rows. That is composition of requireme
 
 ### Theorem
 
-Let \(r=\langle x,\lambda,P_i\rangle\) be any primitive requirement atom well formed in \(L_R\).
+Let \(r=\langle x,\lambda,P_i\rangle\in\Gamma_R\) be any admitted primitive requirement atom well formed in \(L_R\).
 
 Then \(r\) is covered by at least one clause of S1–S14.
 
