@@ -14,6 +14,7 @@ Run from this directory:
 
 ~~~bash
 python validate_traceability.py
+python validate_normal_forms.py
 ~~~
 
 Expected:
@@ -28,3 +29,6 @@ Requirement normal forms: 14/14
 ~~~
 
 This meta-check is not counted in the 379 symbolic ablation tests.
+
+
+`normal_form_manifest.json` records the declared foundation language, admitted primitive forms, P1–P6 normal forms, requirement language and S1–S14 normal forms. `validate_normal_forms.py` checks both marginal coverage and every admitted object/operator atom.
