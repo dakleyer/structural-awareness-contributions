@@ -8,7 +8,7 @@
 | **Corpus-grounded formal proof** | [00K-A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) |
 | **Formal sketch** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Preferred pure mathematical proof** | [00K-A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
-| **Foundation syntactic closure** | [02B](./02B_FOUNDATIONAL_SYNTAX_NORMAL_FORMS_AND_PRINCIPLE_CLOSURE_PROOF_v0.1.md) |
+| **Foundation syntactic closure** | [02B](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) |
 | **Requirement-basis closure** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **Foundation syntactic closure** | [02B](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) |
 | **Requirement grammar closure** | [00K-A21](./00K_A21_REQUIREMENT_GRAMMAR_CLOSURE_AND_UNIQUENESS_PROOF_v0.1.md) |
