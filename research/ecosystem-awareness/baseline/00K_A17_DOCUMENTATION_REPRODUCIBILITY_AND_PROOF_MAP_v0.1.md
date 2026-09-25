@@ -61,6 +61,7 @@ For a new technical reviewer:
 | **A20** | shared-substrate mathematical independence proof | preferred pure mathematical independence result relative to common coherence theory B |
 | **A21** | requirement grammar closure / S1–S14 uniqueness proof | syntactic closure relative to declared decision-boundary ontology |
 | **A22** | full-cube realizability / Boolean diagnostic minimality | 64-signature construction + six-coordinate information lower bound |
+| **A23** | canonical requirement-conformance sufficiency | proves applicable S/T conformance ⇒ P1–P6; retains anchor-only counterexamples |
 | **02B** | foundational syntax / principle closure proof | A/B/C/D + Type-0/1/2 + admitted operators normalize to P1–P6 |
 
 ---
