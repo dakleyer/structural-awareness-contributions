@@ -33,6 +33,8 @@ MSCA is the control-sufficiency branch of the wider [Structural Awareness progra
 
 The canonical MSCA documents below are cumulative successors/clarifications over that lineage. Source papers and submissions remain separately citable for what they actually stated at their publication date.
 
+The [original MSCA working note](./ARCHITECTURE_AND_STANDARDS_CONTEXT.md) preserves the first README byte for byte, including its programme diagram, five candidate dimensions and six research questions; it remains historical context, not a competing canonical specification.
+
 ## Canonical MSCA document set
 
 The static MSCA corpus is consolidated around three canonical documents:
