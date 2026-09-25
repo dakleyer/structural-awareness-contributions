@@ -11,8 +11,6 @@
 | **Formal sketch** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Shared-substrate mathematical independence** | [00K-A20](./00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **Requirement basis closure / relative completeness** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
-| **Requirement closure/uniqueness proof** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
-| **Requirement-closure companion** | [00K-A21](./00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) |
 | **Machine-readable integrity check** | [fixtures/00K-TRACE](./fixtures/00K-TRACE/README.md) |
 | **Status** | semantic traceability proof; no change to frozen requirement semantics |
 | **Date** | 25 September 2026 |
