@@ -122,6 +122,10 @@ jobs:
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-TRACE
         run: python validate_traceability.py
 
+      - name: Validate syntactic closure graph
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE
+        run: python validate_closure.py
+
       - name: Run complete symbolic campaign
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-SUITE
         shell: bash
