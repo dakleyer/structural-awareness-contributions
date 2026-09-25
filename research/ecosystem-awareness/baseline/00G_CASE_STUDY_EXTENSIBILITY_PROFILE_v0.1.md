@@ -4,7 +4,8 @@
 |---|---|
 | **Family** | Collective False-Context Convergence and Mission/Role Drift |
 | **Minimum instantiation** | [00G — Bar-to-Napoleon Cascade](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) |
-| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) |
+| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [A26 success conversion](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) |
+| **Success Model Case** | [Source-Aware Frame Stability](./00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md) |
 | **Status** | first-pass structural family profile |
 
 > **Family claim.** “Robots in a bar think they are in Napoleonic France” is a mnemonic. The structural case is that repeated or correlated claims are mistaken for independent evidence/applicable authority and displace a still-valid objective/frame, while a correct system must remain able to accept a genuinely supported and authorized frame change.
@@ -135,3 +136,8 @@ with P5 when the transition is a genuine material-time/frame change that is not 
 By A23, full conformance with the inherited S/T route entails those invariants. Therefore a conforming conversational or multi-agent implementation cannot exhibit the same **correlated-claim → false-context → unauthorized mission/role drift** predicate.
 
 This does not claim that the requirements eliminate every form of LLM sycophancy.
+
+
+## Success-case route
+
+The failure-family profile above is paired with the positive [**Source-Aware Frame Stability**](./00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.
