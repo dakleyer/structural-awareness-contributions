@@ -6,11 +6,12 @@
 | **Requirements** | [00 — Canonical Requirements](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
 | **P↔S traceability / sufficiency** | [A19](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) · [A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) |
 | **Information refinement** | [A24](./00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) |
+| **Positive success-case companion** | [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) |
 | **Machine-readable registry** | [fixtures/CASE-EXTENSION](./fixtures/CASE-EXTENSION/README.md) |
 | **Status** | first-pass structural extensibility framework; logical transfer theorem; listed domain extensions remain design-level until separately executed |
 | **Date** | 25 September 2026 |
 
-> **Result.** 00E–00J are treated as **minimum concrete instantiations of six structural failure case-study families**, not as one-off stories. An upward/vertical, downward or horizontal variant belongs to the same family only when it preserves the family's independently stated failure kernel, decision semantics and requirement surface. For every admitted extension, canonical requirements conformance transfers through A23 to the relevant P invariants; because the family failure predicate requires violation of at least one of those invariants, a canonically conforming implementation cannot exhibit that same structural failure. This is a conditional structural theorem, not a claim that every superficially similar real-world situation has already been proved equivalent.
+> **Result.** 00E–00J are treated as **minimum concrete instantiations of six structural failure case-study families**, not as one-off stories. [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) is the positive companion: it converts each admitted family into a requirements-conforming Success Model Case and tests the same upward/downward/horizontal transfer on the successful traversal. An upward/vertical, downward or horizontal variant belongs to the same family only when it preserves the family's independently stated failure kernel, decision semantics and requirement surface. For every admitted extension, canonical requirements conformance transfers through A23 to the relevant P invariants; because the family failure predicate requires violation of at least one of those invariants, a canonically conforming implementation cannot exhibit that same structural failure. This is a conditional structural theorem, not a claim that every superficially similar real-world situation has already been proved equivalent.
 
 ---
 
