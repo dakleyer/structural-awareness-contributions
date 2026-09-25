@@ -95,7 +95,7 @@ Supplemental:
 
 **Supplemental = 33.**
 
-**Registered campaign = 379.**
+**Registered campaign = 379.**\n\nFor the consolidated reader-facing route that puts the six narrative ablations and executable Python surfaces side by side, use [**00K-A15 — Complete Six-Principle Ablation Testbook**](./00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md).
 
 The [00K suite router](./fixtures/00K-SUITE/README.md), execution-lock manifest and GitHub Actions workflow use the current counts. [GitHub Actions run 36108965548](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36108965548) independently reproduces **346/346 core + 33/33 supplemental = 379/379** across all 10 jobs; see [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md).
 
