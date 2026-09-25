@@ -1,0 +1,194 @@
+{
+  "version": "0.1",
+  "proofs": {
+    "foundation_bridge": "research/ecosystem-awareness/baseline/02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md",
+    "traceability_proof": "research/ecosystem-awareness/baseline/00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md",
+    "pure_independence": "research/ecosystem-awareness/baseline/00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md",
+    "corpus_independence": "research/ecosystem-awareness/baseline/00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md",
+    "scenario_coverage": "research/ecosystem-awareness/baseline/00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md",
+    "testbook": "research/ecosystem-awareness/baseline/00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md"
+  },
+  "principles": {
+    "P1": {
+      "derivation_class": "direct",
+      "upstream": [
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+        "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md",
+        "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part03.md"
+      ],
+      "primary_requirements": [
+        "S14"
+      ],
+      "requirements": [
+        "S2",
+        "S14"
+      ],
+      "scenario": "00J",
+      "scenario_file": "research/ecosystem-awareness/baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md",
+      "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J",
+      "corpus_witness": "M1",
+      "math_witness": "omega_1"
+    },
+    "P2": {
+      "derivation_class": "direct",
+      "upstream": [
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+        "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md",
+        "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part02.md"
+      ],
+      "primary_requirements": [
+        "S3",
+        "S4"
+      ],
+      "requirements": [
+        "S3",
+        "S4"
+      ],
+      "ablation_anchor": "S4",
+      "scenario": "00E",
+      "scenario_file": "research/ecosystem-awareness/baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md",
+      "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E",
+      "corpus_witness": "M2",
+      "math_witness": "omega_2"
+    },
+    "P3": {
+      "derivation_class": "direct",
+      "upstream": [
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+        "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md",
+        "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part03.md"
+      ],
+      "primary_requirements": [
+        "S5"
+      ],
+      "requirements": [
+        "S5"
+      ],
+      "scenario": "00F",
+      "scenario_file": "research/ecosystem-awareness/baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md",
+      "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F",
+      "corpus_witness": "M3",
+      "math_witness": "omega_3"
+    },
+    "P4": {
+      "derivation_class": "typed_boundary_specialization",
+      "upstream": [
+        "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part03.md",
+        "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md"
+      ],
+      "primary_requirements": [
+        "S1",
+        "S6",
+        "S7",
+        "S8",
+        "S12",
+        "S13"
+      ],
+      "requirements": [
+        "S1",
+        "S6",
+        "S7",
+        "S8",
+        "S12",
+        "S13"
+      ],
+      "ablation_anchor": "S8",
+      "scenario": "00H",
+      "scenario_file": "research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md",
+      "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H",
+      "corpus_witness": "M4",
+      "math_witness": "omega_4"
+    },
+    "P5": {
+      "derivation_class": "direct",
+      "upstream": [
+        "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+        "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md"
+      ],
+      "primary_requirements": [
+        "S10"
+      ],
+      "requirements": [
+        "S10"
+      ],
+      "scenario": "00I",
+      "scenario_file": "research/ecosystem-awareness/baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md",
+      "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I",
+      "corpus_witness": "M5",
+      "math_witness": "omega_5"
+    },
+    "P6": {
+      "derivation_class": "direct",
+      "upstream": [
+        "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part02.md",
+        "research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part03.md"
+      ],
+      "primary_requirements": [
+        "S9",
+        "S11"
+      ],
+      "requirements": [
+        "S9",
+        "S11"
+      ],
+      "ablation_anchor": "S9",
+      "scenario": "00G",
+      "scenario_file": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md",
+      "harness": "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G",
+      "corpus_witness": "M6",
+      "math_witness": "omega_6"
+    }
+  },
+  "requirements": {
+    "S1": {
+      "primary_principle": "P4"
+    },
+    "S2": {
+      "primary_principle": "P1"
+    },
+    "S3": {
+      "primary_principle": "P2"
+    },
+    "S4": {
+      "primary_principle": "P2"
+    },
+    "S5": {
+      "primary_principle": "P3"
+    },
+    "S6": {
+      "primary_principle": "P4"
+    },
+    "S7": {
+      "primary_principle": "P4"
+    },
+    "S8": {
+      "primary_principle": "P4"
+    },
+    "S9": {
+      "primary_principle": "P6"
+    },
+    "S10": {
+      "primary_principle": "P5"
+    },
+    "S11": {
+      "primary_principle": "P6"
+    },
+    "S12": {
+      "primary_principle": "P4"
+    },
+    "S13": {
+      "primary_principle": "P4"
+    },
+    "S14": {
+      "primary_principle": "P1"
+    }
+  },
+  "ablation_anchors": {
+    "P1": "S14",
+    "P2": "S4",
+    "P3": "S5",
+    "P4": "S8",
+    "P5": "S10",
+    "P6": "S9"
+  }
+}
