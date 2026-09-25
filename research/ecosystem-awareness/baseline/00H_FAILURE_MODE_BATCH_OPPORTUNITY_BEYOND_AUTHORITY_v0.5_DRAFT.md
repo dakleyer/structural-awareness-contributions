@@ -22,6 +22,8 @@
 
 **Implementation-trajectory drafts:** [00H-A01 — Claude Agent SDK v0.4 Draft](./00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) tests a strong agent-runtime / pre-action-hook architecture; [00H-A02 — Stripe Radar v0.4 Draft](./00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) tests a mature payment-risk / velocity-control peer on an adjacent aggregate-control axis and then strengthens it with an explicit merchant authorization layer. Both are unexecuted drafts and use the same frozen 00H fixture.
 
+**Case-study family / extensibility:** the Quiet Four Thousand is the **minimum concrete instantiation** of the [00H Opportunity Beyond Authority / Preservation–Execution case-study family](./00H_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md). The family can shrink to two objects or grow to multi-level delegation/campaign systems, and can move horizontally across domains, provided discovery, preservation, authority transition and execution remain distinct under [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md).
+
 ## Reader-facing stories — "The Quiet Four Thousand" first, "The Refund Campaign Nobody Approved" as adversarial hardening
 
 ### The base story — no attacker is required
