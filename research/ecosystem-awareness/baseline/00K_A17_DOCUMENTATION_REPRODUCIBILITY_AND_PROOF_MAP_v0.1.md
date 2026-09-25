@@ -5,7 +5,8 @@
 | **Scope** | complete navigation map for the 00K six-principle ablation workstream |
 | **Parent** | [00K — Six-Principle Sufficiency & Adversarial Ablation Test](./00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) |
 | **Current executable testbook** | [00K-A15](./00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) |
-| **Formal proof** | [00K-A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) |
+| **Corpus-grounded formal proof** | [00K-A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) |
+| **Pure mathematical proof** | [00K-A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) |
 | **CI reproduction** | [00K-A14](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) |
 | **Date** | 25 September 2026 |
 
@@ -21,7 +22,8 @@ For a new technical reviewer:
 2. [**A02 Requirements Coverage Matrix**](./00K_A02_REQUIREMENTS_COVERAGE_MATRIX_ADDENDUM_v0.1.md) — why S1–S14 already matter across 00E–00J.
 3. [**A15 Complete Six-Principle Ablation Testbook**](./00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) — all six narrative routes + Python surfaces in one place.
 4. [**A13 Completion Review**](./00K_A13_SIX_PRINCIPLE_SERIOUS_ABLATION_COMPLETION_REVIEW_v0.1.md) — current bounded scientific interpretation.
-5. [**A16 Formal Relative Independence Proof**](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) — mathematical non-derivability / irredundancy theorem.
+5. [**A18 Pure Mathematical Independence Proof**](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) — self-contained model-theoretic proof using only abstract semantic definitions; no fixture/test premise.
+6. [**A16 Formal Relative Independence Proof**](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) — mathematical non-derivability / irredundancy theorem.
 6. [**A14 CI Reproduction Record**](./00K_A14_GITHUB_ACTIONS_REPRODUCTION_379_v0.1.md) — repository-level independent execution of 379/379 symbolic tests.
 
 ---
