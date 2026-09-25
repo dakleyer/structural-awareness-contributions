@@ -61,6 +61,8 @@ For a new technical reviewer:
 | **A18** | formal independence sketch | lightweight Boolean sanity check; not the strongest independence claim |
 | **A19** | principle–requirement semantic conservation proof | verifies non-vacuous P→S→scenario→ablation traceability |
 | **A20** | shared-substrate mathematical independence proof | preferred pure mathematical independence result relative to common coherence theory B |
+| **A21** | requirement grammar closure / S1–S14 uniqueness proof | syntactic closure relative to declared decision-boundary ontology |
+| **A22** | full-cube realizability / Boolean diagnostic minimality | 64-signature construction + six-coordinate information lower bound |
 | **02B** | foundational syntax / principle closure proof | A/B/C/D + Type-0/1/2 + admitted operators normalize to P1–P6 |
 | **A21** | requirement basis closure / relative completeness | declared decision-frame lifecycle atoms normalize to S1–S14 |
 | **A21** | requirement grammar closure / uniqueness proof | exact 14 normal forms relative to the declared decision-boundary ontology |
