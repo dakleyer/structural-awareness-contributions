@@ -2,9 +2,9 @@
   "schema_version": "0.1",
   "status": "execution-lock manifest; not a replacement normative register",
   "parent": "../../00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md",
-  "core_expected_tests": 256,
+  "core_expected_tests": 289,
   "supplemental_expected_tests": 33,
-  "campaign_expected_tests": 289,
+  "campaign_expected_tests": 322,
   "true_substitute_rule": "A repair must pass the frozen negative and positive/boundary controls under the same declared resource/authority boundary without implementing an operationally equivalent form of the removed invariant.",
   "principles": [
     {
@@ -64,12 +64,15 @@
       "id": "P5",
       "invariant": "A prior determination is reusable at actuation only while its declared material decision basis remains current; material mismatch reopens qualification.",
       "core_fixture": "../00K-A5-P5-00I",
-      "expected_tests": 14,
+      "expected_tests": 47,
       "negative_control": "queued action remains technically valid after material basis change",
       "positive_control": "unchanged material basis remains executable",
       "strong_peer_classification": "SEMANTIC_RECONSTRUCTION",
       "known_confounds": [
-        "generation-only compare is a partial repair and misses incident-only, freeze-only and source/policy-version-only changes"
+        "generation-only compare is a partial repair and misses incident-only, freeze-only and source/policy-version-only changes",
+        "queue age/TTL cannot distinguish same-age continuity and stale semantic state",
+        "cancel-on-any-event catches material change only by also invalidating irrelevant events unless event semantics are mapped to the declared material basis",
+        "compressed state hash/version vector/epoch are valid implementations only if they cover the full declared material basis"
       ]
     },
     {
