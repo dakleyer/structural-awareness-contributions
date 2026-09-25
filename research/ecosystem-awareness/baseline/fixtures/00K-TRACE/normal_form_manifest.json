@@ -27,7 +27,74 @@
       "freshness",
       "dependency",
       "authority"
-    ]
+    ],
+    "admitted_forms": {
+      "G0": {
+        "types": [
+          "T0",
+          "T2"
+        ],
+        "operators": [
+          "LOCAL",
+          "RECEIVE"
+        ]
+      },
+      "G1": {
+        "types": [
+          "T1"
+        ],
+        "operators": [
+          "SEARCH"
+        ]
+      },
+      "G2": {
+        "types": [
+          "T2"
+        ],
+        "operators": [
+          "ACT"
+        ]
+      },
+      "G3": {
+        "types": [
+          "T2"
+        ],
+        "operators": [
+          "RECEIVE",
+          "COMPOSE"
+        ],
+        "qualifiers": [
+          "authority",
+          "scope",
+          "provenance"
+        ]
+      },
+      "G4": {
+        "types": [
+          "T2"
+        ],
+        "operators": [
+          "SHIFT",
+          "ACT"
+        ],
+        "qualifiers": [
+          "freshness"
+        ]
+      },
+      "G5": {
+        "types": [
+          "T2"
+        ],
+        "operators": [
+          "COMPOSE"
+        ],
+        "qualifiers": [
+          "dependency",
+          "scope",
+          "source"
+        ]
+      }
+    }
   },
   "principle_normal_forms": {
     "P1": {
@@ -111,7 +178,10 @@
       "evidence",
       "policy",
       "commitment",
-      "history"
+      "history",
+      "frame",
+      "unresolved",
+      "multi_principal"
     ],
     "operators": [
       "QUALIFY",
@@ -125,7 +195,71 @@
       "INTERVENE",
       "REPAIR",
       "ASSESS"
-    ]
+    ],
+    "admitted_atoms": {
+      "QUALIFY": [
+        "authority",
+        "preference",
+        "identity",
+        "evidence",
+        "policy"
+      ],
+      "ESCALATE": [
+        "frame",
+        "human",
+        "unresolved",
+        "commitment"
+      ],
+      "CONTAIN": [
+        "unresolved"
+      ],
+      "HANDOFF": [
+        "authority",
+        "preference",
+        "identity",
+        "human",
+        "evidence",
+        "policy",
+        "commitment",
+        "history",
+        "frame",
+        "unresolved",
+        "multi_principal"
+      ],
+      "BIND": [
+        "identity"
+      ],
+      "DELEGATE": [
+        "authority"
+      ],
+      "COMPOSE": [
+        "multi_principal",
+        "authority",
+        "preference",
+        "policy",
+        "evidence"
+      ],
+      "SHIFT": [
+        "frame",
+        "commitment",
+        "policy",
+        "authority",
+        "evidence"
+      ],
+      "INTERVENE": [
+        "human",
+        "authority",
+        "history"
+      ],
+      "REPAIR": [
+        "history",
+        "evidence",
+        "authority"
+      ],
+      "ASSESS": [
+        "evidence"
+      ]
+    }
   },
   "requirement_normal_forms": {
     "S1": {
@@ -155,7 +289,7 @@
     },
     "S3": {
       "objects": [
-        "commitment"
+        "frame"
       ],
       "operators": [
         "ESCALATE",
@@ -183,7 +317,7 @@
     },
     "S5": {
       "objects": [
-        "evidence"
+        "unresolved"
       ],
       "operators": [
         "CONTAIN"
@@ -239,9 +373,9 @@
     },
     "S9": {
       "objects": [
+        "multi_principal",
         "authority",
         "preference",
-        "identity",
         "evidence",
         "policy"
       ],
