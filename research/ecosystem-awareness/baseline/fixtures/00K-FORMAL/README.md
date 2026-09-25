@@ -54,3 +54,8 @@ This proves independence only for the formalized P1–P6 predicates and declared
 00K witness class. It does not prove statistical independence, universal
 minimality for every possible architecture, or that no alternative
 re-formulation can combine/split the same semantic properties.
+
+
+## P5 matched-pair proof supplement
+
+[P5 blind-signature proof](./p5-blind-signature/README.md) is a compact 18-test illustration of the projection-indistinguishability lemma used by A16. It is deliberately outside the canonical P5 harness and is **not counted** in the 379-test campaign.
