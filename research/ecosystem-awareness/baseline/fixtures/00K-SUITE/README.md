@@ -10,7 +10,7 @@ The [machine-readable principle manifest](./principle_manifest.json) freezes the
 six semantic invariants, branch controls, expected counts and known confounds
 used by the execution campaign. [`validate_manifest.py`](./validate_manifest.py)
 checks that lock before CI runs the aggregate suite. The validator is a
-meta-integrity gate and is **not counted** among the 163 ablation tests.
+meta-integrity gate and is **not counted** among the 379 ablation tests.
 
 ## Current core surface
 
@@ -40,7 +40,7 @@ surface for six fixture-bounded ablation arguments.
 
 **Full campaign surface: 379 tests.**
 
-Independent repository CI reproduction: the prior [**134/134 full campaign run**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) remains a successful milestone. After P1 hardening, the workflow and manifest are configured for a **379-test** campaign; do not cite the older run as reproduction of the enlarged surface.
+Independent repository CI reproduction: the prior [**134/134 full campaign run**](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) remains a successful milestone. After serious hardening of all six principles, the workflow and manifest are configured for a **379-test** campaign; do not cite the older run as reproduction of the enlarged surface.
 
 ## Why the P6 falsifier belongs in the suite
 
