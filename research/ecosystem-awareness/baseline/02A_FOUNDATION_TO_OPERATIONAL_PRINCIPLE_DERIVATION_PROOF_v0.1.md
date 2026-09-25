@@ -13,7 +13,7 @@
 
 > **Claim.** P1–P6 are not six labels attached retrospectively to the corpus. [02B](./02B_FOUNDATIONAL_FAILURE_GRAMMAR_AND_PRINCIPLE_NORMAL_FORM_PROOF_v0.1.md) strengthens this semantic derivation with a total, deterministic and surjective syntactic normalizer over A/B/C/D, Type 0/1/2 and the declared locus/propagation/time/claim axes.
 
-> P1–P6 Each is a compact operational projection of an identifiable upstream semantic invariant. Five are direct projections of the foundational/control model; P4 is an explicit boundary specialization obtained when the received proposition being qualified is an authority/representation claim. This document records the derivation and its limits.
+> Each P1–P6 is a compact operational projection of an identifiable upstream semantic invariant. Five are direct projections of the general epistemic/control model; P4 is an explicit authority-typed specialization of a boundary rule already present upstream. This document records the derivation and its limits.
 
 ---
 
@@ -49,7 +49,7 @@ The operational predicate in \(P_i\) is an explicit restriction or executable fo
 
 The upstream invariant requires qualification of a received claim, and \(P_i\) specializes that rule to a particular claim type that has additional externally defined semantics.
 
-This second class is important for **P4**: epistemic qualification alone does not invent legal/organizational authority. It requires that an authority claim remain qualified as a claim; S1/S8 supply the authority-specific source/scope/non-amplification semantics.
+This second class is important for **P4**: epistemic qualification alone does not invent legal/organizational authority. The Foundation/architecture already state that signalling does not create authority and that inherited authority boundaries must be preserved. S1/S8 later make that boundary testable as requirements; they are not premises of the P4 derivation.
 
 No edge is accepted merely because two documents use related vocabulary.
 
@@ -67,7 +67,8 @@ For this proof the relevant upstream invariants are:
 | **F-D** | received claims preserve their epistemic category, source/window/scope and qualification | 02 E0-I/E1-I/E2-I/E0-O/E1-O/E2-O |
 | **F-E** | the validity of the active decision frame is dynamic and must be requalified when its material basis changes | 01 regime-transition / recursive-window derivation; 02 dynamic W(d,t) root principle |
 | **F-F** | local validity does not imply ecosystem validity; material domains/dependencies cannot silently substitute or cancel | 02 O2/E2-O + General Law of Epistemic Composition |
-| **F-G** | signaling/transport preserves qualified information; it does not manufacture truth, authority or independent evidence | 01 signaling derivation; 02 received-signal/composition rules |
+| **F-G** | signaling/transport preserves qualified information; it does not manufacture truth or independent evidence | 01 signaling derivation; 02 received-signal/composition rules |
+| **F-H** | authority is externally governed: signaling/evidence does not create authority, and inherited authority/scope boundaries must remain qualified through reliance | 01 bounded-closure statement and authority-boundary language; 03 architecture boundary that EA does not create authority |
 
 ---
 
@@ -147,8 +148,7 @@ An action that relies on authority/representation state has a current receiver-v
 **Derivation class: typed boundary specialization**
 
 \[
-(F\text{-}D \land F\text{-}G)
-+\text{authority semantics from S1/S8}
+(F\text{-}D \land F\text{-}G \land F\text{-}H)
 \rightsquigarrow P_4
 \]
 
@@ -156,9 +156,7 @@ The epistemic foundation does **not** create authority. What it supplies is the 
 
 > “actor A is authorized to perform action X under scope/time/conditions Y”
 
-S1 and S8 supply the authority-specific content: origin, standing, applicability, subdelegation and non-amplification.
-
-P4 is therefore not falsely presented as a theorem of epistemology alone. It is the **authority-typed specialization of the received-claim qualification rule**, joined to the canonical authority requirements.
+F-H supplies the independent authority boundary: a receiving system may qualify an authority claim but cannot manufacture stronger authority from evidence, signalling or transport. P4 is therefore the **authority-typed specialization of the received-claim qualification rule**. S1 and S8 later expose origin, standing, applicability, subdelegation and non-amplification as concrete requirement surfaces; they do not create P4.
 
 This boundary is exactly why the serious P4 ablation could narrow full lineage to the weaker current decision-sufficient authority/non-amplification invariant.
 
@@ -211,7 +209,7 @@ Research-hypothesis support: H2/H3.
 | **P1** | F-A + F-B + F-D | **Direct** | determination boundary + residual |
 | **P2** | F-C | **Direct** | bounded viable determination effort |
 | **P3** | F-B / I2 | **Direct** | unresolved state ≠ certainty/permission |
-| **P4** | F-D + F-G + S1/S8 authority semantics | **Typed boundary specialization** | qualification of authority claim + non-amplification |
+| **P4** | F-D + F-G + F-H | **Typed boundary specialization** | qualification of authority claim + non-amplification |
 | **P5** | F-E | **Direct** | continued validity of decision basis |
 | **P6** | F-F + F-G | **Direct** | scope/dependency/non-substitution through composition |
 
