@@ -19,18 +19,18 @@
 
 | Ablation | Principle under test | Scenario anchor | Frozen branch pair / controls | Current symbolic result | Strongest passing repair | 00K classification |
 |---|---|---|---|---:|---|---|
-| **A1 / −P1** | Qualified determination / evidence→proposition→decision sufficiency | **00J — Rights-Provenance Inversion** | unsupported generation provenance vs legitimate rights grant | **13/13** | typed evidence/proposition schema | **SEMANTIC RECONSTRUCTION of P1** |
+| **A1 / −P1** | Qualified determination / evidence→proposition→decision sufficiency | **00J — Rights-Provenance Inversion, corrected matched-semantic isolation** | same issuer/source/record class/freshness; narrower valid proposition vs enforcement proposition | **42/42** | evidence-semantics / proposition / decision policy contract | **SEMANTIC RECONSTRUCTION of P1** |
 | **A2 / −P2** | Bounded unresolved effort / viable oversight | **00E — 100 Million Tokens** | unresolvable repeated search vs positively resolvable bounded search | **13/13** | budgeted decision-relevant search | **SEMANTIC RECONSTRUCTION of P2** |
 | **A3 / −P3** | No false closure from unresolved material state | **00F — Chaos in the Smartcity** | incompatible shared-corridor postures vs continuity / determinate Plan A | **15/15** | explicit three-valued unresolved-state closure | **SEMANTIC RECONSTRUCTION of P3** |
 | **A4 / −P4** | Qualification-preserving handoff / authority lineage | **00H — The Quiet Four Thousand** | U unauthorized campaign / G authorized campaign / I independent cases / NM | **29/29 active composed harness** | A2-L explicit root/delegation lineage | **SEMANTIC RECONSTRUCTION of P4** |
 | **A5 / −P5** | Material-change requalification at time of use | **00I — Semantic TOCTOU** | stale queued action vs valid continuity + unavailable-current-source control | **14/14** | full material-basis compare/binding before actuation | **SEMANTIC RECONSTRUCTION of P5** |
 | **A6 / −P6** | No local→ecosystem promotion / non-substitution | **00G — matched-authority isolation of False-Context Convergence** | same authority/count/confidence/freshness; correlated-source F vs independent-source G | **17/17** | source-independence / dependency-aware peer | **SEMANTIC RECONSTRUCTION of P6** |
 
-**Current core after bounded-grid hardening:** **101 passing symbolic tests** across the six isolated principle harnesses.
+**Current core after P1 serious-repair hardening:** **130 passing symbolic tests** across the six isolated principle harnesses.
 
 **Supplemental adversarial surface:** A6a naive-pair falsifier **10**, A6b independent 00F P6 isolation **11**, and independent cross-scenario kernels **12** — **33 supplemental tests**.
 
-**Full registered campaign:** **134 tests**.
+**Full registered campaign:** **163 tests**.
 
 **Independent CI reproduction:** GitHub Actions [full campaign run](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36100046965) completes successfully across all **10 jobs** on Python 3.13: the six core harnesses, A6a, A6b, cross-scenario kernels and the aggregate campaign gate. The aggregate job verifies **101/101 core + 33/33 supplemental = 134/134**. The earlier 101-only run and 89-test pre-grid run remain part of Git history as milestones.
 
