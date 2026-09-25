@@ -4,7 +4,8 @@
 |---|---|
 | **Family** | Material Opportunity Beyond Current Authority / Preservation–Execution Separation |
 | **Minimum instantiation** | [00H — The Quiet Four Thousand](./00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) |
-| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) |
+| **Extensibility method** | [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [A26 success conversion](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) |
+| **Success Model Case** | [Preserve the Finding, Do Not Overreach](./00H_SUCCESS_MODEL_CASE_PRESERVE_WITHOUT_OVERREACH_v0.1.md) |
 | **Status** | first-pass structural family profile |
 
 > **Family claim.** Four thousand refunds are not the family boundary. The structural case begins when a participant legitimately discovers a material opportunity/problem outside its current action mandate. The system must preserve and route the finding without converting usefulness, technical reachability or valid leaf authority into unauthorized broader execution.
@@ -136,3 +137,8 @@ Hence a requirements-conforming member of the 00H family must:
 - not launder leaf grants into absent root authority;
 - not discard the qualified material remainder;
 - accept the authorized/independent positive controls.
+
+
+## Success-case route
+
+The failure-family profile above is paired with the positive [**Preserve the Finding, Do Not Overreach**](./00H_SUCCESS_MODEL_CASE_PRESERVE_WITHOUT_OVERREACH_v0.1.md) Success Model Case. The success case keeps the same kernel and inherited S/T route, defines the positive bounded disposition, and applies the same upward/downward/horizontal admission boundary without introducing new canonical requirements.
