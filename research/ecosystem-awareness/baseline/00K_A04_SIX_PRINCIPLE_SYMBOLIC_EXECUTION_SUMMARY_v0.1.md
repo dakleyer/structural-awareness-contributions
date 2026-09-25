@@ -17,16 +17,16 @@
 
 | Ablation | Principle under test | Scenario anchor | Frozen branch pair / controls | Current symbolic result | Strongest passing repair | 00K classification |
 |---|---|---|---|---:|---|---|
-| **A1 / −P1** | Qualified determination / evidence→proposition→decision sufficiency | **00J — Rights-Provenance Inversion** | unsupported generation provenance vs legitimate rights grant | **11/11** | typed evidence/proposition schema | **SEMANTIC RECONSTRUCTION of P1** |
-| **A2 / −P2** | Bounded unresolved effort / viable oversight | **00E — 100 Million Tokens** | unresolvable repeated search vs positively resolvable bounded search | **11/11** | budgeted decision-relevant search | **SEMANTIC RECONSTRUCTION of P2** |
-| **A3 / −P3** | No false closure from unresolved material state | **00F — Chaos in the Smartcity** | incompatible shared-corridor postures vs continuity / determinate Plan A | **13/13** | explicit three-valued unresolved-state closure | **SEMANTIC RECONSTRUCTION of P3** |
-| **A4 / −P4** | Qualification-preserving handoff / authority lineage | **00H — The Quiet Four Thousand** | U unauthorized campaign / G authorized campaign / I independent cases / NM | **27/27 active composed harness** | A2-L explicit root/delegation lineage | **SEMANTIC RECONSTRUCTION of P4** |
-| **A5 / −P5** | Material-change requalification at time of use | **00I — Semantic TOCTOU** | stale queued action vs valid continuity + unavailable-current-source control | **12/12** | generation/version compare-before-act | **SEMANTIC RECONSTRUCTION of P5** |
-| **A6 / −P6** | No local→ecosystem promotion / non-substitution | **00G — False-Context Convergence** | correlated false frame F vs genuinely independent regime-change G | **15/15** | source-independence / dependency-aware peer | **SEMANTIC RECONSTRUCTION of P6** |
+| **A1 / −P1** | Qualified determination / evidence→proposition→decision sufficiency | **00J — Rights-Provenance Inversion** | unsupported generation provenance vs legitimate rights grant | **13/13** | typed evidence/proposition schema | **SEMANTIC RECONSTRUCTION of P1** |
+| **A2 / −P2** | Bounded unresolved effort / viable oversight | **00E — 100 Million Tokens** | unresolvable repeated search vs positively resolvable bounded search | **13/13** | budgeted decision-relevant search | **SEMANTIC RECONSTRUCTION of P2** |
+| **A3 / −P3** | No false closure from unresolved material state | **00F — Chaos in the Smartcity** | incompatible shared-corridor postures vs continuity / determinate Plan A | **15/15** | explicit three-valued unresolved-state closure | **SEMANTIC RECONSTRUCTION of P3** |
+| **A4 / −P4** | Qualification-preserving handoff / authority lineage | **00H — The Quiet Four Thousand** | U unauthorized campaign / G authorized campaign / I independent cases / NM | **29/29 active composed harness** | A2-L explicit root/delegation lineage | **SEMANTIC RECONSTRUCTION of P4** |
+| **A5 / −P5** | Material-change requalification at time of use | **00I — Semantic TOCTOU** | stale queued action vs valid continuity + unavailable-current-source control | **14/14** | full material-basis compare/binding before actuation | **SEMANTIC RECONSTRUCTION of P5** |
+| **A6 / −P6** | No local→ecosystem promotion / non-substitution | **00G — False-Context Convergence** | correlated false frame F vs genuinely independent regime-change G | **17/17** | source-independence / dependency-aware peer | **SEMANTIC RECONSTRUCTION of P6** |
 
-**Current aggregate:** **89 passing symbolic tests** across the six principle harnesses.
+**Current aggregate after bounded-grid hardening:** **101 passing symbolic tests** across the six principle harnesses.
 
-**Independent CI reproduction:** GitHub Actions [run #1](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36091488903) completed successfully across all six matrix jobs on Python 3.13. The workflow asserts the expected regression count for each harness (11/11/13/27/12/15), so the 89-test milestone is now reproducible both in the local analysis environment and in repository CI.
+**Independent CI reproduction:** GitHub Actions [run #10](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/36091807530) completed successfully across all six matrix jobs on Python 3.13 after the bounded-grid pass. The workflow asserts the updated counts (13/13/15/29/14/17), so the **101-test** milestone is independently reproducible in repository CI. The earlier 89-test run remains part of Git history as the pre-grid milestone.
 
 The count is a regression/execution count, **not a scientific score**: one pytest assertion is not one independent experiment. The evidentiary content is the branch structure, the attempted substitutes and the falsifiable distinction between TRUE SUBSTITUTE and SEMANTIC RECONSTRUCTION.
 
@@ -117,9 +117,11 @@ The continuity and stale branches share the same queued Patch A, original grant 
 
 Queue-time qualification, perfect Patch-B provenance, conflict visibility and database serialization all leave the stale action executable. Deny-all fails continuity.
 
-A generation/version compare passes both branches because it makes actuation conditional on current state and reopens qualification on mismatch.
+The original generation compare passes the first stale branch, but the bounded-grid audit shows that a generation-only check is **not sufficient for the full P5 invariant**: it misses incident-only, freeze-only and source/policy-version-only changes when the configuration generation itself is unchanged.
 
-**Fixture-level discriminant:** preservation/serialization ≠ current semantic applicability.
+The strengthened passing peer binds actuation to the **full declared material decision basis** (generation, incident state, freeze state and source/policy version in this fixture) and reopens qualification on any material mismatch.
+
+**Fixture-level discriminant:** preservation/serialization — and even one narrow version check — ≠ current semantic applicability of the complete decision basis.
 
 ---
 
@@ -135,6 +137,12 @@ Identity quorum, confidence thresholds, raw provenance preservation and human ma
 **Fixture-level discriminant:** participant/message plurality ≠ independent evidence.
 
 ---
+
+## 3A. Bounded-grid hardening
+
+The additive [**00K-A05 bounded-grid hardening audit**](./00K_A05_BOUNDED_GRID_HARDENING_AND_P5_AUDIT_v0.1.md) expands each harness beyond its first exact branch pair without rewriting the reviewed source. It adds controlled grids over evidence types/replication, resolution position/budget, mixed postures, authority validity/campaign volume, material basis fields and source-diversity/Sybil count.
+
+The robustness pass increases the active regression surface from **89 to 101 passing symbolic tests** and, importantly, exposes the original P5 generation-only repair as a **partial** implementation rather than the complete semantic invariant.
 
 ## 4. Falsification remains open
 
