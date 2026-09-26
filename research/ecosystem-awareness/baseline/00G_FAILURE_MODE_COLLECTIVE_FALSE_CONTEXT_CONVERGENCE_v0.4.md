@@ -1,5 +1,8 @@
 # 00G — Canonical Reference Failure Scenario and Integrated Quality / Implementation Plan: Collective False-Context Convergence ("Bar-to-Napoleon" Cascade)
 
+> **Refuerzo semántico ejecutado — 26/09/2026.** La [revisión A23](./fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md) distingue usar evidencia correlacionada con sus límites de contarla falsamente como corroboración independiente. El diagnóstico de P6 conserva los contraejemplos históricos y no certifica todas las obligaciones de composición. [Aplicación y registro del artículo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A16_APLICACION_PLAN_Y_ESTADO_SUFICIENCIA_v0.1.md).
+
+
 > **Corrección posterior de pruebas — 26/09/2026.** El peer exige autoridad para el marco y procedencia válida; el kernel de grafo solo cuenta evidencia cualificada. El guard rechaza raíces vacías; el falsador A6a se conserva. Véanse [A14: cambios y pruebas](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y [A12: registro acumulativo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
 **Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Source-Aware Frame Stability](./00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
 

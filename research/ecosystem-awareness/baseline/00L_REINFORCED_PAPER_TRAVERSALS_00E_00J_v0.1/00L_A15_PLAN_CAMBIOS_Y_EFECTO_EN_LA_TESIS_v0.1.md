@@ -170,3 +170,5 @@ Los hallazgos actuales todavía no establecen esas conclusiones. Sí muestran qu
 ## 10 Estado de aplicación del 26 de septiembre
 
 Se conserva el plan original. F02 avanza con [diagnósticos semánticos y trazas](../fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md): nueve controles nuevos, 5.460 secuencias acotadas para un interlock candidato y conservación del certificado anterior. F01 permanece abierto; se corrige la referencia de A20 que presentaba su extensión A22 sin esta condición. La aplicación editorial y la versión del artículo se registran en A12. Este avance no equivale a cierre de suficiencia general.
+
+**Aplicación editorial terminada:** P01–P03 se entregan en la versión 3 del artículo y en [A16](./00L_A16_APLICACION_PLAN_Y_ESTADO_SUFICIENCIA_v0.1.md), con constancia de conservación y CI. El documento Word del plan conserva la propuesta original; este apartado registra su ejecución posterior.

@@ -237,3 +237,9 @@ Los cinco workflows de **ese commit** terminaron correctamente: [77 regresiones 
 **Ejecutado localmente:** 20 tests A23 = 11 anteriores sin modificación + nueve nuevos. Se conservan los tres contraejemplos y el certificado anterior. El modelo temporal candidato examina 5.460 secuencias; 1.836 admiten ejecución válida, cero ejecutan con base caducada con el interlock y 3.212 muestran el fallo al retirarlo. Son recuentos de un modelo acotado, no ensayos independientes.
 
 **Correcciones documentales:** A23 distingue argumentos semánticos condicionales de implicaciones certificadas en la proyección; A20 acota la referencia a A22; README, vNext y el mapa de cláusulas enlazan el diagnóstico. No se modifica S1–S14/T1–T4, ni las funciones históricas P/R, ni las 379 regresiones, ni se declara una revisión externa. F01 y la suficiencia general siguen abiertos. La edición del artículo preserva la Parte I y se entrega como nueva versión del mismo documento; la constancia de conservación y publicación se añadirá al terminar.
+
+### 13.1 Entrega completada y CI
+
+Artículo guardado como **versión 3** del mismo documento `When_the_Controls_Work_but_the_System_Fails_Parts_I_II.docx`, 22 páginas. Se conservan los 183 elementos de la Parte I, sus 18 páginas idénticas al render original y las 229 relaciones previas. Una frase añadida en Parte II enlaza el registro de correcciones y la nota final. [A16 conserva el texto aplicado, los hashes y los cuatro runs CI correctos](./00L_A16_APLICACION_PLAN_Y_ESTADO_SUFICIENCIA_v0.1.md).
+
+El commit `5b0ac924b8646215348e58076230c42f499e8823` publica el código y el diagnóstico. El log 00K confirma 20 tests A23 y 379/379 en la campaña original, como familias distintas. P01/P02/P03 están aplicados; F02 ha avanzado con diagnósticos acotados y F01 permanece abierto. No se ha cerrado la suficiencia general.

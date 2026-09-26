@@ -1,5 +1,8 @@
 <!-- FREEZE-ADD:RELEASE:START -->
 
+> **Refuerzo semántico ejecutado — 26/09/2026.** La [revisión A23](./fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md) comprueba un control candidato que vincula la acción con la última versión cualificada de su base: registrar el cambio no basta. Las 5.460 secuencias son de un modelo serial acotado; no ejecutan la carrera check→act de V10 ni la deriva V11. [Aplicación y registro del artículo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A16_APLICACION_PLAN_Y_ESTADO_SUFICIENCIA_v0.1.md).
+
+
 > **Corrección posterior de pruebas — 26/09/2026.** El kernel transversal P5 rechaza campos materiales ausentes/nulos y diferencias de tipo; la evaluación emparejada conserva desacuerdos. La atomicidad check→act y V11 siguen pendientes. Véanse [A14: cambios y pruebas](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y [A12: registro acumulativo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
 # 00I · Freeze Edition
 **Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Action-Time Requalification](./00I_SUCCESS_MODEL_CASE_ACTION_TIME_REQUALIFICATION_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
