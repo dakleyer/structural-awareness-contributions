@@ -1,0 +1,35 @@
+name: Audit correction regressions
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "research/ecosystem-awareness/baseline/fixtures/**"
+      - "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/**"
+      - ".github/workflows/audit-corrections.yml"
+  pull_request:
+    paths:
+      - "research/ecosystem-awareness/baseline/fixtures/**"
+      - "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/**"
+      - ".github/workflows/audit-corrections.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  regressions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install pytest
+      - name: Test corrected boundaries and injected failures
+        run: python -m pytest -q research/ecosystem-awareness/baseline/fixtures/00K-AUDIT-CORRECTIONS --junitxml=audit-corrections.xml
+      - name: Preserve regression outcomes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-corrections
+          path: audit-corrections.xml

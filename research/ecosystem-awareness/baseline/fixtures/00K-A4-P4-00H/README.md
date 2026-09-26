@@ -1,5 +1,7 @@
 # Executed ablation — A4 (remove P4) against 00H, "The Quiet Four Thousand"
 
+> **Audit corrections — 26 September 2026:** [A14](./../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) describes current behavior and regression evidence. Prior execution records below remain historical; current implementations and replay outputs are versioned separately.
+
 ## What this is
 
 A **first, partial execution** of one of the six 00K ablations — a deterministic,

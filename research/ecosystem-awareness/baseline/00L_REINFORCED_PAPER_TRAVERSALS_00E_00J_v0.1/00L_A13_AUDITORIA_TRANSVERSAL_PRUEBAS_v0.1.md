@@ -1,5 +1,7 @@
 # A13 — Auditoría transversal de las pruebas y sus conclusiones
 
+> **Seguimiento de implementación — 26/09/2026:** [A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) documenta las correcciones posteriores. Este informe y sus resultados se mantienen como fotografía de `8f17843`; no interpretar sus fallos históricos como estado automático del código actual.
+
 **26 de septiembre de 2026, Europe/Madrid. Estado: hallazgos reproducidos; correcciones de implementación pendientes.**
 
 **Corpus auditado:** `8f17843c568114f31cc0ad486b4a1303396021e6`. **Artículo recibido:** `When_the_Controls_Work_but_the_System_Fails_revisado.docx`, SHA-256 `9628884ea0e5117478a734aaca156e8bb02e56a56dd86d3bc018e6a0b4bddf73`, 183 párrafos. Se conserva sin modificación. [Pasajes revisados](../fixtures/AUDIT-20260926/article_review.json). [Registro acumulativo A12](./00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).

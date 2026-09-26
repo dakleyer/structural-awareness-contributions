@@ -1,5 +1,7 @@
 # 00L-00J — Traza de papel emparejada: procedencia y derechos por proposición
 
+> **Estado tras auditoría:** El replay puntúa por separado ruta y peer frente al resultado esperado y conserva sus fallos. Los guards tipados refuerzan la entrada; no cambian la proposición jurídica ni acreditan independencia del comparador. [Correcciones A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md); las tablas de papel conservadas no sustituyen las nuevas trazas de ejecución.
+
 **Base:** 00J v0.1 y perfil Panodyssey/TEMS v0.1. **Estado:** traza calculada en papel sobre hechos sintéticos; no ejecución de Panodyssey, TEMS, ODRL o C2PA.
 
 ## Ficha congelada

@@ -12,6 +12,7 @@ class Disposition(Enum):
     EXECUTE = "EXECUTE"
     NO_CONCLUSION = "NO_CONCLUSION"
     RESOURCE_EXHAUSTED = "RESOURCE_EXHAUSTED"
+    EVIDENCE_STREAM_ENDED = "EVIDENCE_STREAM_ENDED"
     DENY_ALL = "DENY_ALL"
 
 
@@ -27,8 +28,15 @@ class SearchFixture:
     hard_capacity: int
     useful_horizon: int
 
+    def __post_init__(self):
+        for value in (self.hard_capacity, self.useful_horizon):
+            if type(value) is not int or value < 0:
+                raise ValueError("capacity and horizon must be nonnegative integers")
+
 
 def route_q_bounded_search(fixture: SearchFixture, max_steps: int = 3) -> Disposition:
+    if type(max_steps) is not int or max_steps < 0:
+        raise ValueError("max_steps must be a nonnegative integer")
     steps = 0
     for item in fixture.stream:
         if steps >= min(max_steps, fixture.hard_capacity, fixture.useful_horizon):
@@ -42,6 +50,8 @@ def route_q_bounded_search(fixture: SearchFixture, max_steps: int = 3) -> Dispos
 
 
 def ablated_search_until_capacity(fixture: SearchFixture) -> Disposition:
+    if fixture.hard_capacity == 0:
+        return Disposition.RESOURCE_EXHAUSTED
     steps = 0
     for item in fixture.stream:
         steps += 1
@@ -49,7 +59,7 @@ def ablated_search_until_capacity(fixture: SearchFixture) -> Disposition:
             return Disposition.EXECUTE
         if steps >= fixture.hard_capacity:
             return Disposition.RESOURCE_EXHAUSTED
-    return Disposition.RESOURCE_EXHAUSTED
+    return Disposition.EVIDENCE_STREAM_ENDED
 
 
 def ablated_p1_explicit_unknown_but_keep_searching(fixture: SearchFixture) -> Disposition:

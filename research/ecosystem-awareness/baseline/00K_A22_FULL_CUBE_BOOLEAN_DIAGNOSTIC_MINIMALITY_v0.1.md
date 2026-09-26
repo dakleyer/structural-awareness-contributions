@@ -1,5 +1,7 @@
 # 00K-A22 — Full-Cube Realizability & Boolean Diagnostic Minimality — v0.1
 
+> **Audit qualification — 26 September 2026:** the executable certificate realizes 64 signatures in its simplified model. It does not yet verify a lifting to all A20 background axioms B1–B11: record-derived unresolved conflict and the inquiry graph/rank are not represented as claimed by the stronger reading below. The Boolean counting bound remains valid for 64 distinguishable signatures; its application to the full declared semantic substrate is conditional on the missing bridge. Read the earlier result below with this qualification. [A13 findings](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) · [A14 status](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).
+
 | | |
 |---|---|
 | **Parent** | [00K](./00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) |

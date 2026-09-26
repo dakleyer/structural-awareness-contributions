@@ -13,6 +13,10 @@ def p1_evidence_supports(required_proposition: str, supported_propositions: set[
 
 def p2_bounded_resolution(resolution_stream: tuple[bool, ...], budget: int) -> str:
     """Search/review may continue only inside a finite decision budget."""
+    if type(budget) is not int or budget < 0:
+        raise ValueError("budget must be a nonnegative integer")
+    if any(type(value) is not bool for value in resolution_stream):
+        raise ValueError("resolution stream must contain booleans")
     for resolved in resolution_stream[:budget]:
         if resolved:
             return "RESOLVED"

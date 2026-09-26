@@ -21,6 +21,7 @@ MANIFEST = json.loads((HERE / "traceability_manifest.json").read_text(encoding="
 
 EXPECTED_P = {f"P{i}" for i in range(1, 7)}
 EXPECTED_S = {f"S{i}" for i in range(1, 15)}
+EXPECTED_SCENARIOS = dict(zip(sorted(EXPECTED_P), ("00J", "00E", "00F", "00H", "00I", "00G")))
 EXPECTED_ANCHORS = {
     "P1": "S14",
     "P2": "S4",
@@ -64,7 +65,8 @@ def main() -> int:
 
         anchor = anchors[p]
         assert anchor in declared, f"{p}: ablation anchor {anchor} is not primary"
-        assert spec["scenario"]
+        assert spec["scenario"] == EXPECTED_SCENARIOS[p], (p, "scenario mismatch")
+        assert Path(spec["scenario_file"]).name.startswith(spec["scenario"] + "_"), (p, "scenario path mismatch")
         assert spec["corpus_witness"]
         assert spec["math_witness"]
 

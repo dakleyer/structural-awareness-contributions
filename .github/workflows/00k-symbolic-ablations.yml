@@ -122,6 +122,10 @@ jobs:
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-TRACE
         run: python validate_traceability.py
 
+      - name: Validate P5 blind-signature certificate
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/p5-blind-signature
+        run: python -m pytest -q
+
       - name: Validate full-cube Boolean diagnostic minimality
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube
         run: python -m unittest -v

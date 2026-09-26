@@ -17,6 +17,42 @@ HERE = Path(__file__).resolve().parent
 FIXTURES = HERE.parent / "fixtures"
 
 
+FIELD_TYPES = {
+    'affected_accounts': int,
+    'ambulance_slot': int,
+    'authority_current': bool,
+    'base_root': str,
+    'bus_slot': int,
+    'campaign_ref': str,
+    'corridor': str,
+    'exposure_usd': int,
+    'finding_reconstructable': bool,
+    'fire_slot': int,
+    'freeze_active': bool,
+    'fresh': bool,
+    'generation': int,
+    'grant_current': bool,
+    'hard_capacity': int,
+    'incident_open': bool,
+    'last_root': str,
+    'leaf_grants_current': bool,
+    'local_grants_current': bool,
+    'max_steps': int,
+    'message_count': int,
+    'min_independent_roots': int,
+    'proposition_supported': str,
+    'record_class': str,
+    'record_id': str,
+    'resolves_at_step_3': bool,
+    'root_current': bool,
+    'signed': bool,
+    'source': str,
+    'source_available': bool,
+    'source_version': str,
+    'useful_horizon': int,
+}
+
+
 class IncompleteObservation(ValueError):
     pass
 
@@ -34,10 +70,21 @@ def preflight(observation: dict, required: set[str]) -> None:
     """Test-harness guard: deliberately independent from each 00K model."""
     if set(observation) != required or any(observation[k] is None for k in required):
         raise IncompleteObservation("missing, null or unexpected observable field")
+    for key, value in observation.items():
+        expected_type = FIELD_TYPES.get(key)
+        if expected_type is None or type(value) is not expected_type:
+            raise IncompleteObservation(f"invalid type for {key}")
+        if isinstance(value, str) and not value.strip():
+            raise IncompleteObservation(f"empty identifier for {key}")
+        if type(value) is int and value < 0:
+            raise IncompleteObservation(f"negative numeric field {key}")
+        if key in {"message_count", "min_independent_roots"} and value < 1:
+            raise IncompleteObservation(f"nonpositive count {key}")
 
 
 def evaluate(case_id: str, observation: dict) -> tuple[str, str, str]:
     """Only the observed fields enter the 00K implementation; oracle stays outside."""
+    preflight(observation, set(observation))
     if case_id == "00E":
         m = module("00K-A2-P2-00E", "ablation_A2")
         stream = (m.EvidenceStep(False, False), m.EvidenceStep(True, False),
@@ -123,6 +170,7 @@ def verify(trace_jsonl: Path | None = None) -> None:
     preflight_checks = 0
     branch_checks = 0
     trace_records = []
+    failures = []
     for case in cases:
         factor = case["factor"]
         assert factor not in case["common"] and case["negative"] != case["positive"]
@@ -143,11 +191,15 @@ def verify(trace_jsonl: Path | None = None) -> None:
                     else:
                         raise AssertionError(f"Step-0 missed {case['id']}/{branch}/{field}")
             route, strong_peer, weak_peer = evaluate(case["id"], visible)
-            assert route == case["expected"][branch], (case["id"], branch, route)
-            assert strong_peer == route, (case["id"], branch, strong_peer)
+            expected = case["expected"][branch]
+            statuses = {"route": route == expected, "strong_peer": strong_peer == expected,
+                        "weak_peer": weak_peer == expected}
+            for name in ("route", "strong_peer"):
+                if not statuses[name]:
+                    failures.append(f"{case['id']}/{branch}/{name}: expected {expected}")
             outputs[branch] = {"route": route, "strong_peer": strong_peer, "weak_peer": weak_peer}
             trace_records.append({
-                "schema": "00L-symbolic-branch-v1",
+                "schema": "00L-symbolic-branch-v2",
                 "case": case["id"],
                 "branch": branch,
                 "factor": factor,
@@ -155,12 +207,16 @@ def verify(trace_jsonl: Path | None = None) -> None:
                 "actual": outputs[branch],
                 # The expected disposition is added to the trace only after evaluate().
                 # It is never passed to any 00K implementation.
-                "expected": case["expected"][branch],
+                "expected": expected,
+                "matches_expected": statuses,
+                "route_peer_agreement": route == strong_peer,
                 "preflight_guard_mutations_rejected": 2 * len(required),
             })
             branch_checks += 1
-        assert outputs["negative"]["weak_peer"] != outputs["negative"]["route"], case["id"]
-        assert outputs["negative"]["route"] != outputs["positive"]["route"], case["id"]
+        if outputs["negative"]["weak_peer"] == case["expected"]["negative"]:
+            failures.append(f"{case['id']}: negative ablation did not discriminate")
+        if outputs["negative"]["route"] == outputs["positive"]["route"]:
+            failures.append(f"{case['id']}: route did not discriminate")
         print(json.dumps({"case": case["id"], "factor": factor, "branches": outputs}, ensure_ascii=False))
 
     # Separate regression for the canonical strict monetary threshold in 00H-MAT-1.
@@ -172,8 +228,10 @@ def verify(trace_jsonl: Path | None = None) -> None:
         trace_jsonl.write_text(
             "".join(json.dumps(record, sort_keys=True, ensure_ascii=False, separators=(",", ":")) + "\n"
                     for record in trace_records), encoding="utf-8")
+    if failures:
+        raise AssertionError("evaluation failed; branch traces preserved: " + "; ".join(failures))
     print(f"OK: {branch_checks} symbolic branches; {preflight_checks} Step-0 drop/null mutations; "
-          "00H strict boundary 3/3. Strong peer passes every pair: no EA differential inferred.")
+          "00H strict boundary 3/3. Shared-contract peer passes every pair: no independent comparison or EA differential inferred.")
 
 
 if __name__ == "__main__":

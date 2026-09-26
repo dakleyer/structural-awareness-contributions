@@ -1,5 +1,7 @@
 # 00K-A23 — Canonical Requirement-Conformance Sufficiency for P1–P6 — v0.1
 
+> **Guard scope after audit:** shortcut rejection is clause-local. A target can be split across clauses that individually pass the guard, so guard success does not establish non-circularity or source fidelity of the whole bundle. Such decomposition is not itself proof of circularity either. P1/P2/P4 remain finite-projection implications; P3/P5/P6 and semantic fidelity remain open. [A14](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).
+
 | | |
 |---|---|
 | **Canonical requirements** | [00 — S1–S14 / T1–T4 / H1–H6 / KPI protocol](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |

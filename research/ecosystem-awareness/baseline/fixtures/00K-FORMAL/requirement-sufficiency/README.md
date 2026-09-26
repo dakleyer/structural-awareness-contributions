@@ -1,5 +1,7 @@
 # 00K-FORMAL/requirement-sufficiency — audited clause projections
 
+> **Guard scope after audit:** shortcut rejection is clause-local. A target can be split across clauses that individually pass the guard, so guard success does not establish non-circularity or source fidelity of the whole bundle. Such decomposition is not itself proof of circularity either. P1/P2/P4 remain finite-projection implications; P3/P5/P6 and semantic fidelity remain open. [A14](./../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).
+
 Executable companion to [00K-A23](../../../00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md), **under semantic revision** after the [clause circularity audit](./CLAUSE_AUDIT.md). This package is outside the 379 symbolic ablation count.
 
 The original all-six sufficiency claim is withdrawn. Nine individual clause/target equivalences passed the former 65,536-state exhaustive suite trivially. Rebuilt source projections retain implications for **P1/P2/P4** and countermodels for **P3/P5/P6**. These are partial Boolean translations; neither passing implications nor countermodels establish full real-world canonical conformance.

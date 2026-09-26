@@ -1,5 +1,7 @@
 # 00L-00H — Traza de papel emparejada
 
+> **Estado tras auditoría:** Route Q y A2-L comprueban cada campaña del lote mixto, la referencia de la autoridad y la vigencia al actuar; el control de tasa examina todas las ventanas. Branch I conserva independencia estipulada, no inferida de metadata ausente. [Correcciones A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md); las tablas de papel conservadas no sustituyen las nuevas trazas de ejecución.
+
 **Fuente de hechos:** 00H v0.5 Draft, especialmente §17A. **Estado:** cálculo en papel; no ejecución de Claude, Stripe ni EA.
 
 ## Ficha congelada para este cálculo

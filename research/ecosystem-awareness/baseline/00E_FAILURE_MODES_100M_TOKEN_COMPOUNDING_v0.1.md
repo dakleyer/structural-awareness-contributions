@@ -1,4 +1,6 @@
 # Reference Failure Scenario and Quality-Gate Plan: 100 Million Tokens and Compounded Epistemic Collapse
+
+> **Corrección posterior de pruebas — 26/09/2026.** Se corrigen la pérdida de qualifiers, la conservación de fallos y las métricas de Stage-0. En el microfixture corto, fin de stream sustituye la etiqueta incorrecta de agotamiento; no acredita ventaja de eficiencia. Véanse [A14: cambios y pruebas](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y [A12: registro acumulativo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
 **Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Qualified Synthesis Under Finite Capacity](./00E_SUCCESS_MODEL_CASE_QUALIFIED_SYNTHESIS_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
 
 

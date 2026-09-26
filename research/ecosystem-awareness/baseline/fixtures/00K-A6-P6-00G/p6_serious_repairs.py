@@ -160,7 +160,16 @@ def material_root_count(claims, graph):
 
 
 def dependency_graph_peer(claims, graph, q=2):
-    n = material_root_count(claims, graph)
+    """Qualified evidence plus transitive dependency; no authority model here."""
+    if type(q) is not int or q < 1:
+        raise ValueError("q must be a positive integer")
+    if not claims or any(not c.agent_id or not c.source_id for c in claims):
+        return Disposition.REQUALIFY
+    # Reject unresolved provenance even on evidence that will not be counted.
+    if material_root_count(claims, graph) is None:
+        return Disposition.REQUALIFY
+    qualified = [c for c in claims if c.signed and c.fresh and c.confidence >= .80]
+    n = material_root_count(qualified, graph)
     if n is None:
         return Disposition.REQUALIFY
     return Disposition.TRANSITION if n >= q else Disposition.PRESERVE

@@ -11,8 +11,6 @@ from ablation_A4 import (
     LeafAction,
     check_P1_evidence_sufficiency,
     check_P5_leaf_revalidation,
-    detect_composition_P6,
-    NOW,
 )
 
 
@@ -24,16 +22,14 @@ def a2l_strong_peer_decision(
     if not check_P1_evidence_sufficiency(finding):
         return Disposition.DBC_DENY
 
-    campaign_ref = detect_composition_P6(actions)
-    if campaign_ref is None:
-        return (
-            Disposition.DBC_EXECUTE
-            if check_P5_leaf_revalidation(actions)
-            else Disposition.DBC_REPOSITION_RECONTRACT
-        )
-
-    root = delegation_ledger.get(campaign_ref)
-    root_authority_current = root is not None and root.valid and root.expiry > NOW
-    if root_authority_current and check_P5_leaf_revalidation(actions):
-        return Disposition.DBC_EXECUTE
-    return Disposition.DBC_REPOSITION_RECONTRACT
+    if not check_P5_leaf_revalidation(actions):
+        return Disposition.DBC_REPOSITION_RECONTRACT
+    for action in actions:
+        ref = action.grant.campaign_ref
+        if ref is None:  # Stipulated independent cases only; see fixture contract.
+            continue
+        root = delegation_ledger.get(ref)
+        if (not ref or root is None or root.campaign_ref != ref
+                or not root.valid or root.expiry <= action.timestamp):
+            return Disposition.DBC_REPOSITION_RECONTRACT
+    return Disposition.DBC_EXECUTE

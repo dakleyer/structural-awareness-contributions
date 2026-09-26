@@ -1,5 +1,9 @@
 # RS-00E-Q1a Fixture Family — Index
 
+> **Current replay:** [corrected manifest](./runs/stage0_audit_corrections_v1/manifest.json). CI compares against this post-audit instrumentation revision, while `stage0_v05_4193199` remains immutable. The v0.5 pre-registration is the source design, not a claim that the corrected run was prospectively preregistered. B1/B3 use shared logic and are instrumentation controls. Failed candidates and runtime errors are now retained before the runner exits unsuccessfully.
+
+> **Audit corrections — 26 September 2026:** [A14](./../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) describes current behavior and regression evidence. Prior execution records below remain historical; current implementations and replay outputs are versioned separately.
+
 > **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Ecosystem Awareness](../../../README.md) → [Canonical corpus](../../README.md) → **RS-00E-Q1a fixture family**
 
 

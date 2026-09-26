@@ -1,5 +1,7 @@
 # 00L — Refuerzo de recorridos 00E–00J
 
+> **Evidence correction — 26 September 2026:** [A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) records corrected handoff checks, failure traces, metrics, authority/time boundaries and input validation: 379 existing regressions and 77 separate correction checks pass locally. Shared-logic peers remain instrumentation controls; the A22 semantic bridge and A23 fidelity obligations remain open. [Cumulative article/README record A12](./00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
+
 **Estado:** paquete aditivo integrado en `main` el 26 de septiembre de 2026 mediante [PR #1](https://github.com/dakleyer/structural-awareness-contributions/pull/1), merge [`59ca3c4`](https://github.com/dakleyer/structural-awareness-contributions/commit/59ca3c428d1cf28b7d8f4bdb8f2b5af89d852604). Recorridos en papel y ejecuciones simbólicas acotadas; sin ejecución de productos.
 
 Este paquete aplica el plan de refuerzo de recorridos a los seis escenarios 00E–00J. No sustituye, congela ni reescribe los escenarios, perfiles de producto o requisitos canónicos. Sus tablas son **deducciones condicionales en papel sobre hechos sintéticos**.

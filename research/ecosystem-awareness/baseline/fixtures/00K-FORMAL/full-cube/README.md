@@ -1,5 +1,7 @@
 # 00K-FORMAL/full-cube — P1–P6 full-cube realizability certificate
 
+> **Scope after audit:** 68 passing tests certify signatures/counting in this simplified model, not conformance to the complete A20 background theory. The conflict/inquiry-graph bridge remains open. [A14](./../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).
+
 This package is the executable companion to [00K-A22](../../../00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md).
 
 It is a **meta-proof package**, not part of the 379 symbolic ablation campaign.

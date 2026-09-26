@@ -1,0 +1,113 @@
+COMMAND correction-regressions
+........................................................................ [ 93%]
+.....                                                                    [100%]
+77 passed in 0.10s
+
+
+COMMAND original-379
+[PASS] A1 P1 / 00J: expected 42
+..........................................                               [100%]
+42 passed in 0.02s
+------------------------------------------------------------------------
+[PASS] A2 P2 / 00E: expected 58
+..........................................................               [100%]
+58 passed in 0.03s
+------------------------------------------------------------------------
+[PASS] A3 P3 / 00F: expected 49
+.................................................                        [100%]
+49 passed in 0.03s
+------------------------------------------------------------------------
+[PASS] A4 P4 / 00H: expected 76
+........................................................................ [ 94%]
+....                                                                     [100%]
+76 passed in 0.21s
+------------------------------------------------------------------------
+[PASS] A5 P5 / 00I: expected 47
+...............................................                          [100%]
+47 passed in 0.03s
+------------------------------------------------------------------------
+[PASS] A6 P6 / 00G matched-authority: expected 74
+........................................................................ [ 97%]
+..                                                                       [100%]
+74 passed in 0.04s
+------------------------------------------------------------------------
+[PASS] P6 naive 00G falsifier: expected 10
+..........                                                               [100%]
+10 passed in 0.01s
+------------------------------------------------------------------------
+[PASS] P6 independent 00F isolation: expected 11
+...........                                                              [100%]
+11 passed in 0.01s
+------------------------------------------------------------------------
+[PASS] Cross-scenario independent kernels: expected 12
+............                                                             [100%]
+12 passed in 0.01s
+------------------------------------------------------------------------
+Core passing regression count: 346/346
+Supplemental passing count: 33/33
+Campaign total: 379/379
+
+
+COMMAND manifest
+00K execution-lock manifest: PASS
+principles: 6/6
+core: 346
+supplemental: 33
+campaign: 379
+
+
+COMMAND traceability
+00K semantic traceability integrity: PASS
+Principles: 6/6
+Requirements: 14/14
+Anchor routes: 6/6
+
+
+COMMAND closure
+00K syntactic closure integrity: PASS
+Foundation positions: 4/4
+Foundation types: 3/3
+Principle normal forms: 6/6
+Requirement normal forms: 14/14
+Requirement operators covered: 11/11
+Requirement objects covered: 11/11
+Admitted object/operator atoms covered: 40/40
+
+
+COMMAND p5-blind
+..................                                                       [100%]
+18 passed in 0.01s
+
+
+COMMAND ctv1
+test_absolute_path_is_rejected (test_canonical_trace_v1.CanonicalTraceV1Tests.test_absolute_path_is_rejected) ... ok
+test_canonicalization_version_is_present (test_canonical_trace_v1.CanonicalTraceV1Tests.test_canonicalization_version_is_present) ... ok
+test_declared_set_like_collection_is_sorted (test_canonical_trace_v1.CanonicalTraceV1Tests.test_declared_set_like_collection_is_sorted) ... ok
+test_excluded_runtime_fields_do_not_change_hash (test_canonical_trace_v1.CanonicalTraceV1Tests.test_excluded_runtime_fields_do_not_change_hash) ... ok
+test_float_is_rejected (test_canonical_trace_v1.CanonicalTraceV1Tests.test_float_is_rejected) ... ok
+test_key_order_does_not_change_bytes (test_canonical_trace_v1.CanonicalTraceV1Tests.test_key_order_does_not_change_bytes) ... ok
+test_repository_path_is_posix_normalised (test_canonical_trace_v1.CanonicalTraceV1Tests.test_repository_path_is_posix_normalised) ... ok
+test_semantic_array_order_is_preserved (test_canonical_trace_v1.CanonicalTraceV1Tests.test_semantic_array_order_is_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
+
+
+COMMAND stage0
+OK: Step-0 PASS; inverse-control FAIL as required; 12 CTv1 candidate traces; 6 identical replay pairs; both B1/B3 pass; no EA differential
+
+
+COMMAND pairs
+{"case": "00E", "factor": "resolves_at_step_3", "branches": {"negative": {"route": "NO_CONCLUSION", "strong_peer": "NO_CONCLUSION", "weak_peer": "EVIDENCE_STREAM_ENDED"}, "positive": {"route": "EXECUTE", "strong_peer": "EXECUTE", "weak_peer": "EXECUTE"}}}
+{"case": "00F", "factor": "fire_slot", "branches": {"negative": {"route": "REQUALIFY", "strong_peer": "REQUALIFY", "weak_peer": "EXECUTE_ALL"}, "positive": {"route": "EXECUTE_ALL", "strong_peer": "EXECUTE_ALL", "weak_peer": "EXECUTE_ALL"}}}
+{"case": "00G", "factor": "last_root", "branches": {"negative": {"route": "PRESERVE_CURRENT_FRAME", "strong_peer": "PRESERVE_CURRENT_FRAME", "weak_peer": "TRANSITION_FRAME"}, "positive": {"route": "TRANSITION_FRAME", "strong_peer": "TRANSITION_FRAME", "weak_peer": "TRANSITION_FRAME"}}}
+{"case": "00H", "factor": "root_current", "branches": {"negative": {"route": "DBC_REPOSITION_RECONTRACT", "strong_peer": "DBC_REPOSITION_RECONTRACT", "weak_peer": "DBC_EXECUTE"}, "positive": {"route": "DBC_EXECUTE", "strong_peer": "DBC_EXECUTE", "weak_peer": "DBC_EXECUTE"}}}
+{"case": "00I", "factor": "freeze_active", "branches": {"negative": {"route": "DBC_REQUALIFY", "strong_peer": "DBC_REQUALIFY", "weak_peer": "DBC_EXECUTE"}, "positive": {"route": "DBC_EXECUTE", "strong_peer": "DBC_EXECUTE", "weak_peer": "DBC_EXECUTE"}}}
+{"case": "00J", "factor": "proposition_supported", "branches": {"negative": {"route": "NO_CONCLUSION", "strong_peer": "NO_CONCLUSION", "weak_peer": "ENFORCE_LICENSE"}, "positive": {"route": "ENFORCE_LICENSE", "strong_peer": "ENFORCE_LICENSE", "weak_peer": "ENFORCE_LICENSE"}}}
+OK: 12 symbolic branches; 128 Step-0 drop/null mutations; 00H strict boundary 3/3. Shared-contract peer passes every pair: no independent comparison or EA differential inferred.
+
+
+COMMAND documentation
+DOCUMENT INTEGRITY: PASS (3287 local routes, 8 architecture sections, 3 decks)

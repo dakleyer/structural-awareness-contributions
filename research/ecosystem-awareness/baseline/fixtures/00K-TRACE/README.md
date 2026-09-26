@@ -1,5 +1,7 @@
 # 00K-TRACE — semantic/documentary traceability integrity
 
+> **Audit corrections — 26 September 2026:** [A14](./../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) describes current behavior and regression evidence. Prior execution records below remain historical; current implementations and replay outputs are versioned separately.
+
 **Foundation semantic derivation:** [02A](../../02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md)  
 **Principle↔requirement semantic traceability:** [A19](../../00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md)  
 **Syntactic closure package:** [00K-CLOSURE](../00K-CLOSURE/README.md)  

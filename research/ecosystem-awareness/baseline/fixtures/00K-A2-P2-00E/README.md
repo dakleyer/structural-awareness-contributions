@@ -1,5 +1,7 @@
 # 00K-A2 — P2 / 00E deterministic symbolic ablation
 
+> **Audit corrections — 26 September 2026:** [A14](./../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) describes current behavior and regression evidence. Prior execution records below remain historical; current implementations and replay outputs are versioned separately.
+
 **Removed principle:** P2 — bounded unresolved effort and viable oversight  
 **Scenario:** 00E — *100 Million Tokens*  
 **Status:** deterministic symbolic execution; not a live enterprise-agent benchmark

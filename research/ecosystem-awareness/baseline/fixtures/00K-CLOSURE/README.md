@@ -1,5 +1,7 @@
 # 00K-CLOSURE — canonical syntactic closure integrity package
 
+> **Audit corrections — 26 September 2026:** [A14](./../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) describes current behavior and regression evidence. Prior execution records below remain historical; current implementations and replay outputs are versioned separately.
+
 This package is the single machine-readable companion for:
 
 - [02B — Foundational Syntax Closure & P1–P6 Normal-Form Proof](../../02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md)

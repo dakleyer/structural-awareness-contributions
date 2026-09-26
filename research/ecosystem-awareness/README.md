@@ -1,5 +1,7 @@
 # Ecosystem Awareness — entry-point router
 
+> **Evidence correction — 26 September 2026:** [A14](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) records corrected handoff checks, failure traces, metrics, authority/time boundaries and input validation: 379 existing regressions and 77 separate correction checks pass locally. Shared-logic peers remain instrumentation controls; the A22 semantic bridge and A23 fidelity obligations remain open. [Cumulative article/README record A12](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
+
 > **Working router.** This page introduces the architecture, presents the benchmark route and sends readers to three preserved destination indexes. It does not replace or reorganize those corpora.
 
 ## What problem this addresses

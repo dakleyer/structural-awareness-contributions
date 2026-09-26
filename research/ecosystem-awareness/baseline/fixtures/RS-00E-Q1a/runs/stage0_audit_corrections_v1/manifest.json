@@ -1,0 +1,91 @@
+{
+  "canonical_trace_version": "CTv1",
+  "failures": [],
+  "instrumentation": {
+    "active": "PASS",
+    "detector_disabled": "FAIL (required negative control)"
+  },
+  "interpretation": "descriptive shared-logic controls; not independent comparators or an EA differential",
+  "pre_registration_commit": "00241c5c3ab554dd732467ef0ae4c175f958d144",
+  "schema": "RS-00E-Q1a-stage0-manifest-v2",
+  "summary": {
+    "B1": {
+      "burden_per_branch": {
+        "Q1a-C0": {
+          "declared": {
+            "modelled_time_steps": 5,
+            "processing_steps": 5
+          },
+          "observed_event_steps": 5
+        },
+        "Q1a-P1": {
+          "declared": {
+            "modelled_time_steps": 4,
+            "processing_steps": 4
+          },
+          "observed_event_steps": 4
+        },
+        "Q1a-P2": {
+          "declared": {
+            "modelled_time_steps": 5,
+            "processing_steps": 5
+          },
+          "observed_event_steps": 5
+        }
+      },
+      "candidate_passes": 3,
+      "correlated_evidence_errors": 0,
+      "false_convergence": 0,
+      "primary_denominator": 2,
+      "residual_scope_fields_required": 6,
+      "residual_scope_fields_retained": 6,
+      "runtime_errors": 0
+    },
+    "B3": {
+      "burden_per_branch": {
+        "Q1a-C0": {
+          "declared": {
+            "modelled_time_steps": 5,
+            "processing_steps": 5
+          },
+          "observed_event_steps": 5
+        },
+        "Q1a-P1": {
+          "declared": {
+            "modelled_time_steps": 4,
+            "processing_steps": 4
+          },
+          "observed_event_steps": 4
+        },
+        "Q1a-P2": {
+          "declared": {
+            "modelled_time_steps": 5,
+            "processing_steps": 5
+          },
+          "observed_event_steps": 5
+        }
+      },
+      "candidate_passes": 3,
+      "correlated_evidence_errors": 0,
+      "false_convergence": 0,
+      "primary_denominator": 2,
+      "residual_scope_fields_required": 6,
+      "residual_scope_fields_retained": 6,
+      "runtime_errors": 0
+    }
+  },
+  "trace_sha256": {
+    "Q1a-C0_B1_repeat1.json": "d7c0ee9935251e5e19d2e094109f58deade19dd1aaa7f9e468f0b16342a55834",
+    "Q1a-C0_B1_repeat2.json": "d7c0ee9935251e5e19d2e094109f58deade19dd1aaa7f9e468f0b16342a55834",
+    "Q1a-C0_B3_repeat1.json": "d84a8ca71465f8a21b8c0838b1e0daec3280a8a2cd6e16ef7a362d9411e10d91",
+    "Q1a-C0_B3_repeat2.json": "d84a8ca71465f8a21b8c0838b1e0daec3280a8a2cd6e16ef7a362d9411e10d91",
+    "Q1a-P1_B1_repeat1.json": "2ef21b9a4ed8e64cb87d55656d3c150a5f3d3fee14dd26203f1293eeafe6a95c",
+    "Q1a-P1_B1_repeat2.json": "2ef21b9a4ed8e64cb87d55656d3c150a5f3d3fee14dd26203f1293eeafe6a95c",
+    "Q1a-P1_B3_repeat1.json": "a38ee967f5bd6a3ae814accb0e8702b90af79a2e45d97c6b13e200111bc2d307",
+    "Q1a-P1_B3_repeat2.json": "a38ee967f5bd6a3ae814accb0e8702b90af79a2e45d97c6b13e200111bc2d307",
+    "Q1a-P2_B1_repeat1.json": "dad1194449dc405b5bc1dad67572042f932aaa3775bd7ead6447b39432300960",
+    "Q1a-P2_B1_repeat2.json": "dad1194449dc405b5bc1dad67572042f932aaa3775bd7ead6447b39432300960",
+    "Q1a-P2_B3_repeat1.json": "61ef8d84af106b177c38aa62b30671424ab09640421c27b27615ab091a581979",
+    "Q1a-P2_B3_repeat2.json": "61ef8d84af106b177c38aa62b30671424ab09640421c27b27615ab091a581979"
+  }
+}

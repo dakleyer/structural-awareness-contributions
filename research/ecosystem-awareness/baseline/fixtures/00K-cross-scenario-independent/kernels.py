@@ -19,7 +19,11 @@ def p5_material_basis_current(
 ) -> bool:
     """A prior determination remains usable only while every declared
     material basis field is current."""
-    return all(qualified.get(k) == current.get(k) for k in material_keys)
+    return bool(material_keys) and all(
+        k in qualified and k in current
+        and qualified[k] is not None and current[k] is not None
+        and type(qualified[k]) is type(current[k])
+        and qualified[k] == current[k] for k in material_keys)
 
 
 def p6_independent_support(source_lineages: list[str], required: int) -> bool:

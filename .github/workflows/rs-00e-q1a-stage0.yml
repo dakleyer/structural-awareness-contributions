@@ -32,8 +32,8 @@ jobs:
           PYTHONDONTWRITEBYTECODE=1 python -m unittest -v test_canonical_trace_v1.py > unit-tests.txt 2>&1
           PYTHONDONTWRITEBYTECODE=1 python stage0_runner.py --output replay > stdout.txt 2> stderr.txt
           cat stdout.txt
-          diff -r runs/stage0_v05_4193199 replay
-          sha256sum stage0_runner.py frozen_observations_v05.json oracle_reference_v05.json pre_registration_v0.5.md canonical_trace_v1.py runs/stage0_v05_4193199/step0_*.json | tee SHA256SUMS.txt
+          diff -r runs/stage0_audit_corrections_v1 replay
+          sha256sum stage0_runner.py frozen_observations_v05.json oracle_reference_v05.json pre_registration_v0.5.md canonical_trace_v1.py runs/stage0_audit_corrections_v1/step0_*.json | tee SHA256SUMS.txt
       - name: Preserve replay output
         if: always()
         uses: actions/upload-artifact@v4
@@ -47,3 +47,4 @@ jobs:
             research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/python-version.txt
             research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/checked-out-revision.txt
             research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/SHA256SUMS.txt
+            research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/replay/

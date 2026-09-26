@@ -1,0 +1,394 @@
+{
+  "base_commit": "28b7666d8db26634a0f92458146b86f6b25c304f",
+  "test_source_sha256": "65b4c44b7c49710658265b319389d75ebf6be5d9d55b33270d26507a2256a6c5",
+  "passed": 12,
+  "failed": 65,
+  "note": "Same test source on unmodified base implementations. Some failures reflect new API/trace contracts; not 65 independent defects.",
+  "cases": [
+    {
+      "name": "test_handoff_checks_pre_adapter_snapshot[changed]",
+      "passed": false,
+      "failure_message": "AttributeError: module 'stage0_runner' has no attribute 'handoff_snapshot'"
+    },
+    {
+      "name": "test_handoff_checks_pre_adapter_snapshot[missing]",
+      "passed": false,
+      "failure_message": "AttributeError: module 'stage0_runner' has no attribute 'handoff_snapshot'"
+    },
+    {
+      "name": "test_handoff_checks_pre_adapter_snapshot[dropped_report]",
+      "passed": false,
+      "failure_message": "AttributeError: module 'stage0_runner' has no attribute 'handoff_snapshot'"
+    },
+    {
+      "name": "test_handoff_checks_pre_adapter_snapshot[duplicate_report]",
+      "passed": false,
+      "failure_message": "AttributeError: module 'stage0_runner' has no attribute 'handoff_snapshot'"
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[posture-3]",
+      "passed": false,
+      "failure_message": "assert 0 == 3"
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[present-2]",
+      "passed": false,
+      "failure_message": "assert 0 == 2"
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[reason-2]",
+      "passed": false,
+      "failure_message": "assert 0 == 2"
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[reason_whitespace-2]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'PASS' == 'FAIL'\n  \n  - FAIL\n  + PASS"
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[reason_nontext-2]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'PASS' == 'FAIL'\n  \n  - FAIL\n  + PASS"
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[affected_scope-2]",
+      "passed": false,
+      "failure_message": "assert 0 == 2"
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[999-4]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'PASS' == 'FAIL'\n  \n  - FAIL\n  + PASS"
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[4--1]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'PASS' == 'FAIL'\n  \n  - FAIL\n  + PASS"
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[-1-4]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'PASS' == 'FAIL'\n  \n  - FAIL\n  + PASS"
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[4-999]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[True-4]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'PASS' == 'FAIL'\n  \n  - FAIL\n  + PASS"
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[4-1.5]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'PASS' == 'FAIL'\n  \n  - FAIL\n  + PASS"
+    },
+    {
+      "name": "test_burden_matches_event_count",
+      "passed": false,
+      "failure_message": "AttributeError: module 'stage0_runner' has no attribute 'handoff_snapshot'"
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[wrong_posture]",
+      "passed": false,
+      "failure_message": "AssertionError: Regex pattern did not match.\n  Expected regex: 'all traces preserved'\n  Actual message: 'candidate failure: Q1a-P1/B1'"
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[crash]",
+      "passed": false,
+      "failure_message": "ValueError: injected adapter error"
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[nondeterministic]",
+      "passed": false,
+      "failure_message": "AssertionError: Regex pattern did not match.\n  Expected regex: 'all traces preserved'\n  Actual message: 'candidate failure: Q1a-P1/B1'"
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[mutate_input]",
+      "passed": false,
+      "failure_message": "AssertionError: Regex pattern did not match.\n  Expected regex: 'all traces preserved'\n  Actual message: 'STOP: non-deterministic trace Q1a-P1/B1'"
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[invalid_trace_number]",
+      "passed": false,
+      "failure_message": "canonical_trace_v1.CanonicalTraceError: Canonical Trace v1 forbids JSON floating-point numbers; encode non-integral measurements as normalized decimal strings."
+    },
+    {
+      "name": "test_stage_positive_replay",
+      "passed": false,
+      "failure_message": "KeyError: 'failures'"
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[false]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[0]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[1]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[value3]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[value4]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[last_root-]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[base_root- ]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[message_count-0]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[max_steps--1]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[hard_capacity-True]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE IncompleteObservation"
+    },
+    {
+      "name": "test_pair_disagreements_scored_against_oracle_and_saved[route]",
+      "passed": false,
+      "failure_message": "AssertionError: Regex pattern did not match.\n  Expected regex: 'branch traces preserved'\n  Actual message: \"('00E', 'negative', 'WRONG')\""
+    },
+    {
+      "name": "test_pair_disagreements_scored_against_oracle_and_saved[strong_peer]",
+      "passed": false,
+      "failure_message": "AssertionError: Regex pattern did not match.\n  Expected regex: 'branch traces preserved'\n  Actual message: \"('00E', 'negative', 'WRONG')\""
+    },
+    {
+      "name": "test_pair_disagreements_scored_against_oracle_and_saved[both]",
+      "passed": false,
+      "failure_message": "AssertionError: Regex pattern did not match.\n  Expected regex: 'branch traces preserved'\n  Actual message: \"('00E', 'negative', 'WRONG')\""
+    },
+    {
+      "name": "test_a2_exhaustion_requires_capacity[3-6-EVIDENCE_STREAM_ENDED]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'RESOURCE_EXHAUSTED' == 'EVIDENCE_STREAM_ENDED'\n  \n  - EVIDENCE_STREAM_ENDED\n  + RESOURCE_EXHAUSTED"
+    },
+    {
+      "name": "test_a2_exhaustion_requires_capacity[6-6-RESOURCE_EXHAUSTED]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_a2_exhaustion_requires_capacity[0-6-EVIDENCE_STREAM_ENDED]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'RESOURCE_EXHAUSTED' == 'EVIDENCE_STREAM_ENDED'\n  \n  - EVIDENCE_STREAM_ENDED\n  + RESOURCE_EXHAUSTED"
+    },
+    {
+      "name": "test_a2_exhaustion_requires_capacity[1-0-RESOURCE_EXHAUSTED]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mixed_missing-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mixed_missing-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mixed_authorized-DBC_EXECUTE-route_q_decision]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mixed_authorized-DBC_EXECUTE-a2l_strong_peer_decision]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mismatched_ref-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mismatched_ref-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[leaf_expired-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[leaf_expired-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[root_expired-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[root_expired-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[exact_expiry-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[exact_expiry-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'DBC_EXECUTE' == 'DBC_REPOSITION_RECONTRACT'\n  \n  - DBC_REPOSITION_RECONTRACT\n  + DBC_EXECUTE"
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[independent-DBC_EXECUTE-route_q_decision]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[independent-DBC_EXECUTE-a2l_strong_peer_decision]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_rate_limit_sees_later_burst_and_exact_hour_boundary",
+      "passed": false,
+      "failure_message": "AssertionError: assert not True\n +  where True = <function native_rate_cap_check at 0x7fdd080a0540>([LeafAction(account_id='11', amount=40, grant=LeafGrant(case_id='11', cap_amount=50, campaign_ref=None, expiry=datetim...aign_ref=None, expiry=datetime.datetime(2026, 9, 27, 12, 0)), timestamp=datetime.datetime(2026, 9, 25, 14, 0, 6)), ...], 10)\n +    where <function native_rate_cap_check at 0x7fdd080a0540> = a4.native_rate_cap_check\n +    and   [LeafAction(account_id='11', amount=40, grant=LeafGrant(case_id='11', cap_amount=50, campaign_ref=None, expiry=datetim...aign_ref=None, expiry=datetime.datetime(2026, 9, 27, 12, 0)), timestamp=datetime.datetime(2026, 9, 25, 14, 0, 6)), ...] = list(<list_reverseiterator object at 0x7fdd08105ff0>)\n +      where <list_reverseiterator object at 0x7fdd08105ff0> = reversed([LeafAction(account_id='0', amount=40, grant=LeafGrant(case_id='0', cap_amount=50, campaign_ref=None, expiry=datetime....aign_ref=None, expiry=datetime.datetime(2026, 9, 27, 12, 0)), timestamp=datetime.datetime(2026, 9, 25, 14, 0, 5)), ...])"
+    },
+    {
+      "name": "test_a6_peer_scope_and_provenance[wrong_authority-PRESERVE_CURRENT_FRAME]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'TRANSITION_FRAME' == 'PRESERVE_CURRENT_FRAME'\n  \n  - PRESERVE_CURRENT_FRAME\n  + TRANSITION_FRAME"
+    },
+    {
+      "name": "test_a6_peer_scope_and_provenance[empty_source-REQUALIFY]",
+      "passed": false,
+      "failure_message": "AssertionError: assert 'TRANSITION_FRAME' == 'REQUALIFY'\n  \n  - REQUALIFY\n  + TRANSITION_FRAME"
+    },
+    {
+      "name": "test_a6_peer_scope_and_provenance[valid-TRANSITION_FRAME]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_graph_peer_does_not_count_unqualified_claims[signed-False]",
+      "passed": false,
+      "failure_message": "AssertionError: assert <Disposition.TRANSITION: 'TRANSITION'> == <Disposition.PRESERVE: 'PRESERVE'>\n +  where <Disposition.TRANSITION: 'TRANSITION'> = <function dependency_graph_peer at 0x7fdd080a2e80>([Claim(agent_id='A0', org_id='O0', source_id='S0', signed=False, fresh=True, confidence=0.95, time_bucket=0, content_v..._id='A5', org_id='O5', source_id='S5', signed=False, fresh=True, confidence=0.95, time_bucket=2, content_variant='v3')], Graph(parent={'S0': 'ROOT_0', 'S1': 'ROOT_1', 'S2': 'ROOT_2', 'S3': 'ROOT_3', 'S4': 'ROOT_4', 'S5': 'ROOT_5', 'ROOT_0': None, 'ROOT_1': None, 'ROOT_2': None, 'ROOT_3': None, 'ROOT_4': None, 'ROOT_5': None}))\n +    where <function dependency_graph_peer at 0x7fdd080a2e80> = graph6.dependency_graph_peer\n +  and   <Disposition.PRESERVE: 'PRESERVE'> = <enum 'Disposition'>.PRESERVE\n +    where <enum 'Disposition'> = graph6.Disposition"
+    },
+    {
+      "name": "test_graph_peer_does_not_count_unqualified_claims[fresh-False]",
+      "passed": false,
+      "failure_message": "AssertionError: assert <Disposition.TRANSITION: 'TRANSITION'> == <Disposition.PRESERVE: 'PRESERVE'>\n +  where <Disposition.TRANSITION: 'TRANSITION'> = <function dependency_graph_peer at 0x7fdd080a2e80>([Claim(agent_id='A0', org_id='O0', source_id='S0', signed=True, fresh=False, confidence=0.95, time_bucket=0, content_v..._id='A5', org_id='O5', source_id='S5', signed=True, fresh=False, confidence=0.95, time_bucket=2, content_variant='v3')], Graph(parent={'S0': 'ROOT_0', 'S1': 'ROOT_1', 'S2': 'ROOT_2', 'S3': 'ROOT_3', 'S4': 'ROOT_4', 'S5': 'ROOT_5', 'ROOT_0': None, 'ROOT_1': None, 'ROOT_2': None, 'ROOT_3': None, 'ROOT_4': None, 'ROOT_5': None}))\n +    where <function dependency_graph_peer at 0x7fdd080a2e80> = graph6.dependency_graph_peer\n +  and   <Disposition.PRESERVE: 'PRESERVE'> = <enum 'Disposition'>.PRESERVE\n +    where <enum 'Disposition'> = graph6.Disposition"
+    },
+    {
+      "name": "test_graph_peer_does_not_count_unqualified_claims[confidence-0]",
+      "passed": false,
+      "failure_message": "AssertionError: assert <Disposition.TRANSITION: 'TRANSITION'> == <Disposition.PRESERVE: 'PRESERVE'>\n +  where <Disposition.TRANSITION: 'TRANSITION'> = <function dependency_graph_peer at 0x7fdd080a2e80>([Claim(agent_id='A0', org_id='O0', source_id='S0', signed=True, fresh=True, confidence=0, time_bucket=0, content_varia...gent_id='A5', org_id='O5', source_id='S5', signed=True, fresh=True, confidence=0, time_bucket=2, content_variant='v3')], Graph(parent={'S0': 'ROOT_0', 'S1': 'ROOT_1', 'S2': 'ROOT_2', 'S3': 'ROOT_3', 'S4': 'ROOT_4', 'S5': 'ROOT_5', 'ROOT_0': None, 'ROOT_1': None, 'ROOT_2': None, 'ROOT_3': None, 'ROOT_4': None, 'ROOT_5': None}))\n +    where <function dependency_graph_peer at 0x7fdd080a2e80> = graph6.dependency_graph_peer\n +  and   <Disposition.PRESERVE: 'PRESERVE'> = <enum 'Disposition'>.PRESERVE\n +    where <enum 'Disposition'> = graph6.Disposition"
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified0-current0-keys0-False]",
+      "passed": false,
+      "failure_message": "AssertionError: assert True is False\n +  where True = <function p5_material_basis_current at 0x7fdd080a31a0>({}, {}, ('freeze',))\n +    where <function p5_material_basis_current at 0x7fdd080a31a0> = k.p5_material_basis_current"
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified1-current1-keys1-False]",
+      "passed": false,
+      "failure_message": "AssertionError: assert True is False\n +  where True = <function p5_material_basis_current at 0x7fdd080a31a0>({'freeze': None}, {'freeze': None}, ('freeze',))\n +    where <function p5_material_basis_current at 0x7fdd080a31a0> = k.p5_material_basis_current"
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified2-current2-keys2-True]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified3-current3-keys3-False]",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified4-current4-keys4-False]",
+      "passed": false,
+      "failure_message": "AssertionError: assert True is False\n +  where True = <function p5_material_basis_current at 0x7fdd080a31a0>({'freeze': False}, {'freeze': 0}, ('freeze',))\n +    where <function p5_material_basis_current at 0x7fdd080a31a0> = k.p5_material_basis_current"
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified5-current5-keys5-False]",
+      "passed": false,
+      "failure_message": "assert True is False\n +  where True = <function p5_material_basis_current at 0x7fdd080a31a0>({}, {}, ())\n +    where <function p5_material_basis_current at 0x7fdd080a31a0> = k.p5_material_basis_current"
+    },
+    {
+      "name": "test_p2_rejects_invalid_budget[-1]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE ValueError"
+    },
+    {
+      "name": "test_p2_rejects_invalid_budget[True]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE ValueError"
+    },
+    {
+      "name": "test_p2_rejects_invalid_budget[1.5]",
+      "passed": false,
+      "failure_message": "TypeError: slice indices must be integers or None or have an __index__ method"
+    },
+    {
+      "name": "test_p2_zero_and_valid_budget",
+      "passed": true,
+      "failure_message": null
+    },
+    {
+      "name": "test_traceability_rejects_wrong_scenario[scenario_label]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE AssertionError"
+    },
+    {
+      "name": "test_traceability_rejects_wrong_scenario[scenario_path]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE AssertionError"
+    },
+    {
+      "name": "test_closure_rejects_shrunk_or_duplicated_domain[empty]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE AssertionError"
+    },
+    {
+      "name": "test_closure_rejects_shrunk_or_duplicated_domain[delete_atom]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE AssertionError"
+    },
+    {
+      "name": "test_closure_rejects_shrunk_or_duplicated_domain[duplicate_atom]",
+      "passed": false,
+      "failure_message": "Failed: DID NOT RAISE AssertionError"
+    },
+    {
+      "name": "test_positive_structural_manifests",
+      "passed": true,
+      "failure_message": null
+    }
+  ]
+}

@@ -1,4 +1,6 @@
 # 00H — Reference Failure Scenario and Quality-Gate Plan: Batch Opportunity Beyond Authority ("The Quiet Four Thousand")
+
+> **Corrección posterior de pruebas — 26/09/2026.** Route Q y A2-L comprueban cada campaña del lote mixto, la referencia de la autoridad y la vigencia al actuar; el control de tasa examina todas las ventanas. Branch I conserva independencia estipulada, no inferida de metadata ausente. Véanse [A14: cambios y pruebas](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y [A12: registro acumulativo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
 **Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Preserve the Finding, Do Not Overreach](./00H_SUCCESS_MODEL_CASE_PRESERVE_WITHOUT_OVERREACH_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
 
 

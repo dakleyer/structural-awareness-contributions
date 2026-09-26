@@ -1,4 +1,6 @@
 <!-- FREEZE-ADD:COVER:START -->
+
+> **Corrección posterior de pruebas — 26/09/2026.** El replay emparejado puntúa cada brazo contra el oráculo y conserva divergencias; se amplía el guard de tipos. No se añade ejecución de movilidad real ni una comparación independiente. Véanse [A14: cambios y pruebas](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y [A12: registro acumulativo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
 # Smart-City Mobility Chaos
 **Success Model Case.** The requirements-conforming positive traversal of this same structural problem is [Coherent Shared-Capacity Requalification](./00F_SUCCESS_MODEL_CASE_SHARED_CAPACITY_REQUALIFICATION_v0.1.md). It converts the failure fixture into a reusable successful case and tests upward, downward and horizontal transfer under [A26](./00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md), without adding S15 or altering P1–P6.
 

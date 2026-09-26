@@ -1,5 +1,7 @@
 # 00L-00G — Traza de papel emparejada: estabilidad del marco con procedencia
 
+> **Estado tras auditoría:** El peer exige autoridad para el marco y procedencia válida; el kernel de grafo solo cuenta evidencia cualificada. El guard rechaza raíces vacías; el falsador A6a se conserva. [Correcciones A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md); las tablas de papel conservadas no sustituyen las nuevas trazas de ejecución.
+
 **Base:** 00G v0.4 y su §17 integrado. **Estado:** traza calculada en papel sobre hechos sintéticos; no ejecución de OpenAI ni EA.
 
 ## Ficha congelada

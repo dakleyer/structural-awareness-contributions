@@ -1,0 +1,535 @@
+{
+  "correction_base_commit": "28b7666d8db26634a0f92458146b86f6b25c304f",
+  "execution": "local; source identity given by hashes, not remote CI",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "results": [
+    {
+      "label": "correction-regressions",
+      "cwd": ".",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "$REPO/research/ecosystem-awareness/baseline/fixtures/00K-AUDIT-CORRECTIONS",
+        "--junitxml=$OUTPUT/regressions.xml"
+      ],
+      "exit_code": 0,
+      "log_sha256": "af0a963874c6ddf465c7c8a0fbc08514a064b575a111c5633a23921e2179a808",
+      "output_tail": "........................................................................ [ 93%]\n.....                                                                    [100%]\n77 passed in 0.10s\n"
+    },
+    {
+      "label": "original-379",
+      "cwd": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE",
+      "command": [
+        "python",
+        "run_all.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "12803cc0ea981dc3b12844928c54c4546d5f0a58469a3126cd3f7a0fb4d03f85",
+      "output_tail": " 11\n...........                                                              [100%]\n11 passed in 0.01s\n------------------------------------------------------------------------\n[PASS] Cross-scenario independent kernels: expected 12\n............                                                             [100%]\n12 passed in 0.01s\n------------------------------------------------------------------------\nCore passing regression count: 346/346\nSupplemental passing count: 33/33\nCampaign total: 379/379\n"
+    },
+    {
+      "label": "manifest",
+      "cwd": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE",
+      "command": [
+        "python",
+        "validate_manifest.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "51a97d42482ca8e59b04612f6fde4e990569afbe25c1350a32b47e33ce0abfd5",
+      "output_tail": "00K execution-lock manifest: PASS\nprinciples: 6/6\ncore: 346\nsupplemental: 33\ncampaign: 379\n"
+    },
+    {
+      "label": "traceability",
+      "cwd": "research/ecosystem-awareness/baseline/fixtures/00K-TRACE",
+      "command": [
+        "python",
+        "validate_traceability.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "d909fc0c76f9338e8cc29592cfcb7d353e01475c209f5015b1060528b5a785f5",
+      "output_tail": "00K semantic traceability integrity: PASS\nPrinciples: 6/6\nRequirements: 14/14\nAnchor routes: 6/6\n"
+    },
+    {
+      "label": "closure",
+      "cwd": "research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE",
+      "command": [
+        "python",
+        "validate_closure.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "b6e84b617f5ef8d589a2e887e947e059c1dcd9e2cd8c7f8ff8c298d2a4cc6dec",
+      "output_tail": "00K syntactic closure integrity: PASS\nFoundation positions: 4/4\nFoundation types: 3/3\nPrinciple normal forms: 6/6\nRequirement normal forms: 14/14\nRequirement operators covered: 11/11\nRequirement objects covered: 11/11\nAdmitted object/operator atoms covered: 40/40\n"
+    },
+    {
+      "label": "p5-blind",
+      "cwd": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/p5-blind-signature",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "log_sha256": "6a1d2ec8a317d166439f512895139f460d3bad29c632a23cee143093a1a75009",
+      "output_tail": "..................                                                       [100%]\n18 passed in 0.01s\n"
+    },
+    {
+      "label": "ctv1",
+      "cwd": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_canonical_trace_v1.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "ed67eec8945422b29b1b0f5f0ad8e69cf5a86c045bb1806a27cc8cb8e2bb5f24",
+      "output_tail": "ok\ntest_key_order_does_not_change_bytes (test_canonical_trace_v1.CanonicalTraceV1Tests.test_key_order_does_not_change_bytes) ... ok\ntest_repository_path_is_posix_normalised (test_canonical_trace_v1.CanonicalTraceV1Tests.test_repository_path_is_posix_normalised) ... ok\ntest_semantic_array_order_is_preserved (test_canonical_trace_v1.CanonicalTraceV1Tests.test_semantic_array_order_is_preserved) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "label": "stage0",
+      "cwd": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a",
+      "command": [
+        "python",
+        "stage0_runner.py",
+        "--output",
+        "$OUTPUT/stage0"
+      ],
+      "exit_code": 0,
+      "log_sha256": "2be5609b18778e85f832e442f34334f4bbfc3ec92559835a054f675aa4964ebb",
+      "output_tail": "OK: Step-0 PASS; inverse-control FAIL as required; 12 CTv1 candidate traces; 6 identical replay pairs; both B1/B3 pass; no EA differential\n"
+    },
+    {
+      "label": "pairs",
+      "cwd": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1",
+      "command": [
+        "python",
+        "verify_paired_symbolic.py",
+        "--trace-jsonl",
+        "$OUTPUT/pairs.jsonl"
+      ],
+      "exit_code": 0,
+      "log_sha256": "6889f7878f389dd52c0f82e23d607efdc5d6f448188465c2b0136b022e0d5fe7",
+      "output_tail": "\"DBC_EXECUTE\", \"weak_peer\": \"DBC_EXECUTE\"}}}\n{\"case\": \"00J\", \"factor\": \"proposition_supported\", \"branches\": {\"negative\": {\"route\": \"NO_CONCLUSION\", \"strong_peer\": \"NO_CONCLUSION\", \"weak_peer\": \"ENFORCE_LICENSE\"}, \"positive\": {\"route\": \"ENFORCE_LICENSE\", \"strong_peer\": \"ENFORCE_LICENSE\", \"weak_peer\": \"ENFORCE_LICENSE\"}}}\nOK: 12 symbolic branches; 128 Step-0 drop/null mutations; 00H strict boundary 3/3. Shared-contract peer passes every pair: no independent comparison or EA differential inferred.\n"
+    },
+    {
+      "label": "documentation",
+      "cwd": ".",
+      "command": [
+        "python",
+        "scripts/check_document_integrity.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e6c20a86d48f2819da3eeeaa9fdefd8b6488fbd89f77d06365924e3227587ffd",
+      "output_tail": "DOCUMENT INTEGRITY: PASS (3287 local routes, 8 architecture sections, 3 decks)\n"
+    }
+  ],
+  "correction_tests": [
+    {
+      "name": "test_handoff_checks_pre_adapter_snapshot[changed]",
+      "passed": true
+    },
+    {
+      "name": "test_handoff_checks_pre_adapter_snapshot[missing]",
+      "passed": true
+    },
+    {
+      "name": "test_handoff_checks_pre_adapter_snapshot[dropped_report]",
+      "passed": true
+    },
+    {
+      "name": "test_handoff_checks_pre_adapter_snapshot[duplicate_report]",
+      "passed": true
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[posture-3]",
+      "passed": true
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[present-2]",
+      "passed": true
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[reason-2]",
+      "passed": true
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[reason_whitespace-2]",
+      "passed": true
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[reason_nontext-2]",
+      "passed": true
+    },
+    {
+      "name": "test_residual_metric_counts_fields_not_overall_pass[affected_scope-2]",
+      "passed": true
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[999-4]",
+      "passed": true
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[4--1]",
+      "passed": true
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[-1-4]",
+      "passed": true
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[4-999]",
+      "passed": true
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[True-4]",
+      "passed": true
+    },
+    {
+      "name": "test_burden_rejects_invalid_and_over_limit[4-1.5]",
+      "passed": true
+    },
+    {
+      "name": "test_burden_matches_event_count",
+      "passed": true
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[wrong_posture]",
+      "passed": true
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[crash]",
+      "passed": true
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[nondeterministic]",
+      "passed": true
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[mutate_input]",
+      "passed": true
+    },
+    {
+      "name": "test_run_preserves_failed_repeats_and_other_candidates[invalid_trace_number]",
+      "passed": true
+    },
+    {
+      "name": "test_stage_positive_replay",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[false]",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[0]",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[1]",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[value3]",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_non_boolean[value4]",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[last_root-]",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[base_root- ]",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[message_count-0]",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[max_steps--1]",
+      "passed": true
+    },
+    {
+      "name": "test_preflight_rejects_domain_errors[hard_capacity-True]",
+      "passed": true
+    },
+    {
+      "name": "test_pair_disagreements_scored_against_oracle_and_saved[route]",
+      "passed": true
+    },
+    {
+      "name": "test_pair_disagreements_scored_against_oracle_and_saved[strong_peer]",
+      "passed": true
+    },
+    {
+      "name": "test_pair_disagreements_scored_against_oracle_and_saved[both]",
+      "passed": true
+    },
+    {
+      "name": "test_a2_exhaustion_requires_capacity[3-6-EVIDENCE_STREAM_ENDED]",
+      "passed": true
+    },
+    {
+      "name": "test_a2_exhaustion_requires_capacity[6-6-RESOURCE_EXHAUSTED]",
+      "passed": true
+    },
+    {
+      "name": "test_a2_exhaustion_requires_capacity[0-6-EVIDENCE_STREAM_ENDED]",
+      "passed": true
+    },
+    {
+      "name": "test_a2_exhaustion_requires_capacity[1-0-RESOURCE_EXHAUSTED]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mixed_missing-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mixed_missing-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mixed_authorized-DBC_EXECUTE-route_q_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mixed_authorized-DBC_EXECUTE-a2l_strong_peer_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mismatched_ref-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[mismatched_ref-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[leaf_expired-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[leaf_expired-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[root_expired-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[root_expired-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[exact_expiry-DBC_REPOSITION_RECONTRACT-route_q_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[exact_expiry-DBC_REPOSITION_RECONTRACT-a2l_strong_peer_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[independent-DBC_EXECUTE-route_q_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_a4_batch_authority_and_action_time[independent-DBC_EXECUTE-a2l_strong_peer_decision]",
+      "passed": true
+    },
+    {
+      "name": "test_rate_limit_sees_later_burst_and_exact_hour_boundary",
+      "passed": true
+    },
+    {
+      "name": "test_a6_peer_scope_and_provenance[wrong_authority-PRESERVE_CURRENT_FRAME]",
+      "passed": true
+    },
+    {
+      "name": "test_a6_peer_scope_and_provenance[empty_source-REQUALIFY]",
+      "passed": true
+    },
+    {
+      "name": "test_a6_peer_scope_and_provenance[valid-TRANSITION_FRAME]",
+      "passed": true
+    },
+    {
+      "name": "test_graph_peer_does_not_count_unqualified_claims[signed-False]",
+      "passed": true
+    },
+    {
+      "name": "test_graph_peer_does_not_count_unqualified_claims[fresh-False]",
+      "passed": true
+    },
+    {
+      "name": "test_graph_peer_does_not_count_unqualified_claims[confidence-0]",
+      "passed": true
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified0-current0-keys0-False]",
+      "passed": true
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified1-current1-keys1-False]",
+      "passed": true
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified2-current2-keys2-True]",
+      "passed": true
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified3-current3-keys3-False]",
+      "passed": true
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified4-current4-keys4-False]",
+      "passed": true
+    },
+    {
+      "name": "test_p5_missing_unknown_changed_and_valid[qualified5-current5-keys5-False]",
+      "passed": true
+    },
+    {
+      "name": "test_p2_rejects_invalid_budget[-1]",
+      "passed": true
+    },
+    {
+      "name": "test_p2_rejects_invalid_budget[True]",
+      "passed": true
+    },
+    {
+      "name": "test_p2_rejects_invalid_budget[1.5]",
+      "passed": true
+    },
+    {
+      "name": "test_p2_zero_and_valid_budget",
+      "passed": true
+    },
+    {
+      "name": "test_traceability_rejects_wrong_scenario[scenario_label]",
+      "passed": true
+    },
+    {
+      "name": "test_traceability_rejects_wrong_scenario[scenario_path]",
+      "passed": true
+    },
+    {
+      "name": "test_closure_rejects_shrunk_or_duplicated_domain[empty]",
+      "passed": true
+    },
+    {
+      "name": "test_closure_rejects_shrunk_or_duplicated_domain[delete_atom]",
+      "passed": true
+    },
+    {
+      "name": "test_closure_rejects_shrunk_or_duplicated_domain[duplicate_atom]",
+      "passed": true
+    },
+    {
+      "name": "test_positive_structural_manifests",
+      "passed": true
+    }
+  ],
+  "correction_pass_count": 77,
+  "stage0_reference_byte_matches": {
+    "Q1a-C0_B1_repeat1.json": true,
+    "Q1a-C0_B1_repeat2.json": true,
+    "Q1a-C0_B3_repeat1.json": true,
+    "Q1a-C0_B3_repeat2.json": true,
+    "Q1a-P1_B1_repeat1.json": true,
+    "Q1a-P1_B1_repeat2.json": true,
+    "Q1a-P1_B3_repeat1.json": true,
+    "Q1a-P1_B3_repeat2.json": true,
+    "Q1a-P2_B1_repeat1.json": true,
+    "Q1a-P2_B1_repeat2.json": true,
+    "Q1a-P2_B3_repeat1.json": true,
+    "Q1a-P2_B3_repeat2.json": true,
+    "manifest.json": true,
+    "step0_active.json": true,
+    "step0_detector_disabled.json": true
+  },
+  "paired_reference_byte_match": true,
+  "source_sha256": {
+    "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/verify_paired_symbolic.py": "0f35948b04261041964e10951a83710dbcf4dfeaa5ada24b99c5da69e6990396",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/ablation_A1.py": "882f1e1e75a507a3218685b14dce4e830462cc1a76fde61796a8824abd128b23",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/p1_strong_repairs.py": "4388b61d90341c4f4c0d80d924fbac8489701de80e03df2e971d354f3c0d912f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/test_ablation_A1.py": "2491640cd71bc300d40acb7e7bb1eb5dde7ba9f5cc7cbbfe2462da031eda836b",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/test_ablation_A1_grid.py": "f71beda09e6d8bacf905024e638d1b8e9212acd2898c500bd0d643a75559320c",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/test_ablation_A1_strong_repairs.py": "6e78e2f1fac10ffd9794db4f295444cfb89b60dea62d33911eb841bb3ae36270",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/ablation_A2.py": "f7772fda99076249ed38d4f151d0d342fe88591d1cd01ada699656daf8560c82",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/p2_strong_repairs.py": "86bc7143208e2ff181feb09f228d8b006813bfe9c431a84bcb1e74bdc882b524",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/test_ablation_A2.py": "4652df4969b331e432a5c0e6749e5c3af7c7cdb8ea96f15089892cbeef8aa52c",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/test_ablation_A2_grid.py": "d3e4aec994c72c9ddaffc61dc5e0193dff2a32fc1f4d2f4658e9bbb95fd0ef17",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/test_p2_strong_repairs.py": "37e7d8766f3d0d3b2fd4a52e2db23ae9bee2216bbb82a7a0bda5c37d6e4587b7",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/ablation_A3.py": "9224ec46aac84a73ac1e084d8fdeeab61e1051365d4270a06a9ef31b67ccf6a1",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/p3_strong_repairs.py": "1d3144cf83eafe4b47cd11756b15003a7dcc5031584e8f99c97944a3a567303d",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/test_ablation_A3.py": "d8413854bfcea0aec75d7b2a8975e86a9c5206c993ec1398070b501090ec7080",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/test_ablation_A3_grid.py": "995cbb1f5da8cc3f8a6b2f7ea3a7695db683481dc52c1ff069ab3774e9abb865",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/test_p3_strong_repairs.py": "731c90d41d44879fb775ef90028df63c3e4e0c60b6de1b5b84b4d82eff5bc2af",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/a2l_strong_peer.py": "0fbc66e6457f2a14db091c05d3026a1cad2176e1aaffc2a26229a6ac2362a140",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/ablation_A4.py": "0312772a81372bb2122ed781a07edf8cacddb23ab4868b0360f9a9ab801fb238",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/p4_strong_repairs.py": "0493ea356164eb04168c791e420d62da5578750062b706644f32470f416a42a2",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_ablation_A4.py": "fcc0de21e2b217a9a4771f74e4ffca73604781ac3176458a2d77dccc09b64628",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_ablation_A4_extended.py": "3e5fe2bc14cf73948da1f22e31b597bfdbf7febf6cf3e4218af45ce11120bb12",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_ablation_A4_grid.py": "48f7618792b5c68eacff417e62594d33624685e39ae4557b9f250e40c55121d0",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_ablation_A4_v02_additions.py": "002611335051f9924c1121a8f62404181ffa181e8df6dd56e45a7201c6a1ce53",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_p4_strong_repairs.py": "6cfffa876fc9b2c8eddbbd5160033ef4866a2c25c4b237560716353998d693e7",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/ablation_A5.py": "80d71c73e6afb570205d4ae42b547ac647974eb4986a747cc4783115f5d2bc74",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/p5_serious_repairs.py": "f2098928f3f2be99004b1f3a80e306256d8c8f3d25af72d147686a3fb90020a3",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/p5_strong_peer.py": "72818294dca4eaec35b8f9258999d661cd6c1c0b2b744e15978b64b820ea819f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/test_ablation_A5.py": "2ea3b50684d130c263b5bb59d735ac1f6a7da906c14dfbf3cae1e85bc15613c4",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/test_ablation_A5_grid.py": "fc1dd32540eb25aa239d3f62e6b63c71188c8e623299a35f56f18d38f8b729d7",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/test_p5_serious_repairs.py": "6dfe5cc0c5448ba79b3b135410c3523cdce8e618aeb6e58f429a0ceb1f66631c",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/ablation_A6.py": "da9c6ac20e5bd9e88eed1560a63faffb2e8a454a65baa3767cc9e6336febb35e",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/p6_serious_repairs.py": "caac5267c23d196e3848032d3ad10579d0ac33ed947674c9cc91fb4915b9f51e",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/test_ablation_A6.py": "73869cb634a35744adb9614d4cc32b941856b4d5b5e72883d4a7c59e9c39a3a6",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/test_ablation_A6_grid.py": "d2c9cc899be45c6f2cd511e392dbb6b981ac7fb90d6ef8615a53f980fe91a49c",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/test_p6_serious_repairs.py": "055d2d52817d0f6ad1a61b5ea9637451daea983e27d539f0324a0621fb77bf6d",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6a-P6-00G/ablation_A6_00G.py": "dc0f97b2002a2170e33fd60f490b6041d693c4f0c8ae41b1139eb8888c0d78a9",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6a-P6-00G/test_A6_00G.py": "f4756ffd3df57e84d7b8528f75fc2a2ee5dab26c0c55de9c15b47901d32379d0",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6b-P6-00F/ablation_A6b_00F.py": "7dfdfea655683b12a2da1d1308e48c959c7cf34e980400284029ff8c5f11e67f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6b-P6-00F/test_A6b_00F.py": "d3177bea83d66e6d5e10897b0088c79c1fc21709d80b26a05951abbf7ed8ef40",
+    "research/ecosystem-awareness/baseline/fixtures/00K-AUDIT-CORRECTIONS/reproduce.py": "d5d83ecd5bb3c110488d9e68f5337e05f2c8873a1af56080e080ce7d0ab56027",
+    "research/ecosystem-awareness/baseline/fixtures/00K-AUDIT-CORRECTIONS/test_audit_corrections.py": "65b4c44b7c49710658265b319389d75ebf6be5d9d55b33270d26507a2256a6c5",
+    "research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE/validate_closure.py": "ab173afbb041fa63897100844e2e53e1b0b0b9e6913ff9c313b63ab68bcb136b",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/formal_independence_certificate.py": "28fa8c67ef5eec6169ff64e21595c02af2ce27b2e20f28c5c8f2a5a56dfa455b",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube/full_cube_model.py": "5213408a65f0582cb2f4a0fc49acba6a9bb5b6043583e4d070e977073cd2844f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube/test_full_cube.py": "adb965689215ae551da48d718ee1a699ce4f42ece6d90dd040401fcccc18e8be",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/p5-blind-signature/p5_strong_repairs.py": "628347069f436d384fcad9a8fa1020e294c261d7d77376250844e501e3cc66a7",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/p5-blind-signature/test_p5_strong_repairs.py": "6678bd9ee56e999c0b161ec1bb027a88eefb8f7fc587a179a1f7b83a4da4e572",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/audit_requirement_sufficiency.py": "c076a95dbe53400403a0c75a0159a7721f70ab06738bc48cbfef5d0c55d061c5",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/requirement_sufficiency_model.py": "b1e32ab6b7868eb51beee62a9ff844fa9ea47c46132ffd17b6f93b7770fd12e5",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/test_requirement_sufficiency.py": "4280554082cdd062919eb39a58b32b148012af4cf087adcd387214bb17994789",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A1-00J/ablation_A1_00J.py": "8fdb2bccf4f675321db7bac47a9e2573550cbc2fa6c27340cbde48127906e7ad",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A1-00J/test_A1_00J.py": "5bc0122a628888e82d20c76a619b2746ad1149e303757b3a2cbb83bc14f9b13a",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A2-00E/ablation_A2_00E.py": "cfdfca66c86f332dc15b81bebe395b48cadd01f6406f3564f70f20e7b2d27e11",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A2-00E/test_A2_00E.py": "64eee338ce06d06e1503e4deaa5428c4326fff22f9ef47ade7d4d971b89cca3e",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A3-00F/ablation_A3_00F.py": "4c814f8338623cf86c3f5bf8ef5e52fb5ad73dd5a38d67f9fcfb170931024d9b",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A3-00F/test_A3_00F.py": "370bdac669648aa8fb995c8220696e8a6dfbbdaf0540e53c8262ba28782379db",
+    "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/run_all.py": "b9f6a0b1675364a4805e53cb5eaa2d779b92e9f873e7f9ab962665c060809f6f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/validate_manifest.py": "394fb7d4597cb3b3f579bf9f786cf0f0cd507b48891d60ad5e7b8dd145fb83af",
+    "research/ecosystem-awareness/baseline/fixtures/00K-TRACE/validate_traceability.py": "7ad6d94b71568f4451e6a42718152b8a65a86b1692303f2e5f0bda5175c7af0a",
+    "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent/kernels.py": "92372d801f15bfaa42ac56534f5fc4a3b36f3b1b7e2abaea72dcca541ddc179d",
+    "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent/kernels_p1_p3.py": "0b3a6baf1059780b0ae2e1aad5e56faaba100be30d5e6cacaf62231fde200989",
+    "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent/test_cross_scenario_kernels.py": "b9b381fbc465415a89ee8bf1c50a19dd6db1fe39119f19cb176a3a6e3ee21f01",
+    "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent/test_cross_scenario_kernels_p1_p3.py": "57379550c5e7a8bd9347ad1e7a11cdbf684d9924fc7a251972301b52109bc970",
+    "research/ecosystem-awareness/baseline/fixtures/AUDIT-20260926/probe_findings.py": "5e3e89e65f9ba5f881c28be97a60df08815a90ee624fcf38d7052d806d57f1de",
+    "research/ecosystem-awareness/baseline/fixtures/AUDIT-20260926/reproduce_baseline.py": "06002834a928591a730e77d10a83c94d77952aedd210840a2fa1abf42e2578db",
+    "research/ecosystem-awareness/baseline/fixtures/CASE-EXTENSION/validate_extensibility.py": "bb1f7ac83f9907fc4364cf5f7f81463262498288eeb23c7e145d3225431dfe01",
+    "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/canonical_trace_v1.py": "32fbe24097b99db29ca229a089b41ff10a61c6f8cb5bd945d62d033dfca3683c",
+    "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/stage0_runner.py": "35c199f303374a7cc70236378897e8ba9f12c0176a0c6576b77e88c8ed0b463e",
+    "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/test_canonical_trace_v1.py": "3175354678c71f46851587150c479d11d3b7d94be1a40deb0ea40556441c324d",
+    ".github/workflows/00k-symbolic-ablations.yml": "517f0ba851b1344d098066d53b8ca6b28615d09a8e6cab899efa5928cb6666d0",
+    ".github/workflows/00l-paired-symbolic.yml": "607316b66eda36ab9f961bab7f6cb6df3711775a8baad224b84d19844b5fa966",
+    ".github/workflows/audit-corrections.yml": "4cfb20663a6b804bbd1a944b9be99c0d8a0eb30592d0be9e4ca4a8006bc49d30",
+    ".github/workflows/document-integrity.yml": "f04403c678dcc37ef0f293eee4540230494f1caeb94d0d6666cc3d333084edf6",
+    ".github/workflows/rs-00e-q1a-stage0.yml": "3313fcab654bbf759bfc3d3b85e52a3be8664c7ee5173452a35ee16880933981"
+  }
+}

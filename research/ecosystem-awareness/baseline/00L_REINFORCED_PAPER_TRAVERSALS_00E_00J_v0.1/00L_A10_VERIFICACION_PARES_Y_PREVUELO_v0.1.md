@@ -1,5 +1,7 @@
 # 00L-A10 — Verificación ejecutada de pares y paso previo de instrumentación
 
+> **Reproducción actual:** [A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y [trazas corregidas](./00L_A14_TRAZAS_CORREGIDAS.jsonl) sustituyen la salida esperada del runner actual. Las trazas A11 y sus hashes se conservan como registro histórico. En 00E, el fin del stream de tres pasos no es agotamiento de capacidad seis; los brazos se puntúan por separado y los desacuerdos se guardan.
+
 **Fecha:** 25 de septiembre de 2026. **Base:** seis microfixtures adicionales [declarados aquí](./00L_A10_PARES_CONTROLADOS.json), sobre funciones simbólicas existentes de 00K; [verificador](./verify_paired_symbolic.py) con solo la biblioteca estándar de Python. No ejecuta los casos completos 00E–00J, las suites `pytest` anteriores, EA en producto ni plataformas comerciales. Estas parejas son una selección **nueva y explícita**; no atribuir sus resultados al fixture original en toda su extensión.
 
 ## Diseño antes de interpretar resultados

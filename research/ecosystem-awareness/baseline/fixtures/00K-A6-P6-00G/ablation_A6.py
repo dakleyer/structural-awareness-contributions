@@ -131,8 +131,10 @@ def strong_peer_source_independence(
     This passes, but operationally reconstructs P6's non-substitution /
     independent-evidence composition invariant.
     """
-    if not authority.current:
+    if not authority.current or authority.target_frame != CANDIDATE_FRAME:
         return Disposition.PRESERVE_CURRENT_FRAME
+    if not claims or not all(p4_provenance_preserved(c) for c in claims):
+        return Disposition.REQUALIFY
     independent = len({
         c.source_lineage
         for c in claims

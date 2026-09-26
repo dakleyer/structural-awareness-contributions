@@ -1,5 +1,7 @@
 # 00L-00F — Traza de papel emparejada: requalification de capacidad compartida
 
+> **Estado tras auditoría:** El replay emparejado puntúa cada brazo contra el oráculo y conserva divergencias; se amplía el guard de tipos. No se añade ejecución de movilidad real ni una comparación independiente. [Correcciones A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md); las tablas de papel conservadas no sustituyen las nuevas trazas de ejecución.
+
 **Base:** 00F v0.2 Freeze Edition y perfiles FIWARE/AWS v0.2. **Estado:** traza calculada en papel sobre hechos sintéticos; no ejecución de FIWARE, AWS ni EA.
 
 ## Ficha congelada

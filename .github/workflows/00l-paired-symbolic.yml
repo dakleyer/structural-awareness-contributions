@@ -34,8 +34,8 @@ jobs:
           PYTHONDONTWRITEBYTECODE=1 python verify_paired_symbolic.py --trace-jsonl replay.jsonl > stdout.txt 2> stderr.txt
           cat stdout.txt
           test "$(wc -l < replay.jsonl)" -eq 12
-          diff -u 00L_A11_TRAZAS_EJECUTADAS.jsonl replay.jsonl
-          sha256sum verify_paired_symbolic.py 00L_A10_PARES_CONTROLADOS.json 00L_A11_TRAZAS_EJECUTADAS.jsonl replay.jsonl | tee SHA256SUMS.txt
+          diff -u 00L_A14_TRAZAS_CORREGIDAS.jsonl replay.jsonl
+          sha256sum verify_paired_symbolic.py 00L_A10_PARES_CONTROLADOS.json 00L_A14_TRAZAS_CORREGIDAS.jsonl replay.jsonl | tee SHA256SUMS.txt
       - name: Preserve replay outputs and hashes
         if: always()
         uses: actions/upload-artifact@v4

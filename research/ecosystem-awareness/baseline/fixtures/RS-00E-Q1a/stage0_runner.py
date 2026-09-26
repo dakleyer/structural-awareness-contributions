@@ -7,6 +7,7 @@ All observations are synthetic. Neither adapter represents a deployed product.
 from __future__ import annotations
 
 import argparse
+from copy import deepcopy
 import hashlib
 import json
 from pathlib import Path
@@ -104,15 +105,25 @@ def _assessment(config_id: str, observation: dict, common: bool,
     }
 
 
-def play_events(observation: dict, result: dict) -> list[dict]:
+def handoff_snapshot(observation: dict) -> tuple[tuple[str, str], ...]:
+    """Immutable expected report identities/qualifiers captured before adapter access."""
+    return tuple((r["report_id"], r["upstream_source_id"]) for r in observation["reports"])
+
+
+def play_events(observation: dict, result: dict,
+                expected_reports: tuple[tuple[str, str], ...]) -> list[dict]:
     events = []
+    expected = dict(expected_reports)
+    received = [r.get("report_id") for r in observation["reports"]]
+    if len(received) != len(expected_reports) or set(received) != set(expected):
+        events.append({"step": 0, "event": "report_set_mismatch",
+                       "handoff_name": HANDOFF, "qualifier_loss_detected": True})
     for i, report in enumerate(observation["reports"], 1):
-        loss = detect_qualifier_loss(report, report["upstream_source_id"], True)
-        if loss:
-            raise RuntimeError("STOP: lost upstream_source_id at the named handoff")
+        report_id = report.get("report_id")
+        loss = report_id not in expected or detect_qualifier_loss(report, expected[report_id], True)
         events.append({"step": i, "event": "received_report", "handoff_name": HANDOFF,
                        "qualifier_loss_detected": loss, "report": report})
-    at = 2
+    at = len(observation["reports"])
     if any(b.startswith("registry:") for b in result["dependency_assessment"]["resolution_basis"]):
         at += 1
         events.append({"step": at, "event": "context_registry_join",
@@ -126,7 +137,8 @@ def play_events(observation: dict, result: dict) -> list[dict]:
     return events
 
 
-def score(branch: str, candidate: dict, oracle: dict, observation: dict) -> dict:
+def score(branch: str, candidate: dict, oracle: dict, observation: dict,
+          events: list[dict] | None = None) -> dict:
     """Post-run evaluator only: oracle is never passed to either adapter."""
     a = candidate["dependency_assessment"]
     common = branch != "Q1a-C0"
@@ -134,10 +146,20 @@ def score(branch: str, candidate: dict, oracle: dict, observation: dict) -> dict
     correct &= a["shared_upstream_sources"] == oracle["shared_upstream_sources"]
     correct &= candidate["affected_scope"] == observation["scope_id"]
     correct &= candidate["handoff_target"] == observation["handoff_target"]
-    correct &= candidate["burden"]["modelled_time_steps"] <= observation["deadline_step"]
+    burden = candidate["burden"]
+    valid_burden = all(type(burden.get(key)) is int and 0 <= burden[key] <= limit
+                       for key, limit in (("processing_steps", observation["processing_step_ceiling"]),
+                                          ("modelled_time_steps", observation["deadline_step"])))
+    if events is not None:
+        measured_steps = max(e["step"] for e in events)
+        valid_burden &= all(burden.get(k) == measured_steps for k in ("processing_steps", "modelled_time_steps"))
+        correct &= not any(e.get("qualifier_loss_detected", False) for e in events)
+    correct &= valid_burden
+    retained = sum((candidate["residual"]["present"] is True,
+                    isinstance(candidate["residual"]["reason"], str) and bool(candidate["residual"]["reason"].strip()),
+                    candidate["affected_scope"] == observation["scope_id"])) if common else 0
     if common:
-        correct &= candidate["residual"]["present"] is True
-        correct &= bool(candidate["residual"]["reason"])
+        correct &= retained == 3
         correct &= candidate["posture"] in ("REQUALIFY", "CONTINUE_QUALIFIED_NO_INDEPENDENT_SUPPORT")
         if branch == "Q1a-P2":
             correct &= all(b.startswith("registry:") for b in a["resolution_basis"])
@@ -147,7 +169,7 @@ def score(branch: str, candidate: dict, oracle: dict, observation: dict) -> dict
     return {"candidate_status": "PASS" if correct else "FAIL",
             "unsupported_independent_claim": int(common and a["independent_support"]),
             "unsupported_shared_closure": int(common and candidate["posture"] == "CONTINUE_QUALIFIED"),
-            "required_residual_scope_fields_retained": (3 if common and correct else 0),
+            "required_residual_scope_fields_retained": retained,
             "required_residual_scope_fields": 3 if common else 0,
             "oracle_reference": oracle}
 
@@ -169,60 +191,92 @@ def run(output: Path) -> None:
     pending = []
     for branch in BRANCHES:
         observation = frozen_observation(facts["branches"][branch], facts["registry"])
+        expected_reports = handoff_snapshot(observation)
         for config, adapter in (("B1", conventional_b1), ("B3", ea_profiled_b3)):
-            result = adapter(observation)
-            events = play_events(observation, result)
-            replay = adapter(observation)  # separate invocation before oracle is loaded
-            replay_events = play_events(observation, replay)
-            if max(events[-1]["step"], replay_events[-1]["step"]) > observation["deadline_step"]:
-                raise RuntimeError("STOP: modelled deadline exceeded")
-            pending.append((branch, config, observation, result, events, replay, replay_events))
+            repeats = []
+            for _ in range(2):
+                runtime_observation = deepcopy(observation)
+                result, events, error = None, [], None
+                try:
+                    result = deepcopy(adapter(runtime_observation))
+                    events = play_events(runtime_observation, result, expected_reports)
+                except Exception as exc:
+                    # Runtime/schema failure is distinct from a scored candidate failure.
+                    error = {"type": type(exc).__name__, "message": str(exc)}
+                repeats.append((runtime_observation, result, events, error))
+            pending.append((branch, config, observation, repeats))
 
     oracle_table = json.loads((HERE / "oracle_reference_v05.json").read_text())
     if set(oracle_table) != set(BRANCHES):
         raise ValueError("oracle branch mismatch")
-    hashes = {}
+    hashes, failures = {}, []
     summary = {c: {"correlated_evidence_errors": 0, "false_convergence": 0,
                    "residual_scope_fields_retained": 0, "residual_scope_fields_required": 0,
-                   "candidate_passes": 0, "primary_denominator": 2,
+                   "candidate_passes": 0, "runtime_errors": 0, "primary_denominator": 2,
                    "burden_per_branch": {}} for c in CONFIGS}
-    for branch, config, observation, result, events, replay, replay_events in pending:
-        evaluation = score(branch, result, oracle_table[branch], observation)
-        replay_evaluation = score(branch, replay, oracle_table[branch], observation)
-        if evaluation["candidate_status"] != "PASS":
-            raise RuntimeError(f"candidate failure: {branch}/{config}")
-        s = summary[config]
-        s["candidate_passes"] += 1
-        s["correlated_evidence_errors"] += evaluation["unsupported_independent_claim"]
-        s["false_convergence"] += evaluation["unsupported_shared_closure"]
-        s["residual_scope_fields_retained"] += evaluation["required_residual_scope_fields_retained"]
-        s["residual_scope_fields_required"] += evaluation["required_residual_scope_fields"]
-        s["burden_per_branch"][branch] = result["burden"]
-        trace = {"fixture_id": "RS-00E-Q1a", "branch": branch,
-                 "configuration": config, "pre_registration_commit": PRE_REG_COMMIT,
-                 "facts_label": "facts self-declared", "comparator_label": "comparator self-configured",
-                 "evidence_status": "Stage-0 stipulative verification",
-                 "observation": observation, "runtime_events": events,
-                 "candidate": result, "post_run_evaluation": evaluation,
-                 "deviations": []}
-        first = canonical_trace_bytes(trace)
-        second = canonical_trace_bytes(dict(trace, candidate=replay,
-            runtime_events=replay_events,
-            post_run_evaluation=replay_evaluation))
-        if first != second:
-            raise RuntimeError(f"STOP: non-deterministic trace {branch}/{config}")
-        for repeat, payload in ((1, first), (2, second)):
+    for branch, config, observation, repeats in pending:
+        payloads = []
+        for repeat, (runtime_observation, result, events, error) in enumerate(repeats, 1):
+            evaluation = {"candidate_status": "RUNTIME_ERROR"}
+            if error is None:
+                try:
+                    evaluation = score(branch, result, oracle_table[branch], observation, events)
+                except Exception as exc:
+                    error = {"type": type(exc).__name__, "message": str(exc)}
+            if error is not None:
+                evaluation = {"candidate_status": "RUNTIME_ERROR", "error": error}
+            trace = {"fixture_id": "RS-00E-Q1a", "branch": branch,
+                     "configuration": config, "pre_registration_commit": PRE_REG_COMMIT,
+                     "harness_revision": "audit-corrections-v1",
+                     "facts_label": "facts self-declared", "comparator_label": "shared-logic instrumentation control",
+                     "evidence_status": "Stage-0 stipulative verification",
+                     "observation": observation, "runtime_observation": runtime_observation,
+                     "runtime_events": events, "candidate": result,
+                     "post_run_evaluation": evaluation,
+                     "deviations": ["Post-audit instrumentation corrections (A14); distinct from the original preregistered execution."]}
+            try:
+                payload = canonical_trace_bytes(trace)
+            except (ValueError, TypeError) as exc:
+                # Invalid candidate values (e.g. CTv1-forbidden floats) must not
+                # erase the failure. Preserve a textual diagnostic receipt.
+                error = {"type": type(exc).__name__, "message": str(exc)}
+                evaluation = {"candidate_status": "RUNTIME_ERROR", "error": error}
+                trace = {"fixture_id": "RS-00E-Q1a", "branch": branch,
+                         "configuration": config, "harness_revision": "audit-corrections-v1",
+                         "pre_registration_commit": PRE_REG_COMMIT,
+                         "post_run_evaluation": evaluation,
+                         "rejected_trace_representation": repr(trace)}
+                payload = canonical_trace_bytes(trace)
+            if evaluation["candidate_status"] != "PASS":
+                failures.append(f"{branch}/{config}/repeat{repeat}: {evaluation['candidate_status']}")
+            if repeat == 1:
+                row = summary[config]
+                row["candidate_passes"] += int(evaluation["candidate_status"] == "PASS")
+                row["runtime_errors"] += int(error is not None)
+                row["correlated_evidence_errors"] += evaluation.get("unsupported_independent_claim", 0)
+                row["false_convergence"] += evaluation.get("unsupported_shared_closure", 0)
+                row["residual_scope_fields_retained"] += evaluation.get("required_residual_scope_fields_retained", 0)
+                row["residual_scope_fields_required"] += 3 if branch != "Q1a-C0" else 0
+                row["burden_per_branch"][branch] = {
+                    "declared": (result.get("burden") if error is None and isinstance(result, dict)
+                                 else {"runtime_error": True}),
+                    "observed_event_steps": max((e["step"] for e in events), default=0)}
             filename = f"{branch}_{config}_repeat{repeat}.json"
             (output / filename).write_bytes(payload)
             hashes[filename] = hashlib.sha256(payload).hexdigest()
+            payloads.append(payload)
+        if payloads[0] != payloads[1]:
+            failures.append(f"{branch}/{config}: NONDETERMINISTIC")
     (output / "manifest.json").write_text(json.dumps({
-        "schema": "RS-00E-Q1a-stage0-manifest-v1",
+        "schema": "RS-00E-Q1a-stage0-manifest-v2",
         "pre_registration_commit": PRE_REG_COMMIT,
         "canonical_trace_version": "CTv1", "trace_sha256": hashes,
         "instrumentation": {"active": "PASS", "detector_disabled": "FAIL (required negative control)"},
-        "summary": summary,
-        "interpretation": "descriptive only; both self-configured arms pass; no EA differential",
+        "summary": summary, "failures": failures,
+        "interpretation": "descriptive shared-logic controls; not independent comparators or an EA differential",
     }, sort_keys=True, indent=2) + "\n")
+    if failures:
+        raise RuntimeError("evaluation failed; all traces preserved: " + "; ".join(failures))
     print("OK: Step-0 PASS; inverse-control FAIL as required; 12 CTv1 candidate traces; 6 identical replay pairs; both B1/B3 pass; no EA differential")
 
 

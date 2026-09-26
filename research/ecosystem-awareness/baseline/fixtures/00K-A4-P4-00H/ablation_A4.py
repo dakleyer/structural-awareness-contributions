@@ -95,10 +95,12 @@ def check_P1_evidence_sufficiency(finding: Finding) -> bool:
     )
 
 
-def check_P5_leaf_revalidation(actions: list[LeafAction], at_time: datetime = NOW) -> bool:
+def check_P5_leaf_revalidation(actions: list[LeafAction], at_time: datetime | None = None) -> bool:
     """P5 / S10: re-check each leaf grant immediately before use.
+    Uses each action timestamp unless an explicit evaluation time is supplied.
     Returns True only if every leaf grant is still individually current."""
-    return all(a.grant.expiry > at_time and a.amount <= a.grant.cap_amount for a in actions)
+    return all(a.grant.expiry > (a.timestamp if at_time is None else at_time)
+               and 0 <= a.amount <= a.grant.cap_amount for a in actions)
 
 
 def detect_composition_P6(actions: list[LeafAction]) -> Optional[str]:
@@ -119,18 +121,25 @@ def check_P4_root_leaf_authority(
     actually covers this campaign_ref? This is the invariant that is
     removed in the ablated system below."""
     root = registry.get(campaign_ref)
-    return root is not None and root.valid and root.expiry > at_time
+    return (root is not None and root.campaign_ref == campaign_ref
+            and root.valid and root.expiry > at_time)
 
 
 def native_rate_cap_check(actions: list[LeafAction], max_per_hour: int) -> bool:
     """A realistic, commonly-deployed native control: block if more than
     N actions occur within a one-hour window. Says nothing about
     authorization -- only about volume and timing."""
-    if not actions:
-        return True
-    window_start = min(a.timestamp for a in actions)
-    in_window = [a for a in actions if a.timestamp <= window_start + timedelta(hours=1)]
-    return len(in_window) <= max_per_hour
+    if type(max_per_hour) is not int or max_per_hour < 0:
+        raise ValueError("max_per_hour must be a nonnegative integer")
+    times = sorted(a.timestamp for a in actions)
+    left = 0
+    for right, timestamp in enumerate(times):
+        # Half-open rolling windows [t, t + 1 hour): exact-hour boundary exits.
+        while timestamp - times[left] >= timedelta(hours=1):
+            left += 1
+        if right - left + 1 > max_per_hour:
+            return False
+    return True
 
 
 # ---------------------------------------------------------------------------
@@ -145,18 +154,17 @@ def route_q_decision(
     if not check_P1_evidence_sufficiency(finding):
         return Disposition.DBC_DENY  # not material; nothing to preserve or act on
 
-    campaign_ref = detect_composition_P6(actions)
-
-    if campaign_ref is None:
-        # Branch I: genuinely independent cases, each within its own mandate.
-        if check_P5_leaf_revalidation(actions):
-            return Disposition.DBC_EXECUTE
+    if not check_P5_leaf_revalidation(actions):
         return Disposition.DBC_REPOSITION_RECONTRACT
-
-    # A common-root campaign is present (Branch U or Branch G).
-    if check_P4_root_leaf_authority(campaign_ref, registry) and check_P5_leaf_revalidation(actions):
-        return Disposition.DBC_EXECUTE  # Branch G: genuinely authorized -- proceeds
-    return Disposition.DBC_REPOSITION_RECONTRACT  # Branch U: preserved, not executed, not discarded
+    # Validate every tagged action, including all groups in a mixed batch.
+    # None denotes stipulated independent Branch-I cases in this toy fixture;
+    # it is not a real-world inference of independence from missing metadata.
+    for action in actions:
+        ref = action.grant.campaign_ref
+        if ref is not None and (not ref or not check_P4_root_leaf_authority(
+                ref, registry, at_time=action.timestamp)):
+            return Disposition.DBC_REPOSITION_RECONTRACT
+    return Disposition.DBC_EXECUTE
 
 
 # ---------------------------------------------------------------------------

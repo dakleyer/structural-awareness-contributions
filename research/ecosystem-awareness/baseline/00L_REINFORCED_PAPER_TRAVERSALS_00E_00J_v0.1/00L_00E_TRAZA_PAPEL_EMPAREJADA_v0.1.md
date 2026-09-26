@@ -1,5 +1,7 @@
 # 00L-00E — Traza de papel emparejada: síntesis bajo capacidad finita
 
+> **Estado tras auditoría:** Se corrigen la pérdida de qualifiers, la conservación de fallos y las métricas de Stage-0. En el microfixture corto, fin de stream sustituye la etiqueta incorrecta de agotamiento; no acredita ventaja de eficiencia. [Correcciones A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md); las tablas de papel conservadas no sustituyen las nuevas trazas de ejecución.
+
 **Base:** 00E v0.1, 00E-A01 v0.2 y 00E-A02 v0.2. **Estado:** traza calculada en papel sobre hechos sintéticos; no ejecución de Agent 365, LangGraph/LangSmith ni EA.
 
 ## Ficha congelada

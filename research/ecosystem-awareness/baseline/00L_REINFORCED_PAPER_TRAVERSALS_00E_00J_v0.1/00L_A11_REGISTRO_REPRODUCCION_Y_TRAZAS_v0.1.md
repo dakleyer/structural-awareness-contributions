@@ -1,5 +1,7 @@
 # 00L-A11 — Registro de reproducción y trazas de las parejas
 
+> **Reproducción actual:** [A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y [trazas corregidas](./00L_A14_TRAZAS_CORREGIDAS.jsonl) sustituyen la salida esperada del runner actual. Las trazas A11 y sus hashes se conservan como registro histórico. En 00E, el fin del stream de tres pasos no es agotamiento de capacidad seis; los brazos se puntúan por separado y los desacuerdos se guardan.
+
 **Alcance:** seis parejas simbólicas acotadas de A10, sobre hechos sintéticos. [Las 12 trazas JSONL](./00L_A11_TRAZAS_EJECUTADAS.jsonl) contienen `case`, `branch`, `factor`, la observación entregada, las tres disposiciones, el resultado esperado y el número de mutaciones omitidas/nulas rechazadas por el verificador 00L. `expected` entra en el registro **después** de `evaluate()`; no se transmite a ninguna función 00K. Los eventos internos de los seis escenarios completos y las plataformas reales no se ejecutaron.
 
 ## Reproducción exacta

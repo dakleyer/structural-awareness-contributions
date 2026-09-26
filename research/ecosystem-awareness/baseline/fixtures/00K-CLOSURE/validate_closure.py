@@ -21,6 +21,28 @@ M = json.loads((HERE / "closure_manifest.json").read_text(encoding="utf-8"))
 
 EXPECTED_P = {f"P{i}" for i in range(1, 7)}
 EXPECTED_S = {f"S{i}" for i in range(1, 15)}
+# Frozen from the audited manifest: a versioned syntax contract, not a semantic proof.
+EXPECTED_ATOMS = {'QUALIFY': ('authority', 'preference', 'identity', 'evidence', 'policy'),
+ 'ESCALATE': ('frame', 'human', 'unresolved', 'commitment'),
+ 'CONTAIN': ('unresolved',),
+ 'HANDOFF': ('authority',
+             'preference',
+             'identity',
+             'human',
+             'evidence',
+             'policy',
+             'commitment',
+             'history',
+             'frame',
+             'unresolved',
+             'multi_principal'),
+ 'BIND': ('identity',),
+ 'DELEGATE': ('authority',),
+ 'COMPOSE': ('multi_principal', 'authority', 'preference', 'policy', 'evidence'),
+ 'SHIFT': ('frame', 'commitment', 'policy', 'authority', 'evidence'),
+ 'INTERVENE': ('human', 'authority', 'history'),
+ 'REPAIR': ('history', 'evidence', 'authority'),
+ 'ASSESS': ('evidence',)}
 
 
 def main() -> int:
@@ -73,6 +95,7 @@ def main() -> int:
     assert covered_p == EXPECTED_P, ("uncovered principles", EXPECTED_P - covered_p)
 
     admitted_atoms = M["requirement_language"]["admitted_atoms"]
+    assert {op: tuple(objs) for op, objs in admitted_atoms.items()} == EXPECTED_ATOMS, "admitted atom contract changed"
     missing_pairs = []
     pair_total = 0
     for op, objs in admitted_atoms.items():

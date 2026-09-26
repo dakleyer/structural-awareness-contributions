@@ -1,5 +1,7 @@
 # Structural Awareness Programme
 
+> **Evidence correction — 26 September 2026:** [A14](./research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) records corrected handoff checks, failure traces, metrics, authority/time boundaries and input validation: 379 existing regressions and 77 separate correction checks pass locally. Shared-logic peers remain instrumentation controls; the A22 semantic bridge and A23 fidelity obligations remain open. [Cumulative article/README record A12](./research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
+
 [![Licence: CC BY-SA 4.0](https://img.shields.io/badge/licence-CC%20BY--SA%204.0-lightgrey)](./LICENSE.md)
 [![Status: working proposal](https://img.shields.io/badge/status-working%20proposal-blue)](./governance/CLAIM_BOUNDARIES.md)
 [![Validation: comparative execution pending](https://img.shields.io/badge/validation-comparative%20execution%20pending-orange)](./research/ecosystem-awareness/README.md#benchmark--what-is-being-compared)

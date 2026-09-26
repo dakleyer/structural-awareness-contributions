@@ -1,5 +1,7 @@
 # 00L-A12 — Registro de mejoras para el artículo y el README
 
+> **Correcciones de auditoría — 26/09/2026:** [A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y §11 registran las correcciones de código ya verificadas, las nuevas trazas y los límites que siguen abiertos. La nota de auditoría siguiente describe el estado anterior a esta entrega.
+
 > **Actualización de auditoría — 26/09/2026:** consultar [A13](./00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) y §10 antes de reutilizar las conclusiones históricas. El empate usa lógica compartida y no acredita equivalencia entre arquitecturas independientes. Se han reproducido nuevos defectos de instrumentación, evaluación y cobertura; las implementaciones siguen pendientes de corrección.
 
 **Estado actual: integrado en `main` mediante PR #1, merge `59ca3c4`, el 26/09/2026 Europe/Madrid. Artículo guardado como versión 4.** Consultar §8 y §8.1 para armonización, evidencia y pendientes. Los cortes anteriores se conservan como historial; no describen automáticamente el estado actual del PR o del artículo.
@@ -199,3 +201,17 @@ El usuario volvió a facilitar el artículo original y pidió incorporar **todo 
 **Artículo recibido:** `When_the_Controls_Work_but_the_System_Fails_revisado.docx`, SHA-256 `9628884ea0e5117478a734aaca156e8bb02e56a56dd86d3bc018e6a0b4bddf73`. No se sustituyó por ninguna de las ediciones anteriores ni se editó. A13 §7 propone los cambios concretos de alcance que debe recibir tras esta auditoría.
 
 **Estado de cierre:** auditoría y contraejemplos documentados; **correcciones de implementación pendientes** según A13 §8. Se conservan todos los registros anteriores como históricos. Esta entrada corrige sus interpretaciones excesivas, no borra resultados ni pretende que el código haya sido reparado. El commit de esta fase añade únicamente el informe, evidencia de auditoría y esta actualización de A12.
+
+## 11. Correcciones aplicadas tras A13 — 26/09/2026
+
+**Entrega acumulativa:** [A14 — detalle de las 20 observaciones y su estado](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md). Se corrigen 18 comportamientos de implementación/validación; A22/A23 reciben aclaraciones de alcance, sin dar por resueltas sus obligaciones semánticas. Las secciones 1–10 y los registros anteriores se conservan.
+
+**Evidencia actual:** [77 pruebas adicionales](../fixtures/00K-AUDIT-CORRECTIONS/test_audit_corrections.py), [comparación con el código anterior](../fixtures/00K-AUDIT-CORRECTIONS/before_results.json), [ejecución, comandos y hashes](../fixtures/00K-AUDIT-CORRECTIONS/results.json), [reproductor](../fixtures/00K-AUDIT-CORRECTIONS/reproduce.py), [trazas 00L corregidas](./00L_A14_TRAZAS_CORREGIDAS.jsonl), [Stage-0 corregido](../fixtures/RS-00E-Q1a/runs/stage0_audit_corrections_v1/manifest.json). Las 379 regresiones previas permanecen sin modificar y pasan; los 77 tests nuevos pasan por separado. La corrección se enlaza desde cada original 00E–00J, los README y los documentos formales afectados.
+
+**Cambios de interpretación que deben trasladarse:** el empate entre brazos con lógica compartida no es evidencia de equivalencia entre arquitecturas independientes; 00E corto muestra fin de stream, no agotamiento de capacidad; las métricas cuentan campos/eventos; A22 sigue pendiente de puente al sustrato completo y A23 solo ofrece resultados finitos parciales. La mejora de instrumentación no amplía automáticamente el alcance científico de los experimentos.
+
+**Texto para la siguiente edición quirúrgica del artículo (inglés):**
+
+> A subsequent adversarial audit led to corrections in handoff instrumentation, failure-trace retention, per-field residual metrics, symbolic budget validation, mixed-campaign authority checks, action-time validity and input validation. The original 379 symbolic regression assertions still pass, alongside 77 additional correction checks. The paired replay now scores each arm against the declared expected disposition and retains disagreement traces. Its short negative 00E stream ends before capacity is exhausted, so that microfixture does not establish resource exhaustion or an efficiency advantage. Shared-logic peers remain instrumentation controls rather than independent architectural comparators. The 64-signature A22 result remains confined to its simplified executable model pending a bridge to the full background theory; A23 remains a partial finite projection with unresolved semantic obligations.
+
+Referencias que deben acompañar ese párrafo: [A13](./00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md), [A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) y [resultados reproducibles](../fixtures/00K-AUDIT-CORRECTIONS/README.md). El Word revisado sigue pendiente de incorporar este párrafo y sus vínculos; no se declara actualizado sin editar y verificar su archivo.

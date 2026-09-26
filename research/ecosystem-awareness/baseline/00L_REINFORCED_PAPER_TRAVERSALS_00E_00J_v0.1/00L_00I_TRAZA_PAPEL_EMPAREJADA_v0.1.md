@@ -1,5 +1,7 @@
 # 00L-00I — Traza de papel emparejada
 
+> **Estado tras auditoría:** El kernel transversal P5 rechaza campos materiales ausentes/nulos y diferencias de tipo; la evaluación emparejada conserva desacuerdos. La atomicidad check→act y V11 siguen pendientes. [Correcciones A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md); las tablas de papel conservadas no sustituyen las nuevas trazas de ejecución.
+
 **Fuente de hechos:** 00I v0.5 Freeze Edition y su perfil AWS Step Functions/RDS. **Estado:** cálculo en papel; no ejecución de AWS ni de EA.
 
 ## Ficha congelada para este cálculo
