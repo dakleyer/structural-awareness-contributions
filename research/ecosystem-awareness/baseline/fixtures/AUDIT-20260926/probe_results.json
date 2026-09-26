@@ -1,0 +1,198 @@
+{
+  "audited_commit": "8f17843c568114f31cc0ad486b4a1303396021e6",
+  "probe_count": 20,
+  "results": [
+    {
+      "id": "STAGE-HOOK",
+      "observation": {
+        "injected": "P -> CORRUPTED after adapter assessment, before event playback",
+        "hook_detected": false,
+        "score": "PASS"
+      }
+    },
+    {
+      "id": "STAGE-METRIC",
+      "observation": {
+        "only_change": "posture becomes HOLD; residual and scope unchanged",
+        "reported_retained": 0,
+        "denominator": 3
+      }
+    },
+    {
+      "id": "STAGE-BURDEN",
+      "observation": {
+        "injected": {
+          "processing_steps": 999,
+          "modelled_time_steps": -1
+        },
+        "candidate_status": "PASS"
+      }
+    },
+    {
+      "id": "STAGE-FAILURE-LOSS",
+      "observation": {
+        "error": "candidate failure: Q1a-P1/B1",
+        "preserved_files": [
+          "step0_active.json",
+          "step0_detector_disabled.json"
+        ],
+        "candidate_failure_trace_saved": false
+      }
+    },
+    {
+      "id": "00L-TYPE",
+      "observation": {
+        "resolves_at_step_3": "false (string)",
+        "preflight": "accepted",
+        "route": "EXECUTE"
+      }
+    },
+    {
+      "id": "00L-PEER-DIVERGES",
+      "observation": {
+        "last_root": "",
+        "route": "REQUALIFY",
+        "strong_peer": "TRANSITION_FRAME"
+      }
+    },
+    {
+      "id": "00L-AGREEMENT-GATE",
+      "observation": {
+        "assertion": "strong_peer == route",
+        "consequence": "divergence aborts verify before final trace_jsonl write"
+      }
+    },
+    {
+      "id": "A2-SHORT-STREAM",
+      "observation": {
+        "stream_length": 3,
+        "hard_capacity": 6,
+        "useful_horizon": 6,
+        "weak_result": "RESOURCE_EXHAUSTED",
+        "explicit_steps_available": 3
+      }
+    },
+    {
+      "id": "A4-MIXED-ROOTS",
+      "observation": {
+        "before": [
+          "X",
+          "X"
+        ],
+        "after": [
+          "X",
+          "X",
+          "Y"
+        ],
+        "registry": {},
+        "before_result": "DBC_REPOSITION_RECONTRACT",
+        "after_result": "DBC_EXECUTE",
+        "strong_peer": "DBC_EXECUTE"
+      }
+    },
+    {
+      "id": "A4-ROOT-SCOPE",
+      "observation": {
+        "lookup_key": "X",
+        "root_campaign_ref": "OTHER",
+        "result": "DBC_EXECUTE",
+        "boundary": "registry integrity assumed, not validated"
+      }
+    },
+    {
+      "id": "A4-TIME",
+      "observation": {
+        "expiry_seconds_after_NOW": 1,
+        "actuation_seconds_after_NOW": 2,
+        "route_result": "DBC_EXECUTE",
+        "explicit_at_action_check": false
+      }
+    },
+    {
+      "id": "A4-RATE-WINDOW",
+      "observation": {
+        "first_hour_count": 1,
+        "later_hour_count": 11,
+        "max_per_hour": 10,
+        "check_passed": true
+      }
+    },
+    {
+      "id": "A6-PEER-SCOPE",
+      "observation": {
+        "authority_target": "OTHER",
+        "route": "PRESERVE_CURRENT_FRAME",
+        "peer": "TRANSITION_FRAME"
+      }
+    },
+    {
+      "id": "A6-GRAPH-QUALIFICATION",
+      "observation": {
+        "all_claims_unsigned_stale_low_confidence": true,
+        "peer": "TRANSITION",
+        "boundary": "dependency-only function; not a complete conforming route"
+      }
+    },
+    {
+      "id": "CROSS-P5-MISSING",
+      "observation": {
+        "qualified": {},
+        "current": {},
+        "required": [
+          "freeze_active"
+        ],
+        "current_basis": true,
+        "null_null_also_true": true
+      }
+    },
+    {
+      "id": "CROSS-P2-NEGATIVE-BUDGET",
+      "observation": {
+        "budget": -1,
+        "stream": [
+          true,
+          false
+        ],
+        "result": "RESOLVED",
+        "boundary": "invalid input not guarded"
+      }
+    },
+    {
+      "id": "A23-DISTRIBUTED-SHORTCUT-LIMIT",
+      "observation": {
+        "each_clause_passes_guard": true,
+        "conjunction_equals_target": true,
+        "interpretation": "guard is clause-local; source fidelity still requires semantic review, not a new disproof of finite implication"
+      }
+    },
+    {
+      "id": "A22-COHERENCE-BRIDGE",
+      "observation": {
+        "records_identical": true,
+        "changed_input": "Inquiry.material_to_action",
+        "P3_before": true,
+        "P3_after": false,
+        "conflict_relation_represented": false,
+        "inquiry_graph_represented": false,
+        "interpretation": "64 signatures reproduce in simplified model; no executable check of A20 B8 derived conflict or the stated background theory"
+      }
+    },
+    {
+      "id": "TRACE-LABEL-CHECK",
+      "observation": {
+        "all_scenario_labels": "NOT_THE_SCENARIO",
+        "validator": "PASS",
+        "boundary": "path/graph integrity only"
+      }
+    },
+    {
+      "id": "CLOSURE-EMPTY-ATOMS",
+      "observation": {
+        "admitted_atoms": {},
+        "validator": "PASS",
+        "coverage": "0/0",
+        "boundary": "no lock on expected atom set"
+      }
+    }
+  ]
+}

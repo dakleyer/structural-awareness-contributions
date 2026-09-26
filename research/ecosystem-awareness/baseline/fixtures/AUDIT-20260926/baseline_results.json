@@ -1,0 +1,507 @@
+{
+  "audited_commit": "8f17843c568114f31cc0ad486b4a1303396021e6",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "results": [
+    {
+      "label": "00K-A1-P1-00J",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "3641422aa2bc781773ab9cb3b86571a4f92e1f7be6d44d25eec6e1d99d77b7a2",
+      "output_tail": "..........................................                               [100%]\n42 passed in 0.06s\n"
+    },
+    {
+      "label": "00K-A2-P2-00E",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "dbb823dc3d5acf14e9918bc21c6875ddc7c4447312ef1f5a232f19dcce9680de",
+      "output_tail": "..........................................................               [100%]\n58 passed in 0.06s\n"
+    },
+    {
+      "label": "00K-A3-P3-00F",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "a89176cee4d64eb9cae01adb7f8545df182abf83747cbf05bd6936b8524fbc85",
+      "output_tail": ".................................................                        [100%]\n49 passed in 0.07s\n"
+    },
+    {
+      "label": "00K-A4-P4-00H",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "1f72903ce37366e9d83d382654b27f1845409e8a77dc56e122afd82c6464c5d7",
+      "output_tail": "........................................................................ [ 94%]\n....                                                                     [100%]\n76 passed in 0.28s\n"
+    },
+    {
+      "label": "00K-A4-P4-00H-v0.2",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H-v0.2",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 5,
+      "output_sha256": "a6fc53a5cef0fe8278c459c532a5e372bbe2dd65e4c365a7d7757a210299799f",
+      "output_tail": "\nno tests ran in 0.00s\n",
+      "interpretation": "Archive-only directory; no loose tests. Extracted ZIP checked separately below; exit 5 is not a fixture test failure."
+    },
+    {
+      "label": "00K-A5-P5-00I",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "8770e451ce4d5834ff31a746329ac1dc370b4bd953533d0f3a3e4a43efb14eee",
+      "output_tail": "...............................................                          [100%]\n47 passed in 0.06s\n"
+    },
+    {
+      "label": "00K-A6-P6-00G",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "157ce830f771d8f5f5c402fc58c93608c6194334cc2f4975243f9b8ee87ebf04",
+      "output_tail": "........................................................................ [ 97%]\n..                                                                       [100%]\n74 passed in 0.07s\n"
+    },
+    {
+      "label": "00K-A6a-P6-00G",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-A6a-P6-00G",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "4c78d91fecebd9ff2601366b209fedef5a34c74b72f29aadd727b0d4e4957970",
+      "output_tail": "..........                                                               [100%]\n10 passed in 0.02s\n"
+    },
+    {
+      "label": "00K-A6b-P6-00F",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-A6b-P6-00F",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "bb694b324b4319c91905d69899df9d978b64574c7f7a4facbb9d0c4f432e021b",
+      "output_tail": "...........                                                              [100%]\n11 passed in 0.02s\n"
+    },
+    {
+      "label": "00K-cross-scenario-independent",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "468e689e139b7e68ec038b0c54b35b37f60c211560f04d323bfedafe3d5c6b74",
+      "output_tail": "............                                                             [100%]\n12 passed in 0.02s\n"
+    },
+    {
+      "label": "historical-A1-00J",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A1-00J",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "bb694b324b4319c91905d69899df9d978b64574c7f7a4facbb9d0c4f432e021b",
+      "output_tail": "...........                                                              [100%]\n11 passed in 0.02s\n"
+    },
+    {
+      "label": "historical-A2-00E",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A2-00E",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "bb694b324b4319c91905d69899df9d978b64574c7f7a4facbb9d0c4f432e021b",
+      "output_tail": "...........                                                              [100%]\n11 passed in 0.02s\n"
+    },
+    {
+      "label": "historical-A3-00F",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A3-00F",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "f95bc839fff53087f6837dfb5f95e71b0d2ed34d90d0136334c109d14c9dece0",
+      "output_tail": "..........                                                               [100%]\n10 passed in 0.01s\n"
+    },
+    {
+      "label": "manifest",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE",
+      "command": [
+        "python",
+        "validate_manifest.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "51a97d42482ca8e59b04612f6fde4e990569afbe25c1350a32b47e33ce0abfd5",
+      "output_tail": "00K execution-lock manifest: PASS\nprinciples: 6/6\ncore: 346\nsupplemental: 33\ncampaign: 379\n"
+    },
+    {
+      "label": "formal",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL",
+      "command": [
+        "python",
+        "formal_independence_certificate.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "5298997dc99f68458705ce3e94710fc26266fc782c213f1105c7a068b36feaa2",
+      "output_tail": "       P1  P2  P3  P4  P5  P6\n P1:    0   1   1   1   1   1   M1_00J_wrong_proposition\n P2:    1   0   1   1   1   1   M2_00E_unbounded_determination\n P3:    1   1   0   1   1   1   M3_00F_false_closure\n P4:    1   1   1   0   1   1   M4_00H_authority_amplification\n P5:    1   1   1   1   0   1   M5_00I_semantic_toctou\n P6:    1   1   1   1   1   0   M6_00G_hidden_dependency\n\n00K formal relative-independence certificate: PASS (6/6 countermodels)\n"
+    },
+    {
+      "label": "traceability",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-TRACE",
+      "command": [
+        "python",
+        "validate_traceability.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "d909fc0c76f9338e8cc29592cfcb7d353e01475c209f5015b1060528b5a785f5",
+      "output_tail": "00K semantic traceability integrity: PASS\nPrinciples: 6/6\nRequirements: 14/14\nAnchor routes: 6/6\n"
+    },
+    {
+      "label": "closure",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE",
+      "command": [
+        "python",
+        "validate_closure.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "b6e84b617f5ef8d589a2e887e947e059c1dcd9e2cd8c7f8ff8c298d2a4cc6dec",
+      "output_tail": "00K syntactic closure integrity: PASS\nFoundation positions: 4/4\nFoundation types: 3/3\nPrinciple normal forms: 6/6\nRequirement normal forms: 14/14\nRequirement operators covered: 11/11\nRequirement objects covered: 11/11\nAdmitted object/operator atoms covered: 40/40\n"
+    },
+    {
+      "label": "extension",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/CASE-EXTENSION",
+      "command": [
+        "python",
+        "validate_extensibility.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "dd6208d8beb2bd8b8facf6a98d12b5fe8b61e20441944f54c342737167805b6c",
+      "output_tail": "Failure case-study extensibility registry: PASS\nFamilies: 6/6\nA25 admission gates: 7/7\nDirections per family: 3/3\nParent \u2194 profile routes: 6/6\nA25 routes: 6/6\nConformance-transfer sections: 6/6\nSuccess model cases: 6/6\nSuccess extension directions: 3/3 per case\n"
+    },
+    {
+      "label": "full-cube",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output_sha256": "954f417250bffdd30946304971051dd8262572bdcc8278457673209c02f75e36",
+      "output_tail": "t_signature_111011) ... ok\ntest_signature_111100 (test_full_cube.TestFullCube.test_signature_111100) ... ok\ntest_signature_111101 (test_full_cube.TestFullCube.test_signature_111101) ... ok\ntest_signature_111110 (test_full_cube.TestFullCube.test_signature_111110) ... ok\ntest_signature_111111 (test_full_cube.TestFullCube.test_signature_111111) ... ok\n\n----------------------------------------------------------------------\nRan 68 tests in 0.004s\n\nOK\n"
+    },
+    {
+      "label": "A23",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output_sha256": "a49c4f9e21c027ed3cbe63396866e9e03768eabbd0fe6f1426f153cb33cbe4ff",
+      "output_tail": "nal_per_state_bound (test_requirement_sufficiency.TestRequirementSufficiency.test_t3_requires_declared_response_and_conditional_per_state_bound) ... ok\ntest_t4_tracks_horizon_cost_value_and_declared_composition_effects (test_requirement_sufficiency.TestRequirementSufficiency.test_t4_tracks_horizon_cost_value_and_declared_composition_effects) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.133s\n\nOK\n"
+    },
+    {
+      "label": "P5-blind",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/p5-blind-signature",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output_sha256": "bd4a0bf23f9265d67e1156e1a17e6e11a03babde789ed92919969784c3c1de48",
+      "output_tail": "..................                                                       [100%]\n18 passed in 0.02s\n"
+    },
+    {
+      "label": "CTv1",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_canonical_trace_v1.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "a58b4d4605489fdd67d28f47413ae332890dc190e6ab23570ee08dc85c1a0397",
+      "output_tail": "nical_trace_v1.CanonicalTraceV1Tests.test_key_order_does_not_change_bytes) ... ok\ntest_repository_path_is_posix_normalised (test_canonical_trace_v1.CanonicalTraceV1Tests.test_repository_path_is_posix_normalised) ... ok\ntest_semantic_array_order_is_preserved (test_canonical_trace_v1.CanonicalTraceV1Tests.test_semantic_array_order_is_preserved) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "label": "stage0",
+      "working_directory": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a",
+      "command": [
+        "python",
+        "stage0_runner.py",
+        "--output",
+        "<repository>/research/ecosystem-awareness/baseline/fixtures/AUDIT-20260926/stage0-replay"
+      ],
+      "exit_code": 0,
+      "output_sha256": "2be5609b18778e85f832e442f34334f4bbfc3ec92559835a054f675aa4964ebb",
+      "output_tail": "OK: Step-0 PASS; inverse-control FAIL as required; 12 CTv1 candidate traces; 6 identical replay pairs; both B1/B3 pass; no EA differential\n"
+    },
+    {
+      "label": "00L",
+      "working_directory": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1",
+      "command": [
+        "python",
+        "verify_paired_symbolic.py",
+        "--trace-jsonl",
+        "<repository>/research/ecosystem-awareness/baseline/fixtures/AUDIT-20260926/00L-replay.jsonl"
+      ],
+      "exit_code": 0,
+      "output_sha256": "b03a79fbb0b0c5ce6213724858abd328a2706085c1ce267fa69dd7c432e62c87",
+      "output_tail": "\"weak_peer\": \"DBC_EXECUTE\"}}}\n{\"case\": \"00J\", \"factor\": \"proposition_supported\", \"branches\": {\"negative\": {\"route\": \"NO_CONCLUSION\", \"strong_peer\": \"NO_CONCLUSION\", \"weak_peer\": \"ENFORCE_LICENSE\"}, \"positive\": {\"route\": \"ENFORCE_LICENSE\", \"strong_peer\": \"ENFORCE_LICENSE\", \"weak_peer\": \"ENFORCE_LICENSE\"}}}\nOK: 12 symbolic branches; 128 Step-0 drop/null mutations; 00H strict boundary 3/3. Strong peer passes every pair: no EA differential inferred.\n"
+    },
+    {
+      "label": "doc-integrity",
+      "working_directory": ".",
+      "command": [
+        "python",
+        "scripts/check_document_integrity.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "54e595bc0e64fdf672009b60a6b2fdf10a615045f104ef1f7bf497f0b7639e01",
+      "output_tail": "DOCUMENT INTEGRITY: PASS (3195 local routes, 8 architecture sections, 3 decks)\n"
+    }
+  ],
+  "stage0_byte_replay_identical": true,
+  "paired_byte_replay_identical": true,
+  "python_source_inventory": {
+    "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/verify_paired_symbolic.py": "cc52b07e0e84111a87aec5bee306720b08d50ceb7e647b64d7e73787fb94b865",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/ablation_A1.py": "882f1e1e75a507a3218685b14dce4e830462cc1a76fde61796a8824abd128b23",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/p1_strong_repairs.py": "4388b61d90341c4f4c0d80d924fbac8489701de80e03df2e971d354f3c0d912f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/test_ablation_A1.py": "2491640cd71bc300d40acb7e7bb1eb5dde7ba9f5cc7cbbfe2462da031eda836b",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/test_ablation_A1_grid.py": "f71beda09e6d8bacf905024e638d1b8e9212acd2898c500bd0d643a75559320c",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A1-P1-00J/test_ablation_A1_strong_repairs.py": "6e78e2f1fac10ffd9794db4f295444cfb89b60dea62d33911eb841bb3ae36270",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/ablation_A2.py": "4ba7450b4b755452138f4fa6f31432797869c6242953a14094477f24d865d672",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/p2_strong_repairs.py": "86bc7143208e2ff181feb09f228d8b006813bfe9c431a84bcb1e74bdc882b524",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/test_ablation_A2.py": "4652df4969b331e432a5c0e6749e5c3af7c7cdb8ea96f15089892cbeef8aa52c",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/test_ablation_A2_grid.py": "d3e4aec994c72c9ddaffc61dc5e0193dff2a32fc1f4d2f4658e9bbb95fd0ef17",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A2-P2-00E/test_p2_strong_repairs.py": "37e7d8766f3d0d3b2fd4a52e2db23ae9bee2216bbb82a7a0bda5c37d6e4587b7",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/ablation_A3.py": "9224ec46aac84a73ac1e084d8fdeeab61e1051365d4270a06a9ef31b67ccf6a1",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/p3_strong_repairs.py": "1d3144cf83eafe4b47cd11756b15003a7dcc5031584e8f99c97944a3a567303d",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/test_ablation_A3.py": "d8413854bfcea0aec75d7b2a8975e86a9c5206c993ec1398070b501090ec7080",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/test_ablation_A3_grid.py": "995cbb1f5da8cc3f8a6b2f7ea3a7695db683481dc52c1ff069ab3774e9abb865",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A3-P3-00F/test_p3_strong_repairs.py": "731c90d41d44879fb775ef90028df63c3e4e0c60b6de1b5b84b4d82eff5bc2af",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/a2l_strong_peer.py": "a9881be4acb5731f3d704ff4724f9cd0351d516c77b9d301c6fdc2f40e43319f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/ablation_A4.py": "b6693f38371ad180b0c27532323ec9577b71b88ec2a13a0e845067f62adeb39d",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/p4_strong_repairs.py": "0493ea356164eb04168c791e420d62da5578750062b706644f32470f416a42a2",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_ablation_A4.py": "fcc0de21e2b217a9a4771f74e4ffca73604781ac3176458a2d77dccc09b64628",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_ablation_A4_extended.py": "3e5fe2bc14cf73948da1f22e31b597bfdbf7febf6cf3e4218af45ce11120bb12",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_ablation_A4_grid.py": "48f7618792b5c68eacff417e62594d33624685e39ae4557b9f250e40c55121d0",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_ablation_A4_v02_additions.py": "002611335051f9924c1121a8f62404181ffa181e8df6dd56e45a7201c6a1ce53",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H/test_p4_strong_repairs.py": "6cfffa876fc9b2c8eddbbd5160033ef4866a2c25c4b237560716353998d693e7",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/ablation_A5.py": "80d71c73e6afb570205d4ae42b547ac647974eb4986a747cc4783115f5d2bc74",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/p5_serious_repairs.py": "f2098928f3f2be99004b1f3a80e306256d8c8f3d25af72d147686a3fb90020a3",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/p5_strong_peer.py": "72818294dca4eaec35b8f9258999d661cd6c1c0b2b744e15978b64b820ea819f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/test_ablation_A5.py": "2ea3b50684d130c263b5bb59d735ac1f6a7da906c14dfbf3cae1e85bc15613c4",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/test_ablation_A5_grid.py": "fc1dd32540eb25aa239d3f62e6b63c71188c8e623299a35f56f18d38f8b729d7",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I/test_p5_serious_repairs.py": "6dfe5cc0c5448ba79b3b135410c3523cdce8e618aeb6e58f429a0ceb1f66631c",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/ablation_A6.py": "86e9ba5f958e01093a7f504305cb20523034c3f8b6a778aee88798eb14bb27b8",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/p6_serious_repairs.py": "2030dd640077dff501653d321d775415b41df02498e778d70297c6f27fd81cdd",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/test_ablation_A6.py": "73869cb634a35744adb9614d4cc32b941856b4d5b5e72883d4a7c59e9c39a3a6",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/test_ablation_A6_grid.py": "d2c9cc899be45c6f2cd511e392dbb6b981ac7fb90d6ef8615a53f980fe91a49c",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6-P6-00G/test_p6_serious_repairs.py": "055d2d52817d0f6ad1a61b5ea9637451daea983e27d539f0324a0621fb77bf6d",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6a-P6-00G/ablation_A6_00G.py": "dc0f97b2002a2170e33fd60f490b6041d693c4f0c8ae41b1139eb8888c0d78a9",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6a-P6-00G/test_A6_00G.py": "f4756ffd3df57e84d7b8528f75fc2a2ee5dab26c0c55de9c15b47901d32379d0",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6b-P6-00F/ablation_A6b_00F.py": "7dfdfea655683b12a2da1d1308e48c959c7cf34e980400284029ff8c5f11e67f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-A6b-P6-00F/test_A6b_00F.py": "d3177bea83d66e6d5e10897b0088c79c1fc21709d80b26a05951abbf7ed8ef40",
+    "research/ecosystem-awareness/baseline/fixtures/00K-CLOSURE/validate_closure.py": "c7f55624740677fbdd9e72c99f5f3eb06b72f87c99bb85c100d70862a0ed981b",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/formal_independence_certificate.py": "28fa8c67ef5eec6169ff64e21595c02af2ce27b2e20f28c5c8f2a5a56dfa455b",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube/full_cube_model.py": "5213408a65f0582cb2f4a0fc49acba6a9bb5b6043583e4d070e977073cd2844f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/full-cube/test_full_cube.py": "adb965689215ae551da48d718ee1a699ce4f42ece6d90dd040401fcccc18e8be",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/p5-blind-signature/p5_strong_repairs.py": "628347069f436d384fcad9a8fa1020e294c261d7d77376250844e501e3cc66a7",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/p5-blind-signature/test_p5_strong_repairs.py": "6678bd9ee56e999c0b161ec1bb027a88eefb8f7fc587a179a1f7b83a4da4e572",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/audit_requirement_sufficiency.py": "c076a95dbe53400403a0c75a0159a7721f70ab06738bc48cbfef5d0c55d061c5",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/requirement_sufficiency_model.py": "b1e32ab6b7868eb51beee62a9ff844fa9ea47c46132ffd17b6f93b7770fd12e5",
+    "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/test_requirement_sufficiency.py": "4280554082cdd062919eb39a58b32b148012af4cf087adcd387214bb17994789",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A1-00J/ablation_A1_00J.py": "8fdb2bccf4f675321db7bac47a9e2573550cbc2fa6c27340cbde48127906e7ad",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A1-00J/test_A1_00J.py": "5bc0122a628888e82d20c76a619b2746ad1149e303757b3a2cbb83bc14f9b13a",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A2-00E/ablation_A2_00E.py": "cfdfca66c86f332dc15b81bebe395b48cadd01f6406f3564f70f20e7b2d27e11",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A2-00E/test_A2_00E.py": "64eee338ce06d06e1503e4deaa5428c4326fff22f9ef47ade7d4d971b89cca3e",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A3-00F/ablation_A3_00F.py": "4c814f8338623cf86c3f5bf8ef5e52fb5ad73dd5a38d67f9fcfb170931024d9b",
+    "research/ecosystem-awareness/baseline/fixtures/00K-HISTORICAL/A3-00F/test_A3_00F.py": "370bdac669648aa8fb995c8220696e8a6dfbbdaf0540e53c8262ba28782379db",
+    "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/run_all.py": "b9f6a0b1675364a4805e53cb5eaa2d779b92e9f873e7f9ab962665c060809f6f",
+    "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/validate_manifest.py": "394fb7d4597cb3b3f579bf9f786cf0f0cd507b48891d60ad5e7b8dd145fb83af",
+    "research/ecosystem-awareness/baseline/fixtures/00K-TRACE/validate_traceability.py": "173c19bc7f221ee25ea6d3c62c4950f517302bfb4a5726ccf03195ca33719eaf",
+    "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent/kernels.py": "6d49a4494f7d3dc24bcbaf438d97449dc3707fceb0e7b2fd5181d55f2aefb9bc",
+    "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent/kernels_p1_p3.py": "5ffd10201155b0d01e9544127bd1bff5719b24e7c32d5d647819406778345428",
+    "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent/test_cross_scenario_kernels.py": "b9b381fbc465415a89ee8bf1c50a19dd6db1fe39119f19cb176a3a6e3ee21f01",
+    "research/ecosystem-awareness/baseline/fixtures/00K-cross-scenario-independent/test_cross_scenario_kernels_p1_p3.py": "57379550c5e7a8bd9347ad1e7a11cdbf684d9924fc7a251972301b52109bc970",
+    "research/ecosystem-awareness/baseline/fixtures/CASE-EXTENSION/validate_extensibility.py": "bb1f7ac83f9907fc4364cf5f7f81463262498288eeb23c7e145d3225431dfe01",
+    "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/canonical_trace_v1.py": "32fbe24097b99db29ca229a089b41ff10a61c6f8cb5bd945d62d033dfca3683c",
+    "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/stage0_runner.py": "2baab9fc11640ce1d0cdf50a22e2be549696f7fb65718e2bcfca3566a6d7761b",
+    "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/test_canonical_trace_v1.py": "3175354678c71f46851587150c479d11d3b7d94be1a40deb0ea40556441c324d"
+  },
+  "archive_replay": {
+    "archive_sha256": "e7d1caf81e2534fa5b0250f8982fe16fb8e960a273803f151b9ca876dd7c4b63",
+    "exit_code": 0,
+    "output": ".....................                                                    [100%]\n21 passed in 0.14s\n"
+  },
+  "independent_A23_support_enumeration": [
+    {
+      "principle": "P1",
+      "support": [
+        "evidence_fit",
+        "permission_from_uncertainty",
+        "residual_explicit"
+      ],
+      "rows": 8,
+      "conforming": 1,
+      "violations": 0
+    },
+    {
+      "principle": "P2",
+      "support": [
+        "bounded_progress",
+        "composition_active",
+        "composition_effects_declared",
+        "cost_ledger_declared",
+        "deadline_viable",
+        "evidence_fit",
+        "expansion_value_declared",
+        "fallback_defined"
+      ],
+      "rows": 256,
+      "conforming": 3,
+      "violations": 0
+    },
+    {
+      "principle": "P3",
+      "support": [
+        "executes",
+        "no_worse_than_null",
+        "null_action_declared",
+        "permission_from_uncertainty",
+        "residual_explicit",
+        "response_authorized",
+        "response_downside_declared",
+        "response_externalities_declared",
+        "response_failure_declared",
+        "response_reversibility_declared",
+        "strong_response_claimed",
+        "unresolved_material"
+      ],
+      "rows": 4096,
+      "conforming": 518,
+      "violations": 3
+    },
+    {
+      "principle": "P4",
+      "support": [
+        "authority_current",
+        "authority_nonamplifying",
+        "authority_scoped",
+        "authority_verifiable",
+        "executes",
+        "no_worse_than_null",
+        "null_action_declared",
+        "response_authorized",
+        "response_downside_declared",
+        "response_externalities_declared",
+        "response_failure_declared",
+        "response_reversibility_declared",
+        "strong_response_claimed"
+      ],
+      "rows": 8192,
+      "conforming": 4099,
+      "violations": 0
+    },
+    {
+      "principle": "P5",
+      "support": [
+        "bounded_progress",
+        "change_disposition_recorded",
+        "changed_basis_carried",
+        "composition_active",
+        "composition_effects_declared",
+        "cost_ledger_declared",
+        "deadline_viable",
+        "executes",
+        "expansion_value_declared",
+        "material_break_detected",
+        "material_changed",
+        "permission_from_uncertainty",
+        "requalified"
+      ],
+      "rows": 8192,
+      "conforming": 108,
+      "violations": 3
+    },
+    {
+      "principle": "P6",
+      "support": [
+        "bounded_progress",
+        "compatibility_preserved",
+        "composition_active",
+        "composition_effects_declared",
+        "cost_ledger_declared",
+        "deadline_viable",
+        "dependency_independent",
+        "dependency_qualifiers_carried",
+        "dependent_support_promoted",
+        "expansion_value_declared"
+      ],
+      "rows": 1024,
+      "conforming": 34,
+      "violations": 1
+    }
+  ],
+  "environment_note": "Initial attempt lacked pytest; installed pytest 9.1.1 from cached wheel, then reran all suites. Report below is the successful dependency-complete run; Python 3.12.14, not the historical CI 3.13 environment.",
+  "pytest_version": "9.1.1",
+  "scope_note": "Counts from overlapping historical and current suites must not be added as independent trials. Archive-only directory exit 5 is followed by extraction and 21 passing archive tests."
+}

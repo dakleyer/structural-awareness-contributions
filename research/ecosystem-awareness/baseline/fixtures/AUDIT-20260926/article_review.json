@@ -1,0 +1,72 @@
+{
+  "file_name": "01-When_the_Controls_Work_but_the_System_Fails_revisado.docx",
+  "sha256": "9628884ea0e5117478a734aaca156e8bb02e56a56dd86d3bc018e6a0b4bddf73",
+  "paragraph_count": 183,
+  "paragraph_numbering": "zero-based python-docx paragraphs",
+  "reviewed_passages": [
+    {
+      "index": 5,
+      "text": "Evidence update — 26 September 2026. This revised edition preserves the accumulated evidence and links while integrating the audit findings into the main argument: the former all-six A23 certificate and unrestricted transfer claims are superseded, and Stage 0 has now been executed within a synthetic fixture. Its shared-logic adapters and the 00L symbolic reconstructions serve as controls and instrumentation, not independent product comparisons. New references use corpus snapshot 5614ed6; retained references keep their original snapshots. The cumulative evidence and editorial register (A12) records the complete progression, corrections, merge and remaining work."
+    },
+    {
+      "index": 53,
+      "text": "In 00I, this distinction is concrete: checking whether a known freeze flag changed is different from recognizing that a newly applicable source or dependency must now be checked. R2/V11 tests the latter with implementations frozen beforehand, legitimate observable signals, matched access and resources, and unchanged activity as a positive control. Existing generic adaptation remains available to both candidates. Drift variants must be fixed before outcomes are observed; the test must not grow harder after a peer succeeds merely to force an EA advantage. A conventional peer that also succeeds at equal or lower burden narrows or removes the proposed differential in that scope. See 00I validity layers and R2/V11."
+    },
+    {
+      "index": 71,
+      "text": "The next step expresses the P1–P6 invariants as solution-neutral requirements S1–S14, with T1–T4 conditions for a sufficiently good solution, H1–H6 hypotheses and KPIs. A19 checks forward semantic coverage: every principle has a falsifiable requirement anchor, and each S requirement has a declared primary principle. A02 maps documentary requirement coverage across the six scenario quality plans; that map is not execution evidence. A21 tests whether S1–S14 cover all admitted obligations in the declared decision-frame/lifecycle grammar; a genuinely new primitive would reopen that conclusion. A23 checks the reverse direction: whether full conformance with the applicable S/T route entails the corresponding P invariants. The revised finite model retains implications for P1/P2/P4; P3/P5/P6 have countermodels under semantic review. An isolated S clause or KPI is not a substitute for the applicable route. A24 identifies the semantic remainder added by requirements—typed object, lifecycle point, legitimate owner, scope, evidence and disposition—which cannot be reconstructed from the six P labels alone. Together, these checks document forward coverage, a partially established reverse implication and the semantic remainder, giving conformance review an explicit contract and identifiable open questions."
+    },
+    {
+      "index": 96,
+      "text": "Comparator construction matters. In 00E, the strong-peer function calls the reference route directly; in 00F, both use the same decision predicates; in 00I, both check the same four material fields and return equivalent dispositions. The other comparators explicitly reconstruct the relevant invariants. The 00L verifier requires equality as a regression condition. This is useful for positive controls and reproducible behaviour, but cannot establish parity between independently implemented architectures or market products. The incomplete controls likewise do not represent measured product defects. These distinctions are visible in the 00E comparator, 00I reference route and strong comparator, and the 00L verifier."
+    },
+    {
+      "index": 97,
+      "text": "The central contribution of this study is a traceable set of solution-neutral requirements and a method for testing them. EA is one implementation hypothesis developed from that work. An independently implemented strong conventional peer passing the same gates provides bounded evidence that the tested conditions can also be met through another design. Such a result is consistent with the programme’s purpose: to identify what a system must preserve, while allowing different implementations to satisfy it. Any additional EA benefit—under drift, across broader contexts or at lower decision burden—remains a separate comparative question."
+    },
+    {
+      "index": 98,
+      "text": "Evidence anchors: OpenAI G0/G1/G2; Route N/Q; 00H pre-execution; 00K symbolic ablations; RS-00E-Q1a; 00D-A01 test stages."
+    },
+    {
+      "index": 105,
+      "text": "The ablation campaign fixes a scenario branch, removes one principle at a time and challenges the remaining five with strong repair attempts, matched positive and negative controls, and an explicit falsifier. For each corrected isolated fixture, removing the invariant reopens a material failure route; passing conventional repairs reconstruct its minimal semantics. Some earlier fixtures were themselves falsified and corrected, and P4 was narrowed: full historical lineage is not necessary when another current, verifiable and non-amplifying authority basis suffices. The complete testbook records the six routes and corrections. The registered symbolic campaign comprises 346 core regression tests plus 33 supplemental falsification, isolation and cross-scenario tests (379 total); the separate CI record reports 379/379. The 379 results substantiate the declared symbolic regression and falsification campaign; the CI record measures model behavior rather than live product outcomes."
+    },
+    {
+      "index": 109,
+      "text": "Separately from the scenario tests, the shared-substrate proof constructs, for each Pi, a countermodel satisfying the other five: none of the six follows logically from the remaining five under its declared semantics. The full-cube result realizes all 64 pass/fail signatures and establishes a six-coordinate lower bound for a lossless Boolean diagnostic basis; it does not establish minimality among every possible reformulation or non-Boolean representation. The historical finite-model certificate checked 65,536 states for the reverse requirement-conformance implication; its all-six sufficiency claim has been superseded by the clause audit below. Those states are not additional ablation trials. The distinct evidence supports logical non-redundancy, tested operational necessity and joint branch correctness within the specified fixtures, alongside the revised partial finite sufficiency result. They supply a basis for broader tests of universal minimality, real-world effectiveness and comparative superiority."
+    },
+    {
+      "index": 110,
+      "text": "Certificate correction — 26 September 2026. The 65,536-state all-six sufficiency certificate cited here and in the next paragraph is historical and superseded. The clause audit found nine clause/target equivalences in the old model and reconstructed the clauses from canonical wording while retaining the original P1–P6 functions. The revised model has 33 fields and checks exact support projections; it does not literally enumerate 8,589,934,592 rows. The current certificate records 22 clause/target comparisons: none of those clauses is equivalent to or alone entails its target. P1/P2/P4 retain finite implication; P3/P5/P6 have countermodels. These findings do not by themselves prove a defect in the canonical requirements."
+    },
+    {
+      "index": 112,
+      "text": "Current audit reproduction. The auditor and 11-test suite detect reordered copies, copies padded with an additional conjunct and hidden target-function calls. The execution record separates those checks from the 379 regressions. Requirements-vNext records CAND-A23-P3 (uncertainty, permission and qualified response), CAND-A23-P5 (recorded obligation versus action-time execution) and CAND-A23-P6 (dependency versus false independent corroboration). These remain review candidates; no S15, T5 or H7 has been adopted."
+    },
+    {
+      "index": 114,
+      "text": "The foundation-to-principle chain also has a syntactic normal-form closure argument: within the declared A/B/C/D, Type-0/1/2, received-state, time and composition vocabulary, admitted failure forms normalize to P1–P6 unless a new foundational primitive is introduced. A corpus-derived six-countermodel certificate complements the shared-substrate independence proof. The serious-repair review preserves the earlier fixture falsifiers, and the proof map provides the full reading and reproduction route. The repository's integrated CI record adds traceability, full-cube, S/T-conformance, syntactic-closure and case-extension checks to the 379-test symbolic campaign; these versioned records broaden the reproduction route, while the current A23 clause audit supersedes the earlier all-six conformance interpretation."
+    },
+    {
+      "index": 121,
+      "text": "A25 separates the narrative from a structural kernel and admits a proposed variant only after seven checks: preservation of the material relations and receiving decision boundary; reflection of the same failure predicate; preservation of the inherited S1–S14/T1–T4 route and legitimate positive controls; explicit finite time, evidence and review capacity; and no hidden new semantic primitive. Membership is decided before scoring success. A25 then gives a conditional transfer result: for an admitted family member, a separately established base guarantee can transfer when failure reflection and conformance preservation hold. Membership and finite fixture success alone do not prove that conformity entails all relevant principle invariants or excludes the failure throughout the family. It does not exclude a different failure or prove that a proposed analogy belongs to the family."
+    },
+    {
+      "index": 132,
+      "text": "Stage-0 execution update — 26 September 2026. RS-00E-Q1a pre-registration v0.5 was frozen before runner and traces. The runner at executed revision 4193199 completes both repetitions before opening the evaluation oracle, using separate frozen observations and oracle reference. The execution record and trace/hash manifest report an active Step-0 control PASS, a detector-disabled inverse control FAIL, 12 CTv1 traces, six byte-identical repetition pairs and eight serialization tests. B1 and B3 pass branch labels P1/P2/C0 with equal modelled costs 4/5/5. Those are branch labels, not the six principle identifiers. The synthetic adapters share source-resolution logic, assessment construction and the modelled cost formula; for the fixture’s two sources, their dependency checks are equivalent. The matching outputs and costs therefore verify the declared instrumentation and reproducible traces, not parity between independent architectures. Full 00E, product execution and external reproduction remain pending; the run has no independent reviewer."
+    },
+    {
+      "index": 133,
+      "text": "A comparative follow-up must trace each conventional control to documented capabilities and configuration, and distinguish those from additional symbolic repairs. Candidates may share the requirements, observations and neutral test infrastructure, while independently implementing the mechanism whose benefit is being assessed. Each result should be scored against the oracle without requiring the candidates to agree, with failures retained and decision burden recorded. This preserves a fair opportunity for conventional engineering to succeed and gives the regime-change hypothesis a test that can distinguish outcomes."
+    },
+    {
+      "index": 136,
+      "text": "This matters because a valid identity, policy decision, attestation, local safety control or human approval can retain its local value while its scope, evidence, authority, dependencies or timing no longer support the combined action. A decision-scoped handoff that preserves those qualifications could make the exact point of requalification visible without demanding omniscience or stopping everything. This gives research and pre-standardization a precise test: locate requalification and measure failure routes, delay and review burden. The proposed EA benefit is maintaining justified decisions as the regime and the model of relevant conditions change, potentially with lower decision burden. The current shared-logic symbolic comparisons do not resolve that benefit. Matched runs of independently implemented candidates can do so: a conventional peer that also maintains qualification at equal or lower burden narrows or removes the EA advantage in the tested scope. A new semantic primitive calls for revision."
+    },
+    {
+      "index": 137,
+      "text": "Integration and remaining work. PR #1 was merged at 59ca3c4, preserving the accumulated commits. The canonical originals now link their own reinforcement and A08–A12; the READMEs, manifest and A17 map carry the revised evidence limits. A19/A21 received cross-reference corrections; their demonstrations and A20/A22 were preserved. A12 §8.1 links successful merge runs for documentation, 00L, Stage 0 and 00K. Those green checks do not resolve the P3/P5/P6 semantic questions, provide independent review or establish product-scale effectiveness."
+    }
+  ]
+}

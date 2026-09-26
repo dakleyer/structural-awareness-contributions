@@ -1,5 +1,7 @@
 # 00L-A12 — Registro de mejoras para el artículo y el README
 
+> **Actualización de auditoría — 26/09/2026:** consultar [A13](./00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md) y §10 antes de reutilizar las conclusiones históricas. El empate usa lógica compartida y no acredita equivalencia entre arquitecturas independientes. Se han reproducido nuevos defectos de instrumentación, evaluación y cobertura; las implementaciones siguen pendientes de corrección.
+
 **Estado actual: integrado en `main` mediante PR #1, merge `59ca3c4`, el 26/09/2026 Europe/Madrid. Artículo guardado como versión 4.** Consultar §8 y §8.1 para armonización, evidencia y pendientes. Los cortes anteriores se conservan como historial; no describen automáticamente el estado actual del PR o del artículo.
 
 **Corte:** 25 de septiembre de 2026. **Fuente de trabajo:** [PR #1](https://github.com/dakleyer/structural-awareness-contributions/pull/1), rama `codex/00E-00J-paper-traversals-2026-09-25`, último commit de evidencia comprobado antes de abrir este registro: `f5a64d06677b980fad53c87abdc2b1e91dddfc2f`. En el corte, `main` estaba en `d82b2775873227362281f95efb0a8b096cb6d104` y **00L seguía en el PR, sin merge**. Consultar de nuevo ambos SHA antes de actualizar el artículo o trasladar afirmaciones a `main`.
@@ -173,3 +175,27 @@ El usuario volvió a facilitar el artículo original y pidió incorporar **todo 
 **Criterio editorial:** las afirmaciones antiguas de cierre general y ejecución pendiente se conservan literalmente por instrucción del usuario, pero llevan notas adyacentes que las califican o declaran superadas. La nota inicial hace explícita esta lectura. Esta edición no elimina el historial, no restaura el cierre general de A23 y no añade resultados científicos nuevos. Los enlaces del artículo a este registro apuntan al corte de evidencia 5614ed6; esta §9 documenta posteriormente la entrega aditiva.
 
 **Alcance del commit:** únicamente esta entrada acumulativa de A12. Los documentos canónicos ya enlazan A12 según §8; no se modifica código, fixtures, requisitos ni pruebas en esta fase.
+
+
+## 10. Auditoría transversal posterior: errores adicionales reproducidos (26/09/2026)
+
+**Petición:** revisar todas las pruebas del trabajo y buscar circularidad, supuestos incorrectos y errores, tras detectar el problema del par. **Base auditada:** `8f17843c568114f31cc0ad486b4a1303396021e6`. Se ha trabajado sobre un checkout separado y no se ha modificado el código original ni el artículo recibido.
+
+**Entregables:** [informe A13](./00L_A13_AUDITORIA_TRANSVERSAL_PRUEBAS_v0.1.md), [20 observaciones adversas y resultados](../fixtures/AUDIT-20260926/probe_results.json), [reproductor de contraejemplos](../fixtures/AUDIT-20260926/probe_findings.py), [resultados de suites e inventario SHA-256 de 65 fuentes Python](../fixtures/AUDIT-20260926/baseline_results.json), [salidas completas de ejecución](../fixtures/AUDIT-20260926/execution_logs.txt), [reproductor de suites](../fixtures/AUDIT-20260926/reproduce_baseline.py) y [pasajes del artículo revisado](../fixtures/AUDIT-20260926/article_review.json).
+
+| Hallazgo | Resultado / consecuencia editorial |
+|---|---|
+| Comparadores compartidos y acuerdo obligatorio | Confirmado en Stage 0 y varios pares 00L. El empate es una regresión de reconstrucciones, no una comparación independiente ni prueba contra o a favor del diferencial EA. El artículo recibido ya incorpora esta distinción. |
+| Detector de handoff | Compara el campo consigo mismo; una alteración posterior a la evaluación no se detecta y el score sigue PASS. El self-test aislado no valida ese trayecto. |
+| Fallos y métricas de Stage 0 | Un fallo del candidato aborta antes de guardar su traza. El contador de campos preservados depende del éxito global; el guard acepta coste negativo/incoherente. |
+| Campañas 00H | Añadir una campaña distinta convierte una campaña no autorizada de RECONTRACT a EXECUTE; el peer comparte el fallo. También hay límites en ámbito del registro, tiempo fijo y control de tasa. Son entradas adicionales fuera de la cuadrícula congelada. |
+| Agotamiento 00E | El replay declara capacidad seis y aporta tres pasos; el ablated devuelve RESOURCE_EXHAUSTED al terminar el iterable. La etiqueta no prueba consumo efectivo de la capacidad. |
+| Campos ausentes y calificación | El núcleo cruzado P5 acepta ausencia/ausencia como vigencia; 00L no valida tipos; peers de 00G omiten comprobaciones que necesita una ruta completa. |
+| Correspondencia formal A22 | Se reproducen las 64 firmas/68 tests, pero no se comprueba toda la coherencia de A20: faltan conflicto derivado y grafo de indagación explícitos. Se conserva el argumento de seis bits; se acota el certificado. |
+| A23 y validadores | La segunda enumeración reproduce P1/P2/P4 y los contraejemplos P3/P5/P6. El guard de circularidad es local a cada cláusula; la fidelidad semántica no queda demostrada por él. El validador de cierre acepta una lista de átomos vacía con 0/0. |
+
+**Reproducción:** 379 regresiones actuales correctas, 68 full-cube, 11 A23, ocho CTv1, 18 P5 blind-signature, históricos A1/A2/A3 (11/11/10), ZIP A4 (21), 00L y Stage 0 idénticos en bytes, y validadores estructurales correctos. No sumar familias históricas superpuestas ni las 20 observaciones adversas como experimentos independientes. Python 3.12.14, pytest 9.1.1; no se adjudican estos resultados locales al CI histórico.
+
+**Artículo recibido:** `When_the_Controls_Work_but_the_System_Fails_revisado.docx`, SHA-256 `9628884ea0e5117478a734aaca156e8bb02e56a56dd86d3bc018e6a0b4bddf73`. No se sustituyó por ninguna de las ediciones anteriores ni se editó. A13 §7 propone los cambios concretos de alcance que debe recibir tras esta auditoría.
+
+**Estado de cierre:** auditoría y contraejemplos documentados; **correcciones de implementación pendientes** según A13 §8. Se conservan todos los registros anteriores como históricos. Esta entrada corrige sus interpretaciones excesivas, no borra resultados ni pretende que el código haya sido reparado. El commit de esta fase añade únicamente el informe, evidencia de auditoría y esta actualización de A12.

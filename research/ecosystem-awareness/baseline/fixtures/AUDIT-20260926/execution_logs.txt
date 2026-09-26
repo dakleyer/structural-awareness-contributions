@@ -1,0 +1,254 @@
+### 00K-A1-P1-00J.txt
+..........................................                               [100%]
+42 passed in 0.06s
+
+
+### 00K-A2-P2-00E.txt
+..........................................................               [100%]
+58 passed in 0.06s
+
+
+### 00K-A3-P3-00F.txt
+.................................................                        [100%]
+49 passed in 0.07s
+
+
+### 00K-A4-P4-00H-v0.2.txt
+
+no tests ran in 0.00s
+
+
+### 00K-A4-P4-00H.txt
+........................................................................ [ 94%]
+....                                                                     [100%]
+76 passed in 0.28s
+
+
+### 00K-A5-P5-00I.txt
+...............................................                          [100%]
+47 passed in 0.06s
+
+
+### 00K-A6-P6-00G.txt
+........................................................................ [ 97%]
+..                                                                       [100%]
+74 passed in 0.07s
+
+
+### 00K-A6a-P6-00G.txt
+..........                                                               [100%]
+10 passed in 0.02s
+
+
+### 00K-A6b-P6-00F.txt
+...........                                                              [100%]
+11 passed in 0.02s
+
+
+### 00K-cross-scenario-independent.txt
+............                                                             [100%]
+12 passed in 0.02s
+
+
+### 00L.txt
+{"case": "00E", "factor": "resolves_at_step_3", "branches": {"negative": {"route": "NO_CONCLUSION", "strong_peer": "NO_CONCLUSION", "weak_peer": "RESOURCE_EXHAUSTED"}, "positive": {"route": "EXECUTE", "strong_peer": "EXECUTE", "weak_peer": "EXECUTE"}}}
+{"case": "00F", "factor": "fire_slot", "branches": {"negative": {"route": "REQUALIFY", "strong_peer": "REQUALIFY", "weak_peer": "EXECUTE_ALL"}, "positive": {"route": "EXECUTE_ALL", "strong_peer": "EXECUTE_ALL", "weak_peer": "EXECUTE_ALL"}}}
+{"case": "00G", "factor": "last_root", "branches": {"negative": {"route": "PRESERVE_CURRENT_FRAME", "strong_peer": "PRESERVE_CURRENT_FRAME", "weak_peer": "TRANSITION_FRAME"}, "positive": {"route": "TRANSITION_FRAME", "strong_peer": "TRANSITION_FRAME", "weak_peer": "TRANSITION_FRAME"}}}
+{"case": "00H", "factor": "root_current", "branches": {"negative": {"route": "DBC_REPOSITION_RECONTRACT", "strong_peer": "DBC_REPOSITION_RECONTRACT", "weak_peer": "DBC_EXECUTE"}, "positive": {"route": "DBC_EXECUTE", "strong_peer": "DBC_EXECUTE", "weak_peer": "DBC_EXECUTE"}}}
+{"case": "00I", "factor": "freeze_active", "branches": {"negative": {"route": "DBC_REQUALIFY", "strong_peer": "DBC_REQUALIFY", "weak_peer": "DBC_EXECUTE"}, "positive": {"route": "DBC_EXECUTE", "strong_peer": "DBC_EXECUTE", "weak_peer": "DBC_EXECUTE"}}}
+{"case": "00J", "factor": "proposition_supported", "branches": {"negative": {"route": "NO_CONCLUSION", "strong_peer": "NO_CONCLUSION", "weak_peer": "ENFORCE_LICENSE"}, "positive": {"route": "ENFORCE_LICENSE", "strong_peer": "ENFORCE_LICENSE", "weak_peer": "ENFORCE_LICENSE"}}}
+OK: 12 symbolic branches; 128 Step-0 drop/null mutations; 00H strict boundary 3/3. Strong peer passes every pair: no EA differential inferred.
+
+
+### A23.txt
+test_all_clauses_have_independent_distinguishing_witnesses (test_requirement_sufficiency.TestRequirementSufficiency.test_all_clauses_have_independent_distinguishing_witnesses) ... ok
+test_committed_certificate_reproduces_exactly (test_requirement_sufficiency.TestRequirementSufficiency.test_committed_certificate_reproduces_exactly) ... ok
+test_exhaustive_outcomes_and_no_vacuous_bundles (test_requirement_sufficiency.TestRequirementSufficiency.test_exhaustive_outcomes_and_no_vacuous_bundles) ... ok
+test_guard_rejects_reordered_target (test_requirement_sufficiency.TestRequirementSufficiency.test_guard_rejects_reordered_target) ... ok
+test_guard_rejects_target_padded_with_unrelated_conjunct (test_requirement_sufficiency.TestRequirementSufficiency.test_guard_rejects_target_padded_with_unrelated_conjunct) ... ok
+test_known_gaps_retain_replayable_counterexamples (test_requirement_sufficiency.TestRequirementSufficiency.test_known_gaps_retain_replayable_counterexamples) ... ok
+test_original_anchor_only_negative_controls (test_requirement_sufficiency.TestRequirementSufficiency.test_original_anchor_only_negative_controls) ... ok
+test_projection_rejects_hidden_target_call (test_requirement_sufficiency.TestRequirementSufficiency.test_projection_rejects_hidden_target_call) ... ok
+test_s9_distinguishes_correlation_from_false_independent_support (test_requirement_sufficiency.TestRequirementSufficiency.test_s9_distinguishes_correlation_from_false_independent_support) ... ok
+test_t3_requires_declared_response_and_conditional_per_state_bound (test_requirement_sufficiency.TestRequirementSufficiency.test_t3_requires_declared_response_and_conditional_per_state_bound) ... ok
+test_t4_tracks_horizon_cost_value_and_declared_composition_effects (test_requirement_sufficiency.TestRequirementSufficiency.test_t4_tracks_horizon_cost_value_and_declared_composition_effects) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.133s
+
+OK
+
+
+### A4-archive.txt
+.....................                                                    [100%]
+21 passed in 0.14s
+
+
+### CTv1.txt
+test_absolute_path_is_rejected (test_canonical_trace_v1.CanonicalTraceV1Tests.test_absolute_path_is_rejected) ... ok
+test_canonicalization_version_is_present (test_canonical_trace_v1.CanonicalTraceV1Tests.test_canonicalization_version_is_present) ... ok
+test_declared_set_like_collection_is_sorted (test_canonical_trace_v1.CanonicalTraceV1Tests.test_declared_set_like_collection_is_sorted) ... ok
+test_excluded_runtime_fields_do_not_change_hash (test_canonical_trace_v1.CanonicalTraceV1Tests.test_excluded_runtime_fields_do_not_change_hash) ... ok
+test_float_is_rejected (test_canonical_trace_v1.CanonicalTraceV1Tests.test_float_is_rejected) ... ok
+test_key_order_does_not_change_bytes (test_canonical_trace_v1.CanonicalTraceV1Tests.test_key_order_does_not_change_bytes) ... ok
+test_repository_path_is_posix_normalised (test_canonical_trace_v1.CanonicalTraceV1Tests.test_repository_path_is_posix_normalised) ... ok
+test_semantic_array_order_is_preserved (test_canonical_trace_v1.CanonicalTraceV1Tests.test_semantic_array_order_is_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK
+
+
+### P5-blind.txt
+..................                                                       [100%]
+18 passed in 0.02s
+
+
+### closure.txt
+00K syntactic closure integrity: PASS
+Foundation positions: 4/4
+Foundation types: 3/3
+Principle normal forms: 6/6
+Requirement normal forms: 14/14
+Requirement operators covered: 11/11
+Requirement objects covered: 11/11
+Admitted object/operator atoms covered: 40/40
+
+
+### doc-integrity.txt
+DOCUMENT INTEGRITY: PASS (3195 local routes, 8 architecture sections, 3 decks)
+
+
+### extension.txt
+Failure case-study extensibility registry: PASS
+Families: 6/6
+A25 admission gates: 7/7
+Directions per family: 3/3
+Parent ↔ profile routes: 6/6
+A25 routes: 6/6
+Conformance-transfer sections: 6/6
+Success model cases: 6/6
+Success extension directions: 3/3 per case
+
+
+### formal.txt
+       P1  P2  P3  P4  P5  P6
+ P1:    0   1   1   1   1   1   M1_00J_wrong_proposition
+ P2:    1   0   1   1   1   1   M2_00E_unbounded_determination
+ P3:    1   1   0   1   1   1   M3_00F_false_closure
+ P4:    1   1   1   0   1   1   M4_00H_authority_amplification
+ P5:    1   1   1   1   0   1   M5_00I_semantic_toctou
+ P6:    1   1   1   1   1   0   M6_00G_hidden_dependency
+
+00K formal relative-independence certificate: PASS (6/6 countermodels)
+
+
+### full-cube.txt
+test_all_64_signatures_are_realized (test_full_cube.TestFullCube.test_all_64_signatures_are_realized) ... ok
+test_counting_argument_requires_six_boolean_coordinates (test_full_cube.TestFullCube.test_counting_argument_requires_six_boolean_coordinates) ... ok
+test_one_conjunction_bit_is_enough_only_for_pass_fail_not_full_signature (test_full_cube.TestFullCube.test_one_conjunction_bit_is_enough_only_for_pass_fail_not_full_signature) ... ok
+test_p2_and_p3_share_the_same_inquiry_object_semantics (test_full_cube.TestFullCube.test_p2_and_p3_share_the_same_inquiry_object_semantics) ... ok
+test_signature_000000 (test_full_cube.TestFullCube.test_signature_000000) ... ok
+test_signature_000001 (test_full_cube.TestFullCube.test_signature_000001) ... ok
+test_signature_000010 (test_full_cube.TestFullCube.test_signature_000010) ... ok
+test_signature_000011 (test_full_cube.TestFullCube.test_signature_000011) ... ok
+test_signature_000100 (test_full_cube.TestFullCube.test_signature_000100) ... ok
+test_signature_000101 (test_full_cube.TestFullCube.test_signature_000101) ... ok
+test_signature_000110 (test_full_cube.TestFullCube.test_signature_000110) ... ok
+test_signature_000111 (test_full_cube.TestFullCube.test_signature_000111) ... ok
+test_signature_001000 (test_full_cube.TestFullCube.test_signature_001000) ... ok
+test_signature_001001 (test_full_cube.TestFullCube.test_signature_001001) ... ok
+test_signature_001010 (test_full_cube.TestFullCube.test_signature_001010) ... ok
+test_signature_001011 (test_full_cube.TestFullCube.test_signature_001011) ... ok
+test_signature_001100 (test_full_cube.TestFullCube.test_signature_001100) ... ok
+test_signature_001101 (test_full_cube.TestFullCube.test_signature_001101) ... ok
+test_signature_001110 (test_full_cube.TestFullCube.test_signature_001110) ... ok
+test_signature_001111 (test_full_cube.TestFullCube.test_signature_001111) ... ok
+test_signature_010000 (test_full_cube.TestFullCube.test_signature_010000) ... ok
+test_signature_010001 (test_full_cube.TestFullCube.test_signature_010001) ... ok
+test_signature_010010 (test_full_cube.TestFullCube.test_signature_010010) ... ok
+test_signature_010011 (test_full_cube.TestFullCube.test_signature_010011) ... ok
+test_signature_010100 (test_full_cube.TestFullCube.test_signature_010100) ... ok
+test_signature_010101 (test_full_cube.TestFullCube.test_signature_010101) ... ok
+test_signature_010110 (test_full_cube.TestFullCube.test_signature_010110) ... ok
+test_signature_010111 (test_full_cube.TestFullCube.test_signature_010111) ... ok
+test_signature_011000 (test_full_cube.TestFullCube.test_signature_011000) ... ok
+test_signature_011001 (test_full_cube.TestFullCube.test_signature_011001) ... ok
+test_signature_011010 (test_full_cube.TestFullCube.test_signature_011010) ... ok
+test_signature_011011 (test_full_cube.TestFullCube.test_signature_011011) ... ok
+test_signature_011100 (test_full_cube.TestFullCube.test_signature_011100) ... ok
+test_signature_011101 (test_full_cube.TestFullCube.test_signature_011101) ... ok
+test_signature_011110 (test_full_cube.TestFullCube.test_signature_011110) ... ok
+test_signature_011111 (test_full_cube.TestFullCube.test_signature_011111) ... ok
+test_signature_100000 (test_full_cube.TestFullCube.test_signature_100000) ... ok
+test_signature_100001 (test_full_cube.TestFullCube.test_signature_100001) ... ok
+test_signature_100010 (test_full_cube.TestFullCube.test_signature_100010) ... ok
+test_signature_100011 (test_full_cube.TestFullCube.test_signature_100011) ... ok
+test_signature_100100 (test_full_cube.TestFullCube.test_signature_100100) ... ok
+test_signature_100101 (test_full_cube.TestFullCube.test_signature_100101) ... ok
+test_signature_100110 (test_full_cube.TestFullCube.test_signature_100110) ... ok
+test_signature_100111 (test_full_cube.TestFullCube.test_signature_100111) ... ok
+test_signature_101000 (test_full_cube.TestFullCube.test_signature_101000) ... ok
+test_signature_101001 (test_full_cube.TestFullCube.test_signature_101001) ... ok
+test_signature_101010 (test_full_cube.TestFullCube.test_signature_101010) ... ok
+test_signature_101011 (test_full_cube.TestFullCube.test_signature_101011) ... ok
+test_signature_101100 (test_full_cube.TestFullCube.test_signature_101100) ... ok
+test_signature_101101 (test_full_cube.TestFullCube.test_signature_101101) ... ok
+test_signature_101110 (test_full_cube.TestFullCube.test_signature_101110) ... ok
+test_signature_101111 (test_full_cube.TestFullCube.test_signature_101111) ... ok
+test_signature_110000 (test_full_cube.TestFullCube.test_signature_110000) ... ok
+test_signature_110001 (test_full_cube.TestFullCube.test_signature_110001) ... ok
+test_signature_110010 (test_full_cube.TestFullCube.test_signature_110010) ... ok
+test_signature_110011 (test_full_cube.TestFullCube.test_signature_110011) ... ok
+test_signature_110100 (test_full_cube.TestFullCube.test_signature_110100) ... ok
+test_signature_110101 (test_full_cube.TestFullCube.test_signature_110101) ... ok
+test_signature_110110 (test_full_cube.TestFullCube.test_signature_110110) ... ok
+test_signature_110111 (test_full_cube.TestFullCube.test_signature_110111) ... ok
+test_signature_111000 (test_full_cube.TestFullCube.test_signature_111000) ... ok
+test_signature_111001 (test_full_cube.TestFullCube.test_signature_111001) ... ok
+test_signature_111010 (test_full_cube.TestFullCube.test_signature_111010) ... ok
+test_signature_111011 (test_full_cube.TestFullCube.test_signature_111011) ... ok
+test_signature_111100 (test_full_cube.TestFullCube.test_signature_111100) ... ok
+test_signature_111101 (test_full_cube.TestFullCube.test_signature_111101) ... ok
+test_signature_111110 (test_full_cube.TestFullCube.test_signature_111110) ... ok
+test_signature_111111 (test_full_cube.TestFullCube.test_signature_111111) ... ok
+
+----------------------------------------------------------------------
+Ran 68 tests in 0.004s
+
+OK
+
+
+### historical-A1-00J.txt
+...........                                                              [100%]
+11 passed in 0.02s
+
+
+### historical-A2-00E.txt
+...........                                                              [100%]
+11 passed in 0.02s
+
+
+### historical-A3-00F.txt
+..........                                                               [100%]
+10 passed in 0.01s
+
+
+### manifest.txt
+00K execution-lock manifest: PASS
+principles: 6/6
+core: 346
+supplemental: 33
+campaign: 379
+
+
+### stage0.txt
+OK: Step-0 PASS; inverse-control FAIL as required; 12 CTv1 candidate traces; 6 identical replay pairs; both B1/B3 pass; no EA differential
+
+
+### traceability.txt
+00K semantic traceability integrity: PASS
+Principles: 6/6
+Requirements: 14/14
+Anchor routes: 6/6
