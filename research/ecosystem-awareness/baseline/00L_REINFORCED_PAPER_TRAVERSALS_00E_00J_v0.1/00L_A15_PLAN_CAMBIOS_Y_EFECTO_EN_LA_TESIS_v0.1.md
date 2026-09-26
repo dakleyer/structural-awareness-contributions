@@ -166,3 +166,7 @@ Los hallazgos actuales todavía no establecen esas conclusiones. Sí muestran qu
 - [A22 y límite del modelo simplificado](https://github.com/dakleyer/structural-awareness-contributions/blob/96b46436dc45e1bee1879bd05242c16ff4801061/research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md).
 - [A23 y revisión de las cláusulas](https://github.com/dakleyer/structural-awareness-contributions/blob/96b46436dc45e1bee1879bd05242c16ff4801061/research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/CLAUSE_AUDIT.md).
 - Artículo *When_the_Controls_Work_but_the_System_Fails_Parts_I_II.docx*, versión 2, consultado completo. Este plan no modifica ese archivo ni las demostraciones.
+
+## 10 Estado de aplicación del 26 de septiembre
+
+Se conserva el plan original. F02 avanza con [diagnósticos semánticos y trazas](../fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md): nueve controles nuevos, 5.460 secuencias acotadas para un interlock candidato y conservación del certificado anterior. F01 permanece abierto; se corrige la referencia de A20 que presentaba su extensión A22 sin esta condición. La aplicación editorial y la versión del artículo se registran en A12. Este avance no equivale a cierre de suficiencia general.

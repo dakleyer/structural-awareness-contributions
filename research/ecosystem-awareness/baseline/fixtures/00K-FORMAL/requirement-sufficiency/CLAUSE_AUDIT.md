@@ -82,3 +82,7 @@ Local result: certificate reproduced; **11 audit tests passed**. The passing sta
 Suggested manuscript replacement (for the one sentence claiming all-six closure):
 
 > A23's revised finite clause model supports P1, P2 and P4; P3, P5 and P6 remain under semantic review with explicit countermodels. For 00F, 00H and 00G, the extensibility evidence instead rests on the tested A3, A4 and A6 Route Q branches, without a guarantee over all admitted extensions.
+
+## 7. Applied semantic follow-up
+
+The [semantic bridge review](./SEMANTIC_BRIDGE_REVIEW.md) now checks the action-scope and corroboration distinctions and executes a candidate P5 transition interlock with positive controls and an interlock-removal mutation. It preserves this certificate and its three counterexamples. It is a bounded author review, not an independent review or all-six closure.

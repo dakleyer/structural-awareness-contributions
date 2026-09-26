@@ -1,0 +1,315 @@
+{
+  "P3_diagnostic": {
+    "classification": "action/proposition linkage absent from the flat projection",
+    "continuation": {
+      "material_to_this_action": true,
+      "permitted_by_partial_policy": false
+    },
+    "response": {
+      "material_to_this_action": false,
+      "permitted_by_partial_policy": true
+    }
+  },
+  "P5_bounded_enumeration": {
+    "stale_execution_traces_when_interlock_removed": 3212,
+    "stale_execution_traces_with_interlock": 0,
+    "traces_checked": 5460,
+    "traces_with_permitted_execution": 1836
+  },
+  "P5_traces": {
+    "record_only": {
+      "enforced": [
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 0,
+          "revision": 0
+        },
+        {
+          "disposition": null,
+          "event": "change",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "record",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "act",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        }
+      ],
+      "events": [
+        "qualify",
+        "change",
+        "record",
+        "act"
+      ],
+      "interlock_removed": [
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 0,
+          "revision": 0
+        },
+        {
+          "disposition": null,
+          "event": "change",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "record",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "act",
+          "executed": true,
+          "qualified": 0,
+          "revision": 1
+        }
+      ]
+    },
+    "requalified": {
+      "enforced": [
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 0,
+          "revision": 0
+        },
+        {
+          "disposition": null,
+          "event": "change",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "record",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 1,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "act",
+          "executed": true,
+          "qualified": 1,
+          "revision": 1
+        }
+      ],
+      "events": [
+        "qualify",
+        "change",
+        "record",
+        "qualify",
+        "act"
+      ],
+      "interlock_removed": [
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 0,
+          "revision": 0
+        },
+        {
+          "disposition": null,
+          "event": "change",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "record",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 1,
+          "revision": 1
+        },
+        {
+          "disposition": 1,
+          "event": "act",
+          "executed": true,
+          "qualified": 1,
+          "revision": 1
+        }
+      ]
+    },
+    "second_change": {
+      "enforced": [
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 0,
+          "revision": 0
+        },
+        {
+          "disposition": null,
+          "event": "change",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 1,
+          "revision": 1
+        },
+        {
+          "disposition": null,
+          "event": "change",
+          "executed": false,
+          "qualified": 1,
+          "revision": 2
+        },
+        {
+          "disposition": null,
+          "event": "act",
+          "executed": false,
+          "qualified": 1,
+          "revision": 2
+        }
+      ],
+      "events": [
+        "qualify",
+        "change",
+        "qualify",
+        "change",
+        "act"
+      ],
+      "interlock_removed": [
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 0,
+          "revision": 0
+        },
+        {
+          "disposition": null,
+          "event": "change",
+          "executed": false,
+          "qualified": 0,
+          "revision": 1
+        },
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 1,
+          "revision": 1
+        },
+        {
+          "disposition": null,
+          "event": "change",
+          "executed": false,
+          "qualified": 1,
+          "revision": 2
+        },
+        {
+          "disposition": null,
+          "event": "act",
+          "executed": true,
+          "qualified": 1,
+          "revision": 2
+        }
+      ]
+    },
+    "valid_continuity": {
+      "enforced": [
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 0,
+          "revision": 0
+        },
+        {
+          "disposition": null,
+          "event": "act",
+          "executed": true,
+          "qualified": 0,
+          "revision": 0
+        }
+      ],
+      "events": [
+        "qualify",
+        "act"
+      ],
+      "interlock_removed": [
+        {
+          "disposition": null,
+          "event": "qualify",
+          "executed": false,
+          "qualified": 0,
+          "revision": 0
+        },
+        {
+          "disposition": null,
+          "event": "act",
+          "executed": true,
+          "qualified": 0,
+          "revision": 0
+        }
+      ]
+    }
+  },
+  "P6_diagnostic": {
+    "classification": "composition_active is not independent-corroboration counting",
+    "qualified_correlated_composition": false,
+    "same_records_counted_independent": true
+  },
+  "all_six_canonical_sufficiency": "NOT ESTABLISHED",
+  "historical_counterexamples_retained": {
+    "P3": {
+      "bundle": true,
+      "target": false
+    },
+    "P5": {
+      "bundle": true,
+      "target": false
+    },
+    "P6": {
+      "bundle": true,
+      "target": false
+    }
+  },
+  "review_status": "source-led author review, not independent peer review",
+  "scope": "one decision; observable changes; fixed authority; all event words of length 1..6"
+}

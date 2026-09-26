@@ -551,7 +551,7 @@ That boundary should remain explicit.
 
 - [A18](./00K_A18_PURE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) remains as the simpler formal sketch / sanity check.
 - **A20 is the preferred pure mathematical independence argument.**
-- [A22](./00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) extends the shared-substrate result to all 64 P-signatures and proves a six-coordinate lower bound for lossless Boolean diagnostic representations.
+- [A22](./00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) constructs all 64 P-signatures in its simplified executable model and proves the corresponding six-coordinate counting bound. Lifting all 64 witnesses to the complete B1–B11 substrate remains unverified; this dependency must not be treated as already closed.
 - [A16](./00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) shows fixture-derived countermodels inside the corpus.
 - [A1–A6 / A15](./00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) perform the hard operational repair search.
 - [A19](./00K_A19_PRINCIPLE_REQUIREMENT_TRACEABILITY_AND_CONSERVATION_PROOF_v0.1.md) proves the semantic chain from principles into requirements and scenario/ablation routes.

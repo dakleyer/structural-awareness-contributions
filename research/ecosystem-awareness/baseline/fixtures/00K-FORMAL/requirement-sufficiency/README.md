@@ -17,3 +17,7 @@ PYTHONDONTWRITEBYTECODE=1 python -m unittest -v
 ~~~
 
 Expected: **11 tests pass**, while the certificate says P3/P5/P6 are **not entailed**. Tests preserve that finding and reject reordered/padded/hidden-call regressions. A green CI is successful audit reproduction, not an all-six proof.
+
+## Applied semantic follow-up
+
+[Semantic bridge review](./SEMANTIC_BRIDGE_REVIEW.md) adds action/proposition and corroboration diagnostics plus a bounded P5 actuation-interlock experiment. The current suite has **20 tests: 11 existing + nine new**. The old certificate remains unchanged; all-six sufficiency remains unestablished. [New certificate](./semantic_bridge_certificate.json).

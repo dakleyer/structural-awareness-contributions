@@ -1,5 +1,8 @@
 # 00K-A23 — Canonical Requirement-Conformance Sufficiency for P1–P6 — v0.1
 
+> **Applied semantic follow-up:** [typed diagnostics and transition traces](./fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md) distinguish action-scoped uncertainty, recorded versus enforced requalification, and correlation versus false corroboration. They preserve the historical countermodels. The 20 current audit tests include nine new diagnostics; no all-six theorem is claimed.
+
+
 > **Guard scope after audit:** shortcut rejection is clause-local. A target can be split across clauses that individually pass the guard, so guard success does not establish non-circularity or source fidelity of the whole bundle. Such decomposition is not itself proof of circularity either. P1/P2/P4 remain finite-projection implications; P3/P5/P6 and semantic fidelity remain open. [A14](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md).
 
 | | |
@@ -186,7 +189,9 @@ S9 prohibits promoting dependent evidence as independent support. The old P6 pre
 
 ## 4. Reverse-direction arguments and their current status
 
-### Lemma 1
+> **Scope of the retained source arguments below:** the displayed canonical-conformance implications for P1/P2/P4 are semantic arguments conditional on a faithful interpretation of the cited clauses. The executable certificate establishes only the corresponding finite R1/R2/R4 implications; it does not discharge that interpretation obligation.
+
+### Lemma 1 — finite projection; source argument remains conditional
 
 \[
 Conf_\sigma(R_1)\Rightarrow P_1.
@@ -208,7 +213,7 @@ Hence \(\neg P_1\) is impossible under \(Conf_\sigma(R_1)\). ∎
 
 ---
 
-### Lemma 2
+### Lemma 2 — finite projection; source argument remains conditional
 
 \[
 Conf_\sigma(R_2)\Rightarrow P_2.
@@ -228,7 +233,7 @@ An R3 countermodel has explicit residual, no permission inferred from uncertaint
 
 ---
 
-### Lemma 4
+### Lemma 4 — finite projection; source argument remains conditional
 
 \[
 Conf_\sigma(R_4)\Rightarrow P_4.
