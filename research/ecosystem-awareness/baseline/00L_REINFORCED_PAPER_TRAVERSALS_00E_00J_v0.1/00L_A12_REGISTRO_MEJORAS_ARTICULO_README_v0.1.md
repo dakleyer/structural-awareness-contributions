@@ -145,3 +145,31 @@ El usuario autorizó completar la armonización y hacer merge conservando los pe
 - **Cierre documental posterior:** esta entrada y el README 00L indican el merge realizado. El README canónico incorpora ese estado y sustituye dos referencias de diseño que todavía describían preinscripción/trazas como futuras por enlaces al registro ya ejecutado. Estos cambios de estado no amplían las conclusiones científicas.
 
 **Resultado consolidado:** refuerzos publicados y enlazados desde cada original; README y artículo armonizados. Continúan abiertos los pendientes científicos de §8. Esta entrada conserva la historia de los cortes sin merge y de las versiones 2/3 del artículo, ahora superados por este estado.
+
+
+## 9. Edición exclusivamente aditiva del artículo adjunto (26/09/2026)
+
+El usuario volvió a facilitar el artículo original y pidió incorporar **todo el refuerzo acumulado**, con enlaces en sus secciones correspondientes y sin quitar nada. Esta entrega parte de ese adjunto, no de la versión 4 registrada en §8.1; conserva ambas entregas como documentos distintos.
+
+- **Fuente:** `01-When-20the-20Controls-20Work-20but-20the-20System-20Fails-20-E2-80-94-20Ecosystem-20Positioning-20article.docx`, SHA-256 `f48630bd4145072426ff2bb188e7f46f3ccf5a21c9d362a253c061eb1e1e6a31`.
+- **Entrega guardada:** `When_the_Controls_Work_but_the_System_Fails_referencias_acumuladas.docx`, SHA-256 `ae17de598327bc66f41f0bfe7c7ff70b8cb649182ea54cc8cd8498013a0eb44e`.
+- **Resultado:** 25 párrafos añadidos, 64 apariciones nuevas de hipervínculos y 44 destinos nuevos distintos. Las referencias añadidas al corpus fijan `5614ed6435202f8e19a72ff8df476d6930facaa4`; se conservan los snapshots de las referencias originales. El corpus citado ya contiene el merge de §8.1 y su cierre documental.
+- **Preservación comprobada:** los 154 párrafos originales permanecen íntegros y en el mismo orden; los 155 elementos originales del cuerpo XML, incluida la configuración final de sección, son una subsecuencia idéntica por canonicalización XML. Las 160 relaciones originales conservan todos sus atributos. Todas las partes ZIP salvo texto principal y relaciones de enlaces son idénticas en bytes.
+- **Revisión visual:** 16 páginas renderizadas e inspeccionadas; sin pérdida de contenido ni enlaces originales.
+
+| Lugar del artículo | Adición y referencias acumuladas |
+|---|---|
+| Tras el abstract | Nota fechada que distingue el original conservado de las actualizaciones y remite a este registro. |
+| §2, perfiles y benchmark | A00–A04: coordinación, nueve perfiles, hechos, controles, plantilla y cobertura. A05/A06: revisión adversarial y afirmaciones admisibles. A08: observaciones, oráculo, recursos y reproducción. |
+| §3, referencia de snapshot | A07 y A12: enlaces desde cada original, historia de commits y corpus posterior al merge; se conservan las referencias anteriores. |
+| §4, suficiencia | A23 parcial P1/P2/P4; P3/P5/P6 bajo revisión. A24 separa firma asignada de prueba del invariante. |
+| §6, cada caso 00E–00J | Un párrafo propio con enlace a su recorrido emparejado, el factor aislado y su cobertura pendiente. Incluye falsador A6a, autoridad 00H, umbral estricto y exclusiones V10/V11. |
+| §6, estado y trazas | A09–A11, manifiesto, código, 12 JSONL y workflow; 128 mutaciones en el guard, tres valores frontera y empate del peer fuerte. |
+| §7, campaña y certificado | Corrección 00H, CI del merge, auditoría de nueve equivalencias, modelo de 33 campos, 22 comparaciones y 11 tests separados de las 379 regresiones; candidatos P3/P5/P6 de Requirements-vNext. |
+| §§7–8, transferencia | A25/A26: garantías base separadas, reflexión del fallo, preservación y controles positivos; alcance concreto A3/A4/A6. |
+| §9, Stage 0 | Preinscripción v0.5, runner, observaciones/oráculo, ejecución, manifiesto y hashes; controles activo/inverso, 12 trazas, seis repeticiones idénticas, ocho tests, empate B1/B3 y ausencia de revisión independiente. |
+| §10 y clave final | Merge, integración canónica, límites pendientes e índice completo 00L/A12; notas que distinguen el certificado histórico del auditado. |
+
+**Criterio editorial:** las afirmaciones antiguas de cierre general y ejecución pendiente se conservan literalmente por instrucción del usuario, pero llevan notas adyacentes que las califican o declaran superadas. La nota inicial hace explícita esta lectura. Esta edición no elimina el historial, no restaura el cierre general de A23 y no añade resultados científicos nuevos. Los enlaces del artículo a este registro apuntan al corte de evidencia 5614ed6; esta §9 documenta posteriormente la entrega aditiva.
+
+**Alcance del commit:** únicamente esta entrada acumulativa de A12. Los documentos canónicos ya enlazan A12 según §8; no se modifica código, fixtures, requisitos ni pruebas en esta fase.
