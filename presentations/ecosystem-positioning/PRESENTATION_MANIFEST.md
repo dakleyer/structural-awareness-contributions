@@ -11,14 +11,16 @@
 
 ## Ward discussion deck — v2
 
-[**Ecosystem Positioning · Ward Discussion v2 — 19 slides**](./Ecosystem_Positioning_Canonical_Ward_Discussion_v2.pptx) is the 25 September working discussion deck linked from the Ecosystem Positioning README. It is distinct from the editable canonical v1.11 presentation above and from the two split v1.1 decks below; the older repository mirror and PDF remain explicitly labelled as earlier snapshots.
+[**Ecosystem Positioning · Ward Discussion v2 — 19 slides**](./Ecosystem_Positioning_Canonical_Ward_Discussion_v2.pptx) is the 25 September working discussion deck linked from the Ecosystem Positioning README. It is distinct from the editable canonical v1.11 presentation above and from the two split v1.2 decks below; the older repository mirror and PDF remain explicitly labelled as earlier snapshots.
 
 ## Split outreach decks
 
 The canonical visual material is also maintained as two audience-specific decks derived from the same corpus. These do not create a second architecture or a parallel evidence base; they separate the review conversation into two entry points:
 
-- [**Requirements & Evidence — Canonical v1.1**](./Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx) — problem, six failure families, current technology trajectories, the common S1–S14 contract, a conforming Route Q example, adversarial ablation/independence/minimality evidence, standards boundary and benchmark.
-- [**Architecture & Implementation — Canonical v1.1**](./Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx) — proposed implementation architecture, process, governance boundaries, interfaces, extended situational core, FG-TIDA bounded application and current artefact/test maturity.
+- [**Requirements & Evidence — Canonical v1.2**](./Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) — problem, six failure families, current technology trajectories, the common S1–S14 contract, a conforming Route Q example, adversarial ablation/independence/minimality evidence, standards boundary and benchmark.
+- [**Architecture & Implementation — Canonical v1.2**](./Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx) — proposed implementation architecture, process, governance boundaries, interfaces, extended situational core, FG-TIDA bounded application and current artefact/test maturity.
+
+**v1.2 visual-repair note (27 September 2026):** every slide in both split decks was re-rendered and reviewed for text overflow, title collision, contrast, clipping and legibility. The revision repairs presentation quality without changing the technical architecture, requirements or evidence claims.
 
 For first-contact external review, the **Requirements & Evidence** deck is the preferred entry point. The **Architecture & Implementation** deck is the implementation-hypothesis companion for readers who want to inspect how the requirements could be realized.
 
