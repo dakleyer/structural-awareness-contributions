@@ -6,6 +6,8 @@
 
 > **Working router.** This page introduces the architecture, presents the benchmark route and sends readers to three preserved destination indexes. It does not replace or reorganize those corpora.
 
+**Canonical source:** the versioned technical corpus in this GitHub repository governs architecture, requirements and evidence. Articles, annexes and outreach presentations communicate that corpus; they do not supersede it.
+
 ## What problem this addresses
 
 An agent or institution can be locally correct while the wider decision remains unsupported: evidence may be incomplete or correlated, roles and authority may have changed, another component may operate under a different frame, or the time and capacity required to remove uncertainty may exceed the useful response horizon. Adding more context, agents or review does not by itself establish that the resulting whole is sufficiently determined.
@@ -98,7 +100,7 @@ The decisive rule is symmetric: if B1 or B2 reproduces the proposed EA behaviour
 - [00D-A03 — deterministic Stage-0 harness design](./baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
 - [RS-00E-Q1a fixture and pre-registration](./baseline/fixtures/RS-00E-Q1a/README.md)
 
-**Current benchmark status:** comparison contract defined · hypotheses and falsifiers defined · scenarios documented · implementation profiles analysed · fixture and harness designed · pre-registration published · **comparative execution pending** · **independent validation pending**.
+**Current benchmark status:** comparison contract defined · hypotheses and falsifiers defined · scenarios documented · implementation profiles analysed · fixture and harness implemented · pre-registration published · bounded Stage-0 and 00L symbolic runs recorded · post-audit corrections recorded · **independent B0–B3 comparative execution pending** · **independent validation pending**.
 
 #### 00F in 30 seconds — The City That Stopped Safely
 
@@ -189,7 +191,7 @@ Family membership is structural, not analogical. A25/A26 transport a **separatel
 
 ### Benchmark status dashboard
 
-The sentence above remains the compact status statement. The dashboard below exposes the same programme state by artefact so that design, publication and measured execution are not conflated.
+The compact status statement appears above the scenario walkthroughs. The dashboard below exposes the same programme state by artefact so that design, publication and measured execution are not conflated.
 
 | Stage | Artefact | Current status |
 |---|---|---|
@@ -200,12 +202,13 @@ The sentence above remains the compact status statement. The dashboard below exp
 | Canonical signalling / false-context scenario 00G | [00G](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) | **Canonical working v0.4** — integrated scenario, Q0–Q5 quality plan, KPI contract and OpenAI OAI-G0/G1/G2 trajectories; historical drafts preserved as lineage; 00D/W3 execution pending |
 | Candidate opportunity / authority scenario 00H | [00H](./baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md) | **Latest working draft v0.5** — primary no-attacker "Quiet Four Thousand" with paired execution-vs-preservation silent failures; outsourced-Dispatcher V19/V20 adversarial hardening; EA0 gate audit; W3 admission/execution pending |
 | Candidate semantic-TOCTOU scenario 00I | [00I technical v0.5](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md) · [Freeze Edition](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) | **Latest working draft v0.5** — “The Patch That Undid the Fix”; OOTB/top-notch/frozen-top-notch-under-drift + V11 adaptive basis-model drift; audited AWS v0.2 profile, implementation skeletons and zero-loss Freeze Edition published; CAND-R4 remains review-only; W3 admission/execution pending |
-| Candidate rights-provenance inversion scenario 00J | [00J](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) | **Working draft v0.1** — “The Author Pays for Their Own Work”; Q0–Q5 projects existing canonical requirements into bad-vs-conforming routes with positive/negative controls; no new universal gate or S/T/H family identified; execution pending |
-| Implementation profiles | [00E-A01](./baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00E-A02](./baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00F-A01](./baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00F-A02](./baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00I-A01 AWS Step Functions/RDS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00J-A01 Panodyssey/TEMS](./baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) | **Draft implementation trajectories; source basis reviewed 24 Sep 2026** — 00I-A01 adds the audited ordinary/top-notch/frozen-under-drift AWS trajectory plus inspectable skeletons; 00J-A01 adds the rights-portability/regime-change trajectory; no measured vendor benchmark results |
+| Candidate rights-provenance inversion scenario 00J | [00J](./baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md) | **Working draft v0.1** — “The Author Pays for Their Own Work”; Q0–Q5 projects existing canonical requirements into bad-vs-conforming routes with positive/negative controls; no new universal gate or S/T/H family identified; full-scenario execution pending, with a bounded symbolic subset recorded in 00L below |
+| Implementation profiles | [00E-A01](./baseline/00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00E-A02](./baseline/00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00F-A01](./baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00F-A02](./baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00G OpenAI](./baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md#17-integrated-openai-agent-stack-implementation-trajectories) · [00H-A01 Claude](./baseline/00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00H-A02 Stripe](./baseline/00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) · [00I-A01 AWS Step Functions/RDS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [00J-A01 Panodyssey/TEMS](./baseline/00J_A01_PANODYSSEY_TEMS_RIGHTS_PORTABILITY_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) | **Draft implementation trajectories; source basis reviewed 24 Sep 2026** — 00I-A01 adds the audited ordinary/top-notch/frozen-under-drift AWS trajectory plus inspectable skeletons; 00J-A01 adds the rights-portability/regime-change trajectory; no measured vendor benchmark results |
 | Reference-oracle / test construction | [00D-A01](./baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) | **Designed** |
-| Deterministic Stage-0 harness | [00D-A03](./baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md) | **Designed** |
+| Deterministic Stage-0 harness | [00D-A03 design](./baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md) · [execution record](./baseline/fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) | **Implemented and descriptively executed** for Q1a |
 | Pre-registration | [RS-00E-Q1a fixture](./baseline/fixtures/RS-00E-Q1a/README.md) | **Published** |
-| Stage-0 descriptive execution trace | — | **Pending** |
+| Stage-0 descriptive execution trace | [Historical record](./baseline/fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) · [post-audit corrections and replay](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) | **Published** — two instrumentation controls and twelve candidate traces; shared-logic B1/B3 tie; corrected replay distinguished from the historical run |
+| 00L bounded symbolic pairs | [Package](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) · [executed scope A10](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) · [reproduction A11](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md) · [corrected evidence A14](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) | **Executed and recorded** — twelve branches, 128 omission/null guard mutations and three monetary boundaries; current arms scored separately against the oracle; full scenarios and independent product comparisons remain pending |
 | Comparative execution B0–B3 | — | **Pending** |
 | Independent validation / replication | — | **Pending** |
 
@@ -241,7 +244,7 @@ The protocol:
 
 - **Five minutes:** this page → [100 Million Tokens](./baseline/00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) → [Mobility Chaos — The City That Stopped Safely](./baseline/00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_FREEZE_EDITION.md) → [00I Freeze Edition — The Patch That Undid the Fix](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) → [benchmark status](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md).
 - **Architecture:** [canonical EA corpus](./baseline/README.md) → topology → documents 01–04 → 01H/01I/01J → interface annexes.
-- **Validation:** benchmark → A01/A03 → validation profiles → fixture/pre-registration → future execution traces.
+- **Validation:** benchmark → A01/A03 → validation profiles → fixture/pre-registration → [published Stage-0 traces](./baseline/fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) and [00L records](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) → independent comparison and replication.
 - **Institutional application:** [**current Theme #13 charter-preparation draft (01G)**](./fg-tida/charter/THEME_13_WORKING_GROUP_CHARTER_PREPARATION_DRAFT_v0.1.md) for the direct working document; use the broader [EA / FG-TIDA package](./fg-tida/README.md) for specifications/interfaces → cases/tests → provenance.
 
 ## Routing rule
