@@ -14,6 +14,8 @@
 
 </div>
 
+**Canonical source:** the versioned technical corpus in this GitHub repository governs architecture, requirements and evidence. Articles, annexes and outreach presentations communicate that corpus; they do not supersede it.
+
 ### External review / pre-standardization entry
 
 For an external technical review, start with the **Requirements & Evidence** deck above, then use this README as the single evidence route. The [technical proof map](#technical-proof-map) separates derivation, requirement closure, adversarial ablation, independence, Boolean diagnostic minimality, requirement-conformance sufficiency and case extensibility; the [canonical reuse route](#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases) shows how the same requirements-conforming path is tested beyond the six minimum fixtures.
@@ -162,17 +164,17 @@ The question is whether a system that works **locally, correctly and according t
 
 # [The validation journey](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md)
 
-Each scenario follows the same quality-oriented progression.
+Each scenario follows the same three-stage, quality-oriented documentary progression. The implementation profiles trace the technology and controls on paper; executed symbolic subsets are identified separately in the [execution records](#execution-records).
 
 **1. Standard implementation**
 
-The scenario is first executed using a conventional implementation — frequently close to an out-of-the-box configuration and using the normal controls available to the technology.
+The scenario is first examined using a conventional implementation — frequently close to an out-of-the-box configuration and using the normal controls available to the technology.
 
 In several cases, the critical failure route remains possible.
 
 **2. Carefully engineered implementation**
 
-The same route is then implemented using strong architecture, careful integration, explicit controls, supervision, authorization boundaries and current best practices.
+The same route is then examined using strong architecture, careful integration, explicit controls, supervision, authorization boundaries and current best practices.
 
 Many of the original failure paths disappear.
 
@@ -180,7 +182,7 @@ This is important: **good engineering matters**.
 
 **3. Drifted implementation**
 
-The carefully engineered system is then allowed to operate while its environment changes gradually.
+The same carefully engineered implementation is held fixed in the traversal while its environment changes gradually.
 
 No dramatic event is required. Roles shift. Dependencies change. Authority boundaries evolve. Data meaning moves. External systems change behaviour. Human availability changes. Assumptions that were originally valid become slightly less valid over time.
 
@@ -308,7 +310,7 @@ The proof programme then asks several different questions rather than relying on
 |---|---|---|
 | **Are the six principles operationally sufficient across the declared failure corpus?** | [00K six-principle sufficiency & adversarial ablation](../../research/ecosystem-awareness/baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md) · [A15 complete testbook](../../research/ecosystem-awareness/baseline/00K_A15_COMPLETE_SIX_PRINCIPLE_ABLATION_TESTBOOK_v0.1.md) | corrected leave-one-out / strongest-repair programme across 00E–00J; 346 core + 33 supplemental registered tests |
 | **Can any current principle be removed without losing a distinct invariant?** | [A16 corpus-grounded independence](../../research/ecosystem-awareness/baseline/00K_A16_FORMAL_RELATIVE_INDEPENDENCE_PROOF_P1_P6_v0.1.md) · [A20 shared-substrate mathematical independence](../../research/ecosystem-awareness/baseline/00K_A20_SHARED_SUBSTRATE_MATHEMATICAL_INDEPENDENCE_P1_P6_v0.1.md) | each Pi has a countermodel where the other five hold; current basis is irredundant relative to the declared semantics |
-| **Is six minimal for preserving the full Boolean diagnostic signature?** | [A22 full-cube / Boolean diagnostic minimality](../../research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) | all 64 P-signatures are realizable; fewer than six Boolean coordinates cannot preserve all 64 without loss |
+| **Is six minimal for preserving the full Boolean diagnostic signature?** | [A22 full-cube / Boolean diagnostic minimality](../../research/ecosystem-awareness/baseline/00K_A22_FULL_CUBE_BOOLEAN_DIAGNOSTIC_MINIMALITY_v0.1.md) | all 64 P-signatures are realizable in the simplified model; fewer than six Boolean coordinates cannot preserve all 64 without loss; lifting to all A20 background axioms B1–B11 remains open |
 | **Could a requirement be missing even if the current P↔S matrix looks complete?** | [A21 requirement-basis closure](../../research/ecosystem-awareness/baseline/00K_A21_REQUIREMENT_BASIS_CLOSURE_AND_RELATIVE_COMPLETENESS_PROOF_v0.1.md) | every admitted decision-frame object×lifecycle obligation normalizes to S1–S14; a genuine S15 must introduce a new primitive |
 | **Can a system comply with the canonical requirements and still violate the underlying principle?** | [A23 conformance-sufficiency proof](../../research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md) | finite P1/P2/P4 implications; explicit P3/P5/P6 countermodels require semantic/reachability review before any full-canon claim |
 | **Are principles and requirements merely duplicate descriptions?** | [A24 information gain / non-equivalence](../../research/ecosystem-awareness/baseline/00K_A24_PRINCIPLE_REQUIREMENT_INFORMATION_GAIN_AND_NON_EQUIVALENCE_v0.1.md) | no: requirements add typed operational information that is lost when projected back to the compact P signature |
@@ -318,7 +320,7 @@ These results are deliberately bounded. “Minimality” above means the stated 
 
 ---
 
-The next falsification step is the [**00K — Six-Principle Sufficiency & Adversarial Ablation Test**](../../research/ecosystem-awareness/baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md). Its serious symbolic layer is now complete for all six principle families: **P1 42/42, P2 58/58, P3 49/49, P4 76/76, P5 47/47 and P6 74/74 — 346 core tests**, plus 33 supplemental falsification/isolation/cross-scenario tests (**379 registered**).
+The falsification programme includes the [**00K — Six-Principle Sufficiency & Adversarial Ablation Test**](../../research/ecosystem-awareness/baseline/00K_SIX_PRINCIPLE_REQUIREMENTS_MAPPING_AND_ABLATION_TEST_v0.1_DRAFT.md). Its serious symbolic layer is now complete for all six principle families: **P1 42/42, P2 58/58, P3 49/49, P4 76/76, P5 47/47 and P6 74/74 — 346 core tests**, plus 33 supplemental falsification/isolation/cross-scenario tests (**379 registered**).
 
 The result is not “six principles proved by construction.” The programme preserved concrete counterexamples against its own earlier fixtures: the original P1 pair admitted a source-authority TRUE SUBSTITUTE, the original P3 base branch admitted a literal-HOLD shortcut, and the original 00G P6 pair admitted an authority-only TRUE SUBSTITUTE. Those fixtures were rejected or refined rather than counted as support.
 
@@ -727,6 +729,12 @@ A narrative scenario is not evidence by itself. The corpus therefore separates *
 
 The comparative method freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published sources.
 
+### Execution records
+
+The [RS-00E-Q1a Stage-0 execution record](../../research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) publishes two instrumentation controls and twelve deterministic candidate traces; B1 and B3 share decision logic and tie in this descriptive run. The [00L executed subset](../../research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A10_VERIFICACION_PARES_Y_PREVUELO_v0.1.md) covers six positive/negative symbolic pairs, with [reproduction and traces](../../research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A11_REGISTRO_REPRODUCCION_Y_TRAZAS_v0.1.md).
+
+[00L-A14](../../research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) identifies the corrected traces, post-audit Stage-0 replay and 77 separate correction checks. The current verifier scores each arm against the oracle and records peer agreement separately; shared-logic peers remain instrumentation controls. The [A23 semantic bridge review](../../research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md) adds scoped diagnostics without closing all-six canonical sufficiency. These source records distinguish the executed symbolic work from the pending independent B0–B3 comparison.
+
 This distinction matters:
 
 > **A designed harness is not an executed test. A pre-registration is not a result. A technology implementation profile is not a benchmark result.**
@@ -758,7 +766,7 @@ The benchmark therefore measures whether the architecture improves the declared 
 
 Current benchmark status:
 
-**comparison contract defined · requirements/hypotheses/falsifiers defined · scenarios and technology trajectories documented · fixture/oracle designed · deterministic harness designed · pre-registration published · comparative execution pending · independent replication pending.**
+**comparison contract defined · requirements/hypotheses/falsifiers defined · scenarios and technology trajectories documented · fixture/oracle designed · deterministic harness implemented · pre-registration published · bounded Stage-0 and 00L symbolic runs recorded · post-audit corrections recorded · independent B0–B3 comparative execution pending · independent replication pending.**
 
 ---
 
