@@ -1,7 +1,7 @@
 # Document Control — navigation, sitemap and modification rules
 
 **Version:** 1.1  
-**Control date:** 25 September 2026  
+**Control date:** 27 September 2026\
 **Owner:** Iván Abril  
 **Scope:** public navigation, README governance, routing integrity, canonical presentations, document moves/renames and editor/bot maintenance rules for `dakleyer/structural-awareness-contributions`.
 
@@ -77,7 +77,7 @@ Applied-research records and public submissions remain reachable supporting rout
 
 ### Current transitional state
 
-At the current control date, the repository contains **40 README files**. Most of the increase is deliberate local package/fixture documentation (including the 00K executable ablation family), not new top-level navigation nodes. The controlled-navigation target below remains separate from the raw README count.
+At the current control date, the repository contains **49 README files**. Most of the increase is deliberate local package/fixture documentation (including the 00K executable ablation family), not new top-level navigation nodes. The controlled-navigation target below remains separate from the raw README count.
 
 ### Target controlled state
 
@@ -111,7 +111,7 @@ The following file is explicitly protected by owner instruction:
 `research/ecosystem-awareness/README.md`
 
 **Protected content SHA at control date:**  
-`be2467353841eae8b55a506911be56dc0056c1b8`
+`355aa53f088e502993abc8e1ebd9d10e463b509b`
 
 Rule:
 
@@ -119,7 +119,8 @@ Rule:
 - Maintenance work must route around it.
 - If a future explicit instruction authorizes a change, update both the protected SHA and this section immediately.
 - **23 September 2026 owner-authorized maintenance:** routed the protected EA entry point to the current 01J signalling successor and reconciled delta/agentic-gradient terminology.
-- **23 September 2026 owner-authorized hierarchy reconciliation:** clarified that EA is one of the three maintained technical gates of Ecosystem Positioning; protected SHA updated above.
+- **23 September 2026 owner-authorized hierarchy reconciliation:** clarified that EA is one of the three maintained technical gates of Ecosystem Positioning.
+- **27 September 2026 completeness-review proposal:** the owner requested a renewed completeness/link/coherence review of the EP and EA READMEs, with GitHub as the canonical source. The proposal updates published execution routes and stale dashboard status, retains every prior link and section, and aligns this recorded blob SHA with the proposed EA router. The canonical evidence files are unchanged. Before this proposal, the recorded SHA was stale: published EA at `7775828` had blob `5f7db8204bac312b53fe0f1681e35f2055b5ad05`.
 
 The current Regime Awareness and MSCA READMEs are also maintained as preserved technical corpus entry points. Navigation changes should route to them rather than rewriting them unless the owner explicitly requests a content change.
 
@@ -328,7 +329,7 @@ After the change:
 
 ## 7. Current consolidation rule
 
-The current approved consolidation objective is to reduce the transitional **22 README files to 9 controlled README files without losing content**.
+The current approved consolidation objective is to maintain **9 controlled README files without losing content**, from an initial consolidation baseline of 22 README files; the current raw count is recorded in §2.
 
 The reduction must follow the case-by-case audit already established:
 
