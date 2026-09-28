@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Deterministically repair the two canonical Ecosystem Positioning v1.2 decks.
 
-The maintenance operation is intentionally narrow: normalize each committed
-PPTX through a desktop office engine, repair only the layout defects found in
-the 28 Sep 2026 slide-by-slide audit, preserve all hyperlink destinations, and
-make only the explicitly listed wording corrections. Existing filenames stay
-unchanged so public links and Git history remain the version lineage.
+The operation is deliberately narrow: normalize the committed PPTX packages
+through a desktop office engine, repair only the layout defects found in the
+28 Sep 2026 slide-by-slide audit, preserve all hyperlink destinations, and make
+only the explicitly approved wording corrections. The canonical filenames stay
+unchanged so Git history remains the version lineage.
 """
 from __future__ import annotations
 
@@ -60,12 +60,7 @@ def slide_text(path: Path) -> str:
 
 
 def link_destinations(path: Path) -> set[str]:
-    """Return semantic hyperlink destinations, independent of run splitting.
-
-    A visual hard line break can legitimately turn one hyperlink run into two
-    runs pointing to the same target. Destination-set equality therefore tests
-    that no route is lost without treating that visual repair as a link change.
-    """
+    """Return semantic hyperlink destinations, independent of run splitting."""
     prs = Presentation(path)
     result: set[str] = set()
     for slide in prs.slides:
@@ -104,27 +99,64 @@ def set_size(paragraph, pt: float) -> None:
         run_.font.size = Pt(pt)
 
 
+def set_shape_size(shape, pt: float) -> None:
+    if not getattr(shape, "has_text_frame", False):
+        return
+    for paragraph in shape.text_frame.paragraphs:
+        set_size(paragraph, pt)
+
+
 def compact(paragraph) -> None:
     paragraph.space_before = Pt(0)
     paragraph.space_after = Pt(0)
 
 
-def split_linked_detail(paragraph, lines: list[str], font_pt: float = 7.0) -> None:
+def rebuild_linked_lines(paragraph, lines: list[str], *, font_pt: float) -> None:
+    """Rebuild one linked paragraph with deterministic hard line breaks.
+
+    This is idempotent: a second repair pass replaces the prior runs rather than
+    appending another set of breaks.
+    """
     if not paragraph.runs:
-        raise RuntimeError("expected linked process-detail run")
-    first = paragraph.runs[0]
-    link = first.hyperlink.address
-    first.text = lines[0]
-    first.font.size = Pt(font_pt)
-    for text in lines[1:]:
-        paragraph.add_line_break()
-        extra = paragraph.add_run()
-        extra.text = text
-        extra.font.size = Pt(font_pt)
+        raise RuntimeError("expected linked paragraph")
+    source_runs = list(paragraph.runs)
+    link = next((run_.hyperlink.address for run_ in source_runs if run_.hyperlink.address), None)
+    bold = next((run_.font.bold for run_ in source_runs if run_.font.bold is not None), None)
+    italic = next((run_.font.italic for run_ in source_runs if run_.font.italic is not None), None)
+    paragraph.clear()
+    compact(paragraph)
+    for idx, text in enumerate(lines):
+        if idx:
+            paragraph.add_line_break()
+        new_run = paragraph.add_run()
+        new_run.text = text
+        new_run.font.size = Pt(font_pt)
+        if bold is not None:
+            new_run.font.bold = bold
+        if italic is not None:
+            new_run.font.italic = italic
         if link:
-            extra.hyperlink.address = link
-            extra.font.underline = True
-            extra.font.color.theme_color = MSO_THEME_COLOR.HYPERLINK
+            new_run.hyperlink.address = link
+            new_run.font.underline = True
+            new_run.font.color.theme_color = MSO_THEME_COLOR.HYPERLINK
+
+
+def repair_cover(slide) -> None:
+    """Make the shared cover robust to PowerPoint/LibreOffice font metrics."""
+    for shape in slide.shapes:
+        if not getattr(shape, "has_text_frame", False):
+            continue
+        if norm(shape.text) == "Ecosystem Positioning for Agentic Systems":
+            shape.width = Inches(8.0)
+            shape.height = Inches(1.46)
+            tf = shape.text_frame
+            tf.margin_left = 0
+            tf.margin_right = 0
+            tf.margin_top = 0
+            tf.margin_bottom = 0
+            for paragraph in tf.paragraphs:
+                compact(paragraph)
+                set_size(paragraph, 40.0)
 
 
 def repair_architecture(path: Path) -> None:
@@ -132,16 +164,18 @@ def repair_architecture(path: Path) -> None:
     if len(prs.slides) != 7:
         raise RuntimeError(f"unexpected architecture slide count: {len(prs.slides)}")
 
-    # Cover: correct the displayed v1.2 revision/date only.
+    # Cover metadata and cross-renderer title sizing.
+    repair_cover(prs.slides[0])
     for shape in prs.slides[0].shapes:
         if getattr(shape, "has_text_frame", False):
             for paragraph in shape.text_frame.paragraphs:
                 for run_ in paragraph.runs:
                     replace_text(run_, "V1.1 · 2026-09-25", "V1.2 · 2026-09-28")
 
-    # Slide 2: narrow process cards previously broke identifiers mid-word.
+    # Slide 2: narrow process cards use explicit semantic breaks rather than
+    # allowing the renderer to split identifiers in the middle of a word.
     slide = prs.slides[1]
-    for idx in range(10, 17):  # human shapes 11..17
+    for idx in range(10, 17):
         shape = slide.shapes[idx]
         shape.height = Inches(0.95)
         tf = shape.text_frame
@@ -164,9 +198,10 @@ def repair_architecture(path: Path) -> None:
         16: ["Authority decides;", "signals ≠ commands"],
     }
     for shape_index, lines in details.items():
-        split_linked_detail(slide.shapes[shape_index].text_frame.paragraphs[2], lines)
+        rebuild_linked_lines(slide.shapes[shape_index].text_frame.paragraphs[2], lines, font_pt=7.0)
 
-    # Slide 5: top context cards previously spilled below their containers.
+    # Slide 5: top context cards need enough vertical space under substitute
+    # desktop fonts.
     slide = prs.slides[4]
     for idx in range(2, 6):
         shape = slide.shapes[idx]
@@ -187,21 +222,98 @@ def repair_requirements(path: Path) -> None:
     if len(prs.slides) != 12:
         raise RuntimeError(f"unexpected requirements slide count: {len(prs.slides)}")
 
+    # Cover.
+    repair_cover(prs.slides[0])
     for shape in prs.slides[0].shapes:
         if getattr(shape, "has_text_frame", False):
             for paragraph in shape.text_frame.paragraphs:
                 for run_ in paragraph.runs:
                     replace_text(run_, "V1.1 · 2026-09-25", "V1.2 · 2026-09-28")
 
-    # Slide 6: prevent Type-1 heading breaking inside "uncertainty".
-    for shape in prs.slides[5].shapes:
-        if getattr(shape, "has_text_frame", False):
-            for paragraph in shape.text_frame.paragraphs:
-                if paragraph.text.startswith("TYPE 1 · Unbounded unresolved uncertainty"):
-                    set_size(paragraph, 12.0)
+    # Slide 4: scenario-card headings must remain whole words. A fixed 10.5 pt
+    # size fits all six headings in the existing 2.92-inch title boxes under
+    # both the GitHub runner and desktop-office font metrics.
+    slide = prs.slides[3]
+    scenario_titles = {
+        "The 100 Million Token Enterprise",
+        "Chaos in the Smartcity",
+        "Ciber Napoleon Goes to Russia",
+        "The Quiet Four Thousand",
+        "The Patch That Undid the Fix",
+        "The Author Pays for His Own Work",
+    }
+    for shape in slide.shapes:
+        if getattr(shape, "has_text_frame", False) and norm(shape.text) in scenario_titles:
+            shape.height = Inches(0.24)
+            set_shape_size(shape, 10.5)
 
-    # Slide 9: use the current bounded A23 claim and keep the integrated-check
-    # strip on one line.
+    # Slide 5: keep the long title on one line, prevent the 00G label from
+    # colliding with its technology link, and give the two multi-line trajectory
+    # headings their own vertical space before the body copy starts.
+    slide = prs.slides[4]
+    for shape in slide.shapes:
+        if not getattr(shape, "has_text_frame", False):
+            continue
+        text = norm(shape.text)
+        if text == "Technology used in the scenario routes and the three validation trajectories":
+            shape.height = Inches(0.38)
+            set_shape_size(shape, 18.5)
+        elif text.startswith("00G Ciber Napoleon Goes to Russia"):
+            shape.height = Inches(0.22)
+            set_shape_size(shape, 9.8)
+        elif text == "OpenAI Agents SDK / Agents API / Responses multi-agent stack":
+            shape.top = Inches(4.08)
+        elif text == "Defended / top-notch implementation":
+            shape.height = Inches(0.32)
+            set_shape_size(shape, 9.2)
+        elif text.startswith("Strong implementation with explicit controls"):
+            shape.top = Inches(5.94)
+            shape.height = Inches(0.38)
+            set_shape_size(shape, 8.5)
+        elif text == "Frozen defended implementation under drift":
+            shape.height = Inches(0.32)
+            set_shape_size(shape, 9.0)
+        elif text.startswith("The same defended implementation is frozen"):
+            shape.top = Inches(5.94)
+            shape.height = Inches(0.38)
+            set_shape_size(shape, 8.3)
+
+    # Slide 6: expand all three failure-type cards rather than squeezing the
+    # explanatory text, and use one robust heading size across the row.
+    slide = prs.slides[5]
+    for idx in (19, 20, 23, 24, 27, 28):
+        slide.shapes[idx].height = Inches(2.05)
+    for idx in (21, 25, 29):
+        shape = slide.shapes[idx]
+        shape.height = Inches(0.38)
+        set_shape_size(shape, 10.5)
+    for idx in (22, 26, 30):
+        shape = slide.shapes[idx]
+        shape.top = Inches(4.52)
+        shape.height = Inches(1.48)
+        set_shape_size(shape, 8.8)
+        for paragraph in shape.text_frame.paragraphs:
+            compact(paragraph)
+
+    # Slide 7: the title is intentionally one line; the previous auto-wrap put
+    # “contract.” on a second line on top of the subtitle.
+    slide = prs.slides[6]
+    for shape in slide.shapes:
+        if getattr(shape, "has_text_frame", False) and norm(shape.text) == "Six severe failure routes. Fourteen requirements. One common contract.":
+            shape.height = Inches(0.42)
+            set_shape_size(shape, 18.0)
+
+    # Slide 8: six compact route buttons should remain one-line labels.
+    slide = prs.slides[7]
+    for shape in slide.shapes:
+        if not getattr(shape, "has_text_frame", False):
+            continue
+        text = norm(shape.text)
+        if re.fullmatch(r"00[EFGHIJ] · .+", text):
+            set_shape_size(shape, 7.0)
+
+    # Slide 9: current A23 result is a partial conformance-audit result, not an
+    # all-six sufficiency claim; keep the integrated-check strip on one line.
     for shape in prs.slides[8].shapes:
         if not getattr(shape, "has_text_frame", False):
             continue
@@ -278,8 +390,6 @@ def main() -> int:
         if slide_text(req_stage) != expected_text(before_text[REQ.name], True):
             raise RuntimeError("unexpected requirements text change")
 
-        # Preserve every unique destination. Extra runs created by explicit line
-        # breaks may repeat the same destination and are intentionally ignored.
         if link_destinations(arch_stage) != before_links[ARCH.name]:
             raise RuntimeError("architecture hyperlink destinations changed")
 
