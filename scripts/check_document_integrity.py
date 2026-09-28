@@ -36,7 +36,7 @@ REQUIRED_REFERENCES = (
     "SCENARIO_READER_GUIDE_2026-09-25.md",
 )
 PRESENTATIONS = {
-    "Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx": (8, 10000),
+    "Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx": (7, 10000),
     "Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx": (12, 12000),
 }
 
