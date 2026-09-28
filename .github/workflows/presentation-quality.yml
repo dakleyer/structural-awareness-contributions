@@ -5,11 +5,13 @@ on:
     paths:
       - 'presentations/ecosystem-positioning/**'
       - 'scripts/audit_presentation_quality.py'
+      - 'scripts/openxml-presentation-validator/**'
       - '.github/workflows/presentation-quality.yml'
   pull_request:
     paths:
       - 'presentations/ecosystem-positioning/**'
       - 'scripts/audit_presentation_quality.py'
+      - 'scripts/openxml-presentation-validator/**'
       - '.github/workflows/presentation-quality.yml'
 
 jobs:
@@ -22,12 +24,29 @@ jobs:
         with:
           python-version: '3.12'
 
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
       - name: Install desktop rendering and audit dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y libreoffice-impress poppler-utils
           python -m pip install --upgrade pip
           python -m pip install python-pptx pillow
+
+      - name: Validate canonical PPTX with Microsoft Open XML SDK
+        shell: bash
+        run: |
+          mkdir -p presentation-audit
+          set +e
+          dotnet run --project scripts/openxml-presentation-validator/OpenXmlPresentationValidator.csproj -- \
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx \
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx \
+            2>&1 | tee presentation-audit/openxml-validation.txt
+          rc=${PIPESTATUS[0]}
+          echo "$rc" > presentation-audit/openxml-validation.exitcode
+          exit 0
 
       - name: Audit canonical v1.2 PPTX packages and render every slide
         run: python scripts/audit_presentation_quality.py
@@ -40,3 +59,13 @@ jobs:
           path: presentation-audit/
           if-no-files-found: error
           retention-days: 14
+
+      - name: Enforce Microsoft Open XML validation
+        if: always()
+        shell: bash
+        run: |
+          rc=$(cat presentation-audit/openxml-validation.exitcode 2>/dev/null || echo 1)
+          if [ "$rc" != "0" ]; then
+            echo "Microsoft Open XML validation failed. See the uploaded presentation audit artifact."
+            exit 1
+          fi
