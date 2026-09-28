@@ -1,0 +1,215 @@
+name: Canonical PPTX Audit
+
+on:
+  push:
+    branches:
+      - audit/pptx-canonical-2026-09-28
+    paths:
+      - .github/workflows/canonical-pptx-audit.yml
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout canonical main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install audit dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice poppler-utils libxml2-utils fonts-dejavu-core fonts-liberation
+          python -m pip install --quiet python-pptx lxml pillow
+
+      - name: Package, XML and geometry audit
+        run: |
+          mkdir -p audit/rendered audit/pdf
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile, BadZipFile
+          from xml.etree import ElementTree as ET
+          from pptx import Presentation
+          import json, math
+
+          files = [
+              Path('presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx'),
+              Path('presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx'),
+          ]
+          report = []
+          for f in files:
+              item = {'file': str(f), 'size': f.stat().st_size, 'zip_ok': False, 'xml_ok': False,
+                      'pptx_load_ok': False, 'slides': None, 'off_slide_shapes': [], 'text_shapes': [],
+                      'suspicious_overlaps': [], 'errors': []}
+              try:
+                  with ZipFile(f) as z:
+                      bad = z.testzip()
+                      if bad:
+                          item['errors'].append(f'ZIP CRC failure: {bad}')
+                      else:
+                          item['zip_ok'] = True
+                      xml_errors = []
+                      for name in z.namelist():
+                          if name.endswith(('.xml', '.rels')):
+                              try:
+                                  ET.fromstring(z.read(name))
+                              except Exception as e:
+                                  xml_errors.append(f'{name}: {e}')
+                      if xml_errors:
+                          item['errors'].extend(xml_errors)
+                      else:
+                          item['xml_ok'] = True
+                      names = set(z.namelist())
+                      for required in ('[Content_Types].xml','ppt/presentation.xml','_rels/.rels'):
+                          if required not in names:
+                              item['errors'].append(f'Missing required OOXML part: {required}')
+              except BadZipFile as e:
+                  item['errors'].append(f'BadZipFile: {e}')
+
+              try:
+                  prs = Presentation(str(f))
+                  item['pptx_load_ok'] = True
+                  item['slides'] = len(prs.slides)
+                  sw, sh = prs.slide_width, prs.slide_height
+                  tol = 20000
+                  for si, slide in enumerate(prs.slides, start=1):
+                      boxes=[]
+                      for idx, shape in enumerate(slide.shapes, start=1):
+                          x,y,w,h = shape.left, shape.top, shape.width, shape.height
+                          name = shape.name
+                          if x < -tol or y < -tol or x+w > sw+tol or y+h > sh+tol:
+                              item['off_slide_shapes'].append({'slide':si,'shape':idx,'name':name,
+                                  'x':x,'y':y,'w':w,'h':h,'slide_w':sw,'slide_h':sh})
+                          if getattr(shape, 'has_text_frame', False):
+                              text='\n'.join(p.text for p in shape.text_frame.paragraphs).strip()
+                              if text:
+                                  boxes.append((idx,name,x,y,w,h,text))
+                                  item['text_shapes'].append({'slide':si,'shape':idx,'name':name,
+                                      'chars':len(text),'x':x,'y':y,'w':w,'h':h})
+                      # conservative: only flag severe text-box intersections (>65% of smaller area)
+                      for a in range(len(boxes)):
+                          for b in range(a+1,len(boxes)):
+                              ia,na,xa,ya,wa,ha,ta=boxes[a]
+                              ib,nb,xb,yb,wb,hb,tb=boxes[b]
+                              ix=max(0,min(xa+wa,xb+wb)-max(xa,xb))
+                              iy=max(0,min(ya+ha,yb+hb)-max(ya,yb))
+                              inter=ix*iy
+                              if inter and min(wa*ha,wb*hb)>0 and inter/min(wa*ha,wb*hb) > 0.65:
+                                  # ignore exact/near-exact nested boxes only when one has almost no text
+                                  item['suspicious_overlaps'].append({'slide':si,'a':na,'b':nb,
+                                      'overlap_ratio_smaller':round(inter/min(wa*ha,wb*hb),3),
+                                      'a_text':ta[:120],'b_text':tb[:120]})
+              except Exception as e:
+                  item['errors'].append(f'python-pptx load: {type(e).__name__}: {e}')
+
+              report.append(item)
+
+          Path('audit/package_geometry_report.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+          with Path('audit/summary.txt').open('w', encoding='utf-8') as out:
+              for x in report:
+                  out.write(f"FILE: {x['file']}\n")
+                  out.write(f"size={x['size']} zip_ok={x['zip_ok']} xml_ok={x['xml_ok']} pptx_load_ok={x['pptx_load_ok']} slides={x['slides']}\n")
+                  out.write(f"off_slide_shapes={len(x['off_slide_shapes'])} suspicious_text_overlaps={len(x['suspicious_overlaps'])}\n")
+                  if x['errors']:
+                      out.write('ERRORS:\n' + '\n'.join('  - '+e for e in x['errors']) + '\n')
+                  out.write('\n')
+          PY
+          cat audit/summary.txt
+
+      - name: Validate with Microsoft Open XML SDK
+        run: |
+          mkdir -p audit/openxmlvalidator
+          cd audit/openxmlvalidator
+          dotnet new console --framework net8.0 --force >/dev/null
+          dotnet add package DocumentFormat.OpenXml --version 3.3.0 >/dev/null
+          cat > Program.cs <<'CS'
+          using DocumentFormat.OpenXml.Packaging;
+          using DocumentFormat.OpenXml.Validation;
+
+          var files = new[] {
+            "../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx",
+            "../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx"
+          };
+          using var writer = new StreamWriter("../openxml_validation.txt");
+          foreach (var file in files) {
+            writer.WriteLine($"FILE: {file}");
+            try {
+              using var doc = PresentationDocument.Open(file, false);
+              var validator = new OpenXmlValidator();
+              var errors = validator.Validate(doc).ToList();
+              writer.WriteLine($"OPEN_OK=true VALIDATION_ERRORS={errors.Count}");
+              int i = 0;
+              foreach (var e in errors.Take(200)) {
+                writer.WriteLine($"[{++i}] {e.Description}");
+                writer.WriteLine($"    Part={e.Part?.Uri} Path={e.Path?.XPath}");
+              }
+            } catch (Exception ex) {
+              writer.WriteLine($"OPEN_OK=false {ex.GetType().Name}: {ex.Message}");
+            }
+            writer.WriteLine();
+          }
+          CS
+          dotnet run --no-restore >/dev/null
+          cd ../..
+          cat audit/openxml_validation.txt
+
+      - name: LibreOffice desktop-compatibility render
+        run: |
+          set +e
+          for f in \
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx \
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx
+          do
+            stem=$(basename "$f" .pptx)
+            echo "=== $stem ===" | tee -a audit/libreoffice_render.txt
+            timeout 90s libreoffice --headless --convert-to pdf --outdir audit/pdf "$f" >> audit/libreoffice_render.txt 2>&1
+            rc=$?
+            echo "libreoffice_rc=$rc" | tee -a audit/libreoffice_render.txt
+            if [ -f "audit/pdf/$stem.pdf" ]; then
+              pdfinfo "audit/pdf/$stem.pdf" | grep -E 'Pages:|Page size:|File size:' | tee -a audit/libreoffice_render.txt
+              mkdir -p "audit/rendered/$stem"
+              pdftoppm -png -r 144 "audit/pdf/$stem.pdf" "audit/rendered/$stem/slide" >/dev/null 2>&1
+              echo "rendered_pngs=$(find "audit/rendered/$stem" -name '*.png' | wc -l)" | tee -a audit/libreoffice_render.txt
+            else
+              echo "PDF_NOT_CREATED" | tee -a audit/libreoffice_render.txt
+            fi
+          done
+          cat audit/libreoffice_render.txt
+
+      - name: Build rendered contact sheets
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageOps, ImageDraw
+          for d in Path('audit/rendered').iterdir():
+              if not d.is_dir(): continue
+              imgs=[]
+              for p in sorted(d.glob('slide-*.png')):
+                  im=Image.open(p).convert('RGB')
+                  im.thumbnail((640,360))
+                  canvas=Image.new('RGB',(660,400),'white')
+                  canvas.paste(im,((660-im.width)//2,10))
+                  ImageDraw.Draw(canvas).text((10,375),p.stem,fill='black')
+                  imgs.append(canvas)
+              if not imgs: continue
+              cols=2; rows=(len(imgs)+1)//2
+              sheet=Image.new('RGB',(cols*660,rows*400),'white')
+              for i,im in enumerate(imgs):
+                  sheet.paste(im,((i%cols)*660,(i//cols)*400))
+              sheet.save(Path('audit')/(d.name+'_contact_sheet.png'))
+          PY
+
+      - name: Upload audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: canonical-pptx-audit
+          path: |
+            audit/
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx
+          if-no-files-found: error
+          retention-days: 1
