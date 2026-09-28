@@ -22,6 +22,8 @@ Within the existing Theme #13 scope, this charter candidate would develop two re
 
 The originating Theme #13 is broader than these first two deliverables. Its ecosystem-defense problem space also includes identity/accountability, detection/monitoring, reputation, privacy-preserving operation and incentives/alignment. This charter does **not** silently delete those surfaces. It stages them: the first cycle concentrates on the lifecycle + EA foundation, while the broader Theme capabilities are consumed from adjacent work, retained as later profile/deliverable candidates, or separately scoped if FG-TIDA decides that another Theme/WG should own them.
 
+The originating issue asks whether #13 is too large for one theme and should be split. This charter proposes staging the work, with the Lifecycle and EA foundation first, without prejudging a later FG-TIDA decision to split or redistribute the broader scope. Ward's [public placement and interoperability comment](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5571476256) supports EA within #13 and independent definition and testing of the determinacy envelope and signal lifecycle; it does not constitute approval of this v0.2 text.
+
 ## Scope
 
 The first cycle has two independently testable mechanisms, **EA** and **Incident / Signal Lifecycle**. Oleksii's matrix contribution is decomposed into EA-facing qualification and a bounded operational-contextualization function. This is a working functional boundary, not a requirement for a third deployed layer, a new awareness system or an approved FG-TIDA organizational structure.
@@ -348,6 +350,12 @@ The initial **working boundaries** are strongest for:
 - **Theme #16 — Operational Human Oversight:** human authority/capacity/decision/execution/re-entry state.
 - **Theme #6 — Intent / Policy Runtime Conformance:** source-native conformance/verdict semantics are public; the specific #6→EA adapter remains a candidate profile.
 
+The following boundaries are also explicitly carried from the originating issue and remain subject to alignment with the respective Themes:
+
+- **[Theme #10 — Network-Native Governance and Trust Enforcement for Agentic AI](https://github.com/FG-TIDA/themes/issues/10):** the network/infrastructure governance and enforcement plane. This charter exchanges qualified signals and consumes enforcement outcomes; it does not define network-level enforcement or grant authority to that plane.
+- **[Theme #12 — Agent Trust Mechanics](https://github.com/FG-TIDA/themes/issues/12):** trust mechanisms inside the agent, including credential handling, memory/context assurance and confidential computing. This charter addresses cross-party ecosystem qualification and defence; it does not redefine those internal mechanisms.
+- **[Theme #14 — Agent-to-Principal Legal Binding](https://github.com/FG-TIDA/themes/issues/14):** a dependency for principal linkage and mandate/responsibility information. This charter consumes source-owned binding information through privacy-preserving, contestable interfaces; it does not establish legal binding or principal authority.
+
 Useful **candidate supporting profiles** include:
 
 - **Theme #7 — Verifier-side requirements:** evidence appraisal/failure semantics and negative vectors.
@@ -394,6 +402,8 @@ Reviewers are invited to focus on questions that remain genuinely unresolved.
 21. **Revalidation contract:** specify material-change, expiry/review and targeted re-entry conditions, and how unchanged-state circulation and unbounded escalation are prevented.
 22. **First differential protocol:** agree the independent/shared-lineage/late-evidence branches, fixed budget and consequence model, strong native comparator, available capabilities and stopping criterion.
 23. **Current-state update:** record the 27–28 September contributions as a dated 05A review proposal; reconcile obsolete case-availability statements without rewriting frozen sources or claiming FG adoption.
+
+24. **Alignment with #10 and #12:** how should scope and boundaries be aligned with Network-Native Governance and Trust Enforcement and Agent Trust Mechanics? Carried from the originating issue; the Related Themes descriptions are proposed working boundaries, not agreements on behalf of those Themes.
 
 For this preparation draft, **independent Incident Lifecycle and Ecosystem Awareness mechanisms are the current technical drafting baseline**. The exact wording, broader Theme #13 partitioning and institutional packaging remain reviewable through the FG-TIDA process.
 
