@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/repair_ecosystem_positioning_v12.py'
+      - 'scripts/finalize_ecosystem_positioning_v12_layout.py'
       - '.github/workflows/repair-ecosystem-positioning-v12.yml'
   workflow_dispatch:
 
@@ -31,6 +32,9 @@ jobs:
 
       - name: Normalize and repair the two canonical v1.2 decks
         run: python scripts/repair_ecosystem_positioning_v12.py
+
+      - name: Finalize residual cross-renderer layout
+        run: python scripts/finalize_ecosystem_positioning_v12_layout.py
 
       - name: Verify only canonical PPTX binaries changed
         shell: bash
