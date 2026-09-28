@@ -9,7 +9,7 @@
 | **Status** | Working applied validation protocol; no executed comparative result |
 | **Host** | Ecosystem Awareness entry-point router |
 | **Architectural relation** | Ecosystem Positioning / EA / MSCA / signalling / ACC-authority interfaces |
-| **Primary purpose** | Cross-platform review, ranking-by-evidence and external applied validation with an AI research or agent-platform partner |
+| **Primary purpose** | Cross-platform review, evidence-strength qualification and external applied validation with an AI research or agent-platform partner |
 | **Execution ceiling today** | Synthetic challenge pack and offline trace audit; sandbox/sidecar only after a partner and preregistered protocol exist |
 | **Control route** | [Ecosystem Awareness / Positioning Living Workplan](./WORKPLAN.md) |
 | **Predecessor** | [Decision Boundary Challenge v0.1](./DECISION_BOUNDARY_CHALLENGE_v0.1.md) — preserved working predecessor |
@@ -384,9 +384,9 @@ It MUST NOT be formalized until:
 
 ---
 
-## 10. Ranking and review rule
+## 10. Comparative review rule
 
-The protocol may be used to **review or rank configurations inside a declared fixture/envelope**, but it MUST NOT generate a universal vendor league table.
+The protocol may be used to **compare configurations inside a declared fixture/envelope**, but it MUST NOT generate a universal vendor league table.
 
 ### 10.1 Admission gates
 
@@ -428,7 +428,7 @@ Negative findings remain valid evidence.
 ---
 
 
-## 10A. Evidence ladder — rank the evidence, not the vendor
+## 10A. Evidence-maturity ladder — qualify the evidence, not the vendor
 
 DBC may order the **strength of evidence supporting a scoped claim**, but it MUST NOT convert that ordering into a universal product-quality score.
 
