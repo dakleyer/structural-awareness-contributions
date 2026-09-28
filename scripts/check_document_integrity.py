@@ -36,9 +36,8 @@ REQUIRED_REFERENCES = (
     "SCENARIO_READER_GUIDE_2026-09-25.md",
 )
 PRESENTATIONS = {
-    "Ecosystem_Positioning_Canonical.pptx": (17, 20000),
-    "Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.1.pptx": (8, 10000),
-    "Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.1.pptx": (12, 12000),
+    "Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx": (8, 10000),
+    "Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx": (12, 12000),
 }
 
 
@@ -84,6 +83,10 @@ def main() -> int:
             errors.append(f"missing presentation: {filename}")
             continue
         with zipfile.ZipFile(target) as deck:
+            bad_member = deck.testzip()
+            if bad_member:
+                errors.append(f"corrupt presentation member: {filename} -> {bad_member}")
+                continue
             slides = [name for name in deck.namelist()
                       if re.fullmatch(r"ppt/slides/slide\d+\.xml", name)]
             text_size = sum(
@@ -103,7 +106,7 @@ def main() -> int:
         print("\n".join(errors))
         return 1
     print(f"DOCUMENT INTEGRITY: PASS ({checked_links} local routes, "
-          f"{len(REQUIRED_SECTIONS)} architecture sections, {len(PRESENTATIONS)} decks)")
+          f"{len(REQUIRED_SECTIONS)} architecture sections, {len(PRESENTATIONS)} canonical decks)")
     return 0
 
 
