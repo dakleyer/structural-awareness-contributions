@@ -1,0 +1,42 @@
+name: Presentation quality
+
+on:
+  push:
+    paths:
+      - 'presentations/ecosystem-positioning/**'
+      - 'scripts/audit_presentation_quality.py'
+      - '.github/workflows/presentation-quality.yml'
+  pull_request:
+    paths:
+      - 'presentations/ecosystem-positioning/**'
+      - 'scripts/audit_presentation_quality.py'
+      - '.github/workflows/presentation-quality.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install desktop rendering and audit dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-impress poppler-utils
+          python -m pip install --upgrade pip
+          python -m pip install python-pptx pillow
+
+      - name: Audit canonical v1.2 PPTX packages and render every slide
+        run: python scripts/audit_presentation_quality.py
+
+      - name: Upload rendered decks and audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ecosystem-positioning-v1.2-presentation-audit
+          path: presentation-audit/
+          if-no-files-found: error
+          retention-days: 14
