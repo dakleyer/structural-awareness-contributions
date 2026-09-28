@@ -12,13 +12,13 @@
 
 **Baseline:** a successor to the v0.1 candidate text, preserving its five proposed deliverables (D1–D5, defined under Objectives) and broader Theme #13 boundaries. The v0.1 source is unchanged. The initial architecture/source review is pinned to repository commit `2db60a1fa4faa5ec08c6754cc676b8f70431c32a`. The reader-orientation revision checks terminology against `90cb592272f082aaa88b7798ef1c543f7e6c3343` and the public contributions recorded in the companion review dossier.
 
-**Reading rule:** this charter defines work and boundaries. Detailed data formats, transition rules, software interfaces, reproducible test cases and conformance criteria belong in the resulting deliverables, not in the charter itself. See [review and compatibility dossier](WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md) for source-level mappings, changes from v0.1 and unresolved review items.
+**Reading guide:** the main text defines scope, responsibilities, deliverables and acceptance conditions. Reference detail follows in [Annex A — Working vocabulary](#annex-a-working-vocabulary), [Annex B — Reference architecture](#annex-b-reference-architecture), [Annex C — Theme #13 envelope](#annex-c-theme-13-envelope) and [Annex D — Reference cases and delivery detail](#annex-d-reference-cases-and-delivery-detail). Moving detail to an annex does not remove its boundaries or applicable review conditions. Detailed data formats, transition rules, software interfaces and test procedures remain work for the deliverables. The [review and compatibility dossier](WG13_v0.2_REVIEW_AND_COMPATIBILITY_2026-09-28.md) records sources, changes from v0.1 and unresolved review items.
 
 ## Summary
 
 Agentic ecosystems increasingly connect independently governed agents, services, humans, evaluators, attesters and infrastructure. Each participant may reach a locally valid result while the combined ecosystem still lacks enough qualified information to support a receiving decision, or while harmful effects propagate across organizational boundaries.
 
-Within the existing Theme #13 scope, this charter candidate would develop two related, independently testable capabilities: **(1) an Incident / Signal Lifecycle** for ecosystem-defense signalling, corroboration, affected-scope/blast-radius refinement, locally authorized response coordination and resolution; and **(2) Ecosystem Awareness (EA)**, which assesses what independently produced results collectively establish for a specific participant's decision at a given time, what remains unresolved or inherited through dependencies, and when that assessment needs to be revisited. This decision-specific assessment is called **qualification**; **targeted requalification** means revisiting the affected assessment or dependency when relevant evidence, context or validity conditions change, rather than restarting every assessment. The work would connect them through bounded, source-preserving interfaces without creating a central controller or new authority. **Defense is the first concrete implementation context, not a requirement that the reusable qualification/handoff semantics be defense-exclusive.**
+Within the existing Theme #13 scope, this charter candidate would develop two related, independently testable capabilities: **(1) an Incident / Signal Lifecycle** for ecosystem-defense signals, corroborating evidence, refining the scope of effects, coordinating locally authorized responses and recording resolution; and **(2) Ecosystem Awareness (EA)**, which assesses what independently produced results collectively establish for a specific participant's decision at a given time, what remains unresolved or inherited through dependencies, and when that assessment needs to be revisited. This decision-specific assessment is called **qualification**; **targeted requalification** means revisiting the affected assessment or dependency when relevant evidence, context or validity conditions change, rather than restarting every assessment. The work would connect them through bounded, source-preserving interfaces without creating a central controller or new authority. **Defense is the first concrete implementation context, not a requirement that the reusable qualification/handoff semantics be defense-exclusive.**
 
 The originating Theme #13 is broader than these first two deliverables. Its ecosystem-defense problem space also includes identity/accountability, detection/monitoring, reputation, privacy-preserving operation and incentives/alignment. This charter does **not** silently delete those surfaces. It stages them: the first cycle concentrates on the lifecycle + EA foundation, while the broader Theme capabilities are consumed from adjacent work, retained as later profile/deliverable candidates, or separately scoped if FG-TIDA decides that another Theme/WG should own them.
 
@@ -26,24 +26,9 @@ The originating issue asks whether #13 is too large for one theme and should be 
 
 ## Scope
 
-The first cycle has two independently testable mechanisms, **EA** and **Incident / Signal Lifecycle**. Oleksii Voshchak's **Operational Risk, Response Window & Epistemic Opportunity Matrix** is a proposed decision-support structure connecting qualified information with the operational context in which a decision must be made. His accompanying worked example applies it to the authority-applicability case introduced under the delivery sequence below. Following his [revised decomposition](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5854694913), the charter separates EA-facing qualification from **operational contextualization**: relating that qualification to consequences, available capacity and the time in which a response remains useful. This is a working functional boundary, not a requirement for a third deployed layer, a new awareness system or an approved FG-TIDA organizational structure.
+The first cycle has two independently testable mechanisms, **EA** and **Incident / Signal Lifecycle**. Oleksii Voshchak's **Operational Risk, Response Window & Epistemic Opportunity Matrix** is a proposed decision-support structure connecting qualified information with the operational context in which a decision must be made. His accompanying worked example applies it to the authority-applicability case described in Annex D. Following his [revised decomposition](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5854694913), the charter separates EA-facing qualification from **operational contextualization**: relating that qualification to consequences, available capacity and the time in which a response remains useful. This is a working functional boundary, not a requirement for a third deployed layer, a new awareness system or an approved FG-TIDA organizational structure.
 
-The work supports participant-local assessment across heterogeneous, independently governed systems. It does not assume a shared objective, common global state, mandatory broadcast, common trust root or central controller. Source-owned determinations remain attributed inputs, not facts that another component silently recreates.
-
-### Working vocabulary
-
-These explanations make the draft readable before D1 establishes shared terminology. They do not adopt a contributor's vocabulary as a mandatory standard.
-
-| Term | Meaning and reason for using it here |
-|---|---|
-| Epistemic / indeterminacy | “Epistemic” concerns what the evidence supports and the limits of that support. Indeterminacy is what cannot currently be established adequately for the stated decision; it is not automatically failure, falsity or prohibition. |
-| Residual / inherited indeterminacy | Residual indeterminacy is what remains unresolved within the declared assessment and its limits. Inherited indeterminacy is unresolved qualification carried through a dependency on another result; local success must not silently erase it. |
-| Semantic Window | The bounded selection of observations, meanings, scope and assumptions relevant to one decision. EA reviews this window as relevance, evidence freshness, capacity or context changes; it is not simply a time interval. |
-| Epistemic opportunity | Additional decision-relevant knowledge that current capabilities could still obtain. Whether obtaining it is useful also depends on time, cost, capacity and consequences. |
-| Semantic owner / source-native result | The contributor or function responsible for the meaning of a determination; the result as defined by that owner. A receiving component may qualify reliance on it but must not silently rewrite it or claim its authority. |
-| Material qualifier / change | Information or a change that could alter justified reliance for the specified decision. Materiality is declared and reviewed for the case; it is not a universal numerical threshold. |
-| Handoff, profile and adapter | A handoff carries a result with its qualifications across a component boundary. A profile specifies the agreed meaning and version for a particular use; an adapter maps an implementation's outputs to it while preserving their meaning. |
-| Operational closure | The local process has reached an operational result, including a fallback (a defined alternative when normal determination is unavailable) or hold (a pause pending a stated condition) when necessary. This does not by itself establish the truth of the underlying claim, execution success or resolution of an ecosystem incident. |
+The work supports participant-local assessment across heterogeneous, independently governed systems. It does not assume a shared objective, common global state, mandatory broadcast, common trust root or central controller. Each determination remains attributed to the source responsible for its meaning (its **semantic owner**); another component must not silently recreate it.
 
 ### 1. Incident / Signal Lifecycle
 
@@ -63,7 +48,7 @@ In scope:
 
 The lifecycle follows the working sequence proposed by Ward: **birth → distribution → amendment/corroboration → containment → resolution**. Containment here includes coordination and recording of locally authorized graduated responses, not conferral of permission on another participant. Each stage should preserve source history, distinguish observations from inferences, and record effective reach, limits and outcome evidence where material. A resolution record closes the incident under its declared criteria; it does not automatically restore every dependent decision's qualification.
 
-Lifecycle-owned affected-scope and blast-radius information can be consumed by EA and by a participant's existing dependency/cartography mechanism. This does not merge their graphs, transfer ownership of a persistent ecosystem map, or require complete ecosystem visibility.
+Lifecycle-owned affected-scope and blast-radius information can be consumed by EA and by a participant's existing dependency-mapping mechanism. This does not merge their graphs, transfer ownership of a persistent ecosystem map, or require complete ecosystem visibility.
 
 ### 2. Ecosystem Awareness
 
@@ -72,22 +57,22 @@ In scope:
 - decision-scoped qualification of local and external states;
 - explicit observation/representation boundaries;
 - source dependence and independent-corroboration assessment;
-- residual and inherited indeterminacy;
+- unresolved conditions, including those inherited through dependencies;
 - finite evidence, compute, communication and human-review capacity;
-- semantic / qualification validity;
+- whether the scope, assumptions and evidence still support the assessment;
 - response-window constraints;
 - distinguishing “more can still be known” from “more knowledge would still be useful for this decision”;
 - targeted requalification / re-entry;
 - local closure versus system-level support; and
 - attempted execution versus externally confirmed outcome where that distinction is material and observable.
 
-EA qualifies a receiving participant's decision under a declared scope and time. A qualified local closure does not establish a complete ecosystem state. In the reference EA architecture, **A** denotes situated assertion/scope; **B**, confidence/support within that frame; **C**, recognized additional knowledge obtainable with current capabilities; and **D**, structural/residual unknown. These are components of one qualified position, not mutually exclusive quadrants, mandatory transmission fields or the four-field Theme #13 envelope.
+EA qualifies a receiving participant's decision under a declared scope and time. A qualified local result does not establish a complete ecosystem state. The contributor architecture's four-component representation is explained in [Annex B.2](#b2-four-component-reference-position); it is not a required transmission format.
 
-The EA-facing part of Oleksii's contribution develops semantic-window qualification, residual indeterminacy, bounded epistemic opportunity and dependency/provenance qualification. It consumes current authority-applicability and oversight-capacity determinations from their respective owners. It does not calculate institutional authority, decide grant standing or certify oversight capacity.
+The EA-facing part of Oleksii's contribution assesses the scope and assumptions supporting a decision, what remains unresolved, what more could be established with current capabilities, and the relevant dependencies and evidence sources. It consumes current authority-applicability and oversight-capacity determinations from their respective owners. It does not calculate institutional authority, decide grant standing or certify oversight capacity.
 
 Confidence within a represented boundary does not close the open residual beyond it. A stronger result in one domain can qualify another only through an explicit, supported material dependency; absent coupling is neither proven independence nor permission to compensate across domains. More evidence, agents or controls are not assumed to improve determination when they also add correlation, latency, conflict or capacity burden.
 
-#### 2.1 Bounded operational contextualization
+#### 2.1 Relating the assessment to the decision
 
 The complementary function relates the qualified state to the particular decision: action criticality, exposure, severity, reversibility, affected dependencies, supplied capacity constraints, response timing and explicit contextual thresholds. It produces a structured operational state for legitimate decision owners and, where relevant, Lifecycle.
 
@@ -98,36 +83,27 @@ Two temporal dimensions remain independent:
 - **Qualification validity:** whether the evidence, semantic frame and received authority-applicability determination still apply to this decision.
 - **Response opportunity:** whether further evidence or an authorized response can still materially affect the outcome.
 
-One may expire while the other remains open. Missing timing is not inferred from message order, synthetic fixture spacing or an unchanged grant identifier. Available epistemic capacity, response capacity and received institutional oversight capacity likewise retain their distinct meanings and owners.
+One may expire while the other remains open. Missing timing is not inferred from message order, synthetic fixture spacing or an unchanged grant identifier. Available capacity to obtain and assess evidence, capacity to respond, and institutional oversight capacity likewise retain their distinct meanings and owners.
 
-Further epistemic effort is useful only under the stated decision relevance, capacity, cost and time constraints. Stopping an evidence search does not erase residual uncertainty or authorize execution. Conversely, UNKNOWN (the relevant value or qualification is not known; see the distinctions in Scope §3) is not an automatic ecosystem-wide veto: the affected scope, materiality, legitimate decision rule, fallback and review condition must remain explicit.
+Further evidence gathering and assessment are useful only under the stated decision relevance, capacity, cost and time constraints. Stopping an evidence search does not erase residual uncertainty or authorize execution. Conversely, UNKNOWN (the relevant value or qualification is not known; see Annex A.2) is not an automatic ecosystem-wide veto: the affected scope, materiality, legitimate decision rule, fallback and review condition must remain explicit.
 
 #### 2.2 Bidirectional interaction and targeted revalidation
 
 | Direction | Bounded content | Responsibility retained |
 |---|---|---|
 | Lifecycle → EA | Incident state, observed/inferred affected scope, provenance and corroboration lineage, freshness, response reach/window and unresolved qualifiers | Lifecycle owns incident evolution; EA qualifies reliance for the receiving decision |
-| EA → contextualization / decision owner | Qualified state, scope, residual, validity, capacity dependencies and bounded epistemic opportunity | Contextualization preserves distinctions; the legitimate owner selects permitted action |
+| EA → contextualization / decision owner | Qualified state, scope, residual, validity, capacity dependencies and opportunity to obtain further useful evidence | Contextualization preserves distinctions; the legitimate owner selects permitted action |
 | EA / contextualization → Lifecycle | Decision-relevant qualification and operational significance, targeted evidence or dependency-branch refinement requests, review conditions | A request is neither a containment command nor an authority grant |
 | Lifecycle / execution owner → EA | Amendment, correction, resolution, attempted action and separately evidenced outcome | Material change triggers targeted requalification; resolution alone is not proof of restored applicability |
 
 Revalidation should follow a material change in evidence, scope, context, dependency, authority applicability, capacity, outcome or a declared validity condition. A scheduled validity review can also trigger it when the declared profile requires that review. Reprocessing an unchanged state merely because it crossed a component boundary is not a required feedback cycle. The target and reason for re-entry, version, owner and stopping condition should be recorded.
 
-#### 2.3 Compatibility with Ecosystem Positioning
+#### 2.3 Compatibility with contributor architectures
 
-The contributor reference architecture, **[Ecosystem Positioning (EP)](https://github.com/dakleyer/structural-awareness-contributions/tree/90cb592272f082aaa88b7798ef1c543f7e6c3343/architectural-contributions/ecosystem-positioning)**, brings together decision qualification, assessment of operating conditions and control sufficiency from one participant's perspective. It is introduced here to make compatibility and responsibility boundaries reviewable, not to require that implementations adopt the contributor's architecture.
+EA assesses what the available information supports. Existing mechanisms retain responsibility for assessing operating conditions, control sufficiency, participation rules and role changes; Lifecycle retains incident operation and response coordination. Objectives, policy, identity and authority stay with their legitimate owners, and only authorized control owners execute containment or recovery.
 
-- **Ecosystem Awareness (EA)** qualifies what can be relied on for one participant, one decision and one moment; what remains unresolved; what more current capabilities could establish; and what remains residual. It manages the Semantic Window introduced above.
-- **Regime Awareness** checks whether the operating frame under which a position was qualified still holds and reports a bounded finding of change. It does not choose the participant's final operating posture, and EA does not replace this source mechanism.
-- **[MSCA (Minimum Sufficient Control Architecture)](https://github.com/dakleyer/structural-awareness-contributions/blob/90cb592272f082aaa88b7798ef1c543f7e6c3343/standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md)** represents and assesses whether an authorized control configuration is sufficient for an **Objective Envelope**: the legitimate owner's declared outcomes, hard constraints and permitted trade-offs for a bounded process. Its five elements concern that objective envelope, operating environment, coordination, intervention mechanisms and enabling means. “Minimum” concerns the lowest justified burden among supported alternatives actually assessed; it is not a claim to the smallest configuration or a universal optimum.
-- **MSCA Composition and Control** maintains **Ecosystem Cartography**: a participant-local map of relevant dependencies and processes, what is represented and supported, what can be explored further and what remains unknown. It does not presume a complete or shared global map.
-- **MSCA Operation and Repositioning** compares a participant's bound role with the role it effectively plays and determines the supported posture: normal operation, containment/mitigation, or migration/regime transition. Candidate changes remain subject to participation rules, authority, capacity and useful response time. The **objective-conditioned Gradient** ranks candidate changes by their expected contribution to the declared objective, including reducing objective-related risk or shortfall; ranking is neither permission nor command.
-- **ACC (Agentic Citizenship Contract)** records human- or institution-governed participation conditions: membership, admissible roles and objectives, obligations, prohibitions, revocation and exit. It is introduced to locate those constraints, not to create identity or authority. ACC/participation rules, objectives, policies, identity and authority remain with their legitimate semantic owners.
-- **Lifecycle** retains signal/incident operation and response coordination. Actual enforcement, containment, isolation or recovery is performed only by an authorized control owner.
+The contributor's Ecosystem Positioning architecture provides a reference for checking these boundaries; [Annex B](#annex-b-reference-architecture) explains its mechanisms and terminology. The charter commissions compatibility, not adoption of the whole architecture. Equivalent independently implemented mechanisms remain eligible. The proposed mapping to its functional responsibilities remains a reviewable hypothesis and introduces no additional universal function or interface family.
 
-**F1–F9** identify the nine technology-neutral functional responsibilities in the contributor's [EA functional architecture, document 03](https://github.com/dakleyer/structural-awareness-contributions/blob/90cb592272f082aaa88b7798ef1c543f7e6c3343/research/ecosystem-awareness/baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md): qualifying the mission/decision, selecting the observation window, qualifying local results, qualifying external results, composing results, reassessing the operating frame and supported posture, targeting requalification, handing off bounded qualification, and learning from outcomes. These identifiers are traceability aids, not nine required services. The precise assignment of Oleksii's matrix to these responsibilities remains a reviewable hypothesis; no tenth function (“F10”) or new universal interface family is introduced.
-
-The charter therefore commissions compatibility and bounded profiles, **not adoption of the entire Ecosystem Positioning, Regime Awareness, MSCA, ACC or Gradient corpus**. Equivalent independently implemented mechanisms are eligible when they preserve the agreed semantic boundaries.
 
 ### 3. Interoperable handoff
 
@@ -147,28 +123,13 @@ The handoff remains partial by construction: missing qualification is represente
 
 The reference **Epistemic Handoff Descriptor (EHD)** is a transport-neutral semantic contract, not a compulsory protocol or central message bus. Its six-element interoperability kernel is: profile/reference and version; subject/proposition/decision scope; issuer; native result/closure; determination state; and an explicit declaration of material unknown qualifiers. Conditional fields are carried when omission would materially change reliance. A stable producer profile plus a small per-decision delta may avoid repeating full context and history.
 
-The existing #13 **determinacy envelope** is a small set of qualifiers explaining how a local operational result was reached and what limitations must survive handoff. It is a **candidate versioned #13 profile**, preserving **Requirement 20 of [Use Case #4 (UC #4)](https://github.com/FG-TIDA/use-cases/issues/4)**, the proposed experimental environment for independently testable EA and Lifecycle components. That requirement retains the four fields below together with provenance, freshness, scope and dependency information.
+The existing #13 **determinacy envelope** accompanies a local result with four qualifiers: how it was reached, its margin relative to the producer's declared threshold, whether human-oversight capacity constrained it, and any uncertainty inherited from upstream inputs. [Annex C](#annex-c-theme-13-envelope) preserves the field names, definitions and source.
 
-| Field | Meaning in the originating #13 proposal | Distinction it preserves |
-|---|---|---|
-| `closure` | Whether the local result came from sufficient determination, a fallback, or a held state. | An operational output does not necessarily mean the underlying question was determined. |
-| `determinacy_margin` | An ordinal indication—above, at or below—the producing subsystem's own declared determinacy boundary. | It is not a common numerical confidence scale or the general kernel's categorical determination state. |
-| `capacity_binding` | Whether human-oversight capacity was not binding, was an active constraint, or was unavailable at decision time. | This consumes the oversight-capacity owner's assessment; it does not calculate institutional capacity. Other capacity dimensions require an explicit profile interpretation. |
-| `inherited_indeterminacy` | Whether the decision materially relied on unresolved upstream closure, directly or through further dependencies, or whether that upstream state is unknown. | A locally determined result may still inherit indeterminacy. Unknown upstream state must not be reported as no inherited indeterminacy. |
+This remains a candidate versioned #13 profile, preserving Requirement 20 of [Use Case #4 (UC #4)](https://github.com/FG-TIDA/use-cases/issues/4), the proposed experimental environment for EA and Lifecycle. Provenance, freshness, scope and dependency information must also be preserved. The profile does not replace the general kernel or require other Themes to adopt #13 states. Broader EHD standardization and ownership remain open.
 
-These are explanations of the [originating proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5554099339), not a newly frozen schema. The profile is not a replacement for the general kernel, not the A/B/C/D tuple and not a requirement that other Themes translate their native outputs into #13 states. Broader EHD standardization and ownership remain open.
+An adapter must preserve the difference between an unknown value, a missing declaration, a claim not established, a field determined not to apply, and behavior not exercised by a test. The corresponding labels and mapping rules are in [Annex A.2](#a2-information-and-test-status).
 
-A bounded adapter preserves native meaning and the distinctions below. These are reading and mapping distinctions, not a mandatory shared enumeration; each profile must retain its source's meaning and record any translation.
-
-| Label | Meaning to preserve |
-|---|---|
-| UNKNOWN | The relevant value or qualification is not known. Preserve the reason when available; do not infer it when absent. |
-| NOT DECLARED | The source has not supplied the relevant statement. Absence of a declaration does not establish either its truth or its falsity. |
-| NOT ESTABLISHED | The relevant claim or qualification has not been established by the available assessment/evidence. This is not evidence that its opposite holds; whether an assessment was attempted must remain explicit. |
-| NOT APPLICABLE | A scoped determination that the field or requirement does not apply to this case. It is not a substitute for missing information. |
-| NOT EXERCISED | The test did not perform or evaluate the behavior in question; it supports no conclusion about success or failure of that behavior. |
-
-These labels concern different questions and may coexist across different fields. A receiver's additional qualification remains receiver-authored. Forwarding or aggregation does not create independent corroboration, and a valid signature or schema does not prove the truth of the asserted qualifier.
+These distinctions concern different questions and may coexist across different fields. A receiver's additional qualification remains receiver-authored. Forwarding or aggregation does not create independent corroboration, and a valid signature or schema does not prove the truth of the asserted qualifier.
 
 Composition-critical extensions may reference the same decision, its basis/version, commitment state, material dependencies, authority/precedence and targeted re-entry. They remain conditional; no full private reasoning, global database or universal scalar is required.
 
@@ -188,7 +149,7 @@ The work may consume or return bounded state to adjacent Theme-owned functions w
 
 Theme-specific profiles should become normative only after review by the relevant semantic owners and the applicable FG-TIDA process.
 
-The reference mapping maintains three separate levels: **document 04, general interfaces → document 05, proposed FG-TIDA cross-Theme mapping → document 05A, current-state conformance bridge**. These are contributor-repository document identifiers, not FG-TIDA specification numbers: 04 defines general handoff/interface semantics; 05 maps them to a proposed cross-Theme target; 05A compares that target with currently evidenced public contributions. Their explicitly versioned deltas record proposed changes separately. 04 semantics are not redefined by this charter; 05 expresses a proposed target, not present agreement; 05A records what public sources support at a stated date. Later contributions require an explicit dated review record, not silent alteration of frozen baselines.
+Interface work must distinguish general exchange semantics, a proposed cross-Theme target and what current public contributions actually support. Proposed changes remain separately versioned, and later contributions require dated review rather than silent alteration of frozen baselines. [Annex B.3](#b3-interface-reference-documents) identifies the corresponding reference documents; a target mapping is not evidence of present agreement.
 
 Each proposed interface should identify its producer, consumer, semantic owner, native meaning, version, material inputs/outputs, unavailable-state handling, authority boundary, review status and test evidence. Transport/API/schema choices are deliverable-level decisions. Reusing a transport or schema does not transfer ownership of the source determination.
 
@@ -198,7 +159,7 @@ The work may define:
 
 - positive, boundary and rejection fixtures;
 - version-pinned adapters/profiles;
-- source-native expected outcomes or accepted **test oracles**: the attributed reference rule or expected result against which observed test output is checked;
+- attributed reference rules or expected results against which observed test outputs are checked;
 - **Interface Conformance Records (ICRs)**: reviewable records of the route, mappings, owners, evidence and unresolved objections supporting a claimed interface property;
 - cross-implementation interoperability tests;
 - UNKNOWN / not-established handling;
@@ -206,7 +167,7 @@ The work may define:
 - decision/execution reconstruction; and
 - bounded testbeds that do not absorb adjacent Theme semantics.
 
-At least one early profile should test the **EA-specific differential rather than only interface compatibility**: hold the relevant local/native result constant while changing a decision-material ecosystem qualifier such as source independence, inherited indeterminacy, semantic validity or available response capacity, and verify that the systemic qualification changes only when that qualifier materially changes the receiving decision. A paired **nominal-continuity control**, a comparison case in which no decision-material condition changes, should verify that EA does not create unnecessary **HOLD** (pausing the affected operation pending a stated condition), escalation or containment. HOLD is an operational/test label subject to the legitimate control owner's rules, not an authority granted by EA.
+At least one early profile should test the **EA-specific differential rather than only interface compatibility**: hold the relevant local/native result constant while changing a decision-material ecosystem qualifier such as source independence, inherited indeterminacy, semantic validity or available response capacity, and verify that the systemic qualification changes only when that qualifier materially changes the receiving decision. A comparison case in which no decision-material condition changes should verify that EA does not create unnecessary pauses, escalation or containment. Any pause remains subject to the legitimate control owner's rules; EA does not grant authority to impose it.
 
 ### 6. Broader Theme #13 defense surfaces
 
@@ -251,7 +212,7 @@ Unless FG-TIDA later changes the charter, this work would not:
 - convert research hypotheses or illustrative scenarios into normative requirements without separate review;
 - replace a semantic owner's native determination with a mapping annotation or a simulated oracle;
 - equate static fixture correspondence with live component interoperability, copied outcome labels with enforced behavior, or symbolic tests with empirical ecosystem validation; or
-- incorporate all of Ecosystem Positioning as compulsory first-cycle WG scope.
+- incorporate the entire contributor reference architecture as compulsory first-cycle WG scope.
 
 ## Objectives / Deliverables
 
@@ -283,11 +244,11 @@ Candidate content:
 
 - decision-scoped systemic qualification;
 - bounded observation/representation;
-- residual/inherited indeterminacy;
+- unresolved conditions, including those inherited through dependencies;
 - source dependence / independent corroboration;
 - finite determination resources;
-- semantic/qualification validity;
-- epistemic opportunity;
+- whether the scope, assumptions and evidence still support the assessment;
+- additional decision-relevant knowledge obtainable with current capabilities;
 - targeted requalification;
 - output validity/limitations; and
 - no-supercontroller / no-authority-creation rules.
@@ -321,18 +282,18 @@ Candidate content:
 
 D5 may initially remain an informative/test package rather than a standalone specification. Each campaign declares the question, semantic owners, capabilities, admitted profile, source versions, resource budget, expected observations, **falsifiers** (predeclared observations that would contradict the claim being tested), review states and stopping point. Nelson's proposed experimental cycle—reference execution, follow-up hypothesis, controlled variation, counter-test and report—is included as a proposed contribution, not an unlimited maintenance commitment.
 
-For routes claiming compatibility with the reference 04 interface-conformance method, retain an Interface Conformance Record: freeze material qualifiers and the ordered route, identify aggregation points and semantic/adapter owners, appoint a mapping reviewer distinct from its adapter maintainer, and record objections. An unresolved material objection blocks an interface-sufficiency conclusion. Label self-declared materiality and simulated independence explicitly. Test at the handoff/aggregation boundaries as well as end to end; a declaration by the producer is not independent evidence of its truth. These are test-review conditions, not new runtime EHD fields or certification requirements.
+For routes claiming compatibility with the reference interface-conformance method (document 04 in Annex B.3), retain an Interface Conformance Record: freeze material qualifiers and the ordered route, identify aggregation points and semantic/adapter owners, appoint a mapping reviewer distinct from its adapter maintainer, and record objections. An unresolved material objection blocks an interface-sufficiency conclusion. Label self-declared materiality and simulated independence explicitly. Test at the handoff/aggregation boundaries as well as end to end; a declaration by the producer is not independent evidence of its truth. These are test-review conditions, not new runtime EHD fields or certification requirements.
 
 Version the charter, EHD semantics, profile, adapter, source and fixture independently. Changes to field meaning require an explicit compatibility assessment and, when breaking, a new profile/adapter version; prior results retain the exact versions tested. Unknown extensions must not be silently reinterpreted as established qualification.
 
 The first D5 package should include:
 
-- a nominal-continuity control;
-- a local-equivalence / systemic-divergence pair;
+- a comparison case with no decision-material change;
+- paired cases with the same local result but different support for the receiving decision;
 - a source-dependence / false-corroboration boundary;
 - a targeted-requalification branch;
 - an independent producer/consumer interoperability route where feasible; and
-- explicit falsifiers.
+- explicit observations that would contradict the claim being tested.
 
 Where a comparative EA claim is made, a **strong native/control configuration should be allowed to reproduce the same behaviour**. If it does so at equal or lower burden, that result counts against an EA differential claim.
 
@@ -340,25 +301,9 @@ A two-domain or deterministic pass establishes only the bounded property actuall
 
 ### Delivery sequence and acceptance evidence
 
-The initial semantic reference is Arpita Sarker's **[Use Case #6 (UC #6)](https://github.com/FG-TIDA/use-cases/issues/6)**: an enterprise agent reads a fixed document set and returns a private summary to the same user. Its **G1** grant permits internal product planning and excludes sales-campaign preparation. The two branches keep the agent, grant, action, documents and recipient fixed: **Branch A** has the permitted product-planning purpose; **Branch B** has the excluded sales-campaign purpose. G1 still exists in B; it has not expired, been revoked or been rewritten.
+The proposed sequence is source-owner review of the case and its meaning, a frozen versioned mapping, behavioral execution with traces, comparative testing of EA's contribution, and a separately admitted federated extension. Technical checks, preparer review, contributor review and admission remain distinct. Each stage supports only the property actually tested; later campaigns require explicit resources and contributor agreement.
 
-The human reviewer's **H1** mandate allows review, hold, constraint, approval of continuation or escalation within its limits, but cannot amend G1 or create replacement authority. Both branches are considered before and after an authentic human approval, giving four reference conditions. Human-input authenticity and sufficient oversight capacity are fixed assumptions. Approval in B does not make the action authorized under G1. G1 and H1 are **UC #6-local identifiers**: H1 is not a hypothesis from the contributor repository's H1–H6 series, and these A/B branches are not EA's A/B/C/D components.
-
-**UC #4 Stage 0** means a deterministic test harness using frozen fixtures and reproducible expected outcomes. **Stage 1** means a federated cross-Theme minimum across independently governed organizations. These are successive testbed stages, not levels of FG-TIDA approval; later sectoral or larger ecosystem campaigns require separate admission and resources.
-
-| Stage | Intended output | Evidence gate and limit |
-|---|---|---|
-| Reference semantic review | UC #6 facts and four A/B before/after-approval conditions, mapped through the relevant #13/#16 contributions | Source-owner review of meanings, aliases and proposed synthetic metadata; not a new authority calculation |
-| Frozen bounded mapping | Versioned adapter, declared capability/schema, sources, expected values and open-field register | Technical checks, preparer review, contributor review and admission recorded separately |
-| Behavioral reference execution | Explicitly implemented transition/action simulator or independently implemented route, with traces and observed outcomes | Copying `revalidation_required` or `must_not_proceed_under_g1` is not evidence of revalidation or prevention |
-| EA differential campaign | Independent versus shared-lineage corroboration; useful evidence obtainable versus too late/costly; nominal continuity control | Separate agreed protocol and fixed cost/consequence assumptions; strong native baseline can falsify the claimed benefit |
-| Federated extension | UC #4 Stage 0/1 route and, subsequently, separately admitted multi-participant campaigns | Early passes support only their declared scope; later stages require explicit resources and contributor agreement |
-
-The **28 September reference package** is Nelson Trasatti's [#13 mapping-review package](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5872258540), `UC4_UC6_Theme13_Mapping_Review_v0.4.0-r1.zip`, using experiment schema 1.1.0. It translates the four UC #6 reference conditions and Oleksii's annotations into reviewable field mappings, fixed test inputs, expected values, source references and explicit coverage limits. It is a review artifact, not Charter v0.2 or an implementation of EA. The earlier input package v1.1.1 used schema 1.0.0; those versions are different dimensions and must not be relabeled or migrated implicitly. The source worked example's v0.2 title versus v0.3 internal references remains a contributor-review issue.
-
-UC #6 remains unchanged: the same G1 exists in both branches; only the declared purpose changes applicability; human approval under H1 does not expand G1. The fixture's before/after timestamps are synthetic ordering choices, not measured latency or a response window. The wider corroboration/cost investigation remains a separate experiment. Imported source revisions create no automatic obligation for the testbed maintainer to reimplement independently owned mechanisms.
-
-The paired #16 mapping is reviewed against Olena Pavlenko's **Human Oversight Evidence-to-Decision Matrix (HO-EDM)**, an assessment structure linking the evidence available for human oversight to the decision that evidence can support, and her oversight-interface semantics. Her [public review](https://github.com/FG-TIDA/themes/issues/16#issuecomment-5872506565) checks the mapping's interpretation; it is not approval of the complete charter or validation of execution behavior. Before freezing that mapping, retain her clarifications: a general H1 review repertoire is not the branch-specific permitted intervention set; array order is not a semantic ranking; the recorded approval in B has no authorizing effect under G1; and `subject_to_other_controls` is not the complete return-to-operation condition. Attribute UC #6 facts, HO-EDM semantics, institutional authority/capacity semantics and adapter encodings separately to their respective contributors. Source: https://github.com/FG-TIDA/themes/issues/16#issuecomment-5872506565
+[Annex D](#annex-d-reference-cases-and-delivery-detail) retains the detailed sequence and evidence gates, the authority-applicability case from Use Case #6, Use Case #4's initial testbed stages, Nelson's package and Olena's review conditions. Those case constraints and acceptance conditions remain applicable when the corresponding profile or claim is used. In particular, approval does not expand authority, copied outcome labels do not establish executed behavior, and source revisions create no automatic maintenance obligation.
 
 D1–D5 are proposed work outputs, not five mandatory repositories or already commissioned ITU deliverables. Their form as reports, specifications or informative test packages, editors, schedule, licensing and release gates require agreement. The charter may be reviewed before behavioral testing is complete; stronger technical claims must wait for the corresponding evidence.
 
@@ -439,12 +384,12 @@ Reviewers are invited to focus on questions that remain genuinely unresolved.
 
 ### v0.2 decisions requiring focused review
 
-18. **Oleksii decomposition:** confirm the EA-internal versus contextualization split, its independently testable boundary and the provisional F1–F9 mapping; do not appoint the whole matrix as a third serial layer.
-19. **Contextualization and EP boundary:** which supplied thresholds/cost relations are material to the first profile, and how are risk appetite, control sufficiency, posture selection and authorization kept with their owners?
+18. **Oleksii decomposition:** confirm the EA-internal versus contextualization split, its independently testable boundary and the provisional mapping to the reference architecture's functional responsibilities (Annex B.1); do not appoint the whole matrix as a third serial layer.
+19. **Decision context and reference-architecture boundary:** which supplied thresholds/cost relations are material to the first profile, and how are risk appetite, control sufficiency, posture selection and authorization kept with their owners?
 20. **Evidence labels:** confirm the source worked-example version and the mapping aliases; distinguish test-calibration success from behavioral execution and independent interoperability.
 21. **Revalidation contract:** specify material-change, expiry/review and targeted re-entry conditions, and how unchanged-state circulation and unbounded escalation are prevented.
 22. **First differential protocol:** agree the independent/shared-lineage/late-evidence branches, fixed budget and consequence model, strong native comparator, available capabilities and stopping criterion.
-23. **Current-state update:** record the 27–28 September contributions as a dated 05A review proposal; reconcile obsolete case-availability statements without rewriting frozen sources or claiming FG adoption.
+23. **Current-state update:** record the 27–28 September contributions as a dated review proposal for the current-state interface bridge (document 05A in Annex B.3); reconcile obsolete case-availability statements without rewriting frozen sources or claiming FG adoption.
 
 24. **Alignment with #10 and #12:** how should scope and boundaries be aligned with Network-Native Governance and Trust Enforcement and Agent Trust Mechanics? Carried from the originating issue; the Related Themes descriptions are proposed working boundaries, not agreements on behalf of those Themes.
 
@@ -457,11 +402,129 @@ For this preparation draft, **independent Incident Lifecycle and Ecosystem Aware
 
 The content is an editorial reconciliation for review, not a record of collective approval.
 
+Ward's framing and the contributions of Nelson, Oleksii, Arpita and the Theme #16 contributors remain individually attributed. [Annex D.2](#d2-contributor-lineage-and-source-links) preserves the full attribution and source links; none implies collective approval.
+
+**Next review:** contributor review of the technical boundaries and source interpretations, then Ward/process review of scope and packaging. Publication in a contributor repository, if requested, and submission of an official FG-TIDA Charter PR are separate actions. No message, submission, approval or maintainer appointment is implied by saving this draft.
+
+---
+
+## Annex A: Working vocabulary
+
+### A.1 Assessment and exchange
+
+These explanations make the draft readable before D1 establishes shared terminology. They do not adopt a contributor's vocabulary as a mandatory standard.
+
+| Term | Meaning and reason for using it here |
+|---|---|
+| Epistemic / indeterminacy | “Epistemic” concerns what the evidence supports and the limits of that support. Indeterminacy is what cannot currently be established adequately for the stated decision; it is not automatically failure, falsity or prohibition. |
+| Residual / inherited indeterminacy | Residual indeterminacy is what remains unresolved within the declared assessment and its limits. Inherited indeterminacy is unresolved qualification carried through a dependency on another result; local success must not silently erase it. |
+| Semantic Window | The bounded selection of observations, meanings, scope and assumptions relevant to one decision. EA reviews this window as relevance, evidence freshness, capacity or context changes; it is not simply a time interval. |
+| Epistemic opportunity | Additional decision-relevant knowledge that current capabilities could still obtain. Whether obtaining it is useful also depends on time, cost, capacity and consequences. |
+| Semantic owner / source-native result | The contributor or function responsible for the meaning of a determination; the result as defined by that owner. A receiving component may qualify reliance on it but must not silently rewrite it or claim its authority. |
+| Material qualifier / change | Information or a change that could alter justified reliance for the specified decision. Materiality is declared and reviewed for the case; it is not a universal numerical threshold. |
+| Handoff, profile and adapter | A handoff carries a result with its qualifications across a component boundary. A profile specifies the agreed meaning and version for a particular use; an adapter maps an implementation's outputs to it while preserving their meaning. |
+| Operational closure | The local process has reached an operational result, including a fallback (a defined alternative when normal determination is unavailable) or hold (a pause pending a stated condition) when necessary. This does not by itself establish the truth of the underlying claim, execution success or resolution of an ecosystem incident. |
+
+### A.2 Information and test status
+
+A bounded adapter preserves native meaning and the distinctions below. These are reading and mapping distinctions, not a mandatory shared enumeration; each profile must retain its source's meaning and record any translation.
+
+| Label | Meaning to preserve |
+|---|---|
+| UNKNOWN | The relevant value or qualification is not known. Preserve the reason when available; do not infer it when absent. |
+| NOT DECLARED | The source has not supplied the relevant statement. Absence of a declaration does not establish either its truth or its falsity. |
+| NOT ESTABLISHED | The relevant claim or qualification has not been established by the available assessment/evidence. This is not evidence that its opposite holds; whether an assessment was attempted must remain explicit. |
+| NOT APPLICABLE | A scoped determination that the field or requirement does not apply to this case. It is not a substitute for missing information. |
+| NOT EXERCISED | The test did not perform or evaluate the behavior in question; it supports no conclusion about success or failure of that behavior. |
+
+These labels concern different questions and may coexist across different fields. Missing information is not evidence of absence, and the reason for an unknown must not be invented.
+
+### A.3 Testing vocabulary
+
+| Term used in reference material | Meaning |
+|---|---|
+| Fixture | Fixed inputs, assumptions and expected outcomes for a reproducible check. |
+| Test oracle | The attributed reference rule or expected result used to check an observed output. |
+| Falsifier | A predeclared observation that would contradict the claim being tested. |
+| Nominal-continuity control | A comparison case in which no decision-material condition changes, used to detect unnecessary pauses, escalation or containment. |
+| HOLD | Pausing the affected operation pending a stated condition, under the legitimate control owner's rules. |
+| Interface Conformance Record (ICR) | A reviewable record of the route, mappings, owners, evidence and unresolved objections supporting a claimed interface property. The acceptance conditions remain in D5. |
+
+The main text uses ordinary descriptions where an implementation or reference identifier is not needed. These explanations do not create mandatory runtime states or a shared enumeration.
+
+## Annex B: Reference architecture
+
+This annex preserves the contributor-specific vocabulary for compatibility review. The main-text boundaries in Scope §2.3 apply to equivalent implementations as well.
+
+### B.1 Mechanisms and functional responsibilities
+
+The contributor reference architecture, **[Ecosystem Positioning (EP)](https://github.com/dakleyer/structural-awareness-contributions/tree/90cb592272f082aaa88b7798ef1c543f7e6c3343/architectural-contributions/ecosystem-positioning)**, brings together decision qualification, assessment of operating conditions and control sufficiency from one participant's perspective. It is introduced here to make compatibility and responsibility boundaries reviewable, not to require that implementations adopt the contributor's architecture.
+
+- **Ecosystem Awareness (EA)** qualifies what can be relied on for one participant, one decision and one moment; what remains unresolved; what more current capabilities could establish; and what remains residual. It manages the Semantic Window introduced above.
+- **Regime Awareness** checks whether the operating frame under which a position was qualified still holds and reports a bounded finding of change. It does not choose the participant's final operating posture, and EA does not replace this source mechanism.
+- **[MSCA (Minimum Sufficient Control Architecture)](https://github.com/dakleyer/structural-awareness-contributions/blob/90cb592272f082aaa88b7798ef1c543f7e6c3343/standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md)** represents and assesses whether an authorized control configuration is sufficient for an **Objective Envelope**: the legitimate owner's declared outcomes, hard constraints and permitted trade-offs for a bounded process. Its five elements concern that objective envelope, operating environment, coordination, intervention mechanisms and enabling means. “Minimum” concerns the lowest justified burden among supported alternatives actually assessed; it is not a claim to the smallest configuration or a universal optimum.
+- **MSCA Composition and Control** maintains **Ecosystem Cartography**: a participant-local map of relevant dependencies and processes, what is represented and supported, what can be explored further and what remains unknown. It does not presume a complete or shared global map.
+- **MSCA Operation and Repositioning** compares a participant's bound role with the role it effectively plays and determines the supported posture: normal operation, containment/mitigation, or migration/regime transition. Candidate changes remain subject to participation rules, authority, capacity and useful response time. The **objective-conditioned Gradient** ranks candidate changes by their expected contribution to the declared objective, including reducing objective-related risk or shortfall; ranking is neither permission nor command.
+- **ACC (Agentic Citizenship Contract)** records human- or institution-governed participation conditions: membership, admissible roles and objectives, obligations, prohibitions, revocation and exit. It is introduced to locate those constraints, not to create identity or authority. ACC/participation rules, objectives, policies, identity and authority remain with their legitimate semantic owners.
+- **Lifecycle** retains signal/incident operation and response coordination. Actual enforcement, containment, isolation or recovery is performed only by an authorized control owner.
+
+**F1–F9** identify the nine technology-neutral functional responsibilities in the contributor's [EA functional architecture, document 03](https://github.com/dakleyer/structural-awareness-contributions/blob/90cb592272f082aaa88b7798ef1c543f7e6c3343/research/ecosystem-awareness/baseline/03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md): qualifying the mission/decision, selecting the observation window, qualifying local results, qualifying external results, composing results, reassessing the operating frame and supported posture, targeting requalification, handing off bounded qualification, and learning from outcomes. These identifiers are traceability aids, not nine required services. The precise assignment of Oleksii's matrix to these responsibilities remains a reviewable hypothesis; no tenth function (“F10”) or new universal interface family is introduced.
+
+The charter therefore commissions compatibility and bounded profiles, **not adoption of the entire Ecosystem Positioning, Regime Awareness, MSCA, ACC or Gradient corpus**. Equivalent independently implemented mechanisms are eligible when they preserve the agreed semantic boundaries.
+
+### B.2 Four-component reference position
+
+EA qualifies a receiving participant's decision under a declared scope and time. A qualified local closure does not establish a complete ecosystem state. In the reference EA architecture, **A** denotes situated assertion/scope; **B**, confidence/support within that frame; **C**, recognized additional knowledge obtainable with current capabilities; and **D**, structural/residual unknown. These are components of one qualified position, not mutually exclusive quadrants, mandatory transmission fields or the four-field Theme #13 envelope.
+
+### B.3 Interface reference documents
+
+The reference mapping maintains three separate levels: **document 04, general interfaces → document 05, proposed FG-TIDA cross-Theme mapping → document 05A, current-state conformance bridge**. These are contributor-repository document identifiers, not FG-TIDA specification numbers: 04 defines general handoff/interface semantics; 05 maps them to a proposed cross-Theme target; 05A compares that target with currently evidenced public contributions. Their explicitly versioned deltas record proposed changes separately. 04 semantics are not redefined by this charter; 05 expresses a proposed target, not present agreement; 05A records what public sources support at a stated date. Later contributions require an explicit dated review record, not silent alteration of frozen baselines.
+
+## Annex C: Theme #13 envelope
+
+The existing #13 **determinacy envelope** is a small set of qualifiers explaining how a local operational result was reached and what limitations must survive handoff. It is a **candidate versioned #13 profile**, preserving **Requirement 20 of [Use Case #4 (UC #4)](https://github.com/FG-TIDA/use-cases/issues/4)**, the proposed experimental environment for independently testable EA and Lifecycle components. That requirement retains the four fields below together with provenance, freshness, scope and dependency information.
+
+| Field | Meaning in the originating #13 proposal | Distinction it preserves |
+|---|---|---|
+| `closure` | Whether the local result came from sufficient determination, a fallback, or a held state. | An operational output does not necessarily mean the underlying question was determined. |
+| `determinacy_margin` | An ordinal indication—above, at or below—the producing subsystem's own declared determinacy boundary. | It is not a common numerical confidence scale or the general kernel's categorical determination state. |
+| `capacity_binding` | Whether human-oversight capacity was not binding, was an active constraint, or was unavailable at decision time. | This consumes the oversight-capacity owner's assessment; it does not calculate institutional capacity. Other capacity dimensions require an explicit profile interpretation. |
+| `inherited_indeterminacy` | Whether the decision materially relied on unresolved upstream closure, directly or through further dependencies, or whether that upstream state is unknown. | A locally determined result may still inherit indeterminacy. Unknown upstream state must not be reported as no inherited indeterminacy. |
+
+These are explanations of the [originating proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5554099339), not a newly frozen schema. The profile is not a replacement for the general kernel, not the A/B/C/D tuple and not a requirement that other Themes translate their native outputs into #13 states. Broader EHD standardization and ownership remain open.
+
+## Annex D: Reference cases and delivery detail
+
+The case assumptions, evidence gates and review conditions below remain applicable to the corresponding profiles and claims. Their placement here does not turn pending review into approval or remove an acceptance condition.
+
+### D.1 Cases, sequence and acceptance evidence
+
+The initial semantic reference is Arpita Sarker's **[Use Case #6 (UC #6)](https://github.com/FG-TIDA/use-cases/issues/6)**: an enterprise agent reads a fixed document set and returns a private summary to the same user. Its **G1** grant permits internal product planning and excludes sales-campaign preparation. The two branches keep the agent, grant, action, documents and recipient fixed: **Branch A** has the permitted product-planning purpose; **Branch B** has the excluded sales-campaign purpose. G1 still exists in B; it has not expired, been revoked or been rewritten.
+
+The human reviewer's **H1** mandate allows review, hold, constraint, approval of continuation or escalation within its limits, but cannot amend G1 or create replacement authority. Both branches are considered before and after an authentic human approval, giving four reference conditions. Human-input authenticity and sufficient oversight capacity are fixed assumptions. Approval in B does not make the action authorized under G1. G1 and H1 are **UC #6-local identifiers**: H1 is not a hypothesis from the contributor repository's H1–H6 series, and these A/B branches are not EA's A/B/C/D components.
+
+**UC #4 Stage 0** means a deterministic test harness using frozen fixtures and reproducible expected outcomes. **Stage 1** means a federated cross-Theme minimum across independently governed organizations. These are successive testbed stages, not levels of FG-TIDA approval; later sectoral or larger ecosystem campaigns require separate admission and resources.
+
+| Stage | Intended output | Evidence gate and limit |
+|---|---|---|
+| Reference semantic review | UC #6 facts and four A/B before/after-approval conditions, mapped through the relevant #13/#16 contributions | Source-owner review of meanings, aliases and proposed synthetic metadata; not a new authority calculation |
+| Frozen bounded mapping | Versioned adapter, declared capability/schema, sources, expected values and open-field register | Technical checks, preparer review, contributor review and admission recorded separately |
+| Behavioral reference execution | Explicitly implemented transition/action simulator or independently implemented route, with traces and observed outcomes | Copying `revalidation_required` or `must_not_proceed_under_g1` is not evidence of revalidation or prevention |
+| EA differential campaign | Independent versus shared-lineage corroboration; useful evidence obtainable versus too late/costly; nominal continuity control | Separate agreed protocol and fixed cost/consequence assumptions; strong native baseline can falsify the claimed benefit |
+| Federated extension | UC #4 Stage 0/1 route and, subsequently, separately admitted multi-participant campaigns | Early passes support only their declared scope; later stages require explicit resources and contributor agreement |
+
+The **28 September reference package** is Nelson Trasatti's [#13 mapping-review package](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5872258540), `UC4_UC6_Theme13_Mapping_Review_v0.4.0-r1.zip`, using experiment schema 1.1.0. It translates the four UC #6 reference conditions and Oleksii's annotations into reviewable field mappings, fixed test inputs, expected values, source references and explicit coverage limits. It is a review artifact, not Charter v0.2 or an implementation of EA. The earlier input package v1.1.1 used schema 1.0.0; those versions are different dimensions and must not be relabeled or migrated implicitly. The source worked example's v0.2 title versus v0.3 internal references remains a contributor-review issue.
+
+UC #6 remains unchanged: the same G1 exists in both branches; only the declared purpose changes applicability; human approval under H1 does not expand G1. The fixture's before/after timestamps are synthetic ordering choices, not measured latency or a response window. The wider corroboration/cost investigation remains a separate experiment. Imported source revisions create no automatic obligation for the testbed maintainer to reimplement independently owned mechanisms.
+
+The paired #16 mapping is reviewed against Olena Pavlenko's **Human Oversight Evidence-to-Decision Matrix (HO-EDM)**, an assessment structure linking the evidence available for human oversight to the decision that evidence can support, and her oversight-interface semantics. Her [public review](https://github.com/FG-TIDA/themes/issues/16#issuecomment-5872506565) checks the mapping's interpretation; it is not approval of the complete charter or validation of execution behavior. Before freezing that mapping, retain her clarifications: a general H1 review repertoire is not the branch-specific permitted intervention set; array order is not a semantic ranking; the recorded approval in B has no authorizing effect under G1; and `subject_to_other_controls` is not the complete return-to-operation condition. Attribute UC #6 facts, HO-EDM semantics, institutional authority/capacity semantics and adapter encodings separately to their respective contributors. Source: https://github.com/FG-TIDA/themes/issues/16#issuecomment-5872506565
+
+
+### D.2 Contributor lineage and source links
+
 - **Ward Duchamps:** Theme origin, lifecycle framing and independently testable EA/Lifecycle direction. Public anchors: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5508513343 and https://github.com/FG-TIDA/themes/issues/13#issuecomment-5571476256
 - **Nelson Trasatti:** UC #4, bounded adapters, complete Lifecycle, targeted refinement, the #13 profile and experimental work. Anchors: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5639226397 and https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5846988611
 - **Oleksii Voshchak:** matrix, worked example and revised decomposition; authority/capacity ownership, two clocks, structured state and event-driven revalidation. Anchors: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5783505043 and https://github.com/FG-TIDA/themes/issues/13#issuecomment-5818049343 and https://github.com/FG-TIDA/themes/issues/13#issuecomment-5854694913
 - **Arpita Sarker:** UC #6 source facts and expected authority-applicability outcomes. https://github.com/FG-TIDA/use-cases/issues/6
 - **Lei Gao, Olena Pavlenko and Olha Borysenko:** adjacent Theme #16 sequencing and bounded oversight contributions; the dossier records specific source anchors and preserves their ownership. This is not attributed approval of the full v0.2.
 - **Iván Abril Palma:** EA/EP reference architecture, composition and interface discipline, v0.1 preparation baseline, synthesis and proposed comparative challenge. https://github.com/dakleyer/structural-awareness-contributions/tree/2db60a1fa4faa5ec08c6754cc676b8f70431c32a/architectural-contributions/ecosystem-positioning
-
-**Next review:** contributor review of the technical boundaries and source interpretations, then Ward/process review of scope and packaging. Publication in a contributor repository, if requested, and submission of an official FG-TIDA Charter PR are separate actions. No message, submission, approval or maintainer appointment is implied by saving this draft.
