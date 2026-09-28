@@ -1,7 +1,7 @@
 # Document Control — navigation, sitemap and modification rules
 
 **Version:** 1.1  
-**Control date:** 27 September 2026\
+**Control date:** 28 September 2026  
 **Owner:** Iván Abril  
 **Scope:** public navigation, README governance, routing integrity, canonical presentations, document moves/renames and editor/bot maintenance rules for `dakleyer/structural-awareness-contributions`.
 
@@ -104,9 +104,11 @@ The remaining README files are **transitional** until their unique content is ei
 
 ---
 
-## 3. Protected router
+## 3. Protected routers
 
-The following file is explicitly protected by owner instruction:
+The following files are explicitly protected by owner instruction:
+
+### Ecosystem Awareness README
 
 `research/ecosystem-awareness/README.md`
 
@@ -121,6 +123,21 @@ Rule:
 - **23 September 2026 owner-authorized maintenance:** routed the protected EA entry point to the current 01J signalling successor and reconciled delta/agentic-gradient terminology.
 - **23 September 2026 owner-authorized hierarchy reconciliation:** clarified that EA is one of the three maintained technical gates of Ecosystem Positioning.
 - **27 September 2026 completeness-review proposal:** the owner requested a renewed completeness/link/coherence review of the EP and EA READMEs, with GitHub as the canonical source. The proposal updates published execution routes and stale dashboard status, retains every prior link and section, and aligns this recorded blob SHA with the proposed EA router. The canonical evidence files are unchanged. Before this proposal, the recorded SHA was stale: published EA at `7775828` had blob `5f7db8204bac312b53fe0f1681e35f2055b5ad05`.
+
+### Ecosystem Positioning README
+
+`architectural-contributions/ecosystem-positioning/README.md`
+
+**Protected content SHA at control date:**  
+`13cf9ceeea232eb318e9ae5dae4f16625f931fa2`
+
+Rule:
+
+- Preserve this file as the complete Level-4 human landing page and evidence router for Ecosystem Positioning.
+- Incremental source-supported updates to links, evidence status and claim boundaries are allowed only when they preserve the existing substantive sections and reading routes, unless Iván Abril explicitly authorizes a structural rewrite.
+- A presentation-link update must never replace, truncate or regenerate the substantive README body.
+- If an authorized change modifies this file, update the protected SHA in this section immediately.
+- **28 September 2026 owner-authorized restoration:** restored the complete last-intact README body after the accidental 27 September truncation, preserved the corrected Stage-0/00L and A22/A23 evidence boundaries, pointed the two public PowerPoint routes to the visually reviewed v1.2 decks, removed Ward Discussion v2 and legacy combined presentation links from the canonical README route, and aligned DBC wording with its “Not a ranking” boundary. The preserved pre-truncation blob was `74acdb87e97e41f1dbdfb09c853a670b9fbca02c`.
 
 The current Regime Awareness and MSCA READMEs are also maintained as preserved technical corpus entry points. Navigation changes should route to them rather than rewriting them unless the owner explicitly requests a content change.
 
@@ -140,9 +157,9 @@ dakleyer/dakleyer
     │
     ├── presentations/
     │   └── ecosystem-positioning/
-    │       ├── Ecosystem_Positioning_Canonical.pptx
-    │       ├── Ecosystem_Positioning_Canonical.pdf
-    │       └── PRESENTATION_MANIFEST.md
+    │       ├── Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx
+    │       ├── Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx
+    │       └── PRESENTATION_MANIFEST.md          [older/working artefacts preserved per manifest]
     │
     ├── research/
     │   ├── ecosystem-awareness/
@@ -307,7 +324,7 @@ Before changing navigation or document placement:
 - [ ] Read this `DOCUMENT_CONTROL.md`.
 - [ ] Identify the primary owning router.
 - [ ] Check whether the target file is canonical, frozen, submitted, unique non-canonical or purely redundant.
-- [ ] Check whether the protected Ecosystem Awareness README would be affected.
+- [ ] Check whether either protected README (Ecosystem Awareness or Ecosystem Positioning) would be affected.
 - [ ] Search for inbound links to any path being moved, renamed or removed.
 - [ ] Preserve claim/status/provenance text.
 
@@ -319,7 +336,7 @@ After the change:
 - [ ] Search for the old path and confirm no unintended live references remain.
 - [ ] Confirm no unique text was lost.
 - [ ] Recount README files if any README was created/removed/renamed.
-- [ ] Confirm the protected EA README SHA is unchanged unless owner authorization explicitly allowed a change.
+- [ ] Confirm the protected EA and Ecosystem Positioning README SHAs are unchanged unless owner authorization explicitly allowed a change.
 - [ ] Update the sitemap and controlled README count in this file if necessary.
 - [ ] Update any affected parent router.
 - [ ] If a canonical presentation changed, verify PPTX/PDF parity and all required hyperlinks.
@@ -359,23 +376,25 @@ Do not rename frozen evidence solely to improve presentation if that would weake
 
 Canonical presentations are first-class controlled artefacts.
 
-For Ecosystem Positioning, the stable public paths are:
+For Ecosystem Positioning, the **two public PowerPoint entry routes** are:
 
-- `presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pptx` — canonical editable artefact.
-- `presentations/ecosystem-positioning/Ecosystem_Positioning_Canonical.pdf` — canonical reading snapshot.
-- `presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md` — status and routing contract.
+- `presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx` — requirements, evidence and validation entry.
+- `presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx` — architecture and implementation entry.
+- `presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md` — status, provenance and routing contract.
+
+The combined editable presentation, historical PDF snapshots and Ward Discussion decks remain preserved artefacts governed by the manifest, but they are **not additional canonical PowerPoint entries in the Ecosystem Positioning README**.
 
 Rules:
 
-1. GitHub is the canonical public version-control location for the presentation.
-2. The stable canonical filenames remain unchanged; Git history records revisions.
-3. The PPTX and PDF should be updated together when the canonical presentation changes.
-4. The presentation must link upward to the Structural Awareness Programme README.
-5. Its maintained technical gates must link to the GitHub READMEs for Ecosystem Awareness, Regime Awareness and MSCA.
-6. The presentation may link directly to benchmark or standards-facing references where they are part of the architecture, but it must not create a competing parent router.
-7. Milestone states may be tagged or released rather than copied into multiple numbered canonical filenames.
-8. The Structural Awareness README and `architectural-contributions/ecosystem-positioning/README.md` must expose a clear direct route to the canonical presentation.
-9. The presentation must not route upward to an Ecosystem Positioning page at the same level; its parent route is Structural Awareness.
+1. GitHub is the canonical public version-control location for the presentation artefacts.
+2. The Ecosystem Positioning README exposes exactly the two current split PowerPoint entry routes above; working, historical or owner-only presentation artefacts remain reachable through the manifest when needed.
+3. A visual-only presentation revision must not silently alter architecture, requirements or evidence claims; the manifest records whether a revision is visual or substantive.
+4. The public decks must link upward to the Structural Awareness Programme README.
+5. Their maintained technical gates must link to the GitHub READMEs for Ecosystem Awareness, Regime Awareness and MSCA.
+6. A presentation may link directly to benchmark or standards-facing references where they are part of the architecture, but it must not create a competing parent router.
+7. Historical and milestone presentation states remain preserved for provenance without being promoted into additional primary README links.
+8. The Structural Awareness README and `architectural-contributions/ecosystem-positioning/README.md` must expose clear direct routes to the current public presentation entry points.
+9. Presentation navigation changes must preserve the substantive Ecosystem Positioning README; link maintenance is never grounds for regenerating or truncating the router.
 
 ---
 
