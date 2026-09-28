@@ -1,4 +1,4 @@
-# Decision Boundary Challenge — Applied Agentic Validation Protocol
+# Decision Boundary Challenge (Not a ranking) — Applied Agentic Validation Protocol
 
 > **Applied validation design — working v0.2.** This document defines a cross-platform research challenge for reviewing what happens when an agent reaches the boundary between what it can do, what is sufficiently established, what is admissible, what is authorized and what is finally executed. It is an additive applied-research route hosted by the Ecosystem Awareness corpus. It is **not** part of the frozen/canonical EA baseline, not a replacement for the 00D benchmark, not an adopted standard, not a completed pilot and not a vendor ranking.
 
