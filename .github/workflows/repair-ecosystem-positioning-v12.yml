@@ -1,0 +1,58 @@
+name: Repair Ecosystem Positioning v1.2 decks
+
+on:
+  push:
+    paths:
+      - 'scripts/repair_ecosystem_positioning_v12.py'
+      - '.github/workflows/repair-ecosystem-positioning-v12.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install repair dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-impress
+          python -m pip install --upgrade pip
+          python -m pip install python-pptx
+
+      - name: Normalize and repair the two canonical v1.2 decks
+        run: python scripts/repair_ecosystem_positioning_v12.py
+
+      - name: Verify only canonical PPTX binaries changed
+        shell: bash
+        run: |
+          git diff --check
+          changed=$(git diff --name-only | sort)
+          expected=$(printf '%s\n' \
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx \
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx | sort)
+          if [ "$changed" != "$expected" ]; then
+            echo "Unexpected changed files:"
+            printf '%s\n' "$changed"
+            exit 1
+          fi
+
+      - name: Commit repaired canonical binaries
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add \
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx \
+            presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx
+          git commit -m 'Repair canonical v1.2 PowerPoint compatibility and layout'
+          git push
