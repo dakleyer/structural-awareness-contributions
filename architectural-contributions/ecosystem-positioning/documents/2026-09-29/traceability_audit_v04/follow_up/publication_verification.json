@@ -1,0 +1,171 @@
+{
+  "source_commit": "3744ef953265727612da979878f7e97a0b7fe989",
+  "published_blobs_verified": [
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab187dd929f65550c966ed139e48c9412d67079d",
+      "size": 42151,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/ab187dd929f65550c966ed139e48c9412d67079d"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "524fe4cc1091d622f18d37a2441464c263bfe265",
+      "size": 61254,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/524fe4cc1091d622f18d37a2441464c263bfe265"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/Hypothesis_Thesis_and_Principle_Traceability.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c395d6f50a7246ab4d56cb2581ed964a97252f8d",
+      "size": 62461,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/c395d6f50a7246ab4d56cb2581ed964a97252f8d"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/Hypothesis_Thesis_and_Principle_Traceability_v0.4.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9a454296bade13c72e2d01388080d93e5cbd177",
+      "size": 70889,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/d9a454296bade13c72e2d01388080d93e5cbd177"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/APPENDIX_D.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a4d87c8f2b79195515064806ac4ff49dcc64bc",
+      "size": 18492,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/37a4d87c8f2b79195515064806ac4ff49dcc64bc"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/PROTOCOL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d865da9a781bf59e22d1e0663c1fa5b39210c6",
+      "size": 5157,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/43d865da9a781bf59e22d1e0663c1fa5b39210c6"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/PROTOCOL.sha256",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2672b00eb26871983746c576a83b75c8f688b34",
+      "size": 101,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/f2672b00eb26871983746c576a83b75c8f688b34"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/SOURCE_MANIFEST.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb7a2b5e9651fdbbf9f12b41da49c0ba963008a",
+      "size": 1772,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/5bb7a2b5e9651fdbbf9f12b41da49c0ba963008a"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/TRACEABILITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92b42457ebf119fcad3dd83370ac5fa3a6264c6c",
+      "size": 7569,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/92b42457ebf119fcad3dd83370ac5fa3a6264c6c"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/candidates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf74da59b18869e1b97b2f2f2edef0f0de9a99c",
+      "size": 2767,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/abf74da59b18869e1b97b2f2f2edef0f0de9a99c"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/document_preservation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c26ba4c2b40afa2692784aa6cd50a8b13a0406",
+      "size": 523,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/e0c26ba4c2b40afa2692784aa6cd50a8b13a0406"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/evaluators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddcfb666508027b5cba8d9c9ceb88092481e99ad",
+      "size": 2091,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/ddcfb666508027b5cba8d9c9ceb88092481e99ad"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/prior_model/clause_audit_certificate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b288ba736eb96125b9cf0f2f6d28f2fde0ec5162",
+      "size": 30334,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/b288ba736eb96125b9cf0f2f6d28f2fde0ec5162"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/prior_model/requirement_sufficiency_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea3f5a9bed71cbacb2292d3062d92cd0bc65f4b",
+      "size": 7286,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/fea3f5a9bed71cbacb2292d3062d92cd0bc65f4b"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/prior_model/semantic_bridge_certificate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6c011004339e1e3cc3b80c3d838bd0fa309cf5b",
+      "size": 7064,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/e6c011004339e1e3cc3b80c3d838bd0fa309cf5b"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/prior_model/semantic_bridge_review.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b1a811d6718dcf2025d2f08524e7bdc749f7bad",
+      "size": 5980,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/4b1a811d6718dcf2025d2f08524e7bdc749f7bad"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/replay_and_review.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfa66b78d9c0e84d267937908efd7cd32516a799",
+      "size": 5206,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/dfa66b78d9c0e84d267937908efd7cd32516a799"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57fa6df412c0ca33e9e224ddc5a321ef1ea3f829",
+      "size": 8332,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/57fa6df412c0ca33e9e224ddc5a321ef1ea3f829"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/review_results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20b4c6b955df77b0488bbfcfc512d38497609f26",
+      "size": 5407,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/20b4c6b955df77b0488bbfcfc512d38497609f26"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/run_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34ed75c3e0f682dfe15ca431a4cf4a37fbbf9cdf",
+      "size": 7925,
+      "url": "https://api.github.com/repos/dakleyer/structural-awareness-contributions/git/blobs/34ed75c3e0f682dfe15ca431a4cf4a37fbbf9cdf"
+    }
+  ],
+  "both_result_json_objects_reproduced_exactly": true,
+  "previous_22_rendered_pages_identical": true,
+  "new_pages_inspected": [
+    23,
+    24
+  ]
+}

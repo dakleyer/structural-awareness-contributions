@@ -128,6 +128,11 @@ Rule:
 
 `architectural-contributions/ecosystem-positioning/README.md`
 
+**Current protected content SHA — 29 September 2026 follow-up audit 0.4.1:**  
+`91780f8381923d32e75356bc9a70de696dcc3dc7`
+
+This entry supersedes the earlier SHA entries below. Added links to the preserved-document update 0.4.1 and follow-up input/assumption checks under the same document route. All prior README and control text, evidence files and document versions remain unchanged. No navigation owner or README count changes.
+
 **Latest protected content SHA — 29 September 2026 owner-authorized audit extension:**  
 `b7cf618b7b05c4ce3d53e00534aa7edbb40b4f53`
 

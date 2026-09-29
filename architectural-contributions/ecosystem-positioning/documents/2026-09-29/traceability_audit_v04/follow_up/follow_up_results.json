@@ -1,0 +1,33 @@
+{
+  "H4_decoder_counts_checked": true,
+  "continuity_controls": {
+    "QA": true,
+    "QCQA": true,
+    "QCRA": false
+  },
+  "malformed_records_rejected": {
+    "cyclic_source_graph": true,
+    "empty_receiving_claim": true,
+    "execution_during_nonaction": true,
+    "forged_response_charge": true,
+    "invalid_evidence_vacuity": true,
+    "omitted_observation_charge": true,
+    "response_without_final_position": true,
+    "unknown_event": true,
+    "unknown_report": true,
+    "unreported_execution_suffix": true,
+    "untyped_execution_record": true
+  },
+  "scope": "Input hardening and explicit assumptions; no new empirical H1-H6 or all-six HC/HS validation.",
+  "structural_vs_statistical_independence": {
+    "conclusion": "Graph-root separation does not imply statistical independence without an additional model assumption.",
+    "joint_probability": 0.5,
+    "product_of_marginals": 0.25,
+    "root_disjoint": true
+  },
+  "valid_domain_scores_preserved": {
+    "P1": 189,
+    "P2": 28644,
+    "P5_atomic_extended_domain": 335922
+  }
+}
