@@ -128,6 +128,11 @@ Rule:
 
 `architectural-contributions/ecosystem-positioning/README.md`
 
+**Latest protected content SHA — 29 September 2026 owner-authorized audit extension:**  
+`b7cf618b7b05c4ce3d53e00534aa7edbb40b4f53`
+
+This latest SHA supersedes both earlier protected SHA entries below. Added the traceability audit update 0.4 and its executable evidence package under the existing `documents/2026-09-29/` route. All prior README and Document Control text, the original three Word files and the protected technical corpora remain unchanged. No README is created or removed; the navigation owner and counts remain unchanged.
+
 **Protected content SHA at control date:**  
 `13cf9ceeea232eb318e9ae5dae4f16625f931fa2`
 

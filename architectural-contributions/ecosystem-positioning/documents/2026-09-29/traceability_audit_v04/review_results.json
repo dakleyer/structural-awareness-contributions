@@ -1,0 +1,165 @@
+{
+  "heterogeneous_cap_controls": [
+    {
+      "actions": 3,
+      "caps": [
+        1,
+        3,
+        3
+      ],
+      "expected": false
+    },
+    {
+      "actions": 3,
+      "caps": [
+        3,
+        1,
+        3
+      ],
+      "expected": false
+    },
+    {
+      "actions": 3,
+      "caps": [
+        3,
+        3,
+        1
+      ],
+      "expected": false
+    }
+  ],
+  "history_oracle_controls": 6,
+  "oracle_mutants": {
+    "always_safe_failed_controls": 4,
+    "always_unsafe_failed_controls": 2
+  },
+  "prior_semantic_certificate_reproduced": true,
+  "projections": [
+    {
+      "all_target_fields_also_used_in_clauses": true,
+      "conforming": 1,
+      "fields_derived_from_restricted_AST": [
+        "evidence_fit",
+        "permission_from_uncertainty",
+        "residual_explicit"
+      ],
+      "principle": "P1",
+      "scope": "exact support reduction of these pure Boolean functions; not validation of source-to-model semantics",
+      "states": 8,
+      "violations": 0
+    },
+    {
+      "all_target_fields_also_used_in_clauses": true,
+      "conforming": 3,
+      "fields_derived_from_restricted_AST": [
+        "bounded_progress",
+        "composition_active",
+        "composition_effects_declared",
+        "cost_ledger_declared",
+        "deadline_viable",
+        "evidence_fit",
+        "expansion_value_declared",
+        "fallback_defined"
+      ],
+      "principle": "P2",
+      "scope": "exact support reduction of these pure Boolean functions; not validation of source-to-model semantics",
+      "states": 256,
+      "violations": 0
+    },
+    {
+      "all_target_fields_also_used_in_clauses": false,
+      "conforming": 518,
+      "fields_derived_from_restricted_AST": [
+        "executes",
+        "no_worse_than_null",
+        "null_action_declared",
+        "permission_from_uncertainty",
+        "residual_explicit",
+        "response_authorized",
+        "response_downside_declared",
+        "response_externalities_declared",
+        "response_failure_declared",
+        "response_reversibility_declared",
+        "strong_response_claimed",
+        "unresolved_material"
+      ],
+      "principle": "P3",
+      "scope": "exact support reduction of these pure Boolean functions; not validation of source-to-model semantics",
+      "states": 4096,
+      "violations": 3
+    },
+    {
+      "all_target_fields_also_used_in_clauses": true,
+      "conforming": 4099,
+      "fields_derived_from_restricted_AST": [
+        "authority_current",
+        "authority_nonamplifying",
+        "authority_scoped",
+        "authority_verifiable",
+        "executes",
+        "no_worse_than_null",
+        "null_action_declared",
+        "response_authorized",
+        "response_downside_declared",
+        "response_externalities_declared",
+        "response_failure_declared",
+        "response_reversibility_declared",
+        "strong_response_claimed"
+      ],
+      "principle": "P4",
+      "scope": "exact support reduction of these pure Boolean functions; not validation of source-to-model semantics",
+      "states": 8192,
+      "violations": 0
+    },
+    {
+      "all_target_fields_also_used_in_clauses": false,
+      "conforming": 108,
+      "fields_derived_from_restricted_AST": [
+        "bounded_progress",
+        "change_disposition_recorded",
+        "changed_basis_carried",
+        "composition_active",
+        "composition_effects_declared",
+        "cost_ledger_declared",
+        "deadline_viable",
+        "executes",
+        "expansion_value_declared",
+        "material_break_detected",
+        "material_changed",
+        "permission_from_uncertainty",
+        "requalified"
+      ],
+      "principle": "P5",
+      "scope": "exact support reduction of these pure Boolean functions; not validation of source-to-model semantics",
+      "states": 8192,
+      "violations": 3
+    },
+    {
+      "all_target_fields_also_used_in_clauses": false,
+      "conforming": 34,
+      "fields_derived_from_restricted_AST": [
+        "bounded_progress",
+        "compatibility_preserved",
+        "composition_active",
+        "composition_effects_declared",
+        "cost_ledger_declared",
+        "deadline_viable",
+        "dependency_independent",
+        "dependency_qualifiers_carried",
+        "dependent_support_promoted",
+        "expansion_value_declared"
+      ],
+      "principle": "P6",
+      "scope": "exact support reduction of these pure Boolean functions; not validation of source-to-model semantics",
+      "states": 1024,
+      "violations": 1
+    }
+  ],
+  "review_findings": [
+    "P1/P2/P4 finite implications reuse the semantic facts expressed by their requirements. They establish logical consistency, not independent empirical support for the H claims.",
+    "AST reduction validates all unused fields are irrelevant to these pure Boolean predicates. It does not validate missing real-world dimensions.",
+    "P3/P5/P6 original projection countermodels are retained. New operational refinements do not rewrite their predicates or close full-canon sufficiency.",
+    "The new candidate and evaluator implementations are separate and mutation-sensitive, but share authored semantic assumptions and lack independent peer validation.",
+    "An initial draft metric compared the full-observation action label to itself. Self-review removed that tautological metric before final reporting and replaced it with observation-cell ambiguity."
+  ]
+}

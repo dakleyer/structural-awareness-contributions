@@ -1,0 +1,31 @@
+{
+  "source_snapshot": "0ca06f446bb4f037b117c1af525a0ae7ded0900b",
+  "base_publication": "aaf6b5eb2f1f235e78535fa71d37b9d5146de1ad",
+  "sources": [
+    {
+      "local_path": "prior_model/requirement_sufficiency_model.py",
+      "canonical_path": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/requirement_sufficiency_model.py",
+      "sha256": "b1e32ab6b7868eb51beee62a9ff844fa9ea47c46132ffd17b6f93b7770fd12e5",
+      "git_blob_sha": "fea3f5a9bed71cbacb2292d3062d92cd0bc65f4b"
+    },
+    {
+      "local_path": "prior_model/semantic_bridge_review.py",
+      "canonical_path": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/semantic_bridge_review.py",
+      "sha256": "d5bf6331d80d0c0a0ffb2021ed00dc2248d63cf772c82ee2b90409d55e5d3a63",
+      "git_blob_sha": "4b1a811d6718dcf2025d2f08524e7bdc749f7bad"
+    },
+    {
+      "local_path": "prior_model/semantic_bridge_certificate.json",
+      "canonical_path": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/semantic_bridge_certificate.json",
+      "sha256": "df42c3318a7af99cf8927f109d9a2392cc7dca9fca7c9313e5cd5d02b798cade",
+      "git_blob_sha": "e6c011004339e1e3cc3b80c3d838bd0fa309cf5b"
+    },
+    {
+      "local_path": "prior_model/clause_audit_certificate.json",
+      "canonical_path": "research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/requirement-sufficiency/clause_audit_certificate.json",
+      "sha256": "d4df2ab543b3e349b4af6205420d5e7ebd70cbdf97ce7481351415251c380699",
+      "git_blob_sha": "b288ba736eb96125b9cf0f2f6d28f2fde0ec5162"
+    }
+  ],
+  "retrieval_note": "Initial local copies contained one additional trailing LF; exact pinned bytes restored before final replay. No semantic change."
+}

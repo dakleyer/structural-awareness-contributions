@@ -1,0 +1,432 @@
+{
+  "H4_observation_limit": {
+    "cells": {
+      "0": [
+        {
+          "context": [
+            0,
+            0
+          ],
+          "required_action": 0
+        },
+        {
+          "context": [
+            0,
+            1
+          ],
+          "required_action": 1
+        }
+      ],
+      "1": [
+        {
+          "context": [
+            1,
+            0
+          ],
+          "required_action": 0
+        },
+        {
+          "context": [
+            1,
+            1
+          ],
+          "required_action": 1
+        }
+      ]
+    },
+    "deterministic_decoders": [
+      {
+        "incompatible_contexts": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "outputs": [
+          0,
+          0
+        ]
+      },
+      {
+        "incompatible_contexts": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "outputs": [
+          0,
+          1
+        ]
+      },
+      {
+        "incompatible_contexts": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "outputs": [
+          1,
+          0
+        ]
+      },
+      {
+        "incompatible_contexts": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "outputs": [
+          1,
+          1
+        ]
+      }
+    ],
+    "full_observation_ambiguous_cells": 0,
+    "impossible_decoders": 4,
+    "limit": "Separating observation cells is a representation property, not measured carrier feasibility or H4 confirmation.",
+    "total_decoders": 4
+  },
+  "P1": {
+    "promote_positive": {
+      "checked": 189,
+      "discrepancies": 96,
+      "first_counterexample": {
+        "actual": true,
+        "evidence": [
+          -1,
+          -1,
+          1
+        ],
+        "expected": false,
+        "required": [
+          0
+        ]
+      }
+    },
+    "qualified": {
+      "checked": 189,
+      "discrepancies": 0,
+      "first_counterexample": null
+    }
+  },
+  "P2": {
+    "ignore_response_cost": {
+      "checked": 28644,
+      "discrepancies": 17566,
+      "first_counterexample": {
+        "budget": 1,
+        "durations": [
+          1
+        ],
+        "events": [
+          [
+            "observe",
+            1
+          ],
+          [
+            "respond",
+            1
+          ]
+        ],
+        "response": 1
+      }
+    },
+    "reserved_response": {
+      "checked": 28644,
+      "discrepancies": 0,
+      "first_counterexample": null
+    }
+  },
+  "P3": {
+    "all_unknown_blocks": {
+      "checked": 8,
+      "discrepancies": 2,
+      "first_counterexample": {
+        "actual": false,
+        "expected": true,
+        "fixture": "U2"
+      }
+    },
+    "ignore_unknown": {
+      "checked": 8,
+      "discrepancies": 1,
+      "first_counterexample": {
+        "actual": true,
+        "expected": false,
+        "fixture": "U8"
+      }
+    },
+    "none": {
+      "checked": 8,
+      "discrepancies": 0,
+      "first_counterexample": null
+    },
+    "unknown_is_permission": {
+      "checked": 8,
+      "discrepancies": 3,
+      "first_counterexample": {
+        "actual": true,
+        "expected": false,
+        "fixture": "U1"
+      }
+    }
+  },
+  "P4": {
+    "cap": {
+      "checked": 86016,
+      "discrepancies": 26,
+      "first_counterexample": {
+        "actions": 3,
+        "actual": true,
+        "caps": [
+          1,
+          1,
+          1
+        ],
+        "expected": false,
+        "revoked": [
+          false,
+          false,
+          false
+        ],
+        "scopes": [
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    "none": {
+      "checked": 86016,
+      "discrepancies": 0,
+      "first_counterexample": null
+    },
+    "revocation": {
+      "checked": 86016,
+      "discrepancies": 4375,
+      "first_counterexample": {
+        "actions": 1,
+        "actual": true,
+        "caps": [
+          1,
+          1,
+          1
+        ],
+        "expected": false,
+        "revoked": [
+          false,
+          false,
+          true
+        ],
+        "scopes": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "union": {
+      "checked": 86016,
+      "discrepancies": 6102,
+      "first_counterexample": {
+        "actions": 1,
+        "actual": true,
+        "caps": [
+          1,
+          1,
+          1
+        ],
+        "expected": false,
+        "revoked": [
+          false,
+          false,
+          false
+        ],
+        "scopes": [
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  },
+  "P5": {
+    "atomic_hidden": {
+      "active_traces": 85552,
+      "bad_traces": 18420,
+      "checked": 335922,
+      "first_counterexample": {
+        "events": "QXA",
+        "executions": [
+          false,
+          false,
+          true
+        ]
+      }
+    },
+    "atomic_visible": {
+      "active_traces": 30846,
+      "bad_traces": 0,
+      "checked": 97655,
+      "first_counterexample": null
+    },
+    "cached": {
+      "active_traces": 10831,
+      "bad_traces": 1965,
+      "checked": 97655,
+      "first_counterexample": {
+        "events": "QKCA",
+        "executions": [
+          false,
+          false,
+          false,
+          true
+        ]
+      }
+    },
+    "hold": {
+      "active_traces": 0,
+      "bad_traces": 0,
+      "checked": 97655,
+      "first_counterexample": null
+    },
+    "open": {
+      "active_traces": 75811,
+      "bad_traces": 56079,
+      "checked": 97655,
+      "first_counterexample": {
+        "events": "A",
+        "executions": [
+          true
+        ]
+      }
+    },
+    "record_qualifies": {
+      "active_traces": 46704,
+      "bad_traces": 17847,
+      "checked": 97655,
+      "first_counterexample": {
+        "events": "RA",
+        "executions": [
+          false,
+          true
+        ]
+      }
+    }
+  },
+  "P5_controls": {
+    "atomic": {
+      "hidden": true,
+      "qualified": true,
+      "race": false,
+      "record_only": false,
+      "renewed": true
+    },
+    "cached": {
+      "hidden": false,
+      "qualified": false,
+      "race": true,
+      "record_only": false,
+      "renewed": false
+    },
+    "hold": {
+      "hidden": false,
+      "qualified": false,
+      "race": false,
+      "record_only": false,
+      "renewed": false
+    },
+    "open": {
+      "hidden": true,
+      "qualified": true,
+      "race": true,
+      "record_only": true,
+      "renewed": true
+    },
+    "record_qualifies": {
+      "hidden": true,
+      "qualified": true,
+      "race": false,
+      "record_only": true,
+      "renewed": true
+    }
+  },
+  "P6": {
+    "names": {
+      "checked": 10240,
+      "discrepancies": 7470,
+      "first_counterexample": {
+        "actual": true,
+        "edges": [
+          [
+            3,
+            4
+          ]
+        ],
+        "expected": false,
+        "pair": [
+          3,
+          4
+        ]
+      }
+    },
+    "none": {
+      "checked": 10240,
+      "discrepancies": 0,
+      "first_counterexample": null
+    },
+    "parents": {
+      "checked": 10240,
+      "discrepancies": 5214,
+      "first_counterexample": {
+        "actual": true,
+        "edges": [
+          [
+            3,
+            4
+          ]
+        ],
+        "expected": false,
+        "pair": [
+          3,
+          4
+        ]
+      }
+    }
+  },
+  "acceptance": "All declared bounded checks and adverse-result controls behaved as specified; HC, empirical H1-H6, and HS remain unestablished.",
+  "file_sha256": {
+    "candidates.py": "1ee39d2bab455b7359643d77fd68019a6c186e31941cd40ccb7c221111aac1bf",
+    "evaluators.py": "32a2e20d8df4abbf2c00e1a8deaf72aee272f99cdd87c0a610442ebad8dc5fe1",
+    "replay_and_review.py": "c872a9a49b43f0026d4d56be37935b55b5e5efa589d2b313773fa9e8bae8df34",
+    "run_audit.py": "ac139618d454cc921f41f216a355a521265c31d0e738cd6a314c911019122395"
+  },
+  "isolation": {
+    "evaluator_imports": [
+      "itertools"
+    ],
+    "independent_authorship": false,
+    "semantic_validation": "manual source-led translation; shared conceptual assumptions remain"
+  },
+  "protocol_sha256": "af05e1300c54e31fb912c64a09bc5ddf4330613d34e0ad682f5a19635d5dad16",
+  "scope": "same-author bounded semantic audit; no all-six HC or HS proof"
+}
