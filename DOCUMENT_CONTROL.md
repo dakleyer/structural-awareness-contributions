@@ -128,6 +128,11 @@ Rule:
 
 `architectural-contributions/ecosystem-positioning/README.md`
 
+**Current protected content SHA — 29 September 2026 minor evaluator maintenance:**  
+`035ba43ef0e78179cf06908e8e8b2a5ecda233cb`
+
+This entry supersedes the earlier SHA entries below. Added one link to the targeted input-validation maintenance record under the existing follow-up route. Prior router text, Word documents and historical result files are preserved. The corrected evaluator retains its previous version in Git history. Navigation ownership and README counts are unchanged.
+
 **Current protected content SHA — 29 September 2026 follow-up audit 0.4.1:**  
 `91780f8381923d32e75356bc9a70de696dcc3dc7`
 

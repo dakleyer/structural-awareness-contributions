@@ -1,0 +1,22 @@
+{
+  "checked_evaluator_sha256": "a1c16e724fd446782716fb19e805c960bf4b81b09a00c2066349e9ec5d64d55e",
+  "list_and_tuple_graph_records_agree": true,
+  "malformed_type_and_shape_controls": {
+    "boolean_graph_node": true,
+    "boolean_report": true,
+    "duplicate_list_edges": true,
+    "empty_charge_row": true,
+    "float_report": true,
+    "none_edges": true,
+    "none_event": true,
+    "none_evidence": true,
+    "none_ledger": true,
+    "none_output": true,
+    "short_edge": true,
+    "unhashable_claim": true
+  },
+  "new_controls": 12,
+  "prior_follow_up_result_bytes_unchanged": true,
+  "prior_result_sha256": "34fce0d1828a375cf4c4cedf9dad84660623d05a298c18f9d4150e3cf579a4b4",
+  "scope": "Minor input-admission correction; no new hypothesis validation or change to documented results."
+}
