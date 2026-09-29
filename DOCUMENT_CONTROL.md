@@ -131,6 +131,11 @@ Rule:
 **Protected content SHA at control date:**  
 `13cf9ceeea232eb318e9ae5dae4f16625f931fa2`
 
+**Current protected content SHA — 29 September 2026 owner-authorized additive publication:**  
+`7d09f4cc758c4d49f14a1b9eeade0cd0d5172e0c`
+
+This current SHA supersedes the control-date SHA above. The complete prior Ecosystem Positioning README is preserved verbatim, with one added section routing to the hypothesis protocol, audited traceability bridge and original explanatory antecedent. The three Word documents are published unchanged; the two working drafts govern the sufficiency interpretation. No existing document, section or reading route is removed.
+
 Rule:
 
 - Preserve this file as the complete Level-4 human landing page and evidence router for Ecosystem Positioning.
@@ -197,6 +202,8 @@ dakleyer/dakleyer
 ```
 
 This sitemap describes navigation ownership, not every file in the repository.
+
+**29 September 2026 supporting-document route:** `architectural-contributions/ecosystem-positioning/documents/2026-09-29/` contains the three preserved Word documents, owned and linked by the existing Ecosystem Positioning README. This adds no README or independent router; the raw README count and controlled-navigation target are unchanged.
 
 ---
 

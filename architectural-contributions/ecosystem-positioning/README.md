@@ -198,6 +198,28 @@ flowchart LR
 
 ---
 
+# Common-cause hypotheses and foundation-to-principle traceability
+
+The following English documents, prepared on **29 September 2026**, make the argument connecting the foundations, six failure families, hypotheses, communication thesis and operational principles explicit. They are supporting research documents for this contribution and the proposed integration of the six scenarios into one FG-TIDA use case.
+
+| Document | Function and reading status |
+|---|---|
+| [**Common Cause Hypothesis and Refutation Protocol — working draft 0.3**](./documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) | Defines context, the common causal sufficiency hypothesis (HC), its relationship to H1–H6, the response-sufficiency hypothesis (HS), candidate changed-context witnesses and conditions for refutation. Read first for the claims and their test obligations. |
+| [**Hypothesis, Thesis and Principle Traceability — working draft 0.3, audited bridge**](./documents/2026-09-29/Hypothesis_Thesis_and_Principle_Traceability.docx) | Connects foundations, HC, H1–H6, failure families 00E–00J, their eighteen walkthrough positions, the communication thesis and P1–P6. Records assumptions, evidence boundaries, audit findings and conditions for transfer to other industries. Read alongside the protocol to inspect each relationship. |
+| [**Common Causal Explanation and H1–H6 — original explanatory antecedent**](./documents/2026-09-29/Common_Causal_Explanation_and_H1_H6.docx) | Preserves the initial English explanation and the six canonical hypothesis statements. Its document-status paragraph refers to an earlier necessity formulation; the two working drafts above govern the current **sufficiency** interpretation. |
+
+All three Word files are preserved unchanged. These additions do not revise the canonical foundations, requirements, principles or failure scenarios.
+
+**What is being hypothesized?** HC proposes that, for each failure family, there exists an admissible configuration in which information is transferred without material contextual qualification, the relevant context changes, and subsequent reliance without adequate requalification reproduces that family's independently defined failure. This does not mean that every context change causes failure, or that the same failure cannot occur under unchanged context. Static-context failures therefore do not, by themselves, refute this sufficiency claim.
+
+**What response is proposed?** HS and the communication thesis propose communicating a minimum context map with the epistemic qualification of its points and scopes, preserving that qualification across handoffs, and contrasting it with the conditions of later reliance. Within declared observation, resource, time and authority limits, this could support early warning and a sufficient response to material context change. Complete knowledge of context is not assumed.
+
+**How does this lead to principles?** Read the [foundations](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), then the protocol and audited bridge, alongside the [canonical H1–H6 and requirements](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) and [operational principles](../../research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md). The bridge distinguishes conceptual motivation, testable causal claims, proposed response mechanisms and design obligations. Hypotheses plus thesis do not automatically prove the principles or establish their end-to-end sufficiency.
+
+**Evidence boundary.** The eighteen walkthrough positions are documentary coverage, not eighteen executed product tests. Existing bounded symbolic results and the audited diagnostic replay remain scoped to their stated models. The all-six common-cause and end-to-end response claims remain open to testing. Industrial transfer requires demonstrated case-family membership and preservation of the relevant assumptions and conformance obligations; the grouping is not FG-TIDA adoption or endorsement.
+
+---
+
 # Awareness → Positioning → Agent Defense
 
 The philosophy starts from the [**Integrated Foundational Theory**](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md): no participant has the whole ecosystem. Every agent, human or subsystem acts from a **bounded and revisable representation**, while a decision-relevant residual remains outside what is currently represented and the useful observation window can change with time, risk and capacity. The objective is therefore not omniscience, global consensus or permanent HOLD, but **bounded, justified closure that can be requalified when its basis changes**.
