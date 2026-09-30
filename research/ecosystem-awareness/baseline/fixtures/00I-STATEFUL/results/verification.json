@@ -1,0 +1,1031 @@
+{
+  "schema": "00I-validation-extension-v3",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "tests_run": 49,
+  "failures": 0,
+  "errors": 0,
+  "regression_pass": true,
+  "stdout": "test_both_reference_omission_and_writer_bypass_remain_visible_failures (test_stateful.StatefulTests.test_both_reference_omission_and_writer_bypass_remain_visible_failures) ... ok\ntest_bounded_event_interleavings_on_both_sides_of_check (test_stateful.StatefulTests.test_bounded_event_interleavings_on_both_sides_of_check) ... ok\ntest_candidate_does_not_read_oracle_or_select_on_case_name (test_stateful.StatefulTests.test_candidate_does_not_read_oracle_or_select_on_case_name) ... ok\ntest_declared_matrix_including_expected_failures (test_stateful.StatefulTests.test_declared_matrix_including_expected_failures) ... ok\ntest_duplicate_delivery_does_not_reapply (test_stateful.StatefulTests.test_duplicate_delivery_does_not_reapply) ... ok\ntest_dynamic_manifest_peer_passes_both_closed_and_open_new_dependency (test_stateful.StatefulTests.test_dynamic_manifest_peer_passes_both_closed_and_open_new_dependency) ... ok\ntest_effect_assertion_detects_success_label_without_state_change (test_stateful.StatefulTests.test_effect_assertion_detects_success_label_without_state_change) ... ok\ntest_forged_and_substituted_permits_are_rejected (test_stateful.StatefulTests.test_forged_and_substituted_permits_are_rejected) ... ok\ntest_freeze_only_pair_changes_effect_with_same_grant_and_generation (test_stateful.StatefulTests.test_freeze_only_pair_changes_effect_with_same_grant_and_generation) ... ok\ntest_freshness_boundary_and_future_observation (test_stateful.StatefulTests.test_freshness_boundary_and_future_observation) ... ok\ntest_freshness_update_preserves_previously_added_finance_dependency (test_stateful.StatefulTests.test_freshness_update_preserves_previously_added_finance_dependency) ... ok\ntest_inconsistent_multi_source_snapshot_is_not_permitted (test_stateful.StatefulTests.test_inconsistent_multi_source_snapshot_is_not_permitted) ... ok\ntest_race_permits_then_executor_rejects_without_effect (test_stateful.StatefulTests.test_race_permits_then_executor_rejects_without_effect) ... ok\ntest_unknown_evidence_closes_in_bounded_time_and_never_writes (test_stateful.StatefulTests.test_unknown_evidence_closes_in_bounded_time_and_never_writes) ... ok\ntest_available_requires_boolean_true (test_contract_edges.ContractEdges.test_available_requires_boolean_true) ... ok\ntest_blank_version_does_not_establish_provenance (test_contract_edges.ContractEdges.test_blank_version_does_not_establish_provenance) ... ok\ntest_boolean_revision_is_not_integer_revision (test_contract_edges.ContractEdges.test_boolean_revision_is_not_integer_revision) ... ok\ntest_completed_id_with_different_payload_is_conflict_not_success (test_contract_edges.ContractEdges.test_completed_id_with_different_payload_is_conflict_not_success) ... ok\ntest_empty_manifest_cannot_authorise (test_contract_edges.ContractEdges.test_empty_manifest_cannot_authorise) ... ok\ntest_empty_oracle_cannot_vacuously_pass (test_contract_edges.ContractEdges.test_empty_oracle_cannot_vacuously_pass) ... ok\ntest_evaluator_rejects_wrong_types (test_contract_edges.ContractEdges.test_evaluator_rejects_wrong_types) ... ok\ntest_malformed_freshness_budget_is_unknown (test_contract_edges.ContractEdges.test_malformed_freshness_budget_is_unknown) ... ok\ntest_malformed_rule_is_unknown_not_exception (test_contract_edges.ContractEdges.test_malformed_rule_is_unknown_not_exception) ... ok\ntest_missing_metadata_is_unknown_not_exception (test_contract_edges.ContractEdges.test_missing_metadata_is_unknown_not_exception) ... ok\ntest_permits_for_two_intents_do_not_overwrite_each_other (test_contract_edges.ContractEdges.test_permits_for_two_intents_do_not_overwrite_each_other) ... ok\ntest_source_identity_must_match_requested_source (test_contract_edges.ContractEdges.test_source_identity_must_match_requested_source) ... ok\ntest_zero_budget_is_unknown (test_contract_edges.ContractEdges.test_zero_budget_is_unknown) ... ok\ntest_concurrent_distinct_intents_reject_stale_second_operation (test_durable.DurableTests.test_concurrent_distinct_intents_reject_stale_second_operation) ... ok\ntest_crash_after_commit_before_ack_does_not_repeat_effect (test_durable.DurableTests.test_crash_after_commit_before_ack_does_not_repeat_effect) ... ok\ntest_crash_after_effect_before_commit_rolls_back_both (test_durable.DurableTests.test_crash_after_effect_before_commit_rolls_back_both) ... ok\ntest_crash_before_effect_then_retry (test_durable.DurableTests.test_crash_before_effect_then_retry) ... ok\ntest_exact_expiry_blocks_effect (test_durable.DurableTests.test_exact_expiry_blocks_effect) ... ok\ntest_forged_permit_payload_cannot_change_effect (test_durable.DurableTests.test_forged_permit_payload_cannot_change_effect) ... ok\ntest_four_concurrent_duplicate_deliveries_apply_once (test_durable.DurableTests.test_four_concurrent_duplicate_deliveries_apply_once) ... ok\ntest_guarded_continuity_through_persistent_executor (test_durable.DurableTests.test_guarded_continuity_through_persistent_executor) ... ok\ntest_material_change_after_guard_rejects_without_effect (test_durable.DurableTests.test_material_change_after_guard_rejects_without_effect) ... ok\ntest_non_atomic_control_leaves_effect_without_receipt (test_durable.DurableTests.test_non_atomic_control_leaves_effect_without_receipt) ... ok\ntest_receipt_payload_conflict_survives_process_restart (test_durable.DurableTests.test_receipt_payload_conflict_survives_process_restart) ... ok\ntest_recovery_permit_then_lost_ack_is_not_a_second_execution (test_durable.DurableTests.test_recovery_permit_then_lost_ack_is_not_a_second_execution) ... ok\ntest_clear_prohibition_is_not_automatically_reopened (test_recovery.RecoveryTests.test_clear_prohibition_is_not_automatically_reopened) ... ok\ntest_deadline_also_bounds_permit_and_dispatch (test_recovery.RecoveryTests.test_deadline_also_bounds_permit_and_dispatch) ... ok\ntest_duplicate_delivery_after_recovery_has_one_effect (test_recovery.RecoveryTests.test_duplicate_delivery_after_recovery_has_one_effect) ... ok\ntest_exact_deadline_recovery_does_not_silently_extend_permission (test_recovery.RecoveryTests.test_exact_deadline_recovery_does_not_silently_extend_permission) ... ok\ntest_recovered_action_still_rejects_change_between_recheck_and_act (test_recovery.RecoveryTests.test_recovered_action_still_rejects_change_between_recheck_and_act) ... ok\ntest_recovered_evidence_restores_continuity_before_deadline (test_recovery.RecoveryTests.test_recovered_evidence_restores_continuity_before_deadline) ... ok\ntest_recovery_does_not_renew_expired_grant (test_recovery.RecoveryTests.test_recovery_does_not_renew_expired_grant) ... ok\ntest_reentry_reloads_new_dependency (test_recovery.RecoveryTests.test_reentry_reloads_new_dependency) ... ok\ntest_returning_source_does_not_restore_superseded_decision (test_recovery.RecoveryTests.test_returning_source_does_not_restore_superseded_decision) ... ok\ntest_unchanged_unknown_has_finite_attempts_and_fixed_deadline (test_recovery.RecoveryTests.test_unchanged_unknown_has_finite_attempts_and_fixed_deadline) ... ok\n\n----------------------------------------------------------------------\nRan 49 tests in 0.799s\n\nOK\n",
+  "source_sha256": {
+    "AUDIT_EXTENSION.md": "6d5d50e0d0279c05459558ea1181dac811a85071277e8ca1403221176335556f",
+    "README.md": "6ab903ba7be68c4ec5a437bba1bab7ef0aed521286224303dec077f1ea483401",
+    "RECOVERY.md": "508e12cdb7adaff5da8d15524bdf2ef3782175396bc1d86b19b5847c1b1fe4dd",
+    "audit/before-5033c4b/model.py": "f78b96776acfcf0cad647eb5921e0b2320f68a45a92e5d80602ddd6f86e442b2",
+    "audit/before-5033c4b/reproduce.py": "21991992423d799ca4c3335a93a66af4aa049c4a8581f96f3c5069a5573771a3",
+    "audit/before-5033c4b/test_contract_edges.py": "0606e840e4405f0a7cea2d6ea3f3cb05c6c272769ee5d416eb01824d5671e99d",
+    "audit/before-recovery/model.py": "605f1074569f0619d6ee93bd5a688dd58b9bfbc931dca4318c132b02f285f1d4",
+    "audit/before-recovery/test_recovery.py": "cf96b80ee09fb12c37c0ff33fd6d5fcf9104d39645d3caa674dbde4af4f0ccae",
+    "audit/d1_d4_before_model.py": "afd3d5456e1e75e58fcefd0e2072f546a6982d02040fb63d95d1bef18b17a8ad",
+    "build_fixtures.py": "0a765d22d60304b08f99f62b04e5e3cfa50af9df83e5dddf37ff36d256f10480",
+    "durable_executor.py": "05c4641865a9c0060948a65ebd2201e43203cad8ab1a03f405cbaad20075f866",
+    "fixtures.json": "b517ef6b50bf32afa3eae5908af5329c3e15b029db40a18a549bdcb744848ce1",
+    "model.py": "71c10cafca1b0b2c8189c06793d38d81e6635bc69e316adacf0b70db919513b1",
+    "oracle.json": "05a9717bd1b5f11a92f893e5ca6a176b04fe058d8922fae501b057178c4c2729",
+    "reproduce.py": "0f390bf4e00c018e585601c64053a000a2b5a69e015dd16fd7bb5922039ecf88",
+    "test_contract_edges.py": "0606e840e4405f0a7cea2d6ea3f3cb05c6c272769ee5d416eb01824d5671e99d",
+    "test_durable.py": "abb713a967d4bc11b78c222ce4e2663dea3635ddd3ec64928c2b2c16d261cd57",
+    "test_recovery.py": "cf96b80ee09fb12c37c0ff33fd6d5fcf9104d39645d3caa674dbde4af4f0ccae",
+    "test_stateful.py": "d8e8bdf7244354e48c9de02879ad3edb65eae6d184faae5ad4893817319048e7",
+    "verify.py": "e558614f145a9f94f21e83b0ea5a39a675585053211d21a450497567d48ece32"
+  },
+  "durable_observations": [
+    {
+      "test": "test_durable.DurableTests.test_concurrent_distinct_intents_reject_stale_second_operation",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-C",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-2",
+              "intent": {
+                "id": "PATCH-C",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "REJECTED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_crash_after_commit_before_ack_does_not_repeat_effect",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "after_commit",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 73,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "ALREADY_APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_crash_after_effect_before_commit_rolls_back_both",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "after_effect",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 73,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              217,
+              1,
+              0
+            ]
+          ],
+          "receipts": []
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_crash_before_effect_then_retry",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "before_effect",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 73,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              217,
+              1,
+              0
+            ]
+          ],
+          "receipts": []
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_exact_expiry_blocks_effect",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 130
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "REJECTED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              217,
+              1,
+              0
+            ]
+          ],
+          "receipts": []
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_forged_permit_payload_cannot_change_effect",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 215,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 215,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "REJECTED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              217,
+              1,
+              0
+            ]
+          ],
+          "receipts": []
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_four_concurrent_duplicate_deliveries_apply_once",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "ALREADY_APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "ALREADY_APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "ALREADY_APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_guarded_continuity_through_persistent_executor",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_material_change_after_guard_rejects_without_effect",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "REJECTED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              218,
+              2,
+              0
+            ]
+          ],
+          "receipts": []
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_non_atomic_control_leaves_effect_without_receipt",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "after_effect",
+          "non_atomic_control": true
+        },
+        {
+          "event": "process_result",
+          "exit_code": 73,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": []
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "REJECTED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": []
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_receipt_payload_conflict_survives_process_restart",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 215,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-1",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 130
+            },
+            "now": 122
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "CONFLICT",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "test": "test_durable.DurableTests.test_recovery_permit_then_lost_ack_is_not_a_second_execution",
+      "observations": [
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-2",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 125
+            },
+            "now": 122
+          },
+          "crash": "after_commit",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 73,
+          "stdout": "",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        },
+        {
+          "event": "request_submitted",
+          "request": {
+            "intent": {
+              "id": "PATCH-A",
+              "target": "db-7/shard-9",
+              "desired_generation": 216,
+              "grant_expires": 5400
+            },
+            "permit": {
+              "id": "permit-2",
+              "intent": {
+                "id": "PATCH-A",
+                "target": "db-7/shard-9",
+                "desired_generation": 216,
+                "grant_expires": 5400
+              },
+              "revision": 1,
+              "expires": 125
+            },
+            "now": 126
+          },
+          "crash": "none",
+          "non_atomic_control": false
+        },
+        {
+          "event": "process_result",
+          "exit_code": 0,
+          "stdout": "ALREADY_APPLIED",
+          "stderr": ""
+        },
+        {
+          "event": "database_snapshot",
+          "state": [
+            [
+              "db-7/shard-9",
+              216,
+              2,
+              1
+            ]
+          ],
+          "receipts": [
+            [
+              "PATCH-A",
+              "{\"desired_generation\":216,\"grant_expires\":5400,\"id\":\"PATCH-A\",\"target\":\"db-7/shard-9\"}"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "evidence_boundary": "Real subprocess exits and SQLite transactions; protected effect remains a local row, not an external operation."
+}

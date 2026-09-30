@@ -1,0 +1,1037 @@
+{
+  "actual_failure_cases": [
+    "cached_temporal_control",
+    "d4_static_freshness_control",
+    "deny_all_continuity",
+    "recovery_no_recheck_control",
+    "shared_omission",
+    "static_manifest_drift",
+    "unbound_race",
+    "writer_bypass"
+  ],
+  "evidence_level": "bounded_stateful_simulation",
+  "execution_errors": [],
+  "expected_failure_cases": [
+    "shared_omission",
+    "cached_temporal_control",
+    "unbound_race",
+    "static_manifest_drift",
+    "deny_all_continuity",
+    "writer_bypass",
+    "d4_static_freshness_control",
+    "recovery_no_recheck_control"
+  ],
+  "python": "3.12.14",
+  "regression_meaning": "Declared defended cases pass and deliberate controls/limitations fail scenario acceptance.",
+  "regression_pass": true,
+  "rows": [
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "continuity",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "freeze_before_use",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 218
+      },
+      "id": "patch_b_supersedes",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 218
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 218
+      },
+      "id": "canonical_s5",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 218
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "diagnosis_changed",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "source_unavailable",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "stale_source",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "source_expires_before_act",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "source_exact_expiry",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "wrong_owner",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "future_timestamp",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "missing_source",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "invalid_value_type",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "unavailable_manifest",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "stale_manifest",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "grant_expired",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "freeze_after_check",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 218
+      },
+      "id": "patch_after_check",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 218
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "manifest_after_check",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "permit_expired",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "intent_substitution",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "duplicate_delivery",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "irrelevant_change",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "d1_dynamic_manifest",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "d1_open_continuity",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "d4_freshness_policy_tightened",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "d4_freshness_valid_continuity",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": false,
+        "disposition": false,
+        "final_generation": false
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "d4_static_freshness_control",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": false
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "d1_then_d4_closed_dependency",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": false,
+        "disposition": false,
+        "final_generation": false
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "shared_omission",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": false
+    },
+    {
+      "assertions": {
+        "applied": false,
+        "disposition": false,
+        "final_generation": false
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "cached_temporal_control",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": false
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "coverage_missing_detected",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "coverage_continuity",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": false,
+        "disposition": false,
+        "final_generation": false
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "unbound_race",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": false
+    },
+    {
+      "assertions": {
+        "applied": false,
+        "disposition": false,
+        "final_generation": false
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "static_manifest_drift",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": false
+    },
+    {
+      "assertions": {
+        "applied": false,
+        "disposition": false,
+        "final_generation": false
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "deny_all_continuity",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": false
+    },
+    {
+      "assertions": {
+        "applied": false,
+        "disposition": false,
+        "final_generation": false
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "writer_bypass",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": false
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "recovery_unchanged_continuity",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "recovery_returns_early",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "recovery_returns_last_poll",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "recovery_never_returns",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "recovery_at_deadline",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "recovery_freeze_during_wait",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 218
+      },
+      "id": "recovery_patch_during_wait",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 218
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "recovery_new_dependency",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "recovery_tighter_freshness",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "recovery_flapping",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "recovery_race_after_recheck",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "recovery_duplicate",
+      "observed": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "id": "recovery_grant_expiry",
+      "observed": {
+        "applied": false,
+        "disposition": "DENY",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": true,
+        "disposition": true,
+        "final_generation": true
+      },
+      "expected": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "id": "recovery_dispatch_deadline",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": true
+    },
+    {
+      "assertions": {
+        "applied": false,
+        "disposition": false,
+        "final_generation": false
+      },
+      "expected": {
+        "applied": true,
+        "disposition": "EXECUTE",
+        "final_generation": 216
+      },
+      "id": "recovery_no_recheck_control",
+      "observed": {
+        "applied": false,
+        "disposition": "ESCALATE",
+        "final_generation": 217
+      },
+      "scenario_pass": false
+    }
+  ],
+  "scenario_count": 52,
+  "scenario_fail_count": 8,
+  "scenario_pass_count": 44,
+  "schema": "00I-stateful-results-v1",
+  "source_sha256": {
+    "AUDIT_EXTENSION.md": "6d5d50e0d0279c05459558ea1181dac811a85071277e8ca1403221176335556f",
+    "README.md": "6ab903ba7be68c4ec5a437bba1bab7ef0aed521286224303dec077f1ea483401",
+    "RECOVERY.md": "508e12cdb7adaff5da8d15524bdf2ef3782175396bc1d86b19b5847c1b1fe4dd",
+    "build_fixtures.py": "0a765d22d60304b08f99f62b04e5e3cfa50af9df83e5dddf37ff36d256f10480",
+    "durable_executor.py": "05c4641865a9c0060948a65ebd2201e43203cad8ab1a03f405cbaad20075f866",
+    "fixtures.json": "b517ef6b50bf32afa3eae5908af5329c3e15b029db40a18a549bdcb744848ce1",
+    "model.py": "71c10cafca1b0b2c8189c06793d38d81e6635bc69e316adacf0b70db919513b1",
+    "oracle.json": "05a9717bd1b5f11a92f893e5ca6a176b04fe058d8922fae501b057178c4c2729",
+    "reproduce.py": "0f390bf4e00c018e585601c64053a000a2b5a69e015dd16fd7bb5922039ecf88",
+    "test_contract_edges.py": "0606e840e4405f0a7cea2d6ea3f3cb05c6c272769ee5d416eb01824d5671e99d",
+    "test_durable.py": "abb713a967d4bc11b78c222ce4e2663dea3635ddd3ec64928c2b2c16d261cd57",
+    "test_recovery.py": "cf96b80ee09fb12c37c0ff33fd6d5fcf9104d39645d3caa674dbde4af4f0ccae",
+    "test_stateful.py": "d8e8bdf7244354e48c9de02879ad3edb65eae6d184faae5ad4893817319048e7",
+    "verify.py": "e558614f145a9f94f21e83b0ea5a39a675585053211d21a450497567d48ece32"
+  }
+}

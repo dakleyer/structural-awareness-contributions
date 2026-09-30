@@ -1,0 +1,720 @@
+{
+  "schema": "00I-stateful-input-v1",
+  "cases": [
+    {
+      "id": "continuity",
+      "mode": "guarded",
+      "events": []
+    },
+    {
+      "id": "freeze_before_use",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 1200,
+          "field": "freeze",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "patch_b_supersedes",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 900,
+          "field": "patch_b",
+          "value": 218
+        }
+      ]
+    },
+    {
+      "id": "canonical_s5",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 900,
+          "field": "patch_b",
+          "value": 218
+        },
+        {
+          "at": 1200,
+          "field": "freeze",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "diagnosis_changed",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 1200,
+          "field": "diagnosis",
+          "value": "network_failure"
+        }
+      ]
+    },
+    {
+      "id": "source_unavailable",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        }
+      ]
+    },
+    {
+      "id": "stale_source",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "stale"
+        }
+      ]
+    },
+    {
+      "id": "source_expires_before_act",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "near_expiry"
+        }
+      ]
+    },
+    {
+      "id": "source_exact_expiry",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "boundary"
+        }
+      ]
+    },
+    {
+      "id": "wrong_owner",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "wrong_owner"
+        }
+      ]
+    },
+    {
+      "id": "future_timestamp",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "future"
+        }
+      ]
+    },
+    {
+      "id": "missing_source",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "missing"
+        }
+      ]
+    },
+    {
+      "id": "invalid_value_type",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "wrong_type"
+        }
+      ]
+    },
+    {
+      "id": "unavailable_manifest",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "manifest",
+          "fault": "unavailable"
+        }
+      ]
+    },
+    {
+      "id": "stale_manifest",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "manifest",
+          "fault": "stale"
+        }
+      ]
+    },
+    {
+      "id": "grant_expired",
+      "mode": "guarded",
+      "events": [],
+      "act_at": 5400
+    },
+    {
+      "id": "freeze_after_check",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2521,
+          "field": "freeze",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "patch_after_check",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2521,
+          "field": "patch_b",
+          "value": 218
+        }
+      ]
+    },
+    {
+      "id": "manifest_after_check",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2521,
+          "field": "manifest",
+          "value": "v18"
+        }
+      ]
+    },
+    {
+      "id": "permit_expired",
+      "mode": "guarded",
+      "events": [],
+      "act_at": 2530
+    },
+    {
+      "id": "intent_substitution",
+      "mode": "guarded",
+      "events": [],
+      "substitute_intent": true
+    },
+    {
+      "id": "duplicate_delivery",
+      "mode": "guarded",
+      "events": [],
+      "duplicate": true
+    },
+    {
+      "id": "irrelevant_change",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 1200,
+          "field": "metric",
+          "value": 999
+        }
+      ]
+    },
+    {
+      "id": "d1_dynamic_manifest",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 1200,
+          "field": "manifest",
+          "value": "v18"
+        }
+      ]
+    },
+    {
+      "id": "d1_open_continuity",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 1200,
+          "field": "freeze_b",
+          "value": false
+        },
+        {
+          "at": 1200,
+          "field": "manifest",
+          "value": "v18"
+        }
+      ]
+    },
+    {
+      "id": "d4_freshness_policy_tightened",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 1200,
+          "field": "freshness_budget",
+          "value": 5
+        },
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "six_seconds_old"
+        }
+      ]
+    },
+    {
+      "id": "d4_freshness_valid_continuity",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 1200,
+          "field": "freshness_budget",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "d4_static_freshness_control",
+      "mode": "static_manifest",
+      "events": [
+        {
+          "at": 1200,
+          "field": "freshness_budget",
+          "value": 5
+        },
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "six_seconds_old"
+        }
+      ]
+    },
+    {
+      "id": "d1_then_d4_closed_dependency",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 1200,
+          "field": "manifest",
+          "value": "v18"
+        },
+        {
+          "at": 1300,
+          "field": "freshness_budget",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "shared_omission",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 1200,
+          "field": "freeze",
+          "value": true
+        }
+      ],
+      "omit_reference_freeze": true
+    },
+    {
+      "id": "cached_temporal_control",
+      "mode": "coverage_only",
+      "events": [
+        {
+          "at": 1200,
+          "field": "freeze",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "coverage_missing_detected",
+      "mode": "coverage_only",
+      "events": [],
+      "omit_checked_freeze": true
+    },
+    {
+      "id": "coverage_continuity",
+      "mode": "coverage_only",
+      "events": []
+    },
+    {
+      "id": "unbound_race",
+      "mode": "unbound",
+      "events": [
+        {
+          "at": 2521,
+          "field": "freeze",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "static_manifest_drift",
+      "mode": "static_manifest",
+      "events": [
+        {
+          "at": 1200,
+          "field": "manifest",
+          "value": "v18"
+        }
+      ]
+    },
+    {
+      "id": "deny_all_continuity",
+      "mode": "deny_all",
+      "events": []
+    },
+    {
+      "id": "writer_bypass",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2521,
+          "field": "freeze",
+          "value": true,
+          "bypass": true
+        }
+      ]
+    },
+    {
+      "id": "recovery_unchanged_continuity",
+      "mode": "guarded",
+      "events": [],
+      "recovery": true
+    },
+    {
+      "id": "recovery_returns_early",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        }
+      ],
+      "recovery": true
+    },
+    {
+      "id": "recovery_returns_last_poll",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2524,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        }
+      ],
+      "recovery": true
+    },
+    {
+      "id": "recovery_never_returns",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        }
+      ],
+      "recovery": true
+    },
+    {
+      "id": "recovery_at_deadline",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2525,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        }
+      ],
+      "recovery": true
+    },
+    {
+      "id": "recovery_freeze_during_wait",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        },
+        {
+          "at": 2521,
+          "field": "freeze",
+          "value": true
+        }
+      ],
+      "recovery": true
+    },
+    {
+      "id": "recovery_patch_during_wait",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        },
+        {
+          "at": 2521,
+          "field": "patch_b",
+          "value": 218
+        }
+      ],
+      "recovery": true
+    },
+    {
+      "id": "recovery_new_dependency",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        },
+        {
+          "at": 2521,
+          "field": "manifest",
+          "value": "v18"
+        }
+      ],
+      "recovery": true
+    },
+    {
+      "id": "recovery_tighter_freshness",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "freshness_budget",
+          "value": 5
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "six_seconds_old"
+        }
+      ],
+      "recovery": true
+    },
+    {
+      "id": "recovery_flapping",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        },
+        {
+          "at": 2522,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2523,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        },
+        {
+          "at": 2524,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        }
+      ],
+      "recovery": true
+    },
+    {
+      "id": "recovery_race_after_recheck",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        },
+        {
+          "at": 2523,
+          "field": "freeze",
+          "value": true
+        }
+      ],
+      "recovery": true,
+      "act_at": 2524
+    },
+    {
+      "id": "recovery_duplicate",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        }
+      ],
+      "recovery": true,
+      "duplicate": true
+    },
+    {
+      "id": "recovery_grant_expiry",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        }
+      ],
+      "recovery": true,
+      "grant_expires": 2522
+    },
+    {
+      "id": "recovery_dispatch_deadline",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        }
+      ],
+      "recovery": true,
+      "act_at": 2526
+    },
+    {
+      "id": "recovery_no_recheck_control",
+      "mode": "guarded",
+      "events": [
+        {
+          "at": 2519,
+          "field": "observation",
+          "value": "freeze",
+          "fault": "unavailable"
+        },
+        {
+          "at": 2521,
+          "field": "observation",
+          "value": "freeze",
+          "fault": null
+        }
+      ]
+    }
+  ]
+}

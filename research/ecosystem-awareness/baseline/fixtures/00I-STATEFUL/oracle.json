@@ -1,0 +1,275 @@
+{
+  "schema": "00I-stateful-oracle-v1",
+  "expectations": {
+    "continuity": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "freeze_before_use": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "patch_b_supersedes": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 218
+    },
+    "canonical_s5": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 218
+    },
+    "diagnosis_changed": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "source_unavailable": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "stale_source": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "source_expires_before_act": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "source_exact_expiry": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "wrong_owner": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "future_timestamp": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "missing_source": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "invalid_value_type": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "unavailable_manifest": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "stale_manifest": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "grant_expired": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "freeze_after_check": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "patch_after_check": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 218
+    },
+    "manifest_after_check": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "permit_expired": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "intent_substitution": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "duplicate_delivery": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "irrelevant_change": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "d1_dynamic_manifest": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "d1_open_continuity": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "d4_freshness_policy_tightened": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "d4_freshness_valid_continuity": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "d4_static_freshness_control": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "d1_then_d4_closed_dependency": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "shared_omission": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "cached_temporal_control": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "coverage_missing_detected": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "coverage_continuity": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "unbound_race": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "static_manifest_drift": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "deny_all_continuity": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "writer_bypass": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_unchanged_continuity": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "recovery_returns_early": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "recovery_returns_last_poll": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "recovery_never_returns": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_at_deadline": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_freeze_during_wait": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_patch_during_wait": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 218
+    },
+    "recovery_new_dependency": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_tighter_freshness": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_flapping": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_race_after_recheck": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_duplicate": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    },
+    "recovery_grant_expiry": {
+      "disposition": "DENY",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_dispatch_deadline": {
+      "disposition": "ESCALATE",
+      "applied": false,
+      "final_generation": 217
+    },
+    "recovery_no_recheck_control": {
+      "disposition": "EXECUTE",
+      "applied": true,
+      "final_generation": 216
+    }
+  },
+  "expected_failure_cases": [
+    "shared_omission",
+    "cached_temporal_control",
+    "unbound_race",
+    "static_manifest_drift",
+    "deny_all_continuity",
+    "writer_bypass",
+    "d4_static_freshness_control",
+    "recovery_no_recheck_control"
+  ]
+}

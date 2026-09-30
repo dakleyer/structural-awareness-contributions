@@ -1,0 +1,7 @@
+{
+  "model_sha256": "afd3d5456e1e75e58fcefd0e2072f546a6982d02040fb63d95d1bef18b17a8ad",
+  "tests_run": 1,
+  "failures": 1,
+  "errors": 0,
+  "stdout": "test_freshness_update_preserves_previously_added_finance_dependency (test_stateful.StatefulTests.test_freshness_update_preserves_previously_added_finance_dependency) ... FAIL\n\n======================================================================\nFAIL: test_freshness_update_preserves_previously_added_finance_dependency (test_stateful.StatefulTests.test_freshness_update_preserves_previously_added_finance_dependency)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/workspace/scratch/cdbbc62add0f/ea-validation/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/test_stateful.py\", line 138, in test_freshness_update_preserves_previously_added_finance_dependency\n    self.assertFalse(result[\"applied\"])\nAssertionError: True is not false\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n"
+}
