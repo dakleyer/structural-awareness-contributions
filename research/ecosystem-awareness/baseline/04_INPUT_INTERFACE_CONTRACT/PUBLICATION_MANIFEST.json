@@ -1,0 +1,46 @@
+{
+  "title": "04 EA Input Interface Contract v0.4 publication",
+  "date": "2026-09-30",
+  "owning_layer": "04 programme-independent input interfaces",
+  "status": "working input-contract proposal; H06 and O2 integration open",
+  "base_commit": "2c69ef325678b18b87138d9198eca68378f46dc6",
+  "source_document": "04_Contrato_interfaces_entrada_EA_v0.4.docx",
+  "source_document_body_language": "es",
+  "files": [
+    {
+      "path": "04_INPUT_INTERFACE_CONTRACT_v0.4.md",
+      "bytes": 110840,
+      "sha256": "6f36bef26a6cd75a464db24b5ebeaedb1d317c3972f54ebd4246efdcbb8cd94e"
+    },
+    {
+      "path": "04_Contrato_interfaces_entrada_EA_v0.4.docx",
+      "bytes": 606575,
+      "sha256": "831dc4b6f1b728da246ea51efcf3a31825b03745ad3966fc3ab512deaa3f6768"
+    },
+    {
+      "path": "assets/marco_clasificacion_es.svg",
+      "bytes": 8341,
+      "sha256": "21316d8b1261ed51ecb0a1d25b5031a8a34dfe55e265fa0c1934670b4437956b"
+    },
+    {
+      "path": "assets/marco_clasificacion_es.png",
+      "bytes": 603290,
+      "sha256": "fb5497323415309ac32d5e67804e9046731109ce0566c16233eda8e67afc3016"
+    }
+  ],
+  "conservation": {
+    "nonempty_body_paragraphs": 302,
+    "table_cells": 747,
+    "tables": 38,
+    "figures": 1,
+    "body_paragraphs_and_cells_preserved": true,
+    "docx_byte_identical": true,
+    "reviewed_input_bullets": 176,
+    "reviewed_families": 19,
+    "obligations": 13,
+    "recorded_findings": 17,
+    "analytical_adversarial_cases": 44
+  },
+  "execution_evidence": false,
+  "note": "The Word body describes the pre-publication review snapshot; navigation and the explicit delta were added for publication. Source-line anchors in Annex A refer to the original 04 blob recorded in Annex D."
+}

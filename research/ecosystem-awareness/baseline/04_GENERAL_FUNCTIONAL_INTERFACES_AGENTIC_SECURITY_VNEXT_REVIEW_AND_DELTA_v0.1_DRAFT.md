@@ -349,3 +349,31 @@ The strongest likely 04-vNext changes are presently **clarifications and conditi
 8. preserve the current IF-S11 peer-capability relation while making generic bidirectionality easier to read.
 
 This delta remains open and cumulative. New post-baseline interface findings should be appended here first. The 04 v0.5 Integrated baseline is not silently rewritten while review is active.
+
+---
+
+## 11. Input-interface contract working starting point — 30 September 2026
+
+The owner-authorized [**EA Input Interface Contract v0.4**](./04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md) ([preserved Word](./04_INPUT_INTERFACE_CONTRACT/04_Contrato_interfaces_entrada_EA_v0.4.docx)) is published **within 04** as the starting point for input-interface work. It is programme-independent and precedes any 05/05A projection. It does not specify EA outputs.
+
+The contract preserves the 176 reviewed input bullets across O1–O6 / IF-S1–IF-S13 and proposes their component-level decomposition. It adds a reader guide, classification diagram, N01–N13, 17 recorded findings, 44 analytical adversarial cases, worked discovery/retrieval examples and one semantic profile represented through HTTP, a message queue and a file batch. These are specification and mapping artefacts, not executed adapters or empirical transport-equivalence results.
+
+### Proposed input boundary
+
+- A is the producer's functional product; its value goes to its operational consumer and is excluded from this EA handoff route.
+- B preserves already-established meaning, support, coverage and limits about A, to the extent they are outside the functional product.
+- C preserves a recognized, insufficiently characterized possibility that was not examined through an available path, with its existing exclusion reason or the honest absence of that reason.
+- D preserves a recognized dependency beyond the declared effective determination boundary, with the existing limit/reason. Lack of control alone does not establish D; the communicated subset does not exhaust unknown residuals.
+- Packaging does not change the producer frame. Capture/transport overhead is distinct from new epistemic computation. Missing reasons are not reconstructed.
+- N13 allows a process to be declared **family not classified** instead of forcing it into the nearest family. This is independent of A/B/C/D; it does not add O7 or IF-S14 automatically.
+
+### Integration work that remains open
+
+| Item | Concrete work in 04 | Closure boundary |
+|---|---|---|
+| **H06 — exclusion of A** | Reconcile §2's EHD kernel, §8's local-output requirement, Appendix-A routes and §7/F9 consumers with the metadata-only input profile. Identify uses that remain unsupported without A. | Not closed by relabelling operational results as B or by publishing this contract. No claim that all F1–F9 uses remain sufficient. |
+| **Topology terminology** | Align the producer-relative A/B/C/D definitions with the current topology, preserving the distinction between communicated D and unenumerated structural residual. | Explicit semantic review before promoting a successor baseline. |
+| **O2 expression** | Explicitly map any natively available omitted catalogue/path/reason and out-of-scope dependency into the discovery profile; the existing seven O2 bullets do not enumerate these pieces fully. | Do not claim those components are already requested, generated or implemented; no new producer computation merely to populate them. |
+| **Profile and route conformance** | Review producer-owned meanings and, for implementations, exercise adapters for preservation, missingness, duplicates, time, versions and burden. | Illustrative mappings and analytical cases are not execution evidence. |
+
+**Disposition:** published working input-contract proposal and review starting point inside 04. The 04 v0.5 body and earlier controlled source semantics remain preserved. Publication adds this explicit delta and navigation; it is not promotion to an integrated successor, downstream adoption or closure of H06. The prior §10 determination is dated to 24 September and remains part of the review history.

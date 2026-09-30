@@ -445,3 +445,9 @@ The repository should remain understandable to a new human editor or automated a
 The control objective is:
 
 > **one canonical entry, four understandable programme routes, explicit architectural contribution ownership, preserved evidence, and no destructive navigation cleanup without traceable migration.**
+
+## 11. 30 September 2026 owner-authorized 04 input-contract publication
+
+The existing EA baseline index owns the new supporting route `research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/`. The current 04 document links directly to the complete input-contract v0.4 reader, its unchanged Word copy and classification assets; the existing 04 vNext Delta records the open integration work. The package is a working starting point within 04, not a replacement of the integrated baseline or a new programme-level router.
+
+No README is created, removed or renamed. No existing section or reading route is removed. The protected EA and Ecosystem Positioning READMEs, root programme narrative, historical 04 split sources and canonical presentations remain unchanged. Document control and navigation are verified by the repository integrity check, additive-change checks and package content/hash checks. H06 remains an explicit integration task.
