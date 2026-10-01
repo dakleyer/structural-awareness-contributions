@@ -91,6 +91,6 @@ EA consumiría, sólo cuando estén disponibles para el receptor antes del horiz
 
 **Siguiente pieza verificable:** seleccionar una trayectoria de participación en Hugging Face y una de sacrificio de tarea, anotarlas por separado y decidir cuál satisface R-HF. La primera no se deduce de la segunda. Después ejecutar H-F/H-G/H-U/H-M con oráculos registrados antes de ver los resultados.
 
-**Protocolo del recorrido negativo y la hipótesis EA:** [00G-HF causal v0.2 Draft](./00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.2_DRAFT.md). Define la secuencia de prueba, ablaciones, comparadores, controles positivos y límites de atribución antes de cualquier ejecución; todavía no registra resultados.
+**Protocolo del recorrido negativo y la hipótesis EA:** [00G-HF causal v0.3 Draft](./00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md). Define la secuencia de prueba, ablaciones, comparadores, controles positivos y límites de atribución antes de cualquier ejecución; todavía no registra resultados.
 
 [Disciplina de admisión A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [OpenAI](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) · [METR](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/).
