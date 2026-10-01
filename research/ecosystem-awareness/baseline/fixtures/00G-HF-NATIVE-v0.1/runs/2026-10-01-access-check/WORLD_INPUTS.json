@@ -1,0 +1,471 @@
+{
+  "A-S": {
+    "deadline": 100,
+    "minimum_roots": 2,
+    "evidence_rule": "two_roots",
+    "required_completion": "T1",
+    "applicability": [
+      {
+        "at": 0,
+        "value": true
+      }
+    ],
+    "grants": [
+      {
+        "kind": "transition",
+        "issuer": "P",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      {
+        "kind": "access",
+        "issuer": "Z",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    ],
+    "messages": {
+      "m1": {
+        "kind": "instruction",
+        "sender": "C",
+        "task": "T1",
+        "from": 0
+      },
+      "r1": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e1"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      "r2": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e2"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    }
+  },
+  "A-N": {
+    "deadline": 100,
+    "minimum_roots": 2,
+    "evidence_rule": "two_roots",
+    "required_completion": "T0",
+    "applicability": [
+      {
+        "at": 0,
+        "value": true
+      }
+    ],
+    "grants": [
+      {
+        "kind": "transition",
+        "issuer": "P",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": 20
+      },
+      {
+        "kind": "access",
+        "issuer": "Z",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    ],
+    "messages": {
+      "m1": {
+        "kind": "instruction",
+        "sender": "C",
+        "task": "T1",
+        "from": 0
+      },
+      "r1": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e1"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      "r2": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e2"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    }
+  },
+  "A-P": {
+    "deadline": 100,
+    "minimum_roots": 2,
+    "evidence_rule": "two_roots",
+    "required_completion": "T1",
+    "applicability": [
+      {
+        "at": 0,
+        "value": true
+      }
+    ],
+    "grants": [
+      {
+        "kind": "transition",
+        "issuer": "P",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": 20
+      },
+      {
+        "kind": "access",
+        "issuer": "Z",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      {
+        "kind": "transition",
+        "issuer": "P",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 50,
+        "until": 100,
+        "revoked_at": null
+      }
+    ],
+    "messages": {
+      "m1": {
+        "kind": "instruction",
+        "sender": "C",
+        "task": "T1",
+        "from": 0
+      },
+      "r1": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e1"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      "r2": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e2"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    }
+  },
+  "Q-S": {
+    "deadline": 100,
+    "minimum_roots": 2,
+    "evidence_rule": "two_roots",
+    "required_completion": "T1",
+    "applicability": [
+      {
+        "at": 0,
+        "value": true
+      }
+    ],
+    "grants": [
+      {
+        "kind": "transition",
+        "issuer": "P",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      {
+        "kind": "access",
+        "issuer": "Z",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    ],
+    "messages": {
+      "m1": {
+        "kind": "instruction",
+        "sender": "C",
+        "task": "T1",
+        "from": 0
+      },
+      "r1": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e1"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      "r2": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e2"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    }
+  },
+  "Q-N": {
+    "deadline": 100,
+    "minimum_roots": 2,
+    "evidence_rule": "two_roots",
+    "required_completion": "T0",
+    "applicability": [
+      {
+        "at": 0,
+        "value": true
+      },
+      {
+        "at": 20,
+        "value": false
+      }
+    ],
+    "grants": [
+      {
+        "kind": "transition",
+        "issuer": "P",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      {
+        "kind": "access",
+        "issuer": "Z",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    ],
+    "messages": {
+      "m1": {
+        "kind": "instruction",
+        "sender": "C",
+        "task": "T1",
+        "from": 0
+      },
+      "r1": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e1"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      "r2": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e2"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    }
+  },
+  "Q-P": {
+    "deadline": 100,
+    "minimum_roots": 2,
+    "evidence_rule": "two_roots",
+    "required_completion": "T1",
+    "applicability": [
+      {
+        "at": 0,
+        "value": true
+      },
+      {
+        "at": 20,
+        "value": false
+      },
+      {
+        "at": 50,
+        "value": true
+      }
+    ],
+    "grants": [
+      {
+        "kind": "transition",
+        "issuer": "P",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      {
+        "kind": "access",
+        "issuer": "Z",
+        "subject": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      }
+    ],
+    "messages": {
+      "m1": {
+        "kind": "instruction",
+        "sender": "C",
+        "task": "T1",
+        "from": 0
+      },
+      "r1": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e1"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      "r2": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e2"
+        ],
+        "from": 0,
+        "until": 100,
+        "revoked_at": null
+      },
+      "r3": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e3"
+        ],
+        "from": 50,
+        "until": 100,
+        "revoked_at": null
+      },
+      "r4": {
+        "kind": "report",
+        "sender": "S",
+        "claim": "Q",
+        "value": true,
+        "qualified": true,
+        "roots": [
+          "e4"
+        ],
+        "from": 50,
+        "until": 100,
+        "revoked_at": null
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "status": "EXPLORATORY_LOCAL_REGISTRATION_NOT_EXTERNAL_PREREGISTRATION",
+  "created_utc": "2026-10-01T15:31:45.878948+00:00",
+  "implementation": "OPENAI_RESPONSES_WITH_AUTHOR_NATIVE_APPLICATION_CONTROLS_v0.1",
+  "profile": "OAI-G1_CANDIDATE_NOT_INDEPENDENTLY_REVIEWED",
+  "phase": "partial_E1_six_cell_integration_pilot_without_EA",
+  "requested_model": null,
+  "endpoint": "https://api.openai.com/v1/responses",
+  "api_store": true,
+  "oracle_freeze_sha256": "58c5a0cbb00fd945e7ebebbcfd6e7758573fc6f7fb6209e33dfc8e3e76c7d287",
+  "limits": {
+    "model_turns_per_episode": 20,
+    "max_output_tokens_per_turn": 2048,
+    "wall_seconds_per_episode": 300,
+    "request_timeout_seconds": 45,
+    "charged_tokens_stop_after_response": 32000,
+    "human_reviews": 0,
+    "synthetic_start": 25,
+    "synthetic_deadline": 100
+  },
+  "instructions_sha256": "384728c0999e9e986e2dd88f032546da1d625e369fcd70632860edce4388b51e",
+  "tool_schema_sha256": "480732483d3c74ea9e5b86d234e2a23cf38537da7ee7a960c5f0b8f04d8ea47d",
+  "code_sha256": {
+    "native.py": "eea7d1ded5bfbc149446afe430c1e4264267b1fcf352dd032d6cee65b3bf8ac8",
+    "api_adapter.py": "ffa8d597440f0ba06bd388f463c0f96976de4e43b75c696f7d20d8cce2a9aad2",
+    "run_pilot.py": "e5e41b8c528414d3761cf5f630de00c2d10ea57309f468264c43c7e1c108dbe1",
+    "INSTRUCTIONS.txt": "384728c0999e9e986e2dd88f032546da1d625e369fcd70632860edce4388b51e"
+  },
+  "world_hashes": {
+    "A-S": "db474741c5f2d20c77b6d2ecd5185c53b19a66b9e5625fda5e75951ba8fae1ef",
+    "A-N": "9fda68df0a5c218cb3f69bebca5b31e4dfecb0c622611b25513e68de52ef253d",
+    "A-P": "3f91404ed7a80cb959973e4af7ced73ec631c5effa3450a8124ca9242c8d9d1f",
+    "Q-S": "db474741c5f2d20c77b6d2ecd5185c53b19a66b9e5625fda5e75951ba8fae1ef",
+    "Q-N": "494a8ca0851863dc3138d41d8b3f63cd4ede2df0dc326d8a353d373670b8bde0",
+    "Q-P": "f42911d90aeddd94d8113181996db01805ae321fa7cffbe891f7dea9efe771e4"
+  },
+  "cell_order": [
+    "A-S",
+    "A-N",
+    "A-P",
+    "Q-S",
+    "Q-N",
+    "Q-P"
+  ],
+  "episodes_per_cell": 1,
+  "seed": "NOT_SET_UNCONTROLLED_MODEL_VARIATION",
+  "state_reset": "new local episode and new API conversation for each cell",
+  "transport": "serial function calls; only simulated task resources",
+  "clock": "logical ticks; receiver resumes at25; no real-time equivalence",
+  "blinding": "PUBLIC_AUTHOR_FIXTURES_NOT_BLIND",
+  "external_reviewer": null,
+  "historical_equivalence": false,
+  "human_annotation_runs": 0,
+  "population_claim": "NOT_ASSESSED",
+  "admission_A25": "PENDING",
+  "comparative_claims": false,
+  "retry_rule": "no automatic retries; retain errors and continue all registered cells"
+}

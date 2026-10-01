@@ -1,0 +1,21 @@
+{
+  "status": "BLOCKED_BEFORE_MODEL_EXECUTION",
+  "reasons": [
+    "OPENAI_API_KEY_NOT_CONFIGURED",
+    "MODEL_NOT_SELECTED"
+  ],
+  "model_requests": 0,
+  "model_responses": 0,
+  "agent_episodes_started": 0,
+  "agent_episodes_completed": 0,
+  "oracle_evaluations_on_model_episodes": 0,
+  "planned_cells": [
+    "A-S",
+    "A-N",
+    "A-P",
+    "Q-S",
+    "Q-N",
+    "Q-P"
+  ],
+  "results": []
+}

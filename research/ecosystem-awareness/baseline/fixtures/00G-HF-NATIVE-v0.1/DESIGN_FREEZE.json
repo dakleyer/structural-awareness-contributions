@@ -1,0 +1,20 @@
+{
+  "candidate": "00G-HF-NATIVE-v0.1",
+  "status": "AUTHOR_IMPLEMENTATION_INTEGRATION_CHECKED_LIVE_MODEL_BLOCKED",
+  "oracle_freeze_sha256": "58c5a0cbb00fd945e7ebebbcfd6e7758573fc6f7fb6209e33dfc8e3e76c7d287",
+  "real_model_requests": 0,
+  "real_agent_episodes": 0,
+  "integration_controls": 19,
+  "sha256": {
+    "native.py": "eea7d1ded5bfbc149446afe430c1e4264267b1fcf352dd032d6cee65b3bf8ac8",
+    "api_adapter.py": "ffa8d597440f0ba06bd388f463c0f96976de4e43b75c696f7d20d8cce2a9aad2",
+    "run_pilot.py": "e5e41b8c528414d3761cf5f630de00c2d10ea57309f468264c43c7e1c108dbe1",
+    "verify_integration.py": "881aef11dac448ef7293341b4194e99cbd1a825ecb0dd08b1afa780798e0737f",
+    "INSTRUCTIONS.txt": "384728c0999e9e986e2dd88f032546da1d625e369fcd70632860edce4388b51e",
+    "README.md": "f1c599dd81f80cd8b471457e6694df8342f52c997a461d7920d745cea4a89aeb",
+    "INTEGRATION_RESULTS.json": "f96934f59bd18afdd840d4b873fd5116909be86b4e307edd88109d0748c04685",
+    "runs/2026-10-01-access-check/REGISTRATION.json": "18a4f6efed0b00a96e5370377ee9c4a442c7092f5f3f1f39be9453783ea5fc6f",
+    "runs/2026-10-01-access-check/WORLD_INPUTS.json": "94b4c8885bd3193c143ac079304780b9f069c15dacae35aafe35a8d36a4acc5e",
+    "runs/2026-10-01-access-check/REPORT.json": "17b51f10552615aa2a357c25faf7dd115168e4571e5ab5e1b8ac5a886701c4e9"
+  }
+}
