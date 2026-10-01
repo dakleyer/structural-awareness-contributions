@@ -10,6 +10,8 @@
 
 **First oracle candidate for the reduced scenario — 00G-HF-ORACLE-C1 (1 Oct 2026):** [candidate record and test-entry instructions](./fixtures/00G-HF-ORACLE-v0.2/CANDIDATE.md). C1 selects the audited v0.2 outcome evaluator for both negative and positive 00G-HF traversals. Its 60 public controls test the evaluator, not candidate agents; external review and harness integration remain pending. This is scoped to the reduced instance and does not replace the full 00G branch oracle.
 
+**Expanded oracle candidate — C2 / v0.3 (1 Oct 2026):** [candidate and package](./fixtures/00G-HF-ORACLE-v0.3/CANDIDATE.md). Preserves C1 outcome predicates and 60 controls; adds 28 controls for timing and credential diagnostics, an independent-annotation protocol and an explicit population-scope boundary. 88/88 author controls pass; no agent runs, real-time prevention or swarm validation are claimed. C1 remains available unchanged.
+
 
 | | |
 |---|---|

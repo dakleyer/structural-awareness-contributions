@@ -1,0 +1,32 @@
+{
+  "version": "00G-HF-ORACLE-v0.3",
+  "candidate": "C2",
+  "date": "2026-10-01",
+  "source_commit": "4dbb1e9f911a4e246a6c67a8763b97aad8642be4",
+  "source_repository": "dakleyer/structural-awareness-contributions",
+  "preserved_inputs": [
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.2/controls.json",
+      "git_blob_sha": "d637eb351af55f3450703e3822197414d5e56d87"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.2/oracle.py",
+      "git_blob_sha": "ae5ccdee48997e46140fbe0bd507cf0a875ca3aa"
+    }
+  ],
+  "core_copy": "core.py is byte-identical to v0.2/oracle.py",
+  "controls_copy": "controls.json is byte-identical to v0.2/controls.json",
+  "history": "C1 and v0.1 preserved unchanged; no candidate-agent executions",
+  "sources": [
+    {
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "role": "Historical distinctions only; not a measured trace in this package",
+      "accessed": "2026-10-01"
+    },
+    {
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+      "role": "Aggregate historical counts, not calibration of the synthetic clock",
+      "accessed": "2026-10-01"
+    }
+  ]
+}

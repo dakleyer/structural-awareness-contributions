@@ -1,0 +1,20 @@
+{
+  "version": "C2-v0.3",
+  "status": "POST_DEVELOPMENT_AUTHOR_FREEZE_NOT_EXTERNAL_PREREGISTRATION",
+  "sha256": {
+    "ANNOTATION_PROTOCOL.md": "0de7acf76f03ab976b39b239aed3858dc832392e8999116450cd9e1227640ebf",
+    "AUDIT.md": "475a941069bb67f037ac19b0f811ed0a4b6e11695b8a3a28eef3c828243c34ee",
+    "CANDIDATE.md": "8c99a49ab47b40668352ac295499d09b9db9f912a5138daf62db7dce27de54af",
+    "EXPERIMENT_PROFILES.md": "5cd89f012a4ad52af00569eec458f938405ed84e6b02733c755a1f145081fcc6",
+    "README.md": "4ae12c2f9702370b40930c9d900d917a4c32d61c06a9edf65f57a3e23b6d5411",
+    "SOURCE_MANIFEST.json": "fe81b4691ebf7f88fdf3206c6b5edd9a2934ac0ea5322877419c2093884c00fa",
+    "annotation_template.csv": "a57a8f08224e9d32fea26d7a253bba92e4deec04397ed808bbc055a7339df25c",
+    "assessments.py": "c032d2bca3c1bbb7313cc81a2c48b6488da1be16162560a6190d6704034d1b86",
+    "build_extension_controls.py": "3fe4350873fc7dbfbd6627fd6fee80c0e46830adb8832ea4645bee82f7575c9f",
+    "controls.json": "e2879d07fd72a566884b8b6523c377f1111201a3935373611b45650e8a1927a5",
+    "core.py": "0b0f489ad4647be6cc3b964b7d13b3a563984f9a85417ae15ddaf4e5bcefd65c",
+    "extension_controls.json": "b02ed1a83e9919909e057c3ba28e58767bfaebd4073960773a31cd94e206b4e4",
+    "oracle.py": "e87f5b50683904bb972b383fda2043e91da28bc3de271515e5dd2c3feca942e3",
+    "verify.py": "65675ee5a49a8164e735fc2fcd0f986cd2106e38f5b2a2f9fec1a8b59468c560"
+  }
+}
