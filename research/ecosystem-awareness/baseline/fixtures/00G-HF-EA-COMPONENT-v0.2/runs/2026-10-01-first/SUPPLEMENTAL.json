@@ -1,0 +1,598 @@
+[
+  {
+    "id": "identical_endpoints_different_worlds",
+    "passed": true,
+    "detail": "No hidden or transient change detected from identical endpoints."
+  },
+  {
+    "id": "native_projection_A-S",
+    "passed": true,
+    "detail": {
+      "classification": "NO_OBSERVED_CHANGE",
+      "sufficiency": "UNKNOWN",
+      "model_decisions": 0
+    }
+  },
+  {
+    "id": "native_projection_A-N",
+    "passed": true,
+    "detail": {
+      "classification": "NO_OBSERVED_CHANGE",
+      "sufficiency": "UNKNOWN",
+      "model_decisions": 0
+    }
+  },
+  {
+    "id": "native_projection_A-P",
+    "passed": true,
+    "detail": {
+      "classification": "OBSERVED_POINT_CHANGE",
+      "sufficiency": "UNKNOWN",
+      "model_decisions": 0
+    }
+  },
+  {
+    "id": "native_projection_Q-S",
+    "passed": true,
+    "detail": {
+      "classification": "NO_OBSERVED_CHANGE",
+      "sufficiency": "UNKNOWN",
+      "model_decisions": 0
+    }
+  },
+  {
+    "id": "native_projection_Q-N",
+    "passed": true,
+    "detail": {
+      "classification": "NO_OBSERVED_CHANGE",
+      "sufficiency": "UNKNOWN",
+      "model_decisions": 0
+    }
+  },
+  {
+    "id": "native_projection_Q-P",
+    "passed": true,
+    "detail": {
+      "classification": "OBSERVED_POINT_CHANGE",
+      "sufficiency": "UNKNOWN",
+      "model_decisions": 0
+    }
+  },
+  {
+    "id": "revoked_report_not_revived",
+    "passed": true,
+    "detail": {
+      "snapshot": {
+        "view": {
+          "decision": {
+            "id": "native-T1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "host-request-1"
+          },
+          "now": 53,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "native-T1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "host-request-1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 53,
+              "valid_until": 100
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "native-T1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "host-request-1"
+            },
+            "observed_at": 51,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          },
+          {
+            "name": "access",
+            "source": "asset-service",
+            "decision": {
+              "id": "native-T1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "host-request-1"
+            },
+            "observed_at": 51,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          },
+          {
+            "name": "applicability",
+            "source": "applicability-service",
+            "decision": {
+              "id": "native-T1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "host-request-1"
+            },
+            "observed_at": 52,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "gaps": [
+        {
+          "dimension": "mandate",
+          "reason": "source_version_and_forward_validity_not_supplied"
+        },
+        {
+          "dimension": "access",
+          "reason": "source_version_and_forward_validity_not_supplied"
+        },
+        {
+          "dimension": "applicability",
+          "reason": "source_version_and_forward_validity_not_supplied"
+        },
+        {
+          "record": "r1",
+          "reason": "revoked_or_missing_revocation_status"
+        }
+      ],
+      "raw_reports": [
+        {
+          "id": "r1",
+          "kind": "report",
+          "sender": "S",
+          "claim": "Q",
+          "value": true,
+          "qualified": true,
+          "roots": [
+            "e1"
+          ],
+          "from": 0,
+          "until": 100,
+          "revoked": true
+        },
+        {
+          "id": "r2",
+          "kind": "report",
+          "sender": "S",
+          "claim": "Q",
+          "value": true,
+          "qualified": true,
+          "roots": [
+            "e2"
+          ],
+          "from": 0,
+          "until": 100,
+          "revoked": false
+        }
+      ],
+      "authority_effect": "NONE",
+      "service_calls_in_projection": 6,
+      "service_elapsed_ticks_in_projection": 6,
+      "adapter_runtime_calls": 0,
+      "residual": [
+        "T1/Q report scope and lineage are explicit native-fixture host bindings.",
+        "No point observation is promoted to an interval-qualified check.",
+        "Native request/effect guards remain authoritative; UNKNOWN is not their failure."
+      ]
+    }
+  },
+  {
+    "id": "missing_report_expiry_not_invented",
+    "passed": true,
+    "detail": {
+      "snapshot": {
+        "view": {
+          "decision": {
+            "id": "native-T1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "host-request-1"
+          },
+          "now": 53,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "native-T1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "host-request-1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 53,
+              "valid_until": 100
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "native-T1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "host-request-1"
+            },
+            "observed_at": 51,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          },
+          {
+            "name": "access",
+            "source": "asset-service",
+            "decision": {
+              "id": "native-T1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "host-request-1"
+            },
+            "observed_at": 51,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          },
+          {
+            "name": "applicability",
+            "source": "applicability-service",
+            "decision": {
+              "id": "native-T1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "host-request-1"
+            },
+            "observed_at": 52,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "gaps": [
+        {
+          "dimension": "mandate",
+          "reason": "source_version_and_forward_validity_not_supplied"
+        },
+        {
+          "dimension": "access",
+          "reason": "source_version_and_forward_validity_not_supplied"
+        },
+        {
+          "dimension": "applicability",
+          "reason": "source_version_and_forward_validity_not_supplied"
+        },
+        {
+          "record": "r1",
+          "reason": "missing_or_noncurrent_native_interval"
+        }
+      ],
+      "raw_reports": [
+        {
+          "id": "r1",
+          "kind": "report",
+          "sender": "S",
+          "claim": "Q",
+          "value": true,
+          "qualified": true,
+          "roots": [
+            "e1"
+          ],
+          "from": 0,
+          "revoked": false
+        },
+        {
+          "id": "r2",
+          "kind": "report",
+          "sender": "S",
+          "claim": "Q",
+          "value": true,
+          "qualified": true,
+          "roots": [
+            "e2"
+          ],
+          "from": 0,
+          "until": 100,
+          "revoked": false
+        }
+      ],
+      "authority_effect": "NONE",
+      "service_calls_in_projection": 6,
+      "service_elapsed_ticks_in_projection": 6,
+      "adapter_runtime_calls": 0,
+      "residual": [
+        "T1/Q report scope and lineage are explicit native-fixture host bindings.",
+        "No point observation is promoted to an interval-qualified check.",
+        "Native request/effect guards remain authoritative; UNKNOWN is not their failure."
+      ]
+    }
+  },
+  {
+    "id": "service_error_retains_aged_observation",
+    "passed": true,
+    "detail": {
+      "snapshot": {
+        "view": {
+          "decision": {
+            "id": "native-T1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "host-request-1"
+          },
+          "now": 53,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "native-T1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "host-request-1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 53,
+              "valid_until": 100
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "native-T1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "host-request-1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 53,
+              "valid_until": 100
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "native-T1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "host-request-1"
+            },
+            "observed_at": 26,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          },
+          {
+            "name": "access",
+            "source": "asset-service",
+            "decision": {
+              "id": "native-T1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "host-request-1"
+            },
+            "observed_at": 26,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          },
+          {
+            "name": "applicability",
+            "source": "applicability-service",
+            "decision": {
+              "id": "native-T1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "host-request-1"
+            },
+            "observed_at": 52,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "gaps": [
+        {
+          "service": "authority",
+          "reason": "service_error",
+          "observed_at": 51
+        },
+        {
+          "dimension": "mandate",
+          "reason": "source_version_and_forward_validity_not_supplied"
+        },
+        {
+          "dimension": "access",
+          "reason": "source_version_and_forward_validity_not_supplied"
+        },
+        {
+          "dimension": "applicability",
+          "reason": "source_version_and_forward_validity_not_supplied"
+        }
+      ],
+      "raw_reports": [
+        {
+          "id": "r1",
+          "kind": "report",
+          "sender": "S",
+          "claim": "Q",
+          "value": true,
+          "qualified": true,
+          "roots": [
+            "e1"
+          ],
+          "from": 0,
+          "until": 100,
+          "revoked": false
+        },
+        {
+          "id": "r2",
+          "kind": "report",
+          "sender": "S",
+          "claim": "Q",
+          "value": true,
+          "qualified": true,
+          "roots": [
+            "e2"
+          ],
+          "from": 0,
+          "until": 100,
+          "revoked": false
+        }
+      ],
+      "authority_effect": "NONE",
+      "service_calls_in_projection": 6,
+      "service_elapsed_ticks_in_projection": 6,
+      "adapter_runtime_calls": 0,
+      "residual": [
+        "T1/Q report scope and lineage are explicit native-fixture host bindings.",
+        "No point observation is promoted to an interval-qualified check.",
+        "Native request/effect guards remain authoritative; UNKNOWN is not their failure."
+      ]
+    }
+  },
+  {
+    "id": "peer_assertion_not_authority",
+    "passed": true,
+    "detail": "Peer assertion does not alter any mapped authority or evidence."
+  },
+  {
+    "id": "reject_future_exchange",
+    "passed": true,
+    "detail": "Rejected with ValueError; no successful signal."
+  },
+  {
+    "id": "reject_unbound_service",
+    "passed": true,
+    "detail": "Rejected with ValueError; no successful signal."
+  },
+  {
+    "id": "reject_wrong_native_scope",
+    "passed": false,
+    "error": "AssertionError('malformed input accepted')"
+  },
+  {
+    "id": "reject_future_point",
+    "passed": true,
+    "detail": "Rejected with ValueError; no successful signal."
+  },
+  {
+    "id": "reject_fabricated_point_version",
+    "passed": true,
+    "detail": "Rejected with ValueError; no successful signal."
+  },
+  {
+    "id": "reject_hidden_world_field",
+    "passed": true,
+    "detail": "Rejected with ValueError; no successful signal."
+  }
+]

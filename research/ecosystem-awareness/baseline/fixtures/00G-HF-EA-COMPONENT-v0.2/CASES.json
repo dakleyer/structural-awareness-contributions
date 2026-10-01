@@ -1,0 +1,4589 @@
+{
+  "status": "AUTHOR_TEMPORAL_FIXTURES_NOT_BLIND",
+  "cases": [
+    {
+      "id": "T01_unchanged",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "NO_OBSERVED_CHANGE",
+        "change_detected": false
+      }
+    },
+    {
+      "id": "T02_authority",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "revoked-2",
+              "observed_at": 29,
+              "valid_until": 90,
+              "value": false
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "QUALIFICATION_CHANGE",
+        "change_detected": true,
+        "current.basis_sufficiency": "CONTRADICTED"
+      }
+    },
+    {
+      "id": "T03_applicability",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "q-2",
+              "observed_at": 29,
+              "valid_until": 90,
+              "value": false
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "QUALIFICATION_CHANGE",
+        "change_detected": true
+      }
+    },
+    {
+      "id": "T04_dependency",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "same-root"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "same-root"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "QUALIFICATION_CHANGE",
+        "current.basis_sufficiency": "UNKNOWN"
+      }
+    },
+    {
+      "id": "T05_expiry",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 90,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "QUALIFICATION_CHANGE",
+        "current.basis_sufficiency": "UNKNOWN",
+        "current.timely": true
+      }
+    },
+    {
+      "id": "T06_missing",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "QUALIFICATION_CHANGE",
+        "current.basis_sufficiency": "UNKNOWN"
+      }
+    },
+    {
+      "id": "T07_recovery",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": false
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "renewed-2",
+              "observed_at": 29,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "QUALIFIED_RECOVERY_WITHIN_VIEW",
+        "current.basis_sufficiency": "SUFFICIENT_WITHIN_VIEW"
+      }
+    },
+    {
+      "id": "T08_version_only",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "new-label",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "METADATA_CHANGE",
+        "change_detected": true
+      }
+    },
+    {
+      "id": "T09_basis_only",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "new-basis"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "new-basis"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "new-basis"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "new-basis"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "new-basis"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "new-basis"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "METADATA_CHANGE"
+      }
+    },
+    {
+      "id": "T10_scope_mismatch",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "other",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "NOT_COMPARABLE",
+        "change_detected": false
+      }
+    },
+    {
+      "id": "T11_same_time",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "NOT_COMPARABLE",
+        "change_detected": false
+      }
+    },
+    {
+      "id": "T12_late",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 32
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 29,
+              "valid_until": 90,
+              "value": false
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "QUALIFICATION_CHANGE",
+        "current.timely": false
+      }
+    },
+    {
+      "id": "T13_hidden_stable",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "NO_OBSERVED_CHANGE"
+      },
+      "hidden_evaluator": {
+        "authority_at_effect": true
+      }
+    },
+    {
+      "id": "T14_hidden_revoked",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "NO_OBSERVED_CHANGE"
+      },
+      "hidden_evaluator": {
+        "authority_at_effect": false
+      }
+    },
+    {
+      "id": "T15_transient_between_samples",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "NO_OBSERVED_CHANGE"
+      },
+      "hidden_evaluator": {
+        "changes_between_samples": [
+          26,
+          28
+        ]
+      }
+    },
+    {
+      "id": "T16_points_stable",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "d1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "b1"
+            },
+            "observed_at": 25,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "d1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "b1"
+            },
+            "observed_at": 30,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "expected": {
+        "classification": "NO_OBSERVED_CHANGE",
+        "current.basis_sufficiency": "UNKNOWN"
+      }
+    },
+    {
+      "id": "T17_point_change",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "d1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "b1"
+            },
+            "observed_at": 25,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "d1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "b1"
+            },
+            "observed_at": 30,
+            "value": false,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "expected": {
+        "classification": "OBSERVED_POINT_CHANGE",
+        "current.basis_sufficiency": "UNKNOWN"
+      }
+    },
+    {
+      "id": "T18_point_no_new_observation",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "d1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "b1"
+            },
+            "observed_at": 25,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "d1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "b1"
+            },
+            "observed_at": 25,
+            "value": false,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "expected": {
+        "classification": "NO_OBSERVED_CHANGE"
+      }
+    },
+    {
+      "id": "T19_point_wrong_source",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "principal-service",
+            "decision": {
+              "id": "d1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "b1"
+            },
+            "observed_at": 25,
+            "value": true,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": [
+          {
+            "name": "mandate",
+            "source": "peer",
+            "decision": {
+              "id": "d1",
+              "recipient": "R",
+              "task": "T1",
+              "resource": "Y",
+              "operation": "inspect",
+              "claim": "Q",
+              "basis_version": "b1"
+            },
+            "observed_at": 30,
+            "value": false,
+            "version": null,
+            "valid_until": null
+          }
+        ]
+      },
+      "expected": {
+        "classification": "NO_OBSERVED_CHANGE"
+      }
+    },
+    {
+      "id": "T20_future_interval_not_admitted",
+      "previous": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 25,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "current": {
+        "view": {
+          "decision": {
+            "id": "d1",
+            "recipient": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "claim": "Q",
+            "basis_version": "b1"
+          },
+          "now": 30,
+          "timing": {
+            "transport_ticks": 1,
+            "response_ticks": 1,
+            "last_useful_at": 100
+          },
+          "checks": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 31,
+              "valid_until": 90,
+              "value": false
+            },
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            },
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 20,
+              "valid_until": 90,
+              "value": true
+            }
+          ],
+          "reports": [
+            {
+              "id": "r1",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e1"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            },
+            {
+              "id": "r2",
+              "kind": "report",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "claim": "Q",
+              "value": true,
+              "qualified": true,
+              "lineage_source": "lineage-service",
+              "roots": [
+                "e2"
+              ],
+              "observed_at": 20,
+              "valid_until": 90
+            }
+          ]
+        },
+        "point_observations": []
+      },
+      "expected": {
+        "classification": "QUALIFICATION_CHANGE",
+        "current.basis_sufficiency": "UNKNOWN"
+      }
+    }
+  ]
+}

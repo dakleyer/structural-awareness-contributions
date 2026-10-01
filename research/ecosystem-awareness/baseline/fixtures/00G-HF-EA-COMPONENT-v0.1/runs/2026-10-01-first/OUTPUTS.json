@@ -1,0 +1,3135 @@
+[
+  {
+    "id": "P01",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "SUFFICIENT_WITHIN_VIEW",
+      "posture": "QUALIFIED_WITHIN_SCOPE",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [],
+      "directed_checks": [],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "N01",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.mandate.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "CONTRADICTED",
+      "posture": "REQUALIFY",
+      "checks": {
+        "mandate": {
+          "status": "CONTRADICTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": false
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [
+        "mandate"
+      ],
+      "directed_checks": [
+        {
+          "dimension": "mandate",
+          "owner": "principal-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "N02",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.access.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "CONTRADICTED",
+      "posture": "REQUALIFY",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "CONTRADICTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": false
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [
+        "access"
+      ],
+      "directed_checks": [
+        {
+          "dimension": "access",
+          "owner": "asset-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "N03",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.applicability.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "CONTRADICTED",
+      "posture": "REQUALIFY",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "CONTRADICTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": false
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [
+        "applicability"
+      ],
+      "directed_checks": [
+        {
+          "dimension": "applicability",
+          "owner": "applicability-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U01",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.mandate.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "UNKNOWN",
+          "accepted_source": "principal-service",
+          "versions": [],
+          "records": []
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [
+        "mandate"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "mandate",
+          "owner": "principal-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U02",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.mandate.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "UNKNOWN",
+          "accepted_source": "principal-service",
+          "versions": [],
+          "records": []
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [
+        {
+          "record": "check:0",
+          "reason": "unaccepted_source_binding"
+        }
+      ],
+      "missing": [
+        "mandate"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "mandate",
+          "owner": "principal-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U03",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.mandate.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "UNKNOWN",
+          "accepted_source": "principal-service",
+          "versions": [],
+          "records": []
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [
+        {
+          "record": "check:0",
+          "reason": "other_decision_scope"
+        }
+      ],
+      "missing": [
+        "mandate"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "mandate",
+          "owner": "principal-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U04",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.mandate.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "UNKNOWN",
+          "accepted_source": "principal-service",
+          "versions": [],
+          "records": []
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [
+        {
+          "record": "check:0",
+          "reason": "expired"
+        }
+      ],
+      "missing": [
+        "mandate"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "mandate",
+          "owner": "principal-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U05",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.mandate.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "UNKNOWN",
+          "accepted_source": "principal-service",
+          "versions": [],
+          "records": []
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [
+        {
+          "record": "check:0",
+          "reason": "not_yet_observed"
+        }
+      ],
+      "missing": [
+        "mandate"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "mandate",
+          "owner": "principal-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U06",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "UNKNOWN",
+        "qualified_positive_roots": [
+          "e1"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [
+        "evidence"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "evidence",
+          "owner": "lineage-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U07",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "UNKNOWN",
+        "qualified_positive_roots": [
+          "e1"
+        ],
+        "admitted_ids": [
+          "r1"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [
+        {
+          "record": "r2",
+          "reason": "instruction_not_evidence_or_grant"
+        }
+      ],
+      "missing": [
+        "evidence"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "evidence",
+          "owner": "lineage-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U08",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "UNKNOWN",
+        "qualified_positive_roots": [
+          "e1"
+        ],
+        "admitted_ids": [
+          "r1"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [
+        {
+          "record": "r2",
+          "reason": "unqualified_lineage"
+        }
+      ],
+      "missing": [
+        "evidence"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "evidence",
+          "owner": "lineage-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "N04",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.mandate.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "CONTRADICTED",
+      "posture": "REQUALIFY",
+      "checks": {
+        "mandate": {
+          "status": "CONFLICT",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1",
+            "mandate-v2"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            },
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v2",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": false
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [
+        "mandate"
+      ],
+      "directed_checks": [
+        {
+          "dimension": "mandate",
+          "owner": "principal-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "N05",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "CONTRADICTED",
+      "posture": "REQUALIFY",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "CONTRADICTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2",
+          "r3"
+        ],
+        "negative_ids": [
+          "r3"
+        ],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [
+        "evidence"
+      ],
+      "directed_checks": [
+        {
+          "dimension": "evidence",
+          "owner": "lineage-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "T01",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "SUFFICIENT_WITHIN_VIEW",
+      "posture": "QUALIFIED_WITHIN_SCOPE",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [],
+      "directed_checks": [],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 28,
+      "qualified_until": 80,
+      "response_margin_ticks": 0,
+      "timely": false,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "T02",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "SUFFICIENT_WITHIN_VIEW",
+      "posture": "QUALIFIED_WITHIN_SCOPE",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 28,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [],
+      "directed_checks": [],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 28,
+      "response_margin_ticks": 0,
+      "timely": false,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "L01",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "SUFFICIENT_WITHIN_VIEW",
+      "posture": "QUALIFIED_WITHIN_SCOPE",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [],
+      "directed_checks": [],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "L02",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "SUFFICIENT_WITHIN_VIEW",
+      "posture": "QUALIFIED_WITHIN_SCOPE",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [],
+      "directed_checks": [],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "P02",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "SUFFICIENT_WITHIN_VIEW",
+      "posture": "QUALIFIED_WITHIN_SCOPE",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [
+        {
+          "record": "check:3",
+          "reason": "other_decision_scope"
+        }
+      ],
+      "missing": [],
+      "contradicted": [],
+      "directed_checks": [],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "P03",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b2"
+      },
+      "basis_sufficiency": "SUFFICIENT_WITHIN_VIEW",
+      "posture": "QUALIFIED_WITHIN_SCOPE",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v2"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b2"
+              },
+              "version": "mandate-v2",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v2"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b2"
+              },
+              "version": "access-v2",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v2"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b2"
+              },
+              "version": "applicability-v2",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [],
+      "contradicted": [],
+      "directed_checks": [],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U09",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "SUPPORTED",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "UNKNOWN",
+        "qualified_positive_roots": [],
+        "admitted_ids": [],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [
+        "evidence"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "evidence",
+          "owner": "lineage-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  },
+  {
+    "id": "U10",
+    "passed": true,
+    "checks": {
+      "basis_sufficiency": true,
+      "timely": true,
+      "evidence.status": true,
+      "posture": true,
+      "checks.mandate.status": true,
+      "input_not_modified": true,
+      "scope_preserved": true,
+      "authority_not_created": true,
+      "residual_preserved": true,
+      "no_temporal_change_claim": true
+    },
+    "actual": {
+      "profile": "EA_QUALIFICATION_VIEW_v1",
+      "decision": {
+        "id": "d1",
+        "recipient": "R",
+        "task": "T1",
+        "resource": "Y",
+        "operation": "inspect",
+        "claim": "Q",
+        "basis_version": "b1"
+      },
+      "basis_sufficiency": "UNKNOWN",
+      "posture": "PRESERVE_UNKNOWN",
+      "checks": {
+        "mandate": {
+          "status": "UNKNOWN",
+          "accepted_source": "principal-service",
+          "versions": [
+            "mandate-v1"
+          ],
+          "records": [
+            {
+              "name": "mandate",
+              "source": "principal-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "mandate-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": null
+            }
+          ]
+        },
+        "access": {
+          "status": "SUPPORTED",
+          "accepted_source": "asset-service",
+          "versions": [
+            "access-v1"
+          ],
+          "records": [
+            {
+              "name": "access",
+              "source": "asset-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "access-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        },
+        "applicability": {
+          "status": "SUPPORTED",
+          "accepted_source": "applicability-service",
+          "versions": [
+            "applicability-v1"
+          ],
+          "records": [
+            {
+              "name": "applicability",
+              "source": "applicability-service",
+              "decision": {
+                "id": "d1",
+                "recipient": "R",
+                "task": "T1",
+                "resource": "Y",
+                "operation": "inspect",
+                "claim": "Q",
+                "basis_version": "b1"
+              },
+              "version": "applicability-v1",
+              "observed_at": 24,
+              "valid_until": 80,
+              "value": true
+            }
+          ]
+        }
+      },
+      "evidence": {
+        "status": "SUPPORTED",
+        "qualified_positive_roots": [
+          "e1",
+          "e2"
+        ],
+        "admitted_ids": [
+          "r1",
+          "r2"
+        ],
+        "negative_ids": [],
+        "independence_claim": "DECLARED_LINEAGE_ONLY_NOT_STATISTICAL"
+      },
+      "unqualified_records": [],
+      "missing": [
+        "mandate"
+      ],
+      "contradicted": [],
+      "directed_checks": [
+        {
+          "dimension": "mandate",
+          "owner": "principal-service",
+          "request": "requalify_for_this_decision_before_use"
+        }
+      ],
+      "emitted_at": 25,
+      "received_at": 26,
+      "last_useful_at": 100,
+      "qualified_until": 80,
+      "response_margin_ticks": 52,
+      "timely": true,
+      "authority_effect": "NONE",
+      "temporal_change_assessed": false,
+      "residual": [
+        "Bounded to the supplied decision view and declared service bindings.",
+        "Unseen changes or compromised provenance can invalidate apparently current statements.",
+        "Root labels do not establish statistical independence or population representativeness."
+      ]
+    }
+  }
+]

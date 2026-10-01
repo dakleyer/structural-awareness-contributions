@@ -1,0 +1,23 @@
+{
+  "status": "AUTHOR_COMPONENT_CHECKS_COMPLETED",
+  "case_checks": {
+    "passed": 22,
+    "total": 22
+  },
+  "supplemental_checks": {
+    "passed": 7,
+    "total": 7
+  },
+  "model_requests": 0,
+  "real_agent_episodes": 0,
+  "C3_oracle_evaluations": 0,
+  "temporal_change_detector_implemented": false,
+  "empirical_E1_E3_closed": false,
+  "observed_limit": "L01/L02 identical output cannot distinguish hidden valid/revoked authority.",
+  "consumer_limit": "A correct signal does not stop the stipulated ignoring consumer; native guard can already suffice.",
+  "files_sha256": {
+    "REGISTRATION.json": "66b4c121637ce34ca62ac773e787e6b565f2d174c8f134d0d976af9815752218",
+    "OUTPUTS.json": "611751bbf1f511354615d8f6df70b9ebde40ac6a1133155611b52f7a73e6e409",
+    "SUPPLEMENTAL.json": "ab8a747d501bec69ce60f57ef2abc8d626b22fef1ecee4b5b29752c4bb1f996c"
+  }
+}

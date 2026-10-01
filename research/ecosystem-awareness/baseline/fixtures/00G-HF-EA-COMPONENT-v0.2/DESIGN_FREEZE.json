@@ -1,0 +1,28 @@
+{
+  "status": "AUTHOR_PUBLICATION_INTEGRITY_NOT_EXTERNAL_PREREGISTRATION",
+  "sha256": {
+    "CASES.json": "0b2ec6816937fab24305cdf331a3e14afdbcc377bae271654f0546e989b48953",
+    "CONTRACT.md": "ef863ce7cd6a85fc9b03aa558fb3b4c636b3fac3d6c94ed10460a807225924de",
+    "DEPENDENCIES.json": "77f9f0c4042d2e29c2c516cdd41cfc0995a5f77741b49cd0b94c97ecc4de87f3",
+    "FIXTURE_FREEZE.json": "04363c2b657260a2c20278dfc07ce80606df83e78ad0b6186495528bd3964b71",
+    "INTEGRATION.md": "dab5539149588fbc7011ccb67dde4f2e7d511c51fedcea923a1bd72f8e95762b",
+    "README.md": "40b603df39a24e8071664b4cc17345c8abba645bb7e9bd753cd40b3553f5bd49",
+    "native_adapter.py": "4b3508efd8c331e9b2d15b590c5bddc5b8f48a9665e15ca44868aa669d247099",
+    "runs/2026-10-01-first/NATIVE_SERVICE_TRACES.json": "b42e83afb7a3c7c570b2ba20793740b5dcb05dc8b5a0644894dee12c66ce1b16",
+    "runs/2026-10-01-first/OUTPUTS.json": "2273d96d497ea7a4e9f2a2b903f395a1e5cb8dfc339bac03af4291561597ce1e",
+    "runs/2026-10-01-first/REGISTRATION.json": "2e3fba06a581e2d6dac1ddf5ef2cc5f6eebc2b95e2c3083120ca8d0ed01680b4",
+    "runs/2026-10-01-first/REPORT.json": "dcaedff162a44c108adbea1d9a7c0c9bc0cdcfddaf268fe0866b2ddeeddc9ee1",
+    "runs/2026-10-01-first/SUPPLEMENTAL.json": "9bee9b016ed4d82a2ecef815a74df08767d40e59efc35681585fca0f596c48fc",
+    "runs/2026-10-01-first/source/DEPENDENCIES.json": "77f9f0c4042d2e29c2c516cdd41cfc0995a5f77741b49cd0b94c97ecc4de87f3",
+    "runs/2026-10-01-first/source/native_adapter.py": "eab1bb2e56dc2d814fb10ba8326e1a83819cfe7a897b2f9f84f6e187bea88c7d",
+    "runs/2026-10-01-first/source/temporal.py": "eb558f08d785e4dd5ea3fd040b91abe2f0d72352d6940a34b1d62081fb5eca28",
+    "runs/2026-10-01-first/source/verify.py": "48ecbe343f32998ebb2984ef291c6e33d26e9370f1682a4f7e377948787b10ba",
+    "runs/2026-10-01-reviewed/NATIVE_SERVICE_TRACES.json": "b42e83afb7a3c7c570b2ba20793740b5dcb05dc8b5a0644894dee12c66ce1b16",
+    "runs/2026-10-01-reviewed/OUTPUTS.json": "2273d96d497ea7a4e9f2a2b903f395a1e5cb8dfc339bac03af4291561597ce1e",
+    "runs/2026-10-01-reviewed/REGISTRATION.json": "bcc5f41ef876f14e6031f6a761760c53af0e1509775367627c8c5903b80aa332",
+    "runs/2026-10-01-reviewed/REPORT.json": "97a3f6ce58e13410ec8db81ea33a2ae6f23d2afcb55a57c6cab74ec89b456344",
+    "runs/2026-10-01-reviewed/SUPPLEMENTAL.json": "9c6f1ca84a7bcd89eb728245a157158508ec6123cd1a00cfa9b1e8c2909ee254",
+    "temporal.py": "eb558f08d785e4dd5ea3fd040b91abe2f0d72352d6940a34b1d62081fb5eca28",
+    "verify.py": "48ecbe343f32998ebb2984ef291c6e33d26e9370f1682a4f7e377948787b10ba"
+  }
+}

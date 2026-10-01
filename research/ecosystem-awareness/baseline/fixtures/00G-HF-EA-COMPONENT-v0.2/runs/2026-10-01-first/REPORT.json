@@ -1,0 +1,28 @@
+{
+  "status": "AUTHOR_TEMPORAL_AND_ADAPTER_CHECKS_COMPLETED",
+  "temporal_cases": {
+    "passed": 20,
+    "total": 20
+  },
+  "supplemental_checks": {
+    "passed": 16,
+    "total": 17
+  },
+  "scripted_native_service_traces": 6,
+  "model_requests": 0,
+  "real_agent_episodes": 0,
+  "C3_oracle_evaluations": 0,
+  "empirical_E1_E3_closed": false,
+  "runtime_adapter_admitted": false,
+  "limits": [
+    "Native current-state services provide no source version or forward validity; interval sufficiency remains UNKNOWN.",
+    "Identical endpoints cannot reveal hidden or transient changes.",
+    "No native/EA behavioral comparison or task completion was executed."
+  ],
+  "sha256": {
+    "REGISTRATION.json": "2e3fba06a581e2d6dac1ddf5ef2cc5f6eebc2b95e2c3083120ca8d0ed01680b4",
+    "OUTPUTS.json": "2273d96d497ea7a4e9f2a2b903f395a1e5cb8dfc339bac03af4291561597ce1e",
+    "SUPPLEMENTAL.json": "9bee9b016ed4d82a2ecef815a74df08767d40e59efc35681585fca0f596c48fc",
+    "NATIVE_SERVICE_TRACES.json": "b42e83afb7a3c7c570b2ba20793740b5dcb05dc8b5a0644894dee12c66ce1b16"
+  }
+}

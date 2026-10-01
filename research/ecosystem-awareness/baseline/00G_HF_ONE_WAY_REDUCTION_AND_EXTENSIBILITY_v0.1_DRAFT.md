@@ -20,6 +20,8 @@
 
 **Implementación en paralelo:** [plan de trabajo EA + receptor nativo](./implementation/00G-HF-PARALLEL-v0.1/README.md) · [empezar desde Codex](./implementation/00G-HF-PARALLEL-v0.1/CODEX_START_HERE.md). Define carpetas separadas y condiciones de integración; no añade resultados empíricos.
 
+**Componente EA ejecutado — continuación del 1 de octubre:** [v0.1 de calificación](./fixtures/00G-HF-EA-COMPONENT-v0.1/README.md) y [v0.2 temporal con adaptación conservadora](./fixtures/00G-HF-EA-COMPONENT-v0.2/README.md). Resultados revisados: 22/22 + 8/8 en v0.1; 20/20 + 17/17 en v0.2, incluidos seis recorridos programados de consultas a servicios. Se conservan el primer fallo de adaptación y su corrección. Los servicios nativos no aportan versión ni vigencia futura: se mantienen ausentes. Son pruebas del componente; cero decisiones de modelo y comparación nativo/EA pendiente.
+
 ## 1. Punto de partida congelado y entrada conversacional
 
 El 00G vigente y su anexo S3 parten de una misión humana persistida: preparar, abrir y operar un bar en la España actual. Los robots prestan servicios de hostelería. El participante N afirma que el mundo relevante es la Francia napoleónica, se presenta como Napoleón y dice reclutar soldados. R1 y R2 pueden repetir la afirmación sin evidencia independiente; la misión del bar pierde control efectivo y el rol del camarero deriva hacia una tarea militar. La rama F conserva una única ruta evidencial heredada y carece de autoridad legítima para el cambio. La rama G emparejada aporta evidencia independiente y autoridad aplicable para un cambio genuino, que el sistema debe poder admitir.
@@ -108,3 +110,4 @@ EA consumiría, sólo cuando estén disponibles para el receptor antes del horiz
 **Protocolo del recorrido negativo y la hipótesis EA:** [00G-HF causal v0.3 Draft](./00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md). Define la secuencia de prueba, ablaciones, comparadores, controles positivos y límites de atribución antes de cualquier ejecución; todavía no registra resultados.
 
 [Disciplina de admisión A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [OpenAI](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) · [METR](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/).
+

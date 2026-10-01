@@ -1,0 +1,8 @@
+{
+  "status": "LOCAL_AUTHOR_FIXTURE_COMMITMENT_NOT_EXTERNAL_PREREGISTRATION",
+  "sequence": "contract and expected views frozen before candidate implementation/execution",
+  "sha256": {
+    "CONTRACT.md": "46659fb2703d1561db90ef6a4eb9f187af8984a476b6394fb1d412de85503b55",
+    "CASES.json": "ffb3344f1aa723a63b5353bc95b60ae6a0dcd3c04fbc616b7ec9e7ae64d2d084"
+  }
+}

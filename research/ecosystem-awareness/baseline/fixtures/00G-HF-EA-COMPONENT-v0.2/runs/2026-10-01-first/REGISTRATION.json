@@ -1,0 +1,43 @@
+{
+  "status": "AUTHOR_DEVELOPMENT_NOT_BLIND_OR_EXTERNAL",
+  "created_utc": "2026-10-01T16:23:30.708472+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "fixture_freeze_sha256": "04363c2b657260a2c20278dfc07ce80606df83e78ad0b6186495528bd3964b71",
+  "code_sha256": {
+    "temporal.py": "eb558f08d785e4dd5ea3fd040b91abe2f0d72352d6940a34b1d62081fb5eca28",
+    "native_adapter.py": "eab1bb2e56dc2d814fb10ba8326e1a83819cfe7a897b2f9f84f6e187bea88c7d",
+    "verify.py": "48ecbe343f32998ebb2984ef291c6e33d26e9370f1682a4f7e377948787b10ba",
+    "DEPENDENCIES.json": "77f9f0c4042d2e29c2c516cdd41cfc0995a5f77741b49cd0b94c97ecc4de87f3"
+  },
+  "dependencies_sha256": {
+    "../00G-HF-EA-COMPONENT-v0.1/component.py": "4c5bf471d0c7ca979bbd227bc922bdedfdb55b48bd93ad3f8e2a6cc3f59178ee",
+    "../00G-HF-NATIVE-v0.1/native.py": "eea7d1ded5bfbc149446afe430c1e4264267b1fcf352dd032d6cee65b3bf8ac8",
+    "../00G-HF-ORACLE-v0.4/round1_controls.json": "2d4f9ffe3ddfc366ac47fbd4bf5425701899f4316c4199ffa59f8c9fc97f0887"
+  },
+  "case_ids": [
+    "T01_unchanged",
+    "T02_authority",
+    "T03_applicability",
+    "T04_dependency",
+    "T05_expiry",
+    "T06_missing",
+    "T07_recovery",
+    "T08_version_only",
+    "T09_basis_only",
+    "T10_scope_mismatch",
+    "T11_same_time",
+    "T12_late",
+    "T13_hidden_stable",
+    "T14_hidden_revoked",
+    "T15_transient_between_samples",
+    "T16_points_stable",
+    "T17_point_change",
+    "T18_point_no_new_observation",
+    "T19_point_wrong_source",
+    "T20_future_interval_not_admitted"
+  ],
+  "native_recipe": "For each of six cells: authority/applicability/reports at 26/27/28, wait to 50, same services at 51/52/53. All actions scripted.",
+  "model_requests": 0,
+  "real_agent_episodes": 0,
+  "C3_oracle_evaluations": 0
+}

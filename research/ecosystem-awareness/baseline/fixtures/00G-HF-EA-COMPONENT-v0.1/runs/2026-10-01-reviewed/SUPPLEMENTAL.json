@@ -1,0 +1,45 @@
+[
+  {
+    "id": "information_limit_L01_L02",
+    "passed": true,
+    "meaning": "Same observation produces same qualification despite different hidden truth; no hidden-change detection demonstrated."
+  },
+  {
+    "id": "boolean_clock",
+    "passed": true,
+    "meaning": "Input rejected, no success signal."
+  },
+  {
+    "id": "over_budget_records",
+    "passed": true,
+    "meaning": "Input rejected, no success signal."
+  },
+  {
+    "id": "unexpected_top_level_field",
+    "passed": true,
+    "meaning": "Input rejected, no success signal."
+  },
+  {
+    "id": "malformed_check_name",
+    "passed": true,
+    "meaning": "Input rejected, no success signal."
+  },
+  {
+    "id": "follows_signal",
+    "passed": true,
+    "attempted_in_stipulated_toy_policy": false,
+    "meaning": "Conditional toy policy only; no native task completion, tool effect or agent decision observed."
+  },
+  {
+    "id": "ignores_signal",
+    "passed": true,
+    "attempted_in_stipulated_toy_policy": true,
+    "meaning": "Conditional toy policy only; no native task completion, tool effect or agent decision observed."
+  },
+  {
+    "id": "conventional_guard_without_EA",
+    "passed": true,
+    "attempted_in_stipulated_toy_policy": false,
+    "meaning": "Conditional toy policy only; no native task completion, tool effect or agent decision observed."
+  }
+]

@@ -27,6 +27,8 @@ Independencia de trabajo y de conexión no es autoría externa ni validación ci
 
 Destino reservado: `baseline/fixtures/00G-HF-EA-COMPONENT-v0.1/`. El primer alcance es software semántico sobre entradas estructuradas de confianza declarada; no comprensión general de lenguaje, detección universal, implementación completa de EA ni validación de H1–H6.
 
+**Entrega A — continuación del 1 de octubre:** se publica el [componente v0.1](../../fixtures/00G-HF-EA-COMPONENT-v0.1/README.md), previamente preparado en local, y su [sucesor temporal v0.2](../../fixtures/00G-HF-EA-COMPONENT-v0.2/README.md). v0.1 conserva 22/22 casos + 8/8 controles revisados. v0.2 ejecuta 20/20 casos temporales + 17/17 controles adicionales; seis de estos últimos son secuencias programadas de consultas a servicios nativos, no episodios con modelo. Se conserva el primer resultado v0.2 de 20/20 + 16/17 y su corrección. El [traspaso de integración](../../fixtures/00G-HF-EA-COMPONENT-v0.2/INTEGRATION.md) mantiene nulos versión y vigencia que los servicios no proporcionan. La adaptación pura está implementada; su uso en tiempo de ejecución y el lote pareado siguen pendientes.
+
 ## 3. Recorrido de la línea B
 
 El [punto de entrada Codex](./CODEX_START_HERE.md) fija lectura, comandos, precondiciones, límites y formato de entrega. Puede avanzar sin esperar a A: revisión del candidato, comprobaciones locales, preparación de registro y ejecución nativa si existe acceso. Si falta acceso, preservar el bloqueo y preparar el adaptador/entorno sin fabricar episodios.
@@ -55,10 +57,13 @@ Trabajar con árbol limpio o rama/worktree separado; comprobar `AGENTS.md` aplic
 
 | Hito | Cierre verificable | Estado al publicar este plan |
 |---|---|---|
-| A1 | Contrato, expectativas y pruebas publicadas con hashes, trazas y límites. | En elaboración; ver la entrega de A cuando esté enlazada. |
+| A1 | Contrato, expectativas y pruebas publicadas con hashes, trazas y límites. | Ejecutado en el alcance acotado v0.1/v0.2; no constituye EA completo ni evidencia empírica. |
+| A2 | Contraste temporal y proyección conservadora de servicios. | Implementados y comprobados en v0.2; permanecen límites de observación, vigencia y admisión de runtime. |
 | B1 | Todos los resultados nativos, consumo y fallos de infraestructura conservados; revisión del registro. | Pendiente de ejecución; candidato disponible. |
 | AB1 | Adaptación sin información privilegiada y comparación sin/con EA registrada y ejecutada. | Pendiente. |
 | AB2 | Variantes reservadas con autor/custodio externo, compromiso y acceso controlado. | Pendiente; perturbaciones del autor no cierran este hito. |
 | AB3 | Composiciones por separado, con coste y ablación pertinentes. | Pendiente. |
 
 La documentación compartida puede revisarse; los insumos de una ejecución ya congelada se preservan. Resultados posteriores deben identificar exactamente las versiones utilizadas. El resultado de A no cierra B1 ni AB1.
+
+**Siguiente trabajo de A:** contrato de composición con disponibilidad, latencia, autoridad y presupuesto explícitos; mantener pendientes la entrega efectiva de señales al receptor y la comparación empírica. **B puede continuar ahora** desde el mismo punto de entrada, sin modificar su referencia nativa para incorporar EA.
