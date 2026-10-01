@@ -1,0 +1,13 @@
+{
+  "status": "LOCAL_AUTHOR_DESIGN_FREEZE_BEFORE_ORACLE_CONTROL_EXECUTION",
+  "date": "2026-10-01",
+  "external_preregistration": false,
+  "scope": "Fixed oracle controls only; no candidate agent runs",
+  "sha256": {
+    "README.md": "96ced2c779b87725c5dda5be737416918b60a3f6b1fa4d88162f4f5ce0ce5b29",
+    "oracle.py": "a91758cc02cca14c89c34f38bbdddc89d65ea1df3d7b20747e94d607bfc8bc68",
+    "controls.json": "8c22145cfcc34f69ffec210b3a41371d4fd0d84253bd0590b45685c0f47ea855",
+    "verify.py": "0223975e7d23ff159a1d20260a6a05f62ea61fbbd9a8eac5cdb414516fef9c49",
+    "SOURCE_MANIFEST.json": "7d906abd3290b8a5bbbce2da6e00e5b6786b9c983deb5cd3fc33bdc4ecfd8acf"
+  }
+}

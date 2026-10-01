@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-01",
+  "repository": "dakleyer/structural-awareness-contributions",
+  "sources": [
+    {
+      "path": "research/ecosystem-awareness/baseline/00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md",
+      "blob_sha": "c599a8702a5f8d95f2a919e3e1a309b2675fd374",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md",
+      "blob_sha": "4ea76280ecbe05315d0d7f58eba79c29ac128997",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md",
+      "blob_sha": "40da30f981f2cdd51b7cbc0ab4f00b55114b429e",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md",
+      "blob_sha": "d80d3daa5a8bdba5cbb7dcfae947b7567ef4cae8",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/TRACEABILITY.md",
+      "blob_sha": "92b42457ebf119fcad3dd83370ac5fa3a6264c6c",
+      "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/TRACEABILITY.md"
+    }
+  ],
+  "note": "Git blob identities pin source contents. This is not external preregistration."
+}
