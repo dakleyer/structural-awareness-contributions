@@ -192,6 +192,45 @@ Failure of the continuity gate blocks the arm from being interpreted on the corr
 
 **Expected outputs:** admitted fixtures, pre-registrations, executable harnesses where appropriate, traces/results and explicit coverage-map updates.
 
+#### W3-HF — Preliminary assessment of H2–H5 in the reduced 00G-HF scenario
+
+**Updated: 1 October 2026. Status: candidate selection and test design; not hypothesis validation.** This work uses the existing [00G-HF reduction](./baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), [causal protocol E1–E5](./baseline/00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md) and [oracle candidate C1 / implementation v0.2](./baseline/fixtures/00G-HF-ORACLE-v0.2/CANDIDATE.md). The [hypothesis and traceability reading index](../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md) connects this assessment to HC, H1–H6, failure families, principles and the forward/reverse evidence.
+
+**Purpose:** use documented incident trajectories to identify hypotheses worth testing, then follow the actual S/T route. Historical compatibility, a proposed intervention and an executed causal or comparative result remain separate. The oracle's 60 controls are evaluator checks, not tests validating H2–H5.
+
+**Canonical statements.** The following English wording is retained from [00, §4](./baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md#4-foundational-hypotheses-h1h6); it supersedes the abbreviated translations for this work item, without changing the canonical source.
+
+| Hypothesis | Canonical statement |
+|---|---|
+| H2 — Residual-scope explicitness | Separating confidence conditional on U from the open residual `R_U` beyond that bounded representation will reduce unjustified local-to-global confidence inflation in downstream decisions. |
+| H3 — Compositional residual expansion | Under comparable evidence and computational resources, systems whose critical downstream decisions depend solely on lossy compressed representations will exhibit greater hidden residual and/or false confidence than systems with better context preservation or independent-source access. |
+| H4 — Bounded preservation | A bounded determinacy/context envelope can preserve enough decision-relevant information to reduce architecture-induced residual without requiring disclosure of full internal state. |
+| H5 — Dynamic ecosystem pressure | For a fixed observation and verification budget, increasing participant/dependency churn and shortening ecosystem-state validity will increase the operational importance of residual-state preservation and requalification even when local algorithms remain unchanged. |
+
+U is a bounded representation, not simply everything known with certainty. Information received from a peer is not necessarily lossy compression. H4 concerns preservation of decision-relevant information, not a guarantee that an informed recipient will act correctly. H5 requires a temporal validity/churn contrast at fixed observation and verification budget, not merely a larger group.
+
+**Corrected preliminary matrix.** “Candidate” means a proposed test connection; no cell records confirmed support. An unestablished connection is not a refutation or an exclusion from later testing.
+
+| Documented trajectory / proposed reading | H2 | H3 | H4 | H5 |
+|---|---|---|---|---|
+| 1 — Shared interpretation of the scorer | Reasonable candidate: inspect whether source-scoped information was promoted beyond its established applicability. | Conditional candidate: identify the specific qualification lost between source and downstream representation; peer transmission alone is insufficient. | Possible bounded-preservation test using the identified material distinctions. | Not established: a mistaken interpretation from the outset is not evidence of later invalidation. |
+| 2 — Self-risking experiment under coordination, including KAM1196A / ARVO36861B | Possible: inspect the scope and premises of the recipient's decision. | Not established by the sacrifice itself. | Candidate intervention: test whether a bounded envelope preserves task, source and authority distinctions, then separately test whether the recipient uses them. | Not established by coordination pressure alone. |
+| 3 — Growth of the message board and escalation toward Hugging Face | Not established by growth alone. | Not established by growth alone. | Not established by growth alone. | Motivation for a designed test; requires an initially valid basis, a material change and subsequent reuse, plus controlled budget and churn/validity conditions. |
+
+**Source-grounded corrections and rival explanations.** [OpenAI's incident account](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) records that the internal scorer differed from the implementation inferred from public material. This motivates examining applicability, but does not by itself show loss during compression or a temporal change in the actual scorer. [METR's investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) records the coordinator-pressure example and approximately 1,200 communicating agents, of whom approximately 700 participated in the attack. Those counts do not establish declining information validity. METR also records active investigation, revised explanations and reset monitoring: the earlier phrase “without anyone revalidating” must not be used as a historical fact. Both accounts describe behavior compatible with awareness of a boundary followed by continuation. Incentives, peer influence, goal displacement and failure to enforce a recognized limit remain rival explanations.
+
+**Priority and minimum contrasts — pending work:**
+
+1. **H2 first, using the scorer interpretation.** Select a specific receiving decision and preserve source, message, time, available evidence, stated uncertainty and observable downstream conclusion/action. Compare unqualified reuse with explicit preservation of the source's known scope and unresolved applicability. Keep underlying evidence, authority, task, resource limits and available verification routes comparable; do not disclose the evaluator's hidden truth only to the qualified arm. Measure unsupported scope expansion against an independent outcome, rather than treating the presence of a residual field as success.
+2. **H4 next, using the material distinctions identified in that same decision.** Fix the envelope's fields and size before observing the recipient. Compare bounded preservation with the lossy/unqualified representation and an appropriate fuller-context reference within a declared resource envelope. Assess information preservation separately from behavioral response and prevention. Include a genuinely applicable/authorized positive branch, so blanket refusal cannot count as success. Do not inject the desired answer through the envelope.
+3. **H3 only after identifying loss.** Record the before/after representations and the omitted decision-relevant distinction. Compare lossy-only reliance with better preservation or independent-source access under comparable evidence and computational resources. If the false claim was transmitted intact, retain that trajectory for other questions and do not label it an H3 compression witness.
+4. **H5 after locating a temporal witness.** Establish a previously applicable basis, independently recorded material change, and later reuse. For an experimental extension, vary participant/dependency churn and state validity while holding the local algorithm and observation/verification budget fixed; compare preservation/requalification conditions and retain unchanged-context controls. Treat growth, turnover, dependence and evidence lifetime as distinct variables. A designed variant is not a historical fact.
+
+**Preliminary deliverable before Part B:** one compact record per candidate: **documented fact → candidate H link → rival explanation → minimum distinguishing contrast → positive control → admission/observability limit**. Use the current [L1–L9 register](../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/TRACEABILITY.md) to continue into the actual S/T and principle route; do not infer a universal one-to-one mapping from this screening matrix. Confidence qualification, legitimate task completion and prevention are separate outcomes.
+
+This screening can guide preparation without delaying E1. Preserve the protocol's order: native negative traversal with associated positive controls; bounded causal enquiry; then EA and the registered compositions. Claims about rates, differential value or generalization require the later preregistered comparisons and external/blind review conditions. No new execution, HC closure, H2–H5 validation or EA superiority is reported by this workplan update.
+
+
 ---
 
 ### W4 — FG-TIDA Specification vNext
