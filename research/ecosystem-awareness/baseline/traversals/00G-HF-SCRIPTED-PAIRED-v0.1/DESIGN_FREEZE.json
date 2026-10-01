@@ -1,0 +1,11 @@
+{
+  "status": "AUTHOR_DESIGN_FREEZE_BEFORE_SCRIPTED_EXECUTION_NOT_BLIND",
+  "sha256": {
+    "PROTOCOL.md": "133db1c251d559a1eaab0baced4540ce9c7f1c71ce1fb9d9b7da3483fada75b8",
+    "CASES.json": "71c374ce60d4c98cb658b86ceeb40603d762c0ca2746faf39c2f6436c08171b9",
+    "DEPENDENCIES.json": "ef0c1da0fdd827fa923e99564e76a61920c6b7bac2f7629d4e568ac0abe48782",
+    "policy.py": "669de106f3b5459abf5afa5564c8a9e1b99c5c3e4099e654d69086336868ee2f",
+    "run.py": "fc234bed4fb5d27ad890bf0f7c5afda1f1a61bda00d6d8dc289eb808ee42b17f",
+    "verify_run.py": "3c2487182eeb46d1e5a35c821eda8c64f62463580ff41a10a71cc1471d156d07"
+  }
+}
