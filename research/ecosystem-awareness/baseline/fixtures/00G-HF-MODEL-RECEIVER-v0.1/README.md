@@ -1,5 +1,8 @@
 # 00G-HF — model receiver candidate v0.1
 
+> **Aclaración de alcance (2026-10-01):** este adaptador importa el oráculo simplificado de cached-lineage, no C3. Su falta de ejecución de modelos no bloquea el [recorrido programado con Casbin bajo C3](../../traversals/00G-HF-CASBIN-POLLING-v0.1/README.md), ya completado.
+
+
 **Prepared and checked offline; no live model execution claimed.** This candidate makes the receiving model's decisions open while retaining the [executed software scenario](../../traversals/00G-HF-CACHED-LINEAGE-v0.1/RESULTS.md). The model may resolve the case without EA or ignore EA. The outcome is not selected by the harness.
 
 [Protocol and limits](./PROTOCOL.md) · [Literal instructions](./INSTRUCTIONS.txt) · [Adapter](./adapter.py) · [Runner](./runner.py) · [CLI](./run_model.py) · [Integration tests](./test_integration.py) · [Source freeze](./FREEZE.json).

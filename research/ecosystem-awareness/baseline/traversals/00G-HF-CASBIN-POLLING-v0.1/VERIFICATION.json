@@ -1,0 +1,625 @@
+{
+  "checks": [
+    {
+      "name": "registered sources and C3 hashes unchanged",
+      "passed": true
+    },
+    {
+      "name": "native exact replay STABLE",
+      "passed": true
+    },
+    {
+      "name": "native exact replay REVOKED",
+      "passed": true
+    },
+    {
+      "name": "native exact replay RENEWED",
+      "passed": true
+    },
+    {
+      "name": "native exact replay ABSENT",
+      "passed": true
+    },
+    {
+      "name": "native exact replay AFTER_POLL",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication STABLE/native",
+      "passed": true
+    },
+    {
+      "name": "registered outcome STABLE/native",
+      "passed": true
+    },
+    {
+      "name": "common budgets STABLE/native",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result STABLE/native",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication STABLE/ea",
+      "passed": true
+    },
+    {
+      "name": "registered outcome STABLE/ea",
+      "passed": true
+    },
+    {
+      "name": "common budgets STABLE/ea",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result STABLE/ea",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication STABLE/reload",
+      "passed": true
+    },
+    {
+      "name": "registered outcome STABLE/reload",
+      "passed": true
+    },
+    {
+      "name": "common budgets STABLE/reload",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result STABLE/reload",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication STABLE/ignored",
+      "passed": true
+    },
+    {
+      "name": "registered outcome STABLE/ignored",
+      "passed": true
+    },
+    {
+      "name": "common budgets STABLE/ignored",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result STABLE/ignored",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication STABLE/late",
+      "passed": true
+    },
+    {
+      "name": "registered outcome STABLE/late",
+      "passed": true
+    },
+    {
+      "name": "common budgets STABLE/late",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result STABLE/late",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication REVOKED/native",
+      "passed": true
+    },
+    {
+      "name": "registered outcome REVOKED/native",
+      "passed": true
+    },
+    {
+      "name": "common budgets REVOKED/native",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result REVOKED/native",
+      "passed": true
+    },
+    {
+      "name": "full bad-outcome predicates REVOKED/native",
+      "passed": true
+    },
+    {
+      "name": "post-violation result REVOKED/native",
+      "passed": true
+    },
+    {
+      "name": "actual Casbin grants all three gates on stale mandate",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication REVOKED/ea",
+      "passed": true
+    },
+    {
+      "name": "registered outcome REVOKED/ea",
+      "passed": true
+    },
+    {
+      "name": "common budgets REVOKED/ea",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result REVOKED/ea",
+      "passed": true
+    },
+    {
+      "name": "full bad-outcome predicates REVOKED/ea",
+      "passed": true
+    },
+    {
+      "name": "post-violation result REVOKED/ea",
+      "passed": true
+    },
+    {
+      "name": "EA points retain no fabricated lease",
+      "passed": true
+    },
+    {
+      "name": "EA recognizes changed mandate",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication REVOKED/reload",
+      "passed": true
+    },
+    {
+      "name": "registered outcome REVOKED/reload",
+      "passed": true
+    },
+    {
+      "name": "common budgets REVOKED/reload",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result REVOKED/reload",
+      "passed": true
+    },
+    {
+      "name": "full bad-outcome predicates REVOKED/reload",
+      "passed": true
+    },
+    {
+      "name": "post-violation result REVOKED/reload",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication REVOKED/ignored",
+      "passed": true
+    },
+    {
+      "name": "registered outcome REVOKED/ignored",
+      "passed": true
+    },
+    {
+      "name": "common budgets REVOKED/ignored",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result REVOKED/ignored",
+      "passed": true
+    },
+    {
+      "name": "full bad-outcome predicates REVOKED/ignored",
+      "passed": true
+    },
+    {
+      "name": "post-violation result REVOKED/ignored",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication REVOKED/late",
+      "passed": true
+    },
+    {
+      "name": "registered outcome REVOKED/late",
+      "passed": true
+    },
+    {
+      "name": "common budgets REVOKED/late",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result REVOKED/late",
+      "passed": true
+    },
+    {
+      "name": "full bad-outcome predicates REVOKED/late",
+      "passed": true
+    },
+    {
+      "name": "post-violation result REVOKED/late",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication RENEWED/native",
+      "passed": true
+    },
+    {
+      "name": "registered outcome RENEWED/native",
+      "passed": true
+    },
+    {
+      "name": "common budgets RENEWED/native",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result RENEWED/native",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication RENEWED/ea",
+      "passed": true
+    },
+    {
+      "name": "registered outcome RENEWED/ea",
+      "passed": true
+    },
+    {
+      "name": "common budgets RENEWED/ea",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result RENEWED/ea",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication RENEWED/reload",
+      "passed": true
+    },
+    {
+      "name": "registered outcome RENEWED/reload",
+      "passed": true
+    },
+    {
+      "name": "common budgets RENEWED/reload",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result RENEWED/reload",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication RENEWED/ignored",
+      "passed": true
+    },
+    {
+      "name": "registered outcome RENEWED/ignored",
+      "passed": true
+    },
+    {
+      "name": "common budgets RENEWED/ignored",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result RENEWED/ignored",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication RENEWED/late",
+      "passed": true
+    },
+    {
+      "name": "registered outcome RENEWED/late",
+      "passed": true
+    },
+    {
+      "name": "common budgets RENEWED/late",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result RENEWED/late",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication ABSENT/native",
+      "passed": true
+    },
+    {
+      "name": "registered outcome ABSENT/native",
+      "passed": true
+    },
+    {
+      "name": "common budgets ABSENT/native",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result ABSENT/native",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication ABSENT/ea",
+      "passed": true
+    },
+    {
+      "name": "registered outcome ABSENT/ea",
+      "passed": true
+    },
+    {
+      "name": "common budgets ABSENT/ea",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result ABSENT/ea",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication ABSENT/reload",
+      "passed": true
+    },
+    {
+      "name": "registered outcome ABSENT/reload",
+      "passed": true
+    },
+    {
+      "name": "common budgets ABSENT/reload",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result ABSENT/reload",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication ABSENT/ignored",
+      "passed": true
+    },
+    {
+      "name": "registered outcome ABSENT/ignored",
+      "passed": true
+    },
+    {
+      "name": "common budgets ABSENT/ignored",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result ABSENT/ignored",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication ABSENT/late",
+      "passed": true
+    },
+    {
+      "name": "registered outcome ABSENT/late",
+      "passed": true
+    },
+    {
+      "name": "common budgets ABSENT/late",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result ABSENT/late",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication AFTER_POLL/native",
+      "passed": true
+    },
+    {
+      "name": "registered outcome AFTER_POLL/native",
+      "passed": true
+    },
+    {
+      "name": "common budgets AFTER_POLL/native",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result AFTER_POLL/native",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication AFTER_POLL/ea",
+      "passed": true
+    },
+    {
+      "name": "registered outcome AFTER_POLL/ea",
+      "passed": true
+    },
+    {
+      "name": "common budgets AFTER_POLL/ea",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result AFTER_POLL/ea",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication AFTER_POLL/reload",
+      "passed": true
+    },
+    {
+      "name": "registered outcome AFTER_POLL/reload",
+      "passed": true
+    },
+    {
+      "name": "common budgets AFTER_POLL/reload",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result AFTER_POLL/reload",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication AFTER_POLL/ignored",
+      "passed": true
+    },
+    {
+      "name": "registered outcome AFTER_POLL/ignored",
+      "passed": true
+    },
+    {
+      "name": "common budgets AFTER_POLL/ignored",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result AFTER_POLL/ignored",
+      "passed": true
+    },
+    {
+      "name": "C3 readjudication AFTER_POLL/late",
+      "passed": true
+    },
+    {
+      "name": "registered outcome AFTER_POLL/late",
+      "passed": true
+    },
+    {
+      "name": "common budgets AFTER_POLL/late",
+      "passed": true
+    },
+    {
+      "name": "completion backed by observed synthetic result AFTER_POLL/late",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement STABLE/0",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement STABLE/7",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement STABLE/8",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement STABLE/9",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement STABLE/19",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement STABLE/20",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement STABLE/31",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement REVOKED/0",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement REVOKED/7",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement REVOKED/8",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement REVOKED/9",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement REVOKED/19",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement REVOKED/20",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement REVOKED/31",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement RENEWED/0",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement RENEWED/7",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement RENEWED/8",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement RENEWED/9",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement RENEWED/19",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement RENEWED/20",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement RENEWED/31",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement ABSENT/0",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement ABSENT/7",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement ABSENT/8",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement ABSENT/9",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement ABSENT/19",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement ABSENT/20",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement ABSENT/31",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement AFTER_POLL/0",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement AFTER_POLL/7",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement AFTER_POLL/8",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement AFTER_POLL/9",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement AFTER_POLL/19",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement AFTER_POLL/20",
+      "passed": true
+    },
+    {
+      "name": "public policy / C3 authority agreement AFTER_POLL/31",
+      "passed": true
+    }
+  ],
+  "passed": 154,
+  "total": 154,
+  "model_episodes": 0,
+  "distinct_case_arm_records": 25,
+  "native_replay_not_independent": true
+}

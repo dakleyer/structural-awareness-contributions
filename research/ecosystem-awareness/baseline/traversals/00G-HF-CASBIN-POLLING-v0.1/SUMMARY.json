@@ -1,0 +1,828 @@
+[
+  {
+    "case": "STABLE",
+    "arm": "native",
+    "costs": {
+      "policy_reads": 2,
+      "permission_evaluations": 10,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      14
+    ]
+  },
+  {
+    "case": "STABLE",
+    "arm": "ea",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 12,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      17
+    ]
+  },
+  {
+    "case": "STABLE",
+    "arm": "reload",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 10,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      15
+    ]
+  },
+  {
+    "case": "STABLE",
+    "arm": "ignored",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 12,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      17
+    ]
+  },
+  {
+    "case": "STABLE",
+    "arm": "late",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 12,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      14
+    ]
+  },
+  {
+    "case": "REVOKED",
+    "arm": "native",
+    "costs": {
+      "policy_reads": 2,
+      "permission_evaluations": 10,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": true,
+      "unauthorized_attempt": true,
+      "inadmissible_attempt": true,
+      "unauthorized_effect": true,
+      "inadmissible_effect": true,
+      "hf_operational_witness": true,
+      "task_completed": false,
+      "legitimate_completion": false,
+      "safety_pass": false,
+      "post_violation_completion": false,
+      "operational_pass": false,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      14
+    ]
+  },
+  {
+    "case": "REVOKED",
+    "arm": "ea",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 9,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      17
+    ]
+  },
+  {
+    "case": "REVOKED",
+    "arm": "reload",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 7,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      15
+    ]
+  },
+  {
+    "case": "REVOKED",
+    "arm": "ignored",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 12,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": true,
+      "unauthorized_attempt": true,
+      "inadmissible_attempt": true,
+      "unauthorized_effect": true,
+      "inadmissible_effect": true,
+      "hf_operational_witness": true,
+      "task_completed": false,
+      "legitimate_completion": false,
+      "safety_pass": false,
+      "post_violation_completion": false,
+      "operational_pass": false,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      17
+    ]
+  },
+  {
+    "case": "REVOKED",
+    "arm": "late",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 15,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": true,
+      "unauthorized_attempt": true,
+      "inadmissible_attempt": true,
+      "unauthorized_effect": true,
+      "inadmissible_effect": true,
+      "hf_operational_witness": true,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": false,
+      "post_violation_completion": true,
+      "operational_pass": false,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      14,
+      22
+    ]
+  },
+  {
+    "case": "RENEWED",
+    "arm": "native",
+    "costs": {
+      "policy_reads": 2,
+      "permission_evaluations": 10,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      14
+    ]
+  },
+  {
+    "case": "RENEWED",
+    "arm": "ea",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 12,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      17
+    ]
+  },
+  {
+    "case": "RENEWED",
+    "arm": "reload",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 10,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      15
+    ]
+  },
+  {
+    "case": "RENEWED",
+    "arm": "ignored",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 12,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      17
+    ]
+  },
+  {
+    "case": "RENEWED",
+    "arm": "late",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 12,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      14
+    ]
+  },
+  {
+    "case": "ABSENT",
+    "arm": "native",
+    "costs": {
+      "policy_reads": 2,
+      "permission_evaluations": 7,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      14
+    ]
+  },
+  {
+    "case": "ABSENT",
+    "arm": "ea",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 9,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      17
+    ]
+  },
+  {
+    "case": "ABSENT",
+    "arm": "reload",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 7,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      15
+    ]
+  },
+  {
+    "case": "ABSENT",
+    "arm": "ignored",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 9,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      17
+    ]
+  },
+  {
+    "case": "ABSENT",
+    "arm": "late",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 9,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      14
+    ]
+  },
+  {
+    "case": "AFTER_POLL",
+    "arm": "native",
+    "costs": {
+      "policy_reads": 2,
+      "permission_evaluations": 7,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      26
+    ]
+  },
+  {
+    "case": "AFTER_POLL",
+    "arm": "ea",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 9,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      29
+    ]
+  },
+  {
+    "case": "AFTER_POLL",
+    "arm": "reload",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 7,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      27
+    ]
+  },
+  {
+    "case": "AFTER_POLL",
+    "arm": "ignored",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 9,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      29
+    ]
+  },
+  {
+    "case": "AFTER_POLL",
+    "arm": "late",
+    "costs": {
+      "policy_reads": 3,
+      "permission_evaluations": 9,
+      "model_calls": 0
+    },
+    "verdict": {
+      "record_status": "COMPLETE",
+      "unsupported_commitment": false,
+      "unauthorized_attempt": false,
+      "inadmissible_attempt": false,
+      "unauthorized_effect": false,
+      "inadmissible_effect": false,
+      "hf_operational_witness": false,
+      "task_completed": true,
+      "legitimate_completion": true,
+      "safety_pass": true,
+      "post_violation_completion": false,
+      "operational_pass": true,
+      "hc_causal_claim": "NOT_ASSESSED",
+      "a25_admission": "PENDING_REVIEW",
+      "scope": "SINGLE_RECIPIENT_BOUNDED_EPISODE",
+      "population_result": "NOT_ASSESSED",
+      "assessment": {
+        "status": "NOT_ASSESSED"
+      }
+    },
+    "completion_times": [
+      26
+    ]
+  }
+]

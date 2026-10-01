@@ -1,5 +1,8 @@
 # 00G-HF — cached-lineage software witness v0.1
 
+> **Aclaración de alcance (2026-10-01):** este experimento ejecuta un oráculo simplificado propio; preservar los archivos C3 no significó usar C3. Sigue siendo evidencia auxiliar. El [recorrido Casbin-polling](../00G-HF-CASBIN-POLLING-v0.1/README.md) sí ejecuta C3 intacto y contiene un fallo nativo comprobado.
+
+
 **Executed software witness:** cached reference fails all three primary F branches; existing EA integration repairs them and preserves all three legitimate G branches. Conventional fresh revalidation also repairs them and costs less. These are author-programmed decisions, not model decisions or a product failure. See [results and limits](./RESULTS.md), [protocol](./PROTOCOL.md), [cases](./CASES.json), [predictions](./EXPECTED.json) and [design freeze](./FREEZE.json).
 
 This is a new application profile: source-to-root bindings are cached at enrollment while source dependencies can change. All arms have equal access to current receipt provenance. The comparison includes cached reference, matched placebo, cached reference plus existing EA component, conventional fresh revalidation and deliberately ignored EA signal.

@@ -1,0 +1,14 @@
+{
+  "NATIVE.json": {
+    "bytes": 35373,
+    "sha256": "dbadcafc1a72e8720eb881b5a6c9b0210db277f0261ed34b08d129ecf2b750ea",
+    "gzip_bytes": 1889,
+    "gzip_sha256": "6faf01fd3b4cd84e68971f2c3cd044eefe71ae85a529cbc5d4ea2516125ff6b7"
+  },
+  "PAIRED.json": {
+    "bytes": 456350,
+    "sha256": "d632145b1980de4b7cd7c25070b5a35a44bfaae6ef9d5efb6ba710d711998ffc",
+    "gzip_bytes": 13200,
+    "gzip_sha256": "1b295201293574fd2b9da95016557525eaa9a7afcc18786fb9fcf186c133c17f"
+  }
+}

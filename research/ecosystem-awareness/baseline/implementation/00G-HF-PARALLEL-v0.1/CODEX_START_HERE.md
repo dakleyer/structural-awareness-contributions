@@ -1,5 +1,8 @@
 # Codex — empezar aquí: receptor nativo 00G-HF sin EA
 
+> **Ruta actual, 2026-10-01:** [competidor Casbin-polling ejecutado bajo C3 intacto](../../traversals/00G-HF-CASBIN-POLLING-v0.1/README.md). Hay testigo negativo programado y reparación EA; el control convencional de recarga también repara. El receptor/modelo de cached-lineage es auxiliar y usa otro oráculo. No exigir credenciales para reproducir este recorrido programado.
+
+
 **Ruta adicional — 1 de octubre de 2026:** para ejecutar con un modelo el mecanismo de procedencia en caché, usa el [nuevo receptor con decisiones abiertas](../../fixtures/00G-HF-MODEL-RECEIVER-v0.1/README.md) y su protocolo. Tiene 17/17 controles offline; la ejecución real sigue bloqueada por falta de acceso/modelo configurados. Su comparación usa nativo, evidencia actual y evidencia con EA; requiere primero un fallo nativo observado. Los comandos de seis celdas que siguen pertenecen al perfil anterior con controles al ejecutar, que permanece válido y puede superar sus casos sin EA. No mezclar sus resultados ni retirar sus controles para producir un fallo.
 
 **Encargo:** continuar de forma autónoma la línea B del [plan de implementación](./README.md), conservando todos los resultados y límites. La línea A implementa el componente EA en otra carpeta; no esperes a que termine para preparar o ejecutar el receptor nativo.
