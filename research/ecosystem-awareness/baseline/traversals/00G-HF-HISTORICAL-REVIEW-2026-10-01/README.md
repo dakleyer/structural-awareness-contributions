@@ -89,3 +89,62 @@ Un defecto de captura se informa como defecto del instrumento. No se borra la ej
 El expediente documental está guardado. La ejecución real sigue pendiente de un entorno con API/modelo autorizado y del receptor con su recorder; la credencial se configura en ese entorno, no se pega en un documento o conversación. La ficha C3 mantiene los campos pendientes y no se presenta como completada.
 
 No se ha cambiado el oráculo, sus expectativas, sus seis celdas ni sus resultados. El trabajo de esta carpeta es evidencia de revisión documental y preparación de captura, no una nueva versión del instrumento ni una ejecución E1 finalizada.
+
+## 9. Reforzamiento de la formulación causal: matriz de plausibilidad
+
+**Revisión del 1 de octubre de 2026. Interpretación exploratoria del autor; cero ensayos causales nuevos.** «Reforzamiento» significa aquí hacer la hipótesis más precisa, contrastable y expuesta a resultados adversos. No significa que esta lectura haya incrementado de forma medida su probabilidad ni demostrado la causa raíz.
+
+La formulación vinculante sigue en el [protocolo causal HC/HS y su trazabilidad](../../../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md); H2–H5 conservan el texto de [00, §§4–5](../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md#4-foundational-hypotheses-h1h6). No se redefine structural awareness como «lo que habría evitado cualquier fallo».
+
+### 9.1 Qué se puede preguntar con estos fragmentos
+
+La pregunta exploratoria es si una pérdida, insuficiencia o falta de aplicación de cualificación contextual en el punto de decisión **pudo contribuir** al episodio. Hay que especificar cuál de esos mecanismos se propone y qué observación lo distinguiría de sus rivales. La respuesta contrafactual «con esa distinción no habría ocurrido» permanece sin observar.
+
+H2 trata la promoción injustificada de confianza desde una representación acotada U hacia un alcance mayor; no basta recibir una orden de un par. H3 exige dependencia exclusiva de una representación con pérdida y comparación bajo evidencia y recursos comparables; recibir un mensaje no acredita pérdida. H4 plantea suficiencia informativa de un sobre acotado, no obediencia garantizada. H5 exige contrastes de rotación/validez con presupuesto fijo, no crecimiento del colectivo por sí solo.
+
+**P01/P02 no son controles pareados ni pases positivos C3.** Son contrastes descriptivos de contención parcial. No tenemos equivalencia de tarea, modelo, evidencia, presión, presupuesto, autoridad y seguimiento entre ellos y H01/H02. Tampoco está medido que H2/H3/H4 estuvieran presentes. Sus diferencias de resultado no identifican una causa.
+
+### 9.2 Matriz H2–H5: compatibilidad, alternativa y prueba pendiente
+
+Los hechos permanecen en §3 y los localizadores en `EVIDENCE_REGISTER.json`. Esta tabla contiene interpretaciones, no nuevos hechos históricos ni puntuaciones del oráculo.
+
+| Unidad | H2 | H3 | H4 | H5 | Rival y contraste que haría falta |
+|---|---|---|---|---|---|
+| H01 | Candidata condicionada: localizar qué límite de soporte se promovió a autorización o certeza fuera de su alcance. | No acreditada: falta la representación anterior y la cualificación perdida. | Intervención por probar: conservar procedencia, mandato y alcance hasta la decisión. | No acreditada. | El límite ya fue expresado; presión, atribución indebida de autoridad o falta de aplicación pueden explicar la continuación. Comparar preservación contextual con un recordatorio de igual prominencia y coste. |
+| H02 | Candidata condicionada si la premisa colectiva sobre valor/obligación se generalizó sin soporte. | No acreditada por el sacrificio. | Candidata de intervención, no testigo directo de suficiencia informativa ni de prevención. | No acreditada. | La priorización del colectivo puede persistir aun entendiendo el mandato individual. Separar información disponible, conservación de la distinción y uso efectivo; no asumir que un sobre cambiaría la decisión. |
+| H03 | Indeterminada. | Indeterminada. | Sin intervención evaluada. | No acreditada. | Mantener como caso vecino: distinguir medio arriesgado de sustitución de misión y comprobar efecto. No usarlo como apoyo causal admitido ni descartarlo del registro por ser ambiguo. |
+| H04 | Vínculo posible si se confundió capacidad técnica con autorización; no acreditado como inflación de confianza de H2. | No acreditada. | Posible contraste de conservación de alcance; no ejecutado. | No acreditada. | Acceso mediante credenciales y legitimidad son distintos. No inferir que el libro normativo de concesiones fue alterado. Conservar la alternativa de uso deliberado fuera de alcance; no excluir a priori todo vínculo contextual. |
+| P01 | No medida. | No medida. | No medida. | No acreditada. | Contención descriptiva compatible también con autocontrol convencional. Localizar qué información sustentó la negativa y comprobar continuidad antes de construir un contraste emparejado. |
+| P02 | No medida. | No medida. | Motiva probar una restricción acotada; no demuestra suficiencia de un sobre. | No acreditada. | El acatamiento de un veto del propio colectivo también puede reflejar deferencia al par. Rechazar una táctica no establece legitimidad del resto de la actividad ni autoridad del emisor. |
+
+H01 tiene interés diagnóstico precisamente porque dificulta la explicación simple «no conocía el límite». H02 también exige separar comprensión y prioridad. H03/H04 se conservan como límites y explicaciones alternativas; P01/P02 impiden seleccionar únicamente ejemplos adversos. Ninguna casilla recibe la etiqueta «candidato fuerte» como si fuera una medida de evidencia causal.
+
+### 9.3 Control de la explicación «faltó awareness»
+
+Antes de atribuir el fallo, registrar por separado:
+
+1. **Disponibilidad:** qué cualificación relevante recibió el agente y cuándo. Ausencia en un fragmento publicado no equivale a ausencia en la ejecución.
+2. **Reconocimiento observable:** qué distinción expresó o recuperó antes de actuar. El texto es un indicador limitado, no acceso completo al estado interno.
+3. **Aplicación:** si esa distinción seguía vinculada a la decisión material y cómo justificó su uso. Reconocer un límite no demuestra que lo aplicara, ni su infracción demuestra que lo desconociera.
+4. **Acción y resultado:** solicitud, control que la aceptó/bloqueó, efecto independiente y finalización de la tarea legítima.
+
+Si la cualificación estaba disponible y correctamente reconocida, pero la acción la ignoró, el candidato debe desplazarse hacia conservación operativa, prioridades o aplicación del control según la evidencia. No se rebautiza retrospectivamente cualquier desobediencia como ausencia de awareness. Una señal correcta seguida de una infracción limita la suficiencia de esa respuesta; no permite atribuir por sí sola el origen del fallo.
+
+**HC requiere además su secuencia específica.** Deben identificarse transferencia/retención, cualificación insuficiente o no aplicada, cambio material del contexto de referencia y reutilización con efecto causal. Un cambio de creencia, una orden del par o una misión desviada no prueban por sí mismos que cambiara el contexto de referencia. En estas seis unidades no está acreditada la secuencia causal completa. Un fallo con contexto estable sigue siendo una alternativa compatible con HC, pero no es su testigo de cambio contextual.
+
+### 9.4 Contraste mínimo propuesto, todavía sin ejecutar
+
+Seleccionar primero una decisión de H01 o H02 cuya traza permita enlazar entrada, reconocimiento y acción. Si no se obtiene, construir una variante sintética declarada como tal; su resultado no se atribuye al agente histórico. Registrar el mecanismo y los criterios antes de ejecutar al receptor.
+
+- **Referencia competente:** controles nativos y evidencia disponible; respuesta libre, sin receptor programado para fallar.
+- **Preservación acotada:** misma información sustantiva y acceso a fuentes, con procedencia, alcance y cuestiones no resueltas explícitos. No entregar verdad oculta ni una orden que contenga el veredicto esperado solo a esta condición.
+- **Control de recordatorio:** recordatorio de tarea/alcance con coste y prominencia comparables. Distingue el posible valor de preservar relaciones de una mejora genérica por repetir la advertencia.
+- **Referencia de contexto más completo para H4:** declarar qué información material añade y medir pérdida, carga y tiempo frente al sobre acotado. Sin esa referencia o un criterio independiente de suficiencia no se concluye que el sobre preserva «lo suficiente».
+
+Mantener comparables modelo, herramientas, tarea, autoridad, presión y recursos; contabilizar el coste de la intervención. Para H3 hay que documentar expresamente la transformación con pérdida; este pequeño contraste no la establece automáticamente. HC/H5 requieren otra manipulación registrada de contexto/validez y su condición sin cambio. No se añade esa manipulación después para rescatar un resultado.
+
+Incluir transición legítima y tarea original completada cuando corresponda: negar todo no demuestra éxito. Medir por separado preservación informativa, expansión injustificada de alcance, decisión, intento, efecto y continuidad. Para resultados estocásticos, fijar repeticiones y reglas de incertidumbre antes del ensayo; seis fragmentos publicados no proporcionan una tasa ni el tamaño muestral adecuado.
+
+**Qué limitaría la explicación candidata:** información suficiente ya presente sin efecto de preservarla; igual mejora con el recordatorio; éxito equivalente de controles convencionales; o ausencia de contribución del cambio contextual registrado. Son resultados útiles, no motivos para ocultar el ensayo. Una intervención beneficiosa apoyaría su mecanismo en el ámbito probado; no demostraría por sí sola la causa histórica ni superioridad específica de EA.
+
+**Conclusión de esta revisión:** quedan mejor delimitadas las preguntas de preservación y uso de cualificación contextual. El material también sustenta rivales que debemos tomar en serio. HC, HS, H2–H5 y la ventaja de EA permanecen abiertos; A25 y C3 conservan sus estados previos. No se ha ejecutado el contraste descrito aquí.

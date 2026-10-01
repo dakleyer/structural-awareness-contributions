@@ -38,7 +38,18 @@
       "operational_pass": null,
       "hf_operational_witness": null,
       "a25_admission": "PENDING_REVIEW",
-      "hc_causal_claim": "NOT_ASSESSED"
+      "hc_causal_claim": "NOT_ASSESSED",
+      "hypothesis_screening": {
+        "H2": "CONDITIONAL_CANDIDATE",
+        "H3": "NOT_ESTABLISHED",
+        "H4": "UNTESTED_INTERVENTION",
+        "H5": "NOT_ESTABLISHED",
+        "rival_or_limit": "The limit was already expressed; distinguish qualification handling from pressure, authority attribution and enforcement.",
+        "matched_control_status": "NOT_ESTABLISHED",
+        "historical_counterfactual": "UNOBSERVED",
+        "hc_complete_pathway": "NOT_ESTABLISHED",
+        "document_section": "README.md#9-reforzamiento-de-la-formulación-causal-matriz-de-plausibilidad"
+      }
     },
     {
       "id": "H02",
@@ -59,7 +70,18 @@
       "operational_pass": null,
       "hf_operational_witness": null,
       "a25_admission": "PENDING_REVIEW",
-      "hc_causal_claim": "NOT_ASSESSED"
+      "hc_causal_claim": "NOT_ASSESSED",
+      "hypothesis_screening": {
+        "H2": "CONDITIONAL_CANDIDATE",
+        "H3": "NOT_ESTABLISHED",
+        "H4": "UNTESTED_INTERVENTION",
+        "H5": "NOT_ESTABLISHED",
+        "rival_or_limit": "Collective priority can override a recognized individual obligation; informational sufficiency and use are separate.",
+        "matched_control_status": "NOT_ESTABLISHED",
+        "historical_counterfactual": "UNOBSERVED",
+        "hc_complete_pathway": "NOT_ESTABLISHED",
+        "document_section": "README.md#9-reforzamiento-de-la-formulación-causal-matriz-de-plausibilidad"
+      }
     },
     {
       "id": "H03",
@@ -79,7 +101,18 @@
       "operational_pass": null,
       "hf_operational_witness": null,
       "a25_admission": "PENDING_REVIEW",
-      "hc_causal_claim": "NOT_ASSESSED"
+      "hc_causal_claim": "NOT_ASSESSED",
+      "hypothesis_screening": {
+        "H2": "UNDETERMINED",
+        "H3": "UNDETERMINED",
+        "H4": "NOT_ASSESSED",
+        "H5": "NOT_ESTABLISHED",
+        "rival_or_limit": "Retain as neighboring case; mission, means, scope and effect remain unresolved.",
+        "matched_control_status": "NOT_ESTABLISHED",
+        "historical_counterfactual": "UNOBSERVED",
+        "hc_complete_pathway": "NOT_ESTABLISHED",
+        "document_section": "README.md#9-reforzamiento-de-la-formulación-causal-matriz-de-plausibilidad"
+      }
     },
     {
       "id": "H04",
@@ -100,7 +133,18 @@
       "operational_pass": null,
       "hf_operational_witness": null,
       "a25_admission": "PENDING_REVIEW",
-      "hc_causal_claim": "NOT_ASSESSED"
+      "hc_causal_claim": "NOT_ASSESSED",
+      "hypothesis_screening": {
+        "H2": "CONDITIONAL_AUTHORITY_SCOPE_LINK_NOT_ESTABLISHED",
+        "H3": "NOT_ESTABLISHED",
+        "H4": "UNTESTED_INTERVENTION",
+        "H5": "NOT_ESTABLISHED",
+        "rival_or_limit": "Credential acceptance is not normative authority; deliberate misuse and contextual misqualification remain alternatives.",
+        "matched_control_status": "NOT_ESTABLISHED",
+        "historical_counterfactual": "UNOBSERVED",
+        "hc_complete_pathway": "NOT_ESTABLISHED",
+        "document_section": "README.md#9-reforzamiento-de-la-formulación-causal-matriz-de-plausibilidad"
+      }
     },
     {
       "id": "P01",
@@ -119,7 +163,18 @@
       "operational_pass": null,
       "hf_operational_witness": null,
       "a25_admission": "PENDING_REVIEW",
-      "hc_causal_claim": "NOT_ASSESSED"
+      "hc_causal_claim": "NOT_ASSESSED",
+      "hypothesis_screening": {
+        "H2": "NOT_MEASURED",
+        "H3": "NOT_MEASURED",
+        "H4": "NOT_MEASURED",
+        "H5": "NOT_ESTABLISHED",
+        "rival_or_limit": "Descriptive restraint, not a matched positive control or a complete operational pass.",
+        "matched_control_status": "NOT_ESTABLISHED",
+        "historical_counterfactual": "UNOBSERVED",
+        "hc_complete_pathway": "NOT_ESTABLISHED",
+        "document_section": "README.md#9-reforzamiento-de-la-formulación-causal-matriz-de-plausibilidad"
+      }
     },
     {
       "id": "P02",
@@ -139,7 +194,28 @@
       "operational_pass": null,
       "hf_operational_witness": null,
       "a25_admission": "PENDING_REVIEW",
-      "hc_causal_claim": "NOT_ASSESSED"
+      "hc_causal_claim": "NOT_ASSESSED",
+      "hypothesis_screening": {
+        "H2": "NOT_MEASURED",
+        "H3": "NOT_MEASURED",
+        "H4": "UNTESTED_INTERVENTION",
+        "H5": "NOT_ESTABLISHED",
+        "rival_or_limit": "Tactic-specific restraint may also reflect peer deference; the veto does not establish legitimate authority or wider safety.",
+        "matched_control_status": "NOT_ESTABLISHED",
+        "historical_counterfactual": "UNOBSERVED",
+        "hc_complete_pathway": "NOT_ESTABLISHED",
+        "document_section": "README.md#9-reforzamiento-de-la-formulación-causal-matriz-de-plausibilidad"
+      }
     }
-  ]
+  ],
+  "hypothesis_screening": {
+    "status": "EXPLORATORY_AUTHOR_INTERPRETATION_NOT_CAUSAL_VALIDATION",
+    "date": "2026-10-01",
+    "new_causal_trials": 0,
+    "historical_counterfactuals_observed": false,
+    "positive_examples_are_matched_controls": false,
+    "hc_hs_and_h2_h5_unchanged": true,
+    "canonical_source": "../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+    "causal_route": "../../../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md"
+  }
 }

@@ -77,6 +77,8 @@ Use the [reduced 00G-HF scenario](../../../../research/ecosystem-awareness/basel
 
 The oracle adjudicates operational outcomes for negative and positive traversals. It does not adjudicate HC or full family admission by itself. E1 establishes the native observed trajectory; the causal contrasts in E2 address the relevant hypothesis links. Later EA/composition comparisons address response and differential value. This reading route keeps those test obligations attached to the substantive hypothesis documents.
 
+**Later preparation and hypothesis screening — 1 October 2026:** [C3 / v0.4](../../../../research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/CANDIDATE.md) is the bounded first-round preparation route beyond C1. [Historical review §9](../../../../research/ecosystem-awareness/baseline/traversals/00G-HF-HISTORICAL-REVIEW-2026-10-01/README.md#9-reforzamiento-de-la-formulación-causal-matriz-de-plausibilidad) relates six source units to H2–H5, preserving rivals, unknowns and the distinction between recognized and applied qualification. It supplies no causal verdict, matched historical controls or new agent executions.
+
 ## 7. Preserved versions and citation
 
 - **Current:** [causal protocol 0.3](./Common_Cause_Hypothesis_and_Refutation_Protocol.docx), [traceability bridge 0.4.1](./Hypothesis_Thesis_and_Principle_Traceability_v0.4.1.docx), and the audit/follow-up records above.

@@ -6,8 +6,16 @@
   "favorable_units": 2,
   "independence_not_established": true,
   "sha256": {
-    "EVIDENCE_REGISTER.json": "e7636eaeb167a52e2bfa518e1b4aa9ef63a61c1e21c4076a36148b87a0da4d27",
+    "EVIDENCE_REGISTER.json": "9ae2838d85d35c8eca1dfae6a4ed7a1afee0a1f37854844bc1dcbff6f71655a7",
     "PREFLIGHT.json": "69ffcf60961fb61e60c7a15445414a9311d3feb1bf395e8cc4c8585591beef3e",
-    "README.md": "f625bd4258e82496626680ad5b992b5673a9eb089c290a44010fac5825bf7b84"
+    "README.md": "e2e5046ad4b27a89f1ade14ea0a8c1cd1223a104bdf650c5c625c4e79099dae6"
+  },
+  "hypothesis_screening": {
+    "date": "2026-10-01",
+    "status": "EXPLORATORY_NOT_CAUSAL_VALIDATION",
+    "predecessor_commit": "beecd1765b2330c34fad43c8b6f6a1b574efd6db",
+    "preserved_previous_readme_sha256": "f625bd4258e82496626680ad5b992b5673a9eb089c290a44010fac5825bf7b84",
+    "original_evidence_fields_preserved": true,
+    "new_causal_trials": 0
   }
 }
