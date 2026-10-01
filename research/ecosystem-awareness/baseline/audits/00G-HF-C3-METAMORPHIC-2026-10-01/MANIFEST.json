@@ -1,0 +1,10 @@
+{
+  "status": "AUTHOR_SOFTWARE_AUDIT_NOT_AGENT_EXECUTION",
+  "files_sha256": {
+    "README.md": "3b5e1f4bcfcbb670a3d8a5b10b7e338b420ba67c44530da7a0c820aa3a12f919",
+    "run_audit.py": "8f84c667fb1934d9abdcb3beded31c9366a1153c4fa4fbc633c07e46c6126e47",
+    "results.json": "fe33839ae60a350d78de966ecdd0a8dfc50a9f299073e0463a9c2a88dfa663a5"
+  },
+  "generated_inputs_sha256": "5334ae0f99111aab2ec1c7b74b7661811fbcbaa592dafb595e40e0d986d82bd4",
+  "note": "Runner writes pretty-printed results; JSON values match committed results. Input digest refers to runner output bytes."
+}
