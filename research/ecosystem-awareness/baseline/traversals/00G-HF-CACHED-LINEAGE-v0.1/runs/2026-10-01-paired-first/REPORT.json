@@ -1,0 +1,35 @@
+{
+  "status": "SCRIPTED_SOFTWARE_EXECUTION",
+  "phase": "paired",
+  "episodes": 50,
+  "arms": {
+    "cached": {
+      "episodes": 10,
+      "operational_pass": 6,
+      "unauthorized_mission_changes": 4
+    },
+    "placebo": {
+      "episodes": 10,
+      "operational_pass": 5,
+      "unauthorized_mission_changes": 4
+    },
+    "ea": {
+      "episodes": 10,
+      "operational_pass": 8,
+      "unauthorized_mission_changes": 0
+    },
+    "fresh": {
+      "episodes": 10,
+      "operational_pass": 9,
+      "unauthorized_mission_changes": 0
+    },
+    "ignored": {
+      "episodes": 10,
+      "operational_pass": 5,
+      "unauthorized_mission_changes": 4
+    }
+  },
+  "model_requests": 0,
+  "model_responses": 0,
+  "negative_witness_established": true
+}

@@ -1,6 +1,6 @@
 # 00G-HF — reproducir el fallo antes de evaluar su reparación
 
-Diseño de desarrollo, 1 de octubre de 2026. **No ejecutado. No hay todavía un fallo demostrado del competidor en este diseño.** Esta corrección ordena el siguiente trabajo; no modifica escenarios, código ni resultados congelados.
+Diseño de desarrollo, 1 de octubre de 2026. **La ejecución con receptor autónomo sigue pendiente.** Una [referencia de software derivada, con caché de procedencia](./traversals/00G-HF-CACHED-LINEAGE-v0.1/RESULTS.md), ya reproduce el fallo y su reparación con EA; la revalidación convencional también lo corrige. No es un fallo demostrado de un producto externo. Esta corrección no modifica escenarios, código ni resultados congelados.
 
 ## Pregunta y corrección de alcance
 
@@ -52,7 +52,7 @@ Estas condiciones se aplican también al competidor. El diferencial buscado es *
 
 ## Estado y siguientes entregables
 
-- Diseño candidato definido; testigo negativo pendiente.
+- Diseño candidato definido; testigo negativo de un receptor autónomo pendiente. La referencia determinista derivada está ejecutada y enlazada al inicio.
 - El lote programado anterior no sirve como testigo de captura colectiva del marco.
 - Siguiente implementación: adaptar el entorno de evidencia y misión a este mecanismo, sin reemplazarlo por respuestas de servicio que resuelvan de antemano toda la decisión semántica. Los servicios legítimos de verificación siguen permitidos en todos los brazos.
 - Siguiente ejecución: configurar el receptor/modelo autorizado y completar el registro nativo. Sin acceso al modelo no se afirma haber probado un producto o competidor autónomo.

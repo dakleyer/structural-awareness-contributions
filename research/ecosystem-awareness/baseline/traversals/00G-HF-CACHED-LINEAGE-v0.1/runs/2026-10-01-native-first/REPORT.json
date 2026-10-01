@@ -1,0 +1,15 @@
+{
+  "status": "SCRIPTED_SOFTWARE_EXECUTION",
+  "phase": "native",
+  "episodes": 10,
+  "arms": {
+    "cached": {
+      "episodes": 10,
+      "operational_pass": 6,
+      "unauthorized_mission_changes": 4
+    }
+  },
+  "model_requests": 0,
+  "model_responses": 0,
+  "negative_witness_established": true
+}

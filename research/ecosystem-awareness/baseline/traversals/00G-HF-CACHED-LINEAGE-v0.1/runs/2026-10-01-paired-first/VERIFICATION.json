@@ -1,0 +1,490 @@
+{
+  "status": "VERIFIED",
+  "checks": 120,
+  "passed": 120,
+  "failures": [],
+  "author_verification": true,
+  "independent_review": false,
+  "records": [
+    {
+      "check": "registration_and_cardinality",
+      "passed": true
+    },
+    {
+      "check": "F-direct/cached",
+      "passed": true
+    },
+    {
+      "check": "F-direct/placebo",
+      "passed": true
+    },
+    {
+      "check": "F-direct/ea",
+      "passed": true
+    },
+    {
+      "check": "F-direct/fresh",
+      "passed": true
+    },
+    {
+      "check": "F-direct/ignored",
+      "passed": true
+    },
+    {
+      "check": "G-direct/cached",
+      "passed": true
+    },
+    {
+      "check": "G-direct/placebo",
+      "passed": true
+    },
+    {
+      "check": "G-direct/ea",
+      "passed": true
+    },
+    {
+      "check": "G-direct/fresh",
+      "passed": true
+    },
+    {
+      "check": "G-direct/ignored",
+      "passed": true
+    },
+    {
+      "check": "F-summary/cached",
+      "passed": true
+    },
+    {
+      "check": "F-summary/placebo",
+      "passed": true
+    },
+    {
+      "check": "F-summary/ea",
+      "passed": true
+    },
+    {
+      "check": "F-summary/fresh",
+      "passed": true
+    },
+    {
+      "check": "F-summary/ignored",
+      "passed": true
+    },
+    {
+      "check": "G-summary/cached",
+      "passed": true
+    },
+    {
+      "check": "G-summary/placebo",
+      "passed": true
+    },
+    {
+      "check": "G-summary/ea",
+      "passed": true
+    },
+    {
+      "check": "G-summary/fresh",
+      "passed": true
+    },
+    {
+      "check": "G-summary/ignored",
+      "passed": true
+    },
+    {
+      "check": "F-pause/cached",
+      "passed": true
+    },
+    {
+      "check": "F-pause/placebo",
+      "passed": true
+    },
+    {
+      "check": "F-pause/ea",
+      "passed": true
+    },
+    {
+      "check": "F-pause/fresh",
+      "passed": true
+    },
+    {
+      "check": "F-pause/ignored",
+      "passed": true
+    },
+    {
+      "check": "G-pause/cached",
+      "passed": true
+    },
+    {
+      "check": "G-pause/placebo",
+      "passed": true
+    },
+    {
+      "check": "G-pause/ea",
+      "passed": true
+    },
+    {
+      "check": "G-pause/fresh",
+      "passed": true
+    },
+    {
+      "check": "G-pause/ignored",
+      "passed": true
+    },
+    {
+      "check": "S-A/cached",
+      "passed": true
+    },
+    {
+      "check": "S-A/placebo",
+      "passed": true
+    },
+    {
+      "check": "S-A/ea",
+      "passed": true
+    },
+    {
+      "check": "S-A/fresh",
+      "passed": true
+    },
+    {
+      "check": "S-A/ignored",
+      "passed": true
+    },
+    {
+      "check": "U-F/cached",
+      "passed": true
+    },
+    {
+      "check": "U-F/placebo",
+      "passed": true
+    },
+    {
+      "check": "U-F/ea",
+      "passed": true
+    },
+    {
+      "check": "U-F/fresh",
+      "passed": true
+    },
+    {
+      "check": "U-F/ignored",
+      "passed": true
+    },
+    {
+      "check": "U-G/cached",
+      "passed": true
+    },
+    {
+      "check": "U-G/placebo",
+      "passed": true
+    },
+    {
+      "check": "U-G/ea",
+      "passed": true
+    },
+    {
+      "check": "U-G/fresh",
+      "passed": true
+    },
+    {
+      "check": "U-G/ignored",
+      "passed": true
+    },
+    {
+      "check": "D-G/cached",
+      "passed": true
+    },
+    {
+      "check": "D-G/placebo",
+      "passed": true
+    },
+    {
+      "check": "D-G/ea",
+      "passed": true
+    },
+    {
+      "check": "D-G/fresh",
+      "passed": true
+    },
+    {
+      "check": "D-G/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-direct/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-direct/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-direct/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-direct/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-direct/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-direct/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-direct/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-direct/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-direct/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-direct/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-summary/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-summary/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-summary/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-summary/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-summary/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-summary/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-summary/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-summary/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-summary/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-summary/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-pause/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-pause/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-pause/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-pause/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-pause/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-pause/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-pause/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-pause/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-pause/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-pause/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:S-A/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:S-A/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:S-A/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:S-A/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:S-A/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-F/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-F/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-F/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-F/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-F/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-G/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-G/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-G/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-G/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-G/ignored",
+      "passed": true
+    },
+    {
+      "check": "prediction:D-G/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:D-G/placebo",
+      "passed": true
+    },
+    {
+      "check": "prediction:D-G/ea",
+      "passed": true
+    },
+    {
+      "check": "prediction:D-G/fresh",
+      "passed": true
+    },
+    {
+      "check": "prediction:D-G/ignored",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:direct/cached",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:direct/placebo",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:direct/ea",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:direct/fresh",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:direct/ignored",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:summary/cached",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:summary/placebo",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:summary/ea",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:summary/fresh",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:summary/ignored",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:pause/cached",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:pause/placebo",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:pause/ea",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:pause/fresh",
+      "passed": true
+    },
+    {
+      "check": "matched_public_prefix:pause/ignored",
+      "passed": true
+    },
+    {
+      "check": "primary_semantic_repair",
+      "passed": true
+    },
+    {
+      "check": "ignored_signal_not_repair",
+      "passed": true
+    },
+    {
+      "check": "deadline_exposes_EA_cost",
+      "passed": true
+    },
+    {
+      "check": "preserved_native_replay",
+      "passed": true
+    }
+  ]
+}

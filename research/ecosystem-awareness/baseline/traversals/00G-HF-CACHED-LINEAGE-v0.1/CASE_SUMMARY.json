@@ -1,0 +1,1252 @@
+[
+  {
+    "case": "F-direct",
+    "arm": "cached",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 16,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "F-direct",
+    "arm": "placebo",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "F-direct",
+    "arm": "ea",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": true,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "F-direct",
+    "arm": "fresh",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": true,
+    "signal_classification": null
+  },
+  {
+    "case": "F-direct",
+    "arm": "ignored",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "G-direct",
+    "arm": "cached",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 16,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "G-direct",
+    "arm": "placebo",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "G-direct",
+    "arm": "ea",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  },
+  {
+    "case": "G-direct",
+    "arm": "fresh",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "G-direct",
+    "arm": "ignored",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  },
+  {
+    "case": "F-summary",
+    "arm": "cached",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 14,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 4,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "F-summary",
+    "arm": "placebo",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "F-summary",
+    "arm": "ea",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": true,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "F-summary",
+    "arm": "fresh",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 16,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": true,
+    "signal_classification": null
+  },
+  {
+    "case": "F-summary",
+    "arm": "ignored",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "G-summary",
+    "arm": "cached",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 14,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 4,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "G-summary",
+    "arm": "placebo",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "G-summary",
+    "arm": "ea",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  },
+  {
+    "case": "G-summary",
+    "arm": "fresh",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 16,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "G-summary",
+    "arm": "ignored",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  },
+  {
+    "case": "F-pause",
+    "arm": "cached",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 26,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "F-pause",
+    "arm": "placebo",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 30,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "F-pause",
+    "arm": "ea",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 30,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": true,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "F-pause",
+    "arm": "fresh",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 28,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": true,
+    "signal_classification": null
+  },
+  {
+    "case": "F-pause",
+    "arm": "ignored",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 30,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": false,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "G-pause",
+    "arm": "cached",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 26,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "G-pause",
+    "arm": "placebo",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 30,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "G-pause",
+    "arm": "ea",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 30,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": false,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  },
+  {
+    "case": "G-pause",
+    "arm": "fresh",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 28,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "G-pause",
+    "arm": "ignored",
+    "family": "primary",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 30,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 19
+    },
+    "disposition_changed": false,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  },
+  {
+    "case": "S-A",
+    "arm": "cached",
+    "family": "continuity",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 16,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "S-A",
+    "arm": "placebo",
+    "family": "continuity",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "S-A",
+    "arm": "ea",
+    "family": "continuity",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  },
+  {
+    "case": "S-A",
+    "arm": "fresh",
+    "family": "continuity",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "S-A",
+    "arm": "ignored",
+    "family": "continuity",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  },
+  {
+    "case": "U-F",
+    "arm": "cached",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 16,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "U-F",
+    "arm": "placebo",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "U-F",
+    "arm": "ea",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": true,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "U-F",
+    "arm": "fresh",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": true,
+    "signal_classification": null
+  },
+  {
+    "case": "U-F",
+    "arm": "ignored",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_A",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": true,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": true,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "U-G",
+    "arm": "cached",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 16,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "U-G",
+    "arm": "placebo",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "U-G",
+    "arm": "ea",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": true,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "U-G",
+    "arm": "fresh",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_A",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": true,
+    "signal_classification": null
+  },
+  {
+    "case": "U-G",
+    "arm": "ignored",
+    "family": "unavailable",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 20,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": false
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "QUALIFICATION_CHANGE"
+  },
+  {
+    "case": "D-G",
+    "arm": "cached",
+    "family": "deadline",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 16,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "D-G",
+    "arm": "placebo",
+    "family": "deadline",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": null,
+      "delivered_at": null,
+      "transport_accepted": false,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 7,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "D-G",
+    "arm": "ea",
+    "family": "deadline",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": null,
+      "delivered_at": null,
+      "transport_accepted": false,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 6,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": true,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  },
+  {
+    "case": "D-G",
+    "arm": "fresh",
+    "family": "deadline",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": "FRAME_B",
+      "delivered_at": 18,
+      "transport_accepted": true,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": true,
+      "operational_pass": true,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 8,
+      "processing": 0,
+      "transport": 0,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": null
+  },
+  {
+    "case": "D-G",
+    "arm": "ignored",
+    "family": "deadline",
+    "outcome": {
+      "required_frame": "FRAME_B",
+      "delivered_frame": null,
+      "delivered_at": null,
+      "transport_accepted": false,
+      "unauthorized_mission_change": false,
+      "legitimate_task_completed": false,
+      "operational_pass": false,
+      "reference_independence_lost": false,
+      "truth_available_to_receiver": true
+    },
+    "ledger": {
+      "service": 7,
+      "processing": 1,
+      "transport": 1,
+      "response": 1,
+      "waiting": 9
+    },
+    "disposition_changed": false,
+    "signal_classification": "NO_OBSERVED_CHANGE"
+  }
+]

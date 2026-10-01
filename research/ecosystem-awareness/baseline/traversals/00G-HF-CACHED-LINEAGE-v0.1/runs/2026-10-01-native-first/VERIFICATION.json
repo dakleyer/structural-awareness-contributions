@@ -1,0 +1,94 @@
+{
+  "status": "VERIFIED",
+  "checks": 21,
+  "passed": 21,
+  "failures": [],
+  "author_verification": true,
+  "independent_review": false,
+  "records": [
+    {
+      "check": "registration_and_cardinality",
+      "passed": true
+    },
+    {
+      "check": "F-direct/cached",
+      "passed": true
+    },
+    {
+      "check": "G-direct/cached",
+      "passed": true
+    },
+    {
+      "check": "F-summary/cached",
+      "passed": true
+    },
+    {
+      "check": "G-summary/cached",
+      "passed": true
+    },
+    {
+      "check": "F-pause/cached",
+      "passed": true
+    },
+    {
+      "check": "G-pause/cached",
+      "passed": true
+    },
+    {
+      "check": "S-A/cached",
+      "passed": true
+    },
+    {
+      "check": "U-F/cached",
+      "passed": true
+    },
+    {
+      "check": "U-G/cached",
+      "passed": true
+    },
+    {
+      "check": "D-G/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-direct/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-direct/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-summary/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-summary/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:F-pause/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:G-pause/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:S-A/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-F/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:U-G/cached",
+      "passed": true
+    },
+    {
+      "check": "prediction:D-G/cached",
+      "passed": true
+    }
+  ]
+}

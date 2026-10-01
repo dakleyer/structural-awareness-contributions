@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-01T17:22:17.088088+00:00",
+  "phase": "native",
+  "freeze_sha256": "2e2aa97cf8bdc973e987725593a4cdbefbe566ea29c861aadd87303dd17e7e42",
+  "arms": [
+    "cached"
+  ],
+  "cases": [
+    "F-direct",
+    "G-direct",
+    "F-summary",
+    "G-summary",
+    "F-pause",
+    "G-pause",
+    "S-A",
+    "U-F",
+    "U-G",
+    "D-G"
+  ],
+  "repetitions": 1,
+  "python": "3.12.14",
+  "decision_type": "AUTHOR_FIXED_POLICY",
+  "model_requests": 0,
+  "model_responses": 0,
+  "external_validation": false,
+  "negative_witness": null,
+  "retry": "none; preserve every episode",
+  "base_commit": "54bc316b7e9b1f3e7b3d57f1efefd1b27e89f6ae",
+  "limits": {
+    "service_calls": 12,
+    "ttl": 60,
+    "human_reviews": 0,
+    "api_requests": 0,
+    "deadline": "per case",
+    "maximum_message_receipts": 3
+  },
+  "population_inference": false
+}

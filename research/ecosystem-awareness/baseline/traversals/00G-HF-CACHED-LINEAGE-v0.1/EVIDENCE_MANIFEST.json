@@ -1,0 +1,22 @@
+{
+  "design_commit": "3a5573ce8972c93c6bd64140e616279ea5009f94",
+  "archives": [
+    {
+      "file": "runs/2026-10-01-native-first/EPISODES.json.gz",
+      "encoding": "gzip of original UTF-8 JSON",
+      "bytes": 12204,
+      "sha256": "320adab544f114fd661489e25d7108a6257c26f82798d672a513fb53dec6fe43",
+      "uncompressed_bytes": 145864,
+      "uncompressed_sha256": "7ab3f9f44a29b5cf8301cb982b57a029659f130373931abe0a6b0bf9c55b678f"
+    },
+    {
+      "file": "runs/2026-10-01-paired-first/EPISODES.json.gz",
+      "encoding": "gzip of original UTF-8 JSON",
+      "bytes": 119231,
+      "sha256": "4c2b38ec1c4a7b55f0f5408e86023476db822bbee125b61184078bb490b34a89",
+      "uncompressed_bytes": 1353506,
+      "uncompressed_sha256": "657e9b13fbbec69a9f209bb8dceb462ab7d3fd4d26f42577c42c37ea802e3948"
+    }
+  ],
+  "note": "Archives preserve exact original bytes; unpack before replaying verify.py. Deterministic native repeats are not independent observations."
+}
