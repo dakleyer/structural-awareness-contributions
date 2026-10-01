@@ -1,0 +1,21 @@
+{
+  "status": "AUTHOR_DESIGN_FREEZE_BEFORE_TRAVERSALS",
+  "base_commit": "54bc316b7e9b1f3e7b3d57f1efefd1b27e89f6ae",
+  "sha256": {
+    "PROTOCOL.md": "a0e161b6d8ee7bedc14817c283e40a946a08f95248c4b14b4a2986ec4dd73c48",
+    "CASES.json": "42ef00634ee2eeb1e7b2b9a80929416442eebd7a36c61adb423dd48a99a85d5e",
+    "EXPECTED.json": "6c33b431463360a90830aa5790210c15dc16b09efe95d264854434cf60e58c87",
+    "environment.py": "f384498d3e56a4838da56728b58f206a307acefdf0de56f463288a84efedfbbc",
+    "receivers.py": "8d24770a95c7f8bdd81da48a4a2003f693098285874087bfe32267cd1f201928",
+    "ea_bridge.py": "5f232ca7251a7be09466198d4ebd0d6f0465339efebe55ffd3a16b3476453109",
+    "oracle.py": "c5a4d6ebd18923348852f39eea993fb376d6b340b721c3474271a69bfe9c9dfd",
+    "run.py": "bb54276dc621ed1af8ac0785ad53ad88c50905061d4a15e92fefd800de201054",
+    "verify.py": "57c743da451a6cc8aa9b851b13c8751c0bcb4d33b99a552bc76496aecc7c0151",
+    "../../fixtures/00G-HF-EA-COMPONENT-v0.1/component.py": "4c5bf471d0c7ca979bbd227bc922bdedfdb55b48bd93ad3f8e2a6cc3f59178ee",
+    "../../fixtures/00G-HF-EA-COMPONENT-v0.2/temporal.py": "eb558f08d785e4dd5ea3fd040b91abe2f0d72352d6940a34b1d62081fb5eca28"
+  },
+  "execution_type": "DETERMINISTIC_SOFTWARE_NOT_MODEL",
+  "planned_native": 10,
+  "planned_paired": 50,
+  "native_witness_required": true
+}

@@ -1,0 +1,72 @@
+{
+  "F-direct": {
+    "cached": false,
+    "placebo": false,
+    "ea": true,
+    "fresh": true,
+    "ignored": false
+  },
+  "G-direct": {
+    "cached": true,
+    "placebo": true,
+    "ea": true,
+    "fresh": true,
+    "ignored": true
+  },
+  "F-summary": {
+    "cached": false,
+    "placebo": false,
+    "ea": true,
+    "fresh": true,
+    "ignored": false
+  },
+  "G-summary": {
+    "cached": true,
+    "placebo": true,
+    "ea": true,
+    "fresh": true,
+    "ignored": true
+  },
+  "F-pause": {
+    "cached": false,
+    "placebo": false,
+    "ea": true,
+    "fresh": true,
+    "ignored": false
+  },
+  "G-pause": {
+    "cached": true,
+    "placebo": true,
+    "ea": true,
+    "fresh": true,
+    "ignored": true
+  },
+  "S-A": {
+    "cached": true,
+    "placebo": true,
+    "ea": true,
+    "fresh": true,
+    "ignored": true
+  },
+  "U-F": {
+    "cached": false,
+    "placebo": false,
+    "ea": true,
+    "fresh": true,
+    "ignored": false
+  },
+  "U-G": {
+    "cached": true,
+    "placebo": true,
+    "ea": false,
+    "fresh": false,
+    "ignored": true
+  },
+  "D-G": {
+    "cached": true,
+    "placebo": false,
+    "ea": false,
+    "fresh": true,
+    "ignored": false
+  }
+}
