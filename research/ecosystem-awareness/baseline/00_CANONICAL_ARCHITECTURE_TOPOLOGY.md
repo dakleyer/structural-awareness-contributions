@@ -70,9 +70,9 @@ For participant i, decision d and time t, a qualified position may be read conce
 | Component | Canonical meaning | Example / treatment |
 |---|---|---|
 | **A — functional result, situated** | What this producer's process actually established or delivered for its declared scope and time. Domain-native uncertainty may belong to A when part of that result. | A telemetry process delivers a situated sensor reading to its operative consumer. |
-| **B — established qualification and known boundary of A** | Already-established meaning, support, coverage, validity, uncertainty and known omission in a defined frame; justified cost/margin estimates where a model supports them. Neither a universal confidence scalar nor a licence to estimate without a basis. | The sensor's measured coverage, calibrated margin and known but unmeasured bounded sampling region. |
-| **C — open potentially explorable frontier** | Further relevant questions or state may become accessible through plausible exploration, without an enumerated population or a known full cost/yield. Recognized examples do not exhaust it. | Taking the sensor into a wider environment where relevant sites and search yield are not known in advance. |
-| **D — effective determination limit and open residual** | Relevant effects not sufficiently determinable by this process in its current frame, plus acknowledged unenumerated residual; receiver-side compatibility loss can contribute. Mere inability to control an observable factor is insufficient. | A dependency outside the process's evidence/method/mandate whose material effect it cannot establish. |
+| **B — established qualification and calculable boundary of A** | Already-established support, coverage, validity, uncertainty and known omission in a defined frame; available variables and a defensible method can assess further evaluation, cost, benefit and error where applicable. An unexamined but assessable remainder stays B. No unsupported number is required. | The sensor's measured coverage, calibrated margin and known but unmeasured bounded sampling region whose additional effort can be assessed. |
+| **C — open potentially explorable frontier** | A grounded route to explore exists, but the population and variables needed to assess its feasibility, acquisition cost, yield, benefit or risk are not sufficiently characterized. Examples do not exhaust it. | Taking the sensor into a wider environment where one can begin looking but cannot yet calculate what the search entails or yields. |
+| **D — effective determination limit and open residual** | Potentially material effects that this process cannot adequately determine or handle within its present access/method/mandate/horizon, plus acknowledged unenumerated residual; some factors may be partly witnessed. Mere inability to control a well-characterized factor is insufficient. | A dependency outside the process's effective reach whose likelihood and material effect it cannot establish. |
 
 The four components are **not required to sum to a fixed whole** and need not all be transmitted. A producer may emit only A, or A+B, or another material subset. Missing components remain **UNKNOWN / NOT DECLARED** to the receiver unless a verified profile legitimately supplies receiver-local qualification.
 
@@ -82,10 +82,10 @@ The earlier wording can be conserved as a useful operational reading **inside** 
 
 - a “sufficiently determined” result is situated A with whatever B qualification is material to the receiving decision;
 - “recognized unresolved” in a defined population or scope remains visible in B, including the characterized reason for not measuring further;
-- “potentially obtainable” without a defined population and full acquisition calculus remains the open C frontier;
+- “potentially obtainable” without the population and variables needed for a defensible acquisition/benefit assessment remains the open C frontier;
 - “structural residual” remains D.
 
-This reading keeps B's domain-native support and known indeterminacy together while preserving the earlier safety rule: unresolved state must never be promoted to certainty. A directional result belongs to the process that produces it; B qualifies its support and limits where those are not already part of the functional result.
+This reading keeps B's domain-native support and known indeterminacy together while preserving the earlier safety rule: unresolved state must never be promoted to certainty. A probability or directional result belongs in A when that is the process's functional product; its established error, support and limits belong in B when they qualify a different A. B cannot be moved to C merely because an assessable measurement was deliberately omitted.
 
 C and D preserve the distinction between what could still be known with current capability and what remains structurally residual. Neither makes `R_U` a closed set complement or Ω a closed universe.
 
