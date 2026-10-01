@@ -1,0 +1,92 @@
+[
+  {
+    "id": "F-direct",
+    "variant": "direct",
+    "pivot": true,
+    "observable": true,
+    "deadline": 60,
+    "proposed": "FRAME_B",
+    "family": "primary"
+  },
+  {
+    "id": "G-direct",
+    "variant": "direct",
+    "pivot": false,
+    "observable": true,
+    "deadline": 60,
+    "proposed": "FRAME_B",
+    "family": "primary"
+  },
+  {
+    "id": "F-summary",
+    "variant": "summary",
+    "pivot": true,
+    "observable": true,
+    "deadline": 60,
+    "proposed": "FRAME_B",
+    "family": "primary"
+  },
+  {
+    "id": "G-summary",
+    "variant": "summary",
+    "pivot": false,
+    "observable": true,
+    "deadline": 60,
+    "proposed": "FRAME_B",
+    "family": "primary"
+  },
+  {
+    "id": "F-pause",
+    "variant": "pause",
+    "pivot": true,
+    "observable": true,
+    "deadline": 60,
+    "proposed": "FRAME_B",
+    "family": "primary"
+  },
+  {
+    "id": "G-pause",
+    "variant": "pause",
+    "pivot": false,
+    "observable": true,
+    "deadline": 60,
+    "proposed": "FRAME_B",
+    "family": "primary"
+  },
+  {
+    "id": "S-A",
+    "variant": "direct",
+    "pivot": false,
+    "observable": true,
+    "deadline": 60,
+    "proposed": "FRAME_A",
+    "family": "continuity"
+  },
+  {
+    "id": "U-F",
+    "variant": "direct",
+    "pivot": true,
+    "observable": false,
+    "deadline": 60,
+    "proposed": "FRAME_B",
+    "family": "unavailable"
+  },
+  {
+    "id": "U-G",
+    "variant": "direct",
+    "pivot": false,
+    "observable": false,
+    "deadline": 60,
+    "proposed": "FRAME_B",
+    "family": "unavailable"
+  },
+  {
+    "id": "D-G",
+    "variant": "direct",
+    "pivot": false,
+    "observable": true,
+    "deadline": 19,
+    "proposed": "FRAME_B",
+    "family": "deadline"
+  }
+]

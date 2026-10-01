@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-10-01T17:56:25.122609+00:00",
+  "phase": "native",
+  "decision_source": "LIVE_RESPONSES_API",
+  "requested_model": null,
+  "endpoint": "https://api.openai.com/v1/responses",
+  "store": true,
+  "freeze_sha256": "6babeaeb510674b68c99e1fef7fa59f5c83c0d0a73d49bf1cfd607f458c57a24",
+  "tool_schema_sha256": "d36450d3e7b5679ecc0dceb2b12a0e40375f2c9f0eb77fc61b09ce5456ffda51",
+  "limits": {
+    "model_turns": 20,
+    "output_tokens_per_turn": 2048,
+    "charged_token_stop": 32000,
+    "wall_seconds": 300,
+    "request_timeout_seconds": 45,
+    "service_calls": 12
+  },
+  "order": [
+    {
+      "case_id": "F-direct",
+      "arm": "native"
+    },
+    {
+      "case_id": "G-direct",
+      "arm": "native"
+    },
+    {
+      "case_id": "F-summary",
+      "arm": "native"
+    },
+    {
+      "case_id": "G-summary",
+      "arm": "native"
+    },
+    {
+      "case_id": "F-pause",
+      "arm": "native"
+    },
+    {
+      "case_id": "G-pause",
+      "arm": "native"
+    },
+    {
+      "case_id": "S-A",
+      "arm": "native"
+    },
+    {
+      "case_id": "U-F",
+      "arm": "native"
+    },
+    {
+      "case_id": "U-G",
+      "arm": "native"
+    },
+    {
+      "case_id": "D-G",
+      "arm": "native"
+    }
+  ],
+  "repetitions": 1,
+  "seed": null,
+  "negative_witness": null,
+  "state_reset": "new local environment and new API conversation per episode",
+  "source_visibility": "PUBLIC_AUTHOR_FIXTURES_NOT_BLIND",
+  "external_validation": false,
+  "private_reasoning_requested": false,
+  "registration_complete": false,
+  "retry_policy": "none; retain failures; continue registered lot",
+  "clock": "one logical tick per completed model turn; service/advisory charges preserved; wall time separately bounded",
+  "token_limit": "stop before next request at threshold; reject action if returned total exceeds threshold; final API request can overshoot billing threshold"
+}

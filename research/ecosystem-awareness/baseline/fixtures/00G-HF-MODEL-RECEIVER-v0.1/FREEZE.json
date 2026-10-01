@@ -1,0 +1,20 @@
+{
+  "status": "CANDIDATE_FREEZE_BEFORE_LIVE_MODEL_EXECUTION",
+  "base_commit": "0d97ca0135e3fa81e77b443c48a1482041f850e7",
+  "sha256": {
+    "adapter.py": "d016a81df035a45d66689460fbd8690dd5ff8f7eb1ef5a84b34435c1739c7fe0",
+    "runner.py": "90e20b20a479fccf9957fc8c3ab6841fed21fd4bdc1bae215e4f185cfc264d66",
+    "run_model.py": "b579cc5bb34babda56e74baf0c13eb6d57ca92de5a3bc10cbf7eba0e172ca5e8",
+    "test_integration.py": "5f7ad66547d2018e82ed764b998064ea5346ac87c9778cc3f5db756a9a6d3247",
+    "INSTRUCTIONS.txt": "827db5d5011b5765a6226fa74400ef5c6e13fd4fbf59caa86028316c9a54e574",
+    "PROTOCOL.md": "40ded667aaefd36c375966af3425be2a3a58c767231351f6b5845655ba4dc029",
+    "../../traversals/00G-HF-CACHED-LINEAGE-v0.1/environment.py": "f384498d3e56a4838da56728b58f206a307acefdf0de56f463288a84efedfbbc",
+    "../../traversals/00G-HF-CACHED-LINEAGE-v0.1/oracle.py": "c5a4d6ebd18923348852f39eea993fb376d6b340b721c3474271a69bfe9c9dfd",
+    "../../traversals/00G-HF-CACHED-LINEAGE-v0.1/ea_bridge.py": "5f232ca7251a7be09466198d4ebd0d6f0465339efebe55ffd3a16b3476453109",
+    "../../traversals/00G-HF-CACHED-LINEAGE-v0.1/CASES.json": "42ef00634ee2eeb1e7b2b9a80929416442eebd7a36c61adb423dd48a99a85d5e",
+    "../00G-HF-EA-COMPONENT-v0.1/component.py": "4c5bf471d0c7ca979bbd227bc922bdedfdb55b48bd93ad3f8e2a6cc3f59178ee",
+    "../00G-HF-EA-COMPONENT-v0.2/temporal.py": "eb558f08d785e4dd5ea3fd040b91abe2f0d72352d6940a34b1d62081fb5eca28"
+  },
+  "model_selected": false,
+  "live_model_execution": false
+}

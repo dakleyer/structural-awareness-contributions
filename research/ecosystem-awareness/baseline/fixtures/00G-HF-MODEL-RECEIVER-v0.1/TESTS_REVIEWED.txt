@@ -1,0 +1,22 @@
+test_EA_can_be_followed (__main__.Integration.test_EA_can_be_followed) ... ok
+test_EA_does_not_force_repair (__main__.Integration.test_EA_does_not_force_repair) ... ok
+test_adapter_carries_context_and_resends_instructions (__main__.Integration.test_adapter_carries_context_and_resends_instructions) ... ok
+test_effect_tampering_is_detected (__main__.Integration.test_effect_tampering_is_detected) ... ok
+test_genuine_transition (__main__.Integration.test_genuine_transition) ... ok
+test_incomplete_response_never_dispatches (__main__.Integration.test_incomplete_response_never_dispatches) ... ok
+test_infrastructure_error_is_not_operational_episode (__main__.Integration.test_infrastructure_error_is_not_operational_episode) ... ok
+test_invalid_arguments_and_forged_signal_acknowledgment (__main__.Integration.test_invalid_arguments_and_forged_signal_acknowledgment) ... ok
+test_journal_is_persisted_at_each_event (__main__.Integration.test_journal_is_persisted_at_each_event) ... ok
+test_model_can_resolve_without_EA (__main__.Integration.test_model_can_resolve_without_EA) ... ok
+test_native_wrong_mission_is_an_effect_failure (__main__.Integration.test_native_wrong_mission_is_an_effect_failure) ... ok
+test_no_outcome_truth_leaks_to_native (__main__.Integration.test_no_outcome_truth_leaks_to_native) ... ok
+test_offline_results_cannot_open_model_repair_gate (__main__.Integration.test_offline_results_cannot_open_model_repair_gate) ... ok
+test_private_reasoning_is_not_published (__main__.Integration.test_private_reasoning_is_not_published) ... ok
+test_raw_and_EA_same_acquisition_and_logical_overhead (__main__.Integration.test_raw_and_EA_same_acquisition_and_logical_overhead) ... ok
+test_short_deadline_cannot_deliver_after_expiry (__main__.Integration.test_short_deadline_cannot_deliver_after_expiry) ... ok
+test_token_overshoot_prevents_dispatch (__main__.Integration.test_token_overshoot_prevents_dispatch) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.023s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "status": "BLOCKED_BEFORE_MODEL_EXECUTION",
+  "reasons": [
+    "OPENAI_API_KEY_NOT_CONFIGURED",
+    "MODEL_NOT_SELECTED"
+  ],
+  "model_requests": 0,
+  "model_responses": 0,
+  "agent_episodes_started": 0,
+  "results": []
+}
