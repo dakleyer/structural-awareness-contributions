@@ -1,0 +1,18 @@
+{
+  "status": "AUDITED_RELEASE_SNAPSHOT_AFTER_DEVELOPMENT_BEFORE_REPRODUCTION",
+  "date": "2026-10-01",
+  "external_preregistration": false,
+  "development_controls_precede_freeze": true,
+  "agent_runs": 0,
+  "scope": "Outcome oracle, public author controls, negative and positive paths; no external validation",
+  "sha256": {
+    "oracle.py": "0b0f489ad4647be6cc3b964b7d13b3a563984f9a85417ae15ddaf4e5bcefd65c",
+    "verify.py": "c6dcc13448f7fa06965215a7d1d3afc04b596a7a7349ffb71f63cea48dd38a37",
+    "controls.json": "e2879d07fd72a566884b8b6523c377f1111201a3935373611b45650e8a1927a5",
+    "README.md": "8b7662106bba145e6ca7d36c59dbd8353273244faa40f799760e68a3248533c9",
+    "AUDIT.md": "a48803489726d0130584ae618403a2dfe91584d394bb4c86d0d3db5cc49f36a4",
+    "AUDIT_v0.1_results.json": "44273bf46446a64e35500b90971bf9fc7140ecaa3f1c4f1f2491daa1bc274452",
+    "SOURCE_MANIFEST.json": "3527fc84db1edf8a89f584c8dc11b984d7ae2c938a974509bc8db4ba60b17421",
+    "00G_HF_Auditoria_Oraculo_v0.2.docx": "e67ba0a3ea876e175794ad66cb019c100b80a542b224070378d52d0eae5e5c56"
+  }
+}

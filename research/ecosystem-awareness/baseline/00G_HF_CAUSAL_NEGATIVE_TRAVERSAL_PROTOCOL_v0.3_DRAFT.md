@@ -4,6 +4,8 @@
 
 **Primer oráculo público:** [00G-HF oracle v0.1](./fixtures/00G-HF-ORACLE-v0.1/README.md) · [copia Word](./fixtures/00G-HF-ORACLE-v0.1/00G_HF_Oraculo_v0.1.docx). Fija mundo, evidencias y adjudicación; sus 28 controles verifican el evaluador sobre trazas construidas por el autor. No son ejecuciones E1 de agentes ni validación externa o ciega. La revisión externa y la integración del receptor siguen pendientes.
 
+**Revisión auditada para ambos recorridos:** [oráculo v0.2](./fixtures/00G-HF-ORACLE-v0.2/README.md) · [auditoría y matriz de negativos/positivos](./fixtures/00G-HF-ORACLE-v0.2/AUDIT.md) · [informe Word](./fixtures/00G-HF-ORACLE-v0.2/00G_HF_Auditoria_Oraculo_v0.2.docx). Corrige la legitimidad de la finalización, separa mandato de tarea y acceso, e incorpora espera, recualificación y reentrada. Sus 60 controles públicos comprueban el evaluador; no son ejecuciones con agentes ni validación externa. Conserva íntegra v0.1 y sus resultados. El alcance y las puertas pendientes figuran en la auditoría.
+
 ## 1. Pregunta, unidad y límite causal
 
 **Unidad de análisis:** la decisión de un agente receptor R, con tarea ExploitGym individual y alcance original O, tras recibir un mensaje o encargo de un tablón compartido. El resultado material es si R conserva su tarea, solicita una transición válida o desplaza objetivo/rol y trata de actuar sobre un entorno externo sintético. La infraestructura de prueba es controlada; no requiere acceso a Hugging Face.
