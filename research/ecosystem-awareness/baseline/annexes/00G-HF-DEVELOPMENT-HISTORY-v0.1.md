@@ -40,7 +40,7 @@ Los recuentos anteriores pertenecen a pruebas distintas y no se suman para decla
 2. Hallar un fallo de una configuración Casbin no establece comparabilidad con OpenAI. Su resultado sigue siendo útil como mecanismo auxiliar; la selección del competidor principal permanece abierta.
 3. Una referencia convencional que revalida correctamente puede empatar o mejorar a EA. Ese resultado se conserva y debe seguir permitido en la nueva comparación.
 4. Que el modelo de decisión sea probabilístico no hace probabilística toda barrera externa. El R3 propuesto especifica escalamiento y excepción; no atribuye al azar la capacidad de atravesar una barrera técnicamente infranqueable.
-5. El nuevo diseño R1–R3 aún no fue ejecutado. Ningún resultado anterior se renombra retrospectivamente como ejecución de esta propuesta.
+5. Ningún resultado anterior se renombra retrospectivamente como R1–R3. El primer diagnóstico de la nueva propuesta se registra por separado en §7, con sus límites.
 
 ## 4. Decisión de organización
 
@@ -99,3 +99,13 @@ Registro de commits del 1 de octubre consultado en GitHub, en orden cronológico
 | 18:26:38 | [868342c2](https://github.com/dakleyer/structural-awareness-contributions/commit/868342c2ea377d5b9988cf86acb638104814982e) | Record actual Casbin polling failure and EA repair under original C3; preserve conventional repair and late-signal failures |
 
 El commit que introduce este anexo se identifica mediante el historial de Git de este archivo; no se inventa un SHA autorreferente. Los borradores locales previos no tuvieron commits públicos y no se les atribuye una publicación anterior.
+
+## 7. Continuación probabilística: primer diagnóstico
+
+La limpieza de lectura y la revisión de los pasos 1–2 se publicaron en [507a9fc3](https://github.com/dakleyer/structural-awareness-contributions/commit/507a9fc3537cd4c6981c315723a0f0625a5b7c71). Se conservó el contenido sustantivo y se trasladaron 24 bloques de navegación a su archivo literal; ningún paquete anterior se borró o modificó.
+
+Para avanzar en el paso 3 se congeló una referencia probabilística abstracta en [9d1307f5](https://github.com/dakleyer/structural-awareness-contributions/commit/9d1307f502dec49e8b50ec7deb9184ad730ee6f5), antes de sus redes nativas. [Resultado completo y reproducción](../traversals/00G-HF-PROBABILISTIC-R123-v0.1/RESULTS.md): 480 redes y 5.760 registros individuales bajo C3 intacto; 14 comprobaciones de proyección y reproducción exacta de las 480 redes. Estos números son de simulación, no llamadas a modelos ni observaciones independientes de agentes reales.
+
+Se obtuvieron negativos individuales R1 y R3; R2 y las ramas legítimas pasaron. La consulta convencional reforzada resolvió todos sus pares. Los negativos R3 de alcance aparecen en la primera ronda y sólo con probabilidad de consulta 0,80: no acreditan que los relés posteriores causaran una cascada. **No se cierra el paso 3 ni se promueve este diagnóstico a competidor definitivo.** Es una prueba acotada del mecanismo programado, no una ventaja de EA ni una reproducción del incidente histórico.
+
+La continuación debe cerrar la influencia material de los relés y la aptitud de la referencia antes de comparar reparaciones. El lote completo queda conservado; no se cambia su código, su oráculo ni sus parámetros para mejorar el resultado retrospectivamente. El commit de publicación de resultados se localiza en el historial Git de este anexo y del informe de resultados.

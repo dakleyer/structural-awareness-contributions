@@ -1,0 +1,1028 @@
+{
+  "status": "EXPLORATORY_ABSTRACT_SIMULATION_NOT_LLM_BEHAVIOR",
+  "networks": 480,
+  "individual_records": 5760,
+  "raw_uncompressed_sha256": "2997abd923ca8739ed1d3272c079dfd38b748e5f74227c5554f99339b77acff4",
+  "groups": {
+    "R1_NEGATIVE|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NO_PEERS|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 0,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 0,
+        "decision_rounds": 32
+      }
+    },
+    "R2_NEGATIVE|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R2_LEGITIMATE|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 3,
+      "totals": {
+        "hf_operational_witness": 6,
+        "unauthorized_attempt": 6,
+        "unauthorized_effect": 6,
+        "legitimate_completion": 90,
+        "operational_pass": 90,
+        "adopted_T1": 22,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 74,
+        "transmissions": 290,
+        "decision_rounds": 32
+      }
+    },
+    "R3_LEGITIMATE|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_NO_ACCESS|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_EXPIRED|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 3,
+      "totals": {
+        "hf_operational_witness": 7,
+        "unauthorized_attempt": 7,
+        "unauthorized_effect": 7,
+        "legitimate_completion": 89,
+        "operational_pass": 89,
+        "adopted_T1": 7,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 89,
+        "transmissions": 159,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_FRESH|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_HARD|q=0.8|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 3,
+      "totals": {
+        "hf_operational_witness": 6,
+        "unauthorized_attempt": 6,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 90,
+        "operational_pass": 90,
+        "adopted_T1": 22,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 74,
+        "transmissions": 290,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NEGATIVE|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 2,
+      "totals": {
+        "hf_operational_witness": 3,
+        "unauthorized_attempt": 3,
+        "unauthorized_effect": 3,
+        "legitimate_completion": 93,
+        "operational_pass": 93,
+        "adopted_T1": 3,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 93,
+        "transmissions": 127,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NO_PEERS|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 0,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 0,
+        "decision_rounds": 32
+      }
+    },
+    "R2_NEGATIVE|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R2_LEGITIMATE|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 4,
+      "totals": {
+        "hf_operational_witness": 9,
+        "unauthorized_attempt": 9,
+        "unauthorized_effect": 9,
+        "legitimate_completion": 87,
+        "operational_pass": 87,
+        "adopted_T1": 25,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 71,
+        "transmissions": 303,
+        "decision_rounds": 32
+      }
+    },
+    "R3_LEGITIMATE|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_NO_ACCESS|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_EXPIRED|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 4,
+      "totals": {
+        "hf_operational_witness": 10,
+        "unauthorized_attempt": 10,
+        "unauthorized_effect": 10,
+        "legitimate_completion": 86,
+        "operational_pass": 86,
+        "adopted_T1": 10,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 86,
+        "transmissions": 182,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_FRESH|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_HARD|q=0.8|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 4,
+      "totals": {
+        "hf_operational_witness": 9,
+        "unauthorized_attempt": 9,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 87,
+        "operational_pass": 87,
+        "adopted_T1": 25,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 71,
+        "transmissions": 303,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NEGATIVE|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NO_PEERS|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 0,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 0,
+        "decision_rounds": 32
+      }
+    },
+    "R2_NEGATIVE|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R2_LEGITIMATE|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 80,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_LEGITIMATE|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_NO_ACCESS|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_EXPIRED|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 1,
+      "totals": {
+        "hf_operational_witness": 1,
+        "unauthorized_attempt": 1,
+        "unauthorized_effect": 1,
+        "legitimate_completion": 95,
+        "operational_pass": 95,
+        "adopted_T1": 1,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 95,
+        "transmissions": 107,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_FRESH|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_HARD|q=0.95|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 80,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NEGATIVE|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 1,
+      "totals": {
+        "hf_operational_witness": 1,
+        "unauthorized_attempt": 1,
+        "unauthorized_effect": 1,
+        "legitimate_completion": 95,
+        "operational_pass": 95,
+        "adopted_T1": 1,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 95,
+        "transmissions": 107,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NO_PEERS|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 0,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 0,
+        "decision_rounds": 32
+      }
+    },
+    "R2_NEGATIVE|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R2_LEGITIMATE|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 80,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_LEGITIMATE|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_NO_ACCESS|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_EXPIRED|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 1,
+      "totals": {
+        "hf_operational_witness": 1,
+        "unauthorized_attempt": 1,
+        "unauthorized_effect": 1,
+        "legitimate_completion": 95,
+        "operational_pass": 95,
+        "adopted_T1": 1,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 95,
+        "transmissions": 107,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_FRESH|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_HARD|q=0.95|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 80,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NEGATIVE|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NO_PEERS|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 0,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 0,
+        "decision_rounds": 32
+      }
+    },
+    "R2_NEGATIVE|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R2_LEGITIMATE|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 80,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_LEGITIMATE|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_NO_ACCESS|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_EXPIRED|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_FRESH|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_HARD|q=0.99|gain=0.0": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 80,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NEGATIVE|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R1_NO_PEERS|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 0,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 0,
+        "decision_rounds": 32
+      }
+    },
+    "R2_NEGATIVE|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R2_LEGITIMATE|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 80,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_LEGITIMATE|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 96,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_NO_ACCESS|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 0,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_EXPIRED|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 0,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 96,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_FRESH|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 96,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    },
+    "R3_SCOPED_HARD|q=0.99|gain=0.75": {
+      "networks": 8,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 96,
+        "operational_pass": 96,
+        "adopted_T1": 16,
+        "exposed_agents": 96,
+        "eligible_agents": 96,
+        "authority_queries": 80,
+        "transmissions": 256,
+        "decision_rounds": 32
+      }
+    }
+  }
+}

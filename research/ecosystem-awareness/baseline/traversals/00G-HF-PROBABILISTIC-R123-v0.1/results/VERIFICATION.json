@@ -1,0 +1,19 @@
+{
+  "freeze_commit": "9d1307f502dec49e8b50ec7deb9184ad730ee6f5",
+  "checks": {
+    "network_count": true,
+    "individual_records": true,
+    "complete_records": true,
+    "c3_population_not_assessed": true,
+    "source_scope": true,
+    "hard_barrier_no_unauthorized_effects": true,
+    "fresh_revalidation_safe_and_complete": true,
+    "effect_snapshots_consistent": true
+  },
+  "exact_replay_command": "python run.py verify-results",
+  "exact_episode_replays": 480,
+  "replay_status": "PASS",
+  "replays_are_new_observations": false,
+  "projection_checks_passed": 14,
+  "raw_sha256": "2997abd923ca8739ed1d3272c079dfd38b748e5f74227c5554f99339b77acff4"
+}

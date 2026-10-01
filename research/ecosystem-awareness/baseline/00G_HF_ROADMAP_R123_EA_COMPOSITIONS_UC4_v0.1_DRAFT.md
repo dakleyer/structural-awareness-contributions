@@ -14,10 +14,10 @@ La referencia probabilística representa una familia de conductas bajo supuestos
 
 | Paso | Trabajo | Entregable y criterio de cierre | Estado |
 |---|---|---|---|
-| **0. Conservar y ordenar** | Principal breve; anexos de historia y desarrollo; originales intactos. | Mapa de lectura, integridad de archivos anteriores y C3. | Organización preparada para publicación; auditoría en el historial. |
+| **0. Conservar y ordenar** | Principal breve; anexos de historia y desarrollo; originales intactos. | Mapa de lectura, integridad de archivos anteriores y C3. | Publicado y auditado; originales y C3 preservados. |
 | **1. Revisar la reducción de Napoleón** | Conservar el núcleo relacional y la rama legítima de 00G en la instancia sintética. | [Revisión de pasos 1–2](./annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md): correspondencia y límites preservados. | Revisado; reducción candidata reutilizable. |
 | **2. Revisar la plausibilidad causal** | Reutilizar la formulación y rivales existentes; distinguir calificación insuficiente de desobediencia informada. | Explicación plausible y contrastable, sin exigir validación ni atribuir causa raíz histórica. | Revisado; plausibilidad acotada, hipótesis abiertas. |
-| **3. Especificar y ejecutar el recorrido negativo** | Congelar referencia probabilística, mundos, observaciones y proyección C3; ejecutar R1, R2 y R3 sin EA. | Matriz nativa, controles legítimos, búsqueda registrada y testigo negativo reproducible. Un negativo R3 abre el estudio dinámico. | Activo; ejecución pendiente. |
+| **3. Especificar y ejecutar el recorrido negativo** | Congelar referencia probabilística, mundos, observaciones y proyección C3; ejecutar R1, R2 y R3 sin EA. | Matriz nativa, controles legítimos, búsqueda registrada y testigo negativo reproducible. Un negativo R3 abre el estudio dinámico. | Activo: primer diagnóstico ejecutado; recorrido colectivo y aptitud del rival pendientes. |
 | **4. Ejecutar los dos recorridos comparados** | Referencia sin EA y la misma referencia con EA sobre el mismo caso negativo; incluir convencional reforzado. | Trazas emparejadas, finalización legítima, prevención y coste. El contraste principal de la hipótesis dinámica necesita un negativo R3; un negativo R1 no lo sustituye. | Pendiente. |
 | **5. Robustez y reto de Nelson** | Rama de sustitución/continuidad y cambios registrados dentro de R3, con observación independiente del efecto. | Resultados separados por rama y sensibilidad; mismo banco de pruebas, sin confundir sustitución con cambio de régimen. | Encaje documental revisado; ejecución pendiente. |
 | **6. Composiciones con presupuesto constante** | Reasignar parte del presupuesto EA a Human Escalation, Population, Lifecycle/Ecosystem Defense; attestation sólo si corresponde. | Comparación de seguridad, continuidad, tiempo y coste según las asignaciones fijadas antes de correr. | Pendiente. |
@@ -153,4 +153,4 @@ La primera transferencia puede importar una campaña de 00G-HF sin afirmar valid
 - Resultado de si repartir B entre EA y otros mecanismos mejora, empata o empeora el sistema.
 - Paquete reproducible para Codex y propuesta acotada de adaptador/extensión UC‑4 para Nelson.
 
-La organización documental y la lectura del reto de Nelson están preparadas. Las ejecuciones R1–R3, las composiciones y la transferencia UC‑4 siguen pendientes; esta hoja de ruta no las presenta como realizadas.
+La organización documental y la lectura del reto de Nelson están preparadas. El primer diagnóstico R1–R3 está registrado en el historial; no cierra el recorrido colectivo. La comparación EA, las composiciones y la transferencia UC‑4 siguen pendientes.

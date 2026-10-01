@@ -1,6 +1,6 @@
 # Anexo — Diseño del competidor probabilístico y recorridos R1–R3
 
-**Diseño de trabajo, no congelado ni ejecutado, 1 de octubre de 2026.** [Principal](../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) · [Historial](./00G-HF-DEVELOPMENT-HISTORY-v0.1.md). Desarrolla las conversaciones sobre objetivos móviles, propagación entre agentes y guardrails con escalamiento. No cambia el canónico, las hipótesis H1–H6 ni el oráculo C3.
+**Diseño general de trabajo, 1 de octubre de 2026.** La primera instancia acotada tiene freeze y resultados; este diseño general no queda validado por ella. [Principal](../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) · [Historial](./00G-HF-DEVELOPMENT-HISTORY-v0.1.md). Desarrolla las conversaciones sobre objetivos móviles, propagación entre agentes y guardrails con escalamiento. No cambia el canónico, las hipótesis H1–H6 ni el oráculo C3.
 
 ## 1. Objeto y correspondencia con las rutas existentes
 
@@ -98,6 +98,6 @@ T1–T4 siguen siendo condiciones comunes: detectar el cambio observable, entreg
 5. Congelar y ejecutar la referencia. Mantener todos los resultados, incluido que no aparezca el fallo.
 6. Ejecutar las reparaciones emparejadas y sus controles. Separar la simulación abstracta de una futura implementación comercial calibrada.
 
-Esta propuesta organiza el siguiente experimento. No lo da por corrido, no fija probabilidades arbitrarias para asegurar un fallo y no altera la extensión original para acomodar resultados.
+La primera instancia acotada se ha ejecutado con supuestos explícitos: no establece la propagación colectiva ni la aptitud de un competidor de producto. El [registro del diagnóstico y sus límites](./00G-HF-DEVELOPMENT-HISTORY-v0.1.md#7-continuación-probabilística-primer-diagnóstico) conserva los resultados. Los puntos anteriores siguen siendo obligaciones del alcance general; no se altera la extensión original para acomodar el lote.
 
 La [hoja de ruta operativa](../00G_HF_ROADMAP_R123_EA_COMPOSITIONS_UC4_v0.1_DRAFT.md) concreta las dependencias, el encaje del reto de Nelson, la reasignación del presupuesto entre mecanismos y las entregas a Codex y UC‑4. Conserva este diseño como base, pendiente de especificación ejecutable.

@@ -52,6 +52,6 @@ El dominio actual está acotado a T0/X y T1/Y con operación `inspect`. Se puede
 
 Los antecedentes experimentales y sus límites quedan en el [historial](./annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md). La [revisión de los pasos 1–2](./annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) conserva la reducción y la formulación de plausibilidad; concreta qué debe mantener el nuevo ensayo.
 
-**Pendiente:** especificar y congelar la referencia probabilística y sus parámetros; concretar mundos y recorridos R1–R3; verificar su proyección a C3; fijar métricas poblacionales, presupuestos, repeticiones y controles; ejecutar primero la referencia y después la comparación EA. La nueva propuesta aún no tiene simulaciones ni decisiones de modelos ejecutadas.
+**Estado del paso 3:** primer diagnóstico probabilístico ejecutado bajo el oráculo intacto. Hay negativos individuales, pero no queda establecido el recorrido de propagación colectiva ni un competidor representativo de producto. Los resultados y las razones para mantener abierto el paso están en el [historial](./annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md#7-continuación-probabilística-primer-diagnóstico).
 
-La siguiente entrega debe permitir ver qué conducta surge del modelo, qué conducta se estipula y qué resultado decide el evaluador, conservando los resultados favorables y desfavorables.
+**Pendiente:** justificar y registrar la dinámica que falta, cerrar el recorrido negativo pertinente y después comparar EA con el mismo receptor y con revalidación convencional bajo presupuesto comparable. No se han ejecutado decisiones de modelos ni se ha establecido una ventaja de EA.
