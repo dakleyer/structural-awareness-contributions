@@ -1,0 +1,145 @@
+{
+  "schema": "00G-HF-documentary-review-1",
+  "date": "2026-10-01",
+  "live_agent_runs": 0,
+  "model_calls": 0,
+  "oracle_evaluations_on_historical_traces": 0,
+  "independent_human_annotations": 0,
+  "blind": false,
+  "sampling": "PURPOSIVE_POST_HOC_NOT_RATE_ESTIMATION",
+  "mutual_independence": "NOT_ESTABLISHED",
+  "sources": {
+    "O": {
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "consulted": "2026-10-01"
+    },
+    "M": {
+      "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+      "consulted": "2026-10-01"
+    }
+  },
+  "units": [
+    {
+      "id": "H01",
+      "source": "O",
+      "locator": "An ecosystem of misalignment; six-minute deadline episode",
+      "identity": "ANONYMOUS_IN_SELECTED_PASSAGE",
+      "candidate_mapping": "AUTHORITY_PROMOTION",
+      "missing": [
+        "individual_raw_trace",
+        "normative_authority_record",
+        "material_commitment",
+        "linked_attempt_and_effect",
+        "legitimate_completion"
+      ],
+      "evidence_type": "PUBLISHED_REPORT_FRAGMENT_NOT_FULL_TRANSCRIPT",
+      "assessment": "AUTHOR_DOCUMENTARY_REVIEW",
+      "oracle_run_status": "ORACLE_NOT_RUN_INSUFFICIENT_NORMALIZED_EVIDENCE",
+      "operational_pass": null,
+      "hf_operational_witness": null,
+      "a25_admission": "PENDING_REVIEW",
+      "hc_causal_claim": "NOT_ASSESSED"
+    },
+    {
+      "id": "H02",
+      "source": "M",
+      "locator": "KAM1196A / ARVO36861B; sacrifice experiments",
+      "identity": "NAMED_PARTICIPANTS_PARTIAL_SEQUENCE",
+      "candidate_mapping": "COLLECTIVE_PRIORITY_SHIFT",
+      "missing": [
+        "confirmed_material_action",
+        "individual_obligation",
+        "resource_mapping",
+        "effect",
+        "legitimate_completion"
+      ],
+      "evidence_type": "PUBLISHED_REPORT_FRAGMENT_NOT_FULL_TRANSCRIPT",
+      "assessment": "AUTHOR_DOCUMENTARY_REVIEW",
+      "oracle_run_status": "ORACLE_NOT_RUN_INSUFFICIENT_NORMALIZED_EVIDENCE",
+      "operational_pass": null,
+      "hf_operational_witness": null,
+      "a25_admission": "PENDING_REVIEW",
+      "hc_causal_claim": "NOT_ASSESSED"
+    },
+    {
+      "id": "H03",
+      "source": "M",
+      "locator": "53927 / 62370; container-reset experiment",
+      "identity": "NAMED_PARTICIPANTS_PARTIAL_SEQUENCE",
+      "candidate_mapping": "NEIGHBOR_OR_INSTRUMENTAL_ACTION",
+      "missing": [
+        "normative_scope",
+        "verified_effect",
+        "external_resource_mapping",
+        "legitimate_completion"
+      ],
+      "evidence_type": "PUBLISHED_REPORT_FRAGMENT_NOT_FULL_TRANSCRIPT",
+      "assessment": "AUTHOR_DOCUMENTARY_REVIEW",
+      "oracle_run_status": "ORACLE_NOT_RUN_INSUFFICIENT_NORMALIZED_EVIDENCE",
+      "operational_pass": null,
+      "hf_operational_witness": null,
+      "a25_admission": "PENDING_REVIEW",
+      "hc_causal_claim": "NOT_ASSESSED"
+    },
+    {
+      "id": "H04",
+      "source": "O",
+      "locator": "Hugging Face incident; leaked-token and intended-scope passage",
+      "identity": "ANONYMOUS_IN_SELECTED_PASSAGE",
+      "candidate_mapping": "ILLICIT_MEANS_VS_MISSION_CHANGE_UNRESOLVED",
+      "missing": [
+        "individual_raw_trace",
+        "material_mission_change",
+        "normative_scope",
+        "linked_effect",
+        "legitimate_completion"
+      ],
+      "evidence_type": "PUBLISHED_REPORT_FRAGMENT_NOT_FULL_TRANSCRIPT",
+      "assessment": "AUTHOR_DOCUMENTARY_REVIEW",
+      "oracle_run_status": "ORACLE_NOT_RUN_INSUFFICIENT_NORMALIZED_EVIDENCE",
+      "operational_pass": null,
+      "hf_operational_witness": null,
+      "a25_admission": "PENDING_REVIEW",
+      "hc_causal_claim": "NOT_ASSESSED"
+    },
+    {
+      "id": "P01",
+      "source": "O",
+      "locator": "An ecosystem of misalignment; agents walking away",
+      "identity": "ANONYMOUS_SELECTED_EXAMPLES",
+      "candidate_mapping": "PARTIAL_RESTRAINT",
+      "missing": [
+        "subsequent_action_coverage",
+        "legitimate_completion",
+        "cross_source_identity_resolution"
+      ],
+      "evidence_type": "PUBLISHED_REPORT_FRAGMENT_NOT_FULL_TRANSCRIPT",
+      "assessment": "AUTHOR_DOCUMENTARY_REVIEW",
+      "oracle_run_status": "ORACLE_NOT_RUN_INSUFFICIENT_NORMALIZED_EVIDENCE",
+      "operational_pass": null,
+      "hf_operational_witness": null,
+      "a25_admission": "PENDING_REVIEW",
+      "hc_causal_claim": "NOT_ASSESSED"
+    },
+    {
+      "id": "P02",
+      "source": "M",
+      "locator": "Agents knew hacking Hugging Face was out of scope; email veto exchange",
+      "identity": "PARTIAL_IDENTITY_LINKAGE",
+      "candidate_mapping": "TACTIC_SPECIFIC_RESTRAINT",
+      "missing": [
+        "complete_episode",
+        "independent_effect_capture",
+        "legitimate_completion",
+        "cross_source_identity_resolution"
+      ],
+      "evidence_type": "PUBLISHED_REPORT_FRAGMENT_NOT_FULL_TRANSCRIPT",
+      "assessment": "AUTHOR_DOCUMENTARY_REVIEW",
+      "oracle_run_status": "ORACLE_NOT_RUN_INSUFFICIENT_NORMALIZED_EVIDENCE",
+      "operational_pass": null,
+      "hf_operational_witness": null,
+      "a25_admission": "PENDING_REVIEW",
+      "hc_causal_claim": "NOT_ASSESSED"
+    }
+  ]
+}

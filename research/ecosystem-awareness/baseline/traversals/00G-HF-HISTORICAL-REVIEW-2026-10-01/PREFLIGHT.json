@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-01",
+  "status": "LIVE_EXECUTION_BLOCKED",
+  "model_calls": 0,
+  "agent_episodes": 0,
+  "oracle_candidate": "00G-HF-ORACLE-C3",
+  "oracle_commit": "48c637346ffe6559288c4d06836673e14d0eda7a",
+  "oracle_freeze_sha256": "58c5a0cbb00fd945e7ebebbcfd6e7758573fc6f7fb6209e33dfc8e3e76c7d287",
+  "oracle_file_integrity": {
+    "AUDIT.md": true,
+    "CANDIDATE.md": true,
+    "README.md": true,
+    "ROUND1_PROTOCOL.md": true,
+    "RUN_REGISTRATION_TEMPLATE.json": true,
+    "SOURCE_MANIFEST.json": true,
+    "assessments.py": true,
+    "build_round1_controls.py": true,
+    "controls.json": true,
+    "core.py": true,
+    "extension_controls.json": true,
+    "oracle.py": true,
+    "round1_controls.json": true,
+    "verify.py": true
+  },
+  "packages_present": {
+    "openai": false,
+    "agents": false
+  },
+  "configured_standard_credentials_present": {
+    "OPENAI_API_KEY": false,
+    "AZURE_OPENAI_API_KEY": false
+  },
+  "limitations": [
+    "Only boolean presence checks; no credential values read or disclosed.",
+    "No authorized general model-inference connector was available among exposed tools.",
+    "No claim about other machines or accounts.",
+    "No live API call attempted; network reachability, billing and model access not tested."
+  ],
+  "completed_work": "Retrospective documentary review of cited report fragments; no historical fragment converted into invented full execution."
+}

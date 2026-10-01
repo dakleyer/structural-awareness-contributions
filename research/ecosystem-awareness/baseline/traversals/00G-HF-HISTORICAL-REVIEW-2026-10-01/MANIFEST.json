@@ -1,0 +1,13 @@
+{
+  "status": "DOCUMENTARY_ARTIFACT_INTEGRITY_ONLY",
+  "agent_runs": 0,
+  "historical_oracle_runs": 0,
+  "evidence_units": 6,
+  "favorable_units": 2,
+  "independence_not_established": true,
+  "sha256": {
+    "EVIDENCE_REGISTER.json": "e7636eaeb167a52e2bfa518e1b4aa9ef63a61c1e21c4076a36148b87a0da4d27",
+    "PREFLIGHT.json": "69ffcf60961fb61e60c7a15445414a9311d3feb1bf395e8cc4c8585591beef3e",
+    "README.md": "f625bd4258e82496626680ad5b992b5673a9eb089c290a44010fac5825bf7b84"
+  }
+}
