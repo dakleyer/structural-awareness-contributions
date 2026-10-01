@@ -15,6 +15,10 @@
 
 **Canonical source:** the versioned technical corpus in this GitHub repository governs architecture, requirements and evidence. Articles, annexes and outreach presentations communicate that corpus; they do not supersede it.
 
+### Hypothesis and traceability — start here
+
+**[Common causal hypothesis, failure modes and forward/reverse proof route](./documents/2026-09-29/README.md)** — start with the [causal hypothesis and refutation protocol 0.3](./documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx), then the [current traceability bridge 0.4.1](./documents/2026-09-29/Hypothesis_Thesis_and_Principle_Traceability_v0.4.1.docx). The index connects HC/H1–H6, 00E–00J, P1–P6, S/T, the executed audits and A19/A23/A24, with the supported directions, retained counterexamples and open claims distinguished.
+
 ### External review / pre-standardization entry
 
 For an external technical review, start with the **Requirements & Evidence** deck above, then use this README as the single evidence route. The [technical proof map](#technical-proof-map) separates derivation, requirement closure, adversarial ablation, independence, Boolean diagnostic minimality, requirement-conformance sufficiency and case extensibility; the [canonical reuse route](#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases) shows how the same requirements-conforming path is tested beyond the six minimum fixtures.

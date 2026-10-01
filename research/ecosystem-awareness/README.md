@@ -1,4 +1,7 @@
 # Ecosystem Awareness — entry-point router
+
+**Hypothesis and traceability:** [common causal hypothesis, current bridge 0.4.1, six failure families, principles and forward/reverse evidence](../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md). This reading index identifies the substantive documents, executed audits, preserved counterexamples and remaining proof obligations.
+
 > **Applied sufficiency review:** [A23 semantic bridge diagnostics](./baseline/fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md) explain why passing traversals do not establish all-six sufficiency and test action scope, correlated evidence and a candidate action-time interlock. [Saved change plan](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md).
 
 

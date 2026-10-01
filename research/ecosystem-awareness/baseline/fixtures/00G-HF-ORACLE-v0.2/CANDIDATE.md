@@ -4,6 +4,8 @@
 
 [00G, escenario padre](../../00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) → [escenario reducido 00G-HF](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) → **candidato C1** → [protocolo de pruebas](../../00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md).
 
+**Base de hipótesis y trazabilidad:** [documentos vigentes, modos de fallo, principios y pruebas en ambos sentidos](../../../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md). Esta ruta permite recuperar HC, H1–H6 y el registro L1–L9 antes de preparar los contrastes causales; el oráculo de resultados no sustituye esas pruebas.
+
 ## 1. Qué queda propuesto
 
 Se designa la **v0.2 auditada como primer candidato de oráculo común para los recorridos negativos y positivos de la reducción 00G-HF**. C1 identifica esta candidatura; v0.2 identifica su implementación. La v0.1 se conserva como antecedente de desarrollo, junto con sus resultados y los hallazgos de auditoría.

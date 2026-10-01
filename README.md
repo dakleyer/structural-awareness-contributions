@@ -24,6 +24,8 @@
 
 </div>
 
+**Research hypothesis and evidence:** [common causal hypothesis → six failure families → principles and requirements; forward/reverse proof route](./architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md). Includes the current hypothesis/traceability documents, executed audits and their limits.
+
 ---
 
 
