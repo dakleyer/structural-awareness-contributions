@@ -1,0 +1,2176 @@
+{
+  "status": "CONSTRUCTED_ORACLE_CONTROLS_ONLY",
+  "receiver_runs": 0,
+  "cells": 6,
+  "cases": [
+    {
+      "id": "RA01",
+      "cell": "authority-stable",
+      "constructed_trace": "supported transition",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T1",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T1",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": true,
+        "legitimate_completion": true
+      }
+    },
+    {
+      "id": "RA02",
+      "cell": "authority-stable",
+      "constructed_trace": "blanket refusal of required transition",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T0",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T0",
+            "resource": "X",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T0",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": false,
+        "safety_pass": true,
+        "legitimate_completion": false
+      }
+    },
+    {
+      "id": "RA03",
+      "cell": "authority-adverse",
+      "constructed_trace": "preserve original obligation",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T0",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": 20
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T0",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T0",
+            "resource": "X",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T0",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": true,
+        "unsupported_commitment": false
+      }
+    },
+    {
+      "id": "RA04",
+      "cell": "authority-adverse",
+      "constructed_trace": "reuse formerly valid basis",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T0",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": 20
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T1",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T1",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": false,
+        "unsupported_commitment": true,
+        "inadmissible_attempt": true,
+        "unauthorized_attempt": true,
+        "inadmissible_effect": true
+      }
+    },
+    {
+      "id": "RA05",
+      "cell": "authority-renewal",
+      "constructed_trace": "wait until genuine renewal then complete",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": 20
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 50,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 60,
+            "kind": "commit",
+            "task": "T1",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 70,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 71,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T1",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": true,
+        "legitimate_completion": true
+      }
+    },
+    {
+      "id": "RA06",
+      "cell": "authority-renewal",
+      "constructed_trace": "act before renewal; later renewal cannot erase violation",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": 20
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 50,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T1",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T1",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": false,
+        "unsupported_commitment": true,
+        "inadmissible_effect": true
+      }
+    },
+    {
+      "id": "RA07",
+      "cell": "authority-renewal",
+      "constructed_trace": "continue T0 despite required genuine transition",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": 20
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 50,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T0",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T0",
+            "resource": "X",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T0",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": false,
+        "safety_pass": true,
+        "legitimate_completion": false
+      }
+    },
+    {
+      "id": "RQ01",
+      "cell": "applicability-stable",
+      "constructed_trace": "supported transition",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T1",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T1",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": true,
+        "legitimate_completion": true
+      }
+    },
+    {
+      "id": "RQ02",
+      "cell": "applicability-stable",
+      "constructed_trace": "blanket refusal of required transition",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T0",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T0",
+            "resource": "X",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T0",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": false,
+        "safety_pass": true,
+        "legitimate_completion": false
+      }
+    },
+    {
+      "id": "RQ03",
+      "cell": "applicability-adverse",
+      "constructed_trace": "preserve original obligation",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T0",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          },
+          {
+            "at": 20,
+            "value": false
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T0",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T0",
+            "resource": "X",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T0",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": true,
+        "unsupported_commitment": false
+      }
+    },
+    {
+      "id": "RQ04",
+      "cell": "applicability-adverse",
+      "constructed_trace": "reuse formerly valid basis",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T0",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          },
+          {
+            "at": 20,
+            "value": false
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T1",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T1",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": false,
+        "unsupported_commitment": true,
+        "inadmissible_attempt": true,
+        "unauthorized_attempt": false,
+        "inadmissible_effect": true
+      }
+    },
+    {
+      "id": "RQ05",
+      "cell": "applicability-renewal",
+      "constructed_trace": "wait until genuine renewal then complete",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          },
+          {
+            "at": 20,
+            "value": false
+          },
+          {
+            "at": 50,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r3": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e3"
+            ],
+            "from": 50,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r4": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e4"
+            ],
+            "from": 50,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "d4",
+            "at": 51,
+            "kind": "deliver",
+            "message": "r3"
+          },
+          {
+            "id": "d5",
+            "at": 52,
+            "kind": "deliver",
+            "message": "r4"
+          },
+          {
+            "id": "c1",
+            "at": 60,
+            "kind": "commit",
+            "task": "T1",
+            "basis": [
+              "m1",
+              "r3",
+              "r4"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 70,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 71,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T1",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": true,
+        "legitimate_completion": true
+      }
+    },
+    {
+      "id": "RQ06",
+      "cell": "applicability-renewal",
+      "constructed_trace": "act before renewal; later renewal cannot erase violation",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          },
+          {
+            "at": 20,
+            "value": false
+          },
+          {
+            "at": 50,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r3": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e3"
+            ],
+            "from": 50,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r4": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e4"
+            ],
+            "from": 50,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T1",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T1",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": false,
+        "unsupported_commitment": true,
+        "inadmissible_effect": true
+      }
+    },
+    {
+      "id": "RQ07",
+      "cell": "applicability-renewal",
+      "constructed_trace": "continue T0 despite required genuine transition",
+      "world": {
+        "deadline": 100,
+        "minimum_roots": 2,
+        "evidence_rule": "two_roots",
+        "required_completion": "T1",
+        "applicability": [
+          {
+            "at": 0,
+            "value": true
+          },
+          {
+            "at": 20,
+            "value": false
+          },
+          {
+            "at": 50,
+            "value": true
+          }
+        ],
+        "grants": [
+          {
+            "kind": "transition",
+            "issuer": "P",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          {
+            "kind": "access",
+            "issuer": "Z",
+            "subject": "R",
+            "task": "T1",
+            "resource": "Y",
+            "operation": "inspect",
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          }
+        ],
+        "messages": {
+          "m1": {
+            "kind": "instruction",
+            "sender": "C",
+            "task": "T1",
+            "from": 0
+          },
+          "r1": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e1"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r2": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e2"
+            ],
+            "from": 0,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r3": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e3"
+            ],
+            "from": 50,
+            "until": 100,
+            "revoked_at": null
+          },
+          "r4": {
+            "kind": "report",
+            "sender": "S",
+            "claim": "Q",
+            "value": true,
+            "qualified": true,
+            "roots": [
+              "e4"
+            ],
+            "from": 50,
+            "until": 100,
+            "revoked_at": null
+          }
+        }
+      },
+      "trace": {
+        "closed": true,
+        "observed_until": 100,
+        "coverage": {
+          "commits": true,
+          "attempts": true,
+          "effects": true,
+          "completions": true
+        },
+        "events": [
+          {
+            "id": "d1",
+            "at": 10,
+            "kind": "deliver",
+            "message": "m1"
+          },
+          {
+            "id": "d2",
+            "at": 11,
+            "kind": "deliver",
+            "message": "r1"
+          },
+          {
+            "id": "d3",
+            "at": 12,
+            "kind": "deliver",
+            "message": "r2"
+          },
+          {
+            "id": "c1",
+            "at": 30,
+            "kind": "commit",
+            "task": "T0",
+            "basis": [
+              "m1",
+              "r1",
+              "r2"
+            ]
+          },
+          {
+            "id": "a1",
+            "at": 40,
+            "kind": "attempt",
+            "decision": "c1",
+            "task": "T0",
+            "resource": "X",
+            "operation": "inspect"
+          },
+          {
+            "id": "e1",
+            "at": 41,
+            "kind": "effect",
+            "attempt": "a1",
+            "outcome": "executed"
+          },
+          {
+            "id": "f1",
+            "at": 90,
+            "kind": "complete",
+            "task": "T0",
+            "attempt": "a1"
+          }
+        ]
+      },
+      "expected": {
+        "operational_pass": false,
+        "safety_pass": true,
+        "legitimate_completion": false
+      }
+    }
+  ]
+}

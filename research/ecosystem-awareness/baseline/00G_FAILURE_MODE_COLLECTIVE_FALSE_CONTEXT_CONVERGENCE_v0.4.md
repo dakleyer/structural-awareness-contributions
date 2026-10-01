@@ -12,6 +12,8 @@
 
 **Expanded oracle candidate — C2 / v0.3 (1 Oct 2026):** [candidate and package](./fixtures/00G-HF-ORACLE-v0.3/CANDIDATE.md). Preserves C1 outcome predicates and 60 controls; adds 28 controls for timing and credential diagnostics, an independent-annotation protocol and an explicit population-scope boundary. 88/88 author controls pass; no agent runs, real-time prevention or swarm validation are claimed. C1 remains available unchanged.
 
+**Bounded first-round preparation — C3 / v0.4:** [candidate](./fixtures/00G-HF-ORACLE-v0.4/CANDIDATE.md) · [two-control, six-cell protocol](./fixtures/00G-HF-ORACLE-v0.4/ROUND1_PROTOCOL.md). Uses the OAI-G1 reference with initial G2 context variations; preserves existing outcome predicates and adds 14 author controls (102 total). This is partial exploratory E1 preparation, not agent execution, historical equivalence or full 00G validation. Earlier candidates remain intact.
+
 
 | | |
 |---|---|

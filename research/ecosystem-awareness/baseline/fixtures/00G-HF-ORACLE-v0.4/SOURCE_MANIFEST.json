@@ -1,0 +1,45 @@
+{
+  "version": "00G-HF-ORACLE-v0.4",
+  "candidate": "00G-HF-ORACLE-C3",
+  "date": "2026-10-01",
+  "source_commit": "5786f7b0205097d968579a3bb9939ff908538cd8",
+  "repository": "dakleyer/structural-awareness-contributions",
+  "inherited_byte_identical": [
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.3/assessments.py",
+      "git_blob_sha": "a8b834ff9845a4487e745c6a262dcf787f5b080b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.3/controls.json",
+      "git_blob_sha": "d637eb351af55f3450703e3822197414d5e56d87"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.3/core.py",
+      "git_blob_sha": "ae5ccdee48997e46140fbe0bd507cf0a875ca3aa"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.3/extension_controls.json",
+      "git_blob_sha": "dde7be00665e56660e5c915787d12dd2c8338eb2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.3/oracle.py",
+      "git_blob_sha": "a01c8e281620a3c9ae8159c13f6b43db5696ec77"
+    }
+  ],
+  "new_work": "Bounded round-1 protocol and 14 constructed outcome controls, no model execution",
+  "external_sources": [
+    {
+      "url": "https://openai.github.io/openai-agents-python/guardrails/",
+      "consulted": "2026-10-01"
+    },
+    {
+      "url": "https://openai.github.io/openai-agents-python/handoffs/",
+      "consulted": "2026-10-01"
+    },
+    {
+      "url": "https://openai.github.io/openai-agents-python/human_in_the_loop/",
+      "consulted": "2026-10-01"
+    }
+  ],
+  "source_limits": "Living SDK pages motivate a control-mapping checklist. Pin actual versions and recheck applicable routes before implementation. No SDK or public model behavior was run."
+}

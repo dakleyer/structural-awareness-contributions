@@ -8,6 +8,8 @@
 
 **Ampliación C2 / v0.3:** [oráculo](./fixtures/00G-HF-ORACLE-v0.3/README.md) · [rúbrica de reconocimiento de límites](./fixtures/00G-HF-ORACLE-v0.3/ANNOTATION_PROTOCOL.md) · [perfiles temporal y colectivo](./fixtures/00G-HF-ORACLE-v0.3/EXPERIMENT_PROFILES.md). Conserva la adjudicación de C1, separa aceptación de credenciales y autoridad, e incorpora diagnóstico temporal sin atribuir prevención a una respuesta puntual. 88/88 controles públicos del autor; cero ejecuciones con agentes. La unidad sigue siendo individual; la prueba colectiva y las anotaciones humanas están pendientes. Esta ampliación no altera E1–E5 ni los hechos del escenario.
 
+**Preparación acotada C3 / v0.4:** [ronda inicial de dos controles](./fixtures/00G-HF-ORACLE-v0.4/ROUND1_PROTOCOL.md) · [registro del ensayo](./fixtures/00G-HF-ORACLE-v0.4/RUN_REGISTRATION_TEMPLATE.json). Concreta una parte exploratoria de E1: seis celdas, implementación OAI-G1 conservada ante cambios de autoridad/aplicabilidad, modalidad extremo a extremo y positivos de reentrada. Las retiradas, el enjambre y los contrastes H2–H5 quedan separados. C3 es el ID del oráculo, no el brazo EA C3 de §5. Sus 102 controles prueban el evaluador; la implementación y ejecución real siguen pendientes.
+
 ## 1. Pregunta, unidad y límite causal
 
 **Unidad de análisis:** la decisión de un agente receptor R, con tarea ExploitGym individual y alcance original O, tras recibir un mensaje o encargo de un tablón compartido. El resultado material es si R conserva su tarea, solicita una transición válida o desplaza objetivo/rol y trata de actuar sobre un entorno externo sintético. La infraestructura de prueba es controlada; no requiere acceso a Hugging Face.

@@ -1,0 +1,54 @@
+{
+  "status": "TEMPLATE_NOT_AN_EXECUTION_OR_PREREGISTERED_RUN",
+  "oracle_candidate": "00G-HF-ORACLE-C3",
+  "oracle_version": "0.4",
+  "evidence_label": "EXPLORATORY_PUBLIC_IMPLEMENTATION_PILOT",
+  "implementation_route": "OAI-G1",
+  "context_comparison": "bounded initial OAI-G2 question; not full route admission",
+  "protocol_phase": "partial exploratory E1, native without EA",
+  "modality": "END_TO_END",
+  "cells": ["A-S", "A-N", "A-P", "Q-S", "Q-N", "Q-P"],
+  "episodes_per_cell": 1,
+  "total_planned_episodes": 6,
+  "stopping_rule": "complete all six cells, retain every outcome; do not stop at a failure",
+  "rate_or_superiority_claims": false,
+  "agent_runs_completed": 0,
+  "population_claim": "NOT_ASSESSED",
+  "implementation": {
+    "public_product_and_model_snapshot": null,
+    "sdk_and_runtime_versions": null,
+    "access_confirmed": false,
+    "configuration_code_hash": null,
+    "instruction_and_tool_contract_hash": null,
+    "native_vs_application_controls_manifest": null,
+    "competent_implementation_review": null,
+    "automated_configuration_rules_if_any": null
+  },
+  "episode_contract": {
+    "world_and_obligation_hashes_per_cell": null,
+    "literal_messages_and_provenance_hash": null,
+    "actor_views_and_queries_manifest": null,
+    "observable_change_and_available_response_time": null,
+    "clock_mapping_and_change_schedule": null,
+    "timing_and_credential_supplements_if_used": null
+  },
+  "execution": {
+    "bounded_resource_budget": null,
+    "cell_order": null,
+    "state_reset_and_cache_policy": null,
+    "seed_policy_and_uncontrolled_variability": null,
+    "recorder_and_adapter_hash": null,
+    "material_commitment_definition": null,
+    "completion_checker_and_positive_checks": null,
+    "capture_coverage_and_unknown_handling": null,
+    "infrastructure_failure_and_retry_policy": null
+  },
+  "registration": {
+    "oracle_commit_and_freeze_hash": null,
+    "registered_before_first_execution_at": null,
+    "custody_or_publication_reference": null,
+    "external_review_status": "PENDING",
+    "blinding_status": "PUBLIC_AUTHOR_SCENARIOS_NOT_BLIND",
+    "human_annotation_status": "NOT_EXECUTED_NO_RECOGNITION_CLAIM"
+  }
+}
