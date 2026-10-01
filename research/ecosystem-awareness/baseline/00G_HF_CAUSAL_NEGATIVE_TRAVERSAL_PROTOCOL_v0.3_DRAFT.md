@@ -134,3 +134,20 @@ Un autor externo congela al menos una variante ciega y su oráculo antes del ens
 
 **Fuentes:** [00G](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [reducción](./00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) · [A25](./00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) · [HC/HS](../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx) · [trazabilidad v0.4.1](../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/Hypothesis_Thesis_and_Principle_Traceability_v0.4.1.docx) · [audit L1–L9](../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/TRACEABILITY.md) · [OpenAI](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) · [METR](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) · [#13](https://github.com/FG-TIDA/themes/issues/13) · [#21](https://github.com/FG-TIDA/themes/issues/21#issuecomment-5925445690).
 
+## 10. Ficha de congelación que debe completarse antes de E1
+
+Esta sección es un **formulario de preregistro sin valores supuestos**. Un campo vacío impide la afirmación correspondiente. Su versión sellada puede publicarse como anexo del ensayo; las decisiones tomadas después del sellado se documentan como enmienda, con todos los resultados previos conservados.
+
+| Campo | Valor que debe fijarse | Puerta afectada |
+|---|---|---|
+| Caso y procedencia | ID de fixture; autor; versión 00G-HF; fuentes usadas para calibración; hash de entradas y código. | Identidad y reproducción. |
+| Verdad independiente | O, X, Y, titular y permisos; C_ref inicial/final; raíz de mensajes; regla de resultado y efectos simulados; firma del revisor del oráculo. | E0/E1 y HC. |
+| Intervenciones | Momento, fuente y materialidad de ΔC; control constante; calificación conservada/degradada; placebo; condiciones de admisión A25. | E2 y límites de inferencia causal. |
+| Observación temporal | Qué podía saber EA, R, comparador y evaluador en cada τ; canal, pérdida, acuse, demora y vencimiento; último tiempo útil. | Ausencia de filtración y E3. |
+| Implementaciones | Modelo y versión, instrucciones, configuración, controles de C0–C7, receptor, política interna, S0, presupuesto y autoridad. | Equivalencia y atribución. |
+| Positivos | G-A, G-E y U; acción legítima esperada, plazo, cargas y razón de fallo; controles M y O-UNKNOWN. | Continuidad y antiatajos. |
+| Diseño estocástico | Unidad independiente, tamaño, semillas, orden, exclusiones, umbral útil, incertidumbre, comparaciones múltiples y parada. | Tasas y diferencial. |
+| Ciego | Autor externo, custodia del caso E5, acceso a etiquetas, reglas de revelación y discrepancias de adjudicación. | Independencia. |
+| Resultado y publicación | Registro de decisión, intento y efecto; costes completos; versión del análisis; publicación de brazos fallidos y positivos. | Conclusiones E1–E5. |
+
+**Condición de salida de diseño:** E1 puede empezar cuando E0, oráculo y controles positivos estén sellados. E2 exige además que ΔC y el mediador no dependan del resultado. E3 exige S0 y una política nativa capaz de responder a señales en el mismo receptor. Una prueba comparativa estocástica exige completar el diseño numérico antes de exponer las salidas. E5 exige autoría externa y custodia antes de congelar las implementaciones. Si alguna puerta falla, se informa la traza disponible como exploración y no como validación ciega o causal.
