@@ -59,7 +59,7 @@ This table reconciles notation across current working documents. It does not rew
 
 ## 2. Four-component qualified epistemic position
 
-**Reconciliation update — 23 September 2026.** A/B/C/D are read canonically as four **components of one qualified position**, not as four mutually exclusive quadrants or four mandatory transmission fields. Earlier frozen/source documents that use a coarser “determined / unresolved / obtainable / residual” wording remain preserved for provenance; this page supplies the current reconciliation.
+**Reconciliation update — 1 October 2026.** Read the [00M canonical working A/B/C/D semantic foundation](./00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) for the current definitions and the explicit conflict register. A/B/C/D are four **components of one qualified position**, not mutually exclusive quadrants or mandatory transmission fields. The 23 September shorthand and earlier frozen wording remain part of the dated research lineage; this reader page follows 00M where the shorthand is narrower.
 
 For participant i, decision d and time t, a qualified position may be read conceptually as:
 
@@ -69,10 +69,10 @@ For participant i, decision d and time t, a qualified position may be read conce
 
 | Component | Canonical meaning | Example / treatment |
 |---|---|---|
-| **A — situated scope / qualified assertion** | What is being represented or asserted, **where/from which frame**, for which subject/decision, under which scope, provenance, calibration, freshness and other material qualifiers. A is not an unscoped YES/NO. | A telemetry device may assert “temperature at this sensor/location, using this calibration, at this time.” |
-| **B — confidence / intensity** | How strongly the A assertion or direction is supported relative to its admitted frame. B may be expressed as confidence, interval/bounds, support strength or another profile-appropriate uncertainty representation. | A high-confidence directional departure can create a stronger downstream agentic gradient after participant-local projection than a weak/noisy departure. Confidence in decoding is distinct from physical measurement accuracy. |
-| **C — recognized capability frontier / potentially obtainable state** | What additional decision-relevant state is recognized and could be determined **with the participant's current capabilities** through more observation, review, acquisition, computation, interaction or time, but has not yet been established for the current position. | A telemetry system may support a diagnostic register or another sensor read that has not yet been queried. |
-| **D — structural / residual unknown** | What remains outside the currently represented and recognized-obtainable capability boundary, including what may be unenumerated, structurally unavailable or unknown as to knowability. Compatibility/translation residuals may also contribute to D on the receiver side. | A local temperature device does not thereby establish humidity, occupancy, external conditions or unmodelled dependencies. |
+| **A — functional result, situated** | What this producer's process actually established or delivered for its declared scope and time. Domain-native uncertainty may belong to A when part of that result. | A telemetry process delivers a situated sensor reading to its operative consumer. |
+| **B — established qualification and calculable boundary of A** | Already-established support, coverage, validity, uncertainty and known omission in a defined frame; available variables and a defensible method can assess further evaluation, cost, benefit and error where applicable. An unexamined but assessable remainder stays B. No unsupported number is required. | The sensor's measured coverage, calibrated margin and known but unmeasured bounded sampling region whose additional effort can be assessed. |
+| **C — open potentially explorable frontier** | A grounded route to explore exists, but the population and variables needed to assess its feasibility, acquisition cost, yield, benefit or risk are not sufficiently characterized. Examples do not exhaust it. | Taking the sensor into a wider environment where one can begin looking but cannot yet calculate what the search entails or yields. |
+| **D — effective determination limit and open residual** | Potentially material effects that this process cannot adequately determine or handle within its present access/method/mandate/horizon, plus acknowledged unenumerated residual; some factors may be partly witnessed. Mere inability to control a well-characterized factor is insufficient. | A dependency outside the process's effective reach whose likelihood and material effect it cannot establish. |
 
 The four components are **not required to sum to a fixed whole** and need not all be transmitted. A producer may emit only A, or A+B, or another material subset. Missing components remain **UNKNOWN / NOT DECLARED** to the receiver unless a verified profile legitimately supplies receiver-local qualification.
 
@@ -80,12 +80,12 @@ The four components are **not required to sum to a fixed whole** and need not al
 
 The earlier wording can be conserved as a useful operational reading **inside** the richer tuple:
 
-- a “sufficiently determined” result is an A assertion with enough B support for the receiving decision;
-- “recognized unresolved” state is represented through insufficient/contested B and the qualified unresolved content attached to A;
-- “potentially obtainable” remains the C frontier;
+- a “sufficiently determined” result is situated A with whatever B qualification is material to the receiving decision;
+- “recognized unresolved” in a defined population or scope remains visible in B, including the characterized reason for not measuring further;
+- “potentially obtainable” without the population and variables needed for a defensible acquisition/benefit assessment remains the open C frontier;
 - “structural residual” remains D.
 
-This reconciliation prevents B from being treated as a second content bucket when the architecture needs B to carry confidence/direction, while preserving the earlier safety rule: unresolved state must never be promoted to certainty.
+This reading keeps B's domain-native support and known indeterminacy together while preserving the earlier safety rule: unresolved state must never be promoted to certainty. A probability or directional result belongs in A when that is the process's functional product; its established error, support and limits belong in B when they qualify a different A. B cannot be moved to C merely because an assessable measurement was deliberately omitted.
 
 C and D preserve the distinction between what could still be known with current capability and what remains structurally residual. Neither makes `R_U` a closed set complement or Ω a closed universe.
 

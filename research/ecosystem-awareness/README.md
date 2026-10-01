@@ -11,6 +11,8 @@
 
 **Canonical source:** the versioned technical corpus in this GitHub repository governs architecture, requirements and evidence. Articles, annexes and outreach presentations communicate that corpus; they do not supersede it.
 
+**Current A/B/C/D reading:** [00M — Canonical Semantics and Scoped Requalification Feasibility](./baseline/00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) fixes the working semantic foundation across producer processes and records the remaining 04 input-contract reconciliation. It is a mathematical feasibility argument, not an implemented interface or measured benefit.
+
 ## What problem this addresses
 
 An agent or institution can be locally correct while the wider decision remains unsupported: evidence may be incomplete or correlated, roles and authority may have changed, another component may operate under a different frame, or the time and capacity required to remove uncertainty may exceed the useful response horizon. Adding more context, agents or review does not by itself establish that the resulting whole is sufficiently determined.
