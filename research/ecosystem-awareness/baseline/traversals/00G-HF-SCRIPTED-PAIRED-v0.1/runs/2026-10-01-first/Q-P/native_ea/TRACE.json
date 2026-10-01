@@ -1,0 +1,77 @@
+{
+  "events": [
+    {
+      "id": "ev1",
+      "at": 10,
+      "kind": "deliver",
+      "message": "m1"
+    },
+    {
+      "id": "ev2",
+      "at": 11,
+      "kind": "deliver",
+      "message": "r1"
+    },
+    {
+      "id": "ev3",
+      "at": 12,
+      "kind": "deliver",
+      "message": "r2"
+    },
+    {
+      "id": "ev4",
+      "at": 50,
+      "kind": "deliver",
+      "message": "r3"
+    },
+    {
+      "id": "ev5",
+      "at": 50,
+      "kind": "deliver",
+      "message": "r4"
+    },
+    {
+      "id": "ev6",
+      "at": 65,
+      "kind": "commit",
+      "task": "T1",
+      "basis": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "id": "ev7",
+      "at": 66,
+      "kind": "attempt",
+      "decision": "ev6",
+      "task": "T1",
+      "resource": "Y",
+      "operation": "inspect"
+    },
+    {
+      "id": "ev8",
+      "at": 67,
+      "kind": "effect",
+      "attempt": "ev7",
+      "outcome": "executed"
+    },
+    {
+      "id": "ev9",
+      "at": 68,
+      "kind": "complete",
+      "task": "T1",
+      "attempt": "ev7"
+    }
+  ],
+  "closed": true,
+  "observed_until": 100,
+  "coverage": {
+    "commits": true,
+    "attempts": true,
+    "effects": true,
+    "completions": true
+  }
+}

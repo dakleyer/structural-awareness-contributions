@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "id": "ev1",
+      "at": 10,
+      "kind": "deliver",
+      "message": "m1"
+    },
+    {
+      "id": "ev2",
+      "at": 11,
+      "kind": "deliver",
+      "message": "r1"
+    },
+    {
+      "id": "ev3",
+      "at": 12,
+      "kind": "deliver",
+      "message": "r2"
+    }
+  ],
+  "closed": true,
+  "observed_until": 34,
+  "coverage": {
+    "commits": true,
+    "attempts": true,
+    "effects": true,
+    "completions": true
+  }
+}

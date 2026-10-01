@@ -31,6 +31,8 @@ Destino reservado: `baseline/fixtures/00G-HF-EA-COMPONENT-v0.1/`. El primer alca
 
 ## 3. Recorrido de la línea B
 
+**Integración programada ejecutada en A:** el [lote pareado sin/con EA](../../traversals/00G-HF-SCRIPTED-PAIRED-v0.1/RESULTS.md) completa ocho pares con registro de consultas, señales, decisiones, acción y resultado. Nativo: 8/8 tareas; nativo+EA: 7/8. Ambos resuelven las seis celdas principales; el coste de EA impide finalizar el caso de plazo corto. Los 16 recorridos conservan seguridad acotada. Son políticas programadas y no cierran B1 ni AB1 empíricos. T1–T3 tienen evidencia parcial y T4 falla en ese límite EA; no se declara suficiencia canónica completa ni beneficio diferencial.
+
 El [punto de entrada Codex](./CODEX_START_HERE.md) fija lectura, comandos, precondiciones, límites y formato de entrega. Puede avanzar sin esperar a A: revisión del candidato, comprobaciones locales, preparación de registro y ejecución nativa si existe acceso. Si falta acceso, preservar el bloqueo y preparar el adaptador/entorno sin fabricar episodios.
 
 Los 19 controles de integración existentes son acciones programadas; los 102 controles C3 y 70 metamórficos evalúan software del oráculo. No son ejecuciones del receptor. El piloto público de seis celdas es exploratorio, no ciego, no mide una tasa fiable ni reproduce ExploitGym o el incidente histórico completo.
@@ -59,6 +61,7 @@ Trabajar con árbol limpio o rama/worktree separado; comprobar `AGENTS.md` aplic
 |---|---|---|
 | A1 | Contrato, expectativas y pruebas publicadas con hashes, trazas y límites. | Ejecutado en el alcance acotado v0.1/v0.2; no constituye EA completo ni evidencia empírica. |
 | A2 | Contraste temporal y proyección conservadora de servicios. | Implementados y comprobados en v0.2; permanecen límites de observación, vigencia y admisión de runtime. |
+| AB0 | Recorridos completos programados sin/con EA, con consumo de señal y coste. | Ejecutados: 8 pares; nativo 8/8, EA 7/8. No son decisiones de modelo ni sustituyen AB1. |
 | B1 | Todos los resultados nativos, consumo y fallos de infraestructura conservados; revisión del registro. | Pendiente de ejecución; candidato disponible. |
 | AB1 | Adaptación sin información privilegiada y comparación sin/con EA registrada y ejecutada. | Pendiente. |
 | AB2 | Variantes reservadas con autor/custodio externo, compromiso y acceso controlado. | Pendiente; perturbaciones del autor no cierran este hito. |
@@ -66,4 +69,4 @@ Trabajar con árbol limpio o rama/worktree separado; comprobar `AGENTS.md` aplic
 
 La documentación compartida puede revisarse; los insumos de una ejecución ya congelada se preservan. Resultados posteriores deben identificar exactamente las versiones utilizadas. El resultado de A no cierra B1 ni AB1.
 
-**Siguiente trabajo de A:** contrato de composición con disponibilidad, latencia, autoridad y presupuesto explícitos; mantener pendientes la entrega efectiva de señales al receptor y la comparación empírica. **B puede continuar ahora** desde el mismo punto de entrada, sin modificar su referencia nativa para incorporar EA.
+**Siguiente trabajo de A:** partir del resultado pareado: identificar qué requisito estructural no cubre ya el recorrido nativo antes de registrar una nueva comparación o composición. La entrega/consumo de señales está ejecutada con política programada; su efecto sobre un modelo sigue pendiente. Los contratos de composición conservarán disponibilidad, latencia, autoridad y presupuesto explícitos. **B puede continuar ahora** desde el mismo punto de entrada, sin modificar su referencia nativa para incorporar EA.
