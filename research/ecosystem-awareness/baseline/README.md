@@ -1,8 +1,6 @@
 # Ecosystem Awareness — canonical corpus
 
-**Prepared first-round candidate — C3 / v0.4 (1 October 2026):** [current preparation package](./fixtures/00G-HF-ORACLE-v0.4/CANDIDATE.md). Two controls under context change, six planned exploratory episodes; 102 constructed oracle checks, no agent runs. Preserves C1/C2 and requires a concrete receiver and run registration before execution.
-
-**00G-HF oracle update — C2 / v0.3 (1 October 2026):** [current expanded candidate](./fixtures/00G-HF-ORACLE-v0.3/CANDIDATE.md) for the [reduced scenario](./00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md). Preserves C1; adds timing/credential diagnostics, an annotation protocol and explicit collective-scope limits. 88/88 public author controls; no agent runs or population validation.
+**00G-HF experimental extension:** [current case and roadmap](./00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) · [development and test history](./annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md). The canonical 00G scenario and requirements retain their scope; the probabilistic comparison remains experimental.
 
 **Hypothesis and traceability:** [common causal hypothesis, current bridge 0.4.1, six failure families, principles and forward/reverse evidence](../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md). This reading index identifies the substantive documents, executed audits, preserved counterexamples and remaining proof obligations.
 

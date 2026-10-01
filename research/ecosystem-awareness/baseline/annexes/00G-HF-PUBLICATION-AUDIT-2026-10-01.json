@@ -1,0 +1,51 @@
+{
+  "base_commit": "868342c2ea377d5b9988cf86acb638104814982e",
+  "scope": "navigation cleanup and additive R123 planning; no experiment rerun",
+  "deleted_paths": [],
+  "changed_or_added_paths": [
+    "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md",
+    "research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md",
+    "research/ecosystem-awareness/baseline/00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md",
+    "research/ecosystem-awareness/baseline/README.md",
+    "research/ecosystem-awareness/WORKPLAN.md",
+    "architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md",
+    "research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md",
+    "research/ecosystem-awareness/baseline/00G_HF_ROADMAP_R123_EA_COMPOSITIONS_UC4_v0.1_DRAFT.md",
+    "research/ecosystem-awareness/baseline/annexes/00G-HF-PROBABILISTIC-R123-DESIGN-v0.1.md",
+    "research/ecosystem-awareness/baseline/annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md",
+    "research/ecosystem-awareness/baseline/annexes/00G-HF-NAVIGATION-ARCHIVE-2026-10-01.json",
+    "research/ecosystem-awareness/baseline/annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md",
+    "research/ecosystem-awareness/baseline/annexes/00G-HF-PUBLICATION-AUDIT-2026-10-01.json"
+  ],
+  "checks": {
+    "canonical_body_unchanged": true,
+    "causal_sections_unchanged": true,
+    "reduction_sections_unchanged_except_archived_execution_notice": true,
+    "frozen_package_paths_absent_from_change_set": true
+  },
+  "relative_links_checked": 423,
+  "source_sha256": {
+    "research/ecosystem-awareness/WORKPLAN.md": "094bf73c13e4f1639b5da791f6b0b9238d9b2c6764ba3fc58c20542c0edc8f02",
+    "research/ecosystem-awareness/baseline/README.md": "31d0a8d9f93e2fa1ffdc7fd337a0ac1e5cfc5f1b5a4b1bcf0c953609404a2002",
+    "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md": "39329735b68f94a3092bc78567464f733db1c585247d7228c458a1dfc30dcceb",
+    "research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md": "a89f2785354ddccf3174eca2e38519d87a130944c7b2d760539cddd141189d02",
+    "research/ecosystem-awareness/baseline/00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md": "d27af4b64bb1abc3fc4299f06a7614aac9891ef940d85a024216bc72cd4f757f",
+    "architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md": "03d763495fbb7645ea96140ba25f54763a2920aa5aa12522fe0bf03263627d4d"
+  },
+  "prepared_files_sha256": {
+    "research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md": "6c985fd25bf87d2abda4aa31c2f67be444c28de7017cf57085ca68698015ffd4",
+    "research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md": "7df74efb17d21de647b09d775404872a3c6c2edc73b329bb41a93efe5c18d40e",
+    "research/ecosystem-awareness/baseline/00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md": "1e9ba4f88ff9f33fad7721c2e2c6baba7237c83c9f46977611e9a33e57f82a6c",
+    "research/ecosystem-awareness/baseline/README.md": "2d7393af65de6e93e16942d326c902f3d36d1d41264d8df875b32a65de5ced5d",
+    "research/ecosystem-awareness/WORKPLAN.md": "0c91869de0f85011c0dcddfcb9504ffb79dc33b488592726bd9fd7bca9592d41",
+    "architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md": "27a5fafd4719735efd43a28c0f6374d99967c2e8bbea6e803d15e7a77cf281d6",
+    "research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md": "fe22c3c92ae4ec4adde9dfb3ad41a5f9893926de78897a50534569c73e00461e",
+    "research/ecosystem-awareness/baseline/00G_HF_ROADMAP_R123_EA_COMPOSITIONS_UC4_v0.1_DRAFT.md": "2aa8bcdbb822d84388bdfbf4cf3aa8b7f6c2261be57c14b19edf0a9493179440",
+    "research/ecosystem-awareness/baseline/annexes/00G-HF-PROBABILISTIC-R123-DESIGN-v0.1.md": "1724c2698c3f030f736f610f354c03816eae74665b02dc75412e5bf7a43f41a8",
+    "research/ecosystem-awareness/baseline/annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md": "f4a9f11bc0b7c5fb364400e804e1f03e0f2f49344c282e9441bc8f4c2bd20a88",
+    "research/ecosystem-awareness/baseline/annexes/00G-HF-NAVIGATION-ARCHIVE-2026-10-01.json": "e4071a435395784f740e15ceb9402ed75ee771e17565646df7c3f18c18cd70c5",
+    "research/ecosystem-awareness/baseline/annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md": "dbe27bee5fd35e4ec9514fdda23a6db9b62f8f614bb53df2fa40e952ca3c44f9"
+  },
+  "audit_self_hash": "omitted to avoid self-reference",
+  "remote_verification": "exact tree overlay must be checked before and after ref update"
+}
