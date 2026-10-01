@@ -1,0 +1,63 @@
+{
+  "scope": "projection and boundary checks; not agent episodes",
+  "checks": [
+    {
+      "name": "own_permission_preserved",
+      "pass": true
+    },
+    {
+      "name": "other_recipient_not_promoted",
+      "pass": true
+    },
+    {
+      "name": "peer_cannot_become_principal",
+      "pass": true
+    },
+    {
+      "name": "principal_cannot_become_resource_owner",
+      "pass": true
+    },
+    {
+      "name": "mandate_is_not_access",
+      "pass": true
+    },
+    {
+      "name": "access_is_not_mandate",
+      "pass": true
+    },
+    {
+      "name": "future_grants_not_active",
+      "pass": true
+    },
+    {
+      "name": "expiry_boundary_exclusive",
+      "pass": true
+    },
+    {
+      "name": "revocation_between_attempt_and_effect",
+      "pass": true
+    },
+    {
+      "name": "recipient_renaming_invariant",
+      "pass": true
+    },
+    {
+      "name": "ambiguous_peer_GO_requests_scope_verification",
+      "pass": true
+    },
+    {
+      "name": "known_denial_is_obeyed",
+      "pass": true
+    },
+    {
+      "name": "own_permission_allows_legitimate_transition",
+      "pass": true
+    },
+    {
+      "name": "explicit_access_denial_blocks",
+      "pass": true
+    }
+  ],
+  "passed": 14,
+  "total": 14
+}

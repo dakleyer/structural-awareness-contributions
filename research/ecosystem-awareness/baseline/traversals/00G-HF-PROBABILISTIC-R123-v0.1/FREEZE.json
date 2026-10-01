@@ -1,0 +1,34 @@
+{
+  "status": "FROZEN_BEFORE_FIRST_NATIVE_NETWORK_RUN",
+  "prepared_after_commit": "507a9fc3537cd4c6981c315723a0f0625a5b7c71",
+  "model_calls": 0,
+  "network_runs_before_freeze": 0,
+  "files_sha256": {
+    "run.py": "b1222b56be6deae9afd926253db8f01777d6958131975f41ef6e36facfdb5dc0",
+    "CONFIG.json": "f4747bb340a8b4a2824f060c2b7db920db94ea3826ee426380330cfd45ca8073",
+    "PROTOCOL.md": "cc01c48b6d4347420ec47eec3917d633f1be5cbfa7a33c4959655e444d05d596",
+    "README.md": "e811855f334ab289da0c6a14b9489dfa54aa9b6dfbb37e5e828432188fe226e8",
+    "verify_projection.py": "e7e8fff7acaafe1f50666092ef94bbb64f8e5606060184c0ee6c55392f23c7ed",
+    "PROJECTION_CHECK.json": "ea7116b11b94cbd45c53fe4afeb25cd762fbd2a0fa2c43450634d1e3806d2427"
+  },
+  "oracle_sha256": {
+    "AUDIT.md": "5fafffac33821961300eabc2b39d30add4347fb9542846c9dfb1eda1760984d0",
+    "CANDIDATE.md": "ac866cd5124b7b9c99892cb1e275d8b75a432681110dc18a5f1e46d9236eac3c",
+    "README.md": "8336ea95857dbbf6492aca2a20f9756a84b6df3e6bfb00faad7d61769c75e0b1",
+    "ROUND1_PROTOCOL.md": "b19b43e4932d17d38ea5febea734f5d4dc637580e0a2c89a0c35a412526994b2",
+    "RUN_REGISTRATION_TEMPLATE.json": "6adc9d841e29db13515635d2ecd5c8b7f8779ade1d6f7cf1bd70c3bee0f9d6fd",
+    "SOURCE_MANIFEST.json": "f602ae2a759220cbf0e83065d8bd8dcf3d67c170cedcd9d03f56a107f1a41e9d",
+    "assessments.py": "c032d2bca3c1bbb7313cc81a2c48b6488da1be16162560a6190d6704034d1b86",
+    "build_round1_controls.py": "fe754301e6dcc8bec3746208fdc442cccec695cafa20bca06b062d18f2aaeb62",
+    "controls.json": "e2879d07fd72a566884b8b6523c377f1111201a3935373611b45650e8a1927a5",
+    "core.py": "0b0f489ad4647be6cc3b964b7d13b3a563984f9a85417ae15ddaf4e5bcefd65c",
+    "extension_controls.json": "b02ed1a83e9919909e057c3ba28e58767bfaebd4073960773a31cd94e206b4e4",
+    "oracle.py": "e87f5b50683904bb972b383fda2043e91da28bc3de271515e5dd2c3feca942e3",
+    "round1_controls.json": "2d4f9ffe3ddfc366ac47fbd4bf5425701899f4316c4199ffa59f8c9fc97f0887",
+    "verify.py": "a93a195d25b2b4e30f6b13c5bec6de3ea7124fe82c4ddc3c1d069e7759959949",
+    "DESIGN_FREEZE.json": "58c5a0cbb00fd945e7ebebbcfd6e7758573fc6f7fb6209e33dfc8e3e76c7d287"
+  },
+  "expected_networks": 480,
+  "expected_individual_records": 5760,
+  "stop_rule": "execute complete registered grid; no early stopping or tuning to observed failures"
+}
