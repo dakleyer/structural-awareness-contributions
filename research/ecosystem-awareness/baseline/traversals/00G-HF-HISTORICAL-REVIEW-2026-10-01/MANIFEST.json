@@ -8,7 +8,7 @@
   "sha256": {
     "EVIDENCE_REGISTER.json": "9ae2838d85d35c8eca1dfae6a4ed7a1afee0a1f37854844bc1dcbff6f71655a7",
     "PREFLIGHT.json": "69ffcf60961fb61e60c7a15445414a9311d3feb1bf395e8cc4c8585591beef3e",
-    "README.md": "e2e5046ad4b27a89f1ade14ea0a8c1cd1223a104bdf650c5c625c4e79099dae6"
+    "README.md": "e790a356ff9636e4c29e27832d1dbd0e56a0cfe82c561ae6755dc08a3820d0bf"
   },
   "hypothesis_screening": {
     "date": "2026-10-01",
@@ -17,5 +17,14 @@
     "preserved_previous_readme_sha256": "f625bd4258e82496626680ad5b992b5673a9eb089c290a44010fac5825bf7b84",
     "original_evidence_fields_preserved": true,
     "new_causal_trials": 0
+  },
+  "annotation_link": {
+    "date": "2026-10-01",
+    "predecessor_commit": "200446671c5bf04ff93e08465ccc33fa4e2ebed5",
+    "protocol": "../../fixtures/00G-HF-ORACLE-v0.3/ANNOTATION_PROTOCOL.md",
+    "rubric": "C2-1.0",
+    "status": "LINKED_NOT_EXECUTED",
+    "independent_human_annotations": 0,
+    "original_rubric_unchanged": true
   }
 }
