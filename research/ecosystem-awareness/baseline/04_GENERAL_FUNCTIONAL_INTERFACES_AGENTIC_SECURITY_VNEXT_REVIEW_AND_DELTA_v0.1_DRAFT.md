@@ -377,3 +377,13 @@ The contract preserves the 176 reviewed input bullets across O1–O6 / IF-S1–I
 | **Profile and route conformance** | Review producer-owned meanings and, for implementations, exercise adapters for preservation, missingness, duplicates, time, versions and burden. | Illustrative mappings and analytical cases are not execution evidence. |
 
 **Disposition:** published working input-contract proposal and review starting point inside 04. The 04 v0.5 body and earlier controlled source semantics remain preserved. Publication adds this explicit delta and navigation; it is not promotion to an integrated successor, downstream adoption or closure of H06. The prior §10 determination is dated to 24 September and remains part of the review history.
+
+---
+
+## 12. Canonical A/B/C/D semantic reconciliation — 1 October 2026
+
+The new [00M semantic foundation](./00M_CANONICAL_ABCD_SEMANTICS_AND_REQUALIFICATION_FEASIBILITY_v0.1.md) defines A as the situated functional result; B as already-established support **and the known boundary/omitted part of a characterized population**, including only justified cost/risk estimates; C as the open potentially explorable frontier without an enumerated population or known full acquisition calculus; and D as the effective determination limit plus unenumerated residual. These are producer-process-relative components, not compulsory payload fields or four probabilities.
+
+**Required successor review in 04:** N04/Q5 and the 176-input decomposition presently classify a known available but deliberately unused route as C. This is not uniformly compatible with 00M: a characterized population, omission and defensible cost/risk basis belong in B, while an open search frontier belongs in C. Review every affected mapping by proposition and process rather than relabelling all omissions; preserve cases whose characterization is insufficient as UNKNOWN. Revise explanatory examples and input profiles accordingly. B's construct remains domain-native and may be part of functional A where the producer's contract makes it so.
+
+This issue is **open**. No new O#/IF-S# family is thereby required; no controlled 04 source or published v0.5 body has been silently replaced. H06 (metadata-only route versus uses requiring A), O2 expression and executed profile/route conformance remain independent open issues. A successor 04 is needed before claiming that its input contract implements the current canonical semantic foundation.

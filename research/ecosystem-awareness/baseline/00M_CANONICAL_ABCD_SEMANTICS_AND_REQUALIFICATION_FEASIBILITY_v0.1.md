@@ -1,0 +1,101 @@
+# 00M — A/B/C/D: Canonical Semantics and Feasibility of Scoped Requalification
+
+**Status:** canonical working semantic foundation, v0.1, 1 October 2026. This is the current proposed reading rule for new EA/EP work, not a revision of the controlled v0.4 sources, a production interface, an adopted standard or evidence of operational benefit. The reconciliation register in §7 identifies existing text that must be updated before a successor 04 input contract can claim conformance to this rule.
+
+**Place in the corpus:** read after [01 — Foundation](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and before [00 — Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), [03 — Functions](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) and [04 — Interfaces](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md). This page defines what the four components mean. Document 04 must separately define how a particular producer's existing information is classified, exchanged and tested; a common definition is not an adapter.
+
+## 1. The one question
+
+For a particular producer, functional process, decision scope and time: **what did the process establish, what can it already say about the limits of that result, what could further exploration reveal, and what remains outside its effective ability to determine?**
+
+These are four *components of one qualified position*, not four mutually exclusive bins for objects, four required message fields or four probabilities. Classification is relative to the producer's process and declared capability at that time. Another participant can legitimately have a different position about the same subject. An item about which neither the scope nor the capability boundary can yet be established stays **UNCLASSIFIED/UNKNOWN**; it is not forced into C or D.
+
+| Component | Canonical definition | Simple recognition test |
+|---|---|---|
+| **A — functional result** | What the process actually establishes or delivers for its declared subject, scope and time. Its domain-native confidence or interval can be part of A when that is part of the functional product. A is situated, not an unconditional assertion about the whole ecosystem. | Is this the result delivered to the process's operative consumer? |
+| **B — established qualification and known boundary of A** | What the process has *already established* about A's meaning, support, coverage, validity, uncertainty, and the known but unexamined part of a defined population or scope. When a defensible model exists, B can also record the estimated burden, margin, risk or opportunity cost of stopping at A. B does not require a number and cannot manufacture one without a basis. | Is the population/question sufficiently defined to state what was included, what was omitted and which estimates are justified? |
+| **C — open, potentially explorable frontier** | Recognition that further relevant questions, objects, sources or dependencies may become accessible through exploration with a plausible current capability, while their membership, extent, value or full acquisition cost has **not** been characterized in advance. Examples and an available way to start exploring may be stated; neither is an exhaustive catalogue or a promise of success. | Is there a plausible way to explore, but no sufficiently defined population and acquisition calculus of the kind used in B? |
+| **D — effective determination limit and open residual** | Recognized relevant dependencies or conditions whose effect the process cannot sufficiently determine within its present evidence, mandate, method and response horizon, together with the acknowledged unenumerated residual. Known examples do not exhaust D. Lack of power to *control* an otherwise well-characterized factor does not alone make that factor D. | Is the material effect beyond what this process can establish in the stated frame, or is the residual itself open as to its members? |
+
+**Boundary cases.** A known unmeasured remainder with a credible sampling/cost model is B even if the measurement was deliberately omitted. A known tool that could in principle be used does not alone prove that an open frontier has been characterized, or that its discoveries are certain. C is not the complement of the known population; D is not the complement of C. A producer may report B without C, a witnessed D without enumerating all of D, or only A. Silence and an empty list prove neither absence nor completeness.
+
+## 2. The cats: one example, four different statements
+
+The process counts seven cats in a particular room and delivers that count to its consumer: **A**. It knows the room's defined population or sampling frame, the unmeasured portion, and a justified estimate of what additional measurement would cost or how much uncertainty remains: **B**. If there is no defensible sampling model, B records the omission but **not** a fabricated error percentage. The same equipment could be taken outside to look for cats, yet the street's relevant population, search yield and total cost are not known: **C**. A materially relevant closed location, hidden movement or other condition whose effect this process cannot determine under its present access/method/horizon may be witnessed in **D**; the process cannot list the entire unknown residual.
+
+Two agents each saying “I could search street Z” have *not* jointly observed a street population. Their C declarations may justify inspecting an overlapping frontier if street Z matters to a receiving decision; they do not justify “there are probably many cats” without additional qualified evidence. If exploration discovers a bounded local population, that newly characterized portion can be B for a new position; measuring it produces a new A. The earlier positions remain correctly attributed to their earlier scopes and times.
+
+“Cats on street Z” and “birds on street Z” do not become the same proposition because their location matches. A receiving frame may legitimately group them as “fauna near street Z” **only if** the declared mapping preserves the broader meaning and does not infer an unsupported cat population from a bird-related limit.
+
+## 3. A small mathematical witness of possibility
+
+The open ecosystem Ω need not be an enumerable set. Consider only a finite batch of statements actually received and a focal decision frame `x` supplied by a legitimate objective/role/MSCA. A frame identifies enough of the **subject, proposition type, location or relationship, time horizon, version and material dependencies** to decide whether two statements could refer to the same decision-relevant matter. It does not prescribe one universal ontology or a global MSCA.
+
+For producer `i`, write its *conceptual* qualified record as
+
+```text
+q_i = (ref(A_i), frame_i, B_i, C_i, D_i, issuer_i, lineage_i, as_of_i).
+```
+
+`ref(A_i)` identifies which result is being qualified. It is not necessarily A's value and is **not a mandatory wire schema**. A metadata-only input route can omit that value; uses that actually require it need a separately justified route (the existing H06 issue in 04).
+
+A scope translation `u_i: frame_i ⇀ x` is **partial**: it is defined only when the receiving frame can legitimately interpret the producer's subject, type, scope, time and material qualifiers. An undefined translation means *incomparable or not yet established*, never “same subject by default.” For those records that do translate, a finite composition can:
+
+1. retain their separate B/C/D declarations and declared absence;
+2. match their shared scope or dependency without equating different propositions;
+3. identify common lineage so repetition is not counted as independent corroboration;
+4. preserve contradiction, compatibility loss and unclassified dependencies; and
+5. compare the qualified position with a prior position for **that same focal frame**.
+
+This is a **constructive existence witness**: finite typed records, partial translations, lineage tracking and bounded comparison admit a terminating implementation for a declared finite input and response budget. It does **not** claim a universal matching algorithm, a complete Ω, an optimal decision, a probability for C/D or positive net value in a deployment. On a given implementation, semantic mapping, privacy, metadata capture, adversarial sources and processing may cost more than the warning is worth.
+
+More explicitly, suppose each applicable profile provides a **decidable** partial compatibility test for the finite records at hand. Translate only those whose test succeeds; retain `NOT_ESTABLISHED` for the rest. Form a set of translated declarations keyed by source lineage, scope and version, preserving conflicting declarations as distinct members. For a declared materiality rule, inspect that finite set and emit either a scoped `REVIEW_WINDOW` candidate with its recorded basis or `NO_SUPPORTED_CANDIDATE/UNKNOWN`. This procedure terminates for the finite batch. Set union is idempotent (`Q ∪ Q = Q`), so forwarding the same lineage twice cannot create an additional independent source. Because the only generated conclusion is about **the need to review the frame**, and no rule converts a C/D declaration into an observation of A, the procedure cannot legitimately conclude that an unobserved population exists. These are properties of this *small construction under its stated assumptions*, not a theorem about every possible EA implementation. If comparability is undecidable or the relevant metadata are absent, the construction returns UNKNOWN rather than a fabricated match.
+
+One coherent mathematical toolbox is **contexts with partial maps and local qualified annotations**. Partial-map/restriction-category theory provides a formal account of translations that are not defined for every pair of frames. More advanced local-to-global tools can study compatibility where a common cover is actually declared; they are optional, and no global result follows merely from several local omissions. C is represented by a *capacity for open exploration and possible frame extension*, not by enumerating the unknown destination of every such extension. D is represented by a relative determination boundary or witnessed obstruction, not by a computable list of all inaccessible facts. Ordinary statistical models may be used *inside B* when their assumptions hold. This compact core does not require five separate uncertainty scores.
+
+## 4. What a requalification signal can and cannot say
+
+The focal MSCA supplies a bounded objective and control context; Ecosystem Cartography relates relevant MSCA frames; EA's F1/F2 qualify the decision-specific observation window `W(d,t)`. The MSCA does not itself own that window. Once received metadata are scoped and composed, EA can signal a **candidate for widening, narrowing, redirecting or revalidating that window**. The receiver decides, subject to its authority and contract, whether to acquire new evidence or change its functional result.
+
+Examples of valid signals are: “coverage of the present window weakened”; “several qualified declarations point to an overlapping, still uncharacterized frontier”; “source independence is not established”; “the current frame's required parameters are no longer available”; or “the declared direction of this *specific* metadata indicator changed.” Where a justified temporal comparison and meaning exist, a signal may include direction and strength. None by itself proves a change in physical risk, a hidden population, an actual regime transition or a recipient's required action.
+
+Reclassification is **relative to a new producer/receiver, capability, scope and time**:
+
+| Movement | What must change | What is **not** implied |
+|---|---|---|
+| `C → B` | Exploration establishes a bounded new question/population or a qualified estimate of its unexamined portion. | Every possibility in C has been found. |
+| `B → A` | The producer performs further determination and emits a new functional result. | EA itself performed that domain task. |
+| `D → C` | A new permissible pathway makes some formerly inaccessible aspect plausibly explorable. | All of D is now reachable. |
+| `D → B/A` | Another capable participant or a newly equipped process supplies qualified information or a result for that aspect. | The original producer's own D has disappeared. |
+
+Narrowing a window may instead make an unresolved aspect *irrelevant to this decision* without turning it into knowledge. Widening is not automatically beneficial: exploration consumes capacity, latency, privacy and attention. Retain the old qualified record and version the new one; requalification does not rewrite history.
+
+**Context versus regime.** A change in the amount or structure of received metadata can justify requalification of the *epistemic context*. A statement that the observable operating **regime** departed needs a qualified baseline/observation comparison from Regime Awareness or an equivalent declared test. “The frame is no longer established” and “a regime change has been detected” are different outputs. The [EA–RA annex](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) retains that boundary.
+
+## 5. Why a machine can use this without doing every producer's work
+
+The implementable minimum is a typed comparison, not a reconstruction of hidden state: event or class link; producer and qualifier author; subject and scope reference; time and version; semantic profile; source lineage or UNKNOWN; and **whatever** already-produced B/C/D declarations are material. Some producers will not emit them. The receiving system records missingness rather than silently inventing a classification. A producer's confidence included in functional A must not be relabelled as B merely to satisfy an interface.
+
+Composition needs a declared compatibility mapping and an explicit outcome such as `COMPATIBLE`, `CONFLICT`, `INCOMPARABLE` or `NOT_ESTABLISHED`, each with its basis. Even `COMPATIBLE` means that the declarations *may be read together for that frame*, not that they are true or independent. A received C-only opportunity can support an invitation to inspect, but not a population estimate. F5/F6/F7/F8 in [03](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part02.md) respectively compose, assess frame sufficiency, select bounded requalification and expose a recipient-appropriate statement. [04](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) owns the eventual interface and producer-specific classification rules, not this page.
+
+## 6. Mathematical and empirical claim boundary
+
+This note offers a **finite constructive witness** for scope-qualified metadata comparison and bounded requalification signals. It is possible to specify machine-checkable invariants: undefined scope matches never become corroboration; common lineage is not counted twice; C/D declarations never become observed A merely through aggregation; loss of required qualifiers weakens, rather than strengthens, the receiver's claim. A later formal paper can state and prove these for an explicit algebra and profile class. It cannot prove from the definitions that any particular alert is useful, that a C frontier contains a target, or that the design outperforms a strong conventional system.
+
+The engineering claim needs independent scenarios and matched alternatives measuring semantic mapping error, false alerts, missed material change, latency, privacy/communication burden, and decision value **net of metadata acquisition and composition cost**. The current [00D benchmark](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) supplies the comparison discipline; it does not establish that this new semantic profile is implemented or beneficial.
+
+**Mathematical starting points, not EA validations:** Cockett and Lack, [*Restriction categories I: categories of partial maps*](https://pages.cpsc.ucalgary.ca/~robin/FMCS/FMCS_06/RestrictionsI.pdf); Halpern and Rêgo, [*Reasoning About Knowledge of Unawareness Revisited*](https://arxiv.org/abs/0906.4321); Holliday, [*A partial-state space model of unawareness*](https://arxiv.org/abs/2412.00897); Green, Karvounarakis and Tannen, [*Provenance Semirings*](https://repository.upenn.edu/bitstreams/b598c0a7-0d24-4162-8279-5f51a17d29c2/download). The latter two supply alternative representation/provenance techniques; none proves the full EA pipeline.
+
+## 7. Reconciliation register for current source documents
+
+This is a **substantive semantic change**, not a claim that all published texts already agree. The reading rule here governs newly authored work; existing frozen wording remains its own dated source until a governed successor is published.
+
+| Current source | Existing reading and necessary successor work |
+|---|---|
+| [01 v0.5](./01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), [02 v0.4](./02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md), [03 v0.4](./03_FUNCTIONAL_ARCHITECTURE_v0.4.part01.md) | The coarse “A determined / B defined in-window indeterminacy / C potentially knowable / D residual” lineage supports B's known boundary and C's openness. Preserve frozen prose; make explicit in future successors that A is the *functional result*, B includes already-established support/known omission, and no 25/25/25/25 partition is implied. |
+| [02B syntactic closure](./02B_FOUNDATIONAL_SYNTAX_CLOSURE_AND_P1_P6_NORMAL_FORM_PROOF_v0.1.md) and its [02A companion](./02A_FOUNDATION_TO_OPERATIONAL_PRINCIPLE_DERIVATION_PROOF_v0.1.md) | Their proof basis uses the earlier four-**pole** grammar, including B as unresolved in-window and C as potentially knowable out-of-window. The conclusion is *relative to that stated grammar*; it is not automatically a proof of closure for the new four-component semantics. Audit its normal forms and downstream P1–P6 claims before transferring any formal result. |
+| [00 Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md), [04 v0.5](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md), [01J signalling](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) | Their later shorthand makes B mainly “confidence/intensity” and C a recognized current-capability frontier. Read B as *qualified support plus known boundary*; do not reduce it to one confidence scalar. The topology routes to this foundation; future interface/signalling successors must adopt the same scope-relative definitions. |
+| [04 input contract v0.4](./04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md) | Its N04/Q5 currently put a **known, available but deliberately unexamined route** in C. Where the population, exclusion and credible cost/risk are already characterized, that is B under this foundation. A genuinely open exploration remains C. Reclassify the affected examples and 176 mappings case by case; do not bulk relabel merely from the word “omitted.” The metadata-only A boundary and H06 remain separate open issues. |
+| [MSCA Cartography](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md), [RA delta](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md), [MSCA Operation](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) | Cartographic and regime-specific A/B/C/D are applications **relative to their own functional process**, not new definitions of the letters. Their C examples, B qualification and D residual need profile-level review against this foundation; RA direction is a regime-qualified output, not a claim inferred from coincident blind spots. |
+
+No current 04 baseline, controlled freeze or external programme specification is silently superseded. A successor 04 must settle producer-profile classification, receiver-side transformations, source dependence, the metadata-only A/H06 boundary and conformance tests explicitly.
