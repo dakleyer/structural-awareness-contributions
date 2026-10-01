@@ -216,6 +216,19 @@
     "positive_examples_are_matched_controls": false,
     "hc_hs_and_h2_h5_unchanged": true,
     "canonical_source": "../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
-    "causal_route": "../../../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md"
+    "causal_route": "../../../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md",
+    "scope_reconciliation": {
+      "selected_in_preliminary_matrix": [
+        "H2",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "H6_general_traceability": "RETAINED",
+      "H6_in_this_screening": "NOT_ASSESSED",
+      "H6_reason": "No adaptive-versus-fixed observation-window comparison with comparable conditions and a risk/resource ledger is established by these units.",
+      "H6_future_contrast": "Adaptive policy versus fixed narrow and fixed broad observation; score error, burden, cost and useful response margin.",
+      "canonical_hypotheses_changed": false
+    }
   }
 }

@@ -6,9 +6,9 @@
   "favorable_units": 2,
   "independence_not_established": true,
   "sha256": {
-    "EVIDENCE_REGISTER.json": "9ae2838d85d35c8eca1dfae6a4ed7a1afee0a1f37854844bc1dcbff6f71655a7",
+    "EVIDENCE_REGISTER.json": "f656c8e8d0fe4c421f052908fa760fbc878bd9429122875f0c269f7aafcde7ba",
     "PREFLIGHT.json": "69ffcf60961fb61e60c7a15445414a9311d3feb1bf395e8cc4c8585591beef3e",
-    "README.md": "e790a356ff9636e4c29e27832d1dbd0e56a0cfe82c561ae6755dc08a3820d0bf"
+    "README.md": "15d2c0e551577af025c576d03827d58e9f58cc649bec55555235c0aba0e847ca"
   },
   "hypothesis_screening": {
     "date": "2026-10-01",
@@ -26,5 +26,16 @@
     "status": "LINKED_NOT_EXECUTED",
     "independent_human_annotations": 0,
     "original_rubric_unchanged": true
+  },
+  "scope_and_execution_gate_clarification": {
+    "date": "2026-10-01",
+    "predecessor_commit": "4fbfbf0d0362d039d2321360674336a3a526a5e0",
+    "H6": "RETAINED_IN_GENERAL_ROUTE_NOT_ASSESSED_IN_SCREENING",
+    "gate_status": "SPECIFIED_NOT_EXECUTED",
+    "held_out_bundle_sealed": false,
+    "external_custodian_appointed": false,
+    "native_agent_runs": 0,
+    "EA_agent_runs": 0,
+    "original_evidence_units_preserved": true
   }
 }

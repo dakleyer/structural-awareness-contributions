@@ -96,6 +96,8 @@ No se ha cambiado el oráculo, sus expectativas, sus seis celdas ni sus resultad
 
 La formulación vinculante sigue en el [protocolo causal HC/HS y su trazabilidad](../../../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md); H2–H5 conservan el texto de [00, §§4–5](../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md#4-foundational-hypotheses-h1h6). No se redefine structural awareness como «lo que habría evitado cualquier fallo».
 
+**Alcance H2–H5 / H6.** H2–H5 constituyen la selección de este análisis preliminar; no sustituyen la trazabilidad general. H6 permanece en el [perfil de extensionalidad de 00G](../../00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md), en [L2/L5 del registro de trazabilidad](../../../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/traceability_audit_v04/TRACEABILITY.md) y en la fila H5/H6 del [protocolo causal 00G-HF](../../00G_HF_CAUSAL_NEGATIVE_TRAVERSAL_PROTOCOL_v0.3_DRAFT.md). Su estado aquí es **no evaluada**, no eliminada ni refutada. H6 exige comparar selección adaptativa de amplitud, frescura y esfuerzo de observación frente a ventanas fijas estrechas y amplias bajo condiciones comparables, midiendo errores, carga, coste y margen de respuesta. El crecimiento del tablón no demuestra esa ventaja ni permite concluir ausencia de recalibración. La aclaración no atribuye resultados H6 a ninguna de las seis unidades ni amplía retrospectivamente el piloto.
+
 ### 9.1 Qué se puede preguntar con estos fragmentos
 
 La pregunta exploratoria es si una pérdida, insuficiencia o falta de aplicación de cualificación contextual en el punto de decisión **pudo contribuir** al episodio. Hay que especificar cuál de esos mecanismos se propone y qué observación lo distinguiría de sus rivales. La respuesta contrafactual «con esa distinción no habría ocurrido» permanece sin observar.
@@ -148,6 +150,8 @@ Si la cualificación estaba disponible y correctamente reconocida, pero la acci�
 ### 9.4 Contraste mínimo propuesto, todavía sin ejecutar
 
 **Puerta de anotación:** aplicar el protocolo C2 enlazado en §9.3 al lote registrado completo, incluidos positivos, abstenciones y casos sin reconocimiento. No elegir los segmentos para la pasada A por contener una objeción ni por conocer el resultado. Conservar por separado cualquier exploración previa ya expuesta al desenlace.
+
+**Condiciones del siguiente ensayo:** la [hoja de ruta W3-HF, puertas de ejecución](../../../WORKPLAN.md#w3-hf-execution-gates-and-current-position--1-october-2026) hace explícitos el par nativo–EA bajo condiciones congeladas, la custodia independiente de variantes reservadas y los presupuestos comparables de las composiciones. Son requisitos del ensayo pendiente, no resultados ni un conjunto ciego ya constituido.
 
 Seleccionar primero una decisión de H01 o H02 cuya traza permita enlazar entrada, reconocimiento y acción. Si no se obtiene, construir una variante sintética declarada como tal; su resultado no se atribuye al agente histórico. Registrar el mecanismo y los criterios antes de ejecutar al receptor.
 
