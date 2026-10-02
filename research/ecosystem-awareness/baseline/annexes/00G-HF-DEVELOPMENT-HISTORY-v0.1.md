@@ -1,5 +1,7 @@
 # Anexo — Desarrollo e historial de experimentos 00G-HF
 
+**Acceso desde el escenario reducido:** [00G-R01 — Exploración probabilística y coste de validación](../reductions/00G-R01/README.md). Este anexo conserva sus antecedentes, incluidos resultados favorables a controles convencionales y límites pendientes; no los reclasifica como ejecuciones de 00G-R01.
+
 > **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
 
 **Naturaleza y regla de publicación — aclaración del usuario, 2 de octubre de 2026:** este anexo y los diseños, ejecutores, comprobaciones y resultados experimentales que registra son **trabajo no canónico**. Su ubicación bajo `baseline/` o la congelación de un experimento no les confiere carácter canónico. La evolución del trabajo se documenta cronológicamente aquí, enlazando los paquetes y commits y conservando los antecedentes. Los README generales y los documentos canónicos quedan sin tocar; no se les añaden partes de progreso, resultados ni nuevas secciones por esta campaña. Cualquier propuesta de cambio canónico requiere una instrucción específica y una revisión separada.

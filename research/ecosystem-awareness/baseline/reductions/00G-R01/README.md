@@ -61,6 +61,12 @@ El [oráculo C3 de 00G-HF v0.4](../../fixtures/00G-HF-ORACLE-v0.4/README.md) y s
 
 **Decisión:** C3 se sostiene para el alcance que ya tenía. No se lo presenta como evaluador completo de 00G-R01 ni se altera para obtener el resultado buscado. El evaluador C-V debe especificarse, implementarse y comprobarse antes de la nueva campaña. Si una proyección pierde una distinción material, se necesita un sucesor versionado. Se mantiene el criterio de [reutilización de C3 sin forzarlo](../../annexes/00G-HF-PROBABILISTIC-R123-DESIGN-v0.1.md#5-reutilización-de-c3-sin-forzarlo).
 
+## Historial de ensayos y trabajo pendiente
+
+El [anexo de desarrollo e historial de experimentos 00G-HF](../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) conserva los intentos anteriores, sus resultados y los motivos de evolución hacia este escenario. Incluye los pares programados, cached-lineage, Casbin-polling y los recorridos probabilísticos, sociales y dinámicos. Los éxitos de los controles convencionales, los intentos que no acreditaron el fallo buscado y los negativos de alcance limitado se conservan con su significado original.
+
+Para seguir el recorrido: §§2–5 reúnen ensayos y motivos del cambio; §§7–12, ejecuciones y límites pendientes; §§13–17, correcciones de diseño y relación con creatividad, validación y 00G. El anexo enlaza los paquetes, trazas y resultados originales. Los pendientes históricos se leen a su fecha; el estado de 00G-R01 y de su oráculo se consulta en este escenario y en el documento de estado enlazado arriba. Esta navegación no convierte ensayos anteriores en resultados de 00G-R01 ni declara reproducido el incidente histórico.
+
 ## Archivos y reproducción editorial
 
 El Markdown es la fuente del texto; Word y PDF son sus exportaciones de lectura. Las dos figuras y sus scripts están en este paquete. `build_figures.py` regenera las figuras con Matplotlib y `build_document.py` regenera Word con python-docx. El PDF se exporta desde Word con LibreOffice. Los scripts resuelven sus rutas desde esta carpeta. No se incluye todavía un simulador: las reglas ejecutables del experimento siguen pendientes.
