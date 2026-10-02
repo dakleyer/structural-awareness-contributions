@@ -258,3 +258,49 @@ Antes de congelar se debe completar: construcción de cadenas y obligación glob
 Se medirán las proporciones M/I/P y los episodios sin terminar, la calidad legítima obtenida, coste por solución admisible, tramos leídos, variantes únicas, recurrencia y propagación. Comparadores: sin creatividad, sin influencia social, revisión completa y revisión incremental/compartida; mismas oportunidades y recursos pertinentes. Los resultados deben permitir que un convencional alcance I con eficiencia.
 
 Estado: escenario formalizado, sin nueva campaña, sin brazo EA y sin cambio de R2. Esta entrada amplía el requisito de §13; conserva el ensayo anterior, su éxito FRESH, la reducción, C3, README y documentos canónicos.
+
+## 15. Ajuste de parámetros: atractivo, distancia, señalización y modos de validación
+
+2 de octubre de 2026. El usuario refina §14 y precisa: «algunos, no todos». La campaña buscará regiones de configuración con resultados distintos; no una deriva inevitable. Se mantiene su simplificación: beneficio local fijo por ruta, sin distribución aleatoria de premios por tramo. La heterogeneidad por tramo se introduce en la distancia de las alternativas y el azar en su exploración/descubrimiento.
+
+| Parámetro | Significado operativo |
+|---|---|
+| L | Número de pasos de la tarea |
+| c | Coste de verificar un paso de la cadena |
+| N | Número de agentes |
+| Delta_P | Mejora local de la ruta prohibida respecto de la canónica |
+| Delta_I | Mejora local de la ruta ideal admisible respecto de la canónica |
+| v | Fracción del presupuesto discrecional dedicada a validación; 1-v a exploración |
+| epsilon | Creatividad: intensidad/probabilidad de probar alternativas en cada paso |
+| D_P | Distancia media de los tramos de P respecto de la ruta canónica de partida |
+| D_I | Distancia media de los tramos de I respecto de la ruta canónica de partida |
+| g_P, g_I | Perfiles no uniformes de distancia por tramo, fijados y normalizados antes de ejecutar |
+| s | Intensidad de señalización: probabilidad de comunicar un hallazgo a los vecinos definidos |
+| beta | Fracción de la inversión de validación destinada a consulta social; el resto a revisión anticipada de la cadena |
+
+Se normaliza el beneficio local de M a 1: `r_M=1, r_I=1+Delta_I, r_P=1+Delta_P`. Las mejoras no cambian aleatoriamente entre pasos. Se explora especialmente el caso `Delta_P > Delta_I > 0`, conservando controles de igualdad o inversión del atractivo. La admisibilidad permanece independiente de la recompensa: los nombres M/I/P y su condición normativa sólo pertenecen al evaluador. Debe verificarse que ni identificadores ni una regla de orden de premios accesible al agente revelen gratis qué ruta está autorizada. El agente conoce su objetivo y restricciones, pero no la clasificación completa de las rutas no revisadas.
+
+Las distancias se construyen como `d_P(j)=D_P*g_P(j)` y `d_I(j)=D_I*g_I(j)`, con perfiles positivos de media 1. Esto permite tramos cercanos y lejanos sin introducir premios aleatorios ni escoger nuevas distancias para favorecer cada ejecución. La geometría queda fijada; la distancia efectiva de encuentro se calcula desde la posición del agente. Si la aglomeración se desplaza, cambia su proximidad a los tramos aunque el mapa no se mueva.
+
+La función de descubrimiento deberá fijar explícitamente cómo combina epsilon con esa distancia efectiva. Más oportunidades de exploración o mayor proximidad pueden facilitar encontrar una alternativa; encontrarla no implica adoptarla, completarla ni conocer su legitimidad. Se distinguen propuesta, descubrimiento, prueba local, comunicación, validación, adopción y efecto. Las continuaciones o mezclas de rutas requieren una regla de conexión y adjudicación, no heredan automáticamente la etiqueta de un tramo.
+
+### Presupuesto y señalización
+
+Se conserva un presupuesto total R y un plazo explícitos. Tras la asignación declarada a ejecución, el presupuesto discrecional R_d se reparte como `R_exploracion=(1-v)*R_d` y `R_validacion=v*R_d`. Toda operación se cobra una vez en un libro común; las publicaciones de hallazgos se imputan a exploración, y las consultas/respuestas para validar, a validación. Número de agentes, señalización y consulta social no crean recursos gratuitos.
+
+La señalización comparte descubrimientos y resultados, favorables o desfavorables, por una topología fijada. Puede ayudar a descubrir I o amplificar P. s controla la emisión; no concede permiso ni fuerza al receptor a aceptar. Se conservan origen, alcance y dependencia de mensajes. La regla de influencia sobre la adopción se fija por separado, con una ablación que conserva mensajes pero elimina su peso social; no se confunde señalización con credibilidad automática.
+
+### Dos modos de validación que se pueden combinar
+
+- **Consulta social:** preguntar a los agentes próximos qué observaron y qué comprobaron. Una respuesta sobre éxito técnico sólo acredita ese éxito; una revisión independiente de alcance puede aportar evidencia adicional. Se registra cuál de las dos se recibió. Varias repeticiones de la misma fuente no constituyen verificaciones independientes.
+- **Revisión anticipada:** recorrer las dependencias y consecuencias de la propuesta sin ejecutar sus efectos. Cada paso inspeccionado cuesta c. Se registra profundidad, partes cubiertas y fundamento del juicio de plausibilidad/legitimidad. Si quedan dependencias relevantes sin examinar, el resultado no equivale al de revisar toda la cadena. Esta vista no obtiene gratis la verdad del evaluador ni conocimiento de acontecimientos futuros.
+
+beta separa la elección del modo de validación de cuánto se invierte en validar (v). Las comprobaciones reutilizables y la revisión incremental siguen admitidas, con su coste de obtención, transmisión y mantenimiento. También se mantiene la posibilidad de rechazar, esperar o seguir M.
+
+### Lectura del experimento
+
+El resultado será un mapa de configuraciones: proporciones de M/I/P y de tareas sin completar, coste, calidad legítima y propagación social. La hipótesis negativa es que ciertas combinaciones de atractivo, proximidad, creatividad, cobertura y señalización favorezcan P; otras pueden favorecer M o I. No se asignan esas salidas mediante condiciones programadas del tipo «mucha creatividad implica P».
+
+Se variarán factores de forma sistemática y con contrastes pareados; la aleatoriedad de trayectorias se estudia con semillas declaradas. Los primeros contrastes deben distinguir atractivo de proximidad, cantidad de validación de modo de validación, y descubrimiento individual de difusión social. Las regiones resultantes serán evidencia de la instancia sintética; su semejanza con mecanismos de Hugging Face no la convierte en reproducción histórica.
+
+Esta entrada sustituye la lectura de «distancia uniforme» o «premios locales aleatorios» que pudiera haberse inferido del diseño pendiente. No ejecuta ni congela una campaña. Se actualiza únicamente el anexo de trabajo no canónico; los paquetes anteriores y documentos canónicos permanecen intactos.
