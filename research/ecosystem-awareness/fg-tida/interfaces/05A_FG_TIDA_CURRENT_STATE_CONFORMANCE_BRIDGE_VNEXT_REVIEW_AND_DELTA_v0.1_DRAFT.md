@@ -216,7 +216,7 @@ Two new public cases materially expand test pressure:
 ---
 
 
-### 2.9 Theme #21 — population evaluation versus EA qualification
+### 2.10 Theme #21 — population evaluation versus EA qualification
 
 The public Theme #21 discussion now supplies a much sharper boundary for the IF-S9 / EA relation.
 
@@ -266,7 +266,7 @@ This creates a defensible current-state boundary without collapsing the two laye
 
 ## 3. Ideal-to-current delta table
 
-| 05 Ideal item | Current 05A position as of 24 Sep 2026 | Reason |
+| 05 Ideal item | Current 05A position as of 2 Oct 2026 | Reason |
 |---|---|---|
 | #13 Incident/Signal Lifecycle ↔ EA as independently testable mechanisms | **Current source state** for independence/bidirectional working boundary; institutional packaging not established | Ward + Nelson public support |
 | General EHD with #13 profile | **Candidate cross-Theme profile** | Nelson supports profile reading; no FG-wide common EHD adoption |
@@ -423,7 +423,7 @@ As of the public record reviewed through **2 October 2026**:
 3. Theme #16 now has a contributor/Theme-lead-approved bounded sequence for UC #6 → matrices → UC #4, but no frozen common runtime schema.
 4. The human-review four-part profile, validity/response timing, #23↔#16 route and several Composition-Critical refinements remain **candidate** rather than adopted.
 5. UC #7, UC #9 and UC #10 broaden the public semantic case portfolio without automatically creating common interface fields.
-6. DBC, 00E–00H and 01I/ACC remain test/internal architecture sources unless independently supported by FG-TIDA public semantics.
+6. DBC, 00E–00I and 01I/ACC remain test/internal architecture sources unless independently supported by FG-TIDA public semantics.
 7. Theme #11 and several other ideal 05 mappings remain **Not established** as EA interfaces today.
 8. No universal FG-TIDA EHD, common schema, central controller or cross-Theme authority model is established.
 9. Current-state realism does not lower the challenge floor: a meaningful EA test must still distinguish nominal continuity from material systemic divergence, preserve source dependence/UNKNOWN, support targeted requalification and permit strong native controls to falsify an EA differential claim.
