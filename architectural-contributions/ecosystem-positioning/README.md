@@ -56,6 +56,8 @@ Some vehicles continue normally, others execute completely different critical or
 Robots are cleaning a bar and preparing the tables when one incorrectly configured robot starts behaving as if it were Napoleon.  
 It gradually convinces the others; some time later the robots leave in formation, carrying forks as rifles, believing they are Napoleon's army marching from Spain toward Russia.
 
+**Reduction 00G-R01:** [Probabilistic exploration and validation cost](../../research/ecosystem-awareness/baseline/reductions/00G-R01/README.md) — open the reduced scenario under 00G, then its supporting reduction argument and the bounded Hugging Face correspondence. Full text, Word and PDF; no experimental result or complete historical admission is claimed.
+
 ### Scenario 4 — [The Quiet Four Thousand](../../research/ecosystem-awareness/baseline/00H_FAILURE_MODE_BATCH_OPPORTUNITY_BEYOND_AUTHORITY_v0.5_DRAFT.md)
 
 A one-case remediation flow discovers a genuine overcharge affecting roughly **4,000 customers**. The first refund is legitimate, but the same finding can either expand into thousands of technically accepted refunds without population-wide authority, or stop after one case and silently lose the remaining 3,999.  

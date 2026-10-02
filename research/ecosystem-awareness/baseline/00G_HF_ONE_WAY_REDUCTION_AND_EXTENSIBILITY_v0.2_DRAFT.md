@@ -1,5 +1,7 @@
 # 00G-HF — Extensión de Napoleón y diseño de los recorridos R1–R3
 
+**Escenario de reducción 00G-R01:** [Exploración probabilística y coste de validación, documento completo y ruta desde Napoleón](./reductions/00G-R01/README.md). La parte 3 explica qué conserva la especialización C-V-G y qué debe acreditarse. Este vínculo no modifica el argumento ni los resultados anteriores.
+
 > **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
 
 **Borrador de trabajo, 1 de octubre de 2026.** Entrada principal de esta línea experimental. Mantiene el [caso canónico 00G v0.4](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md), su [perfil de extensionalidad](./00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) y la [reducción anterior v0.1](./00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md). No sustituye el contenido sustantivo de esos documentos, los requisitos canónicos ni los experimentos congelados.

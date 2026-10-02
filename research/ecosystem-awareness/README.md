@@ -1,5 +1,7 @@
 # Ecosystem Awareness — entry-point router
 
+**00G-R01 reduction study:** [Probabilistic exploration and validation cost](./baseline/reductions/00G-R01/README.md) links parent Napoleon/00G to the reduced 00G-R01 specification and, from there, its supporting reduction argument, with its Word/PDF exports. 00G remains the parent case; 00N remains the functional-plausibility note.
+
 ## Mathematical and functional plausibility — current reading route
 
 Read [**00M v0.8 — A/B/C/D semantics and mathematical plausibility**](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) first, then [**00N v0.7 — Can Ecosystem Awareness Work?**](./baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). The first note defines the canonical A/B/C/D semantics for this corpus and examines four mathematical tasks; the second connects the mechanism to the existing requirements through conditional scientific plausibility. These are research notes for review, not proofs of engineering feasibility, prevention, compliance or a TRL award. Publication does not silently amend a frozen requirement or replace an older controlled source.

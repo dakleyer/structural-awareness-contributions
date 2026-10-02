@@ -1,5 +1,7 @@
 # 00G-HF — Reducción unidireccional del escenario Napoleón hacia OpenAI / Hugging Face
 
+**Escenario de reducción 00G-R01:** [Exploración probabilística y coste de validación, documento completo y ruta desde Napoleón](./reductions/00G-R01/README.md). La parte 3 explica qué conserva la especialización C-V-G y qué debe acreditarse. Este vínculo no modifica el argumento ni los resultados anteriores.
+
 [README canónico de Ecosystem Positioning](../../../architectural-contributions/ecosystem-positioning/README.md) → [00G, escenario padre](./00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) → **esta reducción candidata**
 
 **Estado:** borrador técnico para revisión, 1 de octubre de 2026. **Caso padre:** 00G, convergencia colectiva hacia un contexto falso, rama F. En el corpus, **00F designa el caso de movilidad urbana**; la letra F de este documento es la rama falsa de 00G. El incidente histórico no fue una prueba de EA y esta propuesta no informa una ejecución, prevención, equivalencia bidireccional ni superioridad frente a controles existentes.
