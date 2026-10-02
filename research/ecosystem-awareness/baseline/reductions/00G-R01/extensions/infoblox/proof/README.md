@@ -4,6 +4,8 @@
 
 Este paquete comprueba un modelo sintético exacto con la biblioteca estándar de Python 3. No utiliza red, credenciales, APIs de Infoblox, tráfico DNS, criptografía ni agentes LLM.
 
+**Procedimiento común:** desde `00G-R01/`, ejecutar `python3 extensions/verify_audit.py --verify`. Recalcula las tres comprobaciones en carpetas temporales, compara los informes registrados y verifica huellas textuales. [Criterios y alcance](../../CRITERIA_AND_AUDIT.md) · [Guía común desde R01](../../../README.md#reproducción-conjunta-de-las-comprobaciones).
+
 Desde esta carpeta:
 
 ```sh

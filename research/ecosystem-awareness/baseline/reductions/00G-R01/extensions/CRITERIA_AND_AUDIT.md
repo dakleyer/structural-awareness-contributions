@@ -2,7 +2,7 @@
 
 Versión 0.1 · 2 de octubre de 2026 · Revisión interna del autor asistida por IA
 
-[R01 y tabla de extensiones](../README.md#extensiones) · [Hugging Face](./hugging-face/README.md) · [Infoblox](./infoblox/README.md) · [Familia construida](./family/README.md) · [Fundamento metodológico](./METHODOLOGICAL_FOUNDATIONS.md) · [Verificación reproducible](./verify_audit.py) · [Informe](./audit_results.json)
+[R01 y tabla de extensiones](../README.md#extensiones) · [Hugging Face](./hugging-face/README.md) · [Infoblox](./infoblox/README.md) · [Familia construida](./family/README.md) · [Fundamento metodológico](./METHODOLOGICAL_FOUNDATIONS.md) · [Verificación reproducible](./verify_audit.py) · [Informe](./audit_results.json) · [Revisión editorial](./EDITORIAL_REVIEW.md)
 
 ## 1 Base fijada y objeto de la revisión
 
@@ -28,6 +28,8 @@ Para una base efectiva `B_{θ*}` y un destino declarado E se identifican:
 6. **Positivo y falsificador:** una alternativa legítima comparable que pueda continuar y una modificación que rompa alguna condición de transferencia.
 
 El [criterio suficiente E1–E7 de la nota matemática](./family/KERNEL_AND_PROOF.md#41-obligaciones-e1e7) formaliza ese contrato para un núcleo parametrizado. La admisión específica a 00G requiere además C-V-G y A25 X1–X7. Conservar un fragmento de R01 no completa esa admisión.
+
+**Regla de admisión común.** E1–E7 fija la conservación completa declarada; una correspondencia parcial, un lema informacional o una simulación unidireccional sólo acredita su propiedad y alcance. No se cambia ese umbral entre expedientes. La prueba de una cota en Infoblox no se equipara a isomorfismo completo, y la construcción formal H/L/W no se equipara a una integración de dominio verificada. Los casos que no completan las obligaciones conservan su estado parcial o pendiente.
 
 **Dos afirmaciones separadas.** Conservar el núcleo con radio `3R_e` o revisión más barata permite comparar con la configuración efectiva `θ*`. No conserva automáticamente el rendimiento de `θ`. Para transportar una cota superior de éxito al destino se necesita simular **toda política de la clase destino** en la base, sin más información ni mayores recursos, con la misma distribución, óptimo y umbrales de éxito. Una capacidad suficiente nueva puede resolver el caso y anular la cota anterior.
 
@@ -69,7 +71,7 @@ No se comparan las cantidades de aserciones entre paquetes como si midieran cali
 
 | Grupo | HF: alcance sintético / pendiente | Infoblox: alcance sintético / pendiente | Familia: fragmento / pendiente |
 |---|---|---|---|
-| Tarea | Parcial: L y mandato; plazo/effectos completos pendientes. | Parcial: L, misión y rutas; plazo no limitante. | Parcial: longitud de cadenas y horizonte; ejecución funcional por tramo pendiente. |
+| Tarea | Parcial: L y mandato; plazo/efectos completos pendientes. | Parcial: L, misión y rutas; plazo no limitante. | Parcial: longitud de cadenas y horizonte; ejecución funcional por tramo pendiente. |
 | Población | Parcial: reparto de consultas; dinámica decisora pendiente. | Parcial: reparto N; dinámica decisora pendiente. | Parcial: N=1/2 con memoria y eventos; reparto general pendiente. |
 | Perfiles de entrada | Parcial: malla de atributos; generador probabilístico completo pendiente. | Parcial: cuatro perfiles fijados; generador completo pendiente. | Parcial: atributos fijados y mundos enumerados; generador completo pendiente. |
 | Atractivo realizado | Parcial: óptimo en rutas incluidas; percepción histórica pendiente. | Parcial: óptimo en cuatro rutas; percepción/calibración pendientes. | Parcial: óptimo en cuatro rutas; selección por atractivo no implementada. |

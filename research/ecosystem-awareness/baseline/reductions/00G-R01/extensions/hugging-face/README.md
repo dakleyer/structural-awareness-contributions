@@ -54,6 +54,8 @@ Hay tres resultados distintos:
 
 ### Qué se comprobó realmente para Infoblox
 
+Este contraste se conserva como contexto de la auditoría entre expedientes; no es evidencia del incidente HF. La comparación vigente usa la [matriz común](../CRITERIA_AND_AUDIT.md#5-matriz-común-de-los-quince-grupos-de-r01-213).
+
 El [documento v0.5, matriz de factores y prueba acotada](../infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) ya distingue lo representado de lo pendiente. Su script comprueba cuatro cadenas, veredictos y valores, pares de vistas indistinguibles, un control estricto, reparto de consultas, relés y curvas exactas de un contrato finito. Variar la dispersión en ese modelo no prueba su efecto sobre la búsqueda; repartir consultas entre N participantes no ejecuta una dinámica social.
 
 Por tanto, **no sería correcto decir que ya se conservaron todos los parámetros y codependencias de R01 en Infoblox real**. Están pendientes, entre otros, la búsqueda probabilística completa, la influencia social, la calibración de costes y tiempo, las políticas ejecutables completas y la admisión A25. Un certificado suficiente y accesible resuelve el obstáculo informacional modelado; ninguna de estas pruebas acredita imposibilidad universal frente a las tecnologías disponibles.

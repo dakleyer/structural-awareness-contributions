@@ -6,6 +6,19 @@
 
 [Leer el documento completo](./Escenario-creatividad-validacion.md) · [PDF](./Escenario-creatividad-validacion.pdf) · [Word](./Escenario-creatividad-validacion.docx) · [Tabla de extensiones](#extensiones)
 
+## Guía de lectura
+
+| Para consultar | Entrada |
+|---|---|
+| Problema, reglas y configuración base | [Escenario R01 v0.6](./Escenario-creatividad-validacion.md). |
+| Método que rige las tres extensiones | [Contrato, evidencia, quince grupos y A25](./extensions/CRITERIA_AND_AUDIT.md). |
+| Demostración y alcance de la transferencia | [Núcleo y obligaciones E1–E7](./extensions/family/KERNEL_AND_PROOF.md) · [Referencias y comparación EA–control](./extensions/METHODOLOGICAL_FOUNDATIONS.md). |
+| Cada caso y sus comprobaciones | [Tabla de las tres extensiones](#extensiones). |
+| Ensayos anteriores y resultados que se conservan | [Historial](#historial-de-ensayos-y-trabajo-pendiente). |
+| Reproducción conjunta y revisión editorial | [Comando común](#reproducción-conjunta-de-las-comprobaciones) · [Procedimiento y resultado de la revisión](./extensions/EDITORIAL_REVIEW.md). |
+
+La prueba formal condicionada, las comprobaciones finitas y los experimentos con agentes son evidencias diferentes. Los dos primeros tienen documentos y resultados acotados; la ejecución integral de R01 y la comparación EA siguen pendientes. Los dictámenes vigentes se consultan en las fichas comunes; los antecedentes conservan su fecha y su alcance.
+
 ## Lugar de la reducción dentro de 00G
 
 La pregunta es dónde una arquitectura que explora probabilísticamente, valida con coste y comparte hallazgos obtiene soluciones legítimas de calidad a coste razonable, y dónde aparece el trilema no íntegro, ineficiente o mediocre. El estudio busca localizar esa frontera y medir cuánto la desplazan mejoras competentes. EA aparece al final como candidata complementaria.
@@ -75,12 +88,26 @@ Las extensiones se organizan dentro de `00G-R01/extensions/`, con una carpeta po
 | Extensión y caso | Documento del caso | Justificación desde R01 | Validación y reproducción | Estado |
 |---|---|---|---|---|
 | <a id="openai--hugging-face"></a>**OpenAI / Hugging Face.** Búsqueda de alternativas, hallazgos compartidos y decisiones frente a la tarea y los límites del receptor. | [Documento integrado](./extensions/hugging-face/README.md) | [Correspondencia y obligaciones](./extensions/hugging-face/README.md#2-qué-debe-conservar-una-extensión) · [Matriz de parámetros](./extensions/hugging-face/README.md#3-inventario-de-parámetros-y-resultados) | [Prueba acotada](./extensions/hugging-face/README.md#4-comprobación-reproducible-ejecutada) · [Código y resultados](./extensions/hugging-face/proof/README.md) | Conservación sintética parcial comprobada; admisión histórica y diferencial EA pendientes. |
-| <a id="extensión-al-caso-infoblox"></a>**Infoblox.** Diagnóstico DNS con descubrimiento, confianza, políticas y validación de composiciones. | [Documento integrado](./extensions/infoblox/README.md) · [Word](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) | [Correspondencia y factores](./extensions/infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) | [Prueba acotada](./extensions/infoblox/README.md#6-prueba-acotada-y-resultados-del-modelo) · [Código y resultados](./extensions/infoblox/proof/README.md) | Núcleo sintético comprobado; integración real, admisión completa y diferencial EA pendientes. |
+| <a id="extensión-al-caso-infoblox"></a>**Infoblox.** Diagnóstico DNS con descubrimiento, confianza, políticas y validación de composiciones. | [Documento integrado](./extensions/infoblox/README.md) · [Word v0.5, anterior a las revisiones Markdown](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) | [Correspondencia y factores](./extensions/infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) | [Prueba acotada](./extensions/infoblox/README.md#6-prueba-acotada-y-resultados-del-modelo) · [Código y resultados](./extensions/infoblox/proof/README.md) | Núcleo sintético comprobado; integración real, admisión completa y diferencial EA pendientes. |
 | <a id="familia-extendida-con-nucleo-funcional-isomorfo"></a>**Familia extendida.** Casos construidos similares a los citados por Nell: recursos fuera de alcance, respuestas aceptadas sin cumplir la tarea y canales de comunicación. | [Familia y casos documentados](./extensions/family/README.md) | [Núcleo isomorfo y transformación de parámetros](./extensions/family/KERNEL_AND_PROOF.md) · [Inventario completo](./extensions/family/KERNEL_AND_PROOF.md#3-inventario-completo-de-correspondencias-principales) | [Prueba de conservación](./extensions/family/KERNEL_AND_PROOF.md#5-proposición-de-conservación-y-prueba) · [Código, resultados y contraejemplos](./extensions/family/proof/README.md) | Criterio y construcción formal bajo hipótesis explícitas; fragmento finito comprobado; correspondencia completa H/L/W pendiente. Implementación completa, reproducción histórica y evaluación EA pendientes. |
 
 Cada documento sigue la misma navegación: **escenario → justificación de extensión → validación → código y resultados → fuentes y antecedentes**. La pertenencia estructural, la explicación causal y la comparación EA se evalúan por separado. Los ensayos anteriores conservan su ámbito y no se convierten en resultados de R01 por aparecer en esta tabla.
 
+## Reproducción conjunta de las comprobaciones
+
+Desde esta carpeta `00G-R01/`:
+
+```sh
+python3 extensions/verify_audit.py --verify
+```
+
+El [verificador común](./extensions/verify_audit.py) ejecuta los tres comprobadores en carpetas temporales, compara sus informes y verifica las huellas textuales. Usa Python 3 y su biblioteca estándar. El [informe común](./extensions/audit_results.json) conserva los resultados por paquete; no los suma como muestras independientes. Las guías particulares siguen disponibles en la tabla de extensiones.
+
+Esta es una repetición interna del código publicado, no una réplica independiente ni una evaluación de EA. El procedimiento editorial, la conservación del contenido y los límites de esta revisión están en la [revisión del paquete](./extensions/EDITORIAL_REVIEW.md).
+
 ## Archivos y reproducción editorial
+
+Esta sección describe las exportaciones del **escenario base v0.6**. En las extensiones, la revisión vigente está en Markdown; el Word de Infoblox conserva la edición v0.5 anterior a sus añadidos posteriores, identificada en su expediente.
 
 El Markdown es la fuente del texto; Word y PDF son sus exportaciones de lectura. Las dos figuras y sus scripts están en este paquete. `build_figures.py` regenera las figuras con Matplotlib y `build_document.py` regenera Word con python-docx. El PDF se exporta desde Word con LibreOffice. Los scripts resuelven sus rutas desde esta carpeta. No se incluye todavía un simulador: las reglas ejecutables del experimento siguen pendientes.
 

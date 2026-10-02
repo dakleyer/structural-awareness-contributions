@@ -61,6 +61,8 @@ Se incluyen dos contraejemplos positivos de cambio de régimen: aumentar el radi
 
 El inventario completo tiene una correspondencia formal en la nota matemática; los grupos de la columna derecha **no** quedan verificados por este código. La prueba de conservación es condicional a E1–E7 para cualquier implementación futura que los incorpore.
 
+**Procedimiento común:** desde `00G-R01/`, ejecutar `python3 extensions/verify_audit.py --verify`. Recalcula las tres comprobaciones en carpetas temporales, compara los informes registrados y verifica huellas textuales. [Criterios y alcance](../../CRITERIA_AND_AUDIT.md) · [Guía común desde R01](../../../README.md#reproducción-conjunta-de-las-comprobaciones).
+
 ## Reproducción
 
 Desde esta carpeta:

@@ -9,6 +9,8 @@
 | [coverage.json](../coverage.json) | Matriz documental de cobertura y obligaciones pendientes; no es una certificación automática. |
 | [SHA256.json](../SHA256.json) | Huellas de integridad de los archivos del expediente. |
 
+**Procedimiento común:** desde `00G-R01/`, ejecutar `python3 extensions/verify_audit.py --verify`. Recalcula las tres comprobaciones en carpetas temporales, compara los informes registrados y verifica huellas textuales. [Criterios y alcance](../../CRITERIA_AND_AUDIT.md) · [Guía común desde R01](../../../README.md#reproducción-conjunta-de-las-comprobaciones).
+
 Desde la carpeta del caso `hugging-face/`:
 
 ```sh

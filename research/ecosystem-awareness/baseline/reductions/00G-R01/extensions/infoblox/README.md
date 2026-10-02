@@ -60,6 +60,10 @@ La utilidad del ensayo es distinguir si el límite está en localizar una capaci
 
 Las secciones 2–4 presentan el caso, las tecnologías y los recorridos. Las secciones 5–6 explican la correspondencia con R01 y lo que se ha demostrado. Las secciones 7–9 delimitan EA, la medición y las condiciones para ejecutar. El anexo A conserva la auditoría y el historial; el anexo B reúne todas las referencias.
 
+[Escenario](#2-escenario-de-diagnóstico-y-rutas-posibles) · [Tecnologías](#3-tecnologías-y-controles-disponibles) · [Recorridos propuestos](#4-los-tres-recorridos-del-ensayo) · [Correspondencia](#5-qué-debe-conservar-la-extensión-desde-r01) · [Prueba ejecutada](#6-prueba-acotada-y-resultados-del-modelo) · [Candidatura EA](#7-posible-diferencial-de-ecosystem-awareness) · [Medición propuesta](#8-medición-y-condiciones-para-ejecutar) · [Dictamen](#9-dictamen-y-siguiente-paso) · [Historial](#anexo-a-auditoría-y-continuidad-documental) · [Fuentes](#anexo-b-referencias-y-fuentes).
+
+La ficha inicial y el [criterio común](../CRITERIA_AND_AUDIT.md) fijan el estado vigente. Los recorridos 0/1/2 son un protocolo propuesto; la ejecución publicada corresponde al modelo finito de §6. El anexo A conserva revisiones anteriores, no instrucciones que sustituyan la reproducción actual.
+
 | Término | Significado en este documento |
 | --- | --- |
 | R01 | Abreviatura de 00G-R01, el estudio base de exploración probabilística y coste de validación [R1]. |
@@ -565,7 +569,9 @@ Podremos afirmar que una configuración concreta preserva R01 cuando la matriz d
 
 La conversación con Nic debe centrarse en una pregunta comprobable: para esta composición concreta, ¿qué componente entrega evidencia suficiente y vigente de extremo a extremo, qué información adquiere y a qué coste? Si ya lo hace dentro de los límites, el caso está resuelto. Si queda un residuo demostrable, ése es el candidato para el ensayo de R01 y, posteriormente, para comparar EA.
 
-El paquete R01_Infoblox_Prueba_reproducible_v0.5.zip reúne esta revisión, el código check.py, los resultados exactos, las fuentes fijadas y el historial. Para repetir la comprobación basta ejecutar python3 check.py dentro de proof_r01_infoblox. No requiere credenciales, red ni dependencias externas. El código comprueba el modelo; no ejecuta los componentes del proveedor.
+**Antecedente de entrega documental:** El paquete R01_Infoblox_Prueba_reproducible_v0.5.zip reúne esta revisión, el código check.py, los resultados exactos, las fuentes fijadas y el historial. Para repetir la comprobación basta ejecutar python3 check.py dentro de proof_r01_infoblox. No requiere credenciales, red ni dependencias externas. El código comprueba el modelo; no ejecuta los componentes del proveedor.
+
+**Reproducción actual en este repositorio:** [guía del paquete publicado](./proof/README.md). Desde `00G-R01/`, `python3 extensions/verify_audit.py --verify` comprueba este caso junto a los otros dos sin modificar sus informes. El ZIP citado se conserva como referencia de la entrega previa; no es necesario para repetir el núcleo publicado.
 
 ## Anexo A Auditoría y continuidad documental
 
