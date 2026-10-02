@@ -1,5 +1,13 @@
 # Ecosystem Awareness — canonical corpus
 
+## Mathematical and functional plausibility — current reading route
+
+Read [**00M v0.8 — A/B/C/D semantics and mathematical plausibility**](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) first, then [**00N v0.7 — Can Ecosystem Awareness Work?**](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). The first note defines the proposed common A/B/C/D semantics and examines four mathematical tasks; the second connects the mechanism to the existing requirements through conditional scientific plausibility. These are research notes for review, not proofs of engineering feasibility, prevention, compliance or a TRL award. Publication does not silently amend a frozen requirement or replace an older controlled source.
+
+[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.
+
+These files were developed locally; any retained “local draft” status records that origin, not a restriction on reading this public snapshot. All pre-existing material in this README is preserved. [Publication and preservation record](./audits/00M_00N_PUBLICATION_PRESERVATION_2026-10-02.md).
+
 **00G-HF experimental extension:** [current case and roadmap](./00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) · [development and test history](./annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md). The canonical 00G scenario and requirements retain their scope; the probabilistic comparison remains experimental.
 
 **Hypothesis and traceability:** [common causal hypothesis, current bridge 0.4.1, six failure families, principles and forward/reverse evidence](../../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md). This reading index identifies the substantive documents, executed audits, preserved counterexamples and remaining proof obligations.

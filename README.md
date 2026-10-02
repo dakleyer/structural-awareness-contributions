@@ -1,5 +1,13 @@
 # Structural Awareness Programme
 
+## Mathematical and functional plausibility — current reading route
+
+Read [**00M v0.8 — A/B/C/D semantics and mathematical plausibility**](./research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) first, then [**00N v0.7 — Can Ecosystem Awareness Work?**](./research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). The first note defines the proposed common A/B/C/D semantics and examines four mathematical tasks; the second connects the mechanism to the existing requirements through conditional scientific plausibility. These are research notes for review, not proofs of engineering feasibility, prevention, compliance or a TRL award. Publication does not silently amend a frozen requirement or replace an older controlled source.
+
+[**Three visual reading aids and downloads**](./research/ecosystem-awareness/baseline/visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.
+
+These files were developed locally; any retained “local draft” status records that origin, not a restriction on reading this public snapshot. All pre-existing material in this README is preserved. [Publication and preservation record](./research/ecosystem-awareness/baseline/audits/00M_00N_PUBLICATION_PRESERVATION_2026-10-02.md).
+
 > **Evidence correction — 26 September 2026:** [A14](./research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A14_CORRECCIONES_AUDITORIA_v0.1.md) records corrected handoff checks, failure traces, metrics, authority/time boundaries and input validation: 379 existing regressions and 77 separate correction checks pass locally. Shared-logic peers remain instrumentation controls; the A22 semantic bridge and A23 fidelity obligations remain open. [Cumulative article/README record A12](./research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A12_REGISTRO_MEJORAS_ARTICULO_README_v0.1.md).
 
 [![Licence: CC BY-SA 4.0](https://img.shields.io/badge/licence-CC%20BY--SA%204.0-lightgrey)](./LICENSE.md)

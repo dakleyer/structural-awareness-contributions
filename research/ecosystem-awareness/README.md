@@ -1,5 +1,13 @@
 # Ecosystem Awareness — entry-point router
 
+## Mathematical and functional plausibility — current reading route
+
+Read [**00M v0.8 — A/B/C/D semantics and mathematical plausibility**](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) first, then [**00N v0.7 — Can Ecosystem Awareness Work?**](./baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). The first note defines the proposed common A/B/C/D semantics and examines four mathematical tasks; the second connects the mechanism to the existing requirements through conditional scientific plausibility. These are research notes for review, not proofs of engineering feasibility, prevention, compliance or a TRL award. Publication does not silently amend a frozen requirement or replace an older controlled source.
+
+[**Three visual reading aids and downloads**](./baseline/visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.
+
+These files were developed locally; any retained “local draft” status records that origin, not a restriction on reading this public snapshot. All pre-existing material in this README is preserved. [Publication and preservation record](./baseline/audits/00M_00N_PUBLICATION_PRESERVATION_2026-10-02.md).
+
 **Hypothesis and traceability:** [common causal hypothesis, current bridge 0.4.1, six failure families, principles and forward/reverse evidence](../../architectural-contributions/ecosystem-positioning/documents/2026-09-29/README.md). This reading index identifies the substantive documents, executed audits, preserved counterexamples and remaining proof obligations.
 
 > **Applied sufficiency review:** [A23 semantic bridge diagnostics](./baseline/fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md) explain why passing traversals do not establish all-six sufficiency and test action scope, correlated evidence and a candidate action-time interlock. [Saved change plan](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A15_PLAN_CAMBIOS_Y_EFECTO_EN_LA_TESIS_v0.1.md).

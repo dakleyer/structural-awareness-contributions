@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1140" viewBox="0 0 1200 1140" role="img" aria-labelledby="title desc">
+<title id="title">Four mathematical tasks for composing partial views</title><desc id="desc">Four operations with distinct mathematical precedents and limits. Logical dependencies are shown through the shared qualification conditions, not as a mandatory serial execution protocol.</desc>
+<rect width="1200" height="1140" fill="#f7f9fc"/>
+<text x="42" y="70.0" font-family="DejaVu Sans" font-size="32" font-weight="700" fill="#172d40">Four mathematical tasks for composing partial views</text>
+<text x="42" y="108.0" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#425669">Each operation needs both a representation and a limit on inference.</text>
+<text x="42" y="134.6" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#425669">The numbering follows the argument; it does not prescribe a serial implementation.</text>
+<rect x="42" y="161" width="546" height="274" rx="12" fill="white" stroke="#214f6b" stroke-width="1.4"/>
+<text x="64" y="194.0" font-family="DejaVu Sans" font-size="16" font-weight="700" fill="#214f6b">01 · INTERPRET ROLES</text>
+<text x="64" y="226.4" font-family="DejaVu Sans" font-size="21" font-weight="700" fill="#214f6b">Recognize A/B/C/D</text>
+<text x="64" y="268.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">Qualified assertions relative to a declared process and</text>
+<text x="64" y="294.0" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">frame can represent the four functional roles.</text>
+<text x="64" y="332.2" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Limit: producer meaning, capability and evidence are</text>
+<text x="64" y="357.4" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">needed. Open C/D cannot be exhaustively classified.</text>
+<text x="64" y="382.6" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">[§3.1]</text>
+<rect x="612" y="161" width="546" height="274" rx="12" fill="white" stroke="#08777b" stroke-width="1.4"/>
+<text x="634" y="194.0" font-family="DejaVu Sans" font-size="16" font-weight="700" fill="#08777b">02 · RELATE SCOPES</text>
+<text x="634" y="226.4" font-family="DejaVu Sans" font-size="21" font-weight="700" fill="#08777b">Justify the correspondence</text>
+<text x="634" y="268.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">Typed contexts and partial maps can represent where</text>
+<text x="634" y="294.0" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">declarations admit a common question.</text>
+<text x="634" y="332.2" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Limit: a common label or MSCA is not enough.</text>
+<text x="634" y="357.4" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Cockett–Lack represents partiality; semantic validity</text>
+<text x="634" y="382.6" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">needs separate grounds. [§3.2]</text>
+<rect x="42" y="459" width="546" height="299" rx="12" fill="white" stroke="#915415" stroke-width="1.4"/>
+<text x="64" y="492.0" font-family="DejaVu Sans" font-size="16" font-weight="700" fill="#915415">03 · COMPOSE SUMMARIES</text>
+<text x="64" y="524.4" font-family="DejaVu Sans" font-size="21" font-weight="700" fill="#915415">Preserve a useful distinction</text>
+<text x="64" y="566.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">Task-relative abstraction can support exact answers or</text>
+<text x="64" y="592.0" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">sound conservative answer sets. Attributed</text>
+<text x="64" y="617.2" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">aggregation can retain distinct declarations.</text>
+<text x="64" y="655.4" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Limit: convergence is not truth or source</text>
+<text x="64" y="680.6" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">independence. Streaming-space bounds are not</text>
+<text x="64" y="705.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">communication bounds. Total cost remains open. [§4]</text>
+<rect x="612" y="459" width="546" height="299" rx="12" fill="white" stroke="#923c49" stroke-width="1.4"/>
+<text x="634" y="492.0" font-family="DejaVu Sans" font-size="16" font-weight="700" fill="#923c49">04 · REQUALIFY</text>
+<text x="634" y="524.4" font-family="DejaVu Sans" font-size="21" font-weight="700" fill="#923c49">Give a property-specific direction</text>
+<text x="634" y="566.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">Versioned judgments, partial orders and signed</text>
+<text x="634" y="592.0" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">comparisons of warranted bounds can express</text>
+<text x="634" y="617.2" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#172d40">contextual change.</text>
+<text x="634" y="655.4" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">Limit: requalification needs grounds. Increased</text>
+<text x="634" y="680.6" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">assessability need not mean lower risk; a direction is</text>
+<text x="634" y="705.8" font-family="DejaVu Sans" font-size="18" font-weight="400" fill="#425669">not a universal A/B/C/D score. [§6]</text>
+<rect x="42" y="782" width="1116" height="128" rx="12" fill="#eaf0f7" stroke="#cad5df" stroke-width="1.4"/>
+<text x="64" y="820.0" font-family="DejaVu Sans" font-size="22" font-weight="700" fill="#172d40">The conditions must survive composition</text>
+<text x="64" y="859.8" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">The receiving review still needs compatible scope, interpretation, provenance and current grounds. Success in</text>
+<text x="64" y="886.4" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">one operation cannot compensate for a missing correspondence or qualification in another.</text>
+<rect x="42" y="934" width="1116" height="126" rx="12" fill="white" stroke="#cad5df" stroke-width="1.4"/>
+<text x="64" y="972.0" font-family="DejaVu Sans" font-size="22" font-weight="700" fill="#172d40">The bounded opportunity</text>
+<text x="64" y="1009.8" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">Compatible metadata may expose a changed basis for collective reliance that operative outputs conceal. Useful</text>
+<text x="64" y="1036.4" font-family="DejaVu Sans" font-size="19" font-weight="400" fill="#172d40">requalification also requires those distinctions to survive composition and arrive in time.</text>
+<text x="42" y="1107.0" font-family="DejaVu Sans" font-size="16" font-weight="400" fill="#425669">Selective overview · 00M v0.8, §§3–7; 00N v0.7, §§1.3, 3.2 · Plausibility is not engineering feasibility.</text>
+</svg>
