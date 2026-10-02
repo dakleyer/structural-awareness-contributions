@@ -1,20 +1,20 @@
 <a id="familia-extendida-de-r01-con-núcleo-funcional-isomorfo"></a>
 # Extended R01 family with an isomorphic functional kernel
 
-<a id="ficha-común-de-revisión"></a>
-## Common review record
+<a id="extended-family-problem"></a>
+## The extended family in words
 
-| Field | Case-record status |
+This document constructs three kinds of task: obtaining results from authorized resources, producing an artifact that really satisfies its specification, and communicating through an authorized channel. In each, an alternative may look technically useful while failing the actual obligation. The study asks whether R01's exploration, review, shared evidence and resource accounting can be preserved in that setting.
+
+Each case retains M, the known permitted procedure; I, the best permitted alternative; and P, an attractive alternative that violates the obligation. Sections 3–4 explain the motivation and each constructed scenario. The mathematical note gives the preservation conditions; the Python check verifies only a finite fragment. Complete domain implementations and executions with agents remain pending.
+
+| Read next | Location |
 |---|---|
-| Type and base | Constructed class and domain specifications; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
-| Correspondence | h, p and section on kernel (§§3–5 of the note); complete H/L/W implementation pending. |
-| Evidence | EV1 for criterion and formal construction; EV2 for H/L/W fragment; EV0 for complete domain realization. EV3/EV4/EV5 not established here. |
-| Coverage and A25 | [Common fifteen groups, states and A25](../CRITERIA_AND_AUDIT.md); the case record's individual matrices are retained. |
-| Receiver, positive and falsifier | Rejection of detected denials; valid positive; mutations breaking the kernel. |
-| Review | Internal author review assisted by AI; partial external observations checked, without established independence. |
-| Verdict | Criterion and formal construction proved; partial correspondence checked in the fragment; complete H/L/W realization pending. |
-
-EV codes identify evidence, not the E1–E7 obligations in the mathematical note. Their definition is in the [common criterion](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+| Scenarios explained | [Three constructed cases](#4-tres-especializaciones-construidas) |
+| Relation to R01 | [What extension means](#2-qué-significa-extender-r01) |
+| Proof | [Kernel and preservation conditions](./KERNEL_AND_PROOF.md) |
+| Executed check and results | [Reproduction guide](./proof/README.md) |
+| Sources and traceability | [Documented motivation](#3-casos-documentados-que-motivan-la-familia) · [Internal references](#6-referencias-internas-y-trazabilidad) |
 
 Iván Abril Palma · Ecosystem Awareness · Research version 0.1 · 2 October 2026
 
@@ -127,3 +127,19 @@ The relation to 00G additionally requires establishing C-V-G: received content, 
 - [A25, X1–X7](../../../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md): admission obligations and separation between membership and success.
 
 Complete external URLs appear in the §3 table; the checker's H/L/W references point to the §4 constructions, not historical incidents.
+
+<a id="ficha-común-de-revisión"></a>
+## Common review record
+
+| Field | Case-record status |
+|---|---|
+| Type and base | Constructed class and domain specifications; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
+| Correspondence | h, p and section on kernel (§§3–5 of the note); complete H/L/W implementation pending. |
+| Evidence | EV1 for criterion and formal construction; EV2 for H/L/W fragment; EV0 for complete domain realization. EV3/EV4/EV5 not established here. |
+| Coverage and A25 | [Common fifteen groups, states and A25](../CRITERIA_AND_AUDIT.md); the case record's individual matrices are retained. |
+| Receiver, positive and falsifier | Rejection of detected denials; valid positive; mutations breaking the kernel. |
+| Review | Internal author review assisted by AI; partial external observations checked, without established independence. |
+| Verdict | Criterion and formal construction proved; partial correspondence checked in the fragment; complete H/L/W realization pending. |
+
+EV codes identify evidence, not the E1–E7 obligations in the mathematical note. Their definition is in the [common criterion](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+

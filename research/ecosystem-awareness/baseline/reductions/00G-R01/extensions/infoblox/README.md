@@ -1,20 +1,18 @@
 <a id="extensión-de-r01-infoblox"></a>
 # R01 extension: Infoblox
 
-<a id="ficha-común-de-revisión"></a>
-## Common review record
+<a id="infoblox-problem"></a>
+## The Infoblox problem in words
 
-| Field | Case-record status |
+The task is to diagnose a DNS problem using discovered capabilities and data sources, within the requester's permissions, budget and deadline. A capability may be discoverable and trusted while a particular use of it, an export or a combination of data sources remains restricted. The question is whether the system can find a better permitted diagnosis and obtain the evidence needed to execute it.
+
+| R01 route | Meaning in this extension |
 |---|---|
-| Type and base | Technological with synthetic witness; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
-| Correspondence | Proposed F and α (§5.3); recoverable witness operations/records (§6); complete integration pending. |
-| Evidence | EV1 for lemma, conditional transfer and curves; EV2 for finite model; EV0 for technological realization. EV3/EV4/EV5 not established here. |
-| Coverage and A25 | [Common fifteen groups, states and A25](../CRITERIA_AND_AUDIT.md); the case record's individual matrices are retained. |
-| Receiver, positive and falsifier | Strict gateway; valid A and admissible B; cheap sufficient certificate eliminates obstruction. |
-| Review | Internal author review assisted by AI; partial external observations checked, without established independence. |
-| Verdict | Partial correspondence demonstrated/checked within synthetic scope; complete extension of the technological object pending. |
+| M | The known permitted diagnosis procedure, with lower quality under the declared criterion. |
+| I | The best diagnosis obtainable through an admissible composition of capabilities and data. |
+| P | A useful-looking diagnosis or export whose complete operation violates a use condition. |
 
-EV codes identify evidence, not the E1–E7 obligations in the mathematical note. Their definition is in the [common criterion](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+Sections 2–4 explain the scenario, technologies and proposed runs. Sections 5–6 contain the correspondence with R01, conditional proof and executed finite check. The three full trial runs and real Infoblox integration remain proposed; the published Python result concerns the synthetic model.
 
 [00G-R01](../../README.md) · [Extensions table](../../README.md#extensiones)
 
@@ -791,3 +789,19 @@ R16 DNS for AI Discovery Internet Draft 02 of 27 May 2026. https://www.ietf.org/
 R17 Public DNS AID policy guide. Mutable page; consulted 2 October 2026. https://www.dns-aid.org/policy/
 
 R18 A25 extensibility criteria and transfer scope. https://github.com/dakleyer/structural-awareness-contributions/blob/d44a09de77d7a2133f50d1b5a9a4db77e58f2772/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md
+
+<a id="ficha-común-de-revisión"></a>
+## Common review record
+
+| Field | Case-record status |
+|---|---|
+| Type and base | Technological with synthetic witness; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
+| Correspondence | Proposed F and α (§5.3); recoverable witness operations/records (§6); complete integration pending. |
+| Evidence | EV1 for lemma, conditional transfer and curves; EV2 for finite model; EV0 for technological realization. EV3/EV4/EV5 not established here. |
+| Coverage and A25 | [Common fifteen groups, states and A25](../CRITERIA_AND_AUDIT.md); the case record's individual matrices are retained. |
+| Receiver, positive and falsifier | Strict gateway; valid A and admissible B; cheap sufficient certificate eliminates obstruction. |
+| Review | Internal author review assisted by AI; partial external observations checked, without established independence. |
+| Verdict | Partial correspondence demonstrated/checked within synthetic scope; complete extension of the technological object pending. |
+
+EV codes identify evidence, not the E1–E7 obligations in the mathematical note. Their definition is in the [common criterion](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+

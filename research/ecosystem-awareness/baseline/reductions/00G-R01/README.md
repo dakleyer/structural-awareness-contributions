@@ -8,6 +8,43 @@
 
 [Read the full document](./Escenario-creatividad-validacion.md) · [PDF](./Escenario-creatividad-validacion.pdf) · [Word](./Escenario-creatividad-validacion.docx) · [Extensions table](#extensiones) · [English translation trace](./TRANSLATION_TRACE.md)
 
+<a id="r01-in-plain-language"></a>
+## What R01 studies
+
+An agent knows a permitted procedure for completing its task. While working, it explores alternatives that may produce a better result. Each alternative takes effort to discover and to check. Other agents may share findings and checks, but their reports do not by themselves authorize the action.
+
+The study asks when this process finds a good permitted solution within its budget and deadline, and when it instead executes an inadmissible alternative, spends too much on checking, settles for lower quality or leaves the task incomplete. Benefits and distances vary across the fixed world; search and policy randomness are recorded. Failure is a possible result to measure, not a required outcome.
+
+| Route | Meaning |
+|---|---|
+| M — known procedure | A permitted starting plan; it may deliver lower quality. |
+| I — ideal permitted alternative | The best complete admissible solution, calculated by the evaluator. |
+| P — attractive forbidden alternative | A technically attractive route whose composition violates the obligation. |
+
+These are the known route and two alternative references. Agents are not told which candidate is I or P. They discover candidates, review the relevant relations, decide whether to proceed and record the effect. A local check may leave important conditions unresolved; sufficient applicable evidence may resolve them.
+
+**[Read the complete R01 scenario](./Escenario-creatividad-validacion.md).** It contains the problem, route construction, probabilistic exploration, decision cycle, validation, costs, configurations and required traces. This README is its entrance and extension index. The complete R01 campaign is specified but has not yet been implemented and executed.
+
+| Question | Direct section in the complete document |
+|---|---|
+| What are the routes and how are alternatives found? | [Routes §2.1](./Escenario-creatividad-validacion.md#21-tarea-y-trayectorias-de-referencia-etiquetadas) · [Benefits §2.3](./Escenario-creatividad-validacion.md#23-beneficios-heterogéneos-con-promedio-fijado) · [Search radius §2.4](./Escenario-creatividad-validacion.md#24-proximidad-y-radio-creativo) |
+| What does an agent do, step by step? | [Decision cycle §2.7](./Escenario-creatividad-validacion.md#27-secuencia-de-decisión) · [Own review §2.8](./Escenario-creatividad-validacion.md#28-validación-convencional-hacia-atrás-y-hacia-delante) · [Social evidence §2.10](./Escenario-creatividad-validacion.md#210-señalización-y-validación-social) |
+| How are costs and resources counted? | [Costs §2.11](./Escenario-creatividad-validacion.md#211-coste-de-exploración-y-coste-de-revisión) · [Budget §2.12](./Escenario-creatividad-validacion.md#212-presupuesto-y-plazo) |
+| Where are the traces? | [Required trace fields §2.16](./Escenario-creatividad-validacion.md#216-qué-debe-registrar-una-trayectoria-auditable) · [States §2.17](./Escenario-creatividad-validacion.md#217-estados-y-requisitos-verificables-antes-de-ejecutar) · [Earlier executed trials](../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) |
+
+<a id="extensiones"></a>
+## Extensions
+
+The extensions are organized within `00G-R01/extensions/`, with one folder per case. This is their entry table. All three use the [common review record, evidence and criteria](./extensions/CRITERIA_AND_AUDIT.md). The **00G → R01 reduction** is explained in [Foundation and proof of the reduction](#fundamento-y-prueba-de-la-reducción); the following rows examine the **R01 → extended case** relation.
+
+| Extension and case | Case document | Justification from R01 | Validation and reproduction | Status |
+|---|---|---|---|---|
+| <a id="openai--hugging-face"></a>**OpenAI / Hugging Face.** Search for alternatives, shared findings and decisions regarding the receiver's task and limits. | [Integrated document](./extensions/hugging-face/README.md) | [Correspondence and obligations](./extensions/hugging-face/README.md#2-qué-debe-conservar-una-extensión) · [Parameter matrix](./extensions/hugging-face/README.md#3-inventario-de-parámetros-y-resultados) | [Bounded test](./extensions/hugging-face/README.md#4-comprobación-reproducible-ejecutada) · [Code and results](./extensions/hugging-face/proof/README.md) | Partial synthetic preservation checked; historical admission and EA differential pending. |
+| <a id="extensión-al-caso-infoblox"></a>**Infoblox.** DNS diagnosis with discovery, trust, policies and validation of compositions. | [Integrated document](./extensions/infoblox/README.md) · [Word v0.5, preceding the Markdown revisions](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) | [Correspondence and factors](./extensions/infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) | [Bounded test](./extensions/infoblox/README.md#6-prueba-acotada-y-resultados-del-modelo) · [Code and results](./extensions/infoblox/proof/README.md) | Synthetic kernel checked; real integration, full admission and EA differential pending. |
+| <a id="familia-extendida-con-nucleo-funcional-isomorfo"></a>**Extended family.** Constructed cases similar to those cited by Nell: out-of-scope resources, accepted answers without completing the task and communication channels. | [Family and documented cases](./extensions/family/README.md) | [Isomorphic kernel and parameter transformation](./extensions/family/KERNEL_AND_PROOF.md) · [Complete inventory](./extensions/family/KERNEL_AND_PROOF.md#3-inventario-completo-de-correspondencias-principales) | [Preservation proof](./extensions/family/KERNEL_AND_PROOF.md#5-proposición-de-conservación-y-prueba) · [Code, results and counterexamples](./extensions/family/proof/README.md) | Criterion and formal construction under explicit hypotheses; finite fragment checked; complete H/L/W correspondence pending. Full implementation, historical reproduction and EA evaluation pending. |
+
+Each document follows the same navigation: **scenario → extension justification → validation → code and results → sources and earlier work**. Structural membership, causal explanation and the EA comparison are evaluated separately. Earlier trials retain their scope and do not become R01 results by appearing in this table.
+
 <a id="guía-de-lectura"></a>
 ## Reading guide
 
@@ -89,19 +126,6 @@ The [00G-HF v0.4 C3 oracle](../../fixtures/00G-HF-ORACLE-v0.4/README.md) and its
 The [00G-HF development and experimental history annex](../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) preserves earlier attempts, their results and the reasons for evolving toward this scenario. It includes programmed pairs, cached-lineage, Casbin-polling and probabilistic, social and dynamic runs. Successes of conventional controls, attempts that did not establish the targeted failure and negatives of limited scope retain their original meaning.
 
 To follow the sequence: §§2–5 gather trials and reasons for the change; §§7–12, executions and pending limits; §§13–17, design corrections and the relationship with creativity, validation and 00G. The annex links the original packages, traces and results. Historical pending items are read as of their date; the status of 00G-R01 and its oracle is consulted in this scenario and the status document linked above. This navigation does not turn earlier trials into 00G-R01 results or declare the historical incident reproduced.
-
-<a id="extensiones"></a>
-## Extensions
-
-The extensions are organized within `00G-R01/extensions/`, with one folder per case. This is their entry table. All three use the [common review record, evidence and criteria](./extensions/CRITERIA_AND_AUDIT.md). The **00G → R01 reduction** is explained in [Foundation and proof of the reduction](#fundamento-y-prueba-de-la-reducción); the following rows examine the **R01 → extended case** relation.
-
-| Extension and case | Case document | Justification from R01 | Validation and reproduction | Status |
-|---|---|---|---|---|
-| <a id="openai--hugging-face"></a>**OpenAI / Hugging Face.** Search for alternatives, shared findings and decisions regarding the receiver's task and limits. | [Integrated document](./extensions/hugging-face/README.md) | [Correspondence and obligations](./extensions/hugging-face/README.md#2-qué-debe-conservar-una-extensión) · [Parameter matrix](./extensions/hugging-face/README.md#3-inventario-de-parámetros-y-resultados) | [Bounded test](./extensions/hugging-face/README.md#4-comprobación-reproducible-ejecutada) · [Code and results](./extensions/hugging-face/proof/README.md) | Partial synthetic preservation checked; historical admission and EA differential pending. |
-| <a id="extensión-al-caso-infoblox"></a>**Infoblox.** DNS diagnosis with discovery, trust, policies and validation of compositions. | [Integrated document](./extensions/infoblox/README.md) · [Word v0.5, preceding the Markdown revisions](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) | [Correspondence and factors](./extensions/infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) | [Bounded test](./extensions/infoblox/README.md#6-prueba-acotada-y-resultados-del-modelo) · [Code and results](./extensions/infoblox/proof/README.md) | Synthetic kernel checked; real integration, full admission and EA differential pending. |
-| <a id="familia-extendida-con-nucleo-funcional-isomorfo"></a>**Extended family.** Constructed cases similar to those cited by Nell: out-of-scope resources, accepted answers without completing the task and communication channels. | [Family and documented cases](./extensions/family/README.md) | [Isomorphic kernel and parameter transformation](./extensions/family/KERNEL_AND_PROOF.md) · [Complete inventory](./extensions/family/KERNEL_AND_PROOF.md#3-inventario-completo-de-correspondencias-principales) | [Preservation proof](./extensions/family/KERNEL_AND_PROOF.md#5-proposición-de-conservación-y-prueba) · [Code, results and counterexamples](./extensions/family/proof/README.md) | Criterion and formal construction under explicit hypotheses; finite fragment checked; complete H/L/W correspondence pending. Full implementation, historical reproduction and EA evaluation pending. |
-
-Each document follows the same navigation: **scenario → extension justification → validation → code and results → sources and earlier work**. Structural membership, causal explanation and the EA comparison are evaluated separately. Earlier trials retain their scope and do not become R01 results by appearing in this table.
 
 <a id="reproducción-conjunta-de-las-comprobaciones"></a>
 ## Joint reproduction of the checks

@@ -5,6 +5,17 @@
 
 [R01 entry](../README.md) · [Common criterion](./CRITERIA_AND_AUDIT.md) · [Methodological foundations](./METHODOLOGICAL_FOUNDATIONS.md)
 
+<a id="reading-order-correction-2026-10-03"></a>
+## Reading-order correction · 3 October 2026
+
+The reader review found that a technical audit preceded the Hugging Face scenario and that its early Infoblox comparison obscured the case. The R01 entrance also required a clearer explanation before the supporting reduction material.
+
+This correction places a plain-language R01 explanation and the unchanged extension table at the entrance. Each extension begins with its own problem and directs the reader to its scenario, correspondence, proof, code, results and sources. Hugging Face now contains a local explanation of the constructed routes and decision sequence; its Infoblox comparison is retained unchanged in a labeled final annex. The common technical review records move to the end of their documents. Existing scientific sections, identifiers, anchors, code and experimental results are retained.
+
+The new Hugging Face walk-through is explicitly a proposed decision sequence, not an executed agent trace. The finite checker and its coverage remain distinct from the full R01 campaign and historical admission. The R01 v0.6 source, figures and exports are unchanged; the new introductions are reading guides, not a new scenario version.
+
+The preservation check reverses every declared textual edit and move to recover the four preceding README files exactly. It also checks the preceding review text, local destinations and package anchors, then refreshes the text manifests and reproduces the common report. The historical counts and verdicts below describe the earlier review of their cited commit; they are not asserted as counts for this correction. The common report is an internal reproducibility record, not an independent replication or renewed scientific admission.
+
 <a id="1-alcance-y-resultado"></a>
 ## 1 Scope and outcome
 
