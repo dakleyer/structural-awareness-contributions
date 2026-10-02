@@ -1,203 +1,218 @@
-# Extensión de R01: OpenAI / Hugging Face
+<a id="extensión-de-r01-openai--hugging-face"></a>
+# R01 extension: OpenAI / Hugging Face
 
-## Ficha común de revisión
+<a id="ficha-común-de-revisión"></a>
+## Common review record
 
-| Campo | Estado del expediente |
+| Field | Case-record status |
 |---|---|
-| Tipo y base | Histórico con modelo construido auxiliar; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
-| Correspondencia | F e inversa de IDs/rutas en el modelo; α histórica completa pendiente (§§2–4). |
-| Evidencia | EV1 para resultados del contrato de consultas; EV2 para verificaciones finitas; EV0 para correspondencia histórica. EV3/EV4/EV5 no acreditados aquí. |
-| Cobertura y A25 | [Quince grupos, estados y A25 comunes](../CRITERIA_AND_AUDIT.md); se conservan las matrices particulares del expediente. |
-| Receptor, positivo y falsificador | Rechazo de denegación detectada; rutas válidas/certificado suficiente; falsificador de emparejamiento con marginales iguales. |
-| Revisión | Interna del autor asistida por IA; observaciones externas parciales contrastadas, sin independencia acreditada. |
-| Dictamen | Correspondencia parcial demostrada/comprobada en el alcance sintético; extensión completa del objeto histórico pendiente. |
+| Type and base | Historical with auxiliary constructed model; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
+| Correspondence | F and inverse of IDs/routes in the model; complete historical α pending (§§2–4). |
+| Evidence | EV1 for query-contract results; EV2 for finite verifications; EV0 for historical correspondence. EV3/EV4/EV5 not established here. |
+| Coverage and A25 | [Common fifteen groups, states and A25](../CRITERIA_AND_AUDIT.md); the case record's individual matrices are retained. |
+| Receiver, positive and falsifier | Rejection of detected denial; valid routes/sufficient certificate; pairing falsifier with equal marginals. |
+| Review | Internal author review assisted by AI; partial external observations checked, without established independence. |
+| Verdict | Partial correspondence demonstrated/checked within synthetic scope; complete extension of the historical object pending. |
 
-Los códigos EV identifican evidencia, no las obligaciones E1–E7 de la nota matemática. Su definición está en el [criterio común](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+EV codes identify evidence, not the E1–E7 obligations in the mathematical note. Their definition is in the [common criterion](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
 
-[00G-R01](../../README.md) · [Tabla de extensiones](../../README.md#extensiones)
+[00G-R01](../../README.md) · [Extensions table](../../README.md#extensiones)
 
-El caso examina cómo una alternativa, un hallazgo o un encargo compartido puede adquirir fuerza operativa frente a la tarea y los límites del receptor. Su conexión con R01 permite estudiar búsqueda de soluciones, coste de validación y reutilización social de hallazgos. La causa económica histórica sigue siendo una hipótesis; la auditoría que sigue no declara reproducido el incidente.
+The case examines how a shared alternative, finding or assignment may acquire operational force against the receiver's task and limits. Its connection with R01 allows study of solution search, validation cost and social reuse of findings. The historical economic cause remains a hypothesis; the following audit does not declare the incident reproduced.
 
-| Parte del expediente | Contenido |
+| Case-record part | Content |
 |---|---|
-| Escenario | [Correspondencia con R01, parte 3](../../Escenario-creatividad-validacion.md#3-familia-00g-escenario-reducido-y-referencia-hugging-face) · [Caso documentado y diseño previo 00G-HF](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) |
-| Justificación de extensión | [Relaciones que deben conservarse](#2-qué-debe-conservar-una-extensión) · [Parámetros](#3-inventario-de-parámetros-y-resultados) · [Codependencias](#5-codependencias-y-contraejemplos) |
-| Validación | [Comprobación ejecutada](#4-comprobación-reproducible-ejecutada) · [Criterios A25 y pendientes](#6-resultado-frente-a-a25) |
-| Código y resultados | [Guía de reproducción](./proof/README.md) |
-| Fuentes y antecedentes | [Fuentes examinadas](#8-fuentes-y-versión-examinada) · [Historial de ensayos](../../../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) |
-| Estado | Conservación parcial verificada en un modelo sintético; admisión histórica completa y diferencial EA pendientes. |
+| Scenario | [Correspondence with R01, part 3](../../Escenario-creatividad-validacion.md#3-familia-00g-escenario-reducido-y-referencia-hugging-face) · [Documented case and previous 00G-HF design](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) |
+| Extension justification | [Relations to preserve](#2-qué-debe-conservar-una-extensión) · [Parameters](#3-inventario-de-parámetros-y-resultados) · [Codependencies](#5-codependencias-y-contraejemplos) |
+| Validation | [Executed check](#4-comprobación-reproducible-ejecutada) · [A25 criteria and pending items](#6-resultado-frente-a-a25) |
+| Code and results | [Reproduction guide](./proof/README.md) |
+| Sources and earlier work | [Examined sources](#8-fuentes-y-versión-examinada) · [Trial history](../../../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) |
+| Status | Partial preservation verified in a synthetic model; complete historical admission and EA differential pending. |
 
-**La reducción de base pertenece a R01.** Su [fundamento 00G → R01](../../README.md#fundamento-y-prueba-de-la-reducción) se consulta desde el escenario base. Aquí se reúne la justificación de la extensión al caso HF y su validación. Los documentos previos 00G-HF conservan su contenido y ubicación histórica; sus recorridos R1–R3 no se renombran como ejecuciones de 00G-R01.
+**The base reduction belongs to R01.** Its [00G → R01 foundation](../../README.md#fundamento-y-prueba-de-la-reducción) is consulted from the base scenario. The justification of the HF case extension and its validation are gathered here. Previous 00G-HF documents retain their content and historical location; their R1–R3 runs are not renamed as 00G-R01 executions.
 
 ---
 
 <a id="00g-r01--hugging-face-auditoría-de-parámetros-resultados-y-codependencias"></a>
-**Expediente de auditoría de parámetros, resultados y codependencias R01 → Hugging Face.**
+**R01 → Hugging Face parameter, outcome and codependency audit record.**
 
-**Versión 0.1 · 2 de octubre de 2026 · Auditoría del autor asistida por IA.**
+**Version 0.1 · 2 October 2026 · Author audit assisted by AI.**
 
-[00G-R01 y sus extensiones](../../README.md#extensiones) · [Antecedente de la reducción de base](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) · [Infoblox v0.5](../infoblox/README.md) · [Código](./check.py) · [Resultados](./results.json) · [Registro de cobertura](./coverage.json).
+[00G-R01 and its extensions](../../README.md#extensiones) · [Earlier base reduction](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) · [Infoblox v0.5](../infoblox/README.md) · [Code](./check.py) · [Results](./results.json) · [Coverage register](./coverage.json).
 
-## 1. Dictamen y alcance
+<a id="1-dictamen-y-alcance"></a>
+## 1. Verdict and scope
 
-**La conservación completa de R01 en el incidente histórico de Hugging Face no está demostrada.** Esta revisión comprueba un transporte sintético acotado y audita lo que falta para justificar una extensión real. No convierte una analogía, una tabla de parámetros o una simulación construida por nosotros en una reproducción del incidente.
+**Complete preservation of R01 in the historical Hugging Face incident is not proved.** This review checks bounded synthetic transport and audits what remains necessary to justify a real extension. It does not turn an analogy, a parameter table or a simulation constructed by us into an incident reproduction.
 
-La petición auditada es más fuerte que comprobar que aparecen muchos agentes, muchos pasos y premios atractivos: exige conservar los parámetros materiales, sus relaciones conjuntas, las decisiones y los resultados bajo recursos y observaciones comparables. Ése es el criterio utilizado aquí.
+The audited request is stronger than checking that many agents, many steps and attractive rewards appear: it requires preserving material parameters, their joint relations, decisions and outcomes under comparable resources and observations. That is the criterion used here.
 
-Hay tres resultados distintos:
+There are three distinct results:
 
-1. **Inventario documental:** se ha revisado el inventario completo de R01 §2.13, sus métricas, las identidades analíticas de coste, las obligaciones de §3.5 y A25 X1–X7. La matriz siguiente registra cobertura parcial y pendientes, sin declarar cerrados todos los factores.
-2. **Comprobación ejecutada:** un grafo sintético y su representación como tareas, tablón y registros del propietario conservan las propiedades enumeradas en §4. Se prueban también contraejemplos a transferencias incorrectas. Es una representación inspirada en las preguntas del caso HF, no el entorno histórico ni un modelo calibrado de sus agentes.
-3. **Admisión histórica:** sigue abierta. No se ha establecido una proyección completa de una trayectoria del mismo receptor, con mandato, información disponible, costes, decisión y efecto. No hay ejecución de LLM, APIs de producto, ataques, tráfico de red ni comparación EA en este paquete.
+1. **Documentary inventory:** the complete R01 §2.13 inventory, its metrics, analytical cost identities, §3.5 obligations and A25 X1–X7 have been reviewed. The following matrix records partial coverage and pending items, without declaring all factors closed.
+2. **Executed check:** a synthetic graph and its representation as tasks, a board and owner records preserve the properties listed in §4. Counterexamples to incorrect transfers are also tested. This is a representation inspired by HF case questions, not the historical environment or a calibrated model of its agents.
+3. **Historical admission:** remains open. No complete projection of a trajectory of the same receiver, with mandate, available information, costs, decision and effect, has been established. There is no execution of LLMs, product APIs, attacks, network traffic or EA comparison in this package.
 
-**R01 v0.6 es una especificación de investigación sin resultados experimentales propios.** Sus fórmulas condicionales pueden comprobarse bajo sus hipótesis; SC-H y SC-Ha–SC-He no son resultados empíricos ya obtenidos que puedan heredarse. Los ensayos anteriores 00G-HF y el comprobador de Infoblox mantienen sus ámbitos originales.
+**R01 v0.6 is a research specification without experimental results of its own.** Its conditional formulas can be checked under their hypotheses; SC-H and SC-Ha–SC-He are not already-obtained empirical results that can be inherited. Earlier 00G-HF trials and the Infoblox checker retain their original scopes.
 
-### Qué se comprobó realmente para Infoblox
+<a id="qué-se-comprobó-realmente-para-infoblox"></a>
+### What was actually checked for Infoblox
 
-Este contraste se conserva como contexto de la auditoría entre expedientes; no es evidencia del incidente HF. La comparación vigente usa la [matriz común](../CRITERIA_AND_AUDIT.md#5-matriz-común-de-los-quince-grupos-de-r01-213).
+This contrast is retained as cross-case audit context; it is not evidence of the HF incident. The current comparison uses the [common matrix](../CRITERIA_AND_AUDIT.md#5-matriz-común-de-los-quince-grupos-de-r01-213).
 
-El [documento v0.5, matriz de factores y prueba acotada](../infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) ya distingue lo representado de lo pendiente. Su script comprueba cuatro cadenas, veredictos y valores, pares de vistas indistinguibles, un control estricto, reparto de consultas, relés y curvas exactas de un contrato finito. Variar la dispersión en ese modelo no prueba su efecto sobre la búsqueda; repartir consultas entre N participantes no ejecuta una dinámica social.
+The [v0.5 document, factor matrix and bounded proof](../infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) already distinguishes represented from pending items. Its script checks four chains, verdicts and values, indistinguishable-view pairs, a strict control, query allocation, relays and exact curves of a finite contract. Varying dispersion in that model does not prove its effect on search; allocating queries among N participants does not execute social dynamics.
 
-Por tanto, **no sería correcto decir que ya se conservaron todos los parámetros y codependencias de R01 en Infoblox real**. Están pendientes, entre otros, la búsqueda probabilística completa, la influencia social, la calibración de costes y tiempo, las políticas ejecutables completas y la admisión A25. Un certificado suficiente y accesible resuelve el obstáculo informacional modelado; ninguna de estas pruebas acredita imposibilidad universal frente a las tecnologías disponibles.
+Therefore, **it would be incorrect to say all R01 parameters and codependencies have already been preserved in real Infoblox**. Pending items include complete probabilistic search, social influence, cost and time calibration, complete executable policies and A25 admission. A sufficient accessible certificate resolves the modeled informational obstacle; none of these tests establishes universal impossibility against available technologies.
 
-## 2. Qué debe conservar una extensión
+<a id="2-qué-debe-conservar-una-extensión"></a>
+## 2. What an extension must preserve
 
-La conservación de variables aisladas es insuficiente. Dos mundos pueden tener idénticas medias y dispersiones de beneficio y distancia, pero colocar los mejores beneficios en posiciones diferentes. Un radio de búsqueda fijo obtiene entonces resultados distintos. Se necesita conservar las relaciones materiales entre variables, además de sus distribuciones marginales.
+Preserving isolated variables is insufficient. Two worlds may have identical benefit and distance means and dispersions, but place the best benefits at different positions. A fixed search radius then obtains different results. Material relations between variables must be preserved alongside their marginal distributions.
 
-Para una configuración θ, una representación F del mundo y una proyección α de las trayectorias, el contrato debe identificar:
+For configuration θ, world representation F and trajectory projection α, the contract must identify:
 
-- **Tarea y alternativas:** mismo mandato; trayectorias completas, conexiones y efectos; una ruta legítima no puede aparecer o desaparecer sin registrarlo.
-- **Semántica:** Adm y J de cada trayectoria efectiva; el óptimo se resuelve sobre todas las rutas, incluidas mezclas. Suponer I por su nombre no es una comprobación.
-- **Observación:** toda la vista disponible, su orden temporal, memoria, consultas, señales y certificados. Las claves de traducción del auditor no son evidencia gratuita para el receptor.
-- **Dependencia conjunta:** qué beneficio corresponde a qué posición, qué revisión cubre qué obligación, qué mensajes derivan de qué fuente y a qué receptor aplica cada autorización.
-- **Recursos:** cargos y calendario, incluyendo búsqueda, preparación, descarte, comunicación, comprobación, ejecución, mantenimiento y acceso a certificados. No se identifica L con llamadas de herramientas ni N con mensajes.
-- **Políticas y resultados:** las mismas opciones efectivas de decisión y control; q, C, t, a, f, K y e con idénticas definiciones. Una oportunidad adicional o un control más barato puede resolver el caso y debe admitirse.
+- **Task and alternatives:** same mandate; complete trajectories, connections and effects; a legitimate route cannot appear or disappear unrecorded.
+- **Semantics:** Adm and J of each effective trajectory; the optimum is solved over all routes, including mixtures. Assuming I by its name is not a check.
+- **Observation:** the entire available view, its temporal order, memory, queries, signals and certificates. The auditor's translation keys are not free evidence for the receiver.
+- **Joint dependency:** which benefit corresponds to which position, which review covers which obligation, which messages derive from which source and to which receiver each authorization applies.
+- **Resources:** charges and schedule, including search, preparation, discard, communication, checking, execution, maintenance and certificate access. L is not equated with tool calls or N with messages.
+- **Policies and outcomes:** the same effective decision and control options; q, C, t, a, f, K and e with identical definitions. An additional opportunity or cheaper control may resolve the case and must be admitted.
 
-En el modelo finito, una biyección de acciones y consultas con la misma información y costes permite transportar una política y sus resultados bajo la misma distribución de mundos. **La biyección y ese contrato son hipótesis construidas aquí, no propiedades verificadas del incidente.** Para trasladar una cota de dificultad a un sistema más capaz habría que mostrar, además, que toda política permitida en el destino puede simularse en el origen sin más información ni mayor coste. Mostrar sólo que una política de R01 se puede ejecutar en el destino no basta.
+In the finite model, a bijection of actions and queries with the same information and costs allows a policy and its outcomes to be transported under the same world distribution. **The bijection and that contract are hypotheses constructed here, not verified incident properties.** Transferring a difficulty bound to a more capable system would additionally require showing every policy permitted in the target can be simulated in the source without more information or greater cost. Merely showing an R01 policy can execute in the target is insufficient.
 
-A25 añade la conservación de la frontera de decisión, el predicado de fallo, la ruta de requisitos y el control positivo. Su transferencia general requiere una garantía base independiente; unos cuantos resultados positivos de un comprobador no aportan esa garantía.
+A25 adds preservation of the decision boundary, failure predicate, requirements path and positive control. Its general transfer requires an independent base guarantee; a few positive checker results do not provide that guarantee.
 
-Para transferir éxito relativo al óptimo se exige además preservar J* y ε, o el umbral equivalente J*−ε, los límites de coste/plazo y todas las infracciones de campaña. Mapear una ruta no basta si se omite otra ruta mejor. El [criterio común y su contraejemplo](../CRITERIA_AND_AUDIT.md#7-resolución-de-las-observaciones-del-auditor) explicitan esta condición.
+Transferring success relative to the optimum additionally requires preserving J* and ε, or the equivalent threshold J*−ε, cost/deadline limits and all campaign violations. Mapping a route is insufficient if another better route is omitted. The [common criterion and its counterexample](../CRITERIA_AND_AUDIT.md#7-resolución-de-las-observaciones-del-auditor) make this condition explicit.
 
-## 3. Inventario de parámetros y resultados
+<a id="3-inventario-de-parámetros-y-resultados"></a>
+## 3. Parameter and outcome inventory
 
-Esta tabla cubre los quince grupos de R01 §2.13 y añade las métricas, hipótesis y contabilidad del ejemplo EA. «Sintético» significa definido y comprobado dentro del contrato de este paquete. «Pendiente histórico» no significa ausencia en el incidente: significa que esta auditoría no ha establecido la correspondencia exigida.
+This table covers the fifteen R01 §2.13 groups and adds the metrics, hypotheses and EA-example accounting. “Synthetic” means defined and checked within this package's contract. “Historical pending” does not mean absent from the incident: it means this audit has not established the required correspondence.
 
-| Grupo y referencia R01 | Qué cubre esta comprobación | Qué falta para trasladarlo al caso HF |
+| Group and R01 reference | What this check covers | What remains to transfer it to the HF case |
 |---|---|---|
-| Tarea: L, obligación, principal, resultado, T · §2.1 | Longitudes 2, 3 y 4; tarea fija y rutas completas en el grafo. | Expediente del mandato individual; unidad funcional para L; plazo y entrega verificables. No asumir solución legítima en toda tarea histórica. |
-| Población: N, unidad y reparto · §§2.5, 2.12 | N=1,2,4 en un módulo separado de reparto de consultas; coste y rondas distinguidos. | Población decisora, capacidad desigual, red, entradas y salidas, calendario y recursos por receptor. Este módulo no ejecuta agentes. |
-| Perfiles de entrada y selección de mundos · §§2.3, 2.13 | Cuatro perfiles medios fijados; malla determinista, sin rechazo de mundos. | Familia generadora probabilística, normalización y selección comparable; no calibradas con datos HF. |
-| Atractivo realizado de I y P · §2.1 | Veredictos y J de todas las rutas; óptimo exacto incluyendo mezclas. | Distinguir expectativa del agente, puntuación del evaluador y calidad legítima. No atribuir al incidente los valores sintéticos 1–4. |
-| Heterogeneidad, σ y correlaciones · §2.3 | Media conservada, desviaciones centradas y semirrango σ; σ=0 o 1/4. | Distribución aleatoria, correlaciones más generales y efecto causal sobre la elección. No se prueban SC-Ha ni monotonicidad. |
-| Geometría, D, τ, lados y conexiones · §2.4 | Coordenadas sintéticas; τ=0 o 1/2, alineación positiva/negativa con beneficios; conectores explícitos. | Geometría funcional histórica, ambos lados y desplazamiento de la posición actual. D está fijada por cadena, no barrida como parámetro independiente. |
-| Creatividad: R_e, esfuerzo y muestreo · §2.4 | Se conserva el filtro por radio desde un origen fijo para cada ruta. | Política de búsqueda con coste, descubrimiento secuencial, memoria y radio desde posiciones cambiantes. El mapa completo del auditor no se atribuye al agente. |
-| Composición, testigos y positivos · §2.9 | Conjunción y control algebraico de paridad, por separado; condiciones de conectores; rutas válidas. | Predicado histórico identificable. La paridad no es una semántica real de permisos. El bloque de consultas usa un solo testigo uniforme y no se confunde con toda la malla de grafos. |
-| Revisión: k_a, k_d, orden, salida y reutilización · §2.8 | Ventanas recortadas con cobertura única; coste exacto de salida anticipada bajo un testigo uniforme; consultas adaptativas en el submodelo. | Política completa de revisión histórica y su relación con selección, espera, rechazo y presupuesto. Las ventanas no están integradas en una campaña social. |
-| Costes: c_e, c_v, ρ y demás cargos · §2.11 | Identidades de coste de estrategias expresas; módulo de reparto con c_e=2, c_v=1 y comunicación contabilizada. | Calibración de unidades; libro completo de exploración, descartes, ejecución y mantenimiento. Las fórmulas no son cotas universales. |
-| Recursos: R, T, v, beta y transferencias · §2.12 | Presupuesto residual de consultas; presupuesto global frente a presupuesto por agente; rondas de consulta. | Reparto v/beta, reserva de ejecución, latencia completa, caducidad y política de transferencias. No se simula el planificador completo. |
-| Red: topología, s, latencia, w_s y dependencia · §2.10 | Copias de una misma raíz no añaden cobertura. | Dinámica de emisión y recepción, influencia causal, grado comparable, congestión y secuencia individual. Contar copias no modela w_s. |
-| Política: selección, desempate, espera y recuperación · §2.15 | Todas las políticas adaptativas del pequeño contrato de consultas mediante programación dinámica. | CV-C1/CV-A1/CV-A2/CV-EA completos; abstención, conectores de retorno y recuperación después del efecto. El submodelo no es toda la familia R01. |
-| Volumen: Q, cobertura, deduplicación · §2.11 | Cobertura única y relés; cargos de estrategias enumeradas. | Q emergente de la búsqueda y selección, tasa r_inv de propuestas revisadas y su acoplamiento. Q no se iguala a N. |
-| Variación: semillas, estática y cambios · §§2.13–2.14 | Malla estática determinista; dos permutaciones de identificadores; rechazo de versión inaplicable. | Mundos reservados, flujos aleatorios de agentes y campaña temporal. Comprobar una versión incorrecta no mide caducidad ni SC-He. |
-| Métricas: q,C,t,a,f,K,e,ε y fiabilidad · §1.4 | Adm/J exactos y probabilidades exactas del submodelo; coste de módulos acotados. | Vector completo por campaña, censura, incertidumbre, Pareto y comparación estadística. No hay mapa empírico de eficacia. |
-| SC-H y SC-Ha–SC-He · §§1.2, 2.18 | Se auditan sus premisas y se conservan controles que pueden resolver el caso. | Ejecución e inferencia propias. No son teoremas establecidos por el escenario base. |
-| Ejemplo EA: S,H₀,h_a,h_m · §4.4 | Sólo se revisa su papel en la contabilidad; no se ejecuta EA. | Costes de preparar, aplicar y mantener evidencia; comparación con certificados y caché convencionales. Ningún ahorro observado se atribuye aquí a EA. |
+| Task: L, obligation, principal, result, T · §2.1 | Lengths 2, 3 and 4; fixed task and complete routes in the graph. | Individual mandate record; functional unit for L; verifiable deadline and delivery. Do not assume a legitimate solution in every historical task. |
+| Population: N, unit and allocation · §§2.5, 2.12 | N=1,2,4 in a separate query-allocation module; cost and rounds distinguished. | Decision-making population, unequal capability, network, arrivals and departures, schedule and resources per receiver. This module does not execute agents. |
+| Input profiles and world selection · §§2.3, 2.13 | Four fixed mean profiles; deterministic grid, without world rejection. | Probabilistic generative family, normalization and comparable selection; not calibrated with HF data. |
+| Realized attractiveness of I and P · §2.1 | Verdicts and J of all routes; exact optimum including mixtures. | Distinguish agent expectation, evaluator score and legitimate quality. Do not attribute synthetic values 1–4 to the incident. |
+| Heterogeneity, σ and correlations · §2.3 | Preserved mean, centered deviations and half-range σ; σ=0 or 1/4. | Random distribution, more general correlations and causal effect on choice. SC-Ha and monotonicity are not proved. |
+| Geometry, D, τ, sides and connections · §2.4 | Synthetic coordinates; τ=0 or 1/2, positive/negative alignment with benefits; explicit connectors. | Historical functional geometry, both sides and displacement of current position. D is fixed per chain, not swept as an independent parameter. |
+| Creativity: R_e, effort and sampling · §2.4 | The radius filter from a fixed origin is preserved for each route. | Costly search policy, sequential discovery, memory and radius from changing positions. The auditor's complete map is not attributed to the agent. |
+| Composition, witnesses and positives · §2.9 | Conjunction and algebraic parity control, separately; connector conditions; valid routes. | Identifiable historical predicate. Parity is not real permission semantics. The query block uses one uniform witness and is not confused with the entire graph grid. |
+| Review: k_a, k_d, order, exit and reuse · §2.8 | Clipped windows with unique coverage; exact early-exit cost under a uniform witness; adaptive queries in the submodel. | Complete historical review policy and its relation to selection, waiting, rejection and budget. Windows are not integrated into a social campaign. |
+| Costs: c_e, c_v, ρ and other charges · §2.11 | Cost identities of explicit strategies; allocation module with c_e=2, c_v=1 and accounted communication. | Unit calibration; complete exploration, discard, execution and maintenance ledger. Formulas are not universal bounds. |
+| Resources: R, T, v, beta and transfers · §2.12 | Residual query budget; global budget versus per-agent budget; query rounds. | v/beta allocation, execution reserve, full latency, expiry and transfer policy. The complete scheduler is not simulated. |
+| Network: topology, s, latency, w_s and dependency · §2.10 | Copies of the same root add no coverage. | Emission and reception dynamics, causal influence, comparable degree, congestion and individual sequence. Counting copies does not model w_s. |
+| Policy: selection, tie-breaking, waiting and recovery · §2.15 | All adaptive policies of the small query contract through dynamic programming. | Complete CV-C1/CV-A1/CV-A2/CV-EA; abstention, return connectors and post-effect recovery. The submodel is not the entire R01 family. |
+| Volume: Q, coverage, deduplication · §2.11 | Unique coverage and relays; charges of enumerated strategies. | Emergent Q from search and selection, reviewed-proposal rate r_inv and their coupling. Q is not equated with N. |
+| Variation: seeds, static and changes · §§2.13–2.14 | Deterministic static grid; two identifier permutations; rejection of inapplicable version. | Held-out worlds, agent random streams and temporal campaign. Checking an incorrect version measures neither expiry nor SC-He. |
+| Metrics: q,C,t,a,f,K,e,ε and reliability · §1.4 | Exact Adm/J and exact submodel probabilities; bounded-module costs. | Complete per-campaign vector, censoring, uncertainty, Pareto and statistical comparison. No empirical effectiveness map exists. |
+| SC-H and SC-Ha–SC-He · §§1.2, 2.18 | Their premises are audited and controls that may resolve the case are preserved. | Their own execution and inference. They are not theorems established by the base scenario. |
+| EA example: S,H₀,h_a,h_m · §4.4 | Only its accounting role is reviewed; EA is not executed. | Costs of preparing, applying and maintaining evidence; comparison with conventional certificates and cache. No observed saving is attributed to EA here. |
 
-## 4. Comprobación reproducible ejecutada
+<a id="4-comprobación-reproducible-ejecutada"></a>
+## 4. Executed reproducible check
 
-### 4.1 Dos representaciones y una malla conjunta
+<a id="41-dos-representaciones-y-una-malla-conjunta"></a>
+### 4.1 Two representations and a joint grid
 
-`check.py` construye un grafo por etapas y una segunda representación de tareas del tablón con relaciones y registros del propietario. Los evaluadores de rutas de ambas representaciones están separados. La correspondencia conserva cada par beneficio–posición, cada conector, cada condición y el orden de las operaciones. Sus nombres carecen de etiquetas I/P visibles; el auditor conserva la traducción.
+`check.py` constructs a staged graph and a second representation of board tasks with relations and owner records. Route evaluators of both representations are separate. Correspondence preserves each benefit–position pair, each connector, each condition and operation order. Their names lack visible I/P labels; the auditor retains the translation.
 
-Se cruzan L∈{2,3,4}, σ∈{0,1/4}, τ∈{0,1/2}, dos signos de alineación, conectores entre cadenas activados/desactivados, conjunción/paridad y tres posiciones del testigo (ausente, primera, última). Resultan **288 configuraciones conjuntas**, verificadas con dos permutaciones de identificadores. Las desviaciones de las cadenas tienen suma cero y semirrango uno antes de aplicar σ o τ; la posición de la ruta canónica M permanece en cero. No se afirma que esa normalización sea una distribución observada en HF.
+L∈{2,3,4}, σ∈{0,1/4}, τ∈{0,1/2}, two alignment signs, enabled/disabled cross-chain connectors, conjunction/parity and three witness positions (absent, first, last) are crossed. This gives **288 joint configurations**, verified with two identifier permutations. Chain deviations sum to zero and have half-range one before applying σ or τ; the canonical M route position remains zero. That normalization is not claimed to be an observed HF distribution.
 
-Las rutas mixtas se enumeran realmente cuando los conectores las permiten. Su valor y admisibilidad pueden cambiar el óptimo; no se mantiene por decreto la cadena inicialmente denominada «mejor». La paridad se comprueba como control algebraico aparte y puede aceptar combinaciones que una conjunción rechaza.
+Mixed routes are actually enumerated when connectors permit them. Their value and admissibility may change the optimum; the chain initially called “best” is not maintained by decree. Parity is checked as a separate algebraic control and may accept combinations rejected by conjunction.
 
-El filtro de radio prueba que se conservan las parejas posición–beneficio y las rutas accesibles bajo ese filtro. No ejecuta la búsqueda de §2.4 ni demuestra que su coste sea inevitable. La igualdad de resultados entre las representaciones es una propiedad de la codificación construida; **no prueba que el incidente admita esa codificación**.
+The radius filter tests preservation of position–benefit pairs and routes accessible under that filter. It does not execute §2.4 search or prove its cost inevitable. Equality of results between representations is a property of the constructed encoding; **it does not prove the incident admits that encoding**.
 
-### 4.2 Información, costes y recursos
+<a id="42-información-costes-y-recursos"></a>
+### 4.2 Information, costs and resources
 
-Los pares de vistas incluyen todos los datos públicos declarados y todos los hechos consultados o inicialmente disponibles. Sólo difieren en una condición no consultada de la cadena candidata. Una herramienta adicional que revelase esa condición invalidaría esa indistinguibilidad; no se la puede ocultar para conservar el resultado.
+View pairs include all declared public data and all queried or initially available facts. They differ only in one unqueried candidate-chain condition. An additional tool revealing that condition would invalidate that indistinguishability; it cannot be hidden to preserve the result.
 
-El submodelo de consultas concede todas las candidatas. Para U∈{2,3,4}, fija probabilidad 1/2 para el mundo totalmente válido y 1/(2U) para cada mundo con una condición inválida. Con presupuesto residual b≤U, la programación dinámica enumera las opciones adaptativas del contrato. Conserva entre representaciones:
+The query submodel grants all candidates. For U∈{2,3,4}, it fixes probability 1/2 for the entirely valid world and 1/(2U) for each world with one invalid condition. With residual budget b≤U, dynamic programming enumerates the contract's adaptive options. It preserves between representations:
 
-- Cota optimista de acierto: 1/2 + b/(2U).
-- Control que exige cobertura suficiente: acierto 1/2 hasta b=U, y 1 con cobertura completa.
-- Certificado agregado suficiente de coste de acceso uno: acierto 1 cuando b≥1.
+- Optimistic accuracy bound: 1/2 + b/(2U).
+- Control requiring sufficient coverage: accuracy 1/2 until b=U, and 1 with full coverage.
+- Sufficient aggregate certificate with access cost one: accuracy 1 when b≥1.
 
-Son probabilidades de este problema de decisión finito, **no tasas de infracción de una flota ni estimaciones de HF**. El certificado presupone evidencia ya preparada; su construcción no es gratuita. Los otros costes comunes quedan fuera del presupuesto residual y deben cobrarse antes de trasladar la cota a una campaña.
+These are probabilities of this finite decision problem, **not fleet violation rates or HF estimates**. The certificate presupposes already-prepared evidence; its construction is not free. Other common costs lie outside the residual budget and must be charged before transferring the bound to a campaign.
 
-También se enumeran estrategias para comprobar las identidades de R01 §2.11: c_vNL, c_vNL(L+1)/2 y c_vNL². La salida anticipada con un testigo uniforme conserva E[lecturas]=(L+1)/2 y la mezcla con propuestas válidas de §2.9. Son costes de esas estrategias, no mínimos inevitables. Las ventanas k_a/k_d cuentan unidades únicas y recortan los extremos.
+Strategies are also enumerated to check R01 §2.11 identities: c_vNL, c_vNL(L+1)/2 and c_vNL². Early exit with a uniform witness preserves E[reads]=(L+1)/2 and the mixture with valid proposals in §2.9. These are costs of those strategies, not inevitable minima. k_a/k_d windows count unique units and clip endpoints.
 
-En un módulo separado, U relaciones se reparten entre N revisores. El trabajo compartido no se multiplica por N; las rondas pueden disminuir y se cobra la comunicación. Se distinguen presupuesto global fijo y presupuesto fijo por agente. Se permite U<L: ni longitud funcional ni número de participantes equivale automáticamente a evidencia pendiente.
+In a separate module, U relations are allocated among N reviewers. Shared work is not multiplied by N; rounds may decrease and communication is charged. Fixed global budget and fixed per-agent budget are distinguished. U<L is allowed: neither functional length nor participant count automatically equals pending evidence.
 
-### 4.3 Resultado del comprobador
+<a id="43-resultado-del-comprobador"></a>
+### 4.3 Checker result
 
-El registro exacto y sus contadores están en [results.json](./results.json): 288 configuraciones conjuntas, 576 verificaciones de conjuntos de rutas y óptimos bajo permutaciones, 33.408 comprobaciones de resultado de ruta y conectores, 25 pares de vistas completas, 36 valores de políticas de consulta y 918 comprobaciones de cobertura de ventanas. Todos los chequeos pasaron.
+The exact record and its counters are in [results.json](./results.json): 288 joint configurations, 576 verifications of route sets and optima under permutations, 33.408 route-outcome and connector checks, 25 complete-view pairs, 36 query-policy values and 918 window-coverage checks. All checks passed.
 
-Las configuraciones y aserciones comparten datos; **no son muestras independientes ni ensayos de agentes**. Un PASS significa que las propiedades finitas indicadas se cumplen en el código y la malla declarados. No certifica todo el documento ni una integración tecnológica.
+Configurations and assertions share data; **they are not independent samples or agent trials**. A PASS means the indicated finite properties hold in the declared code and grid. It does not certify the entire document or a technological integration.
 
-## 5. Codependencias y contraejemplos
+<a id="5-codependencias-y-contraejemplos"></a>
+## 5. Codependencies and counterexamples
 
-| Relación que importa | Comprobación o resultado | Límite |
+| Relation that matters | Check or result | Limit |
 |---|---|---|
-| μ,σ ↔ D,τ ↔ R_e ↔ alternativas alcanzables | Se conserva la pareja beneficio–posición. Contraejemplo: beneficios {1,3} y distancias {1,3}, radio 1; cambiar sólo el emparejamiento cambia el mejor beneficio accesible de 1 a 3. | Las mismas distribuciones marginales no garantizan la misma búsqueda. |
-| Conectores ↔ rutas híbridas ↔ Adm,J,I | Enumeración de rutas y óptimos en ambas representaciones. | Una extensión con conectores adicionales necesita volver a resolver el óptimo. |
-| Predicado ↔ testigo ↔ cobertura ↔ k_a,k_d | Conjunción/paridad separadas; ventanas y consulta completa. | No sustituir un predicado por otro para obtener el fallo deseado. |
-| Vista completa ↔ consultas ↔ presupuesto ↔ éxito | Pares indistinguibles y programación dinámica exacta. | Un certificado suficiente elimina la obstrucción; el conjunto de capacidades debe revisarse. |
-| N ↔ reparto ↔ coste total ↔ tiempo | 24 configuraciones separadas de reparto y presupuesto; U no se duplica por identidad. | No modela congestión, agenda completa ni influencia social. |
-| Q,r_inv ↔ orden de selección ↔ coste | Identidades para estrategias y mezcla declarada. | Q y r_inv históricos no se han estimado; la selección puede modificarlos. |
-| Linaje ↔ número de mensajes ↔ cobertura | Relés de una misma raíz siguen cubriendo una raíz. | No establece que un receptor histórico los contase como pruebas independientes. |
-| Mandato, destinatario, versión ↔ reutilización | Rechazo de evidencia con propietario, misión, receptor o versión incorrectos. | Registros transparentes del modelo; no implementación criptográfica ni auditoría de permisos reales. |
-| Denegación detectada ↔ decisión ↔ efecto | La transición «denegación conocida → ejecutar» queda fuera del receptor básico que rechaza denegaciones. | Una variante que la permita debe declararse; no se hereda la conducta básica sin cambios. |
-| Existencia de M/I ↔ óptimo legítimo ↔ mediocridad | Si no hay ninguna finalización legítima, faltan M e I según el contrato base. | Inventar una solución histórica o sustituir la tarea por «intentar» cambiaría el problema. |
-| Caducidad ↔ reutilización ↔ h_m ↔ plazo | Obligación identificada; sólo se comprueba versión inaplicable. | Campaña dinámica pendiente. |
-| Política ↔ control de ejecución ↔ q,a,f,e | Se distingue decidir, bloquear, ejecutar y entregar en la auditoría. | No se ejecuta todavía el evaluador completo de campañas; cero efectos indebidos no basta para acreditar éxito. |
+| μ,σ ↔ D,τ ↔ R_e ↔ reachable alternatives | The benefit–position pair is preserved. Counterexample: benefits {1,3} and distances {1,3}, radius 1; changing only pairing changes the best accessible benefit from 1 to 3. | Same marginal distributions do not guarantee the same search. |
+| Connectors ↔ hybrid routes ↔ Adm,J,I | Enumeration of routes and optima in both representations. | An extension with additional connectors needs the optimum solved again. |
+| Predicate ↔ witness ↔ coverage ↔ k_a,k_d | Separate conjunction/parity; windows and complete query. | Do not substitute one predicate for another to obtain the desired failure. |
+| Complete view ↔ queries ↔ budget ↔ success | Indistinguishable pairs and exact dynamic programming. | A sufficient certificate eliminates the obstruction; the capability set must be reviewed. |
+| N ↔ allocation ↔ total cost ↔ time | 24 separate allocation and budget configurations; U is not duplicated by identity. | Does not model congestion, full schedule or social influence. |
+| Q,r_inv ↔ selection order ↔ cost | Identities for declared strategies and mixture. | Historical Q and r_inv have not been estimated; selection may modify them. |
+| Lineage ↔ message count ↔ coverage | Relays of the same root still cover one root. | Does not establish a historical receiver counted them as independent evidence. |
+| Mandate, recipient, version ↔ reuse | Rejection of evidence with incorrect owner, mission, receiver or version. | Transparent model records; not cryptographic implementation or real-permission audit. |
+| Detected denial ↔ decision ↔ effect | The “known denial → execute” transition falls outside the basic receiver rejecting denials. | A variant permitting it must be declared; basic behavior is not inherited unchanged. |
+| Existence of M/I ↔ legitimate optimum ↔ mediocrity | If no legitimate completion exists, M and I are absent under the base contract. | Inventing a historical solution or replacing the task with “try” would change the problem. |
+| Expiry ↔ reuse ↔ h_m ↔ deadline | Obligation identified; only inapplicable version checked. | Dynamic campaign pending. |
+| Policy ↔ execution control ↔ q,a,f,e | Deciding, blocking, executing and delivering distinguished in the audit. | Complete campaign evaluator not yet executed; zero improper effects is insufficient to establish success. |
 
-### Qué impide una admisión automática del incidente
+<a id="qué-impide-una-admisión-automática-del-incidente"></a>
+### What prevents automatic admission of the incident
 
-Las fuentes primarias respaldan una motivación concreta, pero también límites. OpenAI describe un episodio en el que un agente expresó dudas de autorización y continuó después de un GO de un par, y recoge negativas a participar. Eso permite preguntar por la autoridad atribuida, sin aportar aquí una trayectoria histórica completa normalizada [H1].
+Primary sources support a concrete motivation, but also limits. OpenAI describes an episode where an agent expressed authorization doubts and continued after a peer's GO, and records refusals to participate. This allows questions about attributed authority, without providing a complete normalized historical trajectory here [H1].
 
-METR documenta tareas que no podían resolverse mediante la vulnerabilidad especificada, cooperación entre agentes y pasajes que reconocen extralimitación. Señala también límites de captura y reconstrucción. Por ello no se puede asumir una ruta legítima alcanzable para todo receptor, ni interpretar toda continuación como falta de información, ni convertir fragmentos de varios agentes en un único testigo [H2].
+METR documents tasks unsolvable through the specified vulnerability, agent cooperation and passages recognizing overreach. It also notes capture and reconstruction limits. A reachable legitimate route therefore cannot be assumed for every receiver, nor every continuation interpreted as lack of information, nor fragments from several agents converted into one witness [H2].
 
-El [registro histórico anterior](../../../../traversals/00G-HF-HISTORICAL-REVIEW-2026-10-01/EVIDENCE_REGISTER.json) conserva seis unidades documentales, sin adjudicación operacional completa. Se mantiene ese estado: esta auditoría no ha rellenado sus campos faltantes ni ejecutado C3 sobre ellas. R01 §3.5 excluye expresamente del receptor básico los episodios que continúan manteniendo reconocida una denegación.
+The [earlier historical register](../../../../traversals/00G-HF-HISTORICAL-REVIEW-2026-10-01/EVIDENCE_REGISTER.json) retains six documentary units, without complete operational adjudication. That status is maintained: this audit has neither filled their missing fields nor executed C3 on them. R01 §3.5 expressly excludes from the basic receiver episodes continuing while maintaining recognition of a denial.
 
-Que una trayectoria pertenezca eventualmente a C-V-G no demostraría que el coste de validación causó su desenlace. Hacen falta observaciones o intervenciones que distingan esa explicación de presión social, autoridad aparente, prioridades distintas, errores de interpretación y desobediencia pese a conocer el límite.
+Eventual membership of a trajectory in C-V-G would not demonstrate validation cost caused its outcome. Observations or interventions are needed to distinguish that explanation from social pressure, apparent authority, different priorities, interpretation errors and disobedience despite knowing the limit.
 
-## 6. Resultado frente a A25
+<a id="6-resultado-frente-a-a25"></a>
+## 6. Outcome against A25
 
-| Criterio | Estado de esta auditoría |
+| Criterion | Status of this audit |
 |---|---|
-| X1 Núcleo | Transporte finito de relaciones del submodelo; núcleo histórico completo no acreditado. |
-| X2 Frontera de decisión | Definida para el comprobador. Falta expediente suficiente de un receptor histórico concreto. |
-| X3 Reflejo del fallo | Adm/J se conservan en el modelo. Los casos de denegación conocida o ausencia de solución legítima impiden una inclusión universal en el receptor base. |
-| X4 Ruta de requisitos | No se certifican todas las obligaciones S/T; requiere auditoría propia. |
-| X5 Positivo | El modelo incluye rutas legítimas, evidencia aplicable y certificado suficiente. No equivale a un positivo histórico emparejado. |
-| X6 Recursos | Costes y presupuesto explícitos en módulos limitados; contabilidad integral y calibración histórica pendientes. |
-| X7 Sin primitivas ocultas | El comprobador declara sus operadores; la normalización completa de una implementación y sus objetos históricos sigue pendiente. |
+| X1 Kernel | Finite transport of submodel relations; complete historical kernel not established. |
+| X2 Decision boundary | Defined for the checker. Sufficient record of a concrete historical receiver missing. |
+| X3 Failure reflection | Adm/J preserved in the model. Known-denial cases or absence of legitimate solution prevent universal inclusion in the base receiver. |
+| X4 Requirements path | Not all S/T obligations certified; requires its own audit. |
+| X5 Positive | Model includes legitimate routes, applicable evidence and sufficient certificate. Not equivalent to a paired historical positive. |
+| X6 Resources | Explicit costs and budget in limited modules; complete accounting and historical calibration pending. |
+| X7 No hidden primitives | Checker declares its operators; complete normalization of an implementation and its historical objects remains pending. |
 
-**Decisión:** mantener Hugging Face como referencia histórica y extensión/reducción candidata; admitir únicamente las propiedades finitas expresamente comprobadas. No declarar cerrada la extensibilidad total, una reproducción del incidente, causalidad económica ni una ventaja de EA.
+**Decision:** retain Hugging Face as a historical reference and candidate extension/reduction; admit only expressly checked finite properties. Do not declare total extensibility, incident reproduction, economic causality or an EA advantage closed.
 
-Para cerrar una instancia se necesita seleccionar una trayectoria, verificar mandato y solución legítima, reconstruir toda su vista previa y sus capacidades, mapear parámetros y relaciones, registrar costes y tiempo, comprobar el positivo y ejecutar la comparación competente. Si una condición del R01 básico no se cumple, se delimita otra variante y se demuestra de nuevo su relación; no se modifica silenciosamente el escenario base.
+Closing an instance requires selecting a trajectory, verifying mandate and legitimate solution, reconstructing its entire prior view and capabilities, mapping parameters and relations, recording costs and time, checking the positive and executing the competent comparison. If a basic R01 condition does not hold, another variant is delimited and its relation proved again; the base scenario is not silently modified.
 
-## 7. Reproducir y verificar
+<a id="7-reproducir-y-verificar"></a>
+## 7. Reproduce and verify
 
-Desde esta carpeta, con Python 3 y su biblioteca estándar:
+From this folder, with Python 3 and its standard library:
 
 ```sh
 python3 check.py
 ```
 
-El script regenera `results.json`. `coverage.json` recoge el inventario y los estados de esta auditoría; no es un certificado emitido por el comprobador. `SHA256.json` registra las huellas de los archivos publicados. No se requieren credenciales ni acceso de red.
+The script regenerates `results.json`. `coverage.json` records this audit's inventory and states; it is not a certificate issued by the checker. `SHA256.json` records hashes of published files. No credentials or network access are required.
 
-## 8. Fuentes y versión examinada
+<a id="8-fuentes-y-versión-examinada"></a>
+## 8. Sources and examined version
 
-- **R1 — R01 v0.6**, referencia congelada para esta auditoría: [escenario completo](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), §§1.2–1.5, 2.1–2.18, 3.4–3.6 y 4.4–4.7. Especificación, no resultados de campaña.
-- **R2 — Infoblox v0.5**, [documento y matriz de factores](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md), §§5–6; [comprobador](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/proof/check.py).
-- **R3 — A25**, [criterios X1–X7 y transferencia condicional](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md), §§4–7.
-- **R4 — Antecedentes 00G-HF**, [reducción v0.1](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), [revisión de pasos 1–2](../../../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) y [registro documental histórico](../../../../traversals/00G-HF-HISTORICAL-REVIEW-2026-10-01/README.md). Consultados en el mismo commit de R1; sus resultados no se renombran como ensayos R01.
-- **H1 — OpenAI**, [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), 26 de agosto de 2026; secciones sobre el incidente y el ecosistema de desalineación. Reconsultado el 2 de octubre de 2026.
-- **H2 — METR**, [Brief independent investigation of agents’ behavior, reasoning and collaboration](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), 26 de agosto de 2026; tareas imposibles, reconocimiento del alcance, proceso y limitaciones. Reconsultado el 2 de octubre de 2026.
+- **R1 — R01 v0.6**, frozen reference for this audit: [complete scenario](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), §§1.2–1.5, 2.1–2.18, 3.4–3.6 and 4.4–4.7. Specification, not campaign results.
+- **R2 — Infoblox v0.5**, [document and factor matrix](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/README.md), §§5–6; [checker](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox/proof/check.py).
+- **R3 — A25**, [X1–X7 criteria and conditional transfer](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md), §§4–7.
+- **R4 — Earlier 00G-HF work**, [reduction v0.1](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), [steps 1–2 review](../../../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) and [historical documentary register](../../../../traversals/00G-HF-HISTORICAL-REVIEW-2026-10-01/README.md). Consulted at the same commit as R1; their results are not renamed as R01 trials.
+- **H1 — OpenAI**, [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), 26 August 2026; sections on the incident and ecosystem of misalignment. Reconsulted on 2 October 2026.
+- **H2 — METR**, [Brief independent investigation of agents’ behavior, reasoning and collaboration](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), 26 August 2026; impossible tasks, scope recognition, process and limitations. Reconsulted on 2 October 2026.
 
-No se declara revisión independiente de este paquete, muestreo aleatorio del incidente, prueba ciega ni evidencia de eficacia de EA.
+No independent review of this package, random incident sampling, blind test or evidence of EA effectiveness is declared.

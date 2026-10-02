@@ -1,0 +1,1570 @@
+{
+  "status": "PASS",
+  "language": "en",
+  "translation_source_commit": "c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340",
+  "source_repository": "dakleyer/structural-awareness-contributions",
+  "package_path": "research/ecosystem-awareness/baseline/reductions/00G-R01",
+  "scope": "faithful language edition; internal structural and integrity review; no new scientific results",
+  "markdown_documents": [
+    {
+      "path": "Escenario-creatividad-validacion.md",
+      "source_sha256": "9848b4092b0c91cb10d4923bdfdf38e974d090655d07a6e7f3fa742ab54e6547",
+      "english_sha256": "856c0d8dad3b27f1f48226a7978f2288dace3cc316912de083a5ea9dbb5e4d99",
+      "source_git_blob_sha": "3261a625975e303e12c484bc9c273d7f8819b099",
+      "english_git_blob_sha": "94874371b14beab370000ba8582714f89ba9d3d4",
+      "source_lines": 706,
+      "english_lines_excluding_aliases_and_documented_additions": 706,
+      "source_nonempty_lines": 436,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 436,
+      "headings": 49,
+      "table_rows": 177,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "00G-R01 Reducción de 00G",
+          "english_heading": "00G-R01 Reduction of 00G",
+          "source_anchor": "00g-r01-reducción-de-00g",
+          "english_anchor": "00g-r01-reduction-of-00g"
+        },
+        {
+          "source_heading": "Abstract",
+          "english_heading": "Abstract",
+          "source_anchor": "abstract",
+          "english_anchor": "abstract"
+        },
+        {
+          "source_heading": "Lectura del documento",
+          "english_heading": "Reading the document",
+          "source_anchor": "lectura-del-documento",
+          "english_anchor": "reading-the-document"
+        },
+        {
+          "source_heading": "1 El problema estructural",
+          "english_heading": "1 The structural problem",
+          "source_anchor": "1-el-problema-estructural",
+          "english_anchor": "1-the-structural-problem"
+        },
+        {
+          "source_heading": "1.1 El ámbito de aplicación de una arquitectura",
+          "english_heading": "1.1 An architecture's scope of application",
+          "source_anchor": "11-el-ámbito-de-aplicación-de-una-arquitectura",
+          "english_anchor": "11-an-architectures-scope-of-application"
+        },
+        {
+          "source_heading": "1.2 Dos áreas y un trilema",
+          "english_heading": "1.2 Two areas and a trilemma",
+          "source_anchor": "12-dos-áreas-y-un-trilema",
+          "english_anchor": "12-two-areas-and-a-trilemma"
+        },
+        {
+          "source_heading": "1.3 Qué pueden resolver las mejoras",
+          "english_heading": "1.3 What improvements may resolve",
+          "source_anchor": "13-qué-pueden-resolver-las-mejoras",
+          "english_anchor": "13-what-improvements-may-resolve"
+        },
+        {
+          "source_heading": "1.4 Evaluación y referencia convencional",
+          "english_heading": "1.4 Evaluation and conventional reference",
+          "source_anchor": "14-evaluación-y-referencia-convencional",
+          "english_anchor": "14-evaluation-and-conventional-reference"
+        },
+        {
+          "source_heading": "1.5 Qué demostraría el escenario",
+          "english_heading": "1.5 What the scenario would demonstrate",
+          "source_anchor": "15-qué-demostraría-el-escenario",
+          "english_anchor": "15-what-the-scenario-would-demonstrate"
+        },
+        {
+          "source_heading": "1.6 Controles presupuesto y elección de arquitectura",
+          "english_heading": "1.6 Controls, budget and architecture choice",
+          "source_anchor": "16-controles-presupuesto-y-elección-de-arquitectura",
+          "english_anchor": "16-controls-budget-and-architecture-choice"
+        },
+        {
+          "source_heading": "1.7 Cómo detectar el área y qué aporta la supervisión humana",
+          "english_heading": "1.7 How to detect the area and what human oversight contributes",
+          "source_anchor": "17-cómo-detectar-el-área-y-qué-aporta-la-supervisión-humana",
+          "english_anchor": "17-how-to-detect-the-area-and-what-human-oversight-contributes"
+        },
+        {
+          "source_heading": "1.8 Notación de lectura",
+          "english_heading": "1.8 Reading notation",
+          "source_anchor": "18-notación-de-lectura",
+          "english_anchor": "18-reading-notation"
+        },
+        {
+          "source_heading": "2 El escenario y sus configuraciones",
+          "english_heading": "2 The scenario and its configurations",
+          "source_anchor": "2-el-escenario-y-sus-configuraciones",
+          "english_anchor": "2-the-scenario-and-its-configurations"
+        },
+        {
+          "source_heading": "2.1 Tarea y trayectorias de referencia etiquetadas",
+          "english_heading": "2.1 Task and labeled reference trajectories",
+          "source_anchor": "21-tarea-y-trayectorias-de-referencia-etiquetadas",
+          "english_anchor": "21-task-and-labeled-reference-trajectories"
+        },
+        {
+          "source_heading": "2.2 Tramos y relaciones entre ellos",
+          "english_heading": "2.2 Segments and relations between them",
+          "source_anchor": "22-tramos-y-relaciones-entre-ellos",
+          "english_anchor": "22-segments-and-relations-between-them"
+        },
+        {
+          "source_heading": "2.3 Beneficios heterogéneos con promedio fijado",
+          "english_heading": "2.3 Heterogeneous benefits with fixed average",
+          "source_anchor": "23-beneficios-heterogéneos-con-promedio-fijado",
+          "english_anchor": "23-heterogeneous-benefits-with-fixed-average"
+        },
+        {
+          "source_heading": "2.4 Proximidad y radio creativo",
+          "english_heading": "2.4 Proximity and creative radius",
+          "source_anchor": "24-proximidad-y-radio-creativo",
+          "english_anchor": "24-proximity-and-creative-radius"
+        },
+        {
+          "source_heading": "2.5 Agentes y colaboración",
+          "english_heading": "2.5 Agents and collaboration",
+          "source_anchor": "25-agentes-y-colaboración",
+          "english_anchor": "25-agents-and-collaboration"
+        },
+        {
+          "source_heading": "2.6 Información que recibe cada componente",
+          "english_heading": "2.6 Information received by each component",
+          "source_anchor": "26-información-que-recibe-cada-componente",
+          "english_anchor": "26-information-received-by-each-component"
+        },
+        {
+          "source_heading": "2.7 Secuencia de decisión",
+          "english_heading": "2.7 Decision sequence",
+          "source_anchor": "27-secuencia-de-decisión",
+          "english_anchor": "27-decision-sequence"
+        },
+        {
+          "source_heading": "2.8 Validación convencional hacia atrás y hacia delante",
+          "english_heading": "2.8 Conventional backward and forward validation",
+          "source_anchor": "28-validación-convencional-hacia-atrás-y-hacia-delante",
+          "english_anchor": "28-conventional-backward-and-forward-validation"
+        },
+        {
+          "source_heading": "2.9 Cómo puede haber una infracción de composición",
+          "english_heading": "2.9 How a composition violation may occur",
+          "source_anchor": "29-cómo-puede-haber-una-infracción-de-composición",
+          "english_anchor": "29-how-a-composition-violation-may-occur"
+        },
+        {
+          "source_heading": "2.10 Señalización y validación social",
+          "english_heading": "2.10 Signaling and social validation",
+          "source_anchor": "210-señalización-y-validación-social",
+          "english_anchor": "210-signaling-and-social-validation"
+        },
+        {
+          "source_heading": "2.11 Coste de exploración y coste de revisión",
+          "english_heading": "2.11 Exploration cost and review cost",
+          "source_anchor": "211-coste-de-exploración-y-coste-de-revisión",
+          "english_anchor": "211-exploration-cost-and-review-cost"
+        },
+        {
+          "source_heading": "2.12 Presupuesto y plazo",
+          "english_heading": "2.12 Budget and deadline",
+          "source_anchor": "212-presupuesto-y-plazo",
+          "english_anchor": "212-budget-and-deadline"
+        },
+        {
+          "source_heading": "2.13 Inventario de configuración",
+          "english_heading": "2.13 Configuration inventory",
+          "source_anchor": "213-inventario-de-configuración",
+          "english_anchor": "213-configuration-inventory"
+        },
+        {
+          "source_heading": "2.14 Familias de configuración que interesa distinguir",
+          "english_heading": "2.14 Configuration families to distinguish",
+          "source_anchor": "214-familias-de-configuración-que-interesa-distinguir",
+          "english_anchor": "214-configuration-families-to-distinguish"
+        },
+        {
+          "source_heading": "2.15 Familia de políticas y controles",
+          "english_heading": "2.15 Policy and control family",
+          "source_anchor": "215-familia-de-políticas-y-controles",
+          "english_anchor": "215-policy-and-control-family"
+        },
+        {
+          "source_heading": "2.16 Qué debe registrar una trayectoria auditable",
+          "english_heading": "2.16 What an auditable trajectory must record",
+          "source_anchor": "216-qué-debe-registrar-una-trayectoria-auditable",
+          "english_anchor": "216-what-an-auditable-trajectory-must-record"
+        },
+        {
+          "source_heading": "2.17 Estados y requisitos verificables antes de ejecutar",
+          "english_heading": "2.17 States and verifiable requirements before execution",
+          "source_anchor": "217-estados-y-requisitos-verificables-antes-de-ejecutar",
+          "english_anchor": "217-states-and-verifiable-requirements-before-execution"
+        },
+        {
+          "source_heading": "2.18 Contrastes de los mecanismos propuestos",
+          "english_heading": "2.18 Contrasts of proposed mechanisms",
+          "source_anchor": "218-contrastes-de-los-mecanismos-propuestos",
+          "english_anchor": "218-contrasts-of-proposed-mechanisms"
+        },
+        {
+          "source_heading": "3 Familia 00G escenario reducido y referencia Hugging Face",
+          "english_heading": "3 00G family, reduced scenario and Hugging Face reference",
+          "source_anchor": "3-familia-00g-escenario-reducido-y-referencia-hugging-face",
+          "english_anchor": "3-00g-family-reduced-scenario-and-hugging-face-reference"
+        },
+        {
+          "source_heading": "3.1 La familia es más amplia que el relato de Napoleón",
+          "english_heading": "3.1 The family is broader than the Napoleon narrative",
+          "source_anchor": "31-la-familia-es-más-amplia-que-el-relato-de-napoleón",
+          "english_anchor": "31-the-family-is-broader-than-the-napoleon-narrative"
+        },
+        {
+          "source_heading": "3.2 Qué especialización puede sostenerse y cómo demostrarla",
+          "english_heading": "3.2 Which specialization can be sustained and how to prove it",
+          "source_anchor": "32-qué-especialización-puede-sostenerse-y-cómo-demostrarla",
+          "english_anchor": "32-which-specialization-can-be-sustained-and-how-to-prove-it"
+        },
+        {
+          "source_heading": "3.3 Qué documenta el incidente de OpenAI y Hugging Face",
+          "english_heading": "3.3 What the OpenAI and Hugging Face incident documents",
+          "source_anchor": "33-qué-documenta-el-incidente-de-openai-y-hugging-face",
+          "english_anchor": "33-what-the-openai-and-hugging-face-incident-documents"
+        },
+        {
+          "source_heading": "3.4 Correspondencias documentadas y frontera de la reducción",
+          "english_heading": "3.4 Documented correspondences and reduction boundary",
+          "source_anchor": "34-correspondencias-documentadas-y-frontera-de-la-reducción",
+          "english_anchor": "34-documented-correspondences-and-reduction-boundary"
+        },
+        {
+          "source_heading": "3.5 Obligaciones para admitir la relación",
+          "english_heading": "3.5 Obligations for admitting the relation",
+          "source_anchor": "35-obligaciones-para-admitir-la-relación",
+          "english_anchor": "35-obligations-for-admitting-the-relation"
+        },
+        {
+          "source_heading": "3.6 Qué cambian los controles de producción",
+          "english_heading": "3.6 What production controls change",
+          "source_anchor": "36-qué-cambian-los-controles-de-producción",
+          "english_anchor": "36-what-production-controls-change"
+        },
+        {
+          "source_heading": "3.7 Relación con el trabajo previo y sus recorridos",
+          "english_heading": "3.7 Relationship with previous work and its runs",
+          "source_anchor": "37-relación-con-el-trabajo-previo-y-sus-recorridos",
+          "english_anchor": "37-relationship-with-previous-work-and-its-runs"
+        },
+        {
+          "source_heading": "4 Apéndice sobre Ecosystem Awareness como candidata",
+          "english_heading": "4 Appendix on Ecosystem Awareness as a candidate",
+          "source_anchor": "4-apéndice-sobre-ecosystem-awareness-como-candidata",
+          "english_anchor": "4-appendix-on-ecosystem-awareness-as-a-candidate"
+        },
+        {
+          "source_heading": "4.1 La contribución que merece investigarse",
+          "english_heading": "4.1 The contribution worth investigating",
+          "source_anchor": "41-la-contribución-que-merece-investigarse",
+          "english_anchor": "41-the-contribution-worth-investigating"
+        },
+        {
+          "source_heading": "4.2 Correspondencia con las hipótesis generales",
+          "english_heading": "4.2 Correspondence with general hypotheses",
+          "source_anchor": "42-correspondencia-con-las-hipótesis-generales",
+          "english_anchor": "42-correspondence-with-general-hypotheses"
+        },
+        {
+          "source_heading": "4.3 Matriz de las hipótesis diferenciales de EA",
+          "english_heading": "4.3 EA differential hypothesis matrix",
+          "source_anchor": "43-matriz-de-las-hipótesis-diferenciales-de-ea",
+          "english_anchor": "43-ea-differential-hypothesis-matrix"
+        },
+        {
+          "source_heading": "4.4 Pequeña comprobación analítica de un ahorro posible",
+          "english_heading": "4.4 Small analytical check of possible savings",
+          "source_anchor": "44-pequeña-comprobación-analítica-de-un-ahorro-posible",
+          "english_anchor": "44-small-analytical-check-of-possible-savings"
+        },
+        {
+          "source_heading": "4.5 Controles donde no habría ventaja",
+          "english_heading": "4.5 Controls where there would be no advantage",
+          "source_anchor": "45-controles-donde-no-habría-ventaja",
+          "english_anchor": "45-controls-where-there-would-be-no-advantage"
+        },
+        {
+          "source_heading": "4.6 Cómo contrastar la candidatura con otras técnicas",
+          "english_heading": "4.6 How to test the candidacy against other techniques",
+          "source_anchor": "46-cómo-contrastar-la-candidatura-con-otras-técnicas",
+          "english_anchor": "46-how-to-test-the-candidacy-against-other-techniques"
+        },
+        {
+          "source_heading": "4.7 Qué queda fijado y qué queda por medir",
+          "english_heading": "4.7 What is fixed and what remains to measure",
+          "source_anchor": "47-qué-queda-fijado-y-qué-queda-por-medir",
+          "english_anchor": "47-what-is-fixed-and-what-remains-to-measure"
+        },
+        {
+          "source_heading": "4.8 Fuentes y localizadores de auditoría",
+          "english_heading": "4.8 Sources and audit locators",
+          "source_anchor": "48-fuentes-y-localizadores-de-auditoría",
+          "english_anchor": "48-sources-and-audit-locators"
+        },
+        {
+          "source_heading": "4.9 Registro de versiones y estado del documento",
+          "english_heading": "4.9 Version record and document status",
+          "source_anchor": "49-registro-de-versiones-y-estado-del-documento",
+          "english_anchor": "49-version-record-and-document-status"
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "90c74d11ad10a78586b62d5505812806d89f6069188ff58bb0f4583deeb0e1d8",
+      "english_sha256": "4b638de2ce926ac0981143ff8a98d77e6a3e8af1c0c1813307ce871f268e9c73",
+      "source_git_blob_sha": "06a78702e68da38bd5dcb3d1cc8d94cfa187bff0",
+      "english_git_blob_sha": "7cafabfacc7ffd406296dfc0cdad12b36b8d97f6",
+      "source_lines": 114,
+      "english_lines_excluding_aliases_and_documented_additions": 114,
+      "source_nonempty_lines": 74,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 74,
+      "headings": 12,
+      "table_rows": 36,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [
+        "one navigation link to TRANSLATION_TRACE.md"
+      ],
+      "heading_correspondence": [
+        {
+          "source_heading": "00G-R01 Reducción de 00G",
+          "english_heading": "00G-R01 Reduction of 00G",
+          "source_anchor": "00g-r01-reducción-de-00g",
+          "english_anchor": "00g-r01-reduction-of-00g"
+        },
+        {
+          "source_heading": "Exploración probabilística y coste de validación",
+          "english_heading": "Probabilistic exploration and validation cost",
+          "source_anchor": "exploración-probabilística-y-coste-de-validación",
+          "english_anchor": "probabilistic-exploration-and-validation-cost"
+        },
+        {
+          "source_heading": "Guía de lectura",
+          "english_heading": "Reading guide",
+          "source_anchor": "guía-de-lectura",
+          "english_anchor": "reading-guide"
+        },
+        {
+          "source_heading": "Lugar de la reducción dentro de 00G",
+          "english_heading": "Place of the reduction within 00G",
+          "source_anchor": "lugar-de-la-reducción-dentro-de-00g",
+          "english_anchor": "place-of-the-reduction-within-00g"
+        },
+        {
+          "source_heading": "Fundamento y prueba de la reducción",
+          "english_heading": "Foundation and proof of the reduction",
+          "source_anchor": "fundamento-y-prueba-de-la-reducción",
+          "english_anchor": "foundation-and-proof-of-the-reduction"
+        },
+        {
+          "source_heading": "Cómo se hace la reducción",
+          "english_heading": "How the reduction is performed",
+          "source_anchor": "cómo-se-hace-la-reducción",
+          "english_anchor": "how-the-reduction-is-performed"
+        },
+        {
+          "source_heading": "Identificación y estado",
+          "english_heading": "Identification and status",
+          "source_anchor": "identificación-y-estado",
+          "english_anchor": "identification-and-status"
+        },
+        {
+          "source_heading": "Control del test y alcance del oráculo C3",
+          "english_heading": "Test control and scope of the C3 oracle",
+          "source_anchor": "control-del-test-y-alcance-del-oráculo-c3",
+          "english_anchor": "test-control-and-scope-of-the-c3-oracle"
+        },
+        {
+          "source_heading": "Historial de ensayos y trabajo pendiente",
+          "english_heading": "Trial history and pending work",
+          "source_anchor": "historial-de-ensayos-y-trabajo-pendiente",
+          "english_anchor": "trial-history-and-pending-work"
+        },
+        {
+          "source_heading": "Extensiones",
+          "english_heading": "Extensions",
+          "source_anchor": "extensiones",
+          "english_anchor": "extensions"
+        },
+        {
+          "source_heading": "Reproducción conjunta de las comprobaciones",
+          "english_heading": "Joint reproduction of the checks",
+          "source_anchor": "reproducción-conjunta-de-las-comprobaciones",
+          "english_anchor": "joint-reproduction-of-the-checks"
+        },
+        {
+          "source_heading": "Archivos y reproducción editorial",
+          "english_heading": "Files and editorial reproduction",
+          "source_anchor": "archivos-y-reproducción-editorial",
+          "english_anchor": "files-and-editorial-reproduction"
+        }
+      ]
+    },
+    {
+      "path": "extensions/CRITERIA_AND_AUDIT.md",
+      "source_sha256": "6ae364b336b52b8407492f7f169fe0e6775ccae3c3f05da5f717225ebd8d03dd",
+      "english_sha256": "4293b732f7213efd183b301806e1c8aab267b61ff1b3278cf754fac309402356",
+      "source_git_blob_sha": "68015d834f01e61a9cbe9853dfa0adcc10aa68eb",
+      "english_git_blob_sha": "83b40867f86d2e4d75e09e0f1784758a5afa019b",
+      "source_lines": 137,
+      "english_lines_excluding_aliases_and_documented_additions": 137,
+      "source_nonempty_lines": 100,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 100,
+      "headings": 10,
+      "table_rows": 58,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Criterio común y revisión de las tres extensiones de R01",
+          "english_heading": "Common criterion and review of the three R01 extensions",
+          "source_anchor": "criterio-común-y-revisión-de-las-tres-extensiones-de-r01",
+          "english_anchor": "common-criterion-and-review-of-the-three-r01-extensions"
+        },
+        {
+          "source_heading": "1 Base fijada y objeto de la revisión",
+          "english_heading": "1 Fixed base and object of the review",
+          "source_anchor": "1-base-fijada-y-objeto-de-la-revisión",
+          "english_anchor": "1-fixed-base-and-object-of-the-review"
+        },
+        {
+          "source_heading": "2 Contrato común de correspondencia",
+          "english_heading": "2 Common correspondence contract",
+          "source_anchor": "2-contrato-común-de-correspondencia",
+          "english_anchor": "2-common-correspondence-contract"
+        },
+        {
+          "source_heading": "3 Estados de evidencia comunes",
+          "english_heading": "3 Common evidence states",
+          "source_anchor": "3-estados-de-evidencia-comunes",
+          "english_anchor": "3-common-evidence-states"
+        },
+        {
+          "source_heading": "4 Fichas comparables",
+          "english_heading": "4 Comparable records",
+          "source_anchor": "4-fichas-comparables",
+          "english_anchor": "4-comparable-records"
+        },
+        {
+          "source_heading": "5 Matriz común de los quince grupos de R01 §2.13",
+          "english_heading": "5 Common matrix of the fifteen R01 §2.13 groups",
+          "source_anchor": "5-matriz-común-de-los-quince-grupos-de-r01-213",
+          "english_anchor": "5-common-matrix-of-the-fifteen-r01-213-groups"
+        },
+        {
+          "source_heading": "6 A25 X1–X7 con el mismo alcance",
+          "english_heading": "6 A25 X1–X7 with the same scope",
+          "source_anchor": "6-a25-x1x7-con-el-mismo-alcance",
+          "english_anchor": "6-a25-x1x7-with-the-same-scope"
+        },
+        {
+          "source_heading": "7 Resolución de las observaciones del auditor",
+          "english_heading": "7 Resolution of the auditor's observations",
+          "source_anchor": "7-resolución-de-las-observaciones-del-auditor",
+          "english_anchor": "7-resolution-of-the-auditors-observations"
+        },
+        {
+          "source_heading": "8 Reproducibilidad e integridad",
+          "english_heading": "8 Reproducibility and integrity",
+          "source_anchor": "8-reproducibilidad-e-integridad",
+          "english_anchor": "8-reproducibility-and-integrity"
+        },
+        {
+          "source_heading": "9 Fundamento metodológico y transferencia comparativa",
+          "english_heading": "9 Methodological foundations and comparative transfer",
+          "source_anchor": "9-fundamento-metodológico-y-transferencia-comparativa",
+          "english_anchor": "9-methodological-foundations-and-comparative-transfer"
+        }
+      ]
+    },
+    {
+      "path": "extensions/EDITORIAL_REVIEW.md",
+      "source_sha256": "5e51a9404ea666f6b09a818a248944bb2561378bea7279099747f2fca534e11b",
+      "english_sha256": "43851a48baf0b66ddaffac5616c45f489626713558072caea0fdab10cc26deed",
+      "source_git_blob_sha": "cb9c205cc7b5d15f7cbe24d6607ba9dede5abdf2",
+      "english_git_blob_sha": "4d29b2b87737e669e7a88b9ed02ad827b343762a",
+      "source_lines": 65,
+      "english_lines_excluding_aliases_and_documented_additions": 65,
+      "source_nonempty_lines": 43,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 43,
+      "headings": 7,
+      "table_rows": 14,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Revisión editorial, coherencia y reproducción del paquete R01",
+          "english_heading": "Editorial review, coherence and reproduction of the R01 package",
+          "source_anchor": "revisión-editorial-coherencia-y-reproducción-del-paquete-r01",
+          "english_anchor": "editorial-review-coherence-and-reproduction-of-the-r01-package"
+        },
+        {
+          "source_heading": "1 Alcance y resultado",
+          "english_heading": "1 Scope and outcome",
+          "source_anchor": "1-alcance-y-resultado",
+          "english_anchor": "1-scope-and-outcome"
+        },
+        {
+          "source_heading": "2 Procedimiento aplicado",
+          "english_heading": "2 Procedure applied",
+          "source_anchor": "2-procedimiento-aplicado",
+          "english_anchor": "2-procedure-applied"
+        },
+        {
+          "source_heading": "3 Un criterio, tres objetos",
+          "english_heading": "3 One criterion, three objects",
+          "source_anchor": "3-un-criterio-tres-objetos",
+          "english_anchor": "3-one-criterion-three-objects"
+        },
+        {
+          "source_heading": "4 Correcciones editoriales",
+          "english_heading": "4 Editorial corrections",
+          "source_anchor": "4-correcciones-editoriales",
+          "english_anchor": "4-editorial-corrections"
+        },
+        {
+          "source_heading": "5 Cómo repetir la comprobación",
+          "english_heading": "5 How to repeat the check",
+          "source_anchor": "5-cómo-repetir-la-comprobación",
+          "english_anchor": "5-how-to-repeat-the-check"
+        },
+        {
+          "source_heading": "6 Qué sigue abierto",
+          "english_heading": "6 What remains open",
+          "source_anchor": "6-qué-sigue-abierto",
+          "english_anchor": "6-what-remains-open"
+        }
+      ]
+    },
+    {
+      "path": "extensions/METHODOLOGICAL_FOUNDATIONS.md",
+      "source_sha256": "ad5d5862d2fc1ad4902c4074b532669de474a782bda27b497fb840f3aeb37a5f",
+      "english_sha256": "d62e3e96165ffd69f68b5591ddc12ef08d0ee926bb136fedeee6a5ca698d0d64",
+      "source_git_blob_sha": "9506995b3db093ba230daa0dc4f461f26b23cadd",
+      "english_git_blob_sha": "a174ecf5253cbdc6d17f917d2dfff26d6bdc5533",
+      "source_lines": 163,
+      "english_lines_excluding_aliases_and_documented_additions": 163,
+      "source_nonempty_lines": 111,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 111,
+      "headings": 13,
+      "table_rows": 29,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Fundamento metodológico: probar R01 y transferir sólo propiedades preservadas",
+          "english_heading": "Methodological foundations: test R01 and transfer only preserved properties",
+          "source_anchor": "fundamento-metodológico-probar-r01-y-transferir-sólo-propiedades-preservadas",
+          "english_anchor": "methodological-foundations-test-r01-and-transfer-only-preserved-properties"
+        },
+        {
+          "source_heading": "1 Qué justifica este método",
+          "english_heading": "1 What justifies this method",
+          "source_anchor": "1-qué-justifica-este-método",
+          "english_anchor": "1-what-justifies-this-method"
+        },
+        {
+          "source_heading": "2 Precedentes y correspondencia precisa",
+          "english_heading": "2 Precedents and precise correspondence",
+          "source_anchor": "2-precedentes-y-correspondencia-precisa",
+          "english_anchor": "2-precedents-and-precise-correspondence"
+        },
+        {
+          "source_heading": "2.1 Pruebas concretas en otras áreas",
+          "english_heading": "2.1 Concrete tests in other areas",
+          "source_anchor": "21-pruebas-concretas-en-otras-áreas",
+          "english_anchor": "21-concrete-tests-in-other-areas"
+        },
+        {
+          "source_heading": "2.2 Precedente reciente relacionado con modelos neuronales",
+          "english_heading": "2.2 Recent precedent related to neural models",
+          "source_anchor": "22-precedente-reciente-relacionado-con-modelos-neuronales",
+          "english_anchor": "22-recent-precedent-related-to-neural-models"
+        },
+        {
+          "source_heading": "3 Tres relaciones que no deben confundirse",
+          "english_heading": "3 Three relations that must not be confused",
+          "source_anchor": "3-tres-relaciones-que-no-deben-confundirse",
+          "english_anchor": "3-three-relations-that-must-not-be-confused"
+        },
+        {
+          "source_heading": "4 Resultado formal para una comparación EA–control",
+          "english_heading": "4 Formal result for an EA–control comparison",
+          "source_anchor": "4-resultado-formal-para-una-comparación-eacontrol",
+          "english_anchor": "4-formal-result-for-an-eacontrol-comparison"
+        },
+        {
+          "source_heading": "4.1 Si la conservación sólo es aproximada",
+          "english_heading": "4.1 If preservation is only approximate",
+          "source_anchor": "41-si-la-conservación-sólo-es-aproximada",
+          "english_anchor": "41-if-preservation-is-only-approximate"
+        },
+        {
+          "source_heading": "5 Qué significa probar primero EA en el reducido",
+          "english_heading": "5 What testing EA in the reduced model first means",
+          "source_anchor": "5-qué-significa-probar-primero-ea-en-el-reducido",
+          "english_anchor": "5-what-testing-ea-in-the-reduced-model-first-means"
+        },
+        {
+          "source_heading": "6 Crítica de las afirmaciones anteriores",
+          "english_heading": "6 Critique of previous claims",
+          "source_anchor": "6-crítica-de-las-afirmaciones-anteriores",
+          "english_anchor": "6-critique-of-previous-claims"
+        },
+        {
+          "source_heading": "6.1 Tratamiento de la bibliografía recibida",
+          "english_heading": "6.1 Treatment of the received bibliography",
+          "source_anchor": "61-tratamiento-de-la-bibliografía-recibida",
+          "english_anchor": "61-treatment-of-the-received-bibliography"
+        },
+        {
+          "source_heading": "7 Afirmación metodológica defendible",
+          "english_heading": "7 Defensible methodological claim",
+          "source_anchor": "7-afirmación-metodológica-defendible",
+          "english_anchor": "7-defensible-methodological-claim"
+        },
+        {
+          "source_heading": "8 Referencias primarias y localizadores",
+          "english_heading": "8 Primary references and locators",
+          "source_anchor": "8-referencias-primarias-y-localizadores",
+          "english_anchor": "8-primary-references-and-locators"
+        }
+      ]
+    },
+    {
+      "path": "extensions/family/KERNEL_AND_PROOF.md",
+      "source_sha256": "16c4a4d9fc6790a8d1d5c2905d8677389798434b32d60ce0d56c8c45db35e41c",
+      "english_sha256": "d638d3c045ab1ffb5f0f9b14df6c965fcce476a92f2aa3e71adff0843ab81e89",
+      "source_git_blob_sha": "0e63f82a9f19b880afb2e0cadd63029f3107d24f",
+      "english_git_blob_sha": "35240c1e12a1ff82798e59a9fe666f04812c26a5",
+      "source_lines": 206,
+      "english_lines_excluding_aliases_and_documented_additions": 206,
+      "source_nonempty_lines": 140,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 140,
+      "headings": 12,
+      "table_rows": 38,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Núcleo funcional isomorfo y extensión parametrizada de R01",
+          "english_heading": "Isomorphic functional kernel and parameterized extension of R01",
+          "source_anchor": "núcleo-funcional-isomorfo-y-extensión-parametrizada-de-r01",
+          "english_anchor": "isomorphic-functional-kernel-and-parameterized-extension-of-r01"
+        },
+        {
+          "source_heading": "1 Afirmación que se quiere probar",
+          "english_heading": "1 Claim to be proved",
+          "source_anchor": "1-afirmación-que-se-quiere-probar",
+          "english_anchor": "1-claim-to-be-proved"
+        },
+        {
+          "source_heading": "2 Estructura del caso base",
+          "english_heading": "2 Structure of the base case",
+          "source_anchor": "2-estructura-del-caso-base",
+          "english_anchor": "2-structure-of-the-base-case"
+        },
+        {
+          "source_heading": "3 Inventario completo de correspondencias principales",
+          "english_heading": "3 Complete inventory of main correspondences",
+          "source_anchor": "3-inventario-completo-de-correspondencias-principales",
+          "english_anchor": "3-complete-inventory-of-main-correspondences"
+        },
+        {
+          "source_heading": "4 Extensión, transformación y proyección",
+          "english_heading": "4 Extension, transformation and projection",
+          "source_anchor": "4-extensión-transformación-y-proyección",
+          "english_anchor": "4-extension-transformation-and-projection"
+        },
+        {
+          "source_heading": "4.1 Obligaciones E1–E7",
+          "english_heading": "4.1 Obligations E1–E7",
+          "source_anchor": "41-obligaciones-e1e7",
+          "english_anchor": "41-obligations-e1e7"
+        },
+        {
+          "source_heading": "5 Proposición de conservación y prueba",
+          "english_heading": "5 Preservation proposition and proof",
+          "source_anchor": "5-proposición-de-conservación-y-prueba",
+          "english_anchor": "5-preservation-proposition-and-proof"
+        },
+        {
+          "source_heading": "5.1 Construcción de una clase de extensiones",
+          "english_heading": "5.1 Construction of a class of extensions",
+          "source_anchor": "51-construcción-de-una-clase-de-extensiones",
+          "english_anchor": "51-construction-of-a-class-of-extensions"
+        },
+        {
+          "source_heading": "5.2 Corolario para dos brazos comparados",
+          "english_heading": "5.2 Corollary for two compared arms",
+          "source_anchor": "52-corolario-para-dos-brazos-comparados",
+          "english_anchor": "52-corollary-for-two-compared-arms"
+        },
+        {
+          "source_heading": "6 Transformaciones concretas y contraejemplos",
+          "english_heading": "6 Concrete transformations and counterexamples",
+          "source_anchor": "6-transformaciones-concretas-y-contraejemplos",
+          "english_anchor": "6-concrete-transformations-and-counterexamples"
+        },
+        {
+          "source_heading": "7 Testigo finito, relación con A25 y límites",
+          "english_heading": "7 Finite witness, relationship with A25 and limits",
+          "source_anchor": "7-testigo-finito-relación-con-a25-y-límites",
+          "english_anchor": "7-finite-witness-relationship-with-a25-and-limits"
+        },
+        {
+          "source_heading": "8 Fuentes",
+          "english_heading": "8 Sources",
+          "source_anchor": "8-fuentes",
+          "english_anchor": "8-sources"
+        }
+      ]
+    },
+    {
+      "path": "extensions/family/README.md",
+      "source_sha256": "d32243ddbcae85ebabad47999bc1819ae840f6939bb2e462aee7a3073b36a3e1",
+      "english_sha256": "b58005a4d8c19f6a0c0dabe2e1517a99c8540687fa5245faf90b4f0a4d4d9dfc",
+      "source_git_blob_sha": "121d7ea849919961c563546ccd1848d938969fb1",
+      "english_git_blob_sha": "1e61c3eab4f226366b2f75464bec870f1eef890d",
+      "source_lines": 118,
+      "english_lines_excluding_aliases_and_documented_additions": 118,
+      "source_nonempty_lines": 74,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 74,
+      "headings": 11,
+      "table_rows": 28,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Familia extendida de R01 con núcleo funcional isomorfo",
+          "english_heading": "Extended R01 family with an isomorphic functional kernel",
+          "source_anchor": "familia-extendida-de-r01-con-núcleo-funcional-isomorfo",
+          "english_anchor": "extended-r01-family-with-an-isomorphic-functional-kernel"
+        },
+        {
+          "source_heading": "Ficha común de revisión",
+          "english_heading": "Common review record",
+          "source_anchor": "ficha-común-de-revisión",
+          "english_anchor": "common-review-record"
+        },
+        {
+          "source_heading": "1 Propósito y alcance",
+          "english_heading": "1 Purpose and scope",
+          "source_anchor": "1-propósito-y-alcance",
+          "english_anchor": "1-purpose-and-scope"
+        },
+        {
+          "source_heading": "2 Qué significa extender R01",
+          "english_heading": "2 What extending R01 means",
+          "source_anchor": "2-qué-significa-extender-r01",
+          "english_anchor": "2-what-extending-r01-means"
+        },
+        {
+          "source_heading": "3 Casos documentados que motivan la familia",
+          "english_heading": "3 Documented cases motivating the family",
+          "source_anchor": "3-casos-documentados-que-motivan-la-familia",
+          "english_anchor": "3-documented-cases-motivating-the-family"
+        },
+        {
+          "source_heading": "4 Tres especializaciones construidas",
+          "english_heading": "4 Three constructed specializations",
+          "source_anchor": "4-tres-especializaciones-construidas",
+          "english_anchor": "4-three-constructed-specializations"
+        },
+        {
+          "source_heading": "4.1 H: escenario similar a Hugging Face",
+          "english_heading": "4.1 H: scenario similar to Hugging Face",
+          "source_anchor": "41-h-escenario-similar-a-hugging-face",
+          "english_anchor": "41-h-scenario-similar-to-hugging-face"
+        },
+        {
+          "source_heading": "4.2 L: escenario similar a la aceptación de falsas soluciones",
+          "english_heading": "4.2 L: scenario similar to acceptance of false solutions",
+          "source_anchor": "42-l-escenario-similar-a-la-aceptación-de-falsas-soluciones",
+          "english_anchor": "42-l-scenario-similar-to-acceptance-of-false-solutions"
+        },
+        {
+          "source_heading": "4.3 W: escenario similar al descubrimiento de una wiki utilizable",
+          "english_heading": "4.3 W: scenario similar to discovering a usable wiki",
+          "source_anchor": "43-w-escenario-similar-al-descubrimiento-de-una-wiki-utilizable",
+          "english_anchor": "43-w-scenario-similar-to-discovering-a-usable-wiki"
+        },
+        {
+          "source_heading": "5 Qué se demuestra y qué se mide después",
+          "english_heading": "5 What is proved and what is measured afterward",
+          "source_anchor": "5-qué-se-demuestra-y-qué-se-mide-después",
+          "english_anchor": "5-what-is-proved-and-what-is-measured-afterward"
+        },
+        {
+          "source_heading": "6 Referencias internas y trazabilidad",
+          "english_heading": "6 Internal references and traceability",
+          "source_anchor": "6-referencias-internas-y-trazabilidad",
+          "english_anchor": "6-internal-references-and-traceability"
+        }
+      ]
+    },
+    {
+      "path": "extensions/family/proof/README.md",
+      "source_sha256": "fc23bf99a4f0192bf7a2878c45cd2851bcdbefa1837c29e1e497893ba1bd49b8",
+      "english_sha256": "a805c5b258374a52e09943ac9451e7e4db161623476767a27294c5c98bb30bf6",
+      "source_git_blob_sha": "f677fc9cc86ba1690df3de4f4492173d1b139fc3",
+      "english_git_blob_sha": "813441815c4e78a76771f1a6478a558bd50854ab",
+      "source_lines": 80,
+      "english_lines_excluding_aliases_and_documented_additions": 80,
+      "source_nonempty_lines": 52,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 52,
+      "headings": 7,
+      "table_rows": 15,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Comprobación finita del núcleo de las extensiones H/L/W",
+          "english_heading": "Finite check of the H/L/W extension kernel",
+          "source_anchor": "comprobación-finita-del-núcleo-de-las-extensiones-hlw",
+          "english_anchor": "finite-check-of-the-hlw-extension-kernel"
+        },
+        {
+          "source_heading": "Qué se ha ejecutado",
+          "english_heading": "What has been executed",
+          "source_anchor": "qué-se-ha-ejecutado",
+          "english_anchor": "what-has-been-executed"
+        },
+        {
+          "source_heading": "Dominio enumerado",
+          "english_heading": "Enumerated domain",
+          "source_anchor": "dominio-enumerado",
+          "english_anchor": "enumerated-domain"
+        },
+        {
+          "source_heading": "Cómo evita una comprobación circular",
+          "english_heading": "How it avoids a circular check",
+          "source_anchor": "cómo-evita-una-comprobación-circular",
+          "english_anchor": "how-it-avoids-a-circular-check"
+        },
+        {
+          "source_heading": "Resultado registrado",
+          "english_heading": "Recorded result",
+          "source_anchor": "resultado-registrado",
+          "english_anchor": "recorded-result"
+        },
+        {
+          "source_heading": "Cobertura frente al inventario completo",
+          "english_heading": "Coverage against the complete inventory",
+          "source_anchor": "cobertura-frente-al-inventario-completo",
+          "english_anchor": "coverage-against-the-complete-inventory"
+        },
+        {
+          "source_heading": "Reproducción",
+          "english_heading": "Reproduction",
+          "source_anchor": "reproducción",
+          "english_anchor": "reproduction"
+        }
+      ]
+    },
+    {
+      "path": "extensions/hugging-face/README.md",
+      "source_sha256": "1c214f31dfc4c3256fd429e88ba8068be7a44eab2e5224f0ea2c9e1cf717f048",
+      "english_sha256": "ef31d2f951977078f7357e118aa3cc6f37dcbd265dfc740851937c918957bc71",
+      "source_git_blob_sha": "aff217c27fe15742c2794a7512d753d747d1bd31",
+      "english_git_blob_sha": "8d7e0bc813dacba35b7bab44566914dca4fd6ee4",
+      "source_lines": 202,
+      "english_lines_excluding_aliases_and_documented_additions": 202,
+      "source_nonempty_lines": 137,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 137,
+      "headings": 15,
+      "table_rows": 60,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Extensión de R01: OpenAI / Hugging Face",
+          "english_heading": "R01 extension: OpenAI / Hugging Face",
+          "source_anchor": "extensión-de-r01-openai--hugging-face",
+          "english_anchor": "r01-extension-openai--hugging-face"
+        },
+        {
+          "source_heading": "Ficha común de revisión",
+          "english_heading": "Common review record",
+          "source_anchor": "ficha-común-de-revisión",
+          "english_anchor": "common-review-record"
+        },
+        {
+          "source_heading": "1. Dictamen y alcance",
+          "english_heading": "1. Verdict and scope",
+          "source_anchor": "1-dictamen-y-alcance",
+          "english_anchor": "1-verdict-and-scope"
+        },
+        {
+          "source_heading": "Qué se comprobó realmente para Infoblox",
+          "english_heading": "What was actually checked for Infoblox",
+          "source_anchor": "qué-se-comprobó-realmente-para-infoblox",
+          "english_anchor": "what-was-actually-checked-for-infoblox"
+        },
+        {
+          "source_heading": "2. Qué debe conservar una extensión",
+          "english_heading": "2. What an extension must preserve",
+          "source_anchor": "2-qué-debe-conservar-una-extensión",
+          "english_anchor": "2-what-an-extension-must-preserve"
+        },
+        {
+          "source_heading": "3. Inventario de parámetros y resultados",
+          "english_heading": "3. Parameter and outcome inventory",
+          "source_anchor": "3-inventario-de-parámetros-y-resultados",
+          "english_anchor": "3-parameter-and-outcome-inventory"
+        },
+        {
+          "source_heading": "4. Comprobación reproducible ejecutada",
+          "english_heading": "4. Executed reproducible check",
+          "source_anchor": "4-comprobación-reproducible-ejecutada",
+          "english_anchor": "4-executed-reproducible-check"
+        },
+        {
+          "source_heading": "4.1 Dos representaciones y una malla conjunta",
+          "english_heading": "4.1 Two representations and a joint grid",
+          "source_anchor": "41-dos-representaciones-y-una-malla-conjunta",
+          "english_anchor": "41-two-representations-and-a-joint-grid"
+        },
+        {
+          "source_heading": "4.2 Información, costes y recursos",
+          "english_heading": "4.2 Information, costs and resources",
+          "source_anchor": "42-información-costes-y-recursos",
+          "english_anchor": "42-information-costs-and-resources"
+        },
+        {
+          "source_heading": "4.3 Resultado del comprobador",
+          "english_heading": "4.3 Checker result",
+          "source_anchor": "43-resultado-del-comprobador",
+          "english_anchor": "43-checker-result"
+        },
+        {
+          "source_heading": "5. Codependencias y contraejemplos",
+          "english_heading": "5. Codependencies and counterexamples",
+          "source_anchor": "5-codependencias-y-contraejemplos",
+          "english_anchor": "5-codependencies-and-counterexamples"
+        },
+        {
+          "source_heading": "Qué impide una admisión automática del incidente",
+          "english_heading": "What prevents automatic admission of the incident",
+          "source_anchor": "qué-impide-una-admisión-automática-del-incidente",
+          "english_anchor": "what-prevents-automatic-admission-of-the-incident"
+        },
+        {
+          "source_heading": "6. Resultado frente a A25",
+          "english_heading": "6. Outcome against A25",
+          "source_anchor": "6-resultado-frente-a-a25",
+          "english_anchor": "6-outcome-against-a25"
+        },
+        {
+          "source_heading": "7. Reproducir y verificar",
+          "english_heading": "7. Reproduce and verify",
+          "source_anchor": "7-reproducir-y-verificar",
+          "english_anchor": "7-reproduce-and-verify"
+        },
+        {
+          "source_heading": "8. Fuentes y versión examinada",
+          "english_heading": "8. Sources and examined version",
+          "source_anchor": "8-fuentes-y-versión-examinada",
+          "english_anchor": "8-sources-and-examined-version"
+        }
+      ]
+    },
+    {
+      "path": "extensions/hugging-face/proof/README.md",
+      "source_sha256": "533f802cdca61305ee76c1c83fe9bc5adcbb2f94a668da90e51470016cd58ef8",
+      "english_sha256": "3678f278ccd0c2c716ad4269b3620dbeb4f6056e65b4819b3065c0ddb786661c",
+      "source_git_blob_sha": "72b3b7c32590136c4339667bed0048774183ff39",
+      "english_git_blob_sha": "d230763b706c399241e1bc262ea7c26f8c32ff1e",
+      "source_lines": 24,
+      "english_lines_excluding_aliases_and_documented_additions": 24,
+      "source_nonempty_lines": 16,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 16,
+      "headings": 1,
+      "table_rows": 6,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Hugging Face: código y resultados de la validación acotada",
+          "english_heading": "Hugging Face: bounded validation code and results",
+          "source_anchor": "hugging-face-código-y-resultados-de-la-validación-acotada",
+          "english_anchor": "hugging-face-bounded-validation-code-and-results"
+        }
+      ]
+    },
+    {
+      "path": "extensions/infoblox/README.md",
+      "source_sha256": "56cd12a09c9e5bc1180a7cfa0e1189be3d85d707e4b56cb319e2f33cefedd889",
+      "english_sha256": "116937ba8d96d32aa014988cb5cf61e0b91e4dd49db83e44f7d6cfd70548ce17",
+      "source_git_blob_sha": "97b5df5c2e5d2be8adcbff17595720cc68bf9514",
+      "english_git_blob_sha": "aba2f04aa5deaee59bbf043d89a15495dc295a28",
+      "source_lines": 743,
+      "english_lines_excluding_aliases_and_documented_additions": 743,
+      "source_nonempty_lines": 476,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 476,
+      "headings": 50,
+      "table_rows": 223,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Extensión de R01: Infoblox",
+          "english_heading": "R01 extension: Infoblox",
+          "source_anchor": "extensión-de-r01-infoblox",
+          "english_anchor": "r01-extension-infoblox"
+        },
+        {
+          "source_heading": "Ficha común de revisión",
+          "english_heading": "Common review record",
+          "source_anchor": "ficha-común-de-revisión",
+          "english_anchor": "common-review-record"
+        },
+        {
+          "source_heading": "R01 y su extensión al caso Infoblox",
+          "english_heading": "R01 and its extension to the Infoblox case",
+          "source_anchor": "r01-y-su-extensión-al-caso-infoblox",
+          "english_anchor": "r01-and-its-extension-to-the-infoblox-case"
+        },
+        {
+          "source_heading": "1 Objetivo y resultado de la revisión",
+          "english_heading": "1 Review objective and outcome",
+          "source_anchor": "1-objetivo-y-resultado-de-la-revisión",
+          "english_anchor": "1-review-objective-and-outcome"
+        },
+        {
+          "source_heading": "Cómo leer el documento",
+          "english_heading": "How to read the document",
+          "source_anchor": "cómo-leer-el-documento",
+          "english_anchor": "how-to-read-the-document"
+        },
+        {
+          "source_heading": "2 Escenario de diagnóstico y rutas posibles",
+          "english_heading": "2 Diagnosis scenario and possible routes",
+          "source_anchor": "2-escenario-de-diagnóstico-y-rutas-posibles",
+          "english_anchor": "2-diagnosis-scenario-and-possible-routes"
+        },
+        {
+          "source_heading": "2 1 Control inicial de exportación P0",
+          "english_heading": "2 1 Initial export control P0",
+          "source_anchor": "2-1-control-inicial-de-exportación-p0",
+          "english_anchor": "2-1-initial-export-control-p0"
+        },
+        {
+          "source_heading": "La pregunta que debe resolver la evidencia",
+          "english_heading": "The question evidence must resolve",
+          "source_anchor": "la-pregunta-que-debe-resolver-la-evidencia",
+          "english_anchor": "the-question-evidence-must-resolve"
+        },
+        {
+          "source_heading": "2 2 Composición de varias fuentes P1",
+          "english_heading": "2 2 Multiple-source composition P1",
+          "source_anchor": "2-2-composición-de-varias-fuentes-p1",
+          "english_anchor": "2-2-multiple-source-composition-p1"
+        },
+        {
+          "source_heading": "2 3 Por qué una ruta prohibida puede parecer aceptable",
+          "english_heading": "2 3 Why a forbidden route may seem acceptable",
+          "source_anchor": "2-3-por-qué-una-ruta-prohibida-puede-parecer-aceptable",
+          "english_anchor": "2-3-why-a-forbidden-route-may-seem-acceptable"
+        },
+        {
+          "source_heading": "3 Tecnologías y controles disponibles",
+          "english_heading": "3 Available technologies and controls",
+          "source_anchor": "3-tecnologías-y-controles-disponibles",
+          "english_anchor": "3-available-technologies-and-controls"
+        },
+        {
+          "source_heading": "Entradas y salidas que conectamos",
+          "english_heading": "Inputs and outputs we connect",
+          "source_anchor": "entradas-y-salidas-que-conectamos",
+          "english_anchor": "inputs-and-outputs-we-connect"
+        },
+        {
+          "source_heading": "Condiciones de revisión",
+          "english_heading": "Review conditions",
+          "source_anchor": "condiciones-de-revisión",
+          "english_anchor": "review-conditions"
+        },
+        {
+          "source_heading": "3 1 Qué dificultad puede resolver cada tecnología",
+          "english_heading": "3 1 Which difficulty each technology may resolve",
+          "source_anchor": "3-1-qué-dificultad-puede-resolver-cada-tecnología",
+          "english_anchor": "3-1-which-difficulty-each-technology-may-resolve"
+        },
+        {
+          "source_heading": "4 Los tres recorridos del ensayo",
+          "english_heading": "4 The three trial runs",
+          "source_anchor": "4-los-tres-recorridos-del-ensayo",
+          "english_anchor": "4-the-three-trial-runs"
+        },
+        {
+          "source_heading": "4 1 Secuencia y variante dinámica P2",
+          "english_heading": "4 1 Sequence and dynamic variant P2",
+          "source_anchor": "4-1-secuencia-y-variante-dinámica-p2",
+          "english_anchor": "4-1-sequence-and-dynamic-variant-p2"
+        },
+        {
+          "source_heading": "4 2 Ramas emparejadas y punto de ejecución",
+          "english_heading": "4 2 Paired branches and execution point",
+          "source_anchor": "4-2-ramas-emparejadas-y-punto-de-ejecución",
+          "english_anchor": "4-2-paired-branches-and-execution-point"
+        },
+        {
+          "source_heading": "4 3 Condiciones pendientes y mecanismo social",
+          "english_heading": "4 3 Pending conditions and social mechanism",
+          "source_anchor": "4-3-condiciones-pendientes-y-mecanismo-social",
+          "english_anchor": "4-3-pending-conditions-and-social-mechanism"
+        },
+        {
+          "source_heading": "5 Qué debe conservar la extensión desde R01",
+          "english_heading": "5 What the extension must preserve from R01",
+          "source_anchor": "5-qué-debe-conservar-la-extensión-desde-r01",
+          "english_anchor": "5-what-the-extension-must-preserve-from-r01"
+        },
+        {
+          "source_heading": "5 1 Alcance de las afirmaciones",
+          "english_heading": "5 1 Scope of claims",
+          "source_anchor": "5-1-alcance-de-las-afirmaciones",
+          "english_anchor": "5-1-scope-of-claims"
+        },
+        {
+          "source_heading": "5 2 Factores y obligaciones de comprobación",
+          "english_heading": "5 2 Factors and checking obligations",
+          "source_anchor": "5-2-factores-y-obligaciones-de-comprobación",
+          "english_anchor": "5-2-factors-and-checking-obligations"
+        },
+        {
+          "source_heading": "5 3 Condiciones de una correspondencia válida",
+          "english_heading": "5 3 Conditions of a valid correspondence",
+          "source_anchor": "5-3-condiciones-de-una-correspondencia-válida",
+          "english_anchor": "5-3-conditions-of-a-valid-correspondence"
+        },
+        {
+          "source_heading": "5 4 Por qué puede seguir haciendo falta información",
+          "english_heading": "5 4 Why information may still be needed",
+          "source_anchor": "5-4-por-qué-puede-seguir-haciendo-falta-información",
+          "english_anchor": "5-4-why-information-may-still-be-needed"
+        },
+        {
+          "source_heading": "6 Prueba acotada y resultados del modelo",
+          "english_heading": "6 Bounded proof and model results",
+          "source_anchor": "6-prueba-acotada-y-resultados-del-modelo",
+          "english_anchor": "6-bounded-proof-and-model-results"
+        },
+        {
+          "source_heading": "6 1 Alcance de la demostración",
+          "english_heading": "6 1 Proof scope",
+          "source_anchor": "6-1-alcance-de-la-demostración",
+          "english_anchor": "6-1-proof-scope"
+        },
+        {
+          "source_heading": "6 2 Dirección de la transferencia",
+          "english_heading": "6 2 Transfer direction",
+          "source_anchor": "6-2-dirección-de-la-transferencia",
+          "english_anchor": "6-2-transfer-direction"
+        },
+        {
+          "source_heading": "6 3 Testigo con cuatro cadenas y controles correctos",
+          "english_heading": "6 3 Witness with four chains and correct controls",
+          "source_anchor": "6-3-testigo-con-cuatro-cadenas-y-controles-correctos",
+          "english_anchor": "6-3-witness-with-four-chains-and-correct-controls"
+        },
+        {
+          "source_heading": "6 4 Cota probabilística y control que bloquea por defecto",
+          "english_heading": "6 4 Probabilistic bound and default-blocking control",
+          "source_anchor": "6-4-cota-probabilística-y-control-que-bloquea-por-defecto",
+          "english_anchor": "6-4-probabilistic-bound-and-default-blocking-control"
+        },
+        {
+          "source_heading": "6 5 El contraejemplo que elimina la dificultad",
+          "english_heading": "6 5 The counterexample eliminating difficulty",
+          "source_anchor": "6-5-el-contraejemplo-que-elimina-la-dificultad",
+          "english_anchor": "6-5-the-counterexample-eliminating-difficulty"
+        },
+        {
+          "source_heading": "6 6 Conservación de factores y comprobación ejecutada",
+          "english_heading": "6 6 Factor preservation and executed check",
+          "source_anchor": "6-6-conservación-de-factores-y-comprobación-ejecutada",
+          "english_anchor": "6-6-factor-preservation-and-executed-check"
+        },
+        {
+          "source_heading": "6 7 Correspondencia con los criterios A25",
+          "english_heading": "6 7 Correspondence with A25 criteria",
+          "source_anchor": "6-7-correspondencia-con-los-criterios-a25",
+          "english_anchor": "6-7-correspondence-with-a25-criteria"
+        },
+        {
+          "source_heading": "7 Posible diferencial de Ecosystem Awareness",
+          "english_heading": "7 Possible Ecosystem Awareness differential",
+          "source_anchor": "7-posible-diferencial-de-ecosystem-awareness",
+          "english_anchor": "7-possible-ecosystem-awareness-differential"
+        },
+        {
+          "source_heading": "Contrato mínimo propuesto",
+          "english_heading": "Proposed minimum contract",
+          "source_anchor": "contrato-mínimo-propuesto",
+          "english_anchor": "proposed-minimum-contract"
+        },
+        {
+          "source_heading": "Semántica y plausibilidad",
+          "english_heading": "Semantics and plausibility",
+          "source_anchor": "semántica-y-plausibilidad",
+          "english_anchor": "semantics-and-plausibility"
+        },
+        {
+          "source_heading": "7 1 Variantes para comprobar el diferencial",
+          "english_heading": "7 1 Variants for checking the differential",
+          "source_anchor": "7-1-variantes-para-comprobar-el-diferencial",
+          "english_anchor": "7-1-variants-for-checking-the-differential"
+        },
+        {
+          "source_heading": "8 Medición y condiciones para ejecutar",
+          "english_heading": "8 Measurement and execution conditions",
+          "source_anchor": "8-medición-y-condiciones-para-ejecutar",
+          "english_anchor": "8-measurement-and-execution-conditions"
+        },
+        {
+          "source_heading": "Comparadores competentes",
+          "english_heading": "Competent comparators",
+          "source_anchor": "comparadores-competentes",
+          "english_anchor": "competent-comparators"
+        },
+        {
+          "source_heading": "Medidas y regla de interpretación",
+          "english_heading": "Measures and interpretation rule",
+          "source_anchor": "medidas-y-regla-de-interpretación",
+          "english_anchor": "measures-and-interpretation-rule"
+        },
+        {
+          "source_heading": "Qué debe congelarse con Nic",
+          "english_heading": "What must be frozen with Nic",
+          "source_anchor": "qué-debe-congelarse-con-nic",
+          "english_anchor": "what-must-be-frozen-with-nic"
+        },
+        {
+          "source_heading": "8 1 Contrastes de persistencia y control",
+          "english_heading": "8 1 Persistence and control contrasts",
+          "source_anchor": "8-1-contrastes-de-persistencia-y-control",
+          "english_anchor": "8-1-persistence-and-control-contrasts"
+        },
+        {
+          "source_heading": "8 2 Condiciones de cierre del protocolo",
+          "english_heading": "8 2 Protocol closure conditions",
+          "source_anchor": "8-2-condiciones-de-cierre-del-protocolo",
+          "english_anchor": "8-2-protocol-closure-conditions"
+        },
+        {
+          "source_heading": "9 Dictamen y siguiente paso",
+          "english_heading": "9 Verdict and next step",
+          "source_anchor": "9-dictamen-y-siguiente-paso",
+          "english_anchor": "9-verdict-and-next-step"
+        },
+        {
+          "source_heading": "Anexo A Auditoría y continuidad documental",
+          "english_heading": "Annex A Audit and documentary continuity",
+          "source_anchor": "anexo-a-auditoría-y-continuidad-documental",
+          "english_anchor": "annex-a-audit-and-documentary-continuity"
+        },
+        {
+          "source_heading": "A 1 Documentos comprobados",
+          "english_heading": "A 1 Checked documents",
+          "source_anchor": "a-1-documentos-comprobados",
+          "english_anchor": "a-1-checked-documents"
+        },
+        {
+          "source_heading": "A 2 Hallazgos y correcciones del borrador",
+          "english_heading": "A 2 Draft findings and corrections",
+          "source_anchor": "a-2-hallazgos-y-correcciones-del-borrador",
+          "english_anchor": "a-2-draft-findings-and-corrections"
+        },
+        {
+          "source_heading": "A 3 Revisión del escenario base",
+          "english_heading": "A 3 Base scenario review",
+          "source_anchor": "a-3-revisión-del-escenario-base",
+          "english_anchor": "a-3-base-scenario-review"
+        },
+        {
+          "source_heading": "A 4 Versiones e integridad",
+          "english_heading": "A 4 Versions and integrity",
+          "source_anchor": "a-4-versiones-e-integridad",
+          "english_anchor": "a-4-versions-and-integrity"
+        },
+        {
+          "source_heading": "A 5 Base documental y contexto de la propuesta",
+          "english_heading": "A 5 Documentary basis and proposal context",
+          "source_anchor": "a-5-base-documental-y-contexto-de-la-propuesta",
+          "english_anchor": "a-5-documentary-basis-and-proposal-context"
+        },
+        {
+          "source_heading": "A 6 Comprobación inicial de dos candidatas",
+          "english_heading": "A 6 Initial two-candidate check",
+          "source_anchor": "a-6-comprobación-inicial-de-dos-candidatas",
+          "english_anchor": "a-6-initial-two-candidate-check"
+        },
+        {
+          "source_heading": "Anexo B Referencias y fuentes",
+          "english_heading": "Annex B References and sources",
+          "source_anchor": "anexo-b-referencias-y-fuentes",
+          "english_anchor": "annex-b-references-and-sources"
+        }
+      ]
+    },
+    {
+      "path": "extensions/infoblox/proof/README.md",
+      "source_sha256": "a8abd92b2c3e90dfd6b8ce185d07751d637252a8f41cd7f7ef0c850a321b0b72",
+      "english_sha256": "fed56796ea6613b659b7bd2417ccfcf40c1d9cb81b850c6449606a01a64ad949",
+      "source_git_blob_sha": "0cff39f9f9a56ca10e36c16245fe5580ad8c42de",
+      "english_git_blob_sha": "da1f9c98a8622af72fd2f211208f305bea9a3dc1",
+      "source_lines": 23,
+      "english_lines_excluding_aliases_and_documented_additions": 23,
+      "source_nonempty_lines": 13,
+      "english_nonempty_lines_excluding_aliases_and_documented_additions": 13,
+      "headings": 2,
+      "table_rows": 0,
+      "checks": {
+        "content_lines_one_to_one": true,
+        "heading_hierarchy": true,
+        "ordered_link_destinations": true,
+        "latex_blocks_byte_identical": true,
+        "fenced_code_byte_identical": true,
+        "table_row_and_cell_counts": true,
+        "numerical_values": true,
+        "original_heading_anchors_resolve": true
+      },
+      "documented_additions": [],
+      "heading_correspondence": [
+        {
+          "source_heading": "Comprobación finita de R01 → aplicación DNS",
+          "english_heading": "Finite check of R01 → DNS application",
+          "source_anchor": "comprobación-finita-de-r01--aplicación-dns",
+          "english_anchor": "finite-check-of-r01--dns-application"
+        },
+        {
+          "source_heading": "Integridad",
+          "english_heading": "Integrity",
+          "source_anchor": "integridad",
+          "english_anchor": "integrity"
+        }
+      ]
+    }
+  ],
+  "translated_supporting_files": [
+    {
+      "path": "extensions/hugging-face/coverage.json",
+      "source_sha256": "5d782703260c8f4336e7795cf4c5bbdc1646d7a70eb6a7bbd70c21d081f2655d",
+      "english_sha256": "12de6d739cbaa4baa073f22d36a25afcf9625fb714185a0528c058f5f64f7129",
+      "source_git_blob_sha": "5693a4d78202245cc594bbdb884ab39eea33a7fa",
+      "english_git_blob_sha": "b209212ab3e75dc3754a5a8e8c8c6f3b46742f1b"
+    },
+    {
+      "path": "build_document.py",
+      "source_sha256": "6c81b470ca95ced01dbdfd270975434519c19bfad188fb5899c2e9fcc2f42cb0",
+      "english_sha256": "6315bb9aa67ef29ad3d9ffdecc1b955287a554cbce9b7e3f51c4bf30bcfcc76b",
+      "source_git_blob_sha": "50b3b1280029781ca2e3ce9e3c0017175a6641ef",
+      "english_git_blob_sha": "16bd227260bc7983e2a9cb92114ba6fbf50d4941"
+    },
+    {
+      "path": "build_figures.py",
+      "source_sha256": "aa9ce61acedaea32015d0b9a94ad7058841e00cd7ed377ab0e2712fd1eac89e4",
+      "english_sha256": "5f5eab535a27b08726d9091f5d4bf73f56fbed02020c199c9a5024abdb61685d",
+      "source_git_blob_sha": "e887c359078dce2f44807d44834200a327d940ef",
+      "english_git_blob_sha": "36a02f59e48065ee9facb4b4fa6ba8b291fe80ec"
+    },
+    {
+      "path": "figures/ciclo-decision.png",
+      "source_sha256": "7a9bb96e2831dc1fff4ffa40d71f3e7f22071e45a1bec45b0d823266e90f4a21",
+      "english_sha256": "d197d63b020f508c91ddb50fe91bb5c77a88fd919bf12bdc3bf1ae1ea85958e9",
+      "source_git_blob_sha": "20c5b95d8bd91b2a625393c7cdaafa1264ba9bca",
+      "english_git_blob_sha": "6ad199513435f511cd60a46dc99d3b4ce6aa680a"
+    },
+    {
+      "path": "figures/relacion-00g.png",
+      "source_sha256": "034a432e89084d73f8e9fb27d286ac35497f65b875b139292a8be4e659d36484",
+      "english_sha256": "d7eb4a811b3a8c2de9e84d244dfee709ba18274c4892d234d3ffc9de9c930f57",
+      "source_git_blob_sha": "c2fd9d761a41777319760f1e1a9b66d515452d5e",
+      "english_git_blob_sha": "613fea6fb393d0552f857fa7a6b6cbbc7301a194"
+    },
+    {
+      "path": "Escenario-creatividad-validacion.docx",
+      "source_sha256": "695b153136250d606259d44e88c42f83b5ba743a7afac66490e4f3740d96cd90",
+      "english_sha256": "9b1aa46b9dfe107018a344beb60534ca99d838f3f4ee523291be1d4e56b49b94",
+      "source_git_blob_sha": "6c3d4aea82ee12cc5cd8ddb1a17f1db4696e0d9f",
+      "english_git_blob_sha": "9db51f3cce453a032619eb6924a7bf20db4a1e10"
+    },
+    {
+      "path": "Escenario-creatividad-validacion.pdf",
+      "source_sha256": "255cbbc73408a6dfb08feb3cb07fd89b374be2a70712808a5b7581aea04781ed",
+      "english_sha256": "c522f225aeef7ab5ea74f271941169684c661c909bcc65abe55abf6ccbd7068a",
+      "source_git_blob_sha": "2f6bddf3303d6e92ce49878887fa73f761044049",
+      "english_git_blob_sha": "2e8f5b96f5d9d82c3471e75e26a756affcde08a6"
+    },
+    {
+      "path": "extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx",
+      "source_sha256": "999eb4ed83b3be9e0955895f613d62fb5367931eb357ba9f17f01f960484632e",
+      "english_sha256": "33a346502dfab968f021368dc4099e5ac43d120dba8df5f64f1c3d8c654572a3",
+      "source_git_blob_sha": "6648c44b44783b7415e3c13464d6e2ef8bdd5fce",
+      "english_git_blob_sha": "6172f4ea4f25430130d33fadb30d7b8e2ed423c4"
+    }
+  ],
+  "unchanged_case_code_and_results": [
+    {
+      "path": "extensions/hugging-face/check.py",
+      "sha256": "069fceb31b43869db15c5d9be0d484b134d15bc16c0385381f62abbcc9fa8b09",
+      "source_and_english_byte_identical": true
+    },
+    {
+      "path": "extensions/hugging-face/results.json",
+      "sha256": "61ea5755015e793c7362d2baaca22ee2f843f2f821f74c5389571a24582c5941",
+      "source_and_english_byte_identical": true
+    },
+    {
+      "path": "extensions/infoblox/proof/check.py",
+      "sha256": "18d57ace52c0ccbe0827a7c731b3298eccf21d405fc793a25f3a89edf9d7109d",
+      "source_and_english_byte_identical": true
+    },
+    {
+      "path": "extensions/infoblox/proof/results.json",
+      "sha256": "c442af2ed24ed2f183e57fe588586ddb5180a0c11c77bc027897fdc3a2c18cfd",
+      "source_and_english_byte_identical": true
+    },
+    {
+      "path": "extensions/family/proof/check.py",
+      "sha256": "f0bd2d52091d0a2b0138e5a9887d43a1ec3a6bb129d10847672a18eebbe9eedb",
+      "source_and_english_byte_identical": true
+    },
+    {
+      "path": "extensions/family/proof/results.json",
+      "sha256": "e9407652bcfd015a6d94b325f46bd9bc32bc7a6c743437adfd9936d9e6ae6d54",
+      "source_and_english_byte_identical": true
+    }
+  ],
+  "coverage_register_schema_states_and_numbers_preserved": true,
+  "export_review": {
+    "base_word_and_pdf": "English export regenerated from the translated base scenario",
+    "base_pages_rendered_and_visually_reviewed": 29,
+    "infoblox_word": "existing v0.5 export translated in place; historical scope retained",
+    "infoblox_pages_rendered_and_visually_reviewed": 27,
+    "infoblox_archive_members_and_relationships_preserved": true,
+    "infoblox_body_structure": {
+      "p": 758,
+      "tbl": 23,
+      "hyperlink": 18,
+      "br": 34,
+      "drawing": 0
+    },
+    "figures": "English labels; same topology and image paths"
+  },
+  "limits": [
+    "Structural checks establish alignment and preservation of technical objects, not an automated proof of semantic equivalence.",
+    "The translation received internal semantic and visual review, not independent scientific validation.",
+    "Original historical references and identifiers remain unchanged; source hashes identify the Spanish edition.",
+    "The three original case reports are unchanged; no EA experiment was performed."
+  ]
+}

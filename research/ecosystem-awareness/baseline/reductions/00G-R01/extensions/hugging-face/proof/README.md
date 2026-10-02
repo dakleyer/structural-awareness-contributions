@@ -1,24 +1,25 @@
-# Hugging Face: código y resultados de la validación acotada
+<a id="hugging-face-código-y-resultados-de-la-validación-acotada"></a>
+# Hugging Face: bounded validation code and results
 
-[Documento del caso](../README.md) · [00G-R01](../../../README.md) · [Tabla de extensiones](../../../README.md#extensiones)
+[Case document](../README.md) · [00G-R01](../../../README.md) · [Extensions table](../../../README.md#extensiones)
 
-| Archivo | Función |
+| File | Function |
 |---|---|
-| [check.py](../check.py) | Comprobación de la correspondencia sintética y los contraejemplos. |
-| [results.json](../results.json) | Resultados exactos del comprobador. |
-| [coverage.json](../coverage.json) | Matriz documental de cobertura y obligaciones pendientes; no es una certificación automática. |
-| [SHA256.json](../SHA256.json) | Huellas de integridad de los archivos del expediente. |
+| [check.py](../check.py) | Check of synthetic correspondence and counterexamples. |
+| [results.json](../results.json) | Exact checker results. |
+| [coverage.json](../coverage.json) | Documentary matrix of coverage and pending obligations; not automatic certification. |
+| [SHA256.json](../SHA256.json) | Integrity hashes of the case record files. |
 
-**Procedimiento común:** desde `00G-R01/`, ejecutar `python3 extensions/verify_audit.py --verify`. Recalcula las tres comprobaciones en carpetas temporales, compara los informes registrados y verifica huellas textuales. [Criterios y alcance](../../CRITERIA_AND_AUDIT.md) · [Guía común desde R01](../../../README.md#reproducción-conjunta-de-las-comprobaciones).
+**Common procedure:** from `00G-R01/`, run `python3 extensions/verify_audit.py --verify`. It recalculates the three checks in temporary folders, compares recorded reports and verifies textual hashes. [Criteria and scope](../../CRITERIA_AND_AUDIT.md) · [Common guide from R01](../../../README.md#reproducción-conjunta-de-las-comprobaciones).
 
-Desde la carpeta del caso `hugging-face/`:
+From the `hugging-face/` case folder:
 
 ```sh
 python3 check.py
 ```
 
-Desde esta subcarpeta `proof/`, el comando equivalente es `python3 ../check.py`. Se utiliza exclusivamente la biblioteca estándar de Python. El script regenera `results.json` junto a `check.py`.
+From this `proof/` subfolder, the equivalent command is `python3 ../check.py`. Only the Python standard library is used. The script regenerates `results.json` alongside `check.py`.
 
-Se conservan las ubicaciones publicadas del código y de los resultados para mantener sus enlaces. Esta guía proporciona la misma entrada de reproducción que en Infoblox.
+Published code and result locations are retained to maintain their links. This guide provides the same reproduction entry as in Infoblox.
 
-**Alcance:** modelo sintético finito; no es una ejecución de agentes, reproducción histórica, admisión completa de R01 ni comparación EA. El [documento de validación](../README.md#4-comprobación-reproducible-ejecutada) fija las hipótesis y los límites.
+**Scope:** finite synthetic model; not an agent execution, historical reproduction, complete R01 admission or EA comparison. The [validation document](../README.md#4-comprobación-reproducible-ejecutada) fixes the hypotheses and limits.

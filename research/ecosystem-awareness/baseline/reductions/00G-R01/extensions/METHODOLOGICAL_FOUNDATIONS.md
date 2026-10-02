@@ -1,69 +1,76 @@
-# Fundamento metodológico: probar R01 y transferir sólo propiedades preservadas
+<a id="fundamento-metodológico-probar-r01-y-transferir-sólo-propiedades-preservadas"></a>
+# Methodological foundations: test R01 and transfer only preserved properties
 
-Versión de investigación 0.1 · 2 de octubre de 2026 · Nota del autor asistida por IA
+Research version 0.1 · 2 October 2026 · Author's note assisted by AI
 
-[R01](../README.md) · [Criterio común y auditoría](./CRITERIA_AND_AUDIT.md) · [Núcleo y prueba E1–E7](./family/KERNEL_AND_PROOF.md) · [Fragmento comprobado](./family/proof/README.md)
+[R01](../README.md) · [Common criterion and audit](./CRITERIA_AND_AUDIT.md) · [Kernel and E1–E7 proof](./family/KERNEL_AND_PROOF.md) · [Checked fragment](./family/proof/README.md)
 
-## 1 Qué justifica este método
+<a id="1-qué-justifica-este-método"></a>
+## 1 What justifies this method
 
-Probar primero un modelo reducido tiene precedentes sólidos en computación. La literatura permite reducir sistemas mediante relaciones formales, comprobar propiedades en la representación reducida y transferirlas cuando se cumplen las obligaciones correspondientes [R1–R7]. Es una justificación del **método**, no una validación externa de R01 ni de EA.
+Testing a reduced model first has solid precedents in computing. The literature allows systems to be reduced through formal relations, properties to be checked in the reduced representation and transferred when the corresponding obligations are satisfied [R1–R7]. This justifies the **method**, not external validation of R01 or EA.
 
-Nuestro uso previsto es aislar exploración, revisión costosa y reutilización social de evidencia; evaluar primero el aporte incremental de EA frente a controles competentes; y usar los resultados para decidir si merece la pena ampliar la investigación a implementaciones de dominio. El reducido permite controlar variables, obtener contraejemplos y medir mecanismos a menor coste. La fidelidad de sus hipótesis y el coste real de implementar EA requieren pruebas propias.
+Our intended use is to isolate exploration, costly review and social reuse of evidence; first evaluate EA's incremental contribution against competent controls; and use the results to decide whether expanding research to domain implementations is worthwhile. The reduced model allows variables to be controlled, counterexamples obtained and mechanisms measured at lower cost. The fidelity of its hypotheses and the real cost of implementing EA require their own tests.
 
-La secuencia defendible es: **especificación → prueba de conservación → verificación de una implementación → experimento comparativo → correspondencia independiente del dominio → validación de un escenario más completo**. Ningún paso posterior queda acreditado por citar los anteriores.
+The defensible sequence is: **specification → preservation proof → implementation verification → comparative experiment → independent domain correspondence → validation of a more complete scenario**. No later step is established by citing earlier ones.
 
-Base: R01 v0.6, fijada en el commit `114ac132bc2be4e7008001fe505bf5bd4c36c515`; la nota E1–E7 y la auditoría común delimitan el alcance efectivamente demostrado y ejecutado. Esta nota no cambia el escenario ni incorpora resultados experimentales EA que todavía no existen.
+Base: R01 v0.6, fixed at commit `114ac132bc2be4e7008001fe505bf5bd4c36c515`; the E1–E7 note and common audit delimit the scope actually proved and executed. This note neither changes the scenario nor incorporates EA experimental results that do not yet exist.
 
-## 2 Precedentes y correspondencia precisa
+<a id="2-precedentes-y-correspondencia-precisa"></a>
+## 2 Precedents and precise correspondence
 
-Las correspondencias de la última columna son nuestra interpretación aplicada a R01. No se atribuye a esos autores una revisión de nuestro modelo.
+Correspondences in the last column are our interpretation applied to R01. Those authors are not credited with reviewing our model.
 
-| Fuente primaria | Resultado o práctica pertinente | Aplicación y límite en R01 |
+| Primary source | Relevant result or practice | Application and limit in R01 |
 |---|---|---|
-| R1 Hashemi, Hatefi y Krčál, 2014 | Bisimulaciones para MDP con intervalos; reducción que preserva PCTL bajo las interpretaciones de incertidumbre estudiadas; caso computacional. | Apoya comprobar probabilidades agregadas por clases (E3). Su teorema no cubre automáticamente todas nuestras métricas, observaciones y políticas. |
-| R2 Li, Walsh y Littman, 2006 | Distingue abstracciones que preservan modelo, valores o acciones óptimas; demuestra diferencias entre sus garantías. | Conservar una acción óptima no equivale a conservar trazas, información o comportamiento de todas las políticas. Sirve para elegir la propiedad antes de reducir. |
-| R3 Rezaei-Shoshtari et al., NeurIPS 2022 | Homomorfismos de MDP, igualdad de valores para políticas correspondientes y del óptimo; experimentos en DeepMind Control Suite. | Precedente cercano para estados, acciones, transiciones y resultados. El levantamiento continuo tratado en sus teoremas posteriores se restringe a políticas deterministas; no autoriza una extensión indiscriminada a agentes parcialmente observables. |
-| R4 Clarke et al., CAV 2000 | CEGAR: comprobar abstracción, analizar contraejemplo y refinar si es espurio; implementación NuSMV y experimentos de hardware. | Orienta un futuro ciclo de refinamiento. Añadir variables o escenarios por decisión del diseñador no basta para afirmar que ya ejecutamos CEGAR. |
-| R5 Kattenbelt et al., informe Oxford 2008 | Abstracción de MDP mediante juegos, con cotas inferiores y superiores; experimentos en protocolos y algoritmos distribuidos. | Permite considerar una relación conservadora cuando la equivalencia exacta sea demasiado fuerte. Sus cotas son de propiedades especificadas, no de semejanza narrativa. |
-| R6 Kattenbelt et al., VMCAI 2009 | Verificación de software probabilístico ANSI-C con abstracción, refinamiento y cotas cuantitativas. | Precedente de experimentos sobre software ejecutable y relación con su abstracción. R01 aún no acredita una cadena equivalente desde una integración tecnológica completa. |
-| R7 Zhang, Wu y Lin, 2017 | Simulación y CEGAR para POMDP; conservación de un fragmento de seguridad PCTL de horizonte finito. | La información del decisor importa. La observación parcial no desaparece por dar al evaluador un estado completo. Es una alternativa metodológica que exige otra prueba concreta. |
-| R8 Bian y Abate, FoSSaCS 2017 | Relaciona bisimulación aproximada y distancia entre trazas de horizonte finito en cadenas de Markov etiquetadas. | Precedente para cuantificar error de transferencia; sus hipótesis no se trasladan sin más a políticas adaptativas o una población estratégica. |
-| R9 Spork et al., CONCUR 2024 | Compara varias nociones de bisimulación probabilística aproximada y sus relaciones. | Obliga a identificar la relación y propiedad conservada. «Aproximadamente parecido» no proporciona por sí solo una cota. |
-| R10 Agarwal et al., NeurIPS 2021 | Evalúa incertidumbre estadística en comparaciones de RL con pocas ejecuciones y propone estimaciones por intervalos y perfiles de rendimiento. | Orienta el futuro análisis de EA: repeticiones, variabilidad y distribución de tareas. No impone un número universal de semillas ni convierte una malla determinista en muestras independientes. |
-| R11 NASA-STD-7009B, 2024 | Uso previsto, criterios de aceptación, verificación, validación y evaluación de credibilidad de modelos y simulaciones. | Referencia para documentar qué decisión de investigación puede apoyar R01. Se adopta como orientación, sin afirmar cumplimiento NASA ni exigencia regulatoria aplicable a EA. |
-| R12 ACM SIGSIM PADS, 2026 | Evaluación de artefactos y reproducción de resultados, con informes y criterios separados. | Publicar código y repetirlo internamente facilita una revisión; no acredita una reproducción independiente ni concede una insignia ACM. |
+| R1 Hashemi, Hatefi and Krčál, 2014 | Bisimulations for interval MDPs; reduction preserving PCTL under the studied uncertainty interpretations; computational case. | Supports checking probabilities aggregated by classes (E3). Its theorem does not automatically cover all our metrics, observations and policies. |
+| R2 Li, Walsh and Littman, 2006 | Distinguishes abstractions preserving model, values or optimal actions; proves differences between their guarantees. | Preserving an optimal action is not equivalent to preserving traces, information or behavior of all policies. Helps choose the property before reducing. |
+| R3 Rezaei-Shoshtari et al., NeurIPS 2022 | MDP homomorphisms, equality of values for corresponding policies and of the optimum; experiments in DeepMind Control Suite. | Close precedent for states, actions, transitions and outcomes. Continuous lifting treated in its later theorems is restricted to deterministic policies; it does not authorize indiscriminate extension to partially observable agents. |
+| R4 Clarke et al., CAV 2000 | CEGAR: check abstraction, analyze counterexample and refine if spurious; NuSMV implementation and hardware experiments. | Guides a future refinement cycle. Adding variables or scenarios by designer choice is insufficient to claim we already execute CEGAR. |
+| R5 Kattenbelt et al., Oxford report 2008 | MDP abstraction through games, with lower and upper bounds; experiments in protocols and distributed algorithms. | Allows consideration of a conservative relation when exact equivalence is too strong. Its bounds concern specified properties, not narrative resemblance. |
+| R6 Kattenbelt et al., VMCAI 2009 | Verification of probabilistic ANSI-C software with abstraction, refinement and quantitative bounds. | Precedent for experiments on executable software and its relation to its abstraction. R01 has not yet established an equivalent chain from a complete technological integration. |
+| R7 Zhang, Wu and Lin, 2017 | Simulation and CEGAR for POMDPs; preservation of a finite-horizon PCTL safety fragment. | The decision-maker's information matters. Partial observation does not disappear by giving the evaluator a complete state. This is a methodological alternative requiring another specific proof. |
+| R8 Bian and Abate, FoSSaCS 2017 | Relates approximate bisimulation and distance between finite-horizon traces in labeled Markov chains. | Precedent for quantifying transfer error; its hypotheses do not carry over directly to adaptive policies or a strategic population. |
+| R9 Spork et al., CONCUR 2024 | Compares several notions of approximate probabilistic bisimulation and their relations. | Requires identifying the relation and preserved property. “Approximately similar” does not by itself provide a bound. |
+| R10 Agarwal et al., NeurIPS 2021 | Evaluates statistical uncertainty in RL comparisons with few runs and proposes interval estimates and performance profiles. | Guides future EA analysis: repetitions, variability and task distribution. It neither imposes a universal seed count nor turns a deterministic grid into independent samples. |
+| R11 NASA-STD-7009B, 2024 | Intended use, acceptance criteria, verification, validation and credibility assessment of models and simulations. | Reference for documenting which research decision R01 can support. Adopted as guidance, without claiming NASA compliance or a regulatory requirement applicable to EA. |
+| R12 ACM SIGSIM PADS, 2026 | Artifact evaluation and result reproduction, with separate reports and criteria. | Publishing code and repeating it internally facilitates review; it does not establish independent reproduction or grant an ACM badge. |
 
-### 2.1 Pruebas concretas en otras áreas
+<a id="21-pruebas-concretas-en-otras-áreas"></a>
+### 2.1 Concrete tests in other areas
 
-No son sólo analogías filosóficas. R4 §6 aplica la abstracción y refinamiento a diseños de hardware, incluido un procesador multimedia Fujitsu. R5 §5 comprueba propiedades de Zeroconf, WLAN, CSMA/CD, FireWire y un protocolo de consenso: compara modelo y abstracción, precisión y coste de verificación. R6 publica experimentos sobre programas probabilísticos y software de red. R3 §7 combina resultados formales con una comparación de algoritmos de control frente a baselines y variabilidad entre ejecuciones.
+These are not merely philosophical analogies. R4 §6 applies abstraction and refinement to hardware designs, including a Fujitsu multimedia processor. R5 §5 checks properties of Zeroconf, WLAN, CSMA/CD, FireWire and a consensus protocol: it compares model and abstraction, precision and verification cost. R6 publishes experiments on probabilistic programs and network software. R3 §7 combines formal results with a comparison of control algorithms against baselines and variability across runs.
 
-Los objetos, métricas y controles son distintos de EA. Lo transferible como precedente es **hacer explícita la relación, comprobarla y delimitar las conclusiones**; no heredar los resultados de rendimiento de esos trabajos.
+The objects, metrics and controls differ from EA. What transfers as precedent is **making the relation explicit, checking it and delimiting conclusions**; not inheriting those works' performance results.
 
-### 2.2 Precedente reciente relacionado con modelos neuronales
+<a id="22-precedente-reciente-relacionado-con-modelos-neuronales"></a>
+### 2.2 Recent precedent related to neural models
 
-R13, Spieker, Gross y Gotlieb (2026), presenta una abstracción DTMC de generación autorregresiva, intervalos conservadores, refinamiento y dos casos: planificación de procesos con GPT-2 y generación molecular SMILES. Es pertinente para distinguir aceptación local y una propiedad de dominio. Requiere acceso a probabilidades del modelo y un oráculo externo; no demuestra una defensa EA, no es una prueba black box equivalente a la de Nell y no reproduce Hugging Face. Se cita como precedente reciente complementario, sin hacerlo fundamento necesario de nuestra prueba.
+R13, Spieker, Gross and Gotlieb (2026), presents a DTMC abstraction of autoregressive generation, conservative intervals, refinement and two cases: process planning with GPT-2 and SMILES molecular generation. It is relevant for distinguishing local acceptance and a domain property. It requires access to model probabilities and an external oracle; it neither proves an EA defense, nor is a black box test equivalent to Nell's, nor reproduces Hugging Face. It is cited as a complementary recent precedent, without making it a necessary foundation of our proof.
 
-R14, Majeed y Hutter (AAAI 2019), trata garantías de homomorfismos incluso para representaciones no markovianas bajo condiciones específicas. Respalda estudiar relaciones más débiles si la igualdad exacta falla; preservar cierto valor no equivale a preservar permisos, trazas y todos los resultados de R01.
+R14, Majeed and Hutter (AAAI 2019), addresses homomorphism guarantees even for non-Markovian representations under specific conditions. It supports studying weaker relations if exact equality fails; preserving some value is not equivalent to preserving permissions, traces and all R01 outcomes.
 
-## 3 Tres relaciones que no deben confundirse
+<a id="3-tres-relaciones-que-no-deben-confundirse"></a>
+## 3 Three relations that must not be confused
 
-| Relación | Qué exige | Qué permite concluir |
+| Relation | What it requires | What it allows one to conclude |
 |---|---|---|
-| Isomorfismo del núcleo relacional | Biyecciones tipadas que preservan operaciones y relaciones en ambos sentidos. | La estructura declarada es la misma bajo otra representación. Por sí solo no conserva probabilidades ni información del decisor. |
-| Equivalencia probabilística proyectada | Distribución inicial, eventos, leyes agregadas, observaciones, políticas emparejadas y semántica conservados. | Igualdad de leyes de historias y métricas preservadas, en el alcance y horizonte declarados. |
-| Simulación conservadora o aproximación con error | Una relación específica y un teorema de cotas para la propiedad elegida. | Una implicación o intervalo, no necesariamente igualdad ni preservación en ambos sentidos. |
+| Isomorphism of the relational kernel | Typed bijections preserving operations and relations in both directions. | The declared structure is the same under another representation. By itself it preserves neither probabilities nor decision-maker information. |
+| Projected probabilistic equivalence | Preserved initial distribution, events, aggregate laws, observations, paired policies and semantics. | Equality of history laws and preserved metrics within the declared scope and horizon. |
+| Conservative simulation or approximation with error | A specific relation and a bounds theorem for the chosen property. | An implication or interval, not necessarily equality or preservation in both directions. |
 
-El sistema completo con variables adicionales no es isomorfo a la base. Nuestro criterio combina un núcleo isomorfo con una proyección conductual. Es deliberadamente más fuerte que preservar sólo el valor óptimo de un MDP. La construcción producto de la nota matemática demuestra que esa clase existe; no demuestra que un dominio externo, definido independientemente, pertenezca a ella.
+The complete system with additional variables is not isomorphic to the base. Our criterion combines an isomorphic kernel with a behavioral projection. It is deliberately stronger than preserving only an MDP's optimal value. The product construction in the mathematical note proves that this class exists; it does not prove that an independently defined external domain belongs to it.
 
-El sentido de la relación también importa. Quitar exigencias y dar más capacidades puede facilitar una tarea. Una cota de imposibilidad se transfiere sólo con la dirección de simulación adecuada y cobertura de **todas** las políticas pertinentes. Una correspondencia de dos políticas fijas no establece una cota universal.
+The direction of the relation matters too. Removing requirements and granting more capabilities may make a task easier. An impossibility bound transfers only with the appropriate simulation direction and coverage of **all** relevant policies. A correspondence between two fixed policies does not establish a universal bound.
 
-## 4 Resultado formal para una comparación EA–control
+<a id="4-resultado-formal-para-una-comparación-eacontrol"></a>
+## 4 Formal result for an EA–control comparison
 
-Este apartado es un corolario propio de la proposición E1–E7; no un resultado experimental ni una atribución a las referencias.
+This section is our own corollary of proposition E1–E7; not an experimental result or an attribution to the references.
 
-Sea B la realización efectiva `B_{θ*}`, Y la extensión y p su proyección. Se fija horizonte H, distribución de mundos, recursos, semántica y una métrica medible m de las historias, integrable; para probabilidades puede usarse un indicador. Se definen los dos brazos b∈{EA,C} y se comprueba E1–E7 **en cada sistema cerrado con ese brazo**, con políticas emparejadas. Si EA añade memoria, mensajes, evaluación o una acción de reposicionamiento, esos objetos y cargos deben quedar representados en ambos lados de su propia correspondencia. No se concede al control una información que no tendría, ni a EA una verdad oculta del evaluador.
+Let B be the effective realization `B_{θ*}`, Y the extension and p its projection. Fix horizon H, world distribution, resources, semantics and an integrable measurable history metric m; an indicator may be used for probabilities. Define both arms b∈{EA,C} and check E1–E7 **in each closed system with that arm**, with paired policies. If EA adds memory, messages, evaluation or a repositioning action, those objects and charges must be represented on both sides of its own correspondence. The control is not granted information it would not have, nor EA hidden evaluator truth.
 
-La proposición produce, para cada b,
+The proposition yields, for each b,
 
 $$
 \mathcal L\big(p(H_Y^{\pi_b^Y})\big)
@@ -72,7 +79,7 @@ $$
 m_Y(H_Y)=m_B(p(H_Y)).
 $$
 
-Por tanto, definiendo un contraste de esperanzas con el mismo sentido de mejora,
+Thus, defining an expectation contrast with the same improvement direction,
 
 $$
 \Delta_Y(m)=\mathbb E[m_Y(H_Y^{\pi_{EA}^Y})]
@@ -80,84 +87,90 @@ $$
 =\Delta_B(m).
 $$
 
-**Prueba.** La igualdad de leyes por brazo y la factorización de m por p dan igualdad de cada esperanza; se restan. No se requiere una biyección de los detalles extra. Para transportar además la distribución de diferencias emparejadas o su varianza, debe preservarse la ley conjunta y el acoplamiento experimental, no sólo las dos leyes marginales. □
+**Proof.** Equality of laws per arm and factorization of m through p give equality of each expectation; subtract them. No bijection of extra details is required. To additionally transport the distribution of paired differences or its variance, the joint law and experimental coupling must be preserved, not merely the two marginal laws. □
 
-La igualdad se refiere a la instancia efectiva θ*, no a una θ con menor radio o costes distintos. Si la tecnología abarata consultas o añade capacidades, se debe probar EA y control en θ* o justificar por separado la robustez frente a ese cambio. Un certificado suficiente puede eliminar legítimamente la ventaja de EA.
+The equality concerns the effective instance θ*, not a θ with smaller radius or different costs. If technology makes queries cheaper or adds capabilities, EA and control must be tested in θ* or robustness to that change justified separately. A sufficient certificate may legitimately eliminate EA's advantage.
 
-Una estimación positiva de Δ_B tiene incertidumbre muestral. El teorema transporta el contraste poblacional bajo sus hipótesis; no convierte automáticamente una estimación positiva en una prueba de signo positivo. La incertidumbre estadística, el error de correspondencia y el error de medición se informan por separado.
+A positive estimate of Δ_B has sampling uncertainty. The theorem transports the population contrast under its hypotheses; it does not automatically turn a positive estimate into proof of a positive sign. Statistical uncertainty, correspondence error and measurement error are reported separately.
 
-### 4.1 Si la conservación sólo es aproximada
+<a id="41-si-la-conservación-sólo-es-aproximada"></a>
+### 4.1 If preservation is only approximate
 
-Puede sustituirse la igualdad por una cota, pero debe demostrarse. Como condición suficiente ilustrativa propia, sean P_b^Y y P_b^B las leyes sobre el **mismo espacio de historias proyectadas** y supóngase
+Equality may be replaced by a bound, but it must be proved. As our own illustrative sufficient condition, let P_b^Y and P_b^B be laws over the **same projected-history space** and suppose
 
 $$
 d_{TV}(P_b^Y,P_b^B)\le\rho_b,
 \qquad d_{TV}(P,Q)=\sup_A|P(A)-Q(A)|.
 $$
 
-Para la misma métrica m∈[0,1], la caracterización de variación total mediante funciones acotadas da
+For the same metric m∈[0,1], the characterization of total variation through bounded functions gives
 
 $$
 |\Delta_Y(m)-\Delta_B(m)|\le\rho_{EA}+\rho_C.
 $$
 
-Esta consecuencia usa una cota **sobre historias completas**, no un supuesto parecido entre estados. Si se prueba además un error uniforme de métrica ν_b por brazo, el límite aumenta en ν_EA+ν_C. Así, para conservar una mejora estricta, su margen debe superar los errores aplicables. En un experimento se usa el límite inferior del intervalo del contraste, no sólo su estimación puntual.
+This consequence uses a bound **on complete histories**, not an assumed resemblance between states. If a uniform metric error ν_b is also proved per arm, the bound increases by ν_EA+ν_C. Thus, preserving a strict improvement requires its margin to exceed applicable errors. An experiment uses the lower limit of the contrast interval, not merely its point estimate.
 
-R8 ofrece un precedente de obtención de cotas de trazas desde una bisimulación aproximada bajo sus propias hipótesis. Aquí **no** se ha obtenido ρ_b para Hugging Face, Infoblox o una ejecución EA. Errores pequeños de transición pueden acumularse con el horizonte; costes o calidades no acotados y umbrales discontinuos requieren tratamiento propio. No se asigna una cota a partir de semejanza verbal.
+R8 offers a precedent for deriving trace bounds from approximate bisimulation under its own hypotheses. Here ρ_b has **not** been obtained for Hugging Face, Infoblox or an EA execution. Small transition errors may accumulate with the horizon; unbounded costs or qualities and discontinuous thresholds require their own treatment. No bound is assigned from verbal resemblance.
 
-## 5 Qué significa probar primero EA en el reducido
+<a id="5-qué-significa-probar-primero-ea-en-el-reducido"></a>
+## 5 What testing EA in the reduced model first means
 
-El objetivo inicial es medir una aportación, no presupuestar superioridad. La evidencia interna debe poder ser negativa y debe admitir que un control convencional competente resuelva el caso.
+The initial objective is to measure a contribution, not assume superiority. Internal evidence must be capable of being negative and must allow a competent conventional control to resolve the case.
 
-| Paso propuesto | Evidencia o criterio de avance |
+| Proposed step | Evidence or advancement criterion |
 |---|---|
-| Especificación ejecutable | Políticas, observaciones, orden de eventos, todos los cargos, métricas y evaluación separados; versión congelada. El fragmento actual no completa este paso. |
-| Contraste de mecanismo | Convencional competente, EA, ablaciones y control positivo con evidencia suficiente. Identificar qué cambia y medir su sobrecoste. Comparar también un control que use recursos comparables para obtener información equivalente, si es realizable. |
-| Experimento preespecificado | Distribución de mundos y variaciones declaradas; conjuntos separados para diseño y evaluación; ejecuciones independientes y, cuando proceda, mundos emparejados. Plan estadístico e incertidumbre explícitos [R10]. |
-| Sensibilidad y falsificación | Variar costes, radio, cobertura, topología, plazos y calidad legítima. Mantener casos donde EA no aporta o perjudica; no ajustar el generador después para recuperar una ventaja. |
-| Reproducción | Artefactos, versiones, semillas y registros suficientes para repetir resultados; revisión independiente posterior [R12]. La malla finita actual verifica un fragmento, no eficacia de agentes. |
-| Decisión de ampliar recursos | Mejora relevante y suficientemente robusta, mecanismo identificable, costes aceptables y un dominio concreto cuya correspondencia pueda auditarse. Si no se cumplen, revisar o detener esa línea experimental. |
-| Escenario de dominio | Integración real, correspondencias y operaciones no omitidas; pruebas con agentes y requisitos operativos. La prueba reducida orienta su diseño y no sustituye su ejecución. |
+| Executable specification | Policies, observations, event order, all charges, metrics and evaluation separated; frozen version. The current fragment does not complete this step. |
+| Mechanism contrast | Competent conventional control, EA, ablations and positive control with sufficient evidence. Identify what changes and measure its overhead. Also compare a control using comparable resources to obtain equivalent information, if realizable. |
+| Prespecified experiment | Declared world distribution and variations; separate design and evaluation sets; independent runs and, where appropriate, paired worlds. Explicit statistical plan and uncertainty [R10]. |
+| Sensitivity and falsification | Vary costs, radius, coverage, topology, deadlines and legitimate quality. Retain cases where EA contributes nothing or harms; do not adjust the generator afterward to recover an advantage. |
+| Reproduction | Sufficient artifacts, versions, seeds and records to repeat results; subsequent independent review [R12]. The current finite grid verifies a fragment, not agent effectiveness. |
+| Decision to expand resources | Relevant and sufficiently robust improvement, identifiable mechanism, acceptable costs and a concrete domain whose correspondence can be audited. If these are not met, revise or stop that experimental line. |
+| Domain scenario | Real integration, correspondences and unomitted operations; tests with agents and operational requirements. The reduced proof guides its design and does not replace execution. |
 
-Calidad, admisibilidad, coste, tiempo, abstención e incompletitud forman un vector. Una mejora en una dimensión puede empeorar otra. «Superioridad» requiere declarar dominancia o una regla de decisión y sus ponderaciones; un resultado agregado favorable no debe ocultar ejecución indebida o bloqueo injustificado. No hay aquí un protocolo experimental ya ejecutado ni una preregistración externa.
+Quality, admissibility, cost, time, abstention and incompleteness form a vector. Improvement in one dimension may worsen another. “Superiority” requires declaring dominance or a decision rule and its weights; a favorable aggregate result must not hide improper execution or unjustified blocking. There is no already-executed experimental protocol or external preregistration here.
 
-## 6 Crítica de las afirmaciones anteriores
+<a id="6-crítica-de-las-afirmaciones-anteriores"></a>
+## 6 Critique of previous claims
 
-1. **Base del método frente a estado de la prueba.** La literatura hace defendible probar primero un reducido. No completa nuestra implementación ni audita las hipótesis de una tecnología concreta. «Evidencia interna fuerte» sólo corresponde a una afirmación con alcance y controles suficientes; no a cualquier PASS.
-2. **Construcción frente a descubrimiento.** Una extensión definida transportando R01 conserva R01 por construcción. Eso es una prueba de existencia útil, pero la adecuación a un dominio debe contrastarse sin definir su semántica para que coincida. Conviene separar evaluadores, fuentes de dominio y revisión.
-3. **Observación parcial.** Incluir historia en el estado del evaluador puede hacer markoviana una representación; no da esa historia ni los hechos ocultos al agente. Hay que conservar las vistas O_i y políticas basadas en ellas. En poblaciones con objetivos propios puede requerirse un juego parcialmente observable, no un único controlador plenamente informado [R7].
-4. **Cambio de parámetros.** Triplicar radio, abaratar validación o añadir un canal puede conservar la familia estructural y cambiar radicalmente Δ. No transfiere el rendimiento de la configuración anterior.
-5. **CEGAR en sentido preciso.** Exige un objeto concreto definido, una abstracción relacionada, una propiedad, un contraejemplo, su concretización y un refinamiento justificado [R4–R7]. Nuestro crecimiento de fidelidad está inspirado en esa tradición; no hemos implementado ese ciclo. Un contraejemplo espurio exige refinar la abstracción, no modificar el sistema concreto para hacer verdadero el resultado deseado.
-6. **Safety conservadora frente a ranking de rendimiento.** Cotas por abstracción para un brazo no preservan necesariamente su comparación con otro. Para inferir ranking a partir de intervalos, éstos deben separarse en la dirección de mejora; para igualdad se necesita el contrato de §4.
-7. **Causalidad histórica.** Una traza compatible no prueba la causa de un incidente. El receptor básico que rechaza prohibiciones detectadas tampoco representa continuar tras una denegación reconocida. Eso requiere otro perfil, explícito y probado.
-8. **Costo del método y alcance externo.** Formalizar, mapear, comprobar y mantener abstracciones tiene coste propio. El reducido puede ser útil aun si luego no permite transferencia exacta; su valor sería aislar y falsificar un mecanismo. NASA [R11] orienta a juzgar credibilidad para un uso declarado, sin certificar nuestra aplicación.
+1. **Foundation of the method versus proof status.** The literature makes testing a reduced model first defensible. It neither completes our implementation nor audits a specific technology's hypotheses. “Strong internal evidence” applies only to a claim with sufficient scope and controls; not any PASS.
+2. **Construction versus discovery.** An extension defined by transporting R01 preserves R01 by construction. That is a useful existence proof, but domain adequacy must be checked without defining its semantics to match. Evaluators, domain sources and review should be separated.
+3. **Partial observation.** Including history in the evaluator's state may make a representation Markovian; it does not give that history or hidden facts to the agent. Views O_i and policies based on them must be preserved. Populations with their own objectives may require a partially observable game, not a single fully informed controller [R7].
+4. **Parameter change.** Tripling radius, making validation cheaper or adding a channel may preserve the structural family and radically change Δ. It does not transfer the previous configuration's performance.
+5. **CEGAR in the precise sense.** It requires a defined concrete object, a related abstraction, a property, a counterexample, its concretization and justified refinement [R4–R7]. Our increase in fidelity is inspired by that tradition; we have not implemented that cycle. A spurious counterexample requires refining the abstraction, not modifying the concrete system to make the desired result true.
+6. **Conservative safety versus performance ranking.** Abstraction bounds for one arm do not necessarily preserve its comparison with another. Inferring ranking from intervals requires their separation in the improvement direction; equality requires the contract in §4.
+7. **Historical causality.** A compatible trace does not prove an incident's cause. The basic receiver rejecting detected prohibitions does not represent continuing after a recognized denial either. That requires another explicit, tested profile.
+8. **Method cost and external scope.** Formalizing, mapping, checking and maintaining abstractions has its own cost. The reduced model may be useful even if it later does not permit exact transfer; its value would be isolating and falsifying a mechanism. NASA [R11] guides credibility judgment for a declared use, without certifying our application.
 
-### 6.1 Tratamiento de la bibliografía recibida
+<a id="61-tratamiento-de-la-bibliografía-recibida"></a>
+### 6.1 Treatment of the received bibliography
 
-Se conservan los precedentes que pudimos identificar y vincular con una afirmación concreta. R1 trata específicamente **MDP con intervalos y PCTL**; no se amplía su título a cualquier PCTL*. R3 distingue el resultado finito de las restricciones del levantamiento continuo. R8 es más directo para error de trazas que una referencia genérica a «abstracción aproximada». R7 resuelve el título incompleto de la referencia `1701.06209`.
+Precedents we could identify and link to a concrete claim are retained. R1 specifically concerns **interval MDPs and PCTL**; its title is not expanded to any PCTL*. R3 distinguishes the finite result from continuous lifting restrictions. R8 is more direct for trace error than a generic reference to “approximate abstraction.” R7 resolves the incomplete title of reference `1701.06209`.
 
-Las páginas secundarias, explicadores y Wikipedia no se usan como fundamento de los teoremas. FDA/ASME sobre dispositivos médicos pueden aportar ideas de credibilidad, pero no son requisitos del experimento EA; aquí basta una referencia primaria de simulación de alcance más general, R11. No se presume falsa una referencia excluida: simplemente no es necesaria para este argumento. Los trabajos recientes no sustituyen los precedentes establecidos ni la comprobación de sus hipótesis.
+Secondary pages, explainers and Wikipedia are not used as theorem foundations. FDA/ASME on medical devices may contribute credibility ideas, but are not requirements of the EA experiment; a primary simulation reference of more general scope, R11, suffices here. An excluded reference is not presumed false: it is simply unnecessary for this argument. Recent works do not replace established precedents or checking their hypotheses.
 
-## 7 Afirmación metodológica defendible
+<a id="7-afirmación-metodológica-defendible"></a>
+## 7 Defensible methodological claim
 
-> R01 es una abstracción experimental para aislar un mecanismo de exploración, revisión costosa y reutilización social de evidencia. Se evaluará primero el aporte incremental de EA frente a controles convencionales competentes, con recursos y métricas explícitos. Los resultados tendrán el alcance del modelo, la configuración y las políticas ensayadas. Una conclusión comparativa sólo se transferirá cuando se demuestre una relación que conserve ambos brazos y las propiedades relevantes, o una cota de error suficiente para sostener esa conclusión. La evidencia reducida servirá para orientar y justificar, cuando proceda, pruebas en escenarios más completos; no sustituirá su validación empírica.
+> R01 is an experimental abstraction for isolating a mechanism of exploration, costly review and social reuse of evidence. EA's incremental contribution will first be evaluated against competent conventional controls, with explicit resources and metrics. Results will have the scope of the tested model, configuration and policies. A comparative conclusion will transfer only when a relation preserving both arms and relevant properties is proved, or an error bound sufficient to sustain that conclusion. Reduced evidence will guide and justify, where appropriate, tests in more complete scenarios; it will not replace their empirical validation.
 
-## 8 Referencias primarias y localizadores
+<a id="8-referencias-primarias-y-localizadores"></a>
+## 8 Primary references and locators
 
-Fuentes consultadas el 2 de octubre de 2026. Se fijan versiones donde procede; las referencias acreditan sus propios resultados, no validación de EA.
+Sources consulted on 2 October 2026. Versions are fixed where appropriate; references establish their own results, not EA validation.
 
-- **R1.** Vahid Hashemi, Hassan Hatefi y Jan Krčál. *Probabilistic Bisimulations for PCTL Model Checking of Interval MDPs*. EPTCS 145, 2014. Definiciones, preservación y caso computacional. https://arxiv.org/abs/1403.2864v3
-- **R2.** Lihong Li, Thomas J. Walsh y Michael L. Littman. *Towards a Unified Theory of State Abstraction for MDPs*. ISAIM 2006. §§3.3–3.4 y ejemplos de §4; distinción entre conservar modelo, valores y políticas. Copia del autor: https://thomasjwalsh.net/pub/aima06Towards.pdf
-- **R3.** Sahand Rezaei-Shoshtari, Rosie Zhao, Prakash Panangaden, David Meger y Doina Precup. *Continuous MDP Homomorphisms and Homomorphic Policy Gradient*. NeurIPS 2022. Definiciones 1/3, teoremas 1–3, §7 y apéndice B. https://arxiv.org/abs/2209.07364v1 · Texto: https://arxiv.org/html/2209.07364v1
-- **R4.** Edmund Clarke, Orna Grumberg, Somesh Jha, Yuan Lu y Helmut Veith. *Counterexample-guided Abstraction Refinement*. CAV 2000. §§3–4, ciclo y concretización; §6, experimentos. https://web.stanford.edu/class/cs357/cegar.pdf
-- **R5.** Mark Kattenbelt, Marta Kwiatkowska, Gethin Norman y David Parker. *A Game-Based Abstraction-Refinement Framework for Markov Decision Processes*. Informe Oxford CL-RR-08-06, 2008. §§3–4, cotas y refinamiento; §5, experimentos. https://www.prismmodelchecker.org/papers/RR-08-06.pdf
-- **R6.** Los mismos autores. *Abstraction Refinement for Probabilistic Software*. VMCAI 2009, LNCS 5403, pp. 182–197. Implementación y tablas experimentales 1–2. https://www.prismmodelchecker.org/papers/vmcai09.pdf
-- **R7.** Xiaobin Zhang, Bo Wu y Hai Lin. *Counterexample-Guided Abstraction Refinement for POMDPs*. 2017. §§III–IV, simulación y refinamiento; §V, ejemplo. Alcance: finite-horizon safe-PCTL. https://arxiv.org/abs/1701.06209v4 · Texto: https://arxiv.org/html/1701.06209v4
-- **R8.** Gaoang Bian y Alessandro Abate. *On the Relationship between Bisimulation and Trace Equivalence in an Approximate Probabilistic Context (Extended Version)*. FoSSaCS 2017. Relación entre bisimulación aproximada y distancia de trazas de horizonte finito. https://arxiv.org/abs/1701.04547v3
-- **R9.** Timm Spork, Christel Baier, Joost-Pieter Katoen, Jakob Piribauer y Tim Quatmann. *A Spectrum of Approximate Probabilistic Bisimulations*. CONCUR 2024. Relaciones entre nociones aproximadas para cadenas de Markov etiquetadas. https://arxiv.org/abs/2407.07584v1
-- **R10.** Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville y Marc G. Bellemare. *Deep Reinforcement Learning at the Edge of the Statistical Precipice*. NeurIPS 2021; versión revisada 2022. Evaluación comparativa, intervalos y perfiles. https://arxiv.org/abs/2108.13264v4
-- **R11.** NASA. *NASA-STD-7009B: Standard for Models and Simulations*, 5 de marzo de 2024. §§4.1–4.3, uso, aceptación, V&V y credibilidad. https://standards.nasa.gov/standard/NASA/NASA-STD-7009 · Documento: https://standards.nasa.gov/sites/default/files/standards/NASA/B/1/NASA-STD-7009B-Final-3-5-2024.pdf
-- **R12.** ACM SIGSIM PADS 2026. *Reproducibility and Artifact Evaluation*. Criterios de artefactos y resultados reproducidos; revisión e informes. https://sigsim.acm.org/conf/pads/2026/blog/artifact-evaluation/
-- **R13.** Helge Spieker, Dennis Gross y Arnaud Gotlieb. *Probabilistic Model Checking of Autoregressive Neural Sequence Models*. arXiv, septiembre de 2026; el registro declara ICTSS 2026. §3, DTMC, soundness y refinamiento; §4, casos. https://arxiv.org/abs/2609.00838v1 · Texto: https://arxiv.org/html/2609.00838v1
-- **R14.** Sultan Javed Majeed y Marcus Hutter. *Performance Guarantees for Homomorphisms Beyond Markov Decision Processes*. Versión extendida, 2018; versión corta AAAI 2019. §5 y apéndices: garantías bajo condiciones de agregación. https://arxiv.org/abs/1811.03895v1
+- **R1.** Vahid Hashemi, Hassan Hatefi and Jan Krčál. *Probabilistic Bisimulations for PCTL Model Checking of Interval MDPs*. EPTCS 145, 2014. Definitions, preservation and computational case. https://arxiv.org/abs/1403.2864v3
+- **R2.** Lihong Li, Thomas J. Walsh and Michael L. Littman. *Towards a Unified Theory of State Abstraction for MDPs*. ISAIM 2006. §§3.3–3.4 and examples in §4; distinction between preserving model, values and policies. Author's copy: https://thomasjwalsh.net/pub/aima06Towards.pdf
+- **R3.** Sahand Rezaei-Shoshtari, Rosie Zhao, Prakash Panangaden, David Meger and Doina Precup. *Continuous MDP Homomorphisms and Homomorphic Policy Gradient*. NeurIPS 2022. Definitions 1/3, theorems 1–3, §7 and appendix B. https://arxiv.org/abs/2209.07364v1 · Text: https://arxiv.org/html/2209.07364v1
+- **R4.** Edmund Clarke, Orna Grumberg, Somesh Jha, Yuan Lu and Helmut Veith. *Counterexample-guided Abstraction Refinement*. CAV 2000. §§3–4, cycle and concretization; §6, experiments. https://web.stanford.edu/class/cs357/cegar.pdf
+- **R5.** Mark Kattenbelt, Marta Kwiatkowska, Gethin Norman and David Parker. *A Game-Based Abstraction-Refinement Framework for Markov Decision Processes*. Oxford report CL-RR-08-06, 2008. §§3–4, bounds and refinement; §5, experiments. https://www.prismmodelchecker.org/papers/RR-08-06.pdf
+- **R6.** The same authors. *Abstraction Refinement for Probabilistic Software*. VMCAI 2009, LNCS 5403, pp. 182–197. Implementation and experimental tables 1–2. https://www.prismmodelchecker.org/papers/vmcai09.pdf
+- **R7.** Xiaobin Zhang, Bo Wu and Hai Lin. *Counterexample-Guided Abstraction Refinement for POMDPs*. 2017. §§III–IV, simulation and refinement; §V, example. Scope: finite-horizon safe-PCTL. https://arxiv.org/abs/1701.06209v4 · Text: https://arxiv.org/html/1701.06209v4
+- **R8.** Gaoang Bian and Alessandro Abate. *On the Relationship between Bisimulation and Trace Equivalence in an Approximate Probabilistic Context (Extended Version)*. FoSSaCS 2017. Relation between approximate bisimulation and finite-horizon trace distance. https://arxiv.org/abs/1701.04547v3
+- **R9.** Timm Spork, Christel Baier, Joost-Pieter Katoen, Jakob Piribauer and Tim Quatmann. *A Spectrum of Approximate Probabilistic Bisimulations*. CONCUR 2024. Relations between approximate notions for labeled Markov chains. https://arxiv.org/abs/2407.07584v1
+- **R10.** Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron Courville and Marc G. Bellemare. *Deep Reinforcement Learning at the Edge of the Statistical Precipice*. NeurIPS 2021; revised version 2022. Comparative evaluation, intervals and profiles. https://arxiv.org/abs/2108.13264v4
+- **R11.** NASA. *NASA-STD-7009B: Standard for Models and Simulations*, 5 March 2024. §§4.1–4.3, use, acceptance, V&V and credibility. https://standards.nasa.gov/standard/NASA/NASA-STD-7009 · Document: https://standards.nasa.gov/sites/default/files/standards/NASA/B/1/NASA-STD-7009B-Final-3-5-2024.pdf
+- **R12.** ACM SIGSIM PADS 2026. *Reproducibility and Artifact Evaluation*. Artifact and reproduced-result criteria; review and reports. https://sigsim.acm.org/conf/pads/2026/blog/artifact-evaluation/
+- **R13.** Helge Spieker, Dennis Gross and Arnaud Gotlieb. *Probabilistic Model Checking of Autoregressive Neural Sequence Models*. arXiv, September 2026; the record declares ICTSS 2026. §3, DTMC, soundness and refinement; §4, cases. https://arxiv.org/abs/2609.00838v1 · Text: https://arxiv.org/html/2609.00838v1
+- **R14.** Sultan Javed Majeed and Marcus Hutter. *Performance Guarantees for Homomorphisms Beyond Markov Decision Processes*. Extended version, 2018; short version AAAI 2019. §5 and appendices: guarantees under aggregation conditions. https://arxiv.org/abs/1811.03895v1
 

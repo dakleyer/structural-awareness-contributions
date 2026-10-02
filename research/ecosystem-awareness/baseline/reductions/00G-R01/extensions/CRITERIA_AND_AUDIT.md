@@ -1,137 +1,147 @@
-# Criterio común y revisión de las tres extensiones de R01
+<a id="criterio-común-y-revisión-de-las-tres-extensiones-de-r01"></a>
+# Common criterion and review of the three R01 extensions
 
-Versión 0.1 · 2 de octubre de 2026 · Revisión interna del autor asistida por IA
+Version 0.1 · 2 October 2026 · Internal author review assisted by AI
 
-[R01 y tabla de extensiones](../README.md#extensiones) · [Hugging Face](./hugging-face/README.md) · [Infoblox](./infoblox/README.md) · [Familia construida](./family/README.md) · [Fundamento metodológico](./METHODOLOGICAL_FOUNDATIONS.md) · [Verificación reproducible](./verify_audit.py) · [Informe](./audit_results.json) · [Revisión editorial](./EDITORIAL_REVIEW.md)
+[R01 and extensions table](../README.md#extensiones) · [Hugging Face](./hugging-face/README.md) · [Infoblox](./infoblox/README.md) · [Constructed family](./family/README.md) · [Methodological foundations](./METHODOLOGICAL_FOUNDATIONS.md) · [Reproducible verification](./verify_audit.py) · [Report](./audit_results.json) · [Editorial review](./EDITORIAL_REVIEW.md)
 
-## 1 Base fijada y objeto de la revisión
+<a id="1-base-fijada-y-objeto-de-la-revisión"></a>
+## 1 Fixed base and object of the review
 
-La base es **R01 v0.6**, texto completo en el [commit 114ac132](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), blob `3261a625975e303e12c484bc9c273d7f8819b099`. Se revisaron los documentos, demostraciones, código y resultados de los tres paquetes publicados en el [commit cbb69f1](https://github.com/dakleyer/structural-awareness-contributions/commit/cbb69f1d673c7844610fdde01fb78a3394497bb0), además de las observaciones de auditoría proporcionadas por el autor. No se acreditó la independencia ni una lectura completa por quien redactó esas observaciones; su texto declara una revisión parcial.
+The base is **R01 v0.6**, full text in [commit 114ac132](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), blob `3261a625975e303e12c484bc9c273d7f8819b099`. The documents, proofs, code and results of the three packages published in [commit cbb69f1](https://github.com/dakleyer/structural-awareness-contributions/commit/cbb69f1d673c7844610fdde01fb78a3394497bb0) were reviewed, alongside the audit observations supplied by the author. Neither independence nor a complete reading by the writer of those observations was established; their text declares a partial review.
 
-«Extensión» designa una **relación propuesta**, cuyo objeto y alcance deben explicitarse. Los tres expedientes se evalúan con el mismo contrato, aunque no persigan el mismo objeto real:
+“Extension” designates a **proposed relation**, whose object and scope must be made explicit. The three case records are evaluated under the same contract, although they do not pursue the same real object:
 
-- **Histórico:** mapear una trayectoria o un episodio documentado; también puede contener modelos construidos inspirados en él.
-- **Tecnológico:** realizar un problema con componentes e interfaces concretos; un modelo propuesto no acredita su activación en un despliegue.
-- **Construido:** especificar una clase o instancia sintética mediante relaciones declaradas; una construcción por transporte demuestra existencia formal, no adecuación de un sistema externo.
+- **Historical:** map a documented trajectory or episode; it may also contain constructed models inspired by it.
+- **Technological:** realize a problem with concrete components and interfaces; a proposed model does not establish its activation in a deployment.
+- **Constructed:** specify a synthetic class or instance through declared relations; a construction by transport proves formal existence, not adequacy of an external system.
 
-La familia H/L/W es un marco de diseño, no una tercera tecnología. Su H es un escenario construido inspirado en preguntas del caso Hugging Face. El expediente histórico HF conserva una obligación adicional de correspondencia con sus fuentes; no es el mismo objeto ni un segundo caso histórico.
+The H/L/W family is a design framework, not a third technology. Its H is a constructed scenario inspired by questions from the Hugging Face case. The historical HF case record retains an additional obligation of correspondence with its sources; it is neither the same object nor a second historical case.
 
-## 2 Contrato común de correspondencia
+<a id="2-contrato-común-de-correspondencia"></a>
+## 2 Common correspondence contract
 
-Para una base efectiva `B_{θ*}` y un destino declarado E se identifican:
+For an effective base `B_{θ*}` and a declared target E, the following are identified:
 
-1. **Representación F de mundos y biyecciones tipadas h del núcleo:** operaciones, relaciones, hechos, parámetros y sus dependencias, incluidos todos los grupos de R01 §2.13. Una tabla de nombres no demuestra esas biyecciones.
-2. **Proyección α de trayectorias:** recupera secuencia, consultas, observaciones, decisiones, efectos y recursos. Si E añade variables, α no tiene por qué ser invertible en todo E. Se exige inversa sobre el núcleo y un levantamiento de las trayectorias base; no una falsa biyección con los detalles adicionales.
-3. **Conservación de información y dinámica:** operaciones habilitadas, ley de transiciones y vistas disponibles; ningún dato decisivo puede desaparecer bajo la proyección. Cambios de topología, permisos o política requieren referentes explícitos.
-4. **Conservación semántica:** Adm, J, óptimo admisible, umbrales y finales de la misma tarea; se incluyen mejoras, abstención e incompletitud. Aceptación técnica y autorización permanecen distintas.
-5. **Contabilidad:** todos los eventos y sus tiempos; normalizaciones de unidades, presupuesto y horizonte consistentes. Las consultas agregadas y los certificados suficientes se admiten con sus costes efectivos.
-6. **Positivo y falsificador:** una alternativa legítima comparable que pueda continuar y una modificación que rompa alguna condición de transferencia.
+1. **World representation F and typed kernel bijections h:** operations, relations, facts, parameters and their dependencies, including all groups of R01 §2.13. A table of names does not prove those bijections.
+2. **Trajectory projection α:** recovers sequence, queries, observations, decisions, effects and resources. If E adds variables, α need not be invertible over all E. An inverse on the kernel and a lifting of base trajectories are required; not a false bijection with the additional details.
+3. **Preservation of information and dynamics:** enabled operations, transition law and available views; no decisive datum may disappear under projection. Changes to topology, permissions or policy require explicit counterparts.
+4. **Semantic preservation:** Adm, J, admissible optimum, thresholds and endings of the same task; improvements, abstention and incompleteness are included. Technical acceptance and authorization remain distinct.
+5. **Accounting:** all events and their timing; consistent normalizations of units, budget and horizon. Aggregate queries and sufficient certificates are admitted with their effective costs.
+6. **Positive and falsifier:** a comparable legitimate alternative that may continue and a modification breaking some transfer condition.
 
-El [criterio suficiente E1–E7 de la nota matemática](./family/KERNEL_AND_PROOF.md#41-obligaciones-e1e7) formaliza ese contrato para un núcleo parametrizado. La admisión específica a 00G requiere además C-V-G y A25 X1–X7. Conservar un fragmento de R01 no completa esa admisión.
+The [sufficient criterion E1–E7 in the mathematical note](./family/KERNEL_AND_PROOF.md#41-obligaciones-e1e7) formalizes that contract for a parameterized kernel. Specific admission to 00G additionally requires C-V-G and A25 X1–X7. Preserving a fragment of R01 does not complete that admission.
 
-**Regla de admisión común.** E1–E7 fija la conservación completa declarada; una correspondencia parcial, un lema informacional o una simulación unidireccional sólo acredita su propiedad y alcance. No se cambia ese umbral entre expedientes. La prueba de una cota en Infoblox no se equipara a isomorfismo completo, y la construcción formal H/L/W no se equipara a una integración de dominio verificada. Los casos que no completan las obligaciones conservan su estado parcial o pendiente.
+**Common admission rule.** E1–E7 fixes the declared complete preservation; a partial correspondence, informational lemma or one-way simulation establishes only its property and scope. That threshold does not change between case records. The proof of a bound in Infoblox is not equated with complete isomorphism, and the formal H/L/W construction is not equated with a verified domain integration. Cases not completing the obligations retain their partial or pending status.
 
-**Dos afirmaciones separadas.** Conservar el núcleo con radio `3R_e` o revisión más barata permite comparar con la configuración efectiva `θ*`. No conserva automáticamente el rendimiento de `θ`. Para transportar una cota superior de éxito al destino se necesita simular **toda política de la clase destino** en la base, sin más información ni mayores recursos, con la misma distribución, óptimo y umbrales de éxito. Una capacidad suficiente nueva puede resolver el caso y anular la cota anterior.
+**Two separate claims.** Preserving the kernel with radius `3R_e` or cheaper review allows comparison with the effective configuration `θ*`. It does not automatically preserve the performance of `θ`. Transporting an upper success bound to the target requires simulating **every policy in the target class** in the base, without more information or greater resources, with the same distribution, optimum and success thresholds. A new sufficient capability may resolve the case and invalidate the earlier bound.
 
-## 3 Estados de evidencia comunes
+<a id="3-estados-de-evidencia-comunes"></a>
+## 3 Common evidence states
 
-Se registran afirmaciones con su alcance, no una puntuación acumulativa de madurez. EV1 y EV2 pueden coexistir; un ensayo EV4 no prueba por sí solo EV5. Revisión independiente es otra propiedad.
+Claims are recorded with their scope, not a cumulative maturity score. EV1 and EV2 may coexist; an EV4 trial does not by itself prove EV5. Independent review is another property.
 
-| Código | Evidencia que acredita | Qué no acredita por sí sola |
+| Code | Evidence established | What it does not establish by itself |
 |---|---|---|
-| EV0 | Argumento o correspondencia propuesta. | Conservación demostrada o implementación. |
-| EV1 | Demostración matemática bajo hipótesis y clase declaradas. | Que un sistema externo satisfaga las hipótesis. |
-| EV2 | Verificación ejecutada de una instancia o malla finita identificada. | Todos los parámetros, independencia de muestras o eficacia de agentes. |
-| EV3 | Implementación del dominio con interfaces y configuración comprobadas. | Rendimiento con agentes o correspondencia histórica. |
-| EV4 | Ejecución con agentes bajo protocolo y medición declarados. | Admisión a la familia completa o validación independiente. |
-| EV5 | Admisión del objeto externo específico mediante el contrato completo aplicable. | Reproducción de todo un incidente ni garantía universal. |
+| EV0 | Proposed argument or correspondence. | Demonstrated preservation or implementation. |
+| EV1 | Mathematical proof under declared hypotheses and class. | That an external system satisfies the hypotheses. |
+| EV2 | Executed verification of an identified instance or finite grid. | All parameters, sample independence or agent effectiveness. |
+| EV3 | Domain implementation with checked interfaces and configuration. | Performance with agents or historical correspondence. |
+| EV4 | Execution with agents under a declared protocol and measurement. | Admission to the complete family or independent validation. |
+| EV5 | Admission of the specific external object through the complete applicable contract. | Reproduction of an entire incident or a universal guarantee. |
 
-Las fuentes sobre incidentes tienen sus propias ejecuciones; **no** convierten nuestros modelos en EV4. Una fuente de proveedor tampoco da EV3 a una integración que proponemos.
+Incident sources have their own executions; they do **not** turn our models into EV4. A vendor source does not give EV3 to an integration we propose either.
 
-## 4 Fichas comparables
+<a id="4-fichas-comparables"></a>
+## 4 Comparable records
 
-| Campo | Hugging Face | Infoblox | Familia H/L/W |
+| Field | Hugging Face | Infoblox | H/L/W family |
 |---|---|---|---|
-| Tipo | Histórico, con transporte sintético auxiliar. | Tecnológico, con testigo de composición sintético. | Clase construida y especificaciones de dominio. |
-| Base | R01 v0.6 y blob fijados en §1. | Misma base; su referencia anterior d44a09de identifica el mismo blob. | Misma base. |
-| F y α / inversa | [§§2–4](./hugging-face/README.md#2-qué-debe-conservar-una-extensión): IDs de tramos y rutas recuperables en el modelo; α histórica pendiente. | [§§5.3 y 6](./infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01): registros ↔ condiciones/rutas del testigo; integración completa pendiente. | [Nota §§3–5](./family/KERNEL_AND_PROOF.md): h, p y sección sobre núcleo; leyes y vistas condicionadas a E1–E7. El código comprueba un fragmento. |
-| Evidencia actual | EV1: resultado del contrato de consultas; EV2: transporte y módulos finitos; EV0: relación histórica. | EV1: lema, transferencia condicional y curvas del contrato; EV2: modelo finito; EV0: integración propuesta. | EV1: criterio y construcción formal; EV2: fragmento H/L/W; EV0: realización completa de dominios. |
-| EV3/EV4/EV5 | No acreditados por este paquete. | No acreditados por este paquete. | No acreditados por este paquete. |
-| Receptor | La rama básica rechaza denegación detectada; no reproduce continuar reconociendo una prohibición. | Pasarela estricta; la dificultad comprobada es de calidad/recursos, con cero infracciones ejecutadas. | Rechazo de denegaciones detectadas; compromiso agregado en el fragmento, sin implementar toda la revisión propia de R01. |
-| Positivo | Rutas admisibles y certificado suficiente. | A válida, B admisible y certificado suficiente. | Alternativa válida y revisión completa; canal autorizado. |
-| Falsificador | Mismas marginales con diferente emparejamiento; cambio de predicado; ausencia de ruta legítima. | Certificado suficiente barato elimina la obstrucción informacional. | Alteraciones de relaciones, permisos, vistas, costes y probabilidades; parámetros distintos cambian resultados. |
-| Revisión | Interna; observaciones externas parciales contrastadas; independencia no acreditada. | Igual alcance de esta revisión; no validación del proveedor. | Igual alcance; demostración analítica sin certificación por asistente de pruebas. |
-| Dictamen común | **Correspondencia parcial demostrada/comprobada en el alcance sintético; extensión completa del objeto histórico pendiente.** | **Correspondencia parcial demostrada/comprobada en el alcance sintético; extensión completa del objeto tecnológico pendiente.** | **Criterio y construcción formal demostrados; correspondencia parcial comprobada en el fragmento; realización completa H/L/W pendiente.** |
+| Type | Historical, with auxiliary synthetic transport. | Technological, with a synthetic composition witness. | Constructed class and domain specifications. |
+| Base | R01 v0.6 and blob fixed in §1. | Same base; its earlier d44a09de reference identifies the same blob. | Same base. |
+| F and α / inverse | [§§2–4](./hugging-face/README.md#2-qué-debe-conservar-una-extensión): recoverable segment and route IDs in the model; historical α pending. | [§§5.3 and 6](./infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01): records ↔ witness conditions/routes; complete integration pending. | [Note §§3–5](./family/KERNEL_AND_PROOF.md): h, p and section on kernel; laws and views conditional on E1–E7. The code checks a fragment. |
+| Current evidence | EV1: query-contract result; EV2: transport and finite modules; EV0: historical relation. | EV1: lemma, conditional transfer and contract curves; EV2: finite model; EV0: proposed integration. | EV1: criterion and formal construction; EV2: H/L/W fragment; EV0: complete domain realization. |
+| EV3/EV4/EV5 | Not established by this package. | Not established by this package. | Not established by this package. |
+| Receiver | The basic branch rejects detected denial; it does not reproduce continuing while recognizing a prohibition. | Strict gateway; the checked difficulty concerns quality/resources, with zero executed violations. | Rejection of detected denials; aggregate commitment in the fragment, without implementing all of R01's own review. |
+| Positive | Admissible routes and sufficient certificate. | Valid A, admissible B and sufficient certificate. | Valid alternative and full review; authorized channel. |
+| Falsifier | Same marginals with different pairing; predicate change; absence of a legitimate route. | A cheap sufficient certificate eliminates the informational obstruction. | Changes to relations, permissions, views, costs and probabilities; different parameters change results. |
+| Review | Internal; partial external observations checked; independence not established. | Same scope of this review; not vendor validation. | Same scope; analytical proof without proof-assistant certification. |
+| Common verdict | **Partial correspondence demonstrated/checked within synthetic scope; complete extension of the historical object pending.** | **Partial correspondence demonstrated/checked within synthetic scope; complete extension of the technological object pending.** | **Criterion and formal construction proved; partial correspondence checked in the fragment; complete H/L/W realization pending.** |
 
-No se comparan las cantidades de aserciones entre paquetes como si midieran calidad de validación. Se usan para reproducir el alcance declarado y localizar regresiones.
+Assertion counts are not compared between packages as though they measured validation quality. They are used to reproduce the declared scope and locate regressions.
 
-## 5 Matriz común de los quince grupos de R01 §2.13
+<a id="5-matriz-común-de-los-quince-grupos-de-r01-213"></a>
+## 5 Common matrix of the fifteen R01 §2.13 groups
 
-`Parcial` significa que se representa o verifica una parte del grupo en el modelo, con el resto indicado. `Pendiente` significa que la ejecución no verifica ese grupo. `Cubierto` se reserva a la totalidad del grupo **en el alcance expresamente delimitado**; no se utiliza aquí para declarar el inventario completo realizado. La correspondencia formal condicionada de la familia no convierte sus filas pendientes en comprobaciones ejecutadas.
+`Partial` means part of the group is represented or verified in the model, with the remainder indicated. `Pending` means the execution does not verify that group. `Covered` is reserved for the entire group **within the expressly delimited scope**; it is not used here to declare the complete inventory realized. The family's conditional formal correspondence does not turn its pending rows into executed checks.
 
-| Grupo | HF: alcance sintético / pendiente | Infoblox: alcance sintético / pendiente | Familia: fragmento / pendiente |
+| Group | HF: synthetic scope / pending | Infoblox: synthetic scope / pending | Family: fragment / pending |
 |---|---|---|---|
-| Tarea | Parcial: L y mandato; plazo/efectos completos pendientes. | Parcial: L, misión y rutas; plazo no limitante. | Parcial: longitud de cadenas y horizonte; ejecución funcional por tramo pendiente. |
-| Población | Parcial: reparto de consultas; dinámica decisora pendiente. | Parcial: reparto N; dinámica decisora pendiente. | Parcial: N=1/2 con memoria y eventos; reparto general pendiente. |
-| Perfiles de entrada | Parcial: malla de atributos; generador probabilístico completo pendiente. | Parcial: cuatro perfiles fijados; generador completo pendiente. | Parcial: atributos fijados y mundos enumerados; generador completo pendiente. |
-| Atractivo realizado | Parcial: óptimo en rutas incluidas; percepción histórica pendiente. | Parcial: óptimo en cuatro rutas; percepción/calibración pendientes. | Parcial: óptimo en cuatro rutas; selección por atractivo no implementada. |
-| Heterogeneidad | Parcial: dispersión y alineación fijadas; efecto causal pendiente. | Parcial: dispersión fijada; efecto causal pendiente. | Parcial: un perfil heterogéneo; barrido y efecto causal pendientes. |
-| Geometría | Parcial: coordenadas/conectores y filtro; búsqueda desde posiciones móviles pendiente. | Parcial: distancias decorativas bajo directorio completo; búsqueda pendiente. | Parcial: coordenadas y umbral de una candidata; geometría exploratoria completa pendiente. |
-| Creatividad | Parcial: filtro por radio; búsqueda pagada completa pendiente. | Pendiente: el directorio completo elimina la búsqueda en el testigo. | Parcial: descubrimiento estocástico de A; política de muestreo/radio general pendiente. |
-| Composición | Parcial: conjunción/paridad y conectores; predicados generales pendientes. | Parcial: conjunción y testigo; mixto/paridad no ejecutados. | Parcial: conjunción; mixto/paridad no ejecutados. |
-| Revisión propia | Parcial: ventanas y contrato adaptativo separados; integración pendiente. | Parcial: consultas adaptativas; k_a/k_d no implementados. | Parcial: consultas y rechazo; revisión propia mínima/ventanas pendientes. |
-| Costes | Parcial: identidades y módulos; libro integral pendiente. | Parcial: presupuesto residual de revisión; libro integral pendiente. | Parcial: eventos pagados; ejecución por tramo/mantenimiento pendientes. |
-| Recursos | Parcial: presupuesto residual y reparto; v/beta/planificador pendientes. | Parcial: presupuesto residual; v/beta/plazo operativo pendientes. | Parcial: presupuesto global y horizonte; v/beta/transferencias pendientes. |
-| Red social | Parcial: deduplicación; s/w_s/topología causal pendientes. | Parcial: relés y reparto; s/w_s/dinámica pendientes. | Parcial: transmisión directa de recibos; s/w_s/latencia/topología variable pendientes. |
-| Política | Parcial: políticas del contrato de consultas; brazos completos pendientes. | Parcial: contrato de consultas/pasarela; brazos completos pendientes. | Parcial: eventos habilitados para equivalencia; política selectora y brazos completos pendientes. |
-| Volumen observado | Parcial: cobertura/relés; Q emergente pendiente. | Parcial: cobertura/relés; Q emergente pendiente. | Parcial: máscaras de cobertura; Q y deduplicación general pendientes. |
-| Variación | Parcial: malla y permutación; campaña temporal/semillas pendientes. | Parcial: malla estática; cambios y campaña pendientes. | Parcial: probabilidades exactas y auxiliar; versiones/cambios materiales pendientes. |
+| Task | Partial: L and mandate; full deadline/effects pending. | Partial: L, mission and routes; deadline nonbinding. | Partial: chain length and horizon; functional execution per segment pending. |
+| Population | Partial: query allocation; decision dynamics pending. | Partial: allocation N; decision dynamics pending. | Partial: N=1/2 with memory and events; general allocation pending. |
+| Input profiles | Partial: attribute grid; complete probabilistic generator pending. | Partial: four fixed profiles; complete generator pending. | Partial: fixed attributes and enumerated worlds; complete generator pending. |
+| Realized attractiveness | Partial: optimum among included routes; historical perception pending. | Partial: optimum among four routes; perception/calibration pending. | Partial: optimum among four routes; attractiveness-based selection not implemented. |
+| Heterogeneity | Partial: fixed dispersion and alignment; causal effect pending. | Partial: fixed dispersion; causal effect pending. | Partial: one heterogeneous profile; sweep and causal effect pending. |
+| Geometry | Partial: coordinates/connectors and filter; search from moving positions pending. | Partial: decorative distances under complete directory; search pending. | Partial: coordinates and threshold of one candidate; complete exploratory geometry pending. |
+| Creativity | Partial: radius filter; complete paid search pending. | Pending: the complete directory eliminates search in the witness. | Partial: stochastic discovery of A; general sampling/radius policy pending. |
+| Composition | Partial: conjunction/parity and connectors; general predicates pending. | Partial: conjunction and witness; mixed/parity not executed. | Partial: conjunction; mixed/parity not executed. |
+| Own review | Partial: separate windows and adaptive contract; integration pending. | Partial: adaptive queries; k_a/k_d not implemented. | Partial: queries and rejection; minimum own review/windows pending. |
+| Costs | Partial: identities and modules; full ledger pending. | Partial: residual review budget; full ledger pending. | Partial: paid events; segment execution/maintenance pending. |
+| Resources | Partial: residual budget and allocation; v/beta/scheduler pending. | Partial: residual budget; v/beta/operational deadline pending. | Partial: global budget and horizon; v/beta/transfers pending. |
+| Social network | Partial: deduplication; s/w_s/causal topology pending. | Partial: relays and allocation; s/w_s/dynamics pending. | Partial: direct receipt transmission; s/w_s/latency/variable topology pending. |
+| Policy | Partial: query-contract policies; complete arms pending. | Partial: query/gateway contract; complete arms pending. | Partial: enabled events for equivalence; selection policy and complete arms pending. |
+| Observed volume | Partial: coverage/relays; emergent Q pending. | Partial: coverage/relays; emergent Q pending. | Partial: coverage masks; Q and general deduplication pending. |
+| Variation | Partial: grid and permutation; temporal campaign/seeds pending. | Partial: static grid; changes and campaign pending. | Partial: exact probabilities and auxiliary; versions/material changes pending. |
 
-Métricas q/C/t/a/f/K/e/ε, SC-H y la intervención EA requieren además sus protocolos completos. Ningún paquete acredita aquí causalidad económica histórica ni diferencial EA. Las matrices originales se conservan: [HF §3](./hugging-face/README.md#3-inventario-de-parámetros-y-resultados), [Infoblox §5.2](./infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) y [familia, inventario formal](./family/KERNEL_AND_PROOF.md#3-inventario-completo-de-correspondencias-principales).
+Metrics q/C/t/a/f/K/e/ε, SC-H and the EA intervention additionally require their complete protocols. No package establishes historical economic causality or an EA differential here. The original matrices are retained: [HF §3](./hugging-face/README.md#3-inventario-de-parámetros-y-resultados), [Infoblox §5.2](./infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) and [family, formal inventory](./family/KERNEL_AND_PROOF.md#3-inventario-completo-de-correspondencias-principales).
 
-## 6 A25 X1–X7 con el mismo alcance
+<a id="6-a25-x1x7-con-el-mismo-alcance"></a>
+## 6 A25 X1–X7 with the same scope
 
-| Criterio | HF | Infoblox | Familia |
+| Criterion | HF | Infoblox | Family |
 |---|---|---|---|
-| X1 Núcleo | Parcial en submodelo; histórico pendiente. | Parcial en composición; implementación completa pendiente. | Condicional en E1–E7; parcial en fragmento. |
-| X2 Frontera | Definida en modelo; receptor histórico pendiente. | Composición bajo misión/receptor/versión fijos. | Eventos definidos; frontera de dominio completa pendiente. |
-| X3 Fallo | Adm/J transportados; éxito histórico pendiente. | Calidad/recursos bajo contrato; no se ejecuta F_G. | Condicional en teorema; veredictos del fragmento; F_G pendiente. |
-| X4 Requisitos | Ruta S/T completa pendiente. | Ruta S/T completa pendiente. | Ruta S/T completa pendiente; E1–E7 no la sustituye. |
-| X5 Positivo | Ejecutado en modelo. | Ejecutado en modelo. | Ejecutado en fragmento; positivo del dominio pendiente. |
-| X6 Recursos | Módulos explícitos; costes/tiempo históricos pendientes. | Residual explícito; costes/tiempo de producto pendientes. | Eventos explícitos; ejecución funcional integral pendiente. |
-| X7 Primitivas | Normalización del objeto histórico pendiente. | Normalización/integración real pendiente. | Declaradas en fragmento; nuevas capacidades de dominio deben mapearse. |
+| X1 Kernel | Partial in submodel; historical pending. | Partial in composition; complete implementation pending. | Conditional on E1–E7; partial in fragment. |
+| X2 Boundary | Defined in model; historical receiver pending. | Composition under fixed mission/receiver/version. | Events defined; complete domain boundary pending. |
+| X3 Failure | Adm/J transported; historical success pending. | Quality/resources under contract; F_G is not executed. | Conditional in theorem; fragment verdicts; F_G pending. |
+| X4 Requirements | Complete S/T path pending. | Complete S/T path pending. | Complete S/T path pending; E1–E7 does not replace it. |
+| X5 Positive | Executed in model. | Executed in model. | Executed in fragment; domain positive pending. |
+| X6 Resources | Explicit modules; historical costs/time pending. | Explicit residual; product costs/time pending. | Explicit events; full functional execution pending. |
+| X7 Primitives | Historical-object normalization pending. | Real normalization/integration pending. | Declared in fragment; new domain capabilities must be mapped. |
 
-Se conserva la diferencia entre la familia amplia de problemas R01 y la especialización C-V-G. Un fragmento que demuestra revisión costosa no demuestra desplazamiento social de una obligación.
+The distinction between the broad R01 problem family and the C-V-G specialization is maintained. A fragment proving costly review does not prove social displacement of an obligation.
 
-## 7 Resolución de las observaciones del auditor
+<a id="7-resolución-de-las-observaciones-del-auditor"></a>
+## 7 Resolution of the auditor's observations
 
-| Observación | Resultado de la lectura completa y corrección |
+| Observation | Outcome of complete reading and correction |
 |---|---|
-| Criterios y estados dispares | Confirmado como problema de comparación. Se añaden ficha, escala de evidencias, quince grupos y A25 comunes. |
-| Sólo HF tiene matriz | No confirmado. Infoblox §§5.2/6.7 y la nota de familia §§3/7 ya contienen matrices. Se normalizan sus estados y enlaces. |
-| Isomorfismo circular | La construcción por transporte es una prueba válida de existencia formal y conservación condicional; no aporta evidencia independiente de adecuación externa. Se rebaja cualquier lectura de admisión completa de H/L/W. |
-| Receptor excluye continuar ante una prohibición | Confirmado como límite de alcance. Duda de autorización y prohibición detectada no son lo mismo; sólo la segunda impide la transición en el receptor básico. |
-| M arbitrario en L | Es un supuesto de diseño, no un resultado histórico. Se exige tarea de calidad graduada, M legítima y sensibilidad a ε. Una tarea binaria sin alternativa legítima inferior no entra mediante este M. |
-| W requiere dinámica | Confirmado para activar nuevas conexiones y medir adopción. R01 §2.14 contempla variantes dinámicas, pero no hay implementación de esa actualización aquí. La fase estática se delimita. |
-| Números grandes de comprobaciones | Se conservan como datos de reproducción, no como medida de representatividad o validación externa. |
-| Ausencia de revisión independiente | Confirmado. Las observaciones aportadas no acreditan por sí solas independencia ni lectura completa. |
-| Fuentes desiguales | Reconsultadas OpenAI, METR, arXiv y collusion.wiki el 2 de octubre. W1 es una investigación externa con atribución provisional; no se le inventa fecha de publicación ni identidad de grupo. |
-| Títulos e índices duplicados | Se convierte el rótulo de auditoría HF en una etiqueta de expediente, manteniendo secciones y ancla histórica. Se elimina la referencia al orden de redacción en la familia. |
+| Disparate criteria and states | Confirmed as a comparison problem. Common record, evidence scale, fifteen groups and A25 are added. |
+| Only HF has a matrix | Not confirmed. Infoblox §§5.2/6.7 and family note §§3/7 already contain matrices. Their states and links are normalized. |
+| Circular isomorphism | Construction by transport is a valid proof of formal existence and conditional preservation; it provides no independent evidence of external adequacy. Any reading of complete H/L/W admission is downgraded. |
+| Receiver excludes continuing despite a prohibition | Confirmed as a scope limit. Authorization doubt and detected prohibition are not the same; only the latter prevents transition in the basic receiver. |
+| Arbitrary M in L | It is a design assumption, not a historical result. A graded-quality task, legitimate M and sensitivity to ε are required. A binary task without a lower legitimate alternative does not enter through this M. |
+| W requires dynamics | Confirmed for activating new connections and measuring adoption. R01 §2.14 envisages dynamic variants, but that update is not implemented here. The static phase is delimited. |
+| Large check counts | Retained as reproduction data, not a measure of representativeness or external validation. |
+| Absence of independent review | Confirmed. Supplied observations do not by themselves establish independence or complete reading. |
+| Unequal sources | OpenAI, METR, arXiv and collusion.wiki reconsulted on 2 October. W1 is external research with provisional attribution; no publication date or group identity is invented for it. |
+| Duplicated titles and contents | The HF audit heading is converted into a case-record label, retaining sections and historical anchor. The reference to writing order is removed from the family. |
 
-La revisión añade una precisión matemática: el transporte de éxito relativo al óptimo exige preservar también J* y ε (o su umbral equivalente). Preservar Adm/J de una ruta y su coste no basta cuando una representación omite una alternativa mejor. `verify_audit.py` comprueba un contraejemplo y la conservación bajo el contrato correcto.
+The review adds a mathematical precision: transport of success relative to the optimum also requires preserving J* and ε (or its equivalent threshold). Preserving a route's Adm/J and cost is insufficient when a representation omits a better alternative. `verify_audit.py` checks a counterexample and preservation under the correct contract.
 
-## 8 Reproducibilidad e integridad
+<a id="8-reproducibilidad-e-integridad"></a>
+## 8 Reproducibility and integrity
 
-Desde `extensions/`:
+From `extensions/`:
 
 ```sh
 python3 verify_audit.py --verify
 ```
 
-El script ejecuta los tres comprobadores en carpetas temporales, compara sus informes con los publicados, verifica las huellas de los archivos textuales de los expedientes y comprueba los contraejemplos adicionales de óptimo, tolerancia y cambio de parámetros. No modifica los informes de cada caso ni convierte esta revisión en una ejecución de agentes. El código y los archivos comprobados se identifican por SHA-256 en el informe común. Los binarios Word quedan fuera de esta comprobación; sus huellas publicadas se conservan, sin afirmar una nueva verificación de su contenido.
+The script runs all three checkers in temporary folders, compares their reports with the published ones, verifies hashes of textual case-record files and checks the additional counterexamples for optimum, tolerance and parameter changes. It does not modify each case's reports or turn this review into an agent execution. The code and checked files are identified by SHA-256 in the common report. Word binaries are excluded from this check; their published hashes are retained, without claiming a new verification of their content.
 
-R01 v0.6 y sus exportaciones se conservan. Las fichas de revisión se añaden a las fuentes Markdown; el Word de Infoblox sigue siendo la exportación v0.5 anterior al añadido de esta ficha, con su huella conservada. Las fuentes externas y las condiciones particulares siguen en cada expediente. No se sobrescriben antecedentes ni se cambian resultados para obtener un dictamen favorable.
+R01 v0.6 and its exports are retained. Review records are added to the Markdown sources; the Infoblox Word remains the v0.5 export preceding this record's addition, with its hash retained. External sources and specific conditions remain in each case record. Earlier work is not overwritten and results are not changed to obtain a favorable verdict.
 
-## 9 Fundamento metodológico y transferencia comparativa
+<a id="9-fundamento-metodológico-y-transferencia-comparativa"></a>
+## 9 Methodological foundations and comparative transfer
 
-La [nota metodológica](./METHODOLOGICAL_FOUNDATIONS.md) relaciona E1–E7 con fuentes primarias de bisimulación, homomorfismos, abstracción y refinamiento. Distingue precedentes que justifican el método de evidencia que todavía debe producir R01. Para trasladar una comparación EA–control exige preservar ambos brazos y sus métricas; trata por separado las cotas aproximadas, la observación parcial, la incertidumbre estadística y el ciclo CEGAR aún no implementado. El estado de evidencia de estas fichas no cambia por añadir referencias.
+The [methodological note](./METHODOLOGICAL_FOUNDATIONS.md) relates E1–E7 to primary sources on bisimulation, homomorphisms, abstraction and refinement. It distinguishes precedents justifying the method from evidence R01 still needs to produce. Transferring an EA–control comparison requires preserving both arms and their metrics; approximate bounds, partial observation, statistical uncertainty and the CEGAR cycle not yet implemented are treated separately. The evidence status of these records does not change by adding references.

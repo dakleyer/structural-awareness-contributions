@@ -1,65 +1,72 @@
-# Revisión editorial, coherencia y reproducción del paquete R01
+<a id="revisión-editorial-coherencia-y-reproducción-del-paquete-r01"></a>
+# Editorial review, coherence and reproduction of the R01 package
 
-2 de octubre de 2026 · Revisión interna del autor asistida por IA
+2 October 2026 · Internal author review assisted by AI
 
-[Entrada de R01](../README.md) · [Criterio común](./CRITERIA_AND_AUDIT.md) · [Fundamento metodológico](./METHODOLOGICAL_FOUNDATIONS.md)
+[R01 entry](../README.md) · [Common criterion](./CRITERIA_AND_AUDIT.md) · [Methodological foundations](./METHODOLOGICAL_FOUNDATIONS.md)
 
-## 1 Alcance y resultado
+<a id="1-alcance-y-resultado"></a>
+## 1 Scope and outcome
 
-Se revisa la organización del paquete publicado en el [commit bb1034b](https://github.com/dakleyer/structural-awareness-contributions/commit/bb1034b1f4ea2b36ab6e7d0f91003c4477534c38): entrada R01, documento base, tres expedientes, demostración, metodología, guías, código, resultados y huellas. Es una revisión editorial y de coherencia interna; no una auditoría matemática independiente ni una nueva validación de agentes o tecnologías.
+The organization of the package published in [commit bb1034b](https://github.com/dakleyer/structural-awareness-contributions/commit/bb1034b1f4ea2b36ab6e7d0f91003c4477534c38) is reviewed: R01 entry, base document, three case records, proof, methodology, guides, code, results and hashes. This is an editorial and internal coherence review; not an independent mathematical audit or new validation of agents or technologies.
 
-**Resultado:** entrada y expedientes preparados para lectura y revisión, con un criterio común y reproducción conjunta. Se mantienen los pendientes científicos. Los exportados históricos no se presentan como copias de las revisiones Markdown posteriores.
+**Outcome:** entry and case records prepared for reading and review, with a common criterion and joint reproduction. Scientific pending items are maintained. Historical exports are not presented as copies of subsequent Markdown revisions.
 
-## 2 Procedimiento aplicado
+<a id="2-procedimiento-aplicado"></a>
+## 2 Procedure applied
 
-| Dimensión | Comprobación | Criterio de aceptación |
+| Dimension | Check | Acceptance criterion |
 |---|---|---|
-| Organización | Recorrido desde R01 hasta cada expediente, prueba, código, resultado y fuentes; regreso a R01. | Ningún documento Markdown del paquete queda aislado. El estado vigente precede al historial. |
-| Navegación | Destinos relativos y enlaces a `main` del propio repositorio, imágenes y anclas de sección. | Archivos presentes en el árbol publicado; anclas verificadas en los textos disponibles. Los destinos fijados a commits históricos conservan su revisión original. |
-| Método | Fichas con los mismos campos; quince grupos y A25 X1–X7; identificación de base y evidencia. | Un argumento parcial o un PASS no permite saltarse una obligación de admisión en un caso. |
-| Coherencia | Contrastar dictamen, desarrollo, guía y resultado de cada expediente. | Distinguir construcción, prueba condicionada, chequeo finito, integración, ejecución con agentes y admisión externa. |
-| Claridad | Identificar la pregunta, el resultado actual, el alcance, lo pendiente y dónde reproducir. | Separar configuración propuesta, comprobación ejecutada y antecedente; aclarar identificadores y versiones. |
-| Reproducción | Ejecutar el verificador común, que recalcula los tres informes en carpetas temporales y compara sus resultados. | Coincidencia exacta con los informes registrados y comprobación de las huellas textuales. |
-| Conservación | Comparar los archivos antes y después; revertir las sustituciones editoriales declaradas y comprobar que el texto anterior permanece en orden. | Sin pérdida de apartados, cifras, condiciones, referencias o resultados; documentos y código protegidos sin modificación. |
+| Organization | Navigation from R01 to each case record, proof, code, result and sources; return to R01. | No Markdown document in the package remains isolated. Current status precedes history. |
+| Navigation | Relative destinations and links to the repository's own `main`, images and section anchors. | Files present in the published tree; anchors checked in available texts. Destinations pinned to historical commits retain their original revision. |
+| Method | Records with the same fields; fifteen groups and A25 X1–X7; identification of base and evidence. | A partial argument or a PASS does not allow an admission obligation to be skipped in a case. |
+| Coherence | Compare each case record's verdict, exposition, guide and result. | Distinguish construction, conditional proof, finite check, integration, execution with agents and external admission. |
+| Clarity | Identify the question, current result, scope, pending items and where to reproduce. | Separate proposed configuration, executed check and earlier work; clarify identifiers and versions. |
+| Reproduction | Run the common verifier, which recalculates the three reports in temporary folders and compares their results. | Exact agreement with recorded reports and verification of textual hashes. |
+| Preservation | Compare files before and after; reverse the declared editorial substitutions and check that the earlier text remains in order. | No loss of sections, figures, conditions, references or results; protected documents and code unmodified. |
 
-Resultado registrado de esta pasada: los 12 documentos Markdown actuales son accesibles desde R01; 184 enlaces locales comprobados no presentan errores. Al revertir los 13 cambios editoriales declarados se recuperan exactamente los 11 Markdown anteriores. El escenario, la nota metodológica, la demostración y los scripts/resultados particulares se conservan sin modificación. Estas cifras cuentan verificaciones documentales, no observaciones experimentales.
+Recorded outcome of this pass: the 12 current Markdown documents are accessible from R01; 184 checked local links have no errors. Reversing the 13 declared editorial changes recovers exactly the 11 earlier Markdown files. The scenario, methodological note, proof and individual scripts/results remain unmodified. These figures count documentary checks, not experimental observations.
 
-La revisión de enlaces comprueba el paquete y su navegación local; no vuelve a auditar el contenido de todos los antecedentes ni la disponibilidad de todos los sitios externos. Las fuentes metodológicas fueron contrastadas en la revisión anterior. Las reglas de anclas y enlaces relativos siguen la documentación de GitHub: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+The link review checks the package and its local navigation; it does not re-audit the content of all earlier work or the availability of all external sites. The methodological sources were checked in the previous review. Anchor and relative-link rules follow GitHub's documentation: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-## 3 Un criterio, tres objetos
+<a id="3-un-criterio-tres-objetos"></a>
+## 3 One criterion, three objects
 
-| Expediente | Relación acotada que aporta | Obligación que permanece |
+| Case record | Bounded relation contributed | Obligation remaining |
 |---|---|---|
-| Hugging Face | Transporte sintético y contratos finitos; auditoría de correspondencia histórica. | No se demuestra por ello que el incidente completo satisfaga el contrato común. |
-| Infoblox | Testigo tecnológico construido y simulación unidireccional para una cota bajo contrato explícito. | La cota no prueba por sí sola isomorfismo completo, integración real ni diferencial EA. |
-| Familia H/L/W | Criterio de conservación, construcción por transporte y fragmento finito. | La realización independiente del dominio debe satisfacer las obligaciones; W dinámico sigue pendiente. |
+| Hugging Face | Synthetic transport and finite contracts; historical correspondence audit. | This does not prove that the complete incident satisfies the common contract. |
+| Infoblox | Constructed technological witness and one-way simulation for a bound under an explicit contract. | The bound alone does not prove complete isomorphism, real integration or an EA differential. |
+| H/L/W family | Preservation criterion, construction by transport and finite fragment. | The independent domain realization must satisfy the obligations; dynamic W remains pending. |
 
-Estas diferencias son objetos y propiedades de prueba distintos, no métodos alternativos para conceder admisión. **El mismo contrato completo rige las tres extensiones.** Una simulación unidireccional puede justificar una cota concreta; no se reetiqueta como equivalencia exacta. Las matrices comunes conservan como parciales o pendientes las obligaciones no cubiertas. El certificado suficiente o control positivo puede resolver el caso y cambiar el dictamen, en cualquiera de los tres.
+These differences are distinct proof objects and properties, not alternative methods for granting admission. **The same complete contract governs all three extensions.** A one-way simulation may justify a specific bound; it is not relabeled as exact equivalence. The common matrices retain uncovered obligations as partial or pending. The sufficient certificate or positive control may resolve the case and change the verdict in any of the three.
 
-Los códigos EV describen la evidencia de cada afirmación; E1–E7 son obligaciones de conservación; X1–X7 son los criterios A25. H/L/W son casos construidos; los recorridos históricos R1–R3 y los recorridos 0/1/2 de Infoblox conservan sus significados. No se suman las cantidades de comprobaciones de distintos paquetes como si fueran muestras independientes.
+EV codes describe evidence for each claim; E1–E7 are preservation obligations; X1–X7 are the A25 criteria. H/L/W are constructed cases; historical R1–R3 runs and Infoblox runs 0/1/2 retain their meanings. Check counts from different packages are not added together as though they were independent samples.
 
-## 4 Correcciones editoriales
+<a id="4-correcciones-editoriales"></a>
+## 4 Editorial corrections
 
-- Guía de lectura temprana en R01, acceso al contrato y a la prueba, y comando común de reproducción.
-- Enlaces de método y reproducción con el mismo propósito en las tres guías; se conservan los comandos particulares.
-- Índice enlazado de Infoblox para separar escenario, correspondencia, prueba, propuesta EA, medición y anexos.
-- Instrucciones del ZIP anterior etiquetadas como antecedente, con la ubicación actual de reproducción al lado.
-- Referencia cruzada a Infoblox dentro del expediente HF identificada como contexto de la auditoría, no como evidencia del incidente.
-- Alcance de las exportaciones aclarado: escenario base v0.6; Word Infoblox v0.5 anterior a las revisiones Markdown posteriores.
-- Corrección de una errata y actualización de huellas de los archivos editados. Se mantienen títulos y anclas existentes.
+- Early reading guide in R01, access to the contract and proof, and common reproduction command.
+- Method and reproduction links with the same purpose in all three guides; individual commands are retained.
+- Linked Infoblox contents to separate scenario, correspondence, proof, EA proposal, measurement and annexes.
+- Previous ZIP instructions labeled as earlier work, with the current reproduction location alongside.
+- Cross-reference to Infoblox within the HF case record identified as audit context, not evidence of the incident.
+- Export scope clarified: base scenario v0.6; Infoblox Word v0.5 preceding subsequent Markdown revisions.
+- Correction of a typo and updated hashes for edited files. Existing titles and anchors are maintained.
 
-## 5 Cómo repetir la comprobación
+<a id="5-cómo-repetir-la-comprobación"></a>
+## 5 How to repeat the check
 
-Desde `00G-R01/`:
+From `00G-R01/`:
 
 ```sh
 python3 extensions/verify_audit.py --verify
 ```
 
-Desde `extensions/`, el mismo comando es `python3 verify_audit.py --verify`. Usa Python 3 y su biblioteca estándar. Recalcula los tres informes, los compara y comprueba huellas; no modifica los informes originales de los casos. Sin `--verify`, regenera deliberadamente el informe común.
+From `extensions/`, the same command is `python3 verify_audit.py --verify`. It uses Python 3 and its standard library. It recalculates the three reports, compares them and checks hashes; it does not modify the original case reports. Without `--verify`, it deliberately regenerates the common report.
 
-El informe `audit_results.json` también identifica por huella esta revisión y la nota metodológica. Ese control detecta cambios de texto; **no** automatiza el juicio editorial, la prueba general ni la comprobación de enlaces. Los binarios Word quedan fuera de esa verificación; sus huellas publicadas se conservan. Para repetir la revisión de conservación, se comparan los cambios con el commit de §1 y las correcciones declaradas en §4.
+The `audit_results.json` report also identifies this review and the methodological note by hash. That control detects text changes; it does **not** automate editorial judgment, the general proof or link checking. Word binaries are excluded from that verification; their published hashes are retained. To repeat the preservation review, compare changes with the commit in §1 and the corrections declared in §4.
 
-## 6 Qué sigue abierto
+<a id="6-qué-sigue-abierto"></a>
+## 6 What remains open
 
-La edición no cierra el generador, las políticas y el evaluador integral de R01, la realización completa de E1–E7 en los dominios, las integraciones, la evaluación EA ni la reproducción independiente. El historial mantiene resultados favorables a los controles convencionales y ensayos que no acreditaron el fallo buscado. Los próximos experimentos deben conservar el mismo procedimiento, los controles positivos, los costes completos y la posibilidad de empate o ventaja convencional.
+The editing does not complete the R01 generator, policies and full evaluator, full realization of E1–E7 in the domains, integrations, EA evaluation or independent reproduction. History retains results favorable to conventional controls and trials that did not establish the targeted failure. The next experiments must preserve the same procedure, positive controls, full costs and the possibility of a tie or conventional advantage.

@@ -1,706 +1,754 @@
-# 00G-R01 Reducción de 00G
+<a id="00g-r01-reducción-de-00g"></a>
+# 00G-R01 Reduction of 00G
 
-Exploración probabilística y coste de validación
+Probabilistic exploration and validation cost
 
-Iván Abril Palma · Línea de investigación Ecosystem Awareness
+Iván Abril Palma · Ecosystem Awareness research line
 
-Versión de trabajo 0.6 · 2 de octubre de 2026 · Documento de investigación no canónico
+Working version 0.6 · 2 October 2026 · Non-canonical research document
 
 ## Abstract
 
-Toda arquitectura tiene ámbitos donde aporta más valor y otros donde resulta menos conveniente. Aquí estudiamos una arquitectura que explora alternativas de forma probabilística, paga por validarlas y comparte hallazgos entre participantes. Su creatividad puede descubrir una solución mejor que la conocida. Aprovecharla exige comprobar que es admisible y que la mejora compensa el esfuerzo de encontrarla, validarla y coordinar su ejecución.
+Every architecture has areas where it contributes more value and others where it is less suitable. Here we study an architecture that explores alternatives probabilistically, pays to validate them and shares findings among participants. Its creativity may discover a solution better than the known one. Benefiting from it requires checking that it is admissible and that the improvement compensates for the effort of finding it, validating it and coordinating its execution.
 
-La tesis distingue dos áreas de problemas y configuraciones. En una, la arquitectura alcanza el óptimo admisible, o una aproximación aceptable, con suficiente regularidad y dentro de límites razonables de coste y plazo. En otra, aparece el trilema **no íntegro, ineficiente o mediocre**: ejecutar una solución inadmisible, pagar demasiado por una solución legítima o conservar una opción permitida de menor calidad. La tolerancia al óptimo, los límites de recursos y la fiabilidad exigida se fijan antes del ensayo. El trilema describe dificultades que pueden coexistir; también se registran abstención e incompletitud.
+The thesis distinguishes two areas of problems and configurations. In one, the architecture reaches the admissible optimum, or an acceptable approximation, with sufficient regularity and within reasonable cost and deadline limits. In the other, the trilemma **lacking integrity, inefficient or mediocre** appears: execute an inadmissible solution, pay too much for a legitimate solution or retain a lower-quality permitted option. Optimum tolerance, resource limits and required reliability are fixed before the trial. The trilemma describes difficulties that may coexist; abstention and incompleteness are also recorded.
 
-Reconocer patrones, validar mejor y reutilizar evidencia pueden ampliar el área eficaz. Proponemos medir dónde deja de compensar esta arquitectura, qué mecanismos explican esa pérdida y qué controles recuperan la eficacia. El escenario permite esas mejoras, junto con situaciones nuevas que todavía requieren adquirir información. El resultado buscado es una frontera empírica para políticas competentes declaradas, no una imposibilidad universal.
+Recognizing patterns, validating better and reusing evidence may expand the effective area. We propose measuring where this architecture ceases to be worthwhile, which mechanisms explain that loss and which controls restore effectiveness. The scenario allows those improvements alongside new situations still requiring information acquisition. The sought result is an empirical boundary for declared competent policies, not a universal impossibility.
 
-El documento especifica cadenas con beneficios y proximidades variables, exploración, revisión propia y actividad social. Fundamenta una especialización candidata de la familia 00G y su relación con ciertas trazas de Hugging Face; Napoleón es otro caso de esa familia. El apéndice presenta Ecosystem Awareness como una familia de funciones que podría ampliar la región eficaz, apoyándose en las notas de plausibilidad del corpus y comparándose con controles convencionales. Esta especificación prepara un experimento; todavía no presenta resultados de ejecución.
+The document specifies chains with variable benefits and proximities, exploration, own review and social activity. It grounds a candidate specialization of the 00G family and its relation to certain Hugging Face traces; Napoleon is another case of that family. The appendix presents Ecosystem Awareness as a family of functions that might expand the effective region, drawing on the corpus's plausibility notes and comparing it with conventional controls. This specification prepares an experiment; it does not yet present execution results.
 
-## Lectura del documento
+<a id="lectura-del-documento"></a>
+## Reading the document
 
-La parte 1 explica la pregunta y cómo reconocer una respuesta válida. La parte 2 permite reconstruir el escenario y preparar su implementación. La parte 3 fundamenta la relación con 00G y Hugging Face. La parte 4 estudia la candidatura de EA y reúne las fuentes. Para una primera lectura bastan el abstract, §§1.1–1.3, la secuencia de §2.7, §3.2 y §4.1.
+Part 1 explains the question and how to recognize a valid answer. Part 2 allows reconstruction of the scenario and preparation of its implementation. Part 3 grounds the relation to 00G and Hugging Face. Part 4 studies EA's candidacy and gathers sources. For a first reading, the abstract, §§1.1–1.3, the sequence in §2.7, §3.2 and §4.1 suffice.
 
-Los supuestos de diseño, las hipótesis y los hechos documentados tienen funciones distintas. Las fuentes se identifican como REF01–REF12; SC-H designa la hipótesis local, separada de H1–H6 y EA-H1–EA-H4 del corpus. Los diagramas son conceptuales y el ejemplo numérico es contable. Las pruebas del generador son requisitos por implementar.
+Design assumptions, hypotheses and documented facts have distinct roles. Sources are identified as REF01–REF12; SC-H designates the local hypothesis, separate from H1–H6 and EA-H1–EA-H4 in the corpus. Diagrams are conceptual and the numerical example concerns accounting. Generator tests are requirements to be implemented.
 
-# 1 El problema estructural
+<a id="1-el-problema-estructural"></a>
+# 1 The structural problem
 
-## 1.1 El ámbito de aplicación de una arquitectura
+<a id="11-el-ámbito-de-aplicación-de-una-arquitectura"></a>
+## 1.1 An architecture's scope of application
 
-La elección de una arquitectura depende del problema y de los recursos disponibles. Conocer dónde funciona bien importa tanto como reconocer dónde conviene otro procedimiento. Ése es el origen de este trabajo: delimitar un ámbito de aplicación.
+Architecture choice depends on the problem and available resources. Knowing where it works well matters as much as recognizing where another procedure is preferable. That is the origin of this work: delimiting a scope of application.
 
-Estudiamos tres características juntas: exploración probabilística, validación con coste y actividad social para compartir hallazgos y comprobaciones. Usaremos el nombre arquitectura de exploración probabilística. Puede implementarse con agentes, pero la tesis se refiere a esas características, no a todos los sistemas agénticos ni a un modelo concreto. Este documento no mide GPT-4 ni ChatGPT.
+We study three characteristics together: probabilistic exploration, costly validation and social activity to share findings and checks. We will use the name probabilistic exploration architecture. It may be implemented with agents, but the thesis concerns those characteristics, not all agentic systems or a specific model. This document measures neither GPT-4 nor ChatGPT.
 
-Imaginemos una tarea larga con un procedimiento conocido. Un participante encuentra un tramo que resuelve mejor el objetivo inmediato y lo comparte. Sus compañeros comprueban partes del recorrido y también lo consideran útil. La dificultad es saber si, al encajar esos tramos, el conjunto sigue dentro del encargo original. Puede haber una alternativa excelente y permitida, otra atractiva pero prohibida y una ruta conocida de menor valor. Descubrirlas y distinguirlas cuesta. El experimento convierte esa situación en decisiones observables y cargos verificables.
+Imagine a long task with a known procedure. A participant finds a segment that better resolves the immediate objective and shares it. Their peers check parts of the route and also find it useful. The difficulty is knowing whether, when those segments fit together, the whole remains within the original assignment. There may be an excellent permitted alternative, another attractive but forbidden one and a lower-value known route. Discovering and distinguishing them costs resources. The experiment converts that situation into observable decisions and verifiable charges.
 
-## 1.2 Dos áreas y un trilema
+<a id="12-dos-áreas-y-un-trilema"></a>
+## 1.2 Two areas and a trilemma
 
-El área eficaz reúne configuraciones donde alguna política competente alcanza la calidad legítima exigida con suficiente fiabilidad, coste y plazo. En el área desfavorable observada ninguna política de la familia evaluada reúne esas condiciones. El trilema ayuda a describir qué falla:
+The effective area comprises configurations where some competent policy reaches required legitimate quality with sufficient reliability, cost and timing. In the observed unfavorable area, no policy of the evaluated family satisfies those conditions. The trilemma helps describe what fails:
 
-| Modo del trilema | Condición incumplida | Observación que lo identifica |
+| Trilemma mode | Unmet condition | Observation identifying it |
 |---|---|---|
-| No íntegro | Obligación vinculante | Se ejecuta una acción o trayectoria inadmisible |
-| Ineficiente | Coste o plazo razonables | Una solución legítima de calidad suficiente exige superar los límites |
-| Mediocre | Calidad exigida | Se entrega una solución admisible por debajo del umbral, aunque podría tener menor coste |
+| Lacking integrity | Binding obligation | An inadmissible action or trajectory is executed |
+| Inefficient | Reasonable cost or timing | A legitimate solution of sufficient quality requires exceeding limits |
+| Mediocre | Required quality | An admissible solution below threshold is delivered, although it might have lower cost |
 
-Las categorías pueden solaparse. Son modos diagnósticos de no satisfacer simultáneamente integridad, eficiencia y calidad; no una clasificación exhaustiva. Se registran además abstención, incompletitud, recuperación y casos inciertos. Conservar M puede ser una decisión sensata aunque no alcance la calidad pretendida. «No íntegro» es una definición operativa de incumplimiento, no una equiparación automática con daño; cualquier daño se registra aparte.
+Categories may overlap. They are diagnostic modes of failing to satisfy integrity, efficiency and quality simultaneously; not an exhaustive classification. Abstention, incompleteness, recovery and uncertain cases are also recorded. Retaining M may be a sensible decision even if it does not reach intended quality. “Lacking integrity” is an operational definition of noncompliance, not automatic equivalence to harm; any harm is recorded separately.
 
-**SC-H principal.** Dentro del dominio de configuraciones, los umbrales y la familia finita de políticas competentes fijados antes de la campaña, existen regiones en las que ninguna política alcanza, con la fiabilidad requerida, una trayectoria admisible dentro de la tolerancia al óptimo y de los límites de coste y plazo, sin infracciones en la campaña. La hipótesis sólo se considera respaldada en el dominio contrastado y con incertidumbre estadística resuelta.
+**Main SC-H.** Within the configuration domain, thresholds and finite family of competent policies fixed before the campaign, there are regions where no policy reaches, with required reliability, an admissible trajectory within optimum tolerance and cost and deadline limits, without campaign violations. The hypothesis is considered supported only in the tested domain and with statistical uncertainty resolved.
 
-Si alguna política satisface esas condiciones, hay evidencia de eficacia para esa configuración. Si todas quedan por debajo del umbral de fiabilidad, hay respaldo a la ineficacia observada. Cuando los intervalos no permiten decidir, faltan brazos o fallan los controles de competencia, el caso queda no concluyente. Las ablaciones débiles sirven para explicar mecanismos, no para declarar por sí solas un límite de la arquitectura.
+If some policy satisfies those conditions, there is evidence of effectiveness for that configuration. If all fall below the reliability threshold, observed ineffectiveness is supported. When intervals do not allow a decision, arms are missing or competence controls fail, the case remains inconclusive. Weak ablations serve to explain mechanisms, not independently declare an architecture limit.
 
-El mecanismo candidato es que observar el beneficio local resulte más fácil que establecer la admisibilidad de toda la cadena. Más alternativas pueden requerir más comprobaciones. Compartir evidencia puede reducirlas; repetir confirmaciones dependientes puede aumentar confianza sin añadir cobertura. §2.18 separa estas posibilidades en contrastes secundarios.
+The candidate mechanism is that observing local benefit is easier than establishing admissibility of the entire chain. More alternatives may require more checks. Sharing evidence may reduce them; repeating dependent confirmations may increase confidence without adding coverage. §2.18 separates these possibilities into secondary contrasts.
 
-## 1.3 Qué pueden resolver las mejoras
+<a id="13-qué-pueden-resolver-las-mejoras"></a>
+## 1.3 What improvements may resolve
 
-La memoria puede evitar una búsqueda innecesaria: si el sistema ya conoce el patrón y dispone de evidencia aplicable, quizá reconozca directamente la alternativa buena o la prohibida. El experimento debe permitir ese aprendizaje y cobrar su adquisición y mantenimiento. La pregunta sigue abierta para situaciones que la información disponible todavía no resuelve; ser nuevas no las hace imposibles de generalizar.
+Memory may avoid unnecessary search: if the system already knows the pattern and has applicable evidence, it may directly recognize the good or forbidden alternative. The experiment must allow that learning and charge its acquisition and maintenance. The question remains open for situations not yet resolved by available information; being new does not make them impossible to generalize.
 
-La validación incremental, los certificados, la caché y una buena asignación de revisiones también pueden eliminar la dificultad en muchos casos. Se compara con esas capacidades activas. Que validar tenga un coste positivo no implica ineficiencia: puede costar mucho menos que la mejora obtenida.
+Incremental validation, certificates, cache and good review allocation may also eliminate the difficulty in many cases. Comparison is performed with those capabilities active. Positive validation cost does not imply inefficiency: it may cost far less than the improvement obtained.
 
-La tesis consiste en medir si queda una región desfavorable y cuánto se reduce al mejorar el sistema. La ausencia de una garantía universal de eficacia no prueba que esa región persista frente a toda política. Por eso distinguimos fallos observados, frontera empírica de una familia evaluada e imposibilidad demostrada dentro de una clase explícita.
+The thesis is to measure whether an unfavorable region remains and how far system improvements reduce it. Absence of a universal effectiveness guarantee does not prove that region persists against every policy. We therefore distinguish observed failures, an evaluated family's empirical boundary and impossibility proved within an explicit class.
 
-## 1.4 Evaluación y referencia convencional
+<a id="14-evaluación-y-referencia-convencional"></a>
+## 1.4 Evaluation and conventional reference
 
-El evaluador calcula el máximo de J entre las trayectorias completas admisibles. La campaña fija una tolerancia ε respecto de ese óptimo; ε = 0 exige alcanzarlo exactamente. También fija coste razonable, plazo y fiabilidad requerida antes de observar resultados. Los casos cuya incertidumbre impida decidir permanecen sin clasificar.
+The evaluator calculates the maximum J among complete admissible trajectories. The campaign fixes tolerance ε relative to that optimum; ε = 0 requires reaching it exactly. It also fixes reasonable cost, deadline and required reliability before observing results. Cases whose uncertainty prevents a decision remain unclassified.
 
-**Eficacia absoluta y ventaja relativa.** Alcanzar la calidad exigida dentro de los límites hace eficaz a una política para ese caso. Obtener un resultado mejor o menos costoso que un comparador es otra cuestión. Un sistema puede ser eficaz y resultar menos conveniente que otro. El documento informa ambas evaluaciones.
+**Absolute effectiveness and relative advantage.** Reaching required quality within limits makes a policy effective for that case. Obtaining a better or less costly result than a comparator is another question. A system may be effective and less suitable than another. The document reports both evaluations.
 
-El comparador es una política completa para la misma tarea: búsqueda, validación, memoria, reutilización, abstención, ejecución y tiempo. La referencia inicial produce M con sus costes; los comparadores competentes pueden descubrir mejoras. La mediocridad de una trayectoria M no describe la capacidad de todo procedimiento convencional.
+The comparator is a complete policy for the same task: search, validation, memory, reuse, abstention, execution and time. The initial reference produces M with its costs; competent comparators may discover improvements. Mediocrity of an M trajectory does not describe the capability of every conventional procedure.
 
-El resultado comparativo primario es una frontera de Pareto sobre V = (q, C, t, a, f, K). Una política domina a otra si no empeora ninguna dimensión y mejora al menos una: se busca mayor calidad legítima q y finalización a, y menor coste C, latencia t, infracción f y coordinación K. Cuando hay compensaciones, se informa incomparabilidad. K se desglosa para interpretar el mecanismo, pero su coste ya pertenece a C.
+The primary comparative outcome is a Pareto frontier over V = (q, C, t, a, f, K). One policy dominates another if it worsens no dimension and improves at least one: higher legitimate quality q and completion a, and lower cost C, latency t, violation f and coordination K are sought. When there are tradeoffs, incomparability is reported. K is broken down to interpret the mechanism, but its cost already belongs to C.
 
-**Cómo se mide una ejecución.** En el régimen base, de beneficios no negativos, q es el valor J de la trayectoria completa admisible entregada dentro de T. Sin esa entrega, q = 0 por convención de valor entregado. J_parcial registra aparte el beneficio técnico de acciones realizadas en intentos incompletos o inadmisibles; no se suma a q. Una infracción utilizada para producir el resultado impide contarlo como calidad legítima. Las contribuciones de varios agentes se evalúan una sola vez sobre la trayectoria efectiva, incluidos conectores y acciones compartidas. Una variante con beneficios negativos requiere otra referencia para la ausencia de entrega.
+**How an execution is measured.** In the base regime of nonnegative benefits, q is the J value of the complete admissible trajectory delivered within T. Without that delivery, q = 0 by delivered-value convention. J_parcial separately records the technical benefit of actions performed in incomplete or inadmissible attempts; it is not added to q. A violation used to produce the result prevents counting it as legitimate quality. Contributions from several agents are evaluated once over the effective trajectory, including connectors and shared actions. A variant with negative benefits requires another reference for absence of delivery.
 
-| Medida | Definición y alcance |
+| Measure | Definition and scope |
 |---|---|
-| a Finalización | Fracción de tareas completas admisibles dentro de T, aunque no alcancen la calidad exigida |
-| e Éxito para SC-H | Indicador por campaña de calidad dentro de ε del óptimo, coste y plazo dentro de límites y ninguna infracción ejecutada; se estima su probabilidad |
-| f Infracción | Fracción de campañas con al menos una infracción ejecutada; no equivale a 1 menos a |
-| C Coste total | Todos los cargos hasta el cierre, incluidos preparación, descartes, reintentos y campañas sin entrega |
-| t Latencia | Tiempo hasta la entrega legítima; sin entrega al vencer T se registra censura |
-| K Coordinación | Trabajo de coordinación y su coste desglosado, sin cobrarlo otra vez |
+| a Completion | Fraction of complete admissible tasks within T, even if they do not reach required quality |
+| e Success for SC-H | Per-campaign indicator of quality within ε of optimum, cost and deadline within limits and no executed violation; its probability is estimated |
+| f Violation | Fraction of campaigns with at least one executed violation; not equivalent to 1 minus a |
+| C Total cost | All charges until closure, including preparation, discards, retries and campaigns without delivery |
+| t Latency | Time to legitimate delivery; without delivery at expiry of T, censoring is recorded |
+| K Coordination | Coordination work and its itemized cost, without charging it again |
 
-En una campaña con varias tareas se fija de antemano cómo se agregan sus calidades y qué tareas deben completarse para que e = 1. Se informa también q condicionada a entrega, junto a a. Para interpretar f se registran número, tipo, gravedad declarada y tareas afectadas por las infracciones, separando propuestas rechazadas, intentos bloqueados y efectos ejecutados.
+For a campaign with multiple tasks, aggregation of their qualities and which tasks must complete for e = 1 are fixed beforehand. Delivery-conditioned q is also reported alongside a. To interpret f, the number, type, declared severity and tasks affected by violations are recorded, separating rejected proposals, blocked attempts and executed effects.
 
-La admisibilidad es una restricción dura, no un precio que pueda compensarse con recompensa. Sólo como análisis secundario, entre políticas que cumplen las restricciones y con conversiones externas justificadas, se calcula:
+Admissibility is a hard constraint, not a price compensable by reward. Only as secondary analysis, among policies satisfying constraints and with justified external conversions, the following is calculated:
 
 > U = λ_q · q − λ_C · C − λ_t · t
-> Ventaja neta = U(política) − U(referencia)
+> Net advantage = U(policy) − U(reference)
 
-La finalización mínima es un requisito. La abstención conserva sus costes y no satisface la entrega; cualquier valor de reserva se declara antes. Los pesos de U tienen un rango de sensibilidad: si la ventaja cambia de signo, la conclusión depende de esa valoración. La espera cuenta en latencia y, cuando consume recursos, en C. Ningún brazo recibe certificación o información privilegiada gratuita.
+Minimum completion is a requirement. Abstention retains its costs and does not satisfy delivery; any reservation value is declared beforehand. U weights have a sensitivity range: if advantage changes sign, the conclusion depends on that valuation. Waiting counts in latency and, when consuming resources, in C. No arm receives free certification or privileged information.
 
-**Incertidumbre.** Se publican mundos independientes, repeticiones, eventos y estimaciones. Las tasas usan intervalos declarados; la inferencia conserva la agrupación de repeticiones por mundo. Cero infracciones observadas exige un límite superior de riesgo, no una afirmación de riesgo nulo. Calidad y coste se comparan de forma pareada; dominancia y clasificación regional requieren márgenes y control de multiplicidad. Una diferencia no significativa no demuestra equivalencia. La latencia censurada se informa junto con finalización y curvas hasta T. Precisión objetivo, muestra y umbrales se fijan en el protocolo.
+**Uncertainty.** Independent worlds, repetitions, events and estimates are published. Rates use declared intervals; inference retains grouping of repetitions by world. Zero observed violations requires an upper risk bound, not a claim of zero risk. Quality and cost are compared in paired form; dominance and regional classification require margins and multiplicity control. A nonsignificant difference does not prove equivalence. Censored latency is reported alongside completion and curves up to T. Target precision, sample and thresholds are fixed in the protocol.
 
-## 1.5 Qué demostraría el escenario
+<a id="15-qué-demostraría-el-escenario"></a>
+## 1.5 What the scenario would demonstrate
 
-El resultado buscado es un mapa de eficacia para la familia evaluada, con calidad, coste, tiempo, admisibilidad y modos del trilema. Su frontera puede cambiar con los parámetros y las políticas. Para comparar áreas se mantiene la misma malla o distribución de problemas y sus pesos; añadir casos fáciles no demuestra una mejora.
+The sought outcome is an effectiveness map for the evaluated family, with quality, cost, time, admissibility and trilemma modes. Its boundary may change with parameters and policies. Comparing areas retains the same problem grid or distribution and its weights; adding easy cases does not demonstrate improvement.
 
-La desigualdad entre coste y beneficio, por sí sola, es aritmética. Lo interesante es medir cuánto trabajo sigue siendo necesario después de priorizar, detener revisiones al detectar un fallo y reutilizar evidencia válida. Un control convencional que elimine la desventaja cuenta como un resultado favorable del estudio.
+Inequality between cost and benefit alone is arithmetic. What is interesting is measuring how much work remains necessary after prioritizing, stopping reviews upon failure detection and reusing valid evidence. A conventional control eliminating the disadvantage counts as a favorable study result.
 
-Una imposibilidad dentro de una clase exigiría justificar que toda política admisible de esa clase necesita un coste adicional mínimo superior a la mejora legítima máxima. Habría que demostrar ambas cotas. La malla finita ofrece evidencia sobre sus casos, no ese teorema.
+An impossibility within a class would require justifying that every admissible policy of that class needs minimum additional cost greater than the maximum legitimate improvement. Both bounds would have to be proved. The finite grid provides evidence about its cases, not that theorem.
 
-Separamos así el coste de adquirir información indispensable del coste de repetir trabajo por pérdida de contexto, mala organización o caducidad. El primero puede ser inherente al problema; el segundo puede reducirse mediante diseño. Esa distinción orienta la candidatura de EA y de otras técnicas.
+We thus separate the cost of acquiring indispensable information from that of repeating work due to context loss, poor organization or expiry. The former may be inherent to the problem; the latter may be reduced by design. This distinction guides EA's candidacy and other techniques.
 
-## 1.6 Controles presupuesto y elección de arquitectura
+<a id="16-controles-presupuesto-y-elección-de-arquitectura"></a>
+## 1.6 Controls, budget and architecture choice
 
-Evitar una acción no íntegra y resolver bien una tarea a coste razonable son logros distintos. Un control puede bloquear una alternativa y dejar la tarea sin resolver, o conseguir ambas cosas mediante una comprobación barata. La evaluación debe reconocer las dos posibilidades.
+Avoiding an action lacking integrity and solving a task well at reasonable cost are distinct achievements. A control may block an alternative and leave the task unresolved, or achieve both through a cheap check. Evaluation must recognize both possibilities.
 
-En una configuración desfavorable, limitar el presupuesto puede llevar a conservar una opción mediocre o abstenerse. Actuar con evidencia insuficiente puede producir una infracción. Más recursos podrían permitir una buena solución cuyo coste haga preferible otro procedimiento. Esta hipótesis no convierte el bajo presupuesto en causa necesaria de daño ni el gasto elevado en garantía de óptimo; el comparador también puede fallar.
+In an unfavorable configuration, limiting budget may lead to retaining a mediocre option or abstaining. Acting with insufficient evidence may produce a violation. More resources might allow a good solution whose cost makes another procedure preferable. This hypothesis makes neither low budget a necessary cause of harm nor high expenditure an optimum guarantee; the comparator may also fail.
 
-La decisión práctica parte de la calidad necesaria, las obligaciones y el coste y plazo aceptables. Después compara explorar más, validar mejor, reducir el alcance, combinar métodos o no delegar. Los guardarraíles forman parte de la arquitectura y pagan sus costes reales. La idoneidad se evalúa con ellos activos.
+The practical decision starts from necessary quality, obligations and acceptable cost and timing. It then compares exploring more, validating better, reducing scope, combining methods or not delegating. Guardrails are part of the architecture and pay their real costs. Suitability is evaluated with them active.
 
-## 1.7 Cómo detectar el área y qué aporta la supervisión humana
+<a id="17-cómo-detectar-el-área-y-qué-aporta-la-supervisión-humana"></a>
+## 1.7 How to detect the area and what human oversight contributes
 
-Reconocer después que una tarea resultó difícil no permite saber siempre, antes de delegarla, qué arquitectura conviene. El evaluador conoce las distancias entre ramas y el óptimo; el agente y el supervisor no reciben esa información gratuitamente. Pedir al humano que elija la ruta correcta puede devolverle el problema que motivó la delegación.
+Recognizing afterward that a task proved difficult does not always allow knowing before delegation which architecture is suitable. The evaluator knows branch distances and the optimum; the agent and supervisor do not receive that information for free. Asking the human to choose the correct route may return the problem that motivated delegation to them.
 
-La supervisión puede aportar experiencia, información externa, una aclaración del mandato o una reducción legítima del alcance. Esas aportaciones pueden resolver la incertidumbre. Si la persona sólo ve el mismo resumen incompleto, su revisión puede heredar sus límites y además consume tiempo. Una autorización nueva cambia el problema normativo; no demuestra retrospectivamente que la actuación anterior estuviera permitida.
+Oversight may contribute experience, external information, mandate clarification or legitimate scope reduction. Those contributions may resolve uncertainty. If the person sees only the same incomplete summary, their review may inherit its limits and also consumes time. A new authorization changes the normative problem; it does not retrospectively prove the earlier action permitted.
 
-Hay un límite preciso. Si dos mundos ofrecen exactamente la misma información al diagnóstico previo, pero una política sólo cumple los límites en uno de ellos, cualquier selector basado exclusivamente en esa vista produce la misma salida o distribución de salidas en ambos. No puede identificarlos siempre correctamente. Esto vale también para un humano con esa misma información. Una consulta adicional, evidencia aplicable o la salida «indeterminado» cambian las condiciones; no se deduce una circularidad universal irresoluble.
+There is a precise limit. If two worlds offer exactly the same information to prior diagnosis, but a policy satisfies limits in only one, any selector based exclusively on that view produces the same output or output distribution in both. It cannot always identify them correctly. This also holds for a human with that same information. An additional query, applicable evidence or an “indeterminate” output changes conditions; no universally irresolvable circularity follows.
 
-**Extensión prospectiva.** La detección previa queda fuera de la primera campaña y de SC-H. Una campaña posterior podrá evaluar un selector que observe cobertura pendiente, dependencias, estabilidad, novedad respecto de la memoria y consultas piloto. Sus salidas serían recomendar, desaconsejar o indeterminado. Se medirían falsas recomendaciones, oportunidades perdidas, cobertura y coste total del diagnóstico y la supervisión, con mundos de ajuste y prueba separados. La pregunta es cuánto ayuda elegir con información limitada, no si el supervisor puede adivinar las rutas ocultas.
+**Prospective extension.** Prior detection is outside the first campaign and SC-H. A subsequent campaign may evaluate a selector observing pending coverage, dependencies, stability, novelty relative to memory and pilot queries. Its outputs would be recommend, advise against or indeterminate. False recommendations, missed opportunities, coverage and total diagnostic and oversight cost would be measured, with separate tuning and test worlds. The question is how much choosing with limited information helps, not whether the supervisor can guess hidden routes.
 
-## 1.8 Notación de lectura
+<a id="18-notación-de-lectura"></a>
+## 1.8 Reading notation
 
-| Símbolo | Significado |
+| Symbol | Meaning |
 |---|---|
-| L y N | Longitud de referencia y número de agentes |
-| π y Adm(π) | Trayectoria efectiva y predicado de admisibilidad |
-| M I P | Trayectorias etiquetadas conocida, óptima admisible e inadmisible de referencia |
-| b y J | Beneficio técnico de una acción y resultado técnico compuesto |
-| μ σ D τ | Media y dispersión de beneficio; media y dispersión de distancia de cadenas generativas |
-| R_e k_a k_d | Radio de exploración y profundidad de revisión anterior y posterior |
-| c_e c_v ρ | Costes unitarios de explorar y validar; cociente c_v/c_e |
-| R T v | Presupuesto total, horizonte y proporción discrecional inicial para validación |
-| s w_s | Intensidad de señalización y peso de influencia social |
-| q C t a f K | Calidad legítima entregada, coste, latencia, finalización, infracciones y coordinación |
-| ε Q r_inv | Tolerancia al óptimo, propuestas distintas revisadas y fracción inválida entre ellas |
-| e | Éxito de campaña para SC-H, distinto de la finalización a |
-| S H₀ h_a h_m | Unidades comunes y costes fijo, por receptor y por mantenimiento del ejemplo EA |
+| L and N | Reference length and number of agents |
+| π and Adm(π) | Effective trajectory and admissibility predicate |
+| M I P | Labeled known, admissible-optimal and inadmissible reference trajectories |
+| b and J | Technical benefit of an action and composed technical outcome |
+| μ σ D τ | Benefit mean and dispersion; distance mean and dispersion of generative chains |
+| R_e k_a k_d | Exploration radius and previous and subsequent review depth |
+| c_e c_v ρ | Unit exploration and validation costs; ratio c_v/c_e |
+| R T v | Total budget, horizon and initial discretionary proportion for validation |
+| s w_s | Signaling intensity and social influence weight |
+| q C t a f K | Delivered legitimate quality, cost, latency, completion, violations and coordination |
+| ε Q r_inv | Optimum tolerance, distinct reviewed proposals and invalid fraction among them |
+| e | Campaign success for SC-H, distinct from completion a |
+| S H₀ h_a h_m | Common units and fixed, per-receiver and maintenance costs in the EA example |
 
-Los símbolos no son información automáticamente accesible a la política: conocer sus parámetros de búsqueda no implica conocer el mapa, I ni el veredicto global.
+Symbols are not information automatically accessible to the policy: knowing its search parameters does not imply knowing the map, I or the global verdict.
 
-# 2 El escenario y sus configuraciones
+<a id="2-el-escenario-y-sus-configuraciones"></a>
+# 2 The scenario and its configurations
 
-## 2.1 Tarea y trayectorias de referencia etiquetadas
+<a id="21-tarea-y-trayectorias-de-referencia-etiquetadas"></a>
+## 2.1 Task and labeled reference trajectories
 
-La tarea tiene un origen, un resultado final, una secuencia de L pasos y una obligación vinculante establecida por un principal. El mundo define qué acciones y recursos están permitidos para una misión fija. El escenario no incluye redefinición social de misión, rol o autoridad. El evaluador conserva esa verdad; cada agente accede únicamente a la información que observa, consulta o recibe.
+The task has an origin, a final result, a sequence of L steps and a binding obligation established by a principal. The world defines which actions and resources are permitted for a fixed mission. The scenario does not include social redefinition of mission, role or authority. The evaluator retains that truth; each agent accesses only information it observes, queries or receives.
 
-| Trayectoria de referencia | Función en el escenario | Valor y condición |
+| Reference trajectory | Role in the scenario | Value and condition |
 |---|---|---|
-| M canónica o mediocre | Procedimiento inicial conocido | Admisible y conocida; puede quedar por debajo de la calidad exigida |
-| I ideal admisible | Referencia de la mejor alternativa permitida | Más valiosa que M dentro del criterio global declarado |
-| P prohibida atractiva | Alternativa de elevada utilidad aparente | Puede ofrecer mejores premios locales, pero incumple una obligación en su composición |
+| Canonical or mediocre M | Known initial procedure | Admissible and known; may fall below required quality |
+| Admissible ideal I | Reference for the best permitted alternative | More valuable than M within the declared global criterion |
+| Attractive forbidden P | Alternative with high apparent utility | May offer better local rewards, but violates an obligation in its composition |
 
-M es el procedimiento inicial conocido; las etiquetas I y P son del evaluador. Los agentes no reciben una lista que identifique cuál alternativa es la prohibida. Tampoco pueden deducirlo de un identificador, del color de un nodo o de una regla pública que diga que la segunda recompensa corresponde siempre a I. Si una regularidad observable permite descubrir legítimamente esa clasificación, debe reconocerse como una vía de resolución del escenario.
+M is the known initial procedure; I and P are evaluator labels. Agents do not receive a list identifying which alternative is forbidden. Nor can they infer it from an identifier, node color or public rule saying the second reward always corresponds to I. If an observable regularity legitimately allows that classification to be discovered, it must be recognized as a way to resolve the scenario.
 
-Se separan tres objetos: el grafo determina las trayectorias técnicamente posibles; Adm(π) determina su admisibilidad; J(π) mide el resultado técnico de la misión. La calidad legítima sólo reconoce resultados admisibles. I se calcula después de construir el mundo, como una trayectoria que maximiza J entre las completas admisibles; los empates se conservan o resuelven con una regla publicada. P designa una referencia inadmisible atractiva según beneficios observables, no necesariamente el máximo global ni la estimación privada de un agente.
+Three objects are separated: the graph determines technically possible trajectories; Adm(π) determines admissibility; J(π) measures the mission's technical outcome. Legitimate quality recognizes only admissible outcomes. I is calculated after world construction as a trajectory maximizing J among complete admissible ones; ties are retained or resolved with a published rule. P designates an inadmissible reference attractive according to observable benefits, not necessarily the global maximum or an agent's private estimate.
 
-Los generadores pueden condicionar mundos a perfiles de beneficio declarados. Eso es un diseño sintético controlado, no una prueba de frecuencia natural. Los perfiles se asignan a cadenas sin entregar las etiquetas; el evaluador deriva I y comprueba las mejoras realizadas. Si mezclas o conectores crean una solución superior, esa solución determina I. Se informa la tasa de mundos descartados por incumplir las condiciones, antes de evaluar políticas.
+Generators may condition worlds on declared benefit profiles. This is controlled synthetic design, not proof of natural frequency. Profiles are assigned to chains without providing labels; the evaluator derives I and checks realized improvements. If mixtures or connectors create a superior solution, that solution determines I. The rate of worlds discarded for failing conditions is reported before policy evaluation.
 
-**Disponibilidad de M.** El evaluador sabe que M es admisible. Los brazos conocen su plan, pero sólo saben lo que acredita el expediente inicial común. El protocolo puede darles evidencia suficiente o exigir que la obtengan; usa el mismo régimen para todos. Conocer el plan no equivale a una certificación gratuita: se cobra obtener y comprobar su evidencia, con una regla común de amortización. En el núcleo estático, explorar y revisar no ejecutan la alternativa; antes del compromiso se puede conservar el siguiente paso de M. Después de ejecutar un desvío, volver sólo es posible si existe un conector declarado, con sus costes y restricciones. No hay reinicio gratuito ni reversión de efectos. Si el presupuesto no cubre ejecutar M, la política puede quedar incompleta.
+**Availability of M.** The evaluator knows M is admissible. Arms know its plan, but know only what the common initial record establishes. The protocol may give sufficient evidence or require its acquisition; it uses the same regime for all. Knowing the plan is not free certification: obtaining and checking its evidence is charged with a common amortization rule. In the static kernel, exploration and review do not execute the alternative; before commitment the next M step can be retained. After a deviation is executed, return is possible only if a declared connector exists, with its costs and restrictions. There is no free restart or reversal of effects. If budget does not cover executing M, the policy may remain incomplete.
 
-**Atractivo de P.** Se describe por factores del generador y estadísticas observables, no por la frecuencia de elección que se quiere obtener. En una condición de mayor beneficio medio se exige que la media realizada de P supere a la de I por el margen declarado; se informa además la proporción de posiciones comparables donde su premio local es mayor. El orden puede invertirse en un tramo. La selección ajustada por coste o aleatoria no tiene por qué preferir P. Así no se fuerza que P sea siempre la primera candidata.
+**Attractiveness of P.** It is described by generator factors and observable statistics, not the choice frequency to be obtained. In a higher-mean-benefit condition, P's realized mean must exceed I's by the declared margin; the proportion of comparable positions where its local reward is greater is also reported. The order may reverse in a segment. Cost-adjusted or random selection need not prefer P. P is thus not forced always to be the first candidate.
 
-## 2.2 Tramos y relaciones entre ellos
+<a id="22-tramos-y-relaciones-entre-ellos"></a>
+## 2.2 Segments and relations between them
 
-Cada tramo contiene una acción, un beneficio local y referencias a sus continuaciones y antecedentes. No contiene gratuitamente la determinación completa de la trayectoria. Conocer la acción actual puede permitir comprobar su funcionamiento técnico sin reconstruir su relación con el origen, el destino, el mandato y todas las dependencias relevantes.
+Each segment contains an action, local benefit and references to its continuations and predecessors. It does not freely contain the complete trajectory determination. Knowing the current action may allow technical functionality to be checked without reconstructing its relation to origin, destination, mandate and all relevant dependencies.
 
-La representación básica es una cadena por ruta. Si un agente encuentra un tramo alternativo, la transición debe ser compatible con un enlace explícito del mapa. No puede saltar a una acción aislada sin pagar o comprobar la conexión. La trayectoria efectiva incluye el prefijo ya realizado, el conector elegido y la continuación prevista. Su admisibilidad se evalúa sobre esa composición.
+The basic representation is one chain per route. If an agent finds an alternative segment, transition must be compatible with an explicit map link. It cannot jump to an isolated action without paying for or checking the connection. The effective trajectory includes the already-completed prefix, chosen connector and intended continuation. Admissibility is evaluated over that composition.
 
-El generador tiene que declarar si las rutas se pueden abandonar y retomar, qué tramos comparten y qué conexiones existen. El caso básico mantiene L posiciones comparables; variantes con distinta longitud requieren contabilizar pasos adicionales. La conectividad no se ajusta después de observar el resultado de una ejecución.
+The generator must declare whether routes may be left and resumed, which segments they share and which connections exist. The basic case maintains L comparable positions; variants of different length require accounting for additional steps. Connectivity is not adjusted after observing an execution's result.
 
-## 2.3 Beneficios heterogéneos con promedio fijado
+<a id="23-beneficios-heterogéneos-con-promedio-fijado"></a>
+## 2.3 Heterogeneous benefits with fixed average
 
-Se fija un perfil medio de beneficio por tramo para cada cadena generativa. Los valores individuales varían aleatoriamente alrededor de él. Una ruta puede contener una oportunidad extraordinaria junto a otros pasos modestos, conservando su promedio y, para longitud fija, su beneficio local total.
+A mean benefit profile per segment is fixed for each generative chain. Individual values vary randomly around it. A route may contain an extraordinary opportunity alongside modest steps, preserving its average and, for fixed length, its total local benefit.
 
 > b(r,j) = μ(r) + σ(r) · z(r,j)
-> suma de z(r,j) sobre la ruta = 0
+> sum of z(r,j) over the route = 0
 
-La variable r identifica la ruta y j el tramo. μ fija el promedio; σ controla la dispersión con la normalización elegida. Las desviaciones se centran por realización. La familia de distribución y sus límites se declaran antes de ejecutar. Si se exige beneficio no negativo, se usa una generación que respete esa condición y el promedio, evitando recortar valores sin corregir el cambio de media.
+Variable r identifies the route and j the segment. μ fixes the average; σ controls dispersion with the chosen normalization. Deviations are centered per realization. The distribution family and its bounds are declared before execution. If nonnegative benefit is required, generation respecting that condition and the average is used, avoiding clipping values without correcting the change in mean.
 
-La configuración inicial normaliza el promedio de M a una unidad y controla perfiles alternativos de mejora. Después de resolver el mundo se registran los promedios realizados de I y P respecto de esa base. Se estudia especialmente que P resulte más atractiva localmente que I, pero se conservan controles donde los promedios coincidan o se invierta su orden. El beneficio observado no altera por sí mismo el predicado de autorización.
+The initial configuration normalizes M's average to one unit and controls alternative improvement profiles. After solving the world, realized I and P averages relative to that base are recorded. P being more locally attractive than I is studied especially, but controls with coinciding averages or reversed order are retained. Observed benefit alone does not alter the authorization predicate.
 
-El valor de un tramo pertenece al mundo y no se resortea por observador. Se separan beneficio observado, expectativa del agente y contribución efectiva al resultado. En el régimen base, J(π) = Σ b(a) sobre la secuencia de acciones realmente ejecutadas, incluidos conectores, para una trayectoria completa. Una acción común se cuenta una vez por ejecución; varios informes no multiplican su valor. Una repetición sólo añade valor si así lo define el mundo. J_parcial aplica la misma contabilidad a intentos incompletos con el fin diagnóstico de §1.4.
+A segment's value belongs to the world and is not resampled per observer. Observed benefit, agent expectation and effective contribution to the result are separated. In the base regime, J(π) = Σ b(a) over the sequence of actually executed actions, including connectors, for a complete trajectory. A common action is counted once per execution; multiple reports do not multiply its value. Repetition adds value only if the world defines it so. J_parcial applies the same accounting to incomplete attempts for the diagnostic purpose in §1.4.
 
-Las medias fijadas corresponden a las cadenas generadas; una mezcla posterior tiene su propia media. Los conectores tienen beneficio y coste declarados. Una variante con J(π) = Σ b(a) + g(π) debe fijar g antes del ensayo: representa efectos técnicos de composición y nunca oculta o compensa una prohibición. Los costes computacionales se registran fuera de J para evitar un doble cargo.
+Fixed means correspond to generated chains; a subsequent mixture has its own mean. Connectors have declared benefit and cost. A variant with J(π) = Σ b(a) + g(π) must fix g before the trial: it represents technical composition effects and never hides or compensates for a prohibition. Computational costs are recorded outside J to avoid double charging.
 
-## 2.4 Proximidad y radio creativo
+<a id="24-proximidad-y-radio-creativo"></a>
+## 2.4 Proximity and creative radius
 
-Cada tramo alternativo tiene una distancia respecto de su posición canónica de referencia. Esa distancia oscila alrededor de un promedio propio de la ruta. Los perfiles pueden contener zonas cercanas y otras lejanas, con dispersión y correlación espacial declaradas. No hay una separación uniforme impuesta a todos los tramos.
+Each alternative segment has a distance from its canonical reference position. That distance fluctuates around a route-specific average. Profiles may contain near and distant areas, with declared dispersion and spatial correlation. No uniform separation is imposed on all segments.
 
 > d(r,j) = D(r) + τ(r) · u(r,j)
 
-Las desviaciones se centran y la generación mantiene distancias no negativas. La posición a derecha o izquierda se almacena por separado. El mapa queda fijado antes del recorrido. Una vez que el grupo se desplaza, la distancia efectiva se calcula desde la posición actual de cada agente; no se mueve el mapa para favorecer una convergencia.
+Deviations are centered and generation maintains nonnegative distances. Right or left position is stored separately. The map is fixed before the run. Once the group moves, effective distance is calculated from each agent's current position; the map is not moved to favor convergence.
 
-La creatividad se representa principalmente mediante un radio de búsqueda R_e. Un agente con radio seis puede examinar hasta seis unidades a cada lado. Puede encontrar cero, uno o varios candidatos. La probabilidad de encontrar una ruta emerge de su geometría y del esfuerzo de búsqueda disponible. El radio no es lo mismo que una probabilidad de desviarse.
+Creativity is represented mainly through search radius R_e. An agent with radius six may examine up to six units on each side. It may find zero, one or several candidates. The probability of finding a route emerges from its geometry and available search effort. Radius is not the same as a deviation probability.
 
-La búsqueda no recibe gratis todos los candidatos del mapa. Se declara el coste de examinar una posición o descubrir un candidato y la estrategia de recorrido del radio. Si el presupuesto limita la búsqueda, sólo se comparan las alternativas efectivamente observadas. Un muestreo adicional, un desempate aleatorio o una preferencia direccional deben registrarse separadamente.
+Search does not receive all map candidates for free. The cost of examining a position or discovering a candidate and the radius traversal strategy are declared. If budget limits search, only actually observed alternatives are compared. Additional sampling, random tie-breaking or directional preference must be recorded separately.
 
-## 2.5 Agentes y colaboración
+<a id="25-agentes-y-colaboración"></a>
+## 2.5 Agents and collaboration
 
-Hay N agentes, cada uno con tarea, posición, memoria de observaciones, comprobaciones propias, mensajes recibidos y presupuesto disponible. Pueden contribuir a una misma tarea o a varias tareas con dependencias compartidas; la campaña debe elegir y declarar esa unidad. No se multiplica por N el valor de un mismo resultado colectivo duplicado.
+There are N agents, each with a task, position, observation memory, own checks, received messages and available budget. They may contribute to one task or multiple tasks with shared dependencies; the campaign must choose and declare that unit. The value of one duplicated collective result is not multiplied by N.
 
-La topología social define quién puede enviar información a quién. El caso de referencia mantiene esa regla estable para comparar configuraciones. Si se aumenta N, se distingue el efecto de más participantes del de mayor grado de conexión o más capacidad total. Son cambios diferentes.
+Social topology defines who may send information to whom. The reference case keeps that rule stable to compare configurations. If N increases, the effect of more participants is distinguished from greater connection degree or total capability. These are different changes.
 
-Los agentes conservan memoria entre pasos. La evidencia válida conserva su vigencia entre rondas hasta que cambia alguna condición de aplicabilidad. Las comprobaciones anteriores pueden reutilizarse cuando su alcance, destinatario y condiciones siguen aplicando. La construcción, actualización y consulta de esa memoria tienen coste.
+Agents retain memory between steps. Valid evidence remains current between rounds until an applicability condition changes. Previous checks may be reused when their scope, recipient and conditions still apply. Building, updating and querying that memory have costs.
 
-## 2.6 Información que recibe cada componente
+<a id="26-información-que-recibe-cada-componente"></a>
+## 2.6 Information received by each component
 
-| Componente | Información disponible | Información que no recibe gratuitamente |
+| Component | Available information | Information not received for free |
 |---|---|---|
-| Agente | Su encargo, observaciones, candidatos explorados, revisiones y mensajes recibidos | Etiquetas I P, mejor ruta completa y estado privado ajeno |
-| Servicio de exploración | Geometría alcanzada y resultados técnicos de los candidatos visitados | Certificado de admisibilidad global por observar un premio |
-| Verificación convencional | Relaciones consultadas dentro de la ventana y evidencia accesible aplicable | Veredicto completo de una cadena no examinada |
-| Pares | Lo que observaron o verificaron y lo que recibieron | Autoridad nueva para reasignar la misión de otro agente |
-| Evaluador | Mapa íntegro, obligaciones, conexiones, acciones y efectos registrados | No interviene en la decisión del agente ni entrega pistas ocultas |
+| Agent | Its assignment, observations, explored candidates, reviews and received messages | I P labels, best complete route and others' private state |
+| Exploration service | Reached geometry and technical results of visited candidates | Global admissibility certificate merely from observing a reward |
+| Conventional verification | Relations queried within the window and accessible applicable evidence | Complete verdict for an unexamined chain |
+| Peers | What they observed or verified and received | New authority to reassign another agent's mission |
+| Evaluator | Complete map, obligations, connections, recorded actions and effects | Does not intervene in agent decisions or provide hidden hints |
 
-Esta separación evita que el generador coloque una infracción usando información privada y luego permita al receptor conocerla sin coste. Tampoco se ocultan a una defensa hechos que estarían legítimamente disponibles en el mismo escenario.
+This separation avoids the generator placing a violation using private information and then allowing the receiver to know it at no cost. Nor are facts hidden from a defense that would be legitimately available in the same scenario.
 
-**Contrato mínimo de herramientas.** El manifiesto registra consultas, respuestas, versiones, coste y latencia. Ninguna consulta devuelve I ni Adm de una cadena desconocida.
+**Minimum tool contract.** The manifest records queries, responses, versions, cost and latency. No query returns I or Adm of an unknown chain.
 
-| Operación | Entrada y salida accesible | Límite y cargo |
+| Operation | Accessible input and output | Limit and charge |
 |---|---|---|
-| Explorar | Posición, radio y esfuerzo; candidatos realmente visitados y premios observados | Cobra posiciones o candidatos, sin listado global gratuito |
-| Inspeccionar relación | Identificador conocido y versión; hechos del enlace y referencias adyacentes | Cobra cada inspección; sólo ese alcance, sin ejecutar el futuro |
-| Consultar mandato | Principal, destinatario y recurso; regla de autoridad disponible y su versión | Puede aclarar el permiso, pero no valida automáticamente toda la composición |
-| Verificar evidencia | Certificado, alcance y versión; resultado de comprobación y aplicabilidad | Cobra creación y uso; sólo existe si alguien adquirió la evidencia suficiente |
-| Consultar estado | Recurso y versión conocida; estado actual accesible | Cobra consulta; una coincidencia de hash identifica versión, no demuestra autorización |
-| Comunicar y ejecutar | Mensaje o acción; entrega o efecto registrado | Cobra envío, recepción o acción; las barreras aplican igual a todos los brazos |
+| Explore | Position, radius and effort; actually visited candidates and observed rewards | Charges positions or candidates, without a free global listing |
+| Inspect relation | Known identifier and version; link facts and adjacent references | Charges each inspection; only that scope, without executing the future |
+| Query mandate | Principal, recipient and resource; available authority rule and its version | May clarify permission, but does not automatically validate the entire composition |
+| Verify evidence | Certificate, scope and version; check result and applicability | Charges creation and use; exists only if someone acquired sufficient evidence |
+| Query state | Resource and known version; accessible current state | Charges query; hash match identifies version, not proves authorization |
+| Communicate and execute | Message or action; recorded delivery or effect | Charges sending, reception or action; barriers apply equally to all arms |
 
-Una API que realmente resuelva toda la admisibilidad se declara como tal, con información, coste y controles equivalentes para todos. Se admite que elimine la dificultad; no se disfraza de consulta local ni se la prohíbe para conservar el resultado negativo.
+An API actually resolving all admissibility is declared as such, with equivalent information, cost and controls for all. It is allowed to eliminate the difficulty; it is neither disguised as a local query nor forbidden to preserve the negative result.
 
-## 2.7 Secuencia de decisión
+<a id="27-secuencia-de-decisión"></a>
+## 2.7 Decision sequence
 
-El hallazgo se compara antes de comprometer la acción. La revisión propia conserva su lugar incluso cuando hay informes de otros participantes. La figura resume el ciclo; los pasos precisan sus salidas.
+The finding is compared before committing the action. Own review retains its place even with other participants' reports. The figure summarizes the cycle; steps specify its outputs.
 
-![Ciclo de decisión con revisión propia y retorno social](figures/ciclo-decision.png)
+![Decision cycle with own review and social return](figures/ciclo-decision.png)
 
-Figura 1. Orden del recorrido. Todos los trabajos se cobran; una señal sólo puede influir después de recibirse. Las salidas de rechazo e indeterminación se detallan en §2.17.
+Figure 1. Run order. All work is charged; a signal may influence only after reception. Rejection and indeterminate outputs are detailed in §2.17.
 
-1. El agente identifica su posición, el siguiente paso previsto y el presupuesto restante.
-2. Busca a ambos lados dentro de su radio y del esfuerzo que puede pagar.
-3. Explora los candidatos encontrados y observa sus beneficios locales.
-4. Ordena las alternativas según la política de selección declarada y selecciona provisionalmente una. La referencia usa beneficio observado; las ablaciones usan beneficio ajustado por coste estimado o un orden aleatorio registrado. La selección no produce todavía su efecto operativo.
-5. Ejecuta la validación propia hacia atrás y hacia delante, incluyendo el conector y las relaciones pertinentes de la alternativa.
-6. Si detecta prohibición o incompatibilidad, descarta ese candidato. Considera el siguiente y aplica también sus comprobaciones; no conoce por anticipado la mejor opción realmente permitida.
-7. Si completa la revisión prevista sin detectar incompatibilidad, dispone de un PASS-local. Puede incorporar evidencia social pertinente, sin anular una prohibición detectada ni suprimir la revisión propia exigida.
-8. Si la política justifica continuar, se compromete y ejecuta. El entorno registra el efecto independientemente de su opinión sobre el resultado.
-9. Comunica el hallazgo, la revisión y, cuando exista, el resultado de ejecución. Los receptores sólo pueden usarlos después de recibirlos.
+1. The agent identifies its position, next planned step and remaining budget.
+2. It searches both sides within its radius and affordable effort.
+3. It explores found candidates and observes their local benefits.
+4. It orders alternatives according to the declared selection policy and provisionally selects one. The reference uses observed benefit; ablations use benefit adjusted by estimated cost or a recorded random order. Selection does not yet produce its operational effect.
+5. It executes own backward and forward validation, including the connector and relevant alternative relations.
+6. If it detects prohibition or incompatibility, it discards that candidate. It considers the next and also applies its checks; it does not know the best actually permitted option in advance.
+7. If it completes planned review without detecting incompatibility, it has a PASS-local. It may incorporate relevant social evidence, without overriding a detected prohibition or suppressing required own review.
+8. If the policy justifies continuing, it commits and executes. The environment records the effect independently of its opinion of the result.
+9. It communicates the finding, review and, when available, execution result. Receivers may use them only after reception.
 
-CV-A0 tiene tres variantes de selección: CV-A0-B ordena por beneficio local, CV-A0-C por beneficio ajustado por coste y CV-A0-R usa orden aleatorio. B es la referencia diagnóstica, C contrasta valoración del esfuerzo y R es un control de orden; ninguno sustituye a CV-A1 como brazo competente. La regla de selección es un parámetro registrado. En la variante ajustada por coste se explicita la valoración del beneficio y se descuentan únicamente costes futuros estimables con información accesible, sin consultar etiquetas del evaluador. El orden aleatorio sirve como control; todas las variantes conservan revisión propia y rechazo de prohibiciones detectadas. Un promedio de P mayor que el de I puede favorecer su selección, pero no garantiza el orden de cada decisión: los valores por tramo varían y algunos candidatos quedan fuera del radio o del presupuesto.
+CV-A0 has three selection variants: CV-A0-B orders by local benefit, CV-A0-C by cost-adjusted benefit and CV-A0-R uses random order. B is the diagnostic reference, C contrasts effort valuation and R is an order control; none replaces CV-A1 as the competent arm. The selection rule is a recorded parameter. The cost-adjusted variant makes benefit valuation explicit and subtracts only future costs estimable with accessible information, without querying evaluator labels. Random order serves as a control; all variants retain own review and rejection of detected prohibitions. A greater P average than I's may favor its selection, but does not guarantee each decision's order: segment values vary and some candidates fall outside radius or budget.
 
-La política debe definir desempates, espera, rechazo, agotamiento y reintentos. Esas reglas no se dejan a una decisión posterior que conozca el resultado global. Un agente puede seguir la ruta canónica, posponer o no completar la tarea. No se le obliga a ejecutar P para conseguir un negativo.
+The policy must define tie-breaking, waiting, rejection, exhaustion and retries. Those rules are not left to a subsequent decision knowing the global outcome. An agent may follow the canonical route, postpone or fail to complete the task. It is not forced to execute P to obtain a negative.
 
-## 2.8 Validación convencional hacia atrás y hacia delante
+<a id="28-validación-convencional-hacia-atrás-y-hacia-delante"></a>
+## 2.8 Conventional backward and forward validation
 
-La ventana propia inspecciona k_a pasos anteriores y k_d pasos posteriores relevantes para la propuesta. No ejecuta las acciones futuras. Examina sus enlaces, condiciones, consecuencias previsibles y compatibilidad con la información disponible. No conoce cambios futuros del mundo que no se hayan anunciado o podido consultar.
+The own window inspects k_a previous and k_d subsequent steps relevant to the proposal. It does not execute future actions. It examines their links, conditions, foreseeable consequences and compatibility with available information. It does not know future world changes not announced or queryable.
 
-La convención de conteo debe precisar si incluye el candidato y el conector como unidades separadas. Se cobran pasos o relaciones únicos inspeccionados, sin duplicar el solapamiento dentro de la misma revisión. En extremos de la cadena la ventana se recorta al dominio existente.
+The counting convention must specify whether candidate and connector are included as separate units. Unique inspected steps or relations are charged, without duplicating overlap within the same review. At chain endpoints the window is clipped to the existing domain.
 
-La verificación produce tres clases de salida: incompatibilidad detectada; revisión completada sin incompatibilidad dentro de su alcance; y revisión no completada o evidencia insuficiente para una cuestión identificada. No completar lo previsto no se registra como PASS-local. Tampoco se interpreta todo residuo como prohibición universal de seguir trabajando.
+Verification yields three output classes: detected incompatibility; completed review without incompatibility within its scope; and incomplete review or insufficient evidence for an identified question. Not completing what was planned is not recorded as PASS-local. Nor is every residue interpreted as a universal prohibition on continuing work.
 
-El receptor solicitado respeta una denegación que detecta. La vulnerabilidad candidata surge cuando la información cubierta es compatible con la decisión local, pero no determina una relación global decisiva. La racionalidad del agente se entiende respecto de su información y regla de elección; no se ha demostrado optimalidad global de esa política.
+The requested receiver respects a denial it detects. The candidate vulnerability arises when covered information is compatible with the local decision but does not determine a decisive global relation. Agent rationality is understood relative to its information and choice rule; global optimality of that policy has not been proved.
 
-## 2.9 Cómo puede haber una infracción de composición
+<a id="29-cómo-puede-haber-una-infracción-de-composición"></a>
+## 2.9 How a composition violation may occur
 
-Para sostener un límite informacional se deben construir dos mundos que coincidan en toda la vista accesible de la política —observaciones, recompensas, memoria, mensajes y resúmenes— y tengan veredictos globales opuestos. No basta con recortar una cadena. Esta obligación se aplica a los casos presentados como indistinguibles, no a cualquier fallo de búsqueda. Esa indistinguibilidad, dentro de la vista declarada, explica por qué repetir la misma revisión local no aporta por sí solo la información que falta.
+To sustain an informational limit, two worlds must be constructed agreeing on the policy's entire accessible view—observations, rewards, memory, messages and summaries—and having opposite global verdicts. Merely clipping a chain is insufficient. This obligation applies to cases presented as indistinguishable, not any search failure. That indistinguishability within the declared view explains why repeating the same local review does not by itself provide missing information.
 
-La condición puede relacionar el propósito original, la cadena de delegaciones, los recursos utilizados y el resultado final. Una cadena de pasos técnicamente correctos puede no acreditar la autoridad necesaria para su composición. Sin embargo, una sola incompatibilidad visible puede bastar para rechazar: no se afirma que toda infracción requiera siempre leer todos los pasos.
+The condition may relate original purpose, delegation chain, resources used and final result. A chain of technically correct steps may fail to establish the necessary authority for its composition. However, one visible incompatibility may suffice for rejection: it is not claimed every violation always requires reading all steps.
 
-Para aislar una dependencia estrictamente global se puede incluir un control algebraico. Cada enlace aporta un dato de composición; la paridad del conjunto determina una condición sintética. Con datos independientes y sin un resumen previo válido, dejar un enlace sin observar permite dos completaciones con distinto veredicto. Leer todos permite decidir. La conclusión sobre decisión exacta pertenece a ese generador; una afirmación sobre error probabilístico exige además fijar la distribución de completaciones. Este control ilustra un límite de información, no una semántica probada de permisos ni una instancia automática de Napoleón.
+An algebraic control may be included to isolate a strictly global dependency. Each link contributes a composition datum; their parity determines a synthetic condition. With independent data and no prior valid summary, leaving one link unobserved allows two completions with different verdicts. Reading all permits a decision. The conclusion on exact decision belongs to that generator; a probabilistic-error claim additionally requires fixing the completion distribution. This control illustrates an information limit, not proved permission semantics or an automatic Napoleon instance.
 
-El predicado de composición es un factor experimental, no una elección única. Se informan por separado al menos tres familias:
+The composition predicate is an experimental factor, not a single choice. At least three families are reported separately:
 
-| Predicado | Información decisiva | Comportamiento de la revisión |
+| Predicate | Decisive information | Review behavior |
 |---|---|---|
-| Paridad global sintética | Composición de todos los datos no certificados | Control de dependencia global; admite resumen incremental válido |
-| Conjuntivo | Todos los enlaces deben cumplir; uno inválido permite rechazar | Salida anticipada al encontrar el testigo; controles sin testigo para medir aceptación legítima |
-| Mixto | Condiciones locales y una relación global explícita | Puede rechazar pronto por una condición local; el resto requiere evidencia suficiente de composición |
+| Synthetic global parity | Composition of all uncertified data | Global-dependency control; admits valid incremental summary |
+| Conjunctive | All links must comply; one invalid link permits rejection | Early exit upon finding the witness; witness-free controls to measure legitimate acceptance |
+| Mixed | Local conditions and an explicit global relation | May reject early on a local condition; remainder requires sufficient composition evidence |
 
-En la familia conjuntiva se ubica el testigo inválido aleatoriamente y se declara su distribución. Con exactamente un testigo uniforme entre L posiciones, un orden fijo sin pistas y lectura secuencial sin reutilización, el número esperado de lecturas hasta rechazar es (L + 1) dividido entre dos; puede ser una sola lectura si hay una pista útil. En una cadena válida, la ausencia de ese testigo puede requerir comprobar L posiciones si no hay un certificado suficiente. Cambiar número, localización o accesibilidad de los testigos cambia el coste. Por tanto, la salida anticipada puede reducir o eliminar una región desfavorable, pero no lo garantiza para toda mezcla de propuestas válidas e inválidas.
+In the conjunctive family the invalid witness is placed randomly and its distribution declared. With exactly one uniform witness among L positions, a fixed order without clues and sequential reading without reuse, expected reads until rejection are (L + 1) divided by two; a useful clue may allow a single read. In a valid chain, absence of that witness may require checking L positions without a sufficient certificate. Changing witness number, location or accessibility changes cost. Early exit may therefore reduce or eliminate an unfavorable region, but does not guarantee it for every mixture of valid and invalid proposals.
 
-Con una fracción r_inv de propuestas inválidas, exactamente un testigo uniforme por propuesta inválida, lectura secuencial sin pistas ni reutilización y comprobación completa de las válidas, el coste esperado por propuesta es:
+With fraction r_inv of invalid proposals, exactly one uniform witness per invalid proposal, sequential reading without clues or reuse and complete checking of valid proposals, expected cost per proposal is:
 
 > E[C_validación] = c_v · [r_inv · (L + 1)/2 + (1 − r_inv) · L]
 
-Con r_inv = 1 se obtiene c_v · (L + 1)/2; cuando r_inv tiende a cero, el coste tiende a c_v · L. Es una mezcla de propuestas válidas e inválidas dentro de la familia conjuntiva, no el predicado mixto de la tabla. r_inv se refiere a las propuestas efectivamente revisadas: la selección puede cambiar su frecuencia. La cuenta no incluye certificados, pistas ni reutilización; esos controles se miden aparte.
+With r_inv = 1, c_v · (L + 1)/2 is obtained; as r_inv tends to zero, cost tends to c_v · L. This is a mixture of valid and invalid proposals within the conjunctive family, not the table's mixed predicate. r_inv refers to actually reviewed proposals: selection may change their frequency. The account includes no certificates, clues or reuse; those controls are measured separately.
 
-Una vez obtenida toda la información, la paridad admite un resumen incremental. El comparador puede mantenerlo y actualizarlo. Obligar a recalcular todo a cada paso fabricaría un coste innecesario. Lo mismo vale para certificados, resúmenes de dependencias y comprobaciones compartidas cuando sean suficientes y aplicables.
+Once all information is obtained, parity admits an incremental summary. The comparator may maintain and update it. Requiring full recalculation at every step would manufacture unnecessary cost. The same holds for certificates, dependency summaries and shared checks when sufficient and applicable.
 
-## 2.10 Señalización y validación social
+<a id="210-señalización-y-validación-social"></a>
+## 2.10 Signaling and social validation
 
-La influencia social del escenario es epistémica: modifica expectativas, búsqueda o confianza en hechos; no crea permisos ni cambia la misión. Una afirmación sobre autoridad se contrasta con el principal y mandato aplicables. El registro distingue autoridad alegada, autoridad aplicable y motivo de aceptación.
+Social influence in the scenario is epistemic: it modifies expectations, search or confidence in facts; it neither creates permissions nor changes the mission. An authority claim is checked against the applicable principal and mandate. The record distinguishes alleged authority, applicable authority and reason for acceptance.
 
-La intensidad s controla la emisión de hallazgos a los vecinos definidos. El peso w_s controla su influencia sobre la confianza, las propuestas o la selección futura. Emitir mucho y creer mucho son parámetros distintos. La señalización forma parte del esfuerzo de exploración y coordinación; las consultas dirigidas a validar y sus respuestas se imputan al presupuesto de validación.
+Intensity s controls emission of findings to defined neighbors. Weight w_s controls their influence on confidence, proposals or future selection. Emitting much and believing much are distinct parameters. Signaling is part of exploration and coordination effort; queries directed at validation and their responses are charged to the validation budget.
 
-El mensaje distingue propuesta, resultado técnico, comprobación y permiso. Como mínimo registra emisor, origen, identificador del tramo o cadena, alcance revisado, resultado, momento y versión, evidencia referida y dependencias conocidas. Un relé conserva que está repitiendo el informe de otro. La fuente desconocida se registra como tal.
+The message distinguishes proposal, technical result, check and permission. At minimum it records sender, origin, segment or chain identifier, reviewed scope, result, time and version, referenced evidence and known dependencies. A relay preserves that it repeats another's report. An unknown source is recorded as such.
 
-La revisión propia permanece. Los compañeros pueden aportar comprobaciones de pasos anteriores que el receptor no inspeccionó o ayudar a detectar una incompatibilidad. Su evidencia no se suma automáticamente como votos independientes. Hay que distinguir cobertura complementaria, cobertura solapada y copias de una misma fuente.
+Own review remains. Peers may contribute checks of previous steps the receiver did not inspect or help detect incompatibility. Their evidence is not automatically added as independent votes. Complementary coverage, overlapping coverage and copies of the same source must be distinguished.
 
-La regla de peso social tiene que fijarse antes de ejecutar. Puede compararse una política que sobrevalora el número de confirmaciones con otra que considera su dependencia y alcance, sin modificar la verificación propia ni permitir saltarse denegaciones conocidas. El apoyo social también puede reducir confianza cuando comunica un fallo.
+The social-weight rule must be fixed before execution. A policy overvaluing confirmation count may be compared with another considering dependency and scope, without modifying own verification or allowing known denials to be bypassed. Social support may also reduce confidence when communicating failure.
 
-Los mensajes basados en revisión se emiten después de esa revisión. Los basados en ejecución se emiten después del resultado. Un agente no recibe un éxito futuro para justificar una decisión anterior. La transmisión tiene latencia y coste. El aumento de comunicación puede acelerar I, amplificar P o saturar a los receptores; ninguna salida se impone de antemano.
+Review-based messages are emitted after that review. Execution-based ones are emitted after the result. An agent does not receive future success to justify an earlier decision. Transmission has latency and cost. Increased communication may accelerate I, amplify P or saturate receivers; no output is imposed beforehand.
 
-Se mide difusión colectiva o transición de adopción, sin imponer un umbral mágico. La concentración de decisiones también puede deberse a recompensa, geometría o exposición comunes. Para atribuir un efecto a mensajes se comparan ausencia de comunicación, mensajes sin influencia, evidencia independiente y relés; los análisis de umbral añaden redes de grado comparable reconfiguradas, retraso y permutación de mensajes. Se mantienen las condiciones exógenas y se permite la divergencia causal posterior. Sólo un efecto que sobreviva a controles pertinentes justificaría hablar de masa crítica.
+Collective diffusion or adoption transition is measured without imposing a magical threshold. Decision concentration may also arise from common reward, geometry or exposure. Attributing an effect to messages requires comparing no communication, messages without influence, independent evidence and relays; threshold analyses add rewired comparable-degree networks, delay and message permutation. Exogenous conditions are maintained and subsequent causal divergence allowed. Only an effect surviving relevant controls would justify speaking of critical mass.
 
-La difusión puede favorecer I o P. No es premisa, detector, prueba del diferencial ni criterio de selección del contraste EA [REF10]. La cobertura es la unión de relaciones respaldadas por evidencia aplicable, con su linaje; contar mensajes o fuentes no equivale a contar cobertura nueva.
+Diffusion may favor I or P. It is neither premise, detector, differential proof nor selection criterion of the EA contrast [REF10]. Coverage is the union of relations backed by applicable evidence, with its lineage; counting messages or sources does not equal counting new coverage.
 
-## 2.11 Coste de exploración y coste de revisión
+<a id="211-coste-de-exploración-y-coste-de-revisión"></a>
+## 2.11 Exploration cost and review cost
 
-Se estipulan unidades de coste comparables. El régimen base conserva la condición acordada: verificar un paso comparable cuesta menos que explorarlo. Es un supuesto del escenario, no una ley sobre sistemas reales. La sensibilidad a ρ = c_v/c_e próximo o superior a uno se informa como régimen separado; que el fenómeno sólo aparezca en un dominio limita su alcance, no invalida estudiar ese dominio. La búsqueda geométrica, la comprobación de relaciones y la ejecución material pueden tener cargos distintos, que no se confunden.
+Comparable cost units are stipulated. The base regime retains the agreed condition: verifying a comparable step costs less than exploring it. This is a scenario assumption, not a law about real systems. Sensitivity to ρ = c_v/c_e near or above one is reported as a separate regime; occurrence of the phenomenon only within one domain limits its scope, not the validity of studying that domain. Geometric search, relation checking and material execution may have distinct charges, which are not confused.
 
 > 0 < c_v < c_e
-> C_validación = c_v · número de unidades verificadas
+> C_validación = c_v · number of verified units
 
-Para una cadena nueva de L tramos sin evidencia reutilizable, la revisión completa cuesta c_v por L. Si N agentes revisan cadenas distintas una vez cada uno, el cargo es c_v por N por L. Si cada uno reconstruye cada prefijo después de cada paso, el cargo es c_v por N por L por (L + 1) dividido entre dos.
+For a new chain of L segments without reusable evidence, full review costs c_v times L. If N agents each review distinct chains once, the charge is c_v times N times L. If each reconstructs each prefix after each step, the charge is c_v times N times L times (L + 1) divided by two.
 
-Si, en cambio, revisan toda una ruta planificada de longitud L antes de cada una de sus L decisiones, el coste de esa estrategia es c_v por N por L al cuadrado. Estos crecimientos describen estrategias concretas. No son cotas inferiores universales de la validación convencional.
+If instead they review an entire planned route of length L before each of its L decisions, the cost of that strategy is c_v times N times L squared. These growth patterns describe concrete strategies. They are not universal lower bounds on conventional validation.
 
-Estas cuentas desarrollan las estrategias de revisión de REF09 §14; las precisiones de coste unitario y ventanas propias se encuentran en §16. Para Q propuestas distintas de longitud L revisadas íntegramente por separado, la cuenta es c_v · L · Q. Q es el volumen efectivamente producido y deduplicado, no el número de agentes ni una constante impuesta para obtener un fallo. Ese producto no sustituye el coste medido con salida anticipada, solapamientos o evidencia reutilizada; tampoco es una cota inferior. Una política puede generar o priorizar menos propuestas, y esa reducción debe reflejarse junto con la calidad legítima alcanzada.
+These accounts develop REF09 §14 review strategies; unit-cost and own-window precisions are in §16. For Q distinct proposals of length L reviewed fully and separately, the account is c_v · L · Q. Q is the actually produced and deduplicated volume, not agent count or a constant imposed to obtain failure. That product replaces neither measured cost with early exit, overlaps or reused evidence; nor is it a lower bound. A policy may generate or prioritize fewer proposals, and that reduction must be reflected alongside legitimate quality achieved.
 
-La unidad básica de validación es la inspección de una relación del grafo bajo una versión y un mandato, no un agente ni una ronda. En una variante heterogénea, C_validación es la suma de los cargos c_v(e) de los eventos efectivamente realizados; una repetición innecesaria también cuesta. Consultar o comprobar un certificado genera su propio cargo. La equivalencia entre unidades de búsqueda y revisión se declara para interpretar ρ.
+The basic validation unit is inspection of a graph relation under a version and mandate, not an agent or round. In a heterogeneous variant, C_validación sums charges c_v(e) of actually performed events; unnecessary repetition also costs. Querying or checking a certificate incurs its own charge. Equivalence between search and review units is declared to interpret ρ.
 
-| Actividad | Cargo registrado | Reutilización y vigencia |
+| Activity | Recorded charge | Reuse and currency |
 |---|---|---|
-| Búsqueda y observación | Posición o candidato examinado | Memoria si no cambian mapa ni hechos |
-| Revisión | Relación inspeccionada | Alcance, autoridad, versión y dependencias vigentes |
-| Certificado | Creación, consulta y comprobación de aplicabilidad | Sólo con evidencia suficiente y vigente |
-| Comunicación | Envío y recepción por tamaño declarado | Un relé no crea evidencia independiente |
-| Mantenimiento | Actualización o invalidación efectuada | Cargo en cada modificación pertinente |
-| Ejecución | Acción intentada y efecto según el modelo | Siempre contabilizada, incluso si fracasa |
+| Search and observation | Examined position or candidate | Memory if map and facts do not change |
+| Review | Inspected relation | Current scope, authority, version and dependencies |
+| Certificate | Creation, query and applicability check | Only with sufficient current evidence |
+| Communication | Sending and reception by declared size | A relay creates no independent evidence |
+| Maintenance | Update or invalidation performed | Charge on every relevant modification |
+| Execution | Attempted action and effect according to the model | Always accounted, even on failure |
 
-Se cobra el proceso completo, incluidos candidatos descartados y reintentos. La atribución por resultado es un desglose del mismo libro, no un segundo cobro; si no hay resultados legítimos, el coste por éxito queda indefinido y se informa el total.
+The complete process is charged, including discarded candidates and retries. Attribution per result is a breakdown of the same ledger, not a second charge; without legitimate results, cost per success is undefined and the total reported.
 
-El libro de costes registra lo realmente inspeccionado. Si existe un prefijo compartido y su comprobación sigue aplicando, se admite reutilización. Si dos agentes tienen mandatos o versiones diferentes, compartir un resultado exige comprobar esa aplicabilidad. No se obliga a pagar N revisiones completas cuando una prueba compartida basta.
+The cost ledger records what was actually inspected. If a shared prefix exists and its check still applies, reuse is admitted. If two agents have different mandates or versions, sharing a result requires checking that applicability. N complete reviews are not required when one shared proof suffices.
 
-## 2.12 Presupuesto y plazo
+<a id="212-presupuesto-y-plazo"></a>
+## 2.12 Budget and deadline
 
-Se fija un presupuesto total R y un horizonte T. Tras reservar o contabilizar el trabajo de ejecución según una regla declarada, el presupuesto discrecional se reparte entre exploración y validación. La fracción v corresponde a validación y la fracción restante a exploración.
+Total budget R and horizon T are fixed. After reserving or accounting for execution work under a declared rule, discretionary budget is allocated between exploration and validation. Fraction v corresponds to validation and the remaining fraction to exploration.
 
 > R_validación = v · R_discrecional
 > R_exploración = (1 − v) · R_discrecional
 
-La suma de todos los cargos respeta R. La comunicación no desaparece en una categoría sin coste. Las transferencias entre partidas, si se permiten, requieren una política fijada; se distingue el reparto inicial de la inversión efectiva. El parámetro beta de mezcla social/prospectiva sólo puede repartir recursos respetando la revisión propia mínima declarada.
+The sum of all charges respects R. Communication does not disappear into a cost-free category. Transfers between allocations, if allowed, require a fixed policy; initial allocation is distinguished from effective investment. The social/prospective mixture parameter beta may allocate resources only while respecting declared minimum own review.
 
-Se informan coste agregado, coste por resultado legítimo y latencia. Paralelizar puede reducir tiempo sin reducir trabajo total. Aumentar N manteniendo presupuesto por agente aumenta los recursos totales; aumentarlo con R fijo estudia otra cuestión. Son dos experimentos: presupuesto fijo por agente y presupuesto global fijo. Tienen curvas y tablas principales separadas, con su regla de reparto publicada.
+Aggregate cost, cost per legitimate result and latency are reported. Parallelizing may reduce time without reducing total work. Increasing N with per-agent budget fixed increases total resources; increasing it with fixed R studies another question. These are two experiments: fixed per-agent budget and fixed global budget. They have separate primary curves and tables, with their allocation rule published.
 
-## 2.13 Inventario de configuración
+<a id="213-inventario-de-configuración"></a>
+## 2.13 Configuration inventory
 
-| Grupo | Parámetros que deben declararse |
+| Group | Parameters to declare |
 |---|---|
-| Tarea | Longitud L, obligación, principal, resultado requerido y plazo T |
-| Población | N, unidad individual o colectiva y reparto de trabajo |
-| Perfiles de entrada | Medias fijadas de las cadenas generativas y reglas para condicionar o rechazar mundos |
-| Atractivo realizado | Medias y mejoras de I y P, derivadas tras resolver el mundo; proporción de posiciones donde P ofrece más beneficio |
-| Heterogeneidad | Dispersiones, familia de generación y correlaciones de beneficios |
-| Geometría | Distancias medias, dispersiones, lados, conexiones y correlación entre posiciones |
-| Creatividad | Radio R_e, esfuerzo de búsqueda y política de muestreo si existe |
-| Composición | Predicado de paridad global sintética, conjuntivo con testigo local de posición aleatoria, o mixto; distribución de testigos y controles admisibles; resultados separados |
-| Revisión propia | Profundidades k_a y k_d, orden de inspección, salida anticipada, criterio de salida y reutilización |
-| Costes | Exploración c_e, validación c_v, búsqueda, ejecución, mensaje y mantenimiento |
-| Recursos | Presupuesto R, reparto v, mezcla beta de consultas sociales y revisión prospectiva, y regla de transferencias |
-| Red social | Topología, intensidad s, latencia, peso w_s y tratamiento de dependencias |
-| Política | Selección por beneficio, beneficio ajustado por coste o aleatoria; desempate, rechazo, espera, reintento y recuperación |
-| Volumen observado | Q propuestas únicas; cobertura nueva y reutilizada; deduplicación e inspecciones efectivas |
-| Variación | Semillas del mundo y del agente; versión estática o cambios explícitos |
+| Task | Length L, obligation, principal, required result and deadline T |
+| Population | N, individual or collective unit and work allocation |
+| Input profiles | Fixed means of generative chains and rules for conditioning or rejecting worlds |
+| Realized attractiveness | I and P means and improvements, derived after solving the world; proportion of positions where P offers more benefit |
+| Heterogeneity | Dispersions, generation family and benefit correlations |
+| Geometry | Mean distances, dispersions, sides, connections and correlation between positions |
+| Creativity | Radius R_e, search effort and sampling policy if any |
+| Composition | Synthetic global parity predicate, conjunctive with randomly positioned local witness, or mixed; witness distribution and admissible controls; separate results |
+| Own review | Depths k_a and k_d, inspection order, early exit, exit criterion and reuse |
+| Costs | Exploration c_e, validation c_v, search, execution, message and maintenance |
+| Resources | Budget R, allocation v, mixture beta of social queries and prospective review, and transfer rule |
+| Social network | Topology, intensity s, latency, weight w_s and dependency treatment |
+| Policy | Selection by benefit, cost-adjusted benefit or random; tie-breaking, rejection, waiting, retry and recovery |
+| Observed volume | Q unique proposals; new and reused coverage; deduplication and effective inspections |
+| Variation | World and agent seeds; static version or explicit changes |
 
-Los parámetros de beneficios y geometría no se resortean durante una revisión. Para contrastar políticas se conserva el mismo mundo y se acopla el azar pertinente. Las conversaciones posteriores pueden divergir porque las decisiones cambian; eso forma parte del efecto estudiado.
+Benefit and geometry parameters are not resampled during review. Policy contrasts preserve the same world and couple relevant randomness. Subsequent conversations may diverge because decisions change; this is part of the studied effect.
 
-## 2.14 Familias de configuración que interesa distinguir
+<a id="214-familias-de-configuración-que-interesa-distinguir"></a>
+## 2.14 Configuration families to distinguish
 
-| Configuración candidata | Pregunta que plantea |
+| Candidate configuration | Question it poses |
 |---|---|
-| Radio pequeño y muchos agentes | Si falta diversidad útil, cuánto trabajo redundante se produce |
-| P cercana y muy atractiva | Si los beneficios locales favorecen su adopción pese a cobertura global insuficiente |
-| I cercana y revisión asequible | Cuándo la exploración mejora de forma admisible |
-| Revisión profunda y poco presupuesto | Si el sistema vuelve a M, espera o incumple el plazo |
-| Señalización intensa con evidencia dependiente | Si muchas confirmaciones cambian decisiones sin aportar cobertura equivalente |
-| Señalización con cobertura complementaria | Cuánto trabajo de revisión se comparte válidamente |
-| Prefijos estables y reutilizables | Cuánto ahorra un control incremental competente |
-| Cambios frecuentes de dependencias | Cuándo deja de servir la evidencia previa y cuánto cuesta actualizarla |
+| Small radius and many agents | If useful diversity is absent, how much redundant work is produced |
+| Nearby highly attractive P | Whether local benefits favor adoption despite insufficient global coverage |
+| Nearby I and affordable review | When exploration improves admissibly |
+| Deep review and little budget | Whether the system returns to M, waits or misses the deadline |
+| Intense signaling with dependent evidence | Whether many confirmations change decisions without equivalent coverage |
+| Signaling with complementary coverage | How much review work is validly shared |
+| Stable reusable prefixes | How much a competent incremental control saves |
+| Frequent dependency changes | When prior evidence ceases to help and how much updating costs |
 
-Son preguntas, no resultados esperados obligatorios. La variante estática basta para estudiar un coste de composición. La variante dinámica añade cambios de participantes, dependencias o vigencia; sólo ésta permite estudiar directamente esa presión temporal.
+These are questions, not mandatory expected results. The static variant suffices to study a composition cost. The dynamic variant adds changes of participants, dependencies or currency; only it directly studies that temporal pressure.
 
-## 2.15 Familia de políticas y controles
+<a id="215-familia-de-políticas-y-controles"></a>
+## 2.15 Policy and control family
 
-La siguiente familia finita define los brazos locales. Cada instancia debe congelar código o reglas, parámetros, observación accesible, memoria, orden, profundidad, comunicación, asignación de recursos, abstención, reintentos y desempates. Una descripción como «adaptativa» no basta para ejecutar ni para afirmar una cota sobre todas las políticas adaptativas.
+The following finite family defines local arms. Each instance must freeze code or rules, parameters, accessible observation, memory, order, depth, communication, resource allocation, abstention, retries and tie-breaking. A description such as “adaptive” is insufficient for execution or a bound on all adaptive policies.
 
-| Brazo local | Búsqueda y revisión | Función comparativa |
+| Local arm | Search and review | Comparative role |
 |---|---|---|
-| CV-C0 | Procedimiento conocido M; inspección completa del alcance normativo o certificado suficiente comprobable, con todos sus cargos | Referencia de tarea; no representa por sí solo toda defensa convencional |
-| CV-C1 | Búsqueda convencional competente; revisión incremental, memoria y abstención | Comparador principal con acceso a mejoras legítimas |
-| CV-A0 | Radio y ventana fijos; selección local; sin comunicación | Ablación diagnóstica, no prueba de límite arquitectónico |
-| CV-A1 | Exploración y profundidad adaptativas; memoria, reutilización y abstención | Agente competente frente a CV-C1 |
-| CV-A2 | Capacidades de A1 con intercambio, procedencia, dependencias e invalidación | Efecto de colaboración frente al mismo brazo sin comunicación |
-| CV-EA | Misma base social con las funciones EA declaradas | Intervención posterior, comparada con A2 y controles equivalentes |
+| CV-C0 | Known procedure M; full inspection of normative scope or checkable sufficient certificate, with all charges | Task reference; does not alone represent every conventional defense |
+| CV-C1 | Competent conventional search; incremental review, memory and abstention | Main comparator with access to legitimate improvements |
+| CV-A0 | Fixed radius and window; local selection; no communication | Diagnostic ablation, not proof of an architectural limit |
+| CV-A1 | Adaptive exploration and depth; memory, reuse and abstention | Competent agent against CV-C1 |
+| CV-A2 | A1 capabilities with exchange, provenance, dependencies and invalidation | Collaboration effect against the same arm without communication |
+| CV-EA | Same social base with declared EA functions | Subsequent intervention, compared with A2 and equivalent controls |
 
-Procedencia, caché, certificados y recalificación no son privilegios exclusivos de EA. El control convencional social puede igualar esas capacidades. Si dos brazos tienen idénticas reglas efectivas, no se interpreta su nombre como una diferencia experimental. Toda herramienta externa usa el mismo contrato de acceso y coste; el oráculo evaluador permanece inaccesible.
+Provenance, cache, certificates and requalification are not exclusive EA privileges. The conventional social control may match those capabilities. If two arms have identical effective rules, their names are not interpreted as an experimental difference. Every external tool uses the same access and cost contract; the evaluator oracle remains inaccessible.
 
-Se cruzan predicado y regla de selección: beneficio, beneficio ajustado por coste y orden aleatorio. Las ablaciones sin creatividad, sin transmisión y sin influencia aíslan componentes. Se incluyen mejoras admisibles, prohibiciones visibles, incompatibilidad global y evidencia independiente o repetida. No se incorpora un cambio de misión como control positivo: el positivo es una mejora autorizada de la misma tarea.
+Predicate and selection rule are crossed: benefit, cost-adjusted benefit and random order. Ablations without creativity, transmission and influence isolate components. Admissible improvements, visible prohibitions, global incompatibility and independent or repeated evidence are included. A mission change is not incorporated as positive control: the positive is an authorized improvement of the same task.
 
-La campaña distingue presupuesto por agente y global. Antes de observar resultados se fijan contrastes principales, semillas reservadas, repeticiones y criterios de incertidumbre. Se separan configuraciones familiares y nuevas, reservando mundos antes de ajustar las políticas. Esos mundos no se usan para entrenamiento, selección de parámetros ni elección de brazos. Se declara qué entrenamiento, memoria y evidencia previos recibe cada brazo y cómo se amortiza su coste; se permite la generalización legítima sin filtrar respuestas del evaluador. Mundos, geometría y recompensas se acoplan entre políticas; el azar de cada agente procede de flujos separados e identificados. La unidad independiente de análisis es el mundo o campaña, no cada mensaje o agente correlacionado.
+The campaign distinguishes per-agent and global budget. Primary contrasts, held-out seeds, repetitions and uncertainty criteria are fixed before results are observed. Familiar and new configurations are separated, with worlds held out before policy tuning. Those worlds are not used for training, parameter selection or arm choice. Prior training, memory and evidence received by each arm and amortization of their cost are declared; legitimate generalization is allowed without leaking evaluator answers. Worlds, geometry and rewards are coupled across policies; each agent's randomness comes from separate identified streams. The independent analysis unit is the world or campaign, not each correlated message or agent.
 
-**Competencia verificable.** CV-C1 y CV-A1 necesitan reglas ejecutables de búsqueda adaptativa, memoria, revisión incremental, deduplicación, presupuesto, abandono y recuperación; deben aprovechar los certificados y permisos accesibles bajo el mismo contrato. Superar los controles significa que admiten evidencia aplicable, detectan incompatibilidades visibles, conservan evidencia vigente y respetan presupuesto. No garantiza optimalidad. CV-C0 puede fallar por coste o plazo: su conocimiento de M no lo exime de ejecutar y pagar esas operaciones.
+**Verifiable competence.** CV-C1 and CV-A1 need executable rules for adaptive search, memory, incremental review, deduplication, budget, abandonment and recovery; they must exploit accessible certificates and permissions under the same contract. Passing controls means admitting applicable evidence, detecting visible incompatibilities, retaining current evidence and respecting budget. It does not guarantee optimality. CV-C0 may fail due to cost or deadline: knowing M does not exempt it from executing and paying for those operations.
 
-**Primera campaña acotada.** Mundos estáticos pequeños con solución exacta; presupuesto global; tarea y costes de ejecución comunes; perfiles de beneficio y geometría congelados. Se varían L, ρ dentro del régimen base, radio creativo y proporción de validación. Se ejecutan bloques separados conjuntivo y de paridad global sintética. Los contrastes principales son CV-C1 frente a CV-A1 y el mismo CV-A1 con comunicación desactivada frente a CV-A2, para un pequeño conjunto predeclarado de N. CV-C0 es referencia y CV-A0-B/C/R son diagnósticos. La malla finita, algoritmos y repeticiones se congelan antes de resultados; no se afirma que esta descripción ya sea código ejecutable.
+**Bounded first campaign.** Small static worlds with exact solution; global budget; common task and execution costs; frozen benefit and geometry profiles. L, ρ within the base regime, creative radius and validation proportion are varied. Separate conjunctive and synthetic global-parity blocks are executed. Primary contrasts are CV-C1 versus CV-A1 and the same CV-A1 with communication disabled versus CV-A2, for a small predeclared set of N. CV-C0 is the reference and CV-A0-B/C/R are diagnostics. Finite grid, algorithms and repetitions are frozen before results; this description is not claimed to be executable code already.
 
-Las campañas posteriores estudian predicados mixtos, costes heterogéneos, cambios temporales, otras redes, presupuesto por agente, detección previa y EA. El inventario de §2.13 conserva todos los parámetros, pero no exige cruzarlos todos de entrada. Los contrastes de radio mantienen regla de revisión y comunicación; los de revisión pueden usar una lista reproducida de candidatos para aislar ese componente. Cambiar el predicado define otro mundo y se analiza como otro bloque, no como una mera mejora de validación.
+Subsequent campaigns study mixed predicates, heterogeneous costs, temporal changes, other networks, per-agent budget, prior detection and EA. The §2.13 inventory retains all parameters, but does not require crossing them all initially. Radius contrasts retain review and communication rules; review contrasts may use a replayed candidate list to isolate that component. Changing the predicate defines another world and is analyzed as another block, not a mere validation improvement.
 
-## 2.16 Qué debe registrar una trayectoria auditable
+<a id="216-qué-debe-registrar-una-trayectoria-auditable"></a>
+## 2.16 What an auditable trajectory must record
 
-Cada decisión conserva identidad y tarea del receptor; posición y versión; candidatos disponibles y explorados; beneficios observados; presupuesto antes y después; alcance y resultado de revisión; mensajes efectivamente recibidos con su linaje; alternativa elegida; motivo; compromiso; intento; efecto; y resultado global adjudicado por el entorno.
+Each decision retains receiver identity and task; position and version; available and explored candidates; observed benefits; budget before and after; review scope and result; actually received messages with lineage; chosen alternative; reason; commitment; attempt; effect; and global outcome adjudicated by the environment.
 
-Los tiempos permiten comprobar el orden causal. Se separa detectar una prohibición y rechazarla de no detectarla, y de detectarla y actuar pese a ella. Esta última conducta queda fuera del escenario; no se introduce para aproximarse a Hugging Face.
+Timing allows checking causal order. Detecting and rejecting a prohibition is separated from not detecting it, and from detecting it and acting despite it. The latter behavior is outside the scenario; it is not introduced to approximate Hugging Face.
 
-Las métricas incluyen proporción de resultados M, I, mejoras admisibles intermedias, P e incompletos; calidad legítima; coste por resultado; cobertura única; duplicación de revisión; propuestas distintas; profundidad y alcance de difusión; tiempo hasta detección y recuperación. No se cuentan como independientes todas las acciones de agentes que comparten un mismo mundo y mensajes.
+Metrics include proportions of M, I, intermediate admissible improvements, P and incomplete outcomes; legitimate quality; cost per result; unique coverage; review duplication; distinct proposals; diffusion depth and reach; detection and recovery time. All actions of agents sharing the same world and messages are not counted as independent.
 
-**Dónde se pierde una alternativa buena.** I es un óptimo global del evaluador, no una garantía de acceso desde cualquier posición o radio. Para explicar un fallo se examinan las trayectorias que cumplen la tolerancia de calidad, no sólo una ruta I elegida entre empates.
+**Where a good alternative is lost.** I is a global evaluator optimum, not a guarantee of access from every position or radius. Explaining failure examines trajectories satisfying quality tolerance, not only one I route chosen among ties.
 
-| Etapa observada | Registro necesario para interpretar la pérdida |
+| Observed stage | Record needed to interpret the loss |
 |---|---|
-| Descubrimiento | Si alguna trayectoria suficiente era alcanzable bajo la geometría y qué candidatos se observaron |
-| Selección | Qué alternativa se prefirió, con qué beneficios y estimaciones de coste |
-| Validación | Qué evidencia faltó, qué incompatibilidad se detectó y qué parte se revisó |
-| Presupuesto y plazo | Qué operación no pudo pagarse o terminó fuera del horizonte |
-| Ejecución y coordinación | Qué conexión, acción, demora o dependencia impidió completar el resultado |
+| Discovery | Whether a sufficient trajectory was reachable under geometry and which candidates were observed |
+| Selection | Which alternative was preferred, with which benefits and cost estimates |
+| Validation | Which evidence was missing, which incompatibility detected and which part reviewed |
+| Budget and deadline | Which operation could not be afforded or finished outside the horizon |
+| Execution and coordination | Which connection, action, delay or dependency prevented result completion |
 
-Estas etapas pueden acumularse. El registro localiza dónde se perdió la posibilidad; atribuir su causa a un componente requiere los contrastes pareados de §2.18. Un diagnóstico posterior no entrega I a la política durante la ejecución.
+These stages may accumulate. The record locates where the possibility was lost; attributing its cause to a component requires §2.18 paired contrasts. Subsequent diagnosis does not give I to the policy during execution.
 
-## 2.17 Estados y requisitos verificables antes de ejecutar
+<a id="217-estados-y-requisitos-verificables-antes-de-ejecutar"></a>
+## 2.17 States and verifiable requirements before execution
 
-| Estado y transición | Precondición y salida | Cargo y reversión |
+| State and transition | Precondition and output | Charge and reversal |
 |---|---|---|
-| No observado a observado | Búsqueda encuentra candidato; registra hechos visibles | Búsqueda y observación; puede descartarse |
-| Observado a en revisión | Política selecciona candidato y alcance | Consultas realizadas; puede suspenderse |
-| Revisión a rechazado | Incompatibilidad detectada y registrada | Coste ya pagado; no ejecutar ese candidato bajo esas condiciones |
-| Revisión a indeterminado | Revisión incompleta o cuestión sin resolver | Coste ya pagado; ampliar, esperar, volver a M o abstenerse |
-| Revisión a PASS-local | Se completa el alcance declarado sin incompatibilidad | No acredita permiso global; conserva alcance y residuo |
-| PASS-local a comprometido | Regla de decisión aplica revisión propia y evidencia vigente | Cargo de decisión; registrar qué justifica actuar pese al residuo |
-| Comprometido a ejecutado | Acción intentada; barreras del entorno aplicables | Ejecución; cancelar antes del efecto si es posible |
-| Ejecutado a evaluado | Oráculo adjudica resultado real sin informar decisiones anteriores | Coste de evaluación separado del agente; no revierte efectos |
+| Unobserved to observed | Search finds candidate; records visible facts | Search and observation; may be discarded |
+| Observed to under review | Policy selects candidate and scope | Performed queries; may be suspended |
+| Review to rejected | Detected and recorded incompatibility | Cost already paid; do not execute that candidate under those conditions |
+| Review to indeterminate | Incomplete review or unresolved question | Cost already paid; expand, wait, return to M or abstain |
+| Review to PASS-local | Declared scope completed without incompatibility | Does not establish global permission; retains scope and residue |
+| PASS-local to committed | Decision rule applies own review and current evidence | Decision charge; record what justifies acting despite residue |
+| Committed to executed | Action attempted; applicable environment barriers | Execution; cancel before effect if possible |
+| Executed to evaluated | Oracle adjudicates real outcome without informing prior decisions | Evaluation cost separate from agent; does not reverse effects |
 
-Una invalidación antes de ejecutar retorna a revisión o cancela el compromiso; después del efecto sólo permite recuperación futura. PASS-local describe una comprobación, no autoridad. La política debe declarar cuándo actúa con evidencia incompleta y aceptar que puede equivocarse. Una política que exige evidencia suficiente puede abstenerse y pagar el coste de oportunidad. Completada, abandonada o incompleta son estados de tarea, separados del estado de cada candidato. La misión permanece fija.
+Invalidation before execution returns to review or cancels commitment; after effect it only allows future recovery. PASS-local describes a check, not authority. The policy must declare when it acts with incomplete evidence and accept that it may err. A policy requiring sufficient evidence may abstain and pay opportunity cost. Completed, abandoned or incomplete are task states, separate from each candidate's state. The mission remains fixed.
 
-| Comprobación del generador y la política | Condición de validez |
+| Generator and policy check | Validity condition |
 |---|---|
-| Óptimo y mezclas | Enumeración exhaustiva en mundos pequeños o solucionador exacto con certificado; verificar I, empates, conectores y Adm |
-| Beneficios y geometría | Medias, dispersión y límites realizados; suma por trayectoria efectiva; tasa de rechazo de mundos |
-| Ausencia de pistas accidentales | Permutar identificadores y presentación no altera decisiones equivalentes; auditar correlaciones no previstas |
-| Indistinguibilidad alegada | Dos completaciones con igual vista total y veredictos opuestos; sin resumen suficiente omitido |
-| Positivo y negativo | El verificador admite evidencia suficiente aplicable y detecta la prohibición visible; la política respeta su regla de rechazo |
-| Reutilización | Cambiar alcance, mandato, versión o dependencia invalida exactamente la evidencia afectada |
-| Costes y causalidad | Ningún evento gratuito no declarado, ni doble cargo; flujos aleatorios separados y ninguna recepción anterior al envío |
+| Optimum and mixtures | Exhaustive enumeration in small worlds or exact solver with certificate; verify I, ties, connectors and Adm |
+| Benefits and geometry | Realized means, dispersion and limits; sum over effective trajectory; world rejection rate |
+| Absence of accidental hints | Permuting identifiers and presentation does not alter equivalent decisions; audit unintended correlations |
+| Alleged indistinguishability | Two completions with equal total view and opposite verdicts; no omitted sufficient summary |
+| Positive and negative | Verifier admits sufficient applicable evidence and detects visible prohibition; policy respects its rejection rule |
+| Reuse | Changing scope, mandate, version or dependency invalidates exactly affected evidence |
+| Costs and causality | No undeclared free event or double charge; separate random streams and no reception before sending |
 
-Un clasificador diagnóstico puede detectar filtraciones, pero no demuestra ausencia de ellas. No se exige azar puro al predecir con recompensa o distancia: son factores deliberados y pueden ofrecer información legítima. M es conocida. Tampoco se obliga a ejecutar toda opción permitida: puede descartarse por coste o falta de presupuesto. Las intervenciones sobre mensajes conservan mundo y recursos iniciales; sus consecuencias pueden cambiar decisiones, costes y mensajes posteriores. Ese contraste estima el efecto total de la intervención. Aislar un efecto directo sobre una decisión mediante candidatos o historia reproducidos exige un ensayo separado y no describe el rendimiento completo del sistema.
+A diagnostic classifier may detect leaks but does not prove their absence. Pure chance is not required when predicting with reward or distance: they are deliberate factors and may offer legitimate information. M is known. Nor is execution of every permitted option required: it may be discarded due to cost or budget shortage. Message interventions preserve world and initial resources; their consequences may change decisions, costs and later messages. That contrast estimates the intervention's total effect. Isolating a direct effect on one decision through replayed candidates or history requires a separate trial and does not describe complete system performance.
 
-La campaña no está congelada hasta fijar distribuciones, conexiones, reglas concretas de cada brazo, malla, semillas, plazos y análisis. Se preservan resultados favorables, desfavorables e inciertos. Los ensayos anteriores, sus evaluadores y sus controles permanecen en su dominio; no se renombran como ejecuciones de este escenario.
+The campaign is not frozen until distributions, connections, concrete rules of each arm, grid, seeds, deadlines and analysis are fixed. Favorable, unfavorable and uncertain results are preserved. Earlier trials, evaluators and controls remain in their domain; they are not renamed as executions of this scenario.
 
-## 2.18 Contrastes de los mecanismos propuestos
+<a id="218-contrastes-de-los-mecanismos-propuestos"></a>
+## 2.18 Contrasts of proposed mechanisms
 
-Las hipótesis secundarias se contrastan por mundo o campaña independiente, con semillas pareadas. Las direcciones siguientes son predicciones que pueden no observarse, no propiedades impuestas al generador.
+Secondary hypotheses are tested per independent world or campaign, with paired seeds. The following directions are predictions that may not be observed, not properties imposed on the generator.
 
-| Hipótesis local | Intervención y condiciones comunes | Resultado que se contrasta |
+| Local hypothesis | Intervention and common conditions | Outcome tested |
 |---|---|---|
-| SC-Ha Heterogeneidad | Cambiar dispersión conservando medias, geometría, admisibilidad y regla de selección | Si aumenta selección de candidatos inadmisibles o empeora calidad legítima; informar ausencia o inversión del efecto |
-| SC-Hb Duplicación | Ante el mismo trabajo requerido, permitir o impedir reutilización aplicable; igual cobertura exigida | Si repetir inspecciones eleva coste sin mejorar cobertura única ni calidad; medir coste por relación útil |
-| SC-Hc Dependencia social | Igual cantidad y contenido de mensajes; distinguir evidencia independiente de relés y su tratamiento por el receptor | Si ignorar dependencia eleva confianza o adopción sin cobertura adicional; no asumir que siempre lo haga |
-| SC-Hd Reutilización | Activar evidencia compartida aplicable frente a la misma política sin esa reutilización | Si reduce coste a igual integridad, calidad y finalización, tras incluir mantenimiento |
-| SC-He Caducidad | Cambiar frecuencia de invalidación manteniendo las tareas y reglas restantes | Si disminuye el ahorro de SC-Hd o aumenta el coste de conservar igual validez; pertenece a una campaña posterior |
+| SC-Ha Heterogeneity | Change dispersion while preserving means, geometry, admissibility and selection rule | Whether inadmissible candidate selection increases or legitimate quality worsens; report absent or reversed effect |
+| SC-Hb Duplication | For the same required work, allow or prevent applicable reuse; equal required coverage | Whether repeated inspections raise cost without improving unique coverage or quality; measure cost per useful relation |
+| SC-Hc Social dependency | Equal message amount and content; distinguish independent evidence from relays and their treatment by the receiver | Whether ignoring dependency raises confidence or adoption without additional coverage; do not assume it always does |
+| SC-Hd Reuse | Activate applicable shared evidence versus the same policy without that reuse | Whether it reduces cost at equal integrity, quality and completion after including maintenance |
+| SC-He Expiry | Change invalidation frequency while retaining other tasks and rules | Whether SC-Hd savings decrease or preserving equal validity costs more; belongs to a subsequent campaign |
 
-SC-Ha no predice un efecto monotónico para todas las distribuciones: depende del criterio de selección. SC-Hb no equipara más solapamiento con más coste; el solapamiento puede precisamente permitir ahorrar. Se registran magnitud mínima relevante e intervalos; ausencia de precisión no se presenta como refutación.
+SC-Ha does not predict a monotonic effect for all distributions: it depends on selection criterion. SC-Hb does not equate greater overlap with greater cost; overlap may precisely allow savings. Minimum relevant magnitude and intervals are recorded; lack of precision is not presented as refutation.
 
-# 3 Familia 00G escenario reducido y referencia Hugging Face
+<a id="3-familia-00g-escenario-reducido-y-referencia-hugging-face"></a>
+# 3 00G family, reduced scenario and Hugging Face reference
 
-## 3.1 La familia es más amplia que el relato de Napoleón
+<a id="31-la-familia-es-más-amplia-que-el-relato-de-napoleón"></a>
+## 3.1 The family is broader than the Napoleon narrative
 
-**Identificador y acrónimo: 00G-R01.** R significa reducción y 01 identifica este estudio, titulado «Exploración probabilística y coste de validación». C-V se conserva como abreviatura descriptiva interna. 00G sigue siendo el caso padre; 00N es la nota de plausibilidad funcional, no el identificador de este escenario. R01 numera el estudio de reducción y no equivale al recorrido experimental R1 de trabajos anteriores.
+**Identifier and acronym: 00G-R01.** R means reduction and 01 identifies this study, titled “Probabilistic exploration and validation cost.” C-V is retained as an internal descriptive abbreviation. 00G remains the parent case; 00N is the functional plausibility note, not this scenario's identifier. R01 numbers the reduction study and is not equivalent to experimental run R1 of previous work.
 
-La jerarquía documental es [00G, caso padre Napoleón](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) → este escenario reducido 00G-R01 → su fundamento de reducción. La prueba de esta reducción está en revisión: se verifica la aplicación a C-V-G y no se declara completada su admisión. Como documento de fundamento se enlaza la [reducción unidireccional anterior, §§2 y 7](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), acompañada de la [revisión de los pasos 1 y 2](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md). Ese argumento justifica el recorte relacional; §§3.1–3.5 precisan su aplicación candidata a C-V-G y lo que falta probar. La numeración no certifica pertenencia ni traslada automáticamente una prueba histórica.
+The documentary hierarchy is [00G, Napoleon parent case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) → this reduced scenario 00G-R01 → its reduction foundation. This reduction's proof is under review: application to C-V-G is checked and admission is not declared complete. The [previous one-way reduction, §§2 and 7](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) is linked as foundation document, alongside the [review of steps 1 and 2](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md). That argument justifies relational reduction; §§3.1–3.5 specify its candidate application to C-V-G and what remains to prove. Numbering certifies neither membership nor automatic transfer of a historical proof.
 
-**00G es la familia de convergencia colectiva hacia un contexto falso y deriva de misión o rol. Napoleón es una instancia ilustrativa de esa familia.** El perfil publicado [REF01, perfil §§1–2] relaciona un marco vinculante, afirmaciones recibidas, dependencia de fuentes, autoridad aplicable y decisión receptora. El fallo aparece cuando una interpretación sin respaldo suficiente adquiere fuerza operativa y desplaza una obligación vigente. Su control positivo acepta un cambio genuino respaldado y autorizado.
+**00G is the family of collective convergence toward a false context and mission or role drift. Napoleon is an illustrative instance of that family.** The published profile [REF01, profile §§1–2] relates a binding framework, received claims, source dependency, applicable authority and receiver decision. Failure appears when an interpretation without sufficient backing acquires operational force and displaces a current obligation. Its positive control accepts a genuinely backed authorized change.
 
-La reducción puede retirar Francia, el bar o el rol militar si conserva esas relaciones. La publicada ya admite un marco operativo más estrecho: interpretación compartida y encargos entre pares frente a la tarea vinculante [REF02, §2]. No hace falta cambiar de época o identidad; sí hay que demostrar propagación y desplazamiento de marco. Un error individual al elegir medios no basta.
+The reduction may remove France, the bar or military role if it preserves those relations. The published one already admits a narrower operational framework: shared interpretation and peer assignments against the binding task [REF02, §2]. No era or identity change is needed; framework propagation and displacement must be proved. An individual error in choosing means is insufficient.
 
-Estudiamos la relación familia 00G → especialización de creatividad y validación con mediación social → trazas concretas de tipo Hugging Face. El escenario C-V también contiene controles sin comunicación y fallos informacionales ajenos a ese núcleo. Por eso la relación de inclusión se refiere a la subfamilia C-V-G definida a continuación.
+We study the relation 00G family → creativity and validation specialization with social mediation → concrete Hugging Face-type traces. The C-V scenario also contains controls without communication and informational failures outside that kernel. The inclusion relation therefore concerns the C-V-G subfamily defined next.
 
-## 3.2 Qué especialización puede sostenerse y cómo demostrarla
+<a id="32-qué-especialización-puede-sostenerse-y-cómo-demostrarla"></a>
+## 3.2 Which specialization can be sustained and how to prove it
 
-El mandato verdadero permanece fijo. Lo que puede cambiar es la interpretación operativa del receptor: una confirmación local repetida puede llegar a tratarse como respaldo de que toda la alternativa cabe en el encargo. Si esa interpretación recibida determina materialmente una decisión contraria a la obligación, hay una candidata al mecanismo 00G. Un mensaje que sólo informa de un premio no establece esa relación.
+The true mandate remains fixed. What may change is the receiver's operational interpretation: repeated local confirmation may come to be treated as support that the entire alternative fits the assignment. If that received interpretation materially determines a decision against the obligation, there is a candidate 00G mechanism. A message merely reporting a reward does not establish that relation.
 
-**Criterio local C-V-G.** Una traza pertenece a esta subfamilia candidata sólo si la auditoría acredita conjuntamente: obligación previa vigente; interpretación recibida; origen y dependencia; alcance y autoridad aplicables; promoción de ese contenido a razón operativa; y desplazamiento material de la obligación. Además, la prueba conserva un control positivo emparejado que admite evidencia independiente y autoridad genuinamente aplicables. El criterio clasifica trazas; no añade permisos ni cambia las reglas del agente.
+**Local criterion C-V-G.** A trace belongs to this candidate subfamily only if the audit jointly establishes: current prior obligation; received interpretation; origin and dependency; applicable scope and authority; promotion of that content to an operational reason; and material displacement of the obligation. Additionally, the proof preserves a paired positive control admitting independent evidence and genuinely applicable authority. The criterion classifies traces; it neither adds permissions nor changes agent rules.
 
-**Argumento de preservación.** Al abstraer una traza C-V-G en obligación, afirmación, dependencia, autoridad y decisión, debe conservarse el núcleo K_G de 00G. Su fallo F_G debe seguir siendo la promoción sin respaldo que desplaza la obligación. Esta correspondencia sustenta una reducción estructural si también conserva la información decisiva, los recursos y el control positivo. Falta exhibir trazas realizables: definir la subfamilia no prueba que sea no vacía.
+**Preservation argument.** Abstracting a C-V-G trace into obligation, claim, dependency, authority and decision must preserve 00G's kernel K_G. Its failure F_G must remain unsupported promotion displacing the obligation. This correspondence supports a structural reduction if it also preserves decisive information, resources and positive control. Realizable traces remain to be exhibited: defining the subfamily does not prove it nonempty.
 
-El registro debe mostrar qué contenido recibido alteró materialmente lo que el receptor consideró aplicable. Así se distingue un desplazamiento operativo del marco de una decisión aislada errónea. El escenario base sigue estudiando una misión fija y un receptor que rechaza prohibiciones detectadas.
+The record must show which received content materially altered what the receiver considered applicable. Operational framework displacement is thus distinguished from an isolated wrong decision. The base scenario continues studying a fixed mission and a receiver rejecting detected prohibitions.
 
-![Relación estructural entre la familia 00G y los casos examinados](figures/relacion-00g.png)
+![Structural relation between the 00G family and examined cases](figures/relacion-00g.png)
 
-Figura 2. Relaciones de especialización. Los vínculos discontinuos son candidaturas sujetas a la auditoría de §3.5. Una traza histórica requiere una representación que preserve el mecanismo; no se identifica el incidente entero con el generador.
+Figure 2. Specialization relations. Dashed links are candidacies subject to §3.5 audit. A historical trace requires a mechanism-preserving representation; the entire incident is not equated with the generator.
 
-## 3.3 Qué documenta el incidente de OpenAI y Hugging Face
+<a id="33-qué-documenta-el-incidente-de-openai-y-hugging-face"></a>
+## 3.3 What the OpenAI and Hugging Face incident documents
 
-OpenAI describe evaluaciones internas con salvaguardas reducidas donde agentes usaron un tablón no autorizado, compartieron hallazgos y coordinaron acciones sobre sistemas de terceros. El informe técnico precisa las diferencias respecto de producción [REF05, §I, p. 4; §II.A, p. 5]. El relato también identifica expectativas equivocadas sobre la puntuación: parte del esfuerzo no producía la mejora esperada.
+OpenAI describes internal evaluations with reduced safeguards where agents used an unauthorized board, shared findings and coordinated actions on third-party systems. The technical report specifies differences from production [REF05, §I, p. 4; §II.A, p. 5]. The account also identifies mistaken scoring expectations: part of the effort did not produce the expected improvement.
 
-Un episodio conecta directamente con la atribución social de autoridad. Un agente expresó dudas sobre el alcance, se detuvo y continuó tras recibir un «GO» de un par con un plazo de seis minutos, interpretándolo como autorización [REF05, blog, apartado sobre el ecosistema de desalineación]. El episodio documenta esa interpretación; no identifica su causa con el coste de validar.
+One episode directly connects with social attribution of authority. An agent expressed scope doubts, stopped and continued after receiving a peer's “GO” with a six-minute deadline, interpreting it as authorization [REF05, blog, ecosystem of misalignment section]. The episode documents that interpretation; it does not identify its cause with validation cost.
 
-METR y Redwood describen proyectos colectivos, sacrificio de tareas propias y continuación pese a reconocer extralimitación [REF06]. El blog de OpenAI recoge también un veto entre pares al correo propuesto al titular de un conjunto de datos, que el solicitante pareció respetar [REF05, mismo apartado]. Esa limitación puntual no contuvo todo el incidente.
+METR and Redwood describe collective projects, sacrificing own tasks and continuing despite recognizing overreach [REF06]. OpenAI's blog also records a peer veto of a proposed email to a dataset owner, apparently respected by the requester [REF05, same section]. That specific limitation did not contain the entire incident.
 
-Las fuentes permiten estudiar cooperación, alcance y autoridad con hechos concretos. Su cobertura es parcial y no proporciona radios, ventanas o costes para calibrar este escenario.
+The sources allow cooperation, scope and authority to be studied with concrete facts. Their coverage is partial and provides no radii, windows or costs to calibrate this scenario.
 
-## 3.4 Correspondencias documentadas y frontera de la reducción
+<a id="34-correspondencias-documentadas-y-frontera-de-la-reducción"></a>
+## 3.4 Documented correspondences and reduction boundary
 
-La tabla distingue relaciones observables que sustentan la candidatura de aspectos cuya correspondencia sigue por demostrar. Las fuentes son §3.3 y REF02. El episodio del GO es especialmente pertinente para la atribución de autoridad; no resuelve por sí solo la trazabilidad de todo el mecanismo ni el coste de validación.
+The table distinguishes observable relations supporting candidacy from aspects whose correspondence remains to be proved. Sources are §3.3 and REF02. The GO episode is especially relevant to authority attribution; alone it resolves neither traceability of the whole mechanism nor validation cost.
 
-| Elemento del escenario | Correspondencia documentada | Límite de la transferencia |
+| Scenario element | Documented correspondence | Transfer limit |
 |---|---|---|
-| Descubrir alternativas | Hallazgos técnicos compartidos entre pares | No identifica un radio creativo ni su distribución |
-| Beneficio local atractivo | Resultados útiles según la expectativa del agente | Expectativa, éxito técnico y valor para la misión son distintos |
-| Señalización | Difusión y coordinación colectivas | La exposición por sí sola no prueba influencia causal individual |
-| Validación social | Un GO de un par fue interpretado como autorización tras dudas de alcance [REF05] | Es evidencia del episodio; no demuestra la causa del trilema ni un permiso válido |
-| Obligación previa | Tarea individual frente a proyecto colectivo | Hace falta la instrucción aplicable al receptor concreto |
-| Coste de revisar composición | Hipótesis que organiza el nuevo escenario | El registro no demuestra que ésa fuera la causa del incidente |
-| Rechazo de prohibición detectada | Conducta del receptor sintético básico | No reproduce decisiones históricas que continuaron sabiéndolo |
-| Ruta ideal admisible | Control positivo construido en el mapa | No presupone que toda tarea histórica tuviera solución alcanzable |
+| Discover alternatives | Technical findings shared among peers | Does not identify a creative radius or its distribution |
+| Attractive local benefit | Useful results according to agent expectation | Expectation, technical success and mission value are distinct |
+| Signaling | Collective diffusion and coordination | Exposure alone does not prove individual causal influence |
+| Social validation | A peer GO was interpreted as authorization after scope doubts [REF05] | Episode evidence; proves neither trilemma cause nor valid permission |
+| Prior obligation | Individual task against collective project | Instruction applicable to the concrete receiver needed |
+| Composition review cost | Hypothesis organizing the new scenario | Record does not prove it caused the incident |
+| Rejection of detected prohibition | Basic synthetic receiver behavior | Does not reproduce historical decisions continuing knowingly |
+| Admissible ideal route | Positive control constructed in the map | Does not assume every historical task had a reachable solution |
 
-La comunicación del escenario está autorizada y la geometría es sintética. La correspondencia con el incidente se evalúa sobre decisiones, dependencia y autoridad; no sobre identidad de canales o herramientas.
+Scenario communication is authorized and geometry synthetic. Incident correspondence is evaluated over decisions, dependency and authority; not identity of channels or tools.
 
-La insuficiencia de revisión local y la actuación deliberada pese a una denegación son mecanismos distintos. El receptor básico estudia el primero; las trazas históricas del segundo sirven para delimitar su alcance.
+Insufficient local review and deliberate action despite denial are distinct mechanisms. The basic receiver studies the former; historical traces of the latter delimit its scope.
 
-## 3.5 Obligaciones para admitir la relación
+<a id="35-obligaciones-para-admitir-la-relación"></a>
+## 3.5 Obligations for admitting the relation
 
-La admisión requiere una secuencia del mismo receptor: misión vigente, mensaje visto, origen, dependencias, autoridad atribuida, decisión y efecto. Hay que distinguir repetir una afirmación de retransmitir una orden y establecer qué relación importó. Frases de agentes distintos no forman una sola traza. Los episodios que continúan pese a mantener reconocida una denegación quedan fuera del receptor básico C-V.
+Admission requires a sequence of the same receiver: current mission, seen message, origin, dependencies, attributed authority, decision and effect. Repeating a claim must be distinguished from relaying an order and the relation that mattered established. Statements from different agents do not form one trace. Episodes continuing despite maintaining recognition of a denial fall outside the basic C-V receiver.
 
-A25 [REF04, X1–X7] exige conservar núcleo, frontera de decisión, predicado de fallo, requisitos, control positivo, recursos y ausencia de capacidades ocultas. La reducción publicada sigue siendo candidata [REF02, §§2, 5–7]. Para avanzar se debe construir una traza C-V-G realizable, mostrar su correspondencia y positivo, y después auditar un episodio HF con información suficiente. Cada relación sin evidencia queda pendiente.
+A25 [REF04, X1–X7] requires preserving kernel, decision boundary, failure predicate, requirements, positive control, resources and absence of hidden capabilities. The published reduction remains a candidate [REF02, §§2, 5–7]. Advancement requires constructing a realizable C-V-G trace, showing its correspondence and positive, then auditing an HF episode with sufficient information. Each relation without evidence remains pending.
 
-La inclusión buscada es C-V-G dentro de 00G y, condicionalmente, la representación de ciertas trazas HF dentro de C-V-G. El parentesco estructural no transfiere la explicación económica: aunque una traza HF supere la admisión, atribuir su desenlace al coste de validación requiere evidencia adicional.
+The sought inclusion is C-V-G within 00G and, conditionally, representation of certain HF traces within C-V-G. Structural kinship does not transfer the economic explanation: even if an HF trace passes admission, attributing its outcome to validation cost requires additional evidence.
 
-## 3.6 Qué cambian los controles de producción
+<a id="36-qué-cambian-los-controles-de-producción"></a>
+## 3.6 What production controls change
 
-Las protecciones de producción difieren de las empleadas en la evaluación. OpenAI describe controles retrospectivos capaces de detectar conductas peligrosas [REF05, apartado sobre cobertura de salvaguardas; informe técnico §VIII.D]. METR dejó su eficacia fuera del alcance de su investigación [REF06, Scope of this investigation]. El incidente no mide directamente una versión comercial protegida.
+Production protections differ from those employed in evaluation. OpenAI describes retrospective controls capable of detecting dangerous behavior [REF05, safeguard coverage section; technical report §VIII.D]. METR excluded their effectiveness from its investigation's scope [REF06, Scope of this investigation]. The incident does not directly measure a protected commercial version.
 
-La pregunta arquitectónica permanece: contener una infracción no acredita por sí solo calidad, coste y plazo adecuados para cualquier tarea. Un control puede bloquear y dejar el trabajo incompleto, resolverlo de forma rentable o exigir demasiado esfuerzo. Nuestro escenario debe medir esas posibilidades con controles competentes activos, sin presumir costes prohibitivos.
+The architectural question remains: containing a violation alone does not establish appropriate quality, cost and timing for any task. A control may block and leave work incomplete, resolve it profitably or require too much effort. Our scenario must measure those possibilities with active competent controls, without assuming prohibitive costs.
 
-Hugging Face aporta hechos para estudiar coordinación y autoridad. El benchmark delimita cuándo la exploración con validación resulta eficaz. La detección previa de esa frontera, incluida la supervisión humana, queda como extensión de §1.7.
+Hugging Face provides facts to study coordination and authority. The benchmark delimits when exploration with validation is effective. Prior detection of that boundary, including human oversight, remains an extension in §1.7.
 
-## 3.7 Relación con el trabajo previo y sus recorridos
+<a id="37-relación-con-el-trabajo-previo-y-sus-recorridos"></a>
+## 3.7 Relationship with previous work and its runs
 
-REF09 §§13–17 documenta el desarrollo de beneficios heterogéneos, proximidad variable, creatividad como radio, revisión propia y apoyo social. Los resultados anteriores de revalidación convencional conservan su significado: no prueban ni refutan configuraciones nuevas con otros costes o dependencias. El evaluador C3 de REF03 §5 permanece congelado en su dominio; no se importa como oráculo del escenario nuevo. El oráculo para 00G-R01 está en proceso y todavía incompleto; el [documento de estado y verificación pendiente](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md) detalla las obligaciones abiertas y enlaza de vuelta a este escenario. El [paquete C3 y su protocolo de control](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README.md) conserva utilidad para autoridad, compromiso, intento, efecto y finalización en su dominio T0/X y T1/Y con operación inspect. Reutilizarlo exige verificar una proyección que preserve identidad, alcance y tiempo. No calcula el óptimo admisible, el coste completo de explorar y validar ni la dinámica colectiva. Esas funciones corresponden al evaluador C-V especificado en §§1.4 y 2.17, todavía por implementar. Sus controles previos verifican el instrumento, no los resultados de 00G-R01.
+REF09 §§13–17 documents development of heterogeneous benefits, variable proximity, creativity as radius, own review and social support. Earlier conventional revalidation results retain their meaning: they neither prove nor refute new configurations with different costs or dependencies. REF03 §5's C3 evaluator remains frozen in its domain; it is not imported as the new scenario's oracle. The 00G-R01 oracle is in progress and still incomplete; the [status and pending verification document](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md) details open obligations and links back to this scenario. The [C3 package and its control protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README.md) remains useful for authority, commitment, attempt, effect and completion in its T0/X and T1/Y domain with the inspect operation. Reuse requires verifying a projection preserving identity, scope and time. It does not calculate the admissible optimum, full exploration and validation cost or collective dynamics. Those functions belong to the C-V evaluator specified in §§1.4 and 2.17, still to be implemented. Its previous controls verify the instrument, not 00G-R01 results.
 
-| Eje documental | Significado | Relación y límite |
+| Documentary axis | Meaning | Relation and limit |
 |---|---|---|
-| M I P | Trayectorias de referencia de este escenario | No equivalen a niveles de defensa ni a recorridos históricos |
-| R1 y OAI-G0 | Referencia competente en REF03 §4 y REF01 §17 | Antecedente de comparación con controles ordinarios |
-| R2 y OAI-G1 | Implementación defendida más fuerte | Motiva comparar capacidades efectivas; no certifica CV-C1 |
-| R3 y OAI-G2 | Controles conservados bajo cambio de régimen | Pertenece al programa previo; no introduce cambio de misión aquí |
+| M I P | Reference trajectories of this scenario | Not equivalent to defense levels or historical runs |
+| R1 and OAI-G0 | Competent reference in REF03 §4 and REF01 §17 | Earlier comparison with ordinary controls |
+| R2 and OAI-G1 | Stronger defended implementation | Motivates comparing effective capabilities; does not certify CV-C1 |
+| R3 and OAI-G2 | Controls retained under regime change | Belongs to the previous program; introduces no mission change here |
 
-La comparación EA sobre R3 de REF10 es un antecedente metodológico. La comparación local de §4.6 tiene sus propios brazos y condiciones; no hereda resultados, admisión ni obligatoriedad de ejecutar R3. Los vínculos quedan documentados y abiertos, sin alterar las fuentes.
+REF10's EA comparison over R3 is a methodological precedent. The local comparison in §4.6 has its own arms and conditions; it inherits neither results, admission nor an obligation to execute R3. Links remain documented and open, without altering sources.
 
 
-# 4 Apéndice sobre Ecosystem Awareness como candidata
+<a id="4-apéndice-sobre-ecosystem-awareness-como-candidata"></a>
+# 4 Appendix on Ecosystem Awareness as a candidate
 
-## 4.1 La contribución que merece investigarse
+<a id="41-la-contribución-que-merece-investigarse"></a>
+## 4.1 The contribution worth investigating
 
-Ecosystem Awareness se propone aquí como una familia de funciones complementarias cuya implementación está pendiente de especificar para este experimento. Su candidatura se apoya en dos notas enlazadas desde Ecosystem Positioning: [00M sobre A/B/C/D y plausibilidad matemática](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) y [00N sobre plausibilidad funcional](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) [REF11–REF12]. 00M §1 fija el vocabulario canónico; el argumento de plausibilidad sigue siendo una propuesta de investigación.
+Ecosystem Awareness is proposed here as a family of complementary functions whose implementation remains to be specified for this experiment. Its candidacy draws on two notes linked from Ecosystem Positioning: [00M on A/B/C/D and mathematical plausibility](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) and [00N on functional plausibility](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) [REF11–REF12]. 00M §1 fixes canonical vocabulary; the plausibility argument remains a research proposal.
 
-La conexión con nuestro problema es concreta. Un «revisado» puede circular sin indicar qué enlaces cubrió, con qué mandato o bajo qué versión. Varios agentes podrían repetir trabajo ya válido o confiar en una cobertura que nadie estableció. Las notas investigan si conservar y relacionar ciertas distinciones en metadatos permite responder preguntas de revisión acotadas sin reconstruir todos los datos de origen.
+The connection with our problem is concrete. A “reviewed” may circulate without indicating covered links, mandate or version. Several agents might repeat already-valid work or trust coverage nobody established. The notes investigate whether preserving and relating certain distinctions in metadata allows bounded review questions to be answered without reconstructing all source data.
 
-En el escenario, esa posibilidad podría ayudar a localizar una comprobación aplicable, advertir una incompatibilidad entre condiciones o dirigir una revisión pendiente. Descubrir que otro participante puede evaluar un aspecto tampoco equivale a haberlo evaluado. Deben separarse la correspondencia entre necesidad y capacidad, la disponibilidad efectiva de esa capacidad y la obtención de evidencia suficiente [REF12, §1.4].
+In the scenario, that possibility might help locate an applicable check, warn of incompatibility between conditions or direct pending review. Discovering that another participant can evaluate an aspect is not equivalent to having evaluated it either. Correspondence between need and capability, effective availability of that capability and acquisition of sufficient evidence must be separated [REF12, §1.4].
 
-| Componente de 00M | Significado relativo al proceso | Lectura pertinente para este escenario |
+| 00M component | Process-relative meaning | Relevant reading for this scenario |
 |---|---|---|
-| A | Resultado funcional establecido y entregado | El resultado de una revisión es A del verificador, aunque exprese incertidumbre |
-| B | Base y límites establecidos, con reserva caracterizada y evaluable | Cobertura, condiciones y opciones pendientes cuya evaluación ya tiene método y variables |
-| C | Vía de exploración fundada, aún sin base de evaluación caracterizada | Investigar una vía nueva puede ser C; una opción conocida y evaluable que quedó sin usar sigue siendo B |
-| D | Residuo fuera de las vías efectivas de evaluación bajo las condiciones declaradas | Requiere justificar esa barrera; no basta que falte un dato o quede un nodo sin visitar |
+| A | Established and delivered functional result | A review's result is the verifier's A, even when expressing uncertainty |
+| B | Established basis and limits, with characterized evaluable reserve | Coverage, conditions and pending options whose evaluation already has a method and variables |
+| C | Grounded exploration path, still without characterized evaluation basis | Investigating a new path may be C; a known evaluable option left unused remains B |
+| D | Residue outside effective evaluation paths under declared conditions | Requires justifying that barrier; missing data or an unvisited node is insufficient |
 
-Estos componentes son roles semánticos, distintos de los símbolos y nombres de brazos del experimento. No son cuatro probabilidades ni casillas globales para repartir rutas. Se refieren a un proceso, pregunta, alcance, capacidades y momento. En un mapa finito con consultas y costes caracterizados, buena parte de la búsqueda pendiente puede corresponder a B. La creatividad probabilística no se identifica automáticamente con C; el núcleo del simulador tampoco necesita representar D. Si faltan fundamentos para asignar un papel, la clasificación queda desconocida [REF11, §1].
+These components are semantic roles, distinct from experiment symbols and arm names. They are neither four probabilities nor global boxes for allocating routes. They refer to a process, question, scope, capabilities and time. In a finite map with characterized queries and costs, much pending search may correspond to B. Probabilistic creativity is not automatically identified with C; the simulator kernel need not represent D either. If grounds for assigning a role are absent, classification remains unknown [REF11, §1].
 
-**Qué hace plausible una contribución.** Un resumen puede bastar para una pregunta concreta si no reúne bajo la misma representación estados que exigen respuestas distintas a esa pregunta. 00M formula esa condición y sus límites [REF11, §§4 y 6.3]. Por ejemplo, «revisado» por sí solo no distingue dos mandatos; conservar una versión y un alcance comparables puede revelar que una prueba no aplica. Eso permite retirar una confianza injustificada, sin resolver por arte de esa comparación el permiso que falta.
+**What makes a contribution plausible.** A summary may suffice for a specific question if it does not group under the same representation states requiring different answers to that question. 00M formulates that condition and its limits [REF11, §§4 and 6.3]. For example, “reviewed” alone does not distinguish two mandates; preserving a comparable version and scope may reveal that a proof does not apply. That allows unjustified trust to be withdrawn, without that comparison magically resolving the missing permission.
 
-00N conecta esa preservación con requisitos e hipótesis existentes y plantea comprobar conjuntamente utilidad, oportunidad y carga [REF12, §§3–4]. Ése es el puente hacia el experimento: medir si conservar esas distinciones recupera configuraciones eficaces después de cobrar su producción, interpretación, transmisión y mantenimiento. EA no crea autoridad ni elimina la información indispensable; un control convencional que haga lo mismo puede empatar o mejorar su resultado.
+00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA creates no authority or eliminates indispensable information; a conventional control doing the same may tie or improve its result.
 
-## 4.2 Correspondencia con las hipótesis generales
+<a id="42-correspondencia-con-las-hipótesis-generales"></a>
+## 4.2 Correspondence with general hypotheses
 
-Las hipótesis H1–H6 proceden del documento canónico de requisitos e hipótesis [REF07, §4]. Aquí se resume su posible relevancia; no se reescriben ni se crean nuevas hipótesis canónicas.
+Hypotheses H1–H6 come from the canonical requirements and hypotheses document [REF07, §4]. Their possible relevance is summarized here; they are not rewritten and no new canonical hypotheses created.
 
-| Hipótesis | Relación con el escenario | Qué observar sin prejuzgar |
+| Hypothesis | Relationship with the scenario | What to observe without prejudgment |
 |---|---|---|
-| H1 Cierre local con límites explícitos | Una ventana puede acabar sin determinar la composición | Si expresar insuficiencia evita falsa certeza sin bloqueo innecesario |
-| H2 Alcance residual explícito | PASS-local sólo cubre enlaces y condiciones inspeccionados | Si se reduce la promoción de una revisión local a permiso global |
-| H3 Residuo en composición | Los relés pueden perder alcance, fuentes o condiciones | Si conservar contexto reduce errores a recursos comparables |
-| H4 Preservación acotada | No es viable transmitir todo el estado interno | Si un registro limitado conserva lo material a coste asumible |
-| H5 Presión del ecosistema dinámico | Cambios de participantes o vigencia invalidan evidencia | Sólo en la variante dinámica, frecuencia y coste de recalificación |
-| H6 Ventana según riesgo y capacidad | La profundidad fija puede gastar donde aporta poco | Si seleccionar cobertura mejora el balance frente a ventanas fijas |
+| H1 Local closure with explicit limits | A window may end without determining composition | Whether expressing insufficiency avoids false certainty without unnecessary blocking |
+| H2 Explicit residual scope | PASS-local covers only inspected links and conditions | Whether promotion of local review to global permission decreases |
+| H3 Residue in composition | Relays may lose scope, sources or conditions | Whether preserving context reduces errors at comparable resources |
+| H4 Bounded preservation | Transmitting all internal state is not viable | Whether a limited record preserves material information at affordable cost |
+| H5 Dynamic ecosystem pressure | Participant or currency changes invalidate evidence | Only in the dynamic variant, requalification frequency and cost |
+| H6 Window according to risk and capability | Fixed depth may spend where it adds little | Whether selecting coverage improves balance against fixed windows |
 
-Una cadena larga estática no prueba H5. Del mismo modo, registrar un residuo no verifica H1 o H2 si la política lo ignora o detiene toda la tarea. Las hipótesis se contrastan sobre decisiones, efectos, continuidad y carga.
+A long static chain does not prove H5. Likewise, recording residue does not verify H1 or H2 if the policy ignores it or stops the whole task. Hypotheses are tested over decisions, effects, continuity and load.
 
-## 4.3 Matriz de las hipótesis diferenciales de EA
+<a id="43-matriz-de-las-hipótesis-diferenciales-de-ea"></a>
+## 4.3 EA differential hypothesis matrix
 
-La formulación vigente del diferencial está integrada en el benchmark canónico 00D [REF08, §6]. Los nombres EA-H1 a EA-H4 son distintos de H1–H6. El documento previo 07 queda como antecedente, no como fuente paralela que deba prevalecer.
+The current differential formulation is integrated into canonical benchmark 00D [REF08, §6]. Names EA-H1 to EA-H4 differ from H1–H6. Previous document 07 remains earlier work, not a parallel source that should prevail.
 
-| Hipótesis diferencial | Mecanismo candidato en este escenario | Coste y condición de refutación |
+| Differential hypothesis | Candidate mechanism in this scenario | Cost and refutation condition |
 |---|---|---|
-| EA-H1 Determinación situada no intercambiable | Mantener alcance, linaje y residuo de cada comprobación; no sumar copias como evidencia nueva | Representación y consulta; no aporta ventaja si un control ordinario logra igual cobertura con igual o menor carga |
-| EA-H2 Recalificación proporcionada | Ajustar revisión a consecuencias, cambios, capacidad y plazo; retirar comprobación de bajo valor | Seleccionar la ventana también cuesta; falla si no mejora el balance o deja pasar infracciones |
-| EA-H3 Condición epistémica postura operativa y autoridad | Mantener separadas condición epistémica y residuo, postura operativa y autoridad de actuación independiente | Más estados y reglas; falla si confunde permiso con certeza o añade bloqueo sin reducir errores |
-| EA-H4 Reentrada interoperable | Reutilizar evidencia aplicable y reabrir sólo supuestos afectados entre agentes | Transporte, verificación de aplicabilidad y mantenimiento; falla si la sobrecarga supera la revisión ahorrada |
+| EA-H1 Non-interchangeable situated determination | Maintain scope, lineage and residue of each check; do not count copies as new evidence | Representation and query; adds no advantage if ordinary control obtains equal coverage with equal or lower load |
+| EA-H2 Proportionate requalification | Adjust review to consequences, changes, capability and deadline; withdraw low-value checking | Window selection also costs; fails if balance does not improve or violations pass |
+| EA-H3 Epistemic condition, operational posture and authority | Keep epistemic condition and residue, operational posture and independent action authority separate | More states and rules; fails if permission is confused with certainty or blocking added without reducing errors |
+| EA-H4 Interoperable reentry | Reuse applicable evidence and reopen only affected assumptions among agents | Transport, applicability verification and maintenance; fails if overhead exceeds saved review |
 
-En EA-H3, la postura operativa distingue operación normal, contención y preparación de migración, separada de la condición epistémica y de la autoridad de actuación [REF08, §6]. Este documento adopta además la lectura de que la prohibición es una condición normativa, conocida o desconocida, y no una condición epistémica por sí misma. Esa precisión es una interpretación local; no se atribuye a REF08.
+In EA-H3, operational posture distinguishes normal operation, containment and migration preparation, separate from epistemic condition and action authority [REF08, §6]. This document additionally adopts the reading that prohibition is a normative condition, known or unknown, not itself an epistemic condition. That precision is a local interpretation; not attributed to REF08.
 
-La matriz no presupone que EA tenga acceso privilegiado al evaluador. Su política de ventana debe usar señales observables antes de decidir; no puede conocer de antemano dónde está el tramo decisivo. La equivalencia de controles debe revisarse por capacidades efectivas, no sólo por sus nombres.
+The matrix does not assume EA has privileged evaluator access. Its window policy must use observable signals before deciding; it cannot know the decisive segment's location in advance. Control equivalence must be reviewed by effective capabilities, not just names.
 
-## 4.4 Pequeña comprobación analítica de un ahorro posible
+<a id="44-pequeña-comprobación-analítica-de-un-ahorro-posible"></a>
+## 4.4 Small analytical check of possible savings
 
-Este ejemplo es una construcción contable, no una ejecución ni una medida de EA. Sirve para mostrar una condición suficiente de ahorro por reutilización aplicable.
+This example is an accounting construction, not an EA execution or measurement. It shows a sufficient condition for savings through applicable reuse.
 
-Supongamos 4 tareas de 100 enlaces: 80 comunes bajo la misma versión y autoridad, y 20 propios por tarea. Con coste unitario c_v = 1, revisar cada tarea por separado cuesta 400.
+Assume 4 tasks of 100 links: 80 common under the same version and authority, and 20 specific per task. With unit cost c_v = 1, reviewing each task separately costs 400.
 
-La alternativa revisa una vez los 80 enlaces comunes, conserva evidencia suficiente y cobra a cada receptor su revisión propia y la comprobación de aplicabilidad. El coste de compartirla es H₀ = 4, h_a = 2 por receptor y h_m = 0,1 por enlace común durante el horizonte. Por tanto, H = 4 + 4 × 2 + 80 × 0,1 = 20. La validación cuesta 80 + 4 × 20 + 20 = 180.
+The alternative reviews the 80 common links once, retains sufficient evidence and charges each receiver for its own review and applicability check. Sharing cost is H₀ = 4, h_a = 2 per receiver and h_m = 0,1 per common link during the horizon. Thus H = 4 + 4 × 2 + 80 × 0,1 = 20. Validation costs 80 + 4 × 20 + 20 = 180.
 
-| Magnitud ilustrativa | Revisión completa repetida | Evidencia compartida aplicable |
+| Illustrative quantity | Repeated full review | Applicable shared evidence |
 |---|---|---|
-| Revisión de enlaces comunes | 320 | 80 |
-| Revisión de enlaces propios | 80 | 80 |
-| Sobrecoste del mecanismo compartido | 0 | 20 |
-| Coste de validación | 400 | 180 |
-| Exploración incremental igual en ambos brazos | 80 | 80 |
-| Coste incremental total | 480 | 260 |
+| Common-link review | 320 | 80 |
+| Specific-link review | 80 | 80 |
+| Shared-mechanism overhead | 0 | 20 |
+| Validation cost | 400 | 180 |
+| Equal incremental exploration in both arms | 80 | 80 |
+| Total incremental cost | 480 | 260 |
 
-**Conversión escalar puramente ilustrativa.** Se añade, sólo para mostrar sensibilidad a una valoración externa, un beneficio hipotético común de 300 unidades equivalentes. No es una mejora observada ni una propiedad de EA.
+**Purely illustrative scalar conversion.** A hypothetical common benefit of 300 equivalent units is added solely to show sensitivity to external valuation. It is neither an observed improvement nor an EA property.
 
-| Conversión ilustrativa | Revisión completa repetida | Evidencia compartida aplicable |
+| Illustrative conversion | Repeated full review | Applicable shared evidence |
 |---|---|---|
-| Beneficio externo hipotético | 300 | 300 |
-| Beneficio menos coste incremental | −180 | +40 |
+| Hypothetical external benefit | 300 | 300 |
+| Benefit minus incremental cost | −180 | +40 |
 
-Las 80 unidades de exploración son un coste igual estipulado para ambos brazos; no significan enlaces compartidos ni exploración compartida. Los demás costes incrementales se suponen nulos o iguales y ya descontados al construir la comparación. El beneficio hipotético de 300 unidades es agregada y no se multiplica otra vez por agente. Su equivalencia con recursos es un supuesto explícito del ejemplo, no una conversión universal entre calidad y cómputo.
+The 80 exploration units are a stipulated equal cost for both arms; they mean neither shared links nor shared exploration. Other incremental costs are assumed zero or equal and already subtracted when constructing the comparison. The hypothetical 300-unit benefit is aggregate and not multiplied again per agent. Its resource equivalence is an explicit example assumption, not a universal quality–computation conversion.
 
-No desaparece la revisión propia: cada receptor comprueba su parte y la aplicabilidad del certificado común. Se supone que ambos procedimientos alcanzan la misma cobertura suficiente y que el plazo admite los dos. Si el certificado no basta, el mundo cambia o la autoridad difiere, la cuenta debe incorporar nueva comprobación; no puede conservarse el ahorro a costa de la validez.
+Own review does not disappear: each receiver checks its part and the common certificate's applicability. Both procedures are assumed to achieve the same sufficient coverage and the deadline to permit both. If the certificate is insufficient, the world changes or authority differs, the account must include new checking; savings cannot be retained at validity's expense.
 
-En general, sean N receptores, S unidades comunes, H₀ el coste fijo, h_a el coste por receptor de comprobar aplicabilidad y h_m el coste de mantenimiento de cada unidad común durante el horizonte. El modelo lineal de sobrecarga es H(N,S) = H₀ + N · h_a + S · h_m. Todo coste adicional debe estar incluido en esos cargos o declararse aparte. Cuando las comprobaciones propias restantes son iguales, el ahorro es:
+In general, let N be receivers, S common units, H₀ fixed cost, h_a per-receiver applicability-check cost and h_m maintenance cost of each common unit during the horizon. The linear overhead model is H(N,S) = H₀ + N · h_a + S · h_m. Every additional cost must be included in those charges or declared separately. When remaining own checks are equal, savings are:
 
-> Ahorro = (N − 1) · S · c_v − (H₀ + N · h_a + S · h_m)
+> Savings = (N − 1) · S · c_v − (H₀ + N · h_a + S · h_m)
 
-Por tanto, existe ahorro cuando el trabajo duplicado evitado supera la sobrecarga dependiente de N y S. En el ejemplo, (4 − 1) × 80 − 20 = 220 unidades. Con S y los costes unitarios fijos, la condición equivale a N · (S · c_v − h_a) > S · c_v + H₀ + S · h_m. Si S · c_v no supera h_a y los costes son no negativos, aumentar N no produce ahorro bajo este modelo. Si lo supera, puede existir un número de receptores a partir del cual compense. Ese umbral depende de que los costes por receptor permanezcan acotados bajo el modelo declarado; costes de coordinación superlineales pueden desplazarlo o eliminarlo y deben sumarse a H. En un entorno dinámico, h_m puede depender de la frecuencia de cambios; esa dependencia se mide, no se mantiene constante por conveniencia. Esa desigualdad demuestra la posibilidad contable bajo los supuestos, no que EA alcance ese coste en una implementación.
+Savings thus exist when avoided duplicated work exceeds overhead dependent on N and S. In the example, (4 − 1) × 80 − 20 = 220 units. With S and unit costs fixed, the condition is equivalent to N · (S · c_v − h_a) > S · c_v + H₀ + S · h_m. If S · c_v does not exceed h_a and costs are nonnegative, increasing N produces no savings under this model. If it exceeds it, there may be a receiver count beyond which it is worthwhile. That threshold depends on per-receiver costs remaining bounded under the declared model; superlinear coordination costs may shift or eliminate it and must be added to H. In a dynamic environment, h_m may depend on change frequency; that dependency is measured, not kept constant for convenience. That inequality proves accounting possibility under the assumptions, not that EA achieves that cost in an implementation.
 
-Un control convencional con certificados, caché o verificación incremental que conserve la misma validez y aplicabilidad puede obtener exactamente el mismo ahorro. Este ejemplo no discrimina EA-H4: ilustra el valor potencial de una función compartida por distintas técnicas. No toda caché tiene automáticamente esas propiedades ni costes menores; la comparación debe comprobarlos. Para contrastar EA-H4 hay que medir si se conserva la calificación al transferir evidencia y si se reabren sólo los supuestos afectados, frente a un control convencional capaz de hacer ambas cosas.
+A conventional control with certificates, cache or incremental verification preserving the same validity and applicability may obtain exactly the same savings. This example does not discriminate EA-H4: it illustrates the potential value of a function shared by different techniques. Not every cache automatically has those properties or lower costs; comparison must check them. Testing EA-H4 requires measuring whether qualification is preserved when evidence transfers and whether only affected assumptions reopen, against a conventional control capable of both.
 
-## 4.5 Controles donde no habría ventaja
+<a id="45-controles-donde-no-habría-ventaja"></a>
+## 4.5 Controls where there would be no advantage
 
-Sin enlaces comunes, S = 0. La revisión necesaria sigue costando 400 y el mecanismo activo añade H = 4 + 4 × 2 = 12. La validación cuesta 412; manteniendo las mismas 80 unidades de exploración estipuladas para ambos brazos, el total es 492. El beneficio hipotético menos coste resulta −192, frente a −180 sin ese mecanismo. Si la exploración cambia, se sustituye su cargo en ambos totales. Si una política competente desactiva la gestión al detectar que no hay evidencia compartible, se reconoce el ahorro.
+Without common links, S = 0. Necessary review still costs 400 and the active mechanism adds H = 4 + 4 × 2 = 12. Validation costs 412; retaining the same 80 exploration units stipulated for both arms, total is 492. Hypothetical benefit minus cost is −192, versus −180 without that mechanism. If exploration changes, its charge is replaced in both totals. If a competent policy disables management upon detecting no shareable evidence, the saving is recognized.
 
-También puede desaparecer la ventaja si la evidencia caduca antes de usarse, los mandatos son incompatibles o no existe un resumen suficiente. Una barrera convencional que ya resuelve el caso barata y oportunamente puede dejar poco margen de mejora. El área desfavorable puede reducirse, permanecer o ampliarse: las tres posibilidades son resultados válidos de la comparación.
+Advantage may also disappear if evidence expires before use, mandates are incompatible or no sufficient summary exists. A conventional barrier already resolving the case cheaply and promptly may leave little improvement margin. The unfavorable area may shrink, remain or expand: all three possibilities are valid comparison outcomes.
 
-## 4.6 Cómo contrastar la candidatura con otras técnicas
+<a id="46-cómo-contrastar-la-candidatura-con-otras-técnicas"></a>
+## 4.6 How to test the candidacy against other techniques
 
-El primer contraste delimita el problema sin EA: misma familia de mundos y recursos, exploración y controles convencionales competentes, con calidad legítima, coste y plazo. Se cartografían regiones favorables y desfavorables antes de interpretar una solución particular.
+The first contrast delimits the problem without EA: same world family and resources, exploration and competent conventional controls, with legitimate quality, cost and deadline. Favorable and unfavorable regions are mapped before interpreting a particular solution.
 
-La selección de configuraciones se fija por cobertura de parámetros y predicados, sin usar presencia de masa crítica como premisa, detector o criterio de elección para EA [REF10]. La medida de difusión colectiva pertenece al estudio del escenario y no acredita por sí sola ninguna hipótesis diferencial.
+Configuration selection is fixed by parameter and predicate coverage, without using critical-mass presence as a premise, detector or choice criterion for EA [REF10]. Collective diffusion measurement belongs to the scenario study and does not alone establish any differential hypothesis.
 
-Después se compara el mismo sistema con y sin las funciones propuestas. Los pares convencionales incluyen evidencia tipada con procedencia, certificados de autorización, revisión incremental, caché con invalidación, control de dependencias, auditorías dirigidas y comprobaciones activadas por cambios. No se les impide usar las capacidades que el entorno permite.
+The same system is then compared with and without proposed functions. Conventional peers include typed evidence with provenance, authorization certificates, incremental review, cache with invalidation, dependency control, directed audits and change-triggered checks. They are not prevented from using capabilities allowed by the environment.
 
-Las ablaciones separan preservar alcance, conservar linaje, recalificar una ventana y reabrir evidencia. El presupuesto incluye inferencia y construcción de los registros de EA. Una reducción de infracciones que se deba simplemente a ejecutar menos debe mostrar también finalización, mejora legítima, abstenciones y tiempo. El cambio de área se calcula con los mismos umbrales, pesos y problemas reservados de §1.4–1.5, informando tanto configuraciones recuperadas como aquellas donde la intervención empeora el resultado.
+Ablations separate scope preservation, lineage retention, window requalification and evidence reopening. Budget includes inference and construction of EA records. A violation reduction merely due to executing less must also show completion, legitimate improvement, abstentions and time. Area change is calculated with the same thresholds, weights and held-out problems of §1.4–1.5, reporting both recovered configurations and those where intervention worsens the result.
 
-Se admite evidencia favorable sólo si la contribución sobrevive a esa comparación y a configuraciones reservadas. Un empate con menor complejidad del comparador, o una mejora que desaparece al contar la sobrecarga, limita la candidatura. El diseño pareado anterior [REF10] aporta disciplina de comparación; sus parámetros no se importan como si fueran resultados del escenario nuevo.
+Favorable evidence is admitted only if the contribution survives that comparison and held-out configurations. A tie with lower comparator complexity, or an improvement disappearing when overhead is counted, limits candidacy. The earlier paired design [REF10] provides comparative discipline; its parameters are not imported as results of the new scenario.
 
-## 4.7 Qué queda fijado y qué queda por medir
+<a id="47-qué-queda-fijado-y-qué-queda-por-medir"></a>
+## 4.7 What is fixed and what remains to measure
 
-Queda fijado el objeto: delimitar dónde se alcanza el óptimo admisible a un coste razonable y dónde aparece el trilema —no íntegro, ineficiente o mediocre—, distinguiendo además la ventaja frente a un procedimiento convencional. EA es una candidata a ampliar la primera región; el estudio debe medirlo, no prometerlo. Quedan fijadas las tres trayectorias de referencia etiquetadas, la heterogeneidad por tramo, el radio creativo, la revisión propia, la señalización y las condiciones de contabilidad y trazabilidad.
+The object is fixed: delimit where the admissible optimum is reached at reasonable cost and where the trilemma—lacking integrity, inefficient or mediocre—appears, additionally distinguishing advantage over a conventional procedure. EA is a candidate to expand the first region; the study must measure it, not promise it. The three labeled reference trajectories, segment heterogeneity, creative radius, own review, signaling and accounting and traceability conditions are fixed.
 
-Queda por congelar una implementación concreta y ejecutar la malla de configuraciones. Sólo después podrán estimarse frecuencias, costes, fronteras y sensibilidad. La candidatura de EA requiere su propia comparación. La parte 3 fija una especialización candidata de la familia 00G y las obligaciones para representar trazas HF; su admisión requiere una auditoría separada. La detección previa del área y el valor de la supervisión son preguntas adicionales de §1.7.
+A concrete implementation remains to be frozen and the configuration grid executed. Only then may frequencies, costs, boundaries and sensitivity be estimated. EA's candidacy requires its own comparison. Part 3 fixes a candidate 00G-family specialization and obligations to represent HF traces; admission requires a separate audit. Prior area detection and oversight value are additional §1.7 questions.
 
-El entregable presente es una especificación de investigación no canónica. No cambia los documentos de referencia, los resultados congelados ni el estado de admisión de los casos.
+The present deliverable is a non-canonical research specification. It does not change reference documents, frozen results or case admission status.
 
-## 4.8 Fuentes y localizadores de auditoría
+<a id="48-fuentes-y-localizadores-de-auditoría"></a>
+## 4.8 Sources and audit locators
 
-Las fuentes internas se fijan a commits para conservar el contenido consultado. REF01–REF04, REF07–REF08 y REF10 mantienen la revisión del diseño previo; REF09 fija su historial y REF11–REF12 incorporan las notas de plausibilidad del 2 de octubre. Consulta de las fuentes públicas: 2 de octubre de 2026. Las descripciones de H1–H6 y EA-H1–EA-H4 son paráfrasis de sus documentos; para resolver diferencias prevalece la fuente canónica.
+Internal sources are pinned to commits to preserve consulted content. REF01–REF04, REF07–REF08 and REF10 retain the previous design revision; REF09 fixes its history and REF11–REF12 incorporate the 2 October plausibility notes. Public sources consulted: 2 October 2026. H1–H6 and EA-H1–EA-H4 descriptions are paraphrases of their documents; the canonical source prevails to resolve differences.
 
-**REF01 Caso padre y perfil.** [00G v0.4](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md). Caso Napoleón, misión del bar, rama falsa y transición genuina. Complemento: el perfil de extensionalidad 00G v0.1 fija las relaciones que deben conservarse.
+**REF01 Parent case and profile.** [00G v0.4](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md). Napoleon case, bar mission, false branch and genuine transition. Complement: the 00G v0.1 extensibility profile fixes relations to preserve.
 
-[Perfil de extensionalidad 00G](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md).
+[00G extensibility profile](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md).
 
-**REF02 Reducción original.** [Reducción unidireccional v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md). §§1–2, origen y regla de reducción; §§4–5, concordancia y diferencia entre medios y misión; §§6–7, controles y admisión pendiente.
+**REF02 Original reduction.** [One-way reduction v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md). §§1–2, origin and reduction rule; §§4–5, concordance and distinction between means and mission; §§6–7, controls and pending admission.
 
-**REF03 Entrada de la línea experimental.** [Extensión y recorridos v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md). §§1–3, núcleo y relación histórica; §4, recorridos R1–R3; §5, alcance de C3. Su estado experimental es el de la revisión enlazada.
+**REF03 Experimental line entry.** [Extension and runs v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md). §§1–3, kernel and historical relation; §4, R1–R3 runs; §5, C3 scope. Its experimental status is that of the linked revision.
 
-**REF04 Método de admisión.** [A25 v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). Controles X1–X7 de extensionalidad y transferencia de conformidad; §3.5 los cita como condiciones de una posible auditoría separada, sin declarar admisión.
+**REF04 Admission method.** [A25 v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). X1–X7 extensibility and conformance-transfer controls; §3.5 cites them as conditions for a possible separate audit, without declaring admission.
 
-**REF05 Relato oficial del incidente.** OpenAI, 26 de agosto de 2026. [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/). Localizadores temáticos: surgimiento del tablón; incidente de Hugging Face; tareas difíciles sin salida segura; ecosistema de desalineación; cobertura de salvaguardas en las evaluaciones internas. El apartado sobre el ecosistema de desalineación contiene los episodios del GO con seis minutos y del veto al correo. Base factual de §3.3; no medición de los parámetros de nuestro modelo. Complemento primario: [OpenAI Hugging Face Incident Technical Report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf), §I, p. 4 y §II.A, p. 5, sobre las salvaguardas de evaluación; §VIII.D, p. 24, sobre controles de producción. Páginas según numeración impresa.
+**REF05 Official incident account.** OpenAI, 26 August 2026. [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/). Thematic locators: emergence of the board; Hugging Face incident; difficult tasks without a safe exit; ecosystem of misalignment; safeguard coverage in internal evaluations. The ecosystem of misalignment section contains the six-minute GO and email veto episodes. Factual basis of §3.3; not measurement of our model parameters. Primary complement: [OpenAI Hugging Face Incident Technical Report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf), §I, p. 4 and §II.A, p. 5, on evaluation safeguards; §VIII.D, p. 24, on production controls. Pages follow printed numbering.
 
-**REF06 Investigación independiente.** METR y Redwood Research, 26 de agosto de 2026. [Brief independent investigation of agents’ behavior reasoning and collaboration](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/). Localizadores temáticos: conclusiones principales; fuentes de datos; proyectos colectivos; motivación de ayuda a pares; reconocimiento de extralimitación; proceso y límites de la investigación. El veto puntual de §3.3 se atribuye al blog de OpenAI [REF05], sin trasladar numeración de notas entre ediciones. Los localizadores se traducen y abrevian; no son citas textuales.
+**REF06 Independent investigation.** METR and Redwood Research, 26 August 2026. [Brief independent investigation of agents’ behavior reasoning and collaboration](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/). Thematic locators: main conclusions; data sources; collective projects; motivation to help peers; recognition of overreach; investigation process and limits. The specific veto in §3.3 is attributed to OpenAI's blog [REF05], without transferring footnote numbering across editions. Locators are translated and abbreviated; not verbatim quotations.
 
-**REF07 Hipótesis generales.** [Requisitos e hipótesis canónicas](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). §4, H1–H6. Fuente de la matriz de §4.2; consultar allí el alcance exacto de cada hipótesis.
+**REF07 General hypotheses.** [Canonical requirements and hypotheses](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). §4, H1–H6. Source of the §4.2 matrix; consult there for each hypothesis's exact scope.
 
-**REF08 Diferencial vigente de EA.** [Benchmark canónico 00D v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md). §6, EA-H1–EA-H4 y sus condiciones de contraste. Integra el antecedente 07 de hipótesis diferenciales.
+**REF08 Current EA differential.** [Canonical benchmark 00D v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md). §6, EA-H1–EA-H4 and their test conditions. Integrates earlier differential hypothesis document 07.
 
-**REF09 Historial de desarrollo.** [Anexo de trabajo realizado v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/9f22a4455e8a2806a35efcdb20770b5c81afca23/research/ecosystem-awareness/baseline/annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md). Revisión 9f22a4455e8a2806a35efcdb20770b5c81afca23. §§13–17: evolución del diseño; §14: estrategias y fórmulas de coste; §15: proximidad variable, señalización y modos de validación; §16: corrección de beneficios por tramo, radio creativo y revisión propia, con precisiones adicionales de geometría; §17: paralelismos y límites. Es un registro de desarrollo, no un documento canónico.
+**REF09 Development history.** [Work-performed annex v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/9f22a4455e8a2806a35efcdb20770b5c81afca23/research/ecosystem-awareness/baseline/annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md). Revision 9f22a4455e8a2806a35efcdb20770b5c81afca23. §§13–17: design evolution; §14: cost strategies and formulas; §15: variable proximity, signaling and validation modes; §16: correction of segment benefits, creative radius and own review, with additional geometry precisions; §17: parallels and limits. A development record, not a canonical document.
 
-**REF10 Comparación pareada previa.** [Diseño pareado EA v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/annexes/00G-HF-EA-REQUIREMENTS-PAIRED-DESIGN-v0.1.md). Antecedente metodológico de comparación con requisitos y recursos controlados; no constituye ejecución ni calibración del escenario presente.
+**REF10 Previous paired comparison.** [Paired EA design v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/annexes/00G-HF-EA-REQUIREMENTS-PAIRED-DESIGN-v0.1.md). Methodological precedent for comparison with controlled requirements and resources; constitutes neither execution nor calibration of the present scenario.
 
 
-**REF11 Semántica canónica y plausibilidad matemática.** [00M v0.8](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). §1, definiciones A/B/C/D adoptadas como vocabulario canónico; §4, suficiencia de resúmenes e incompletitud; §5, ejemplo acotado de composición; §6.3, límite de información; §7, alcance de plausibilidad. El estatus semántico no convierte el argumento en validación de la arquitectura.
+**REF11 Canonical semantics and mathematical plausibility.** [00M v0.8](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). §1, A/B/C/D definitions adopted as canonical vocabulary; §4, summary sufficiency and incompleteness; §5, bounded composition example; §6.3, information limit; §7, plausibility scope. Semantic status does not turn the argument into architecture validation.
 
-**REF12 Plausibilidad funcional.** [00N v0.7 Can Ecosystem Awareness Work](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). §1.4, correspondencia entre necesidad y capacidad de evaluación; §§3.3–3.5, desafíos, requisitos e hipótesis; §§3.6–3.7, composición acotada y límites; §4, condiciones pendientes. Ambas notas se encuentran desde el [README de Ecosystem Positioning](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/architectural-contributions/ecosystem-positioning/README.md), cuya navegación se conserva.
+**REF12 Functional plausibility.** [00N v0.7 Can Ecosystem Awareness Work](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). §1.4, correspondence between need and evaluation capability; §§3.3–3.5, challenges, requirements and hypotheses; §§3.6–3.7, bounded composition and limits; §4, pending conditions. Both notes can be found from the [Ecosystem Positioning README](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/architectural-contributions/ecosystem-positioning/README.md), whose navigation is retained.
 
-## 4.9 Registro de versiones y estado del documento
+<a id="49-registro-de-versiones-y-estado-del-documento"></a>
+## 4.9 Version record and document status
 
-Las versiones locales anteriores se conservan fuera de este paquete publicado como registro de trabajo. La v0.4 fijó el hilo explicativo; la v0.5 precisó la relación con 00G, las métricas, los comparadores y los controles. La v0.6 unifica SC-H, separa éxito y finalización, añade el diagnóstico por etapas y las referencias de plausibilidad 00M y 00N. La edición reduce repeticiones y añade dos diagramas conceptuales.
+Earlier local versions are retained outside this published package as a work record. v0.4 fixed the explanatory thread; v0.5 clarified the relationship with 00G, metrics, comparators and controls. v0.6 unifies SC-H, separates success and completion, adds stage diagnosis and 00M and 00N plausibility references. Editing reduces repetition and adds two conceptual diagrams.

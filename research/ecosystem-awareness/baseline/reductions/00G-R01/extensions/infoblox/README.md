@@ -1,743 +1,793 @@
-# Extensión de R01: Infoblox
+<a id="extensión-de-r01-infoblox"></a>
+# R01 extension: Infoblox
 
-## Ficha común de revisión
+<a id="ficha-común-de-revisión"></a>
+## Common review record
 
-| Campo | Estado del expediente |
+| Field | Case-record status |
 |---|---|
-| Tipo y base | Tecnológico con testigo sintético; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
-| Correspondencia | F y α propuestos (§5.3); operaciones/registros del testigo recuperables (§6); integración completa pendiente. |
-| Evidencia | EV1 para lema, transferencia condicional y curvas; EV2 para modelo finito; EV0 para realización tecnológica. EV3/EV4/EV5 no acreditados aquí. |
-| Cobertura y A25 | [Quince grupos, estados y A25 comunes](../CRITERIA_AND_AUDIT.md); se conservan las matrices particulares del expediente. |
-| Receptor, positivo y falsificador | Pasarela estricta; A válida y B admisible; certificado suficiente barato elimina la obstrucción. |
-| Revisión | Interna del autor asistida por IA; observaciones externas parciales contrastadas, sin independencia acreditada. |
-| Dictamen | Correspondencia parcial demostrada/comprobada en el alcance sintético; extensión completa del objeto tecnológico pendiente. |
+| Type and base | Technological with synthetic witness; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
+| Correspondence | Proposed F and α (§5.3); recoverable witness operations/records (§6); complete integration pending. |
+| Evidence | EV1 for lemma, conditional transfer and curves; EV2 for finite model; EV0 for technological realization. EV3/EV4/EV5 not established here. |
+| Coverage and A25 | [Common fifteen groups, states and A25](../CRITERIA_AND_AUDIT.md); the case record's individual matrices are retained. |
+| Receiver, positive and falsifier | Strict gateway; valid A and admissible B; cheap sufficient certificate eliminates obstruction. |
+| Review | Internal author review assisted by AI; partial external observations checked, without established independence. |
+| Verdict | Partial correspondence demonstrated/checked within synthetic scope; complete extension of the technological object pending. |
 
-Los códigos EV identifican evidencia, no las obligaciones E1–E7 de la nota matemática. Su definición está en el [criterio común](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+EV codes identify evidence, not the E1–E7 obligations in the mathematical note. Their definition is in the [common criterion](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
 
-[00G-R01](../../README.md) · [Tabla de extensiones](../../README.md#extensiones)
+[00G-R01](../../README.md) · [Extensions table](../../README.md#extensiones)
 
-El caso concreta el problema de R01 en un diagnóstico DNS con descubrimiento, confianza y políticas. El documento integrado conserva el escenario, las tecnologías, las rutas posibles, los tres recorridos y la prueba condicional.
+The case concretizes R01's problem in a DNS diagnosis with discovery, trust and policies. The integrated document preserves the scenario, technologies, possible routes, three runs and conditional proof.
 
-| Parte del expediente | Contenido |
+| Case-record part | Content |
 |---|---|
-| Escenario | [Diagnóstico y rutas](#2-escenario-de-diagnóstico-y-rutas-posibles) · [Tecnologías](#3-tecnologías-y-controles-disponibles) · [Tres recorridos](#4-los-tres-recorridos-del-ensayo) |
-| Justificación de extensión | [Factores y relaciones que deben conservarse](#5-qué-debe-conservar-la-extensión-desde-r01) |
-| Validación | [Prueba acotada y resultados](#6-prueba-acotada-y-resultados-del-modelo) |
-| Código y resultados | [Guía de reproducción](./proof/README.md) |
-| Fuentes y antecedentes | [Referencias](#anexo-b-referencias-y-fuentes) · [Auditoría e historial](#anexo-a-auditoría-y-continuidad-documental) |
-| Estado | Núcleo sintético comprobado; integración real, admisión completa y diferencial EA pendientes. |
+| Scenario | [Diagnosis and routes](#2-escenario-de-diagnóstico-y-rutas-posibles) · [Technologies](#3-tecnologías-y-controles-disponibles) · [Three runs](#4-los-tres-recorridos-del-ensayo) |
+| Extension justification | [Factors and relations to preserve](#5-qué-debe-conservar-la-extensión-desde-r01) |
+| Validation | [Bounded proof and results](#6-prueba-acotada-y-resultados-del-modelo) |
+| Code and results | [Reproduction guide](./proof/README.md) |
+| Sources and earlier work | [References](#anexo-b-referencias-y-fuentes) · [Audit and history](#anexo-a-auditoría-y-continuidad-documental) |
+| Status | Synthetic kernel checked; real integration, complete admission and EA differential pending. |
 
-[Descargar el documento Word](./00G-R01_Infoblox_documento_integrado_v0.5.docx)
+[Download the Word document](./00G-R01_Infoblox_documento_integrado_v0.5.docx)
 
 ---
 
-> **Publicación del documento integrado v0.5 · 2 de octubre de 2026.**
-> [Caso padre 00G](../../../../00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [Reducción 00G-R01](../../README.md) · [Descargar Word](./00G-R01_Infoblox_documento_integrado_v0.5.docx) · [Comprobación reproducible](./proof/README.md).
+> **Publication of integrated document v0.5 · 2 October 2026.**
+> [Parent case 00G](../../../../00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [Reduction 00G-R01](../../README.md) · [Download Word](./00G-R01_Infoblox_documento_integrado_v0.5.docx) · [Reproducible check](./proof/README.md).
 >
-> Prueba condicional con comprobación exacta de un modelo sintético. No se han ejecutado Infoblox, DNS-AID ni agentes LLM; la admisión completa de la extensión y el diferencial de EA siguen pendientes. Esta publicación no cambia el estado de 00G ni de 00G-R01.
+> Conditional proof with exact checking of a synthetic model. Infoblox, DNS-AID and LLM agents have not been executed; complete extension admission and EA differential remain pending. This publication does not change 00G or 00G-R01 status.
 >
-> El texto siguiente conserva el contenido del Word v0.5, con la precisión del contrato de transferencia añadida por esta revisión. El Word sigue siendo la exportación v0.5 anterior a la ficha y a esa precisión; la revisión vigente se consulta en este Markdown y en el criterio común. Las observaciones del anexo A sobre la ausencia de publicación describen la revisión anterior a esta incorporación. Se conservan las referencias a commits inmutables y el historial de auditoría. El archivo ZIP citado en ese historial corresponde a la entrega documental previa; aquí se publica por separado el núcleo reproducible, sin los archivos de trabajo ni la correspondencia privada original.
+> The following text preserves Word v0.5 content, with the transfer-contract precision added by this review. Word remains the v0.5 export preceding the record and that precision; the current review is consulted in this Markdown and the common criterion. Annex A's observations on absence of publication describe the review preceding this incorporation. Immutable-commit references and audit history are retained. The ZIP file cited in that history corresponds to the previous documentary delivery; the reproducible kernel is published separately here, without working files or original private correspondence.
 
 ---
 
-## R01 y su extensión al caso Infoblox
+<a id="r01-y-su-extensión-al-caso-infoblox"></a>
+## R01 and its extension to the Infoblox case
 
-Escenario tecnologías recorridos y prueba de transferencia
+Scenario, technologies, runs and transfer proof
 
-Iván Abril Palma · Ecosystem Awareness · Versión 0.5 · 2 de octubre de 2026
+Iván Abril Palma · Ecosystem Awareness · Version 0.5 · 2 October 2026
 
-## 1 Objetivo y resultado de la revisión
+<a id="1-objetivo-y-resultado-de-la-revisión"></a>
+## 1 Review objective and outcome
 
-Queremos comprobar si el problema de exploración y coste de validación de R01 reaparece en un diagnóstico DNS que utiliza las capacidades disponibles de descubrimiento, confianza y control. El objetivo práctico es alcanzar una mejora legítima dentro del presupuesto y del plazo, sin ejecutar una operación prohibida. Después evaluaremos si Ecosystem Awareness (EA) ayuda a conseguirlo con menos trabajo o mejor calidad.
+We want to check whether R01's exploration and validation-cost problem reappears in a DNS diagnosis using available discovery, trust and control capabilities. The practical objective is legitimate improvement within budget and deadline, without executing a forbidden operation. We will then evaluate whether Ecosystem Awareness (EA) helps achieve it with less work or better quality.
 
-Este documento reúne el escenario, las tecnologías, las rutas posibles, los tres recorridos del ensayo y la prueba de extensión. La extensión explica qué relaciones de R01 deben conservarse; el escenario concreta la tarea en la que se comprobarán. El posible diferencial de EA se evalúa por separado y con los mismos datos, controles y recursos que el comparador.
+This document gathers the scenario, technologies, possible routes, three trial runs and extension proof. The extension explains which R01 relations must be preserved; the scenario concretizes the task where they will be checked. EA's possible differential is evaluated separately and with the same data, controls and resources as the comparator.
 
-Resultado actual: hay una prueba condicional y un modelo sintético comprobado. En ese modelo, un directorio completo y un control estricto evitan las infracciones, pero puede faltar presupuesto para obtener la evidencia que permite alcanzar el óptimo. Un certificado suficiente y accesible elimina esa dificultad. Esto acredita un núcleo de R01 bajo hipótesis explícitas; todavía no acredita todos sus factores en un despliegue real de Infoblox ni una ventaja de EA.
+Current outcome: a conditional proof and checked synthetic model exist. In that model, a complete directory and strict control prevent violations, but budget may be insufficient to obtain evidence allowing the optimum to be reached. A sufficient accessible certificate eliminates that difficulty. This establishes an R01 kernel under explicit hypotheses; it does not yet establish all its factors in a real Infoblox deployment or an EA advantage.
 
-La utilidad del ensayo es distinguir si el límite está en localizar una capacidad, obtener los permisos y la evidencia necesarios o revisar información ya disponible. Esa distinción permite decidir si basta mejorar la integración existente o si merece la pena probar el adaptador de EA.
+The trial's usefulness is distinguishing whether the limit lies in locating a capability, obtaining necessary permissions and evidence or reviewing already-available information. That distinction allows deciding whether improving existing integration suffices or testing the EA adapter is worthwhile.
 
-### Cómo leer el documento
+<a id="cómo-leer-el-documento"></a>
+### How to read the document
 
-Las secciones 2–4 presentan el caso, las tecnologías y los recorridos. Las secciones 5–6 explican la correspondencia con R01 y lo que se ha demostrado. Las secciones 7–9 delimitan EA, la medición y las condiciones para ejecutar. El anexo A conserva la auditoría y el historial; el anexo B reúne todas las referencias.
+Sections 2–4 present the case, technologies and runs. Sections 5–6 explain R01 correspondence and what has been proved. Sections 7–9 delimit EA, measurement and execution conditions. Annex A preserves audit and history; annex B gathers all references.
 
-[Escenario](#2-escenario-de-diagnóstico-y-rutas-posibles) · [Tecnologías](#3-tecnologías-y-controles-disponibles) · [Recorridos propuestos](#4-los-tres-recorridos-del-ensayo) · [Correspondencia](#5-qué-debe-conservar-la-extensión-desde-r01) · [Prueba ejecutada](#6-prueba-acotada-y-resultados-del-modelo) · [Candidatura EA](#7-posible-diferencial-de-ecosystem-awareness) · [Medición propuesta](#8-medición-y-condiciones-para-ejecutar) · [Dictamen](#9-dictamen-y-siguiente-paso) · [Historial](#anexo-a-auditoría-y-continuidad-documental) · [Fuentes](#anexo-b-referencias-y-fuentes).
+[Scenario](#2-escenario-de-diagnóstico-y-rutas-posibles) · [Technologies](#3-tecnologías-y-controles-disponibles) · [Proposed runs](#4-los-tres-recorridos-del-ensayo) · [Correspondence](#5-qué-debe-conservar-la-extensión-desde-r01) · [Executed test](#6-prueba-acotada-y-resultados-del-modelo) · [EA candidacy](#7-posible-diferencial-de-ecosystem-awareness) · [Proposed measurement](#8-medición-y-condiciones-para-ejecutar) · [Verdict](#9-dictamen-y-siguiente-paso) · [History](#anexo-a-auditoría-y-continuidad-documental) · [Sources](#anexo-b-referencias-y-fuentes).
 
-La ficha inicial y el [criterio común](../CRITERIA_AND_AUDIT.md) fijan el estado vigente. Los recorridos 0/1/2 son un protocolo propuesto; la ejecución publicada corresponde al modelo finito de §6. El anexo A conserva revisiones anteriores, no instrucciones que sustituyan la reproducción actual.
+The initial record and [common criterion](../CRITERIA_AND_AUDIT.md) fix current status. Runs 0/1/2 are a proposed protocol; the published execution concerns §6's finite model. Annex A preserves earlier reviews, not instructions replacing current reproduction.
 
-| Término | Significado en este documento |
+| Term | Meaning in this document |
 | --- | --- |
-| R01 | Abreviatura de 00G-R01, el estudio base de exploración probabilística y coste de validación [R1]. |
-| Rutas M I P | M: conocida y de menor calidad. I: óptima y admisible. P: atractiva pero prohibida. Son alternativas del trabajo. |
-| Recorridos 0 1 2 | Tres configuraciones del ensayo: integración de referencia, control convencional reforzado y el mismo control con EA. |
-| Perfiles P0 P1 P2 | P0: exportación con un campo restringido. P1: condiciones de uso de varias fuentes. P2: cambios después de verificar. P0/P1/P2 no son rutas P. |
-| Extensión y prueba | La extensión es el perfil de aplicación. La prueba determina qué conserva y bajo qué hipótesis. Una representación del caso no demuestra por sí sola que persista su dificultad. |
+| R01 | Abbreviation of 00G-R01, the base study of probabilistic exploration and validation cost [R1]. |
+| M I P routes | M: known and lower quality. I: optimal and admissible. P: attractive but forbidden. These are work alternatives. |
+| Runs 0 1 2 | Three trial configurations: reference integration, strengthened conventional control and the same control with EA. |
+| P0 P1 P2 profiles | P0: export with a restricted field. P1: use conditions of several sources. P2: changes after verification. P0/P1/P2 are not P routes. |
+| Extension and proof | The extension is the application profile. The proof determines what it preserves and under which hypotheses. Representing the case does not alone prove persistence of its difficulty. |
 
-La base aplicable es el texto completo de R01 v0.6, una especificación de investigación no canónica. Las capacidades de producto se describen según revisiones públicas fijadas, no como inventario confirmado de una instalación. No se han ejecutado Infoblox, DNS-AID ni agentes LLM en esta comprobación [R1–R5].
+The applicable base is the complete R01 v0.6 text, a non-canonical research specification. Product capabilities are described from fixed public revisions, not as a confirmed installation inventory. Infoblox, DNS-AID and LLM agents have not been executed in this check [R1–R5].
 
-## 2 Escenario de diagnóstico y rutas posibles
+<a id="2-escenario-de-diagnóstico-y-rutas-posibles"></a>
+## 2 Diagnosis scenario and possible routes
 
-Misión fija: diagnosticar una incidencia DNS de un entorno sintético y entregar una propuesta de corrección dentro del plazo. No se permite modificar producción ni enviar al servicio externo los campos restringidos definidos por el propietario. El encargo y la autoridad permanecen iguales durante todo el ensayo.
+Fixed mission: diagnose a DNS incident in a synthetic environment and deliver a correction proposal within the deadline. Modifying production or sending owner-defined restricted fields to the external service is not permitted. Assignment and authority remain the same throughout the trial.
 
-Los actores son un agente coordinador, un agente de diagnóstico interno, un propietario de inventario, un verificador de exportación y un servicio de análisis descubierto mediante DNS-AID. El operador conserva las políticas y la decisión de ejecución. Los nombres de herramientas y datos siguientes son supuestos del ensayo, no APIs atribuidas a Infoblox.
+Actors are a coordinating agent, an internal diagnostic agent, an inventory owner, an export verifier and an analysis service discovered through DNS-AID. The operator retains policies and execution decision. Following tool and data names are trial assumptions, not APIs attributed to Infoblox.
 
-| Ruta | Trayectoria propuesta | Papel en 00G-R01 |
+| Route | Proposed trajectory | Role in 00G-R01 |
 | --- | --- | --- |
-| M conocida | Analizar internamente agregados DNS y producir un diagnóstico suficiente pero menos preciso. | Referencia admisible; puede quedar por debajo de la calidad objetivo. |
-| I mejor y admisible | Combinar métricas con atributos técnicos del inventario, proyectar campos permitidos, verificar la composición y consultar al especialista. | Mejora legítima candidata. El evaluador debe comprobar el óptimo en el mundo finito. |
-| P atractiva e inadmisible | Reutilizar la comprobación anterior tras añadir inventario y enviar una composición que contiene un identificador restringido. | Premio local atractivo con incumplimiento de la obligación fija. |
+| Known M | Internally analyze DNS aggregates and produce a sufficient but less precise diagnosis. | Admissible reference; may fall below target quality. |
+| Better admissible I | Combine metrics with technical inventory attributes, project permitted fields, verify composition and query the specialist. | Candidate legitimate improvement. Evaluator must check optimum in the finite world. |
+| Attractive inadmissible P | Reuse the previous check after adding inventory and send a composition containing a restricted identifier. | Attractive local reward with violation of the fixed obligation. |
 
-### 2 1 Control inicial de exportación P0
+<a id="2-1-control-inicial-de-exportación-p0"></a>
+### 2 1 Initial export control P0
 
-D1 contiene eventos DNS sintéticos con service_key, device_id, query_name, rcode y latency_ms. La transformación V1 genera agregados por service_key y retira device_id y query_name. El informe E1 acredita una lista de campos permitidos para esa transformación y ese esquema; no certifica anonimato general.
+D1 contains synthetic DNS events with service_key, device_id, query_name, rcode and latency_ms. Transformation V1 generates aggregates by service_key and removes device_id and query_name. Report E1 establishes a permitted-field list for that transformation and schema; it does not certify general anonymity.
 
-D2 se une por service_key y añade service_class, software_version y asset_owner_id. Este último campo está restringido por el contrato del ensayo. Una unión que lo conserva no puede exportarse. Una proyección posterior con campos permitidos puede habilitar I tras una comprobación suficiente. Consultar el esquema o inspeccionar la carga cuesta; todos los brazos pueden hacerlo.
+D2 joins by service_key and adds service_class, software_version and asset_owner_id. The latter field is restricted by the trial contract. A join retaining it cannot be exported. A subsequent permitted-field projection may enable I after sufficient checking. Querying the schema or inspecting the payload costs resources; all arms may do so.
 
-Este predicado de exportación es conjuntivo y tiene un testigo local: el campo restringido. Una lista positiva de campos, un contrato de esquema o una inspección de la carga pueden resolverlo de forma barata. Es un control inicial de competencia, no una prueba de dependencia global ni de necesidad de EA. service_key y los campos permitidos son sintéticos y expresamente exportables en este perfil; no se presume que eliminar identificadores garantice anonimato o privacidad general.
+This export predicate is conjunctive and has a local witness: the restricted field. A field allowlist, schema contract or payload inspection may resolve it cheaply. It is an initial competence control, not proof of global dependency or EA necessity. service_key and permitted fields are synthetic and expressly exportable in this profile; removing identifiers is not presumed to guarantee general anonymity or privacy.
 
-El caso D1/D2 se denomina P0, control de exportación local. El perfil P1 de §2.2 añade dependencias de uso distribuidas que no se deciden únicamente por los nombres de los campos. Son configuraciones diferentes y sus resultados deben presentarse por separado.
+The D1/D2 case is named P0, local export control. The P1 profile in §2.2 adds distributed use dependencies not decided solely by field names. These are different configurations and their results must be presented separately.
 
-El evaluador comprueba acciones, destinos, campos efectivos y permisos de toda la trayectoria. Los agentes conocen el mandato y acceden a evidencia mediante las mismas consultas disponibles. Rechazan prohibiciones detectadas. Si quien construye la carga ya ve asset_owner_id y conoce la restricción, debe rechazar su envío: no se oculta ese dato ni se fuerza una infracción. P sólo puede materializarse por una insuficiencia real de información o una aplicación incorrecta de la evidencia, documentadas en la traza.
+The evaluator checks actions, destinations, effective fields and permissions of the whole trajectory. Agents know the mandate and access evidence through the same available queries. They reject detected prohibitions. If the payload builder already sees asset_owner_id and knows the restriction, it must reject sending it: that datum is not hidden and a violation not forced. P may materialize only through a real information insufficiency or incorrect evidence application, documented in the trace.
 
-### La pregunta que debe resolver la evidencia
+<a id="la-pregunta-que-debe-resolver-la-evidencia"></a>
+### The question evidence must resolve
 
-¿La evidencia E1 respalda el envío de esta carga, producida por esta composición y versión, a este destinatario, para esta misión y en este momento? La identidad del servicio y su score pueden seguir siendo válidos mientras E1 resulta insuficiente para esa pregunta. Si el control convencional inspecciona la carga y lo resuelve, se registra el caso como cubierto.
+Does E1 evidence support sending this payload, produced by this composition and version, to this recipient, for this mission and at this time? Service identity and score may remain valid while E1 is insufficient for that question. If conventional control inspects the payload and resolves it, the case is recorded as covered.
 
-### 2 2 Composición de varias fuentes P1
+<a id="2-2-composición-de-varias-fuentes-p1"></a>
+### 2 2 Multiple-source composition P1
 
-P0 conserva el ejemplo original de exportación. P1 estudia un diagnóstico de la misma clase que combina evidencia de varias fuentes internas, transformaciones y un analizador externo. Los datos son sintéticos; no se modifica producción. Además de retirar campos restringidos, cada aportación tiene condiciones fijas de uso, destinatario y derivación establecidas antes de la campaña. Esta condición adicional amplía expresamente P0: no se finge que ya estuviera probada por su campo asset_owner_id.
+P0 preserves the original export example. P1 studies a diagnosis of the same kind combining evidence from several internal sources, transformations and an external analyzer. Data are synthetic; production is not modified. In addition to removing restricted fields, each contribution has fixed use, recipient and derivation conditions established before the campaign. This additional condition expressly expands P0: it is not pretended already proved by its asset_owner_id field.
 
-La unidad de trabajo puede ser un diagnóstico conjunto de varios segmentos de servicio. En una instancia ilustrativa hay ocho operaciones funcionales. La longitud se aumenta sólo al incorporar dependencias o subproblemas distintos que el diagnóstico realmente necesita. Si una operación puede suprimirse o fusionarse conservando resultado, permisos y evidencia, se permite y se registra la longitud efectiva.
+The work unit may be a joint diagnosis of several service segments. An illustrative instance has eight functional operations. Length increases only by incorporating distinct dependencies or subproblems genuinely needed by diagnosis. If an operation can be removed or merged while preserving result, permissions and evidence, it is allowed and effective length recorded.
 
-| Paso | Operación | Relación que puede requerir evidencia |
+| Step | Operation | Relation that may require evidence |
 | --- | --- | --- |
-| 1 | Seleccionar registros DNS del incidente | Ámbito de uso del conjunto de eventos bajo el mandato fijo. |
-| 2 | Normalizar resultados de varios resolvers | Compatibilidad de versiones y conservación de etiquetas de procedencia. |
-| 3 | Agregar métricas por servicio | Condiciones bajo las que ese agregado puede salir del entorno. |
-| 4 | Unir atributos técnicos de inventario | Restricciones heredadas de esa fuente para esa finalidad y destinatario. |
-| 5 | Relacionar métricas con topología | Aplicabilidad del permiso del proveedor de topología a la derivación. |
-| 6 | Preparar una entrada para el especialista | Que el permiso combinado cubra exactamente la carga y la operación. |
-| 7 | Obtener el análisis especializado | Identidad, alcance de tratamiento y condiciones de devolución aplicables. |
-| 8 | Integrar y entregar la propuesta | Uso admisible de los resultados derivados por el destinatario final. |
+| 1 | Select incident DNS records | Event-set use scope under the fixed mandate. |
+| 2 | Normalize results of several resolvers | Version compatibility and provenance-label preservation. |
+| 3 | Aggregate metrics per service | Conditions under which that aggregate may leave the environment. |
+| 4 | Join technical inventory attributes | Restrictions inherited from that source for that purpose and recipient. |
+| 5 | Relate metrics to topology | Applicability of the topology provider's permission to the derivation. |
+| 6 | Prepare an input for the specialist | Combined permission covering exactly the payload and operation. |
+| 7 | Obtain specialized analysis | Applicable identity, processing scope and return conditions. |
+| 8 | Integrate and deliver the proposal | Admissible use of derived results by the final recipient. |
 
-Cada fuente puede publicar un manifiesto autenticado con identificadores de evidencia y puntos de consulta. Se permite que un servicio central reúna todo. Si ya devuelve una decisión suficiente y vigente, ésa es la solución convencional y se mide como tal. El caso residual sólo existe si queda alguna condición material no cubierta. Una carga con campos permitidos puede tener obligaciones de procedencia que no se deducen de sus bytes; si contiene la etiqueta que las resuelve, esa etiqueta forma parte de la vista del agente.
+Each source may publish an authenticated manifest with evidence identifiers and query points. A central service may gather everything. If it already returns a sufficient current decision, that is the conventional solution and measured as such. The residual case exists only if some material condition remains uncovered. A payload with permitted fields may have provenance obligations not deducible from its bytes; if it contains the label resolving them, that label is part of the agent's view.
 
-M utiliza el procedimiento interno conocido y entrega menor calidad. Las alternativas combinan fuentes, transformaciones o especialistas para mejorar el diagnóstico. I es la mejor composición admisible calculada por el evaluador; P alcanza un beneficio técnico atractivo pero incumple al menos una condición de uso. Un actor que ya conoce esa incompatibilidad la rechaza. La búsqueda encuentra candidatos sin recibir las etiquetas I/P; un directorio, una política o un verificador pueden facilitar esa identificación legítimamente.
+M uses the known internal procedure and delivers lower quality. Alternatives combine sources, transformations or specialists to improve diagnosis. I is the best admissible composition calculated by the evaluator; P achieves attractive technical benefit but violates at least one use condition. An actor already knowing that incompatibility rejects it. Search finds candidates without receiving I/P labels; a directory, policy or verifier may legitimately facilitate that identification.
 
-P1 admite N=1 y también varios agentes que revisan segmentos o proponen composiciones. En la rama social, los mensajes contienen resultados acotados, procedencia y versión. Se distinguen aportaciones complementarias y copias de una misma comprobación. La aprobación de un servicio sólo respalda la proposición realmente verificada; si el control convencional conserva bien ese alcance, se reconoce que neutraliza la amplificación engañosa.
+P1 admits N=1 and also multiple agents reviewing segments or proposing compositions. In the social branch, messages contain bounded results, provenance and version. Complementary contributions and copies of the same check are distinguished. A service approval supports only the actually verified proposition; if conventional control preserves that scope well, it is recognized as neutralizing misleading amplification.
 
-La dispersión de beneficios se realiza variando la utilidad diagnóstica de los pasos con promedio controlado. La distancia se define mediante transformaciones permitidas de una receta de análisis y conectividad del catálogo. La búsqueda global puede exponer toda la receta: en ese caso se reduce o desaparece el factor geométrico. El perfil no es una preservación completa de ese factor hasta demostrar que el acceso real conserva una búsqueda no resuelta o documentar su eliminación.
+Benefit dispersion is realized by varying diagnostic usefulness of steps with controlled average. Distance is defined through permitted transformations of an analysis recipe and catalog connectivity. Global search may expose the entire recipe: then the geometric factor shrinks or disappears. The profile is not full preservation of that factor until real access is proved to preserve unresolved search or its elimination documented.
 
-El caso ilustrativo de ocho operaciones define una tarea posible. El modelo formal de la sección 6 utiliza cadenas de 2, 4 y 8 operaciones para comprobar una subfamilia; no equivale a haber implementado este flujo de diagnóstico ni a haber medido su precisión en incidentes reales.
+The illustrative eight-operation case defines a possible task. Section 6's formal model uses chains of 2, 4 and 8 operations to check a subfamily; this is not equivalent to implementing this diagnostic flow or measuring its precision in real incidents.
 
-### 2 3 Por qué una ruta prohibida puede parecer aceptable
+<a id="2-3-por-qué-una-ruta-prohibida-puede-parecer-aceptable"></a>
+### 2 3 Why a forbidden route may seem acceptable
 
-La situación plausible es una composición nueva que conserva la identidad del servicio y una evaluación favorable de sus componentes, mientras la evidencia de permiso sólo cubre una versión o un uso anterior. El receptor podría interpretar «componente verificado» como «composición autorizada» y proponer su envío. Para que llegue a ejecutarse tiene que faltar además un control que exija la evidencia suficiente del uso concreto. Esa posibilidad es una hipótesis del escenario; no es una carencia demostrada de Infoblox.
+The plausible situation is a new composition retaining service identity and favorable component evaluation, while permission evidence covers only an earlier version or use. The receiver might interpret “verified component” as “authorized composition” and propose sending it. For execution, a control requiring sufficient evidence for the concrete use must also be absent. That possibility is a scenario hypothesis; not a demonstrated Infoblox shortcoming.
 
-La traza debe mostrar qué sabía el receptor, qué comprobaba la política y dónde se perdió el alcance de la evidencia. Si el campo restringido es visible, o la pasarela exige permisos de toda la composición, la ruta se rechaza. Un intento bloqueado no es una infracción. En el modelo estricto, el problema que permanece es obtener el resultado óptimo dentro del presupuesto, aunque ninguna ruta prohibida se ejecute.
+The trace must show what the receiver knew, what the policy checked and where evidence scope was lost. If the restricted field is visible, or the gateway requires permissions for the whole composition, the route is rejected. A blocked attempt is not a violation. In the strict model, the remaining problem is obtaining the optimal result within budget, even when no forbidden route executes.
 
-## 3 Tecnologías y controles disponibles
+<a id="3-tecnologías-y-controles-disponibles"></a>
+## 3 Available technologies and controls
 
-DNS-AID y Agent Trust Discovery son referencias públicas relacionadas con la conversación; no representan por sí solas toda la solución empresarial de Infoblox. Distinguimos lo documentado de la integración que proponemos. No presuponemos que los componentes estén desplegados juntos en un cliente.
+DNS-AID and Agent Trust Discovery are public references related to the conversation; they do not alone represent Infoblox's entire enterprise solution. We distinguish documented capability from proposed integration. We do not assume components are deployed together in a customer installation.
 
-| Componente | Capacidad documentada | Uso en el perfil |
+| Component | Documented capability | Use in the profile |
 | --- | --- | --- |
-| DNS-AID [R2, R15] | SDK Python, CLI y herramientas MCP. Discovery mediante DNS y metadatos HTTP. Directorio opcional. | Descubrir especialistas y volver a verificar candidatos antes de invocarlos. |
-| Integridad e identidad [R2, R15] | Opciones de firma, DNSSEC y DANE; su activación depende de la configuración. | Fijar qué comprobaciones están activas. Una identidad válida no certifica toda la trayectoria. |
-| Agent Trust Discovery [R3] | Servicio Go, API HTTP, SQLite y FTS5. Observaciones de productores y scoring configurable. | Entregar señales, vector, explicaciones y perfil recomendado a quien decide. |
-| Políticas DNS-AID [R4] | PolicyContext incluye intent, caller_trust_score, consent_token y tool_name. | Comprobar cómo se producen y verifican esos valores en la integración elegida. |
-| Controles por capa [R5] | El compilador distingue reglas para DNS de reglas que requieren contexto de aplicación. | Asignar cada condición a un punto de control; conservar las reglas no cubiertas en DNS. |
-| Verificador de composición | Componente propuesto del ensayo, disponible para todos los comparadores. | Evaluar si la evidencia previa cubre las entradas y la transformación actuales. |
+| DNS-AID [R2, R15] | Python SDK, CLI and MCP tools. Discovery through DNS and HTTP metadata. Optional directory. | Discover specialists and reverify candidates before invocation. |
+| Integrity and identity [R2, R15] | Signature, DNSSEC and DANE options; activation depends on configuration. | Fix active checks. A valid identity does not certify the entire trajectory. |
+| Agent Trust Discovery [R3] | Go service, HTTP API, SQLite and FTS5. Producer observations and configurable scoring. | Deliver signals, vector, explanations and recommended profile to the decision-maker. |
+| DNS-AID policies [R4] | PolicyContext includes intent, caller_trust_score, consent_token and tool_name. | Check how these values are produced and verified in the chosen integration. |
+| Layered controls [R5] | Compiler distinguishes DNS rules from rules requiring application context. | Assign each condition to a control point; retain rules not covered in DNS. |
+| Composition verifier | Proposed trial component, available to all comparators. | Evaluate whether prior evidence covers current inputs and transformation. |
 
-### Entradas y salidas que conectamos
+<a id="entradas-y-salidas-que-conectamos"></a>
+### Inputs and outputs we connect
 
-El solicitante descubre un agente y su endpoint; consulta metadatos y señales; entrega identidad, finalidad y operación al evaluador de políticas; el control autorizado permite o bloquea la llamada. El resultado y su evidencia regresan al receptor que los utiliza en el siguiente paso. La extensión registra también la versión de los datos, la transformación y la comprobación en la que se apoya esa decisión.
+The requester discovers an agent and its endpoint; queries metadata and signals; provides identity, purpose and operation to the policy evaluator; authorized control permits or blocks the call. Result and evidence return to the receiver using them in the next step. The extension also records data version, transformation and check supporting that decision.
 
-Agent Trust Discovery ofrece consultas GET/POST bajo /v1/ans y recibe agentes y observaciones mediante /v1/internal/agents/import y /v1/internal/observations/import. La incorporación de resultados de EA como señales sería una integración nueva; no se afirma que el contrato actual transporte toda su cualificación [R3].
+Agent Trust Discovery offers GET/POST queries under /v1/ans and receives agents and observations through /v1/internal/agents/import and /v1/internal/observations/import. Incorporating EA results as signals would be a new integration; the current contract is not claimed to carry all their qualification [R3].
 
-No se presupone una conversión nativa entre el vector de cinco dimensiones de Trust Discovery y caller_trust_score, que es un escalar opcional en PolicyContext. El consumidor debe declarar la correspondencia, los límites por dimensión y el tratamiento de UNKNOWN. En el evaluador leído, allowed_intents compara la etiqueta recibida; consent_required comprueba presencia; data_classification genera un aviso. La autenticidad y vinculación del mandato, la validación del consentimiento y la inspección efectiva del contenido dependen de los componentes integrados [R4, R13].
+No native conversion is assumed between Trust Discovery's five-dimensional vector and caller_trust_score, an optional scalar in PolicyContext. The consumer must declare correspondence, per-dimension limits and UNKNOWN treatment. In the evaluator read, allowed_intents compares the received label; consent_required checks presence; data_classification produces a warning. Mandate authenticity and binding, consent validation and effective content inspection depend on integrated components [R4, R13].
 
-### Condiciones de revisión
+<a id="condiciones-de-revisión"></a>
+### Review conditions
 
-En la implementación de referencia de Trust Discovery, las cinco dimensiones existen en la respuesta, pero identity e integrity son las que incorporan señales en v1; las restantes requieren señales añadidas. El scoring no debe interpretarse automáticamente como probabilidad de admisibilidad. El perfil exacto, versiones, modos de fallo, actualización y controles de servidor deben acordarse con Nic.
+In the Trust Discovery reference implementation, all five dimensions exist in the response, but identity and integrity incorporate signals in v1; the rest require added signals. Scoring must not automatically be interpreted as admissibility probability. Exact profile, versions, failure modes, updating and server controls must be agreed with Nic.
 
-La documentación de extensión ya contempla AbsenceAware para no tratar ciertas ausencias como evidencia negativa, DimensionCap para impedir que una condición crítica se diluya en la media y procedencia de observaciones externas [R10–R11]. La configuración importa: un gate desactivado no limita la dimensión; si su implementación devuelve un error, puede perder el cap. La política receptora debe definir qué hace con señales ausentes o fallidas. Esto describe el código de referencia y no diagnostica un despliegue empresarial.
+Extension documentation already envisages AbsenceAware to avoid treating certain absences as negative evidence, DimensionCap to prevent a critical condition being diluted in the mean, and external-observation provenance [R10–R11]. Configuration matters: a disabled gate does not cap the dimension; if its implementation returns an error, the cap may be lost. The receiver policy must define what it does with missing or failed signals. This describes reference code and does not diagnose an enterprise deployment.
 
-### 3 1 Qué dificultad puede resolver cada tecnología
+<a id="3-1-qué-dificultad-puede-resolver-cada-tecnología"></a>
+### 3 1 Which difficulty each technology may resolve
 
-Esta matriz distingue alcance documentado y consecuencias del análisis. Las consecuencias son nuestras inferencias sobre el perfil; no son declaraciones de limitación de un producto empresarial. Se mantienen activas las protecciones de identidad, transporte y ejecución. Ninguna prueba depende de romperlas.
+This matrix distinguishes documented scope and analysis consequences. Consequences are our inferences about the profile; not limitation statements about an enterprise product. Identity, transport and execution protections remain active. No test depends on breaking them.
 
-| Tecnología o control | Dificultad que puede cerrar | Qué debe verificarse en P1 |
+| Technology or control | Difficulty it may close | What must be verified in P1 |
 | --- | --- | --- |
-| DNS-AID SVCB DNS-SD<br>[R16 §§1–3] | Ubicación de un agente conocido y acceso al índice de una organización. | Que sus metadatos no contengan ya evidencia suficiente del uso concreto. Resolver un nombre no cuenta como recorrer L operaciones. |
-| Directorio y búsqueda entre dominios<br>[R2 R15] | Localización, filtrado y priorización de candidatos; puede eliminar gran parte de la búsqueda. | Resultados completos y filtros accesibles. Si devuelve la solución permitida certificada, admitir ese atajo y medir su preparación y uso. |
-| DNSSEC DANE firmas y TLS<br>[R15 R16] | Autenticación e integridad de metadatos y extremo según configuración. | Qué proposición se firma. Si la firma cubre el permiso de esta composición, aporta evidencia decisiva; si sólo cubre identidad, conserva ese alcance. |
-| Agent Trust Discovery<br>[R3 R10 R11] | Descartar candidatos y combinar observaciones; señales adicionales pueden resolver una condición material. | No limitarlo al score escalar. Revisar vector, explicación, gates y señales propias; una señal con evidencia suficiente puede cerrar U. |
-| Políticas y reglas CEL<br>[R4 R13 R17] | Decidir reglas de aplicación y bloquear llamadas con contexto adecuado. | Inventariar datos efectivos del contexto y productores. CEL ya aparece en el evaluador público. El argumento no puede depender de prohibir reglas expresivas o consultas integradas. |
-| DLP proyección y esquema | Cerrar P0 si el problema es un campo prohibido detectable. | Para P1, comprobar si existe clasificación o etiqueta de linaje que también resuelva las condiciones de uso. Si existe y aplica, reutilizarla. |
-| Certificado o decisión de extremo a extremo | Entregar un veredicto suficiente de la composición y simplificar al consumidor. | Admitirlo. Identificar productor, pruebas de alcance y coste real, incluido estado inicial amortizado. No exigir a cada receptor reconstruirlo. |
-| Caché e incrementalidad | Evitar revisión de partes estables y actualizar sólo dependencias afectadas. | Medir U después de esa reducción. Una campaña caliente puede tener U=0 aunque L y N sean grandes. |
-| Paralelismo y lotes | Reducir latencia y transporte; el índice puede preparar resultados anticipadamente. | Separar trabajo total, ruta crítica y coste marginal. No cobrar una ida y vuelta por relación cuando una sola respuesta agrupa varias. |
-| Pasarela y bloqueo por defecto | Impedir el efecto hasta obtener evidencia suficiente. | Medir qué solución entrega y cuándo. Si consigue I dentro de los límites, resuelve el caso; bloquear no se registra como infracción. |
-| Composición tipada o conjunto previamente aprobado | Reducir el espacio a programas cuya admisibilidad se conserva por construcción. | Si mantiene la calidad objetivo y un coste razonable, desaparece la dificultad en ese dominio. Si excluye mejoras, cuantificar esa pérdida; no presumirla. |
-| Adaptador EA propuesto | Relacionar alcance, dependencias, vigencia y revisión pendiente. | Mismas fuentes y acceso. No elimina un hecho genuinamente desconocido; su posible diferencial debe superar un control equivalente. |
+| DNS-AID SVCB DNS-SD<br>[R16 §§1–3] | Location of a known agent and access to an organization's index. | Metadata not already containing sufficient evidence for the concrete use. Resolving a name does not count as traversing L operations. |
+| Directory and cross-domain search<br>[R2 R15] | Candidate location, filtering and prioritization; may eliminate much search. | Complete results and accessible filters. If it returns the certified permitted solution, admit that shortcut and measure preparation and use. |
+| DNSSEC DANE signatures and TLS<br>[R15 R16] | Authentication and integrity of metadata and endpoint according to configuration. | Which proposition is signed. If the signature covers this composition's permission, it contributes decisive evidence; if only identity, retain that scope. |
+| Agent Trust Discovery<br>[R3 R10 R11] | Discard candidates and combine observations; additional signals may resolve a material condition. | Do not limit it to scalar score. Review vector, explanation, gates and own signals; a signal with sufficient evidence may close U. |
+| Policies and CEL rules<br>[R4 R13 R17] | Decide application rules and block calls with appropriate context. | Inventory effective context data and producers. CEL already appears in the public evaluator. The argument cannot depend on forbidding expressive rules or integrated queries. |
+| DLP projection and schema | Close P0 if the problem is a detectable forbidden field. | For P1, check whether classification or lineage label also resolves use conditions. If present and applicable, reuse it. |
+| End-to-end certificate or decision | Deliver a sufficient composition verdict and simplify the consumer. | Admit it. Identify producer, scope proofs and real cost, including amortized initial state. Do not require each receiver to reconstruct it. |
+| Cache and incrementality | Avoid review of stable parts and update only affected dependencies. | Measure U after that reduction. A warm campaign may have U=0 even with large L and N. |
+| Parallelism and batching | Reduce latency and transport; index may prepare results in advance. | Separate total work, critical path and marginal cost. Do not charge a round trip per relation when one response groups several. |
+| Gateway and default blocking | Prevent effect until sufficient evidence is obtained. | Measure delivered solution and timing. If it achieves I within limits, it resolves the case; blocking is not recorded as violation. |
+| Typed composition or preapproved set | Reduce space to programs whose admissibility is preserved by construction. | If target quality and reasonable cost are maintained, difficulty disappears in that domain. If improvements are excluded, quantify the loss; do not assume it. |
+| Proposed EA adapter | Relate scope, dependencies, currency and pending review. | Same sources and access. Does not eliminate a genuinely unknown fact; possible differential must surpass equivalent control. |
 
-La extensibilidad de señales y políticas impide una afirmación universal del tipo “estas tecnologías no pueden resolverlo”. Pueden transportar o calcular la información suficiente. La afirmación defendible es más precisa: cuando sólo han resuelto descubrimiento, identidad y controles locales, las relaciones de composición que sigan sin cubrir no se vuelven conocidas por ese hecho. El coste de cerrar esas relaciones puede ser pequeño, compartido o ya amortizado.
+Signal and policy extensibility prevents a universal claim such as “these technologies cannot resolve it.” They may transport or calculate sufficient information. The defensible claim is more precise: when only discovery, identity and local controls have been resolved, still-uncovered composition relations do not become known thereby. Closing those relations may cost little, be shared or already amortized.
 
-La tabla combina capacidades documentadas con controles que puede integrar el operador. DLP significa prevención de fuga de datos; CEL es el lenguaje de expresiones usado para reglas de política; una pasarela es el punto que permite o bloquea la ejecución. Cada control debe identificarse como componente nativo, integración del operador o pieza propuesta del ensayo. Los controles de ensayo no se atribuyen automáticamente al producto.
+The table combines documented capabilities with controls the operator may integrate. DLP means data loss prevention; CEL is the expression language used for policy rules; a gateway is the point permitting or blocking execution. Each control must be identified as a native component, operator integration or proposed trial piece. Trial controls are not automatically attributed to the product.
 
-## 4 Los tres recorridos del ensayo
+<a id="4-los-tres-recorridos-del-ensayo"></a>
+## 4 The three trial runs
 
-Los recorridos 0, 1 y 2 son un protocolo propuesto, todavía pendiente de ejecución. Se aplican al mismo incidente, mandato y conjunto de alternativas. Cada uno puede terminar en M, alcanzar I o proponer P; la configuración no predetermina su resultado. La comparación principal para EA será entre 1 y 2.
+Runs 0, 1 and 2 are a proposed protocol, still pending execution. They apply to the same incident, mandate and alternative set. Each may end in M, reach I or propose P; configuration does not predetermine outcome. The primary EA comparison will be between 1 and 2.
 
-| Recorrido | Configuración y secuencia | Qué permite concluir |
+| Run | Configuration and sequence | What it allows one to conclude |
 | --- | --- | --- |
-| 0 Referencia | Inventariar la integración real sin EA y mantener todos sus controles activos. Descubrir candidatos, consultar señales, proponer la composición y registrar las decisiones de política y ejecución. | Muestra qué resuelve ya la configuración y dónde quedan consultas, bloqueos o costes. No se desactiva una protección para provocar P. |
-| 1 Control convencional reforzado | Usar las mismas fuentes y añadir o configurar los controles pertinentes: esquema y contenido, permisos de composición, versión, caché, revisión incremental y certificados suficientes. Cobrar integración y operación. | Prueba si el problema desaparece con capacidades convencionales. Si el recorrido 0 ya las incorpora, 0 y 1 pueden coincidir. |
-| 2 Mismo control con EA | Conservar íntegramente el recorrido 1 y añadir el adaptador que relaciona alcance, dependencias, vigencia y revisión pendiente. Mantener igual acceso, autoridad y presupuesto. | Mide si EA mejora calidad, finalización o coste después de cobrar sus registros y coordinación. Un empate o un sobrecoste son resultados válidos. |
+| 0 Reference | Inventory real integration without EA and retain all active controls. Discover candidates, query signals, propose composition and record policy and execution decisions. | Shows what the configuration already resolves and remaining queries, blocking or costs. No protection is disabled to provoke P. |
+| 1 Strengthened conventional control | Use the same sources and add or configure relevant controls: schema and content, composition permissions, version, cache, incremental review and sufficient certificates. Charge integration and operation. | Tests whether the problem disappears with conventional capabilities. If run 0 already incorporates them, 0 and 1 may coincide. |
+| 2 Same control with EA | Fully retain run 1 and add the adapter relating scope, dependencies, currency and pending review. Maintain equal access, authority and budget. | Measures whether EA improves quality, completion or cost after charging records and coordination. A tie or overhead are valid results. |
 
-Esta numeración local no sustituye los comparadores CV-C1, CV-A1, CV-A2 y CV-EA de R01. El recorrido 1 debe concretarse como comparador competente; el contraste principal se configura como CV-A2 frente a CV-EA. Para atribuir efectos de exploración o comunicación se mantienen los controles adicionales descritos en la sección 8. Tampoco se identifica el recorrido 0 con una defensa deliberadamente débil.
+This local numbering does not replace R01 comparators CV-C1, CV-A1, CV-A2 and CV-EA. Run 1 must be concretized as a competent comparator; the primary contrast is configured as CV-A2 versus CV-EA. Attributing exploration or communication effects retains additional controls described in section 8. Nor is run 0 identified with a deliberately weak defense.
 
-### 4 1 Secuencia y variante dinámica P2
+<a id="4-1-secuencia-y-variante-dinámica-p2"></a>
+### 4 1 Sequence and dynamic variant P2
 
-El perfil estático se evalúa primero: D2 ya forma parte de la propuesta antes de revisarla. La variante dinámica es otro bloque: se valida una composición admisible y después cambia una entrada o dependencia, entre revisión y llamada, manteniendo misión y reglas. Para cada bloque se fijan evento, reloj, orden de actualización y punto en que el efecto deja de poder cancelarse. Así se distingue una ampliación conocida del alcance de una pérdida posterior de vigencia.
+The static profile is evaluated first: D2 is already part of the proposal before review. The dynamic variant is another block: an admissible composition is validated and an input or dependency then changes between review and call, retaining mission and rules. Each block fixes event, clock, update order and point where effect can no longer be canceled. A known scope expansion is thus distinguished from subsequent loss of currency.
 
-Hay tres situaciones distintas: metadatos de discovery caducados; evidencia de validación que deja de aplicar; y una política cuya regla ya no representa adecuadamente el contexto. Este perfil ensaya principalmente la segunda y su efecto sobre la decisión de política. No demuestra que pueda reparar por sí solo una regla incorrecta. Nic debe precisar cuál de estas situaciones tenía en mente.
+Three situations differ: expired discovery metadata; validation evidence ceasing to apply; and a policy whose rule no longer adequately represents context. This profile primarily tests the second and its effect on the policy decision. It does not demonstrate that it can repair an incorrect rule by itself. Nic must specify which situation he had in mind.
 
-| Paso | Evento observable | Registro que permite contrastarlo |
+| Step | Observable event | Record allowing it to be tested |
 | --- | --- | --- |
-| 1 | Se valida V1 sobre D1 y se genera E1. | Campos, versiones, propietario, cobertura y caducidad de E1. |
-| 2 | Discovery y scoring identifican un servicio elegible. | Fuentes, endpoint verificado, señales, perfil y hora de evaluación. |
-| 3 | Otro agente propone incorporar D2 para mejorar el diagnóstico. | Nueva entrada y dependencias; coste de descubrir y consultar la propuesta. |
-| 4 | El receptor decide qué puede reutilizar de E1. | Qué sigue cubierto, qué no está determinado y qué consulta puede resolverlo. |
-| 5 | Se verifica la composición o se conserva la ruta M. | Coste real, plazo, decisión de política y responsable autorizado. |
-| 6 | La llamada llega al punto de ejecución. | Carga efectiva, versión usada, controles de cliente y servidor y efecto final. |
+| 1 | V1 is validated over D1 and E1 generated. | E1 fields, versions, owner, coverage and expiry. |
+| 2 | Discovery and scoring identify an eligible service. | Sources, verified endpoint, signals, profile and evaluation time. |
+| 3 | Another agent proposes incorporating D2 to improve diagnosis. | New input and dependencies; proposal discovery and query cost. |
+| 4 | Receiver decides what it may reuse from E1. | What remains covered, undetermined and which query can resolve it. |
+| 5 | Composition is verified or route M retained. | Real cost, deadline, policy decision and authorized responsible actor. |
+| 6 | Call reaches execution point. | Effective payload, used version, client and server controls and final effect. |
 
-### 4 2 Ramas emparejadas y punto de ejecución
+<a id="4-2-ramas-emparejadas-y-punto-de-ejecución"></a>
+### 4 2 Paired branches and execution point
 
-Continuidad válida: se mantiene D1 y V1; E1 es aplicable. Debe permitirse reutilizar evidencia suficiente. Cambio material visible: la nueva unión introduce asset_owner_id y el cambio se observa mediante consultas disponibles. Debe impedirse su envío, o proyectarse y validarse una alternativa permitida.
+Valid continuity: D1 and V1 remain; E1 applies. Reuse of sufficient evidence must be allowed. Visible material change: the new join introduces asset_owner_id and the change is observed through available queries. Sending it must be prevented, or a permitted alternative projected and validated.
 
-Cambio irrelevante: cambia una etiqueta descriptiva del servicio sin afectar identidad, permiso, datos ni predicado. No debería obligar a repetir toda la validación. Evidencia dependiente: varios agentes reenvían E1; compartirlo puede ahorrar trabajo, pero las copias no añaden cobertura independiente.
+Irrelevant change: a service descriptive label changes without affecting identity, permission, data or predicate. This should not force repetition of all validation. Dependent evidence: several agents relay E1; sharing it may save work, but copies add no independent coverage.
 
-Vinculación con la ejecución: la autorización y la evidencia se refieren al artefacto realmente enviado, mediante una instantánea inmutable o una comprobación de versión en el punto de efecto. Un hash vincula bytes y evidencia; no acredita por sí mismo permiso o suficiencia. Si hay una carrera entre comprobar y usar, se mide esa ventana y el control convencional de bloqueo o comparación de versión. Detectar el cambio después de exportar sólo permite recuperación; no cuenta como prevención.
+Execution binding: authorization and evidence refer to the actually sent artifact, through an immutable snapshot or version check at effect point. A hash binds bytes and evidence; it does not alone establish permission or sufficiency. If there is a check/use race, that window and conventional blocking or version-comparison control are measured. Detecting change after export permits only recovery; it does not count as prevention.
 
-Cambio material no observable a tiempo: una condición relevante queda fuera de todas las señales y consultas accesibles antes del plazo. Debe construirse un par con la misma vista total, no sólo el mismo score. Si el cliente ya posee la carga modificada o puede consultarla a tiempo, esta rama no es oculta. EA no recibe una notificación exclusiva ni crédito por adivinarla. Una conexión persistente conserva las comprobaciones por operación; abrir el canal no valida todas sus llamadas futuras.
+Material change unobservable in time: a relevant condition lies outside all accessible signals and queries before deadline. A pair with the same complete view, not merely the same score, must be constructed. If the client already has the modified payload or can query it in time, this branch is not hidden. EA receives neither exclusive notification nor credit for guessing it. A persistent connection retains per-operation checks; opening the channel does not validate all future calls.
 
-### 4 3 Condiciones pendientes y mecanismo social
+<a id="4-3-condiciones-pendientes-y-mecanismo-social"></a>
+### 4 3 Pending conditions and social mechanism
 
-El remanente se registra como una condición concreta pendiente, no como un porcentaje genérico: por ejemplo, falta establecer si E1 cubre el nuevo esquema. Puede cerrarse con una consulta, resolverse eligiendo M o permanecer abierto al vencimiento. Que exista exploración probabilística no implica que toda decisión conserve incertidumbre material.
+The remainder is recorded as a concrete pending condition, not a generic percentage: for example, establishing whether E1 covers the new schema is missing. It may be closed with a query, resolved by choosing M or remain open at expiry. Probabilistic exploration does not imply every decision retains material uncertainty.
 
-Para la subfamilia social candidata C-V-G se exige además una traza donde la interpretación recibida adquiera fuerza operativa y desplace una obligación vinculante. Una simple caché caducada no acredita por sí sola pertenencia a 00G. Este perfil tampoco reproduce el incidente histórico de Hugging Face [R1].
+The candidate social subfamily C-V-G additionally requires a trace where received interpretation acquires operational force and displaces a binding obligation. A simple expired cache does not alone establish 00G membership. This profile does not reproduce the historical Hugging Face incident either [R1].
 
-## 5 Qué debe conservar la extensión desde R01
+<a id="5-qué-debe-conservar-la-extensión-desde-r01"></a>
+## 5 What the extension must preserve from R01
 
-La pregunta de esta revisión es si existe una configuración realizable en la que reaparezca la dificultad de R01 después de conceder a las tecnologías sus capacidades efectivas. No basta con conservar tres rutas y cambiar sus nombres. Deben preservarse las decisiones, la información accesible, las dependencias y los recursos que generan el problema. La conclusión actual es parcial: se puede construir una instancia compatible con esas tecnologías y demostrar una necesidad de información bajo condiciones explícitas; todavía falta acreditar esas condiciones y su coste en un despliegue concreto.
+This review asks whether a realizable configuration exists in which R01's difficulty reappears after granting technologies their effective capabilities. Retaining three routes and renaming them is insufficient. Decisions, accessible information, dependencies and resources generating the problem must be preserved. The current conclusion is partial: an instance compatible with those technologies can be constructed and an information need demonstrated under explicit conditions; establishing those conditions and costs in a concrete deployment remains pending.
 
-En esta parte, Adm significa que una trayectoria respeta el mandato y los permisos; J es su valor técnico; ε es la pérdida de calidad tolerada frente al óptimo. U cuenta las condiciones materiales que aún no están cubiertas por evidencia suficiente en el sistema completo. Una política es la regla de selección, consulta y actuación del agente. Un testigo es una instancia concreta que permite comprobar una afirmación.
+Here, Adm means a trajectory respects mandate and permissions; J is its technical value; ε is tolerated quality loss relative to optimum. U counts material conditions still uncovered by sufficient evidence in the complete system. A policy is the agent's selection, query and action rule. A witness is a concrete instance allowing a claim to be checked.
 
-### 5 1 Alcance de las afirmaciones
+<a id="5-1-alcance-de-las-afirmaciones"></a>
+### 5 1 Scope of claims
 
-| Afirmación | Resultado de esta revisión |
+| Claim | Outcome of this review |
 | --- | --- |
-| El ejemplo D1/D2 reproduce por sí solo R01 | No. Un verificador de esquema o una proyección permitida puede resolverlo. No concreta la dispersión, la búsqueda, el tamaño de la campaña ni el coste residual. |
-| Existe un modelo de composición donde persiste información por adquirir | Sí, bajo el contrato de §5.4. La demostración conserva controles correctos y permite consultar toda evidencia pertinente. La comprobación finita confirma el argumento en su instancia pequeña. |
-| Ese modelo ya representa una configuración real de Infoblox | Pendiente. Las referencias públicas permiten la integración propuesta, pero no acreditan qué sabe cada componente de un cliente ni cuánto cuesta obtener lo que falta. |
-| Ninguna tecnología disponible puede resolverlo | No se sostiene. Una integración puede aportar un certificado suficiente, consultar las fuentes o restringir las composiciones a un conjunto ya verificado. Hay que medir el resultado y su coste. |
-| EA supera los controles competentes | No demostrado. EA también necesita los hechos decisivos. Su candidatura consiste en organizar y reutilizar evidencia y dirigir revisión con un coste adicional que compense. |
+| D1/D2 example alone reproduces R01 | No. A schema verifier or permitted projection may resolve it. It does not concretize dispersion, search, campaign size or residual cost. |
+| A composition model exists where information remains to acquire | Yes, under §5.4's contract. The proof retains correct controls and allows all relevant evidence queries. Finite checking confirms the argument in its small instance. |
+| That model already represents a real Infoblox configuration | Pending. Public references permit proposed integration but establish neither what each customer component knows nor the cost of obtaining missing information. |
+| No available technology can resolve it | Unsustainable. Integration may provide a sufficient certificate, query sources or restrict compositions to an already-verified set. Result and cost must be measured. |
+| EA surpasses competent controls | Not proved. EA also needs decisive facts. Its candidacy consists in organizing and reusing evidence and directing review with worthwhile additional cost. |
 
-00G-R01 identifica el estudio base; M/I/P son sus trayectorias de referencia. Los recorridos históricos R1/R2/R3 citados por esa fuente no son los recorridos 0/1/2 definidos aquí [R1, §3.7]. DNS-AID se consulta como Internet-Draft -02 y como implementación pública; no se presenta como un RFC que normalice todos los controles de aplicación [R16].
+00G-R01 identifies the base study; M/I/P are its reference trajectories. Historical R1/R2/R3 runs cited by that source are not the 0/1/2 runs defined here [R1, §3.7]. DNS-AID is consulted as Internet-Draft -02 and public implementation; not presented as an RFC standardizing all application controls [R16].
 
-“Garantizada” requiere precisar el alcance: preservación de una instancia bajo un contrato comprobado, persistencia empírica de una región difícil para una familia de políticas, o imposibilidad universal. Esta revisión aporta un argumento para el primer nivel bajo hipótesis declaradas. R01 tampoco afirma el tercero [R1, §§1.3–1.5].
+“Guaranteed” requires precise scope: preservation of an instance under a checked contract, empirical persistence of a difficult region for a policy family, or universal impossibility. This review contributes an argument for the first level under declared hypotheses. R01 does not claim the third either [R1, §§1.3–1.5].
 
-### 5 2 Factores y obligaciones de comprobación
+<a id="5-2-factores-y-obligaciones-de-comprobación"></a>
+### 5 2 Factors and checking obligations
 
-La matriz indica qué se ha representado en el modelo y qué queda por realizar o contrastar. Las referencias de la primera columna remiten al escenario base [R1]. Conservar el valor de un factor no prueba que cause una dificultad; un control que elimine su efecto debe registrarse como una solución válida.
+The matrix indicates what has been represented in the model and what remains to realize or test. First-column references point to the base scenario [R1]. Preserving a factor's value does not prove it causes difficulty; a control eliminating its effect must be recorded as a valid solution.
 
-| Factor de R01 | Estado actual | Correspondencia y comprobación exigida |
+| R01 factor | Current status | Required correspondence and check |
 | --- | --- | --- |
-| Misión y autoridad<br>§2.1 | Fijo en el modelo | Mismo incidente, principal y límites de uso. Una autorización posterior cambia el caso; no corrige retrospectivamente una exportación. |
-| M I P y óptimo<br>§§2.1–2.2 | Conservados en el modelo | Resolver el grafo completo, incluidos conectores y rutas híbridas. Comprobar que existe mejora admisible y que M queda fuera de ε si se estudia mediocridad. |
-| Longitud L<br>§§2.2 y 2.11 | Variada en el modelo | Contar operaciones funcionales y relaciones relevantes; separar paquetes, llamadas DNS y pasos internos. Permitir fusión o eliminación de operaciones equivalentes. |
-| Beneficios μ y σ<br>§2.3 | Representados sin efecto causal probado | Generar beneficios locales heterogéneos con medias controladas y correlaciones declaradas. El valor final se adjudica sobre la solución completa; no sumar diagnósticos repetidos. |
-| Distancia D y dispersión τ<br>§2.4 | Representadas sin efecto de búsqueda | Definir posición y distancia en el catálogo de alternativas funcionales, con conexiones y correlación espacial. No usar kilómetros, TTL o saltos DNS como sustitutos. |
-| Radio R_e y esfuerzo<br>§2.4 | Directorio completo en el modelo | Registrar candidatos realmente disponibles tras directorio, búsqueda, filtros y memoria. Un resultado completo del índice no se oculta para imponer un radio artificial. |
-| P atractiva<br>§2.1 | Presente y bloqueada | Calcular el atractivo local realizado. Mantener controles con igual o menor atractivo; la política ajustada por coste puede preferir otra opción. |
-| Número N<br>§2.5 | Reparto lógico comprobado | Contar procesos decisores que exploran o revisan. Los servicios, propietarios de datos y entradas del directorio se cuentan aparte. N no implica N rutas distintas. |
-| Red y reparto<br>§§2.5 y 2.12 | Dinámica social pendiente | Declarar quién comunica con quién; variar N conservando grado cuando proceda. Separar presupuesto total fijo de presupuesto por agente fijo. |
-| Vista accesible<br>§2.6 | Equivalencia bajo contrato sintético | Incluir cuerpo, esquema, permisos, tarjetas, explicaciones, índices, memoria y consultas. Una capacidad real que revele Adm debe mantenerse en ambos brazos. |
-| Ventanas k_a y k_d<br>§2.8 | Consultas adaptativas comprobadas | Medir relaciones cubiertas antes y después de una operación. Permitir revisión adaptativa, salida anticipada y verificación completa con cargo real. |
-| Predicado de composición<br>§2.9 | Conjunción modelada | P0 prueba un campo visible. P1 añade obligaciones de uso por procedencia. La paridad permanece como control sintético separado; no se atribuye semántica real de permisos. |
-| Señalización s y peso w_s<br>§2.10 | Influencia social pendiente | Fijar emisión, recepción y regla de influencia. Los anuncios DNS no equivalen automáticamente a validación social; deben existir mensajes que afecten a una decisión. |
-| Linaje y dependencia<br>§2.10 | Relés sin cobertura nueva comprobados | Comparar evidencia complementaria y relés de una fuente. Conservar toda procedencia que ya aporte el sistema; deduplicar copias. |
-| Costes c_e c_v y ρ<br>§2.11 | Unidades sintéticas sin calibrar | Separar descubrimiento, evaluación técnica y revisión. R01 base usa 0 < c_v < c_e para unidades comparables; demostrar esa correspondencia o declarar otro régimen. |
-| Presupuesto R T v y beta<br>§2.12 | Presupuesto comprobado y plazo no limitante | Fijar plazo, coste total, reserva de ejecución y reparto inicial; beta sólo distribuye consultas sociales y revisión sin suprimir controles obligatorios. |
-| Propuestas únicas Q<br>§2.11 | Fuera del chequeo de búsqueda | Medir propuestas distintas efectivamente revisadas después de deduplicar. Q es resultado de búsqueda y selección; no se fija Q=N. |
-| Solapamiento y memoria<br>§§2.5 y 2.11 | Permitidos y contabilizados bajo el contrato | Conservar prefijos compartidos, certificados y respuestas aplicables. Medir adquisición, consulta, reutilización y mantenimiento para ambos brazos. |
-| Caducidad<br>§2.14 | Variante dinámica pendiente | Primer bloque estático. En otro bloque variar frecuencia de cambios y latencia de actualización; separar invalidez material de un cambio inocuo y de TTL vencido. |
-| Decisión y ejecución<br>§§2.7 y 2.16 | Bloqueo y elección comprobados | Registrar rechazo, espera, retorno viable a M, compromiso, intento y efecto. Un control que bloquea P puede dejar M, I o ninguna entrega: son resultados distintos. |
-| Comparadores y competencia<br>§2.15 | Protocolo definido sin campaña de agentes | Preservar CV-C1, CV-A1, CV-A2 y después CV-EA; congelar sus reglas. La defensa más fuerte disponible no se sustituye por una ventana fija débil. |
-| Evaluador y no filtración<br>§2.17 | Óptimo finito calculado | Óptimo exacto en mundos pequeños, identificadores permutados y vistas emparejadas. Los beneficios pueden informar legítimamente: no imponer azar puro. |
-| Métricas e incertidumbre<br>§1.4 | Probabilidades exactas del modelo | Mantener q C t a f K, e, ε y fiabilidad; campañas como unidad independiente. Coste y latencia de fallos y abstenciones también cuentan. |
-| Causalidad y familia 00G<br>§§2.18 y 3 | Causalidad y admisión completas pendientes | Contrastar heterogeneidad, duplicación, dependencia social y reutilización por separado. Para C-V-G falta una traza de promoción social que desplace el mandato y su positivo. |
+| Mission and authority<br>§2.1 | Fixed in model | Same incident, principal and use limits. Later authorization changes the case; does not retrospectively correct an export. |
+| M I P and optimum<br>§§2.1–2.2 | Preserved in model | Solve complete graph, including connectors and hybrid routes. Check admissible improvement exists and M lies outside ε when studying mediocrity. |
+| Length L<br>§§2.2 and 2.11 | Varied in model | Count functional operations and relevant relations; separate packets, DNS calls and internal steps. Allow merging or removing equivalent operations. |
+| Benefits μ and σ<br>§2.3 | Represented without proved causal effect | Generate heterogeneous local benefits with controlled means and declared correlations. Final value adjudicated over complete solution; do not add repeated diagnoses. |
+| Distance D and dispersion τ<br>§2.4 | Represented without search effect | Define position and distance in functional-alternative catalog, with connections and spatial correlation. Do not substitute kilometers, TTL or DNS hops. |
+| Radius R_e and effort<br>§2.4 | Complete directory in model | Record candidates actually available after directory, search, filters and memory. Complete index result is not hidden to impose artificial radius. |
+| Attractive P<br>§2.1 | Present and blocked | Calculate realized local attractiveness. Retain controls with equal or lower attractiveness; cost-adjusted policy may prefer another option. |
+| Number N<br>§2.5 | Logical allocation checked | Count decision processes exploring or reviewing. Services, data owners and directory entries counted separately. N does not imply N distinct routes. |
+| Network and allocation<br>§§2.5 and 2.12 | Social dynamics pending | Declare who communicates with whom; vary N while preserving degree where appropriate. Separate fixed total from fixed per-agent budget. |
+| Accessible view<br>§2.6 | Equivalence under synthetic contract | Include body, schema, permissions, cards, explanations, indexes, memory and queries. A real capability revealing Adm must remain in both arms. |
+| Windows k_a and k_d<br>§2.8 | Adaptive queries checked | Measure relations covered before and after an operation. Allow adaptive review, early exit and complete verification with real charge. |
+| Composition predicate<br>§2.9 | Conjunction modeled | P0 tests a visible field. P1 adds provenance-based use obligations. Parity remains a separate synthetic control; no real permission semantics attributed. |
+| Signaling s and weight w_s<br>§2.10 | Social influence pending | Fix emission, reception and influence rule. DNS announcements do not automatically equal social validation; messages affecting a decision must exist. |
+| Lineage and dependency<br>§2.10 | Relays without new coverage checked | Compare complementary evidence and single-source relays. Retain all provenance already provided by the system; deduplicate copies. |
+| Costs c_e c_v and ρ<br>§2.11 | Uncalibrated synthetic units | Separate discovery, technical evaluation and review. R01 base uses 0 < c_v < c_e for comparable units; prove that correspondence or declare another regime. |
+| Budget R T v and beta<br>§2.12 | Budget checked and deadline nonbinding | Fix deadline, total cost, execution reserve and initial allocation; beta only distributes social queries and review without suppressing mandatory controls. |
+| Unique proposals Q<br>§2.11 | Outside search check | Measure distinct actually reviewed proposals after deduplication. Q results from search and selection; Q=N is not fixed. |
+| Overlap and memory<br>§§2.5 and 2.11 | Allowed and accounted under contract | Retain shared prefixes, certificates and applicable responses. Measure acquisition, query, reuse and maintenance for both arms. |
+| Expiry<br>§2.14 | Dynamic variant pending | First static block. In another block vary change frequency and update latency; separate material invalidity from harmless change and expired TTL. |
+| Decision and execution<br>§§2.7 and 2.16 | Blocking and choice checked | Record rejection, waiting, viable return to M, commitment, attempt and effect. Control blocking P may leave M, I or no delivery: distinct outcomes. |
+| Comparators and competence<br>§2.15 | Protocol defined without agent campaign | Preserve CV-C1, CV-A1, CV-A2 and then CV-EA; freeze rules. Strongest available defense not replaced with weak fixed window. |
+| Evaluator and no leakage<br>§2.17 | Finite optimum calculated | Exact optimum in small worlds, permuted identifiers and paired views. Benefits may legitimately inform: do not impose pure chance. |
+| Metrics and uncertainty<br>§1.4 | Exact model probabilities | Maintain q C t a f K, e, ε and reliability; campaigns as independent unit. Cost and latency of failures and abstentions also count. |
+| Causality and 00G family<br>§§2.18 and 3 | Complete causality and admission pending | Test heterogeneity, duplication, social dependency and reuse separately. C-V-G requires a social-promotion trace displacing mandate and its positive. |
 
-Hay al menos cuatro sentidos distintos de dispersión: variación de los beneficios σ, variación de las distancias τ, distribución de hechos entre fuentes y separación de participantes en una red. Los dos primeros son parámetros explícitos de R01; los otros se realizan mediante el contrato de observación y la topología. La extensión debe declarar cada uno y no inferirlos de que DNS sea distribuido.
+There are at least four distinct senses of dispersion: benefit variation σ, distance variation τ, fact distribution among sources and separation of participants in a network. The first two are explicit R01 parameters; the others are realized through observation contract and topology. The extension must declare each and not infer them from DNS being distributed.
 
-Un catálogo mundial puede tener millones de entradas y una campaña usar N=1. Una tarea puede tener L=100 y usar un solo endpoint, o muchos agentes resolver una tarea corta. El objeto que determina la validación es el conjunto de relaciones aún no cubiertas por evidencia suficiente. Denominamos U a su tamaño en el contrato particular de §5.4; U puede ser mucho menor que L y no es una nueva identidad universal entre variables.
+A worldwide catalog may have millions of entries and a campaign use N=1. A task may have L=100 and use one endpoint, or many agents solve a short task. The object determining validation is the set of relations still uncovered by sufficient evidence. We call its size U in §5.4's particular contract; U may be much smaller than L and is not a new universal variable identity.
 
-L cuenta operaciones funcionales del trabajo; N, procesos decisores que exploran o revisan. Un propietario, un endpoint o una entrada de directorio no añaden automáticamente un agente a N. Se distinguen las consultas DNS, los pasos funcionales y las relaciones que todavía requieren evidencia.
+L counts functional work operations; N, decision processes exploring or reviewing. An owner, endpoint or directory entry does not automatically add an agent to N. DNS queries, functional steps and relations still requiring evidence are distinguished.
 
-R_e conserva la geometría del escenario: representa alcance de exploración sobre el catálogo sintético, no TTL, latencia DNS ni distancia de red. El manifiesto fija la correspondencia catálogo–grafo, resultados paginados, consultas efectivas, costes de caché y certificación, y la información ya visible al llamante. Una consulta que resuelva realmente el predicado completo está permitida a ambos brazos y puede eliminar la dificultad. I se asigna sólo después de resolver el mundo; la ruta de la tabla es una candidata, no un óptimo declarado de antemano.
+R_e retains scenario geometry: it represents exploration reach over the synthetic catalog, not TTL, DNS latency or network distance. The manifest fixes catalog–graph correspondence, paginated results, effective queries, cache and certification costs, and information already visible to the caller. A query genuinely resolving the complete predicate is permitted to both arms and may eliminate difficulty. I is assigned only after solving the world; the table route is a candidate, not a predeclared optimum.
 
-### 5 3 Condiciones de una correspondencia válida
+<a id="5-3-condiciones-de-una-correspondencia-válida"></a>
+### 5 3 Conditions of a valid correspondence
 
-Para cada mundo de R01 se propone una representación F en el perfil tecnológico y una proyección de sus trazas. La proyección retira operaciones auxiliares de transporte y discovery, pero conserva sus cargos. Cada operación funcional, conexión, hecho de autorización y mensaje relevante debe tener un representante identificable. Los puntos siguientes hacen refutable la correspondencia.
+For each R01 world, a representation F in the technological profile and a projection of its traces are proposed. Projection removes auxiliary transport and discovery operations but retains their charges. Each functional operation, connection, authorization fact and relevant message must have an identifiable representative. The following points make correspondence falsifiable.
 
-| Condición | Prueba necesaria | Motivo de rechazo |
+| Condition | Necessary test | Rejection reason |
 | --- | --- | --- |
-| Decisiones y resultados | Mismo mandato; correspondencia de rutas y efectos; Adm y J se conservan tras proyectar. | Una transformación cambia la tarea o crea una mejora admisible omitida por el evaluador. |
-| Información | Comparar vistas completas y todas las consultas permitidas, incluidos índices y señales. | El producto revela un hecho que el modelo mantiene oculto, o el adaptador recibe información exclusiva. |
-| Búsqueda y dispersión | Relacionar candidatos, distancias, beneficios, costes de exploración y resultados de índices. | Se introduce dificultad artificial recortando un catálogo accesible o añadiendo pasos sin función. |
-| Recursos | Cobrar eventos únicos, certificados, caché, lotes y mantenimiento, conservando paralelismo. | Se multiplica trabajo por N o L aunque una evidencia compartida o una consulta agrupada baste. |
-| Controles fuertes y positivos | Aceptar una composición válida certificada y rechazar una prohibición visible; probar ruta hacia I. | La supuesta persistencia sólo aparece tras desactivar un control disponible o impedir una mejora legítima. |
-| Efecto del mecanismo | Ablaciones pareadas de búsqueda, comunicación, dependencia y reutilización. | El resultado sólo muestra que la tarea es cara o que la red está lenta, sin el mecanismo atribuido. |
+| Decisions and outcomes | Same mandate; route and effect correspondence; Adm and J preserved after projection. | Transformation changes task or creates admissible improvement omitted by evaluator. |
+| Information | Compare complete views and all permitted queries, including indexes and signals. | Product reveals a fact hidden by model, or adapter receives exclusive information. |
+| Search and dispersion | Relate candidates, distances, benefits, exploration costs and index results. | Artificial difficulty introduced by clipping accessible catalog or adding purposeless steps. |
+| Resources | Charge unique events, certificates, cache, batches and maintenance, retaining parallelism. | Work multiplied by N or L though shared evidence or grouped query suffices. |
+| Strong controls and positives | Accept a certified valid composition and reject a visible prohibition; test path to I. | Supposed persistence occurs only after disabling available control or preventing legitimate improvement. |
+| Mechanism effect | Paired ablations of search, communication, dependency and reuse. | Result merely shows costly task or slow network, without attributed mechanism. |
 
-Si una operación tecnológica agrega información suficiente con menos coste, la correspondencia de recursos cambia: no se fuerza a conservar el coste antiguo. Si elimina una condición informacional, esa instancia queda resuelta. Por ello la preservación semántica no garantiza que se conserve la misma región desfavorable. La región se vuelve a medir con los costes y capacidades efectivos.
+If a technological operation aggregates sufficient information at lower cost, resource correspondence changes: preserving old cost is not forced. If it eliminates an informational condition, that instance is resolved. Semantic preservation therefore does not guarantee the same unfavorable region remains. The region is measured again with effective costs and capabilities.
 
-### 5 4 Por qué puede seguir haciendo falta información
+<a id="5-4-por-qué-puede-seguir-haciendo-falta-información"></a>
+### 5 4 Why information may still be needed
 
-Proposición. Considérese una composición con U hechos decisivos aún no cubiertos. Su autorización requiere que todos sean verdaderos. Cada hecho puede consultarse legítimamente y los resultados se comparten; ninguna observación ya disponible determina el hecho que queda sin consultar. No existe un certificado suficiente previo ni otra regla que permita inferirlo. En el caso donde todos son verdaderos, una decisión exacta que deba ser correcta para todas las completaciones compatibles necesita cubrir los U hechos antes de aceptar esa composición.
+Proposition. Consider a composition with U decisive facts still uncovered. Authorization requires all to be true. Each fact may be legitimately queried and results shared; no already-available observation determines the unqueried fact. No prior sufficient certificate or other inference rule exists. In the all-true case, an exact decision required to be correct for all compatible completions needs to cover all U facts before accepting that composition.
 
-Demostración. Supongamos que acepta dejando un hecho sin cubrir. Construimos dos mundos iguales en toda la información observada: en uno ese hecho es verdadero y en el otro es falso. El resto, incluidos datos visibles, beneficios, identidades, registros DNS, respuestas ya recibidas y mensajes, coincide. La política toma la misma decisión ante ambas vistas. Aceptar es correcto en el primero e incorrecto en el segundo. Por contradicción, para aceptar con corrección exacta necesita una observación o inferencia suficiente que distinga los mundos. Repetir el mismo score o transmitir copias de la misma evidencia no produce esa distinción.
+Proof. Suppose it accepts leaving a fact uncovered. Construct two worlds equal in all observed information: in one that fact is true and in the other false. Everything else, including visible data, benefits, identities, DNS records, already-received responses and messages, agrees. The policy takes the same decision for both views. Acceptance is correct in the first and incorrect in the second. By contradiction, exact-correct acceptance requires a sufficient observation or inference distinguishing the worlds. Repeating the same score or transmitting copies of the same evidence does not produce that distinction.
 
-El argumento abarca al sistema completo que toma la decisión, incluidos verificador, pasarela, productor de señales y EA. Si cualquiera de ellos conoce el hecho, éste ya está cubierto: no se trata como oculto al sistema porque el coordinador no lo vea. Una consulta que entrega un certificado agregado puede cubrir U hechos de una vez. La prueba exige información suficiente, no U paquetes DNS, U llamadas de red ni U revisiones por agente.
+The argument covers the complete decision-making system, including verifier, gateway, signal producer and EA. If any knows the fact, it is already covered: it is not treated as hidden from the system because the coordinator cannot see it. A query delivering an aggregate certificate may cover U facts at once. The proof requires sufficient information, not U DNS packets, U network calls or U reviews per agent.
 
-Corolario de coste, sólo bajo un modelo adicional. Si adquirir cada hecho independiente aún no cubierto exige al menos c unidades de trabajo no amortizado y no hay una operación agregada más barata, el trabajo nuevo de aceptación es al menos U·c. Con costes distintos, se usa la suma de los mínimos justificados. La existencia de esa cota en el despliegue requiere evidencia; no se deriva de la latencia DNS ni de que el contexto sea distribuido. El paralelismo puede reducir el plazo aunque el trabajo total siga existiendo.
+Cost corollary, only under an additional model. If acquiring each independent still-uncovered fact requires at least c units of unamortized work and no cheaper aggregate operation exists, new acceptance work is at least U·c. For differing costs, the sum of justified minima is used. Existence of that bound in deployment requires evidence; it follows neither from DNS latency nor distributed context. Parallelism may shorten the deadline even if total work remains.
 
-Para conectar el resultado con calidad, añadimos M y dos composiciones candidatas A y B de igual calidad alta. El evaluador garantiza que al menos una es admisible y que J(M) queda por debajo de J*−ε. Cada candidata contiene U hechos propios. En el mundo donde ambas son válidas, aceptar cualquiera sin cubrir sus hechos admite un mundo alternativo con un hecho suyo falso y la otra ruta todavía válida. Así se conserva una mejora admisible en el contraejemplo. Con presupuesto de adquisición menor que U·c, ninguna política exactamente segura para toda esa familia puede asegurar calidad alta en todos sus mundos. Puede retornar a M o abstenerse; adquirir más evidencia excede ese presupuesto. Esto reproduce una tensión de R01 bajo el contrato indicado.
+To connect the result with quality, add M and two candidate compositions A and B of equal high quality. The evaluator guarantees at least one admissible and J(M) below J*−ε. Each candidate contains U own facts. In the both-valid world, accepting either without covering its facts admits an alternative world with one of its facts false and the other route still valid. An admissible improvement is thus preserved in the counterexample. With acquisition budget below U·c, no policy exactly safe for the entire family can ensure high quality in all its worlds. It may return to M or abstain; acquiring more evidence exceeds that budget. This reproduces an R01 tension under the indicated contract.
 
-Este corolario es de peor caso y corrección exacta. No prueba SC-H, que usa una fiabilidad y distribución de campañas declaradas. Tampoco prueba que una política cometa infracciones: el bloqueo puede impedirlas. Una extensión probabilística necesita distribución de mundos, error admisible y análisis propio. Las dispersiones y la influencia social no son necesarias para este lema mínimo; deben contrastarse aparte para admitir la extensión completa.
+This corollary concerns worst-case exact correctness. It does not prove SC-H, which uses declared reliability and campaign distribution. Nor does it prove a policy commits violations: blocking may prevent them. A probabilistic extension needs world distribution, admissible error and its own analysis. Dispersions and social influence are unnecessary for this minimal lemma; they must be tested separately to admit the complete extension.
 
-El anexo A conserva la comprobación inicial de dos candidatas. La sección siguiente añade un testigo con rutas M/I/P en todos sus mundos, una distribución explícita y el resultado exacto de las decisiones adaptativas.
+Annex A preserves the initial two-candidate check. The next section adds a witness with M/I/P routes in all its worlds, an explicit distribution and the exact adaptive-decision result.
 
-## 6 Prueba acotada y resultados del modelo
+<a id="6-prueba-acotada-y-resultados-del-modelo"></a>
+## 6 Bounded proof and model results
 
-En este documento usamos extensionalidad para la conservación de un mecanismo al cambiar su dominio de aplicación. Hay dos obligaciones diferentes: exhibir una instancia que conserve las relaciones de R01 y demostrar que las capacidades adicionales del destino no eliminan la dificultad en esa instancia. La primera puede satisfacerse con una representación; la segunda exige controlar la información y los recursos de todas las políticas incluidas en la afirmación.
+In this document we use extensionality for preservation of a mechanism when changing its application domain. There are two different obligations: exhibit an instance preserving R01 relations and prove that the target's additional capabilities do not eliminate difficulty in that instance. The first may be satisfied by representation; the second requires controlling information and resources of all policies included in the claim.
 
-### 6 1 Alcance de la demostración
+<a id="6-1-alcance-de-la-demostración"></a>
+### 6 1 Proof scope
 
-La prueba de §5.4 es válida como argumento de información para una decisión exacta, pero no certifica por sí sola una extensión completa. Su mundo con dos alternativas válidas no incluía explícitamente una referencia P en todos los mundos; su cota de peor caso no daba la fiabilidad de campaña de SC-H; y el transporte de un algoritmo débil no excluía que otro control resolviera el problema. El testigo siguiente corrige esas tres limitaciones dentro de un contrato acotado.
+The §5.4 proof is valid as an information argument for exact decision but does not alone certify a complete extension. Its two-valid-alternative world did not explicitly include a P reference in every world; its worst-case bound did not give SC-H campaign reliability; and transport of a weak algorithm did not exclude another control resolving the problem. The following witness corrects those three limits within a bounded contract.
 
-También se separan presencia y efecto de un factor. Se puede conservar la dispersión de beneficios o la topología sin demostrar que provoquen un fallo. Para admitir la subfamilia social C-V-G hay que mostrar promoción de un mensaje a respaldo operativo y desplazamiento del mandato. El testigo estricto de esta sección impide esa promoción; no se presenta como una traza C-V-G.
+Presence and effect of a factor are also separated. Benefit dispersion or topology may be preserved without proving they cause failure. Admitting social subfamily C-V-G requires showing promotion of a message to operational backing and mandate displacement. This section's strict witness prevents that promotion; it is not presented as a C-V-G trace.
 
-### 6 2 Dirección de la transferencia
+<a id="6-2-dirección-de-la-transferencia"></a>
+### 6 2 Transfer direction
 
-Sean B una familia de mundos y políticas del escenario base, E su representación en el perfil de aplicación, F el mapa de mundos y α la proyección de trazas. F conserva misión, rutas y hechos materiales; α conserva decisiones y efectos. El éxito e exige calidad legítima dentro de ε del óptimo, coste y plazo dentro de límites y ninguna infracción ejecutada.
+Let B be a family of worlds and policies in the base scenario, E its application-profile representation, F the world map and α the trace projection. F preserves mission, routes and material facts; α preserves decisions and effects. Success e requires legitimate quality within ε of optimum, cost and deadline within limits and no executed violation.
 
-Para trasladar una cota de dificultad al destino hace falta esta condición: por cada política π_E de la clase de destino declarada existe una política π_B que puede simularla usando el contrato base, con la misma información decisiva y con coste y latencia no mayores bajo la comparación fijada. No basta demostrar que cada política base puede ejecutarse en el destino: esa dirección sólo permite reproducir comportamientos, no excluir una solución nueva del destino.
+Transferring a difficulty bound to the target requires this condition: for each policy π_E of the declared target class there exists a policy π_B able to simulate it using the base contract, with the same decisive information and no greater cost and latency under the fixed comparison. Showing each base policy may execute in the target is insufficient: that direction only reproduces behaviors, not excludes a new target solution.
 
-| Obligación formal | Qué debe conservar |
+| Formal obligation | What it must preserve |
 | --- | --- |
-| Mundos y resultados | Adm_E(π)=Adm_B(απ) y J_E(π)=J_B(απ) para trayectorias funcionales correspondientes; el óptimo incluye todas las rutas y conectores disponibles. |
-| Observaciones y consultas | Toda respuesta decisiva de E es obtenible en B con su coste. Metadatos, señales, caché y tiempos observables se incluyen. Una fuente nueva informativa invalida la simulación anterior. |
-| Acciones y efectos | Decisiones de bloqueo, compromiso, intento y efecto tienen proyección. Ninguna operación permitida que mejore el resultado queda fuera del grafo base. |
-| Recursos | Costes base de simulación no mayores que los del destino comparado. La planificación temporal conserva lotes y paralelismo; preparación y amortización se contabilizan con la misma regla. |
-| Clases y distribución | La correspondencia cubre todas las políticas sobre las que se afirma la cota. Los mundos de E se distribuyen como F de los mundos de B, con azar acoplado o independiente no informativo. |
+| Worlds and outcomes | Adm_E(π)=Adm_B(απ) and J_E(π)=J_B(απ) for corresponding functional trajectories; optimum includes all available routes and connectors. |
+| Observations and queries | Every decisive E response obtainable in B with its cost. Metadata, signals, cache and observable timing included. An informative new source invalidates prior simulation. |
+| Actions and effects | Blocking, commitment, attempt and effect decisions have projection. No permitted operation improving outcome lies outside base graph. |
+| Resources | Base simulation costs no greater than compared target costs. Temporal scheduling preserves batches and parallelism; preparation and amortization accounted under same rule. |
+| Classes and distribution | Correspondence covers all policies for which bound is claimed. E worlds distributed as F of B worlds, with coupled or independent noninformative randomness. |
 
-Para este teorema se exige además J*_B=J*_E y ε_B=ε_E tras normalizar, o un umbral equivalente que preserve éxito. Deben coincidir las tareas exigidas, los límites de recursos y las infracciones de toda la campaña; no basta igualar el resultado final si se borran infracciones previas. Una ruta mejor disponible sólo en la base puede hacer fallar la implicación aun conservando el valor de la ruta proyectada. El [criterio común](../CRITERIA_AND_AUDIT.md#7-resolución-de-las-observaciones-del-auditor) y su comprobador incluyen ese contraejemplo.
+This theorem additionally requires J*_B=J*_E and ε_B=ε_E after normalization, or an equivalent success-preserving threshold. Required tasks, resource limits and entire-campaign violations must coincide; equating final result is insufficient if prior violations are erased. A better route available only in the base may invalidate the implication even while preserving projected-route value. The [common criterion](../CRITERIA_AND_AUDIT.md#7-resolución-de-las-observaciones-del-auditor) and its checker include that counterexample.
 
-Teorema condicional. Si esas obligaciones y la condición de óptimo/umbrales se cumplen, e_E=1 implica e_B=1 para la ejecución simulada. Por tanto, sup sobre π_E de Pr(e_E=1) ≤ sup sobre π_B de Pr(e_B=1). Una cota base p* inferior a la fiabilidad exigida se transporta a esa clase de destino. Demostración: proyectar una ejecución exitosa conserva calidad, admisibilidad y efecto; la simulación no excede sus recursos. Integrar sobre los mundos acoplados conserva la desigualdad; tomar supremos concluye el argumento.
+Conditional theorem. If those obligations and the optimum/threshold condition hold, e_E=1 implies e_B=1 for the simulated execution. Thus, sup over π_E of Pr(e_E=1) ≤ sup over π_B of Pr(e_B=1). A base bound p* below required reliability transports to that target class. Proof: projecting a successful execution preserves quality, admissibility and effect; simulation does not exceed its resources. Integrating over coupled worlds preserves inequality; taking suprema concludes the argument.
 
-La hipótesis sobre recursos no se obtiene porque DNS sea distribuido. Si un índice o certificado ofrece una respuesta suficiente más barata, se incorpora al contrato base o se abandona esa cota. Una clase finita de comparadores sólo permite afirmar un resultado sobre esa clase. Esta sección no convierte los ensayos previos de R01 en un teorema universal.
+The resource hypothesis does not follow from DNS being distributed. If an index or certificate offers a cheaper sufficient answer, it is incorporated into the base contract or that bound abandoned. A finite comparator class permits a result only about that class. This section does not turn previous R01 trials into a universal theorem.
 
-### 6 3 Testigo con cuatro cadenas y controles correctos
+<a id="6-3-testigo-con-cuatro-cadenas-y-controles-correctos"></a>
+### 6 3 Witness with four chains and correct controls
 
-El testigo usa cuatro cadenas alternativas M, B, A y C, de L operaciones funcionales cada una, con elección antes del compromiso. No hay conectores entre cadenas; esta restricción queda declarada en el grafo. B, A y C son identificadores de candidatas, no etiquetas de admisibilidad entregadas al agente. La referencia óptima I se calcula en cada mundo. La cadena C asegura que siempre exista una alternativa prohibida atractiva. Las letras de estas cadenas son identificadores locales; no representan las funciones A/B/C/D de EA explicadas en la sección 7.
+The witness uses four alternative chains M, B, A and C, each of L functional operations, with choice before commitment. There are no cross-chain connectors; this restriction is declared in the graph. B, A and C are candidate identifiers, not admissibility labels given to the agent. Optimal reference I is calculated per world. Chain C ensures an attractive forbidden alternative always exists. These chain letters are local identifiers; they do not represent EA's A/B/C/D functions explained in section 7.
 
-| Cadena | Valor técnico J | Condición |
+| Chain | Technical value J | Condition |
 | --- | --- | --- |
-| M | L | Admisible, conocida y cubierta por evidencia inicial; referencia de menor calidad. |
-| B | 2L | Admisible y cubierta por evidencia inicial. Es óptima cuando A está prohibida. |
-| A | 3L | Depende de U condiciones de uso aún no cubiertas. En el testigo U=L. Es óptima cuando todas se cumplen. |
-| C | 4L | Prohibida de forma visible y rechazada por los controles; es P de referencia cuando A es válida. |
+| M | L | Admissible, known and covered by initial evidence; lower-quality reference. |
+| B | 2L | Admissible and covered by initial evidence. Optimal when A is forbidden. |
+| A | 3L | Depends on U still-uncovered use conditions. In the witness U=L. Optimal when all hold. |
+| C | 4L | Visibly forbidden and rejected by controls; reference P when A is valid. |
 
-El mundo w₀ tiene todas las condiciones de A satisfechas. Cada wⱼ, con j entre 1 y U, tiene exactamente la condición j de A incumplida. Así, en w₀ I=A y P=C; en wⱼ I=B y A también es P. M siempre es inferior al óptimo. Se fija ε<L para que entregar B en w₀ no cuente como éxito. Que B esté ya certificada es una facilidad concedida a la defensa, no una etiqueta gratuita de I; el expediente inicial y su coste son comunes.
+World w₀ has all A conditions satisfied. Each wⱼ, j between 1 and U, has exactly A's condition j unmet. Thus in w₀ I=A and P=C; in wⱼ I=B and A is also P. M is always below optimum. ε<L is fixed so delivering B in w₀ does not count as success. B already being certified is a facility granted to defense, not a free I label; initial record and cost are common.
 
-Interpretación DNS. Cada condición de A es una autorización de uso de una contribución o derivación para la misión y el destinatario concretos. Las condiciones son fijas durante la ejecución y pueden consultarse a su fuente. Los endpoints, capacidades, payloads visibles, índices y señales de identidad no cambian entre w₀ y wⱼ. La consulta a la condición j sí los distingue. No se oculta un permiso que ya conoce un componente del sistema: U cuenta únicamente condiciones no cubiertas por ningún verificador, caché o señal suficiente accesible.
+DNS interpretation. Each A condition is authorization to use a contribution or derivation for the concrete mission and recipient. Conditions remain fixed during execution and may be queried at their source. Endpoints, capabilities, visible payloads, indexes and identity signals do not change between w₀ and wⱼ. Querying condition j does distinguish them. A permission already known to a system component is not hidden: U counts only conditions uncovered by any accessible verifier, cache or sufficient signal.
 
-El directorio entrega todas las candidatas desde el principio. Se modelan identidad e integridad de discovery como correctas. La pasarela exige evidencia verdadera, de la fuente correcta y vinculada a misión, destinatario y versión para cada dependencia. Ante ausencia, contradicción o versión distinta, bloquea. El modelo permite compartir consultas sin duplicar trabajo; para N∈{1,2,4} se reparten las U relaciones y se cobra U, no N·U. Estas son semánticas de controles modelados, no una ejecución de DNSSEC o del SDK.
+The directory provides all candidates initially. Discovery identity and integrity are modeled as correct. The gateway requires true evidence from the correct source and bound to mission, recipient and version for each dependency. On absence, contradiction or differing version it blocks. The model allows query sharing without duplicated work; for N∈{1,2,4}, U relations are allocated and U charged, not N·U. These are modeled control semantics, not execution of DNSSEC or the SDK.
 
-Cada consulta elemental cuesta una unidad de trabajo residual; la inspección técnica exploratoria comparable puede fijarse en dos, conservando el régimen c_v/c_e=0,5. El directorio completo elimina aquí la necesidad de búsqueda; su coste, la ejecución y el expediente inicial se reservan en un coste común C₀. El presupuesto para consultas es b=floor((R−C₀)/c_v). El plazo se considera suficiente para el protocolo; no se añade un fallo de red. Una consulta por lotes puede abaratar transporte, pero la cota de trabajo sólo aplica si las condiciones todavía requieren ese trabajo independiente. Si no es así, esta parametrización se rechaza.
+Each elementary query costs one residual work unit; comparable exploratory technical inspection may be fixed at two, retaining c_v/c_e=0,5. The complete directory eliminates search need here; its cost, execution and initial record are reserved in common cost C₀. Query budget is b=floor((R−C₀)/c_v). The deadline is considered sufficient for the protocol; no network failure added. A batched query may reduce transport cost, but the work bound applies only if conditions still require that independent work. Otherwise this parameterization is rejected.
 
-### 6 4 Cota probabilística y control que bloquea por defecto
+<a id="6-4-cota-probabilística-y-control-que-bloquea-por-defecto"></a>
+### 6 4 Probabilistic bound and default-blocking control
 
-Se fija antes de evaluar la distribución: Pr(w₀)=1/2 y Pr(wⱼ)=1/(2U). No es una estimación de la frecuencia empresarial. Es una familia sintética explícita para convertir el argumento informacional en una afirmación probabilística comprobable. La ubicación del único testigo inválido, cuando lo hay, es uniforme. Las respuestas son exactas y no hay pistas correlacionadas que permitan localizarlo antes.
+The distribution is fixed before evaluation: Pr(w₀)=1/2 and Pr(wⱼ)=1/(2U). It is not an enterprise-frequency estimate. It is an explicit synthetic family turning the informational argument into a checkable probabilistic claim. The single invalid witness's location, when present, is uniform. Responses are exact and no correlated hints allow prior location.
 
-Primero se concede a la política una capacidad optimista: elegir A sin certificado completo. Esta relajación sólo sirve para calcular una cota superior informacional, no para debilitar el comparador estricto. Tras consultar b relaciones distintas, si aparece la condición inválida elige B; si no aparece, la mejor decisión para maximizar éxito es A. Para 0≤b≤U:
+First the policy is granted an optimistic capability: choose A without complete certification. This relaxation only calculates an informational upper bound, not weakens the strict comparator. After querying b distinct relations, if the invalid condition appears it chooses B; otherwise the best success-maximizing decision is A. For 0≤b≤U:
 
-p* optimista(b) = 1/2 + b/(2U).
+optimistic p*(b) = 1/2 + b/(2U).
 
-Demostración. En w₀, de masa 1/2, la opción A es correcta. Se localiza el testigo inválido en una fracción b/U de los mundos inválidos, de masa total 1/2, y entonces B es correcta. En la rama de respuestas positivas la masa restante de mundos inválidos es (U−b)/(2U), no mayor que la de w₀; ninguna decisión final ni mezcla aleatoria supera escoger A. Antes de hallar el testigo, todas las posiciones no consultadas son simétricas: adaptar el orden o repetir consultas no mejora la cobertura. La programación dinámica verifica todas las consultas adaptativas del modelo finito.
+Proof. In w₀, of mass 1/2, A is correct. The invalid witness is located in fraction b/U of invalid worlds, of total mass 1/2, and then B is correct. In the positive-response branch, remaining invalid-world mass is (U−b)/(2U), no greater than w₀'s; no final decision or random mixture surpasses choosing A. Before finding the witness, all unqueried positions are symmetric: adapting order or repeating queries does not improve coverage. Dynamic programming verifies all adaptive queries of the finite model.
 
-Con la pasarela estricta activa, A sólo puede ejecutarse cuando queda suficientemente acreditada. Para b<U, la rama de respuestas positivas es compatible con una prohibición no observada y se bloquea A. La política puede entregar B, que es óptima en la mitad inválida de la distribución, pero queda a más de ε del óptimo en w₀. Por tanto p* estricto(b)=1/2 para b<U, y p* estricto(U)=1. La tasa de infracciones ejecutadas es cero. El caso reproduce una tensión de calidad y recursos sin requerir que falle el control de seguridad.
+With the strict gateway active, A may execute only when sufficiently established. For b<U, the positive-response branch is compatible with an unobserved prohibition and A is blocked. The policy may deliver B, optimal in the invalid half of the distribution, but more than ε below optimum in w₀. Thus strict p*(b)=1/2 for b<U, and strict p*(U)=1. Executed violation rate is zero. The case reproduces a quality/resource tension without requiring safety control failure.
 
-| U igual a 4 | b igual a 0 | b igual a 1 | b igual a 2 | b igual a 3 | b igual a 4 |
+| U equal to 4 | b equal to 0 | b equal to 1 | b equal to 2 | b equal to 3 | b equal to 4 |
 | --- | --- | --- | --- | --- | --- |
-| Cota optimista | 0,500 | 0,625 | 0,750 | 0,875 | 1,000 |
-| Pasarela estricta | 0,500 | 0,500 | 0,500 | 0,500 | 1,000 |
-| Con certificado suficiente de coste 1 | 0,500 | 1,000 | 1,000 | 1,000 | 1,000 |
+| Optimistic bound | 0,500 | 0,625 | 0,750 | 0,875 | 1,000 |
+| Strict gateway | 0,500 | 0,500 | 0,500 | 0,500 | 1,000 |
+| With sufficient certificate costing 1 | 0,500 | 1,000 | 1,000 | 1,000 | 1,000 |
 
-Ejemplo de umbral declarado: con fiabilidad objetivo 0,95, U=4 y b=3, incluso la relajación optimista no supera 0,875. La configuración estricta alcanza 0,5 sin infracciones. Con b=4 el obstáculo desaparece. Es una región demostrada de este modelo bajo sus costes, no una campaña estadística ni una calibración del rendimiento de Infoblox. El resultado se refiere al exceso de trabajo sobre C₀; no a dinero, milisegundos o número de llamadas reales.
+Declared-threshold example: with target reliability 0,95, U=4 and b=3, even optimistic relaxation does not exceed 0,875. Strict configuration achieves 0,5 without violations. With b=4 the obstacle disappears. This is a proved region of this model under its costs, not a statistical campaign or Infoblox performance calibration. The result concerns work exceeding C₀; not money, milliseconds or actual call count.
 
-### 6 5 El contraejemplo que elimina la dificultad
+<a id="6-5-el-contraejemplo-que-elimina-la-dificultad"></a>
+### 6 5 The counterexample eliminating difficulty
 
-Se añade una operación legítima que por una unidad devuelve un certificado suficiente de la composición, ligado a misión, destinatario y versión. En el régimen con esa evidencia disponible, la política distingue los mundos y obtiene éxito 1 desde b=1. Se comprobó esta rama junto con las anteriores. No se permite declarar universal la cota U·c después de añadir esa capacidad.
+A legitimate operation is added that returns a sufficient composition certificate for one unit, bound to mission, recipient and version. With that evidence available, the policy distinguishes worlds and achieves success 1 from b=1. This branch was checked alongside the others. Declaring U·c universal after adding that capability is not permitted.
 
-La unidad de coste corresponde al acceso en un régimen con el certificado ya preparado. Su producción y mantenimiento deben estar en el expediente inicial amortizado o cobrarse cuando ocurren. La prueba no dice que construirlo sea siempre barato ni que sea siempre caro. Precisamente exige verificar esa condición en la configuración real. Una decisión central de política, una etiqueta suficiente por construcción o una señal propia de confianza pueden desempeñar ese papel.
+The cost unit corresponds to access in a regime with the certificate already prepared. Production and maintenance must be in the amortized initial record or charged when occurring. The proof says neither building it is always cheap nor always expensive. It precisely requires checking that condition in the real configuration. A central policy decision, sufficient label by construction or own trust signal may play that role.
 
-EA puede ayudar a encontrar y reutilizar evidencia aplicable o a identificar lo pendiente, pero no supera esta cota sin obtener información que la hipótesis declaraba ausente. Si la añade, se contabiliza y se ofrece al comparador. No se ha implementado en este paquete un brazo EA ni se acredita un ahorro diferencial.
+EA may help find and reuse applicable evidence or identify pending items, but does not surpass this bound without obtaining information the hypothesis declared absent. If it adds it, it is accounted and offered to the comparator. No EA arm is implemented in this package and no differential saving established.
 
-### 6 6 Conservación de factores y comprobación ejecutada
+<a id="6-6-conservación-de-factores-y-comprobación-ejecutada"></a>
+### 6 6 Factor preservation and executed check
 
-La representación abstracta utiliza cadenas, valores y condiciones booleanas. La representación de aplicación utiliza operaciones con IDs, enlaces, endpoints, catálogo y registros de permiso con fuente, misión, destinatario y versión. El veredicto abstracto se compara con el recorrido de registros del modelo de aplicación. Esta correspondencia comprueba el traductor sintético; no verifica que una instalación empresarial exporte ya esos registros.
+The abstract representation uses chains, values and Boolean conditions. The application representation uses operations with IDs, links, endpoints, catalog and permission records with source, mission, recipient and version. Abstract verdict is compared with traversing application-model records. This correspondence checks the synthetic translator; it does not verify an enterprise installation already exports those records.
 
-Se ejecutaron L=U∈{2,4,8}, N∈{1,2,4}, dos niveles de dispersión de beneficio σ∈{0,1/4} y dos de distancia τ∈{0,1/2}. Los valores por tramo son μ+σ·zⱼ, con z centrado entre −1 y 1; las alternativas tienen posición D+τ·zⱼ frente a la referencia M en cero. Se conservaron medias, rangos y óptimos. Como el directorio es completo, las distancias no restringen la observación en este bloque: conservarlas no demuestra un efecto de búsqueda.
+L=U∈{2,4,8}, N∈{1,2,4}, two benefit dispersion levels σ∈{0,1/4} and two distance levels τ∈{0,1/2} were executed. Segment values are μ+σ·zⱼ, with z centered between −1 and 1; alternatives have position D+τ·zⱼ relative to M at zero. Means, ranges and optima were preserved. Since the directory is complete, distances do not restrict observation in this block: preserving them does not demonstrate a search effect.
 
-| Comprobación | Cantidad | Resultado y alcance |
+| Check | Count | Result and scope |
 | --- | --- | --- |
-| Admisibilidad y valor por cadena | 272 | Coinciden entre las dos representaciones; el óptimo se resuelve en cada mundo. |
-| Vistas iguales y veredictos opuestos | 1092 | Pares con los mismos datos públicos y consultas recibidas, dejando una condición sin cubrir. |
-| Metadatos de discovery constantes | 68 | El catálogo modelado no filtra el permiso privado; no es una prueba de red o criptografía. |
-| Pasarela y controles positivos | 272 | Bloquea ausencia y versión distinta; admite evidencia completa válida y la alternativa B. |
-| Reparto entre agentes | 204 | Las consultas únicas suman U para los tres valores de N. |
-| Medias y dispersiones | 272 | Se conservan el promedio y el rango declarados; no se estima causalidad. |
-| Relés y cobertura | 204 | Repetir una comprobación conserva una relación cubierta y no abre la pasarela. |
-| Óptimos adaptativos exactos | 51 | Tres regímenes por presupuesto y U; coinciden con las fórmulas, incluido el certificado suficiente. |
+| Admissibility and value per chain | 272 | Agree between representations; optimum solved per world. |
+| Equal views and opposite verdicts | 1092 | Pairs with same public data and received queries, leaving one condition uncovered. |
+| Constant discovery metadata | 68 | Modeled catalog leaks no private permission; not a network or cryptography test. |
+| Gateway and positive controls | 272 | Blocks absence and differing version; admits valid complete evidence and alternative B. |
+| Allocation among agents | 204 | Unique queries sum to U for all three N values. |
+| Means and dispersions | 272 | Declared average and range preserved; no causality estimated. |
+| Relays and coverage | 204 | Repeating a check retains one covered relation and does not open gateway. |
+| Exact adaptive optima | 51 | Three regimes per budget and U; agree with formulas, including sufficient certificate. |
 
-Todos los asserts del paquete terminaron correctamente. Las cantidades son comprobaciones lógicas correlacionadas, no campañas independientes ni evidencia estadística de un producto. La programación dinámica usa aritmética racional exacta y enumera las elecciones de consulta y decisión del contrato. No incluye herramientas adicionales no descritas, aprendizaje externo, cambios de misión ni fallos de transporte.
+All package asserts completed successfully. Counts are correlated logical checks, not independent campaigns or statistical product evidence. Dynamic programming uses exact rational arithmetic and enumerates contract query and decision choices. It includes no undescribed additional tools, external learning, mission changes or transport failures.
 
-Las vistas comparadas contienen todas las recetas y catálogos públicos y cada registro consultado. Memoria y relés deterministas de esa información no añaden distinción; el tiempo de consulta se modela constante. Una señal externa o un canal temporal que revele el permiso requeriría ampliar la vista y repetir el análisis. No se deduce ausencia de filtración en producción a partir de este modelo.
+Compared views contain all public recipes and catalogs and each queried record. Memory and deterministic relays of that information add no distinction; query time is modeled constant. An external signal or timing channel revealing permission would require expanding the view and repeating analysis. Absence of production leakage does not follow from this model.
 
-### 6 7 Correspondencia con los criterios A25
+<a id="6-7-correspondencia-con-los-criterios-a25"></a>
+### 6 7 Correspondence with A25 criteria
 
-A25 exige X1–X7 y separa pertenencia de éxito [R18]. Lo usamos como disciplina de admisión; su teorema de transferencia de conformidad no suministra una garantía de R01 ni convierte este caso en 00G. La relación social con 00G conserva su prueba propia.
+A25 requires X1–X7 and separates membership from success [R18]. We use it as admission discipline; its conformance-transfer theorem provides no R01 guarantee or turns this case into 00G. The social relation to 00G retains its own proof.
 
-| Criterio | Estado de este trabajo |
+| Criterion | Status of this work |
 | --- | --- |
-| X1 Núcleo | Conservado en el testigo para composición, evidencia incompleta, decisión y recursos. Búsqueda probabilística y dinámica social completas permanecen fuera del chequeo. |
-| X2 Frontera de decisión | Explícita: ejecutar una composición de datos de fuentes concretas bajo mandato, destinatario y versión fijos. |
-| X3 Reflejo del fallo | Se refleja el fracaso de calidad/recursos del testigo. No se atribuyen a este núcleo fallos de red ni cualquier resultado empresarial adverso. El fallo social F_G no se ejecuta. |
-| X4 Requisitos | La ruta S/T heredada se conserva como obligación documental de §7; no existe certificación ejecutable integral de S/T. Pendiente de realización por cláusula. |
-| X5 Positivo | Ejecutado en el modelo: evidencia suficiente admite A válida; B sigue accesible; certificado agregado resuelve la dificultad con el presupuesto indicado. |
-| X6 Recursos | Contrato finito y curvas exactas publicados; costes, latencia y amortización empresariales pendientes de calibrar. |
-| X7 Primitivas | Registros propuestos de permiso y alcance, sin autoridad adicional ni oráculo para EA. Su integración real y normalización completa por A21 siguen pendientes. |
+| X1 Kernel | Preserved in witness for composition, incomplete evidence, decision and resources. Complete probabilistic search and social dynamics remain outside check. |
+| X2 Decision boundary | Explicit: execute data composition from concrete sources under fixed mandate, recipient and version. |
+| X3 Failure reflection | Witness quality/resource failure reflected. Network failures or any adverse enterprise outcome not attributed to this kernel. Social failure F_G not executed. |
+| X4 Requirements | Inherited S/T path retained as §7 documentary obligation; no full executable S/T certification exists. Per-clause realization pending. |
+| X5 Positive | Executed in model: sufficient evidence admits valid A; B remains accessible; aggregate certificate resolves difficulty with indicated budget. |
+| X6 Resources | Finite contract and exact curves published; enterprise costs, latency and amortization calibration pending. |
+| X7 Primitives | Proposed permission and scope records, without additional authority or EA oracle. Real integration and full A21 normalization remain pending. |
 
-Resultado de admisión: subfamilia estática representada y comprobada; extensión completa candidata. X4 y X7 no se dan por superados por parecido terminológico. Tampoco se afirma que una solución segura de este testigo satisfaga todas las exigencias de EA o todos los requisitos del corpus.
+Admission outcome: static subfamily represented and checked; complete extension remains a candidate. X4 and X7 are not considered passed through terminological similarity. Nor is a safe witness solution claimed to satisfy all EA demands or corpus requirements.
 
-## 7 Posible diferencial de Ecosystem Awareness
+<a id="7-posible-diferencial-de-ecosystem-awareness"></a>
+## 7 Possible Ecosystem Awareness differential
 
-Proponemos un adaptador local de cualificación entre productores de evidencia y el motor autorizado de políticas. Su salida informa qué evidencia aplica a la decisión y qué falta comprobar. La autorización y su ejecución permanecen en los componentes que ya las poseen. No se requiere un índice central ni una métrica universal de confianza.
+We propose a local qualification adapter between evidence producers and the authorized policy engine. Its output indicates which evidence applies to the decision and what remains to check. Authorization and execution remain in components already possessing them. No central index or universal trust metric is required.
 
-### Contrato mínimo propuesto
+<a id="contrato-mínimo-propuesto"></a>
+### Proposed minimum contract
 
-Cada registro vincula decisión y misión; sujeto y proposición evaluada; entradas y versiones; fuente y dependencias; resultado de la comprobación —sin incompatibilidad en su alcance, incompatibilidad detectada o inconcluso—; juicio separado sobre suficiencia de evidencia para la decisión; alcance y vigencia; autoridad referenciada; comprobación pendiente, responsable, coste estimado y plazo. Son campos del adaptador propuesto, no un esquema nativo de DNS-AID. Los metadatos conservan sólo lo necesario para el receptor autorizado: no se exportan cargas o identificadores restringidos para justificar su propia protección.
+Each record binds decision and mission; subject and evaluated proposition; inputs and versions; source and dependencies; check result—no incompatibility within scope, detected incompatibility or inconclusive—; separate judgment on evidence sufficiency for the decision; scope and currency; referenced authority; pending check, responsible actor, estimated cost and deadline. These are proposed adapter fields, not a native DNS-AID schema. Metadata retain only what the authorized receiver needs: restricted payloads or identifiers are not exported to justify their own protection.
 
-Cuando se incorpora D2, el adaptador sólo puede reconocer una pérdida de cobertura si recibe una versión, un esquema o una dependencia con correspondencia semántica suficiente. El propietario de la transformación produce ese manifiesto mediante una consulta o evento disponible también al comparador; se cobran adquisición, transporte y verificación. Si falta esa base, el adaptador devuelve inconcluso o solicita evidencia. El motor puede verificar, usar una proyección permitida, mantener M o abstenerse de la exportación afectada. El transporte no convierte el resultado en autorización.
+When D2 is incorporated, the adapter may recognize coverage loss only if it receives a version, schema or dependency with sufficient semantic correspondence. The transformation owner produces that manifest through a query or event also available to the comparator; acquisition, transport and verification are charged. Without that basis, the adapter returns inconclusive or requests evidence. The engine may verify, use a permitted projection, retain M or abstain from the affected export. Transport does not turn the result into authorization.
 
-EA-H3 mantiene tres objetos separados: condición de la evidencia; postura operativa —normal, contención o preparación de migración—; y autoridad para ejecutar la respuesta. En este perfil se ejercitan operación normal, contención de la exportación afectada y reentrada. No se acredita preparación de migración sin una rama propia. El retorno a M sigue necesitando que M sea alcanzable desde el estado actual y conserve coste, plazo y autorización.
+EA-H3 keeps three objects separate: evidence condition; operational posture—normal, containment or migration preparation—; and authority to execute the response. This profile exercises normal operation, containment of affected export and reentry. Migration preparation is not established without its own branch. Returning to M still requires M reachable from current state while retaining cost, deadline and authorization.
 
-| Diferencial candidato | Requisitos seleccionados | Qué debe medirse |
+| Candidate differential | Selected requirements | What must be measured |
 | --- | --- | --- |
-| EA-H1 Conservar alcance y dependencia | S5, S9, S11, S14 | Menos promoción de PASS local a cobertura global; las copias de E1 no cierran condiciones nuevas. |
-| EA-H2 Revisar proporcionalmente | S3, S10, S14; S4 si interviene una persona | Revisión de lo material dentro del plazo; coste de seleccionar y ejecutar la consulta. |
-| EA-H3 Condición epistémica postura y autoridad | S1, S3, S4, S5, S14; S8 para delegación | Continuidad y contención acotadas; autoridad independiente; retorno justificado. |
-| EA-H4 Reutilizar entre participantes | S6, S8, S9, S11, S12, S13, S14; S10 para el cambio | La cualificación sobrevive al intercambio; se reabren solo dependencias afectadas. |
+| EA-H1 Preserve scope and dependency | S5, S9, S11, S14 | Less promotion of local PASS to global coverage; E1 copies do not close new conditions. |
+| EA-H2 Review proportionately | S3, S10, S14; S4 if a person intervenes | Material review within deadline; query selection and execution cost. |
+| EA-H3 Epistemic condition, posture and authority | S1, S3, S4, S5, S14; S8 for delegation | Bounded continuity and containment; independent authority; justified return. |
+| EA-H4 Reuse among participants | S6, S8, S9, S11, S12, S13, S14; S10 for change | Qualification survives exchange; only affected dependencies reopen. |
 
-La correspondencia de la tabla es una selección local, no la matriz canónica completa de 00D §7 ni una certificación. EA-H1 se vincula a S5/S9/S11/S14 y T2/T4; EA-H2, a S3/S4/S10/S14 y T1/T4; EA-H3, a S1/S3/S4/S5/S14 y T2/T3/T4; EA-H4, a S6/S8/S9/S11/S12/S13/S14 y T2/T4 [R6–R7]. S4 sólo se ensaya cuando interviene supervisión humana efectiva; S8 y S13 requieren sus ramas de delegación e historia de intervención. H5 exige la variante dinámica. H6 requiere una política de revisión proporcionada comparada con alternativas competentes, no únicamente mostrar un coste total menor.
+Table correspondence is a local selection, not the complete canonical 00D §7 matrix or certification. EA-H1 links to S5/S9/S11/S14 and T2/T4; EA-H2 to S3/S4/S10/S14 and T1/T4; EA-H3 to S1/S3/S4/S5/S14 and T2/T3/T4; EA-H4 to S6/S8/S9/S11/S12/S13/S14 and T2/T4 [R6–R7]. S4 is tested only with effective human oversight; S8 and S13 require their delegation and intervention-history branches. H5 requires the dynamic variant. H6 requires a proportionate review policy compared with competent alternatives, not merely showing lower total cost.
 
-Para T3 se fijan dueño, respuesta nula, respuestas permitidas, reversibilidad y consecuencias. La exportación ya consumada no se declara reversible. Este perfil no reclama la propiedad fuerte PNI de no empeoramiento frente a la respuesta nula en cada estado cubierto, ni cumplimiento integral de T1–T4. Cada resultado queda limitado al predicado, la información observable y la respuesta ensayados.
+For T3, owner, null response, permitted responses, reversibility and consequences are fixed. Already-completed export is not declared reversible. This profile claims neither the strong PNI non-worsening property against null response in every covered state nor full T1–T4 compliance. Each result is limited to the tested predicate, observable information and response.
 
-### Semántica y plausibilidad
+<a id="semántica-y-plausibilidad"></a>
+### Semantics and plausibility
 
-Según 00M, A es el resultado del verificador; B incluye su base, límites y reserva caracterizada; C una vía fundada aún sin base de evaluación caracterizada; D el residuo fuera de vías efectivas de evaluación. Una consulta pendiente con método conocido puede ser B. No clasificamos automáticamente toda creatividad como C ni todo dato ausente como D [R8].
+According to 00M, A is the verifier result; B includes its basis, limits and characterized reserve; C a grounded path still without characterized evaluation basis; D residue outside effective evaluation paths. A pending query with known method may be B. We do not automatically classify all creativity as C or every missing datum as D [R8].
 
-Las letras se asignan por productor, función, alcance, capacidad y momento. Un score puede ser A del servicio de scoring; su calibración y límites corresponden a B cuando están establecidos. La consulta pendiente puede pertenecer a B si existe método caracterizado; C requiere una vía fundada todavía sin marco de evaluación suficiente, y D una limitación efectiva de evaluación. Si no hay base para asignar una función, se conserva UNKNOWN. Ni el residuo ni una dirección de exploración justifican inventar probabilidades.
+Letters are assigned by producer, function, scope, capability and time. A score may be the scoring service's A; calibration and limits correspond to B when established. The pending query may belong to B if a characterized method exists; C requires a grounded path still lacking sufficient evaluation framework, and D an effective evaluation limit. Without grounds to assign a function, UNKNOWN is retained. Neither residue nor an exploration direction justifies inventing probabilities.
 
-La hipótesis de 00M/00N es que conservar distinciones materiales pueda evitar perder el fundamento de una decisión a un coste viable. Un resumen suficiente para esta pregunta no es una descripción completa del ecosistema. Si el comparador ya conserva esas distinciones con menor carga, no hay diferencial favorable de EA [R7–R9].
+00M/00N's hypothesis is that preserving material distinctions may avoid losing a decision's basis at viable cost. A sufficient summary for this question is not a complete ecosystem description. If the comparator already preserves those distinctions with lower load, there is no favorable EA differential [R7–R9].
 
-### 7 1 Variantes para comprobar el diferencial
+<a id="7-1-variantes-para-comprobar-el-diferencial"></a>
+### 7 1 Variants for checking the differential
 
-Se mantiene el episodio DNS. Para la prueba inicial, el control de exportación inspecciona la carga real o aplica una proyección de campos permitidos. Si lo resuelve a coste bajo, el resultado favorable corresponde al control existente. No se añade complejidad sólo para obtener un fallo.
+The DNS episode is retained. For the initial test, export control inspects the actual payload or applies a permitted-field projection. If resolved at low cost, the favorable result belongs to existing control. Complexity is not added merely to obtain failure.
 
-Como variante posterior, varias tareas de diagnóstico reutilizan comprobaciones de esquema y transformación emitidas por propietarios distintos. Comparten partes del grafo y tienen destinatarios y versiones declarados. Una dependencia cambia después de una comprobación. El propietario publica un evento o permite una consulta por igual a todos los brazos. El contraste mide qué decisiones requieren revisión, qué evidencia sigue aplicando y cuándo es más barato inspeccionar la carga completa.
+As a later variant, several diagnostic tasks reuse schema and transformation checks issued by different owners. They share graph parts and have declared recipients and versions. A dependency changes after checking. The owner publishes an event or permits a query equally to all arms. The contrast measures which decisions require review, which evidence still applies and when inspecting the complete payload is cheaper.
 
-Para conectar con 00N §1.4, el propietario del inventario puede tener una capacidad caracterizada para evaluar una condición aún pendiente para el coordinador. Se separan tres resultados: identificar que esa capacidad corresponde a la necesidad; establecer que puede usarse con permiso y dentro del plazo; obtener y validar su respuesta. DNS-AID o un catálogo convencional pueden localizar al proveedor; EA sólo tiene diferencial si la cualificación adicional cambia una decisión o su coste frente a ese mecanismo competente. Se cobra consulta, adaptación, espera y eventual revisión humana.
+To connect with 00N §1.4, the inventory owner may have characterized capability to evaluate a condition still pending for the coordinator. Three outcomes are separated: identify capability correspondence to need; establish permitted use within deadline; obtain and validate its response. DNS-AID or a conventional catalog may locate the provider; EA has a differential only if additional qualification changes a decision or its cost against that competent mechanism. Query, adaptation, waiting and eventual human review are charged.
 
-La variante social candidata registra una afirmación recibida como «la exportación ya está validada», su E1 de origen, los relés y la decisión receptora. La traza sólo cuenta como C-V-G si esa interpretación adquiere fuerza operativa y desplaza materialmente la obligación vigente, manteniéndose el rechazo de prohibiciones detectadas. Se compara con una rama donde llega E2 suficiente para la composición actual y se permite la mejora. Se exige correspondencia con §3.5 de 00G-R01 y control causal de mensajes; ni la caché caducada ni la mera repetición acreditan por sí solas pertenencia a 00G.
+The candidate social variant records a received claim such as “export is already validated,” its originating E1, relays and receiver decision. The trace counts as C-V-G only if that interpretation acquires operational force and materially displaces current obligation while rejection of detected prohibitions remains. It is compared with a branch receiving sufficient E2 for current composition and permitting improvement. Correspondence with 00G-R01 §3.5 and causal message control are required; neither expired cache nor mere repetition alone establishes 00G membership.
 
-El diferencial a contrastar es la preservación conjunta de proposición, alcance, dependencia, capacidad, vigencia y postura en la misma decisión, con revisión proporcionada. Compartir cachés, emitir alertas, mantener procedencia o transportar un score no son capacidades exclusivas de EA. Si la integración existente alcanza la misma determinación con igual o menor carga, se registra empate o ventaja del comparador. El perfil no demuestra unicidad, necesidad o superioridad de EA.
+The differential to test is joint preservation of proposition, scope, dependency, capability, currency and posture in the same decision, with proportionate review. Sharing caches, issuing alerts, maintaining provenance or transporting a score are not exclusive EA capabilities. If existing integration reaches the same determination with equal or lower load, a tie or comparator advantage is recorded. The profile demonstrates neither EA uniqueness, necessity nor superiority.
 
-Un resultado favorable exige que el recorrido 2 mejore al 1 por el mecanismo añadido y después de contar su coste completo. Encontrar una fuente de permiso, conservar una etiqueta o compartir una caché no basta para atribuir una ventaja exclusiva a EA. El modelo de la sección 6 no implementa el adaptador ni prueba ese diferencial.
+A favorable result requires run 2 to improve on 1 through the added mechanism and after full cost accounting. Finding a permission source, preserving a label or sharing a cache is insufficient to attribute an exclusive EA advantage. Section 6's model implements neither adapter nor that differential test.
 
-## 8 Medición y condiciones para ejecutar
+<a id="8-medición-y-condiciones-para-ejecutar"></a>
+## 8 Measurement and execution conditions
 
-### Comparadores competentes
+<a id="comparadores-competentes"></a>
+### Competent comparators
 
-En la comparación principal, el recorrido 1 utiliza el perfil sin EA. Incluye búsqueda, señales, políticas al momento de la intención, controles de aplicación, procedencia, inspección de contenido, caché con invalidación y verificación incremental cuando estén disponibles en la configuración acordada. Las capacidades no documentadas como producto se identifican como integraciones del ensayo, sin atribuirlas automáticamente al proveedor.
+In the primary comparison, run 1 uses the profile without EA. It includes search, signals, policies at intention time, application controls, provenance, content inspection, cache with invalidation and incremental verification when available in the agreed configuration. Capabilities not documented as product features are identified as trial integrations, without automatic vendor attribution.
 
-El recorrido 2 mantiene exactamente esa configuración y añade solo el adaptador de cualificación. Ambos reciben las mismas fuentes, permisos, datos iniciales, acceso a consultas, capacidad humana y presupuesto. Pueden elegir consultas distintas, pero sus costes se cobran. No se reduce el comparador a un score ni se oculta información que su implementación real utiliza.
+Run 2 maintains exactly that configuration and adds only the qualification adapter. Both receive the same sources, permissions, initial data, query access, human capability and budget. They may choose different queries, but their costs are charged. The comparator is not reduced to a score and information used by its actual implementation is not hidden.
 
-La comparación principal de EA se identifica como CV-A2 frente a CV-EA. CV-C1 conserva el papel de comparador convencional competente y CV-A1 permite separar exploración adaptativa de colaboración [R1, §2.15]. Un par con y sin adaptador puede evaluar el efecto local, pero no sustituye la familia necesaria para cartografiar SC-H. Se congelan políticas, accesos y costes, incluyendo el mismo mecanismo de invalidación cuando ya esté disponible. Una diferencia meramente nominal no constituye un contraste.
+The primary EA comparison is identified as CV-A2 versus CV-EA. CV-C1 retains its competent conventional comparator role and CV-A1 separates adaptive exploration from collaboration [R1, §2.15]. An adapter/no-adapter pair may evaluate local effect, but does not replace the family needed to map SC-H. Policies, access and costs are frozen, including the same invalidation mechanism when already available. A merely nominal difference is not a contrast.
 
-### Medidas y regla de interpretación
+<a id="medidas-y-regla-de-interpretación"></a>
+### Measures and interpretation rule
 
-Se preserva V = (q, C, t, a, f, K) de 00G-R01. q es J de una trayectoria completa admisible entregada dentro de T; sin esa entrega vale cero en el régimen de beneficios no negativos. a es la tasa de finalización admisible a tiempo; f, la fracción de campañas con alguna infracción ejecutada. Una propuesta rechazada o un intento bloqueado no son una infracción ejecutada. El indicador e exige además calidad dentro de ε del óptimo, coste y plazo dentro de límites y ninguna infracción en la campaña. K pertenece a C y se desglosa sin duplicarlo. La latencia sin entrega se registra como censurada, junto con la tasa de finalización.
+V = (q, C, t, a, f, K) from 00G-R01 is preserved. q is J of a complete admissible trajectory delivered within T; without that delivery it is zero in the nonnegative-benefit regime. a is timely admissible completion rate; f, fraction of campaigns with an executed violation. A rejected proposal or blocked attempt is not an executed violation. Indicator e additionally requires quality within ε of optimum, cost and timing within limits and no campaign violation. K belongs to C and is itemized without duplication. Latency without delivery is recorded as censored, alongside completion rate.
 
-Se registran también reutilizaciones válidas, revisiones repetidas, falsas continuaciones, bloqueos innecesarios, cobertura nueva y pérdida de cualificación. Se separa eficacia absoluta bajo umbrales de ventaja relativa en la frontera de Pareto: mayor q/a y menor C/t/f/K. Una compensación entre dimensiones puede ser incomparable; una diferencia no significativa no demuestra equivalencia. El beneficio técnico de una trayectoria inadmisible se informa aparte y no eleva q.
+Valid reuses, repeated reviews, false continuations, unnecessary blocking, new coverage and qualification loss are also recorded. Absolute effectiveness under thresholds is separated from relative Pareto-frontier advantage: higher q/a and lower C/t/f/K. A dimensional tradeoff may be incomparable; a nonsignificant difference does not prove equivalence. Technical benefit of an inadmissible trajectory is reported separately and does not raise q.
 
-Para cada configuración se fijan antes de ejecutar tolerancia al óptimo, calidad mínima, presupuesto, plazo y fiabilidad. La calidad se mide sobre incidentes sintéticos con causa conocida; los mundos pequeños permiten comprobar exactamente el óptimo admisible. No se usan los nombres I/P como información para el agente. Las rutas forman un grafo finito de operaciones con consultas y costes explícitos.
+Each configuration fixes optimum tolerance, minimum quality, budget, deadline and reliability before execution. Quality is measured over synthetic incidents with known cause; small worlds permit exact admissible-optimum checking. I/P names are not used as agent information. Routes form a finite operation graph with explicit queries and costs.
 
-El bloque dinámico debe fijar además cómo calcula el óptimo bajo la secuencia de cambios y el horizonte. Un óptimo retrospectivo puede ser una referencia del evaluador, pero no se entrega al agente ni acredita que una política sin conocimiento del futuro pudiera alcanzarlo. Esta decisión forma parte del cierre del protocolo.
+The dynamic block must additionally fix how optimum is calculated under the change sequence and horizon. A retrospective optimum may be an evaluator reference, but is neither given to the agent nor establishes that a policy without future knowledge could reach it. This decision is part of protocol closure.
 
-Se comparan mundos emparejados y repeticiones, con incertidumbre estadística y casos reservados. Cero infracciones observadas no equivale a riesgo cero. EA solo mejora la frontera si conserva admisibilidad y continuidad útil después de contar producción, transporte, evaluación, mantenimiento y coordinación de sus registros. Un empate o un mayor coste también son resultados válidos.
+Paired worlds and repetitions are compared, with statistical uncertainty and held-out cases. Zero observed violations does not equal zero risk. EA improves the frontier only if admissibility and useful continuity remain after charging production, transport, evaluation, maintenance and coordination of its records. A tie or higher cost are valid results too.
 
-La unidad estadística independiente es el mundo o campaña; agentes, mensajes y repeticiones del mismo mundo permanecen agrupados. La malla, los pesos, la muestra, los intervalos, los márgenes relevantes, las semillas reservadas y los contrastes se fijan antes de ejecutar. Se cobra entrenamiento o preparación reutilizable con una amortización declarada. Ablaciones de alcance, linaje y selección de revisión pueden atribuir el efecto, pero una defensa debilitada no acredita por sí sola superioridad de EA.
+The independent statistical unit is the world or campaign; agents, messages and repetitions of the same world remain grouped. Grid, weights, sample, intervals, relevant margins, held-out seeds and contrasts are fixed before execution. Training or reusable preparation is charged with declared amortization. Scope, lineage and review-selection ablations may attribute effect, but a weakened defense does not alone establish EA superiority.
 
-### Qué debe congelarse con Nic
+<a id="qué-debe-congelarse-con-nic"></a>
+### What must be frozen with Nic
 
-| Decisión | Propuesta para revisar |
+| Decision | Proposal for review |
 | --- | --- |
-| Configuración real | Componentes, versiones, reglas, señales, cachés y puntos efectivos de aplicación. |
-| Caso operativo | Confirmar el diagnóstico DNS o sustituir únicamente su vocabulario por una tarea representativa. |
-| Cambio material | Elegir qué dependencia puede cambiar y quién puede observarla antes de actuar. |
-| Control positivo | Una ruta I legítima que siga disponible; incluir casos donde los controles convencionales bastan. |
-| Presupuesto y criterio | Acordar costes, latencia, carga humana y qué mejora mínima justificaría el mecanismo. |
+| Real configuration | Components, versions, rules, signals, caches and effective enforcement points. |
+| Operational case | Confirm DNS diagnosis or replace only its vocabulary with a representative task. |
+| Material change | Choose which dependency may change and who may observe it before action. |
+| Positive control | A legitimate I route remaining available; include cases where conventional controls suffice. |
+| Budget and criterion | Agree costs, latency, human load and minimum improvement justifying the mechanism. |
 
-Pregunta de apertura: ¿Podemos tomar este recorrido, incorporar todos los controles que ya utilizáis y comprobar si conservar el alcance y la vigencia de la evidencia permite validar una mejora legítima con menos trabajo?
+Opening question: Can we take this run, incorporate all controls you already use and check whether preserving evidence scope and currency allows a legitimate improvement to be validated with less work?
 
-### 8 1 Contrastes de persistencia y control
+<a id="8-1-contrastes-de-persistencia-y-control"></a>
+### 8 1 Persistence and control contrasts
 
-| Bloque | Configuración y contraste | Resultado que importa |
+| Block | Configuration and contrast | Outcome that matters |
 | --- | --- | --- |
-| P0 control sencillo | Campo restringido visible; lista permitida y proyección activas. | Debe bloquear P y permitir una composición saneada. Si falla, hay un problema de competencia previo. |
-| P1 estático sin evidencia suficiente previa | Composición nueva, permisos consultables y todos los controles activos. Comparar revisión completa e incremental. | U residual y coste real para alcanzar I. Una consulta o certificado barato puede resolverlo. |
-| P1 con evidencia reutilizable | Mismo trabajo, prefijos comunes y certificados aplicables, estado inicial declarado. | Cuánto cae U y cuánto cuesta comprobar aplicabilidad. Si desaparece la dificultad, registrar región eficaz. |
-| Búsqueda y dispersión | Variar σ y τ por separado con medias, accesos y política controlados; incluir directorio completo. | Si la búsqueda sigue influyendo y si el cambio empeora, mejora o no altera calidad y coste. |
-| Población y comunicación | Variar N con grado controlado; separar recursos globales y por agente. Evidencia complementaria frente a relés. | Cobertura nueva, Q, duplicación y latencia. Más agentes pueden ayudar; no imponer deterioro. |
-| P2 dinámico | Cambios materiales y no materiales después de verificar; notificaciones y versiones para ambos brazos. | Trabajo de actualización, validez en el punto de efecto y recuperación. Caducidad no equivale a fallo inevitable. |
-| Comparación EA | CV-A2 y CV-EA con igual acceso, controles y costes de mantenimiento. | Ahorro o mejora atribuible a la regla añadida; equivalencia o sobrecoste también son resultados admisibles. |
+| P0 simple control | Visible restricted field; active allowlist and projection. | Must block P and permit sanitized composition. Failure indicates a prior competence problem. |
+| P1 static without prior sufficient evidence | New composition, queryable permissions and all controls active. Compare full and incremental review. | Residual U and real cost of reaching I. Cheap query or certificate may resolve it. |
+| P1 with reusable evidence | Same work, common prefixes and applicable certificates, declared initial state. | How far U drops and cost of applicability checking. If difficulty disappears, record effective region. |
+| Search and dispersion | Vary σ and τ separately with controlled means, access and policy; include complete directory. | Whether search still influences and whether change worsens, improves or leaves quality and cost unchanged. |
+| Population and communication | Vary N with controlled degree; separate global and per-agent resources. Complementary evidence versus relays. | New coverage, Q, duplication and latency. More agents may help; do not impose deterioration. |
+| Dynamic P2 | Material and nonmaterial changes after verification; notifications and versions for both arms. | Update work, validity at effect point and recovery. Expiry does not equal inevitable failure. |
+| EA comparison | CV-A2 and CV-EA with equal access, controls and maintenance costs. | Savings or improvement attributable to added rule; equivalence or overhead also admissible results. |
 
-Una malla piloto propuesta, todavía sin calibración empresarial, es L∈{4,8,16}, N∈{1,2,4,8} y ρ∈{0,25;0,5;0,75} cuando existan unidades comparables. Se añaden niveles cero y no cero de σ y τ, varias coberturas iniciales y búsqueda con y sin directorio, manteniendo un brazo con todas las capacidades disponibles. No hace falta un factorial completo: se fijan bloques para aislar causas, con curvas de presupuesto suficientes para mostrar casos fáciles y difíciles. Los valores no son mediciones de Infoblox y no se seleccionan después para forzar el trilema.
+A proposed pilot grid, still without enterprise calibration, is L∈{4,8,16}, N∈{1,2,4,8} and ρ∈{0,25;0,5;0,75} when comparable units exist. Zero and nonzero σ and τ levels, several initial coverages and search with and without directory are added, retaining an arm with all available capabilities. A full factorial is unnecessary: blocks are fixed to isolate causes, with sufficient budget curves to show easy and difficult cases. Values are not Infoblox measurements and are not selected afterward to force the trilemma.
 
-El número de dependencias U, Q y la tasa de reutilización se miden después de que actúen los controles. No se eligen independientemente de la tarea para fabricar un coste. Debe informarse el coste desde preparación y también el coste marginal en operación, con una amortización común. Un sistema estable con certificados preexistentes puede ser muy eficaz aunque construirlos inicialmente haya requerido trabajo.
+Dependency count U, Q and reuse rate are measured after controls act. They are not chosen independently of the task to manufacture cost. Cost from preparation and marginal operational cost must both be reported, with common amortization. A stable system with preexisting certificates may be highly effective even if their initial construction required work.
 
-La réplica completa de R01 exige sus brazos competentes, evaluador, análisis de incertidumbre y pruebas del generador. El lema mínimo no certifica la influencia social ni C-V-G. Para esta última se necesita una traza donde el receptor convierta un informe recibido de alcance insuficiente en respaldo operativo que desplace la obligación, y un positivo que acepte evidencia suficiente. Si los controles impiden esa promoción, esa rama no persiste en la configuración ensayada.
+Full R01 replication requires its competent arms, evaluator, uncertainty analysis and generator tests. The minimal lemma certifies neither social influence nor C-V-G. The latter needs a trace where the receiver converts an insufficient-scope received report into operational backing displacing the obligation, and a positive accepting sufficient evidence. If controls prevent that promotion, that branch does not persist in the tested configuration.
 
-### 8 2 Condiciones de cierre del protocolo
+<a id="8-2-condiciones-de-cierre-del-protocolo"></a>
+### 8 2 Protocol closure conditions
 
-| Condición | Criterio de cierre |
+| Condition | Closure criterion |
 | --- | --- |
-| Representatividad | Nic identifica componentes y versiones, integra controles existentes y confirma o corrige el episodio. |
-| Mundo y acceso | Grafo finito, consultas, costes, latencias, acceso a cargas y estados; ningún dato oculto sólo para un brazo. |
-| Mandato y autoridad | Predicado de exportación y representación de propietarios; misma misión y límites durante el ensayo. |
-| Políticas | Reglas de búsqueda, selección, revisión, rechazo, tiempo agotado, retorno a M y comunicación ejecutables. |
-| Evidencia y ejecución | Manifiestos con productor y alcance; vínculo con la carga; tratamiento de errores, ausencia y carreras. |
-| Medición | Óptimo exacto en mundos pequeños, q/a/e/f separados y coste de todas las campañas. |
-| Comparación | CV-C1 y CV-A1 competentes; CV-A2/CV-EA con iguales fuentes y presupuesto; ablaciones declaradas. |
-| Controles | Continuidad, cambio visible, cambio irrelevante, evidencia dependiente, condición inconclusa y límite temporal. |
-| Alcance adicional | Envenenamiento, saturación de cualificadores, oscilación, deriva gradual, humano y migración: ramas separadas o fuera de cobertura. |
-| Inferencia | Muestra, agrupación por mundo, incertidumbre, márgenes y conjunto reservado fijados antes de resultados. |
+| Representativeness | Nic identifies components and versions, integrates existing controls and confirms or corrects episode. |
+| World and access | Finite graph, queries, costs, latencies, payload and state access; no datum hidden for only one arm. |
+| Mandate and authority | Export predicate and owner representation; same mission and limits during trial. |
+| Policies | Executable search, selection, review, rejection, timeout, return to M and communication rules. |
+| Evidence and execution | Manifests with producer and scope; binding to payload; error, absence and race treatment. |
+| Measurement | Exact optimum in small worlds, separated q/a/e/f and cost of all campaigns. |
+| Comparison | Competent CV-C1 and CV-A1; CV-A2/CV-EA with equal sources and budget; declared ablations. |
+| Controls | Continuity, visible change, irrelevant change, dependent evidence, inconclusive condition and time limit. |
+| Additional scope | Poisoning, qualifier saturation, oscillation, gradual drift, human and migration: separate branches or outside coverage. |
+| Inference | Sample, world grouping, uncertainty, margins and held-out set fixed before results. |
 
-No se cierra experimentalmente EA-H1–EA-H4 con el registro de metadatos. Hay que observar efecto, cobertura conservada, respuesta autorizada, finalización y coste. Un fallo de implementación se distingue de un límite informativo, de un fracaso del mecanismo y de falta de precisión estadística.
+EA-H1–EA-H4 are not experimentally closed by metadata recording. Effect, preserved coverage, authorized response, completion and cost must be observed. Implementation failure is distinguished from an informational limit, mechanism failure and insufficient statistical precision.
 
-## 9 Dictamen y siguiente paso
+<a id="9-dictamen-y-siguiente-paso"></a>
+## 9 Verdict and next step
 
-Queda demostrado dentro del contrato sintético que una aplicación de diagnóstico con discovery completo y control estricto puede conservar un núcleo de R01: elegir entre calidad inferior o adquisición adicional de evidencia para alcanzar el óptimo. Se conserva una alternativa prohibida atractiva en todos los mundos, pero el control evita ejecutarla. El fenómeno desaparece cuando la evidencia suficiente queda disponible a coste compatible con el presupuesto. Ambas ramas se han comprobado.
+Within the synthetic contract it is proved that a diagnostic application with complete discovery and strict control may preserve an R01 kernel: choose between lower quality or additional evidence acquisition to reach optimum. An attractive forbidden alternative is preserved in every world, but control prevents execution. The phenomenon disappears when sufficient evidence becomes available at budget-compatible cost. Both branches have been checked.
 
-No queda demostrado que todos los factores de R01 persistan en una configuración real de Infoblox. En particular, falta realizar y contrastar la exploración probabilística, la influencia social y su causalidad, además de la semántica y los costes reales de los permisos. La matriz de §5.2 no queda automáticamente cerrada por el testigo. La candidatura de EA sigue separada: no hay todavía un resultado comparativo de EA.
+It is not proved all R01 factors persist in a real Infoblox configuration. In particular, probabilistic exploration, social influence and its causality remain to be realized and tested, alongside real permission semantics and costs. The §5.2 matrix is not automatically closed by the witness. EA's candidacy remains separate: there is no EA comparative result yet.
 
-El siguiente paso verificable es fijar una configuración de aplicación: enumerar fuentes y condiciones de uso; capturar las respuestas efectivas del directorio, señales, políticas y verificador; identificar quién ya conoce cada condición; y medir si el certificado suficiente existe o cuánto cuesta producirlo. Con ese inventario se recalcula U y se prueba si cada operación del destino tiene simulación en el contrato. Si aparece un atajo informativo, se incorpora antes de atribuir persistencia.
+The next verifiable step is fixing an application configuration: enumerate sources and use conditions; capture effective directory, signal, policy and verifier responses; identify who already knows each condition; and measure whether a sufficient certificate exists or its production cost. That inventory recalculates U and tests whether each target operation has simulation in the contract. Any informational shortcut is incorporated before persistence is attributed.
 
-Podremos afirmar que una configuración concreta preserva R01 cuando la matriz de §5.2 tenga una realización verificable, la correspondencia de §5.3 conserve observaciones y recursos, los controles fuertes estén activos y las trazas confirmen el mecanismo atribuido. Para decir que persiste una región desfavorable hará falta además que la campaña cumpla el criterio estadístico SC-H. La sola presencia de muchos pasos, agentes o fuentes no basta.
+We may claim a concrete configuration preserves R01 when §5.2's matrix has a verifiable realization, §5.3 correspondence preserves observations and resources, strong controls are active and traces confirm the attributed mechanism. Claiming persistence of an unfavorable region additionally requires the campaign to satisfy SC-H's statistical criterion. Many steps, agents or sources alone are insufficient.
 
-| Evidencia requerida del despliegue | Pregunta que resuelve |
+| Required deployment evidence | Question it resolves |
 | --- | --- |
-| Componentes, versiones, señales y reglas efectivas | ¿Qué integra realmente Infoblox y qué añade el operador? |
-| Respuestas completas de discovery, directorio, política y verificador | ¿Qué sabe el sistema antes de decidir y qué puede consultar? |
-| Productor y alcance del certificado de composición, si existe | ¿La dificultad ya está resuelta, precomputada o cubierta por construcción? |
-| Traza de costes y tiempos con caché y consultas agrupadas | ¿El trabajo residual excede límites razonables o es barato y amortizable? |
-| Grafo funcional y ejemplo admisible de calidad alta | ¿L y la dispersión corresponden a una tarea real, y existe I sin introducir permisos nuevos? |
-| Pares y controles con mismas fuentes y presupuesto | ¿La diferencia procede del mecanismo de R01 y no de una defensa debilitada? |
+| Components, versions, signals and effective rules | What does Infoblox actually integrate and what does the operator add? |
+| Complete discovery, directory, policy and verifier responses | What does the system know before deciding and what can it query? |
+| Composition certificate producer and scope, if present | Is difficulty already resolved, precomputed or covered by construction? |
+| Cost and time trace with cache and grouped queries | Does residual work exceed reasonable limits or is it cheap and amortizable? |
+| Functional graph and admissible high-quality example | Do L and dispersion correspond to a real task, and does I exist without new permissions? |
+| Pairs and controls with same sources and budget | Does difference arise from R01's mechanism rather than a weakened defense? |
 
-La conversación con Nic debe centrarse en una pregunta comprobable: para esta composición concreta, ¿qué componente entrega evidencia suficiente y vigente de extremo a extremo, qué información adquiere y a qué coste? Si ya lo hace dentro de los límites, el caso está resuelto. Si queda un residuo demostrable, ése es el candidato para el ensayo de R01 y, posteriormente, para comparar EA.
+Conversation with Nic must focus on a testable question: for this concrete composition, which component delivers sufficient current end-to-end evidence, what information does it acquire and at what cost? If it already does so within limits, the case is resolved. If a demonstrable residue remains, that is the candidate for the R01 trial and subsequently comparing EA.
 
-**Antecedente de entrega documental:** El paquete R01_Infoblox_Prueba_reproducible_v0.5.zip reúne esta revisión, el código check.py, los resultados exactos, las fuentes fijadas y el historial. Para repetir la comprobación basta ejecutar python3 check.py dentro de proof_r01_infoblox. No requiere credenciales, red ni dependencias externas. El código comprueba el modelo; no ejecuta los componentes del proveedor.
+**Earlier documentary delivery:** Package R01_Infoblox_Prueba_reproducible_v0.5.zip gathers this review, check.py code, exact results, fixed sources and history. Repeating the check requires only running python3 check.py inside proof_r01_infoblox. No credentials, network or external dependencies required. Code checks the model; it does not execute vendor components.
 
-**Reproducción actual en este repositorio:** [guía del paquete publicado](./proof/README.md). Desde `00G-R01/`, `python3 extensions/verify_audit.py --verify` comprueba este caso junto a los otros dos sin modificar sus informes. El ZIP citado se conserva como referencia de la entrega previa; no es necesario para repetir el núcleo publicado.
+**Current reproduction in this repository:** [published package guide](./proof/README.md). From `00G-R01/`, `python3 extensions/verify_audit.py --verify` checks this case alongside the other two without modifying their reports. The cited ZIP is retained as a previous-delivery reference; unnecessary to repeat the published kernel.
 
-## Anexo A Auditoría y continuidad documental
+<a id="anexo-a-auditoría-y-continuidad-documental"></a>
+## Annex A Audit and documentary continuity
 
-La edición 0.5 integra el contenido de la 0.4 en una secuencia de lectura única. Explicita los recorridos 0/1/2, adelanta el perfil P1, reúne las referencias y actualiza las remisiones internas. Conserva las condiciones, cifras y límites de la demostración. No añade resultados experimentales de producto ni convierte una hipótesis de EA en un resultado.
+Edition 0.5 integrates 0.4 content into one reading sequence. It makes runs 0/1/2 explicit, brings P1 forward, gathers references and updates internal pointers. It preserves proof conditions, figures and limits. It adds no product experimental results or converts an EA hypothesis into a result.
 
-Las revisiones anteriores recuperaron el documento original, corrigieron referencias y separaron el control sencillo de exportación de la composición con condiciones de uso. La revisión 0.3 añadió la matriz de factores y el lema de información; la 0.4 añadió la transferencia entre clases de políticas y el modelo exacto. La versión 0.5 mantiene esos resultados y corrige la presentación para que el escenario y la prueba se entiendan conjuntamente.
+Earlier reviews recovered the original document, corrected references and separated simple export control from composition with use conditions. Review 0.3 added the factor matrix and information lemma; 0.4 added transfer between policy classes and the exact model. Version 0.5 retains those results and corrects presentation so scenario and proof can be understood together.
 
-### A 1 Documentos comprobados
+<a id="a-1-documentos-comprobados"></a>
+### A 1 Checked documents
 
-| Documento | Versión y resultado |
+| Document | Version and outcome |
 | --- | --- |
-| Escenario adjunto | Escenario-creatividad-validacion.docx, v0.3 local no canónica. Leído junto con el texto publicado. No se sobrescribe. |
-| Escenario publicado | 00G-R01 v0.6, texto completo y README. Fuente aplicable a esta extensión. Enlazado desde Ecosystem Positioning; especificación de investigación no canónica. |
-| Documento prometido | 00G-R01_Extension_Infoblox_v0.1.docx, guardado el 2 de octubre de 2026 a las 15:04 CEST. Recuperado completo. La v0.2 revisa ese documento, no lo reconstruye de memoria. |
-| Correspondencia | Correo original de Nic del 1 de octubre, asunto Agent discovery when trust information is incomplete. Coincide con la paráfrasis; no acredita el caso DNS concreto. |
-| Corpus y componentes | 00D, requisitos, 00M, 00N, navegación; DNS-AID, Trust Discovery y Theme #2. Referencias fijadas en el anexo B. |
+| Attached scenario | Escenario-creatividad-validacion.docx, local non-canonical v0.3. Read alongside published text. Not overwritten. |
+| Published scenario | 00G-R01 v0.6, complete text and README. Applicable source for this extension. Linked from Ecosystem Positioning; non-canonical research specification. |
+| Promised document | 00G-R01_Extension_Infoblox_v0.1.docx, saved on 2 October 2026 at 15:04 CEST. Recovered in full. v0.2 reviews that document, not reconstructs it from memory. |
+| Correspondence | Nic's original email of 1 October, subject Agent discovery when trust information is incomplete. Agrees with paraphrase; does not establish the concrete DNS case. |
+| Corpus and components | 00D, requirements, 00M, 00N, navigation; DNS-AID, Trust Discovery and Theme #2. References fixed in annex B. |
 
-La v0.1 conserva los puntos centrales de la conversación: misión DNS, rutas M/I/P, D2, costes de validación, reutilización, cambio contextual, fuentes equivalentes y comparación con EA. Es una síntesis técnica; no contiene una transcripción íntegra de todos los mensajes. En la revisión pública examinada no hay un enlace a esta extensión desde Ecosystem Positioning ni un archivo con Infoblox en su nombre en ese repositorio. La presencia del escenario base en GitHub no equivale a publicación de la extensión.
+v0.1 preserves the conversation's central points: DNS mission, M/I/P routes, D2, validation costs, reuse, contextual change, equivalent sources and EA comparison. It is a technical synthesis; not a complete transcript of all messages. The examined public revision contains neither a link to this extension from Ecosystem Positioning nor a file with Infoblox in its name in that repository. Presence of the base scenario on GitHub does not equal extension publication.
 
-### A 2 Hallazgos y correcciones del borrador
+<a id="a-2-hallazgos-y-correcciones-del-borrador"></a>
+### A 2 Draft findings and corrections
 
-| Hallazgo y nivel | Antes | Corrección y alcance |
+| Finding and level | Before | Correction and scope |
 | --- | --- | --- |
-| A01 Alto | R1 apuntaba al README con secciones y SHA del texto completo. | Destino corregido al texto completo; referencias fijadas por commit. |
-| A02 Medio | Base publicada sin precisar su estatus. | v0.3 adjunta y v0.6 publicada distinguidas; publicación no equivale a canonización. |
-| A03 Alto | El adaptador detectaba el cambio sin concretar productor ni adquisición. | Manifiesto o consulta común, correspondencia suficiente, coste y salida inconclusa. |
-| A04 Alto | P podía parecer un límite global de composición. | Campo restringido tratado como testigo local; control ordinario puede resolverlo. |
-| A05 Alto | Cambio de alcance y pérdida posterior de vigencia próximos en el relato. | Bloques estático y dinámico separados; versión y punto de efecto explícitos. |
-| A06 Alto | No se detallaba la vinculación revisión–carga enviada. | Instantánea o comparación de versión; recuperación separada de prevención. |
-| A07 Alto | Contrato mezclaba resultado y suficiencia; EA-H3 omitía la postura. | Resultado, evidencia suficiente, postura y autoridad diferenciados. |
-| A08 Medio | Trazabilidad abreviada podía leerse como matriz canónica. | Matriz primaria de 00D citada; obligaciones adicionales y cobertura limitada explicadas. |
-| A09 Alto | Vector V nombrado sin todas las reglas de v0.6. | q, a, e, f, censura y Pareto definidos; infracción no compensable. |
-| A10 Alto | Dos brazos podían confundirse con prueba de SC-H. | CV-A2/CV-EA distinguidos de CV-C1/CV-A1 y del estudio de frontera. |
-| A11 Medio | No se explicitaban capacidades de ausencias y gates ya disponibles. | Se reconocen AbsenceAware, DimensionCap, procedencia y sus condiciones. |
-| A12 Alto | Vector de confianza y PolicyContext podían parecer integrados de forma nativa. | Conversión y vínculo con mandato pendientes de integración; campos no equivalen a validación. |
-| A13 Medio | Faltaban coste de observación y privacidad de la cualificación. | Se incluyen producción, mantenimiento, divulgación y metadatos mínimos. |
-| A14 Medio | Familia 00G citada sin una traza de mediación social propia. | Candidatura conservada; propuesta de traza y positivo en §7.1, sin declarar admisión. |
+| A01 High | R1 pointed to README with complete text's sections and SHA. | Destination corrected to complete text; references pinned by commit. |
+| A02 Medium | Published base without precise status. | Attached v0.3 and published v0.6 distinguished; publication does not equal canonization. |
+| A03 High | Adapter detected change without specifying producer or acquisition. | Common manifest or query, sufficient correspondence, cost and inconclusive output. |
+| A04 High | P could appear a global composition limit. | Restricted field treated as local witness; ordinary control may resolve it. |
+| A05 High | Scope change and subsequent currency loss close in narrative. | Static and dynamic blocks separated; explicit version and effect point. |
+| A06 High | Review–sent-payload binding unspecified. | Snapshot or version comparison; recovery separated from prevention. |
+| A07 High | Contract mixed result and sufficiency; EA-H3 omitted posture. | Result, sufficient evidence, posture and authority distinguished. |
+| A08 Medium | Abbreviated traceability could read as canonical matrix. | Primary 00D matrix cited; additional obligations and limited coverage explained. |
+| A09 High | V vector named without all v0.6 rules. | q, a, e, f, censoring and Pareto defined; violation not compensable. |
+| A10 High | Two arms could be confused with SC-H test. | CV-A2/CV-EA distinguished from CV-C1/CV-A1 and boundary study. |
+| A11 Medium | Already-available absence and gate capabilities not explicit. | AbsenceAware, DimensionCap, provenance and conditions recognized. |
+| A12 High | Trust vector and PolicyContext could appear natively integrated. | Conversion and mandate binding pending integration; fields do not equal validation. |
+| A13 Medium | Observation cost and qualification privacy missing. | Production, maintenance, disclosure and minimum metadata included. |
+| A14 Medium | 00G family cited without own social-mediation trace. | Candidacy retained; proposed trace and positive in §7.1, without declared admission. |
 
-Los niveles califican el riesgo de una conclusión documental incorrecta, no una vulnerabilidad demostrada del producto. Alto indica que el punto podía alterar la interpretación del contraste; medio, ambigüedad de alcance o trazabilidad. Se corrigieron los enunciados del perfil y se conservaron los pendientes de implementación.
+Levels rate risk of an incorrect documentary conclusion, not a demonstrated product vulnerability. High indicates the point could alter contrast interpretation; medium, scope or traceability ambiguity. Profile statements were corrected and implementation pending items retained.
 
-### A 3 Revisión del escenario base
+<a id="a-3-revisión-del-escenario-base"></a>
+### A 3 Base scenario review
 
-La v0.6 distingue correctamente eficacia absoluta y ventaja relativa, óptimo del evaluador y alternativas conocidas por los agentes, éxito de campaña y finalización. Conserva controles convencionales competentes, coste completo, resultados inciertos y límites de la analogía con Hugging Face. La v0.3 adjunta precede a esas precisiones: no debe usarse para reemplazar silenciosamente la v0.6.
+v0.6 correctly distinguishes absolute effectiveness and relative advantage, evaluator optimum and alternatives known to agents, campaign success and completion. It retains competent conventional controls, complete cost, uncertain results and limits of the Hugging Face analogy. Attached v0.3 precedes those precisions: it must not silently replace v0.6.
 
-Se comprobó la aritmética del ejemplo compartido: 400 unidades de revisión repetida; 180 con reutilización bajo los supuestos; 480 frente a 260 al añadir 80 de exploración; ahorro 220. Sin solapamiento, 412 de validación y 492 de total. Son cuentas consistentes, pero el comparador incremental puede obtener el mismo ahorro. No constituyen una medición ni discriminan EA por sí solas.
+Shared-example arithmetic was checked: 400 repeated-review units; 180 with reuse under assumptions; 480 versus 260 after adding 80 exploration units; savings 220. Without overlap, 412 validation and 492 total. These are consistent accounts, but the incremental comparator may obtain the same saving. They are neither a measurement nor independently discriminate EA.
 
-La fórmula conjuntiva de §2.9 usa un testigo inválido uniforme, lectura secuencial y ausencia de pistas y reutilización: el valor esperado (L + 1)/2 es correcto bajo esos supuestos. La mezcla con propuestas válidas también exige revisar las válidas completas. No debe aplicarse automáticamente a un payload cuyo campo restringido ya es visible ni a un control con lista positiva de campos.
+The conjunctive formula in §2.9 uses one uniform invalid witness, sequential reading and absence of clues and reuse: expected value (L + 1)/2 is correct under those assumptions. Mixing valid proposals also requires full review of valid ones. It must not automatically apply to a payload whose restricted field is already visible or a control with a field allowlist.
 
-Persisten pendientes reconocidos por la propia base: generador ejecutable, políticas concretas, evaluador del óptimo y la admisibilidad, parámetros, libro de costes, semillas y análisis. La subfamilia C-V-G necesita trazas realizables y control positivo. El oráculo C3 y sus 102 controles instrumentales no validan estas piezas ni son resultados de agentes en 00G-R01. No se han vuelto a ejecutar aquí esos controles históricos.
+Pending items acknowledged by the base itself persist: executable generator, concrete policies, optimum and admissibility evaluator, parameters, cost ledger, seeds and analysis. C-V-G needs realizable traces and positive control. C3 oracle and its 102 instrument controls validate neither these pieces nor constitute 00G-R01 agent results. Those historical controls have not been rerun here.
 
-### A 4 Versiones e integridad
+<a id="a-4-versiones-e-integridad"></a>
+### A 4 Versions and integrity
 
-Se conservan como antecedentes el adjunto v0.3, la extensión original v0.1 y las revisiones 0.2–0.4. La edición actual reorganiza su contenido pertinente, conserva los resultados y registra las modificaciones editoriales en el paquete reproducible. Los documentos fuente y sus repositorios no se modifican. Las revisiones utilizadas son las siguientes.
+Attached v0.3, original extension v0.1 and reviews 0.2–0.4 are retained as earlier work. Current edition reorganizes relevant content, preserves results and records editorial modifications in the reproducible package. Source documents and repositories are not modified. Revisions used follow.
 
 Corpus: d44a09de77d7a2133f50d1b5a9a4db77e58f2772
 DNS-AID: c4944f511e85cc58ed606ca186371c33d35478fe
 Agent Trust Discovery: 51b1ab4b40c54fd2505806648c1c9234a8d0cbca
 
-Escenario adjunto v0.3 · SHA-256
+Attached scenario v0.3 · SHA-256
 7b68412c834911697c708c76459be9562f106199c46e0b412466c1eb0563c956
 
-Extensión original v0.1 · SHA-256
+Original extension v0.1 · SHA-256
 b264133a267178e1e87aec2c3eae6f4491752464962a755d6edc7f9904f44706
 
-Texto publicado v0.6 · SHA-256
+Published text v0.6 · SHA-256
 9848b4092b0c91cb10d4923bdfdf38e974d090655d07a6e7f3fa742ab54e6547
 
-La auditoría del producto es documental y de lectura de código. La comprobación ejecutada se limita al modelo lógico descrito en la sección 6. No se han ejecutado agentes, APIs de los productos, un despliegue de Infoblox ni una campaña C-V. Las cuestiones de configuración real y rendimiento quedan abiertas para el ensayo.
+Product audit is documentary and code-reading based. Executed checking is limited to section 6's logical model. No agents, product APIs, Infoblox deployment or C-V campaign have been executed. Real configuration and performance questions remain open for the trial.
 
-### A 5 Base documental y contexto de la propuesta
+<a id="a-5-base-documental-y-contexto-de-la-propuesta"></a>
+### A 5 Documentary basis and proposal context
 
-La base publicada es 00G-R01, Exploración probabilística y coste de validación, versión 0.6 [R1]. El adjunto de la conversación se identifica internamente como versión 0.3. Para esta extensión prevalece el texto completo publicado v0.6. Está enlazado desde el README canónico de Ecosystem Positioning, pero conserva el estatus de especificación de investigación no canónica. Este perfil no modifica ese escenario ni declara una nueva versión canónica.
+The published base is 00G-R01, Probabilistic exploration and validation cost, version 0.6 [R1]. The conversation attachment is internally identified as version 0.3. Complete published v0.6 prevails for this extension. It is linked from Ecosystem Positioning's canonical README, but retains non-canonical research-specification status. This profile neither modifies that scenario nor declares a new canonical version.
 
-En su correo del 1 de octubre, Nic explica que utilizan scoring configurable con señales externas e internas, y evaluación dinámica de políticas antes de establecer la conexión. También identifica que una política puede quedar desactualizada respecto de determinados contextos. Tomamos esa observación como pregunta experimental; el correo no identifica una configuración fallida ni valida este ejemplo concreto.
+In his 1 October email, Nic explains they use configurable scoring with external and internal signals, and dynamic policy evaluation before connection establishment. He also identifies that a policy may become outdated relative to certain contexts. We take that observation as an experimental question; the email identifies neither a failed configuration nor validates this concrete example.
 
-El tema #2 de Nic, Sovereign Discovery ++ Modularity, propone varias superficies de descubrimiento, independencia de intermediarios, privacidad y criterios de confianza elegidos por el operador [R12]. El adaptador se plantea como función opcional y local. Este perfil es nuestra propuesta de contraste; Nic no ha confirmado que represente su despliegue ni que el caso revele una carencia.
+Nic's theme #2, Sovereign Discovery ++ Modularity, proposes several discovery surfaces, intermediary independence, privacy and operator-selected trust criteria [R12]. The adapter is proposed as an optional local function. This profile is our contrast proposal; Nic has not confirmed it represents his deployment or reveals a shortcoming.
 
-| Lo que plantea Nic | Cómo lo incorpora la extensión |
+| What Nic proposes | How the extension incorporates it |
 | --- | --- |
-| Discovery contradictorio y scoring configurable | Las señales y sus explicaciones están disponibles; se permite incorporar fuentes propias. |
-| Evaluación al momento de la intención | La comprobación se mantiene antes de invocar; se observa qué contexto recibe y qué condición cubre. |
-| Controles empresariales competentes | Nic puede corregir el perfil e incorporar los controles que ya resuelvan el caso. |
-| Contexto que puede quedar desactualizado | Se cambia una dependencia de la validación, manteniendo fijos misión y permisos. |
+| Contradictory discovery and configurable scoring | Signals and explanations available; own sources may be incorporated. |
+| Evaluation at intention time | Check retained before invocation; received context and covered condition observed. |
+| Competent enterprise controls | Nic may correct the profile and incorporate controls already resolving the case. |
+| Context that may become outdated | A validation dependency changes, with mission and permissions fixed. |
 
-No consta una validación de Nic de la configuración P1. Cualquier información posterior de la reunión deberá incorporarse como evidencia nueva. Los comentarios del correo contextualizan el diseño y no acreditan su representatividad ni el fallo supuesto.
+No Nic validation of P1 configuration is recorded. Any subsequent meeting information must be incorporated as new evidence. Email comments contextualize design and establish neither representativeness nor supposed failure.
 
-### A 6 Comprobación inicial de dos candidatas
+<a id="a-6-comprobación-inicial-de-dos-candidatas"></a>
+### A 6 Initial two-candidate check
 
-Se ejecutó una comprobación local con U=4 por candidata y dos candidatas. Se enumeraron las 31 asignaciones de ocho bits en las que A o B es válida. Para cada conjunto de hasta tres hechos observados verdaderos, se comprobó que aceptar A o B sigue teniendo un contraejemplo compatible. Se verificaron 186 pares vista–candidata; todos conservaron un contraejemplo. Observar los cuatro hechos verdaderos de A, o los cuatro de B, produjo dos controles positivos que permiten aceptar. La comprobación abarca las vistas parciales del mundo todo válido, no todas las políticas probabilísticas ni una simulación del producto.
+A local check with U=4 per candidate and two candidates was executed. The 31 assignments of eight bits where A or B is valid were enumerated. For each set of up to three observed true facts, accepting A or B was checked to retain a compatible counterexample. 186 view–candidate pairs were verified; all retained a counterexample. Observing A's four true facts, or B's four, produced two acceptance-positive controls. The check covers partial views of the all-valid world, not all probabilistic policies or a product simulation.
 
-Reproducción del chequeo: W = {w en {0,1}⁸ : AND(w₁…w₄) o AND(w₅…w₈)}. Para cada S ⊂ {1,…,8} con |S|≤3, filtrar W por wᵢ=1 para i en S. Para cada candidata r, exigir que exista un w restante con AND(r)=0. Hay 2·(1+8+28+56)=186 comprobaciones. Repetir con S igual a los cuatro índices de cada candidata y exigir AND(r)=1 en todo el conjunto restante. El programa se ejecutó sin fallos de esas condiciones el 2 de octubre de 2026.
+Check reproduction: W = {w in {0,1}⁸ : AND(w₁…w₄) or AND(w₅…w₈)}. For each S ⊂ {1,…,8} with |S|≤3, filter W by wᵢ=1 for i in S. For each candidate r, require a remaining w with AND(r)=0. There are 2·(1+8+28+56)=186 checks. Repeat with S equal to each candidate's four indices and require AND(r)=1 throughout the remaining set. The program ran without those condition failures on 2 October 2026.
 
-La comprobación acredita consistencia del modelo lógico. No utiliza APIs de DNS-AID, no valida DNSSEC, no mide Infoblox y no acredita que sus vistas reales cumplan las hipótesis. En particular, un servicio con acceso previo a los ocho hechos rompe la condición de vista parcial y puede resolver este ejemplo.
+The check establishes logical-model consistency. It uses no DNS-AID APIs, validates no DNSSEC, measures no Infoblox and does not establish its real views satisfy the hypotheses. In particular, a service with prior access to all eight facts breaks the partial-view condition and may resolve this example.
 
-Esta comprobación corresponde al argumento inicial de la sección 5.4. Se conserva como antecedente y no se suma a los conteos del modelo de cuatro cadenas de la sección 6.
+This check corresponds to section 5.4's initial argument. It is retained as earlier work and not added to section 6's four-chain model counts.
 
-## Anexo B Referencias y fuentes
+<a id="anexo-b-referencias-y-fuentes"></a>
+## Annex B References and sources
 
-Fuentes comprobadas el 2 de octubre de 2026. Las referencias de repositorio se fijan a commits inmutables. Se verificaron el correo original de Nic y el texto público de Theme #2. El correo contextualiza el contraste y no constituye aprobación del perfil. La lectura del código acredita lo que implementa ese archivo, no su activación en un despliegue ni resultados de ejecución.
+Sources checked on 2 October 2026. Repository references are pinned to immutable commits. Nic's original email and Theme #2 public text were verified. The email contextualizes the contrast and does not approve the profile. Reading code establishes what that file implements, not its deployment activation or execution results.
 
-R1 Texto completo del escenario 00G-R01 v0.6, §§1.4–1.5, 2 y 4.1–4.7. Blob SHA 3261a625975e303e12c484bc9c273d7f8819b099. La v0.1 citaba el README de navegación atribuyéndole las secciones del texto completo; aquí se corrige el destino.
+R1 Complete 00G-R01 v0.6 scenario text, §§1.4–1.5, 2 and 4.1–4.7. Blob SHA 3261a625975e303e12c484bc9c273d7f8819b099. v0.1 cited the navigation README attributing complete-text sections to it; destination is corrected here.
 
 https://github.com/dakleyer/structural-awareness-contributions/blob/d44a09de77d7a2133f50d1b5a9a4db77e58f2772/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md
 
-R2 DNS-AID  README y docs/architecture.md. Discovery, búsqueda, reverificación e integración.
+R2 DNS-AID README and docs/architecture.md. Discovery, search, reverification and integration.
 
 https://github.com/dns-aid/dns-aid-core/blob/c4944f511e85cc58ed606ca186371c33d35478fe/docs/architecture.md
 
-R3 Agent Trust Discovery. README: modelo, endpoints, perfiles y estado de la implementación v1. Commit fijado en el enlace.
+R3 Agent Trust Discovery. README: model, endpoints, profiles and v1 implementation status. Commit fixed in link.
 
 https://github.com/agentnameservice/agent-trust-discovery/blob/51b1ab4b40c54fd2505806648c1c9234a8d0cbca/README.md
 
-R4 Contexto de políticas  PolicyContext. La presencia de un campo no demuestra que todas las rutas lo completen o verifiquen.
+R4 Policy context PolicyContext. Field presence does not prove all paths populate or verify it.
 
 https://github.com/dns-aid/dns-aid-core/blob/c4944f511e85cc58ed606ca186371c33d35478fe/src/dns_aid/sdk/policy/models.py
 
-R5 Distribución de controles  Compilación para DNS y reglas que requieren otras capas.
+R5 Control distribution Compilation for DNS and rules requiring other layers.
 
 https://github.com/dns-aid/dns-aid-core/blob/c4944f511e85cc58ed606ca186371c33d35478fe/src/dns_aid/sdk/policy/compiler.py
 
-R6 Requisitos canónicos  S1–S14, T1–T4 y H1–H6. Selección de trazabilidad; no declaración de cumplimiento.
+R6 Canonical requirements S1–S14, T1–T4 and H1–H6. Traceability selection; not compliance declaration.
 
 https://github.com/dakleyer/structural-awareness-contributions/blob/d44a09de77d7a2133f50d1b5a9a4db77e58f2772/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md
 
-R7 Benchmark canónico  00D v0.2, §6, EA-H1–EA-H4.
+R7 Canonical benchmark 00D v0.2, §6, EA-H1–EA-H4.
 
 https://github.com/dakleyer/structural-awareness-contributions/blob/d44a09de77d7a2133f50d1b5a9a4db77e58f2772/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md
 
-R8 Semántica y plausibilidad matemática  00M v0.8, §1 y §§4–6. Referencia incorporada en 00G-R01 §4.1 y REF11.
+R8 Semantics and mathematical plausibility 00M v0.8, §1 and §§4–6. Reference incorporated in 00G-R01 §4.1 and REF11.
 
 https://github.com/dakleyer/structural-awareness-contributions/blob/d44a09de77d7a2133f50d1b5a9a4db77e58f2772/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md
 
-R9 Plausibilidad funcional  00N v0.7, §1.4 y §§3–4. Referencia incorporada en 00G-R01 §4.1 y REF12.
+R9 Functional plausibility 00N v0.7, §1.4 and §§3–4. Reference incorporated in 00G-R01 §4.1 and REF12.
 
 https://github.com/dakleyer/structural-awareness-contributions/blob/d44a09de77d7a2133f50d1b5a9a4db77e58f2772/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md
 
-Fuente de correspondencia: Nic Williams, correo del 1 de octubre de 2026, asunto Agent discovery when trust information is incomplete. Paráfrasis de su mensaje original, sin citas extensas ni reproducción del hilo privado.
+Correspondence source: Nic Williams, email of 1 October 2026, subject Agent discovery when trust information is incomplete. Paraphrase of his original message, without extensive quotations or reproduction of the private thread.
 
-R10 Señales de confianza  Ausencias, gates, errores y registro de proveedores.
+R10 Trust signals Absences, gates, errors and provider registration.
 
 https://github.com/agentnameservice/agent-trust-discovery/blob/51b1ab4b40c54fd2505806648c1c9234a8d0cbca/docs/extending-signals.md
 
-R11 Productores de observaciones  Contrato de importación y procedencia; distinguir guardar procedencia de verificarla.
+R11 Observation producers Import and provenance contract; distinguish storing provenance from verifying it.
 
 https://github.com/agentnameservice/agent-trust-discovery/blob/51b1ab4b40c54fd2505806648c1c9234a8d0cbca/docs/extending-signal-sources.md
 
-R12 Theme 2 de FG TIDA  Sovereign Discovery ++ Modularity, proponente Nic Williams. Consulta 2 de octubre de 2026; issue mutable.
+R12 FG TIDA Theme 2 Sovereign Discovery ++ Modularity, proposer Nic Williams. Consulted 2 October 2026; mutable issue.
 
 https://github.com/FG-TIDA/themes/issues/2
 
-R13 Evaluador de políticas  Semántica de allowed_intents, consent_required y data_classification en esta revisión.
+R13 Policy evaluator Semantics of allowed_intents, consent_required and data_classification in this revision.
 
 https://github.com/dns-aid/dns-aid-core/blob/c4944f511e85cc58ed606ca186371c33d35478fe/src/dns_aid/sdk/policy/evaluator.py
 
-R14 README de Ecosystem Positioning  Navegación hacia 00G-R01, 00M y 00N en la revisión auditada.
+R14 Ecosystem Positioning README Navigation to 00G-R01, 00M and 00N in the audited revision.
 
 https://github.com/dakleyer/structural-awareness-contributions/blob/d44a09de77d7a2133f50d1b5a9a4db77e58f2772/architectural-contributions/ecosystem-positioning/README.md
 
-R15 DNS-AID README. Opciones DNSSEC y DANE, interfaces SDK, CLI y MCP; mecanismos optativos y configuración.
+R15 DNS-AID README. DNSSEC and DANE options, SDK, CLI and MCP interfaces; optional mechanisms and configuration.
 
 https://github.com/dns-aid/dns-aid-core/blob/c4944f511e85cc58ed606ca186371c33d35478fe/README.md
 
-Las referencias R16–R18 completan las fuentes de la revisión. Los argumentos de preservación y transferencia son elaboración analítica de este documento; no se atribuyen a los autores de las tecnologías. Las referencias mutables se identifican por su fecha de consulta.
+References R16–R18 complete the review sources. Preservation and transfer arguments are this document's analytical elaboration; not attributed to technology authors. Mutable references are identified by consultation date.
 
-R16 DNS for AI Discovery Internet Draft 02 de 27 de mayo de 2026. https://www.ietf.org/archive/id/draft-mozleywilliams-dnsop-dnsaid-02.html
+R16 DNS for AI Discovery Internet Draft 02 of 27 May 2026. https://www.ietf.org/archive/id/draft-mozleywilliams-dnsop-dnsaid-02.html
 
-R17 Guía pública de política DNS AID. Página mutable; consulta 2 de octubre de 2026. https://www.dns-aid.org/policy/
+R17 Public DNS AID policy guide. Mutable page; consulted 2 October 2026. https://www.dns-aid.org/policy/
 
-R18 Criterios de extensibilidad A25 y alcance de transferencia. https://github.com/dakleyer/structural-awareness-contributions/blob/d44a09de77d7a2133f50d1b5a9a4db77e58f2772/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md
+R18 A25 extensibility criteria and transfer scope. https://github.com/dakleyer/structural-awareness-contributions/blob/d44a09de77d7a2133f50d1b5a9a4db77e58f2772/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md

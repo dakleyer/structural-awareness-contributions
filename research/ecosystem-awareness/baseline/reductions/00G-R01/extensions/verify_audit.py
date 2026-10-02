@@ -16,7 +16,8 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parent
-BASE_DIGEST = "9848b4092b0c91cb10d4923bdfdf38e974d090655d07a6e7f3fa742ab54e6547"
+BASE_DIGEST = "856c0d8dad3b27f1f48226a7978f2288dace3cc316912de083a5ea9dbb5e4d99"
+BASE_SOURCE_DIGEST = "9848b4092b0c91cb10d4923bdfdf38e974d090655d07a6e7f3fa742ab54e6547"
 CASES = {
     "hugging-face": ("check.py", "results.json"),
     "infoblox": ("proof/check.py", "proof/results.json"),
@@ -127,17 +128,22 @@ def run():
     assert family["domain_step"](family["encode"](known_denial, denied, 2), ("commit", 0, 2), denied) is None
 
     document_paths = [ROOT / "CRITERIA_AND_AUDIT.md", ROOT / "METHODOLOGICAL_FOUNDATIONS.md",
-                      ROOT / "EDITORIAL_REVIEW.md", ROOT.parent / "README.md"]
+                      ROOT / "EDITORIAL_REVIEW.md", ROOT.parent / "README.md",
+                      ROOT.parent / "TRANSLATION_TRACE.md", ROOT.parent / "TRANSLATION_TRACE.json"]
     for case in CASES:
         document_paths.extend((ROOT / case).rglob("*.md"))
     for path in sorted(document_paths):
-        name = "../README.md" if path == ROOT.parent / "README.md" else str(path.relative_to(ROOT))
+        name = "../" + path.name if path.parent == ROOT.parent else str(path.relative_to(ROOT))
         fingerprints[name] = digest(path)
     fingerprints["verify_audit.py"] = digest(Path(__file__))
     return {"status": "PASS", "scope": "internal reproducibility and bounded logical audit only",
             "reviewed_commit": "cbb69f1d673c7844610fdde01fb78a3394497bb0",
             "base_blob_sha": "3261a625975e303e12c484bc9c273d7f8819b099",
-            "base_sha256": BASE_DIGEST, "reproduced": reproduced,
+            "base_sha256": BASE_DIGEST, "base_source_sha256": BASE_SOURCE_DIGEST,
+            "base_translation_blob_sha": "94874371b14beab370000ba8582714f89ba9d3d4",
+            "reading_language": "en",
+            "translation_source_commit": "c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340",
+            "reproduced": reproduced,
             "integrity": integrity, "additional_quality_equivalences": quality_checks,
             "falsifiers": falsifiers, "fingerprints": fingerprints,
             "independent_review": False, "full_R01_extensionality": "NOT_ESTABLISHED",

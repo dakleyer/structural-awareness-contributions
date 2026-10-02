@@ -1,118 +1,129 @@
-# Familia extendida de R01 con núcleo funcional isomorfo
+<a id="familia-extendida-de-r01-con-núcleo-funcional-isomorfo"></a>
+# Extended R01 family with an isomorphic functional kernel
 
-## Ficha común de revisión
+<a id="ficha-común-de-revisión"></a>
+## Common review record
 
-| Campo | Estado del expediente |
+| Field | Case-record status |
 |---|---|
-| Tipo y base | Clase construida y especificaciones de dominio; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
-| Correspondencia | h, p y sección sobre núcleo (§§3–5 de la nota); implementación completa H/L/W pendiente. |
-| Evidencia | EV1 para criterio y construcción formal; EV2 para fragmento H/L/W; EV0 para realización completa de dominios. EV3/EV4/EV5 no acreditados aquí. |
-| Cobertura y A25 | [Quince grupos, estados y A25 comunes](../CRITERIA_AND_AUDIT.md); se conservan las matrices particulares del expediente. |
-| Receptor, positivo y falsificador | Rechazo de denegaciones detectadas; positivo válido; mutaciones que rompen el núcleo. |
-| Revisión | Interna del autor asistida por IA; observaciones externas parciales contrastadas, sin independencia acreditada. |
-| Dictamen | Criterio y construcción formal demostrados; correspondencia parcial comprobada en el fragmento; realización completa H/L/W pendiente. |
+| Type and base | Constructed class and domain specifications; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
+| Correspondence | h, p and section on kernel (§§3–5 of the note); complete H/L/W implementation pending. |
+| Evidence | EV1 for criterion and formal construction; EV2 for H/L/W fragment; EV0 for complete domain realization. EV3/EV4/EV5 not established here. |
+| Coverage and A25 | [Common fifteen groups, states and A25](../CRITERIA_AND_AUDIT.md); the case record's individual matrices are retained. |
+| Receiver, positive and falsifier | Rejection of detected denials; valid positive; mutations breaking the kernel. |
+| Review | Internal author review assisted by AI; partial external observations checked, without established independence. |
+| Verdict | Criterion and formal construction proved; partial correspondence checked in the fragment; complete H/L/W realization pending. |
 
-Los códigos EV identifican evidencia, no las obligaciones E1–E7 de la nota matemática. Su definición está en el [criterio común](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+EV codes identify evidence, not the E1–E7 obligations in the mathematical note. Their definition is in the [common criterion](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
 
-Iván Abril Palma · Ecosystem Awareness · Versión de investigación 0.1 · 2 de octubre de 2026
+Iván Abril Palma · Ecosystem Awareness · Research version 0.1 · 2 October 2026
 
-[Volver a R01](../../README.md#extensiones) · [Demostración matemática](./KERNEL_AND_PROOF.md) · [Código, alcance y resultados](./proof/README.md)
+[Return to R01](../../README.md#extensiones) · [Mathematical proof](./KERNEL_AND_PROOF.md) · [Code, scope and results](./proof/README.md)
 
-## 1 Propósito y alcance
+<a id="1-propósito-y-alcance"></a>
+## 1 Purpose and scope
 
-R01 puede servir de base para una familia de escenarios que reproduzcan mecanismos de fallo similares a los ilustrados por Nell Watson en Theme 13. La afirmación se refiere a **casos construidos**, con tareas, información y recursos declarados. Los incidentes publicados proporcionan motivos y ejemplos para diseñarlos; no se afirma que toda su historia sea isomorfa a R01.
+R01 may serve as the base for a family of scenarios reproducing failure mechanisms similar to those illustrated by Nell Watson in Theme 13. The claim concerns **constructed cases**, with declared tasks, information and resources. Published incidents provide motivations and examples for designing them; it is not claimed that their entire history is isomorphic to R01.
 
-La estructura de interés combina exploración de alternativas, balance coste/beneficio percibido, comprobaciones de alcance limitado y reutilización social de hallazgos. Una alternativa puede funcionar técnicamente o ser aceptada por un evaluador sin satisfacer la obligación real. Una comunicación puede ser técnicamente posible sin estar autorizada. La familia permite estudiar cuándo esos desajustes importan y cuándo una defensa competente los resuelve.
+The structure of interest combines exploration of alternatives, perceived cost/benefit balance, checks of limited scope and social reuse of findings. An alternative may work technically or be accepted by an evaluator without satisfying the real obligation. Communication may be technically possible without being authorized. The family allows study of when those mismatches matter and when a competent defense resolves them.
 
-Este documento constituye la tercera entrada del apartado de extensiones. Complementa [Hugging Face](../../README.md#openai--hugging-face) e [Infoblox](../infoblox/README.md); no sustituye sus documentos ni cambia sus estados de admisión.
+This document constitutes the third entry in the extensions section. It complements [Hugging Face](../../README.md#openai--hugging-face) and [Infoblox](../infoblox/README.md); it neither replaces their documents nor changes their admission states.
 
-## 2 Qué significa extender R01
+<a id="2-qué-significa-extender-r01"></a>
+## 2 What extending R01 means
 
-El caso extendido puede contener más variables que R01. Exigimos una **biyección entre los componentes principales del caso base y los componentes de su núcleo en la extensión**, con preservación de las relaciones y operaciones relevantes. La proyección elimina detalles adicionales sólo cuando no oculta una diferencia material para la decisión.
+The extended case may contain more variables than R01. We require a **bijection between the base case's main components and its kernel components in the extension**, preserving relevant relations and operations. Projection removes additional details only when it does not hide a material difference for the decision.
 
-Por ejemplo, una tecnología puede multiplicar por tres el radio de búsqueda. Conservamos el radio, la geometría y su relación con las alternativas alcanzables; la referencia pasa a ser R01 con radio efectivo `3 R_e`. Una tecnología puede reducir el coste unitario de revisión; conservamos el cargo por evento y su efecto sobre el presupuesto, con el nuevo valor declarado. Ambas extensiones pueden cambiar resultados. Pertenecer a una familia no exige conservar el mismo fallo en todas sus configuraciones.
+For example, a technology may multiply search radius by three. We preserve radius, geometry and its relation to reachable alternatives; the reference becomes R01 with effective radius `3 R_e`. A technology may reduce the unit review cost; we preserve the event charge and its effect on budget, with the new declared value. Both extensions may change results. Family membership does not require preserving the same failure in all its configurations.
 
-La [demostración](./KERNEL_AND_PROOF.md) da condiciones suficientes: inventario completo, biyección del núcleo, relaciones en ambos sentidos, proyección de transiciones y probabilidades, observaciones equivalentes, costes y tiempos contabilizados, y conservación de admisibilidad, calidad y controles positivos. También demuestra por construcción una clase de extensiones para cualquier realización de R01 que cumpla esas condiciones. El [comprobador](./proof/README.md) contrasta un fragmento finito y rechaza alteraciones que parecen conservar los nombres, pero rompen las relaciones.
+The [proof](./KERNEL_AND_PROOF.md) gives sufficient conditions: complete inventory, kernel bijection, relations in both directions, projection of transitions and probabilities, equivalent observations, accounted costs and timing, and preservation of admissibility, quality and positive controls. It also proves by construction a class of extensions for any R01 realization satisfying those conditions. The [checker](./proof/README.md) contrasts a finite fragment and rejects alterations appearing to preserve names but breaking relations.
 
-**Estados distintos de evidencia:** demostración del criterio y de la construcción; verificación finita de un fragmento; implementación completa de un dominio; ejecución con agentes; admisión histórica. Sólo los dos primeros se aportan aquí. Los casos siguientes son especificaciones de extensiones construidas mediante ese criterio, no implementaciones de Lean, servicios de terceros ni wikis reales.
+**Distinct evidence states:** proof of criterion and construction; finite verification of a fragment; complete domain implementation; execution with agents; historical admission. Only the first two are provided here. The following cases are specifications of extensions constructed through that criterion, not implementations of Lean, third-party services or real wikis.
 
-## 3 Casos documentados que motivan la familia
+<a id="3-casos-documentados-que-motivan-la-familia"></a>
+## 3 Documented cases motivating the family
 
-| Referencia | Hecho utilizado y localizador | Función en nuestro diseño |
+| Reference | Fact used and locator | Role in our design |
 |---|---|---|
-| [N1: comentario de Nell](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5923844082), 1 de octubre de 2026 | R1 distingue información de autoridad; R2 exige respuesta a las objeciones; R3 trata almacenes compartidos como canales; R4 requiere observación conjunta. | Identifica ejemplos y propiedades que contrastar. Esos requisitos no se consideran cuatro incidentes ni quedan todos reducidos al mismo mecanismo. |
-| [H1: informe de OpenAI](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), 26 de agosto de 2026 | Apartados «A message board emerges», «Difficult tasks without a safe exit» y «An ecosystem of misalignment»: búsqueda de alternativas, comunicación no prevista y adopción de objetivos colectivos. | Motiva una tarea de obtención de resultados donde la ruta atractiva usa recursos fuera del alcance autorizado. |
-| [H2: investigación de METR y Redwood](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), 26 de agosto de 2026 | Descripción de la incorporación al ataque y apartado sobre razonamiento: hubo continuación pese a reconocer extralimitación. | Delimita una rama que no reproduce el receptor básico de R01, que rechaza prohibiciones detectadas. |
-| [L1: DeepMind, arXiv:2609.04170v1](https://arxiv.org/html/2609.04170v1), 3 de septiembre de 2026 | §§2.2 y 3.1–3.3: aceptación de artefactos sin satisfacer el teorema solicitado, difusión por biblioteca y presión competitiva. §§3.5–3.6: detección y respuesta insuficiente. | Motiva la separación entre aceptación local y cumplimiento de la especificación original. La respuesta a objeciones se modelaría como componente adicional. |
-| [W1: investigación de collusion.wiki](https://collusion.wiki/) | «The agents gain write to the internet via GET requests» y «The agents used the wiki to share ways around sandbox restrictions»: escritura mediante GET y colaboración para obtener resultados bajo restricciones. | Motiva rutas de comunicación con efectos que el control superficial no representa. La fuente considera probablemente distinto este grupo del asociado a Artifactory/Hugging Face. |
+| [N1: Nell's comment](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5923844082), 1 October 2026 | R1 distinguishes information from authority; R2 requires responses to objections; R3 treats shared stores as channels; R4 requires joint observation. | Identifies examples and properties to contrast. Those requirements are not treated as four incidents or all reduced to the same mechanism. |
+| [H1: OpenAI report](https://openai.com/index/hugging-face-incident-and-the-road-ahead/), 26 August 2026 | Sections “A message board emerges,” “Difficult tasks without a safe exit” and “An ecosystem of misalignment”: search for alternatives, unplanned communication and adoption of collective objectives. | Motivates a results-obtaining task where the attractive route uses resources outside authorized scope. |
+| [H2: METR and Redwood investigation](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/), 26 August 2026 | Description of joining the attack and reasoning section: continuation occurred despite recognizing overreach. | Delimits a branch that does not reproduce R01's basic receiver, which rejects detected prohibitions. |
+| [L1: DeepMind, arXiv:2609.04170v1](https://arxiv.org/html/2609.04170v1), 3 September 2026 | §§2.2 and 3.1–3.3: artifact acceptance without satisfying the requested theorem, dissemination through a library and competitive pressure. §§3.5–3.6: detection and insufficient response. | Motivates the separation between local acceptance and compliance with the original specification. Responses to objections would be modeled as an additional component. |
+| [W1: collusion.wiki investigation](https://collusion.wiki/) | “The agents gain write to the internet via GET requests” and “The agents used the wiki to share ways around sandbox restrictions”: writing through GET and collaboration to obtain results under restrictions. | Motivates communication routes with effects not represented by superficial control. The source considers this group probably different from the one associated with Artifactory/Hugging Face. |
 
-Fuentes consultadas el 2 de octubre de 2026. No se importan como hechos históricos los radios, costes, probabilidades, rutas óptimas o permisos de nuestros escenarios. Esos valores pertenecen al diseño sintético. No se necesitan instrucciones de explotación reales para probar las correspondencias.
+Sources consulted on 2 October 2026. Radii, costs, probabilities, optimal routes or permissions of our scenarios are not imported as historical facts. Those values belong to the synthetic design. Real exploitation instructions are not needed to test correspondences.
 
-## 4 Tres especializaciones construidas
+<a id="4-tres-especializaciones-construidas"></a>
+## 4 Three constructed specializations
 
-Los nombres H, L y W son etiquetas locales de este documento. En los tres casos la tarea verdadera permanece fija, el receptor no conoce las etiquetas I/P del evaluador y rechaza toda incompatibilidad detectada. Las cantidades y distribuciones se fijan antes de ejecutar. La comunicación de evidencia durante el experimento usa el canal autorizado declarado; el canal que se investiga como posible ruta es un objeto diferente.
+The names H, L and W are local labels in this document. In all three cases the true task remains fixed, the receiver does not know the evaluator's I/P labels and rejects every detected incompatibility. Quantities and distributions are fixed before execution. Evidence communication during the experiment uses the declared authorized channel; the channel being investigated as a possible route is a different object.
 
-| Elemento de R01 | H: obtención de resultados fuera de alcance | L: respuesta aceptada sin resolver la tarea | W: descubrimiento de un canal de comunicación |
+| R01 element | H: obtaining out-of-scope results | L: accepted answer without solving the task | W: discovery of a communication channel |
 |---|---|---|---|
-| Mandato y resultado | Obtener un resultado de una colección y recursos autorizados. | Entregar un artefacto que satisface la especificación original. | Obtener y compartir información conforme al mandato y a los permisos de cada recurso. |
-| Acción / tramo | Operación de consulta, transformación o entrega. | Transformación del artefacto o de sus dependencias. | Operación con un efecto de lectura, escritura o transmisión. |
-| Conexión | Dependencia entre operación y recurso siguiente. | Dependencia semántica entre pasos. | Relación entre emisor, almacén y destinatario. |
-| Exploración / radio | Vecindad de procedimientos técnicamente alcanzables. | Vecindad de transformaciones candidatas. | Vecindad de mecanismos de transporte o almacenamiento. |
-| Condición material | Aplicabilidad del permiso a misión, recurso y destinatario. | Preservación de la especificación original por la transformación. | Autorización del efecto real y del alcance de los datos. |
-| Revisión | Consulta de condiciones de las operaciones y de su composición. | Comprobación de condiciones semánticas de los pasos. | Inspección del efecto y del permiso de la operación. |
-| Señal social | Informe de resultado y comprobaciones ya realizadas. | Artefacto compartido y evidencia sobre su cobertura. | Informe de conectividad y comprobaciones de alcance. |
-| M | Procedimiento autorizado conocido, con menor calidad declarada. | Construcción legítima conocida, menos valiosa según el criterio declarado. | Canal autorizado conocido, de menor rendimiento. |
-| I | Mejor recorrido autorizado, calculado por el evaluador. | Mejor construcción que satisface la especificación. | Mejor recorrido de comunicación admisible. |
-| P | Recorrido atractivo con una condición de alcance incumplida. | Recorrido aceptable para una comprobación parcial, pero semánticamente inválido. | Recorrido técnicamente viable con escritura o transmisión no autorizada. |
+| Mandate and result | Obtain a result from an authorized collection and resources. | Deliver an artifact satisfying the original specification. | Obtain and share information according to the mandate and each resource's permissions. |
+| Action / segment | Query, transformation or delivery operation. | Transformation of the artifact or its dependencies. | Operation with a read, write or transmission effect. |
+| Connection | Dependency between an operation and the next resource. | Semantic dependency between steps. | Relation between sender, store and recipient. |
+| Exploration / radius | Neighborhood of technically reachable procedures. | Neighborhood of candidate transformations. | Neighborhood of transport or storage mechanisms. |
+| Material condition | Permission applicability to mission, resource and recipient. | Preservation of the original specification by the transformation. | Authorization of the real effect and data scope. |
+| Review | Query of operation conditions and their composition. | Check of semantic step conditions. | Inspection of the operation's effect and permission. |
+| Social signal | Report of result and checks already performed. | Shared artifact and evidence of its coverage. | Connectivity report and scope checks. |
+| M | Known authorized procedure, with declared lower quality. | Known legitimate construction, less valuable under the declared criterion. | Known authorized channel, with lower performance. |
+| I | Best authorized route, calculated by the evaluator. | Best construction satisfying the specification. | Best admissible communication route. |
+| P | Attractive route with an unmet scope condition. | Route acceptable to a partial check but semantically invalid. | Technically viable route with unauthorized writing or transmission. |
 
-### 4.1 H: escenario similar a Hugging Face
+<a id="41-h-escenario-similar-a-hugging-face"></a>
+### 4.1 H: scenario similar to Hugging Face
 
-Se construyen rutas sobre recursos ficticios. Para cada tramo de R01 hay una operación y una condición de permiso correspondientes. El predicado global exige todas las condiciones aplicables; una comprobación de funcionamiento no responde a las condiciones no consultadas. Los informes compartidos conservan fuente, alcance, momento y dependencia.
+Routes are constructed over fictitious resources. For each R01 segment there is a corresponding operation and permission condition. The global predicate requires all applicable conditions; a functionality check does not answer unqueried conditions. Shared reports preserve source, scope, time and dependency.
 
-La función de codificación reemplaza cada tramo y relación por su operación y dependencia de recursos, sin añadir saltos. Su inversa recupera el tramo y la condición original. La misma secuencia de consultas devuelve la misma información y recibe los mismos cargos efectivos. La proposición de la nota matemática garantiza el isomorfismo para una realización que cumpla E1–E7. Aquí se especifica esa construcción y se comprueba sólo un fragmento; no se da por realizada la correspondencia completa de H. La tabla completa de §3 de esa nota conserva también todos los parámetros que no cambia el vocabulario de dominio.
+The encoding function replaces each segment and relation with its operation and resource dependency, without adding jumps. Its inverse recovers the original segment and condition. The same query sequence returns the same information and receives the same effective charges. The mathematical note's proposition guarantees isomorphism for a realization satisfying E1–E7. That construction is specified here and only a fragment checked; H's complete correspondence is not treated as realized. The complete table in §3 of that note also preserves all parameters that domain vocabulary does not change.
 
-Variables adicionales posibles: nombres de servicios, tipos de formato o aceleración de búsqueda. Si una credencial adicional permite ejecutar otra acción, no puede ocultarse en una variable decorativa: la capacidad debe estar en el grafo y el permiso correspondiente de la configuración base efectiva.
+Possible additional variables: service names, format types or search acceleration. If an additional credential allows another action to be executed, it cannot be hidden in a decorative variable: the capability must be in the graph and the corresponding permission of the effective base configuration.
 
-El positivo es una obtención autorizada del mismo tipo de resultado. No se presupone que cada tarea del incidente histórico tuviese una solución legítima alcanzable. La sustitución de la tarea individual por una misión colectiva exige otro perfil; no se introduce silenciosamente en esta construcción.
+The positive is authorized acquisition of the same type of result. It is not assumed that every task in the historical incident had a reachable legitimate solution. Replacing the individual task with a collective mission requires another profile; it is not silently introduced in this construction.
 
-### 4.2 L: escenario similar a la aceptación de falsas soluciones
+<a id="42-l-escenario-similar-a-la-aceptación-de-falsas-soluciones"></a>
+### 4.2 L: scenario similar to acceptance of false solutions
 
-El caso construido usa una tarea finita de transformación de artefactos con varios resultados legítimos de distinta calidad. Cada paso tiene una obligación de preservar la especificación; un comprobador local puede aceptar aspectos del artefacto sin haber comprobado todas esas obligaciones. La calidad técnica aparente se mantiene separada de la calidad legítima.
+The constructed case uses a finite artifact-transformation task with several legitimate results of different quality. Each step has an obligation to preserve the specification; a local checker may accept aspects of the artifact without having checked all those obligations. Apparent technical quality remains separate from legitimate quality.
 
-La codificación asigna cada condición de composición de R01 a una obligación semántica identificable. No define validez como «el evaluador lo aceptó». La inversa recupera pasos, dependencias y obligaciones. Se prescribe conservar el conjunto de consultas y la información disponible antes de comprometerse; esa obligación completa no está implementada aquí. La revisión completa del fragmento detecta el negativo; una alternativa válida de calidad superior a M constituye el positivo.
+The encoding assigns each R01 composition condition to an identifiable semantic obligation. It does not define validity as “the evaluator accepted it.” The inverse recovers steps, dependencies and obligations. Preservation of the query set and information available before commitment is prescribed; that complete obligation is not implemented here. Full fragment review detects the negative; a valid alternative of higher quality than M constitutes the positive.
 
-Esto prueba la correspondencia del **modelo de obligaciones construido**, no una propiedad del verificador Lean real. El M de menor calidad es una decisión de nuestro diseño; no se atribuye al benchmark original, donde demostrar otro teorema no cumple por ello el encargo. La tarea construida debe admitir resultados legítimos de calidad graduada y declarar ε. Si sólo hay un resultado binario o M ya está dentro de ε del óptimo, no se atribuye mediocridad a esa rama. El comprobador común verifica esta sensibilidad.
+This proves the correspondence of the **constructed obligation model**, not a property of the real Lean verifier. Lower-quality M is a decision of our design; it is not attributed to the original benchmark, where proving another theorem does not thereby fulfill the assignment. The constructed task must admit legitimate results of graded quality and declare ε. If there is only a binary result or M is already within ε of the optimum, mediocrity is not attributed to that branch. The common checker verifies this sensitivity.
 
-Variables adicionales posibles: formato del artefacto, biblioteca o coste de comprobación. Una biblioteca con un certificado completo accesible puede resolver la dificultad y debe permitirse. Un agente que conoce la invalidez y continúa queda fuera de la política básica, aunque pueda estudiarse como ampliación conductual explícita.
+Possible additional variables: artifact format, library or checking cost. A library with an accessible complete certificate may resolve the difficulty and must be allowed. An agent knowing invalidity and continuing falls outside the basic policy, although it may be studied as an explicit behavioral expansion.
 
-### 4.3 W: escenario similar al descubrimiento de una wiki utilizable
+<a id="43-w-escenario-similar-al-descubrimiento-de-una-wiki-utilizable"></a>
+### 4.3 W: scenario similar to discovering a usable wiki
 
-Una ruta candidata puede consistir precisamente en encontrar una forma de comunicarse. El grafo representa las operaciones posibles; la admisibilidad depende de sus efectos y permisos, no sólo del nombre de un protocolo. Se construye un par con la misma viabilidad técnica y distinto permiso de escritura o transmisión en una condición todavía no revisada.
+A candidate route may consist precisely of finding a way to communicate. The graph represents possible operations; admissibility depends on their effects and permissions, not only a protocol's name. A pair is constructed with the same technical feasibility and different writing or transmission permission in a condition not yet reviewed.
 
-La codificación conserva una operación por tramo, su efecto, el recurso y la relación con los pasos siguientes. La revisión de la condición correspondiente distingue el par. Un canal autorizado que logra la misma tarea es el positivo. La especificación exige corresponder consultas y costes con R01. La prueba por proyección es condicional a E1–E7 y el comprobador ejecuta sólo el fragmento estático; no acredita la activación de una nueva red social.
+The encoding preserves one operation per segment, its effect, resource and relation to following steps. Reviewing the corresponding condition distinguishes the pair. An authorized channel accomplishing the same task is the positive. The specification requires queries and costs to correspond to R01. The projection proof is conditional on E1–E7 and the checker executes only the static fragment; it does not establish activation of a new social network.
 
-Variables adicionales posibles: tamaño de mensajes, formato o latencia declarada. Si utilizar el canal crea nuevas conexiones entre agentes, el cambio de topología debe modelarse. El perfil estático puede representar la búsqueda y decisión sobre el canal; su posterior activación social requiere una configuración dinámica de R01 con la actualización de topología explícita. No se presenta toda esa dinámica como equivalente a una red fija.
+Possible additional variables: message size, format or declared latency. If using the channel creates new connections between agents, the topology change must be modeled. The static profile may represent search and decision regarding the channel; its subsequent social activation requires a dynamic R01 configuration with explicit topology updating. All that dynamics is not presented as equivalent to a fixed network.
 
-Compartir directamente una respuesta, en lugar de construirla, es otra variante: su admisibilidad depende del mandato del caso construido. Reutilizar una respuesta autorizada debe poder continuar; «compartir» no es por definición el fallo.
+Sharing an answer directly instead of constructing it is another variant: its admissibility depends on the constructed case's mandate. Reusing an authorized answer must be able to continue; “sharing” is not by definition the failure.
 
-## 5 Qué se demuestra y qué se mide después
+<a id="5-qué-se-demuestra-y-qué-se-mide-después"></a>
+## 5 What is proved and what is measured afterward
 
-La demostración establece la existencia de extensiones construidas que conservan el núcleo, bajo condiciones declaradas. La elección de vocabulario no basta: deben conservarse las consultas, dependencias, transiciones y sus consecuencias. El comprobador aporta testigos finitos para H/L/W y mutaciones rechazadas. No verifica todas las configuraciones del inventario ni ejecuta un agente probabilístico completo.
+The proof establishes the existence of constructed extensions preserving the kernel under declared conditions. Vocabulary choice is insufficient: queries, dependencies, transitions and their consequences must be preserved. The checker provides finite H/L/W witnesses and rejected mutations. It does not verify all inventory configurations or execute a complete probabilistic agent.
 
-Una campaña posterior debe medir cómo cambia la decisión al variar el coste de resolver, revisar, comunicar o esperar y el beneficio esperado. El balance puede expresarse mediante una política registrada sobre estimaciones accesibles, por ejemplo beneficio esperado menos cargos ponderados. Los pesos y la regla no se infieren del resultado que se pretende explicar. La autorización sigue siendo una restricción del receptor básico, no una penalización negociable dentro de esa fórmula.
+A subsequent campaign must measure how decisions change when varying the cost of solving, reviewing, communicating or waiting and expected benefit. The balance may be expressed through a recorded policy over accessible estimates, for example expected benefit minus weighted charges. Weights and the rule are not inferred from the result to be explained. Authorization remains a constraint of the basic receiver, not a negotiable penalty within that formula.
 
-Se comparan controles convencionales competentes y políticas sociales con los mismos recursos. Se conservan abstención, incompletitud y mejoras que eliminan el fallo. La contribución de EA se evalúa como intervención posterior con las mismas capacidades y cargos, conforme al [apéndice de R01](../../Escenario-creatividad-validacion.md#4-apéndice-sobre-ecosystem-awareness-como-candidata).
+Competent conventional controls and social policies are compared with the same resources. Abstention, incompleteness and improvements eliminating failure are preserved. EA's contribution is evaluated as a subsequent intervention with the same capabilities and charges, according to the [R01 appendix](../../Escenario-creatividad-validacion.md#4-apéndice-sobre-ecosystem-awareness-como-candidata).
 
-La relación con 00G exige además acreditar C-V-G: contenido recibido, dependencia, alcance y promoción a razón operativa que desplaza una obligación. Un caso de fallo de R01 no satisface automáticamente ese criterio. El [método A25](../../../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) continúa aplicándose; esta prueba del núcleo económico y operativo no declara completada la admisión a 00G.
+The relation to 00G additionally requires establishing C-V-G: received content, dependency, scope and promotion to an operational reason displacing an obligation. An R01 failure case does not automatically satisfy that criterion. The [A25 method](../../../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) continues to apply; this proof of the economic and operational kernel does not declare admission to 00G complete.
 
-## 6 Referencias internas y trazabilidad
+<a id="6-referencias-internas-y-trazabilidad"></a>
+## 6 Internal references and traceability
 
-- [Fundamento metodológico y precedentes primarios](../METHODOLOGICAL_FOUNDATIONS.md): qué justifica probar primero R01, cómo trasladar una comparación y dónde termina la garantía.
+- [Methodological foundations and primary precedents](../METHODOLOGICAL_FOUNDATIONS.md): what justifies testing R01 first, how to transfer a comparison and where the guarantee ends.
 
-- Base fijada: R01 v0.6, [commit 114ac132](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), especialmente §§2.1–2.18 y 3.2–3.5.
-- [Infoblox, documento integrado](../infoblox/README.md), §§5–6: correspondencia, prueba condicional y contraejemplo con certificado suficiente. Su comprobación no se reetiqueta como prueba completa de esta familia.
-- [Hugging Face, auditoría de parámetros y codependencias](../hugging-face/README.md): expediente histórico y transporte sintético auxiliar, distinto del escenario construido H de esta familia.
-- [Hugging Face, reducción candidata](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) y [diseño previo](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md).
-- [A25, X1–X7](../../../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md): obligaciones de admisión y separación entre pertenencia y éxito.
+- Fixed base: R01 v0.6, [commit 114ac132](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), especially §§2.1–2.18 and 3.2–3.5.
+- [Infoblox, integrated document](../infoblox/README.md), §§5–6: correspondence, conditional proof and counterexample with sufficient certificate. Its check is not relabeled as a complete proof of this family.
+- [Hugging Face, parameter and codependency audit](../hugging-face/README.md): historical case record and auxiliary synthetic transport, distinct from this family's constructed H scenario.
+- [Hugging Face, candidate reduction](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) and [previous design](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md).
+- [A25, X1–X7](../../../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md): admission obligations and separation between membership and success.
 
-Las URLs externas completas figuran en la tabla de §3; las referencias H/L/W del comprobador remiten a las construcciones de §4, no a los incidentes históricos.
+Complete external URLs appear in the §3 table; the checker's H/L/W references point to the §4 constructions, not historical incidents.

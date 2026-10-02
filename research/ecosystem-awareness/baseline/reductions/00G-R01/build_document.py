@@ -36,15 +36,15 @@ for n,sz in [('Heading 1',18),('Heading 2',13),('Heading 3',11)]:
     st.paragraph_format.keep_with_next=True
 doc.styles['Heading 1'].paragraph_format.page_break_before=False
 header=s.header.paragraphs[0]
-header.text=src.read_text().splitlines()[0].removeprefix('# ')
+header.text=next(line[2:] for line in src.read_text().splitlines() if line.startswith('# '))
 header.runs[0].font.size=Pt(8)
 footer=s.footer.paragraphs[0]; footer.alignment=WD_ALIGN_PARAGRAPH.RIGHT
-r=footer.add_run('00G-R01 · Investigación no canónica  ·  '); r.font.size=Pt(8)
+r=footer.add_run('00G-R01 · Non-canonical research  ·  '); r.font.size=Pt(8)
 fld=OxmlElement('w:fldSimple'); fld.set(qn('w:instr'),'PAGE'); footer._p.append(fld)
 doc.core_properties.title=header.text
-doc.core_properties.subject='Escenario de trabajo no canónico y candidatura de Ecosystem Awareness'
+doc.core_properties.subject='Non-canonical working scenario and Ecosystem Awareness candidacy'
 doc.core_properties.author='Iván Abril Palma'
-doc.core_properties.keywords='creatividad, validación, agentes, Ecosystem Awareness, Napoleón, Hugging Face'
+doc.core_properties.keywords='creativity, validation, agents, Ecosystem Awareness, Napoleon, Hugging Face'
 
 def hyperlink(p,label,url):
     h=OxmlElement('w:hyperlink'); h.set(qn('r:id'),p.part.relate_to(url,RT.HYPERLINK,is_external=True))
@@ -89,9 +89,9 @@ def table(rows):
     # All tables fit the 6.9 inch text column.
     if n==2: widths=[2.35,4.55]
     else: widths=[1.7,2.65,2.55]
-    if rows[0][0]=='Magnitud ilustrativa': widths=[3.1,1.9,1.9]
-    if rows[0][0]=='Símbolo': widths=[1.35,5.55]
-    if rows[0][0]=='Componente de 00M': widths=[1.1,2.7,3.1]
+    if rows[0][0]=='Illustrative quantity': widths=[3.1,1.9,1.9]
+    if rows[0][0]=='Symbol': widths=[1.35,5.55]
+    if rows[0][0]=='00M component': widths=[1.1,2.7,3.1]
     for c,w in zip(t.columns,widths): c.width=Inches(w)
     props=t._tbl.tblPr
     borders=OxmlElement('w:tblBorders')
@@ -120,7 +120,7 @@ def table(rows):
                 if idx==0: run.bold=True
     doc.add_paragraph().paragraph_format.space_after=Pt(1)
 
-lines=src.read_text().splitlines(); i=0; tables=0; equations=0; part=''
+lines=[line for line in src.read_text().splitlines() if not re.fullmatch(r'<a id="[^"]+"></a>',line)]; i=0; tables=0; equations=0; part=''
 while i<len(lines):
     line=lines[i].strip()
     if not line: i+=1; continue
@@ -143,7 +143,7 @@ while i<len(lines):
         p.paragraph_format.space_before=Pt(6); p.paragraph_format.space_after=Pt(4)
         pic=p.add_run().add_picture(str(ROOT/match.group(2)),width=Inches(6.9))
         pic._inline.docPr.set('descr',match.group(1))
-    elif line.startswith('Figura '):
+    elif line.startswith('Figure '):
         p=doc.add_paragraph(); inline(p,line)
         p.paragraph_format.line_spacing=1.05; p.paragraph_format.space_after=Pt(9)
         for run in p.runs: run.font.size=Pt(9)

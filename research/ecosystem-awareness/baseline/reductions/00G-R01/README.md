@@ -1,114 +1,126 @@
-# 00G-R01 Reducción de 00G
+<a id="00g-r01-reducción-de-00g"></a>
+# 00G-R01 Reduction of 00G
 
-## Exploración probabilística y coste de validación
+<a id="exploración-probabilística-y-coste-de-validación"></a>
+## Probabilistic exploration and validation cost
 
-**C-V · versión de trabajo 0.6 · 2 de octubre de 2026.** Estudio de reducción de la familia 00G. Especificación de investigación no canónica, todavía sin resultados experimentales propios.
+**C-V · working version 0.6 · 2 October 2026.** Reduction study of the 00G family. Non-canonical research specification, still without experimental results of its own.
 
-[Leer el documento completo](./Escenario-creatividad-validacion.md) · [PDF](./Escenario-creatividad-validacion.pdf) · [Word](./Escenario-creatividad-validacion.docx) · [Tabla de extensiones](#extensiones)
+[Read the full document](./Escenario-creatividad-validacion.md) · [PDF](./Escenario-creatividad-validacion.pdf) · [Word](./Escenario-creatividad-validacion.docx) · [Extensions table](#extensiones) · [English translation trace](./TRANSLATION_TRACE.md)
 
-## Guía de lectura
+<a id="guía-de-lectura"></a>
+## Reading guide
 
-| Para consultar | Entrada |
+| To consult | Entry |
 |---|---|
-| Problema, reglas y configuración base | [Escenario R01 v0.6](./Escenario-creatividad-validacion.md). |
-| Método que rige las tres extensiones | [Contrato, evidencia, quince grupos y A25](./extensions/CRITERIA_AND_AUDIT.md). |
-| Demostración y alcance de la transferencia | [Núcleo y obligaciones E1–E7](./extensions/family/KERNEL_AND_PROOF.md) · [Referencias y comparación EA–control](./extensions/METHODOLOGICAL_FOUNDATIONS.md). |
-| Cada caso y sus comprobaciones | [Tabla de las tres extensiones](#extensiones). |
-| Ensayos anteriores y resultados que se conservan | [Historial](#historial-de-ensayos-y-trabajo-pendiente). |
-| Reproducción conjunta y revisión editorial | [Comando común](#reproducción-conjunta-de-las-comprobaciones) · [Procedimiento y resultado de la revisión](./extensions/EDITORIAL_REVIEW.md). |
+| Problem, rules and base configuration | [R01 scenario v0.6](./Escenario-creatividad-validacion.md). |
+| Method governing the three extensions | [Contract, evidence, fifteen groups and A25](./extensions/CRITERIA_AND_AUDIT.md). |
+| Proof and scope of transfer | [Kernel and obligations E1–E7](./extensions/family/KERNEL_AND_PROOF.md) · [References and EA–control comparison](./extensions/METHODOLOGICAL_FOUNDATIONS.md). |
+| Each case and its checks | [Table of the three extensions](#extensiones). |
+| Earlier trials and retained results | [History](#historial-de-ensayos-y-trabajo-pendiente). |
+| Joint reproduction and editorial review | [Common command](#reproducción-conjunta-de-las-comprobaciones) · [Review procedure and outcome](./extensions/EDITORIAL_REVIEW.md). |
 
-La prueba formal condicionada, las comprobaciones finitas y los experimentos con agentes son evidencias diferentes. Los dos primeros tienen documentos y resultados acotados; la ejecución integral de R01 y la comparación EA siguen pendientes. Los dictámenes vigentes se consultan en las fichas comunes; los antecedentes conservan su fecha y su alcance.
+The conditional formal proof, finite checks and experiments with agents are different forms of evidence. The first two have documents and bounded results; the full execution of R01 and the EA comparison remain pending. Current verdicts are consulted in the common records; earlier work retains its date and scope.
 
-## Lugar de la reducción dentro de 00G
+<a id="lugar-de-la-reducción-dentro-de-00g"></a>
+## Place of the reduction within 00G
 
-La pregunta es dónde una arquitectura que explora probabilísticamente, valida con coste y comparte hallazgos obtiene soluciones legítimas de calidad a coste razonable, y dónde aparece el trilema no íntegro, ineficiente o mediocre. El estudio busca localizar esa frontera y medir cuánto la desplazan mejoras competentes. EA aparece al final como candidata complementaria.
+The question is where an architecture that explores probabilistically, validates at a cost and shares findings obtains legitimate solutions of quality at a reasonable cost, and where the trilemma of lacking integrity, being inefficient or being mediocre appears. The study seeks to locate that boundary and measure how far competent improvements shift it. EA appears at the end as a complementary candidate.
 
-**[00G Napoleón](../../00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) → 00G-R01, este escenario reducido → fundamento de la reducción.** R significa reducción; 01 es su número. C-V es una abreviatura descriptiva interna, no un identificador de escenario canónico.
+**[00G Napoleon](../../00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) → 00G-R01, this reduced scenario → foundation of the reduction.** R means reduction; 01 is its number. C-V is an internal descriptive abbreviation, not a canonical scenario identifier.
 
-## Fundamento y prueba de la reducción
+<a id="fundamento-y-prueba-de-la-reducción"></a>
+## Foundation and proof of the reduction
 
-**Prueba de reducción en revisión:** se documenta el argumento y se verifica su aplicación a C-V-G; no se declara completada la admisión de esta especialización. El documento de fundamento de este escenario es la [reducción unidireccional v0.1](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), especialmente §§2 y 7. Su [revisión de los pasos 1 y 2](../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) conserva el argumento y delimita su alcance. Se consultan desde aquí como soporte de 00G-R01; no reemplazan el escenario reducido.
+**Reduction proof under review:** the argument is documented and its application to C-V-G is checked; admission of this specialization is not declared complete. The foundation document for this scenario is the [one-way reduction v0.1](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), especially §§2 and 7. Its [review of steps 1 and 2](../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) preserves the argument and delimits its scope. They are consulted here as support for 00G-R01; they do not replace the reduced scenario.
 
-| Pieza de soporte | Qué aporta a 00G-R01 |
+| Supporting item | What it contributes to 00G-R01 |
 |---|---|
-| [Fundamento metodológico y referencias primarias](./extensions/METHODOLOGICAL_FOUNDATIONS.md) | Precedentes de abstracción y verificación, transferencia de una comparación EA–control y límites del experimento reducido. |
-| [Perfil de extensionalidad 00G](../../00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) y [método A25](../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) | Condiciones que debe conservar una instancia para pertenecer a la familia. |
-| [Reducción unidireccional v0.1](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) | Argumento que retira exigencias narrativas y conserva obligación, procedencia, autoridad y decisión. Sigue siendo una reducción candidata. |
-| [Revisión de pasos 1 y 2](../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) | Comprobación documental del argumento y de los límites de su plausibilidad causal. |
-| [Parte 3 del escenario actual](./Escenario-creatividad-validacion.md#3-familia-00g-escenario-reducido-y-referencia-hugging-face) | Aplicación a C-V-G, subfamilia social candidata; correspondencias, control positivo y obligaciones de prueba todavía pendientes. |
+| [Methodological foundations and primary references](./extensions/METHODOLOGICAL_FOUNDATIONS.md) | Precedents in abstraction and verification, transfer of an EA–control comparison and limits of the reduced experiment. |
+| [00G extensibility profile](../../00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) and [A25 method](../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) | Conditions an instance must preserve to belong to the family. |
+| [One-way reduction v0.1](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) | Argument removing narrative requirements while preserving obligation, provenance, authority and decision. It remains a candidate reduction. |
+| [Review of steps 1 and 2](../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) | Documentary check of the argument and the limits of its causal plausibility. |
+| [Part 3 of the current scenario](./Escenario-creatividad-validacion.md#3-familia-00g-escenario-reducido-y-referencia-hugging-face) | Application to C-V-G, a candidate social subfamily; correspondences, positive control and proof obligations still pending. |
 
-El argumento fundamenta la reducción; no demuestra todavía la admisión histórica de todo el incidente Hugging Face. Sólo las trazas que acrediten las relaciones de §3.5 pueden admitirse. La causa económica y una posible mejora por EA requieren pruebas propias.
+The argument grounds the reduction; it does not yet prove historical admission of the entire Hugging Face incident. Only traces establishing the relations in §3.5 may be admitted. The economic cause and a possible improvement through EA require their own tests.
 
-## Cómo se hace la reducción
+<a id="cómo-se-hace-la-reducción"></a>
+## How the reduction is performed
 
-| Operación | Qué se retira o conserva en 00G-R01 |
+| Operation | What is removed or preserved in 00G-R01 |
 |---|---|
-| Retirar el relato particular | No se necesitan Francia, Rusia, identidad napoleónica ni robots de hostelería. Napoleón es una instancia de la familia, no su definición completa. |
-| Conservar la obligación | Existe un encargo vinculante. En C-V el mandato real permanece fijo. |
-| Conservar la mediación social | El receptor recibe una interpretación de otros; se registra origen, dependencia, alcance y autoridad. Un premio atractivo por sí solo no basta. |
-| Conservar el fallo estructural | La interpretación recibida adquiere fuerza operativa y desplaza materialmente la obligación. Una revisión local no se convierte por repetición en permiso global. |
-| Delimitar la especialización | C-V incluye controles sin comunicación y otros fallos informacionales. Sólo C-V-G se propone como especialización 00G; el identificador R01 designa el estudio y no declara admitidas todas sus configuraciones. |
-| Preservar la rama positiva | Se admite evidencia suficiente y autoridad realmente aplicable. Para la tarea fija de C-V, el positivo es una mejora autorizada; no se introduce un cambio de misión para fabricar el resultado. |
-| Verificar la relación | Debe exhibirse una traza realizable con su correspondencia, recursos y control positivo. La pertenencia estructural, la explicación causal y el rendimiento comparativo se evalúan por separado. |
+| Remove the particular narrative | France, Russia, Napoleonic identity and hospitality robots are not needed. Napoleon is an instance of the family, not its complete definition. |
+| Preserve the obligation | A binding assignment exists. In C-V the real mandate remains fixed. |
+| Preserve social mediation | The receiver receives an interpretation from others; origin, dependency, scope and authority are recorded. An attractive reward alone is insufficient. |
+| Preserve the structural failure | The received interpretation acquires operational force and materially displaces the obligation. Repetition does not turn a local review into global permission. |
+| Delimit the specialization | C-V includes controls without communication and other informational failures. Only C-V-G is proposed as a 00G specialization; the R01 identifier designates the study and does not declare all its configurations admitted. |
+| Preserve the positive branch | Sufficient evidence and genuinely applicable authority are admitted. For the fixed C-V task, the positive is an authorized improvement; a mission change is not introduced to manufacture the result. |
+| Verify the relation | A realizable trace must be exhibited with its correspondence, resources and positive control. Structural membership, causal explanation and comparative performance are evaluated separately. |
 
-## Identificación y estado
+<a id="identificación-y-estado"></a>
+## Identification and status
 
-**00G** es el caso padre; **00G-R01** identifica este estudio de reducción. **C-V** es su abreviatura de lectura y **C-V-G** su subfamilia social candidata. No se crea otro escenario canónico 00 seguido de una letra. Los recorridos anteriores R1–R3 siguen teniendo su significado y no son números de reducción.
+**00G** is the parent case; **00G-R01** identifies this reduction study. **C-V** is its reading abbreviation and **C-V-G** its candidate social subfamily. No other canonical scenario 00 followed by a letter is created. The earlier R1–R3 runs retain their meaning and are not reduction numbers.
 
-El argumento anterior respalda una reducción candidata; no es una demostración de que todo el ataque histórico pertenece a 00G. La parte 3 del documento mantiene las obligaciones de prueba pendientes. El [diseño previo R1–R3](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) y sus resultados permanecen como antecedentes, sin convertirse en ejecuciones de 00G-R01.
+The preceding argument supports a candidate reduction; it is not a proof that the entire historical attack belongs to 00G. Part 3 of the document maintains the pending proof obligations. The [previous R1–R3 design](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) and its results remain as earlier work, without becoming executions of 00G-R01.
 
-La candidatura de EA se apoya en [00M v0.8, semántica A/B/C/D y plausibilidad matemática](../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) y [00N v0.7, plausibilidad funcional](../../00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). 00N es una nota de plausibilidad, no el nombre de este escenario.
+EA's candidacy draws on [00M v0.8, A/B/C/D semantics and mathematical plausibility](../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) and [00N v0.7, functional plausibility](../../00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). 00N is a plausibility note, not the name of this scenario.
 
-## Control del test y alcance del oráculo C3
+<a id="control-del-test-y-alcance-del-oráculo-c3"></a>
+## Test control and scope of the C3 oracle
 
-**Oráculo de 00G-R01: en proceso, todavía incompleto.** La proyección desde C3, el evaluador C-V y su verificación siguen pendientes. El [documento de estado del oráculo y obligaciones de verificación](../../fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md) registra estos límites y enlaza de vuelta al escenario reducido.
+**00G-R01 oracle: in progress, still incomplete.** The projection from C3, the C-V evaluator and its verification remain pending. The [oracle status and verification obligations document](../../fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md) records these limits and links back to the reduced scenario.
 
-El [oráculo C3 de 00G-HF v0.4](../../fixtures/00G-HF-ORACLE-v0.4/README.md) y su [protocolo de primera ronda](../../fixtures/00G-HF-ORACLE-v0.4/ROUND1_PROTOCOL.md) se conservan. La comprobación aislada del 2 de octubre de 2026 reprodujo **102 de 102 controles del instrumento** y verificó las huellas de su freeze. Son controles construidos del evaluador, no 102 ejecuciones de agentes, una validación externa ni resultados de 00G-R01.
+The [00G-HF v0.4 C3 oracle](../../fixtures/00G-HF-ORACLE-v0.4/README.md) and its [first-round protocol](../../fixtures/00G-HF-ORACLE-v0.4/ROUND1_PROTOCOL.md) are retained. The isolated check on 2 October 2026 reproduced **102 of 102 instrument controls** and verified the hashes of its freeze. These are constructed evaluator controls, not 102 agent executions, external validation or 00G-R01 results.
 
-| Pregunta | Reutilización en 00G-R01 |
+| Question | Reuse in 00G-R01 |
 |---|---|
-| Compromiso, intento, efecto, autoridad y finalización a tiempo | C3 sigue siendo un instrumento acotado para su dominio T0/X y T1/Y con operación `inspect`. Su uso en C-V requiere verificar una proyección que conserve identidad, alcance, tiempos y permisos. |
-| Óptimo admisible y calidad de las rutas | Requiere el evaluador del mapa C-V y la comprobación exacta de §2.17. C3 no busca ni certifica I. |
-| Coste completo de búsqueda, validación y coordinación | Requiere el libro de costes de C-V, incluyendo descartes, reutilización, mantenimiento y tiempo. C3 no calcula la frontera calidad–coste. |
-| Dinámica colectiva y fiabilidad estadística | Requiere registro social y análisis predefinido; `population_result=NOT_ASSESSED` de C3 no puede convertirse en aprobación colectiva. |
-| Pertenencia a 00G, causa histórica o ventaja de EA | Requiere las auditorías y comparaciones propias; un PASS de C3 no decide esas cuestiones. |
+| Commitment, attempt, effect, authority and timely completion | C3 remains a bounded instrument for its T0/X and T1/Y domain with the `inspect` operation. Its use in C-V requires verifying a projection preserving identity, scope, timing and permissions. |
+| Admissible optimum and route quality | Requires the C-V map evaluator and the exact check in §2.17. C3 does not search for or certify I. |
+| Full cost of search, validation and coordination | Requires the C-V cost ledger, including discards, reuse, maintenance and time. C3 does not calculate the quality–cost frontier. |
+| Collective dynamics and statistical reliability | Requires a social record and predefined analysis; C3's `population_result=NOT_ASSESSED` cannot become collective approval. |
+| Membership in 00G, historical cause or EA advantage | Requires their own audits and comparisons; a C3 PASS does not decide those questions. |
 
-**Decisión:** C3 se sostiene para el alcance que ya tenía. No se lo presenta como evaluador completo de 00G-R01 ni se altera para obtener el resultado buscado. El evaluador C-V debe especificarse, implementarse y comprobarse antes de la nueva campaña. Si una proyección pierde una distinción material, se necesita un sucesor versionado. Se mantiene el criterio de [reutilización de C3 sin forzarlo](../../annexes/00G-HF-PROBABILISTIC-R123-DESIGN-v0.1.md#5-reutilización-de-c3-sin-forzarlo).
+**Decision:** C3 remains supported for the scope it already had. It is not presented as a complete 00G-R01 evaluator or altered to obtain the desired result. The C-V evaluator must be specified, implemented and checked before the new campaign. If a projection loses a material distinction, a versioned successor is needed. The criterion of [reusing C3 without forcing it](../../annexes/00G-HF-PROBABILISTIC-R123-DESIGN-v0.1.md#5-reutilización-de-c3-sin-forzarlo) is maintained.
 
-## Historial de ensayos y trabajo pendiente
+<a id="historial-de-ensayos-y-trabajo-pendiente"></a>
+## Trial history and pending work
 
-El [anexo de desarrollo e historial de experimentos 00G-HF](../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) conserva los intentos anteriores, sus resultados y los motivos de evolución hacia este escenario. Incluye los pares programados, cached-lineage, Casbin-polling y los recorridos probabilísticos, sociales y dinámicos. Los éxitos de los controles convencionales, los intentos que no acreditaron el fallo buscado y los negativos de alcance limitado se conservan con su significado original.
+The [00G-HF development and experimental history annex](../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) preserves earlier attempts, their results and the reasons for evolving toward this scenario. It includes programmed pairs, cached-lineage, Casbin-polling and probabilistic, social and dynamic runs. Successes of conventional controls, attempts that did not establish the targeted failure and negatives of limited scope retain their original meaning.
 
-Para seguir el recorrido: §§2–5 reúnen ensayos y motivos del cambio; §§7–12, ejecuciones y límites pendientes; §§13–17, correcciones de diseño y relación con creatividad, validación y 00G. El anexo enlaza los paquetes, trazas y resultados originales. Los pendientes históricos se leen a su fecha; el estado de 00G-R01 y de su oráculo se consulta en este escenario y en el documento de estado enlazado arriba. Esta navegación no convierte ensayos anteriores en resultados de 00G-R01 ni declara reproducido el incidente histórico.
+To follow the sequence: §§2–5 gather trials and reasons for the change; §§7–12, executions and pending limits; §§13–17, design corrections and the relationship with creativity, validation and 00G. The annex links the original packages, traces and results. Historical pending items are read as of their date; the status of 00G-R01 and its oracle is consulted in this scenario and the status document linked above. This navigation does not turn earlier trials into 00G-R01 results or declare the historical incident reproduced.
 
-## Extensiones
+<a id="extensiones"></a>
+## Extensions
 
-Las extensiones se organizan dentro de `00G-R01/extensions/`, con una carpeta por caso. Esta es su tabla de entrada. Las tres usan la [ficha, evidencia y criterios comunes de revisión](./extensions/CRITERIA_AND_AUDIT.md). La **reducción 00G → R01** se explica en [Fundamento y prueba de la reducción](#fundamento-y-prueba-de-la-reducción); las filas siguientes examinan la relación **R01 → caso extendido**.
+The extensions are organized within `00G-R01/extensions/`, with one folder per case. This is their entry table. All three use the [common review record, evidence and criteria](./extensions/CRITERIA_AND_AUDIT.md). The **00G → R01 reduction** is explained in [Foundation and proof of the reduction](#fundamento-y-prueba-de-la-reducción); the following rows examine the **R01 → extended case** relation.
 
-| Extensión y caso | Documento del caso | Justificación desde R01 | Validación y reproducción | Estado |
+| Extension and case | Case document | Justification from R01 | Validation and reproduction | Status |
 |---|---|---|---|---|
-| <a id="openai--hugging-face"></a>**OpenAI / Hugging Face.** Búsqueda de alternativas, hallazgos compartidos y decisiones frente a la tarea y los límites del receptor. | [Documento integrado](./extensions/hugging-face/README.md) | [Correspondencia y obligaciones](./extensions/hugging-face/README.md#2-qué-debe-conservar-una-extensión) · [Matriz de parámetros](./extensions/hugging-face/README.md#3-inventario-de-parámetros-y-resultados) | [Prueba acotada](./extensions/hugging-face/README.md#4-comprobación-reproducible-ejecutada) · [Código y resultados](./extensions/hugging-face/proof/README.md) | Conservación sintética parcial comprobada; admisión histórica y diferencial EA pendientes. |
-| <a id="extensión-al-caso-infoblox"></a>**Infoblox.** Diagnóstico DNS con descubrimiento, confianza, políticas y validación de composiciones. | [Documento integrado](./extensions/infoblox/README.md) · [Word v0.5, anterior a las revisiones Markdown](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) | [Correspondencia y factores](./extensions/infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) | [Prueba acotada](./extensions/infoblox/README.md#6-prueba-acotada-y-resultados-del-modelo) · [Código y resultados](./extensions/infoblox/proof/README.md) | Núcleo sintético comprobado; integración real, admisión completa y diferencial EA pendientes. |
-| <a id="familia-extendida-con-nucleo-funcional-isomorfo"></a>**Familia extendida.** Casos construidos similares a los citados por Nell: recursos fuera de alcance, respuestas aceptadas sin cumplir la tarea y canales de comunicación. | [Familia y casos documentados](./extensions/family/README.md) | [Núcleo isomorfo y transformación de parámetros](./extensions/family/KERNEL_AND_PROOF.md) · [Inventario completo](./extensions/family/KERNEL_AND_PROOF.md#3-inventario-completo-de-correspondencias-principales) | [Prueba de conservación](./extensions/family/KERNEL_AND_PROOF.md#5-proposición-de-conservación-y-prueba) · [Código, resultados y contraejemplos](./extensions/family/proof/README.md) | Criterio y construcción formal bajo hipótesis explícitas; fragmento finito comprobado; correspondencia completa H/L/W pendiente. Implementación completa, reproducción histórica y evaluación EA pendientes. |
+| <a id="openai--hugging-face"></a>**OpenAI / Hugging Face.** Search for alternatives, shared findings and decisions regarding the receiver's task and limits. | [Integrated document](./extensions/hugging-face/README.md) | [Correspondence and obligations](./extensions/hugging-face/README.md#2-qué-debe-conservar-una-extensión) · [Parameter matrix](./extensions/hugging-face/README.md#3-inventario-de-parámetros-y-resultados) | [Bounded test](./extensions/hugging-face/README.md#4-comprobación-reproducible-ejecutada) · [Code and results](./extensions/hugging-face/proof/README.md) | Partial synthetic preservation checked; historical admission and EA differential pending. |
+| <a id="extensión-al-caso-infoblox"></a>**Infoblox.** DNS diagnosis with discovery, trust, policies and validation of compositions. | [Integrated document](./extensions/infoblox/README.md) · [Word v0.5, preceding the Markdown revisions](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) | [Correspondence and factors](./extensions/infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) | [Bounded test](./extensions/infoblox/README.md#6-prueba-acotada-y-resultados-del-modelo) · [Code and results](./extensions/infoblox/proof/README.md) | Synthetic kernel checked; real integration, full admission and EA differential pending. |
+| <a id="familia-extendida-con-nucleo-funcional-isomorfo"></a>**Extended family.** Constructed cases similar to those cited by Nell: out-of-scope resources, accepted answers without completing the task and communication channels. | [Family and documented cases](./extensions/family/README.md) | [Isomorphic kernel and parameter transformation](./extensions/family/KERNEL_AND_PROOF.md) · [Complete inventory](./extensions/family/KERNEL_AND_PROOF.md#3-inventario-completo-de-correspondencias-principales) | [Preservation proof](./extensions/family/KERNEL_AND_PROOF.md#5-proposición-de-conservación-y-prueba) · [Code, results and counterexamples](./extensions/family/proof/README.md) | Criterion and formal construction under explicit hypotheses; finite fragment checked; complete H/L/W correspondence pending. Full implementation, historical reproduction and EA evaluation pending. |
 
-Cada documento sigue la misma navegación: **escenario → justificación de extensión → validación → código y resultados → fuentes y antecedentes**. La pertenencia estructural, la explicación causal y la comparación EA se evalúan por separado. Los ensayos anteriores conservan su ámbito y no se convierten en resultados de R01 por aparecer en esta tabla.
+Each document follows the same navigation: **scenario → extension justification → validation → code and results → sources and earlier work**. Structural membership, causal explanation and the EA comparison are evaluated separately. Earlier trials retain their scope and do not become R01 results by appearing in this table.
 
-## Reproducción conjunta de las comprobaciones
+<a id="reproducción-conjunta-de-las-comprobaciones"></a>
+## Joint reproduction of the checks
 
-Desde esta carpeta `00G-R01/`:
+From this `00G-R01/` folder:
 
 ```sh
 python3 extensions/verify_audit.py --verify
 ```
 
-El [verificador común](./extensions/verify_audit.py) ejecuta los tres comprobadores en carpetas temporales, compara sus informes y verifica las huellas textuales. Usa Python 3 y su biblioteca estándar. El [informe común](./extensions/audit_results.json) conserva los resultados por paquete; no los suma como muestras independientes. Las guías particulares siguen disponibles en la tabla de extensiones.
+The [common verifier](./extensions/verify_audit.py) runs the three checkers in temporary folders, compares their reports and verifies the textual hashes. It uses Python 3 and its standard library. The [common report](./extensions/audit_results.json) preserves results per package; it does not add them together as independent samples. The individual guides remain available in the extensions table.
 
-Esta es una repetición interna del código publicado, no una réplica independiente ni una evaluación de EA. El procedimiento editorial, la conservación del contenido y los límites de esta revisión están en la [revisión del paquete](./extensions/EDITORIAL_REVIEW.md).
+This is an internal rerun of the published code, not an independent replication or an EA evaluation. The editorial procedure, content preservation and limits of this review are in the [package review](./extensions/EDITORIAL_REVIEW.md).
 
-## Archivos y reproducción editorial
+<a id="archivos-y-reproducción-editorial"></a>
+## Files and editorial reproduction
 
-Esta sección describe las exportaciones del **escenario base v0.6**. En las extensiones, la revisión vigente está en Markdown; el Word de Infoblox conserva la edición v0.5 anterior a sus añadidos posteriores, identificada en su expediente.
+This section describes the exports of the **base scenario v0.6**. In the extensions, the current review is in Markdown; the Infoblox Word file preserves the v0.5 edition preceding its later additions, identified in its case record.
 
-El Markdown es la fuente del texto; Word y PDF son sus exportaciones de lectura. Las dos figuras y sus scripts están en este paquete. `build_figures.py` regenera las figuras con Matplotlib y `build_document.py` regenera Word con python-docx. El PDF se exporta desde Word con LibreOffice. Los scripts resuelven sus rutas desde esta carpeta. No se incluye todavía un simulador: las reglas ejecutables del experimento siguen pendientes.
+Markdown is the text source; Word and PDF are its reading exports. The two figures and their scripts are in this package. `build_figures.py` regenerates the figures with Matplotlib and `build_document.py` regenerates Word with python-docx. The PDF is exported from Word with LibreOffice. The scripts resolve their paths from this folder. A simulator is not yet included: the experiment's executable rules remain pending.
 
-La publicación reúne una sola versión de lectura. Los borradores locales 0.1–0.5, revisiones conversacionales, renders de comprobación y archivos temporales no forman parte del paquete. Los antecedentes públicos se mantienen enlazados por su función documental.
+The publication gathers a single reading version. Local drafts 0.1–0.5, conversational revisions, verification renders and temporary files are not part of the package. Public earlier work remains linked for its documentary role.

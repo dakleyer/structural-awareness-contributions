@@ -1,23 +1,25 @@
-# Comprobación finita de R01 → aplicación DNS
+<a id="comprobación-finita-de-r01--aplicación-dns"></a>
+# Finite check of R01 → DNS application
 
-[Documento integrado v0.5](../README.md#6-prueba-acotada-y-resultados-del-modelo) · [00G-R01](../../../README.md)
+[Integrated document v0.5](../README.md#6-prueba-acotada-y-resultados-del-modelo) · [00G-R01](../../../README.md)
 
-Este paquete comprueba un modelo sintético exacto con la biblioteca estándar de Python 3. No utiliza red, credenciales, APIs de Infoblox, tráfico DNS, criptografía ni agentes LLM.
+This package checks an exact synthetic model with the Python 3 standard library. It uses no network, credentials, Infoblox APIs, DNS traffic, cryptography or LLM agents.
 
-**Procedimiento común:** desde `00G-R01/`, ejecutar `python3 extensions/verify_audit.py --verify`. Recalcula las tres comprobaciones en carpetas temporales, compara los informes registrados y verifica huellas textuales. [Criterios y alcance](../../CRITERIA_AND_AUDIT.md) · [Guía común desde R01](../../../README.md#reproducción-conjunta-de-las-comprobaciones).
+**Common procedure:** from `00G-R01/`, run `python3 extensions/verify_audit.py --verify`. It recalculates the three checks in temporary folders, compares recorded reports and verifies textual hashes. [Criteria and scope](../../CRITERIA_AND_AUDIT.md) · [Common guide from R01](../../../README.md#reproducción-conjunta-de-las-comprobaciones).
 
-Desde esta carpeta:
+From this folder:
 
 ```sh
 python3 check.py
 ```
 
-El programa comprueba sus aserciones y regenera `results.json` junto al script. Los resultados son racionales exactos, no estimaciones estadísticas. El código y los resultados conservan los bytes de la comprobación que acompaña al Word v0.5.
+The program checks its assertions and regenerates `results.json` alongside the script. Results are exact rationals, not statistical estimates. Code and results retain the bytes of the check accompanying Word v0.5.
 
-El modelo concede un directorio completo y representa un control estricto de ejecución. Bajo el contrato de acceso limitado a la evidencia, puede persistir una dificultad para alcanzar el óptimo dentro del presupuesto, aun sin infracciones ejecutadas. El control positivo con un certificado suficiente y accesible elimina esa dificultad. No se demuestra una imposibilidad universal de las tecnologías disponibles ni una ventaja de EA.
+The model grants a complete directory and represents strict execution control. Under the contract of limited evidence access, difficulty reaching the optimum within budget may persist, even without executed violations. The positive control with a sufficient, accessible certificate eliminates that difficulty. Neither a universal impossibility of available technologies nor an EA advantage is proved.
 
-La sección 6 del documento fija las hipótesis, los costes sintéticos, la dirección de la transferencia, las curvas y los límites. Siguen pendientes la integración real, la exploración probabilística y social completas, X4/X7 y la comparación emparejada con EA. Este comprobador no sustituye al evaluador completo pendiente de 00G-R01 ni al oráculo C3.
+Section 6 of the document fixes the hypotheses, synthetic costs, transfer direction, curves and limits. Real integration, complete probabilistic and social exploration, X4/X7 and the paired EA comparison remain pending. This checker replaces neither the pending complete 00G-R01 evaluator nor the C3 oracle.
 
-## Integridad
+<a id="integridad"></a>
+## Integrity
 
-`../SHA256.json` contiene las huellas del documento de lectura, Word, script, resultados y este README. El documento fuente y las referencias históricas se conservan; esta carpeta publica únicamente el documento y su núcleo de verificación.
+`../SHA256.json` contains hashes of the reading document, Word, script, results and this README. The source document and historical references are preserved; this folder publishes only the document and its verification kernel.
