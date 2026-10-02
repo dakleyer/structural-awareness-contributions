@@ -1,0 +1,137 @@
+{
+  "status": "all_assertions_passed",
+  "scope": "finite synthetic model only; no vendor APIs, DNS traffic, cryptography or LLM agents executed",
+  "prior": "valid world probability 1/2; each single invalid condition probability 1/(2U)",
+  "counts": {
+    "route_preservation": 272,
+    "complete_view_pairs": 1092,
+    "metadata_invariance": 68,
+    "gateway_checks": 272,
+    "population_cost_checks": 204,
+    "dp_values": 51,
+    "benefit_and_distance_profiles": 272,
+    "relay_coverage_checks": 204
+  },
+  "curves": [
+    {
+      "U": 2,
+      "budget": 0,
+      "optimistic_upper_bound": "1/2",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1/2"
+    },
+    {
+      "U": 2,
+      "budget": 1,
+      "optimistic_upper_bound": "3/4",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 2,
+      "budget": 2,
+      "optimistic_upper_bound": "1",
+      "strict_gate_success": "1",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 4,
+      "budget": 0,
+      "optimistic_upper_bound": "1/2",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1/2"
+    },
+    {
+      "U": 4,
+      "budget": 1,
+      "optimistic_upper_bound": "5/8",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 4,
+      "budget": 2,
+      "optimistic_upper_bound": "3/4",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 4,
+      "budget": 3,
+      "optimistic_upper_bound": "7/8",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 4,
+      "budget": 4,
+      "optimistic_upper_bound": "1",
+      "strict_gate_success": "1",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 8,
+      "budget": 0,
+      "optimistic_upper_bound": "1/2",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1/2"
+    },
+    {
+      "U": 8,
+      "budget": 1,
+      "optimistic_upper_bound": "9/16",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 8,
+      "budget": 2,
+      "optimistic_upper_bound": "5/8",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 8,
+      "budget": 3,
+      "optimistic_upper_bound": "11/16",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 8,
+      "budget": 4,
+      "optimistic_upper_bound": "3/4",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 8,
+      "budget": 5,
+      "optimistic_upper_bound": "13/16",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 8,
+      "budget": 6,
+      "optimistic_upper_bound": "7/8",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 8,
+      "budget": 7,
+      "optimistic_upper_bound": "15/16",
+      "strict_gate_success": "1/2",
+      "with_unit_cost_scoped_certificate": "1"
+    },
+    {
+      "U": 8,
+      "budget": 8,
+      "optimistic_upper_bound": "1",
+      "strict_gate_success": "1",
+      "with_unit_cost_scoped_certificate": "1"
+    }
+  ],
+  "finding": "Sufficient scoped aggregate certificate removes the query obstruction in the modeled hot-cache regime."
+}

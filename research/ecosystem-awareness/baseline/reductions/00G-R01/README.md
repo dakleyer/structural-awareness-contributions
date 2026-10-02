@@ -67,6 +67,14 @@ El [anexo de desarrollo e historial de experimentos 00G-HF](../../annexes/00G-HF
 
 Para seguir el recorrido: §§2–5 reúnen ensayos y motivos del cambio; §§7–12, ejecuciones y límites pendientes; §§13–17, correcciones de diseño y relación con creatividad, validación y 00G. El anexo enlaza los paquetes, trazas y resultados originales. Los pendientes históricos se leen a su fecha; el estado de 00G-R01 y de su oráculo se consulta en este escenario y en el documento de estado enlazado arriba. Esta navegación no convierte ensayos anteriores en resultados de 00G-R01 ni declara reproducido el incidente histórico.
 
+## Extensión al caso Infoblox
+
+[Leer el documento integrado v0.5](./extensions/infoblox/README.md) · [Word](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) · [Código y resultados reproducibles](./extensions/infoblox/proof/README.md).
+
+El documento reúne el escenario DNS, las tecnologías disponibles según las fuentes fijadas, las rutas mediocre/prohibida/óptima, los recorridos 0/1/2, la matriz de factores de R01 y una prueba condicional de transferencia. La comprobación ejecutada corresponde a un modelo sintético finito; no a un despliegue de Infoblox, DNS-AID ni agentes LLM.
+
+La admisión completa de la extensión y el diferencial de EA siguen pendientes. Un certificado suficiente y accesible resuelve la dificultad del modelo: no se afirma que la tecnología disponible no pueda eliminarla. El comprobador de esta extensión no sustituye al evaluador completo pendiente de 00G-R01 ni modifica el alcance del oráculo C3.
+
 ## Archivos y reproducción editorial
 
 El Markdown es la fuente del texto; Word y PDF son sus exportaciones de lectura. Las dos figuras y sus scripts están en este paquete. `build_figures.py` regenera las figuras con Matplotlib y `build_document.py` regenera Word con python-docx. El PDF se exporta desde Word con LibreOffice. Los scripts resuelven sus rutas desde esta carpeta. No se incluye todavía un simulador: las reglas ejecutables del experimento siguen pendientes.
