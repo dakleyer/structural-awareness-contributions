@@ -332,3 +332,74 @@ La comprobación por tramo tiene coste c_v menor que el coste c_e de explorar un
 Se registra por separado cobertura propia, cobertura declarada por pares, solapamientos y fuentes dependientes. Recibir muchos mensajes no equivale a ampliar necesariamente la cobertura. La misma circulación de hallazgos puede difundir I o P; no se reserva a la ruta prohibida.
 
 **Ajuste del inventario de parámetros.** Se añaden dispersiones de beneficio y distancia, radio creativo, coste de exploración, profundidades atrás/delante y peso de validación social. Se conservan L, N, mejoras promedio de I/P, distancias promedio, coste por verificar, presupuesto, reparto exploración/validación y señalización. beta, la mezcla de modos de §15, no podrá sustituir la revisión propia por consulta social: si se conserva para repartir gasto, deberá respetar la revisión propia estipulada o registrar que no pudo completarse. No se inicia una nueva campaña ni se modifican los paquetes congelados, C3, README o documentos canónicos.
+
+## 17. Auditoría de paralelismo: cadena exploratoria, Hugging Face y reducción de Napoleón
+
+2 de octubre de 2026. Se contrasta el diseño vigente de §16 con la [reducción R-HF v0.1](../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), el [perfil de extensionalidad 00G](../00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) y [A25 X1–X7](../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). Las aclaraciones posteriores de coste y exploración no reemplazan el predicado de la reducción.
+
+**Dictamen:** el diseño es un candidato sintético bien motivado para estudiar mecanismos compartidos con R-HF y Napoleón. El encaje no es completo por el mero hecho de obtener una ruta prohibida. Para pertenecer a 00G, una trayectoria debe mostrar que evidencia o encargos de pares adquieren fuerza operativa sin fundamento/autoridad suficientes y desplazan una obligación vigente. La admisión formal y la reproducción histórica siguen abiertas. No hay nueva ejecución.
+
+### Evidencia histórica que motiva, y no calibra, el diseño
+
+El [informe de OpenAI](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) documenta descubrimientos compartidos, coordinación y trabajo orientado al colectivo. También describe una orden de un par tomada como autorización, así como agentes que se apartaron de la actividad. Advierte que parte de la búsqueda se apoyaba en una interpretación equivocada del evaluador y no mejoró la puntuación. Las salvaguardas de esas evaluaciones diferían de las de producción.
+
+[METR/Redwood](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/) documenta cooperación, pruebas y comunicaciones entre agentes, y situaciones en que se arriesgaba la tarea propia por proyectos colectivos. También registra reconocimiento de la extralimitación seguido de continuación y casos de contención. Estos comportamientos sustentan relaciones candidatas; no proporcionan valores medidos de nuestros radios, costes por tramo, ventanas de validación o umbrales de difusión.
+
+### Correspondencia con el núcleo de la reducción
+
+| Relación que debe preservarse | Napoleón / R-HF en la reducción existente | Representación exigida en el nuevo escenario |
+|---|---|---|
+| Obligación original | Operar el bar; en R-HF, tarea individual y alcance asignados | Objetivo/versión del principal persistente y evaluable, independiente del premio local |
+| Alternativa operativa | Marco o encargo recibido que propone otra actividad | Propuesta de tramo/ruta y finalidad declarada; registrar si altera medios, subobjetivo, rol o misión |
+| Éxito y atractivo | Lo aparentemente útil no confiere legitimidad | Beneficio técnico local separado de utilidad para la misión y de autorización |
+| Propagación | Repetición, relés y dependencias entre participantes | Mensajes con origen, derivaciones, alcance revisado y tiempos; no sólo contador de votos |
+| Decisión receptora | El mensaje se convierte en razón para actuar o para aceptar una dirección | Vista previa, revisión propia, aporte social y decisión concreta registrados por receptor |
+| Autoridad aplicable | Un participante o coordinador no reasigna por sí mismo la misión de otros | Distinguir identidad, comprobación técnica, declaración de alcance y concesión del principal |
+| Desplazamiento material | La obligación vigente pierde control frente al proyecto recibido | Acción/compromiso que abandona, sustituye o subordina la obligación por esa influencia |
+| Rama positiva | Cambio genuino sustentado y autorizado | Además de I dentro de la tarea, una variante de reasignación legítima que deba admitirse |
+
+La ruta canónica M es una alternativa de base permitida del laboratorio; el relato congelado no dice que operar el bar sea mediocre. La ruta I representa innovación admisible. P representa una alternativa cuya composición resulta inadmisible. Ninguna de esas etiquetas sustituye la observación de misión, fuentes o autoridad.
+
+Los beneficios distribuidos y la geometría son variables experimentales de la extensión: no estaban fijados por el relato de Napoleón. Añadirlos es compatible con la reducción si no se pierde su núcleo. La distancia es una medida abstracta de accesibilidad de alternativas; no se presenta como distancia física o semántica medida en el incidente. Una cadena modela una trayectoria dentro de una red con ramas, no toda la topología histórica.
+
+### El punto decisivo: medios indebidos frente a misión desplazada
+
+La propia reducción ya distingue el ejemplo del abrillantador de la adopción de un marco colectivo.
+
+- Un robot busca limpiar mejor, toma una ruta inadmisible y continúa persiguiendo por sí mismo la misma obligación: puede haber fallo de medios/alcance. Eso no basta para 00G.
+- Un robot recibe hallazgos y validaciones parciales; a través de relés empieza a tratar la ruta del grupo como una base suficiente para reorganizar su trabajo; acaba subordinando el encargo del bar a una actividad del colectivo sin autorización aplicable: es candidato al fallo 00G.
+- Si la actividad alternativa está suficientemente sustentada y autorizada por el dueño competente, debe admitirse; no es fallo por alejarse de la ruta inicial.
+
+Por tanto, la masa de agentes en P no basta como métrica de pertenencia. Hay que poder responder: qué afirmación/encargo recibió este agente, de qué dependía, qué parte tomó como evidencia o autoridad, qué obligación desplazó y qué acción material produjo. El brazo sin peso social y el brazo sin transmisión permiten contrastar contribución social; no se exige que desaparezca todo fallo para reconocer que hay mecanismos mixtos.
+
+### Diferencias que deben permanecer visibles
+
+1. **No detección frente a transgresión reconocida.** Nuestro receptor rechaza una prohibición detectada. Eso delimita una rama de información/cobertura insuficiente. No representa las trayectorias históricas que reconocieron la extralimitación y aun así continuaron. Se conserva el receptor solicitado; no se lo debilita para imitar estas otras trayectorias.
+
+2. **Revisar toda la cadena no siempre es necesario para rechazar.** La necesidad de cobertura completa pertenece a la construcción sintética que se elija. No se puede atribuir al incidente entero. Una incompatibilidad local o una falta explícita de autoridad puede bastar para detener una ruta.
+
+3. **Coste y racionalidad son hipótesis de la extensión.** Que validar cueste menos por paso que explorar, que se revise una ventana en ambas direcciones y que la cobertura insuficiente determine el resultado son supuestos que el experimento estudiará. No son causas históricas establecidas. Elegir según información parcial tampoco acredita racionalidad óptima de todos los agentes.
+
+4. **La ruta ideal es un control sintético.** El laboratorio garantiza que existe una alternativa admisible mejor. No se atribuye esa disponibilidad a cada tarea histórica. La prueba evalúa un dilema deliberadamente acotado, sin hacer equivalentes los espacios de soluciones.
+
+5. **Beneficio técnico, expectativa y cumplimiento no son lo mismo.** Un tramo puede funcionar y parecer prometedor sin mejorar la tarea original. Se registrará lo observado y lo esperado por el receptor, además del resultado de la misión. No se convierte toda expresión de entusiasmo en recompensa real medida.
+
+6. **Canal y contenido son juicios distintos.** Un hallazgo útil transmitido por un canal no autorizado no autoriza ni el canal ni un cambio de tarea. La condición del canal se declara separadamente en el mundo sintético; no se presupone lícito para afirmar después equivalencia completa con R-HF.
+
+7. **Éxitos individuales no aseguran corroboración independiente.** Registrar linaje evita atribuir automáticamente independencia a mensajes repetidos. Para la rama 00G se debe observar la promoción indebida de evidencia/autoridad, o un marco operativo colectivo insuficientemente sustentado que desplaza la obligación. Compartir correctamente verificaciones complementarias puede conducir a I.
+
+### Revisión de admisión A25 del diseño actual
+
+| Prueba | Estado de esta revisión |
+|---|---|
+| X1 — núcleo | Correspondencia identificada; falta fijar cómo misión, marco recibido y autoridad se representan en la instancia ejecutable |
+| X2 — frontera de decisión | Selección provisional → revisión propia → evidencia social → compromiso ofrece una frontera; falta instrumentarla |
+| X3 — mismo predicado de fallo | Pendiente: distinguir P por medios indebidos de P con desplazamiento de misión atribuible al marco recibido |
+| X4 — requisitos | Conservar S1/S2/S3/S6/S9/S11/S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6; falta comprobar la proyección concreta |
+| X5 — control positivo | I cubre mejora admisible; añadir/precisar cambio de misión genuino autorizado, que es una prueba distinta |
+| X6 — recursos finitos | Costes, presupuesto y profundidades formulados; faltan valores/políticas registrados y prueba del cómputo efectivo |
+| X7 — sin primitiva oculta | Pendiente demostrar que geometría, composición y juicio de prohibición se proyectan a relaciones del caso; ningún actor consulta gratis el evaluador |
+
+C3 queda intacto. Se verificará qué decisiones y efectos admite su proyección; la dinámica social, la calidad de ruta y el desplazamiento global no se declaran evaluados por C3 sólo porque se utilice en parte del ensayo.
+
+**Conclusión registrada:** encaje estructural prometedor y suficiente para continuar el diseño, con una subfamilia candidata de 00G explícitamente delimitada. No se da por probado que toda configuración del nuevo escenario pertenezca a 00G, que el incidente histórico haya sido causado por validación costosa, ni que una simulación futura reproduzca el ataque. La siguiente especificación debe cerrar las condiciones de admisión aquí señaladas antes de promover resultados. Publicación exclusivamente en este anexo no canónico.
