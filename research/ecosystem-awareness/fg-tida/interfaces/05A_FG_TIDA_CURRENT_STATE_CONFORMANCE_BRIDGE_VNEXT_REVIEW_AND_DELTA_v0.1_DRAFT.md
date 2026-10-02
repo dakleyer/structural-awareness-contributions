@@ -4,15 +4,17 @@
 > The dated reference remains [**05A — FG-TIDA Current-State Interface and Conformance Bridge v0.1**](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md), whose source snapshot is 19 September 2026.  
 > The architectural target remains [**05 Ideal**](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md) plus its [vNext ideal delta](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).  
 > This file updates only the **reality mask**: what the public FG-TIDA record now supports, what remains candidate, what is test-only and what is not established.
+>
+> **Architecture-side semantic refresh — 2 October 2026.** [00M v0.8](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) and the [04 A/B/C/D Recognition & Interface Map Working Proposal](../../baseline/04_EA_ABCD_RECOGNITION_AND_INTERFACE_MAP_v0.1_WORKING_PROPOSAL.md), as recorded in [04-vNext](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), refine how EA-side adapters may interpret source results. They do **not** by themselves upgrade any FG-TIDA relation to Current source state. Public Theme semantics and architecture-side A/B/C/D interpretation remain separate evidence layers.
 
 | | |
 |---|---|
 | **ID** | 05A-vNext Review & Delta |
-| **Version · date** | v0.1-draft · opened 24 September 2026 |
+| **Version · date** | v0.1-draft · opened 24 September 2026 · current-state refresh through 2 October 2026 |
 | **Status** | Cumulative current-state delta; incomplete by design; no change to the 19 September snapshot |
 | **Current-state baseline** | 05A v0.1 — source snapshot 19 September 2026 |
 | **Ideal source** | 05 v0.4 + 05 Ideal vNext Delta |
-| **Generic source** | [04 General Interfaces](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) + [04 vNext Delta](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+| **Generic source** | [00M v0.8 semantic source](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) + [04 General Interfaces](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) + [04 vNext Delta](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) + [04 recognition/interface-map Working Proposal](../../baseline/04_EA_ABCD_RECOGNITION_AND_INTERFACE_MAP_v0.1_WORKING_PROPOSAL.md) — the Working Proposal is architecture-side candidate guidance, not FG source evidence |
 | **Review rule** | An ideal 05 relation enters 05A only to the extent supported by public FG-TIDA evidence; no internal EA/DBC/ACC artefact can promote a relation by itself |
 
 ---
@@ -213,6 +215,55 @@ Two new public cases materially expand test pressure:
 
 ---
 
+
+### 2.9 Theme #21 — population evaluation versus EA qualification
+
+The public Theme #21 discussion now supplies a much sharper boundary for the IF-S9 / EA relation.
+
+Justin Philip Flores, the Theme proposer, states the distinction by **question answered**, not by authority:
+
+> #21 establishes what a population of observations supports; EA establishes whether that is sufficient for a particular decision in its context.
+
+He also constrains the return direction. EA may report that a population result is insufficient for its receiving decision and may name the gap. The rate producer should not receive the receiver's desired target hypothesis, decision purpose or receiver-set budget as measurement direction.
+
+Anchor:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577
+
+The same public thread also establishes several source-native Theme #21 details:
+
+- per-evaluator results are the default;
+- pooling is a separate step that carries its assumption;
+- a pooled result should identify the pooling assumption as **established, declared or unknown**;
+- **unknown is not independence**;
+- matching aggregate rates do not establish evaluator agreement: in the released scoring, GPT-5 mini and Sonnet produced 19.7% and 19.8% rates while their flagged sets overlapped only 63%;
+- that released scoring had no ground truth, so it cannot establish agreement = correctness or shared correctness.
+
+Anchor:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903881738
+
+The proposer later reaffirmed that re-evaluating eligibility after complaint, drift or recall is downstream action on a finding and belongs with #13/#16; Theme #21 stops at what the population supports.
+
+Anchor:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5925445690
+
+Nelson's proposed first executable slice remains a **planned test**, not a result: nine items, frozen reference/taxonomy version, planted-judge changes, detection rule, expected-versus-observed fields and evaluator-dependence assumptions; the detection procedure should not receive the answer key.
+
+Anchor:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5936600434
+
+**05A delta disposition:**
+
+- **#21 question boundary — what the population supports:** **Current source state** at Theme-proposer level.
+- **Per-evaluator default; pooling assumption state established/declared/unknown; unknown ≠ independence:** **Current source state**.
+- **EA may return insufficiency + named qualification/coverage gap:** **Current source boundary** from the #21 side; the exact cross-Theme adapter remains **Candidate** until jointly reviewed/adopted.
+- **Receiver decision purpose / desired hypothesis / receiver-set budget sent upstream as measurement direction:** **Not established / explicitly rejected by the Theme proposer** for this interface.
+- **Released matched-rate/item-disagreement analysis:** **Current public empirical evidence about Theme #21 measurement behaviour**, with the stated no-ground-truth limitation.
+- **Nine-item planted-judge demonstration:** **Test-only / planned**, not executed evidence at this review point.
+- **00M A/B/C/D interpretation of #21 results:** **architecture-side candidate mapping only**. Under that mapping a population finding can be A(IF-S9), its established population/taxonomy/dependence/statistical/identifiability basis can be B(IF-S9), and C/D require the 00M frontier/barrier conditions. This notation is not attributed to Theme #21 itself.
+
+This creates a defensible current-state boundary without collapsing the two layers: Theme #21 owns the population measurement semantics; EA remains the downstream decision-scoped qualification/composition function.
+
+
 ## 3. Ideal-to-current delta table
 
 | 05 Ideal item | Current 05A position as of 24 Sep 2026 | Reason |
@@ -235,10 +286,11 @@ Two new public cases materially expand test pressure:
 | UC #7 identity/execution/action-time-state case | **Current source state as case semantics**; common handoff candidate | public use case exists; no common cross-Theme profile frozen |
 | #6 source-native verdict/reference semantics | **Current source state**; #6→EA adapter **Candidate** | public Theme discussion preserves local semantics and rejects cross-scope ownership |
 | #7 verifier-side obligations / negative vectors | **Current source state as contribution**; EA mapping **Candidate/Test-only** | public verifier proposal exists; no common EA handoff adopted |
+| #21 population-evaluation boundary | **Current source state** for population-support question, per-evaluator default and pooling-assumption discipline; #21↔EA adapter **Candidate** | Theme proposer explicitly separates population support from downstream decision sufficiency and limits the EA→measurement return direction |
 | #22 attestation Theme capability | **Current source state**; #22→EA result profile **Candidate** | public Theme/WG scope exists; no common EA profile adopted |
 | UC #9/#10 as semantic cases | **Current source state as cases**; interface consequences candidate | public use cases exist, mapping not reviewed |
 | Theme #17 production rights case | **Current source state only to last public Theme #17 record** | later private correspondence does not change public Theme state |
-| Future 00I Semantic TOCTOU scenario | **Not established / nonexistent in repo** | must not be assumed until committed and reviewed |
+| 00I Semantic TOCTOU scenario | **Test-only / internal architecture source** | now exists in the EA corpus; it does not upgrade FG-TIDA current-state semantics without independent public support |
 
 ---
 
@@ -248,8 +300,8 @@ The refresh does not justify a universal FG-TIDA schema.
 
 The maximum defensible current pattern remains:
 
-**source-native Theme/case result**  
-→ **bounded adapter preserving issuer/scope/native result/qualification/UNKNOWN**  
+**source-native Theme/case result A(source), or A_ref where a reviewed metadata-only profile is sufficient**  
+→ **bounded adapter preserving issuer/scope/native result binding/qualification/UNKNOWN**  
 → **conditional decision-material qualifiers where supplied and source-owned**  
 → **EA decision-scoped qualification**  
 → **bounded return/requalification request**  
@@ -268,6 +320,8 @@ Where material, current candidate profiles may now additionally preserve:
 - aggregate/cumulative lineage only where the authority model makes the composed effect material.
 
 None of these becomes mandatory for every Theme producer.
+
+The architecture-side 00M/04-vNext classification may be used in candidate/test mappings to explain which source assertion is A/B/C/D, but it does not replace the Theme's own vocabulary or promote a current-state interface. If the source result is needed, a current test profile must carry A; if only a stable binding plus qualifiers is sufficient, it may test an A_ref route. The profile must state which case applies.
 
 ---
 
@@ -303,11 +357,11 @@ This is a **test/conformance route**, not a new lifecycle owner.
 
 00H remains an internal EA/DBC narrative/quality-gate scenario. It may inform authority/opportunity/aggregate-action testing, but it does not become a stage of UC #6, UC #9 or UC #4.
 
-### 6.2 Future 00I versus UC #6
+### 6.2 00I versus UC #6
 
-No 00I file exists in the repository at this review point.
+00I now exists in the repository as an internal EA Semantic TOCTOU reference scenario. Its existence does not make it public FG-TIDA source evidence.
 
-If a future 00I Semantic TOCTOU scenario is committed and reviewed:
+When 00I is used in this review route:
 
 - UC #6 remains the public FG-TIDA semantic source for changed-purpose/current-applicability;
 - 00I remains an EA/DBC reference failure scenario;
@@ -362,7 +416,7 @@ This challenge floor does not promote DBC, EHD or any candidate field into adopt
 
 ## 9. Current determination
 
-As of the public record reviewed through **24 September 2026**:
+As of the public record reviewed through **2 October 2026**:
 
 1. 05A remains a **narrower current-state filter over 05 Ideal**, not a separate architecture.
 2. #13's EA/lifecycle independence and bidirectional relation are substantially better supported than in the 19 September snapshot, while exact institutional packaging remains open.
@@ -373,5 +427,7 @@ As of the public record reviewed through **24 September 2026**:
 7. Theme #11 and several other ideal 05 mappings remain **Not established** as EA interfaces today.
 8. No universal FG-TIDA EHD, common schema, central controller or cross-Theme authority model is established.
 9. Current-state realism does not lower the challenge floor: a meaningful EA test must still distinguish nominal continuity from material systemic divergence, preserve source dependence/UNKNOWN, support targeted requalification and permit strong native controls to falsify an EA differential claim.
+10. Theme #21 now has a clearer source-owned boundary: population measurement states what the population supports; downstream EA may report insufficiency and a qualification gap, but the receiver's desired hypothesis, decision purpose or receiver-set budget does not become measurement direction through this interface.
+11. 00M/04-vNext sharpen the EA-side interpretation of source results and permit profile-declared A versus A_ref routes, but they do not by themselves establish FG-TIDA adoption of A/B/C/D or any common runtime schema.
 
 This delta remains open and cumulative. Future public FG-TIDA changes should update this **current-state mask** rather than modifying 05 Ideal to look artificially current.
