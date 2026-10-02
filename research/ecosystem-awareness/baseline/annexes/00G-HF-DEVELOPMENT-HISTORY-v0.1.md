@@ -125,3 +125,9 @@ Se añadió el [diseño pareado por requisitos](./00G-HF-EA-REQUIREMENTS-PAIRED-
 ## 9. Aclaración del alcance pendiente y prompts del usuario
 
 2 de octubre de 2026. Tras verificar el código, el usuario solicita conservar sus prompts y trabajar la evolución sucesiva del recorrido frente a una configuración específica de controles. Se registran [literalmente junto a los criterios de diseño](./00G-HF-USER-PROMPTS-AND-DYNAMIC-NEGATIVE-DESIGN-v0.1.md). La publicación y reproducción del lote no equivalen al cierre del recorrido solicitado. Se mantiene abierto el paso 3 y se antepone su diseño y ejecución a la comparación EA. Se conservan íntegros los resultados, la defensa convencional, los paquetes congelados y C3. Este cambio documental no añade ejecuciones, no altera el negativo previo y no introduce la hipótesis matemática de masa crítica.
+
+## 10. Especificación ejecutable del negativo dinámico
+
+2 de octubre de 2026. Se añade [DYNAMIC-REVIEW v0.1](../traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README.md): cuatro periodos de trabajo, tres cambios sucesivos, revisiones con alcance/tiempo/coste, memoria y resultados sociales intermedios/finales. Se mantienen denegaciones conocidas, comparador convencional, cambios legítimos y barrera externa. La búsqueda fijada comprende 1.056 redes, todavía sin ejecutar.
+
+El paquete pasa 38 comprobaciones y tres fixtures de integración con acciones programadas; no son evidencia probabilística ni decisiones de LLM. Una inicialización errónea se detectó y corrigió en esas pruebas antes de la campaña. C3 y todos los paquetes previos permanecen intactos. El freeze fija código, parámetros, protocolo y selección; la siguiente acción es ejecutar, reproducir y auditar el negativo o su ausencia. EA sigue sin ejecutar en esta línea.
