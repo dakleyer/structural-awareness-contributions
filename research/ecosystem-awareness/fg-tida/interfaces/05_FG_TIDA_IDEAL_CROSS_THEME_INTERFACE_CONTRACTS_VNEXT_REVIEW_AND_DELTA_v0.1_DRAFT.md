@@ -257,7 +257,7 @@ Ideal FG-TIDA should therefore be able to test:
 - useful response margin after requalification;
 - expiry/no-response without conversion into permission.
 
-A future committed 00I scenario may add another stressor here after repository review; it is not assumed by this delta.
+[00I — Semantic TOCTOU](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) now supplies an internal EA stress scenario for stale-but-technically-valid conditions. It remains an internal architecture/test source rather than FG-TIDA-owned semantics.
 
 ---
 
