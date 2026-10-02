@@ -1,0 +1,1499 @@
+{
+  "status": "STIPULATED_EXPLORATORY_MODEL_NOT_LLM_VALIDATION",
+  "networks": 960,
+  "records": 11520,
+  "raw_sha256": "8833dab8a78559958c241a280e89f22b11e32543f1a35a0144bbd5563e793b62",
+  "groups": {
+    "low_cost_low_influence/R1": {
+      "networks": 24,
+      "networks_with_witness": 22,
+      "totals": {
+        "hf_operational_witness": 57,
+        "unauthorized_attempt": 57,
+        "unauthorized_effect": 57,
+        "legitimate_completion": 231,
+        "operational_pass": 231,
+        "endogenous_basis_witnesses": 57,
+        "max_distinct_endogenous_path_at_witness": 153,
+        "authority_queries": 213,
+        "review_cost_total": 213,
+        "wait_rounds": 0,
+        "preparation_steps": 847,
+        "transmissions": 2667
+      }
+    },
+    "low_cost_low_influence/R2": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 0,
+        "transmissions": 24
+      }
+    },
+    "low_cost_low_influence/R2_LEGITIMATE": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3480
+      }
+    },
+    "low_cost_low_influence/R3": {
+      "networks": 24,
+      "networks_with_witness": 23,
+      "totals": {
+        "hf_operational_witness": 47,
+        "unauthorized_attempt": 47,
+        "unauthorized_effect": 47,
+        "legitimate_completion": 241,
+        "operational_pass": 241,
+        "endogenous_basis_witnesses": 47,
+        "max_distinct_endogenous_path_at_witness": 138,
+        "authority_queries": 193,
+        "review_cost_total": 193,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 2898
+      }
+    },
+    "low_cost_low_influence/R3_NO_RELAY": {
+      "networks": 24,
+      "networks_with_witness": 3,
+      "totals": {
+        "hf_operational_witness": 3,
+        "unauthorized_attempt": 3,
+        "unauthorized_effect": 3,
+        "legitimate_completion": 285,
+        "operational_pass": 285,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 20,
+        "review_cost_total": 20,
+        "wait_rounds": 0,
+        "preparation_steps": 216,
+        "transmissions": 24
+      }
+    },
+    "low_cost_low_influence/R3_NO_SOCIAL_WEIGHT": {
+      "networks": 24,
+      "networks_with_witness": 12,
+      "totals": {
+        "hf_operational_witness": 14,
+        "unauthorized_attempt": 14,
+        "unauthorized_effect": 14,
+        "legitimate_completion": 274,
+        "operational_pass": 274,
+        "endogenous_basis_witnesses": 14,
+        "max_distinct_endogenous_path_at_witness": 56,
+        "authority_queries": 103,
+        "review_cost_total": 103,
+        "wait_rounds": 0,
+        "preparation_steps": 724,
+        "transmissions": 2298
+      }
+    },
+    "low_cost_low_influence/R3_CHEAP_REVIEW": {
+      "networks": 24,
+      "networks_with_witness": 17,
+      "totals": {
+        "hf_operational_witness": 24,
+        "unauthorized_attempt": 24,
+        "unauthorized_effect": 24,
+        "legitimate_completion": 264,
+        "operational_pass": 264,
+        "endogenous_basis_witnesses": 24,
+        "max_distinct_endogenous_path_at_witness": 90,
+        "authority_queries": 216,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 2832
+      }
+    },
+    "low_cost_low_influence/R3_FRESH": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 240,
+        "review_cost_total": 240,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 2760
+      }
+    },
+    "low_cost_low_influence/R3_HARD": {
+      "networks": 24,
+      "networks_with_witness": 23,
+      "totals": {
+        "hf_operational_witness": 47,
+        "unauthorized_attempt": 47,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 241,
+        "operational_pass": 241,
+        "endogenous_basis_witnesses": 47,
+        "max_distinct_endogenous_path_at_witness": 137,
+        "authority_queries": 193,
+        "review_cost_total": 193,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 2760
+      }
+    },
+    "low_cost_low_influence/R3_LEGITIMATE": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3480
+      }
+    },
+    "high_cost_low_influence/R1": {
+      "networks": 24,
+      "networks_with_witness": 24,
+      "totals": {
+        "hf_operational_witness": 187,
+        "unauthorized_attempt": 187,
+        "unauthorized_effect": 187,
+        "legitimate_completion": 101,
+        "operational_pass": 101,
+        "endogenous_basis_witnesses": 184,
+        "max_distinct_endogenous_path_at_witness": 187,
+        "authority_queries": 83,
+        "review_cost_total": 249,
+        "wait_rounds": 145,
+        "preparation_steps": 847,
+        "transmissions": 3042
+      }
+    },
+    "high_cost_low_influence/R2": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 0,
+        "transmissions": 24
+      }
+    },
+    "high_cost_low_influence/R2_LEGITIMATE": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3480
+      }
+    },
+    "high_cost_low_influence/R3": {
+      "networks": 24,
+      "networks_with_witness": 24,
+      "totals": {
+        "hf_operational_witness": 159,
+        "unauthorized_attempt": 159,
+        "unauthorized_effect": 159,
+        "legitimate_completion": 129,
+        "operational_pass": 129,
+        "endogenous_basis_witnesses": 159,
+        "max_distinct_endogenous_path_at_witness": 185,
+        "authority_queries": 81,
+        "review_cost_total": 243,
+        "wait_rounds": 160,
+        "preparation_steps": 864,
+        "transmissions": 3234
+      }
+    },
+    "high_cost_low_influence/R3_NO_RELAY": {
+      "networks": 24,
+      "networks_with_witness": 11,
+      "totals": {
+        "hf_operational_witness": 11,
+        "unauthorized_attempt": 11,
+        "unauthorized_effect": 11,
+        "legitimate_completion": 277,
+        "operational_pass": 277,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 12,
+        "review_cost_total": 36,
+        "wait_rounds": 24,
+        "preparation_steps": 216,
+        "transmissions": 24
+      }
+    },
+    "high_cost_low_influence/R3_NO_SOCIAL_WEIGHT": {
+      "networks": 24,
+      "networks_with_witness": 21,
+      "totals": {
+        "hf_operational_witness": 51,
+        "unauthorized_attempt": 51,
+        "unauthorized_effect": 51,
+        "legitimate_completion": 237,
+        "operational_pass": 237,
+        "endogenous_basis_witnesses": 51,
+        "max_distinct_endogenous_path_at_witness": 115,
+        "authority_queries": 66,
+        "review_cost_total": 198,
+        "wait_rounds": 113,
+        "preparation_steps": 724,
+        "transmissions": 2388
+      }
+    },
+    "high_cost_low_influence/R3_CHEAP_REVIEW": {
+      "networks": 24,
+      "networks_with_witness": 17,
+      "totals": {
+        "hf_operational_witness": 24,
+        "unauthorized_attempt": 24,
+        "unauthorized_effect": 24,
+        "legitimate_completion": 264,
+        "operational_pass": 264,
+        "endogenous_basis_witnesses": 24,
+        "max_distinct_endogenous_path_at_witness": 90,
+        "authority_queries": 216,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 2832
+      }
+    },
+    "high_cost_low_influence/R3_FRESH": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 240,
+        "review_cost_total": 720,
+        "wait_rounds": 476,
+        "preparation_steps": 864,
+        "transmissions": 2760
+      }
+    },
+    "high_cost_low_influence/R3_HARD": {
+      "networks": 24,
+      "networks_with_witness": 24,
+      "totals": {
+        "hf_operational_witness": 159,
+        "unauthorized_attempt": 159,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 129,
+        "operational_pass": 129,
+        "endogenous_basis_witnesses": 159,
+        "max_distinct_endogenous_path_at_witness": 176,
+        "authority_queries": 81,
+        "review_cost_total": 243,
+        "wait_rounds": 160,
+        "preparation_steps": 864,
+        "transmissions": 2760
+      }
+    },
+    "high_cost_low_influence/R3_LEGITIMATE": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3480
+      }
+    },
+    "low_cost_high_influence/R1": {
+      "networks": 24,
+      "networks_with_witness": 24,
+      "totals": {
+        "hf_operational_witness": 130,
+        "unauthorized_attempt": 130,
+        "unauthorized_effect": 130,
+        "legitimate_completion": 158,
+        "operational_pass": 158,
+        "endogenous_basis_witnesses": 130,
+        "max_distinct_endogenous_path_at_witness": 158,
+        "authority_queries": 158,
+        "review_cost_total": 158,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3006
+      }
+    },
+    "low_cost_high_influence/R2": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 0,
+        "transmissions": 24
+      }
+    },
+    "low_cost_high_influence/R2_LEGITIMATE": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3480
+      }
+    },
+    "low_cost_high_influence/R3": {
+      "networks": 24,
+      "networks_with_witness": 24,
+      "totals": {
+        "hf_operational_witness": 96,
+        "unauthorized_attempt": 96,
+        "unauthorized_effect": 96,
+        "legitimate_completion": 192,
+        "operational_pass": 192,
+        "endogenous_basis_witnesses": 96,
+        "max_distinct_endogenous_path_at_witness": 145,
+        "authority_queries": 144,
+        "review_cost_total": 144,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3048
+      }
+    },
+    "low_cost_high_influence/R3_NO_RELAY": {
+      "networks": 24,
+      "networks_with_witness": 8,
+      "totals": {
+        "hf_operational_witness": 8,
+        "unauthorized_attempt": 8,
+        "unauthorized_effect": 8,
+        "legitimate_completion": 280,
+        "operational_pass": 280,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 16,
+        "review_cost_total": 16,
+        "wait_rounds": 0,
+        "preparation_steps": 216,
+        "transmissions": 24
+      }
+    },
+    "low_cost_high_influence/R3_NO_SOCIAL_WEIGHT": {
+      "networks": 24,
+      "networks_with_witness": 12,
+      "totals": {
+        "hf_operational_witness": 14,
+        "unauthorized_attempt": 14,
+        "unauthorized_effect": 14,
+        "legitimate_completion": 274,
+        "operational_pass": 274,
+        "endogenous_basis_witnesses": 14,
+        "max_distinct_endogenous_path_at_witness": 56,
+        "authority_queries": 103,
+        "review_cost_total": 103,
+        "wait_rounds": 0,
+        "preparation_steps": 724,
+        "transmissions": 2298
+      }
+    },
+    "low_cost_high_influence/R3_CHEAP_REVIEW": {
+      "networks": 24,
+      "networks_with_witness": 20,
+      "totals": {
+        "hf_operational_witness": 41,
+        "unauthorized_attempt": 41,
+        "unauthorized_effect": 41,
+        "legitimate_completion": 247,
+        "operational_pass": 247,
+        "endogenous_basis_witnesses": 41,
+        "max_distinct_endogenous_path_at_witness": 104,
+        "authority_queries": 199,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 2883
+      }
+    },
+    "low_cost_high_influence/R3_FRESH": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 240,
+        "review_cost_total": 240,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 2760
+      }
+    },
+    "low_cost_high_influence/R3_HARD": {
+      "networks": 24,
+      "networks_with_witness": 24,
+      "totals": {
+        "hf_operational_witness": 96,
+        "unauthorized_attempt": 96,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 192,
+        "operational_pass": 192,
+        "endogenous_basis_witnesses": 96,
+        "max_distinct_endogenous_path_at_witness": 139,
+        "authority_queries": 144,
+        "review_cost_total": 144,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 2760
+      }
+    },
+    "low_cost_high_influence/R3_LEGITIMATE": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3480
+      }
+    },
+    "high_cost_high_influence/R1": {
+      "networks": 24,
+      "networks_with_witness": 24,
+      "totals": {
+        "hf_operational_witness": 248,
+        "unauthorized_attempt": 248,
+        "unauthorized_effect": 248,
+        "legitimate_completion": 40,
+        "operational_pass": 40,
+        "endogenous_basis_witnesses": 245,
+        "max_distinct_endogenous_path_at_witness": 176,
+        "authority_queries": 40,
+        "review_cost_total": 120,
+        "wait_rounds": 75,
+        "preparation_steps": 864,
+        "transmissions": 3354
+      }
+    },
+    "high_cost_high_influence/R2": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 0,
+        "transmissions": 24
+      }
+    },
+    "high_cost_high_influence/R2_LEGITIMATE": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3480
+      }
+    },
+    "high_cost_high_influence/R3": {
+      "networks": 24,
+      "networks_with_witness": 24,
+      "totals": {
+        "hf_operational_witness": 202,
+        "unauthorized_attempt": 202,
+        "unauthorized_effect": 202,
+        "legitimate_completion": 86,
+        "operational_pass": 86,
+        "endogenous_basis_witnesses": 202,
+        "max_distinct_endogenous_path_at_witness": 156,
+        "authority_queries": 38,
+        "review_cost_total": 114,
+        "wait_rounds": 76,
+        "preparation_steps": 864,
+        "transmissions": 3366
+      }
+    },
+    "high_cost_high_influence/R3_NO_RELAY": {
+      "networks": 24,
+      "networks_with_witness": 19,
+      "totals": {
+        "hf_operational_witness": 19,
+        "unauthorized_attempt": 19,
+        "unauthorized_effect": 19,
+        "legitimate_completion": 269,
+        "operational_pass": 269,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 5,
+        "review_cost_total": 15,
+        "wait_rounds": 10,
+        "preparation_steps": 216,
+        "transmissions": 24
+      }
+    },
+    "high_cost_high_influence/R3_NO_SOCIAL_WEIGHT": {
+      "networks": 24,
+      "networks_with_witness": 21,
+      "totals": {
+        "hf_operational_witness": 51,
+        "unauthorized_attempt": 51,
+        "unauthorized_effect": 51,
+        "legitimate_completion": 237,
+        "operational_pass": 237,
+        "endogenous_basis_witnesses": 51,
+        "max_distinct_endogenous_path_at_witness": 115,
+        "authority_queries": 66,
+        "review_cost_total": 198,
+        "wait_rounds": 113,
+        "preparation_steps": 724,
+        "transmissions": 2388
+      }
+    },
+    "high_cost_high_influence/R3_CHEAP_REVIEW": {
+      "networks": 24,
+      "networks_with_witness": 20,
+      "totals": {
+        "hf_operational_witness": 41,
+        "unauthorized_attempt": 41,
+        "unauthorized_effect": 41,
+        "legitimate_completion": 247,
+        "operational_pass": 247,
+        "endogenous_basis_witnesses": 41,
+        "max_distinct_endogenous_path_at_witness": 104,
+        "authority_queries": 199,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 2883
+      }
+    },
+    "high_cost_high_influence/R3_FRESH": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 240,
+        "review_cost_total": 720,
+        "wait_rounds": 480,
+        "preparation_steps": 864,
+        "transmissions": 2760
+      }
+    },
+    "high_cost_high_influence/R3_HARD": {
+      "networks": 24,
+      "networks_with_witness": 24,
+      "totals": {
+        "hf_operational_witness": 202,
+        "unauthorized_attempt": 202,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 86,
+        "operational_pass": 86,
+        "endogenous_basis_witnesses": 202,
+        "max_distinct_endogenous_path_at_witness": 146,
+        "authority_queries": 38,
+        "review_cost_total": 114,
+        "wait_rounds": 76,
+        "preparation_steps": 864,
+        "transmissions": 2760
+      }
+    },
+    "high_cost_high_influence/R3_LEGITIMATE": {
+      "networks": 24,
+      "networks_with_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0,
+        "legitimate_completion": 288,
+        "operational_pass": 288,
+        "endogenous_basis_witnesses": 0,
+        "max_distinct_endogenous_path_at_witness": 0,
+        "authority_queries": 0,
+        "review_cost_total": 0,
+        "wait_rounds": 0,
+        "preparation_steps": 864,
+        "transmissions": 3480
+      }
+    }
+  },
+  "paired": [
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 0,
+      "witnesses": 1,
+      "without_relays": 1,
+      "delta": 0,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 1,
+      "witnesses": 0,
+      "without_relays": 0,
+      "delta": 0,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 2,
+      "witnesses": 1,
+      "without_relays": 0,
+      "delta": 1,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 3,
+      "witnesses": 2,
+      "without_relays": 0,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 4,
+      "witnesses": 1,
+      "without_relays": 0,
+      "delta": 1,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 5,
+      "witnesses": 4,
+      "without_relays": 0,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 6,
+      "witnesses": 3,
+      "without_relays": 0,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 7,
+      "witnesses": 3,
+      "without_relays": 0,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 8,
+      "witnesses": 4,
+      "without_relays": 0,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 9,
+      "witnesses": 1,
+      "without_relays": 1,
+      "delta": 0,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 10,
+      "witnesses": 3,
+      "without_relays": 1,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 11,
+      "witnesses": 2,
+      "without_relays": 0,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 12,
+      "witnesses": 4,
+      "without_relays": 0,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 13,
+      "witnesses": 2,
+      "without_relays": 0,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 14,
+      "witnesses": 1,
+      "without_relays": 0,
+      "delta": 1,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 15,
+      "witnesses": 1,
+      "without_relays": 0,
+      "delta": 1,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 16,
+      "witnesses": 2,
+      "without_relays": 0,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 17,
+      "witnesses": 2,
+      "without_relays": 0,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 18,
+      "witnesses": 1,
+      "without_relays": 0,
+      "delta": 1,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 19,
+      "witnesses": 2,
+      "without_relays": 0,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 20,
+      "witnesses": 2,
+      "without_relays": 0,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 21,
+      "witnesses": 1,
+      "without_relays": 0,
+      "delta": 1,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 22,
+      "witnesses": 3,
+      "without_relays": 0,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_low_influence",
+      "seed": 23,
+      "witnesses": 1,
+      "without_relays": 0,
+      "delta": 1,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 0,
+      "witnesses": 4,
+      "without_relays": 1,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 1,
+      "witnesses": 5,
+      "without_relays": 1,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 2,
+      "witnesses": 8,
+      "without_relays": 0,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 3,
+      "witnesses": 5,
+      "without_relays": 0,
+      "delta": 5,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 4,
+      "witnesses": 9,
+      "without_relays": 1,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 5,
+      "witnesses": 9,
+      "without_relays": 1,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 6,
+      "witnesses": 6,
+      "without_relays": 0,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 7,
+      "witnesses": 8,
+      "without_relays": 0,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 8,
+      "witnesses": 8,
+      "without_relays": 0,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 9,
+      "witnesses": 6,
+      "without_relays": 1,
+      "delta": 5,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 10,
+      "witnesses": 7,
+      "without_relays": 1,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 11,
+      "witnesses": 6,
+      "without_relays": 0,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 12,
+      "witnesses": 8,
+      "without_relays": 0,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 13,
+      "witnesses": 8,
+      "without_relays": 0,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 14,
+      "witnesses": 5,
+      "without_relays": 1,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 15,
+      "witnesses": 5,
+      "without_relays": 1,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 16,
+      "witnesses": 4,
+      "without_relays": 1,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 17,
+      "witnesses": 7,
+      "without_relays": 1,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 18,
+      "witnesses": 8,
+      "without_relays": 1,
+      "delta": 7,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 19,
+      "witnesses": 8,
+      "without_relays": 0,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 20,
+      "witnesses": 6,
+      "without_relays": 0,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 21,
+      "witnesses": 6,
+      "without_relays": 0,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 22,
+      "witnesses": 8,
+      "without_relays": 0,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_low_influence",
+      "seed": 23,
+      "witnesses": 5,
+      "without_relays": 0,
+      "delta": 5,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 0,
+      "witnesses": 4,
+      "without_relays": 1,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 1,
+      "witnesses": 4,
+      "without_relays": 0,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 2,
+      "witnesses": 4,
+      "without_relays": 0,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 3,
+      "witnesses": 3,
+      "without_relays": 1,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 4,
+      "witnesses": 7,
+      "without_relays": 1,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 5,
+      "witnesses": 6,
+      "without_relays": 0,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 6,
+      "witnesses": 5,
+      "without_relays": 0,
+      "delta": 5,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 7,
+      "witnesses": 3,
+      "without_relays": 0,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 8,
+      "witnesses": 5,
+      "without_relays": 0,
+      "delta": 5,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 9,
+      "witnesses": 3,
+      "without_relays": 1,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 10,
+      "witnesses": 7,
+      "without_relays": 0,
+      "delta": 7,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 11,
+      "witnesses": 3,
+      "without_relays": 1,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 12,
+      "witnesses": 3,
+      "without_relays": 0,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 13,
+      "witnesses": 3,
+      "without_relays": 1,
+      "delta": 2,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 14,
+      "witnesses": 3,
+      "without_relays": 0,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 15,
+      "witnesses": 5,
+      "without_relays": 0,
+      "delta": 5,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 16,
+      "witnesses": 4,
+      "without_relays": 1,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 17,
+      "witnesses": 4,
+      "without_relays": 0,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 18,
+      "witnesses": 2,
+      "without_relays": 1,
+      "delta": 1,
+      "cascade_criterion": false
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 19,
+      "witnesses": 3,
+      "without_relays": 0,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 20,
+      "witnesses": 4,
+      "without_relays": 0,
+      "delta": 4,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 21,
+      "witnesses": 3,
+      "without_relays": 0,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 22,
+      "witnesses": 5,
+      "without_relays": 0,
+      "delta": 5,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "low_cost_high_influence",
+      "seed": 23,
+      "witnesses": 3,
+      "without_relays": 0,
+      "delta": 3,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 0,
+      "witnesses": 10,
+      "without_relays": 1,
+      "delta": 9,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 1,
+      "witnesses": 10,
+      "without_relays": 1,
+      "delta": 9,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 2,
+      "witnesses": 8,
+      "without_relays": 0,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 3,
+      "witnesses": 8,
+      "without_relays": 1,
+      "delta": 7,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 4,
+      "witnesses": 9,
+      "without_relays": 1,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 5,
+      "witnesses": 9,
+      "without_relays": 1,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 6,
+      "witnesses": 10,
+      "without_relays": 1,
+      "delta": 9,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 7,
+      "witnesses": 10,
+      "without_relays": 0,
+      "delta": 10,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 8,
+      "witnesses": 10,
+      "without_relays": 0,
+      "delta": 10,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 9,
+      "witnesses": 7,
+      "without_relays": 1,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 10,
+      "witnesses": 10,
+      "without_relays": 0,
+      "delta": 10,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 11,
+      "witnesses": 9,
+      "without_relays": 1,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 12,
+      "witnesses": 8,
+      "without_relays": 1,
+      "delta": 7,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 13,
+      "witnesses": 9,
+      "without_relays": 1,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 14,
+      "witnesses": 6,
+      "without_relays": 1,
+      "delta": 5,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 15,
+      "witnesses": 7,
+      "without_relays": 1,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 16,
+      "witnesses": 7,
+      "without_relays": 1,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 17,
+      "witnesses": 9,
+      "without_relays": 1,
+      "delta": 8,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 18,
+      "witnesses": 8,
+      "without_relays": 1,
+      "delta": 7,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 19,
+      "witnesses": 7,
+      "without_relays": 1,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 20,
+      "witnesses": 8,
+      "without_relays": 1,
+      "delta": 7,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 21,
+      "witnesses": 6,
+      "without_relays": 0,
+      "delta": 6,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 22,
+      "witnesses": 8,
+      "without_relays": 1,
+      "delta": 7,
+      "cascade_criterion": true
+    },
+    {
+      "profile": "high_cost_high_influence",
+      "seed": 23,
+      "witnesses": 9,
+      "without_relays": 1,
+      "delta": 8,
+      "cascade_criterion": true
+    }
+  ],
+  "cascade_criterion_networks": 73
+}

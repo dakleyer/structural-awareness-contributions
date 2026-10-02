@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "boundary_checks": 6,
+  "episodes_checked": 960,
+  "exact_replays": 960,
+  "new_independent_observations_from_replay": 0,
+  "oracle_unchanged": true,
+  "checks": [
+    "message chronology",
+    "parent received before relay",
+    "basis received before commit",
+    "oracle effects match independent environment receipts",
+    "aligned and legitimate controls",
+    "hard enforcement",
+    "fresh conventional revalidation"
+  ],
+  "freeze_commit": "f656c101dfa142188e820d045ea6ef3146af5456"
+}
