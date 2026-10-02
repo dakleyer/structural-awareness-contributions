@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "exact finite constructed fragment only",
+  "base_commit": "114ac132bc2be4e7008001fe505bf5bd4c36c515",
+  "counts": {
+    "reachable_state_event_pairs": 274572,
+    "domain_structures": 288,
+    "state_roundtrips": 16104,
+    "diagnostic_state_event_pairs": 172224,
+    "view_pairs_and_full_review_controls": 768
+  },
+  "state_event_pairs_by_case": {
+    "H": 91524,
+    "L": 91524,
+    "W": 91524
+  },
+  "rejected_mutations": [
+    "non_bijective_map",
+    "swapped_roles",
+    "missing_edge",
+    "false_permission",
+    "changed_benefit",
+    "redistributed_benefits",
+    "scope_change",
+    "hidden_shortcut",
+    "free_review",
+    "launder_source",
+    "ignore_denial",
+    "probability",
+    "hidden_influence",
+    "oracle_leak"
+  ],
+  "parameter_change_counterexamples": [
+    "radius_changes_discovery",
+    "lower_cost_changes_affordability"
+  ],
+  "historical_reproduction": false,
+  "full_R01_simulator": false,
+  "EA_evaluation": false,
+  "checker_sha256": "f0bd2d52091d0a2b0138e5a9887d43a1ec3a6bb129d10847672a18eebbe9eedb"
+}
