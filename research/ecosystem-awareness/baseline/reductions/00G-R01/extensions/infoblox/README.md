@@ -1,3 +1,22 @@
+# Extensión de R01: Infoblox
+
+[00G-R01](../../README.md) · [Tabla de extensiones](../../README.md#extensiones)
+
+El caso concreta el problema de R01 en un diagnóstico DNS con descubrimiento, confianza y políticas. El documento integrado conserva el escenario, las tecnologías, las rutas posibles, los tres recorridos y la prueba condicional.
+
+| Parte del expediente | Contenido |
+|---|---|
+| Escenario | [Diagnóstico y rutas](#2-escenario-de-diagnóstico-y-rutas-posibles) · [Tecnologías](#3-tecnologías-y-controles-disponibles) · [Tres recorridos](#4-los-tres-recorridos-del-ensayo) |
+| Justificación de extensión | [Factores y relaciones que deben conservarse](#5-qué-debe-conservar-la-extensión-desde-r01) |
+| Validación | [Prueba acotada y resultados](#6-prueba-acotada-y-resultados-del-modelo) |
+| Código y resultados | [Guía de reproducción](./proof/README.md) |
+| Fuentes y antecedentes | [Referencias](#anexo-b-referencias-y-fuentes) · [Auditoría e historial](#anexo-a-auditoría-y-continuidad-documental) |
+| Estado | Núcleo sintético comprobado; integración real, admisión completa y diferencial EA pendientes. |
+
+[Descargar el documento Word](./00G-R01_Infoblox_documento_integrado_v0.5.docx)
+
+---
+
 > **Publicación del documento integrado v0.5 · 2 de octubre de 2026.**
 > [Caso padre 00G](../../../../00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) · [Reducción 00G-R01](../../README.md) · [Descargar Word](./00G-R01_Infoblox_documento_integrado_v0.5.docx) · [Comprobación reproducible](./proof/README.md).
 >
@@ -7,7 +26,7 @@
 
 ---
 
-# R01 y su extensión al caso Infoblox
+## R01 y su extensión al caso Infoblox
 
 Escenario tecnologías recorridos y prueba de transferencia
 

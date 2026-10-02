@@ -1,8 +1,27 @@
-# 00G-R01 → Hugging Face: auditoría de parámetros, resultados y codependencias
+# Extensión de R01: OpenAI / Hugging Face
+
+[00G-R01](../../README.md) · [Tabla de extensiones](../../README.md#extensiones)
+
+El caso examina cómo una alternativa, un hallazgo o un encargo compartido puede adquirir fuerza operativa frente a la tarea y los límites del receptor. Su conexión con R01 permite estudiar búsqueda de soluciones, coste de validación y reutilización social de hallazgos. La causa económica histórica sigue siendo una hipótesis; la auditoría que sigue no declara reproducido el incidente.
+
+| Parte del expediente | Contenido |
+|---|---|
+| Escenario | [Correspondencia con R01, parte 3](../../Escenario-creatividad-validacion.md#3-familia-00g-escenario-reducido-y-referencia-hugging-face) · [Caso documentado y diseño previo 00G-HF](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) |
+| Justificación de extensión | [Relaciones que deben conservarse](#2-qué-debe-conservar-una-extensión) · [Parámetros](#3-inventario-de-parámetros-y-resultados) · [Codependencias](#5-codependencias-y-contraejemplos) |
+| Validación | [Comprobación ejecutada](#4-comprobación-reproducible-ejecutada) · [Criterios A25 y pendientes](#6-resultado-frente-a-a25) |
+| Código y resultados | [Guía de reproducción](./proof/README.md) |
+| Fuentes y antecedentes | [Fuentes examinadas](#8-fuentes-y-versión-examinada) · [Historial de ensayos](../../../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) |
+| Estado | Conservación parcial verificada en un modelo sintético; admisión histórica completa y diferencial EA pendientes. |
+
+**La reducción de base pertenece a R01.** Su [fundamento 00G → R01](../../README.md#fundamento-y-prueba-de-la-reducción) se consulta desde el escenario base. Aquí se reúne la justificación de la extensión al caso HF y su validación. Los documentos previos 00G-HF conservan su contenido y ubicación histórica; sus recorridos R1–R3 no se renombran como ejecuciones de 00G-R01.
+
+---
+
+## 00G-R01 → Hugging Face: auditoría de parámetros, resultados y codependencias
 
 **Versión 0.1 · 2 de octubre de 2026 · Auditoría del autor asistida por IA.**
 
-[00G-R01 y sus extensiones](../../README.md#extensiones) · [Justificación anterior de la reducción](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) · [Infoblox v0.5](../infoblox/README.md) · [Código](./check.py) · [Resultados](./results.json) · [Registro de cobertura](./coverage.json).
+[00G-R01 y sus extensiones](../../README.md#extensiones) · [Antecedente de la reducción de base](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) · [Infoblox v0.5](../infoblox/README.md) · [Código](./check.py) · [Resultados](./results.json) · [Registro de cobertura](./coverage.json).
 
 ## 1. Dictamen y alcance
 

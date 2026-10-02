@@ -4,7 +4,7 @@
 
 **C-V · versión de trabajo 0.6 · 2 de octubre de 2026.** Estudio de reducción de la familia 00G. Especificación de investigación no canónica, todavía sin resultados experimentales propios.
 
-[Leer el documento completo](./Escenario-creatividad-validacion.md) · [PDF](./Escenario-creatividad-validacion.pdf) · [Word](./Escenario-creatividad-validacion.docx)
+[Leer el documento completo](./Escenario-creatividad-validacion.md) · [PDF](./Escenario-creatividad-validacion.pdf) · [Word](./Escenario-creatividad-validacion.docx) · [Tabla de extensiones](#extensiones)
 
 ## Lugar de la reducción dentro de 00G
 
@@ -69,26 +69,14 @@ Para seguir el recorrido: §§2–5 reúnen ensayos y motivos del cambio; §§7�
 
 ## Extensiones
 
-Este apartado reúne los casos conectados con 00G-R01 y sus documentos de justificación. Hugging Face aporta la motivación histórica y una reducción candidata desde 00G; Infoblox concreta una aplicación tecnológica candidata del problema de R01. La relación estructural, la explicación causal y el posible diferencial de EA requieren comprobaciones separadas en cada caso. Estos enlaces no declaran una admisión completa ni transfieren automáticamente los resultados de un ensayo a otro.
+Las extensiones se organizan dentro de `00G-R01/extensions/`, con una carpeta por caso. Esta es su tabla de entrada. La **reducción 00G → R01** se explica en [Fundamento y prueba de la reducción](#fundamento-y-prueba-de-la-reducción); las filas siguientes examinan la relación **R01 → caso extendido**.
 
-### OpenAI / Hugging Face
+| Extensión y caso | Documento del caso | Justificación desde R01 | Validación y reproducción | Estado |
+|---|---|---|---|---|
+| <a id="openai--hugging-face"></a>**OpenAI / Hugging Face.** Búsqueda de alternativas, hallazgos compartidos y decisiones frente a la tarea y los límites del receptor. | [Documento integrado](./extensions/hugging-face/README.md) | [Correspondencia y obligaciones](./extensions/hugging-face/README.md#2-qué-debe-conservar-una-extensión) · [Matriz de parámetros](./extensions/hugging-face/README.md#3-inventario-de-parámetros-y-resultados) | [Prueba acotada](./extensions/hugging-face/README.md#4-comprobación-reproducible-ejecutada) · [Código y resultados](./extensions/hugging-face/proof/README.md) | Conservación sintética parcial comprobada; admisión histórica y diferencial EA pendientes. |
+| <a id="extensión-al-caso-infoblox"></a>**Infoblox.** Diagnóstico DNS con descubrimiento, confianza, políticas y validación de composiciones. | [Documento integrado](./extensions/infoblox/README.md) · [Word](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) | [Correspondencia y factores](./extensions/infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) | [Prueba acotada](./extensions/infoblox/README.md#6-prueba-acotada-y-resultados-del-modelo) · [Código y resultados](./extensions/infoblox/proof/README.md) | Núcleo sintético comprobado; integración real, admisión completa y diferencial EA pendientes. |
 
-El caso estudia cómo una vía alternativa, un hallazgo o un encargo compartido entre agentes puede adquirir fuerza operativa frente a la tarea y los límites del receptor. Su conexión con R01 permite investigar la búsqueda de soluciones, el coste de validar lo encontrado y la reutilización social de hallazgos. Que el coste de validación explique una decisión histórica sigue siendo una hipótesis que debe contrastarse.
-
-- [Validación de parámetros, resultados y codependencias R01 → Hugging Face](./extensions/hugging-face/README.md): auditoría de los quince grupos de configuración, métricas y relaciones conjuntas; comprobación reproducible en 288 configuraciones sintéticas y contraejemplos a la transferencia automática. Distingue ese resultado acotado de la admisión histórica completa, que sigue pendiente. Incluye [código](./extensions/hugging-face/check.py), [resultados](./extensions/hugging-face/results.json) y [matriz de cobertura](./extensions/hugging-face/coverage.json).
-- [Caso y diseño de los recorridos 00G-HF v0.2](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md): presenta el núcleo conservado, la relación con el incidente, los recorridos R1–R3 y los antecedentes experimentales.
-- [Justificación independiente: reducción unidireccional v0.1](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) y [revisión de los pasos 1 y 2](../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md): explican qué se retira del relato de Napoleón, qué relaciones deben conservarse y los límites de la correspondencia y de su plausibilidad causal.
-- [Aplicación a R01 y obligaciones de admisión, parte 3](./Escenario-creatividad-validacion.md#3-familia-00g-escenario-reducido-y-referencia-hugging-face): sitúa la subfamilia social C-V-G, las correspondencias documentadas, los controles de producción y las pruebas pendientes. El [historial de ensayos](../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) conserva resultados, intentos negativos y controles convencionales que resolvieron los casos ensayados.
-
-**Estado:** reducción y correspondencia candidatas. No se ha demostrado que todo el incidente histórico pertenezca a 00G/R01, que todos los agentes actuaran por el mismo motivo ni que EA lo hubiera evitado. Elegir un medio indebido para la propia tarea no basta para acreditar el desplazamiento social de una obligación que exige la especialización 00G. Los recorridos anteriores R1–R3 no son ejecuciones del escenario actual 00G-R01.
-
-### Extensión al caso Infoblox
-
-[Leer el documento integrado v0.5](./extensions/infoblox/README.md) · [Word](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) · [Código y resultados reproducibles](./extensions/infoblox/proof/README.md).
-
-El documento reúne el escenario DNS, las tecnologías disponibles según las fuentes fijadas, las rutas mediocre/prohibida/óptima, los recorridos 0/1/2, la matriz de factores de R01 y una prueba condicional de transferencia. La comprobación ejecutada corresponde a un modelo sintético finito; no a un despliegue de Infoblox, DNS-AID ni agentes LLM.
-
-La admisión completa de la extensión y el diferencial de EA siguen pendientes. Un certificado suficiente y accesible resuelve la dificultad del modelo: no se afirma que la tecnología disponible no pueda eliminarla. El comprobador de esta extensión no sustituye al evaluador completo pendiente de 00G-R01 ni modifica el alcance del oráculo C3.
+Cada documento sigue la misma navegación: **escenario → justificación de extensión → validación → código y resultados → fuentes y antecedentes**. La pertenencia estructural, la explicación causal y la comparación EA se evalúan por separado. Los ensayos anteriores conservan su ámbito y no se convierten en resultados de R01 por aparecer en esta tabla.
 
 ## Archivos y reproducción editorial
 
