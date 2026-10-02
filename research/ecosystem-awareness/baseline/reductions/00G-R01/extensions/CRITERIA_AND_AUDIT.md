@@ -2,7 +2,7 @@
 
 Versión 0.1 · 2 de octubre de 2026 · Revisión interna del autor asistida por IA
 
-[R01 y tabla de extensiones](../README.md#extensiones) · [Hugging Face](./hugging-face/README.md) · [Infoblox](./infoblox/README.md) · [Familia construida](./family/README.md) · [Verificación reproducible](./verify_audit.py) · [Informe](./audit_results.json)
+[R01 y tabla de extensiones](../README.md#extensiones) · [Hugging Face](./hugging-face/README.md) · [Infoblox](./infoblox/README.md) · [Familia construida](./family/README.md) · [Fundamento metodológico](./METHODOLOGICAL_FOUNDATIONS.md) · [Verificación reproducible](./verify_audit.py) · [Informe](./audit_results.json)
 
 ## 1 Base fijada y objeto de la revisión
 
@@ -129,3 +129,7 @@ python3 verify_audit.py --verify
 El script ejecuta los tres comprobadores en carpetas temporales, compara sus informes con los publicados, verifica las huellas de los archivos textuales de los expedientes y comprueba los contraejemplos adicionales de óptimo, tolerancia y cambio de parámetros. No modifica los informes de cada caso ni convierte esta revisión en una ejecución de agentes. El código y los archivos comprobados se identifican por SHA-256 en el informe común. Los binarios Word quedan fuera de esta comprobación; sus huellas publicadas se conservan, sin afirmar una nueva verificación de su contenido.
 
 R01 v0.6 y sus exportaciones se conservan. Las fichas de revisión se añaden a las fuentes Markdown; el Word de Infoblox sigue siendo la exportación v0.5 anterior al añadido de esta ficha, con su huella conservada. Las fuentes externas y las condiciones particulares siguen en cada expediente. No se sobrescriben antecedentes ni se cambian resultados para obtener un dictamen favorable.
+
+## 9 Fundamento metodológico y transferencia comparativa
+
+La [nota metodológica](./METHODOLOGICAL_FOUNDATIONS.md) relaciona E1–E7 con fuentes primarias de bisimulación, homomorfismos, abstracción y refinamiento. Distingue precedentes que justifican el método de evidencia que todavía debe producir R01. Para trasladar una comparación EA–control exige preservar ambos brazos y sus métricas; trata por separado las cotas aproximadas, la observación parcial, la incertidumbre estadística y el ciclo CEGAR aún no implementado. El estado de evidencia de estas fichas no cambia por añadir referencias.

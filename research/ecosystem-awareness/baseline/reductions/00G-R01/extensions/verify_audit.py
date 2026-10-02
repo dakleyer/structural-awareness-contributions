@@ -126,7 +126,8 @@ def run():
     assert family["base_step"](known_denial, ("commit", 0, 2), 2, 1, parameters) is None
     assert family["domain_step"](family["encode"](known_denial, denied, 2), ("commit", 0, 2), denied) is None
 
-    document_paths = [ROOT / "CRITERIA_AND_AUDIT.md", ROOT.parent / "README.md"]
+    document_paths = [ROOT / "CRITERIA_AND_AUDIT.md", ROOT / "METHODOLOGICAL_FOUNDATIONS.md",
+                      ROOT.parent / "README.md"]
     for case in CASES:
         document_paths.extend((ROOT / case).rglob("*.md"))
     for path in sorted(document_paths):

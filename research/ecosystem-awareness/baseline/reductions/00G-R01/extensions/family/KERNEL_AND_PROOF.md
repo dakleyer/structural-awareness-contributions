@@ -158,6 +158,12 @@ Las variables extra pueden depender unas de otras y del núcleo. Su influencia s
 
 **Aplicación condicional a las especificaciones H/L/W.** Se propone como h la codificación de operaciones, obligaciones, recursos y mensajes de la tabla de casos. Los predicados de dominio son respectivamente permisos de alcance, preservación semántica y autorización de efectos. Se transportan todos los grupos de §3 y se aplica la construcción anterior. Esto demuestra existencia de codificaciones formales por transporte con los predicados declarados. Para una realización independiente H/L/W aún debe verificarse que todas sus operaciones, vistas y relaciones cumplen E1–E7; la etiqueta de dominio no prueba esa adecuación. No demuestra que una API, un verificador real o una traza histórica implementen esas ecuaciones: su adecuación requiere comprobaciones independientes. El testigo finito usa evaluadores de dominio separados para contrastar esa obligación y detectar alteraciones.
 
+### 5.2 Corolario para dos brazos comparados
+
+Para cada brazo b∈{EA,C}, E1–E7 debe cumplirse en el sistema cerrado con su política emparejada, sus observaciones y todos sus cargos. Si la misma métrica integrable m factoriza por la proyección y se mantienen mundo, configuración efectiva y horizonte, la proposición iguala su esperanza por brazo. Al restar se obtiene Δ_Y(m)=Δ_B(m). Esto conserva un contraste definido, no establece que sea positivo. La ley conjunta debe preservarse también si se pretende transportar la distribución de diferencias emparejadas, no sólo sus esperanzas.
+
+La [nota metodológica §§3–6](../METHODOLOGICAL_FOUNDATIONS.md) desarrolla hipótesis, prueba de este corolario, posibles cotas aproximadas y precedentes primarios. La equivalencia del estado del evaluador no hace plenamente observable la tarea del agente; E4 sigue siendo indispensable. Citar un homomorfismo de MDP no sustituye esa obligación ni acredita implementación o eficacia EA.
+
 ## 6 Transformaciones concretas y contraejemplos
 
 | Cambio | Condición para admitirlo | Qué no se transfiere sin más |
@@ -191,6 +197,8 @@ El [paquete de comprobación](./proof/README.md) verifica codificación, grafo, 
 El isomorfismo de R01 no sustituye las condiciones específicas de C-V-G ni la matriz canónica de conformidad de 00G. Se puede conservar R01 y quedar fuera de esa subfamilia social. La admisión histórica y las ejecuciones de EA mantienen sus obligaciones propias.
 
 ## 8 Fuentes
+
+- [Fundamento metodológico: fuentes primarias, precedentes computacionales y límites de transferencia](../METHODOLOGICAL_FOUNDATIONS.md).
 
 - Base y fuente del inventario: [R01 v0.6 en el commit fijado](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md).
 - Método interno: [A25](../../../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md), §§3–6.

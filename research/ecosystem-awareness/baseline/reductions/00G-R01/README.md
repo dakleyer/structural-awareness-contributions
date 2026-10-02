@@ -18,6 +18,7 @@ La pregunta es dónde una arquitectura que explora probabilísticamente, valida 
 
 | Pieza de soporte | Qué aporta a 00G-R01 |
 |---|---|
+| [Fundamento metodológico y referencias primarias](./extensions/METHODOLOGICAL_FOUNDATIONS.md) | Precedentes de abstracción y verificación, transferencia de una comparación EA–control y límites del experimento reducido. |
 | [Perfil de extensionalidad 00G](../../00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md) y [método A25](../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md) | Condiciones que debe conservar una instancia para pertenecer a la familia. |
 | [Reducción unidireccional v0.1](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) | Argumento que retira exigencias narrativas y conserva obligación, procedencia, autoridad y decisión. Sigue siendo una reducción candidata. |
 | [Revisión de pasos 1 y 2](../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) | Comprobación documental del argumento y de los límites de su plausibilidad causal. |

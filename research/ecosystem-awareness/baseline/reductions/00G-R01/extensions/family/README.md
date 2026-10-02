@@ -107,6 +107,8 @@ La relación con 00G exige además acreditar C-V-G: contenido recibido, dependen
 
 ## 6 Referencias internas y trazabilidad
 
+- [Fundamento metodológico y precedentes primarios](../METHODOLOGICAL_FOUNDATIONS.md): qué justifica probar primero R01, cómo trasladar una comparación y dónde termina la garantía.
+
 - Base fijada: R01 v0.6, [commit 114ac132](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), especialmente §§2.1–2.18 y 3.2–3.5.
 - [Infoblox, documento integrado](../infoblox/README.md), §§5–6: correspondencia, prueba condicional y contraejemplo con certificado suficiente. Su comprobación no se reetiqueta como prueba completa de esta familia.
 - [Hugging Face, auditoría de parámetros y codependencias](../hugging-face/README.md): expediente histórico y transporte sintético auxiliar, distinto del escenario construido H de esta familia.
