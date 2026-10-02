@@ -67,7 +67,21 @@ El [anexo de desarrollo e historial de experimentos 00G-HF](../../annexes/00G-HF
 
 Para seguir el recorrido: §§2–5 reúnen ensayos y motivos del cambio; §§7–12, ejecuciones y límites pendientes; §§13–17, correcciones de diseño y relación con creatividad, validación y 00G. El anexo enlaza los paquetes, trazas y resultados originales. Los pendientes históricos se leen a su fecha; el estado de 00G-R01 y de su oráculo se consulta en este escenario y en el documento de estado enlazado arriba. Esta navegación no convierte ensayos anteriores en resultados de 00G-R01 ni declara reproducido el incidente histórico.
 
-## Extensión al caso Infoblox
+## Extensiones
+
+Este apartado reúne los casos conectados con 00G-R01 y sus documentos de justificación. Hugging Face aporta la motivación histórica y una reducción candidata desde 00G; Infoblox concreta una aplicación tecnológica candidata del problema de R01. La relación estructural, la explicación causal y el posible diferencial de EA requieren comprobaciones separadas en cada caso. Estos enlaces no declaran una admisión completa ni transfieren automáticamente los resultados de un ensayo a otro.
+
+### OpenAI / Hugging Face
+
+El caso estudia cómo una vía alternativa, un hallazgo o un encargo compartido entre agentes puede adquirir fuerza operativa frente a la tarea y los límites del receptor. Su conexión con R01 permite investigar la búsqueda de soluciones, el coste de validar lo encontrado y la reutilización social de hallazgos. Que el coste de validación explique una decisión histórica sigue siendo una hipótesis que debe contrastarse.
+
+- [Caso y diseño de los recorridos 00G-HF v0.2](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md): presenta el núcleo conservado, la relación con el incidente, los recorridos R1–R3 y los antecedentes experimentales.
+- [Justificación independiente: reducción unidireccional v0.1](../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) y [revisión de los pasos 1 y 2](../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md): explican qué se retira del relato de Napoleón, qué relaciones deben conservarse y los límites de la correspondencia y de su plausibilidad causal.
+- [Aplicación a R01 y obligaciones de admisión, parte 3](./Escenario-creatividad-validacion.md#3-familia-00g-escenario-reducido-y-referencia-hugging-face): sitúa la subfamilia social C-V-G, las correspondencias documentadas, los controles de producción y las pruebas pendientes. El [historial de ensayos](../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) conserva resultados, intentos negativos y controles convencionales que resolvieron los casos ensayados.
+
+**Estado:** reducción y correspondencia candidatas. No se ha demostrado que todo el incidente histórico pertenezca a 00G/R01, que todos los agentes actuaran por el mismo motivo ni que EA lo hubiera evitado. Elegir un medio indebido para la propia tarea no basta para acreditar el desplazamiento social de una obligación que exige la especialización 00G. Los recorridos anteriores R1–R3 no son ejecuciones del escenario actual 00G-R01.
+
+### Extensión al caso Infoblox
 
 [Leer el documento integrado v0.5](./extensions/infoblox/README.md) · [Word](./extensions/infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) · [Código y resultados reproducibles](./extensions/infoblox/proof/README.md).
 
