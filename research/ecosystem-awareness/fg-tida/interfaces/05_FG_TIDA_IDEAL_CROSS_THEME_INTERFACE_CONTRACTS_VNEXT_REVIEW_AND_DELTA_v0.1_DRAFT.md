@@ -3,14 +3,16 @@
 > **Working delta only — not a new FG-TIDA specification or adopted architecture.**  
 > The frozen reference remains [**05 — FG-TIDA Ideal Cross-Theme Interface Contracts v0.4**](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md) ([part 2](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part02.md), [part 3](./05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part03.md)).  
 > This file accumulates the **maximum ideal FG-TIDA projection** that follows from the current EA/Positioning corpus plus public FG-TIDA Theme/Use-Case development. It may remain partial while review is active. Nothing here changes the frozen 05 unless a later version is explicitly promoted.
+>
+> **Semantic refresh — 2 October 2026.** [00M v0.8](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) governs A/B/C/D as **producer/process/question/scope/capability/time-relative roles**. The [04 recognition/interface-map Working Proposal](../../baseline/04_EA_ABCD_RECOGNITION_AND_INTERFACE_MAP_v0.1_WORKING_PROPOSAL.md), recorded in [04-vNext](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), is an upstream candidate implementation reading, not a frozen interface baseline. In this 05 delta, interface direction does not determine A/B/C/D, source A is not relabelled as metadata, and any use of `A` versus `A_ref` must be profile-declared.
 
 | | |
 |---|---|
 | **ID** | 05-vNext Review & Delta |
-| **Version · date** | v0.1-draft · cumulative ideal review refreshed 24 September 2026 |
+| **Version · date** | v0.1-draft · cumulative ideal review refreshed 2 October 2026 |
 | **Status** | Cumulative ideal-interface delta / review; incomplete by design; no frozen-contract change |
 | **Frozen source** | 05 v0.4 Ideal Cross-Theme Interface Contracts |
-| **Upstream control** | [00 Requirements frozen baseline](../../baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) + [Requirements vNext Review & Delta](../../baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) → [04 General Interfaces v0.5 Integrated](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) + [04 General Interfaces vNext Review & Delta](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
+| **Upstream control** | [00 Requirements frozen baseline](../../baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) + [Requirements vNext Review & Delta](../../baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) + [00M v0.8 semantic source](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) → [04 General Interfaces v0.5 Integrated](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) + [04 General Interfaces vNext Review & Delta](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) + [04 A/B/C/D Recognition & Interface Map Working Proposal](../../baseline/04_EA_ABCD_RECOGNITION_AND_INTERFACE_MAP_v0.1_WORKING_PROPOSAL.md) |
 | **Downstream relation** | 05A current-state mapping must remain narrower and source-constrained; it may not inherit an ideal 05 relation merely because this delta can express it |
 | **Idealisation rule** | Assume sufficient semantic owners, editors, test maintainers, independent implementations and review capacity to exercise every admitted route; do not assume FG-TIDA has already adopted, resourced or frozen them |
 
@@ -57,6 +59,45 @@ The dependency order is:
 If a Theme-specific case exposes a genuinely generic interface gap, the gap returns upstream to 04-vNext first.
 
 If a 05 ideal relation cannot be supported from current public Theme semantics, that does **not** invalidate the ideal relation; it means the relation remains ideal/candidate and 05A must classify it more narrowly.
+
+---
+
+
+## 2A. 00M / 04-vNext semantic discipline carried into 05 Ideal
+
+The 2 October upstream work changes how an ideal 05 contract should be **read**, without promoting a new 04 baseline.
+
+### Producer-relative role rule
+
+An ideal cross-Theme contract must first identify the source producer/process and its delivered functional result.
+
+- **A(source)** is that source process's functional result.
+- **B(source)** is the established basis, limits and characterized assessable reserve that qualify that result.
+- **C(source)** is a grounded exploration frontier whose evaluation basis is not yet sufficiently established.
+- **D(source)** is a potentially material effect beyond the source process's effective evaluation route in the declared frame.
+- **A(EA)** is the functional result EA itself delivers to its receiving consumer: for example, a qualified assessment, insufficiency statement, requalification request or posture.
+
+The same physical field or fact can occupy different roles for different processes. Therefore an O#/IF-S# family, a field name, or the fact that something is "input to EA" does not determine its A/B/C/D role.
+
+### Ideal profile rule for A versus A_ref
+
+The earlier metadata-only input proposal exposed H06 because some EA uses require the source's operative result. A future 05 ideal contract should therefore allow two bounded profiles inherited from the 04-vNext candidate direction:
+
+- **full-result profile:** `A(source) + eligible B/C/D(source) → EA`;
+- **metadata-only profile:** `A_ref + eligible B/C/D(source) → EA`.
+
+The profile must say which route it uses. A metadata-only route must not claim to support an EA use that requires the value of A, and A must not be renamed B merely to make it admissible.
+
+### Classification discipline
+
+For every ideal handoff, the mapping should be able to record one of:
+
+- **CONFIRMED A/B/C/D** under a named producer profile;
+- **PROFILE-DEPENDENT** where the role changes with the source function or profile;
+- **UNRESOLVED** where the evidence is insufficient to assign a role;
+- **LINK / CONFIGURATION** where the item binds or governs the exchange but is not itself one of the epistemic roles.
+
+This discipline is an architectural reading of 00M/04-vNext. It is not a claim that FG-TIDA has adopted A/B/C/D vocabulary, one common payload, or a universal EA runtime.
 
 ---
 
@@ -245,13 +286,50 @@ The frozen 05 already mapped several Themes. The ideal vNext map can be broader 
 | **#18 Multi-objective trustworthiness** | O1, IF-S7 | Objective/risk/collective-choice evidence and operator-drift assessment where source-owned. | Evaluation ≠ authority. |
 | **#19 Lifecycle privacy** | IF-S10 | Minimum disclosure, privacy constraints, disclosure authorization. | EA cannot require unnecessary private state. |
 | **#20 Embodied binding** | optional embodied profile, IF-S1, IF-S3, IF-S8 | Agent/runtime/device/authority binding, physical-action attribution, binding freshness. | Embodied binding ≠ motion/control ownership. |
-| **#21 Population-scale evaluation** | IF-S9 | Population-level evaluation with taxonomy/evaluator assumptions. | Population result ≠ local permission. |
+| **#21 Population-scale evaluation** | IF-S9 | Source-native population finding **A(IF-S9)** plus population/period/taxonomy/evaluator-dependence/statistical/identifiability qualification **B(IF-S9)**; C/D only where the 00M frontier/barrier conditions are actually met. EA may consume A or A_ref under a declared profile and produce a separate decision-scoped qualification **A(EA)**. | #21 answers what the population supports inside its measurement frame; EA qualifies what that result can support when legitimately related/composed for a receiving decision. Population measurement is not redirected by relabelling decision context as evidence. |
 | **#22 Remote Attestation** | IF-S3 | Evidence/appraisal of runtime/model/policy/interaction state. | Attestation proves only profile-scoped claims. |
 | **#23 Authorization / privilege lifecycle** | IF-S2, IF-S4, IF-S12 | Privilege initialization/change/hibernation/reactivation/revocation and execution/enforcement lifecycle. | Privilege state does not replace provenance/current-applicability semantics. |
 
 This table is an **ideal integration map**, not a claim that every Theme has accepted these contracts or that each row requires a separate specification.
 
 ---
+
+
+### 7.1 Theme #21 / IF-S9 — population evidence versus EA qualification
+
+The 00M/04-vNext reading makes the ideal boundary sharper.
+
+**Population / #21 function**
+
+For a rate producer implementing the Theme #21 specification, the native functional question is:
+
+> **What does this declared population of observations support under this taxonomy, observation period, evaluator configuration, dependence assumptions and method?**
+
+The population assessment, rate or other source-native finding is **A(IF-S9)**. Where they are outside A itself, population definition, observation period, taxonomy/reference/version, evaluator characteristics, known dependence state, sampling uncertainty and established identifiability limits are **B(IF-S9)**.
+
+A known, already characterizable additional check remains B even when unused. A grounded additional population/evaluator/measurement route is C only when its evaluation basis is not yet established. D requires a material effect beyond the current effective observation/evaluation route; "unknown", "external" or "not yet pooled" is not enough.
+
+**EA function**
+
+EA does not compute another population merely because it receives a population result. Its receiving question is different:
+
+> **Can this qualified source result be legitimately related to the other qualified results material to this receiving question, what does that composed position support, and what remains unresolved?**
+
+The resulting EA qualification is **A(EA)**. Its affected scope, source relations, validity, dependence, limits and established basis are **B(EA)**; any EA-side C/D must be justified under the same 00M rules.
+
+This gives the compact distinction:
+
+> **Population establishes what observations support inside a measurement frame. EA qualifies what that result may support when related or composed into a different receiving frame, and what must not be carried across.**
+
+**Return direction**
+
+Consistent with the Theme #21 proposer boundary, an ideal EA→#21/rate-producer return may report that the supplied result is insufficient for the receiving decision and may name the missing qualification or coverage gap. It should not send the desired answer, the receiver's target hypothesis, why that answer matters to the decision, or a receiver-set measurement budget as instructions to the evaluator. Any additional measurement question remains owned by the measurement side under its own legitimate scientific/reference frame.
+
+Public boundary anchor:
+https://github.com/FG-TIDA/themes/issues/21#issuecomment-5903046577
+
+This section refines the ideal interface; it does not claim that FG-TIDA has adopted the A/B/C/D notation or this exact cross-Theme profile.
+
 
 ## 7A. Internal corpus profiles usable by the ideal projection
 
@@ -559,7 +637,10 @@ Across every ideal contract, the following distinctions should survive:
 - correlated multiplicity ≠ independent corroboration;
 - technical/token validity ≠ continued semantic applicability;
 - signal confidence ≠ systemic determinacy;
-- containment reach ≠ containment authority.
+- containment reach ≠ containment authority;
+- input/output direction ≠ A/B/C/D role;
+- source A ≠ EA's A;
+- population support within a measurement frame ≠ decision-scoped composed support.
 
 These are composition rules, not a requirement that every producer emit one common schema.
 
@@ -652,7 +733,10 @@ A future ideal-interface version should at minimum:
 9. allow cumulative/action-history relations as conditional Composition-Critical profile elements where authority is aggregate;
 10. preserve source-native semantics and semantic-owner review throughout;
 11. assume enough independent contributors/implementations for genuine interoperability and adversarial testing, while recording role concentration where independence is not achieved; and
-12. preserve the rule that an ideal contract becomes current only through the separate 05A source/owner process.
+12. preserve the rule that an ideal contract becomes current only through the separate 05A source/owner process;
+13. apply the 00M producer-relative A/B/C/D recognition discipline without turning field names or interface direction into roles;
+14. allow declared full-result versus metadata-only profiles (`A + B/C/D` or `A_ref + B/C/D`) without universal exclusion of source A; and
+15. preserve the Theme #21 boundary: population evidence remains measurement-frame native, while EA performs downstream decision-scoped qualification/composition rather than directing the measurement toward a desired decision outcome.
 
 No claim is made here that FG-TIDA has adopted, staffed, implemented or validated this ideal map.
 
