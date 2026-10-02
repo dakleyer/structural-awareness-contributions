@@ -261,6 +261,8 @@ Estado: escenario formalizado, sin nueva campaña, sin brazo EA y sin cambio de 
 
 ## 15. Ajuste de parámetros: atractivo, distancia, señalización y modos de validación
 
+**Corrección posterior:** los beneficios constantes por tramo y la creatividad expresada sólo como probabilidad se rectifican en [§16](#16-corrección-del-promedio-radio-creativo-y-validación-propia-con-apoyo-social).
+
 2 de octubre de 2026. El usuario refina §14 y precisa: «algunos, no todos». La campaña buscará regiones de configuración con resultados distintos; no una deriva inevitable. Se mantiene su simplificación: beneficio local fijo por ruta, sin distribución aleatoria de premios por tramo. La heterogeneidad por tramo se introduce en la distancia de las alternativas y el azar en su exploración/descubrimiento.
 
 | Parámetro | Significado operativo |
@@ -304,3 +306,29 @@ El resultado será un mapa de configuraciones: proporciones de M/I/P y de tareas
 Se variarán factores de forma sistemática y con contrastes pareados; la aleatoriedad de trayectorias se estudia con semillas declaradas. Los primeros contrastes deben distinguir atractivo de proximidad, cantidad de validación de modo de validación, y descubrimiento individual de difusión social. Las regiones resultantes serán evidencia de la instancia sintética; su semejanza con mecanismos de Hugging Face no la convierte en reproducción histórica.
 
 Esta entrada sustituye la lectura de «distancia uniforme» o «premios locales aleatorios» que pudiera haberse inferido del diseño pendiente. No ejecuta ni congela una campaña. Se actualiza únicamente el anexo de trabajo no canónico; los paquetes anteriores y documentos canónicos permanecen intactos.
+
+## 16. Corrección del promedio, radio creativo y validación propia con apoyo social
+
+2 de octubre de 2026. El usuario corrige la interpretación de §15: «el beneficio promedio, digamos por tramo, sí queda fijo por ruta, pero se distribuye aleatoriamente». También precisa: «no sustituye su validación propia» y que la validación social ayuda a encontrar la ruta óptima compartiendo buenos hallazgos. Esta entrada prevalece sobre las simplificaciones incompatibles de §§14–15; se conserva su historial.
+
+**Beneficios y geometría.** Para cada ruta r se fija el promedio mu_r y la dispersión de beneficios entre tramos. Una realización tiene beneficios b_rj diferentes, con `sum(b_rj)/L = mu_r` y total `L*mu_r`. Se pueden generar desviaciones aleatorias centradas, respetando el dominio permitido: no se confunde promedio fijado de la realización con una esperanza que fluctúe libremente entre semillas. La distancia a la canónica también tiene un promedio D_r y una dispersión; sus valores por tramo oscilan alrededor de ese promedio y no son negativos. El lado, la geometría y las conexiones se fijan explícitamente. Los mapas se generan antes de recorrerlos, con semillas reproducibles; la misma instancia se comparte entre comparadores. No se vuelve a sortear el beneficio de un mismo tramo para cada observador.
+
+**Creatividad como alcance.** El parámetro principal de creatividad pasa a ser un radio R_e: el agente puede buscar hasta R_e unidades a derecha e izquierda de su posición. Un radio de seis unidades permite encontrar candidatos a distancia no mayor que seis, sin garantizar que exista alguno. La probabilidad de descubrimiento depende de la distribución espacial y de la búsqueda que permita el presupuesto; no se identifica el radio con una probabilidad epsilon. Cualquier muestreo adicional de candidatos debe declararse por separado. El coste de búsqueda y de explorar los candidatos visitados se contabiliza; aumentar el radio no proporciona exploración ilimitada gratuita.
+
+**Secuencia del agente.**
+
+1. Buscar candidatos dentro del radio y del presupuesto, incluyendo la continuación canónica disponible.
+2. Explorar los candidatos encontrados y observar sus beneficios locales. Ordenarlos por beneficio observado.
+3. Seleccionar provisionalmente el mejor y realizar la validación convencional propia: revisar k_atras pasos anteriores y k_delante posteriores sin ejecutar sus efectos.
+4. Si detecta una prohibición o incompatibilidad, rechazar ese candidato y revisar el siguiente. Si no encuentra ninguna en el alcance revisado, puede aceptarlo con esa base parcial. No conoce gratuitamente la mejor alternativa realmente permitida: decide entre las alternativas cuya evidencia ha obtenido.
+5. Tras la revisión, incorporar el apoyo social pertinente y comunicar el hallazgo junto con lo efectivamente validado. Una denegación detectada por la revisión propia no se convierte en permiso por consenso.
+
+La comprobación por tramo tiene coste c_v menor que el coste c_e de explorar un candidato comparable, bajo las unidades estipuladas `0 < c_v < c_e`. Revisar muchos pasos sigue acumulando coste. El número de pasos únicos inspeccionados determina el cargo; no se cobran dos veces posiciones solapadas en una misma ventana. k_atras y k_delante son parámetros distintos del número de agentes N. La profundidad de revisión y el reparto de presupuesto determinan cobertura efectiva y capacidad de seguir explorando.
+
+**Alcance del PASS y racionalidad.** Un PASS significa que no se detectó incompatibilidad dentro de la evidencia revisada; no certifica por sí solo toda la cadena. El agente respeta las prohibiciones que encuentra y elige según su información disponible. No se programa una voluntad de infringir ni se da por demostrada una política globalmente óptima. La construcción debe permitir que ciertas incompatibilidades de composición sólo se revelen con cobertura suficiente; también debe permitir que una revisión detecte y descarte P. Esa relación se verifica en la instancia, no se añade un fallo aleatorio al veredicto.
+
+**Validación social adicional.** Los mensajes pueden referirse al tramo candidato y a tramos anteriores: quién revisó qué posiciones, con qué alcance, resultado y versión. Se distingue «dio buen resultado» de «revisé estos enlaces y no encontré incompatibilidad». El peso social w_s es un parámetro diferente de la intensidad de emisión s. Puede reforzar la confianza o favorecer propuestas posteriores dentro de una política explícita, pero no suprime la ventana propia ni anula una prohibición detectada. Si un mensaje aporta evidencia concreta de incompatibilidad, se trata como tal, no sólo como un voto negativo.
+
+Se registra por separado cobertura propia, cobertura declarada por pares, solapamientos y fuentes dependientes. Recibir muchos mensajes no equivale a ampliar necesariamente la cobertura. La misma circulación de hallazgos puede difundir I o P; no se reserva a la ruta prohibida.
+
+**Ajuste del inventario de parámetros.** Se añaden dispersiones de beneficio y distancia, radio creativo, coste de exploración, profundidades atrás/delante y peso de validación social. Se conservan L, N, mejoras promedio de I/P, distancias promedio, coste por verificar, presupuesto, reparto exploración/validación y señalización. beta, la mezcla de modos de §15, no podrá sustituir la revisión propia por consulta social: si se conserva para repartir gasto, deberá respetar la revisión propia estipulada o registrar que no pudo completarse. No se inicia una nueva campaña ni se modifican los paquetes congelados, C3, README o documentos canónicos.
