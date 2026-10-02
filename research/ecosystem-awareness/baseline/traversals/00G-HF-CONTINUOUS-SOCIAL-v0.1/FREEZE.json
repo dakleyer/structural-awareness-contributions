@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-02T05:06:00.404330+00:00",
+  "parent_commit": "4ffd3185a95ea07657f04c8e0d113004bf996451",
+  "networks_executed_before_freeze": 0,
+  "boundary_checks_before_freeze": 6,
+  "files_sha256": {
+    "run.py": "78716372e5a61f3df435362305c3d30d19ccce10d7731fac584040bd83543a9e",
+    "CONFIG.json": "df8575e93b726301ba5db824727b375225511e6a390e02e8e6769559a9526f63",
+    "PROTOCOL.md": "8caac2e2fb08d901eaa59547763feaf4a1c7856b5d50762d1cd1beff1ad0281e",
+    "verify.py": "55617c3b6f5e6f6dc97623cded0a8af765659172e1265090de914491fc36e644",
+    "README.md": "bd1591de360bdbad26198db07777430ddebf50681f95e3309ca994a7fe55599e"
+  },
+  "oracle_sha256": {
+    "core.py": "0b0f489ad4647be6cc3b964b7d13b3a563984f9a85417ae15ddaf4e5bcefd65c",
+    "oracle.py": "e87f5b50683904bb972b383fda2043e91da28bc3de271515e5dd2c3feca942e3",
+    "assessments.py": "c032d2bca3c1bbb7313cc81a2c48b6488da1be16162560a6190d6704034d1b86"
+  },
+  "ea_execution": "NOT_RUN",
+  "mathematical_mechanism": "OUT_OF_SCOPE"
+}
