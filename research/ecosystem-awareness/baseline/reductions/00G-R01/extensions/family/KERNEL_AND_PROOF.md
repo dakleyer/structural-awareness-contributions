@@ -41,7 +41,7 @@ La familia es `𝔅={𝓑θ: θ∈Θ}`. La existencia de esta notación no imple
 
 ## 3 Inventario completo de correspondencias principales
 
-La firma tipada `Σ` contiene **todos** los grupos de R01 §2.13 y los objetos operativos de §§2.1–2.18. Cada símbolo tiene un único referente en el núcleo extendido; su aridad y sus tipos de entrada/salida se conservan. Los nombres adicionales del dominio pertenecen a otra firma `Σ+`.
+La firma tipada `Σ` contiene **todos** los grupos de R01 §2.13 y los objetos operativos de §§2.1–2.18. Cada símbolo tiene un único referente en el núcleo extendido; su aridad y sus tipos de entrada/salida se conservan. La correspondencia de símbolos es una obligación de firma; el isomorfismo exige además biyecciones sobre los dominios de valores/objetos de cada tipo y preservación de sus relaciones. La biyección de estados h es la inducida por esas codificaciones, no una simple tabla de nombres. Los nombres adicionales del dominio pertenecen a otra firma `Σ+`.
 
 | Grupo / símbolos de base | Referente obligatorio en el núcleo extendido | Relación que debe conservarse |
 |---|---|---|
@@ -156,7 +156,7 @@ La fórmula se escribe para estados discretos; basta para los escenarios finitos
 
 Las variables extra pueden depender unas de otras y del núcleo. Su influencia sobre el núcleo se admite mediante Φ si sus valores tecnológicos se fijan durante el episodio. Si evolucionan y alteran decisiones, costes o permisos, su estado relevante debe incorporarse a una configuración dinámica base y volver a comprobar E1–E7. El número de variables adicionales no decide la admisión; la decide la preservación de dependencias.
 
-**Aplicación a H/L/W.** Se elige como h la codificación de operaciones, obligaciones, recursos y mensajes de la tabla de casos. Los predicados de dominio son respectivamente permisos de alcance, preservación semántica y autorización de efectos. Se transportan todos los grupos de §3 y se aplica la construcción anterior. Esto demuestra existencia de modelos construidos con esos significados y núcleo conservado. No demuestra que una API, un verificador real o una traza histórica implementen esas ecuaciones: su adecuación requiere comprobaciones independientes. El testigo finito usa evaluadores de dominio separados para contrastar esa obligación y detectar alteraciones.
+**Aplicación condicional a las especificaciones H/L/W.** Se propone como h la codificación de operaciones, obligaciones, recursos y mensajes de la tabla de casos. Los predicados de dominio son respectivamente permisos de alcance, preservación semántica y autorización de efectos. Se transportan todos los grupos de §3 y se aplica la construcción anterior. Esto demuestra existencia de codificaciones formales por transporte con los predicados declarados. Para una realización independiente H/L/W aún debe verificarse que todas sus operaciones, vistas y relaciones cumplen E1–E7; la etiqueta de dominio no prueba esa adecuación. No demuestra que una API, un verificador real o una traza histórica implementen esas ecuaciones: su adecuación requiere comprobaciones independientes. El testigo finito usa evaluadores de dominio separados para contrastar esa obligación y detectar alteraciones.
 
 ## 6 Transformaciones concretas y contraejemplos
 

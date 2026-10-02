@@ -20,6 +20,8 @@ La prueba matemática general está en la nota enlazada. Este código comprueba 
 
 El fragmento comienza con M/B conocidas y A por descubrir. El aprendizaje de las recetas iniciales está fuera del horizonte; esa condición inicial es común a las tres codificaciones y a la base. La evidencia sobre A se adquiere y paga durante el episodio. La transmisión usa un canal autorizado fijado. En W, ese canal experimental no es el recurso cuya escritura o uso se está evaluando.
 
+El evento `commit` adjudica una ruta completa como un efecto agregado con cargo 1; no ejecuta ni cobra sus L tramos por separado. `inspect` puede consultar cualquiera de sus condiciones una vez descubierta A: no implementa k_a/k_d ni obliga a realizar la revisión propia mínima antes de comprometerse. Por eso el fragmento verifica obligaciones de codificación/transición, pero no constituye una realización completa admitida del receptor y la ejecución de R01. Estos pendientes están en la [matriz común](../../CRITERIA_AND_AUDIT.md#5-matriz-común-de-los-quince-grupos-de-r01-213).
+
 ## Cómo evita una comprobación circular
 
 `base_step` opera sobre máscaras de descubrimiento/revisión y el mundo base. `domain_step` está implementado por separado sobre actores, operaciones y recibos del dominio; no llama al primero ni obtiene su salida para construir la suya. Se proyectan los sucesores y se comparan probabilidades exactas usando `Fraction`.

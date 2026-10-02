@@ -1,5 +1,19 @@
 # Familia extendida de R01 con núcleo funcional isomorfo
 
+## Ficha común de revisión
+
+| Campo | Estado del expediente |
+|---|---|
+| Tipo y base | Clase construida y especificaciones de dominio; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
+| Correspondencia | h, p y sección sobre núcleo (§§3–5 de la nota); implementación completa H/L/W pendiente. |
+| Evidencia | EV1 para criterio y construcción formal; EV2 para fragmento H/L/W; EV0 para realización completa de dominios. EV3/EV4/EV5 no acreditados aquí. |
+| Cobertura y A25 | [Quince grupos, estados y A25 comunes](../CRITERIA_AND_AUDIT.md); se conservan las matrices particulares del expediente. |
+| Receptor, positivo y falsificador | Rechazo de denegaciones detectadas; positivo válido; mutaciones que rompen el núcleo. |
+| Revisión | Interna del autor asistida por IA; observaciones externas parciales contrastadas, sin independencia acreditada. |
+| Dictamen | Criterio y construcción formal demostrados; correspondencia parcial comprobada en el fragmento; realización completa H/L/W pendiente. |
+
+Los códigos EV identifican evidencia, no las obligaciones E1–E7 de la nota matemática. Su definición está en el [criterio común](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+
 Iván Abril Palma · Ecosystem Awareness · Versión de investigación 0.1 · 2 de octubre de 2026
 
 [Volver a R01](../../README.md#extensiones) · [Demostración matemática](./KERNEL_AND_PROOF.md) · [Código, alcance y resultados](./proof/README.md)
@@ -55,7 +69,7 @@ Los nombres H, L y W son etiquetas locales de este documento. En los tres casos 
 
 Se construyen rutas sobre recursos ficticios. Para cada tramo de R01 hay una operación y una condición de permiso correspondientes. El predicado global exige todas las condiciones aplicables; una comprobación de funcionamiento no responde a las condiciones no consultadas. Los informes compartidos conservan fuente, alcance, momento y dependencia.
 
-La función de codificación reemplaza cada tramo y relación por su operación y dependencia de recursos, sin añadir saltos. Su inversa recupera el tramo y la condición original. La misma secuencia de consultas devuelve la misma información y recibe los mismos cargos efectivos. Por la proposición de la nota matemática, el núcleo construido es isomorfo. La tabla completa de §3 de esa nota conserva también todos los parámetros que no cambia el vocabulario de dominio.
+La función de codificación reemplaza cada tramo y relación por su operación y dependencia de recursos, sin añadir saltos. Su inversa recupera el tramo y la condición original. La misma secuencia de consultas devuelve la misma información y recibe los mismos cargos efectivos. La proposición de la nota matemática garantiza el isomorfismo para una realización que cumpla E1–E7. Aquí se especifica esa construcción y se comprueba sólo un fragmento; no se da por realizada la correspondencia completa de H. La tabla completa de §3 de esa nota conserva también todos los parámetros que no cambia el vocabulario de dominio.
 
 Variables adicionales posibles: nombres de servicios, tipos de formato o aceleración de búsqueda. Si una credencial adicional permite ejecutar otra acción, no puede ocultarse en una variable decorativa: la capacidad debe estar en el grafo y el permiso correspondiente de la configuración base efectiva.
 
@@ -65,9 +79,9 @@ El positivo es una obtención autorizada del mismo tipo de resultado. No se pres
 
 El caso construido usa una tarea finita de transformación de artefactos con varios resultados legítimos de distinta calidad. Cada paso tiene una obligación de preservar la especificación; un comprobador local puede aceptar aspectos del artefacto sin haber comprobado todas esas obligaciones. La calidad técnica aparente se mantiene separada de la calidad legítima.
 
-La codificación asigna cada condición de composición de R01 a una obligación semántica identificable. No define validez como «el evaluador lo aceptó». La inversa recupera pasos, dependencias y obligaciones. Se conserva el conjunto de consultas y la información disponible antes de comprometerse. La revisión completa detecta el negativo; una alternativa válida de calidad superior a M constituye el positivo.
+La codificación asigna cada condición de composición de R01 a una obligación semántica identificable. No define validez como «el evaluador lo aceptó». La inversa recupera pasos, dependencias y obligaciones. Se prescribe conservar el conjunto de consultas y la información disponible antes de comprometerse; esa obligación completa no está implementada aquí. La revisión completa del fragmento detecta el negativo; una alternativa válida de calidad superior a M constituye el positivo.
 
-Esto prueba la correspondencia del **modelo de obligaciones construido**, no una propiedad del verificador Lean real. El M de menor calidad es una decisión de nuestro diseño; no se atribuye al benchmark original, donde demostrar otro teorema no cumple por ello el encargo.
+Esto prueba la correspondencia del **modelo de obligaciones construido**, no una propiedad del verificador Lean real. El M de menor calidad es una decisión de nuestro diseño; no se atribuye al benchmark original, donde demostrar otro teorema no cumple por ello el encargo. La tarea construida debe admitir resultados legítimos de calidad graduada y declarar ε. Si sólo hay un resultado binario o M ya está dentro de ε del óptimo, no se atribuye mediocridad a esa rama. El comprobador común verifica esta sensibilidad.
 
 Variables adicionales posibles: formato del artefacto, biblioteca o coste de comprobación. Una biblioteca con un certificado completo accesible puede resolver la dificultad y debe permitirse. Un agente que conoce la invalidez y continúa queda fuera de la política básica, aunque pueda estudiarse como ampliación conductual explícita.
 
@@ -75,7 +89,7 @@ Variables adicionales posibles: formato del artefacto, biblioteca o coste de com
 
 Una ruta candidata puede consistir precisamente en encontrar una forma de comunicarse. El grafo representa las operaciones posibles; la admisibilidad depende de sus efectos y permisos, no sólo del nombre de un protocolo. Se construye un par con la misma viabilidad técnica y distinto permiso de escritura o transmisión en una condición todavía no revisada.
 
-La codificación conserva una operación por tramo, su efecto, el recurso y la relación con los pasos siguientes. La revisión de la condición correspondiente distingue el par. Un canal autorizado que logra la misma tarea es el positivo. Las consultas y su coste se corresponden con R01; se aplica la misma prueba por proyección.
+La codificación conserva una operación por tramo, su efecto, el recurso y la relación con los pasos siguientes. La revisión de la condición correspondiente distingue el par. Un canal autorizado que logra la misma tarea es el positivo. La especificación exige corresponder consultas y costes con R01. La prueba por proyección es condicional a E1–E7 y el comprobador ejecuta sólo el fragmento estático; no acredita la activación de una nueva red social.
 
 Variables adicionales posibles: tamaño de mensajes, formato o latencia declarada. Si utilizar el canal crea nuevas conexiones entre agentes, el cambio de topología debe modelarse. El perfil estático puede representar la búsqueda y decisión sobre el canal; su posterior activación social requiere una configuración dinámica de R01 con la actualización de topología explícita. No se presenta toda esa dinámica como equivalente a una red fija.
 
@@ -95,7 +109,7 @@ La relación con 00G exige además acreditar C-V-G: contenido recibido, dependen
 
 - Base fijada: R01 v0.6, [commit 114ac132](https://github.com/dakleyer/structural-awareness-contributions/blob/114ac132bc2be4e7008001fe505bf5bd4c36c515/research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md), especialmente §§2.1–2.18 y 3.2–3.5.
 - [Infoblox, documento integrado](../infoblox/README.md), §§5–6: correspondencia, prueba condicional y contraejemplo con certificado suficiente. Su comprobación no se reetiqueta como prueba completa de esta familia.
-- [Hugging Face, auditoría de parámetros y codependencias](../hugging-face/README.md): complemento publicado durante esta revisión; conserva su alcance sintético e histórico diferenciado.
+- [Hugging Face, auditoría de parámetros y codependencias](../hugging-face/README.md): expediente histórico y transporte sintético auxiliar, distinto del escenario construido H de esta familia.
 - [Hugging Face, reducción candidata](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) y [diseño previo](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md).
 - [A25, X1–X7](../../../../00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md): obligaciones de admisión y separación entre pertenencia y éxito.
 

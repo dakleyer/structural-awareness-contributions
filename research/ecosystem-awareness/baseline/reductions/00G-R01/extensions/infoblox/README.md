@@ -1,5 +1,19 @@
 # Extensión de R01: Infoblox
 
+## Ficha común de revisión
+
+| Campo | Estado del expediente |
+|---|---|
+| Tipo y base | Tecnológico con testigo sintético; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
+| Correspondencia | F y α propuestos (§5.3); operaciones/registros del testigo recuperables (§6); integración completa pendiente. |
+| Evidencia | EV1 para lema, transferencia condicional y curvas; EV2 para modelo finito; EV0 para realización tecnológica. EV3/EV4/EV5 no acreditados aquí. |
+| Cobertura y A25 | [Quince grupos, estados y A25 comunes](../CRITERIA_AND_AUDIT.md); se conservan las matrices particulares del expediente. |
+| Receptor, positivo y falsificador | Pasarela estricta; A válida y B admisible; certificado suficiente barato elimina la obstrucción. |
+| Revisión | Interna del autor asistida por IA; observaciones externas parciales contrastadas, sin independencia acreditada. |
+| Dictamen | Correspondencia parcial demostrada/comprobada en el alcance sintético; extensión completa del objeto tecnológico pendiente. |
+
+Los códigos EV identifican evidencia, no las obligaciones E1–E7 de la nota matemática. Su definición está en el [criterio común](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+
 [00G-R01](../../README.md) · [Tabla de extensiones](../../README.md#extensiones)
 
 El caso concreta el problema de R01 en un diagnóstico DNS con descubrimiento, confianza y políticas. El documento integrado conserva el escenario, las tecnologías, las rutas posibles, los tres recorridos y la prueba condicional.
@@ -22,7 +36,7 @@ El caso concreta el problema de R01 en un diagnóstico DNS con descubrimiento, c
 >
 > Prueba condicional con comprobación exacta de un modelo sintético. No se han ejecutado Infoblox, DNS-AID ni agentes LLM; la admisión completa de la extensión y el diferencial de EA siguen pendientes. Esta publicación no cambia el estado de 00G ni de 00G-R01.
 >
-> El texto siguiente reproduce el Word v0.5 completo. Las observaciones del anexo A sobre la ausencia de publicación describen la revisión anterior a esta incorporación. Se conservan las referencias a commits inmutables y el historial de auditoría. El archivo ZIP citado en ese historial corresponde a la entrega documental previa; aquí se publica por separado el núcleo reproducible, sin los archivos de trabajo ni la correspondencia privada original.
+> El texto siguiente conserva el contenido del Word v0.5, con la precisión del contrato de transferencia añadida por esta revisión. El Word sigue siendo la exportación v0.5 anterior a la ficha y a esa precisión; la revisión vigente se consulta en este Markdown y en el criterio común. Las observaciones del anexo A sobre la ausencia de publicación describen la revisión anterior a esta incorporación. Se conservan las referencias a commits inmutables y el historial de auditoría. El archivo ZIP citado en ese historial corresponde a la entrega documental previa; aquí se publica por separado el núcleo reproducible, sin los archivos de trabajo ni la correspondencia privada original.
 
 ---
 
@@ -324,7 +338,9 @@ Para trasladar una cota de dificultad al destino hace falta esta condición: por
 | Recursos | Costes base de simulación no mayores que los del destino comparado. La planificación temporal conserva lotes y paralelismo; preparación y amortización se contabilizan con la misma regla. |
 | Clases y distribución | La correspondencia cubre todas las políticas sobre las que se afirma la cota. Los mundos de E se distribuyen como F de los mundos de B, con azar acoplado o independiente no informativo. |
 
-Teorema condicional. Si esas obligaciones se cumplen, e_E=1 implica e_B=1 para la ejecución simulada. Por tanto, sup sobre π_E de Pr(e_E=1) ≤ sup sobre π_B de Pr(e_B=1). Una cota base p* inferior a la fiabilidad exigida se transporta a esa clase de destino. Demostración: proyectar una ejecución exitosa conserva calidad, admisibilidad y efecto; la simulación no excede sus recursos. Integrar sobre los mundos acoplados conserva la desigualdad; tomar supremos concluye el argumento.
+Para este teorema se exige además J*_B=J*_E y ε_B=ε_E tras normalizar, o un umbral equivalente que preserve éxito. Deben coincidir las tareas exigidas, los límites de recursos y las infracciones de toda la campaña; no basta igualar el resultado final si se borran infracciones previas. Una ruta mejor disponible sólo en la base puede hacer fallar la implicación aun conservando el valor de la ruta proyectada. El [criterio común](../CRITERIA_AND_AUDIT.md#7-resolución-de-las-observaciones-del-auditor) y su comprobador incluyen ese contraejemplo.
+
+Teorema condicional. Si esas obligaciones y la condición de óptimo/umbrales se cumplen, e_E=1 implica e_B=1 para la ejecución simulada. Por tanto, sup sobre π_E de Pr(e_E=1) ≤ sup sobre π_B de Pr(e_B=1). Una cota base p* inferior a la fiabilidad exigida se transporta a esa clase de destino. Demostración: proyectar una ejecución exitosa conserva calidad, admisibilidad y efecto; la simulación no excede sus recursos. Integrar sobre los mundos acoplados conserva la desigualdad; tomar supremos concluye el argumento.
 
 La hipótesis sobre recursos no se obtiene porque DNS sea distribuido. Si un índice o certificado ofrece una respuesta suficiente más barata, se incorpora al contrato base o se abandona esa cota. Una clase finita de comparadores sólo permite afirmar un resultado sobre esa clase. Esta sección no convierte los ensayos previos de R01 en un teorema universal.
 

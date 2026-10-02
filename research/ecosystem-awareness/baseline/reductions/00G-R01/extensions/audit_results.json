@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "scope": "internal reproducibility and bounded logical audit only",
+  "reviewed_commit": "cbb69f1d673c7844610fdde01fb78a3394497bb0",
+  "base_blob_sha": "3261a625975e303e12c484bc9c273d7f8819b099",
+  "base_sha256": "9848b4092b0c91cb10d4923bdfdf38e974d090655d07a6e7f3fa742ab54e6547",
+  "reproduced": {
+    "hugging-face": {
+      "status": "ALL_FINITE_ASSERTIONS_PASSED",
+      "scope": "Synthetic encoding and explicit counterexamples only; no historical replay, LLM, network or product execution",
+      "report_identical": true,
+      "counts": {
+        "complete_view_pairs": 25,
+        "early_exit_cost_identities": 72,
+        "exact_optima": 576,
+        "exact_query_policy_values": 36,
+        "full_and_repeated_cost_identities": 72,
+        "joint_configurations": 288,
+        "joint_radius_path_checks": 100224,
+        "path_outcome_and_connector_checks": 33408,
+        "path_set_bijections": 576,
+        "population_resource_configurations": 24,
+        "realized_chain_profiles": 2304,
+        "relay_deduplication_checks": 24,
+        "scope_and_authority_rejections": 5,
+        "window_unique_coverage_checks": 918
+      }
+    },
+    "infoblox": {
+      "status": "all_assertions_passed",
+      "scope": "finite synthetic model only; no vendor APIs, DNS traffic, cryptography or LLM agents executed",
+      "report_identical": true,
+      "counts": {
+        "route_preservation": 272,
+        "complete_view_pairs": 1092,
+        "metadata_invariance": 68,
+        "gateway_checks": 272,
+        "population_cost_checks": 204,
+        "dp_values": 51,
+        "benefit_and_distance_profiles": 272,
+        "relay_coverage_checks": 204
+      }
+    },
+    "family": {
+      "status": "PASS",
+      "scope": "exact finite constructed fragment only",
+      "report_identical": true,
+      "counts": {
+        "reachable_state_event_pairs": 274572,
+        "domain_structures": 288,
+        "state_roundtrips": 16104,
+        "diagnostic_state_event_pairs": 172224,
+        "view_pairs_and_full_review_controls": 768
+      }
+    }
+  },
+  "integrity": {
+    "hugging-face": {
+      "README.md": "PASS",
+      "check.py": "PASS",
+      "coverage.json": "PASS",
+      "results.json": "PASS",
+      "proof/README.md": "PASS"
+    },
+    "infoblox": {
+      "00G-R01_Infoblox_documento_integrado_v0.5.docx": "EXCLUDED_BINARY_HASH_RETAINED",
+      "README.md": "PASS",
+      "proof/README.md": "PASS",
+      "proof/check.py": "PASS",
+      "proof/results.json": "PASS"
+    },
+    "family": {
+      "KERNEL_AND_PROOF.md": "PASS",
+      "README.md": "PASS",
+      "proof/README.md": "PASS",
+      "proof/check.py": "PASS",
+      "proof/results.json": "PASS"
+    }
+  },
+  "additional_quality_equivalences": 54,
+  "falsifiers": {
+    "same_route_value_different_optimum": {
+      "route_value": "2",
+      "target_optimum": "2",
+      "base_optimum": "3",
+      "epsilon": "0",
+      "success_in_target": true,
+      "success_in_base": false
+    },
+    "same_optimum_different_tolerance": {
+      "route_value": "2",
+      "optimum": "3",
+      "tolerances": [
+        "1",
+        "0"
+      ]
+    },
+    "legitimate_M_is_not_always_mediocre": {
+      "M": "1",
+      "optimum": "2",
+      "epsilon_0_success": false,
+      "epsilon_1_success": true
+    },
+    "family_commit_is_aggregate_and_no_minimum_review": {
+      "L": 3,
+      "reviewed_conditions": 0,
+      "charge": "1",
+      "elapsed": 1,
+      "full_R01_receiver_admitted": false
+    },
+    "hidden_variable_breaks_projection": "rejected by transition equivalence"
+  },
+  "fingerprints": {
+    "hugging-face/check.py": "069fceb31b43869db15c5d9be0d484b134d15bc16c0385381f62abbcc9fa8b09",
+    "hugging-face/results.json": "61ea5755015e793c7362d2baaca22ee2f843f2f821f74c5389571a24582c5941",
+    "infoblox/proof/check.py": "18d57ace52c0ccbe0827a7c731b3298eccf21d405fc793a25f3a89edf9d7109d",
+    "infoblox/proof/results.json": "c442af2ed24ed2f183e57fe588586ddb5180a0c11c77bc027897fdc3a2c18cfd",
+    "family/proof/check.py": "f0bd2d52091d0a2b0138e5a9887d43a1ec3a6bb129d10847672a18eebbe9eedb",
+    "family/proof/results.json": "e9407652bcfd015a6d94b325f46bd9bc32bc7a6c743437adfd9936d9e6ae6d54",
+    "../README.md": "df4365dee2c54aff8723080b583f017686bfcb874f3ea362efaa9637ee7e6c9e",
+    "CRITERIA_AND_AUDIT.md": "8af4a8b9c848690714318d14dbc41cd07cf6a46a3d230cb93fd7a8d1cecd86ed",
+    "family/KERNEL_AND_PROOF.md": "71f120dcbf003643f4c3c2862c578de5b1f6e509614ae05b9a6d6e723ff1a565",
+    "family/README.md": "9eb2dcf86d73b36d311a0a7cb0b10fff1efabba36045461e8d0c21fb90a37ce7",
+    "family/proof/README.md": "e7b0b42e4f8482021186bf23bb1b201f512335cb443b0c9fcd813566c59a98a1",
+    "hugging-face/README.md": "d94d4c55e261fa1b4b76998feba4329fe27ad7212fd0370f56aec2b7dffc72e4",
+    "hugging-face/proof/README.md": "c008b3c5db846676871fc2e78c050da8135ced27ebd859fe07a850ac539984c0",
+    "infoblox/README.md": "42d4d3c8af5228d86c3bddf8195bb161273ba5057e1cec958a1660399d2bb06b",
+    "infoblox/proof/README.md": "26abd66d1f5a2f443d60903b0c43582359889542f6682a79fda55df409d8e641",
+    "verify_audit.py": "4779e146e7f53d066423013c2d80f728603ede9fcba8335d7224b39509c79f18"
+  },
+  "independent_review": false,
+  "full_R01_extensionality": "NOT_ESTABLISHED",
+  "LLM_calls": 0,
+  "network_calls": 0,
+  "EA_evaluation": false
+}

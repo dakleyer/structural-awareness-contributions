@@ -1,5 +1,19 @@
 # Extensión de R01: OpenAI / Hugging Face
 
+## Ficha común de revisión
+
+| Campo | Estado del expediente |
+|---|---|
+| Tipo y base | Histórico con modelo construido auxiliar; R01 v0.6, blob `3261a625975e303e12c484bc9c273d7f8819b099`. |
+| Correspondencia | F e inversa de IDs/rutas en el modelo; α histórica completa pendiente (§§2–4). |
+| Evidencia | EV1 para resultados del contrato de consultas; EV2 para verificaciones finitas; EV0 para correspondencia histórica. EV3/EV4/EV5 no acreditados aquí. |
+| Cobertura y A25 | [Quince grupos, estados y A25 comunes](../CRITERIA_AND_AUDIT.md); se conservan las matrices particulares del expediente. |
+| Receptor, positivo y falsificador | Rechazo de denegación detectada; rutas válidas/certificado suficiente; falsificador de emparejamiento con marginales iguales. |
+| Revisión | Interna del autor asistida por IA; observaciones externas parciales contrastadas, sin independencia acreditada. |
+| Dictamen | Correspondencia parcial demostrada/comprobada en el alcance sintético; extensión completa del objeto histórico pendiente. |
+
+Los códigos EV identifican evidencia, no las obligaciones E1–E7 de la nota matemática. Su definición está en el [criterio común](../CRITERIA_AND_AUDIT.md#3-estados-de-evidencia-comunes).
+
 [00G-R01](../../README.md) · [Tabla de extensiones](../../README.md#extensiones)
 
 El caso examina cómo una alternativa, un hallazgo o un encargo compartido puede adquirir fuerza operativa frente a la tarea y los límites del receptor. Su conexión con R01 permite estudiar búsqueda de soluciones, coste de validación y reutilización social de hallazgos. La causa económica histórica sigue siendo una hipótesis; la auditoría que sigue no declara reproducido el incidente.
@@ -17,7 +31,8 @@ El caso examina cómo una alternativa, un hallazgo o un encargo compartido puede
 
 ---
 
-## 00G-R01 → Hugging Face: auditoría de parámetros, resultados y codependencias
+<a id="00g-r01--hugging-face-auditoría-de-parámetros-resultados-y-codependencias"></a>
+**Expediente de auditoría de parámetros, resultados y codependencias R01 → Hugging Face.**
 
 **Versión 0.1 · 2 de octubre de 2026 · Auditoría del autor asistida por IA.**
 
@@ -59,6 +74,8 @@ Para una configuración θ, una representación F del mundo y una proyección α
 En el modelo finito, una biyección de acciones y consultas con la misma información y costes permite transportar una política y sus resultados bajo la misma distribución de mundos. **La biyección y ese contrato son hipótesis construidas aquí, no propiedades verificadas del incidente.** Para trasladar una cota de dificultad a un sistema más capaz habría que mostrar, además, que toda política permitida en el destino puede simularse en el origen sin más información ni mayor coste. Mostrar sólo que una política de R01 se puede ejecutar en el destino no basta.
 
 A25 añade la conservación de la frontera de decisión, el predicado de fallo, la ruta de requisitos y el control positivo. Su transferencia general requiere una garantía base independiente; unos cuantos resultados positivos de un comprobador no aportan esa garantía.
+
+Para transferir éxito relativo al óptimo se exige además preservar J* y ε, o el umbral equivalente J*−ε, los límites de coste/plazo y todas las infracciones de campaña. Mapear una ruta no basta si se omite otra ruta mejor. El [criterio común y su contraejemplo](../CRITERIA_AND_AUDIT.md#7-resolución-de-las-observaciones-del-auditor) explicitan esta condición.
 
 ## 3. Inventario de parámetros y resultados
 
