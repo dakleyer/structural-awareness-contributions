@@ -1,5 +1,7 @@
 # Can Ecosystem Awareness Work?
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 ## From compressed agent outputs to qualified context: scientific plausibility and requirements alignment
 
 **A network of agents can keep exchanging locally adequate answers while losing the context needed to know whether those answers still work together.** EA investigates whether a small, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost. **A local blind spot need not be a collective blind spot:** another participant may already have a relevant assessment, or a characterized capability to obtain one. Making that correspondence visible offers a direct reason to investigate the architecture.

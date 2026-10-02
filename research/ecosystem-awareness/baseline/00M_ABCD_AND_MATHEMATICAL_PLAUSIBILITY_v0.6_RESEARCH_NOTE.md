@@ -1,5 +1,7 @@
 # A/B/C/D Semantics and Mathematical Plausibility of Scoped Requalification
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 **Research note:** v0.6, draft for external review, 2 October 2026. This note develops an **argument for mathematical plausibility** of the scoped qualification and repositioning support proposed for Ecosystem Awareness (EA) / Ecosystem Positioning (EP). It connects those operations to established mathematical structures, identifies assumptions and gives limited examples and counterexamples. It does not prove full-system consistency, engineering feasibility, economic advantage, collective convergence or operational effectiveness. No formal Technology Readiness Level (TRL) is assigned by this note.
 
 **How to read this note:** sections 1–2 define A/B/C/D and illustrate their differences. Sections 3–6 examine the four mechanisms and their mathematical limits; section 7 assesses the strength of the argument. The definitions are proposed as a common semantic basis for EA/EP; they are not presented as an established mathematical taxonomy. No prior knowledge of the project documentation is required.

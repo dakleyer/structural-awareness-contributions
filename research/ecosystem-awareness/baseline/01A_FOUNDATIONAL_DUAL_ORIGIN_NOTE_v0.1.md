@@ -1,5 +1,7 @@
 # Ecosystem Awareness — Two Foundational Origins and Their Architectural Integration
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 **Status:** contributor-level working foundational note, v0.1 (15 September 2026).  
 **Relation to the corpus:** additive companion to the frozen v0.4 Foundational Theory, not a replacement, amendment to the controlled freeze, ITU-T deliverable, FG-TIDA adoption, validated result or seventh frozen release-baseline document. The five ordered public parts of v0.4 remain authoritative for their original content.  
 **Public discussion anchor:** [FG-TIDA Theme #13, conceptual/functional comment of 8 September 2026](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5585387513). That comment is contributor-level public provenance, not group endorsement.  

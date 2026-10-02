@@ -1,5 +1,7 @@
 # Minimalistic Regime-Aware Early Warning Systems — corpus index
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 > **Navigation:** [Iván Abril Palma](https://github.com/dakleyer/dakleyer) → [Structural Awareness](https://github.com/dakleyer/structural-awareness-contributions) → [Regime Awareness](../README.md) → **Minimalistic Regime-Aware Early Warning Systems**
 
 
@@ -17,6 +19,6 @@ This folder is the **public reading index for the EWS anchor line**. The article
 
 ## Interfaces, not merged corpora
 
-[EA annex 01C v0.2](../../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) is the current report-contract route: the public minimal detector remains bounded, while the broader RA integration may additionally project the qualified delta `Δ_RA=[A_RA,B_RA,C_RA,D_RA]`, where A_RA is direction, B_RA is confidence/intensity, C_RA is the current-capability frontier and D_RA is residual, for EA/MSCA consumption. [Joint EA/MSCA/RA annex 01D](../../ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) tests version and permit compatibility before an RA-triggered action. [MSCA](../../../standards/minimum-sufficient-control/README.md) owns control-sufficiency assessment; [DAOS](../../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) is an independent extensible case source.
+[EA annex 01C v0.2](../../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) is the current report-contract route: the public minimal detector remains bounded, while the broader RA integration may additionally project the qualified delta `Δ_RA=[A_RA,B_RA,C_RA,D_RA]`, where A_RA is direction, B_RA is established support and characterized reserve, C_RA is the exploration frontier and D_RA is residual beyond effective evaluation, for EA/MSCA consumption. [Joint EA/MSCA/RA annex 01D](../../ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) tests version and permit compatibility before an RA-triggered action. [MSCA](../../../standards/minimum-sufficient-control/README.md) owns control-sufficiency assessment; [DAOS](../../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) is an independent extensible case source.
 
 **Claim status:** conditional theory and a test programme. Pointwise Non-Inferiority is a demanding action-design requirement for a declared admissible domain, not automatic real-world safety; practical context identification, economic value, H1–H3 performance and independent replication remain open.

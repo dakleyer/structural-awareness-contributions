@@ -1,5 +1,7 @@
 # Hoja de ruta — Napoleón → referencia probabilística R1–R3 → EA → Codex → UC‑4
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Hoja de ruta de trabajo, 1 de octubre de 2026; estado revisado el 2 de octubre de 2026.** No implica envío a Nelson ni aceptación de una campaña externa. [Principal limpio](./00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) · [Diseño R1–R3](./annexes/00G-HF-PROBABILISTIC-R123-DESIGN-v0.1.md) · [Historial y resultados anteriores](./annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md).
 
 **Prioridad vigente:** ejecutar y auditar el [sucesor dinámico con revisiones acotadas](./traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README.md), cuyo diseño y ejecutor están congelados antes de la búsqueda, antes de ejecutar EA. El lote social continuo publicado es parcial. Las [instrucciones literales del usuario y los criterios de continuación](./annexes/00G-HF-USER-PROMPTS-AND-DYNAMIC-NEGATIVE-DESIGN-v0.1.md) conservan el encargo para no pedir que se repita.

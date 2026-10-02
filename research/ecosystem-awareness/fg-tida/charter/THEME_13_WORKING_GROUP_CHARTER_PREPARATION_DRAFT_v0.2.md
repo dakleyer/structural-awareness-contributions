@@ -1,5 +1,7 @@
 # Ecosystem-level Agent Defense — Charter
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 > **v0.2 Working Draft — work in progress.** This draft will receive further modifications and contributor review before version 0.2 is considered complete. Publication in this repository does not mean that v0.2 is final, frozen or approved by FG-TIDA.
 
 **Status:** Draft v0.2 — editorial working proposal, 28 September 2026  
@@ -474,7 +476,7 @@ The charter therefore commissions compatibility and bounded profiles, **not adop
 
 ### B.2 Four-component reference position
 
-EA qualifies a receiving participant's decision under a declared scope and time. A qualified local closure does not establish a complete ecosystem state. In the reference EA architecture, **A** denotes situated assertion/scope; **B**, confidence/support within that frame; **C**, recognized additional knowledge obtainable with current capabilities; and **D**, structural/residual unknown. These are components of one qualified position, not mutually exclusive quadrants, mandatory transmission fields or the four-field Theme #13 envelope.
+EA qualifies a receiving participant's decision under a declared scope and time. A qualified local closure does not establish a complete ecosystem state. In the reference EA architecture, **A** denotes the functional result; **B**, its established basis and characterized assessable reserve; **C**, a grounded exploration frontier without an established evaluation basis; and **D**, potentially material effects beyond effective evaluation routes. The definitions follow [00M §1 — canonical A/B/C/D definitions](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). These are components of one qualified position, not mutually exclusive quadrants, mandatory transmission fields or the four-field Theme #13 envelope.
 
 ### B.3 Interface reference documents
 

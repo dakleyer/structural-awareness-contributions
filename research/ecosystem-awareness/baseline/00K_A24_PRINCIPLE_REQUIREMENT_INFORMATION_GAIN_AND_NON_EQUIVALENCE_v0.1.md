@@ -1,5 +1,7 @@
 # 00K-A24 — Principle ↔ Requirement Refinement, Information Gain & Non-Equivalence Annex — v0.1
 
+> **Semantic scope of this proof record — 2 October 2026.** Current corpus meanings are defined in [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). The grammar, fixtures and recorded results below retain their declared source vocabulary. Linking the current definition does not prove that a result transfers to the revised B/C boundary: that correspondence requires a separate semantic check. No formula, executed result or coverage count is changed here.
+
 > **A23 audit qualification:** the reverse all-six sufficiency implication remains an unproved obligation; conditional formulas below do not assert its closure. A23 now certifies only its finite P1/P2/P4 projections and records P3/P5/P6 countermodels. The information/non-equivalence discussion does not supply the missing reverse proof. See [current A23](./00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md).
 
 | | |

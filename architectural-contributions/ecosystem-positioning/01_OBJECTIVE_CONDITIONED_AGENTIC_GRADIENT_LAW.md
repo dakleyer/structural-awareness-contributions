@@ -1,5 +1,7 @@
 # Objective-Conditioned Agentic Gradient Law
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Status:** canonical working law for Ecosystem Positioning, v0.1, 23 September 2026.
 
 **Architectural role:** this document defines the general participant-local gradient used to translate a qualified ecosystem/regime change into an agent-specific repositioning pressure over its current MSCA, under ACC, authority, capacity and time constraints. It is a generalized finite-difference/order law and does **not** require a differentiable state space.
@@ -41,9 +43,9 @@ and a qualified MSCA position:
 where:
 
 - **A_X** — situated represented control scope: the S/E/C/P/M frame the participant is actually using;
-- **B_X** — directional support/confidence for that position;
-- **C_X** — recognized control/capability state that could still be established or activated with current capabilities;
-- **D_X** — residual control-relevant state outside that represented/currently obtainable boundary.
+- **B_X** — established support, limits and characterized assessment reserve for that position;
+- **C_X** — grounded control/capability exploration avenues whose evaluation basis is not yet characterized;
+- **D_X** — potentially material control effects beyond effective evaluation routes in the declared frame.
 
 A Regime Awareness source may emit the qualified delta:
 
@@ -51,7 +53,7 @@ A Regime Awareness source may emit the qualified delta:
 Δ_RA(t) = [ A_RA, B_RA, C_RA, D_RA ]
 ~~~
 
-where **A_RA is direction**, **B_RA is confidence/intensity attached to that direction**, C_RA is the current-capability frontier and D_RA is residual. Scope, Ψ/context/baseline, provenance, freshness and sign semantics qualify the delta but are not substitutes for its direction.
+where **A_RA is direction**, **B_RA is established support and characterized reserve for that direction**, C_RA is the exploration frontier and D_RA is residual beyond effective evaluation. Scope, Ψ/context/baseline, provenance, freshness and sign semantics qualify the delta but are not substitutes for its direction.
 
 ACC, identity/delegation, signalling and authority remain separate objects that constrain which transitions may be pursued.
 
@@ -118,9 +120,9 @@ Typical consequence:
 reassess current MSCA support
 ~~~
 
-### B — confidence / intensity region
+### B — established basis and characterized reserve
 
-B does not represent a separate world domain. It qualifies how strongly a direction/position is supported.
+B does not represent a separate world domain. It retains established support, validity limits and a characterized assessment reserve. The following confidence example concerns one qualifier within B, not a scalar representation of the whole component.
 
 For normalized confidence b in [0,1], a simple uncertainty complement may be written:
 
@@ -130,25 +132,24 @@ q_B = 1 - b
 
 but a profile may instead use intervals, likelihood bounds, robust confidence sets or another declared uncertainty representation.
 
-B therefore scales the strength of a candidate change pressure; it does not erase C or D.
+This declared confidence qualifier can affect the strength of a candidate change pressure; it neither exhausts B nor erases C or D.
 
-### C — recognized current-capability frontier
+### C — exploration frontier
 
-R_C concerns material state outside the currently established A_X that the participant **could still determine, test, acquire or activate with its present capability**.
-
-A large qualified opportunity in C_X is therefore a genuine repositioning opportunity:
+R_C concerns grounded avenues toward decision-relevant assessment whose evaluation basis is not yet established. A known assessable option that could be acquired, tested or activated under a characterized route belongs to the B_X reserve, even when unused. A C_X avenue can motivate exploration; it does not establish the benefit, total cost or reachability of a repositioning.
 
 ~~~text
 current position
-→ acquire / expand / activate within existing capability
-→ new qualified position
+→ bounded exploration to characterize an avenue
+→ qualified assessment route, if established
+→ evaluation and possible repositioning
 ~~~
 
-C cannot be averaged into A as if the state were already known. Moving into C consumes time, capacity and often authority.
+An assertion about C cannot be averaged into A as if its answer were known. A bounded exploratory step may consume time, capacity and authority without providing a probability distribution over the open frontier. Any numerical R_C in a declared profile applies only to the characterized aspect represented by that profile, not to all of C.
 
-### D — structural / capability residual
+### D — structural / capability residual### D — structural / capability residual
 
-R_D concerns material uncertainty beyond the currently represented and recognized-obtainable capability boundary.
+R_D denotes the objective-relevant residual beyond effective evaluation routes in the declared frame. It is not an assumed probability or scalar estimate of the whole D. Any numerical term in a bounded profile must identify the characterized aspect and its defensible grounds; that characterization has an A/B role for its producing process.
 
 A delta into D_X does not create an executable direct transition.
 
@@ -230,7 +231,7 @@ Examples include:
 - re-observe/requalify;
 - change a dependency;
 - activate an existing capability;
-- expand C into A;
+- explore a C avenue, establish an evaluation basis where possible, then evaluate and potentially deliver a new A;
 - modify control configuration;
 - request an ACC change;
 - request new authority;
@@ -429,15 +430,15 @@ reassess / reinforce / reduce / reconfigure current support
 
 ### Δ aligns with C_X
 
-The change points toward a recognized opportunity or risk that current capability can explore or activate.
+The change points toward a grounded exploratory avenue whose evaluation basis remains uncharacterized. A characterized test or activation option belongs to B_X.
 
 Primary operation:
 
 ~~~text
-expand / acquire / test / activate
+explore / characterize / qualify a possible evaluation route
 ~~~
 
-A sufficiently positive G may justify repositioning from current A toward C, subject to ACC, authority and burden.
+A profile-qualified G may motivate a bounded exploratory step, subject to ACC, authority and burden. It cannot assign a justified total benefit to an uncharacterized C frontier merely because the avenue exists.
 
 ### Δ aligns with D_X
 

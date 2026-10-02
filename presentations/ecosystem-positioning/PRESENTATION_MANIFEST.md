@@ -1,5 +1,7 @@
 # Ecosystem Positioning — Canonical Presentation
 
+> **A/B/C/D semantic update — 2 October 2026.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) is the current definition. The PPTX/PDF versions listed here predate that alignment and remain dated exports; their confidence-only B / available-capability C wording must not be used as the current taxonomy. See the [corpus alignment record](../../governance/ABCD_CANONICAL_ALIGNMENT_2026-10-02.md) for affected exports. Binary layout and historical content are preserved; those exports have not been semantically regenerated.
+
 **Status:** Working architecture / pre-standardization contribution  
 **Current canonical revision:** **v1.11 — 2026-09-24**  
 **Canonical editable artefact (owner access; not public):** [Google Drive canonical PPTX](https://docs.google.com/presentation/d/1A03MMGd-9G5I470lHUAWxqS7HQUgEI3_/edit)\

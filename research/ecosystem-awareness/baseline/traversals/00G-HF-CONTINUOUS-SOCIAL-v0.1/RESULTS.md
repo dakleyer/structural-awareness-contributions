@@ -1,5 +1,7 @@
 # Resultados — recorrido social continuo v0.1
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 2 de octubre de 2026. **Se obtuvo un recorrido negativo con propagación dentro del modelo estipulado. EA todavía no se ejecutó.** Freeze previo a las 960 redes: [f656c101](https://github.com/dakleyer/structural-awareness-contributions/commit/f656c101dfa142188e820d045ea6ef3146af5456). [Protocolo](./PROTOCOL.md) · [Diseño EA por requisitos](../../annexes/00G-HF-EA-REQUIREMENTS-PAIRED-DESIGN-v0.1.md).
 
 ## Recorrido seleccionado antes de comparar EA

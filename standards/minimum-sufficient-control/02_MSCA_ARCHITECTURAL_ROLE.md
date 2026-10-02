@@ -1,5 +1,7 @@
 # MSCA Architectural Role — Participant Role within an Objective-Bound Architecture
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Status:** canonical public working specification, v0.1, 23 September 2026.
 
 **Architectural role:** this document defines how one participant is located functionally inside one instantiated Minimum Sufficient Control Architecture (MSCA). It defines **role**, not repositioning. Dynamic role drift, role change, migration and re-contracting are owned by [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).

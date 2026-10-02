@@ -1,5 +1,7 @@
 # Canonical MSCA Operation & Repositioning — Gradient, Re-contracting and Metamorphic Role Control
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Status:** canonical public working operation/repositioning specification, v0.1, 23 September 2026.
 
 **Architectural role:** this document closes the current MSCA/Ecosystem Positioning cycle. It defines how a participant checks whether it has already drifted from its bound Architectural Role, derives bounded repositioning opportunities from Regime Awareness and Ecosystem Cartography, filters them through Objective Envelope / ACC / authority / capability constraints, and either preserves its current role, selects a bounded realignment/re-contracting target, or escalates the case to the appropriate control/authority owner. Repositioning itself does not execute containment, rollback, isolation or physical/digital corrective actuation. It does not create authority, legal contractual capacity, a global optimizer or a mandatory implementation protocol.
@@ -161,7 +163,7 @@ Type 0 is **not** an error-free or omniscient state. It is the condition in whic
 
 ### 5.1 Received A/B/C/D example — detecting Type 2 overconfidence
 
-Suppose another actor sends a qualified position with a broad A assertion, near-absolute B confidence, little declared C verification path and large material D residual/omitted dependencies.
+Suppose another actor sends a qualified position with a broad A assertion, near-absolute B confidence, little declared B assessment reserve or C exploration route and large material D residual/omitted dependencies.
 
 Repositioning does not average high B against large D. It catalogues the inconsistency:
 
@@ -256,7 +258,7 @@ Candidates may include:
 - request for richer Cart_i / C_Cart exploration;
 - escalation to a legitimate owner/human control function.
 
-Candidate generation is bounded by A_Cart and recognized reachability through C_Cart.
+Candidate generation uses A_Cart and the characterized reserve in B_Cart; C_Cart may identify exploratory avenues but does not by itself establish reachability.
 
 D_Cart does not become an executable candidate space merely because it may contain opportunity.
 
@@ -353,7 +355,7 @@ Typical triggers include:
 
 - material Type 1 behaviour consuming the response window;
 - detected Type 2 overconfidence in a dependency;
-- falling B_Cart / B_RA on a critical dependency;
+- falling support recorded within B_Cart / B_RA on a critical dependency;
 - out-of-bound effective-role drift for which a bounded containment/realignment response appears available;
 - authority/ACC uncertainty requiring bounded hold/reduction;
 - action/effect mismatch requiring reduced autonomy or isolation.
@@ -396,9 +398,9 @@ It produces:
 where:
 
 - **A_RP — selected repositioning assertion:** current/target Role, focal MSCA/Objective Envelope, intended action/transition and source-attributed basis;
-- **B_RP — confidence/intensity:** confidence/bounds supporting the selected posture and transition, including disagreement/weakness where material;
-- **C_RP — verification/authorization frontier:** evidence, authority, ACC approval, capability or cartographic refinement still obtainable with current resources before the deadline;
-- **D_RP — residual repositioning risk:** unresolved/unobservable state, unverified dependencies, unknown future effects or structural residual that survives the decision.
+- **B_RP — established basis and characterized reserve:** support, bounds, validity limits and known assessable verification/authorization steps associated with the selected posture; disagreement and weakness remain explicit;
+- **C_RP — exploration frontier:** grounded avenues toward evidence, capability or control alternatives whose evaluation basis remains uncharacterized; a known authorization or verification procedure left unperformed remains in B_RP;
+- **D_RP — residual beyond effective evaluation:** potentially material effects beyond this process's effective evaluation routes that survive the selected position. Quantified residual risk belongs to A or B according to its function; mere lack of action authority does not make a characterized effect D.
 
 This is the qualified **Repositioning Position**. The same A/B/C/D semantics survive the hard operational closure.
 
@@ -692,7 +694,7 @@ Architecturally:
 ~~~text
 peer behaviour changes
 → dependency confidence falls
-→ Cart_i B_Cart decreases / C_Cart verification opens / D_Cart residual grows
+→ Cart_i support within B_Cart decreases / a B_Cart evaluation or C_Cart exploration route opens / D_Cart residual is requalified
 → Δ_RA / local risk increases
 → request withdrawal/containment/verification as appropriate / signal bounded anomaly
 ~~~

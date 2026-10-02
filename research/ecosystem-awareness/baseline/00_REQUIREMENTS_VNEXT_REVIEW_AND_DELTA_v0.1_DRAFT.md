@@ -1,5 +1,7 @@
 # Requirements vNext Review & Delta — Ecosystem Positioning
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 > **Working review only — not a new Requirements document.**  
 > The current canonical requirements remain [00 — Canonical Requirements: S1–S14 / T1–T4 / H1–H6 / KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md).  
 > This file reviews later Ecosystem Positioning developments against that existing requirement system. It does **not** create S15+, T5+, H7+, new canonical KPIs or a successor version.

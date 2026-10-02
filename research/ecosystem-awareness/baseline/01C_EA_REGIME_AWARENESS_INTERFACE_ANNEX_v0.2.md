@@ -1,5 +1,7 @@
 # Annex 01C — Ecosystem Awareness / Regime Awareness architectural relation
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Status:** public working architectural interface annex, v0.2, 23 September 2026. Additive companion to the Ecosystem Awareness (EA) corpus, outside the six controlled/frozen v0.4 release-baseline documents. It is a candidate composition, not an implemented common API, an empirically validated detector, an adopted ITU-T architecture or an institutional endorsement.
 
 **Supersedes for current reading:** [v0.1](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.1.md), preserved for provenance.
@@ -43,16 +45,16 @@ For the broader RA architecture, that bounded result can be projected as a quali
 with scope/provenance/context carried as qualifiers of the delta rather than confused with its direction:
 
 - **A_RA — direction:** the qualified direction of observed regime movement/change under the declared Ψ, context, baseline, change family Δ and sign semantics. A_RA is not a generic YES/NO state and does not by itself say whether the change is good or bad for a particular agent.
-- **B_RA — confidence / intensity:** the confidence, interval or bounded support attached to A_RA. B_RA determines how strongly the current evidence supports that direction. In the architectural shorthand used here, this is the **intensity of the delta**, not a second direction and not an agentic gradient.
-- **C_RA — current-capability frontier:** recognized regime-relevant evidence/context that could still be acquired, tested or recomputed with currently available observation, computation or review capability before the useful deadline, but has not yet been established.
-- **D_RA — residual:** regime-relevant state outside the current represented/recognized-obtainable capability boundary, including invisible changes, non-identifiable context and unresolved compatibility residual.
+- **B_RA — established basis and characterized reserve:** confidence, intervals, validity limits and known assessable evidence/context that qualify A_RA. Confidence describes evidential support; it is not automatically the physical magnitude of change or a complete scalar value of B_RA.
+- **C_RA — regime exploration frontier:** grounded avenues to discover or characterize regime-relevant evidence/context whose evaluation basis is not yet established. Known assessable observations, tests and recomputations left unused belong in B_RA.
+- **D_RA — residual beyond effective evaluation:** potentially material regime effects beyond the process's effective routes under its declared frame; invisible or non-identifiable effects may remain D even when associated indicators can be monitored. Uncertain classification itself remains UNKNOWN.
 
 The delta therefore says, in bounded form:
 
 ~~~text
 where the observable regime appears to be moving
-+ how strongly that direction is supported
-+ what else could still be established now
++ established support, limits and characterized assessment reserve
++ grounded exploration avenues not yet characterized
 + what remains outside current determination capability
 ~~~
 
@@ -124,7 +126,7 @@ RA_Input_i(t) = [
 
 | Input | Producer / owner | RA use |
 |---|---|---|
-| **Π_EA,i** | Participant-local EA / [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) | Current situated epistemic state, confidence/intensity, capability frontier and residual for the affected decision/scope. |
+| **Π_EA,i** | Participant-local EA / [01H](./01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) | Current functional result, established basis and characterized reserve, exploration frontier and residual beyond effective evaluation for the affected decision/scope. |
 | **ReceivedSignals_i** | Receiver-local [Ecosystem Signalling 01J](./01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) | Qualified external messages from peers, systems, institutions or other ecosystem sources; only semantically/compatibly qualified content is eligible. |
 | **Cart_i / Δ_Cart,i** | [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | Current qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]`, bounded dependency neighbourhood and material cartographic change-set. Because the cartography already uses the shared A/B/C/D semantics, RA may consume the relevant bounded slice without a second epistemic translation layer. |
 | **focal MSCA X_i** | [Canonical MSCA Architecture](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) | Current Objective Envelope, operating assumptions and C/P/M architecture against which regime change becomes control-relevant. |
@@ -239,8 +241,8 @@ The broader RA integration may normalize I-RA-02/I-RA-03 into the compact delta 
 | Component | RA projection |
 |---|---|
 | **A_RA — direction** | qualified direction of regime movement/change under the declared observation/context/sign semantics |
-| **B_RA — confidence / intensity** | confidence, interval or bounded support attached to A_RA; stronger support means a stronger delta in that direction |
-| **C_RA — current-capability frontier** | additional observable/context/evidence state that could still be acquired or tested with current available capability before the useful deadline |
+| **B_RA — established basis and characterized reserve** | support, validity limits and assessable evidence/context not yet used; confidence qualifies A_RA without becoming the physical magnitude of change |
+| **C_RA — exploration frontier** | grounded but uncharacterized routes toward new regime-relevant evidence/context; known assessable checks remain B_RA |
 | **D_RA — residual** | invisible, structurally unavailable, unenumerated or otherwise non-establishable regime-relevant state under the current capability/representation |
 
 Decision/domain, Ψ/context/baseline/version, location/subject/frame, provenance, freshness and validity remain mandatory **qualifiers of Δ_RA**; they are not collapsed into A_RA.
@@ -252,8 +254,8 @@ Conceptually:
 ~~~text
 RA observation/context
 → qualified direction A_RA
-→ confidence/intensity B_RA
-→ capability/residual C_RA/D_RA
+→ established support and characterized reserve B_RA
+→ exploration frontier C_RA / residual beyond evaluation D_RA
 → Δ_RA
 → EA / participant-local projection
 → nonlinear posture + agentic gradient
@@ -283,7 +285,7 @@ The intended reading is:
 - **CONTAINMENT:** confidence/support for the current regime mapping has fallen, or objective-conditioned risk has crossed a participant-defined threshold, but a known bounded response remains qualified. Operation/Repositioning may classify/request this posture; any reduction of autonomy, scope, exposure or actuation is decided/executed by the appropriate authorized control function.
 - **MIGRATION / REGIME TRANSITION:** the current historical/response mapping can no longer be relied on sufficiently for the mission. The participant must stop treating the old regime history as an adequate forecast/control basis and qualify another frame while preserving invariant controls where available.
 
-The transition is intentionally **nonlinear**. A small additional fall in B_RA may cross a local threshold and trigger a discrete posture change. Thresholds may be encoded in the ACC, control policy or another legitimate owner profile and SHOULD use hysteresis or an equivalent evidence-change rule to avoid oscillation.
+The transition is intentionally **nonlinear**. A small additional fall in a specified support measure within B_RA may cross a local threshold and trigger a discrete posture change. Thresholds may be encoded in the ACC, control policy or another legitimate owner profile and SHOULD use hysteresis or an equivalent evidence-change rule to avoid oscillation.
 
 Illustrative confidence values such as 0.5→0.4 for containment or <0.1 for migration are examples only. This architecture does not prescribe universal numeric thresholds.
 
@@ -331,7 +333,7 @@ new action / effects / signalling / map updates
 
 1. **Declare the decision before the series:** owner sets objective and constraints, Δ, admissible action/state/utility scope and deadline. EA F1 identifies the material domain, consequences, capacity and response margin; F2 qualifies W and available acquisition paths. RA cannot choose the legitimate objective.
 2. **Qualify representation and context:** RA tests whether Ψ preserves the needed change distinctions, whether a sufficient H_t(m) exists and is effectively identifiable, and whether acquisition/processing fits the deadline. If not, it reports the specific failure, not a fabricated neutral posture.
-3. **Detect present compatibility:** with admitted context, RA computes I, B, deviation and directional P_t above declared thresholds. The report keeps source, context, scope, delay and invisible-change qualifiers. Approximate instability is admissible; exact tipping prediction is not. Where the broader RA profile is available, it also produces Δ_RA so that direction A_RA and confidence/intensity B_RA can be consumed directly by EA/MSCA positioning without calling the RA output a gradient.
+3. **Detect present compatibility:** with admitted context, RA computes I, B, deviation and directional P_t above declared thresholds. The report keeps source, context, scope, delay and invisible-change qualifiers. Approximate instability is admissible; exact tipping prediction is not. Where the broader RA profile is available, it also produces Δ_RA so that direction A_RA and support qualified within B_RA can be consumed directly by EA/MSCA positioning without calling the RA output a gradient.
 4. **Compose ecosystem evidence:** EA F3/F4 qualifies the RA report; F5 checks lineage and coupling with other domains; F6 assesses whether Q still supports **this mission** under the remaining response capacity. RA departure may be immaterial to this mission, and RA neutral may coexist with a changed dependency that EA found elsewhere.
 5. **Request or perform response through legitimate authority:** EA F7 selects a targeted evidence/window/control-review request. The RA Safety Governor may propose an A(P_t) only within its declared safety/action library; owner/authority/control functions permit and execute it if feasible. No RA or EA signal by itself authorizes a command.
 6. **Close evidence, not just alarms:** execution receipt, independently observed effect, intervention cost and unchanged/changed assumptions feed EA F9 and RA evaluation. Material mismatch re-enters the affected representation, window, action or frame qualification; it does not silently widen S or assume that the historical baseline is still current.

@@ -5,6 +5,8 @@
 
 [![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx)
 [![Architecture & Implementation](https://img.shields.io/badge/OPEN-ARCHITECTURE%20%26%20IMPLEMENTATION-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx)
+
+**A/B/C/D reading update:** this presentation is a dated export predating the 2 October semantic alignment. Use [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) for current definitions; its earlier B/C labels are not the current taxonomy. The export remains intact for traceability.
 [![Read the Architecture](https://img.shields.io/badge/READ-THE%20ARCHITECTURE-1B4D8E?style=for-the-badge)](#awareness--positioning--agent-defense)
 
 **[Structural Awareness Programme](../../README.md) → Ecosystem Positioning**
@@ -281,7 +283,7 @@ The corpus is deliberately layered. The layers are connected, but they are **not
 The [Integrated Foundational Theory](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md) and the [Epistemic Safety Principles & Control Matrix](../../research/ecosystem-awareness/baseline/02_EPISTEMIC_SAFETY_PRINCIPLES_CONTROL_MATRIX_v0.4.part01.md) define the underlying problem:
 
 - every participant acts from a bounded and revisable representation;
-- the four epistemic positions **A/B/C/D** keep established, unresolved, potentially knowable and structural-residual state distinguishable;
+- the four process-relative components **A/B/C/D** distinguish delivered results, established basis and characterized reserve, exploration frontier, and residual beyond effective evaluation;
 - **Type 0** represents legitimate structural non-determination;
 - **Type 1** captures unresolved determination that becomes unbounded or non-viable;
 - **Type 2** captures uncertainty, scope or residual being promoted into unjustified certainty or permission;
@@ -498,16 +500,16 @@ The four-part participant-local epistemic position is a practical way to **under
 
 A central structural pattern is the four-part participant-local epistemic position.
 
-[**Canonical Architecture Topology**](../../research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) provides the shared reading key across the corpus.
+[00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) defines the shared meanings. [Canonical Architecture Topology](../../research/ecosystem-awareness/baseline/00_CANONICAL_ARCHITECTURE_TOPOLOGY.md) applies them across the architecture.
 
 In compact form:
 
 | Position | Meaning |
 |---|---|
-| **A** | What is sufficiently established now for the declared decision and scope. |
-| **B** | The determination / confidence / qualification around that represented state. |
-| **C** | What could still be established with the capability, time, evidence access and effort currently available. |
-| **D** | Residual that is not presently established as knowable within that capability boundary. |
+| **A** | Functional result actually established and delivered by the declared process. |
+| **B** | Established basis and limits of that result, together with a characterized, assessable reserve. |
+| **C** | Grounded exploration frontier whose evaluation basis has not yet been established; not a known assessable option left unused. |
+| **D** | Potentially material effects beyond effective evaluation routes under the declared access, authority, method, capability and time. |
 
 These positions are deliberately **non-fungible**. More confidence in A cannot compensate for an unexamined residual in D; more compute cannot automatically substitute for missing authority; more messages do not automatically create independent evidence.
 
@@ -546,7 +548,7 @@ The complete architecture is composed from separately owned mechanisms. The link
 
 | Component | Responsibility |
 |---|---|
-| **Regime Awareness** | Emit a qualified ecosystem/regime delta — direction + confidence/intensity + capability frontier + residual — without deciding the participant's final posture. |
+| **Regime Awareness** | Emit a qualified ecosystem/regime delta — direction + established support and reserve + exploration frontier + residual beyond evaluation — without deciding the participant's final posture. |
 | **Ecosystem Awareness** | Qualify what can be relied on, what remains unresolved and what needs requalification. |
 | **Ecosystem Positioning** | Maintain the participant-local situated view, derive the objective-conditioned agentic gradient, and hand candidate transitions to MSCA Operation/Repositioning for drift control and legitimate re-contracting. |
 | **MSCA** | Determine whether control capacity is sufficient under the current Objective Envelope and authority. |
@@ -660,7 +662,7 @@ Owns the decision-scoped epistemic qualification:
 Owns continued validity of the operating frame:
 
 - whether current observations remain compatible with the regime under which assumptions were qualified;
-- the qualified **direction of regime change (`A_RA`)** and its **confidence/intensity (`B_RA`)**, with `C_RA/D_RA` preserving capability frontier and residual;
+- the qualified **direction of regime change (`A_RA`)** and its **established support and characterized reserve (`B_RA`)**, with `C_RA/D_RA` preserving exploration frontier and residual beyond effective evaluation;
 - whether the resulting delta should trigger downstream frame requalification. **RA does not decide the participant's Normal / Containment / Migration posture.**
 
 **Enter the corpus:** [Regime Awareness — corpus index](../../research/regime-awareness/README.md)

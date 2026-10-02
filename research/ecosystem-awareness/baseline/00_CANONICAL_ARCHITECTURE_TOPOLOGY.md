@@ -59,7 +59,7 @@ This table reconciles notation across current working documents. It does not rew
 
 ## 2. Four-component qualified epistemic position
 
-**Reconciliation update — 23 September 2026.** A/B/C/D are read canonically as four **components of one qualified position**, not as four mutually exclusive quadrants or four mandatory transmission fields. Earlier frozen/source documents that use a coarser “determined / unresolved / obtainable / residual” wording remain preserved for provenance; this page supplies the current reconciliation.
+**Semantic reconciliation — 2 October 2026.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs the four components of one qualified position. This page applies that definition; it does not define a competing tuple. Components are not mutually exclusive bins or mandatory transmission fields. Earlier source wording remains identifiable as historical vocabulary.
 
 For participant i, decision d and time t, a qualified position may be read conceptually as:
 
@@ -69,27 +69,25 @@ For participant i, decision d and time t, a qualified position may be read conce
 
 | Component | Canonical meaning | Example / treatment |
 |---|---|---|
-| **A — situated scope / qualified assertion** | What is being represented or asserted, **where/from which frame**, for which subject/decision, under which scope, provenance, calibration, freshness and other material qualifiers. A is not an unscoped YES/NO. | A telemetry device may assert “temperature at this sensor/location, using this calibration, at this time.” |
-| **B — confidence / intensity** | How strongly the A assertion or direction is supported relative to its admitted frame. B may be expressed as confidence, interval/bounds, support strength or another profile-appropriate uncertainty representation. | A high-confidence directional departure can create a stronger downstream agentic gradient after participant-local projection than a weak/noisy departure. Confidence in decoding is distinct from physical measurement accuracy. |
-| **C — recognized capability frontier / potentially obtainable state** | What additional decision-relevant state is recognized and could be determined **with the participant's current capabilities** through more observation, review, acquisition, computation, interaction or time, but has not yet been established for the current position. | A telemetry system may support a diagnostic register or another sensor read that has not yet been queried. |
-| **D — structural / residual unknown** | What remains outside the currently represented and recognized-obtainable capability boundary, including what may be unenumerated, structurally unavailable or unknown as to knowability. Compatibility/translation residuals may also contribute to D on the receiver side. | A local temperature device does not thereby establish humidity, occupancy, external conditions or unmodelled dependencies. |
+| **A — result of active exploitation** | What the declared process actually establishes and delivers, with its subject, scope, time and provenance. A may itself be a probability, estimate or decision when that is its functional product. | A telemetry process delivers a scoped temperature reading. A confidence-estimation process can deliver confidence as A. |
+| **B — established basis and characterized reserve** | Existing support, validity conditions, limits and the assessable remainder: the question, variables and evaluation basis are sufficiently characterized, even when further evaluation is not undertaken. Confidence or cost estimates belong here only insofar as defensible and qualifying a different A. | A known diagnostic register with an established interpretation and evaluation route remains B when unqueried. |
+| **C — exploration frontier** | A grounded avenue toward evaluation whose relevant variables, population or evaluation basis have not yet been characterized. It is not a list of known, assessable checks declined on cost grounds. | A suspected new environmental dependency may motivate exploration before an adequate measurement question and method can be specified. |
+| **D — residual beyond effective evaluation** | Potentially material effects beyond this process's effective evaluation routes under its present access, authority, method, capability and time. Partial indicators can be monitored without evaluating the effect; the residual is not exhaustively enumerable. | A device may monitor a local reading while lacking a route to assess a wider external influence. Mere inability to control a quantified effect does not make it D. |
 
 The four components are **not required to sum to a fixed whole** and need not all be transmitted. A producer may emit only A, or A+B, or another material subset. Missing components remain **UNKNOWN / NOT DECLARED** to the receiver unless a verified profile legitimately supplies receiver-local qualification.
 
 ### 2.1 Relation to the earlier coarse four-position wording
 
-The earlier wording can be conserved as a useful operational reading **inside** the richer tuple:
+The earlier “determined / unresolved / obtainable / residual” vocabulary is retained as source lineage, not as a second canonical definition. Translate each assertion using [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical):
 
-- a “sufficiently determined” result is an A assertion with enough B support for the receiving decision;
-- “recognized unresolved” state is represented through insufficient/contested B and the qualified unresolved content attached to A;
-- “potentially obtainable” remains the C frontier;
-- “structural residual” remains D.
+- a delivered determination can be A; its established justification and assessable remainder are B;
+- an unresolved item with a characterized evaluation basis remains B; lack of a result alone does not make it C;
+- a grounded but uncharacterized exploratory avenue is C; an effect beyond effective evaluation routes is D;
+- missing information about the frame or capability boundary remains UNKNOWN rather than being assigned to C or D by default.
 
-This reconciliation prevents B from being treated as a second content bucket when the architecture needs B to carry confidence/direction, while preserving the earlier safety rule: unresolved state must never be promoted to certainty.
+The relation depends on producer, process, question, scope, capability and time. A specified aspect can have different roles for different actors. Neither C nor D makes `R_U` a closed complement or Ω a closed universe. Role changes require new grounds or a changed frame; they do not follow from exchanging labels.
 
-C and D preserve the distinction between what could still be known with current capability and what remains structurally residual. Neither makes `R_U` a closed set complement or Ω a closed universe.
-
-## 3. Agent-local qualification and ecosystem composition
+## 3. Agent-local## 3. Agent-local qualification and ecosystem composition
 
 EA is **not an epistemic super-controller**, does not reconstruct every participant’s internal reasoning and does not require one mandatory shared ecosystem state. Ω retains its open ecosystem meaning. Where participant locality is material, U, W(d,t), R_U and A–D are interpreted for the declared receiving participant/decision; use U_i(d,t), W_i(d,t) and R_{U_i} when the participant index would otherwise be ambiguous.
 

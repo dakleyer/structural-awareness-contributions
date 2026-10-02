@@ -1,5 +1,7 @@
 # 00L-00G — Traza de papel emparejada: estabilidad del marco con procedencia
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 > **Estado tras auditoría:** El peer exige autoridad para el marco y procedencia válida; el kernel de grafo solo cuenta evidencia cualificada. El guard rechaza raíces vacías; el falsador A6a se conserva. [Correcciones A14](./00L_A14_CORRECCIONES_AUDITORIA_v0.1.md); las tablas de papel conservadas no sustituyen las nuevas trazas de ejecución.
 
 **Base:** 00G v0.4 y su §17 integrado. **Estado:** traza calculada en papel sobre hechos sintéticos; no ejecución de OpenAI ni EA.

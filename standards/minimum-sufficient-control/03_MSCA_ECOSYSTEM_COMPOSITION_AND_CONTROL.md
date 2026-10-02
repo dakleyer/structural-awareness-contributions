@@ -1,5 +1,7 @@
 # MSCA Ecosystem Composition & Control — Ecosystem Cartography of Objective-Bound Architectures
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Status:** canonical public working specification, v0.1, 23 September 2026.
 
 **Architectural role:** this document defines the participant-local **Ecosystem Cartography** used to represent multiple MSCA instances together, how semantic and material relationships are maintained at different levels of resolution, and how that qualified cartography becomes structural input to Ecosystem Awareness and Regime Awareness. It does not define participant repositioning or a global ecosystem controller. Repositioning is owned by [Canonical MSCA Operation & Repositioning](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md).
@@ -114,14 +116,14 @@ A_Cart ≈ {
 
 A_Cart is therefore **the map**, not a claim that the mapped ecosystem is complete.
 
-### 3.2 B_Cart — confidence / intensity overlay
+### 3.2 B_Cart — established support and characterized reserve
 
-**B_Cart** attaches confidence/intensity to the represented cartographic elements and relations.
+**B_Cart** records established support, validity limits and the characterized, assessable reserve associated with the represented cartography. Confidence/intensity is one possible qualifier. Known unqueried neighbouring MSCAs, diagnostic registers, review routes and refinement tasks belong here when their questions and evaluation basis are characterized, even if their evaluation is not performed. Defensible cost, effort and expected-gain estimates are retained without being invented.
 
 For each mapped element or edge e:
 
 ~~~text
-B_Cart,i(e,t) = qualified confidence / support for e
+B_Cart,i(e,t) = established basis, limits and characterized assessment reserve for e
 ~~~
 
 B_Cart may vary element by element.
@@ -134,38 +136,30 @@ However:
 
 A coarse label can be highly reliable, while a detailed model can be stale, inferred or weakly supported. B_Cart is therefore driven by evidence, provenance, freshness and compatibility as well as representation resolution.
 
-Operationally, the represented cartography is **A_Cart with its B_Cart confidence overlay**.
+Operationally, the represented cartography is **A_Cart with its B_Cart support, limits and characterized reserve**.
 
-### 3.3 C_Cart — cartographic expansion capability
+### 3.3 C_Cart — cartographic exploration frontier
 
-**C_Cart** is the recognized frontier of what the participant could still add, inspect, refine or verify **with its current capabilities**.
+**C_Cart** records grounded avenues toward discovering or characterizing map content whose evaluation basis is not yet established. An exploration may investigate an uncharacterized neighbouring activity, a suspected new dependency or an unfamiliar source before the relevant population, variables and method can be specified.
 
-It may include:
-
-- known but unqueried neighbouring MSCAs;
-- dependencies that could be checked;
-- richer semantic/profile information that could be requested;
-- available sensors, signalling routes or registries;
-- analysis/computation that could refine a relationship;
-- human/owner review capacity;
-- effort, cost and useful-time budget available to increase resolution or confidence.
+The following remain relevant acquisition resources: sensors, signalling routes, registries, computation, human/owner review and useful-time budgets. A resource list alone does not establish C. A known target with an established evaluation route belongs in B_Cart; an available tool may also support a bounded first exploratory step without characterizing the whole C frontier.
 
 Conceptually:
 
 ~~~text
 C_Cart = {
-  candidate expansion/refinement targets,
-  available acquisition paths,
-  effort/capacity/time needed,
-  expected gain in resolution/confidence
+  grounded exploration avenues,
+  what remains uncharacterized,
+  available grounds for a first exploratory step,
+  limits of what is presently claimed
 }
 ~~~
 
-C_Cart is not already-established map content. It is the participant's current **capacity to enlarge or improve the cartography**.
+Full exploration cost, feasibility and benefit are not assumed calculable. Establishing a specified evaluation basis may requalify that aspect from C_Cart to B_Cart; performing an evaluation can deliver A for its own process. Neither step establishes complete cartography.
 
-### 3.4 D_Cart — cartographic residual
+### 3.4 D_Cart### 3.4 D_Cart — cartographic residual
 
-**D_Cart** is the structural residual beyond both the represented map and the recognized current-capability frontier.
+**D_Cart** concerns potentially material cartographic effects beyond this process's effective evaluation routes under its present access, authority, method, capability and time. Its aspects may be partially named or monitored; the residual is not exhaustively enumerable. The examples below indicate possible residuals, not an automatic classifier: a missing map entry is not D if a characterized evaluation route makes it B or grounded exploration makes it C. Unknown capability boundaries remain UNKNOWN.
 
 It includes:
 
@@ -497,8 +491,8 @@ current Cart_i
 The update may change the qualified cartography directly:
 
 - **A_Cart:** represented semantic entries, dependency edges, process detail or resolution;
-- **B_Cart:** confidence/intensity of one or more mapped elements/relations;
-- **C_Cart:** recognized expansion/refinement capability and effort budget;
+- **B_Cart:** support, validity limits and characterized assessment reserves of mapped elements/relations;
+- **C_Cart:** grounded exploration avenues whose evaluation basis remains uncharacterized;
 - **D_Cart:** residual/UNKNOWN boundary.
 
 Internal V_i / Dep_i / R_i structures remain representations within A_Cart rather than independent top-level epistemic categories.
@@ -517,8 +511,8 @@ Composition & Control supplies downstream:
 
 - current Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart] / version;
 - bounded focal dependency neighbourhood;
-- element-wise B_Cart confidence/intensity;
-- C_Cart expansion/refinement opportunities and effort/capacity limits;
+- element-wise B_Cart support and characterized reserve;
+- C_Cart exploration avenues and declared limits; known assessable refinement tasks and defensible effort estimates remain in B_Cart;
 - Δ_Cart,i when material;
 - newly unresolved/stale dependencies;
 - resolution/coverage gaps;
@@ -593,7 +587,7 @@ The architecture therefore expands knowledge along material dependency, not by a
 
 Ecosystem Awareness consumes the Ecosystem Cartography as bounded qualified structural context.
 
-EA may use A_Cart mapped structure, B_Cart element-wise confidence/intensity, C_Cart expansion capability, D_Cart residual, plus the focal Objective Envelope/MSCA and participant role.
+EA may use A_Cart mapped structure, B_Cart support and characterized reserve, C_Cart exploration frontier, D_Cart residual beyond effective evaluation, plus the focal Objective Envelope/MSCA and participant role.
 
 EA decides what is sufficiently represented for the current decision and where additional determination has value.
 
@@ -639,7 +633,7 @@ Its output remains:
 Δ_RA = [A_RA, B_RA, C_RA, D_RA]
 ~~~
 
-RA may additionally return a regime-qualified overlay identifying which cartographic/MSCA assumptions, elements or dependency regions require requalification. Because Cart_i uses the same A/B/C/D semantic form, the overlay can be applied element-wise: weakening B_Cart, requesting C_Cart refinement, or preserving/escalating D_Cart residual where appropriate. Composition & Control owns persistence/update of Cart_i; RA does not become the cartography repository. The participant later projects Δ_RA onto its own focal MSCA/objectives to calculate the agentic gradient.
+RA may additionally return a regime-qualified overlay identifying which cartographic/MSCA assumptions, elements or dependency regions require requalification. Because Cart_i uses the same A/B/C/D semantic form, the overlay can be applied element-wise: revising support within B_Cart, requesting evaluation of its characterized reserve or exploration of C_Cart, or preserving/escalating D_Cart residual where appropriate. Composition & Control owns persistence/update of Cart_i; RA does not become the cartography repository. The participant later projects Δ_RA onto its own focal MSCA/objectives to calculate the agentic gradient.
 
 ## 15. Ecosystem composition is not global orchestration
 

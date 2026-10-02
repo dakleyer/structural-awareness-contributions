@@ -1,5 +1,7 @@
 # Conservación de contenido — 82 documentos enlazados desde Ecosystem Positioning
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 **Fecha:** 25 de septiembre de 2026. **Base publicada:** `b6b9647`. **Alcance:** los 82 destinos de repositorio enlazados directamente por el README de Ecosystem Positioning en esa base; 77 Markdown, 4 PPTX y 1 PDF, 888 versiones por archivo siguiendo renombres. No incluye los documentos enlazados de segundo nivel ni demuestra validez científica de sus afirmaciones.
 
 ## Método y lectura del resultado

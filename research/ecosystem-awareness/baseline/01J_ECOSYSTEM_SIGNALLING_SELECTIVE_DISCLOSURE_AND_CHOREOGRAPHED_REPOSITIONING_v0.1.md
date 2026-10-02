@@ -60,12 +60,12 @@ The following can travel together in one bounded handoff, but they are not one o
 
 ### 3.1 Epistemic projection
 
-A decision-scoped projection may include any material part of the [canonical four-component qualified position](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position):
+A decision-scoped projection may include any material part of the [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical):
 
-- **A — situated scope / qualified assertion:** what is being asserted or represented, from which location/frame, for which subject/decision and under which provenance/calibration/freshness qualifiers;
-- **B — confidence / intensity:** how strongly the disclosed A assertion or direction is supported under the stated qualifiers;
-- **C — recognized capability frontier:** what additional state could be determined with current capability but has not yet been established;
-- **D — structural / residual unknown:** what remains outside that represented/recognized-obtainable capability boundary, including receiver-side compatibility residual where applicable;
+- **A — functional result:** what the declared producer process actually delivers, with location/frame, subject, time and provenance;
+- **B — established basis and characterized reserve:** support, validity limits and the known assessable remainder; this can include defensible confidence and cost estimates when they qualify a different A;
+- **C — exploration frontier:** grounded avenues whose evaluation basis is not yet characterized; known assessable options left unused remain B;
+- **D — residual beyond effective evaluation:** potentially material effects beyond the process's effective routes in its declared frame; receiver-side translation residual is D only when that boundary is established;
 - current EA operating posture where material;
 - revalidation conditions.
 
@@ -73,7 +73,7 @@ This is one qualified position, not four independent content buckets.
 
 A participant MAY disclose any subset of A/B/C/D, including only A. An omitted component remains **UNKNOWN / NOT DECLARED** to the receiver. Omission MUST NOT be interpreted as zero uncertainty, zero residual, complete confidence or epistemic completeness.
 
-This allows low-capability, legacy or specialised devices to participate without implementing the complete EA representation. For example, a telemetry device may emit only a situated reading A. A verified compatibility profile may allow the receiver to add a qualified B and/or C based on known device semantics/capability; D remains where the capability boundary or translation leaves residual unknown.
+This allows low-capability, legacy or specialised devices to participate without implementing the complete EA representation. For example, a telemetry device may emit only a situated reading A. A verified compatibility profile may allow the receiver to add qualified B for known device semantics and assessable reserve, or C only for a grounded uncharacterized exploratory avenue; D remains where the capability boundary or translation leaves residual unknown.
 
 The receiver may therefore maintain a richer local epistemic position for the contact than the sender explicitly transmits. Receiver-added qualification remains receiver-local and MUST NOT be rewritten as a sender claim.
 
@@ -426,9 +426,9 @@ A received payload may therefore be normalized by the receiver as follows:
 | Receiver-local element | Example interpretation |
 |---|---|
 | **A — situated assertion / represented state** | `T = 21.4 °C @ 10:15:05` at this identified device/location, under this profile/calibration and timestamp, is the bounded assertion represented by the receiver. A states **what/where/from which frame** is being represented; it is not an unscoped claim about the whole room or environment. |
-| **B — confidence / intensity** | If identity, checksum and profile binding are valid, **protocol/mapping confidence may be 1.0** because the decoding rule is deterministic. Physical measurement confidence remains separately bounded by sensor tolerance, calibration state and representativeness. A known calibration concern or stale profile lowers B without changing what A says. |
-| **C — recognized current-capability frontier** | The profile can identify information obtainable with current device/system capability but not currently acquired, for example the diagnostic/status register, raw sensor channel, or a supported higher-frequency sample mode. C is therefore known from capability metadata even though the current telemetry message does not contain it. If the verified profile establishes that no additional state is obtainable under the current capability boundary, C may be explicitly represented as empty **within that bounded profile**, without implying that D is empty. |
-| **D — structural residual** | Conditions outside the device/profile capability boundary remain residual: humidity, occupancy, other rooms, unmodelled environmental effects, hidden dependencies and any decision-relevant state not covered by the verified sensing model. A separate `D_compatibility` is added if the receiver's mapping from this device/protocol remains approximate or incomplete. |
+| **B — established basis and characterized reserve** | Deterministic decoding under verified identity, checksum and profile binding is an established property of that mapping, not certainty about physical measurement. Sensor tolerance, calibration, freshness and representativeness qualify the reading. A known diagnostic register, raw channel or sampling mode with an established evaluation basis belongs to B even when unqueried; retain defensible effort estimates where available. |
+| **C — exploration frontier** | A grounded avenue to investigate an unfamiliar environmental relation can be C when its evaluation basis is not yet characterized. The existence of an unused register does not establish C. If no such avenue is declared, record that absence of declaration; do not infer that the open exploration frontier or D is empty. |
+| **D — residual beyond effective evaluation** | A potentially material external effect remains D for the device/process where no effective evaluation route exists. Humidity, occupancy, other rooms or hidden dependencies are not intrinsically D: their role depends on available evaluation and exploration routes. Receiver-side `D_compatibility` requires an established evaluation barrier; missing mapping information alone remains UNKNOWN. |
 
 The important distinction is:
 

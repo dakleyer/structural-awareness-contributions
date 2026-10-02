@@ -1,5 +1,7 @@
 # 02B — Foundational Syntax Closure & P1–P6 Normal-Form Proof — v0.1
 
+> **Semantic scope of this proof record — 2 October 2026.** Current corpus meanings are defined in [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). The grammar, fixtures and recorded results below retain their declared source vocabulary. Linking the current definition does not prove that a result transfers to the revised B/C boundary: that correspondence requires a separate semantic check. No formula, executed result or coverage count is changed here.
+
 > **Canonical current syntactic-closure proof.** This is the active 02B reader route for Foundation → P1–P6 closure.
 
 
@@ -43,6 +45,8 @@ Pole = \{A,B,C,D\}
 \]
 
 where:
+
+**Source grammar, not a second canonical taxonomy.** The following labels are retained for this version's proof and fixture. Current roles are defined in [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). In particular, the source B/C split is not the revised boundary between a characterized reserve and an exploration frontier; transfer of the semantic completeness claim is not established by retaining this syntax.
 
 - **A** = sufficiently determined for the current mission/scope;
 - **B** = explicitly unresolved inside the current window;

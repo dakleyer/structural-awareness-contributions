@@ -1,5 +1,7 @@
 # UC-EA-01 — Architecture-Validation Profile — Action-time Operating-Frame Requalification under Context Change — v0.3 — Frozen
 
+> **A/B/C/D reading reference.** Current definitions are in [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). Earlier four-pole labels in this source/profile are preserved for traceability; they do not define the current B/C boundary. The original requirements, fixtures and recorded results remain unchanged.
+
 Derived from TIDA — Delegated Authority OS under Context Change
 
 &nbsp;

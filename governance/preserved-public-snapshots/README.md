@@ -1,5 +1,9 @@
 # Preserved Public Snapshots
 
+> **Semantic history.** Snapshots preserve their original bytes and vocabulary. For current A/B/C/D use [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). The [alignment inventory](../ABCD_CANONICAL_ALIGNMENT_2026-10-02.md) lists the snapshots that contain earlier definitions; preservation does not make those definitions current.
+
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 > **Historical conservation only.** Files in this folder are exact Git-blob copies of earlier public repository states. They are preserved so that superseded, disconnected or reformulated information remains directly readable without relying on Git-history navigation. They are **not current canonical semantics**, do not override successors, and do not imply exact parity with controlled Google Drive revisions unless that parity is separately verified.
 
 ## Why this folder exists

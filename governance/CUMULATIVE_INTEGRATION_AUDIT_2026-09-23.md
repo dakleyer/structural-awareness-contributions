@@ -1,5 +1,7 @@
 # Cumulative Integration Audit — Ecosystem Awareness / Positioning — 23 September 2026
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 **Purpose:** double-check not only that prior corpus material still exists, but that a reader can understand how older foundation/principles/requirements/cases/tests relate to later Ecosystem Positioning, Regime Awareness, MSCA, ACC, signalling and FG-TIDA work without assuming that old snapshots already contain later developments.
 
 ## 1. Integration rule

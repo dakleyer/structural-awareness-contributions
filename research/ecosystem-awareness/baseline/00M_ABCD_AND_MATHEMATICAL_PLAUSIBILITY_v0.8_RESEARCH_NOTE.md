@@ -6,19 +6,23 @@ Given declared functional meanings and legitimate scope correspondences, limits 
 
 **Research note · v0.8 · 2 October 2026 · draft for external review.**
 
+**Semantic adoption — 2 October 2026.** Section 1 is the canonical A/B/C/D vocabulary for this EA/EP corpus. This adoption fixes terminology; the mathematical argument remains a research proposal and does not validate the architecture or change frozen requirements.
+
 This note develops an **argument for mathematical plausibility** of the scoped qualification and repositioning support proposed for Ecosystem Awareness (EA) / Ecosystem Positioning (EP). It connects those operations to established mathematical structures, identifies assumptions and gives limited examples and counterexamples. The representations, conditions and examples bound the research question; they do not provide a complete characterization.
 
 It does not prove full-system consistency, engineering feasibility, economic advantage, collective convergence or operational effectiveness. No formal Technology Readiness Level (TRL) is assigned by this note.
 
 Here, **scope** means the subject and boundaries of a particular question; an **observation window** is the part a process currently examines. **Assessability** means having enough variables and a defensible method to evaluate a specified aspect. **Requalification** means revising that assessment when its grounds or context change. A **profile** specifies the use case, eligible inputs, interpretation rules, scope and assumptions under which an operation is examined. These explanations orient the reader without prescribing an implementation.
 
-**How to read this note:** sections 1–2 define A/B/C/D and illustrate their differences. Sections 3–6 examine the four mechanisms and their mathematical limits; section 7 assesses the strength of the argument. The definitions are proposed as a common semantic basis for EA/EP; they are not presented as an established mathematical taxonomy. No prior knowledge of the project documentation is required.
+**How to read this note:** sections 1–2 define A/B/C/D and illustrate their differences. Sections 3–6 examine the four mechanisms and their mathematical limits; section 7 assesses the strength of the argument. The definitions are the common semantic basis adopted for this EA/EP corpus; they are not presented as an established mathematical taxonomy. No prior knowledge of the project documentation is required.
 
-## 1. Proposed canonical definitions: four different relations to one process
+<a id="abcd-canonical"></a>
+
+## 1. Canonical definitions: four different relations to one process
 
 Fix a **producer, functional process, question, subject/scope, capability and time**. Ask: what did that process deliver; what did it already establish about the basis and limits of its result; where does it have a credible but still uncharacterized route to explore; and what can affect it beyond its effective ability to determine? These are four *components of one qualified position*, not four mutually exclusive bins for objects, four required message fields or four probabilities. Change the process or the question and the same datum may change component. The components do not partition a closed universe or add up to 100%.
 
-The proposed canonical vocabulary pairs A/B/C/D with **active exploitation, characterized exploitation reserve, exploration frontier and residual uncertainty beyond effective evaluation**. These names describe the position of a process. The associated exploitation, evaluation and exploration functions are defined separately in §1.7: a reserve is not an activity, and evaluating an already characterized reserve differs from exploring an uncharacterized frontier. This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in the companion note.
+The canonical vocabulary pairs A/B/C/D with **active exploitation, characterized exploitation reserve, exploration frontier and residual uncertainty beyond effective evaluation**. These names describe the position of a process. The associated exploitation, evaluation and exploration functions are defined separately in §1.7: a reserve is not an activity, and evaluating an already characterized reserve differs from exploring an uncharacterized frontier. This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in the companion note.
 
 | Component | Practical reading | What distinguishes it |
 |---|---|---|

@@ -1,5 +1,7 @@
 # Recorrido probabilístico con aprendizaje social continuo — v0.1
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 2 de octubre de 2026. Sucesor aditivo del diagnóstico R123 v0.1, que no produjo una cascada. Modelo exploratorio estipulado, sin llamadas a modelos y sin blancos externos. No reproduce las tasas de un producto ni establece la causa histórica de Hugging Face. El paquete anterior y C3 permanecen intactos.
 
 ## Pregunta y alcance

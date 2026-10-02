@@ -1,5 +1,7 @@
 # Minimum Sufficient Control Architecture (MSCA) — Canonical Architecture
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 **Status:** canonical public working architecture, v0.1, 23 September 2026.
 
 **Canonical role:** this document defines the current generic MSCA architectural kernel, its semantic invariants and its extension contract. It supersedes no historical submission or source paper. It is not an adopted ITU-T architecture, recommendation, production certification, implementation API or proof of a universal/global minimum.
@@ -96,13 +98,13 @@ For an MSCA instance X_i(d,t):
 where:
 
 - **A_X — situated control scope / represented architecture:** the current S/E/C/P/M scope actually represented for this participant/decision, including version, locality/domain, effective assumptions and material provenance;
-- **B_X — confidence / directional support:** the strength and direction of evidence supporting the current MSCA position or a proposed change. This may include confidence/bounds on the current sufficiency claim or on a detected movement away from it. It does **not** replace the separate UNASSESSED/SUPPORTED/FAILED/UNRESOLVED assessment state;
-- **C_X — recognized current-capability frontier:** control/configuration information or alternatives that the participant could still establish, test or activate with its current sensing, computation, coordination, authority-request, human-review or other available capabilities, but has not yet established for the current decision;
-- **D_X — control residual:** control-relevant state, dependencies or alternatives outside the current represented/recognized-obtainable capability boundary, including compatibility or domain-extension residual where material.
+- **B_X — established basis and characterized control reserve:** support, bounds, validity limits and known assessable configuration/verification alternatives associated with A_X. Confidence is one possible qualifier, not the whole B_X. This does not replace the separate UNASSESSED/SUPPORTED/FAILED/UNRESOLVED assessment state;
+- **C_X — control exploration frontier:** grounded avenues toward discovering or characterizing control/configuration alternatives whose evaluation basis is not yet established. Known assessable tests, reviews or activation options left unused belong in B_X;
+- **D_X — control residual beyond effective evaluation:** potentially material effects or dependencies beyond this process's effective evaluation routes in the declared frame. An already characterized but uncontrollable factor is not D_X merely because it cannot be controlled.
 
 This makes an MSCA position **partial by design**. The system can know exactly which control architecture it currently represents without claiming that its control landscape is complete.
 
-A high B_X means strong support **inside A_X**. It does not eliminate C_X or D_X.
+A high confidence qualifier within B_X means strong support for the specified A_X assertion. It does not eliminate C_X or D_X.
 
 ### 3.2 Mechanical alignment with a Regime Awareness delta
 
@@ -121,11 +123,11 @@ The first architectural operation is a bounded projection:
 The minimum impact classes are:
 
 - **inside A_X:** the regime delta intersects currently represented S/E/C/P/M assumptions or capabilities; the affected MSCA support claim may require reassessment;
-- **inside C_X:** the delta points toward a recognized state/capability/configuration that could be determined or activated with current capability; this creates a candidate requalification or repositioning path;
+- **within B_X / toward C_X:** a characterized evaluation or activation option belongs to B_X; a grounded avenue that first needs exploration to establish its evaluation basis belongs to C_X. Either can motivate review, but C_X alone establishes neither reachability nor expected gain;
 - **into D_X:** the delta reaches beyond the current control-capability representation; the system must preserve the residual and may need discovery, signalling, human/owner input, a new extension/profile, containment or migration rather than fabricate a configuration;
 - **not materially coupled:** the delta is qualified but no represented dependency connects it to the current MSCA decision; no control change follows merely from observing change elsewhere.
 
-The **direction carried in A_RA** and the **confidence/intensity carried in B_RA** determine the strength of the local change pressure. A large, well-qualified directional delta creates a stronger candidate agentic gradient than a weak/noisy delta, but it still does not authorize action.
+The **direction carried in A_RA** and its **support qualified within B_RA** inform the strength of local change pressure under the declared profile. A large, well-qualified directional delta creates a stronger candidate agentic gradient than a weak/noisy delta, but it still does not authorize action.
 
 Only after this mechanical alignment do ACC/admissibility, authority/delegation, burden, timing and sufficiency determine which candidate transition may actually be pursued.
 
@@ -489,7 +491,7 @@ The [MSCA Ecosystem Composition & Control](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_C
 
 It distinguishes peer-MSCAs from legitimate higher-order composite MSCAs, allows representation to become progressively more deterministic near the focal role/process, and supplies bounded structural input to Ecosystem Awareness and Regime Awareness without creating a global controller.
 
-Composition & Control owns persistent Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` state. `A_Cart` is the represented map, `B_Cart` is element-wise confidence/intensity, `C_Cart` is the current capability/effort frontier for expanding or refining the map, and `D_Cart` is residual. It may update that cartography from participant-local epistemic movement, qualified `ReceivedSignals_i`, focal MSCA/Role changes, direct observations, freshness/expiry and RA feedback. Regime Awareness consumes the bounded qualified cartography/dependency neighbourhood and returns `Δ_RA` plus overlay/requalification indications; it does not become the persistent map owner.
+Composition & Control owns persistent Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` state. `A_Cart` is the represented map, `B_Cart` carries element-wise support and characterized assessment reserves, `C_Cart` carries grounded but uncharacterized exploration avenues, and `D_Cart` preserves material effects beyond effective evaluation. It may update that cartography from participant-local epistemic movement, qualified `ReceivedSignals_i`, focal MSCA/Role changes, direct observations, freshness/expiry and RA feedback. Regime Awareness consumes the bounded qualified cartography/dependency neighbourhood and returns `Δ_RA` plus overlay/requalification indications; it does not become the persistent map owner.
 
 ## 12. Architecture versus composition, role and operation
 

@@ -37,7 +37,7 @@ This document is now the **active 00G reference**. Earlier 00G files remain avai
 | **00G-A01** | OpenAI OAI-G0 / OAI-G1 / OAI-G2 implementation trajectories; documented substrate mapping; compaction/source-dependence metamorphic test; matched implementation tests; official-source boundary |
 | **v0.4 visual pass** | seven non-normative diagrams separating control frame, message topology, evidence provenance, A/B/C/D, branch oracle, gate logic and OpenAI implementation/drift surfaces |
 
-**Conflict rule.** Where earlier wording was corrected by a later version, the corrected v0.4 semantics control. Preserving lineage does not mean reactivating obsolete definitions. In particular, the v0.1 A/B/C/D wording and its early sender-confidence/Type-2 phrasing remain historical only; §§4 and 7 below are controlling.
+**Conflict rule.** Where earlier wording was corrected by a later version, the v0.4 fixture controls; A/B/C/D meanings follow the linked 00M definition and the explicit 2 October alignment below. Preserving lineage does not mean reactivating obsolete definitions. In particular, the v0.1 A/B/C/D wording and its early sender-confidence/Type-2 phrasing remain historical only; §§4 and 7 below are controlling.
 
 **Reading routes.**
 - **Scenario and mechanism:** §§1–8.
@@ -125,18 +125,18 @@ The core test is not whether the narrative is absurd. It is whether the architec
 
 ## 4. Qualified A/B/C/D position in the scenario
 
-The v0.2 fixture uses the canonical four-part reading:
+The fixture is read using [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). The 2 October semantic alignment changes these explanatory labels, not the fixture, authority rule, oracle, comparators, gates or results:
 
-- **A — what is sufficiently established now for this receiving decision;**
-- **B — how strongly that A-state is determined / the applicable confidence or assurance;**
-- **C — what could still be established using the capacity currently available, if more time, processing, observation, corroboration or human effort were allocated;**
-- **D — the residual outside that currently available capacity, including what cannot presently be established as knowable.**
+- **A — the result actually delivered for the declared receiving process and question;**
+- **B — established support, limits and known assessable verification reserve;**
+- **C — grounded exploratory avenues whose evaluation basis is not yet established;**
+- **D — potentially material effects beyond effective evaluation routes in the declared frame.**
 
 The four positions are non-fungible. A persuasive external assertion is **not automatically A** merely because it is represented in state.
 
 ![Figure 2 — Decision-scoped A/B/C/D](./assets/00G/3_abcd_decision_state.svg)
 
-**Figure 2 — Decision-scoped A/B/C/D.** The existence of N's message may be sufficiently established in A while the truth or applicability of the Napoleonic proposition remains unresolved. B qualifies determination around A; C records what can still be established with **currently available** capacity; D preserves the residual outside that capability.
+**Figure 2 — Decision-scoped A/B/C/D.** The existence of N's message may be an A result while the truth or applicability of its proposition remains unresolved. B retains support and characterized verification reserves. C concerns exploratory avenues lacking an evaluation basis; D concerns effects beyond effective evaluation.
 
 ### A — sufficiently established now
 
@@ -149,7 +149,7 @@ For receiver R, candidate A-state includes:
 
 The proposition "France under Napoleon" remains an **external attributed claim** unless the receiving decision has sufficient evidence to establish it. The fact that the claim exists can be A; its truth need not be.
 
-### B — determination / assurance around A
+### B — established support and characterized verification reserve
 
 Examples:
 
@@ -159,7 +159,7 @@ Examples:
 - repeated claims inherited from N do not increase source independence merely through repetition;
 - claimed authority remains bounded by the accepted authority/trust references.
 
-### C — what can still be known with current capacity
+#### Known verification reserve within B
 
 Examples:
 
@@ -170,7 +170,11 @@ Examples:
 - sample independent peers;
 - compare the claim with the current objective/profile and known revalidation conditions.
 
-C is not "resources we wish we had." It is the decision-relevant knowledge reachable with **currently available** time, observation, compute and human capacity.
+These checks belong to B when their question, variables and evaluation route are characterized. Availability of time, observation, compute or human capacity alone does not establish an exploration frontier.
+
+### C — grounded exploration without an established evaluation basis
+
+A suspected unfamiliar dependency behind the narrative may motivate exploration before suitable variables or a comparison method are identified. That avenue may be C; the list of known checks above is not C merely because those checks have not run.
 
 ### D — residual beyond current capability
 
@@ -495,7 +499,7 @@ Report per branch and configuration:
 - **Time to qualified transition:** elapsed time from material Branch-G frame change to a qualified, authorized transition or governed reposition/re-contract step.
 - **Time to recovery / re-grounding:** elapsed time from first material false-frame contamination/drift signal to restoration of the oracle-valid frame/posture on applicable Branch-F runs.
 - **Useful response margin:** declared deadline minus time to the qualified disposition/posture.
-- **Time spent in B/C before resolution:** elapsed time in unresolved/obtainable qualification states, reported with branch and stop rule.
+- **Time spent in B/C before resolution:** retain the original diagnostic name and branch/stop rule; its source “unresolved/obtainable” states are not the current B/C definition. A future implementation must distinguish characterized B evaluation from C exploration before reporting this diagnostic under 00M semantics.
 - **Signalling / verification burden:** messages, verification calls, tool calls, compute/tokens, waiting time and human-review demand per run.
 - **Privacy / disclosure cost:** fields/bytes/categories disclosed beyond the minimum declared interface, where measurable.
 - **Peer-message / independent-evidence ratio:** peer messages observed ÷ materially independent evidence paths established; descriptive, not itself a pass/fail KPI.

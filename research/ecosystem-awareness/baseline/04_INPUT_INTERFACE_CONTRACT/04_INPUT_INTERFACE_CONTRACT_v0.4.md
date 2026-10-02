@@ -1,10 +1,14 @@
 <!-- Approved v0.4 Word body reproduced below in document order. -->
 
+> **Identificador de esta enmienda semántica: `ABCD-00M08-2026-10-02`.** Conforme a N11, un perfil que usaba C para una opción evaluable omitida necesita correspondencia y versión explícitas antes de reutilizarse. Esta edición documental no convierte los envíos antiguos ni reinterpreta sus versiones por semejanza. Las 176 filas se conservan como mapa condicionado, no como 176 clasificaciones ya verificadas bajo el marco nuevo.
+
+> **Alineación semántica — 2 de octubre de 2026.** La definición pertenece a [00M §1](../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). Esta revisión ajusta B/C en la guía y condiciona las correspondencias existentes; conserva las 176 entradas, familias e identificadores. El Word y el diagrama exportados antes de esta fecha son versiones históricas: sus atajos sobre «opción omitida = C» no gobiernan la clasificación actual. No se afirma una nueva ejecución de los casos analíticos.
+
 **04 · Punto de inicio para el trabajo sobre interfaces de entrada**
 
 [Volver a 04](../04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) · [Índice del corpus](../README.md) · [Descargar Word v0.4](./04_Contrato_interfaces_entrada_EA_v0.4.docx) · [Pendientes de integración](../04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#11-input-interface-contract-working-starting-point--30-september-2026)
 
-Este contrato forma parte de la línea **04**, independiente de programas o dominios. Es el punto de partida publicado para acordar los inputs de Ecosystem Awareness: define A/B/C/D, conserva la información ya producida y descompone las 176 entradas revisadas. Los outputs de EA quedan fuera de esta versión.
+Este contrato forma parte de la línea **04**, independiente de programas o dominios. Es el punto de partida publicado para acordar los inputs de Ecosystem Awareness: aplica la definición canónica de [00M §1](../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical), conserva la información ya producida y descompone las 176 entradas revisadas. Los outputs de EA quedan fuera de esta versión.
 
 **Estado:** contrato ideal y propuesta de integración en revisión. Su incorporación al repositorio no resuelve por sí sola H06: la exclusión de A en esta ruta debe reconciliarse con el núcleo EHD y con los usos de F9 que hoy consumen resultados. Las correspondencias O2 también requieren explicitar los componentes C/D señalados en su ejemplo. El baseline 04 v0.5 mantiene su estado; este contrato no lo sustituye silenciosamente.
 
@@ -73,7 +77,7 @@ Para entender el propósito: apertura, diagrama y ejemplos. Para acordar una int
 
 [Diagrama vectorial](./assets/marco_clasificacion_es.svg)
 
-Adaptación al español del diagrama de clasificación aportado en la revisión externa. Resume el contrato; las condiciones de admisión y parcialidad se desarrollan en §§1–6 y N13.
+Adaptación al español del diagrama de clasificación aportado en la revisión externa. Es un export anterior a la enmienda semántica `ABCD-00M08-2026-10-02`: para B/C prevalecen [00M §1](../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) y las definiciones corregidas abajo. Las condiciones de admisión y parcialidad se desarrollan en §§1–6 y N13.
 
 ## 1 Marco de clasificación y cuadrante
 
@@ -82,8 +86,8 @@ Toda clasificación se refiere a un productor, un proceso funcional, un resultad
 | Papel | Definición contractual | Qué debe quedar claro |
 | --- | --- | --- |
 | A | Producto funcional que el proceso entrega a su consumidor. Incluye confianza, intervalo, decisión o estado cuando forman parte de ese producto. | Se describe su clase y se enlaza su evento. Su valor no se transmite en esta entrada. |
-| B | Calificación sobre A: significado, método, soporte, cobertura, validez y límites ya establecidos. | Objeto y alcance de la calificación, base existente y semántica propia del dominio. |
-| C | Posibilidad reconocida de ampliar la observación, comprobación o revisión, cuya aportación sigue sin caracterizarse suficientemente y que se decidió no examinar dentro de una vía reconocida. | Qué se dejó sin examinar, qué vía existía y qué razón ya consta para no hacerlo. |
+| B | Base, límites y reserva de explotación caracterizada: soporte de A y cuestiones adicionales con variables y vía de evaluación suficientemente establecidas, aunque no se evalúen. | Objeto, alcance, método y estimaciones realmente defendibles; una opción evaluable omitida por coste o política sigue siendo B. |
+| C | Frontera de exploración: posibilidad fundamentada de llegar a evaluar un aspecto cuyo marco, variables o método de evaluación aún no están suficientemente caracterizados. | Indicio y vía de exploración; no se presupone conocer coste total, factibilidad ni beneficio. Un motivo de omisión, si existe, se conserva, pero no define C. |
 | D | Dependencia o condición relevante reconocida cuya afectación queda sin caracterizar suficientemente porque rebasa la frontera efectiva de determinación declarada por el proceso. | Qué dependencia, qué afectación posible, qué límite impide determinarla y qué razón consta. El control operativo se declara aparte. |
 
 ### Contenido funcional y sobre de intercambio
@@ -92,7 +96,7 @@ A se define por su función y por el contrato de entrega. Adjuntar B/C/D al mism
 
 ### Unidad mínima y solapamientos
 
-Se clasifica una afirmación sobre un aspecto y ámbito concretos. Una entrada puede contener varias: cobertura establecida B, opción omitida C y dependencia fuera de alcance D. Se separan y enlazan. B puede referenciar C/D; no hace falta copiar sus contenidos ni contarlos dos veces. Una lista vacía no demuestra que el cuadrante esté agotado.
+Se clasifica una afirmación sobre un aspecto y ámbito concretos. Una entrada puede contener varias: cobertura y reserva evaluable B, frontera exploratoria sin caracterizar C y efecto fuera de evaluación efectiva D. Se separan y enlazan. B puede referenciar C/D; no hace falta copiar sus contenidos ni contarlos dos veces. Una lista vacía no demuestra que el cuadrante esté agotado.
 
 Enlace, configuración y pendiente no son nuevos cuadrantes: indican, respectivamente, soporte del intercambio, gobierno del receptor y falta de base para clasificar. No deben forzarse a B/C/D.
 
@@ -107,7 +111,7 @@ Las preguntas se aplican al contenido de cada entrada y al perfil acordado. Una 
 | Q2 | ¿Es enlace técnico o una instrucción de gobierno para EA? | Separar soporte/configuración; no atribuirles categoría epistemológica automática. |
 | Q3 | ¿Qué parte del significado, soporte o límite de A ya está establecida? | B: preservar objeto, base, alcance y estado de verificación. |
 | Q4 | ¿Qué cuestión reconocida sigue sin caracterizarse suficientemente? | Separar esa cuestión de lo ya conocido; no borrar C/D por una estimación parcial. |
-| Q5 | ¿Había una vía reconocida de examen y se decidió no usarla? | C: cuestión, vía y motivo de exclusión; el motivo puede no haberse registrado. |
+| Q5 | ¿La evaluación ya tiene variables y método caracterizados, o sólo hay una vía fundamentada para explorar hacia ellos? | Lo primero es reserva B aunque no se use; lo segundo puede ser C. La omisión y su motivo no bastan para clasificar. |
 | Q6 | ¿La dependencia rebasa la frontera efectiva de determinación? | D: dependencia, posible afectación, frontera y motivo; no inferirlo de externalidad. |
 | Q7 | ¿Se conoce la frontera y consta la razón aplicable al caso? | Si no: clasificación pendiente o declaración parcial. No inventar ni reconstruir. |
 | Q8 | ¿La información existe antes de pedir el handoff? | Admisible por origen, o no disponible/no generada/restringida según lo conocido. |
@@ -130,9 +134,9 @@ El handoff NO DEBE transportar A ni un sustituto que reproduzca su resultado fun
 
 B DEBE indicar qué aspecto de A califica y conservar su constructo, base y alcance existentes. No se exige probabilidad numérica, muestra representativa ni metaconfianza recursiva. La suficiencia se interpreta mediante el criterio de dominio declarado en el perfil; recibir una declaración no equivale a verificarla.
 
-### N04 Conservar las posibilidades no examinadas
+### N04 Conservar la frontera de exploración
 
-C DEBE describir la posibilidad reconocida y la vía de examen que sitúa esa posibilidad dentro de la capacidad declarada. Debe conservar el motivo existente de no examinarla. Una lista de herramientas o una capacidad humana disponible no basta. La decisión de no asignar un recurso disponible no se convierte automáticamente en imposibilidad D.
+C DEBE describir la posibilidad fundamentada y qué base de evaluación sigue sin establecerse. Debe conservar los indicios de una vía de exploración y el motivo de no examinarla si ya consta, sin inventar costes o beneficios de la frontera. Una herramienta disponible no basta; una cuestión con variables y método caracterizados permanece en B aunque una regla impida dedicarle más recursos. Esa decisión tampoco convierte por sí sola el aspecto en D.
 
 ### N05 Conservar la frontera de determinación
 
@@ -201,7 +205,7 @@ Las referencias de identidad, correlación y versión sostienen el intercambio; 
 | No aplicable | Es una determinación con objeto/ámbito y base. No equivale a dato ausente; puede ser A si ése es el veredicto funcional. |
 | Versión o base desconocida | No interpretar con otro perfil ni reconstruir un delta. Retención limitada por las reglas de divulgación. |
 | B pasa a integrar A | Nuevo perfil: el valor deja de entrar por B. Identificar qué calificación adicional, si existe, sigue fuera de A. |
-| C se examina o D gana acceso | Conservar situación anterior. Lo determinado pasa a A/B según contrato; lo aún no examinado puede ser C en el nuevo marco. |
+| C se explora o D gana acceso | Conservar situación anterior. Una base de evaluación establecida habilita B; la evaluación realizada puede producir A. C requiere una frontera exploratoria todavía sin esa base, no la mera falta de examen. |
 | Se supera la carga acordada | Aplicar la regla declarada de pérdida, diferimiento o rechazo y conservar su visibilidad cuando sea posible. No afirmar entrega completa. |
 
 ### Tres cierres diferentes
@@ -222,14 +226,14 @@ Supuesto de perfil: el motor entrega un veredicto operativo A. El registro inter
 | --- | --- |
 | O3.01 operational result/closure | A excluido. Sólo referencia y clase del veredicto. |
 | IF-S5.03 checks performed or profile/version | B: cobertura de checks y perfil usados. No incluir sus veredictos si integran A. |
-| IF-S5.08 limitations or checks not performed | B: límite de cobertura conocido. C: primer check + vía disponible + regla aplicada. D: dependencia del segundo + límite de acceso + razón. |
+| IF-S5.08 limitations or checks not performed | B: límite de cobertura conocido. B: primer check pendiente si su pregunta y método están caracterizados; C sólo si falta esa base y existe vía exploratoria. D: dependencia del segundo + límite de acceso + razón. |
 | O3.06 unresolved dependencies | No clasificar todo como D: mantener la separación anterior y su objeto. |
 
 ### IF S2 y evolución de autorización delegada
 
-Supuesto de perfil: A es la decisión de autorización y EA no recibe permit/deny ni un código equivalente. B identifica la política y cobertura de validación. Una consulta de estado accesible no realizada por una regla nativa constituye C si su aportación sigue sin caracterizarse. Una revocación de origen relevante sin vía de conocimiento en ese despliegue constituye D.
+Supuesto de perfil: A es la decisión de autorización y EA no recibe permit/deny ni un código equivalente. B identifica la política y cobertura de validación. Una consulta de estado con pregunta y método caracterizados es reserva B aunque una regla impida realizarla. Sólo una vía exploratoria cuya base de evaluación no esté establecida puede ser C; desconocer el resultado de la consulta no basta. Una revocación de origen relevante sin vía de conocimiento en ese despliegue constituye D.
 
-Si posteriormente existe un canal de consulta, la misma dependencia puede pasar de D a C mientras no se examine, y su caracterización puede pasar a B o integrarse en A. No cambia la familia IF-S2; cambian el perfil, el momento y las premisas. Una nueva instrucción de revocar sería un resultado/mandato operativo y queda fuera de este contrato de inputs.
+Si posteriormente existe un canal de consulta, el aspecto puede pasar de D a B si el canal establece una evaluación caracterizada, o a C si sólo abre una vía exploratoria. La evaluación realizada puede producir A para su proceso; la falta de ejecución no decide entre B y C. No cambia la familia IF-S2; cambian el perfil, el momento y las premisas. Una nueva instrucción de revocar sería un resultado/mandato operativo y queda fuera de este contrato de inputs.
 
 ### El motivo forma parte de lo que se conserva
 
@@ -239,17 +243,17 @@ Si posteriormente existe un canal de consulta, la misma dependencia puede pasar 
 
 ### IF S9 una estimación parcial no elimina lo desconocido
 
-Supuesto de perfil: el informe A incluye estimación e intervalo. Ambos valores quedan fuera de la entrada EA. B conserva método, población y límites que no formen parte del producto. Si se conoce una subpoblación sin caracterización suficiente y se decidió no muestrearla dentro de una vía reconocida, C conserva esa exclusión y motivo. Una fuente externa sin acceso para determinar su sesgo puede dar lugar a D.
+Supuesto de perfil: el informe A incluye estimación e intervalo. Ambos valores quedan fuera de la entrada EA. B conserva método, población y límites que no formen parte del producto. Una subpoblación con variables y método de muestreo caracterizados pertenece a la reserva B aunque no se muestree. C requiere una vía exploratoria hacia un marco de evaluación todavía no establecido; conocer la existencia de una subpoblación no decide por sí solo su papel. Una fuente externa sin acceso para determinar su sesgo puede dar lugar a D.
 
 Una estimación existente de “30% de utilidad” es A o B según el producto. Sólo elimina la falta de caracterización del aspecto que realmente estima. No borra una fuente o subpoblación distinta que el modelo no cubre. Tampoco hay obligación de producir un intervalo sobre otro intervalo: B preserva la base adicional que ya exista.
 
 ### O5 e IF S7 inspección de una pieza
 
-Supuesto de perfil: A es la aceptación/rechazo de la pieza. B puede describir calibración y cobertura ya registradas. C puede describir una posición conocida no medida y la regla de inspección que la excluyó. D puede describir una condición anterior del material reconocida como influyente pero sin trazabilidad ni vía de caracterización. Una temperatura no controlada cuyo efecto está medido pertenece a la parte caracterizada A/B.
+Supuesto de perfil: A es la aceptación/rechazo de la pieza. B puede describir calibración y cobertura ya registradas. Una posición conocida con método de inspección caracterizado pertenece a B aunque no se mida. C puede describir una vía para descubrir un factor de calidad cuyo marco de evaluación todavía falte. D puede describir una condición anterior del material reconocida como influyente pero sin trazabilidad ni vía de caracterización. Una temperatura no controlada cuyo efecto está medido pertenece a la parte caracterizada A/B.
 
 ### IF S6 capacidad humana y revisión omitida
 
-Supuesto de perfil: A es la decisión del revisor. El estado de capacidad que limitó la revisión puede ser B si ya se conoce y queda fuera de A. C es la segunda consulta reconocida que no se hizo y su motivo registrado, no el estado available/binding/unavailable por sí solo. D puede ser una dependencia institucional cuyo efecto no se puede examinar dentro del mandato.
+Supuesto de perfil: A es la decisión del revisor. El estado de capacidad que limitó la revisión puede ser B si ya se conoce y queda fuera de A. Una segunda consulta con base de evaluación caracterizada permanece en B aunque no se haga; C requiere una frontera exploratoria aún sin esa base. El estado available/binding/unavailable no determina el papel. D puede ser una dependencia institucional cuyo efecto no se puede examinar dentro del mandato.
 
 Si el productor observado es otro proceso que evalúa capacidad humana y entrega available/binding/unavailable, ese estado es su A. El cambio de marco debe ser explícito; no se utiliza para introducir un resultado en EA por otra interfaz.
 
@@ -266,12 +270,12 @@ En este supuesto, la traza nativa registra el catálogo consultado, la fecha de 
 | Pieza | Qué recibe EA | Base que ya existía |
 | --- | --- | --- |
 | B | Origen y fecha del catálogo; alcance de las verificaciones realizadas y límites de las capacidades autodeclaradas. | Traza de consulta y perfil de verificación. No equivale a corroboración independiente. |
-| C | Catálogo complementario reconocido, vía accesible y regla aplicada para no consultarlo; aportación sin caracterizar. | Registro de exclusión con vínculo a la regla que se aplicó. |
+| B — reserva; C sólo si falta el marco de evaluación | Catálogo complementario reconocido, vía accesible y regla aplicada para no consultarlo. Si pregunta y método están caracterizados, es B aunque se desconozca el resultado o no se haya estimado utilidad; C exige una vía exploratoria aún sin esa base. | Registro de exclusión con vínculo a la regla aplicada; declarar qué base de evaluación existe. |
 | D | Dependencia del estado real del servicio y límite que impide determinarlo dentro de este despliegue. | Declaración de frontera en el perfil y restricción de acceso documentada. |
 
 ### Correspondencia con las entradas de 04
 
-O2.01–O2.03 separan la selección y el endpoint de sus referencias; O2.06–O2.07 sitúan fuente, tiempo, procedencia y soporte. Las siete entradas actuales de O2 no enumeran expresamente el catálogo omitido y su motivo ni toda dependencia fuera de alcance. El perfil necesita declarar esos componentes C/D como ampliación propuesta de la entrada O2, con su fuente nativa; no darlos por pedidos ya ni ocultarlos bajo un campo genérico de confianza.
+O2.01–O2.03 separan la selección y el endpoint de sus referencias; O2.06–O2.07 sitúan fuente, tiempo, procedencia y soporte. Las siete entradas actuales de O2 no enumeran expresamente el catálogo omitido y su motivo ni toda dependencia fuera de alcance. El perfil necesita declarar esa reserva B, la eventual frontera C y la dependencia D como ampliación propuesta de la entrada O2, con su fuente nativa; no darlos por pedidos ya ni ocultarlos bajo un campo genérico de confianza.
 
 ### Cuándo cambiaría la clasificación
 
@@ -398,7 +402,7 @@ Los casos X41–X44 son comprobaciones analíticas del contrato. No son ejecucio
 
 **Proceso y A de referencia: Plan, decisión de orquestación o estado operativo entregado al ejecutor.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 ### Contexto y límites de la misión
 
@@ -409,7 +413,7 @@ Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del 
 | O1.03 · L313<br>criticality/stakes and reversibility; | B: criticidad y reversibilidad consideradas al producir A. Configuración: umbrales fijados directamente para EA se declaran aparte. |
 | O1.04 · L315<br>ecosystem sensitivity/exposure and consequence severity by material domain where available; | B: exposición y severidad ya caracterizadas, con dominio y método. D: sólo la dependencia reconocida cuyo efecto no pudo caracterizarse fuera de alcance. |
 | O1.05 · L317<br>tolerated residual / decision-risk tolerance where defined; | B: referencia a la tolerancia aplicada a A. Configuración: establecer una tolerancia nueva es una decisión de gobierno; no medirla ni deducirla desde EA. |
-| O1.06 · L319<br>available observation/determination budget or capacity constraints at the orchestration level; | B: presupuesto o límite que acotó la determinación. C: examen concreto omitido por ese límite y su razón; la cifra de presupuesto sola no es C. |
+| O1.06 · L319<br>available observation/determination budget or capacity constraints at the orchestration level; | B: presupuesto o límite que acotó la determinación. C (si falta la base de evaluación y hay vía exploratoria): examen concreto omitido por ese límite y su razón; la cifra de presupuesto sola no es C. |
 | O1.07 · L321<br>expected workflow or dependency graph at the needed abstraction level; | B: referencia al grafo usado y cobertura de dependencias. A: el plan/grafo si es el producto funcional. D: dependencia concreta fuera del alcance de determinación. |
 | O1.08 · L323<br>deadlines/time horizon; | B: horizonte de validez de A y plazo que condicionó su elaboración, diferenciados. Configuración: plazo impuesto a EA por su propio mandato. |
 
@@ -419,7 +423,7 @@ Continuación del mismo perfil O1. A sigue siendo el plan, decisión o estado op
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
-| O1.09 · L325<br>available fallback/containment/recovery/migration capabilities; | B: catálogo de capacidades considerado. C: comprobación posible no realizada y su motivo. A: selección de fallback o instrucción operativa; capacidad no equivale a C. |
+| O1.09 · L325<br>available fallback/containment/recovery/migration capabilities; | B: catálogo de capacidades considerado. C (si falta la base de evaluación y hay vía exploratoria): comprobación posible no realizada y su motivo. A: selección de fallback o instrucción operativa; capacidad no equivale a C. |
 | O1.10 · L327<br>current task state and material changes to the workflow; | A: estado operativo de la tarea. B: cambio del contexto que invalida o limita la interpretación de A, sin copiar el estado bajo otro nombre. |
 | O1.11 · L329<br>relevant authority/policy references. | B: referencia/versiones de autoridad y política utilizadas, sin transportar una concesión de autoridad ni afirmar su vigencia fuera del ámbito comprobado. |
 | O1.12 · L331<br>decision/operation reference and commitment state where the workflow moves from recommendation, negotiation or reservation to commitment or execution; | Enlace: operación y antecesor. A: compromiso, reserva o ejecución como resultado. B: semántica y alcance de las comprobaciones de compromiso. |
@@ -432,7 +436,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Resultado de descubrimiento o perfil de capacidad entregado al solicitante.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -450,18 +454,18 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Respuesta, cierre o resultado funcional del runtime.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
 | O3.01 · L429<br>operational result/closure; | A: resultado/cierre. Excluir su valor de esta entrada; conservar únicamente el enlace y la definición de su clase. |
-| O3.02 · L431<br>EHD or equivalent local epistemic state; | B: significado, base y límites. C: posibilidad reconocida no examinada y razón. D: dependencia fuera de alcance y razón. Descomponer el EHD; su nombre no clasifica su contenido. |
+| O3.02 · L431<br>EHD or equivalent local epistemic state; | B: significado, base y límites. C (si falta la base de evaluación y hay vía exploratoria): posibilidad reconocida no examinada y razón. D: dependencia fuera de alcance y razón. Descomponer el EHD; su nombre no clasifica su contenido. |
 | O3.03 · L433<br>model/runtime identity or version where material; | B: identidad/versiones del método que produjo A; enlace al perfil estable, sin presuponer equivalencia de versiones. |
 | O3.04 · L435<br>local determination/indeterminate state; | A: determined/indeterminate si es el resultado funcional. B: semántica del estado y qué comprobaciones lo sustentan, cuando no integran A. |
 | O3.05 · L437<br>uncertainty semantics and method/reference where available; | B: constructo de incertidumbre y método/referencia sobre A. A: valor de confianza ya incluido en A. No fabricar una confianza de segundo orden. |
-| O3.06 · L439<br>unresolved dependencies; | B: aspecto de la dependencia ya caracterizado. C: pregunta pendiente examinable. D: pregunta fuera de alcance. Pendiente: unresolved sin evidencia de cuál de las dos fronteras aplica. |
-| O3.07 · L441<br>local capacity-binding state; | B: límite de capacidad que acotó A. C: posibilidad concreta no examinada por ese límite. El estado binding solo no acredita C ni D. |
-| O3.08 · L443<br>local scope/window descriptor and selection basis; | B: ventana incluida y regla de selección. C: exclusión reconocida ampliable sin aportación caracterizada. D: dependencia excluida no determinable dentro de la frontera. |
+| O3.06 · L439<br>unresolved dependencies; | B: aspecto de la dependencia ya caracterizado. C (si falta la base de evaluación y hay vía exploratoria): pregunta pendiente examinable. D: pregunta fuera de alcance. Pendiente: unresolved sin evidencia de cuál de las dos fronteras aplica. |
+| O3.07 · L441<br>local capacity-binding state; | B: límite de capacidad que acotó A. C (si falta la base de evaluación y hay vía exploratoria): posibilidad concreta no examinada por ese límite. El estado binding solo no acredita C ni D. |
+| O3.08 · L443<br>local scope/window descriptor and selection basis; | B: ventana incluida y regla de selección. C (si falta la base de evaluación y hay vía exploratoria): exclusión reconocida ampliable sin aportación caracterizada. D: dependencia excluida no determinable dentro de la frontera. |
 | O3.09 · L445<br>inherited upstream uncertainty. | B: soporte heredado con origen, alcance y método. C/D: conservar exclusiones upstream con su marco original; no adoptarlas como capacidad propia sin revisión. |
 
 Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El texto original se conserva íntegro; las correspondencias son propuestas del perfil ideal, no afirmaciones de disponibilidad real.
@@ -470,20 +474,20 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Selección recuperada, respuesta o estado de memoria entregado al proceso solicitante.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
-| O4.01 · L486<br>available source/resource classes; | B: clases de fuentes cubiertas o disponibles según el perfil. C: fuente reconocida no explorada y motivo; catálogo de fuentes solo no es C. |
+| O4.01 · L486<br>available source/resource classes; | B: clases de fuentes cubiertas o disponibles según el perfil. C (si falta la base de evaluación y hay vía exploratoria): fuente reconocida no explorada y motivo; catálogo de fuentes solo no es C. |
 | O4.02 · L488<br>retrieved evidence identifiers and scope; | Enlace: referencia a evidencia sin recuperar su contenido. B: alcance examinado. A: identificadores seleccionados si constituyen el resultado funcional de la consulta. |
 | O4.03 · L490<br>provenance/source relationship where available; | B: procedencia y relación con la fuente; distinguir fuente original, intermediario y autor de la calificación. |
 | O4.04 · L492<br>freshness/cache state; | B: fecha del soporte, estado de caché y límites de frescura que califican A. No reiniciar la vigencia al reenviar. |
 | O4.05 · L494<br>session/checkpoint/persistent-state identity, version and resumability where used; | Enlace: identidad/versión del estado. B: alcance y base de la reanudabilidad. A: checkpoint/contenido o veredicto de reanudación si ése es el producto. |
-| O4.06 · L496<br>retrieval/search bounds and stopping criteria; | B: límites de búsqueda y regla de parada aplicada. C: vía reconocida dejada sin examinar y motivo concreto de parada; no inferir beneficio esperado. |
+| O4.06 · L496<br>retrieval/search bounds and stopping criteria; | B: límites de búsqueda y regla de parada aplicada. C (si falta la base de evaluación y hay vía exploratoria): vía reconocida dejada sin examinar y motivo concreto de parada; no inferir beneficio esperado. |
 | O4.07 · L498<br>retrieval/search latency, compute/token, bandwidth, monetary or other resource burden where available and decision-material; | B: carga de recuperación ya medida y ámbito de la medida. A: métrica si el productor observado es quien la entrega como resultado de medición. |
-| O4.08 · L500<br>coverage or known exclusion information where available; | B: cobertura determinada. C: exclusión examinable no caracterizada. D: dependencia excluida fuera de alcance. Separar cobertura, lista y razón. |
+| O4.08 · L500<br>coverage or known exclusion information where available; | B: cobertura determinada. C (si falta la base de evaluación y hay vía exploratoria): exclusión examinable no caracterizada. D: dependencia excluida fuera de alcance. Separar cobertura, lista y razón. |
 | O4.09 · L502<br>source-dependency/duplication indications; | B: dependencia/duplicación conocida entre fuentes. No contar copias como confirmación independiente ni ausencia de indicador como independencia. |
-| O4.10 · L504<br>access limitations or unavailable sources. | B: restricción de acceso conocida. C: fuente examinable no consultada por decisión de asignación. D: fuente relevante sin vía autorizada disponible; no confundir ocultación al receptor con inaccesibilidad al productor. |
+| O4.10 · L504<br>access limitations or unavailable sources. | B: restricción de acceso conocida. C (si falta la base de evaluación y hay vía exploratoria): fuente examinable no consultada por decisión de asignación. D: fuente relevante sin vía autorizada disponible; no confundir ocultación al receptor con inaccesibilidad al productor. |
 
 Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El texto original se conserva íntegro; las correspondencias son propuestas del perfil ideal, no afirmaciones de disponibilidad real.
 
@@ -491,7 +495,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Resultado de herramienta o estado de ejecución entregado a su consumidor.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -501,7 +505,7 @@ Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del 
 | O5.04 · L554<br>read/write/reversibility and material impact characteristics where available; | B: propiedades de lectura/escritura, reversibilidad e impacto ya conocidas y aplicadas a A. D: efecto reconocido no caracterizable fuera de alcance, si consta. |
 | O5.05 · L556<br>authorization scope and relevant policy/mandate reference; | B: referencia al alcance de autorización comprobado y al mandato aplicado. A: concesión/denegación si se observa el autorizador; no conceder autoridad desde el descriptor. |
 | O5.06 · L558<br>error/failure/partial-completion state; | A: fallo o completitud parcial si integran el resultado. B: cobertura y límites de su comprobación; separar causa conocida de veredicto. |
-| O5.07 · L560<br>side-effect confirmation or indeterminate execution outcome; | A: confirmación de efecto o ejecución indeterminada. B: método/alcance de confirmación. C: verificación omitida examinable. D: efecto externo sin vía de comprobación. |
+| O5.07 · L560<br>side-effect confirmation or indeterminate execution outcome; | A: confirmación de efecto o ejecución indeterminada. B: método/alcance de confirmación. C (si falta la base de evaluación y hay vía exploratoria): verificación omitida examinable. D: efecto externo sin vía de comprobación. |
 | O5.08 · L562<br>latency/availability/capacity state; | B: latencia, disponibilidad o capacidad consideradas como límites de A. A: esas medidas si son el producto funcional observado. C exige un examen concreto omitido. |
 | O5.09 · L564<br>provenance of returned data where available. | B: procedencia de los datos devueltos; sólo referencias y calificación, sin reenviar los datos de A. |
 | O5.10 · L566<br>shared resource-time segment and competing operation/directive reference where the action can collide with another legitimate action. | Enlace: recurso, intervalo y operación en conflicto. B: relación de dependencia conocida. A: instrucción competidora; no transportar su contenido ni resolver precedencia. |
@@ -512,7 +516,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Resultado funcional del productor original; el transportista conserva ese marco.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -530,14 +534,14 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Afirmación de identidad, autenticación o binding entregada al consumidor.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
 | IF-S1.01 · L662<br>authenticated subject/agent/service identifier; | Enlace: referencia al sujeto con mínima identificación. A: identidad autenticada como resultado; no copiar sus atributos al descriptor. |
 | IF-S1.02 · L664<br>principal/binding claim when available; | A: afirmación principal/binding. B: relación examinada y límites de validación, sin reenviar la afirmación funcional. |
 | IF-S1.03 · L666<br>authentication assurance/context; | B: método, contexto y significado de assurance fuera de A. A: nivel de assurance si ya integra el resultado contractual. |
-| IF-S1.04 · L668<br>credential validity/freshness/revocation status; | A: validez/revocación como veredicto nativo. B: fecha, método y cobertura de la consulta. C: consulta posible omitida. D: revocación relevante sin vía disponible. |
+| IF-S1.04 · L668<br>credential validity/freshness/revocation status; | A: validez/revocación como veredicto nativo. B: fecha, método y cobertura de la consulta. C (si falta la base de evaluación y hay vía exploratoria): consulta posible omitida. D: revocación relevante sin vía disponible. |
 | IF-S1.05 · L670<br>binding scope and validity interval; | B: ámbito y validez del examen de binding. A: ámbito/intervalo del binding concedido si forman parte de su producto; distinguir ambos objetos. |
 | IF-S1.06 · L672<br>identity/binding evidence provenance; | B: procedencia de evidencia de identidad/binding y dependencia entre fuentes; no transportar evidencia privada por defecto. |
 | IF-S1.07 · L674<br>unknown or contested identity/binding state. | A: identidad desconocida/controvertida como resultado. B: base de controversia ya registrada. C/D: motivo específico sólo tras fijar vía de examen y frontera. |
@@ -548,7 +552,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Grant, token, mandato o decisión de autorización según el proceso observado.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -559,10 +563,10 @@ Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del 
 | IF-S2.05 · L720<br>applicable authority/mandate reference for a competing directive, including any source-owned exception, veto or precedence rule where one exists; | B: referencia/versiones de la regla de autoridad o precedencia aplicada. A: veto, excepción o directiva nueva. Configuración: regla que gobierna EA por separado. |
 | IF-S2.06 · L722<br>delegation/redelegation chain where material; | B: procedencia y cobertura de validación de la cadena. A: cadena funcional incorporada al token/grant. C/D: eslabón no examinado y razón según frontera. |
 | IF-S2.07 · L724<br>policy/reference version linked to the grant; | B: referencia a la política empleada en la evaluación. A: política/grant emitido; sólo el enlace pertinente entra en el perfil. |
-| IF-S2.08 · L726<br>validity/revocation state; | A: validez/revocación como resultado. B: límites temporales del soporte. C: comprobación omitida disponible. D: origen sin vía autorizada para conocer revocación. |
+| IF-S2.08 · L726<br>validity/revocation state; | A: validez/revocación como resultado. B: límites temporales del soporte. C (si falta la base de evaluación y hay vía exploratoria): comprobación omitida disponible. D: origen sin vía autorizada para conocer revocación. |
 | IF-S2.09 · L728<br>authority provenance and standing; | B: fuente de autoridad y base del standing examinado. A: dictamen de standing si es resultado funcional; la procedencia sola no acredita legitimidad. |
 | IF-S2.10 · L730<br>contested, absent or fuzzy authority state; | A: ausencia/controversia/fuzziness como estado emitido. B: significado y base. C/D: cuestión sin resolver con motivo y frontera; unknown solo no decide categoría. |
-| IF-S2.11 · L732<br>authority capacity actually reachable for current intervention where relevant. | B: capacidad de intervención conocida como límite del proceso. C: revisión de autoridad posible y omitida. D: autoridad/dependencia no evaluable dentro del mandato; actuar y conocer se distinguen. |
+| IF-S2.11 · L732<br>authority capacity actually reachable for current intervention where relevant. | B: capacidad de intervención conocida como límite del proceso. C (si falta la base de evaluación y hay vía exploratoria): revisión de autoridad posible y omitida. D: autoridad/dependencia no evaluable dentro del mandato; actuar y conocer se distinguen. |
 
 Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El texto original se conserva íntegro; las correspondencias son propuestas del perfil ideal, no afirmaciones de disponibilidad real.
 
@@ -570,7 +574,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Attestation Result entregado por el verificador al receptor operativo.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -581,7 +585,7 @@ Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del 
 | IF-S3.05 · L780<br>reference/policy identifiers and versions where material; | B: referencias/versiones de política utilizadas y alcance de aplicabilidad; no copiar la política como contenido. |
 | IF-S3.06 · L782<br>freshness/nonce/replay status; | B: base temporal y método antirreplay. A: veredicto de frescura/replay si forma parte del resultado; nonce como enlace sólo si no revela A. |
 | IF-S3.07 · L784<br>appraisal relationship such as self/contracted/independent where available; | B: relación self/contracted/independent declarada y su base. No confundir independencia contractual con independencia de evidencia. |
-| IF-S3.08 · L786<br>evidence/appraisal limitations; | B: límites caracterizados del appraisal. C: componente/check examinable no incluido y razón. D: supuesto/dependencia fuera del alcance de determinación y razón. |
+| IF-S3.08 · L786<br>evidence/appraisal limitations; | B: límites caracterizados del appraisal. C (si falta la base de evaluación y hay vía exploratoria): componente/check examinable no incluido y razón. D: supuesto/dependencia fuera del alcance de determinación y razón. |
 | IF-S3.09 · L788<br>no-assertion/unknown result distinct from action-side indeterminate. | A: no-assertion/unknown como resultado nativo. B: su semántica y motivo registrado; no equipararlo a ejecución indeterminada ni clasificarlo D automáticamente. |
 
 Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El texto original se conserva íntegro; las correspondencias son propuestas del perfil ideal, no afirmaciones de disponibilidad real.
@@ -590,7 +594,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Veredicto de conformidad emitido por el evaluador.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -612,7 +616,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Resultado de verificación del registro o claim.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -623,7 +627,7 @@ Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del 
 | IF-S5.05 · L892<br>freshness/replay/integrity result; | A: resultados de frescura/replay/integridad. B: método, fecha y límites de comprobación. |
 | IF-S5.06 · L894<br>issuer/relationship/authorization-scope checks where applicable; | B: cobertura de checks de issuer/relación/autoridad. A: sus veredictos si forman parte del producto entregado. |
 | IF-S5.07 · L896<br>absence/null semantics where applicable; | B: significado nativo de null/ausencia para interpretar A. A: null si es el resultado nativo. Ausencia del mensaje es otro estado distinto. |
-| IF-S5.08 · L898<br>limitations or checks not performed. | B: límite de verificación ya caracterizado. C: check posible omitido y motivo. D: dependencia no comprobable en la frontera declarada y motivo; separar la lista. |
+| IF-S5.08 · L898<br>limitations or checks not performed. | B: límite de verificación ya caracterizado. C (si falta la base de evaluación y hay vía exploratoria): check posible omitido y motivo. D: dependencia no comprobable en la frontera declarada y motivo; separar la lista. |
 
 Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El texto original se conserva íntegro; las correspondencias son propuestas del perfil ideal, no afirmaciones de disponibilidad real.
 
@@ -631,7 +635,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Decisión/intervención humana; si se mide capacidad, declarar ese otro proceso y su propio A.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -641,7 +645,7 @@ Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del 
 | IF-S6.04 · L940<br>current escalation/HOLD/intervention state; | A: HOLD/escalation/intervention como estado operativo. B: cobertura y condiciones de la revisión que lo sustentó. |
 | IF-S6.05 · L942<br>human decision and scope; | A: decisión humana. B: ámbito revisado cuando es un calificador separado; si está integrado en el producto, respetar esa pertenencia. |
 | IF-S6.06 · L944<br>intervention mandate/validity where applicable; | B: referencia al mandato aplicado y a su validez comprobada. A: mandato concedido; no convertir identidad del revisor en autoridad. |
-| IF-S6.07 · L946<br>evidence considered and evidence sufficiency/limitations; | Enlace: evidencia sin copiarla. B: suficiencia y límites caracterizados. C: segunda consulta/documento no examinado y razón. D: dependencia institucional fuera de alcance. |
+| IF-S6.07 · L946<br>evidence considered and evidence sufficiency/limitations; | Enlace: evidencia sin copiarla. B: suficiencia y límites caracterizados. C (si falta la base de evaluación y hay vía exploratoria): segunda consulta/documento no examinado y razón. D: dependencia institucional fuera de alcance. |
 | IF-S6.08 · L948<br>intervention outcome/reconciliation state; | A: resultado de intervención/reconciliación. B: alcance y límites de comprobación; una decisión no prueba ejecución. |
 | IF-S6.09 · L950<br>return-to-operation/revalidation state. | A: retorno/revalidación como decisión o estado. B: regla y ámbito del examen aplicado, sin reenviar la orden de retorno. |
 
@@ -651,13 +655,13 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Métrica, indicador o evaluación si se observa al medidor; resultado de negocio si se observa al servicio instrumentado.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
 | IF-S7.01 · L990<br>observed operation/task/tool/model identifiers; | Enlace: operación/herramienta/modelo bajo el marco fijado. Los identificadores no revelan el resultado ni permiten consultar A desde esta ruta. |
 | IF-S7.02 · L992<br>timestamps/duration/status/error state; | Enlace: tiempos del mensaje. B: período de observación y limitación. A: duración/estado/error si es producto del medidor; no llamarlo B por ser telemetría. |
-| IF-S7.03 · L994<br>instrumentation/measurement coverage and observation burden or latency where available; | B: cobertura y carga de medición ya conocidas. C: ruta/método reconocidos no instrumentados y motivo. D: dependencia relevante no observable en la frontera. |
+| IF-S7.03 · L994<br>instrumentation/measurement coverage and observation burden or latency where available; | B: cobertura y carga de medición ya conocidas. C (si falta la base de evaluación y hay vía exploratoria): ruta/método reconocidos no instrumentados y motivo. D: dependencia relevante no observable en la frontera. |
 | IF-S7.04 · L996<br>telemetry/evaluation metric and semantics; | A: valor de la métrica cuando es el producto. B: constructo, unidad, método y límites. Un score no se transforma en probabilidad sin base. |
 | IF-S7.05 · L998<br>drift/anomaly indicators; | A: indicador de drift/anomalía emitido. B: método, ámbito y límites de detección fuera de A. |
 | IF-S7.06 · L1000<br>model/runtime/tool version changes; | B: versión del instrumento/runtime que sustenta A y cambios que afectan su interpretación. A: evento de cambio si es el producto monitorizado. |
@@ -672,7 +676,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Resultado original conservado en el registro; si se evalúa el registro, declarar ese proceso aparte.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -693,7 +697,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Evaluación poblacional con las tasas e intervalos que su contrato incluya.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -704,8 +708,8 @@ Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del 
 | IF-S9.05 · L1112<br>per-type rate or other non-composite measurement; | A: tasa o medida por tipo como resultado. B: significado y límites de cada medida fuera de A; no convertirla en score agregado. |
 | IF-S9.06 · L1114<br>evaluator/evaluator-family characteristics; | B: características del evaluador que condicionan A, con fuente; no deducir calidad a partir del nombre de la familia. |
 | IF-S9.07 · L1116<br>evaluator independence/diversity information where known; | B: independencia/diversidad conocida con dimensión y base. Diversidad de nombres no implica independencia de datos. |
-| IF-S9.08 · L1118<br>sample size and statistical uncertainty where applicable; | B: tamaño muestral y soporte estadístico sólo si quedan fuera de A. A: intervalo ya incluido. C: población reconocida no caracterizada y motivo; no calcular una muestra nueva. |
-| IF-S9.09 · L1120<br>residual indeterminacy / identifiability limit; | B: límite de identificabilidad establecido y su base. C: pregunta adicional examinable sin caracterización suficiente. D: dependencia fuera de alcance. Separar resultado del límite y cuestión residual. |
+| IF-S9.08 · L1118<br>sample size and statistical uncertainty where applicable; | B: tamaño muestral y soporte estadístico sólo si quedan fuera de A. A: intervalo ya incluido. C (si falta la base de evaluación y hay vía exploratoria): población reconocida no caracterizada y motivo; no calcular una muestra nueva. |
+| IF-S9.09 · L1120<br>residual indeterminacy / identifiability limit; | B: límite de identificabilidad establecido y su base. C (si falta la base de evaluación y hay vía exploratoria): pregunta adicional examinable sin caracterización suficiente. D: dependencia fuera de alcance. Separar resultado del límite y cuestión residual. |
 | IF-S9.10 · L1122<br>statement of what the result is and is not capable of establishing. | B: aplicabilidad y límites de inferencia ya declarados sobre A. C/D: referencias a cuestiones concretas excluidas; no usar una advertencia genérica como inventario completo. |
 
 Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El texto original se conserva íntegro; las correspondencias son propuestas del perfil ideal, no afirmaciones de disponibilidad real.
@@ -714,7 +718,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Decisión de divulgación si se observa ese proceso; reglas de admisión si gobiernan directamente a EA.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -722,7 +726,7 @@ Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del 
 | IF-S10.02 · L1160<br>recipient/role and decision purpose; | Enlace: receptor/propósito del handoff. B: limitación de uso declarada para A. Configuración: nuevo propósito asignado a EA; no inferir autorización. |
 | IF-S10.03 · L1162<br>permitted/forbidden attributes; | B: atributos del soporte omitidos por una restricción declarada, sin revelar los atributos protegidos. Configuración: lista normativa de admisión EA; no es C/D por sí sola. |
 | IF-S10.04 · L1164<br>retention/linkability/correlation constraints; | B: restricciones que limitan enlace/interpretación de A. Configuración: reglas de retención de EA. No guardar un contenido prohibido para demostrar que se rechazó. |
-| IF-S10.05 · L1166<br>selective-disclosure or pseudonymity capabilities; | B: capacidad de divulgación que condiciona el handoff. C: vía de revisión concreta no usada y razón, si existe. Catálogo de seudonimización solo no es C. |
+| IF-S10.05 · L1166<br>selective-disclosure or pseudonymity capabilities; | B: capacidad de divulgación que condiciona el handoff. C (si falta la base de evaluación y hay vía exploratoria): vía de revisión concreta no usada y razón, si existe. Catálogo de seudonimización solo no es C. |
 | IF-S10.06 · L1168<br>privacy risk/criticality constraints. | B: límites de privacidad considerados al producir/calificar A. Configuración: tolerancia fijada para EA. A: riesgo calculado si constituye el producto de evaluación. |
 
 Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El texto original se conserva íntegro; las correspondencias son propuestas del perfil ideal, no afirmaciones de disponibilidad real.
@@ -731,7 +735,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Señal, evento, alerta o corrección entregada a su consumidor operativo.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -753,20 +757,20 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Decisión/estado de respuesta, recuperación o migración emitido al ejecutor/consumidor.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
-| IF-S12.01 · L1297<br>available control/response capabilities and effective reach; | B: capacidades y límites efectivos considerados para A. A: catálogo como resultado de otro proceso. C: examen de una alternativa omitido y razón, no la capacidad de actuar sola. |
+| IF-S12.01 · L1297<br>available control/response capabilities and effective reach; | B: capacidades y límites efectivos considerados para A. A: catálogo como resultado de otro proceso. C (si falta la base de evaluación y hay vía exploratoria): examen de una alternativa omitido y razón, no la capacidad de actuar sola. |
 | IF-S12.02 · L1299<br>decision/operation and shared resource-time reference where a response can collide with another legitimate action; | Enlace: operación/recurso-tiempo. B: dependencia conocida entre respuestas; no arbitrar conflictos a partir de coincidencias de identificador. |
 | IF-S12.03 · L1301<br>authority required for each response; | B: referencia a autoridad requerida/comprobada para interpretar A. A: concesión/denegación de permiso. Configuración: autoridad que gobierna EA. |
 | IF-S12.04 · L1303<br>current response latency and actionability window; | B: latencia y ventana que limitan el soporte/uso de A cuando ya existen. A: medición o dictamen de actionability si ése es el producto. |
 | IF-S12.05 · L1305<br>execution/status/result of containment or recovery; | A: ejecución/estado/resultado de contención o recuperación. B: cobertura y límites de su confirmación, sin transmitir el resultado. |
 | IF-S12.06 · L1307<br>residual exposure and affected scope; | B: exposición residual caracterizada fuera de A y ámbito. A: estimación de exposición si es el producto. C/D: aspectos no caracterizados, separados por frontera. |
 | IF-S12.07 · L1309<br>rollback/reversibility state; | A: estado de rollback/reversión. B: base de reversibilidad y límite de comprobación; no equiparar intención con resultado. |
-| IF-S12.08 · L1311<br>alternate-provider/alternate-frame readiness; | A: dictamen de readiness o proveedor seleccionado. B: cobertura de la evaluación. C: proveedor/vía reconocida no evaluada y razón. D: dependencia no examinable en el marco. |
+| IF-S12.08 · L1311<br>alternate-provider/alternate-frame readiness; | A: dictamen de readiness o proveedor seleccionado. B: cobertura de la evaluación. C (si falta la base de evaluación y hay vía exploratoria): proveedor/vía reconocida no evaluada y razón. D: dependencia no examinable en el marco. |
 | IF-S12.09 · L1313<br>migration/reconfiguration status; | A: estado de migración/reconfiguración. B: validez y límites de comprobación; un cambio puede invalidar el perfil anterior. |
-| IF-S12.10 · L1315<br>failure/indeterminate outcome where response execution cannot be established. | A: fallo/indeterminate de ejecución. B: significado y alcance del examen. C: comprobación omitida posible. D: efecto externo sin vía de determinación. |
+| IF-S12.10 · L1315<br>failure/indeterminate outcome where response execution cannot be established. | A: fallo/indeterminate de ejecución. B: significado y alcance del examen. C (si falta la base de evaluación y hay vía exploratoria): comprobación omitida posible. D: efecto externo sin vía de determinación. |
 
 Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El texto original se conserva íntegro; las correspondencias son propuestas del perfil ideal, no afirmaciones de disponibilidad real.
 
@@ -774,7 +778,7 @@ Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El te
 
 **Proceso y A de referencia: Dictamen de equivalencia/reconocimiento o marco emitido por su propietario.**
 
-Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Enlace y configuración no son cuadrantes. Si cambia el perfil, se revisa la correspondencia.
+Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del producto funcional A y que existe la base indicada. Una opción o comprobación omitida sólo es C si falta su base de evaluación y existe una vía exploratoria fundamentada; si ya tiene variables y método caracterizados, es reserva B. El motivo de omisión no decide esa frontera. D exige una barrera efectiva de evaluación. Enlace y configuración no son componentes A/B/C/D. Si cambia el perfil, se revisa la correspondencia.
 
 | Entrada original de 04 | Componentes y criterio de entrada EA |
 | --- | --- |
@@ -784,7 +788,7 @@ Regla de lectura: toda asignación B/C/D presupone que la pieza queda fuera del 
 | IF-S13.04 · L1363<br>equivalence/mutual-recognition rules; | B: regla/versiones de reconocimiento aplicadas. A: decisión de equivalencia concreta; no transportar el dictamen como regla genérica. |
 | IF-S13.05 · L1365<br>applicable policy/regulatory constraints; | B: referencia a restricciones que limitaron A. Configuración: obligación que gobierna directamente a EA; separar declaración normativa de evidencia de cumplimiento. |
 | IF-S13.06 · L1367<br>validity/version and change history; | B: vigencia/versiones e historia de cambio relevante del soporte. No actualizar retroactivamente el marco de mensajes anteriores. |
-| IF-S13.07 · L1369<br>unresolved cross-domain incompatibilities. | B: incompatibilidad ya establecida y alcance. C: comparación posible aún no realizada y motivo. D: incompatibilidad relevante fuera del mandato/acceso de determinación. Pendiente si no consta la frontera. |
+| IF-S13.07 · L1369<br>unresolved cross-domain incompatibilities. | B: incompatibilidad ya establecida y alcance. C (si falta la base de evaluación y hay vía exploratoria): comparación posible aún no realizada y motivo. D: incompatibilidad relevante fuera del mandato/acceso de determinación. Pendiente si no consta la frontera. |
 
 Cada L remite a la línea del snapshot 04 v0.5 identificado en el anexo D. El texto original se conserva íntegro; las correspondencias son propuestas del perfil ideal, no afirmaciones de disponibilidad real.
 
@@ -940,7 +944,7 @@ Resolución analítica del contrato de entrada. Cada caso intenta producir una c
 | X04<br>H02<br>N03 N05 | Se estima 30% de utilidad de ampliar una búsqueda y se decide no hacerlo. | Estimación A/B según contrato; no C por el mero descarte. |
 | X05<br>H02<br>N03 N05 | El 30% sólo cubre fuentes conocidas y existe otra fuente sin caracterización. | A/B para la estimación; C para esa fuente si hay vía de examen y motivo de exclusión. |
 | X06<br>H02<br>N05 | Una parte del efecto externo está cuantificada; otra parte queda fuera de alcance. | B para efecto conocido fuera de A; D para la cuestión residual concreta. |
-| X07<br>H03<br>N04 N06 | Hay presupuesto y método disponibles; una regla aplicada detiene la revisión. | C para posibilidad no caracterizada omitida. Preservar regla aplicada. |
+| X07<br>H03<br>N04 N06 | Hay presupuesto y método disponibles; una regla aplicada detiene la revisión. | B si pregunta, variables y método ya permiten evaluar la opción; C sólo para una frontera aún sin esa base. Preservar la regla aplicada. |
 | X08<br>H03<br>N05 | El recurso necesario no existe bajo el mandato y horizonte declarados. | D sólo si consta dependencia relevante y falta de vía efectiva; no por simple etiqueta unavailable. |
 | X09<br>H03<br>N04 N05 | No hay información sobre la vía de examen de una dependencia. | Clasificación pendiente C/D; no inventar capacidad ni imposibilidad. |
 | X10<br>H04<br>N02 N03 | Llega “a partir de ahora acepta riesgo alto” como supuesto metadato. | Es gobierno/configuración o A de quien decide; no B de un resultado previo. |
@@ -976,7 +980,7 @@ Resolución analítica del contrato de entrada. Cada caso intenta producir una c
 | X26<br>H11<br>N01 N10 | C de un upstream llega a otro actor que no tiene esa capacidad. | Conservar C en su marco original; no afirmar que el receptor puede examinarlo. |
 | X27<br>H12<br>N11 | Mismo nombre de campo, nueva semántica en versión desconocida. | No aplicar el mapeo anterior; conservar sólo lo permitido sin interpretación funcional. |
 | X28<br>H12<br>N10 N11 | Llega una corrección de B después de otra observación más reciente. | Vincular a su evento/versión; llegada tardía no sobrescribe soporte ajeno. |
-| X29<br>H12<br>N11 | Una nueva vía de acceso hace examinable una dependencia D. | Nuevo perfil/contexto: C si sigue sin caracterizarse; A/B si se determina. Historia intacta. |
+| X29<br>H12<br>N11 | Una nueva vía de acceso hace examinable una dependencia D. | Nuevo perfil/contexto: B si la evaluación ya tiene base, C si sólo se habilita exploración hacia esa base; A si se entrega el resultado funcional. Historia intacta. |
 | X30<br>H13<br>N07 | Se normaliza mecánicamente un campo siguiendo un mapeo revisado. | Admisible si conserva significado, unidad, precisión y procedencia; medir carga. |
 
 ## Anexo C Casos adversarios 31 a 40
@@ -989,7 +993,7 @@ Resolución analítica del contrato de entrada. Cada caso intenta producir una c
 | X32<br>H13<br>N07 N09 | Un atributo existe en memoria, pero capturarlo exige un volcado enorme. | No cambia su categoría; no satisface ligereza si excede presupuesto declarado. |
 | X33<br>H14<br>N08 N12 | El emisor firma una razón de exclusión falsa. | La firma puede atribuir la declaración; no prueba verdad del motivo. |
 | X34<br>H14<br>N08 | El propietario confirma un mapeo y el adaptador lo trata como evidencia independiente. | Confirmación valida la interpretación acordada, no el hecho ni su independencia. |
-| X35<br>H15<br>N04 N05 N06 | “Checks not performed” agrupa un check omitido y otro inaccesible. | Descomponer: C y D con motivos distintos; B puede referenciar ambos. |
+| X35<br>H15<br>N04 N05 N06 | “Checks not performed” agrupa un check omitido y otro inaccesible. | Descomponer: check omitido en B si su evaluación está caracterizada, o C si requiere exploración hacia esa base; D sólo ante barrera efectiva. Preservar motivos y vínculos. |
 | X36<br>H16<br>N01 N12 | La revisión de inputs exige definir la postura o la orden que devuelve EA. | Fuera de alcance; no añadir contrato de outputs para cerrar éste. |
 | X37<br>H10<br>N06 N08 | El motivo existe pero su divulgación está restringida. | Declarar restringido sólo si puede revelarse esa condición; no pedir el contenido ni inventar motivo. |
 | X38<br>H03<br>N03 N05 | Se conoce una dependencia sin controlar físicamente, pero su efecto está medido. | La caracterización es A/B; no D por falta de control físico. |

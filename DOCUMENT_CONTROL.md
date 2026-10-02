@@ -1,5 +1,7 @@
 # Document Control — navigation, sitemap and modification rules
 
+> **2 October 2026 — owner-authorized A/B/C/D semantic alignment.** Iván requested minimal corpus-wide definition corrections and links to 00M. No navigation owner, document path, README count, requirement identifier or evidence result is changed. Current protected blobs for this alignment supersede the earlier SHA records: EA router `4e41fc697bb2bd94d1f4dd2b75230937684b8152`; EP router `77d798d21ff8c08585b677258e86337f04bca008`. The [before/after plan and preservation checks](./governance/ABCD_CANONICAL_ALIGNMENT_2026-10-02.md) delimit the changes. Historical exports remain identified as such.
+
 **Version:** 1.1  
 **Control date:** 28 September 2026  
 **Owner:** Iván Abril  

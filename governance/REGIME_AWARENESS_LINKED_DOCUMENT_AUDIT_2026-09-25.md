@@ -1,5 +1,7 @@
 # Auditoría de conservación — Regime Awareness / Regime Change Detection
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 **Fecha:** 25 de septiembre de 2026. **Alcance:** [README de Regime Awareness](../research/regime-awareness/README.md), sus **16 destinos locales Markdown distintos** y sus cuatro enlaces externos directos. Los historiales de esos 16 archivos suman **327 revisiones por ruta** al corte de esta auditoría; varios archivos pertenecen también a los corpus EA y MSCA ya auditados. Se revisaron cambios retirados, versiones preservadas, responsabilidades semánticas y rutas. Una ruta existente o un historial numeroso no prueba por sí solo que todas las afirmaciones científicas sean correctas.
 
 ## Doble comprobación previa de MSCA

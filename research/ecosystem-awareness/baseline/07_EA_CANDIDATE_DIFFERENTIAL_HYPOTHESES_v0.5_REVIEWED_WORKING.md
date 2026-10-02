@@ -1,5 +1,7 @@
 # Ecosystem Awareness — Candidate Differential Hypotheses
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 > **Preserved non-canonical predecessor.** EA-H1–EA-H4 and their falsifiers are integrated into the sole current [canonical benchmark v0.2](./00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md). Its substantive predecessor content is retained as provenance; this file is not an alternative current benchmark.
 
 **Corpus placement:** current EA baseline working successor to the preserved v0.4 benchmark. The earlier top-level v0.5 publication remains a source/publication alias. This document does not modify the frozen baseline, establish comparative superiority, or prove novelty.

@@ -1,5 +1,7 @@
 # Reference scenarios — preserved reader route
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 This guide restores the reader-facing scenario and implementation route removed from the Ecosystem Awareness README on 25 September 2026 while leaving the maintained corpus and its requirements unchanged. It is a navigation aid, not a new normative or execution result. The source text is preserved from the repository history; the linked scenario files govern their current status.
 
 ### Reference scenarios and executable route

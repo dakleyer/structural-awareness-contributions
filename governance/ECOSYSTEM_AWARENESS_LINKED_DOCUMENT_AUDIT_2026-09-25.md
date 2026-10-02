@@ -1,5 +1,7 @@
 # Auditoría de conservación — 88 documentos enlazados desde Ecosystem Awareness
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 **Fecha:** 25 de septiembre de 2026. **README publicado:** `b163aa511aefe924ceef5948834d3126a6d30c8b`; enlace de conservación del charter publicado en `fbf65ec3e1076f6c81eac5b4b16ce993b013bf58`. **Alcance:** los 88 archivos locales enlazados directamente por ese README (todos Markdown). El historial por ruta, siguiendo renombres, contiene **850 versiones por archivo** y 71 revisiones con supresiones o sustituciones de tamaño significativo.
 
 ## Método y significado

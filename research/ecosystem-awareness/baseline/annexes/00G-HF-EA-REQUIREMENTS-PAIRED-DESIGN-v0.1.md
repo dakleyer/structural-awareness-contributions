@@ -1,5 +1,7 @@
 # Comparación pareada EA / referencia: diseño desde los requisitos
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 2 de octubre de 2026. **Diseño, sin ejecución del brazo EA.** El usuario separa expresamente este trabajo de la investigación sobre cambios previos en A/B/C/D, masa crítica y mecanismos matemáticos. No se utiliza esa investigación como premisa, detector, resultado ni criterio de selección.
 
 [Principal](../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) · [Historial](./00G-HF-DEVELOPMENT-HISTORY-v0.1.md) · [Recorrido negativo](../traversals/00G-HF-CONTINUOUS-SOCIAL-v0.1/README.md).

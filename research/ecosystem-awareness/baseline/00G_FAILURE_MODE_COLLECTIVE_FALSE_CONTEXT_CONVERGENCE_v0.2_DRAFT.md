@@ -1,5 +1,7 @@
 # 00G — Reference Failure Scenario and Quality-Gate Plan: Collective False-Context Convergence ("Bar-to-Napoleon" Cascade)
 
+> **Current semantic reference — 2 October 2026.** A/B/C/D now follows [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). This version/audit retains its earlier wording for traceability; older pole, confidence-only B or available-capability C labels are not alternative current definitions. This notice does not rewrite the historical evidence or results.
+
 | | |
 |---|---|
 | **ID** | 00G |

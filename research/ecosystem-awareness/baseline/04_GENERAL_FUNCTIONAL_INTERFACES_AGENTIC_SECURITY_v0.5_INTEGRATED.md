@@ -6,7 +6,7 @@
 
 # Status and purpose
 
-> **04 input-contract working starting point — 30 September 2026.** Start input-interface work with the [**EA Input Interface Contract v0.4**](./04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md) ([Word](./04_INPUT_INTERFACE_CONTRACT/04_Contrato_interfaces_entrada_EA_v0.4.docx)). This standalone contract, published in Spanish, provides the A/B/C/D classification guide, diagram, 176-input decomposition, N01–N13 and 44 analytical adversarial cases. It belongs to 04, not to a downstream application layer. Its inputs-only route excludes the functional value of producer output A; **H06 remains open** where this baseline's EHD kernel and F9 uses require operational results. The [integration record](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#11-input-interface-contract-working-starting-point--30-september-2026) records this reconciliation and the O2 field-expression gap. This notice establishes a working entry point; it does not silently replace the baseline, claim implementation validation or specify EA outputs.
+> **04 input-contract working starting point — 30 September 2026.** Start input-interface work with the [**EA Input Interface Contract v0.4**](./04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md) ([historical Word export — predates the 2 October semantic alignment](./04_INPUT_INTERFACE_CONTRACT/04_Contrato_interfaces_entrada_EA_v0.4.docx)). This standalone contract, published in Spanish, provides the A/B/C/D classification guide, diagram, 176-input decomposition, N01–N13 and 44 analytical adversarial cases. It belongs to 04, not to a downstream application layer. Its inputs-only route excludes the functional value of producer output A; **H06 remains open** where this baseline's EHD kernel and F9 uses require operational results. The [integration record](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#11-input-interface-contract-working-starting-point--30-september-2026) records this reconciliation and the O2 field-expression gap. This notice establishes a working entry point; it does not silently replace the baseline, claim implementation validation or specify EA outputs.
 
 > **Layering / navigation note.** This document is the **programme-independent general Ecosystem Awareness interface layer**. Its semantics are expressed only in generic producer/consumer, operational-agent and trust/security capabilities. A downstream FG-TIDA application is maintained separately as [**05 — Ideal FG-TIDA Cross-Theme Interfaces**](../fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md), with its [vNext ideal delta](../fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); the dated realistic FG-TIDA subset is [**05A — Current-State Bridge**](../fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md), with its [current-state vNext delta](../fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Those application layers may map or narrow 04, but they cannot redefine it.
 
@@ -64,7 +64,7 @@ Relationship map. Producer result/profile → EHD / decision-relevant handoff �
 
 # 2\. Common Epistemic Handoff Descriptor
 
-**Current A/B/C/D reconciliation — 23 September 2026.** This integrated interface document retains the frozen v0.4 source lineage, but current reader-facing A/B/C/D semantics follow the [Canonical Architecture Topology](./00_CANONICAL_ARCHITECTURE_TOPOLOGY.md#2-four-component-qualified-epistemic-position): A = situated assertion/scope; B = confidence/intensity; C = recognized current-capability frontier; D = structural/residual unknown. Earlier determined/unresolved wording is preserved only as source lineage, not as a competing current tuple.
+**A/B/C/D semantic reference — 2 October 2026.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs the interpretation of producer-relative roles in this interface. A is the functional result of active exploitation; B is its established basis and limits together with the characterized, assessable reserve; C is a grounded exploration frontier without an established evaluation basis; D is potentially material influence beyond effective evaluation routes in the declared frame. Earlier wording is source lineage only. Wire fields, interface families and authority responsibilities are not redefined by these labels.
 
 Emission-side obligation. The Epistemic Handoff Descriptor does not create a third epistemic control family. A producer remains responsible for applying the internal controls to its own state; the handoff obligation is to preserve the decision-relevant qualifiers needed for downstream interpretation. Where a qualifier cannot be established, it remains UNKNOWN rather than being fabricated. Missing qualification creates downstream Type-2 exposure, not automatic Type 2; the failure materializes only when an intermediary or receiver promotes the missing or bounded qualification into greater determination than was supplied.
 
@@ -142,13 +142,13 @@ Four-component qualified epistemic position
 
 Where the producer can express it, the EHD should make legible:
 
-A — situated assertion/scope: what is represented or asserted, where/from which frame and under which material qualifiers;
+A — functional result of active exploitation, identified with producer, process, question, scope and time;
 
-B — confidence/intensity: how strongly A is supported within that admitted frame;
+B — established basis, limits and characterized assessable reserve, including justified confidence or effort estimates where applicable;
 
-C — recognized current-capability frontier: additional decision-relevant state that could still be established with current observation, review, acquisition or computation capability;
+C — grounded exploration frontier whose evaluation basis has not yet been established; a known assessable check left unused remains B;
 
-D — structural/residual unknown outside the represented and recognized-obtainable capability boundary.
+D — potentially material effects beyond effective evaluation routes in the declared frame; monitoring a related indicator does not quantify those effects.
 
 &nbsp;
 

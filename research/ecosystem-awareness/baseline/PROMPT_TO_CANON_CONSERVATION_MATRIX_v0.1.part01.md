@@ -1,5 +1,7 @@
 ECOSYSTEM AWARENESS — PROMPT-TO-CANON CONSERVATION MATRIX — v0.1
 
+> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+
 Date: 10 September 2026
 
 Status: INTERNAL CONSERVATION AUDIT — NO CANONICAL CONTENT MODIFIED BY THIS DOCUMENT
