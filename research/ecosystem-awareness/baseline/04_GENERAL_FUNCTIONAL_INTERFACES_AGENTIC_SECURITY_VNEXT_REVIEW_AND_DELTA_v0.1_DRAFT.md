@@ -379,3 +379,26 @@ The contract preserves the 176 reviewed input bullets across O1–O6 / IF-S1–I
 | **Profile and route conformance** | Review producer-owned meanings and, for implementations, exercise adapters for preservation, missingness, duplicates, time, versions and burden. | Illustrative mappings and analytical cases are not execution evidence. |
 
 **Disposition:** published working input-contract proposal and review starting point inside 04. The 04 v0.5 body and earlier controlled source semantics remain preserved. Publication adds this explicit delta and navigation; it is not promotion to an integrated successor, downstream adoption or closure of H06. The prior §10 determination is dated to 24 September and remains part of the review history.
+
+
+---
+
+## 12. Recognition guide and practical bidirectional map — Working Proposal — 2 October 2026
+
+A new [**04 A/B/C/D Recognition Guide and Example EA Interface Map v0.1 — Working Proposal**](./04_EA_ABCD_RECOGNITION_AND_INTERFACE_MAP_v0.1_WORKING_PROPOSAL.md) has been added as a candidate successor direction for 04. It does **not** replace the v0.5 baseline and is not a promotion decision.
+
+The proposed purpose of 04 is now made explicit in two parts:
+
+1. **Recognition guide:** operationalize the canonical 00M A/B/C/D semantics enough to classify real interface assertions without treating field names as epistemic categories.
+2. **Practical input/output example:** retain O1–O6 / IF-S1–IF-S13 as one worked EA interface map, with every included assertion assigned a producer-relative role or explicitly left PROFILE-DEPENDENT / UNRESOLVED.
+
+This proposal also records a candidate disposition for the earlier **H06 — exclusion of A** tension. The metadata-only route remains legitimate where it is sufficient, but a future 04 successor should not impose a universal exclusion of A. A declared profile may use either:
+
+- `A + eligible B/C/D → EA`, or
+- `A_ref + eligible B/C/D → EA`.
+
+A metadata-only profile must not claim support for a use that requires the value of A, and A must not be relabelled as B to pass through the route. The historical H06 finding remains valid for the older input-only proposal until a successor is explicitly reviewed and promoted.
+
+The new proposal deliberately leaves the current 176-row decomposition as source material rather than claiming it has been fully revalidated under 00M v0.8. Promotion requires family-by-family review and at least one end-to-end input/output worked profile.
+
+Related mechanism-to-requirements traceability is recorded separately in [**00M-A01 — Mechanism-to-Requirements Traceability v0.1 — Working Proposal**](./00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md). That document is a traceability aid only and does not change the canonical S1–S14 / T1–T4 / H1–H6 / KPI basis.
