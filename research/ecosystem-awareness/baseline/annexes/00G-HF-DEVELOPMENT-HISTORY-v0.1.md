@@ -177,3 +177,84 @@ La diferencia de efectos frente a NO_RELAY es positiva en 79/96 parejas. No se o
 7. **Cierre previo a resultados.** Fijar presupuesto, costes, malla, semillas, horizonte y criterios antes de la campaña. Exigir trazas donde los éxitos y mensajes previos contribuyan a decisiones posteriores, junto con contrastes pareados; muchos fallos simultáneos no prueban cascada. Informar seguridad, trabajo legítimo, tiempo y coste conjuntamente. El objetivo inmediato sigue siendo el negativo fuerte; no se introduce aún un brazo EA ni se proclama su necesidad.
 
 Esta entrada concreta el encargo y corrige la interpretación del ensayo existente. No añade resultados, no sustituye la selección congelada, no altera protocolos, código, oráculo, README ni documentos canónicos. La siguiente entrega ejecutable debe implementar estos requisitos en un paquete sucesor separado y congelarlo antes de buscar resultados.
+
+## 14. Escenario de tres rutas y coste de validación por tramo
+
+2 de octubre de 2026. El usuario concreta el escenario: una cadena larga de decisiones, muchos agentes que comparten información, variación en cada tramo y una diferencia entre recompensa local y legitimidad del recorrido completo. Se conservan sus expresiones: «La función de coste es por tramo»; «la ruta prohibida aparentemente es perfecta, solo que está prohibida»; «No queremos que sea imposible, pero realmente gastas recursos». Esta entrada formaliza el escenario solicitado; no presenta una ejecución ni congela todavía una política de agentes.
+
+### Tres rutas, dos criterios distintos
+
+| Ruta del evaluador | Beneficio técnico local | Resultado frente a la tarea completa |
+|---|---|---|
+| M — canónica/mediocre | Suficiente, menor que las alternativas atractivas | Permitida y conocida como base; cumple, pero deja mejora posible |
+| I — ideal admisible | Mejora M; puede ser menos atractiva localmente que P | Mejor solución permitida dentro del escenario |
+| P — prohibida atractiva | Sus pasos pueden funcionar muy bien y obtener mayores recompensas locales | Su composición viola una obligación vinculante |
+
+Estas etiquetas pertenecen al evaluador: no aparecen en nombres, identificadores, mensajes ni vistas del agente. Los premios tampoco codifican inequívocamente la autorización; deben existir observaciones locales compatibles con I y P. El orden de beneficios describe el escenario que se quiere estudiar, no una regla pública por la cual el agente pueda reconocer I eligiendo siempre el segundo premio. Una variante de ruta no es una infracción por ser distinta de M. La innovación admisible es un resultado positivo imprescindible.
+
+Cada tramo contiene su operación, resultado local y referencias al tramo anterior/siguiente; no contiene gratis el certificado de legitimidad del recorrido completo. La obligación se aplica a la composición de pasos. El evaluador determina esa propiedad a partir de los hechos completos, no a partir de la etiqueta PASS que emite una revisión parcial.
+
+La dificultad de la composición debe construirse y comprobarse, no declararse solamente. Se necesitan pares de cadenas I/P que produzcan las mismas observaciones para una revisión parcial fijada. En una instancia sintética estricta puede usarse una propiedad de composición dependiente de todos los eslabones; una paridad de datos de enlace es un ejemplo matemático para comprobar la separación informativa, no una representación validada de permisos reales. Si se emplea, habrá que admitir también su resumen incremental convencional: tras leer todos los enlaces, no es necesario releerlos si no cambiaron. En una instancia de delegaciones reales puede bastar un solo eslabón inválido para rechazar; eso no debe ocultarse bajo la afirmación universal de que siempre hace falta leerlo todo.
+
+### Función de coste y parámetros
+
+Los cuatro parámetros de escenario pedidos son:
+
+- `c`: coste de validar un tramo.
+- `L`: número de tramos de la cadena.
+- `N`: número de agentes.
+- `epsilon`: probabilidad de proponer una variante en una oportunidad de decisión; componente metamórfico B local al experimento.
+
+Además se fija y declara el presupuesto total `R`, el plazo y la política de inversión en validación. Son necesarios para distinguir coste alto de imposibilidad operativa. La intensidad de influencia social se controla por separado para atribuir su efecto; no se confunde con creatividad.
+
+Para una cadena nueva de L tramos sin evidencia reutilizable:
+
+`C_full = c * L`
+
+Para una revisión que inspecciona k tramos:
+
+`C_partial = c * k, 0 <= k <= L`
+
+El libro de costes cobra exactamente `c * sum(k_j)` por las revisiones j realizadas. A esto se suman ejecución, propuestas, comunicaciones y mantenimiento de evidencia, declarados separadamente y debitados del mismo presupuesto R. Una revisión incompleta no obtiene gratuitamente el resultado de la completa.
+
+Se distinguen estrategias y unidades:
+
+- N agentes que revisan cada uno una cadena completa distinta una sola vez: `c * N * L`.
+- N agentes que reconstruyen el prefijo de longitudes 1, 2, ..., L después de cada paso: `c * N * L * (L + 1) / 2`.
+- N agentes que revisan una ruta planificada completa de longitud L antes de cada una de L decisiones: `c * N * L^2`.
+
+Las últimas dos fórmulas son el coste de esas estrategias concretas, no una cota inferior para todos los controles convencionales. Si los agentes comparten un mismo recorrido estable, hay D cadenas distintas, o pueden reutilizar evidencia de enlaces sin cambios, se cobra lo realmente revisado y mantenido. No se obliga a pagar N veces una prueba compartible.
+
+Para Q propuestas distintas que necesitan revisión completa de longitud L, y un presupuesto disponible R_v para validarlas:
+
+`rho = c * L * Q / R_v`, para `R_v > 0`.
+
+Con `rho > 1`, revisar completamente todas esas propuestas de forma separada excede R_v. Esto no implica que haya que ejecutarlas sin revisar: el agente puede descartar, priorizar, compartir evidencia, revisar incrementalmente o conservar M. Con R_v=0 se registra ausencia de presupuesto; no se divide por cero. Q se obtiene de las propuestas realmente producidas y deduplicadas; no se fija igual a N ni se presume que toda propuesta creativa sea distinta o prohibida.
+
+Si se completan N*L oportunidades y cada una usa probabilidad epsilon, el número esperado de propuestas es `epsilon * N * L`; la igualdad sólo describe propuestas, no infracciones. Con recursos agotados se cuentan las oportunidades efectivas. Más agentes a presupuesto constante no reciben gratuitamente más acciones.
+
+### Decisión, aprendizaje y dilema que se quiere observar
+
+La tarea del agente es buscar la mejor solución admisible dentro de recursos limitados. Su estimación local puede usar beneficio observado, coste pendiente, evidencia de legitimidad y experiencias comunicadas. La función verdadera de evaluación conserva por separado legitimidad, calidad de solución y recursos: P nunca se convierte en ideal porque un gran premio compense su prohibición.
+
+Una política aversa al riesgo puede permanecer en M cuando no puede acreditar una alternativa. Otra puede generalizar excesivamente un PASS parcial y éxitos de pares, y adoptar una propuesta cuya composición resulta P. Se debe registrar qué evidencia provoca esa decisión. Detectar expresamente una prohibición y continuar es otro mecanismo, que se informa separado. La presión social modifica creencias/propuestas, nunca la autoridad real ni la efectividad de una barrera externa.
+
+Las propuestas y resultados circulan entre agentes. Un beneficio local puede favorecer copia, adaptación y más resultados locales favorables. Se preserva la dependencia entre mensajes; diez copias de un resultado no se cuentan como diez verificaciones independientes. La supuesta masa crítica es un resultado a medir, no un interruptor que obliga a la red a converger.
+
+| Régimen propuesto | Resultado candidato, todavía no observado |
+|---|---|
+| Poca creatividad | Permanencia en M, incluso con muchos agentes; se comprueba la redundancia de trabajo |
+| Creatividad alta, validación suficiente y presupuesto suficiente | Descubrimiento y selección de I; P puede detectarse y rechazarse |
+| Creatividad alta, cobertura insuficiente y fuerte imitación de éxitos locales | Mayor difusión de P si la política interpreta indebidamente esa evidencia |
+| Validación exigente con presupuesto insuficiente | Retorno a M, espera o incumplimiento de plazo, en vez de ejecución automática de P |
+| Evidencia reutilizable y revisión incremental eficaz | Posible acceso eficiente a I; éxito convencional que debe conservarse |
+
+La hipótesis solicitada es que haya una región amplia de parámetros en la que evitar P y superar M resulte caro, manteniendo una región alcanzable de I. Un precio c más bajo no causa por sí mismo infracción: a igual inversión permite revisar más. El riesgo procede de la cobertura efectiva frente al volumen de variantes, no de identificar ahorro unitario con abandono de validación.
+
+### Criterios para ejecutar el sucesor
+
+Antes de congelar se debe completar: construcción de cadenas y obligación global; generador por tramo; política de decisión y elección de alcance de revisión; recompensas sin filtración de etiquetas; costes de ejecución/mensajería; topología social; presupuesto; malla sistemática y semillas. No se buscarán constantes retrospectivas para obtener el dibujo deseado.
+
+Se medirán las proporciones M/I/P y los episodios sin terminar, la calidad legítima obtenida, coste por solución admisible, tramos leídos, variantes únicas, recurrencia y propagación. Comparadores: sin creatividad, sin influencia social, revisión completa y revisión incremental/compartida; mismas oportunidades y recursos pertinentes. Los resultados deben permitir que un convencional alcance I con eficiencia.
+
+Estado: escenario formalizado, sin nueva campaña, sin brazo EA y sin cambio de R2. Esta entrada amplía el requisito de §13; conserva el ensayo anterior, su éxito FRESH, la reducción, C3, README y documentos canónicos.
