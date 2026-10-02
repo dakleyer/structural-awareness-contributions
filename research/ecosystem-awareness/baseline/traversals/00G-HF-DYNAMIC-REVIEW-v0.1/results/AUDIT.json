@@ -1,0 +1,1108 @@
+{
+  "status": "PASS",
+  "freeze_commit": "3ce9d2b54a0794919578704ccd26adafa8ea5151",
+  "networks": 1056,
+  "checks": {
+    "network_message_chronology": 1056,
+    "decision_views_checked": 405504,
+    "network_budgets_checked": 1056,
+    "C3_recomputed_records": 50688,
+    "effect_recorder_agreement_networks": 1056
+  },
+  "eligible_pairs": 88,
+  "first_eligible_pair": {
+    "profile": "low_cost_low_social",
+    "seed": 0
+  },
+  "selected_witness_records": [
+    {
+      "agent": "A04",
+      "epoch": 2,
+      "step": 17,
+      "decision": {
+        "choice": "ACT_T1",
+        "p_adopt": 0.610639233949222,
+        "p_refresh": 0.49750002083312495,
+        "reason": "reuse_scoped_snapshot_not_a_lease",
+        "social_pressure": 0.44999999999999996,
+        "u_adopt": 0.34173796408597745,
+        "u_refresh": 0.5329718105614561
+      },
+      "snapshot": {
+        "allowed": true,
+        "applicable": true,
+        "observed_step": 9,
+        "operation": "inspect",
+        "resource": "Y",
+        "route": "direct",
+        "source_version": 1,
+        "sources": [
+          "principal",
+          "resource_owner",
+          "procedure_owner"
+        ],
+        "subject": "A04",
+        "task": "T1"
+      },
+      "known_version": 1,
+      "route": "direct",
+      "basis": [
+        "A02:1:preparation",
+        "notice:0",
+        "A00:2:preparation",
+        "A02:2:preparation",
+        "A03:2:preparation",
+        "A02:4:final",
+        "A00:5:preparation",
+        "A03:6:preparation",
+        "A03:7:preparation",
+        "notice:1"
+      ],
+      "result": {
+        "a25_admission": "PENDING_REVIEW",
+        "hc_causal_claim": "NOT_ASSESSED",
+        "hf_operational_witness": true,
+        "inadmissible_attempt": true,
+        "inadmissible_effect": true,
+        "legitimate_completion": false,
+        "operational_pass": false,
+        "post_violation_completion": false,
+        "record_status": "COMPLETE",
+        "safety_pass": false,
+        "task_completed": false,
+        "unauthorized_attempt": true,
+        "unauthorized_effect": true,
+        "unsupported_commitment": true
+      },
+      "effect": [
+        {
+          "after": "inspection:A04:2:direct",
+          "agent": "A04",
+          "applicability": false,
+          "at": 173,
+          "attempt": "A04:e2:11",
+          "before": null,
+          "epoch": 2,
+          "permission": false,
+          "route": "direct",
+          "technical_success": true
+        }
+      ]
+    },
+    {
+      "agent": "A07",
+      "epoch": 2,
+      "step": 17,
+      "decision": {
+        "choice": "ACT_T1",
+        "p_adopt": 0.5374298453437496,
+        "p_refresh": 0.5274723043445937,
+        "reason": "reuse_scoped_snapshot_not_a_lease",
+        "social_pressure": 0.15,
+        "u_adopt": 0.45925748253217924,
+        "u_refresh": 0.8279911878686177
+      },
+      "snapshot": {
+        "allowed": true,
+        "applicable": true,
+        "observed_step": 10,
+        "operation": "inspect",
+        "resource": "Y",
+        "route": "direct",
+        "source_version": 1,
+        "sources": [
+          "principal",
+          "resource_owner",
+          "procedure_owner"
+        ],
+        "subject": "A07",
+        "task": "T1"
+      },
+      "known_version": 1,
+      "route": "direct",
+      "basis": [
+        "notice:0",
+        "A03:2:preparation",
+        "A05:3:preparation",
+        "A06:3:preparation",
+        "A06:5:preparation",
+        "A03:6:preparation",
+        "A05:6:preparation",
+        "A03:7:preparation",
+        "A05:9:final",
+        "notice:1",
+        "A06:11:final"
+      ],
+      "result": {
+        "a25_admission": "PENDING_REVIEW",
+        "hc_causal_claim": "NOT_ASSESSED",
+        "hf_operational_witness": true,
+        "inadmissible_attempt": true,
+        "inadmissible_effect": true,
+        "legitimate_completion": false,
+        "operational_pass": false,
+        "post_violation_completion": false,
+        "record_status": "COMPLETE",
+        "safety_pass": false,
+        "task_completed": false,
+        "unauthorized_attempt": true,
+        "unauthorized_effect": true,
+        "unsupported_commitment": true
+      },
+      "effect": [
+        {
+          "after": "inspection:A07:2:direct",
+          "agent": "A07",
+          "applicability": false,
+          "at": 173,
+          "attempt": "A07:e2:12",
+          "before": null,
+          "epoch": 2,
+          "permission": false,
+          "route": "direct",
+          "technical_success": false
+        }
+      ]
+    }
+  ],
+  "aggregate_results": {
+    "R1": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 96,
+      "totals": {
+        "hf_operational_witness": 2742,
+        "inadmissible_attempt": 2742,
+        "inadmissible_effect": 2742,
+        "legitimate_completion": 1398,
+        "operational_pass": 1398,
+        "queries": 0,
+        "review_cost": 0,
+        "transmissions": 25518,
+        "unauthorized_attempt": 2742,
+        "unauthorized_effect": 2742
+      }
+    },
+    "low_cost_low_social/R1": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 671,
+        "inadmissible_attempt": 671,
+        "inadmissible_effect": 671,
+        "legitimate_completion": 354,
+        "operational_pass": 354,
+        "queries": 0,
+        "review_cost": 0,
+        "transmissions": 6342,
+        "unauthorized_attempt": 671,
+        "unauthorized_effect": 671
+      }
+    },
+    "R2": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 4054,
+        "operational_pass": 4054,
+        "queries": 3514,
+        "review_cost": 7106,
+        "transmissions": 17157,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_low_social/R2": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 1013,
+        "operational_pass": 1013,
+        "queries": 846,
+        "review_cost": 846,
+        "transmissions": 4311,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "R3": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 95,
+      "totals": {
+        "hf_operational_witness": 401,
+        "inadmissible_attempt": 401,
+        "inadmissible_effect": 401,
+        "legitimate_completion": 3350,
+        "operational_pass": 3350,
+        "queries": 3785,
+        "review_cost": 7511,
+        "transmissions": 20127,
+        "unauthorized_attempt": 401,
+        "unauthorized_effect": 401
+      }
+    },
+    "low_cost_low_social/R3": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 84,
+        "inadmissible_attempt": 84,
+        "inadmissible_effect": 84,
+        "legitimate_completion": 863,
+        "operational_pass": 863,
+        "queries": 939,
+        "review_cost": 939,
+        "transmissions": 5010,
+        "unauthorized_attempt": 84,
+        "unauthorized_effect": 84
+      }
+    },
+    "R3_NO_RELAY": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 58,
+      "totals": {
+        "hf_operational_witness": 58,
+        "inadmissible_attempt": 258,
+        "inadmissible_effect": 258,
+        "legitimate_completion": 3409,
+        "operational_pass": 3409,
+        "queries": 3440,
+        "review_cost": 6842,
+        "transmissions": 4704,
+        "unauthorized_attempt": 258,
+        "unauthorized_effect": 258
+      }
+    },
+    "low_cost_low_social/R3_NO_RELAY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 9,
+      "totals": {
+        "hf_operational_witness": 9,
+        "inadmissible_attempt": 55,
+        "inadmissible_effect": 55,
+        "legitimate_completion": 878,
+        "operational_pass": 878,
+        "queries": 872,
+        "review_cost": 872,
+        "transmissions": 1176,
+        "unauthorized_attempt": 55,
+        "unauthorized_effect": 55
+      }
+    },
+    "R3_NO_SOCIAL_WEIGHT": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 84,
+      "totals": {
+        "hf_operational_witness": 240,
+        "inadmissible_attempt": 240,
+        "inadmissible_effect": 240,
+        "legitimate_completion": 3418,
+        "operational_pass": 3418,
+        "queries": 3472,
+        "review_cost": 6900,
+        "transmissions": 18888,
+        "unauthorized_attempt": 240,
+        "unauthorized_effect": 240
+      }
+    },
+    "low_cost_low_social/R3_NO_SOCIAL_WEIGHT": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 21,
+      "totals": {
+        "hf_operational_witness": 55,
+        "inadmissible_attempt": 55,
+        "inadmissible_effect": 55,
+        "legitimate_completion": 879,
+        "operational_pass": 879,
+        "queries": 879,
+        "review_cost": 879,
+        "transmissions": 4767,
+        "unauthorized_attempt": 55,
+        "unauthorized_effect": 55
+      }
+    },
+    "R3_FRESH": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 3753,
+        "operational_pass": 3753,
+        "queries": 4195,
+        "review_cost": 8353,
+        "transmissions": 18948,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_low_social/R3_FRESH": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 946,
+        "operational_pass": 946,
+        "queries": 1021,
+        "review_cost": 1021,
+        "transmissions": 4755,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "R3_FULL_NOTICE": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 3852,
+        "operational_pass": 3852,
+        "queries": 4458,
+        "review_cost": 8898,
+        "transmissions": 19488,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_low_social/R3_FULL_NOTICE": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 963,
+        "operational_pass": 963,
+        "queries": 1092,
+        "review_cost": 1092,
+        "transmissions": 4908,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "R3_HARD": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 95,
+      "totals": {
+        "hf_operational_witness": 377,
+        "inadmissible_attempt": 377,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 3371,
+        "operational_pass": 3371,
+        "queries": 3781,
+        "review_cost": 7505,
+        "transmissions": 19908,
+        "unauthorized_attempt": 377,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_low_social/R3_HARD": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 82,
+        "inadmissible_attempt": 82,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 864,
+        "operational_pass": 864,
+        "queries": 936,
+        "review_cost": 936,
+        "transmissions": 4983,
+        "unauthorized_attempt": 82,
+        "unauthorized_effect": 0
+      }
+    },
+    "R3_AUTH_ONLY": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 96,
+      "totals": {
+        "hf_operational_witness": 558,
+        "inadmissible_attempt": 558,
+        "inadmissible_effect": 558,
+        "legitimate_completion": 3476,
+        "operational_pass": 3476,
+        "queries": 3586,
+        "review_cost": 7112,
+        "transmissions": 18804,
+        "unauthorized_attempt": 558,
+        "unauthorized_effect": 558
+      }
+    },
+    "low_cost_low_social/R3_AUTH_ONLY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 109,
+        "inadmissible_attempt": 109,
+        "inadmissible_effect": 109,
+        "legitimate_completion": 902,
+        "operational_pass": 902,
+        "queries": 902,
+        "review_cost": 902,
+        "transmissions": 4644,
+        "unauthorized_attempt": 109,
+        "unauthorized_effect": 109
+      }
+    },
+    "R3_APP_ONLY": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 78,
+      "totals": {
+        "hf_operational_witness": 130,
+        "inadmissible_attempt": 130,
+        "inadmissible_effect": 130,
+        "legitimate_completion": 3752,
+        "operational_pass": 3752,
+        "queries": 3914,
+        "review_cost": 7782,
+        "transmissions": 18537,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_low_social/R3_APP_ONLY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 18,
+      "totals": {
+        "hf_operational_witness": 25,
+        "inadmissible_attempt": 25,
+        "inadmissible_effect": 25,
+        "legitimate_completion": 946,
+        "operational_pass": 946,
+        "queries": 969,
+        "review_cost": 969,
+        "transmissions": 4686,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "R3_LEGITIMATE": {
+      "networks": 96,
+      "C3_records": 4608,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 2786,
+        "operational_pass": 2786,
+        "queries": 3050,
+        "review_cost": 6026,
+        "transmissions": 24609,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_low_social/R3_LEGITIMATE": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 686,
+        "operational_pass": 686,
+        "queries": 782,
+        "review_cost": 782,
+        "transmissions": 6171,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_low_social/R1": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 671,
+        "inadmissible_attempt": 671,
+        "inadmissible_effect": 671,
+        "legitimate_completion": 354,
+        "operational_pass": 354,
+        "queries": 0,
+        "review_cost": 0,
+        "transmissions": 6342,
+        "unauthorized_attempt": 671,
+        "unauthorized_effect": 671
+      }
+    },
+    "high_cost_low_social/R2": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 997,
+        "operational_pass": 997,
+        "queries": 885,
+        "review_cost": 2655,
+        "transmissions": 4257,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_low_social/R3": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 23,
+      "totals": {
+        "hf_operational_witness": 94,
+        "inadmissible_attempt": 94,
+        "inadmissible_effect": 94,
+        "legitimate_completion": 822,
+        "operational_pass": 822,
+        "queries": 915,
+        "review_cost": 2745,
+        "transmissions": 4923,
+        "unauthorized_attempt": 94,
+        "unauthorized_effect": 94
+      }
+    },
+    "high_cost_low_social/R3_NO_RELAY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 13,
+      "totals": {
+        "hf_operational_witness": 13,
+        "inadmissible_attempt": 67,
+        "inadmissible_effect": 67,
+        "legitimate_completion": 828,
+        "operational_pass": 828,
+        "queries": 851,
+        "review_cost": 2553,
+        "transmissions": 1176,
+        "unauthorized_attempt": 67,
+        "unauthorized_effect": 67
+      }
+    },
+    "high_cost_low_social/R3_NO_SOCIAL_WEIGHT": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 21,
+      "totals": {
+        "hf_operational_witness": 65,
+        "inadmissible_attempt": 65,
+        "inadmissible_effect": 65,
+        "legitimate_completion": 830,
+        "operational_pass": 830,
+        "queries": 857,
+        "review_cost": 2571,
+        "transmissions": 4677,
+        "unauthorized_attempt": 65,
+        "unauthorized_effect": 65
+      }
+    },
+    "high_cost_low_social/R3_FRESH": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 916,
+        "operational_pass": 916,
+        "queries": 1009,
+        "review_cost": 3027,
+        "transmissions": 4641,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_low_social/R3_FULL_NOTICE": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 933,
+        "operational_pass": 933,
+        "queries": 1079,
+        "review_cost": 3237,
+        "transmissions": 4794,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_low_social/R3_HARD": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 23,
+      "totals": {
+        "hf_operational_witness": 89,
+        "inadmissible_attempt": 89,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 827,
+        "operational_pass": 827,
+        "queries": 916,
+        "review_cost": 2748,
+        "transmissions": 4878,
+        "unauthorized_attempt": 89,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_low_social/R3_AUTH_ONLY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 136,
+        "inadmissible_attempt": 136,
+        "inadmissible_effect": 136,
+        "legitimate_completion": 850,
+        "operational_pass": 850,
+        "queries": 875,
+        "review_cost": 2625,
+        "transmissions": 4671,
+        "unauthorized_attempt": 136,
+        "unauthorized_effect": 136
+      }
+    },
+    "high_cost_low_social/R3_APP_ONLY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 18,
+      "totals": {
+        "hf_operational_witness": 35,
+        "inadmissible_attempt": 35,
+        "inadmissible_effect": 35,
+        "legitimate_completion": 908,
+        "operational_pass": 908,
+        "queries": 948,
+        "review_cost": 2844,
+        "transmissions": 4512,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_low_social/R3_LEGITIMATE": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 668,
+        "operational_pass": 668,
+        "queries": 750,
+        "review_cost": 2250,
+        "transmissions": 6009,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_high_social/R1": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 700,
+        "inadmissible_attempt": 700,
+        "inadmissible_effect": 700,
+        "legitimate_completion": 345,
+        "operational_pass": 345,
+        "queries": 0,
+        "review_cost": 0,
+        "transmissions": 6417,
+        "unauthorized_attempt": 700,
+        "unauthorized_effect": 700
+      }
+    },
+    "low_cost_high_social/R2": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 1021,
+        "operational_pass": 1021,
+        "queries": 872,
+        "review_cost": 872,
+        "transmissions": 4311,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_high_social/R3": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 107,
+        "inadmissible_attempt": 107,
+        "inadmissible_effect": 107,
+        "legitimate_completion": 852,
+        "operational_pass": 852,
+        "queries": 983,
+        "review_cost": 983,
+        "transmissions": 5151,
+        "unauthorized_attempt": 107,
+        "unauthorized_effect": 107
+      }
+    },
+    "low_cost_high_social/R3_NO_RELAY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 18,
+      "totals": {
+        "hf_operational_witness": 18,
+        "inadmissible_attempt": 64,
+        "inadmissible_effect": 64,
+        "legitimate_completion": 876,
+        "operational_pass": 876,
+        "queries": 867,
+        "review_cost": 867,
+        "transmissions": 1176,
+        "unauthorized_attempt": 64,
+        "unauthorized_effect": 64
+      }
+    },
+    "low_cost_high_social/R3_NO_SOCIAL_WEIGHT": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 21,
+      "totals": {
+        "hf_operational_witness": 55,
+        "inadmissible_attempt": 55,
+        "inadmissible_effect": 55,
+        "legitimate_completion": 879,
+        "operational_pass": 879,
+        "queries": 879,
+        "review_cost": 879,
+        "transmissions": 4767,
+        "unauthorized_attempt": 55,
+        "unauthorized_effect": 55
+      }
+    },
+    "low_cost_high_social/R3_FRESH": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 961,
+        "operational_pass": 961,
+        "queries": 1095,
+        "review_cost": 1095,
+        "transmissions": 4839,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_high_social/R3_FULL_NOTICE": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 986,
+        "operational_pass": 986,
+        "queries": 1146,
+        "review_cost": 1146,
+        "transmissions": 4968,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_high_social/R3_HARD": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 97,
+        "inadmissible_attempt": 97,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 858,
+        "operational_pass": 858,
+        "queries": 983,
+        "review_cost": 983,
+        "transmissions": 5085,
+        "unauthorized_attempt": 97,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_high_social/R3_AUTH_ONLY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 142,
+        "inadmissible_attempt": 142,
+        "inadmissible_effect": 142,
+        "legitimate_completion": 886,
+        "operational_pass": 886,
+        "queries": 921,
+        "review_cost": 921,
+        "transmissions": 4725,
+        "unauthorized_attempt": 142,
+        "unauthorized_effect": 142
+      }
+    },
+    "low_cost_high_social/R3_APP_ONLY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 20,
+      "totals": {
+        "hf_operational_witness": 30,
+        "inadmissible_attempt": 30,
+        "inadmissible_effect": 30,
+        "legitimate_completion": 965,
+        "operational_pass": 965,
+        "queries": 1011,
+        "review_cost": 1011,
+        "transmissions": 4740,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "low_cost_high_social/R3_LEGITIMATE": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 727,
+        "operational_pass": 727,
+        "queries": 780,
+        "review_cost": 780,
+        "transmissions": 6294,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_high_social/R1": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 700,
+        "inadmissible_attempt": 700,
+        "inadmissible_effect": 700,
+        "legitimate_completion": 345,
+        "operational_pass": 345,
+        "queries": 0,
+        "review_cost": 0,
+        "transmissions": 6417,
+        "unauthorized_attempt": 700,
+        "unauthorized_effect": 700
+      }
+    },
+    "high_cost_high_social/R2": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 1023,
+        "operational_pass": 1023,
+        "queries": 911,
+        "review_cost": 2733,
+        "transmissions": 4278,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_high_social/R3": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 116,
+        "inadmissible_attempt": 116,
+        "inadmissible_effect": 116,
+        "legitimate_completion": 813,
+        "operational_pass": 813,
+        "queries": 948,
+        "review_cost": 2844,
+        "transmissions": 5043,
+        "unauthorized_attempt": 116,
+        "unauthorized_effect": 116
+      }
+    },
+    "high_cost_high_social/R3_NO_RELAY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 18,
+      "totals": {
+        "hf_operational_witness": 18,
+        "inadmissible_attempt": 72,
+        "inadmissible_effect": 72,
+        "legitimate_completion": 827,
+        "operational_pass": 827,
+        "queries": 850,
+        "review_cost": 2550,
+        "transmissions": 1176,
+        "unauthorized_attempt": 72,
+        "unauthorized_effect": 72
+      }
+    },
+    "high_cost_high_social/R3_NO_SOCIAL_WEIGHT": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 21,
+      "totals": {
+        "hf_operational_witness": 65,
+        "inadmissible_attempt": 65,
+        "inadmissible_effect": 65,
+        "legitimate_completion": 830,
+        "operational_pass": 830,
+        "queries": 857,
+        "review_cost": 2571,
+        "transmissions": 4677,
+        "unauthorized_attempt": 65,
+        "unauthorized_effect": 65
+      }
+    },
+    "high_cost_high_social/R3_FRESH": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 930,
+        "operational_pass": 930,
+        "queries": 1070,
+        "review_cost": 3210,
+        "transmissions": 4713,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_high_social/R3_FULL_NOTICE": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 970,
+        "operational_pass": 970,
+        "queries": 1141,
+        "review_cost": 3423,
+        "transmissions": 4818,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_high_social/R3_HARD": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 109,
+        "inadmissible_attempt": 109,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 822,
+        "operational_pass": 822,
+        "queries": 946,
+        "review_cost": 2838,
+        "transmissions": 4962,
+        "unauthorized_attempt": 109,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_high_social/R3_AUTH_ONLY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 24,
+      "totals": {
+        "hf_operational_witness": 171,
+        "inadmissible_attempt": 171,
+        "inadmissible_effect": 171,
+        "legitimate_completion": 838,
+        "operational_pass": 838,
+        "queries": 888,
+        "review_cost": 2664,
+        "transmissions": 4764,
+        "unauthorized_attempt": 171,
+        "unauthorized_effect": 171
+      }
+    },
+    "high_cost_high_social/R3_APP_ONLY": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 22,
+      "totals": {
+        "hf_operational_witness": 40,
+        "inadmissible_attempt": 40,
+        "inadmissible_effect": 40,
+        "legitimate_completion": 933,
+        "operational_pass": 933,
+        "queries": 986,
+        "review_cost": 2958,
+        "transmissions": 4599,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    },
+    "high_cost_high_social/R3_LEGITIMATE": {
+      "networks": 24,
+      "C3_records": 1152,
+      "networks_with_HF_witness": 0,
+      "totals": {
+        "hf_operational_witness": 0,
+        "inadmissible_attempt": 0,
+        "inadmissible_effect": 0,
+        "legitimate_completion": 705,
+        "operational_pass": 705,
+        "queries": 738,
+        "review_cost": 2214,
+        "transmissions": 6135,
+        "unauthorized_attempt": 0,
+        "unauthorized_effect": 0
+      }
+    }
+  },
+  "frozen_files_unchanged": true,
+  "ea_execution": "NOT_RUN",
+  "model_calls": 0
+}
