@@ -1,10 +1,10 @@
 # Ecosystem-level Agent Defense — Charter
 
-> **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
+> **Terminology reference.** [00M §1 — canonical definitions](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) defines the result of active exploitation, its established basis and characterized exploitation reserve, the exploration frontier, and residual uncertainty beyond effective evaluation. This charter uses these descriptive names; A/B/C/D remain secondary reference labels. The distinctions are explained in [Annex B.2](#b2-four-component-reference-position). This terminology clarification does not rename local test arms, change requirements or revalidate recorded proofs/results.
 
 > **v0.2 Working Draft — work in progress.** This draft will receive further modifications and contributor review before version 0.2 is considered complete. Publication in this repository does not mean that v0.2 is final, frozen or approved by FG-TIDA.
 
-**Status:** Draft v0.2 — editorial working proposal, 28 September 2026  
+**Status:** Draft v0.2 — editorial working proposal, 28 September 2026; terminology clarified 2 October 2026 against 00M v0.8 §1.  
 **Originating issue:** [Theme #13 — Ecosystem-level Agent Defense](https://github.com/FG-TIDA/themes/issues/13)  
 **Proposer(s) / drafter(s):** Ward Duchamps, Thales — originating Theme proposer; Iván Abril Palma — preparation-draft synthesis. Nelson Trasatti and Oleksii Voshchak are attributed contributors through the public sources identified below; attribution does not imply approval of this text. Formal editors, maintainers and any WG roles remain to be agreed.
 
@@ -68,7 +68,7 @@ In scope:
 - local closure versus system-level support; and
 - attempted execution versus externally confirmed outcome where that distinction is material and observable.
 
-EA qualifies a receiving participant's decision under a declared scope and time. A qualified local result does not establish a complete ecosystem state. The contributor architecture's four-component representation is explained in [Annex B.2](#b2-four-component-reference-position); it is not a required transmission format.
+EA qualifies a receiving participant's decision under a declared scope and time. It distinguishes the **result of active exploitation**, its **established basis and characterized exploitation reserve**, a grounded **exploration frontier**, and **residual uncertainty beyond effective evaluation**. In practical terms: what the process delivered; what supports it and what further work is already assessable; where exploration could establish a basis for evaluation; and which potentially material effects remain beyond its effective evaluation routes. A qualified local result does not establish a complete ecosystem state. [Annex B.2](#b2-four-component-reference-position) explains these process-relative components and their reference labels; they are not a required transmission format.
 
 The EA-facing part of Oleksii's contribution assesses the scope and assumptions supporting a decision, what remains unresolved, what more could be established with current capabilities, and the relevant dependencies and evidence sources. It consumes current authority-applicability and oversight-capacity determinations from their respective owners. It does not calculate institutional authority, decide grant standing or certify oversight capacity.
 
@@ -250,7 +250,9 @@ Candidate content:
 - source dependence / independent corroboration;
 - finite determination resources;
 - whether the scope, assumptions and evidence still support the assessment;
-- additional decision-relevant knowledge obtainable with current capabilities;
+- established grounds and limits of the delivered result, including a characterized exploitation reserve that remains assessable even when unused;
+- grounded exploration frontiers whose evaluation basis is not yet established;
+- residual uncertainty beyond effective evaluation under the declared access, authority, method, capability and time;
 - targeted requalification;
 - output validity/limitations; and
 - no-supercontroller / no-authority-creation rules.
@@ -476,7 +478,20 @@ The charter therefore commissions compatibility and bounded profiles, **not adop
 
 ### B.2 Four-component reference position
 
-EA qualifies a receiving participant's decision under a declared scope and time. A qualified local closure does not establish a complete ecosystem state. In the reference EA architecture, **A** denotes the functional result; **B**, its established basis and characterized assessable reserve; **C**, a grounded exploration frontier without an established evaluation basis; and **D**, potentially material effects beyond effective evaluation routes. The definitions follow [00M §1 — canonical A/B/C/D definitions](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). These are components of one qualified position, not mutually exclusive quadrants, mandatory transmission fields or the four-field Theme #13 envelope.
+EA qualifies a receiving participant's decision under a declared scope and time. A qualified local closure does not establish a complete ecosystem state. The following descriptive names follow [00M §1 — canonical definitions](../../baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical); the letters are retained only for reference to the EA corpus.
+
+| Component | Meaning for the specified process |
+|---|---|
+| **Result of active exploitation** (A) | What the process actually establishes and delivers through its current activity. The result may itself be an assessment, estimate or exploration finding. |
+| **Established basis, limits and characterized exploitation reserve** (B) | What supports and bounds the delivered result, together with further work for which the relevant question, variables and evaluation method are already characterized. An assessable option remains in this reserve even when it is left unused. |
+| **Exploration frontier** (C) | A grounded avenue that the process could begin to investigate, without an established basis for evaluating its extent, effort, feasibility, benefit or risk. A bounded first step may have a known budget while the wider frontier remains uncharacterized. |
+| **Residual uncertainty beyond effective evaluation** (D) | Potentially material influences whose relevant effects the process has no effective route to evaluate under its current access, authority, method, capability and time. Related indicators may still be monitored without resolving those effects. |
+
+Each component is relative to a producer, functional process, question, scope, capability and time. The same aspect can be an exploration frontier for one participant and a characterized reserve for another. That correspondence does not itself transfer evidence, access, authority or validity. If the grounds for assigning a role are not established, the role remains UNKNOWN.
+
+**Exploitation, evaluation and exploration are functions, not alternative names for these components.** Exploitation uses established capabilities and a current frame to produce a result. Evaluation applies an established question, variables and method to an assessable aspect or option. Exploration investigates a grounded avenue to establish such a basis. A characterized reserve is not an activity, and a known evaluable option does not become an exploration frontier merely because it has not been used.
+
+These are components of one qualified position, not mutually exclusive quadrants, four probabilities, mandatory transmission fields or the four-field Theme #13 envelope.
 
 ### B.3 Interface reference documents
 
@@ -493,7 +508,7 @@ The existing #13 **determinacy envelope** is a small set of qualifiers explainin
 | `capacity_binding` | Whether human-oversight capacity was not binding, was an active constraint, or was unavailable at decision time. | This consumes the oversight-capacity owner's assessment; it does not calculate institutional capacity. Other capacity dimensions require an explicit profile interpretation. |
 | `inherited_indeterminacy` | Whether the decision materially relied on unresolved upstream closure, directly or through further dependencies, or whether that upstream state is unknown. | A locally determined result may still inherit indeterminacy. Unknown upstream state must not be reported as no inherited indeterminacy. |
 
-These are explanations of the [originating proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5554099339), not a newly frozen schema. The profile is not a replacement for the general kernel, not the A/B/C/D tuple and not a requirement that other Themes translate their native outputs into #13 states. Broader EHD standardization and ownership remain open.
+These are explanations of the [originating proposal](https://github.com/FG-TIDA/themes/issues/13#issuecomment-5554099339), not a newly frozen schema. The profile is not a replacement for the general kernel, not the four-component EA reference position in Annex B.2 and not a requirement that other Themes translate their native outputs into #13 states. Broader EHD standardization and ownership remain open.
 
 ## Annex D: Reference cases and delivery detail
 
