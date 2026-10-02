@@ -1,0 +1,581 @@
+{
+  "status": "ALL_FINITE_ASSERTIONS_PASSED",
+  "scope": "Synthetic encoding and explicit counterexamples only; no historical replay, LLM, network or product execution",
+  "full_R01_extensionality": "NOT_ESTABLISHED",
+  "historical_HF_admission": "NOT_ESTABLISHED",
+  "EA_differential": "NOT_TESTED",
+  "counts": {
+    "complete_view_pairs": 25,
+    "early_exit_cost_identities": 72,
+    "exact_optima": 576,
+    "exact_query_policy_values": 36,
+    "full_and_repeated_cost_identities": 72,
+    "joint_configurations": 288,
+    "joint_radius_path_checks": 100224,
+    "path_outcome_and_connector_checks": 33408,
+    "path_set_bijections": 576,
+    "population_resource_configurations": 24,
+    "realized_chain_profiles": 2304,
+    "relay_deduplication_checks": 24,
+    "scope_and_authority_rejections": 5,
+    "window_unique_coverage_checks": 918
+  },
+  "query_curves": [
+    {
+      "U": 2,
+      "budget": 0,
+      "optimistic": "1/2",
+      "strict": "1/2",
+      "certificate": "1/2"
+    },
+    {
+      "U": 2,
+      "budget": 1,
+      "optimistic": "3/4",
+      "strict": "1/2",
+      "certificate": "1"
+    },
+    {
+      "U": 2,
+      "budget": 2,
+      "optimistic": "1",
+      "strict": "1",
+      "certificate": "1"
+    },
+    {
+      "U": 3,
+      "budget": 0,
+      "optimistic": "1/2",
+      "strict": "1/2",
+      "certificate": "1/2"
+    },
+    {
+      "U": 3,
+      "budget": 1,
+      "optimistic": "2/3",
+      "strict": "1/2",
+      "certificate": "1"
+    },
+    {
+      "U": 3,
+      "budget": 2,
+      "optimistic": "5/6",
+      "strict": "1/2",
+      "certificate": "1"
+    },
+    {
+      "U": 3,
+      "budget": 3,
+      "optimistic": "1",
+      "strict": "1",
+      "certificate": "1"
+    },
+    {
+      "U": 4,
+      "budget": 0,
+      "optimistic": "1/2",
+      "strict": "1/2",
+      "certificate": "1/2"
+    },
+    {
+      "U": 4,
+      "budget": 1,
+      "optimistic": "5/8",
+      "strict": "1/2",
+      "certificate": "1"
+    },
+    {
+      "U": 4,
+      "budget": 2,
+      "optimistic": "3/4",
+      "strict": "1/2",
+      "certificate": "1"
+    },
+    {
+      "U": 4,
+      "budget": 3,
+      "optimistic": "7/8",
+      "strict": "1/2",
+      "certificate": "1"
+    },
+    {
+      "U": 4,
+      "budget": 4,
+      "optimistic": "1",
+      "strict": "1",
+      "certificate": "1"
+    }
+  ],
+  "resource_examples": [
+    {
+      "L": 2,
+      "U": 1,
+      "N": 1,
+      "shared_cost": "5/4",
+      "duplicate_cost": "5/4",
+      "query_rounds": 1,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 2,
+      "U": 1,
+      "N": 2,
+      "shared_cost": "5/4",
+      "duplicate_cost": "5/2",
+      "query_rounds": 1,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 2,
+      "U": 1,
+      "N": 4,
+      "shared_cost": "5/4",
+      "duplicate_cost": "5",
+      "query_rounds": 1,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 2,
+      "U": 2,
+      "N": 1,
+      "shared_cost": "9/4",
+      "duplicate_cost": "9/4",
+      "query_rounds": 2,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 2,
+      "U": 2,
+      "N": 2,
+      "shared_cost": "5/2",
+      "duplicate_cost": "9/2",
+      "query_rounds": 1,
+      "coordination_included_once": "1/2",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 2,
+      "U": 2,
+      "N": 4,
+      "shared_cost": "5/2",
+      "duplicate_cost": "9",
+      "query_rounds": 1,
+      "coordination_included_once": "1/2",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 4,
+      "U": 1,
+      "N": 1,
+      "shared_cost": "5/4",
+      "duplicate_cost": "5/4",
+      "query_rounds": 1,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 4,
+      "U": 1,
+      "N": 2,
+      "shared_cost": "5/4",
+      "duplicate_cost": "5/2",
+      "query_rounds": 1,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 4,
+      "U": 1,
+      "N": 4,
+      "shared_cost": "5/4",
+      "duplicate_cost": "5",
+      "query_rounds": 1,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 4,
+      "U": 2,
+      "N": 1,
+      "shared_cost": "9/4",
+      "duplicate_cost": "9/4",
+      "query_rounds": 2,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 4,
+      "U": 2,
+      "N": 2,
+      "shared_cost": "5/2",
+      "duplicate_cost": "9/2",
+      "query_rounds": 1,
+      "coordination_included_once": "1/2",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 4,
+      "U": 2,
+      "N": 4,
+      "shared_cost": "5/2",
+      "duplicate_cost": "9",
+      "query_rounds": 1,
+      "coordination_included_once": "1/2",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 4,
+      "U": 4,
+      "N": 1,
+      "shared_cost": "17/4",
+      "duplicate_cost": "17/4",
+      "query_rounds": 4,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": false,
+      "fits_4_per_agent": false
+    },
+    {
+      "L": 4,
+      "U": 4,
+      "N": 2,
+      "shared_cost": "9/2",
+      "duplicate_cost": "17/2",
+      "query_rounds": 2,
+      "coordination_included_once": "1/2",
+      "fits_fixed_total_4": false,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 4,
+      "U": 4,
+      "N": 4,
+      "shared_cost": "5",
+      "duplicate_cost": "17",
+      "query_rounds": 1,
+      "coordination_included_once": "1",
+      "fits_fixed_total_4": false,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 8,
+      "U": 1,
+      "N": 1,
+      "shared_cost": "5/4",
+      "duplicate_cost": "5/4",
+      "query_rounds": 1,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 8,
+      "U": 1,
+      "N": 2,
+      "shared_cost": "5/4",
+      "duplicate_cost": "5/2",
+      "query_rounds": 1,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 8,
+      "U": 1,
+      "N": 4,
+      "shared_cost": "5/4",
+      "duplicate_cost": "5",
+      "query_rounds": 1,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 8,
+      "U": 2,
+      "N": 1,
+      "shared_cost": "9/4",
+      "duplicate_cost": "9/4",
+      "query_rounds": 2,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 8,
+      "U": 2,
+      "N": 2,
+      "shared_cost": "5/2",
+      "duplicate_cost": "9/2",
+      "query_rounds": 1,
+      "coordination_included_once": "1/2",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 8,
+      "U": 2,
+      "N": 4,
+      "shared_cost": "5/2",
+      "duplicate_cost": "9",
+      "query_rounds": 1,
+      "coordination_included_once": "1/2",
+      "fits_fixed_total_4": true,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 8,
+      "U": 4,
+      "N": 1,
+      "shared_cost": "17/4",
+      "duplicate_cost": "17/4",
+      "query_rounds": 4,
+      "coordination_included_once": "1/4",
+      "fits_fixed_total_4": false,
+      "fits_4_per_agent": false
+    },
+    {
+      "L": 8,
+      "U": 4,
+      "N": 2,
+      "shared_cost": "9/2",
+      "duplicate_cost": "17/2",
+      "query_rounds": 2,
+      "coordination_included_once": "1/2",
+      "fits_fixed_total_4": false,
+      "fits_4_per_agent": true
+    },
+    {
+      "L": 8,
+      "U": 4,
+      "N": 4,
+      "shared_cost": "5",
+      "duplicate_cost": "17",
+      "query_rounds": 1,
+      "coordination_included_once": "1",
+      "fits_fixed_total_4": false,
+      "fits_4_per_agent": true
+    }
+  ],
+  "cost_identities": [
+    {
+      "L": 2,
+      "N": 1,
+      "cv": "1/2",
+      "once": "1",
+      "prefixes": "3/2",
+      "full_per_step": "2"
+    },
+    {
+      "L": 2,
+      "N": 1,
+      "cv": "1",
+      "once": "2",
+      "prefixes": "3",
+      "full_per_step": "4"
+    },
+    {
+      "L": 2,
+      "N": 2,
+      "cv": "1/2",
+      "once": "2",
+      "prefixes": "3",
+      "full_per_step": "4"
+    },
+    {
+      "L": 2,
+      "N": 2,
+      "cv": "1",
+      "once": "4",
+      "prefixes": "6",
+      "full_per_step": "8"
+    },
+    {
+      "L": 2,
+      "N": 4,
+      "cv": "1/2",
+      "once": "4",
+      "prefixes": "6",
+      "full_per_step": "8"
+    },
+    {
+      "L": 2,
+      "N": 4,
+      "cv": "1",
+      "once": "8",
+      "prefixes": "12",
+      "full_per_step": "16"
+    },
+    {
+      "L": 3,
+      "N": 1,
+      "cv": "1/2",
+      "once": "3/2",
+      "prefixes": "3",
+      "full_per_step": "9/2"
+    },
+    {
+      "L": 3,
+      "N": 1,
+      "cv": "1",
+      "once": "3",
+      "prefixes": "6",
+      "full_per_step": "9"
+    },
+    {
+      "L": 3,
+      "N": 2,
+      "cv": "1/2",
+      "once": "3",
+      "prefixes": "6",
+      "full_per_step": "9"
+    },
+    {
+      "L": 3,
+      "N": 2,
+      "cv": "1",
+      "once": "6",
+      "prefixes": "12",
+      "full_per_step": "18"
+    },
+    {
+      "L": 3,
+      "N": 4,
+      "cv": "1/2",
+      "once": "6",
+      "prefixes": "12",
+      "full_per_step": "18"
+    },
+    {
+      "L": 3,
+      "N": 4,
+      "cv": "1",
+      "once": "12",
+      "prefixes": "24",
+      "full_per_step": "36"
+    },
+    {
+      "L": 4,
+      "N": 1,
+      "cv": "1/2",
+      "once": "2",
+      "prefixes": "5",
+      "full_per_step": "8"
+    },
+    {
+      "L": 4,
+      "N": 1,
+      "cv": "1",
+      "once": "4",
+      "prefixes": "10",
+      "full_per_step": "16"
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "cv": "1/2",
+      "once": "4",
+      "prefixes": "10",
+      "full_per_step": "16"
+    },
+    {
+      "L": 4,
+      "N": 2,
+      "cv": "1",
+      "once": "8",
+      "prefixes": "20",
+      "full_per_step": "32"
+    },
+    {
+      "L": 4,
+      "N": 4,
+      "cv": "1/2",
+      "once": "8",
+      "prefixes": "20",
+      "full_per_step": "32"
+    },
+    {
+      "L": 4,
+      "N": 4,
+      "cv": "1",
+      "once": "16",
+      "prefixes": "40",
+      "full_per_step": "64"
+    },
+    {
+      "L": 8,
+      "N": 1,
+      "cv": "1/2",
+      "once": "4",
+      "prefixes": "18",
+      "full_per_step": "32"
+    },
+    {
+      "L": 8,
+      "N": 1,
+      "cv": "1",
+      "once": "8",
+      "prefixes": "36",
+      "full_per_step": "64"
+    },
+    {
+      "L": 8,
+      "N": 2,
+      "cv": "1/2",
+      "once": "8",
+      "prefixes": "36",
+      "full_per_step": "64"
+    },
+    {
+      "L": 8,
+      "N": 2,
+      "cv": "1",
+      "once": "16",
+      "prefixes": "72",
+      "full_per_step": "128"
+    },
+    {
+      "L": 8,
+      "N": 4,
+      "cv": "1/2",
+      "once": "16",
+      "prefixes": "72",
+      "full_per_step": "128"
+    },
+    {
+      "L": 8,
+      "N": 4,
+      "cv": "1",
+      "once": "32",
+      "prefixes": "144",
+      "full_per_step": "256"
+    }
+  ],
+  "counterexamples": {
+    "same_marginals_different_coupling": {
+      "best_within_radius_1": [
+        1,
+        3
+      ]
+    },
+    "composition_rule_changed": "AND and parity are not interchangeable",
+    "known_prohibition_still_executed": "outside the basic rejecting receiver",
+    "no_legal_completion": "cannot preserve required M/I without changing the task",
+    "sufficient_aggregate": "certificate curve removes the modeled information obstruction"
+  }
+}
