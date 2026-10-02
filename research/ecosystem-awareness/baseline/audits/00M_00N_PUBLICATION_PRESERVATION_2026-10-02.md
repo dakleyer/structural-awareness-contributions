@@ -43,3 +43,7 @@ The original note and figure bytes are unchanged. Research-note status remains a
 | `visuals/EA_REQUIREMENTS_v0.1.png` | `f6bbfb091076f781dc79db872238502c78eb280590111b5a9ea9e267b76670c3` |
 
 The Tegrity entry article and its annexes are a separate update-planning task; this publication does not edit the website or reclassify its evidence claims. Any later edits should preserve the original published snapshots and explicitly identify successor semantics.
+
+## Architectural entry-point navigation follow-up
+
+After publication commit `d855f8d46a1b62eb2936f16faeb3c022835786b1`, the same reading route was added to `architectural-contributions/ecosystem-positioning/README.md`, the entry point linked by the public article. The complete preceding README text is preserved in order; this is an insertion only. The preceding preservation results and original-source hashes remain unchanged.

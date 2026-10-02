@@ -15,6 +15,11 @@
 
 **Canonical source:** the versioned technical corpus in this GitHub repository governs architecture, requirements and evidence. Articles, annexes and outreach presentations communicate that corpus; they do not supersede it.
 
+
+### Mathematical and functional plausibility
+
+Read [00M v0.8 — A/B/C/D semantics and mathematical plausibility](../../research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), then [00N v0.7 — Can Ecosystem Awareness Work?](../../research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). The [three visual reading aids](../../research/ecosystem-awareness/baseline/visuals/README.md) summarize the distinctions, mechanisms and requirements bridge; the [research-neighbours addendum](../../research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) supplies further precedents. These research notes provide conditional plausibility arguments, not evidence of engineering feasibility, product prevention or requirements fulfilment; publication does not silently promote a new canonical baseline. The [preservation record](../../research/ecosystem-awareness/baseline/audits/00M_00N_PUBLICATION_PRESERVATION_2026-10-02.md) identifies the publication scope.
+
 ### Hypothesis and traceability — start here
 
 **[Common causal hypothesis, failure modes and forward/reverse proof route](./documents/2026-09-29/README.md)** — start with the [causal hypothesis and refutation protocol 0.3](./documents/2026-09-29/Common_Cause_Hypothesis_and_Refutation_Protocol.docx), then the [current traceability bridge 0.4.1](./documents/2026-09-29/Hypothesis_Thesis_and_Principle_Traceability_v0.4.1.docx). The index connects HC/H1–H6, 00E–00J, P1–P6, S/T, the executed audits and A19/A23/A24, with the supported directions, retained counterexamples and open claims distinguished.
