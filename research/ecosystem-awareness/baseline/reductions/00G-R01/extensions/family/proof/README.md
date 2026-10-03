@@ -3,6 +3,8 @@
 
 [Family](../README.md) · [Proposition and proof](../KERNEL_AND_PROOF.md) · [Code](./check.py) · [Results](./results.json)
 
+**Incident scope:** Reproduction here means rerunning the declared synthetic model, not reproducing a historical incident or establishing its cause. Failure or success of this check does not refute or verify the occurrence of the motivating incidents. See the [scenario scope](../README.md#incident-scope) and the [common evidence rule](../../CRITERIA_AND_AUDIT.md#historical-and-constructed-scope).
+
 <a id="qué-se-ha-ejecutado"></a>
 ## What has been executed
 

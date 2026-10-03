@@ -12,6 +12,8 @@ An extension may add variables and mechanisms and preserve a kernel isomorphic t
 
 We define a deliberately strong sufficient criterion. It is not presented as a necessary condition for every possible relation to R01. A case not satisfying it may require weaker simulation, an expansion of R01 or a different family. It is not admitted through narrative resemblance.
 
+This proof concerns declared constructed kernels. It does not identify them with the complete motivating historical incidents or their causal mechanisms. Failure to establish the correspondence or observe the modeled failure does not refute occurrence of those incidents; proving preservation or producing a similar failure does not establish their historical cause. [Common scope rule](../CRITERIA_AND_AUDIT.md#historical-and-constructed-scope).
+
 “Isomorphic” is used strictly for the indicated structures. Changing a cost or radius does not necessarily preserve numerical isomorphism with the initial instance. We distinguish:
 
 1. **Representation change:** the same system with another encoding or units, reversibly normalized.

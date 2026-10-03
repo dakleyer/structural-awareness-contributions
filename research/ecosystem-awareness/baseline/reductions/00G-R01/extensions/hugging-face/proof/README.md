@@ -3,6 +3,8 @@
 
 [Case document](../README.md) · [00G-R01](../../../README.md) · [Extensions table](../../../README.md#extensiones)
 
+**Incident scope:** Reproduction here means rerunning the declared synthetic model, not reproducing a historical incident or establishing its cause. Failure or success of this check does not refute or verify the occurrence of the motivating incidents. See the [scenario scope](../README.md#incident-scope) and the [common evidence rule](../../CRITERIA_AND_AUDIT.md#historical-and-constructed-scope).
+
 | File | Function |
 |---|---|
 | [check.py](../check.py) | Check of synthetic correspondence and counterexamples. |

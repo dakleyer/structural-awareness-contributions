@@ -10,6 +10,11 @@ The task is to diagnose a DNS incident and deliver a correction proposal. An ext
 
 The case studies a new combination of data or analysis steps for which an earlier check may no longer be sufficient. The setting and field names are trial assumptions, not a claim that Infoblox products have a demonstrated defect.
 
+<a id="incident-scope"></a>
+**Scope of this scenario.** The DNS setting is a constructed technological scenario for selected R01-compatible failure modes, not a complete reconstruction of an observed Infoblox incident or a demonstrated product defect. The reference to METR in the common scope rule concerns the motivating Hugging Face investigation; it does not assert that METR studied this DNS scenario. This extension does not claim that its modeled mechanism caused a reported real incident.
+
+If an R01 difficulty disappears here, that limits the tested model or correspondence; it does not refute the occurrence of motivating real incidents or exclude other mechanisms. A positive modeled failure likewise does not establish a historical cause. [Common scope rule](../CRITERIA_AND_AUDIT.md#historical-and-constructed-scope).
+
 <a id="readable-scenario"></a>
 ## 2 The scenario step by step
 

@@ -10,6 +10,11 @@ This extension gathers different kinds of failure to make their relation to R01 
 
 The common question is what must be checked before an attractive alternative can satisfy the obligation. These cases are a mix of selected parallels. Each uses the components relevant to its problem; it is not claimed that all observed incidents contain every R01 mechanism.
 
+<a id="incident-scope"></a>
+**Scope of these scenarios.** H, L and W isolate selected failure modes with features compatible with R01. They do not aim to reconstruct all details of the motivating incidents, exactly reproduce the Hugging Face incident investigated by METR and Redwood, or identify the causes of those incidents. The constructed mechanisms may differ from the historical ones.
+
+Absence of the R01 failure in a tested construction does not imply that a motivating incident did not occur or that a different mechanism could not produce a similar outcome. Presence of the failure does not establish the incident's cause. The stronger conditional proof applies to its declared constructed kernel; it does not turn the entire historical event into that kernel. [Common scope rule](../CRITERIA_AND_AUDIT.md#historical-and-constructed-scope).
+
 <a id="readable-scenario"></a>
 ## 2 The scenario step by step
 

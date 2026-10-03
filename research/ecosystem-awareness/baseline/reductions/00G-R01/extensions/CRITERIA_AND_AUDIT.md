@@ -18,6 +18,20 @@ The base is **R01 v0.6**, full text in [commit 114ac132](https://github.com/dakl
 
 The H/L/W family is a design framework, not a third technology. Its H is a constructed scenario inspired by questions from the Hugging Face case. The historical HF case record retains an additional obligation of correspondence with its sources; it is neither the same object nor a second historical case.
 
+<a id="historical-and-constructed-scope"></a>
+### Historical motivation and constructed failure modes
+
+The objective shared by the extensions is to investigate selected failure modes with R01-compatible features. Complete reconstruction of motivating incidents, including exact reproduction of the Hugging Face incident investigated by METR and Redwood, is outside that shared objective. The modeled mechanism is not identified as the historical cause; the mechanisms may differ. The Infoblox profile is a proposed technological setting, not an assertion that METR investigated it or that a vendor defect occurred.
+
+| Claim | Evidence required | Limit of the conclusion |
+|---|---|---|
+| Selected conceptual parallel | Explicit matching features and differences | Motivates a test; does not establish formal membership or historical causation. |
+| Preservation of a constructed kernel or bound | Applicable correspondence contract, policy class and proof obligations | Establishes the declared formal property, not an equivalence with the entire historical incident. |
+| Result of a bounded pilot | Recorded implementation, conditions, traces and uncertainty | Concerns the tested model and scope, not all causes of the motivating incident. |
+| Correspondence with a historical episode or causal claim | Separate source-grounded evidence for the declared episode or mechanism | Must not be inferred merely from a similar synthetic outcome. |
+
+An absent R01 failure can weaken the tested hypothesis or proposed applicability; it does not imply that a reported incident did not occur or exclude other causes. A present R01 failure likewise does not establish that it caused the historical outcome. A verified synthetic correspondence remains valid only within its contract. References below to historical admission or pending correspondence concern their declared external object or property; they do not make complete incident reconstruction the objective. These distinctions supplement the existing evidence states and leave every proof and admission obligation intact.
+
 <a id="2-contrato-común-de-correspondencia"></a>
 ## 2 Common correspondence contract
 

@@ -12,6 +12,11 @@ The OpenAI account examined here describes evaluations with reduced safeguards i
 
 R01 supplies a constructed experiment for a narrower question: when do discovery and sufficient checking produce a good permitted result within the available resources? The historical behavior and the experiment remain separate evidence. The complete source-grounded account is retained in the historical case section below.
 
+<a id="incident-scope"></a>
+**Scope of this scenario.** This is a constructed extension for selected failure modes with R01-compatible features. It does not aim to reproduce exactly the Hugging Face incident investigated by METR and Redwood or explain its entire history. The failure mechanism studied here need not be the mechanism responsible for that incident; no causal identification is established.
+
+If the modeled failure does not occur, that is evidence about this model and its tested conditions, not evidence that the historical incident did not occur. Other mechanisms may explain similar observed outcomes. A failure reproduced here likewise does not establish the historical cause. Historical correspondence or admission mentioned below concerns the explicitly declared episode or property, not coverage of every incident detail. [Common scope rule](../CRITERIA_AND_AUDIT.md#historical-and-constructed-scope).
+
 <a id="readable-scenario"></a>
 ## 2 The scenario step by step
 

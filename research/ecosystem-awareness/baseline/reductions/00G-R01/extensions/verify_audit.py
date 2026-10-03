@@ -41,12 +41,27 @@ def run():
     assert hashlib.sha256(fixed_base.encode()).hexdigest() == BASE_DIGEST, "The fixed R01 reference changed"
     pilot = json.loads((ROOT.parent / "PILOT_OBJECTIVE_TRACE.json").read_text())
     assert digest(ROOT.parent / "ORGANIZATION_TRACE.json") == pilot["predecessor_organization_trace_sha256"]
-    for name, expected in organization["after_sha256"].items():
-        expected = pilot["after_sha256"].get(name, expected)
-        assert digest(ROOT.parent / name) == expected, (name, "reading edition changed")
-    for name, expected in pilot["after_sha256"].items():
-        assert digest(ROOT.parent / name) == expected, (name, "pilot clarification changed")
-    recovered = {name: (ROOT.parent / name).read_text() for name in pilot["before_files"]}
+    scope = json.loads((ROOT.parent / "INCIDENT_SCOPE_TRACE.json").read_text())
+    for name, expected in scope["predecessor_trace_sha256"].items():
+        assert digest(ROOT.parent / name) == expected, (name, "preceding trace changed")
+    earlier_hashes = {**organization["after_sha256"], **pilot["after_sha256"]}
+    for name, expected in {**earlier_hashes, **scope["after_sha256"]}.items():
+        assert digest(ROOT.parent / name) == expected, (name, "current edition changed")
+    scope_recovered = {name: (ROOT.parent / name).read_text() for name in scope["before_files"]}
+    for change in reversed(scope["changes"]):
+        name, index = change["path"], change["index"]
+        before, after = change["before"], change["after"]
+        text = scope_recovered[name]
+        assert text[index:index + len(after)] == after, (name, "scope edit recovery mismatch")
+        scope_recovered[name] = text[:index] + before + text[index + len(after):]
+    for name, before in scope["before_files"].items():
+        assert scope_recovered[name] == before, (name, "previous scope edition not preserved")
+        expected = hashlib.sha256(before.encode()).hexdigest()
+        assert expected == scope["before_sha256"][name]
+        if name in earlier_hashes:
+            assert expected == earlier_hashes[name], (name, "preceding edition mismatch")
+    recovered = {name: scope_recovered[name] if name in scope_recovered
+                 else (ROOT.parent / name).read_text() for name in pilot["before_files"]}
     for change in reversed(pilot["changes"]):
         name, index = change["path"], change["index"]
         before, after = change["before"], change["after"]
@@ -153,6 +168,7 @@ def run():
                       ROOT.parent / "TRANSLATION_TRACE.md", ROOT.parent / "TRANSLATION_TRACE.json",
                       ROOT.parent / "ORGANIZATION_TRACE.md", ROOT.parent / "ORGANIZATION_TRACE.json",
                       ROOT.parent / "PILOT_OBJECTIVE_TRACE.md", ROOT.parent / "PILOT_OBJECTIVE_TRACE.json",
+                      ROOT.parent / "INCIDENT_SCOPE_TRACE.md", ROOT.parent / "INCIDENT_SCOPE_TRACE.json",
                       ROOT.parent / "Escenario-creatividad-validacion.md",
                       ROOT.parent / "reductions/00G-to-R01/README.md"]
     for case in CASES:
@@ -170,6 +186,8 @@ def run():
             "reading_organization": "2026-10-03 base, reduction and three extensions",
             "pilot_objective_clarification": "2026-10-03 bounded pilots, architecture selection and scale limits",
             "previous_reading_edition_preserved": True,
+            "incident_scope_clarification": "2026-10-03 selected compatible mechanisms; no complete historical reconstruction",
+            "previous_pilot_edition_preserved": True,
             "active_base_sha256": digest(base),
             "fixed_base_location": "ORGANIZATION_TRACE.json before_files",
             "translation_source_commit": "c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340",

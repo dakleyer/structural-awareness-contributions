@@ -551,6 +551,13 @@ SC-Ha does not predict a monotonic effect for all distributions: it depends on s
 
 The base scenario above can be understood and specified independently of any incident. Its documented reduction and the three extensions are indexed here; each case's evidence is explained in its own document.
 
+<a id="incident-scope"></a>
+**Scope of the constructed extensions.** Their purpose is to study selected failure modes with features compatible with R01, motivated by the documented cases. They do not aim to reconstruct every detail of those cases or exactly reproduce the Hugging Face incident investigated by METR and Redwood. The modeled failure need not be the causal mechanism of the reported incident; this work does not establish that identification, and the mechanisms may differ.
+
+If an R01 failure does not appear, or its assumptions do not fit a historical episode, that limits the claim about the tested model or proposed correspondence. It does not imply that the reported incident did not occur, nor rule out other mechanisms producing similar outcomes. Conversely, producing a similar failure in the model does not establish its historical cause. Formal preservation claims still require their stated contracts; similarity alone does not satisfy them.
+
+The practical use is to test compatible mechanisms in bounded pilots, with the scope and limits in §1.7. Exact historical reconstruction is a different claim requiring its own evidence. [Common scope and evidence rule](./extensions/CRITERIA_AND_AUDIT.md#historical-and-constructed-scope).
+
 ## Reductions
 
 | Documented reduction | What is simplified and retained | Explanation and proof status |
