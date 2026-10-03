@@ -1,0 +1,330 @@
+{
+  "task_id": "M02",
+  "status": "DONE",
+  "closure_scope": "explicit conjunctive candidate worlds/observations/complete route optimum and feasible controls; no universal bound",
+  "input_commit": "3384ba5d9db722808572d30ccee098fe92598410",
+  "actual_utc_completed_at": "2026-10-03T20:48:32.820588+00:00",
+  "executing_owner": "Codex, on user instruction",
+  "reviewer": "same executing agent",
+  "independent_review": false,
+  "source_reads": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "git_blob_sha": "98dc8883df2ef06514df6a98c7e9efd51b7db7a4",
+      "sha256": "9f93d52fb87036799d658b720965df669593c129bbdc4f66eaf5541d1e0e1c86",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+      "git_blob_sha": "54210c2ad3dd2366de3feb857952688181d66f3e",
+      "sha256": "90339e50f899045cfbf2b34557a42a64d160864d01b747ed83684b6cc447abcc",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "git_blob_sha": "fdff9b99a7c834d45428f18714bf6f27f53c11a2",
+      "sha256": "18b1cea640c12c224f5a4173fa5ff61f7752876d69b033fdb5637bcb746f6060",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "git_blob_sha": "933f7b8da99db1c7da96f9f9c234d4115ca75911",
+      "sha256": "8ea1c1d9aef76a7095c107488869885c121e23844d31b7aeedef7194ecf9fc7d",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "git_blob_sha": "eeac068cb2c8be0678b5d913b4a8dca2f167adf6",
+      "sha256": "2a113dd06e7ca77a2176ca2a62a3749f062a09bf5e96ce784619315a1fd499a4",
+      "git_blob_identity_verified": true
+    }
+  ],
+  "reproduction_commands": [
+    "python3 verify_m02_worlds.py > /tmp/M02_WORLD_CHECKS.json",
+    "cmp /tmp/M02_WORLD_CHECKS.json M02_WORLD_CHECKS.json"
+  ],
+  "command_results": {
+    "checker_exit_code": 0,
+    "exact_checks_PASS": 76,
+    "published_report_byte_identical": true
+  },
+  "candidate": {
+    "N": 1,
+    "worlds": 2,
+    "AVG_weights": [
+      "1/2",
+      "1/2"
+    ],
+    "L": 3,
+    "nodes": 9,
+    "connectors": 24,
+    "material_routes": 27,
+    "admissible_routes_each_world": 8,
+    "optima_each_world": 6,
+    "common_admissible_routes": 1,
+    "common_quality": 3,
+    "predicate": "fixed-binding conjunction, not parity or uniform-invalid-witness campaign",
+    "epsilon": "0",
+    "p_min": "3/4",
+    "delta": "1/4",
+    "cv": "1",
+    "ce": "2",
+    "hard_R": "11",
+    "easy_R": "12",
+    "T": "32",
+    "H": 32,
+    "paid_initial_technical_manifest": "2",
+    "minimum_receiver_gate": "each position: own review 1, decision 1, execution 1",
+    "sampling_compilation_charges": "registered zero ideal charges independent of mixture weights"
+  },
+  "acceptance_disposition": {
+    "full_ground_truth": "DONE: result §1 and fixture",
+    "observations_and_queries": "DONE: §2/fixture; charged certificate and after-effect receipt explicit",
+    "legitimate_optimum_with_mixtures": "DONE: all 27 graph paths and second DP recurrence",
+    "physical_full_information_controls": "DONE: each world sufficient legitimate delivery at same hard R/T/H with unchanged gate and remaining costs",
+    "feasible_hidden_world_control": "DONE: R12 query/certificate policies; R11 epsilon3 safe route",
+    "common_high_quality_shortcut": "DONE for declared graph/catalog: only common route J3 versus optimum J6 at epsilon0; no general all-policy optimality claim",
+    "review": "DONE: adversarial self-review with preserved positive controls; independent review pending"
+  },
+  "evidence_paths": [
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_CONJUNCTION_FIXTURE.json",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m02_worlds.py",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLD_CHECKS.json",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json"
+  ],
+  "publication_validation": {
+    "modified_existing_files": [
+      "README.md",
+      "MATHEMATICAL_FEASIBILITY.md",
+      "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md"
+    ],
+    "new_files": [
+      "M02_WORLDS_AND_CONTROLS.md",
+      "M02_CONJUNCTION_FIXTURE.json",
+      "verify_m02_worlds.py",
+      "M02_WORLD_CHECKS.json",
+      "M02_RELEASE_CHECKS.json"
+    ],
+    "deletions_intended": [],
+    "local_link_targets_checked": 101,
+    "targets_exist": true,
+    "original_M02_acceptance_unchanged": true,
+    "other_M_task_rows_unchanged": true,
+    "other_master_task_rows_unchanged": true,
+    "task_IDs_retained": 49,
+    "DONE_scoped_tasks": [
+      "M01",
+      "M02"
+    ],
+    "remaining_OPEN": 47,
+    "canonical_discovery_labels_preserved": true,
+    "source_scenario_M01_previous_checkers_results_manifests": "not modified"
+  },
+  "document_preservation": {
+    "README.md": {
+      "before_sha256": "9f93d52fb87036799d658b720965df669593c129bbdc4f66eaf5541d1e0e1c86",
+      "after_sha256": "147e30684d1eb85ba2dae1559de7742f1ff82946b2cd0d36807398354b390941",
+      "input_text_exactly_recoverable": true,
+      "purpose": "M02 execution record/current status/navigation only; original scientific content and criteria preserved",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_index": 3000,
+          "after_index": 3000,
+          "before": "",
+          "after": " and [M02 is DONE for candidate worlds and feasible controls](./M02_WORLDS_AND_CONTROLS.md)"
+        },
+        {
+          "kind": "replace",
+          "before_index": 3002,
+          "after_index": 3093,
+          "before": "p",
+          "after": "unive"
+        },
+        {
+          "kind": "insert",
+          "before_index": 3004,
+          "after_index": 3099,
+          "before": "",
+          "after": "sal b"
+        },
+        {
+          "kind": "replace",
+          "before_index": 3005,
+          "after_index": 3105,
+          "before": "of",
+          "after": "unds"
+        },
+        {
+          "kind": "delete",
+          "before_index": 3750,
+          "after_index": 3852,
+          "before": "Next task: ",
+          "after": ""
+        },
+        {
+          "kind": "insert",
+          "before_index": 3764,
+          "after_index": 3855,
+          "before": "",
+          "after": " has now supplied the candidate construction below"
+        },
+        {
+          "kind": "insert",
+          "before_index": 3807,
+          "after_index": 3948,
+          "before": "",
+          "after": "\n\n**Candidate worlds completed:** [M02 conjunctive pair, route audit and feasible controls](./M02_WORLDS_AND_CONTROLS.md) · [Machine-readable worlds](./M02_CONJUNCTION_FIXTURE.json) · [Exact checker](./verify_m02_worlds.py) · [76 checks, routes and traces](./M02_WORLD_CHECKS.json) · [Acceptance and preservation evidence](./M02_RELEASE_CHECKS.json). All 27 material compositions are included. The R=12 and epsilon=3 controls resolve the candidate under changed resources or quality tolerance; no universal hard-profile bound is claimed. Next: reconcile M10/P03 and start targeted M06 review before M03.\n"
+        }
+      ]
+    },
+    "MATHEMATICAL_FEASIBILITY.md": {
+      "before_sha256": "90339e50f899045cfbf2b34557a42a64d160864d01b747ed83684b6cc447abcc",
+      "after_sha256": "5e4129129903f35bfae7e5dc89256c2d9fd5c9669e7fd74ce0ac9312b89574d8",
+      "input_text_exactly_recoverable": true,
+      "purpose": "M02 execution record/current status/navigation only; original scientific content and criteria preserved",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_index": 6022,
+          "after_index": 6022,
+          "before": "",
+          "after": " is DONE for candidate construction and feasible controls; M03"
+        },
+        {
+          "kind": "insert",
+          "before_index": 6094,
+          "after_index": 6156,
+          "before": "",
+          "after": "S.md) and [M02 construction](./M02_WORLDS_AND_CONTROL"
+        },
+        {
+          "kind": "insert",
+          "before_index": 6772,
+          "after_index": 6887,
+          "before": "",
+          "after": " — DONE (construction)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 8907,
+          "after_index": 9044,
+          "before": "",
+          "after": " and [M02 construction](./M02_WORLDS_AND_CONTROLS.md)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 8914,
+          "after_index": 9104,
+          "before": "",
+          "after": "reconcile"
+        },
+        {
+          "kind": "insert",
+          "before_index": 8915,
+          "after_index": 9114,
+          "before": "",
+          "after": " M10/P03 and begins "
+        },
+        {
+          "kind": "insert",
+          "before_index": 8918,
+          "after_index": 9137,
+          "before": "",
+          "after": "ge"
+        },
+        {
+          "kind": "replace",
+          "before_index": 8919,
+          "after_index": 9140,
+          "before": "s",
+          "after": "ed"
+        },
+        {
+          "kind": "replace",
+          "before_index": 8923,
+          "after_index": 9145,
+          "before": "2",
+          "after": "6 review before M03"
+        },
+        {
+          "kind": "replace",
+          "before_index": 8957,
+          "after_index": 9197,
+          "before": "M01",
+          "after": "affected tasks"
+        },
+        {
+          "kind": "insert",
+          "before_index": 13825,
+          "after_index": 14076,
+          "before": "",
+          "after": "\n\n### M02 execution record — candidate construction\n\n**M02 DONE — conjunctive world-pair construction and exact structural/control checks only.** [Result and shortcut audit](./M02_WORLDS_AND_CONTROLS.md) · [Full ground truth/interface](./M02_CONJUNCTION_FIXTURE.json) · [Checker](./verify_m02_worlds.py) · [76 exact checks, route table and traces](./M02_WORLD_CHECKS.json) · [Acceptance, hashes and preservation](./M02_RELEASE_CHECKS.json).\n\nThe balanced N=1 fixture includes all 27 routes/mixtures and 24 bundled connectors. Each world has admissible optimum 6; the only common admissible route has value 3. A full-information control physically succeeds at R=11 with all receiver/execution charges. A world-independent query or sufficient-certificate policy succeeds at R=12; safe M succeeds at epsilon=3 and R=11. These countercontrols are retained. The source scenario and its broader conjunctive/parity campaign are unchanged.\n\nNo upper bound for every allowed policy or infeasible parameter region is closed. The binding fact is available through a one-unit certificate, and execution receipts may reveal it after effect; M03 must cover these operations, adaptive histories, irreversible violations and randomized policies. M10/P03 reconciliation and targeted M06 intake precede substantial M03 work. M03–M11, C/P/T tasks remain OPEN. Executing owner/reviewer: Codex, by user instruction; self-review only. Actual UTC time and pinned input commit are in the release record. Omitted certificates or gate inconsistencies reopen affected tasks.\n\n"
+        }
+      ]
+    },
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": {
+      "before_sha256": "18b1cea640c12c224f5a4173fa5ff61f7752876d69b033fdb5637bcb746f6060",
+      "after_sha256": "789b98737f6ca9f853e35b6333ed057f0b6868ae264ccb0e67c59df6f1d750aa",
+      "input_text_exactly_recoverable": true,
+      "purpose": "M02 execution record/current status/navigation only; original scientific content and criteria preserved",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_index": 1205,
+          "after_index": 1205,
+          "before": "",
+          "after": " y M02 para construcción de mundos y controles viables"
+        },
+        {
+          "kind": "replace",
+          "before_index": 1218,
+          "after_index": 1272,
+          "before": "8",
+          "after": "7"
+        },
+        {
+          "kind": "insert",
+          "before_index": 11069,
+          "after_index": 11123,
+          "before": "",
+          "after": ". **DONE — construcción y controles**, [resultado](./M02_WORLDS_AND_CONTROLS.md)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 20953,
+          "after_index": 21087,
+          "before": "",
+          "after": "\n\n### Actualización de ejecución — M02\n\nM02 está DONE para construir y comprobar el candidato conjuntivo y sus controles. [Mundos, costes, atajos y límites](./M02_WORLDS_AND_CONTROLS.md) · [Fixture completo](./M02_CONJUNCTION_FIXTURE.json) · [Comprobador](./verify_m02_worlds.py) · [76 comprobaciones y trazas](./M02_WORLD_CHECKS.json) · [Aceptación y conservación](./M02_RELEASE_CHECKS.json).\n\nSe incluyen las 27 rutas y sus mezclas; el único camino permitido en ambos mundos entrega 3 frente a los óptimos 6. El control con información completa funciona con R=11. Consultar el dato o su certificado permite entregar el óptimo con R=12; con epsilon=3 basta M y R=11. Se conservan estos casos que resuelven el candidato. Esto no demuestra inviabilidad para todas las políticas ni una ventaja de EA o tecnología concreta.\n\nEl siguiente trabajo es reconciliar M10/P03 y abrir la revisión dirigida de fuentes/contraejemplos M06 antes de desarrollar M03. M03 deberá cubrir información tras los efectos, certificados de una unidad, caché, decisiones adaptativas y aleatorización; M04 deberá revisar fronteras y controles. Quedan 47 tareas OPEN. La revisión es propia; no sustituye C05/M05 ni la revisión independiente. La fecha UTC real, commit de entrada y límites están en el registro de evidencia.\n\n"
+        }
+      ]
+    }
+  },
+  "artifact_hashes": {
+    "README.md": "147e30684d1eb85ba2dae1559de7742f1ff82946b2cd0d36807398354b390941",
+    "MATHEMATICAL_FEASIBILITY.md": "5e4129129903f35bfae7e5dc89256c2d9fd5c9669e7fd74ce0ac9312b89574d8",
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": "789b98737f6ca9f853e35b6333ed057f0b6868ae264ccb0e67c59df6f1d750aa",
+    "M02_WORLDS_AND_CONTROLS.md": "6eb5d762bbd8191fc5f0ef07f98187139b3902147276a1b3f14e6e32f5d9ecd3",
+    "M02_CONJUNCTION_FIXTURE.json": "3cde0914902c570f247e0ab165cfc5399baeaddee17c27275868c77cdd41dd99",
+    "verify_m02_worlds.py": "1b183313c98c034b57bb3a8acd7e644379298a57c07c1fe7451d04edfc82dd3b",
+    "M02_WORLD_CHECKS.json": "f35911720e3a55296bf7d79912aac2e159ad6b7622a696afdfa34fd50ae0a850"
+  },
+  "self_hash": "Excluded; published Git blob identifies release evidence.",
+  "inherited_integrity_issues": {
+    "status": "P08 OPEN",
+    "rerun_in_this_task": false,
+    "source": "WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json at pinned input",
+    "issue": "common-audit scenario digest and extension README hash-manifest mismatches; no old hash overwritten"
+  },
+  "limitations": [
+    "No all-history-policy enumeration or universal information/resource bound",
+    "No M04 parameter region or positive-measure claim",
+    "No independent C05 evaluator or M05 validation",
+    "Finite favorable-paid-prior profile with a fixed mandatory local gate",
+    "Fixed-binding conjunction only; random-witness/parity/population/dynamic blocks pending",
+    "No full R01 campaign, architecture comparison, EA advantage, real-runtime charge or technology admission",
+    "Runtime must isolate policy interface from evaluator ground truth before concrete admission"
+  ],
+  "next_action": "M10/P03 contract reconciliation plus targeted M06 source/counterexample intake before substantial M03; re-open affected tasks for real certificates/barriers/gate changes"
+}

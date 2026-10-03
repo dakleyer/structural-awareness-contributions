@@ -8,7 +8,7 @@ Iván Abril Palma, Tegrity.AI · Revisión del plan v0.2 · 3 de octubre de 2026
 
 Los cuatro planes tienen una base sólida: distinguen pruebas, comprobaciones finitas, campañas, admisión tecnológica y causalidad histórica; conservan resultados negativos y exigen evidencia para cerrar tareas. El principal defecto es de ejecución estratégica: algunas revisiones llegan demasiado tarde y faltaban tareas concretas para la campaña estadística y la evaluación posterior de pilotos como instrumento de selección de arquitectura.
 
-Se mantienen las 38 tareas originales y sus criterios. Se añaden 11: M10–M11, C11–C14, P10–P12 y T11–T12. Al crearse esta revisión, las 49 estaban abiertas. Estado actual: M01 está DONE para formulación de alcance; las otras 48 siguen abiertas. Se aclara el orden sin exigir terminar toda la prueba matemática antes de construir un evaluador neutral. Las revisiones de fuentes, contraejemplos, coherencia y conservación se repiten durante el trabajo, además de su cierre final.
+Se mantienen las 38 tareas originales y sus criterios. Se añaden 11: M10–M11, C11–C14, P10–P12 y T11–T12. Al crearse esta revisión, las 49 estaban abiertas. Estado actual: M01 está DONE para formulación de alcance y M02 para construcción de mundos y controles viables; las otras 47 siguen abiertas. Se aclara el orden sin exigir terminar toda la prueba matemática antes de construir un evaluador neutral. Las revisiones de fuentes, contraejemplos, coherencia y conservación se repiten durante el trabajo, además de su cierre final.
 
 La revisión usa el commit `1e940125a18f468268eff8f029a35c32a5f4ff08`. Los 39 archivos de texto/código descargados de R01 coinciden exactamente con sus blobs Git. Los tres verificadores de extensiones reproducen sus informes publicados. El verificador común falla en el hash actual del escenario; los manifiestos SHA256 tampoco coinciden con los tres README de extensiones. Son problemas heredados, anteriores a esta revisión. Se conservan el escenario, los scripts, los resultados y los congelados históricos. Esta revisión no prueba el teorema, no implementa el oráculo completo y no ejecuta una campaña con agentes.
 
@@ -81,7 +81,7 @@ Prioridades: P0 = comenzar y fijar contratos; P1 = desbloquear evidencia mínima
 | ID | Prioridad | Actividad y resultado exigido |
 |---|---|---|
 | M01 | P0 | Fijar dominio, políticas, cuantificadores, distribución o peor caso, umbrales y regiones F/U; permitir regiones vacías. **DONE — formulación de alcance**, [resultado](./M01_SCOPE_AND_QUANTIFIERS.md). |
-| M02 | P1 | Construir mundos difíciles y control viable con ground truth, observaciones, óptimo y mezclas; descartar un atajo común suficiente. |
+| M02 | P1 | Construir mundos difíciles y control viable con ground truth, observaciones, óptimo y mezclas; descartar un atajo común suficiente. **DONE — construcción y controles**, [resultado](./M02_WORLDS_AND_CONTROLS.md). |
 | M03 | P1 | Derivar la información y recursos necesarios, cubriendo adaptación, aleatoriedad, memoria, certificados y colaboración de la clase afirmada. |
 | M04 | P1 | Demostrar o rechazar una región mediante desigualdades, fronteras y testigo de no vaciedad; conservar el intento fallido. |
 | M05 | P1 | Contrastar testigos con C02–C05 y mapear supuestos; la enumeración finita cubre su dominio declarado. |
@@ -168,5 +168,15 @@ Comienza en G0. La primera entrega es una línea base verificable, una pregunta 
 M01 está DONE únicamente para formular el alcance matemático. [Contrato y revisión adversarial](./M01_SCOPE_AND_QUANTIFIERS.md) · [Evidencia y límites](./M01_SCOPE_CHECKS.json) · [Cálculos diagnósticos reproducibles](./verify_m01_scope.py). La declaración anterior de todas las tareas OPEN corresponde a la aprobación del plan, no al estado posterior a esta ejecución.
 
 El primer objetivo usa un agente y una pareja de mundos estáticos equiprobables. No redefine la campaña de población de R01 ni demuestra que exista una región inviable. M02 es el siguiente paso; M10, P03, los argumentos, las implementaciones y las campañas conservan sus pendientes. Un hallazgo material puede reabrir M01. La revisión ha sido propia, no independiente.
+
+
+
+### Actualización de ejecución — M02
+
+M02 está DONE para construir y comprobar el candidato conjuntivo y sus controles. [Mundos, costes, atajos y límites](./M02_WORLDS_AND_CONTROLS.md) · [Fixture completo](./M02_CONJUNCTION_FIXTURE.json) · [Comprobador](./verify_m02_worlds.py) · [76 comprobaciones y trazas](./M02_WORLD_CHECKS.json) · [Aceptación y conservación](./M02_RELEASE_CHECKS.json).
+
+Se incluyen las 27 rutas y sus mezclas; el único camino permitido en ambos mundos entrega 3 frente a los óptimos 6. El control con información completa funciona con R=11. Consultar el dato o su certificado permite entregar el óptimo con R=12; con epsilon=3 basta M y R=11. Se conservan estos casos que resuelven el candidato. Esto no demuestra inviabilidad para todas las políticas ni una ventaja de EA o tecnología concreta.
+
+El siguiente trabajo es reconciliar M10/P03 y abrir la revisión dirigida de fuentes/contraejemplos M06 antes de desarrollar M03. M03 deberá cubrir información tras los efectos, certificados de una unidad, caché, decisiones adaptativas y aleatorización; M04 deberá revisar fronteras y controles. Quedan 47 tareas OPEN. La revisión es propia; no sustituye C05/M05 ni la revisión independiente. La fecha UTC real, commit de entrada y límites están en el registro de evidencia.
 
 <!-- R01_BOT_WORKPLAN_END -->

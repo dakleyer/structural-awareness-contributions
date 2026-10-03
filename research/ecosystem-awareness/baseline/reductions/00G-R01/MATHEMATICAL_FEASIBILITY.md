@@ -47,12 +47,12 @@ The technology workstream may transfer the result only after checking E1–E7, p
 <!-- R01_BOT_WORKPLAN_START version="0.1" scope="MATHEMATICAL_FEASIBILITY.md" -->
 The canonical discovery label is exactly `R01_BOT_WORKPLAN_START`; close with `R01_BOT_WORKPLAN_END`, as in the earlier differential document. Do not introduce a competing pending-task tag. Task IDs identify work, not new discovery labels.
 
-At work-plan creation, all tasks below were OPEN. Current status: M01 is DONE for scope formulation; M02–M11 remain OPEN. Read the [M01 scope record](./M01_SCOPE_AND_QUANTIFIERS.md). Execute M01–M06 in order; M07–M09 are mandatory closure passes. Record owner, UTC date, input commit, assumptions, evidence paths, commands/results where applicable, disposition and remaining limitations. A plan or a desired result cannot close a proof task. Use OPEN, IN_PROGRESS, BLOCKED or DONE; explain blockers and the next action.
+At work-plan creation, all tasks below were OPEN. Current status: M01 is DONE for scope formulation; M02 is DONE for candidate construction and feasible controls; M03–M11 remain OPEN. Read the [M01 scope record](./M01_SCOPE_AND_QUANTIFIERS.md) and [M02 construction](./M02_WORLDS_AND_CONTROLS.md). Execute M01–M06 in order; M07–M09 are mandatory closure passes. Record owner, UTC date, input commit, assumptions, evidence paths, commands/results where applicable, disposition and remaining limitations. A plan or a desired result cannot close a proof task. Use OPEN, IN_PROGRESS, BLOCKED or DONE; explain blockers and the next action.
 
 | ID | Stage and dependency | Evidence needed to close |
 |---|---|---|
 | M01 — DONE (scope) | Freeze scope and quantifiers. Read current R01 §§1.2–1.5, 2.13–2.18 and 00M §6.3. | Exact domain, policy class, probability law or worst-case criterion, thresholds and F/U definitions. Clarify empty regions and unresolved evidence. |
-| M02 | Construct candidate hard and easy worlds after M01. | Full ground truth, observations, legitimate optimum including mixtures, and feasible control. Show why no common permitted high-quality shortcut already settles the hard pair. |
+| M02 — DONE (construction) | Construct candidate hard and easy worlds after M01. | Full ground truth, observations, legitimate optimum including mixtures, and feasible control. Show why no common permitted high-quality shortcut already settles the hard pair. |
 | M03 | Derive information and resource bounds after M02. | Argument covering every policy claimed, including randomization, adaptive review, cache, certificates, coordination and prior knowledge. Separate work from wall-clock delay. |
 | M04 | Establish or reject a parameter region after M03. | Explicit inequalities, boundary/equality cases, scope and nonemptiness witness; justify any positive-measure claim. Retain an empty-region or failed-proof outcome. |
 | M05 | Connect to executable witnesses with C02–C05. | Independent finite checks of the proposition's instances and a mapping to all relevant R01 assumptions. A fixture pass must not be called a universal proof. |
@@ -61,7 +61,7 @@ At work-plan creation, all tasks below were OPEN. Current status: M01 is DONE fo
 | M08 | Review editorial quality, readability and visual aids. | A reader can identify assumptions, claim, evidence and limits. If a region plot is added, distinguish proved, measured and unresolved areas; label conceptual figures and show axes/units. |
 | M09 | Preserve and release after M01–M08. | Diff showing no unintended removal, valid links/anchors, preserved prior task IDs and results, scoped hash report, and final adversarial self-audit. Record unresolved package-audit issues; do not overwrite historical manifests. Obtain independent review separately before calling it independent. |
 
-Next bot reads the completed [M01 scope record](./M01_SCOPE_AND_QUANTIFIERS.md), then starts M02. Material scope findings reopen M01. A negative finding changes the claim, not the evidence.
+Next bot reads the completed [M01 scope record](./M01_SCOPE_AND_QUANTIFIERS.md) and [M02 construction](./M02_WORLDS_AND_CONTROLS.md), then reconciles M10/P03 and begins targeted M06 review before M03. Material scope findings reopen affected tasks. A negative finding changes the claim, not the evidence.
 
 
 ### Strategic revision and execution gates — 3 October 2026
@@ -90,5 +90,15 @@ Planning revision v0.2; review against commit `1e940125a18f468268eff8f029a35c32a
 The first target is N=1, finite static DAG worlds, with an equiprobable two-world candidate family. It preserves required own review, known-denial rejection, memory, adaptive querying and randomized policies. Average and worst-case claims are separate; thresholds are fixed per configuration. This narrows the first proposition and leaves the broader R01 campaign unchanged. It establishes no infeasible region and no technology result.
 
 M02 is next: construct the candidate and physical/full-information controls, retain all mixtures and try a common safe route or cheap certificate. M10/P03 reconciliation, M02–M11 proofs/reviews, implementation and campaigns remain open. Executing owner/reviewer: Codex, by user instruction; self-review only. Actual UTC time, input commit and review limits are in the evidence record. Reopen M01 if an external finding invalidates the contract.
+
+
+
+### M02 execution record — candidate construction
+
+**M02 DONE — conjunctive world-pair construction and exact structural/control checks only.** [Result and shortcut audit](./M02_WORLDS_AND_CONTROLS.md) · [Full ground truth/interface](./M02_CONJUNCTION_FIXTURE.json) · [Checker](./verify_m02_worlds.py) · [76 exact checks, route table and traces](./M02_WORLD_CHECKS.json) · [Acceptance, hashes and preservation](./M02_RELEASE_CHECKS.json).
+
+The balanced N=1 fixture includes all 27 routes/mixtures and 24 bundled connectors. Each world has admissible optimum 6; the only common admissible route has value 3. A full-information control physically succeeds at R=11 with all receiver/execution charges. A world-independent query or sufficient-certificate policy succeeds at R=12; safe M succeeds at epsilon=3 and R=11. These countercontrols are retained. The source scenario and its broader conjunctive/parity campaign are unchanged.
+
+No upper bound for every allowed policy or infeasible parameter region is closed. The binding fact is available through a one-unit certificate, and execution receipts may reveal it after effect; M03 must cover these operations, adaptive histories, irreversible violations and randomized policies. M10/P03 reconciliation and targeted M06 intake precede substantial M03 work. M03–M11, C/P/T tasks remain OPEN. Executing owner/reviewer: Codex, by user instruction; self-review only. Actual UTC time and pinned input commit are in the release record. Omitted certificates or gate inconsistencies reopen affected tasks.
 
 <!-- R01_BOT_WORKPLAN_END -->
