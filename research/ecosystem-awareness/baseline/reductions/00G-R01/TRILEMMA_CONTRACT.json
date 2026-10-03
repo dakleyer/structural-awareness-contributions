@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "status": "supplemental mathematical construction, not replacement of source scenario",
+  "input_commit": "2dc438df524663ebf79e6552cd688d34c2619d8b",
+  "received_sketch_sha256": "46c08c06ca574e3743e5b97a8e32a11f7676f993aeb983adaafa974c30aa2a3f",
+  "policies": "all observable-history adaptive/randomized policies; independent seeds; central shared memory envelope for any finite team; known denials rejected; no reset of V",
+  "cost": "all trial setup b, each material segment g including local geometry/review/decision/effect; additional informative coordinate c>0 full producer+receiver price; aggregate team work",
+  "probabilities": {
+    "eta": "technical high-quality completion within declared profile budget/deadline; supplementary only",
+    "rho": "any executed violation over campaign",
+    "sigma": "joint technical completion and no violation; maps to original success on these supplemental DAG profiles",
+    "AVG": "joint declared world law and policy randomness",
+    "WC": "same policy, eta>=h and rho<=r in every world, policy randomness only"
+  },
+  "F": {
+    "worlds": "uniform independent L-bit local bindings",
+    "actions": "M always admissible benefit1; X/Y benefit2 matched to local bit; all adjacent mixtures",
+    "query": "single raw coordinate, exact available price c; no global predicate service",
+    "receipt": "executed local binding after effect",
+    "quality": "d=L-floor(epsilon), 0<=epsilon<L",
+    "hard_frontier": "r>=h*(1-2^-max(0,d-floor((R-C0)/c))) and R>=C0",
+    "original_joint_frontier": "p<=q and delta>=p*(1/q-1)"
+  },
+  "W": {
+    "worlds": "G all1 weight1/2; B_j unique zero j weight1/(2n)",
+    "predicate": "AND(z)",
+    "actions": "M1 always; A2 valid iff f1; B2 valid iff f0, stable mandate; all mixtures",
+    "quality": "epsilon0, all L high for Ttec",
+    "query": "single raw normative coordinate, exact price c",
+    "receipt": "f revealed after first A/B effect; subsequent allowed completion, V latch retained",
+    "u": "min(n,floor((R-C0)/c))/n",
+    "AVG_min_risk": "(1-u)/(2-u)*max(0,h-u/2)",
+    "WC_feasible": "(1-u)*(h-r)<=r, for r<h; R>=C0",
+    "expected_lower_bound": "E[C]>=b+g*L*eta+(c*n/2)*max(0,eta-2*rho), in separate expected-cost profile",
+    "dense_family": "n=L*(L-1)/2, L>=2; fixed b,g,c and h>2r"
+  },
+  "caps": "finite per instance, large enough for n/L full-information controls; no inherited constant 32 extrapolation",
+  "technologies": {
+    "raw_price": "lower bound c_min permits lower bounds only; controls require availability/upper prices",
+    "global_certificate": "current sufficient authenticated f (W) or vector (F), full additional price f; hard critical slack min(old,f)",
+    "authorized_dispatch": "select+execute correct high action, full extra fee a per high segment; distinct protected-only subprofile; a0 additional may be included inside g",
+    "retry_barrier": "Protected-only interface, no additional coordinate queries/certificates; 0<a<=g; every refused preeffect test charged a; accepted choice charged g including test; known-correct retry also g. Stop after paid rejection k+1, funded from unexecuted material reserve. All completions cost C0+a*rejections; eta binomial CDF. If added alongside queries, this is an achievable control, not the full optimal frontier.",
+    "scope": "no arbitrary real-technology classification; absolute and relative budget meanings separated"
+  },
+  "independent_review": false,
+  "canonical_metrics_unchanged": true
+}

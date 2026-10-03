@@ -181,4 +181,12 @@ The audit maps q/a/e/f/C/t/K to scenario §1.4 and keeps technical finish, legit
 
 **P10 IN_PROGRESS:** the initial continuation decision favors a scoped one-bit M03 proof/benchmark and rejects an L-growing or price-independent generalization from M02. A simpler state-query/certificate control resolves several profiles. The wider architecture-choice, incremental-value and expenditure-ceiling gates remain to be completed before broad investment. [Targeted primary-source and counterexample intake](./M06_PRIMARY_SOURCE_INTAKE.md) supports this narrow disposition; P01/P02 remain OPEN. Owner/reviewer: Codex, on user instruction; same-agent review. The evidence record pins input/UTC time and residual limits.
 
+
+
+### P10 continuation input — mathematical family result
+
+[The M03/M04 successor](./M03_M04_TRILEMMA_THEOREMS.md) establishes a conditional all-policy trilemma for two constructed families, including dense conjunctive dependencies, exact AVG/WC hard frontiers and a separate expected-cost lower bound. These results support building a neutral small oracle and independent review. They do not establish novelty, empirical EA advantage, a product's certificate price, or the value of a pilot for choosing architecture. P10 remains IN_PROGRESS; P01/P02/P11/P12 and statistical/technology gates retain their acceptance criteria.
+
+The document provides explicit reduced/eliminated-band controls for cheaper raw access, sufficient certificates, preeffect barriers and authorized execution included in baseline cost. Technology admission must identify the fresh normative facts, query/enforcement interface and full producer cost before transferring the bounds. Positive information price alone is insufficient. The F/W supplemental contract retains canonical e/a/q; technical eta is reported separately. Next contribution decision follows independent M05/C05 review and M07 correspondence, rather than a model campaign justified by these constructed examples alone.
+
 <!-- R01_BOT_WORKPLAN_END -->

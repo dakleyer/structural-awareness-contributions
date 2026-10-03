@@ -56,3 +56,12 @@ The implemented changed-price and prior controls are in M10_MEASUREMENT_CHECKS.j
 After M03 drafts the proposition, check the full argument rather than just the definitions: paired adaptive histories, randomization, work versus elapsed time, hard versus expected cost, certificate acquisition/applicability and the receiver gate. Extend source coverage for any longer independent-binding construction, parity block, N>1 pooling and communication claim actually proposed. Revisit the closest constrained-selection and verification work in P01/P02 before broad novelty or investment claims. Preserve a trivial, failed or empty-region result. The present candidate may serve as an accounting/observation benchmark even if it supplies no new general theory.
 
 The contribution/architecture-selection decision remains P10/P11/P12. No full survey or external experiment replication has been completed by this intake.
+
+
+## 5. Successor proof audit intake — F/W
+
+Read [M03/M04](./M03_M04_TRILEMMA_THEOREMS.md), §§3–7, and its retained received sketch. The new derivations use the classical raw-coordinate query interface explicitly; their all-policy bounds are proved directly, without an unverified Fano/minimax reduction. The author-hosted S1 definitions were reopened for this work. F uses independent bits; W uses a correlated n+1-world balanced prior and a coordinate-access lower bound, not n independent bits of entropy. W's expected-work proof is distinct from its per-trace cap.
+
+Counterexamples now include a global rare-state Boolean certificate that defeats F's stronger local risk inequality, a necessary information condition that fails sufficiency, fee log(b) with free singleton queries, positive-price certificates whose relative cost vanishes, paid preeffect barriers that add no-violation observation branches, and baseline-included authorized dispatch. The receipt-aware M02 adaptive control is executed against the preserved historical transition implementation. These narrow all-technology and L-bit generalizations. The checker is same-agent work; C05/M05 remain OPEN.
+
+M06 stays IN_PROGRESS: no exhaustive literature/novelty review, full communication/parity bounds, corpus/E1–E7/HF transfer or external proof validation is claimed. Current next pass is an adversarial independent proof review using the complete prompt in the successor, followed by correspondence and real service-cost evidence.

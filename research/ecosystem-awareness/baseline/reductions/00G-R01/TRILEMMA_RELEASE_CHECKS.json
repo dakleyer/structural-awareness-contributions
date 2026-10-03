@@ -1,0 +1,483 @@
+{
+  "input_commit": "2dc438df524663ebf79e6552cd688d34c2619d8b",
+  "actual_utc_completed_at": "2026-10-03T23:34:47.873989+00:00",
+  "owner": "Codex, on user instruction",
+  "reviewer": "same executing agent",
+  "independent_review": false,
+  "disposition": {
+    "M03": "DONE for supplemental F/W all-policy bounds and declared technology classes",
+    "M04": "DONE for exact F/W hard-budget frontiers, boundaries and nonempty-family witnesses",
+    "M01_M10_P03": "supplemental profile reconciled in proof section2/contract; historical meanings retained",
+    "M05_C05": "OPEN; no independently implemented oracle or proof review",
+    "M06_M11_P10": "IN_PROGRESS; broader source/generator/transfer/value passes remain"
+  },
+  "proof_inventory": [
+    "F1 raw-coordinate adaptive risk/success lemma",
+    "F2 technical AVG/WC exact frontier",
+    "F3/F4 thresholds and legitimate objective",
+    "M02 shared-binding all-policy bound and receipt-aware control",
+    "W1/W2 exact AVG frontier",
+    "W3/W4 exact WC frontier",
+    "dense family hard-budget Theta(n) additional cost",
+    "W5 expected-work Omega(n) bound and complete-query upper control",
+    "G1 transcript-capacity necessary bound and failed exact/local transfers",
+    "T1 sufficient certificate exact hard threshold",
+    "authorized-dispatch protected-only frontier",
+    "T2 charged barrier protected-only binomial frontier"
+  ],
+  "evidence_kind": "complete written conditional derivations + same-agent finite exact checks, not external validation or formal machine proof",
+  "primary_source": {
+    "url": "https://homepages.cwi.nl/~rdewolf/publ/qc/dectree.pdf",
+    "role": "raw adaptive bit-query/randomized-tree/certificate definitions; reopened; no R01 theorem attributed"
+  },
+  "source_reads": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "git_blob_sha": "fea441bc68277a9113d06613778ef8e6ec26d84b",
+      "sha256": "b1035ab4897f8a48b4aa105e12dcdbce655c3e6f17209e68be4d1327069ae93a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+      "git_blob_sha": "84769e51049525c75ccc8686ccb66fff6846f149",
+      "sha256": "d466ff13efb89c57cd78299eb41831ef3e3d4b5e917d9b73fe0f5704c5ac5153"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "git_blob_sha": "edd4248ab744d3371a199901ba1c29cd4a03c8b1",
+      "sha256": "a4f4211ff8997ff00832a11f1f248149157a396b1e96de7ab215b98bde42123d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "git_blob_sha": "528a4af4c9321ee3158759f123d70016fab17fc1",
+      "sha256": "262c7b79f04314542262f719b707ff766f16107189d0d19b9d1c653af57e3e89"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "git_blob_sha": "f7e45754c44aa618f5b9f70d33101bb656130b05",
+      "sha256": "0a22dc7b09facbf6816b32656df83e45ce127f352fbf20a12f877985da22f866"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RECONCILED_CONTRACT.json",
+      "git_blob_sha": "88e6dc339b547a613bea06767e67a5292c7753d6",
+      "sha256": "6fe9f01d5adb82ac1d3913fe0931ad728b79a30f3b9b5bcfe2d73c6df74ce9ab"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md",
+      "git_blob_sha": "3b9f3b00a034da77f0627655d3bb2a9e74280a72",
+      "sha256": "e81ac4357b72a100423616414986e1cb7a3ff8fe6037ca3f09071e06d324667f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "git_blob_sha": "933f7b8da99db1c7da96f9f9c234d4115ca75911",
+      "sha256": "8ea1c1d9aef76a7095c107488869885c121e23844d31b7aeedef7194ecf9fc7d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "git_blob_sha": "db137fb82e7fd11ffac4d5caf687ec6a651f090a",
+      "sha256": "a674adf623db7f2e1280c75c7c3d38f95f6ddd01088a3e54bac5647404d95ce0"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_CONJUNCTION_FIXTURE.json",
+      "git_blob_sha": "e774d27d0a5cd9052f0027d49177608c179a603b",
+      "sha256": "3cde0914902c570f247e0ab165cfc5399baeaddee17c27275868c77cdd41dd99"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m02_worlds.py",
+      "git_blob_sha": "afb552ed9093235379de84c5ec039e30ee70e225",
+      "sha256": "1b183313c98c034b57bb3a8acd7e644379298a57c07c1fe7451d04edfc82dd3b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLD_CHECKS.json",
+      "git_blob_sha": "0315ca5c6fb1bc7e58e7880eff1356e700a0758a",
+      "sha256": "f35911720e3a55296bf7d79912aac2e159ad6b7622a696afdfa34fd50ae0a850"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m10_measurements.py",
+      "git_blob_sha": "b71f5f5fd2a95a6c9887ee6f6892c1fc156e1d7c",
+      "sha256": "196bef2f63033a99af73472ecfaa2c1138e051366e9e10b5c1e71eb3430a8c4a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_MEASUREMENT_CHECKS.json",
+      "git_blob_sha": "f5dd22e286723b8548a1edb2282ca2f6db8b5e4c",
+      "sha256": "2ee8244f10fb91be5ee758568558d40e647089baf03b13b50c5e5df4b49e1780"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "git_blob_sha": "eeac068cb2c8be0678b5d913b4a8dca2f167adf6",
+      "sha256": "2a113dd06e7ca77a2176ca2a62a3749f062a09bf5e96ce784619315a1fd499a4"
+    }
+  ],
+  "received_sketch_sha256": "46c08c06ca574e3743e5b97a8e32a11f7676f993aeb983adaafa974c30aa2a3f",
+  "received_sketch_byte_preserved": true,
+  "commands_results": {
+    "verify_trilemma.py": {
+      "exit_code": 0,
+      "report_byte_identical": true,
+      "PASS_checks": 4555
+    },
+    "verify_m02_worlds.py": {
+      "exit_code": 0,
+      "report_byte_identical": true,
+      "PASS_checks": 76
+    },
+    "verify_m10_measurements.py": {
+      "exit_code": 0,
+      "report_byte_identical": true,
+      "PASS_checks": 35
+    }
+  },
+  "finite_scope": {
+    "F_L_max": 3,
+    "W_n_max": 4,
+    "F_deterministic_vectors_total": 1226,
+    "F_history_quotient_states_total": 4296,
+    "W_deterministic_vectors_total": 416,
+    "expected_cost_prefix_rows": 249,
+    "coverage": "all finite F history choices in the quotient; all W normal forms; exact explicit random mixtures; symbolic proofs in companion document"
+  },
+  "publication_validation": {
+    "modified_existing_files": [
+      "README.md",
+      "MATHEMATICAL_FEASIBILITY.md",
+      "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "M06_PRIMARY_SOURCE_INTAKE.md"
+    ],
+    "new_files": [
+      "M03_M04_TRILEMMA_THEOREMS.md",
+      "TRILEMMA_CONTRACT.json",
+      "TRILEMMA_RECEIVED_SKETCH.md",
+      "verify_trilemma.py",
+      "TRILEMMA_CHECKS.json",
+      "TRILEMMA_RELEASE_CHECKS.json"
+    ],
+    "deletions_intended": [],
+    "local_link_targets_checked": 170,
+    "all_local_targets_exist": true,
+    "original_task_IDs": 49,
+    "original_task_criteria_preserved": true,
+    "DONE": [
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M10",
+      "P03"
+    ],
+    "IN_PROGRESS": [
+      "M06",
+      "M11",
+      "P10"
+    ],
+    "OPEN_count": 40,
+    "canonical_discovery_markers_retained": true,
+    "unchanged_fresh_input_files": [
+      "M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "M10_RECONCILED_CONTRACT.json",
+      "M01_SCOPE_AND_QUANTIFIERS.md",
+      "M02_WORLDS_AND_CONTROLS.md",
+      "M02_CONJUNCTION_FIXTURE.json",
+      "verify_m02_worlds.py",
+      "M02_WORLD_CHECKS.json",
+      "verify_m10_measurements.py",
+      "M10_MEASUREMENT_CHECKS.json",
+      "Escenario-creatividad-validacion.md"
+    ]
+  },
+  "document_preservation": {
+    "README.md": {
+      "input_sha256": "b1035ab4897f8a48b4aa105e12dcdbce655c3e6f17209e68be4d1327069ae93a",
+      "result_sha256": "16f894442c51af15de720a4adab5c78193049183994e42de1817d48ef77906a5",
+      "original_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "replace",
+          "after_index": 3237,
+          "before": "U",
+          "after": "[M03/M04 are "
+        },
+        {
+          "kind": "insert",
+          "after_index": 3251,
+          "before": "",
+          "after": "ow DONE for the supplemental F/W fam"
+        },
+        {
+          "kind": "replace",
+          "after_index": 3288,
+          "before": "v",
+          "after": "ly proofs and exact fronti"
+        },
+        {
+          "kind": "replace",
+          "after_index": 3317,
+          "before": "al",
+          "after": "](./M03_M04_TRILEMMA_THEOREMS.md);"
+        },
+        {
+          "kind": "replace",
+          "after_index": 3352,
+          "before": "bou",
+          "after": "i"
+        },
+        {
+          "kind": "replace",
+          "after_index": 3355,
+          "before": "s",
+          "after": "ependent review"
+        },
+        {
+          "kind": "insert",
+          "after_index": 4703,
+          "before": "",
+          "after": "the M02 construction alone did "
+        },
+        {
+          "kind": "insert",
+          "after_index": 4736,
+          "before": "",
+          "after": "t claim a"
+        },
+        {
+          "kind": "delete",
+          "after_index": 4774,
+          "before": " is claimed",
+          "after": ""
+        },
+        {
+          "kind": "delete",
+          "after_index": 4784,
+          "before": "are now ",
+          "after": ""
+        },
+        {
+          "kind": "replace",
+          "after_index": 4792,
+          "before": "ed",
+          "after": "iation is"
+        },
+        {
+          "kind": "insert",
+          "after_index": 4809,
+          "before": "",
+          "after": "the successor M03/M04 proofs are linked "
+        },
+        {
+          "kind": "delete",
+          "after_index": 4853,
+          "before": " is M03 with M06/M11 review continuing",
+          "after": ""
+        },
+        {
+          "kind": "insert",
+          "after_index": 5653,
+          "before": "",
+          "after": ".\n\n\n**Family trilemma and technology proofs:** [Complete mathematical result and reviewer prompt](./M03_M04_TRILEMMA_THEOREMS.md) · [Supplemental contract](./TRILEMMA_CONTRACT.json) · [Exact diagnostic checker](./verify_trilemma.py) · [Results](./TRILEMMA_CHECKS.json) · [Preservation/release record](./TRILEMMA_RELEASE_CHECKS.json). M03/M04 establish all-policy conditional bounds and matching frontiers: linear in independent bindings, quadratic in dense conjunctive dependencies relative to linear execution. They distinguish technical efficacy from original legitimate success, AVG from WC, and which certificate/barrier/structural interfaces reduce or eliminate a budget band. Historical M01/M02/M10 profiles are preserved. Current status: 6 DONE, 3 IN_PROGRESS, 40 OPEN. Independent M05/C05 review and corpus/implementation/campaign obligations remain pending. Next is review of the proof and contract with the full prompt in the result, then the neutral oracle"
+        }
+      ]
+    },
+    "MATHEMATICAL_FEASIBILITY.md": {
+      "input_sha256": "d466ff13efb89c57cd78299eb41831ef3e3d4b5e917d9b73fe0f5704c5ac5153",
+      "result_sha256": "6a618601f2755d83f75c641ec0d8b141aef6f5071849bd30834109d9d358c621",
+      "original_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "insert",
+          "after_index": 6112,
+          "before": "",
+          "after": "3/M04 are DONE for the supplemental F/W proofs/frontiers; M0"
+        },
+        {
+          "kind": "delete",
+          "after_index": 6197,
+          "before": "3–M0",
+          "after": ""
+        },
+        {
+          "kind": "insert",
+          "after_index": 6218,
+          "before": "",
+          "after": ". [Current proof and contract](./M03_M04_TRILEMMA_THEOREMS.md)"
+        },
+        {
+          "kind": "insert",
+          "after_index": 7330,
+          "before": "",
+          "after": "— DONE (F/W bounds) "
+        },
+        {
+          "kind": "insert",
+          "after_index": 7585,
+          "before": "",
+          "after": " — DONE (F/W regions)"
+        },
+        {
+          "kind": "delete",
+          "after_index": 9487,
+          "before": "be",
+          "after": ""
+        },
+        {
+          "kind": "insert",
+          "after_index": 9490,
+          "before": "",
+          "after": " th"
+        },
+        {
+          "kind": "insert",
+          "after_index": 9494,
+          "before": "",
+          "after": " original input contract; then reads the [M03/M04 supplemental proofs](./M03_M04_TRILEMMA_THEOREMS.md) for independent"
+        },
+        {
+          "kind": "replace",
+          "after_index": 9615,
+          "before": "3;",
+          "after": "5/C05 review and M07 mapping."
+        },
+        {
+          "kind": "insert",
+          "after_index": 18017,
+          "before": "",
+          "after": "\n\n### M03/M04 execution record — family trilemma and technology interfaces\n\n**M03/M04 DONE for the versioned supplemental F/W profiles, with same-agent review.** [Full symbolic proofs, boundaries, technology changes and reviewer prompt](./M03_M04_TRILEMMA_THEOREMS.md) · [Supplemental contract](./TRILEMMA_CONTRACT.json) · [Received proposal preserved](./TRILEMMA_RECEIVED_SKETCH.md) · [Exact finite checker](./verify_trilemma.py) · [Diagnostic output](./TRILEMMA_CHECKS.json) · [Release/preservation](./TRILEMMA_RELEASE_CHECKS.json).\n\nThe proofs cover all admitted observable-history adaptive/randomized policies, effect receipts, known denials, irreversible V, prior facts, caching and centrally shared team histories. F establishes exact linear information-cost frontiers; W establishes separate exact AVG/WC frontiers and a quadratic-vs-linear dense family, plus an expected-work lower bound. The fixed prior/query interface is essential. Neither the one-binding M02 fixture nor canonical R01 has been silently changed into that family. Technical efficacy eta is supplementary; original legitimate e/a/q and joint success sigma remain intact. This contract explicitly extends the earlier M01/M10 scope for these constructions; it does not claim campaign-level closure or reprice historical operations.\n\nMatching safe/full-information and cheap/high-effect controls exhibit each pair of objectives. Certificates, cheaper positive queries, baseline-included authorized execution, paid preeffect barriers and structural common routes are treated as distinct interfaces. A lower bound on output capacity alone gives a necessary condition, not an exact frontier. Positive technology cost alone does not prove persistence; the new document retains explicit counterexamples and absolute/relative-cost distinctions.\n\nThe checker exhaustively handles F history quotients for L<=3 and W normal-form policies for n<=4, with exact fractions and additional boundary/barrier controls; symbolic proofs provide all-size coverage. M02's 76 checks and M10's 35 checks reproduce byte-identically. The same-agent checker is not C05; M05 remains OPEN. M06/M11/P10 remain IN_PROGRESS; M07–M09, corpus/transfer, neutral oracle and campaign gates remain OPEN. Owner/reviewer: Codex by user instruction; actual UTC/input commit/hashes are in the release record. Current aggregate status: **6 DONE, 3 IN_PROGRESS, 40 OPEN**. Next: independent M05/C05 proof-and-contract review, continued M06/M11 attack, then M07 correspondence and neutral oracle contracts C02/C11/C13 before campaign/integration investment.\n\n"
+        }
+      ]
+    },
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": {
+      "input_sha256": "a4f4211ff8997ff00832a11f1f248149157a396b1e96de7ab215b98bde42123d",
+      "result_sha256": "a179bd20854396003bd4f97c5b8a390d5788406e0eaf3d560da5aa8cbe51360b",
+      "original_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "insert",
+          "after_index": 1173,
+          "before": "",
+          "after": "03/M04/M"
+        },
+        {
+          "kind": "replace",
+          "after_index": 1219,
+          "before": " formu",
+          "after": "c"
+        },
+        {
+          "kind": "replace",
+          "after_index": 1222,
+          "before": "c",
+          "after": "rados (M03/M04: perf"
+        },
+        {
+          "kind": "replace",
+          "after_index": 1243,
+          "before": "ó",
+          "after": "les supleme"
+        },
+        {
+          "kind": "replace",
+          "after_index": 1255,
+          "before": ",",
+          "after": "tarios"
+        },
+        {
+          "kind": "replace",
+          "after_index": 1262,
+          "before": "construcción y auditoría",
+          "after": "F/W)"
+        },
+        {
+          "kind": "replace",
+          "after_index": 1308,
+          "before": "2",
+          "after": "0"
+        },
+        {
+          "kind": "insert",
+          "after_index": 1321,
+          "before": "",
+          "after": ". [Pruebas universales, fronteras y tecnologías](./M03_M04_TRILEMMA_THEOREMS.md). La revisión independiente M05/C05 sigue pendiente"
+        },
+        {
+          "kind": "insert",
+          "after_index": 11524,
+          "before": "",
+          "after": "**DONE — perfiles F/W**, [Pruebas universales, fronteras y tecnologías](./M03_M04_TRILEMMA_THEOREMS.md). "
+        },
+        {
+          "kind": "insert",
+          "after_index": 11764,
+          "before": "",
+          "after": ". **DONE — perfiles F/W**, [Pruebas universales, fronteras y tecnologías](./M03_M04_TRILEMMA_THEOREMS.md)"
+        },
+        {
+          "kind": "insert",
+          "after_index": 24848,
+          "before": "",
+          "after": "\n\n### M03/M04 execution record — family trilemma and technology interfaces\n\n**M03/M04 DONE for the versioned supplemental F/W profiles, with same-agent review.** [Full symbolic proofs, boundaries, technology changes and reviewer prompt](./M03_M04_TRILEMMA_THEOREMS.md) · [Supplemental contract](./TRILEMMA_CONTRACT.json) · [Received proposal preserved](./TRILEMMA_RECEIVED_SKETCH.md) · [Exact finite checker](./verify_trilemma.py) · [Diagnostic output](./TRILEMMA_CHECKS.json) · [Release/preservation](./TRILEMMA_RELEASE_CHECKS.json).\n\nThe proofs cover all admitted observable-history adaptive/randomized policies, effect receipts, known denials, irreversible V, prior facts, caching and centrally shared team histories. F establishes exact linear information-cost frontiers; W establishes separate exact AVG/WC frontiers and a quadratic-vs-linear dense family, plus an expected-work lower bound. The fixed prior/query interface is essential. Neither the one-binding M02 fixture nor canonical R01 has been silently changed into that family. Technical efficacy eta is supplementary; original legitimate e/a/q and joint success sigma remain intact. This contract explicitly extends the earlier M01/M10 scope for these constructions; it does not claim campaign-level closure or reprice historical operations.\n\nMatching safe/full-information and cheap/high-effect controls exhibit each pair of objectives. Certificates, cheaper positive queries, baseline-included authorized execution, paid preeffect barriers and structural common routes are treated as distinct interfaces. A lower bound on output capacity alone gives a necessary condition, not an exact frontier. Positive technology cost alone does not prove persistence; the new document retains explicit counterexamples and absolute/relative-cost distinctions.\n\nThe checker exhaustively handles F history quotients for L<=3 and W normal-form policies for n<=4, with exact fractions and additional boundary/barrier controls; symbolic proofs provide all-size coverage. M02's 76 checks and M10's 35 checks reproduce byte-identically. The same-agent checker is not C05; M05 remains OPEN. M06/M11/P10 remain IN_PROGRESS; M07–M09, corpus/transfer, neutral oracle and campaign gates remain OPEN. Owner/reviewer: Codex by user instruction; actual UTC/input commit/hashes are in the release record. Current aggregate status: **6 DONE, 3 IN_PROGRESS, 40 OPEN**. Next: independent M05/C05 proof-and-contract review, continued M06/M11 attack, then M07 correspondence and neutral oracle contracts C02/C11/C13 before campaign/integration investment.\n\n"
+        }
+      ]
+    },
+    "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md": {
+      "input_sha256": "262c7b79f04314542262f719b707ff766f16107189d0d19b9d1c653af57e3e89",
+      "result_sha256": "ded8325c04737f3c8e90752628fc3f4d91b81e9b2deeff4671625961f077ecc3",
+      "original_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "insert",
+          "after_index": 31987,
+          "before": "",
+          "after": "\n\n### P10 continuation input — mathematical family result\n\n[The M03/M04 successor](./M03_M04_TRILEMMA_THEOREMS.md) establishes a conditional all-policy trilemma for two constructed families, including dense conjunctive dependencies, exact AVG/WC hard frontiers and a separate expected-cost lower bound. These results support building a neutral small oracle and independent review. They do not establish novelty, empirical EA advantage, a product's certificate price, or the value of a pilot for choosing architecture. P10 remains IN_PROGRESS; P01/P02/P11/P12 and statistical/technology gates retain their acceptance criteria.\n\nThe document provides explicit reduced/eliminated-band controls for cheaper raw access, sufficient certificates, preeffect barriers and authorized execution included in baseline cost. Technology admission must identify the fresh normative facts, query/enforcement interface and full producer cost before transferring the bounds. Positive information price alone is insufficient. The F/W supplemental contract retains canonical e/a/q; technical eta is reported separately. Next contribution decision follows independent M05/C05 review and M07 correspondence, rather than a model campaign justified by these constructed examples alone.\n\n"
+        }
+      ]
+    },
+    "M06_PRIMARY_SOURCE_INTAKE.md": {
+      "input_sha256": "e81ac4357b72a100423616414986e1cb7a3ff8fe6037ca3f09071e06d324667f",
+      "result_sha256": "cf6328eb45602b8d9f81f1ee5d03b0cbd59a18e94c7149726fefa250b793ee14",
+      "original_exactly_recoverable": true,
+      "changes": [
+        {
+          "kind": "insert",
+          "after_index": 7864,
+          "before": "",
+          "after": "\n\n## 5. Successor proof audit intake — F/W\n\nRead [M03/M04](./M03_M04_TRILEMMA_THEOREMS.md), §§3–7, and its retained received sketch. The new derivations use the classical raw-coordinate query interface explicitly; their all-policy bounds are proved directly, without an unverified Fano/minimax reduction. The author-hosted S1 definitions were reopened for this work. F uses independent bits; W uses a correlated n+1-world balanced prior and a coordinate-access lower bound, not n independent bits of entropy. W's expected-work proof is distinct from its per-trace cap.\n\nCounterexamples now include a global rare-state Boolean certificate that defeats F's stronger local risk inequality, a necessary information condition that fails sufficiency, fee log(b) with free singleton queries, positive-price certificates whose relative cost vanishes, paid preeffect barriers that add no-violation observation branches, and baseline-included authorized dispatch. The receipt-aware M02 adaptive control is executed against the preserved historical transition implementation. These narrow all-technology and L-bit generalizations. The checker is same-agent work; C05/M05 remain OPEN.\n\nM06 stays IN_PROGRESS: no exhaustive literature/novelty review, full communication/parity bounds, corpus/E1–E7/HF transfer or external proof validation is claimed. Current next pass is an adversarial independent proof review using the complete prompt in the successor, followed by correspondence and real service-cost evidence.\n"
+        }
+      ]
+    }
+  },
+  "artifact_hashes": {
+    "README.md": "16f894442c51af15de720a4adab5c78193049183994e42de1817d48ef77906a5",
+    "MATHEMATICAL_FEASIBILITY.md": "6a618601f2755d83f75c641ec0d8b141aef6f5071849bd30834109d9d358c621",
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": "a179bd20854396003bd4f97c5b8a390d5788406e0eaf3d560da5aa8cbe51360b",
+    "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md": "ded8325c04737f3c8e90752628fc3f4d91b81e9b2deeff4671625961f077ecc3",
+    "M06_PRIMARY_SOURCE_INTAKE.md": "cf6328eb45602b8d9f81f1ee5d03b0cbd59a18e94c7149726fefa250b793ee14",
+    "M03_M04_TRILEMMA_THEOREMS.md": "1c1e6b0c446ddd7103cd1e7cbcb3c4bf5c10ad30c582751d8a27f3a05629d151",
+    "TRILEMMA_CONTRACT.json": "4f5bbbc2b130f059f7c27a9d05d2ad194cc6af7d34a3ffe8bfa0a0e1f539510c",
+    "TRILEMMA_RECEIVED_SKETCH.md": "46c08c06ca574e3743e5b97a8e32a11f7676f993aeb983adaafa974c30aa2a3f",
+    "verify_trilemma.py": "aec0524b19c0ba255fc9976247b6fb0f615ae71a352497277471d66c1df49721",
+    "TRILEMMA_CHECKS.json": "c58e2dada856fdfd3c71a8db3269648c62f8dc36f1f65a032546077296b585cd"
+  },
+  "self_hash": "excluded; Git blob identifies release record",
+  "adversarial_self_review": {
+    "weak_to_exact_bound": "counterexample h3/4 r1/4 L1 retained; exact frontiers separately derived",
+    "coordinate_to_predicate_transfer": "rare global Boolean certificate counterexample retained",
+    "positive_fee_overgeneralization": "absolute vs relative bands and baseline producer cost separated",
+    "receipt_known_denial": "M02 executed adaptive receipt policy, no known forbidden next action",
+    "barrier_unpaid_observation": "revised to charge every failed preflight including terminal rejection; 0<a<=g reserve funds it",
+    "technology_added_vs_replaced": "dispatch/barrier exact frontiers only for protected-only subprofiles; added interfaces may improve further",
+    "entropy_vs_access": "W explicitly correlated n+1 worlds; no n-bit entropy claim",
+    "hard_vs_expected": "separate definitions; W5 lower bound not exact expectation frontier",
+    "producer_accounting": "full charges; included baseline cannot hide n fresh reads",
+    "independence": "not claimed; external proof/code review pending"
+  },
+  "inherited_integrity_issues": {
+    "P08": "OPEN; historical scenario digest/extension README manifests mismatched; old manifests not overwritten; untouched full package audit not rerun"
+  },
+  "limitations": [
+    "Conditional constructed F/W profiles; source R01 not globally proved",
+    "No arbitrary global query interface allowed under local raw bounds",
+    "No real certificate/barrier prices or model/platform runtime admission",
+    "No independent C05/M05, corpus/00M/00N/E1-E7/HF transfer or novelty proof",
+    "No empirical campaign/statistical registration, architecture-selection value or EA superiority",
+    "No independent review substitute from finite arithmetic checks"
+  ],
+  "next_action": "M05/C05 independent proof+contract+finite oracle review using full reviewer prompt; continue M06/M11; M07 corpus mapping; C02/C11/C13 neutral oracle freeze before campaigns"
+}
