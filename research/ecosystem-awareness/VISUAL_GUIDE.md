@@ -2,6 +2,8 @@
 
 > **Navigation aid — not a normative source.** This page visualizes the current public reading routes and ownership boundaries of the corpus as of 24 September 2026. The linked source documents remain authoritative for semantics, status, evidence and scope. A diagram never upgrades a working proposal, frozen source, application package or unexecuted test into validation.
 
+**Programme-level theory bridge (draft):** [Map, Flow, Epistemic Distance and the Lineage to Ecosystem Positioning](../structural-awareness/MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md) — a non-canonical synthesis connecting the mathematical lineage, Field Notes and current architecture while preserving their separate claim boundaries.
+
 ## 1. How the programme accumulates
 
 Use this map when the repository feels like many parallel documents. The programme is cumulative: later architecture and test work builds on earlier explanatory, foundational and engineering layers without deleting them.
