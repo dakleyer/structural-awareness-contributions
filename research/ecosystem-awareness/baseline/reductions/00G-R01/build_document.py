@@ -43,7 +43,7 @@ r=footer.add_run('00G-R01 · Non-canonical research  ·  '); r.font.size=Pt(8)
 fld=OxmlElement('w:fldSimple'); fld.set(qn('w:instr'),'PAGE'); footer._p.append(fld)
 doc.core_properties.title=header.text
 doc.core_properties.subject='Non-canonical working scenario and Ecosystem Awareness candidacy'
-doc.core_properties.author='Iván Abril Palma'
+doc.core_properties.author='Iván Abril Palma, Tegrity.AI'
 doc.core_properties.keywords='creativity, validation, agents, Ecosystem Awareness, Napoleon, Hugging Face'
 
 def hyperlink(p,label,url):

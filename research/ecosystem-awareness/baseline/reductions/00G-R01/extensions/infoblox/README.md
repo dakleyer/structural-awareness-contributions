@@ -109,7 +109,7 @@ The case concretizes R01's problem in a DNS diagnosis with discovery, trust and 
 
 Scenario, technologies, runs and transfer proof
 
-Iván Abril Palma · Ecosystem Awareness · Version 0.5 · 2 October 2026
+Iván Abril Palma, Tegrity.AI · Ecosystem Awareness · Version 0.5 · 2 October 2026
 
 <a id="1-objetivo-y-resultado-de-la-revisión"></a>
 ## 1 Review objective and outcome

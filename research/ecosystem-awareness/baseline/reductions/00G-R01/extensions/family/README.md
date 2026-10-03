@@ -74,7 +74,7 @@ Each case retains M, the known permitted procedure; I, the best permitted altern
 | Executed check and results | [Reproduction guide](./proof/README.md) |
 | Sources and traceability | [Documented motivation](#3-casos-documentados-que-motivan-la-familia) · [Internal references](#6-referencias-internas-y-trazabilidad) |
 
-Iván Abril Palma · Ecosystem Awareness · Research version 0.1 · 2 October 2026
+Iván Abril Palma, Tegrity.AI · Ecosystem Awareness · Research version 0.1 · 2 October 2026
 
 [Return to R01](../../README.md#extensiones) · [Mathematical proof](./KERNEL_AND_PROOF.md) · [Code, scope and results](./proof/README.md)
 

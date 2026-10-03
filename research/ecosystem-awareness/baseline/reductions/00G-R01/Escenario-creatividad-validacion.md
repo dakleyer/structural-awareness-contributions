@@ -3,7 +3,7 @@
 
 Probabilistic exploration and validation cost
 
-Iván Abril Palma · Ecosystem Awareness research line
+Iván Abril Palma, Tegrity.AI · Ecosystem Awareness research line
 
 Base specification v0.6 · Reading organization 3 October 2026 · Non-canonical research document
 
