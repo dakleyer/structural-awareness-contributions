@@ -3,6 +3,8 @@
 
 [R01 base scenario](../../Escenario-creatividad-validacion.md) · [Three extensions](../../README.md#extensiones)
 
+[Concrete technology integration — remaining tasks](./REMAINING_TASKS.txt): three candidate configurations, E1–E7 checks, adapter tests and release audits. This plan uses the same `R01_BOT_WORKPLAN_START` / `R01_BOT_WORKPLAN_END` labels as the [R01 work-plan index](../../README.md#bot-start-here); integrations remain pending.
+
 <a id="readable-problem"></a>
 ## 1 The problem
 

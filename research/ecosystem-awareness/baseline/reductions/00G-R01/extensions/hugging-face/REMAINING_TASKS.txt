@@ -1,0 +1,188 @@
+R01 / HUGGING FACE — REMAINING TASKS
+Concrete technology integration and transfer checks
+Version 0.1 — 3 October 2026 — All integration tasks OPEN
+
+START HERE
+R01 entry: ../../README.md#bot-start-here
+Mathematical plan: ../../MATHEMATICAL_FEASIBILITY.md
+Computability plan: ../../COMPUTABILITY_AND_ORACLE_PLAN.md
+Case and retained history: ./README.md
+Conditional transfer contract: ../family/KERNEL_AND_PROOF.md
+Common evidence criteria: ../CRITERIA_AND_AUDIT.md
+
+PURPOSE AND STATUS
+Complete the missing bridge from the constructed HF-compatible scenario to
+three identified executable technology configurations. Scenario-to-scenario
+transfer already has a conditional proposition and finite witnesses within
+their stated scope. It does not automatically admit a particular runtime,
+model, integration or historical incident.
+
+Here "Hugging Face" names the constructed case family in this repository.
+It does not require every candidate to be hosted on the HF Hub, and it does
+not claim these frameworks were responsible for the reported incident.
+
+This file plans three integrations and their tests; none was implemented or
+run by this documentation update. Preserve favorable, unfavorable, blocked
+and inconclusive findings. A successful defense is a valid outcome.
+
+THREE CANDIDATES TO QUALIFY
+1. Hugging Face smolagents
+   Candidate role: model-driven receiver using controlled tools.
+   Start by assessing ToolCallingAgent; CodeAgent is a distinct profile if
+   its execution surface is needed. Official documentation describes both.
+   Check tool effects, step/memory capture, instruction boundaries and
+   whether code execution adds undeclared operations or information.
+   Source: https://huggingface.co/docs/smolagents/index
+
+2. LangGraph
+   Candidate role: explicit stateful execution of search, review, message
+   receipt and decision stages. Official documentation describes graph
+   orchestration, persistence and deterministic/model-driven steps.
+   Check checkpoint/replay semantics, duplicate effects, observation
+   isolation and accounting for resumed work. Persistence grants no
+   authority and certifies no evidence by itself.
+   Source: https://docs.langchain.com/oss/python/langgraph/overview
+
+3. OpenAI Agents SDK (Python)
+   Candidate role: receiver integration with tool execution and trace
+   instrumentation. Official tracing documentation describes generations,
+   tool calls, handoffs and guardrail events.
+   Check whether trace hooks expose every required commitment, attempt and
+   effect; add environment-owned receipts where SDK traces are insufficient.
+   SDK traces alone do not prove permission or legitimate completion.
+   Source: https://openai.github.io/openai-agents-python/tracing/
+   Repository: https://github.com/openai/openai-agents-python
+
+Sources above were consulted on 3 October 2026 for candidate selection.
+They establish documented features, not R01 compatibility or superiority.
+Pin exact releases/commits, model IDs, prompts and settings before testing.
+The three names identify integration frameworks, not three model families
+or three fundamentally distinct policies. A framework-only comparison
+requires matched policies/models where possible; otherwise declare the
+combined system being compared.
+
+COMMON ADAPTER CONTRACT
+Input: a registered world reference, assignment, agent-visible initial
+observations, permitted tools, budget, deadline and policy configuration.
+Output: append-only recorder events and raw outputs with IDs, timestamps,
+versions, declared scope, provenance, usage, costs and disposition.
+
+The environment owns permissions and actual-effect receipts. The evaluator
+owns the hidden full map, I/P labels and ground-truth verdicts. Native
+runtime controls remain enabled and documented. Do not remove a defense
+merely to obtain a negative result.
+
+Use controlled replicas of tools/resources in this constructed scenario.
+Record the deployment boundary and every external dependency. Offline
+scripted-model checks establish adapter plumbing only; a model-driven run
+needs its own registration and cannot inherit an autonomous-behavior claim
+from a fixture.
+
+TRANSFER EVIDENCE REQUIRED PER TECHNOLOGY
+E1: map every material object, relation and operation.
+E2: map enabled events, attempts, effects and stopping conditions.
+E3: preserve the claimed transition law, or explicitly reject exact transfer.
+E4: match observations and the stated policy correspondence/class; no leak.
+E5: account for all work, elapsed time and normalized resources.
+E6: preserve admissibility, quality and outcome semantics.
+E7: cover declared trajectories, legitimate alternatives and incompleteness.
+
+An adapter that records matching fields does not establish E1–E7. If a
+model's stochastic policy differs, scenario execution may still be useful
+but numerical outcomes do not transfer from another policy automatically.
+If the mathematical result quantifies over all observation-based policies
+of a class, show that this implementation belongs to that class. If it
+concerns paired policies, verify the pairing instead.
+
+For approximate transfer, state an independently justified error bound and
+how it affects the feasibility threshold. Do not invent a tolerance after
+seeing the result. If no correspondence is defensible, mark the integration
+outside theorem scope while retaining its experiment as separately defined.
+
+REMAINING TASKS — STAGED BOT WORK PLAN
+<!-- R01_BOT_WORKPLAN_START version="0.1" scope="extensions/hugging-face/REMAINING_TASKS.txt" -->
+Canonical discovery label: R01_BOT_WORKPLAN_START
+Canonical closing label: R01_BOT_WORKPLAN_END
+These are the SAME labels used in DIFFERENTIAL_AND_EXPERIMENT_VALUE.md and
+both new R01 plans. Do not create an alternative pending-task tag.
+
+Status vocabulary: OPEN, IN_PROGRESS, BLOCKED, DONE.
+Every task below is OPEN. Preserve IDs. For each status change record owner,
+UTC date, input commit, exact configuration, evidence paths, commands,
+results, review findings, residual limits and next action.
+For T03–T07 maintain one separate status/evidence row per technology.
+
+T01 — Freeze the scope and candidate configurations.
+Depends: read M01 and C02; prepare now, freeze after those contracts.
+Deliver: three pinned runtime/model configurations, accessible capabilities,
+controls, credentials/access status, resource ceilings and evidence matrix.
+No unconfirmed model access or API support may be assumed.
+
+T02 — Specify mappings and evaluate admission gaps.
+Depends: T01.
+Deliver: E1–E7 and R01 parameter/trace correspondence for each configuration,
+including unmapped operations, human inputs, network effects and time.
+Identify the technology's effective parameters and all scope restrictions.
+
+T03 — Implement adapters and isolated recorder checks.
+Depends: T02 and C02.
+Deliver: controlled tool wrappers and recorder adapters for each runtime;
+test scope/version mismatch, duplicate and out-of-order events, replay and
+unexpected operations. Record native defenses and their outcomes.
+
+T04 — Check paired positive, negative and indeterminate fixtures.
+Depends: T03 and C05.
+Deliver: allowed improvement accepted, visible prohibition detected, blocked
+attempt separated from effect, peer endorsement without authority, repeated
+dependent evidence, insufficient review, late completion, and budget
+exhaustion. Include an admissible mixture when the declared domain has it.
+Fixture expectations test instruments; they do not script behavioral rates.
+
+T05 — Run bounded technology traversals.
+Depends: T04 and C06.
+Deliver: registered model/policy-driven runs, exact prompts and versions,
+initial observations, recorder traces and independently scored outputs.
+Retain failed, safe, abstaining and infrastructure-error runs with reasons.
+Freeze episode counts/retry rules first. A small integration run establishes
+execution, not a reliable frequency estimate or universal failure.
+
+T06 — Decide transfer and measure overhead.
+Depends: T05 and the relevant M04/M05 result.
+Deliver: separate verdict per technology: exact within stated scope,
+approximate with justified bound, rejected correspondence, or unresolved.
+Calculate effective parameters, adapter/model/communication costs and
+latencies. Classify regions only with the mathematical or statistical
+evidence required; distinguish runtime overhead from oracle expenditure.
+
+T07 — Adversarial technical audit and deeper source verification.
+Depends: T06.
+Deliver: attempts to defeat the claimed mapping with valid certificates,
+cache/replay, alternative safe routes, stronger native controls, hidden
+information and uncharged work. Verify official APIs and source locators
+against pinned versions. Document evidence that narrows or refutes transfer.
+
+T08 — Corpus coherence and scientific eligibility review.
+Depends: T07.
+Deliver: comparison with R01, both new plans, C3 status, E1–E7 and common
+extension criteria. Keep scenario transfer, technology admission, tested
+behavior and historical causation separate. Do not claim EA advantage.
+
+T09 — Editorial quality, readability and visual aids.
+Depends: T08.
+Deliver: a new reader can identify the three configurations, entry commands,
+expected evidence and remaining gaps. Review a compact adapter/recorder/
+oracle diagram or table if useful; label synthetic examples and measured
+results correctly. Render and inspect any added visual aid.
+
+T10 — Preservation and final adversarial release audit.
+Depends: T01–T09, with all three per-technology dispositions explicit.
+Deliver: base/head tree comparison with no unintended deletions; additive
+or justified diffs, valid navigation, retained historical freezes/results,
+and successor integrity records where needed. Resolve or explicitly carry
+the inherited package-hash mismatches; never silently rewrite history.
+Record self-audit as self-audit; independent review is a separate activity.
+
+Next bot: start at T01, read the current M/C contracts, then assess all three
+candidates. A blocked candidate retains its evidence; justify any replacement
+and apply the same protocol instead of silently removing it.
+<!-- R01_BOT_WORKPLAN_END -->

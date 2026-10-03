@@ -7,6 +7,20 @@ Base specification v0.6 · Reading organization 3 October 2026 · Non-canonical 
 
 [Differential and value of the experiment](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md): the technology–problem suitability map, cost/risk/effectiveness, related work, candidate contribution, oracle priorities and remaining review passes.
 
+<a id="bot-start-here"></a>
+## Start here — research work plans for bots
+
+The canonical pending-work discovery label is **`R01_BOT_WORKPLAN_START`**, closed by **`R01_BOT_WORKPLAN_END`**. This is the existing label in the differential document; all plans below reuse it exactly. A scope attribute or task ID identifies a workstream, not a different discovery label.
+
+| Order | Document and first task | Purpose |
+|---|---|---|
+| 1 | [Mathematical feasibility and infeasibility regions](./MATHEMATICAL_FEASIBILITY.md) — M01 | Define the claim and policy class; prove or reject a region, allowing it to be empty. |
+| 2 | [Computability, bounded execution and oracle](./COMPUTABILITY_AND_ORACLE_PLAN.md) — C01 | Make the traversal and evaluator executable; verify correctness, termination and measured compute requirements. Inventory can begin alongside M01. |
+| 3 | [Hugging Face concrete technology remaining tasks](./extensions/hugging-face/REMAINING_TASKS.txt) — T01 | Qualify three runtime configurations, implement adapters and test transfer against the checked contracts. |
+| Continuing review | [Differential and experiment value](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md#robot-review-plan) — P01–P09 | Preserve and continue the earlier research, reference and editorial review tasks. |
+
+From this R01 folder, find all work plans with `rg -n 'R01_BOT_WORKPLAN_START' .`. Read each plan's dependencies and evidence required for closure. These are staged research plans, not completed proofs, implementations or technology tests. Every plan includes adversarial audit, source/corpus coherence, readability, visual review and content preservation.
+
 <a id="r01-in-plain-language"></a>
 ## What R01 studies
 

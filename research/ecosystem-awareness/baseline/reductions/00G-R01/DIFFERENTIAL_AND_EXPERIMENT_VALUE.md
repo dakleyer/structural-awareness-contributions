@@ -130,6 +130,8 @@ Primary sources consulted on 3 October 2026. Versioned papers are identified whe
 ## Robot review plan — pending work on this document
 
 <!-- R01_BOT_WORKPLAN_START version="0.1" scope="DIFFERENTIAL_AND_EXPERIMENT_VALUE.md" -->
+**Shared-label reconciliation, 3 October 2026.** `R01_BOT_WORKPLAN_START` and `R01_BOT_WORKPLAN_END` are the canonical discovery markers for this plan, [mathematical feasibility](./MATHEMATICAL_FEASIBILITY.md), [computability and oracle](./COMPUTABILITY_AND_ORACLE_PLAN.md), and [HF technology tasks](./extensions/hugging-face/REMAINING_TASKS.txt). The existing maintenance label below identifies this document only; it does not replace the shared markers. P01–P09 remain open with their original criteria. P04 is developed by C01–C10; P05/P08/P09 also apply to the new workstreams. See the [entry and order](./README.md#bot-start-here).
+
 **Maintenance label: R01-DIFFERENTIAL-REVIEW.** Keep this work plan in this document. It is not a website robots.txt, a separate instructions file or a scheduled automation. Preserve task identifiers; record date, exact version reviewed, evidence, finding and remaining uncertainty when closing a task. Do not mark work complete from a plan, an inaccessible reference or a passing check with a different scope.
 
 **Baseline and initial checks:** repository commit `626c7822a50cd2779730c46cca3cfbbc4eb381eb`. The README and complete scenario receive one navigation paragraph each; removing those additions restores their previous text exactly. Local relative-link targets in the three affected Markdown files were checked. This narrow preservation check does not resolve the inherited package-audit failures recorded in P08.
