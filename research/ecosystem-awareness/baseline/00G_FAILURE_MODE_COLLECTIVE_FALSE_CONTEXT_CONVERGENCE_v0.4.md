@@ -1,5 +1,7 @@
 # 00G — Canonical Reference Failure Scenario and Integrated Quality / Implementation Plan: Collective False-Context Convergence ("Bar-to-Napoleon" Cascade)
 
+**UC21 navigation:** [Published FG-TIDA use case](https://github.com/FG-TIDA/use-cases/issues/21) · [S3 / Cyber Napoleon submission](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/scenarios/S3.md) · [R01 experiment, extensions and methodology](./reductions/00G-R01/README.md). The UC21 package retains the submitted scenario; subsequent R01 research is maintained in Contributions.
+
 > **Refuerzo semántico ejecutado — 26/09/2026.** La [revisión A23](./fixtures/00K-FORMAL/requirement-sufficiency/SEMANTIC_BRIDGE_REVIEW.md) distingue usar evidencia correlacionada con sus límites de contarla falsamente como corroboración independiente. El diagnóstico de P6 conserva los contraejemplos históricos y no certifica todas las obligaciones de composición. [Aplicación y registro del artículo](./00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/00L_A16_APLICACION_PLAN_Y_ESTADO_SUFICIENCIA_v0.1.md).
 
 
