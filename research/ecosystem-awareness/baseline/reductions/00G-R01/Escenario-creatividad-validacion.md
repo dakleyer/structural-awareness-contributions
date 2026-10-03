@@ -7,6 +7,8 @@ Iván Abril Palma, Tegrity.AI · Ecosystem Awareness research line
 
 Base specification v0.6 · Reading organization 3 October 2026 · Non-canonical research document
 
+[Differential and value of the experiment](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md) explains the technology–problem suitability map, its relationship to existing research, the candidate contribution and the remaining review plan. This scenario retains the experimental rules and evidence limits.
+
 <a id="base-scenario-in-words"></a>
 ## The base scenario in words
 

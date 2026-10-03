@@ -5,6 +5,8 @@ Base specification v0.6 · Reading organization 3 October 2026 · Non-canonical 
 
 [Complete base scenario](./Escenario-creatividad-validacion.md) · [Reductions](#reductions) · [Three extensions](#extensiones) · [Preservation record](./ORGANIZATION_TRACE.md)
 
+[Differential and value of the experiment](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md): the technology–problem suitability map, cost/risk/effectiveness, related work, candidate contribution, oracle priorities and remaining review passes.
+
 <a id="r01-in-plain-language"></a>
 ## What R01 studies
 
