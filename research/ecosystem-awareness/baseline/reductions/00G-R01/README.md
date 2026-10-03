@@ -21,9 +21,12 @@ The canonical pending-work discovery label is **`R01_BOT_WORKPLAN_START`**, clos
 
 From this R01 folder, find all work plans with `rg -n 'R01_BOT_WORKPLAN_START' .`. Read each plan's dependencies and evidence required for closure. These are staged research plans, not completed proofs, implementations or technology tests. Every plan includes adversarial audit, source/corpus coherence, readability, visual review and content preservation.
 
-**Strategic review and complete execution prompt:** [Priorities, scores, 49 tasks and release gates](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md). Start with baseline/integrity triage (P08/C01), scope and measurement (M01/P03/P10), and targeted prior-art/counterexample review (P01/P02/M06). Then freeze C02/C11/C13 and build the tiny independent oracle. The table's document order is navigation, not a requirement to finish every mathematical task before implementation. The full campaign and later pilot-based selector have separate gates; qualify all three technologies, then stage their implementation through T11. All scientific/implementation tasks remain open.
+**Strategic review and complete execution prompt:** [Priorities, scores, 49 tasks and release gates](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md). Start with baseline/integrity triage (P08/C01), scope and measurement (M01/P03/P10), and targeted prior-art/counterexample review (P01/P02/M06). Then freeze C02/C11/C13 and build the tiny independent oracle. The table's document order is navigation, not a requirement to finish every mathematical task before implementation. The full campaign and later pilot-based selector have separate gates; qualify all three technologies, then stage their implementation through T11. At that planning revision, all tasks were open. Current execution: [M01 is DONE for scope formulation](./M01_SCOPE_AND_QUANTIFIERS.md); proof, implementation and campaign tasks remain open.
 
 The planning self-review reproduced all three extension finite reports, while the unchanged common audit still fails at the current scenario hash and all three extension README manifests mismatch. The [review evidence](./WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json) distinguishes those scopes. Historical hashes are retained; repair remains P08.
+
+**First mathematical task completed:** [M01 scope, policies, thresholds and quantifiers](./M01_SCOPE_AND_QUANTIFIERS.md) · [Scope-check evidence](./M01_SCOPE_CHECKS.json) · [Reproduce the diagnostic calculations](./verify_m01_scope.py). The first proof target is a single-agent static submodel; it does not establish population-level infeasibility. Next task: M02. No full R01 proof or campaign is claimed.
+
 
 
 <a id="r01-in-plain-language"></a>

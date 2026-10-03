@@ -8,7 +8,7 @@ Iván Abril Palma, Tegrity.AI · Revisión del plan v0.2 · 3 de octubre de 2026
 
 Los cuatro planes tienen una base sólida: distinguen pruebas, comprobaciones finitas, campañas, admisión tecnológica y causalidad histórica; conservan resultados negativos y exigen evidencia para cerrar tareas. El principal defecto es de ejecución estratégica: algunas revisiones llegan demasiado tarde y faltaban tareas concretas para la campaña estadística y la evaluación posterior de pilotos como instrumento de selección de arquitectura.
 
-Se mantienen las 38 tareas originales y sus criterios. Se añaden 11: M10–M11, C11–C14, P10–P12 y T11–T12. Las 49 siguen abiertas. Se aclara el orden sin exigir terminar toda la prueba matemática antes de construir un evaluador neutral. Las revisiones de fuentes, contraejemplos, coherencia y conservación se repiten durante el trabajo, además de su cierre final.
+Se mantienen las 38 tareas originales y sus criterios. Se añaden 11: M10–M11, C11–C14, P10–P12 y T11–T12. Al crearse esta revisión, las 49 estaban abiertas. Estado actual: M01 está DONE para formulación de alcance; las otras 48 siguen abiertas. Se aclara el orden sin exigir terminar toda la prueba matemática antes de construir un evaluador neutral. Las revisiones de fuentes, contraejemplos, coherencia y conservación se repiten durante el trabajo, además de su cierre final.
 
 La revisión usa el commit `1e940125a18f468268eff8f029a35c32a5f4ff08`. Los 39 archivos de texto/código descargados de R01 coinciden exactamente con sus blobs Git. Los tres verificadores de extensiones reproducen sus informes publicados. El verificador común falla en el hash actual del escenario; los manifiestos SHA256 tampoco coinciden con los tres README de extensiones. Son problemas heredados, anteriores a esta revisión. Se conservan el escenario, los scripts, los resultados y los congelados históricos. Esta revisión no prueba el teorema, no implementa el oráculo completo y no ejecuta una campaña con agentes.
 
@@ -80,7 +80,7 @@ Prioridades: P0 = comenzar y fijar contratos; P1 = desbloquear evidencia mínima
 
 | ID | Prioridad | Actividad y resultado exigido |
 |---|---|---|
-| M01 | P0 | Fijar dominio, políticas, cuantificadores, distribución o peor caso, umbrales y regiones F/U; permitir regiones vacías. |
+| M01 | P0 | Fijar dominio, políticas, cuantificadores, distribución o peor caso, umbrales y regiones F/U; permitir regiones vacías. **DONE — formulación de alcance**, [resultado](./M01_SCOPE_AND_QUANTIFIERS.md). |
 | M02 | P1 | Construir mundos difíciles y control viable con ground truth, observaciones, óptimo y mezclas; descartar un atajo común suficiente. |
 | M03 | P1 | Derivar la información y recursos necesarios, cubriendo adaptación, aleatoriedad, memoria, certificados y colaboración de la clase afirmada. |
 | M04 | P1 | Demostrar o rechazar una región mediante desigualdades, fronteras y testigo de no vaciedad; conservar el intento fallido. |
@@ -160,5 +160,13 @@ Cumple los límites de recursos registrados; no inventes acceso a modelos ni res
 Entrega los archivos/versiones modificados, evidencia reproducible, tabla de tareas y disposiciones, hallazgos adversariales, contenido conservado, límites y siguiente paso por prioridad. Separa explícitamente: prueba matemática, corrección del instrumento, campaña base, admisión tecnológica, utilidad del piloto para elegir y causalidad histórica. No cierres una etapa por tener un documento bien presentado.
 
 Comienza en G0. La primera entrega es una línea base verificable, una pregunta precisa y contratos medibles. La segunda es un oráculo pequeño independiente. La campaña, las integraciones y la selección prospectiva se apoyan en esas entregas y conservan sus propias pruebas pendientes.
+
+
+
+### Actualización de ejecución — M01
+
+M01 está DONE únicamente para formular el alcance matemático. [Contrato y revisión adversarial](./M01_SCOPE_AND_QUANTIFIERS.md) · [Evidencia y límites](./M01_SCOPE_CHECKS.json) · [Cálculos diagnósticos reproducibles](./verify_m01_scope.py). La declaración anterior de todas las tareas OPEN corresponde a la aprobación del plan, no al estado posterior a esta ejecución.
+
+El primer objetivo usa un agente y una pareja de mundos estáticos equiprobables. No redefine la campaña de población de R01 ni demuestra que exista una región inviable. M02 es el siguiente paso; M10, P03, los argumentos, las implementaciones y las campañas conservan sus pendientes. Un hallazgo material puede reabrir M01. La revisión ha sido propia, no independiente.
 
 <!-- R01_BOT_WORKPLAN_END -->

@@ -1,0 +1,375 @@
+{
+  "task_id": "M01",
+  "status": "DONE",
+  "closure_scope": "mathematical domain/policy/law/threshold/region formulation only",
+  "input_commit": "f33e2887ab7add81f38ada94533ff83096b77e70",
+  "actual_utc_completed_at": "2026-10-03T20:15:32.598903+00:00",
+  "executing_owner": "Codex, on user instruction",
+  "reviewer": "same executing agent",
+  "independent_review": false,
+  "result_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+  "reproduction_command": "python3 verify_m01_scope.py",
+  "source_reads": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "git_blob_sha": "c3ff3fdf8c309dda992ad5eedbe4cc10120d4d44",
+      "sha256": "7f2ad01e3ae129c5c96a7e5c8dcce9bb24194b8cf4c7da5eeac8d83075bca8a9",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+      "git_blob_sha": "3017165ca6ce4af308e8f24f8524afdc7b4d767d",
+      "sha256": "ea306d182162677c4501a39047572f852aad29870e4353c5062d51a634f48ef8",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "git_blob_sha": "7a93ba693bc0141d63ba799d4f715382e659b737",
+      "sha256": "99c9aa9c3787f66e802a450e7cd80a26637e5683a86e6492edcc58769a799074",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "git_blob_sha": "e83e5b59b1cfcb584f839d633869b0870fdab5c3",
+      "sha256": "171de5b1d6b0693f4e12190b91805956be2751322ca4ac2b2765bbb9ad295593",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "git_blob_sha": "eeac068cb2c8be0678b5d913b4a8dca2f167adf6",
+      "sha256": "2a113dd06e7ca77a2176ca2a62a3749f062a09bf5e96ce784619315a1fd499a4",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+      "git_blob_sha": "c97353991117f63983feba24bf8344cf52e9f1e7",
+      "sha256": "7af7ffb02afab0bd9049a942cb8924ed4e61290600c3950381e3655277c39dbd",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "git_blob_sha": "4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c",
+      "sha256": "36c5ed27590e7deb68aab9968410a9d0894b411bee3ecc238cdead1dc0eebc73",
+      "git_blob_identity_verified": true
+    }
+  ],
+  "scope_contract": {
+    "N": 1,
+    "worlds": "finite static encoded worlds",
+    "material_graph": "finite DAG with all registered complete routes/connectors/mixtures",
+    "first_candidate": "two worlds with exact AVG weights 1/2,1/2; WC separate",
+    "policy_class": "all allowed finite-history deterministic rules and ex ante world-independent mixtures",
+    "receiver_gate": "required own review and known-denial rejection retained; hidden barriers applied by environment",
+    "thresholds": "epsilon>=0 absolute J-gap; p_min in (0,1]; delta in [0,1]; rational, fixed per configuration",
+    "next_numeric_instantiation": "M02, not a campaign grid freeze",
+    "randomization_cost": "fixed startup/sampling costs independent of mixture weights; extra runtime overhead needs explicit profile/admission",
+    "event_cap": "finite H; explicit submodel restriction",
+    "full_information_control": "must retain mission, authority, receiver gate and remaining charges; not a free query for the tested policy"
+  },
+  "acceptance_disposition": {
+    "exact_domain": "DONE: result §§1–2/8–9",
+    "policy_class": "DONE: §3",
+    "law_and_quantifier_order": "DONE: §5",
+    "thresholds_and_F_U": "DONE: §§4/6–7",
+    "empty_vs_unresolved": "DONE: §6",
+    "adversarial_formulation_review": "DONE: §§9–10; same-agent review only"
+  },
+  "diagnostic_calculations": {
+    "scope": "exact diagnostic arithmetic for M01 definitions only",
+    "checks": {
+      "randomized_mixture_cannot_be_discarded": {
+        "deterministic_scores": [
+          [
+            "2/5",
+            "0"
+          ],
+          [
+            "4/5",
+            "1/5"
+          ]
+        ],
+        "thresholds": [
+          "3/5",
+          "1/10"
+        ],
+        "mixture_weights": [
+          "1/2",
+          "1/2"
+        ],
+        "mixture_score": [
+          "3/5",
+          "1/10"
+        ],
+        "status": "PASS"
+      },
+      "world_specific_existence_is_not_one_hidden_world_policy": {
+        "score_matrix": {
+          "A": [
+            "1",
+            "0"
+          ],
+          "B": [
+            "0",
+            "1"
+          ]
+        },
+        "per_world_oracle_score": "1",
+        "balanced_ex_ante_average": "1/2",
+        "wc_example_threshold": "9/10",
+        "allowed_mixture_interval": [
+          "9/10",
+          "1/10"
+        ],
+        "interval_empty": true,
+        "status": "PASS"
+      },
+      "success_requires_actual_delivery_and_inclusive_boundaries": {
+        "threshold_equality_accepted": true,
+        "safe_abstention_not_success": true,
+        "executed_violation_not_success": true,
+        "low_quality_completion_not_success": true,
+        "status": "PASS"
+      },
+      "inclusive_adequacy_has_strict_failure_negation": {
+        "status": "PASS"
+      },
+      "risk_ceiling_may_be_stronger_than_success_requirement": {
+        "success": "3/5",
+        "risk": "1/10",
+        "safe_failure": "3/10",
+        "redundancy_boundary": "2/5",
+        "strict_risk_ceiling": "1/10",
+        "status": "PASS"
+      }
+    },
+    "R01_worlds_constructed": 0,
+    "R01_campaigns_run": 0,
+    "full_policy_catalog_enumerated": false,
+    "infeasible_R01_region_proved": false,
+    "independent_review": false
+  },
+  "publication_validation": {
+    "modified_existing_files": [
+      "README.md",
+      "MATHEMATICAL_FEASIBILITY.md",
+      "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md"
+    ],
+    "new_files": [
+      "M01_SCOPE_AND_QUANTIFIERS.md",
+      "verify_m01_scope.py",
+      "M01_SCOPE_CHECKS.json"
+    ],
+    "deletions_intended": [],
+    "local_link_targets_checked": 78,
+    "local_link_targets_exist": true,
+    "original_M01_acceptance_text_unchanged": true,
+    "other_M_task_rows_unchanged": true,
+    "master_task_ids_retained": 49,
+    "remaining_tasks_OPEN": 48,
+    "scientific_theorem_or_campaign_claims_closed": 0,
+    "source_scenario_and_previous_scripts_results_manifests": "not modified"
+  },
+  "document_preservation": {
+    "README.md": {
+      "before_sha256": "7f2ad01e3ae129c5c96a7e5c8dcce9bb24194b8cf4c7da5eeac8d83075bca8a9",
+      "after_sha256": "9f93d52fb87036799d658b720965df669593c129bbdc4f66eaf5541d1e0e1c86",
+      "input_text_exactly_recoverable": true,
+      "purpose": "M01 result/navigation and current task status; old acceptance text preserved",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_index": 2867,
+          "after_index": 2867,
+          "before": "",
+          "after": "t that planning revision, a"
+        },
+        {
+          "kind": "insert",
+          "before_index": 2870,
+          "after_index": 2897,
+          "before": "",
+          "after": "ta"
+        },
+        {
+          "kind": "replace",
+          "before_index": 2871,
+          "after_index": 2900,
+          "before": "ci",
+          "after": "ks were open. Curr"
+        },
+        {
+          "kind": "insert",
+          "before_index": 2876,
+          "after_index": 2921,
+          "before": "",
+          "after": " execut"
+        },
+        {
+          "kind": "insert",
+          "before_index": 2877,
+          "after_index": 2929,
+          "before": "",
+          "after": "on: [M01 is DONE "
+        },
+        {
+          "kind": "insert",
+          "before_index": 2878,
+          "after_index": 2947,
+          "before": "",
+          "after": "or scope formulat"
+        },
+        {
+          "kind": "replace",
+          "before_index": 2879,
+          "after_index": 2965,
+          "before": "c",
+          "after": "on](."
+        },
+        {
+          "kind": "insert",
+          "before_index": 2881,
+          "after_index": 2971,
+          "before": "",
+          "after": "M01_SCOPE_AND_QUANTIFIERS.md); proof, "
+        },
+        {
+          "kind": "insert",
+          "before_index": 2894,
+          "after_index": 3022,
+          "before": "",
+          "after": "n and campaig"
+        },
+        {
+          "kind": "insert",
+          "before_index": 3258,
+          "after_index": 3399,
+          "before": "",
+          "after": "\n\n**First mathematical task completed:** [M01 scope, policies, thresholds and quantifiers](./M01_SCOPE_AND_QUANTIFIERS.md) · [Scope-check evidence](./M01_SCOPE_CHECKS.json) · [Reproduce the diagnostic calculations](./verify_m01_scope.py). The first proof target is a single-agent static submodel; it does not establish population-level infeasibility. Next task: M02. No full R01 proof or campaign is claimed.\n"
+        }
+      ]
+    },
+    "MATHEMATICAL_FEASIBILITY.md": {
+      "before_sha256": "ea306d182162677c4501a39047572f852aad29870e4353c5062d51a634f48ef8",
+      "after_sha256": "90339e50f899045cfbf2b34557a42a64d160864d01b747ed83684b6cc447abcc",
+      "input_text_exactly_recoverable": true,
+      "purpose": "M01 result/navigation and current task status; old acceptance text preserved",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_index": 5919,
+          "after_index": 5919,
+          "before": "",
+          "after": "t work-plan creation, a"
+        },
+        {
+          "kind": "replace",
+          "before_index": 5934,
+          "after_index": 5957,
+          "before": "a",
+          "after": "we"
+        },
+        {
+          "kind": "insert",
+          "before_index": 5942,
+          "after_index": 5966,
+          "before": "",
+          "after": ". Current status: M01 is DONE for scope formulation; M02–M11 remain OPEN. Read the [M01 scope record](./M01_SCOPE_AND_QUANTIFIERS.md)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 6358,
+          "after_index": 6515,
+          "before": "",
+          "after": " — DONE (scope)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 8665,
+          "after_index": 8837,
+          "before": "",
+          "after": "reads the completed [M01 scope record](./M01_SCOPE_AND_QUANTIFIERS.md), then "
+        },
+        {
+          "kind": "insert",
+          "before_index": 8672,
+          "after_index": 8921,
+          "before": "",
+          "after": "M02. M"
+        },
+        {
+          "kind": "insert",
+          "before_index": 8674,
+          "after_index": 8929,
+          "before": "",
+          "after": "erial scope findings reopen"
+        },
+        {
+          "kind": "insert",
+          "before_index": 12337,
+          "after_index": 12619,
+          "before": "",
+          "after": "\n\n### M01 execution record — 3 October 2026\n\n**M01 DONE — mathematical scope/quantifier formulation only.** [Result and adversarial formulation review](./M01_SCOPE_AND_QUANTIFIERS.md) · [Exact diagnostic arithmetic](./verify_m01_scope.py) · [Acceptance, source hashes and preservation evidence](./M01_SCOPE_CHECKS.json).\n\nThe first target is N=1, finite static DAG worlds, with an equiprobable two-world candidate family. It preserves required own review, known-denial rejection, memory, adaptive querying and randomized policies. Average and worst-case claims are separate; thresholds are fixed per configuration. This narrows the first proposition and leaves the broader R01 campaign unchanged. It establishes no infeasible region and no technology result.\n\nM02 is next: construct the candidate and physical/full-information controls, retain all mixtures and try a common safe route or cheap certificate. M10/P03 reconciliation, M02–M11 proofs/reviews, implementation and campaigns remain open. Executing owner/reviewer: Codex, by user instruction; self-review only. Actual UTC time, input commit and review limits are in the evidence record. Reopen M01 if an external finding invalidates the contract.\n\n"
+        }
+      ]
+    },
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": {
+      "before_sha256": "171de5b1d6b0693f4e12190b91805956be2751322ca4ac2b2765bbb9ad295593",
+      "after_sha256": "18b1cea640c12c224f5a4173fa5ff61f7752876d69b033fdb5637bcb746f6060",
+      "input_text_exactly_recoverable": true,
+      "purpose": "M01 result/navigation and current task status; old acceptance text preserved",
+      "changes": [
+        {
+          "kind": "replace",
+          "before_index": 1098,
+          "after_index": 1098,
+          "before": "L",
+          "after": "Al crearse esta revisión, l"
+        },
+        {
+          "kind": "insert",
+          "before_index": 1104,
+          "after_index": 1130,
+          "before": "",
+          "after": " estaban abiertas. Estado actual: M01 está DONE para formulación de alcance; las otras 48"
+        },
+        {
+          "kind": "insert",
+          "before_index": 10729,
+          "after_index": 10844,
+          "before": "",
+          "after": "**DONE — formulación de alcance**, [resultado](./M01_SCOPE_AND_QUANTIFIERS.md). "
+        },
+        {
+          "kind": "insert",
+          "before_index": 19978,
+          "after_index": 20173,
+          "before": "",
+          "after": "\n\n### Actualización de ejecución — M01\n\nM01 está DONE únicamente para formular el alcance matemático. [Contrato y revisión adversarial](./M01_SCOPE_AND_QUANTIFIERS.md) · [Evidencia y límites](./M01_SCOPE_CHECKS.json) · [Cálculos diagnósticos reproducibles](./verify_m01_scope.py). La declaración anterior de todas las tareas OPEN corresponde a la aprobación del plan, no al estado posterior a esta ejecución.\n\nEl primer objetivo usa un agente y una pareja de mundos estáticos equiprobables. No redefine la campaña de población de R01 ni demuestra que exista una región inviable. M02 es el siguiente paso; M10, P03, los argumentos, las implementaciones y las campañas conservan sus pendientes. Un hallazgo material puede reabrir M01. La revisión ha sido propia, no independiente.\n\n"
+        }
+      ]
+    }
+  },
+  "artifact_hashes": {
+    "README.md": "9f93d52fb87036799d658b720965df669593c129bbdc4f66eaf5541d1e0e1c86",
+    "MATHEMATICAL_FEASIBILITY.md": "90339e50f899045cfbf2b34557a42a64d160864d01b747ed83684b6cc447abcc",
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": "18b1cea640c12c224f5a4173fa5ff61f7752876d69b033fdb5637bcb746f6060",
+    "M01_SCOPE_AND_QUANTIFIERS.md": "8ea1c1d9aef76a7095c107488869885c121e23844d31b7aeedef7194ecf9fc7d",
+    "verify_m01_scope.py": "a34308b2632cf2e83ec851953becdc5909e83c7b2298b58e67931811914fedcb"
+  },
+  "self_hash": "excluded; published Git blob identifies this evidence record",
+  "inherited_integrity_issues": {
+    "status": "P08 remains OPEN",
+    "rerun_in_this_task": false,
+    "source": "WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json at the input commit",
+    "issue": "common-audit scenario digest and all three extension README manifests; neither repaired nor overwritten"
+  },
+  "limitations": [
+    "No R01 world pair instantiated",
+    "No resource lower bound or infeasible region proved",
+    "No full policy catalog enumeration or oracle implementation",
+    "No agent/model/product/network campaign",
+    "No N>1, dynamic-world or real-technology admission claim",
+    "External review may reopen M01; M10/P03 separate reconciliation remains OPEN"
+  ],
+  "next_action": "M02: candidate hard/easy worlds with complete route enumeration, query/evidence contract and full-information controls; try common safe shortcut and cheap certificate first"
+}

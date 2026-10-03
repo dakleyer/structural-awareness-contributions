@@ -47,11 +47,11 @@ The technology workstream may transfer the result only after checking E1–E7, p
 <!-- R01_BOT_WORKPLAN_START version="0.1" scope="MATHEMATICAL_FEASIBILITY.md" -->
 The canonical discovery label is exactly `R01_BOT_WORKPLAN_START`; close with `R01_BOT_WORKPLAN_END`, as in the earlier differential document. Do not introduce a competing pending-task tag. Task IDs identify work, not new discovery labels.
 
-All tasks below are OPEN. Execute M01–M06 in order; M07–M09 are mandatory closure passes. Record owner, UTC date, input commit, assumptions, evidence paths, commands/results where applicable, disposition and remaining limitations. A plan or a desired result cannot close a proof task. Use OPEN, IN_PROGRESS, BLOCKED or DONE; explain blockers and the next action.
+At work-plan creation, all tasks below were OPEN. Current status: M01 is DONE for scope formulation; M02–M11 remain OPEN. Read the [M01 scope record](./M01_SCOPE_AND_QUANTIFIERS.md). Execute M01–M06 in order; M07–M09 are mandatory closure passes. Record owner, UTC date, input commit, assumptions, evidence paths, commands/results where applicable, disposition and remaining limitations. A plan or a desired result cannot close a proof task. Use OPEN, IN_PROGRESS, BLOCKED or DONE; explain blockers and the next action.
 
 | ID | Stage and dependency | Evidence needed to close |
 |---|---|---|
-| M01 | Freeze scope and quantifiers. Read current R01 §§1.2–1.5, 2.13–2.18 and 00M §6.3. | Exact domain, policy class, probability law or worst-case criterion, thresholds and F/U definitions. Clarify empty regions and unresolved evidence. |
+| M01 — DONE (scope) | Freeze scope and quantifiers. Read current R01 §§1.2–1.5, 2.13–2.18 and 00M §6.3. | Exact domain, policy class, probability law or worst-case criterion, thresholds and F/U definitions. Clarify empty regions and unresolved evidence. |
 | M02 | Construct candidate hard and easy worlds after M01. | Full ground truth, observations, legitimate optimum including mixtures, and feasible control. Show why no common permitted high-quality shortcut already settles the hard pair. |
 | M03 | Derive information and resource bounds after M02. | Argument covering every policy claimed, including randomization, adaptive review, cache, certificates, coordination and prior knowledge. Separate work from wall-clock delay. |
 | M04 | Establish or reject a parameter region after M03. | Explicit inequalities, boundary/equality cases, scope and nonemptiness witness; justify any positive-measure claim. Retain an empty-region or failed-proof outcome. |
@@ -61,7 +61,7 @@ All tasks below are OPEN. Execute M01–M06 in order; M07–M09 are mandatory cl
 | M08 | Review editorial quality, readability and visual aids. | A reader can identify assumptions, claim, evidence and limits. If a region plot is added, distinguish proved, measured and unresolved areas; label conceptual figures and show axes/units. |
 | M09 | Preserve and release after M01–M08. | Diff showing no unintended removal, valid links/anchors, preserved prior task IDs and results, scoped hash report, and final adversarial self-audit. Record unresolved package-audit issues; do not overwrite historical manifests. Obtain independent review separately before calling it independent. |
 
-Next bot starts at M01. A negative finding changes the claim, not the evidence.
+Next bot reads the completed [M01 scope record](./M01_SCOPE_AND_QUANTIFIERS.md), then starts M02. Material scope findings reopen M01. A negative finding changes the claim, not the evidence.
 
 
 ### Strategic revision and execution gates — 3 October 2026
@@ -80,5 +80,15 @@ Planning revision v0.2; review against commit `1e940125a18f468268eff8f029a35c32a
 | M11 — OPEN | After M02, challenge M03/M04 candidate bounds and frontier robustness. | Boundary/equality and degenerate cases; dominant safe routes; sufficient certificates, pooled/cache information, early stopping and asymmetric priors; matching lower and constructive upper bounds where available; sensitivity to costs, benefit tolerances and observation rules. Record dependence on the generator/distribution and retain failed or empty-region outcomes. A symbolic counterexample narrows the claim instead of being excluded to manufacture a frontier. |
 
 **Scope-changing counterexample rule:** preserve the old statement and version, identify the broken assumption, revise M01/M10, and rerun affected executable witnesses. A failed proof is a recorded outcome, not permission to claim an empirical bound as a universal theorem.
+
+
+
+### M01 execution record — 3 October 2026
+
+**M01 DONE — mathematical scope/quantifier formulation only.** [Result and adversarial formulation review](./M01_SCOPE_AND_QUANTIFIERS.md) · [Exact diagnostic arithmetic](./verify_m01_scope.py) · [Acceptance, source hashes and preservation evidence](./M01_SCOPE_CHECKS.json).
+
+The first target is N=1, finite static DAG worlds, with an equiprobable two-world candidate family. It preserves required own review, known-denial rejection, memory, adaptive querying and randomized policies. Average and worst-case claims are separate; thresholds are fixed per configuration. This narrows the first proposition and leaves the broader R01 campaign unchanged. It establishes no infeasible region and no technology result.
+
+M02 is next: construct the candidate and physical/full-information controls, retain all mixtures and try a common safe route or cheap certificate. M10/P03 reconciliation, M02–M11 proofs/reviews, implementation and campaigns remain open. Executing owner/reviewer: Codex, by user instruction; self-review only. Actual UTC time, input commit and review limits are in the evidence record. Reopen M01 if an external finding invalidates the contract.
 
 <!-- R01_BOT_WORKPLAN_END -->
