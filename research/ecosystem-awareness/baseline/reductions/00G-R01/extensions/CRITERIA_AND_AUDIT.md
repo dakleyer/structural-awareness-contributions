@@ -145,3 +145,26 @@ R01 v0.6 and its exports are retained. Review records are added to the Markdown 
 ## 9 Methodological foundations and comparative transfer
 
 The [methodological note](./METHODOLOGICAL_FOUNDATIONS.md) relates E1–E7 to primary sources on bisimulation, homomorphisms, abstraction and refinement. It distinguishes precedents justifying the method from evidence R01 still needs to produce. Transferring an EA–control comparison requires preserving both arms and their metrics; approximate bounds, partial observation, statistical uncertainty and the CEGAR cycle not yet implemented are treated separately. The evidence status of these records does not change by adding references.
+
+<a id="retained-extension-review-table"></a>
+## Detailed extension review table
+
+The preceding entrance table is retained here with its full scientific statuses. The plain-language case index is now in R01.
+
+<a id="extensiones"></a>
+## Extensions
+
+The extensions are organized within `00G-R01/extensions/`, with one folder per case. This is their entry table. All three use the [common review record, evidence and criteria](CRITERIA_AND_AUDIT.md). The **00G → R01 reduction** is explained in [Foundation and proof of the reduction](../README.md#fundamento-y-prueba-de-la-reducción); the following rows examine the **R01 → extended case** relation.
+
+| Extension and case | Case document | Justification from R01 | Validation and reproduction | Status |
+|---|---|---|---|---|
+| <a id="openai--hugging-face"></a>**OpenAI / Hugging Face.** Search for alternatives, shared findings and decisions regarding the receiver's task and limits. | [Integrated document](hugging-face/README.md) | [Correspondence and obligations](hugging-face/README.md#2-qué-debe-conservar-una-extensión) · [Parameter matrix](hugging-face/README.md#3-inventario-de-parámetros-y-resultados) | [Bounded test](hugging-face/README.md#4-comprobación-reproducible-ejecutada) · [Code and results](hugging-face/proof/README.md) | Partial synthetic preservation checked; historical admission and EA differential pending. |
+| <a id="extensión-al-caso-infoblox"></a>**Infoblox.** DNS diagnosis with discovery, trust, policies and validation of compositions. | [Integrated document](infoblox/README.md) · [Word v0.5, preceding the Markdown revisions](infoblox/00G-R01_Infoblox_documento_integrado_v0.5.docx) | [Correspondence and factors](infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) | [Bounded test](infoblox/README.md#6-prueba-acotada-y-resultados-del-modelo) · [Code and results](infoblox/proof/README.md) | Synthetic kernel checked; real integration, full admission and EA differential pending. |
+| <a id="familia-extendida-con-nucleo-funcional-isomorfo"></a>**Extended family.** Constructed cases similar to those cited by Nell: out-of-scope resources, accepted answers without completing the task and communication channels. | [Family and documented cases](family/README.md) | [Isomorphic kernel and parameter transformation](family/KERNEL_AND_PROOF.md) · [Complete inventory](family/KERNEL_AND_PROOF.md#3-inventario-completo-de-correspondencias-principales) | [Preservation proof](family/KERNEL_AND_PROOF.md#5-proposición-de-conservación-y-prueba) · [Code, results and counterexamples](family/proof/README.md) | Criterion and formal construction under explicit hypotheses; finite fragment checked; complete H/L/W correspondence pending. Full implementation, historical reproduction and EA evaluation pending. |
+
+Each document follows the same navigation: **scenario → extension justification → validation → code and results → sources and earlier work**. Structural membership, causal explanation and the EA comparison are evaluated separately. Earlier trials retain their scope and do not become R01 results by appearing in this table.
+
+
+## Reading organization and scientific base
+
+The 3 October reading edition separates the base scenario, its reduction record and the three case extensions. The scientific base used by the existing checks remains v0.6 and is retained byte for byte in [the organization record](../ORGANIZATION_TRACE.md). Former R01 chapter 3 is now part of Hugging Face; existing fixed-commit references keep their original numbering. Plain-language parallels in the mixed extension are distinguished from its conditional formal construction. Neither this reorganization nor the common reading sequence completes an admission obligation.

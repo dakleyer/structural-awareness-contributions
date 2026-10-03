@@ -81,3 +81,9 @@ The `audit_results.json` report also identifies this review and the methodologic
 ## 6 What remains open
 
 The editing does not complete the R01 generator, policies and full evaluator, full realization of E1–E7 in the domains, integrations, EA evaluation or independent reproduction. History retains results favorable to conventional controls and trials that did not establish the targeted failure. The next experiments must preserve the same procedure, positive controls, full costs and the possibility of a tie or conventional advantage.
+
+## Base and case separation 3 October 2026
+
+The reader's subsequent review required separation of the complete documents, beyond the earlier entrance correction. The full former R01 case chapter 3, its incident references, earlier C3 evaluator explanation and trial history now belong to Hugging Face. R01 contains separate reduction and extension tables in both its entrance and full base document. The reduction explanation has its own record. The three extensions use the same six reading sections: problem, step-by-step scenario, R01 parallel, proof and results, open items, sources and previous work.
+
+All earlier English texts are retained in the organization trace; relocations preserve complete blocks with only destination-relative links adjusted. Core scientific rules, formulas, individual checkers and their reports remain unchanged. The trace stores edits with their positions so the preceding texts can be recovered exactly. Existing language trace and exports identify their original edition rather than claiming synchronization with the separated Markdown edition. Earlier review statements above remain dated records.

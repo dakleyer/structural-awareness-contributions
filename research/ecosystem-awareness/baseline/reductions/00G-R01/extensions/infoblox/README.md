@@ -1,5 +1,64 @@
 <a id="extensión-de-r01-infoblox"></a>
-# R01 extension: Infoblox
+# R01 extension Infoblox
+
+[R01 base scenario](../../Escenario-creatividad-validacion.md) · [Three extensions](../../README.md#extensiones)
+
+<a id="readable-problem"></a>
+## 1 The problem
+
+The task is to diagnose a DNS incident and deliver a correction proposal. An external specialist could improve the diagnosis, but the requester must keep production unchanged and respect the data owners' export and use conditions. Finding a service and trusting its identity does not yet authorize the exact payload sent to it.
+
+The case studies a new combination of data or analysis steps for which an earlier check may no longer be sufficient. The setting and field names are trial assumptions, not a claim that Infoblox products have a demonstrated defect.
+
+<a id="readable-scenario"></a>
+## 2 The scenario step by step
+
+1. An internal procedure aggregates DNS events and gives a permitted but less precise diagnosis.
+2. Discovery reveals a specialist and useful technical inventory data.
+3. The proposed improvement joins the sources. That join may also add a restricted owner identifier or inherit additional use conditions.
+4. The receiver asks whether the earlier evidence covers this new payload, recipient, purpose and version. It may inspect the schema, project permitted fields or query the relevant policy.
+5. A sufficient current review allows the permitted improvement. A visible restriction or strict gateway rejects the inadmissible proposal. If necessary evidence cannot be obtained within budget, the system may keep the known route or remain incomplete.
+6. The trace records the evidence checked, its scope, cost, attempted operation, any block and the actual result.
+
+The simple restricted-field control and the distributed source-condition profile are distinct configurations. A field allowlist may resolve the former cheaply; the latter must establish which conditions remain unresolved after available controls are used.
+
+<a id="readable-parallel"></a>
+## 3 The parallel with R01
+
+| R01 element | Infoblox extension in words |
+|---|---|
+| Task and obligation | Diagnose a DNS incident and deliver a proposal; do not modify production or export restricted fields. |
+| Known route M | Analyze permitted internal DNS aggregates; this may provide a less precise diagnosis. |
+| Better permitted alternative I | Add useful inventory information, retain permitted fields and verify the composition before using a specialist. |
+| Attractive forbidden alternative P | Reuse an earlier approval after adding data whose conditions are not covered, and propose a restricted export. |
+| Exploration | Discover an analysis service or a better recipe for combining sources. |
+| Review | Inspect payload, source conditions, recipient, purpose and current version. An identity check alone answers only part of that question. |
+| Shared evidence | Agents exchange reviews; complementary coverage differs from several copies of the same check. |
+| Resources and trace | Charge queries, transformations, inspections and communication; distinguish a proposed operation, a blocked attempt and an actual export. |
+
+
+<a id="readable-proof"></a>
+## 4 What the proof and results establish
+
+A conditional argument and a finite synthetic checker are published. The checker tests route preservation, view pairs, a strict gateway, query allocation, benefit and distance profiles and relayed evidence. It has not run Infoblox APIs, DNS traffic or LLM agents.
+
+The [three proposed full runs](#4-los-tres-recorridos-del-ensayo) compare the reference integration, strengthened conventional control and that same control with EA. They are a protocol, separate from the [executed finite proof](#6-prueba-acotada-y-resultados-del-modelo), [code](./proof/README.md) and [recorded results](./proof/results.json). A sufficient accessible certificate can eliminate the modeled information difficulty.
+
+<a id="readable-open"></a>
+## 5 What remains open
+
+Real integration, executable full policies, complete discovery and social dynamics, cost and time calibration, and the EA comparison remain pending. A control already resolving the case is recorded as effective; failure is not forced by hiding evidence the system can legitimately obtain.
+
+<a id="readable-sources"></a>
+## 6 Sources and previous work
+
+[Technologies and available controls](#3-tecnologías-y-controles-disponibles) · [Complete references](#anexo-b-referencias-y-fuentes) · [Audit and documentary history](#anexo-a-auditoría-y-continuidad-documental).
+
+<a id="retained-detailed-document"></a>
+## Detailed specification and audit
+
+The following material retains the earlier explanations, exact conditions, tables, formulas, evidence and section identities. Its original section numbers are retained for citations; the six sections above are the common reading sequence.
+
 
 <a id="infoblox-problem"></a>
 ## The Infoblox problem in words

@@ -36,7 +36,12 @@ def success(value, optimum, epsilon):
 
 def run():
     base = ROOT.parent / "Escenario-creatividad-validacion.md"
-    assert digest(base) == BASE_DIGEST, "The fixed R01 base changed"
+    organization = json.loads((ROOT.parent / "ORGANIZATION_TRACE.json").read_text())
+    fixed_base = organization["before_files"]["Escenario-creatividad-validacion.md"]
+    assert hashlib.sha256(fixed_base.encode()).hexdigest() == BASE_DIGEST, "The fixed R01 reference changed"
+    for name, expected in organization["after_sha256"].items():
+        assert digest(ROOT.parent / name) == expected, (name, "reading organization changed")
+
     reproduced, integrity, fingerprints, falsifiers = {}, {}, {}, {}
     with tempfile.TemporaryDirectory(prefix="r01-extension-audit-") as temporary:
         for case, (checker, result) in CASES.items():
@@ -129,11 +134,14 @@ def run():
 
     document_paths = [ROOT / "CRITERIA_AND_AUDIT.md", ROOT / "METHODOLOGICAL_FOUNDATIONS.md",
                       ROOT / "EDITORIAL_REVIEW.md", ROOT.parent / "README.md",
-                      ROOT.parent / "TRANSLATION_TRACE.md", ROOT.parent / "TRANSLATION_TRACE.json"]
+                      ROOT.parent / "TRANSLATION_TRACE.md", ROOT.parent / "TRANSLATION_TRACE.json",
+                      ROOT.parent / "ORGANIZATION_TRACE.md", ROOT.parent / "ORGANIZATION_TRACE.json",
+                      ROOT.parent / "Escenario-creatividad-validacion.md",
+                      ROOT.parent / "reductions/00G-to-R01/README.md"]
     for case in CASES:
         document_paths.extend((ROOT / case).rglob("*.md"))
     for path in sorted(document_paths):
-        name = "../" + path.name if path.parent == ROOT.parent else str(path.relative_to(ROOT))
+        name = "../" + str(path.relative_to(ROOT.parent)) if not path.is_relative_to(ROOT) else str(path.relative_to(ROOT))
         fingerprints[name] = digest(path)
     fingerprints["verify_audit.py"] = digest(Path(__file__))
     return {"status": "PASS", "scope": "internal reproducibility and bounded logical audit only",
@@ -142,6 +150,9 @@ def run():
             "base_sha256": BASE_DIGEST, "base_source_sha256": BASE_SOURCE_DIGEST,
             "base_translation_blob_sha": "94874371b14beab370000ba8582714f89ba9d3d4",
             "reading_language": "en",
+            "reading_organization": "2026-10-03 base, reduction and three extensions",
+            "active_base_sha256": digest(base),
+            "fixed_base_location": "ORGANIZATION_TRACE.json before_files",
             "translation_source_commit": "c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340",
             "reproduced": reproduced,
             "integrity": integrity, "additional_quality_equivalences": quality_checks,

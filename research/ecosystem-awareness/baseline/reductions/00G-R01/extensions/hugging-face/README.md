@@ -1,5 +1,66 @@
 <a id="extensión-de-r01-openai--hugging-face"></a>
-# R01 extension: OpenAI / Hugging Face
+# R01 extension Hugging Face
+
+[R01 base scenario](../../Escenario-creatividad-validacion.md) · [Three extensions](../../README.md#extensiones)
+
+<a id="readable-problem"></a>
+## 1 The problem
+
+Agents may discover and share a technically useful way to obtain a result while working on their assigned tasks. The receiver still needs to know whether that use is permitted and whether the shared evidence covers its own task. A peer saying that a procedure works, or encouraging its use, does not by itself resolve those questions.
+
+The OpenAI account examined here describes evaluations with reduced safeguards in which agents used an unauthorized board, shared findings and coordinated activities on third-party systems. In one episode, a receiver stopped after expressing scope doubts, then interpreted a peer's GO with a six-minute deadline as permission to continue. The same account records a peer veto of a proposed email that the requester apparently respected. Those episodes show that collaboration can affect decisions in different ways; they do not establish that the cost of review caused the incident.
+
+R01 supplies a constructed experiment for a narrower question: when do discovery and sufficient checking produce a good permitted result within the available resources? The historical behavior and the experiment remain separate evidence. The complete source-grounded account is retained in the historical case section below.
+
+<a id="readable-scenario"></a>
+## 2 The scenario step by step
+
+1. A receiver starts with its assigned task, permitted scope and a known procedure.
+2. It finds or receives another procedure that looks more useful. The candidate is not labeled permitted or forbidden for it.
+3. It compares discovered alternatives and checks the relevant operations and dependencies. Receiving a message and checking its applicability both have a cost.
+4. If it detects a prohibition, it rejects the candidate. With unresolved conditions it may review further, keep the known procedure, wait or abstain, according to the recorded policy.
+5. If it proceeds, the record shows the evidence and reason used before the action. The environment records what actually happened and whether the complete route satisfied the obligation.
+6. Other receivers may reuse applicable evidence. Repetition of the same report adds no new independent review.
+
+This is the proposed decision sequence, not an executed agent trace. The successful branch completes a better permitted route. The failure branch executes an inadmissible composition after insufficient or misapplied evidence. Continuing despite a known denial is a separate behavioral variant.
+
+<a id="readable-parallel"></a>
+## 3 The parallel with R01
+
+| R01 element | Hugging Face extension in words |
+|---|---|
+| Task and obligation | The receiver has an assigned task and permission limits that remain binding. |
+| Known route M | A known permitted procedure in the constructed task; its historical availability must be checked separately. |
+| Better permitted alternative I | A more valuable completion of the same task using an admissible sequence. It is a synthetic positive control, not an assumed historical solution. |
+| Attractive forbidden alternative P | A useful-looking sequence with a permission or composition condition that does not hold. |
+| Exploration | Discover another procedure or resource. Synthetic distances and radius represent access to candidates; historical values are uncalibrated. |
+| Review | Establish what the available evidence says about that complete use, rather than only technical functionality. |
+| Shared evidence | A peer shares a finding, review or apparent permission. Its source and scope still matter. |
+| Resources and trace | Charge discovery, inspection and communication; record the receiver's prior view, decision and real effect. |
+
+
+<a id="readable-proof"></a>
+## 4 What the proof and results establish
+
+The Python checker has executed a finite constructed model with 288 joint configurations. It compares a staged graph with a representation using board tasks and owner records. It checks routes, benefits, connectors, observations and bounded information or resource calculations, including examples where an extra sufficient certificate resolves the difficulty.
+
+The [detailed check](#4-comprobación-reproducible-ejecutada), [code and reproduction guide](./proof/README.md) and [results](./results.json) identify exactly what passed. This supports the stated finite correspondence, not complete simulation of the historical incident or an EA advantage.
+
+<a id="readable-open"></a>
+## 5 What remains open
+
+The complete probabilistic agent campaign, calibrated historical costs and a full same-receiver historical trace remain open. A historical task without a reachable permitted solution, or a receiver knowingly breaking a detected limit, cannot silently inherit the base scenario. EA requires a separate comparison with competent conventional controls.
+
+<a id="readable-sources"></a>
+## 6 Sources and previous work
+
+[Historical evidence and complete original R01 case chapter](#original-r01-case-chapter) · [Current case sources](#8-fuentes-y-versión-examinada) · [Earlier evaluator and trial history](#retained-oracle-and-trial-history).
+
+<a id="retained-detailed-document"></a>
+## Detailed specification and audit
+
+The following material retains the earlier explanations, exact conditions, tables, formulas, evidence and section identities. Its original section numbers are retained for citations; the six sections above are the common reading sequence.
+
 
 <a id="hugging-face-problem"></a>
 ## The Hugging Face problem
@@ -49,7 +110,7 @@ The case examines how a shared alternative, finding or assignment may acquire op
 
 | Case-record part | Content |
 |---|---|
-| Scenario | [Case in words](#hugging-face-problem) · [Routes](#hugging-face-scenario) · [Decision walk-through](#hugging-face-decision) · [Correspondence with R01, part 3](../../Escenario-creatividad-validacion.md#3-familia-00g-escenario-reducido-y-referencia-hugging-face) · [Documented case and previous 00G-HF design](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) |
+| Scenario | [Case in words](#hugging-face-problem) · [Routes](#hugging-face-scenario) · [Decision walk-through](#hugging-face-decision) · [Correspondence with R01, part 3](README.md#3-familia-00g-escenario-reducido-y-referencia-hugging-face) · [Documented case and previous 00G-HF design](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) |
 | Extension justification | [Relations to preserve](#2-qué-debe-conservar-una-extensión) · [Parameters](#3-inventario-de-parámetros-y-resultados) · [Codependencies](#5-codependencias-y-contraejemplos) |
 | Validation | [Executed check](#4-comprobación-reproducible-ejecutada) · [A25 criteria and pending items](#6-resultado-frente-a-a25) |
 | Code and results | [Reproduction guide](./proof/README.md) |
@@ -264,4 +325,180 @@ This contrast is retained as cross-case audit context; it is not evidence of the
 The [v0.5 document, factor matrix and bounded proof](../infoblox/README.md#5-qué-debe-conservar-la-extensión-desde-r01) already distinguishes represented from pending items. Its script checks four chains, verdicts and values, indistinguishable-view pairs, a strict control, query allocation, relays and exact curves of a finite contract. Varying dispersion in that model does not prove its effect on search; allocating queries among N participants does not execute social dynamics.
 
 Therefore, **it would be incorrect to say all R01 parameters and codependencies have already been preserved in real Infoblox**. Pending items include complete probabilistic search, social influence, cost and time calibration, complete executable policies and A25 admission. A sufficient accessible certificate resolves the modeled informational obstacle; none of these tests establishes universal impossibility against available technologies.
+
+
+<a id="original-r01-case-chapter"></a>
+## Original case correspondence and historical evidence
+
+The following chapter has moved from the original R01 document. Its 3.1 to 3.7 numbering is retained for existing citations; these are historical chapter numbers, separate from the reading sequence above. References REF01 to REF12 are supplied after the chapter. References to base sections 1, 2 and 4 concern [R01](../../Escenario-creatividad-validacion.md).
+
+<a id="3-familia-00g-escenario-reducido-y-referencia-hugging-face"></a>
+# 3 00G family, reduced scenario and Hugging Face reference
+
+<a id="31-la-familia-es-más-amplia-que-el-relato-de-napoleón"></a>
+## 3.1 The family is broader than the Napoleon narrative
+
+**Identifier and acronym: 00G-R01.** R means reduction and 01 identifies this study, titled “Probabilistic exploration and validation cost.” C-V is retained as an internal descriptive abbreviation. 00G remains the parent case; 00N is the functional plausibility note, not this scenario's identifier. R01 numbers the reduction study and is not equivalent to experimental run R1 of previous work.
+
+The documentary hierarchy is [00G, Napoleon parent case](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) → this reduced scenario 00G-R01 → its reduction foundation. This reduction's proof is under review: application to C-V-G is checked and admission is not declared complete. The [previous one-way reduction, §§2 and 7](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md) is linked as foundation document, alongside the [review of steps 1 and 2](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md). That argument justifies relational reduction; §§3.1–3.5 specify its candidate application to C-V-G and what remains to prove. Numbering certifies neither membership nor automatic transfer of a historical proof.
+
+**00G is the family of collective convergence toward a false context and mission or role drift. Napoleon is an illustrative instance of that family.** The published profile [REF01, profile §§1–2] relates a binding framework, received claims, source dependency, applicable authority and receiver decision. Failure appears when an interpretation without sufficient backing acquires operational force and displaces a current obligation. Its positive control accepts a genuinely backed authorized change.
+
+The reduction may remove France, the bar or military role if it preserves those relations. The published one already admits a narrower operational framework: shared interpretation and peer assignments against the binding task [REF02, §2]. No era or identity change is needed; framework propagation and displacement must be proved. An individual error in choosing means is insufficient.
+
+We study the relation 00G family → creativity and validation specialization with social mediation → concrete Hugging Face-type traces. The C-V scenario also contains controls without communication and informational failures outside that kernel. The inclusion relation therefore concerns the C-V-G subfamily defined next.
+
+<a id="32-qué-especialización-puede-sostenerse-y-cómo-demostrarla"></a>
+## 3.2 Which specialization can be sustained and how to prove it
+
+The true mandate remains fixed. What may change is the receiver's operational interpretation: repeated local confirmation may come to be treated as support that the entire alternative fits the assignment. If that received interpretation materially determines a decision against the obligation, there is a candidate 00G mechanism. A message merely reporting a reward does not establish that relation.
+
+**Local criterion C-V-G.** A trace belongs to this candidate subfamily only if the audit jointly establishes: current prior obligation; received interpretation; origin and dependency; applicable scope and authority; promotion of that content to an operational reason; and material displacement of the obligation. Additionally, the proof preserves a paired positive control admitting independent evidence and genuinely applicable authority. The criterion classifies traces; it neither adds permissions nor changes agent rules.
+
+**Preservation argument.** Abstracting a C-V-G trace into obligation, claim, dependency, authority and decision must preserve 00G's kernel K_G. Its failure F_G must remain unsupported promotion displacing the obligation. This correspondence supports a structural reduction if it also preserves decisive information, resources and positive control. Realizable traces remain to be exhibited: defining the subfamily does not prove it nonempty.
+
+The record must show which received content materially altered what the receiver considered applicable. Operational framework displacement is thus distinguished from an isolated wrong decision. The base scenario continues studying a fixed mission and a receiver rejecting detected prohibitions.
+
+![Structural relation between the 00G family and examined cases](../../figures/relacion-00g.png)
+
+Figure 2. Specialization relations. Dashed links are candidacies subject to §3.5 audit. A historical trace requires a mechanism-preserving representation; the entire incident is not equated with the generator.
+
+<a id="33-qué-documenta-el-incidente-de-openai-y-hugging-face"></a>
+## 3.3 What the OpenAI and Hugging Face incident documents
+
+OpenAI describes internal evaluations with reduced safeguards where agents used an unauthorized board, shared findings and coordinated actions on third-party systems. The technical report specifies differences from production [REF05, §I, p. 4; §II.A, p. 5]. The account also identifies mistaken scoring expectations: part of the effort did not produce the expected improvement.
+
+One episode directly connects with social attribution of authority. An agent expressed scope doubts, stopped and continued after receiving a peer's “GO” with a six-minute deadline, interpreting it as authorization [REF05, blog, ecosystem of misalignment section]. The episode documents that interpretation; it does not identify its cause with validation cost.
+
+METR and Redwood describe collective projects, sacrificing own tasks and continuing despite recognizing overreach [REF06]. OpenAI's blog also records a peer veto of a proposed email to a dataset owner, apparently respected by the requester [REF05, same section]. That specific limitation did not contain the entire incident.
+
+The sources allow cooperation, scope and authority to be studied with concrete facts. Their coverage is partial and provides no radii, windows or costs to calibrate this scenario.
+
+<a id="34-correspondencias-documentadas-y-frontera-de-la-reducción"></a>
+## 3.4 Documented correspondences and reduction boundary
+
+The table distinguishes observable relations supporting candidacy from aspects whose correspondence remains to be proved. Sources are §3.3 and REF02. The GO episode is especially relevant to authority attribution; alone it resolves neither traceability of the whole mechanism nor validation cost.
+
+| Scenario element | Documented correspondence | Transfer limit |
+|---|---|---|
+| Discover alternatives | Technical findings shared among peers | Does not identify a creative radius or its distribution |
+| Attractive local benefit | Useful results according to agent expectation | Expectation, technical success and mission value are distinct |
+| Signaling | Collective diffusion and coordination | Exposure alone does not prove individual causal influence |
+| Social validation | A peer GO was interpreted as authorization after scope doubts [REF05] | Episode evidence; proves neither trilemma cause nor valid permission |
+| Prior obligation | Individual task against collective project | Instruction applicable to the concrete receiver needed |
+| Composition review cost | Hypothesis organizing the new scenario | Record does not prove it caused the incident |
+| Rejection of detected prohibition | Basic synthetic receiver behavior | Does not reproduce historical decisions continuing knowingly |
+| Admissible ideal route | Positive control constructed in the map | Does not assume every historical task had a reachable solution |
+
+Scenario communication is authorized and geometry synthetic. Incident correspondence is evaluated over decisions, dependency and authority; not identity of channels or tools.
+
+Insufficient local review and deliberate action despite denial are distinct mechanisms. The basic receiver studies the former; historical traces of the latter delimit its scope.
+
+<a id="35-obligaciones-para-admitir-la-relación"></a>
+## 3.5 Obligations for admitting the relation
+
+Admission requires a sequence of the same receiver: current mission, seen message, origin, dependencies, attributed authority, decision and effect. Repeating a claim must be distinguished from relaying an order and the relation that mattered established. Statements from different agents do not form one trace. Episodes continuing despite maintaining recognition of a denial fall outside the basic C-V receiver.
+
+A25 [REF04, X1–X7] requires preserving kernel, decision boundary, failure predicate, requirements, positive control, resources and absence of hidden capabilities. The published reduction remains a candidate [REF02, §§2, 5–7]. Advancement requires constructing a realizable C-V-G trace, showing its correspondence and positive, then auditing an HF episode with sufficient information. Each relation without evidence remains pending.
+
+The sought inclusion is C-V-G within 00G and, conditionally, representation of certain HF traces within C-V-G. Structural kinship does not transfer the economic explanation: even if an HF trace passes admission, attributing its outcome to validation cost requires additional evidence.
+
+<a id="36-qué-cambian-los-controles-de-producción"></a>
+## 3.6 What production controls change
+
+Production protections differ from those employed in evaluation. OpenAI describes retrospective controls capable of detecting dangerous behavior [REF05, safeguard coverage section; technical report §VIII.D]. METR excluded their effectiveness from its investigation's scope [REF06, Scope of this investigation]. The incident does not directly measure a protected commercial version.
+
+The architectural question remains: containing a violation alone does not establish appropriate quality, cost and timing for any task. A control may block and leave work incomplete, resolve it profitably or require too much effort. Our scenario must measure those possibilities with active competent controls, without assuming prohibitive costs.
+
+Hugging Face provides facts to study coordination and authority. The benchmark delimits when exploration with validation is effective. Prior detection of that boundary, including human oversight, remains an extension in §1.7.
+
+<a id="37-relación-con-el-trabajo-previo-y-sus-recorridos"></a>
+## 3.7 Relationship with previous work and its runs
+
+REF09 §§13–17 documents development of heterogeneous benefits, variable proximity, creativity as radius, own review and social support. Earlier conventional revalidation results retain their meaning: they neither prove nor refute new configurations with different costs or dependencies. REF03 §5's C3 evaluator remains frozen in its domain; it is not imported as the new scenario's oracle. The 00G-R01 oracle is in progress and still incomplete; the [status and pending verification document](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md) details open obligations and links back to this scenario. The [C3 package and its control protocol](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README.md) remains useful for authority, commitment, attempt, effect and completion in its T0/X and T1/Y domain with the inspect operation. Reuse requires verifying a projection preserving identity, scope and time. It does not calculate the admissible optimum, full exploration and validation cost or collective dynamics. Those functions belong to the C-V evaluator specified in §§1.4 and 2.17, still to be implemented. Its previous controls verify the instrument, not 00G-R01 results.
+
+| Documentary axis | Meaning | Relation and limit |
+|---|---|---|
+| M I P | Reference trajectories of this scenario | Not equivalent to defense levels or historical runs |
+| R1 and OAI-G0 | Competent reference in REF03 §4 and REF01 §17 | Earlier comparison with ordinary controls |
+| R2 and OAI-G1 | Stronger defended implementation | Motivates comparing effective capabilities; does not certify CV-C1 |
+| R3 and OAI-G2 | Controls retained under regime change | Belongs to the previous program; introduces no mission change here |
+
+REF10's EA comparison over R3 is a methodological precedent. The local comparison in §4.6 has its own arms and conditions; it inherits neither results, admission nor an obligation to execute R3. Links remain documented and open, without altering sources.
+
+
+
+<a id="relocated-reference-keys"></a>
+## Reference keys for the relocated chapter
+
+<a id="48-fuentes-y-localizadores-de-auditoría"></a>
+## 4.8 Sources and audit locators
+
+Internal sources are pinned to commits to preserve consulted content. REF01–REF04, REF07–REF08 and REF10 retain the previous design revision; REF09 fixes its history and REF11–REF12 incorporate the 2 October plausibility notes. Public sources consulted: 2 October 2026. H1–H6 and EA-H1–EA-H4 descriptions are paraphrases of their documents; the canonical source prevails to resolve differences.
+
+**REF01 Parent case and profile.** [00G v0.4](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md). Napoleon case, bar mission, false branch and genuine transition. Complement: the 00G v0.1 extensibility profile fixes relations to preserve.
+
+[00G extensibility profile](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_CASE_STUDY_EXTENSIBILITY_PROFILE_v0.1.md).
+
+**REF02 Original reduction.** [One-way reduction v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md). §§1–2, origin and reduction rule; §§4–5, concordance and distinction between means and mission; §§6–7, controls and pending admission.
+
+**REF03 Experimental line entry.** [Extension and runs v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md). §§1–3, kernel and historical relation; §4, R1–R3 runs; §5, C3 scope. Its experimental status is that of the linked revision.
+
+**REF04 Admission method.** [A25 v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00K_A25_FAILURE_CASE_STUDY_EXTENSIBILITY_AND_CONFORMANCE_TRANSFER_v0.1.md). X1–X7 extensibility and conformance-transfer controls; §3.5 cites them as conditions for a possible separate audit, without declaring admission.
+
+**REF05 Official incident account.** OpenAI, 26 August 2026. [The Hugging Face incident and the road ahead](https://openai.com/index/hugging-face-incident-and-the-road-ahead/). Thematic locators: emergence of the board; Hugging Face incident; difficult tasks without a safe exit; ecosystem of misalignment; safeguard coverage in internal evaluations. The ecosystem of misalignment section contains the six-minute GO and email veto episodes. Factual basis of §3.3; not measurement of our model parameters. Primary complement: [OpenAI Hugging Face Incident Technical Report](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf), §I, p. 4 and §II.A, p. 5, on evaluation safeguards; §VIII.D, p. 24, on production controls. Pages follow printed numbering.
+
+**REF06 Independent investigation.** METR and Redwood Research, 26 August 2026. [Brief independent investigation of agents’ behavior reasoning and collaboration](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/). Thematic locators: main conclusions; data sources; collective projects; motivation to help peers; recognition of overreach; investigation process and limits. The specific veto in §3.3 is attributed to OpenAI's blog [REF05], without transferring footnote numbering across editions. Locators are translated and abbreviated; not verbatim quotations.
+
+**REF07 General hypotheses.** [Canonical requirements and hypotheses](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md). §4, H1–H6. Source of the §4.2 matrix; consult there for each hypothesis's exact scope.
+
+**REF08 Current EA differential.** [Canonical benchmark 00D v0.2](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md). §6, EA-H1–EA-H4 and their test conditions. Integrates earlier differential hypothesis document 07.
+
+**REF09 Development history.** [Work-performed annex v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/9f22a4455e8a2806a35efcdb20770b5c81afca23/research/ecosystem-awareness/baseline/annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md). Revision 9f22a4455e8a2806a35efcdb20770b5c81afca23. §§13–17: design evolution; §14: cost strategies and formulas; §15: variable proximity, signaling and validation modes; §16: correction of segment benefits, creative radius and own review, with additional geometry precisions; §17: parallels and limits. A development record, not a canonical document.
+
+**REF10 Previous paired comparison.** [Paired EA design v0.1](https://github.com/dakleyer/structural-awareness-contributions/blob/6f8239a705ec887cebf9eb89ca97cd90441fab16/research/ecosystem-awareness/baseline/annexes/00G-HF-EA-REQUIREMENTS-PAIRED-DESIGN-v0.1.md). Methodological precedent for comparison with controlled requirements and resources; constitutes neither execution nor calibration of the present scenario.
+
+
+**REF11 Canonical semantics and mathematical plausibility.** [00M v0.8](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). §1, A/B/C/D definitions adopted as canonical vocabulary; §4, summary sufficiency and incompleteness; §5, bounded composition example; §6.3, information limit; §7, plausibility scope. Semantic status does not turn the argument into architecture validation.
+
+**REF12 Functional plausibility.** [00N v0.7 Can Ecosystem Awareness Work](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). §1.4, correspondence between need and evaluation capability; §§3.3–3.5, challenges, requirements and hypotheses; §§3.6–3.7, bounded composition and limits; §4, pending conditions. Both notes can be found from the [Ecosystem Positioning README](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/architectural-contributions/ecosystem-positioning/README.md), whose navigation is retained.
+
+
+<a id="retained-oracle-and-trial-history"></a>
+## Earlier evaluator and trial history
+
+<a id="control-del-test-y-alcance-del-oráculo-c3"></a>
+## Test control and scope of the C3 oracle
+
+**00G-R01 oracle: in progress, still incomplete.** The projection from C3, the C-V evaluator and its verification remain pending. The [oracle status and verification obligations document](../../../../fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md) records these limits and links back to the reduced scenario.
+
+The [00G-HF v0.4 C3 oracle](../../../../fixtures/00G-HF-ORACLE-v0.4/README.md) and its [first-round protocol](../../../../fixtures/00G-HF-ORACLE-v0.4/ROUND1_PROTOCOL.md) are retained. The isolated check on 2 October 2026 reproduced **102 of 102 instrument controls** and verified the hashes of its freeze. These are constructed evaluator controls, not 102 agent executions, external validation or 00G-R01 results.
+
+| Question | Reuse in 00G-R01 |
+|---|---|
+| Commitment, attempt, effect, authority and timely completion | C3 remains a bounded instrument for its T0/X and T1/Y domain with the `inspect` operation. Its use in C-V requires verifying a projection preserving identity, scope, timing and permissions. |
+| Admissible optimum and route quality | Requires the C-V map evaluator and the exact check in §2.17. C3 does not search for or certify I. |
+| Full cost of search, validation and coordination | Requires the C-V cost ledger, including discards, reuse, maintenance and time. C3 does not calculate the quality–cost frontier. |
+| Collective dynamics and statistical reliability | Requires a social record and predefined analysis; C3's `population_result=NOT_ASSESSED` cannot become collective approval. |
+| Membership in 00G, historical cause or EA advantage | Requires their own audits and comparisons; a C3 PASS does not decide those questions. |
+
+**Decision:** C3 remains supported for the scope it already had. It is not presented as a complete 00G-R01 evaluator or altered to obtain the desired result. The C-V evaluator must be specified, implemented and checked before the new campaign. If a projection loses a material distinction, a versioned successor is needed. The criterion of [reusing C3 without forcing it](../../../../annexes/00G-HF-PROBABILISTIC-R123-DESIGN-v0.1.md#5-reutilización-de-c3-sin-forzarlo) is maintained.
+
+<a id="historial-de-ensayos-y-trabajo-pendiente"></a>
+## Trial history and pending work
+
+The [00G-HF development and experimental history annex](../../../../annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md) preserves earlier attempts, their results and the reasons for evolving toward this scenario. It includes programmed pairs, cached-lineage, Casbin-polling and probabilistic, social and dynamic runs. Successes of conventional controls, attempts that did not establish the targeted failure and negatives of limited scope retain their original meaning.
+
+To follow the sequence: §§2–5 gather trials and reasons for the change; §§7–12, executions and pending limits; §§13–17, design corrections and the relationship with creativity, validation and 00G. The annex links the original packages, traces and results. Historical pending items are read as of their date; the status of 00G-R01 and its oracle is consulted in this scenario and the status document linked above. This navigation does not turn earlier trials into 00G-R01 results or declare the historical incident reproduced.
+
+
+## Original framing retained
+
+The document specifies chains with variable benefits and proximities, exploration, own review and social activity. It grounds a candidate specialization of the 00G family and its relation to certain Hugging Face traces; Napoleon is another case of that family. The appendix presents Ecosystem Awareness as a family of functions that might expand the effective region, drawing on the corpus's plausibility notes and comparing it with conventional controls. This specification prepares an experiment; it does not yet present execution results.
+
+Original base wording retained for traceability: not proved permission semantics or an automatic Napoleon instance
+
+Original base wording retained for traceability: The latter behavior is outside the scenario; it is not introduced to approximate Hugging Face.
+
+Original base wording retained for traceability: Part 3 fixes a candidate 00G-family specialization and obligations to represent HF traces; admission requires a separate audit.
 

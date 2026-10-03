@@ -17,3 +17,7 @@ The three case checkers and their result files remain byte-identical to the Span
 Verification covers structural preservation, the ordered correspondence of source and English content lines, heading aliases, link destinations and local targets, formulas, code blocks, numerical values, coverage-register structure, unchanged case code/results and export content. Word and PDF are rendered and visually reviewed. This is an internal translation and integrity review; neither independent scientific validation nor an EA experiment.
 
 The JSON manifest pairs source and English SHA-256 hashes for translated content and supporting export scripts. For each Markdown document it also records source/English line counts after excluding anchor-only lines, content-line counts, heading and table-row counts, and preservation checks. The original source commit is sufficient to reconstruct the Spanish edition; the English edition is identified by its publication commit and these hashes.
+
+## Subsequent reading organization
+
+The translation hashes above identify the 2 October English edition. The subsequent 3 October reorganization is recorded separately in [ORGANIZATION_TRACE.md](./ORGANIZATION_TRACE.md); it retains the exact pre-reorganization English texts and identifies current destinations. The earlier language hashes are not presented as current reading-file hashes. Existing Word and PDF exports retain their earlier scope.

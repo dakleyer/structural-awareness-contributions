@@ -1,5 +1,58 @@
 <a id="familia-extendida-de-r01-con-núcleo-funcional-isomorfo"></a>
-# Extended R01 family with an isomorphic functional kernel
+# R01 extension Mix of other failure modes
+
+[R01 base scenario](../../Escenario-creatividad-validacion.md) · [Three extensions](../../README.md#extensiones)
+
+<a id="readable-problem"></a>
+## 1 The problem
+
+This extension gathers different kinds of failure to make their relation to R01 understandable. One concerns useful results obtained outside permitted resources; another concerns an accepted answer that does not solve the real task; a third concerns a technically working communication channel whose writing or transmission is unauthorized.
+
+The common question is what must be checked before an attractive alternative can satisfy the obligation. These cases are a mix of selected parallels. Each uses the components relevant to its problem; it is not claimed that all observed incidents contain every R01 mechanism.
+
+<a id="readable-scenario"></a>
+## 2 The scenario step by step
+
+1. Fix the actual task and the condition that a successful result must satisfy.
+2. Identify a known permitted procedure and a potentially better alternative in the constructed task.
+3. State what makes another alternative attractive but invalid: resource scope, the original specification or permission for the real communication effect.
+4. Identify what the receiver observes and which checks can distinguish the permitted and invalid alternatives. Shared artifacts or reports are considered where relevant.
+5. Keep a valid positive branch: permitted acquisition, a genuinely compliant artifact or an authorized channel. A sufficient conventional check must be allowed to resolve the problem.
+6. State which R01 relations are used, which additional variables matter and which mechanisms remain unimplemented. Record outcomes and charges for the scope actually tested.
+
+<a id="readable-parallel"></a>
+## 3 The parallel with R01
+
+| Constructed case | The problem | R01 components used for the parallel | What is not established |
+|---|---|---|---|
+| H Out-of-scope results | A procedure obtains useful results using a resource outside the task's permissions. | Task, alternative procedures, permission checks, shared findings and cost. | That every historical task had a permitted solution or that its whole history matches R01. |
+| L Accepted false solution | A partial check accepts an artifact while the artifact misses the requested specification. | Alternatives, apparent value, semantic review and actual compliance. | That an actual Lean verifier has the synthetic model's behavior, or that all social and probabilistic mechanisms were present. |
+| W Communication channel | An operation successfully transmits or writes information but lacks permission for its real effect. | Discovery of a route, effect-based review, authorization and an admissible positive. | Full network activation and subsequent social dynamics; the executed fragment is static. |
+
+The detailed H L W labels identify constructed cases. M is the known permitted procedure, I the best permitted alternative and P an attractive invalid alternative within each declared model. A qualitative parallel uses the listed components. A stronger mathematical claim about preservation must separately satisfy the assumptions stated in the existing proof; the parallel alone does not establish that claim.
+
+<a id="readable-proof"></a>
+## 4 What the proof and results establish
+
+The [existing mathematical note](./KERNEL_AND_PROOF.md) gives a conditional construction that preserves a declared R01 kernel. The [Python checker](./proof/README.md) has executed a finite H L W fragment and rejected mutations that break the correspondence. That result concerns the constructed fragment, not every factor of R01 or the entire history of the motivating cases.
+
+The prior full specification, formal inventory, numerical results and scope limits remain below. In particular, the static W fragment does not establish the later formation or activation of a communication network.
+
+<a id="readable-open"></a>
+## 5 What remains open
+
+Complete domain implementations, execution with agents, real incident admission and any EA advantage remain open. Additional credentials, a complete certificate or a new network connection change the effective model and must be represented. They cannot be treated as decoration merely to keep the old result.
+
+<a id="readable-sources"></a>
+## 6 Sources and previous work
+
+[Documented cases and sources](#3-casos-documentados-que-motivan-la-familia) · [Individual constructed scenarios](#4-tres-especializaciones-construidas) · [Internal references and history](#6-referencias-internas-y-trazabilidad).
+
+<a id="retained-detailed-document"></a>
+## Detailed specification and audit
+
+The following material retains the earlier explanations, exact conditions, tables, formulas, evidence and section identities. Its original section numbers are retained for citations; the six sections above are the common reading sequence.
+
 
 <a id="extended-family-problem"></a>
 ## The extended family in words
