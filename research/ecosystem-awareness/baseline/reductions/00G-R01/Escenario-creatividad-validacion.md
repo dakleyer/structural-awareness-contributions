@@ -32,9 +32,13 @@ Benefits and the positions of alternatives vary when a world is generated. Withi
 
 The detailed rules, costs, settings, comparison policies and required trace fields are in parts 1 and 2. Part 3 provides the reduction and extension tables. The full agent campaign remains to be implemented and executed; existing finite checks in the extensions have their own stated scope.
 
+**The practical objective of R01 is to design small, bounded pilots that help decide whether a problem can be solved adequately by a compatible architecture before committing larger resources.** The pilot examines both where the architecture works well and where it becomes too costly, delivers insufficient quality or violates a rule. It compares alternatives and permits an inconclusive answer. A small success does not by itself establish suitability at scale; §1.7 explains the diagnostic stages and the evidence needed for that transfer.
+
 ## Abstract
 
 Every architecture has areas where it contributes more value and others where it is less suitable. Here we study an architecture that explores alternatives probabilistically, pays to validate them and shares findings among participants. Its creativity may discover a solution better than the known one. Benefiting from it requires checking that it is admissible and that the improvement compensates for the effort of finding it, validating it and coordinating its execution.
+
+The intended use is architecture selection through limited pilots: obtain evidence about suitability, failure mechanisms and remaining uncertainty before a larger deployment. R01 first specifies a controlled experiment for mapping those outcomes; a subsequent diagnostic stage tests whether limited observations predict them. These are stages of the same practical objective, with different evidence requirements.
 
 The thesis distinguishes two areas of problems and configurations. In one, the architecture reaches the admissible optimum, or an acceptable approximation, with sufficient regularity and within reasonable cost and deadline limits. In the other, the trilemma **lacking integrity, inefficient or mediocre** appears: execute an inadmissible solution, pay too much for a legitimate solution or retain a lower-quality permitted option. Optimum tolerance, resource limits and required reliability are fixed before the trial. The trilemma describes difficulties that may coexist; abstention and incompleteness are also recorded.
 
@@ -58,6 +62,8 @@ Design assumptions, hypotheses and documented facts have distinct roles. Sources
 Architecture choice depends on the problem and available resources. Knowing where it works well matters as much as recognizing where another procedure is preferable. That is the origin of this work: delimiting a scope of application.
 
 We study three characteristics together: probabilistic exploration, costly validation and social activity to share findings and checks. We will use the name probabilistic exploration architecture. It may be implemented with agents, but the thesis concerns those characteristics, not all agentic systems or a specific model. This document measures neither GPT-4 nor ChatGPT.
+
+The wider question applies to computing architectures generally: which problems justify their use under specified obligations and resources? R01 operationalizes it for the characteristics above. Many agent architectures combine them, making this a relevant class to investigate. Applying the pilot to a particular architecture requires checking its compatibility and the case relation; an agent label alone does not establish either. The extension records explain their respective parallels and proof limits.
 
 Imagine a long task with a known procedure. A participant finds a segment that better resolves the immediate objective and shares it. Their peers check parts of the route and also find it useful. The difficulty is knowing whether, when those segments fit together, the whole remains within the original assignment. There may be an excellent permitted alternative, another attractive but forbidden one and a lower-value known route. Discovering and distinguishing them costs resources. The experiment converts that situation into observable decisions and verifiable charges.
 
@@ -88,6 +94,8 @@ Memory may avoid unnecessary search: if the system already knows the pattern and
 Incremental validation, certificates, cache and good review allocation may also eliminate the difficulty in many cases. Comparison is performed with those capabilities active. Positive validation cost does not imply inefficiency: it may cost far less than the improvement obtained.
 
 The thesis is to measure whether an unfavorable region remains and how far system improvements reduce it. Absence of a universal effectiveness guarantee does not prove that region persists against every policy. We therefore distinguish observed failures, an evaluated family's empirical boundary and impossibility proved within an explicit class.
+
+The guiding position is that an architecture, including its add-ons, has a scope of effectiveness rather than being a panacea. Both favorable and unfavorable areas must therefore be investigated for each architecture. Their continued existence across problems and resource conditions is the broader thesis to examine; it is not a theorem supplied by this finite experiment. A chosen grid may show only one area, or leave the other unresolved, without justifying a universal conclusion.
 
 <a id="14-evaluación-y-referencia-convencional"></a>
 ## 1.4 Evaluation and conventional reference
@@ -127,6 +135,8 @@ Minimum completion is a requirement. Abstention retains its costs and does not s
 
 The sought outcome is an effectiveness map for the evaluated family, with quality, cost, time, admissibility and trilemma modes. Its boundary may change with parameters and policies. Comparing areas retains the same problem grid or distribution and its weights; adding easy cases does not demonstrate improvement.
 
+For architecture selection, the pilot reports three possible findings: evidence of adequate performance within the tested scope; evidence that no evaluated competent policy meets the requirements; or insufficient evidence to decide. Relative advantage is reported separately. Meeting the quality threshold with little improvement over a cheaper comparator may make another architecture preferable even though R01 classifies the policy as effective. This separates inadequate quality in the trilemma from merely weak comparative value.
+
 Inequality between cost and benefit alone is arithmetic. What is interesting is measuring how much work remains necessary after prioritizing, stopping reviews upon failure detection and reusing valid evidence. A conventional control eliminating the disadvantage counts as a favorable study result.
 
 An impossibility within a class would require justifying that every admissible policy of that class needs minimum additional cost greater than the maximum legitimate improvement. Both bounds would have to be proved. The finite grid provides evidence about its cases, not that theorem.
@@ -152,6 +162,19 @@ Oversight may contribute experience, external information, mandate clarification
 There is a precise limit. If two worlds offer exactly the same information to prior diagnosis, but a policy satisfies limits in only one, any selector based exclusively on that view produces the same output or output distribution in both. It cannot always identify them correctly. This also holds for a human with that same information. An additional query, applicable evidence or an “indeterminate” output changes conditions; no universally irresolvable circularity follows.
 
 **Prospective extension.** Prior detection is outside the first campaign and SC-H. A subsequent campaign may evaluate a selector observing pending coverage, dependencies, stability, novelty relative to memory and pilot queries. Its outputs would be recommend, advise against or indeterminate. False recommendations, missed opportunities, coverage and total diagnostic and oversight cost would be measured, with separate tuning and test worlds. The question is how much choosing with limited information helps, not whether the supervisor can guess hidden routes.
+
+That distinction concerns experimental stages, not a secondary purpose for R01. The first campaign establishes controlled outcome evidence; the later selection stage asks how much of it can be anticipated from limited probes. Human responsibility for choosing an architecture does not supply the missing knowledge. If the human relies on the candidate architecture to diagnose its own suitability, that diagnosis needs checks against independently judged outcomes and competent alternatives; an unsupported recommendation is insufficient. Additional human information and review are legitimate inputs, with their costs recorded.
+
+<a id="bounded-pilots-for-architecture-selection"></a>
+### Bounded pilots for architecture selection
+
+1. **Define an adequate solution.** Fix the task, permissions, quality tolerance, reliability, total budget and deadline before testing. Record the architecture, policies and R01 compatibility being evaluated.
+2. **Construct a small test with the relevant difficulty.** Include permitted improvements, attractive inadmissible alternatives, incomplete evidence and cases where applicable checks resolve uncertainty. Record which real dependencies and conditions the pilot represents and which it omits.
+3. **Compare complete procedures.** Use competent alternatives with the same legitimate information access. Charge exploration, validation, memory, coordination, human oversight and diagnosis, including failed or unfinished attempts. Keep the evaluator's complete map separate from the information available to agents and supervisors.
+4. **Measure before recommending.** Use the campaign's independent worlds, held-out tests and prespecified uncertainty criteria. Report quality, cost, timing, violations and completion, rather than relying on a persuasive explanation or one successful trace. In the later selection stage, measure false recommendations, missed opportunities and indeterminate cases against those outcomes.
+5. **Bound the conclusion and test scale assumptions.** State which problem conditions, resource limits and policies the evidence covers. Longer tasks, more participants, wider dependencies, changing conditions and larger information volume may expose difficulties absent in the small pilot. Vary the relevant factors or justify a model or bound supporting extrapolation. If that support is missing, suitability at scale remains unresolved.
+
+The pilot is therefore a limited decision aid: it can reveal reasons to proceed, change architecture, reduce scope or gather more evidence. Its own diagnostic cost and error matter. Neither a favorable small run nor human approval certifies all later configurations.
 
 <a id="18-notación-de-lectura"></a>
 ## 1.8 Reading notation
@@ -563,6 +586,8 @@ The three documents use the same reading sequence and evidence criteria. The mix
 
 Ecosystem Awareness is proposed here as a family of complementary functions whose implementation remains to be specified for this experiment. Its candidacy draws on two notes linked from Ecosystem Positioning: [00M on A/B/C/D and mathematical plausibility](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) and [00N on functional plausibility](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) [REF11–REF12]. 00M §1 fixes canonical vocabulary; the plausibility argument remains a research proposal.
 
+It is one candidate add-on among others. Its intended contribution is to enlarge the effective area and reduce the unfavorable area by improving applicable evidence and review, while paying its own costs. The change may be positive, negligible or negative in a given region. The broader two-area question remains after adding EA; it supplies no universal guarantee and must face the same pilot and comparison requirements.
+
 The connection with our problem is concrete. A “reviewed” may circulate without indicating covered links, mandate or version. Several agents might repeat already-valid work or trust coverage nobody established. The notes investigate whether preserving and relating certain distinctions in metadata allows bounded review questions to be answered without reconstructing all source data.
 
 In the scenario, that possibility might help locate an applicable check, warn of incompatibility between conditions or direct pending review. Discovering that another participant can evaluate an aspect is not equivalent to having evaluated it either. Correspondence between need and capability, effective availability of that capability and acquisition of sufficient evidence must be separated [REF12, §1.4].
@@ -677,6 +702,8 @@ The object is fixed: delimit where the admissible optimum is reached at reasonab
 A concrete implementation remains to be frozen and the configuration grid executed. Only then may frequencies, costs, boundaries and sensitivity be estimated. EA's candidacy requires its own comparison. Part 3 links the reduction and extension records; their respective admission obligations require separate audits. Prior area detection and oversight value are additional §1.7 questions.
 
 The present deliverable is a non-canonical research specification. It does not change reference documents, frozen results or case admission status.
+
+Its practical destination is a reproducible small-pilot method for architecture selection, with explicit uncertainty and scale limits. The present specification supplies the controlled scenario and required observations; it does not yet supply an executed pilot, a validated prior selector or a demonstrated improvement from EA. The next implementation must connect those observations to the bounded decisions in §1.7 without treating the existing extension checks as evidence of deployment suitability.
 
 <a id="48-fuentes-y-localizadores-de-auditoría"></a>
 ## 4.8 Sources and audit locators

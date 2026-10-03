@@ -12,6 +12,8 @@ An agent knows a permitted procedure for completing its task. While working, it 
 
 The study asks when this process finds a good permitted solution within its budget and deadline, and when it instead executes an inadmissible alternative, spends too much on checking, settles for lower quality or leaves the task incomplete. Benefits and distances vary across the fixed world; search and policy randomness are recorded. Failure is a possible result to measure, not a required outcome.
 
+**R01's practical objective is to design small, bounded pilots for choosing an architecture.** They should help determine whether a problem has an adequate solution through an R01-compatible architecture, when another procedure is preferable and when more evidence is needed. Human supervision also has information and cost limits. A small pilot supports conclusions about its tested scope; suitability at scale needs additional justification. Ecosystem Awareness is one candidate add-on for improving that scope, subject to the same comparisons.
+
 | Route | Meaning |
 |---|---|
 | M — known procedure | A permitted starting plan; it may deliver lower quality. |
@@ -24,6 +26,7 @@ These are the known route and two alternative references. Agents are not told wh
 
 | Question | Direct section in the complete document |
 |---|---|
+| How does R01 support architecture selection with limited pilots? | [Pilot objective and supervision §1.7](./Escenario-creatividad-validacion.md#17-cómo-detectar-el-área-y-qué-aporta-la-supervisión-humana) · [Bounded pilot protocol](./Escenario-creatividad-validacion.md#bounded-pilots-for-architecture-selection) · [Two areas and trilemma §1.2](./Escenario-creatividad-validacion.md#12-dos-áreas-y-un-trilema) |
 | What are the routes and how are alternatives found? | [Routes §2.1](./Escenario-creatividad-validacion.md#21-tarea-y-trayectorias-de-referencia-etiquetadas) · [Benefits §2.3](./Escenario-creatividad-validacion.md#23-beneficios-heterogéneos-con-promedio-fijado) · [Search radius §2.4](./Escenario-creatividad-validacion.md#24-proximidad-y-radio-creativo) |
 | What does an agent do, step by step? | [Decision cycle §2.7](./Escenario-creatividad-validacion.md#27-secuencia-de-decisión) · [Own review §2.8](./Escenario-creatividad-validacion.md#28-validación-convencional-hacia-atrás-y-hacia-delante) · [Social evidence §2.10](./Escenario-creatividad-validacion.md#210-señalización-y-validación-social) |
 | How are costs and resources counted? | [Costs §2.11](./Escenario-creatividad-validacion.md#211-coste-de-exploración-y-coste-de-revisión) · [Budget §2.12](./Escenario-creatividad-validacion.md#212-presupuesto-y-plazo) |

@@ -39,8 +39,24 @@ def run():
     organization = json.loads((ROOT.parent / "ORGANIZATION_TRACE.json").read_text())
     fixed_base = organization["before_files"]["Escenario-creatividad-validacion.md"]
     assert hashlib.sha256(fixed_base.encode()).hexdigest() == BASE_DIGEST, "The fixed R01 reference changed"
+    pilot = json.loads((ROOT.parent / "PILOT_OBJECTIVE_TRACE.json").read_text())
+    assert digest(ROOT.parent / "ORGANIZATION_TRACE.json") == pilot["predecessor_organization_trace_sha256"]
     for name, expected in organization["after_sha256"].items():
-        assert digest(ROOT.parent / name) == expected, (name, "reading organization changed")
+        expected = pilot["after_sha256"].get(name, expected)
+        assert digest(ROOT.parent / name) == expected, (name, "reading edition changed")
+    for name, expected in pilot["after_sha256"].items():
+        assert digest(ROOT.parent / name) == expected, (name, "pilot clarification changed")
+    recovered = {name: (ROOT.parent / name).read_text() for name in pilot["before_files"]}
+    for change in reversed(pilot["changes"]):
+        name, index = change["path"], change["index"]
+        before, after = change["before"], change["after"]
+        text = recovered[name]
+        assert text[index:index + len(after)] == after, (name, "edit recovery mismatch")
+        recovered[name] = text[:index] + before + text[index + len(after):]
+    for name, before in pilot["before_files"].items():
+        assert recovered[name] == before, (name, "previous content not preserved")
+        expected = hashlib.sha256(before.encode()).hexdigest()
+        assert expected == pilot["before_sha256"][name] == organization["after_sha256"][name]
 
     reproduced, integrity, fingerprints, falsifiers = {}, {}, {}, {}
     with tempfile.TemporaryDirectory(prefix="r01-extension-audit-") as temporary:
@@ -136,6 +152,7 @@ def run():
                       ROOT / "EDITORIAL_REVIEW.md", ROOT.parent / "README.md",
                       ROOT.parent / "TRANSLATION_TRACE.md", ROOT.parent / "TRANSLATION_TRACE.json",
                       ROOT.parent / "ORGANIZATION_TRACE.md", ROOT.parent / "ORGANIZATION_TRACE.json",
+                      ROOT.parent / "PILOT_OBJECTIVE_TRACE.md", ROOT.parent / "PILOT_OBJECTIVE_TRACE.json",
                       ROOT.parent / "Escenario-creatividad-validacion.md",
                       ROOT.parent / "reductions/00G-to-R01/README.md"]
     for case in CASES:
@@ -151,6 +168,8 @@ def run():
             "base_translation_blob_sha": "94874371b14beab370000ba8582714f89ba9d3d4",
             "reading_language": "en",
             "reading_organization": "2026-10-03 base, reduction and three extensions",
+            "pilot_objective_clarification": "2026-10-03 bounded pilots, architecture selection and scale limits",
+            "previous_reading_edition_preserved": True,
             "active_base_sha256": digest(base),
             "fixed_base_location": "ORGANIZATION_TRACE.json before_files",
             "translation_source_commit": "c1c4f5600a2ff0b3c796d1d1101dacd50fc8b340",
