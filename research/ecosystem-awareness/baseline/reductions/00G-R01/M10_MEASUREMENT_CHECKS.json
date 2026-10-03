@@ -1,0 +1,329 @@
+{
+  "contract_version": "M10-P03-v0.1",
+  "scope": "M10/P03 diagnostic metric audit and changed-theta controls; internal self-check only",
+  "checks": {
+    "abstention_not_success_even_nonpositive_quality_target": "PASS",
+    "cost_per_success_undefined_without_success": "PASS",
+    "legitimate_low_quality_delivers_but_fails": "PASS",
+    "expensive_valid_quality_not_erased_by_budget_failure": "PASS",
+    "inclusive_resource_and_deadline_boundary": "PASS",
+    "late_finish_not_ontime_completion_quality": "PASS",
+    "reward_does_not_compensate_prohibition": "PASS",
+    "blocked_attempt_is_not_executed_violation": "PASS",
+    "recovery_keeps_completion_separate_from_campaign_violation": "PASS",
+    "unknown_optimum_keeps_success_unknown": "PASS",
+    "known_hard_failure_can_set_e0_with_unknown_reference": "PASS",
+    "quality_gap_equality_inclusive": "PASS",
+    "ledger_replicated_record_not_double_charged": "PASS",
+    "coordination_in_total_once": "PASS",
+    "actual_repeated_work_is_still_charged": "PASS",
+    "conflicting_ledger_copy_rejected": "PASS",
+    "relays_add_no_independent_evidence_or_coverage": "PASS",
+    "complementary_distinct_root_adds_coverage": "PASS",
+    "certificate_creation_and_use_fully_charged": "PASS",
+    "binding_certificate_does_not_waive_own_review": "PASS",
+    "f_is_not_one_minus_a": "PASS",
+    "probability_boundary_accepted": "PASS",
+    "balanced_blind_guess_fails_registered_thresholds": "PASS",
+    "risk_ceiling_redundant_at_registered_threshold": "PASS",
+    "zero_observed_does_not_mean_zero_risk": "PASS",
+    "zero_event_one_sided_tail_equation": "PASS",
+    "sample_299_needed_for_one_percent_zero_event_example": "PASS",
+    "historical_fixture_hash_matches_contract": "PASS",
+    "all_historical_M02_76_checks_still_pass": "PASS",
+    "asymmetric_prior_blind_x_AVG_passes": "PASS",
+    "asymmetric_prior_does_not_resolve_WC": "PASS",
+    "world_specific_choice_not_one_common_blind_policy": "PASS",
+    "unfinished_review_never_commits_in_historical_fixture": "PASS",
+    "lower_review_price_retains_own_review_and_resolves_R11": "PASS",
+    "historical_prices_restored_after_changed_theta_control": "PASS"
+  },
+  "metric_edge_cases": {
+    "abstention": {
+      "z_complete": 0,
+      "a": 0,
+      "q": "0",
+      "e": 0,
+      "v_exec": 0,
+      "C": "2",
+      "K": "0",
+      "t_del": null,
+      "late_delivery_time": null,
+      "J_partial": "0",
+      "C_per_delivery": null,
+      "C_per_success": null
+    },
+    "cheap_low_quality": {
+      "z_complete": 1,
+      "a": 1,
+      "q": "3",
+      "e": 0,
+      "v_exec": 0,
+      "C": "5",
+      "K": "0",
+      "t_del": "10",
+      "late_delivery_time": null,
+      "J_partial": "0",
+      "C_per_delivery": "5",
+      "C_per_success": null
+    },
+    "expensive_valid": {
+      "z_complete": 1,
+      "a": 1,
+      "q": "6",
+      "e": 0,
+      "v_exec": 0,
+      "C": "12",
+      "K": "0",
+      "t_del": "10",
+      "late_delivery_time": null,
+      "J_partial": "0",
+      "C_per_delivery": "12",
+      "C_per_success": null
+    },
+    "deadline_and_budget_equality": {
+      "z_complete": 1,
+      "a": 1,
+      "q": "6",
+      "e": 1,
+      "v_exec": 0,
+      "C": "11",
+      "K": "0",
+      "t_del": "32",
+      "late_delivery_time": null,
+      "J_partial": "0",
+      "C_per_delivery": "11",
+      "C_per_success": "11"
+    },
+    "late_finish": {
+      "z_complete": 1,
+      "a": 0,
+      "q": "0",
+      "e": 0,
+      "v_exec": 0,
+      "C": "11",
+      "K": "0",
+      "t_del": null,
+      "late_delivery_time": "33",
+      "J_partial": "6",
+      "C_per_delivery": null,
+      "C_per_success": null
+    },
+    "violating_composition": {
+      "z_complete": 1,
+      "a": 0,
+      "q": "0",
+      "e": 0,
+      "v_exec": 1,
+      "C": "11",
+      "K": "0",
+      "t_del": null,
+      "late_delivery_time": null,
+      "J_partial": "1000",
+      "C_per_delivery": null,
+      "C_per_success": null
+    },
+    "blocked_attempt": {
+      "z_complete": 0,
+      "a": 0,
+      "q": "0",
+      "e": 0,
+      "v_exec": 0,
+      "C": "4",
+      "K": "0",
+      "t_del": null,
+      "late_delivery_time": null,
+      "J_partial": "0",
+      "C_per_delivery": null,
+      "C_per_success": null
+    },
+    "recovered_independent_valid_delivery": {
+      "z_complete": 1,
+      "a": 1,
+      "q": "6",
+      "e": 0,
+      "v_exec": 1,
+      "C": "11",
+      "K": "0",
+      "t_del": "10",
+      "late_delivery_time": null,
+      "J_partial": "0",
+      "C_per_delivery": "11",
+      "C_per_success": null
+    },
+    "unknown_optimum": {
+      "z_complete": 1,
+      "a": 1,
+      "q": "6",
+      "e": "UNKNOWN",
+      "v_exec": 0,
+      "C": "11",
+      "K": "0",
+      "t_del": "10",
+      "late_delivery_time": null,
+      "J_partial": "0",
+      "C_per_delivery": "11",
+      "C_per_success": null
+    },
+    "unknown_optimum_known_failure": {
+      "z_complete": 0,
+      "a": 0,
+      "q": "0",
+      "e": 0,
+      "v_exec": 0,
+      "C": "11",
+      "K": "0",
+      "t_del": null,
+      "late_delivery_time": null,
+      "J_partial": "0",
+      "C_per_delivery": null,
+      "C_per_success": null
+    },
+    "quality_boundary": {
+      "z_complete": 1,
+      "a": 1,
+      "q": "3",
+      "e": 1,
+      "v_exec": 0,
+      "C": "11",
+      "K": "0",
+      "t_del": "10",
+      "late_delivery_time": null,
+      "J_partial": "0",
+      "C_per_delivery": "11",
+      "C_per_success": "11"
+    }
+  },
+  "social_evidence_example": {
+    "actual_events": [
+      {
+        "event_id": "setup",
+        "category": "preparation",
+        "cost": "2"
+      },
+      {
+        "event_id": "review-A",
+        "category": "review",
+        "cost": "1"
+      },
+      {
+        "event_id": "review-B-redundant",
+        "category": "review",
+        "cost": "1"
+      },
+      {
+        "event_id": "send1",
+        "category": "coordination",
+        "cost": "1/5"
+      },
+      {
+        "event_id": "send2-copy",
+        "category": "coordination",
+        "cost": "1/5"
+      },
+      {
+        "event_id": "receive",
+        "category": "coordination",
+        "cost": "1/5"
+      }
+    ],
+    "total_C": "23/5",
+    "K_already_in_C": "3/5",
+    "unique_evidence_roots_for_two_copies": 1,
+    "coverage_for_two_copies": 1
+  },
+  "cost_denominator_example": {
+    "all_run_cost": "18",
+    "a1_deliveries": 2,
+    "e1_successes": 1,
+    "C_per_delivery": "9",
+    "C_per_joint_success": "18"
+  },
+  "zero_observed_violation_IID_example": {
+    "n": 100,
+    "observed": 0,
+    "one_sided_confidence": "0.95",
+    "upper_risk": "0.029513049607039934500475785607016991103501444324285697760664",
+    "samples_for_one_percent_upper_with_zero_events": 299,
+    "not_campaign_results": true
+  },
+  "changed_theta_controls": {
+    "positive_review_price_2_over_3": [
+      {
+        "a": 1,
+        "q": "6",
+        "v": 0,
+        "success": 1,
+        "C": "11",
+        "t": "11",
+        "events": 12,
+        "route": [
+          "x1",
+          "x2",
+          "x3"
+        ]
+      },
+      {
+        "a": 1,
+        "q": "6",
+        "v": 0,
+        "success": 1,
+        "C": "11",
+        "t": "11",
+        "events": 12,
+        "route": [
+          "y1",
+          "y2",
+          "y3"
+        ]
+      }
+    ],
+    "asymmetric_prior": {
+      "weights": [
+        "9/10",
+        "1/10"
+      ],
+      "policy": "blind_x",
+      "conditional_outcomes": [
+        {
+          "a": 1,
+          "q": "6",
+          "v": 0,
+          "success": 1,
+          "C": "11",
+          "t": "10",
+          "events": 11,
+          "route": [
+            "x1",
+            "x2",
+            "x3"
+          ]
+        },
+        {
+          "a": 0,
+          "q": "0",
+          "v": 1,
+          "success": 0,
+          "C": "7",
+          "t": "6",
+          "events": 7,
+          "route": [
+            "x1"
+          ]
+        }
+      ],
+      "AVG_success": "9/10",
+      "AVG_violation": "1/10",
+      "WC_success": "0",
+      "WC_violation": "1",
+      "distribution_changed": true
+    }
+  },
+  "limits": [
+    "No production oracle",
+    "No independent reference or review",
+    "No campaign/statistical registration",
+    "No M03 universal bound",
+    "Duplicate source counting is not a proof of statistical independence"
+  ]
+}

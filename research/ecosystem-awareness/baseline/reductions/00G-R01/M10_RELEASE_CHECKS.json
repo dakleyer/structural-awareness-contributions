@@ -1,0 +1,793 @@
+{
+  "tasks": {
+    "M10": {
+      "status": "DONE",
+      "scope": "success/risk/observation/quantifier reconciliation, with numeric/finite-scope limits"
+    },
+    "P03": {
+      "status": "DONE",
+      "scope": "measurement-validity specification/audit and diagnostic edge cases; not campaign registration"
+    },
+    "M06": {
+      "status": "IN_PROGRESS",
+      "scope": "targeted primary source intake; full proof/communication/literature audit pending"
+    },
+    "M11": {
+      "status": "IN_PROGRESS",
+      "scope": "changed-price/prior controls; M03/M04 frontier/boundary audit pending"
+    },
+    "P10": {
+      "status": "IN_PROGRESS",
+      "scope": "initial continue/narrow/reframe disposition; full contribution/choice/expenditure decision pending"
+    }
+  },
+  "input_commit": "419b8e93b4b13a3a96ca1534b0d134be4a764c78",
+  "actual_utc_completed_at": "2026-10-03T22:25:10.527013+00:00",
+  "executing_owner": "Codex, on user instruction",
+  "reviewer": "same executing agent",
+  "independent_review": false,
+  "source_reads": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "git_blob_sha": "d70d5796f9f45dd983df5ffe8d9a72cda06f390f",
+      "sha256": "147e30684d1eb85ba2dae1559de7742f1ff82946b2cd0d36807398354b390941",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/MATHEMATICAL_FEASIBILITY.md",
+      "git_blob_sha": "0ecd26a0177ce11e426ed9cca3d303581298adb5",
+      "sha256": "5e4129129903f35bfae7e5dc89256c2d9fd5c9669e7fd74ce0ac9312b89574d8",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "git_blob_sha": "8c9c77952bff8d55cd4fd734f275e811c6a04f2a",
+      "sha256": "789b98737f6ca9f853e35b6333ed057f0b6868ae264ccb0e67c59df6f1d750aa",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "git_blob_sha": "e009c3a44c019ed89a344ad4b7c29b25b10dd385",
+      "sha256": "fd5e46850dd6efefdae3e47b2a7b3179aa7b5f9503b8ba15029544321489e802",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md",
+      "git_blob_sha": "7a93ba693bc0141d63ba799d4f715382e659b737",
+      "sha256": "99c9aa9c3787f66e802a450e7cd80a26637e5683a86e6492edcc58769a799074",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion.md",
+      "git_blob_sha": "eeac068cb2c8be0678b5d913b4a8dca2f167adf6",
+      "sha256": "2a113dd06e7ca77a2176ca2a62a3749f062a09bf5e96ce784619315a1fd499a4",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "git_blob_sha": "933f7b8da99db1c7da96f9f9c234d4115ca75911",
+      "sha256": "8ea1c1d9aef76a7095c107488869885c121e23844d31b7aeedef7194ecf9fc7d",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "git_blob_sha": "5f1560b35ebb3ddf75afe354ba148f63eaded542",
+      "sha256": "6eb5d762bbd8191fc5f0ef07f98187139b3902147276a1b3f14e6e32f5d9ecd3",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_CONJUNCTION_FIXTURE.json",
+      "git_blob_sha": "e774d27d0a5cd9052f0027d49177608c179a603b",
+      "sha256": "3cde0914902c570f247e0ab165cfc5399baeaddee17c27275868c77cdd41dd99",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m02_worlds.py",
+      "git_blob_sha": "afb552ed9093235379de84c5ec039e30ee70e225",
+      "sha256": "1b183313c98c034b57bb3a8acd7e644379298a57c07c1fe7451d04edfc82dd3b",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLD_CHECKS.json",
+      "git_blob_sha": "0315ca5c6fb1bc7e58e7880eff1356e700a0758a",
+      "sha256": "f35911720e3a55296bf7d79912aac2e159ad6b7622a696afdfa34fd50ae0a850",
+      "git_blob_identity_verified": true
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m01_scope.py",
+      "git_blob_sha": "e8c832be1ca6b4414843ce65c8abf6d8d342fd6d",
+      "sha256": "a34308b2632cf2e83ec851953becdc5909e83c7b2298b58e67931811914fedcb",
+      "git_blob_identity_verified": true
+    }
+  ],
+  "primary_source_intake": [
+    {
+      "id": "S1",
+      "url": "https://homepages.cwi.nl/~rdewolf/publ/qc/dectree.pdf",
+      "document": "Buhrman/de Wolf author-hosted preprint 10 October 2002",
+      "consulted": "Introduction; sections 3.1,3.2,4.1",
+      "status": "direct relevant-section read; not full survey proof review",
+      "role": "adaptive bit-query definitions, randomized tree representation, certificate definition"
+    },
+    {
+      "id": "S2",
+      "url": "https://www.cs.princeton.edu/theory/complexity/dectreechap.pdf",
+      "document": "Arora/Barak chapter 11, Internet draft January 2007",
+      "consulted": "opening definitions, 11.1/11.7-11.8,11.2/11.13",
+      "status": "direct relevant-section read; not final textbook verification",
+      "role": "certificate definitions; expected-query metric differs from hard cap"
+    },
+    {
+      "id": "S3",
+      "url": "https://www.itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbino.htm",
+      "document": "NIST Dataplot EXACT BINOMIAL",
+      "consulted": "purpose, description and one-sided syntax",
+      "status": "direct read",
+      "role": "exact binomial tail inversion; no Dataplot execution"
+    },
+    {
+      "id": "S4",
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+      "document": "NIST/SEMATECH handbook 7.2.4.1",
+      "consulted": "confidence intervals and exact small-count construction",
+      "status": "direct read",
+      "role": "statistical source check; not campaign estimates"
+    }
+  ],
+  "search_coverage": "Targeted query/tree/certificate and binomial uncertainty searches; excluded irrelevant broad-search hits; opened primary sections; no exhaustive survey, communication or parity bound",
+  "semantic_findings": {
+    "certificate_price": "same existing one-unit combined operation explicitly includes factual issuance/retrieval 1/2 plus authentication/scope/version 1/2; synthetic declared price, not runtime measurement",
+    "no_original_theta_transition_observation_price_change": true,
+    "one_hidden_bit": "no L-independent-variable information bound",
+    "typed_symbols": "mu_world/F_obs/v_exec avoid source mu/sigma/v collisions",
+    "recovery": "valid independent result may preserve a/q while campaign v remains1; M02 DAG all actions in delivered composition is narrower",
+    "cost_denominators": "cost per a1 delivery distinct from cost per e1 joint success",
+    "hard_resource_vs_reference_record": "expensive/late metric examples do not overspend hard-barrier M02",
+    "sampling_compilation": "registered ideal zero fixed charges; no real runtime transfer claim"
+  },
+  "acceptance_disposition": {
+    "M10_quantifiers": "DONE: result section2/contract AVG WC full-information U unresolved",
+    "M10_e_a_f_thresholds_history_prior_caps": "DONE: sections2-4 with typed symbols and explicit finite scope",
+    "P03_ledger_quality_delivery_time_violation_severity_uncertainty": "DONE for validity specification/audit: section3 metric matrix/edge cases and section4 assumptions",
+    "P03_abstention_zero_events_cheap_expensive_duplicates": "DONE: diagnostic examples/report; no harm/reward compensation or unreported no-delivery cost",
+    "M06_M11_P10_closure": "not claimed; initial work only"
+  },
+  "commands_results": {
+    "m10_reproduction": "python3 verify_m10_measurements.py > /tmp/M10_MEASUREMENT_CHECKS.json; cmp /tmp/M10_MEASUREMENT_CHECKS.json M10_MEASUREMENT_CHECKS.json",
+    "M10_exit": 0,
+    "M10_new_checks_PASS": 35,
+    "M10_metric_examples": 11,
+    "M10_report_byte_identical": true,
+    "M02_checks_PASS": 76,
+    "M02_report_byte_identical": true,
+    "M02_script_fixture_byte_unchanged": true,
+    "M01_diagnostic_groups_PASS": 5
+  },
+  "countercontrols": {
+    "lower_positive_review_price": "changed theta review2/3; same query policy and all reviews; exact C11 success both worlds",
+    "asymmetric_prior": "changed theta weights9/10,1/10; blind-x original trajectories AVG success9/10 risk1/10; WC success0/risk1",
+    "existing": "R12, epsilon3 and full-information controls preserved",
+    "unimplemented": "bulk review/barrier/coordination are admitted candidate attacks, not added capabilities inside original theta"
+  },
+  "publication_validation": {
+    "modified_existing_files": [
+      "README.md",
+      "MATHEMATICAL_FEASIBILITY.md",
+      "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md",
+      "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
+      "M02_WORLDS_AND_CONTROLS.md"
+    ],
+    "new_files": [
+      "M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "M10_RECONCILED_CONTRACT.json",
+      "verify_m10_measurements.py",
+      "M10_MEASUREMENT_CHECKS.json",
+      "M06_PRIMARY_SOURCE_INTAKE.md",
+      "M10_RELEASE_CHECKS.json"
+    ],
+    "deletions_intended": [],
+    "local_link_targets_checked": 158,
+    "local_targets_exist": true,
+    "new_workplan_anchor_targets_checked": true,
+    "original_task_criteria_preserved": true,
+    "all_task_IDs": 49,
+    "DONE": [
+      "M01",
+      "M02",
+      "M10",
+      "P03"
+    ],
+    "IN_PROGRESS": [
+      "M06",
+      "M11",
+      "P10"
+    ],
+    "OPEN_count": 42,
+    "canonical_discovery_labels_retained": true,
+    "M02_original_text_retained_as_prefix": true,
+    "core_scenario_M01_original_checkers_reports_manifests": "not modified"
+  },
+  "document_preservation": {
+    "README.md": {
+      "before_sha256": "147e30684d1eb85ba2dae1559de7742f1ff82946b2cd0d36807398354b390941",
+      "after_sha256": "b1035ab4897f8a48b4aa105e12dcdbce655c3e6f17209e68be4d1327069ae93a",
+      "input_text_exactly_recoverable": true,
+      "purpose": "current execution statuses/navigation, task records; additive M02 clarification; no original acceptance/scientific content removed",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_index": 3091,
+          "after_index": 3091,
+          "before": "",
+          "after": ". [M10/P03 are DONE for contract reconciliation and measurement audit](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md)"
+        },
+        {
+          "kind": "replace",
+          "before_index": 3093,
+          "after_index": 3208,
+          "before": "u",
+          "after": "M06/M11/P10 are IN_PROGRESS. U"
+        },
+        {
+          "kind": "replace",
+          "before_index": 4486,
+          "after_index": 4630,
+          "before": "N",
+          "after": "M10/P03 ar"
+        },
+        {
+          "kind": "replace",
+          "before_index": 4488,
+          "after_index": 4641,
+          "before": "xt:",
+          "after": " now"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4501,
+          "after_index": 4655,
+          "before": "",
+          "after": "d"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4502,
+          "after_index": 4657,
+          "before": "",
+          "after": "below; next is M03 with M06/M11 review continuing.\n\n**Contract and measurement audit completed:** ["
+        },
+        {
+          "kind": "insert",
+          "before_index": 4510,
+          "after_index": 4764,
+          "before": "",
+          "after": "result "
+        },
+        {
+          "kind": "insert",
+          "before_index": 4514,
+          "after_index": 4775,
+          "before": "",
+          "after": "reviewer prompt](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [Reconciled contract](./M10_RECONCILED_CONTRACT.json) · [Diagno"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4516,
+          "after_index": 4904,
+          "before": "",
+          "after": "ic checker](./verify_m10_measurements.py) · [35 new checks and countercontrols](./M10_MEASUREMENT_CHECKS.json) · [Prim"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4518,
+          "after_index": 5024,
+          "before": "",
+          "after": "y-source intake, M06 IN_PROGRESS](./M06_PRIMARY_SOURCE_INTAKE.md) · [Acceptance/preservation](./M10_RELEASE_CHECKS.json). The one-uni"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4520,
+          "after_index": 5159,
+          "before": "",
+          "after": "binding cer"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4521,
+          "after_index": 5171,
+          "before": "",
+          "after": "ificate now has explicit producer/use ch"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4525,
+          "after_index": 5215,
+          "before": "",
+          "after": "s. Lower posi"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4526,
+          "after_index": 5229,
+          "before": "",
+          "after": "iv"
+        },
+        {
+          "kind": "delete",
+          "before_index": 4527,
+          "after_index": 5232,
+          "before": "d M06",
+          "after": ""
+        },
+        {
+          "kind": "replace",
+          "before_index": 4540,
+          "after_index": 5240,
+          "before": "b",
+          "after": "pric"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4542,
+          "after_index": 5245,
+          "before": "",
+          "after": "s resolve the candidate at R=11; asymmetric priors resolve its tested AVG control while WC still fails. These changed-theta cases narrow the proposed claim. No L-dependent in"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4545,
+          "after_index": 5422,
+          "before": "",
+          "after": "mation bound or universal architectur"
+        },
+        {
+          "kind": "replace",
+          "before_index": 4547,
+          "after_index": 5461,
+          "before": "M03",
+          "after": "frontier follows from a single hidden binding"
+        },
+        {
+          "kind": "insert",
+          "before_index": 4551,
+          "after_index": 5507,
+          "before": "",
+          "after": "\n"
+        }
+      ]
+    },
+    "MATHEMATICAL_FEASIBILITY.md": {
+      "before_sha256": "5e4129129903f35bfae7e5dc89256c2d9fd5c9669e7fd74ce0ac9312b89574d8",
+      "after_sha256": "d466ff13efb89c57cd78299eb41831ef3e3d4b5e917d9b73fe0f5704c5ac5153",
+      "input_text_exactly_recoverable": true,
+      "purpose": "current execution statuses/navigation, task records; additive M02 clarification; no original acceptance/scientific content removed",
+      "changes": [
+        {
+          "kind": "replace",
+          "before_index": 6017,
+          "after_index": 6017,
+          "before": ";",
+          "after": ","
+        },
+        {
+          "kind": "delete",
+          "before_index": 6022,
+          "after_index": 6022,
+          "before": " is DONE",
+          "after": ""
+        },
+        {
+          "kind": "insert",
+          "before_index": 6079,
+          "after_index": 6071,
+          "before": "",
+          "after": ", and M10 for contract reconciliation. M06/M11 are IN_PROGRESS"
+        },
+        {
+          "kind": "replace",
+          "before_index": 6086,
+          "after_index": 6140,
+          "before": "11",
+          "after": "05/M07–M09"
+        },
+        {
+          "kind": "insert",
+          "before_index": 7827,
+          "after_index": 7889,
+          "before": "",
+          "after": "— IN_PROGRESS (intake) "
+        },
+        {
+          "kind": "insert",
+          "before_index": 9106,
+          "after_index": 9191,
+          "before": "",
+          "after": "ads the "
+        },
+        {
+          "kind": "replace",
+          "before_index": 9108,
+          "after_index": 9201,
+          "before": "nci",
+          "after": "mp"
+        },
+        {
+          "kind": "replace",
+          "before_index": 9113,
+          "after_index": 9205,
+          "before": "s",
+          "after": "ted"
+        },
+        {
+          "kind": "insert",
+          "before_index": 9115,
+          "after_index": 9209,
+          "before": "",
+          "after": "["
+        },
+        {
+          "kind": "insert",
+          "before_index": 9123,
+          "after_index": 9218,
+          "before": "",
+          "after": "reconciliation](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) "
+        },
+        {
+          "kind": "replace",
+          "before_index": 9127,
+          "after_index": 9283,
+          "before": "begins targeted ",
+          "after": "["
+        },
+        {
+          "kind": "replace",
+          "before_index": 9147,
+          "after_index": 9288,
+          "before": "r",
+          "after": "intak"
+        },
+        {
+          "kind": "replace",
+          "before_index": 9149,
+          "after_index": 9294,
+          "before": "view",
+          "after": "](./M06_PRIMARY_SOURCE_INTAKE.md)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 9164,
+          "after_index": 9338,
+          "before": "",
+          "after": "; M06/M11 review continues"
+        },
+        {
+          "kind": "insert",
+          "before_index": 11526,
+          "after_index": 11726,
+          "before": "",
+          "after": "D"
+        },
+        {
+          "kind": "replace",
+          "before_index": 11527,
+          "after_index": 11728,
+          "before": "P",
+          "after": "N"
+        },
+        {
+          "kind": "replace",
+          "before_index": 11529,
+          "after_index": 11730,
+          "before": "N",
+          "after": " (contract)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 12046,
+          "after_index": 12257,
+          "before": "",
+          "after": "IN_PR"
+        },
+        {
+          "kind": "replace",
+          "before_index": 12047,
+          "after_index": 12263,
+          "before": "P",
+          "after": "GR"
+        },
+        {
+          "kind": "replace",
+          "before_index": 12049,
+          "after_index": 12266,
+          "before": "N",
+          "after": "SS (controls)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 15625,
+          "after_index": 15854,
+          "before": "",
+          "after": "\n\n### M10/P03 execution record — contract and measurement audit\n\n**M10 DONE for reconciliation; P03 DONE for measurement-validity specification/audit.** [One contract, edge cases and reviewer prompt](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [Machine-readable contract](./M10_RECONCILED_CONTRACT.json) · [Checker](./verify_m10_measurements.py) · [35 new checks/countercontrols](./M10_MEASUREMENT_CHECKS.json) · [Primary-source intake](./M06_PRIMARY_SOURCE_INTAKE.md) · [Release evidence](./M10_RELEASE_CHECKS.json).\n\nAVG/WC/full-information quantifiers, e/a/f, all observable history, legitimate prior, finite caps and strict/inclusive boundaries agree with M01 and source §1.4. Certificate creation/use is explicitly included in its existing one-unit macro charge; the original M02 fixture and all 76 historical checks remain unchanged. Completion/quality, campaign violations, costs per delivery versus joint success, late/unknown outcomes and duplicated evidence are distinguished. No campaign or universal bound is closed.\n\nThe candidate depends on one hidden binding, a declared local gate and prices. Lower positive review price 2/3 resolves the query control at R=11; a 9/10,1/10 prior resolves its blind AVG control but not WC. These changed-theta controls are retained, with M11 IN_PROGRESS. M06 has primary definition/certificate/statistical source intake and remains IN_PROGRESS for the full argument audit. P10 has continuation/reframe input and remains IN_PROGRESS for the broader value/expenditure gate. Next is M03 for the reconciled one-bit profile, carrying M06/M11 review. M04 requires separate boundary/region evidence; C02/C11 and all implementation/campaign obligations remain open. Owner/reviewer: Codex, by user instruction; self-review only. Actual UTC timestamp, input commit and preservation limits are in the release record.\n\n"
+        }
+      ]
+    },
+    "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md": {
+      "before_sha256": "fd5e46850dd6efefdae3e47b2a7b3179aa7b5f9503b8ba15029544321489e802",
+      "after_sha256": "262c7b79f04314542262f719b707ff766f16107189d0d19b9d1c653af57e3e89",
+      "input_text_exactly_recoverable": true,
+      "purpose": "current execution statuses/navigation, task records; additive M02 clarification; no original acceptance/scientific content removed",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_index": 19085,
+          "after_index": 19085,
+          "before": "",
+          "after": "At creation, "
+        },
+        {
+          "kind": "insert",
+          "before_index": 19093,
+          "after_index": 19106,
+          "before": "",
+          "after": "we"
+        },
+        {
+          "kind": "delete",
+          "before_index": 19095,
+          "after_index": 19110,
+          "before": "main",
+          "after": ""
+        },
+        {
+          "kind": "insert",
+          "before_index": 19133,
+          "after_index": 19144,
+          "before": "",
+          "after": ". Current status: P03 is DONE for measurement-validity specification/audit; P10 is IN_PROGRESS for the decision/value gate. Other P tasks remain OPEN"
+        },
+        {
+          "kind": "insert",
+          "before_index": 21692,
+          "after_index": 21852,
+          "before": "",
+          "after": "D"
+        },
+        {
+          "kind": "replace",
+          "before_index": 21693,
+          "after_index": 21854,
+          "before": "P",
+          "after": "N"
+        },
+        {
+          "kind": "replace",
+          "before_index": 21695,
+          "after_index": 21856,
+          "before": "N",
+          "after": " (measurement audit)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 27612,
+          "after_index": 27792,
+          "before": "",
+          "after": "IN_PR"
+        },
+        {
+          "kind": "replace",
+          "before_index": 27613,
+          "after_index": 27798,
+          "before": "P",
+          "after": "GR"
+        },
+        {
+          "kind": "replace",
+          "before_index": 27615,
+          "after_index": 27801,
+          "before": "N",
+          "after": "SS (decision input)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 30027,
+          "after_index": 30231,
+          "before": "",
+          "after": "\n\n### P03 execution record and P10 initial input\n\n**P03 DONE — measurement-validity specification/audit only.** [M10/P03 contract and case dispositions](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [Contract](./M10_RECONCILED_CONTRACT.json) · [35 diagnostic checks](./M10_MEASUREMENT_CHECKS.json) · [Checker](./verify_m10_measurements.py) · [Acceptance/preservation](./M10_RELEASE_CHECKS.json).\n\nThe audit maps q/a/e/f/C/t/K to scenario §1.4 and keeps technical finish, legitimate delivery and success separate. It retains abstention costs, expensive/late/unknown records, campaign violations after recovery and undefined ratios with zero denominators. Cost per legitimate delivery uses a=1; cost per joint success uses e=1. Actual repeated work/communication is charged; copied ledger records and dependent evidence are not counted as new work or independent coverage. Severity is not converted to harm without a model. The zero-event IID binomial example gives a nonzero risk bound; it is not campaign data or a sample-size recommendation. C11's statistical protocol and C04/C05's independent implementation remain OPEN.\n\n**P10 IN_PROGRESS:** the initial continuation decision favors a scoped one-bit M03 proof/benchmark and rejects an L-growing or price-independent generalization from M02. A simpler state-query/certificate control resolves several profiles. The wider architecture-choice, incremental-value and expenditure-ceiling gates remain to be completed before broad investment. [Targeted primary-source and counterexample intake](./M06_PRIMARY_SOURCE_INTAKE.md) supports this narrow disposition; P01/P02 remain OPEN. Owner/reviewer: Codex, on user instruction; same-agent review. The evidence record pins input/UTC time and residual limits.\n\n"
+        }
+      ]
+    },
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": {
+      "before_sha256": "789b98737f6ca9f853e35b6333ed057f0b6868ae264ccb0e67c59df6f1d750aa",
+      "after_sha256": "a4f4211ff8997ff00832a11f1f248149157a396b1e96de7ab215b98bde42123d",
+      "input_text_exactly_recoverable": true,
+      "purpose": "current execution statuses/navigation, task records; additive M02 clarification; no original acceptance/scientific content removed",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_index": 1167,
+          "after_index": 1167,
+          "before": "",
+          "after": "/M02/M10/P03"
+        },
+        {
+          "kind": "insert",
+          "before_index": 1172,
+          "after_index": 1184,
+          "before": "",
+          "after": "n"
+        },
+        {
+          "kind": "insert",
+          "before_index": 1182,
+          "after_index": 1195,
+          "before": "",
+          "after": " sus alcances de"
+        },
+        {
+          "kind": "replace",
+          "before_index": 1194,
+          "after_index": 1223,
+          "before": " de alcance y M02 para",
+          "after": ","
+        },
+        {
+          "kind": "insert",
+          "before_index": 1230,
+          "after_index": 1238,
+          "before": "",
+          "after": "y au"
+        },
+        {
+          "kind": "insert",
+          "before_index": 1231,
+          "after_index": 1243,
+          "before": "",
+          "after": "itoría; M06/M11/P10 "
+        },
+        {
+          "kind": "insert",
+          "before_index": 1232,
+          "after_index": 1264,
+          "before": "",
+          "after": "stán"
+        },
+        {
+          "kind": "replace",
+          "before_index": 1233,
+          "after_index": 1269,
+          "before": "mundos",
+          "after": "IN_PROGRESS"
+        },
+        {
+          "kind": "replace",
+          "before_index": 1242,
+          "after_index": 1283,
+          "before": "co",
+          "after": "queda"
+        },
+        {
+          "kind": "insert",
+          "before_index": 1245,
+          "after_index": 1289,
+          "before": "",
+          "after": " 42 "
+        },
+        {
+          "kind": "insert",
+          "before_index": 1246,
+          "after_index": 1294,
+          "before": "",
+          "after": "a"
+        },
+        {
+          "kind": "delete",
+          "before_index": 1247,
+          "after_index": 1296,
+          "before": "ol",
+          "after": ""
+        },
+        {
+          "kind": "delete",
+          "before_index": 1250,
+          "after_index": 1297,
+          "before": "s viables; l",
+          "after": ""
+        },
+        {
+          "kind": "replace",
+          "before_index": 1265,
+          "after_index": 1300,
+          "before": "otras 47 siguen abiertas",
+          "after": "OPEN"
+        },
+        {
+          "kind": "insert",
+          "before_index": 11764,
+          "after_index": 11779,
+          "before": "",
+          "after": "**IN_PROGRESS — entrada de fuentes**, [registro](./M06_PRIMARY_SOURCE_INTAKE.md). "
+        },
+        {
+          "kind": "insert",
+          "before_index": 12258,
+          "after_index": 12355,
+          "before": "",
+          "after": "**DONE — reconciliación de contrato**, [resultado](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). "
+        },
+        {
+          "kind": "insert",
+          "before_index": 12418,
+          "after_index": 12612,
+          "before": "",
+          "after": ". **IN_PROGRESS — controles de costes y priors**, [registro](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 14999,
+          "after_index": 15298,
+          "before": "",
+          "after": "**DONE — auditoría de medidas**, [resultado](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). "
+        },
+        {
+          "kind": "insert",
+          "before_index": 15908,
+          "after_index": 16298,
+          "before": "",
+          "after": ". **IN_PROGRESS — decisión inicial de continuar/acotar**, [registro](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md)"
+        },
+        {
+          "kind": "insert",
+          "before_index": 22384,
+          "after_index": 22887,
+          "before": "",
+          "after": "\n\n### Actualización de ejecución — M10/P03 y revisión inicial\n\nM10 y P03 están DONE para reconciliar el contrato y auditar las medidas. [Resultado, límites y prompt para otro agente](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [Contrato](./M10_RECONCILED_CONTRACT.json) · [Comprobador](./verify_m10_measurements.py) · [35 nuevas comprobaciones](./M10_MEASUREMENT_CHECKS.json) · [Fuentes primarias M06](./M06_PRIMARY_SOURCE_INTAKE.md) · [Evidencia de aceptación/conservación](./M10_RELEASE_CHECKS.json). Se reproducen también las 76 comprobaciones históricas de M02 sin cambios. La revisión es propia, no independiente.\n\nM02 depende de un solo dato global y de precios/revisión fijados. Producir y comprobar el certificado queda incluido explícitamente en su unidad de coste. Con revisión local positiva de 2/3 por paso, consultar y entregar el óptimo cuesta 11; cambiar el prior a 9/10,1/10 permite al control ciego cumplir AVG, pero no WC. Se conservan estos controles en configuraciones distintas. La formulación no justifica un coste de información creciente con L ni una frontera para todas las arquitecturas.\n\nM06/M11/P10 quedan IN_PROGRESS para completar fuentes, ataques al argumento/fronteras y la decisión de valor/inversión. El siguiente trabajo matemático es M03 con el contrato reconciliado; después M04 revisa región, fronteras y controles. C02/C11, oráculo independiente, campañas, tecnologías y selector mantienen sus propios pendientes. Estado global: 4 DONE, 3 IN_PROGRESS, 42 OPEN. Ningún resultado empírico, ventaja de EA ni teorema universal está cerrado por esta actualización.\n\n"
+        }
+      ]
+    },
+    "M02_WORLDS_AND_CONTROLS.md": {
+      "before_sha256": "6eb5d762bbd8191fc5f0ef07f98187139b3902147276a1b3f14e6e32f5d9ecd3",
+      "after_sha256": "a674adf623db7f2e1280c75c7c3d38f95f6ddd01088a3e54bac5647404d95ce0",
+      "input_text_exactly_recoverable": true,
+      "purpose": "current execution statuses/navigation, task records; additive M02 clarification; no original acceptance/scientific content removed",
+      "changes": [
+        {
+          "kind": "insert",
+          "before_index": 20809,
+          "after_index": 20809,
+          "before": "",
+          "after": "\n\n## 8. Successor contract clarification\n\nThe later [M10/P03 reconciliation and measurement audit](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) supplements this historical construction. Its [contract](./M10_RECONCILED_CONTRACT.json) explicitly includes certificate production/retrieval and authentication/applicability within the same existing one-unit operation; no free producer is added. Original worlds, gates, prices, observations and the 76-check report remain unchanged. The successor also records lower-price/asymmetric-prior countercontrols, source intake and current next actions. Read both before M03; the task counts and next-action statements above belong to the M02 execution snapshot.\n"
+        }
+      ]
+    }
+  },
+  "artifact_hashes": {
+    "README.md": "b1035ab4897f8a48b4aa105e12dcdbce655c3e6f17209e68be4d1327069ae93a",
+    "MATHEMATICAL_FEASIBILITY.md": "d466ff13efb89c57cd78299eb41831ef3e3d4b5e917d9b73fe0f5704c5ac5153",
+    "DIFFERENTIAL_AND_EXPERIMENT_VALUE.md": "262c7b79f04314542262f719b707ff766f16107189d0d19b9d1c653af57e3e89",
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": "a4f4211ff8997ff00832a11f1f248149157a396b1e96de7ab215b98bde42123d",
+    "M02_WORLDS_AND_CONTROLS.md": "a674adf623db7f2e1280c75c7c3d38f95f6ddd01088a3e54bac5647404d95ce0",
+    "M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md": "0a22dc7b09facbf6816b32656df83e45ce127f352fbf20a12f877985da22f866",
+    "M10_RECONCILED_CONTRACT.json": "6fe9f01d5adb82ac1d3913fe0931ad728b79a30f3b9b5bcfe2d73c6df74ce9ab",
+    "verify_m10_measurements.py": "196bef2f63033a99af73472ecfaa2c1138e051366e9e10b5c1e71eb3430a8c4a",
+    "M10_MEASUREMENT_CHECKS.json": "2ee8244f10fb91be5ee758568558d40e647089baf03b13b50c5e5df4b49e1780",
+    "M06_PRIMARY_SOURCE_INTAKE.md": "e81ac4357b72a100423616414986e1cb7a3ff8fe6037ca3f09071e06d324667f"
+  },
+  "self_hash": "excluded; published Git blob identifies release record",
+  "inherited_integrity_issues": {
+    "status": "P08 OPEN",
+    "rerun_in_this_task": false,
+    "source": "WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json at pinned input",
+    "issue": "common scenario-digest/extension README historical-manifest mismatches; no old hash overwritten"
+  },
+  "limitations": [
+    "No universal M03 information/resource bound or M04 parameter region",
+    "No complete C02/C11 machine/statistical campaign freeze",
+    "No independent C05 oracle or review",
+    "No campaign/model/runtime/technology admission/EA advantage",
+    "Single-binding static finite model; no parity/N>1/dynamic/typical-world/scale claim",
+    "Certificate and receiver prices are declared assumptions; different available protocols may resolve candidate",
+    "IID zero-event numbers are diagnostics, not R01 observations or sample recommendation",
+    "M06/M11/P10 and corpus/transfer/source reviews remain incomplete"
+  ],
+  "next_action": "M03 paired-history proof at reconciled theta, retaining paid certificate/effect observations, irreversible violations, cache, random mixtures, hard costs and all changed-theta countercontrols; continue M06/M11; keep P10/C02/C11 gates separate"
+}

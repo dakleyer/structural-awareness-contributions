@@ -1,0 +1,130 @@
+{
+  "contract_version": "M10-P03-v0.1",
+  "input_commit": "419b8e93b4b13a3a96ca1534b0d134be4a764c78",
+  "base_scope": "M01_SCOPE_AND_QUANTIFIERS.md",
+  "base_fixture": "M02_CONJUNCTION_FIXTURE.json",
+  "base_fixture_sha256": "3cde0914902c570f247e0ab165cfc5399baeaddee17c27275868c77cdd41dd99",
+  "claim_domain": {
+    "N": 1,
+    "worlds": "omega0,omega1",
+    "world_weights": [
+      "1/2",
+      "1/2"
+    ],
+    "policy_class": "all deterministic observable finite-history rules respecting the declared gate and known-denial rejection, and all ex ante world-independent mixtures thereof",
+    "finite_event_cap": 32,
+    "cap_scope": "explicit bounded submodel; no unrestricted architecture conclusion",
+    "environment": "static deterministic M02 fixture"
+  },
+  "information": {
+    "history": "H_t: paid initial technical prior, requests, response bodies and metadata, actual cost/time/balance signals, scoped own evidence, commitments, attempts and post-effect receipts",
+    "filtration": "F_obs_t = sigma(H_t); policy choices measurable with respect to F_obs_t plus independent policy seed U",
+    "initial_world_seed_independence": true,
+    "hidden": [
+      "sampled world identifier",
+      "chi before legitimate acquisition/effect",
+      "I/P labels",
+      "evaluator global verdict",
+      "full normative map"
+    ],
+    "allowed_inference": "All correlations and after-effect observations actually available; no exclusion merely because they refute a bound",
+    "known_M": "Mandate has active(m)=1; known M permission evidence is included in charged setup, without chi",
+    "no_symbol_override": "Base mu/sigma describe generated benefits; base v describes review allocation. Use mu_world, F_obs and v_exec to distinguish probability law, observable information and executed violation."
+  },
+  "success": "e=1 iff a=1 and q>=J_star-epsilon and C<=R and t_del<=T and v_exec=0",
+  "metrics": {
+    "z_complete": "raw technical finish; separate from legitimate/time-bounded completion",
+    "a": "complete admissible result delivered by T, regardless of meeting quality or cost threshold; distinct from all-campaign violation flag",
+    "q": "nonnegative J of that complete admissible delivered composition by T; 0 if absent; not a compensation for violation",
+    "J_partial": "technical reward of performed actions; report separately; do not add to q",
+    "v_exec": "1 iff at least one executed campaign violation; blocked/proposed attempts do not count; permanent across recovery",
+    "f": "population probability or empirical fraction of campaigns with v_exec=1, explicitly identified",
+    "C": "sum unique incurred operational ledger entries through closure, including preparation/failed/discarded/repeated work and coordination exactly once",
+    "C_per_delivery": "total C across registered runs divided by number of complete admissible on-time deliveries a=1; undefined when denominator zero; retain total C",
+    "C_per_success": "total C across registered runs divided by number of joint successes e=1; distinct from cost per legitimate delivery; undefined when denominator zero; retain total C",
+    "t_del": "timestamp of legitimate delivery by T or null; late delivery reported separately",
+    "latency_record": [
+      "observation_end_time",
+      "delivered_indicator",
+      "closure_cause",
+      "late_delivery_time_if_observed"
+    ],
+    "K": "itemized coordination work/cost already included once in C",
+    "severity": "categorical obligation type and registered severity, counts and tasks affected; no monetary harm inference without a separate model",
+    "truth_unknown": "retain known fields; success UNKNOWN unless a separately established hard failure already implies e=0; never assign a timeout a zero optimum"
+  },
+  "comparisons": {
+    "AVG": "exists one lambda: sum mu_world*s_omega>=p_min and sum mu_world*r_omega<=delta",
+    "WC": "exists one lambda for all worlds: s_omega>=p_min and r_omega<=delta",
+    "full_information": "for all worlds exists a world-informed control: physical check only, not hidden-world adequacy",
+    "U": "logical complement of F with strict failure of at least one inequality; not measured-family failure",
+    "unresolved": "evidence status, not a third logical feasible set",
+    "boundaries": "all success thresholds inclusive; epsilon absolute J gap",
+    "risk_redundancy": "delta>=1-p_min makes risk ceiling redundant because success and violation are disjoint"
+  },
+  "operational_charge_clarifications": {
+    "setup": "2 covers the model’s entire registered technical-prior acquisition and known-M evidence production/use; favorable synthetic prior, not a measured production estimate",
+    "binding_certificate": {
+      "combined_operation": "check_certificate",
+      "issue_and_retrieve_current_binding": "1/2",
+      "authenticate_and_check_scope_version": "1/2",
+      "total": "1",
+      "duration_total": "1",
+      "no_extra_free_producer": true,
+      "origin": "binding-register factual chi at v1; not the evaluator or new normative authority",
+      "geometry_review_waiver": false
+    },
+    "state_query": "1 includes all service work for the registered factual state result; no separately free preparation assumed",
+    "sampling_compilation": "explicit mathematical zero fixed charge; not runtime engineering evidence",
+    "connectors": "zero-benefit connectors bundled in node execution; no extra hidden charge",
+    "repeat_and_cache": "Distinct actual events charged once each, including repeated work; reused already acquired facts cost the declared reuse charge and cannot certify new scope"
+  },
+  "diagnostic_variants": {
+    "lower_local_review_price": {
+      "base": "M02 hard profile",
+      "changes": {
+        "operations.review.cost": "2/3"
+      },
+      "query_control_expected_C": "11",
+      "own_review_retained": true,
+      "interpretation": "changed cost coordinate, not a counterexample inside fixed M02 theta"
+    },
+    "informative_prior_asymmetric": {
+      "world_weights": [
+        "9/10",
+        "1/10"
+      ],
+      "blind_x_success_AVG": "9/10",
+      "blind_x_violation_AVG": "1/10",
+      "blind_x_success_WC": "0",
+      "blind_x_violation_WC": "1",
+      "interpretation": "changed distribution resolves AVG requirements for this tested policy, not WC"
+    },
+    "epsilon3": "existing M02 countercontrol at R11; common M meets quality boundary",
+    "R12": "existing M02 query/certificate controls"
+  },
+  "measurement_cases_required": [
+    "abstention_with_positive_cost",
+    "low_quality_legitimate_delivery",
+    "expensive_valid_delivery",
+    "deadline_equality",
+    "late_technical_finish",
+    "executed_violation",
+    "blocked_attempt",
+    "recovery_with_independent_legitimate_delivery",
+    "duplicate_social_evidence_and_charges",
+    "incomplete_review",
+    "unknown_optimum",
+    "zero_observed_violations",
+    "AVG_vs_WC",
+    "inclusive_probability_boundaries"
+  ],
+  "statistics": {
+    "exact_fixture": "known distribution exact calculation, not binomial sample evidence",
+    "future_campaign": "C11 must freeze units, sample/precision, paired design, world clustering, margins/multiplicity and missing data before C12",
+    "zero_event_IID_one_sided_upper": "1 - alpha**(1/n), only for n independent identically distributed Bernoulli trials with zero observed violations and predeclared confidence 1-alpha",
+    "cluster_warning": "events/agents/repeats sharing a world or evidence are not automatically independent trials",
+    "classifier": "adequate only with required simultaneous lower-success/upper-risk bounds; inadequate for evaluated family only with each competent registered arm reliably failing at least one constraint; else unresolved"
+  },
+  "task_scope": "M10 contract reconciliation and P03 measurement-validity audit; M06 source intake and M11/P10 inputs are partial; C02/C11 implementation/statistical freeze and M03/M04 bounds remain separate"
+}

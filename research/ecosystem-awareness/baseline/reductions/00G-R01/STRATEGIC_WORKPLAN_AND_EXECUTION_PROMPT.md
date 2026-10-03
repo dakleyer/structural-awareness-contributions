@@ -8,7 +8,7 @@ Iván Abril Palma, Tegrity.AI · Revisión del plan v0.2 · 3 de octubre de 2026
 
 Los cuatro planes tienen una base sólida: distinguen pruebas, comprobaciones finitas, campañas, admisión tecnológica y causalidad histórica; conservan resultados negativos y exigen evidencia para cerrar tareas. El principal defecto es de ejecución estratégica: algunas revisiones llegan demasiado tarde y faltaban tareas concretas para la campaña estadística y la evaluación posterior de pilotos como instrumento de selección de arquitectura.
 
-Se mantienen las 38 tareas originales y sus criterios. Se añaden 11: M10–M11, C11–C14, P10–P12 y T11–T12. Al crearse esta revisión, las 49 estaban abiertas. Estado actual: M01 está DONE para formulación de alcance y M02 para construcción de mundos y controles viables; las otras 47 siguen abiertas. Se aclara el orden sin exigir terminar toda la prueba matemática antes de construir un evaluador neutral. Las revisiones de fuentes, contraejemplos, coherencia y conservación se repiten durante el trabajo, además de su cierre final.
+Se mantienen las 38 tareas originales y sus criterios. Se añaden 11: M10–M11, C11–C14, P10–P12 y T11–T12. Al crearse esta revisión, las 49 estaban abiertas. Estado actual: M01/M02/M10/P03 están DONE para sus alcances de formulación, construcción y auditoría; M06/M11/P10 están IN_PROGRESS y quedan 42 tareas OPEN. Se aclara el orden sin exigir terminar toda la prueba matemática antes de construir un evaluador neutral. Las revisiones de fuentes, contraejemplos, coherencia y conservación se repiten durante el trabajo, además de su cierre final.
 
 La revisión usa el commit `1e940125a18f468268eff8f029a35c32a5f4ff08`. Los 39 archivos de texto/código descargados de R01 coinciden exactamente con sus blobs Git. Los tres verificadores de extensiones reproducen sus informes publicados. El verificador común falla en el hash actual del escenario; los manifiestos SHA256 tampoco coinciden con los tres README de extensiones. Son problemas heredados, anteriores a esta revisión. Se conservan el escenario, los scripts, los resultados y los congelados históricos. Esta revisión no prueba el teorema, no implementa el oráculo completo y no ejecuta una campaña con agentes.
 
@@ -85,12 +85,12 @@ Prioridades: P0 = comenzar y fijar contratos; P1 = desbloquear evidencia mínima
 | M03 | P1 | Derivar la información y recursos necesarios, cubriendo adaptación, aleatoriedad, memoria, certificados y colaboración de la clase afirmada. |
 | M04 | P1 | Demostrar o rechazar una región mediante desigualdades, fronteras y testigo de no vaciedad; conservar el intento fallido. |
 | M05 | P1 | Contrastar testigos con C02–C05 y mapear supuestos; la enumeración finita cubre su dominio declarado. |
-| M06 | P1/R | Verificar fuentes y atacar la prueba con contraejemplos; iniciar búsqueda dirigida temprano y completar la auditoría del argumento. |
+| M06 | P1/R | Verificar fuentes y atacar la prueba con contraejemplos; iniciar búsqueda dirigida temprano y completar la auditoría del argumento. **IN_PROGRESS — entrada de fuentes**, [registro](./M06_PRIMARY_SOURCE_INTAKE.md). |
 | M07 | R | Revisar correspondencia con R01, 00M/00N, E1–E7 y extensiones; separar escenario, tecnología e incidente histórico. |
 | M08 | R | Revisar claridad y visuales; distinguir región probada, medida y sin resolver, con ejes y unidades. |
 | M09 | R | Conservar contenido, enlaces y congelados; cerrar la entrega matemática con evidencia y límites. |
-| M10 | P0 | Unificar éxito/riesgo, observación y cuantificadores antes de M03; no confundir fallo empírico con imposibilidad universal. |
-| M11 | P1/R | Atacar fronteras, casos degenerados, priors, certificados y controles; comprobar sensibilidad y límites superiores constructivos cuando existan. |
+| M10 | P0 | Unificar éxito/riesgo, observación y cuantificadores antes de M03; no confundir fallo empírico con imposibilidad universal. **DONE — reconciliación de contrato**, [resultado](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
+| M11 | P1/R | Atacar fronteras, casos degenerados, priors, certificados y controles; comprobar sensibilidad y límites superiores constructivos cuando existan. **IN_PROGRESS — controles de costes y priors**, [registro](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
 
 **Computabilidad, oráculo y campañas — 14 tareas**
 
@@ -117,14 +117,14 @@ Prioridades: P0 = comenzar y fijar contratos; P1 = desbloquear evidencia mínima
 |---|---|---|
 | P01 | P1/R | Profundizar fuentes primarias y congelar locatores; matriz afirmación–fuente y límites de la búsqueda. |
 | P02 | P1/R | Intentar obtener el mismo valor con métodos existentes y alternativas simples; falsar cada contribución superviviente. |
-| P03 | P0 | Auditar medidas y casos límite; conservar costes sin entrega, indeterminación y restricciones sin compensación por recompensa. |
+| P03 | P0 | Auditar medidas y casos límite; conservar costes sin entrega, indeterminación y restricciones sin compensación por recompensa. **DONE — auditoría de medidas**, [resultado](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
 | P04 | P1/R | Revisar el contrato y evidencia del oráculo C; no crear un segundo trabajo duplicado bajo otro nombre. |
 | P05 | P1/R | Verificar requisitos, terminología, autoridad, versiones y límites de transferencia con el corpus vigente. |
 | P06 | R | Comprobar legibilidad para investigación y decisión de arquitectura sin perder distinciones técnicas. |
 | P07 | R | Evaluar ayudas visuales; toda figura conceptual se identifica y ninguna frontera inventada se presenta como medida. |
 | P08 | P0/R | Diagnosticar integridad al inicio y reparar con sucesor explícito; conservar historia y verificar navegación/contenido. |
 | P09 | R | Auditar el valor y la afirmación más fuerte de la entrega; registrar límites y distinguir revisión propia de independiente. |
-| P10 | P0 | Definir decisión, alternativas, valor incremental falsable y techo de inversión; puertas de continuar, acotar, reformular o parar. |
+| P10 | P0 | Definir decisión, alternativas, valor incremental falsable y techo de inversión; puertas de continuar, acotar, reformular o parar. **IN_PROGRESS — decisión inicial de continuar/acotar**, [registro](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
 | P11 | P3 | Diseñar el estudio de selección antes de C14: información elegible, referencia independiente, error, coste y particiones. |
 | P12 | P3/R | Comprobar mejora en decisiones o esfuerzo y límites a escala; un oráculo correcto no demuestra utilidad prospectiva del piloto. |
 
@@ -178,5 +178,15 @@ M02 está DONE para construir y comprobar el candidato conjuntivo y sus controle
 Se incluyen las 27 rutas y sus mezclas; el único camino permitido en ambos mundos entrega 3 frente a los óptimos 6. El control con información completa funciona con R=11. Consultar el dato o su certificado permite entregar el óptimo con R=12; con epsilon=3 basta M y R=11. Se conservan estos casos que resuelven el candidato. Esto no demuestra inviabilidad para todas las políticas ni una ventaja de EA o tecnología concreta.
 
 El siguiente trabajo es reconciliar M10/P03 y abrir la revisión dirigida de fuentes/contraejemplos M06 antes de desarrollar M03. M03 deberá cubrir información tras los efectos, certificados de una unidad, caché, decisiones adaptativas y aleatorización; M04 deberá revisar fronteras y controles. Quedan 47 tareas OPEN. La revisión es propia; no sustituye C05/M05 ni la revisión independiente. La fecha UTC real, commit de entrada y límites están en el registro de evidencia.
+
+
+
+### Actualización de ejecución — M10/P03 y revisión inicial
+
+M10 y P03 están DONE para reconciliar el contrato y auditar las medidas. [Resultado, límites y prompt para otro agente](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [Contrato](./M10_RECONCILED_CONTRACT.json) · [Comprobador](./verify_m10_measurements.py) · [35 nuevas comprobaciones](./M10_MEASUREMENT_CHECKS.json) · [Fuentes primarias M06](./M06_PRIMARY_SOURCE_INTAKE.md) · [Evidencia de aceptación/conservación](./M10_RELEASE_CHECKS.json). Se reproducen también las 76 comprobaciones históricas de M02 sin cambios. La revisión es propia, no independiente.
+
+M02 depende de un solo dato global y de precios/revisión fijados. Producir y comprobar el certificado queda incluido explícitamente en su unidad de coste. Con revisión local positiva de 2/3 por paso, consultar y entregar el óptimo cuesta 11; cambiar el prior a 9/10,1/10 permite al control ciego cumplir AVG, pero no WC. Se conservan estos controles en configuraciones distintas. La formulación no justifica un coste de información creciente con L ni una frontera para todas las arquitecturas.
+
+M06/M11/P10 quedan IN_PROGRESS para completar fuentes, ataques al argumento/fronteras y la decisión de valor/inversión. El siguiente trabajo matemático es M03 con el contrato reconciliado; después M04 revisa región, fronteras y controles. C02/C11, oráculo independiente, campañas, tecnologías y selector mantienen sus propios pendientes. Estado global: 4 DONE, 3 IN_PROGRESS, 42 OPEN. Ningún resultado empírico, ventaja de EA ni teorema universal está cerrado por esta actualización.
 
 <!-- R01_BOT_WORKPLAN_END -->
