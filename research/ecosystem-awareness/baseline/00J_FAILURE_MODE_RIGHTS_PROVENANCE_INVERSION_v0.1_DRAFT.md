@@ -12,6 +12,7 @@
 | **Status** | Working draft · fictional candidate scenario · not a benchmark result |
 | **Version · date** | v0.1 Draft · 2026-09-24 |
 | **Owner corpus** | Ecosystem Awareness / Ecosystem Positioning |
+| **Related traceability** | [Panodyssey Theme #17 → challenge map → 00J → UC #21](../fg-tida/cases/PANODYSSEY_THEME17_00J_UC21_TRACEABILITY_WORKING.md) |
 | **Reference industrial case** | [FG-TIDA Theme #17 — Digital Rights Infrastructure for Text: A Production Use Case for Agent Identity](https://github.com/FG-TIDA/themes/issues/17), proposed publicly by Alexandre Leforestier (Panodyssey) |
 | **Canonical requirements basis** | [00 — Canonical Requirements: S1–S14, Sufficiency Conditions, Hypotheses and KPIs](./00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) |
 | **Change-control basis** | [Requirements vNext Review & Delta](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) |
