@@ -185,4 +185,51 @@ Record self-audit as self-audit; independent review is a separate activity.
 Next bot: start at T01, read the current M/C contracts, then assess all three
 candidates. A blocked candidate retains its evidence; justify any replacement
 and apply the same protocol instead of silently removing it.
+
+
+STRATEGIC REVISION AND EXECUTION GATES — 3 October 2026
+Planning revision v0.2; review input: 1e940125a18f468268eff8f029a35c32a5f4ff08.
+Master prompt: ../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md
+Existing T01–T10 and their acceptance criteria remain. Added tasks are OPEN.
+This documentary self-review establishes no new runtime compatibility.
+
+Ordering clarification: qualify all three candidates at T01/T02, then use
+T11 to choose the first implementation on observed accessibility, mapping
+gaps, controllability and estimated total cost. Keep all three candidates
+and their evidence; sequencing does not remove their original deliverables.
+T03/T04 may be staggered. No model-driven T05 before C05/C06/C11/C13 gates.
+T06 waits for the relevant mathematical result only when claiming theorem
+transfer; ordinary scoped behavioral results may be reported while the
+universal proof remains unresolved. Negative mapping evidence is retained.
+T10 is a release-specific pass, repeated for later technologies and claims.
+T12 is required for broader suitability/transfer claims, not to label an
+initial adapter-plumbing release as such.
+
+T11 — OPEN — Rank admission gaps and choose the first bounded integration.
+Depends: T01/T02 and C02; before model-driven integration investment.
+Deliver: one assessment per candidate with pinned access/versions, required
+effect receipts, information isolation, model/policy comparability, cost
+estimates and confidence/unknowns. Choose the least uncertain viable first
+integration and register why. Inaccessible or outside-scope candidates
+retain BLOCKED/rejected dispositions and next actions, not invented access.
+Native tool/state structure can permit simpler tracing, but no framework
+is presumed cheaper, safer or theorem-compatible without this assessment.
+
+T12 — OPEN — Replicate and assess concrete transfer boundaries.
+Depends: T06/T07, C11 and the relevant P11/P12 protocol.
+Deliver: separate held-out runs and sensitivity to relevant versions,
+models/policies, geometry, scale, caching, concurrency and tool latency.
+Distinguish adapter errors, model behavior, runtime overhead and reference
+uncertainty. Do not infer common stochastic laws from equal field names
+or pooled results across frameworks. Define the claimed generalization;
+retain runtime-specific boundaries and narrower admission when necessary.
+
+Recurring review and closure record: owner (UNASSIGNED until accepted),
+actual UTC date, input commit, scope/configuration, evidence/commands,
+outcomes, review disposition, limits and next action. Reopen affected tasks
+when an interface, cost, authority or observation contract materially changes.
+Use the existing OPEN/IN_PROGRESS/BLOCKED/DONE vocabulary and the SAME shared
+discovery label. Fixture, campaign, theorem-transfer and historical-cause
+claims remain distinct. This update does not close T01–T12.
+
 <!-- R01_BOT_WORKPLAN_END -->

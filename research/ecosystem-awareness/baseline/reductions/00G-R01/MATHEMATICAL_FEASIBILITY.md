@@ -62,4 +62,23 @@ All tasks below are OPEN. Execute M01–M06 in order; M07–M09 are mandatory cl
 | M09 | Preserve and release after M01–M08. | Diff showing no unintended removal, valid links/anchors, preserved prior task IDs and results, scoped hash report, and final adversarial self-audit. Record unresolved package-audit issues; do not overwrite historical manifests. Obtain independent review separately before calling it independent. |
 
 Next bot starts at M01. A negative finding changes the claim, not the evidence.
+
+
+### Strategic revision and execution gates — 3 October 2026
+
+Planning revision v0.2; review against commit `1e940125a18f468268eff8f029a35c32a5f4ff08`. This is a documentary self-review, not a mathematical validation or independent review. Read the [master execution prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) for priorities, the complete task register and release gates. Existing IDs and acceptance criteria remain in force. New tasks are OPEN. A documentary revision does not close an implementation, proof or empirical task.
+
+**Scheduling clarification:** reviews are recurring passes, not a reason to defer source checks, counterexamples or preservation until the end. Start P08/C01 baseline triage, M01/P03/P10 scope and measurement, and the minimum relevant P01/P02/M06 source-and-counterexample review together. Later passes complete their original criteria. Keep mathematical region proof, neutral evaluator implementation, base campaign, technology admission and prospective architecture selection as separate outputs. A rejected mathematical candidate does not block a neutral evaluator or a clearly scoped experiment.
+
+**Shared closure record:** task ID/status, owner, actual UTC date, input commit, exact scope, assumptions, evidence paths, commands and outcomes, review disposition, residual limits and next action. No assigned owner is invented: use UNASSIGNED until responsibility is accepted. Different tasks may reference one evidence artifact, but retain their own acceptance decisions. Reopen affected tasks when a material contract changes. Independent review is desirable evidence, not a prerequisite for starting authorized internal work; self-review must retain its label.
+
+**Mathematical ordering:** begin the source/counterexample intake of M06 before substantial M03 proof work; its final adversarial pass remains after the candidate and witnesses. M10 freezes the success/observation contract before M03. M11 challenges the candidate while M03/M04 are developed, before M04 is closed. M05 uses C05's independently checked finite reference. M09 closes a mathematical release only after M10/M11 and M01–M08 have evidence.
+
+| Added ID / status | Dependency and activity | Evidence needed to close |
+|---|---|---|
+| M10 — OPEN | After M01 with P03/P10, reconcile quantifiers, observation and risk semantics before M03. | One contract for existential feasible vs universal infeasible claims; world/policy/randomness quantifier order; e/a/f, p_min, delta and epsilon consistency; sigma/available-history definition including legitimate prior knowledge; whether finite event/query caps narrow the claim. Distinguish epistemic unresolved from a third logical region. A finite campaign failure never establishes universal infeasibility. |
+| M11 — OPEN | After M02, challenge M03/M04 candidate bounds and frontier robustness. | Boundary/equality and degenerate cases; dominant safe routes; sufficient certificates, pooled/cache information, early stopping and asymmetric priors; matching lower and constructive upper bounds where available; sensitivity to costs, benefit tolerances and observation rules. Record dependence on the generator/distribution and retain failed or empty-region outcomes. A symbolic counterexample narrows the claim instead of being excluded to manufacture a frontier. |
+
+**Scope-changing counterexample rule:** preserve the old statement and version, identify the broken assumption, revise M01/M10, and rerun affected executable witnesses. A failed proof is a recorded outcome, not permission to claim an empirical bound as a universal theorem.
+
 <!-- R01_BOT_WORKPLAN_END -->
