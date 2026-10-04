@@ -68,10 +68,10 @@ Part 1 explains the question and how to recognize a valid answer. Part 2 allows 
 Design assumptions, hypotheses and documented facts have distinct roles. Sources are identified as REF01–REF12; SC-H designates the local hypothesis, separate from H1–H6 and EA-H1–EA-H4 in the corpus. Diagrams are conceptual and the numerical example concerns accounting. Generator tests are requirements to be implemented.
 
 <a id="1-el-problema-estructural"></a>
-# 1 The structural problem
+## 1 The structural problem
 
 <a id="11-el-ámbito-de-aplicación-de-una-arquitectura"></a>
-## 1.1 An architecture's scope of application
+### 1.1 An architecture's scope of application
 
 Architecture choice depends on the problem and available resources. Knowing where it works well matters as much as recognizing where another procedure is preferable. That is the origin of this work: delimiting a scope of application.
 
@@ -82,7 +82,7 @@ The wider question applies to computing architectures generally: which problems 
 Imagine a long task with a known procedure. A participant finds a segment that better resolves the immediate objective and shares it. Their peers check parts of the route and also find it useful. The difficulty is knowing whether, when those segments fit together, the whole remains within the original assignment. There may be an excellent permitted alternative, another attractive but forbidden one and a lower-value known route. Discovering and distinguishing them costs resources. The experiment converts that situation into observable decisions and verifiable charges.
 
 <a id="12-dos-áreas-y-un-trilema"></a>
-## 1.2 Two areas and a trilemma
+### 1.2 Two areas and a trilemma
 
 The effective area comprises configurations where some competent strategy reaches required legitimate quality with sufficient reliability, cost and timing. In the observed unfavorable area, no strategy of the evaluated family satisfies those conditions. The trilemma helps describe what fails:
 
@@ -101,11 +101,11 @@ If some strategy satisfies those conditions, there is evidence of effectiveness 
 The candidate mechanism is that observing local benefit is easier than establishing admissibility of the entire chain. More alternatives may require more checks. Sharing evidence may reduce them; repeating dependent confirmations may increase confidence without adding coverage. §2.18 separates these possibilities into secondary contrasts.
 
 <a id="r01-conditioned-mathematical-validation"></a>
-### The conditioned trilemma and its mathematical validation
+#### The conditioned trilemma and its mathematical validation
 
 R01 asks whether a task can be completed with sufficient legitimate quality, within an acceptable cost and with no more risk than the process admits. A **conditioned trilemma** occurs when each pair of those requirements can be met, using the same thresholds and execution conditions, but no admitted strategy can meet all three together. A failed strategy is insufficient evidence: the mathematical claim concerns every strategy permitted by the declared configuration.
 
-#### Three families of variables
+##### Three families of variables
 
 R01 separates **acceptance policies**, **problem parameters** and **technology variables**. They answer different questions: what the process will accept, what problem must be solved, and what means are available to solve it.
 
@@ -134,7 +134,7 @@ The technological conclusion stays open. **Partial resolution** means that previ
 
 Here **acceptance policy** means the thresholds the process sets. **Execution strategy** π is the readable name for the existing execution policy in the mathematical document: a rule for choosing actions from available information. Several such strategies may be tested or bounded under the same acceptance policy. Uppercase P denotes the forbidden route; lowercase p denotes the required probability of legitimate success.
 
-#### The three acceptance requirements
+##### The three acceptance requirements
 
 An evaluated scenario records the complete operating configuration θ together with the separately applied acceptance thresholds b, δ and p. The following table gives their precise meaning:
 
@@ -146,13 +146,13 @@ An evaluated scenario records the complete operating configuration θ together w
 
 Validation cost is itemized within the total; it is not silently substituted for the total-cost constraint. A separate validation-only cap, if a later scenario requires one, must be named and tracked separately. Quality tolerance ε and deadline T remain part of the declared configuration. Risk is measured per campaign, not as the percentage of agents choosing the evaluator's forbidden route P. The physical execution cap B, corresponding to R in the scenario, must also be respected. The economic target b≤B is a separate constraint: a more costly control may establish what is physically achievable without satisfying the low-cost target. If a frozen scenario has B=b, that control is unavailable in that scenario.
 
-#### Why the result is conditioned
+##### Why the result is conditioned
 
 The result does not say that every R01 configuration is impossible. Its general information-cut theorem applies throughout the complete R01 domain **when its explicit hypotheses hold**: sufficient delivery requires a critical decision; resolving it before acting would exceed the low-cost target; and the entire legitimate information available to the group still bounds the probability of a correct unresolved choice. That last condition includes observations, deductions, memory, messages and certificates. It is a condition to prove for the configuration, not an assumed weakness of a selected algorithm.
 
 Under those hypotheses, let α be the upper bound on the probability of a correct unresolved choice (called a in the mathematical document, distinct from the completion measure a in §1.4). Every low-cost strategy then satisfies s≤α and r≥[(1−α)/α]s. Consequently, achieving s≥p requires accepting risk of at least p(1−α)/α. If δ is smaller, the three requirements cannot be met together. The proof must additionally exhibit strategies meeting each pair before calling that incompatibility a trilemma.
 
-#### Viability regions and consequences
+##### Viability regions and consequences
 
 An evaluated scenario (θ,b,δ,p) is **viable under its acceptance policies** if at least one permitted execution strategy meets all three requirements. Its performance then reaches the accepted region. The scenario lies in the **trilemma region** if the cost–risk, cost–efficacy and risk–efficacy pairs are each attainable, but the triple is unattainable. A scenario where even one pair cannot be met is outside both of those categories. These distinctions prevent any unsuccessful run from being presented as proof of the trilemma.
 
@@ -160,14 +160,14 @@ Changing an acceptance threshold can change viability while leaving the task and
 
 Acquiring sufficient information can also make a scenario viable under its acceptance policies if its full cost and timing fit the targets. The viable region is therefore part of the result, alongside the demonstrated trilemma region. A larger viable region is a positive outcome. The exact frontier depends on the configuration: the numerical frontier proved for the constructed family is not a formula imposed on every R01 interface.
 
-#### The independent mathematical reference
+##### The independent mathematical reference
 
 The separate [**Mathematical validation of the conditioned trilemma**](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) is the canonical reference for definitions, quantifiers, hypotheses, proofs, pairwise controls and the constructed family's exact boundaries. This section explains their meaning; it does not replace that document or modify frozen experimental parameters.
 
 SC-H above retains its empirical scope over the finite evaluated strategy family. The mathematical document proves an all-strategy result under declared conditions; it does not report an executed campaign, the frequency of difficult configurations in deployments or transfer to a particular technology. [The existing audit and repairs](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) and [the coverage register](./feasibility/WORKPLAN_STATUS.json) preserve prior review evidence and identify remaining checks by version and proposition. Applied technologies and their extension protocol belong to the next, separate phase.
 
 <a id="13-qué-pueden-resolver-las-mejoras"></a>
-## 1.3 What improvements may resolve
+### 1.3 What improvements may resolve
 
 Memory may avoid unnecessary search: if the system already knows the pattern and has applicable evidence, it may directly recognize the good or forbidden alternative. The experiment must allow that learning and charge its acquisition and maintenance. The question remains open for situations not yet resolved by available information; being new does not make them impossible to generalize.
 
@@ -178,7 +178,7 @@ The thesis is to measure whether an unfavorable region remains and how far syste
 The guiding position is that an architecture, including its add-ons, has a scope of effectiveness rather than being a panacea. Both favorable and unfavorable areas must therefore be investigated for each architecture. Their continued existence across problems and resource conditions is the broader thesis to examine; it is not a theorem supplied by this finite experiment. A chosen grid may show only one area, or leave the other unresolved, without justifying a universal conclusion.
 
 <a id="14-evaluación-y-referencia-convencional"></a>
-## 1.4 Evaluation and conventional reference
+### 1.4 Evaluation and conventional reference
 
 The evaluator calculates the maximum J among complete admissible trajectories. The scenario fixes tolerance ε relative to that optimum; ε = 0 requires reaching it exactly, and delivery must respect deadline T. The acceptance policy fixes economic cost target b, maximum campaign risk δ and minimum legitimate-success probability p before observing results. The technology description records the capabilities, accessible information, charges and timing under which execution strategies are evaluated. Risk is the probability of at least one executed violation in a campaign, not the percentage of agents choosing P. Raising δ changes acceptance without changing obligations or recorded violations; detected prohibitions remain rejected under §2.7. Existing fixtures and numerical thresholds are retained. Cases whose uncertainty prevents a decision remain unclassified.
 
@@ -211,7 +211,7 @@ Minimum completion is a requirement. Abstention retains its costs and does not s
 **Uncertainty.** Independent worlds, repetitions, events and estimates are published. Rates use declared intervals; inference retains grouping of repetitions by world. Zero observed violations requires an upper risk bound, not a claim of zero risk. Quality and cost are compared in paired form; dominance and regional classification require margins and multiplicity control. A nonsignificant difference does not prove equivalence. Censored latency is reported alongside completion and curves up to T. Target precision, sample and thresholds are fixed in the protocol.
 
 <a id="15-qué-demostraría-el-escenario"></a>
-## 1.5 What the scenario would demonstrate
+### 1.5 What the scenario would demonstrate
 
 The sought outcome is an effectiveness map for the evaluated family, with quality, cost, time, admissibility and trilemma modes. Its boundary may change with parameters and strategies. Comparing areas retains the same problem grid or distribution and its weights; adding easy cases does not demonstrate improvement.
 
@@ -224,7 +224,7 @@ An impossibility within a class would require justifying that every admissible s
 We thus separate the cost of acquiring indispensable information from that of repeating work due to context loss, poor organization or expiry. The former may be inherent to the problem; the latter may be reduced by design. This distinction guides EA's candidacy and other techniques.
 
 <a id="16-controles-presupuesto-y-elección-de-arquitectura"></a>
-## 1.6 Controls, budget and architecture choice
+### 1.6 Controls, budget and architecture choice
 
 Avoiding an action lacking integrity and solving a task well at reasonable cost are distinct achievements. A control may block an alternative and leave the task unresolved, or achieve both through a cheap check. Evaluation must recognize both possibilities.
 
@@ -233,7 +233,7 @@ In an unfavorable configuration, limiting budget may lead to retaining a mediocr
 The practical decision starts from necessary quality, obligations and acceptable cost and timing. It then compares exploring more, validating better, reducing scope, combining methods or not delegating. Guardrails are part of the architecture and pay their real costs. Suitability is evaluated with them active.
 
 <a id="17-cómo-detectar-el-área-y-qué-aporta-la-supervisión-humana"></a>
-## 1.7 How to detect the area and what human oversight contributes
+### 1.7 How to detect the area and what human oversight contributes
 
 Recognizing afterward that a task proved difficult does not always allow knowing before delegation which architecture is suitable. The evaluator knows branch distances and the optimum; the agent and supervisor do not receive that information for free. Asking the human to choose the correct route may return the problem that motivated delegation to them.
 
@@ -246,7 +246,7 @@ There is a precise limit. If two worlds offer exactly the same information to pr
 That distinction concerns experimental stages, not a secondary purpose for R01. The first campaign establishes controlled outcome evidence; the later selection stage asks how much of it can be anticipated from limited probes. Human responsibility for choosing an architecture does not supply the missing knowledge. If the human relies on the candidate architecture to diagnose its own suitability, that diagnosis needs checks against independently judged outcomes and competent alternatives; an unsupported recommendation is insufficient. Additional human information and review are legitimate inputs, with their costs recorded.
 
 <a id="bounded-pilots-for-architecture-selection"></a>
-### Bounded pilots for architecture selection
+#### Bounded pilots for architecture selection
 
 1. **Define an adequate solution.** Fix the task, permissions, quality tolerance, reliability, total budget and deadline before testing. Record the architecture, strategies and R01 compatibility being evaluated.
 2. **Construct a small test with the relevant difficulty.** Include permitted improvements, attractive inadmissible alternatives, incomplete evidence and cases where applicable checks resolve uncertainty. Record which real dependencies and conditions the pilot represents and which it omits.
@@ -257,7 +257,7 @@ That distinction concerns experimental stages, not a secondary purpose for R01. 
 The pilot is therefore a limited decision aid: it can reveal reasons to proceed, change architecture, reduce scope or gather more evidence. Its own diagnostic cost and error matter. Neither a favorable small run nor human approval certifies all later configurations.
 
 <a id="18-notación-de-lectura"></a>
-## 1.8 Reading notation
+### 1.8 Reading notation
 
 | Symbol | Meaning |
 |---|---|
@@ -278,10 +278,10 @@ The pilot is therefore a limited decision aid: it can reveal reasons to proceed,
 Symbols are not information automatically accessible to the strategy: knowing its search parameters does not imply knowing the map, I or the global verdict.
 
 <a id="2-el-escenario-y-sus-configuraciones"></a>
-# 2 The scenario and its configurations
+## 2 The scenario and its configurations
 
 <a id="21-tarea-y-trayectorias-de-referencia-etiquetadas"></a>
-## 2.1 Task and labeled reference trajectories
+### 2.1 Task and labeled reference trajectories
 
 The task has an origin, a final result, a sequence of L steps and a binding obligation established by a principal. The world defines which actions and resources are permitted for a fixed mission. The scenario does not include social redefinition of mission, role or authority. The evaluator retains that truth; each agent accesses only information it observes, queries or receives.
 
@@ -302,7 +302,7 @@ Generators may condition worlds on declared benefit profiles. This is controlled
 **Attractiveness of P.** It is described by generator factors and observable statistics, not the choice frequency to be obtained. In a higher-mean-benefit condition, P's realized mean must exceed I's by the declared margin; the proportion of comparable positions where its local reward is greater is also reported. The order may reverse in a segment. Cost-adjusted or random selection need not prefer P. P is thus not forced always to be the first candidate.
 
 <a id="22-tramos-y-relaciones-entre-ellos"></a>
-## 2.2 Segments and relations between them
+### 2.2 Segments and relations between them
 
 Each segment contains an action, local benefit and references to its continuations and predecessors. It does not freely contain the complete trajectory determination. Knowing the current action may allow technical functionality to be checked without reconstructing its relation to origin, destination, mandate and all relevant dependencies.
 
@@ -311,7 +311,7 @@ The basic representation is one chain per route. If an agent finds an alternativ
 The generator must declare whether routes may be left and resumed, which segments they share and which connections exist. The basic case maintains L comparable positions; variants of different length require accounting for additional steps. Connectivity is not adjusted after observing an execution's result.
 
 <a id="23-beneficios-heterogéneos-con-promedio-fijado"></a>
-## 2.3 Heterogeneous benefits with fixed average
+### 2.3 Heterogeneous benefits with fixed average
 
 A mean benefit profile per segment is fixed for each generative chain. Individual values vary randomly around it. A route may contain an extraordinary opportunity alongside modest steps, preserving its average and, for fixed length, its total local benefit.
 
@@ -327,7 +327,7 @@ A segment's value belongs to the world and is not resampled per observer. Observ
 Fixed means correspond to generated chains; a subsequent mixture has its own mean. Connectors have declared benefit and cost. A variant with J(π) = Σ b(a) + g(π) must fix g before the trial: it represents technical composition effects and never hides or compensates for a prohibition. Computational costs are recorded outside J to avoid double charging.
 
 <a id="24-proximidad-y-radio-creativo"></a>
-## 2.4 Proximity and creative radius
+### 2.4 Proximity and creative radius
 
 Each alternative segment has a distance from its canonical reference position. That distance fluctuates around a route-specific average. Profiles may contain near and distant areas, with declared dispersion and spatial correlation. No uniform separation is imposed on all segments.
 
@@ -340,7 +340,7 @@ Creativity is represented mainly through search radius R_e. An agent with radius
 Search does not receive all map candidates for free. The cost of examining a position or discovering a candidate and the radius traversal strategy are declared. If budget limits search, only actually observed alternatives are compared. Additional sampling, random tie-breaking or directional preference must be recorded separately.
 
 <a id="25-agentes-y-colaboración"></a>
-## 2.5 Agents and collaboration
+### 2.5 Agents and collaboration
 
 There are N agents, each with a task, position, observation memory, own checks, received messages and available budget. They may contribute to one task or multiple tasks with shared dependencies; the campaign must choose and declare that unit. The value of one duplicated collective result is not multiplied by N.
 
@@ -349,7 +349,7 @@ Social topology defines who may send information to whom. The reference case kee
 Agents retain memory between steps. Valid evidence remains current between rounds until an applicability condition changes. Previous checks may be reused when their scope, recipient and conditions still apply. Building, updating and querying that memory have costs.
 
 <a id="26-información-que-recibe-cada-componente"></a>
-## 2.6 Information received by each component
+### 2.6 Information received by each component
 
 | Component | Available information | Information not received for free |
 |---|---|---|
@@ -375,7 +375,7 @@ This separation avoids the generator placing a violation using private informati
 An API actually resolving all admissibility is declared as such, with equivalent information, cost and controls for all. It is allowed to eliminate the difficulty; it is neither disguised as a local query nor forbidden to preserve the negative result.
 
 <a id="27-secuencia-de-decisión"></a>
-## 2.7 Decision sequence
+### 2.7 Decision sequence
 
 The finding is compared before committing the action. Own review retains its place even with other participants' reports. The figure summarizes the cycle; steps specify its outputs.
 
@@ -398,7 +398,7 @@ CV-A0 has three selection variants: CV-A0-B orders by local benefit, CV-A0-C by 
 The strategy must define tie-breaking, waiting, rejection, exhaustion and retries. Those rules are not left to a subsequent decision knowing the global outcome. An agent may follow the canonical route, postpone or fail to complete the task. It is not forced to execute P to obtain a negative.
 
 <a id="28-validación-convencional-hacia-atrás-y-hacia-delante"></a>
-## 2.8 Conventional backward and forward validation
+### 2.8 Conventional backward and forward validation
 
 The own window inspects k_a previous and k_d subsequent steps relevant to the proposal. It does not execute future actions. It examines their links, conditions, foreseeable consequences and compatibility with available information. It does not know future world changes not announced or queryable.
 
@@ -409,7 +409,7 @@ Verification yields three output classes: detected incompatibility; completed re
 The requested receiver respects a denial it detects. The candidate vulnerability arises when covered information is compatible with the local decision but does not determine a decisive global relation. Agent rationality is understood relative to its information and choice rule; global optimality of that strategy has not been proved.
 
 <a id="29-cómo-puede-haber-una-infracción-de-composición"></a>
-## 2.9 How a composition violation may occur
+### 2.9 How a composition violation may occur
 
 To sustain an informational limit, two worlds must be constructed agreeing on the strategy's entire accessible view—observations, rewards, memory, messages and summaries—and having opposite global verdicts. Merely clipping a chain is insufficient. This obligation applies to cases presented as indistinguishable, not any search failure. That indistinguishability within the declared view explains why repeating the same local review does not by itself provide missing information.
 
@@ -436,7 +436,7 @@ With r_inv = 1, c_v · (L + 1)/2 is obtained; as r_inv tends to zero, cost tends
 Once all information is obtained, parity admits an incremental summary. The comparator may maintain and update it. Requiring full recalculation at every step would manufacture unnecessary cost. The same holds for certificates, dependency summaries and shared checks when sufficient and applicable.
 
 <a id="210-señalización-y-validación-social"></a>
-## 2.10 Signaling and social validation
+### 2.10 Signaling and social validation
 
 Social influence in the scenario is epistemic: it modifies expectations, search or confidence in facts; it neither creates permissions nor changes the mission. An authority claim is checked against the applicable principal and mandate. The record distinguishes alleged authority, applicable authority and reason for acceptance.
 
@@ -455,7 +455,7 @@ Collective diffusion or adoption transition is measured without imposing a magic
 Diffusion may favor I or P. It is neither premise, detector, differential proof nor selection criterion of the EA contrast [REF10]. Coverage is the union of relations backed by applicable evidence, with its lineage; counting messages or sources does not equal counting new coverage.
 
 <a id="211-coste-de-exploración-y-coste-de-revisión"></a>
-## 2.11 Exploration cost and review cost
+### 2.11 Exploration cost and review cost
 
 Comparable cost units are stipulated. The base regime retains the agreed condition: verifying a comparable step costs less than exploring it. This is a scenario assumption, not a law about real systems. Sensitivity to ρ = c_v/c_e near or above one is reported as a separate regime; occurrence of the phenomenon only within one domain limits its scope, not the validity of studying that domain. Geometric search, relation checking and material execution may have distinct charges, which are not confused.
 
@@ -484,7 +484,7 @@ The complete process is charged, including discarded candidates and retries. Att
 The cost ledger records what was actually inspected. If a shared prefix exists and its check still applies, reuse is admitted. If two agents have different mandates or versions, sharing a result requires checking that applicability. N complete reviews are not required when one shared proof suffices.
 
 <a id="212-presupuesto-y-plazo"></a>
-## 2.12 Budget and deadline
+### 2.12 Budget and deadline
 
 Total budget R and horizon T are fixed scenario constraints. R corresponds to the physical capacity B in the mathematical validation; the acceptance policy's economic target b≤B is separate. A risk–efficacy control may exceed b while remaining within B; if a frozen scenario has B=b, that more costly control is unavailable in that scenario. This distinction changes no frozen cap or allocation. Under the declared technology and execution strategy, after reserving or accounting for execution work, discretionary budget is allocated between exploration and validation. Fraction v corresponds to validation and the remaining fraction to exploration.
 
@@ -496,7 +496,7 @@ The sum of all charges respects R. Communication does not disappear into a cost-
 Aggregate cost, cost per legitimate result and latency are reported. Parallelizing may reduce time without reducing total work. Increasing N with per-agent budget fixed increases total resources; increasing it with fixed R studies another question. These are two experiments: fixed per-agent budget and fixed global budget. They have separate primary curves and tables, with their allocation rule published.
 
 <a id="213-inventario-de-configuración"></a>
-## 2.13 Configuration inventory
+### 2.13 Configuration inventory
 
 | Family | Group | Parameters to declare |
 |---|---|---|
@@ -522,7 +522,7 @@ This inventory separates the three families without removing the existing parame
 Benefit and geometry parameters are not resampled during review. Policy contrasts preserve the same world and couple relevant randomness. Subsequent conversations may diverge because decisions change; this is part of the studied effect.
 
 <a id="214-familias-de-configuración-que-interesa-distinguir"></a>
-## 2.14 Configuration families to distinguish
+### 2.14 Configuration families to distinguish
 
 | Candidate configuration | Question it poses |
 |---|---|
@@ -538,7 +538,7 @@ Benefit and geometry parameters are not resampled during review. Policy contrast
 These are questions, not mandatory expected results. The static variant suffices to study a composition cost. The dynamic variant adds changes of participants, dependencies or currency; only it directly studies that temporal pressure.
 
 <a id="215-familia-de-políticas-y-controles"></a>
-## 2.15 Execution strategies and controls
+### 2.15 Execution strategies and controls
 
 The following finite family defines local execution-strategy arms, not the acceptance thresholds of §1.2. Each instance must freeze code or rules, parameters, accessible observation, memory, order, depth, communication, resource allocation, abstention, retries and tie-breaking within its declared technology interface. A description such as “adaptive” is insufficient for execution or a bound on all adaptive strategies.
 
@@ -564,7 +564,7 @@ The campaign distinguishes per-agent and global budget. Primary contrasts, held-
 Subsequent campaigns study mixed predicates, heterogeneous costs, temporal changes, other networks, per-agent budget, prior detection and EA. The §2.13 inventory retains all parameters, but does not require crossing them all initially. Radius contrasts retain review and communication rules; review contrasts may use a replayed candidate list to isolate that component. Changing the predicate defines another world and is analyzed as another block, not a mere validation improvement.
 
 <a id="216-qué-debe-registrar-una-trayectoria-auditable"></a>
-## 2.16 What an auditable trajectory must record
+### 2.16 What an auditable trajectory must record
 
 Each decision retains receiver identity and task; position and version; available and explored candidates; observed benefits; budget before and after; review scope and result; actually received messages with lineage; chosen alternative; reason; commitment; attempt; effect; and global outcome adjudicated by the environment.
 
@@ -585,7 +585,7 @@ Metrics include proportions of M, I, intermediate admissible improvements, P and
 These stages may accumulate. The record locates where the possibility was lost; attributing its cause to a component requires §2.18 paired contrasts. Subsequent diagnosis does not give I to the strategy during execution.
 
 <a id="217-estados-y-requisitos-verificables-antes-de-ejecutar"></a>
-## 2.17 States and verifiable requirements before execution
+### 2.17 States and verifiable requirements before execution
 
 | State and transition | Precondition and output | Charge and reversal |
 |---|---|---|
@@ -615,7 +615,7 @@ A diagnostic classifier may detect leaks but does not prove their absence. Pure 
 The campaign is not frozen until distributions, connections, concrete rules of each arm, grid, seeds, deadlines and analysis are fixed. Favorable, unfavorable and uncertain results are preserved. Earlier trials, evaluators and controls remain in their domain; they are not renamed as executions of this scenario.
 
 <a id="218-contrastes-de-los-mecanismos-propuestos"></a>
-## 2.18 Contrasts of proposed mechanisms
+### 2.18 Contrasts of proposed mechanisms
 
 Secondary hypotheses are tested per independent world or campaign, with paired seeds. The following directions are predictions that may not be observed, not properties imposed on the generator.
 
@@ -630,7 +630,7 @@ Secondary hypotheses are tested per independent world or campaign, with paired s
 SC-Ha does not predict a monotonic effect for all distributions: it depends on selection criterion. SC-Hb does not equate greater overlap with greater cost; overlap may precisely allow savings. Minimum relevant magnitude and intervals are recorded; lack of precision is not presented as refutation.
 
 <a id="reductions-and-extensions"></a>
-# 3 Reductions and extensions
+## 3 Reductions and extensions
 
 The base scenario above can be understood and specified independently of any incident. Its documented reduction and the three extensions are indexed here; each case's evidence is explained in its own document.
 
@@ -641,13 +641,13 @@ If an R01 failure does not appear, or its assumptions do not fit a historical ep
 
 The practical use is to test compatible mechanisms in bounded pilots, with the scope and limits in §1.7. Exact historical reconstruction is a different claim requiring its own evidence. [Common scope and evidence rule](./extensions/CRITERIA_AND_AUDIT.md#historical-and-constructed-scope).
 
-## Reductions
+### Reductions
 
 | Documented reduction | What is simplified and retained | Explanation and proof status |
 |---|---|---|
 | 00G to R01 | Remove the particular narrative; retain the obligation, received interpretation, source dependencies, authority and decision in the candidate social subfamily. | [Reduction document](./reductions/00G-to-R01/README.md). Candidate relation under review; it does not classify every R01 configuration as a 00G instance. |
 
-## Extensions
+### Extensions
 
 | Extension | The problem in words | Complete case document |
 |---|---|---|
@@ -669,10 +669,10 @@ The three documents use the same reading sequence and evidence criteria. The mix
 [The former case chapter is retained in its extension](./extensions/hugging-face/README.md#original-r01-case-chapter).
 
 <a id="4-apéndice-sobre-ecosystem-awareness-como-candidata"></a>
-# 4 Appendix on Ecosystem Awareness as a candidate
+## 4 Appendix on Ecosystem Awareness as a candidate
 
 <a id="41-la-contribución-que-merece-investigarse"></a>
-## 4.1 The contribution worth investigating
+### 4.1 The contribution worth investigating
 
 Ecosystem Awareness is proposed here as a family of complementary functions whose implementation remains to be specified for this experiment. Its candidacy draws on two notes linked from Ecosystem Positioning: [00M on A/B/C/D and mathematical plausibility](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) and [00N on functional plausibility](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) [REF11–REF12]. 00M §1 fixes canonical vocabulary; the plausibility argument remains a research proposal.
 
@@ -696,7 +696,7 @@ These components are semantic roles, distinct from experiment symbols and arm na
 00N connects that preservation with existing requirements and hypotheses and proposes jointly checking utility, timeliness and load [REF12, §§3–4]. That is the bridge to the experiment: measuring whether preserving those distinctions recovers effective configurations after charging their production, interpretation, transmission and maintenance. EA creates no authority or eliminates indispensable information; a conventional control doing the same may tie or improve its result.
 
 <a id="42-correspondencia-con-las-hipótesis-generales"></a>
-## 4.2 Correspondence with general hypotheses
+### 4.2 Correspondence with general hypotheses
 
 Hypotheses H1–H6 come from the canonical requirements and hypotheses document [REF07, §4]. Their possible relevance is summarized here; they are not rewritten and no new canonical hypotheses created.
 
@@ -712,7 +712,7 @@ Hypotheses H1–H6 come from the canonical requirements and hypotheses document 
 A long static chain does not prove H5. Likewise, recording residue does not verify H1 or H2 if the strategy ignores it or stops the whole task. Hypotheses are tested over decisions, effects, continuity and load.
 
 <a id="43-matriz-de-las-hipótesis-diferenciales-de-ea"></a>
-## 4.3 EA differential hypothesis matrix
+### 4.3 EA differential hypothesis matrix
 
 The current differential formulation is integrated into canonical benchmark 00D [REF08, §6]. Names EA-H1 to EA-H4 differ from H1–H6. Previous document 07 remains earlier work, not a parallel source that should prevail.
 
@@ -728,7 +728,7 @@ In EA-H3, operational posture distinguishes normal operation, containment and mi
 The matrix does not assume EA has privileged evaluator access. Its window strategy must use observable signals before deciding; it cannot know the decisive segment's location in advance. Control equivalence must be reviewed by effective capabilities, not just names.
 
 <a id="44-pequeña-comprobación-analítica-de-un-ahorro-posible"></a>
-## 4.4 Small analytical check of possible savings
+### 4.4 Small analytical check of possible savings
 
 This example is an accounting construction, not an EA execution or measurement. It shows a sufficient condition for savings through applicable reuse.
 
@@ -765,14 +765,14 @@ Savings thus exist when avoided duplicated work exceeds overhead dependent on N 
 A conventional control with certificates, cache or incremental verification preserving the same validity and applicability may obtain exactly the same savings. This example does not discriminate EA-H4: it illustrates the potential value of a function shared by different techniques. Not every cache automatically has those properties or lower costs; comparison must check them. Testing EA-H4 requires measuring whether qualification is preserved when evidence transfers and whether only affected assumptions reopen, against a conventional control capable of both.
 
 <a id="45-controles-donde-no-habría-ventaja"></a>
-## 4.5 Controls where there would be no advantage
+### 4.5 Controls where there would be no advantage
 
 Without common links, S = 0. Necessary review still costs 400 and the active mechanism adds H = 4 + 4 × 2 = 12. Validation costs 412; retaining the same 80 exploration units stipulated for both arms, total is 492. Hypothetical benefit minus cost is −192, versus −180 without that mechanism. If exploration changes, its charge is replaced in both totals. If a competent strategy disables management upon detecting no shareable evidence, the saving is recognized.
 
 Advantage may also disappear if evidence expires before use, mandates are incompatible or no sufficient summary exists. A conventional barrier already resolving the case cheaply and promptly may leave little improvement margin. The unfavorable area may shrink, remain or expand: all three possibilities are valid comparison outcomes.
 
 <a id="46-cómo-contrastar-la-candidatura-con-otras-técnicas"></a>
-## 4.6 How to test the candidacy against other techniques
+### 4.6 How to test the candidacy against other techniques
 
 The first contrast delimits the problem without EA: same world family and resources, exploration and competent conventional controls, with legitimate quality, cost and deadline. Favorable and unfavorable regions are mapped before interpreting a particular solution.
 
@@ -785,7 +785,7 @@ Ablations separate scope preservation, lineage retention, window requalification
 Favorable evidence is admitted only if the contribution survives that comparison and held-out configurations. A tie with lower comparator complexity, or an improvement disappearing when overhead is counted, limits candidacy. The earlier paired design [REF10] provides comparative discipline; its parameters are not imported as results of the new scenario.
 
 <a id="47-qué-queda-fijado-y-qué-queda-por-medir"></a>
-## 4.7 What is fixed and what remains to measure
+### 4.7 What is fixed and what remains to measure
 
 The object is fixed: delimit where the admissible optimum is reached at reasonable cost and where the trilemma—lacking integrity, inefficient or mediocre—appears, additionally distinguishing advantage over a conventional procedure. EA is a candidate to expand the first region; the study must measure it, not promise it. The three labeled reference trajectories, segment heterogeneity, creative radius, own review, signaling and accounting and traceability conditions are fixed.
 
@@ -796,7 +796,7 @@ The present deliverable is a non-canonical research specification. It does not c
 Its practical destination is a reproducible small-pilot method for architecture selection, with explicit uncertainty and scale limits. The present specification supplies the controlled scenario and required observations; it does not yet supply an executed pilot, a validated prior selector or a demonstrated improvement from EA. The next implementation must connect those observations to the bounded decisions in §1.7 without treating the existing extension checks as evidence of deployment suitability.
 
 <a id="48-fuentes-y-localizadores-de-auditoría"></a>
-## 4.8 Sources and audit locators
+### 4.8 Sources and audit locators
 
 Internal sources are pinned to commits to preserve consulted content. REF01–REF04, REF07–REF08 and REF10 retain the previous design revision; REF09 fixes its history and REF11–REF12 incorporate the 2 October plausibility notes. Public sources consulted: 2 October 2026. H1–H6 and EA-H1–EA-H4 descriptions are paraphrases of their documents; the canonical source prevails to resolve differences.
 
@@ -824,10 +824,10 @@ Internal sources are pinned to commits to preserve consulted content. REF01–RE
 **REF12 Functional plausibility.** [00N v0.7 Can Ecosystem Awareness Work](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). §1.4, correspondence between need and evaluation capability; §§3.3–3.5, challenges, requirements and hypotheses; §§3.6–3.7, bounded composition and limits; §4, pending conditions. Both notes can be found from the [Ecosystem Positioning README](https://github.com/dakleyer/structural-awareness-contributions/blob/135d8ff8b2d953270426f5cda0e77402ed0f81e7/architectural-contributions/ecosystem-positioning/README.md), whose navigation is retained.
 
 <a id="49-registro-de-versiones-y-estado-del-documento"></a>
-## 4.9 Version record and document status
+### 4.9 Version record and document status
 
 Earlier local versions are retained outside this published package as a work record. v0.4 fixed the explanatory thread; v0.5 clarified the relationship with 00G, metrics, comparators and controls. v0.6 unifies SC-H, separates success and completion, adds stage diagnosis and 00M and 00N plausibility references. Editing reduces repetition and adds two conceptual diagrams.
 
-## Reading organization record
+### Reading organization record
 
 On 3 October 2026, the complete former case chapter 3 and its incident sources moved to the Hugging Face extension. Core rules in parts 1 and 2, formulas, metrics, controls and EA conditions in part 4 retain their scientific meaning. The base specification remains v0.6; this is a reading organization change. [Exact earlier texts and movement record](./ORGANIZATION_TRACE.md) remain available.
