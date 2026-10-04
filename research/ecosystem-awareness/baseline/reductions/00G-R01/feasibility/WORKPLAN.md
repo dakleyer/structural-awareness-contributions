@@ -18,7 +18,7 @@ The author's review of kernel v0.2, repairs and consistency review of the three 
 
 | ID | Delivery | Entry condition |
 |---|---|---|
-| C02 | Neutral oracle and harness with controls, accounting and a second method. | Technology/mechanism contract defined; private state separated from participants. Integrates former C01–C10/C13/M05/P04. |
+| C02 | Neutral oracle and harness with controls, accounting and a second method. **Design preparation started 4 October 2026 by explicit maintainer instruction; no execution claim.** | Technology/mechanism contract defined; private state separated from participants. Reuse-first adapter strategy is recorded in `COMPUTABILITY_AND_ORACLE_PLAN.md` and the partial-oracle status file. Instrument implementation/verification still precede C11/T03. Integrates former C01–C10/C13/M05/P04. |
 | C11 | Campaign registration, resources, comparators and analysis. | Instrument verified; registration before execution. |
 | T03 | Adapter, controls and campaign for the first real implementation; verdict per technology. | C02/C11 and admitted correspondence; expand to other technologies afterward. Integrates C12/T04–T07. |
 
@@ -44,14 +44,14 @@ M03/M04/M12 do not request rebuilding the base proof: the [canonical theorem](./
 |---|---|
 | Next task | M13: explanation and virtual traversals of the first technology delivered; continue through candidates without reopening superseded tasks. |
 | Reviews still open | M16, M17 and P08 with delimited scope. |
-| Oracle / harness / real campaign | Later stages; no new execution in this cleanup. |
+| Oracle / harness / real campaign | C02 design preparation has started; no neutral harness, campaign or real-technology execution is claimed yet. C11/T03 remain later gates. |
 | Preservation | Previous IDs, criteria and documents archived in full; formulas and results preserved. |
 
 | Subsequent virtual delivery — tracking at the end | Status |
 |---|---|
 | Human escalation and whispering | Help explanation, kernel/mechanisms and R1/R2/R3 incorporated into the existing profile. R2 recovers; R3-A preserves the trilemma under another condition. |
 | Next within M13 | Apply the same sequence to the next protocol candidate; delimit by contract any gaps requiring extension. |
-| Later stages | C02/C11/T03 remain deferred; no real technology executed. M16/M17/P08 retain their scope. |
+| Later stages | C02 design preparation is now active by maintainer instruction; C11/T03 remain deferred and no real technology has been executed. M16/M17/P08 retain their scope. |
 
 | Subsequent clarification of the first profile — at the end | Status |
 |---|---|
