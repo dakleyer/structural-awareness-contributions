@@ -1,0 +1,38 @@
+n=50 agents, L=5 layers, world drawn once per trial, common to all agents
+D = expected violating effects; any = P(at least one violation); done = expected agents finishing a legitimate route
+
+No kill switch
+  homogeneous guess    lockstep: D= 48.50  any=0.970  done= 1.50
+  independent guesses  lockstep: D= 48.42  any=1.000  done= 1.58
+
+Kill switch (global halt tau steps after the first violation receipt)
+  guess        delta  tau   D       any    done
+  homog.       0     0       48.50  0.970   1.50
+  homog.       0     2       48.50  0.970   1.50
+  homog.       0     5       48.50  0.970   1.50
+  homog.       1     0        0.97  0.970   1.50
+  homog.       1     2        2.91  0.970   1.50
+  homog.       1     5        5.82  0.970   1.50
+  homog.       2     0        0.97  0.970   1.50
+  homog.       2     2        1.94  0.970   1.50
+  homog.       2     5        2.91  0.970   1.50
+  homog.       5     0        0.97  0.970   1.50
+  homog.       5     2        0.97  0.970   1.50
+  homog.       5     5        1.94  0.970   1.50
+  indep.       0     0       25.00  1.000   0.00
+  indep.       0     2       43.73  1.000   0.00
+  indep.       0     5       48.42  1.000   1.58
+  indep.       1     0        1.23  1.000   0.00
+  indep.       1     2        2.79  1.000   0.02
+  indep.       1     5        5.62  1.000   0.09
+  indep.       2     0        1.09  1.000   0.01
+  indep.       2     2        1.79  1.000   0.03
+  indep.       2     5        3.12  1.000   0.05
+  indep.       5     0        1.00  1.000   0.03
+  indep.       5     2        1.06  1.000   0.03
+  indep.       5     5        1.65  1.000   0.03
+
+sacrificial canary, L=3: expected violating canaries before a legitimate route exists = 1.50  (L/2 = 1.5)
+sacrificial canary, L=5: expected violating canaries before a legitimate route exists = 2.50  (L/2 = 2.5)
+sacrificial canary, L=8: expected violating canaries before a legitimate route exists = 4.01  (L/2 = 4.0)
+sacrificial canary, L=12: expected violating canaries before a legitimate route exists = 5.98  (L/2 = 6.0)

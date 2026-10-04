@@ -65,3 +65,12 @@ Read [M03/M04](./M03_M04_TRILEMMA_THEOREMS.md), §§3–7, and its retained rece
 Counterexamples now include a global rare-state Boolean certificate that defeats F's stronger local risk inequality, a necessary information condition that fails sufficiency, fee log(b) with free singleton queries, positive-price certificates whose relative cost vanishes, paid preeffect barriers that add no-violation observation branches, and baseline-included authorized dispatch. The receipt-aware M02 adaptive control is executed against the preserved historical transition implementation. These narrow all-technology and L-bit generalizations. The checker is same-agent work; C05/M05 remain OPEN.
 
 M06 stays IN_PROGRESS: no exhaustive literature/novelty review, full communication/parity bounds, corpus/E1–E7/HF transfer or external proof validation is claimed. Current next pass is an adversarial independent proof review using the complete prompt in the successor, followed by correspondence and real service-cost evidence.
+
+
+## 6. Material adicional y ataques comprobados — 4 October 2026
+
+Read the [received material dossier](./supplemental/2026-10-04/README.md). Four unchanged scripts completed; their scope does not close M06/C05. The received M06 proposes useful primary-source leads, but its exact-recovery analogy cannot be transferred without a reduction. Baldassini/Johnson/Aldridge, arXiv:1301.7023v2, Theorem 3.1/eq.(5) and eq.(7), were opened directly: the expected-tests corollary requires recovery with certainty. Do not mark general R01 expected cost closed on that basis.
+
+Retain the sparse-family counterexample: a full-X route is valid in binomial(L,K) of binomial(L,K)*2^K worlds; legitimate delivery probability is 2^-K, not the exact-world-recovery probability. For K=1 a preeffect full-route predicate yields a valid route after one query at every L. This is another information interface, not a refutation of the raw-coordinate F/W class. The received budget formula also fails at h=1/2,r=1/4,L=2: it says 10 while an exact mixture at hard budget 9 meets both thresholds and the original LP agrees. Existing F2/F3 account for h; their results are not changed by these findings.
+
+Next: M12 obligation matrix and directed M06/M11 audit of sufficient information, not full hidden-state identification. Noise/staleness/canary/reuse claims join M14/M15; technology-source verification stays second. M06 IN_PROGRESS, independent review and R01 bridge remain pending. Other incoming source claims remain leads, not verified theorem identities or novelty conclusions.

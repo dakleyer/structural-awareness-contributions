@@ -1,0 +1,1996 @@
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  R01 Annex T — How Concrete Agent
+  Technologies Act on the Trilemma
+    Oct 4, 2026        · ​@Ivan
+
+
+  1. Purpose, scope and status
+  On the documentation read, the three frameworks act on the risk arm through pre-effect
+  barriers and on the cost arm through constants, but none supplies what sets the tier: a
+  verification interface that returns many bits of binding information per unit cost. That
+  interface belongs to the environment, not to the framework. This annex works that
+  conclusion out, mechanism by mechanism, and lists what must be measured to confirm or
+  refute it.
+
+  What this annex is. An annex to R01 Viability as a Trilemma: Proof Sketches and Review
+  Plan. It reuses that document's definitions, Lemma 1 and the tier table, and applies them
+  to the three configurations that task T01 asks to qualify: Hugging Face smolagents,
+  LangGraph (with LangSmith for tracing) and the OpenAI Agents SDK for Python. Each is
+  read in its official documentation, opened on 4 October 2026.
+
+  What it is not.
+
+         It is not an execution. Nothing here was run, installed or measured, and versions are
+         not pinned.
+         It is not a comparison of quality or safety between the frameworks, and it makes no
+         claim about EA.
+         It is not an admission decision. T02, T07 and T11 decide admission on evidence gathered
+         against pinned versions.
+         It does not cover the other technologies profiled elsewhere in the corpus (Microsoft
+         Agent 365, Claude Agent SDK, FIWARE and others).
+
+  Evidence labels. Every row about a technology carries one label, so a reviewer can see at
+  a glance what rests on documentation and what rests on the author.
+
+
+     Label        Meaning
+
+     D            Stated in an official documentation page opened
+                  for this annex.
+
+
+
+
+                                                                                            Page 1 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+     Label        Meaning
+
+     I            Inferred by the author from documented behavior;
+                  needs a test before it is relied on.
+
+     U            Unknown from the pages read; a named test must
+                  settle it.
+
+
+  Documentation versions seen. The smolagents pages show release v1.26.0 in their
+  version list and describe the API as experimental and subject to change. The LangGraph
+  pages mention features that need langgraph>=1.2.12 (interrupt response schemas) and
+  langgraph>=1.2 (run control). The OpenAI Agents SDK pages carry no release number
+  on the pages read. T01 must pin exact releases, models, prompts and settings before any
+  test.
+
+  Second reading. A second pass on 4 October 2026 closed most of the U labels in sections
+  4 to 6 and surfaced new hazards. Everything below is in the tables of those sections.
+
+         smolagents step callbacks are not a barrier. The project blog states that step
+         callbacks run at the end of each step, after the action has executed. The wrapper
+         around the tools is therefore the only pre-effect barrier found (D).
+         LangGraph's exit durability can lose progress. In exit mode state is persisted only
+         when execution exits or at an interrupt. A crash mid-run then restarts from the last
+         exit, and effects since then repeat unless they sit inside tasks (D, I).
+         LangGraph's RunControl is a cooperative stop. It drains at a superstep boundary, so a
+         deadline can be enforced between steps and not inside a long node. recursion_limit
+         counts supersteps, not cost (D).
+         OpenAI sandbox agents allow rollback of confined effects only. Snapshots restore
+         the workspace, but they skip mounted remote storage, and the manifest describes
+         only a fresh session, so live state can differ from it. That gap is a staleness hazard of
+         the kind in section 9, and the receipts must record the effective state, not the manifest
+         (D, I).
+         OpenAI's max_turns counts model turns. Its numeric default was not visible in the
+         excerpts read.
+
+
+
+
+                                                                                             Page 2 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  2. Method: reading a mechanism through the trilemma
+  A mechanism matters to the trilemma only through one of five channels, so the method
+  asks of each documented mechanism which channel it uses, where it sits in the review,
+  decide, execute gate, and how its cost grows with the number of bits it must settle.
+
+  The three arms in technology-observable terms.
+
+
+     Arm               Formal quantity                              What a technology run        Unit
+                                                                    can observe
+
+     Cost              R = c_e + gL + s, where                      Model requests, input and    A vector, normalized as
+                       s is information spend                       output tokens, tool calls,   the adapter contract
+                                                                    wall time, human minutes,    requires (E5); never
+                                                                    sandbox seconds              silently collapsed to
+                                                                                                 tokens
+
+     Risk              rho = P(V)                                   Effects that violate the     Probability per run
+                                                                    binding, read from
+                                                                    environment-owned
+                                                                    receipts, never from the
+                                                                    framework's own trace
+
+     Efficacy          eta = P(T)                                   A complete route             Probability per run
+                                                                    delivered at technical
+                                                                    quality of at least J* -
+                                                                    epsilon
+
+
+  The five channels.
+
+
+     Channel                       What the mechanism                      Arm it moves           What it cannot do
+                                   does
+
+     1. Barrier                    Blocks or defers an                     Risk                   Create the information
+                                   effect before it                                               the barrier decides
+                                   happens                                                        with; it relocates the
+                                                                                                  information cost, it
+                                                                                                  does not remove it
+
+     2. Information                Returns bits about                      Cost per bit and       Return more bits than
+     channel                       the binding                             capacity per call,     the environment holds
+                                                                           which set the tier
+
+
+
+
+                                                                                                                       Page 3 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+     Channel                       What the mechanism                  Arm it moves            What it cannot do
+                                   does
+
+     3. Replay and                 Decides whether                     Cost, and risk          Make an irreversible
+     accounting                    work and effects are                through duplicated      violation reversible
+                                   repeated, lost or                   effects
+                                   double-counted on
+                                   pause, resume or
+                                   failure
+
+     4. Scale-only                 Changes constants:                  The threshold slack     Change the scaling
+                                   cheaper calls,                      lambda* by a            class
+                                   batching, parallelism,              constant factor
+                                   caching, smaller
+                                   models
+
+     5. Observation                Records what                        None directly; it       Substitute for
+                                   happened: traces,                   decides whether the     environment-owned
+                                   callbacks, logs                     arms can be             receipts (E2, E5)
+                                                                       measured at all
+
+
+  Position in the gate. The R01 contract fixes the order review, decide, execute, with a
+  receipt visible only after the effect. Every mechanism is placed in one of four positions:
+  before the decision, between decision and execution, at execution, or after the receipt. A
+  barrier is only a barrier in the second position. The same check placed after the receipt is
+  an observation.
+
+  The tier question. The tier is set by f(b), the cost of settling b independent bits. A
+  verification interface has two properties that matter: bits returned per call, and cost per
+  call. Three interface shapes recur.
+
+
+     Interface shape                                            Bits per   Typical cost         Tier
+                                                                call       growth
+
+     Per-bit probe: a membership test                           At most    Linear in b          3
+     on one node or one route                                   1
+
+     Map certificate: one call returns                          L          Constant c0, plus    1, subject to staleness
+     the whole binding map                                                 transfer             (section 9)
+
+
+
+
+                                                                                                                    Page 4 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+     Interface shape                                            Bits per   Typical cost    Tier
+                                                                call       growth
+
+     Folded into the gate: the review                           L          Zero marginal   0
+     that precedes execution already
+     certifies the binding
+
+
+  A deterministic code check and a model-based check can have the same capacity and
+  very different cost per call. The capacity decides the tier and the cost per call decides the
+  constant.
+
+  Two attribution rules. They exist to stop a mechanism being credited with something it
+  cannot do.
+
+   1. Source rule. A mechanism that decides using information must name the source of
+       that information. If the source is the model's own estimate of the binding, it adds no
+       information. By Lemma 1 it can only reshuffle risk and add cost. A guardrail model that
+       does not read the environment's binding facts gives the same prior as the agent.
+   2. Coverage rule. A barrier credited with lowering risk must be shown to act before the
+      effect on every effectful tool in the stack. One unguarded effect path voids the claim
+       for that path.
+
+
+  3. The measurement sheet
+  Sixteen fields, filled in for each configuration at T01 and T02, are enough to place any
+  mechanism in a channel, a gate position and a tier. The drawing shows what owns what
+  and where each channel attaches, and the sheet lists what must be extracted so that no
+  cell of the tables in sections 4 to 6 rests on memory.
+
+
+
+
+                                                                                                  Page 5 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  gate and channels · who owns what
+
+  The environment's verification interface sets the tier. The barrier, replay and observation
+  mechanisms a framework provides change risk, duplicated effects and measurability, and
+  the effect receipts stay with the environment.
+
+  The sheet.
+
+
+     #          Field                                    What to extract                      Where it enters
+
+     1          Pinned versions                          Release, commit, model               Every arm; transfer
+                                                         identifier, prompts and settings     evidence E4
+
+     2          Effect surface                           Every tool that can cause an         Coverage rule; X2
+                                                         effect, with its type: function
+                                                         tool, local MCP tool, hosted tool,
+                                                         built-in execution tool, code
+                                                         action
+
+
+
+
+                                                                                                                    Page 6 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+     #          Field                                    What to extract                      Where it enters
+
+     3          Effects per decision                     Effects executed per model           Unit g; receipts
+                                                         decision, including batched and      between effects; X6
+                                                         parallel ones
+
+     4          Pre-effect hooks                         Every hook that can run before       Barrier channel; X1, X2,
+                                                         an effect, and whether it can        X7
+                                                         veto it
+
+     5          Hook mode                                Blocking or parallel,                X1
+                                                         synchronous or asynchronous
+
+     6          Cost of a check                          Model requests, tokens,              f(b), a, c; E5
+                                                         compute, latency and human
+                                                         minutes per check, kept as
+                                                         separate dimensions
+
+     7          Bits per check                           The size of the output alphabet      Capacity per call, which
+                                                         of each verification call            sets the tier
+
+     8          Information source                       What each check reads: a             Source rule
+                                                         registry, the model's own
+                                                         estimate, a human's knowledge
+
+     9          Approval semantics                       Scope (call, tool identity, run),    Sticky-decision hazard;
+                                                         persistence, and behavior on         X5
+                                                         malformed input
+
+     10         Replay behavior                          What re-runs on resume, for          Invariant 7; X3
+                                                         each durability or resume mode
+
+     11         Native cap                               Unit and default of the step, turn   Cost arm
+                                                         or recursion cap, and any token
+                                                         or cost cap
+
+     12         Native usage                             Whether usage includes               E5; X8
+                accounting                               guardrail, sub-agent and
+                                                         compaction calls
+
+     13         Native record                            What is recorded, how it is          Invariant 8; X9
+                                                         exported, and how it fails
+
+     14         Confinement                              Where effects execute, whether       Assumption A4; X13
+                                                         they can be discarded, and
+                                                         whether a commit step exists
+
+
+
+                                                                                                                    Page 7 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+     #          Field                                    What to extract                                    Where it enters
+
+     15         Multi-agent scope                        Whether barriers and guardrails                    Coverage rule
+                                                         cover handoffs, managed agents
+                                                         and agents used as tools
+
+     16         Reversibility of each                    Per effect tool, whether the                       Assumption A4
+                effect tool                              effect can be undone
+
+
+
+
+  4. smolagents
+  On the pages read, smolagents has no framework-level pre-effect gate in its core loop, so
+  the barrier has to be an environment-owned wrapper around the tools. Its distinctive
+  effect on the trilemma is batching: code actions and parallel tool calls let several effects
+  occur between model decisions, which lowers cost and removes the intermediate
+  receipts that a gate relies on.
+
+  Profile (D). smolagents is a library for multi-step agents that follow a ReAct loop of
+  thought, tool call, observation. It offers two agent types: CodeAgent , which writes its tool
+  calls as Python code and is the default, and ToolCallingAgent , which writes them as
+  JSON. The reference describes the API as experimental. The R01 plan asks T01 to assess
+  ToolCallingAgent first and to treat CodeAgent as a distinct profile if its execution
+  surface is needed.
+
+  Mechanisms and their channel.
+
+    Mechanism                      Evidence               Position in   Channel           Effect on the      Moves the   Label
+                                                          the gate                        arms               tier?
+
+    ToolCallingAgent: JSON         Agents                 At            Baseline          One model          No          D
+    tool calls through the         reference              execution                       request per
+    model's tool-calling                                                                  decision step
+    interface                                                                             sets the unit g
+
+    CodeAgent: actions as          Secure code            At            Scale-only,       Fewer model        No          D, I
+    Python code, with              execution,             execution     with a barrier-   requests per
+    composition of several         Agents                               coverage side     effect, so g
+    tool calls and logic in        reference                            effect            falls; no
+    one step                                                                              receipt
+                                                                                          between
+                                                                                          effects inside
+                                                                                          one block
+
+
+
+
+                                                                                                                                 Page 8 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Mechanism                      Evidence               Position in   Channel        Effect on the     Moves the     Label
+                                                          the gate                     arms              tier?
+
+    max_tool_threads:              Agents                 At            Scale-only     Concurrent        No            D, I
+    parallel tool calls in         reference              execution                    effects with
+    ToolCallingAgent                                                                   no
+                                                                                       intermediate
+                                                                                       receipt; order
+                                                                                       not fixed
+
+    max_steps, default 20          Agents                 Whole run     Cost cap       A hard cap R in   No, but it    D
+                                   reference                                           steps. The        makes the
+                                                                                       pages read        band
+                                                                                       document no       explicit
+                                                                                       cap in tokens
+                                                                                       or currency
+
+    planning_interval              Agents                 Before the    Scale-only,    Extra planning    No            D, I
+                                   reference              decision      efficacy       model calls at
+                                                                                       the chosen
+                                                                                       interval; may
+                                                                                       raise eta at a
+                                                                                       cost
+
+    step_callbacks, a list or      Agents                 At the end    Observation,   Callbacks run     No, for the   D
+    a dict keyed by step           reference, plan        of a step,    and a human    at the end of     effect of     (documentation
+    type                           customization          after the     gate where     each step,        its own       and project blog);
+                                   example,               effect        documented     after the         step          confirm at X7
+                                   smolagents                                          action has
+                                   project blog                                        executed and
+                                                                                       been logged to
+                                                                                       memory. The
+                                                                                       documented
+                                                                                       use pauses
+                                                                                       after a
+                                                                                       planning step,
+                                                                                       and the
+                                                                                       project blog
+                                                                                       shows a
+                                                                                       callback
+                                                                                       editing
+                                                                                       memory. A
+                                                                                       step callback
+                                                                                       therefore
+                                                                                       cannot veto
+                                                                                       the effect of
+                                                                                       its own step
+
+
+
+
+                                                                                                                                   Page 9 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Mechanism                      Evidence               Position in   Channel           Effect on the     Moves the    Label
+                                                          the gate                        arms              tier?
+
+    Human plan review:             Plan                   Before the    Information       A human can       No, unless   D, I
+    approve, modify or             customization          decision      channel (a        supply plan-      the
+    cancel after the plan is       example                              human)            level             reviewer
+    created                                                                               information, at   reads a
+                                                                                          a cost in         binding
+                                                                                          human             map
+                                                                                          minutes and
+                                                                                          bounded by
+                                                                                          what the
+                                                                                          reviewer
+                                                                                          knows
+
+    final_answer_checks:           Agents                 After         Observation,      Can reject an     No           D, I
+    validation functions run       reference              execution     efficacy gate     incomplete
+    before a final answer is                                                              answer, so it
+    accepted                                                                              acts on eta.
+                                                                                          Effects have
+                                                                                          already
+                                                                                          happened, so
+                                                                                          rho is
+                                                                                          unaffected
+
+    LocalPythonExecutor:           Secure code            At            Barrier for       Protects the      No           D
+    AST interpreter,               execution              execution     code-level        host. It does
+    imports disallowed                                                  escapes only      not know the
+    unless authorized, cap                                                                binding, and
+    on operations                                                                         effects
+                                                                                          through
+                                                                                          authorized
+                                                                                          tools are
+                                                                                          untouched
+
+    Remote executors:              Secure code            At            Barrier on host   Changes the       Possibly     D, I
+    Blaxel, E2B, Modal,            execution,             execution     blast radius      irreversible-     (A4)
+    Docker, Pyodide with           project                                                violation
+    Deno                           README                                                 assumption
+                                                                                          only if the
+                                                                                          effect tools
+                                                                                          themselves
+                                                                                          run inside the
+                                                                                          sandbox and
+                                                                                          their effects
+                                                                                          can be
+                                                                                          discarded
+
+
+
+
+                                                                                                                                 Page 10 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Mechanism                      Evidence               Position in   Channel          Effect on the      Moves the   Label
+                                                          the gate                       arms               tier?
+
+    Sandbox scope: run             Secure code            Design        Constraint       Snippet-only       No          D
+    snippets only, or run          execution              choice                         mode does not
+    the whole system                                                                     support
+                                                                                         managed
+                                                                                         agents and still
+                                                                                         passes state;
+                                                                                         whole-system
+                                                                                         mode
+                                                                                         supports them
+                                                                                         but may need
+                                                                                         secrets inside
+                                                                                         the sandbox
+
+    managed_agents, a              Agents                 Decision      Efficacy, cost   Delegation         No          D, U
+    multi-agent hierarchy          reference              and                            adds model
+                                                          execution                      calls. Whether
+                                                                                         sub-agent
+                                                                                         effects are
+                                                                                         gated by the
+                                                                                         manager is not
+                                                                                         stated
+
+    Memory and resume:             Plan                   After the     Replay and       Resume keeps       No          D
+    run with reset set to          customization          receipt       accounting       memory. The
+    false keeps prior steps;       example,                                              reference
+    replay prints steps            Agents                                                describes
+                                   reference                                             replay as a
+                                                                                         printed replay
+                                                                                         of steps, not
+                                                                                         re-execution
+
+    interrupt(): interrupts        Agents                 Not stated    Possible         The pages          Unknown     U
+    the agent execution            reference                            barrier          read do not
+                                                                                         say at which
+                                                                                         point in a step
+                                                                                         the
+                                                                                         interruption
+                                                                                         takes effect
+
+    Telemetry tutorial             Navigation only        After the     Observation      Listed but not     Unknown     U
+    (inspect runs)                                        receipt                        read; T02 must
+                                                                                         read it
+
+
+
+  Where the barrier lives. Tools are plain callables (I), so the natural pre-effect barrier is a
+  wrapper owned by the environment, which is what the R01 adapter contract already asks
+  for under the name controlled tool wrappers. That wrapper is also where binding
+  information enters, through a call to whatever registry the environment exposes. The tier
+  of a smolagents configuration is therefore the tier of the wrapper's verification interface.
+  smolagents itself neither raises nor lowers it.
+
+
+
+
+                                                                                                                                Page 11 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  Batching and the slack threshold. Let m be the number of effects executed per model
+  decision. With m above 1 the policy cannot read a receipt between effects, so inside a
+  block it behaves like the blind policy. At the same time the model-request share of the
+  gate falls from about g to about g/m, which lowers g. Because the threshold slack is
+  lambda* = c(1 - alpha)/g, a smaller g raises lambda*. The consequence is counter-intuitive
+  and testable: cheaper execution widens the relative trilemma band, because information
+  becomes relatively more expensive.
+
+  Sandboxing and the irreversible-violation assumption. Assumption A4 says a violation is
+  permanent. A sandbox changes that only if the effect itself lands inside the sandbox and
+  is committed to the outside world by a separate step the environment can veto. A route-
+  level dry run of this kind returns per-node activity for the whole route, so its capacity is L
+  bits per call. Its cost, however, grows with route length, because executing L nodes in the
+  sandbox costs about L times the dry-run cost per node. That is Tier 3 with a small
+  constant, not Tier 1. If the effect tools stay outside the sandbox, nothing changes.
+
+  Plan review and final-answer checks. A human reviewing a plan supplies information only
+  if the reviewer knows the binding, and each review costs minutes. The documented
+  interface of three choices carries at most log2(3) bits per review, although modification of
+  the plan can carry more if the reviewer knows more. A final-answer check cannot lower
+  risk because it runs after the effects. Rejection of an incomplete answer also consumes
+  steps from max_steps, so it trades cost for efficacy.
+
+  What T02 and T07 must settle for smolagents.
+
+   1. Confirm with X7 that a step callback cannot veto the tool call of its own step, as the
+       project blog states that callbacks run at the end of each step (D).
+   2. Effects executed per decision step for CodeAgent and for ToolCallingAgent with
+       parallel threads, counted from environment receipts (D, I).
+   3. Where tools execute under each remote executor, and whether their effects can be
+      discarded (I).
+   4. What interrupt() does and when (U).
+   5. What the telemetry tutorial exposes and whether it is complete (U).
+
+
+  5. LangGraph and LangSmith
+  LangGraph is the configuration whose structure maps most directly onto the R01 gate,
+  because review, decision and execution can be separate nodes with the decision as an
+  edge. Its main effect on the trilemma is in replay: pauses and resumes re-run code, so the
+
+
+
+                                                                                           Page 12 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  same machinery that gives a barrier can duplicate effects if the effect sits on the wrong
+  side of a pause.
+
+  Profile (D). LangGraph is a low-level orchestration framework and runtime for long-
+  running, stateful agents. It lets a graph mix deterministic, hand-coded steps with model-
+  driven steps. Persistence, durable execution, streaming and human-in-the-loop are its
+  stated core capabilities. LangSmith is the separate platform for tracing and evaluation.
+  The R01 plan asks T01 to check checkpoint and replay semantics, duplicate effects,
+  observation isolation and accounting for resumed work, and states that persistence
+  grants no authority and certifies no evidence by itself.
+
+  Mechanisms and their channel.
+
+
+    Mechanism                       Evidence           Position in     Channel      Effect on the        Moves the   Label
+                                                       the gate                     arms                 tier?
+
+    Graph of nodes, edges,          Overview,          All positions   Structure    Review, decide       No          D, I
+    conditional edges and           interrupts                                      and execute can
+    Command with goto               page                                            be separate
+                                                                                    nodes. If the
+                                                                                    execute node is
+                                                                                    reachable only
+                                                                                    through the
+                                                                                    decision edge,
+                                                                                    the decision is a
+                                                                                    barrier by
+                                                                                    construction
+
+    Deterministic steps             Overview           Before the      Scale-only   A review written     No, it      D
+    mixed with model-                                  decision                     as code costs        lowers c
+    driven steps in one                                                             compute, not
+    graph                                                                           tokens, so the
+                                                                                    cost per check
+                                                                                    can be far below a
+                                                                                    model-based
+                                                                                    check
+
+    Checkpointer and                Persistence,       After the       Replay and   Graph state is       No          D
+    thread_id                       interrupts         receipt         accounting   saved per step
+                                    pages                                           and loaded by
+                                                                                    thread_id on
+                                                                                    resume.
+                                                                                    Production needs
+                                                                                    a durable
+                                                                                    checkpointer,
+                                                                                    since the in-
+                                                                                    memory ones
+                                                                                    lose state on
+                                                                                    restart
+
+
+
+
+                                                                                                                             Page 13 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Mechanism                       Evidence           Position in   Channel           Effect on the        Moves the     Label
+                                                       the gate                        arms                 tier?
+
+    interrupt() with                Interrupts         Before the    Barrier, and an   Pauses until         Human bits,   D
+    Command(resume=...)             page               effect when   information       resume, with no      bounded by
+                                                       placed        channel from a    time limit stated.   what the
+                                                       before it     human             The payload must     reviewer
+                                                                                       be JSON-             knows
+                                                                                       serializable. The
+                                                                                       resume value
+                                                                                       becomes the
+                                                                                       return value of
+                                                                                       the call
+
+    Typed response schema           Interrupts         Before the    Information       A Pydantic,          No            D
+    on interrupt (needs             page               effect        channel           TypedDict or
+    langgraph 1.2.12 or later)                                                         dataclass schema
+                                                                                       validates the
+                                                                                       resume value. A
+                                                                                       plain JSON
+                                                                                       Schema
+                                                                                       dictionary is
+                                                                                       exposed but not
+                                                                                       validated
+
+    Node restarts from its          Interrupts         Replay        Replay and        Code before the      No, but       D
+    beginning on resume             page                             accounting        interrupt runs       raises cost
+                                                                                       again. Side          and can
+                                                                                       effects before it    repeat a
+                                                                                       should be            violating
+                                                                                       idempotent, or       effect
+                                                                                       each resume
+                                                                                       repeats them
+
+    Index-based matching            Interrupts         Replay        Replay and        Skipping or          No            D for the rule, I
+    of several interrupts in        page                             accounting        reordering an                      for the
+    one node                                                                           interrupt                          consequence
+                                                                                       between runs
+                                                                                       makes resume
+                                                                                       values attach to
+                                                                                       the wrong
+                                                                                       interrupt
+
+    Parallel interrupts             Interrupts         Before the    Information       Each pending         No            D
+    resumed through an id-          page               effect        channel           interrupt must be
+    to-value map                                                                       answered with its
+                                                                                       own id
+
+    Static interrupts:              Interrupts         Before or     Barrier           Pauses around a      No            D
+    interrupt_before and            page               after a                         node. The
+    interrupt_after                                    named                           documentation
+                                                       node                            presents them for
+                                                                                       debugging and
+                                                                                       does not
+                                                                                       recommend them
+                                                                                       for human-in-the-
+                                                                                       loop
+
+
+
+
+                                                                                                                                   Page 14 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Mechanism                       Evidence           Position in   Channel       Effect on the        Moves the   Label
+                                                       the gate                    arms                 tier?
+
+    Durability modes: exit,         Durable            Replay        Replay and    Higher durability    No          D
+    async, sync                     execution                        accounting    adds overhead. In
+                                                                                   exit mode
+                                                                                   changes are
+                                                                                   persisted only
+                                                                                   when execution
+                                                                                   exits, by success,
+                                                                                   by error or at a
+                                                                                   human-in-the-
+                                                                                   loop interrupt. In
+                                                                                   async there is a
+                                                                                   small risk that
+                                                                                   checkpoints are
+                                                                                   not written if the
+                                                                                   process crashes
+
+    Tasks around side               Durable            Replay        Replay and    The                  No          D for the
+    effects and non-                execution                        accounting    documentation                    advice, I for
+    deterministic operations                                                       advises wrapping                 the
+                                                                                   side effects in                  mechanism
+                                                                                   tasks and
+                                                                                   designing for
+                                                                                   determinism and
+                                                                                   idempotence.
+                                                                                   That completed
+                                                                                   work is not re-run
+                                                                                   on resume is the
+                                                                                   intended purpose
+
+    Time travel from                Persistence        Replay        Replay and    Listed as a use of   No          D for
+    checkpoints                     page                             accounting    checkpoints. Re-                 existence, I for
+                                                                                   running from an                  the risk
+                                                                                   earlier
+                                                                                   checkpoint can
+                                                                                   re-run nodes with
+                                                                                   side effects
+
+    Store for long-term             Persistence        Before the    Information   Could hold a         Possibly,   D, I
+    memory across threads           page               decision      reuse         cached registry      through
+                                                                                   answer across        caching
+                                                                                   threads. Reuse is
+                                                                                   free after first
+                                                                                   acquisition and
+                                                                                   can go stale
+
+    Subgraphs called as             Interrupts         Replay        Replay and    The parent node      No          D
+    functions                       page                             accounting    and the subgraph
+                                                                                   node both restart
+                                                                                   from the
+                                                                                   beginning on
+                                                                                   resume
+
+
+
+
+                                                                                                                             Page 15 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Mechanism                       Evidence           Position in   Channel        Effect on the        Moves the   Label
+                                                       the gate                     arms                 tier?
+
+    LangSmith tracing and           Overview           After the     Observation    Traces runs and      No          D
+    evaluation                                         receipt                      evaluates
+                                                                                    outputs. Its
+                                                                                    Engine detects
+                                                                                    issues in traces
+                                                                                    and proposes
+                                                                                    fixes, which is
+                                                                                    detection after
+                                                                                    the fact
+
+    RunControl (needs               Durable            At a          Cost and       Created and          No          D for
+    langgraph 1.2 or later)         execution          superstep     deadline cap   passed as control                existence, I for
+                                    snippet            boundary      (I)            to a run. The                    use as a cap
+                                                                                    excerpt describes
+                                                                                    drain state read
+                                                                                    through the
+                                                                                    runtime, to adjust
+                                                                                    node behavior
+                                                                                    before the
+                                                                                    superstep
+                                                                                    boundary is
+                                                                                    reached. It reads
+                                                                                    as a cooperative
+                                                                                    stop at a
+                                                                                    boundary, not
+                                                                                    inside a node. The
+                                                                                    hard cap in the
+                                                                                    documentation is
+                                                                                    recursion_limit,
+                                                                                    which counts
+                                                                                    supersteps, not
+                                                                                    cost
+
+
+
+  Structure gives a native barrier; it does not give information. A graph can route every
+  effect through a review node and an edge, and then the effect node cannot run unless the
+  edge allows it. What the review node knows is whatever it can read. If it reads a registry
+  that answers per node, the interface is a per-bit probe and the tier is 3 with a small
+  constant. If it reads a map certificate in one call, the interface is Tier 1. LangGraph
+  supports both and chooses neither.
+
+  Replay as a risk mechanism. Every approval is a resume, and every resume restarts the
+  node. If a non-idempotent effect sits earlier in the same node than the interrupt, each
+  resume repeats it. The effects then multiply with the number of approvals, each one costs
+  g again, and a violating effect is repeated while the violation counter stays at one. The
+  documentation describes the replay of a loop of interrupts as growing with each resume,
+
+
+
+
+                                                                                                                              Page 16 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  because the first resume replays one iteration, the second two, and so on. The design
+  consequence is that the interrupt must come before the effect and the effect must sit in
+  its own node.
+
+  Human approval is a one-bit probe behind a barrier. An approve-or-reject interrupt on a
+  route is a membership test returning at most one bit per decision. Because rejection
+  prevents the effect, it is risk-free. That is the Tier 3' shape of the first document, with c
+  equal to the cost of one human decision, in minutes and in deadline. The wait has no
+  stated limit, so it consumes the R01 deadline T as well as budget.
+
+  Durability modes and the recorder. In sync mode every checkpoint is written before
+  execution continues, which costs time. In async mode a crash can lose a checkpoint, and
+  after resume the node may run again although its effect already happened. A checkpoint
+  is therefore not a receipt. The environment must own the append-only record of effects,
+  as the R01 adapter contract requires, and the checkpointer can only be compared against
+  it.
+
+  LangSmith. Tracing is an observation channel. The Engine, which detects issues in traces
+  and proposes fixes, acts on later runs. It does not change the risk of the run in which an
+  effect has already happened. Its relevance is to drift and to measurement, not to the arms
+  of a single run.
+
+  What T02 and T07 must settle for LangGraph.
+
+   1. Count effects per route under resume in each durability mode, with and without tasks
+      around the effect.
+   2. Test approval-to-interrupt matching when node code is non-deterministic.
+   3. Test whether a static interrupt placed before the effect node is a reliable barrier, and
+      whether it survives replay.
+   4. Confirm that RunControl stops a run only at a superstep boundary, and read the time-
+      travel semantics, which this annex knows only from a secondary source that describes
+      replay as re-executing the nodes after a checkpoint.
+   5. Compare the cost of a graph step with the cost reported by LangSmith, so E5
+      accounting is complete.
+
+
+  6. OpenAI Agents SDK
+  The OpenAI Agents SDK has the richest set of documented pre-effect controls of the
+  three, but each is conditional on configuration and tool type, and its default configuration
+  is not a barrier. Its distinctive effect on the trilemma is that a rejection-based barrier turns
+
+
+
+                                                                                            Page 17 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  every blocked attempt into a paid probe, which quantifies how wide the trilemma band is
+  when information is obtained by trying and being refused.
+
+  Profile (D). The Python SDK provides agents, tools, handoffs, guardrails, sessions, human-
+  in-the-loop approvals, tracing and usage tracking. The R01 plan asks T01 to check whether
+  trace hooks expose every commitment, attempt and effect, to add environment-owned
+  receipts where they do not, and states that SDK traces alone do not prove permission or
+  legitimate completion.
+
+  Mechanisms and their channel.
+
+
+    Mechanism                                     Evidence          Position in   Channel         Effect on the arms      Moves       Label
+                                                                    the gate                                              the tier?
+
+    Tool input guardrails on function             Guardrails        Between       Barrier         Run before the tool     No          D
+    tools and on local MCP tools whose            page              decision                      executes; can skip
+    server configures guardrails                                    and                           the call, replace the
+                                                                    execution                     output with a
+                                                                                                  message, or raise a
+                                                                                                  tripwire
+
+    Tool output guardrails                        Guardrails        After         Observation     Run after the tool      No          D
+                                                  page              execution                     has executed; can
+                                                                                                  replace the output
+                                                                                                  or raise a tripwire.
+                                                                                                  The effect has
+                                                                                                  already happened
+
+    Tools outside the guardrail pipeline          Guardrails        At            Coverage        Hosted tools (web       No          D
+                                                  page              execution     gap             search, file search,
+                                                                                                  hosted MCP, code
+                                                                                                  interpreter, image
+                                                                                                  generation) and
+                                                                                                  built-in execution
+                                                                                                  tools (computer,
+                                                                                                  shell, apply patch,
+                                                                                                  local shell) do not
+                                                                                                  use it. Handoff calls
+                                                                                                  are not covered,
+                                                                                                  and Agent.as_tool
+                                                                                                  exposes no tool-
+                                                                                                  guardrail options
+                                                                                                  directly
+
+    Agent-level input guardrails,                 Guardrails        Overlaps      Not a barrier   The guardrail runs      No          D
+    parallel mode (the default)                   page              with the                      alongside the agent.
+                                                                    decision                      The documentation
+                                                                    and with                      states the agent
+                                                                    execution                     may already have
+                                                                                                  consumed tokens
+                                                                                                  and executed tools
+                                                                                                  before being
+                                                                                                  cancelled
+
+
+
+
+                                                                                                                                          Page 18 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Mechanism                                     Evidence          Position in   Channel        Effect on the arms      Moves       Label
+                                                                    the gate                                             the tier?
+
+    Agent-level input guardrails,                 Guardrails        Before        Barrier on     The agent does not      No          D
+    blocking mode                                 page              the           the first      start if the tripwire
+                                                                    decision      input only     fires. Runs only for
+                                                                                                 the first agent in a
+                                                                                                 chain
+
+    Output guardrails                             Guardrails        After         Observation    Run only for the        No          D
+                                                  page              execution                    agent that produces
+                                                                                                 the final output.
+                                                                                                 When a terminal
+                                                                                                 tool result is the
+                                                                                                 final output, the
+                                                                                                 tool has already run
+
+    A guardrail implemented as a model            Guardrails        Varies        Cost           The documented          No, it      D for the
+    call                                          page                                           example runs a          adds        example, U
+                                                  example                                        second agent as the     cost        for
+                                                                                                 check. Each check                   accounting
+                                                                                                 is then a model
+                                                                                                 request. Whether
+                                                                                                 those requests are
+                                                                                                 counted in the main
+                                                                                                 run's usage is not
+                                                                                                 stated
+
+    needs_approval on function tools,             Human-in-         Between       Barrier, and   Pauses a run until      Human       D
+    Agent.as_tool, shell and apply-               the-loop          decision      an             approved or             bits, or
+    patch tools; require_approval on              page              and           information    rejected. Approval      code bits
+    MCP servers                                                     execution     channel        rules fail closed       through
+                                                                                                 when arguments          a
+                                                                                                 are missing,            callback
+                                                                                                 malformed or not an
+                                                                                                 object
+
+    Programmatic approval callbacks:              Human-in-         Between       Barrier with   Shell, apply-patch      A           D
+    on_approval and                               the-loop          decision      a code         and hosted MCP          registry
+    on_approval_request                           page              and           decision       tools can approve or    call at
+                                                                    execution                    reject in code          constant
+                                                                                                 without pausing for     cost is
+                                                                                                 a person                possible
+                                                                                                                         here
+
+    Sticky decisions: always_approve              Human-in-         Replay        Certificate    Persist a decision      No, and a   D
+    and always_reject                             the-loop                        reuse          for the same tool       hazard
+                                                  page                                           identity for the rest   (below)
+                                                                                                 of the run, and
+                                                                                                 survive serialization
+                                                                                                 of the run state
+
+    pre_approval_tool_input_guardrails            Guardrails        Before        Barrier        Runs tool input         No          D
+                                                  page              the                          guardrails before
+                                                                    approval                     the approval
+                                                                    pause                        interruption; they
+                                                                                                 are checked again
+                                                                                                 after approval
+
+
+
+
+                                                                                                                                         Page 19 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Mechanism                                     Evidence          Position in   Channel       Effect on the arms      Moves       Label
+                                                                    the gate                                            the tier?
+
+    RunState: serialize, store, resume            Human-in-         Replay        Replay and    Holds approvals,        No          D
+                                                  the-loop                        accounting    pending calls,
+                                                  page                                          arguments and
+                                                                                                usage. The page
+                                                                                                states that recovery
+                                                                                                must reconcile tool
+                                                                                                side effects before
+                                                                                                retrying, and that
+                                                                                                snapshots are not
+                                                                                                authenticated
+
+    Tracing, on by default                        Tracing           After the     Observation   Records                 No          D
+                                                  page              receipt                     generations, tool
+                                                                                                calls, handoffs and
+                                                                                                guardrails.
+                                                                                                Unavailable under
+                                                                                                zero data retention.
+                                                                                                Exports in batches
+                                                                                                every few seconds,
+                                                                                                and a failed batch is
+                                                                                                dropped
+
+    Usage tracking                                Usage             After the     Observation   Tracks requests and     No          D
+                                                  page              receipt                     tokens per run,
+                                                                                                including
+                                                                                                compaction calls.
+                                                                                                Third-party
+                                                                                                adapters may not
+                                                                                                report usage by
+                                                                                                default
+
+    Turn cap                                      Guardrails        Whole run     Cost cap      The Runner takes a      No          D, U
+                                                  page,                                         max_turns
+                                                  Runner                                        argument with a
+                                                  reference                                     default constant,
+                                                                                                and raises
+                                                                                                MaxTurnsExceeded
+                                                                                                when it is exceeded
+                                                                                                unless handled. The
+                                                                                                unit is the model
+                                                                                                turn. The numeric
+                                                                                                default was not
+                                                                                                visible in the
+                                                                                                excerpts read
+
+
+
+
+                                                                                                                                           Page 20 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Mechanism                                     Evidence          Position in   Channel         Effect on the arms     Moves       Label
+                                                                    the gate                                             the tier?
+
+    Sandbox agents with Docker and                Sandbox           At            Possible        Beta in the Python     Possibly    D, I
+    local sandbox clients, a manifest,            agents            execution     reversibility   documentation. A       (A4)
+    permissions and snapshots                     guides, as                                      persistent
+                                                  search-                                         workspace the
+                                                  result                                          model can search,
+                                                  excerpts                                        edit and run
+                                                                                                  commands in. A
+                                                                                                  manifest describes
+                                                                                                  a fresh workspace,
+                                                                                                  and a reused
+                                                                                                  session or snapshot
+                                                                                                  may be the
+                                                                                                  effective source of
+                                                                                                  state. Snapshots let
+                                                                                                  a later run resume,
+                                                                                                  and a lost container
+                                                                                                  is restored from the
+                                                                                                  last checkpoint.
+                                                                                                  Snapshots skip
+                                                                                                  mounted remote
+                                                                                                  storage. Effects
+                                                                                                  confined to the
+                                                                                                  workspace can be
+                                                                                                  undone by restoring
+                                                                                                  a snapshot (I).
+                                                                                                  Effects through
+                                                                                                  tools on external
+                                                                                                  systems cannot
+
+
+
+  The barrier is conditional. Three configurations act before the effect: a tool input
+  guardrail on a covered tool, a blocking input guardrail, and an approval requirement. The
+  default parallel input guardrail does not, by the documentation's own statement. Any
+  hosted or built-in execution tool bypasses the guardrail pipeline. The coverage rule of
+  section 2 therefore applies directly: an R01 effect must be a function tool, or a local MCP
+  tool with guardrails configured, otherwise the barrier claim is void for it. The R01 contract
+  keeps native defenses enabled, so default and blocking modes must be registered as
+  separate configurations. Otherwise the phrase native defenses names two different
+  systems.
+
+  Where information enters. A guardrail function is ordinary code, so it can read a registry
+  and decide deterministically at a cost of compute. It can also call a model. The source rule
+  decides the value of either. A model guardrail that cannot read the environment's binding
+  facts adds a model request and no information. A guardrail that reads the registry returns
+  exactly what the registry's interface returns.
+
+
+
+
+                                                                                                                                            Page 21 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  Rejection-based probing and the width of the band. When a barrier rejects a call, the
+  agent learns one bit and must try again. Each rejected attempt costs a model request and
+  a guardrail evaluation, call it a. A blind policy under a barrier tries x on a layer, is refused if
+  the binding is y, and tries y. In the worst case it pays two attempts per layer, so the budget
+  needed is about twice R_exec, with risk zero and efficacy one. In the notation of the first
+  document this is Tier 3' with f(b) = a b. If a is of the order of one model request and g is of
+  the same order, the threshold slack is:
+
+     \lambda^{*}=\frac{a\,(1-\alpha)}{g}\;\approx\;1-\alpha
+
+
+  The trilemma band then extends to budgets close to twice the execution budget. This is a
+  derived consequence (I) resting on a being about g, and it is the first number that T05 and
+  T06 should measure, because it says that a barrier alone does not buy cheap safety. A
+  band much narrower than 1 would need a to be much smaller than a model request, which
+  means checks that are not preceded by a model decision, such as a route-level validator in
+  code.
+
+  Approvals and the sticky-decision hazard. needs_approval with a callback is a one-bit
+  probe behind a barrier, in the same way as a LangGraph interrupt, with c equal to a human
+  decision or a code decision. The sticky option is different in kind. A persisted decision for
+  a tool identity approves later calls to the same tool whatever their arguments. In the R01
+  fixture the effect tool is the same function for every node, so one sticky approval would
+  approve every later node whatever its binding. A certificate must be scoped to the node
+  and to the binding version. A sticky approval is scoped to neither unless the tool identity
+  itself encodes the node.
+
+  Recorder and resume. Traces are batched, can be dropped when export fails, are
+  unavailable under zero data retention, and may omit inputs and outputs when sensitive-
+  data capture is off. They are an observation of the run, not the record of effects. On
+  resume, the documentation itself places on the application the duty to reconcile tool side
+  effects before retrying, which is the same duplicate-effect problem as in LangGraph.
+
+  What T02 and T07 must settle for the OpenAI Agents SDK.
+
+   1. Whether an effect tool executes before the tripwire in default parallel mode, using a
+      slow guardrail and an effect tool that writes an environment receipt (D, test).
+   2. The pipeline coverage of every effect tool in the fixture, by tool type.
+   3. Whether guardrail model calls appear in the main run's usage (U).
+   4. Whether a sticky approval carries across nodes with different bindings.
+
+
+
+
+                                                                                               Page 22 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+   5. Trace completeness against environment receipts under normal export, failed export
+      and disabled tracing.
+   6. Read the sandbox agents guides in full, and pin the numeric default of max_turns (U).
+   7. The ratio a/g for a rejection-based protocol, measured in model requests and in tokens.
+
+
+  7. Cross-technology comparison
+  The three frameworks differ more in where they place the barrier, how they replay and
+  how they count cost than in anything that sets the tier, and the tier is set by the
+  verification interface the environment exposes. The tables below make that comparison
+  explicit. Every cell marked I or U is a hypothesis for T02 and T07, not a finding.
+
+  Levers by arm.
+
+
+     Arm                      smolagents                            LangGraph and            OpenAI Agents SDK
+                                                                    LangSmith
+
+     Cost: unit of            Steps (max_steps, default             Supersteps               Turns (max_turns);
+     the hard                 20)                                   (recursion_limit); the   the numeric default
+     cap                                                            default depends on       was not visible in the
+                                                                    the version, so pin it   excerpts read (D, U)
+                                                                    (D)
+
+     Cost: main               Batching through code                 Deterministic nodes      Model-based
+     constant                 actions and parallel tool             keep checks out of       guardrails add a
+     levers                   threads; planning_interval            the model; durability    request per check;
+                              adds calls                            mode adds overhead       blocking mode adds
+                                                                                             latency
+
+     Risk: pre-               Wrapper around tools (I);             Graph edge before the    Tool input guardrails,
+     effect                   step callbacks run after              effect node, interrupt   blocking input
+     barrier                  the step's effect (D)                 before the effect,       guardrail,
+                                                                    static interrupts        needs_approval
+
+     Risk: known              Batching removes                      Replay repeats code      Parallel default is not
+     gaps                     receipts between effects;             before an interrupt;     a barrier; hosted and
+                              local executor protects               async durability can     built-in tools bypass
+                              the host only                         lose checkpoints         guardrails; sticky
+                                                                                             approvals
+
+
+
+
+                                                                                                                Page 23 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+     Arm                      smolagents                            LangGraph and               OpenAI Agents SDK
+                                                                    LangSmith
+
+     Efficacy                 planning_interval,                    Deterministic and           Handoffs, output
+     levers                   final_answer_checks,                  model-driven steps in       guardrails, approvals
+                              managed agents                        one graph; human edit       with rejection
+                                                                    of state                    messages
+
+     Native                   Agent memory and replay               Checkpoints, and            Traces and usage,
+     record                   of steps (D)                          LangSmith traces            with export caveats
+
+     Record                   No, not an environment                No, a checkpoint is not     No, a trace is not a
+     usable as                receipt                               a receipt                   receipt
+     the effect
+     log
+
+
+  Which interface shape each framework can host.
+
+
+     Interface shape                  smolagents                      LangGraph               OpenAI Agents SDK
+
+     Barrier before                   Environment wrapper             Native through          Native for covered
+     the effect                       (I)                             structure (D, I)        tools (D)
+
+     Human approval                   Plan level documented;          interrupt (D)           needs_approval (D)
+     before the effect                step level U
+
+     Code decision at                 Inside the wrapper (I)          Deterministic           Guardrail function and
+     constant cost                                                    node (D)                approval callbacks (D)
+
+     One-call map                     A tool or wrapper               A node could read       A guardrail or tool
+     certificate                      could read it (I)               it (I)                  could read it (I)
+
+     Route-level dry                  Executors for code (D,          Not found in the        Sandbox agents (U)
+     run in a sandbox                 I); effect tools unclear        pages read (U)
+
+     Verification                     Not provided                    Not provided            Not provided
+     folded into the
+     gate
+
+     Durable resume                   Memory with reset               Checkpointer and        RunState (D)
+     of a paused gate                 false (D); effect               thread_id (D)
+                                      semantics not stated
+
+
+
+
+                                                                                                                    Page 24 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  No framework supplies the registry, the map certificate or a gate that already certifies
+  the binding. Each can host a client for one if the environment provides it. This is the
+  table's main reading: the frameworks are hosts for interfaces, not sources of binding
+  information.
+
+  Prior tiers by stack, under plausible environment interfaces. These are expectations to
+  be replaced by measurement.
+
+
+    Stack                           Verification               f(b)             Tier      Expected band       Note
+                                    interface
+
+    Model decides                   None                       Not applicable   Blind     Cost and            The worst corner
+    alone, no barrier, any                                                      policy    efficacy            of the trilemma
+    framework                                                                             attainable
+                                                                                          together; risk
+                                                                                          high
+
+    Barrier with                    One bit per                a b, with a      3'        Slack up to         Risk-free; cost
+    rejection, registry             refused attempt            about one                  about (1 - alpha)   near twice
+    answers per node                                           model request                                  execution in the
+                                                                                                              worst case
+
+    Human approval per              One bit per                Human            3'        Set by human        Wait has no stated
+    node or per route               decision                   minutes per                cost, plus          limit in LangGraph
+                                                               bit                        deadline
+
+    Deterministic route             The violations of          Constant c0      1         Width about c0      Valid only while
+    validator in code               a whole route in                                                          the binding does
+    before any effect               one call                                                                  not drift
+
+    Map certificate                 All L bits in one          Constant c0,     1 until   Width about c0      Staleness reopens
+    fetched once and                call                       then free        stale                         a per-effect cost
+    cached in state or                                                                                        (section 9)
+    store
+
+    Route-level dry run             The activity of            About c_dry      3 with    Width about         Only if effects can
+    in a sandbox                    every node of              per node         small c   c_dry times L       be discarded
+                                    the route
+
+    Review inside the               All L bits                 Zero marginal    0         None                A change of
+    gate, guaranteed by                                                                                       contract, not of
+    the environment                                                                                           framework
+
+
+  What this implies for T11, as a prior and not a ranking. For mapping effort on E1 and E2,
+  LangGraph's explicit nodes and edges suggest the smallest gap (I). The OpenAI SDK has
+  the most native barrier and approval primitives, with coverage and mode conditions that
+  must be registered. smolagents is the thinnest layer, so its barrier is wholly the adapter's,
+
+
+
+
+                                                                                                                           Page 25 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  and its CodeAgent batching is the largest hazard for the gate. T11 must replace this prior
+  with observed accessibility, controllability and estimated cost, and it must retain all three
+  candidates.
+
+
+  8. What no technology in this set changes
+  Ten invariants hold across smolagents, LangGraph and the OpenAI Agents SDK as
+  documented, and each comes with the observation that would falsify it. They follow from
+  Lemma 1 and from the R01 contract, and they are what a reader should keep if the details
+  of any one framework change.
+
+
+     #          Invariant                            Reason               Falsified by        Test
+
+     1          Information about                    Lemma 1 counts       A framework         T02, T07
+                the binding comes                    transcripts. A       component that
+                from the                             framework adds       reports binding
+                environment. A                       no transcript the    facts the
+                framework                            environment did      environment
+                relocates when and                   not produce          never exposed,
+                where it is queried                                       verified against
+                and what it costs,                                        receipts
+                and it cannot create
+                it.
+
+     2          The tier is the                      The interface        The same            T05, T06,
+                growth of f(b) for                   shapes of section    interface giving    measurement
+                the verification                     2 fix capacity per   different growth    protocol of
+                interface in use, not                call                 under different     section 10
+                a property of the                                         frameworks
+                framework.                                                beyond a constant
+                                                                          factor
+
+
+
+
+                                                                                                            Page 26 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+     #          Invariant                            Reason              Falsified by         Test
+
+     3          A barrier lowers risk                A refusal returns   A barrier whose      T05, ratio a/g
+                but not information                  one bit and         refusals return
+                cost. It turns the                   requires a new      more than one bit
+                trilemma into a                      attempt             at the same cost
+                cost-efficacy
+                dilemma in which
+                the band has width
+                about a(1 - alpha)L,
+                with a the cost of a
+                refused attempt.
+
+     4          A model-based                        The source rule     A model check        T04, T05
+                check with no                                            that beats the
+                access to the                                            prior on held-out
+                environment's facts                                      bindings with no
+                adds cost and no                                         registry access
+                information.
+
+     5          Human approval is a                  Approve or reject   A reviewer who       T05
+                one-bit probe with                   returns at most     reads a map and
+                a deadline cost,                     one bit.            settles many bits
+                linear in the number                 LangGraph states    in one decision,
+                of decisions.                        interrupts wait     which moves the
+                                                     indefinitely        stack to Tier 1 at
+                                                                         the cost of the
+                                                                         map
+
+     6          A violation stays                    Assumption A4       Effect tools that    T03, T07
+                irreversible unless                                      provably run
+                the effect is                                            inside a
+                confined and a                                           discardable
+                separate commit                                          sandbox, with
+                step is under the                                        commit under the
+                environment's                                            environment
+                control.
+
+
+
+
+                                                                                                               Page 27 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+     #          Invariant                            Reason                Falsified by           Test
+
+     7          Pause and resume                     LangGraph             A resume count of      T03, T04
+                mechanisms                           documents node        effects equal to
+                duplicate work, and                  restart. The          one under every
+                can repeat a                         OpenAI SDK            durability mode
+                violating effect,                    documents that        and approval
+                unless the effect is                 recovery must         pattern
+                idempotent or                        reconcile side
+                isolated.                            effects
+
+     8          No native trace or                   The R01 adapter       A framework            T03, T07
+                checkpoint is the                    contract. Traces      record that
+                effect log. The arms                 are batched,          matches
+                are measurable only                  droppable and can     environment
+                against                              be disabled           receipts exactly in
+                environment-                                               all failure
+                owned receipts.                                            conditions
+
+     9          Constant-factor                      lambda* = c(1 -       A technology           T06, T12
+                improvements                         alpha)/g, so a        change that alters
+                never remove the                     smaller g raises it   the growth class
+                band; they change                                          and not only the
+                the threshold slack                                        constants
+                lambda*. Cheaper
+                execution can
+                widen it.
+
+     10         A cached                             Semantic stale-       A certificate that     T05, T12
+                certificate or                       action behavior,      stays valid across
+                approval is valid                    discussed in          a binding change,
+                only for its binding                 section 9             or drift too slow to
+                version. Under drift,                                      matter in the
+                per-effect                                                 tested horizon
+                revalidation
+                restores linear cost.
+
+
+  Invariants 1 and 2 carry the main claim. If either is falsified, the classification in section 7
+  changes, and section 10 is built to test them first.
+
+
+
+
+                                                                                                             Page 28 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  9. Composition, units and staleness
+  A stack of mechanisms reaches Tier 1 only if one component supplies a one-call map
+  certificate and the stack keeps it fresh, and staleness turns the saving back into a per-
+  effect cost whenever the binding can change between the certificate and the effect. Two
+  further results sit beside it: the tier is stated per cost dimension, and one code-acting
+  configuration can move probing from tokens to compute.
+
+  Stacks are not additive. Each component acts on one channel of section 2. A composite
+  stack pays the sum of its components' costs, and its tier is the tier of the interface that
+  actually delivers the bits. A barrier, a replay control and a recorder add constants and
+  safety. They do not change the growth of f(b).
+
+  Cost is a vector, and the tier is per dimension. The R01 contract asks for normalized
+  resources and forbids silent collapse to one unit. A technology can move bits from an
+  expensive dimension to a cheap one without changing the tier in the cheap one.
+
+       In a code-acting agent with an environment wrapper that raises an exception when the
+       barrier refuses, the probing loop can run in code. The model writes the loop once,
+       inside one decision step, and each refused attempt costs a tool call in compute and
+       time, not a model request (I).
+       Information is then still a per-bit probe, so f(b) is linear in compute and time. In tokens
+       it is nearly flat, because the model wrote one loop.
+       The trilemma band therefore persists in the dimensions where probing stays linear:
+       compute, latency, registry rate limits and quotas. Whether it matters depends on the
+       weights of the normalization. This is a testable effect of CodeAgent , and it is the
+       strongest case in this annex of a technology helping without removing the trilemma.
+
+  Staleness: the cost of keeping a certificate valid (sketch). Take the map certificate of
+  Tier 1. Suppose that between one effect step and the next, the binding of an upcoming
+  layer changes with probability p, independently. If the certificate is refreshed every k + 1
+  effects, then to first order in p the expected number of stale effects is p L (k + 1)/2.
+  Keeping the risk ceiling r then requires:
+
+     \mathbb{E}[\text{stale effects}]\;\approx\;\frac{pL(k+1)}{2}\;\le\;r
+     \quad\Longrightarrow\quad
+     \#\text{refreshes}\;\approx\;\frac{L}
+     {k+1}\;\approx\;\min\!\Big(L,\;\frac{pL^{2}}{2r}\Big)
+
+
+
+
+                                                                                              Page 29 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  Three readings follow. If the total drift expected over the route is below the ceiling, that is
+  pL of at most about r, one certificate suffices and the tier is 1. If it is above, the number of
+  refreshes grows quadratically in L until it saturates at one per effect, which is the per-bit
+  linear cost of Tier 3 with c equal to a refresh. Between the two, the stack is Tier 1 only in a
+  regime that depends on the drift rate. The corpus's scenario 00I, in which a delayed action
+  executes after a later repair has changed its decision basis, is the known case of this
+  hazard. The sketch ignores the window between a check and its effect, which is the same
+  hazard at a smaller scale and must be measured.
+
+  Stacks to test.
+
+
+     Stack         Components                            Information cost       Tier             Valid while
+
+     S-A           Environment route                     One certificate plus   1, within the    pL is of at most
+                   validator and map                     refreshes              staleness        about r
+                   certificate;                                                 regime
+                   framework gate
+                   node, edge or tool
+                   guardrail;
+                   environment
+                   receipts
+
+     S-B           Barrier with                          a per bit, with a      3'               Always
+                   rejection; registry                   about one model
+                   membership per                        request
+                   node; the model re-
+                   plans after each
+                   refusal
+
+     S-C           Code-acting agent;                    About a_comp per       3' in compute,   Rate limits and
+                   environment                           bit in compute and     nearly flat in   latency budget
+                   wrapper that raises                   time; one model        tokens           hold; the model
+                   on refusal; probing                   request for many                        writes a correct
+                   loop in code                          attempts                                loop
+
+     S-D           Human approval per                    One human              3'               The deadline T
+                   route or per node                     decision per bit                        holds
+
+     S-E           No barrier and no                     None                   Blind policy     Not applicable
+                   registry
+
+
+
+
+                                                                                                                Page 30 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  S-A, S-B and S-E are candidate comparator arms. Mapping them onto the benchmark arms
+  of the corpus is left to T11 and to the benchmark owners. This annex takes no position on
+  whether any Ecosystem Awareness component supplies the map-level interface of S-A.
+  That is the differential the main R01 programme tests, and the annex gives no basis for a
+  claim either way.
+
+
+  10. Experiments that would settle each unknown
+  Fourteen experiments settle the unknowns in sections 4 to 6 and test invariants 1 to 10,
+  and the first nine need no model behavior at all. They test mechanism facts, such as
+  whether an effect happens before a tripwire, and they can run with a scripted model,
+  which the R01 plan allows for adapter plumbing only. The last five measure cost growth,
+  drift, confinement and human cost. X13 can use a scripted model and X14 a simulated
+  reviewer, and X10 to X12 need model-driven runs under their own registration.
+
+  Mechanism tests (scripted model; effect tools write environment-owned receipts).
+
+
+    ID         Question                       Method                       Measure               Reading of the           Task
+                                                                                                 result
+
+    X1         In the OpenAI SDK              An effect tool that          Share of runs         If positive, the         T04,
+               default parallel               writes a receipt; a          where the effect      default is not a         T07
+               mode, does an                  guardrail with a             receipt precedes      barrier and the two
+               effect occur before            controlled delay;            the tripwire          modes are separate
+               a guardrail                    compare default parallel                           configurations
+               tripwire?                      mode with blocking
+                                              mode over delays from
+                                              below to above model
+                                              latency
+
+    X2         Which effect tool              One effect tool of each      A matrix of           Fixes which tool         T02,
+               types are covered              type: function tool, local   covered or not        types may carry          T07
+               by the guardrail               MCP tool with                covered, by           effects in the fixture
+               pipeline?                      guardrails, hosted tool,     environment           (coverage rule)
+                                              built-in execution tool,     receipt
+                                              handoff, agent as tool
+
+    X3         Does resume in                 Effect before an             Effect receipts per   Settles invariant 7      T03,
+               LangGraph                      interrupt in the same        route                 for LangGraph and        T04
+               duplicate effects?             node, and in a separate                            the safe placement
+                                              node; durability exit,                             of the effect
+                                              async and sync; crash
+                                              injected before the
+                                              checkpoint write; with
+                                              and without tasks
+
+
+
+                                                                                                                          Page 31 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    ID         Question                       Method                       Measure             Reading of the        Task
+                                                                                               result
+
+    X4         Does approval                  A node that sometimes        Resume values       Tests the index-      T04,
+               matching fail under            skips an interrupt;          bound to the        matching hazard       T07
+               non-deterministic              several interrupts per       wrong interrupt
+               node code?                     node; parallel interrupts
+
+    X5         Does a sticky                  always_approve on the        Violating effects   Tests the sticky-     T04,
+               approval carry                 effect tool, then nodes      approved            decision hazard       T07
+               across nodes with              whose binding is
+               different bindings?            inactive
+
+    X6         How many effects               CodeAgent with a multi-      Effects per step,   Measures batching     T03,
+               occur per decision             call block and               receipts between    and the unit g        T05
+               step in                         ToolCallingAgent with       effects, model
+               smolagents?                    parallel threads against a   requests per
+                                              scripted model               effect
+
+    X7         Can a smolagents               Callback that raises or      Whether the         Confirms that the     T02
+               step callback on an            returns a refusal on an      receipt exists      wrapper is the only
+               action step veto a             action step; effect tool                         barrier, or finds a
+               call before                    with receipt                                     documented
+               execution?                                                                      exception
+
+    X8         Are guardrail model            Count model requests         Requests missing    Completes E5          T03,
+               calls counted in the           on the provider or mock      from usage          accounting            T07
+               OpenAI run's                   side and compare with
+               usage?                         the SDK usage object
+
+    X9         Is any native record           Compare SDK traces,          Receipts missing    Settles invariant 8   T03,
+               a complete effect              LangGraph checkpoints        from each native    and the recorder      T07
+               log?                           and smolagents memory        record              design
+                                              with environment
+                                              receipts under normal
+                                              operation, failed export,
+                                              disabled tracing,
+                                              redaction off and crash
+
+
+  Cost-growth and drift tests (model-driven, registered under C11).
+
+
+
+
+                                                                                                                     Page 32 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    ID         Question                        Method                       Measure                Reading of the          Task
+                                                                                                   result
+
+    X10        What is the cost of a           Stacks S-B and S-C           Cost per refused       Tests the claim that    T05,
+               refused attempt,                on F_L with a barrier        attempt in model       lambda* is of order     T06
+               and what is a/g?                that refuses                 requests, tokens,      one for rejection-
+                                                                            compute and            based probing
+                                                                            latency, and the
+                                                                            ratio a/g with the
+                                                                            predicted lambda*
+
+    X11        What is the tier of             Stacks S-A to S-E for        The minimal budget     Classifies growth as    T05,
+               each stack on F_L?              L in 1, 2, 4, 8, 16, 32 at   R*(L) meeting the      constant,               T06,
+                                               fixed cost per bit           thresholds, per cost   logarithmic or linear   T12
+                                                                            dimension              within the range
+
+    X12        How does staleness              Stack S-A with an            Violating effects      Tests the staleness     T12
+               behave under drift?             injected binding             and refresh count      result and invariant
+                                               change at rate p             against the sketch     10
+                                               between certificate          pL squared over 2r
+                                               and effect; refresh
+                                               every k + 1 effects
+
+    X13        Can effects be                  Effect tools inside          Share of violating     Tests assumption A4     T07
+               confined and                    and outside each             effects that can be    and invariant 6
+               discarded?                      remote executor; a           discarded before
+                                               commit step under            commit
+                                               the environment
+
+    X14        What does a human               A simulated reviewer         Decisions per route    Measures c for Tier     T05
+               gate cost in                    with a registered            and time consumed      3' with a human; no
+               deadline?                       latency distribution;        against the deadline   real reviewers
+                                               interrupts and               T                      without separate
+                                               approvals per node                                  registration
+                                               and per route
+
+
+  Tier-estimation protocol for X11. For each stack and each cost dimension, fix before any
+  run the grid of L, the number of replicates, the seeds, the thresholds e, r and epsilon, the
+  exclusion and retry rules and the models and policies, matched across frameworks where
+  possible. Measure the overhead R*(L) minus R_exec(L). Fit constant, logarithmic and
+  linear models and classify by a pre-registered margin. A classification holds for the tested
+  range only. With L up to 32 the experiment can separate a constant from a linear overhead
+  when the per-bit cost is not negligible, and it cannot separate a logarithmic from a linear
+  one. A stack that cannot be separated is reported as not distinguishable in the range, and
+  no asymptotic claim is made.
+
+
+
+
+                                                                                                                            Page 33 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  Order. Run X2, X1, X7 and X9 first, since they decide which configurations exist and
+  whether the record can be trusted. Then X3 to X6 and X8, which complete the adapter.
+  Then X10 and X13 to X14, and last X11 and X12, which are the expensive ones and depend
+  on all the others.
+
+
+  11. Threats to validity and what must not be concluded
+  The main threat is that this annex rests on documentation and on the author's inference,
+  so its tables are hypotheses with a test attached, and the conclusions that survive a failed
+  test are fewer than the ones stated. The threats below are ordered by how much of the
+  argument each could overturn.
+
+
+     #          Threat                                  Why it matters                Mitigation
+
+     1          Documentation is not                    A page can be incomplete,     Pin versions, run the
+                behavior                                wrong or out of date, and a   mechanism tests X1 to X9,
+                                                        mechanism absent from the     keep the D, I and U labels in
+                                                        pages read may exist in the   every table
+                                                        product
+
+     2          The APIs change                         The smolagents reference      Record exact versions in
+                                                        calls its API experimental.   every result and re-run after
+                                                        LangGraph features are tied   any upgrade
+                                                        to release numbers
+
+     3          The family is                           F_L has independent           State results as results
+                synthetic                               uniform bits, a fixed gate    about the family. Add
+                                                        and a binding map the         correlated families before
+                                                        environment holds. Real       any claim about
+                                                        bindings are correlated or    deployments
+                                                        structured, which lowers b*
+                                                        (assumption A5)
+
+     4          The environment-                        The tier depends on an        Treat the interface as an
+                owned registry                          interface the environment     explicit parameter of each
+                                                        may not have, or on facts     stack, and test several
+                                                        that are ambiguous in real
+                                                        organizations
+
+
+
+
+                                                                                                                Page 34 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+     #          Threat                                  Why it matters                 Mitigation
+
+     5          Cost units                              Cost is a vector.              Report every dimension
+                                                        Normalization weights can      separately and pre-register
+                                                        reverse conclusions, as the    the normalization
+                                                        code-acting case shows
+
+     6          Finite range against                    L up to 32 cannot separate     Report not distinguishable in
+                asymptotics                             logarithmic from linear        the range and make no
+                                                        growth                         asymptotic claim
+
+     7          Model confounds                         Differences between            Match policies and models
+                                                        frameworks can be              where possible, or declare
+                                                        differences between            the combined system being
+                                                        models, prompts or settings    compared
+
+     8          Chains of inference                     Derived figures, such as       Measure a/g directly in X10
+                                                        lambda* close to 1 - alpha     before using the figure
+                                                        for rejection-based probing,
+                                                        rest on a being about g
+
+     9          Self-review                             The annex was written and      Independent review, as in
+                                                        reviewed by one assistant      section 12
+
+     10         Scripted-model runs                     They test mechanisms and       Keep scripted and model-
+                                                        plumbing. They do not show     driven results in separate
+                                                        autonomous behavior            tables
+
+     11         Scope of the pages                      The smolagents telemetry       Read them at T02 before any
+                read                                    tutorial was not read, and     statement about them
+                                                        the sandbox agents guides
+                                                        and LangGraph RunControl
+                                                        were read only as search-
+                                                        result excerpts
+
+     12         Three frameworks                        Other technologies profiled    Say so when quoting results,
+                only                                    in the corpus are outside      and extend with the same
+                                                        this annex                     method
+
+
+  What must not be concluded.
+
+          That any of the three frameworks is safer, cheaper or better than another. The annex
+          ranks nothing.
+
+
+
+
+                                                                                                               Page 35 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+        That the trilemma is an empirical fact about deployed agents. It is a sketch about a
+        family, with measurements still to come.
+        That a barrier solves risk. It does so only for covered tools in configurations that act
+        before the effect.
+        That any Ecosystem Awareness component gives an advantage. The annex takes no
+        position.
+        That a tier measured in a finite range holds beyond it.
+        That a mechanism not found in the pages read does not exist.
+
+
+  12. Review plan, open items and sources
+  The review must try to break the classification, and it must be done by someone other
+  than the author. Each step has a pass criterion that can fail.
+
+  Review plan.
+
+
+    Step       Object                      Question                 Method                   Pass criterion           Task
+
+    1          Every D row in              Does the page say        Reopen each cited        Each D row traces to     T07
+               sections 4 to 6             what the row says?       page at the pinned       a page and section.
+                                                                    version and check        Mismatches are
+                                                                    the claim against its    corrected, not
+                                                                    section                  defended
+
+    2          Every I row                 Does the inference       Derive it again or       Each I row is derived,   T07,
+                                           follow from the          refute it. List the      refuted or tied to an    T08
+                                           documented               rows that need a test    experiment
+                                           behavior?
+
+    3          Sections 7 and 8            Is any invariant         Run X1 to X9 first and   Labels move from D, I    T04,
+                                           falsified by the         update the tables        and U to measured        T07
+                                           experiments of                                    results, and falsified
+                                           section 10?                                       invariants are
+                                                                                             rewritten, not
+                                                                                             removed
+
+    4          Formal                      Do lambda*, the Tier     Re-derive each,          Each derivation is       M03,
+               consistency with            3' width, the            check the                confirmed or             M04,
+               the first                   staleness sketch and     independence and         narrowed                 T08
+               document                    the S-C unit             first-order
+                                           argument follow from     assumptions
+                                           Lemma 1 and the tier
+                                           table?
+
+
+
+
+                                                                                                                       Page 36 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+    Step       Object                      Question                 Method                  Pass criterion            Task
+
+    5          Invariant 1                 Does any framework       Adversarial search      A component is found      T07
+                                           component supply         for such a              and the classification
+                                           binding information      component, and for a    is restated, or none is
+                                           the environment did      stack that folds        found in the pages
+                                           not expose?              verification into the   read and tests
+                                                                    gate
+
+    6          Whole annex                 Does an independent      Independent review      Disagreements are         T08,
+                                           reviewer reach the       of this annex and of    logged with their         T10
+                                           same classification?     the first document,     evidence
+                                                                    with corpus
+                                                                    coherence against E1
+                                                                    to E7 and the
+                                                                    common criteria
+
+
+  Open items.
+
+        Read in full the OpenAI sandbox agents guides and LangGraph's RunControl and time-
+        travel pages, which were seen only as search-result excerpts, and the smolagents
+        telemetry tutorial, which was not read.
+        Pin the default hard-cap values: recursion_limit in LangGraph, which counts
+        supersteps and whose default differs across versions, and max_turns in the OpenAI
+        SDK, which counts turns and whose numeric default was not visible.
+        Extend the method to the other technologies profiled in the corpus (Microsoft Agent
+        365, Claude Agent SDK and others).
+        Add correlated and structured binding families, where b* is below the number of
+        layers.
+        Study multi-agent configurations (managed agents, handoffs, agents as tools), where
+        barrier coverage across agents is not guaranteed.
+        Find what real permission systems return per query, to know whether a per-node, per-
+        route or map-level interface is the realistic one.
+        Turn the D, I and U labels into the machine-readable evidence matrix that T01 requires.
+
+  Sources opened for this annex.
+
+  Corpus, pinned at commit 419b8e9: R01 README and Hugging Face remaining tasks T01 to
+  T12.
+
+  smolagents: Secure code execution, Human-in-the-loop plan customization and Agents
+  reference, release list showing v1.26.0. The mention of Pyodide with Deno comes from a
+  search-result excerpt of the project README, which was not opened in full.
+
+
+
+                                                                                                                       Page 37 of 38
+R01 Annex T — How Concrete Agent Technologies Act on the Trilemma
+
+
+
+
+  LangGraph: Overview, Interrupts and Persistence. The durability modes and the advice on
+  tasks and idempotence come from search-result excerpts of the Durable execution page,
+  which was not opened in full.
+
+  OpenAI Agents SDK: Tracing, Guardrails, Human-in-the-loop and Usage. The sandbox
+  agents, sessions, handoffs and running-agents pages are listed in the navigation and were
+  not read.
+
+  Second reading, 4 October 2026, all as search-result excerpts and not opened in full: the
+  smolagents project blog on step callbacks, the smolagents memory tutorial, the OpenAI
+  sandbox agents guides, the OpenAI Runner reference, the LangGraph durable-execution
+  page and the LangGraph recursion-limit how-to. A secondary source that summarizes
+  LangGraph replay is used only to flag a test. The companion document is R01 Viability as a
+  Trilemma: Proof Sketches and Review Plan.
+
+
+
+
+                                                                                       Page 38 of 38
+

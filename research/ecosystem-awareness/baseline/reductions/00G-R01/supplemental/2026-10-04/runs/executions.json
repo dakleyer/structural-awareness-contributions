@@ -1,0 +1,38 @@
+[
+  {
+    "file": "testA_budget.py",
+    "status": "COMPLETED",
+    "exit_code": 0,
+    "wall_seconds": 2.9341109179986233,
+    "source_sha256": "298de41d08cc726ef92d8b36b407885e5189211b76dbb442b4ef6f793c8ae2d0",
+    "stdout_lines": 9,
+    "stderr": ""
+  },
+  {
+    "file": "testB_oracles.py",
+    "status": "COMPLETED",
+    "exit_code": 0,
+    "wall_seconds": 1.3309394099997007,
+    "source_sha256": "97f1a05e9163369d8671f9f0e4219c0c3088d2a903780c8146eae16ba7bb3d42",
+    "stdout_lines": 21,
+    "stderr": ""
+  },
+  {
+    "file": "testC_killswitch.py",
+    "status": "COMPLETED",
+    "exit_code": 0,
+    "wall_seconds": 7.3288028679999115,
+    "source_sha256": "761f379dfa1bd2b004fba1a68d3f72b46961317f6366cad85a7db8a0aa55addb",
+    "stdout_lines": 38,
+    "stderr": ""
+  },
+  {
+    "file": "testD_human_and_sharing.py",
+    "status": "COMPLETED",
+    "exit_code": 0,
+    "wall_seconds": 0.015920159999950556,
+    "source_sha256": "2d0f63bcfa41f44f63cefaab0599507dbe977497da616f41595546d0001df337",
+    "stdout_lines": 37,
+    "stderr": ""
+  }
+]

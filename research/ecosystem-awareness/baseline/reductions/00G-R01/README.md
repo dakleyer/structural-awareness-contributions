@@ -9,6 +9,10 @@ Base specification v0.6 · Reading organization 3 October 2026 · Non-canonical 
 
 **Plan vigente, 4 de octubre de 2026:** [demostración por familias, orden reorganizado y prompt completo](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening). Se combinan la prueba universal solicitada por Iván y los controles contractuales/ejecutables previos. **55 tareas: 4 DONE históricas, 5 IN_PROGRESS y 46 OPEN.** M03/M04 conservan sus derivaciones F/W y se reabren para el cierre ampliado; revisión independiente y puente a R01 siguen pendientes. Próxima tarea: **M12, contrato del teorema objetivo**, con primera pasada M06/M11. [Registro vigente](./R01_MATH_WORKPLAN_2026-10-04.json) · [Auditoría documental](./R01_REORGANIZATION_CHECKS.json). Los órdenes y estados históricos de las entregas enlazadas se conservan como evidencia; este plan gobierna el siguiente trabajo.
 
+### Material adicional recibido — prioridad matemática, 4 de octubre de 2026
+
+Se conservan [seis originales y sus salidas](./supplemental/2026-10-04/README.md) como material de apoyo, sin sustituir el plan ni cerrar tareas. Los cuatro scripts se ejecutaron sin error; la admisión encontró contraejemplos que deben incorporarse a M12/M06/M11: fórmula de presupuesto que ignora eficacia; confusión entre recuperar el mundo y entregar una ruta; límites de estimaciones de capacidad, frescura, amortización y contención posterior al efecto. El anexo tecnológico queda en segundo lugar, para M13/T. **La prioridad es comprobar que el trilema sea una imposibilidad real dentro del modelo y que sus supuestos no fabriquen el resultado.** Estado matemático: derivaciones F/W disponibles, revisión independiente y puente a R01 pendientes. No hay validación empírica de incidencia en despliegues. M12 sigue siendo la siguiente entrega. Estado total sin cambios: 55 tareas, 4 DONE históricas, 5 IN_PROGRESS, 46 OPEN.
+
 <a id="bot-start-here"></a>
 ## Start here — research work plans for bots
 

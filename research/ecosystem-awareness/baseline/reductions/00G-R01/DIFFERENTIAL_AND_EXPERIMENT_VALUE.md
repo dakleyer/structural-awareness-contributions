@@ -198,4 +198,8 @@ M13 prueba clases tecnológicas; T02 investiga pertenencia concreta. M17 prueba 
 Conservar las evaluaciones y referencias históricas; el orden vigente reemplaza sus instrucciones de siguiente paso cuando difieran. Esta reorganización no cierra diferencial, literatura, utilidad ni auditoría independiente.
 
 
+### Material adicional: validación primero
+
+[Dossier y originales](./supplemental/2026-10-04/README.md) aportan ataques para M06/P01/P02/M11 y una cola tecnológica posterior M13/T. La fuente de group testing es un antecedente pertinente de conteo, sin afirmar identidad de todo el trilema ni novedad. Ninguna ocurrencia empírica, clasificación de frameworks o utilidad del piloto queda validada por estos scripts. M12 fija primero qué información basta para la entrega y qué observaciones/costes pertenecen al problema; luego se revisan las pruebas. Las pistas de familia escasa y frescura tienen contraejemplos/lagunas que deben conservarse.
+
 <!-- R01_BOT_WORKPLAN_END -->

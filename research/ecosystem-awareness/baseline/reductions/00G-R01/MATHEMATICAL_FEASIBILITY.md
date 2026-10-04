@@ -15,6 +15,10 @@ Primero M12 (contrato objetivo y mapa de afirmaciones) con una pasada dirigida M
 No se retira una derivación previa solo por reabrir su tarea. Cada afirmación conserva estado de evidencia (derivada, revisada, medida o sin resolver), scope y versión. Nueva tarea científica no se cierra por esta reorganización. Registro: [tareas y dependencias](./R01_MATH_WORKPLAN_2026-10-04.json).
 
 
+### Material adicional recibido — prioridad matemática, 4 de octubre de 2026
+
+Se conservan [seis originales y sus salidas](./supplemental/2026-10-04/README.md) como material de apoyo, sin sustituir el plan ni cerrar tareas. Los cuatro scripts se ejecutaron sin error; la admisión encontró contraejemplos que deben incorporarse a M12/M06/M11: fórmula de presupuesto que ignora eficacia; confusión entre recuperar el mundo y entregar una ruta; límites de estimaciones de capacidad, frescura, amortización y contención posterior al efecto. El anexo tecnológico queda en segundo lugar, para M13/T. **La prioridad es comprobar que el trilema sea una imposibilidad real dentro del modelo y que sus supuestos no fabriquen el resultado.** Estado matemático: derivaciones F/W disponibles, revisión independiente y puente a R01 pendientes. No hay validación empírica de incidencia en despliegues. M12 sigue siendo la siguiente entrega. Estado total sin cambios: 55 tareas, 4 DONE históricas, 5 IN_PROGRESS, 46 OPEN.
+
 ## Purpose and current evidence
 
 Determine whether a declared R01 problem and technology class has configurations where required legitimate quality, reliability, budget and deadline can be met, and configurations where they cannot. Either region may be empty within a chosen domain. Do not assume the answer before proving or measuring it.

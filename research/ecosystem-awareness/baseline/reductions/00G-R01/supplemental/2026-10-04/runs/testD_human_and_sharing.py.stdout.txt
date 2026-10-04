@@ -1,0 +1,37 @@
+D1. Human per-decision escalation under a human-time deadline
+   decisions needed = d - j ; decisions available = floor(T_h / tau_h)
+   deadline 480 min, 5 min per decision -> 96 decisions; chains up to L = 96 (j=0, eps=0) can be certified; longer chains are infeasible whatever the money budget
+   deadline 480 min, 15 min per decision -> 32 decisions; chains up to L = 32 (j=0, eps=0) can be certified; longer chains are infeasible whatever the money budget
+   deadline 480 min, 30 min per decision -> 16 decisions; chains up to L = 16 (j=0, eps=0) can be certified; longer chains are infeasible whatever the money budget
+
+D2. Human reads the whole map: cost h0 + h1*L (reading time grows with chain length)
+   overhead share of execution cost, h0=2, c_e=2, g=3
+   h1=0.1: L=4: 17.1%   L=16: 7.2%   L=64: 4.3%   L=256: 3.6%   limit h1/g = 3.3%
+   h1=0.5: L=4: 28.6%   L=16: 20.0%   L=64: 17.5%   L=256: 16.9%   limit h1/g = 16.7%
+   h1=1.0: L=4: 42.9%   L=16: 36.0%   L=64: 34.0%   L=256: 33.5%   limit h1/g = 33.3%
+
+D3. Shared verification across n agents with a common binding (results reused through a store)
+   d=32 bits needed per agent, c=1.0 per bit, R_exec(32)=98.0
+   n=1   per-agent information cost =  32.00   share of R_exec =  32.7%
+   n=2   per-agent information cost =  16.00   share of R_exec =  16.3%
+   n=4   per-agent information cost =   8.00   share of R_exec =   8.2%
+   n=8   per-agent information cost =   4.00   share of R_exec =   4.1%
+   n=16  per-agent information cost =   2.00   share of R_exec =   2.0%
+   n=32  per-agent information cost =   1.00   share of R_exec =   1.0%
+   n=64  per-agent information cost =   0.50   share of R_exec =   0.5%
+   with distinct bindings per agent (no common facts) the per-agent cost stays 32.0
+
+D4. When is escalation worth it? expected-cost rule per layer
+   blind: g + W/2   (violation costs W, probability 1/2)   escalate: g + h
+   h=1   W=4    -> escalate iff h <= W/2: True
+   h=1   W=10   -> escalate iff h <= W/2: True
+   h=1   W=100  -> escalate iff h <= W/2: True
+   h=3   W=4    -> escalate iff h <= W/2: False
+   h=3   W=10   -> escalate iff h <= W/2: True
+   h=3   W=100  -> escalate iff h <= W/2: True
+   h=6   W=4    -> escalate iff h <= W/2: False
+   h=6   W=10   -> escalate iff h <= W/2: False
+   h=6   W=100  -> escalate iff h <= W/2: True
+   h=12  W=4    -> escalate iff h <= W/2: False
+   h=12  W=10   -> escalate iff h <= W/2: False
+   h=12  W=100  -> escalate iff h <= W/2: True
