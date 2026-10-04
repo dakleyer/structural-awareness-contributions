@@ -105,15 +105,23 @@ The conditional formal proof, finite checks and experiments with agents are diff
 <a id="reproducción-conjunta-de-las-comprobaciones"></a>
 ## Joint reproduction of the checks
 
-From this `00G-R01/` folder:
+From this `00G-R01/` folder, use the version-aware verifier:
 
 ```sh
-python3 extensions/verify_audit.py --verify
+python3 extensions/verify_audit_v2.py --verify
 ```
 
-The [common verifier](./extensions/verify_audit.py) runs the three checkers in temporary folders, compares their reports and verifies the textual hashes. It uses Python 3 and its standard library. The [common report](./extensions/audit_results.json) preserves results per package; it does not add them together as independent samples. The individual guides remain available in the extensions table.
+The [version-aware verifier](./extensions/verify_audit_v2.py) separates **substantive reproduction** from **documentary integrity**. It reruns the three finite checkers in temporary folders, compares their reports with the preserved historical audit, replays the bounded logical falsifiers and verifies the checker/result fingerprints. Historical document manifests are then checked separately against the current reading edition.
 
-This is an internal rerun of the published code, not an independent replication or an EA evaluation. The editorial procedure, content preservation and limits of this review are in the [package review](./extensions/EDITORIAL_REVIEW.md).
+A current document differing from a historical manifest is reported as `STALE_HISTORICAL_MANIFESTS`; it does not invalidate an unchanged checker/result pair and it is not silently rewritten to manufacture a new historical PASS. Conversely, a checker/result mismatch is a substantive failure.
+
+The original [historical verifier](./extensions/verify_audit.py) and [historical common report](./extensions/audit_results.json) are retained unchanged as records of the edition they reviewed. They must not be interpreted as a current-document integrity certificate. A fresh dynamic report can be written, without overwriting the historical record, with:
+
+```sh
+python3 extensions/verify_audit_v2.py --write-current
+```
+
+This remains an internal rerun of published code and bounded logical checks, not an independent replication, a full R01 campaign or an EA evaluation. M16 independent coverage and M17 source-clause fidelity remain separate review obligations. The editorial procedure, content preservation and limits of the earlier review remain in the [package review](./extensions/EDITORIAL_REVIEW.md).
 
 <a id="archivos-y-reproducción-editorial"></a>
 ## Files and editorial reproduction
