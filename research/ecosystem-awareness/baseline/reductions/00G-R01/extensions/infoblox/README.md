@@ -454,7 +454,7 @@ DNS interpretation. Each A condition is authorization to use a contribution or d
 
 The directory provides all candidates initially. Discovery identity and integrity are modeled as correct. The gateway requires true evidence from the correct source and bound to mission, recipient and version for each dependency. On absence, contradiction or differing version it blocks. The model allows query sharing without duplicated work; for N∈{1,2,4}, U relations are allocated and U charged, not N·U. These are modeled control semantics, not execution of DNSSEC or the SDK.
 
-Each elementary query costs one residual work unit; comparable exploratory technical inspection may be fixed at two, retaining c_v/c_e=0,5. The complete directory eliminates search need here; its cost, execution and initial record are reserved in common cost C₀. Query budget is b=floor((R−C₀)/c_v). The deadline is considered sufficient for the protocol; no network failure added. A batched query may reduce transport cost, but the work bound applies only if conditions still require that independent work. Otherwise this parameterization is rejected.
+Each elementary query costs one residual work unit; comparable exploratory technical inspection may be fixed at two, retaining c_v/c_e=0.5. The complete directory eliminates search need here; its cost, execution and initial record are reserved in common cost C₀. Query budget is b=floor((R−C₀)/c_v). The deadline is considered sufficient for the protocol; no network failure added. A batched query may reduce transport cost, but the work bound applies only if conditions still require that independent work. Otherwise this parameterization is rejected.
 
 <a id="6-4-cota-probabilística-y-control-que-bloquea-por-defecto"></a>
 ### 6 4 Probabilistic bound and default-blocking control
@@ -471,11 +471,11 @@ With the strict gateway active, A may execute only when sufficiently established
 
 | U equal to 4 | b equal to 0 | b equal to 1 | b equal to 2 | b equal to 3 | b equal to 4 |
 | --- | --- | --- | --- | --- | --- |
-| Optimistic bound | 0,500 | 0,625 | 0,750 | 0,875 | 1,000 |
-| Strict gateway | 0,500 | 0,500 | 0,500 | 0,500 | 1,000 |
-| With sufficient certificate costing 1 | 0,500 | 1,000 | 1,000 | 1,000 | 1,000 |
+| Optimistic bound | 0.500 | 0.625 | 0.750 | 0.875 | 1.000 |
+| Strict gateway | 0.500 | 0.500 | 0.500 | 0.500 | 1.000 |
+| With sufficient certificate costing 1 | 0.500 | 1.000 | 1.000 | 1.000 | 1.000 |
 
-Declared-threshold example: with target reliability 0,95, U=4 and b=3, even optimistic relaxation does not exceed 0,875. Strict configuration achieves 0,5 without violations. With b=4 the obstacle disappears. This is a proved region of this model under its costs, not a statistical campaign or Infoblox performance calibration. The result concerns work exceeding C₀; not money, milliseconds or actual call count.
+Declared-threshold example: with target reliability 0.95, U=4 and b=3, even optimistic relaxation does not exceed 0.875. Strict configuration achieves 0.5 without violations. With b=4 the obstacle disappears. This is a proved region of this model under its costs, not a statistical campaign or Infoblox performance calibration. The result concerns work exceeding C₀; not money, milliseconds or actual call count.
 
 <a id="6-5-el-contraejemplo-que-elimina-la-dificultad"></a>
 ### 6 5 The counterexample eliminating difficulty
@@ -627,7 +627,7 @@ Opening question: Can we take this run, incorporate all controls you already use
 | Dynamic P2 | Material and nonmaterial changes after verification; notifications and versions for both arms. | Update work, validity at effect point and recovery. Expiry does not equal inevitable failure. |
 | EA comparison | CV-A2 and CV-EA with equal access, controls and maintenance costs. | Savings or improvement attributable to added rule; equivalence or overhead also admissible results. |
 
-A proposed pilot grid, still without enterprise calibration, is L∈{4,8,16}, N∈{1,2,4,8} and ρ∈{0,25;0,5;0,75} when comparable units exist. Zero and nonzero σ and τ levels, several initial coverages and search with and without directory are added, retaining an arm with all available capabilities. A full factorial is unnecessary: blocks are fixed to isolate causes, with sufficient budget curves to show easy and difficult cases. Values are not Infoblox measurements and are not selected afterward to force the trilemma.
+A proposed pilot grid, still without enterprise calibration, is L∈{4,8,16}, N∈{1,2,4,8} and ρ∈{0.25;0.5;0.75} when comparable units exist. Zero and nonzero σ and τ levels, several initial coverages and search with and without directory are added, retaining an arm with all available capabilities. A full factorial is unnecessary: blocks are fixed to isolate causes, with sufficient budget curves to show easy and difficult cases. Values are not Infoblox measurements and are not selected afterward to force the trilemma.
 
 Dependency count U, Q and reuse rate are measured after controls act. They are not chosen independently of the task to manufacture cost. Cost from preparation and marginal operational cost must both be reported, with common amortization. A stable system with preexisting certificates may be highly effective even if their initial construction required work.
 
