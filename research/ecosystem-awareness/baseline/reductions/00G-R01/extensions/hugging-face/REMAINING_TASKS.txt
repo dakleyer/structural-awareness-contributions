@@ -100,7 +100,7 @@ seeing the result. If no correspondence is defensible, mark the integration
 outside theorem scope while retaining its experiment as separately defined.
 
 REMAINING TASKS — STAGED BOT WORK PLAN
-<!-- R01_BOT_WORKPLAN_START version="0.1" scope="extensions/hugging-face/REMAINING_TASKS.txt" -->
+<!-- R01_BOT_WORKPLAN_START version="0.3" scope="extensions/hugging-face/REMAINING_TASKS.txt" -->
 Canonical discovery label: R01_BOT_WORKPLAN_START
 Canonical closing label: R01_BOT_WORKPLAN_END
 These are the SAME labels used in DIFFERENTIAL_AND_EXPERIMENT_VALUE.md and
@@ -231,5 +231,25 @@ when an interface, cost, authority or observation contract materially changes.
 Use the existing OPEN/IN_PROGRESS/BLOCKED/DONE vocabulary and the SAME shared
 discovery label. Fixture, campaign, theorem-transfer and historical-cause
 claims remain distinct. This update does not close T01–T12.
+
+CURRENT ORDER — mathematical strengthening, 4 October 2026
+Master: ../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening
+T01–T12 remain OPEN. Documentation-only T01/T02 preparation can inform M13:
+identify observable information access, global certificates/predicates,
+native barriers, receipt behavior, prior/cache, total producer/use charges
+and scope. It does not prove class membership or inheritance of a bound.
+M13 establishes abstract technology classes; M17 proves/rejects the R01
+mathematical bridge; T02 verifies concrete admission. Keep these distinct.
+
+Do not begin broad adapter/model campaigns as the main proof strategy.
+Stage T03–T08 after the applicable C gates and a registered G4 question.
+Any universal technology claim additionally needs its M13/M17/M16 evidence;
+an experiment outside theorem scope can retain its separately declared scope.
+Record useful barriers/certificates that resolve the problem as controls,
+including preparation/amortization costs and changes to the interface.
+Never disable a valid control to make the trilemma appear. The three
+candidates, their original criteria and later T12 obligations are preserved.
+Historical next-step instructions above are subordinate to this current order.
+
 
 <!-- R01_BOT_WORKPLAN_END -->

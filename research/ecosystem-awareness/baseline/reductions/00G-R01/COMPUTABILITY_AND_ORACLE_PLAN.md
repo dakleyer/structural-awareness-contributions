@@ -38,7 +38,7 @@ Correctness gates precede cost claims. Set a concrete machine and maximum runtim
 
 ## Remaining tasks — staged bot work plan
 
-<!-- R01_BOT_WORKPLAN_START version="0.1" scope="COMPUTABILITY_AND_ORACLE_PLAN.md" -->
+<!-- R01_BOT_WORKPLAN_START version="0.3" scope="COMPUTABILITY_AND_ORACLE_PLAN.md" -->
 Use the existing shared label `R01_BOT_WORKPLAN_START` and closing `R01_BOT_WORKPLAN_END`. Keep this plan in the document. Preserve task IDs and record owner, UTC date, input commit, code/environment versions, command, expected/actual outcome, evidence path and unresolved scope when changing status.
 
 All tasks are OPEN. C01 can start alongside M01; C02 must agree with M01/M02. Technology adapter preparation can begin after the interface is frozen, but its verdicts require a checked evaluator. A failed mathematical candidate does not prevent implementing a neutral evaluator.
@@ -77,5 +77,14 @@ Planning revision v0.2; review against commit `1e940125a18f468268eff8f029a35c32a
 | C14 — OPEN | Later stage after C12 and a separately frozen P11/C11 selector protocol. | Implement recommend/advise-against/indeterminate using only eligible small-pilot observations; isolate selector development and held-out evaluation, including held-out families when claimed. Compare simpler selection rules and competent alternatives; score false recommendations, missed opportunities, abstention/coverage, diagnostic/oversight costs and budget. Retain independently judged outcomes; an architecture cannot certify its own recommendation by assertion. No claim of scale transfer without P12 evidence. |
 
 **Cost containment:** exact tiny-world correctness comes before optimization and broad runtime integration. A solver timeout is an evaluator failure/unknown reference, not automatically an agent failure. Freeze handling of absent complete admissible routes, ties, encoding precision, exhausted budgets and horizon truncation. Exclude only under registered rules and retain rejection rates. A scope change requires a new registration and affected reviews, not silent post-result tuning.
+
+### Orden vigente — controles al servicio de la demostración
+
+Reorganización v0.3: [plan rector](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening). C01–C14 siguen OPEN; sus criterios no se eliminan. C01/P08 hacen triage acotado mientras M12 fija el teorema. C02–C05 preparan primero un instrumento pequeño para F/W y sus controles, con perfil suplementario explícito y sin confundirlo con el oráculo completo de R01; la entrega general conserva obligaciones propias. Los primeros límites de C11 son de recursos/alcance; su registro estadístico se completa antes de campañas, no es un prerrequisito de una prueba simbólica.
+
+M16 es revisión de las demostraciones por otro revisor; M05/C05 son comparación finita independiente. C05 requiere segundo método/código separado del autor, sin importar su recurrencia. Comparar resultados semánticos normalizados por mundo/política/traza y aritmética; dos métodos válidos no necesitan serializar bytes idénticos. Reproducir el MISMO checker sí puede exigir reporte idéntico. Conservar discrepancias. Implementación independiente por el mismo autor no equivale a revisión simbólica independiente.
+
+No ampliar el instrumento ni optimizar antes de fijar qué afirmación ayuda a verificar. C06–C13 y campaña siguen G4; C14 sigue G5. Preparar un evaluador neutral no cierra M03/M04, M13/M17 ni el estudio de selección. Un resultado experimental separado puede continuar si no se reclama transferencia pendiente. Los próximos pasos históricos abajo quedan subordinados al plan vigente.
+
 
 <!-- R01_BOT_WORKPLAN_END -->

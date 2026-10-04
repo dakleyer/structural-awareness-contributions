@@ -129,7 +129,7 @@ Primary sources consulted on 3 October 2026. Versioned papers are identified whe
 <a id="robot-review-plan"></a>
 ## Robot review plan — pending work on this document
 
-<!-- R01_BOT_WORKPLAN_START version="0.1" scope="DIFFERENTIAL_AND_EXPERIMENT_VALUE.md" -->
+<!-- R01_BOT_WORKPLAN_START version="0.3" scope="DIFFERENTIAL_AND_EXPERIMENT_VALUE.md" -->
 **Shared-label reconciliation, 3 October 2026.** `R01_BOT_WORKPLAN_START` and `R01_BOT_WORKPLAN_END` are the canonical discovery markers for this plan, [mathematical feasibility](./MATHEMATICAL_FEASIBILITY.md), [computability and oracle](./COMPUTABILITY_AND_ORACLE_PLAN.md), and [HF technology tasks](./extensions/hugging-face/REMAINING_TASKS.txt). The existing maintenance label below identifies this document only; it does not replace the shared markers. At creation, P01–P09 were open with their original criteria. Current status: P03 is DONE for measurement-validity specification/audit; P10 is IN_PROGRESS for the decision/value gate. Other P tasks remain OPEN. P04 is developed by C01–C10; P05/P08/P09 also apply to the new workstreams. See the [entry and order](./README.md#bot-start-here).
 
 **Maintenance label: R01-DIFFERENTIAL-REVIEW.** Keep this work plan in this document. It is not a website robots.txt, a separate instructions file or a scheduled automation. Preserve task identifiers; record date, exact version reviewed, evidence, finding and remaining uncertainty when closing a task. Do not mark work complete from a plan, an inaccessible reference or a passing check with a different scope.
@@ -188,5 +188,14 @@ The audit maps q/a/e/f/C/t/K to scenario §1.4 and keeps technical finish, legit
 [The M03/M04 successor](./M03_M04_TRILEMMA_THEOREMS.md) establishes a conditional all-policy trilemma for two constructed families, including dense conjunctive dependencies, exact AVG/WC hard frontiers and a separate expected-cost lower bound. These results support building a neutral small oracle and independent review. They do not establish novelty, empirical EA advantage, a product's certificate price, or the value of a pilot for choosing architecture. P10 remains IN_PROGRESS; P01/P02/P11/P12 and statistical/technology gates retain their acceptance criteria.
 
 The document provides explicit reduced/eliminated-band controls for cheaper raw access, sufficient certificates, preeffect barriers and authorized execution included in baseline cost. Technology admission must identify the fresh normative facts, query/enforcement interface and full producer cost before transferring the bounds. Positive information price alone is insufficient. The F/W supplemental contract retains canonical e/a/q; technical eta is reported separately. Next contribution decision follows independent M05/C05 review and M07 correspondence, rather than a model campaign justified by these constructed examples alone.
+
+### Orden vigente — la prueba y el valor empírico tienen cierres separados
+
+Reorganización v0.3: [plan rector](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening), 55 tareas. P03 sigue DONE para la auditoría histórica; P10 IN_PROGRESS; el resto de P conserva OPEN. P01/P02 y M06 acompañan M12 y la revisión matemática desde el inicio: comparar las afirmaciones concretas F/W/G/T con fuentes primarias, sin atribuir novedad a la cota de conteo por defecto. P08 hace triage y conserva los fallos heredados; cada sucesor precisa alcance de integridad.
+
+M13 prueba clases tecnológicas; T02 investiga pertenencia concreta. M17 prueba el puente de imposibilidad; P05/M07 revisan coherencia documental, que no sustituye ese argumento. P04 usa el instrumento mínimo comprobado. P06/P07/P09 y M08/M09 recurren en las entregas matemáticas. P11/C14/P12 siguen posteriores: una prueba del trilema no demuestra que un piloto mejore decisiones ni que EA sea superior. Antes de cada inversión empírica, P10 debe indicar la incertidumbre que resuelve y su criterio de continuar/acotar/parar.
+
+Conservar las evaluaciones y referencias históricas; el orden vigente reemplaza sus instrucciones de siguiente paso cuando difieran. Esta reorganización no cierra diferencial, literatura, utilidad ni auditoría independiente.
+
 
 <!-- R01_BOT_WORKPLAN_END -->

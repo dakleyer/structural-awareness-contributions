@@ -6,6 +6,8 @@ M03/M04, extensión matemática v1.0 · Derivación y revisión propia; revisió
 
 Entrada del repositorio: `2dc438df524663ebf79e6552cd688d34c2619d8b`. Autor/revisor: Codex, por instrucción del usuario. Las demostraciones siguientes son simbólicas y cubren todas las políticas de las clases declaradas. Las comprobaciones pequeñas buscan errores en ellas; no las sustituyen. No se afirma revisión independiente, novedad, ventaja de EA ni clasificación de una tecnología comercial.
 
+**Estado actualizado, 4 de octubre de 2026:** este documento conserva las derivaciones v1.0 y sus comprobaciones; **M03/M04 están IN_PROGRESS para el objetivo ampliado**, con revisión simbólica independiente y puente a R01 pendientes. Los estados DONE mencionados abajo son el registro de la entrega original, no su aceptación final. Consulta el [plan vigente y prompt combinado](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening); próxima tarea M12 con ataques M06/M11. Esta actualización de estado no añade una demostración ni altera fórmulas, fixtures o resultados.
+
 ## 1. Qué se prueba y qué permanece abierto
 
 La tesis es existencial sobre familias de problemas, universal sobre políticas: **hay configuraciones físicamente realizables en las que toda política admitida incumple al menos uno de coste bajo, riesgo bajo y eficacia técnica alta**. También hay configuraciones y tecnologías que permiten los tres. No se presupone que toda configuración sea difícil.
