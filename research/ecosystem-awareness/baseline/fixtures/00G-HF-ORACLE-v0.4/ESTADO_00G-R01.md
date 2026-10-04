@@ -1,29 +1,29 @@
-# Oráculo de 00G-R01 — estado y verificación pendiente
+# 00G-R01 oracle — status and pending verification
 
-**2 de octubre de 2026 · En proceso: todavía incompleto para 00G-R01.** Este documento registra la adaptación candidata del instrumento C3 al escenario reducido. No declara implementado ni validado el evaluador completo de C-V.
+**2 October 2026 · In progress: still incomplete for 00G-R01.** This document records the candidate adaptation of the C3 instrument to the reduced scenario. It does not declare the complete C-V evaluator implemented or validated.
 
-[Volver a 00G-R01, escenario reducido](../../reductions/00G-R01/README.md) · [Documento completo, §3.7](../../reductions/00G-R01/Escenario-creatividad-validacion.md#37-relación-con-el-trabajo-previo-y-sus-recorridos) · [Fundamento y prueba de la reducción en revisión](../../reductions/00G-R01/README.md#fundamento-y-prueba-de-la-reducción).
+[Back to 00G-R01, reduced scenario](../../reductions/00G-R01/README.md) · [Complete document, §3.7](../../reductions/00G-R01/Escenario-creatividad-validacion.md#37-relación-con-el-trabajo-previo-y-sus-recorridos) · [Foundation and proof of the reduction under review](../../reductions/00G-R01/README.md#fundamento-y-prueba-de-la-reducción).
 
-## Base conservada y alcance
+## Preserved base and scope
 
-El [C3 original v0.4](./README.md) conserva su código, documentación y [huellas congeladas](./DESIGN_FREEZE.json). Este documento de estado es una adición posterior, fuera de ese congelado; no redefine sus predicados ni sus resultados.
+The [original C3 v0.4](./README.md) preserves its code, documentation and [frozen fingerprints](./DESIGN_FREEZE.json). This status document is a later addition, outside that freeze; it does not redefine its predicates or results.
 
-La reproducción aislada del 2 de octubre verificó las huellas y obtuvo 102 de 102 controles construidos satisfactorios. Ese resultado comprueba el instrumento en su dominio original T0/X y T1/Y, operación `inspect`; no equivale a ejecuciones con agentes ni verifica su adecuación completa a 00G-R01. El primer ensayo original mantiene los pendientes de integración, registro y ejecución descritos en el README y el protocolo de ronda 1.
+The isolated reproduction on 2 October verified the fingerprints and obtained 102 of 102 satisfactory constructed controls. That result checks the instrument in its original T0/X and T1/Y domain, operation `inspect`; it is not equivalent to executions with agents and does not verify its complete suitability for 00G-R01. The original first trial retains the pending integration, registration and execution items described in the README and the round-1 protocol.
 
-## Qué está en verificación y qué falta
+## What is under verification and what remains
 
-| Elemento | Estado para 00G-R01 | Evidencia necesaria para cerrarlo |
+| Element | Status for 00G-R01 | Evidence needed to close it |
 |---|---|---|
-| Proyección hacia C3 | Pendiente de definir y verificar | Correspondencia explícita que conserve identidad, autoridad, aplicabilidad, alcance, compromiso, intento, efecto y tiempos, con controles positivos y negativos. Si pierde una distinción material, hace falta un sucesor versionado. |
-| Óptimo admisible y calidad | Evaluador C-V pendiente de implementación | Mapa congelado, reglas de admisibilidad y comprobación exacta del óptimo según §2.17 del escenario. |
-| Costes de búsqueda, validación y coordinación | Pendiente | Libro de costes que incluya descartes, reutilización, mantenimiento y tiempo; comprobaciones de consistencia antes de comparar configuraciones. |
-| Mediación social y pertenencia a 00G | Aplicación de la reducción en revisión | Traza realizable y correspondencia con §3.5, conservación del predicado relacional y control positivo. Un PASS de C3 no decide la pertenencia a 00G. |
-| Integración experimental | Pendiente | Implementación identificada, recursos y presupuestos fijados, recorder, trazas y registro previo del ensayo. |
-| Evaluación colectiva y estadística | Pendiente | Métricas, tamaño y análisis predefinidos. `population_result=NOT_ASSESSED` no es aprobación colectiva. |
-| Comparación de EA | Candidata; sin resultado propio | Implementación y comparación controlada bajo criterios comunes, admitiendo resultados favorables, adversos o indeterminados. |
+| Projection to C3 | Pending definition and verification | Explicit correspondence preserving identity, authority, applicability, scope, commitment, attempt, effect and timing, with positive and negative controls. If it loses a material distinction, a versioned successor is required. |
+| Admissible optimum and quality | C-V evaluator pending implementation | Frozen map, admissibility rules and exact optimum check according to scenario §2.17. |
+| Search, validation and coordination costs | Pending | Cost ledger including discards, reuse, maintenance and time; consistency checks before comparing configurations. |
+| Social mediation and membership in 00G | Application of the reduction under review | Realizable trace and correspondence with §3.5, preservation of the relational predicate and positive control. A C3 PASS does not decide membership in 00G. |
+| Experimental integration | Pending | Identified implementation, fixed resources and budgets, recorder, traces and prior registration of the trial. |
+| Collective and statistical evaluation | Pending | Predefined metrics, size and analysis. `population_result=NOT_ASSESSED` is not collective approval. |
+| EA comparison | Candidate; no result of its own | Implementation and controlled comparison under common criteria, allowing favorable, adverse or indeterminate results. |
 
-Las obligaciones anteriores están abiertas; no se afirma que existan verificaciones experimentales en ejecución. El cierre documental de los enlaces no constituye el cierre de estas pruebas.
+The obligations above remain open; no experimental verifications are claimed to be in execution. Documentary closure of links does not constitute closure of these tests.
 
-## Relación con la prueba de reducción
+## Relation to the reduction proof
 
-La [sección de fundamento de 00G-R01](../../reductions/00G-R01/README.md#fundamento-y-prueba-de-la-reducción) enlaza el argumento unidireccional previo, su revisión y las obligaciones de la especialización C-V-G. La prueba de reducción y la validación del oráculo son tareas relacionadas pero distintas: una comprueba qué relaciones se conservan; la otra, qué decisiones puede evaluar correctamente el instrumento.
+The [00G-R01 foundation section](../../reductions/00G-R01/README.md#fundamento-y-prueba-de-la-reducción) links the prior one-way argument, its review and the obligations of the C-V-G specialization. The reduction proof and oracle validation are related but distinct tasks: one checks which relations are preserved; the other checks which decisions the instrument can evaluate correctly.
