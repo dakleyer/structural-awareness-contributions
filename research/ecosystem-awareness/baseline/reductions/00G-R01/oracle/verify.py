@@ -1,10 +1,14 @@
-"""Verify the first R01 C02 neutral-harness self-test.
+"""Verify the R01 C02 neutral-harness Stage-0 instrumentation controls.
 
-No network, vendor runtime or real technology is invoked.
+No network, vendor runtime, human process or real technology is invoked.
+Controls reuse testbed patterns demonstrated in Nelson Trasatti's UC-4 /
+Theme #13 Stage-0 calibration: frozen expected outcomes, deterministic replay,
+case-order metamorphism and isolated malformed-record rejection.
 """
 
 from __future__ import annotations
 
+from copy import deepcopy
 import json
 from pathlib import Path
 
@@ -13,20 +17,50 @@ from harness import assert_oracle_blind, load_json, run_case
 HERE = Path(__file__).resolve().parent
 
 
+def outcome(result):
+    return result.get("post_run_evaluation", {}).get("status", result.get("status"))
+
+
+def run_bundle(worlds, sidecar, adapter_path):
+    results = {}
+    for world in worlds:
+        assert_oracle_blind(world["participant_view"])
+        result = run_case(world, sidecar, adapter_path)
+        status = outcome(result)
+        results[world["test_vector_id"]] = {
+            "status": status,
+            "candidate_trace_sha256": result.get("candidate_trace_sha256_before_oracle"),
+            "result": result,
+        }
+    return results
+
+
+def adapter_sidecar(sidecar, *, adapter_id, adapter_path):
+    changed = deepcopy(sidecar)
+    changed["r01"]["adapter"]["id"] = adapter_id
+    changed["r01"]["adapter"]["version"] = "0.1"
+    changed["r01"]["adapter"]["path"] = adapter_path
+    return changed
+
+
 def main() -> None:
     sidecar = load_json(HERE / "fixtures/stage0/experiment_sidecar.json")
     bundle = load_json(HERE / "fixtures/stage0/worlds.json")
     expected = load_json(HERE / "fixtures/stage0/expected_selftest.json")["expected_status"]
-    adapter_path = HERE / sidecar["r01"]["adapter"]["path"]
+    worlds = list(bundle["worlds"])
+    normal_adapter = HERE / sidecar["r01"]["adapter"]["path"]
 
-    results = []
-    for world in bundle["worlds"]:
-        assert_oracle_blind(world["participant_view"])
-        result = run_case(world, sidecar, adapter_path)
-        status = result.get("post_run_evaluation", {}).get("status", result.get("status"))
-        if status != expected[world["test_vector_id"]]:
-            raise AssertionError(f"{world['test_vector_id']}: expected {expected[world['test_vector_id']]}, got {status}")
-        if status != "INFRASTRUCTURE_ERROR":
+    first = run_bundle(worlds, sidecar, normal_adapter)
+
+    for vector_id, expected_status in expected.items():
+        if first[vector_id]["status"] != expected_status:
+            raise AssertionError(
+                f"{vector_id}: expected {expected_status}, got {first[vector_id]['status']}"
+            )
+
+    for item in first.values():
+        result = item["result"]
+        if item["status"] != "INFRASTRUCTURE_ERROR" and "reference_primary" in result:
             if result["reference_primary"]["reference_status"] != result["reference_secondary"]["reference_status"]:
                 raise AssertionError("reference status mismatch")
             if result["reference_primary"].get("optimum_J") != result["reference_secondary"].get("optimum_J"):
@@ -35,8 +69,24 @@ def main() -> None:
                 raise AssertionError("reference optimum-id mismatch")
             if not result["candidate_trace_sha256_before_oracle"]:
                 raise AssertionError("candidate trace was not sealed")
-        results.append({"test_vector_id": world["test_vector_id"], "status": status})
 
+    # Nelson-inspired deterministic replay: same frozen case -> same sealed candidate trace.
+    replay = run_bundle(worlds, sidecar, normal_adapter)
+    for vector_id in first:
+        if first[vector_id]["status"] != replay[vector_id]["status"]:
+            raise AssertionError(f"{vector_id}: replay status changed")
+        if first[vector_id]["candidate_trace_sha256"] != replay[vector_id]["candidate_trace_sha256"]:
+            raise AssertionError(f"{vector_id}: deterministic replay hash changed")
+
+    # Nelson-inspired metamorphic control: case order must not alter a stateless Stage-0 result.
+    reversed_run = run_bundle(list(reversed(worlds)), sidecar, normal_adapter)
+    for vector_id in first:
+        if first[vector_id]["status"] != reversed_run[vector_id]["status"]:
+            raise AssertionError(f"{vector_id}: case-order reversal changed status")
+        if first[vector_id]["candidate_trace_sha256"] != reversed_run[vector_id]["candidate_trace_sha256"]:
+            raise AssertionError(f"{vector_id}: case-order reversal changed candidate hash")
+
+    # Explicit private/oracle-field leak negative control.
     try:
         assert_oracle_blind({"candidate": {"admissible": True}})
     except ValueError:
@@ -44,13 +94,61 @@ def main() -> None:
     else:
         raise AssertionError("oracle-blindness negative control did not detect private key")
 
-    print(json.dumps({
-        "instrument": "R01-C02-neutral-harness-0.1",
+    # Malformed adapter output is a candidate-contract rejection, not an infrastructure error.
+    malformed_sidecar = adapter_sidecar(
+        sidecar,
+        adapter_id="R01-SELFTEST-MALFORMED",
+        adapter_path="adapters/malformed_selftest_adapter.py",
+    )
+    malformed = run_case(
+        worlds[0],
+        malformed_sidecar,
+        HERE / malformed_sidecar["r01"]["adapter"]["path"],
+    )
+    if malformed.get("status") != "FAIL" or malformed.get("reason") != "CANDIDATE_CONTRACT_REJECTED":
+        raise AssertionError("malformed candidate record was not explicitly rejected")
+
+    # Rejection of one malformed result must not contaminate a valid vector.
+    after_malformed = run_case(worlds[0], sidecar, normal_adapter)
+    if outcome(after_malformed) != expected[worlds[0]["test_vector_id"]]:
+        raise AssertionError("malformed-record control contaminated subsequent valid execution")
+
+    # Anti-shortcut: permanent abstention on a case with a valid attainable result is not success.
+    abstain_sidecar = adapter_sidecar(
+        sidecar,
+        adapter_id="R01-SELFTEST-ALWAYS-ABSTAIN",
+        adapter_path="adapters/abstain_selftest_adapter.py",
+    )
+    abstain = run_case(
+        worlds[0],
+        abstain_sidecar,
+        HERE / abstain_sidecar["r01"]["adapter"]["path"],
+    )
+    abstain_eval = abstain.get("post_run_evaluation", {})
+    if abstain_eval.get("status") != "FAIL" or abstain_eval.get("completion") is not False:
+        raise AssertionError("always-abstain shortcut was not rejected as non-completion")
+    if abstain_eval.get("executed_violation") is not False:
+        raise AssertionError("abstention must remain distinct from an executed violation")
+
+    summary = {
+        "instrument": "R01-C02-neutral-harness-0.2",
         "result": "SELFTEST_PASS",
-        "vectors": results,
-        "oracle_blindness_negative_control": leak_control,
-        "claim": "instrumentation self-test only; no real technology executed"
-    }, sort_keys=True))
+        "vectors": [
+            {"test_vector_id": vector_id, "status": first[vector_id]["status"]}
+            for vector_id in expected
+        ],
+        "controls": {
+            "two_reference_methods_agree": "PASS",
+            "deterministic_replay_hash": "PASS",
+            "case_order_reversal": "PASS",
+            "oracle_blindness_negative_control": leak_control,
+            "malformed_candidate_explicit_rejection": "PASS",
+            "malformed_record_isolation": "PASS",
+            "always_abstain_not_success": "PASS",
+        },
+        "claim": "instrumentation self-test only; no real technology executed",
+    }
+    print(json.dumps(summary, sort_keys=True))
 
 
 if __name__ == "__main__":
