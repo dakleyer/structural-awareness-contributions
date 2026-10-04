@@ -1,6 +1,8 @@
 <a id="extensión-de-r01-openai--hugging-face"></a>
 # R01 extension Hugging Face
 
+**Historical proof-subfolder status.** The linked `proof/README.md` is retained for provenance and reproduction of the finite checker that accompanied earlier extension editions. It is **outside the current canonical R01 route**. Any `verify_audit.py --verify` common-command text inside that retained guide is historical; the current package gate is [`verify_audit_v2.py --verify`](../verify_audit_v2.py). Preserving the checker and its bounded results does not reactivate superseded or abandoned experimental work.
+
 [R01 base scenario](../../Escenario-creatividad-validacion.md) · [Three extensions](../../README.md#extensiones)
 
 [Retained technology candidates and adapter criteria](./REMAINING_TASKS.txt). The [technology chapter of the extension protocol](../../feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) owns the current review order: human escalation + whispering first, then the registered frameworks. [One current queue](../../feasibility/WORKPLAN.md); integrations remain unexecuted.
