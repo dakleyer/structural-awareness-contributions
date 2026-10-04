@@ -28,9 +28,11 @@ BASELINE_BY_FILE = {
     "README.md": "e740126897a3952927de1991f0aeae3fc46aa997",
     "COMPUTABILITY_AND_ORACLE_PLAN.md": "5ca951ceb17ecca036ed9ea37357fd8c4a5761bb",
     "feasibility/WORKPLAN.md": "2b2f3f656da5d25f79c782d7d5d60f286c5fbbc7",
-    "oracle/README.md": "c7eee86425f7d3cf44c0478708252bc430222648",
-    "oracle/UC4_INTEROPERABILITY_PROFILE.md": "26d1e12c9faa2636c47015a243d02a5e927f4c6a",
+    "oracle/README.md": "605ea1314622f0f8c257aece82c933dda3e6658e",
+    "oracle/UC4_INTEROPERABILITY_PROFILE.md": "f6d7aa5102bb63c9dc8b0bbc5751c0437b8a090d",
     "oracle/NELSON_REVIEW_REQUEST.md": "84f2283cc6c58c970fef56bd3d58c90bbce9b4ab",
+    "oracle/NELSON_BASELINE_IMPORT.md": "c3ed9a55dd6d5b642107ef6a0baa15320cce1b2e",
+    "oracle/TOOL_BROKER_CONTRACT.md": "2cbfeaee9e533929d94e24e8ebc9dbdd8c3e4992",
 }
 
 CURRENT_ROUTE_FILES = (
@@ -52,6 +54,8 @@ CURRENT_ROUTE_FILES = (
     "oracle/README.md",
     "oracle/UC4_INTEROPERABILITY_PROFILE.md",
     "oracle/NELSON_REVIEW_REQUEST.md",
+    "oracle/NELSON_BASELINE_IMPORT.md",
+    "oracle/TOOL_BROKER_CONTRACT.md",
     "feasibility/README.md",
     "feasibility/WORKPLAN.md",
     "feasibility/CONTINUATION_PROMPT.md",
