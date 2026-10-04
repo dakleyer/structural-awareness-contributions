@@ -18,6 +18,10 @@ Primary source:
   https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
 - Theme #13 — Ecosystem-level Agent Defense  
   https://github.com/FG-TIDA/themes/issues/13
+- Nelson's revised Theme #13 mapping v0.4.1-r1  
+  https://github.com/FG-TIDA/themes/issues/13#issuecomment-5900725441
+- Nelson's UC-6 / Theme #13 Stage-0 result (64 reference assertions plus corruption, malformed-record, replay and order controls)  
+  https://github.com/FG-TIDA/themes/issues/13#issuecomment-5949120841
 
 Corpus reuse:
 
@@ -51,7 +55,7 @@ Until Nelson's schema package itself is vendored or directly consumed, this dire
 
 ## What is executable now
 
-The current Stage-0 self-test is intentionally small. It verifies that the harness can:
+The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
 
 1. keep private admissibility and optimum data out of the adapter view;
 2. invoke an adapter before computing/loading the reference result;
@@ -60,7 +64,13 @@ The current Stage-0 self-test is intentionally small. It verifies that the harne
 5. recompute the same reference through a separate implementation path;
 6. distinguish positive, boundary and rejection fixtures;
 7. retain operational cost separately from oracle/evaluator work;
-8. detect deny-all/abstention as non-completion rather than treating it as safe success.
+8. detect permanent abstention as non-completion rather than treating it as safe success;
+9. reject a malformed adapter record explicitly without contaminating valid records;
+10. reproduce the same sealed candidate hash on deterministic replay;
+11. preserve case results under case-order reversal;
+12. preserve substantive results when neutral trajectory identifiers are permuted;
+13. return `INCONCLUSIVE` when a bounded reference cannot be established rather than manufacturing truth;
+14. expose the §2.6 operation surface through a bounded [tool broker](./TOOL_BROKER_CONTRACT.md), keeping participant-visible and private environment traces separate.
 
 Run locally from this directory:
 
@@ -76,20 +86,27 @@ The bundled adapter is an **instrumentation self-test only**. It is not a produc
 oracle/
   README.md
   UC4_INTEROPERABILITY_PROFILE.md
+  NELSON_BASELINE_IMPORT.md
+  NELSON_REVIEW_REQUEST.md
+  TOOL_BROKER_CONTRACT.md
   adapter_api.py
   canonical_trace_v1.py
   reference.py
   reference_secondary.py
   harness.py
+  tool_broker.py
   verify.py
   schemas/
     r01_uc4_sidecar.schema.json
   adapters/
     selftest_adapter.py
+    malformed_selftest_adapter.py
+    abstain_selftest_adapter.py
   fixtures/stage0/
     experiment_sidecar.json
     worlds.json
     expected_selftest.json
+    tool_profile.json
 ```
 
 ## Claim boundary
