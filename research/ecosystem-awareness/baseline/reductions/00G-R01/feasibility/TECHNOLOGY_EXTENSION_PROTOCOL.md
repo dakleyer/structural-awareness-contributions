@@ -1,6 +1,6 @@
 # R01 — Protocolo de extensión matemática por mecanismos tecnológicos
 
-Versión 0.1 · 4 de octubre de 2026 · M13 en desarrollo.
+Versión 0.2 documental · 4 de octubre de 2026 · M13 en desarrollo.
 Base única: [validación matemática R01 v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 Precedente revisado: [coherencia de las tres extensiones](./EXTENSION_CONSISTENCY_REVIEW.md).
 Primera aplicación matemática: [escalación humana con whispering](./HUMAN_ESCALATION_WHISPERING.md).
@@ -124,14 +124,24 @@ La primera ficha es escalación humana con whispering. Se mantiene este orden: c
 
 | Orden | Tecnología | Trabajo existente | Pendiente dentro de esta extensión |
 |---|---|---|---|
-| 1 | [Escalación humana y whispering](./HUMAN_ESCALATION_WHISPERING.md) | H0/H1 y estudios H2–H4; núcleo propuesto y mecanismos adicionales separados. | Verificar E1–E7 de la realización efectiva; estudiar detector, pausa colectiva, información humana, difusión y composición con coste/plazo completos. |
+| 1 | [Escalación humana y whispering](./HUMAN_ESCALATION_WHISPERING.md) | H0/H1 y estudios H2–H4; núcleo propuesto y mecanismos adicionales separados. | Explicación general y R1/R2/R3 virtuales incorporados. Verificar E1–E7 de la realización efectiva, calibrar fuentes/coste/plazo y ampliar a otras candidatas. |
 | 2 | LangGraph | Candidata previamente registrada; análisis recibido de pausa/reanudación y estado. | Aplicar la misma ficha a una versión fijada; pausa de un grafo no demuestra barrera colectiva. |
 | 3 | OpenAI Agents SDK | Candidata previamente registrada; análisis recibido de aprobación, guardrails, handoffs y trazas. | Revisar núcleo y mecanismos adicionales frente a fuentes de la versión elegida; no convertir el anexo recibido en admisión. |
 | 4 | smolagents | Candidata previamente registrada; análisis recibido de herramientas, callbacks y revisión de planes. | Aplicar la misma ficha; conservar superficies de ejecución y controles nativos. |
 
 Los últimos tres son frameworks candidatos, no tecnologías ya validadas. Su documentación histórica y criterios originales están en [el registro conservado](../extensions/hugging-face/REMAINING_TASKS.txt). Este orden permite revisión sucesiva; no implica una clasificación de rendimiento ni tres implementaciones simultáneas.
 
-### 8.2 Anexos parciales de preparación
+### 8.2 Recorridos virtuales de extensión tecnológica
+
+Para cada candidata, la secuencia de presentación es: explicar y justificar **por qué podría ayudar en general**, comprobar el núcleo isomórfico, separar los mecanismos adicionales y recorrer R1/R2/R3 como examen final virtual del contrato. Esta etapa precede al arnés y a la tecnología real.
+
+- **R1:** referencia competente con sus controles habituales, alternativas y calidad; sin añadir el mecanismo estudiado.
+- **R2:** mismo problema y umbrales, mecanismo y plan de calidad declarados, incluyendo detección, evidencia, intervención, efectos, continuidad, coste y plazo.
+- **R3:** mismo R2 congelado, condición ambiental cambiada, sin reparación posterior; mantener los controles positivos de cambio legítimo y de continuidad autorizada.
+
+Se reutiliza la forma de los recorridos de 00G/00H, sin confundir recorrido con brazo experimental. Un pase de R1/R2/R3 sostiene el alcance que el recorrido cubre; resolver todas las configuraciones requiere además una prueba cuantificada, no tres ejemplos. Un fallo de un controlador no demuestra imposibilidad para todas las estrategias. La [primera ficha](./HUMAN_ESCALATION_WHISPERING.md#virtual-traversals) aporta ambas capas: controles virtuales y cotas all-policy para R1 y R3-A; R2 recupera escenarios bajo el mismo presupuesto de aceptación.
+
+### 8.3 Anexos parciales de preparación
 
 [Inventario de ensayos](./partial-experiments/README.md) · [originales recibidos, ejecuciones y contraejemplos](./partial-experiments/received/2026-10-04/README.md).
 

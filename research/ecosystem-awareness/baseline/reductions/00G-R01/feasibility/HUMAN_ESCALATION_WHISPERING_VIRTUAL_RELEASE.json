@@ -1,0 +1,44 @@
+{
+  "input_commit": "ae710f7d806da226c7140ff6dbc2faf01602c3ca",
+  "scope": "R01 existing technology-extension chapter; virtual traversals, not real technology",
+  "documents": [
+    "feasibility/HUMAN_ESCALATION_WHISPERING.md",
+    "feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+    "feasibility/WORKPLAN.md",
+    "feasibility/CONTINUATION_PROMPT.md",
+    "feasibility/WORKPLAN_STATUS.json",
+    "README.md",
+    "feasibility/README.md"
+  ],
+  "sequence": [
+    "justified general help",
+    "kernel correspondence and additional mechanisms",
+    "virtual R1",
+    "virtual R2",
+    "frozen virtual R3",
+    "quantified conclusion and residual region",
+    "noncanonical partial annexes and later harness"
+  ],
+  "own_review": true,
+  "independent_review_completed": false,
+  "new_scientific_runs": 0,
+  "archived_scripts_rerun": 0,
+  "exact_arithmetic_checks": "Fractions checked; no strategy executed",
+  "base_theorem_changed": false,
+  "readme_bodies_preserved": true,
+  "historical_task_ids_preserved": 55,
+  "active_task_count": 4,
+  "later_stage_count": 3,
+  "task_statuses_unchanged": true,
+  "new_tech_claims": {
+    "R1": "all-policy rejection in the stated band",
+    "R2": "constructive acceptance at the same thresholds",
+    "R3A": "frozen control fails; all-policy rejection; three pair controls retained",
+    "R3BCD": "qualitative scope, version and time controls; no all-policy impossibility inferred",
+    "universal_technology_impossibility": false
+  },
+  "H2_repair": "conditional independence is sufficient, not necessary, for the union product formula",
+  "relative_links_checked": 146,
+  "broken_links": 0,
+  "preservation_verification": "new recursive Git tree must differ only at the declared paths before branch update"
+}

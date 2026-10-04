@@ -1,11 +1,11 @@
 {
-  "version": "0.4-queue-cleanup",
+  "version": "0.5-virtual-traversals",
   "input_commit": "d8fbfa48581df366081143872ec4c16360c51635",
   "actual_utc": "2026-10-04T14:04:11.946875+00:00",
   "plan_editor": "Codex, on user instruction",
   "scientific_tasks_closed_by_this_revision": [],
   "current_order": [
-    "M13: human escalation + whispering technology review",
+    "M13: first technology virtual traversal delivered; next registered candidate",
     "M16: uncovered independent review only",
     "M17: remaining source-clause fidelity",
     "P08: version-aware documentary integrity",
@@ -271,7 +271,7 @@
         "TECHNOLOGY_EXTENSION_PROTOCOL.md",
         "HUMAN_ESCALATION_WHISPERING.md"
       ],
-      "remaining": "Independent reconstruction of H0/H1, real mechanism membership and full producer/time ledger; no integration or campaign executed.",
+      "remaining": "Continue subsequent candidates through the same explanation, kernel, mechanisms and virtual R1/R2/R3 sequence; verify implementation membership, empirical producer/time ledger and calibration in their later stage. Independent proof coverage stays under M16.",
       "historical_status_before_cleanup": "IN_PROGRESS",
       "historical_dependencies": [
         "M03",
@@ -283,7 +283,24 @@
       "historical_criterion": "Teoremas sobre clases tecnológicas y coste completo. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
       "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
       "queue_class": "ACTIVE",
-      "dependencies_for_final_closure": []
+      "dependencies_for_final_closure": [],
+      "current_virtual_delivery": {
+        "status": "OWN_CONTRACT_TRAVERSAL_COMPLETE",
+        "document": "HUMAN_ESCALATION_WHISPERING.md",
+        "sections": [
+          "0",
+          "1–6",
+          "7"
+        ],
+        "results": [
+          "R1: all-policy exclusion at the fixed thresholds",
+          "R2: constructive acceptance at the same thresholds",
+          "R3-A: frozen-controller failure and all-policy exclusion; all three pairs attainable",
+          "R3-B/C/D: scope, version and timing controls; no universal impossibility inferred"
+        ],
+        "actual_technology_executed": false,
+        "independent_review": false
+      }
     },
     "M14": {
       "status": "CONSOLIDATED",
@@ -1010,9 +1027,9 @@
   "dependency_semantics": "final-closure dependencies; preparation and early source/attack work may begin before them. T06 behavioral closure is separate from universal transfer, which additionally requires M13/M17/M16. C11 starts with resource contract, freezes statistics before campaign. M16 audits included M13–M15 claims separately without a cyclic dependency.",
   "source_artifacts": "M01/M02/M10/TRILEMMA historical evidence and base scenario unchanged; theorem doc receives status notice only",
   "next_delivery": [
-    "Continue the first technology under TECHNOLOGY_EXTENSION_PROTOCOL.md §8.1; human + whispering is the first technology, not a parallel governance project",
-    "Review every subsequent candidate through the same protocol; received material and scripts are partial rehearsal annexes",
-    "Build the neutral harness and real-technology campaign only after their contracts; no new scientific execution in this cleanup"
+    "M13: next registered candidate (LangGraph), with primary sources and a pinned version; reuse the existing protocol and virtual traversal structure",
+    "M16/M17/P08: retain only their delimited outstanding coverage",
+    "C02 -> C11 -> T03 remain later stages; no new scientific execution"
   ],
   "independent_review": false,
   "mathematical_results_changed": false,
@@ -1164,7 +1181,7 @@
     ],
     "canonical_validation_structure_preserved": true
   },
-  "latest_input_commit": "a19c3d81e904b74b28dd48f4bdf68fac91759524",
+  "latest_input_commit": "ae710f7d806da226c7140ff6dbc2faf01602c3ca",
   "technology_mechanism_development": {
     "protocol": "TECHNOLOGY_EXTENSION_PROTOCOL.md",
     "first_case": "HUMAN_ESCALATION_WHISPERING.md",
@@ -1174,7 +1191,15 @@
     "human_calibration": false,
     "new_scientific_executions": 0,
     "classification": "First technology of the extension protocol; mathematical contract reviewed, implementation admission still open",
-    "candidate_registry": "TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study"
+    "candidate_registry": "TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study",
+    "virtual_traversals": {
+      "document": "HUMAN_ESCALATION_WHISPERING.md#virtual-traversals",
+      "status": "OWN_CONTRACT_REVIEW_COMPLETE",
+      "sequence": "general justified help -> isomorphic kernel -> additional mechanisms -> R1/R2/R3 -> scoped quantitative conclusion",
+      "not_universal_domain_acceptance": true,
+      "new_scientific_executions": 0,
+      "mathematical_H2_wording_repair": "conditional independence sufficient, not necessary, for the union product identity"
+    }
   },
   "active_task_count": 4,
   "deferred_delivery_count": 3,

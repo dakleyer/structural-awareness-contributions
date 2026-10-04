@@ -26,3 +26,10 @@ La dureza informativa creciente ya tiene una construcción simbólica mediante p
 | Próximo trabajo | Escalación humana y whispering como primera tecnología del protocolo. |
 | Revisión pendiente | M16: cobertura independiente; M17: fidelidad; P08: integridad por edición. |
 | Secuencia posterior | Prueba matemática → oráculo y arnés neutral → registro → campaña con tecnología real. |
+
+
+| Recorridos virtuales tecnológicos — actualización al final | Estado |
+|---|---|
+| [Escalación humana y whispering](./HUMAN_ESCALATION_WHISPERING.md#virtual-traversals) | Explicación general incorporada antes de los recorridos; R1/R2/R3 examinados bajo contrato, con controles positivos. R2 recupera escenarios y R3-A conserva una región residual. |
+| Continuación | Misma cola: cuatro frentes activos y tres etapas posteriores. La primera entrega virtual está realizada; las siguientes candidatas reutilizan su estructura. |
+| Alcance | Revisión propia matemática/virtual; sin tecnología real, campaña ni nueva ejecución científica. Ensayos anteriores siguen como anexos parciales no canónicos. |

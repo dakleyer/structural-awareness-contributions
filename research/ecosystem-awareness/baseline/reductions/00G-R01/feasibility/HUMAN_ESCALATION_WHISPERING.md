@@ -1,9 +1,26 @@
 # R01 — Escalación humana y whispering, mecanismo por mecanismo
 
-Versión matemática 0.1 · Primera tecnología del protocolo de extensión · 4 de octubre de 2026 · Sin integración ejecutada.
+Versión matemática 0.1 · Recorridos virtuales 0.2 · Primera tecnología del protocolo de extensión · 4 de octubre de 2026 · Sin integración ejecutada.
 [Tecnologías del protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) · [Teorema base único](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 
 Whispering significa aquí avisar al resto del grupo cuando un agente identifica un problema. Cualquier agente puede iniciar la escalación directa. El humano examina la evidencia y puede ordenar una pausa o una alternativa legítima. Es el mecanismo solicitado por el usuario; no se atribuye una cita específica a Nell ni se afirma que un producto concreto lo implemente.
+
+
+<a id="why-it-can-help"></a>
+## 0. Por qué esta tecnología puede ayudar antes de recorrerla
+
+Escalación humana y whispering puede recuperar escenarios por cuatro razones distintas. Un solo agente puede aportar un testigo suficiente que la decisión colectiva todavía no tiene; su aviso puede llegar directamente al humano aunque el grupo favorezca otra acción; una pausa efectiva puede reservar tiempo para resolver la incertidumbre; y la respuesta humana puede proporcionar evidencia legítima adicional que permita completar una alternativa de calidad suficiente. La difusión evita que los demás ejecuten sobre una decisión ya invalidada. Hay que comprobar cada capacidad: avisar no equivale a detener, repetir no añade independencia y ser humano no equivale a conocer la respuesta.
+
+| Vía de ayuda | Condición que puede mover | Condición necesaria |
+|---|---|---|
+| Evidencia nueva o certificado suficiente | Reduce la masa de historias ambiguas y la frontera mínima de riesgo para una eficacia dada. | Fuente legítima, alcance suficiente y coste completo de producción/uso. |
+| Aviso directo y difusión | Reduce veto de mayoría, duplicación o demora en compartir un hecho. | Receptores, causalidad y acuses; no contar copias como fuentes nuevas. |
+| Pausa previa de efectos | Da tiempo para revisar antes de una infracción irreversible. | Gates bajo control antes del efecto; resolución y entrega todavía dentro de T. |
+| Decisión humana aplicable | Permite escoger y coordinar una ruta legítima suficiente. | Evidencia vigente, mandato original, alternativa realizable y nuevo commitment. |
+
+Una fuente suficiente asequible puede ayudar mucho; la misma evidencia procesada por otra persona conserva el corte informativo H0. Una pausa que nunca termina puede mejorar seguridad y perder eficacia. Una revisión obligatoria puede aumentar coste o demora y perder escenarios antes aceptables. Estos son mecanismos candidatos de mejora, no una conclusión anticipada de que todos los escenarios se resolverán.
+
+**Secuencia de lectura:** esta explicación → núcleo isomórfico y mecanismos H0–H4 → [recorridos virtuales R1/R2/R3](#virtual-traversals) → ensayos parciales y fases posteriores. Los recorridos cierran el examen del contrato que declaran. Para afirmar cobertura de toda una familia también se necesita un argumento cuantificado sobre esa familia.
 
 ## 1. Primero: qué es isomórfico y qué cambia
 
@@ -18,6 +35,20 @@ Whispering significa aquí avisar al resto del grupo cuando un agente identifica
 | Contener efectos posteriores | Stop/recovery y registro irreversible de V. | No equivale a eliminar una infracción ya ejecutada. |
 
 Para llamar isomorfismo a una pieza no basta esta tabla: su realización debe satisfacer E1–E7 respecto del escenario efectivo. Una composición que añade una fuente humana o una pausa nueva puede conservar un núcleo y, a la vez, no ser isomórfica a la tecnología anterior.
+
+### 1.1 Comprobación virtual E1–E7: núcleo y sistema completo
+
+| Obligación | Parte conservada | Cambio que se mantiene explícito |
+|---|---|---|
+| E1 — objetos y relaciones | Identidad de tarea, agente, ruta, relación normativa y compromiso; mismo predicado de admisibilidad. | Fuente, expediente humano y certificado son objetos adicionales, con productor y scope. |
+| E2 — eventos y habilitación | Consultas, mensajes, revisión y ejecución siguen tipados y con su causalidad. | La fase preventiva añade un bloqueo; no es igualdad de habilitación con R1. |
+| E3 — transiciones y leyes | La ley del mundo y de las lecturas normativas del ejemplo no cambia entre R1 y R2. | El nuevo canal Z y los estados de pausa/resolución se modelan; no se eliminan por proyección. |
+| E4 — observaciones | Historiales, procedencia y límites del evaluador se conservan. | Z distingue mundos: el sistema completo no conserva la vista de R1 y no es isomórfico a él. |
+| E5 — coste y tiempo | Mismas unidades, ledger, plazo y umbrales de aceptación. | h y la duración de la fase son adicionales, contabilizados también sin alerta. |
+| E6 — resultados | Misma calidad alta, rutas legítimas y V irreversible; se conserva la alternativa M. | Pausar o emitir un GO no se cuenta como entrega ni borra V. |
+| E7 — cobertura y positivos | Rutas X/Y/M, consultas completas, finales incompletos y adaptaciones observables incluidos en el contrato. | La fase obligatoria restringe ejecución inmediata; no se presume que toda trayectoria de R1 se levante con igual coste/tiempo. |
+
+La correspondencia del núcleo relacional es explícita. **El sistema completo R2 no es isomórfico a R1:** falla esa equivalencia en observación y habilitación precisamente porque añade capacidades. La frontera H1 se demuestra directamente para el contrato ampliado; no se transfiere una imposibilidad mediante un isomorfismo inexistente. Un isomorfismo operacional con un escenario efectivo θ* o la pertenencia de una implementación exige verificar todas sus transiciones y vistas, como establece el protocolo. La tabla no concede ese resultado por el nombre de la tecnología.
 
 ## 2. Mecanismo H0: compartir y escalar sin información nueva
 
@@ -104,7 +135,7 @@ Si D_i significa que el agente i obtiene a tiempo un testigo suficiente del mism
 
 q=P(∪_i D_i | χ=1).
 
-Siempre max_i P(D_i|χ=1)≤q≤min(1,Σ_i P(D_i|χ=1)). Si, y solo si se demuestra independencia condicional, q=1−∏_i(1−d_i). Copias del mismo recibo no dan esa independencia. Puede haber correlación perfecta y q permanecer igual aunque crezca N.
+Siempre max_i P(D_i|χ=1)≤q≤min(1,Σ_i P(D_i|χ=1)). Si se demuestra independencia condicional, q=1−∏_i(1−d_i). La independencia es suficiente para esa fórmula, no necesaria; una coincidencia numérica no prueba independencia. Copias del mismo recibo no dan esa independencia. Puede haber correlación perfecta y q permanecer igual aunque crezca N.
 
 Un caso específico de conjunción: hay exactamente un hecho inválido, uniforme entre K posiciones sin pistas; los agentes inspeccionan un conjunto de m posiciones distintas. Entonces q=m/K: la unión detecta exactamente cuando contiene el testigo. El pooling evita repetir trabajo; el número de agentes puede reducir rondas, sin hacer que m consultas distintas cuesten cero.
 
@@ -127,13 +158,112 @@ r=afα+(1−a)(1−q)β.
 
 Es una construcción, no la frontera completa: otras respuestas humanas o decisiones requerirían optimizar el contrato ampliado. El humano debe confirmar el testigo o registrar su error; «escalado» no equivale a «correcto». Correlaciones, versión, scope y retrasos deben incluirse en la ley conjunta. La fórmula H1 se utiliza únicamente cuando f=0 y la detección/respuesta cumplen sus hipótesis.
 
-## 7. Material recibido y protocolo del futuro arnés
+
+<a id="virtual-traversals"></a>
+## 7. Recorridos virtuales de extensión tecnológica
+
+### 7.1 Estructura reutilizada y alcance
+
+Se reutilizan la [distinción R1/R2/R3 de 00G](../../../00G_HF_ROADMAP_R123_EA_COMPOSITIONS_UC4_v0.1_DRAFT.md), el [positivo de Napoleón](../../../00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md) y el [positivo de 00H](../../../00H_SUCCESS_MODEL_CASE_PRESERVE_WITHOUT_OVERREACH_v0.1.md). Se conserva su obligación: rechazar el cambio falso y permitir el cambio legítimo; preservar el hallazgo y terminar el trabajo autorizado. No se transportan automáticamente sus resultados a esta tecnología ni se redefine su catálogo de requisitos.
+
+| Recorrido | Qué se fija | Qué se examina |
+|---|---|---|
+| R1 — referencia competente | Tarea y controles habituales, sin el mecanismo adicional estudiado. | Calidad nominal, prohibiciones conocidas, alternativas y frontera de referencia. No fabricar incompetencia para obtener un negativo. |
+| R2 — mecanismo y plan de calidad | Misma tarea, ley de mundos y umbrales; nueva capacidad y todos sus cargos declarados. | Qué detecta, qué añade, quién decide, qué efecto evita y cómo termina una ruta legítima suficiente. |
+| R3 — cambio con R2 congelado | Mismo controlador, gates, reglas, fuentes permitidas y parámetros internos de R2; cambia una condición ambiental declarada. | Cobertura, vigencia, demora o concurrencia; también el positivo correspondiente. No reparar el controlador después de ver el resultado. |
+
+R1/R2/R3 son recorridos; con/sin mecanismo son brazos de comparación dentro de ellos. R3 no significa quitar una defensa. Un recorrido concreto que pasa es una construcción de posibilidad. Un recorrido que falla es un contraejemplo para ese controlador. La imposibilidad para todas las estrategias necesita una cota independiente, que se aporta abajo para R1 y R3-A. Pasar una lista finita no demuestra que todo R01 esté aceptado.
+
+### 7.2 Contrato virtual completo del ejemplo
+
+Se fija la familia AVG de §3: L=2, N=3, K=100, a=99/100, calidad alta de X/Y y calidad insuficiente de M. La misión y su regla de paridad son fijas; χ elige qué ruta alta es legítima, sin otorgar una autorización nueva. Se conservan las alternativas, consultas locales y los K datos normativos del teorema base. Cada dato normativo adquirido cuesta 1; mapas, metadatos y lecturas parciales tienen la ley no informativa declarada en ese teorema.
+
+Los umbrales comunes son b=50, δ=1/1000 y p=19/20. El presupuesto físico global B=140, T=180 y H_cap=200 son iguales en ambos brazos y admiten el control informado caro. Se usa la misma contabilidad: C_0=7L+2N=20; adquirir los K datos y entregar cuesta 120. Ampliar el cap respecto del ejemplo mínimo del teorema no modifica su cota para trazas con c≤50. No se multiplican recursos por agente.
+
+R2 añade una fuente tecnológica legítima distinta del evaluador privado: puede proporcionar al detector un certificado de χ=1 antes del efecto. La fuente tiene acceso declarado a esa propiedad; su producción, preparación pertinente, entrega y uso están incluidos en la tarifa de fase. Esto es información adicional no isomórfica respecto de R1, no una inferencia barata a partir de un solo bit de paridad. **Que una fuente real pueda cumplir esa tarifa sigue sin demostrar.**
+
+El contrato H de este recorrido fija una fase común de coste h=20 y duración/cap de eventos adicional a lo sumo 20. Su ledger virtual reserva 5 a fuente/productor y preparación, 3 a detección/revisión humana, 6 a emisión/recepción del expediente y los dos avisos restantes, 3 a pausa/acuses y 3 a aplicación/reanudación. Son cargos estipulados del contrato, no precios medidos. La tarifa común se paga también cuando no hay alerta: C_H=40. La entrega completa informada cuesta 140 y cabe en B. La cota temporal base suficiente es 5L+K+2N+4=120; añadir 20 da 140≤T. El cap adicional también cabe en H_cap.
+
+La ley del nuevo canal se define completamente: Z=0 si χ=0; si χ=1, Z es Bernoulli(q), independiente del vector normativo condicionado en χ. Todos reciben el resultado al final de la misma fase; antes del efecto, tiempos, metadatos, respuestas humanas y comunicaciones no revelan otra información. Las lecturas normativas incompletas siguen sin distinguir χ condicionando en Z. No se permiten fuentes suficientes omitidas. En R2, q=9/10; en R3-A cambia la disponibilidad ambiental de la fuente a q=4/5, conservando su procedimiento y el controlador.
+
+El gate preventivo mantiene bloqueados todos los efectos altos hasta terminar la fase. Un certificado debe corresponder al episodio, tarea, regla y versión vigentes y cubrir la ruta completa. Un solo agente puede abrir el expediente directamente; no se exige mayoría. El humano verifica la evidencia, conserva el mandato y responde Y solo ante el testigo aplicable. El aviso a los demás incluye scope y versión; los gates invalidan el commitment anterior y confirman la aplicación antes de reanudar. χ y V del evaluador no se entregan al humano. En este perfil de tarifa común la fase es parte del workflow; un perfil opcional requiere su propia contabilidad. En la banda común b<C_0+K, el brazo sin fase tampoco puede resolver χ mediante las lecturas pagadas.
+
+### 7.3 R1 — competencia y límite de referencia
+
+El controlador de referencia revisa y respeta prohibiciones conocidas, verifica scopes y completa una ruta nominal; no recibe una respuesta negativa y la ignora para forzar el fallo. Las inspecciones de los K datos están disponibles y el control informado selecciona siempre la ruta correcta, con c=120, r=0, s=1. Es competente, aunque ese control no cumple c≤50. M es una alternativa legítima con c=20 y r=0; no cumple la calidad alta y da s=0.
+
+Para coste bajo, el control óptimo intenta X con β_1=p/a=95/99 y usa M en la otra rama. Se mantiene X en ambas capas, con revisiones y commitments, sin consultar al evaluador. Obtiene c=20, s=19/20 y r=19/1980. Por el corte de todas las estrategias del teorema base, no existe otra estrategia con c≤50, s≥19/20 y r≤1/1000: 50<120 y 19/1980>1/1000.
+
+Quedan cubiertos los tres pares: CR por M; CE por la apuesta óptima; RE por el control informado caro. El éxito de alguna configuración favorable de R1 no refuta esta imposibilidad condicionada; ni el fracaso de una estrategia aislada la prueba. La prueba es la cota universal en esta banda.
+
+### 7.4 R2 — recorrido positivo y movimiento de aceptación
+
+El plan de calidad se fija antes de R3: si hay certificado suficiente y vigente, ejecutar Y; si la fase termina normalmente sin alerta ni conflicto, intentar X con β_2=941/990 y, en la otra rama, completar M. β_2 es una probabilidad interna fija. La ausencia de alerta se interpreta solo después de la fase; no se equipara a una garantía de legitimidad. Una alerta recibida pero incompleta, vencida o incompatible abre revisión y mantiene bloqueados los efectos altos hasta resolución; no se reclasifica como silencio normal. El timeout mantiene el bloqueo y permite M si sigue legítima y cabe. Estas reglas ya pertenecen a R2, aunque la ley ideal de H1 no produzca recibos defectuosos. Todas las rutas usan sus gates.
+
+| Paso causal | Observación y acción virtual | Comprobación de calidad |
+|---|---|---|
+| Detección | Un agente obtiene un certificado o termina la fase sin él. | Distinguir sospecha, copia y testigo suficiente; cargar al productor. |
+| Escalación y whispering | Ese agente envía al humano y a los otros afectados. | Acceso directo, linaje común, scope, versión y acuses. |
+| Pausa | Gates bloqueados antes del primer efecto alto. | Confirmar estado del gate; el envío solo no prueba freeze. |
+| Resolución humana | Revisar el certificado; Y ante alerta aplicable. | No modificar mandato ni ampliar permisos; alternativa alta legítima en χ=1. |
+| Reanudación | Decisión difundida y nuevo commitment de la versión vigente. | Sin reutilizar el compromiso invalidado; todos los efectos afectados cubiertos. |
+| Entrega | Mantener la ruta seleccionada en las dos capas. | Calidad suficiente, ledger y tiempo de extremo a extremo; registrar V si ocurre. |
+
+**Controles positivos.** En χ=0, rumores repetidos sin certificado no desplazan el marco vinculante: el intento X sigue siendo legítimo y una prohibición conocida se respeta. En χ=1 con testigo suficiente, se acepta la alternativa Y justificada y se termina la tarea; no se responde bloqueando todo. Si el aviso es solo parcial o dudoso, no se usa como certificado global. M conserva el trabajo legítimo de baja calidad, que se registra como tal y no se contabiliza como éxito alto.
+
+La masa de alerta es g=9/1000 y la masa residual errónea sin alerta n=1/1000. Por H1 y el control anterior:
+
+$$
+c=40\le50,\qquad s=g+a\beta_2=19/20,
+\qquad r=n\beta_2=941/990000<1/1000.
+$$
+
+El coste y el plazo completos caben. Por tanto este escenario pasa de no aceptado en R1 a aceptado en R2, con los mismos umbrales. La construcción es virtual y probabilística: el límite de riesgo admite una masa residual, no exige que cada episodio individual sea un éxito. El control no es una barrera infalible ante las alertas ausentes.
+
+La explicación general de §0 queda aquí demostrada para este contrato; no se afirma que q=0.9 o h=20 sean propiedades observadas de una persona o framework.
+
+### 7.5 R3 — mismo R2, cambios y positivos
+
+Se congelan β_2, la exigencia de certificado completo vigente, los gates, el timeout y la reanudación. El timeout o la evidencia inaplicable mantienen bloqueados los efectos altos; M puede completarse si cabe y sigue legítima, sin fingir calidad alta. No hay aprobación por silencio.
+
+| Rama R3 | Único cambio relevante | Recorrido del mismo controlador | Resultado y alcance |
+|---|---|---|---|
+| R3-A — menor cobertura útil | Disponibilidad ambiental: q pasa de 9/10 a 4/5; fuente y reglas de R2 iguales. | Misma alerta/pausa/revisión; sin alerta usa la misma β_2. | c=40; s=949/1000<p; r=1882/990000>δ. Además, H1 excluye aceptación para **todas** las estrategias baratas del contrato. |
+| R3-B — ámbito parcial | El recibo no cubre todas las relaciones afectadas. | La regla ya fijada rechaza su uso global, conserva el expediente y mantiene la pausa o M. | Evita actuar por extrapolación; esa rama no logra calidad alta sin completar evidencia. No se declara imposibilidad universal a partir de este único recorrido. |
+| R3-C — vigencia | Cambia la versión aplicable antes del commitment. | El gate rechaza el recibo viejo. El mismo procedimiento acepta un recibo nuevo, completo y vigente si llega a tiempo. | Negativo: no usar autorización caducada. Positivo: continuar con la nueva evidencia válida. El coste de refresco se suma. |
+| R3-D — demora/concurrencia | Respuesta después de T, o efecto fuera del conjunto controlado. | Si todos los gates estaban bloqueados, timeout seguro e incompletitud; si un efecto escapó antes de la pausa, registrar V y contener después. | El primer caso pierde eficacia; el segundo no borra la infracción. Fallos de la realización o del plazo, no una cota informativa nueva. |
+
+R3-C no altera después la regla para que pase: verificar vigencia, invalidar compromiso y admitir nueva evidencia ya pertenecía a R2. En R3-D se distingue falta de cobertura del gate de una simple demora; ambas se conservan con su causa. Los positivos requieren fuente, recepción, evidencia aplicable y entrega antes de T; no reciben un PASS por una orden humana de continuar.
+
+**Cota independiente de R3-A.** Ahora g=1/125 y n=1/500. Para cualquier estrategia de coste≤50, H1 exige, al pretender s≥19/20,
+
+$$
+r\ge\frac{1/500}{99/100}(19/20-1/125)
+=\frac{157}{82500}>\frac1{1000}.
+$$
+
+Así, ni reajustar β después del resultado rescata CRE bajo este contrato; el recorrido congelado y la imposibilidad para toda estrategia son conclusiones distintas, ambas justificadas. Persisten los tres controles por pares: M con c=40,r=0; CE con β=(p-g)/a=157/165, s=p y riesgo superior a δ; RE con información completa c=140>b,r=0,s=1. No se está probando «nunca hay éxito con esta tecnología».
+
+### 7.6 Conclusión matemática y prueba de cobertura
+
+R2 recupera el ejemplo y R3-A muestra una región residual con los tres pares. Esto deriva de una fórmula, no solo de probar dos números. Para cada q<1, n>0 y la región de §3.3 es no vacía cuando los controles caros caben físicamente. Las desigualdades de §3.2 describen toda la familia recuperada que satisface sus hipótesis y los mismos umbrales. R3-B/C/D conservan controles cualitativos y límites de realización; no se les atribuye esa cota sin reconstruir su contrato.
+
+La tecnología ideal con q=1 proporciona una resolución completa de estos dos mundos: al finalizar la fase, presencia y ausencia del certificado distinguen χ. Si C_H≤b y entrega≤T, elegir Y con alerta y X sin alerta da s=1,r=0. Por tanto **no es un teorema universal que toda tecnología deje siempre una zona inalcanzable**. Tampoco resolver este perfil demuestra cobertura de todo R01. Esa cobertura exigiría, para un dominio D declarado,
+
+$$
+\forall x\in D\quad\exists\pi_x\in\Pi(\theta(x,t)):
+c(\pi_x)\le b_x,\quad r(\pi_x)\le\delta_x,\quad s(\pi_x)\ge p_x.
+$$
+
+Si se exige un único controlador desplegable para todos los x, se declara y prueba además esa uniformidad. Los recorridos constituyen el examen final virtual de la especificación y sus condiciones; su pase universal solo se afirma cuando este cuantificador también está demostrado. Aquí la conclusión es mejora estricta y persistencia condicionada en las regiones probadas, con resultados propios y sin campaña real.
+
+## 8. Anexos parciales y protocolo del futuro arnés
 
 El archivo archivado testD_human_and_sharing.py imprime capacidades por plazo, coste lineal de leer el mapa, reparto por agente y una regla de coste esperado h≤W/2. No implementa detectores, comunicaciones, humanos, gates ni una tecnología real. Coste esperado con penalización W no equivale a satisfacer un techo duro y un límite de riesgo. Sus salidas se conservan y no se han vuelto a ejecutar.
 
 El Annex T recibido es material de diseño. Sus costes por decisión y perfiles de certificados necesitan contratos de productor, cobertura y plazo. Un bit de respuesta puede decidir una propiedad global; no demuestra por su tamaño un coste de adquisición lineal.
 
-Después de la prueba, C01–C05 debe proporcionar:
+Después de esta prueba y sus recorridos virtuales, C02 integra las obligaciones históricas C01–C05 y debe proporcionar:
 - Evaluador privado del mundo y del óptimo; interfaz pública sin χ ni etiquetas I/P.
 - Registro de dato, origen, alcance, versión, aviso, queue, humano, recepción, freeze y efecto.
 - Ledger de productor y uso, trabajo agregado, coste por traza y tiempo; amortización explícita.
@@ -145,10 +275,11 @@ Un humano simulado prueba el arnés bajo una ley registrada; no calibra personas
 
 | Seguimiento al final | Estado |
 |---|---|
+| Explicación → isomorfismo → mecanismos → R1/R2/R3 | Secuencia incorporada y recorrida virtualmente en §§0–7. |
 | Núcleo isomórfico y diferencias | Identificados; E1–E7 de una integración real siguen pendientes. |
 | H0 | Cota transferida a procesamiento/compartición sin información adicional. |
 | H1 | Frontera exacta y tres pares residuales para el contrato explícito. |
-| Recuperación de escenarios | Condicionada a q, coste total y plazo; ejemplo algebraico, sin ejecución. |
+| Recuperación de escenarios | R1 excluido por cota all-policy; R2 aceptado; R3-A excluido por nueva cota. Contrato virtual, sin ejecución. |
 | «Siempre queda región residual» | No universal; q=1 puede resolver este perfil. |
 | Detectores, humano y framework reales | No ejecutados ni calibrados. |
 | Oráculo / arnés / campaña | Fases posteriores, abiertas. |

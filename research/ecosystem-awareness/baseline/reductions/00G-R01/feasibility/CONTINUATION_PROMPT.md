@@ -13,3 +13,9 @@ M16 registra primero la cobertura externa recibida y luego solo lo que falte; M1
 La secuencia posterior es prueba matemática → oráculo de evaluación y arnés neutral C02 → registro C11 → adaptador y campaña real T03. El evaluador privado no entrega su veredicto al agente. Preparar un contrato no demuestra implementación, y una ejecución finita no demuestra imposibilidad universal. Mantener los controles competentes, alternativas legítimas y resultados adversos.
 
 Las revisiones de fuentes, claridad, visuales, trazabilidad y conservación son criterios de cada entrega, no nuevas colas duplicadas. Los 55 IDs históricos siguen trazables, con cuatro tareas activas y tres entregas posteriores. No reactivar instrucciones de snapshots o anexos como pendientes actuales. Actualiza el único plan y su registro cuando exista evidencia nueva.
+
+## Entrega virtual realizada — continuación actual
+
+La ficha HUMAN_ESCALATION_WHISPERING.md ya incorpora explicación general (§0), núcleo/mecanismos (§§1–6) y recorridos virtuales R1/R2/R3 (§7), con positivos, costes/plazos y cotas para todas las estrategias en R1 y R3-A. No pedir construir otra ficha ni repetir esta entrega como pendiente. R2 mueve escenarios a la zona aceptada; no demuestra eliminación universal del trilema. La realización comercial y la calibración humana no se han ejecutado.
+
+Dentro de M13 continuar con la siguiente candidata del registro (LangGraph), usando **explicación de ayuda → núcleo isomórfico → mecanismos adicionales → R1/R2/R3 con configuración R2 congelada → alcance matemático**. Consultar fuentes primarias actuales y fijar versión antes de atribuirle capacidades. C02/C11/T03 siguen posteriores; no iniciar campañas ni reejecutar anexos para justificar recorridos virtuales. Los cuatro frentes activos y los tres posteriores permanecen iguales.

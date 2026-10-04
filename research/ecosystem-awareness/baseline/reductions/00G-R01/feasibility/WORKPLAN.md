@@ -9,7 +9,7 @@ La revisión propia del núcleo v0.2, las reparaciones y la revisión de coheren
 
 | ID | Pendiente concreto | Evidencia disponible y criterio de salida |
 |---|---|---|
-| M13 | Continuar la revisión de tecnologías, empezando por escalación humana y whispering. | [Ficha existente](./HUMAN_ESCALATION_WHISPERING.md): H0/H1 y mecanismos H2–H4. Primero comprobar E1–E7 del núcleo efectivo; después estudiar mecanismos adicionales, composición, costes y plazo. Separar resultados matemáticos del contrato y pertenencia de una implementación. Las demás tecnologías siguen la misma ficha. |
+| M13 | Continuar la revisión de tecnologías, empezando por escalación humana y whispering. | [Ficha existente](./HUMAN_ESCALATION_WHISPERING.md): H0/H1 y mecanismos H2–H4; explicación previa y recorridos virtuales R1/R2/R3 ya incorporados. No volver a programar esta entrega. Continuar con la candidata siguiente o una ampliación explícita del contrato; E1–E7 de una realización y calibración real quedan para su etapa. Separar resultados matemáticos del contrato y pertenencia de una implementación. Las demás tecnologías siguen la misma ficha. |
 | M16 | Completar únicamente la cobertura independiente que falte. | Revisiones externas recibidas reconocidas; registrar versión/proposición antes de solicitar otra revisión. La revisión propia está hecha. |
 | M17 | Completar la auditoría de fidelidad por cláusula y de correspondencia tecnológica. | [Teorema v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md), [auditoría propia](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md) y [dictamen de extensiones](./EXTENSION_CONSISTENCY_REVIEW.md). Conservar lo desarrollado; comprobar solo canales, políticas o costes cuya cobertura siga sin verificar. |
 | P08 | Verificar la edición vigente sin alterar manifiestos históricos. | Diferencias de hashes ya registradas. Emitir correspondencia por versión; no sobrescribir históricos ni afirmar reproducción conjunta sin comprobarla. |
@@ -42,7 +42,13 @@ M03/M04/M12 no vuelven a pedir construir la prueba base: el [teorema canónico](
 
 | Seguimiento | Estado |
 |---|---|
-| Próxima tarea | M13: escalación humana y whispering como primera tecnología del protocolo. |
+| Próxima tarea | M13: explicación y recorridos virtuales de la primera tecnología entregados; continuar por candidatas sin reabrir tareas superadas. |
 | Revisiones aún abiertas | M16, M17 y P08 con alcance delimitado. |
 | Oráculo / arnés / campaña real | Etapas posteriores; ninguna ejecución nueva en esta depuración. |
 | Conservación | IDs, criterios y documentos anteriores archivados íntegramente; fórmulas y resultados conservados. |
+
+| Entrega virtual posterior — seguimiento al final | Estado |
+|---|---|
+| Escalación humana y whispering | Explicación de ayuda, núcleo/mecanismos y R1/R2/R3 incorporados en la ficha existente. R2 recupera; R3-A conserva el trilema bajo otra condición. |
+| Qué sigue dentro de M13 | Aplicar la misma secuencia a la siguiente candidata del protocolo; delimitar por contrato las lagunas que requieran ampliación. |
+| Etapas posteriores | C02/C11/T03 siguen diferidas; no se ejecutó tecnología real. M16/M17/P08 conservan su alcance. |

@@ -191,3 +191,10 @@ El estudio se reúne en una subcarpeta propia de R01. Los escenarios, reduccione
 | Escalación humana y whispering | [Primera ficha matemática](./feasibility/HUMAN_ESCALATION_WHISPERING.md): cota con información compartida, frontera de alerta suficiente y controles; coste y plazo condicionados. |
 | Validación pendiente | M16 OPEN, M17 IN_PROGRESS; P08 conserva las discrepancias documentales; integración, arnés y campaña sin ejecutar. |
 | Estado | Cuatro tareas actuales y tres entregas posteriores; los 55 IDs y criterios históricos siguen trazables. No se declara una nueva validación científica. |
+
+
+| Recorridos virtuales tecnológicos — actualización al final | Estado |
+|---|---|
+| [Escalación humana y whispering](./feasibility/HUMAN_ESCALATION_WHISPERING.md#virtual-traversals) | Explicación general incorporada antes de los recorridos; R1/R2/R3 examinados bajo contrato, con controles positivos. R2 recupera escenarios y R3-A conserva una región residual. |
+| Continuación | Misma cola: cuatro frentes activos y tres etapas posteriores. La primera entrega virtual está realizada; las siguientes candidatas reutilizan su estructura. |
+| Alcance | Revisión propia matemática/virtual; sin tecnología real, campaña ni nueva ejecución científica. Ensayos anteriores siguen como anexos parciales no canónicos. |
