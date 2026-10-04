@@ -13,14 +13,14 @@ The following existing explanation and supporting links are retained. Incident-s
 <a id="lugar-de-la-reducción-dentro-de-00g"></a>
 ## Place of the reduction within 00G
 
-The question is where an architecture that explores probabilistically, validates at a cost and shares findings can obtain legitimate, high-quality solutions at a reasonable cost, and where the trilemma of lacking integrity, inefficiency or mediocrity appears. The study seeks to locate that boundary and measure how far competent improvements shift it. EA appears at the end as a complementary candidate.
+The question is where an architecture that explores probabilistically, validates at a cost and shares findings obtains legitimate solutions of quality at a reasonable cost, and where the trilemma of lacking integrity, being inefficient or being mediocre appears. The study seeks to locate that boundary and measure how far competent improvements shift it. EA appears at the end as a complementary candidate.
 
 **[00G Napoleon](../../../../00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md) → 00G-R01, this reduced scenario → foundation of the reduction.** R means reduction; 01 is its number. C-V is an internal descriptive abbreviation, not a canonical scenario identifier.
 
 <a id="fundamento-y-prueba-de-la-reducción"></a>
 ## Foundation and proof of the reduction
 
-**Reduction proof under review:** the argument is documented and its application to C-V-G is checked; admission of this specialization is not declared complete. The foundation document for this scenario is the [one-way reduction v0.1](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), especially §§2 and 7. Its [review of steps 1 and 2](../../../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) preserves the argument and delimits its scope. Both are consulted here as support for 00G-R01; neither replaces the reduced scenario.
+**Reduction proof under review:** the argument is documented and its application to C-V-G is checked; admission of this specialization is not declared complete. The foundation document for this scenario is the [one-way reduction v0.1](../../../../00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.1_DRAFT.md), especially §§2 and 7. Its [review of steps 1 and 2](../../../../annexes/00G-HF-STEPS-1-2-REVIEW-v0.1.md) preserves the argument and delimits its scope. They are consulted here as support for 00G-R01; they do not replace the reduced scenario.
 
 | Supporting item | What it contributes to 00G-R01 |
 |---|---|
