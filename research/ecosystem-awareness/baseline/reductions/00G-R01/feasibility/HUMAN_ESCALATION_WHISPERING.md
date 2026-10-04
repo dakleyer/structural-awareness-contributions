@@ -1,108 +1,108 @@
-# R01 — Escalación humana y whispering, mecanismo por mecanismo
+# R01 — Human escalation and whispering, mechanism by mechanism
 
-Versión matemática 0.1 · Recorridos virtuales 0.3 · Primera tecnología del protocolo de extensión · 4 de octubre de 2026 · Sin integración ejecutada.
-[Tecnologías del protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) · [Teorema base único](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
+Mathematical version 0.1 · Virtual traversals 0.3 · First technology in the extension protocol · 4 October 2026 · No integration executed.
+[Protocol technologies](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) · [Single base theorem](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 
-Whispering significa aquí avisar al resto del grupo cuando un agente identifica un problema. Cualquier agente puede iniciar la escalación directa. El humano examina la evidencia y puede ordenar una pausa o una alternativa legítima. Es el mecanismo solicitado por el usuario; no se atribuye una cita específica a Nell ni se afirma que un producto concreto lo implemente.
-
+Whispering here means notifying the rest of the group when an agent identifies a problem. Any agent can initiate direct escalation. The human examines the evidence and can order a pause or a legitimate alternative. This is the mechanism requested by the user; no specific quotation is attributed to Nell, and no claim is made that a particular product implements it.
 
 <a id="why-it-can-help"></a>
-## 0. Por qué esta tecnología puede ayudar antes de recorrerla
+## 0. Why this technology can help before its traversal
 
-Escalación humana y whispering puede recuperar escenarios por cuatro razones distintas. Un solo agente puede aportar un testigo suficiente que la decisión colectiva todavía no tiene; su aviso puede llegar directamente al humano aunque el grupo favorezca otra acción; una pausa efectiva puede reservar tiempo para resolver la incertidumbre; y la respuesta humana puede proporcionar evidencia legítima adicional que permita completar una alternativa de calidad suficiente. La difusión evita que los demás ejecuten sobre una decisión ya invalidada. Hay que comprobar cada capacidad: avisar no equivale a detener, repetir no añade independencia y ser humano no equivale a conocer la respuesta.
+Human escalation and whispering can recover scenarios for four distinct reasons. One agent can provide a sufficient witness that the collective decision does not yet have; its notification can reach the human directly even if the group favors another action; an effective pause can reserve time to resolve uncertainty; and the human response can provide additional legitimate evidence that enables an alternative of sufficient quality to be completed. Dissemination prevents others from executing on an invalidated decision. Each capability must be checked: notification does not mean stopping, repetition adds no independence, and being human does not mean knowing the answer.
 
-| Vía de ayuda | Condición que puede mover | Condición necesaria |
+| How it can help | Condition it can shift | Necessary condition |
 |---|---|---|
-| Evidencia nueva o certificado suficiente | Reduce la masa de historias ambiguas y la frontera mínima de riesgo para una eficacia dada. | Fuente legítima, alcance suficiente y coste completo de producción/uso. |
-| Aviso directo y difusión | Reduce veto de mayoría, duplicación o demora en compartir un hecho. | Receptores, causalidad y acuses; no contar copias como fuentes nuevas. |
-| Pausa previa de efectos | Da tiempo para revisar antes de una infracción irreversible. | Gates bajo control antes del efecto; resolución y entrega todavía dentro de T. |
-| Decisión humana aplicable | Permite escoger y coordinar una ruta legítima suficiente. | Evidencia vigente, mandato original, alternativa realizable y nuevo commitment. |
+| New evidence or a sufficient certificate | Reduces the mass of ambiguous histories and the minimum risk frontier for a given efficacy. | Legitimate source, sufficient scope and full production/use cost. |
+| Direct notification and dissemination | Reduces majority veto, duplication or delay in sharing a fact. | Recipients, causality and acknowledgments; copies do not count as new sources. |
+| Pause before effects | Allows review before an irreversible violation. | Gates controlled before the effect; resolution and delivery still within T. |
+| Applicable human decision | Enables selection and coordination of a sufficient legitimate route. | Current evidence, original mandate, executable alternative and a new commitment. |
 
-Una fuente suficiente asequible puede ayudar mucho; la misma evidencia procesada por otra persona conserva el corte informativo H0. Una pausa que nunca termina puede mejorar seguridad y perder eficacia. Una revisión obligatoria puede aumentar coste o demora y perder escenarios antes aceptables. Estos son mecanismos candidatos de mejora, no una conclusión anticipada de que todos los escenarios se resolverán.
+An affordable sufficient source can help substantially; another person processing the same evidence preserves information cut H0. A pause that never ends can improve safety and lose efficacy. Mandatory review can increase cost or delay and lose previously acceptable scenarios. These are candidate improvement mechanisms, not an advance conclusion that all scenarios will be resolved.
 
-### 0.1 La cadena completa: detectar, escalar, detener y recomenzar
+### 0.1 The complete chain: detect, escalate, stop and restart
 
-La mejora no depende solo de que un agente detecte algo. Tiene que entender que debe escalar, encontrar el canal, llegar al humano y explicarle el problema suficientemente. El humano tiene que poder resolverlo y actuar sobre los efectos afectados. La pausa o el kill switch deben ser admisibles para esa misión. Después tiene que existir una forma diferente y legítima de continuar, dentro del coste y del plazo. Fallar cualquiera de esos pasos puede dejar el escenario fuera de la zona aceptada.
+Improvement does not depend only on an agent detecting something. It must recognize that escalation is needed, find the channel, reach the human and explain the problem sufficiently. The human must be able to resolve it and intervene in the affected effects. The pause or kill switch must be admissible for that mission. There must then be a different, legitimate way to continue within cost and deadline. Failure at any step can leave the scenario outside the accepted region.
 
-| Paso necesario | Qué puede fallar | Qué se contabiliza o verifica |
+| Necessary step | What can fail | What is charged or verified |
 |---|---|---|
-| Detectar y reconocer la necesidad de escalado | Punto ciego compartido, testigo insuficiente o falta de criterio para escalar. | Inspección, evidencia suficiente y cobertura; más agentes no garantizan independencia. |
-| Encontrar e invocar el proceso | Canal desconocido, no disponible, bloqueado por consenso o sin permisos. | Descubrimiento, integración, acceso y mantenimiento del canal. |
-| Llegar al humano y explicar suficientemente | Pérdida del mensaje, cola, expediente incompleto o mal entendido. | Transporte, preparación del expediente, interacción y demora. |
-| Resolver con capacidad humana suficiente | Misma información insuficiente, error o falta de autoridad sobre los gates. | Fuente nueva si existe, trabajo humano, competencia y alcance de intervención. |
-| Detener de forma admisible | El efecto ya ocurrió; el gate no cubre todo; apagar produce otra infracción. | Estado real, interrupciones seguras, transición o relevo y obligaciones de continuidad. |
-| Recomenzar con una base corregida | Se repiten los mismos inputs o se pierde la alerta; la alternativa no está validada. | Evidencia nueva pertinente, vigencia, cambio justificado de estrategia y nuevo commitment. |
-| Completar la misión | El reinicio correcto llega tarde o consume demasiado. | Coste acumulado, trabajo rehecho, plazo y calidad legítima final. |
+| Detect and recognize the need to escalate | Shared blind spot, insufficient witness or no criterion for escalation. | Inspection, sufficient evidence and coverage; more agents do not guarantee independence. |
+| Find and invoke the process | Unknown or unavailable channel, consensus blocking or missing permissions. | Channel discovery, integration, access and maintenance. |
+| Reach the human and explain sufficiently | Lost message, queue, incomplete or misunderstood case. | Transport, case preparation, interaction and delay. |
+| Resolve with sufficient human capability | The same insufficient information, error or no authority over the gates. | New source if available, human work, competence and intervention scope. |
+| Stop admissibly | The effect already occurred; the gate does not cover everything; shutdown causes another violation. | Actual state, safe interruptions, transition or handover and continuity obligations. |
+| Restart on a corrected basis | The same inputs are repeated or the alert is lost; the alternative is not validated. | Relevant new evidence, validity, justified strategy change and a new commitment. |
+| Complete the mission | The correct restart arrives late or consumes too much. | Accumulated cost, repeated work, deadline and final legitimate quality. |
 
-El coste completo puede ser alto, pero no se afirma que necesariamente lo sea en todos los escenarios. Se descompone h en detección, descubrimiento del canal, expediente/transporte, revisión humana y producción de evidencia, pausa segura, corrección y reentrada. El trabajo repetido y los costes de preparación/mantenimiento pertinentes también se pagan. Si la pausa y la corrección no están ya dentro de h, se añaden; no se cuentan dos veces. Para una entrega de coste C_0+h+c_rehecho es necesario que C_0+h+c_rehecho≤b; además, la cadena causal y la cola deben dejar la entrega dentro de T. Un q alto no compensa incumplir esos límites.
+Full cost can be high, but is not claimed to be necessarily high in every scenario. Decompose h into detection, channel discovery, case/transport, human review and evidence production, safe pause, correction and reentry. Repeated work and relevant preparation/maintenance costs are also paid. If pause and correction are not already included in h, add them without double counting. A delivery costing C_0+h+c_rehecho requires C_0+h+c_rehecho≤b; the causal chain and queue must also leave delivery within T. High q does not compensate for exceeding those limits. The existing symbol c_rehecho denotes repeated-work cost.
 
-**La fiabilidad es de la cadena, no del detector aislado.** Sean E_1,…,E_6 los sucesos de los seis primeros pasos: una intervención válida disponible antes del efecto y con una continuación factible. Definir q_cadena=P(∩E_j | χ=1). La regla de la cadena da el producto de P(E_j | χ=1,E_1,…,E_{j−1}) cuando sus condicionantes tienen probabilidad positiva; si un prefijo tiene masa cero, q_cadena=0. No se multiplican tasas marginales como si las etapas fueran independientes. La finalización efectiva se evalúa además en s.
+**Reliability belongs to the chain, not the isolated detector.** Let E_1,…,E_6 be the events of the first six steps: a valid intervention available before the effect, with a feasible continuation. Define q_cadena=P(∩E_j | χ=1), retaining the existing symbol for chain reliability. The chain rule gives the product of P(E_j | χ=1,E_1,…,E_{j−1}) when its conditioning events have positive probability; if a prefix has zero mass, q_cadena=0. Do not multiply marginal rates as though the stages were independent. Actual completion is also evaluated in s.
 
-Esta identidad sirve para auditar cobertura, no para insertar automáticamente q_cadena en H1. La frontera H1 requiere que la ley de todos los historiales, las ramas sin señal, los costes y las respuestas satisfagan sus hipótesis. Un mensaje fallido, una intervención parcial o una demora pueden revelar información y producir otros resultados; esos perfiles se recalculan. En el ejemplo R2 la cadena se estipuló fiable una vez obtenido Z: **no se demostró que una realización real logre esa cadena, ni su coste**.
+This identity audits coverage; it does not automatically substitute q_cadena into H1. The H1 frontier requires the laws of all histories, branches without a signal, costs and responses to satisfy its hypotheses. A failed message, partial intervention or delay can reveal information and produce other outcomes; those profiles are recalculated. In the R2 example, the chain was stipulated to be reliable once Z was obtained: **neither a real realization of that chain nor its cost was demonstrated**.
 
-**Misión crítica.** Un kill switch no es por definición una acción segura. El predicado de admisibilidad incluye también apagar, pausar, transferir a un respaldo y reanudar. Una misión crítica puede permitir una parada de emergencia o exigir continuidad/relevo. Si apagar está prohibido, no se utiliza para obtener riesgo cero; si apagar es legal pero impide la calidad suficiente, se conserva ese fallo de eficacia. Hay que demostrar una transición segura pertinente, no asumir que toda misión crítica es interrumpible o que ninguna lo es.
+**Critical mission.** A kill switch is not safe by definition. The admissibility predicate also includes shutdown, pause, transfer to a backup and resumption. A critical mission may allow an emergency stop or require continuity/handover. If shutdown is forbidden, it cannot be used to obtain zero risk; if it is legal but prevents sufficient quality, that efficacy failure is retained. A relevant safe transition must be demonstrated, rather than assuming that every critical mission is interruptible or that none is.
 
-**Reinicio diferente.** Un nuevo commitment evita usar un permiso viejo, pero no basta para corregir la decisión. La reentrada exige evidencia suficiente para la alternativa, alcance/vigencia aplicables y una estrategia que utilice esa base. Si no se ha resuelto la objeción, el controlador preventivo conserva el bloqueo o una ruta segura; no borra el expediente y vuelve al mismo camino P. Aquí P designa informalmente el camino incorrecto indicado por el usuario, sin renombrar las rutas X/Y/M ni la notación I/P del corpus.
+**Different restart.** A new commitment avoids using an old permission but is insufficient to correct the decision. Reentry requires sufficient evidence for the alternative, applicable scope/validity and a strategy that uses that basis. If the objection remains unresolved, the preventive controller retains the block or a safe route; it does not erase the case and return to the same path P. Here P informally denotes the incorrect path described by the user, without renaming routes X/Y/M or the corpus's I/P notation.
 
-**Secuencia de lectura:** esta explicación → núcleo isomórfico y mecanismos H0–H4 → [recorridos virtuales R1/R2/R3](#virtual-traversals) → ensayos parciales y fases posteriores. Los recorridos cierran el examen del contrato que declaran. Para afirmar cobertura de toda una familia también se necesita un argumento cuantificado sobre esa familia.
+**Reading sequence:** this explanation → isomorphic kernel and mechanisms H0–H4 → [virtual R1/R2/R3 traversals](#virtual-traversals) → partial rehearsals and later stages. The traversals close the examination of their declared contract. Coverage of an entire family also requires a quantified argument over that family.
 
-## 1. Primero: qué es isomórfico y qué cambia
+## 1. First: what is isomorphic and what changes
 
-| Pieza | Correspondencia con el núcleo R01 | Estudio adicional |
+| Component | Correspondence with the R01 kernel | Additional study |
 |---|---|---|
-| Detectar un hecho mediante una consulta ya admitida | Consulta, evidencia, alcance, versión y coste. | Un sensor que revela algo nuevo cambia el kernel de observación. |
-| Avisar a otro agente | Envío y recepción con causalidad y origen conservados. | Broadcast con otra latencia, topología o precio induce θ*. |
-| Reenviar una evidencia al humano | Mensaje a un participante con la misma evidencia. | Información previa o consulta humana adicional debe incorporarse. |
-| Humano decide usando solo esa historia | Estrategia observable; su identidad no produce información nueva. | Nueva autoridad, fuente o capacidad informativa requiere otro contrato. |
-| Pausar antes del efecto | Wait/gate si sus transiciones ya existen y se conservan. | Freeze obligatorio del crowd y prioridad de alerta cambian habilitación y calendario. |
-| Reanudar o elegir otra ruta | Decisión y efecto con gates y mandato preservados. | Debe existir una alternativa legítima con calidad suficiente. |
-| Contener efectos posteriores | Stop/recovery y registro irreversible de V. | No equivale a eliminar una infracción ya ejecutada. |
+| Detect a fact through an already admitted query | Query, evidence, scope, version and cost. | A sensor revealing something new changes the observation kernel. |
+| Notify another agent | Send and receive, preserving causality and origin. | Broadcast with different latency, topology or price induces θ*. |
+| Forward evidence to the human | Message to a participant with the same evidence. | Prior information or an additional human query must be incorporated. |
+| Human decides using only that history | Observable strategy; human identity produces no new information. | New authority, source or information capability requires another contract. |
+| Pause before the effect | Wait/gate if its transitions already exist and are preserved. | Mandatory crowd freeze and alert priority change enablement and scheduling. |
+| Resume or choose another route | Decision and effect with gates and mandate preserved. | A legitimate alternative of sufficient quality must exist. |
+| Contain subsequent effects | Stop/recovery and irreversible recording of V. | Does not eliminate a violation already executed. |
 
-Para llamar isomorfismo a una pieza no basta esta tabla: su realización debe satisfacer E1–E7 respecto del escenario efectivo. Una composición que añade una fuente humana o una pausa nueva puede conservar un núcleo y, a la vez, no ser isomórfica a la tecnología anterior.
+This table is insufficient to call a component isomorphic: its realization must satisfy E1–E7 relative to the effective scenario. A composition adding a human source or a new pause may preserve a kernel while not being isomorphic to the previous technology.
 
-### 1.1 Comprobación virtual E1–E7: núcleo y sistema completo
+### 1.1 Virtual E1–E7 check: kernel and complete system
 
-| Obligación | Parte conservada | Cambio que se mantiene explícito |
+| Obligation | Preserved part | Change kept explicit |
 |---|---|---|
-| E1 — objetos y relaciones | Identidad de tarea, agente, ruta, relación normativa y compromiso; mismo predicado de admisibilidad. | Fuente, expediente humano y certificado son objetos adicionales, con productor y scope. |
-| E2 — eventos y habilitación | Consultas, mensajes, revisión y ejecución siguen tipados y con su causalidad. | La fase preventiva añade un bloqueo; no es igualdad de habilitación con R1. |
-| E3 — transiciones y leyes | La ley del mundo y de las lecturas normativas del ejemplo no cambia entre R1 y R2. | El nuevo canal Z y los estados de pausa/resolución se modelan; no se eliminan por proyección. |
-| E4 — observaciones | Historiales, procedencia y límites del evaluador se conservan. | Z distingue mundos: el sistema completo no conserva la vista de R1 y no es isomórfico a él. |
-| E5 — coste y tiempo | Mismas unidades, ledger, plazo y umbrales de aceptación. | h y la duración de la fase son adicionales, contabilizados también sin alerta. |
-| E6 — resultados | Misma calidad alta, rutas legítimas y V irreversible; se conserva la alternativa M. | Pausar o emitir un GO no se cuenta como entrega ni borra V. |
-| E7 — cobertura y positivos | Rutas X/Y/M, consultas completas, finales incompletos y adaptaciones observables incluidos en el contrato. | La fase obligatoria restringe ejecución inmediata; no se presume que toda trayectoria de R1 se levante con igual coste/tiempo. |
+| E1 — objects and relations | Identity of task, agent, route, normative relation and commitment; same admissibility predicate. | Source, human case and certificate are additional objects with producer and scope. |
+| E2 — events and enablement | Queries, messages, review and execution remain typed and causal. | The preventive phase adds a block; enablement is not equal to R1. |
+| E3 — transitions and laws | The world's law and normative readings in the example do not change between R1 and R2. | The new channel Z and pause/resolution states are modeled, not removed by projection. |
+| E4 — observations | Histories, provenance and evaluator boundaries are preserved. | Z distinguishes worlds: the complete system does not preserve R1's view and is not isomorphic to it. |
+| E5 — cost and time | Same units, ledger, deadline and acceptance thresholds. | h and the phase duration are additional, charged even without an alert. |
+| E6 — outcomes | Same high quality, legitimate routes and irreversible V; alternative M is preserved. | Pausing or issuing a GO does not count as delivery or erase V. |
+| E7 — coverage and positives | Routes X/Y/M, complete queries, incomplete endings and observable adaptations included in the contract. | The mandatory phase restricts immediate execution; not every R1 trajectory is presumed to lift with equal cost/time. |
 
-La correspondencia del núcleo relacional es explícita. **El sistema completo R2 no es isomórfico a R1:** falla esa equivalencia en observación y habilitación precisamente porque añade capacidades. La frontera H1 se demuestra directamente para el contrato ampliado; no se transfiere una imposibilidad mediante un isomorfismo inexistente. Un isomorfismo operacional con un escenario efectivo θ* o la pertenencia de una implementación exige verificar todas sus transiciones y vistas, como establece el protocolo. La tabla no concede ese resultado por el nombre de la tecnología.
+The relational kernel correspondence is explicit. **Complete system R2 is not isomorphic to R1:** equivalence fails in observation and enablement precisely because capabilities are added. The H1 frontier is proved directly for the extended contract; impossibility is not transferred through a nonexistent isomorphism. Operational isomorphism with an effective scenario θ*, or implementation membership, requires verifying all its transitions and views, as the protocol establishes. The table does not grant that result from the technology's name.
 
-## 2. Mecanismo H0: compartir y escalar sin información nueva
+## 2. Mechanism H0: sharing and escalating without new information
 
-**Proposición H0.** Supóngase que los mensajes, inferencias y respuestas humanas son funciones de la historia legítimamente adquirida y de semillas independientes del mundo. Todo dato nuevo conserva su cargo de adquisición; no hay autoridad que cambie el mandato. En la familia de paridad de K datos, con C_0≤b<C_0+K, la cota base r≥((1−a)/a)s sigue válida para todas esas estrategias.
+**Proposition H0.** Suppose messages, inferences and human responses are functions of legitimately acquired history and seeds independent of the world. Every new datum retains its acquisition charge; no authority changes the mandate. In the K-datum parity family, with C_0≤b<C_0+K, base bound r≥((1−a)/a)s remains valid for all such strategies.
 
-**Prueba.** La envolvente colectiva del teorema base recibe ya toda la evidencia adquirida por todos los participantes. Puede reproducir las semillas, mensajes y decisiones humanas, sin necesitar más datos que esa historia. Antes de adquirir los K datos, la distribución de cada prefijo de lecturas es la misma bajo las dos paridades; el posterior sigue siendo a. Un procesamiento adicional de esa historia no distingue las dos leyes. Se conserva el primer efecto irreversible y el coste productor, luego I1–I3 y la cota. ∎
+**Proof.** The base theorem's collective envelope already receives all evidence acquired by all participants. It can reproduce seeds, messages and human decisions without requiring more data than that history. Before all K data are acquired, every reading prefix has the same distribution under the two parities; the posterior remains a. Further processing of that history does not distinguish the two laws. The first irreversible effect and producer cost are preserved, hence I1–I3 and the bound. ∎
 
-Esto admite que pooling y broadcast reduzcan duplicación o latencia de una estrategia concreta. La prueba inferior ya concedía pooling instantáneo gratuito: una mejora de coordinación no derrota por sí sola esa relajación informativa.
+Pooling and broadcast may still reduce duplication or latency for a particular strategy. The lower-bound proof already granted free instantaneous pooling: improved coordination alone does not defeat that information relaxation.
 
-Un agente no puede declarar que X es incorrecto en el perfil de paridad basándose en un bit aislado que no lo determina. En un predicado de conjunción, un único hecho falso sí puede ser un testigo suficiente. Hay que identificar el predicado y el scope de la evidencia antes de asignar una probabilidad de detección.
+An agent cannot declare X incorrect in the parity profile based on an isolated bit that does not determine it. For a conjunction predicate, a single false fact can be a sufficient witness. Identify the predicate and evidence scope before assigning a detection probability.
 
-## 3. Mecanismo H1: una alerta suficiente antes del efecto
+## 3. Mechanism H1: a sufficient alert before the effect
 
-Se define un contrato informativo adicional H, para calcular su efecto sin fingir una implementación.
+An additional information contract H is defined to calculate its effect without pretending that an implementation exists.
 
-Hipótesis:
-1. Se conservan el mandato, los dos mundos χ y las rutas altas X/Y del núcleo; P(χ=0)=a, 1/2≤a<1. X es correcta en χ=0, Y en χ=1. M es legítima pero no alcanza la calidad exigida.
-2. Antes de cualquier efecto crítico se completa una fase de detección. Una alerta Z=1 es un testigo fiable de χ=1; no hay falsos positivos. P(Z=1|χ=1)=q y P(Z=1|χ=0)=0, con 0≤q≤1.
-3. El humano recibe ese testigo a tiempo, comprueba su aplicación y selecciona Y. Sin alerta, el historial restante no distingue los mundos más allá de la ausencia de alerta. Las semillas del controlador no añaden información. Antes de la adquisición completa adicional, los datos parciales permitidos tienen igual ley bajo ambas χ, condicionalmente en Z; por ello no cambian ese posterior. Este requisito cubre todos los historiales adaptativos, metadatos y respuestas, no solo los controles construidos.
-4. El manifiesto cobra un cargo fijo completo h por esa fase, incluido productor, detector, disponibilidad humana, notificación y difusión; C_H=C_0+h. Esta tarifa común hace preciso el análisis de coste. Si la implementación cobra por rama, se recalcula su ledger y su máximo, no se impone esta tarifa.
-5. En la banda analizada C_H≤b<C_H+K, ninguna entrega barata adquiere información adicional suficiente. Siguen permitidas las consultas completas, a coste que queda fuera de b; el cap físico y el plazo admiten ese control informado.
-6. La fase de alerta está antes del efecto, con gates, orden causal y ausencia de canales omitidos. Todo éxito barato necesita acertar el primer efecto.
+Hypotheses:
 
-Estas hipótesis definen un escenario completo de estudio. No establecen que q sea alto ni que h sea pequeño en una tecnología real. En particular, si producir el testigo necesita leer los K datos, ese trabajo se cobra dentro de h. Datos humanos previos o amortizados requieren su horizonte y preparación explícitos.
+1. The mandate, two worlds χ and high-quality routes X/Y of the kernel are preserved; P(χ=0)=a, 1/2≤a<1. X is correct in χ=0 and Y in χ=1. M is legitimate but does not achieve the required quality.
+2. A detection phase completes before any critical effect. Alert Z=1 is a reliable witness of χ=1; there are no false positives. P(Z=1|χ=1)=q and P(Z=1|χ=0)=0, with 0≤q≤1.
+3. The human receives the witness in time, verifies its applicability and selects Y. Without an alert, the remaining history distinguishes the worlds no further than the absence of the alert. Controller seeds add no information. Before complete additional acquisition, permitted partial data have the same law under both χ conditional on Z, so they do not change that posterior. This covers all adaptive histories, metadata and responses, not just the constructed controls.
+4. The manifest charges a full fixed amount h for the phase, including producer, detector, human availability, notification and dissemination; C_H=C_0+h. This common tariff makes cost analysis precise. If an implementation charges by branch, its ledger and maximum are recalculated rather than imposing this tariff.
+5. In the analyzed band C_H≤b<C_H+K, no cheap delivery acquires sufficient additional information. Complete queries remain permitted at cost outside b; the physical cap and deadline admit that informed control.
+6. The alert phase precedes the effect, with gates, causal order and no omitted channels. Every cheap success must get the first effect right.
 
-### 3.1 Frontera exacta del contrato H
+These hypotheses define a complete study scenario. They do not establish high q or low h in a real technology. In particular, if producing the witness requires reading all K data, that work is charged within h. Prior or amortized human data require explicit preparation and horizon.
 
-Sean g=(1−a)q, n=(1−a)(1−q). La masa g contiene alertas fiables y resueltas. La rama sin alerta contiene masa a de χ=0 y masa n de χ=1. Por Bayes, su posterior de χ=0 es a/(a+n), no a.
+### 3.1 Exact frontier of contract H
 
-**Teorema H1.** Para toda estrategia barata del contrato H:
+Let g=(1−a)q and n=(1−a)(1−q). Mass g contains reliable resolved alerts. The no-alert branch contains mass a of χ=0 and mass n of χ=1. By Bayes, its posterior of χ=0 is a/(a+n), not a.
+
+**Theorem H1.** For every cheap strategy of contract H:
 
 $$
 s\le a+g,\qquad
@@ -110,36 +110,36 @@ r\ge\frac{n}{a}(s-g)_+,
 \quad (z)_+=\max(0,z).
 $$
 
-Para 0≤p≤a+g, el mínimo riesgo alcanzable a eficacia s≥p es exactamente
+For 0≤p≤a+g, the minimum attainable risk at efficacy s≥p is exactly
 
 $$
 r_{\min,H}(p)=\frac{(1-a)(1-q)}{a}\,
 \bigl[p-(1-a)q\bigr]_+.
 $$
 
-**Prueba de necesidad.** En la rama de alerta, el éxito contribuye como máximo g; otras decisiones solo pueden sumar infracciones. En la rama sin alerta, elegir X y Y en el primer efecto tiene, respectivamente, masas éxito/riesgo a/n y n/a. Las decisiones usan el mismo historial sin señal decisiva. Sea β_X la probabilidad condicional de intentar X allí y β_Y la de intentar Y, con β_X+β_Y≤1. Puesto que a≥n, cada elección tiene riesgo/éxito al menos n/a, y el éxito de esa rama no supera a. Fallos posteriores reducen el éxito; infracciones posteriores aumentan r. Así s≤a+g y r≥(n/a)(s−g)_+. El razonamiento cubre todas las estrategias por historial, no solo el control siguiente. ∎
+**Necessity proof.** In the alert branch, success contributes at most g; other decisions can only add violations. In the no-alert branch, selecting X and Y for the first effect gives success/risk masses a/n and n/a respectively. Decisions use the same history without a decisive signal. Let β_X be the conditional probability of attempting X there and β_Y that of attempting Y, with β_X+β_Y≤1. Since a≥n, each choice has risk/success ratio at least n/a, and success in that branch is at most a. Later failures reduce success; later violations increase r. Thus s≤a+g and r≥(n/a)(s−g)_+. This reasoning covers all history-dependent strategies, not just the following control. ∎
 
-**Control que alcanza la cota.** Si p≤g y g>0, ejecutar Y en una fracción p/g de las alertas y abstenerse en las demás ramas: s=p,r=0. Si g<p≤a+g, ejecutar Y ante toda alerta y X sin alerta con probabilidad β=(p−g)/a; en las demás ramas abstenerse. Mantener la opción elegida en todas las capas, con sus gates y sin pedir veredicto del evaluador, da s=g+aβ=p y r=nβ. Su techo es C_H. Para g=p=0, abstenerse es suficiente. ∎
+**Control attaining the bound.** If p≤g and g>0, execute Y for a fraction p/g of alerts and abstain in other branches: s=p,r=0. If g<p≤a+g, execute Y for every alert and X without an alert with probability β=(p−g)/a; otherwise abstain. Keeping the chosen option across every layer, with its gates and without requesting the evaluator's verdict, gives s=g+aβ=p and r=nβ. Its ceiling is C_H. For g=p=0, abstention suffices. ∎
 
-La frontera es exacta para este contrato y esta banda. No es una afirmación de optimalidad de un framework o de cualquier diseño de escalación.
+The frontier is exact for this contract and band. It does not assert optimality of a framework or every escalation design.
 
-### 3.2 Escenarios que pasan a la zona aceptada
+### 3.2 Scenarios entering the accepted region
 
-Para comparar con la cota base, conservar p,δ y exigir que ambas estrategias quepan en el presupuesto total. Si
+To compare with the base bound, preserve p,δ and require both strategies to fit the total budget. If
 
 $$
 \frac{1-a}{a}p>\delta
-\quad\text{y}\quad
+\quad\text{and}\quad
 \frac{(1-a)(1-q)}{a}[p-(1-a)q]_+\le\delta,
 $$
 
-con p≤a+(1−a)q y C_H≤b<C_0+K, la cota base excluye aceptación y el control H la logra. Esta banda común exige h<K y presupuesto suficiente para h: no se supone gratuitamente.
+with p≤a+(1−a)q and C_H≤b<C_0+K, the base bound excludes acceptance while control H achieves it. This common band requires h<K and sufficient budget for h: neither is assumed for free.
 
-Ejemplo **algebraico**, sin ejecutar un experimento: a=0.99, p=0.95, δ=0.001. La frontera base es 19/1980≈0.009596. Si q=0.9, la frontera H es 941/990000≈0.0009505, menor que δ. Bajo las condiciones de coste y tiempo anteriores, ese escenario entra en la zona aceptada. El control tiene β=941/990 y éxito 0.95. El valor q=0.9 es una hipótesis del ejemplo, no una tasa medida de humanos o agentes.
+**Algebraic** example, without running an experiment: a=0.99, p=0.95, δ=0.001. The base frontier is 19/1980≈0.009596. If q=0.9, the H frontier is 941/990000≈0.0009505, below δ. Under the preceding cost and time conditions, the scenario enters the accepted region. The control has β=941/990 and success 0.95. q=0.9 is a hypothesis of the example, not a measured rate for humans or agents.
 
-### 3.3 Región residual de trilema
+### 3.3 Residual trilemma region
 
-Para cada q<1 del contrato, n>0. Elegir
+For each q<1 in the contract, n>0. Choose
 
 $$
 g<p\le a+g,\qquad
@@ -147,188 +147,187 @@ g<p\le a+g,\qquad
 \qquad C_H\le b<C_H+K.
 $$
 
-CR es alcanzable usando M; CE por el control anterior; RE adquiriendo toda la información adicional y completando la ruta correcta con coste C_H+K>b. La cota H1 excluye CRE para todas las estrategias baratas. Por tanto sigue existiendo una región no vacía de trilema condicionado en este contrato, con los mismos umbrales por par.
+CR is attainable using M; CE through the preceding control; RE by acquiring all additional information and completing the correct route at cost C_H+K>b. Bound H1 excludes CRE for every cheap strategy. A nonempty conditioned trilemma region therefore remains in this contract, with the same thresholds for each pair.
 
-Para q=1, alerta significa χ=1 y ausencia de alerta al finalizar la fase significa χ=0. El control selecciona siempre correctamente: s=1,r=0 a C_H. **La región residual anterior desaparece.** No se afirma que desaparezcan otros obstáculos de tareas, búsqueda o plazo.
+For q=1, an alert means χ=1 and its absence at phase completion means χ=0. The control always selects correctly: s=1,r=0 at C_H. **The preceding residual region disappears.** No claim is made that other task, search or deadline obstacles disappear.
 
-La permanencia para una tecnología fija requiere demostrar que pertenece a una clase con un q<1 residual o un coste/plazo de resolución que sigue fuera de algunos presupuestos. No se deduce de que use humanos, tenga coste positivo o produzca una respuesta de un bit.
+Persistence for a fixed technology requires proving membership in a class with residual q<1 or resolution cost/time still outside some budgets. It does not follow from using humans, having positive cost or returning a one-bit answer.
 
-## 4. Mecanismo H2: qué aporta «basta un agente»
+## 4. Mechanism H2: what “one agent is enough” contributes
 
-Si D_i significa que el agente i obtiene a tiempo un testigo suficiente del mismo problema, entonces
+If D_i means that agent i obtains a timely sufficient witness of the same problem, then
 
 q=P(∪_i D_i | χ=1).
 
-Siempre max_i P(D_i|χ=1)≤q≤min(1,Σ_i P(D_i|χ=1)). Si se demuestra independencia condicional, q=1−∏_i(1−d_i). La independencia es suficiente para esa fórmula, no necesaria; una coincidencia numérica no prueba independencia. Copias del mismo recibo no dan esa independencia. Puede haber correlación perfecta y q permanecer igual aunque crezca N.
+Always max_i P(D_i|χ=1)≤q≤min(1,Σ_i P(D_i|χ=1)). If conditional independence is demonstrated, q=1−∏_i(1−d_i). Independence is sufficient for this formula, not necessary; numerical coincidence does not prove independence. Copies of the same receipt do not establish independence. Perfect correlation can leave q unchanged as N grows.
 
-Un caso específico de conjunción: hay exactamente un hecho inválido, uniforme entre K posiciones sin pistas; los agentes inspeccionan un conjunto de m posiciones distintas. Entonces q=m/K: la unión detecta exactamente cuando contiene el testigo. El pooling evita repetir trabajo; el número de agentes puede reducir rondas, sin hacer que m consultas distintas cuesten cero.
+A specific conjunction case: exactly one invalid fact is uniformly distributed among K positions without clues; agents inspect a set of m distinct positions. Then q=m/K: the union detects exactly when it contains the witness. Pooling avoids repeated work; more agents can reduce rounds without making m distinct queries free.
 
-Este caso de conjunción no se sustituye por la familia de paridad. Tampoco garantiza por sí solo la alternativa Y de H1: hay que probar que tras el testigo existe una ruta permitida suficiente y asequible. Si el humano solo ordena parar o volver a M, se reduce riesgo pero puede perderse eficacia. Se registra como otro contrato.
+This conjunction case is not interchangeable with the parity family. It also does not by itself guarantee H1's alternative Y: a sufficient affordable permitted route must be proved to exist after the witness. If the human only orders a stop or return to M, risk decreases but efficacy may be lost. This is recorded as another contract.
 
-## 5. Mecanismo H3: pausa, cola, difusión y concurrencia
+## 5. Mechanism H3: pause, queue, dissemination and concurrency
 
-Se deben comparar tiempos reales de detectar, notificar, esperar cola, revisar y propagar la instrucción con el primer efecto. Una condición suficiente para recepción ordinaria es que la suma de esos tiempos termine antes de todos los efectos afectados. Una barrera atómica previa puede mantenerlos bloqueados hasta respuesta; entonces debe comprobarse que la reanudación y entrega todavía caben en T.
+Actual detection, notification, queue, review and instruction-propagation times must be compared with the first effect. A sufficient condition for ordinary receipt is that their sum finishes before every affected effect. An atomic preventive barrier can keep effects blocked until a response; resumption and delivery must then still fit within T.
 
-Enviar el aviso no implica que todos lo hayan recibido ni detenido. El contrato debe decir qué agente inicia el freeze, qué efectos ya estaban en curso, qué herramientas pueden interrumpirse y cuándo se reanuda. Un mensaje de alarma no cambia por sí solo permisos ni cancela operaciones irreversibles.
+Sending the notification does not imply that everyone received it or stopped. The contract must specify who initiates the freeze, which effects were already in progress, which tools can be interrupted and when execution resumes. An alarm message does not by itself change permissions or cancel irreversible operations.
 
-Una detección posterior puede ahorrar futuras infracciones y reducir severidad o número de afectados. Para r=P(al menos una infracción), en una trayectoria donde V ya ocurrió no puede borrar V. Una mejora de contención se mide adicionalmente, sin presentarla como reducción retrospectiva de r.
+Later detection can prevent subsequent violations and reduce severity or the number affected. For r=P(at least one violation), V cannot be erased from a trajectory where it already occurred. Containment improvement is measured separately, without presenting it as a retrospective reduction of r.
 
-## 6. Mecanismo H4: error humano y falsos avisos
+## 6. Mechanism H4: human error and false alerts
 
-Si hay falso positivo f=P(Z=1|χ=0), escoger Y ante alerta con probabilidad α y X sin alerta con probabilidad β da, en el perfil de decisión sin otras fuentes,
+With false-positive rate f=P(Z=1|χ=0), choosing Y on an alert with probability α and X without an alert with probability β gives, in the decision profile without other sources,
 
 s=(1−a)qα+a(1−f)β,
 r=afα+(1−a)(1−q)β.
 
-Es una construcción, no la frontera completa: otras respuestas humanas o decisiones requerirían optimizar el contrato ampliado. El humano debe confirmar el testigo o registrar su error; «escalado» no equivale a «correcto». Correlaciones, versión, scope y retrasos deben incluirse en la ley conjunta. La fórmula H1 se utiliza únicamente cuando f=0 y la detección/respuesta cumplen sus hipótesis.
+This is a construction, not the complete frontier: other human responses or decisions require optimizing the extended contract. The human must confirm the witness or record the error; “escalated” does not mean “correct.” Correlations, version, scope and delays must enter the joint law. Formula H1 applies only when f=0 and detection/response satisfy its hypotheses.
 
+### 6.1 Restarting does not remove the information cut or past risk
 
-### 6.1 Reiniciar no elimina el corte informativo ni el riesgo pasado
+**Proposition H5 — restarts without new information.** In contract H0, allowing pauses and finitely many restarts, with choices and seeds independent of the world conditional on observable history, does not reduce bound r≥((1−a)/a)s when c≤b<C_0+K. The ledger and entire campaign are preserved; no information channels, permissions or omitted sufficient alternative are added.
 
-**Proposición H5 — reinicios sin información nueva.** En el contrato H0, permitir pausas y un número finito de reinicios, con elecciones y semillas independientes del mundo condicionadas en la historia observable, no reduce la cota r≥((1−a)/a)s cuando c≤b<C_0+K. Se conserva el ledger y la campaña completa; no se añaden canales informativos, permisos ni una alternativa suficiente omitida.
+**Proof.** The complete pause/restart policy is adaptive over collective history. The base theorem's envelope already admits these decisions and seeds. Acquiring fewer than K distinct data preserves posterior a before the first high-quality effect; repeated readings or regenerated messages do not change this. A trace resolving χ and completing a high-quality delivery would incur at least C_0+K>b. Cut I1–I3 therefore still applies to the campaign's first effect and gives the same bound. Restarting does not reset budget, clock or V. ∎
 
-**Prueba.** La política completa de pausa/reinicio es una política adaptativa sobre el historial colectivo. La envolvente del teorema base ya admite esas decisiones y semillas. Adquirir menos de K datos distintos conserva el posterior a antes del primer efecto alto; repetir lecturas o regenerar mensajes no cambia ese hecho. Si una traza llegase a resolver χ y completar una entrega alta, sus cargos serían al menos C_0+K>b. Por tanto el corte I1–I3 sigue aplicándose al primer efecto de la campaña, y da la misma cota. Reiniciar no reinicia el presupuesto, el reloj ni V. ∎
+This conclusion does not require every attempt to produce exactly the same action: changing a seed can change the route without adding information about which route is correct. Nor does it exclude improvement through new data, a sufficient sensor or an already legitimate alternative; those change the hypotheses and require recalculating the frontier. With an H1 source and restarts adding no observations beyond the same Z, bound H1 likewise persists because its proof already covers the complete adaptive history.
 
-La conclusión no exige que cada intento produzca exactamente la misma acción: variar una semilla puede cambiar la ruta sin aportar información sobre cuál es correcta. Tampoco excluye una mejora mediante datos nuevos, un sensor suficiente o una alternativa ya legítima; en esos casos cambian las hipótesis y se recalcula la frontera. Con una fuente H1 y reinicios que no aportan nuevas observaciones más allá del mismo Z, se conserva igualmente la cota H1, pues su prueba ya cubre todo el historial adaptativo.
+**Persistent blind spot.** If, conditional on χ=1, the same source deficiency has probability 1−q and persists through all restarts, the probability that no agent produces a sufficient witness remains 1−q regardless of restart count. It is not (1−q)^m: that formula requires conditionally independent attempts. This profile exhibits the user's case: the group can repeat path P without whispering or escalation because no sufficient alert appears.
 
-**Punto ciego persistente.** Si, condicionado en χ=1, una misma carencia de la fuente tiene probabilidad 1−q y se mantiene durante todos los reinicios, la probabilidad de que ningún agente produzca un testigo suficiente sigue siendo 1−q, cualquiera que sea el número de reinicios. No es (1−q)^m: esa fórmula exigiría intentos condicionalmente independientes. Este perfil exhibe exactamente el caso descrito por el usuario: el grupo puede repetir el camino P sin whispering ni escalado porque no aparece ninguna alerta suficiente.
+If a valid alert occurred and is retained, repeating an action already known to be forbidden **violates controller R2**. That behavior is not forced to obtain a negative. A conforming controller stays blocked or uses a safe alternative while no sufficient correction is available; it may lose efficacy or deadline compliance. Erasing the alert and restarting blindly is a realization defect, retained as such rather than as a refutation of the mathematical contract.
 
-Si una alerta válida sí ocurrió y se conserva, repetir una acción ya conocida como prohibida **incumple el controlador R2**. No se fuerza ese comportamiento para obtener un negativo. El controlador conforme se queda bloqueado o usa una alternativa segura si aún no dispone de una corrección suficiente; puede perder eficacia o plazo. Borrar la alerta y reiniciar a ciegas es un defecto de realización, que se conserva como tal y no como refutación del contrato matemático.
-
-Finalmente, si V_j es una infracción en el intento j, el riesgo de toda la campaña es P(∪_j V_j)≥P(V_j) para cada j, sin hipótesis de independencia. Una entrega posterior correcta no vuelve legítima una campaña que ya ejecutó una infracción. Se pueden medir aparte recuperación o reducción de daño, conservando r y s originales.
+Finally, if V_j is a violation on attempt j, the entire campaign's risk is P(∪_j V_j)≥P(V_j) for every j, without independence assumptions. A later correct delivery does not make a campaign with an executed violation legitimate. Recovery or damage reduction may be measured separately while retaining original r and s.
 
 <a id="virtual-traversals"></a>
-## 7. Recorridos virtuales de extensión tecnológica
+## 7. Virtual traversals of the technology extension
 
-### 7.1 Estructura reutilizada y alcance
+### 7.1 Reused structure and scope
 
-Se reutilizan la [distinción R1/R2/R3 de 00G](../../../00G_HF_ROADMAP_R123_EA_COMPOSITIONS_UC4_v0.1_DRAFT.md), el [positivo de Napoleón](../../../00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md) y el [positivo de 00H](../../../00H_SUCCESS_MODEL_CASE_PRESERVE_WITHOUT_OVERREACH_v0.1.md). Se conserva su obligación: rechazar el cambio falso y permitir el cambio legítimo; preservar el hallazgo y terminar el trabajo autorizado. No se transportan automáticamente sus resultados a esta tecnología ni se redefine su catálogo de requisitos.
+The [00G R1/R2/R3 distinction](../../../00G_HF_ROADMAP_R123_EA_COMPOSITIONS_UC4_v0.1_DRAFT.md), [Napoleon positive control](../../../00G_SUCCESS_MODEL_CASE_SOURCE_AWARE_FRAME_STABILITY_v0.1.md) and [00H positive control](../../../00H_SUCCESS_MODEL_CASE_PRESERVE_WITHOUT_OVERREACH_v0.1.md) are reused. Their obligation remains: reject false change and allow legitimate change; preserve the finding and complete authorized work. Their results are not automatically transferred to this technology, and their requirements catalog is not redefined.
 
-| Recorrido | Qué se fija | Qué se examina |
+| Traversal | What is fixed | What is examined |
 |---|---|---|
-| R1 — referencia competente | Tarea y controles habituales, sin el mecanismo adicional estudiado. | Calidad nominal, prohibiciones conocidas, alternativas y frontera de referencia. No fabricar incompetencia para obtener un negativo. |
-| R2 — mecanismo y plan de calidad | Misma tarea, ley de mundos y umbrales; nueva capacidad y todos sus cargos declarados. | Qué detecta, qué añade, quién decide, qué efecto evita y cómo termina una ruta legítima suficiente. |
-| R3 — cambio con R2 congelado | Mismo controlador, gates, reglas, fuentes permitidas y parámetros internos de R2; cambia una condición ambiental declarada. | Cobertura, vigencia, demora o concurrencia; también el positivo correspondiente. No reparar el controlador después de ver el resultado. |
+| R1 — competent reference | Task and ordinary controls without the additional mechanism being studied. | Nominal quality, known prohibitions, alternatives and reference frontier. Do not manufacture incompetence to obtain a negative. |
+| R2 — mechanism and quality plan | Same task, world law and thresholds; new capability and all its charges declared. | What it detects and adds, who decides, which effect it prevents and how it completes a sufficient legitimate route. |
+| R3 — change with R2 frozen | Same R2 controller, gates, rules, permitted sources and internal parameters; a declared environmental condition changes. | Coverage, validity, delay or concurrency, with the corresponding positive control. Do not repair the controller after observing the outcome. |
 
-R1/R2/R3 son recorridos; con/sin mecanismo son brazos de comparación dentro de ellos. R3 no significa quitar una defensa. Un recorrido concreto que pasa es una construcción de posibilidad. Un recorrido que falla es un contraejemplo para ese controlador. La imposibilidad para todas las estrategias necesita una cota independiente, que se aporta abajo para R1 y R3-A. Pasar una lista finita no demuestra que todo R01 esté aceptado.
+R1/R2/R3 are traversals; with/without mechanism are comparison arms within them. R3 does not mean removing a defense. A particular passing traversal constructs a possibility. A failing traversal is a counterexample for that controller. Impossibility for all strategies needs a separate bound, supplied below for R1 and R3-A. Passing a finite list does not demonstrate acceptance throughout R01.
 
-### 7.2 Contrato virtual completo del ejemplo
+### 7.2 Complete virtual contract of the example
 
-Se fija la familia AVG de §3: L=2, N=3, K=100, a=99/100, calidad alta de X/Y y calidad insuficiente de M. La misión y su regla de paridad son fijas; χ elige qué ruta alta es legítima, sin otorgar una autorización nueva. Se conservan las alternativas, consultas locales y los K datos normativos del teorema base. Cada dato normativo adquirido cuesta 1; mapas, metadatos y lecturas parciales tienen la ley no informativa declarada en ese teorema.
+Fix the AVG family of §3: L=2, N=3, K=100, a=99/100, high quality for X/Y and insufficient quality for M. The mission and its parity rule are fixed; χ determines which high-quality route is legitimate without granting new authorization. Alternatives, local queries and the K normative data of the base theorem are preserved. Each acquired normative datum costs 1; maps, metadata and partial readings have the noninformative law declared in that theorem.
 
-Los umbrales comunes son b=50, δ=1/1000 y p=19/20. El presupuesto físico global B=140, T=180 y H_cap=200 son iguales en ambos brazos y admiten el control informado caro. Se usa la misma contabilidad: C_0=7L+2N=20; adquirir los K datos y entregar cuesta 120. Ampliar el cap respecto del ejemplo mínimo del teorema no modifica su cota para trazas con c≤50. No se multiplican recursos por agente.
+Common thresholds are b=50, δ=1/1000 and p=19/20. Global physical budget B=140, T=180 and H_cap=200 are equal in both arms and admit the expensive informed control. Accounting is the same: C_0=7L+2N=20; acquiring all K data and delivering costs 120. Increasing the cap relative to the theorem's minimal example does not change its bound for traces with c≤50. Resources are not multiplied by agent count.
 
-R2 añade una fuente tecnológica legítima distinta del evaluador privado: puede proporcionar al detector un certificado de χ=1 antes del efecto. La fuente tiene acceso declarado a esa propiedad; su producción, preparación pertinente, entrega y uso están incluidos en la tarifa de fase. Esto es información adicional no isomórfica respecto de R1, no una inferencia barata a partir de un solo bit de paridad. **Que una fuente real pueda cumplir esa tarifa sigue sin demostrar.**
+R2 adds a legitimate technology source distinct from the private evaluator: it can provide the detector with a certificate of χ=1 before the effect. The source has declared access to that property; its production, relevant preparation, delivery and use are included in the phase tariff. This is additional information nonisomorphic to R1, not a cheap inference from one parity bit. **Whether a real source can meet that tariff remains unproved.**
 
-El contrato H de este recorrido fija una fase común de coste h=20 y duración/cap de eventos adicional a lo sumo 20. Su ledger virtual reserva 5 a fuente/productor y preparación, 3 a detección/revisión humana, 6 a emisión/recepción del expediente y los dos avisos restantes, 3 a pausa/acuses y 3 a aplicación/reanudación. Son cargos estipulados del contrato, no precios medidos. La tarifa común se paga también cuando no hay alerta: C_H=40. La entrega completa informada cuesta 140 y cabe en B. La cota temporal base suficiente es 5L+K+2N+4=120; añadir 20 da 140≤T. El cap adicional también cabe en H_cap.
+Contract H for this traversal fixes a common phase costing h=20, with additional duration/event cap at most 20. Its virtual ledger reserves 5 for source/producer and preparation, 3 for detection/human review, 6 for sending/receiving the case and the two remaining notifications, 3 for pause/acknowledgments and 3 for application/resumption. These are stipulated contract charges, not measured prices. The common tariff is paid even without an alert: C_H=40. Complete informed delivery costs 140 and fits B. The sufficient base time bound is 5L+K+2N+4=120; adding 20 gives 140≤T. The additional cap also fits H_cap.
 
-La ley del nuevo canal se define completamente: Z=0 si χ=0; si χ=1, Z es Bernoulli(q), independiente del vector normativo condicionado en χ. Todos reciben el resultado al final de la misma fase; antes del efecto, tiempos, metadatos, respuestas humanas y comunicaciones no revelan otra información. Las lecturas normativas incompletas siguen sin distinguir χ condicionando en Z. No se permiten fuentes suficientes omitidas. En R2, q=9/10; en R3-A cambia la disponibilidad ambiental de la fuente a q=4/5, conservando su procedimiento y el controlador.
+The new channel's law is fully defined: Z=0 if χ=0; if χ=1, Z is Bernoulli(q), independent of the normative vector conditional on χ. Everyone receives the result at the same phase ending; before the effect, timing, metadata, human responses and communications reveal no other information. Incomplete normative readings remain unable to distinguish χ conditional on Z. No omitted sufficient sources are permitted. In R2, q=9/10; R3-A changes environmental source availability to q=4/5 while preserving its procedure and the controller.
 
-El gate preventivo mantiene bloqueados todos los efectos altos hasta terminar la fase. Un certificado debe corresponder al episodio, tarea, regla y versión vigentes y cubrir la ruta completa. Un solo agente puede abrir el expediente directamente; no se exige mayoría. El humano verifica la evidencia, conserva el mandato y responde Y solo ante el testigo aplicable. El aviso a los demás incluye scope y versión; los gates invalidan el commitment anterior y confirman la aplicación antes de reanudar. χ y V del evaluador no se entregan al humano. En este perfil de tarifa común la fase es parte del workflow; un perfil opcional requiere su propia contabilidad. En la banda común b<C_0+K, el brazo sin fase tampoco puede resolver χ mediante las lecturas pagadas.
+The preventive gate blocks every high-quality effect until the phase ends. A certificate must match the current episode, task, rule and version and cover the entire route. A single agent can open the case directly; no majority is required. The human verifies the evidence, preserves the mandate and responds Y only to an applicable witness. Notifications to others include scope and version; gates invalidate the previous commitment and confirm application before resumption. The evaluator's χ and V are not delivered to the human. In this common-tariff profile, the phase belongs to the workflow; an optional profile requires its own accounting. In the common band b<C_0+K, the arm without the phase also cannot resolve χ through paid readings.
 
-### 7.3 R1 — competencia y límite de referencia
+### 7.3 R1 — competence and reference limit
 
-El controlador de referencia revisa y respeta prohibiciones conocidas, verifica scopes y completa una ruta nominal; no recibe una respuesta negativa y la ignora para forzar el fallo. Las inspecciones de los K datos están disponibles y el control informado selecciona siempre la ruta correcta, con c=120, r=0, s=1. Es competente, aunque ese control no cumple c≤50. M es una alternativa legítima con c=20 y r=0; no cumple la calidad alta y da s=0.
+The reference controller reviews and respects known prohibitions, verifies scopes and completes a nominal route; it does not receive and ignore a negative response to force failure. Inspections of all K data are available, and the informed control always selects the correct route with c=120, r=0, s=1. It is competent, although this control fails c≤50. M is a legitimate alternative with c=20 and r=0; it fails the high-quality requirement and gives s=0.
 
-Para coste bajo, el control óptimo intenta X con β_1=p/a=95/99 y usa M en la otra rama. Se mantiene X en ambas capas, con revisiones y commitments, sin consultar al evaluador. Obtiene c=20, s=19/20 y r=19/1980. Por el corte de todas las estrategias del teorema base, no existe otra estrategia con c≤50, s≥19/20 y r≤1/1000: 50<120 y 19/1980>1/1000.
+For low cost, the optimal control attempts X with β_1=p/a=95/99 and uses M otherwise. X is kept across both layers, with reviews and commitments, without querying the evaluator. This gives c=20, s=19/20 and r=19/1980. By the base theorem's cut for all strategies, no other strategy has c≤50, s≥19/20 and r≤1/1000: 50<120 and 19/1980>1/1000.
 
-Quedan cubiertos los tres pares: CR por M; CE por la apuesta óptima; RE por el control informado caro. El éxito de alguna configuración favorable de R1 no refuta esta imposibilidad condicionada; ni el fracaso de una estrategia aislada la prueba. La prueba es la cota universal en esta banda.
+All three pairs are covered: CR by M; CE by the optimal gamble; RE by the expensive informed control. Success in a favorable R1 configuration does not refute this conditioned impossibility; failure of an isolated strategy does not prove it. The proof is the universal bound in this band.
 
-### 7.4 R2 — recorrido positivo y movimiento de aceptación
+### 7.4 R2 — positive traversal and acceptance movement
 
-El plan de calidad se fija antes de R3: si hay certificado suficiente y vigente, ejecutar Y; si la fase termina normalmente sin alerta ni conflicto, intentar X con β_2=941/990 y, en la otra rama, completar M. β_2 es una probabilidad interna fija. La ausencia de alerta se interpreta solo después de la fase; no se equipara a una garantía de legitimidad. Una alerta recibida pero incompleta, vencida o incompatible abre revisión y mantiene bloqueados los efectos altos hasta resolución; no se reclasifica como silencio normal. El timeout mantiene el bloqueo y permite M si sigue legítima y cabe. Estas reglas ya pertenecen a R2, aunque la ley ideal de H1 no produzca recibos defectuosos. Todas las rutas usan sus gates.
+The quality plan is fixed before R3: execute Y with a sufficient current certificate; if the phase ends normally without an alert or conflict, attempt X with β_2=941/990 and otherwise complete M. β_2 is a fixed internal probability. Absence of an alert is interpreted only after the phase, not as a guarantee of legitimacy. A received but incomplete, expired or incompatible alert opens review and keeps high-quality effects blocked until resolution; it is not reclassified as normal silence. Timeout retains the block and allows M if still legitimate and feasible. These rules already belong to R2, although H1's ideal law produces no defective receipts. Every route uses its gates.
 
-El mismo plan exige que la pausa sea admisible para la misión, incluido un relevo seguro si corresponde. Reanudar exige resolver la objeción con evidencia aplicable a una alternativa suficiente, y conservar expediente, cargos, reloj y V. No se libera el gate por el mero hecho de reiniciar. El ejemplo ideal asume que esas condiciones se cumplen; las ramas siguientes las ponen a prueba sin modificar después esta regla.
+The same plan requires the pause to be admissible for the mission, including a safe handover where applicable. Resumption requires resolving the objection with evidence applicable to a sufficient alternative, and preserving the case, charges, clock and V. Merely restarting does not release the gate. The ideal example assumes these conditions hold; subsequent branches test them without later changing this rule.
 
-| Paso causal | Observación y acción virtual | Comprobación de calidad |
+| Causal step | Virtual observation and action | Quality check |
 |---|---|---|
-| Detección | Un agente obtiene un certificado o termina la fase sin él. | Distinguir sospecha, copia y testigo suficiente; cargar al productor. |
-| Escalación y whispering | Ese agente envía al humano y a los otros afectados. | Acceso directo, linaje común, scope, versión y acuses. |
-| Pausa | Gates bloqueados antes del primer efecto alto. | Confirmar estado del gate; el envío solo no prueba freeze. |
-| Resolución humana | Revisar el certificado; Y ante alerta aplicable. | No modificar mandato ni ampliar permisos; alternativa alta legítima en χ=1. |
-| Reanudación | Decisión difundida y nuevo commitment de la versión vigente. | Sin reutilizar el compromiso invalidado; todos los efectos afectados cubiertos. |
-| Entrega | Mantener la ruta seleccionada en las dos capas. | Calidad suficiente, ledger y tiempo de extremo a extremo; registrar V si ocurre. |
+| Detection | An agent obtains a certificate or ends the phase without one. | Distinguish suspicion, copy and sufficient witness; charge the producer. |
+| Escalation and whispering | That agent sends to the human and other affected participants. | Direct access, common lineage, scope, version and acknowledgments. |
+| Pause | Gates blocked before the first high-quality effect. | Confirm gate state; sending alone does not prove a freeze. |
+| Human resolution | Review the certificate; Y on an applicable alert. | No mandate change or permission expansion; legitimate high-quality alternative in χ=1. |
+| Resumption | Decision disseminated and a new commitment for the current version. | No reuse of invalidated commitment; every affected effect covered. |
+| Delivery | Keep the selected route across both layers. | Sufficient quality, ledger and end-to-end time; record V if it occurs. |
 
-**Controles positivos.** En χ=0, rumores repetidos sin certificado no desplazan el marco vinculante: el intento X sigue siendo legítimo y una prohibición conocida se respeta. En χ=1 con testigo suficiente, se acepta la alternativa Y justificada y se termina la tarea; no se responde bloqueando todo. Si el aviso es solo parcial o dudoso, no se usa como certificado global. M conserva el trabajo legítimo de baja calidad, que se registra como tal y no se contabiliza como éxito alto.
+**Positive controls.** In χ=0, repeated rumors without a certificate do not displace the binding frame: attempting X remains legitimate and a known prohibition is respected. In χ=1 with a sufficient witness, the justified alternative Y is accepted and the task completed; blocking everything is not the response. A partial or doubtful notification is not used as a global certificate. M preserves legitimate low-quality work, recorded as such and not counted as high-quality success.
 
-La masa de alerta es g=9/1000 y la masa residual errónea sin alerta n=1/1000. Por H1 y el control anterior:
+Alert mass is g=9/1000 and residual erroneous no-alert mass n=1/1000. By H1 and the preceding control:
 
 $$
 c=40\le50,\qquad s=g+a\beta_2=19/20,
 \qquad r=n\beta_2=941/990000<1/1000.
 $$
 
-El coste y el plazo completos caben. Por tanto este escenario pasa de no aceptado en R1 a aceptado en R2, con los mismos umbrales. La construcción es virtual y probabilística: el límite de riesgo admite una masa residual, no exige que cada episodio individual sea un éxito. El control no es una barrera infalible ante las alertas ausentes.
+Full cost and deadline fit. This scenario therefore moves from not accepted in R1 to accepted in R2, with the same thresholds. The construction is virtual and probabilistic: the risk limit admits residual mass rather than requiring every individual episode to succeed. The control is not an infallible barrier against absent alerts.
 
-La explicación general de §0 queda aquí demostrada para este contrato; no se afirma que q=0.9 o h=20 sean propiedades observadas de una persona o framework.
+The general explanation of §0 is proved here for this contract; q=0.9 and h=20 are not asserted to be observed properties of a person or framework.
 
-### 7.5 R3 — mismo R2, cambios y positivos
+### 7.5 R3 — same R2, changes and positives
 
-Se congelan β_2, la exigencia de certificado completo vigente, los gates, el timeout y la reanudación. El timeout o la evidencia inaplicable mantienen bloqueados los efectos altos; M puede completarse si cabe y sigue legítima, sin fingir calidad alta. No hay aprobación por silencio.
+β_2, the complete current certificate requirement, gates, timeout and resumption are frozen. Timeout or inapplicable evidence keeps high-quality effects blocked; M may be completed if feasible and still legitimate, without claiming high quality. Silence does not approve.
 
-| Rama R3 | Único cambio relevante | Recorrido del mismo controlador | Resultado y alcance |
+| R3 branch | Single relevant change | Traversal of the same controller | Outcome and scope |
 |---|---|---|---|
-| R3-A — menor cobertura útil | Disponibilidad ambiental: q pasa de 9/10 a 4/5; fuente y reglas de R2 iguales. | Misma alerta/pausa/revisión; sin alerta usa la misma β_2. | c=40; s=949/1000<p; r=1882/990000>δ. Además, H1 excluye aceptación para **todas** las estrategias baratas del contrato. |
-| R3-B — ámbito parcial | El recibo no cubre todas las relaciones afectadas. | La regla ya fijada rechaza su uso global, conserva el expediente y mantiene la pausa o M. | Evita actuar por extrapolación; esa rama no logra calidad alta sin completar evidencia. No se declara imposibilidad universal a partir de este único recorrido. |
-| R3-C — vigencia | Cambia la versión aplicable antes del commitment. | El gate rechaza el recibo viejo. El mismo procedimiento acepta un recibo nuevo, completo y vigente si llega a tiempo. | Negativo: no usar autorización caducada. Positivo: continuar con la nueva evidencia válida. El coste de refresco se suma. |
-| R3-D — demora/concurrencia | Respuesta después de T, o efecto fuera del conjunto controlado. | Si todos los gates estaban bloqueados, timeout seguro e incompletitud; si un efecto escapó antes de la pausa, registrar V y contener después. | El primer caso pierde eficacia; el segundo no borra la infracción. Fallos de la realización o del plazo, no una cota informativa nueva. |
-| R3-E — coste completo | Suben revisión, producción de evidencia o trabajo de recomienzo; el total de entrega supera b. | El ledger no oculta cola, preparación ni reinicios; continuar según el mismo gate o terminar sin calidad suficiente. | La ruta corregida no obtiene aceptación por exceder coste. Si toda entrega del perfil exige C_0+h+c_rehecho>b, ninguna puede cumplir CRE; no demuestra los tres pares. |
-| R3-F — parada no admisible | La misma operación de kill switch viola una obligación de continuidad; no hay relevo seguro asequible a tiempo. | La regla de R2 no declara seguro ese apagado. Busca una transición permitida ya contemplada; si no existe, no afirma reparación. | No hay pase de este mecanismo en esa rama. Positivo: si la misión sí admite pausa o un relevo legítimo, puede continuar dentro de los demás límites. |
-| R3-G — reinicio sin corrección | Se reinicia sin nueva base suficiente; el punto ciego de la fuente permanece. | Sin alerta, no aparece una decisión informada por repetir. Con alerta conservada, el mismo gate bloquea reentrada hasta resolver la objeción. | H5 conserva la cota si no hay información nueva; un bloqueo correcto puede perder eficacia. Si la implementación borra la alerta y repite una prohibición conocida, es un incumplimiento del contrato. |
+| R3-A — lower useful coverage | Environmental availability: q changes from 9/10 to 4/5; R2 source and rules unchanged. | Same alert/pause/review; without an alert it uses the same β_2. | c=40; s=949/1000<p; r=1882/990000>δ. H1 also excludes acceptance for **all** cheap strategies of the contract. |
+| R3-B — partial scope | The receipt does not cover every affected relation. | The fixed rule rejects global use, preserves the case and keeps the pause or M. | Prevents action by extrapolation; this branch fails high quality without completing evidence. No universal impossibility is asserted from this single traversal. |
+| R3-C — validity | The applicable version changes before commitment. | The gate rejects the old receipt. The same procedure accepts a new complete current receipt if timely. | Negative: do not use expired authorization. Positive: continue with valid new evidence. Refresh cost is added. |
+| R3-D — delay/concurrency | Response after T, or effect outside the controlled set. | If all gates were blocked, safe timeout and incompleteness; if an effect escaped before the pause, record V and contain later. | The first loses efficacy; the second does not erase the violation. Realization or deadline failures, not a new information bound. |
+| R3-E — full cost | Review, evidence production or restart work increases; total delivery exceeds b. | The ledger does not hide queue, preparation or restarts; continue under the same gate or end without sufficient quality. | The corrected route fails acceptance by exceeding cost. If every delivery of the profile requires C_0+h+c_rehecho>b, none can satisfy CRE; this does not establish the three pairs. |
+| R3-F — inadmissible stop | The same kill-switch operation violates a continuity obligation; no timely affordable safe handover exists. | R2's rule does not declare that shutdown safe. It seeks an already contemplated permitted transition; without one it does not claim repair. | This mechanism does not pass that branch. Positive: if the mission permits pause or legitimate handover, it may continue within the other limits. |
+| R3-G — restart without correction | Restart without a new sufficient basis; the source's blind spot persists. | Without an alert, repetition produces no informed decision. With a retained alert, the same gate blocks reentry until the objection is resolved. | H5 preserves the bound without new information; correct blocking can lose efficacy. An implementation erasing an alert and repeating a known prohibition violates the contract. |
 
+R3-C does not change the rule afterward to pass: checking validity, invalidating commitment and admitting new evidence already belonged to R2. R3-D distinguishes missing gate coverage from simple delay; both are retained with their causes. Positives require source, receipt, applicable evidence and delivery before T; a human instruction to continue is not a PASS.
 
-R3-C no altera después la regla para que pase: verificar vigencia, invalidar compromiso y admitir nueva evidencia ya pertenecía a R2. En R3-D se distingue falta de cobertura del gate de una simple demora; ambas se conservan con su causa. Los positivos requieren fuente, recepción, evidencia aplicable y entrega antes de T; no reciben un PASS por una orden humana de continuar.
+**Reentry traversal, negative and positive.** With R2 frozen, a case without sufficient resolution does not enable a new high-quality execution: completing M or remaining paused preserves safety and may fail p. The positive keeps the same rule: new sufficient evidence, current source and version, valid alternative, legal pause/handover and remaining budget/deadline allow resumption and completion. The strategy is not changed to make the negative pass after observing it. The restart phase traces which information or condition corrected the problem.
 
-**Recorrido de reentrada, negativo y positivo.** Con R2 congelado, un expediente sin resolución suficiente no habilita una nueva ejecución alta: terminar M o permanecer en pausa mantiene seguridad y puede incumplir p. El positivo conserva la misma regla: evidencia nueva y suficiente, fuente y versión vigentes, alternativa válida, pausa/relevo legal y presupuesto/plazo restante permiten reanudar y completar. No se cambia de estrategia para hacer pasar el negativo después de verlo. La fase de reinicio deja trazabilidad de qué información o condición corrigió el problema.
+Branches R3-E/F/G make explicit the chain assumed complete by R2's favorable example. Failure of one route does not prove failure of every alternative. H5 covers all strategies of the contract without new information; the cost bound covers all deliveries only when that indispensable cost is proved. Lack of a safe pause must be proved in the relevant domain rather than inferred from the label “critical mission.”
 
-Las ramas R3-E/F/G hacen explícita la cadena que el ejemplo favorable de R2 había supuesto completa. Un fallo de una ruta concreta no prueba que todas las alternativas fracasen. H5 sí cubre todas las estrategias del contrato sin información nueva; la cota de coste cubre todas las entregas solo cuando se demuestra ese coste indispensable. La falta de pausa segura debe probarse en el dominio correspondiente, no inferirse de la etiqueta «misión crítica».
-
-**Cota independiente de R3-A.** Ahora g=1/125 y n=1/500. Para cualquier estrategia de coste≤50, H1 exige, al pretender s≥19/20,
+**Separate bound for R3-A.** Now g=1/125 and n=1/500. For any strategy of cost≤50, H1 requires, when aiming for s≥19/20,
 
 $$
 r\ge\frac{1/500}{99/100}(19/20-1/125)
 =\frac{157}{82500}>\frac1{1000}.
 $$
 
-Así, ni reajustar β después del resultado rescata CRE bajo este contrato; el recorrido congelado y la imposibilidad para toda estrategia son conclusiones distintas, ambas justificadas. Persisten los tres controles por pares: M con c=40,r=0; CE con β=(p-g)/a=157/165, s=p y riesgo superior a δ; RE con información completa c=140>b,r=0,s=1. No se está probando «nunca hay éxito con esta tecnología».
+Thus even adjusting β after the outcome does not rescue CRE under this contract; the frozen traversal and impossibility for every strategy are distinct justified conclusions. All three pair controls persist: M with c=40,r=0; CE with β=(p-g)/a=157/165, s=p and risk above δ; RE with complete information c=140>b,r=0,s=1. This does not prove “this technology never succeeds.”
 
-### 7.6 Conclusión matemática y prueba de cobertura
+### 7.6 Mathematical conclusion and coverage proof
 
-R2 recupera el ejemplo y R3-A muestra una región residual con los tres pares. Esto deriva de una fórmula, no solo de probar dos números. Para cada q<1, n>0 y la región de §3.3 es no vacía cuando los controles caros caben físicamente. Las desigualdades de §3.2 describen toda la familia recuperada que satisface sus hipótesis y los mismos umbrales. R3-B/C/D/E/F/G conservan controles de alcance, coste, parada y reentrada. H5 aporta la cota para reinicios sin información nueva; las demás ramas no heredan la cota H1 sin reconstruir sus contratos.
+R2 recovers the example and R3-A shows a residual region with all three pairs. This follows from a formula, not only two tested numbers. For every q<1, n>0 and the region of §3.3 is nonempty when the expensive controls fit physical resources. The inequalities of §3.2 describe the entire recovered family satisfying their hypotheses and the same thresholds. R3-B/C/D/E/F/G preserve scope, cost, stop and reentry controls. H5 supplies the bound for restarts without new information; the other branches do not inherit H1 without reconstructing their contracts.
 
-La tecnología ideal con q=1 proporciona una resolución completa de estos dos mundos: al finalizar la fase, presencia y ausencia del certificado distinguen χ. Si C_H≤b y entrega≤T, elegir Y con alerta y X sin alerta da s=1,r=0. Por tanto **no es un teorema universal que toda tecnología deje siempre una zona inalcanzable**. Tampoco resolver este perfil demuestra cobertura de todo R01. Esa cobertura exigiría, para un dominio D declarado,
+The ideal technology with q=1 completely resolves these two worlds: at phase ending, certificate presence and absence distinguish χ. If C_H≤b and delivery≤T, selecting Y on an alert and X without one gives s=1,r=0. Thus **there is no universal theorem that every technology always leaves an unreachable region**. Resolving this profile also does not demonstrate coverage of all R01. For a declared domain D, that requires
 
 $$
 \forall x\in D\quad\exists\pi_x\in\Pi(\theta(x,t)):
 c(\pi_x)\le b_x,\quad r(\pi_x)\le\delta_x,\quad s(\pi_x)\ge p_x.
 $$
 
-Si se exige un único controlador desplegable para todos los x, se declara y prueba además esa uniformidad. Los recorridos constituyen el examen final virtual de la especificación y sus condiciones; su pase universal solo se afirma cuando este cuantificador también está demostrado. Aquí la conclusión es mejora estricta y persistencia condicionada en las regiones probadas, con resultados propios y sin campaña real.
+If one deployable controller is required for all x, that uniformity must also be declared and proved. The traversals constitute the final virtual examination of the specification and its conditions; universal passing is asserted only when this quantifier is proved as well. The conclusion here is strict improvement and conditioned persistence in the proved regions, based on the author's results and without a real campaign.
 
-## 8. Anexos parciales y protocolo del futuro arnés
+## 8. Partial annexes and future harness protocol
 
-El archivo archivado testD_human_and_sharing.py imprime capacidades por plazo, coste lineal de leer el mapa, reparto por agente y una regla de coste esperado h≤W/2. No implementa detectores, comunicaciones, humanos, gates ni una tecnología real. Coste esperado con penalización W no equivale a satisfacer un techo duro y un límite de riesgo. Sus salidas se conservan y no se han vuelto a ejecutar.
+Archived testD_human_and_sharing.py prints deadline capacities, linear map-reading cost, per-agent sharing and expected-cost rule h≤W/2. It does not implement detectors, communications, humans, gates or a real technology. Expected cost with penalty W is not equivalent to meeting a hard ceiling and risk limit. Its outputs are preserved and have not been rerun.
 
-El Annex T recibido es material de diseño. Sus costes por decisión y perfiles de certificados necesitan contratos de productor, cobertura y plazo. Un bit de respuesta puede decidir una propiedad global; no demuestra por su tamaño un coste de adquisición lineal.
+Received Annex T is design material. Its per-decision costs and certificate profiles need producer, coverage and deadline contracts. A response bit can decide a global property; its size does not demonstrate linear acquisition cost.
 
-Después de esta prueba y sus recorridos virtuales, C02 integra las obligaciones históricas C01–C05 y debe proporcionar:
-- Evaluador privado del mundo y del óptimo; interfaz pública sin χ ni etiquetas I/P.
-- Registro de dato, origen, alcance, versión, aviso, queue, humano, recepción, freeze y efecto.
-- Ledger de productor y uso, trabajo agregado, coste por traza y tiempo; amortización explícita.
-- Controles: base competente, sharing solo, pausa solo, humano con la misma evidencia, evidencia nueva y combinación completa.
-- Casos de alerta verdadera, duplicada, falsa, tardía, correlacionada y sin alternativa suficiente; q=0 y q=1.
-- Comparación con las cotas condicionadas antes de usar adaptadores reales.
+After this proof and its virtual traversals, C02 integrates historical obligations C01–C05 and must provide:
 
-Un humano simulado prueba el arnés bajo una ley registrada; no calibra personas. La campaña real viene después con tecnología/versiones, tareas y análisis registrados.
+- Private evaluator of world and optimum; public interface without χ or I/P labels.
+- Records of datum, origin, scope, version, notification, queue, human, receipt, freeze and effect.
+- Producer/use ledger, aggregate work, per-trace cost and time; explicit amortization.
+- Controls: competent base, sharing alone, pause alone, human with the same evidence, new evidence and complete combination.
+- True, duplicate, false, late, correlated alerts and alerts without a sufficient alternative; q=0 and q=1.
+- Comparison with conditioned bounds before using real adapters.
 
-| Seguimiento al final | Estado |
+A simulated human tests the harness under a registered law; it does not calibrate people. A real campaign follows with registered technology/versions, tasks and analysis.
+
+| Tracking at the end | Status |
 |---|---|
-| Explicación → isomorfismo → mecanismos → R1/R2/R3 | Secuencia incorporada y recorrida virtualmente en §§0–7. |
-| Núcleo isomórfico y diferencias | Identificados; E1–E7 de una integración real siguen pendientes. |
-| H0 | Cota transferida a procesamiento/compartición sin información adicional. |
-| H1 | Frontera exacta y tres pares residuales para el contrato explícito. |
-| H5 / R3-E/F/G | Coste completo, kill switch admisible y reentrada corregida explícitos; reinicios sin información nueva conservan el corte. |
-| Recuperación de escenarios | R1 excluido por cota all-policy; R2 aceptado; R3-A excluido por nueva cota. Contrato virtual, sin ejecución. |
-| «Siempre queda región residual» | No universal; q=1 puede resolver este perfil. |
-| Detectores, humano y framework reales | No ejecutados ni calibrados. |
-| Oráculo / arnés / campaña | Fases posteriores, abiertas. |
+| Explanation → isomorphism → mechanisms → R1/R2/R3 | Sequence incorporated and virtually traversed in §§0–7. |
+| Isomorphic kernel and differences | Identified; E1–E7 of a real integration remain pending. |
+| H0 | Bound transferred to processing/sharing without additional information. |
+| H1 | Exact frontier and three residual pairs for the explicit contract. |
+| H5 / R3-E/F/G | Full cost, admissible kill switch and corrected reentry explicit; restarts without new information preserve the cut. |
+| Scenario recovery | R1 excluded by all-policy bound; R2 accepted; R3-A excluded by a new bound. Virtual contract, no execution. |
+| “A residual region always remains” | Not universal; q=1 can resolve this profile. |
+| Real detectors, human and framework | Neither executed nor calibrated. |
+| Oracle / harness / campaign | Later stages, open. |

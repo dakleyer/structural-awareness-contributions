@@ -28,8 +28,9 @@ La dureza informativa creciente ya tiene una construcción simbólica mediante p
 | Secuencia posterior | Prueba matemática → oráculo y arnés neutral → registro → campaña con tecnología real. |
 
 
-| Recorridos virtuales tecnológicos — actualización al final | Estado |
+| Virtual technology traversals — update at the end | Status |
 |---|---|
-| [Escalación humana y whispering](./HUMAN_ESCALATION_WHISPERING.md#virtual-traversals) | Explicación general incorporada antes de los recorridos; R1/R2/R3 examinados bajo contrato, con controles positivos. R2 recupera escenarios y R3-A conserva una región residual. |
-| Continuación | Misma cola: cuatro frentes activos y tres etapas posteriores. La primera entrega virtual está realizada; las siguientes candidatas reutilizan su estructura. |
-| Alcance | Revisión propia matemática/virtual; sin tecnología real, campaña ni nueva ejecución científica. Ensayos anteriores siguen como anexos parciales no canónicos. |
+| [Human escalation and whispering](./HUMAN_ESCALATION_WHISPERING.md#virtual-traversals) | General explanation incorporated before the traversals; R1/R2/R3 examined under contract with positive controls. R2 recovers scenarios and R3-A preserves a residual region. |
+| Continuation | Same queue: four active workstreams and three later stages. The first virtual delivery is complete; subsequent candidates reuse its structure. |
+| Scope | Author's mathematical/virtual review; no real technology, campaign or new scientific execution. Previous rehearsals remain noncanonical partial annexes. |
+| Document language | Current technology-extension profile, protocol, workplan and continuation are in English. Historical originals and prior README content retain their provenance and content. |

@@ -1,0 +1,53 @@
+{
+  "input_commit": "275d78822a40b2d887909a018c26f047df1a6cc2",
+  "scope": "English translation of the current technology-extension documents and active continuation; existing base mathematics and historical materials not rewritten",
+  "documents": [
+    "feasibility/HUMAN_ESCALATION_WHISPERING.md",
+    "feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+    "feasibility/WORKPLAN.md",
+    "feasibility/CONTINUATION_PROMPT.md",
+    "feasibility/WORKPLAN_STATUS.json",
+    "README.md",
+    "feasibility/README.md"
+  ],
+  "checks": {
+    "feasibility/HUMAN_ESCALATION_WHISPERING.md": {
+      "equation_displays": 7,
+      "links": 6,
+      "table_rows": 66
+    },
+    "feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md": {
+      "equation_displays": 3,
+      "links": 10,
+      "table_rows": 33
+    },
+    "feasibility/WORKPLAN.md": {
+      "equation_displays": 0,
+      "links": 12,
+      "table_rows": 27
+    },
+    "feasibility/CONTINUATION_PROMPT.md": {
+      "equation_displays": 0,
+      "links": 3,
+      "table_rows": 0
+    },
+    "README.md": {
+      "equation_displays": 0,
+      "links": 94,
+      "table_rows": 66
+    },
+    "feasibility/README.md": {
+      "equation_displays": 0,
+      "links": 26,
+      "table_rows": 21
+    }
+  },
+  "task_ids_preserved": 55,
+  "task_states_changed": false,
+  "historical_criteria_preserved": true,
+  "base_theorem_changed": false,
+  "scientific_runs": 0,
+  "math_display_change": "Only the prose connective \\text{y} translated to \\text{and}; numerical and mathematical expressions preserved",
+  "readme_preservation": "All content before the current traversal-update table retained byte-for-byte; that table translated and a language row added",
+  "independent_review": false
+}

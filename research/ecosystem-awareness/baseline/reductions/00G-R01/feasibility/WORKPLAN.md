@@ -1,60 +1,60 @@
-# R01 — Tareas pendientes vigentes
+# R01 — Current pending tasks
 
-4 de octubre de 2026 · Cola depurada por instrucción del usuario. [Registro y criterios](./WORKPLAN_STATUS.json) · [Estado anterior íntegro](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json) · [Revisión de la depuración](./QUEUE_CLEANUP_REVIEW_2026-10-04.md).
+4 October 2026 · Queue cleaned up on the user's instruction. [Registry and criteria](./WORKPLAN_STATUS.json) · [Complete previous state](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json) · [Cleanup review](./QUEUE_CLEANUP_REVIEW_2026-10-04.md).
 
-La revisión propia del núcleo v0.2, las reparaciones y la revisión de coherencia de las tres extensiones están realizadas. El protocolo de extensión está definido. No volver a programarlos como trabajos iniciales. La primera revisión tecnológica es **escalación humana y whispering**, dentro del [capítulo de tecnologías del protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study).
+The author's review of kernel v0.2, repairs and consistency review of the three extensions are complete. The extension protocol is defined. Do not schedule them again as initial work. The first technology review is **human escalation and whispering**, within the [protocol's technology chapter](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study).
 
 <!-- R01_BOT_WORKPLAN_START version="0.4" scope="feasibility/WORKPLAN.md" role="active-queue-owner" -->
-## Cola actual — cuatro frentes
+## Current queue — four workstreams
 
-| ID | Pendiente concreto | Evidencia disponible y criterio de salida |
+| ID | Concrete outstanding work | Available evidence and exit criterion |
 |---|---|---|
-| M13 | Continuar la revisión de tecnologías, empezando por escalación humana y whispering. | [Ficha existente](./HUMAN_ESCALATION_WHISPERING.md): H0/H1 y mecanismos H2–H4; explicación previa y recorridos virtuales R1/R2/R3 ya incorporados. No volver a programar esta entrega. Continuar con la candidata siguiente o una ampliación explícita del contrato; E1–E7 de una realización y calibración real quedan para su etapa. Separar resultados matemáticos del contrato y pertenencia de una implementación. Las demás tecnologías siguen la misma ficha. |
-| M16 | Completar únicamente la cobertura independiente que falte. | Revisiones externas recibidas reconocidas; registrar versión/proposición antes de solicitar otra revisión. La revisión propia está hecha. |
-| M17 | Completar la auditoría de fidelidad por cláusula y de correspondencia tecnológica. | [Teorema v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md), [auditoría propia](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md) y [dictamen de extensiones](./EXTENSION_CONSISTENCY_REVIEW.md). Conservar lo desarrollado; comprobar solo canales, políticas o costes cuya cobertura siga sin verificar. |
-| P08 | Verificar la edición vigente sin alterar manifiestos históricos. | Diferencias de hashes ya registradas. Emitir correspondencia por versión; no sobrescribir históricos ni afirmar reproducción conjunta sin comprobarla. |
+| M13 | Continue technology review, starting with human escalation and whispering. | [Existing profile](./HUMAN_ESCALATION_WHISPERING.md): H0/H1 and mechanisms H2–H4; preliminary explanation and virtual R1/R2/R3 already incorporated. Do not reschedule this delivery. Continue with the next candidate or an explicit contract extension; E1–E7 of a realization and real calibration remain for their stage. Separate mathematical contract results from implementation membership. Other technologies follow the same profile. |
+| M16 | Complete only missing independent coverage. | Received external reviews recognized; record version/proposition before requesting further review. The author's review is complete. |
+| M17 | Complete clause-level fidelity and technology-correspondence audit. | [Theorem v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md), [author's audit](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md) and [extension review](./EXTENSION_CONSISTENCY_REVIEW.md). Preserve existing development; check only channels, policies or costs whose coverage remains unverified. |
+| P08 | Verify the current edition without changing historical manifests. | Hash differences already recorded. Report correspondence by version; do not overwrite historical records or claim joint reproduction without verification. |
 
-## Etapas posteriores — tres entregas, sin ejecución anticipada
+## Later stages — three deliveries, no premature execution
 
-| ID | Entrega | Condición de entrada |
+| ID | Delivery | Entry condition |
 |---|---|---|
-| C02 | Oráculo y arnés neutral, con controles, contabilidad y segundo método. | Contrato de la tecnología/mecanismo definido; estado privado separado de los participantes. Integra el antiguo C01–C10/C13/M05/P04. |
-| C11 | Registro de la campaña y sus recursos, comparadores y análisis. | Instrumento comprobado; registro antes de ejecutar. |
-| T03 | Adaptador, controles y campaña con la primera implementación real; veredicto por tecnología. | C02/C11 y correspondencia admitida; ampliar después a otras tecnologías. Integra C12/T04–T07. |
+| C02 | Neutral oracle and harness with controls, accounting and a second method. | Technology/mechanism contract defined; private state separated from participants. Integrates former C01–C10/C13/M05/P04. |
+| C11 | Campaign registration, resources, comparators and analysis. | Instrument verified; registration before execution. |
+| T03 | Adapter, controls and campaign for the first real implementation; verdict per technology. | C02/C11 and admitted correspondence; expand to other technologies afterward. Integrates C12/T04–T07. |
 
-Las revisiones de fuentes, contraejemplos, legibilidad, visuales, enlaces y conservación forman parte de cada entrega. No se programan como diez tareas duplicadas por documento. No ejecutar una nueva campaña para depurar una cola documental.
+Source, counterexample, readability, visual, link and preservation reviews belong to each delivery. They are not scheduled as ten duplicate tasks per document. Do not run a new campaign to clean up a documentary queue.
 <!-- R01_BOT_WORKPLAN_END -->
 
 <a id="extension-vocabulary-review"></a>
-## Revisión de las tres extensiones — realizada
+## Review of the three extensions — completed
 
-[Dictamen de coherencia](./EXTENSION_CONSISTENCY_REVIEW.md). No repetirla como pendiente; sus obligaciones de implementación y fidelidad siguen en M13/M17, y las discrepancias documentales en P08. Usar **escenarios, zona aceptada y zona no aceptada**.
+[Consistency review](./EXTENSION_CONSISTENCY_REVIEW.md). Do not repeat it as pending; implementation and fidelity obligations remain in M13/M17, and documentary discrepancies in P08. Use **scenarios, accepted region and not-accepted region**.
 
-## Retirado de la cola activa
+## Removed from the active queue
 
-Los 55 IDs y sus criterios históricos permanecen en el registro. Hay 4 tareas activas, 3 entregas posteriores, 4 cierres históricos, 3 trabajos completos en su alcance propio, 37 obligaciones consolidadas y 4 trabajos fuera del alcance actual. Consolidado o fuera de alcance no significa validado ni ejecutado.
+All 55 IDs and their historical criteria remain in the registry. There are 4 active tasks, 3 later deliveries, 4 historical closures, 3 works complete within their own scope, 37 consolidated obligations and 4 works outside current scope. Consolidated or out of scope does not mean validated or executed.
 
-M03/M04/M12 no vuelven a pedir construir la prueba base: el [teorema canónico](./R01_CONDITIONED_TRILEMMA_THEOREM.md) y sus reparaciones cubren su entrega propia; M16/M17 conservan la cobertura restante. El selector prospectivo y la replicación amplia C14/P11/P12/T12 quedan sin programar en este trabajo; sus criterios se conservan para otro alcance.
+M03/M04/M12 do not request rebuilding the base proof: the [canonical theorem](./R01_CONDITIONED_TRILEMMA_THEOREM.md) and its repairs cover their own delivery; M16/M17 retain outstanding coverage. Prospective selection and broad replication C14/P11/P12/T12 are not scheduled in this work; their criteria remain for a different scope.
 
-## Ensayos previos
+## Previous rehearsals
 
-[Anexos parciales](./partial-experiments/README.md) · [Material recibido, resultados y contraejemplos](./partial-experiments/received/2026-10-04/README.md). Son ensayos de preparación, no pruebas canónicas ni validaciones de tecnología real. No reabrir una cola matemática antigua desde estos anexos.
+[Partial annexes](./partial-experiments/README.md) · [Received material, results and counterexamples](./partial-experiments/received/2026-10-04/README.md). These are preparation rehearsals, not canonical proofs or real-technology validations. Do not reopen an old mathematical queue from these annexes.
 
-| Seguimiento | Estado |
+| Tracking | Status |
 |---|---|
-| Próxima tarea | M13: explicación y recorridos virtuales de la primera tecnología entregados; continuar por candidatas sin reabrir tareas superadas. |
-| Revisiones aún abiertas | M16, M17 y P08 con alcance delimitado. |
-| Oráculo / arnés / campaña real | Etapas posteriores; ninguna ejecución nueva en esta depuración. |
-| Conservación | IDs, criterios y documentos anteriores archivados íntegramente; fórmulas y resultados conservados. |
+| Next task | M13: explanation and virtual traversals of the first technology delivered; continue through candidates without reopening superseded tasks. |
+| Reviews still open | M16, M17 and P08 with delimited scope. |
+| Oracle / harness / real campaign | Later stages; no new execution in this cleanup. |
+| Preservation | Previous IDs, criteria and documents archived in full; formulas and results preserved. |
 
-| Entrega virtual posterior — seguimiento al final | Estado |
+| Subsequent virtual delivery — tracking at the end | Status |
 |---|---|
-| Escalación humana y whispering | Explicación de ayuda, núcleo/mecanismos y R1/R2/R3 incorporados en la ficha existente. R2 recupera; R3-A conserva el trilema bajo otra condición. |
-| Qué sigue dentro de M13 | Aplicar la misma secuencia a la siguiente candidata del protocolo; delimitar por contrato las lagunas que requieran ampliación. |
-| Etapas posteriores | C02/C11/T03 siguen diferidas; no se ejecutó tecnología real. M16/M17/P08 conservan su alcance. |
+| Human escalation and whispering | Help explanation, kernel/mechanisms and R1/R2/R3 incorporated into the existing profile. R2 recovers; R3-A preserves the trilemma under another condition. |
+| Next within M13 | Apply the same sequence to the next protocol candidate; delimit by contract any gaps requiring extension. |
+| Later stages | C02/C11/T03 remain deferred; no real technology executed. M16/M17/P08 retain their scope. |
 
-| Precisión posterior de la primera ficha — al final | Estado |
+| Subsequent clarification of the first profile — at the end | Status |
 |---|---|
-| Cadena y coste | Reconocimiento, canal, expediente, humano, intervención y entrega explícitos; coste alto es una condición por verificar, no una tasa medida. |
-| Reinicio y misión crítica | R3-E/F/G y proposición H5 incorporados: parar debe ser admisible; reentrada exige base suficiente y conserva ledger/reloj/V. |
-| Cola | Misma M13 y mismos cuatro frentes; no se crea una campaña ni una tarea duplicada. La primera ficha virtual permanece entregada con esta ampliación. |
+| Chain and cost | Recognition, channel, case, human, intervention and delivery explicit; high cost is a condition to verify, not a measured rate. |
+| Restart and critical mission | R3-E/F/G and proposition H5 incorporated: stopping must be admissible; reentry requires a sufficient basis and preserves ledger/clock/V. |
+| Queue | Same M13 and four workstreams; no new campaign or duplicate task. The first virtual profile remains delivered with this extension. |

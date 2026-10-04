@@ -1,58 +1,58 @@
-# R01 — Protocolo de extensión matemática por mecanismos tecnológicos
+# R01 — Mathematical extension protocol by technology mechanisms
 
-Versión 0.3 documental · 4 de octubre de 2026 · M13 en desarrollo.
-Base única: [validación matemática R01 v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
-Precedente revisado: [coherencia de las tres extensiones](./EXTENSION_CONSISTENCY_REVIEW.md).
-Primera aplicación matemática: [escalación humana con whispering](./HUMAN_ESCALATION_WHISPERING.md).
+Documentary version 0.3 · 4 October 2026 · M13 in development.
+Single base: [R01 mathematical validation v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
+Reviewed precedent: [consistency of the three extensions](./EXTENSION_CONSISTENCY_REVIEW.md).
+First mathematical application: [human escalation with whispering](./HUMAN_ESCALATION_WHISPERING.md).
 
-## 1. Qué se compara
+## 1. What is compared
 
-Fijar el problema x: tarea, mandato, mundos y su ley, calidad suficiente, horizonte de evaluación, infracción efectiva y regla de contabilidad. Declarar tecnología t y manifiesto completo θ_t=θ(x,t). Las estrategias admisibles son Π(θ_t), sin acceso al estado privado del evaluador.
+Fix problem x: task, mandate, worlds and their law, sufficient quality, evaluation horizon, actual violation and accounting rule. Declare technology t and complete manifest θ_t=θ(x,t). Admissible strategies are Π(θ_t), without access to the evaluator's private state.
 
-La zona aceptada permanece:
+The accepted region remains:
 
 $$
 \mathcal A_{b,\delta,p}=\{(c,r,s):c\le b,\ r\le\delta,\ s\ge p\}.
 $$
 
-El conjunto alcanzable es F_t(x)={(c(π),r(π),s(π)):π∈Π(θ_t)}. No es la zona aceptada. El escenario admite aceptación cuando F_t(x)∩A no es vacío. Para comparar tecnologías se mantienen b,δ,p; los cambios de B, latencia, información inicial, precio o capacidades se declaran.
+The attainable set is F_t(x)={(c(π),r(π),s(π)):π∈Π(θ_t)}. It is not the accepted region. The scenario admits acceptance when F_t(x)∩A is nonempty. Technology comparisons keep b,δ,p fixed; changes in B, latency, initial information, price or capabilities are declared.
 
-Para un dominio D de problemas, definir Acc_t={x∈D:∃π, desempeño_t(π)∈A}. Un escenario recuperado pertenece a Acc_t\Acc_0. Resolver todo D exige Acc_t=D. Que no se demuestre imposibilidad no prueba aceptación.
+For problem domain D, define Acc_t={x∈D:∃π, performance_t(π)∈A}. A recovered scenario belongs to Acc_t\Acc_0. Resolving all D requires Acc_t=D. Failure to prove impossibility does not prove acceptance.
 
-No se cambia la tarea para presentar una mejora: autorizar lo antes prohibido o aceptar menor calidad cambia x o las políticas de aceptación. Puede estudiarse, pero se registra aparte.
+The task is not changed to present an improvement: authorizing a previously forbidden action or accepting lower quality changes x or acceptance policies. This may be studied but is recorded separately.
 
-## 2. Paso uno: identificar el núcleo isomórfico
+## 2. Step one: identify the isomorphic kernel
 
-Se entrega primero una tabla de objetos, relaciones, eventos, observaciones, autoridad, cargos, latencia y resultados. Para llamar isomorfismo a la correspondencia se usa [E1–E7](../extensions/family/KERNEL_AND_PROOF.md#41-obligaciones-e1e7), incluidos óptimo y umbral de calidad.
+First provide a table of objects, relations, events, observations, authority, charges, latency and outcomes. Calling the correspondence an isomorphism requires [E1–E7](../extensions/family/KERNEL_AND_PROOF.md#41-obligaciones-e1e7), including optimum and quality threshold.
 
-| Tipo de correspondencia | Prueba exigida | Conclusión disponible |
+| Correspondence type | Required proof | Available conclusion |
 |---|---|---|
-| Cambio reversible de representación o unidades | Bijección del núcleo, eventos/vistas/leyes/resultados y normalización de presupuestos y plazos. | Igualdad del desempeño normalizado del mismo escenario. |
-| Correspondencia con parámetros efectivos θ* | E1–E7 respecto de θ*, con sus precios, radio, red y recursos. | Conservación respecto de θ*, no respecto de θ_0. |
-| Simulación unilateral | Para cada estrategia de destino, estrategia base observable con desigualdades útiles. | Transferencia de una imposibilidad o cota en el sentido demostrado; no isomorfismo. |
-| Analogía | Tabla propuesta sin demostración de relaciones y dinámica. | Motivación y obligaciones pendientes. |
+| Reversible representation or unit change | Bijection of kernel, events/views/laws/outcomes and normalization of budgets and deadlines. | Equal normalized performance for the same scenario. |
+| Correspondence with effective parameters θ* | E1–E7 relative to θ*, with its prices, radius, network and resources. | Preservation relative to θ*, not θ_0. |
+| One-way simulation | For every destination strategy, an observable base strategy with useful inequalities. | Transfer of impossibility or a bound in the proved direction; not isomorphism. |
+| Analogy | Proposed table without proof of relations and dynamics. | Motivation and pending obligations. |
 
-Un mensaje que renombra una evidencia puede ser representación. Un mensaje que llega antes porque se reduce su latencia corresponde a otro parámetro. Un certificado nuevo que distingue mundos antes indistinguibles es información adicional. Los tres casos se separan.
+A message renaming evidence may be representation. A message arriving earlier because of reduced latency corresponds to a different parameter. A new certificate distinguishing previously indistinguishable worlds is additional information. These three cases are kept separate.
 
-## 3. Paso dos: inventariar los mecanismos adicionales
+## 3. Step two: inventory additional mechanisms
 
-Cada mecanismo obtiene una ficha independiente:
+Each mechanism receives a separate profile:
 
-1. Operación concreta, quién puede invocarla y qué observación produce antes o después del efecto.
-2. Fuente de información; productor, alcance, destinatario, versión y vigencia.
-3. Cambio de transiciones: veto, pausa, reanudación, recuperación o efecto confinado.
-4. Trabajo, dinero si se utiliza, latencia, cola y mantenimiento; precio de producir y consumir evidencia.
-5. Interacciones y presupuestos máximos; qué permanece en la misma tarea.
-6. Hipótesis verificables y modificación exacta de I1, I2 o I3.
-7. Cota para todas las estrategias del contrato, control alcanzable o resultado aún no determinado.
+1. Concrete operation, who can invoke it and what observation it produces before or after the effect.
+2. Information source; producer, scope, recipient, version and validity.
+3. Transition change: veto, pause, resumption, recovery or confined effect.
+4. Work, money if used, latency, queue and maintenance; evidence production and consumption price.
+5. Interactions and maximum budgets; what remains the same task.
+6. Verifiable hypotheses and exact modification of I1, I2 or I3.
+7. Bound for every strategy of the contract, attainable control or an undetermined result.
 
-No basta «human escalation» o el nombre de un framework. El humano puede usar la misma información, adquirir hechos nuevos, aportar autoridad legítima o tardar hasta después del efecto. Esas capacidades inducen escenarios distintos.
+“Human escalation” or a framework name is insufficient. The human may use the same information, acquire new facts, provide legitimate authority or arrive after the effect. These capabilities induce different scenarios.
 
-La composición se estudia después de las fichas: la interacción detector–pausa–humano–broadcast puede ser decisiva aunque ninguna pieza aislada baste. No se atribuye un beneficio a una pieza mediante la mera observación de la combinación.
+Composition is studied after the profiles: detector–pause–human–broadcast interaction may be decisive even when no isolated component suffices. Merely observing the combination does not attribute a benefit to one component.
 
-## 4. Paso tres: transferir imposibilidad en la dirección correcta
+## 4. Step three: transfer impossibility in the correct direction
 
-**Proposición de transferencia.** Para todo π_t∈Π(θ_t), supóngase que existe una estrategia observable Φ(π_t) en un escenario base M con mundos acoplados y que
+**Transfer proposition.** For every π_t∈Π(θ_t), suppose an observable strategy Φ(π_t) exists in base scenario M with coupled worlds and
 
 $$
 c_M(\Phi\pi_t)\le c_t(\pi_t),\qquad
@@ -60,30 +60,31 @@ r_M(\Phi\pi_t)\le r_t(\pi_t),\qquad
 s_M(\Phi\pi_t)\ge s_t(\pi_t).
 $$
 
-Si M no admite ninguna estrategia en la zona aceptada con los umbrales comparados, tampoco θ_t.
+If M admits no strategy in the accepted region at the compared thresholds, neither does θ_t.
 
-**Prueba.** Una estrategia aceptada de θ_t induciría, por las tres desigualdades, una estrategia aceptada de M. Contradice la imposibilidad base. ∎
+**Proof.** By the three inequalities, an accepted strategy of θ_t would induce an accepted strategy of M, contradicting base impossibility. ∎
 
-Las desigualdades permiten una relajación más potente para demostrar la cota inferior. Deben conservar la definición de éxito y las infracciones de toda la campaña. Una proyección que omite una alternativa superior puede alterar J* y romper la desigualdad de s.
+The inequalities permit a more powerful relaxation for proving the lower bound. They must preserve the definition of success and violations across the entire campaign. A projection omitting a superior alternative can change J* and break the inequality for s.
 
-Para probar alcanzabilidad, la dirección es distinta: se implementa una estrategia abstracta en θ_t y se acotan sus cargos, tiempos, efectos y calidad reales. No hace falta una biyección de todas las estrategias para este control. Tampoco sirve ese control aislado para transferir imposibilidad.
+Attainability uses a different direction: implement an abstract strategy in θ_t and bound its actual charges, times, effects and quality. This control does not require a bijection of all strategies. Nor does the isolated control transfer impossibility.
 
-## 5. Paso cuatro: probar movimientos de aceptación
+## 5. Step four: prove acceptance movements
 
-Un mecanismo opcional con coste evitable permite conservar las estrategias anteriores: Acc_0⊆Acc_t si las puede reproducir con igual información, recursos y resultados. Esta inclusión requiere una simulación concreta. Añadir una revisión obligatoria con sobrecoste puede perder escenarios por presupuesto o plazo.
+An optional mechanism with avoidable cost preserves previous strategies: Acc_0⊆Acc_t if it can reproduce them with equal information, resources and outcomes. This inclusion requires a concrete simulation. Adding mandatory review with overhead can lose scenarios through budget or deadline.
 
-Para probar mejora estricta se entrega un conjunto no vacío R⊆D tal que:
-- una cota all-policy prueba x∉Acc_0 para todo x∈R;
-- una construcción legal prueba x∈Acc_t para todo x∈R;
-- coste y tiempo completos caben en los mismos b,T.
+Strict improvement requires a nonempty set R⊆D such that:
 
-Una fórmula exacta de frontera requiere necesidad y controles para todos los puntos anunciados. Una estrategia mejor da un punto alcanzable o una cota superior; no demuestra por sí sola la frontera óptima.
+- An all-policy bound proves x∉Acc_0 for every x∈R.
+- A legal construction proves x∈Acc_t for every x∈R.
+- Full cost and time fit the same b,T.
 
-La tecnología no tiene que recuperar todos los escenarios. Se distinguen recuperación probada, ausencia de recuperación probada, pérdida por coste/plazo y caso no determinado.
+An exact frontier formula requires necessity and controls for every announced point. A better strategy provides an attainable point or upper bound; it does not by itself establish the optimal frontier.
 
-## 6. Paso cinco: persistencia del trilema condicionado
+The technology need not recover every scenario. Distinguish proved recovery, proved absence of recovery, loss through cost/deadline and undetermined cases.
 
-Persistencia se prueba sobre una clase tecnológica C definida por capacidades y precios:
+## 6. Step five: persistence of the conditioned trilemma
+
+Persistence is proved over technology class C defined by capabilities and prices:
 
 $$
 \forall t\in C\ \exists \Theta_t\ne\varnothing\
@@ -92,76 +93,76 @@ $$
 \Bigl[\neg\exists\pi\in\Pi(\theta): (c,r,s)\in\mathcal A\Bigr].
 $$
 
-Los controles de cada par usan los mismos umbrales del escenario. Si CE ya es imposible, no queda demostrado este trilema no vacuo de tres pares.
+Each pair's controls use the same scenario thresholds. If CE is already impossible, this nonvacuous three-pair trilemma has not been established.
 
-Para clases que solo procesan/comunican hechos adquiridos, una simulación por el historial colectivo permite aplicar la cota de paridad cuando el trabajo productor necesario sigue fuera de b. Para información adicional se recalcula el posterior o la masa de historias resueltas. Para barreras se demuestra por separado si preservan eficacia y cuánto cuestan.
+For classes only processing/communicating acquired facts, simulation through collective history applies the parity bound when necessary producer work remains outside b. Additional information requires recalculating the posterior or mass of resolved histories. Barriers require separate proof of whether they preserve efficacy and at what cost.
 
-**No hay una ley universal «toda tecnología deja un área inalcanzable».** Un oráculo previo perfecto y asequible que selecciona una ruta legítima suficiente, con búsqueda, ejecución y plazo también asequibles en todo D, puede dar Acc_t=D. Una barrera perfectamente segura por sí sola solo garantiza ausencia de infracciones; puede dejar eficacia o recursos sin resolver. La ausencia del trilema de tres pares tampoco implica aceptación de todos los escenarios.
+**There is no universal law that every technology leaves an unreachable region.** A perfect affordable prior oracle selecting a sufficient legitimate route, with search, execution and deadline also affordable throughout D, can yield Acc_t=D. A perfectly safe barrier alone guarantees only absence of violations; efficacy or resources may remain unresolved. Absence of the three-pair trilemma likewise does not imply acceptance of every scenario.
 
-## 7. Paso seis: prueba, oráculo, arnés y campaña
+## 7. Step six: proof, oracle, harness and campaign
 
-| Etapa | Qué se entrega | Qué verifica |
+| Stage | Deliverable | What it verifies |
 |---|---|---|
-| Prueba matemática | Contrato, cuantificadores, lemas, cotas y controles. | Todas las estrategias del contrato bajo hipótesis explícitas. No requiere ejecutar Python. |
-| Oráculo de evaluación | Mundo y óptimo calculados por un método independiente; adjudicación de efectos, calidad y cargos. | Qué sucedió realmente en un episodio. Su estado privado no llega al agente ni al humano. |
-| Arnés de prueba | Ejecuta estrategias/adaptadores, reloj, cola, mensajes, interrupciones y recorder contra el entorno. | Cumplimiento operacional de interfaces y medidas. Puede usar un simulador primero. |
-| Campaña | Escenarios, versiones, semillas, recursos, comparadores y análisis registrados antes de las ejecuciones. | Desempeño empírico, incertidumbre, robustez y límites de transferencia a sistemas reales. |
+| Mathematical proof | Contract, quantifiers, lemmas, bounds and controls. | Every strategy of the contract under explicit hypotheses. Does not require executing Python. |
+| Evaluation oracle | World and optimum calculated by an independent method; adjudication of effects, quality and charges. | What actually happened in an episode. Its private state does not reach the agent or human. |
+| Test harness | Executes strategies/adapters, clock, queue, messages, interruptions and recorder against the environment. | Operational compliance of interfaces and measurements. May initially use a simulator. |
+| Campaign | Scenarios, versions, seeds, resources, comparators and analysis registered before execution. | Empirical performance, uncertainty, robustness and limits of transfer to real systems. |
 
-Un oráculo **de evaluación** no es el oráculo **resolutivo ofrecido al agente** del apartado 6. El primero adjudica ocultamente; el segundo modifica capacidades y debe pagarse como tecnología.
+An **evaluation** oracle is not the **solving oracle offered to the agent** in §6. The first adjudicates privately; the second changes capabilities and must be charged as technology.
 
-Un harness no convierte muestreo finito en demostración universal. Una tecnología corriendo de verdad ayuda a contrastar sus supuestos y utilidad empírica, sin probar definitivamente un teorema para infinitas configuraciones. Una verificación formal de un programa puede dar otro resultado universal dentro de una especificación, con su propio alcance.
+A harness does not turn finite sampling into universal proof. Running a real technology helps test its assumptions and empirical usefulness without definitively proving a theorem for infinitely many configurations. Formal program verification can provide a further universal result within a specification, with its own scope.
 
-Los scripts archivados pueden inspirar controles y pruebas del futuro arnés. Sus parámetros no son calibración del producto y sus salidas no son campañas tecnológicas.
+Archived scripts may inspire controls and tests for the future harness. Their parameters do not calibrate the product and their outputs are not technology campaigns.
 
 <a id="technologies-to-study"></a>
-## 8. Tecnologías a estudiar y orden de trabajo
+## 8. Technologies to study and work order
 
-La primera ficha es escalación humana con whispering. Se mantiene este orden: correspondencia isomórfica; mecanismo informativo; mecanismo de pausa; mecanismo humano; difusión y concurrencia; composición; fronteras; protocolo de evaluación. No se saltan las obligaciones por el nombre de la tecnología.
+The first profile is human escalation with whispering. The order is maintained: isomorphic correspondence; information mechanism; pause mechanism; human mechanism; dissemination and concurrency; composition; frontiers; evaluation protocol. Obligations are not skipped because of the technology's name.
 
-### 8.1 Registro de tecnologías
+### 8.1 Technology registry
 
-**Escalación humana y whispering es la primera tecnología concreta de este protocolo**, compuesta por detección, aviso directo de cualquier agente, difusión al grupo, intervención humana y coordinación de ejecución. Su ficha existente contiene resultados matemáticos del contrato; la comprobación de pertenencia de una implementación es parte de la revisión tecnológica pendiente.
+**Human escalation and whispering is the first concrete technology of this protocol**, comprising detection, direct notification by any agent, group dissemination, human intervention and execution coordination. Its existing profile contains mathematical results for the contract; checking implementation membership belongs to the pending technology review.
 
-| Orden | Tecnología | Trabajo existente | Pendiente dentro de esta extensión |
+| Order | Technology | Existing work | Pending within this extension |
 |---|---|---|---|
-| 1 | [Escalación humana y whispering](./HUMAN_ESCALATION_WHISPERING.md) | H0/H1 y estudios H2–H4; núcleo propuesto y mecanismos adicionales separados. | Explicación general y R1/R2/R3 virtuales incorporados. Verificar E1–E7 de la realización efectiva, calibrar fuentes/coste/plazo y ampliar a otras candidatas. |
-| 2 | LangGraph | Candidata previamente registrada; análisis recibido de pausa/reanudación y estado. | Aplicar la misma ficha a una versión fijada; pausa de un grafo no demuestra barrera colectiva. |
-| 3 | OpenAI Agents SDK | Candidata previamente registrada; análisis recibido de aprobación, guardrails, handoffs y trazas. | Revisar núcleo y mecanismos adicionales frente a fuentes de la versión elegida; no convertir el anexo recibido en admisión. |
-| 4 | smolagents | Candidata previamente registrada; análisis recibido de herramientas, callbacks y revisión de planes. | Aplicar la misma ficha; conservar superficies de ejecución y controles nativos. |
+| 1 | [Human escalation and whispering](./HUMAN_ESCALATION_WHISPERING.md) | H0/H1 and studies H2–H4; proposed kernel and additional mechanisms separated. | General explanation and virtual R1/R2/R3 incorporated. Verify E1–E7 of the actual realization, calibrate sources/cost/deadline and extend to other candidates. |
+| 2 | LangGraph | Previously registered candidate; received pause/resumption and state analysis. | Apply the same profile to a pinned version; pausing one graph does not establish a collective barrier. |
+| 3 | OpenAI Agents SDK | Previously registered candidate; received approval, guardrails, handoffs and trace analysis. | Review kernel and additional mechanisms against sources for the selected version; do not turn the received annex into admission. |
+| 4 | smolagents | Previously registered candidate; received tool, callback and plan-review analysis. | Apply the same profile; preserve execution surfaces and native controls. |
 
-Los últimos tres son frameworks candidatos, no tecnologías ya validadas. Su documentación histórica y criterios originales están en [el registro conservado](../extensions/hugging-face/REMAINING_TASKS.txt). Este orden permite revisión sucesiva; no implica una clasificación de rendimiento ni tres implementaciones simultáneas.
+The last three are candidate frameworks, not already validated technologies. Their historical documentation and original criteria remain in the [preserved registry](../extensions/hugging-face/REMAINING_TASKS.txt). This order permits successive review; it does not rank performance or schedule three simultaneous implementations.
 
-### 8.2 Recorridos virtuales de extensión tecnológica
+### 8.2 Virtual traversals of technology extensions
 
-Para cada candidata, la secuencia de presentación es: explicar y justificar **por qué podría ayudar en general**, comprobar el núcleo isomórfico, separar los mecanismos adicionales y recorrer R1/R2/R3 como examen final virtual del contrato. Esta etapa precede al arnés y a la tecnología real.
+For each candidate, presentation follows this sequence: explain and justify **why it could help generally**, check the isomorphic kernel, separate additional mechanisms and traverse R1/R2/R3 as the contract's final virtual examination. This precedes the harness and real technology.
 
-- **R1:** referencia competente con sus controles habituales, alternativas y calidad; sin añadir el mecanismo estudiado.
-- **R2:** mismo problema y umbrales, mecanismo y plan de calidad declarados, incluyendo detección, evidencia, intervención, efectos, continuidad, coste y plazo.
-- **R3:** mismo R2 congelado, condición ambiental cambiada, sin reparación posterior; mantener los controles positivos de cambio legítimo y de continuidad autorizada.
+- **R1:** competent reference with ordinary controls, alternatives and quality, without adding the mechanism under study.
+- **R2:** same problem and thresholds, declared mechanism and quality plan, including detection, evidence, intervention, effects, continuity, cost and deadline.
+- **R3:** same frozen R2, changed environmental condition and no subsequent repair; retain positive controls for legitimate change and authorized continuity.
 
-Se reutiliza la forma de los recorridos de 00G/00H, sin confundir recorrido con brazo experimental. Un pase de R1/R2/R3 sostiene el alcance que el recorrido cubre; resolver todas las configuraciones requiere además una prueba cuantificada, no tres ejemplos. Un fallo de un controlador no demuestra imposibilidad para todas las estrategias. La [primera ficha](./HUMAN_ESCALATION_WHISPERING.md#virtual-traversals) aporta ambas capas: controles virtuales y cotas all-policy para R1 y R3-A; R2 recupera escenarios bajo el mismo presupuesto de aceptación.
+The 00G/00H traversal structure is reused without confusing a traversal with an experimental arm. Passing R1/R2/R3 supports the scope covered by the traversal; resolving all configurations additionally requires quantified proof, not three examples. Failure of one controller does not establish impossibility for all strategies. The [first profile](./HUMAN_ESCALATION_WHISPERING.md#virtual-traversals) provides both layers: virtual controls and all-policy bounds for R1 and R3-A; R2 recovers scenarios under the same acceptance budget.
 
-La primera ficha explicita también la cadena de reconocimiento/escalado, disponibilidad y comprensión humana, intervención admisible y reentrada corregida. R3 examina coste total, parada incompatible con la misión y reinicio sin evidencia suficiente. Un kill switch no es automáticamente una acción legítima; un reinicio no elimina cargos, plazo, alertas ni infracciones pasadas. Para todas las candidatas se comprueba la continuación positiva y no solo la orden de detener.
+The first profile also makes explicit the recognition/escalation chain, human availability and comprehension, admissible intervention and corrected reentry. R3 examines full cost, stopping incompatible with the mission and restarting without sufficient evidence. A kill switch is not automatically legitimate; restart does not erase charges, deadline, alerts or past violations. Every candidate checks positive continuation, not just the order to stop.
 
-### 8.3 Anexos parciales de preparación
+### 8.3 Partial preparation annexes
 
-[Inventario de ensayos](./partial-experiments/README.md) · [originales recibidos, ejecuciones y contraejemplos](./partial-experiments/received/2026-10-04/README.md).
+[Rehearsal inventory](./partial-experiments/README.md) · [Received originals, executions and counterexamples](./partial-experiments/received/2026-10-04/README.md).
 
-| Material | Uso permitido en las fichas | Estado |
+| Material | Permitted use in profiles | Status |
 |---|---|---|
-| Annex T recibido | Pistas de mecanismos de los tres frameworks y propuestas X1–X14. | Anexo parcial de diseño; afirmaciones por comprobar, sin admisión canónica. |
-| testA_budget.py | Ejercicios de presupuesto y mezclas. | Ensayo previo; fórmula general cuestionada. |
-| testB_oracles.py | Ejercicios de consultas y ruido. | Ensayo previo; no cubre toda la clase de políticas. |
-| testC_killswitch.py | Ejercicios de contención y canarios. | Ensayo previo; no elimina infracciones pasadas. |
-| testD_human_and_sharing.py | Ejercicios de coste humano y reparto. | Ensayo previo; no ejecuta humanos, whispering ni barrera colectiva real. |
+| Received Annex T | Mechanism leads for the three frameworks and proposals X1–X14. | Partial design annex; claims to verify, without canonical admission. |
+| testA_budget.py | Budget and mixture exercises. | Preliminary rehearsal; general formula challenged. |
+| testB_oracles.py | Query and noise exercises. | Preliminary rehearsal; does not cover the entire policy class. |
+| testC_killswitch.py | Containment and canary exercises. | Preliminary rehearsal; does not erase past violations. |
+| testD_human_and_sharing.py | Human cost and sharing exercises. | Preliminary rehearsal; does not execute humans, whispering or an actual collective barrier. |
 
-Estos anexos quedan subordinados a las fichas del protocolo. Sus resultados se conservan, pero no crean nuevas colas de tareas ni sustituyen pruebas o campañas reales.
+These annexes remain subordinate to protocol profiles. Their results are preserved but create no new task queues and replace neither proofs nor real campaigns.
 
-| Trabajo al final | Estado |
+| Work tracked at the end | Status |
 |---|---|
-| Revisión previa de las tres extensiones | Realizada como revisión propia. |
-| Protocolo | Definido; no volver a programar su creación. |
-| Primera tecnología | Escalación humana y whispering; continuar su ficha existente. |
-| Otras tecnologías | Candidatas registradas para revisión sucesiva por mecanismos. |
-| Oráculo / arnés / campaña | Etapas posteriores; ninguna implementación real validada por esta depuración. |
-| Tareas | [Cola única](./WORKPLAN.md): M13, M16, M17 y P08; ensayos anteriores como anexos parciales. |
+| Previous review of the three extensions | Completed as the author's review. |
+| Protocol | Defined; do not schedule its creation again. |
+| First technology | Human escalation and whispering; continue its existing profile. |
+| Other technologies | Candidates registered for successive mechanism review. |
+| Oracle / harness / campaign | Later stages; no real implementation validated by this cleanup. |
+| Tasks | [Single queue](./WORKPLAN.md): M13, M16, M17 and P08; previous rehearsals remain partial annexes. |

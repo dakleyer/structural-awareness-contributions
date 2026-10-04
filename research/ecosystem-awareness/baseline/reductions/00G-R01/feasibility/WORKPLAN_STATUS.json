@@ -263,7 +263,7 @@
       "status": "IN_PROGRESS",
       "priority": "P1",
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Tecnologías del protocolo de extensión: escalación humana + whispering primero; E1–E7 del núcleo, mecanismos adicionales uno por uno, composición, coste/plazo y escenarios recuperados. Continuar luego con las candidatas registradas; ensayos recibidos solo como anexos parciales.",
+      "criterion_in_master": "Technologies within the extension protocol: human escalation + whispering first; E1–E7 of the kernel, additional mechanisms individually, composition, cost/deadline and recovered scenarios. Then continue with registered candidates; received rehearsals remain partial annexes only.",
       "historical_evidence_retained": false,
       "new_acceptance": "Clasificar interfaces de coordenadas, predicados/certificados globales y ejecutores/barreras; definir simulación observable y cargos que justifican heredar una cota. Para cada clase: hipótesis, coste productor/uso, cota inferior, control superior o límite abierto, cambio de kernel y eliminación absoluta/relativa o solo del riesgo. Comparar f(n(L))/C0(L); conservar casos que empeoran. Un nombre comercial, coste positivo o tamaño de salida no establece pertenencia ni persistencia.",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
@@ -351,7 +351,7 @@
       "status": "OPEN",
       "priority": "P1",
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Mapear por versión/proposición la revisión externa recibida y pedir únicamente la reconstrucción independiente que siga sin cobertura. No reiniciar ni desconocer la revisión propia terminada.",
+      "criterion_in_master": "Map received external review by version/proposition and request only independent reconstruction still lacking coverage. Do not restart or disregard the completed author review.",
       "historical_evidence_retained": false,
       "new_acceptance": "Revisor distinto del autor y no asignado ficticiamente: reconstruir F1–F4, W1–W5, G1, T1/T2 y cuantificadores, cubriendo políticas omitidas, normalización, presupuesto en ramas fallidas, abstención, igualdad y controles conocidos. Dictamen por afirmación: VALIDATED_IN_SCOPE, COUNTEREXAMPLE o GAP; M13–M15 se revisan separadamente si se incluyen. No basta ejecutar el script del autor. Considerar formalización de los lemas críticos si aporta cobertura; un intento incompleto no es prueba formal. Revisión propia puede continuar sin cerrar esta tarea.",
       "reviewer_requirement": "distinct from author; UNASSIGNED, no independent review claimed",
@@ -377,7 +377,7 @@
       "status": "IN_PROGRESS",
       "priority": "P1",
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Auditoría de fidelidad por cláusula del teorema actual y correspondencia de la tecnología efectiva. No exigir reconstruir de cero un puente ya desarrollado ni transportar una fórmula fuera de sus hipótesis.",
+      "criterion_in_master": "Clause-level fidelity audit of the current theorem and correspondence of the effective technology. Do not require rebuilding an existing bridge from scratch or transfer a formula outside its hypotheses.",
       "historical_evidence_retained": false,
       "new_acceptance": "Elegir un objetivo explícito: familia suplementaria o subfamilia de R01. Para afirmar lo segundo, construir embedding/reducción de mundos, acciones, observaciones, efectos y costes; mapear TODAS las políticas relevantes de R01 a la clase cubierta, incluyendo conectores, geometría, autoridad, consultas y barreras. Comprobar dirección de la reducción: no basta exhibir una política ni preservar trazas seleccionadas para transferir imposibilidad. Limitar el resultado a un submodelo o marcar GAP si R01 aporta información o acciones adicionales. E1–E7 y coherencia M07 no sustituyen la reducción.",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
@@ -417,7 +417,7 @@
       "status": "DEFERRED",
       "priority": "P0",
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Después del contrato tecnológico: oráculo privado, vista pública, ledger, reloj, mensajes y efectos; segundo método y controles neutralizados. Integra C01–C10/C13/M05/P04 sin repetir ensayos históricos.",
+      "criterion_in_master": "After the technology contract: private oracle, public view, ledger, clock, messages and effects; second method and neutral controls. Integrates C01–C10/C13/M05/P04 without repeating historical rehearsals.",
       "historical_evidence_retained": false,
       "historical_status_before_cleanup": "OPEN",
       "historical_dependencies": [
@@ -568,7 +568,7 @@
       "status": "DEFERRED",
       "priority": "P0",
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Después del instrumento neutral: registro único de presupuesto, plazo, comparadores, calibración/holdout, análisis y reglas de parada antes de la campaña.",
+      "criterion_in_master": "After the neutral instrument: single registration of budget, deadline, comparators, calibration/holdout, analysis and stopping rules before the campaign.",
       "historical_evidence_retained": false,
       "historical_status_before_cleanup": "OPEN",
       "historical_dependencies": [
@@ -746,7 +746,7 @@
       "status": "IN_PROGRESS",
       "priority": "P0/R",
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Verificación documental de la edición actual frente a manifiestos históricos. Conservar los hashes históricos; no regenerarlos para fabricar PASS.",
+      "criterion_in_master": "Documentary verification of the current edition against historical manifests. Preserve historical hashes; do not regenerate them to manufacture PASS.",
       "historical_evidence_retained": false,
       "additional_pending": "Current README hashes differ from historical extension manifests and common audit; preserve snapshots, implement version-aware documentary validation before announcing current joint reproduction.",
       "historical_status_before_cleanup": "OPEN",
@@ -855,7 +855,7 @@
       "status": "DEFERRED",
       "priority": "P3",
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Después de C02/C11 y admisión del contrato: adaptador de la primera tecnología, controles positivos/negativos, campaña y veredicto por implementación. Integra C12/T04–T07; no lanzar tres adaptadores a la vez.",
+      "criterion_in_master": "After C02/C11 and contract admission: first technology adapter, positive/negative controls, campaign and implementation verdict. Integrates C12/T04–T07; do not launch three adapters simultaneously.",
       "historical_evidence_retained": false,
       "historical_status_before_cleanup": "OPEN",
       "historical_dependencies": [
@@ -1184,7 +1184,7 @@
     ],
     "canonical_validation_structure_preserved": true
   },
-  "latest_input_commit": "ec5041bec5b52f495d713b73d626be4f3bdb504b",
+  "latest_input_commit": "275d78822a40b2d887909a018c26f047df1a6cc2",
   "technology_mechanism_development": {
     "protocol": "TECHNOLOGY_EXTENSION_PROTOCOL.md",
     "first_case": "HUMAN_ESCALATION_WHISPERING.md",
@@ -1246,5 +1246,11 @@
     "new_scientific_executions": 0,
     "new_implementation_validations": 0,
     "independent_review_completed": false
+  },
+  "document_language": {
+    "current_extension_documents": "en",
+    "conversation_language": "es",
+    "received_originals_and_historical_snapshots": "preserve original language",
+    "revision": "Language correction only; no task closure, mathematical scope or execution change"
   }
 }
