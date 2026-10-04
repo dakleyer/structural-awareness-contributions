@@ -140,19 +140,7 @@ Minimum freeze inputs:
   - current design now exposes Q0–Q5, N0/N1/Q evidence routes, V0–V9 controls and R0/R1/R2 strong-peer drift comparison across FIWARE and AWS; the remaining step is executable W3 fixture/oracle/threshold/pre-registration work, not narrative completion;
 - independent producer/receiver operation for EA-ITP-01.
 
-**Pre-execution correction gate — Q1a must not execute under v0.5 as currently written.** Preserve v0.5 unchanged as frozen history and prepare a **new pre-registration v0.6** before any Stage-0 run.
-
-v0.6 must resolve at minimum:
-
-- distinguish **residual-field presence** from **material residual existence**; the current v0.5 combination of `R_ref = none material` and mandatory `residual.present = true` is ambiguous and can unfairly privilege B3;
-- ensure B1 and B3 are evaluated against the same branch-observable envelope rather than requiring B1 to emit an EA-specific field merely because B3 does;
-- distinguish **fact freeze date** from **pre-registration publication/freeze date** so the current 19/21 September wording is unambiguous;
-- preserve the existing descriptive-only boundary when no comparator defender is named;
-- pin trace namespaces so management condition and operational posture cannot be confused:
-  - `TYPE_0_CONDITION | TYPE_1_FAILURE | TYPE_2_FAILURE | NOT_ESTABLISHED`
-  - `P1_NORMAL | P2_CONTAINMENT | P3_MIGRATION`.
-
-**Immediate execution milestone after v0.6 freezes:** publish the first **RS-00E-Q1a Stage-0 descriptive execution** under the new operative record, including the qualifier-loss instrumentation self-test and Canonical Trace v1 determinism evidence.
+**Q1a Stage-0 — existing execution, not a future first run.** [Published execution record](./baseline/fixtures/RS-00E-Q1a/EXECUTION_RECORD_v0.5.md) and [current fixture index](./baseline/fixtures/RS-00E-Q1a/README.md) establish descriptive execution and the post-audit replay. Retire the instruction to prepare v0.6 before that already-published run. The v0.5 source and all traces remain preserved; post-run corrections are not retrospectively prospective pre-registration. A future comparative successor still needs its own registration, symmetry and defender/independence checks.
 
 ### Comparative admission gate — continuity first
 
@@ -198,7 +186,7 @@ Failure of the continuity gate blocks the arm from being interpreted on the corr
 
 **Current route:** [case](./baseline/00G_HF_ONE_WAY_REDUCTION_AND_EXTENSIBILITY_v0.2_DRAFT.md) · [roadmap](./baseline/00G_HF_ROADMAP_R123_EA_COMPOSITIONS_UC4_v0.1_DRAFT.md) · [auditable development history](./baseline/annexes/00G-HF-DEVELOPMENT-HISTORY-v0.1.md).
 
-Steps 1–2 have an existing structural reduction and a bounded causal-plausibility formulation. Review preserves those substantive sources; neither establishes historical causal validation. **Current status, 2 October 2026: step 3 remains open.** After the first probabilistic diagnostic, the [continuous-social batch](./baseline/traversals/00G-HF-CONTINUOUS-SOCIAL-v0.1/RESULTS.md) executed 960 simulated networks under unchanged C3. Its selected pair has four failing recipients versus zero without subsequent relays; conventional fresh revalidation also has zero failures and preserves legitimate completion. This is a partial negative result, not completion of the requested dynamic traversal or evidence about a commercial model. The [preserved user instructions and continuation criteria](./baseline/annexes/00G-HF-USER-PROMPTS-AND-DYNAMIC-NEGATIVE-DESIGN-v0.1.md) require a successor specification covering successive changes, partial information, bounded review scope/cost and continued social feedback. The [DYNAMIC-REVIEW v0.1 successor](./baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README.md) now provides the frozen specification and runner: 38 checks and three scripted integration fixtures, zero stochastic campaign networks. Next, execute the fixed 1,056-network search, retain all outcomes and audit the relevant negative witness and nominal competence before running the requirements-based EA comparison. Successful conventional controls remain valid results.
+Steps 1–2 have an existing structural reduction and a bounded causal-plausibility formulation. Review preserves those substantive sources; neither establishes historical causal validation. **Current status: the dynamic diagnostic has been executed; full case admission and competence review remain open.** After the first probabilistic diagnostic, the [continuous-social batch](./baseline/traversals/00G-HF-CONTINUOUS-SOCIAL-v0.1/RESULTS.md) executed 960 simulated networks under unchanged C3. Its selected pair has four failing recipients versus zero without subsequent relays; conventional fresh revalidation also has zero failures and preserves legitimate completion. This is a partial negative result, not completion of the requested dynamic traversal or evidence about a commercial model. The [preserved user instructions and continuation criteria](./baseline/annexes/00G-HF-USER-PROMPTS-AND-DYNAMIC-NEGATIVE-DESIGN-v0.1.md) require a successor specification covering successive changes, partial information, bounded review scope/cost and continued social feedback. The [DYNAMIC-REVIEW results](./baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/results/RESULTS.md) publish the completed 1,056-network search and exact replay. Retire the instruction to run that search again. The result is a stipulated diagnostic, with conventional revalidation succeeding; A25 admission and general nominal competence remain unestablished. Review those gaps before the requirements-based EA comparison. Successful conventional controls remain valid results.
 
 The matched EA comparison, robustness branches, equal-budget compositions and Codex/UC-4 transfer follow the roadmap. No real-model or external validation result is implied. All earlier preparation, experiments, outcomes and commits are accessible through the history; they are not the main comparator.
 
@@ -252,7 +240,7 @@ The current recommended sequence is:
 
 1. **Start comparator-defender search now** — B2 and especially PA-5; run in parallel with technical work.
 2. **Freeze W2 measurement / complexity / burden / equivalence protocol.**
-3. **Prepare and freeze Q1a pre-registration v0.6**; only then execute Q1a Stage-0.
+3. **Reuse the published Q1a descriptive Stage-0 record**; separately register any future comparative successor.
 4. **Run B2 + PA-1…PA-5 source audit with C3 product capability freeze integrated.**
 5. **Freeze Benchmark v0.3-r2** with defender status, source pins, margins and ablation protocol.
 6. **Apply continuity admission gate** to comparative arms.
@@ -290,7 +278,7 @@ design → pre-registration → Stage 0 deterministic verification
       → Stage 2 independent validation / replication
 ```
 
-**Current first gate:** RS-00E-Q1a Stage 0.  
+**Available gate:** RS-00E-Q1a descriptive Stage 0 has been published; the next comparative gate requires stronger independent/configuration evidence.  
 **Do not skip:** a design profile, harness specification or pre-registration is not an executed result.
 
 ---
@@ -324,7 +312,7 @@ For a benchmark run, record a dated capability/source freeze. Later provider cha
 
 ### C4 — Presentation and publication finalization
 
-**PowerPoint/PDF:** still a separate finalization wave. Remaining presentation items are controlled in the governance backlog and should be resolved before replacing the stable canonical PPTX/PDF pair together.
+**PowerPoint/PDF:** the two split v1.2 entry decks are published; retire the 23 September combined-pair replacement instructions. The [current presentation manifest](../../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) governs residual work: exports predate the 2 October A/B/C/D alignment; combined-mirror/PDF sync and external desktop compatibility are distinct remaining scopes.
 
 **Release/DOI:** publication is approved in principle but externally blocked until a real GitHub Release / Zenodo path is available. Do not fabricate DOI metadata.
 
@@ -410,17 +398,19 @@ flowchart TB
 | Requirements | S1–S14 / T1–T4 / H1–H6 / KPI protocol | Later EP concepts reviewed; no canonical gap requiring S15/T5/H7 found | [Requirements vNext Review & Delta](./baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md); two clarification candidates remain non-canonical |
 | Reference scenarios | 00E canonical-working; 00F v0.2 current working successor + zero-loss Freeze Edition; 00G/00H/00I later candidates; 00I AWS skeletons published | 00F still needs W3 executable fixture/admission despite publication completeness; later scenario execution also open | W2/W3 disposition |
 | Benchmark | 00D v0.2 canonical + bounded v0.3 draft | Measurement/equivalence protocol, defenders, B2/PA source audit and PA-5 contract still open | **W2:** protocol → defenders/source freeze → v0.3-r2 |
-| Test design | A01, A02, A03, coverage map, Q1a pre-registration and trace helpers | Q1a v0.5 residual/date ambiguity must be corrected in new v0.6 before Stage-0; later layers still incomplete | **W3:** Q1a v0.6 → Stage-0 → continuity gate → C9/C12 |
+| Test design | A01, A02, A03, coverage map, Q1a pre-registration and trace helpers | Q1a descriptive Stage-0 and post-audit replay are published; independent comparative evidence and later layers remain incomplete | **W3:** published descriptive Stage-0 → new comparative registration/continuity gate → C9/C12 |
 | Validation profiles | UC-EA-01…04 + EA-ITP-01 preserved | No completed broad independent validation | Stage 1/2 evidence programme |
 | RA / MSCA integration | Current interfaces and operation owners defined | Comparative/empirical validation of later composition/repositioning remains open | W2/W3 |
 | FG-TIDA application | 05 ideal, 05A dated current bridge, spec v0.3, charter/cases/tests + Decision Boundary profile | External-owner review and first UC-6 → UC-4 executable profile still open | **W4 / W3 cross-theme conformance route** |
 | Controlled provenance | Freeze manifests + public source preservation | Revision/SHA parity and single-file materialization open | **C1 parity inventory** |
 | Product profiles | 2+2 dated design analyses | Dated capability freeze must be integrated with B2 audit | **C3 / W2 Track C** |
-| Publication | Live corpus + visual guide + release candidate | Final deck/PDF; real release/DOI tooling | **C4** |
+| Publication | Live corpus + visual guide + release candidate | Semantic export refresh/current sync; real release/DOI tooling | **C4** |
 
 ---
 
 ## Completed work
+
+**4 October queue review:** R01 tasks now have [one current queue](./baseline/reductions/00G-R01/feasibility/WORKPLAN.md) and technologies are owned by [the extension protocol](./baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study). Completed Q1a descriptive execution, the 1,056-network diagnostic and split-deck publication are removed from future work; their evidence boundaries remain. This is task maintenance, not new scientific execution.
 
 This table should remain short. Detailed historical maintenance records live under `governance/`.
 

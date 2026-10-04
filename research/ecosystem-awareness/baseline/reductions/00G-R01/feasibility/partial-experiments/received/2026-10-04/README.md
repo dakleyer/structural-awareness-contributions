@@ -55,18 +55,8 @@ El anexo calcula stale effects≈pL(k+1)/2 y de allí pL²/(2r) refrescos. Falta
 
 ## 4. Trabajo adicional dentro de los IDs vigentes
 
-<!-- R01_BOT_WORKPLAN_START version="0.3" scope="supplemental/2026-10-04/README.md" -->
-| Orden | IDs existentes | Obligación concreta y criterio de salida |
-|---|---|---|
-| 1 — matemática | M12/M06/M11 | Separar identificación del mundo, información suficiente para una ruta y observaciones posteriores al efecto. Matriz de hipótesis de F/W y materiales; mantener contraejemplos A–E. No sustituir incertidumbre accesible por número de variables. |
-| 2 — matemática | M03/M04 | Revalidar necesidad y suficiencia para los umbrales declarados, política adaptativa/aleatoria, igualdad y los tres pares; no adoptar fórmulas recibidas no revisadas. |
-| 3 — matemática | M16/M05/C05 | Revisor simbólico independiente y segundo método finito con cobertura/comparación semántica. Scripts recibidos candidatos, no cierre automático; autoría y alcance no garantizan independencia. |
-| 4 — correspondencia | M17/M07 | Demostrar el puente o conservar tesis de familia suplementaria. Para afirmar ocurrencia real, medir un dominio registrado con datos y políticas; campaña no prueba imposibilidad universal. |
-| 5 — perfiles adicionales | M11/M14/M15 | Resolver/no resolver explícitamente familia escasa, riesgo por canarios, ruido/frescura, presupuesto esperado, total vs amortizado y trabajo vs tiempo. Ampliaciones no bloquean una tesis mínima con alcance correcto. |
-| 6 — tecnología secundaria | M13/T01/T02/T07/T11 | Revisar los D/I/U del anexo contra versiones y costes reales; certificados y atomicidad pueden resolver el problema. Las 14 pruebas X1–X14 son una cola candidata que se prioriza tras el contrato matemático, no una campaña aprobada/completada. |
-| Recurrente | P01/P02/P05–P09/M08/M09 | Verificar fuentes, claridad, ayudas visuales y conservación; registrar fechas, versiones, comandos, límites y hallazgos adversariales. No prometer un resultado inatacable ni afirmar revisión externa inexistente. |
-
-Prompt de revisión: lee el contrato F/W y M12 cuando exista; inspecciona los seis originales y las salidas sin tratarlos como autoridad. Reproduce el contraejemplo h=1/2,r=1/4 y la ruta toda X en F_{L,K}. Intenta refutar las cotas dentro de sus interfaces, diferenciando una interfaz cambiada. Verifica el objetivo exacto de cada fuente y la hipótesis de certeza de (7). Revisa los recibos, presupuesto de ramas fallidas, canarios, caps de riesgo, efecto de información previa y barreras. Para cada afirmación entrega VALIDATED_IN_SCOPE, COUNTEREXAMPLE o GAP. Conserva las fórmulas y archivos recibidos; cualquier corrección es un sucesor. M06, M03/M04, M16 y M17 permanecen abiertos/en curso hasta su evidencia. Tecnologías van después de la tesis mínima. No cierres tareas por este dossier.
+<!-- R01_BOT_WORKPLAN_START version="0.4" role="queue-pointer" -->
+La cola vigente está en [WORKPLAN.md](../../../WORKPLAN.md). Este documento aporta evidencia o criterios de su alcance; no mantiene una segunda cola. Escalación humana y whispering es la primera tecnología del protocolo; las revisiones repetidas se incorporan a cada ficha. La revisión independiente, fidelidad e integridad conservan sus obligaciones abiertas. El bloque anterior está preservado en QUEUE_SNAPSHOT_2026-10-04.json.
 <!-- R01_BOT_WORKPLAN_END -->
 
 ## 5. Reproducción y límites

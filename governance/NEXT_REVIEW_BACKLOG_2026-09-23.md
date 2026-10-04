@@ -1,5 +1,7 @@
 # Next Review Backlog — 23 September 2026
 
+> **Historical maintenance snapshot — 4 October 2026 review.** The published split v1.2 decks supersede the old presentation-finalization queue below. Use the [live workplan](../research/ecosystem-awareness/WORKPLAN.md) and [presentation manifest](../presentations/ecosystem-positioning/PRESENTATION_MANIFEST.md) for actual remaining work. This dated text preserves what was deferred on 23 September and must not be rediscovered as an active queue.
+
 > **Maintenance backlog only.** This is not a canonical architecture document, benchmark result or publication-status statement. It records items deliberately deferred from the 23 September surgical coherence/integrity pass.
 
 > **Ongoing work has moved to the live [EA / Positioning Workplan](../research/ecosystem-awareness/WORKPLAN.md).** This dated file remains the maintenance record for the 23 September pass and should not accumulate new strategic work indefinitely.

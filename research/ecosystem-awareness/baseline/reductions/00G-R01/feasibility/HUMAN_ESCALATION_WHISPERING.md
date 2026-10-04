@@ -1,7 +1,7 @@
 # R01 — Escalación humana y whispering, mecanismo por mecanismo
 
-Versión 0.1 · 4 de octubre de 2026 · Desarrollo matemático, sin integración ejecutada.
-[Protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md) · [Teorema base único](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
+Versión matemática 0.1 · Primera tecnología del protocolo de extensión · 4 de octubre de 2026 · Sin integración ejecutada.
+[Tecnologías del protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) · [Teorema base único](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 
 Whispering significa aquí avisar al resto del grupo cuando un agente identifica un problema. Cualquier agente puede iniciar la escalación directa. El humano examina la evidencia y puede ordenar una pausa o una alternativa legítima. Es el mecanismo solicitado por el usuario; no se atribuye una cita específica a Nell ni se afirma que un producto concreto lo implemente.
 

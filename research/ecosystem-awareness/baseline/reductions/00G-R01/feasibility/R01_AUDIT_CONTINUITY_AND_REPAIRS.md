@@ -75,12 +75,6 @@ El escenario canónico, fixtures, scripts, resultados, exports y figuras permane
 
 No se cierra M16 ni M17 mediante esta propia revisión. Por la instrucción final del usuario se cierra primero esta entrega del núcleo. El protocolo de extensión matemática es la siguiente fase, separada y todavía pendiente, anterior a aplicar tecnologías. Oráculo/harness neutral, adaptadores y campaña son etapas posteriores; ninguna está declarada ejecutada.
 
-<!-- R01_BOT_WORKPLAN_START: audit-continuity-v02 -->
-| Tarea | Estado | Evidencia necesaria para cierre |
-|---|---|---|
-| Reparaciones del núcleo y revisión propia | Completadas en esta entrega | Teorema v0.2, revisión y registro de publicación. |
-| M16: reconstrucción independiente | OPEN | Revisor distinto; dictamen por lema, cobertura y controles. |
-| M17: fidelidad independiente | IN_PROGRESS | Confrontar cada canal del manifest, productor, scope y coste con R01. |
-| Protocolo matemático de extensión | Entrega separada | Obligaciones de transferencia, mejora y persistencia por configuración. |
-| C01–C05: implementación neutral | OPEN | Estado oculto aislado, óptimo y evaluador externos a agentes; auditoría de trazas. |
-<!-- R01_BOT_WORKPLAN_END: audit-continuity-v02 -->
+<!-- R01_BOT_WORKPLAN_START version="0.4" role="queue-pointer" -->
+La cola vigente está en [WORKPLAN.md](./WORKPLAN.md). Este documento aporta evidencia o criterios de su alcance; no mantiene una segunda cola. Escalación humana y whispering es la primera tecnología del protocolo; las revisiones repetidas se incorporan a cada ficha. La revisión independiente, fidelidad e integridad conservan sus obligaciones abiertas. El bloque anterior está preservado en QUEUE_SNAPSHOT_2026-10-04.json.
+<!-- R01_BOT_WORKPLAN_END -->

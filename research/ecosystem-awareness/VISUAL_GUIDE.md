@@ -341,7 +341,7 @@ flowchart TB
 ```
 
 **Current strategic front:** W2 Benchmark vNext, now using the completed W1 mapping.  
-**Current first empirical milestone:** RS-00E-Q1a Stage-0 descriptive execution under operative pre-registration v0.5.
+**Published empirical milestone:** RS-00E-Q1a descriptive Stage-0; future comparative work needs its own registration and independence evidence. The [living workplan](./WORKPLAN.md) governs current priorities.
 
 **Read:** [Living Workplan](./WORKPLAN.md).
 

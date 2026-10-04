@@ -113,14 +113,43 @@ Un harness no convierte muestreo finito en demostración universal. Una tecnolog
 
 Los scripts archivados pueden inspirar controles y pruebas del futuro arnés. Sus parámetros no son calibración del producto y sus salidas no son campañas tecnológicas.
 
-## 8. Registro y orden de trabajo
+<a id="technologies-to-study"></a>
+## 8. Tecnologías a estudiar y orden de trabajo
 
 La primera ficha es escalación humana con whispering. Se mantiene este orden: correspondencia isomórfica; mecanismo informativo; mecanismo de pausa; mecanismo humano; difusión y concurrencia; composición; fronteras; protocolo de evaluación. No se saltan las obligaciones por el nombre de la tecnología.
 
+### 8.1 Registro de tecnologías
+
+**Escalación humana y whispering es la primera tecnología concreta de este protocolo**, compuesta por detección, aviso directo de cualquier agente, difusión al grupo, intervención humana y coordinación de ejecución. Su ficha existente contiene resultados matemáticos del contrato; la comprobación de pertenencia de una implementación es parte de la revisión tecnológica pendiente.
+
+| Orden | Tecnología | Trabajo existente | Pendiente dentro de esta extensión |
+|---|---|---|---|
+| 1 | [Escalación humana y whispering](./HUMAN_ESCALATION_WHISPERING.md) | H0/H1 y estudios H2–H4; núcleo propuesto y mecanismos adicionales separados. | Verificar E1–E7 de la realización efectiva; estudiar detector, pausa colectiva, información humana, difusión y composición con coste/plazo completos. |
+| 2 | LangGraph | Candidata previamente registrada; análisis recibido de pausa/reanudación y estado. | Aplicar la misma ficha a una versión fijada; pausa de un grafo no demuestra barrera colectiva. |
+| 3 | OpenAI Agents SDK | Candidata previamente registrada; análisis recibido de aprobación, guardrails, handoffs y trazas. | Revisar núcleo y mecanismos adicionales frente a fuentes de la versión elegida; no convertir el anexo recibido en admisión. |
+| 4 | smolagents | Candidata previamente registrada; análisis recibido de herramientas, callbacks y revisión de planes. | Aplicar la misma ficha; conservar superficies de ejecución y controles nativos. |
+
+Los últimos tres son frameworks candidatos, no tecnologías ya validadas. Su documentación histórica y criterios originales están en [el registro conservado](../extensions/hugging-face/REMAINING_TASKS.txt). Este orden permite revisión sucesiva; no implica una clasificación de rendimiento ni tres implementaciones simultáneas.
+
+### 8.2 Anexos parciales de preparación
+
+[Inventario de ensayos](./partial-experiments/README.md) · [originales recibidos, ejecuciones y contraejemplos](./partial-experiments/received/2026-10-04/README.md).
+
+| Material | Uso permitido en las fichas | Estado |
+|---|---|---|
+| Annex T recibido | Pistas de mecanismos de los tres frameworks y propuestas X1–X14. | Anexo parcial de diseño; afirmaciones por comprobar, sin admisión canónica. |
+| testA_budget.py | Ejercicios de presupuesto y mezclas. | Ensayo previo; fórmula general cuestionada. |
+| testB_oracles.py | Ejercicios de consultas y ruido. | Ensayo previo; no cubre toda la clase de políticas. |
+| testC_killswitch.py | Ejercicios de contención y canarios. | Ensayo previo; no elimina infracciones pasadas. |
+| testD_human_and_sharing.py | Ejercicios de coste humano y reparto. | Ensayo previo; no ejecuta humanos, whispering ni barrera colectiva real. |
+
+Estos anexos quedan subordinados a las fichas del protocolo. Sus resultados se conservan, pero no crean nuevas colas de tareas ni sustituyen pruebas o campañas reales.
+
 | Trabajo al final | Estado |
 |---|---|
-| Revisión previa de tres extensiones | Completada como revisión propia; discrepancias documentales P08 conservadas. |
-| Este protocolo | Definido; aplicación mecanismo por mecanismo iniciada matemáticamente. |
-| Primera ficha humana | Contratos y resultados condicionados en documento separado. |
-| Integración real | No ejecutada; depende del contrato neutral y del adaptador elegido. |
-| M16 / M17 | No se cierran por esta entrega propia. |
+| Revisión previa de las tres extensiones | Realizada como revisión propia. |
+| Protocolo | Definido; no volver a programar su creación. |
+| Primera tecnología | Escalación humana y whispering; continuar su ficha existente. |
+| Otras tecnologías | Candidatas registradas para revisión sucesiva por mecanismos. |
+| Oráculo / arnés / campaña | Etapas posteriores; ninguna implementación real validada por esta depuración. |
+| Tareas | [Cola única](./WORKPLAN.md): M13, M16, M17 y P08; ensayos anteriores como anexos parciales. |

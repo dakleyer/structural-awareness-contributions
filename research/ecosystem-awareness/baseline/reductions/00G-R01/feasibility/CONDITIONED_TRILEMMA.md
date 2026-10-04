@@ -303,18 +303,8 @@ La redacción y la revisión matemática actuales se realizaron con asistencia d
 
 Para consolidarlo ante terceros faltan: reconstrucción simbólica por un revisor independiente; comprobación de las hipótesis del problema al que se aplique; y, si se anuncia un teorema de R01, una reducción que preserve todas sus políticas, observaciones, efectos y costes. Una campaña empírica tiene otra finalidad: medir incidencia y utilidad en el ámbito probado. No reemplaza esas obligaciones matemáticas.
 
-<!-- R01_BOT_WORKPLAN_START scope="conditioned-trilemma-independent-manuscript" -->
-
-| Obligación | Evidencia disponible | Pendiente y criterio de cierre |
-|---|---|---|
-| Contrato y cuantificadores, M12 | §§1–3, separación coste/eficacia, AVG/WC y regiones | Congelar la versión final y su correspondencia de medidas con R01. |
-| Necesidad y suficiencia, M03/M04 | Lema 1, Teorema 1, Corolario 1 y familias no vacías | Dictamen adversarial por afirmación; conservar cualquier contraejemplo. |
-| Revisión independiente, M16 | Prueba completa revisable, sin dependencia del checker | Revisor distinto reconstruye adaptación, costes de ramas fallidas, generalización a, WC, igualdad y controles. |
-| Puente a R01, M17 | Clase y límites explícitos | Embedding/reducción que incluya todas las políticas relevantes; si falta, conservar alcance suplementario. |
-| Harness, C01–C05/M05 | Diagnósticos anteriores separados | Contrato y método neutral antes de nuevas ejecuciones científicas. |
-| Literatura y novedad, M06 | Una fuente primaria delimitada | Revisión más amplia; no derivar novedad de esta referencia. |
-| Tecnología, M13–M15 | Fuera de la prueba actual | Reanudar después de consolidar contrato y lemas base. |
-
+<!-- R01_BOT_WORKPLAN_START version="0.4" role="queue-pointer" -->
+La cola vigente está en [WORKPLAN.md](./WORKPLAN.md). Este documento aporta evidencia o criterios de su alcance; no mantiene una segunda cola. Escalación humana y whispering es la primera tecnología del protocolo; las revisiones repetidas se incorporan a cada ficha. La revisión independiente, fidelidad e integridad conservan sus obligaciones abiertas. El bloque anterior está preservado en QUEUE_SNAPSHOT_2026-10-04.json.
 <!-- R01_BOT_WORKPLAN_END -->
 
 ## 11. Scope and Transfer Conditions

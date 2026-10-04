@@ -38,53 +38,6 @@ Correctness gates precede cost claims. Set a concrete machine and maximum runtim
 
 ## Remaining tasks — staged bot work plan
 
-<!-- R01_BOT_WORKPLAN_START version="0.3" scope="COMPUTABILITY_AND_ORACLE_PLAN.md" -->
-Use the existing shared label `R01_BOT_WORKPLAN_START` and closing `R01_BOT_WORKPLAN_END`. Keep this plan in the document. Preserve task IDs and record owner, UTC date, input commit, code/environment versions, command, expected/actual outcome, evidence path and unresolved scope when changing status.
-
-All tasks are OPEN. C01 can start alongside M01; C02 must agree with M01/M02. Technology adapter preparation can begin after the interface is frozen, but its verdicts require a checked evaluator. A failed mathematical candidate does not prevent implementing a neutral evaluator.
-
-| ID | Stage and dependency | Evidence needed to close |
-|---|---|---|
-| C01 | Inventory and preserve existing code. | Reproduce C3 and relevant finite checks in isolation; list reusable functions, domain restrictions and hashes. Record inherited documentation-audit failures separately from executable-test outcomes. |
-| C02 | Specify schemas and termination after C01. | Machine-readable world/trace/metric contracts, finite encoding, resource rules, event limits and a termination argument. Map every field and exclusion to R01. |
-| C03 | Implement generator and independent exact reference after C02. | Correct M/I/P derivation, connectors, ties, fixed profiles and world rejection accounting; hand-checkable witnesses including a superior mixture. |
-| C04 | Implement execution, ledger and evaluator after C03. | Charged operations, actual-effect adjudication, q/e/a/f/C/t/K semantics, abstention and late delivery, no cost duplication and no oracle leakage. Record any validated C3 projection. |
-| C05 | Verify adversarially after C04. | Exhaustive tiny-world comparison plus targeted invalid traces, relabeling tests, revoked/irrelevant evidence, duplicated provenance, stale certificates and blocked-versus-executed effects. Separate independent reference code from implementation under test. |
-| C06 | Make the bounded traversal reproducible after C05. | One command with pinned environment, declared finite policies, fresh recorder traces, seeds, outputs and replay. Demonstrate permitted improvement, rejection and incompleteness without forcing a negative campaign result. |
-| C07 | Establish measured compute scope after C06. | Predeclared hardware/resource ceilings; time and peak-memory measurements as L, branching, population and horizon vary; include timeouts and evaluator costs. Distinguish measured sizes from asymptotic claims. |
-| C08 | Deepen technical audit and corpus coherence. | Audit numeric precision, RNG coupling, policy competence and termination; verify references and interfaces against M01–M05 and E1–E7. Every unresolved mismatch has a disposition. |
-| C09 | Review editorial quality, readability and visual aids. | A new bot can locate setup, command, expected outputs, failure handling and limits. Add a compact execution/evaluation diagram only if it clarifies actual boundaries; verify its rendered labels. |
-| C10 | Preservation and final release audit after C01–C09. | File/tree diff, retained old fixtures and results, links, scoped hashes, frozen successor package and adversarial review record. Do not rewrite old freezes or claim independent validation from self-audit. |
-
-Next bot starts at C01. Completion of this plan validates the declared implementation scope, not the entire mathematical claim, full campaign, or technology transfer.
-
-
-### Strategic revision and execution gates — 3 October 2026
-
-Planning revision v0.2; review against commit `1e940125a18f468268eff8f029a35c32a5f4ff08`. This is a documentary self-review, not a mathematical validation or independent review. Read the [master execution prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) for priorities, the complete task register and release gates. Existing IDs and acceptance criteria remain in force. New tasks are OPEN. A documentary revision does not close an implementation, proof or empirical task.
-
-**Scheduling clarification:** reviews are recurring passes, not a reason to defer source checks, counterexamples or preservation until the end. Start P08/C01 baseline triage, M01/P03/P10 scope and measurement, and the minimum relevant P01/P02/M06 source-and-counterexample review together. Later passes complete their original criteria. Keep mathematical region proof, neutral evaluator implementation, base campaign, technology admission and prospective architecture selection as separate outputs. A rejected mathematical candidate does not block a neutral evaluator or a clearly scoped experiment.
-
-**Shared closure record:** task ID/status, owner, actual UTC date, input commit, exact scope, assumptions, evidence paths, commands and outcomes, review disposition, residual limits and next action. No assigned owner is invented: use UNASSIGNED until responsibility is accepted. Different tasks may reference one evidence artifact, but retain their own acceptance decisions. Reopen affected tasks when a material contract changes. Independent review is desirable evidence, not a prerequisite for starting authorized internal work; self-review must retain its label.
-
-**Implementation ordering:** resource ceilings and observation/schema requirements are fixed in C02/C11 before expensive implementation or benchmarking. C13 begins with C02 and has a checked disposition before campaign execution. C06 is an instrument/reproduction gate, not the statistical campaign itself. C12 adds the missing campaign execution and analysis; C14 is a later, separate selector study. A bounded instrument release may close a scoped C10 pass while C12/C14 remain OPEN; it must not claim completion of this whole plan. A campaign release requires C11–C13; a selector release also requires C14 and P11/P12.
-
-| Added ID / status | Dependency and activity | Evidence needed to close |
-|---|---|---|
-| C11 — OPEN | Draft with M01/P03/P10; agree with C02 and freeze the campaign protocol before C06/T05. | Early runtime/memory/API-spend ceilings and stop rules; development/calibration vs held-out sets; primary contrasts and independent analysis unit; margins/thresholds, sample/precision justification, grouping, paired randomness, multiplicity and censoring; missing, timeout, retry and infrastructure-error handling. Zero violations has an upper uncertainty bound; insufficient precision gives an unresolved verdict. Scope/resource contract precedes C03; statistical freeze may use development calibration only. |
-| C12 — OPEN | After C05–C07, C11 and C13, execute and analyze the bounded base campaign. | Registered finite grid and competent frozen policies; full paired world/campaign traces, costs including no-delivery runs, q/e/a/f/C/t/K and uncertainty; held-out results, mechanism ablations, Pareto/tradeoff report and an adequate/inadequate/unresolved map for evaluated policies. Publish deviations, exclusions and negative results. Distinguish policy failure from a theorem about all policies. Technology campaigns additionally need T04/T05 evidence. |
-| C13 — OPEN | Begin at C02; complete after C05 and policy qualification, before C06/C12. | Audit accidental hints and generator conditioning; training/memory/tuning isolation; compatible information and resources; randomness stream coupling; comparator competence on positive controls; replay interventions vs total effects. Check environment receipts against SDK traces and inspect policies for accidental oracle access. Declare intentional predictive factors; absence of detected leakage is not proof of its absence. |
-| C14 — OPEN | Later stage after C12 and a separately frozen P11/C11 selector protocol. | Implement recommend/advise-against/indeterminate using only eligible small-pilot observations; isolate selector development and held-out evaluation, including held-out families when claimed. Compare simpler selection rules and competent alternatives; score false recommendations, missed opportunities, abstention/coverage, diagnostic/oversight costs and budget. Retain independently judged outcomes; an architecture cannot certify its own recommendation by assertion. No claim of scale transfer without P12 evidence. |
-
-**Cost containment:** exact tiny-world correctness comes before optimization and broad runtime integration. A solver timeout is an evaluator failure/unknown reference, not automatically an agent failure. Freeze handling of absent complete admissible routes, ties, encoding precision, exhausted budgets and horizon truncation. Exclude only under registered rules and retain rejection rates. A scope change requires a new registration and affected reviews, not silent post-result tuning.
-
-### Orden vigente — controles al servicio de la demostración
-
-Reorganización v0.3: [plan rector](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening). C01–C14 siguen OPEN; sus criterios no se eliminan. C01/P08 hacen triage acotado mientras M12 fija el teorema. C02–C05 preparan primero un instrumento pequeño para F/W y sus controles, con perfil suplementario explícito y sin confundirlo con el oráculo completo de R01; la entrega general conserva obligaciones propias. Los primeros límites de C11 son de recursos/alcance; su registro estadístico se completa antes de campañas, no es un prerrequisito de una prueba simbólica.
-
-M16 es revisión de las demostraciones por otro revisor; M05/C05 son comparación finita independiente. C05 requiere segundo método/código separado del autor, sin importar su recurrencia. Comparar resultados semánticos normalizados por mundo/política/traza y aritmética; dos métodos válidos no necesitan serializar bytes idénticos. Reproducir el MISMO checker sí puede exigir reporte idéntico. Conservar discrepancias. Implementación independiente por el mismo autor no equivale a revisión simbólica independiente.
-
-No ampliar el instrumento ni optimizar antes de fijar qué afirmación ayuda a verificar. C06–C13 y campaña siguen G4; C14 sigue G5. Preparar un evaluador neutral no cierra M03/M04, M13/M17 ni el estudio de selección. Un resultado experimental separado puede continuar si no se reclama transferencia pendiente. Los próximos pasos históricos abajo quedan subordinados al plan vigente.
-
-
+<!-- R01_BOT_WORKPLAN_START version="0.4" role="queue-pointer" -->
+La cola vigente está en [WORKPLAN.md](./feasibility/WORKPLAN.md). Este documento aporta evidencia o criterios de su alcance; no mantiene una segunda cola. Escalación humana y whispering es la primera tecnología del protocolo; las revisiones repetidas se incorporan a cada ficha. La revisión independiente, fidelidad e integridad conservan sus obligaciones abiertas. El bloque anterior está preservado en QUEUE_SNAPSHOT_2026-10-04.json.
 <!-- R01_BOT_WORKPLAN_END -->

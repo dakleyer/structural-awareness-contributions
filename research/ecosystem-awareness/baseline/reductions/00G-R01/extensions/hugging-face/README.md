@@ -3,7 +3,7 @@
 
 [R01 base scenario](../../Escenario-creatividad-validacion.md) · [Three extensions](../../README.md#extensiones)
 
-[Concrete technology integration — remaining tasks](./REMAINING_TASKS.txt): three candidate configurations, E1–E7 checks, adapter tests and release audits. This plan uses the same `R01_BOT_WORKPLAN_START` / `R01_BOT_WORKPLAN_END` labels as the [R01 work-plan index](../../README.md#bot-start-here); integrations remain pending.
+[Retained technology candidates and adapter criteria](./REMAINING_TASKS.txt). The [technology chapter of the extension protocol](../../feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) owns the current review order: human escalation + whispering first, then the registered frameworks. [One current queue](../../feasibility/WORKPLAN.md); integrations remain unexecuted.
 
 <a id="readable-problem"></a>
 ## 1 The problem

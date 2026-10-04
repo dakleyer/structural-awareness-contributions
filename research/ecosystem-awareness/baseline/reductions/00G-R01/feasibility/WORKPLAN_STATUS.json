@@ -1,16 +1,25 @@
 {
-  "version": "0.9",
-  "input_commit": "2d299250a1e9d8103757f3841c73fdb01db82598",
-  "actual_utc": "2026-10-04T12:55:19.499Z",
+  "version": "0.4-queue-cleanup",
+  "input_commit": "d8fbfa48581df366081143872ec4c16360c51635",
+  "actual_utc": "2026-10-04T14:04:11.946875+00:00",
   "plan_editor": "Codex, on user instruction",
   "scientific_tasks_closed_by_this_revision": [],
-  "current_order": "canonical mathematics and own audit -> extension consistency review -> technology mathematics by isomorphic and additional mechanisms -> neutral oracle/harness -> real adapters and registered campaigns",
+  "current_order": [
+    "M13: human escalation + whispering technology review",
+    "M16: uncovered independent review only",
+    "M17: remaining source-clause fidelity",
+    "P08: version-aware documentary integrity",
+    "C02 -> C11 -> T03 after technology contract"
+  ],
   "task_count": 55,
   "counts": {
     "DONE": 4,
-    "IN_PROGRESS": 8,
-    "OPEN": 43,
-    "BLOCKED": 0
+    "OWN_SCOPE_COMPLETE": 3,
+    "CONSOLIDATED": 37,
+    "IN_PROGRESS": 3,
+    "OPEN": 1,
+    "DEFERRED": 3,
+    "OUT_OF_CURRENT_SCOPE": 4
   },
   "original_task_IDs_preserved": 49,
   "new_task_IDs": [
@@ -25,27 +34,32 @@
     "M01": {
       "status": "DONE",
       "priority": "P0",
-      "dependencies_for_final_closure": [],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Fijar dominio, políticas, cuantificadores, distribución o peor caso, umbrales y regiones F/U; permitir regiones vacías. **DONE — formulación de alcance**, [resultado](./previous-work/M01_SCOPE_AND_QUANTIFIERS.md).",
-      "historical_evidence_retained": true
+      "historical_evidence_retained": true,
+      "historical_status_before_cleanup": "DONE",
+      "historical_dependencies": [],
+      "historical_criterion": "Fijar dominio, políticas, cuantificadores, distribución o peor caso, umbrales y regiones F/U; permitir regiones vacías. **DONE — formulación de alcance**, [resultado](./previous-work/M01_SCOPE_AND_QUANTIFIERS.md).",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "HISTORICAL_DONE"
     },
     "M02": {
       "status": "DONE",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "M01"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Construir mundos difíciles y control viable con ground truth, observaciones, óptimo y mezclas; descartar un atajo común suficiente. **DONE — construcción y controles**, [resultado](./previous-work/M02_WORLDS_AND_CONTROLS.md).",
-      "historical_evidence_retained": true
+      "historical_evidence_retained": true,
+      "historical_status_before_cleanup": "DONE",
+      "historical_dependencies": [
+        "M01"
+      ],
+      "historical_criterion": "Construir mundos difíciles y control viable con ground truth, observaciones, óptimo y mezclas; descartar un atajo común suficiente. **DONE — construcción y controles**, [resultado](./previous-work/M02_WORLDS_AND_CONTROLS.md).",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "HISTORICAL_DONE"
     },
     "M03": {
-      "status": "IN_PROGRESS",
+      "status": "OWN_SCOPE_COMPLETE",
       "priority": "P0",
-      "dependencies_for_final_closure": [
-        "M12"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Derivar la información y recursos necesarios, cubriendo adaptación, aleatoriedad, memoria, certificados y colaboración de la clase afirmada. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./previous-work/M03_M04_TRILEMMA_THEOREMS.md).",
       "historical_evidence_retained": true,
@@ -53,15 +67,25 @@
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
       "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
       "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
-      "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
-    },
-    "M04": {
-      "status": "IN_PROGRESS",
-      "priority": "P0",
-      "dependencies_for_final_closure": [
-        "M03",
+      "historical_status_before_cleanup": "IN_PROGRESS",
+      "historical_dependencies": [
         "M12"
       ],
+      "historical_criterion": "Derivar la información y recursos necesarios, cubriendo adaptación, aleatoriedad, memoria, certificados y colaboración de la clase afirmada. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./previous-work/M03_M04_TRILEMMA_THEOREMS.md).",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "COMPLETED_OWN_SCOPE",
+      "completion_evidence": [
+        "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+        "R01_AUDIT_CONTINUITY_AND_REPAIRS.md"
+      ],
+      "remaining_scope_owned_by": [
+        "M16",
+        "M17"
+      ]
+    },
+    "M04": {
+      "status": "OWN_SCOPE_COMPLETE",
+      "priority": "P0",
       "owner": "UNASSIGNED",
       "criterion_in_master": "Demostrar o rechazar una región mediante desigualdades, fronteras y testigo de no vaciedad; conservar el intento fallido. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./previous-work/M03_M04_TRILEMMA_THEOREMS.md).",
       "historical_evidence_retained": true,
@@ -69,94 +93,143 @@
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
       "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
       "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
-      "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
+      "historical_status_before_cleanup": "IN_PROGRESS",
+      "historical_dependencies": [
+        "M03",
+        "M12"
+      ],
+      "historical_criterion": "Demostrar o rechazar una región mediante desigualdades, fronteras y testigo de no vaciedad; conservar el intento fallido. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./previous-work/M03_M04_TRILEMMA_THEOREMS.md).",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "COMPLETED_OWN_SCOPE",
+      "completion_evidence": [
+        "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+        "R01_AUDIT_CONTINUITY_AND_REPAIRS.md"
+      ],
+      "remaining_scope_owned_by": [
+        "M16",
+        "M17"
+      ]
     },
     "M05": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "M04",
-        "C05"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Contrastar testigos con C02–C05 y mapear supuestos; la enumeración finita cubre su dominio declarado.",
       "historical_evidence_retained": false,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "M04",
+        "C05"
+      ],
+      "historical_criterion": "Contrastar testigos con C02–C05 y mapear supuestos; la enumeración finita cubre su dominio declarado.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "M06": {
-      "status": "IN_PROGRESS",
+      "status": "CONSOLIDATED",
       "priority": "P1/R",
-      "dependencies_for_final_closure": [],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Verificar fuentes y atacar la prueba con contraejemplos; iniciar búsqueda dirigida temprano y completar la auditoría del argumento. **IN_PROGRESS — entrada de fuentes**, [registro](./previous-work/M06_PRIMARY_SOURCE_INTAKE.md).",
       "historical_evidence_retained": true,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "IN_PROGRESS",
+      "historical_dependencies": [],
+      "historical_criterion": "Verificar fuentes y atacar la prueba con contraejemplos; iniciar búsqueda dirigida temprano y completar la auditoría del argumento. **IN_PROGRESS — entrada de fuentes**, [registro](./previous-work/M06_PRIMARY_SOURCE_INTAKE.md).",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "M07": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1/R",
-      "dependencies_for_final_closure": [
-        "M17",
-        "M06"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Revisar correspondencia con R01, 00M/00N, E1–E7 y extensiones; separar escenario, tecnología e incidente histórico.",
       "historical_evidence_retained": false,
-      "latest_own_review": "EXTENSION_CONSISTENCY_REVIEW.md; historical versus constructed and finite scope reviewed, no final admission closed"
+      "latest_own_review": "EXTENSION_CONSISTENCY_REVIEW.md; historical versus constructed and finite scope reviewed, no final admission closed",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "M17",
+        "M06"
+      ],
+      "historical_criterion": "Revisar correspondencia con R01, 00M/00N, E1–E7 y extensiones; separar escenario, tecnología e incidente histórico.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M17",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "M08": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "R",
-      "dependencies_for_final_closure": [
-        "M04"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Revisar claridad y visuales; distinguir región probada, medida y sin resolver, con ejes y unidades.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "M04"
+      ],
+      "historical_criterion": "Revisar claridad y visuales; distinguir región probada, medida y sin resolver, con ejes y unidades.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "release_checks",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "M09": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "R",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Conservar contenido, enlaces y congelados; cerrar la entrega matemática con evidencia y límites.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "M05",
         "M07",
         "M08",
         "M16"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Conservar contenido, enlaces y congelados; cerrar la entrega matemática con evidencia y límites.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Conservar contenido, enlaces y congelados; cerrar la entrega matemática con evidencia y límites.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "release_checks",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "M10": {
       "status": "DONE",
       "priority": "P0",
-      "dependencies_for_final_closure": [
-        "M01"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Unificar éxito/riesgo, observación y cuantificadores antes de M03; no confundir fallo empírico con imposibilidad universal. **DONE — reconciliación de contrato**, [resultado](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
-      "historical_evidence_retained": true
+      "historical_evidence_retained": true,
+      "historical_status_before_cleanup": "DONE",
+      "historical_dependencies": [
+        "M01"
+      ],
+      "historical_criterion": "Unificar éxito/riesgo, observación y cuantificadores antes de M03; no confundir fallo empírico con imposibilidad universal. **DONE — reconciliación de contrato**, [resultado](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "HISTORICAL_DONE"
     },
     "M11": {
-      "status": "IN_PROGRESS",
+      "status": "CONSOLIDATED",
       "priority": "P1/R",
-      "dependencies_for_final_closure": [
-        "M02"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Atacar fronteras, casos degenerados, priors, certificados y controles; comprobar sensibilidad y límites superiores constructivos cuando existan. **IN_PROGRESS — controles de costes y priors**, [registro](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
       "historical_evidence_retained": true,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "IN_PROGRESS",
+      "historical_dependencies": [
+        "M02"
+      ],
+      "historical_criterion": "Atacar fronteras, casos degenerados, priors, certificados y controles; comprobar sensibilidad y límites superiores constructivos cuando existan. **IN_PROGRESS — controles de costes y priors**, [registro](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "M12": {
-      "status": "IN_PROGRESS",
+      "status": "OWN_SCOPE_COMPLETE",
       "priority": "P0",
-      "dependencies_for_final_closure": [
-        "M01",
-        "M02",
-        "M10",
-        "P03"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Contrato del teorema objetivo y mapa de obligaciones. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
       "historical_evidence_retained": false,
@@ -167,20 +240,30 @@
       "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
       "additional_current_evidence": "Self-contained contract, exact AVG biased-prior and WC frontiers for technical efficacy and legitimate success, all-pair families and non-empty viable families; own symbolic review, no independent validation",
       "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
-      "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
+      "historical_status_before_cleanup": "IN_PROGRESS",
+      "historical_dependencies": [
+        "M01",
+        "M02",
+        "M10",
+        "P03"
+      ],
+      "historical_criterion": "Contrato del teorema objetivo y mapa de obligaciones. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "COMPLETED_OWN_SCOPE",
+      "completion_evidence": [
+        "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+        "R01_AUDIT_CONTINUITY_AND_REPAIRS.md"
+      ],
+      "remaining_scope_owned_by": [
+        "M16",
+        "M17"
+      ]
     },
     "M13": {
       "status": "IN_PROGRESS",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "M03",
-        "M04",
-        "M12",
-        "M06",
-        "M11"
-      ],
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Teoremas sobre clases tecnológicas y coste completo. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "criterion_in_master": "Tecnologías del protocolo de extensión: escalación humana + whispering primero; E1–E7 del núcleo, mecanismos adicionales uno por uno, composición, coste/plazo y escenarios recuperados. Continuar luego con las candidatas registradas; ensayos recibidos solo como anexos parciales.",
       "historical_evidence_retained": false,
       "new_acceptance": "Clasificar interfaces de coordenadas, predicados/certificados globales y ejecutores/barreras; definir simulación observable y cargos que justifican heredar una cota. Para cada clase: hipótesis, coste productor/uso, cota inferior, control superior o límite abierto, cambio de kernel y eliminación absoluta/relativa o solo del riesgo. Comparar f(n(L))/C0(L); conservar casos que empeoran. Un nombre comercial, coste positivo o tamaño de salida no establece pertenencia ni persistencia.",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
@@ -188,50 +271,67 @@
         "TECHNOLOGY_EXTENSION_PROTOCOL.md",
         "HUMAN_ESCALATION_WHISPERING.md"
       ],
-      "remaining": "Independent reconstruction of H0/H1, real mechanism membership and full producer/time ledger; no integration or campaign executed."
+      "remaining": "Independent reconstruction of H0/H1, real mechanism membership and full producer/time ledger; no integration or campaign executed.",
+      "historical_status_before_cleanup": "IN_PROGRESS",
+      "historical_dependencies": [
+        "M03",
+        "M04",
+        "M12",
+        "M06",
+        "M11"
+      ],
+      "historical_criterion": "Teoremas sobre clases tecnológicas y coste completo. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "ACTIVE",
+      "dependencies_for_final_closure": []
     },
     "M14": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P2",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Robustez con información parcial, ruido y amortización. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Fijar perfiles separados para certificados parciales/ruidosos/obsoletos, información inicial, caché y costes de preparación repartidos en varios episodios. Mantener leyes de error, frescura, correlación y cargo total. Derivar cotas y controles donde se afirme generalización; en los demás perfiles registrar OUT_OF_SCOPE o UNRESOLVED. Distinguir datos nuevos del reaprovechamiento y presupuesto por ejecución del esperado; W5 no se anuncia como frontera exacta.",
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "M12",
         "M11",
         "M03",
         "M04"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Robustez con información parcial, ruido y amortización. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
-      "historical_evidence_retained": false,
-      "new_acceptance": "Fijar perfiles separados para certificados parciales/ruidosos/obsoletos, información inicial, caché y costes de preparación repartidos en varios episodios. Mantener leyes de error, frescura, correlación y cargo total. Derivar cotas y controles donde se afirme generalización; en los demás perfiles registrar OUT_OF_SCOPE o UNRESOLVED. Distinguir datos nuevos del reaprovechamiento y presupuesto por ejecución del esperado; W5 no se anuncia como frontera exacta.",
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "historical_criterion": "Robustez con información parcial, ruido y amortización. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "M15": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P2",
-      "dependencies_for_final_closure": [
-        "M12",
-        "M03",
-        "M13"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Extensión distribuida y geométrica: trabajo y latencia. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
       "historical_evidence_retained": false,
       "new_acceptance": "Definir red de N agentes, ubicación de hechos, distancias/topología, capacidad y precio de mensajes, colas y plazo. Conservar la envolvente centralizada para trabajo agregado. Para cualquier afirmación temporal nueva, derivar cota de comunicación/camino crítico y un control realizable, cobrando duplicación y mantenimiento. Identificar regiones donde paralelismo/cercanía resuelven el plazo y donde no. No extrapolar las cotas de trabajo a tiempo o geometría.",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
-      "additional_current_evidence": "All-N aggregate-work lower bound via centralized information envelope; no universal latency/geometric boundary claimed"
+      "additional_current_evidence": "All-N aggregate-work lower bound via centralized information envelope; no universal latency/geometric boundary claimed",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "M12",
+        "M03",
+        "M13"
+      ],
+      "historical_criterion": "Extensión distribuida y geométrica: trabajo y latencia. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "M16": {
       "status": "OPEN",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "M03",
-        "M04",
-        "M06",
-        "M11",
-        "M12"
-      ],
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Revisión simbólica independiente de la demostración. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "criterion_in_master": "Mapear por versión/proposición la revisión externa recibida y pedir únicamente la reconstrucción independiente que siga sin cobertura. No reiniciar ni desconocer la revisión propia terminada.",
       "historical_evidence_retained": false,
       "new_acceptance": "Revisor distinto del autor y no asignado ficticiamente: reconstruir F1–F4, W1–W5, G1, T1/T2 y cuantificadores, cubriendo políticas omitidas, normalización, presupuesto en ramas fallidas, abstención, igualdad y controles conocidos. Dictamen por afirmación: VALIDATED_IN_SCOPE, COUNTEREXAMPLE o GAP; M13–M15 se revisan separadamente si se incluyen. No basta ejecutar el script del autor. Considerar formalización de los lemas críticos si aporta cobertura; un intento incompleto no es prueba formal. Revisión propia puede continuar sin cerrar esta tarea.",
       "reviewer_requirement": "distinct from author; UNASSIGNED, no independent review claimed",
@@ -239,19 +339,25 @@
       "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
       "additional_pending_review": "v0.2 B/R distinction, joint feasibility cut, branch-budget success corollary, local M02 theorem and G-family compatibility/producer ledger; v0.2 reciprocal certificate multiplier, corrected send/receive ledger and controls without normative receipt",
       "received_external_reviews_acknowledged": true,
-      "coverage_rule": "Credit the received reviews by version and proposition before marking any further review pending. Do not equate receiving a review with full coverage, or an error in one comment with rejection of the entire review."
+      "coverage_rule": "Credit the received reviews by version and proposition before marking any further review pending. Do not equate receiving a review with full coverage, or an error in one comment with rejection of the entire review.",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "M03",
+        "M04",
+        "M06",
+        "M11",
+        "M12"
+      ],
+      "historical_criterion": "Revisión simbólica independiente de la demostración. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "ACTIVE",
+      "dependencies_for_final_closure": []
     },
     "M17": {
       "status": "IN_PROGRESS",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "M12",
-        "M03",
-        "M04",
-        "M06"
-      ],
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Puente matemático entre las familias y R01. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "criterion_in_master": "Auditoría de fidelidad por cláusula del teorema actual y correspondencia de la tecnología efectiva. No exigir reconstruir de cero un puente ya desarrollado ni transportar una fórmula fuera de sus hipótesis.",
       "historical_evidence_retained": false,
       "new_acceptance": "Elegir un objetivo explícito: familia suplementaria o subfamilia de R01. Para afirmar lo segundo, construir embedding/reducción de mundos, acciones, observaciones, efectos y costes; mapear TODAS las políticas relevantes de R01 a la clase cubierta, incluyendo conectores, geometría, autoridad, consultas y barreras. Comprobar dirección de la reducción: no basta exhibir una política ni preservar trazas seleccionadas para transferir imposibilidad. Limitar el resultado a un submodelo o marcar GAP si R01 aporta información o acciones adicionales. E1–E7 y coherencia M07 no sustituyen la reducción.",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
@@ -260,431 +366,669 @@
       "remaining": "Independent reconstruction of source fidelity, all operations, producers, paid initial context, local/normative scopes, cost caps and posterior proof; optional extensions have their own bounds",
       "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
       "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed",
-      "latest_own_review": "EXTENSION_CONSISTENCY_REVIEW.md; all-policy simulation direction and effective-configuration scope reviewed"
+      "latest_own_review": "EXTENSION_CONSISTENCY_REVIEW.md; all-policy simulation direction and effective-configuration scope reviewed",
+      "historical_status_before_cleanup": "IN_PROGRESS",
+      "historical_dependencies": [
+        "M12",
+        "M03",
+        "M04",
+        "M06"
+      ],
+      "historical_criterion": "Puente matemático entre las familias y R01. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "ACTIVE",
+      "dependencies_for_final_closure": []
     },
     "C01": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P0",
-      "dependencies_for_final_closure": [],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Inventariar y reproducir código existente; identificar reutilización, restricciones y huellas sin renombrar controles como campañas R01.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [],
+      "historical_criterion": "Inventariar y reproducir código existente; identificar reutilización, restricciones y huellas sin renombrar controles como campañas R01.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C02": {
-      "status": "OPEN",
+      "status": "DEFERRED",
       "priority": "P0",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Después del contrato tecnológico: oráculo privado, vista pública, ledger, reloj, mensajes y efectos; segundo método y controles neutralizados. Integra C01–C10/C13/M05/P04 sin repetir ensayos históricos.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "C01",
         "M12"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Fijar esquemas, codificación, operaciones, costes, observaciones y horizonte/terminación; declarar cualquier submodelo más estrecho.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Fijar esquemas, codificación, operaciones, costes, observaciones y horizonte/terminación; declarar cualquier submodelo más estrecho.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "LATER_STAGE",
+      "dependencies_for_final_closure": [
+        "M13"
+      ]
     },
     "C03": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "C02"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Implementar generador y referencia exacta independiente; comprobar M/I/P, empates, conectores, mezclas y rechazos de mundos.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "C02"
+      ],
+      "historical_criterion": "Implementar generador y referencia exacta independiente; comprobar M/I/P, empates, conectores, mezclas y rechazos de mundos.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C04": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "C03"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Implementar ejecución, recorder, costes y evaluación de efectos, calidad, éxito, violaciones, incompletitud y tiempos.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "C03"
+      ],
+      "historical_criterion": "Implementar ejecución, recorder, costes y evaluación de efectos, calidad, éxito, violaciones, incompletitud y tiempos.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C05": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "C04"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Contrastar mundos pequeños y trazas inválidas; atacar evidencia obsoleta, duplicación, permisos y filtración del oráculo.",
       "historical_evidence_retained": false,
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
-      "additional_pending_scope": "neutral public observation view and independent evaluator; historical Episode.chi is accessible to arbitrary Python code, outside declared Pi_obs"
+      "additional_pending_scope": "neutral public observation view and independent evaluator; historical Episode.chi is accessible to arbitrary Python code, outside declared Pi_obs",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "C04"
+      ],
+      "historical_criterion": "Contrastar mundos pequeños y trazas inválidas; atacar evidencia obsoleta, duplicación, permisos y filtración del oráculo.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C06": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Entregar recorrido reproducible con comando, entorno, políticas, semillas y trazas; mejora, rechazo e incompletitud sin forzar fallos.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "C05",
         "C11",
         "C13"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Entregar recorrido reproducible con comando, entorno, políticas, semillas y trazas; mejora, rechazo e incompletitud sin forzar fallos.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Entregar recorrido reproducible con comando, entorno, políticas, semillas y trazas; mejora, rechazo e incompletitud sin forzar fallos.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C07": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "C06"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Medir tiempo/memoria bajo límites registrados; conservar timeouts y distinguir coste del evaluador del coste operativo.",
-      "historical_evidence_retained": false
-    },
-    "C08": {
-      "status": "OPEN",
-      "priority": "R",
-      "dependencies_for_final_closure": [
-        "C05"
-      ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Auditar precisión numérica, aleatoriedad, competencia y terminación; resolver o registrar discrepancias del corpus.",
-      "historical_evidence_retained": false
-    },
-    "C09": {
-      "status": "OPEN",
-      "priority": "R",
-      "dependencies_for_final_closure": [
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "C06"
       ],
+      "historical_criterion": "Medir tiempo/memoria bajo límites registrados; conservar timeouts y distinguir coste del evaluador del coste operativo.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
+    },
+    "C08": {
+      "status": "CONSOLIDATED",
+      "priority": "R",
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Auditar precisión numérica, aleatoriedad, competencia y terminación; resolver o registrar discrepancias del corpus.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "C05"
+      ],
+      "historical_criterion": "Auditar precisión numérica, aleatoriedad, competencia y terminación; resolver o registrar discrepancias del corpus.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
+    },
+    "C09": {
+      "status": "CONSOLIDATED",
+      "priority": "R",
       "owner": "UNASSIGNED",
       "criterion_in_master": "Verificar que otro bot entiende instalación, ejecución, salidas y fallos; revisar visuales cuando aclaren límites.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "C06"
+      ],
+      "historical_criterion": "Verificar que otro bot entiende instalación, ejecución, salidas y fallos; revisar visuales cuando aclaren límites.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C10": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "R",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Congelar sucesor y revisar diff, enlaces, huellas y conservación para el alcance de cada entrega.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "C08",
         "C09"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Congelar sucesor y revisar diff, enlaces, huellas y conservación para el alcance de cada entrega.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Congelar sucesor y revisar diff, enlaces, huellas y conservación para el alcance de cada entrega.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C11": {
-      "status": "OPEN",
+      "status": "DEFERRED",
       "priority": "P0",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Después del instrumento neutral: registro único de presupuesto, plazo, comparadores, calibración/holdout, análisis y reglas de parada antes de la campaña.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "C02",
         "P03"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Registrar recursos, precisión, muestras, contrastes, unidades, agrupación, multiplicidad, censura, errores y reglas de parada antes de ejecutar.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Registrar recursos, precisión, muestras, contrastes, unidades, agrupación, multiplicidad, censura, errores y reglas de parada antes de ejecutar.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "LATER_STAGE",
+      "dependencies_for_final_closure": [
+        "C02"
+      ]
     },
     "C12": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P3",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Ejecutar campaña base y análisis pareado: q/e/a/f/C/t/K, incertidumbre, ablaciones y regiones para políticas evaluadas.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "C05",
         "C07",
         "C11",
         "C13",
         "P04"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Ejecutar campaña base y análisis pareado: q/e/a/f/C/t/K, incertidumbre, ablaciones y regiones para políticas evaluadas.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Ejecutar campaña base y análisis pareado: q/e/a/f/C/t/K, incertidumbre, ablaciones y regiones para políticas evaluadas.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "T03",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C13": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "C05"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Auditar pistas accidentales, ajuste/memoria, comparadores y flujos de aleatoriedad; completar control antes de la campaña.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "C05"
+      ],
+      "historical_criterion": "Auditar pistas accidentales, ajuste/memoria, comparadores y flujos de aleatoriedad; completar control antes de la campaña.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C14": {
-      "status": "OPEN",
+      "status": "OUT_OF_CURRENT_SCOPE",
       "priority": "P3",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Implementar y evaluar selector de arquitectura con pilotos y conjuntos separados; comparar reglas simples y conservar indeterminación.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "C12",
         "P11"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Implementar y evaluar selector de arquitectura con pilotos y conjuntos separados; comparar reglas simples y conservar indeterminación.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Implementar y evaluar selector de arquitectura con pilotos y conjuntos separados; comparar reglas simples y conservar indeterminación.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_SCHEDULED",
+      "reason": "Prospective architecture-selector study or broad replication is outside the current technology-by-mechanism review; retain criterion for a separately scoped future study."
     },
     "P01": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1/R",
-      "dependencies_for_final_closure": [],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Profundizar fuentes primarias y congelar locatores; matriz afirmación–fuente y límites de la búsqueda.",
       "historical_evidence_retained": false,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [],
+      "historical_criterion": "Profundizar fuentes primarias y congelar locatores; matriz afirmación–fuente y límites de la búsqueda.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "P02": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1/R",
-      "dependencies_for_final_closure": [],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Intentar obtener el mismo valor con métodos existentes y alternativas simples; falsar cada contribución superviviente.",
       "historical_evidence_retained": false,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [],
+      "historical_criterion": "Intentar obtener el mismo valor con métodos existentes y alternativas simples; falsar cada contribución superviviente.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "P03": {
       "status": "DONE",
       "priority": "P0",
-      "dependencies_for_final_closure": [
-        "M01"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Auditar medidas y casos límite; conservar costes sin entrega, indeterminación y restricciones sin compensación por recompensa. **DONE — auditoría de medidas**, [resultado](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
-      "historical_evidence_retained": true
+      "historical_evidence_retained": true,
+      "historical_status_before_cleanup": "DONE",
+      "historical_dependencies": [
+        "M01"
+      ],
+      "historical_criterion": "Auditar medidas y casos límite; conservar costes sin entrega, indeterminación y restricciones sin compensación por recompensa. **DONE — auditoría de medidas**, [resultado](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "HISTORICAL_DONE"
     },
     "P04": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1/R",
-      "dependencies_for_final_closure": [
-        "C05"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Revisar el contrato y evidencia del oráculo C; no crear un segundo trabajo duplicado bajo otro nombre.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "C05"
+      ],
+      "historical_criterion": "Revisar el contrato y evidencia del oráculo C; no crear un segundo trabajo duplicado bajo otro nombre.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "C02",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "P05": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1/R",
-      "dependencies_for_final_closure": [
-        "M07"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Verificar requisitos, terminología, autoridad, versiones y límites de transferencia con el corpus vigente.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "M07"
+      ],
+      "historical_criterion": "Verificar requisitos, terminología, autoridad, versiones y límites de transferencia con el corpus vigente.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M17",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "P06": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "R",
-      "dependencies_for_final_closure": [
-        "M04"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Comprobar legibilidad para investigación y decisión de arquitectura sin perder distinciones técnicas.",
-      "historical_evidence_retained": false
-    },
-    "P07": {
-      "status": "OPEN",
-      "priority": "R",
-      "dependencies_for_final_closure": [
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "M04"
       ],
+      "historical_criterion": "Comprobar legibilidad para investigación y decisión de arquitectura sin perder distinciones técnicas.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "release_checks",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
+    },
+    "P07": {
+      "status": "CONSOLIDATED",
+      "priority": "R",
       "owner": "UNASSIGNED",
       "criterion_in_master": "Evaluar ayudas visuales; toda figura conceptual se identifica y ninguna frontera inventada se presenta como medida.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "M04"
+      ],
+      "historical_criterion": "Evaluar ayudas visuales; toda figura conceptual se identifica y ninguna frontera inventada se presenta como medida.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "release_checks",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "P08": {
-      "status": "OPEN",
+      "status": "IN_PROGRESS",
       "priority": "P0/R",
-      "dependencies_for_final_closure": [],
       "owner": "UNASSIGNED",
-      "criterion_in_master": "Diagnosticar integridad al inicio y reparar con sucesor explícito; conservar historia y verificar navegación/contenido.",
+      "criterion_in_master": "Verificación documental de la edición actual frente a manifiestos históricos. Conservar los hashes históricos; no regenerarlos para fabricar PASS.",
       "historical_evidence_retained": false,
-      "additional_pending": "Current README hashes differ from historical extension manifests and common audit; preserve snapshots, implement version-aware documentary validation before announcing current joint reproduction."
+      "additional_pending": "Current README hashes differ from historical extension manifests and common audit; preserve snapshots, implement version-aware documentary validation before announcing current joint reproduction.",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [],
+      "historical_criterion": "Diagnosticar integridad al inicio y reparar con sucesor explícito; conservar historia y verificar navegación/contenido.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "ACTIVE",
+      "dependencies_for_final_closure": []
     },
     "P09": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "R",
-      "dependencies_for_final_closure": [
-        "M16"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Auditar el valor y la afirmación más fuerte de la entrega; registrar límites y distinguir revisión propia de independiente.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "M16"
+      ],
+      "historical_criterion": "Auditar el valor y la afirmación más fuerte de la entrega; registrar límites y distinguir revisión propia de independiente.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "release_checks",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "P10": {
-      "status": "IN_PROGRESS",
+      "status": "CONSOLIDATED",
       "priority": "P0",
-      "dependencies_for_final_closure": [],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Definir decisión, alternativas, valor incremental falsable y techo de inversión; puertas de continuar, acotar, reformular o parar. **IN_PROGRESS — decisión inicial de continuar/acotar**, [registro](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
-      "historical_evidence_retained": true
+      "historical_evidence_retained": true,
+      "historical_status_before_cleanup": "IN_PROGRESS",
+      "historical_dependencies": [],
+      "historical_criterion": "Definir decisión, alternativas, valor incremental falsable y techo de inversión; puertas de continuar, acotar, reformular o parar. **IN_PROGRESS — decisión inicial de continuar/acotar**, [registro](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "P11": {
-      "status": "OPEN",
+      "status": "OUT_OF_CURRENT_SCOPE",
       "priority": "P3",
-      "dependencies_for_final_closure": [
-        "C12"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Diseñar el estudio de selección antes de C14: información elegible, referencia independiente, error, coste y particiones.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "C12"
+      ],
+      "historical_criterion": "Diseñar el estudio de selección antes de C14: información elegible, referencia independiente, error, coste y particiones.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_SCHEDULED",
+      "reason": "Prospective architecture-selector study or broad replication is outside the current technology-by-mechanism review; retain criterion for a separately scoped future study."
     },
     "P12": {
-      "status": "OPEN",
+      "status": "OUT_OF_CURRENT_SCOPE",
       "priority": "P3/R",
-      "dependencies_for_final_closure": [
-        "C14"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Comprobar mejora en decisiones o esfuerzo y límites a escala; un oráculo correcto no demuestra utilidad prospectiva del piloto.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "C14"
+      ],
+      "historical_criterion": "Comprobar mejora en decisiones o esfuerzo y límites a escala; un oráculo correcto no demuestra utilidad prospectiva del piloto.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_SCHEDULED",
+      "reason": "Prospective architecture-selector study or broad replication is outside the current technology-by-mechanism review; retain criterion for a separately scoped future study."
     },
     "T01": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "M12",
-        "C02"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Fijar tres configuraciones de smolagents, LangGraph y OpenAI Agents SDK, versiones, modelos, controles y acceso real.",
       "historical_evidence_retained": false,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "M12",
+        "C02"
+      ],
+      "historical_criterion": "Fijar tres configuraciones de smolagents, LangGraph y OpenAI Agents SDK, versiones, modelos, controles y acceso real.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T02": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "T01"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Mapear E1–E7, parámetros, trazas y operaciones no cubiertas; admitir, restringir o rechazar correspondencias con evidencia.",
       "historical_evidence_retained": false,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "T01"
+      ],
+      "historical_criterion": "Mapear E1–E7, parámetros, trazas y operaciones no cubiertas; admitir, restringir o rechazar correspondencias con evidencia.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T03": {
-      "status": "OPEN",
+      "status": "DEFERRED",
       "priority": "P3",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Después de C02/C11 y admisión del contrato: adaptador de la primera tecnología, controles positivos/negativos, campaña y veredicto por implementación. Integra C12/T04–T07; no lanzar tres adaptadores a la vez.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "T02",
         "C02",
         "T11"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Implementar adaptadores y recorder por tecnología; comprobar replay, duplicación, orden y efectos inesperados.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Implementar adaptadores y recorder por tecnología; comprobar replay, duplicación, orden y efectos inesperados.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "LATER_STAGE",
+      "dependencies_for_final_closure": [
+        "M13",
+        "C02",
+        "C11"
+      ]
     },
     "T04": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P3",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Comprobar fixtures permitidos, prohibidos, bloqueados, incompletos, tardíos y agotados; separar fixture de conducta.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "T03",
         "C05"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Comprobar fixtures permitidos, prohibidos, bloqueados, incompletos, tardíos y agotados; separar fixture de conducta.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Comprobar fixtures permitidos, prohibidos, bloqueados, incompletos, tardíos y agotados; separar fixture de conducta.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "T03",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T05": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P3",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Ejecutar recorridos registrados con modelo/política, trazas reales y evaluación independiente; conservar errores y abstenciones.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "T04",
         "C06",
         "C11",
         "C13"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Ejecutar recorridos registrados con modelo/política, trazas reales y evaluación independiente; conservar errores y abstenciones.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Ejecutar recorridos registrados con modelo/política, trazas reales y evaluación independiente; conservar errores y abstenciones.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "T03",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T06": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P3",
-      "dependencies_for_final_closure": [
-        "T05"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Emitir veredicto por tecnología y medir costes/latencias; justificar transferencia exacta, aproximada, rechazada o abierta.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "T05"
+      ],
+      "historical_criterion": "Emitir veredicto por tecnología y medir costes/latencias; justificar transferencia exacta, aproximada, rechazada o abierta.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "T03",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T07": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P2/R",
-      "dependencies_for_final_closure": [
-        "T06"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Atacar admisión con controles nativos, certificados, memoria, información oculta y costes omitidos; verificar APIs fijadas.",
       "historical_evidence_retained": false,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "T06"
+      ],
+      "historical_criterion": "Atacar admisión con controles nativos, certificados, memoria, información oculta y costes omitidos; verificar APIs fijadas.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "T03",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T08": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P2/R",
-      "dependencies_for_final_closure": [
-        "T07"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Revisar coherencia y elegibilidad científica; no inferir causalidad histórica ni ventaja de EA.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "T07"
+      ],
+      "historical_criterion": "Revisar coherencia y elegibilidad científica; no inferir causalidad histórica ni ventaja de EA.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "release_checks",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T09": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "R",
-      "dependencies_for_final_closure": [
-        "T08"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Revisar legibilidad y visuales del recorrido adaptador–recorder–oráculo y de sus límites.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "T08"
+      ],
+      "historical_criterion": "Revisar legibilidad y visuales del recorrido adaptador–recorder–oráculo y de sus límites.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "release_checks",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T10": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "R",
-      "dependencies_for_final_closure": [
-        "T09"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Conservar las tres disposiciones, archivos, resultados y enlaces; auditar cada entrega tecnológica.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "T09"
+      ],
+      "historical_criterion": "Conservar las tres disposiciones, archivos, resultados y enlaces; auditar cada entrega tecnológica.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "release_checks",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T11": {
-      "status": "OPEN",
+      "status": "CONSOLIDATED",
       "priority": "P1",
-      "dependencies_for_final_closure": [
-        "T02",
-        "C02"
-      ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Calificar las tres y priorizar primera implementación por viabilidad observada e incertidumbre; no suponer acceso ni coste.",
       "historical_evidence_retained": false,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
+        "T02",
+        "C02"
+      ],
+      "historical_criterion": "Calificar las tres y priorizar primera implementación por viabilidad observada e incertidumbre; no suponer acceso ni coste.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_A_SEPARATE_TASK",
+      "consolidated_into": "M13",
+      "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "T12": {
-      "status": "OPEN",
+      "status": "OUT_OF_CURRENT_SCOPE",
       "priority": "P3/R",
-      "dependencies_for_final_closure": [
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Replicar en conjuntos separados y comprobar sensibilidad/versiones/escala; no transportar tasas entre políticas distintas.",
+      "historical_evidence_retained": false,
+      "historical_status_before_cleanup": "OPEN",
+      "historical_dependencies": [
         "T06",
         "T07",
         "C11",
         "P11",
         "P12"
       ],
-      "owner": "UNASSIGNED",
-      "criterion_in_master": "Replicar en conjuntos separados y comprobar sensibilidad/versiones/escala; no transportar tasas entre políticas distintas.",
-      "historical_evidence_retained": false
+      "historical_criterion": "Replicar en conjuntos separados y comprobar sensibilidad/versiones/escala; no transportar tasas entre políticas distintas.",
+      "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
+      "queue_class": "NOT_SCHEDULED",
+      "reason": "Prospective architecture-selector study or broad replication is outside the current technology-by-mechanism review; retain criterion for a separately scoped future study."
     }
   },
   "dependency_semantics": "final-closure dependencies; preparation and early source/attack work may begin before them. T06 behavioral closure is separate from universal transfer, which additionally requires M13/M17/M16. C11 starts with resource contract, freezes statistics before campaign. M16 audits included M13–M15 claims separately without a cyclic dependency.",
   "source_artifacts": "M01/M02/M10/TRILEMMA historical evidence and base scenario unchanged; theorem doc receives status notice only",
   "next_delivery": [
-    "Reconstruct H0/H1 and qualify each actual mechanism by E1–E7 and full costs before claiming integration",
-    "Prepare C01–C05 evaluation oracle/harness; no new scientific executions before neutral contract",
-    "Retain M16/M17 remaining coverage and P08 historical hash discrepancies; do not overwrite original manifests"
+    "Continue the first technology under TECHNOLOGY_EXTENSION_PROTOCOL.md §8.1; human + whispering is the first technology, not a parallel governance project",
+    "Review every subsequent candidate through the same protocol; received material and scripts are partial rehearsal annexes",
+    "Build the neutral harness and real-technology campaign only after their contracts; no new scientific execution in this cleanup"
   ],
   "independent_review": false,
   "mathematical_results_changed": false,
   "additional_material_intake": {
     "actual_utc": "2026-10-04T03:08:56.888758+00:00",
     "input_commit": "85f1692cd1e823b990dec2cbe8e0c983de669ab3",
-    "dossier": "supplemental/2026-10-04/README.md",
+    "dossier": "partial-experiments/received/2026-10-04/README.md",
     "material_count": 6,
     "scripts_executed": 4,
     "new_tasks": [],
     "tasks_closed": [],
     "priority": "mathematical validity first; technology qualification second",
     "next_delivery_unchanged": [
-      "M12 obligation matrix",
-      "M06/M11 directed attacks"
+      "Continue the first technology under TECHNOLOGY_EXTENSION_PROTOCOL.md §8.1; human + whispering is the first technology, not a parallel governance project",
+      "Review every subsequent candidate through the same protocol; received material and scripts are partial rehearsal annexes",
+      "Build the neutral harness and real-technology campaign only after their contracts; no new scientific execution in this cleanup"
     ]
   },
   "active_mathematical_document": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
@@ -727,7 +1071,7 @@
     "independent_review": false,
     "source_changed": false,
     "technology_applied": false,
-    "next_phase": "separate extension protocol; pending"
+    "next_phase": "Technology review under TECHNOLOGY_EXTENSION_PROTOCOL.md §8.1; human escalation + whispering first"
   },
   "external_review_coverage": {
     "received": true,
@@ -828,6 +1172,41 @@
     "own_symbolic_review": true,
     "commercial_integration": false,
     "human_calibration": false,
-    "new_scientific_executions": 0
+    "new_scientific_executions": 0,
+    "classification": "First technology of the extension protocol; mathematical contract reviewed, implementation admission still open",
+    "candidate_registry": "TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study"
+  },
+  "active_task_count": 4,
+  "deferred_delivery_count": 3,
+  "historical_task_inventory_count": 55,
+  "queue_cleanup": {
+    "owner_instruction": "Remove superseded and inapplicable pending tasks; technologies belong within the extension protocol",
+    "historical_snapshot": "previous-work/QUEUE_SNAPSHOT_2026-10-04.json",
+    "active_ids": [
+      "M13",
+      "M16",
+      "M17",
+      "P08"
+    ],
+    "later_stage_ids": [
+      "C02",
+      "C11",
+      "T03"
+    ],
+    "own_scope_complete_ids": [
+      "M03",
+      "M04",
+      "M12"
+    ],
+    "out_of_current_scope_ids": [
+      "C14",
+      "P11",
+      "P12",
+      "T12"
+    ],
+    "remaining_old_ids": "Consolidated into owning deliveries or release checks; criteria preserved in each historical_criterion",
+    "new_scientific_executions": 0,
+    "new_implementation_validations": 0,
+    "independent_review_completed": false
   }
 }

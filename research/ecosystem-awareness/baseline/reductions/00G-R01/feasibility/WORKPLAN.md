@@ -1,162 +1,48 @@
-# Plan vigente del estudio de viabilidad
+# R01 — Tareas pendientes vigentes
 
-4 de octubre de 2026 · Desarrollo dentro de R01/feasibility/ · [Documento matemático](./PURE_MATHEMATICAL_TRILEMMA.md) · [Registro completo](./WORKPLAN_STATUS.json).
+4 de octubre de 2026 · Cola depurada por instrucción del usuario. [Registro y criterios](./WORKPLAN_STATUS.json) · [Estado anterior íntegro](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json) · [Revisión de la depuración](./QUEUE_CLEANUP_REVIEW_2026-10-04.md).
 
-Se conservan las 55 tareas y todos sus criterios históricos. Estado actual: **4 DONE históricas, 6 IN_PROGRESS y 45 OPEN**. Solo M12 cambia de OPEN a IN_PROGRESS por el contrato y la derivación redactados; esta entrega no cierra ninguna tarea científica. M01/M02/M10/P03 siguen cerradas únicamente en su alcance anterior. M03/M04 permanecen en revisión del objetivo ampliado. Los registros anteriores mantienen sus estados fechados.
+La revisión propia del núcleo v0.2, las reparaciones y la revisión de coherencia de las tres extensiones están realizadas. El protocolo de extensión está definido. No volver a programarlos como trabajos iniciales. La primera revisión tecnológica es **escalación humana y whispering**, dentro del [capítulo de tecnologías del protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study).
 
-## Orden de trabajo
+<!-- R01_BOT_WORKPLAN_START version="0.4" scope="feasibility/WORKPLAN.md" role="active-queue-owner" -->
+## Cola actual — cuatro frentes
 
-| Prioridad | Tareas | Entrega y condición de cierre |
+| ID | Pendiente concreto | Evidencia disponible y criterio de salida |
 |---|---|---|
-| 1. Alcance y prueba base | M12, M03/M04, ataques M06/M11; criterios históricos M01/M02/M10/P03 | Congelar configuración, mundo, políticas, medidas y cuantificadores; revisar necesidad para todas las políticas, controles y familias viables/inviables sin intervenciones. Resolver «solo una» sin fabricar imposibilidad. |
-| 2. Validación matemática y alcance R01 | M16, M17/M07; M06/M11 continúan | Reconstrucción simbólica independiente y embedding/reducción con todas las políticas relevantes. Si falta el puente, mantener la afirmación en la familia suplementaria. |
-| 3. Instrumento neutral | C01–C05, M05 y triage P08 | Preparar contratos, ground truth, óptimo, ledger, trazas y método independiente antes de nuevas ejecuciones finitas. Los diagnósticos anteriores no constituyen el harness. |
-| 4. Tecnologías y ampliaciones | M13; posteriormente M14/M15 y T | Capacidades y costes completos; herencia o cambio de hipótesis, ruido, amortización, distribución y geometría. Material anterior archivado, sin convertirlo en prioridad. |
-| 5. Campaña y utilidad | C06–C14, T y P restantes según dependencias | Campaña registrada, transferencia e integraciones calificadas; incidencia, comparación y selector requieren su propia evidencia. |
+| M13 | Continuar la revisión de tecnologías, empezando por escalación humana y whispering. | [Ficha existente](./HUMAN_ESCALATION_WHISPERING.md): H0/H1 y mecanismos H2–H4. Primero comprobar E1–E7 del núcleo efectivo; después estudiar mecanismos adicionales, composición, costes y plazo. Separar resultados matemáticos del contrato y pertenencia de una implementación. Las demás tecnologías siguen la misma ficha. |
+| M16 | Completar únicamente la cobertura independiente que falte. | Revisiones externas recibidas reconocidas; registrar versión/proposición antes de solicitar otra revisión. La revisión propia está hecha. |
+| M17 | Completar la auditoría de fidelidad por cláusula y de correspondencia tecnológica. | [Teorema v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md), [auditoría propia](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md) y [dictamen de extensiones](./EXTENSION_CONSISTENCY_REVIEW.md). Conservar lo desarrollado; comprobar solo canales, políticas o costes cuya cobertura siga sin verificar. |
+| P08 | Verificar la edición vigente sin alterar manifiestos históricos. | Diferencias de hashes ya registradas. Emitir correspondencia por versión; no sobrescribir históricos ni afirmar reproducción conjunta sin comprobarla. |
 
-La preparación del harness y el puente puede avanzar junto a la revisión simbólica, pero no sustituye la prueba. Las tecnologías no cierran lagunas de la prueba base. El coste agregado, el plazo y el presupuesto por agente son objetivos distintos. No se anuncia validación independiente, incidencia real, novedad o ventaja de EA.
+## Etapas posteriores — tres entregas, sin ejecución anticipada
 
-## Trabajo realizado que se conserva
-
-Los borradores M01/M02/M10 y F/W se reúnen en [trabajos anteriores](./previous-work/README.md); los scripts, fixtures, resultados y originales recibidos quedan en [experimentos parciales](./partial-experiments/README.md). El [master previo completo](../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) y sus cuatro planes de navegación permanecen legibles; sus estados fechados son históricos frente a este registro vigente. Ningún ID ni criterio se elimina.
-
-## Las 55 tareas, sin recortes
-
-Los criterios y dependencias íntegros están en el registro JSON y en el master anterior; la tabla mantiene todos los IDs y su estado actual.
-
-| ID | Estado | Prioridad | Dependencias de cierre |
-|---|---|---|---|
-| M01 | DONE | P0 | — |
-| M02 | DONE | P1 | M01 |
-| M03 | IN_PROGRESS | P0 | M12 |
-| M04 | IN_PROGRESS | P0 | M03, M12 |
-| M05 | OPEN | P1 | M04, C05 |
-| M06 | IN_PROGRESS | P1/R | — |
-| M07 | OPEN | P1/R | M17, M06 |
-| M08 | OPEN | R | M04 |
-| M09 | OPEN | R | M05, M07, M08, M16 |
-| M10 | DONE | P0 | M01 |
-| M11 | IN_PROGRESS | P1/R | M02 |
-| M12 | IN_PROGRESS | P0 | M01, M02, M10, P03 |
-| M13 | OPEN | P1 | M03, M04, M12, M06, M11 |
-| M14 | OPEN | P2 | M12, M11, M03, M04 |
-| M15 | OPEN | P2 | M12, M03, M13 |
-| M16 | OPEN | P1 | M03, M04, M06, M11, M12 |
-| M17 | OPEN | P1 | M12, M03, M04, M06 |
-| C01 | OPEN | P0 | — |
-| C02 | OPEN | P0 | C01, M12 |
-| C03 | OPEN | P1 | C02 |
-| C04 | OPEN | P1 | C03 |
-| C05 | OPEN | P1 | C04 |
-| C06 | OPEN | P1 | C05, C11, C13 |
-| C07 | OPEN | P1 | C06 |
-| C08 | OPEN | R | C05 |
-| C09 | OPEN | R | C06 |
-| C10 | OPEN | R | C08, C09 |
-| C11 | OPEN | P0 | C02, P03 |
-| C12 | OPEN | P3 | C05, C07, C11, C13, P04 |
-| C13 | OPEN | P1 | C05 |
-| C14 | OPEN | P3 | C12, P11 |
-| P01 | OPEN | P1/R | — |
-| P02 | OPEN | P1/R | — |
-| P03 | DONE | P0 | M01 |
-| P04 | OPEN | P1/R | C05 |
-| P05 | OPEN | P1/R | M07 |
-| P06 | OPEN | R | M04 |
-| P07 | OPEN | R | M04 |
-| P08 | OPEN | P0/R | — |
-| P09 | OPEN | R | M16 |
-| P10 | IN_PROGRESS | P0 | — |
-| P11 | OPEN | P3 | C12 |
-| P12 | OPEN | P3/R | C14 |
-| T01 | OPEN | P1 | M12, C02 |
-| T02 | OPEN | P1 | T01 |
-| T03 | OPEN | P3 | T02, C02, T11 |
-| T04 | OPEN | P3 | T03, C05 |
-| T05 | OPEN | P3 | T04, C06, C11, C13 |
-| T06 | OPEN | P3 | T05 |
-| T07 | OPEN | P2/R | T06 |
-| T08 | OPEN | P2/R | T07 |
-| T09 | OPEN | R | T08 |
-| T10 | OPEN | R | T09 |
-| T11 | OPEN | P1 | T02, C02 |
-| T12 | OPEN | P3/R | T06, T07, C11, P11, P12 |
-
-## Obligaciones matemáticas inmediatas
-
-| Afirmación | Documento/evidencia | Pendiente |
+| ID | Entrega | Condición de entrada |
 |---|---|---|
-| Cada par alcanzable y conjunción imposible en una familia | F, desigualdad universal, controles y no vaciedad del documento actual | Auditoría independiente, todas las hipótesis y transferencia. |
-| Existen configuraciones con las tres | Frontera exacta y control constructivo, incluida la igualdad | Revisión conjunta con necesidad. |
-| Áreas donde solo una condición es posible | Distinción entre firma de política y posibilidades de configuración | En F con abstención barata y segura, ningún área exclusiva de esa clase se deriva; conservar el límite y precisar el objetivo. |
-| Información y coste de W | Borrador histórico conservado | Revisión simbólica separada antes de incluir sus conclusiones en el resultado actual. |
-| Tecnologías minimizan o eliminan | Material anterior archivado | Reanudar después; probar pertenencia, costes y alcance. |
+| C02 | Oráculo y arnés neutral, con controles, contabilidad y segundo método. | Contrato de la tecnología/mecanismo definido; estado privado separado de los participantes. Integra el antiguo C01–C10/C13/M05/P04. |
+| C11 | Registro de la campaña y sus recursos, comparadores y análisis. | Instrumento comprobado; registro antes de ejecutar. |
+| T03 | Adaptador, controles y campaña con la primera implementación real; veredicto por tecnología. | C02/C11 y correspondencia admitida; ampliar después a otras tecnologías. Integra C12/T04–T07. |
 
-## Continuación
-
-Usa el [prompt completo](./CONTINUATION_PROMPT.md). Para cada afirmación registra VALIDATED_IN_SCOPE, COUNTEREXAMPLE o GAP solo con evidencia correspondiente; no atribuyas independencia a una revisión propia. Toda creación futura de este estudio va dentro de `feasibility/`. Actualiza el cuadro final de los README conservando el contenido completo y publica enlaces fijados al mismo commit.
-
-
-## Manuscrito independiente — avance, 4 de octubre de 2026
-
-Se propone el nombre **Trilema condicionado de coste, riesgo y eficacia**. El [documento independiente](./CONDITIONED_TRILEMMA.md) contiene el contrato, cuantificadores, un lema para todas las políticas, fronteras exactas técnica/legítima, extensión AVG a hechos independientes sesgados, contraste WC y familias no vacías. La [revisión propia adversarial](./CONDITIONED_TRILEMMA_SELF_REVIEW.md) examina presupuesto de ramas fallidas, adaptación, aleatoriedad, recibos, independencia, igualdad y riesgo redundante. No se declara revisión externa, puente al R01 completo ni novedad; no se ejecutaron nuevos tests científicos. Estado de las 55 tareas sin cambios: 4 DONE históricas, 6 IN_PROGRESS, 45 OPEN.
-
-M12/M03/M04 deben usar este manuscrito como versión revisable, sin borrar sus criterios anteriores. M16 debe reconstruir el lema con a distinto de 1/2 y el uso de una ley uniforme auxiliar para WC, además de las familias por pares con σ. M17 sigue probando correspondencia con todas las políticas de R01. Antes de nuevos diagnósticos, C01–C05 conserva la obligación de un instrumento neutral. Las tecnologías permanecen después.
-
-
-## Auditoría de fondo — prioridades y estado vigentes
-
-Estado: **55 tareas; 4 DONE históricas, 7 IN_PROGRESS y 44 OPEN**. M17 cambia de OPEN a IN_PROGRESS por el [mapa de transferencia, proposición, teorema local M02 y familia G](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md). No se cierra ninguna tarea científica. Los estados anteriores permanecen fechados.
-
-La [auditoría](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) reconstruye las pruebas y corrige afirmaciones de los textos recibidos: equivalencia ∀π¬Good/¬∃πGood, dirección de transferencia y necesidad de controles para frontera exacta. El [manuscrito v0.2](./CONDITIONED_TRILEMMA.md) separa B/R, define el conjunto factible y sus mínimos de riesgo, añade el corte η/σ conjunto y σ_R por presupuesto de rama. Fuente, fixtures y reportes científicos intactos; no se ejecutan nuevos tests.
-
-| Prioridad inmediata | Tareas | Entrega concreta pendiente |
-|---|---|---|
-| 1. Congelar contrato y reconstrucción externa | M12/M03/M04, M16 | Revisar H1–H8, independencia por historial, cota, controles, cortes conjuntos y éxito por rama; dictamen de otro revisor, sin copiar una recurrencia propia. |
-| 2. Validar cláusulas de la familia R01 G | M17, M07, M16 | Contexto inicial técnico pagado, catálogo y ledger completos; no confundir alcance desde ese contexto con optimización de la preparación inicial. Revisar todas sus políticas y variante AVG/WC. |
-| 3. Dureza informativa creciente dentro de R01 | M17/M03/M04 | L hechos distintos, todas las consultas/certificados/side channels, C0 y producción, simulación de todas las políticas y controles. G tiene sobrecoste informativo constante y no cierra esta ampliación. |
-| 4. Instrumento neutral | C01–C05/M05 | Vista observable que no exponga Episode.chi, evaluator separado, óptimo, ledger y medidas. El wrapper histórico solo implementa controles nombrados. |
-| 5. Tecnologías | M13–M15 y T | Después del contrato y lemas base; no trasladar F a bindings compartidos o predicados globales. |
-
-Los criterios históricos de todas las tareas se mantienen en el registro. M16 permanece OPEN; las auditorías recibidas son ataques y recomendaciones, no un dictamen matemático independiente completo.
-
-
-## Teorema condicionado en R01 — prioridades posteriores
-
-El [teorema principal](./R01_CONDITIONED_TRILEMMA_THEOREM.md) formula el dominio R01, certificado universal, corte y controles, con una familia de información global de K datos y precio K. La dureza creciente se construye mediante dependencia global, sin necesitar primero la ampliación específica de F a hechos independientes por segmento. Los casos de éxito son parte de la región viable y no bloquean la extensión del trilema condicionado.
-
-| Prioridad | Tareas | Trabajo siguiente |
-|---|---|---|
-| 1. Reconstrucción independiente del núcleo | M16/M03/M04/M12 | Posterior adaptativo de paridad, evento crítico, cota de riesgo, fronteras AVG/WC y tres controles con los mismos umbrales. |
-| 2. Auditoría de fidelidad a R01 | M17/M07/M16 | Manifest completo, scopes locales/normativos, preparación pagada, productor de certificados, queries y errores, concurrency, techo por ejecución frente a cap físico y e_b. |
-| 3. Instrumento neutral | C01–C05/M05 | Antes de ejecutar corroboraciones: estado privado separado, vista pública, adjudicador y ledger independientes. |
-| 4. Otras regiones | M14/M15/M17 | Información parcial, otros generadores, geometría y límites de tiempo; demostrar sus propias cotas sin imponerlas a toda configuración. La ampliación exacta de F es una opción posterior, no requisito de la prueba existencial R01. |
-| 5. Tecnologías | M13 y T | Evaluar qué hipótesis cambian y cuánto cuesta la nueva información, después de revisar el núcleo. |
-
-Estado conservado: 55 tareas; 4 DONE históricas, 7 IN_PROGRESS, 44 OPEN. Nueva demostración y revisión propias constituyen evidencia de trabajo, no cierre independiente. Ninguna ejecución científica nueva. [Registro de entrega](./R01_CONDITIONED_TRILEMMA_RELEASE.json).
-
+Las revisiones de fuentes, contraejemplos, legibilidad, visuales, enlaces y conservación forman parte de cada entrega. No se programan como diez tareas duplicadas por documento. No ejecutar una nueva campaña para depurar una cola documental.
+<!-- R01_BOT_WORKPLAN_END -->
 
 <a id="extension-vocabulary-review"></a>
-## Revisión terminológica de las tres extensiones — pendiente antes del protocolo
+## Revisión de las tres extensiones — realizada
 
-Por instrucción del usuario, la explicación inicial y el gráfico del [R01 existente](../Escenario-creatividad-validacion.md#from-the-practical-problem-to-acceptance) distinguen parámetros del problema, tecnología, escenario operativo, estrategia de ejecución, terna de desempeño y políticas de aceptación. θ y Π(θ) conservan su significado matemático; las políticas de ejecución ya existentes se denominan estrategias en la explicación. La zona aceptada contiene ternas que cumplen b, δ y p; una estrategia fuera no demuestra inviabilidad de todo el escenario.
+[Dictamen de coherencia](./EXTENSION_CONSISTENCY_REVIEW.md). No repetirla como pendiente; sus obligaciones de implementación y fidelidad siguen en M13/M17, y las discrepancias documentales en P08. Usar **escenarios, zona aceptada y zona no aceptada**.
 
-**Pendiente, bajo M17/M07 y P08, antes de continuar con M13:** revisar la coherencia de terminología, conceptos, explicación, tablas, gráficos y pruebas de extensión en los tres documentos existentes: [Hugging Face](../extensions/hugging-face/README.md), [Infoblox/DNS](../extensions/infoblox/README.md) y [familia de otros modos de fallo](../extensions/family/README.md). Incluir sus notas matemáticas, criterios, código/checkers, guías de reproducción y alcance declarado. Conservar la separación entre incidentes históricos, escenarios construidos y evidencia efectivamente demostrada o ejecutada. Cambiar nombres únicamente cuando sea necesario; no alterar información, supuestos, resultados, controles ni estados de admisión por una actualización de vocabulario. Los manifiestos históricos y los fallos de verificación heredados de P08 se conservan para su tratamiento explícito, sin sobrescribirlos.
+## Retirado de la cola activa
 
-La revisión aún no está realizada ni cerrada. Este seguimiento no crea otro escenario, otra prueba o una tarea científica nueva: se registra dentro de los IDs existentes. Las 55 tareas y sus estados permanecen sin cambios. El protocolo tecnológico sigue siendo una entrega separada posterior a esta revisión terminológica.
+Los 55 IDs y sus criterios históricos permanecen en el registro. Hay 4 tareas activas, 3 entregas posteriores, 4 cierres históricos, 3 trabajos completos en su alcance propio, 37 obligaciones consolidadas y 4 trabajos fuera del alcance actual. Consolidado o fuera de alcance no significa validado ni ejecutado.
 
+M03/M04/M12 no vuelven a pedir construir la prueba base: el [teorema canónico](./R01_CONDITIONED_TRILEMMA_THEOREM.md) y sus reparaciones cubren su entrega propia; M16/M17 conservan la cobertura restante. El selector prospectivo y la replicación amplia C14/P11/P12/T12 quedan sin programar en este trabajo; sus criterios se conservan para otro alcance.
 
-## Estado vigente: revisión completada y extensión por mecanismos
+## Ensayos previos
 
-La revisión previa registrada arriba se ha completado en su alcance propio: [dictamen](./EXTENSION_CONSISTENCY_REVIEW.md). Se conserva el estado histórico de las tablas anteriores. M16 y M17 no se cierran. La reproducción documental de la edición vigente conserva las discrepancias heredadas de P08.
+[Anexos parciales](./partial-experiments/README.md) · [Material recibido, resultados y contraejemplos](./partial-experiments/received/2026-10-04/README.md). Son ensayos de preparación, no pruebas canónicas ni validaciones de tecnología real. No reabrir una cola matemática antigua desde estos anexos.
 
-M13 pasa de OPEN a IN_PROGRESS por el [protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md) y la [primera ficha humana](./HUMAN_ESCALATION_WHISPERING.md). Estado actual: **55 tareas, 4 DONE históricas, 8 IN_PROGRESS y 43 OPEN**. Ningún ID ni criterio histórico se elimina.
-
-| Orden siguiente | Obligación |
+| Seguimiento | Estado |
 |---|---|
-| 1. Revisión de los contratos humanos | Reconstruir H0/H1, coste productor, posterior sin alerta, controles y plazo; pertenencia real aún no demostrada. |
-| 2. Mecanismo tecnológico siguiente | Tabla E1–E7 primero; luego información, barrera o cambio de parámetros adicional. No dispersar implementaciones ni campañas. |
-| 3. C01–C05 | Oráculo de evaluación privado y arnés neutral antes de ejecutar nuevas corroboraciones; preparar casos límite de avisos. |
-| 4. Adaptador y campaña | Solo después del contrato, medidas y comparadores registrados. No se declara calibración humana ni ejecución de frameworks. |
-
-La fórmula H1 recupera escenarios cuando coste y latencia caben, conserva una región residual para q<1 en ese contrato y admite resolución para q=1. No se presupone persistencia para toda tecnología. El material recibido queda archivado sin nuevas ejecuciones.
+| Próxima tarea | M13: escalación humana y whispering como primera tecnología del protocolo. |
+| Revisiones aún abiertas | M16, M17 y P08 con alcance delimitado. |
+| Oráculo / arnés / campaña real | Etapas posteriores; ninguna ejecución nueva en esta depuración. |
+| Conservación | IDs, criterios y documentos anteriores archivados íntegramente; fórmulas y resultados conservados. |

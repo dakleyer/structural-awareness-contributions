@@ -357,19 +357,9 @@ M16 sigue abierto para revisión independiente. M17 recibe este desarrollo como 
 La v0.2 corrige el inverso del multiplicador del certificado (§6), unifica envío y recepción del reparto inicial con la tabla (§7), amplía plazo y cap de eventos para esos cargos, y reemplaza el control dependiente del veredicto por una apuesta persistente que usa únicamente recibos técnicos (§§7,9,10). Añade el rango h≤1 en la frontera conjunta. Las cotas y sus formas se conservan; los umbrales absolutos se desplazan con el nuevo C_0. Informe: [auditoría y continuidad](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md). El protocolo de extensión matemática a tecnologías es la fase siguiente, todavía pendiente. Revisión propia; M16 no se cierra.
 
 
-<!-- R01_BOT_WORKPLAN_START: canonical-mathematical-validation -->
-## 16. Mantenimiento de la referencia canónica
-
-
-| Obligación | Estado y criterio |
-|---|---|
-| Fuente única del enunciado y espacios | Este documento v0.2; modificarlo mediante cambios puntuales con auditoría, sin crear una formulación paralela. |
-| Coherencia con R01 | Enlaces desde escenario §1.2, explicación inicial y ambos README; métricas, umbrales y cap físico concordantes. |
-| Revisiones recibidas | Reconocidas; registrar qué versión y proposición cubre cada una antes de declarar pendientes adicionales. |
-| M16 / M17 | Cobertura independiente completa no verificada / fidelidad independiente en desarrollo; no invalidar la evidencia recibida ni inventar cierre. |
-| Próxima fase | Protocolo separado de extensión matemática a tecnologías; no incorpora aquí una aplicación tecnológica. |
-| Conservación | Conservar antecedentes, fixtures, resultados y exports; indicar que exports previos son anteriores a esta actualización de navegación. |
-<!-- R01_BOT_WORKPLAN_END: canonical-mathematical-validation -->
+<!-- R01_BOT_WORKPLAN_START version="0.4" role="queue-pointer" -->
+La cola vigente está en [WORKPLAN.md](./WORKPLAN.md). Este documento aporta evidencia o criterios de su alcance; no mantiene una segunda cola. Escalación humana y whispering es la primera tecnología del protocolo; las revisiones repetidas se incorporan a cada ficha. La revisión independiente, fidelidad e integridad conservan sus obligaciones abiertas. El bloque anterior está preservado en QUEUE_SNAPSHOT_2026-10-04.json.
+<!-- R01_BOT_WORKPLAN_END -->
 
 
 ## Precisión posterior de auditoría y continuación por mecanismos
