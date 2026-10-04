@@ -14,6 +14,7 @@ from pathlib import Path
 
 from harness import assert_oracle_blind, load_json, run_case
 from tool_broker import R01ToolBroker
+from interactive_harness import run_interactive_case
 
 HERE = Path(__file__).resolve().parent
 
@@ -212,8 +213,48 @@ def main() -> None:
 
     tool_broker_control = run_tool_broker_controls()
 
+    # End-to-end interactive adapter -> broker -> sealed trace -> private oracle.
+    interactive_case = load_json(HERE / "fixtures/stage0/interactive_case.json")
+    interactive_profile = load_json(HERE / "fixtures/stage0/interactive_tool_profile.json")
+    interactive_sidecar = adapter_sidecar(
+        sidecar,
+        adapter_id="R01-SELFTEST-INTERACTIVE-REVIEW",
+        adapter_path="adapters/interactive_selftest_adapter.py",
+    )
+    interactive_sidecar["r01"]["adapter"]["required_capabilities"] = [
+        "explore", "inspect_relation", "query_mandate", "decide", "execute", "stop"
+    ]
+    interactive = run_interactive_case(
+        interactive_case,
+        interactive_sidecar,
+        interactive_profile,
+        HERE / interactive_sidecar["r01"]["adapter"]["path"],
+    )
+    interactive_eval = interactive.get("post_run_evaluation", {})
+    if interactive_eval.get("status") != "PASS":
+        raise AssertionError(f"interactive broker path did not pass: {interactive_eval}")
+    if interactive["candidate"]["selected_trajectory_id"] != "cand-01":
+        raise AssertionError("interactive adapter did not reject the visible incompatible candidate")
+    if interactive["candidate"]["resource_usage"]["operational_cost"] != 9:
+        raise AssertionError("interactive broker authoritative cost mismatch")
+    if interactive["candidate"]["resource_usage"]["latency_steps"] != 7:
+        raise AssertionError("interactive broker authoritative latency mismatch")
+    assert_oracle_blind(interactive["public_tool_trace"])
+
+    interactive_replay = run_interactive_case(
+        interactive_case,
+        interactive_sidecar,
+        interactive_profile,
+        HERE / interactive_sidecar["r01"]["adapter"]["path"],
+    )
+    if (
+        interactive["candidate_trace_sha256_before_oracle"]
+        != interactive_replay["candidate_trace_sha256_before_oracle"]
+    ):
+        raise AssertionError("interactive deterministic replay hash changed")
+
     summary = {
-        "instrument": "R01-C02-neutral-harness-0.2",
+        "instrument": "R01-C02-neutral-harness-0.3",
         "result": "SELFTEST_PASS",
         "vectors": [
             {"test_vector_id": vector_id, "status": first[vector_id]["status"]}
@@ -229,6 +270,8 @@ def main() -> None:
             "malformed_record_isolation": "PASS",
             "always_abstain_not_success": "PASS",
             "tool_broker_visibility_accounting": tool_broker_control,
+            "interactive_adapter_broker_oracle_path": "PASS",
+            "interactive_adapter_replay_hash": "PASS",
         },
         "claim": "instrumentation self-test only; no real technology executed",
     }
