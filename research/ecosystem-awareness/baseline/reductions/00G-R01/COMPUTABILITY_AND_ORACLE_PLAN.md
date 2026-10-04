@@ -1,6 +1,6 @@
 # R01 — Computability, bounded execution and oracle work plan
 
-Research work plan v0.2 · 4 October 2026 · Limited design draft; implementation and real-technology execution pending
+Research work plan v0.3 · 4 October 2026 · Limited C02 implementation draft; real-technology execution pending
 
 [Start at R01](./README.md#bot-start-here) · [Mathematical feasibility](./MATHEMATICAL_FEASIBILITY.md) · [Technology integration tasks](./extensions/hugging-face/REMAINING_TASKS.txt)
 
@@ -24,6 +24,22 @@ The limits are deliberately strict:
 - no product or architecture receives oracle truth, hidden I/P labels, the admissible optimum or expected outputs during its run;
 - no EA advantage, technology failure rate, production latency or scalability claim follows from this document;
 - where an exact reference cannot be established inside the declared bounded domain, the evaluator must return an unresolved status rather than manufacture ground truth.
+
+## First implementation slice
+
+The first neutral instrument now lives at [`oracle/`](./oracle/README.md). It implements the smallest executable slice of the design without changing the frozen C3 package:
+
+- a UC-4-first interoperability profile and R01-private sidecar schema;
+- a versioned technology-neutral adapter contract;
+- Canonical Trace v1 reuse from the existing RS-00E-Q1a harness;
+- two separately coded exact reference paths over the first finite trajectory representation;
+- oracle-blind candidate invocation and candidate-trace sealing before reference evaluation;
+- separate candidate-operational and evaluator/oracle accounting;
+- four author-constructed Stage-0 vectors: positive, connector boundary, rejection and tied optima;
+- an instrumentation-only self-test adapter and `verify.py`;
+- CI invocation through `.github/workflows/r01-audit-v2.yml`.
+
+This is **not C02 completion**. The current second reference path is a separate implementation by the same maintainer, not independent external validation. The UC-4 bridge is `R01-BRIDGE-DRAFT` until Nelson reviews/corrects the mapping, and the exact upstream UC-4 schema package has not been vendored into this repository. C11/T03 remain blocked.
 
 ## Reuse-first strategy
 
