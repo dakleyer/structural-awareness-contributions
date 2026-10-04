@@ -1,0 +1,90 @@
+{
+  "status": "TEMPLATE_NOT_A_REGISTERED_RUN",
+  "schema": "R01-C02-T03-REGISTRATION-0.1",
+  "uc4": {
+    "use_case": "FG-TIDA/use-cases#4",
+    "experiment_schema_version": null,
+    "experiment_id": null,
+    "test_vector_ids": [],
+    "source_contributor_review": "PENDING",
+    "schema_validation": "PENDING"
+  },
+  "r01": {
+    "scenario_commit": null,
+    "oracle_commit": null,
+    "sidecar_schema_version": "R01-UC4-SIDECAR-0.1",
+    "sidecar_hash": null,
+    "world_bundle_hash": null,
+    "tool_profile_hash": null,
+    "gate_policy_hash": null,
+    "expected_outcomes_hash": null
+  },
+  "technology": {
+    "name": null,
+    "implementation_kind": null,
+    "product_or_project_version": null,
+    "model_or_runtime_version": null,
+    "sdk_or_api_version": null,
+    "source_contract_version": null,
+    "access_confirmed": false
+  },
+  "adapter": {
+    "adapter_id": null,
+    "adapter_version": null,
+    "interaction_mode": null,
+    "adapter_hash": null,
+    "required_capabilities": [],
+    "declared_permissions": [],
+    "native_to_r01_mapping_hash": null,
+    "raw_native_trace_retained": null
+  },
+  "execution": {
+    "physical_budget_R": null,
+    "economic_cost_target_b": null,
+    "deadline_T": null,
+    "epsilon": null,
+    "episode_count": null,
+    "cell_or_vector_order": null,
+    "state_reset_policy": null,
+    "cache_and_memory_policy": null,
+    "seed_policy": null,
+    "external_sources_allowed": [],
+    "human_participation": null,
+    "stopping_rule": "complete all registered vectors/episodes; retain every outcome",
+    "retry_policy": null
+  },
+  "trace_and_blinding": {
+    "canonical_trace_version": "CTv1",
+    "candidate_trace_sealed_before_oracle": true,
+    "forbidden_candidate_inputs": [
+      "private_world",
+      "reference_truth",
+      "expected_outcome",
+      "optimum_J",
+      "hidden_I_P_labels"
+    ],
+    "recorder_hash": null,
+    "oracle_blindness_selftest": "PENDING",
+    "deterministic_replay_required_when_applicable": true
+  },
+  "accounting": {
+    "candidate_operational_cost_separate": true,
+    "candidate_coordination_counted_once": true,
+    "oracle_evaluator_cost_separate": true,
+    "infrastructure_cost_reported_separately": true
+  },
+  "analysis": {
+    "primary_comparator": null,
+    "comparison_scope": null,
+    "rate_or_superiority_claims_allowed": false,
+    "statistical_plan_hash": null,
+    "inconclusive_outcomes_retained": true,
+    "negative_results_retained": true
+  },
+  "reviews": {
+    "technical": "PENDING",
+    "preparer": "PENDING",
+    "source_contributor": "PENDING",
+    "independent_oracle_method": "PENDING"
+  }
+}
