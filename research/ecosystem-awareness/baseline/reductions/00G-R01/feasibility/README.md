@@ -55,3 +55,17 @@ Las afirmaciones tecnológicas ya escritas permanecen en el archivo anterior par
 
 **Referencia canónica — estado posterior:** [Documento independiente v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md), única referencia matemática vigente; antecedentes conservados y enlaces desde R01 verificados.
 
+
+
+## Continuación verificada: revisión de extensiones y tecnologías por mecanismos
+
+4 de octubre de 2026. Se verificó el cierre publicado del núcleo v0.2 y se completó la revisión propia de coherencia de las tres extensiones. Se conserva el cuerpo anterior de este README.
+
+| Trabajo actual | Evidencia y alcance |
+|---|---|
+| Núcleo matemático | [Teorema único](./R01_CONDITIONED_TRILEMMA_THEOREM.md); corte observable explicitado y presupuesto global precisado, sin cambiar fronteras. |
+| Tres extensiones existentes | [Revisión de coherencia](./EXTENSION_CONSISTENCY_REVIEW.md); alcances conservados y discrepancias heredadas de hashes registradas, sin ejecutar checkers. |
+| Extensión tecnológica ordenada | [Protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md): primero núcleo isomórfico, luego mecanismos adicionales y pruebas de aceptación/persistencia. |
+| Escalación humana y whispering | [Primera ficha matemática](./HUMAN_ESCALATION_WHISPERING.md): cota con información compartida, frontera de alerta suficiente y controles; coste y plazo condicionados. |
+| Validación pendiente | M16 OPEN, M17 IN_PROGRESS; P08 conserva las discrepancias documentales; integración, arnés y campaña sin ejecutar. |
+| Estado | 55 tareas: 4 DONE históricas, 8 IN_PROGRESS, 43 OPEN. M13 pasa a IN_PROGRESS por desarrollo matemático; ninguna tarea científica cerrada. |

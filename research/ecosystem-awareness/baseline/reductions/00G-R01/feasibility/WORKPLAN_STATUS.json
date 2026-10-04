@@ -1,15 +1,15 @@
 {
-  "version": "0.8",
+  "version": "0.9",
   "input_commit": "2d299250a1e9d8103757f3841c73fdb01db82598",
-  "actual_utc": "2026-10-04T12:04:42.111566+00:00",
+  "actual_utc": "2026-10-04T12:55:19.499Z",
   "plan_editor": "Codex, on user instruction",
   "scientific_tasks_closed_by_this_revision": [],
-  "current_order": "target and pure mathematics -> symbolic review and R01 bridge -> neutral oracle/harness before new finite experiments -> technology classes -> registered campaigns -> selector",
+  "current_order": "canonical mathematics and own audit -> extension consistency review -> technology mathematics by isomorphic and additional mechanisms -> neutral oracle/harness -> real adapters and registered campaigns",
   "task_count": 55,
   "counts": {
     "DONE": 4,
-    "IN_PROGRESS": 7,
-    "OPEN": 44,
+    "IN_PROGRESS": 8,
+    "OPEN": 43,
     "BLOCKED": 0
   },
   "original_task_IDs_preserved": 49,
@@ -101,7 +101,8 @@
       ],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Revisar correspondencia con R01, 00M/00N, E1–E7 y extensiones; separar escenario, tecnología e incidente histórico.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "latest_own_review": "EXTENSION_CONSISTENCY_REVIEW.md; historical versus constructed and finite scope reviewed, no final admission closed"
     },
     "M08": {
       "status": "OPEN",
@@ -169,7 +170,7 @@
       "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
     },
     "M13": {
-      "status": "OPEN",
+      "status": "IN_PROGRESS",
       "priority": "P1",
       "dependencies_for_final_closure": [
         "M03",
@@ -182,7 +183,12 @@
       "criterion_in_master": "Teoremas sobre clases tecnológicas y coste completo. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
       "historical_evidence_retained": false,
       "new_acceptance": "Clasificar interfaces de coordenadas, predicados/certificados globales y ejecutores/barreras; definir simulación observable y cargos que justifican heredar una cota. Para cada clase: hipótesis, coste productor/uso, cota inferior, control superior o límite abierto, cambio de kernel y eliminación absoluta/relativa o solo del riesgo. Comparar f(n(L))/C0(L); conservar casos que empeoran. Un nombre comercial, coste positivo o tamaño de salida no establece pertenencia ni persistencia.",
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "current_evidence": [
+        "TECHNOLOGY_EXTENSION_PROTOCOL.md",
+        "HUMAN_ESCALATION_WHISPERING.md"
+      ],
+      "remaining": "Independent reconstruction of H0/H1, real mechanism membership and full producer/time ledger; no integration or campaign executed."
     },
     "M14": {
       "status": "OPEN",
@@ -253,7 +259,8 @@
       "current_evidence": "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md: correct transfer proposition, metric/budget matrix, all-policy M02 theorem and complete G family with shared binding and paid technical prior; R01_AUDIT_CONTINUITY_AND_REPAIRS.md preserves and reconstructs the existing theorem against the source and earlier audits",
       "remaining": "Independent reconstruction of source fidelity, all operations, producers, paid initial context, local/normative scopes, cost caps and posterior proof; optional extensions have their own bounds",
       "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
-      "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
+      "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed",
+      "latest_own_review": "EXTENSION_CONSISTENCY_REVIEW.md; all-policy simulation direction and effective-configuration scope reviewed"
     },
     "C01": {
       "status": "OPEN",
@@ -479,7 +486,8 @@
       "dependencies_for_final_closure": [],
       "owner": "UNASSIGNED",
       "criterion_in_master": "Diagnosticar integridad al inicio y reparar con sucesor explícito; conservar historia y verificar navegación/contenido.",
-      "historical_evidence_retained": false
+      "historical_evidence_retained": false,
+      "additional_pending": "Current README hashes differ from historical extension manifests and common audit; preserve snapshots, implement version-aware documentary validation before announcing current joint reproduction."
     },
     "P09": {
       "status": "OPEN",
@@ -659,9 +667,9 @@
   "dependency_semantics": "final-closure dependencies; preparation and early source/attack work may begin before them. T06 behavioral closure is separate from universal transfer, which additionally requires M13/M17/M16. C11 starts with resource contract, freezes statistics before campaign. M16 audits included M13–M15 claims separately without a cyclic dependency.",
   "source_artifacts": "M01/M02/M10/TRILEMMA historical evidence and base scenario unchanged; theorem doc receives status notice only",
   "next_delivery": [
-    "Before M13: terminology/concept/visual and extension-proof consistency review of Hugging Face, Infoblox/DNS and family under existing M17/M07/P08; not yet performed",
-    "Independent reconstruction M16 and source-fidelity review M17 of the existing R01 theorem v0.2",
-    "Separate mathematical technology-extension protocol after core delivery; no applied technology yet"
+    "Reconstruct H0/H1 and qualify each actual mechanism by E1–E7 and full costs before claiming integration",
+    "Prepare C01–C05 evaluation oracle/harness; no new scientific executions before neutral contract",
+    "Retain M16/M17 remaining coverage and P08 historical hash discrepancies; do not overwrite original manifests"
   ],
   "independent_review": false,
   "mathematical_results_changed": false,
@@ -764,7 +772,7 @@
     "CONDITIONED_TRILEMMA.md",
     "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md"
   ],
-  "previous_documentary_utc": "2026-10-04T09:38:29.902387+00:00",
+  "previous_documentary_utc": "2026-10-04T12:04:42.111566+00:00",
   "scenario_vocabulary_revision": {
     "input_commit": "872a78df2d8ac6e7450cc8b85cc3174c981b7bc3",
     "main_document": "../Escenario-creatividad-validacion.md",
@@ -776,7 +784,7 @@
     "proofs_and_equations_changed": false,
     "new_scientific_tasks_closed": [],
     "pending_extension_consistency_review": {
-      "status": "OPEN",
+      "status": "OWN_REVIEW_COMPLETED",
       "before": "continue M13 technology-extension protocol",
       "tracked_under": [
         "M17",
@@ -802,12 +810,24 @@
         "existing results and controls",
         "admission and review statuses",
         "historical manifests and inherited P08 discrepancies"
-      ]
+      ],
+      "evidence": "EXTENSION_CONSISTENCY_REVIEW.md",
+      "independent_validation": false
     },
     "readmes_verified": [
       "../README.md",
       "README.md"
     ],
     "canonical_validation_structure_preserved": true
+  },
+  "latest_input_commit": "a19c3d81e904b74b28dd48f4bdf68fac91759524",
+  "technology_mechanism_development": {
+    "protocol": "TECHNOLOGY_EXTENSION_PROTOCOL.md",
+    "first_case": "HUMAN_ESCALATION_WHISPERING.md",
+    "order": "isomorphic kernel -> parameter changes -> additional mechanisms -> all-policy bound and acceptance controls -> residual proof if justified -> harness -> campaign",
+    "own_symbolic_review": true,
+    "commercial_integration": false,
+    "human_calibration": false,
+    "new_scientific_executions": 0
   }
 }

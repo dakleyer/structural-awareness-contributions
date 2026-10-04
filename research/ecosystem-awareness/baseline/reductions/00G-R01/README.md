@@ -197,3 +197,17 @@ El estudio se reúne en una subcarpeta propia de R01. Los borradores y diagnóst
 | Próxima fase | Protocolo de extensión matemática a tecnologías, separado del núcleo; aún pendiente. |
 
 **Referencia canónica — estado documental posterior:** [Trilema R01 v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md), documento independiente con enunciado y pruebas conservados. [Explicación enlazada](./Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation). Umbrales b, δ y p explícitos; validación propia y revisiones externas reconocidas, cobertura restante delimitada.
+
+
+## Continuación verificada: revisión de extensiones y tecnologías por mecanismos
+
+4 de octubre de 2026. Se verificó el cierre publicado del núcleo v0.2 y se completó la revisión propia de coherencia de las tres extensiones. Se conserva el cuerpo anterior de este README.
+
+| Trabajo actual | Evidencia y alcance |
+|---|---|
+| Núcleo matemático | [Teorema único](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md); corte observable explicitado y presupuesto global precisado, sin cambiar fronteras. |
+| Tres extensiones existentes | [Revisión de coherencia](./feasibility/EXTENSION_CONSISTENCY_REVIEW.md); alcances conservados y discrepancias heredadas de hashes registradas, sin ejecutar checkers. |
+| Extensión tecnológica ordenada | [Protocolo](./feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md): primero núcleo isomórfico, luego mecanismos adicionales y pruebas de aceptación/persistencia. |
+| Escalación humana y whispering | [Primera ficha matemática](./feasibility/HUMAN_ESCALATION_WHISPERING.md): cota con información compartida, frontera de alerta suficiente y controles; coste y plazo condicionados. |
+| Validación pendiente | M16 OPEN, M17 IN_PROGRESS; P08 conserva las discrepancias documentales; integración, arnés y campaña sin ejecutar. |
+| Estado | 55 tareas: 4 DONE históricas, 8 IN_PROGRESS, 43 OPEN. M13 pasa a IN_PROGRESS por desarrollo matemático; ninguna tarea científica cerrada. |

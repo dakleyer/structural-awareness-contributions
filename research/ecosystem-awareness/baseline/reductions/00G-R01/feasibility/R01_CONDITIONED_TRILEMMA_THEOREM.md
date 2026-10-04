@@ -161,7 +161,7 @@ Si existe una estrategia barata de riesgo cero, el programa es factible para δ�
 
 Las siguientes condiciones se verifican sobre la historia completa, incluyendo el grupo y toda evidencia adquirida. No bastan dos observaciones locales aisladas.
 
-I1. Hay un primer efecto crítico τ. Toda entrega H de calidad suficiente incluye ese efecto. Una decisión incorrecta allí ejecuta una infracción y V permanece registrado. Abstenerse antes de τ no alcanza H.
+I1. Hay un primer efecto crítico τ, cuyo inicio se determina por el historial observable y la acción seleccionada antes de conocer su efecto. El evento «τ todavía no resuelto» también se determina desde esa información; no puede seleccionarse retrospectivamente por el mundo oculto o el éxito futuro. Toda entrega H de calidad suficiente incluye ese efecto. Una decisión incorrecta allí ejecuta una infracción y V permanece registrado. Abstenerse antes de τ no alcanza H.
 
 I2. Toda traza con H y C_traza≤b llega a τ con información todavía insuficiente para resolver su alternativa. Resolverla antes de τ, incluyendo producción y toda preparación necesaria para esa entrega, hace superar b. Las consultas suficientes están permitidas: su coste es lo que las sitúa fuera del objetivo barato.
 
@@ -173,7 +173,7 @@ $$
 s\le au\le a,\qquad r\ge(1−a)u,\qquad r\ge λs,\qquad r\ge(1−a)η.
 $$
 
-**Prueba.** Por I2, una entrega barata tiene τ no resuelto. El éxito legítimo requiere que τ sea correcto; por I3, su probabilidad no supera au. Una decisión incorrecta en U ocurre con probabilidad al menos (1−a)u y por I1 está contenida en V. Dividir las dos cotas da r≥λs. La entrega técnica barata está contenida en U, de modo que η≤u y r≥(1−a)η. Las historias sin τ, los fallos tardíos y las paradas solo pueden reducir s; las infracciones adicionales solo pueden aumentar r. ∎
+**Prueba.** Sea G_t el historial colectivo anterior al efecto, incluida la acción seleccionada y las semillas ya usadas. Los eventos U_t={τ=t y todavía no resuelto} son disjuntos y G_t-medibles. Si A_t indica que la elección es correcta, I3 establece P(A_t|G_t)≤a en U_t. Así P(U_t∩A_t)=E[1_{U_t}P(A_t|G_t)]≤aP(U_t). Sumando, con u=Σ_tP(U_t), el éxito barato satisface s≤au y las elecciones incorrectas, contenidas en V por I1, dan r≥(1−a)u. Por I2, una entrega barata tiene τ no resuelto. El éxito legítimo requiere que τ sea correcto; por I3, su probabilidad no supera au. Una decisión incorrecta en U ocurre con probabilidad al menos (1−a)u y por I1 está contenida en V. Dividir las dos cotas da r≥λs. La entrega técnica barata está contenida en U, de modo que η≤u y r≥(1−a)η. Las historias sin τ, los fallos tardíos y las paradas solo pueden reducir s; las infracciones adicionales solo pueden aumentar r. ∎
 
 Para conectar con §5, usar el multiplicador μ=1/λ=a/(1−a), no λ: r≥λs implica s−μr≤0 y A_{θ,b}(μ)≤0. Si δ<λp, entonces p−μδ>0 y la proposición 1 prueba la imposibilidad triple. El coeficiente de r≥λs y el multiplicador del certificado son recíprocos. Esta prueba cubre cualquier configuración R01 con I1–I3, cualquiera que sea la razón física de la información faltante: hechos independientes, una dependencia global, datos compartidos o una búsqueda de evidencia.
 
@@ -232,7 +232,7 @@ Las L comprobaciones locales se refieren a ámbitos sucesivos; no son K relectur
 
 Fijar B=C_0+K y T suficientemente grande, por ejemplo T=5L+K+2N+4. Los controles necesitan a lo sumo la preparación, K lecturas, 3L gates y stop; ese T los cubre. Si el manifiesto requiere un cap de eventos, usar H_cap=5L+K+2N+4. No se mantiene un H histórico constante cuando crece el tamaño.
 
-Para completar los parámetros de §2.13: usar presupuesto global compartido, sin aumentar B al añadir agentes; reservar 2+2(N−1)+2L para preparación administrativa, reparto inicial y decisiones/efectos; el restante discrecional es 5L+K, con v=(L+K)/(5L+K) para revisión y 1−v para descubrimiento. Se permiten transferencias entre partidas siempre bajo B y con el ledger íntegro; comunicación adicional también consume ese presupuesto. La red es completa con latencias declaradas arriba, radio R_e=2 y posiciones ±1; la información técnica inicial es memoria legítima, no búsqueda gratuita durante la campaña. La unidad de revisión local es la relación material con sus extremos/conector, a precio 1; las K relaciones normativas son otros ámbitos. Versiones y mandato son estáticos. Los empates se resuelven por cada política y la moneda de los controles es independiente de los mundos. No hay per-agent cuotas que impidan al agente del control ejecutar la tarea; otros regímenes de reparto son otras θ del dominio.
+Para completar los parámetros de §2.13: usar un único presupuesto global compartido B=C_0(L,N)+K, sin añadir cuotas B por agente; ese B incluye el reparto inicial dependiente de N y no permanece constante al comparar poblaciones distintas; reservar 2+2(N−1)+2L para preparación administrativa, reparto inicial y decisiones/efectos; el restante discrecional es 5L+K, con v=(L+K)/(5L+K) para revisión y 1−v para descubrimiento. Se permiten transferencias entre partidas siempre bajo B y con el ledger íntegro; comunicación adicional también consume ese presupuesto. La red es completa con latencias declaradas arriba, radio R_e=2 y posiciones ±1; la información técnica inicial es memoria legítima, no búsqueda gratuita durante la campaña. La unidad de revisión local es la relación material con sus extremos/conector, a precio 1; las K relaciones normativas son otros ámbitos. Versiones y mandato son estáticos. Los empates se resuelven por cada política y la moneda de los controles es independiente de los mundos. No hay per-agent cuotas que impidan al agente del control ejecutar la tarea; otros regímenes de reparto son otras θ del dominio.
 
 ## 8. Ausencia de filtraciones y cota para todas las políticas
 
@@ -370,3 +370,8 @@ La v0.2 corrige el inverso del multiplicador del certificado (§6), unifica env�
 | Próxima fase | Protocolo separado de extensión matemática a tecnologías; no incorpora aquí una aplicación tecnológica. |
 | Conservación | Conservar antecedentes, fixtures, resultados y exports; indicar que exports previos son anteriores a esta actualización de navegación. |
 <!-- R01_BOT_WORKPLAN_END: canonical-mathematical-validation -->
+
+
+## Precisión posterior de auditoría y continuación por mecanismos
+
+4 de octubre de 2026. Se explicita la medibilidad anterior al efecto del corte de §6 y que B=C_0(L,N)+K incluye el cargo inicial dependiente de N; no cambia ninguna frontera. [Revisión de coherencia de las tres extensiones](./EXTENSION_CONSISTENCY_REVIEW.md). La continuación tecnológica se rige por el [protocolo separado](./TECHNOLOGY_EXTENSION_PROTOCOL.md), primero correspondencia isomórfica y después mecanismos adicionales. [Escalación humana con whispering](./HUMAN_ESCALATION_WHISPERING.md) desarrolla contratos condicionados de aviso y control; no es una integración ni campaña ejecutada. La prueba base, las revisiones recibidas y M16/M17 conservan su alcance.

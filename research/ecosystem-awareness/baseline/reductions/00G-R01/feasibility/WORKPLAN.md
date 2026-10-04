@@ -144,3 +144,19 @@ Por instrucción del usuario, la explicación inicial y el gráfico del [R01 exi
 **Pendiente, bajo M17/M07 y P08, antes de continuar con M13:** revisar la coherencia de terminología, conceptos, explicación, tablas, gráficos y pruebas de extensión en los tres documentos existentes: [Hugging Face](../extensions/hugging-face/README.md), [Infoblox/DNS](../extensions/infoblox/README.md) y [familia de otros modos de fallo](../extensions/family/README.md). Incluir sus notas matemáticas, criterios, código/checkers, guías de reproducción y alcance declarado. Conservar la separación entre incidentes históricos, escenarios construidos y evidencia efectivamente demostrada o ejecutada. Cambiar nombres únicamente cuando sea necesario; no alterar información, supuestos, resultados, controles ni estados de admisión por una actualización de vocabulario. Los manifiestos históricos y los fallos de verificación heredados de P08 se conservan para su tratamiento explícito, sin sobrescribirlos.
 
 La revisión aún no está realizada ni cerrada. Este seguimiento no crea otro escenario, otra prueba o una tarea científica nueva: se registra dentro de los IDs existentes. Las 55 tareas y sus estados permanecen sin cambios. El protocolo tecnológico sigue siendo una entrega separada posterior a esta revisión terminológica.
+
+
+## Estado vigente: revisión completada y extensión por mecanismos
+
+La revisión previa registrada arriba se ha completado en su alcance propio: [dictamen](./EXTENSION_CONSISTENCY_REVIEW.md). Se conserva el estado histórico de las tablas anteriores. M16 y M17 no se cierran. La reproducción documental de la edición vigente conserva las discrepancias heredadas de P08.
+
+M13 pasa de OPEN a IN_PROGRESS por el [protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md) y la [primera ficha humana](./HUMAN_ESCALATION_WHISPERING.md). Estado actual: **55 tareas, 4 DONE históricas, 8 IN_PROGRESS y 43 OPEN**. Ningún ID ni criterio histórico se elimina.
+
+| Orden siguiente | Obligación |
+|---|---|
+| 1. Revisión de los contratos humanos | Reconstruir H0/H1, coste productor, posterior sin alerta, controles y plazo; pertenencia real aún no demostrada. |
+| 2. Mecanismo tecnológico siguiente | Tabla E1–E7 primero; luego información, barrera o cambio de parámetros adicional. No dispersar implementaciones ni campañas. |
+| 3. C01–C05 | Oráculo de evaluación privado y arnés neutral antes de ejecutar nuevas corroboraciones; preparar casos límite de avisos. |
+| 4. Adaptador y campaña | Solo después del contrato, medidas y comparadores registrados. No se declara calibración humana ni ejecución de frameworks. |
+
+La fórmula H1 recupera escenarios cuando coste y latencia caben, conserva una región residual para q<1 en ese contrato y admite resolución para q=1. No se presupone persistencia para toda tecnología. El material recibido queda archivado sin nuevas ejecuciones.

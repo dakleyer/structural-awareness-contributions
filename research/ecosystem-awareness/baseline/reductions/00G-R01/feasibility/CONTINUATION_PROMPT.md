@@ -65,3 +65,16 @@ La designación canónica es documental. Validación propia completada y revisio
 Continuar sobre el mismo R01 enlazado desde UC21, no crear otra versión explicativa dispersa. Problema más tecnología define un escenario operativo θ. Estrategia de ejecución π nombra la política ejecutable ya admitida en Π(θ), sin ampliar capacidades ni alterar parámetros libremente. Su desempeño (c(π),r(π),s(π)) se evalúa con políticas de aceptación separadas (b,δ,p); c es techo por ejecución, r/s probabilidades. Distinguir una estrategia fuera de la zona aceptada de una imposibilidad demostrada para todas las estrategias del escenario. La validación matemática mantiene las definiciones y pruebas existentes; el vocabulario práctico es una correspondencia explicativa.
 
 Antes de continuar con el protocolo, ejecutar la revisión pendiente de las tres extensiones —Hugging Face, Infoblox/DNS y familia— registrada al final de WORKPLAN.md y en WORKPLAN_STATUS.json bajo M17/M07/P08. Cubrir sus explicaciones, inventarios, gráficos, criterios, pruebas y checkers, conservando información y alcance. No dar por hecha esa revisión ni sustituir sus pruebas con el gráfico conceptual. Las tareas y estados se mantienen.
+
+
+## Continuación vigente: revisión realizada y estudio mecanismo por mecanismo
+
+La revisión terminológica/conceptual anterior ya se ha realizado como revisión propia en EXTENSION_CONSISTENCY_REVIEW.md. No repetirla como si siguiera pendiente. El núcleo v0.2 conserva su formulación; se explicitan evento crítico observable anterior al efecto y presupuesto B=C_0(L,N)+K dependiente de N.
+
+Seguir TECHNOLOGY_EXTENSION_PROTOCOL.md. Para cada tecnología identificar primero el núcleo isomórfico mediante E1–E7 respecto de θ*, separar cambios de parámetros y enumerar mecanismos no isomórficos. Estudiar cada uno antes de su composición. Usar escenarios, zona aceptada y zona no aceptada; una estrategia fallida no demuestra imposibilidad all-policy.
+
+La primera aplicación matemática es HUMAN_ESCALATION_WHISPERING.md. H0 conserva la cota con procesamiento de evidencia ya adquirida. H1 deriva una frontera exacta para alertas fiables previas con tasa q, cargo completo h e información adicional fuera del techo: posterior tras ausencia de alerta cambia, no se reutiliza a sin Bayes. El resultado exige esa ley para todos los historiales, incluida lectura parcial adicional. Para q<1 construir región residual y controles por pares; q=1 puede resolver este perfil. No atribuir q/h a un producto o personas sin implementación y medición. No inferir lectura lineal por una salida de un bit.
+
+No ejecutar diagnósticos científicos antes del arnés neutral. Distinguir oráculo privado de evaluación de un oráculo resolutivo ofrecido al agente. Conservar scripts, resultados, escenario, exports, figuras, hashes históricos y cuerpos de README. P08 debe tratar los manifiestos heredados que ya no coinciden con README actuales; no regenerarlos para fabricar PASS.
+
+55 tareas: 4 DONE históricas, 8 IN_PROGRESS, 43 OPEN; M13 en desarrollo, M16 OPEN, M17 IN_PROGRESS. La revisión propia de coherencia no cierra integración, independencia, causalidad o campaña.
