@@ -1,0 +1,19 @@
+{
+  "schema": "R01-C02-INTERACTIVE-CASE-0.1",
+  "test_vector_id": "R01-INTERACTIVE-BROKER-01",
+  "class": "positive_with_visible_rejection",
+  "participant_view": {
+    "task_id": "same-mission-improvement",
+    "mandate_id": "mission",
+    "candidate_handles": [
+      {"candidate_id": "cand-01", "relation_id": "rel-01"},
+      {"candidate_id": "cand-02", "relation_id": "rel-02"}
+    ]
+  },
+  "private_world": {
+    "trajectories": [
+      {"trajectory_id": "cand-01", "steps": [{"benefit": 6, "admissible": true}]},
+      {"trajectory_id": "cand-02", "steps": [{"benefit": 9, "admissible": false}]}
+    ]
+  }
+}
