@@ -169,3 +169,8 @@ El plan conserva ambas interpretaciones: firmas de resultados y regiones de posi
 | Algunas tecnologías lo reducen o eliminan | Derivaciones y material históricos conservados | Revisión posterior de sus contratos; no forman parte de esta prueba base. |
 
 La familia W y sus fronteras anteriores se conservan en [el borrador F/W](./previous-work/M03_M04_TRILEMMA_THEOREMS.md). Su revisión es una segunda obligación matemática; no se incorpora automáticamente al teorema de R01 por añadir relaciones densas. Los [diagnósticos parciales](./partial-experiments/README.md) no cierran ninguna de las obligaciones universales, de independencia o de transferencia.
+
+
+## Manuscrito independiente del trilema condicionado
+
+La formulación anterior queda conservada. El [manuscrito independiente](./CONDITIONED_TRILEMMA.md) desarrolla el argumento sin requerir la lectura del repositorio: hipótesis, lema universal, necesidad y suficiencia, regiones, cuantificadores y medidas de eficacia. Amplía explícitamente F a hechos independientes con prior a en AVG; para WC mantiene q=2^{-m}. Incluye una familia con objetivo de éxito legítimo del 95 % en AVG, sin contar infracciones como éxito, y delimita cuándo ese resultado no se traslada a WC. [Revisión simbólica propia](./CONDITIONED_TRILEMMA_SELF_REVIEW.md); revisión independiente y puente a R01 pendientes. No cambia los fixtures ni los resultados históricos.

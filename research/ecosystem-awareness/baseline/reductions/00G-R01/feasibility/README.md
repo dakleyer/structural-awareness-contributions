@@ -25,3 +25,5 @@ Las afirmaciones tecnológicas ya escritas permanecen en el archivo anterior par
 | Regiones con un solo objetivo | Distinción formal entre resultados de una política y posibilidades de una configuración. | Precisar si se pide un resultado de política o imposibilidad de todos los pares; esta última no se deriva del modelo con abstención barata y segura. |
 | Oracle/harness | Especificación previa y diagnósticos conservados. | Implementación neutral, segundo método y auditoría de cobertura. |
 | Tecnologías | Material y derivaciones históricas archivados. | Reanudar después del alcance y los lemas de la prueba base. |
+| Manuscrito independiente | [Trilema condicionado](./CONDITIONED_TRILEMMA.md) | Prueba completa para ambas medidas de eficacia; frontera AVG para hechos sesgados y frontera WC; no vaciedad y controles. |
+| Revisión del manuscrito | [Auditoría simbólica propia](./CONDITIONED_TRILEMMA_SELF_REVIEW.md) | No sustituye M16. Criterios adversariales disponibles para un revisor externo. |

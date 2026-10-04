@@ -95,3 +95,10 @@ Los criterios y dependencias íntegros están en el registro JSON y en el master
 ## Continuación
 
 Usa el [prompt completo](./CONTINUATION_PROMPT.md). Para cada afirmación registra VALIDATED_IN_SCOPE, COUNTEREXAMPLE o GAP solo con evidencia correspondiente; no atribuyas independencia a una revisión propia. Toda creación futura de este estudio va dentro de `feasibility/`. Actualiza el cuadro final de los README conservando el contenido completo y publica enlaces fijados al mismo commit.
+
+
+## Manuscrito independiente — avance, 4 de octubre de 2026
+
+Se propone el nombre **Trilema condicionado de coste, riesgo y eficacia**. El [documento independiente](./CONDITIONED_TRILEMMA.md) contiene el contrato, cuantificadores, un lema para todas las políticas, fronteras exactas técnica/legítima, extensión AVG a hechos independientes sesgados, contraste WC y familias no vacías. La [revisión propia adversarial](./CONDITIONED_TRILEMMA_SELF_REVIEW.md) examina presupuesto de ramas fallidas, adaptación, aleatoriedad, recibos, independencia, igualdad y riesgo redundante. No se declara revisión externa, puente al R01 completo ni novedad; no se ejecutaron nuevos tests científicos. Estado de las 55 tareas sin cambios: 4 DONE históricas, 6 IN_PROGRESS, 45 OPEN.
+
+M12/M03/M04 deben usar este manuscrito como versión revisable, sin borrar sus criterios anteriores. M16 debe reconstruir el lema con a distinto de 1/2 y el uso de una ley uniforme auxiliar para WC, además de las familias por pares con σ. M17 sigue probando correspondencia con todas las políticas de R01. Antes de nuevos diagnósticos, C01–C05 conserva la obligación de un instrumento neutral. Las tecnologías permanecen después.

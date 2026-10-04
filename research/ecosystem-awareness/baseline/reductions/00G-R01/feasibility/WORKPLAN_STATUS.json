@@ -1,7 +1,7 @@
 {
-  "version": "0.4",
-  "input_commit": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
-  "actual_utc": "2026-10-04T07:29:33.481026+00:00",
+  "version": "0.5",
+  "input_commit": "3c9db8101d42ed9076d4f1b360fb88a2d82b9a87",
+  "actual_utc": "2026-10-04T07:50:30.034900+00:00",
   "plan_editor": "Codex, on user instruction",
   "scientific_tasks_closed_by_this_revision": [],
   "current_order": "target and pure mathematics -> symbolic review and R01 bridge -> neutral oracle/harness before new finite experiments -> technology classes -> registered campaigns -> selector",
@@ -50,7 +50,8 @@
       "criterion_in_master": "Derivar la información y recursos necesarios, cubriendo adaptación, aleatoriedad, memoria, certificados y colaboración de la clase afirmada. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./previous-work/M03_M04_TRILEMMA_THEOREMS.md).",
       "historical_evidence_retained": true,
       "reopening_reason": "expanded final objective; prior conditional F/W derivations retained, no counterexample asserted",
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "current_manuscript": "CONDITIONED_TRILEMMA.md"
     },
     "M04": {
       "status": "IN_PROGRESS",
@@ -63,7 +64,8 @@
       "criterion_in_master": "Demostrar o rechazar una región mediante desigualdades, fronteras y testigo de no vaciedad; conservar el intento fallido. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./previous-work/M03_M04_TRILEMMA_THEOREMS.md).",
       "historical_evidence_retained": true,
       "reopening_reason": "expanded final objective; prior conditional F/W derivations retained, no counterexample asserted",
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "current_manuscript": "CONDITIONED_TRILEMMA.md"
     },
     "M05": {
       "status": "OPEN",
@@ -156,7 +158,9 @@
       "new_acceptance": "Contrato versionado de parámetros independientes theta=(L,n,N,geometría,interfaz,prior,costes,datos previos,umbrales), políticas y resultados C/eta/rho/sigma. Separar AVG/WC, presupuesto por traza/esperado y trabajo/latencia. Fijar cuantificadores tecnología→familia→tamaño→política y los tres controles por pares, familias viables e inviables. Inventario de afirmaciones con hipótesis, lema, construcción y revisión requerida; separar tesis mínima de ampliaciones. No inferir dureza de L, N o distancia por sí solos.",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
       "current_evidence": "PURE_MATHEMATICAL_TRILEMMA.md: parameter inventory, quantified pair regions, exact F frontier and non-emptiness; independent review and R01 bridge remain open",
-      "remaining": "freeze final target and distinguish outcome signatures from exclusive configuration regions; audit proof assumptions and agree transfer scope"
+      "remaining": "freeze final target and distinguish outcome signatures from exclusive configuration regions; audit proof assumptions and agree transfer scope",
+      "current_manuscript": "CONDITIONED_TRILEMMA.md",
+      "additional_current_evidence": "Self-contained contract, exact AVG biased-prior and WC frontiers for technical efficacy and legitimate success, all-pair families and non-empty viable families; own symbolic review, no independent validation"
     },
     "M13": {
       "status": "OPEN",
@@ -218,7 +222,8 @@
       "historical_evidence_retained": false,
       "new_acceptance": "Revisor distinto del autor y no asignado ficticiamente: reconstruir F1–F4, W1–W5, G1, T1/T2 y cuantificadores, cubriendo políticas omitidas, normalización, presupuesto en ramas fallidas, abstención, igualdad y controles conocidos. Dictamen por afirmación: VALIDATED_IN_SCOPE, COUNTEREXAMPLE o GAP; M13–M15 se revisan separadamente si se incluyen. No basta ejecutar el script del autor. Considerar formalización de los lemas críticos si aporta cobertura; un intento incompleto no es prueba formal. Revisión propia puede continuar sin cerrar esta tarea.",
       "reviewer_requirement": "distinct from author; UNASSIGNED, no independent review claimed",
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "current_manuscript": "CONDITIONED_TRILEMMA.md"
     },
     "M17": {
       "status": "OPEN",
@@ -233,7 +238,8 @@
       "criterion_in_master": "Puente matemático entre las familias y R01. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
       "historical_evidence_retained": false,
       "new_acceptance": "Elegir un objetivo explícito: familia suplementaria o subfamilia de R01. Para afirmar lo segundo, construir embedding/reducción de mundos, acciones, observaciones, efectos y costes; mapear TODAS las políticas relevantes de R01 a la clase cubierta, incluyendo conectores, geometría, autoridad, consultas y barreras. Comprobar dirección de la reducción: no basta exhibir una política ni preservar trazas seleccionadas para transferir imposibilidad. Limitar el resultado a un submodelo o marcar GAP si R01 aporta información o acciones adicionales. E1–E7 y coherencia M07 no sustituyen la reducción.",
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "current_manuscript": "CONDITIONED_TRILEMMA.md"
     },
     "C01": {
       "status": "OPEN",
@@ -657,7 +663,10 @@
       "M06/M11 directed attacks"
     ]
   },
-  "active_mathematical_document": "PURE_MATHEMATICAL_TRILEMMA.md",
+  "active_mathematical_document": "CONDITIONED_TRILEMMA.md",
   "historical_task_criteria_source": "previous-work/R01_MATH_WORKPLAN_2026-10-04.json",
-  "no_new_scientific_experiments": true
+  "no_new_scientific_experiments": true,
+  "independent_manuscript": "CONDITIONED_TRILEMMA.md",
+  "manuscript_own_review": "CONDITIONED_TRILEMMA_SELF_REVIEW.md",
+  "independent_mathematical_review_received": false
 }
