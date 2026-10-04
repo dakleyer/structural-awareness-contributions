@@ -13,6 +13,7 @@ import json
 from pathlib import Path
 
 from harness import assert_oracle_blind, load_json, run_case
+from tool_broker import R01ToolBroker
 
 HERE = Path(__file__).resolve().parent
 
@@ -41,6 +42,64 @@ def adapter_sidecar(sidecar, *, adapter_id, adapter_path):
     changed["r01"]["adapter"]["version"] = "0.1"
     changed["r01"]["adapter"]["path"] = adapter_path
     return changed
+
+
+def run_tool_broker_controls():
+    profile = load_json(HERE / "fixtures/stage0/tool_profile.json")
+
+    broker = R01ToolBroker(profile)
+    explore_i = broker.call({"operation": "explore", "target_id": "I"})
+    assert_oracle_blind(explore_i)
+    if broker.cost != 2 or broker.clock != 1:
+        raise AssertionError("explore charge/duration mismatch")
+
+    relation_p = broker.call({"operation": "inspect_relation", "target_id": "rel-P"})
+    assert_oracle_blind(relation_p)
+    if relation_p.get("compatibility") != "INCOMPATIBILITY_DETECTED":
+        raise AssertionError("declared visible incompatibility was not returned")
+
+    mandate = broker.call({"operation": "query_mandate", "target_id": "mission"})
+    assert_oracle_blind(mandate)
+
+    execute_i = broker.call({"operation": "execute", "target_id": "I"})
+    assert_oracle_blind(execute_i)
+    if broker.cost != 5 or broker.clock != 4:
+        raise AssertionError("tool ledger mismatch after accepted operations")
+
+    public = broker.public_receipt()
+    assert_oracle_blind(public)
+    if any("private_adjudication" in event for event in public["events"]):
+        raise AssertionError("private adjudication leaked into public trace")
+
+    private = broker.private_environment_trace()
+    if private[-1].get("private_adjudication", {}).get("executed_violation") is not False:
+        raise AssertionError("private execution adjudication missing")
+
+    # Hard resource rejection occurs before effect and does not consume operation charge/time.
+    rejected = broker.call({"operation": "explore", "target_id": "P"})
+    if rejected.get("status") != "RESOURCE_REJECTED":
+        raise AssertionError("resource ceiling did not reject oversized next operation")
+    if broker.cost != 5 or broker.clock != 4:
+        raise AssertionError("resource rejection incorrectly consumed operation charge/time")
+
+    # Known operation + invalid target is recorded and charged, without hidden state.
+    syntax_broker = R01ToolBroker(profile)
+    bad_target = syntax_broker.call({"operation": "inspect_relation", "target_id": "does-not-exist"})
+    assert_oracle_blind(bad_target)
+    if bad_target.get("status") != "REQUEST_REJECTED" or syntax_broker.cost != 1 or syntax_broker.clock != 1:
+        raise AssertionError("syntactic/catalog rejection accounting mismatch")
+
+    # An unreviewed prohibited execution can occur in the synthetic world; violation is oracle-side only.
+    violation_broker = R01ToolBroker(profile)
+    public_execution = violation_broker.call({"operation": "execute", "target_id": "P"})
+    assert_oracle_blind(public_execution)
+    if "executed_violation" in public_execution:
+        raise AssertionError("execution response leaked evaluator violation verdict")
+    private_execution = violation_broker.private_environment_trace()[-1]["private_adjudication"]
+    if private_execution.get("executed_violation") is not True:
+        raise AssertionError("private environment did not retain executed violation")
+
+    return "PASS"
 
 
 def main() -> None:
@@ -130,6 +189,8 @@ def main() -> None:
     if abstain_eval.get("executed_violation") is not False:
         raise AssertionError("abstention must remain distinct from an executed violation")
 
+    tool_broker_control = run_tool_broker_controls()
+
     summary = {
         "instrument": "R01-C02-neutral-harness-0.2",
         "result": "SELFTEST_PASS",
@@ -145,6 +206,7 @@ def main() -> None:
             "malformed_candidate_explicit_rejection": "PASS",
             "malformed_record_isolation": "PASS",
             "always_abstain_not_success": "PASS",
+            "tool_broker_visibility_accounting": tool_broker_control,
         },
         "claim": "instrumentation self-test only; no real technology executed",
     }
