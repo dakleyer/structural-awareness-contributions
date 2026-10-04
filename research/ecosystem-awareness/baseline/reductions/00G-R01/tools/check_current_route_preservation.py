@@ -23,8 +23,14 @@ R01 = Path(__file__).resolve().parents[1]
 REPO = R01.parents[4]
 BASELINE_COMMIT = "a96f14718a3b2f307b812ae4d8fe278dffb62764"
 BASELINE_BY_FILE = {
+    # Active C02 material was added after the initial preservation audit.
+    # Each file is compared from the commit that established the current pre-editorial content.
+    "README.md": "8757ffdacccbc913080c5d637af23593e12402eb",
+    "COMPUTABILITY_AND_ORACLE_PLAN.md": "5ca951ceb17ecca036ed9ea37357fd8c4a5761bb",
+    "feasibility/WORKPLAN.md": "2b2f3f656da5d25f79c782d7d5d60f286c5fbbc7",
     "oracle/README.md": "c7eee86425f7d3cf44c0478708252bc430222648",
     "oracle/UC4_INTEROPERABILITY_PROFILE.md": "26d1e12c9faa2636c47015a243d02a5e927f4c6a",
+    "oracle/NELSON_REVIEW_REQUEST.md": "84f2283cc6c58c970fef56bd3d58c90bbce9b4ab",
 }
 
 CURRENT_ROUTE_FILES = (
@@ -45,6 +51,7 @@ CURRENT_ROUTE_FILES = (
     "extensions/family/KERNEL_AND_PROOF.md",
     "oracle/README.md",
     "oracle/UC4_INTEROPERABILITY_PROFILE.md",
+    "oracle/NELSON_REVIEW_REQUEST.md",
     "feasibility/README.md",
     "feasibility/WORKPLAN.md",
     "feasibility/CONTINUATION_PROMPT.md",
