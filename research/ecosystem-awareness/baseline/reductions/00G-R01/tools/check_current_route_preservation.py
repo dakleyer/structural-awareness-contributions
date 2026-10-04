@@ -33,6 +33,7 @@ BASELINE_BY_FILE = {
     "oracle/NELSON_REVIEW_REQUEST.md": "84f2283cc6c58c970fef56bd3d58c90bbce9b4ab",
     "oracle/NELSON_BASELINE_IMPORT.md": "c3ed9a55dd6d5b642107ef6a0baa15320cce1b2e",
     "oracle/TOOL_BROKER_CONTRACT.md": "2cbfeaee9e533929d94e24e8ebc9dbdd8c3e4992",
+    "oracle/TECHNOLOGY_ADAPTER_GUIDE.md": "e299d2fcb5be479f323969f7e8ed424bd701d095",
 }
 
 CURRENT_ROUTE_FILES = (
@@ -56,6 +57,7 @@ CURRENT_ROUTE_FILES = (
     "oracle/NELSON_REVIEW_REQUEST.md",
     "oracle/NELSON_BASELINE_IMPORT.md",
     "oracle/TOOL_BROKER_CONTRACT.md",
+    "oracle/TECHNOLOGY_ADAPTER_GUIDE.md",
     "feasibility/README.md",
     "feasibility/WORKPLAN.md",
     "feasibility/CONTINUATION_PROMPT.md",
