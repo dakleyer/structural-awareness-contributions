@@ -29,3 +29,14 @@ Revisa la prueba directa del catálogo M02 y la familia G para todos los L: hist
 M17 está IN_PROGRESS. Para ampliar a hechos independientes en R01, construye el catálogo completo y demuestra la simulación de todas las políticas con las desigualdades útiles y los controles; no omitas query_mandate, estado, certificados, pooling, metadatos o información legítima. El contraejemplo χ compartido refuta aplicar d=L indiscriminadamente, no el lema dentro de F. Conserva el resultado G si la ampliación falla.
 
 M16 exige otra reconstrucción, no esta nueva revisión del mismo autor. Antes de ejecutar nuevos diagnósticos, C01–C05 debe separar la vista pública del estado oculto: Episode.chi accesible en el mismo proceso no es una implementación segura de Π_obs. Los scripts nombrados siguen siendo experimentos parciales; ningún texto recibido que no leyó los enunciados cierra una validación independiente. Preserva cuerpo de README y añade seguimiento al final.
+
+
+## Instrucciones posteriores — teorema condicionado en R01 completo
+
+Lee primero `R01_CONDITIONED_TRILEMMA_THEOREM.md` y `R01_CONDITIONED_TRILEMMA_REVIEW.md`. El objetivo es un teorema sobre las regiones del dominio R01 completo. Los casos fáciles y el χ compartido no lo refutan: únicamente invalidan transportar una fórmula particular sin sus hipótesis. La familia de precio informativo creciente ya está construida mediante paridad de K datos; no exijas hechos independientes por segmento como única vía.
+
+El trabajo pendiente inmediato es reconstrucción por un revisor distinto y auditoría de fidelidad por cláusula, no otra declaración genérica de que faltaría un puente. Revisa todos los canales del manifest, los scopes de revisión, producción y uso de certificados, pago inicial técnico, rechazo de prohibiciones conocidas, recepción posterior a efecto, efecto irreversible, concurrencia, queries agrupadas y ledger por ejecución. Para cada afirmación entrega prueba, laguna o contraejemplo con reparación. La envolvente centralizada ayuda a cotas inferiores; una igualdad convexa exacta exige mezclas realmente implementables y manifest finito.
+
+Conserva la distinción B (cap físico) y b (objetivo económico), s (eficacia legítima), η (técnica) y e_b (éxito compuesto). No cuentes una entrega cara como e_b=1. La variante .99/.95/.001 es AVG; la frontera WC barata tiene p≤.5. No extrapoles coste K a factor relativo extraordinario o ley cuadrática. El prior técnico pagado es una condición inicial explícita del perfil; no una prueba de optimalidad de su adquisición anterior.
+
+M16 permanece OPEN y M17 IN_PROGRESS. No declarar una revisión independiente por leer una revisión propia. No ejecutar experimentos científicos antes del oracle/harness neutral. Mantén el escenario, scripts, fixtures, resultados y contenidos previos de los README; añade seguimiento al final dentro de feasibility.

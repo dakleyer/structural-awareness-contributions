@@ -1,7 +1,7 @@
 {
-  "version": "0.6",
-  "input_commit": "a1ec3e24970e2d925745e4fc7a5cd8e6c11c11d5",
-  "actual_utc": "2026-10-04T08:47:49.725020+00:00",
+  "version": "0.7",
+  "input_commit": "2d299250a1e9d8103757f3841c73fdb01db82598",
+  "actual_utc": "2026-10-04T09:38:29.902387+00:00",
   "plan_editor": "Codex, on user instruction",
   "scientific_tasks_closed_by_this_revision": [],
   "current_order": "target and pure mathematics -> symbolic review and R01 bridge -> neutral oracle/harness before new finite experiments -> technology classes -> registered campaigns -> selector",
@@ -51,7 +51,9 @@
       "historical_evidence_retained": true,
       "reopening_reason": "expanded final objective; prior conditional F/W derivations retained, no counterexample asserted",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
-      "current_manuscript": "CONDITIONED_TRILEMMA.md"
+      "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+      "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
+      "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
     },
     "M04": {
       "status": "IN_PROGRESS",
@@ -65,7 +67,9 @@
       "historical_evidence_retained": true,
       "reopening_reason": "expanded final objective; prior conditional F/W derivations retained, no counterexample asserted",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
-      "current_manuscript": "CONDITIONED_TRILEMMA.md"
+      "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+      "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
+      "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
     },
     "M05": {
       "status": "OPEN",
@@ -159,8 +163,10 @@
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
       "current_evidence": "PURE_MATHEMATICAL_TRILEMMA.md: parameter inventory, quantified pair regions, exact F frontier and non-emptiness; independent review and R01 bridge remain open",
       "remaining": "freeze final target and distinguish outcome signatures from exclusive configuration regions; audit proof assumptions and agree transfer scope",
-      "current_manuscript": "CONDITIONED_TRILEMMA.md",
-      "additional_current_evidence": "Self-contained contract, exact AVG biased-prior and WC frontiers for technical efficacy and legitimate success, all-pair families and non-empty viable families; own symbolic review, no independent validation"
+      "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+      "additional_current_evidence": "Self-contained contract, exact AVG biased-prior and WC frontiers for technical efficacy and legitimate success, all-pair families and non-empty viable families; own symbolic review, no independent validation",
+      "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
+      "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
     },
     "M13": {
       "status": "OPEN",
@@ -205,7 +211,8 @@
       "criterion_in_master": "Extensión distribuida y geométrica: trabajo y latencia. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
       "historical_evidence_retained": false,
       "new_acceptance": "Definir red de N agentes, ubicación de hechos, distancias/topología, capacidad y precio de mensajes, colas y plazo. Conservar la envolvente centralizada para trabajo agregado. Para cualquier afirmación temporal nueva, derivar cota de comunicación/camino crítico y un control realizable, cobrando duplicación y mantenimiento. Identificar regiones donde paralelismo/cercanía resuelven el plazo y donde no. No extrapolar las cotas de trabajo a tiempo o geometría.",
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "additional_current_evidence": "All-N aggregate-work lower bound via centralized information envelope; no universal latency/geometric boundary claimed"
     },
     "M16": {
       "status": "OPEN",
@@ -240,9 +247,11 @@
       "historical_evidence_retained": false,
       "new_acceptance": "Elegir un objetivo explícito: familia suplementaria o subfamilia de R01. Para afirmar lo segundo, construir embedding/reducción de mundos, acciones, observaciones, efectos y costes; mapear TODAS las políticas relevantes de R01 a la clase cubierta, incluyendo conectores, geometría, autoridad, consultas y barreras. Comprobar dirección de la reducción: no basta exhibir una política ni preservar trazas seleccionadas para transferir imposibilidad. Limitar el resultado a un submodelo o marcar GAP si R01 aporta información o acciones adicionales. E1–E7 y coherencia M07 no sustituyen la reducción.",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
-      "current_manuscript": "CONDITIONED_TRILEMMA.md",
+      "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
       "current_evidence": "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md: correct transfer proposition, metric/budget matrix, all-policy M02 theorem and complete G family with shared binding and paid technical prior",
-      "remaining": "independent clause/proof reconstruction; instantiate growing independent-binding family and observable simulation of all relevant policies; do not claim F frontier for all R01"
+      "remaining": "Independent reconstruction of source fidelity, all operations, producers, paid initial context, local/normative scopes, cost caps and posterior proof; optional extensions have their own bounds",
+      "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
+      "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
     },
     "C01": {
       "status": "OPEN",
@@ -667,7 +676,7 @@
       "M06/M11 directed attacks"
     ]
   },
-  "active_mathematical_document": "CONDITIONED_TRILEMMA.md",
+  "active_mathematical_document": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
   "historical_task_criteria_source": "previous-work/R01_MATH_WORKPLAN_2026-10-04.json",
   "no_new_scientific_experiments": true,
   "independent_manuscript": "CONDITIONED_TRILEMMA.md",
@@ -676,5 +685,15 @@
   "deep_own_audit": "CONDITIONED_TRILEMMA_DEEP_AUDIT.md",
   "transfer_mapping": "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md",
   "R01_defined_G_family_proof_available": true,
-  "R01_general_F_frontier_transfer_proved": false
+  "R01_general_F_frontier_transfer_proved": false,
+  "full_R01_conditioned_theorem": {
+    "document": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+    "own_review": "R01_CONDITIONED_TRILEMMA_REVIEW.md",
+    "scope": "full configuration domain; information-cut condition on all policies; nonempty trilemma and feasible regions",
+    "growing_information_family": "global parity of K data; total producer cost K; arbitrary L and N; explicit AVG and WC frontiers",
+    "status": "symbolic proof delivered; independent reconstruction and source-fidelity audit pending",
+    "source_changed": false,
+    "scientific_executions": 0
+  },
+  "R01_growing_information_family_proof_available": true
 }

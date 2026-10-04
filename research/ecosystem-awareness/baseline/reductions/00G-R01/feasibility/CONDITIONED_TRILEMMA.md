@@ -372,3 +372,8 @@ El coste de una rama fallida puede superar R. Aun así, cada rama contabilizada 
 Este corolario permite comparar el resultado con indicadores de éxito que incorporan el presupuesto **por ejecución**, en vez de una cota de coste máximo para toda la política. No los identifica silenciosamente: σ y σ_R son medidas distintas. Los experimentos parciales no prueban ni esta correspondencia ni (8).
 
 El [mapa de transferencia y resultado local M02](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) y la [auditoría de fondo](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) precisan las correspondencias verificadas y las pendientes. La especificación fuente de R01 conserva su contenido.
+
+
+## Desarrollo posterior: teorema del trilema condicionado en R01
+
+El [teorema principal sobre R01](./R01_CONDITIONED_TRILEMMA_THEOREM.md) formula el resultado sobre el dominio completo de configuraciones del escenario. Añade un certificado general, un corte informativo sobre historias completas, regiones por los tres pares y viabilidad, y una familia de paridad global con K datos y coste informativo creciente para N arbitrario. No exige transportar la misma fórmula F a cada configuración. Un caso de información compartida que resuelve el problema es compatible con ese teorema condicionado. Este manuscrito conserva las derivaciones de F y sus hipótesis. [Revisión propia del nuevo teorema](./R01_CONDITIONED_TRILEMMA_REVIEW.md); reconstrucción independiente todavía pendiente.

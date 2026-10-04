@@ -89,3 +89,10 @@ M17: auditar externamente la instanciación G por cláusula y construir el perfi
 C01–C05: crear el harness neutral con una vista pública que no exponga el estado oculto, evaluator independiente, óptimo y ledger. No ejecutar más ejemplos para sustituir esos pasos.
 
 Los estados, hashes y conservación se publican en [el release de auditoría](./DEEP_AUDIT_RELEASE.json); [plan](./WORKPLAN.md) e [instrucciones](./CONTINUATION_PROMPT.md) conservan sus criterios anteriores y añaden estas obligaciones.
+
+
+## Actualización posterior: alcance correcto del teorema R01
+
+La imposibilidad de aplicar la misma fórmula de hechos independientes a todas las configuraciones no impide un teorema condicionado sobre R01. El objetivo es demostrar regiones no vacías de trilema y viabilidad dentro del dominio completo, con todas las políticas en la región difícil. Los casos de éxito no refutan ese enunciado.
+
+El [nuevo teorema principal](./R01_CONDITIONED_TRILEMMA_THEOREM.md) entrega el certificado general y corte informativo, además de una familia θ_{L,N,K,a} de dependencia global con precio K, controles por pares y fronteras exactas. Para K=L utiliza el control sintético de paridad permitido en R01. No transforma su causa en semántica de una extensión histórica. La [revisión propia](./R01_CONDITIONED_TRILEMMA_REVIEW.md) ataca posterior, productor, presupuesto, scopes, recibos, concurrencia y relajación convexa. Este desarrollo supera el estado pendiente de construcción creciente registrado en la auditoría anterior, pero no sustituye su reconstrucción independiente. El escenario fuente y los registros históricos siguen intactos.

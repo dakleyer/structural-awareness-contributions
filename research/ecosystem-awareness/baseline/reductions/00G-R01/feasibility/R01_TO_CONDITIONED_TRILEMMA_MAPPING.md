@@ -196,3 +196,12 @@ La sintaxis de R01 permite perfiles como el de hechos distintos, pero ese contra
 | Teorema de todo R01 y su Pareto de seis medidas | No establecido; no se sustituye por una matriz de semejanzas. |
 
 El [plan](./WORKPLAN.md) registra M17 en desarrollo por estas entregas y conserva M16 abierto. No se han ejecutado nuevos tests científicos. Los JSON, fixtures, checkers y resultados previos no se modifican.
+
+
+## 8. Desarrollo posterior: trilema condicionado en el dominio completo de R01
+
+La extensión que se busca no requiere una misma frontera F para todas las configuraciones. Un binding compartido, una API resolutiva o un certificado suficiente pueden crear una región viable: eso es parte del resultado condicionado y no su refutación.
+
+El [teorema R01](./R01_CONDITIONED_TRILEMMA_THEOREM.md) proporciona ahora: un certificado para cualquier manifiesto del dominio; un corte informativo para todas sus políticas; una familia con L capas, N agentes, dependencia global de K datos y precio de producción K; controles de los tres pares; frontera AVG/WC y familias viables. K=L instancia el control global de paridad de R01 y demuestra dureza informativa creciente, conservando reutilización y colaboración. No precisa que cada segmento tenga un binding independiente como en F. Esta nueva evidencia reemplaza la obligación de construir una familia creciente que figuraba como pendiente en §§6.2–7; la reconstrucción independiente sigue pendiente.
+
+La [revisión propia](./R01_CONDITIONED_TRILEMMA_REVIEW.md) no cuenta como validación externa. La familia conserva un contexto técnico inicial adquirido y pagado; otra preparación o información inicial es otra configuración del dominio. No se promete caracterizar numéricamente todas las interfaces o la frontera Pareto de seis medidas. El documento original y los tests no se alteran.

@@ -119,3 +119,18 @@ La [auditoría](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) reconstruye las pruebas y 
 | 5. Tecnologías | M13–M15 y T | Después del contrato y lemas base; no trasladar F a bindings compartidos o predicados globales. |
 
 Los criterios históricos de todas las tareas se mantienen en el registro. M16 permanece OPEN; las auditorías recibidas son ataques y recomendaciones, no un dictamen matemático independiente completo.
+
+
+## Teorema condicionado en R01 — prioridades posteriores
+
+El [teorema principal](./R01_CONDITIONED_TRILEMMA_THEOREM.md) formula el dominio R01, certificado universal, corte y controles, con una familia de información global de K datos y precio K. La dureza creciente se construye mediante dependencia global, sin necesitar primero la ampliación específica de F a hechos independientes por segmento. Los casos de éxito son parte de la región viable y no bloquean la extensión del trilema condicionado.
+
+| Prioridad | Tareas | Trabajo siguiente |
+|---|---|---|
+| 1. Reconstrucción independiente del núcleo | M16/M03/M04/M12 | Posterior adaptativo de paridad, evento crítico, cota de riesgo, fronteras AVG/WC y tres controles con los mismos umbrales. |
+| 2. Auditoría de fidelidad a R01 | M17/M07/M16 | Manifest completo, scopes locales/normativos, preparación pagada, productor de certificados, queries y errores, concurrency, techo por ejecución frente a cap físico y e_b. |
+| 3. Instrumento neutral | C01–C05/M05 | Antes de ejecutar corroboraciones: estado privado separado, vista pública, adjudicador y ledger independientes. |
+| 4. Otras regiones | M14/M15/M17 | Información parcial, otros generadores, geometría y límites de tiempo; demostrar sus propias cotas sin imponerlas a toda configuración. La ampliación exacta de F es una opción posterior, no requisito de la prueba existencial R01. |
+| 5. Tecnologías | M13 y T | Evaluar qué hipótesis cambian y cuánto cuesta la nueva información, después de revisar el núcleo. |
+
+Estado conservado: 55 tareas; 4 DONE históricas, 7 IN_PROGRESS, 44 OPEN. Nueva demostración y revisión propias constituyen evidencia de trabajo, no cierre independiente. Ninguna ejecución científica nueva. [Registro de entrega](./R01_CONDITIONED_TRILEMMA_RELEASE.json).
