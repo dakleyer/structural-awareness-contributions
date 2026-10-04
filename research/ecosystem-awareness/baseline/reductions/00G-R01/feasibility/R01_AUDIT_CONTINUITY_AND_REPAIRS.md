@@ -47,7 +47,7 @@ Sources read in full: canonical R01 scenario v0.6, theorem, its self-review, pre
 
 ### 4.1 Information and adaptation
 
-With n<K data items fixed, each parity has 2^(K−n−1) completions of that prefix among 2^(K−1) vectors. Prefix probability is 2^(−n) under both. Bayes preserves P(χ=0|historia)=a.
+With n<K data items fixed, each parity has 2^(K−n−1) completions of that prefix among 2^(K−1) vectors. Prefix probability is 2^(−n) under both. Bayes preserves P(χ=0|history)=a.
 
 Induction is over collective history: adaptive selection, independent seed, grouped query, messages and metadata. Before the final read, each next datum is uniform under both parities; other responses are functions of already acquired information. Pooling grants all evidence to the defender for the bound. If another real information channel exists, it must be included and the calculation repeated: it is not ignored to save I3.
 
