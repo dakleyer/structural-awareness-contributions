@@ -10,7 +10,7 @@ Research version 0.1 · 2 October 2026 · Author's note assisted by AI
 
 Testing a reduced model first has solid precedents in computing. The literature allows systems to be reduced through formal relations, properties to be checked in the reduced representation and transferred when the corresponding obligations are satisfied [R1–R7]. This justifies the **method**, not external validation of R01 or EA.
 
-Our intended use is to isolate exploration, costly review and social reuse of evidence; first evaluate EA's incremental contribution against competent controls; and use the results to decide whether expanding research to domain implementations is worthwhile. The reduced model allows variables to be controlled, counterexamples obtained and mechanisms measured at lower cost. The fidelity of its hypotheses and the real cost of implementing EA require their own tests.
+Our intended use has three steps: isolate exploration, costly review and social reuse of evidence; evaluate EA's incremental contribution against competent controls; and use the results to decide whether expanding research to domain implementations is worthwhile. The reduced model allows variables to be controlled, counterexamples to be obtained and mechanisms to be measured at lower cost. The fidelity of its hypotheses and the real cost of implementing EA require their own tests.
 
 The defensible sequence is: **specification → preservation proof → implementation verification → comparative experiment → independent domain correspondence → validation of a more complete scenario**. No later step is established by citing earlier ones.
 
@@ -46,7 +46,7 @@ The objects, metrics and controls differ from EA. What transfers as precedent is
 <a id="22-precedente-reciente-relacionado-con-modelos-neuronales"></a>
 ### 2.2 Recent precedent related to neural models
 
-R13, Spieker, Gross and Gotlieb (2026), presents a DTMC abstraction of autoregressive generation, conservative intervals, refinement and two cases: process planning with GPT-2 and SMILES molecular generation. It is relevant for distinguishing local acceptance and a domain property. It requires access to model probabilities and an external oracle; it neither proves an EA defense, nor is a black box test equivalent to Nell's, nor reproduces Hugging Face. It is cited as a complementary recent precedent, without making it a necessary foundation of our proof.
+R13, by Spieker, Gross and Gotlieb (2026), presents a DTMC abstraction of autoregressive generation, conservative intervals, refinement and two cases: process planning with GPT-2 and SMILES molecular generation. It is relevant to distinguishing local acceptance from a domain property. It requires access to model probabilities and an external oracle; it neither proves an EA defense, nor provides a black box test equivalent to Nell's, nor reproduces Hugging Face. It is cited as a complementary recent precedent without making it a necessary foundation of our proof.
 
 R14, Majeed and Hutter (AAAI 2019), addresses homomorphism guarantees even for non-Markovian representations under specific conditions. It supports studying weaker relations if exact equality fails; preserving some value is not equivalent to preserving permissions, traces and all R01 outcomes.
 
