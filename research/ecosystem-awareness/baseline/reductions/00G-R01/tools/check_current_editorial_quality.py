@@ -85,8 +85,12 @@ def main() -> int:
 
         headings = [(n, HEADING.match(line)) for n, line in visible if HEADING.match(line)]
         h1 = [(n, m.group(2)) for n, m in headings if len(m.group(1)) == 1]
-        if len(h1) != 1:
-            errors.append(f"{rel}: expected one H1, found {len(h1)}")
+        expected_h1 = 2 if rel == "reductions/00G-to-R01/README.md" else 1
+        if len(h1) != expected_h1:
+            errors.append(f"{rel}: expected {expected_h1} H1, found {len(h1)}")
+        if rel == "reductions/00G-to-R01/README.md" and len(h1) == 2:
+            if h1[1][1] != "00G-R01 Reduction of 00G":
+                errors.append(f"{rel}: second H1 is not the retained historical identification")
 
         previous_level: int | None = None
         for number, match in headings:
