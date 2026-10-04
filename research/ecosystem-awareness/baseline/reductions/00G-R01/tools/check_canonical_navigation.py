@@ -23,8 +23,8 @@ ENTRY_DOCS = (
 )
 
 MARKDOWN_LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
-HTML_LINK = re.compile(r"<(?:a|img)s+[^>]*(?:href|src)=[\"']([^\"']+)", re.I)
-EXPLICIT_ANCHOR = re.compile(r"<as+[^>]*(?:id|name)=[\"']([^\"']+)[\"'][^>]*>", re.I)
+HTML_LINK = re.compile(r"<(?:a|img)\s+[^>]*(?:href|src)=[\"']([^\"']+)", re.I)
+EXPLICIT_ANCHOR = re.compile(r"<a\s+[^>]*(?:id|name)=[\"']([^\"']+)[\"'][^>]*>", re.I)
 HEADING = re.compile(r"^(#{1,6})\s+(.+?)\s*$", re.M)
 EXTERNAL_PREFIXES = ("http:", "https:", "mailto:", "data:", "javascript:", "//")
 
