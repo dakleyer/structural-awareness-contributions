@@ -6,11 +6,11 @@
 
 ## Purpose
 
-R01 preserves earlier editions for auditability without treating every preserved trace, proof guide or experiment as part of the current research route. Historical evidence is retained; active scientific obligations are governed only by the current README, workplan/status register and the explicitly designated current references.
+R01 preserves earlier editions for auditability without treating every preserved trace, proof guide or experiment as part of the current research route. Historical evidence remains available, while active scientific obligations are governed only by the current README, workplan/status register and explicitly designated current references.
 
 ## One current route, historical layers retained
 
-At any time R01 has one current documentary route. Earlier trace layers remain immutable evidence of what an earlier edition contained and how a later edition was derived. They do not create parallel queues, reactivate superseded experiments or become current merely because a later document links to them for provenance.
+At any time, R01 has one current documentary route. Earlier trace layers remain immutable evidence of what an earlier edition contained and how a later edition was derived. They neither create parallel queues nor reactivate superseded experiments, and they do not become current merely because a later document links to them for provenance.
 
 A new trace layer is justified only when a material reorganization or preservation boundary must be recorded—for example, splitting a document, relocating a canonical entry, or preserving a prior edition before a structural transformation. Ordinary wording changes, new research notes or routine status updates do not require another preservation layer.
 
