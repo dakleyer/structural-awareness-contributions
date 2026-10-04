@@ -58,3 +58,10 @@ Por instrucción del usuario, R01_CONDITIONED_TRILEMMA_THEOREM.md v0.2 es el doc
 La explicación inicial del escenario, su §1.2, el README de R01 y el índice de feasibility enlazan el mismo documento. R01 declara los umbrales de evaluación b, δ y p, distinguiendo b del cap físico R=B; no se cambian fixtures, semillas ni reglas experimentales. Las referencias canónicas actuales prevalecen sobre los snapshots fechados del plan; sus criterios históricos se conservan.
 
 La designación canónica es documental. Validación propia completada y revisiones externas recibidas quedan reconocidas; mapear cobertura por versión/proposición antes de pedir más revisión. Mantener M16 y M17 con su alcance explícito, sin inventar certificación completa. El protocolo separado de extensión es la siguiente fase; aplicar tecnologías y ejecutar campañas son fases posteriores.
+
+
+## Vocabulario acordado y prioridad previa al protocolo — 4 de octubre de 2026
+
+Continuar sobre el mismo R01 enlazado desde UC21, no crear otra versión explicativa dispersa. Problema más tecnología define un escenario operativo θ. Estrategia de ejecución π nombra la política ejecutable ya admitida en Π(θ), sin ampliar capacidades ni alterar parámetros libremente. Su desempeño (c(π),r(π),s(π)) se evalúa con políticas de aceptación separadas (b,δ,p); c es techo por ejecución, r/s probabilidades. Distinguir una estrategia fuera de la zona aceptada de una imposibilidad demostrada para todas las estrategias del escenario. La validación matemática mantiene las definiciones y pruebas existentes; el vocabulario práctico es una correspondencia explicativa.
+
+Antes de continuar con el protocolo, ejecutar la revisión pendiente de las tres extensiones —Hugging Face, Infoblox/DNS y familia— registrada al final de WORKPLAN.md y en WORKPLAN_STATUS.json bajo M17/M07/P08. Cubrir sus explicaciones, inventarios, gráficos, criterios, pruebas y checkers, conservando información y alcance. No dar por hecha esa revisión ni sustituir sus pruebas con el gráfico conceptual. Las tareas y estados se mantienen.

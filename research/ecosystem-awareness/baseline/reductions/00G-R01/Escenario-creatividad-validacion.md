@@ -5,7 +5,7 @@ Probabilistic exploration and validation cost
 
 Iván Abril Palma, Tegrity.AI · Ecosystem Awareness research line
 
-Base specification v0.6 · Reading organization 3 October 2026 · Non-canonical research document
+Base specification v0.6 · Reading organization 4 October 2026 · Non-canonical research document
 
 [Differential and value of the experiment](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md) explains the technology–problem suitability map, its relationship to existing research, the candidate contribution and the remaining review plan. This scenario retains the experimental rules and evidence limits.
 
@@ -18,7 +18,17 @@ Imagine a team completing an assigned task through a known permitted procedure. 
 
 There are three reference routes. M is the known permitted procedure. I is the best permitted completion in the constructed world. P looks attractive but violates a condition of the task when the whole route is considered. The receiver sees candidates and evidence, not labels telling it which is I or P. The evaluator keeps the complete map and judges the final result separately.
 
-The question is not simply whether the team blocks a forbidden action. It must also finish useful work at acceptable quality, cost and time. It may find the permitted improvement, choose an inadmissible alternative, spend too much checking, keep a lower-quality procedure, or remain incomplete. Three families frame the evaluation: acceptance policies set maximum risk, minimum legitimate efficacy and maximum cost; scenario variables describe the task, obligations and alternatives; technology variables describe the means of exploration, validation and coordination. Their declared combination and the execution strategy determine which outcomes occur; none is imposed in advance.
+The question is not simply whether the team blocks a forbidden action. It must also finish useful work at acceptable quality, cost and time. It may find the permitted improvement, choose an inadmissible alternative, spend too much checking, keep a lower-quality procedure, or remain incomplete. Three families frame the evaluation: problem parameters describe the task, obligations and alternatives; technology variables describe the means of exploration, validation and coordination; acceptance policies set maximum risk, minimum legitimate efficacy and maximum cost. The problem together with the declared technology defines an operating scenario. An execution strategy determines how the agents use those means; its performance is then assessed under the acceptance policies. No outcome is imposed in advance.
+
+### From the practical problem to acceptance
+
+![Problem and technology define an operating scenario; execution strategies produce performance assessed under fixed acceptance policies](figures/escenario-aceptacion.svg)
+
+The diagram shows the roles of the components; all rules and thresholds are declared before evaluation. An **operating scenario** is the practical problem considered together with a technology or combination of technologies; its complete mathematical description is the configuration θ. R01's base scenario already declares abstract means and their charges. A concrete technology must justify which effective parameters it changes; it may also introduce mechanisms requiring separate analysis within the extension exercise. Applying a different technology to the same problem can therefore produce a different scenario.
+
+An **execution strategy** π is the existing rule for what each agent or the group does with its accessible information and permitted means: explore, select, review, communicate, execute, wait or abstain. It belongs to the existing class Π(θ), called “execution policies” in the proof. It introduces no new family of variables or freedom to change the declared map, segment count, unit costs, access or permissions. If the technology is a specified procedure, its strategy is declared as part of that procedure.
+
+For a declared strategy, performance is the triple (c(π), r(π), s(π)): complete cost ceiling, campaign-violation probability and legitimate-success probability. The probabilities concern the declared distribution of executions; a single run does not determine them. The cost c is a ceiling per execution, not expected cost. Acceptance policies define the **accepted region** c≤b, r≤δ, s≥p. A strategy's performance can lie inside or outside it. An evaluated scenario is **viable under those strategies** if at least one permitted strategy reaches that region. One strategy outside it does not establish that the scenario is inviable; mathematical impossibility must cover every permitted strategy. Evidence that does not settle this question remains inconclusive.
 
 ### What makes the scenario probabilistic
 
@@ -31,10 +41,10 @@ Benefits and the positions of alternatives vary when a world is generated. Withi
 3. Compare their apparent benefits without knowing the evaluator's ideal and forbidden labels.
 4. Check relevant preceding and following relations, including the connection to the proposed alternative.
 5. Reject a detected incompatibility. With unresolved conditions, follow the declared rule for more checking, waiting, keeping the known procedure or abstaining.
-6. If proceeding is justified by that policy, record the reason before attempting the action. Record the actual effect independently.
+6. If proceeding is justified by that strategy, record the reason before attempting the action. Record the actual effect independently.
 7. Share findings and checks where the configuration allows it. A receiver checks whether evidence still applies; several copies of one finding do not create several independent checks.
 
-The detailed rules, costs, settings, comparison policies and required trace fields are in parts 1 and 2. Part 3 provides the reduction and extension tables. The full agent campaign remains to be implemented and executed; existing finite checks in the extensions have their own stated scope.
+The detailed rules, costs, settings, comparison strategies and required trace fields are in parts 1 and 2. Part 3 provides the reduction and extension tables. The full agent campaign remains to be implemented and executed; existing finite checks in the extensions have their own stated scope.
 
 **The practical objective of R01 is to design small, bounded pilots that help decide whether a problem can be solved adequately by a compatible architecture before committing larger resources.** The pilot examines both where the architecture works well and where it becomes too costly, delivers insufficient quality or violates a rule. It compares alternatives and permits an inconclusive answer. A small success does not by itself establish suitability at scale; §1.7 explains the diagnostic stages and the evidence needed for that transfer.
 
@@ -44,9 +54,9 @@ Every architecture has areas where it contributes more value and others where it
 
 The intended use is architecture selection through limited pilots: obtain evidence about suitability, failure mechanisms and remaining uncertainty before a larger deployment. R01 first specifies a controlled experiment for mapping those outcomes; a subsequent diagnostic stage tests whether limited observations predict them. These are stages of the same practical objective, with different evidence requirements.
 
-The thesis distinguishes two areas of problems and configurations. In one, the architecture reaches the admissible optimum, or an acceptable approximation, with sufficient regularity and within reasonable cost and deadline limits. In the other, the trilemma **lacking integrity, inefficient or mediocre** appears: execute an inadmissible solution, pay too much for a legitimate solution or retain a lower-quality permitted option. Scenario conditions, including optimum tolerance and deadline, and acceptance-policy thresholds for cost, risk and legitimate efficacy are fixed before the trial. Technology capabilities and charges are declared separately for a comparison under those same conditions. The trilemma describes difficulties that may coexist; abstention and incompleteness are also recorded.
+The thesis distinguishes two areas of problems and configurations. In one, the architecture reaches the admissible optimum, or an acceptable approximation, with sufficient regularity and within reasonable cost and deadline limits. In the other, the trilemma **lacking integrity, inefficient or mediocre** appears: execute an inadmissible solution, pay too much for a legitimate solution or retain a lower-quality permitted option. Problem conditions, including optimum tolerance and deadline, and acceptance-policy thresholds for cost, risk and legitimate efficacy are fixed before the trial. Technology capabilities and charges are declared separately for a comparison under those same conditions. The trilemma describes difficulties that may coexist; abstention and incompleteness are also recorded.
 
-Recognizing patterns, validating better and reusing evidence may expand the effective area. We propose measuring where this architecture ceases to be worthwhile, which mechanisms explain that loss and which controls restore effectiveness. The scenario allows those improvements alongside new situations still requiring information acquisition. The sought result is an empirical boundary for declared competent policies, not a universal impossibility.
+Recognizing patterns, validating better and reusing evidence may expand the effective area. We propose measuring where this architecture ceases to be worthwhile, which mechanisms explain that loss and which controls restore effectiveness. The scenario allows those improvements alongside new situations still requiring information acquisition. The sought result is an empirical boundary for declared competent strategies, not a universal impossibility.
 
 The document specifies chains with variable benefits and proximities, exploration, own review and social activity. Separate tables identify the documented reduction and three case extensions. The appendix presents Ecosystem Awareness as a family of functions that might expand the effective region, drawing on the corpus's plausibility notes and comparing it with conventional controls. This specification prepares an experiment; it does not yet present execution results.
 
@@ -74,7 +84,7 @@ Imagine a long task with a known procedure. A participant finds a segment that b
 <a id="12-dos-áreas-y-un-trilema"></a>
 ## 1.2 Two areas and a trilemma
 
-The effective area comprises configurations where some competent policy reaches required legitimate quality with sufficient reliability, cost and timing. In the observed unfavorable area, no policy of the evaluated family satisfies those conditions. The trilemma helps describe what fails:
+The effective area comprises configurations where some competent strategy reaches required legitimate quality with sufficient reliability, cost and timing. In the observed unfavorable area, no strategy of the evaluated family satisfies those conditions. The trilemma helps describe what fails:
 
 | Trilemma mode | Unmet condition | Observation identifying it |
 |---|---|---|
@@ -84,28 +94,28 @@ The effective area comprises configurations where some competent policy reaches 
 
 Categories may overlap. They are diagnostic modes of failing to satisfy integrity, efficiency and quality simultaneously; not an exhaustive classification. Abstention, incompleteness, recovery and uncertain cases are also recorded. Retaining M may be a sensible decision even if it does not reach intended quality. “Lacking integrity” is an operational definition of noncompliance, not automatic equivalence to harm; any harm is recorded separately.
 
-**Main SC-H.** Within the configuration domain, thresholds and finite family of competent policies fixed before the campaign, there are regions where no policy reaches, with required reliability, an admissible trajectory within optimum tolerance and cost and deadline limits, without campaign violations. The hypothesis is considered supported only in the tested domain and with statistical uncertainty resolved.
+**Main SC-H.** Within the configuration domain, thresholds and finite family of competent strategies fixed before the campaign, there are regions where no strategy reaches, with required reliability, an admissible trajectory within optimum tolerance and cost and deadline limits, without campaign violations. The hypothesis is considered supported only in the tested domain and with statistical uncertainty resolved.
 
-If some policy satisfies those conditions, there is evidence of effectiveness for that configuration. If all fall below the reliability threshold, observed ineffectiveness is supported. When intervals do not allow a decision, arms are missing or competence controls fail, the case remains inconclusive. Weak ablations serve to explain mechanisms, not independently declare an architecture limit.
+If some strategy satisfies those conditions, there is evidence of effectiveness for that configuration. If all fall below the reliability threshold, observed ineffectiveness is supported. When intervals do not allow a decision, arms are missing or competence controls fail, the case remains inconclusive. Weak ablations serve to explain mechanisms, not independently declare an architecture limit.
 
 The candidate mechanism is that observing local benefit is easier than establishing admissibility of the entire chain. More alternatives may require more checks. Sharing evidence may reduce them; repeating dependent confirmations may increase confidence without adding coverage. §2.18 separates these possibilities into secondary contrasts.
 
 <a id="r01-conditioned-mathematical-validation"></a>
 ### The conditioned trilemma and its mathematical validation
 
-R01 asks whether a task can be completed with sufficient legitimate quality, within an acceptable cost and with no more risk than the process admits. A **conditioned trilemma** occurs when each pair of those requirements can be met, using the same thresholds and execution conditions, but no admitted policy can meet all three together. A failed policy is insufficient evidence: the mathematical claim concerns every policy permitted by the declared configuration.
+R01 asks whether a task can be completed with sufficient legitimate quality, within an acceptable cost and with no more risk than the process admits. A **conditioned trilemma** occurs when each pair of those requirements can be met, using the same thresholds and execution conditions, but no admitted strategy can meet all three together. A failed strategy is insufficient evidence: the mathematical claim concerns every strategy permitted by the declared configuration.
 
 #### Three families of variables
 
-R01 separates **acceptance policies**, **scenario variables** and **technology variables**. They answer different questions: what the process will accept, what problem must be solved, and what means are available to solve it.
+R01 separates **acceptance policies**, **problem parameters** and **technology variables**. They answer different questions: what the process will accept, what problem must be solved, and what means are available to solve it.
 
 | Family | Variables and role |
 |---|---|
 | Acceptance policies | Maximum tolerated campaign risk δ, minimum legitimate efficacy p and maximum accepted cost b. They are requirements fixed before evaluation, rather than results selected after observing it. |
-| Scenario or problem | Task and binding obligations; permitted reference M, ideal permitted route I and forbidden route P; their benefits and differences, including P–I attractiveness; length L, population N, world distribution, graph, geometry, dependencies, evidence to establish admissibility, initial context, quality tolerance ε, deadline T and declared resource constraints. These determine the problem and what counts as a sufficient legitimate result. |
+| Problem parameters | Task and binding obligations; permitted reference M, ideal permitted route I and forbidden route P; their benefits and differences, including P–I attractiveness; length L, population N, world distribution, graph, geometry, dependencies, evidence to establish admissibility, initial context, quality tolerance ε, deadline T and declared resource constraints. These determine the problem and what counts as a sufficient legitimate result. |
 | Technology | Capabilities of a concrete implementation: observations and operations it can provide, information acquisition, memory, evidence processing, communication and coordination, together with their complete charges, latency and limits. Their later mathematical extension must specify how they instantiate the R01 interface. This base validation does not yet apply or validate a particular technology. |
 
-When comparing technologies, the acceptance thresholds b, δ and p remain fixed. The effective R01 configuration may change: a technology may alter accessible information, exploration and review coverage, coordination, cost or timing. Each such change must be mapped to the corresponding declared parameter; it is not assumed away. The complete abstract manifest θ already specifies the executable interface, its responses and charges. A concrete technology t will therefore be associated with a complete configuration θ(t), and viability evaluated at (θ(t),b,δ,p). This notation is a mapping obligation, not a proof of technological transfer.
+When comparing technologies, the acceptance thresholds b, δ and p remain fixed. The effective R01 configuration may change: a technology may alter accessible information, exploration and review coverage, coordination, cost or timing. Each such change must be mapped to the corresponding declared parameter; it is not assumed away. The complete abstract manifest θ already specifies the executable interface, its responses and charges. For a fixed problem, a concrete technology t will therefore define an operating scenario described by θ(t); its evaluation applies the separately declared thresholds (b,δ,p). The notation (θ(t),b,δ,p) records that evaluation and does not place the thresholds inside θ. This notation is a mapping obligation, not a proof of technological transfer.
 
 | Technology capability or limit | R01 parameters or conditions it can affect | What the mapping must establish |
 |---|---|---|
@@ -116,17 +126,17 @@ When comparing technologies, the acceptance thresholds b, δ and p remain fixed.
 | Execution and recovery | Selection rule, tie-breaking, waiting, abstention, retries, recovery, execution charges and achieved latency | What effects occur and what resources they consume; recovery does not erase an executed violation. |
 | Population and resource deployment | N, work allocation and physical budget R/B when deployment changes them | Which capacity and participation assumptions changed; the accepted economic target b remains fixed. |
 
-Task length L, obligations, benefits and P–I attractiveness, world distributions, geometry and composition predicates also belong to the rest of the configuration. They may vary between declared scenario profiles; if introducing a technology changes one of them, that change must be identified rather than described only as a faster implementation. In particular, changing the mandate or what makes P forbidden changes the problem, not merely its execution. Fixed acceptance policies do not imply that all other variables are fixed.
+Task length L, obligations, benefits and P–I attractiveness, world distributions, geometry and composition predicates also belong to the rest of the configuration. They may vary between declared scenarios; if introducing a technology changes one of them, that change must be identified rather than described only as a faster implementation. In particular, changing the mandate or what makes P forbidden changes the problem, not merely its execution. Fixed acceptance policies do not imply that all other variables are fixed.
 
 A concrete procedure may also introduce a relevant variable that R01 does not represent. The later extension must identify it, determine whether the existing manifest can express it faithfully, and, if necessary, define an enlarged model with an explicit relationship to the base proof. An omitted capability is not treated as absent, and coverage beyond R01 is not assumed. The base result remains conditional on its stated domain and hypotheses.
 
-The technological conclusion stays open. **Partial resolution** means that profiles previously outside the viable region become viable under the same acceptance thresholds; any remaining trilemma region must be proved separately. **Complete resolution within a declared domain** requires meeting all three conditions throughout that domain. Showing that the trilemma region is empty is insufficient if some profiles still fail even a pair. If a technology removes an information-cut hypothesis, that particular impossibility bound no longer establishes its limit; it does not by itself establish viability. This later analysis may therefore show complete resolution, partial resolution, no recovery or an unresolved result. Expanding the viable region is a positive finding.
+The technological conclusion stays open. **Partial resolution** means that previously inviable scenarios acquire a strategy whose performance lies in the accepted region under the same thresholds; any remaining trilemma region must be proved separately. **Complete resolution within a declared domain** requires meeting all three conditions throughout that domain. Showing that the trilemma region is empty is insufficient if some scenarios still fail even a pair. If a technology removes an information-cut hypothesis, that particular impossibility bound no longer establishes its limit; it does not by itself establish viability. This later analysis may therefore show complete resolution, partial resolution, no recovery or an unresolved result. Expanding the viable region is a positive finding.
 
-Here **acceptance policy** means the thresholds the process sets. In the mathematical document, an **execution policy** π is a strategy for choosing actions from available information. Several execution policies may be tested or bounded under the same acceptance policy. Uppercase P denotes the forbidden route; lowercase p denotes the required probability of legitimate success.
+Here **acceptance policy** means the thresholds the process sets. **Execution strategy** π is the readable name for the existing execution policy in the mathematical document: a rule for choosing actions from available information. Several such strategies may be tested or bounded under the same acceptance policy. Uppercase P denotes the forbidden route; lowercase p denotes the required probability of legitimate success.
 
 #### The three acceptance requirements
 
-An evaluation profile records the complete problem configuration θ together with the acceptance thresholds b, δ and p. The following table gives their precise meaning:
+An evaluated scenario records the complete operating configuration θ together with the separately applied acceptance thresholds b, δ and p. The following table gives their precise meaning:
 
 | Requirement | Threshold | Meaning |
 |---|---|---|
@@ -134,27 +144,27 @@ An evaluation profile records the complete problem configuration θ together wit
 | Risk | Maximum accepted probability δ | The probability r of at least one executed violation during a campaign is at most δ. A rejected proposal is not an executed violation; later repair does not erase one. |
 | Efficacy | Minimum legitimate-success probability p | The probability s of delivering admissible work at the required quality within the deadline is at least p. Technical benefit obtained through a violation does not count as legitimate success. |
 
-Validation cost is itemized within the total; it is not silently substituted for the total-cost constraint. A separate validation-only cap, if a later profile requires one, must be named and tracked separately. Quality tolerance ε and deadline T remain part of the declared configuration. Risk is measured per campaign, not as the percentage of agents choosing the evaluator's forbidden route P. The physical execution cap B, corresponding to R in the scenario, must also be respected. The economic target b≤B is a separate constraint: a more costly control may establish what is physically achievable without satisfying the low-cost target. If a frozen profile has B=b, that control is unavailable in that profile.
+Validation cost is itemized within the total; it is not silently substituted for the total-cost constraint. A separate validation-only cap, if a later scenario requires one, must be named and tracked separately. Quality tolerance ε and deadline T remain part of the declared configuration. Risk is measured per campaign, not as the percentage of agents choosing the evaluator's forbidden route P. The physical execution cap B, corresponding to R in the scenario, must also be respected. The economic target b≤B is a separate constraint: a more costly control may establish what is physically achievable without satisfying the low-cost target. If a frozen scenario has B=b, that control is unavailable in that scenario.
 
 #### Why the result is conditioned
 
 The result does not say that every R01 configuration is impossible. Its general information-cut theorem applies throughout the complete R01 domain **when its explicit hypotheses hold**: sufficient delivery requires a critical decision; resolving it before acting would exceed the low-cost target; and the entire legitimate information available to the group still bounds the probability of a correct unresolved choice. That last condition includes observations, deductions, memory, messages and certificates. It is a condition to prove for the configuration, not an assumed weakness of a selected algorithm.
 
-Under those hypotheses, let α be the upper bound on the probability of a correct unresolved choice (called a in the mathematical document, distinct from the completion measure a in §1.4). Every low-cost policy then satisfies s≤α and r≥[(1−α)/α]s. Consequently, achieving s≥p requires accepting risk of at least p(1−α)/α. If δ is smaller, the three requirements cannot be met together. The proof must additionally exhibit policies meeting each pair before calling that incompatibility a trilemma.
+Under those hypotheses, let α be the upper bound on the probability of a correct unresolved choice (called a in the mathematical document, distinct from the completion measure a in §1.4). Every low-cost strategy then satisfies s≤α and r≥[(1−α)/α]s. Consequently, achieving s≥p requires accepting risk of at least p(1−α)/α. If δ is smaller, the three requirements cannot be met together. The proof must additionally exhibit strategies meeting each pair before calling that incompatibility a trilemma.
 
 #### Viability regions and consequences
 
-A profile (θ,b,δ,p) is **viable** if at least one admitted policy meets all three requirements. It lies in the **trilemma region** if the cost–risk, cost–efficacy and risk–efficacy pairs are each attainable, but the triple is unattainable. A profile where even one pair cannot be met is outside both of those categories. These distinctions prevent any unsuccessful run from being presented as proof of the trilemma.
+An evaluated scenario (θ,b,δ,p) is **viable under its acceptance policies** if at least one permitted execution strategy meets all three requirements. Its performance then reaches the accepted region. The scenario lies in the **trilemma region** if the cost–risk, cost–efficacy and risk–efficacy pairs are each attainable, but the triple is unattainable. A scenario where even one pair cannot be met is outside both of those categories. These distinctions prevent any unsuccessful run from being presented as proof of the trilemma.
 
-Changing an acceptance threshold can change viability while leaving the task and the policy's actual behaviour unchanged. In the document's constructed family, for example, an unresolved-choice bound α=0.99 and a legitimate-success target p=0.95 yield a minimum low-cost risk of approximately 0.9596%. Within the family's specified cost band and with sufficient physical capacity for its informed control, a risk allowance of 0.1% places the profile in the trilemma region; an allowance of 1% admits a policy meeting all three thresholds. The second profile accepts more risk; it does not reduce the risk of the first policy or make a violation admissible.
+Changing an acceptance threshold can change viability while leaving the task and the strategy's actual behaviour unchanged. In the document's constructed family, for example, an unresolved-choice bound α=0.99 and a legitimate-success target p=0.95 yield a minimum low-cost risk of approximately 0.9596%. Within the family's specified cost band and with sufficient physical capacity for its informed control, a risk allowance of 0.1% places the evaluated scenario in the trilemma region; an allowance of 1% admits a strategy meeting all three thresholds. The second evaluation accepts more risk; it does not reduce the risk of the first strategy or make a violation admissible.
 
-Acquiring sufficient information can also make a profile viable if its full cost and timing fit the targets. The viable region is therefore part of the result, alongside the demonstrated trilemma region. A larger viable region is a positive outcome. The exact frontier depends on the configuration: the numerical frontier proved for the constructed family is not a formula imposed on every R01 interface.
+Acquiring sufficient information can also make a scenario viable under its acceptance policies if its full cost and timing fit the targets. The viable region is therefore part of the result, alongside the demonstrated trilemma region. A larger viable region is a positive outcome. The exact frontier depends on the configuration: the numerical frontier proved for the constructed family is not a formula imposed on every R01 interface.
 
 #### The independent mathematical reference
 
 The separate [**Mathematical validation of the conditioned trilemma**](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) is the canonical reference for definitions, quantifiers, hypotheses, proofs, pairwise controls and the constructed family's exact boundaries. This section explains their meaning; it does not replace that document or modify frozen experimental parameters.
 
-SC-H above retains its empirical scope over the finite evaluated policy family. The mathematical document proves an all-policy result under declared conditions; it does not report an executed campaign, the frequency of difficult configurations in deployments or transfer to a particular technology. [The existing audit and repairs](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) and [the coverage register](./feasibility/WORKPLAN_STATUS.json) preserve prior review evidence and identify remaining checks by version and proposition. Applied technologies and their extension protocol belong to the next, separate phase.
+SC-H above retains its empirical scope over the finite evaluated strategy family. The mathematical document proves an all-strategy result under declared conditions; it does not report an executed campaign, the frequency of difficult configurations in deployments or transfer to a particular technology. [The existing audit and repairs](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) and [the coverage register](./feasibility/WORKPLAN_STATUS.json) preserve prior review evidence and identify remaining checks by version and proposition. Applied technologies and their extension protocol belong to the next, separate phase.
 
 <a id="13-qué-pueden-resolver-las-mejoras"></a>
 ## 1.3 What improvements may resolve
@@ -163,7 +173,7 @@ Memory may avoid unnecessary search: if the system already knows the pattern and
 
 Incremental validation, certificates, cache and good review allocation may also eliminate the difficulty in many cases. Comparison is performed with those capabilities active. Positive validation cost does not imply inefficiency: it may cost far less than the improvement obtained.
 
-The thesis is to measure whether an unfavorable region remains and how far system improvements reduce it. Absence of a universal effectiveness guarantee does not prove that region persists against every policy. We therefore distinguish observed failures, an evaluated family's empirical boundary and impossibility proved within an explicit class.
+The thesis is to measure whether an unfavorable region remains and how far system improvements reduce it. Absence of a universal effectiveness guarantee does not prove that region persists against every strategy. We therefore distinguish observed failures, an evaluated family's empirical boundary and impossibility proved within an explicit class.
 
 The guiding position is that an architecture, including its add-ons, has a scope of effectiveness rather than being a panacea. Both favorable and unfavorable areas must therefore be investigated for each architecture. Their continued existence across problems and resource conditions is the broader thesis to examine; it is not a theorem supplied by this finite experiment. A chosen grid may show only one area, or leave the other unresolved, without justifying a universal conclusion.
 
@@ -172,11 +182,11 @@ The guiding position is that an architecture, including its add-ons, has a scope
 
 The evaluator calculates the maximum J among complete admissible trajectories. The scenario fixes tolerance ε relative to that optimum; ε = 0 requires reaching it exactly, and delivery must respect deadline T. The acceptance policy fixes economic cost target b, maximum campaign risk δ and minimum legitimate-success probability p before observing results. The technology description records the capabilities, accessible information, charges and timing under which execution strategies are evaluated. Risk is the probability of at least one executed violation in a campaign, not the percentage of agents choosing P. Raising δ changes acceptance without changing obligations or recorded violations; detected prohibitions remain rejected under §2.7. Existing fixtures and numerical thresholds are retained. Cases whose uncertainty prevents a decision remain unclassified.
 
-**Absolute effectiveness and relative advantage.** Reaching required quality within limits makes a policy effective for that case. Obtaining a better or less costly result than a comparator is another question. A system may be effective and less suitable than another. The document reports both evaluations.
+**Absolute effectiveness and relative advantage.** Reaching required quality within limits makes a strategy effective for that case. Obtaining a better or less costly result than a comparator is another question. A system may be effective and less suitable than another. The document reports both evaluations.
 
-The comparator is a complete policy for the same task: search, validation, memory, reuse, abstention, execution and time. The initial reference produces M with its costs; competent comparators may discover improvements. Mediocrity of an M trajectory does not describe the capability of every conventional procedure.
+The comparator is a complete strategy for the same task: search, validation, memory, reuse, abstention, execution and time. The initial reference produces M with its costs; competent comparators may discover improvements. Mediocrity of an M trajectory does not describe the capability of every conventional procedure.
 
-The primary comparative outcome is a Pareto frontier over V = (q, C, t, a, f, K). One policy dominates another if it worsens no dimension and improves at least one: higher legitimate quality q and completion a, and lower cost C, latency t, violation f and coordination K are sought. When there are tradeoffs, incomparability is reported. K is broken down to interpret the mechanism, but its cost already belongs to C.
+The primary comparative outcome is a Pareto frontier over V = (q, C, t, a, f, K). One strategy dominates another if it worsens no dimension and improves at least one: higher legitimate quality q and completion a, and lower cost C, latency t, violation f and coordination K are sought. When there are tradeoffs, incomparability is reported. K is broken down to interpret the mechanism, but its cost already belongs to C.
 
 **How an execution is measured.** In the base regime of nonnegative benefits, q is the J value of the complete admissible trajectory delivered within T. Without that delivery, q = 0 by delivered-value convention. J_parcial separately records the technical benefit of actions performed in incomplete or inadmissible attempts; it is not added to q. A violation used to produce the result prevents counting it as legitimate quality. Contributions from several agents are evaluated once over the effective trajectory, including connectors and shared actions. A variant with negative benefits requires another reference for absence of delivery.
 
@@ -191,10 +201,10 @@ The primary comparative outcome is a Pareto frontier over V = (q, C, t, a, f, K)
 
 For a campaign with multiple tasks, aggregation of their qualities and which tasks must complete for e = 1 are fixed beforehand. Delivery-conditioned q is also reported alongside a. To interpret f, the number, type, declared severity and tasks affected by violations are recorded, separating rejected proposals, blocked attempts and executed effects.
 
-Admissibility is a hard constraint, not a price compensable by reward. Only as secondary analysis, among policies satisfying constraints and with justified external conversions, the following is calculated:
+Admissibility is a hard constraint, not a price compensable by reward. Only as secondary analysis, among strategies satisfying constraints and with justified external conversions, the following is calculated:
 
 > U = λ_q · q − λ_C · C − λ_t · t
-> Net advantage = U(policy) − U(reference)
+> Net advantage = U(strategy) − U(reference)
 
 Minimum completion is a requirement. Abstention retains its costs and does not satisfy delivery; any reservation value is declared beforehand. U weights have a sensitivity range: if advantage changes sign, the conclusion depends on that valuation. Waiting counts in latency and, when consuming resources, in C. No arm receives free certification or privileged information.
 
@@ -203,13 +213,13 @@ Minimum completion is a requirement. Abstention retains its costs and does not s
 <a id="15-qué-demostraría-el-escenario"></a>
 ## 1.5 What the scenario would demonstrate
 
-The sought outcome is an effectiveness map for the evaluated family, with quality, cost, time, admissibility and trilemma modes. Its boundary may change with parameters and policies. Comparing areas retains the same problem grid or distribution and its weights; adding easy cases does not demonstrate improvement.
+The sought outcome is an effectiveness map for the evaluated family, with quality, cost, time, admissibility and trilemma modes. Its boundary may change with parameters and strategies. Comparing areas retains the same problem grid or distribution and its weights; adding easy cases does not demonstrate improvement.
 
-For architecture selection, the pilot reports three possible findings: evidence of adequate performance within the tested scope; evidence that no evaluated competent policy meets the requirements; or insufficient evidence to decide. Relative advantage is reported separately. Meeting the quality threshold with little improvement over a cheaper comparator may make another architecture preferable even though R01 classifies the policy as effective. This separates inadequate quality in the trilemma from merely weak comparative value.
+For architecture selection, the pilot reports three possible findings: evidence of adequate performance within the tested scope; evidence that no evaluated competent strategy meets the requirements; or insufficient evidence to decide. Relative advantage is reported separately. Meeting the quality threshold with little improvement over a cheaper comparator may make another architecture preferable even though R01 classifies the strategy as effective. This separates inadequate quality in the trilemma from merely weak comparative value.
 
 Inequality between cost and benefit alone is arithmetic. What is interesting is measuring how much work remains necessary after prioritizing, stopping reviews upon failure detection and reusing valid evidence. A conventional control eliminating the disadvantage counts as a favorable study result.
 
-An impossibility within a class would require justifying that every admissible policy of that class needs minimum additional cost greater than the maximum legitimate improvement. Both bounds would have to be proved. The finite grid provides evidence about its cases, not that theorem.
+An impossibility within a class would require justifying that every admissible strategy of that class needs minimum additional cost greater than the maximum legitimate improvement. Both bounds would have to be proved. The finite grid provides evidence about its cases, not that theorem.
 
 We thus separate the cost of acquiring indispensable information from that of repeating work due to context loss, poor organization or expiry. The former may be inherent to the problem; the latter may be reduced by design. This distinction guides EA's candidacy and other techniques.
 
@@ -229,7 +239,7 @@ Recognizing afterward that a task proved difficult does not always allow knowing
 
 Oversight may contribute experience, external information, mandate clarification or legitimate scope reduction. Those contributions may resolve uncertainty. If the person sees only the same incomplete summary, their review may inherit its limits and also consumes time. A new authorization changes the normative problem; it does not retrospectively prove the earlier action permitted.
 
-There is a precise limit. If two worlds offer exactly the same information to prior diagnosis, but a policy satisfies limits in only one, any selector based exclusively on that view produces the same output or output distribution in both. It cannot always identify them correctly. This also holds for a human with that same information. An additional query, applicable evidence or an “indeterminate” output changes conditions; no universally irresolvable circularity follows.
+There is a precise limit. If two worlds offer exactly the same information to prior diagnosis, but a strategy satisfies limits in only one, any selector based exclusively on that view produces the same output or output distribution in both. It cannot always identify them correctly. This also holds for a human with that same information. An additional query, applicable evidence or an “indeterminate” output changes conditions; no universally irresolvable circularity follows.
 
 **Prospective extension.** Prior detection is outside the first campaign and SC-H. A subsequent campaign may evaluate a selector observing pending coverage, dependencies, stability, novelty relative to memory and pilot queries. Its outputs would be recommend, advise against or indeterminate. False recommendations, missed opportunities, coverage and total diagnostic and oversight cost would be measured, with separate tuning and test worlds. The question is how much choosing with limited information helps, not whether the supervisor can guess hidden routes.
 
@@ -238,11 +248,11 @@ That distinction concerns experimental stages, not a secondary purpose for R01. 
 <a id="bounded-pilots-for-architecture-selection"></a>
 ### Bounded pilots for architecture selection
 
-1. **Define an adequate solution.** Fix the task, permissions, quality tolerance, reliability, total budget and deadline before testing. Record the architecture, policies and R01 compatibility being evaluated.
+1. **Define an adequate solution.** Fix the task, permissions, quality tolerance, reliability, total budget and deadline before testing. Record the architecture, strategies and R01 compatibility being evaluated.
 2. **Construct a small test with the relevant difficulty.** Include permitted improvements, attractive inadmissible alternatives, incomplete evidence and cases where applicable checks resolve uncertainty. Record which real dependencies and conditions the pilot represents and which it omits.
 3. **Compare complete procedures.** Use competent alternatives with the same legitimate information access. Charge exploration, validation, memory, coordination, human oversight and diagnosis, including failed or unfinished attempts. Keep the evaluator's complete map separate from the information available to agents and supervisors.
 4. **Measure before recommending.** Use the campaign's independent worlds, held-out tests and prespecified uncertainty criteria. Report quality, cost, timing, violations and completion, rather than relying on a persuasive explanation or one successful trace. In the later selection stage, measure false recommendations, missed opportunities and indeterminate cases against those outcomes.
-5. **Bound the conclusion and test scale assumptions.** State which problem conditions, resource limits and policies the evidence covers. Longer tasks, more participants, wider dependencies, changing conditions and larger information volume may expose difficulties absent in the small pilot. Vary the relevant factors or justify a model or bound supporting extrapolation. If that support is missing, suitability at scale remains unresolved.
+5. **Bound the conclusion and test scale assumptions.** State which problem conditions, resource limits and strategies the evidence covers. Longer tasks, more participants, wider dependencies, changing conditions and larger information volume may expose difficulties absent in the small pilot. Vary the relevant factors or justify a model or bound supporting extrapolation. If that support is missing, suitability at scale remains unresolved.
 
 The pilot is therefore a limited decision aid: it can reveal reasons to proceed, change architecture, reduce scope or gather more evidence. Its own diagnostic cost and error matter. Neither a favorable small run nor human approval certifies all later configurations.
 
@@ -265,7 +275,7 @@ The pilot is therefore a limited decision aid: it can reveal reasons to proceed,
 | e | Campaign success for SC-H, distinct from completion a |
 | S H₀ h_a h_m | Common units and fixed, per-receiver and maintenance costs in the EA example |
 
-Symbols are not information automatically accessible to the policy: knowing its search parameters does not imply knowing the map, I or the global verdict.
+Symbols are not information automatically accessible to the strategy: knowing its search parameters does not imply knowing the map, I or the global verdict.
 
 <a id="2-el-escenario-y-sus-configuraciones"></a>
 # 2 The scenario and its configurations
@@ -285,9 +295,9 @@ M is the known initial procedure; I and P are evaluator labels. Agents do not re
 
 Three objects are separated: the graph determines technically possible trajectories; Adm(π) determines admissibility; J(π) measures the mission's technical outcome. Legitimate quality recognizes only admissible outcomes. I is calculated after world construction as a trajectory maximizing J among complete admissible ones; ties are retained or resolved with a published rule. P designates an inadmissible reference attractive according to observable benefits, not necessarily the global maximum or an agent's private estimate.
 
-Generators may condition worlds on declared benefit profiles. This is controlled synthetic design, not proof of natural frequency. Profiles are assigned to chains without providing labels; the evaluator derives I and checks realized improvements. If mixtures or connectors create a superior solution, that solution determines I. The rate of worlds discarded for failing conditions is reported before policy evaluation.
+Generators may condition worlds on declared benefit profiles. This is controlled synthetic design, not proof of natural frequency. Profiles are assigned to chains without providing labels; the evaluator derives I and checks realized improvements. If mixtures or connectors create a superior solution, that solution determines I. The rate of worlds discarded for failing conditions is reported before strategy evaluation.
 
-**Availability of M.** The evaluator knows M is admissible. Arms know its plan, but know only what the common initial record establishes. The protocol may give sufficient evidence or require its acquisition; it uses the same regime for all. Knowing the plan is not free certification: obtaining and checking its evidence is charged with a common amortization rule. In the static kernel, exploration and review do not execute the alternative; before commitment the next M step can be retained. After a deviation is executed, return is possible only if a declared connector exists, with its costs and restrictions. There is no free restart or reversal of effects. If budget does not cover executing M, the policy may remain incomplete.
+**Availability of M.** The evaluator knows M is admissible. Arms know its plan, but know only what the common initial record establishes. The protocol may give sufficient evidence or require its acquisition; it uses the same regime for all. Knowing the plan is not free certification: obtaining and checking its evidence is charged with a common amortization rule. In the static kernel, exploration and review do not execute the alternative; before commitment the next M step can be retained. After a deviation is executed, return is possible only if a declared connector exists, with its costs and restrictions. There is no free restart or reversal of effects. If budget does not cover executing M, the strategy may remain incomplete.
 
 **Attractiveness of P.** It is described by generator factors and observable statistics, not the choice frequency to be obtained. In a higher-mean-benefit condition, P's realized mean must exceed I's by the declared margin; the proportion of comparable positions where its local reward is greater is also reported. The order may reverse in a segment. Cost-adjusted or random selection need not prefer P. P is thus not forced always to be the first candidate.
 
@@ -369,23 +379,23 @@ An API actually resolving all admissibility is declared as such, with equivalent
 
 The finding is compared before committing the action. Own review retains its place even with other participants' reports. The figure summarizes the cycle; steps specify its outputs.
 
-![Decision cycle with own review and social return](figures/ciclo-decision.png)
+![Decision cycle with own review and social return, governed by the declared execution strategy](figures/ciclo-decision.png)
 
 Figure 1. Run order. All work is charged; a signal may influence only after reception. Rejection and indeterminate outputs are detailed in §2.17.
 
 1. The agent identifies its position, next planned step and remaining budget.
 2. It searches both sides within its radius and affordable effort.
 3. It explores found candidates and observes their local benefits.
-4. It orders alternatives according to the declared selection policy and provisionally selects one. The reference uses observed benefit; ablations use benefit adjusted by estimated cost or a recorded random order. Selection does not yet produce its operational effect.
+4. It orders alternatives according to the declared selection strategy and provisionally selects one. The reference uses observed benefit; ablations use benefit adjusted by estimated cost or a recorded random order. Selection does not yet produce its operational effect.
 5. It executes own backward and forward validation, including the connector and relevant alternative relations.
 6. If it detects prohibition or incompatibility, it discards that candidate. It considers the next and also applies its checks; it does not know the best actually permitted option in advance.
 7. If it completes planned review without detecting incompatibility, it has a PASS-local. It may incorporate relevant social evidence, without overriding a detected prohibition or suppressing required own review.
-8. If the policy justifies continuing, it commits and executes. The environment records the effect independently of its opinion of the result.
+8. If the strategy justifies continuing, it commits and executes. The environment records the effect independently of its opinion of the result.
 9. It communicates the finding, review and, when available, execution result. Receivers may use them only after reception.
 
 CV-A0 has three selection variants: CV-A0-B orders by local benefit, CV-A0-C by cost-adjusted benefit and CV-A0-R uses random order. B is the diagnostic reference, C contrasts effort valuation and R is an order control; none replaces CV-A1 as the competent arm. The selection rule is a recorded parameter. The cost-adjusted variant makes benefit valuation explicit and subtracts only future costs estimable with accessible information, without querying evaluator labels. Random order serves as a control; all variants retain own review and rejection of detected prohibitions. A greater P average than I's may favor its selection, but does not guarantee each decision's order: segment values vary and some candidates fall outside radius or budget.
 
-The policy must define tie-breaking, waiting, rejection, exhaustion and retries. Those rules are not left to a subsequent decision knowing the global outcome. An agent may follow the canonical route, postpone or fail to complete the task. It is not forced to execute P to obtain a negative.
+The strategy must define tie-breaking, waiting, rejection, exhaustion and retries. Those rules are not left to a subsequent decision knowing the global outcome. An agent may follow the canonical route, postpone or fail to complete the task. It is not forced to execute P to obtain a negative.
 
 <a id="28-validación-convencional-hacia-atrás-y-hacia-delante"></a>
 ## 2.8 Conventional backward and forward validation
@@ -396,12 +406,12 @@ The counting convention must specify whether candidate and connector are include
 
 Verification yields three output classes: detected incompatibility; completed review without incompatibility within its scope; and incomplete review or insufficient evidence for an identified question. Not completing what was planned is not recorded as PASS-local. Nor is every residue interpreted as a universal prohibition on continuing work.
 
-The requested receiver respects a denial it detects. The candidate vulnerability arises when covered information is compatible with the local decision but does not determine a decisive global relation. Agent rationality is understood relative to its information and choice rule; global optimality of that policy has not been proved.
+The requested receiver respects a denial it detects. The candidate vulnerability arises when covered information is compatible with the local decision but does not determine a decisive global relation. Agent rationality is understood relative to its information and choice rule; global optimality of that strategy has not been proved.
 
 <a id="29-cómo-puede-haber-una-infracción-de-composición"></a>
 ## 2.9 How a composition violation may occur
 
-To sustain an informational limit, two worlds must be constructed agreeing on the policy's entire accessible view—observations, rewards, memory, messages and summaries—and having opposite global verdicts. Merely clipping a chain is insufficient. This obligation applies to cases presented as indistinguishable, not any search failure. That indistinguishability within the declared view explains why repeating the same local review does not by itself provide missing information.
+To sustain an informational limit, two worlds must be constructed agreeing on the strategy's entire accessible view—observations, rewards, memory, messages and summaries—and having opposite global verdicts. Merely clipping a chain is insufficient. This obligation applies to cases presented as indistinguishable, not any search failure. That indistinguishability within the declared view explains why repeating the same local review does not by itself provide missing information.
 
 The condition may relate original purpose, delegation chain, resources used and final result. A chain of technically correct steps may fail to establish the necessary authority for its composition. However, one visible incompatibility may suffice for rejection: it is not claimed every violation always requires reading all steps.
 
@@ -436,7 +446,7 @@ The message distinguishes proposal, technical result, check and permission. At m
 
 Own review remains. Peers may contribute checks of previous steps the receiver did not inspect or help detect incompatibility. Their evidence is not automatically added as independent votes. Complementary coverage, overlapping coverage and copies of the same source must be distinguished.
 
-The social-weight rule must be fixed before execution. A policy overvaluing confirmation count may be compared with another considering dependency and scope, without modifying own verification or allowing known denials to be bypassed. Social support may also reduce confidence when communicating failure.
+The social-weight rule must be fixed before execution. A strategy overvaluing confirmation count may be compared with another considering dependency and scope, without modifying own verification or allowing known denials to be bypassed. Social support may also reduce confidence when communicating failure.
 
 Review-based messages are emitted after that review. Execution-based ones are emitted after the result. An agent does not receive future success to justify an earlier decision. Transmission has latency and cost. Increased communication may accelerate I, amplify P or saturate receivers; no output is imposed beforehand.
 
@@ -456,7 +466,7 @@ For a new chain of L segments without reusable evidence, full review costs c_v t
 
 If instead they review an entire planned route of length L before each of its L decisions, the cost of that strategy is c_v times N times L squared. These growth patterns describe concrete strategies. They are not universal lower bounds on conventional validation.
 
-These accounts develop REF09 §14 review strategies; unit-cost and own-window precisions are in §16. For Q distinct proposals of length L reviewed fully and separately, the account is c_v · L · Q. Q is the actually produced and deduplicated volume, not agent count or a constant imposed to obtain failure. That product replaces neither measured cost with early exit, overlaps or reused evidence; nor is it a lower bound. A policy may generate or prioritize fewer proposals, and that reduction must be reflected alongside legitimate quality achieved.
+These accounts develop REF09 §14 review strategies; unit-cost and own-window precisions are in §16. For Q distinct proposals of length L reviewed fully and separately, the account is c_v · L · Q. Q is the actually produced and deduplicated volume, not agent count or a constant imposed to obtain failure. That product replaces neither measured cost with early exit, overlaps or reused evidence; nor is it a lower bound. A strategy may generate or prioritize fewer proposals, and that reduction must be reflected alongside legitimate quality achieved.
 
 The basic validation unit is inspection of a graph relation under a version and mandate, not an agent or round. In a heterogeneous variant, C_validación sums charges c_v(e) of actually performed events; unnecessary repetition also costs. Querying or checking a certificate incurs its own charge. Equivalence between search and review units is declared to interpret ρ.
 
@@ -476,12 +486,12 @@ The cost ledger records what was actually inspected. If a shared prefix exists a
 <a id="212-presupuesto-y-plazo"></a>
 ## 2.12 Budget and deadline
 
-Total budget R and horizon T are fixed scenario constraints. R corresponds to the physical capacity B in the mathematical validation; the acceptance policy's economic target b≤B is separate. A risk–efficacy control may exceed b while remaining within B; if a frozen profile has B=b, that more costly control is unavailable in that profile. This distinction changes no frozen cap or allocation. Under the declared technology and execution strategy, after reserving or accounting for execution work, discretionary budget is allocated between exploration and validation. Fraction v corresponds to validation and the remaining fraction to exploration.
+Total budget R and horizon T are fixed scenario constraints. R corresponds to the physical capacity B in the mathematical validation; the acceptance policy's economic target b≤B is separate. A risk–efficacy control may exceed b while remaining within B; if a frozen scenario has B=b, that more costly control is unavailable in that scenario. This distinction changes no frozen cap or allocation. Under the declared technology and execution strategy, after reserving or accounting for execution work, discretionary budget is allocated between exploration and validation. Fraction v corresponds to validation and the remaining fraction to exploration.
 
 > R_validación = v · R_discrecional
 > R_exploración = (1 − v) · R_discrecional
 
-The sum of all charges respects R. Communication does not disappear into a cost-free category. Transfers between allocations, if allowed, require a fixed policy; initial allocation is distinguished from effective investment. The social/prospective mixture parameter beta may allocate resources only while respecting declared minimum own review.
+The sum of all charges respects R. Communication does not disappear into a cost-free category. Transfers between allocations, if allowed, require a fixed strategy; initial allocation is distinguished from effective investment. The social/prospective mixture parameter beta may allocate resources only while respecting declared minimum own review.
 
 Aggregate cost, cost per legitimate result and latency are reported. Parallelizing may reduce time without reducing total work. Increasing N with per-agent budget fixed increases total resources; increasing it with fixed R studies another question. These are two experiments: fixed per-agent budget and fixed global budget. They have separate primary curves and tables, with their allocation rule published.
 
@@ -491,23 +501,23 @@ Aggregate cost, cost per legitimate result and latency are reported. Parallelizi
 | Family | Group | Parameters to declare |
 |---|---|---|
 | Acceptance policies | Acceptance thresholds | Maximum economic cost b≤R, minimum legitimate-success probability p and maximum campaign-violation probability δ; declare before evaluation and retain frozen values |
-| Scenario | Task | Length L, obligation, principal, required result and deadline T |
-| Scenario | Population | N, individual or collective unit and work allocation |
-| Scenario | Input profiles | Fixed means of generative chains and rules for conditioning or rejecting worlds |
-| Scenario | Realized attractiveness | I and P means and improvements, derived after solving the world; proportion of positions where P offers more benefit |
-| Scenario | Heterogeneity | Dispersions, generation family and benefit correlations |
-| Scenario | Geometry | Mean distances, dispersions, sides, connections and correlation between positions |
-| Technology | Creativity | Radius R_e, search effort and sampling policy if any |
-| Scenario | Composition | Synthetic global parity predicate, conjunctive with randomly positioned local witness, or mixed; witness distribution and admissible controls; separate results |
+| Problem parameters | Task | Length L, obligation, principal, required result and deadline T |
+| Problem parameters | Population | N, individual or collective unit and work allocation |
+| Problem parameters | Input profiles | Fixed means of generative chains and rules for conditioning or rejecting worlds |
+| Problem parameters | Realized attractiveness | I and P means and improvements, derived after solving the world; proportion of positions where P offers more benefit |
+| Problem parameters | Heterogeneity | Dispersions, generation family and benefit correlations |
+| Problem parameters | Geometry | Mean distances, dispersions, sides, connections and correlation between positions |
+| Technology | Creativity | Radius R_e, search effort and sampling strategy if any |
+| Problem parameters | Composition | Synthetic global parity predicate, conjunctive with randomly positioned local witness, or mixed; witness distribution and admissible controls; separate results |
 | Technology | Own review | Depths k_a and k_d, inspection order, early exit, exit criterion and reuse |
 | Technology | Costs | Exploration c_e, validation c_v, search, execution, message and maintenance |
-| Scenario: cap R; technology: allocation | Resources | Budget R, allocation v, mixture beta of social queries and prospective review, and transfer rule |
+| Problem parameters: cap R; technology: allocation | Resources | Budget R, allocation v, mixture beta of social queries and prospective review, and transfer rule |
 | Technology | Social network | Topology, intensity s, latency, weight w_s and dependency treatment |
-| Technology: execution strategy | Policy | Selection by benefit, cost-adjusted benefit or random; tie-breaking, rejection, waiting, retry and recovery |
+| Technology: execution strategy | Execution strategy | Selection by benefit, cost-adjusted benefit or random; tie-breaking, rejection, waiting, retry and recovery |
 | Technology: recorded activity | Observed volume | Q unique proposals; new and reused coverage; deduplication and effective inspections |
-| Scenario: worlds; technology: agent streams | Variation | World and agent seeds; static version or explicit changes |
+| Problem parameters: worlds; technology: agent streams | Variation | World and agent seeds; static version or explicit changes |
 
-This inventory separates the three families without removing the existing parameters. A mixed row states the role of each component: the physical cap belongs to the scenario; allocation and execution rules belong to the technology profile. Observed volume and realized attractiveness remain measured or derived quantities, not independent controls. The technology column records abstract capabilities and declared behaviour; it does not report validation of a particular implementation. The formal correspondence is given in the [mathematical validation](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md#21-tres-familias-de-variables-y-su-correspondencia-formal).
+This inventory separates the three families without removing the existing parameters. A mixed row states the role of each component: the physical cap is a problem parameter; allocation and execution rules belong to the declared technology and its use. Observed volume and realized attractiveness remain measured or derived quantities, not independent controls. The technology column records abstract capabilities and declared behaviour; it does not report validation of a particular implementation. The formal correspondence is given in the [mathematical validation](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md#21-tres-familias-de-variables-y-su-correspondencia-formal).
 
 Benefit and geometry parameters are not resampled during review. Policy contrasts preserve the same world and couple relevant randomness. Subsequent conversations may diverge because decisions change; this is part of the studied effect.
 
@@ -528,9 +538,9 @@ Benefit and geometry parameters are not resampled during review. Policy contrast
 These are questions, not mandatory expected results. The static variant suffices to study a composition cost. The dynamic variant adds changes of participants, dependencies or currency; only it directly studies that temporal pressure.
 
 <a id="215-familia-de-políticas-y-controles"></a>
-## 2.15 Policy and control family
+## 2.15 Execution strategies and controls
 
-The following finite family defines local execution-policy arms, not the acceptance thresholds of §1.2. Each instance must freeze code or rules, parameters, accessible observation, memory, order, depth, communication, resource allocation, abstention, retries and tie-breaking within its declared technology interface. A description such as “adaptive” is insufficient for execution or a bound on all adaptive policies.
+The following finite family defines local execution-strategy arms, not the acceptance thresholds of §1.2. Each instance must freeze code or rules, parameters, accessible observation, memory, order, depth, communication, resource allocation, abstention, retries and tie-breaking within its declared technology interface. A description such as “adaptive” is insufficient for execution or a bound on all adaptive strategies.
 
 | Local arm | Search and review | Comparative role |
 |---|---|---|
@@ -545,7 +555,7 @@ Provenance, cache, certificates and requalification are not exclusive EA privile
 
 Predicate and selection rule are crossed: benefit, cost-adjusted benefit and random order. Ablations without creativity, transmission and influence isolate components. Admissible improvements, visible prohibitions, global incompatibility and independent or repeated evidence are included. A mission change is not incorporated as positive control: the positive is an authorized improvement of the same task.
 
-The campaign distinguishes per-agent and global budget. Primary contrasts, held-out seeds, repetitions and uncertainty criteria are fixed before results are observed. Familiar and new configurations are separated, with worlds held out before policy tuning. Those worlds are not used for training, parameter selection or arm choice. Prior training, memory and evidence received by each arm and amortization of their cost are declared; legitimate generalization is allowed without leaking evaluator answers. Worlds, geometry and rewards are coupled across policies; each agent's randomness comes from separate identified streams. The independent analysis unit is the world or campaign, not each correlated message or agent.
+The campaign distinguishes per-agent and global budget. Primary contrasts, held-out seeds, repetitions and uncertainty criteria are fixed before results are observed. Familiar and new configurations are separated, with worlds held out before strategy tuning. Those worlds are not used for training, parameter selection or arm choice. Prior training, memory and evidence received by each arm and amortization of their cost are declared; legitimate generalization is allowed without leaking evaluator answers. Worlds, geometry and rewards are coupled across strategies; each agent's randomness comes from separate identified streams. The independent analysis unit is the world or campaign, not each correlated message or agent.
 
 **Verifiable competence.** CV-C1 and CV-A1 need executable rules for adaptive search, memory, incremental review, deduplication, budget, abandonment and recovery; they must exploit accessible certificates and permissions under the same contract. Passing controls means admitting applicable evidence, detecting visible incompatibilities, retaining current evidence and respecting budget. It does not guarantee optimality. CV-C0 may fail due to cost or deadline: knowing M does not exempt it from executing and paying for those operations.
 
@@ -572,7 +582,7 @@ Metrics include proportions of M, I, intermediate admissible improvements, P and
 | Budget and deadline | Which operation could not be afforded or finished outside the horizon |
 | Execution and coordination | Which connection, action, delay or dependency prevented result completion |
 
-These stages may accumulate. The record locates where the possibility was lost; attributing its cause to a component requires §2.18 paired contrasts. Subsequent diagnosis does not give I to the policy during execution.
+These stages may accumulate. The record locates where the possibility was lost; attributing its cause to a component requires §2.18 paired contrasts. Subsequent diagnosis does not give I to the strategy during execution.
 
 <a id="217-estados-y-requisitos-verificables-antes-de-ejecutar"></a>
 ## 2.17 States and verifiable requirements before execution
@@ -588,15 +598,15 @@ These stages may accumulate. The record locates where the possibility was lost; 
 | Committed to executed | Action attempted; applicable environment barriers | Execution; cancel before effect if possible |
 | Executed to evaluated | Oracle adjudicates real outcome without informing prior decisions | Evaluation cost separate from agent; does not reverse effects |
 
-Invalidation before execution returns to review or cancels commitment; after effect it only allows future recovery. PASS-local describes a check, not authority. The policy must declare when it acts with incomplete evidence and accept that it may err. A policy requiring sufficient evidence may abstain and pay opportunity cost. Completed, abandoned or incomplete are task states, separate from each candidate's state. The mission remains fixed.
+Invalidation before execution returns to review or cancels commitment; after effect it only allows future recovery. PASS-local describes a check, not authority. The strategy must declare when it acts with incomplete evidence and accept that it may err. A strategy requiring sufficient evidence may abstain and pay opportunity cost. Completed, abandoned or incomplete are task states, separate from each candidate's state. The mission remains fixed.
 
-| Generator and policy check | Validity condition |
+| Generator and strategy check | Validity condition |
 |---|---|
 | Optimum and mixtures | Exhaustive enumeration in small worlds or exact solver with certificate; verify I, ties, connectors and Adm |
 | Benefits and geometry | Realized means, dispersion and limits; sum over effective trajectory; world rejection rate |
 | Absence of accidental hints | Permuting identifiers and presentation does not alter equivalent decisions; audit unintended correlations |
 | Alleged indistinguishability | Two completions with equal total view and opposite verdicts; no omitted sufficient summary |
-| Positive and negative | Verifier admits sufficient applicable evidence and detects visible prohibition; policy respects its rejection rule |
+| Positive and negative | Verifier admits sufficient applicable evidence and detects visible prohibition; strategy respects its rejection rule |
 | Reuse | Changing scope, mandate, version or dependency invalidates exactly affected evidence |
 | Costs and causality | No undeclared free event or double charge; separate random streams and no reception before sending |
 
@@ -614,7 +624,7 @@ Secondary hypotheses are tested per independent world or campaign, with paired s
 | SC-Ha Heterogeneity | Change dispersion while preserving means, geometry, admissibility and selection rule | Whether inadmissible candidate selection increases or legitimate quality worsens; report absent or reversed effect |
 | SC-Hb Duplication | For the same required work, allow or prevent applicable reuse; equal required coverage | Whether repeated inspections raise cost without improving unique coverage or quality; measure cost per useful relation |
 | SC-Hc Social dependency | Equal message amount and content; distinguish independent evidence from relays and their treatment by the receiver | Whether ignoring dependency raises confidence or adoption without additional coverage; do not assume it always does |
-| SC-Hd Reuse | Activate applicable shared evidence versus the same policy without that reuse | Whether it reduces cost at equal integrity, quality and completion after including maintenance |
+| SC-Hd Reuse | Activate applicable shared evidence versus the same strategy without that reuse | Whether it reduces cost at equal integrity, quality and completion after including maintenance |
 | SC-He Expiry | Change invalidation frequency while retaining other tasks and rules | Whether SC-Hd savings decrease or preserving equal validity costs more; belongs to a subsequent campaign |
 
 SC-Ha does not predict a monotonic effect for all distributions: it depends on selection criterion. SC-Hb does not equate greater overlap with greater cost; overlap may precisely allow savings. Minimum relevant magnitude and intervals are recorded; lack of precision is not presented as refutation.
@@ -699,7 +709,7 @@ Hypotheses H1–H6 come from the canonical requirements and hypotheses document 
 | H5 Dynamic ecosystem pressure | Participant or currency changes invalidate evidence | Only in the dynamic variant, requalification frequency and cost |
 | H6 Window according to risk and capability | Fixed depth may spend where it adds little | Whether selecting coverage improves balance against fixed windows |
 
-A long static chain does not prove H5. Likewise, recording residue does not verify H1 or H2 if the policy ignores it or stops the whole task. Hypotheses are tested over decisions, effects, continuity and load.
+A long static chain does not prove H5. Likewise, recording residue does not verify H1 or H2 if the strategy ignores it or stops the whole task. Hypotheses are tested over decisions, effects, continuity and load.
 
 <a id="43-matriz-de-las-hipótesis-diferenciales-de-ea"></a>
 ## 4.3 EA differential hypothesis matrix
@@ -715,7 +725,7 @@ The current differential formulation is integrated into canonical benchmark 00D 
 
 In EA-H3, operational posture distinguishes normal operation, containment and migration preparation, separate from epistemic condition and action authority [REF08, §6]. This document additionally adopts the reading that prohibition is a normative condition, known or unknown, not itself an epistemic condition. That precision is a local interpretation; not attributed to REF08.
 
-The matrix does not assume EA has privileged evaluator access. Its window policy must use observable signals before deciding; it cannot know the decisive segment's location in advance. Control equivalence must be reviewed by effective capabilities, not just names.
+The matrix does not assume EA has privileged evaluator access. Its window strategy must use observable signals before deciding; it cannot know the decisive segment's location in advance. Control equivalence must be reviewed by effective capabilities, not just names.
 
 <a id="44-pequeña-comprobación-analítica-de-un-ahorro-posible"></a>
 ## 4.4 Small analytical check of possible savings
@@ -757,7 +767,7 @@ A conventional control with certificates, cache or incremental verification pres
 <a id="45-controles-donde-no-habría-ventaja"></a>
 ## 4.5 Controls where there would be no advantage
 
-Without common links, S = 0. Necessary review still costs 400 and the active mechanism adds H = 4 + 4 × 2 = 12. Validation costs 412; retaining the same 80 exploration units stipulated for both arms, total is 492. Hypothetical benefit minus cost is −192, versus −180 without that mechanism. If exploration changes, its charge is replaced in both totals. If a competent policy disables management upon detecting no shareable evidence, the saving is recognized.
+Without common links, S = 0. Necessary review still costs 400 and the active mechanism adds H = 4 + 4 × 2 = 12. Validation costs 412; retaining the same 80 exploration units stipulated for both arms, total is 492. Hypothetical benefit minus cost is −192, versus −180 without that mechanism. If exploration changes, its charge is replaced in both totals. If a competent strategy disables management upon detecting no shareable evidence, the saving is recognized.
 
 Advantage may also disappear if evidence expires before use, mandates are incompatible or no sufficient summary exists. A conventional barrier already resolving the case cheaply and promptly may leave little improvement margin. The unfavorable area may shrink, remain or expand: all three possibilities are valid comparison outcomes.
 

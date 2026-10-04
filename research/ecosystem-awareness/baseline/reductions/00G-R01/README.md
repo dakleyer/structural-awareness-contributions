@@ -1,15 +1,17 @@
 <a id="00g-r01-reducción-de-00g"></a>
 # R01 Probabilistic exploration and validation cost
 
-Base specification v0.6 · Reading organization 3 October 2026 · Non-canonical research study
+Base specification v0.6 · Reading organization 4 October 2026 · Non-canonical research study
 
 [Complete base scenario](./Escenario-creatividad-validacion.md) · [Reductions](#reductions) · [Three extensions](#extensiones) · [Preservation record](./ORGANIZATION_TRACE.md)
 
 <a id="canonical-conditioned-trilemma"></a>
-**Current canonical mathematical reference:** [Mathematical validation of the conditioned trilemma in R01, v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md). This standalone document governs the mathematical statement, conditions and viability regions. [R01's explanation](./Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation) links to the same reference; [audit and repairs](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) support it. External reviews have been received; the remaining coverage is tracked by version and proposition in [the current register](./feasibility/WORKPLAN_STATUS.json). The technology-extension protocol is the next separate phase.
+**Current canonical mathematical reference:** [Mathematical validation of the conditioned trilemma in R01, v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md). This standalone document governs the mathematical statement, conditions and viability regions. [R01's explanation](./Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation) links to the same reference; [audit and repairs](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) support it. External reviews have been received; the remaining coverage is tracked by version and proposition in [the current register](./feasibility/WORKPLAN_STATUS.json). The technology-extension protocol is a separate phase. Before continuing it, [the pending consistency review](./feasibility/WORKPLAN.md#extension-vocabulary-review) covers terminology, explanations, visuals and extension proofs in Hugging Face, Infoblox/DNS and the extended family; it is not yet completed.
 
 The dated plans and state snapshots below are retained as history. For the current mathematical formulation, use the canonical document above; their original task criteria remain available.
 
+
+**How to read the evaluation:** [problem + technology → operating scenario → execution strategy → performance → acceptance](./Escenario-creatividad-validacion.md#from-the-practical-problem-to-acceptance). The diagram distinguishes the accepted performance region from whether any permitted strategy can reach it.
 
 [Differential and value of the experiment](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md): the technology–problem suitability map, cost/risk/effectiveness, related work, candidate contribution, oracle priorities and remaining review passes.
 
@@ -138,7 +140,7 @@ This is an internal rerun of the published code, not an independent replication 
 
 The existing Word and PDF files preserve **v0.6 before the reading separation**. They include the former case chapter; the current separated reading edition is in Markdown. This section describes the exports of the **base scenario v0.6**. In the extensions, the current review is in Markdown; the Infoblox Word file preserves the v0.5 edition preceding its later additions, identified in its case record.
 
-Markdown is the current text source; the retained Word and PDF files are exports of the earlier complete v0.6 text. The two figures and their scripts are in this package. `build_figures.py` regenerates the figures with Matplotlib and `build_document.py` regenerates Word with python-docx. The PDF is exported from Word with LibreOffice. The scripts resolve their paths from this folder. A simulator is not yet included: the experiment's executable rules remain pending.
+Markdown is the current text source; the retained Word and PDF files are exports of the earlier complete v0.6 text. The two original figures, the new scenario–acceptance diagram and their generation script are in this package. `build_figures.py` regenerates the figures with Matplotlib and `build_document.py` regenerates Word with python-docx. The PDF is exported from Word with LibreOffice. The scripts resolve their paths from this folder. A simulator is not yet included: the experiment's executable rules remain pending.
 
 The current reading edition separates the base and case documents; the earlier complete text is preserved in the organization record. Local drafts 0.1–0.5, conversational revisions, verification renders and temporary files are not part of the package. Public earlier work remains linked for its documentary role.
 

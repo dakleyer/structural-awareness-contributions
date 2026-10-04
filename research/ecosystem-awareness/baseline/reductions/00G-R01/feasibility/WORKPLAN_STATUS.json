@@ -1,7 +1,7 @@
 {
-  "version": "0.7",
+  "version": "0.8",
   "input_commit": "2d299250a1e9d8103757f3841c73fdb01db82598",
-  "actual_utc": "2026-10-04T09:38:29.902387+00:00",
+  "actual_utc": "2026-10-04T12:04:42.111566+00:00",
   "plan_editor": "Codex, on user instruction",
   "scientific_tasks_closed_by_this_revision": [],
   "current_order": "target and pure mathematics -> symbolic review and R01 bridge -> neutral oracle/harness before new finite experiments -> technology classes -> registered campaigns -> selector",
@@ -659,6 +659,7 @@
   "dependency_semantics": "final-closure dependencies; preparation and early source/attack work may begin before them. T06 behavioral closure is separate from universal transfer, which additionally requires M13/M17/M16. C11 starts with resource contract, freezes statistics before campaign. M16 audits included M13–M15 claims separately without a cyclic dependency.",
   "source_artifacts": "M01/M02/M10/TRILEMMA historical evidence and base scenario unchanged; theorem doc receives status notice only",
   "next_delivery": [
+    "Before M13: terminology/concept/visual and extension-proof consistency review of Hugging Face, Infoblox/DNS and family under existing M17/M07/P08; not yet performed",
     "Independent reconstruction M16 and source-fidelity review M17 of the existing R01 theorem v0.2",
     "Separate mathematical technology-extension protocol after core delivery; no applied technology yet"
   ],
@@ -742,10 +743,10 @@
     "technology_applied": false,
     "variable_families": [
       "acceptance policies (b, delta, p)",
-      "scenario/problem",
-      "technology capabilities and charges (separate applied phase)"
+      "problem parameters",
+      "technology capabilities, charges and declared execution strategies"
     ],
-    "execution_policy_notation": "pi retained; distinct from acceptance policy",
+    "execution_policy_notation": "pi and Pi(theta) retained; execution strategy is the explanatory name for existing executable policies, distinct from acceptance thresholds",
     "validation_cost_is_component_of_total": true,
     "technology_mapping": "t -> theta(t); acceptance thresholds fixed, induced changes declared",
     "documentary_preservation_checks": {
@@ -762,5 +763,51 @@
     "PURE_MATHEMATICAL_TRILEMMA.md",
     "CONDITIONED_TRILEMMA.md",
     "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md"
-  ]
+  ],
+  "previous_documentary_utc": "2026-10-04T09:38:29.902387+00:00",
+  "scenario_vocabulary_revision": {
+    "input_commit": "872a78df2d8ac6e7450cc8b85cc3174c981b7bc3",
+    "main_document": "../Escenario-creatividad-validacion.md",
+    "diagram": "../figures/escenario-aceptacion.svg",
+    "scenario": "problem considered together with declared technology; mathematical configuration theta",
+    "performance": "(c(pi), r(pi), s(pi)); cost ceiling per execution, campaign risk and legitimate-success probabilities",
+    "accepted_region": "c <= b, r <= delta, s >= p; separate from the attainable set",
+    "viability": "exists pi in Pi(theta) meeting all acceptance thresholds; one failing strategy is not an all-strategy impossibility",
+    "proofs_and_equations_changed": false,
+    "new_scientific_tasks_closed": [],
+    "pending_extension_consistency_review": {
+      "status": "OPEN",
+      "before": "continue M13 technology-extension protocol",
+      "tracked_under": [
+        "M17",
+        "M07",
+        "P08"
+      ],
+      "documents": [
+        "../extensions/hugging-face/README.md",
+        "../extensions/infoblox/README.md",
+        "../extensions/family/README.md"
+      ],
+      "scope": [
+        "terminology and concepts",
+        "explanations and parameter inventories",
+        "figures and tables",
+        "extension criteria and mathematical proofs",
+        "code/checkers and reproduction scope",
+        "historical versus constructed evidence",
+        "cross-links and vocabulary consistency with both R01 README files and canonical mathematical validation"
+      ],
+      "preserve": [
+        "information and assumptions",
+        "existing results and controls",
+        "admission and review statuses",
+        "historical manifests and inherited P08 discrepancies"
+      ]
+    },
+    "readmes_verified": [
+      "../README.md",
+      "README.md"
+    ],
+    "canonical_validation_structure_preserved": true
+  }
 }

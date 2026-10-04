@@ -134,3 +134,13 @@ El [teorema principal](./R01_CONDITIONED_TRILEMMA_THEOREM.md) formula el dominio
 | 5. Tecnologías | M13 y T | Evaluar qué hipótesis cambian y cuánto cuesta la nueva información, después de revisar el núcleo. |
 
 Estado conservado: 55 tareas; 4 DONE históricas, 7 IN_PROGRESS, 44 OPEN. Nueva demostración y revisión propias constituyen evidencia de trabajo, no cierre independiente. Ninguna ejecución científica nueva. [Registro de entrega](./R01_CONDITIONED_TRILEMMA_RELEASE.json).
+
+
+<a id="extension-vocabulary-review"></a>
+## Revisión terminológica de las tres extensiones — pendiente antes del protocolo
+
+Por instrucción del usuario, la explicación inicial y el gráfico del [R01 existente](../Escenario-creatividad-validacion.md#from-the-practical-problem-to-acceptance) distinguen parámetros del problema, tecnología, escenario operativo, estrategia de ejecución, terna de desempeño y políticas de aceptación. θ y Π(θ) conservan su significado matemático; las políticas de ejecución ya existentes se denominan estrategias en la explicación. La zona aceptada contiene ternas que cumplen b, δ y p; una estrategia fuera no demuestra inviabilidad de todo el escenario.
+
+**Pendiente, bajo M17/M07 y P08, antes de continuar con M13:** revisar la coherencia de terminología, conceptos, explicación, tablas, gráficos y pruebas de extensión en los tres documentos existentes: [Hugging Face](../extensions/hugging-face/README.md), [Infoblox/DNS](../extensions/infoblox/README.md) y [familia de otros modos de fallo](../extensions/family/README.md). Incluir sus notas matemáticas, criterios, código/checkers, guías de reproducción y alcance declarado. Conservar la separación entre incidentes históricos, escenarios construidos y evidencia efectivamente demostrada o ejecutada. Cambiar nombres únicamente cuando sea necesario; no alterar información, supuestos, resultados, controles ni estados de admisión por una actualización de vocabulario. Los manifiestos históricos y los fallos de verificación heredados de P08 se conservan para su tratamiento explícito, sin sobrescribirlos.
+
+La revisión aún no está realizada ni cerrada. Este seguimiento no crea otro escenario, otra prueba o una tarea científica nueva: se registra dentro de los IDs existentes. Las 55 tareas y sus estados permanecen sin cambios. El protocolo tecnológico sigue siendo una entrega separada posterior a esta revisión terminológica.
