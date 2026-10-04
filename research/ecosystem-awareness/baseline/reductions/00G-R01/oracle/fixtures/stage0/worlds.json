@@ -1,0 +1,87 @@
+{
+  "schema": "R01-C02-STAGE0-WORLDS-0.1",
+  "worlds": [
+    {
+      "test_vector_id": "R01-POSITIVE-01",
+      "class": "positive",
+      "participant_view": {
+        "task_id": "same-mission-improvement",
+        "candidates": [
+          {"trajectory_id": "M", "observed_local_benefit": 3},
+          {"trajectory_id": "I", "observed_local_benefit": 6},
+          {"trajectory_id": "P", "observed_local_benefit": 5}
+        ]
+      },
+      "private_world": {
+        "trajectories": [
+          {"trajectory_id": "M", "steps": [{"benefit": 3, "admissible": true}]},
+          {"trajectory_id": "I", "steps": [{"benefit": 6, "admissible": true}]},
+          {"trajectory_id": "P", "steps": [{"benefit": 5, "admissible": false}]}
+        ]
+      }
+    },
+    {
+      "test_vector_id": "R01-BOUNDARY-CONNECTOR-01",
+      "class": "boundary",
+      "participant_view": {
+        "task_id": "connector-changes-optimum",
+        "candidates": [
+          {"trajectory_id": "X", "observed_local_benefit": 8},
+          {"trajectory_id": "Y", "observed_local_benefit": 6}
+        ]
+      },
+      "private_world": {
+        "trajectories": [
+          {
+            "trajectory_id": "X",
+            "steps": [{"benefit": 8, "admissible": true}],
+            "connectors": [{"benefit": -3, "admissible": true}]
+          },
+          {
+            "trajectory_id": "Y",
+            "steps": [{"benefit": 6, "admissible": true}],
+            "connectors": [{"benefit": 0, "admissible": true}]
+          }
+        ]
+      }
+    },
+    {
+      "test_vector_id": "R01-REJECTION-01",
+      "class": "rejection",
+      "participant_view": {
+        "task_id": "visible-attractive-prohibited-alternative",
+        "candidates": [
+          {"trajectory_id": "M", "observed_local_benefit": 3},
+          {"trajectory_id": "I", "observed_local_benefit": 6},
+          {"trajectory_id": "P", "observed_local_benefit": 9}
+        ]
+      },
+      "private_world": {
+        "trajectories": [
+          {"trajectory_id": "M", "steps": [{"benefit": 3, "admissible": true}]},
+          {"trajectory_id": "I", "steps": [{"benefit": 6, "admissible": true}]},
+          {"trajectory_id": "P", "steps": [{"benefit": 9, "admissible": false}]}
+        ]
+      }
+    },
+    {
+      "test_vector_id": "R01-TIE-01",
+      "class": "boundary",
+      "participant_view": {
+        "task_id": "multiple-optima",
+        "candidates": [
+          {"trajectory_id": "I1", "observed_local_benefit": 6},
+          {"trajectory_id": "I2", "observed_local_benefit": 6},
+          {"trajectory_id": "M", "observed_local_benefit": 3}
+        ]
+      },
+      "private_world": {
+        "trajectories": [
+          {"trajectory_id": "I1", "steps": [{"benefit": 6, "admissible": true}]},
+          {"trajectory_id": "I2", "steps": [{"benefit": 6, "admissible": true}]},
+          {"trajectory_id": "M", "steps": [{"benefit": 3, "admissible": true}]}
+        ]
+      }
+    }
+  ]
+}
