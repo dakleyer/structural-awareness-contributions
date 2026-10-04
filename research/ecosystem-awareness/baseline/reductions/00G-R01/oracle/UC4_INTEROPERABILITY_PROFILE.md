@@ -19,6 +19,8 @@ Nelson's package description also separates common experiment data from adapter-
 Sources:
 - https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5847245589
 - https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
+- revised #13 mapping package v0.4.1-r1: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5900725441
+- Stage-0 calibration result: https://github.com/FG-TIDA/themes/issues/13#issuecomment-5949120841
 
 ## 2. What R01 reuses unchanged in meaning
 
@@ -34,6 +36,12 @@ Sources:
 | Required capabilities | Declares what the execution environment must actually provide before a case is runnable. |
 | Review states | Technical validity, preparer review and source-contributor semantic review remain distinct. |
 | Positive / boundary / rejection vectors | Used directly as the minimum Stage-0 control structure. |
+
+## 2.1 Nelson Stage-0 controls reused
+
+Nelson reports 64 passing reference assertions in the UC-6 / Theme #13 calibration, plus deliberate applicability corruption, malformed-record isolation, deterministic replay, missing agent-ID sensitivity and case-order reversal. R01 reuses those **testbed patterns**, not the UC-6 authority semantics. The detailed source-to-R01 mapping is in [NELSON_BASELINE_IMPORT.md](./NELSON_BASELINE_IMPORT.md).
+
+R01 additionally adds an identifier-permutation control because §2.17 explicitly requires auditing accidental hints, and a no-reference vector that must remain `INCONCLUSIVE`.
 
 ## 3. R01-only sidecar
 
