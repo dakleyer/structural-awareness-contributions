@@ -7,16 +7,49 @@
       "participant_view": {
         "task_id": "same-mission-improvement",
         "candidates": [
-          {"trajectory_id": "M", "observed_local_benefit": 3},
-          {"trajectory_id": "I", "observed_local_benefit": 6},
-          {"trajectory_id": "P", "observed_local_benefit": 5}
+          {
+            "trajectory_id": "M",
+            "observed_local_benefit": 3
+          },
+          {
+            "trajectory_id": "I",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "P",
+            "observed_local_benefit": 5
+          }
         ]
       },
       "private_world": {
         "trajectories": [
-          {"trajectory_id": "M", "steps": [{"benefit": 3, "admissible": true}]},
-          {"trajectory_id": "I", "steps": [{"benefit": 6, "admissible": true}]},
-          {"trajectory_id": "P", "steps": [{"benefit": 5, "admissible": false}]}
+          {
+            "trajectory_id": "M",
+            "steps": [
+              {
+                "benefit": 3,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "I",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "P",
+            "steps": [
+              {
+                "benefit": 5,
+                "admissible": false
+              }
+            ]
+          }
         ]
       }
     },
@@ -26,21 +59,47 @@
       "participant_view": {
         "task_id": "connector-changes-optimum",
         "candidates": [
-          {"trajectory_id": "X", "observed_local_benefit": 8},
-          {"trajectory_id": "Y", "observed_local_benefit": 6}
+          {
+            "trajectory_id": "X",
+            "observed_local_benefit": 8
+          },
+          {
+            "trajectory_id": "Y",
+            "observed_local_benefit": 6
+          }
         ]
       },
       "private_world": {
         "trajectories": [
           {
             "trajectory_id": "X",
-            "steps": [{"benefit": 8, "admissible": true}],
-            "connectors": [{"benefit": -3, "admissible": true}]
+            "steps": [
+              {
+                "benefit": 8,
+                "admissible": true
+              }
+            ],
+            "connectors": [
+              {
+                "benefit": -3,
+                "admissible": true
+              }
+            ]
           },
           {
             "trajectory_id": "Y",
-            "steps": [{"benefit": 6, "admissible": true}],
-            "connectors": [{"benefit": 0, "admissible": true}]
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ],
+            "connectors": [
+              {
+                "benefit": 0,
+                "admissible": true
+              }
+            ]
           }
         ]
       }
@@ -51,16 +110,49 @@
       "participant_view": {
         "task_id": "visible-attractive-prohibited-alternative",
         "candidates": [
-          {"trajectory_id": "M", "observed_local_benefit": 3},
-          {"trajectory_id": "I", "observed_local_benefit": 6},
-          {"trajectory_id": "P", "observed_local_benefit": 9}
+          {
+            "trajectory_id": "M",
+            "observed_local_benefit": 3
+          },
+          {
+            "trajectory_id": "I",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "P",
+            "observed_local_benefit": 9
+          }
         ]
       },
       "private_world": {
         "trajectories": [
-          {"trajectory_id": "M", "steps": [{"benefit": 3, "admissible": true}]},
-          {"trajectory_id": "I", "steps": [{"benefit": 6, "admissible": true}]},
-          {"trajectory_id": "P", "steps": [{"benefit": 9, "admissible": false}]}
+          {
+            "trajectory_id": "M",
+            "steps": [
+              {
+                "benefit": 3,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "I",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "P",
+            "steps": [
+              {
+                "benefit": 9,
+                "admissible": false
+              }
+            ]
+          }
         ]
       }
     },
@@ -70,16 +162,231 @@
       "participant_view": {
         "task_id": "multiple-optima",
         "candidates": [
-          {"trajectory_id": "I1", "observed_local_benefit": 6},
-          {"trajectory_id": "I2", "observed_local_benefit": 6},
-          {"trajectory_id": "M", "observed_local_benefit": 3}
+          {
+            "trajectory_id": "I1",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "I2",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "M",
+            "observed_local_benefit": 3
+          }
         ]
       },
       "private_world": {
         "trajectories": [
-          {"trajectory_id": "I1", "steps": [{"benefit": 6, "admissible": true}]},
-          {"trajectory_id": "I2", "steps": [{"benefit": 6, "admissible": true}]},
-          {"trajectory_id": "M", "steps": [{"benefit": 3, "admissible": true}]}
+          {
+            "trajectory_id": "I1",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "I2",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "M",
+            "steps": [
+              {
+                "benefit": 3,
+                "admissible": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "test_vector_id": "R01-INCONCLUSIVE-01",
+      "class": "boundary",
+      "participant_view": {
+        "task_id": "no-complete-admissible-reference",
+        "candidates": [
+          {
+            "trajectory_id": "P1",
+            "observed_local_benefit": 7
+          },
+          {
+            "trajectory_id": "P2",
+            "observed_local_benefit": 5
+          }
+        ]
+      },
+      "private_world": {
+        "trajectories": [
+          {
+            "trajectory_id": "P1",
+            "steps": [
+              {
+                "benefit": 7,
+                "admissible": false
+              }
+            ]
+          },
+          {
+            "trajectory_id": "P2",
+            "steps": [
+              {
+                "benefit": 5,
+                "admissible": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "test_vector_id": "R01-COST-LIMIT-01",
+      "class": "boundary",
+      "participant_view": {
+        "task_id": "quality-reached-over-cost-and-deadline",
+        "candidates": [
+          {
+            "trajectory_id": "A1",
+            "observed_local_benefit": 1
+          },
+          {
+            "trajectory_id": "A2",
+            "observed_local_benefit": 2
+          },
+          {
+            "trajectory_id": "A3",
+            "observed_local_benefit": 3
+          },
+          {
+            "trajectory_id": "A4",
+            "observed_local_benefit": 4
+          },
+          {
+            "trajectory_id": "A5",
+            "observed_local_benefit": 5
+          },
+          {
+            "trajectory_id": "A6",
+            "observed_local_benefit": 6
+          },
+          {
+            "trajectory_id": "A7",
+            "observed_local_benefit": 7
+          },
+          {
+            "trajectory_id": "A8",
+            "observed_local_benefit": 8
+          },
+          {
+            "trajectory_id": "A9",
+            "observed_local_benefit": 9
+          },
+          {
+            "trajectory_id": "A10",
+            "observed_local_benefit": 10
+          }
+        ]
+      },
+      "private_world": {
+        "trajectories": [
+          {
+            "trajectory_id": "A1",
+            "steps": [
+              {
+                "benefit": 1,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "A2",
+            "steps": [
+              {
+                "benefit": 2,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "A3",
+            "steps": [
+              {
+                "benefit": 3,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "A4",
+            "steps": [
+              {
+                "benefit": 4,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "A5",
+            "steps": [
+              {
+                "benefit": 5,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "A6",
+            "steps": [
+              {
+                "benefit": 6,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "A7",
+            "steps": [
+              {
+                "benefit": 7,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "A8",
+            "steps": [
+              {
+                "benefit": 8,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "A9",
+            "steps": [
+              {
+                "benefit": 9,
+                "admissible": true
+              }
+            ]
+          },
+          {
+            "trajectory_id": "A10",
+            "steps": [
+              {
+                "benefit": 10,
+                "admissible": true
+              }
+            ]
+          }
         ]
       }
     }
