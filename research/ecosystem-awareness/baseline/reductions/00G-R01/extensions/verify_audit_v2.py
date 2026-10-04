@@ -35,6 +35,26 @@ CASES = {
     "family": ("proof/check.py", "proof/results.json"),
 }
 
+# Frozen documentary-drift baseline for the current reading edition.
+# These are known differences from immutable historical manifests/traces; they are
+# not silently accepted by category. Any additional item is a gate failure.
+KNOWN_EXTENSION_DOCUMENTARY_DRIFT = frozenset({
+    "hugging-face/README.md",
+    "infoblox/README.md",
+    "family/README.md",
+})
+KNOWN_TRACE_DOCUMENTARY_DRIFT = frozenset({
+    "Escenario-creatividad-validacion.md",
+    "README.md",
+    "extensions/CRITERIA_AND_AUDIT.md",
+    "extensions/family/README.md",
+    "extensions/hugging-face/README.md",
+    "extensions/infoblox/README.md",
+    "extensions/verify_audit.py",
+    "extensions/infoblox/SHA256.json",
+    "extensions/family/SHA256.json",
+})
+
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -215,6 +235,48 @@ def check_historical_trace_integrity():
     }
 
 
+def trace_logical_item(item):
+    """Collapse trace-layer labels to the documentary path they describe.
+
+    A predecessor-reference failure keeps its full descriptive key so it can never
+    be mistaken for an expected path-level drift.
+    """
+    if ".after:" in item:
+        return item.split(":", 1)[1]
+    return item
+
+
+def classify_documentary_drift(trace_integrity, manifest_integrity):
+    actual_extension = set(manifest_integrity["documentary_mismatches"])
+    actual_trace = {trace_logical_item(item) for item in trace_integrity["drift_items"]}
+
+    known_extension_present = actual_extension & KNOWN_EXTENSION_DOCUMENTARY_DRIFT
+    known_trace_present = actual_trace & KNOWN_TRACE_DOCUMENTARY_DRIFT
+
+    resolved_extension = KNOWN_EXTENSION_DOCUMENTARY_DRIFT - actual_extension
+    resolved_trace = KNOWN_TRACE_DOCUMENTARY_DRIFT - actual_trace
+
+    unrecorded_extension = actual_extension - KNOWN_EXTENSION_DOCUMENTARY_DRIFT
+    unrecorded_trace = actual_trace - KNOWN_TRACE_DOCUMENTARY_DRIFT
+
+    return {
+        "known_documentary_drift_present": {
+            "extensions": sorted(known_extension_present),
+            "traces": sorted(known_trace_present),
+        },
+        "resolved_known_drift": {
+            "extensions": sorted(resolved_extension),
+            "traces": sorted(resolved_trace),
+        },
+        "unrecorded_documentary_drift": {
+            "extensions": sorted(unrecorded_extension),
+            "traces": sorted(unrecorded_trace),
+        },
+        "has_unrecorded": bool(unrecorded_extension or unrecorded_trace),
+        "has_any": bool(actual_extension or actual_trace),
+    }
+
+
 def check_extension_manifests():
     cases = {}
     documentary_mismatches = []
@@ -255,6 +317,7 @@ def run():
     falsifiers, quality_checks = run_falsifiers(family)
     trace_integrity = check_historical_trace_integrity()
     manifest_integrity = check_extension_manifests()
+    documentary_drift = classify_documentary_drift(trace_integrity, manifest_integrity)
 
     historical = json.loads(HISTORICAL_REPORT.read_text())
     historical_substantive_match = (
@@ -272,10 +335,12 @@ def run():
         status, combined = "FAIL", "HISTORICAL_SNAPSHOT_CORRUPT"
     elif not substantive_ok:
         status, combined = "FAIL", "SUBSTANTIVE_FAILURE"
-    elif trace_integrity["status"] == "CURRENT" and manifest_integrity["documentary_status"] == "CURRENT":
-        status, combined = "PASS", "SUBSTANTIVE_PASS_DOCUMENTARY_CURRENT"
+    elif documentary_drift["has_unrecorded"]:
+        status, combined = "FAIL", "UNRECORDED_DOCUMENTARY_DRIFT"
+    elif documentary_drift["has_any"]:
+        status, combined = "PASS", "SUBSTANTIVE_PASS_KNOWN_DOCUMENTARY_DRIFT"
     else:
-        status, combined = "PASS", "SUBSTANTIVE_PASS_DOCUMENTARY_DRIFT"
+        status, combined = "PASS", "SUBSTANTIVE_PASS_DOCUMENTARY_CURRENT"
 
     return {
         "status": status,
@@ -292,6 +357,9 @@ def run():
         "falsifiers": falsifiers,
         "extension_manifest_integrity": manifest_integrity,
         "trace_integrity": trace_integrity,
+        "known_documentary_drift_present": documentary_drift["known_documentary_drift_present"],
+        "resolved_known_drift": documentary_drift["resolved_known_drift"],
+        "unrecorded_documentary_drift": documentary_drift["unrecorded_documentary_drift"],
         "independent_review": False,
         "full_R01_extensionality": "NOT_ESTABLISHED",
         "LLM_calls": 0,
@@ -304,7 +372,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--verify", action="store_true",
-        help="Fail only if substantive reproduction or embedded historical-snapshot integrity fails; documentary drift is reported separately.",
+        help="Fail on substantive mismatch, historical-snapshot corruption, or documentary drift outside the frozen known-drift baseline.",
     )
     parser.add_argument(
         "--write-current", action="store_true",
@@ -324,6 +392,9 @@ if __name__ == "__main__":
         "substantive_mismatches": result["extension_manifest_integrity"]["substantive_mismatches"],
         "documentary_mismatches": result["extension_manifest_integrity"]["documentary_mismatches"],
         "trace_drift_items": result["trace_integrity"]["drift_items"],
+        "known_documentary_drift_present": result["known_documentary_drift_present"],
+        "resolved_known_drift": result["resolved_known_drift"],
+        "unrecorded_documentary_drift": result["unrecorded_documentary_drift"],
         "full_R01_extensionality": result["full_R01_extensionality"],
     }, indent=2))
     if arguments.verify and result["status"] != "PASS":
