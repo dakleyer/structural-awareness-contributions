@@ -1,0 +1,49 @@
+{
+  "schema": "R01-UC4-SIDECAR-0.1",
+  "status": "R01-BRIDGE-DRAFT",
+  "uc4_link": {
+    "use_case": "FG-TIDA/use-cases#4",
+    "upstream_schema_version": "1.1.0-r1 (declared by Nelson; exact package not vendored here)",
+    "experiment_id": "R01-C02-STAGE0-SELFTEST-0.1",
+    "test_vector_ids": ["R01-POSITIVE-01", "R01-BOUNDARY-CONNECTOR-01", "R01-REJECTION-01", "R01-TIE-01"]
+  },
+  "assessment_time": "SYNTHETIC-T0",
+  "consumed_determinations": [],
+  "reviews": {
+    "technical": "PENDING",
+    "preparer": "PASS",
+    "source_contributor": "PENDING"
+  },
+  "r01": {
+    "scenario_version": "00G-R01 current main at preparation time",
+    "world_bundle": {
+      "path": "fixtures/stage0/worlds.json",
+      "sha256_policy": "REQUIRED_BEFORE_EXECUTION"
+    },
+    "participant_view_policy": {
+      "forbidden_keys": ["admissible", "private_label", "optimum", "optimum_J", "expected_outcome", "reference_truth", "world_truth"]
+    },
+    "adapter": {
+      "id": "R01-SELFTEST-HIGHEST-VISIBLE-BENEFIT",
+      "version": "0.1",
+      "path": "adapters/selftest_adapter.py",
+      "required_capabilities": ["read_frozen_observation", "emit_candidate_result"]
+    },
+    "oracle": {
+      "primary_method": "reference.evaluate_world exhaustive trajectory enumeration",
+      "secondary_method": "reference_secondary.evaluate_world_secondary separate implementation path",
+      "candidate_blind": true
+    },
+    "acceptance": {
+      "epsilon": 0,
+      "economic_cost_target_b": 10,
+      "physical_budget_R": 10,
+      "deadline_T": 10
+    },
+    "resource_ledger": {
+      "separate_candidate_operational": true,
+      "separate_oracle_evaluator": true,
+      "coordination_counted_once": true
+    }
+  }
+}
