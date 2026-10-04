@@ -422,7 +422,7 @@ Presence and effect of a factor are also separated. Benefit dispersion or topolo
 
 Let B be a family of worlds and policies in the base scenario, E its application-profile representation, F the world map and α the trace projection. F preserves mission, routes and material facts; α preserves decisions and effects. Success e requires legitimate quality within ε of optimum, cost and deadline within limits and no executed violation.
 
-Transferring a difficulty bound to the target requires this condition: for each policy π_E of the declared target class there exists a policy π_B able to simulate it using the base contract, with the same decisive information and no greater cost and latency under the fixed comparison. Showing each base policy may execute in the target is insufficient: that direction only reproduces behaviors, not excludes a new target solution.
+Transferring a difficulty bound to the target requires the following condition: for each policy π_E of the declared target class, there exists a policy π_B able to simulate it using the base contract, with the same decisive information and no greater cost and latency under the fixed comparison. Showing that each base policy may execute in the target is insufficient: that direction only reproduces behaviors; it does not exclude a new target solution.
 
 | Formal obligation | What it must preserve |
 | --- | --- |
@@ -660,7 +660,7 @@ Within the synthetic contract it is proved that a diagnostic application with co
 
 It is not proved all R01 factors persist in a real Infoblox configuration. In particular, probabilistic exploration, social influence and its causality remain to be realized and tested, alongside real permission semantics and costs. The §5.2 matrix is not automatically closed by the witness. EA's candidacy remains separate: there is no EA comparative result yet.
 
-The next verifiable step is fixing an application configuration: enumerate sources and use conditions; capture effective directory, signal, policy and verifier responses; identify who already knows each condition; and measure whether a sufficient certificate exists or its production cost. That inventory recalculates U and tests whether each target operation has simulation in the contract. Any informational shortcut is incorporated before persistence is attributed.
+The next verifiable step is to fix an application configuration: enumerate sources and use conditions; capture effective directory, signal, policy and verifier responses; identify who already knows each condition; and measure whether a sufficient certificate exists or what its production costs. That inventory recalculates U and tests whether each target operation has a simulation in the contract. Any informational shortcut is incorporated before persistence is attributed.
 
 We may claim a concrete configuration preserves R01 when §5.2's matrix has a verifiable realization, §5.3 correspondence preserves observations and resources, strong controls are active and traces confirm the attributed mechanism. Claiming persistence of an unfavorable region additionally requires the campaign to satisfy SC-H's statistical criterion. Many steps, agents or sources alone are insufficient.
 
