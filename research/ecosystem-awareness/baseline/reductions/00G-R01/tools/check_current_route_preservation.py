@@ -25,9 +25,9 @@ BASELINE_COMMIT = "a96f14718a3b2f307b812ae4d8fe278dffb62764"
 BASELINE_BY_FILE = {
     # Active C02 material was added after the initial preservation audit.
     # Each file is compared from the commit that established the current pre-editorial content.
-    "README.md": "e740126897a3952927de1991f0aeae3fc46aa997",
+    "README.md": "3eee0e588d3d7e0021c3747d8f3eea906e9af576",
     "COMPUTABILITY_AND_ORACLE_PLAN.md": "5ca951ceb17ecca036ed9ea37357fd8c4a5761bb",
-    "feasibility/WORKPLAN.md": "2b2f3f656da5d25f79c782d7d5d60f286c5fbbc7",
+    "feasibility/WORKPLAN.md": "45001db4bdf655765e0202eea60ce02d139afda2",
     "oracle/README.md": "605ea1314622f0f8c257aece82c933dda3e6658e",
     "oracle/UC4_INTEROPERABILITY_PROFILE.md": "f6d7aa5102bb63c9dc8b0bbc5751c0437b8a090d",
     "oracle/NELSON_REVIEW_REQUEST.md": "84f2283cc6c58c970fef56bd3d58c90bbce9b4ab",
