@@ -18,7 +18,7 @@ The author's review of kernel v0.2, repairs and consistency review of the three 
 
 | ID | Delivery | Entry condition |
 |---|---|---|
-| C02 | Neutral oracle and harness with controls, accounting and a second method. **Limited implementation draft now exists in [`../oracle/`](../oracle/README.md).** | UC-4-first adapter/sidecar, dual exact reference paths, oracle-blind trace sealing and Stage-0 positive/boundary/rejection fixtures implemented. Instrumentation self-test is wired into R01 CI. Nelson source-contributor review, exact UC-4 schema validation, broader R01 semantics and independent second-method review remain open. No real technology executed; C11/T03 stay gated. |
+| C02 | Neutral oracle and harness with controls, accounting and a second method. **Limited implementation now exists in [`../oracle/`](../oracle/README.md).** | UC-4-first adapter/sidecar, dual exact reference paths, oracle-blind trace sealing, Nelson-inspired replay/order/malformed controls, R01 identifier/no-reference/cost controls and a §2.6 tool broker are implemented. Batch/interactive adapter modes and the T03 registration template are defined. Self-tests are wired into R01 CI. Nelson source-contributor review, exact UC-4 schema validation, fuller R01 profile semantics and independent external second-method review remain open. No real technology executed; C11/T03 stay gated. |
 | C11 | Campaign registration, resources, comparators and analysis. | Instrument verified; registration before execution. |
 | T03 | Adapter, controls and campaign for the first real implementation; verdict per technology. | C02/C11 and admitted correspondence; expand to other technologies afterward. Integrates C12/T04–T07. |
 
