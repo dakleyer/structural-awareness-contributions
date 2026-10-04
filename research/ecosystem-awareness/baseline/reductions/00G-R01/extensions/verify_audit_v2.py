@@ -185,15 +185,15 @@ def check_historical_trace_integrity():
             R01 / name, expected
         )
 
-    declared_current = {
-        **organization.get("after_sha256", {}),
-        **pilot.get("after_sha256", {}),
-        **scope.get("after_sha256", {}),
-    }
-    current_edition_claims = {
-        name: hash_record(R01 / name, expected)
-        for name, expected in declared_current.items()
-    }
+    current_edition_claims = {}
+    for label, trace in (
+        ("organization.after", organization),
+        ("pilot.after", pilot),
+        ("scope.after", scope),
+    ):
+        for name, expected in trace.get("after_sha256", {}).items():
+            current_edition_claims[f"{label}:{name}"] = hash_record(R01 / name, expected)
+
     drift = [
         key for key, record in {**current_trace_references, **current_edition_claims}.items()
         if record["status"] != "PASS"
