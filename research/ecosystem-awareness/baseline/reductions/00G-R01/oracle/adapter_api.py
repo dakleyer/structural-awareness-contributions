@@ -6,14 +6,31 @@ versioned adapters. This module defines only the R01 side of that boundary.
 
 from __future__ import annotations
 
-from typing import Any, Mapping, Protocol
+from typing import Any, Callable, Mapping, Protocol
 
 
 class R01Adapter(Protocol):
+    """Batch-result adapter used by the current deterministic Stage-0 fixture."""
     ADAPTER_MANIFEST: Mapping[str, Any]
 
     def invoke(self, observation: Mapping[str, Any], context: Mapping[str, Any]) -> Mapping[str, Any]:
         """Run using only participant-visible observation and bounded context."""
+
+
+class R01InteractiveAdapter(Protocol):
+    """Adapter for a runtime that actively uses the bounded R01 tool broker."""
+    ADAPTER_MANIFEST: Mapping[str, Any]
+
+    def run_session(
+        self,
+        observation: Mapping[str, Any],
+        tool_call: Callable[[Mapping[str, Any]], Mapping[str, Any]],
+        context: Mapping[str, Any],
+    ) -> Mapping[str, Any]:
+        """Run without direct access to private world/oracle state."""
+
+
+INTERACTION_MODES = {"BATCH_RESULT", "INTERACTIVE_TOOL_BROKER"}
 
 
 REQUIRED_MANIFEST_FIELDS = {
@@ -32,6 +49,9 @@ def validate_manifest(manifest: Mapping[str, Any]) -> None:
         raise ValueError(f"adapter manifest missing fields: {missing}")
     if not isinstance(manifest["required_capabilities"], list):
         raise ValueError("required_capabilities must be a list")
+    mode = manifest.get("interaction_mode")
+    if mode is not None and mode not in INTERACTION_MODES:
+        raise ValueError(f"unsupported interaction_mode: {mode!r}")
 
 
 def validate_candidate_result(result: Mapping[str, Any]) -> None:
