@@ -174,8 +174,6 @@ def check_historical_trace_integrity():
             embedded_snapshots[f"{label}:{name}"] = {
                 "status": status, "expected_sha256": expected, "actual_sha256": actual,
             }
-            if status != "PASS":
-                raise AssertionError((label, name, "historical snapshot hash mismatch"))
 
     current_trace_references = {}
     expected = pilot["predecessor_organization_trace_sha256"]
@@ -200,11 +198,19 @@ def check_historical_trace_integrity():
         key for key, record in {**current_trace_references, **current_edition_claims}.items()
         if record["status"] != "PASS"
     ]
+    embedded_corrupt = [
+        key for key, record in embedded_snapshots.items()
+        if record["status"] != "PASS"
+    ]
     return {
         "embedded_historical_snapshots": embedded_snapshots,
+        "embedded_snapshot_corruption": embedded_corrupt,
         "current_trace_references": current_trace_references,
         "historical_current_edition_claims": current_edition_claims,
-        "status": "CURRENT" if not drift else "STALE_HISTORICAL_MANIFESTS",
+        "status": (
+            "HISTORICAL_SNAPSHOT_CORRUPT" if embedded_corrupt
+            else ("CURRENT" if not drift else "STALE_HISTORICAL_MANIFESTS")
+        ),
         "drift_items": drift,
     }
 
@@ -258,7 +264,13 @@ def run():
     )
     substantive_ok = historical_substantive_match and manifest_integrity["substantive_status"] == "PASS"
 
-    if not substantive_ok:
+    embedded_corrupt = any(
+        record["status"] != "PASS"
+        for record in trace_integrity["embedded_historical_snapshots"].values()
+    )
+    if embedded_corrupt:
+        status, combined = "FAIL", "HISTORICAL_SNAPSHOT_CORRUPT"
+    elif not substantive_ok:
         status, combined = "FAIL", "SUBSTANTIVE_FAILURE"
     elif trace_integrity["status"] == "CURRENT" and manifest_integrity["documentary_status"] == "CURRENT":
         status, combined = "PASS", "SUBSTANTIVE_PASS_DOCUMENTARY_CURRENT"
@@ -300,8 +312,6 @@ if __name__ == "__main__":
     )
     arguments = parser.parse_args()
     result = run()
-    if arguments.verify and result["status"] != "PASS":
-        raise AssertionError(result["combined_status"])
     if arguments.write_current:
         CURRENT_REPORT.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n")
     print(json.dumps({
@@ -315,3 +325,5 @@ if __name__ == "__main__":
         "documentary_mismatches": result["extension_manifest_integrity"]["documentary_mismatches"],
         "full_R01_extensionality": result["full_R01_extensionality"],
     }, indent=2))
+    if arguments.verify and result["status"] != "PASS":
+        sys.exit(1)
