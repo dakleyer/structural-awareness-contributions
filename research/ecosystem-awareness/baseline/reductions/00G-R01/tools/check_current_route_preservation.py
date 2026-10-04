@@ -174,7 +174,12 @@ def main() -> int:
         b = structural_lines(baseline)
         c = structural_lines(current)
 
-        for key in ("headings", "anchors", "links", "numbers", "code_blocks", "math_blocks", "table_lines", "list_lines"):
+        baseline_heading_titles = [title for _, title in b["headings"]]
+        current_heading_titles = [title for _, title in c["headings"]]
+        if baseline_heading_titles != current_heading_titles:
+            errors.append(f"{rel}: heading titles/order changed")
+
+        for key in ("anchors", "links", "numbers", "code_blocks", "math_blocks", "table_lines", "list_lines"):
             if b[key] != c[key]:
                 errors.append(f"{rel}: protected structure changed: {key}")
 
