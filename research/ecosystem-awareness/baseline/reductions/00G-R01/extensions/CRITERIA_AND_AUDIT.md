@@ -30,7 +30,7 @@ The objective shared by the extensions is to investigate selected failure modes 
 | Result of a bounded pilot | Recorded implementation, conditions, traces and uncertainty | Concerns the tested model and scope, not all causes of the motivating incident. |
 | Correspondence with a historical episode or causal claim | Separate source-grounded evidence for the declared episode or mechanism | Must not be inferred merely from a similar synthetic outcome. |
 
-An absent R01 failure can weaken the tested hypothesis or proposed applicability; it does not imply that a reported incident did not occur or exclude other causes. A present R01 failure likewise does not establish that it caused the historical outcome. A verified synthetic correspondence remains valid only within its contract. References below to historical admission or pending correspondence concern their declared external object or property; they do not make complete incident reconstruction the objective. These distinctions supplement the existing evidence states and leave every proof and admission obligation intact.
+An absent R01 failure can weaken the tested hypothesis or proposed applicability; it does not imply that a reported incident did not occur or exclude other causes. Likewise, a present R01 failure does not establish that it caused the historical outcome. A verified synthetic correspondence remains valid only within its contract. References below to historical admission or pending correspondence concern their declared external object or property; they do not make complete incident reconstruction the objective. These distinctions supplement the existing evidence states and leave every proof and admission obligation intact.
 
 <a id="2-contrato-común-de-correspondencia"></a>
 ## 2 Common correspondence contract
@@ -151,7 +151,7 @@ From `extensions/`:
 python3 verify_audit.py --verify
 ```
 
-The script runs all three checkers in temporary folders, compares their reports with the published ones, verifies hashes of textual case-record files and checks the additional counterexamples for optimum, tolerance and parameter changes. It does not modify each case's reports or turn this review into an agent execution. The code and checked files are identified by SHA-256 in the common report. Word binaries are excluded from this check; their published hashes are retained, without claiming a new verification of their content.
+The script runs all three checkers in temporary folders, compares their reports with the published ones, verifies hashes of textual case-record files and checks the additional counterexamples for optimum, tolerance and parameter changes. It neither modifies the case reports nor turns this review into an agent execution. The code and checked files are identified by SHA-256 in the common report. Word binaries are excluded from this check; their published hashes are retained without claiming a new verification of their content.
 
 R01 v0.6 and its exports are retained. Review records are added to the Markdown sources; the Infoblox Word remains the v0.5 export preceding this record's addition, with its hash retained. External sources and specific conditions remain in each case record. Earlier work is not overwritten and results are not changed to obtain a favorable verdict.
 
