@@ -14,7 +14,7 @@ UC #4 Requirements 22–24 are therefore treated as the governing interoperabili
 
 Source: https://github.com/FG-TIDA/use-cases/issues/4
 
-Nelson's package description also separates common experiment data from adapter-specific mappings and records question/hypothesis, controlled change, actors/trust boundaries, source versions, expected observations, resources, reproducibility and sharing. Schema 1.1.0 additionally records assessment time, determination consumed, provenance, required execution capabilities and separate technical/preparer/contributor review states.
+Nelson's package description also separates common experiment data from adapter-specific mappings. It records question/hypothesis, controlled change, actors/trust boundaries, source versions, expected observations, resources, reproducibility and sharing. Schema 1.1.0 additionally records assessment time, determination consumed, provenance, required execution capabilities and separate technical/preparer/contributor review states.
 
 Sources:
 - https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5847245589
