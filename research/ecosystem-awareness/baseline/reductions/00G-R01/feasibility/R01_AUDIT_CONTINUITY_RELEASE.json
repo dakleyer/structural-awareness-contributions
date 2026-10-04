@@ -1,0 +1,62 @@
+{
+  "version": "0.2",
+  "input_commit": "7881cc72ab5e2773eefb9ba5d4d3b88c7d0974bc",
+  "input_tree": "377e2052175224dc47df6fbb1525ae9397387956",
+  "existing_theorem_preserved": true,
+  "original_sections_preserved": 14,
+  "minimal_repairs": [
+    "certificate multiplier reciprocal",
+    "send/receive preparation ledger",
+    "deadline and event-cap correction",
+    "public receipt without normative verdict",
+    "persistent guessing controls",
+    "h in [0,1]"
+  ],
+  "scope": "R01 conditioned mathematical theorem only; no technology applied",
+  "read_inputs": [
+    "Escenario-creatividad-validacion.md",
+    "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+    "R01_CONDITIONED_TRILEMMA_REVIEW.md",
+    "CONDITIONED_TRILEMMA_DEEP_AUDIT.md",
+    "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md",
+    "R01_CONDITIONED_TRILEMMA_RELEASE.json",
+    "README.md",
+    "feasibility/README.md",
+    "WORKPLAN_STATUS.json",
+    "CONTINUATION_PROMPT.md"
+  ],
+  "changed_paths": [
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN_STATUS.json"
+  ],
+  "README_preservation": "previous bodies are exact prefixes; current status appended",
+  "task_IDs_preserved": 55,
+  "task_states_preserved": true,
+  "counts": {
+    "DONE": 4,
+    "IN_PROGRESS": 7,
+    "OPEN": 44,
+    "BLOCKED": 0
+  },
+  "source_scenario_blob": "eeac068cb2c8be0678b5d913b4a8dca2f167adf6",
+  "canonical_source_changed": false,
+  "fixtures_changed": false,
+  "scientific_executions": 0,
+  "technology_executions": 0,
+  "independent_review": false,
+  "M16": "OPEN",
+  "M17": "IN_PROGRESS",
+  "next_phase": "separate mathematical extension protocol after delivery of core; pending",
+  "document_validation": {
+    "all_prior_theorem_sections_preserved": true,
+    "internal_links_checked": true,
+    "broken_internal_links": 0,
+    "control_characters_checked": true,
+    "math_delimiters_checked": true
+  }
+}

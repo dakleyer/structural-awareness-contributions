@@ -230,8 +230,8 @@
       "new_acceptance": "Revisor distinto del autor y no asignado ficticiamente: reconstruir F1–F4, W1–W5, G1, T1/T2 y cuantificadores, cubriendo políticas omitidas, normalización, presupuesto en ramas fallidas, abstención, igualdad y controles conocidos. Dictamen por afirmación: VALIDATED_IN_SCOPE, COUNTEREXAMPLE o GAP; M13–M15 se revisan separadamente si se incluyen. No basta ejecutar el script del autor. Considerar formalización de los lemas críticos si aporta cobertura; un intento incompleto no es prueba formal. Revisión propia puede continuar sin cerrar esta tarea.",
       "reviewer_requirement": "distinct from author; UNASSIGNED, no independent review claimed",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
-      "current_manuscript": "CONDITIONED_TRILEMMA.md",
-      "additional_pending_review": "v0.2 B/R distinction, joint feasibility cut, branch-budget success corollary, local M02 theorem and G-family compatibility/producer ledger"
+      "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+      "additional_pending_review": "v0.2 B/R distinction, joint feasibility cut, branch-budget success corollary, local M02 theorem and G-family compatibility/producer ledger; v0.2 reciprocal certificate multiplier, corrected send/receive ledger and controls without normative receipt"
     },
     "M17": {
       "status": "IN_PROGRESS",
@@ -248,7 +248,7 @@
       "new_acceptance": "Elegir un objetivo explícito: familia suplementaria o subfamilia de R01. Para afirmar lo segundo, construir embedding/reducción de mundos, acciones, observaciones, efectos y costes; mapear TODAS las políticas relevantes de R01 a la clase cubierta, incluyendo conectores, geometría, autoridad, consultas y barreras. Comprobar dirección de la reducción: no basta exhibir una política ni preservar trazas seleccionadas para transferir imposibilidad. Limitar el resultado a un submodelo o marcar GAP si R01 aporta información o acciones adicionales. E1–E7 y coherencia M07 no sustituyen la reducción.",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
       "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
-      "current_evidence": "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md: correct transfer proposition, metric/budget matrix, all-policy M02 theorem and complete G family with shared binding and paid technical prior",
+      "current_evidence": "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md: correct transfer proposition, metric/budget matrix, all-policy M02 theorem and complete G family with shared binding and paid technical prior; R01_AUDIT_CONTINUITY_AND_REPAIRS.md preserves and reconstructs the existing theorem against the source and earlier audits",
       "remaining": "Independent reconstruction of source fidelity, all operations, producers, paid initial context, local/normative scopes, cost caps and posterior proof; optional extensions have their own bounds",
       "full_R01_evidence": "General certificate and full-history information-cut theorem; growing K-data parity family, arbitrary N, all-policy bounds, exact AVG/WC frontiers, three pair controls and feasible regions",
       "remaining_after_full_R01_development": "Independent reconstruction and source-clause fidelity audit; no universal numerical formula for every R01 interface claimed"
@@ -657,8 +657,8 @@
   "dependency_semantics": "final-closure dependencies; preparation and early source/attack work may begin before them. T06 behavioral closure is separate from universal transfer, which additionally requires M13/M17/M16. C11 starts with resource contract, freezes statistics before campaign. M16 audits included M13–M15 claims separately without a cyclic dependency.",
   "source_artifacts": "M01/M02/M10/TRILEMMA historical evidence and base scenario unchanged; theorem doc receives status notice only",
   "next_delivery": [
-    "M12 versioned target contract and obligation matrix",
-    "M06/M11 first directed attacks"
+    "Independent reconstruction M16 and source-fidelity review M17 of the existing R01 theorem v0.2",
+    "Separate mathematical technology-extension protocol after core delivery; no applied technology yet"
   ],
   "independent_review": false,
   "mathematical_results_changed": false,
@@ -691,9 +691,31 @@
     "own_review": "R01_CONDITIONED_TRILEMMA_REVIEW.md",
     "scope": "full configuration domain; information-cut condition on all policies; nonempty trilemma and feasible regions",
     "growing_information_family": "global parity of K data; total producer cost K; arbitrary L and N; explicit AVG and WC frontiers",
-    "status": "symbolic proof delivered; independent reconstruction and source-fidelity audit pending",
+    "status": "existing symbolic proof repaired and reconstructed by its author; independent reconstruction and source-fidelity audit pending",
     "source_changed": false,
-    "scientific_executions": 0
+    "scientific_executions": 0,
+    "version": "0.2",
+    "repairs_document": "R01_AUDIT_CONTINUITY_AND_REPAIRS.md"
   },
-  "R01_growing_information_family_proof_available": true
+  "R01_growing_information_family_proof_available": true,
+  "previous_next_delivery_before_v02": [
+    "M12 versioned target contract and obligation matrix",
+    "M06/M11 first directed attacks"
+  ],
+  "core_v02": {
+    "input_commit": "7881cc72ab5e2773eefb9ba5d4d3b88c7d0974bc",
+    "audit": "R01_AUDIT_CONTINUITY_AND_REPAIRS.md",
+    "minimal_repairs": [
+      "reciprocal certificate multiplier",
+      "send and receive costs",
+      "deadline and event cap",
+      "controls without evaluator verdict",
+      "joint technical-efficacy range"
+    ],
+    "new_scientific_executions": 0,
+    "independent_review": false,
+    "source_changed": false,
+    "technology_applied": false,
+    "next_phase": "separate extension protocol; pending"
+  }
 }

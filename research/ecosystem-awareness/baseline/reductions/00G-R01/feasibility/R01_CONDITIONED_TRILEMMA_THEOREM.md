@@ -2,7 +2,7 @@
 
 Iván Abril Palma · Ecosystem Awareness · Desarrollo matemático de viabilidad
 
-Versión 0.1 · 4 de octubre de 2026 · Reconstrucción simbólica propia; revisión independiente pendiente.
+Versión 0.2 · 4 de octubre de 2026 · Reconstrucción simbólica propia; revisión independiente pendiente.
 
 Fuente R01: `Escenario-creatividad-validacion.md`, versión 0.6, leída en el commit `2d299250a1e9d8103757f3841c73fdb01db82598`. Este documento desarrolla un teorema sobre su dominio de configuraciones. No modifica la especificación experimental, los incidentes, los fixtures ni los resultados históricos.
 
@@ -60,6 +60,26 @@ La región viable es F={ (θ,b,δ,p): P_CRE≠∅ }. Las proyecciones por pares 
 
 La prueba completa está en §§5–10. La mera definición de T no demuestra su no vaciedad; los controles y las cotas de §§7–10 la establecen. Tampoco se afirma que T∪F clasifique todas las configuraciones: existen casos donde ya falla un par, además de casos todavía sin cota explícita.
 
+
+### 4.1 Alcance universal de la afirmación condicionada
+
+Sea Θ_R01 el dominio de todos los manifiestos completos que satisfacen las condiciones de R01. El teorema no reemplaza ese dominio por la familia de §7. Para todo θ∈Θ_R01 se consideran todas las políticas Π(θ), con todas las operaciones y observaciones realmente declaradas. El certificado de §5 es válido en cada uno de esos manifiestos. En particular:
+
+$$
+\forall θ\in Θ_{R01},\quad
+\bigl[I1(θ,b)\land I2(θ,b)\land I3(θ,b,a)\bigr]
+\Longrightarrow
+\forall π\in Π(θ),\quad
+c(π)\le b\Longrightarrow
+\bigl[s(π)\le a\ \land\ r(π)\ge \tfrac{1-a}{a}s(π)\bigr].
+$$
+
+Si, en ese mismo θ, existen los tres controles legales de §6 y δ<p(1−a)/a, se obtiene pertenencia a la región de trilema T. La familia de §7 demuestra que tales configuraciones existen para tamaños arbitrarios; no es una sustitución del dominio general por una prueba de un único control. Si una configuración dispone de suficiente información accesible y asequible, puede pertenecer a F. Si ya falla un par, pertenece a una tercera categoría, distinta de T y F.
+
+«Para todo R01» significa aquí validez de esta afirmación condicionada en todo Θ_R01 y cobertura de todas las políticas en las configuraciones que satisfacen sus hipótesis. No significa que toda configuración individual deba presentar simultáneamente los tres pares y una triple imposibilidad: una configuración plenamente informada es un caso viable admitido por R01. La forma del certificado es general; su evaluación y la frontera numérica dependen del manifiesto. Una descripción aún incompleta de respuestas, costes o datos iniciales no permite determinar esa frontera única.
+
+Esta entrega contiene únicamente la formulación y demostración bajo condiciones de R01. No aplica una tecnología ni da por probada la transferencia a una implementación.
+
 ## 5. Certificado general sobre cualquier interfaz R01
 
 Para todo θ y b, sea Π_b={π∈Π(θ):c(π)≤b}. Para λ≥0 definir
@@ -109,7 +129,7 @@ $$
 
 **Prueba.** Por I2, una entrega barata tiene τ no resuelto. El éxito legítimo requiere que τ sea correcto; por I3, su probabilidad no supera au. Una decisión incorrecta en U ocurre con probabilidad al menos (1−a)u y por I1 está contenida en V. Dividir las dos cotas da r≥λs. La entrega técnica barata está contenida en U, de modo que η≤u y r≥(1−a)η. Las historias sin τ, los fallos tardíos y las paradas solo pueden reducir s; las infracciones adicionales solo pueden aumentar r. ∎
 
-En particular A_{θ,b}(λ)≤0. Si δ<λp, la proposición 1 prueba la imposibilidad triple. Esta prueba cubre cualquier configuración R01 con I1–I3, cualquiera que sea la razón física de la información faltante: hechos independientes, una dependencia global, datos compartidos o una búsqueda de evidencia.
+Para conectar con §5, usar el multiplicador μ=1/λ=a/(1−a), no λ: r≥λs implica s−μr≤0 y A_{θ,b}(μ)≤0. Si δ<λp, entonces p−μδ>0 y la proposición 1 prueba la imposibilidad triple. El coeficiente de r≥λs y el multiplicador del certificado son recíprocos. Esta prueba cubre cualquier configuración R01 con I1–I3, cualquiera que sea la razón física de la información faltante: hechos independientes, una dependencia global, datos compartidos o una búsqueda de evidencia.
 
 **Corolario de éxito compuesto por traza.** Para cualquier política física π∈Π(θ), aunque gaste más de b en otras ramas, definir η_b=P(H∩{C_traza≤b}) y s_b=e_b=P(S∩{C_traza≤b}). La misma prueba da s_b≤a, r≥λs_b y r≥(1−a)η_b: I2 solo usa las ramas de entrega barata y las infracciones de U siguen contándose sobre toda la campaña. Por tanto exigir e_b≥p y r≤δ<λp es imposible incluso permitiendo fallos o entregas caras fuera de ese evento de éxito. No se obtiene éxito barato subsidiándolo con ramas adicionales. Este corolario conecta directamente con la evaluación compuesta de R01, sin identificar ledger por traza con máximo de política.
 
@@ -131,19 +151,19 @@ Para cualquier L≥1,N≥1,K≥1, construir θ_{L,N,K,a}, con 1/2≤a<1. L es la
 
 **Dependencia normativa.** Existen K relaciones de autoridad con datos w_1,…,w_K, y la regla pública χ=w_1⊕…⊕w_K. No se confunde el dato oculto con una nueva autorización: la misión y la regla siguen fijas. Se genera χ con P(χ=0)=a, y se escoge uniformemente uno de los 2^{K−1} vectores de esa paridad. Para a=1/2, los datos son bits independientes uniformes. Para a>1/2 son correlacionados; la prueba no los trata como independientes.
 
-**Información inicial y preparación.** El perfil empieza con una preparación técnica común adquirida y pagada: mapa de los 2L candidatos, referencias de la regla, evidencia de M y versión. Su cargo automático es C_pre=2+4L+(N−1): preparación 2, descubrimiento de 2L candidatos a c_e=2, y comunicación inicial a cada agente adicional a coste 1. Duración 1+2L+(N−1). No incluye ningún w_j ni χ. Identificadores, longitudes, posiciones, referencias y registros técnicos no dependen de χ. No hay certificado normativo inicial ni conocimiento previo de sus datos.
+**Información inicial y preparación.** El perfil empieza con una preparación técnica común adquirida y pagada: mapa de los 2L candidatos, referencias de la regla, evidencia de M y versión. Su cargo automático es C_pre=2+4L+2(N−1): preparación 2, descubrimiento de 2L candidatos a c_e=2, y comunicación inicial a cada agente adicional con envío y recepción de coste 1 cada uno. Duración secuencial suficiente 1+2L+2(N−1). No incluye ningún w_j ni χ. Identificadores, longitudes, posiciones, referencias y registros técnicos no dependen de χ. No hay certificado normativo inicial ni conocimiento previo de sus datos.
 
 Ese estado inicial y sus gastos forman parte de θ, como permite R01 §§2.1,2.6,2.15. Ninguna política puede borrarlos. No se afirma que explorar primero todo el catálogo sea óptimo para una campaña que empezase antes de ese contexto; esa campaña sería otra configuración del dominio completo. Aquí se ofrece incluso un prior técnico favorable para aislar el coste normativo indispensable. La compra de ese prior no se declara información gratuita.
 
-**Operaciones y transición completa.** La historia colectiva contiene el prefijo efectivamente ejecutado, los certificados locales, commitments, candidatos observados, datos normativos adquiridos, evidencia válida de χ, mensajes entregados, versión, ledger, reloj y V. Las políticas solo reciben las partes previstas para su identidad. Los datos ocultos permanecen en el entorno.
+**Operaciones y transición completa.** El estado global del entorno contiene el prefijo efectivamente ejecutado, los certificados locales, commitments, candidatos observados, datos normativos adquiridos, evidencia válida de χ, mensajes entregados, versión, ledger, reloj y V. Las políticas solo reciben las partes observables previstas para su identidad. V y el χ no adquirido permanecen privados en el evaluador; la historia colectiva observable no incluye esos valores.
 
 | Operación | Cargo y duración | Respuesta, transición y límites |
 |---|---|---|
-| Preparación inicial | C_pre y 1+2L+N−1 | Prior técnico pagado anterior. Una repetición vuelve a pagar y no reinicia ledger, prefijo, V ni datos. |
+| Preparación inicial | C_pre y 1+2L+2(N−1) | Prior técnico pagado anterior. Una repetición vuelve a pagar y no reinicia ledger, prefijo, V ni datos. |
 | Explore | 2 y 1 por candidato | Geometría/beneficio técnico. No informa w ni χ; aquí el prior ya contiene esos candidatos. |
 | Review local | 1 y 1 | Comprueba nodo, conector material, mandato/version y ámbito técnico exacto de la próxima capa; produce evidencia local. No inspecciona las relaciones normativas aún pendientes. Ampliar ese ámbito se realiza con inspect relation y sus cargos. |
 | Decide | 1 y 1 | Usa evidencia local vigente, comprueba aplicabilidad de datos adquiridos y calcula paridad si están todos; rechaza una prohibición conocida; crea commitment exacto. Su precio incluye ese uso/cálculo, sin segundo cargo oculto. |
-| Execute | 1 y 1 | Requiere gate y commitment para siguiente capa. Efecto atómico; avanza prefijo y consume gate. M no revela χ; X/Y entrega después del efecto su actividad y con ello χ. Si fue inadmisible, V se pone a 1 definitivamente. |
+| Execute | 1 y 1 | Requiere gate y commitment para siguiente capa. Efecto atómico; avanza prefijo y consume gate. El recibo público confirma la ejecución técnica y su cargo, sin χ ni veredicto normativo. El evaluador adjudica la admisibilidad por separado; si fue inadmisible, V se pone a 1 definitivamente. Un diagnóstico posterior de χ requeriría una operación y cargo declarados. |
 | Inspect relation / query state | 1 y 1 por dato examinado | Devuelve un w_j, ámbito, origen y versión. La adquisición y producción de esa evidencia están incluidas. Releer paga de nuevo; no obtiene otro dato oculto. |
 | Query mandate | 1 y 1 | Devuelve fórmula, principal y versión, ya conocidos. Solicitar hechos subyacentes usa las lecturas anteriores. |
 | Certificado global / API resolutiva | Al menos tantos cargos de lectura como nuevos w_j necesarios; uso adicional declarado ≥0 | Existe solo tras producir la evidencia: lee los datos faltantes, registra productor y cargos, y entrega paridad. Un productor externo no posee un certificado previo en este perfil. No cobra solo el tamaño de salida. |
@@ -159,14 +179,14 @@ Los N agentes pueden leer en paralelo, repartirse los datos y comunicarlos. Solo
 Cada entrega completa paga al menos
 
 $$
-C_0=C_{pre}+3L=1+7L+N.
+C_0=C_{pre}+3L=7L+2N.
 $$
 
 Las L comprobaciones locales se refieren a ámbitos sucesivos; no son K relecturas normativas ni un requisito de repetir una prueba global ya adquirida. El control informado reutiliza su única paridad en todas las capas.
 
-Fijar B=C_0+K y T suficientemente grande, por ejemplo T=5L+K+N+4. Los controles necesitan a lo sumo la preparación, K lecturas, 3L gates y stop; ese T los cubre. Si el manifiesto requiere un cap de eventos, usar H=5L+K+N+4. No se mantiene un H histórico constante cuando crece el tamaño.
+Fijar B=C_0+K y T suficientemente grande, por ejemplo T=5L+K+2N+4. Los controles necesitan a lo sumo la preparación, K lecturas, 3L gates y stop; ese T los cubre. Si el manifiesto requiere un cap de eventos, usar H_cap=5L+K+2N+4. No se mantiene un H histórico constante cuando crece el tamaño.
 
-Para completar los parámetros de §2.13: usar presupuesto global compartido, sin aumentar B al añadir agentes; reservar 2+(N−1)+2L para preparación administrativa, reparto inicial y decisiones/efectos; el restante discrecional es 5L+K, con v=(L+K)/(5L+K) para revisión y 1−v para descubrimiento. Se permiten transferencias entre partidas siempre bajo B y con el ledger íntegro; comunicación adicional también consume ese presupuesto. La red es completa con latencias declaradas arriba, radio R_e=2 y posiciones ±1; la información técnica inicial es memoria legítima, no búsqueda gratuita durante la campaña. La unidad de revisión local es la relación material con sus extremos/conector, a precio 1; las K relaciones normativas son otros ámbitos. Versiones y mandato son estáticos. Los empates se resuelven por cada política y la moneda de los controles es independiente de los mundos. No hay per-agent cuotas que impidan al agente del control ejecutar la tarea; otros regímenes de reparto son otras θ del dominio.
+Para completar los parámetros de §2.13: usar presupuesto global compartido, sin aumentar B al añadir agentes; reservar 2+2(N−1)+2L para preparación administrativa, reparto inicial y decisiones/efectos; el restante discrecional es 5L+K, con v=(L+K)/(5L+K) para revisión y 1−v para descubrimiento. Se permiten transferencias entre partidas siempre bajo B y con el ledger íntegro; comunicación adicional también consume ese presupuesto. La red es completa con latencias declaradas arriba, radio R_e=2 y posiciones ±1; la información técnica inicial es memoria legítima, no búsqueda gratuita durante la campaña. La unidad de revisión local es la relación material con sus extremos/conector, a precio 1; las K relaciones normativas son otros ámbitos. Versiones y mandato son estáticos. Los empates se resuelven por cada política y la moneda de los controles es independiente de los mundos. No hay per-agent cuotas que impidan al agente del control ejecutar la tarea; otros regímenes de reparto son otras θ del dominio.
 
 ## 8. Ausencia de filtraciones y cota para todas las políticas
 
@@ -196,7 +216,7 @@ Una política puede adquirir toda la evidencia y luego abandonar para no superar
 
 Para C_0≤b<C_0+K, el siguiente control usa un único agente; los restantes pueden permanecer inactivos, conservando sus recursos y sin mensajes nuevos.
 
-Lanzar una moneda independiente con probabilidad β de intento. Si no intenta, ejecutar M con todos sus gates. Si intenta, ejecutar X en la primera capa sin resolver χ; después del efecto, usar el recibo para escoger la opción correcta en las capas restantes. Si χ=1, la primera infracción sigue registrada y las futuras opciones X conocidas como prohibidas se rechazan. Todos los conectores, revisiones y commitments siguen presentes. Esto produce
+Lanzar una moneda independiente con probabilidad β de intento. Si no intenta, ejecutar M con todos sus gates. Si intenta, mantener la apuesta X en las L capas mientras no haya evidencia de prohibición, con la revisión propia de cada ámbito. Este control no pide ni recibe el veredicto del evaluador. En χ=0 todas esas acciones son admisibles; en χ=1 se ejecuta una infracción, que permanece registrada, y el resultado no cuenta como éxito legítimo. Si una consulta declarada aportase una prohibición conocida, se rechazaría el candidato: esta construcción no adquiere esa información. Todos los conectores, revisiones y commitments siguen presentes. Esto produce
 
 $$
 c=C_0,\qquad η=β,\qquad s=aβ,\qquad r=(1−a)β.
@@ -212,7 +232,7 @@ Por la cota anterior y esos controles, las siguientes condiciones son exactas en
 | C_0≤b<C_0+K | Si y solo si p≤a y δ≥p(a^{−1}−1). |
 | b≥C_0+K, con capacidad física suficiente | Viable para todo 0<p≤1 y δ≥0. |
 
-En la banda intermedia, la frontera mínima de riesgo legítimo es p(a^{−1}−1), alcanzada por β=p/a. La frontera técnica para η≥h es h(1−a), alcanzada por β=h. Si se exigen ambos s≥p y η≥h, la condición exacta es p≤a y δ≥max{p(a^{−1}−1),h(1−a)}, con β=max{p/a,h}. No se anuncia esto como una frontera de Pareto en seis dimensiones.
+En la banda intermedia, la frontera mínima de riesgo legítimo es p(a^{−1}−1), alcanzada por β=p/a. La frontera técnica para η≥h es h(1−a), alcanzada por β=h. Si se exigen ambos s≥p y η≥h, con 0≤h≤1, la condición exacta es p≤a y δ≥max{p(a^{−1}−1),h(1−a)}, con β=max{p/a,h}. No se anuncia esto como una frontera de Pareto en seis dimensiones.
 
 Por el corolario de §6, el mismo criterio p≤a y δ≥p(a^{−1}−1) caracteriza e_b≥p,r≤δ en esa banda **sobre todas las políticas físicas**, sin imponer además c≤b a sus ramas fallidas o caras: la cota inferior cubre esas políticas y el control β=p/a la alcanza. Ello no convierte al control informado caro en un control de e_b alto; a b<C_0+K su entrega informada sigue estando fuera de e_b.
 
@@ -221,7 +241,7 @@ Por el corolario de §6, el mismo criterio p≤a y δ≥p(a^{−1}−1) caracter
 | Par alcanzable | Política | Condición tercera que falla |
 |---|---|---|
 | Coste y riesgo | Ejecutar M | s=0<p. |
-| Coste y eficacia legítima | Intentar con β=p/a y adaptar tras recibo | r=p(a^{−1}−1)>δ. |
+| Coste y eficacia legítima | Intentar con β=p/a y mantener X sin veredicto oculto | r=p(a^{−1}−1)>δ. |
 | Riesgo y eficacia legítima | Adquirir los K datos y usar su paridad | c=C_0+K>b. |
 
 La desigualdad r≥(a^{−1}−1)s impide la triple condición para cualquier otra política. No se deduce la imposibilidad únicamente de que fallen esos tres controles.
@@ -236,7 +256,7 @@ Para cualquier L,N,K hay también una configuración de umbrales viable al eleva
 
 En WC se exige eficacia mínima y riesgo máximo sobre todos los mundos permitidos, manteniendo el techo de coste por mundo. Un control que cumpliese esos objetivos en cada mundo los cumpliría al promediar con la distribución auxiliar de bits uniformes. Aplicar la prueba con a=1/2 da s_WC≤1/2 y r_WC≥s_WC para políticas baratas. Para la segunda desigualdad, r_AVG≥s_AVG≥s_WC y r_WC≥r_AVG.
 
-El control barato que elige X/Y con moneda justa en su primer efecto y luego adapta al recibo consigue, en cada mundo, η=β,s=β/2,r=β/2. Por tanto la frontera WC es exactamente r=p para 0<p≤1/2 en la banda barata, con trilema para δ<p. El informado sigue consiguiendo s=1,r=0 a C_0+K. El ejemplo AVG de 95 % no se importa a WC.
+El control barato que elige X/Y con moneda justa y mantiene esa misma apuesta en todas las capas sin recibir veredicto normativo consigue, en cada mundo, η=β,s=β/2,r=β/2. Por tanto la frontera WC es exactamente r=p para 0<p≤1/2 en la banda barata, con trilema para δ<p. El informado sigue consiguiendo s=1,r=0 a C_0+K. El ejemplo AVG de 95 % no se importa a WC.
 
 Las cotas se mantienen para cualquier N porque ya se demostraron en la envolvente que reúne toda la evidencia colectiva. La población puede reducir latencia si reparte lecturas; no puede producir el dato K que falta copiando los K−1 conocidos. Un certificado inicial válido o una fuente con ese dato sí cambia la información y puede resolver la dificultad; corresponde a otra θ.
 
@@ -252,11 +272,11 @@ Elegir K=L, N arbitrario y L creciendo da una familia infinita dentro del contro
 | §§2.2–2.4: conectores, beneficios, geometría | Todas las transiciones materiales declaradas; cero beneficio de conectores; medias altas coincidentes permitidas; geometría sin señal normativa. |
 | §2.5: colaboración y resultado colectivo | N arbitrario, un ledger y prefijo efectivos; no se multiplican resultados por informes. |
 | §2.6: consultas y productor | Operaciones completas; dato local por lectura; API global permitida, producción incluida; ninguna lectura directa del evaluador. |
-| §§2.7–2.8: revisión propia y rechazo conocido | Review→decide→execute; ampliar scope adquiere evidencia pagando; tras recibo no se repite una prohibición conocida. |
+| §§2.7–2.8: revisión propia y rechazo conocido | Review→decide→execute; ampliar scope adquiere evidencia pagando; se rechaza una prohibición conocida; el control barato no recibe veredicto normativo. |
 | §2.9: globalidad y paridad | K datos, con K=L como control explícito del escenario; prueba del historial completo, no solo una ventana. No se afirma semántica de permiso de un incidente histórico. |
 | §§2.10–2.11: mensajes, caché y cargos | Fuentes y evidencia conservadas; productor cobrado; paridad reutilizada sin recalcularla en todas las capas. c_v=1<c_e=2. |
 | §§2.12–2.13: recursos y configuración | Cap físico B, objetivo económico b y horizonte; los parámetros independientes están declarados. |
-| §§2.15–2.17: políticas y causalidad | Todas las reglas por historia de la interfaz; semillas sin mundo oculto; recibos posteriores; controles positivos y negativos legales. |
+| §§2.15–2.17: políticas y causalidad | Todas las reglas por historia de la interfaz; semillas sin mundo oculto; recibos técnicos posteriores, sin veredicto oculto; controles positivos y negativos legales. |
 
 La fuente mantiene SC-H como hipótesis empírica para una familia finita. Este teorema agrega una afirmación matemática para el dominio configuracional y clases completas de políticas de manifiestos determinados; no convierte las campañas todavía no ejecutadas en resultados. R01 sigue siendo una especificación con parámetros de interfaz que se completan por perfil, y no un simulador único plenamente congelado.
 
@@ -285,3 +305,7 @@ M16 sigue abierto para revisión independiente. M17 recibe este desarrollo como 
 | Regiones de pares y triple | Mismos parámetros; fronteras exactas de la familia y regiones viables | No caracteriza numéricamente todos los generadores R01. |
 | Experimentos parciales | Ninguna ejecución nueva | Oracle/harness neutral antes de corroboraciones. |
 | Tecnologías | Capacidades resolutivas conservadas en el dominio | Clases tecnológicas, costes completos y cambios de región después de auditar el núcleo. |
+
+## 15. Reparaciones de la revisión de continuidad, 4 de octubre de 2026
+
+La v0.2 corrige el inverso del multiplicador del certificado (§6), unifica envío y recepción del reparto inicial con la tabla (§7), amplía plazo y cap de eventos para esos cargos, y reemplaza el control dependiente del veredicto por una apuesta persistente que usa únicamente recibos técnicos (§§7,9,10). Añade el rango h≤1 en la frontera conjunta. Las cotas y sus formas se conservan; los umbrales absolutos se desplazan con el nuevo C_0. Informe: [auditoría y continuidad](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md). El protocolo de extensión matemática a tecnologías es la fase siguiente, todavía pendiente. Revisión propia; M16 no se cierra.

@@ -40,3 +40,12 @@ El trabajo pendiente inmediato es reconstrucción por un revisor distinto y audi
 Conserva la distinción B (cap físico) y b (objetivo económico), s (eficacia legítima), η (técnica) y e_b (éxito compuesto). No cuentes una entrega cara como e_b=1. La variante .99/.95/.001 es AVG; la frontera WC barata tiene p≤.5. No extrapoles coste K a factor relativo extraordinario o ley cuadrática. El prior técnico pagado es una condición inicial explícita del perfil; no una prueba de optimalidad de su adquisición anterior.
 
 M16 permanece OPEN y M17 IN_PROGRESS. No declarar una revisión independiente por leer una revisión propia. No ejecutar experimentos científicos antes del oracle/harness neutral. Mantén el escenario, scripts, fixtures, resultados y contenidos previos de los README; añade seguimiento al final dentro de feasibility.
+
+
+## Estado vigente posterior — núcleo reparado v0.2
+
+El usuario ha fijado este orden: cerrar primero la formulación matemática y los espacios de viabilidad de R01 sin aplicar tecnologías; después producir un protocolo separado de extensión matemática. No rehacer el trilema: conservar el trabajo y las auditorías existentes y aplicar reparaciones mínimas.
+
+La v0.2 del teorema conserva §§1–14 y sus pruebas. Corrige el multiplicador μ=a/(1−a) del certificado, C_pre=2+4L+2(N−1), C_0=7L+2N, T/H_cap=5L+K+2N+4 y controles persistentes sin veredicto del evaluador. Mantener las cotas AVG/WC y el corolario por rama. El informe R01_AUDIT_CONTINUITY_AND_REPAIRS.md reconstruye estos pasos contra R01 y las auditorías anteriores. No confundir este cierre propio con M16.
+
+La siguiente fase es el protocolo, todavía no una aplicación tecnológica. Debe distinguir: transferencia de imposibilidad para todas las políticas de una configuración completa; controles que prueban alcanzabilidad; ampliación del espacio viable como mejora; persistencia no vacua de una región de trilema bajo capacidades/costes explícitos. No inferir persistencia por un nombre comercial ni exigirla a toda tecnología. Prueba matemática precede al harness y la campaña. No modificar el escenario, fixtures, resultados ni cuerpos históricos de README. Mantener M16 OPEN y M17 IN_PROGRESS.

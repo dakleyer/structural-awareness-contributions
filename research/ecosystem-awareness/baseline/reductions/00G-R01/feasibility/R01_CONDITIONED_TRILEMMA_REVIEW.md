@@ -12,7 +12,7 @@
 
 **Éxito compuesto.** Restringir el evento de éxito a las ramas C_traza≤b no cambia el argumento anterior: solo esos éxitos tienen que estar contenidos en el acierto de U, mientras todas sus infracciones siguen contando en r. Por tanto r≥(a^{-1}−1)e_b y e_b≤a incluso para políticas con ramas caras o fallidas. El control barato alcanza también esta frontera y no necesita equiparar C_traza con C_max.
 
-**Alcanzabilidad.** M tiene s=r=0 y coste C_0. Intentar con probabilidad β, apostar X primero y usar el recibo para el resto da η=β,s=aβ,r=(1−a)β y coste C_0. Leer los K datos previamente da s=1,r=0 y coste C_0+K. Todos conservan review→decide→execute. Estos valores igualan las cotas y prueban la frontera declarada.
+**Alcanzabilidad.** M tiene s=r=0 y coste C_0. Intentar con probabilidad β, mantener X en todas las capas sin recibir χ ni el veredicto normativo da η=β,s=aβ,r=(1−a)β y coste C_0. Leer los K datos previamente da s=1,r=0 y coste C_0+K. Todos conservan review→decide→execute. Estos valores igualan las cotas y prueban la frontera declarada.
 
 **Pares no vacíos.** Fijados 0<p≤a y δ<p(a^{-1}−1), β=p/a es una probabilidad válida. CR lo alcanza M; CE lo alcanza ese β; RE lo alcanza la lectura completa. La tercera condición de cada uno falla y la cota excluye cualquier sustituto triple.
 
@@ -30,7 +30,7 @@
 | «Los peers pueden completar la cobertura» | Permitido. La cota ya utiliza su cobertura colectiva; K datos distintos siguen costando K. |
 | «N agentes leen en paralelo» | Puede mejorar tiempo. No reduce el ledger agregado ni permite recepción antes del envío. El teorema de trabajo usa además una envolvente con comunicación gratuita. |
 | «Hay una política de recuperación» | Puede terminar el trabajo después del primer error. No elimina la infracción material ya contabilizada; η y s están separados. |
-| «El recibo revela la respuesta» | Permitido después del efecto. Es precisamente lo que usa el control adaptativo; no evita el riesgo del primer efecto. |
+| «El recibo revela la respuesta» | La v0.2 no lo necesita: usa recibos técnicos sin χ y una apuesta persistente. Si una variante aporta diagnóstico normativo posterior, debe declarar su acceso y coste; la infracción anterior permanece. |
 | «La política consulta todo y luego abandona» | Puede hacerlo. Esa rama no entrega suficiente calidad y no aumenta s. |
 | «Una rama barata compensa otra cara» | No bajo el objetivo de techo por ejecución. Un objetivo de coste esperado exigiría otro teorema y no se reclama aquí. |
 | «El control informado no cabe en el presupuesto» | Cabe en B=C_0+K. Incumple el objetivo económico b, que se distingue del cap físico. |
@@ -57,3 +57,7 @@ El precio adicional K puede crecer sin límite. No se demuestra una ley universa
 El revisor debe entregar, por cada proposición, una reconstrucción válida, una laguna o un contraejemplo y explicar si afecta al teorema de corte, a la pertenencia de la familia a R01 o solo a una construcción. Debe considerar toda la interfaz y no limitarse a los controles nombrados. La revisión no puede darse por completada leyendo este informe propio.
 
 M16 sigue OPEN. M17 sigue IN_PROGRESS con nueva evidencia. Ninguna tarea científica se cierra por esta auto-revisión. No se han ejecutado pruebas científicas nuevas. Oracle/harness y controles de observación pública deben preceder a la futura corroboración experimental.
+
+## 5. Reparaciones publicadas en v0.2
+
+El certificado §5 usa μ=a/(1−a), recíproco del coeficiente λ=(1−a)/a en r≥λs. El reparto inicial cobra envío y recepción: C_pre=2+4L+2(N−1), C_0=7L+2N; T=5L+K+2N+4 cubre el control secuencial. El control barato mantiene su elección X, y el WC mantiene una moneda X/Y, sin pedir el veredicto del evaluador. La frontera conjunta declara 0≤h≤1. Estas reparaciones no se presentan como revisión independiente. Véase [dictamen de continuidad](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md) para la reconstrucción y límites.

@@ -32,3 +32,15 @@ Las afirmaciones tecnológicas ya escritas permanecen en el archivo anterior par
 | Estado vigente de auditoría | [55 tareas](./WORKPLAN_STATUS.json) · [Release](./DEEP_AUDIT_RELEASE.json) | 4 DONE históricas, 7 IN_PROGRESS, 44 OPEN. M17 en desarrollo; ninguna tarea científica cerrada. Sin nuevas ejecuciones científicas. |
 | Teorema principal en R01 — estado posterior | [Trilema condicionado en R01](./R01_CONDITIONED_TRILEMMA_THEOREM.md) | Dominio completo, criterio general, corte y regiones no vacías. Familia con paridad de K datos y coste K: la dureza creciente ya tiene una construcción simbólica, distinta de F. Revisar fidelidad y demostración independientemente. |
 | Revisión y conservación de esta entrega | [Revisión propia](./R01_CONDITIONED_TRILEMMA_REVIEW.md) · [Registro](./R01_CONDITIONED_TRILEMMA_RELEASE.json) | No cierra M16/M17 ni transforma campañas pendientes en evidencia. El binding compartido y las configuraciones fáciles no refutan el trilema condicionado. |
+
+
+## Estado posterior: núcleo matemático v0.2
+
+| Elemento | Estado vigente y evidencia |
+|---|---|
+| Núcleo R01 sin tecnologías aplicadas | [Teorema v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md): se conserva la estructura y prueba existente, con reparaciones mínimas. |
+| Auditoría | [Reconstrucción y cambios](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md) · [Registro](./R01_AUDIT_CONTINUITY_RELEASE.json). |
+| Revisión independiente | M16 OPEN; M17 IN_PROGRESS. Cierre propio no se presenta como validación externa. |
+| Espacios | Trilema y viabilidad definidos sobre todo Θ_R01; fórmula exacta en la familia, sin exigir dificultad a los casos viables. |
+| Protocolo de extensión | Siguiente fase separada, pendiente. La expansión del espacio viable se tratará como mejora, y su persistencia como obligación de prueba adicional. |
+| Campaña | C01–C05 pendientes; ningún nuevo experimento científico o tecnológico ejecutado. |

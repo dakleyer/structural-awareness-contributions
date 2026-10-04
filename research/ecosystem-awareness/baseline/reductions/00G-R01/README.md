@@ -175,3 +175,15 @@ El estudio se reúne en una subcarpeta propia de R01. Los borradores y diagnóst
 | Estado tras auditoría, 4 de octubre | [Manuscrito v0.2](./feasibility/CONDITIONED_TRILEMMA.md) · [Registro de auditoría](./feasibility/DEEP_AUDIT_RELEASE.json) | Estado vigente: 55 tareas, 4 DONE históricas, 7 IN_PROGRESS, 44 OPEN. M17 pasa a IN_PROGRESS por mapeo/proposición/resultado G; no se cierra una tarea científica ni se ejecutan nuevos tests. M16 y el harness siguen pendientes. |
 | Teorema condicionado en R01 — desarrollo vigente | [Demostración principal](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) · [Revisión propia](./feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md) | Teorema sobre el dominio R01: corte informativo para toda política, regiones por los tres pares y región viable; familia de dependencia global con K datos, N arbitrario y coste informativo creciente. Casos de éxito compatibles con el trilema. Revisión independiente pendiente. |
 | Registro y continuación del teorema R01 | [Entrega](./feasibility/R01_CONDITIONED_TRILEMMA_RELEASE.json) · [Prompt vigente al final](./feasibility/CONTINUATION_PROMPT.md) | Contexto técnico pagado, ledger y productores explícitos; mantén fuente y experimentos históricos intactos. 55 tareas, 4 DONE históricas, 7 IN_PROGRESS y 44 OPEN. Ninguna ejecución científica nueva. |
+
+
+## Cierre del núcleo matemático — revisión de continuidad v0.2
+
+4 de octubre de 2026. Esta actualización mantiene la demostración ya publicada y aplica reparaciones mínimas: multiplicador recíproco del certificado, cargo de envío/recepción, plazo coherente y control sin veredicto normativo. No aplica tecnologías.
+
+| Lectura vigente | Estado |
+|---|---|
+| [Teorema condicionado R01 v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) | Dominio completo, certificado y corte all-policy; regiones viables y de trilema no vacías; fronteras exactas de la familia AVG/WC. |
+| [Auditoría y reparaciones](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) · [Revisión propia](./feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md) | Reconstrucción propia completada. M16 OPEN; fidelidad independiente M17 IN_PROGRESS. |
+| [Registro de conservación](./feasibility/R01_AUDIT_CONTINUITY_RELEASE.json) | Escenario y archivos históricos intactos; sin nuevas ejecuciones científicas. |
+| Próxima fase | Protocolo de extensión matemática a tecnologías, separado del núcleo; aún pendiente. |
