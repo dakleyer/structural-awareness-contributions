@@ -1,5 +1,5 @@
 {
-  "version": "0.5-virtual-traversals",
+  "version": "0.6-chain-and-reentry",
   "input_commit": "d8fbfa48581df366081143872ec4c16360c51635",
   "actual_utc": "2026-10-04T14:04:11.946875+00:00",
   "plan_editor": "Codex, on user instruction",
@@ -296,10 +296,13 @@
           "R1: all-policy exclusion at the fixed thresholds",
           "R2: constructive acceptance at the same thresholds",
           "R3-A: frozen-controller failure and all-policy exclusion; all three pairs attainable",
-          "R3-B/C/D: scope, version and timing controls; no universal impossibility inferred"
+          "R3-B/C/D: scope, version and timing controls; no universal impossibility inferred",
+          "H5 and R3-E/F/G: complete chain cost, admissible stopping and corrected reentry; no-information restarts retain the cut"
         ],
         "actual_technology_executed": false,
-        "independent_review": false
+        "independent_review": false,
+        "revision": "0.3",
+        "stage_chain_calibrated": false
       }
     },
     "M14": {
@@ -1181,7 +1184,7 @@
     ],
     "canonical_validation_structure_preserved": true
   },
-  "latest_input_commit": "ae710f7d806da226c7140ff6dbc2faf01602c3ca",
+  "latest_input_commit": "ec5041bec5b52f495d713b73d626be4f3bdb504b",
   "technology_mechanism_development": {
     "protocol": "TECHNOLOGY_EXTENSION_PROTOCOL.md",
     "first_case": "HUMAN_ESCALATION_WHISPERING.md",
@@ -1198,7 +1201,17 @@
       "sequence": "general justified help -> isomorphic kernel -> additional mechanisms -> R1/R2/R3 -> scoped quantitative conclusion",
       "not_universal_domain_acceptance": true,
       "new_scientific_executions": 0,
-      "mathematical_H2_wording_repair": "conditional independence sufficient, not necessary, for the union product identity"
+      "mathematical_H2_wording_repair": "conditional independence sufficient, not necessary, for the union product identity",
+      "additional_review": {
+        "chain": "detect -> recognize -> find channel -> explain -> human resolution -> admissible stop -> corrected reentry -> delivery",
+        "H5": "no-information restarts preserve the information cut and campaign ledger",
+        "R3_new_branches": [
+          "E: complete cost",
+          "F: admissible interruption",
+          "G: unchanged blind spot or unresolved reentry"
+        ],
+        "real_runs": 0
+      }
     }
   },
   "active_task_count": 4,

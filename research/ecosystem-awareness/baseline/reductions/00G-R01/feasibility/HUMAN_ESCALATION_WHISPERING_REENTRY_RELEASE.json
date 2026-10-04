@@ -1,0 +1,16 @@
+{
+  "input_commit": "ec5041bec5b52f495d713b73d626be4f3bdb504b",
+  "review": "own mathematical and virtual extension; no executed strategy",
+  "new_sections": [
+    "0.1",
+    "6.1 H5",
+    "7.4 frozen reentry predicates",
+    "7.5 R3-E/F/G"
+  ],
+  "base_H0_H1_equations_changed": false,
+  "base_theorem_changed": false,
+  "task_ids_and_states_changed": false,
+  "real_runs": 0,
+  "detector_or_human_calibration": false,
+  "scope": "No-information restart cut; complete pipeline, stop admissibility and correction obligations. No unconditional universal claim about every conceivable human technology."
+}

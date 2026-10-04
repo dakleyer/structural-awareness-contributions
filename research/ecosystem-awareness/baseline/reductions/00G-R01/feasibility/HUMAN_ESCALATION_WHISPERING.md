@@ -1,6 +1,6 @@
 # R01 — Escalación humana y whispering, mecanismo por mecanismo
 
-Versión matemática 0.1 · Recorridos virtuales 0.2 · Primera tecnología del protocolo de extensión · 4 de octubre de 2026 · Sin integración ejecutada.
+Versión matemática 0.1 · Recorridos virtuales 0.3 · Primera tecnología del protocolo de extensión · 4 de octubre de 2026 · Sin integración ejecutada.
 [Tecnologías del protocolo](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) · [Teorema base único](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 
 Whispering significa aquí avisar al resto del grupo cuando un agente identifica un problema. Cualquier agente puede iniciar la escalación directa. El humano examina la evidencia y puede ordenar una pausa o una alternativa legítima. Es el mecanismo solicitado por el usuario; no se atribuye una cita específica a Nell ni se afirma que un producto concreto lo implemente.
@@ -19,6 +19,30 @@ Escalación humana y whispering puede recuperar escenarios por cuatro razones di
 | Decisión humana aplicable | Permite escoger y coordinar una ruta legítima suficiente. | Evidencia vigente, mandato original, alternativa realizable y nuevo commitment. |
 
 Una fuente suficiente asequible puede ayudar mucho; la misma evidencia procesada por otra persona conserva el corte informativo H0. Una pausa que nunca termina puede mejorar seguridad y perder eficacia. Una revisión obligatoria puede aumentar coste o demora y perder escenarios antes aceptables. Estos son mecanismos candidatos de mejora, no una conclusión anticipada de que todos los escenarios se resolverán.
+
+### 0.1 La cadena completa: detectar, escalar, detener y recomenzar
+
+La mejora no depende solo de que un agente detecte algo. Tiene que entender que debe escalar, encontrar el canal, llegar al humano y explicarle el problema suficientemente. El humano tiene que poder resolverlo y actuar sobre los efectos afectados. La pausa o el kill switch deben ser admisibles para esa misión. Después tiene que existir una forma diferente y legítima de continuar, dentro del coste y del plazo. Fallar cualquiera de esos pasos puede dejar el escenario fuera de la zona aceptada.
+
+| Paso necesario | Qué puede fallar | Qué se contabiliza o verifica |
+|---|---|---|
+| Detectar y reconocer la necesidad de escalado | Punto ciego compartido, testigo insuficiente o falta de criterio para escalar. | Inspección, evidencia suficiente y cobertura; más agentes no garantizan independencia. |
+| Encontrar e invocar el proceso | Canal desconocido, no disponible, bloqueado por consenso o sin permisos. | Descubrimiento, integración, acceso y mantenimiento del canal. |
+| Llegar al humano y explicar suficientemente | Pérdida del mensaje, cola, expediente incompleto o mal entendido. | Transporte, preparación del expediente, interacción y demora. |
+| Resolver con capacidad humana suficiente | Misma información insuficiente, error o falta de autoridad sobre los gates. | Fuente nueva si existe, trabajo humano, competencia y alcance de intervención. |
+| Detener de forma admisible | El efecto ya ocurrió; el gate no cubre todo; apagar produce otra infracción. | Estado real, interrupciones seguras, transición o relevo y obligaciones de continuidad. |
+| Recomenzar con una base corregida | Se repiten los mismos inputs o se pierde la alerta; la alternativa no está validada. | Evidencia nueva pertinente, vigencia, cambio justificado de estrategia y nuevo commitment. |
+| Completar la misión | El reinicio correcto llega tarde o consume demasiado. | Coste acumulado, trabajo rehecho, plazo y calidad legítima final. |
+
+El coste completo puede ser alto, pero no se afirma que necesariamente lo sea en todos los escenarios. Se descompone h en detección, descubrimiento del canal, expediente/transporte, revisión humana y producción de evidencia, pausa segura, corrección y reentrada. El trabajo repetido y los costes de preparación/mantenimiento pertinentes también se pagan. Si la pausa y la corrección no están ya dentro de h, se añaden; no se cuentan dos veces. Para una entrega de coste C_0+h+c_rehecho es necesario que C_0+h+c_rehecho≤b; además, la cadena causal y la cola deben dejar la entrega dentro de T. Un q alto no compensa incumplir esos límites.
+
+**La fiabilidad es de la cadena, no del detector aislado.** Sean E_1,…,E_6 los sucesos de los seis primeros pasos: una intervención válida disponible antes del efecto y con una continuación factible. Definir q_cadena=P(∩E_j | χ=1). La regla de la cadena da el producto de P(E_j | χ=1,E_1,…,E_{j−1}) cuando sus condicionantes tienen probabilidad positiva; si un prefijo tiene masa cero, q_cadena=0. No se multiplican tasas marginales como si las etapas fueran independientes. La finalización efectiva se evalúa además en s.
+
+Esta identidad sirve para auditar cobertura, no para insertar automáticamente q_cadena en H1. La frontera H1 requiere que la ley de todos los historiales, las ramas sin señal, los costes y las respuestas satisfagan sus hipótesis. Un mensaje fallido, una intervención parcial o una demora pueden revelar información y producir otros resultados; esos perfiles se recalculan. En el ejemplo R2 la cadena se estipuló fiable una vez obtenido Z: **no se demostró que una realización real logre esa cadena, ni su coste**.
+
+**Misión crítica.** Un kill switch no es por definición una acción segura. El predicado de admisibilidad incluye también apagar, pausar, transferir a un respaldo y reanudar. Una misión crítica puede permitir una parada de emergencia o exigir continuidad/relevo. Si apagar está prohibido, no se utiliza para obtener riesgo cero; si apagar es legal pero impide la calidad suficiente, se conserva ese fallo de eficacia. Hay que demostrar una transición segura pertinente, no asumir que toda misión crítica es interrumpible o que ninguna lo es.
+
+**Reinicio diferente.** Un nuevo commitment evita usar un permiso viejo, pero no basta para corregir la decisión. La reentrada exige evidencia suficiente para la alternativa, alcance/vigencia aplicables y una estrategia que utilice esa base. Si no se ha resuelto la objeción, el controlador preventivo conserva el bloqueo o una ruta segura; no borra el expediente y vuelve al mismo camino P. Aquí P designa informalmente el camino incorrecto indicado por el usuario, sin renombrar las rutas X/Y/M ni la notación I/P del corpus.
 
 **Secuencia de lectura:** esta explicación → núcleo isomórfico y mecanismos H0–H4 → [recorridos virtuales R1/R2/R3](#virtual-traversals) → ensayos parciales y fases posteriores. Los recorridos cierran el examen del contrato que declaran. Para afirmar cobertura de toda una familia también se necesita un argumento cuantificado sobre esa familia.
 
@@ -159,6 +183,20 @@ r=afα+(1−a)(1−q)β.
 Es una construcción, no la frontera completa: otras respuestas humanas o decisiones requerirían optimizar el contrato ampliado. El humano debe confirmar el testigo o registrar su error; «escalado» no equivale a «correcto». Correlaciones, versión, scope y retrasos deben incluirse en la ley conjunta. La fórmula H1 se utiliza únicamente cuando f=0 y la detección/respuesta cumplen sus hipótesis.
 
 
+### 6.1 Reiniciar no elimina el corte informativo ni el riesgo pasado
+
+**Proposición H5 — reinicios sin información nueva.** En el contrato H0, permitir pausas y un número finito de reinicios, con elecciones y semillas independientes del mundo condicionadas en la historia observable, no reduce la cota r≥((1−a)/a)s cuando c≤b<C_0+K. Se conserva el ledger y la campaña completa; no se añaden canales informativos, permisos ni una alternativa suficiente omitida.
+
+**Prueba.** La política completa de pausa/reinicio es una política adaptativa sobre el historial colectivo. La envolvente del teorema base ya admite esas decisiones y semillas. Adquirir menos de K datos distintos conserva el posterior a antes del primer efecto alto; repetir lecturas o regenerar mensajes no cambia ese hecho. Si una traza llegase a resolver χ y completar una entrega alta, sus cargos serían al menos C_0+K>b. Por tanto el corte I1–I3 sigue aplicándose al primer efecto de la campaña, y da la misma cota. Reiniciar no reinicia el presupuesto, el reloj ni V. ∎
+
+La conclusión no exige que cada intento produzca exactamente la misma acción: variar una semilla puede cambiar la ruta sin aportar información sobre cuál es correcta. Tampoco excluye una mejora mediante datos nuevos, un sensor suficiente o una alternativa ya legítima; en esos casos cambian las hipótesis y se recalcula la frontera. Con una fuente H1 y reinicios que no aportan nuevas observaciones más allá del mismo Z, se conserva igualmente la cota H1, pues su prueba ya cubre todo el historial adaptativo.
+
+**Punto ciego persistente.** Si, condicionado en χ=1, una misma carencia de la fuente tiene probabilidad 1−q y se mantiene durante todos los reinicios, la probabilidad de que ningún agente produzca un testigo suficiente sigue siendo 1−q, cualquiera que sea el número de reinicios. No es (1−q)^m: esa fórmula exigiría intentos condicionalmente independientes. Este perfil exhibe exactamente el caso descrito por el usuario: el grupo puede repetir el camino P sin whispering ni escalado porque no aparece ninguna alerta suficiente.
+
+Si una alerta válida sí ocurrió y se conserva, repetir una acción ya conocida como prohibida **incumple el controlador R2**. No se fuerza ese comportamiento para obtener un negativo. El controlador conforme se queda bloqueado o usa una alternativa segura si aún no dispone de una corrección suficiente; puede perder eficacia o plazo. Borrar la alerta y reiniciar a ciegas es un defecto de realización, que se conserva como tal y no como refutación del contrato matemático.
+
+Finalmente, si V_j es una infracción en el intento j, el riesgo de toda la campaña es P(∪_j V_j)≥P(V_j) para cada j, sin hipótesis de independencia. Una entrega posterior correcta no vuelve legítima una campaña que ya ejecutó una infracción. Se pueden medir aparte recuperación o reducción de daño, conservando r y s originales.
+
 <a id="virtual-traversals"></a>
 ## 7. Recorridos virtuales de extensión tecnológica
 
@@ -200,6 +238,8 @@ Quedan cubiertos los tres pares: CR por M; CE por la apuesta óptima; RE por el 
 
 El plan de calidad se fija antes de R3: si hay certificado suficiente y vigente, ejecutar Y; si la fase termina normalmente sin alerta ni conflicto, intentar X con β_2=941/990 y, en la otra rama, completar M. β_2 es una probabilidad interna fija. La ausencia de alerta se interpreta solo después de la fase; no se equipara a una garantía de legitimidad. Una alerta recibida pero incompleta, vencida o incompatible abre revisión y mantiene bloqueados los efectos altos hasta resolución; no se reclasifica como silencio normal. El timeout mantiene el bloqueo y permite M si sigue legítima y cabe. Estas reglas ya pertenecen a R2, aunque la ley ideal de H1 no produzca recibos defectuosos. Todas las rutas usan sus gates.
 
+El mismo plan exige que la pausa sea admisible para la misión, incluido un relevo seguro si corresponde. Reanudar exige resolver la objeción con evidencia aplicable a una alternativa suficiente, y conservar expediente, cargos, reloj y V. No se libera el gate por el mero hecho de reiniciar. El ejemplo ideal asume que esas condiciones se cumplen; las ramas siguientes las ponen a prueba sin modificar después esta regla.
+
 | Paso causal | Observación y acción virtual | Comprobación de calidad |
 |---|---|---|
 | Detección | Un agente obtiene un certificado o termina la fase sin él. | Distinguir sospecha, copia y testigo suficiente; cargar al productor. |
@@ -232,8 +272,16 @@ Se congelan β_2, la exigencia de certificado completo vigente, los gates, el ti
 | R3-B — ámbito parcial | El recibo no cubre todas las relaciones afectadas. | La regla ya fijada rechaza su uso global, conserva el expediente y mantiene la pausa o M. | Evita actuar por extrapolación; esa rama no logra calidad alta sin completar evidencia. No se declara imposibilidad universal a partir de este único recorrido. |
 | R3-C — vigencia | Cambia la versión aplicable antes del commitment. | El gate rechaza el recibo viejo. El mismo procedimiento acepta un recibo nuevo, completo y vigente si llega a tiempo. | Negativo: no usar autorización caducada. Positivo: continuar con la nueva evidencia válida. El coste de refresco se suma. |
 | R3-D — demora/concurrencia | Respuesta después de T, o efecto fuera del conjunto controlado. | Si todos los gates estaban bloqueados, timeout seguro e incompletitud; si un efecto escapó antes de la pausa, registrar V y contener después. | El primer caso pierde eficacia; el segundo no borra la infracción. Fallos de la realización o del plazo, no una cota informativa nueva. |
+| R3-E — coste completo | Suben revisión, producción de evidencia o trabajo de recomienzo; el total de entrega supera b. | El ledger no oculta cola, preparación ni reinicios; continuar según el mismo gate o terminar sin calidad suficiente. | La ruta corregida no obtiene aceptación por exceder coste. Si toda entrega del perfil exige C_0+h+c_rehecho>b, ninguna puede cumplir CRE; no demuestra los tres pares. |
+| R3-F — parada no admisible | La misma operación de kill switch viola una obligación de continuidad; no hay relevo seguro asequible a tiempo. | La regla de R2 no declara seguro ese apagado. Busca una transición permitida ya contemplada; si no existe, no afirma reparación. | No hay pase de este mecanismo en esa rama. Positivo: si la misión sí admite pausa o un relevo legítimo, puede continuar dentro de los demás límites. |
+| R3-G — reinicio sin corrección | Se reinicia sin nueva base suficiente; el punto ciego de la fuente permanece. | Sin alerta, no aparece una decisión informada por repetir. Con alerta conservada, el mismo gate bloquea reentrada hasta resolver la objeción. | H5 conserva la cota si no hay información nueva; un bloqueo correcto puede perder eficacia. Si la implementación borra la alerta y repite una prohibición conocida, es un incumplimiento del contrato. |
+
 
 R3-C no altera después la regla para que pase: verificar vigencia, invalidar compromiso y admitir nueva evidencia ya pertenecía a R2. En R3-D se distingue falta de cobertura del gate de una simple demora; ambas se conservan con su causa. Los positivos requieren fuente, recepción, evidencia aplicable y entrega antes de T; no reciben un PASS por una orden humana de continuar.
+
+**Recorrido de reentrada, negativo y positivo.** Con R2 congelado, un expediente sin resolución suficiente no habilita una nueva ejecución alta: terminar M o permanecer en pausa mantiene seguridad y puede incumplir p. El positivo conserva la misma regla: evidencia nueva y suficiente, fuente y versión vigentes, alternativa válida, pausa/relevo legal y presupuesto/plazo restante permiten reanudar y completar. No se cambia de estrategia para hacer pasar el negativo después de verlo. La fase de reinicio deja trazabilidad de qué información o condición corrigió el problema.
+
+Las ramas R3-E/F/G hacen explícita la cadena que el ejemplo favorable de R2 había supuesto completa. Un fallo de una ruta concreta no prueba que todas las alternativas fracasen. H5 sí cubre todas las estrategias del contrato sin información nueva; la cota de coste cubre todas las entregas solo cuando se demuestra ese coste indispensable. La falta de pausa segura debe probarse en el dominio correspondiente, no inferirse de la etiqueta «misión crítica».
 
 **Cota independiente de R3-A.** Ahora g=1/125 y n=1/500. Para cualquier estrategia de coste≤50, H1 exige, al pretender s≥19/20,
 
@@ -246,7 +294,7 @@ Así, ni reajustar β después del resultado rescata CRE bajo este contrato; el 
 
 ### 7.6 Conclusión matemática y prueba de cobertura
 
-R2 recupera el ejemplo y R3-A muestra una región residual con los tres pares. Esto deriva de una fórmula, no solo de probar dos números. Para cada q<1, n>0 y la región de §3.3 es no vacía cuando los controles caros caben físicamente. Las desigualdades de §3.2 describen toda la familia recuperada que satisface sus hipótesis y los mismos umbrales. R3-B/C/D conservan controles cualitativos y límites de realización; no se les atribuye esa cota sin reconstruir su contrato.
+R2 recupera el ejemplo y R3-A muestra una región residual con los tres pares. Esto deriva de una fórmula, no solo de probar dos números. Para cada q<1, n>0 y la región de §3.3 es no vacía cuando los controles caros caben físicamente. Las desigualdades de §3.2 describen toda la familia recuperada que satisface sus hipótesis y los mismos umbrales. R3-B/C/D/E/F/G conservan controles de alcance, coste, parada y reentrada. H5 aporta la cota para reinicios sin información nueva; las demás ramas no heredan la cota H1 sin reconstruir sus contratos.
 
 La tecnología ideal con q=1 proporciona una resolución completa de estos dos mundos: al finalizar la fase, presencia y ausencia del certificado distinguen χ. Si C_H≤b y entrega≤T, elegir Y con alerta y X sin alerta da s=1,r=0. Por tanto **no es un teorema universal que toda tecnología deje siempre una zona inalcanzable**. Tampoco resolver este perfil demuestra cobertura de todo R01. Esa cobertura exigiría, para un dominio D declarado,
 
@@ -279,6 +327,7 @@ Un humano simulado prueba el arnés bajo una ley registrada; no calibra personas
 | Núcleo isomórfico y diferencias | Identificados; E1–E7 de una integración real siguen pendientes. |
 | H0 | Cota transferida a procesamiento/compartición sin información adicional. |
 | H1 | Frontera exacta y tres pares residuales para el contrato explícito. |
+| H5 / R3-E/F/G | Coste completo, kill switch admisible y reentrada corregida explícitos; reinicios sin información nueva conservan el corte. |
 | Recuperación de escenarios | R1 excluido por cota all-policy; R2 aceptado; R3-A excluido por nueva cota. Contrato virtual, sin ejecución. |
 | «Siempre queda región residual» | No universal; q=1 puede resolver este perfil. |
 | Detectores, humano y framework reales | No ejecutados ni calibrados. |

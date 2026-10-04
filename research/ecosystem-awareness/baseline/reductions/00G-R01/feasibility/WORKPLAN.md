@@ -52,3 +52,9 @@ M03/M04/M12 no vuelven a pedir construir la prueba base: el [teorema canónico](
 | Escalación humana y whispering | Explicación de ayuda, núcleo/mecanismos y R1/R2/R3 incorporados en la ficha existente. R2 recupera; R3-A conserva el trilema bajo otra condición. |
 | Qué sigue dentro de M13 | Aplicar la misma secuencia a la siguiente candidata del protocolo; delimitar por contrato las lagunas que requieran ampliación. |
 | Etapas posteriores | C02/C11/T03 siguen diferidas; no se ejecutó tecnología real. M16/M17/P08 conservan su alcance. |
+
+| Precisión posterior de la primera ficha — al final | Estado |
+|---|---|
+| Cadena y coste | Reconocimiento, canal, expediente, humano, intervención y entrega explícitos; coste alto es una condición por verificar, no una tasa medida. |
+| Reinicio y misión crítica | R3-E/F/G y proposición H5 incorporados: parar debe ser admisible; reentrada exige base suficiente y conserva ledger/reloj/V. |
+| Cola | Misma M13 y mismos cuatro frentes; no se crea una campaña ni una tarea duplicada. La primera ficha virtual permanece entregada con esta ampliación. |

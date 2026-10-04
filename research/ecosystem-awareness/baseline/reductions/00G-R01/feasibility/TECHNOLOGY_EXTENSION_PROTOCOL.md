@@ -1,6 +1,6 @@
 # R01 — Protocolo de extensión matemática por mecanismos tecnológicos
 
-Versión 0.2 documental · 4 de octubre de 2026 · M13 en desarrollo.
+Versión 0.3 documental · 4 de octubre de 2026 · M13 en desarrollo.
 Base única: [validación matemática R01 v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 Precedente revisado: [coherencia de las tres extensiones](./EXTENSION_CONSISTENCY_REVIEW.md).
 Primera aplicación matemática: [escalación humana con whispering](./HUMAN_ESCALATION_WHISPERING.md).
@@ -140,6 +140,8 @@ Para cada candidata, la secuencia de presentación es: explicar y justificar **p
 - **R3:** mismo R2 congelado, condición ambiental cambiada, sin reparación posterior; mantener los controles positivos de cambio legítimo y de continuidad autorizada.
 
 Se reutiliza la forma de los recorridos de 00G/00H, sin confundir recorrido con brazo experimental. Un pase de R1/R2/R3 sostiene el alcance que el recorrido cubre; resolver todas las configuraciones requiere además una prueba cuantificada, no tres ejemplos. Un fallo de un controlador no demuestra imposibilidad para todas las estrategias. La [primera ficha](./HUMAN_ESCALATION_WHISPERING.md#virtual-traversals) aporta ambas capas: controles virtuales y cotas all-policy para R1 y R3-A; R2 recupera escenarios bajo el mismo presupuesto de aceptación.
+
+La primera ficha explicita también la cadena de reconocimiento/escalado, disponibilidad y comprensión humana, intervención admisible y reentrada corregida. R3 examina coste total, parada incompatible con la misión y reinicio sin evidencia suficiente. Un kill switch no es automáticamente una acción legítima; un reinicio no elimina cargos, plazo, alertas ni infracciones pasadas. Para todas las candidatas se comprueba la continuación positiva y no solo la orden de detener.
 
 ### 8.3 Anexos parciales de preparación
 
