@@ -38,6 +38,8 @@ def evaluate_world(world: Mapping[str, Any]) -> dict[str, Any]:
         return {
             "reference_status": "NOT_ESTABLISHED",
             "reason": "no_complete_admissible_trajectory",
+            "optimum_J": None,
+            "optimum_trajectory_ids": [],
             "rows": rows,
             "enumeration_units": enumeration_units,
         }
