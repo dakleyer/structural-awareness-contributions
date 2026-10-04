@@ -3,6 +3,8 @@
 
 Base specification v0.6 · Reading organization 4 October 2026 · Non-canonical research study
 
+**Status terminology:** `Non-canonical research study` describes R01's external/institutional status: R01 is not an adopted standard or an externally canonical corpus. `Current canonical mathematical reference` below means only the internally governing mathematical statement for the present R01 line; it does not make the whole study canonical.
+
 [Complete base scenario](./Escenario-creatividad-validacion.md) · [Reductions](#reductions) · [Three extensions](#extensiones) · [Preservation record](./ORGANIZATION_TRACE.md)
 
 <a id="canonical-conditioned-trilemma"></a>
@@ -31,6 +33,22 @@ The sole active queue is discovered by `R01_BOT_WORKPLAN_START` / `R01_BOT_WORKP
 The 55 historical IDs and criteria remain traceable: four active tasks, three later deliveries, four historical completions, three own-scope deliveries complete, 37 consolidated obligations and four tasks outside the current scope. Consolidation is not scientific validation. [Full old queues](./feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json) · [updated master prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md).
 
 The earlier proof records remain accessible through [previous work](./feasibility/previous-work/README.md). The [partial exercises and received Annex T](./feasibility/partial-experiments/received/2026-10-04/README.md) are preparation annexes, not canonical proofs or executed technology validation. Historical hash discrepancies remain P08; do not overwrite their manifests.
+
+### Canonical route and retained historical material
+
+The current R01 route is: this README → the active scenario and [conditioned theorem v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) → the [technology extension protocol](./feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md) and current workplan → the [version-aware verifier](./extensions/verify_audit_v2.py). Retained files are not automatically active research.
+
+In particular, the three `extensions/*/proof/README.md` files are **historical supporting material outside the current canonical route**. They preserve the finite-checker instructions and context of earlier extension editions. Their references to `verify_audit.py --verify` are historical reproduction instructions, not the current package gate. The bounded checker/results remain evidence within their declared scope, but preserving them does not reactivate an experimental line that has been superseded or left outside the current programme.
+
+### Claim status at the current gate
+
+| Claim | Current status | Governing evidence / open gate |
+|---|---|---|
+| Conditioned R01 theorem v0.2 | Author-reconstructed symbolic proof; received external reviews are recognized, but current proposition-by-proposition independent coverage is not yet established. | [Theorem](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) · [review](./feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md) · **M16 open** in [status register](./feasibility/WORKPLAN_STATUS.json). |
+| Fidelity from the current theorem back to all governing source clauses | Not closed. | **M17 open** in [status register](./feasibility/WORKPLAN_STATUS.json). |
+| Three retained finite extension checkers reproduce their historical reports | Current substantive reproduction passes under v2; documentary differences remain versioned separately. | [Version-aware verifier](./extensions/verify_audit_v2.py) · historical [audit report](./extensions/audit_results.json) · **P08 in progress**. |
+| Human escalation / whispering technology line | Virtual/contract traversal and own review only; no human calibration or real technology run. | [Technology study](./feasibility/HUMAN_ESCALATION_WHISPERING.md) · current register. |
+| Full R01 campaign and comparative EA benefit | Not executed or established. | Later gates: C02 neutral oracle/harness → C11 registered campaign → T03 real adapter/technology campaign. |
 
 <a id="r01-in-plain-language"></a>
 ## What R01 studies
