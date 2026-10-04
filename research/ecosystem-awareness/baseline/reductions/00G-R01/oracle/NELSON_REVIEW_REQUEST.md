@@ -27,7 +27,13 @@ https://github.com/dakleyer/structural-awareness-contributions/blob/main/researc
 Sidecar schema:
 https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/schemas/r01_uc4_sidecar.schema.json
 
-The first Stage-0 fixture is only an instrumentation self-test: four synthetic positive/boundary/rejection/tie vectors, two separately coded exact reference paths, an oracle-blind adapter invocation and a sealed candidate trace before reference evaluation. **No real technology or EA differential is claimed.**
+The current Stage-0 package is still only an instrumentation self-test, but it now contains six synthetic vectors (positive, connector boundary, rejection, tied optima, no-reference/inconclusive and cost/deadline failure), two separately coded exact reference paths, oracle-blind trace sealing, deterministic replay, case-order and identifier-permutation controls, malformed-record isolation, an abstention negative control, and an interactive adapter → tool broker → private oracle path. **No real technology or EA differential is claimed.**
+
+The instrument self-test completed successfully in GitHub Actions:
+https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37240286062
+
+Recorded result:
+https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/SELFTEST_RECORD_v0.3.md
 
 Before I call this UC-4-compatible, I would appreciate your correction on five points:
 
@@ -37,7 +43,7 @@ Before I call this UC-4-compatible, I would appreciate your correction on five p
 4. How would you represent evaluator-only/oracle resource cost without contaminating the participant/comparator burden?
 5. Do `PASS | FAIL | INCONCLUSIVE | INFRASTRUCTURE_ERROR` map cleanly to your expected-outcome semantics, or would you prefer another mapping?
 
-I have kept the bridge at `R01-BRIDGE-DRAFT` and source-contributor review `PENDING` until you have had the opportunity to correct it. Once aligned, the next step would be to package the first R01 Stage-0 profile against the pinned UC-4 schema and then use the same adapter boundary for real technologies.
+I have kept the bridge at `R01-BRIDGE-DRAFT` and source-contributor review `PENDING` until you have had the opportunity to correct it. Once aligned, the next step would be to package this R01 Stage-0 profile against the pinned UC-4 schema, incorporate any corrections you make to the bridge, and only then admit real technologies through the same adapter/tool-broker boundary.
 
 ## Review disposition
 
