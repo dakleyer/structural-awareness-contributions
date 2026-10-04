@@ -35,6 +35,9 @@ jobs:
       - name: Guard current-route editorial/readability preservation
         run: python research/ecosystem-awareness/baseline/reductions/00G-R01/tools/check_current_route_preservation.py
 
+      - name: Check current-route editorial presentation quality
+        run: python research/ecosystem-awareness/baseline/reductions/00G-R01/tools/check_current_editorial_quality.py
+
       - name: Prove unrecorded documentary drift fails the gate
         shell: bash
         run: |
