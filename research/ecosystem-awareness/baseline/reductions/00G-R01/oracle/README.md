@@ -1,0 +1,97 @@
+# R01 C02 — neutral oracle / harness
+
+**Status: limited implementation draft · 4 October 2026.** This directory begins the executable C02 instrument requested for R01. It is not a real-technology campaign, not a validated oracle, and not an FG-TIDA deliverable.
+
+The design is deliberately **UC-4-first**. Nelson Trasatti's UC #4 testbed contribution is the primary interoperability target. R01 adds only the minimum private-world/reference machinery needed to evaluate the R01 scenario without redefining Theme #13, authority/delegation, human oversight or other contributor-owned semantics.
+
+## Upstream sources and attribution
+
+Primary source:
+
+- Nelson Trasatti, **FG-TIDA UC #4 — Federated ecosystem defense across independently governed organizations**  
+  https://github.com/FG-TIDA/use-cases/issues/4
+- UC #4 experiment-cycle proposal and mapping approach  
+  https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5846988611
+- UC #4 candidate experiment input package v1.1.1 / schema 1.0.0  
+  https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5847245589
+- UC #4 public experiment schema 1.1.0-r1, adding assessment time, consumed-determination reference, provenance, capabilities and separate review states  
+  https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911
+- Theme #13 — Ecosystem-level Agent Defense  
+  https://github.com/FG-TIDA/themes/issues/13
+
+Corpus reuse:
+
+- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md
+- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md
+- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md
+- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md
+- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py
+
+## Interoperability rule
+
+R01 does **not** fork Nelson's experiment contract. The intended composition is:
+
+```text
+UC-4 experiment package
+  common experiment metadata
+  source/version/review/capability declarations
+  one or more attributed adapters
+  frozen positive / boundary / rejection cases
+             |
+             +--> R01 sidecar (this directory)
+                    private world reference
+                    participant-view projection
+                    R01 operation/cost contract
+                    exact reference methods
+                    candidate trace seal
+                    post-run R01 evaluation
+```
+
+Until Nelson's schema package itself is vendored or directly consumed, this directory claims **semantic alignment**, not byte-level/schema-validator compatibility. The bridge is documented in [UC4_INTEROPERABILITY_PROFILE.md](./UC4_INTEROPERABILITY_PROFILE.md).
+
+## What is executable now
+
+The current Stage-0 self-test is intentionally small. It verifies that the harness can:
+
+1. keep private admissibility and optimum data out of the adapter view;
+2. invoke an adapter before computing/loading the reference result;
+3. seal a candidate trace before post-run evaluation;
+4. enumerate a finite R01 world exactly;
+5. recompute the same reference through a separate implementation path;
+6. distinguish positive, boundary and rejection fixtures;
+7. retain operational cost separately from oracle/evaluator work;
+8. detect deny-all/abstention as non-completion rather than treating it as safe success.
+
+Run locally from this directory:
+
+```sh
+python3 verify.py
+```
+
+The bundled adapter is an **instrumentation self-test only**. It is not a product, agent, conventional comparator, EA implementation or human-escalation implementation.
+
+## Directory
+
+```text
+oracle/
+  README.md
+  UC4_INTEROPERABILITY_PROFILE.md
+  adapter_api.py
+  canonical_trace_v1.py
+  reference.py
+  reference_secondary.py
+  harness.py
+  verify.py
+  schemas/
+    r01_uc4_sidecar.schema.json
+  adapters/
+    selftest_adapter.py
+  fixtures/stage0/
+    experiment_sidecar.json
+    worlds.json
+    expected_selftest.json
+```
+
+## Claim boundary
+
+A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
