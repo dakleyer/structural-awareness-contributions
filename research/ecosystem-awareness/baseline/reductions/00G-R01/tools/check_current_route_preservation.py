@@ -22,6 +22,10 @@ import sys
 R01 = Path(__file__).resolve().parents[1]
 REPO = R01.parents[4]
 BASELINE_COMMIT = "a96f14718a3b2f307b812ae4d8fe278dffb62764"
+BASELINE_BY_FILE = {
+    "oracle/README.md": "c7eee86425f7d3cf44c0478708252bc430222648",
+    "oracle/UC4_INTEROPERABILITY_PROFILE.md": "26d1e12c9faa2636c47015a243d02a5e927f4c6a",
+}
 
 CURRENT_ROUTE_FILES = (
     "README.md",
@@ -31,12 +35,16 @@ CURRENT_ROUTE_FILES = (
     "MATHEMATICAL_FEASIBILITY.md",
     "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md",
     "TRACE_POLICY.md",
+    "INFORMATION_PRESERVATION_AUDIT_2026-10-04.md",
     "reductions/00G-to-R01/README.md",
     "extensions/CRITERIA_AND_AUDIT.md",
     "extensions/METHODOLOGICAL_FOUNDATIONS.md",
     "extensions/hugging-face/README.md",
     "extensions/infoblox/README.md",
     "extensions/family/README.md",
+    "extensions/family/KERNEL_AND_PROOF.md",
+    "oracle/README.md",
+    "oracle/UC4_INTEROPERABILITY_PROFILE.md",
     "feasibility/README.md",
     "feasibility/WORKPLAN.md",
     "feasibility/CONTINUATION_PROMPT.md",
@@ -64,12 +72,13 @@ CODE_SPAN = re.compile(chr(96) + r"([^\n]+?)" + chr(96))
 
 def git_show(path: str) -> str:
     repo_path = str((R01 / path).relative_to(REPO))
+    baseline = BASELINE_BY_FILE.get(path, BASELINE_COMMIT)
     completed = subprocess.run(
-        ["git", "show", f"{BASELINE_COMMIT}:{repo_path}"],
+        ["git", "show", f"{baseline}:{repo_path}"],
         cwd=REPO, capture_output=True, text=True, encoding="utf-8"
     )
     if completed.returncode:
-        raise RuntimeError(f"cannot read baseline {repo_path}: {completed.stderr.strip()}")
+        raise RuntimeError(f"cannot read baseline {baseline}:{repo_path}: {completed.stderr.strip()}")
     return completed.stdout
 
 
