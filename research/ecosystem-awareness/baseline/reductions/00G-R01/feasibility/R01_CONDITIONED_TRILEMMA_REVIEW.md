@@ -8,7 +8,7 @@
 
 ## 1. Reconstruction of decisive steps
 
-**Posterior bound.** Each parity contains 2^{K−1} vectors. With n<K data items fixed, there are 2^{K−n−1} completions in each parity; prefix probability is 2^{−n} under both. By Bayes, P(χ=0|historia)=a while a datum is missing, provided the complete history contains no other channel. Adaptive index selection and pooling do not alter that calculation: each selection depends on the already observed prefix, not the still hidden value. The final read does change the posterior and permits certainty of success.
+**Posterior bound.** Each parity contains 2^{K−1} vectors. With n<K data items fixed, there are 2^{K−n−1} completions in each parity; prefix probability is 2^{−n} under both. By Bayes, P(χ=0|history)=a while a datum is missing, provided the complete history contains no other channel. Adaptive index selection and pooling do not alter that calculation: each selection depends on the already observed prefix, not the still hidden value. The final read does change the posterior and permits certainty of success.
 
 **Informed delivery cost.** Every delivery pays the already incurred technical prior and 3L gates/effects of distinct scopes: C_0. Resolving χ before the first high effect without a prior receipt requires K new collective data items. Reordering those acquisitions does not change the ledger; a global query charges its producer. Therefore an informed delivery costs at least C_0+K. Target b is lower and physical capacity B does allow payment of that amount.
 
@@ -54,7 +54,7 @@
 
 ## 3. Limits not closed by this review
 
-Manifest fidelity to R01 must be reconstructed by another reviewer, especially separation between local scope and global normative relations, producer operations, initial-context accounting and rejection of known prohibitions. No simulator of the new profile has been implemented or actual isolation of its private state audited. The theorem concerns the mathematical contract, not arbitrary access to Python attributes of historical checkers.
+Manifest fidelity to R01 must be reconstructed by another reviewer, especially the separation between local scope and global normative relations, producer operations, initial-context accounting and rejection of known prohibitions. No simulator of the new profile has been implemented, and the actual isolation of its private state has not been audited. The theorem concerns the mathematical contract, not arbitrary access to Python attributes of historical checkers.
 
 The document does not numerically characterize every geometry or API. It offers a certificate for any profile and a sufficient condition whose family has an exact frontier. It claims neither that every incompatible region has all three pairs attainable nor impossibility in every configuration. Cases failing a hypothesis are not automatically classified as viable.
 
