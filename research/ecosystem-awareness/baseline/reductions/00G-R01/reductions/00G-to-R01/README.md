@@ -58,10 +58,10 @@ EA's candidacy draws on [00M v0.8, A/B/C/D semantics and mathematical plausibili
 ## Original identification retained
 
 <a id="00g-r01-reducción-de-00g"></a>
-# 00G-R01 Reduction of 00G
+### 00G-R01 Reduction of 00G
 
 <a id="exploración-probabilística-y-coste-de-validación"></a>
-## Probabilistic exploration and validation cost
+#### Probabilistic exploration and validation cost
 
 **C-V · working version 0.6 · 2 October 2026.** Reduction study of the 00G family. Non-canonical research specification, still without experimental results of its own.
 
