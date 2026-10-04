@@ -231,7 +231,9 @@
       "reviewer_requirement": "distinct from author; UNASSIGNED, no independent review claimed",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
       "current_manuscript": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
-      "additional_pending_review": "v0.2 B/R distinction, joint feasibility cut, branch-budget success corollary, local M02 theorem and G-family compatibility/producer ledger; v0.2 reciprocal certificate multiplier, corrected send/receive ledger and controls without normative receipt"
+      "additional_pending_review": "v0.2 B/R distinction, joint feasibility cut, branch-budget success corollary, local M02 theorem and G-family compatibility/producer ledger; v0.2 reciprocal certificate multiplier, corrected send/receive ledger and controls without normative receipt",
+      "received_external_reviews_acknowledged": true,
+      "coverage_rule": "Credit the received reviews by version and proposition before marking any further review pending. Do not equate receiving a review with full coverage, or an error in one comment with rejection of the entire review."
     },
     "M17": {
       "status": "IN_PROGRESS",
@@ -681,7 +683,7 @@
   "no_new_scientific_experiments": true,
   "independent_manuscript": "CONDITIONED_TRILEMMA.md",
   "manuscript_own_review": "CONDITIONED_TRILEMMA_SELF_REVIEW.md",
-  "independent_mathematical_review_received": false,
+  "independent_mathematical_review_received": true,
   "deep_own_audit": "CONDITIONED_TRILEMMA_DEEP_AUDIT.md",
   "transfer_mapping": "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md",
   "R01_defined_G_family_proof_available": true,
@@ -717,5 +719,13 @@
     "source_changed": false,
     "technology_applied": false,
     "next_phase": "separate extension protocol; pending"
+  },
+  "external_review_coverage": {
+    "received": true,
+    "evidence": "CONDITIONED_TRILEMMA_DEEP_AUDIT.md §4 records the user-supplied reviews and their mathematical comments",
+    "current_v02_full_coverage_verified": false,
+    "scope": "Received external reviews are recognized; completeness and independence must be assessed per review and per proposition, not inferred from a single blanket Boolean.",
+    "completion_state": "M16 remains OPEN for uncovered or not-yet-verified propositions of the current manuscript; existing reviewed coverage must be credited before requesting further review",
+    "correction": "The previous received=false label was too broad; independent_review=false denotes uncompleted validation, not absence of received reviews."
   }
 }
