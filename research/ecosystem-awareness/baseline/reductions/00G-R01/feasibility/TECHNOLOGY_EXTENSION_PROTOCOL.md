@@ -117,7 +117,7 @@ Archived scripts may inspire controls and tests for the future harness. Their pa
 <a id="technologies-to-study"></a>
 ## 8. Technologies to study and work order
 
-The first profile is human escalation with whispering. The order is maintained: isomorphic correspondence; information mechanism; pause mechanism; human mechanism; dissemination and concurrency; composition; frontiers; evaluation protocol. Obligations are not skipped because of the technology's name.
+The first profile is human escalation with whispering. The review order remains: isomorphic correspondence; information mechanism; pause mechanism; human mechanism; dissemination and concurrency; composition; frontiers; evaluation protocol. Obligations are not skipped because of the technology's name.
 
 ### 8.1 Technology registry
 
@@ -134,7 +134,7 @@ The last three are candidate frameworks, not already validated technologies. The
 
 ### 8.2 Virtual traversals of technology extensions
 
-For each candidate, presentation follows this sequence: explain and justify **why it could help generally**, check the isomorphic kernel, separate additional mechanisms and traverse R1/R2/R3 as the contract's final virtual examination. This precedes the harness and real technology.
+For each candidate, the presentation follows this sequence: explain and justify **why it could help generally**, check the isomorphic kernel, separate additional mechanisms, and traverse R1/R2/R3 as the contract's final virtual examination. This precedes the harness and real technology.
 
 - **R1:** competent reference with ordinary controls, alternatives and quality, without adding the mechanism under study.
 - **R2:** same problem and thresholds, declared mechanism and quality plan, including detection, evidence, intervention, effects, continuity, cost and deadline.
