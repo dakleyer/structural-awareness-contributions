@@ -2,7 +2,7 @@
 
 Iván Abril Palma, Tegrity.AI · Plan vigente v0.3 · 4 de octubre de 2026; revisión v0.2 conservada como historia
 
-[README de R01](./README.md#bot-start-here) · [Viabilidad matemática](./MATHEMATICAL_FEASIBILITY.md) · [Computabilidad y oráculo](./COMPUTABILITY_AND_ORACLE_PLAN.md) · [Diferencial y valor](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md) · [Integraciones](./extensions/hugging-face/REMAINING_TASKS.txt) · [Evidencia de esta revisión](./WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json)
+[README de R01](./README.md#bot-start-here) · [Viabilidad matemática](./MATHEMATICAL_FEASIBILITY.md) · [Computabilidad y oráculo](./COMPUTABILITY_AND_ORACLE_PLAN.md) · [Diferencial y valor](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md) · [Integraciones](./extensions/hugging-face/REMAINING_TASKS.txt) · [Evidencia de esta revisión](./feasibility/previous-work/WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json)
 
 <a id="mathematical-strengthening"></a>
 ## Plan vigente — demostración por familias y controles complementarios
@@ -25,7 +25,7 @@ Reorganización v0.3 · 4 de octubre de 2026 · Entrada `dbae916553166a29f9e756f
 | Certificados, barreras y despacho autorizado | Resultados de subperfiles, clasificación general pendiente | Entradas de M13 y ataques; contar productor y cambios de mecanismo. |
 | Checkers propios y documentos de conservación | Evidencia finita y revisión propia | No cierran M05/C05 ni M16. Los fallos heredados P08 siguen registrados. |
 
-Se mantienen los 49 IDs originales y sus criterios; se añaden M12–M17 para obligaciones que no quedaban suficientemente separadas. **Estado: 55 tareas; 4 DONE históricas, 5 IN_PROGRESS y 46 OPEN.** M03/M04 se reabren por ampliar el objetivo y sus requisitos de aceptación; esto no registra un contraejemplo ni invalida automáticamente sus derivaciones anteriores. Los textos que dicen 6 DONE en los registros anteriores describen aquella entrega. Estado y dependencias computables: [registro vigente](./R01_MATH_WORKPLAN_2026-10-04.json). Evidencia documental: [auditoría de reorganización](./R01_REORGANIZATION_CHECKS.json).
+Se mantienen los 49 IDs originales y sus criterios; se añaden M12–M17 para obligaciones que no quedaban suficientemente separadas. **Estado: 55 tareas; 4 DONE históricas, 5 IN_PROGRESS y 46 OPEN.** M03/M04 se reabren por ampliar el objetivo y sus requisitos de aceptación; esto no registra un contraejemplo ni invalida automáticamente sus derivaciones anteriores. Los textos que dicen 6 DONE en los registros anteriores describen aquella entrega. Estado y dependencias computables: [registro vigente](./feasibility/previous-work/R01_MATH_WORKPLAN_2026-10-04.json). Evidencia documental: [auditoría de reorganización](./feasibility/previous-work/R01_REORGANIZATION_CHECKS.json).
 
 ### Objetivo matemático y orden de cuantificadores
 
@@ -69,7 +69,7 @@ Los siguientes criterios complementan los 49 originales. M12 usa resultados hist
 
 ### Material adicional recibido — prioridad matemática, 4 de octubre de 2026
 
-Se conservan [seis originales y sus salidas](./supplemental/2026-10-04/README.md) como material de apoyo, sin sustituir el plan ni cerrar tareas. Los cuatro scripts se ejecutaron sin error; la admisión encontró contraejemplos que deben incorporarse a M12/M06/M11: fórmula de presupuesto que ignora eficacia; confusión entre recuperar el mundo y entregar una ruta; límites de estimaciones de capacidad, frescura, amortización y contención posterior al efecto. El anexo tecnológico queda en segundo lugar, para M13/T. **La prioridad es comprobar que el trilema sea una imposibilidad real dentro del modelo y que sus supuestos no fabriquen el resultado.** Estado matemático: derivaciones F/W disponibles, revisión independiente y puente a R01 pendientes. No hay validación empírica de incidencia en despliegues. M12 sigue siendo la siguiente entrega. Estado total sin cambios: 55 tareas, 4 DONE históricas, 5 IN_PROGRESS, 46 OPEN.
+Se conservan [seis originales y sus salidas](./feasibility/partial-experiments/received/2026-10-04/README.md) como material de apoyo, sin sustituir el plan ni cerrar tareas. Los cuatro scripts se ejecutaron sin error; la admisión encontró contraejemplos que deben incorporarse a M12/M06/M11: fórmula de presupuesto que ignora eficacia; confusión entre recuperar el mundo y entregar una ruta; límites de estimaciones de capacidad, frescura, amortización y contención posterior al efecto. El anexo tecnológico queda en segundo lugar, para M13/T. **La prioridad es comprobar que el trilema sea una imposibilidad real dentro del modelo y que sus supuestos no fabriquen el resultado.** Estado matemático: derivaciones F/W disponibles, revisión independiente y puente a R01 pendientes. No hay validación empírica de incidencia en despliegues. M12 sigue siendo la siguiente entrega. Estado total sin cambios: 55 tareas, 4 DONE históricas, 5 IN_PROGRESS, 46 OPEN.
 
 ### Prompt rector para ejecutar y revisar el camino combinado
 
@@ -90,7 +90,7 @@ Antes de modelos/adaptadores amplios, verifica qué incertidumbre científica re
 
 Los cuatro planes tienen una base sólida: distinguen pruebas, comprobaciones finitas, campañas, admisión tecnológica y causalidad histórica; conservan resultados negativos y exigen evidencia para cerrar tareas. El principal defecto es de ejecución estratégica: algunas revisiones llegan demasiado tarde y faltaban tareas concretas para la campaña estadística y la evaluación posterior de pilotos como instrumento de selección de arquitectura.
 
-Se mantienen las 38 tareas originales y sus criterios. Se añaden 11: M10–M11, C11–C14, P10–P12 y T11–T12. Al crearse esta revisión, las 49 estaban abiertas. Estado de la entrega histórica v1.0: M01/M02/M03/M04/M10/P03 se registraron DONE para sus alcances declarados; M06/M11/P10 estaban IN_PROGRESS. La reorganización vigente reabre M03/M04; el estado actual es 4 DONE, 5 IN_PROGRESS y 46 OPEN en 55 tareas. [Pruebas universales, fronteras y tecnologías](./M03_M04_TRILEMMA_THEOREMS.md). La revisión independiente M05/C05 sigue pendiente. Se aclara el orden sin exigir terminar toda la prueba matemática antes de construir un evaluador neutral. Las revisiones de fuentes, contraejemplos, coherencia y conservación se repiten durante el trabajo, además de su cierre final.
+Se mantienen las 38 tareas originales y sus criterios. Se añaden 11: M10–M11, C11–C14, P10–P12 y T11–T12. Al crearse esta revisión, las 49 estaban abiertas. Estado de la entrega histórica v1.0: M01/M02/M03/M04/M10/P03 se registraron DONE para sus alcances declarados; M06/M11/P10 estaban IN_PROGRESS. La reorganización vigente reabre M03/M04; el estado actual es 4 DONE, 5 IN_PROGRESS y 46 OPEN en 55 tareas. [Pruebas universales, fronteras y tecnologías](./feasibility/previous-work/M03_M04_TRILEMMA_THEOREMS.md). La revisión independiente M05/C05 sigue pendiente. Se aclara el orden sin exigir terminar toda la prueba matemática antes de construir un evaluador neutral. Las revisiones de fuentes, contraejemplos, coherencia y conservación se repiten durante el trabajo, además de su cierre final.
 
 La revisión usa el commit `1e940125a18f468268eff8f029a35c32a5f4ff08`. Los 39 archivos de texto/código descargados de R01 coinciden exactamente con sus blobs Git. Los tres verificadores de extensiones reproducen sus informes publicados. El verificador común falla en el hash actual del escenario; los manifiestos SHA256 tampoco coinciden con los tres README de extensiones. Son problemas heredados, anteriores a esta revisión. Se conservan el escenario, los scripts, los resultados y los congelados históricos. Esta revisión no prueba el teorema, no implementa el oráculo completo y no ejecuta una campaña con agentes.
 
@@ -164,17 +164,17 @@ Prioridades: P0 = comenzar y fijar contratos; P1 = desbloquear evidencia mínima
 
 | ID | Prioridad | Actividad y resultado exigido |
 |---|---|---|
-| M01 | P0 | Fijar dominio, políticas, cuantificadores, distribución o peor caso, umbrales y regiones F/U; permitir regiones vacías. **DONE — formulación de alcance**, [resultado](./M01_SCOPE_AND_QUANTIFIERS.md). |
-| M02 | P1 | Construir mundos difíciles y control viable con ground truth, observaciones, óptimo y mezclas; descartar un atajo común suficiente. **DONE — construcción y controles**, [resultado](./M02_WORLDS_AND_CONTROLS.md). |
-| M03 | P0 | Derivar la información y recursos necesarios, cubriendo adaptación, aleatoriedad, memoria, certificados y colaboración de la clase afirmada. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./M03_M04_TRILEMMA_THEOREMS.md). |
-| M04 | P0 | Demostrar o rechazar una región mediante desigualdades, fronteras y testigo de no vaciedad; conservar el intento fallido. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./M03_M04_TRILEMMA_THEOREMS.md). |
+| M01 | P0 | Fijar dominio, políticas, cuantificadores, distribución o peor caso, umbrales y regiones F/U; permitir regiones vacías. **DONE — formulación de alcance**, [resultado](./feasibility/previous-work/M01_SCOPE_AND_QUANTIFIERS.md). |
+| M02 | P1 | Construir mundos difíciles y control viable con ground truth, observaciones, óptimo y mezclas; descartar un atajo común suficiente. **DONE — construcción y controles**, [resultado](./feasibility/previous-work/M02_WORLDS_AND_CONTROLS.md). |
+| M03 | P0 | Derivar la información y recursos necesarios, cubriendo adaptación, aleatoriedad, memoria, certificados y colaboración de la clase afirmada. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./feasibility/previous-work/M03_M04_TRILEMMA_THEOREMS.md). |
+| M04 | P0 | Demostrar o rechazar una región mediante desigualdades, fronteras y testigo de no vaciedad; conservar el intento fallido. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./feasibility/previous-work/M03_M04_TRILEMMA_THEOREMS.md). |
 | M05 | P1 | Contrastar testigos con C02–C05 y mapear supuestos; la enumeración finita cubre su dominio declarado. |
-| M06 | P1/R | Verificar fuentes y atacar la prueba con contraejemplos; iniciar búsqueda dirigida temprano y completar la auditoría del argumento. **IN_PROGRESS — entrada de fuentes**, [registro](./M06_PRIMARY_SOURCE_INTAKE.md). |
+| M06 | P1/R | Verificar fuentes y atacar la prueba con contraejemplos; iniciar búsqueda dirigida temprano y completar la auditoría del argumento. **IN_PROGRESS — entrada de fuentes**, [registro](./feasibility/previous-work/M06_PRIMARY_SOURCE_INTAKE.md). |
 | M07 | P1/R | Revisar correspondencia con R01, 00M/00N, E1–E7 y extensiones; separar escenario, tecnología e incidente histórico. |
 | M08 | R | Revisar claridad y visuales; distinguir región probada, medida y sin resolver, con ejes y unidades. |
 | M09 | R | Conservar contenido, enlaces y congelados; cerrar la entrega matemática con evidencia y límites. |
-| M10 | P0 | Unificar éxito/riesgo, observación y cuantificadores antes de M03; no confundir fallo empírico con imposibilidad universal. **DONE — reconciliación de contrato**, [resultado](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
-| M11 | P1/R | Atacar fronteras, casos degenerados, priors, certificados y controles; comprobar sensibilidad y límites superiores constructivos cuando existan. **IN_PROGRESS — controles de costes y priors**, [registro](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
+| M10 | P0 | Unificar éxito/riesgo, observación y cuantificadores antes de M03; no confundir fallo empírico con imposibilidad universal. **DONE — reconciliación de contrato**, [resultado](./feasibility/previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
+| M11 | P1/R | Atacar fronteras, casos degenerados, priors, certificados y controles; comprobar sensibilidad y límites superiores constructivos cuando existan. **IN_PROGRESS — controles de costes y priors**, [registro](./feasibility/previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
 
 | M12 | P0 | Contrato del teorema objetivo y mapa de obligaciones. **OPEN**; criterios completos y dependencias en el plan vigente de arriba. |
 | M13 | P1 | Teoremas sobre clases tecnológicas y coste completo. **OPEN**; criterios completos y dependencias en el plan vigente de arriba. |
@@ -208,14 +208,14 @@ Prioridades: P0 = comenzar y fijar contratos; P1 = desbloquear evidencia mínima
 |---|---|---|
 | P01 | P1/R | Profundizar fuentes primarias y congelar locatores; matriz afirmación–fuente y límites de la búsqueda. |
 | P02 | P1/R | Intentar obtener el mismo valor con métodos existentes y alternativas simples; falsar cada contribución superviviente. |
-| P03 | P0 | Auditar medidas y casos límite; conservar costes sin entrega, indeterminación y restricciones sin compensación por recompensa. **DONE — auditoría de medidas**, [resultado](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
+| P03 | P0 | Auditar medidas y casos límite; conservar costes sin entrega, indeterminación y restricciones sin compensación por recompensa. **DONE — auditoría de medidas**, [resultado](./feasibility/previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
 | P04 | P1/R | Revisar el contrato y evidencia del oráculo C; no crear un segundo trabajo duplicado bajo otro nombre. |
 | P05 | P1/R | Verificar requisitos, terminología, autoridad, versiones y límites de transferencia con el corpus vigente. |
 | P06 | R | Comprobar legibilidad para investigación y decisión de arquitectura sin perder distinciones técnicas. |
 | P07 | R | Evaluar ayudas visuales; toda figura conceptual se identifica y ninguna frontera inventada se presenta como medida. |
 | P08 | P0/R | Diagnosticar integridad al inicio y reparar con sucesor explícito; conservar historia y verificar navegación/contenido. |
 | P09 | R | Auditar el valor y la afirmación más fuerte de la entrega; registrar límites y distinguir revisión propia de independiente. |
-| P10 | P0 | Definir decisión, alternativas, valor incremental falsable y techo de inversión; puertas de continuar, acotar, reformular o parar. **IN_PROGRESS — decisión inicial de continuar/acotar**, [registro](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
+| P10 | P0 | Definir decisión, alternativas, valor incremental falsable y techo de inversión; puertas de continuar, acotar, reformular o parar. **IN_PROGRESS — decisión inicial de continuar/acotar**, [registro](./feasibility/previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). |
 | P11 | P3 | Diseñar el estudio de selección antes de C14: información elegible, referencia independiente, error, coste y particiones. |
 | P12 | P3/R | Comprobar mejora en decisiones o esfuerzo y límites a escala; un oráculo correcto no demuestra utilidad prospectiva del piloto. |
 
@@ -256,7 +256,7 @@ Comienza en G0 con M12 y una primera pasada M06/M11. La siguiente entrega es el 
 
 ### Actualización de ejecución — M01
 
-M01 está DONE únicamente para formular el alcance matemático. [Contrato y revisión adversarial](./M01_SCOPE_AND_QUANTIFIERS.md) · [Evidencia y límites](./M01_SCOPE_CHECKS.json) · [Cálculos diagnósticos reproducibles](./verify_m01_scope.py). La declaración anterior de todas las tareas OPEN corresponde a la aprobación del plan, no al estado posterior a esta ejecución.
+M01 está DONE únicamente para formular el alcance matemático. [Contrato y revisión adversarial](./feasibility/previous-work/M01_SCOPE_AND_QUANTIFIERS.md) · [Evidencia y límites](./feasibility/partial-experiments/historical/M01_SCOPE_CHECKS.json) · [Cálculos diagnósticos reproducibles](./feasibility/partial-experiments/historical/verify_m01_scope.py). La declaración anterior de todas las tareas OPEN corresponde a la aprobación del plan, no al estado posterior a esta ejecución.
 
 El primer objetivo usa un agente y una pareja de mundos estáticos equiprobables. No redefine la campaña de población de R01 ni demuestra que exista una región inviable. M02 es el siguiente paso; M10, P03, los argumentos, las implementaciones y las campañas conservan sus pendientes. Un hallazgo material puede reabrir M01. La revisión ha sido propia, no independiente.
 
@@ -264,7 +264,7 @@ El primer objetivo usa un agente y una pareja de mundos estáticos equiprobables
 
 ### Actualización de ejecución — M02
 
-M02 está DONE para construir y comprobar el candidato conjuntivo y sus controles. [Mundos, costes, atajos y límites](./M02_WORLDS_AND_CONTROLS.md) · [Fixture completo](./M02_CONJUNCTION_FIXTURE.json) · [Comprobador](./verify_m02_worlds.py) · [76 comprobaciones y trazas](./M02_WORLD_CHECKS.json) · [Aceptación y conservación](./M02_RELEASE_CHECKS.json).
+M02 está DONE para construir y comprobar el candidato conjuntivo y sus controles. [Mundos, costes, atajos y límites](./feasibility/previous-work/M02_WORLDS_AND_CONTROLS.md) · [Fixture completo](./feasibility/partial-experiments/historical/M02_CONJUNCTION_FIXTURE.json) · [Comprobador](./feasibility/partial-experiments/historical/verify_m02_worlds.py) · [76 comprobaciones y trazas](./feasibility/partial-experiments/historical/M02_WORLD_CHECKS.json) · [Aceptación y conservación](./feasibility/partial-experiments/historical/M02_RELEASE_CHECKS.json).
 
 Se incluyen las 27 rutas y sus mezclas; el único camino permitido en ambos mundos entrega 3 frente a los óptimos 6. El control con información completa funciona con R=11. Consultar el dato o su certificado permite entregar el óptimo con R=12; con epsilon=3 basta M y R=11. Se conservan estos casos que resuelven el candidato. Esto no demuestra inviabilidad para todas las políticas ni una ventaja de EA o tecnología concreta.
 
@@ -274,7 +274,7 @@ El siguiente trabajo es reconciliar M10/P03 y abrir la revisión dirigida de fue
 
 ### Actualización de ejecución — M10/P03 y revisión inicial
 
-M10 y P03 están DONE para reconciliar el contrato y auditar las medidas. [Resultado, límites y prompt para otro agente](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [Contrato](./M10_RECONCILED_CONTRACT.json) · [Comprobador](./verify_m10_measurements.py) · [35 nuevas comprobaciones](./M10_MEASUREMENT_CHECKS.json) · [Fuentes primarias M06](./M06_PRIMARY_SOURCE_INTAKE.md) · [Evidencia de aceptación/conservación](./M10_RELEASE_CHECKS.json). Se reproducen también las 76 comprobaciones históricas de M02 sin cambios. La revisión es propia, no independiente.
+M10 y P03 están DONE para reconciliar el contrato y auditar las medidas. [Resultado, límites y prompt para otro agente](./feasibility/previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [Contrato](./feasibility/partial-experiments/historical/M10_RECONCILED_CONTRACT.json) · [Comprobador](./feasibility/partial-experiments/historical/verify_m10_measurements.py) · [35 nuevas comprobaciones](./feasibility/partial-experiments/historical/M10_MEASUREMENT_CHECKS.json) · [Fuentes primarias M06](./feasibility/previous-work/M06_PRIMARY_SOURCE_INTAKE.md) · [Evidencia de aceptación/conservación](./feasibility/partial-experiments/historical/M10_RELEASE_CHECKS.json). Se reproducen también las 76 comprobaciones históricas de M02 sin cambios. La revisión es propia, no independiente.
 
 M02 depende de un solo dato global y de precios/revisión fijados. Producir y comprobar el certificado queda incluido explícitamente en su unidad de coste. Con revisión local positiva de 2/3 por paso, consultar y entregar el óptimo cuesta 11; cambiar el prior a 9/10,1/10 permite al control ciego cumplir AVG, pero no WC. Se conservan estos controles en configuraciones distintas. La formulación no justifica un coste de información creciente con L ni una frontera para todas las arquitecturas.
 
@@ -284,7 +284,7 @@ M06/M11/P10 quedan IN_PROGRESS para completar fuentes, ataques al argumento/fron
 
 ### M03/M04 execution record — family trilemma and technology interfaces
 
-**M03/M04 DONE for the versioned supplemental F/W profiles, with same-agent review.** [Full symbolic proofs, boundaries, technology changes and reviewer prompt](./M03_M04_TRILEMMA_THEOREMS.md) · [Supplemental contract](./TRILEMMA_CONTRACT.json) · [Received proposal preserved](./TRILEMMA_RECEIVED_SKETCH.md) · [Exact finite checker](./verify_trilemma.py) · [Diagnostic output](./TRILEMMA_CHECKS.json) · [Release/preservation](./TRILEMMA_RELEASE_CHECKS.json).
+**M03/M04 DONE for the versioned supplemental F/W profiles, with same-agent review.** [Full symbolic proofs, boundaries, technology changes and reviewer prompt](./feasibility/previous-work/M03_M04_TRILEMMA_THEOREMS.md) · [Supplemental contract](./feasibility/partial-experiments/historical/TRILEMMA_CONTRACT.json) · [Received proposal preserved](./feasibility/previous-work/TRILEMMA_RECEIVED_SKETCH.md) · [Exact finite checker](./feasibility/partial-experiments/historical/verify_trilemma.py) · [Diagnostic output](./feasibility/partial-experiments/historical/TRILEMMA_CHECKS.json) · [Release/preservation](./feasibility/partial-experiments/historical/TRILEMMA_RELEASE_CHECKS.json).
 
 The proofs cover all admitted observable-history adaptive/randomized policies, effect receipts, known denials, irreversible V, prior facts, caching and centrally shared team histories. F establishes exact linear information-cost frontiers; W establishes separate exact AVG/WC frontiers and a quadratic-vs-linear dense family, plus an expected-work lower bound. The fixed prior/query interface is essential. Neither the one-binding M02 fixture nor canonical R01 has been silently changed into that family. Technical efficacy eta is supplementary; original legitimate e/a/q and joint success sigma remain intact. This contract explicitly extends the earlier M01/M10 scope for these constructions; it does not claim campaign-level closure or reprice historical operations.
 

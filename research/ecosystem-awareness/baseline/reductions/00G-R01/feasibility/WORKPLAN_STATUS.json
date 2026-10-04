@@ -1,0 +1,663 @@
+{
+  "version": "0.4",
+  "input_commit": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+  "actual_utc": "2026-10-04T07:29:33.481026+00:00",
+  "plan_editor": "Codex, on user instruction",
+  "scientific_tasks_closed_by_this_revision": [],
+  "current_order": "target and pure mathematics -> symbolic review and R01 bridge -> neutral oracle/harness before new finite experiments -> technology classes -> registered campaigns -> selector",
+  "task_count": 55,
+  "counts": {
+    "DONE": 4,
+    "IN_PROGRESS": 6,
+    "OPEN": 45,
+    "BLOCKED": 0
+  },
+  "original_task_IDs_preserved": 49,
+  "new_task_IDs": [
+    "M12",
+    "M13",
+    "M14",
+    "M15",
+    "M16",
+    "M17"
+  ],
+  "tasks": {
+    "M01": {
+      "status": "DONE",
+      "priority": "P0",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Fijar dominio, políticas, cuantificadores, distribución o peor caso, umbrales y regiones F/U; permitir regiones vacías. **DONE — formulación de alcance**, [resultado](./previous-work/M01_SCOPE_AND_QUANTIFIERS.md).",
+      "historical_evidence_retained": true
+    },
+    "M02": {
+      "status": "DONE",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M01"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Construir mundos difíciles y control viable con ground truth, observaciones, óptimo y mezclas; descartar un atajo común suficiente. **DONE — construcción y controles**, [resultado](./previous-work/M02_WORLDS_AND_CONTROLS.md).",
+      "historical_evidence_retained": true
+    },
+    "M03": {
+      "status": "IN_PROGRESS",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Derivar la información y recursos necesarios, cubriendo adaptación, aleatoriedad, memoria, certificados y colaboración de la clase afirmada. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./previous-work/M03_M04_TRILEMMA_THEOREMS.md).",
+      "historical_evidence_retained": true,
+      "reopening_reason": "expanded final objective; prior conditional F/W derivations retained, no counterexample asserted",
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "M04": {
+      "status": "IN_PROGRESS",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M03",
+        "M12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Demostrar o rechazar una región mediante desigualdades, fronteras y testigo de no vaciedad; conservar el intento fallido. **IN_PROGRESS — derivación F/W existente; cierre del objetivo ampliado pendiente**, [Pruebas universales, fronteras y tecnologías](./previous-work/M03_M04_TRILEMMA_THEOREMS.md).",
+      "historical_evidence_retained": true,
+      "reopening_reason": "expanded final objective; prior conditional F/W derivations retained, no counterexample asserted",
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "M05": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M04",
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Contrastar testigos con C02–C05 y mapear supuestos; la enumeración finita cubre su dominio declarado.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "M06": {
+      "status": "IN_PROGRESS",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Verificar fuentes y atacar la prueba con contraejemplos; iniciar búsqueda dirigida temprano y completar la auditoría del argumento. **IN_PROGRESS — entrada de fuentes**, [registro](./previous-work/M06_PRIMARY_SOURCE_INTAKE.md).",
+      "historical_evidence_retained": true,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "M07": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [
+        "M17",
+        "M06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Revisar correspondencia con R01, 00M/00N, E1–E7 y extensiones; separar escenario, tecnología e incidente histórico.",
+      "historical_evidence_retained": false
+    },
+    "M08": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Revisar claridad y visuales; distinguir región probada, medida y sin resolver, con ejes y unidades.",
+      "historical_evidence_retained": false
+    },
+    "M09": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M05",
+        "M07",
+        "M08",
+        "M16"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Conservar contenido, enlaces y congelados; cerrar la entrega matemática con evidencia y límites.",
+      "historical_evidence_retained": false
+    },
+    "M10": {
+      "status": "DONE",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M01"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Unificar éxito/riesgo, observación y cuantificadores antes de M03; no confundir fallo empírico con imposibilidad universal. **DONE — reconciliación de contrato**, [resultado](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "historical_evidence_retained": true
+    },
+    "M11": {
+      "status": "IN_PROGRESS",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [
+        "M02"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Atacar fronteras, casos degenerados, priors, certificados y controles; comprobar sensibilidad y límites superiores constructivos cuando existan. **IN_PROGRESS — controles de costes y priors**, [registro](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "historical_evidence_retained": true,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "M12": {
+      "status": "IN_PROGRESS",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M01",
+        "M02",
+        "M10",
+        "P03"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Contrato del teorema objetivo y mapa de obligaciones. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Contrato versionado de parámetros independientes theta=(L,n,N,geometría,interfaz,prior,costes,datos previos,umbrales), políticas y resultados C/eta/rho/sigma. Separar AVG/WC, presupuesto por traza/esperado y trabajo/latencia. Fijar cuantificadores tecnología→familia→tamaño→política y los tres controles por pares, familias viables e inviables. Inventario de afirmaciones con hipótesis, lema, construcción y revisión requerida; separar tesis mínima de ampliaciones. No inferir dureza de L, N o distancia por sí solos.",
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "current_evidence": "PURE_MATHEMATICAL_TRILEMMA.md: parameter inventory, quantified pair regions, exact F frontier and non-emptiness; independent review and R01 bridge remain open",
+      "remaining": "freeze final target and distinguish outcome signatures from exclusive configuration regions; audit proof assumptions and agree transfer scope"
+    },
+    "M13": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M03",
+        "M04",
+        "M12",
+        "M06",
+        "M11"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Teoremas sobre clases tecnológicas y coste completo. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Clasificar interfaces de coordenadas, predicados/certificados globales y ejecutores/barreras; definir simulación observable y cargos que justifican heredar una cota. Para cada clase: hipótesis, coste productor/uso, cota inferior, control superior o límite abierto, cambio de kernel y eliminación absoluta/relativa o solo del riesgo. Comparar f(n(L))/C0(L); conservar casos que empeoran. Un nombre comercial, coste positivo o tamaño de salida no establece pertenencia ni persistencia.",
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "M14": {
+      "status": "OPEN",
+      "priority": "P2",
+      "dependencies_for_final_closure": [
+        "M12",
+        "M11",
+        "M03",
+        "M04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Robustez con información parcial, ruido y amortización. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Fijar perfiles separados para certificados parciales/ruidosos/obsoletos, información inicial, caché y costes de preparación repartidos en varios episodios. Mantener leyes de error, frescura, correlación y cargo total. Derivar cotas y controles donde se afirme generalización; en los demás perfiles registrar OUT_OF_SCOPE o UNRESOLVED. Distinguir datos nuevos del reaprovechamiento y presupuesto por ejecución del esperado; W5 no se anuncia como frontera exacta.",
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "M15": {
+      "status": "OPEN",
+      "priority": "P2",
+      "dependencies_for_final_closure": [
+        "M12",
+        "M03",
+        "M13"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Extensión distribuida y geométrica: trabajo y latencia. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Definir red de N agentes, ubicación de hechos, distancias/topología, capacidad y precio de mensajes, colas y plazo. Conservar la envolvente centralizada para trabajo agregado. Para cualquier afirmación temporal nueva, derivar cota de comunicación/camino crítico y un control realizable, cobrando duplicación y mantenimiento. Identificar regiones donde paralelismo/cercanía resuelven el plazo y donde no. No extrapolar las cotas de trabajo a tiempo o geometría.",
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "M16": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M03",
+        "M04",
+        "M06",
+        "M11",
+        "M12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Revisión simbólica independiente de la demostración. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Revisor distinto del autor y no asignado ficticiamente: reconstruir F1–F4, W1–W5, G1, T1/T2 y cuantificadores, cubriendo políticas omitidas, normalización, presupuesto en ramas fallidas, abstención, igualdad y controles conocidos. Dictamen por afirmación: VALIDATED_IN_SCOPE, COUNTEREXAMPLE o GAP; M13–M15 se revisan separadamente si se incluyen. No basta ejecutar el script del autor. Considerar formalización de los lemas críticos si aporta cobertura; un intento incompleto no es prueba formal. Revisión propia puede continuar sin cerrar esta tarea.",
+      "reviewer_requirement": "distinct from author; UNASSIGNED, no independent review claimed",
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "M17": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M12",
+        "M03",
+        "M04",
+        "M06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Puente matemático entre las familias y R01. **OPEN**; criterios completos y dependencias en el plan vigente de arriba.",
+      "historical_evidence_retained": false,
+      "new_acceptance": "Elegir un objetivo explícito: familia suplementaria o subfamilia de R01. Para afirmar lo segundo, construir embedding/reducción de mundos, acciones, observaciones, efectos y costes; mapear TODAS las políticas relevantes de R01 a la clase cubierta, incluyendo conectores, geometría, autoridad, consultas y barreras. Comprobar dirección de la reducción: no basta exhibir una política ni preservar trazas seleccionadas para transferir imposibilidad. Limitar el resultado a un submodelo o marcar GAP si R01 aporta información o acciones adicionales. E1–E7 y coherencia M07 no sustituyen la reducción.",
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "C01": {
+      "status": "OPEN",
+      "priority": "P0",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Inventariar y reproducir código existente; identificar reutilización, restricciones y huellas sin renombrar controles como campañas R01.",
+      "historical_evidence_retained": false
+    },
+    "C02": {
+      "status": "OPEN",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "C01",
+        "M12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Fijar esquemas, codificación, operaciones, costes, observaciones y horizonte/terminación; declarar cualquier submodelo más estrecho.",
+      "historical_evidence_retained": false
+    },
+    "C03": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C02"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Implementar generador y referencia exacta independiente; comprobar M/I/P, empates, conectores, mezclas y rechazos de mundos.",
+      "historical_evidence_retained": false
+    },
+    "C04": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C03"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Implementar ejecución, recorder, costes y evaluación de efectos, calidad, éxito, violaciones, incompletitud y tiempos.",
+      "historical_evidence_retained": false
+    },
+    "C05": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Contrastar mundos pequeños y trazas inválidas; atacar evidencia obsoleta, duplicación, permisos y filtración del oráculo.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "C06": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C05",
+        "C11",
+        "C13"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Entregar recorrido reproducible con comando, entorno, políticas, semillas y trazas; mejora, rechazo e incompletitud sin forzar fallos.",
+      "historical_evidence_retained": false
+    },
+    "C07": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Medir tiempo/memoria bajo límites registrados; conservar timeouts y distinguir coste del evaluador del coste operativo.",
+      "historical_evidence_retained": false
+    },
+    "C08": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Auditar precisión numérica, aleatoriedad, competencia y terminación; resolver o registrar discrepancias del corpus.",
+      "historical_evidence_retained": false
+    },
+    "C09": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "C06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Verificar que otro bot entiende instalación, ejecución, salidas y fallos; revisar visuales cuando aclaren límites.",
+      "historical_evidence_retained": false
+    },
+    "C10": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "C08",
+        "C09"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Congelar sucesor y revisar diff, enlaces, huellas y conservación para el alcance de cada entrega.",
+      "historical_evidence_retained": false
+    },
+    "C11": {
+      "status": "OPEN",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "C02",
+        "P03"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Registrar recursos, precisión, muestras, contrastes, unidades, agrupación, multiplicidad, censura, errores y reglas de parada antes de ejecutar.",
+      "historical_evidence_retained": false
+    },
+    "C12": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "C05",
+        "C07",
+        "C11",
+        "C13",
+        "P04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Ejecutar campaña base y análisis pareado: q/e/a/f/C/t/K, incertidumbre, ablaciones y regiones para políticas evaluadas.",
+      "historical_evidence_retained": false
+    },
+    "C13": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Auditar pistas accidentales, ajuste/memoria, comparadores y flujos de aleatoriedad; completar control antes de la campaña.",
+      "historical_evidence_retained": false
+    },
+    "C14": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "C12",
+        "P11"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Implementar y evaluar selector de arquitectura con pilotos y conjuntos separados; comparar reglas simples y conservar indeterminación.",
+      "historical_evidence_retained": false
+    },
+    "P01": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Profundizar fuentes primarias y congelar locatores; matriz afirmación–fuente y límites de la búsqueda.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "P02": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Intentar obtener el mismo valor con métodos existentes y alternativas simples; falsar cada contribución superviviente.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "P03": {
+      "status": "DONE",
+      "priority": "P0",
+      "dependencies_for_final_closure": [
+        "M01"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Auditar medidas y casos límite; conservar costes sin entrega, indeterminación y restricciones sin compensación por recompensa. **DONE — auditoría de medidas**, [resultado](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "historical_evidence_retained": true
+    },
+    "P04": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Revisar el contrato y evidencia del oráculo C; no crear un segundo trabajo duplicado bajo otro nombre.",
+      "historical_evidence_retained": false
+    },
+    "P05": {
+      "status": "OPEN",
+      "priority": "P1/R",
+      "dependencies_for_final_closure": [
+        "M07"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Verificar requisitos, terminología, autoridad, versiones y límites de transferencia con el corpus vigente.",
+      "historical_evidence_retained": false
+    },
+    "P06": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Comprobar legibilidad para investigación y decisión de arquitectura sin perder distinciones técnicas.",
+      "historical_evidence_retained": false
+    },
+    "P07": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M04"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Evaluar ayudas visuales; toda figura conceptual se identifica y ninguna frontera inventada se presenta como medida.",
+      "historical_evidence_retained": false
+    },
+    "P08": {
+      "status": "OPEN",
+      "priority": "P0/R",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Diagnosticar integridad al inicio y reparar con sucesor explícito; conservar historia y verificar navegación/contenido.",
+      "historical_evidence_retained": false
+    },
+    "P09": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "M16"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Auditar el valor y la afirmación más fuerte de la entrega; registrar límites y distinguir revisión propia de independiente.",
+      "historical_evidence_retained": false
+    },
+    "P10": {
+      "status": "IN_PROGRESS",
+      "priority": "P0",
+      "dependencies_for_final_closure": [],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Definir decisión, alternativas, valor incremental falsable y techo de inversión; puertas de continuar, acotar, reformular o parar. **IN_PROGRESS — decisión inicial de continuar/acotar**, [registro](./previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md).",
+      "historical_evidence_retained": true
+    },
+    "P11": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "C12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Diseñar el estudio de selección antes de C14: información elegible, referencia independiente, error, coste y particiones.",
+      "historical_evidence_retained": false
+    },
+    "P12": {
+      "status": "OPEN",
+      "priority": "P3/R",
+      "dependencies_for_final_closure": [
+        "C14"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Comprobar mejora en decisiones o esfuerzo y límites a escala; un oráculo correcto no demuestra utilidad prospectiva del piloto.",
+      "historical_evidence_retained": false
+    },
+    "T01": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "M12",
+        "C02"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Fijar tres configuraciones de smolagents, LangGraph y OpenAI Agents SDK, versiones, modelos, controles y acceso real.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "T02": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "T01"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Mapear E1–E7, parámetros, trazas y operaciones no cubiertas; admitir, restringir o rechazar correspondencias con evidencia.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "T03": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "T02",
+        "C02",
+        "T11"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Implementar adaptadores y recorder por tecnología; comprobar replay, duplicación, orden y efectos inesperados.",
+      "historical_evidence_retained": false
+    },
+    "T04": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "T03",
+        "C05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Comprobar fixtures permitidos, prohibidos, bloqueados, incompletos, tardíos y agotados; separar fixture de conducta.",
+      "historical_evidence_retained": false
+    },
+    "T05": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "T04",
+        "C06",
+        "C11",
+        "C13"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Ejecutar recorridos registrados con modelo/política, trazas reales y evaluación independiente; conservar errores y abstenciones.",
+      "historical_evidence_retained": false
+    },
+    "T06": {
+      "status": "OPEN",
+      "priority": "P3",
+      "dependencies_for_final_closure": [
+        "T05"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Emitir veredicto por tecnología y medir costes/latencias; justificar transferencia exacta, aproximada, rechazada o abierta.",
+      "historical_evidence_retained": false
+    },
+    "T07": {
+      "status": "OPEN",
+      "priority": "P2/R",
+      "dependencies_for_final_closure": [
+        "T06"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Atacar admisión con controles nativos, certificados, memoria, información oculta y costes omitidos; verificar APIs fijadas.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "T08": {
+      "status": "OPEN",
+      "priority": "P2/R",
+      "dependencies_for_final_closure": [
+        "T07"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Revisar coherencia y elegibilidad científica; no inferir causalidad histórica ni ventaja de EA.",
+      "historical_evidence_retained": false
+    },
+    "T09": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "T08"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Revisar legibilidad y visuales del recorrido adaptador–recorder–oráculo y de sus límites.",
+      "historical_evidence_retained": false
+    },
+    "T10": {
+      "status": "OPEN",
+      "priority": "R",
+      "dependencies_for_final_closure": [
+        "T09"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Conservar las tres disposiciones, archivos, resultados y enlaces; auditar cada entrega tecnológica.",
+      "historical_evidence_retained": false
+    },
+    "T11": {
+      "status": "OPEN",
+      "priority": "P1",
+      "dependencies_for_final_closure": [
+        "T02",
+        "C02"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Calificar las tres y priorizar primera implementación por viabilidad observada e incertidumbre; no suponer acceso ni coste.",
+      "historical_evidence_retained": false,
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+    },
+    "T12": {
+      "status": "OPEN",
+      "priority": "P3/R",
+      "dependencies_for_final_closure": [
+        "T06",
+        "T07",
+        "C11",
+        "P11",
+        "P12"
+      ],
+      "owner": "UNASSIGNED",
+      "criterion_in_master": "Replicar en conjuntos separados y comprobar sensibilidad/versiones/escala; no transportar tasas entre políticas distintas.",
+      "historical_evidence_retained": false
+    }
+  },
+  "dependency_semantics": "final-closure dependencies; preparation and early source/attack work may begin before them. T06 behavioral closure is separate from universal transfer, which additionally requires M13/M17/M16. C11 starts with resource contract, freezes statistics before campaign. M16 audits included M13–M15 claims separately without a cyclic dependency.",
+  "source_artifacts": "M01/M02/M10/TRILEMMA historical evidence and base scenario unchanged; theorem doc receives status notice only",
+  "next_delivery": [
+    "M12 versioned target contract and obligation matrix",
+    "M06/M11 first directed attacks"
+  ],
+  "independent_review": false,
+  "mathematical_results_changed": false,
+  "additional_material_intake": {
+    "actual_utc": "2026-10-04T03:08:56.888758+00:00",
+    "input_commit": "85f1692cd1e823b990dec2cbe8e0c983de669ab3",
+    "dossier": "supplemental/2026-10-04/README.md",
+    "material_count": 6,
+    "scripts_executed": 4,
+    "new_tasks": [],
+    "tasks_closed": [],
+    "priority": "mathematical validity first; technology qualification second",
+    "next_delivery_unchanged": [
+      "M12 obligation matrix",
+      "M06/M11 directed attacks"
+    ]
+  },
+  "active_mathematical_document": "PURE_MATHEMATICAL_TRILEMMA.md",
+  "historical_task_criteria_source": "previous-work/R01_MATH_WORKPLAN_2026-10-04.json",
+  "no_new_scientific_experiments": true
+}

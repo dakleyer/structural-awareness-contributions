@@ -2,7 +2,7 @@
 
 Scope contract v0.1 · 3 October 2026 · M01 completed for mathematical formulation
 
-[R01 README](./README.md#bot-start-here) · [Mathematical work plan](./MATHEMATICAL_FEASIBILITY.md) · [Master execution prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) · [Scope checks and preservation evidence](./M01_SCOPE_CHECKS.json)
+[R01 README](../../README.md#bot-start-here) · [Mathematical work plan](../../MATHEMATICAL_FEASIBILITY.md) · [Master execution prompt](../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) · [Scope checks and preservation evidence](../partial-experiments/historical/M01_SCOPE_CHECKS.json)
 
 **Result:** a precise, deliberately bounded question is now defined. M01 does not establish that an infeasible region exists, construct an R01 witness, derive a lower bound, implement the oracle or validate a technology. Those remain M02–M05, C and T work. Review type: adversarial self-review of formulation, not independent mathematical validation.
 

@@ -1,0 +1,368 @@
+{
+  "input_commit": "ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87",
+  "input_tree": "2c778f4a1f31fe550cd34c5de51112393684c313",
+  "actual_utc": "2026-10-04T07:29:33.481026+00:00",
+  "scope": "research/00G-R01 feasibility workspace only; no new scientific execution",
+  "moves": [
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M01_SCOPE_AND_QUANTIFIERS.md",
+      "original_blob_sha": "933f7b8da99db1c7da96f9f9c234d4115ca75911",
+      "destination_blob_sha": "3cab9e484874c8253376242ae225d8c206c05485",
+      "byte_exact": false,
+      "change": "relative Markdown navigation only",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_AND_QUANTIFIERS.md"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M01_SCOPE_CHECKS.json",
+      "original_blob_sha": "71d94055d053c762085f1c8ff8f5225b56c961e3",
+      "destination_blob_sha": "71d94055d053c762085f1c8ff8f5225b56c961e3",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M01_SCOPE_CHECKS.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_CONJUNCTION_FIXTURE.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M02_CONJUNCTION_FIXTURE.json",
+      "original_blob_sha": "e774d27d0a5cd9052f0027d49177608c179a603b",
+      "destination_blob_sha": "e774d27d0a5cd9052f0027d49177608c179a603b",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M02_CONJUNCTION_FIXTURE.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M02_RELEASE_CHECKS.json",
+      "original_blob_sha": "2f0e119b79cc79bb9fd28b21cadb7d163e8e46c5",
+      "destination_blob_sha": "2f0e119b79cc79bb9fd28b21cadb7d163e8e46c5",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M02_RELEASE_CHECKS.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M02_WORLDS_AND_CONTROLS.md",
+      "original_blob_sha": "db137fb82e7fd11ffac4d5caf687ec6a651f090a",
+      "destination_blob_sha": "81db05698a09c27b4376459a8e78b1a752203e6b",
+      "byte_exact": false,
+      "change": "relative Markdown navigation only",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLDS_AND_CONTROLS.md"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLD_CHECKS.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M02_WORLD_CHECKS.json",
+      "original_blob_sha": "0315ca5c6fb1bc7e58e7880eff1356e700a0758a",
+      "destination_blob_sha": "0315ca5c6fb1bc7e58e7880eff1356e700a0758a",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M02_WORLD_CHECKS.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M03_M04_TRILEMMA_THEOREMS.md",
+      "original_blob_sha": "41bc5443899c244a6427e82782d8bdd18123c9db",
+      "destination_blob_sha": "838c2e09148de15195c799dc63716d2a294d35f6",
+      "byte_exact": false,
+      "change": "relative Markdown navigation only",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M03_M04_TRILEMMA_THEOREMS.md"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M06_PRIMARY_SOURCE_INTAKE.md",
+      "original_blob_sha": "7f28f5dc5a8f7d5597424f65016633727495d539",
+      "destination_blob_sha": "c6748aa76e8c581aa23b0ba933e9ba3b6ad28146",
+      "byte_exact": false,
+      "change": "relative Markdown navigation only",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M06_PRIMARY_SOURCE_INTAKE.md"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_MEASUREMENT_CHECKS.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M10_MEASUREMENT_CHECKS.json",
+      "original_blob_sha": "f5dd22e286723b8548a1edb2282ca2f6db8b5e4c",
+      "destination_blob_sha": "f5dd22e286723b8548a1edb2282ca2f6db8b5e4c",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M10_MEASUREMENT_CHECKS.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md",
+      "original_blob_sha": "f7e45754c44aa618f5b9f70d33101bb656130b05",
+      "destination_blob_sha": "6911d464d1ebfe50514b28de2969799f0ba5f355",
+      "byte_exact": false,
+      "change": "relative Markdown navigation only",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RECONCILED_CONTRACT.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M10_RECONCILED_CONTRACT.json",
+      "original_blob_sha": "88e6dc339b547a613bea06767e67a5292c7753d6",
+      "destination_blob_sha": "88e6dc339b547a613bea06767e67a5292c7753d6",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RECONCILED_CONTRACT.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M10_RELEASE_CHECKS.json",
+      "original_blob_sha": "9ae62142097d5c2f60c5aa90f511de8ccf932e2c",
+      "destination_blob_sha": "9ae62142097d5c2f60c5aa90f511de8ccf932e2c",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/M10_RELEASE_CHECKS.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/R01_MATH_WORKPLAN_2026-10-04.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/R01_MATH_WORKPLAN_2026-10-04.json",
+      "original_blob_sha": "79bd1f3103150909b7d5e6cdfa84a5b71c4e88db",
+      "destination_blob_sha": "79bd1f3103150909b7d5e6cdfa84a5b71c4e88db",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/R01_MATH_WORKPLAN_2026-10-04.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/R01_REORGANIZATION_CHECKS.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/R01_REORGANIZATION_CHECKS.json",
+      "original_blob_sha": "3f7ae90dba722a974da5b0bce6769d2522664bd9",
+      "destination_blob_sha": "3f7ae90dba722a974da5b0bce6769d2522664bd9",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/R01_REORGANIZATION_CHECKS.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CHECKS.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/TRILEMMA_CHECKS.json",
+      "original_blob_sha": "9344f80756981edef272e03505fc3769f99c5901",
+      "destination_blob_sha": "9344f80756981edef272e03505fc3769f99c5901",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CHECKS.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CONTRACT.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/TRILEMMA_CONTRACT.json",
+      "original_blob_sha": "2a004ea32735b3e869a26b542dc6a1ef3bb0cf14",
+      "destination_blob_sha": "2a004ea32735b3e869a26b542dc6a1ef3bb0cf14",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_CONTRACT.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RECEIVED_SKETCH.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/TRILEMMA_RECEIVED_SKETCH.md",
+      "original_blob_sha": "7f7cbeddbbf77d83055dc03612c593931458821f",
+      "destination_blob_sha": "7f7cbeddbbf77d83055dc03612c593931458821f",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RECEIVED_SKETCH.md"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/TRILEMMA_RELEASE_CHECKS.json",
+      "original_blob_sha": "0e69888adfe6eba16532790509e2cfd4a3101283",
+      "destination_blob_sha": "0e69888adfe6eba16532790509e2cfd4a3101283",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/TRILEMMA_RELEASE_CHECKS.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/previous-work/WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json",
+      "original_blob_sha": "55242a3caedd527f328f77c8a1c2a833d406a5d1",
+      "destination_blob_sha": "55242a3caedd527f328f77c8a1c2a833d406a5d1",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/WORKPLAN_REVIEW_EVIDENCE_2026-10-03.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/ANNEX_T_TEXT_EXTRACT.txt",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/ANNEX_T_TEXT_EXTRACT.txt",
+      "original_blob_sha": "16b2645f203d1f69a8693e9483a5c0e1fbe5852f",
+      "destination_blob_sha": "16b2645f203d1f69a8693e9483a5c0e1fbe5852f",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/ANNEX_T_TEXT_EXTRACT.txt"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/INTAKE_CHECKS.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/INTAKE_CHECKS.json",
+      "original_blob_sha": "4bdc48584531e216dbedf9c13225989bdde67a0a",
+      "destination_blob_sha": "4bdc48584531e216dbedf9c13225989bdde67a0a",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/INTAKE_CHECKS.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/README.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/README.md",
+      "original_blob_sha": "fbde86577b9331b68225d568b2a6c77a2668888f",
+      "destination_blob_sha": "56b799a7a033a180a53efa67903e4a071493e23d",
+      "byte_exact": false,
+      "change": "relative Markdown navigation only",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/README.md"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/audit_received_material.py",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/audit_received_material.py",
+      "original_blob_sha": "3202f607ceefe214303dc9a15d5e172f86d2a81c",
+      "destination_blob_sha": "3202f607ceefe214303dc9a15d5e172f86d2a81c",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/audit_received_material.py"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/additional_diagnostics.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/runs/additional_diagnostics.json",
+      "original_blob_sha": "39e1bf867c5545b43a15f82667b8a1374cf83fb5",
+      "destination_blob_sha": "39e1bf867c5545b43a15f82667b8a1374cf83fb5",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/additional_diagnostics.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/executions.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/runs/executions.json",
+      "original_blob_sha": "dc2af48b254c121e94bb3ebd64d36596bbcc0832",
+      "destination_blob_sha": "dc2af48b254c121e94bb3ebd64d36596bbcc0832",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/executions.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/testA_budget.py.stdout.txt",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/runs/testA_budget.py.stdout.txt",
+      "original_blob_sha": "f04f88ddbdbbabe9f759325a1212d14f947202db",
+      "destination_blob_sha": "f04f88ddbdbbabe9f759325a1212d14f947202db",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/testA_budget.py.stdout.txt"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/testB_oracles.py.stdout.txt",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/runs/testB_oracles.py.stdout.txt",
+      "original_blob_sha": "548fa14d90f3cd8570fb107c1ea69c3f034cb15b",
+      "destination_blob_sha": "548fa14d90f3cd8570fb107c1ea69c3f034cb15b",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/testB_oracles.py.stdout.txt"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/testC_killswitch.py.stdout.txt",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/runs/testC_killswitch.py.stdout.txt",
+      "original_blob_sha": "28716bb3d4ac50613963e46cef3542b2265a2b40",
+      "destination_blob_sha": "28716bb3d4ac50613963e46cef3542b2265a2b40",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/testC_killswitch.py.stdout.txt"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/testD_human_and_sharing.py.stdout.txt",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/runs/testD_human_and_sharing.py.stdout.txt",
+      "original_blob_sha": "8fd3be4d2721c06faebd494803e430d7018e568f",
+      "destination_blob_sha": "8fd3be4d2721c06faebd494803e430d7018e568f",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/runs/testD_human_and_sharing.py.stdout.txt"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/ANNEX_T_RECEIVED.pdf",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/sources/ANNEX_T_RECEIVED.pdf",
+      "original_blob_sha": "6e75251295a3926e3d6455d5a4c2a4b7a5329eb2",
+      "destination_blob_sha": "6e75251295a3926e3d6455d5a4c2a4b7a5329eb2",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/ANNEX_T_RECEIVED.pdf"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/M06_PRIOR_ART_RECEIVED.md",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/sources/M06_PRIOR_ART_RECEIVED.md",
+      "original_blob_sha": "1fe8791f2bb43dad10461ee2220263e26b7bc143",
+      "destination_blob_sha": "1fe8791f2bb43dad10461ee2220263e26b7bc143",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/M06_PRIOR_ART_RECEIVED.md"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/testA_budget.py",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/sources/testA_budget.py",
+      "original_blob_sha": "466877c0a949b5eee0c5374aa374524081fbb792",
+      "destination_blob_sha": "466877c0a949b5eee0c5374aa374524081fbb792",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/testA_budget.py"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/testB_oracles.py",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/sources/testB_oracles.py",
+      "original_blob_sha": "4181877727463c99f4b667c947ae5c99b2cc7b19",
+      "destination_blob_sha": "4181877727463c99f4b667c947ae5c99b2cc7b19",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/testB_oracles.py"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/testC_killswitch.py",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/sources/testC_killswitch.py",
+      "original_blob_sha": "16e0629d79b0abc88061dd57dd03b48148069c8c",
+      "destination_blob_sha": "16e0629d79b0abc88061dd57dd03b48148069c8c",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/testC_killswitch.py"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/testD_human_and_sharing.py",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/sources/testD_human_and_sharing.py",
+      "original_blob_sha": "5c9684c7d28acfd8a60d65d2d432b91844c13b06",
+      "destination_blob_sha": "5c9684c7d28acfd8a60d65d2d432b91844c13b06",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources/testD_human_and_sharing.py"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources_manifest.json",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/sources_manifest.json",
+      "original_blob_sha": "7177ed92ca559cd574c767fad0278c15bfea712e",
+      "destination_blob_sha": "7177ed92ca559cd574c767fad0278c15bfea712e",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/supplemental/2026-10-04/sources_manifest.json"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m01_scope.py",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/verify_m01_scope.py",
+      "original_blob_sha": "e8c832be1ca6b4414843ce65c8abf6d8d342fd6d",
+      "destination_blob_sha": "e8c832be1ca6b4414843ce65c8abf6d8d342fd6d",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m01_scope.py"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m02_worlds.py",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/verify_m02_worlds.py",
+      "original_blob_sha": "afb552ed9093235379de84c5ec039e30ee70e225",
+      "destination_blob_sha": "afb552ed9093235379de84c5ec039e30ee70e225",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m02_worlds.py"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m10_measurements.py",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/verify_m10_measurements.py",
+      "original_blob_sha": "b71f5f5fd2a95a6c9887ee6f6892c1fc156e1d7c",
+      "destination_blob_sha": "b71f5f5fd2a95a6c9887ee6f6892c1fc156e1d7c",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/verify_m10_measurements.py"
+    },
+    {
+      "from": "research/ecosystem-awareness/baseline/reductions/00G-R01/verify_trilemma.py",
+      "to": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/verify_trilemma.py",
+      "original_blob_sha": "790bace06105d937a9b5512045652e1098381d5f",
+      "destination_blob_sha": "790bace06105d937a9b5512045652e1098381d5f",
+      "byte_exact": true,
+      "change": "none",
+      "original_url": "https://github.com/dakleyer/structural-awareness-contributions/blob/ebbb17b5555fbc45cb4330cbf4a9b1e3d9b9ca87/research/ecosystem-awareness/baseline/reductions/00G-R01/verify_trilemma.py"
+    }
+  ]
+}

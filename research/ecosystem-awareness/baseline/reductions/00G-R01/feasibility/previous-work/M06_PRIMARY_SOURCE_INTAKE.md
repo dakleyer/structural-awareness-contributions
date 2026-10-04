@@ -2,7 +2,7 @@
 
 Targeted intake v0.1 · M06 IN_PROGRESS · Self-review, not independent validation
 
-[R01 README](./README.md#bot-start-here) · [M10/P03 contract audit](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [M02 candidate](./M02_WORLDS_AND_CONTROLS.md) · [Mathematical plan](./MATHEMATICAL_FEASIBILITY.md)
+[R01 README](../../README.md#bot-start-here) · [M10/P03 contract audit](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [M02 candidate](./M02_WORLDS_AND_CONTROLS.md) · [Mathematical plan](../../MATHEMATICAL_FEASIBILITY.md)
 
 Input commit: `419b8e93b4b13a3a96ca1534b0d134be4a764c78`. Actual UTC timestamp and source coverage are recorded in M10_RELEASE_CHECKS.json. Owner/reviewer: Codex, on user instruction; same-agent review. This intake does not close M06's full proof audit, communication review, broader literature search, P01/P02 or any novelty claim.
 
@@ -69,7 +69,7 @@ M06 stays IN_PROGRESS: no exhaustive literature/novelty review, full communicati
 
 ## 6. Material adicional y ataques comprobados — 4 October 2026
 
-Read the [received material dossier](./supplemental/2026-10-04/README.md). Four unchanged scripts completed; their scope does not close M06/C05. The received M06 proposes useful primary-source leads, but its exact-recovery analogy cannot be transferred without a reduction. Baldassini/Johnson/Aldridge, arXiv:1301.7023v2, Theorem 3.1/eq.(5) and eq.(7), were opened directly: the expected-tests corollary requires recovery with certainty. Do not mark general R01 expected cost closed on that basis.
+Read the [received material dossier](../partial-experiments/received/2026-10-04/README.md). Four unchanged scripts completed; their scope does not close M06/C05. The received M06 proposes useful primary-source leads, but its exact-recovery analogy cannot be transferred without a reduction. Baldassini/Johnson/Aldridge, arXiv:1301.7023v2, Theorem 3.1/eq.(5) and eq.(7), were opened directly: the expected-tests corollary requires recovery with certainty. Do not mark general R01 expected cost closed on that basis.
 
 Retain the sparse-family counterexample: a full-X route is valid in binomial(L,K) of binomial(L,K)*2^K worlds; legitimate delivery probability is 2^-K, not the exact-world-recovery probability. For K=1 a preeffect full-route predicate yields a valid route after one query at every L. This is another information interface, not a refutation of the raw-coordinate F/W class. The received budget formula also fails at h=1/2,r=1/4,L=2: it says 10 while an exact mixture at hard budget 9 meets both thresholds and the original LP agrees. Existing F2/F3 account for h; their results are not changed by these findings.
 

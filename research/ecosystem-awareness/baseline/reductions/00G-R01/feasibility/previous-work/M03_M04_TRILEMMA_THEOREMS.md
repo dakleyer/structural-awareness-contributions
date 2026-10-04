@@ -2,11 +2,11 @@
 
 M03/M04, extensión matemática v1.0 · Derivación y revisión propia; revisión independiente pendiente
 
-[README de R01](./README.md#bot-start-here) · [Plan matemático](./MATHEMATICAL_FEASIBILITY.md) · [Contrato suplementario](./TRILEMMA_CONTRACT.json) · [Comprobador](./verify_trilemma.py) · [Resultados finitos](./TRILEMMA_CHECKS.json) · [Registro de conservación](./TRILEMMA_RELEASE_CHECKS.json) · [Propuesta recibida, sin cambios](./TRILEMMA_RECEIVED_SKETCH.md)
+[README de R01](../../README.md#bot-start-here) · [Plan matemático](../../MATHEMATICAL_FEASIBILITY.md) · [Contrato suplementario](../partial-experiments/historical/TRILEMMA_CONTRACT.json) · [Comprobador](../partial-experiments/historical/verify_trilemma.py) · [Resultados finitos](../partial-experiments/historical/TRILEMMA_CHECKS.json) · [Registro de conservación](../partial-experiments/historical/TRILEMMA_RELEASE_CHECKS.json) · [Propuesta recibida, sin cambios](./TRILEMMA_RECEIVED_SKETCH.md)
 
 Entrada del repositorio: `2dc438df524663ebf79e6552cd688d34c2619d8b`. Autor/revisor: Codex, por instrucción del usuario. Las demostraciones siguientes son simbólicas y cubren todas las políticas de las clases declaradas. Las comprobaciones pequeñas buscan errores en ellas; no las sustituyen. No se afirma revisión independiente, novedad, ventaja de EA ni clasificación de una tecnología comercial.
 
-**Estado actualizado, 4 de octubre de 2026:** este documento conserva las derivaciones v1.0 y sus comprobaciones; **M03/M04 están IN_PROGRESS para el objetivo ampliado**, con revisión simbólica independiente y puente a R01 pendientes. Los estados DONE mencionados abajo son el registro de la entrega original, no su aceptación final. Consulta el [plan vigente y prompt combinado](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening); próxima tarea M12 con ataques M06/M11. Esta actualización de estado no añade una demostración ni altera fórmulas, fixtures o resultados.
+**Estado actualizado, 4 de octubre de 2026:** este documento conserva las derivaciones v1.0 y sus comprobaciones; **M03/M04 están IN_PROGRESS para el objetivo ampliado**, con revisión simbólica independiente y puente a R01 pendientes. Los estados DONE mencionados abajo son el registro de la entrega original, no su aceptación final. Consulta el [plan vigente y prompt combinado](../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening); próxima tarea M12 con ataques M06/M11. Esta actualización de estado no añade una demostración ni altera fórmulas, fixtures o resultados.
 
 ## 1. Qué se prueba y qué permanece abierto
 

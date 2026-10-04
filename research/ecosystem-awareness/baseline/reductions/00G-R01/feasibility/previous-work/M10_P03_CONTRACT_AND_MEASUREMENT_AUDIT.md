@@ -2,7 +2,7 @@
 
 Contract v0.1 · M10 DONE for reconciliation; P03 DONE for measurement-validity specification/audit
 
-[R01 README](./README.md#bot-start-here) · [Mathematical plan](./MATHEMATICAL_FEASIBILITY.md) · [Differential plan](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md#robot-review-plan) · [Master prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) · [Machine-readable contract](./M10_RECONCILED_CONTRACT.json) · [Diagnostic checker](./verify_m10_measurements.py) · [Checks](./M10_MEASUREMENT_CHECKS.json) · [M06 initial sources](./M06_PRIMARY_SOURCE_INTAKE.md) · [Release record](./M10_RELEASE_CHECKS.json)
+[R01 README](../../README.md#bot-start-here) · [Mathematical plan](../../MATHEMATICAL_FEASIBILITY.md) · [Differential plan](../../DIFFERENTIAL_AND_EXPERIMENT_VALUE.md#robot-review-plan) · [Master prompt](../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md) · [Machine-readable contract](../partial-experiments/historical/M10_RECONCILED_CONTRACT.json) · [Diagnostic checker](../partial-experiments/historical/verify_m10_measurements.py) · [Checks](../partial-experiments/historical/M10_MEASUREMENT_CHECKS.json) · [M06 initial sources](./M06_PRIMARY_SOURCE_INTAKE.md) · [Release record](../partial-experiments/historical/M10_RELEASE_CHECKS.json)
 
 **Result:** one success/observation/quantifier contract now connects the R01 scenario, M01 and M02, with explicit measurement edge cases and charge provenance. M10/P03 close the formulation/audit work identified here. They do not close C02/C11's executable/statistical registration, the universal M03 bound, M04's parameter region, M05/C05's independent checks, or any campaign. Self-review only.
 

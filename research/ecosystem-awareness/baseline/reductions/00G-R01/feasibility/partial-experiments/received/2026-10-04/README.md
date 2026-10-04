@@ -2,7 +2,7 @@
 
 4 de octubre de 2026 · Entrada `85f1692cd1e823b990dec2cbe8e0c983de669ab3` · Prioridad: validación matemática; tecnologías después.
 
-[README R01](../../README.md#bot-start-here) · [Plan rector](../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening) · [Plan matemático](../../MATHEMATICAL_FEASIBILITY.md) · [M06](../../M06_PRIMARY_SOURCE_INTAKE.md) · [Originales y hashes](./sources_manifest.json) · [Ejecuciones](./runs/executions.json) · [Contraejemplos](./runs/additional_diagnostics.json)
+[README R01](../../../../README.md#bot-start-here) · [Plan rector](../../../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening) · [Plan matemático](../../../../MATHEMATICAL_FEASIBILITY.md) · [M06](../../../previous-work/M06_PRIMARY_SOURCE_INTAKE.md) · [Originales y hashes](./sources_manifest.json) · [Ejecuciones](./runs/executions.json) · [Contraejemplos](./runs/additional_diagnostics.json)
 
 Los seis archivos se conservan sin modificar. Son material de entrada y de ataque, no sustituyen los contratos ni cierran tareas. No se atribuye independencia por proceder de otro archivo o conversación. Los scripts recibidos y los nuevos diagnósticos se ejecutaron; no son pruebas en tecnologías reales. No se cambia ninguna fórmula o resultado F/W de la entrega anterior.
 
