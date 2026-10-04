@@ -323,6 +323,7 @@ if __name__ == "__main__":
         "trace_documentary_status": result["trace_integrity"]["status"],
         "substantive_mismatches": result["extension_manifest_integrity"]["substantive_mismatches"],
         "documentary_mismatches": result["extension_manifest_integrity"]["documentary_mismatches"],
+        "trace_drift_items": result["trace_integrity"]["drift_items"],
         "full_R01_extensionality": result["full_R01_extensionality"],
     }, indent=2))
     if arguments.verify and result["status"] != "PASS":
