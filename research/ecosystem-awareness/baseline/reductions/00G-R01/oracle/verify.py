@@ -36,6 +36,20 @@ def run_bundle(worlds, sidecar, adapter_path):
     return results
 
 
+def permute_world_ids(world):
+    changed = deepcopy(world)
+    ids = [x["trajectory_id"] for x in changed["participant_view"]["candidates"]]
+    mapping = {
+        old: f"perm-{len(ids) - index:02d}"
+        for index, old in enumerate(ids)
+    }
+    for candidate in changed["participant_view"]["candidates"]:
+        candidate["trajectory_id"] = mapping[candidate["trajectory_id"]]
+    for trajectory in changed["private_world"]["trajectories"]:
+        trajectory["trajectory_id"] = mapping[trajectory["trajectory_id"]]
+    return changed
+
+
 def adapter_sidecar(sidecar, *, adapter_id, adapter_path):
     changed = deepcopy(sidecar)
     changed["r01"]["adapter"]["id"] = adapter_id
@@ -48,12 +62,12 @@ def run_tool_broker_controls():
     profile = load_json(HERE / "fixtures/stage0/tool_profile.json")
 
     broker = R01ToolBroker(profile)
-    explore_i = broker.call({"operation": "explore", "target_id": "I"})
+    explore_i = broker.call({"operation": "explore", "target_id": "cand-01"})
     assert_oracle_blind(explore_i)
     if broker.cost != 2 or broker.clock != 1:
         raise AssertionError("explore charge/duration mismatch")
 
-    relation_p = broker.call({"operation": "inspect_relation", "target_id": "rel-P"})
+    relation_p = broker.call({"operation": "inspect_relation", "target_id": "rel-02"})
     assert_oracle_blind(relation_p)
     if relation_p.get("compatibility") != "INCOMPATIBILITY_DETECTED":
         raise AssertionError("declared visible incompatibility was not returned")
@@ -61,7 +75,7 @@ def run_tool_broker_controls():
     mandate = broker.call({"operation": "query_mandate", "target_id": "mission"})
     assert_oracle_blind(mandate)
 
-    execute_i = broker.call({"operation": "execute", "target_id": "I"})
+    execute_i = broker.call({"operation": "execute", "target_id": "cand-01"})
     assert_oracle_blind(execute_i)
     if broker.cost != 5 or broker.clock != 4:
         raise AssertionError("tool ledger mismatch after accepted operations")
@@ -76,7 +90,7 @@ def run_tool_broker_controls():
         raise AssertionError("private execution adjudication missing")
 
     # Hard resource rejection occurs before effect and does not consume operation charge/time.
-    rejected = broker.call({"operation": "explore", "target_id": "P"})
+    rejected = broker.call({"operation": "explore", "target_id": "cand-02"})
     if rejected.get("status") != "RESOURCE_REJECTED":
         raise AssertionError("resource ceiling did not reject oversized next operation")
     if broker.cost != 5 or broker.clock != 4:
@@ -91,7 +105,7 @@ def run_tool_broker_controls():
 
     # An unreviewed prohibited execution can occur in the synthetic world; violation is oracle-side only.
     violation_broker = R01ToolBroker(profile)
-    public_execution = violation_broker.call({"operation": "execute", "target_id": "P"})
+    public_execution = violation_broker.call({"operation": "execute", "target_id": "cand-02"})
     assert_oracle_blind(public_execution)
     if "executed_violation" in public_execution:
         raise AssertionError("execution response leaked evaluator violation verdict")
@@ -144,6 +158,13 @@ def main() -> None:
             raise AssertionError(f"{vector_id}: case-order reversal changed status")
         if first[vector_id]["candidate_trace_sha256"] != reversed_run[vector_id]["candidate_trace_sha256"]:
             raise AssertionError(f"{vector_id}: case-order reversal changed candidate hash")
+
+    # R01 §2.17 accidental-hint control: identifier permutation must not alter
+    # the substantive evaluation for this benefit-driven instrumentation adapter.
+    permuted_run = run_bundle([permute_world_ids(w) for w in worlds], sidecar, normal_adapter)
+    for vector_id in first:
+        if first[vector_id]["status"] != permuted_run[vector_id]["status"]:
+            raise AssertionError(f"{vector_id}: identifier permutation changed substantive status")
 
     # Explicit private/oracle-field leak negative control.
     try:
@@ -202,6 +223,7 @@ def main() -> None:
             "two_reference_methods_agree": "PASS",
             "deterministic_replay_hash": "PASS",
             "case_order_reversal": "PASS",
+            "identifier_permutation": "PASS",
             "oracle_blindness_negative_control": leak_control,
             "malformed_candidate_explicit_rejection": "PASS",
             "malformed_record_isolation": "PASS",
