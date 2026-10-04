@@ -727,5 +727,40 @@
     "scope": "Received external reviews are recognized; completeness and independence must be assessed per review and per proposition, not inferred from a single blanket Boolean.",
     "completion_state": "M16 remains OPEN for uncovered or not-yet-verified propositions of the current manuscript; existing reviewed coverage must be credited before requesting further review",
     "correction": "The previous received=false label was too broad; independent_review=false denotes uncompleted validation, not absence of received reviews."
-  }
+  },
+  "canonical_mathematical_reference": {
+    "document": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+    "mathematical_version": "0.2",
+    "designated_on": "2026-10-04",
+    "documentary_status": "canonical standalone mathematical reference",
+    "validation_status": "own symbolic reconstruction complete; received external reviews recognized, current coverage to be verified per proposition",
+    "source_explanation": "../Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation",
+    "root_entry": "../README.md#canonical-conditioned-trilemma",
+    "index_entry": "README.md",
+    "experimental_rules_changed": false,
+    "mathematical_proofs_changed": false,
+    "technology_applied": false,
+    "variable_families": [
+      "acceptance policies (b, delta, p)",
+      "scenario/problem",
+      "technology capabilities and charges (separate applied phase)"
+    ],
+    "execution_policy_notation": "pi retained; distinct from acceptance policy",
+    "validation_cost_is_component_of_total": true,
+    "technology_mapping": "t -> theta(t); acceptance thresholds fixed, induced changes declared",
+    "documentary_preservation_checks": {
+      "source_edits_reversible": true,
+      "original_inventory_rows_preserved": 15,
+      "original_mathematical_sections_preserved": 15,
+      "original_equation_blocks_preserved": 12,
+      "original_tasks_and_states_preserved": 55,
+      "no_files_moved": true,
+      "no_new_scientific_experiments": true
+    }
+  },
+  "historical_mathematical_documents": [
+    "PURE_MATHEMATICAL_TRILEMMA.md",
+    "CONDITIONED_TRILEMMA.md",
+    "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md"
+  ]
 }

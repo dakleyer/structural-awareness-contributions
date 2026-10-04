@@ -49,3 +49,12 @@ El usuario ha fijado este orden: cerrar primero la formulación matemática y lo
 La v0.2 del teorema conserva §§1–14 y sus pruebas. Corrige el multiplicador μ=a/(1−a) del certificado, C_pre=2+4L+2(N−1), C_0=7L+2N, T/H_cap=5L+K+2N+4 y controles persistentes sin veredicto del evaluador. Mantener las cotas AVG/WC y el corolario por rama. El informe R01_AUDIT_CONTINUITY_AND_REPAIRS.md reconstruye estos pasos contra R01 y las auditorías anteriores. No confundir este cierre propio con M16.
 
 La siguiente fase es el protocolo, todavía no una aplicación tecnológica. Debe distinguir: transferencia de imposibilidad para todas las políticas de una configuración completa; controles que prueban alcanzabilidad; ampliación del espacio viable como mejora; persistencia no vacua de una región de trilema bajo capacidades/costes explícitos. No inferir persistencia por un nombre comercial ni exigirla a toda tecnología. Prueba matemática precede al harness y la campaña. No modificar el escenario, fixtures, resultados ni cuerpos históricos de README. Mantener M16 OPEN y M17 IN_PROGRESS.
+
+
+## Referencia canónica y navegación — estado posterior
+
+Por instrucción del usuario, R01_CONDITIONED_TRILEMMA_THEOREM.md v0.2 es el documento independiente y canónico de la formulación y validación matemática. Leerlo primero para el enunciado vigente y sus espacios. PURE_MATHEMATICAL_TRILEMMA.md y CONDITIONED_TRILEMMA.md son antecedentes conservados; no crear otro trilema ni reemplazar el trabajo auditado.
+
+La explicación inicial del escenario, su §1.2, el README de R01 y el índice de feasibility enlazan el mismo documento. R01 declara los umbrales de evaluación b, δ y p, distinguiendo b del cap físico R=B; no se cambian fixtures, semillas ni reglas experimentales. Las referencias canónicas actuales prevalecen sobre los snapshots fechados del plan; sus criterios históricos se conservan.
+
+La designación canónica es documental. Validación propia completada y revisiones externas recibidas quedan reconocidas; mapear cobertura por versión/proposición antes de pedir más revisión. Mantener M16 y M17 con su alcance explícito, sin inventar certificación completa. El protocolo separado de extensión es la siguiente fase; aplicar tecnologías y ejecutar campañas son fases posteriores.

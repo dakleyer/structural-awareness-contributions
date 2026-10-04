@@ -1,6 +1,11 @@
-# R01 — Estudio de viabilidad del trilema
+# R01 — Validación matemática del trilema condicionado
 
 Trabajo en desarrollo · 4 de octubre de 2026 · Prueba matemática primero; tecnologías después.
+
+**Referencia canónica vigente:** [Validación matemática del trilema condicionado en R01 — v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md). Es el documento independiente de formulación y validación matemática. El [escenario §1.2](../Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation) y el [README de R01](../README.md#canonical-conditioned-trilemma) remiten al mismo documento. Los antecedentes y estados fechados se conservan; esta referencia define la formulación vigente.
+
+Revisiones externas recibidas y validación propia quedan reconocidas; la cobertura pendiente se delimita por versión y proposición en el registro. La designación canónica no modifica los estados de las 55 tareas ni anuncia una campaña.
+
 
 Entrada desde el [README completo de R01](../README.md#viability-work-in-progress). Este directorio reúne el estudio, los borradores anteriores y los diagnósticos parciales. El escenario, las reducciones, las extensiones, los documentos exportados y sus figuras conservan su contenido. Este estudio no modifica la especificación canónica ni anuncia una campaña ejecutada.
 
@@ -8,8 +13,9 @@ El objetivo es demostrar una imposibilidad **en familias de configuraciones dete
 
 | Lectura | Documento | Estado |
 |---|---|---|
-| Documento matemático actual | [Configuraciones, cuantificadores y frontera exacta](./PURE_MATHEMATICAL_TRILEMMA.md) | Derivación simbólica en F; revisión independiente y transferencia a R01 pendientes. |
-| Trabajo y prioridades | [Plan vigente](./WORKPLAN.md) · [55 tareas y estados](./WORKPLAN_STATUS.json) | M12 en desarrollo; primero cerrar alcance y demostración sin intervenciones tecnológicas. |
+| Documento matemático canónico actual | [Trilema condicionado en R01 v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md) | Dominio completo, criterio condicionado all-policy, regiones no vacías y fronteras de la familia; validación propia y cobertura externa delimitada. |
+| Antecedente matemático conservado | [Configuraciones, cuantificadores y frontera exacta](./PURE_MATHEMATICAL_TRILEMMA.md) | Derivación simbólica en F; conserva su alcance histórico. |
+| Trabajo y prioridades | [Plan vigente](./WORKPLAN.md) · [55 tareas y estados](./WORKPLAN_STATUS.json) | Se conservan las obligaciones M12–M17 y sus criterios; núcleo v0.2 disponible, protocolo de extensión separado como siguiente fase. |
 | Continuación y revisión | [Instrucciones completas](./CONTINUATION_PROMPT.md) | No convertir ejemplos o scripts propios en prueba universal. |
 | Borradores conservados | [Índice de trabajos anteriores](./previous-work/README.md) | Entregas históricas, con su fecha y alcance. |
 | Experimentos parciales | [Inventario separado](./partial-experiments/README.md) | Diagnósticos del autor y material recibido; no constituyen un oráculo/harness independiente. |
@@ -44,3 +50,5 @@ Las afirmaciones tecnológicas ya escritas permanecen en el archivo anterior par
 | Espacios | Trilema y viabilidad definidos sobre todo Θ_R01; fórmula exacta en la familia, sin exigir dificultad a los casos viables. |
 | Protocolo de extensión | Siguiente fase separada, pendiente. La expansión del espacio viable se tratará como mejora, y su persistencia como obligación de prueba adicional. |
 | Campaña | C01–C05 pendientes; ningún nuevo experimento científico o tecnológico ejecutado. |
+
+**Referencia canónica — estado posterior:** [Documento independiente v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md), única referencia matemática vigente; antecedentes conservados y enlaces desde R01 verificados.

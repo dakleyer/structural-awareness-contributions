@@ -9,6 +9,8 @@ Base specification v0.6 · Reading organization 3 October 2026 · Non-canonical 
 
 [Differential and value of the experiment](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md) explains the technology–problem suitability map, its relationship to existing research, the candidate contribution and the remaining review plan. This scenario retains the experimental rules and evidence limits.
 
+**Canonical mathematical companion.** [Mathematical validation of the conditioned trilemma in R01](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) is the separate, versioned reference for the mathematical statement, proof and viability regions. This document retains the R01 scenario and experimental specification; the companion's documentary status and review coverage are stated in its header.
+
 <a id="base-scenario-in-words"></a>
 ## The base scenario in words
 
@@ -16,7 +18,7 @@ Imagine a team completing an assigned task through a known permitted procedure. 
 
 There are three reference routes. M is the known permitted procedure. I is the best permitted completion in the constructed world. P looks attractive but violates a condition of the task when the whole route is considered. The receiver sees candidates and evidence, not labels telling it which is I or P. The evaluator keeps the complete map and judges the final result separately.
 
-The question is not simply whether the team blocks a forbidden action. It must also finish useful work at acceptable quality, cost and time. It may find the permitted improvement, choose an inadmissible alternative, spend too much checking, keep a lower-quality procedure, or remain incomplete. The configuration and policy determine which of these outcomes occur; none is imposed in advance.
+The question is not simply whether the team blocks a forbidden action. It must also finish useful work at acceptable quality, cost and time. It may find the permitted improvement, choose an inadmissible alternative, spend too much checking, keep a lower-quality procedure, or remain incomplete. Three families frame the evaluation: acceptance policies set maximum risk, minimum legitimate efficacy and maximum cost; scenario variables describe the task, obligations and alternatives; technology variables describe the means of exploration, validation and coordination. Their declared combination and the execution strategy determine which outcomes occur; none is imposed in advance.
 
 ### What makes the scenario probabilistic
 
@@ -42,7 +44,7 @@ Every architecture has areas where it contributes more value and others where it
 
 The intended use is architecture selection through limited pilots: obtain evidence about suitability, failure mechanisms and remaining uncertainty before a larger deployment. R01 first specifies a controlled experiment for mapping those outcomes; a subsequent diagnostic stage tests whether limited observations predict them. These are stages of the same practical objective, with different evidence requirements.
 
-The thesis distinguishes two areas of problems and configurations. In one, the architecture reaches the admissible optimum, or an acceptable approximation, with sufficient regularity and within reasonable cost and deadline limits. In the other, the trilemma **lacking integrity, inefficient or mediocre** appears: execute an inadmissible solution, pay too much for a legitimate solution or retain a lower-quality permitted option. Optimum tolerance, resource limits and required reliability are fixed before the trial. The trilemma describes difficulties that may coexist; abstention and incompleteness are also recorded.
+The thesis distinguishes two areas of problems and configurations. In one, the architecture reaches the admissible optimum, or an acceptable approximation, with sufficient regularity and within reasonable cost and deadline limits. In the other, the trilemma **lacking integrity, inefficient or mediocre** appears: execute an inadmissible solution, pay too much for a legitimate solution or retain a lower-quality permitted option. Scenario conditions, including optimum tolerance and deadline, and acceptance-policy thresholds for cost, risk and legitimate efficacy are fixed before the trial. Technology capabilities and charges are declared separately for a comparison under those same conditions. The trilemma describes difficulties that may coexist; abstention and incompleteness are also recorded.
 
 Recognizing patterns, validating better and reusing evidence may expand the effective area. We propose measuring where this architecture ceases to be worthwhile, which mechanisms explain that loss and which controls restore effectiveness. The scenario allows those improvements alongside new situations still requiring information acquisition. The sought result is an empirical boundary for declared competent policies, not a universal impossibility.
 
@@ -88,6 +90,72 @@ If some policy satisfies those conditions, there is evidence of effectiveness fo
 
 The candidate mechanism is that observing local benefit is easier than establishing admissibility of the entire chain. More alternatives may require more checks. Sharing evidence may reduce them; repeating dependent confirmations may increase confidence without adding coverage. §2.18 separates these possibilities into secondary contrasts.
 
+<a id="r01-conditioned-mathematical-validation"></a>
+### The conditioned trilemma and its mathematical validation
+
+R01 asks whether a task can be completed with sufficient legitimate quality, within an acceptable cost and with no more risk than the process admits. A **conditioned trilemma** occurs when each pair of those requirements can be met, using the same thresholds and execution conditions, but no admitted policy can meet all three together. A failed policy is insufficient evidence: the mathematical claim concerns every policy permitted by the declared configuration.
+
+#### Three families of variables
+
+R01 separates **acceptance policies**, **scenario variables** and **technology variables**. They answer different questions: what the process will accept, what problem must be solved, and what means are available to solve it.
+
+| Family | Variables and role |
+|---|---|
+| Acceptance policies | Maximum tolerated campaign risk δ, minimum legitimate efficacy p and maximum accepted cost b. They are requirements fixed before evaluation, rather than results selected after observing it. |
+| Scenario or problem | Task and binding obligations; permitted reference M, ideal permitted route I and forbidden route P; their benefits and differences, including P–I attractiveness; length L, population N, world distribution, graph, geometry, dependencies, evidence to establish admissibility, initial context, quality tolerance ε, deadline T and declared resource constraints. These determine the problem and what counts as a sufficient legitimate result. |
+| Technology | Capabilities of a concrete implementation: observations and operations it can provide, information acquisition, memory, evidence processing, communication and coordination, together with their complete charges, latency and limits. Their later mathematical extension must specify how they instantiate the R01 interface. This base validation does not yet apply or validate a particular technology. |
+
+When comparing technologies, the acceptance thresholds b, δ and p remain fixed. The effective R01 configuration may change: a technology may alter accessible information, exploration and review coverage, coordination, cost or timing. Each such change must be mapped to the corresponding declared parameter; it is not assumed away. The complete abstract manifest θ already specifies the executable interface, its responses and charges. A concrete technology t will therefore be associated with a complete configuration θ(t), and viability evaluated at (θ(t),b,δ,p). This notation is a mapping obligation, not a proof of technological transfer.
+
+| Technology capability or limit | R01 parameters or conditions it can affect | What the mapping must establish |
+|---|---|---|
+| Exploration and retrieval | Creative radius R_e, search effort, candidate availability, exploration charge c_e and unique proposal count Q | Which candidates can be found, with what information, work and timing; Q remains an observed quantity. |
+| Review and sufficient evidence | Review depths k_a and k_d, inspection order, exit criterion, validation charge c_v, evidence and unresolved-choice bound α | Whether the information available before the effect actually suffices; deeper or cheaper review alone does not prove sufficiency. |
+| Memory and reuse | Initial context, valid certificates, reused coverage, preparation and maintenance charges | What was acquired, whether it applies to the current task and its full acquisition, checking and upkeep cost. |
+| Communication and coordination | Network topology, social intensity s, latency, weight w_s, dependency treatment, allocation v, mixture beta and transfer rule | What reaches each participant, when, at what charge, and whether several confirmations add new information. |
+| Execution and recovery | Selection rule, tie-breaking, waiting, abstention, retries, recovery, execution charges and achieved latency | What effects occur and what resources they consume; recovery does not erase an executed violation. |
+| Population and resource deployment | N, work allocation and physical budget R/B when deployment changes them | Which capacity and participation assumptions changed; the accepted economic target b remains fixed. |
+
+Task length L, obligations, benefits and P–I attractiveness, world distributions, geometry and composition predicates also belong to the rest of the configuration. They may vary between declared scenario profiles; if introducing a technology changes one of them, that change must be identified rather than described only as a faster implementation. In particular, changing the mandate or what makes P forbidden changes the problem, not merely its execution. Fixed acceptance policies do not imply that all other variables are fixed.
+
+A concrete procedure may also introduce a relevant variable that R01 does not represent. The later extension must identify it, determine whether the existing manifest can express it faithfully, and, if necessary, define an enlarged model with an explicit relationship to the base proof. An omitted capability is not treated as absent, and coverage beyond R01 is not assumed. The base result remains conditional on its stated domain and hypotheses.
+
+The technological conclusion stays open. **Partial resolution** means that profiles previously outside the viable region become viable under the same acceptance thresholds; any remaining trilemma region must be proved separately. **Complete resolution within a declared domain** requires meeting all three conditions throughout that domain. Showing that the trilemma region is empty is insufficient if some profiles still fail even a pair. If a technology removes an information-cut hypothesis, that particular impossibility bound no longer establishes its limit; it does not by itself establish viability. This later analysis may therefore show complete resolution, partial resolution, no recovery or an unresolved result. Expanding the viable region is a positive finding.
+
+Here **acceptance policy** means the thresholds the process sets. In the mathematical document, an **execution policy** π is a strategy for choosing actions from available information. Several execution policies may be tested or bounded under the same acceptance policy. Uppercase P denotes the forbidden route; lowercase p denotes the required probability of legitimate success.
+
+#### The three acceptance requirements
+
+An evaluation profile records the complete problem configuration θ together with the acceptance thresholds b, δ and p. The following table gives their precise meaning:
+
+| Requirement | Threshold | Meaning |
+|---|---|---|
+| Cost | Maximum economic cost b | The complete charged cost of obtaining and executing a validated result stays at or below b on every execution of positive probability, including campaigns without delivery. It includes validation and all other R01 charges; an average below b is insufficient. |
+| Risk | Maximum accepted probability δ | The probability r of at least one executed violation during a campaign is at most δ. A rejected proposal is not an executed violation; later repair does not erase one. |
+| Efficacy | Minimum legitimate-success probability p | The probability s of delivering admissible work at the required quality within the deadline is at least p. Technical benefit obtained through a violation does not count as legitimate success. |
+
+Validation cost is itemized within the total; it is not silently substituted for the total-cost constraint. A separate validation-only cap, if a later profile requires one, must be named and tracked separately. Quality tolerance ε and deadline T remain part of the declared configuration. Risk is measured per campaign, not as the percentage of agents choosing the evaluator's forbidden route P. The physical execution cap B, corresponding to R in the scenario, must also be respected. The economic target b≤B is a separate constraint: a more costly control may establish what is physically achievable without satisfying the low-cost target. If a frozen profile has B=b, that control is unavailable in that profile.
+
+#### Why the result is conditioned
+
+The result does not say that every R01 configuration is impossible. Its general information-cut theorem applies throughout the complete R01 domain **when its explicit hypotheses hold**: sufficient delivery requires a critical decision; resolving it before acting would exceed the low-cost target; and the entire legitimate information available to the group still bounds the probability of a correct unresolved choice. That last condition includes observations, deductions, memory, messages and certificates. It is a condition to prove for the configuration, not an assumed weakness of a selected algorithm.
+
+Under those hypotheses, let α be the upper bound on the probability of a correct unresolved choice (called a in the mathematical document, distinct from the completion measure a in §1.4). Every low-cost policy then satisfies s≤α and r≥[(1−α)/α]s. Consequently, achieving s≥p requires accepting risk of at least p(1−α)/α. If δ is smaller, the three requirements cannot be met together. The proof must additionally exhibit policies meeting each pair before calling that incompatibility a trilemma.
+
+#### Viability regions and consequences
+
+A profile (θ,b,δ,p) is **viable** if at least one admitted policy meets all three requirements. It lies in the **trilemma region** if the cost–risk, cost–efficacy and risk–efficacy pairs are each attainable, but the triple is unattainable. A profile where even one pair cannot be met is outside both of those categories. These distinctions prevent any unsuccessful run from being presented as proof of the trilemma.
+
+Changing an acceptance threshold can change viability while leaving the task and the policy's actual behaviour unchanged. In the document's constructed family, for example, an unresolved-choice bound α=0.99 and a legitimate-success target p=0.95 yield a minimum low-cost risk of approximately 0.9596%. Within the family's specified cost band and with sufficient physical capacity for its informed control, a risk allowance of 0.1% places the profile in the trilemma region; an allowance of 1% admits a policy meeting all three thresholds. The second profile accepts more risk; it does not reduce the risk of the first policy or make a violation admissible.
+
+Acquiring sufficient information can also make a profile viable if its full cost and timing fit the targets. The viable region is therefore part of the result, alongside the demonstrated trilemma region. A larger viable region is a positive outcome. The exact frontier depends on the configuration: the numerical frontier proved for the constructed family is not a formula imposed on every R01 interface.
+
+#### The independent mathematical reference
+
+The separate [**Mathematical validation of the conditioned trilemma**](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) is the canonical reference for definitions, quantifiers, hypotheses, proofs, pairwise controls and the constructed family's exact boundaries. This section explains their meaning; it does not replace that document or modify frozen experimental parameters.
+
+SC-H above retains its empirical scope over the finite evaluated policy family. The mathematical document proves an all-policy result under declared conditions; it does not report an executed campaign, the frequency of difficult configurations in deployments or transfer to a particular technology. [The existing audit and repairs](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) and [the coverage register](./feasibility/WORKPLAN_STATUS.json) preserve prior review evidence and identify remaining checks by version and proposition. Applied technologies and their extension protocol belong to the next, separate phase.
+
 <a id="13-qué-pueden-resolver-las-mejoras"></a>
 ## 1.3 What improvements may resolve
 
@@ -102,7 +170,7 @@ The guiding position is that an architecture, including its add-ons, has a scope
 <a id="14-evaluación-y-referencia-convencional"></a>
 ## 1.4 Evaluation and conventional reference
 
-The evaluator calculates the maximum J among complete admissible trajectories. The campaign fixes tolerance ε relative to that optimum; ε = 0 requires reaching it exactly. It also fixes reasonable cost, deadline and required reliability before observing results. Cases whose uncertainty prevents a decision remain unclassified.
+The evaluator calculates the maximum J among complete admissible trajectories. The scenario fixes tolerance ε relative to that optimum; ε = 0 requires reaching it exactly, and delivery must respect deadline T. The acceptance policy fixes economic cost target b, maximum campaign risk δ and minimum legitimate-success probability p before observing results. The technology description records the capabilities, accessible information, charges and timing under which execution strategies are evaluated. Risk is the probability of at least one executed violation in a campaign, not the percentage of agents choosing P. Raising δ changes acceptance without changing obligations or recorded violations; detected prohibitions remain rejected under §2.7. Existing fixtures and numerical thresholds are retained. Cases whose uncertainty prevents a decision remain unclassified.
 
 **Absolute effectiveness and relative advantage.** Reaching required quality within limits makes a policy effective for that case. Obtaining a better or less costly result than a comparator is another question. A system may be effective and less suitable than another. The document reports both evaluations.
 
@@ -408,7 +476,7 @@ The cost ledger records what was actually inspected. If a shared prefix exists a
 <a id="212-presupuesto-y-plazo"></a>
 ## 2.12 Budget and deadline
 
-Total budget R and horizon T are fixed. After reserving or accounting for execution work under a declared rule, discretionary budget is allocated between exploration and validation. Fraction v corresponds to validation and the remaining fraction to exploration.
+Total budget R and horizon T are fixed scenario constraints. R corresponds to the physical capacity B in the mathematical validation; the acceptance policy's economic target b≤B is separate. A risk–efficacy control may exceed b while remaining within B; if a frozen profile has B=b, that more costly control is unavailable in that profile. This distinction changes no frozen cap or allocation. Under the declared technology and execution strategy, after reserving or accounting for execution work, discretionary budget is allocated between exploration and validation. Fraction v corresponds to validation and the remaining fraction to exploration.
 
 > R_validación = v · R_discrecional
 > R_exploración = (1 − v) · R_discrecional
@@ -420,23 +488,26 @@ Aggregate cost, cost per legitimate result and latency are reported. Parallelizi
 <a id="213-inventario-de-configuración"></a>
 ## 2.13 Configuration inventory
 
-| Group | Parameters to declare |
-|---|---|
-| Task | Length L, obligation, principal, required result and deadline T |
-| Population | N, individual or collective unit and work allocation |
-| Input profiles | Fixed means of generative chains and rules for conditioning or rejecting worlds |
-| Realized attractiveness | I and P means and improvements, derived after solving the world; proportion of positions where P offers more benefit |
-| Heterogeneity | Dispersions, generation family and benefit correlations |
-| Geometry | Mean distances, dispersions, sides, connections and correlation between positions |
-| Creativity | Radius R_e, search effort and sampling policy if any |
-| Composition | Synthetic global parity predicate, conjunctive with randomly positioned local witness, or mixed; witness distribution and admissible controls; separate results |
-| Own review | Depths k_a and k_d, inspection order, early exit, exit criterion and reuse |
-| Costs | Exploration c_e, validation c_v, search, execution, message and maintenance |
-| Resources | Budget R, allocation v, mixture beta of social queries and prospective review, and transfer rule |
-| Social network | Topology, intensity s, latency, weight w_s and dependency treatment |
-| Policy | Selection by benefit, cost-adjusted benefit or random; tie-breaking, rejection, waiting, retry and recovery |
-| Observed volume | Q unique proposals; new and reused coverage; deduplication and effective inspections |
-| Variation | World and agent seeds; static version or explicit changes |
+| Family | Group | Parameters to declare |
+|---|---|---|
+| Acceptance policies | Acceptance thresholds | Maximum economic cost b≤R, minimum legitimate-success probability p and maximum campaign-violation probability δ; declare before evaluation and retain frozen values |
+| Scenario | Task | Length L, obligation, principal, required result and deadline T |
+| Scenario | Population | N, individual or collective unit and work allocation |
+| Scenario | Input profiles | Fixed means of generative chains and rules for conditioning or rejecting worlds |
+| Scenario | Realized attractiveness | I and P means and improvements, derived after solving the world; proportion of positions where P offers more benefit |
+| Scenario | Heterogeneity | Dispersions, generation family and benefit correlations |
+| Scenario | Geometry | Mean distances, dispersions, sides, connections and correlation between positions |
+| Technology | Creativity | Radius R_e, search effort and sampling policy if any |
+| Scenario | Composition | Synthetic global parity predicate, conjunctive with randomly positioned local witness, or mixed; witness distribution and admissible controls; separate results |
+| Technology | Own review | Depths k_a and k_d, inspection order, early exit, exit criterion and reuse |
+| Technology | Costs | Exploration c_e, validation c_v, search, execution, message and maintenance |
+| Scenario: cap R; technology: allocation | Resources | Budget R, allocation v, mixture beta of social queries and prospective review, and transfer rule |
+| Technology | Social network | Topology, intensity s, latency, weight w_s and dependency treatment |
+| Technology: execution strategy | Policy | Selection by benefit, cost-adjusted benefit or random; tie-breaking, rejection, waiting, retry and recovery |
+| Technology: recorded activity | Observed volume | Q unique proposals; new and reused coverage; deduplication and effective inspections |
+| Scenario: worlds; technology: agent streams | Variation | World and agent seeds; static version or explicit changes |
+
+This inventory separates the three families without removing the existing parameters. A mixed row states the role of each component: the physical cap belongs to the scenario; allocation and execution rules belong to the technology profile. Observed volume and realized attractiveness remain measured or derived quantities, not independent controls. The technology column records abstract capabilities and declared behaviour; it does not report validation of a particular implementation. The formal correspondence is given in the [mathematical validation](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md#21-tres-familias-de-variables-y-su-correspondencia-formal).
 
 Benefit and geometry parameters are not resampled during review. Policy contrasts preserve the same world and couple relevant randomness. Subsequent conversations may diverge because decisions change; this is part of the studied effect.
 
@@ -459,7 +530,7 @@ These are questions, not mandatory expected results. The static variant suffices
 <a id="215-familia-de-políticas-y-controles"></a>
 ## 2.15 Policy and control family
 
-The following finite family defines local arms. Each instance must freeze code or rules, parameters, accessible observation, memory, order, depth, communication, resource allocation, abstention, retries and tie-breaking. A description such as “adaptive” is insufficient for execution or a bound on all adaptive policies.
+The following finite family defines local execution-policy arms, not the acceptance thresholds of §1.2. Each instance must freeze code or rules, parameters, accessible observation, memory, order, depth, communication, resource allocation, abstention, retries and tie-breaking within its declared technology interface. A description such as “adaptive” is insufficient for execution or a bound on all adaptive policies.
 
 | Local arm | Search and review | Comparative role |
 |---|---|---|

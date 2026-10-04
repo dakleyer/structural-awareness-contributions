@@ -1,10 +1,18 @@
-# Trilema condicionado de coste, riesgo y eficacia en R01
+# Validación matemática del trilema condicionado en R01
 
-Iván Abril Palma · Ecosystem Awareness · Desarrollo matemático de viabilidad
+Trilema condicionado de coste, riesgo y eficacia
 
-Versión 0.2 · 4 de octubre de 2026 · Reconstrucción simbólica propia; revisión independiente pendiente.
+Iván Abril Palma · Ecosystem Awareness · Formulación y validación matemática
 
-Fuente R01: `Escenario-creatividad-validacion.md`, versión 0.6, leída en el commit `2d299250a1e9d8103757f3841c73fdb01db82598`. Este documento desarrolla un teorema sobre su dominio de configuraciones. No modifica la especificación experimental, los incidentes, los fixtures ni los resultados históricos.
+Versión matemática 0.2 · Referencia canónica desde el 4 de octubre de 2026 · Reconstrucción simbólica propia; revisiones externas recibidas, cobertura actual por verificar.
+
+<a id="canonical-mathematical-reference"></a>
+**Estado documental.** Este es el documento independiente y canónico de la formulación y validación matemática del trilema condicionado en R01. Conserva la prueba v0.2; su designación canónica fija una única referencia para enunciados, condiciones y espacios de viabilidad. La explicación del [escenario R01](../Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation), el [README de R01](../README.md) y el [índice de validación matemática](./README.md) remiten aquí. Los manuscritos anteriores se conservan como antecedentes, sin competir como formulación vigente.
+
+La designación documental no declara una campaña ejecutada ni cobertura independiente completa. Se reconocen las revisiones externas recibidas; sus alcances y los pasos todavía no verificados deben registrarse por versión y proposición en [el registro](./WORKPLAN_STATUS.json). Tecnologías y protocolo de extensión permanecen en una fase separada.
+
+
+Fuente R01: [Escenario-creatividad-validacion.md](../Escenario-creatividad-validacion.md), versión 0.6, leída en el commit `2d299250a1e9d8103757f3841c73fdb01db82598`. Este documento desarrolla un teorema sobre su dominio de configuraciones. No modifica la especificación experimental, los incidentes, los fixtures ni los resultados históricos.
 
 ## 1. Qué se demuestra
 
@@ -27,6 +35,42 @@ Un manifiesto completo define, para cada operación, su respuesta accesible, tra
 Para las cotas se permite además una envolvente más poderosa que reúne instantáneamente todas las observaciones legítimas de los agentes, ignora el coste de transmitirlas, conserva los cargos de adquirirlas y respeta los efectos y el ledger agregado. Cada política distribuida induce una política de esa envolvente: esta reproduce sus semillas, decisiones y calendario. Demostrar una imposibilidad incluso allí cubre la población original. Los controles de alcanzabilidad se construyen en el sistema original, sin necesitar esa comunicación gratuita.
 
 No se supone que todo R01 tenga un árbol finito de observaciones. La demostración informativa usa historias causales y probabilidades condicionadas, y no necesita enumerarlas. El resultado de programación lineal de §5 requiere expresamente un manifiesto finito; no se extrapola a todos los generadores continuos.
+
+
+### 2.1 Tres familias de variables y su correspondencia formal
+
+La descripción distingue tres familias por su función. Esta separación permite identificar qué se mantiene fijo y qué cambia; no presupone independencia estadística entre sus componentes.
+
+| Familia | Contenido | Papel en el resultado |
+|---|---|---|
+| Políticas de aceptación | Riesgo máximo tolerado δ, eficacia legítima mínima p y coste total máximo aceptado b. | Determinan qué resultados son aceptables. Se fijan antes de evaluar y se conservan al comparar las políticas de ejecución. |
+| Escenario o problema | Tarea, mandato y obligaciones; rutas M, I y P, beneficios y diferencia de atractivo P–I; L, N, mundos, grafo, geometría, dependencias, contexto inicial, evidencia requerida, ε, T y restricciones de recursos declaradas. | Determinan el problema, la información necesaria y los eventos de calidad e infracción. I/P son etiquetas del evaluador, no datos gratuitos para decidir. |
+| Tecnología | Capacidades de una implementación concreta: operaciones y observaciones, adquisición y tratamiento de información, memoria, evidencia, comunicación y coordinación; parámetros como R_e, k_a, k_d, v, beta y reglas de selección, bajo el contrato declarado; costes completos, latencias y límites. | Una futura extensión debe demostrar su correspondencia con la interfaz abstracta admitida y declarar qué condiciones o fronteras cambia. Aquí no se aplica ni valida una tecnología concreta. |
+
+En el manuscrito, **política de ejecución** π conserva su significado de estrategia que elige acciones a partir de la información disponible. Las **políticas de aceptación** son los umbrales b, δ y p: múltiples π se evalúan bajo los mismos umbrales. P mayúscula es la ruta prohibida; p minúscula es la eficacia mínima exigida.
+
+θ sigue siendo el **manifiesto matemático completo** de §2. Incluye el escenario y el contrato abstracto de operaciones, respuestas, cargos y tiempos que determina Π(θ). La tercera familia identifica cómo una implementación concreta deberá realizar ese contrato; no se añade una tecnología al teorema base ni se borra del manifiesto su interfaz. Por eso, variar una tecnología puede cambiar la información accesible, los costes, los tiempos y Π(θ). No se infiere que el trilema se conserve: esa cuestión requiere el protocolo y una prueba posterior para la implementación correspondiente.
+
+Para comparar tecnologías se mantienen las políticas de aceptación b, δ y p. La configuración efectiva puede variar: el mapa t↦θ(t) debe declarar qué cambia en observaciones, evidencia, exploración, revisión, memoria, comunicación, costes, tiempos, población o capacidad física. Se evalúa entonces (θ(t),b,δ,p) sobre Π(θ(t)). Esta notación no prueba la transferencia ni la persistencia del trilema; exige completar el contrato y volver a verificar sus condiciones.
+
+| Capacidad o límite tecnológico | Correspondencia R01 que debe explicitarse |
+|---|---|
+| Exploración y búsqueda | R_e, esfuerzo, candidatos accesibles, c_e y volumen observado Q. |
+| Revisión y evidencia | k_a, k_d, orden y salida de inspección, c_v, certificados, historial colectivo y cota a de I3. |
+| Memoria y reutilización | Contexto inicial, evidencia vigente, cobertura reutilizada, preparación, adquisición y mantenimiento. |
+| Comunicación y coordinación | Topología, intensidad social s de R01, latencia, w_s, dependencias, v, beta y transferencias. |
+| Ejecución y recuperación | Regla de selección, desempates, abstención, espera, reintentos, recuperación, cargos y plazo efectivo. |
+| Despliegue | N, reparto del trabajo y B/R cuando la implementación cambie su capacidad; no confundir B con el umbral fijo b. |
+
+La s de intensidad social en R01 no es la s(π) de eficacia legítima de §3. Cada símbolo conserva su contexto y las magnitudes no se identifican. L, mandato, beneficios y diferencia P–I, distribución de mundos, geometría y predicado de composición pueden variar entre perfiles de escenario. Si la introducción tecnológica cambia uno de ellos, debe declararse ese cambio de problema. No se presupone que toda variable cambie ni que toda variable permanezca congelada.
+
+Una tecnología o procedimiento puede introducir una variable relevante no representada en R01. Su extensión deberá identificarla y demostrar si el manifiesto existente puede expresarla fielmente; si no, deberá declarar un modelo ampliado y su relación con el teorema base. No se presupone cobertura fuera del dominio ni se trata una capacidad omitida como inexistente.
+
+La conclusión de esa fase queda abierta. Resolver parcialmente significa recuperar perfiles antes inviables manteniendo b, δ y p; la existencia de una región de trilema residual necesita su propia prueba. Resolver completamente en un dominio declarado requiere viabilidad triple en todo ese dominio. La mera ausencia de T no basta: puede haber perfiles donde ya falle un par. Si dejan de cumplirse I1–I3, la cota de §6 no establece por sí sola la imposibilidad para esa configuración, y tampoco demuestra que sea viable. Por tanto, la extensión puede establecer resolución completa, parcial, ausencia de recuperación o un resultado no determinado. Una ampliación demostrada de F es un resultado positivo; aquí no se anticipa cuál ocurre.
+
+Para estudiar distintos criterios de aceptación puede mantenerse θ y variar b, δ o p; ese es un contraste diferente de comparar tecnologías con umbrales fijos. Elevar δ amplía lo aceptable sin reducir r. Aumentar b permite más estrategias económicas sin aumentar por ello B.
+
+El coste b es el **total** del ledger y comprende validación, preparación, exploración, ejecución, comunicación y los demás cargos. El componente de validación se desglosa, sin sustituirlo por el total. Si se fija además un límite solo para validación, debe declararse como restricción adicional con símbolo y contabilización propios. ε, T y B conservan su papel en el manifiesto; b≤B distingue el criterio económico de la posibilidad física.
 
 ## 3. Métricas y umbrales
 
@@ -309,3 +353,18 @@ M16 sigue abierto para revisión independiente. M17 recibe este desarrollo como 
 ## 15. Reparaciones de la revisión de continuidad, 4 de octubre de 2026
 
 La v0.2 corrige el inverso del multiplicador del certificado (§6), unifica envío y recepción del reparto inicial con la tabla (§7), amplía plazo y cap de eventos para esos cargos, y reemplaza el control dependiente del veredicto por una apuesta persistente que usa únicamente recibos técnicos (§§7,9,10). Añade el rango h≤1 en la frontera conjunta. Las cotas y sus formas se conservan; los umbrales absolutos se desplazan con el nuevo C_0. Informe: [auditoría y continuidad](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md). El protocolo de extensión matemática a tecnologías es la fase siguiente, todavía pendiente. Revisión propia; M16 no se cierra.
+
+
+<!-- R01_BOT_WORKPLAN_START: canonical-mathematical-validation -->
+## 16. Mantenimiento de la referencia canónica
+
+
+| Obligación | Estado y criterio |
+|---|---|
+| Fuente única del enunciado y espacios | Este documento v0.2; modificarlo mediante cambios puntuales con auditoría, sin crear una formulación paralela. |
+| Coherencia con R01 | Enlaces desde escenario §1.2, explicación inicial y ambos README; métricas, umbrales y cap físico concordantes. |
+| Revisiones recibidas | Reconocidas; registrar qué versión y proposición cubre cada una antes de declarar pendientes adicionales. |
+| M16 / M17 | Cobertura independiente completa no verificada / fidelidad independiente en desarrollo; no invalidar la evidencia recibida ni inventar cierre. |
+| Próxima fase | Protocolo separado de extensión matemática a tecnologías; no incorpora aquí una aplicación tecnológica. |
+| Conservación | Conservar antecedentes, fixtures, resultados y exports; indicar que exports previos son anteriores a esta actualización de navegación. |
+<!-- R01_BOT_WORKPLAN_END: canonical-mathematical-validation -->

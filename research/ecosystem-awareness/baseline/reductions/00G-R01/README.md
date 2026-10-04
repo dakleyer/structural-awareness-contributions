@@ -5,9 +5,15 @@ Base specification v0.6 · Reading organization 3 October 2026 · Non-canonical 
 
 [Complete base scenario](./Escenario-creatividad-validacion.md) · [Reductions](#reductions) · [Three extensions](#extensiones) · [Preservation record](./ORGANIZATION_TRACE.md)
 
+<a id="canonical-conditioned-trilemma"></a>
+**Current canonical mathematical reference:** [Mathematical validation of the conditioned trilemma in R01, v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md). This standalone document governs the mathematical statement, conditions and viability regions. [R01's explanation](./Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation) links to the same reference; [audit and repairs](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) support it. External reviews have been received; the remaining coverage is tracked by version and proposition in [the current register](./feasibility/WORKPLAN_STATUS.json). The technology-extension protocol is the next separate phase.
+
+The dated plans and state snapshots below are retained as history. For the current mathematical formulation, use the canonical document above; their original task criteria remain available.
+
+
 [Differential and value of the experiment](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md): the technology–problem suitability map, cost/risk/effectiveness, related work, candidate contribution, oracle priorities and remaining review passes.
 
-**Plan vigente, 4 de octubre de 2026:** [demostración por familias, orden reorganizado y prompt completo](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening). Se combinan la prueba universal solicitada por Iván y los controles contractuales/ejecutables previos. **55 tareas: 4 DONE históricas, 5 IN_PROGRESS y 46 OPEN.** M03/M04 conservan sus derivaciones F/W y se reabren para el cierre ampliado; revisión independiente y puente a R01 siguen pendientes. Próxima tarea: **M12, contrato del teorema objetivo**, con primera pasada M06/M11. [Registro vigente](./feasibility/previous-work/R01_MATH_WORKPLAN_2026-10-04.json) · [Auditoría documental](./feasibility/previous-work/R01_REORGANIZATION_CHECKS.json). Los órdenes y estados históricos de las entregas enlazadas se conservan como evidencia; este plan gobierna el siguiente trabajo.
+**Plan histórico conservado — anterior al teorema R01, 4 de octubre de 2026:** [demostración por familias, orden reorganizado y prompt completo](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening). Se combinan la prueba universal solicitada por Iván y los controles contractuales/ejecutables previos. **55 tareas: 4 DONE históricas, 5 IN_PROGRESS y 46 OPEN.** M03/M04 conservan sus derivaciones F/W y se reabren para el cierre ampliado; revisión independiente y puente a R01 siguen pendientes. Próxima tarea: **M12, contrato del teorema objetivo**, con primera pasada M06/M11. [Registro vigente](./feasibility/previous-work/R01_MATH_WORKPLAN_2026-10-04.json) · [Auditoría documental](./feasibility/previous-work/R01_REORGANIZATION_CHECKS.json). Los órdenes y estados históricos de las entregas enlazadas se conservan como evidencia; sus criterios se conservan; la referencia canónica y el registro enlazados arriba gobiernan el estado actual.
 
 ### Material adicional recibido — prioridad matemática, 4 de octubre de 2026
 
@@ -187,3 +193,5 @@ El estudio se reúne en una subcarpeta propia de R01. Los borradores y diagnóst
 | [Auditoría y reparaciones](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) · [Revisión propia](./feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md) | Reconstrucción propia completada. M16 OPEN; fidelidad independiente M17 IN_PROGRESS. |
 | [Registro de conservación](./feasibility/R01_AUDIT_CONTINUITY_RELEASE.json) | Escenario y archivos históricos intactos; sin nuevas ejecuciones científicas. |
 | Próxima fase | Protocolo de extensión matemática a tecnologías, separado del núcleo; aún pendiente. |
+
+**Referencia canónica — estado documental posterior:** [Trilema R01 v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md), documento independiente con enunciado y pruebas conservados. [Explicación enlazada](./Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation). Umbrales b, δ y p explícitos; validación propia y revisiones externas reconocidas, cobertura restante delimitada.
