@@ -35,6 +35,9 @@ jobs:
       - name: Guard current-route editorial/readability preservation
         run: python research/ecosystem-awareness/baseline/reductions/00G-R01/tools/check_current_route_preservation.py
 
+      - name: Run R01 C02 neutral oracle Stage-0 self-test
+        run: python research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/verify.py
+
       - name: Check current-route editorial presentation quality
         run: python research/ecosystem-awareness/baseline/reductions/00G-R01/tools/check_current_editorial_quality.py
 
