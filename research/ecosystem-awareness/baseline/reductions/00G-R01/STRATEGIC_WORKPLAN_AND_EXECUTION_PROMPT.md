@@ -11,10 +11,10 @@
 
 The mathematical core v0.2, its self-review and repairs are published. The consistency review of the three extensions is completed. The extension protocol is defined. Old instructions to start with M12, redo M03/M04 or prepare the protocol are removed from the queue.
 
-The first technology is **human escalation and whispering**, within the [chapter of technologies to study](./feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study). Continue its existing fiche and then the other candidates. First isomorphic correspondence E1–E7; then additional mechanisms, one by one; then composition, recovered scenarios and residual region when justified. Retain complete cost and deadline and the same acceptance thresholds.
+The first technology is **human escalation and whispering**, within the [chapter of technologies to study](./feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study). Continue its existing fiche and then the other candidates. Begin with isomorphic correspondence E1–E7, then examine additional mechanisms one by one, followed by composition, recovered scenarios and a residual region when justified. Retain complete cost and deadline and the same acceptance thresholds.
 
 <!-- R01_BOT_WORKPLAN_START version="0.4" scope="STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md" role="queue-pointer" -->
-Read [WORKPLAN.md](./feasibility/WORKPLAN.md) and [CONTINUATION_PROMPT.md](./feasibility/CONTINUATION_PROMPT.md). Work on current technology M13; M16/M17/P08 have delimited remaining obligations. Oracle/harness C02, register C11 and adaptation/campaign T03 are subsequent stages. Sources, counterexamples, consistency, visuals and preservation are reviewed within each deliverable. Do not reactivate historical queues or partial trials as though they were pending canonical work.
+Read [WORKPLAN.md](./feasibility/WORKPLAN.md) and [CONTINUATION_PROMPT.md](./feasibility/CONTINUATION_PROMPT.md). Work on current technology M13; M16/M17/P08 have delimited remaining obligations. C02 oracle/harness, C11 registration and T03 adaptation/campaign are subsequent stages. Sources, counterexamples, consistency, visuals and preservation are reviewed within each deliverable. Do not reactivate historical queues or partial trials as though they were pending canonical work.
 <!-- R01_BOT_WORKPLAN_END -->
 
 <a id="registro-de-la-depuración"></a>
