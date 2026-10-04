@@ -31,7 +31,7 @@ BASELINE_BY_FILE = {
     "oracle/README.md": "3ed8011d83a83d8dbfc4dab2a286dbb069862a95",
     "oracle/SELFTEST_RECORD_v0.3.md": "7ea76588b1b7e68c5b0f560f9c0276b7fb2b0475",
     "oracle/UC4_INTEROPERABILITY_PROFILE.md": "f6d7aa5102bb63c9dc8b0bbc5751c0437b8a090d",
-    "oracle/NELSON_REVIEW_REQUEST.md": "84f2283cc6c58c970fef56bd3d58c90bbce9b4ab",
+    "oracle/NELSON_REVIEW_REQUEST.md": "045a8a233431e8bb67cd93b3a7d5169d1c3163e3",
     "oracle/NELSON_BASELINE_IMPORT.md": "c3ed9a55dd6d5b642107ef6a0baa15320cce1b2e",
     "oracle/TOOL_BROKER_CONTRACT.md": "2cbfeaee9e533929d94e24e8ebc9dbdd8c3e4992",
     "oracle/TECHNOLOGY_ADAPTER_GUIDE.md": "e299d2fcb5be479f323969f7e8ed424bd701d095",
