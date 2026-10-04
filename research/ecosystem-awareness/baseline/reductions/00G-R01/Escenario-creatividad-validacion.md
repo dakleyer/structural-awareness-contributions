@@ -734,7 +734,7 @@ This example is an accounting construction, not an EA execution or measurement. 
 
 Assume 4 tasks of 100 links: 80 common under the same version and authority, and 20 specific per task. With unit cost c_v = 1, reviewing each task separately costs 400.
 
-The alternative reviews the 80 common links once, retains sufficient evidence and charges each receiver for its own review and applicability check. Sharing cost is H₀ = 4, h_a = 2 per receiver and h_m = 0,1 per common link during the horizon. Thus H = 4 + 4 × 2 + 80 × 0,1 = 20. Validation costs 80 + 4 × 20 + 20 = 180.
+The alternative reviews the 80 common links once, retains sufficient evidence and charges each receiver for its own review and applicability check. Sharing cost is H₀ = 4, h_a = 2 per receiver and h_m = 0.1 per common link during the horizon. Thus H = 4 + 4 × 2 + 80 × 0.1 = 20. Validation costs 80 + 4 × 20 + 20 = 180.
 
 | Illustrative quantity | Repeated full review | Applicable shared evidence |
 |---|---|---|
