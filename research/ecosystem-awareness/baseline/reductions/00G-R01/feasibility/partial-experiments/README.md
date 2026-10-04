@@ -1,24 +1,28 @@
-# Experimentos parciales y diagnósticos de viabilidad
+<a id="experimentos-parciales-y-diagnósticos-de-viabilidad"></a>
 
-[Estudio de viabilidad](../README.md) · [Prueba matemática actual](../PURE_MATHEMATICAL_TRILEMMA.md).
+# Partial experiments and feasibility diagnostics
 
-Este apartado conserva las comprobaciones ya realizadas. Son pruebas parciales y experimentos exploratorios, no el oráculo/harness independiente de R01, una prueba universal ni una campaña registrada. Esta reorganización no ejecuta de nuevo los scripts y no añade resultados científicos. Los scripts, fixtures, salidas y manifiestos JSON se trasladan sin modificar sus bytes. Fechas, conteos y rutas registrados siguen describiendo sus entregas históricas.
+[Feasibility study](../README.md) · [Current mathematical proof](../PURE_MATHEMATICAL_TRILEMMA.md).
 
-| Grupo | Código y entradas | Salidas conservadas | Alcance |
+This section retains the checks already performed. They are partial tests and exploratory experiments, not R01's independent oracle/harness, a universal proof or a registered campaign. This reorganization does not rerun scripts or add scientific results. Scripts, fixtures, outputs and JSON manifests are relocated without modifying their bytes. Recorded dates, counts and paths continue to describe their historical deliverables.
+
+| Group | Code and inputs | Preserved outputs | Scope |
 |---|---|---|---|
-| M01 | [Checker](./historical/verify_m01_scope.py) | [Scope checks](./historical/M01_SCOPE_CHECKS.json) | Diagnóstico del contrato inicial; no cota en L. |
-| M02 | [Checker](./historical/verify_m02_worlds.py) · [Fixture](./historical/M02_CONJUNCTION_FIXTURE.json) | [Mundos y rutas](./historical/M02_WORLD_CHECKS.json) · [Release](./historical/M02_RELEASE_CHECKS.json) | Pareja finita y controles, con su alcance original. |
-| M10/P03 | [Checker](./historical/verify_m10_measurements.py) · [Contrato](./historical/M10_RECONCILED_CONTRACT.json) | [Medidas](./historical/M10_MEASUREMENT_CHECKS.json) · [Release](./historical/M10_RELEASE_CHECKS.json) | Auditoría de medición y contracontroles del fixture. |
-| F/W | [Checker](./historical/verify_trilemma.py) · [Contrato](./historical/TRILEMMA_CONTRACT.json) | [Checks](./historical/TRILEMMA_CHECKS.json) · [Release](./historical/TRILEMMA_RELEASE_CHECKS.json) | Enumeración propia de tamaños pequeños; no revisión independiente ni prueba para todos los tamaños. |
-| Material recibido | [Dossier completo](./received/2026-10-04/README.md) | [Admisión](./received/2026-10-04/INTAKE_CHECKS.json) · [Salidas](./received/2026-10-04/runs/executions.json) | Seis originales y diagnósticos adicionales; tecnologías en cola posterior. |
+| M01 | [Checker](./historical/verify_m01_scope.py) | [Scope checks](./historical/M01_SCOPE_CHECKS.json) | Initial-contract diagnostic; no bound in L. |
+| M02 | [Checker](./historical/verify_m02_worlds.py) · [Fixture](./historical/M02_CONJUNCTION_FIXTURE.json) | [Worlds and routes](./historical/M02_WORLD_CHECKS.json) · [Release](./historical/M02_RELEASE_CHECKS.json) | Finite pair and controls, with original scope. |
+| M10/P03 | [Checker](./historical/verify_m10_measurements.py) · [Contract](./historical/M10_RECONCILED_CONTRACT.json) | [Measures](./historical/M10_MEASUREMENT_CHECKS.json) · [Release](./historical/M10_RELEASE_CHECKS.json) | Measurement audit and fixture countercontrols. |
+| F/W | [Checker](./historical/verify_trilemma.py) · [Contract](./historical/TRILEMMA_CONTRACT.json) | [Checks](./historical/TRILEMMA_CHECKS.json) · [Release](./historical/TRILEMMA_RELEASE_CHECKS.json) | Self-performed enumeration of small sizes; neither independent review nor proof for all sizes. |
+| Received material | [Complete dossier](./received/2026-10-04/README.md) | [Admission](./received/2026-10-04/INTAKE_CHECKS.json) · [Outputs](./received/2026-10-04/runs/executions.json) | Six originals and additional diagnostics; technologies in subsequent queue. |
 
-Los cuatro checkers históricos y sus fixtures quedan juntos en `historical/` para conservar sus dependencias locales. Los hashes originales son los del commit de entrada identificado en [el manifiesto](../RELOCATION_MANIFEST.json). Las rutas literales internas no se actualizan retrospectivamente. Los comandos de entregas anteriores describen su contexto original; para una reproducción futura, identifica el commit y ejecuta desde el directorio que contiene el script y los fixtures. Esa reproducción no cierra C05/M16.
+The four historical checkers and their fixtures remain together in `historical/` to preserve local dependencies. Original hashes are those of the input commit identified in [the manifest](../RELOCATION_MANIFEST.json). Internal literal paths are not updated retrospectively. Commands of previous deliverables describe their original context; for future reproduction identify the commit and execute from the directory containing the script and fixtures. That reproduction does not close C05/M16.
 
-## Seguimiento al final
+<a id="seguimiento-al-final"></a>
 
-| Trabajo | Estado | Siguiente obligación |
+## Tracking at the end
+
+| Work | Status | Next obligation |
 |---|---|---|
-| Diagnósticos anteriores | Conservados y separados | Usarlos como pistas de errores, con su alcance. |
-| Nuevos ejemplos científicos | No ejecutados en esta entrega | Congelar antes contrato y harness. |
-| Oráculo/harness neutral | Pendiente C01–C05 | Ground truth, óptimo, ledger y medidas; método independiente y cobertura declarada. |
-| Prueba universal | En documento matemático separado | Auditar lemas y políticas; no inferirla de estos resultados. |
+| Previous diagnostics | Preserved and separated | Use as error clues, with their scope. |
+| New scientific examples | Not executed in this deliverable | Freeze contract and harness first. |
+| Neutral oracle/harness | Pending C01–C05 | Ground truth, optimum, ledger and measures; independent method and declared coverage. |
+| Universal proof | In a separate mathematical document | Audit lemmas and policies; do not infer it from these results. |

@@ -1,64 +1,86 @@
-# R01 — Material adicional recibido y auditoría de admisión
+<a id="r01--material-adicional-recibido-y-auditoría-de-admisión"></a>
 
-4 de octubre de 2026 · Entrada `85f1692cd1e823b990dec2cbe8e0c983de669ab3` · Prioridad: validación matemática; tecnologías después.
+# R01 — Additional received material and admission audit
 
-[README R01](../../../../README.md#bot-start-here) · [Plan rector](../../../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening) · [Plan matemático](../../../../MATHEMATICAL_FEASIBILITY.md) · [M06](../../../previous-work/M06_PRIMARY_SOURCE_INTAKE.md) · [Originales y hashes](./sources_manifest.json) · [Ejecuciones](./runs/executions.json) · [Contraejemplos](./runs/additional_diagnostics.json)
+4 October 2026 · Input `85f1692cd1e823b990dec2cbe8e0c983de669ab3` · Priority: mathematical validation; technologies afterward.
 
-Los seis archivos se conservan sin modificar. Son material de entrada y de ataque, no sustituyen los contratos ni cierran tareas. No se atribuye independencia por proceder de otro archivo o conversación. Los scripts recibidos y los nuevos diagnósticos se ejecutaron; no son pruebas en tecnologías reales. No se cambia ninguna fórmula o resultado F/W de la entrega anterior.
+[R01 README](../../../../README.md#bot-start-here) · [Governing plan](../../../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening) · [Mathematical plan](../../../../MATHEMATICAL_FEASIBILITY.md) · [M06](../../../previous-work/M06_PRIMARY_SOURCE_INTAKE.md) · [Originals and hashes](./sources_manifest.json) · [Executions](./runs/executions.json) · [Counterexamples](./runs/additional_diagnostics.json)
 
-## 1. Estado de la validación que gobierna el trabajo
+The six files are preserved without modification. They are input and attack material, do not replace contracts or close tasks. Independence is not attributed because they come from another file or conversation. Received scripts and new diagnostics were executed; they are not tests on real technologies. No F/W formula or result of the previous deliverable is changed.
 
-Hay derivaciones escritas para todas las políticas admitidas en F/W, controles constructivos de viabilidad y 4.555 comprobaciones propias previamente reproducidas. M03/M04 siguen IN_PROGRESS para el objetivo ampliado. M16 (revisión simbólica independiente), M05/C05 (segunda referencia finita) y M17 (puente a R01) permanecen OPEN. M12 sigue OPEN: esta admisión no es el contrato objetivo completo. Los estados totales siguen siendo 55 tareas, 4 DONE históricas, 5 IN_PROGRESS y 46 OPEN.
+<a id="1-estado-de-la-validación-que-gobierna-el-trabajo"></a>
 
-Un teorema condicional permite demostrar que el trilema existe en la clase matemática declarada. No demuestra por sí solo que el modelo corresponda a R01 completo ni la frecuencia de esa dificultad en sistemas reales. Para evitar una imposibilidad fabricada, comprobar interfaz y coste completo, todas las alternativas legítimas, mandato estable, políticas adaptativas/aleatorias, datos iniciales y controles de los tres pares. Si un control permitido resuelve el dominio, conservarlo y reducir o retirar la afirmación. La revisión externa no puede garantizar ausencia absoluta de errores; el objetivo es evidencia trazable, refutable y replicable.
+## 1. Validation status governing the work
 
-## 2. Admisión por archivo
+There are written derivations for all policies admitted in F/W, constructive feasibility controls and 4,555 self-performed checks previously reproduced. M03/M04 remain IN_PROGRESS for the expanded objective. M16 (independent symbolic review), M05/C05 (second finite reference) and M17 (bridge to R01) remain OPEN. M12 remains OPEN: this admission is not the full target contract. Totals remain 55 tasks, 4 historically DONE, 5 IN_PROGRESS and 46 OPEN.
 
-| Material conservado | Qué aporta ahora | Estado y tarea |
+A conditional theorem permits proving the trilemma exists in the declared mathematical class. It does not itself prove that the model corresponds to complete R01 or the frequency of that difficulty in real systems. To avoid manufactured impossibility, check interface and complete cost, all legitimate alternatives, stable mandate, adaptive/randomized policies, initial data and controls for all three pairs. If a permitted control resolves the domain, preserve it and narrow or withdraw the claim. External review cannot guarantee absolute absence of errors; the objective is traceable, refutable and replicable evidence.
+
+<a id="2-admisión-por-archivo"></a>
+
+## 2. Admission by file
+
+| Preserved material | Current contribution | Status and task |
 |---|---|---|
-| [testA_budget.py](./sources/testA_budget.py) | 60 configuraciones y LP sobre mezclas de acciones estáticas m/b/q | Ejecutado sin error; fórmula general no admitida: ignora eficacia h. M03/M04/M11. |
-| [testB_oracles.py](./sources/testB_oracles.py) | Árboles de consultas de pertenencia de ruta para sigma y repartos fijos de repetición ruidosa | Ejecutado; no representa toda la política de efectos F/W ni la frontera conjunta eta/rho. M06/M11/M13/M14. |
-| [testC_killswitch.py](./sources/testC_killswitch.py) | Contención posterior a primera infracción y canarios | Ejecutado; simulación de políticas fijadas, no cota universal. M14/M15. |
-| [testD_human_and_sharing.py](./sources/testD_human_and_sharing.py) | Costes humanos, plazos seriales y reparto de hechos comunes | Ejecutado; precios/humanos perfectos asumidos. M11/M14/M15. |
-| [Anexo T original PDF](./sources/ANNEX_T_RECEIVED.pdf) · [extracción para búsqueda](./ANNEX_T_TEXT_EXTRACT.txt) | Hipótesis sobre mecanismos, cobertura, unidades y 14 experimentos | Material secundario de M13/T; pinning/API/medidas pendientes. No certifica frameworks ni confirma tiers. |
-| [M06 recibido](./sources/M06_PRIOR_ART_RECEIVED.md) | Fuentes y candidatos de refutación, incluida familia escasa y herramientas fusionadas | Primeras pistas admitidas en M06/P01/P02. Algunas equivalencias y cierres propuestos requieren corrección. |
+| [testA_budget.py](./sources/testA_budget.py) | 60 configurations and LP over mixtures of static m/b/q actions | Executed without error; general formula not admitted: ignores efficacy h. M03/M04/M11. |
+| [testB_oracles.py](./sources/testB_oracles.py) | Route-membership query trees for sigma and fixed allocations of noisy repetition | Executed; represents neither the entire F/W effect policy nor joint eta/rho frontier. M06/M11/M13/M14. |
+| [testC_killswitch.py](./sources/testC_killswitch.py) | Containment after first violation and canaries | Executed; simulation of fixed policies, not universal bound. M14/M15. |
+| [testD_human_and_sharing.py](./sources/testD_human_and_sharing.py) | Human costs, serial deadlines and sharing of common facts | Executed; prices/perfect humans assumed. M11/M14/M15. |
+| [Original Annex T PDF](./sources/ANNEX_T_RECEIVED.pdf) · [Search extraction](./ANNEX_T_TEXT_EXTRACT.txt) | Hypotheses on mechanisms, coverage, units and 14 experiments | Secondary M13/T material; pinning/API/measures pending. Certifies no frameworks and confirms no tiers. |
+| [Received M06](./sources/M06_PRIOR_ART_RECEIVED.md) | Sources and refutation candidates, including sparse family and fused tools | Initial leads admitted into M06/P01/P02. Some proposed equivalences and closures need correction. |
 
-## 3. Hallazgos adversariales reproducidos
+<a id="3-hallazgos-adversariales-reproducidos"></a>
 
-### A. La fórmula de presupuesto recibida no vale para todos los umbrales
+## 3. Reproduced adversarial findings
 
-testA ejecuta un grid de 60 casos y anuncia cero discrepancias. La fórmula usa r y no h; el grid no detecta el problema. Para L=2, epsilon=0, c=1, C0=8, h=1/2 y r=1/4, devuelve 10. Una política con presupuesto máximo 9 consulta un bit y adivina el otro con probabilidad 1/2 de intentar; en la otra mitad usa M. Da eta=1/2, rho=1/4 y sigma=1/4. El propio LP recibido acepta 9. Esto refuta esa fórmula general, no F2/F3: la frontera escrita de F sí depende de h.
+<a id="a-la-fórmula-de-presupuesto-recibida-no-vale-para-todos-los-umbrales"></a>
 
-Acción: conservar el original, crear sucesor con umbrales generales y cálculo racional; manejar estados UNKNOWN/error del solver separadamente de infeasible y sustituir el barrido a pasos 0,25 por umbrales de coste exactos. Una enumeración de vectores estáticos no cubre adaptación sin una reducción demostrada.
+### A. Received budget formula does not hold for all thresholds
 
-### B. La familia escasa no exige automáticamente recuperar todo el mundo
+testA executes a 60-case grid and announces zero discrepancies. The formula uses r and not h; the grid does not detect the problem. For L=2, epsilon=0, c=1, C0=8, h=1/2 and r=1/4, it returns 10. A policy with maximum budget 9 queries one bit and guesses the other with attempt probability 1/2; in the other half it uses M. It gives eta=1/2, rho=1/4 and sigma=1/4. The received LP itself accepts 9. This refutes that general formula, not F2/F3: the written F frontier does depend on h.
 
-El M06 recibido propone L posiciones con K bindings, orientaciones ocultas justas y otras posiciones donde X/Y son ambas válidas. Hay binomial(L,K)·2^K mundos. Pero la ruta toda X sirve en binomial(L,K) de ellos: éxito legítimo sin consulta 2^-K, independiente de L. Identificar el soporte y entregar una ruta son tareas distintas. Usar log2(binomial(L,K))+K como b* obligatorio exigiría una reducción que el borrador no contiene.
+Action: preserve the original, create successor with general thresholds and rational calculation; handle UNKNOWN/solver-error states separately from infeasible and replace the 0.25-step sweep with exact cost thresholds. Static-vector enumeration does not cover adaptation without a proved reduction.
 
-Para K=1, si se admite la consulta de pertenencia de una ruta antes del efecto, basta preguntar por toda X; si se deniega, toda Y es legítima. Una consulta da eta=1 y rho=0 para todos los tamaños. Es un control de otra interfaz, no un contraejemplo a lecturas locales F. Los 14 casos enumerados conservan el fallo de transferir la cota de recuperación exacta. La complejidad por lecturas de coordenadas se debe estudiar aparte.
+<a id="b-la-familia-escasa-no-exige-automáticamente-recuperar-todo-el-mundo"></a>
 
-### C. Fuente primaria: analogía válida, transferencia aún pendiente
+### B. Sparse family does not automatically require complete world recovery
 
-Se abrió directamente Baldassini, Johnson y Aldridge, [The Capacity of Adaptive Group Testing, v2](https://arxiv.org/pdf/1301.7023), Theorem 3.1, ecuación (5), y ecuación (7). La cota de transcripciones es un antecedente pertinente. El objetivo del artículo es recuperar el conjunto defectuoso; (7) supone detección con certeza. No cierra automáticamente el presupuesto esperado ni la recuperación parcial/entrega con riesgo de R01. Las capacidades ruidosas de Theorem 1.3 son asintóticas y bajo modelos específicos. El resto de fuentes del M06 recibido se conserva como leads no verificados en esta admisión. No se afirma novedad de conteo ni identidad de los teoremas completos.
+Received M06 proposes L positions with K bindings, fair hidden orientations and other positions where X/Y are both valid. There are binomial(L,K)·2^K worlds. But the all-X route serves in binomial(L,K) of them: query-free legitimate success 2^-K, independent of L. Identifying support and delivering a route are different tasks. Using log2(binomial(L,K))+K as mandatory b* would require a reduction the draft does not contain.
 
-### D. Ruido, contención y uso compartido
+For K=1, if a route-membership query is admitted before the effect, asking about all X suffices; if denied, all Y is legitimate. One query gives eta=1 and rho=0 for all sizes. This is a control of another interface, not a counterexample to F local reads. The 14 enumerated cases preserve the failure to transfer the exact-recovery bound. Coordinate-read complexity must be studied separately.
 
-testB compara con L/(1-H(q)); es una estimación, no una cota inferior finita para éxito 3/4. Tres lecturas con q=0,99 dan éxito 0,99^3=0,970299, aunque L/capacidad≈3,264. Su búsqueda es exacta entre repartos fijos de repeticiones, no entre todas las políticas adaptativas. Un None dentro de t<=60 solo dice que no se encontró control en ese rango.
+<a id="c-fuente-primaria-analogía-válida-transferencia-aún-pendiente"></a>
 
-testC empieza el kill switch después de la primera infracción: puede reducir número de efectos y daño posterior, pero no borrar V ni evitar esa primera infracción. Su canario sacrificial debe cargar sus infracciones al riesgo agregado, no solo al agente final; cambiar la unidad de éxito altera el contrato. Sus promedios Monte Carlo precisan incertidumbre si se usan como medidas.
+### C. Primary source: valid analogy, transfer still pending
 
-testD permite amortizar el dato común, pero d·c/n por agente no reduce el coste agregado d·c; tampoco paga comunicación, mantenimiento o cambios de mandato. La regla económica h<=W/2 no sustituye un techo duro de riesgo. El límite de decisiones humanas presupone un revisor serial exacto y esa interfaz; no impide usar certificados, paralelismo u otra ruta en una clase ampliada.
+Baldassini, Johnson and Aldridge, [The Capacity of Adaptive Group Testing, v2](https://arxiv.org/pdf/1301.7023), Theorem 3.1, equation (5), and equation (7) were opened directly. The transcript bound is pertinent background. The article's objective is recovery of the defective set; (7) assumes certain detection. It does not automatically close R01 expected budget or partial recovery/delivery with risk. The noisy capacities of Theorem 1.3 are asymptotic and under specific models. Other sources of received M06 are retained as unverified leads in this admission. Neither counting novelty nor identity of the full theorems is claimed.
 
-### E. Frescura: el kernel y las ventanas deben quedar definidos
+<a id="d-ruido-contención-y-uso-compartido"></a>
 
-El anexo calcula stale effects≈pL(k+1)/2 y de allí pL²/(2r) refrescos. Falta precisar edades, momento del refresh y ventana check-use. En un control con refresh inmediatamente antes de cada efecto, sin ventana intermedia, edad=0 y riesgo por dato viejo=0; la expresión con k=0 da pL/2. No se adopta su coeficiente ni su clasificación asintótica. Para riesgo P(al menos una infracción), E[número de efectos obsoletos] puede ofrecer una condición suficiente bajo supuestos, no una necesidad ni igualdad; un dato obsoleto tampoco implica automáticamente un efecto prohibido. Registrar p dependiente de tamaño, límite de aproximación y saturación.
+### D. Noise, containment and sharing
 
-## 4. Trabajo adicional dentro de los IDs vigentes
+testB compares with L/(1-H(q)); it is an estimate, not a finite lower bound for success 3/4. Three reads with q=0.99 give success 0.99^3=0.970299 although L/capacity≈3.264. Its search is exact among fixed allocations of repetitions, not all adaptive policies. A None within t<=60 only says no control was found in that range.
+
+testC starts the kill switch after the first violation: it may reduce effect count and subsequent damage, but cannot erase V or prevent that first violation. Its sacrificial canary must charge its violations to aggregate risk, not only to the final agent; changing success unit alters the contract. Its Monte Carlo averages need uncertainty if used as measurements.
+
+testD permits amortizing the common datum, but d·c/n per agent does not reduce aggregate cost d·c; nor does it pay communication, maintenance or mandate changes. Economic rule h<=W/2 does not replace a hard risk ceiling. The human-decision limit presumes an exact serial reviewer and that interface; it does not prevent certificates, parallelism or another route in an expanded class.
+
+<a id="e-frescura-el-kernel-y-las-ventanas-deben-quedar-definidos"></a>
+
+### E. Freshness: kernel and windows must be defined
+
+The annex calculates stale effects≈pL(k+1)/2 and from there pL²/(2r) refreshes. Ages, refresh timing and check-use window need specification. In a control refreshing immediately before each effect with no intervening window, age=0 and stale-data risk=0; the expression with k=0 gives pL/2. Its coefficient and asymptotic classification are not adopted. For risk P(at least one violation), E[number of stale effects] may offer a sufficient condition under assumptions, not necessity or equality; stale data also do not automatically imply a forbidden effect. Record size-dependent p, approximation limit and saturation.
+
+<a id="4-trabajo-adicional-dentro-de-los-ids-vigentes"></a>
+
+## 4. Additional work within current IDs
 
 <!-- R01_BOT_WORKPLAN_START version="0.4" role="queue-pointer" -->
-La cola vigente está en [WORKPLAN.md](../../../WORKPLAN.md). Este documento aporta evidencia o criterios de su alcance; no mantiene una segunda cola. Escalación humana y whispering es la primera tecnología del protocolo; las revisiones repetidas se incorporan a cada ficha. La revisión independiente, fidelidad e integridad conservan sus obligaciones abiertas. El bloque anterior está preservado en QUEUE_SNAPSHOT_2026-10-04.json.
+The current queue is in [WORKPLAN.md](../../../WORKPLAN.md). This document contributes evidence or criteria within its scope; it does not maintain a second queue. Human escalation and whispering is the first technology in the protocol; repeated reviews are incorporated into each fiche. Independent review, fidelity and integrity retain their open obligations. The previous block is preserved in QUEUE_SNAPSHOT_2026-10-04.json.
 <!-- R01_BOT_WORKPLAN_END -->
 
-## 5. Reproducción y límites
+<a id="5-reproducción-y-límites"></a>
 
-Desde esta carpeta, ejecutar `python3 sources/testA_budget.py` y los otros tres scripts para obtener sus salidas; testA necesita SciPy. `python3 audit_received_material.py` reproduce los diagnósticos exactos y el LP adicional. El script de auditoría usa las definiciones recibidas de testA para contrastar su propia fórmula; no es un nuevo evaluador independiente. Se conservaron comandos, hashes y resultados; cada script original terminó con exit code 0. Ninguno usa un modelo real. Las métricas y tipos de método difieren: LP numérico, enumeración pequeña, Monte Carlo y aritmética de supuestos. El PDF original de 38 páginas está intacto; su extracción textual permite búsqueda, sin sustituir la paginación ni tablas visuales originales.
+## 5. Reproduction and limits
+
+From this folder, execute `python3 sources/testA_budget.py` and the other three scripts to obtain their outputs; testA needs SciPy. `python3 audit_received_material.py` reproduces the exact diagnostics and additional LP. The audit script uses testA's received definitions to check its own formula; it is not a new independent evaluator. Commands, hashes and results were preserved; each original script ended with exit code 0. None uses a real model. Metrics and method types differ: numerical LP, small enumeration, Monte Carlo and assumption arithmetic. The original 38-page PDF is intact; its text extraction permits search without replacing original pagination or visual tables.

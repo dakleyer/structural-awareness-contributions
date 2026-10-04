@@ -47,7 +47,7 @@
   "historical_criteria_preserved": true,
   "base_theorem_changed": false,
   "scientific_runs": 0,
-  "math_display_change": "Only the prose connective \\text{y} translated to \\text{and}; numerical and mathematical expressions preserved",
+  "math_display_change": "Only the prose connective \\text{and} translated to \\text{and}; numerical and mathematical expressions preserved",
   "readme_preservation": "All content before the current traversal-update table retained byte-for-byte; that table translated and a language row added",
   "independent_review": false
 }

@@ -1,31 +1,35 @@
-# R01 — Viabilidad matemática del trilema por configuraciones
+<a id="r01--viabilidad-matemática-del-trilema-por-configuraciones"></a>
 
-M12 en desarrollo · Versión 0.1 · 4 de octubre de 2026 · Sin intervenciones tecnológicas nuevas.
+# R01 — Mathematical feasibility of the trilemma by configurations
 
-[Entrada al estudio](./README.md) · [Plan](./WORKPLAN.md) · [Continuación y revisión](./CONTINUATION_PROMPT.md) · [Escenario conservado](../Escenario-creatividad-validacion.md#213-inventario-de-configuración).
+M12 in development · Version 0.1 · 4 October 2026 · No new technology interventions.
 
-Esta formulación recoge la corrección del usuario: hay configuraciones en las que se alcanzan las tres condiciones; hay familias en las que cada par es alcanzable y la tercera condición impide la conjunción. La prueba debe cuantificar sobre **todas** las políticas admitidas. Los ejemplos y diagnósticos archivados son corroboraciones acotadas. Aquí se ofrece una derivación simbólica para la familia F, con necesidad y suficiencia, y se conserva como pendiente la transferencia matemática al escenario R01 completo.
+[Study entry point](./README.md) · [Plan](./WORKPLAN.md) · [Continuation and review](./CONTINUATION_PROMPT.md) · [Preserved scenario](../Escenario-creatividad-validacion.md#213-inventario-de-configuración).
 
-## 1. Configuración, mundo, política y resultados
+This formulation incorporates the user's correction: there are configurations attaining all three conditions; there are families where each pair is attainable and the third condition prevents the conjunction. The proof must quantify over **all** admitted policies. Archived examples and diagnostics are bounded corroborations. A symbolic derivation for family F is offered here, with necessity and sufficiency, and mathematical transfer to the complete R01 scenario is retained as pending.
 
-Se distinguen configuración θ, mundo oculto ω y política π. θ determina el problema y sus recursos; ω determina hechos que la política aún no conoce; π utiliza solo su historia observable. Una política común debe funcionar sin conocer la etiqueta de ω. La aleatoriedad interna es independiente del mundo antes de observarlo.
+<a id="1-configuración-mundo-política-y-resultados"></a>
 
-El inventario del escenario ya contiene estas dimensiones; no se sustituye por una colección nueva de casos aislados:
+## 1. Configuration, world, policy and results
 
-| Dimensión de R01 | Parámetros | Papel en la prueba |
+Configuration θ, hidden world ω and policy π are distinguished. θ determines the problem and its resources; ω determines facts the policy does not yet know; π uses only its observable history. A common policy must operate without knowing ω's label. Internal randomness is independent of the world before observation.
+
+The scenario inventory already contains these dimensions; it is not replaced by a new collection of isolated cases:
+
+| R01 dimension | Parameters | Role in the proof |
 |---|---|---|
-| Tarea y población | L pasos/segmentos, N agentes, obligación, principal, unidad individual/colectiva | F usa una tarea colectiva y L hechos independientes; no presupone N tareas distintas. |
-| Geometría | Distancias, lados, dispersión, conexiones, correlación de posiciones | La geometría de F no revela hechos normativos; no se prueba aquí una ley de dureza en la distancia. |
-| Beneficios y mundos | Medias, dispersión, correlaciones, prior, semillas/versiones | F fija beneficios 1/2 y un prior uniforme; los beneficios no filtran el binding. |
-| Composición | Paridad, conjunción, mezcla; número n y ubicación de relaciones/testigos | Son familias distintas. L no determina por sí solo n ni la cantidad de información decisiva. |
-| Recursos y cargos | Presupuesto agregado R, plazo T, c_e, c_v, ejecución, mensajes, mantenimiento | Se distingue trabajo total de latencia y presupuesto máximo de coste esperado. |
-| Red | Topología, latencia y disponibilidad de comunicación | Conceder coordinación perfecta facilita F; su cota de trabajo no es una cota temporal. |
-| Controles de política | Radio R_e, esfuerzo, k_a/k_d, orden de inspección, v, beta, s, w_s, memoria, reutilización, rechazo, reintento, abstención | Si la afirmación cubre todas las políticas, estas decisiones pertenecen a π; no se congela una ventana incompetente para producir el resultado. |
-| Cantidades derivadas | Q propuestas únicas, cobertura, duplicación, coste, riesgo, eficacia | Son resultados del mundo y de π; no variables independientes seleccionadas después para forzar una conclusión. |
+| Task and population | L steps/segments, N agents, obligation, principal, individual/collective unit | F uses a collective task and L independent facts; it does not presume N distinct tasks. |
+| Geometry | Distances, sides, dispersion, connections, position correlation | F's geometry does not reveal normative facts; no hardness law in distance is proved here. |
+| Benefits and worlds | Means, dispersion, correlations, prior, seeds/versions | F fixes benefits 1/2 and a uniform prior; benefits do not leak the binding. |
+| Composition | Parity, conjunction, mixing; number n and location of relations/witnesses | These are distinct families. L does not itself determine n or the amount of decisive information. |
+| Resources and charges | Aggregate budget R, deadline T, c_e, c_v, execution, messages, maintenance | Total work is distinguished from latency and maximum budget from expected cost. |
+| Network | Topology, latency and communication availability | Granting perfect coordination facilitates F; its work bound is not a temporal bound. |
+| Policy controls | Radius R_e, effort, k_a/k_d, inspection order, v, beta, s, w_s, memory, reuse, rejection, retry, abstention | If the claim covers all policies, these decisions belong to π; an incompetent window is not frozen to produce the result. |
+| Derived quantities | Q unique proposals, coverage, duplication, cost, risk, efficacy | Results of the world and π; not independent variables selected afterward to force a conclusion. |
 
-Referencia: §§2.6 y 2.11–2.15 del [escenario](../Escenario-creatividad-validacion.md). El submodelo F exige lectura básica de hechos, con coste declarado, sin certificados globales iniciales ni barreras gratuitas. Esa es la clase base; todavía no se comparan tecnologías.
+Reference: §§2.6 and 2.11–2.15 of the [scenario](../Escenario-creatividad-validacion.md). Submodel F requires basic reading of facts, with declared cost, without initial global certificates or free barriers. That is the base class; technologies are not yet compared.
 
-Sean Cθ(π) el coste máximo de una ejecución, ρθ(π) la probabilidad de al menos una infracción material y ηθ(π) la probabilidad de completar con calidad técnica suficiente. Fijar antes de ejecutar R≥0, 0≤r≤1 y 0<h≤1. Escribir:
+Let Cθ(π) be the maximum cost of an execution, ρθ(π) the probability of at least one material violation and ηθ(π) the probability of completion with sufficient technical quality. Fix R≥0, 0≤r≤1 and 0<h≤1 before execution. Write:
 
 \[
 B_C=[C_\theta(\pi)\le R],\qquad
@@ -33,20 +37,22 @@ B_R=[\rho_\theta(\pi)\le r],\qquad
 B_E=[\eta_\theta(\pi)\ge h].
 \]
 
-η es eficacia **técnica** suplementaria: una infracción no se acredita como éxito legítimo de R01. Si se exige éxito legítimo, se utiliza σ=P(calidad suficiente y ninguna infracción), con otro umbral y otra frontera. No se mezclan ambos teoremas.
+η is supplementary **technical** efficacy: a violation is not credited as legitimate R01 success. If legitimate success is required, σ=P(sufficient quality and no violation) is used, with another threshold and another frontier. The two theorems are not mixed.
 
-Π(θ) contiene las políticas finitas legales para esa interfaz, incluidas las que gastarían más que R. El objetivo de coste se impone mediante B_C: restringir Π a políticas baratas de antemano haría imposible expresar correctamente el control riesgo–eficacia a coste elevado. Los controles construidos tienen plazo suficiente fijado en θ, común a las comparaciones.
+Π(θ) contains finite legal policies for that interface, including those that would spend more than R. The cost objective is imposed through B_C: restricting Π to cheap policies in advance would make it impossible to express the risk–efficacy control at high cost correctly. Constructed controls have a sufficient deadline fixed in θ, common to the comparisons.
 
-## 2. Regiones y cuantificadores correctos
+<a id="2-regiones-y-cuantificadores-correctos"></a>
 
-Para un subconjunto S de {C,R,E}, definir
+## 2. Correct regions and quantifiers
+
+For a subset S of {C,R,E}, define
 
 \[
 A_S=\{\theta:\exists\pi\in\Pi(\theta)\quad
 \bigwedge_{i\in S} B_i(\theta,\pi)\}.
 \]
 
-La región viable es V=A_CRE. Las regiones solicitadas por pares son
+The viable region is V=A_CRE. The requested pairwise regions are
 
 \[
 U_{CR}=A_{CR}\setminus V,\quad
@@ -54,9 +60,9 @@ U_{CE}=A_{CE}\setminus V,\quad
 U_{RE}=A_{RE}\setminus V.
 \]
 
-Por ejemplo, θ∈U_CR significa que existe una política barata y segura, y que **ninguna** política barata y segura alcanza la eficacia exigida. No significa que la eficacia sea imposible si se permite pagar más.
+For example, θ∈U_CR means that a cheap and safe policy exists, and **no** cheap and safe policy attains the required efficacy. It does not mean efficacy is impossible if paying more is permitted.
 
-El objetivo mínimo es V≠∅ y U_CR,U_CE,U_RE≠∅, con familias parametrizadas explícitas. Una forma más fuerte, que F satisface, es:
+The minimum objective is V≠∅ and U_CR,U_CE,U_RE≠∅, with explicit parameterized families. A stronger form, satisfied by F, is:
 
 \[
 \exists\mathcal U\ne\varnothing\quad
@@ -66,45 +72,49 @@ El objetivo mínimo es V≠∅ y U_CR,U_CE,U_RE≠∅, con familias parametrizad
 \left(\forall\pi\in\Pi(\theta)\ \neg(B_C\land B_R\land B_E)\right).
 \]
 
-Las tres políticas π_S pueden ser distintas. Las regiones U_CR, U_CE y U_RE pueden solaparse; no forman necesariamente tres áreas disjuntas. Que cada par tenga una estrategia no proporciona una estrategia común para los tres. Tampoco se exige que cada ejecución de cada política infrinja: lo que no se alcanza son las garantías conjuntas en esa configuración.
+The three policies π_S may differ. Regions U_CR, U_CE and U_RE may overlap; they do not necessarily form three disjoint areas. Having a strategy for each pair does not provide a common strategy for all three. Nor is every execution of every policy required to violate: what is unattainable is the joint guarantees in that configuration.
 
-## 3. Familia F: contrato sin intervenciones
+<a id="3-familia-f-contrato-sin-intervenciones"></a>
 
-L≥1 segmentos, con conectividad completa entre opciones de segmentos adyacentes. En cada segmento hay M, segura y de beneficio 1, y X/Y, de beneficio 2. El binding χ_i∈{0,1} determina cuál de X/Y es admisible. Los L bindings son independientes y equiprobables. El óptimo admisible vale 2L en todo mundo.
+## 3. Family F: contract without interventions
 
-La tolerancia 0≤ε<L requiere J≥2L−ε en una ruta completa; por tanto se necesitan d=L−⌊ε⌋≥1 opciones altas. Cada ruta completa paga C0=b+gL, b≥0,g>0. Leer un binding concreto cuesta c>0, con todas las etapas de acceso incluidas. Reutilizar hechos adquiridos es válido. No hay metadatos, geometría, mensajes, beneficio o revisión gratuita que revelen un binding nuevo. Se admite cómputo local y coordinación perfecta como envolvente favorable a cualquier N finito, cobrando el trabajo informativo agregado.
+L≥1 segments, with complete connectivity between options of adjacent segments. Each segment has M, safe with benefit 1, and X/Y with benefit 2. Binding χ_i∈{0,1} determines which of X/Y is admissible. The L bindings are independent and equiprobable. The admissible optimum is 2L in every world.
 
-Una opción alta desconocida puede ejecutarse. El efecto revela su binding después de producirse. Una infracción material no se borra, aunque se continúe y se complete técnicamente. Se rechaza toda opción ya conocida como prohibida. No se impone un aborto obligatorio que cambie la definición de eficacia. Cada instancia tiene un horizonte finito suficientemente amplio para leer los d hechos y completar la tarea.
+Tolerance 0≤ε<L requires J≥2L−ε on a complete route; therefore d=L−⌊ε⌋≥1 high options are needed. Each complete route pays C0=b+gL, b≥0,g>0. Reading a particular binding costs c>0, including all access stages. Reusing acquired facts is valid. No metadata, geometry, messages, benefit or free review reveal a new binding. Local computation and perfect coordination are admitted as a favorable envelope for any finite N, charging aggregate information work.
 
-En AVG se promedia el prior uniforme y la aleatoriedad de π. En WC se exige η_ω≥h y ρ_ω≤r en cada mundo, con una misma π aleatoria. La imposibilidad AVG implica la WC; el control de suficiencia dará las mismas tasas en cada mundo.
+An unknown high option may be executed. The effect reveals its binding after occurring. A material violation is not erased even if execution continues and technically completes. Every option already known to be forbidden is rejected. Mandatory abortion altering the definition of efficacy is not imposed. Each instance has a finite horizon sufficiently broad to read all d facts and complete the task.
 
-## 4. Teorema de frontera exacta, para toda política
+In AVG the uniform prior and π's randomness are averaged. In WC η_ω≥h and ρ_ω≤r are required in each world with the same randomized π. AVG impossibility implies WC impossibility; the sufficiency control will give the same rates in each world.
 
-Para R≥C0, definir
+<a id="4-teorema-de-frontera-exacta-para-toda-política"></a>
+
+## 4. Exact-frontier theorem, for every policy
+
+For R≥C0, define
 
 \[
 k=\left\lfloor\frac{R-C_0}{c}\right\rfloor,\quad
 m=\max(0,d-k),\quad q=2^{-m}.
 \]
 
-**Teorema F.** Para AVG y para WC con políticas aleatorias,
+**Theorem F.** For AVG and WC with randomized policies,
 
 \[
 \boxed{\theta\in V\quad\Longleftrightarrow\quad
-R\ge C_0\ \text{y}\ r\ge h(1-2^{-\max(0,d-k)}) .}
+R\ge C_0\ \text{and}\ r\ge h(1-2^{-\max(0,d-k)}) .}
 \]
 
-**Necesidad.** Si R<C0 no hay ruta suficiente financiable y η=0. Para R≥C0, cualquier historia de éxito técnico sin infracción necesita d efectos altos y puede financiar a lo sumo k lecturas pagadas. Debe acertar al menos m primeras apuestas sobre bindings distintos aún desconocidos.
+**Necessity.** If R<C0 there is no fundable sufficient route and η=0. For R≥C0, any history of technical success without violation needs d high effects and can fund at most k paid reads. It must win at least m first bets on distinct still unknown bindings.
 
-Antes de la primera infracción, cada apuesta de este tipo acierta con probabilidad 1/2 condicionado a toda la historia anterior. Independencia, selección adaptativa, memoria y consultas a otros índices no cambian ese hecho. Una nueva lectura puede evitar una apuesta, pero no informa gratuitamente de otra coordenada. Los recibos de apuestas previas se admiten íntegramente.
+Before the first violation, each bet of this kind succeeds with probability 1/2 conditional on the entire previous history. Independence, adaptive selection, memory and queries to other indices do not change that fact. A new read may avoid a bet but does not inform another coordinate for free. Receipts of previous bets are admitted in full.
 
-Sea a_j la probabilidad de entrar en la apuesta j antes de cualquier infracción. Se cumple a_1≤1 y a_{j+1}≤a_j/2. Parar o consultar entre apuestas puede reducir esa probabilidad. Si σ=P(éxito técnico sin infracción), para m≥1:
+Let a_j be the probability of entering bet j before any violation. a_1≤1 and a_{j+1}≤a_j/2 hold. Stopping or querying between bets may reduce that probability. If σ=P(technical success without violation), for m≥1:
 
 \[
 \sigma\le a_m/2\le 2^{-m}.
 \]
 
-Los eventos de primera infracción en cada apuesta son disjuntos y tienen probabilidad a_j/2. Como a_j≥2^{m-j}a_m para j≤m,
+The events of first violation in each bet are disjoint and have probability a_j/2. Since a_j≥2^{m-j}a_m for j≤m,
 
 \[
 \rho\ge\sum_{j=1}^m a_j/2
@@ -112,9 +122,9 @@ Los eventos de primera infracción en cada apuesta son disjuntos y tienen probab
 \ge(2^m-1)\sigma.
 \]
 
-Además η≤σ+ρ. Por tanto ρ≥(1−2^{-m})η≥(1−2^{-m})h. Para m=0 la condición inferior de riesgo es trivial. Las ramas que gastan demasiado no pueden aportar éxito financiable; detenerlas antes de más apuestas no elimina ningún éxito y solo puede reducir riesgo. La demostración cubre políticas aleatorias y adaptativas directamente. Para WC, las garantías por mundo implican las garantías AVG, de modo que la misma condición es necesaria.
+Moreover η≤σ+ρ. Therefore ρ≥(1−2^{-m})η≥(1−2^{-m})h. For m=0 the lower risk condition is trivial. Branches spending too much cannot contribute fundable success; stopping them before further bets eliminates no success and can only reduce risk. The proof directly covers randomized and adaptive policies. For WC, per-world guarantees imply AVG guarantees, so the same condition is necessary.
 
-**Suficiencia.** Con probabilidad h intentar una ruta con d opciones altas: leer min(k,d) bindings y elegir sus opciones admisibles; en los m restantes elegir X/Y con monedas independientes; usar M en los demás segmentos. Con probabilidad 1−h ejecutar M. Los recibos se conservan y ninguna opción futura conocida como prohibida se ejecuta. El coste máximo es C0+c min(k,d)≤R, y en cada mundo
+**Sufficiency.** With probability h attempt a route with d high options: read min(k,d) bindings and choose their admissible options; in the remaining m choose X/Y with independent coins; use M in the other segments. With probability 1−h execute M. Receipts are preserved and no future option known to be forbidden is executed. Maximum cost is C0+c min(k,d)≤R, and in each world
 
 \[
 \eta_\omega=h,\quad
@@ -122,55 +132,63 @@ Además η≤σ+ρ. Por tanto ρ≥(1−2^{-m})η≥(1−2^{-m})h. Para m=0 la c
 \rho_\omega=h(1-2^{-m}).
 \]
 
-El control alcanza exactamente la cota inferior, incluso en la igualdad. ∎
+The control attains the lower bound exactly, including equality. ∎
 
-Esto prueba una frontera, no únicamente ejemplos de fracaso. La prueba utiliza la interfaz, el prior y los cargos declarados. Su validez dentro de F y su transferencia al escenario completo son obligaciones diferentes.
+This proves a frontier, not merely failure examples. The proof uses the declared interface, prior and charges. Validity within F and transfer to the complete scenario are different obligations.
 
-## 5. Regiones viables, tres pares y no vaciedad
+<a id="5-regiones-viables-tres-pares-y-no-vaciedad"></a>
 
-Si 0≤r<h, definir j_allow como el mayor entero j≥0 que satisface h(1−2^{-j})≤r. Entonces
+## 5. Viable regions, three pairs and nonemptiness
+
+If 0≤r<h, define j_allow as the greatest integer j≥0 satisfying h(1−2^{-j})≤r. Then
 
 \[
 j_{allow}=\left\lfloor\log_2\frac h{h-r}\right\rfloor,
 \qquad C_{crit}=C_0+c\max(0,d-j_{allow}).
 \]
 
-Las igualdades se deciden con la desigualdad original; no con un logaritmo redondeado numéricamente. Para este perfil, V es R≥Ccrit; la banda con trilema es C0≤R<Ccrit. Si r≥h, la banda desaparece y basta R≥C0. El límite R=Ccrit es viable. No se afirma una banda no vacía donde los umbrales la vacían.
+Equalities are decided using the original inequality, not a numerically rounded logarithm. For this profile, V is R≥Ccrit; the trilemma band is C0≤R<Ccrit. If r≥h, the band disappears and R≥C0 suffices. Boundary R=Ccrit is viable. A nonempty band is not claimed where the thresholds make it empty.
 
-En la banda no vacía U={θ:C0≤R<Ccrit}, estos controles consiguen los pares:
+In the nonempty band U={θ:C0≤R<Ccrit}, these controls attain the pairs:
 
-| Par alcanzado | Política constructiva | Coste, riesgo y eficacia | Tercer objetivo |
+| Attained pair | Constructive policy | Cost, risk and efficacy | Third objective |
 |---|---|---|---|
-| Coste y riesgo | Ejecutar M en todos los segmentos | C=C0≤R; ρ=0; η=0 | η<h. Por el teorema, ninguna política que preserve coste y riesgo alcanza h. |
-| Coste y eficacia | Ejecutar d opciones altas sin consultas, con monedas justas; M en las demás | C=C0≤R; η=1; ρ=1−2^{-d} | ρ>r en esta banda. Ninguna política barata y eficaz respeta el techo r. |
-| Riesgo y eficacia | Leer los d bindings y ejecutar las opciones admisibles | C=C0+cd; ρ=0; η=1 | C>R. Ninguna política segura y eficaz alcanza también el presupuesto. |
-| Las tres | Control del teorema con consultas suficientes y probabilidad de intento h | C≤R; ρ≤r; η=h | Existe en R≥Ccrit; no contradice la banda anterior. |
+| Cost and risk | Execute M in all segments | C=C0≤R; ρ=0; η=0 | η<h. By the theorem, no policy preserving cost and risk attains h. |
+| Cost and efficacy | Execute d high options without queries, with fair coins; M elsewhere | C=C0≤R; η=1; ρ=1−2^{-d} | ρ>r in this band. No cheap and effective policy respects ceiling r. |
+| Risk and efficacy | Read all d bindings and execute admissible options | C=C0+cd; ρ=0; η=1 | C>R. No safe and effective policy also meets the budget. |
+| All three | Theorem control with sufficient queries and attempt probability h | C≤R; ρ≤r; η=h | Exists at R≥Ccrit; does not contradict the previous band. |
 
-**No vaciedad y tamaños arbitrarios.** Fijar b≥0,g>0,c>0,0<h≤1 y 0≤r<h. Elegir cualquier entero d>j_allow, L≥d, ε=L−d y R=C0. Entonces m=d y h(1−2^{-d})>r, de modo que θ∈U_CR∩U_CE∩U_RE. Hay infinitos tamaños eligiendo ε=0 y L>j_allow. Para los mismos tamaños, cambiar únicamente R a C0+cd permite las tres en todos los mundos. Así se prueban familias inviables y viables sin cambiar objetivos después de ver resultados.
+**Nonemptiness and arbitrary sizes.** Fix b≥0,g>0,c>0,0<h≤1 and 0≤r<h. Choose any integer d>j_allow, L≥d, ε=L−d and R=C0. Then m=d and h(1−2^{-d})>r, so θ∈U_CR∩U_CE∩U_RE. There are infinitely many sizes by choosing ε=0 and L>j_allow. For the same sizes, changing only R to C0+cd permits all three in all worlds. Infeasible and viable families are thus proved without changing objectives after seeing results.
 
-Para cualquier N finito, el mismo argumento cubre reparto de lecturas entre agentes con coordinación perfecta si C es agregado y no hay hechos previos adicionales. No se concluye que más agentes o más distancia hagan el problema difícil por sí mismos. El régimen de presupuesto por agente, latencia y búsqueda geométrica requiere su propio contrato.
+For any finite N, the same argument covers allocation of reads among agents with perfect coordination if C is aggregate and there are no additional prior facts. It is not concluded that more agents or greater distance make the problem difficult by themselves. Per-agent budget, latency and geometric-search regimes require their own contract.
 
-## 6. Qué significa «solo una»
+<a id="6-qué-significa-solo-una"></a>
 
-En el espacio de pares (θ,π) se pueden clasificar las ocho firmas de cumplimiento (B_C,B_R,B_E). Una firma con solo un objetivo bueno describe una política y sus resultados; **no prueba** que otra política de esa configuración no consiga un par.
+## 6. What “only one” means
 
-Para afirmar que una configuración permite solamente el objetivo i entre todas sus políticas, haría falta demostrar θ∈A_i pero θ∉A_CR∪A_CE∪A_RE. Esa es una obligación adicional. En F, abstenerse con coste cero y sin efectos es barato y seguro para R≥0,r≥0: θ∈A_CR siempre. Por tanto esta región exclusiva de «solo uno» está vacía dentro del contrato actual. Si se exige una entrega mínima para considerar una política admisible, cambia el contrato y hay que volver a probar sus lemas; no se introduce ese requisito para fabricar una conclusión.
+In the space of pairs (θ,π), the eight compliance signatures (B_C,B_R,B_E) can be classified. A signature with only one good objective describes a policy and its results; it **does not prove** that another policy in that configuration cannot achieve a pair.
 
-El plan conserva ambas interpretaciones: firmas de resultados y regiones de posibilidades. La prueba del trilema por pares no necesita que existan ocho regiones exclusivas de configuraciones.
+To assert that a configuration permits only objective i among all its policies, θ∈A_i but θ∉A_CR∪A_CE∪A_RE would need to be proved. That is an additional obligation. In F, abstaining with zero cost and no effects is cheap and safe for R≥0,r≥0: θ∈A_CR always. Therefore this exclusive “only one” region is empty within the current contract. If minimum delivery is required to consider a policy admissible, the contract changes and its lemmas must be proved again; that requirement is not introduced to manufacture a conclusion.
 
-## 7. Estado de validación y obligaciones restantes
+The plan retains both interpretations: result signatures and possibility regions. The pairwise trilemma proof does not require eight exclusive configuration regions to exist.
 
-| Afirmación | Evidencia actual | Validación que falta |
+<a id="7-estado-de-validación-y-obligaciones-restantes"></a>
+
+## 7. Validation status and remaining obligations
+
+| Claim | Current evidence | Missing validation |
 |---|---|---|
-| F tiene una banda con todos los pares alcanzables y triple imposible | Derivación simbólica anterior para todas las políticas de su clase, control que alcanza la frontera y prueba de no vaciedad | Reconstrucción y auditoría simbólica independiente M16; no se declara realizada. |
-| F también tiene regiones viables | Control explícito con consultas suficientes, incluido el borde | Auditoría junto con la necesidad. |
-| Lo anterior es un teorema del R01 completo | Correspondencias parciales y escenario conservado | M17: embedding/reducción de mundos, todas las observaciones, políticas, efectos y costes; ahora no está demostrado. |
-| El trilema ocurre con determinada frecuencia en sistemas reales | No hay campaña registrada que lo establezca | Harness neutral, controles competentes y campaña con configuración congelada. |
-| Algunas tecnologías lo reducen o eliminan | Derivaciones y material históricos conservados | Revisión posterior de sus contratos; no forman parte de esta prueba base. |
+| F has a band with all pairs attainable and triple impossible | Above symbolic derivation for all policies in its class, control attaining the frontier and nonemptiness proof | Independent symbolic reconstruction and audit M16; not declared performed. |
+| F also has viable regions | Explicit control with sufficient queries, including the boundary | Audit together with necessity. |
+| The above is a theorem of complete R01 | Partial correspondences and preserved scenario | M17: embedding/reduction of worlds, all observations, policies, effects and costs; not now proved. |
+| The trilemma occurs with a particular frequency in real systems | No recorded campaign establishes it | Neutral harness, competent controls and campaign with frozen configuration. |
+| Some technologies reduce or eliminate it | Historical derivations and material preserved | Subsequent review of their contracts; not part of this base proof. |
 
-La familia W y sus fronteras anteriores se conservan en [el borrador F/W](./previous-work/M03_M04_TRILEMMA_THEOREMS.md). Su revisión es una segunda obligación matemática; no se incorpora automáticamente al teorema de R01 por añadir relaciones densas. Los [diagnósticos parciales](./partial-experiments/README.md) no cierran ninguna de las obligaciones universales, de independencia o de transferencia.
+Family W and its previous frontiers are preserved in [the F/W draft](./previous-work/M03_M04_TRILEMMA_THEOREMS.md). Their review is a second mathematical obligation; it is not automatically incorporated into the R01 theorem by adding dense relations. [Partial diagnostics](./partial-experiments/README.md) close none of the universal, independence or transfer obligations.
 
 
-## Manuscrito independiente del trilema condicionado
+<a id="manuscrito-independiente-del-trilema-condicionado"></a>
 
-La formulación anterior queda conservada. El [manuscrito independiente](./CONDITIONED_TRILEMMA.md) desarrolla el argumento sin requerir la lectura del repositorio: hipótesis, lema universal, necesidad y suficiencia, regiones, cuantificadores y medidas de eficacia. Amplía explícitamente F a hechos independientes con prior a en AVG; para WC mantiene q=2^{-m}. Incluye una familia con objetivo de éxito legítimo del 95 % en AVG, sin contar infracciones como éxito, y delimita cuándo ese resultado no se traslada a WC. [Revisión simbólica propia](./CONDITIONED_TRILEMMA_SELF_REVIEW.md); revisión independiente y puente a R01 pendientes. No cambia los fixtures ni los resultados históricos.
+## Independent manuscript of the conditioned trilemma
+
+The previous formulation is preserved. The [independent manuscript](./CONDITIONED_TRILEMMA.md) develops the argument without requiring repository reading: hypotheses, universal lemma, necessity and sufficiency, regions, quantifiers and efficacy measures. It explicitly extends F to independent facts with prior a in AVG; for WC it retains q=2^{-m}. It includes a family with a 95 % legitimate-success target in AVG, without counting violations as success, and delimits when that result does not transfer to WC. [Symbolic self-review](./CONDITIONED_TRILEMMA_SELF_REVIEW.md); independent review and bridge to R01 pending. It changes neither fixtures nor historical results.

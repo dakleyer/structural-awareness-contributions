@@ -1,9 +1,11 @@
-# Revisión y depuración de tareas pendientes — 4 de octubre de 2026
+<a id="revisión-y-depuración-de-tareas-pendientes--4-de-octubre-de-2026"></a>
 
-Entrada: `d8fbfa48581df366081143872ec4c16360c51635`. Se inspeccionaron 508 archivos Markdown/texto del árbol público sin errores de lectura, el árbol de 1.195 entradas y el registro JSON de R01. La revisión localiza las colas, no valida todos los resultados del corpus.
+# Review and cleanup of pending tasks — 4 October 2026
 
-La cola R01 queda en cuatro tareas actuales y tres entregas posteriores. Se conservan 55 IDs, los criterios anteriores y el contenido íntegro de los planes editados en [el snapshot](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json). M03/M04/M12 se reconocen completas en alcance propio sin cerrar M16/M17. Se consolidan 37 obligaciones repetidas en sus entregas y se dejan cuatro trabajos de selección/replicación fuera del alcance actual.
+Input: `d8fbfa48581df366081143872ec4c16360c51635`. 508 Markdown/text files in the public tree were inspected without read errors, along with the tree of 1,195 entries and the R01 JSON register. The review locates queues, not validates all corpus results.
 
-Escalación humana y whispering se clasifica como primera tecnología dentro del protocolo de extensión; las tres candidatas existentes siguen después. Se retiran órdenes antiguas de reiniciar M12, preparar el protocolo, repetir la revisión de extensiones, ejecutar otra vez la búsqueda dinámica de 1.056 redes o finalizar los decks según el esquema combinado del 23 de septiembre. No se retiran A25/competencia, validación comparativa, actualización semántica de exports, independencia ni integridad cuando todavía carecen de evidencia.
+The R01 queue is reduced to four current tasks and three subsequent deliverables. 55 IDs, previous criteria and the full contents of edited plans are preserved in [the snapshot](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json). M03/M04/M12 are recognized complete within their own scope without closing M16/M17. 37 repeated obligations are consolidated into their deliverables and four selection/replication items are left outside the current scope.
 
-Los anexos recibidos y scripts permanecen como ensayos previos no canónicos. Ningún experimento científico nuevo, implementación real, alteración de fórmula o revisión independiente se declara por esta depuración. No se modifica Charter, requisitos, escenarios ni resultados. La estructura de rutas y el número de README no cambian.
+Human escalation and whispering is classified as the first technology within the extension protocol; the three existing candidates follow. Old orders to restart M12, prepare the protocol, repeat the extension review, rerun the dynamic search of 1,056 networks or finalize decks according to the combined 23 September outline are removed. A25/competence, comparative validation, semantic export updates, independence and integrity are not removed where evidence is still lacking.
+
+Received annexes and scripts remain as noncanonical preliminary trials. No new scientific experiment, real implementation, formula alteration or independent review is declared by this cleanup. Charter, requirements, scenarios and results are not modified. Path structure and README count do not change.

@@ -275,7 +275,7 @@
           "before_index": 1205,
           "after_index": 1205,
           "before": "",
-          "after": " y M02 para construcción de mundos y controles viables"
+          "after": " and M02 for world construction and viable controls"
         },
         {
           "kind": "replace",
@@ -289,14 +289,14 @@
           "before_index": 11069,
           "after_index": 11123,
           "before": "",
-          "after": ". **DONE — construcción y controles**, [resultado](./M02_WORLDS_AND_CONTROLS.md)"
+          "after": ". **DONE — construction and controls**, [result](./M02_WORLDS_AND_CONTROLS.md)"
         },
         {
           "kind": "insert",
           "before_index": 20953,
           "after_index": 21087,
           "before": "",
-          "after": "\n\n### Actualización de ejecución — M02\n\nM02 está DONE para construir y comprobar el candidato conjuntivo y sus controles. [Mundos, costes, atajos y límites](./M02_WORLDS_AND_CONTROLS.md) · [Fixture completo](./M02_CONJUNCTION_FIXTURE.json) · [Comprobador](./verify_m02_worlds.py) · [76 comprobaciones y trazas](./M02_WORLD_CHECKS.json) · [Aceptación y conservación](./M02_RELEASE_CHECKS.json).\n\nSe incluyen las 27 rutas y sus mezclas; el único camino permitido en ambos mundos entrega 3 frente a los óptimos 6. El control con información completa funciona con R=11. Consultar el dato o su certificado permite entregar el óptimo con R=12; con epsilon=3 basta M y R=11. Se conservan estos casos que resuelven el candidato. Esto no demuestra inviabilidad para todas las políticas ni una ventaja de EA o tecnología concreta.\n\nEl siguiente trabajo es reconciliar M10/P03 y abrir la revisión dirigida de fuentes/contraejemplos M06 antes de desarrollar M03. M03 deberá cubrir información tras los efectos, certificados de una unidad, caché, decisiones adaptativas y aleatorización; M04 deberá revisar fronteras y controles. Quedan 47 tareas OPEN. La revisión es propia; no sustituye C05/M05 ni la revisión independiente. La fecha UTC real, commit de entrada y límites están en el registro de evidencia.\n\n"
+          "after": "\n\n### Execution update — M02\n\nM02 is DONE for constructing and checking the conjunctive candidate and its controls. [Worlds, costs, shortcuts and limits](./M02_WORLDS_AND_CONTROLS.md) · [Full fixture](./M02_CONJUNCTION_FIXTURE.json) · [Checker](./verify_m02_worlds.py) · [76 checks and traces](./M02_WORLD_CHECKS.json) · [Acceptance and preservation](./M02_RELEASE_CHECKS.json).\n\nAll 27 routes and their mixtures are included; the only path permitted in both worlds delivers 3 versus optima 6. The full-information control works with R=11. Querying the datum or its certificate permits optimal delivery with R=12; with epsilon=3, M and R=11 suffice. These cases resolving the candidate are preserved. This proves neither infeasibility for all policies nor an EA or concrete-technology advantage.\n\nNext work is reconciling M10/P03 and opening targeted source/counterexample review M06 before developing M03. M03 must cover information after effects, one-unit certificates, cache, adaptive decisions and randomization; M04 must review frontiers and controls. 47 tasks remain OPEN. Review is self-performed; it replaces neither C05/M05 nor independent review. Actual UTC date, input commit and limits are in the evidence record.\n\n"
         }
       ]
     }

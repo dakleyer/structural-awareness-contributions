@@ -1,80 +1,102 @@
-# R01 — Auditoría matemática y cierre de continuidad
+<a id="r01--auditoría-matemática-y-cierre-de-continuidad"></a>
 
-4 de octubre de 2026 · Revisión propia del manuscrito v0.2 · Sin tecnologías aplicadas.
+# R01 — Mathematical audit and continuity closure
 
-## 1. Estado recuperado
+4 October 2026 · Self-review of manuscript v0.2 · No technologies applied.
 
-La rama main consultada contenía el commit 7881cc72ab5e2773eefb9ba5d4d3b88c7d0974bc. En él estaba la v0.1 del teorema: las reparaciones anunciadas en la conversación todavía no figuraban en ese archivo. Esta entrega completa esas reparaciones. La revisión es del mismo asistente; no satisface la reconstrucción independiente exigida por M16.
+<a id="1-estado-recuperado"></a>
 
-Fuentes leídas completas: el escenario canónico R01 v0.6, el teorema, su revisión propia, la auditoría de fondo anterior, el mapa de transferencia, el registro de publicación anterior, el README de R01, el README de feasibility, el registro de 55 tareas y el prompt de continuación. Los materiales tecnológicos recibidos se recuperaron para localizar su estado, pero no se usan para demostrar este teorema. El script humano recibido contiene cálculos parametrizados y no una ejecución de un framework.
+## 1. Recovered status
 
-## 2. Dictamen por cuestión
+The main branch consulted contained commit 7881cc72ab5e2773eefb9ba5d4d3b88c7d0974bc. It contained theorem v0.1: repairs announced in the conversation were not yet in that file. This deliverable completes those repairs. The review is by the same assistant; it does not satisfy the independent reconstruction required by M16.
 
-| Cuestión | Dictamen propio después de reparación | Alcance |
+Sources read in full: canonical R01 scenario v0.6, theorem, its self-review, previous in-depth audit, transfer mapping, previous publication record, R01 README, feasibility README, 55-task register and continuation prompt. Received technology materials were recovered to locate their status but are not used to prove this theorem. The received human script contains parameterized calculations, not execution of a framework.
+
+<a id="2-dictamen-por-cuestión"></a>
+
+## 2. Verdict by issue
+
+| Issue | Self-review verdict after repair | Scope |
 |---|---|---|
-| Corrección formal | La cota posterior y la desigualdad de riesgo se reconstruyen bajo I1–I3. | Todos los historiales y políticas de cada manifiesto que satisface las hipótesis. |
-| Trilema no vacuo | Se construyen CR, CE y RE con idénticos umbrales; la cota impide CRE. | Familia R01, cualquier L,N,K; AVG y WC separados. |
-| Frontera | Los controles alcanzan exactamente las cotas de la familia. | Frontera de riesgo/eficacia a techo duro de coste; no Pareto de seis dimensiones. |
-| Dominio completo | Certificado válido para todo manifiesto R01 completo; criterio informativo universal condicionado. | No se exige la misma fórmula numérica ni dificultad en toda configuración. |
-| Fidelidad a R01 | Catálogo completo confrontado con §§1.4 y 2.1–2.17; reparados reparto y recibos. | La familia es una especialización sintética del control global permitido; no prueba un incidente histórico. |
-| Revisión independiente | Pendiente. | M16 OPEN; no se atribuye independencia a esta revisión. |
-| Implementación y campaña | Pendientes. | No hay nuevos experimentos científicos ni ejecución tecnológica. |
+| Formal correctness | Posterior bound and risk inequality reconstructed under I1–I3. | All histories and policies of each manifest satisfying the hypotheses. |
+| Nonvacuous trilemma | CR, CE and RE constructed with identical thresholds; the bound prevents CRE. | R01 family, any L,N,K; AVG and WC separated. |
+| Frontier | Controls attain the family bounds exactly. | Risk/efficacy frontier under a hard cost ceiling; not six-dimensional Pareto. |
+| Full domain | Certificate valid for every complete R01 manifest; universal conditioned information criterion. | The same numerical formula or difficulty in every configuration is not required. |
+| Fidelity to R01 | Full catalog compared against §§1.4 and 2.1–2.17; distribution and receipts repaired. | The family is a synthetic specialization of the permitted global control; it does not prove a historical incident. |
+| Independent review | Pending. | M16 OPEN; this review is not attributed independence. |
+| Implementation and campaign | Pending. | No new scientific experiments or technology execution. |
 
-## 3. Defectos y reparación mínima
+<a id="3-defectos-y-reparación-mínima"></a>
 
-| Ubicación v0.1 | Defecto | Severidad | Reparación v0.2 | Efecto |
+## 3. Defects and minimal repair
+
+| Location v0.1 | Defect | Severity | Repair v0.2 | Effect |
 |---|---|---|---|---|
-| §6, certificado | Se usa λ=(1−a)/a como multiplicador de r en s−λr; debe ser 1/λ. | Error formal en el enlace al certificado. | μ=a/(1−a), A(μ)≤0 y p−μδ>0. | No cambia la cota r≥λs. |
-| §7, preparación | Se cobra una unidad por destinatario aunque la tabla cobra envío y recepción. | Inconsistencia de contabilidad. | C_pre=2+4L+2(N−1); C_0=7L+2N. | Desplaza los umbrales absolutos de presupuesto. |
-| §7, tiempo y cap | El reparto secuencial queda infracontado cuando N crece. | Control no justificado para N arbitrario. | Duración previa 1+2L+2(N−1); T y H_cap=5L+K+2N+4. | Controles realizables sin comunicación gratuita. |
-| §§7,9,10, recibo | La construcción asume diagnóstico normativo posterior gratuito. | Riesgo de falta de fidelidad a la separación agente/evaluador. | Recibo técnico sin χ; apuesta persistente X, o moneda X/Y persistente para WC. | Conserva η,s,r y evita necesitar el veredicto. |
-| §9, frontera conjunta | Se omite h≤1 en el criterio para η≥h. | Sobreafirmación fuera del rango de probabilidades. | Declarar 0≤h≤1. | Corrige el dominio del enunciado. |
-| Instrucciones de continuación y next_delivery | Aún señalan tareas anteriores como próxima entrega aunque ya hay teorema. | Discontinuidad operativa. | Añadir estado vigente: núcleo v0.2 y protocolo separado. | No se borran IDs, criterios ni antecedentes. |
+| §6, certificate | λ=(1−a)/a is used as multiplier of r in s−λr; it must be 1/λ. | Formal error in the connection to the certificate. | μ=a/(1−a), A(μ)≤0 and p−μδ>0. | Does not change bound r≥λs. |
+| §7, preparation | One unit charged per recipient although the table charges send and receive. | Accounting inconsistency. | C_pre=2+4L+2(N−1); C_0=7L+2N. | Shifts absolute budget thresholds. |
+| §7, time and cap | Sequential distribution undercounted as N grows. | Control unjustified for arbitrary N. | Prior duration 1+2L+2(N−1); T and H_cap=5L+K+2N+4. | Realizable controls without free communication. |
+| §§7,9,10, receipt | Construction assumes free subsequent normative diagnosis. | Risk of lack of fidelity to agent/evaluator separation. | Technical receipt without χ; persistent X bet, or persistent X/Y coin for WC. | Preserves η,s,r and avoids needing the verdict. |
+| §9, joint frontier | h≤1 omitted in criterion for η≥h. | Overclaim outside the probability range. | Declare 0≤h≤1. | Corrects statement domain. |
+| Continuation instructions and next_delivery | Still indicate previous tasks as the next deliverable although a theorem already exists. | Operational discontinuity. | Add current status: core v0.2 and separate protocol. | IDs, criteria and background are not deleted. |
 
-## 4. Reconstrucción de las pruebas
+<a id="4-reconstrucción-de-las-pruebas"></a>
 
-### 4.1 Información y adaptación
+## 4. Reconstruction of the proofs
 
-Fijados n<K datos, cada paridad tiene 2^(K−n−1) completamientos de ese prefijo entre 2^(K−1) vectores. La probabilidad del prefijo es 2^(−n) bajo ambas. Bayes conserva P(χ=0|historia)=a.
+<a id="41-información-y-adaptación"></a>
 
-La inducción se hace sobre la historia colectiva: selección adaptativa, semilla independiente, consulta agrupada, mensajes y metadatos. Antes de la última lectura, cada siguiente dato es uniforme bajo ambas paridades; las demás respuestas son funciones de información ya adquirida. El pooling concede toda la evidencia al defensor para la cota. Si hay otro canal informativo real, debe incluirse y repetir el cálculo: no se ignora para salvar I3.
+### 4.1 Information and adaptation
 
-### 4.2 Coste, ramas y primer efecto
+With n<K data items fixed, each parity has 2^(K−n−1) completions of that prefix among 2^(K−1) vectors. Prefix probability is 2^(−n) under both. Bayes preserves P(χ=0|historia)=a.
 
-Toda entrega completa paga C_0, aunque haya otras operaciones, descartes o fallos. Resolver χ antes del primer efecto alto requiere K adquisiciones distintas, incluidas las del productor de un certificado. Una entrega completa informada cuesta al menos C_0+K. En C_0≤b<C_0+K, la primera elección alta de una entrega barata está sin resolver.
+Induction is over collective history: adaptive selection, independent seed, grouped query, messages and metadata. Before the final read, each next datum is uniform under both parities; other responses are functions of already acquired information. Pooling grants all evidence to the defender for the bound. If another real information channel exists, it must be included and the calculation repeated: it is not ignored to save I3.
 
-Sea u la probabilidad de ejecutar un primer efecto alto sin resolverlo. Todo éxito barato está contenido en el acierto en ese efecto, de modo que s≤au. Errarlo implica una infracción irreversible y r≥(1−a)u. Por tanto r≥((1−a)/a)s. También η≤u y r≥(1−a)η. La prueba suma sobre historias; no presume una política fija ni identifica fracaso con infracción.
+<a id="42-coste-ramas-y-primer-efecto"></a>
 
-Para e_b, solo se cuentan éxitos con ledger≤b. Esos éxitos siguen contenidos en el acierto de un efecto no resuelto; todas las infracciones siguen contando. Se conserva r≥((1−a)/a)e_b incluso si otras ramas cuestan más. La selección por coste futuro no concede conocimiento al decidir.
+### 4.2 Cost, branches and first effect
 
-### 4.3 Controles ejecutables sin veredicto
+Every complete delivery pays C_0, even with other operations, discards or failures. Resolving χ before the first high effect requires K distinct acquisitions, including those of a certificate producer. An informed complete delivery costs at least C_0+K. In C_0≤b<C_0+K, the first high choice of a cheap delivery is unresolved.
 
-Control CR: ejecutar M, con todos los gates, c=C_0 y s=r=0.
+Let u be the probability of executing an unresolved first high effect. Every cheap success is contained in success at that effect, so s≤au. Failing there implies an irreversible violation and r≥(1−a)u. Therefore r≥((1−a)/a)s. Also η≤u and r≥(1−a)η. The proof sums over histories; it presumes neither a fixed policy nor identity between failure and violation.
 
-Control CE: una moneda decide intentar con β=p/a. Si intenta, escoge X en todas las capas, con revisión propia completa dentro del scope declarado, y sin pedir diagnóstico normativo. Si χ=0, toda la ruta es legítima y óptima; si χ=1, hay infracción y no éxito legítimo. Así η=β, s=aβ=p, r=(1−a)β. Ningún control ejecuta una prohibición que haya conocido: esta política no adquiere los datos normativos.
+For e_b, only successes with ledger≤b are counted. Those successes remain contained in success at an unresolved effect; all violations remain counted. r≥((1−a)/a)e_b is retained even if other branches cost more. Selection by future cost grants no knowledge when deciding.
 
-Control RE: un agente adquiere K datos, obtiene χ y ejecuta la ruta correcta, reutilizando la paridad. c=C_0+K≤B, s=1, r=0. Incumple b, no el cap físico B. Otros agentes pueden permanecer inactivos; su reparto inicial ya se pagó.
+<a id="43-controles-ejecutables-sin-veredicto"></a>
 
-Para δ<p(1−a)/a los tres pares existen y ninguna política logra los tres. Al elevar b a C_0+K, el mismo control informado prueba viabilidad. Es la hipótesis de inaccesibilidad informativa barata la que deja de cumplirse; no hay contradicción.
+### 4.3 Executable controls without verdict
 
-### 4.4 WC y frontera
+CR control: execute M, with all gates, c=C_0 and s=r=0.
 
-La distribución auxiliar uniforme convierte cualquier garantía por mundo en una garantía promedio. La cota con a=1/2 da s_WC≤1/2 y r_WC≥s_WC. Una moneda justa que elige X o Y una sola vez y mantiene su apuesta alcanza s=r=β/2 en cada mundo, sin veredicto. La familia sesgada AVG de .95 no se presenta como garantía WC de .95.
+CE control: a coin decides to attempt with β=p/a. If attempting, choose X at all layers, with complete self-review within the declared scope and without requesting normative diagnosis. If χ=0, the entire route is legitimate and optimal; if χ=1, there is a violation and no legitimate success. Thus η=β, s=aβ=p, r=(1−a)β. No control executes a prohibition it has learned: this policy does not acquire normative data.
 
-Los controles anteriores alcanzan las cotas para todos los niveles p dentro de su rango. Ello demuestra la frontera declarada en la familia; no convierte el certificado abstracto en una fórmula cerrada para todas las geometrías, priors y APIs de R01.
+RE control: one agent acquires K data items, obtains χ and executes the correct route, reusing parity. c=C_0+K≤B, s=1, r=0. It fails b, not physical cap B. Other agents may remain inactive; their initial distribution has already been paid.
 
-## 5. Cuantificadores y límite de la generalización
+For δ<p(1−a)/a the three pairs exist and no policy achieves all three. Raising b to C_0+K makes the same informed control prove feasibility. It is the cheap information-inaccessibility hypothesis that ceases to hold; there is no contradiction.
 
-Para todo manifiesto θ de R01 y todas sus políticas, el certificado de §5 es válido. Para cualquier θ que satisface I1–I3, la desigualdad cubre todas sus políticas baratas. La existencia adicional de los tres controles establece el trilema, y la familia demuestra no vaciedad para tamaños arbitrarios.
+<a id="44-wc-y-frontera"></a>
 
-No se afirma que cada θ individual tenga una región de trilema no vacua. Los casos plenamente informados son viables y los que ya hacen imposible CE no prueban un trilema de tres pares. Esta distinción es parte de la generalización condicionada, no una retirada del resultado a un caso aislado.
+### 4.4 WC and frontier
 
-## 6. Conservación y trabajo posterior
+The auxiliary uniform distribution converts any per-world guarantee into an average guarantee. The bound with a=1/2 gives s_WC≤1/2 and r_WC≥s_WC. A fair coin choosing X or Y once and maintaining its bet attains s=r=β/2 in each world, without verdict. The biased AVG family of .95 is not presented as a WC guarantee of .95.
 
-El escenario canónico, fixtures, scripts, resultados, exports y figuras permanecen intactos. Se conservan las secciones anteriores de ambos README y del prompt; el estado nuevo se añade al final. Las métricas centrales y fórmulas de frontera se conservan, con C_0 corregido.
+The above controls attain the bounds for all levels p within their range. This proves the declared frontier in the family; it does not turn the abstract certificate into a closed formula for every R01 geometry, prior and API.
 
-No se cierra M16 ni M17 mediante esta propia revisión. Por la instrucción final del usuario se cierra primero esta entrega del núcleo. El protocolo de extensión matemática es la siguiente fase, separada y todavía pendiente, anterior a aplicar tecnologías. Oráculo/harness neutral, adaptadores y campaña son etapas posteriores; ninguna está declarada ejecutada.
+<a id="5-cuantificadores-y-límite-de-la-generalización"></a>
+
+## 5. Quantifiers and generalization limit
+
+For every R01 manifest θ and all its policies, the §5 certificate is valid. For any θ satisfying I1–I3, the inequality covers all its cheap policies. Additional existence of the three controls establishes the trilemma, and the family proves nonemptiness for arbitrary sizes.
+
+It is not claimed that each individual θ has a nonvacuous trilemma region. Fully informed cases are viable and those already making CE impossible do not prove a three-pair trilemma. This distinction is part of conditioned generalization, not a retreat of the result to an isolated case.
+
+<a id="6-conservación-y-trabajo-posterior"></a>
+
+## 6. Preservation and subsequent work
+
+The canonical scenario, fixtures, scripts, results, exports and figures remain intact. Previous sections of both READMEs and the prompt are retained; new status is appended. Central metrics and frontier formulas are preserved, with C_0 corrected.
+
+M16 and M17 are not closed through this self-review. By the user's final instruction, this core deliverable is closed first. The mathematical extension protocol is the next phase, separate and still pending, preceding technology application. Neutral oracle/harness, adapters and campaign are subsequent stages; none is declared executed.
 
 <!-- R01_BOT_WORKPLAN_START version="0.4" role="queue-pointer" -->
-La cola vigente está en [WORKPLAN.md](./WORKPLAN.md). Este documento aporta evidencia o criterios de su alcance; no mantiene una segunda cola. Escalación humana y whispering es la primera tecnología del protocolo; las revisiones repetidas se incorporan a cada ficha. La revisión independiente, fidelidad e integridad conservan sus obligaciones abiertas. El bloque anterior está preservado en QUEUE_SNAPSHOT_2026-10-04.json.
+The current queue is in [WORKPLAN.md](./WORKPLAN.md). This document contributes evidence or criteria within its scope; it does not maintain a second queue. Human escalation and whispering is the first technology in the protocol; repeated reviews are incorporated into each fiche. Independent review, fidelity and integrity retain their open obligations. The previous block is preserved in QUEUE_SNAPSHOT_2026-10-04.json.
 <!-- R01_BOT_WORKPLAN_END -->

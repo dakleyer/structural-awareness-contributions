@@ -627,7 +627,7 @@
           "kind": "replace",
           "before_index": 1194,
           "after_index": 1223,
-          "before": " de alcance y M02 para",
+          "before": " for scope and M02 for",
           "after": ","
         },
         {
@@ -642,14 +642,14 @@
           "before_index": 1231,
           "after_index": 1243,
           "before": "",
-          "after": "itoría; M06/M11/P10 "
+          "after": "it; M06/M11/P10 "
         },
         {
           "kind": "insert",
           "before_index": 1232,
           "after_index": 1264,
           "before": "",
-          "after": "stán"
+          "after": "are"
         },
         {
           "kind": "replace",
@@ -705,42 +705,42 @@
           "before_index": 11764,
           "after_index": 11779,
           "before": "",
-          "after": "**IN_PROGRESS — entrada de fuentes**, [registro](./M06_PRIMARY_SOURCE_INTAKE.md). "
+          "after": "**IN_PROGRESS — source intake**, [record](./M06_PRIMARY_SOURCE_INTAKE.md). "
         },
         {
           "kind": "insert",
           "before_index": 12258,
           "after_index": 12355,
           "before": "",
-          "after": "**DONE — reconciliación de contrato**, [resultado](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). "
+          "after": "**DONE — contract reconciliation**, [result](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). "
         },
         {
           "kind": "insert",
           "before_index": 12418,
           "after_index": 12612,
           "before": "",
-          "after": ". **IN_PROGRESS — controles de costes y priors**, [registro](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md)"
+          "after": ". **IN_PROGRESS — cost and prior controls**, [record](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md)"
         },
         {
           "kind": "insert",
           "before_index": 14999,
           "after_index": 15298,
           "before": "",
-          "after": "**DONE — auditoría de medidas**, [resultado](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). "
+          "after": "**DONE — measure audit**, [result](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md). "
         },
         {
           "kind": "insert",
           "before_index": 15908,
           "after_index": 16298,
           "before": "",
-          "after": ". **IN_PROGRESS — decisión inicial de continuar/acotar**, [registro](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md)"
+          "after": ". **IN_PROGRESS — initial continue/narrow decision**, [record](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md)"
         },
         {
           "kind": "insert",
           "before_index": 22384,
           "after_index": 22887,
           "before": "",
-          "after": "\n\n### Actualización de ejecución — M10/P03 y revisión inicial\n\nM10 y P03 están DONE para reconciliar el contrato y auditar las medidas. [Resultado, límites y prompt para otro agente](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [Contrato](./M10_RECONCILED_CONTRACT.json) · [Comprobador](./verify_m10_measurements.py) · [35 nuevas comprobaciones](./M10_MEASUREMENT_CHECKS.json) · [Fuentes primarias M06](./M06_PRIMARY_SOURCE_INTAKE.md) · [Evidencia de aceptación/conservación](./M10_RELEASE_CHECKS.json). Se reproducen también las 76 comprobaciones históricas de M02 sin cambios. La revisión es propia, no independiente.\n\nM02 depende de un solo dato global y de precios/revisión fijados. Producir y comprobar el certificado queda incluido explícitamente en su unidad de coste. Con revisión local positiva de 2/3 por paso, consultar y entregar el óptimo cuesta 11; cambiar el prior a 9/10,1/10 permite al control ciego cumplir AVG, pero no WC. Se conservan estos controles en configuraciones distintas. La formulación no justifica un coste de información creciente con L ni una frontera para todas las arquitecturas.\n\nM06/M11/P10 quedan IN_PROGRESS para completar fuentes, ataques al argumento/fronteras y la decisión de valor/inversión. El siguiente trabajo matemático es M03 con el contrato reconciliado; después M04 revisa región, fronteras y controles. C02/C11, oráculo independiente, campañas, tecnologías y selector mantienen sus propios pendientes. Estado global: 4 DONE, 3 IN_PROGRESS, 42 OPEN. Ningún resultado empírico, ventaja de EA ni teorema universal está cerrado por esta actualización.\n\n"
+          "after": "\n\n### Execution update — M10/P03 and initial review\n\nM10 and P03 are DONE for reconciling the contract and auditing measures. [Result, limits and prompt for another agent](./M10_P03_CONTRACT_AND_MEASUREMENT_AUDIT.md) · [Contract](./M10_RECONCILED_CONTRACT.json) · [Checker](./verify_m10_measurements.py) · [35 new checks](./M10_MEASUREMENT_CHECKS.json) · [M06 primary sources](./M06_PRIMARY_SOURCE_INTAKE.md) · [Acceptance/preservation evidence](./M10_RELEASE_CHECKS.json). The 76 historical M02 checks also reproduce unchanged. Review is self-performed, not independent.\n\nM02 depends on a single global datum and fixed prices/review. Producing and checking the certificate is explicitly included in its cost unit. With positive local review of 2/3 per step, querying and delivering the optimum costs 11; changing the prior to 9/10,1/10 permits the blind control to satisfy AVG, but not WC. These controls are preserved in different configurations. The formulation justifies neither information cost growing with L nor a frontier for all architectures.\n\nM06/M11/P10 remain IN_PROGRESS to complete sources, attacks on argument/frontiers and the value/investment decision. Next mathematical work is M03 with the reconciled contract; afterward M04 reviews region, frontiers and controls. C02/C11, independent oracle, campaigns, technologies and selector retain their own pending obligations. Global status: 4 DONE, 3 IN_PROGRESS, 42 OPEN. No empirical result, EA advantage or universal theorem is closed by this update.\n\n"
         }
       ]
     },

@@ -1,294 +1,336 @@
-# R01 — Pruebas del trilema y efecto de las tecnologías
+<a id="r01--pruebas-del-trilema-y-efecto-de-las-tecnologías"></a>
 
-M03/M04, extensión matemática v1.0 · Derivación y revisión propia; revisión independiente pendiente
+# R01 — Trilemma proofs and effect of technologies
 
-[README de R01](../../README.md#bot-start-here) · [Plan matemático](../../MATHEMATICAL_FEASIBILITY.md) · [Contrato suplementario](../partial-experiments/historical/TRILEMMA_CONTRACT.json) · [Comprobador](../partial-experiments/historical/verify_trilemma.py) · [Resultados finitos](../partial-experiments/historical/TRILEMMA_CHECKS.json) · [Registro de conservación](../partial-experiments/historical/TRILEMMA_RELEASE_CHECKS.json) · [Propuesta recibida, sin cambios](./TRILEMMA_RECEIVED_SKETCH.md)
+M03/M04, mathematical extension v1.0 · Derivation and self-review; independent review pending
 
-Entrada del repositorio: `2dc438df524663ebf79e6552cd688d34c2619d8b`. Autor/revisor: Codex, por instrucción del usuario. Las demostraciones siguientes son simbólicas y cubren todas las políticas de las clases declaradas. Las comprobaciones pequeñas buscan errores en ellas; no las sustituyen. No se afirma revisión independiente, novedad, ventaja de EA ni clasificación de una tecnología comercial.
+[R01 README](../../README.md#bot-start-here) · [Mathematical plan](../../MATHEMATICAL_FEASIBILITY.md) · [Supplemental contract](../partial-experiments/historical/TRILEMMA_CONTRACT.json) · [Checker](../partial-experiments/historical/verify_trilemma.py) · [Finite results](../partial-experiments/historical/TRILEMMA_CHECKS.json) · [Preservation record](../partial-experiments/historical/TRILEMMA_RELEASE_CHECKS.json) · [Received proposal, unchanged](./TRILEMMA_RECEIVED_SKETCH.md)
 
-**Estado actualizado, 4 de octubre de 2026:** este documento conserva las derivaciones v1.0 y sus comprobaciones; **M03/M04 están IN_PROGRESS para el objetivo ampliado**, con revisión simbólica independiente y puente a R01 pendientes. Los estados DONE mencionados abajo son el registro de la entrega original, no su aceptación final. Consulta el [plan vigente y prompt combinado](../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening); próxima tarea M12 con ataques M06/M11. Esta actualización de estado no añade una demostración ni altera fórmulas, fixtures o resultados.
+Repository input: `2dc438df524663ebf79e6552cd688d34c2619d8b`. Author/reviewer: Codex, by user instruction. The following proofs are symbolic and cover all policies of the declared classes. Small checks seek errors in them; they do not replace them. Neither independent review, novelty, EA advantage nor classification of a commercial technology is claimed.
 
-## 1. Qué se prueba y qué permanece abierto
+**Updated status, 4 October 2026:** this document retains v1.0 derivations and their checks; **M03/M04 are IN_PROGRESS for the expanded objective**, with independent symbolic review and bridge to R01 pending. DONE statuses mentioned below are the original deliverable record, not its final acceptance. Consult the [current plan and combined prompt](../../STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md#mathematical-strengthening); next task M12 with M06/M11 attacks. This status update adds no proof and alters no formulas, fixtures or results.
 
-La tesis es existencial sobre familias de problemas, universal sobre políticas: **hay configuraciones físicamente realizables en las que toda política admitida incumple al menos uno de coste bajo, riesgo bajo y eficacia técnica alta**. También hay configuraciones y tecnologías que permiten los tres. No se presupone que toda configuración sea difícil.
+<a id="1-qué-se-prueba-y-qué-permanece-abierto"></a>
 
-Se dan dos pruebas con fronteras exactas. La familia F tiene un binding independiente por segmento y exige un coste adicional lineal. La familia W tiene una condición conjuntiva global y permite separar segmentos materiales de relaciones normativas: con relaciones densas, el coste de información necesario es cuadrático frente a una ejecución lineal. Además se prueba una cota de coste esperado para W; la dificultad no depende solamente de exigir un presupuesto máximo por ejecución.
+## 1. What is proved and what remains open
 
-Las tecnologías se estudian por su interfaz y coste total. Una consulta más barata preserva la cota de acceso a datos. Un certificado suficiente cambia esa interfaz. Un ejecutor que garantiza admisibilidad cambia el mecanismo de efectos y puede eliminar el riesgo sin revelar los datos al agente. Estos cambios requieren pruebas distintas.
+The thesis is existential over problem families, universal over policies: **there are physically realizable configurations in which every admitted policy fails at least one of low cost, low risk and high technical efficacy**. There are also configurations and technologies permitting all three. Not every configuration is presumed difficult.
 
-M03/M04 quedan DONE **para estos perfiles suplementarios y sus fronteras**, no para todo R01. M05/C05, M06/M07–M09, transferencia E1–E7, campaña y precios reales siguen pendientes. M11 continúa con la revisión de otros generadores y transferencias. M01 y M10 se amplían mediante este contrato versionado; sus resultados históricos conservan su alcance. La fuente base y los fixtures anteriores no se modifican.
+Two proofs with exact frontiers are given. Family F has one independent binding per segment and requires linear additional cost. Family W has a global conjunctive condition and permits separating material segments from normative relations: with dense relations, necessary information cost is quadratic versus linear execution. An expected-cost bound for W is also proved; difficulty does not depend solely on requiring a maximum budget per execution.
 
-## 2. Contrato común: objetivos, costes y políticas
+Technologies are studied by interface and total cost. A cheaper query preserves the data-access bound. A sufficient certificate changes that interface. An executor guaranteeing admissibility changes the effect mechanism and may eliminate risk without revealing data to the agent. These changes require different proofs.
 
-Cada instancia es finita; la familia contiene tamaños arbitrariamente grandes. Hay L segmentos consecutivos con todas las conexiones entre opciones de segmentos adyacentes. Cada segmento ofrece M, siempre admisible y de beneficio técnico 1, y dos opciones altas de beneficio técnico 2. En cada mundo exactamente una opción alta es admisible. El óptimo admisible es 2L. Una ruta completa tiene beneficio técnico J, incluso si su composición resulta inadmisible; ese J técnico **no** se acredita como q legítima en R01.
+M03/M04 become DONE **for these supplemental profiles and their frontiers**, not for all R01. M05/C05, M06/M07–M09, E1–E7 transfer, campaign and real prices remain pending. M11 continues review of other generators and transfers. M01 and M10 are expanded through this versioned contract; their historical results retain their scope. Base source and previous fixtures are not modified.
 
-Fijar antes de observar el mundo: tolerancia 0≤ε<L, exigencia de eficacia 0<h≤1, riesgo máximo 0≤r≤1, presupuesto R y plazo T. Sea d=L−⌊ε⌋: una ruta suficiente necesita al menos d opciones altas. W usa ε=0, por tanto d=L.
+<a id="2-contrato-común-objetivos-costes-y-políticas"></a>
 
-Para cada ejecución:
+## 2. Common contract: objectives, costs and policies
 
-- Ttec: ruta completa de J≥2L−ε, dentro del presupuesto/plazo del perfil;
-- V: ocurrió alguna ejecución material inadmisible en la campaña; es irreversible;
-- S=Ttec∩¬V: éxito conjunto legítimo;
-- η=P(Ttec), ρ=P(V), σ=P(S). Siempre σ≥η−ρ y η≤σ+ρ.
+Each instance is finite; the family contains arbitrarily large sizes. There are L consecutive segments with all connections between options of adjacent segments. Each segment offers M, always admissible with technical benefit 1, and two high options with technical benefit 2. In every world exactly one high option is admissible. The admissible optimum is 2L. A complete route has technical benefit J even if its composition is inadmissible; that technical J is **not** credited as legitimate q in R01.
 
-η es una **medida suplementaria de eficacia técnica**. No reemplaza e/a/q/f ni hace que una infracción sea legítima. Cuando se usa el objetivo original de R01, se exige σ≥p y se conserva el riesgo separado si corresponde. Esta distinción importa: un trilema con η y uno con éxito ya definido como libre de infracciones tienen fronteras diferentes (§3.3).
+Fix before observing the world: tolerance 0≤ε<L, efficacy requirement 0<h≤1, maximum risk 0≤r≤1, budget R and deadline T. Let d=L−⌊ε⌋: a sufficient route needs at least d high options. W uses ε=0, hence d=L.
 
-En AVG las probabilidades incluyen el mundo con el prior declarado y la aleatoriedad de la política. En WC se pide ηω≥h y ρω≤r para **cada** mundo ω, con probabilidad solo sobre la aleatoriedad interna. Una política es común a todos los mundos y usa únicamente su historia observable. No puede escogerse después de conocer la etiqueta oculta.
+For each execution:
 
-Toda ruta completa paga C0=b+gL, b≥0 y g>0: preparación y trabajo material, incluyendo revisión propia de geometría, decisión, conexiones y ejecución. Ninguna de esas revisiones revela el binding oculto antes del efecto. Hay consultas registradas que leen hechos concretos a precio total exacto c>0 por hecho, con disponibilidad asegurada. El precio incluye producción, acceso, recepción y comprobación de aplicabilidad; no se deja trabajo informativo gratuito detrás de la consulta. Repetir trabajo se cobra, reutilizar el mismo hecho ya conocido es permitido. Costes y tiempos anteriores al efecto no filtran datos ocultos.
+- Ttec: complete route of J≥2L−ε, within the profile's budget/deadline;
+- V: some inadmissible material execution occurred in the campaign; it is irreversible;
+- S=Ttec∩¬V: joint legitimate success;
+- η=P(Ttec), ρ=P(V), σ=P(S). Always σ≥η−ρ and η≤σ+ρ.
 
-La memoria, el cómputo local y el intercambio perfecto pueden concederse gratuitamente como envolvente favorable al agente. C es trabajo agregado de todos los agentes, no tiempo del agente más rápido. Cualquier equipo finito se representa mediante una política central con toda su historia: darle coordinación perfecta solo facilita el problema. Por ello las cotas inferiores cubren tales equipos si mantienen la interfaz de acceso; no establecen una cota de latencia, red o distancia. Preparación informativa real y comunicación real se cobran al transferir a una implementación.
+η is a **supplementary measure of technical efficacy**. It replaces neither e/a/q/f nor makes a violation legitimate. When the original R01 objective is used, σ≥p is required and separate risk retained if applicable. This distinction matters: a trilemma with η and one with success already defined as violation-free have different frontiers (§3.3).
 
-El receptor rechaza una prohibición **ya conocida**. No hay barrera que compruebe gratuitamente el binding desconocido antes del efecto. Una opción desconocida puede ejecutarse y producir una infracción; el recibo posterior revela si fue admisible. Tras una infracción se permiten acciones posteriores actualmente admisibles; V permanece. Un protocolo que impusiera aborto global obligatorio tendría otra frontera de η. Nunca se sobrepasa conscientemente el presupuesto para producir Ttec. El plazo y el máximo de eventos se fijan finitos en cada instancia y suficientemente grandes para los controles descritos (por ejemplo, O(L+n)); no se extrapola el límite 32 de M02 a tamaños ilimitados.
+In AVG probabilities include the world with the declared prior and policy randomness. In WC ηω≥h and ρω≤r are required for **each** world ω, with probability only over internal randomness. A policy is common to all worlds and uses only its observable history. It cannot be chosen after learning the hidden label.
 
-Para R≥C0, k=⌊(R−C0)/c⌋ limita las consultas en cualquier ruta Ttec. Si R<C0, η=0. Una rama que consume más de k consultas no puede producir Ttec; en argumentos de mínima infracción puede sustituirse por una parada segura. Información previa no prevista, predicados globales, certificados y barreras son otros perfiles, estudiados explícitamente en §6.
+Every complete route pays C0=b+gL, b≥0 and g>0: preparation and material work, including self-review of geometry, decision, connections and execution. None of those reviews reveals the hidden binding before the effect. Registered queries read particular facts at exact total price c>0 per fact, with assured availability. Price includes production, access, receipt and applicability checking; no free information work is left behind the query. Repeated work is charged; reuse of the same known fact is permitted. Pre-effect costs and times do not leak hidden data.
 
-## 3. Familia F: bindings locales independientes
+Memory, local computation and perfect exchange may be granted for free as a favorable envelope for the agent. C is aggregate work of all agents, not time of the fastest agent. Any finite team is represented by a central policy with its whole history: granting perfect coordination only facilitates the problem. Thus lower bounds cover such teams if they retain the access interface; they establish no latency, network or distance bound. Actual information preparation and communication are charged when transferring to an implementation.
 
-### 3.1 Definición y cota para toda política
+The receiver rejects an **already known** prohibition. There is no barrier checking the unknown binding for free before the effect. An unknown option may execute and produce a violation; the subsequent receipt reveals whether it was admissible. After a violation, subsequent currently admissible actions are permitted; V persists. A protocol imposing mandatory global abortion would have another η frontier. Budget is never knowingly exceeded to produce Ttec. Deadline and event maximum are fixed finite in each instance and sufficiently large for the described controls (for example O(L+n)); M02's limit 32 is not extrapolated to unlimited sizes.
 
-El mundo χ=(χ1,…,χL) es uniforme en {0,1}^L. En el segmento i, X es admisible si χi=0 y Y si χi=1. Una consulta lee un χi. Un recibo de ejecución revela solamente ese binding. No se admite un oráculo arbitrario sobre χ en este perfil. Computación, elección de qué consultar y cuándo, caché y aleatoriedad pueden ser arbitrarias.
+For R≥C0, k=⌊(R−C0)/c⌋ limits queries on any Ttec route. If R<C0, η=0. A branch consuming more than k queries cannot produce Ttec; in minimum-violation arguments it can be replaced by safe stopping. Unprovided prior information, global predicates, certificates and barriers are other profiles, explicitly studied in §6.
 
-**Teorema F.** Sean m=max(0,d−k) y q=2^(−m). Toda política satisface
+<a id="3-familia-f-bindings-locales-independientes"></a>
+
+## 3. Family F: independent local bindings
+
+<a id="31-definición-y-cota-para-toda-política"></a>
+
+### 3.1 Definition and bound for every policy
+
+World χ=(χ1,…,χL) is uniform in {0,1}^L. At segment i, X is admissible if χi=0 and Y if χi=1. A query reads one χi. An execution receipt reveals only that binding. An arbitrary oracle over χ is not admitted in this profile. Computation, choice of what to query and when, cache and randomness may be arbitrary.
+
+**Theorem F.** Let m=max(0,d−k) and q=2^(−m). Every policy satisfies
 
 \[
 \sigma\le q,\qquad \rho\ge(2^m-1)\sigma,
 \qquad \rho\ge(1-q)\eta. \tag{F1}
 \]
 
-**Prueba.** Antes de la primera infracción, el primer efecto alto en un binding que no se ha consultado ni observado es una apuesta acertada con probabilidad exactamente 1/2. La independencia mantiene esto válido condicionado a toda historia anterior y a las decisiones adaptativas. Elegir el índice según esa historia no cambia el bit aún no visto. Una consulta de otro índice no lo revela. Los recibos sí aportan información, pero en una historia sin infracciones su resultado para la opción elegida es necesariamente «admisible».
+**Proof.** Before the first violation, the first high effect on a binding not queried or observed is a bet succeeding with probability exactly 1/2. Independence keeps this valid conditional on the whole previous history and adaptive decisions. Choosing the index by that history does not change the unseen bit. A query of another index does not reveal it. Receipts do provide information, but in a violation-free history their result for the chosen option is necessarily “admissible”.
 
-Numerar las primeras apuestas en bindings distintos. Sea aj la probabilidad de entrar en la apuesta j antes de una infracción. Entonces a1≤1 y a(j+1)≤aj/2; detenerse o consultar puede reducir esa probabilidad. Un S necesita d bindings altos acertados y como máximo k consultas, por lo que necesita al menos m apuestas acertadas. Para m≥1, σ≤am/2≤2^(−m). Los eventos «primera infracción en la apuesta j» son disjuntos y tienen probabilidad aj/2. Además aj≥2^(m−j)am para j≤m. Así
+Number the first bets on distinct bindings. Let aj be the probability of entering bet j before a violation. Then a1≤1 and a(j+1)≤aj/2; stopping or querying may reduce that probability. An S needs d successful high bindings and at most k queries, so needs at least m successful bets. For m≥1, σ≤am/2≤2^(−m). Events “first violation at bet j” are disjoint and have probability aj/2. Moreover aj≥2^(m−j)am for j≤m. Thus
 
 \[
 \rho\ge\sum_{j=1}^m a_j/2
 \ge(2^m-1)a_m/2\ge(2^m-1)\sigma.
 \]
 
-Con η≤σ+ρ, se obtiene σ≤ρ/(2^m−1) y por tanto ρ≥(1−2^(−m))η. Para m=0 las tres desigualdades son triviales. La prueba admite políticas aleatorias directamente; también puede fijarse una semilla independiente del mundo y promediar. Las ramas que fracasan, se detienen o ejecutan trabajo adicional no aportan S y no borran V. ∎
+With η≤σ+ρ, σ≤ρ/(2^m−1) follows, hence ρ≥(1−2^(−m))η. For m=0 the three inequalities are trivial. The proof directly admits randomized policies; an independent-of-world seed may also be fixed and averaged. Branches that fail, stop or execute additional work contribute no S and do not erase V. ∎
 
-### 3.2 Frontera exacta, controles y cuantificadores
+<a id="32-frontera-exacta-controles-y-cuantificadores"></a>
 
-**Construcción que alcanza la cota.** Con probabilidad β, elegir d segmentos altos, consultar min(k,d) de sus bindings y adivinar los demás con monedas independientes y equiprobables; completar los otros segmentos con M. Con probabilidad 1−β, ejecutar solo M. Todos los recibos y revisiones se conservan. Una infracción local anterior no identifica el siguiente binding independiente; no se ejecuta una opción futura conocida como prohibida. El resultado es
+### 3.2 Exact frontier, controls and quantifiers
+
+**Construction attaining the bound.** With probability β choose d high segments, query min(k,d) of their bindings and guess the rest with independent equiprobable coins; complete other segments with M. With probability 1−β execute only M. All receipts and reviews are preserved. A previous local violation does not identify the next independent binding; no future option known to be forbidden is executed. The result is
 
 \[
 \eta=\beta,\quad \sigma=\beta q,\quad
 \rho=\beta(1-q),\quad C\le C_0+c\min(k,d).
 \]
 
-Las monedas hacen que estos valores sean iguales en **cada** mundo, no solo en AVG. La cota AVG es necesaria para WC; este control alcanza WC. Por tanto, para AVG y para WC con políticas aleatorias,
+Coins make these values identical in **each** world, not only AVG. The AVG bound is necessary for WC; this control attains WC. Therefore, for AVG and WC with randomized policies,
 
 \[
 \boxed{\exists\pi:\ C\le R,\ \eta\ge h,\ \rho\le r
-\iff R\ge C_0\ \text{y}\ r\ge h(1-2^{-\max(0,d-k)}).} \tag{F2}
+\iff R\ge C_0\ \text{and}\ r\ge h(1-2^{-\max(0,d-k)}).} \tag{F2}
 \]
 
-Para 0≤r<h, sea jallow el mayor entero j≥0 con h(1−2^(−j))≤r; equivale a ⌊log2(h/(h−r))⌋. La comparación con potencias racionales evita errores numéricos en igualdad. Entonces
+For 0≤r<h, let jallow be the greatest integer j≥0 with h(1−2^(−j))≤r; equivalent to ⌊log2(h/(h−r))⌋. Comparison with rational powers avoids numerical errors at equality. Then
 
 \[
 k_{\min}=\max(0,d-j_{allow}),\qquad
 C_{crit}=C_0+c k_{\min}. \tag{F3}
 \]
 
-La banda imposible es [C0,Ccrit), y la igualdad R=Ccrit es viable. Si r≥h, completar con probabilidad h sin información ya satisface el criterio; si d=0, M basta. No se ocultan estas bandas vacías.
+The impossible band is [C0,Ccrit), and equality R=Ccrit is viable. If r≥h, completion with probability h without information already satisfies the criterion; if d=0, M suffices. These empty bands are not hidden.
 
-Los tres pares de objetivos tienen controles: M consigue coste C0 y riesgo cero con η=0; la ruta alta ciega consigue C0 y η=1 con riesgo 1−2^(−d); consultar los d bindings consigue η=1 y riesgo cero con coste C0+cd. Para cualquier h>0 y r<h, existe d suficientemente grande con h(1−2^(−d))>r. En esos tamaños ninguna política logra los tres a C0, aunque cada par sí se logra. Esta es la forma cuantificada del trilema solicitado, no una lista de ejemplos.
+All three objective pairs have controls: M achieves cost C0 and zero risk with η=0; the blind high route achieves C0 and η=1 with risk 1−2^(−d); querying all d bindings achieves η=1 and zero risk with cost C0+cd. For any h>0 and r<h, sufficiently large d exists with h(1−2^(−d))>r. At those sizes no policy achieves all three at C0, although each pair is achieved. This is the quantified form of the requested trilemma, not an example list.
 
-Si ε=αL con 0≤α<1, d=⌈(1−α)L⌉. Con b,g,c fijos, Ccrit−C0=c(1−α)L+O(1). Para R=(1+λ)C0, el umbral relativo asintótico es λ*=c(1−α)/g: por debajo falla para L grande; por encima funciona para L grande. **En la igualdad hay que conservar los redondeos.** Con b=2,g=3,c=1,α=1/2,jallow=0,λ=1/6, L par es viable y L impar no: el margen L/2+1/3 debe alcanzar ⌈L/2⌉.
+If ε=αL with 0≤α<1, d=⌈(1−α)L⌉. With fixed b,g,c, Ccrit−C0=c(1−α)L+O(1). For R=(1+λ)C0, asymptotic relative threshold is λ*=c(1−α)/g: below it fails for large L; above it works for large L. **At equality rounding must be retained.** With b=2,g=3,c=1,α=1/2,jallow=0,λ=1/6, even L is viable and odd L is not: margin L/2+1/3 must reach ⌈L/2⌉.
 
-### 3.3 El objetivo legítimo original y el fixture M02
+<a id="33-el-objetivo-legítimo-original-y-el-fixture-m02"></a>
 
-Si se exige σ≥p en vez de η≥h, para p>0 la frontera exacta de F es
+### 3.3 Original legitimate objective and M02 fixture
+
+If σ≥p is required instead of η≥h, for p>0 the exact F frontier is
 
 \[
-\boxed{p\le q\quad\text{y}\quad
+\boxed{p\le q\quad\text{and}\quad
 \delta\ge p(q^{-1}-1).} \tag{F4}
 \]
 
-Necesidad por F1; suficiencia con β=p/q. Un presupuesto mayor puede ser necesario tanto por eficacia legítima como por riesgo. No es correcto afirmar que incluir legitimidad en eficacia convierte siempre el problema en un mero dilema: el riesgo adicional puede ser vinculante dependiendo de p y δ. Con δ≥1−p es redundante para cualquier política con σ≥p, por la disyunción de S y V; con umbrales menores puede importar.
+Necessity by F1; sufficiency with β=p/q. A larger budget may be necessary for both legitimate efficacy and risk. It is incorrect to assert that including legitimacy in efficacy always turns the problem into a mere dilemma: additional risk may be binding depending on p and δ. With δ≥1−p it is redundant for any policy with σ≥p, by disjointness of S and V; with smaller thresholds it may matter.
 
-M02 **no** es F3: sus tres segmentos comparten un único χ. A R=11 no cabe una consulta adicional; antes del primer efecto alto no hay información de χ. Si se intenta una ruta técnicamente suficiente, la primera opción alta es incorrecta con probabilidad 1/2. El mismo argumento de una sola apuesta da ρ≥η/2 y σ≤1/2. La estrategia correcta para η=1 es ejecutar X en el primer segmento y, a partir del recibo, usar la opción actualmente admisible en los dos restantes. Así η=1,ρ=σ=1/2,C=11. Ejecutar X tres veces pese a conocer la prohibición no es un control admitido. Con R=12, el certificado existente revela χ antes del efecto y resuelve el caso. Esta conexión no transforma el fixture anterior ni sus 76 controles históricos.
+M02 is **not** F3: its three segments share a single χ. At R=11 an additional query does not fit; before the first high effect there is no χ information. If a technically sufficient route is attempted, the first high option is incorrect with probability 1/2. The same single-bet argument gives ρ≥η/2 and σ≤1/2. The correct strategy for η=1 is executing X in the first segment and, from the receipt, using the currently admissible option in the remaining two. Thus η=1,ρ=σ=1/2,C=11. Executing X three times despite knowing the prohibition is not an admitted control. With R=12 the existing certificate reveals χ before the effect and resolves the case. This connection alters neither the earlier fixture nor its 76 historical controls.
 
-## 4. Familia W: conjunción con muchas relaciones y pocas acciones
+<a id="4-familia-w-conjunción-con-muchas-relaciones-y-pocas-acciones"></a>
 
-### 4.1 Mundos, medida y normalización
+## 4. Family W: conjunction with many relations and few actions
 
-Hay n≥1 hechos normativos z1,…,zn y f(z)=AND(z). El mundo G, todos unos, tiene probabilidad 1/2. Cada Bj, con un único cero en j, tiene probabilidad 1/(2n). El modo alto A es admisible si f=1; el modo alto B, un procedimiento alternativo, si f=0. M es siempre admisible. El mandato es el mismo en todos los mundos. Cada segmento ofrece A/B/M y todas las mezclas; una mezcla A/B no puede ser completamente admisible. ε=0 exige L opciones altas. El beneficio técnico sigue siendo 2 por opción alta.
+<a id="41-mundos-medida-y-normalización"></a>
 
-Una consulta lee un zi a precio c. No hay certificado global gratuito. La geometría local no prueba f; un efecto A/B revela f después de realizarse. Entonces se puede completar con el modo correcto, pero no reparar la primera infracción. Esta correlación entre hechos es deliberada: con bits independientes equiprobables, AND sería casi siempre falso y adivinar B resolvería AVG a bajo coste. La distribución equilibrada entre G y testigos inválidos es parte de la afirmación, no una propiedad de todo AND.
+### 4.1 Worlds, measure and normalization
 
-Los n hechos de W no son n bits estadísticamente independientes: el prior tiene solo n+1 mundos. Su dificultad es de **acceso mediante lecturas de coordenadas**, no una afirmación de entropía de n bits. Un oráculo que entregue el predicado f en una llamada puede eliminar las n lecturas; precisamente por eso se estudia como otra tecnología en §6. En F sí hay L bits independientes. Los parámetros independientes del experimento son tamaño, relaciones, precio/interfaz, prior y umbrales; η/ρ/C dependen de ellos y de la política.
+There are n≥1 normative facts z1,…,zn and f(z)=AND(z). World G, all ones, has probability 1/2. Each Bj, with a single zero at j, has probability 1/(2n). High mode A is admissible if f=1; high mode B, an alternative procedure, if f=0. M is always admissible. The mandate is identical in all worlds. Each segment offers A/B/M and all mixtures; an A/B mixture cannot be completely admissible. ε=0 requires L high options. Technical benefit remains 2 per high option.
 
-Sea K=min(n,k) y u=K/n. Para optimizar el riesgo a una eficacia dada, basta una política que consulta antes del primer A/B, elige A/B/parada segura y, si elige una alta, termina los L segmentos utilizando el f revelado. Consultas posteriores al primer efecto no evitan V y pueden eliminarse. Una rama con más de k consultas no puede tener Ttec y puede pararse de forma segura. M en una ruta de ε=0 impide Ttec; sustituir esa rama por parada segura no empeora η ni ρ. Tras un cero se conoce f=0 y B puede terminar sin riesgo. Se pueden añadir consultas hasta K en la rama de todos unos: información adicional solo permite evitar una decisión incorrecta. Esta reducción es una envolvente que facilita el problema; el control final se ejecuta dentro del contrato original.
+A query reads one zi at price c. There is no free global certificate. Local geometry does not prove f; an A/B effect reveals f after occurring. The correct mode may then complete execution, but the first violation cannot be repaired. This correlation between facts is deliberate: with equiprobable independent bits, AND would almost always be false and guessing B would resolve AVG at low cost. The balanced distribution between G and invalid witnesses is part of the claim, not a property of every AND.
 
-Fijada la semilla de una política, mientras las respuestas sean unos el orden de consultas es fijo y no depende de qué Bj se oculta. Entre los n mundos Bj, como máximo K detectan un cero. Esto incluye cualquier coordinación/caché por la historia centralizada. En AVG la masa detectada es D=u/2; la masa inválida no detectada es H=(1−u)/2; la masa G es 1/2. Los mundos no detectados y G tienen la misma historia.
+W's n facts are not n statistically independent bits: the prior has only n+1 worlds. Its difficulty concerns **access through coordinate reads**, not a claim of n-bit entropy. An oracle delivering predicate f in one call may eliminate all n reads; that is precisely why it is studied as another technology in §6. F does have L independent bits. Independent experiment parameters are size, relations, price/interface, prior and thresholds; η/ρ/C depend on them and on the policy.
 
-### 4.2 Teorema W-AVG: frontera exacta
+Let K=min(n,k) and u=K/n. To optimize risk at a given efficacy, a policy suffices which queries before the first A/B, chooses A/B/safe stopping and, if choosing a high option, finishes all L segments using revealed f. Queries after the first effect do not prevent V and may be eliminated. A branch with more than k queries cannot have Ttec and may be safely stopped. M on an ε=0 route prevents Ttec; replacing that branch with safe stopping worsens neither η nor ρ. After a zero, f=0 is known and B may finish without risk. Queries may be added up to K in the all-ones branch: additional information only permits avoiding an incorrect decision. This reduction is an envelope facilitating the problem; the final control executes within the original contract.
+
+With a policy seed fixed, while responses are ones the query order is fixed and independent of which Bj is hidden. Among n Bj worlds, at most K detect a zero. This includes any coordination/cache through centralized history. In AVG detected mass is D=u/2; undetected invalid mass is H=(1−u)/2; G mass is 1/2. Undetected worlds and G have the same history.
+
+<a id="42-teorema-w-avg-frontera-exacta"></a>
+
+### 4.2 W-AVG theorem: exact frontier
 
 \[
 \boxed{\rho_{\min}^{AVG}(h,u)=
 \frac{1-u}{2-u}\max(0,h-u/2).} \tag{W1}
 \]
 
-**Prueba.** En la historia no detectada, A y B tienen la misma eficacia técnica. A causa infracciones en masa H, B en masa 1/2; A es al menos tan favorable, por lo que B puede sustituirse por A. Terminar con B en todos los casos detectados ofrece D de eficacia sin riesgo. Si x es la probabilidad de intentar A en la historia restante, η≤D+(1−D)x y ρ≥Hx. Por tanto ρ≥H max(0,h−D)/(1−D), que es W1. Si hay menos de K consultas, completar hasta K y aprovechar la información no empeora el resultado; la misma cota para K es necesaria. Para alcanzar la igualdad, consultar K índices distintos; si se detecta un cero, usar B. Si h>D, intentar A en la historia restante con probabilidad (h−D)/(1−D). Si h≤D, terminar solo una fracción h/D de las historias detectadas. En el caso D=0,h>0 aplica la primera rama. ∎
+**Proof.** In undetected history, A and B have identical technical efficacy. A causes violations in mass H, B in mass 1/2; A is at least as favorable, so B may be replaced by A. Finishing with B in every detected case offers D efficacy without risk. If x is attempt-A probability in the remaining history, η≤D+(1−D)x and ρ≥Hx. Therefore ρ≥H max(0,h−D)/(1−D), which is W1. If fewer than K queries occur, completing to K and exploiting information does not worsen the result; the same bound for K is necessary. To attain equality, query K distinct indices; if a zero is detected use B. If h>D, attempt A in the remaining history with probability (h−D)/(1−D). If h≤D, finish only a fraction h/D of detected histories. In case D=0,h>0 the first branch applies. ∎
 
-Hay viabilidad AVG exactamente cuando R≥C0 y r≥W1. El k mínimo es el menor entero 0≤K≤n que satisface esa desigualdad; no se sustituye por una condición solamente necesaria. Para h=1,r<1/2,
+AVG feasibility holds exactly when R≥C0 and r≥W1. Minimum k is the smallest integer 0≤K≤n satisfying that inequality; it is not replaced by a merely necessary condition. For h=1,r<1/2,
 
 \[
 K_{min}^{AVG}=\lceil n(1-2r)\rceil. \tag{W2}
 \]
 
-### 4.3 Teorema W-WC: frontera exacta y control simétrico
+<a id="43-teorema-w-wc-frontera-exacta-y-control-simétrico"></a>
 
-Para 0≤r<h, la condición necesaria y suficiente es
+### 4.3 W-WC theorem: exact frontier and symmetric control
+
+For 0≤r<h, the necessary and sufficient condition is
 
 \[
 \boxed{(1-u)(h-r)\le r,\quad R\ge C_0.} \tag{W3}
 \]
 
-**Prueba de necesidad.** En G, sean x/y las probabilidades de intentar A/B después de consultas con respuesta uno. Entonces ηG≤x+y y ρG≥y. Cada intento A sobre esa historia produce una infracción en al menos n−K mundos Bj, porque comparten las respuestas. Al promediar los Bj y las semillas, ρB-prom≥(1−u)x. Los requisitos WC implican x≥h−r y ρB-prom≤r. Se obtiene W3. Esta prueba no presupone que las consultas ni la política sean simétricas.
+**Necessity proof.** In G, let x/y be attempt-A/B probabilities after queries with response one. Then ηG≤x+y and ρG≥y. Each A attempt on that history produces a violation in at least n−K Bj worlds because they share responses. Averaging Bj and seeds, ρB-prom≥(1−u)x. WC requirements imply x≥h−r and ρB-prom≤r. W3 follows. This proof presumes neither queries nor policy are symmetric.
 
-**Suficiencia.** Si K<n, elegir uniformemente un subconjunto de K índices. Con cero detectado, completar en B. Sin cero, intentar A con probabilidad h−r, B con probabilidad r, y M/parada con probabilidad 1−h. En G: ηG=h,ρG=r. En cada Bj: ηj=u+(1−u)h≥h y ρj=(1−u)(h−r)≤r. En esas historias ambas opciones altas son todavía epistemológicamente posibles; no se supera un rechazo conocido. Si K=n, f es conocido y se completa siempre con su modo admisible; no se intenta B en G. ∎
+**Sufficiency.** If K<n, uniformly choose a subset of K indices. With a detected zero, complete in B. Without a zero, attempt A with probability h−r, B with probability r, and M/stopping with probability 1−h. In G: ηG=h,ρG=r. In each Bj: ηj=u+(1−u)h≥h and ρj=(1−u)(h−r)≤r. In those histories both high options are still epistemically possible; a known rejection is not overridden. If K=n, f is known and execution always completes with its admissible mode; B is not attempted in G. ∎
 
-Por tanto,
+Therefore,
 
 \[
 K_{min}^{WC}=\left\lceil n\max\left(0,1-\frac r{h-r}\right)\right\rceil. \tag{W4}
 \]
 
-Para r≥h, un intento aleatorio de ejecución con probabilidad h satisface el techo de riesgo trivialmente. Con K=0, AVG y WC permiten ρ mínimo h/2 mediante el control adecuado; una banda imposible genuina exige r<h/2. Por ejemplo, con h=1,r=1/4, AVG necesita K/n≥1/2 y WC K/n≥2/3. Los redondeos y R=C0+cKmin son inclusivos.
+For r≥h, a randomized execution attempt with probability h trivially satisfies the risk ceiling. With K=0, AVG and WC permit minimum ρ of h/2 through the appropriate control; a genuine impossible band requires r<h/2. For example, with h=1,r=1/4, AVG needs K/n≥1/2 and WC K/n≥2/3. Rounding and R=C0+cKmin are inclusive.
 
-Los pares de objetivos: M cuesta C0 y no infringe; iniciar A y adaptar los segmentos restantes al recibo completa con ηAVG=1 y ρAVG=1/2 a C0; para el control WC barato elegir A/B con moneda justa logra ηω=1,ρω=1/2 en cada mundo. Consultar hasta un cero o los n hechos consigue η=1,ρ=0 en todos los mundos, con coste máximo C0+cn. Así todos los pares tienen testigos y la inviabilidad conjunta es informativa para h>2r.
+Objective pairs: M costs C0 and does not violate; starting A and adapting remaining segments to the receipt completes with ηAVG=1 and ρAVG=1/2 at C0; for the cheap WC control choosing A/B with a fair coin achieves ηω=1,ρω=1/2 in every world. Querying until a zero or all n facts achieves η=1,ρ=0 in all worlds with maximum cost C0+cn. Thus all pairs have witnesses and joint infeasibility is informative for h>2r.
 
-### 4.4 Teorema de familia densa: coste cuadrático frente a ejecución lineal
+<a id="44-teorema-de-familia-densa-coste-cuadrático-frente-a-ejecución-lineal"></a>
 
-Elegir n(L)=L(L−1)/2 relaciones normativas distintas, por ejemplo una por par de segmentos; L≥2. No se obliga a ejecutar n actos materiales ni a listar un bit en cada nombre de acción: A/B son dos procedimientos de L pasos sometidos a un mismo predicado sobre esas relaciones. Para b,g,c fijos y h>2r, W1/W3 requieren u≥u*>0 constante, independiente de L. En AVG esto se sigue de la continuidad de W1 y W1(h,0)=h/2>r; en WC, u*=(h−2r)/(h−r)>0. Luego
+### 4.4 Dense-family theorem: quadratic cost versus linear execution
+
+Choose n(L)=L(L−1)/2 distinct normative relations, for example one per segment pair; L≥2. Executing n material acts or listing a bit in each action name is not required: A/B are two L-step procedures subject to the same predicate over those relations. For fixed b,g,c and h>2r, W1/W3 require constant u≥u*>0 independent of L. In AVG this follows from W1 continuity and W1(h,0)=h/2>r; in WC, u*=(h−2r)/(h−r)>0. Then
 
 \[
 C_{crit}-C_0=\Theta(cn)=\Theta(L^2),\qquad C_0=\Theta(L).
 \]
 
-**Forma universal.** Para toda política/equipo de la clase de acceso a hechos, para todo presupuesto relativo finito λ≥0 y para todo h>2r, existen L arbitrariamente grandes tales que ningún miembro de esa clase logra η≥h y ρ≤r bajo R=(1+λ)(b+gL). En realidad, para esos tamaños **todas** las políticas fracasan en al menos un requisito. El control de consulta completa demuestra que el problema es físicamente ejecutable y que recursos mayores lo resuelven.
+**Universal form.** For every policy/team in the fact-access class, every finite relative budget λ≥0 and every h>2r, there are arbitrarily large L such that no member of that class achieves η≥h and ρ≤r under R=(1+λ)(b+gL). Indeed, at those sizes **all** policies fail at least one requirement. The full-query control proves the problem is physically executable and greater resources resolve it.
 
-El orden de cuantificadores es: fijar clase/costes/umbrales; existe una familia; para todo λ finito existe L0; para todo L≥L0 y toda π admitida hay fallo conjunto. No se escoge la distribución después de conocer π. Aumentar el número de agentes o reducir las distancias puede mejorar el tiempo, pero no la suma de hechos nuevos leídos si mantiene esta interfaz y precio mínimo. No se impone este perfil de costes a toda arquitectura física.
+Quantifier order: fix class/costs/thresholds; a family exists; for every finite λ there is L0; for every L≥L0 and every admitted π there is joint failure. The distribution is not chosen after learning π. Increasing agent count or reducing distances may improve time, but not the sum of new facts read if this interface and minimum price are retained. This cost profile is not imposed on every physical architecture.
 
-### 4.5 Coste esperado: la dificultad persiste sin presupuesto por traza
+<a id="45-coste-esperado-la-dificultad-persiste-sin-presupuesto-por-traza"></a>
 
-En este perfil alternativo Ttec se define por finalización/calidad/plazo y se limita **E[C]**, en vez de exigir C≤R en cada traza. Hay preparación b cobrada en todo ensayo iniciado. Sea Q el total de hechos leídos con cargo, sin contar dos veces el mismo evento; lecturas repetidas reales sí se cobran.
+### 4.5 Expected cost: difficulty persists without per-trace budget
+
+In this alternative profile Ttec is defined by completion/quality/deadline and **E[C]** is limited, rather than requiring C≤R in every trace. Preparation b is charged in every started trial. Let Q be total facts read with charge, without counting the same event twice; actual repeated reads are charged.
 
 \[
 \boxed{E[Q]\ge\frac n2(\eta-2\rho)_+,\qquad
 E[C]\ge b+gL\eta+\frac{cn}{2}(\eta-2\rho)_+.} \tag{W5}
 \]
 
-**Prueba directa.** Fijar una semilla. Seguir la historia G hasta el primer efecto alto o la terminación; sea qG el número de índices distintos consultados, ≤n. Todo Bj cuyo índice no está entre ellos reproduce esa historia. Si el primer efecto es A, hay riesgo al menos (1−qG/n)/2 y η≤1; por ello η−2ρ≤qG/n. Si es B, G ya infringe, ρ≥1/2 y η−2ρ≤0. Si no hay efecto alto en G, tampoco lo hay en los Bj no detectados; entonces η≤qG/(2n), que también da la desigualdad. Estos η y ρ son sobre el prior para la semilla fijada; la eventual adaptación tras el efecto no borra la infracción. Promediar semillas da η−2ρ≤E[qG]/n. Como G tiene masa 1/2 y allí se pagan al menos qG lecturas, E[Q]≥E[qG]/2. Finalmente cualquier Ttec paga al menos gL material y todo ensayo paga b, con cargos informativos adicionales no solapados. ∎
+**Direct proof.** Fix a seed. Follow G history until first high effect or termination; let qG be the number of distinct queried indices, ≤n. Every Bj whose index is not among them reproduces that history. If the first effect is A, risk is at least (1−qG/n)/2 and η≤1; hence η−2ρ≤qG/n. If B, G already violates, ρ≥1/2 and η−2ρ≤0. If there is no high effect in G, neither is there in undetected Bj; then η≤qG/(2n), also giving the inequality. These η and ρ are over the prior for the fixed seed; eventual post-effect adaptation does not erase the violation. Averaging seeds gives η−2ρ≤E[qG]/n. Since G has mass 1/2 and at least qG reads are paid there, E[Q]≥E[qG]/2. Finally every Ttec pays at least material gL and every trial pays b, with nonoverlapping additional information charges. ∎
 
-Para η≥h y ρ≤r<h/2, E[C]≥b+gLh+(cn/2)(h−2r)=Ω(n). La consulta completa con orden uniforme y parada en el primer cero tiene E[Q]=(3n+1)/4 y η=1,ρ=0: en G lee n y en los Bj la posición esperada del cero es (n+1)/2. Por tanto la escala Θ(n) es alcanzable para éxito seguro. Con n=Θ(L²), también el coste esperado necesario es cuadrático. W5 es una cota, no una frontera exacta de coste esperado para todos los h/r.
+For η≥h and ρ≤r<h/2, E[C]≥b+gLh+(cn/2)(h−2r)=Ω(n). Full querying with uniform order and stopping at the first zero has E[Q]=(3n+1)/4 and η=1,ρ=0: G reads n and in Bj the zero's expected position is (n+1)/2. Hence scale Θ(n) is attainable for safe success. With n=Θ(L²), necessary expected cost is also quadratic. W5 is a bound, not an exact expected-cost frontier for all h/r.
 
-Con hasta k0 hechos concretos disponibles inicialmente, aunque se concedan gratis, el mismo acoplamiento sustituye qG por k0+qG y da E[Q]≥[n(η−2ρ)−k0]+/2. En el perfil de presupuesto, u pasa a min(n,k0+k)/n. Si k0=O(L), la familia densa conserva su dificultad. Esta concesión favorable no autoriza omitir en una implementación el coste real de producir información previa.
+With up to k0 particular facts initially available, even if granted free, the same coupling replaces qG by k0+qG and gives E[Q]≥[n(η−2ρ)−k0]+/2. In the budget profile u becomes min(n,k0+k)/n. If k0=O(L), the dense family retains its difficulty. This favorable grant does not authorize omitting the actual production cost of prior information in an implementation.
 
-## 5. Consultas generales: qué permite el argumento de capacidad
+<a id="5-consultas-generales-qué-permite-el-argumento-de-capacidad"></a>
 
-La propuesta recibida permite una operación con N salidas a coste al menos c log2N. Eso es más amplio que leer bits concretos: una salida binaria puede contestar un predicado global. Para esta clase se conserva una cota necesaria, pero no las fronteras exactas F2/F4.
+## 5. General queries: what the capacity argument permits
 
-**Lema de transcripciones.** En F, supóngase que el único ramificado de historias exitosas sin infracciones procede de operaciones informativas finitas con N salidas y precio ≥c log2N; los precios/metadatos no informan gratuitamente y los recibos materiales sin infracción no añaden ramas. Con s=R−C0≥0,
+The received proposal permits an operation with N outputs at cost at least c log2N. This is broader than reading particular bits: a binary output may answer a global predicate. A necessary bound is retained for this class, but not exact frontiers F2/F4.
+
+**Transcript lemma.** In F, assume the only branching of successful violation-free histories comes from finite informative operations with N outputs and price ≥c log2N; prices/metadata do not inform for free and violation-free material receipts add no branches. With s=R−C0≥0,
 
 \[
 \sigma\le\min(1,2^{s/c-d}). \tag{G1}
 \]
 
-**Prueba.** Fijar la semilla y podar el árbol a historias S. Cada nodo informativo conserva como máximo N hijos. Asignar peso 1/N a cada arista de ese nodo. La suma de productos de pesos de hojas es ≤1 por inducción en el árbol. Para cada hoja, ∏N≤2^(s/c), por lo que su peso es ≥2^(−s/c); hay como máximo 2^(s/c) hojas. Cada hoja fija una ruta con al menos d elecciones altas acertadas y es compatible con como máximo 2^(L−d) mundos. Multiplicar y dividir por 2^L produce G1. Promediar semillas preserva la cota. El árbol tiene un máximo finito de eventos; nodos N=1 se contraen. Los recibos sí revelan hechos, pero la rama exitosa de una acción elegida tiene un solo resultado «admisible». ∎
+**Proof.** Fix the seed and prune the tree to S histories. Each informative node retains at most N children. Assign weight 1/N to each edge of that node. The sum of leaf weight products is ≤1 by tree induction. For each leaf, ∏N≤2^(s/c), so its weight is ≥2^(−s/c); there are at most 2^(s/c) leaves. Each leaf fixes a route with at least d successful high choices and is compatible with at most 2^(L−d) worlds. Multiplying and dividing by 2^L gives G1. Averaging seeds preserves the bound. The tree has a finite event maximum; N=1 nodes are contracted. Receipts do reveal facts, but the successful branch of a chosen action has a single “admissible” result. ∎
 
-La condición h−r≤G1 es solamente necesaria. Ejemplo exacto F con L=d=1,k=0,h=3/4,r=1/4: h−r=q=1/2, pero el mínimo riesgo real es h/2=3/8>r. Cumplir la cota débil no demuestra existencia.
+Condition h−r≤G1 is only necessary. Exact F example with L=d=1,k=0,h=3/4,r=1/4: h−r=q=1/2, but actual minimum risk is h/2=3/8>r. Meeting the weak bound does not prove existence.
 
-Además, permitir a coste c la consulta binaria «¿χ es todo cero?» y actuar solo cuando responda sí da η=σ=2^(−L),ρ=0. Para L=3,k=1, la desigualdad local ρ≥(2^(d−k)−1)σ sería falsa. G1 sí se conserva. El tamaño de salida no equivale al número de bits concretos reconstruidos, y un certificado raro puede permitir actuar sin riesgo. No se invoca Fano ni un teorema minimax sin comprobar su reducción: las pruebas anteriores son directas.
+Furthermore, permitting at cost c the binary query “is χ all zero?” and acting only when it answers yes gives η=σ=2^(−L),ρ=0. For L=3,k=1, local inequality ρ≥(2^(d−k)−1)σ would be false. G1 is retained. Output size does not equal the number of particular reconstructed bits, and a rare certificate may permit risk-free action. Neither Fano nor a minimax theorem is invoked without checking its reduction: the above proofs are direct.
 
-## 6. Tecnologías: reducción, eliminación y cambios de clase
+<a id="6-tecnologías-reducción-eliminación-y-cambios-de-clase"></a>
 
-«Eliminar» debe indicar el dominio. Son distintos: vaciar la banda para todo R≥C0; resolver un presupuesto concreto; hacer que cualquier margen relativo λ>0 funcione para tamaños grandes; o eliminar V dejando un coste necesario para η. No hay una única clasificación sin interfaz, productor, distribución, umbrales y costes.
+## 6. Technologies: reduction, elimination and class changes
 
-### 6.1 Cambios que conservan el acceso a hechos
+“Eliminate” must specify the domain. Emptying the band for all R≥C0; resolving a particular budget; making any relative margin λ>0 work for large sizes; or eliminating V while leaving a cost necessary for η are different. There is no single classification without interface, producer, distribution, thresholds and costs.
 
-Si una tecnología permite solo lecturas de hechos individuales con coste total mínimo cmin>0, sin hechos suficientes iniciales ni barrera, las pruebas inferiores se aplican con k≤⌊(R−C0)/cmin⌋. Una cota inferior de precio basta para imposibilidad; un control superior necesita además consultas disponibles y su precio máximo. Caché, inferencia sobre hechos ya vistos, equipo centralizado y paralelismo no revelan un hecho nuevo no observado. Abaratar c reduce la banda. En F puede volver suficiente un margen relativo antes insuficiente; en W densa cualquier cmin fijo positivo mantiene Ω(L²), si C0 sigue O(L).
+<a id="61-cambios-que-conservan-el-acceso-a-hechos"></a>
 
-Memoria de bindings válidos ya comprobados puede eliminar el problema en una secuencia estática con datos suficientes. No se afirma que «la caché nunca ayuda»: la familia difícil usa hechos nuevos que no están en la memoria. Una estructura/prior favorable puede hacer suficiente una predicción barata; el contraejemplo de M10 con prior 9/10 debe conservarse. Estos casos cambian la incertidumbre relevante.
+### 6.1 Changes retaining fact access
 
-### 6.2 Certificado suficiente con precio total f(n)
+If a technology permits only individual-fact reads with minimum total cost cmin>0, without sufficient initial facts or a barrier, lower proofs apply with k≤⌊(R−C0)/cmin⌋. A price lower bound suffices for impossibility; an upper control additionally needs available queries and their maximum price. Cache, inference over already seen facts, centralized team and parallelism do not reveal a new unobserved fact. Lowering c reduces the band. In F it may make a previously insufficient relative margin sufficient; in dense W any fixed positive cmin maintains Ω(L²) if C0 remains O(L).
 
-En W añadir una consulta disponible que entrega el f actual, autenticado y aplicable, por precio total f(n)>0. Contar emisor, producción, transporte y uso; si el productor debe leer n hechos nuevos a precio c, no atribuirle arbitrariamente un precio logarítmico. El certificado es un supuesto de servicio hasta medir/verificar su implementación.
+Memory of valid already checked bindings may eliminate the problem in a static sequence with sufficient data. “Cache never helps” is not claimed: the difficult family uses new facts absent from memory. A favorable structure/prior may make a cheap prediction sufficient; M10's prior-9/10 counterexample must be preserved. These cases change relevant uncertainty.
 
-Si esa es la única interfaz añadida y cuesta f(n) en toda llamada, la frontera exacta de presupuesto se vuelve
+<a id="62-certificado-suficiente-con-precio-total-fn"></a>
+
+### 6.2 Sufficient certificate with total price f(n)
+
+In W add an available query delivering current authenticated applicable f at total price f(n)>0. Count issuer, production, transport and use; if the producer must read n new facts at price c, do not arbitrarily attribute a logarithmic price. The certificate is a service assumption until its implementation is measured/verified.
+
+If that is the only added interface and costs f(n) on every call, the exact budget frontier becomes
 
 \[
 C_{crit}^{nuevo}=C_0+\min(cK_{min}^{viejo},f(n)). \tag{T1}
 \]
 
-Por debajo de f(n), ninguna ruta Ttec puede usarlo y queda la clase antigua; por encima permite η=1,ρ=0. Un intento que no puede terminar por ese cargo se puede sustituir por parada segura sin mejorar el riesgo mínimo. El mínimo de umbrales es entonces exacto. En F vale el mismo argumento para un certificado del vector suficiente de bindings, con precio f(L).
+Below f(n), no Ttec route may use it and the old class remains; above it η=1,ρ=0 is permitted. An attempt unable to finish because of that charge may be replaced by safe stopping without improving minimum risk. The minimum of thresholds is therefore exact. The same argument holds in F for a certificate of the sufficient binding vector with price f(L).
 
-Un precio positivo deja una banda absoluta cerca de C0 **solo cuando el perfil original ya tenía una banda no vacía**. Sin embargo, puede eliminar el obstáculo para un criterio relativo:
+A positive price leaves an absolute band near C0 **only when the original profile already had a nonempty band**. However, it may eliminate the obstacle for a relative criterion:
 
-| Precio completo de certificado en W, n=Θ(L²), C0=Θ(L) | Margen relativo necesario y efecto |
+| Complete certificate price in W, n=Θ(L²), C0=Θ(L) | Required relative margin and effect |
 |---|---|
-| f(n)=O(1) o O(log(1+n)) | f(n)/C0→0: cualquier λ>0 funciona eventualmente; queda una banda absoluta de anchura ≤f(n). |
-| f(n)=Θ(√n) | Margen relativo de orden constante; importa su coeficiente. |
-| f(n)=Θ(n) | La anchura sigue cuadrática y la razón respecto a C0 crece sin límite. |
-| Servicio suficiente ya incluido en C0 | No hay cargo adicional: puede vaciar toda la banda R≥C0. La producción sigue pagada dentro del coste base. |
+| f(n)=O(1) or O(log(1+n)) | f(n)/C0→0: any λ>0 eventually works; an absolute band of width ≤f(n) remains. |
+| f(n)=Θ(√n) | Relative margin of constant order; its coefficient matters. |
+| f(n)=Θ(n) | Width remains quadratic and the ratio to C0 grows without limit. |
+| Sufficient service already included in C0 | No additional charge: may empty the entire band R≥C0. Production remains paid within base cost. |
 
-«Sublineal en n» por sí solo no basta: n^(3/4) es sublineal pero crece como L^(3/2) en W. La comparación correcta es f(n(L))/C0(L). Una ley de lotes f(b)=c log b da f(1)=0: consultas singleton gratuitas resolverían los datos. Se necesita un contrato de lotes coherente, por ejemplo una tarifa de preparación positiva y log(1+b), o una única interfaz global con precio declarado. No se convierte una cota inferior logarítmica en la existencia de un certificado a ese precio.
+“Sublinear in n” alone does not suffice: n^(3/4) is sublinear but grows as L^(3/2) in W. The correct comparison is f(n(L))/C0(L). Batch law f(b)=c log b gives f(1)=0: free singleton queries would resolve the data. A coherent batch contract is needed, for example a positive preparation tariff and log(1+b), or a single global interface with declared price. A logarithmic lower bound is not converted into existence of a certificate at that price.
 
-### 6.3 Barreras y ejecución admisible por construcción
+<a id="63-barreras-y-ejecución-admisible-por-construcción"></a>
 
-Una barrera preefecto que comprueba el binding puede producir ramas informativas **sin infracción**. Ya no cumple la hipótesis sobre recibos de F/G1. Reutilizar esas cotas sin rehacer la prueba sería incorrecto. Impedir una infracción tampoco garantiza que exista o se alcance una alternativa suficientemente buena.
+### 6.3 Barriers and execution admissible by construction
 
-**Control con despacho autorizado.** Modificar el ejecutor para que, en cada segmento elegido alto, seleccione/ejecute la opción alta admisible a cargo adicional a≥0, manteniendo revisiones y precio material g. No necesita revelar χ/f al agente. En el subperfil que solo admite M y ese despacho (sin apuestas desprotegidas ni consultas alternativas), para alcanzar d opciones altas hace falta exactamente ad adicional. Por tanto η=0 si R<C0+ad, y η=1,ρ=0 es posible en R≥C0+ad. Se elimina el componente de riesgo, pero si a>0 persiste un dilema coste–eficacia. Si a=0 adicional porque el trabajo ya está incluido en g, η=1,ρ=0,C=C0 en todos los mundos: se elimina la inviabilidad conjunta. No significa que el trabajo físico sea literalmente gratuito ni que solo exista ese diseño.
+A pre-effect barrier checking the binding may produce informative branches **without violation**. It no longer satisfies the F/G1 receipt hypothesis. Reusing those bounds without redoing the proof would be incorrect. Preventing a violation also does not guarantee that a sufficiently good alternative exists or is attained.
 
-Mantener g pequeño e independiente de n bajo ese nuevo ejecutor es un supuesto que requiere evidencia de implementación. Si el proveedor reconstruye f mediante n lecturas frescas con tarifa c, su coste completo debe aumentar a o g; rebautizar ese trabajo como «baseline» no lo elimina respecto al presupuesto de la arquitectura anterior. El control a=0 adicional describe una capacidad admisible por construcción o una comprobación realmente financiada en ese baseline, no una exención contable del productor.
+**Control with authorized dispatch.** Modify the executor so that, in every segment selected high, it selects/executes the admissible high option at additional charge a≥0, retaining reviews and material price g. It need not reveal χ/f to the agent. In the subprofile admitting only M and that dispatch (without unprotected bets or alternative queries), attaining d high options requires exactly additional ad. Therefore η=0 if R<C0+ad, and η=1,ρ=0 is possible at R≥C0+ad. The risk component is eliminated, but if a>0 a cost–efficacy dilemma persists. If additional a=0 because work is already included in g, η=1,ρ=0,C=C0 in all worlds: joint infeasibility is eliminated. This does not mean physical work is literally free or only that design exists.
 
-**Contraejemplo a contar rechazos como bits pagados.** En un subperfil de los mismos mundos F con ε=0, cuya única interfaz de información/ejecución alta es la barrera (sin consultas de coordenadas ni certificados adicionales), se puede comprobar una primera opción sin efecto, con 0<a≤g. Toda comprobación fallida cuesta a y toda opción admitida/ejecutada cuesta g, incluyendo su comprobación y revisiones propias. Tras un rechazo se elige la alternativa correcta a precio g. No se omiten cargos: cada finalización paga gL+a veces el número de rechazos. Con presupuesto C0+ak, una política se detiene después del rechazo k+1, ya cobrado, porque no puede financiar una finalización suficiente; ese cargo cabe en la reserva material no ejecutada ya que a≤g. No existe una observación gratuita por falta de presupuesto. Si hubo ≤k rechazos, queda presupuesto para todas las aceptaciones. Por tanto los segmentos se completan exactamente cuando el número de primeras opciones incorrectas es ≤k. En AVG, independencia de los bindings da
+Keeping g small and independent of n under that new executor is an assumption requiring implementation evidence. If the provider reconstructs f through n fresh reads at tariff c, its full cost must increase a or g; renaming that work “baseline” does not eliminate it relative to the previous architecture's budget. Additional a=0 control describes a capability admissible by construction or a check actually funded in that baseline, not a producer accounting exemption.
+
+**Counterexample to counting rejections as paid bits.** In a subprofile of the same F worlds with ε=0, whose only high information/execution interface is the barrier (without coordinate queries or additional certificates), a first option may be checked without effect, with 0<a≤g. Every failed check costs a and every admitted/executed option costs g including its check and self-reviews. After rejection the correct alternative is chosen at price g. Charges are not omitted: every completion pays gL plus a times the rejection count. With budget C0+ak, a policy stops after rejection k+1, already charged, because it cannot fund sufficient completion; that charge fits the unexecuted material reserve since a≤g. There is no free observation through lack of budget. If there were ≤k rejections, budget remains for all acceptances. Therefore segments complete exactly when the number of incorrect first options is ≤k. In AVG, binding independence gives
 
 \[
 \eta_{max}=2^{-L}\sum_{j=0}^{\min(k,L)}{L\choose j},\qquad\rho=0. \tag{T2}
 \]
 
-Escoger primeras opciones con monedas justas logra el mismo valor en cada mundo, así que también es la frontera WC. Si se añade esa barrera manteniendo otras consultas, T2 es un control alcanzable; la frontera óptima de la clase ampliada puede mejorar y no se identifica automáticamente con T2. Adaptar decisiones no mejora AVG: cada binding nuevo sigue siendo justo antes de probarlo. Probar más de dos veces o parar antes no mejora finalización. Para L=3,k=1 resulta η=1/2, superior a 2^(1−3)=1/4. El recibo de aceptación revela información sin cargo **adicional** y el rechazo no viola; T2 no contradice F, cambia su kernel y su distribución de cargos. Un veto que cobra también cada prueba admitida tendría otro modelo. Estos precios son un control matemático, no una medición de un producto.
+Choosing first options with fair coins attains the same value in each world, so it is also the WC frontier. If that barrier is added while retaining other queries, T2 is an attainable control; the expanded class's optimum frontier may improve and is not automatically identified with T2. Adapting decisions does not improve AVG: every new binding remains fair before testing. Testing more than twice or stopping early does not improve completion. For L=3,k=1, η=1/2 results, greater than 2^(1−3)=1/4. The acceptance receipt reveals information without **additional** charge and rejection does not violate; T2 does not contradict F, it changes its kernel and charge distribution. A veto also charging every admitted test would have another model. These prices are a mathematical control, not a product measurement.
 
-### 6.4 Cambios estructurales y tecnologías que pueden perjudicar
+<a id="64-cambios-estructurales-y-tecnologías-que-pueden-perjudicar"></a>
 
-Una ruta común admisible con calidad suficiente, tolerancia que haga suficiente M, un predicado siempre conocido o capabilities que excluyan toda opción prohibida pueden eliminar la necesidad de distinguir mundos. Eso puede resolver completamente un dominio y no exige revelar gratuitamente todos los bits. No se demuestra un «único tipo de tecnología» que elimine todo trilema posible.
+### 6.4 Structural changes and technologies that may worsen results
 
-Una tecnología también puede aumentar C0, cobrar coordinación redundante, introducir información obsoleta o bloquear una opción admisible. Por ejemplo, sumar un cargo obligatorio t>0 a toda finalización desplaza el mínimo material a C0+t y vuelve η=0 a R=C0; no hace falta atribuir mejoras por llamarse validación. Un certificado viejo/no aplicable no es el servicio suficiente de T1. No se afirma una degradación real sin verificar el contrato y sus resultados.
+A common admissible route with sufficient quality, tolerance making M sufficient, an always known predicate or capabilities excluding every forbidden option may eliminate the need to distinguish worlds. This may completely resolve a domain and does not require revealing all bits for free. No “single type of technology” eliminating every possible trilemma is proved.
 
-**Conclusión condicional precisa:** toda tecnología que preserve la clase de lecturas de hechos frescos con precio mínimo fijo positivo, ejecución lineal y ausencia de información suficiente/barrera hereda la familia densa imposible a cualquier margen relativo fijo. Fuera de esa clase, el resultado depende de qué capacidad añade y a qué coste completo; T1/T2 y el despacho autorizado exhiben reducción, cambio de frontera y eliminación. No existe una prueba de «toda tecnología positiva conserva el trilema» bajo las hipótesis débiles del borrador.
+A technology may also increase C0, charge redundant coordination, introduce stale information or block an admissible option. For example adding mandatory charge t>0 to every completion shifts material minimum to C0+t and makes η=0 at R=C0; improvements need not be attributed merely because it is called validation. An old/inapplicable certificate is not T1's sufficient service. Actual degradation is not claimed without verifying the contract and its results.
 
-## 7. Auditoría de la propuesta recibida y correspondencia
+**Precise conditional conclusion:** every technology preserving the fresh-fact-read class with fixed positive minimum price, linear execution and absence of sufficient information/barrier inherits the dense family impossible at any fixed relative margin. Outside that class, the result depends on the capability added and its full cost; T1/T2 and authorized dispatch exhibit reduction, frontier change and elimination. There is no proof that “every positive-cost technology preserves the trilemma” under the draft's weak hypotheses.
 
-La copia recibida se conserva byte a byte. Los cambios se formulan en este sucesor, no como una corrección silenciosa del original.
+<a id="7-auditoría-de-la-propuesta-recibida-y-correspondencia"></a>
 
-| Afirmación/laguna del borrador | Disposición y reparación |
+## 7. Audit of received proposal and correspondence
+
+The received copy is preserved byte for byte. Changes are formulated in this successor, not as silent correction of the original.
+
+| Draft claim/gap | Disposition and repair |
 |---|---|
-| Bits por capa en lugar de ejemplos aislados | F demuestra el objetivo; W prueba una dificultad más fuerte con hechos normativos separados de pasos. |
-| No preefecto literal, pese a permitir consultas pagadas | Se permiten consultas registradas; se excluye una prueba material gratis/no registrada del binding. |
-| Recibos sin información | Revelan el binding; solo carecen de ramificado adicional en la parte sin infracciones. |
-| Cota σ y η−ρ interpretada como frontera exacta | G1 es necesaria; F1/W1/W3 aportan desigualdades más fuertes y controles que alcanzan la frontera. |
-| Precio mínimo de consulta usado como precio disponible | Se separan precio inferior para imposibilidad y disponibilidad/precio superior para construcción. |
-| Certificados/globales tratados como lectura de coordenadas | §5 conserva G1 y da un contraejemplo explícito a transferir F1 a predicados arbitrarios. |
-| Primera X repetida tras conocer χ en M02 | Control con recibo y adaptación; no se omite el rechazo de prohibiciones conocidas. |
-| Cualquier precio positivo conserva toda dificultad | T1 distingue banda absoluta de margen relativo y contempla servicios incluidos en C0. |
-| f(b)=c log b | Singleton gratuito; exigir contrato de lotes/preparación coherente. |
-| Barrera y consultas sujetas a la misma cota | Cambia el kernel; T2 refuta esa transferencia. |
-| Eficacia legítima implica siempre mero dilema | F4 conserva un techo separado de riesgo cuando es vinculante. |
-| Únicamente comprobación gratis elimina el trilema | Despacho autorizado incluido en g y rutas comunes también lo eliminan en dominios declarados. |
+| Bits per layer instead of isolated examples | F proves the objective; W proves stronger difficulty with normative facts separated from steps. |
+| Literal no pre-effect despite permitting paid queries | Registered queries permitted; a free/unregistered material test of the binding is excluded. |
+| Receipts without information | Reveal the binding; only lack additional branching in the violation-free part. |
+| Bound σ and η−ρ interpreted as exact frontier | G1 is necessary; F1/W1/W3 provide stronger inequalities and controls attaining the frontier. |
+| Minimum query price used as available price | Lower price for impossibility and availability/upper price for construction separated. |
+| Certificates/globals treated as coordinate reads | §5 retains G1 and gives an explicit counterexample to transferring F1 to arbitrary predicates. |
+| First X repeated after learning χ in M02 | Control with receipt and adaptation; known-prohibition rejection not omitted. |
+| Any positive price preserves all difficulty | T1 distinguishes absolute band from relative margin and considers services included in C0. |
+| f(b)=c log b | Free singleton; require coherent batch/preparation contract. |
+| Barrier and queries subject to same bound | Changes kernel; T2 refutes that transfer. |
+| Legitimate efficacy always implies mere dilemma | F4 retains a separate risk ceiling when binding. |
+| Only free checking eliminates the trilemma | Authorized dispatch included in g and common routes also eliminate it in declared domains. |
 
-R01: se mantienen historia observable, revisión propia, mandato estable, óptimo admisible independiente, todos los conectores/mezclas, V irreversible, coste/plazo y distinción entre prueba de clase y campaña finita. Las nuevas F/W son construcciones suplementarias; no se afirma que el texto base contuviera bits independientes, n=Θ(L²), estos priors o estas tarifas. Geometría/N/distancias no bastan para determinar el número de hechos frescos. E1–E7, 00M/00N y el caso HF requieren correspondencia posterior; ninguna plataforma ni selector hereda automáticamente los teoremas.
+R01: observable history, self-review, stable mandate, independent admissible optimum, all connectors/mixtures, irreversible V, cost/deadline and distinction between class proof and finite campaign are retained. New F/W are supplemental constructions; it is not claimed that the base text contained independent bits, n=Θ(L²), these priors or tariffs. Geometry/N/distances do not suffice to determine fresh-fact count. E1–E7, 00M/00N and the HF case require subsequent correspondence; no platform or selector automatically inherits the theorems.
 
-Fuente primaria de definiciones: [Buhrman y de Wolf, preprint de 2002](https://homepages.cwi.nl/~rdewolf/publ/qc/dectree.pdf), introducción y §§3.1–3.2/4.1: consulta adaptativa de bits, distribuciones de árboles deterministas y certificados. Estas definiciones motivan fijar la interfaz. Las cotas F/W/G/T se demuestran aquí directamente; no se atribuyen a esa fuente. El documento no es una revisión exhaustiva de resultados posteriores ni una afirmación de novedad. El coste esperado W5 y el máximo por traza son perfiles diferentes.
+Primary definition source: [Buhrman and de Wolf, 2002 preprint](https://homepages.cwi.nl/~rdewolf/publ/qc/dectree.pdf), introduction and §§3.1–3.2/4.1: adaptive bit queries, distributions of deterministic trees and certificates. These definitions motivate fixing the interface. F/W/G/T bounds are directly proved here; they are not attributed to that source. The document is neither an exhaustive review of subsequent results nor a novelty claim. Expected cost W5 and per-trace maximum are different profiles.
 
-## 8. Verificación, siguiente trabajo y prompt completo de revisión
+<a id="8-verificación-siguiente-trabajo-y-prompt-completo-de-revisión"></a>
 
-Ejecutar `python3 verify_trilemma.py > /tmp/TRILEMMA_CHECKS.json` y comparar con TRILEMMA_CHECKS.json. El programa utiliza fracciones exactas, enumera por programación dinámica las decisiones de consulta/M/X/Y/parada y recibos de F para L≤3, y enumera árboles de consulta de W para n≤4. Verifica desigualdades para todas las políticas deterministas en esos dominios y controles aleatorios explícitos; la convexidad extiende las desigualdades comprobadas a sus mezclas. Además comprueba fronteras, igualdades, costes, W5, certificados, barrera y contraejemplos. Es verificación por el mismo agente; no un oráculo C05 independiente ni prueba asistida por un sistema formal. El registro de release conserva hashes, entrada, comandos, regresiones y límites.
+## 8. Verification, next work and complete review prompt
 
-Prioridad siguiente: revisión independiente M05/C05 del **contrato y de las demostraciones**, seguida por correspondencia M07 y una implementación neutral del oráculo. Antes de invertir en tecnologías concretas, identificar hechos frescos, interfaz de certificados/barrera y coste del productor; contrastar predicciones en una campaña registrada. No sustituir esto por probar modelos y buscar luego una desigualdad que los explique.
+Execute `python3 verify_trilemma.py > /tmp/TRILEMMA_CHECKS.json` and compare with TRILEMMA_CHECKS.json. The program uses exact fractions, enumerates through dynamic programming F query/M/X/Y/stop decisions and receipts for L≤3, and enumerates W query trees for n≤4. It verifies inequalities for all deterministic policies in those domains and explicit randomized controls; convexity extends the checked inequalities to their mixtures. It also checks frontiers, equalities, costs, W5, certificates, barrier and counterexamples. This is verification by the same agent, not an independent C05 oracle or proof assisted by a formal system. The release record retains hashes, input, commands, regressions and limits.
 
-**Prompt para otro agente:**
+Next priority: independent M05/C05 review of the **contract and proofs**, followed by M07 correspondence and neutral oracle implementation. Before investing in concrete technologies, identify fresh facts, certificate/barrier interface and producer cost; check predictions in a registered campaign. Do not substitute trying models and then searching for an inequality explaining them.
 
-> Revisa R01 en el commit publicado, empezando por README.md, M03_M04_TRILEMMA_THEOREMS.md, TRILEMMA_CONTRACT.json y la propuesta recibida. Lee M01, M02 y M10 para comprobar que la extensión no altera e/a/q, rechazo conocido, recibos ni costes históricos. Tu objetivo es intentar refutar las pruebas, no confirmar los ejemplos. Comprueba F1 para toda historia/adaptación/aleatoriedad, incluyendo consultas intercaladas y primeras observaciones por efectos; F2/F4 deben tener construcción que alcance cada frontera. Comprueba la reducción a primera acción alta en W, las medidas equilibradas G/Bj, el argumento WC sin presuponer simetría y W5 sin confundir presupuesto duro con coste esperado. Verifica redondeos, igualdad, bandas vacías, todos los conectores, abstención, memoria, pooling y datos previos. Intenta certificados binarios globales, priors asimétricos, rutas comunes, tarifas de lotes y barreras; determina exactamente qué hipótesis cambian. Examina T1, el cargo del productor, T2 y despacho autorizado; distingue eliminación absoluta/relativa y riesgo cero frente a coste adicional. Reproduce el comprobador y desarrolla un método independiente para un dominio pequeño sin copiar su recurrencia. No cierres M05/C05 por reutilizar el programa del autor. Conserva source/fixtures/reportes/manifests históricos, registra commit, UTC, comandos y hashes. Entrega por cada teorema: VALIDADO EN SU CLASE, CONTRAEJEMPLO con traza, o LAGUNA con supuesto necesario. No extrapoles a toda tecnología, distribución, geometría, HF o EA; M06/M07 y revisión independiente siguen abiertos hasta su evidencia.
+**Prompt for another agent:**
+
+> Review R01 at the published commit, starting with README.md, M03_M04_TRILEMMA_THEOREMS.md, TRILEMMA_CONTRACT.json and received proposal. Read M01, M02 and M10 to check that the extension alters neither e/a/q, known rejection, receipts nor historical costs. Your objective is attempting to refute proofs, not confirming examples. Check F1 for every history/adaptation/randomization, including interleaved queries and first observations through effects; F2/F4 must have constructions attaining each frontier. Check reduction to first high action in W, balanced G/Bj measures, WC argument without presuming symmetry and W5 without confusing hard budget with expected cost. Verify rounding, equality, empty bands, all connectors, abstention, memory, pooling and prior data. Try global binary certificates, asymmetric priors, common routes, batch tariffs and barriers; determine exactly which hypotheses change. Examine T1, producer charge, T2 and authorized dispatch; distinguish absolute/relative elimination and zero risk versus additional cost. Reproduce the checker and develop an independent method for a small domain without copying its recurrence. Do not close M05/C05 by reusing the author's program. Preserve historical source/fixtures/reports/manifests, record commit, UTC, commands and hashes. Deliver per theorem: VALIDATED IN ITS CLASS, COUNTEREXAMPLE with trace, or GAP with necessary assumption. Do not extrapolate to every technology, distribution, geometry, HF or EA; M06/M07 and independent review remain open until their evidence.

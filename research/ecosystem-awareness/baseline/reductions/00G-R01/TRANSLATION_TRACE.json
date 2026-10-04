@@ -31,7 +31,7 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "00G-R01 Reducción de 00G",
+          "source_heading": "00G-R01 Reduction of 00G",
           "english_heading": "00G-R01 Reduction of 00G",
           "source_anchor": "00g-r01-reducción-de-00g",
           "english_anchor": "00g-r01-reduction-of-00g"
@@ -43,283 +43,283 @@
           "english_anchor": "abstract"
         },
         {
-          "source_heading": "Lectura del documento",
+          "source_heading": "Reading the document",
           "english_heading": "Reading the document",
           "source_anchor": "lectura-del-documento",
           "english_anchor": "reading-the-document"
         },
         {
-          "source_heading": "1 El problema estructural",
+          "source_heading": "1 The structural problem",
           "english_heading": "1 The structural problem",
           "source_anchor": "1-el-problema-estructural",
           "english_anchor": "1-the-structural-problem"
         },
         {
-          "source_heading": "1.1 El ámbito de aplicación de una arquitectura",
+          "source_heading": "1.1 The scope of an architecture",
           "english_heading": "1.1 An architecture's scope of application",
           "source_anchor": "11-el-ámbito-de-aplicación-de-una-arquitectura",
           "english_anchor": "11-an-architectures-scope-of-application"
         },
         {
-          "source_heading": "1.2 Dos áreas y un trilema",
+          "source_heading": "1.2 Two areas and a trilemma",
           "english_heading": "1.2 Two areas and a trilemma",
           "source_anchor": "12-dos-áreas-y-un-trilema",
           "english_anchor": "12-two-areas-and-a-trilemma"
         },
         {
-          "source_heading": "1.3 Qué pueden resolver las mejoras",
+          "source_heading": "1.3 What improvements can resolve",
           "english_heading": "1.3 What improvements may resolve",
           "source_anchor": "13-qué-pueden-resolver-las-mejoras",
           "english_anchor": "13-what-improvements-may-resolve"
         },
         {
-          "source_heading": "1.4 Evaluación y referencia convencional",
+          "source_heading": "1.4 Evaluation and conventional reference",
           "english_heading": "1.4 Evaluation and conventional reference",
           "source_anchor": "14-evaluación-y-referencia-convencional",
           "english_anchor": "14-evaluation-and-conventional-reference"
         },
         {
-          "source_heading": "1.5 Qué demostraría el escenario",
+          "source_heading": "1.5 What the scenario would demonstrate",
           "english_heading": "1.5 What the scenario would demonstrate",
           "source_anchor": "15-qué-demostraría-el-escenario",
           "english_anchor": "15-what-the-scenario-would-demonstrate"
         },
         {
-          "source_heading": "1.6 Controles presupuesto y elección de arquitectura",
+          "source_heading": "1.6 Budget controls and architecture selection",
           "english_heading": "1.6 Controls, budget and architecture choice",
           "source_anchor": "16-controles-presupuesto-y-elección-de-arquitectura",
           "english_anchor": "16-controls-budget-and-architecture-choice"
         },
         {
-          "source_heading": "1.7 Cómo detectar el área y qué aporta la supervisión humana",
+          "source_heading": "1.7 How to detect the area and what human supervision contributes",
           "english_heading": "1.7 How to detect the area and what human oversight contributes",
           "source_anchor": "17-cómo-detectar-el-área-y-qué-aporta-la-supervisión-humana",
           "english_anchor": "17-how-to-detect-the-area-and-what-human-oversight-contributes"
         },
         {
-          "source_heading": "1.8 Notación de lectura",
+          "source_heading": "1.8 Reading notation",
           "english_heading": "1.8 Reading notation",
           "source_anchor": "18-notación-de-lectura",
           "english_anchor": "18-reading-notation"
         },
         {
-          "source_heading": "2 El escenario y sus configuraciones",
+          "source_heading": "2 The scenario and its configurations",
           "english_heading": "2 The scenario and its configurations",
           "source_anchor": "2-el-escenario-y-sus-configuraciones",
           "english_anchor": "2-the-scenario-and-its-configurations"
         },
         {
-          "source_heading": "2.1 Tarea y trayectorias de referencia etiquetadas",
+          "source_heading": "2.1 Task and labeled reference trajectories",
           "english_heading": "2.1 Task and labeled reference trajectories",
           "source_anchor": "21-tarea-y-trayectorias-de-referencia-etiquetadas",
           "english_anchor": "21-task-and-labeled-reference-trajectories"
         },
         {
-          "source_heading": "2.2 Tramos y relaciones entre ellos",
+          "source_heading": "2.2 Segments and relations between them",
           "english_heading": "2.2 Segments and relations between them",
           "source_anchor": "22-tramos-y-relaciones-entre-ellos",
           "english_anchor": "22-segments-and-relations-between-them"
         },
         {
-          "source_heading": "2.3 Beneficios heterogéneos con promedio fijado",
+          "source_heading": "2.3 Heterogeneous benefits with a fixed mean",
           "english_heading": "2.3 Heterogeneous benefits with fixed average",
           "source_anchor": "23-beneficios-heterogéneos-con-promedio-fijado",
           "english_anchor": "23-heterogeneous-benefits-with-fixed-average"
         },
         {
-          "source_heading": "2.4 Proximidad y radio creativo",
+          "source_heading": "2.4 Proximity and creative radius",
           "english_heading": "2.4 Proximity and creative radius",
           "source_anchor": "24-proximidad-y-radio-creativo",
           "english_anchor": "24-proximity-and-creative-radius"
         },
         {
-          "source_heading": "2.5 Agentes y colaboración",
+          "source_heading": "2.5 Agents and collaboration",
           "english_heading": "2.5 Agents and collaboration",
           "source_anchor": "25-agentes-y-colaboración",
           "english_anchor": "25-agents-and-collaboration"
         },
         {
-          "source_heading": "2.6 Información que recibe cada componente",
+          "source_heading": "2.6 Information received by each component",
           "english_heading": "2.6 Information received by each component",
           "source_anchor": "26-información-que-recibe-cada-componente",
           "english_anchor": "26-information-received-by-each-component"
         },
         {
-          "source_heading": "2.7 Secuencia de decisión",
+          "source_heading": "2.7 Decision sequence",
           "english_heading": "2.7 Decision sequence",
           "source_anchor": "27-secuencia-de-decisión",
           "english_anchor": "27-decision-sequence"
         },
         {
-          "source_heading": "2.8 Validación convencional hacia atrás y hacia delante",
+          "source_heading": "2.8 Conventional backward and forward validation",
           "english_heading": "2.8 Conventional backward and forward validation",
           "source_anchor": "28-validación-convencional-hacia-atrás-y-hacia-delante",
           "english_anchor": "28-conventional-backward-and-forward-validation"
         },
         {
-          "source_heading": "2.9 Cómo puede haber una infracción de composición",
+          "source_heading": "2.9 How a composition violation can occur",
           "english_heading": "2.9 How a composition violation may occur",
           "source_anchor": "29-cómo-puede-haber-una-infracción-de-composición",
           "english_anchor": "29-how-a-composition-violation-may-occur"
         },
         {
-          "source_heading": "2.10 Señalización y validación social",
+          "source_heading": "2.10 Signaling and social validation",
           "english_heading": "2.10 Signaling and social validation",
           "source_anchor": "210-señalización-y-validación-social",
           "english_anchor": "210-signaling-and-social-validation"
         },
         {
-          "source_heading": "2.11 Coste de exploración y coste de revisión",
+          "source_heading": "2.11 Exploration cost and review cost",
           "english_heading": "2.11 Exploration cost and review cost",
           "source_anchor": "211-coste-de-exploración-y-coste-de-revisión",
           "english_anchor": "211-exploration-cost-and-review-cost"
         },
         {
-          "source_heading": "2.12 Presupuesto y plazo",
+          "source_heading": "2.12 Budget and deadline",
           "english_heading": "2.12 Budget and deadline",
           "source_anchor": "212-presupuesto-y-plazo",
           "english_anchor": "212-budget-and-deadline"
         },
         {
-          "source_heading": "2.13 Inventario de configuración",
+          "source_heading": "2.13 Configuration inventory",
           "english_heading": "2.13 Configuration inventory",
           "source_anchor": "213-inventario-de-configuración",
           "english_anchor": "213-configuration-inventory"
         },
         {
-          "source_heading": "2.14 Familias de configuración que interesa distinguir",
+          "source_heading": "2.14 Configuration families worth distinguishing",
           "english_heading": "2.14 Configuration families to distinguish",
           "source_anchor": "214-familias-de-configuración-que-interesa-distinguir",
           "english_anchor": "214-configuration-families-to-distinguish"
         },
         {
-          "source_heading": "2.15 Familia de políticas y controles",
+          "source_heading": "2.15 Family of policies and controls",
           "english_heading": "2.15 Policy and control family",
           "source_anchor": "215-familia-de-políticas-y-controles",
           "english_anchor": "215-policy-and-control-family"
         },
         {
-          "source_heading": "2.16 Qué debe registrar una trayectoria auditable",
+          "source_heading": "2.16 What an auditable trajectory must record",
           "english_heading": "2.16 What an auditable trajectory must record",
           "source_anchor": "216-qué-debe-registrar-una-trayectoria-auditable",
           "english_anchor": "216-what-an-auditable-trajectory-must-record"
         },
         {
-          "source_heading": "2.17 Estados y requisitos verificables antes de ejecutar",
+          "source_heading": "2.17 States and verifiable requirements before execution",
           "english_heading": "2.17 States and verifiable requirements before execution",
           "source_anchor": "217-estados-y-requisitos-verificables-antes-de-ejecutar",
           "english_anchor": "217-states-and-verifiable-requirements-before-execution"
         },
         {
-          "source_heading": "2.18 Contrastes de los mecanismos propuestos",
+          "source_heading": "2.18 Contrasts of the proposed mechanisms",
           "english_heading": "2.18 Contrasts of proposed mechanisms",
           "source_anchor": "218-contrastes-de-los-mecanismos-propuestos",
           "english_anchor": "218-contrasts-of-proposed-mechanisms"
         },
         {
-          "source_heading": "3 Familia 00G escenario reducido y referencia Hugging Face",
+          "source_heading": "3 Family 00G reduced scenario and Hugging Face reference",
           "english_heading": "3 00G family, reduced scenario and Hugging Face reference",
           "source_anchor": "3-familia-00g-escenario-reducido-y-referencia-hugging-face",
           "english_anchor": "3-00g-family-reduced-scenario-and-hugging-face-reference"
         },
         {
-          "source_heading": "3.1 La familia es más amplia que el relato de Napoleón",
+          "source_heading": "3.1 The family is broader than the Napoleon account",
           "english_heading": "3.1 The family is broader than the Napoleon narrative",
           "source_anchor": "31-la-familia-es-más-amplia-que-el-relato-de-napoleón",
           "english_anchor": "31-the-family-is-broader-than-the-napoleon-narrative"
         },
         {
-          "source_heading": "3.2 Qué especialización puede sostenerse y cómo demostrarla",
+          "source_heading": "3.2 What specialization can be supported and how to demonstrate it",
           "english_heading": "3.2 Which specialization can be sustained and how to prove it",
           "source_anchor": "32-qué-especialización-puede-sostenerse-y-cómo-demostrarla",
           "english_anchor": "32-which-specialization-can-be-sustained-and-how-to-prove-it"
         },
         {
-          "source_heading": "3.3 Qué documenta el incidente de OpenAI y Hugging Face",
+          "source_heading": "3.3 What the OpenAI and Hugging Face incident documents",
           "english_heading": "3.3 What the OpenAI and Hugging Face incident documents",
           "source_anchor": "33-qué-documenta-el-incidente-de-openai-y-hugging-face",
           "english_anchor": "33-what-the-openai-and-hugging-face-incident-documents"
         },
         {
-          "source_heading": "3.4 Correspondencias documentadas y frontera de la reducción",
+          "source_heading": "3.4 Documented correspondences and the boundary of the reduction",
           "english_heading": "3.4 Documented correspondences and reduction boundary",
           "source_anchor": "34-correspondencias-documentadas-y-frontera-de-la-reducción",
           "english_anchor": "34-documented-correspondences-and-reduction-boundary"
         },
         {
-          "source_heading": "3.5 Obligaciones para admitir la relación",
+          "source_heading": "3.5 Obligations for admitting the relationship",
           "english_heading": "3.5 Obligations for admitting the relation",
           "source_anchor": "35-obligaciones-para-admitir-la-relación",
           "english_anchor": "35-obligations-for-admitting-the-relation"
         },
         {
-          "source_heading": "3.6 Qué cambian los controles de producción",
+          "source_heading": "3.6 What production controls change",
           "english_heading": "3.6 What production controls change",
           "source_anchor": "36-qué-cambian-los-controles-de-producción",
           "english_anchor": "36-what-production-controls-change"
         },
         {
-          "source_heading": "3.7 Relación con el trabajo previo y sus recorridos",
+          "source_heading": "3.7 Relationship to previous work and its traversals",
           "english_heading": "3.7 Relationship with previous work and its runs",
           "source_anchor": "37-relación-con-el-trabajo-previo-y-sus-recorridos",
           "english_anchor": "37-relationship-with-previous-work-and-its-runs"
         },
         {
-          "source_heading": "4 Apéndice sobre Ecosystem Awareness como candidata",
+          "source_heading": "4 Appendix on Ecosystem Awareness as a candidate",
           "english_heading": "4 Appendix on Ecosystem Awareness as a candidate",
           "source_anchor": "4-apéndice-sobre-ecosystem-awareness-como-candidata",
           "english_anchor": "4-appendix-on-ecosystem-awareness-as-a-candidate"
         },
         {
-          "source_heading": "4.1 La contribución que merece investigarse",
+          "source_heading": "4.1 The contribution worth investigating",
           "english_heading": "4.1 The contribution worth investigating",
           "source_anchor": "41-la-contribución-que-merece-investigarse",
           "english_anchor": "41-the-contribution-worth-investigating"
         },
         {
-          "source_heading": "4.2 Correspondencia con las hipótesis generales",
+          "source_heading": "4.2 Correspondence with the general hypotheses",
           "english_heading": "4.2 Correspondence with general hypotheses",
           "source_anchor": "42-correspondencia-con-las-hipótesis-generales",
           "english_anchor": "42-correspondence-with-general-hypotheses"
         },
         {
-          "source_heading": "4.3 Matriz de las hipótesis diferenciales de EA",
+          "source_heading": "4.3 Matrix of EA differential hypotheses",
           "english_heading": "4.3 EA differential hypothesis matrix",
           "source_anchor": "43-matriz-de-las-hipótesis-diferenciales-de-ea",
           "english_anchor": "43-ea-differential-hypothesis-matrix"
         },
         {
-          "source_heading": "4.4 Pequeña comprobación analítica de un ahorro posible",
+          "source_heading": "4.4 Small analytical check of possible savings",
           "english_heading": "4.4 Small analytical check of possible savings",
           "source_anchor": "44-pequeña-comprobación-analítica-de-un-ahorro-posible",
           "english_anchor": "44-small-analytical-check-of-possible-savings"
         },
         {
-          "source_heading": "4.5 Controles donde no habría ventaja",
+          "source_heading": "4.5 Controls where there would be no advantage",
           "english_heading": "4.5 Controls where there would be no advantage",
           "source_anchor": "45-controles-donde-no-habría-ventaja",
           "english_anchor": "45-controls-where-there-would-be-no-advantage"
         },
         {
-          "source_heading": "4.6 Cómo contrastar la candidatura con otras técnicas",
+          "source_heading": "4.6 How to compare the candidacy with other techniques",
           "english_heading": "4.6 How to test the candidacy against other techniques",
           "source_anchor": "46-cómo-contrastar-la-candidatura-con-otras-técnicas",
           "english_anchor": "46-how-to-test-the-candidacy-against-other-techniques"
         },
         {
-          "source_heading": "4.7 Qué queda fijado y qué queda por medir",
+          "source_heading": "4.7 What is fixed and what remains to be measured",
           "english_heading": "4.7 What is fixed and what remains to measure",
           "source_anchor": "47-qué-queda-fijado-y-qué-queda-por-medir",
           "english_anchor": "47-what-is-fixed-and-what-remains-to-measure"
         },
         {
-          "source_heading": "4.8 Fuentes y localizadores de auditoría",
+          "source_heading": "4.8 Sources and audit locators",
           "english_heading": "4.8 Sources and audit locators",
           "source_anchor": "48-fuentes-y-localizadores-de-auditoría",
           "english_anchor": "48-sources-and-audit-locators"
         },
         {
-          "source_heading": "4.9 Registro de versiones y estado del documento",
+          "source_heading": "4.9 Version record and document status",
           "english_heading": "4.9 Version record and document status",
           "source_anchor": "49-registro-de-versiones-y-estado-del-documento",
           "english_anchor": "49-version-record-and-document-status"
@@ -353,73 +353,73 @@
       ],
       "heading_correspondence": [
         {
-          "source_heading": "00G-R01 Reducción de 00G",
+          "source_heading": "00G-R01 Reduction of 00G",
           "english_heading": "00G-R01 Reduction of 00G",
           "source_anchor": "00g-r01-reducción-de-00g",
           "english_anchor": "00g-r01-reduction-of-00g"
         },
         {
-          "source_heading": "Exploración probabilística y coste de validación",
+          "source_heading": "Probabilistic exploration and validation cost",
           "english_heading": "Probabilistic exploration and validation cost",
           "source_anchor": "exploración-probabilística-y-coste-de-validación",
           "english_anchor": "probabilistic-exploration-and-validation-cost"
         },
         {
-          "source_heading": "Guía de lectura",
+          "source_heading": "Reading guide",
           "english_heading": "Reading guide",
           "source_anchor": "guía-de-lectura",
           "english_anchor": "reading-guide"
         },
         {
-          "source_heading": "Lugar de la reducción dentro de 00G",
+          "source_heading": "Place of the reduction within 00G",
           "english_heading": "Place of the reduction within 00G",
           "source_anchor": "lugar-de-la-reducción-dentro-de-00g",
           "english_anchor": "place-of-the-reduction-within-00g"
         },
         {
-          "source_heading": "Fundamento y prueba de la reducción",
+          "source_heading": "Foundation and proof of the reduction",
           "english_heading": "Foundation and proof of the reduction",
           "source_anchor": "fundamento-y-prueba-de-la-reducción",
           "english_anchor": "foundation-and-proof-of-the-reduction"
         },
         {
-          "source_heading": "Cómo se hace la reducción",
+          "source_heading": "How the reduction is performed",
           "english_heading": "How the reduction is performed",
           "source_anchor": "cómo-se-hace-la-reducción",
           "english_anchor": "how-the-reduction-is-performed"
         },
         {
-          "source_heading": "Identificación y estado",
+          "source_heading": "Identification and status",
           "english_heading": "Identification and status",
           "source_anchor": "identificación-y-estado",
           "english_anchor": "identification-and-status"
         },
         {
-          "source_heading": "Control del test y alcance del oráculo C3",
+          "source_heading": "Test control and scope of the C3 oracle",
           "english_heading": "Test control and scope of the C3 oracle",
           "source_anchor": "control-del-test-y-alcance-del-oráculo-c3",
           "english_anchor": "test-control-and-scope-of-the-c3-oracle"
         },
         {
-          "source_heading": "Historial de ensayos y trabajo pendiente",
+          "source_heading": "Trial history and pending work",
           "english_heading": "Trial history and pending work",
           "source_anchor": "historial-de-ensayos-y-trabajo-pendiente",
           "english_anchor": "trial-history-and-pending-work"
         },
         {
-          "source_heading": "Extensiones",
+          "source_heading": "Extensions",
           "english_heading": "Extensions",
           "source_anchor": "extensiones",
           "english_anchor": "extensions"
         },
         {
-          "source_heading": "Reproducción conjunta de las comprobaciones",
+          "source_heading": "Joint reproduction of the checks",
           "english_heading": "Joint reproduction of the checks",
           "source_anchor": "reproducción-conjunta-de-las-comprobaciones",
           "english_anchor": "joint-reproduction-of-the-checks"
         },
         {
-          "source_heading": "Archivos y reproducción editorial",
+          "source_heading": "Files and editorial reproduction",
           "english_heading": "Files and editorial reproduction",
           "source_anchor": "archivos-y-reproducción-editorial",
           "english_anchor": "files-and-editorial-reproduction"
@@ -451,61 +451,61 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Criterio común y revisión de las tres extensiones de R01",
+          "source_heading": "Common criterion and review of the three R01 extensions",
           "english_heading": "Common criterion and review of the three R01 extensions",
           "source_anchor": "criterio-común-y-revisión-de-las-tres-extensiones-de-r01",
           "english_anchor": "common-criterion-and-review-of-the-three-r01-extensions"
         },
         {
-          "source_heading": "1 Base fijada y objeto de la revisión",
+          "source_heading": "1 Fixed baseline and purpose of the review",
           "english_heading": "1 Fixed base and object of the review",
           "source_anchor": "1-base-fijada-y-objeto-de-la-revisión",
           "english_anchor": "1-fixed-base-and-object-of-the-review"
         },
         {
-          "source_heading": "2 Contrato común de correspondencia",
+          "source_heading": "2 Common correspondence contract",
           "english_heading": "2 Common correspondence contract",
           "source_anchor": "2-contrato-común-de-correspondencia",
           "english_anchor": "2-common-correspondence-contract"
         },
         {
-          "source_heading": "3 Estados de evidencia comunes",
+          "source_heading": "3 Common evidence states",
           "english_heading": "3 Common evidence states",
           "source_anchor": "3-estados-de-evidencia-comunes",
           "english_anchor": "3-common-evidence-states"
         },
         {
-          "source_heading": "4 Fichas comparables",
+          "source_heading": "4 Comparable records",
           "english_heading": "4 Comparable records",
           "source_anchor": "4-fichas-comparables",
           "english_anchor": "4-comparable-records"
         },
         {
-          "source_heading": "5 Matriz común de los quince grupos de R01 §2.13",
+          "source_heading": "5 Common matrix of the fifteen R01 §2.13 groups",
           "english_heading": "5 Common matrix of the fifteen R01 §2.13 groups",
           "source_anchor": "5-matriz-común-de-los-quince-grupos-de-r01-213",
           "english_anchor": "5-common-matrix-of-the-fifteen-r01-213-groups"
         },
         {
-          "source_heading": "6 A25 X1–X7 con el mismo alcance",
+          "source_heading": "6 A25 X1–X7 with the same scope",
           "english_heading": "6 A25 X1–X7 with the same scope",
           "source_anchor": "6-a25-x1x7-con-el-mismo-alcance",
           "english_anchor": "6-a25-x1x7-with-the-same-scope"
         },
         {
-          "source_heading": "7 Resolución de las observaciones del auditor",
+          "source_heading": "7 Resolution of the auditor's observations",
           "english_heading": "7 Resolution of the auditor's observations",
           "source_anchor": "7-resolución-de-las-observaciones-del-auditor",
           "english_anchor": "7-resolution-of-the-auditors-observations"
         },
         {
-          "source_heading": "8 Reproducibilidad e integridad",
+          "source_heading": "8 Reproducibility and integrity",
           "english_heading": "8 Reproducibility and integrity",
           "source_anchor": "8-reproducibilidad-e-integridad",
           "english_anchor": "8-reproducibility-and-integrity"
         },
         {
-          "source_heading": "9 Fundamento metodológico y transferencia comparativa",
+          "source_heading": "9 Methodological foundation and comparative transfer",
           "english_heading": "9 Methodological foundations and comparative transfer",
           "source_anchor": "9-fundamento-metodológico-y-transferencia-comparativa",
           "english_anchor": "9-methodological-foundations-and-comparative-transfer"
@@ -537,43 +537,43 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Revisión editorial, coherencia y reproducción del paquete R01",
+          "source_heading": "Editorial review, consistency and reproduction of the R01 package",
           "english_heading": "Editorial review, coherence and reproduction of the R01 package",
           "source_anchor": "revisión-editorial-coherencia-y-reproducción-del-paquete-r01",
           "english_anchor": "editorial-review-coherence-and-reproduction-of-the-r01-package"
         },
         {
-          "source_heading": "1 Alcance y resultado",
+          "source_heading": "1 Scope and result",
           "english_heading": "1 Scope and outcome",
           "source_anchor": "1-alcance-y-resultado",
           "english_anchor": "1-scope-and-outcome"
         },
         {
-          "source_heading": "2 Procedimiento aplicado",
+          "source_heading": "2 Procedure applied",
           "english_heading": "2 Procedure applied",
           "source_anchor": "2-procedimiento-aplicado",
           "english_anchor": "2-procedure-applied"
         },
         {
-          "source_heading": "3 Un criterio, tres objetos",
+          "source_heading": "3 One criterion, three objects",
           "english_heading": "3 One criterion, three objects",
           "source_anchor": "3-un-criterio-tres-objetos",
           "english_anchor": "3-one-criterion-three-objects"
         },
         {
-          "source_heading": "4 Correcciones editoriales",
+          "source_heading": "4 Editorial corrections",
           "english_heading": "4 Editorial corrections",
           "source_anchor": "4-correcciones-editoriales",
           "english_anchor": "4-editorial-corrections"
         },
         {
-          "source_heading": "5 Cómo repetir la comprobación",
+          "source_heading": "5 How to repeat the check",
           "english_heading": "5 How to repeat the check",
           "source_anchor": "5-cómo-repetir-la-comprobación",
           "english_anchor": "5-how-to-repeat-the-check"
         },
         {
-          "source_heading": "6 Qué sigue abierto",
+          "source_heading": "6 What remains open",
           "english_heading": "6 What remains open",
           "source_anchor": "6-qué-sigue-abierto",
           "english_anchor": "6-what-remains-open"
@@ -605,79 +605,79 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Fundamento metodológico: probar R01 y transferir sólo propiedades preservadas",
+          "source_heading": "Methodological foundation: proving R01 and transferring only preserved properties",
           "english_heading": "Methodological foundations: test R01 and transfer only preserved properties",
           "source_anchor": "fundamento-metodológico-probar-r01-y-transferir-sólo-propiedades-preservadas",
           "english_anchor": "methodological-foundations-test-r01-and-transfer-only-preserved-properties"
         },
         {
-          "source_heading": "1 Qué justifica este método",
+          "source_heading": "1 What justifies this method",
           "english_heading": "1 What justifies this method",
           "source_anchor": "1-qué-justifica-este-método",
           "english_anchor": "1-what-justifies-this-method"
         },
         {
-          "source_heading": "2 Precedentes y correspondencia precisa",
+          "source_heading": "2 Precedents and precise correspondence",
           "english_heading": "2 Precedents and precise correspondence",
           "source_anchor": "2-precedentes-y-correspondencia-precisa",
           "english_anchor": "2-precedents-and-precise-correspondence"
         },
         {
-          "source_heading": "2.1 Pruebas concretas en otras áreas",
+          "source_heading": "2.1 Concrete proofs in other areas",
           "english_heading": "2.1 Concrete tests in other areas",
           "source_anchor": "21-pruebas-concretas-en-otras-áreas",
           "english_anchor": "21-concrete-tests-in-other-areas"
         },
         {
-          "source_heading": "2.2 Precedente reciente relacionado con modelos neuronales",
+          "source_heading": "2.2 Recent precedent related to neural models",
           "english_heading": "2.2 Recent precedent related to neural models",
           "source_anchor": "22-precedente-reciente-relacionado-con-modelos-neuronales",
           "english_anchor": "22-recent-precedent-related-to-neural-models"
         },
         {
-          "source_heading": "3 Tres relaciones que no deben confundirse",
+          "source_heading": "3 Three relationships that must not be confused",
           "english_heading": "3 Three relations that must not be confused",
           "source_anchor": "3-tres-relaciones-que-no-deben-confundirse",
           "english_anchor": "3-three-relations-that-must-not-be-confused"
         },
         {
-          "source_heading": "4 Resultado formal para una comparación EA–control",
+          "source_heading": "4 Formal result for an EA–control comparison",
           "english_heading": "4 Formal result for an EA–control comparison",
           "source_anchor": "4-resultado-formal-para-una-comparación-eacontrol",
           "english_anchor": "4-formal-result-for-an-eacontrol-comparison"
         },
         {
-          "source_heading": "4.1 Si la conservación sólo es aproximada",
+          "source_heading": "4.1 If preservation is only approximate",
           "english_heading": "4.1 If preservation is only approximate",
           "source_anchor": "41-si-la-conservación-sólo-es-aproximada",
           "english_anchor": "41-if-preservation-is-only-approximate"
         },
         {
-          "source_heading": "5 Qué significa probar primero EA en el reducido",
+          "source_heading": "5 What it means to prove EA first in the reduced model",
           "english_heading": "5 What testing EA in the reduced model first means",
           "source_anchor": "5-qué-significa-probar-primero-ea-en-el-reducido",
           "english_anchor": "5-what-testing-ea-in-the-reduced-model-first-means"
         },
         {
-          "source_heading": "6 Crítica de las afirmaciones anteriores",
+          "source_heading": "6 Criticism of previous claims",
           "english_heading": "6 Critique of previous claims",
           "source_anchor": "6-crítica-de-las-afirmaciones-anteriores",
           "english_anchor": "6-critique-of-previous-claims"
         },
         {
-          "source_heading": "6.1 Tratamiento de la bibliografía recibida",
+          "source_heading": "6.1 Treatment of the received bibliography",
           "english_heading": "6.1 Treatment of the received bibliography",
           "source_anchor": "61-tratamiento-de-la-bibliografía-recibida",
           "english_anchor": "61-treatment-of-the-received-bibliography"
         },
         {
-          "source_heading": "7 Afirmación metodológica defendible",
+          "source_heading": "7 Defensible methodological claim",
           "english_heading": "7 Defensible methodological claim",
           "source_anchor": "7-afirmación-metodológica-defendible",
           "english_anchor": "7-defensible-methodological-claim"
         },
         {
-          "source_heading": "8 Referencias primarias y localizadores",
+          "source_heading": "8 Primary references and locators",
           "english_heading": "8 Primary references and locators",
           "source_anchor": "8-referencias-primarias-y-localizadores",
           "english_anchor": "8-primary-references-and-locators"
@@ -709,73 +709,73 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Núcleo funcional isomorfo y extensión parametrizada de R01",
+          "source_heading": "Isomorphic functional core and parameterized extension of R01",
           "english_heading": "Isomorphic functional kernel and parameterized extension of R01",
           "source_anchor": "núcleo-funcional-isomorfo-y-extensión-parametrizada-de-r01",
           "english_anchor": "isomorphic-functional-kernel-and-parameterized-extension-of-r01"
         },
         {
-          "source_heading": "1 Afirmación que se quiere probar",
+          "source_heading": "1 Claim to be proved",
           "english_heading": "1 Claim to be proved",
           "source_anchor": "1-afirmación-que-se-quiere-probar",
           "english_anchor": "1-claim-to-be-proved"
         },
         {
-          "source_heading": "2 Estructura del caso base",
+          "source_heading": "2 Structure of the base case",
           "english_heading": "2 Structure of the base case",
           "source_anchor": "2-estructura-del-caso-base",
           "english_anchor": "2-structure-of-the-base-case"
         },
         {
-          "source_heading": "3 Inventario completo de correspondencias principales",
+          "source_heading": "3 Complete inventory of main correspondences",
           "english_heading": "3 Complete inventory of main correspondences",
           "source_anchor": "3-inventario-completo-de-correspondencias-principales",
           "english_anchor": "3-complete-inventory-of-main-correspondences"
         },
         {
-          "source_heading": "4 Extensión, transformación y proyección",
+          "source_heading": "4 Extension, transformation and projection",
           "english_heading": "4 Extension, transformation and projection",
           "source_anchor": "4-extensión-transformación-y-proyección",
           "english_anchor": "4-extension-transformation-and-projection"
         },
         {
-          "source_heading": "4.1 Obligaciones E1–E7",
+          "source_heading": "4.1 Obligations E1–E7",
           "english_heading": "4.1 Obligations E1–E7",
           "source_anchor": "41-obligaciones-e1e7",
           "english_anchor": "41-obligations-e1e7"
         },
         {
-          "source_heading": "5 Proposición de conservación y prueba",
+          "source_heading": "5 Preservation proposition and proof",
           "english_heading": "5 Preservation proposition and proof",
           "source_anchor": "5-proposición-de-conservación-y-prueba",
           "english_anchor": "5-preservation-proposition-and-proof"
         },
         {
-          "source_heading": "5.1 Construcción de una clase de extensiones",
+          "source_heading": "5.1 Construction of a class of extensions",
           "english_heading": "5.1 Construction of a class of extensions",
           "source_anchor": "51-construcción-de-una-clase-de-extensiones",
           "english_anchor": "51-construction-of-a-class-of-extensions"
         },
         {
-          "source_heading": "5.2 Corolario para dos brazos comparados",
+          "source_heading": "5.2 Corollary for two compared arms",
           "english_heading": "5.2 Corollary for two compared arms",
           "source_anchor": "52-corolario-para-dos-brazos-comparados",
           "english_anchor": "52-corollary-for-two-compared-arms"
         },
         {
-          "source_heading": "6 Transformaciones concretas y contraejemplos",
+          "source_heading": "6 Concrete transformations and counterexamples",
           "english_heading": "6 Concrete transformations and counterexamples",
           "source_anchor": "6-transformaciones-concretas-y-contraejemplos",
           "english_anchor": "6-concrete-transformations-and-counterexamples"
         },
         {
-          "source_heading": "7 Testigo finito, relación con A25 y límites",
+          "source_heading": "7 Finite witness, relationship to A25 and limits",
           "english_heading": "7 Finite witness, relationship with A25 and limits",
           "source_anchor": "7-testigo-finito-relación-con-a25-y-límites",
           "english_anchor": "7-finite-witness-relationship-with-a25-and-limits"
         },
         {
-          "source_heading": "8 Fuentes",
+          "source_heading": "8 Sources",
           "english_heading": "8 Sources",
           "source_anchor": "8-fuentes",
           "english_anchor": "8-sources"
@@ -807,67 +807,67 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Familia extendida de R01 con núcleo funcional isomorfo",
+          "source_heading": "Extended R01 family with an isomorphic functional core",
           "english_heading": "Extended R01 family with an isomorphic functional kernel",
           "source_anchor": "familia-extendida-de-r01-con-núcleo-funcional-isomorfo",
           "english_anchor": "extended-r01-family-with-an-isomorphic-functional-kernel"
         },
         {
-          "source_heading": "Ficha común de revisión",
+          "source_heading": "Common review fiche",
           "english_heading": "Common review record",
           "source_anchor": "ficha-común-de-revisión",
           "english_anchor": "common-review-record"
         },
         {
-          "source_heading": "1 Propósito y alcance",
+          "source_heading": "1 Purpose and scope",
           "english_heading": "1 Purpose and scope",
           "source_anchor": "1-propósito-y-alcance",
           "english_anchor": "1-purpose-and-scope"
         },
         {
-          "source_heading": "2 Qué significa extender R01",
+          "source_heading": "2 What it means to extend R01",
           "english_heading": "2 What extending R01 means",
           "source_anchor": "2-qué-significa-extender-r01",
           "english_anchor": "2-what-extending-r01-means"
         },
         {
-          "source_heading": "3 Casos documentados que motivan la familia",
+          "source_heading": "3 Documented cases motivating the family",
           "english_heading": "3 Documented cases motivating the family",
           "source_anchor": "3-casos-documentados-que-motivan-la-familia",
           "english_anchor": "3-documented-cases-motivating-the-family"
         },
         {
-          "source_heading": "4 Tres especializaciones construidas",
+          "source_heading": "4 Three constructed specializations",
           "english_heading": "4 Three constructed specializations",
           "source_anchor": "4-tres-especializaciones-construidas",
           "english_anchor": "4-three-constructed-specializations"
         },
         {
-          "source_heading": "4.1 H: escenario similar a Hugging Face",
+          "source_heading": "4.1 H: scenario similar to Hugging Face",
           "english_heading": "4.1 H: scenario similar to Hugging Face",
           "source_anchor": "41-h-escenario-similar-a-hugging-face",
           "english_anchor": "41-h-scenario-similar-to-hugging-face"
         },
         {
-          "source_heading": "4.2 L: escenario similar a la aceptación de falsas soluciones",
+          "source_heading": "4.2 L: scenario similar to acceptance of false solutions",
           "english_heading": "4.2 L: scenario similar to acceptance of false solutions",
           "source_anchor": "42-l-escenario-similar-a-la-aceptación-de-falsas-soluciones",
           "english_anchor": "42-l-scenario-similar-to-acceptance-of-false-solutions"
         },
         {
-          "source_heading": "4.3 W: escenario similar al descubrimiento de una wiki utilizable",
+          "source_heading": "4.3 W: scenario similar to discovery of a usable wiki",
           "english_heading": "4.3 W: scenario similar to discovering a usable wiki",
           "source_anchor": "43-w-escenario-similar-al-descubrimiento-de-una-wiki-utilizable",
           "english_anchor": "43-w-scenario-similar-to-discovering-a-usable-wiki"
         },
         {
-          "source_heading": "5 Qué se demuestra y qué se mide después",
+          "source_heading": "5 What is proved and what is measured afterward",
           "english_heading": "5 What is proved and what is measured afterward",
           "source_anchor": "5-qué-se-demuestra-y-qué-se-mide-después",
           "english_anchor": "5-what-is-proved-and-what-is-measured-afterward"
         },
         {
-          "source_heading": "6 Referencias internas y trazabilidad",
+          "source_heading": "6 Internal references and traceability",
           "english_heading": "6 Internal references and traceability",
           "source_anchor": "6-referencias-internas-y-trazabilidad",
           "english_anchor": "6-internal-references-and-traceability"
@@ -899,43 +899,43 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Comprobación finita del núcleo de las extensiones H/L/W",
+          "source_heading": "Finite check of the core of the H/L/W extensions",
           "english_heading": "Finite check of the H/L/W extension kernel",
           "source_anchor": "comprobación-finita-del-núcleo-de-las-extensiones-hlw",
           "english_anchor": "finite-check-of-the-hlw-extension-kernel"
         },
         {
-          "source_heading": "Qué se ha ejecutado",
+          "source_heading": "What has been executed",
           "english_heading": "What has been executed",
           "source_anchor": "qué-se-ha-ejecutado",
           "english_anchor": "what-has-been-executed"
         },
         {
-          "source_heading": "Dominio enumerado",
+          "source_heading": "Enumerated domain",
           "english_heading": "Enumerated domain",
           "source_anchor": "dominio-enumerado",
           "english_anchor": "enumerated-domain"
         },
         {
-          "source_heading": "Cómo evita una comprobación circular",
+          "source_heading": "How it avoids a circular check",
           "english_heading": "How it avoids a circular check",
           "source_anchor": "cómo-evita-una-comprobación-circular",
           "english_anchor": "how-it-avoids-a-circular-check"
         },
         {
-          "source_heading": "Resultado registrado",
+          "source_heading": "Recorded result",
           "english_heading": "Recorded result",
           "source_anchor": "resultado-registrado",
           "english_anchor": "recorded-result"
         },
         {
-          "source_heading": "Cobertura frente al inventario completo",
+          "source_heading": "Coverage against the complete inventory",
           "english_heading": "Coverage against the complete inventory",
           "source_anchor": "cobertura-frente-al-inventario-completo",
           "english_anchor": "coverage-against-the-complete-inventory"
         },
         {
-          "source_heading": "Reproducción",
+          "source_heading": "Reproduction",
           "english_heading": "Reproduction",
           "source_anchor": "reproducción",
           "english_anchor": "reproduction"
@@ -967,91 +967,91 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Extensión de R01: OpenAI / Hugging Face",
+          "source_heading": "R01 extension: OpenAI / Hugging Face",
           "english_heading": "R01 extension: OpenAI / Hugging Face",
           "source_anchor": "extensión-de-r01-openai--hugging-face",
           "english_anchor": "r01-extension-openai--hugging-face"
         },
         {
-          "source_heading": "Ficha común de revisión",
+          "source_heading": "Common review fiche",
           "english_heading": "Common review record",
           "source_anchor": "ficha-común-de-revisión",
           "english_anchor": "common-review-record"
         },
         {
-          "source_heading": "1. Dictamen y alcance",
+          "source_heading": "1. Verdict and scope",
           "english_heading": "1. Verdict and scope",
           "source_anchor": "1-dictamen-y-alcance",
           "english_anchor": "1-verdict-and-scope"
         },
         {
-          "source_heading": "Qué se comprobó realmente para Infoblox",
+          "source_heading": "What was actually checked for Infoblox",
           "english_heading": "What was actually checked for Infoblox",
           "source_anchor": "qué-se-comprobó-realmente-para-infoblox",
           "english_anchor": "what-was-actually-checked-for-infoblox"
         },
         {
-          "source_heading": "2. Qué debe conservar una extensión",
+          "source_heading": "2. What an extension must preserve",
           "english_heading": "2. What an extension must preserve",
           "source_anchor": "2-qué-debe-conservar-una-extensión",
           "english_anchor": "2-what-an-extension-must-preserve"
         },
         {
-          "source_heading": "3. Inventario de parámetros y resultados",
+          "source_heading": "3. Inventory of parameters and results",
           "english_heading": "3. Parameter and outcome inventory",
           "source_anchor": "3-inventario-de-parámetros-y-resultados",
           "english_anchor": "3-parameter-and-outcome-inventory"
         },
         {
-          "source_heading": "4. Comprobación reproducible ejecutada",
+          "source_heading": "4. Reproducible check executed",
           "english_heading": "4. Executed reproducible check",
           "source_anchor": "4-comprobación-reproducible-ejecutada",
           "english_anchor": "4-executed-reproducible-check"
         },
         {
-          "source_heading": "4.1 Dos representaciones y una malla conjunta",
+          "source_heading": "4.1 Two representations and a joint grid",
           "english_heading": "4.1 Two representations and a joint grid",
           "source_anchor": "41-dos-representaciones-y-una-malla-conjunta",
           "english_anchor": "41-two-representations-and-a-joint-grid"
         },
         {
-          "source_heading": "4.2 Información, costes y recursos",
+          "source_heading": "4.2 Information, costs and resources",
           "english_heading": "4.2 Information, costs and resources",
           "source_anchor": "42-información-costes-y-recursos",
           "english_anchor": "42-information-costs-and-resources"
         },
         {
-          "source_heading": "4.3 Resultado del comprobador",
+          "source_heading": "4.3 Checker result",
           "english_heading": "4.3 Checker result",
           "source_anchor": "43-resultado-del-comprobador",
           "english_anchor": "43-checker-result"
         },
         {
-          "source_heading": "5. Codependencias y contraejemplos",
+          "source_heading": "5. Codependencies and counterexamples",
           "english_heading": "5. Codependencies and counterexamples",
           "source_anchor": "5-codependencias-y-contraejemplos",
           "english_anchor": "5-codependencies-and-counterexamples"
         },
         {
-          "source_heading": "Qué impide una admisión automática del incidente",
+          "source_heading": "What prevents automatic admission of the incident",
           "english_heading": "What prevents automatic admission of the incident",
           "source_anchor": "qué-impide-una-admisión-automática-del-incidente",
           "english_anchor": "what-prevents-automatic-admission-of-the-incident"
         },
         {
-          "source_heading": "6. Resultado frente a A25",
+          "source_heading": "6. Outcome against A25",
           "english_heading": "6. Outcome against A25",
           "source_anchor": "6-resultado-frente-a-a25",
           "english_anchor": "6-outcome-against-a25"
         },
         {
-          "source_heading": "7. Reproducir y verificar",
+          "source_heading": "7. Reproduce and verify",
           "english_heading": "7. Reproduce and verify",
           "source_anchor": "7-reproducir-y-verificar",
           "english_anchor": "7-reproduce-and-verify"
         },
         {
-          "source_heading": "8. Fuentes y versión examinada",
+          "source_heading": "8. Sources and version examined",
           "english_heading": "8. Sources and examined version",
           "source_anchor": "8-fuentes-y-versión-examinada",
           "english_anchor": "8-sources-and-examined-version"
@@ -1083,7 +1083,7 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Hugging Face: código y resultados de la validación acotada",
+          "source_heading": "Hugging Face: code and results of the bounded validation",
           "english_heading": "Hugging Face: bounded validation code and results",
           "source_anchor": "hugging-face-código-y-resultados-de-la-validación-acotada",
           "english_anchor": "hugging-face-bounded-validation-code-and-results"
@@ -1115,301 +1115,301 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Extensión de R01: Infoblox",
+          "source_heading": "R01 extension: Infoblox",
           "english_heading": "R01 extension: Infoblox",
           "source_anchor": "extensión-de-r01-infoblox",
           "english_anchor": "r01-extension-infoblox"
         },
         {
-          "source_heading": "Ficha común de revisión",
+          "source_heading": "Common review fiche",
           "english_heading": "Common review record",
           "source_anchor": "ficha-común-de-revisión",
           "english_anchor": "common-review-record"
         },
         {
-          "source_heading": "R01 y su extensión al caso Infoblox",
+          "source_heading": "R01 and its extension to the Infoblox case",
           "english_heading": "R01 and its extension to the Infoblox case",
           "source_anchor": "r01-y-su-extensión-al-caso-infoblox",
           "english_anchor": "r01-and-its-extension-to-the-infoblox-case"
         },
         {
-          "source_heading": "1 Objetivo y resultado de la revisión",
+          "source_heading": "1 Purpose and result of the review",
           "english_heading": "1 Review objective and outcome",
           "source_anchor": "1-objetivo-y-resultado-de-la-revisión",
           "english_anchor": "1-review-objective-and-outcome"
         },
         {
-          "source_heading": "Cómo leer el documento",
+          "source_heading": "How to read the document",
           "english_heading": "How to read the document",
           "source_anchor": "cómo-leer-el-documento",
           "english_anchor": "how-to-read-the-document"
         },
         {
-          "source_heading": "2 Escenario de diagnóstico y rutas posibles",
+          "source_heading": "2 Diagnostic scenario and possible routes",
           "english_heading": "2 Diagnosis scenario and possible routes",
           "source_anchor": "2-escenario-de-diagnóstico-y-rutas-posibles",
           "english_anchor": "2-diagnosis-scenario-and-possible-routes"
         },
         {
-          "source_heading": "2 1 Control inicial de exportación P0",
+          "source_heading": "2 1 Initial export control P0",
           "english_heading": "2 1 Initial export control P0",
           "source_anchor": "2-1-control-inicial-de-exportación-p0",
           "english_anchor": "2-1-initial-export-control-p0"
         },
         {
-          "source_heading": "La pregunta que debe resolver la evidencia",
+          "source_heading": "The question the evidence must resolve",
           "english_heading": "The question evidence must resolve",
           "source_anchor": "la-pregunta-que-debe-resolver-la-evidencia",
           "english_anchor": "the-question-evidence-must-resolve"
         },
         {
-          "source_heading": "2 2 Composición de varias fuentes P1",
+          "source_heading": "2 2 Composition of multiple sources P1",
           "english_heading": "2 2 Multiple-source composition P1",
           "source_anchor": "2-2-composición-de-varias-fuentes-p1",
           "english_anchor": "2-2-multiple-source-composition-p1"
         },
         {
-          "source_heading": "2 3 Por qué una ruta prohibida puede parecer aceptable",
+          "source_heading": "2 3 Why a forbidden route can appear acceptable",
           "english_heading": "2 3 Why a forbidden route may seem acceptable",
           "source_anchor": "2-3-por-qué-una-ruta-prohibida-puede-parecer-aceptable",
           "english_anchor": "2-3-why-a-forbidden-route-may-seem-acceptable"
         },
         {
-          "source_heading": "3 Tecnologías y controles disponibles",
+          "source_heading": "3 Available technologies and controls",
           "english_heading": "3 Available technologies and controls",
           "source_anchor": "3-tecnologías-y-controles-disponibles",
           "english_anchor": "3-available-technologies-and-controls"
         },
         {
-          "source_heading": "Entradas y salidas que conectamos",
+          "source_heading": "Inputs and outputs we connect",
           "english_heading": "Inputs and outputs we connect",
           "source_anchor": "entradas-y-salidas-que-conectamos",
           "english_anchor": "inputs-and-outputs-we-connect"
         },
         {
-          "source_heading": "Condiciones de revisión",
+          "source_heading": "Review conditions",
           "english_heading": "Review conditions",
           "source_anchor": "condiciones-de-revisión",
           "english_anchor": "review-conditions"
         },
         {
-          "source_heading": "3 1 Qué dificultad puede resolver cada tecnología",
+          "source_heading": "3 1 What difficulty each technology can resolve",
           "english_heading": "3 1 Which difficulty each technology may resolve",
           "source_anchor": "3-1-qué-dificultad-puede-resolver-cada-tecnología",
           "english_anchor": "3-1-which-difficulty-each-technology-may-resolve"
         },
         {
-          "source_heading": "4 Los tres recorridos del ensayo",
+          "source_heading": "4 The three trial traversals",
           "english_heading": "4 The three trial runs",
           "source_anchor": "4-los-tres-recorridos-del-ensayo",
           "english_anchor": "4-the-three-trial-runs"
         },
         {
-          "source_heading": "4 1 Secuencia y variante dinámica P2",
+          "source_heading": "4 1 Sequence and dynamic variant P2",
           "english_heading": "4 1 Sequence and dynamic variant P2",
           "source_anchor": "4-1-secuencia-y-variante-dinámica-p2",
           "english_anchor": "4-1-sequence-and-dynamic-variant-p2"
         },
         {
-          "source_heading": "4 2 Ramas emparejadas y punto de ejecución",
+          "source_heading": "4 2 Paired branches and execution point",
           "english_heading": "4 2 Paired branches and execution point",
           "source_anchor": "4-2-ramas-emparejadas-y-punto-de-ejecución",
           "english_anchor": "4-2-paired-branches-and-execution-point"
         },
         {
-          "source_heading": "4 3 Condiciones pendientes y mecanismo social",
+          "source_heading": "4 3 Pending conditions and social mechanism",
           "english_heading": "4 3 Pending conditions and social mechanism",
           "source_anchor": "4-3-condiciones-pendientes-y-mecanismo-social",
           "english_anchor": "4-3-pending-conditions-and-social-mechanism"
         },
         {
-          "source_heading": "5 Qué debe conservar la extensión desde R01",
+          "source_heading": "5 What the extension must preserve from R01",
           "english_heading": "5 What the extension must preserve from R01",
           "source_anchor": "5-qué-debe-conservar-la-extensión-desde-r01",
           "english_anchor": "5-what-the-extension-must-preserve-from-r01"
         },
         {
-          "source_heading": "5 1 Alcance de las afirmaciones",
+          "source_heading": "5 1 Scope of the claims",
           "english_heading": "5 1 Scope of claims",
           "source_anchor": "5-1-alcance-de-las-afirmaciones",
           "english_anchor": "5-1-scope-of-claims"
         },
         {
-          "source_heading": "5 2 Factores y obligaciones de comprobación",
+          "source_heading": "5 2 Factors and checking obligations",
           "english_heading": "5 2 Factors and checking obligations",
           "source_anchor": "5-2-factores-y-obligaciones-de-comprobación",
           "english_anchor": "5-2-factors-and-checking-obligations"
         },
         {
-          "source_heading": "5 3 Condiciones de una correspondencia válida",
+          "source_heading": "5 3 Conditions for a valid correspondence",
           "english_heading": "5 3 Conditions of a valid correspondence",
           "source_anchor": "5-3-condiciones-de-una-correspondencia-válida",
           "english_anchor": "5-3-conditions-of-a-valid-correspondence"
         },
         {
-          "source_heading": "5 4 Por qué puede seguir haciendo falta información",
+          "source_heading": "5 4 Why information may still be needed",
           "english_heading": "5 4 Why information may still be needed",
           "source_anchor": "5-4-por-qué-puede-seguir-haciendo-falta-información",
           "english_anchor": "5-4-why-information-may-still-be-needed"
         },
         {
-          "source_heading": "6 Prueba acotada y resultados del modelo",
+          "source_heading": "6 Bounded proof and model results",
           "english_heading": "6 Bounded proof and model results",
           "source_anchor": "6-prueba-acotada-y-resultados-del-modelo",
           "english_anchor": "6-bounded-proof-and-model-results"
         },
         {
-          "source_heading": "6 1 Alcance de la demostración",
+          "source_heading": "6 1 Scope of the proof",
           "english_heading": "6 1 Proof scope",
           "source_anchor": "6-1-alcance-de-la-demostración",
           "english_anchor": "6-1-proof-scope"
         },
         {
-          "source_heading": "6 2 Dirección de la transferencia",
+          "source_heading": "6 2 Transfer direction",
           "english_heading": "6 2 Transfer direction",
           "source_anchor": "6-2-dirección-de-la-transferencia",
           "english_anchor": "6-2-transfer-direction"
         },
         {
-          "source_heading": "6 3 Testigo con cuatro cadenas y controles correctos",
+          "source_heading": "6 3 Witness with four chains and correct controls",
           "english_heading": "6 3 Witness with four chains and correct controls",
           "source_anchor": "6-3-testigo-con-cuatro-cadenas-y-controles-correctos",
           "english_anchor": "6-3-witness-with-four-chains-and-correct-controls"
         },
         {
-          "source_heading": "6 4 Cota probabilística y control que bloquea por defecto",
+          "source_heading": "6 4 Probabilistic bound and control that blocks by default",
           "english_heading": "6 4 Probabilistic bound and default-blocking control",
           "source_anchor": "6-4-cota-probabilística-y-control-que-bloquea-por-defecto",
           "english_anchor": "6-4-probabilistic-bound-and-default-blocking-control"
         },
         {
-          "source_heading": "6 5 El contraejemplo que elimina la dificultad",
+          "source_heading": "6 5 The counterexample that eliminates the difficulty",
           "english_heading": "6 5 The counterexample eliminating difficulty",
           "source_anchor": "6-5-el-contraejemplo-que-elimina-la-dificultad",
           "english_anchor": "6-5-the-counterexample-eliminating-difficulty"
         },
         {
-          "source_heading": "6 6 Conservación de factores y comprobación ejecutada",
+          "source_heading": "6 6 Preservation of factors and executed check",
           "english_heading": "6 6 Factor preservation and executed check",
           "source_anchor": "6-6-conservación-de-factores-y-comprobación-ejecutada",
           "english_anchor": "6-6-factor-preservation-and-executed-check"
         },
         {
-          "source_heading": "6 7 Correspondencia con los criterios A25",
+          "source_heading": "6 7 Correspondence with the A25 criteria",
           "english_heading": "6 7 Correspondence with A25 criteria",
           "source_anchor": "6-7-correspondencia-con-los-criterios-a25",
           "english_anchor": "6-7-correspondence-with-a25-criteria"
         },
         {
-          "source_heading": "7 Posible diferencial de Ecosystem Awareness",
+          "source_heading": "7 Possible Ecosystem Awareness differential",
           "english_heading": "7 Possible Ecosystem Awareness differential",
           "source_anchor": "7-posible-diferencial-de-ecosystem-awareness",
           "english_anchor": "7-possible-ecosystem-awareness-differential"
         },
         {
-          "source_heading": "Contrato mínimo propuesto",
+          "source_heading": "Proposed minimum contract",
           "english_heading": "Proposed minimum contract",
           "source_anchor": "contrato-mínimo-propuesto",
           "english_anchor": "proposed-minimum-contract"
         },
         {
-          "source_heading": "Semántica y plausibilidad",
+          "source_heading": "Semantics and plausibility",
           "english_heading": "Semantics and plausibility",
           "source_anchor": "semántica-y-plausibilidad",
           "english_anchor": "semantics-and-plausibility"
         },
         {
-          "source_heading": "7 1 Variantes para comprobar el diferencial",
+          "source_heading": "7 1 Variants for checking the differential",
           "english_heading": "7 1 Variants for checking the differential",
           "source_anchor": "7-1-variantes-para-comprobar-el-diferencial",
           "english_anchor": "7-1-variants-for-checking-the-differential"
         },
         {
-          "source_heading": "8 Medición y condiciones para ejecutar",
+          "source_heading": "8 Measurement and conditions for execution",
           "english_heading": "8 Measurement and execution conditions",
           "source_anchor": "8-medición-y-condiciones-para-ejecutar",
           "english_anchor": "8-measurement-and-execution-conditions"
         },
         {
-          "source_heading": "Comparadores competentes",
+          "source_heading": "Competent comparators",
           "english_heading": "Competent comparators",
           "source_anchor": "comparadores-competentes",
           "english_anchor": "competent-comparators"
         },
         {
-          "source_heading": "Medidas y regla de interpretación",
+          "source_heading": "Measures and interpretation rule",
           "english_heading": "Measures and interpretation rule",
           "source_anchor": "medidas-y-regla-de-interpretación",
           "english_anchor": "measures-and-interpretation-rule"
         },
         {
-          "source_heading": "Qué debe congelarse con Nic",
+          "source_heading": "What must be frozen with Nic",
           "english_heading": "What must be frozen with Nic",
           "source_anchor": "qué-debe-congelarse-con-nic",
           "english_anchor": "what-must-be-frozen-with-nic"
         },
         {
-          "source_heading": "8 1 Contrastes de persistencia y control",
+          "source_heading": "8 1 Persistence and control contrasts",
           "english_heading": "8 1 Persistence and control contrasts",
           "source_anchor": "8-1-contrastes-de-persistencia-y-control",
           "english_anchor": "8-1-persistence-and-control-contrasts"
         },
         {
-          "source_heading": "8 2 Condiciones de cierre del protocolo",
+          "source_heading": "8 2 Conditions for closing the protocol",
           "english_heading": "8 2 Protocol closure conditions",
           "source_anchor": "8-2-condiciones-de-cierre-del-protocolo",
           "english_anchor": "8-2-protocol-closure-conditions"
         },
         {
-          "source_heading": "9 Dictamen y siguiente paso",
+          "source_heading": "9 Verdict and next step",
           "english_heading": "9 Verdict and next step",
           "source_anchor": "9-dictamen-y-siguiente-paso",
           "english_anchor": "9-verdict-and-next-step"
         },
         {
-          "source_heading": "Anexo A Auditoría y continuidad documental",
+          "source_heading": "Appendix A Audit and documentary continuity",
           "english_heading": "Annex A Audit and documentary continuity",
           "source_anchor": "anexo-a-auditoría-y-continuidad-documental",
           "english_anchor": "annex-a-audit-and-documentary-continuity"
         },
         {
-          "source_heading": "A 1 Documentos comprobados",
+          "source_heading": "A 1 Checked documents",
           "english_heading": "A 1 Checked documents",
           "source_anchor": "a-1-documentos-comprobados",
           "english_anchor": "a-1-checked-documents"
         },
         {
-          "source_heading": "A 2 Hallazgos y correcciones del borrador",
+          "source_heading": "A 2 Findings and draft corrections",
           "english_heading": "A 2 Draft findings and corrections",
           "source_anchor": "a-2-hallazgos-y-correcciones-del-borrador",
           "english_anchor": "a-2-draft-findings-and-corrections"
         },
         {
-          "source_heading": "A 3 Revisión del escenario base",
+          "source_heading": "A 3 Review of the base scenario",
           "english_heading": "A 3 Base scenario review",
           "source_anchor": "a-3-revisión-del-escenario-base",
           "english_anchor": "a-3-base-scenario-review"
         },
         {
-          "source_heading": "A 4 Versiones e integridad",
+          "source_heading": "A 4 Versions and integrity",
           "english_heading": "A 4 Versions and integrity",
           "source_anchor": "a-4-versiones-e-integridad",
           "english_anchor": "a-4-versions-and-integrity"
         },
         {
-          "source_heading": "A 5 Base documental y contexto de la propuesta",
+          "source_heading": "A 5 Documentary basis and proposal context",
           "english_heading": "A 5 Documentary basis and proposal context",
           "source_anchor": "a-5-base-documental-y-contexto-de-la-propuesta",
           "english_anchor": "a-5-documentary-basis-and-proposal-context"
         },
         {
-          "source_heading": "A 6 Comprobación inicial de dos candidatas",
+          "source_heading": "A 6 Initial check of two candidates",
           "english_heading": "A 6 Initial two-candidate check",
           "source_anchor": "a-6-comprobación-inicial-de-dos-candidatas",
           "english_anchor": "a-6-initial-two-candidate-check"
         },
         {
-          "source_heading": "Anexo B Referencias y fuentes",
+          "source_heading": "Appendix B References and sources",
           "english_heading": "Annex B References and sources",
           "source_anchor": "anexo-b-referencias-y-fuentes",
           "english_anchor": "annex-b-references-and-sources"
@@ -1441,13 +1441,13 @@
       "documented_additions": [],
       "heading_correspondence": [
         {
-          "source_heading": "Comprobación finita de R01 → aplicación DNS",
+          "source_heading": "Finite check of R01 → DNS application",
           "english_heading": "Finite check of R01 → DNS application",
           "source_anchor": "comprobación-finita-de-r01--aplicación-dns",
           "english_anchor": "finite-check-of-r01--dns-application"
         },
         {
-          "source_heading": "Integridad",
+          "source_heading": "Integrity",
           "english_heading": "Integrity",
           "source_anchor": "integridad",
           "english_anchor": "integrity"

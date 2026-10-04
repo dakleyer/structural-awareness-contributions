@@ -1,31 +1,35 @@
-# R01 — Validación matemática y extensión a tecnologías
+<a id="r01--validación-matemática-y-extensión-a-tecnologías"></a>
 
-4 de octubre de 2026 · Núcleo v0.2 publicado y revisión propia realizada. Extensión tecnológica en desarrollo.
+# R01 — Mathematical validation and extension to technologies
 
-[README completo de R01](../README.md#canonical-conditioned-trilemma) · [Escenario y vocabulario](../Escenario-creatividad-validacion.md#from-the-practical-problem-to-acceptance).
+4 October 2026 · Core v0.2 published and self-review performed. Technology extension in development.
 
-| Lectura | Documento | Estado vigente |
+[Complete R01 README](../README.md#canonical-conditioned-trilemma) · [Scenario and vocabulary](../Escenario-creatividad-validacion.md#from-the-practical-problem-to-acceptance).
+
+| Reading | Document | Current status |
 |---|---|---|
-| Referencia matemática única | [Teorema condicionado R01 v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md) | Formulación y reconstrucción propias disponibles; cobertura independiente y fidelidad restantes en M16/M17. |
-| Auditoría del núcleo | [Reparaciones y reconstrucción](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md) · [registro](./R01_AUDIT_CONTINUITY_RELEASE.json) | Realizada en alcance propio; no reiniciarla como pendiente. |
-| Tres extensiones | [Dictamen de coherencia](./EXTENSION_CONSISTENCY_REVIEW.md) | Revisión propia realizada; discrepancias documentales en P08. |
-| Protocolo de extensión | [Protocolo y tecnologías a estudiar](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) | Definido; primero núcleo isomórfico, después mecanismos adicionales. |
-| Primera tecnología | [Escalación humana y whispering](./HUMAN_ESCALATION_WHISPERING.md) | Ficha matemática existente; completar correspondencia tecnológica y composición. No es una implementación validada. |
-| Trabajo pendiente | [Cola actual](./WORKPLAN.md) · [registro](./WORKPLAN_STATUS.json) · [continuación](./CONTINUATION_PROMPT.md) | Cuatro tareas activas y tres entregas posteriores; 55 IDs históricos trazables. |
-| Ensayos de preparación | [Anexos parciales](./partial-experiments/README.md) · [material recibido](./partial-experiments/received/2026-10-04/README.md) | No canónicos; no prueban una tecnología real. |
-| Trabajos anteriores | [Índice histórico](./previous-work/README.md) · [snapshot de las colas anteriores](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json) | Evidencia conservada; no constituye orden de ejecución actual. |
+| Single mathematical reference | [Conditioned R01 theorem v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md) | Self-performed formulation and reconstruction available; remaining independent coverage and fidelity in M16/M17. |
+| Core audit | [Repairs and reconstruction](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md) · [record](./R01_AUDIT_CONTINUITY_RELEASE.json) | Performed within its own scope; do not restart it as pending. |
+| Three extensions | [Consistency verdict](./EXTENSION_CONSISTENCY_REVIEW.md) | Self-review performed; documentary discrepancies in P08. |
+| Extension protocol | [Protocol and technologies to study](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) | Defined; first isomorphic core, then additional mechanisms. |
+| First technology | [Human escalation and whispering](./HUMAN_ESCALATION_WHISPERING.md) | Existing mathematical fiche; complete technology correspondence and composition. Not a validated implementation. |
+| Pending work | [Current queue](./WORKPLAN.md) · [register](./WORKPLAN_STATUS.json) · [continuation](./CONTINUATION_PROMPT.md) | Four active tasks and three subsequent deliverables; 55 historical IDs traceable. |
+| Preparation trials | [Partial annexes](./partial-experiments/README.md) · [received material](./partial-experiments/received/2026-10-04/README.md) | Noncanonical; do not prove a real technology. |
+| Previous work | [Historical index](./previous-work/README.md) · [snapshot of previous queues](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json) | Evidence preserved; not the current execution order. |
 
-## Referencias conservadas
+<a id="referencias-conservadas"></a>
 
-[PURE_MATHEMATICAL_TRILEMMA](./PURE_MATHEMATICAL_TRILEMMA.md), [CONDITIONED_TRILEMMA](./CONDITIONED_TRILEMMA.md), [revisión propia inicial](./CONDITIONED_TRILEMMA_SELF_REVIEW.md), [auditoría de fondo](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md), [mapa de transferencia](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) y [revisión del teorema R01](./R01_CONDITIONED_TRILEMMA_REVIEW.md) conservan sus alcances y versiones. [Release de fondo](./DEEP_AUDIT_RELEASE.json) · [Release R01](./R01_CONDITIONED_TRILEMMA_RELEASE.json) · [mapa de traslados](./RELOCATION_MANIFEST.json) · [conservación](./PRESERVATION_CHECKS.json).
+## Preserved references
 
-La dureza informativa creciente ya tiene una construcción simbólica mediante paridad de K datos en el teorema actual. Las familias anteriores no se sustituyen ni se convierten en validación independiente. Se conservan escenario, fixtures, resultados, figuras y exports. No hay nuevos experimentos en esta depuración.
+[PURE_MATHEMATICAL_TRILEMMA](./PURE_MATHEMATICAL_TRILEMMA.md), [CONDITIONED_TRILEMMA](./CONDITIONED_TRILEMMA.md), [initial self-review](./CONDITIONED_TRILEMMA_SELF_REVIEW.md), [in-depth audit](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md), [transfer mapping](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) and [R01 theorem review](./R01_CONDITIONED_TRILEMMA_REVIEW.md) retain their scopes and versions. [In-depth release](./DEEP_AUDIT_RELEASE.json) · [R01 release](./R01_CONDITIONED_TRILEMMA_RELEASE.json) · [relocation map](./RELOCATION_MANIFEST.json) · [preservation](./PRESERVATION_CHECKS.json).
 
-| Seguimiento | Estado |
+Growing information hardness already has a symbolic construction through parity of K data items in the current theorem. Previous families are neither replaced nor converted into independent validation. Scenario, fixtures, results, figures and exports are preserved. There are no new experiments in this cleanup.
+
+| Tracking | Status |
 |---|---|
-| Próximo trabajo | Escalación humana y whispering como primera tecnología del protocolo. |
-| Revisión pendiente | M16: cobertura independiente; M17: fidelidad; P08: integridad por edición. |
-| Secuencia posterior | Prueba matemática → oráculo y arnés neutral → registro → campaña con tecnología real. |
+| Next work | Human escalation and whispering as the first technology of the protocol. |
+| Pending review | M16: independent coverage; M17: fidelity; P08: integrity by edition. |
+| Subsequent sequence | Mathematical proof → neutral oracle and harness → registration → campaign with real technology. |
 
 
 | Virtual technology traversals — update at the end | Status |

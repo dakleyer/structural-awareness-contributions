@@ -1,20 +1,28 @@
-# Trilema condicionado de coste, riesgo y eficacia
+<a id="trilema-condicionado-de-coste-riesgo-y-eficacia"></a>
 
-## Una prueba por familias de configuraciones
+# Conditioned trilemma of cost, risk and efficacy
 
-Manuscrito independiente para revisión · Versión 0.2 · 4 de octubre de 2026. Revisión de fondo: presupuesto físico frente a objetivo de coste, conjunto factible y condiciones de transferencia.
+<a id="una-prueba-por-familias-de-configuraciones"></a>
 
-**Estado:** demostración simbólica autocontenida en la clase definida aquí; revisión independiente pendiente. El resultado no se anuncia como teorema de todo R01 ni como una ley de todas las arquitecturas. La denominación «trilema condicionado» se propone para expresar este alcance, sin atribuirle reconocimiento terminológico o novedad científica ya comprobados.
+## A proof by families of configurations
 
-### Resumen
+Independent manuscript for review · Version 0.2 · 4 October 2026. In-depth review: physical budget versus cost target, feasible set and transfer conditions.
 
-Se estudia una tarea cuya calidad puede mejorarse mediante acciones que requieren establecer hechos de admisibilidad. Obtener esos hechos tiene un coste. Se demuestra una frontera exacta entre presupuesto máximo, probabilidad de infracción y probabilidad de entrega suficiente. La necesidad cubre cualquier política adaptativa y aleatoria con la información permitida; la suficiencia se demuestra mediante una política que alcanza la frontera. Existen familias no vacías donde cada par de objetivos es alcanzable, mediante estrategias distintas, y ninguna estrategia reúne los tres. Existen también familias donde las tres condiciones son compatibles. Se distinguen eficacia técnica y éxito legítimo y se demuestra una frontera para cada uno. La prueba no depende de una enumeración de ejemplos, del fallo de un algoritmo particular ni de prohibir memoria o coordinación competente.
+**Status:** self-contained symbolic proof in the class defined here; independent review pending. The result is not announced as a theorem for all R01 or as a law of all architectures. The term “conditioned trilemma” is proposed to express this scope, without attributing already verified terminological recognition or scientific novelty to it.
 
-## 1. Qué significa un trilema condicionado
+<a id="resumen"></a>
 
-Una configuración θ fija el problema, sus recursos, la información disponible y los objetivos. Un mundo ω fija los hechos ocultos. Una política π decide usando solo observaciones recibidas, memoria y aleatoriedad propia. La misma política se utiliza sin conocer previamente ω.
+### Abstract
 
-Sean los objetivos buenos:
+A task is studied whose quality can be improved through actions requiring admissibility facts to be established. Obtaining those facts has a cost. An exact frontier is proved between maximum budget, probability of violation and probability of sufficient delivery. Necessity covers any adaptive and randomized policy with the permitted information; sufficiency is proved by a policy attaining the frontier. There are nonempty families where each pair of objectives is attainable through different strategies, and no strategy achieves all three. There are also families where all three conditions are compatible. Technical efficacy and legitimate success are distinguished and a frontier is proved for each. The proof does not depend on enumerating examples, the failure of a particular algorithm or prohibiting competent memory or coordination.
+
+<a id="1-qué-significa-un-trilema-condicionado"></a>
+
+## 1. What a conditioned trilemma means
+
+A configuration θ fixes the problem, its resources, available information and objectives. A world ω fixes the hidden facts. A policy π decides using only received observations, memory and its own randomness. The same policy is used without knowing ω beforehand.
+
+Let the good objectives be:
 
 $$
 B_C(\theta,\pi)=[C_\theta(\pi)\le R],\qquad
@@ -22,9 +30,9 @@ B_R(\theta,\pi)=[\rho_\theta(\pi)\le r],\qquad
 B_E(\theta,\pi)=[e_\theta(\pi)\ge t].
 $$
 
-C es coste máximo por ejecución, ρ riesgo de al menos una infracción material, y e una medida de eficacia definida antes de comparar políticas. R, r y t son umbrales, no resultados seleccionados después de ejecutar.
+C is maximum cost per execution, ρ the risk of at least one material violation, and e a measure of efficacy defined before comparing policies. R, r and t are thresholds, not results selected after execution.
 
-**Definición.** Una familia U presenta un trilema condicionado cuando U≠∅ y, para toda θ∈U:
+**Definition.** A family U exhibits a conditioned trilemma when U≠∅ and, for every θ∈U:
 
 $$
 \begin{aligned}
@@ -36,80 +44,90 @@ $$
 \end{aligned} \tag{1}
 $$
 
-Las tres políticas de los pares pueden ser distintas. Para descartar una incompatibilidad universal, se exige además una familia viable V≠∅ donde exista una política que alcance las tres.
+The three pairwise policies may differ. To rule out universal incompatibility, a viable family V≠∅ is additionally required in which a policy attaining all three exists.
 
-«Condicionado» identifica el dominio de validez y las bandas de recursos. No quiere decir que la prueba sea incompleta dentro de su modelo. «Parcial» sería menos preciso: puede referirse a una ejecución incompleta o a una demostración todavía pendiente.
+“Conditioned” identifies the domain of validity and resource bands. It does not mean the proof is incomplete within its model. “Partial” would be less precise: it may refer to an incomplete execution or a proof still pending.
 
-Las regiones por pares pueden solaparse. Una misma configuración puede admitir una estrategia barata y segura, otra barata y eficaz y otra segura y eficaz, sin admitir una estrategia barata, segura y eficaz. No se pide que toda ejecución falle ni que todos los mundos sean desfavorables para cada política.
+Pairwise regions may overlap. A single configuration may admit a cheap and safe strategy, another cheap and effective strategy and another safe and effective strategy, without admitting a cheap, safe and effective strategy. It is not required that every execution fail or that all worlds be unfavorable for every policy.
 
-## 2. Modelo base: hechos y acciones
+<a id="2-modelo-base-hechos-y-acciones"></a>
 
-### 2.1 Tarea y mundo
+## 2. Baseline model: facts and actions
 
-Hay L≥1 segmentos consecutivos. En cada segmento se elige una opción; todas las opciones de segmentos consecutivos pueden conectarse. Las opciones son:
+<a id="21-tarea-y-mundo"></a>
 
-| Opción | Beneficio técnico | Admisibilidad |
+### 2.1 Task and world
+
+There are L≥1 consecutive segments. One option is selected in each segment; all options in consecutive segments can connect. The options are:
+
+| Option | Technical benefit | Admissibility |
 |---|---|---|
-| M | 1 | Siempre admisible. |
-| X | 2 | Admisible cuando χ_i=0. |
-| Y | 2 | Admisible cuando χ_i=1. |
+| M | 1 | Always admissible. |
+| X | 2 | Admissible when χ_i=0. |
+| Y | 2 | Admissible when χ_i=1. |
 
-El mundo es χ=(χ_1,…,χ_L). Los hechos χ_i son independientes, con P(χ_i=0)=a y P(χ_i=1)=1−a, donde 1/2≤a<1. El prior y a son conocidos. a=1/2 es la familia equilibrada; a próximo a uno permite estudiar decisiones cuya opción habitual es admisible con probabilidad alta. No se supone que cualquier problema real tenga este prior.
+The world is χ=(χ_1,…,χ_L). The facts χ_i are independent, with P(χ_i=0)=a and P(χ_i=1)=1−a, where 1/2≤a<1. The prior and a are known. a=1/2 is the balanced family; a near one allows studying decisions whose usual option is admissible with high probability. It is not assumed that every real problem has this prior.
 
-El óptimo admisible tiene beneficio 2L en todo mundo. Fijar 0≤ε<L. Una entrega técnicamente suficiente es una ruta completa con beneficio J≥2L−ε, equivalente a utilizar al menos
+The admissible optimum has benefit 2L in every world. Fix 0≤ε<L. A technically sufficient delivery is a complete route with benefit J≥2L−ε, equivalent to using at least
 
 $$
 d=L-\lfloor\varepsilon\rfloor\ge1
 $$
 
-opciones altas. Ejecutar solo M completa la tarea de referencia, pero no alcanza la calidad exigida.
+high options. Executing only M completes the reference task but does not attain the required quality.
 
-### 2.2 Información, costes y políticas
+<a id="22-información-costes-y-políticas"></a>
 
-Una lectura puede revelar un χ_i concreto antes del efecto, a precio completo c>0. No hay un servicio que devuelva una relación global sobre coordenadas no leídas. Las respuestas son exactas. Repetir una lectura se cobra; reutilizar un hecho adquirido es válido. Geometría, beneficios, duración, precio, identificadores, mensajes y revisiones gratuitas no filtran hechos ocultos.
+### 2.2 Information, costs and policies
 
-Ejecutar una opción alta revela su χ_i después del efecto. Si era inadmisible, la infracción ya ocurrió y no se borra al reparar o continuar. Ejecutar M no revela χ_i. Una opción conocida como prohibida se rechaza. La política puede continuar tras una infracción utilizando acciones actualmente admisibles; no se impone aborto automático.
+A read can reveal a particular χ_i before the effect, at full price c>0. There is no service returning a global relation over unread coordinates. Responses are exact. Repeated reads are charged; reuse of an acquired fact is valid. Geometry, benefits, duration, price, identifiers, messages and free reviews do not leak hidden facts.
 
-Toda ruta completa cuesta al menos C0=b+gL, con b≥0 y g>0. Hay controles que la completan por ese coste material más las lecturas pagadas. Se cobra todo el proceso, incluidos descartes y trabajo adicional. No se exige reservar C0 en todas las ramas fallidas; basta el hecho de que una rama que completa la tarea lo paga.
+Executing a high option reveals its χ_i after the effect. If it was inadmissible, the violation has already occurred and is not erased by repair or continuation. Executing M does not reveal χ_i. An option known to be forbidden is rejected. The policy may continue after a violation using currently admissible actions; automatic abortion is not imposed.
 
-Las políticas pueden elegir qué leer y cuándo, recordar, detenerse, aleatorizar y coordinar cualquier número finito N de agentes. Se les concede cómputo local y coordinación perfectos como envolvente favorable, sin información oculta adicional. C es trabajo agregado, no gasto del agente más rápido. Los resultados no son cotas de latencia ni de presupuesto individual.
+Every complete route costs at least C0=b+gL, with b≥0 and g>0. There are controls completing it for that material cost plus paid reads. The entire process is charged, including discards and additional work. Reserving C0 in every failed branch is not required; the fact that a branch completing the task pays it suffices.
 
-Cada configuración tiene un horizonte finito común, suficiente para leer d hechos y completar L segmentos. Puede medirse en eventos y fijarse, por ejemplo, T≥L+d+1 para los controles. Se distingue **B, capacidad física de gasto**, de **R, objetivo de coste bajo**. Fijar B≥C0+cd y 0≤R≤B. Π(θ) contiene las políticas de esta interfaz ejecutables bajo B, también las que gastarían más que R. Así el control seguro y eficaz de coste C0+cd es ejecutable en la misma configuración y puede incumplir el objetivo de coste. Si un sistema impone una barrera física en R, ese control pertenece a un perfil de recursos mayor; no se declara ejecutable dentro del perfil físicamente limitado a R.
+Policies may choose what to read and when, remember, stop, randomize and coordinate any finite number N of agents. They are granted perfect local computation and coordination as a favorable envelope, without additional hidden information. C is aggregate work, not expenditure of the fastest agent. The results are not bounds on latency or individual budget.
 
-La prueba no fuerza a emplear una ventana fija o una revisión repetitiva. Los supuestos decisivos son independencia de hechos no observados, interfaz de lectura individual, cargo total positivo y efecto material no protegido de una acción todavía desconocida.
+Each configuration has a common finite horizon sufficient to read d facts and complete L segments. It may be measured in events and fixed, for example, at T≥L+d+1 for the controls. **B, physical spending capacity**, is distinguished from **R, low-cost target**. Fix B≥C0+cd and 0≤R≤B. Π(θ) contains the policies of this interface executable under B, including those that would spend more than R. Thus the safe and effective control of cost C0+cd is executable in the same configuration and may fail the cost objective. If a system imposes a physical barrier at R, that control belongs to a larger resource profile; it is not declared executable within the profile physically limited to R.
 
-## 3. Dos medidas de eficacia y dos regímenes de garantía
+The proof does not force use of a fixed window or repetitive review. The decisive assumptions are independence of unobserved facts, individual-read interface, positive total charge and unprotected material effect of a still unknown action.
 
-Sea H el evento de entrega completa y técnicamente suficiente dentro del horizonte, y V el evento de al menos una infracción material durante el proceso. Definir
+<a id="3-dos-medidas-de-eficacia-y-dos-regímenes-de-garantía"></a>
+
+## 3. Two efficacy measures and two guarantee regimes
+
+Let H be the event of complete and technically sufficient delivery within the horizon, and V the event of at least one material violation during the process. Define
 
 $$
 \eta=P(H),\qquad \rho=P(V),\qquad
 \sigma=P(H\cap\neg V).
 $$
 
-η es eficacia técnica; σ es éxito legítimo sin infracciones en el proceso. Una ejecución inadmisible nunca se cuenta en σ. El presupuesto no está incorporado a H: se exige por separado C≤R. Siempre
+η is technical efficacy; σ is legitimate success without violations in the process. An inadmissible execution is never counted in σ. Budget is not incorporated into H: C≤R is required separately. Always
 
 $$
 \eta\le\sigma+\rho. \tag{2}
 $$
 
-Dos contratos posibles:
+Two possible contracts:
 
-- **Técnico:** η≥h y ρ≤r, con 0<h≤1 y 0≤r≤1.
-- **Legítimo:** σ≥p y ρ≤δ, con 0<p≤1 y 0≤δ≤1.
+- **Technical:** η≥h and ρ≤r, with 0<h≤1 and 0≤r≤1.
+- **Legitimate:** σ≥p and ρ≤δ, with 0<p≤1 and 0≤δ≤1.
 
-En AVG las probabilidades incluyen el prior del mundo y la aleatoriedad de π. En WC se exigen las cotas en cada mundo, con probabilidad únicamente sobre la aleatoriedad interna de una misma π. Para WC el prior no cambia las garantías.
+In AVG the probabilities include the world prior and π's randomness. In WC the bounds are required in each world, with probability solely over the internal randomness of the same π. For WC the prior does not change the guarantees.
 
-## 4. Lema universal: el riesgo de los hechos no establecidos
+<a id="4-lema-universal-el-riesgo-de-los-hechos-no-establecidos"></a>
 
-Para una política con C≤R y R≥C0, escribir
+## 4. Universal lemma: the risk of unestablished facts
+
+For a policy with C≤R and R≥C0, write
 
 $$
 k=\left\lfloor\frac{R-C_0}{c}\right\rfloor,\qquad
 m=\max(0,d-k),\qquad q=a^m.
 $$
 
-**Lema 1, AVG.** Toda política de la clase satisface
+**Lemma 1, AVG.** Every policy in the class satisfies
 
 $$
 \boxed{\sigma\le q,\qquad
@@ -117,25 +135,25 @@ $$
 \rho\ge(1-q)\eta.} \tag{3}
 $$
 
-**Demostración.** En una historia sin infracciones, denominar apuesta al primer efecto alto sobre un binding no adquirido mediante lectura ni observado en un efecto alto previo. Condicionada a toda la historia accesible, su probabilidad de ser admisible es a o 1−a, y por tanto no supera a. La independencia mantiene esto aunque el índice y la opción se elijan adaptativamente. Una lectura de otro binding no cambia la ley del que todavía no se ha observado.
+**Proof.** In a history without violations, call a bet the first high effect on a binding neither acquired by a read nor observed in a previous high effect. Conditional on the entire accessible history, its probability of being admissible is a or 1−a, hence does not exceed a. Independence maintains this even when the index and option are chosen adaptively. Reading another binding does not change the law of the one still unobserved.
 
-Una entrega legítima necesita d bindings altos admisibles. Esa rama paga C0 y puede financiar como máximo k lecturas. En consecuencia, debe acertar al menos m apuestas distintas. Este razonamiento no presupone que todas las ramas, incluidas las fallidas, hagan como máximo k lecturas.
+A legitimate delivery needs d admissible high bindings. That branch pays C0 and can fund at most k reads. Consequently, it must win at least m distinct bets. This reasoning does not assume that all branches, including failed ones, make at most k reads.
 
-La conservación de la ley de los hechos no vistos puede comprobarse por inducción en el historial. Una operación sin información deja su ley intacta. Una lectura o efecto condiciona el binding que acaba de revelar, conservando el producto de las leyes de los demás. La elección del siguiente índice es función de ese historial y de la semilla; no impone una condición nueva sobre un binding no visto. Fijar primero la semilla independiente reduce el argumento a políticas deterministas de historia y promediar recupera el caso aleatorio.
+Preservation of the law of unseen facts can be checked by induction on the history. An operation without information leaves their law intact. A read or effect conditions the binding it has just revealed, preserving the product of the laws of the others. Selection of the next index is a function of that history and the seed; it imposes no new condition on an unseen binding. Fixing the independent seed first reduces the argument to deterministic history policies, and averaging recovers the randomized case.
 
-Sea u_j la probabilidad de llegar a la apuesta j antes de una primera infracción. Parar, leer o actuar entre apuestas puede impedir llegar a la siguiente; no puede aumentar la probabilidad de acertar una apuesta más allá de a. Por tanto
+Let u_j be the probability of reaching bet j before a first violation. Stopping, reading or acting between bets may prevent reaching the next one; it cannot increase the probability of winning a bet beyond a. Therefore
 
 $$
 u_1\le1,\qquad u_{j+1}\le a u_j.
 $$
 
-Para m≥1, el éxito legítimo implica acertar la apuesta m, de modo que
+For m≥1, legitimate success implies winning bet m, so
 
 $$
 \sigma\le a u_m\le a^m.
 $$
 
-Los eventos de primera infracción en las apuestas 1,…,m son disjuntos. Cada uno tiene probabilidad al menos (1−a)u_j. Además u_j≥a^{-(m-j)}u_m. En consecuencia,
+The events of first violation in bets 1,…,m are disjoint. Each has probability at least (1−a)u_j. Moreover u_j≥a^{-(m-j)}u_m. Consequently,
 
 $$
 \begin{aligned}
@@ -146,13 +164,15 @@ $$
 \end{aligned}
 $$
 
-Usando (2), se obtiene ρ≥(1−a^m)η. Si m=0, q=1 y las tres desigualdades son triviales. La prueba incluye políticas aleatorias: su semilla no contiene información inicial del mundo; condicionado a su historia, el binding nuevo conserva la ley indicada. El número finito de eventos permite numerar las apuestas sin asumir un orden fijo de consultas. ∎
+Using (2), we obtain ρ≥(1−a^m)η. If m=0, q=1 and the three inequalities are trivial. The proof includes randomized policies: their seed contains no initial world information; conditional on their history, the new binding preserves the indicated law. The finite number of events permits numbering the bets without assuming a fixed query order. ∎
 
-La desigualdad σ≤qη no se utiliza: la política puede decidir si completar dependiendo de observaciones recibidas. El lema separa correctamente supervivencia, eficacia y riesgo aun con esa adaptación.
+The inequality σ≤qη is not used: the policy may decide whether to complete depending on received observations. The lemma correctly separates survival, efficacy and risk even with that adaptation.
 
-## 5. Fronteras exactas: necesidad y suficiencia
+<a id="5-fronteras-exactas-necesidad-y-suficiencia"></a>
 
-**Teorema 1, AVG.** Si R<C0, no se alcanza ninguno de los contratos de eficacia positiva bajo C≤R. Para R≥C0 y q=a^{max(0,d−k)}:
+## 5. Exact frontiers: necessity and sufficiency
+
+**Theorem 1, AVG.** If R<C0, neither positive-efficacy contract is attainable under C≤R. For R≥C0 and q=a^{max(0,d−k)}:
 
 $$
 \boxed{\exists\pi:C\le R,\ \rho\le r,\ \eta\ge h
@@ -162,108 +182,116 @@ $$
 $$
 \boxed{\exists\pi:C\le R,\ \rho\le\delta,\ \sigma\ge p
 \quad\Longleftrightarrow\quad
-p\le q\ \text{y}\ \delta\ge p(q^{-1}-1).} \tag{5}
+p\le q\ \text{and}\ \delta\ge p(q^{-1}-1).} \tag{5}
 $$
 
-**Necesidad.** (4) y (5) siguen del lema. R<C0 impide toda ruta completa con una política cuyo coste máximo no supere R.
+**Necessity.** (4) and (5) follow from the lemma. R<C0 prevents any complete route with a policy whose maximum cost does not exceed R.
 
-**Suficiencia común.** Con probabilidad β intentar una ruta con d opciones altas. Leer min(k,d) de sus bindings, ejecutar allí la opción admisible y elegir X en las m posiciones restantes. En las demás posiciones usar M. Con probabilidad 1−β ejecutar solo M. Todas las ramas cuestan como máximo C0+c min(k,d)≤R. Las decisiones en segmentos no leídos siguen siendo desconocidas aunque una decisión previa haya revelado otro binding independiente. Los recibos se conservan.
+**Common sufficiency.** With probability β attempt a route with d high options. Read min(k,d) of their bindings, execute the admissible option there and choose X in the remaining m positions. Use M in the other positions. With probability 1−β execute only M. All branches cost at most C0+c min(k,d)≤R. Decisions in unread segments remain unknown even if a previous decision has revealed another independent binding. Receipts are preserved.
 
-En AVG este control tiene
+In AVG this control has
 
 $$
 \eta=\beta,\qquad \sigma=\beta q,\qquad
 \rho=\beta(1-q). \tag{6}
 $$
 
-Para (4), elegir β=h. Para (5), elegir β=p/q, que está en [0,1] exactamente cuando p≤q. Así se alcanzan las cotas, no solo un límite asintótico. ∎
+For (4), choose β=h. For (5), choose β=p/q, which is in [0,1] exactly when p≤q. The bounds are thus attained, not merely an asymptotic limit. ∎
 
-**Corolario 1, WC.** Para la garantía por mundo, las mismas fronteras (4)–(5) son exactas reemplazando q por q_WC=2^{-m}. La necesidad se obtiene promediando las garantías WC bajo la ley uniforme auxiliar de los mundos y aplicando el lema con a=1/2. Esta ley auxiliar es válida para probar necesidad aunque el prior AVG declarado sea otro. Para suficiencia, adivinar X/Y con monedas independientes equiprobables en las m posiciones no leídas: (6), con q_WC, se cumple en cada mundo. ∎
+**Corollary 1, WC.** For the per-world guarantee, the same frontiers (4)–(5) are exact upon replacing q by q_WC=2^{-m}. Necessity is obtained by averaging the WC guarantees under the auxiliary uniform law of worlds and applying the lemma with a=1/2. This auxiliary law is valid for proving necessity even if the declared AVG prior differs. For sufficiency, guess X/Y with independent equiprobable coins in the m unread positions: (6), with q_WC, holds in each world. ∎
 
-Las fronteras AVG y WC coinciden cuando a=1/2. Un prior favorable puede ayudar AVG sin garantizar el mismo comportamiento en todos los mundos.
+The AVG and WC frontiers coincide when a=1/2. A favorable prior may help AVG without guaranteeing the same behavior in every world.
 
-## 6. Existencia del trilema y de configuraciones viables
+<a id="6-existencia-del-trilema-y-de-configuraciones-viables"></a>
 
-### 6.1 Eficacia técnica
+## 6. Existence of the trilemma and viable configurations
 
-Para AVG, fijar a,b,g,c,h y r<h. Elegir cualquier entero d con h(1−a^d)>r, poner L≥d, ε=L−d y R=C0. Existe tal d porque a<1. La siguiente tabla establece los tres pares:
+<a id="61-eficacia-técnica"></a>
 
-| Par | Política | Resultados | Objetivo que se pierde |
+### 6.1 Technical efficacy
+
+For AVG, fix a,b,g,c,h and r<h. Choose any integer d with h(1−a^d)>r, set L≥d, ε=L−d and R=C0. Such a d exists because a<1. The following table establishes the three pairs:
+
+| Pair | Policy | Results | Objective lost |
 |---|---|---|---|
-| Coste–riesgo | Solo M | C=C0; ρ=0; η=0 | Eficacia. |
-| Coste–eficacia | d opciones altas X sin lecturas; M en las demás | C=C0; η=1; ρ=1−a^d>r | Riesgo. |
-| Riesgo–eficacia | Leer d bindings y ejecutar las opciones admisibles | C=C0+cd; η=1; ρ=0 | Coste. |
+| Cost–risk | Only M | C=C0; ρ=0; η=0 | Efficacy. |
+| Cost–efficacy | d high X options without reads; M elsewhere | C=C0; η=1; ρ=1−a^d>r | Risk. |
+| Risk–efficacy | Read d bindings and execute the admissible options | C=C0+cd; η=1; ρ=0 | Cost. |
 
-El teorema demuestra que **ninguna otra política** preserva los tres umbrales. Estos testigos no sustituyen la necesidad universal. Con ε=0 y L suficientemente grande se obtiene una familia de tamaños arbitrarios. Cambiar únicamente el presupuesto a R=C0+cd permite η=σ=1 y ρ=0 en todo mundo: la familia viable también es no vacía.
+The theorem proves that **no other policy** preserves all three thresholds. These witnesses do not replace universal necessity. With ε=0 and sufficiently large L, a family of arbitrary sizes is obtained. Changing only the budget to R=C0+cd permits η=σ=1 and ρ=0 in every world: the viable family is also nonempty.
 
-Para WC se utiliza la misma construcción con a=1/2 en las desigualdades y monedas equiprobables en las decisiones no leídas.
+For WC the same construction is used with a=1/2 in the inequalities and equiprobable coins in unread decisions.
 
-### 6.2 Éxito legítimo: el riesgo sigue siendo un objetivo separado
+<a id="62-éxito-legítimo-el-riesgo-sigue-siendo-un-objetivo-separado"></a>
 
-También existe un trilema con e=σ, sin acreditar resultados inadmisibles como éxito. Para R≥C0, cualquier configuración con
+### 6.2 Legitimate success: risk remains a separate objective
+
+There is also a trilemma with e=σ, without crediting inadmissible results as success. For R≥C0, any configuration with
 
 $$
-\boxed{p\le q\quad\text{y}\quad
+\boxed{p\le q\quad\text{and}\quad
 \delta<p(q^{-1}-1)} \tag{7}
 $$
 
-permite los tres pares, pero no su conjunción:
+permits the three pairs but not their conjunction:
 
-| Par | Política | Resultados |
+| Pair | Policy | Results |
 |---|---|---|
-| Coste–riesgo | Solo M | C=C0≤R; ρ=0; σ=0<p. |
-| Coste–eficacia legítima | Control (6) con β=p/q | C≤R; σ=p; ρ=p(q^{-1}−1)>δ. |
-| Riesgo–eficacia legítima | Leer los d bindings | σ=1; ρ=0; C=C0+cd>R. |
+| Cost–risk | Only M | C=C0≤R; ρ=0; σ=0<p. |
+| Cost–legitimate efficacy | Control (6) with β=p/q | C≤R; σ=p; ρ=p(q^{-1}−1)>δ. |
+| Risk–legitimate efficacy | Read all d bindings | σ=1; ρ=0; C=C0+cd>R. |
 
-La última desigualdad de coste sigue de (7): q=1 la haría imposible; por tanto k<d y R<C0+cd. (5) excluye cualquier política alternativa que reúna los tres.
+The last cost inequality follows from (7): q=1 would make it impossible; hence k<d and R<C0+cd. (5) rules out any alternative policy achieving all three.
 
-**Familia con eficacia legítima alta.** Fijar a=99/100, p=19/20 (95 %) y δ=1/1000 (0,1 %). Para cualquier L=d≥1, fijar R=C0+c(d−1), de modo que m=1 y q=99/100. Entonces
+**Family with high legitimate efficacy.** Fix a=99/100, p=19/20 (95 %) and δ=1/1000 (0.1 %). For any L=d≥1, fix R=C0+c(d−1), so m=1 and q=99/100. Then
 
 $$
 p\le q,\qquad
 p(q^{-1}-1)=\frac{19}{1980}>\frac1{1000}.
 $$
 
-Por (7), para todo tamaño de esta familia hay trilema condicionado AVG con un objetivo de éxito legítimo del 95 %. El control barato y eficaz intenta con probabilidad β=95/99; el riesgo mínimo compatible con ese éxito es 19/1980. Leer el último hecho cuesta c adicional y permite los tres. La familia equilibrada WC también admite (7), por ejemplo con p≤1/2 y δ<p cuando m=1; no se atribuye la tasa del 95 % a ese régimen.
+By (7), every size in this family exhibits a conditioned AVG trilemma with a 95 % legitimate-success target. The cheap and effective control attempts with probability β=95/99; the minimum risk compatible with that success is 19/1980. Reading the final fact costs an additional c and permits all three. The balanced WC family also admits (7), for example with p≤1/2 and δ<p when m=1; the 95 % rate is not attributed to that regime.
 
-Si δ≥1−p, el riesgo es redundante para cualquier política con σ≥p, pues éxito legítimo e infracción son eventos disjuntos. Que el riesgo sea vinculante exige umbrales que no lo hagan redundante. La condición (7) cumple esa obligación.
+If δ≥1−p, risk is redundant for any policy with σ≥p, since legitimate success and violation are disjoint events. For risk to be binding, thresholds must not make it redundant. Condition (7) meets that obligation.
 
-## 7. Las regiones y el coste crítico
+<a id="7-las-regiones-y-el-coste-crítico"></a>
 
-La expresión «frontera exacta» se refiere aquí al **mínimo de riesgo bajo un presupuesto máximo y un umbral de eficacia**, no a una descripción de todo el conjunto de Pareto de cuatro o seis dimensiones. Formalmente, para los parámetros de tarea e interfaz fijos, definir
+## 7. Regions and critical cost
+
+The expression “exact frontier” refers here to the **minimum risk under a maximum budget and an efficacy threshold**, not to a description of the entire four- or six-dimensional Pareto set. Formally, for fixed task and interface parameters, define
 
 $$
 \mathcal F_\theta=\{(C(\pi),\rho(\pi),\eta(\pi),\sigma(\pi)):\pi\in\Pi(\theta)\}.
 $$
 
-La dominancia mejora C y ρ hacia abajo, y η y σ hacia arriba, con al menos una mejora estricta. Las fórmulas (4)–(5) describen exactamente la no vaciedad de cortes de este conjunto. Cuando R≥C0,
+Dominance improves C and ρ downward, and η and σ upward, with at least one strict improvement. Formulas (4)–(5) describe exactly the nonemptiness of slices of this set. When R≥C0,
 
 $$
 \min_{C\le R,\ \eta\ge h}\rho=h(1-q),\qquad
-\min_{C\le R,\ \sigma\ge p}\rho=p(q^{-1}-1)\quad\text{si }p\le q.
+\min_{C\le R,\ \sigma\ge p}\rho=p(q^{-1}-1)\quad\text{if }p\le q.
 $$
 
-Si p>q, el segundo conjunto es vacío. Son mínimos alcanzados, no solo ínfimos. Tampoco todo control (6) es Pareto óptimo: si q=1 y 0<β<1, intentar siempre obtiene η=σ=1 con el mismo coste máximo y riesgo cero, y lo domina. Esto no altera los mínimos ni las condiciones de viabilidad.
+If p>q, the second set is empty. These are attained minima, not merely infima. Nor is every control (6) Pareto optimal: if q=1 and 0<β<1, always attempting obtains η=σ=1 with the same maximum cost and zero risk, and dominates it. This does not alter the minima or feasibility conditions.
 
-**Corolario conjunto.** Si se exigen a la vez η≥h y σ≥p, para R≥C0 la viabilidad con ρ≤δ equivale a
+**Joint corollary.** If both η≥h and σ≥p are required, for R≥C0 feasibility with ρ≤δ is equivalent to
 
 $$
 p\le q,\qquad
 \delta\ge\max\{h(1-q),\ p(q^{-1}-1)\}.
 $$
 
-La necesidad viene del lema; la suficiencia utiliza (6) con β=max(h,p/q)≤1. Se conserva q=a^m en AVG y q=2^{-m} en WC. Este resultado determina cortes conjuntos; no reconstruye todo el conjunto factible de R01.
+Necessity comes from the lemma; sufficiency uses (6) with β=max(h,p/q)≤1. q=a^m is retained in AVG and q=2^{-m} in WC. This result determines joint slices; it does not reconstruct the entire R01 feasible set.
 
-Sea q_j=a^j en AVG y q_j=2^{-j} en WC. Para el objetivo técnico y r<h, definir
+Let q_j=a^j in AVG and q_j=2^{-j} in WC. For the technical target and r<h, define
 
 $$
 j_T=\max\{j\in\mathbb N_0:h(1-q_j)\le r\},\qquad
 C_T=C_0+c\max(0,d-j_T).
 $$
 
-La banda técnica con trilema es C0≤R<C_T; R≥C_T es viable. El borde R=C_T pertenece a la región viable. Si r≥h, basta C0 y esa banda es vacía.
+The technical trilemma band is C0≤R<C_T; R≥C_T is viable. The boundary R=C_T belongs to the viable region. If r≥h, C0 suffices and that band is empty.
 
-Para éxito legítimo, definir
+For legitimate success, define
 
 $$
 j_L=\max\{j\in\mathbb N_0:p\le q_j,\quad
@@ -271,99 +299,113 @@ j_L=\max\{j\in\mathbb N_0:p\le q_j,\quad
 C_L=C_0+c\max(0,d-j_L).
 $$
 
-R≥C_L es la región viable legítima. Dentro de su complemento, la región donde **todos los pares** son alcanzables es (7); en otras bandas incluso el par coste–éxito legítimo puede ser imposible. No se etiqueta todo presupuesto insuficiente como trilema no vacuo.
+R≥C_L is the legitimate viable region. Within its complement, the region where **all pairs** are attainable is (7); in other bands even the cost–legitimate-success pair may be impossible. Not every insufficient budget is labeled a nonvacuous trilemma.
 
-Estas definiciones conservan exactamente las igualdades, sin depender de logaritmos numéricos redondeados. En el modelo equilibrado, j_T=floor(log_2(h/(h−r))).
+These definitions preserve the equalities exactly, without relying on rounded numerical logarithms. In the balanced model, j_T=floor(log_2(h/(h−r))).
 
-Para θ, definir A_S={θ: existe π que alcanza los objetivos de S}. Las regiones por pares son U_CR=A_CR\A_CRE, U_CE=A_CE\A_CRE y U_RE=A_RE\A_CRE. En las familias probadas se solapan. Si se desea clasificar ocho combinaciones disjuntas de resultados, debe hacerse sobre (θ,π), no suponer que las proyecciones sobre θ son disjuntas.
+For θ, define A_S={θ: there exists π attaining the objectives of S}. The pairwise regions are U_CR=A_CR\A_CRE, U_CE=A_CE\A_CRE and U_RE=A_RE\A_CRE. They overlap in the proved families. If eight disjoint combinations of results are to be classified, this must be done over (θ,π), rather than assuming that projections onto θ are disjoint.
 
-Con abstención barata y segura, una configuración no puede tener como posibilidades máximas «solo una» condición: abstenerse ya satisface coste y riesgo. Obtener esa clasificación exigiría otro contrato de admisibilidad, no una reinterpretación del presente teorema.
+With cheap and safe abstention, a configuration cannot have “only one” condition as its maximum possibilities: abstaining already satisfies cost and risk. Obtaining that classification would require another admissibility contract, not a reinterpretation of this theorem.
 
-## 8. Por qué la prueba es sustantiva y qué no demuestra
+<a id="8-por-qué-la-prueba-es-sustantiva-y-qué-no-demuestra"></a>
 
-La incompatibilidad no se introduce como axioma. Se deriva de cuatro hipótesis observables del modelo: hechos no establecidos que conservan incertidumbre, acceso individual con coste total, calidad que exige decisiones altas y riesgo irreversible si una decisión resulta inadmisible. El sistema admite estrategias seguras, eficaces y plenamente informadas; son los umbrales conjuntos de determinadas configuraciones los que las separan.
+## 8. Why the proof is substantive and what it does not demonstrate
 
-La prueba cubre adaptación, aleatoriedad, memoria y coordinación. El control alcanza la cota y prueba que no se exige más coste del necesario. La no vaciedad está demostrada con familias arbitrariamente grandes, y el control viable muestra que no se ha decretado una incompatibilidad universal. La segunda definición de eficacia evita sostener el resultado únicamente con entregas inadmisibles.
+Incompatibility is not introduced as an axiom. It is derived from four observable model hypotheses: unestablished facts retaining uncertainty, individual access with total cost, quality requiring high decisions and irreversible risk if a decision proves inadmissible. The system admits safe, effective and fully informed strategies; it is the joint thresholds of particular configurations that separate them.
 
-Eso establece consistencia y una imposibilidad dentro de la clase. No demuestra que todos los problemas reales pertenezcan a ella. Información inicial suficiente, correlaciones aprovechables, lectura de predicados globales o protección antes del efecto cambian el contrato. Su análisis tecnológico requiere otras pruebas y queda fuera de este documento.
+The proof covers adaptation, randomness, memory and coordination. The control attains the bound and proves that no more cost than necessary is required. Nonemptiness is proved with arbitrarily large families, and the viable control shows that universal incompatibility has not been decreed. The second efficacy definition avoids supporting the result solely with inadmissible deliveries.
 
-En esta familia, adquirir todos los hechos cuesta cd, lineal en el número de decisiones altas. No se afirma que el sobrecoste sea extraordinario en relación con C0 ni se transfiere automáticamente una cota cuadrática de otro generador. El coste esperado, latencia, geometría, presupuestos por agente, cambios temporales y nuevas interfaces no están cubiertos por estas fronteras.
+This establishes consistency and an impossibility within the class. It does not demonstrate that all real problems belong to it. Sufficient initial information, exploitable correlations, reading global predicates or protection before the effect change the contract. Their technology analysis requires other proofs and falls outside this document.
 
-**Utilidad práctica.** Una vez que se demuestre que un problema respeta el contrato, la frontera permite comprobar si sus objetivos de presupuesto, riesgo y eficacia son compatibles, identificar el recurso que falta y comparar una propuesta con un control realizable. No identifica por sí sola una arquitectura ganadora ni estima la frecuencia de infracciones en despliegues.
+In this family, acquiring all facts costs cd, linear in the number of high decisions. It is not claimed that the additional cost is extraordinary relative to C0, nor is a quadratic bound from another generator automatically transferred. Expected cost, latency, geometry, per-agent budgets, temporal changes and new interfaces are not covered by these frontiers.
 
-## 9. Antecedentes y límites de atribución
+**Practical utility.** Once a problem is proved to respect the contract, the frontier permits checking whether its budget, risk and efficacy objectives are compatible, identifying the missing resource and comparing a proposal with a realizable control. It does not itself identify a winning architecture or estimate violation frequency in deployments.
 
-La prueba de este documento es autocontenida. Como antecedente metodológico, Baldassini, Johnson y Aldridge estudian límites de consultas adaptativas en group testing; su Teorema 3.1 limita la recuperación exacta del conjunto de defectuosos con T tests [1]. Aquí se exige una entrega suficiente, no recuperar el mundo completo: aquel resultado no se utiliza para justificar automáticamente nuestras cotas. Tampoco constituye una validación externa de este trilema. No se afirma novedad sin una revisión bibliográfica más amplia.
+<a id="9-antecedentes-y-límites-de-atribución"></a>
 
-[1] L. Baldassini, O. Johnson y M. Aldridge, *The Capacity of Adaptive Group Testing*, ISIT 2013, pp. 2676–2680, arXiv:1301.7023v2. Texto primario comprobado, §III, Teorema 3.1: https://arxiv.org/html/1301.7023v2 ; registro: https://arxiv.org/abs/1301.7023 .
+## 9. Background and attribution limits
 
-## 10. Revisión y estado del manuscrito
+The proof in this document is self-contained. As methodological background, Baldassini, Johnson and Aldridge study limits of adaptive queries in group testing; their Theorem 3.1 bounds exact recovery of the defective set with T tests [1]. Here sufficient delivery is required, rather than recovery of the complete world: that result is not used to justify our bounds automatically. Nor does it constitute external validation of this trilemma. Novelty is not claimed without a broader literature review.
 
-La redacción y la revisión matemática actuales se realizaron con asistencia de IA, examinando explícitamente los supuestos y los casos límite. Se trata de revisión propia; no se presenta como revisión independiente ni como prueba formal verificada por un asistente lógico. No se han ejecutado nuevos tests científicos para producir este manuscrito. Los diagnósticos previos se conservan aparte y no sustentan el cuantificador universal.
+[1] L. Baldassini, O. Johnson and M. Aldridge, *The Capacity of Adaptive Group Testing*, ISIT 2013, pp. 2676–2680, arXiv:1301.7023v2. Primary text checked, §III, Theorem 3.1: https://arxiv.org/html/1301.7023v2 ; record: https://arxiv.org/abs/1301.7023 .
 
-Para consolidarlo ante terceros faltan: reconstrucción simbólica por un revisor independiente; comprobación de las hipótesis del problema al que se aplique; y, si se anuncia un teorema de R01, una reducción que preserve todas sus políticas, observaciones, efectos y costes. Una campaña empírica tiene otra finalidad: medir incidencia y utilidad en el ámbito probado. No reemplaza esas obligaciones matemáticas.
+<a id="10-revisión-y-estado-del-manuscrito"></a>
+
+## 10. Review and manuscript status
+
+The current writing and mathematical review were performed with AI assistance, explicitly examining assumptions and boundary cases. This is self-review; it is not presented as independent review or as a formal proof verified by a logical proof assistant. No new scientific tests have been executed to produce this manuscript. Previous diagnostics are preserved separately and do not support the universal quantifier.
+
+Consolidation for third parties still requires: symbolic reconstruction by an independent reviewer; verification of the hypotheses of the problem to which it is applied; and, if an R01 theorem is announced, a reduction preserving all its policies, observations, effects and costs. An empirical campaign has a different purpose: measuring incidence and utility within the tested scope. It does not replace those mathematical obligations.
 
 <!-- R01_BOT_WORKPLAN_START version="0.4" role="queue-pointer" -->
-La cola vigente está en [WORKPLAN.md](./WORKPLAN.md). Este documento aporta evidencia o criterios de su alcance; no mantiene una segunda cola. Escalación humana y whispering es la primera tecnología del protocolo; las revisiones repetidas se incorporan a cada ficha. La revisión independiente, fidelidad e integridad conservan sus obligaciones abiertas. El bloque anterior está preservado en QUEUE_SNAPSHOT_2026-10-04.json.
+The current queue is in [WORKPLAN.md](./WORKPLAN.md). This document contributes evidence or criteria within its scope; it does not maintain a second queue. Human escalation and whispering is the first technology in the protocol; repeated reviews are incorporated into each fiche. Independent review, fidelity and integrity retain their open obligations. The previous block is preserved in QUEUE_SNAPSHOT_2026-10-04.json.
 <!-- R01_BOT_WORKPLAN_END -->
 
 ## 11. Scope and Transfer Conditions
 
-### 11.1 Hipótesis numeradas y cobertura de políticas
+<a id="111-hipótesis-numeradas-y-cobertura-de-políticas"></a>
 
-H1. La misión, el mundo estático y la ley AVG se fijan antes de ejecutar; la semilla de la política es independiente del mundo.
+### 11.1 Numbered hypotheses and policy coverage
 
-H2. Los hechos nuevos tienen la ley independiente declarada. Geometría, recompensas, precios, metadatos y mensajes no aportan información adicional sobre ellos. Para WC se mantiene el mismo soporte de mundos y se exigen garantías por mundo.
+H1. The mission, static world and AVG law are fixed before execution; the policy seed is independent of the world.
 
-H3. Las lecturas nuevas son de coordenadas y su precio completo es c. Una lectura de otro hecho, un cache hit o una copia de un mensaje no entrega gratuitamente un hecho nuevo. La producción y la aplicabilidad de certificados no quedan fuera de la contabilidad.
+H2. New facts have the declared independent law. Geometry, rewards, prices, metadata and messages provide no additional information about them. For WC the same world support is retained and per-world guarantees are required.
 
-H4. Todo éxito técnico exige d posiciones altas distintas y paga al menos C0; los controles descritos completan por C0 más las lecturas. El número k limita lecturas de una **rama que completa**, no de cada rama fallida.
+H3. New reads are of coordinates and their full price is c. Reading another fact, a cache hit or copying a message does not deliver a new fact for free. Certificate production and applicability are not excluded from accounting.
 
-H5. Una primera ejecución alta sobre un hecho desconocido puede ser inadmisible; el recibo llega después del efecto. V registra todas las infracciones del proceso y es irreversible. M no revela hechos y las prohibiciones conocidas se rechazan.
+H4. Every technical success requires d distinct high positions and pays at least C0; the described controls complete for C0 plus reads. The number k limits reads of a **completing branch**, not of every failed branch.
 
-H6. Las observaciones de Π son exactamente las permitidas. Formalmente, Π comprende todos los núcleos de elección sobre acciones disponibles, condicionados a la historia completa y a una semilla independiente. No se limita a los algoritmos implementados ni a políticas no adaptativas. Fases, mezcla, consultas repetidas y parada quedan incluidas si usan esa misma interfaz y contabilidad. Otra tarea, un reinicio con efectos borrados o una nueva fuente de información cambian el contrato.
+H5. A first high execution on an unknown fact may be inadmissible; the receipt arrives after the effect. V records all process violations and is irreversible. M does not reveal facts and known prohibitions are rejected.
 
-H7. B es la capacidad física y R es el objetivo de coste; B≥C0+cd. El horizonte permite los controles. Cambiar de presupuesto por campaña a coste esperado, o de trabajo agregado a latencia, exige otra prueba.
+H6. Π's observations are exactly those permitted. Formally, Π comprises all choice kernels over available actions, conditional on the complete history and an independent seed. It is not limited to implemented algorithms or nonadaptive policies. Phases, mixing, repeated queries and stopping are included if they use that same interface and accounting. Another task, a restart with erased effects or a new information source change the contract.
 
-H8. H, V, η y σ son los eventos y probabilidades de §3. La eficacia técnica no sustituye el indicador de éxito de un sistema que requiere calidad legítima, coste y plazo conjuntamente.
+H7. B is physical capacity and R the cost target; B≥C0+cd. The horizon permits the controls. Changing from per-campaign budget to expected cost, or from aggregate work to latency, requires another proof.
 
-Con historia finita y catálogo finito, cualquier elección aleatoria adaptativa puede representarse por una semilla que sortea de antemano las decisiones para todas las historias posibles. Cada semilla determina una política de historia; promediar conserva las probabilidades. Por eso caracterizar Π mediante toda la historia cubre aleatoriedad por fases y composición dentro del contrato; no hace falta enumerar programas para probar el lema.
+H8. H, V, η and σ are the events and probabilities of §3. Technical efficacy does not replace the success indicator of a system requiring legitimate quality, cost and deadline jointly.
 
-### 11.2 Proposición de transferencia de imposibilidad
+With finite history and a finite catalog, any adaptive randomized choice can be represented by a seed drawing decisions in advance for all possible histories. Each seed determines a history policy; averaging preserves the probabilities. Therefore characterizing Π through the entire history covers randomness by phases and composition within the contract; enumerating programs is unnecessary to prove the lemma.
 
-Sean S una familia de configuraciones de un sistema D y M el modelo de este manuscrito. Para cada θ_D∈S fijar una configuración θ_M y una transformación de políticas Φ, común a los mundos y que no use información oculta. Suponer que Φ(π_D) pertenece a Π_M y que, para **cada** política relevante π_D, satisfacer los objetivos en D implica satisfacer los objetivos correspondientes en M, con las mismas unidades o conversiones declaradas:
+<a id="112-proposición-de-transferencia-de-imposibilidad"></a>
+
+### 11.2 Impossibility transfer proposition
+
+Let S be a family of configurations of a system D and M the model of this manuscript. For each θ_D∈S fix a configuration θ_M and a policy transformation Φ, common to the worlds and not using hidden information. Assume Φ(π_D) belongs to Π_M and that, for **every** relevant policy π_D, satisfying the objectives in D implies satisfying the corresponding objectives in M, with the same units or declared conversions:
 
 $$
 \mathrm{Good}_D(\pi_D)\ \Longrightarrow\
 \mathrm{Good}_M(\Phi(\pi_D)). \tag{8}
 $$
 
-Si θ_M está en la región imposible, entonces ninguna política de D satisface sus objetivos.
+If θ_M is in the impossible region, then no policy of D satisfies its objectives.
 
-**Prueba.** Una política buena en D produciría por (8) una política buena en M, contradiciendo el teorema. ∎
+**Proof.** A good policy in D would produce through (8) a good policy in M, contradicting the theorem. ∎
 
-Una condición suficiente, tras normalizar unidades y leyes, es C_M≤C_D, ρ_M≤ρ_D y η_M≥η_D para el objetivo técnico; sustituir o añadir σ_M≥σ_D para el objetivo legítimo. Estas desigualdades son suficientes, no necesarias: basta (8) al nivel de los umbrales. La dirección opuesta no transfiere imposibilidad.
+A sufficient condition, after normalizing units and laws, is C_M≤C_D, ρ_M≤ρ_D and η_M≥η_D for the technical objective; substitute or add σ_M≥σ_D for the legitimate objective. These inequalities are sufficient, not necessary: (8) at threshold level suffices. The opposite direction does not transfer impossibility.
 
-Para transferir **alcanzabilidad**, hay que construir políticas ejecutables en D a partir de los controles pertinentes de M que preserven los objetivos. No se necesita una biyección entre todas las políticas, y esa dirección adicional no es necesaria para la sola cota inferior. Para afirmar una frontera exacta en D se necesitan tanto la cota inferior como controles que la alcancen.
+To transfer **attainability**, executable policies in D must be constructed from the relevant controls of M preserving the objectives. A bijection between all policies is unnecessary, and that additional direction is not needed for the lower bound alone. To assert an exact frontier in D, both the lower bound and controls attaining it are needed.
 
-Para probar que existe una subfamilia difícil dentro de un sistema, basta verificar estas condiciones en esa subfamilia. No hay que representar todas sus configuraciones. Para afirmar el mismo resultado en todas ellas, sí haría falta verificar el dominio completo; este manuscrito no lo hace.
+To prove that a difficult subfamily exists within a system, verifying these conditions in that subfamily suffices. Representing all its configurations is unnecessary. To assert the same result in all of them, verification of the full domain would indeed be needed; this manuscript does not do that.
 
-### 11.3 Éxito con presupuesto por rama, sin imponer coste máximo global
+<a id="113-éxito-con-presupuesto-por-rama-sin-imponer-coste-máximo-global"></a>
 
-Para una política ejecutable bajo B, definir
+### 11.3 Success with per-branch budget, without imposing global maximum cost
+
+For a policy executable under B, define
 
 $$
 \eta_R=P(H\cap\{C_{\mathrm{traza}}\le R\}),\qquad
 \sigma_R=P(H\cap\neg V\cap\{C_{\mathrm{traza}}\le R\}).
 $$
 
-El coste de una rama fallida puede superar R. Aun así, cada rama contabilizada en σ_R paga C0 y puede financiar como máximo k lecturas. Repetir la prueba del lema da σ_R≤q, ρ≥(q^{-1}−1)σ_R y ρ≥(1−q)η_R. Los controles de (6) alcanzan las mismas cotas. Esta extensión requiere que el plazo y todas las infracciones sigan contándose en el mismo proceso.
+The cost of a failed branch may exceed R. Even so, each branch counted in σ_R pays C0 and can fund at most k reads. Repeating the lemma's proof gives σ_R≤q, ρ≥(q^{-1}−1)σ_R and ρ≥(1−q)η_R. The controls of (6) attain the same bounds. This extension requires that the deadline and all violations continue to be counted in the same process.
 
-Este corolario permite comparar el resultado con indicadores de éxito que incorporan el presupuesto **por ejecución**, en vez de una cota de coste máximo para toda la política. No los identifica silenciosamente: σ y σ_R son medidas distintas. Los experimentos parciales no prueban ni esta correspondencia ni (8).
+This corollary permits comparing the result with success indicators incorporating budget **per execution**, rather than a maximum-cost bound for the whole policy. It does not silently identify them: σ and σ_R are different measures. Partial experiments prove neither this correspondence nor (8).
 
-El [mapa de transferencia y resultado local M02](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) y la [auditoría de fondo](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) precisan las correspondencias verificadas y las pendientes. La especificación fuente de R01 conserva su contenido.
+The [transfer mapping and local M02 result](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) and the [in-depth audit](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) specify verified and pending correspondences. The R01 source specification retains its content.
 
 
-## Desarrollo posterior: teorema del trilema condicionado en R01
+<a id="desarrollo-posterior-teorema-del-trilema-condicionado-en-r01"></a>
 
-El [teorema principal sobre R01](./R01_CONDITIONED_TRILEMMA_THEOREM.md) formula el resultado sobre el dominio completo de configuraciones del escenario. Añade un certificado general, un corte informativo sobre historias completas, regiones por los tres pares y viabilidad, y una familia de paridad global con K datos y coste informativo creciente para N arbitrario. No exige transportar la misma fórmula F a cada configuración. Un caso de información compartida que resuelve el problema es compatible con ese teorema condicionado. Este manuscrito conserva las derivaciones de F y sus hipótesis. [Revisión propia del nuevo teorema](./R01_CONDITIONED_TRILEMMA_REVIEW.md); reconstrucción independiente todavía pendiente.
+## Subsequent development: conditioned trilemma theorem in R01
+
+The [main R01 theorem](./R01_CONDITIONED_TRILEMMA_THEOREM.md) formulates the result over the scenario's full configuration domain. It adds a general certificate, an information cut over complete histories, regions for all three pairs and feasibility, and a global-parity family with K data items and growing information cost for arbitrary N. It does not require transporting the same F formula to every configuration. A case of shared information resolving the problem is compatible with that conditioned theorem. This manuscript retains the F derivations and their hypotheses. [Self-review of the new theorem](./R01_CONDITIONED_TRILEMMA_REVIEW.md); independent reconstruction still pending.

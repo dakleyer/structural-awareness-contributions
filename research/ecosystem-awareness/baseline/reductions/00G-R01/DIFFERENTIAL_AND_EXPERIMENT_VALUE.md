@@ -130,5 +130,5 @@ Primary sources consulted on 3 October 2026. Versioned papers are identified whe
 ## Robot review plan — pending work on this document
 
 <!-- R01_BOT_WORKPLAN_START version="0.4" role="queue-pointer" -->
-La cola vigente está en [WORKPLAN.md](./feasibility/WORKPLAN.md). Este documento aporta evidencia o criterios de su alcance; no mantiene una segunda cola. Escalación humana y whispering es la primera tecnología del protocolo; las revisiones repetidas se incorporan a cada ficha. La revisión independiente, fidelidad e integridad conservan sus obligaciones abiertas. El bloque anterior está preservado en QUEUE_SNAPSHOT_2026-10-04.json.
+The current queue is in [WORKPLAN.md](./feasibility/WORKPLAN.md). This document contributes evidence or criteria within its scope; it does not maintain a second queue. Human escalation and whispering is the first technology in the protocol; repeated reviews are incorporated into each fiche. Independent review, fidelity and integrity retain their open obligations. The previous block is preserved in QUEUE_SNAPSHOT_2026-10-04.json.
 <!-- R01_BOT_WORKPLAN_END -->

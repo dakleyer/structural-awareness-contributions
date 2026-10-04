@@ -323,28 +323,28 @@
           "before_index": 1098,
           "after_index": 1098,
           "before": "L",
-          "after": "Al crearse esta revisión, l"
+          "after": "When this review was created, t"
         },
         {
           "kind": "insert",
           "before_index": 1104,
           "after_index": 1130,
           "before": "",
-          "after": " estaban abiertas. Estado actual: M01 está DONE para formulación de alcance; las otras 48"
+          "after": " were open. Current status: M01 is DONE for scope formulation; the other 48"
         },
         {
           "kind": "insert",
           "before_index": 10729,
           "after_index": 10844,
           "before": "",
-          "after": "**DONE — formulación de alcance**, [resultado](./M01_SCOPE_AND_QUANTIFIERS.md). "
+          "after": "**DONE — scope formulation**, [result](./M01_SCOPE_AND_QUANTIFIERS.md). "
         },
         {
           "kind": "insert",
           "before_index": 19978,
           "after_index": 20173,
           "before": "",
-          "after": "\n\n### Actualización de ejecución — M01\n\nM01 está DONE únicamente para formular el alcance matemático. [Contrato y revisión adversarial](./M01_SCOPE_AND_QUANTIFIERS.md) · [Evidencia y límites](./M01_SCOPE_CHECKS.json) · [Cálculos diagnósticos reproducibles](./verify_m01_scope.py). La declaración anterior de todas las tareas OPEN corresponde a la aprobación del plan, no al estado posterior a esta ejecución.\n\nEl primer objetivo usa un agente y una pareja de mundos estáticos equiprobables. No redefine la campaña de población de R01 ni demuestra que exista una región inviable. M02 es el siguiente paso; M10, P03, los argumentos, las implementaciones y las campañas conservan sus pendientes. Un hallazgo material puede reabrir M01. La revisión ha sido propia, no independiente.\n\n"
+          "after": "\n\n### Execution update — M01\n\nM01 is DONE solely for formulating mathematical scope. [Contract and adversarial review](./M01_SCOPE_AND_QUANTIFIERS.md) · [Evidence and limits](./M01_SCOPE_CHECKS.json) · [Reproducible diagnostic calculations](./verify_m01_scope.py). The earlier declaration of all tasks OPEN corresponds to plan approval, not status after this execution.\n\nThe first objective uses one agent and a pair of equiprobable static worlds. It redefines neither R01's population campaign nor proves existence of an infeasible region. M02 is the next step; M10, P03, arguments, implementations and campaigns retain their pending obligations. A material finding may reopen M01. Review has been self-performed, not independent.\n\n"
         }
       ]
     }

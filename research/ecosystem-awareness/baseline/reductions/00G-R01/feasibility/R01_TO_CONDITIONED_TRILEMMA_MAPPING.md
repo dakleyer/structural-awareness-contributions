@@ -1,74 +1,88 @@
-# R01 y el trilema condicionado: transferencia y resultado local
+<a id="r01-y-el-trilema-condicionado-transferencia-y-resultado-local"></a>
 
-Revisión de fondo · 4 de octubre de 2026 · Entrada a1ec3e24970e2d925745e4fc7a5cd8e6c11c11d5.
+# R01 and the conditioned trilemma: transfer and local result
 
-[Manuscrito revisado](./CONDITIONED_TRILEMMA.md) · [Auditoría](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) · [Escenario fuente intacto](../Escenario-creatividad-validacion.md) · [Contrato M10](./partial-experiments/historical/M10_RECONCILED_CONTRACT.json) · [Catálogo M02](./partial-experiments/historical/M02_CONJUNCTION_FIXTURE.json).
+In-depth review · 4 October 2026 · Input a1ec3e24970e2d925745e4fc7a5cd8e6c11c11d5.
 
-## 1. Tres objetivos de extensión diferentes
+[Revised manuscript](./CONDITIONED_TRILEMMA.md) · [Audit](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) · [Intact source scenario](../Escenario-creatividad-validacion.md) · [M10 contract](./partial-experiments/historical/M10_RECONCILED_CONTRACT.json) · [M02 catalog](./partial-experiments/historical/M02_CONJUNCTION_FIXTURE.json).
 
-1. **Existencia dentro de R01:** demostrar una subfamilia de configuraciones compatibles donde todas sus políticas observables afrontan el trilema, junto con regiones viables. Basta construir y auditar esa subfamilia; no se necesita traducir cada configuración de R01.
-2. **Transferencia condicionada a una instancia:** verificar las hipótesis para ese problema y derivar su cota. Una analogía entre nombres o una selección de trazas no basta.
-3. **La misma frontera F para todo R01:** no es válida. R01 permite hechos compartidos, reutilización, información inicial, certificados y otras interfaces. El contraejemplo de §5 muestra concretamente por qué no se puede trasladar q=2^{-(d-k)} a todos sus perfiles.
+<a id="1-tres-objetivos-de-extensión-diferentes"></a>
 
-El punto 1 es el objetivo matemático coherente con la tesis del usuario. No exige demostrar imposibilidad en todas las configuraciones, que incluiría las regiones viables. El escenario fuente SC-H (§1.2) formula una hipótesis empírica sobre una familia finita evaluada; demostrar una cota para todas las políticas de un contrato suplementario no cambia esa especificación sin una revisión explícita.
+## 1. Three different extension objectives
 
-## 2. La dirección que transfiere imposibilidad
+1. **Existence within R01:** prove a compatible configuration subfamily where all its observable policies face the trilemma, together with viable regions. Constructing and auditing that subfamily suffices; translating every R01 configuration is unnecessary.
+2. **Conditioned transfer to an instance:** verify the hypotheses for that problem and derive its bound. An analogy between names or selection of traces does not suffice.
+3. **The same F frontier for all R01:** not valid. R01 permits shared facts, reuse, initial information, certificates and other interfaces. The §5 counterexample shows specifically why q=2^{-(d-k)} cannot be transported to all its profiles.
 
-Para cada instancia D de una subfamilia, debe existir un modelo M y una transformación de políticas Φ, común a los mundos, observable y aplicable a **cada** política relevante de D, tal que
+Point 1 is the mathematical objective consistent with the user's thesis. It does not require proving impossibility in all configurations, which would include viable regions. Source scenario SC-H (§1.2) formulates an empirical hypothesis over an evaluated finite family; proving a bound for all policies of a supplemental contract does not change that specification without an explicit revision.
+
+<a id="2-la-dirección-que-transfiere-imposibilidad"></a>
+
+## 2. The direction transferring impossibility
+
+For each instance D of a subfamily, there must be a model M and a policy transformation Φ, common to worlds, observable and applicable to **every** relevant policy of D, such that
 
 $$
 \mathrm{Good}_D(\pi)\Rightarrow\mathrm{Good}_M(\Phi(\pi)).
 $$
 
-Si M no admite ninguna política buena, tampoco D: una política buena en D produciría una contradicción en M. Tras normalizar unidades y leyes, son condiciones suficientes C_M≤C_D, ρ_M≤ρ_D y e_M≥e_D. Para una frontera exacta también hacen falta controles ejecutables en D que alcancen la cota. No se exige una biyección de todos los algoritmos.
+If M admits no good policy, neither does D: a good policy in D would produce a contradiction in M. After normalizing units and laws, sufficient conditions are C_M≤C_D, ρ_M≤ρ_D and e_M≥e_D. An exact frontier additionally requires executable controls in D attaining the bound. A bijection of all algorithms is not required.
 
-Las implicaciones «objetivo satisfecho en M ⇒ objetivo satisfecho en D», propuestas en una auditoría recibida, sirven para construir alcanzabilidad, pero **no** bastan para transferir una imposibilidad. Tampoco basta escribir Π_D⊆Π_M sin construir una representación de observaciones, costes y efectos: son clases de políticas sobre interfaces distintas.
+Implications “objective satisfied in M ⇒ objective satisfied in D”, proposed in a received audit, serve to construct attainability, but do **not** suffice to transfer impossibility. Nor does writing Π_D⊆Π_M suffice without constructing a representation of observations, costs and effects: these are policy classes over different interfaces.
 
-## 3. Matriz concreta de correspondencia
+<a id="3-matriz-concreta-de-correspondencia"></a>
 
-Las etiquetas siguientes corresponden a la lectura completa del escenario, catálogo, contrato y código M02; no equivalen a revisión externa. El símbolo a de probabilidad en el manuscrito no redefine a, la medida de completion de R01; se mantienen tipos distintos.
+## 3. Concrete correspondence matrix
 
-| Elemento | Correspondencia con R01 / M02 | Dictamen |
+The following labels correspond to complete reading of the scenario, catalog, contract and M02 code; they are not equivalent to external review. Probability symbol a in the manuscript does not redefine a, the R01 completion measure; different types are retained.
+
+| Element | Correspondence with R01 / M02 | Verdict |
 |---|---|---|
-| Mundo y obligación | R01 §2.1 fija misión y admisibilidad. M02 usa χ=0/1 y active(m)=1, active(x)=1−χ, active(y)=χ. | IGUALDAD demostrada para la regla M02; otras reglas necesitan contrato. |
-| Rutas y conectores | M02 tiene 3 capas m/x/y, 24 conectores de beneficio cero y todas las 27 composiciones. | IGUALDAD del grafo definido; no es todo generador de R01. |
-| Calidad | M vale 3; óptimo admisible vale 6 en ambos mundos; ε=0 exige tres nodos altos. | IGUALDAD por suma y regla de admisibilidad. |
-| Hechos independientes por segmento | M02 repite el mismo χ en los tres pasos; R01 permite dependencias. | NO IGUALDAD. La frontera F con d=3 no se transfiere. |
-| Información previa | Setup da mapa técnico y evidencia de M, sin χ. | IGUALDAD en M02; evidencia inicial de otro perfil puede resolver el problema. |
-| Lectura informativa | query_state/check_certificate cuestan 1 y revelan el único χ. | IGUALDAD local; no representan tres lecturas independientes. |
-| Resto de consultas | explore, query_mandate, review, decide, reuse sin hecho adquirido, wait y rechazos no revelan χ. | IGUALDAD local de respuestas/cargos antes del primer efecto alto. |
-| Observación posterior | Primer efecto X/Y revela χ; ejecutar M no lo revela. | IGUALDAD local; los siguientes pasos deben aprovechar esa información. |
-| Riesgo | v_exec es irreversible y registra toda infracción material. ρ=P(v_exec=1). | IGUALDAD con M02/M10 y R01 §1.4; no se identifica riesgo con daño. |
-| η técnica | Probabilidad de ruta técnicamente suficiente. R01 separa raw finish/J_parcial del valor legítimo. | Medida SUPLEMENTARIA; no igualdad con e ni q de R01. |
-| σ legítima | Probabilidad de entrega de calidad suficiente sin ninguna infracción del proceso. | IGUALDAD de evento con la parte de calidad/legitimidad/plazo de e; el presupuesto requiere la siguiente fila. |
-| Éxito e | R01/M10 exige también C_traza≤R y plazo. | IGUALDAD con σ_R del manuscrito, no con σ sin presupuesto. En políticas con C_max≤R ambas coinciden. |
-| Coste | R01 C es ledger por ejecución; manuscrito C(π) es su máximo sobre ejecuciones. | COTA/AGREGACIÓN explícita, no igualdad de objetos. No se reemplaza por coste esperado. |
-| Capacidad y coste deseado | R01 R es cap físico; manuscrito B es cap físico y R es objetivo económico. | DISTINCIÓN necesaria. Con B=R, el par costoso no es ejecutable en ese mismo perfil. |
-| Políticas | M10 define todas las reglas observables con gate y rechazo conocido, y mezclas independientes; M02 limita a 32 eventos. | Cobertura local por historia completa; no solo las políticas implementadas en run(). |
-| Revisión propia | Cada posición necesita review→decide→execute. Las capas no repiten, y un certificado local no sustituye otro. | IGUALDAD local; fija coste mínimo de completar, no revisiones globales repetidas. |
-| Plazo/cap | T=32, H=32; los controles usan 10/11 unidades de tiempo y 11/12 peticiones incluyendo stop. | COTA realizable local; no ley general sobre latencia. |
-| N, geometría y señales | M02 usa N=1 y prior técnico pagado. R01 permite otras redes y tareas. | SUPUESTO PENDIENTE para una extensión distribuida o de búsqueda. |
-| Certificados, pooling, recuperación | En M02 solo el catálogo declarado; R01 admite otros perfiles con cargos e información propios. | SUPUESTO PENDIENTE para ampliar el resultado. No se excluyen de R01 para conservar la dificultad. |
+| World and obligation | R01 §2.1 fixes mission and admissibility. M02 uses χ=0/1 and active(m)=1, active(x)=1−χ, active(y)=χ. | EQUALITY proved for the M02 rule; other rules need a contract. |
+| Routes and connectors | M02 has 3 m/x/y layers, 24 zero-benefit connectors and all 27 compositions. | EQUALITY of the defined graph; not every R01 generator. |
+| Quality | M is worth 3; admissible optimum is 6 in both worlds; ε=0 requires three high nodes. | EQUALITY by sum and admissibility rule. |
+| Independent facts per segment | M02 repeats the same χ in all three steps; R01 permits dependencies. | NO EQUALITY. The F frontier with d=3 does not transfer. |
+| Prior information | Setup gives technical map and M evidence, without χ. | EQUALITY in M02; initial evidence of another profile may resolve the problem. |
+| Informative read | query_state/check_certificate cost 1 and reveal the single χ. | Local EQUALITY; they do not represent three independent reads. |
+| Other queries | explore, query_mandate, review, decide, reuse without acquired fact, wait and rejections do not reveal χ. | Local EQUALITY of responses/charges before the first high effect. |
+| Subsequent observation | First X/Y effect reveals χ; executing M does not. | Local EQUALITY; subsequent steps must exploit that information. |
+| Risk | v_exec is irreversible and records every material violation. ρ=P(v_exec=1). | EQUALITY with M02/M10 and R01 §1.4; risk is not identified with harm. |
+| Technical η | Probability of technically sufficient route. R01 separates raw finish/J_parcial from legitimate value. | SUPPLEMENTARY measure; not equality with R01 e or q. |
+| Legitimate σ | Probability of sufficient-quality delivery without any process violation. | Event EQUALITY with the quality/legitimacy/deadline part of e; budget requires the next row. |
+| Success e | R01/M10 also requires C_traza≤R and deadline. | EQUALITY with manuscript σ_R, not σ without budget. Both coincide in policies with C_max≤R. |
+| Cost | R01 C is per-execution ledger; manuscript C(π) is its maximum over executions. | Explicit BOUND/AGGREGATION, not equality of objects. Not replaced by expected cost. |
+| Capacity and desired cost | R01 R is physical cap; manuscript B is physical cap and R economic target. | Necessary DISTINCTION. With B=R, the costly pair is not executable in that same profile. |
+| Policies | M10 defines all observable rules with gate and known rejection, and independent mixtures; M02 limits to 32 events. | Local coverage through complete history; not only policies implemented in run(). |
+| Self-review | Each position needs review→decide→execute. Layers do not repeat and a local certificate does not replace another. | Local EQUALITY; fixes minimum completion cost, not repeated global reviews. |
+| Deadline/cap | T=32, H=32; controls use 10/11 time units and 11/12 requests including stop. | Locally realizable BOUND; not general latency law. |
+| N, geometry and signals | M02 uses N=1 and paid technical prior. R01 permits other networks and tasks. | PENDING ASSUMPTION for a distributed or search extension. |
+| Certificates, pooling, recovery | In M02 only the declared catalog; R01 admits other profiles with their own charges and information. | PENDING ASSUMPTION to expand the result. They are not excluded from R01 to preserve difficulty. |
 
-Fuentes exactas: escenario §§1.2,1.4,2.1–2.3,2.6–2.8,2.11–2.15; contrato M10 §§2–4; catálogo M02 `operations`, `gate_rule`, `resource_rule`, `reuse_rule`; código `Episode.request` y `Episode.result`. El código se leyó, no se ejecutó para esta revisión.
+Exact sources: scenario §§1.2,1.4,2.1–2.3,2.6–2.8,2.11–2.15; M10 contract §§2–4; M02 catalog `operations`, `gate_rule`, `resource_rule`, `reuse_rule`; code `Episode.request` and `Episode.result`. Code was read, not executed for this review.
 
-## 4. Teorema directo para el contrato M02, con todas sus políticas
+<a id="4-teorema-directo-para-el-contrato-m02-con-todas-sus-políticas"></a>
 
-### 4.1 Capacidad física y umbrales
+## 4. Direct theorem for the M02 contract, with all its policies
 
-Usar el catálogo M02 estático sin información inicial de χ, con capacidad física B=12, T=H=32 y ε=0. Esto es el perfil físico easy_budget, sin cambiar sus bytes. Introducir un objetivo de coste R_goal con 11≤R_goal<12. C es máximo del ledger; la capacidad física de la fuente sigue llamándose R_alloc=B. Son variables diferentes.
+<a id="41-capacidad-física-y-umbrales"></a>
 
-El prior congelado es P(χ=0)=P(χ=1)=1/2. Una variante con prior a/(1−a) es otro θ y debe declararse; no se altera retrospectivamente el fixture.
+### 4.1 Physical capacity and thresholds
 
-Π contiene todas las políticas sobre la historia observable del catálogo, respetando gate y prohibiciones conocidas, hasta H. H_tec significa entrega completa de valor técnico 6; V registra cualquier infracción, y σ=P(H_tec∩¬V). Para políticas con C_max≤R_goal, σ coincide con el indicador de éxito de calidad/plazo/coste correspondiente al objetivo R_goal.
+Use the static M02 catalog without initial χ information, with physical capacity B=12, T=H=32 and ε=0. This is physical profile easy_budget without changing its bytes. Introduce a cost target R_goal with 11≤R_goal<12. C is the ledger maximum; source physical capacity remains named R_alloc=B. They are different variables.
 
-### 4.2 Cota y prueba exhaustiva por clases de eventos
+The frozen prior is P(χ=0)=P(χ=1)=1/2. A variant with prior a/(1−a) is another θ and must be declared; the fixture is not retrospectively altered.
 
-Toda ruta completa exige setup, de coste 2, y un review, decide y execute por cada una de las tres posiciones, a coste 1 cada uno. Ninguna operación distinta produce el certificado local ni el commitment necesarios. Después de execute se consume el certificado y se cambia de capa; reuse no produce uno nuevo. Por tanto todo camino completo paga al menos 2+3·3=11.
+Π contains all policies over observable catalog history, respecting gate and known prohibitions, up to H. H_tec means complete delivery of technical value 6; V records any violation and σ=P(H_tec∩¬V). For policies with C_max≤R_goal, σ coincides with the quality/deadline/cost success indicator corresponding to target R_goal.
 
-Un query_state/check_certificate previo a completar añade al menos 1. Bajo C_max≤R_goal<12, una rama completa no puede haber pagado esa consulta. Setup y explore muestran el mismo mapa en ambos mundos; query_mandate la misma regla; review/decide la misma geometría y los mismos gates sin χ; reuse conserva solo lo ya visto; wait/stop y los rechazos sintácticos o de recursos no distinguen los mundos. Un execute de M devuelve binding verdadero en ambos y no revela χ. Estas clases agotan el catálogo.
+<a id="42-cota-y-prueba-exhaustiva-por-clases-de-eventos"></a>
 
-Una entrega de calidad 6 requiere una primera ejecución alta todavía desconocida. Antes de ella, la política usa una historia con la misma ley en los dos mundos. Sea u la probabilidad de entrar en esa primera apuesta desconocida. En el prior equilibrado, su probabilidad de acierto es 1/2. La primera infracción ocurre con probabilidad u/2 y cualquier éxito legítimo exige ese acierto. Así
+### 4.2 Bound and exhaustive proof by event classes
+
+Every complete route requires setup, cost 2, and one review, decide and execute per each of three positions, cost 1 each. No other operation produces the necessary local certificate or commitment. After execute the certificate is consumed and the layer changes; reuse produces no new one. Therefore every complete path pays at least 2+3·3=11.
+
+A query_state/check_certificate before completion adds at least 1. Under C_max≤R_goal<12, a complete branch cannot have paid for that query. Setup and explore show the same map in both worlds; query_mandate the same rule; review/decide the same geometry and gates without χ; reuse preserves only what has been seen; wait/stop and syntactic or resource rejections do not distinguish worlds. An execute of M returns true binding in both and does not reveal χ. These classes exhaust the catalog.
+
+A quality-6 delivery requires a first still unknown high execution. Before it, the policy uses a history with the same law in both worlds. Let u be the probability of entering that first unknown bet. In the balanced prior its success probability is 1/2. First violation occurs with probability u/2 and every legitimate success requires that success. Thus
 
 $$
 \sigma\le u/2\le1/2,\qquad
@@ -76,15 +90,17 @@ $$
 \rho\ge\eta/2.
 $$
 
-La última desigualdad usa η≤σ+ρ. Consultas en ramas fallidas, phases y paradas no aportan éxitos financiables y no invalidan la cota. En WC las garantías por mundo implican las garantías bajo el prior equilibrado.
+The last inequality uses η≤σ+ρ. Queries on failed branches, phases and stopping contribute no fundable successes and do not invalidate the bound. In WC, per-world guarantees imply guarantees under the balanced prior.
 
-### 4.3 Controles y frontera local exacta
+<a id="43-controles-y-frontera-local-exacta"></a>
 
-Con probabilidad β, ejecutar X en la primera posición, observando el recibo después del efecto. Si resulta admisible, χ=0; si resulta inadmisible, χ=1. En las dos posiciones siguientes ejecutar respectivamente X o Y según ese hecho ya adquirido. Mantener review→decide→execute en cada posición. La primera infracción no se borra, pero se completa técnicamente sin infringir una prohibición conocida. Con probabilidad 1−β ejecutar M tres veces.
+### 4.3 Controls and exact local frontier
 
-En AVG: C_max=11, η=β, σ=β/2, ρ=β/2. Para WC, usar moneda justa en la primera opción X/Y y luego la correcta según el recibo; esas tasas se cumplen en cada mundo. Estos controles son construcciones simbólicas legales; no se afirma que el wrapper histórico run() los implemente ni que se hayan ejecutado ahora.
+With probability β, execute X at the first position, observing the receipt after the effect. If admissible, χ=0; if inadmissible, χ=1. At the next two positions execute respectively X or Y according to that already acquired fact. Maintain review→decide→execute at each position. The first violation is not erased, but technical completion occurs without violating a known prohibition. With probability 1−β execute M three times.
 
-Por tanto para 11≤R_goal<12:
+In AVG: C_max=11, η=β, σ=β/2, ρ=β/2. For WC, use a fair coin for the first X/Y option and then the correct option according to the receipt; those rates hold in every world. These controls are legal symbolic constructions; it is not claimed that historical wrapper run() implements them or that they have been executed now.
+
+Therefore for 11≤R_goal<12:
 
 $$
 \exists\pi:C_{max}\le R_{goal},\eta\ge h,\rho\le r
@@ -93,115 +109,131 @@ $$
 
 $$
 \exists\pi:C_{max}\le R_{goal},\sigma\ge p,\rho\le\delta
-\iff p\le1/2\quad\text{y}\quad\delta\ge p.
+\iff p\le1/2\quad\text{and}\quad\delta\ge p.
 $$
 
-Para R_goal=12, pagar la consulta de χ antes del primer efecto y mantener todos los gates consigue η=σ=1, ρ=0 y C_max=12. Para R_goal<11, no hay entrega suficiente bajo C_max≤R_goal. Estas condiciones son exactas dentro del catálogo, para AVG equilibrado y WC, no una extrapolación de 27 rutas o de los checks históricos.
+For R_goal=12, paying for the χ query before the first effect and maintaining all gates achieves η=σ=1, ρ=0 and C_max=12. For R_goal<11, there is no sufficient delivery under C_max≤R_goal. These conditions are exact within the catalog for balanced AVG and WC, not extrapolation from 27 routes or historical checks.
 
-### 4.4 No vaciedad del trilema legítimo local
+<a id="44-no-vaciedad-del-trilema-legítimo-local"></a>
 
-Para cualquier 11≤R_goal<12, 0<p≤1/2 y 0≤δ<p:
+### 4.4 Nonemptiness of the local legitimate trilemma
 
-| Par | Control dentro de la misma capacidad B=12 | Resultado |
+For any 11≤R_goal<12, 0<p≤1/2 and 0≤δ<p:
+
+| Pair | Control within the same capacity B=12 | Result |
 |---|---|---|
-| Coste–riesgo | Solo M | C=11≤R_goal; ρ=0; σ=0<p. |
-| Coste–éxito legítimo | Control adaptativo con β=2p | C=11≤R_goal; σ=p; ρ=p>δ. |
-| Riesgo–éxito legítimo | Una consulta y ruta admisible | C=12>R_goal, ejecutable bajo B; σ=1; ρ=0. |
+| Cost–risk | Only M | C=11≤R_goal; ρ=0; σ=0<p. |
+| Cost–legitimate success | Adaptive control with β=2p | C=11≤R_goal; σ=p; ρ=p>δ. |
+| Risk–legitimate success | One query and admissible route | C=12>R_goal, executable under B; σ=1; ρ=0. |
 
-Ninguna otra política consigue los tres por la cota universal. Esta es una región parametrizada no vacía, no una sola ejecución. Con R_goal=12 las tres son compatibles. No se ha cambiado la misión ni se han ocultado controles competentes.
+No other policy achieves all three by the universal bound. This is a nonempty parameterized region, not a single execution. With R_goal=12 all three are compatible. The mission has not been changed and competent controls have not been hidden.
 
-**Límite del perfil histórico:** sus umbrales originales p=3/4, δ=1/4, con R_alloc=11, no dan el trilema no vacuo por los tres pares. El par coste–éxito ya es imposible porque σ≤1/2; además el techo de riesgo δ=1−p es redundante con ese éxito. Esa limitación ya estaba registrada en M10. Los umbrales anteriores de esta sección son un contrato analítico adicional declarado, no una corrección del fixture.
+**Historical profile limit:** its original thresholds p=3/4, δ=1/4, with R_alloc=11, do not give the nonvacuous three-pair trilemma. The cost–success pair is already impossible because σ≤1/2; moreover risk ceiling δ=1−p is redundant with that success. This limitation was already recorded in M10. The above thresholds in this section are a declared additional analytical contract, not a fixture correction.
 
-Si se mantiene B=R_goal=11 como cap físico, el control costoso no puede ejecutarse allí: conserva su papel como solución del mismo problema con capacidad 12. No se etiqueta como una política permitida bajo cap 11. Esta distinción es esencial para la transferencia del lenguaje de los pares.
+If B=R_goal=11 is retained as physical cap, the costly control cannot execute there: it retains its role as a solution of the same problem with capacity 12. It is not labeled a permitted policy under cap 11. This distinction is essential for transferring pairwise language.
 
-### 4.5 Indicador de éxito de R01 sin coste máximo global
+<a id="45-indicador-de-éxito-de-r01-sin-coste-máximo-global"></a>
 
-Para cualquier política ejecutable bajo B, σ_goal=P(H_tec∩¬V∩{C_traza≤R_goal}) cuenta las entregas legítimas dentro del objetivo económico. Las ramas que cuentan en σ_goal no pueden pagar la consulta, aunque otras ramas gasten 12. El mismo primer-apuesta argumento da σ_goal≤1/2 y ρ≥σ_goal. Así la cota también puede expresarse como una condición de éxito por campaña al estilo de e de R01. No se identifica σ_goal con σ en políticas que gastan más que R_goal en alguna rama.
+### 4.5 R01 success indicator without global maximum cost
 
-## 5. Contraejemplo a la extensión indiscriminada de la frontera F
+For any policy executable under B, σ_goal=P(H_tec∩¬V∩{C_traza≤R_goal}) counts legitimate deliveries within the economic target. Branches counted in σ_goal cannot pay for the query even if other branches spend 12. The same first-bet argument gives σ_goal≤1/2 and ρ≥σ_goal. Thus the bound may also be expressed as a per-campaign success condition in the style of R01 e. σ_goal is not identified with σ in policies spending more than R_goal in any branch.
 
-En el M02 documentado, L=3, C0=11, c=1 y una sola lectura revela el binding compartido. A presupuesto 12, consultar χ y escoger X/X/X o Y/Y/Y da calidad legítima 6 y riesgo cero. Los gates siguen presentes.
+<a id="5-contraejemplo-a-la-extensión-indiscriminada-de-la-frontera-f"></a>
 
-Si se aplicara incorrectamente F con d=3 y k=1, se obtendría q=2^{-2}=1/4 y, para η=1, una cota de riesgo 3/4. Es incompatible con el control anterior de riesgo cero. La causa precisa es que los tres bindings **no son independientes**: son copias del mismo χ. No refuta F; refuta aplicar su fórmula a ese perfil R01.
+## 5. Counterexample to indiscriminate extension of the F frontier
 
-R01 §§1.3,2.11 permite precisamente reutilizar un hecho válido en ámbitos aplicables. No se puede reparar la extensión prohibiendo esa reutilización. Hay que modelar las dependencias o utilizar una cota apropiada para un solo hecho, como §4.
+In documented M02, L=3, C0=11, c=1 and a single read reveals the shared binding. At budget 12, querying χ and choosing X/X/X or Y/Y/Y gives legitimate quality 6 and zero risk. Gates remain present.
 
-## 6. Qué falta para una familia R01 con dureza creciente
+If F were incorrectly applied with d=3 and k=1, q=2^{-2}=1/4 and, for η=1, risk bound 3/4 would follow. This is incompatible with the above zero-risk control. The precise cause is that the three bindings **are not independent**: they are copies of the same χ. It does not refute F; it refutes applying its formula to that R01 profile.
 
-### 6.1 Una familia R01 parametrizada que ya puede definirse y probarse
+R01 §§1.3,2.11 precisely permits reuse of a valid fact in applicable scopes. The extension cannot be repaired by prohibiting that reuse. Dependencies must be modeled or an appropriate single-fact bound used, as in §4.
 
-La existencia de un trilema dentro de una subfamilia no requiere que el coste informativo crezca con L. Se puede construir la familia G de bindings compartidos, distinta de F, para todo L≥1:
+<a id="6-qué-falta-para-una-familia-r01-con-dureza-creciente"></a>
 
-- Una tarea, N=1, mundo estático χ∈{0,1} equiprobable, misión y principal fijos. Tres nodos por capa: M_i de beneficio 1 y X_i/Y_i de beneficio 2, i=1,…,L. Conectores completos entre capas consecutivas y beneficio cero; incluido el conector terminal. La admisibilidad es la conjunción de active(m)=1, active(x)=1−χ, active(y)=χ en todos los efectos.
-- Geometría fija: M en la referencia, X/Y a distancia 1 a izquierda/derecha; radio accesible 1, dispersión cero. Los I/P derivados tienen media 2, caso de control admitido en R01 §2.3; la recompensa y la posición no revelan χ. M es conocido y su evidencia se paga.
-- El perfil comienza con un prior técnico ya adquirido y pagado, favorable a todos los controles. Para evitar una lista técnica gratuita, se cobra preparación 2 y exploración de los 2L candidatos a c_e=2 por candidato: setup de coste 2+4L y duración 1+2L. Su ledger conserva ese desglose. No se descubre χ en esa preparación. Es contexto inicial de este perfil, no una estrategia obligatoria que se imponga a todo R01 ni una pretensión de optimalidad de la búsqueda.
-- Para cada posición material se requiere review→decide→execute, cada operación a coste y duración 1. La revisión local vale c_v=1<c_e=2. No revela el binding global; sí comprueba el nodo, conector y ámbito propio. Las consultas normativas pueden ampliar la información sin sustituir ese gate. Mensajes a uno mismo no crean información. No hay otros participantes ni fuentes iniciales.
-- La evidencia global del único χ cuesta 1 en total: adquisición/producción y comprobación de aplicabilidad se incluyen en ese precio declarado. Es suficiente para todas las posiciones mientras permanece válido. No se fuerza volver a comprarla L veces.
+## 6. What remains for an R01 family with growing hardness
 
-El contrato completo de operaciones es el siguiente. Las respuestas y los precios previos a conocer χ no dependen de su valor, salvo en las tres operaciones informativas declaradas.
+<a id="61-una-familia-r01-parametrizada-que-ya-puede-definirse-y-probarse"></a>
 
-| Operación | Coste / duración | Transición e información |
+### 6.1 A parameterized R01 family that can already be defined and proved
+
+Existence of a trilemma within a subfamily does not require information cost to grow with L. Shared-binding family G, distinct from F, can be constructed for every L≥1:
+
+- One task, N=1, static equiprobable world χ∈{0,1}, fixed mission and principal. Three nodes per layer: M_i with benefit 1 and X_i/Y_i with benefit 2, i=1,…,L. Complete connectors between consecutive layers and zero benefit; terminal connector included. Admissibility is the conjunction of active(m)=1, active(x)=1−χ, active(y)=χ in all effects.
+- Fixed geometry: M at the reference, X/Y distance 1 left/right; accessible radius 1, zero dispersion. Derived I/P have mean 2, control case admitted in R01 §2.3; reward and position do not reveal χ. M is known and its evidence paid.
+- The profile starts with an already acquired and paid technical prior favorable to all controls. To avoid a free technical list, preparation 2 and exploration of all 2L candidates at c_e=2 per candidate are charged: setup cost 2+4L and duration 1+2L. Its ledger retains that breakdown. χ is not discovered in that preparation. This is initial context of this profile, not a mandatory strategy imposed on all R01 or a claim of search optimality.
+- Every material position requires review→decide→execute, each operation at cost and duration 1. Local review is c_v=1<c_e=2. It does not reveal the global binding; it checks node, connector and its own scope. Normative queries may expand information without replacing that gate. Self-messages create no information. There are no other participants or initial sources.
+- Global evidence of the single χ costs 1 in total: acquisition/production and applicability checking are included in that declared price. It suffices for all positions while valid. Repurchasing it L times is not forced.
+
+The full operation contract follows. Responses and prices before learning χ do not depend on its value except in the three declared informative operations.
+
+| Operation | Cost / duration | Transition and information |
 |---|---|---|
-| setup | 2+4L / 1+2L | Una vez inicializa el prior técnico, evidencia de M y versión; repetir no obtiene χ ni reinicia el proceso. |
-| explore | 2 / 1 | Inspección de candidato ya descubierto; geometría y beneficio existentes, sin χ. |
-| review | 1 / 1 | Para nodo de la siguiente capa y conector válido: certificado local del ámbito exacto; borra pending. Los ámbitos de capas distintas no se sustituyen. |
-| decide | 1 / 1 | Requiere ese certificado y rechaza prohibición ya conocida; crea commitment del mismo ámbito. |
-| execute | 1 / 1 | Requiere certificado/commitment, posición y conector, y rechazo conocido. Produce efecto, avanza capa, consume ambos y entrega binding_active_after_effect. Si X/Y, revela χ; si M, no. V es OR de toda infracción. |
-| query_state / inspect_binding / check_certificate | 1 / 1 | Devuelve χ exacto, origen, ámbito y versión. El precio incluye todo el productor y uso; no sustituye revisión geométrica. |
-| query_mandate | 1 / 1 | Regla y principal fijos, sin el dato de actividad de χ. |
-| reuse / comunicación consigo mismo | 0 / 0 | Solo hechos/certificados de la historia; no altera χ, V, posición ni certifica un ámbito nuevo. |
-| wait | 0 / 1 | Mundo estático; no crea evidencia. |
-| stop | 0 / 0 | Termina; no convierte ruta incompleta en entrega. |
+| setup | 2+4L / 1+2L | Once, initializes technical prior, M evidence and version; repetition neither obtains χ nor restarts the process. |
+| explore | 2 / 1 | Inspection of an already discovered candidate; existing geometry and benefit, without χ. |
+| review | 1 / 1 | For next-layer node and valid connector: local certificate of exact scope; clears pending. Different-layer scopes do not substitute for each other. |
+| decide | 1 / 1 | Requires that certificate and rejects an already known prohibition; creates commitment of the same scope. |
+| execute | 1 / 1 | Requires certificate/commitment, position and connector, and known rejection. Produces effect, advances layer, consumes both and delivers binding_active_after_effect. If X/Y, reveals χ; if M, does not. V is OR of every violation. |
+| query_state / inspect_binding / check_certificate | 1 / 1 | Returns exact χ, origin, scope and version. Price includes the entire producer and use; it does not replace geometric review. |
+| query_mandate | 1 / 1 | Fixed rule and principal, without χ activity datum. |
+| reuse / self-communication | 0 / 0 | Only facts/certificates from history; alters neither χ, V nor position and certifies no new scope. |
+| wait | 0 / 1 | Static world; creates no evidence. |
+| stop | 0 / 0 | Terminates; does not turn an incomplete route into delivery. |
 
-El estado es (capa, prefijo, certificado, commitment, χ_adquirido_o_desconocido, ledger, reloj, contador, V, terminado). El χ del entorno no es accesible directamente por la política. IDs y payloads pertenecen al catálogo finito; no hay operación de reset o fuente externa. Una petición que supera capacidad/reloj/cap se rechaza sin efecto ni dato oculto y consume petición. Un error sintáctico/de gate tampoco revela χ; salvo rechazo previo de recursos, paga su cargo indicado. Esos estados, transiciones y respuestas definen la clase de todas las políticas por historia, no una lista de algoritmos.
+State is (layer, prefix, certificate, commitment, χ_acquired_or_unknown, ledger, clock, counter, V, terminated). The environment's χ is not directly accessible to the policy. IDs and payloads belong to the finite catalog; there is no reset operation or external source. A request exceeding capacity/clock/cap is rejected without effect or hidden datum and consumes a request. A syntactic/gate error likewise does not reveal χ; except prior resource rejection, it pays its indicated charge. Those states, transitions and responses define the class of all history policies, not an algorithm list.
 
-**Estado inicial del punto de decisión:** antes de la primera elección de π, el setup automático ya se ha realizado. Prefijo vacío, primera capa, certificado y commitment vacíos, χ desconocido, V=0, coste incurrido 2+4L, reloj 1+2L y contador 1 de la macro petición. El desglose de producción es parte de ese coste, no un cargo duplicado. Ninguna política desde este contexto puede evitar retroactivamente ese gasto o recibir el prior sin él. La optimización de un proceso anterior que adquiriese otro prior es otra configuración y no se declara cubierta por este teorema. Repetir setup produce el mismo manifest pagando de nuevo su cargo, sin reiniciar el contador, el coste o V.
+**Initial decision-point state:** before π's first choice, automatic setup has already occurred. Empty prefix, first layer, empty certificate and commitment, unknown χ, V=0, incurred cost 2+4L, clock 1+2L and counter 1 for the macro request. Production breakdown is part of that cost, not a duplicate charge. No policy from this context can retrospectively avoid that expenditure or receive the prior without it. Optimization of an earlier process acquiring another prior is another configuration and is not declared covered by this theorem. Repeated setup produces the same manifest while paying its charge again, without resetting counter, cost or V.
 
-Fijar ε=0, C0(L)=2+7L, capacidad física B=C0(L)+1, T=H=5L+4 y objetivo de coste C0(L)≤R_goal<C0(L)+1. El horizonte cubre incluso el desglose de la preparación más L gates, una lectura y stop. No se conserva el H=32 de M02 al aumentar L.
+Fix ε=0, C0(L)=2+7L, physical capacity B=C0(L)+1, T=H=5L+4 and cost target C0(L)≤R_goal<C0(L)+1. The horizon covers even the preparation breakdown plus L gates, one read and stop. M02 H=32 is not retained as L increases.
 
-**Teorema G.** Para cualquier L y estos parámetros, para todas las políticas observables ejecutables de G, con C_max≤R_goal se cumplen σ≤1/2, ρ≥σ y ρ≥η/2. Las fronteras de §4 son exactas, sustituyendo 11 por C0(L) y 12 por C0(L)+1. Para 0<p≤1/2 y 0≤δ<p cada par es alcanzable y ninguna política consigue las tres. En R_goal=B una lectura obtiene σ=η=1 y ρ=0.
+**Theorem G.** For any L and these parameters, for all executable observable policies of G, under C_max≤R_goal, σ≤1/2, ρ≥σ and ρ≥η/2 hold. The §4 frontiers are exact, replacing 11 by C0(L) and 12 by C0(L)+1. For 0<p≤1/2 and 0≤δ<p each pair is attainable and no policy achieves all three. At R_goal=B one read obtains σ=η=1 and ρ=0.
 
-**Prueba.** Todo camino completo paga el setup técnico ya incurrido y 3L gates/materiales, al menos C0(L). Un nuevo hecho global añade 1, de modo que no cabe en una rama de entrega dentro de R_goal<C0(L)+1. Todas las demás respuestas preefecto desconocido son las mismas en ambos mundos por el catálogo. Una entrega de calidad 2L requiere la primera ejecución alta, con acierto 1/2; σ≤u/2 y ρ≥u/2 como en §4. El control intenta con probabilidad β, apuesta en el primer paso y adapta los restantes al recibo, sin borrar V ni ejecutar una opción conocida como prohibida. C_max=C0(L), η=β, σ=ρ=β/2. Solo M prueba coste–riesgo; β=2p coste–éxito; una lectura previa prueba riesgo–éxito a C0(L)+1. Los controles respetan el horizonte y la capacidad. ∎
+**Proof.** Every complete path pays already incurred technical setup and 3L gates/materials, at least C0(L). A new global fact adds 1, so it does not fit a delivery branch within R_goal<C0(L)+1. All other pre-effect responses while unknown are identical in both worlds by the catalog. Quality-2L delivery requires the first high execution with success probability 1/2; σ≤u/2 and ρ≥u/2 as in §4. The control attempts with probability β, bets at the first step and adapts the rest to the receipt without erasing V or executing an option known to be forbidden. C_max=C0(L), η=β, σ=ρ=β/2. Only M proves cost–risk; β=2p cost–success; a prior read proves risk–success at C0(L)+1. Controls respect horizon and capacity. ∎
 
-Esta es una instanciación formal del inventario R01: tarea y población (§2.1/2.5), cadenas/conectores (§2.2), medias coincidentes y dispersión declarada (§2.3), geometría y radio (§2.4), separación de información y cargo de productor (§2.6), gate y recibos (§2.7/2.8), ledger c_v<c_e y reutilización (§2.11), capacidad/horizonte y unidad de agregación (§2.12). El prior técnico pagado es favorable y se declara como en M02, no una campaña de descubrimiento completa. El perfil usa un catálogo cerrado dentro del inventario; otra API o evidencia inicial define otro perfil. La independencia por segmento de F no se impone a este problema.
+This is a formal instantiation of the R01 inventory: task and population (§2.1/2.5), chains/connectors (§2.2), coincident means and declared dispersion (§2.3), geometry and radius (§2.4), information separation and producer charge (§2.6), gate and receipts (§2.7/2.8), ledger c_v<c_e and reuse (§2.11), capacity/horizon and aggregation unit (§2.12). The paid technical prior is favorable and declared as in M02, not a complete discovery campaign. The profile uses a closed catalog within the inventory; another API or initial evidence defines another profile. F's per-segment independence is not imposed on this problem.
 
-Así se dispone de una familia de configuraciones R01 formalmente especificada, con todas sus políticas observables y tamaños arbitrarios, que presenta el trilema **condicionado**. La revisión independiente de la prueba y del cumplimiento de esas cláusulas sigue pendiente. No se afirma que todo R01 tenga este perfil, que el sobrecoste informativo crezca con L o que ocurra con determinada frecuencia.
+There is thus a formally specified family of R01 configurations with all its observable policies and arbitrary sizes exhibiting the **conditioned** trilemma. Independent review of the proof and compliance with those clauses remains pending. It is not claimed that all R01 has this profile, information additional cost grows with L or it occurs at a particular frequency.
 
-**Variante AVG de alta fiabilidad.** Cambiar solo el prior del único χ a P(χ=0)=a≥1/2 mantiene la construcción de G y cambia la cota local a σ≤a y ρ≥(a^{-1}−1)σ. El control adaptativo da η=β, σ=βa y ρ=β(1−a). Con a=99/100, p=19/20 y δ=1/1000, cualquier L tiene cada par alcanzable y triple imposible a R_goal<C0(L)+1; el riesgo mínimo barato para σ≥p es 19/1980. Es otro perfil declarado, no el prior congelado de M02 ni una garantía WC del 95 %.
+**High-reliability AVG variant.** Changing only the prior of the single χ to P(χ=0)=a≥1/2 retains G's construction and changes the local bound to σ≤a and ρ≥(a^{-1}−1)σ. The adaptive control gives η=β, σ=βa and ρ=β(1−a). With a=99/100, p=19/20 and δ=1/1000, any L has each pair attainable and triple impossible at R_goal<C0(L)+1; minimum cheap risk for σ≥p is 19/1980. This is another declared profile, not the frozen M02 prior or a 95 % WC guarantee.
 
-### 6.2 Dureza informativa creciente: obligación diferente
+<a id="62-dureza-informativa-creciente-obligación-diferente"></a>
 
-La prueba local anterior no demuestra coste creciente en L ni severidad extraordinaria. Para una familia con L hechos independientes se necesita una instanciación de R01 que especifique, además del grafo:
+### 6.2 Growing information hardness: a different obligation
 
-1. Un conjunto de recursos/bindings distintos por segmento, distribución y evidencia inicial; geometría y recompensas que no filtren sus valores.
-2. El catálogo completo de consultas, mandato, estado, certificados y mensajes; coste total de producción y de hechos nuevos, incluida toda consulta combinada.
-3. Gate y contador de trabajo material irreductible C0; certificados reutilizables y revisión propia sin doble cobro.
-4. Historial y efectos para cada operación; toda forma legítima de deducir un binding debe quedar en la simulación, no solo las consultas elegidas por el autor.
-5. Transformación de **todas** las políticas del perfil a la envolvente de F, con preservación de umbrales; controles ejecutables que demuestren la otra dirección en la frontera.
-6. Los eventos correctos de calidad legítima, costo por rama/coste máximo, plazo, recuperación y capacidad física, conservando las métricas originales.
+The above local proof demonstrates neither growing cost in L nor extraordinary severity. For a family with L independent facts an R01 instantiation is needed specifying, beyond the graph:
 
-La sintaxis de R01 permite perfiles como el de hechos distintos, pero ese contrato completo y su prueba de cobertura todavía no están cerrados. La familia G demuestra existencia con un binding compartido y sobrecoste constante; no se usa para declarar la dureza creciente de F ni para transportar sin prueba la cota cuadrática de W.
+1. A set of distinct resources/bindings per segment, distribution and initial evidence; geometry and rewards not leaking their values.
+2. The full catalog of queries, mandate, state, certificates and messages; total production and new-fact cost, including every combined query.
+3. Gate and counter of irreducible material work C0; reusable certificates and self-review without double charging.
+4. History and effects for each operation; every legitimate way to deduce a binding must remain in the simulation, not only queries chosen by the author.
+5. Transformation of **all** profile policies into F's envelope with threshold preservation; executable controls proving the other direction at the frontier.
+6. Correct events of legitimate quality, per-branch cost/maximum cost, deadline, recovery and physical capacity, preserving original metrics.
 
-## 7. Dictamen de transferencia
+R01 syntax permits profiles such as distinct facts, but that complete contract and its coverage proof are not yet closed. Family G proves existence with a shared binding and constant additional cost; it is not used to declare F's growing hardness or transport W's quadratic bound without proof.
 
-| Afirmación | Dictamen propio |
+<a id="7-dictamen-de-transferencia"></a>
+
+## 7. Transfer verdict
+
+| Claim | Self-review verdict |
 |---|---|
-| Proposición general de transferencia por preservación de objetivos | Demostrada por contradicción, con la dirección correcta; su hipótesis no se da por verificada. |
-| Frontera universal de políticas para el contrato observable M02 | Derivación directa en §4, con catálogo, coste y controles explícitos; revisión independiente pendiente. |
-| Trilema local no vacuo por tres pares | Demostrado en el contrato analítico declarado B=12 y R_goal<12, con umbrales p≤1/2, δ<p. |
-| Existencia en una familia R01 parametrizada | Familia G definida y probada en §6.1, con prior técnico pagado, catálogo cerrado y tamaños arbitrarios; revisión externa pendiente. |
-| Original M02, p=3/4, δ=1/4, cap 11 | Imposibilidad de adecuación; no prueba del trilema no vacuo por todos los pares. |
-| Misma fórmula F para todos los perfiles R01 | Refutada como extensión indiscriminada por el binding compartido. |
-| Familia de dureza informativa creciente integrada en R01 | Construcción y cobertura pendientes; no se confunde con la existencia ya probada en G. |
-| Teorema de todo R01 y su Pareto de seis medidas | No establecido; no se sustituye por una matriz de semejanzas. |
+| General transfer proposition by objective preservation | Proved by contradiction with the correct direction; its hypothesis is not taken as verified. |
+| Universal policy frontier for the observable M02 contract | Direct derivation in §4, with explicit catalog, cost and controls; independent review pending. |
+| Nonvacuous local three-pair trilemma | Proved in the declared analytical contract B=12 and R_goal<12, with thresholds p≤1/2, δ<p. |
+| Existence in a parameterized R01 family | Family G defined and proved in §6.1, with paid technical prior, closed catalog and arbitrary sizes; external review pending. |
+| Original M02, p=3/4, δ=1/4, cap 11 | Impossibility of adequacy; not proof of nonvacuous trilemma for all pairs. |
+| Same F formula for all R01 profiles | Refuted as indiscriminate extension by the shared binding. |
+| Growing information-hardness family integrated into R01 | Construction and coverage pending; not confused with existence already proved in G. |
+| Theorem of all R01 and its six-measure Pareto | Not established; not replaced by a similarity matrix. |
 
-El [plan](./WORKPLAN.md) registra M17 en desarrollo por estas entregas y conserva M16 abierto. No se han ejecutado nuevos tests científicos. Los JSON, fixtures, checkers y resultados previos no se modifican.
+The [plan](./WORKPLAN.md) records M17 in development through these deliverables and retains M16 open. No new scientific tests have been executed. Previous JSONs, fixtures, checkers and results are not modified.
 
 
-## 8. Desarrollo posterior: trilema condicionado en el dominio completo de R01
+<a id="8-desarrollo-posterior-trilema-condicionado-en-el-dominio-completo-de-r01"></a>
 
-La extensión que se busca no requiere una misma frontera F para todas las configuraciones. Un binding compartido, una API resolutiva o un certificado suficiente pueden crear una región viable: eso es parte del resultado condicionado y no su refutación.
+## 8. Subsequent development: conditioned trilemma in the full R01 domain
 
-El [teorema R01](./R01_CONDITIONED_TRILEMMA_THEOREM.md) proporciona ahora: un certificado para cualquier manifiesto del dominio; un corte informativo para todas sus políticas; una familia con L capas, N agentes, dependencia global de K datos y precio de producción K; controles de los tres pares; frontera AVG/WC y familias viables. K=L instancia el control global de paridad de R01 y demuestra dureza informativa creciente, conservando reutilización y colaboración. No precisa que cada segmento tenga un binding independiente como en F. Esta nueva evidencia reemplaza la obligación de construir una familia creciente que figuraba como pendiente en §§6.2–7; la reconstrucción independiente sigue pendiente.
+The sought extension does not require the same F frontier for every configuration. A shared binding, resolving API or sufficient certificate may create a viable region: that is part of the conditioned result, not its refutation.
 
-La [revisión propia](./R01_CONDITIONED_TRILEMMA_REVIEW.md) no cuenta como validación externa. La familia conserva un contexto técnico inicial adquirido y pagado; otra preparación o información inicial es otra configuración del dominio. No se promete caracterizar numéricamente todas las interfaces o la frontera Pareto de seis medidas. El documento original y los tests no se alteran.
+The [R01 theorem](./R01_CONDITIONED_TRILEMMA_THEOREM.md) now provides: a certificate for any manifest in the domain; an information cut for all its policies; a family with L layers, N agents, global dependency of K data items and production price K; controls for all three pairs; AVG/WC frontier and viable families. K=L instantiates the R01 global parity control and proves growing information hardness while retaining reuse and collaboration. It does not require an independent binding at each segment as in F. This new evidence replaces the obligation to construct a growing family listed as pending in §§6.2–7; independent reconstruction remains pending.
+
+The [self-review](./R01_CONDITIONED_TRILEMMA_REVIEW.md) does not count as external validation. The family retains an acquired and paid initial technical context; another preparation or initial information is another configuration in the domain. Numerical characterization of every interface or the six-measure Pareto frontier is not promised. The original document and tests are not altered.

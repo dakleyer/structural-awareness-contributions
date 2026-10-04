@@ -381,7 +381,7 @@
         {
           "kind": "replace",
           "after_index": 1262,
-          "before": "construcción y auditoría",
+          "before": "construction and audit",
           "after": "F/W)"
         },
         {
@@ -394,19 +394,19 @@
           "kind": "insert",
           "after_index": 1321,
           "before": "",
-          "after": ". [Pruebas universales, fronteras y tecnologías](./M03_M04_TRILEMMA_THEOREMS.md). La revisión independiente M05/C05 sigue pendiente"
+          "after": ". [Universal proofs, frontiers and technologies](./M03_M04_TRILEMMA_THEOREMS.md). Independent review M05/C05 remains pending"
         },
         {
           "kind": "insert",
           "after_index": 11524,
           "before": "",
-          "after": "**DONE — perfiles F/W**, [Pruebas universales, fronteras y tecnologías](./M03_M04_TRILEMMA_THEOREMS.md). "
+          "after": "**DONE — F/W profiles**, [Universal proofs, frontiers and technologies](./M03_M04_TRILEMMA_THEOREMS.md). "
         },
         {
           "kind": "insert",
           "after_index": 11764,
           "before": "",
-          "after": ". **DONE — perfiles F/W**, [Pruebas universales, fronteras y tecnologías](./M03_M04_TRILEMMA_THEOREMS.md)"
+          "after": ". **DONE — F/W profiles**, [Universal proofs, frontiers and technologies](./M03_M04_TRILEMMA_THEOREMS.md)"
         },
         {
           "kind": "insert",

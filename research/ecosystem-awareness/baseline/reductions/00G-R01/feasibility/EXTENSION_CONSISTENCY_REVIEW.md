@@ -1,92 +1,112 @@
-# R01 — Revisión de coherencia de las tres extensiones
+<a id="r01--revisión-de-coherencia-de-las-tres-extensiones"></a>
 
-4 de octubre de 2026 · Lectura documental y revisión simbólica propia.
-Entrada fijada: a19c3d81e904b74b28dd48f4bdf68fac91759524.
-No se han ejecutado los checkers ni experimentos nuevos.
+# R01 — Consistency review of the three extensions
 
-## 1. Dictamen y continuidad
+4 October 2026 · Documentary reading and symbolic self-review.
+Pinned input: a19c3d81e904b74b28dd48f4bdf68fac91759524.
+No checkers or new experiments have been executed.
 
-El núcleo matemático vigente es [el teorema R01 v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md). Sus correcciones ya están publicadas en [la auditoría de continuidad](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md): multiplicador recíproco, envío y recepción, plazo, control sin veredicto normativo y dominio de la eficacia técnica conjunta. No se recrea ni sustituye esa demostración.
+<a id="1-dictamen-y-continuidad"></a>
 
-La revisión previa al protocolo de tecnologías queda completada **como revisión propia de coherencia y alcance**. Los tres documentos existentes ya distinguen escenarios construidos, incidentes motivadores, correspondencia parcial, prueba condicionada y verificaciones finitas. No procede degradar el trilema condicionado porque existan escenarios aceptados: son parte de su formulación.
+## 1. Verdict and continuity
 
-Hay dos aclaraciones puntuales del núcleo, registradas en esta entrega: el primer efecto crítico y el evento «todavía no resuelto» han de reconocerse desde la historia anterior al efecto; y el presupuesto agregado B=C_0(L,N)+K incluye el coste inicial dependiente de N. Es un presupuesto global, sin cuotas adicionales por agente; no es una comparación entre poblaciones con presupuesto total constante.
+The current mathematical core is [the R01 theorem v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md). Its corrections are already published in [the continuity audit](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md): reciprocal multiplier, send and receive, deadline, control without normative verdict and domain of joint technical efficacy. That proof is not recreated or replaced.
 
-M16 permanece OPEN y M17 IN_PROGRESS. Esta lectura no proporciona validación independiente, integración comercial, causalidad histórica ni campaña.
+The review before the technology protocol is completed **as a self-review of consistency and scope**. The three existing documents already distinguish constructed scenarios, motivating incidents, partial correspondence, conditioned proof and finite checks. The conditioned trilemma must not be downgraded because accepted scenarios exist: they are part of its formulation.
 
-## 2. Vocabulario y objeto de evaluación
+There are two specific core clarifications, recorded in this deliverable: the first critical effect and “still unresolved” event must be recognizable from the history before the effect; and aggregate budget B=C_0(L,N)+K includes the N-dependent initial cost. It is a global budget without additional per-agent quotas; it is not a comparison between populations with constant total budget.
 
-Un **escenario** es el problema junto con la tecnología declarada, representado por θ. Una **estrategia de ejecución** π pertenece a Π(θ). Su desempeño es (c,r,s), donde c es el techo de coste por ejecución, r la probabilidad de al menos una infracción efectiva y s la probabilidad de éxito legítimo suficiente dentro del plazo.
+M16 remains OPEN and M17 IN_PROGRESS. This reading provides neither independent validation, commercial integration, historical causality nor a campaign.
 
-Las políticas de aceptación (b,δ,p) definen la **zona aceptada** c≤b, r≤δ, s≥p. Su complemento es la **zona no aceptada**. No se confunde esta zona con el conjunto de desempeños alcanzables. Un escenario admite aceptación si existe una estrategia cuyo desempeño está en la zona aceptada. Una estrategia fuera de ella no prueba que ninguna otra pueda entrar.
+<a id="2-vocabulario-y-objeto-de-evaluación"></a>
 
-Las palabras históricas «viabilidad» y «configuración» de las demostraciones mantienen su significado formal. En la explicación actual se corresponden con aceptación posible del escenario y θ, respectivamente; no se alteran ecuaciones para renombrarlas. Se mantienen separados el cap físico B, el objetivo económico b, el coste por traza, la eficacia técnica η, el éxito legítimo s y el éxito compuesto e_b.
+## 2. Vocabulary and object of evaluation
 
-## 3. Resultado por extensión
+A **scenario** is the problem together with the declared technology, represented by θ. An **execution strategy** π belongs to Π(θ). Its performance is (c,r,s), where c is the per-execution cost ceiling, r the probability of at least one effective violation and s the probability of sufficient legitimate success within the deadline.
 
-| Documento existente | Núcleo y prueba realmente cubiertos | Lectura bajo el vocabulario acordado | Pendiente que no se cierra |
+Acceptance policies (b,δ,p) define the **accepted zone** c≤b, r≤δ, s≥p. Its complement is the **unaccepted zone**. This zone is not confused with the set of attainable performances. A scenario admits acceptance if a strategy exists whose performance is in the accepted zone. A strategy outside it does not prove that no other can enter.
+
+The historical words “feasibility” and “configuration” in the proofs retain their formal meaning. In the current explanation they correspond respectively to possible acceptance of the scenario and θ; equations are not altered to rename them. Physical cap B, economic target b, per-trace cost, technical efficacy η, legitimate success s and compound success e_b remain separate.
+
+<a id="3-resultado-por-extensión"></a>
+
+## 3. Result by extension
+
+| Existing document | Core and proof actually covered | Reading under the agreed vocabulary | Pending obligation not closed |
 |---|---|---|---|
-| [Hugging Face](../extensions/hugging-face/README.md), §§2–5 de la especificación detallada | Codificación sintética de rutas, atributos, conectores, vistas y óptimo; contrato pequeño de consultas adaptativas. | Cambiar los nombres preserva el escenario codificado. Un certificado suficiente puede mover un escenario hacia aceptación. | Correspondencia de un episodio histórico completo, ledger y políticas R01 completos, integración y comparación EA. |
-| [Infoblox/DNS](../extensions/infoblox/README.md), §§5.3–6.7 | Argumento de indistinguibilidad, transferencia unilateral condicionada, cuatro rutas y curvas de decisión bajo presupuesto residual. | El gateway estricto mantiene r=0; con poca evidencia puede no alcanzar la eficacia requerida. El certificado suficiente resuelve ese obstáculo en el perfil que paga su preparación. | La tensión coste–eficacia no demuestra por sí sola un trilema no vacuo de tres pares. Integración real y costes de productor pendientes. |
-| [Familia H/L/W](../extensions/family/README.md) y [nota matemática](../extensions/family/KERNEL_AND_PROOF.md), §§2–6 | Preservación bajo E1–E7 y construcción formal por transporte; fragmento finito de eventos. | El núcleo corresponde al escenario efectivo θ*, no necesariamente al escenario de partida θ. Cambiar radio o precio real modifica θ*. | Admisión completa de H/L/W, ejecución por segmentos, revisión propia mínima, dinámicas W y campañas. |
+| [Hugging Face](../extensions/hugging-face/README.md), §§2–5 of the detailed specification | Synthetic encoding of routes, attributes, connectors, views and optimum; small adaptive-query contract. | Renaming preserves the encoded scenario. A sufficient certificate can move a scenario toward acceptance. | Correspondence of a complete historical episode, complete R01 ledger and policies, integration and EA comparison. |
+| [Infoblox/DNS](../extensions/infoblox/README.md), §§5.3–6.7 | Indistinguishability argument, conditioned one-way transfer, four routes and decision curves under residual budget. | The strict gateway keeps r=0; with little evidence it may not attain the required efficacy. The sufficient certificate resolves that obstacle in the profile paying for its preparation. | Cost–efficacy tension does not itself prove a nonvacuous three-pair trilemma. Real integration and producer costs pending. |
+| [H/L/W family](../extensions/family/README.md) and [mathematical note](../extensions/family/KERNEL_AND_PROOF.md), §§2–6 | Preservation under E1–E7 and formal construction by transport; finite event fragment. | The core corresponds to effective scenario θ*, not necessarily starting scenario θ. Changing actual radius or price modifies θ*. | Complete H/L/W admission, per-segment execution, minimal self-review, W dynamics and campaigns. |
 
-Estas obligaciones no son razones para negar el teorema condicionado en el dominio R01. Delimitan qué objetos externos han sido representados y qué conclusiones se transportan.
+These obligations are not reasons to deny the conditioned theorem in the R01 domain. They delimit which external objects have been represented and which conclusions are transported.
 
-### 3.1 Hugging Face: precisión de la medida
+<a id="31-hugging-face-precisión-de-la-medida"></a>
 
-El contrato de consultas usa un mundo válido de masa 1/2 y U mundos con un testigo inválido, de masa 1/(2U) cada uno. Su resultado 1/2+m/(2U) es exactitud de una decisión A/B con m consultas; no es directamente η, s o r de una campaña R01 completa. La elección de B también acierta en mundos inválidos. El catálogo, las rutas híbridas y el óptimo se verifican en otro módulo: no se suman esos módulos para afirmar un simulador integrado.
+### 3.1 Hugging Face: precision of the measure
 
-El checker transporta cada par beneficio–posición y cada conector; no basta conservar distribuciones marginales. La lectura de los campos privados del modelo por el auditor no concede esos campos al agente. Las funciones de evaluación acceden al mundo para adjudicar; una futura interfaz ejecutable debe aislarlo.
+The query contract uses a valid world of mass 1/2 and U worlds with an invalid witness, each of mass 1/(2U). Its result 1/2+m/(2U) is A/B decision accuracy with m queries; it is not directly η, s or r of a complete R01 campaign. Choosing B also succeeds in invalid worlds. Catalog, hybrid routes and optimum are checked in another module: those modules are not combined to claim an integrated simulator.
 
-### 3.2 Infoblox: revisión del argumento universal local
+The checker transports each benefit–position pair and each connector; preserving marginal distributions does not suffice. Reading the model's private fields by the auditor does not grant those fields to the agent. Evaluation functions access the world to adjudicate; a future executable interface must isolate it.
 
-En el historial de respuestas positivas, las posiciones no consultadas son simétricas. Con m consultas distintas, la masa de mundos inválidos detectados es m/(2U); en la rama sin detección la masa válida 1/2 domina la inválida restante. Elegir A allí maximiza la exactitud y da 1/2+m/(2U). Repeticiones y adaptación sin nuevas pistas no mejoran esa cobertura.
+<a id="32-infoblox-revisión-del-argumento-universal-local"></a>
 
-Con gateway estricto y m<U, la rama sin detección no certifica A. Elegir B obtiene éxito en la mitad inválida; en el mundo válido queda por debajo del óptimo. De ahí s=1/2 y r=0 en el contrato. Con todas las consultas, s=1. Un certificado suficiente ya preparado permite s=1 con una unidad de acceso. Su coste de producción y mantenimiento no puede desaparecer del ledger total.
+### 3.2 Infoblox: review of the local universal argument
 
-**Consecuencia:** a p=0.95 y m=3,U=4, ni la relajación optimista alcanza la eficacia. Por ello ese escenario no demuestra CE alcanzable y no debe llamarse, por ese único argumento, trilema de los tres pares. Prueba una tensión informativa y un cambio de escenario por certificado. La prueba principal R01 conserva sus propios tres controles y umbrales.
+In the positive-response history, unqueried positions are symmetric. With m distinct queries, the mass of detected invalid worlds is m/(2U); in the branch without detection, valid mass 1/2 dominates remaining invalid mass. Choosing A there maximizes accuracy and gives 1/2+m/(2U). Repetition and adaptation without new clues do not improve that coverage.
 
-### 3.3 Familia: conservación condicionada y cobertura de estrategias
+With strict gateway and m<U, the branch without detection does not certify A. Choosing B obtains success in the invalid half; in the valid world it remains below the optimum. Hence s=1/2 and r=0 in the contract. With all queries, s=1. An already prepared sufficient certificate permits s=1 with one access unit. Its production and maintenance cost cannot disappear from the total ledger.
 
-La inducción de E1–E7 es correcta para las estrategias emparejadas que establece E4: misma ley inicial, eventos habilitados, ley proyectada, vistas, contabilidad y resultados. Las condiciones deben valer para **todos** los representantes de cada fibra; verificar uno no elimina la influencia de una variable oculta.
+**Consequence:** at p=0.95 and m=3,U=4, even the optimistic relaxation does not attain efficacy. Therefore that scenario does not prove CE attainable and should not be called, on that argument alone, a three-pair trilemma. It proves an information tension and a scenario change through a certificate. The main R01 proof retains its own three controls and thresholds.
 
-Esa proposición no dice automáticamente que todas las estrategias de una integración externa estén emparejadas. Para transportar imposibilidad se requiere representar todas las estrategias externas de la clase afirmada, con información suficiente y coste no mayor en la simulación base. Para transportar alcanzabilidad basta implementar el control construido en el destino.
+<a id="33-familia-conservación-condicionada-y-cobertura-de-estrategias"></a>
 
-La construcción por transporte prueba existencia formal de una codificación. No prueba que un producto o incidente independiente ya la implemente. El fragmento usa commit agregado de coste uno, sin ejecutar L segmentos ni imponer toda la revisión propia; la guía y el código lo declaran. Ninguna cifra grande de estados cierra esa diferencia.
+### 3.3 Family: conditioned preservation and strategy coverage
 
-## 4. Inventarios, tablas, figuras y código
+The E1–E7 induction is correct for the paired strategies established by E4: same initial law, enabled events, projected law, views, accounting and outcomes. Conditions must hold for **all** representatives of each fiber; checking one does not eliminate the influence of a hidden variable.
 
-Se confrontaron los inventarios de quince grupos, E1–E7, A25 y estados EV0–EV5 con las guías y las funciones de los tres checkers. Sus matrices conservan información inicial, observación privada, composición, costes, recursos, red, óptimo y variantes fuera de cobertura.
+That proposition does not automatically say that all strategies of an external integration are paired. Transporting impossibility requires representing all external strategies of the asserted class, with sufficient information and no greater cost in the base simulation. Transporting attainability requires only implementing the constructed control in the destination.
 
-El gráfico compartido escenario–aceptación representa una relación conceptual. Su SVG distingue parámetros y tecnología, escenario, estrategia, desempeño y aceptación. No es una gráfica empírica ni una frontera matemática y no valida por sí solo las extensiones. Las tablas numéricas de los casos declaran sus contratos residuales. Las figuras históricas y sus generadores se conservan sin regenerarlas; no se afirma una nueva inspección visual de todos los exports.
+Construction by transport proves formal existence of an encoding. It does not prove that an independent product or incident already implements it. The fragment uses an aggregate commit of cost one, without executing L segments or imposing all self-review; the guide and code declare this. No large state count closes that difference.
 
-La revisión de código es estática:
-- HF: evaluadores separados, enumeración de rutas y consultas, certificado y costes de estrategias.
-- Infoblox: dynamic programming de decisión, gateway por evidencia, catálogo constante y consultas únicas.
-- H/L/W: estados/eventos habilitados, recepción, proyección, dos representantes auxiliares y mutaciones.
-- Verificador común: primero exige hashes de ediciones históricas y después ejecuta checkers en carpetas temporales.
+<a id="4-inventarios-tablas-figuras-y-código"></a>
 
-No se han vuelto a ejecutar esos programas. Sus PASS se reconocen como resultados históricos acotados, no como resultados nuevos.
+## 4. Inventories, tables, figures and code
 
-## 5. Desajustes heredados de integridad
+The fifteen-group inventories, E1–E7, A25 and EV0–EV5 statuses were compared with the guides and functions of the three checkers. Their matrices retain initial information, private observation, composition, costs, resources, network, optimum and variants outside coverage.
 
-Se compararon SHA-256 de los textos recuperados con los manifiestos existentes, sin ejecutar una prueba científica. Los tres README de extensión ya no coinciden con sus SHA256.json históricos. Los checkers, resultados, guías de reproducción, coverage de HF y nota KERNEL_AND_PROOF sí coinciden. El README de R01 tampoco coincide con su huella del informe común histórico.
+The shared scenario–acceptance chart represents a conceptual relationship. Its SVG distinguishes parameters and technology, scenario, strategy, performance and acceptance. It is neither an empirical graph nor a mathematical frontier and does not itself validate the extensions. The numerical case tables declare their residual contracts. Historical figures and their generators are preserved without regeneration; no new visual inspection of all exports is claimed.
 
-Esto es compatible con las posteriores revisiones editoriales, pero impide afirmar que el verificador común de aquella edición valida sin cambios la edición actual. No se reemplazan los hashes antiguos ni se regeneran sus resultados para obtener PASS. P08 debe mantener el snapshot histórico y añadir un verificador documental de la edición vigente antes de anunciar reproducción conjunta actual. El Word binario de Infoblox no fue leído ni vuelto a verificar.
+Code review is static:
+- HF: separate evaluators, route and query enumeration, certificate and strategy costs.
+- Infoblox: decision dynamic programming, evidence gateway, constant catalog and unique queries.
+- H/L/W: enabled states/events, receipt, projection, two auxiliary representatives and mutations.
+- Common verifier: first requires hashes of historical editions and then executes checkers in temporary folders.
 
-Esta discrepancia documental no es un contraejemplo matemático ni evidencia de un fallo de la tecnología. Se conserva explícita para reparar la reproducción sin alterar la evidencia histórica.
+Those programs have not been rerun. Their PASS results are acknowledged as bounded historical results, not new results.
 
-## 6. Paso siguiente autorizado
+<a id="5-desajustes-heredados-de-integridad"></a>
 
-El [protocolo de extensión](./TECHNOLOGY_EXTENSION_PROTOCOL.md) sigue este orden por tecnología: núcleo isomórfico → cambio de parámetros → mecanismos adicionales → transferencia o nueva cota → control de aceptación → persistencia, si puede demostrarse → contrato del futuro harness.
+## 5. Inherited integrity mismatches
 
-La [primera ficha de escalación humana y whispering](./HUMAN_ESCALATION_WHISPERING.md) usa ese orden. Es una extensión matemática de contratos de información y control, sin ejecutar frameworks. El origen del mecanismo es la petición del usuario; no se atribuye una cita concreta a Nell.
+SHA-256 of recovered texts were compared with existing manifests, without executing a scientific test. The three extension READMEs no longer match their historical SHA256.json. Checkers, results, reproduction guides, HF coverage and the KERNEL_AND_PROOF note do match. The R01 README also does not match its fingerprint in the historical common report.
 
-| Seguimiento al final | Estado |
+This is compatible with subsequent editorial revisions, but prevents claiming that the common verifier of that edition validates the current edition unchanged. Old hashes are not replaced and their results are not regenerated to obtain PASS. P08 must retain the historical snapshot and add a documentary verifier of the current edition before announcing current joint reproduction. The Infoblox Word binary was neither read nor reverified.
+
+This documentary discrepancy is neither a mathematical counterexample nor evidence of technology failure. It is retained explicitly to repair reproduction without altering historical evidence.
+
+<a id="6-paso-siguiente-autorizado"></a>
+
+## 6. Authorized next step
+
+The [extension protocol](./TECHNOLOGY_EXTENSION_PROTOCOL.md) follows this order per technology: isomorphic core → parameter change → additional mechanisms → transfer or new bound → acceptance control → persistence, if provable → future harness contract.
+
+The [first human escalation and whispering fiche](./HUMAN_ESCALATION_WHISPERING.md) uses that order. It is a mathematical extension of information and control contracts, without executing frameworks. The mechanism originates in the user's request; no specific quotation is attributed to Nell.
+
+| Tracking at the end | Status |
 |---|---|
-| Coherencia de las tres extensiones previa al protocolo | Revisión propia completada en el alcance anterior. |
-| Núcleo v0.2 | Dos precisiones de historia observable y presupuesto, sin cambiar fronteras. |
-| M16 / M17 | OPEN / IN_PROGRESS; ninguna validación independiente inventada. |
-| P08: verificación de la edición vigente | Pendiente; discrepancias heredadas conservadas. |
-| M13: protocolo y primera ficha matemática | En desarrollo; teoremas condicionados, integración no ejecutada. |
-| Oráculo/harness y campaña | Pendientes; sin nuevas ejecuciones científicas. |
+| Consistency of the three extensions before the protocol | Self-review completed within the above scope. |
+| Core v0.2 | Two clarifications of observable history and budget, without changing frontiers. |
+| M16 / M17 | OPEN / IN_PROGRESS; no independent validation invented. |
+| P08: verification of the current edition | Pending; inherited discrepancies preserved. |
+| M13: protocol and first mathematical fiche | In development; conditioned theorems, integration unexecuted. |
+| Oracle/harness and campaign | Pending; no new scientific executions. |

@@ -1,98 +1,114 @@
-# Auditoría de fondo del trilema condicionado
+<a id="auditoría-de-fondo-del-trilema-condicionado"></a>
 
-4 de octubre de 2026 · Auditoría matemática y de transferencia realizada por el mismo autor asistido; **no independiente**.
+# In-depth audit of the conditioned trilemma
 
-Entrada examinada: a1ec3e24970e2d925745e4fc7a5cd8e6c11c11d5. [Manuscrito reparado v0.2](./CONDITIONED_TRILEMMA.md) · [Mapeo y prueba local R01/M02](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) · [Revisión propia anterior conservada](./CONDITIONED_TRILEMMA_SELF_REVIEW.md).
+4 October 2026 · Mathematical and transfer audit performed by the same assisted author; **not independent**.
 
-## 1. Evidencia leída y criterio
+Input examined: a1ec3e24970e2d925745e4fc7a5cd8e6c11c11d5. [Repaired manuscript v0.2](./CONDITIONED_TRILEMMA.md) · [R01/M02 mapping and local proof](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) · [Previous self-review preserved](./CONDITIONED_TRILEMMA_SELF_REVIEW.md).
 
-Se obtuvieron directamente del repositorio los documentos completos: manuscrito, revisión propia, escenario R01, README y plan vigentes, contratos M02/M10, borradores de M02/M10/F-W y código `verify_m02_worlds.py`. Los hashes y el commit se registran en el release de esta entrega. La auditoría no depende de fragmentos del buscador ni de la afirmación de otro revisor de haber leído las pruebas. No se ejecutaron nuevos diagnósticos científicos.
+<a id="1-evidencia-leída-y-criterio"></a>
 
-Se reconstruyen la cota universal y la alcanzabilidad; se distinguen defectos de prueba, límites de alcance y errores de las auditorías recibidas. Una corrección del marco de transferencia no es por sí misma un contraejemplo al lema.
+## 1. Evidence read and criterion
 
-## 2. Dictamen matemático del manuscrito
+The complete documents were obtained directly from the repository: manuscript, self-review, R01 scenario, current README and plan, M02/M10 contracts, M02/M10/F-W drafts and `verify_m02_worlds.py` code. Hashes and commit are recorded in this deliverable's release. The audit does not rely on search-engine fragments or another reviewer's claim to have read the proofs. No new scientific diagnostics were executed.
 
-**Resultado:** la derivación del lema y de las dos fronteras es válida bajo las hipótesis declaradas; no se encontró un contraejemplo dentro de ellas. Hay reparaciones de formalización y alcance, desarrolladas más abajo. Esto es un dictamen propio razonado, no una certificación externa.
+The universal bound and attainability are reconstructed; proof defects, scope limits and errors in received audits are distinguished. A correction of the transfer framework is not itself a counterexample to the lemma.
 
-| Paso del manuscrito de entrada | Reconstrucción | Dictamen |
+<a id="2-dictamen-matemático-del-manuscrito"></a>
+
+## 2. Mathematical verdict on the manuscript
+
+**Result:** the derivation of the lemma and both frontiers is valid under the declared hypotheses; no counterexample was found within them. There are formalization and scope repairs, developed below. This is a reasoned self-review verdict, not external certification.
+
+| Input manuscript step | Reconstruction | Verdict |
 |---|---|---|
-| Calidad d=L−floor ε | J=L+n_altas≥2L−ε implica n_altas≥ceil(L−ε)=L−floor ε. | Correcto, incluso ε no entero. |
-| Lecturas financiables | Una rama completa paga C0 y cada lectura c; bajo coste de esa rama ≤R, hay a lo sumo floor((R−C0)/c). | Correcto; no limita así las ramas que no completan. |
-| Apuesta condicionada a la historia | Sobre un binding no leído/observado, la independencia y ausencia de side channels mantienen P(correcto)≤a. La selección adaptativa de otro índice no cambia su ley. | Correcto bajo H1–H3; debe comprobarse en cada transferencia. |
-| u_{j+1}≤a u_j | Llegar a j+1 sin violación exige acertar j. Parar o leer entre ambas puede reducir esa masa. | Correcto para azar, fases, memoria y repetición de consultas. |
-| σ≤a u_m≤a^m | Una entrega legítima necesita m primeras apuestas acertadas sobre hechos distintos. | Correcto; no presume independencia entre completar y acertar. |
-| Riesgo vs éxito legítimo | Primeras infracciones disjuntas: ρ≥(1−a)Σu_j≥(a^{-m}−1)a u_m≥(a^{-m}−1)σ. | Correcto, incluida la suma geométrica para a distinto de 1/2. |
-| Riesgo vs η | η≤σ+ρ da ρ≥(1−a^m)η. | Correcto. No se usa la falsa desigualdad σ≤qη. |
-| m=0 y R<C0 | q=1 hace trivial el lema; menos de C0 impide una ruta completa financiada. | Correcto; se distinguen de una banda no vacua de trilema. |
-| Suficiencia técnica | β=h en el control da η=h y ρ=h(1−q). | Correcta y realizable dentro de capacidad y horizonte suficientes. |
-| Suficiencia legítima | β=p/q≤1 cuando p≤q; σ=p y ρ=p(q^{-1}−1). | Correcta. El riesgo puede ser vinculante aunque la eficacia sea legítima. |
-| WC | Promediar las garantías por mundo bajo la ley uniforme auxiliar prueba necesidad; adivinar con monedas justas da las tasas en cada mundo. | Correcto; q_WC=2^{-m}, no a^m. |
-| No vaciedad por pares | En técnico, elegir d con h(1−a^d)>r; en legítimo, p≤q y δ<p(q^{-1}−1). | Correcta para esos parámetros; no toda inviabilidad implica que todos los pares sean posibles. |
-| Familia 95 % legítimo | a=99/100, m=1: p=19/20≤q; riesgo mínimo 19/1980>1/1000; β=95/99. | Correcta en AVG sesgado; no se anuncia como WC. |
-| Región viable | Leer los d hechos permite η=σ=1, ρ=0. | Correcta; cambia el umbral de coste, no la misión ni la calidad. |
+| Quality d=L−floor ε | J=L+n_altas≥2L−ε implies n_altas≥ceil(L−ε)=L−floor ε. | Correct, including noninteger ε. |
+| Fundable reads | A complete branch pays C0 and each read c; under cost ≤R for that branch, there are at most floor((R−C0)/c). | Correct; it does not limit noncompleting branches this way. |
+| Bet conditional on history | On an unread/unobserved binding, independence and absence of side channels preserve P(correct)≤a. Adaptive selection of another index does not change its law. | Correct under H1–H3; must be checked in each transfer. |
+| u_{j+1}≤a u_j | Reaching j+1 without violation requires winning j. Stopping or reading between them may reduce that mass. | Correct for randomness, phases, memory and repeated queries. |
+| σ≤a u_m≤a^m | A legitimate delivery requires m successful first bets on distinct facts. | Correct; does not presume independence between completion and winning. |
+| Risk vs legitimate success | Disjoint first violations: ρ≥(1−a)Σu_j≥(a^{-m}−1)a u_m≥(a^{-m}−1)σ. | Correct, including the geometric sum for a other than 1/2. |
+| Risk vs η | η≤σ+ρ gives ρ≥(1−a^m)η. | Correct. The false inequality σ≤qη is not used. |
+| m=0 and R<C0 | q=1 makes the lemma trivial; less than C0 prevents a funded complete route. | Correct; distinguished from a nonvacuous trilemma band. |
+| Technical sufficiency | β=h in the control gives η=h and ρ=h(1−q). | Correct and realizable within sufficient capacity and horizon. |
+| Legitimate sufficiency | β=p/q≤1 when p≤q; σ=p and ρ=p(q^{-1}−1). | Correct. Risk can be binding even when efficacy is legitimate. |
+| WC | Averaging per-world guarantees under the auxiliary uniform law proves necessity; guessing with fair coins gives rates in each world. | Correct; q_WC=2^{-m}, not a^m. |
+| Pairwise nonemptiness | For technical, choose d with h(1−a^d)>r; for legitimate, p≤q and δ<p(q^{-1}−1). | Correct for those parameters; not every infeasibility implies that all pairs are possible. |
+| 95 % legitimate family | a=99/100, m=1: p=19/20≤q; minimum risk 19/1980>1/1000; β=95/99. | Correct in biased AVG; not announced as WC. |
+| Viable region | Reading all d facts permits η=σ=1, ρ=0. | Correct; changes the cost threshold, not the mission or quality. |
 
-La cobertura es una caracterización de todas las políticas observables de la interfaz, no una enumeración de algoritmos seleccionados. El azar independiente puede fijarse de antemano y una política puede usar toda su historia; fases o composición no crean un hecho nuevo fuera de esa interfaz. Una fuente adicional, otro proceso de efectos o una misión distinta sí cambian las hipótesis.
+Coverage characterizes all observable policies of the interface, rather than enumerating selected algorithms. Independent randomness can be fixed in advance and a policy can use its entire history; phases or composition do not create a new fact outside that interface. An additional source, another effect process or a different mission do change the hypotheses.
 
-## 3. Defectos, límites y reparaciones mínimas
+<a id="3-defectos-límites-y-reparaciones-mínimas"></a>
 
-| ID / ubicación | Afirmación afectada | Severidad y por qué | Reparación efectuada |
+## 3. Defects, limits and minimal repairs
+
+| ID / location | Affected claim | Severity and why | Repair performed |
 |---|---|---|---|
-| A01, §2.2 y transferencia | «El par seguro–eficaz es ejecutable a coste mayor que R» | Alta para transferir a R01. La fuente impone un cap físico; una política que gasta más que ese cap no pertenece a ese perfil. El modelo interno ya diferenciaba coste objetivo de Π, pero sin símbolo físico separado. | B cap físico y R objetivo; B≥C0+cd. Mapeo identifica R_alloc de fuente con B; con B=R el control costoso pertenece a otro perfil. |
-| A02, §7 y «frontera exacta» | Frontera general de resultados/Pareto | Media. (4)–(5) son cortes exactos del factible y mínimos de riesgo; no describen todo el vector ni el Pareto de seis medidas R01. | Definición de F_θ, dominancia y mínimos alcanzados; corolario conjunto η/σ. Se muestra que q=1, β<1 no es Pareto óptimo. |
-| A03, §3 y conexión con e | σ del manuscrito = éxito R01 | Alta si se afirmase esa igualdad sin condiciones. σ no incluye coste; e sí lo incluye por rama. C_max y C_traza son objetos diferentes. | σ_R y η_R; se repite el lema para éxitos dentro de presupuesto sin limitar gasto de ramas fallidas. Mapeo de e con σ_R, o con σ si C_max≤R. |
-| A04, contrato de políticas | Toda política R01 representada | Alta, pendiente de transferencia. No es verdad solo por usar los mismos nombres; una interfaz global o datos correlacionados cambian la cota. | H1–H8 y proposición de transferencia; prueba directa del catálogo M02 y contraejemplo a extensión indiscriminada de F. |
-| A05, presentación de estado | «Resultado consolidado» podría parecer validación externa | Media. Una revisión del mismo autor sigue sin ser independiente; los textos recibidos no reconstruyen el lema. | M16 sigue OPEN; dictamen se califica como propio y los inputs se registran. |
-| A06, implementación M02 | El script ya implementa todas las políticas observables o un harness neutral | Media, operativa. run() solo contiene controles nombrados; Episode.chi es atributo accesible en el mismo proceso Python. La separación ambiental está declarada, no impuesta a código arbitrario. | Se registra obligación de interfaz observable separada y evaluator oculto para C01–C05. Leer .chi sería una política fuera de Π_obs, no un contraejemplo al teorema. No se llama al script harness independiente. |
-| A07, M02 original | Sus parámetros congelados prueban todos los pares | Alta si se afirmase. p=3/4 supera el máximo barato 1/2; δ=1/4 es redundante con ese éxito. | Se conserva el fixture. Se declara un contrato adicional no vacuo con p≤1/2, δ<p y B=12, R_goal<12; todos sus pares y la imposibilidad se prueban. |
+| A01, §2.2 and transfer | “The safe–effective pair is executable at cost greater than R” | High for transfer to R01. The source imposes a physical cap; a policy spending more than that cap does not belong to that profile. The internal model already distinguished target cost from Π, but without a separate physical symbol. | B physical cap and R target; B≥C0+cd. Mapping identifies source R_alloc with B; with B=R the costly control belongs to another profile. |
+| A02, §7 and “exact frontier” | General results/Pareto frontier | Medium. (4)–(5) are exact feasible slices and risk minima; they do not describe the entire vector or the six-measure R01 Pareto set. | Definition of F_θ, dominance and attained minima; joint η/σ corollary. q=1, β<1 is shown not to be Pareto optimal. |
+| A03, §3 and connection with e | Manuscript σ = R01 success | High if that equality were asserted without conditions. σ excludes cost; e includes it per branch. C_max and C_traza are different objects. | σ_R and η_R; the lemma is repeated for successes within budget without limiting expenditure on failed branches. Mapping of e to σ_R, or to σ if C_max≤R. |
+| A04, policy contract | Every R01 policy represented | High, transfer pending. Using the same names does not make this true; a global interface or correlated data change the bound. | H1–H8 and transfer proposition; direct proof of the M02 catalog and counterexample to indiscriminate extension of F. |
+| A05, status presentation | “Consolidated result” might appear to be external validation | Medium. A review by the same author remains nonindependent; received texts do not reconstruct the lemma. | M16 remains OPEN; verdict is qualified as self-review and inputs are recorded. |
+| A06, M02 implementation | The script already implements all observable policies or a neutral harness | Medium, operational. run() contains only named controls; Episode.chi is an accessible attribute in the same Python process. Environmental separation is declared, not enforced for arbitrary code. | Obligation of a separate observable interface and hidden evaluator is recorded for C01–C05. Reading .chi would be a policy outside Π_obs, not a counterexample to the theorem. The script is not called an independent harness. |
+| A07, original M02 | Its frozen parameters prove all pairs | High if asserted. p=3/4 exceeds the cheap maximum 1/2; δ=1/4 is redundant with that success. | The fixture is preserved. An additional nonvacuous contract is declared with p≤1/2, δ<p and B=12, R_goal<12; all its pairs and impossibility are proved. |
 
-No se sustituyen fórmulas del lema ni se descartan contraejemplos tecnológicos. Los fixtures, programas, salidas y cuerpos canónicos conservan sus bytes. El manuscrito v0.1 permanece accesible en el commit de entrada; v0.2 identifica las reparaciones de alcance.
+The lemma's formulas are not replaced and technology counterexamples are not discarded. Fixtures, programs, outputs and canonical bodies retain their bytes. Manuscript v0.1 remains accessible at the input commit; v0.2 identifies the scope repairs.
 
-## 4. Reconciliación de las auditorías recibidas
+<a id="4-reconciliación-de-las-auditorías-recibidas"></a>
 
-| Afirmación recibida | Dictamen y corrección |
+## 4. Reconciliation of received audits
+
+| Received claim | Verdict and correction |
 |---|---|
-| Añadir hipótesis y condiciones de transferencia | Correcto y útil; se incorporan numeración, proposición y matriz. |
-| «Probablemente se puede extender a todo R01» | No sustentado por aquellas lecturas. La misma fórmula F no vale para todo R01; sí puede demostrarse una subfamilia o una transferencia con hipótesis verificadas. |
-| ∀π ¬Good(π) y ¬∃π Good(π) «no son equivalentes» | Error lógico. Son equivalentes por negación de cuantificadores. En cambio, intercambiar ∀π y ∃ω sí puede cambiar la afirmación. |
-| La imposibilidad exige un solo mundo que venza a todas las políticas | No. La medida AVG o las garantías WC son sobre una política común. Un control fijo puede acertar un mundo concreto sin cumplir la garantía de riesgo/éxito del conjunto. |
-| «Dos direcciones» siempre necesarias para extender una cota inferior | Demasiado fuerte. Para imposibilidad basta Good_R01⇒Good_modelo. La dirección de construcción adicional es necesaria para declarar alcanzabilidad/frontera exacta en R01. |
-| C_M≤c⇒C_R01≤c, y análogas, para transferir imposibilidad | Dirección equivocada. Para ese objetivo se necesita preservación de soluciones buenas de R01 hacia M; condiciones suficientes son C_M≤C_R01, ρ_M≤ρ_R01 y eficacia_M≥eficacia_R01. |
-| Π_R01⊆Π_M como simple inclusión | Requiere una representación entre interfaces; no se obtiene de la notación. Debe demostrarse un Φ observable, común a mundos y con las desigualdades pertinentes. |
-| Auditar adaptación, azar, parada y composición | Correcto. El lema ya las admite dentro de su contrato; no hay razón para rebajarlo por defecto a «políticas no adaptativas». Se explicita el contrato. |
-| Obtener un conjunto factible para delimitar la frontera | Correcto. Se define F_θ y se distinguen mínimos de riesgo de Pareto completo; no se exige resolver todo Pareto para demostrar esos mínimos. |
-| No poder leer archivos y citar UC-EA-01 | Esa dificultad no audita el manuscrito. UC-EA-01 no aporta sus enunciados ni prueba matemática. Aquí se leyeron los archivos por la conexión del repositorio. |
+| Add hypotheses and transfer conditions | Correct and useful; numbering, proposition and matrix incorporated. |
+| “It can probably be extended to all R01” | Not supported by those readings. The same F formula does not hold for all R01; a subfamily or transfer with verified hypotheses can indeed be proved. |
+| ∀π ¬Good(π) and ¬∃π Good(π) “are not equivalent” | Logical error. They are equivalent by quantifier negation. In contrast, interchanging ∀π and ∃ω can change the claim. |
+| Impossibility requires a single world defeating all policies | No. The AVG measure or WC guarantees concern a common policy. A fixed control may succeed in a particular world without meeting the risk/success guarantee over the set. |
+| “Two directions” always necessary to extend a lower bound | Too strong. For impossibility, Good_R01⇒Good_modelo suffices. The additional construction direction is needed to declare attainability/exact frontier in R01. |
+| C_M≤c⇒C_R01≤c, and analogous statements, to transfer impossibility | Wrong direction. That objective requires preservation of good R01 solutions toward M; sufficient conditions are C_M≤C_R01, ρ_M≤ρ_R01 and eficacia_M≥eficacia_R01. |
+| Π_R01⊆Π_M as simple inclusion | Requires a representation between interfaces; it does not follow from notation. An observable Φ common to worlds with the pertinent inequalities must be proved. |
+| Audit adaptation, randomness, stopping and composition | Correct. The lemma already admits them within its contract; there is no reason to downgrade it by default to “nonadaptive policies”. The contract is made explicit. |
+| Obtain a feasible set to delimit the frontier | Correct. F_θ is defined and risk minima are distinguished from complete Pareto; solving all Pareto is not required to prove those minima. |
+| Unable to read files and citing UC-EA-01 | That difficulty does not audit the manuscript. UC-EA-01 supplies neither its statements nor its mathematical proof. Here the files were read through the repository connection. |
 
-Estos textos recibidos sirven como lista de ataques, pero no se registran como un dictamen matemático independiente que cierre M16: no ofrecen reconstrucción línea por línea y la última revisión declara no haber podido obtener el texto.
+These received texts serve as an attack list, but are not recorded as an independent mathematical verdict closing M16: they offer no line-by-line reconstruction and the latest review declares it could not obtain the text.
 
-## 5. Qué está demostrado ahora y qué falta
+<a id="5-qué-está-demostrado-ahora-y-qué-falta"></a>
 
-| Nivel | Dictamen de esta revisión |
+## 5. What is now proved and what remains
+
+| Level | Verdict of this review |
 |---|---|
-| Lema y fronteras del modelo condicionado | Correctos bajo H1–H8 según reconstrucción propia; necesidad y suficiencia completas. |
-| Cobertura de políticas en ese modelo | Toda política observable, aleatoria y adaptativa dentro de la interfaz, con los límites de tarea/efectos declarados. No todas las políticas de todo R01. |
-| Frontera | Mínimos exactos de riesgo y cortes conjuntos; no toda geometría del factible ni Pareto R01. |
-| M02 observable reconciliado | Teorema directo all-policy por catálogo, gates, primer efecto y coste mínimo; no una inferencia a partir de checks. |
-| Trilema por pares dentro del perfil analítico M02 | Probado con capacidad física y objetivo de coste separados; fuente conservada. |
-| Familia R01 G para tamaños arbitrarios | Catálogo, generación y prior técnico pagado definidos en el mapa §6.1; prueba universal y controles, con variante AVG de alta fiabilidad. El contexto inicial se fija; no se prueba optimalidad de la preparación ni un sobrecoste creciente. |
-| Misma frontera F en todo R01 | Extensión indiscriminada refutada por el χ compartido. |
-| Familia de hechos independientes con dureza informativa creciente instanciada en R01 | Contrato de generación/interfaz y simulación completos pendientes; es una tarea concreta M17 distinta de la existencia demostrada en G. |
-| Revisión externa/formalización/harness | Pendientes. Esta auditoría no inventa esos resultados. |
+| Lemma and frontiers of the conditioned model | Correct under H1–H8 according to self-reconstruction; complete necessity and sufficiency. |
+| Policy coverage in that model | Every observable, randomized and adaptive policy within the interface, with declared task/effect limits. Not every policy of all R01. |
+| Frontier | Exact risk minima and joint slices; not the entire feasible geometry or R01 Pareto. |
+| Reconciled observable M02 | Direct all-policy theorem through catalog, gates, first effect and minimum cost; not an inference from checks. |
+| Pairwise trilemma within the analytical M02 profile | Proved with physical capacity and cost target separated; source preserved. |
+| R01 family G for arbitrary sizes | Catalog, generation and paid technical prior defined in mapping §6.1; universal proof and controls, with high-reliability AVG variant. Initial context is fixed; neither optimal preparation nor growing additional cost is proved. |
+| Same F frontier throughout R01 | Indiscriminate extension refuted by shared χ. |
+| Family of independent facts with growing information hardness instantiated in R01 | Complete generation/interface and simulation contract pending; this is a concrete M17 task distinct from the existence proved in G. |
+| External review/formalization/harness | Pending. This audit does not invent those results. |
 
-Hay progreso matemático verificable: una definición de frontera precisa, una proposición de transferencia con dirección correcta, una versión por presupuesto de rama, una prueba local contra todas las políticas de un contrato ya registrado y la familia G con tamaños arbitrarios bajo su catálogo explícito. Eso permite presentar el resultado como manuscrito sólido en su clase para reconstrucción externa. No permite afirmar validación externa ni cerrar la extensión general o la dureza creciente de F.
+There is verifiable mathematical progress: a precise frontier definition, a transfer proposition with the correct direction, a per-branch-budget version, a local proof against all policies of an already recorded contract and family G with arbitrary sizes under its explicit catalog. This permits presenting the result as a solid manuscript in its class for external reconstruction. It does not permit claiming external validation or closing the general extension or growing hardness of F.
 
-## 6. Siguiente trabajo necesario
+<a id="6-siguiente-trabajo-necesario"></a>
 
-M16: un revisor distinto reconstruye los lemas, el corolario de presupuesto por rama, los cortes conjuntos y la cota local M02, intentando políticas omitidas y costes no preservados. Debe entregar validez en alcance, contraejemplo o laguna por afirmación, con razones.
+## 6. Necessary next work
 
-M17: auditar externamente la instanciación G por cláusula y construir el perfil de L bindings distintos dentro de R01, completando **todo** su catálogo observable, evidencia/certificados/side channels y ledger; demostrar la simulación de todas sus políticas y los controles de la otra dirección. Si falla la ampliación, conservar el resultado G/local con su limitación, sin retocar el escenario para excluir un control que realmente tenga.
+M16: a different reviewer reconstructs the lemmas, per-branch-budget corollary, joint slices and local M02 bound, trying omitted policies and unpreserved costs. They must deliver validity within scope, counterexample or gap for each claim, with reasons.
 
-C01–C05: crear el harness neutral con una vista pública que no exponga el estado oculto, evaluator independiente, óptimo y ledger. No ejecutar más ejemplos para sustituir esos pasos.
+M17: externally audit the G instantiation clause by clause and construct the profile of L distinct bindings within R01, completing **all** its observable catalog, evidence/certificates/side channels and ledger; prove simulation of all its policies and the controls in the other direction. If expansion fails, retain the G/local result with its limitation, without retouching the scenario to exclude a control it actually has.
 
-Los estados, hashes y conservación se publican en [el release de auditoría](./DEEP_AUDIT_RELEASE.json); [plan](./WORKPLAN.md) e [instrucciones](./CONTINUATION_PROMPT.md) conservan sus criterios anteriores y añaden estas obligaciones.
+C01–C05: create the neutral harness with a public view not exposing hidden state, independent evaluator, optimum and ledger. Do not execute more examples to substitute for those steps.
+
+Statuses, hashes and preservation are published in [the audit release](./DEEP_AUDIT_RELEASE.json); [plan](./WORKPLAN.md) and [instructions](./CONTINUATION_PROMPT.md) retain their previous criteria and add these obligations.
 
 
-## Actualización posterior: alcance correcto del teorema R01
+<a id="actualización-posterior-alcance-correcto-del-teorema-r01"></a>
 
-La imposibilidad de aplicar la misma fórmula de hechos independientes a todas las configuraciones no impide un teorema condicionado sobre R01. El objetivo es demostrar regiones no vacías de trilema y viabilidad dentro del dominio completo, con todas las políticas en la región difícil. Los casos de éxito no refutan ese enunciado.
+## Subsequent update: correct scope of the R01 theorem
 
-El [nuevo teorema principal](./R01_CONDITIONED_TRILEMMA_THEOREM.md) entrega el certificado general y corte informativo, además de una familia θ_{L,N,K,a} de dependencia global con precio K, controles por pares y fronteras exactas. Para K=L utiliza el control sintético de paridad permitido en R01. No transforma su causa en semántica de una extensión histórica. La [revisión propia](./R01_CONDITIONED_TRILEMMA_REVIEW.md) ataca posterior, productor, presupuesto, scopes, recibos, concurrencia y relajación convexa. Este desarrollo supera el estado pendiente de construcción creciente registrado en la auditoría anterior, pero no sustituye su reconstrucción independiente. El escenario fuente y los registros históricos siguen intactos.
+The impossibility of applying the same independent-facts formula to every configuration does not prevent a conditioned theorem over R01. The objective is to prove nonempty trilemma and feasibility regions within the full domain, with all policies in the difficult region. Success cases do not refute that statement.
+
+The [new main theorem](./R01_CONDITIONED_TRILEMMA_THEOREM.md) delivers the general certificate and information cut, along with a global-dependency family θ_{L,N,K,a} of price K, pairwise controls and exact frontiers. For K=L it uses the synthetic parity control permitted in R01. It does not turn its cause into the semantics of a historical extension. The [self-review](./R01_CONDITIONED_TRILEMMA_REVIEW.md) attacks posterior, producer, budget, scopes, receipts, concurrency and convex relaxation. This development supersedes the pending growing construction status recorded in the previous audit, but does not replace its independent reconstruction. The source scenario and historical records remain intact.

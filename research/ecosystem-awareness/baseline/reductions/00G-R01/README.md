@@ -146,51 +146,57 @@ The current reading edition separates the base and case documents; the earlier c
 
 
 <a id="viability-work-in-progress"></a>
-## Viabilidad del trilema — trabajo en desarrollo
+<a id="viabilidad-del-trilema--trabajo-en-desarrollo"></a>
 
-El estudio se reúne en una subcarpeta propia de R01. Los escenarios, reducciones, resultados y exports permanecen intactos. El contenido anterior de las colas se conserva en [el snapshot](./feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json); el único orden actual está en [WORKPLAN.md](./feasibility/WORKPLAN.md): cuatro tareas activas y tres entregas posteriores.
+## Trilemma feasibility — work in progress
 
-| Trabajo | Entrada | Estado y siguiente paso |
+The study is gathered in its own R01 subfolder. Scenarios, reductions, results and exports remain intact. Previous queue contents are preserved in [the snapshot](./feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json); the only current order is in [WORKPLAN.md](./feasibility/WORKPLAN.md): four active tasks and three subsequent deliverables.
+
+| Work | Entry point | Status and next step |
 |---|---|---|
-| Documento de viabilidad | [Estudio completo](./feasibility/README.md) · [Prueba matemática base](./feasibility/PURE_MATHEMATICAL_TRILEMMA.md) | Trilema por familias y regiones viables; no imposibilidad en toda configuración. Derivación F disponible, revisión independiente y puente a R01 pendientes. |
-| Trabajo pendiente | [Plan vigente y 55 tareas](./feasibility/WORKPLAN.md) · [Registro de estados](./feasibility/WORKPLAN_STATUS.json) | Núcleo y revisión propia publicados; continuar con escalación humana y whispering dentro del protocolo de tecnologías. Oráculo y arnés después del contrato. |
-| Experimentos parciales | [Inventario separado](./feasibility/partial-experiments/README.md) | Scripts, fixtures, salidas y material adicional conservados. Diagnósticos acotados; no son el oráculo/harness independiente. |
-| Borradores y conservación | [Trabajos anteriores](./feasibility/previous-work/README.md) · [Mapa de traslados](./feasibility/RELOCATION_MANIFEST.json) · [Verificación](./feasibility/PRESERVATION_CHECKS.json) | Historial preservado; no se reemplazan resultados anteriores ni se borra el corpus. |
-| Continuación | [Prompt completo](./feasibility/CONTINUATION_PROMPT.md) | Mantener el trabajo dentro de esta subcarpeta y el seguimiento al final de los README. |
-| Manuscrito independiente | [Trilema condicionado de coste, riesgo y eficacia](./feasibility/CONDITIONED_TRILEMMA.md) | Hipótesis y pruebas autocontenidas, fronteras exactas, regiones por pares y éxito legítimo; preparado para revisión, sin anunciar validación externa. |
-| Auditoría del manuscrito | [Revisión propia adversarial](./feasibility/CONDITIONED_TRILEMMA_SELF_REVIEW.md) · [Registro de publicación](./feasibility/CONDITIONED_TRILEMMA_RELEASE.json) | Incluye prior sesgado AVG y contraste WC; M16/M17 siguen pendientes. No se ejecutan nuevos tests científicos. |
-| Auditoría de fondo y transferencia | [Dictamen completo](./feasibility/CONDITIONED_TRILEMMA_DEEP_AUDIT.md) · [Mapa, prueba local y familia R01 G](./feasibility/R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) | Distingue capacidad física/objetivo, e/σ y frontera de riesgo/Pareto; G presenta un trilema condicionado con tamaños arbitrarios y catálogo explícito. La misma fórmula F no se extiende indiscriminadamente. Revisión propia, no externa. |
-| Estado tras auditoría, 4 de octubre | [Manuscrito v0.2](./feasibility/CONDITIONED_TRILEMMA.md) · [Registro de auditoría](./feasibility/DEEP_AUDIT_RELEASE.json) | Estado histórico de esa entrega; el registro actual depurado gobierna la continuación. M17 pasa a IN_PROGRESS por mapeo/proposición/resultado G; no se cierra una tarea científica ni se ejecutan nuevos tests. M16 y el harness siguen pendientes. |
-| Teorema condicionado en R01 — desarrollo vigente | [Demostración principal](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) · [Revisión propia](./feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md) | Teorema sobre el dominio R01: corte informativo para toda política, regiones por los tres pares y región viable; familia de dependencia global con K datos, N arbitrario y coste informativo creciente. Casos de éxito compatibles con el trilema. Revisión independiente pendiente. |
-| Registro y continuación del teorema R01 | [Entrega](./feasibility/R01_CONDITIONED_TRILEMMA_RELEASE.json) · [Prompt vigente al final](./feasibility/CONTINUATION_PROMPT.md) | Contexto técnico pagado, ledger y productores explícitos; mantén fuente y experimentos históricos intactos. Snapshot histórico de tareas; la cola actual está depurada. Ninguna ejecución científica nueva en esta actualización. |
+| Feasibility document | [Full study](./feasibility/README.md) · [Base mathematical proof](./feasibility/PURE_MATHEMATICAL_TRILEMMA.md) | Trilemma by families and viable regions; not impossibility in every configuration. F derivation available, independent review and bridge to R01 pending. |
+| Pending work | [Current plan and 55 tasks](./feasibility/WORKPLAN.md) · [Status register](./feasibility/WORKPLAN_STATUS.json) | Core and self-review published; continue with human escalation and whispering within the technology protocol. Oracle and harness after the contract. |
+| Partial experiments | [Separate inventory](./feasibility/partial-experiments/README.md) | Scripts, fixtures, outputs and additional material preserved. Bounded diagnostics; they are not the independent oracle/harness. |
+| Drafts and preservation | [Previous work](./feasibility/previous-work/README.md) · [Relocation map](./feasibility/RELOCATION_MANIFEST.json) · [Verification](./feasibility/PRESERVATION_CHECKS.json) | History preserved; previous results are not replaced and the corpus is not deleted. |
+| Continuation | [Full prompt](./feasibility/CONTINUATION_PROMPT.md) | Keep work within this subfolder and tracking at the end of the READMEs. |
+| Independent manuscript | [Conditioned trilemma of cost, risk and efficacy](./feasibility/CONDITIONED_TRILEMMA.md) | Self-contained hypotheses and proofs, exact frontiers, pairwise regions and legitimate success; prepared for review, without announcing external validation. |
+| Manuscript audit | [Adversarial self-review](./feasibility/CONDITIONED_TRILEMMA_SELF_REVIEW.md) · [Publication record](./feasibility/CONDITIONED_TRILEMMA_RELEASE.json) | Includes biased AVG prior and WC contrast; M16/M17 remain pending. No new scientific tests are executed. |
+| In-depth audit and transfer | [Full verdict](./feasibility/CONDITIONED_TRILEMMA_DEEP_AUDIT.md) · [Mapping, local proof and R01 family G](./feasibility/R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) | Distinguishes physical capacity/target, e/σ and risk/Pareto frontier; G presents a conditioned trilemma with arbitrary sizes and an explicit catalog. The same F formula is not extended indiscriminately. Self-review, not external review. |
+| Status after audit, 4 October | [Manuscript v0.2](./feasibility/CONDITIONED_TRILEMMA.md) · [Audit record](./feasibility/DEEP_AUDIT_RELEASE.json) | Historical status of that deliverable; the current cleaned register governs continuation. M17 moves to IN_PROGRESS through mapping/proposition/G result; no scientific task is closed and no new tests are executed. M16 and the harness remain pending. |
+| Conditioned theorem in R01 — current development | [Main proof](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) · [Self-review](./feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md) | Theorem over the R01 domain: information cut for every policy, regions for all three pairs and viable region; global-dependency family with K data items, arbitrary N and growing information cost. Success cases compatible with the trilemma. Independent review pending. |
+| R01 theorem record and continuation | [Deliverable](./feasibility/R01_CONDITIONED_TRILEMMA_RELEASE.json) · [Current prompt at the end](./feasibility/CONTINUATION_PROMPT.md) | Paid technical context, explicit ledger and producers; keep source and historical experiments intact. Historical task snapshot; the current queue is cleaned. No new scientific execution in this update. |
 
 
-## Cierre del núcleo matemático — revisión de continuidad v0.2
+<a id="cierre-del-núcleo-matemático--revisión-de-continuidad-v02"></a>
 
-4 de octubre de 2026. Esta actualización mantiene la demostración ya publicada y aplica reparaciones mínimas: multiplicador recíproco del certificado, cargo de envío/recepción, plazo coherente y control sin veredicto normativo. No aplica tecnologías.
+## Mathematical core closure — continuity review v0.2
 
-| Lectura vigente | Estado |
+4 October 2026. This update retains the already published proof and applies minimal repairs: reciprocal certificate multiplier, send/receive charge, consistent deadline and control without a normative verdict. It does not apply technologies.
+
+| Current reading | Status |
 |---|---|
-| [Teorema condicionado R01 v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) | Dominio completo, certificado y corte all-policy; regiones viables y de trilema no vacías; fronteras exactas de la familia AVG/WC. |
-| [Auditoría y reparaciones](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) · [Revisión propia](./feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md) | Reconstrucción propia completada. M16 OPEN; fidelidad independiente M17 IN_PROGRESS. |
-| [Registro de conservación](./feasibility/R01_AUDIT_CONTINUITY_RELEASE.json) | Escenario y archivos históricos intactos; sin nuevas ejecuciones científicas. |
-| Próxima fase | Protocolo definido; aplicar sus pasos a escalación humana y whispering como primera tecnología. |
+| [Conditioned R01 theorem v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md) | Complete domain, certificate and all-policy cut; nonempty viable and trilemma regions; exact AVG/WC family frontiers. |
+| [Audit and repairs](./feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md) · [Self-review](./feasibility/R01_CONDITIONED_TRILEMMA_REVIEW.md) | Self-reconstruction completed. M16 OPEN; independent fidelity M17 IN_PROGRESS. |
+| [Preservation record](./feasibility/R01_AUDIT_CONTINUITY_RELEASE.json) | Scenario and historical files intact; no new scientific executions. |
+| Next phase | Protocol defined; apply its steps to human escalation and whispering as the first technology. |
 
-**Referencia canónica — estado documental posterior:** [Trilema R01 v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md), documento independiente con enunciado y pruebas conservados. [Explicación enlazada](./Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation). Umbrales b, δ y p explícitos; validación propia y revisiones externas reconocidas, cobertura restante delimitada.
+**Canonical reference — subsequent documentary status:** [R01 trilemma v0.2](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md), independent document with statement and proofs preserved. [Linked explanation](./Escenario-creatividad-validacion.md#r01-conditioned-mathematical-validation). Explicit thresholds b, δ and p; self-validation and external reviews acknowledged, remaining coverage delimited.
 
 
-## Continuación verificada: revisión de extensiones y tecnologías por mecanismos
+<a id="continuación-verificada-revisión-de-extensiones-y-tecnologías-por-mecanismos"></a>
 
-4 de octubre de 2026. Se verificó el cierre publicado del núcleo v0.2 y se completó la revisión propia de coherencia de las tres extensiones. Los estados anteriores están archivados íntegramente; la cola actual sustituye sus instrucciones de continuación.
+## Verified continuation: extension review and technologies by mechanisms
 
-| Trabajo actual | Evidencia y alcance |
+4 October 2026. The published closure of core v0.2 was verified and the self-review of consistency of the three extensions was completed. Previous statuses are archived in full; the current queue replaces their continuation instructions.
+
+| Current work | Evidence and scope |
 |---|---|
-| Núcleo matemático | [Teorema único](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md); corte observable explicitado y presupuesto global precisado, sin cambiar fronteras. |
-| Tres extensiones existentes | [Revisión de coherencia](./feasibility/EXTENSION_CONSISTENCY_REVIEW.md); alcances conservados y discrepancias heredadas de hashes registradas, sin ejecutar checkers. |
-| Extensión tecnológica ordenada | [Protocolo](./feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md): primero núcleo isomórfico, luego mecanismos adicionales y pruebas de aceptación/persistencia. |
-| Escalación humana y whispering | [Primera ficha matemática](./feasibility/HUMAN_ESCALATION_WHISPERING.md): cota con información compartida, frontera de alerta suficiente y controles; coste y plazo condicionados. |
-| Validación pendiente | M16 OPEN, M17 IN_PROGRESS; P08 conserva las discrepancias documentales; integración, arnés y campaña sin ejecutar. |
-| Estado | Cuatro tareas actuales y tres entregas posteriores; los 55 IDs y criterios históricos siguen trazables. No se declara una nueva validación científica. |
+| Mathematical core | [Single theorem](./feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md); observable cut made explicit and global budget clarified, without changing frontiers. |
+| Three existing extensions | [Consistency review](./feasibility/EXTENSION_CONSISTENCY_REVIEW.md); scopes preserved and inherited hash discrepancies recorded, without executing checkers. |
+| Ordered technology extension | [Protocol](./feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md): first isomorphic core, then additional mechanisms and acceptance/persistence proofs. |
+| Human escalation and whispering | [First mathematical fiche](./feasibility/HUMAN_ESCALATION_WHISPERING.md): bound with shared information, sufficient-alert frontier and controls; conditioned cost and deadline. |
+| Pending validation | M16 OPEN, M17 IN_PROGRESS; P08 retains the documentary discrepancies; integration, harness and campaign unexecuted. |
+| Status | Four current tasks and three subsequent deliverables; all 55 IDs and historical criteria remain traceable. No new scientific validation is declared. |
 
 
 | Virtual technology traversals — update at the end | Status |
