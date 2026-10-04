@@ -1,6 +1,6 @@
 # R01 C02 — neutral oracle / harness
 
-**Status: limited implementation draft · 4 October 2026.** This directory begins the executable C02 instrument requested for R01. It is not a real-technology campaign, not a validated oracle, and not an FG-TIDA deliverable.
+**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
 
 The design is deliberately **UC-4-first**. Nelson Trasatti's UC #4 testbed contribution is the primary interoperability target. R01 adds only the minimum private-world/reference machinery needed to evaluate the R01 scenario without redefining Theme #13, authority/delegation, human oversight or other contributor-owned semantics.
 
@@ -53,6 +53,18 @@ UC-4 experiment package
 
 Until Nelson's schema package itself is vendored or directly consumed, this directory claims **semantic alignment**, not byte-level/schema-validator compatibility. The bridge is documented in [UC4_INTEROPERABILITY_PROFILE.md](./UC4_INTEROPERABILITY_PROFILE.md).
 
+## Executed self-test evidence
+
+The current instrument was executed in the repository CI and its complete workflow concluded **success**:
+
+https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37240286062
+
+Evidence:
+- [Stage-0 self-test record v0.3](./SELFTEST_RECORD_v0.3.md)
+- [Machine-readable result v0.3](./selftest_result_v0.3.json)
+
+This is evidence about the **instrumentation path**, not about any real technology.
+
 ## What is executable now
 
 The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
@@ -89,11 +101,16 @@ oracle/
   NELSON_BASELINE_IMPORT.md
   NELSON_REVIEW_REQUEST.md
   TOOL_BROKER_CONTRACT.md
+  TECHNOLOGY_ADAPTER_GUIDE.md
+  REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json
+  SELFTEST_RECORD_v0.3.md
+  selftest_result_v0.3.json
   adapter_api.py
   canonical_trace_v1.py
   reference.py
   reference_secondary.py
   harness.py
+  interactive_harness.py
   tool_broker.py
   verify.py
   schemas/
@@ -102,11 +119,14 @@ oracle/
     selftest_adapter.py
     malformed_selftest_adapter.py
     abstain_selftest_adapter.py
+    interactive_selftest_adapter.py
   fixtures/stage0/
     experiment_sidecar.json
     worlds.json
     expected_selftest.json
     tool_profile.json
+    interactive_tool_profile.json
+    interactive_case.json
 ```
 
 ## Claim boundary
