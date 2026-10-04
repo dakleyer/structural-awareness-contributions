@@ -27,3 +27,6 @@ Las afirmaciones tecnológicas ya escritas permanecen en el archivo anterior par
 | Tecnologías | Material y derivaciones históricas archivados. | Reanudar después del alcance y los lemas de la prueba base. |
 | Manuscrito independiente | [Trilema condicionado](./CONDITIONED_TRILEMMA.md) | Prueba completa para ambas medidas de eficacia; frontera AVG para hechos sesgados y frontera WC; no vaciedad y controles. |
 | Revisión del manuscrito | [Auditoría simbólica propia](./CONDITIONED_TRILEMMA_SELF_REVIEW.md) | No sustituye M16. Criterios adversariales disponibles para un revisor externo. |
+| Auditoría de fondo | [Reconstrucción y reparaciones](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) | El lema se conserva; capacidad física B, cortes factibles, éxito por rama y condiciones de transferencia se explicitan en v0.2. |
+| Extensión a R01 | [Mapa, prueba local y familia G](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) | Familia con contexto técnico inicial pagado, catálogo explícito y tamaños arbitrarios; todos los pares y triple imposible en su banda. Dureza informativa creciente de F y validación externa pendientes. |
+| Estado vigente de auditoría | [55 tareas](./WORKPLAN_STATUS.json) · [Release](./DEEP_AUDIT_RELEASE.json) | 4 DONE históricas, 7 IN_PROGRESS, 44 OPEN. M17 en desarrollo; ninguna tarea científica cerrada. Sin nuevas ejecuciones científicas. |

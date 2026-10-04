@@ -102,3 +102,20 @@ Usa el [prompt completo](./CONTINUATION_PROMPT.md). Para cada afirmación regist
 Se propone el nombre **Trilema condicionado de coste, riesgo y eficacia**. El [documento independiente](./CONDITIONED_TRILEMMA.md) contiene el contrato, cuantificadores, un lema para todas las políticas, fronteras exactas técnica/legítima, extensión AVG a hechos independientes sesgados, contraste WC y familias no vacías. La [revisión propia adversarial](./CONDITIONED_TRILEMMA_SELF_REVIEW.md) examina presupuesto de ramas fallidas, adaptación, aleatoriedad, recibos, independencia, igualdad y riesgo redundante. No se declara revisión externa, puente al R01 completo ni novedad; no se ejecutaron nuevos tests científicos. Estado de las 55 tareas sin cambios: 4 DONE históricas, 6 IN_PROGRESS, 45 OPEN.
 
 M12/M03/M04 deben usar este manuscrito como versión revisable, sin borrar sus criterios anteriores. M16 debe reconstruir el lema con a distinto de 1/2 y el uso de una ley uniforme auxiliar para WC, además de las familias por pares con σ. M17 sigue probando correspondencia con todas las políticas de R01. Antes de nuevos diagnósticos, C01–C05 conserva la obligación de un instrumento neutral. Las tecnologías permanecen después.
+
+
+## Auditoría de fondo — prioridades y estado vigentes
+
+Estado: **55 tareas; 4 DONE históricas, 7 IN_PROGRESS y 44 OPEN**. M17 cambia de OPEN a IN_PROGRESS por el [mapa de transferencia, proposición, teorema local M02 y familia G](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md). No se cierra ninguna tarea científica. Los estados anteriores permanecen fechados.
+
+La [auditoría](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) reconstruye las pruebas y corrige afirmaciones de los textos recibidos: equivalencia ∀π¬Good/¬∃πGood, dirección de transferencia y necesidad de controles para frontera exacta. El [manuscrito v0.2](./CONDITIONED_TRILEMMA.md) separa B/R, define el conjunto factible y sus mínimos de riesgo, añade el corte η/σ conjunto y σ_R por presupuesto de rama. Fuente, fixtures y reportes científicos intactos; no se ejecutan nuevos tests.
+
+| Prioridad inmediata | Tareas | Entrega concreta pendiente |
+|---|---|---|
+| 1. Congelar contrato y reconstrucción externa | M12/M03/M04, M16 | Revisar H1–H8, independencia por historial, cota, controles, cortes conjuntos y éxito por rama; dictamen de otro revisor, sin copiar una recurrencia propia. |
+| 2. Validar cláusulas de la familia R01 G | M17, M07, M16 | Contexto inicial técnico pagado, catálogo y ledger completos; no confundir alcance desde ese contexto con optimización de la preparación inicial. Revisar todas sus políticas y variante AVG/WC. |
+| 3. Dureza informativa creciente dentro de R01 | M17/M03/M04 | L hechos distintos, todas las consultas/certificados/side channels, C0 y producción, simulación de todas las políticas y controles. G tiene sobrecoste informativo constante y no cierra esta ampliación. |
+| 4. Instrumento neutral | C01–C05/M05 | Vista observable que no exponga Episode.chi, evaluator separado, óptimo, ledger y medidas. El wrapper histórico solo implementa controles nombrados. |
+| 5. Tecnologías | M13–M15 y T | Después del contrato y lemas base; no trasladar F a bindings compartidos o predicados globales. |
+
+Los criterios históricos de todas las tareas se mantienen en el registro. M16 permanece OPEN; las auditorías recibidas son ataques y recomendaciones, no un dictamen matemático independiente completo.

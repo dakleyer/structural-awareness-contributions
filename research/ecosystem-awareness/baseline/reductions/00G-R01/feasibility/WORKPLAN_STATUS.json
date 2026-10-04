@@ -1,15 +1,15 @@
 {
-  "version": "0.5",
-  "input_commit": "3c9db8101d42ed9076d4f1b360fb88a2d82b9a87",
-  "actual_utc": "2026-10-04T07:50:30.034900+00:00",
+  "version": "0.6",
+  "input_commit": "a1ec3e24970e2d925745e4fc7a5cd8e6c11c11d5",
+  "actual_utc": "2026-10-04T08:47:49.725020+00:00",
   "plan_editor": "Codex, on user instruction",
   "scientific_tasks_closed_by_this_revision": [],
   "current_order": "target and pure mathematics -> symbolic review and R01 bridge -> neutral oracle/harness before new finite experiments -> technology classes -> registered campaigns -> selector",
   "task_count": 55,
   "counts": {
     "DONE": 4,
-    "IN_PROGRESS": 6,
-    "OPEN": 45,
+    "IN_PROGRESS": 7,
+    "OPEN": 44,
     "BLOCKED": 0
   },
   "original_task_IDs_preserved": 49,
@@ -223,10 +223,11 @@
       "new_acceptance": "Revisor distinto del autor y no asignado ficticiamente: reconstruir F1–F4, W1–W5, G1, T1/T2 y cuantificadores, cubriendo políticas omitidas, normalización, presupuesto en ramas fallidas, abstención, igualdad y controles conocidos. Dictamen por afirmación: VALIDATED_IN_SCOPE, COUNTEREXAMPLE o GAP; M13–M15 se revisan separadamente si se incluyen. No basta ejecutar el script del autor. Considerar formalización de los lemas críticos si aporta cobertura; un intento incompleto no es prueba formal. Revisión propia puede continuar sin cerrar esta tarea.",
       "reviewer_requirement": "distinct from author; UNASSIGNED, no independent review claimed",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
-      "current_manuscript": "CONDITIONED_TRILEMMA.md"
+      "current_manuscript": "CONDITIONED_TRILEMMA.md",
+      "additional_pending_review": "v0.2 B/R distinction, joint feasibility cut, branch-budget success corollary, local M02 theorem and G-family compatibility/producer ledger"
     },
     "M17": {
-      "status": "OPEN",
+      "status": "IN_PROGRESS",
       "priority": "P1",
       "dependencies_for_final_closure": [
         "M12",
@@ -239,7 +240,9 @@
       "historical_evidence_retained": false,
       "new_acceptance": "Elegir un objetivo explícito: familia suplementaria o subfamilia de R01. Para afirmar lo segundo, construir embedding/reducción de mundos, acciones, observaciones, efectos y costes; mapear TODAS las políticas relevantes de R01 a la clase cubierta, incluyendo conectores, geometría, autoridad, consultas y barreras. Comprobar dirección de la reducción: no basta exhibir una política ni preservar trazas seleccionadas para transferir imposibilidad. Limitar el resultado a un submodelo o marcar GAP si R01 aporta información o acciones adicionales. E1–E7 y coherencia M07 no sustituyen la reducción.",
       "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
-      "current_manuscript": "CONDITIONED_TRILEMMA.md"
+      "current_manuscript": "CONDITIONED_TRILEMMA.md",
+      "current_evidence": "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md: correct transfer proposition, metric/budget matrix, all-policy M02 theorem and complete G family with shared binding and paid technical prior",
+      "remaining": "independent clause/proof reconstruction; instantiate growing independent-binding family and observable simulation of all relevant policies; do not claim F frontier for all R01"
     },
     "C01": {
       "status": "OPEN",
@@ -289,7 +292,8 @@
       "owner": "UNASSIGNED",
       "criterion_in_master": "Contrastar mundos pequeños y trazas inválidas; atacar evidencia obsoleta, duplicación, permisos y filtración del oráculo.",
       "historical_evidence_retained": false,
-      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md"
+      "additional_material_reference": "partial-experiments/received/2026-10-04/README.md",
+      "additional_pending_scope": "neutral public observation view and independent evaluator; historical Episode.chi is accessible to arbitrary Python code, outside declared Pi_obs"
     },
     "C06": {
       "status": "OPEN",
@@ -668,5 +672,9 @@
   "no_new_scientific_experiments": true,
   "independent_manuscript": "CONDITIONED_TRILEMMA.md",
   "manuscript_own_review": "CONDITIONED_TRILEMMA_SELF_REVIEW.md",
-  "independent_mathematical_review_received": false
+  "independent_mathematical_review_received": false,
+  "deep_own_audit": "CONDITIONED_TRILEMMA_DEEP_AUDIT.md",
+  "transfer_mapping": "R01_TO_CONDITIONED_TRILEMMA_MAPPING.md",
+  "R01_defined_G_family_proof_available": true,
+  "R01_general_F_frontier_transfer_proved": false
 }

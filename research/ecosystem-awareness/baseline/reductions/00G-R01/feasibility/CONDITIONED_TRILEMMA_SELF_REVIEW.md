@@ -39,3 +39,8 @@ La revisión examina necesidad, suficiencia, no vaciedad y cuantificadores. No e
 No se identificó una contradicción en la derivación escrita dentro del contrato. Se han aclarado los puntos que podían inducir una conclusión más fuerte: ramas fallidas, presupuesto separado de eficacia, AVG frente a WC, éxito legítimo y no vaciedad de todos los pares. Este dictamen es del mismo autor asistido y **no** equivale a validación independiente.
 
 El manuscrito es presentable para una evaluación matemática con todas las hipótesis a la vista. El revisor externo debe intentar refutar el lema mediante políticas adaptativas y las construcciones mediante costes omitidos. Debe entregar, por afirmación, un dictamen de validez en la clase, contraejemplo o laguna, con su razonamiento. Ningún dictamen se considera recibido por haber redactado este encargo.
+
+
+## Revisión de fondo posterior, 4 de octubre de 2026
+
+La revisión anterior conserva su fecha y alcance. La [auditoría de fondo](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) identifica reparaciones de transferencia/formalización: capacidad B frente a coste objetivo R, frontera de riesgo frente a Pareto completo, coste máximo frente a éxito con coste por rama y dirección de simulación. El lema y los controles se reconstruyen sin cambiar sus fórmulas; [manuscrito v0.2](./CONDITIONED_TRILEMMA.md). El [mapa R01](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) prueba el caso observable M02 y una familia G con catálogo explícito y contexto pagado. El código anterior no es un harness que imponga aislamiento de χ. Sigue sin recibirse una revisión independiente; esta entrega no cierra M16.

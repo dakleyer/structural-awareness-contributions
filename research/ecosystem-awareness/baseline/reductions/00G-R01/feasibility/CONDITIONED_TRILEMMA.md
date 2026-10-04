@@ -2,7 +2,7 @@
 
 ## Una prueba por familias de configuraciones
 
-Manuscrito independiente para revisión · Versión 0.1 · 4 de octubre de 2026.
+Manuscrito independiente para revisión · Versión 0.2 · 4 de octubre de 2026. Revisión de fondo: presupuesto físico frente a objetivo de coste, conjunto factible y condiciones de transferencia.
 
 **Estado:** demostración simbólica autocontenida en la clase definida aquí; revisión independiente pendiente. El resultado no se anuncia como teorema de todo R01 ni como una ley de todas las arquitecturas. La denominación «trilema condicionado» se propone para expresar este alcance, sin atribuirle reconocimiento terminológico o novedad científica ya comprobados.
 
@@ -74,7 +74,7 @@ Toda ruta completa cuesta al menos C0=b+gL, con b≥0 y g>0. Hay controles que l
 
 Las políticas pueden elegir qué leer y cuándo, recordar, detenerse, aleatorizar y coordinar cualquier número finito N de agentes. Se les concede cómputo local y coordinación perfectos como envolvente favorable, sin información oculta adicional. C es trabajo agregado, no gasto del agente más rápido. Los resultados no son cotas de latencia ni de presupuesto individual.
 
-Cada configuración tiene un horizonte finito común, suficiente para leer d hechos y completar L segmentos. Puede medirse en eventos y fijarse, por ejemplo, T≥L+d+1 para los controles. Π(θ) contiene las políticas de esta interfaz, también las que gastarían más que R: el presupuesto es uno de los objetivos, no una restricción que haga desaparecer de antemano el control seguro y eficaz de mayor coste.
+Cada configuración tiene un horizonte finito común, suficiente para leer d hechos y completar L segmentos. Puede medirse en eventos y fijarse, por ejemplo, T≥L+d+1 para los controles. Se distingue **B, capacidad física de gasto**, de **R, objetivo de coste bajo**. Fijar B≥C0+cd y 0≤R≤B. Π(θ) contiene las políticas de esta interfaz ejecutables bajo B, también las que gastarían más que R. Así el control seguro y eficaz de coste C0+cd es ejecutable en la misma configuración y puede incumplir el objetivo de coste. Si un sistema impone una barrera física en R, ese control pertenece a un perfil de recursos mayor; no se declara ejecutable dentro del perfil físicamente limitado a R.
 
 La prueba no fuerza a emplear una ventana fija o una revisión repetitiva. Los supuestos decisivos son independencia de hechos no observados, interfaz de lectura individual, cargo total positivo y efecto material no protegido de una acción todavía desconocida.
 
@@ -120,6 +120,8 @@ $$
 **Demostración.** En una historia sin infracciones, denominar apuesta al primer efecto alto sobre un binding no adquirido mediante lectura ni observado en un efecto alto previo. Condicionada a toda la historia accesible, su probabilidad de ser admisible es a o 1−a, y por tanto no supera a. La independencia mantiene esto aunque el índice y la opción se elijan adaptativamente. Una lectura de otro binding no cambia la ley del que todavía no se ha observado.
 
 Una entrega legítima necesita d bindings altos admisibles. Esa rama paga C0 y puede financiar como máximo k lecturas. En consecuencia, debe acertar al menos m apuestas distintas. Este razonamiento no presupone que todas las ramas, incluidas las fallidas, hagan como máximo k lecturas.
+
+La conservación de la ley de los hechos no vistos puede comprobarse por inducción en el historial. Una operación sin información deja su ley intacta. Una lectura o efecto condiciona el binding que acaba de revelar, conservando el producto de las leyes de los demás. La elección del siguiente índice es función de ese historial y de la semilla; no impone una condición nueva sobre un binding no visto. Fijar primero la semilla independiente reduce el argumento a políticas deterministas de historia y promediar recupera el caso aleatorio.
 
 Sea u_j la probabilidad de llegar a la apuesta j antes de una primera infracción. Parar, leer o actuar entre apuestas puede impedir llegar a la siguiente; no puede aumentar la probabilidad de acertar una apuesta más allá de a. Por tanto
 
@@ -228,6 +230,30 @@ Si δ≥1−p, el riesgo es redundante para cualquier política con σ≥p, pues
 
 ## 7. Las regiones y el coste crítico
 
+La expresión «frontera exacta» se refiere aquí al **mínimo de riesgo bajo un presupuesto máximo y un umbral de eficacia**, no a una descripción de todo el conjunto de Pareto de cuatro o seis dimensiones. Formalmente, para los parámetros de tarea e interfaz fijos, definir
+
+$$
+\mathcal F_\theta=\{(C(\pi),\rho(\pi),\eta(\pi),\sigma(\pi)):\pi\in\Pi(\theta)\}.
+$$
+
+La dominancia mejora C y ρ hacia abajo, y η y σ hacia arriba, con al menos una mejora estricta. Las fórmulas (4)–(5) describen exactamente la no vaciedad de cortes de este conjunto. Cuando R≥C0,
+
+$$
+\min_{C\le R,\ \eta\ge h}\rho=h(1-q),\qquad
+\min_{C\le R,\ \sigma\ge p}\rho=p(q^{-1}-1)\quad\text{si }p\le q.
+$$
+
+Si p>q, el segundo conjunto es vacío. Son mínimos alcanzados, no solo ínfimos. Tampoco todo control (6) es Pareto óptimo: si q=1 y 0<β<1, intentar siempre obtiene η=σ=1 con el mismo coste máximo y riesgo cero, y lo domina. Esto no altera los mínimos ni las condiciones de viabilidad.
+
+**Corolario conjunto.** Si se exigen a la vez η≥h y σ≥p, para R≥C0 la viabilidad con ρ≤δ equivale a
+
+$$
+p\le q,\qquad
+\delta\ge\max\{h(1-q),\ p(q^{-1}-1)\}.
+$$
+
+La necesidad viene del lema; la suficiencia utiliza (6) con β=max(h,p/q)≤1. Se conserva q=a^m en AVG y q=2^{-m} en WC. Este resultado determina cortes conjuntos; no reconstruye todo el conjunto factible de R01.
+
 Sea q_j=a^j en AVG y q_j=2^{-j} en WC. Para el objetivo técnico y r<h, definir
 
 $$
@@ -290,3 +316,59 @@ Para consolidarlo ante terceros faltan: reconstrucción simbólica por un reviso
 | Tecnología, M13–M15 | Fuera de la prueba actual | Reanudar después de consolidar contrato y lemas base. |
 
 <!-- R01_BOT_WORKPLAN_END -->
+
+## 11. Scope and Transfer Conditions
+
+### 11.1 Hipótesis numeradas y cobertura de políticas
+
+H1. La misión, el mundo estático y la ley AVG se fijan antes de ejecutar; la semilla de la política es independiente del mundo.
+
+H2. Los hechos nuevos tienen la ley independiente declarada. Geometría, recompensas, precios, metadatos y mensajes no aportan información adicional sobre ellos. Para WC se mantiene el mismo soporte de mundos y se exigen garantías por mundo.
+
+H3. Las lecturas nuevas son de coordenadas y su precio completo es c. Una lectura de otro hecho, un cache hit o una copia de un mensaje no entrega gratuitamente un hecho nuevo. La producción y la aplicabilidad de certificados no quedan fuera de la contabilidad.
+
+H4. Todo éxito técnico exige d posiciones altas distintas y paga al menos C0; los controles descritos completan por C0 más las lecturas. El número k limita lecturas de una **rama que completa**, no de cada rama fallida.
+
+H5. Una primera ejecución alta sobre un hecho desconocido puede ser inadmisible; el recibo llega después del efecto. V registra todas las infracciones del proceso y es irreversible. M no revela hechos y las prohibiciones conocidas se rechazan.
+
+H6. Las observaciones de Π son exactamente las permitidas. Formalmente, Π comprende todos los núcleos de elección sobre acciones disponibles, condicionados a la historia completa y a una semilla independiente. No se limita a los algoritmos implementados ni a políticas no adaptativas. Fases, mezcla, consultas repetidas y parada quedan incluidas si usan esa misma interfaz y contabilidad. Otra tarea, un reinicio con efectos borrados o una nueva fuente de información cambian el contrato.
+
+H7. B es la capacidad física y R es el objetivo de coste; B≥C0+cd. El horizonte permite los controles. Cambiar de presupuesto por campaña a coste esperado, o de trabajo agregado a latencia, exige otra prueba.
+
+H8. H, V, η y σ son los eventos y probabilidades de §3. La eficacia técnica no sustituye el indicador de éxito de un sistema que requiere calidad legítima, coste y plazo conjuntamente.
+
+Con historia finita y catálogo finito, cualquier elección aleatoria adaptativa puede representarse por una semilla que sortea de antemano las decisiones para todas las historias posibles. Cada semilla determina una política de historia; promediar conserva las probabilidades. Por eso caracterizar Π mediante toda la historia cubre aleatoriedad por fases y composición dentro del contrato; no hace falta enumerar programas para probar el lema.
+
+### 11.2 Proposición de transferencia de imposibilidad
+
+Sean S una familia de configuraciones de un sistema D y M el modelo de este manuscrito. Para cada θ_D∈S fijar una configuración θ_M y una transformación de políticas Φ, común a los mundos y que no use información oculta. Suponer que Φ(π_D) pertenece a Π_M y que, para **cada** política relevante π_D, satisfacer los objetivos en D implica satisfacer los objetivos correspondientes en M, con las mismas unidades o conversiones declaradas:
+
+$$
+\mathrm{Good}_D(\pi_D)\ \Longrightarrow\
+\mathrm{Good}_M(\Phi(\pi_D)). \tag{8}
+$$
+
+Si θ_M está en la región imposible, entonces ninguna política de D satisface sus objetivos.
+
+**Prueba.** Una política buena en D produciría por (8) una política buena en M, contradiciendo el teorema. ∎
+
+Una condición suficiente, tras normalizar unidades y leyes, es C_M≤C_D, ρ_M≤ρ_D y η_M≥η_D para el objetivo técnico; sustituir o añadir σ_M≥σ_D para el objetivo legítimo. Estas desigualdades son suficientes, no necesarias: basta (8) al nivel de los umbrales. La dirección opuesta no transfiere imposibilidad.
+
+Para transferir **alcanzabilidad**, hay que construir políticas ejecutables en D a partir de los controles pertinentes de M que preserven los objetivos. No se necesita una biyección entre todas las políticas, y esa dirección adicional no es necesaria para la sola cota inferior. Para afirmar una frontera exacta en D se necesitan tanto la cota inferior como controles que la alcancen.
+
+Para probar que existe una subfamilia difícil dentro de un sistema, basta verificar estas condiciones en esa subfamilia. No hay que representar todas sus configuraciones. Para afirmar el mismo resultado en todas ellas, sí haría falta verificar el dominio completo; este manuscrito no lo hace.
+
+### 11.3 Éxito con presupuesto por rama, sin imponer coste máximo global
+
+Para una política ejecutable bajo B, definir
+
+$$
+\eta_R=P(H\cap\{C_{\mathrm{traza}}\le R\}),\qquad
+\sigma_R=P(H\cap\neg V\cap\{C_{\mathrm{traza}}\le R\}).
+$$
+
+El coste de una rama fallida puede superar R. Aun así, cada rama contabilizada en σ_R paga C0 y puede financiar como máximo k lecturas. Repetir la prueba del lema da σ_R≤q, ρ≥(q^{-1}−1)σ_R y ρ≥(1−q)η_R. Los controles de (6) alcanzan las mismas cotas. Esta extensión requiere que el plazo y todas las infracciones sigan contándose en el mismo proceso.
+
+Este corolario permite comparar el resultado con indicadores de éxito que incorporan el presupuesto **por ejecución**, en vez de una cota de coste máximo para toda la política. No los identifica silenciosamente: σ y σ_R son medidas distintas. Los experimentos parciales no prueban ni esta correspondencia ni (8).
+
+El [mapa de transferencia y resultado local M02](./R01_TO_CONDITIONED_TRILEMMA_MAPPING.md) y la [auditoría de fondo](./CONDITIONED_TRILEMMA_DEEP_AUDIT.md) precisan las correspondencias verificadas y las pendientes. La especificación fuente de R01 conserva su contenido.
