@@ -21,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -29,6 +31,9 @@ jobs:
 
       - name: Check current R01 canonical navigation and anchors
         run: python research/ecosystem-awareness/baseline/reductions/00G-R01/tools/check_canonical_navigation.py
+
+      - name: Guard current-route editorial/readability preservation
+        run: python research/ecosystem-awareness/baseline/reductions/00G-R01/tools/check_current_route_preservation.py
 
       - name: Prove unrecorded documentary drift fails the gate
         shell: bash
