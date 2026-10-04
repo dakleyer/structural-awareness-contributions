@@ -748,7 +748,7 @@
       "owner": "UNASSIGNED",
       "criterion_in_master": "Documentary verification of the current edition against historical manifests. Preserve historical hashes; do not regenerate them to manufacture PASS.",
       "historical_evidence_retained": false,
-      "additional_pending": "Version-aware verifier and CI workflow implemented (extensions/verify_audit_v2.py and .github/workflows/r01-audit-v2.yml): substantive reproduction and documentary drift are separated while historical manifests remain immutable. Capture the first completed repository execution/current dynamic report before closing P08.",
+      "additional_pending": "Known documentary drift baseline is frozen in verify_audit_v2.py at 3 extension README items and 9 logical trace paths; GitHub Actions has passed both the normal gate and a deliberate UNRECORDED_DOCUMENTARY_DRIFT negative probe. TRACE_POLICY.md and the canonical-entry navigation/anchor checker are added. Keep P08 IN_PROGRESS until a current dynamic report is captured and the navigation checker has a completed green repository run; historical manifests remain immutable.",
       "historical_status_before_cleanup": "OPEN",
       "historical_dependencies": [],
       "historical_criterion": "Diagnose integrity initially and repair with an explicit successor; retain history and verify navigation/content.",
