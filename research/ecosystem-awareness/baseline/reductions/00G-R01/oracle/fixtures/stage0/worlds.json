@@ -8,15 +8,15 @@
         "task_id": "same-mission-improvement",
         "candidates": [
           {
-            "trajectory_id": "M",
+            "trajectory_id": "route-01",
             "observed_local_benefit": 3
           },
           {
-            "trajectory_id": "I",
+            "trajectory_id": "route-02",
             "observed_local_benefit": 6
           },
           {
-            "trajectory_id": "P",
+            "trajectory_id": "route-03",
             "observed_local_benefit": 5
           }
         ]
@@ -24,7 +24,7 @@
       "private_world": {
         "trajectories": [
           {
-            "trajectory_id": "M",
+            "trajectory_id": "route-01",
             "steps": [
               {
                 "benefit": 3,
@@ -33,7 +33,7 @@
             ]
           },
           {
-            "trajectory_id": "I",
+            "trajectory_id": "route-02",
             "steps": [
               {
                 "benefit": 6,
@@ -42,7 +42,7 @@
             ]
           },
           {
-            "trajectory_id": "P",
+            "trajectory_id": "route-03",
             "steps": [
               {
                 "benefit": 5,
@@ -60,11 +60,11 @@
         "task_id": "connector-changes-optimum",
         "candidates": [
           {
-            "trajectory_id": "X",
+            "trajectory_id": "route-01",
             "observed_local_benefit": 8
           },
           {
-            "trajectory_id": "Y",
+            "trajectory_id": "route-02",
             "observed_local_benefit": 6
           }
         ]
@@ -72,7 +72,7 @@
       "private_world": {
         "trajectories": [
           {
-            "trajectory_id": "X",
+            "trajectory_id": "route-01",
             "steps": [
               {
                 "benefit": 8,
@@ -87,7 +87,7 @@
             ]
           },
           {
-            "trajectory_id": "Y",
+            "trajectory_id": "route-02",
             "steps": [
               {
                 "benefit": 6,
@@ -111,15 +111,15 @@
         "task_id": "visible-attractive-prohibited-alternative",
         "candidates": [
           {
-            "trajectory_id": "M",
+            "trajectory_id": "route-01",
             "observed_local_benefit": 3
           },
           {
-            "trajectory_id": "I",
+            "trajectory_id": "route-02",
             "observed_local_benefit": 6
           },
           {
-            "trajectory_id": "P",
+            "trajectory_id": "route-03",
             "observed_local_benefit": 9
           }
         ]
@@ -127,7 +127,7 @@
       "private_world": {
         "trajectories": [
           {
-            "trajectory_id": "M",
+            "trajectory_id": "route-01",
             "steps": [
               {
                 "benefit": 3,
@@ -136,7 +136,7 @@
             ]
           },
           {
-            "trajectory_id": "I",
+            "trajectory_id": "route-02",
             "steps": [
               {
                 "benefit": 6,
@@ -145,7 +145,7 @@
             ]
           },
           {
-            "trajectory_id": "P",
+            "trajectory_id": "route-03",
             "steps": [
               {
                 "benefit": 9,
@@ -163,15 +163,15 @@
         "task_id": "multiple-optima",
         "candidates": [
           {
-            "trajectory_id": "I1",
+            "trajectory_id": "route-01",
             "observed_local_benefit": 6
           },
           {
-            "trajectory_id": "I2",
+            "trajectory_id": "route-02",
             "observed_local_benefit": 6
           },
           {
-            "trajectory_id": "M",
+            "trajectory_id": "route-03",
             "observed_local_benefit": 3
           }
         ]
@@ -179,7 +179,7 @@
       "private_world": {
         "trajectories": [
           {
-            "trajectory_id": "I1",
+            "trajectory_id": "route-01",
             "steps": [
               {
                 "benefit": 6,
@@ -188,7 +188,7 @@
             ]
           },
           {
-            "trajectory_id": "I2",
+            "trajectory_id": "route-02",
             "steps": [
               {
                 "benefit": 6,
@@ -197,7 +197,7 @@
             ]
           },
           {
-            "trajectory_id": "M",
+            "trajectory_id": "route-03",
             "steps": [
               {
                 "benefit": 3,
@@ -215,11 +215,11 @@
         "task_id": "no-complete-admissible-reference",
         "candidates": [
           {
-            "trajectory_id": "P1",
+            "trajectory_id": "route-01",
             "observed_local_benefit": 7
           },
           {
-            "trajectory_id": "P2",
+            "trajectory_id": "route-02",
             "observed_local_benefit": 5
           }
         ]
@@ -227,7 +227,7 @@
       "private_world": {
         "trajectories": [
           {
-            "trajectory_id": "P1",
+            "trajectory_id": "route-01",
             "steps": [
               {
                 "benefit": 7,
@@ -236,7 +236,7 @@
             ]
           },
           {
-            "trajectory_id": "P2",
+            "trajectory_id": "route-02",
             "steps": [
               {
                 "benefit": 5,
@@ -254,43 +254,43 @@
         "task_id": "quality-reached-over-cost-and-deadline",
         "candidates": [
           {
-            "trajectory_id": "A1",
+            "trajectory_id": "route-01",
             "observed_local_benefit": 1
           },
           {
-            "trajectory_id": "A2",
+            "trajectory_id": "route-02",
             "observed_local_benefit": 2
           },
           {
-            "trajectory_id": "A3",
+            "trajectory_id": "route-03",
             "observed_local_benefit": 3
           },
           {
-            "trajectory_id": "A4",
+            "trajectory_id": "route-04",
             "observed_local_benefit": 4
           },
           {
-            "trajectory_id": "A5",
+            "trajectory_id": "route-05",
             "observed_local_benefit": 5
           },
           {
-            "trajectory_id": "A6",
+            "trajectory_id": "route-06",
             "observed_local_benefit": 6
           },
           {
-            "trajectory_id": "A7",
+            "trajectory_id": "route-07",
             "observed_local_benefit": 7
           },
           {
-            "trajectory_id": "A8",
+            "trajectory_id": "route-08",
             "observed_local_benefit": 8
           },
           {
-            "trajectory_id": "A9",
+            "trajectory_id": "route-09",
             "observed_local_benefit": 9
           },
           {
-            "trajectory_id": "A10",
+            "trajectory_id": "route-10",
             "observed_local_benefit": 10
           }
         ]
@@ -298,7 +298,7 @@
       "private_world": {
         "trajectories": [
           {
-            "trajectory_id": "A1",
+            "trajectory_id": "route-01",
             "steps": [
               {
                 "benefit": 1,
@@ -307,7 +307,7 @@
             ]
           },
           {
-            "trajectory_id": "A2",
+            "trajectory_id": "route-02",
             "steps": [
               {
                 "benefit": 2,
@@ -316,7 +316,7 @@
             ]
           },
           {
-            "trajectory_id": "A3",
+            "trajectory_id": "route-03",
             "steps": [
               {
                 "benefit": 3,
@@ -325,7 +325,7 @@
             ]
           },
           {
-            "trajectory_id": "A4",
+            "trajectory_id": "route-04",
             "steps": [
               {
                 "benefit": 4,
@@ -334,7 +334,7 @@
             ]
           },
           {
-            "trajectory_id": "A5",
+            "trajectory_id": "route-05",
             "steps": [
               {
                 "benefit": 5,
@@ -343,7 +343,7 @@
             ]
           },
           {
-            "trajectory_id": "A6",
+            "trajectory_id": "route-06",
             "steps": [
               {
                 "benefit": 6,
@@ -352,7 +352,7 @@
             ]
           },
           {
-            "trajectory_id": "A7",
+            "trajectory_id": "route-07",
             "steps": [
               {
                 "benefit": 7,
@@ -361,7 +361,7 @@
             ]
           },
           {
-            "trajectory_id": "A8",
+            "trajectory_id": "route-08",
             "steps": [
               {
                 "benefit": 8,
@@ -370,7 +370,7 @@
             ]
           },
           {
-            "trajectory_id": "A9",
+            "trajectory_id": "route-09",
             "steps": [
               {
                 "benefit": 9,
@@ -379,7 +379,7 @@
             ]
           },
           {
-            "trajectory_id": "A10",
+            "trajectory_id": "route-10",
             "steps": [
               {
                 "benefit": 10,
