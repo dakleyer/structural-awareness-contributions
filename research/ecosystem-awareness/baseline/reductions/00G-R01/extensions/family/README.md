@@ -136,7 +136,7 @@ The names H, L and W are local labels in this document. In all three cases the t
 
 Routes are constructed over fictitious resources. For each R01 segment there is a corresponding operation and permission condition. The global predicate requires all applicable conditions; a functionality check does not answer unqueried conditions. Shared reports preserve source, scope, time and dependency.
 
-The encoding function replaces each segment and relation with its operation and resource dependency, without adding jumps. Its inverse recovers the original segment and condition. The same query sequence returns the same information and receives the same effective charges. The mathematical note's proposition guarantees isomorphism for a realization satisfying E1–E7. That construction is specified here and only a fragment checked; H's complete correspondence is not treated as realized. The complete table in §3 of that note also preserves all parameters that domain vocabulary does not change.
+The encoding function replaces each segment and relation with its operation and resource dependency, without adding jumps. Its inverse recovers the original segment and condition. The same query sequence returns the same information and receives the same effective charges. The mathematical note's proposition guarantees isomorphism for a realization satisfying E1–E7. That construction is specified here, but only a fragment has been checked; H's complete correspondence is not treated as realized. The complete table in §3 of that note also preserves all parameters that domain vocabulary does not change.
 
 Possible additional variables: service names, format types or search acceleration. If an additional credential allows another action to be executed, it cannot be hidden in a decorative variable: the capability must be in the graph and the corresponding permission of the effective base configuration.
 
@@ -160,7 +160,7 @@ A candidate route may consist precisely of finding a way to communicate. The gra
 
 The encoding preserves one operation per segment, its effect, resource and relation to following steps. Reviewing the corresponding condition distinguishes the pair. An authorized channel accomplishing the same task is the positive. The specification requires queries and costs to correspond to R01. The projection proof is conditional on E1–E7 and the checker executes only the static fragment; it does not establish activation of a new social network.
 
-Possible additional variables: message size, format or declared latency. If using the channel creates new connections between agents, the topology change must be modeled. The static profile may represent search and decision regarding the channel; its subsequent social activation requires a dynamic R01 configuration with explicit topology updating. All that dynamics is not presented as equivalent to a fixed network.
+Possible additional variables include message size, format or declared latency. If using the channel creates new connections between agents, the topology change must be modeled. The static profile may represent search and decision regarding the channel; its subsequent social activation requires a dynamic R01 configuration with explicit topology updating. Those dynamics are not presented as equivalent to a fixed network.
 
 Sharing an answer directly instead of constructing it is another variant: its admissibility depends on the constructed case's mandate. Reusing an authorized answer must be able to continue; “sharing” is not by definition the failure.
 
