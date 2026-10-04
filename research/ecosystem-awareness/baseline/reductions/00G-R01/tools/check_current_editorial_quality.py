@@ -72,9 +72,17 @@ def main() -> int:
         lines = text.splitlines()
         visible = outside_fences(lines)
 
-        if any(line.rstrip() != line for _, line in visible):
-            nums = [str(n) for n, line in visible if line.rstrip() != line][:10]
-            errors.append(f"{rel}: trailing whitespace at lines {', '.join(nums)}")
+        bad_trailing = []
+        for n, line in visible:
+            stripped = line.rstrip(" ")
+            spaces = len(line) - len(stripped)
+            if spaces not in (0, 2):
+                bad_trailing.append(n)
+        if bad_trailing:
+            errors.append(
+                f"{rel}: nonstandard trailing spaces at lines "
+                + ", ".join(str(n) for n in bad_trailing[:10])
+            )
 
         if any("\t" in line for _, line in visible):
             nums = [str(n) for n, line in visible if "\t" in line][:10]
