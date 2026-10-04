@@ -115,12 +115,31 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
     # Candidate runs first and sees only observation + bounded context.
     try:
         candidate = dict(adapter.invoke(deepcopy(observation), deepcopy(context)))
-        validate_candidate_result(candidate)
     except Exception as exc:
         return {
             "test_vector_id": world["test_vector_id"],
             "status": "INFRASTRUCTURE_ERROR",
             "error": {"type": type(exc).__name__, "message": str(exc)},
+        }
+
+    try:
+        validate_candidate_result(candidate)
+    except Exception as exc:
+        rejected_trace = {
+            "schema": "R01-C02-REJECTED-CANDIDATE-TRACE-0.1",
+            "test_vector_id": world["test_vector_id"],
+            "adapter": dict(adapter.ADAPTER_MANIFEST),
+            "observation": observation,
+            "candidate": candidate,
+            "candidate_contract_error": {"type": type(exc).__name__, "message": str(exc)},
+        }
+        return {
+            "test_vector_id": world["test_vector_id"],
+            "status": "FAIL",
+            "reason": "CANDIDATE_CONTRACT_REJECTED",
+            "candidate_trace_sha256_before_oracle": canonical_trace_sha256(rejected_trace),
+            "candidate": candidate,
+            "candidate_contract_error": {"type": type(exc).__name__, "message": str(exc)},
         }
 
     candidate_only_trace = {
