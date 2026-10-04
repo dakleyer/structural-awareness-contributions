@@ -1,6 +1,6 @@
 # R01 — Computability, bounded execution and oracle work plan
 
-Research work plan v0.3 · 4 October 2026 · Limited C02 implementation draft; real-technology execution pending
+Research work plan v0.4 · 5 October 2026 · Limited C02 implementation and operation broker; real-technology execution pending
 
 [Start at R01](./README.md#bot-start-here) · [Mathematical feasibility](./MATHEMATICAL_FEASIBILITY.md) · [Technology integration tasks](./extensions/hugging-face/REMAINING_TASKS.txt)
 
@@ -37,6 +37,10 @@ The first neutral instrument now lives at [`oracle/`](./oracle/README.md). It im
 - separate candidate-operational and evaluator/oracle accounting;
 - four author-constructed Stage-0 vectors: positive, connector boundary, rejection and tied optima;
 - an instrumentation-only self-test adapter and `verify.py`;
+- Nelson-inspired deterministic replay, case-order reversal, malformed-record isolation and explicit source-attributed baseline reuse;
+- R01-specific identifier-permutation and no-reference `INCONCLUSIVE` controls;
+- a bounded §2.6 [tool broker](./oracle/TOOL_BROKER_CONTRACT.md) separating public participant responses from private effect/adjudication traces;
+- batch and interactive technology-adapter modes plus a [real-technology registration template](./oracle/REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json);
 - CI invocation through `.github/workflows/r01-audit-v2.yml`.
 
 This is **not C02 completion**. The current second reference path is a separate implementation by the same maintainer, not independent external validation. The UC-4 bridge is `R01-BRIDGE-DRAFT` until Nelson reviews/corrects the mapping, and the exact upstream UC-4 schema package has not been vendored into this repository. C11/T03 remain blocked.
