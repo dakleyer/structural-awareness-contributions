@@ -73,11 +73,38 @@ class R01ToolBroker:
             }
 
         target_id = request.get("target_id")
-        entry = self._catalog_entry(operation, target_id)
+        before_cost, before_clock = self.cost, self.clock
+        try:
+            entry = self._catalog_entry(operation, target_id)
+        except ToolBrokerError as exc:
+            self.cost += charge
+            self.clock += duration
+            event = {
+                "request_index": self.request_counter,
+                "operation": operation,
+                "request": deepcopy(dict(request)),
+                "status": "REQUEST_REJECTED",
+                "reason": str(exc),
+                "charge": charge,
+                "duration": duration,
+                "cost_before": before_cost,
+                "cost_after": self.cost,
+                "clock_before": before_clock,
+                "clock_after": self.clock,
+            }
+            self.public_trace.append(deepcopy(event))
+            self._private_trace.append(deepcopy(event))
+            return {
+                "status": "REQUEST_REJECTED",
+                "operation": operation,
+                "reason": str(exc),
+                "remaining_budget": self.budget - self.cost,
+                "remaining_time": self.deadline - self.clock,
+            }
+
         response = deepcopy(entry.get("response", spec.get("response", {})))
         private = deepcopy(entry.get("private", {}))
 
-        before_cost, before_clock = self.cost, self.clock
         self.cost += charge
         self.clock += duration
 
