@@ -1,0 +1,28 @@
+name: R01 version-aware audit
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "research/ecosystem-awareness/baseline/reductions/00G-R01/**"
+      - "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md"
+      - ".github/workflows/r01-audit-v2.yml"
+  pull_request:
+    paths:
+      - "research/ecosystem-awareness/baseline/reductions/00G-R01/**"
+      - "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md"
+      - ".github/workflows/r01-audit-v2.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reproduce R01 substantive checks and report documentary drift
+        run: python research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/verify_audit_v2.py --verify
