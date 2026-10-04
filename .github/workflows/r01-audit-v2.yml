@@ -27,6 +27,9 @@ jobs:
       - name: Reproduce R01 substantive checks and enforce documentary drift baseline
         run: python research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/verify_audit_v2.py --verify
 
+      - name: Check current R01 canonical navigation and anchors
+        run: python research/ecosystem-awareness/baseline/reductions/00G-R01/tools/check_canonical_navigation.py
+
       - name: Prove unrecorded documentary drift fails the gate
         shell: bash
         run: |
