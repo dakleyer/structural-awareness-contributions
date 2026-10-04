@@ -1,6 +1,6 @@
 # 00G-R01 oracle — status and pending verification
 
-**4 October 2026 · In progress: still incomplete for 00G-R01. Limited design work has started.** This document records the candidate adaptation of the C3 instrument to the reduced scenario and the reuse-first direction for a neutral R01 oracle/harness. It does not declare the complete C-V evaluator implemented or validated, and no real technology has been executed through it.
+**5 October 2026 · In progress: still incomplete for 00G-R01. A limited neutral C02 implementation now exists.** This document records the candidate adaptation of the C3 instrument to the reduced scenario and the reuse-first direction for a neutral R01 oracle/harness. The new implementation is an instrumentation/testbed slice, not the complete C-V evaluator or an externally validated oracle, and no real technology has been executed through it.
 
 [Back to 00G-R01, reduced scenario](../../reductions/00G-R01/README.md) · [Complete document, §3.7](../../reductions/00G-R01/Escenario-creatividad-validacion.md#37-relación-con-el-trabajo-previo-y-sus-recorridos) · [Foundation and proof of the reduction under review](../../reductions/00G-R01/README.md#fundamento-y-prueba-de-la-reducción).
 
@@ -12,7 +12,7 @@ The isolated reproduction on 2 October verified the fingerprints and obtained 10
 
 ## Limits before further design
 
-This status file is deliberately **not** upgraded into a claim of an implemented oracle. The current work is architecture preparation only.
+This status file is deliberately **not** upgraded into a claim of a complete or validated oracle. The current work now includes a limited executable instrumentation layer under the R01 reduction, while the full evaluator, UC-4 source/schema admission and real-technology campaign remain open.
 
 - The frozen C3 v0.4 package remains untouched.
 - The 102/102 controls are controls of the retained C3 instrument in its own domain, not R01 technology runs.
@@ -82,6 +82,30 @@ Before any real-technology campaign, the neutral harness should cover: a legitim
 
 The detailed design and accounting rules are maintained in [R01 — Computability, bounded execution and oracle work plan](../../reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN.md). This file remains the status/compatibility record for the existing partial oracle rather than a second implementation plan.
 
+
+## Limited C02 implementation now available
+
+The implementation is maintained at:
+
+https://github.com/dakleyer/structural-awareness-contributions/tree/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle
+
+It currently contains:
+
+- Nelson UC-4 / Theme #13 interoperability profile and source-attributed baseline;
+- R01-private UC-4 sidecar schema;
+- batch and interactive adapter contracts;
+- Canonical Trace v1 reuse;
+- two separately coded exact bounded reference paths;
+- oracle-blind candidate-trace sealing;
+- positive, boundary, rejection, tied-optimum, no-reference and cost/deadline controls;
+- deterministic replay, case-order reversal and identifier-permutation checks;
+- malformed-record isolation and permanent-abstention negative control;
+- technology-neutral §2.6 tool broker with public versus private environment traces;
+- real-technology registration template.
+
+Nelson's published Stage-0 patterns are documented in [NELSON_BASELINE_IMPORT](../../reductions/00G-R01/oracle/NELSON_BASELINE_IMPORT.md). The pending source-contributor questions are in [NELSON_REVIEW_REQUEST](../../reductions/00G-R01/oracle/NELSON_REVIEW_REQUEST.md). A direct GitHub comment attempt could not be delivered because the configured integration lacks write access to the FG-TIDA repository; this is not a contributor response.
+
+The tool-broker and evaluator controls are wired into the repository's R01 CI workflow. This status record does **not** claim that a CI run has been independently inspected or that the instrument is externally validated.
 
 ## What is under verification and what remains
 
