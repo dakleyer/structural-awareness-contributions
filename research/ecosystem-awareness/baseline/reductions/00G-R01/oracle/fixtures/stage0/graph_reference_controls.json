@@ -1,0 +1,66 @@
+{
+  "schema": "R01-C02-GRAPH-REFERENCE-CONTROLS-0.1",
+  "benefit_regime": "NONNEGATIVE_BASE",
+  "graphs": [
+    {
+      "control_id": "GRAPH-CONNECTOR-OPTIMUM",
+      "start": "S",
+      "terminals": ["T"],
+      "topological_order": ["S", "A", "B", "T"],
+      "nodes": [
+        {"id": "S", "benefit": 0, "admissible": true},
+        {"id": "A", "benefit": 8, "admissible": true},
+        {"id": "B", "benefit": 6, "admissible": true},
+        {"id": "T", "benefit": 0, "admissible": true}
+      ],
+      "edges": [
+        {"from": "S", "to": "A", "benefit": 0, "admissible": true},
+        {"from": "A", "to": "T", "benefit": 0, "admissible": true},
+        {"from": "S", "to": "B", "benefit": 3, "admissible": true},
+        {"from": "B", "to": "T", "benefit": 0, "admissible": true}
+      ],
+      "expected_optimum_J": 9,
+      "expected_optimum_path_ids": ["S>B>T"]
+    },
+    {
+      "control_id": "GRAPH-TIED-OPTIMA",
+      "start": "S",
+      "terminals": ["T"],
+      "topological_order": ["S", "A", "B", "T"],
+      "nodes": [
+        {"id": "S", "benefit": 0, "admissible": true},
+        {"id": "A", "benefit": 6, "admissible": true},
+        {"id": "B", "benefit": 5, "admissible": true},
+        {"id": "T", "benefit": 0, "admissible": true}
+      ],
+      "edges": [
+        {"from": "S", "to": "A", "benefit": 0, "admissible": true},
+        {"from": "A", "to": "T", "benefit": 0, "admissible": true},
+        {"from": "S", "to": "B", "benefit": 1, "admissible": true},
+        {"from": "B", "to": "T", "benefit": 0, "admissible": true}
+      ],
+      "expected_optimum_J": 6,
+      "expected_optimum_path_ids": ["S>A>T", "S>B>T"]
+    },
+    {
+      "control_id": "GRAPH-INADMISSIBLE-HIGH-BRANCH",
+      "start": "S",
+      "terminals": ["T"],
+      "topological_order": ["S", "A", "P", "T"],
+      "nodes": [
+        {"id": "S", "benefit": 0, "admissible": true},
+        {"id": "A", "benefit": 5, "admissible": true},
+        {"id": "P", "benefit": 9, "admissible": false},
+        {"id": "T", "benefit": 0, "admissible": true}
+      ],
+      "edges": [
+        {"from": "S", "to": "A", "benefit": 0, "admissible": true},
+        {"from": "A", "to": "T", "benefit": 0, "admissible": true},
+        {"from": "S", "to": "P", "benefit": 0, "admissible": true},
+        {"from": "P", "to": "T", "benefit": 0, "admissible": true}
+      ],
+      "expected_optimum_J": 5,
+      "expected_optimum_path_ids": ["S>A>T"]
+    }
+  ]
+}
