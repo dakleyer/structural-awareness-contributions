@@ -23,7 +23,8 @@ from reference_secondary import evaluate_world_secondary
 
 FORBIDDEN_PARTICIPANT_KEYS = {
     "admissible", "private_label", "optimum", "optimum_J", "expected_outcome",
-    "reference_truth", "world_truth"
+    "reference_truth", "world_truth", "reference_status", "executed_violation",
+    "J_effect", "oracle_side_environment_trace", "post_run_evaluation"
 }
 
 
@@ -199,6 +200,7 @@ def run_case(
 
     try:
         validate_candidate_result(candidate_raw)
+        assert_oracle_blind(candidate_raw)
     except Exception as exc:
         rejected_trace = {
             "schema": "R01-C02-REJECTED-CANDIDATE-TRACE-0.2",
