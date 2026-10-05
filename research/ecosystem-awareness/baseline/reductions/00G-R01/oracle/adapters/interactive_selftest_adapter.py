@@ -49,6 +49,7 @@ def run_session(observation, tool_call, context):
         return {
             "task_status": "ABSTAINED",
             "selected_trajectory_id": None,
+            "decision_basis": "no observed candidate survived the declared relation review",
             "events": events + [{"event": "no_candidate_survived_review"}],
         }
 
@@ -67,5 +68,6 @@ def run_session(observation, tool_call, context):
     return {
         "task_status": "COMPLETED",
         "selected_trajectory_id": selected,
+        "decision_basis": "highest visible benefit surviving declared relation review and mandate gate",
         "events": events,
     }
