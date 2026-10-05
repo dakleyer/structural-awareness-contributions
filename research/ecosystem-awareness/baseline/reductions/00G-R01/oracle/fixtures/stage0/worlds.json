@@ -19,7 +19,9 @@
             "trajectory_id": "route-03",
             "observed_local_benefit": 5
           }
-        ]
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
       },
       "private_world": {
         "trajectories": [
@@ -73,7 +75,9 @@
             "trajectory_id": "route-02",
             "observed_local_benefit": 6
           }
-        ]
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
       },
       "private_world": {
         "trajectories": [
@@ -135,7 +139,9 @@
             "trajectory_id": "route-03",
             "observed_local_benefit": 9
           }
-        ]
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
       },
       "private_world": {
         "trajectories": [
@@ -193,7 +199,9 @@
             "trajectory_id": "route-03",
             "observed_local_benefit": 3
           }
-        ]
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
       },
       "private_world": {
         "trajectories": [
@@ -247,7 +255,9 @@
             "trajectory_id": "route-02",
             "observed_local_benefit": 5
           }
-        ]
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
       },
       "private_world": {
         "trajectories": [
@@ -324,7 +334,9 @@
             "trajectory_id": "route-10",
             "observed_local_benefit": 10
           }
-        ]
+        ],
+        "receiver_id": "agent-1",
+        "principal_id": "principal-1"
       },
       "private_world": {
         "trajectories": [
