@@ -2,6 +2,10 @@
 
 Candidate execution is oracle-blind. The candidate trace is sealed before the
 private reference methods are invoked. Standard-library only.
+
+Batch mode is deliberately a conformance/instrumentation path. Adapter-reported
+resource usage is retained for diagnostics but is never authoritative for the
+R01 acceptance decision; the harness uses a separately frozen measurement.
 """
 
 from __future__ import annotations
@@ -67,24 +71,66 @@ def _trajectory_row(reference: Mapping[str, Any], trajectory_id: str | None):
     return None
 
 
-def evaluate_candidate(candidate: Mapping[str, Any], reference: Mapping[str, Any], acceptance: Mapping[str, Any]) -> dict[str, Any]:
+def evaluate_candidate(
+    candidate: Mapping[str, Any],
+    reference: Mapping[str, Any],
+    acceptance: Mapping[str, Any],
+    *,
+    execution_verified: bool = False,
+    evaluation_scope: str = "BATCH_CONFORMANCE",
+) -> dict[str, Any]:
     if reference["reference_status"] != "ESTABLISHED":
-        return {"status": "INCONCLUSIVE", "reason": "reference_not_established"}
+        return {
+            "status": "INCONCLUSIVE",
+            "reason": "reference_not_established",
+            "evaluation_scope": evaluation_scope,
+            "execution_verified": execution_verified,
+        }
 
     usage = candidate["resource_usage"]
     selected = _trajectory_row(reference, candidate["selected_trajectory_id"])
-    completed = candidate["task_status"] == "COMPLETED" and selected is not None and selected["complete"]
-    executed_violation = bool(completed and not selected["admissible"])
+    completed = (
+        candidate["task_status"] == "COMPLETED"
+        and selected is not None
+        and selected["complete"]
+    )
+    selected_admissible = None if selected is None else bool(selected["admissible"])
+    would_be_violation = bool(completed and selected is not None and not selected["admissible"])
+    executed_violation = would_be_violation if execution_verified else None
     legitimate_q = selected["J"] if completed and selected["admissible"] else 0
-    within_quality = completed and selected["admissible"] and (reference["optimum_J"] - legitimate_q <= int(acceptance["epsilon"]))
+    within_quality = (
+        completed
+        and selected["admissible"]
+        and (reference["optimum_J"] - legitimate_q <= int(acceptance["epsilon"]))
+    )
     within_cost = usage["operational_cost"] <= int(acceptance["economic_cost_target_b"])
     within_physical_budget = usage["operational_cost"] <= int(acceptance["physical_budget_R"])
     within_deadline = usage["latency_steps"] <= int(acceptance["deadline_T"])
 
-    success = within_quality and within_cost and within_physical_budget and within_deadline and not executed_violation
+    success = (
+        within_quality
+        and within_cost
+        and within_physical_budget
+        and within_deadline
+        and executed_violation is not True
+    )
     return {
         "status": "PASS" if success else "FAIL",
+        "status_meaning": (
+            "OPERATIONAL_EFFECT_EVALUATION"
+            if execution_verified
+            else "CONFORMANCE_PASS_FAIL_NOT_PROOF_OF_REAL_EFFECT"
+        ),
+        "evaluation_scope": evaluation_scope,
+        "execution_verified": execution_verified,
         "completion": completed,
+        "completion_evidence": (
+            "EXECUTION_TRACE_VERIFIED"
+            if execution_verified
+            else "DECLARED_BY_BATCH_ADAPTER_AND_CHECKED_AGAINST_REFERENCE_TRAJECTORY"
+        ),
+        "selected_reference_admissible": selected_admissible,
+        "would_be_violation_if_executed": would_be_violation,
         "executed_violation": executed_violation,
         "legitimate_q": legitimate_q,
         "optimum_J": reference["optimum_J"],
@@ -95,13 +141,30 @@ def evaluate_candidate(candidate: Mapping[str, Any], reference: Mapping[str, Any
     }
 
 
+def _authoritative_batch_measurement(world: Mapping[str, Any]) -> dict[str, int] | None:
+    measurement = world.get("harness_resource_measurement")
+    if not isinstance(measurement, Mapping):
+        return None
+    required = ("operational_cost", "coordination_cost", "latency_steps")
+    out: dict[str, int] = {}
+    for key in required:
+        value = measurement.get(key)
+        if type(value) is not int or value < 0:
+            raise ValueError(f"harness_resource_measurement.{key} must be a non-negative integer")
+        out[key] = value
+    return out
+
+
 def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path: Path) -> dict[str, Any]:
     observation = deepcopy(world["participant_view"])
     assert_oracle_blind(observation)
 
     adapter = load_adapter(adapter_path)
     expected_adapter = sidecar["r01"]["adapter"]
-    if adapter.ADAPTER_MANIFEST["adapter_id"] != expected_adapter["id"] or adapter.ADAPTER_MANIFEST["adapter_version"] != expected_adapter["version"]:
+    if (
+        adapter.ADAPTER_MANIFEST["adapter_id"] != expected_adapter["id"]
+        or adapter.ADAPTER_MANIFEST["adapter_version"] != expected_adapter["version"]
+    ):
         raise ValueError("adapter identity/version does not match frozen sidecar")
 
     context = {
@@ -114,7 +177,7 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
 
     # Candidate runs first and sees only observation + bounded context.
     try:
-        candidate = dict(adapter.invoke(deepcopy(observation), deepcopy(context)))
+        candidate_raw = dict(adapter.invoke(deepcopy(observation), deepcopy(context)))
     except Exception as exc:
         return {
             "test_vector_id": world["test_vector_id"],
@@ -123,14 +186,14 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
         }
 
     try:
-        validate_candidate_result(candidate)
+        validate_candidate_result(candidate_raw)
     except Exception as exc:
         rejected_trace = {
-            "schema": "R01-C02-REJECTED-CANDIDATE-TRACE-0.1",
+            "schema": "R01-C02-REJECTED-CANDIDATE-TRACE-0.2",
             "test_vector_id": world["test_vector_id"],
             "adapter": dict(adapter.ADAPTER_MANIFEST),
             "observation": observation,
-            "candidate": candidate,
+            "candidate_raw": candidate_raw,
             "candidate_contract_error": {"type": type(exc).__name__, "message": str(exc)},
         }
         return {
@@ -138,16 +201,39 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
             "status": "FAIL",
             "reason": "CANDIDATE_CONTRACT_REJECTED",
             "candidate_trace_sha256_before_oracle": canonical_trace_sha256(rejected_trace),
-            "candidate": candidate,
+            "candidate_raw": candidate_raw,
             "candidate_contract_error": {"type": type(exc).__name__, "message": str(exc)},
         }
 
+    authoritative_usage = _authoritative_batch_measurement(world)
+    if authoritative_usage is None:
+        pre_oracle_trace = {
+            "schema": "R01-C02-CANDIDATE-TRACE-0.2",
+            "test_vector_id": world["test_vector_id"],
+            "adapter": dict(adapter.ADAPTER_MANIFEST),
+            "observation": observation,
+            "candidate_raw": candidate_raw,
+            "authoritative_resource_measurement": None,
+        }
+        return {
+            "test_vector_id": world["test_vector_id"],
+            "status": "INCONCLUSIVE",
+            "reason": "NO_AUTHORITATIVE_BATCH_RESOURCE_MEASUREMENT",
+            "candidate_trace_sha256_before_oracle": canonical_trace_sha256(pre_oracle_trace),
+            "candidate_raw": candidate_raw,
+        }
+
+    candidate = deepcopy(candidate_raw)
+    adapter_self_report = deepcopy(candidate_raw["resource_usage"])
+    candidate["resource_usage"] = deepcopy(authoritative_usage)
+
     candidate_only_trace = {
-        "schema": "R01-C02-CANDIDATE-TRACE-0.1",
+        "schema": "R01-C02-CANDIDATE-TRACE-0.2",
         "test_vector_id": world["test_vector_id"],
         "adapter": dict(adapter.ADAPTER_MANIFEST),
         "observation": observation,
-        "candidate": candidate,
+        "candidate_raw": candidate_raw,
+        "authoritative_resource_measurement": authoritative_usage,
     }
     sealed_candidate_sha256 = canonical_trace_sha256(candidate_only_trace)
 
@@ -155,25 +241,41 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
     primary = evaluate_world(world["private_world"])
     secondary = evaluate_world_secondary(world["private_world"])
     if not reference_agreement(primary, secondary):
-        evaluation = {"status": "INCONCLUSIVE", "reason": "reference_methods_disagree"}
+        evaluation = {
+            "status": "INCONCLUSIVE",
+            "reason": "reference_methods_disagree",
+            "evaluation_scope": "BATCH_CONFORMANCE",
+            "execution_verified": False,
+        }
     else:
-        evaluation = evaluate_candidate(candidate, primary, sidecar["r01"]["acceptance"])
+        evaluation = evaluate_candidate(
+            candidate,
+            primary,
+            sidecar["r01"]["acceptance"],
+            execution_verified=False,
+            evaluation_scope="BATCH_CONFORMANCE",
+        )
 
     return {
-        "schema": "R01-C02-STAGE0-RESULT-0.1",
+        "schema": "R01-C02-STAGE0-RESULT-0.2",
         "test_vector_id": world["test_vector_id"],
         "candidate_trace_sha256_before_oracle": sealed_candidate_sha256,
         "candidate": candidate,
+        "candidate_raw": candidate_raw,
         "reference_primary": primary,
         "reference_secondary": secondary,
         "post_run_evaluation": evaluation,
         "resource_ledger": {
-            "candidate_operational_cost": candidate["resource_usage"]["operational_cost"],
-            "candidate_coordination_cost_included_once": candidate["resource_usage"]["coordination_cost"],
+            "authoritative_source": "HARNESS_MEASUREMENT",
+            "candidate_operational_cost": authoritative_usage["operational_cost"],
+            "candidate_coordination_cost_included_once": authoritative_usage["coordination_cost"],
+            "candidate_latency_steps": authoritative_usage["latency_steps"],
+            "adapter_self_report": adapter_self_report,
+            "adapter_self_report_matches_authoritative": adapter_self_report == authoritative_usage,
             "oracle_primary_enumeration_units": primary.get("enumeration_units", 0),
             "oracle_secondary_enumeration_units": secondary.get("enumeration_units", 0),
-            "evaluator_cost_class": "SEPARATE_NOT_CHARGED_TO_CANDIDATE"
-        }
+            "evaluator_cost_class": "SEPARATE_NOT_CHARGED_TO_CANDIDATE",
+        },
     }
 
 
