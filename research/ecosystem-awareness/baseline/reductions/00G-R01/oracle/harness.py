@@ -211,6 +211,30 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
             "candidate_contract_error": {"type": type(exc).__name__, "message": str(exc)},
         }
 
+    visible_ids = {
+        item["trajectory_id"]
+        for item in observation.get("candidates", [])
+        if isinstance(item, Mapping) and isinstance(item.get("trajectory_id"), str)
+    }
+    selected_id = candidate_raw.get("selected_trajectory_id")
+    if selected_id is not None and selected_id not in visible_ids:
+        rejected_trace = {
+            "schema": "R01-C02-REJECTED-CANDIDATE-TRACE-0.3",
+            "test_vector_id": world["test_vector_id"],
+            "adapter": dict(adapter.ADAPTER_MANIFEST),
+            "observation": observation,
+            "candidate_raw": candidate_raw,
+            "reason": "CANDIDATE_SELECTION_OUTSIDE_VISIBLE_SET",
+        }
+        return {
+            "test_vector_id": world["test_vector_id"],
+            "status": "FAIL",
+            "reason": "CANDIDATE_SELECTION_OUTSIDE_VISIBLE_SET",
+            "candidate_trace_sha256_before_oracle": canonical_trace_sha256(rejected_trace),
+            "candidate_raw": candidate_raw,
+            "visible_trajectory_ids": sorted(visible_ids),
+        }
+
     authoritative_usage = _authoritative_batch_measurement(world)
     if authoritative_usage is None:
         pre_oracle_trace = {
