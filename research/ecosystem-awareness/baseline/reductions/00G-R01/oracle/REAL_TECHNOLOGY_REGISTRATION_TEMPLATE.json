@@ -36,7 +36,8 @@
     "required_capabilities": [],
     "declared_permissions": [],
     "native_to_r01_mapping_hash": null,
-    "raw_native_trace_retained": null
+    "raw_native_trace_retained": null,
+    "in_process_python_loader_allowed_for_real_t03": false
   },
   "execution": {
     "physical_budget_R": null,
@@ -65,7 +66,8 @@
     ],
     "recorder_hash": null,
     "oracle_blindness_selftest": "PENDING",
-    "deterministic_replay_required_when_applicable": true
+    "deterministic_replay_required_when_applicable": true,
+    "post_run_oracle_disclosure_policy": null
   },
   "accounting": {
     "candidate_operational_cost_separate": true,
@@ -86,5 +88,21 @@
     "preparer": "PENDING",
     "source_contributor": "PENDING",
     "independent_oracle_method": "PENDING"
+  },
+  "candidate_isolation": {
+    "mode": null,
+    "allowed_modes": [
+      "REMOTE_API_NO_ORACLE_STORAGE_ACCESS",
+      "CONTAINER_NO_ORACLE_MOUNT",
+      "EXTERNAL_SANDBOX_NO_ORACLE_FS"
+    ],
+    "oracle_filesystem_visible": null,
+    "expected_outcomes_visible": null,
+    "private_world_visible": null,
+    "oracle_endpoint_exposed": null,
+    "working_directory_isolated": null,
+    "environment_secrets_exposed": [],
+    "declared_network_destinations": [],
+    "isolation_evidence": null
   }
 }
