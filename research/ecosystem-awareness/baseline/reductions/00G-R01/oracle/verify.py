@@ -64,7 +64,7 @@ REQUIRED_FREEZE_PATHS = {
 
 
 def verify_stage0_freeze():
-    manifest_path = HERE / "STAGE0_FREEZE_v0.5.json"
+    manifest_path = HERE / "STAGE0_FREEZE_v0.6.json"
     result = load_and_verify(HERE, manifest_path)
     manifest = load_json(manifest_path)
     frozen_paths = {entry["path"] for entry in manifest["files"]}
@@ -604,7 +604,7 @@ def main() -> None:
         raise AssertionError("interactive deterministic replay hash changed")
 
     summary = {
-        "instrument": "R01-C02-neutral-harness-0.5",
+        "instrument": "R01-C02-neutral-harness-0.6",
         "result": "SELFTEST_PASS",
         "vectors": [
             {"test_vector_id": vector_id, "status": first[vector_id]["status"]}
