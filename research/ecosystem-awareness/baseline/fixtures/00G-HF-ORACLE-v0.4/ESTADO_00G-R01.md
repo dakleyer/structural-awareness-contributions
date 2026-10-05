@@ -105,21 +105,21 @@ It currently contains:
 
 Nelson's published Stage-0 patterns are documented in [NELSON_BASELINE_IMPORT](../../reductions/00G-R01/oracle/NELSON_BASELINE_IMPORT.md). The pending source-contributor questions are in [NELSON_REVIEW_REQUEST](../../reductions/00G-R01/oracle/NELSON_REVIEW_REQUEST.md). A direct GitHub comment attempt could not be delivered because the configured integration lacks write access to the FG-TIDA repository; this is not a contributor response.
 
-The tool-broker and evaluator controls are wired into the repository's R01 CI workflow. This status record does **not** claim that a CI run has been independently inspected or that the instrument is externally validated.
+The tool-broker and evaluator controls are wired into the repository's R01 CI workflow. The frozen v0.4 instrumentation path completed successfully in [GitHub Actions run 37260588073](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37260588073), including a 22-artifact freeze-manifest check. This status record does **not** claim independent validation or a real-technology result.
 
 ## What is under verification and what remains
 
 | Element | Status for 00G-R01 | Evidence needed to close it |
 |---|---|---|
 | Projection to C3 | Pending definition and verification | Explicit correspondence preserving identity, authority, applicability, scope, commitment, attempt, effect and timing, with positive and negative controls. If it loses a material distinction, a versioned successor is required. |
-| Admissible optimum and quality | C-V evaluator pending implementation | Frozen map, admissibility rules and exact optimum check according to scenario §2.17. |
-| Search, validation and coordination costs | Pending | Cost ledger including discards, reuse, maintenance and time; consistency checks before comparing configurations. |
+| Admissible optimum and quality | Bounded Stage-0 reference implemented; complete C-V evaluator still pending | The current oracle has two exact bounded reference paths for the registered synthetic Stage-0 bundle. Full scenario coverage, additional profile semantics and independent external review remain open. |
+| Search, validation and coordination costs | Partial instrumentation implemented; full R01 ledger still pending | The Stage-0 harness/tool broker records bounded operational cost, timing and separate evaluator/oracle accounting, including negative controls against candidate self-report. Full discards, reuse, maintenance, coordination and campaign-scale accounting remain open. |
 | Social mediation and membership in 00G | Application of the reduction under review | Realizable trace and correspondence with §3.5, preservation of the relational predicate and positive control. A C3 PASS does not decide membership in 00G. |
-| Experimental integration | Pending | Identified implementation, fixed resources and budgets, recorder, traces and prior registration of the trial. |
+| Experimental integration | Instrumentation self-test only; real-technology integration pending | The frozen v0.4 synthetic Stage-0 path has executed successfully. A real implementation still requires fixed resources and budgets, registered adapter/profile, recorder/native evidence, traces and prior campaign registration. |
 | Collective and statistical evaluation | Pending | Predefined metrics, size and analysis. `population_result=NOT_ASSESSED` is not collective approval. |
 | EA comparison | Candidate; no result of its own | Implementation and controlled comparison under common criteria, allowing favorable, adverse or indeterminate results. |
 
-The obligations above remain open; no experimental verifications are claimed to be in execution. Documentary closure of links does not constitute closure of these tests.
+The obligations above remain open. The recorded Stage-0 instrumentation self-test is not a real-technology experiment, human calibration or comparative EA campaign. Documentary closure of links and synthetic instrument checks do not constitute closure of those tests.
 
 ## Relation to the reduction proof
 
