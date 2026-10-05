@@ -131,7 +131,8 @@
         "adapter",
         "oracle",
         "acceptance",
-        "resource_ledger"
+        "resource_ledger",
+        "gate_policy"
       ],
       "properties": {
         "scenario_version": {
@@ -261,6 +262,23 @@
               "const": true
             },
             "coordination_counted_once": {
+              "const": true
+            }
+          }
+        },
+        "gate_policy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "path",
+            "must_match_acceptance_copy"
+          ],
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "must_match_acceptance_copy": {
               "const": true
             }
           }
