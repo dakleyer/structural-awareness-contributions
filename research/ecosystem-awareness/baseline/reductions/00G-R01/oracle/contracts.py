@@ -327,6 +327,21 @@ def validate_tool_profile(profile: Mapping[str, Any]) -> None:
             raise ContractError(
                 "state-machine-enabled standard profile must explicitly be operationally admissible"
             )
+        scope = state_machine.get("mandate_scope")
+        if scope != "SESSION_SINGLE_TASK":
+            raise ContractError(
+                "current strict Stage-0 state machine supports only SESSION_SINGLE_TASK mandate scope"
+            )
+        if state_machine.get("require_mandate_before_commit") is True:
+            required_mandate_id = state_machine.get("required_mandate_id")
+            if not isinstance(required_mandate_id, str) or not required_mandate_id:
+                raise ContractError(
+                    "strict profile requiring mandate must name required_mandate_id"
+                )
+            if required_mandate_id not in catalogs.get("mandates", {}):
+                raise ContractError(
+                    "required_mandate_id must exist in the mandates catalog"
+                )
 
 
 def validate_interactive_case(
