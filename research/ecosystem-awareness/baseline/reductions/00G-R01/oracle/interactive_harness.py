@@ -69,6 +69,8 @@ def run_interactive_case(
     manifest = adapter.ADAPTER_MANIFEST
     if manifest["adapter_id"] != expected["id"] or manifest["adapter_version"] != expected["version"]:
         raise ValueError("interactive adapter identity/version does not match sidecar")
+    if set(manifest["required_capabilities"]) != set(expected["required_capabilities"]):
+        raise ValueError("interactive adapter capabilities do not match frozen sidecar")
 
     available_operations = set(tool_profile["operations"])
     required = set(manifest["required_capabilities"])
