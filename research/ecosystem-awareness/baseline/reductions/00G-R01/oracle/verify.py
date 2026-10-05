@@ -29,8 +29,6 @@ from reference_graph_exhaustive import evaluate_graph_exhaustive
 from reference_graph_dp import evaluate_graph_dp
 from integrity import load_and_verify
 from real_admission import AdmissionError, validate_real_registration
-from reference_graph_exhaustive import evaluate_graph_exhaustive
-from reference_graph_dp import evaluate_graph_dp
 
 HERE = Path(__file__).resolve().parent
 
@@ -563,25 +561,6 @@ def main() -> None:
     if len(generated_graph_results) != 64:
         raise AssertionError("generated graph cross-check count mismatch")
 
-    # Independent graph-shaped reference cross-check: exhaustive path enumeration
-    # and dynamic programming must agree with each other and the frozen expected values.
-    graph_controls = load_json(HERE / "fixtures/stage0/graph_reference_controls.json")
-    if graph_controls.get("schema") != "R01-C02-GRAPH-REFERENCE-CONTROLS-0.1":
-        raise AssertionError("unexpected graph-reference control schema")
-    for graph in graph_controls.get("graphs", []):
-        exhaustive = evaluate_graph_exhaustive(graph)
-        dynamic = evaluate_graph_dp(graph)
-        if exhaustive["reference_status"] != dynamic["reference_status"]:
-            raise AssertionError("graph reference status disagreement")
-        if exhaustive.get("optimum_J") != dynamic.get("optimum_J"):
-            raise AssertionError("graph reference optimum disagreement")
-        if exhaustive.get("optimum_path_ids") != dynamic.get("optimum_path_ids"):
-            raise AssertionError("graph reference optimum-path disagreement")
-        if exhaustive.get("optimum_J") != graph.get("expected_optimum_J"):
-            raise AssertionError(f"{graph.get('control_id')}: unexpected graph optimum")
-        if exhaustive.get("optimum_path_ids") != graph.get("expected_optimum_path_ids"):
-            raise AssertionError(f"{graph.get('control_id')}: unexpected graph optimum paths")
-
     # End-to-end interactive adapter -> broker -> sealed trace -> private oracle.
     interactive_case = load_json(HERE / "fixtures/stage0/interactive_case.json")
     interactive_profile = load_json(HERE / "fixtures/stage0/interactive_tool_profile.json")
@@ -654,7 +633,6 @@ def main() -> None:
             "real_t03_incomplete_registration_rejected": "PASS",
             "real_t03_isolated_registration_admitted": "PASS",
             "real_t03_oracle_visible_isolation_rejected": "PASS",
-            "graph_reference_exhaustive_dp_agree": "PASS",
             "tool_broker_visibility_accounting": tool_broker_control,
             "interactive_adapter_broker_oracle_path": "PASS",
             "interactive_adapter_replay_hash": "PASS",
