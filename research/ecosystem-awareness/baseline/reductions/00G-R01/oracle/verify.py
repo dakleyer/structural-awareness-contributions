@@ -15,6 +15,15 @@ from pathlib import Path
 from harness import assert_oracle_blind, load_json, run_case
 from tool_broker import R01ToolBroker
 from interactive_harness import run_interactive_case
+from contracts import (
+    ContractError,
+    validate_interactive_case,
+    validate_sidecar,
+    validate_tool_profile,
+    validate_world_bundle,
+)
+from reference import evaluate_world
+from reference_secondary import evaluate_world_secondary
 
 HERE = Path(__file__).resolve().parent
 
@@ -62,6 +71,8 @@ def adapter_sidecar(sidecar, *, adapter_id, adapter_path):
 def run_tool_broker_controls():
     profile = load_json(HERE / "fixtures/stage0/tool_profile.json")
     strict_profile = load_json(HERE / "fixtures/stage0/interactive_tool_profile.json")
+    validate_tool_profile(profile)
+    validate_tool_profile(strict_profile)
 
     if profile.get("state_machine", {}).get("enabled") is not False:
         raise AssertionError("low-level behavioural control must explicitly disable the state machine")
@@ -139,6 +150,10 @@ def main() -> None:
     expected = load_json(HERE / "fixtures/stage0/expected_selftest.json")["expected_status"]
     worlds = list(bundle["worlds"])
     normal_adapter = HERE / sidecar["r01"]["adapter"]["path"]
+
+    # Semantic admission precedes any candidate execution.
+    validate_sidecar(sidecar)
+    validate_world_bundle(bundle, sidecar=sidecar, expected_status=expected)
 
     first = run_bundle(worlds, sidecar, normal_adapter)
 
@@ -258,9 +273,39 @@ def main() -> None:
 
     tool_broker_control = run_tool_broker_controls()
 
+    # Reference methods must reject ambiguous JSON-like typing rather than coerce
+    # strings such as "false" into truthy values.
+    bad_reference_world = {
+        "trajectories": [
+            {
+                "trajectory_id": "bad",
+                "steps": [{"benefit": 1, "admissible": "false"}],
+            }
+        ]
+    }
+    for checker in (evaluate_world, evaluate_world_secondary):
+        try:
+            checker(bad_reference_world)
+        except ValueError:
+            pass
+        else:
+            raise AssertionError("reference method accepted non-boolean admissibility")
+
+    # Admission must also reject a negative-benefit world in the NONNEGATIVE_BASE bundle.
+    bad_bundle = deepcopy(bundle)
+    bad_bundle["worlds"][0]["private_world"]["trajectories"][0]["steps"][0]["benefit"] = -1
+    try:
+        validate_world_bundle(bad_bundle, sidecar=sidecar, expected_status=expected)
+    except ContractError:
+        pass
+    else:
+        raise AssertionError("NONNEGATIVE_BASE admission accepted a negative benefit")
+
     # End-to-end interactive adapter -> broker -> sealed trace -> private oracle.
     interactive_case = load_json(HERE / "fixtures/stage0/interactive_case.json")
     interactive_profile = load_json(HERE / "fixtures/stage0/interactive_tool_profile.json")
+    validate_tool_profile(interactive_profile)
+    validate_interactive_case(interactive_case, tool_profile=interactive_profile)
     interactive_sidecar = adapter_sidecar(
         sidecar,
         adapter_id="R01-SELFTEST-INTERACTIVE-REVIEW",
@@ -316,6 +361,9 @@ def main() -> None:
             "always_abstain_not_success": "PASS",
             "batch_resource_self_report_non_authoritative": "PASS",
             "batch_missing_measurement_inconclusive": "PASS",
+            "semantic_admission_contracts": "PASS",
+            "reference_rejects_ambiguous_types": "PASS",
+            "nonnegative_base_rejects_negative_benefit": "PASS",
             "strict_state_machine_blocks_uncommitted_execution": "PASS",
             "tool_broker_visibility_accounting": tool_broker_control,
             "interactive_adapter_broker_oracle_path": "PASS",
