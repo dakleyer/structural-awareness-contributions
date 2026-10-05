@@ -9,16 +9,16 @@
     "M16: uncovered independent review only",
     "M17: remaining source-clause fidelity",
     "P08: version-aware documentary integrity",
-    "C02 -> C11 -> T03 after technology contract"
+    "C02: limited Stage-0 instrumentation implementation in progress; C11/T03 remain gated"
   ],
   "task_count": 55,
   "counts": {
     "DONE": 4,
     "OWN_SCOPE_COMPLETE": 3,
     "CONSOLIDATED": 37,
-    "IN_PROGRESS": 3,
+    "IN_PROGRESS": 4,
     "OPEN": 1,
-    "DEFERRED": 3,
+    "DEFERRED": 2,
     "OUT_OF_CURRENT_SCOPE": 4
   },
   "original_task_IDs_preserved": 49,
@@ -414,7 +414,7 @@
       "reason": "Retained as a scoped obligation of the owning delivery, not a separate recurring queue or a scientific completion claim."
     },
     "C02": {
-      "status": "DEFERRED",
+      "status": "IN_PROGRESS",
       "priority": "P0",
       "owner": "UNASSIGNED",
       "criterion_in_master": "After the technology contract: private oracle, public view, ledger, clock, messages and effects; second method and neutral controls. Integrates C01–C10/C13/M05/P04 without repeating historical rehearsals.",
@@ -426,10 +426,13 @@
       ],
       "historical_criterion": "Fix schemas, encoding, operations, costs, observations and horizon/termination; declare any narrower submodel.",
       "queue_review_utc": "2026-10-04T14:04:11.946875+00:00",
-      "queue_class": "LATER_STAGE",
+      "queue_class": "ACTIVE",
       "dependencies_for_final_closure": [
         "M13"
-      ]
+      ],
+      "current_implementation": "Limited neutral C02 Stage-0 instrumentation exists under ../oracle/: UC-4-aligned sidecar, batch/interactive adapters, bounded tool broker, dual exact reference paths, semantic admission, frozen gate policy, trace/isolation contracts and negative/metamorphic controls.",
+      "current_evidence": "Latest successful repository run: instrument R01-C02-neutral-harness-0.7 under immutable STAGE0_FREEZE_v0.9.json; 30 frozen dependencies verified before execution. This is instrumentation evidence only, not a real-technology result.",
+      "remaining_scope": "C02 is not closed. Nelson source-contributor review and exact UC-4 schema validation remain pending; independent external second-method review and fuller R01 profile semantics remain open. C11 registration and T03 real-technology execution remain gated."
     },
     "C03": {
       "status": "CONSOLIDATED",
