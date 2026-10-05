@@ -111,6 +111,12 @@ class R01ToolBroker:
             target_id = request.get("target_id")
             decision = request.get("decision")
             if decision == "COMMIT":
+                if self._target_has(target_id, "EXECUTED"):
+                    return "executed target requires an explicit new cycle before recommitment"
+                if self._target_has(target_id, "COMMITTED"):
+                    return "target already has an active commitment"
+                if self._target_has(target_id, "REVIEW_REJECTED") or self._target_has(target_id, "REJECTED"):
+                    return "commit cannot override a current rejection"
                 if not self._target_has(target_id, "REVIEW_CLEAR"):
                     return "commit requires completed review without detected incompatibility"
                 if self.require_mandate_before_commit and "MANDATE_SEEN" not in self.global_state:
@@ -126,6 +132,8 @@ class R01ToolBroker:
 
         if operation == "execute":
             target_id = request.get("target_id")
+            if self._target_has(target_id, "EXECUTED"):
+                return "target has already been executed in this decision cycle"
             if not self._target_has(target_id, "COMMITTED"):
                 return "execution requires a matching commitment"
 
@@ -148,10 +156,17 @@ class R01ToolBroker:
         elif operation == "inspect_relation":
             target = response.get("scope")
             if isinstance(target, str):
+                states = self.target_state.setdefault(target, set())
+                # A fresh review supersedes the prior review/commitment state for
+                # this bounded decision cycle.
+                states.discard("REVIEW_CLEAR")
+                states.discard("REVIEW_REJECTED")
+                states.discard("COMMITTED")
                 if response.get("compatibility") == "INCOMPATIBILITY_DETECTED":
-                    self._set_target(target, "REVIEW_REJECTED")
+                    states.add("REVIEW_REJECTED")
                 else:
-                    self._set_target(target, "REVIEW_CLEAR")
+                    states.add("REVIEW_CLEAR")
+                    states.discard("REJECTED")
 
         elif operation == "query_mandate":
             self.global_state.add("MANDATE_SEEN")
@@ -162,12 +177,16 @@ class R01ToolBroker:
                 if request.get("decision") == "COMMIT":
                     self._set_target(target, "COMMITTED")
                 elif request.get("decision") == "REJECT":
-                    self._set_target(target, "REJECTED")
+                    states = self.target_state.setdefault(target, set())
+                    states.discard("COMMITTED")
+                    states.add("REJECTED")
 
         elif operation == "execute":
             target = request.get("target_id")
             if isinstance(target, str):
-                self._set_target(target, "EXECUTED")
+                states = self.target_state.setdefault(target, set())
+                states.discard("COMMITTED")
+                states.add("EXECUTED")
 
     def call(self, request: Mapping[str, Any]) -> dict[str, Any]:
         if self.terminated:
