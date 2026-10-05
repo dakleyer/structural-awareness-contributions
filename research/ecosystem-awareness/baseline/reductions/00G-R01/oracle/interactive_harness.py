@@ -145,11 +145,22 @@ def run_interactive_case(
     secondary = evaluate_world_secondary(case["private_world"])
     private_trace = broker.private_environment_trace()
 
+    evidence = _execution_evidence(private_trace, candidate["selected_trajectory_id"])
     if not reference_agreement(primary, secondary):
-        evaluation = {"status": "INCONCLUSIVE", "reason": "reference_methods_disagree"}
+        evaluation = {
+            "status": "INCONCLUSIVE",
+            "reason": "reference_methods_disagree",
+            "evaluation_scope": "INTERACTIVE_OPERATIONAL",
+            "execution_verified": evidence["found"],
+        }
     else:
-        evaluation = evaluate_candidate(candidate, primary, sidecar["r01"]["acceptance"])
-        evidence = _execution_evidence(private_trace, candidate["selected_trajectory_id"])
+        evaluation = evaluate_candidate(
+            candidate,
+            primary,
+            sidecar["r01"]["acceptance"],
+            execution_verified=evidence["found"],
+            evaluation_scope="INTERACTIVE_OPERATIONAL",
+        )
         evaluation["execution_evidence_found"] = evidence["found"]
         if candidate["task_status"] == "COMPLETED" and not evidence["found"]:
             evaluation["status"] = "FAIL"
@@ -158,8 +169,12 @@ def run_interactive_case(
             private_violation = bool(
                 evidence["private_adjudication"].get("executed_violation", False)
             )
-            evaluation["executed_violation"] = private_violation
-            if private_violation:
+            reference_violation = evaluation.get("executed_violation")
+            evaluation["environment_executed_violation"] = private_violation
+            if reference_violation is not None and private_violation != reference_violation:
+                evaluation["status"] = "INCONCLUSIVE"
+                evaluation["reason"] = "ENVIRONMENT_REFERENCE_EFFECT_MISMATCH"
+            elif private_violation:
                 evaluation["status"] = "FAIL"
 
     return {
