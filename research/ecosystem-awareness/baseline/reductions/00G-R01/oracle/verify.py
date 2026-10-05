@@ -63,6 +63,7 @@ REQUIRED_FREEZE_PATHS = {
     "adapters/misreport_cost_selftest_adapter.py",
     "adapters/interactive_selftest_adapter.py",
     "adapters/hidden_selection_selftest_adapter.py",
+    "adapters/reserved_truth_selftest_adapter.py",
 }
 
 
@@ -455,6 +456,24 @@ def main() -> None:
     ):
         raise AssertionError("hidden-route selection was not rejected before oracle evaluation")
 
+    # Candidate output may not use oracle-reserved truth namespaces.
+    reserved_sidecar = adapter_sidecar(
+        sidecar,
+        adapter_id="R01-SELFTEST-RESERVED-TRUTH",
+        adapter_path="adapters/reserved_truth_selftest_adapter.py",
+    )
+    reserved_truth = run_case(
+        worlds[0],
+        reserved_sidecar,
+        HERE / reserved_sidecar["r01"]["adapter"]["path"],
+        gate_policy=gate_policy,
+    )
+    if (
+        reserved_truth.get("status") != "FAIL"
+        or reserved_truth.get("reason") != "CANDIDATE_CONTRACT_REJECTED"
+    ):
+        raise AssertionError("candidate oracle-reserved truth namespace was not rejected")
+
     # Anti-shortcut: permanent abstention on a case with a valid attainable result is not success.
     abstain_sidecar = adapter_sidecar(
         sidecar,
@@ -752,6 +771,7 @@ def main() -> None:
             "malformed_candidate_explicit_rejection": "PASS",
             "malformed_record_isolation": "PASS",
             "hidden_batch_selection_rejected_pre_oracle": "PASS",
+            "candidate_oracle_reserved_namespace_rejected": "PASS",
             "always_abstain_not_success": "PASS",
             "batch_resource_self_report_non_authoritative": "PASS",
             "batch_missing_measurement_inconclusive": "PASS",
