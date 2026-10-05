@@ -31,7 +31,7 @@ The sole active queue is discovered by `R01_BOT_WORKPLAN_START` / `R01_BOT_WORKP
 | C02 instrument | [Neutral R01 oracle / harness](./oracle/README.md) aligned first to Nelson Trasatti's UC #4 testbed: UC4 sidecar, batch/interactive adapters, dual exact reference paths, Stage-0 controls and bounded §2.6 tool broker. | Latest Stage-0 instrument `0.7` passes under immutable freeze `v0.9`; [current evidence record](./oracle/SELFTEST_RECORD_v0.9.md). C02 remains incomplete. No real technology or EA differential executed. Nelson baseline is reused with attribution; source-contributor review and exact UC4 schema validation remain pending. |
 | Later | C11 registered campaign → T03 real adapter and technology campaign. | Remain gated on C02 verification/admission; no real technology execution. |
 
-The 55 historical IDs and criteria remain traceable: four active tasks, three later deliveries, four historical completions, three own-scope deliveries complete, 37 consolidated obligations and four tasks outside the current scope. Consolidation is not scientific validation. [Full old queues](./feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json) · [updated master prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md).
+The 55 historical IDs and criteria remain traceable: five active tasks, two later deliveries, four historical completions, three own-scope deliveries complete, 37 consolidated obligations and four tasks outside the current scope. Consolidation is not scientific validation. [Full old queues](./feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json) · [updated master prompt](./STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md).
 
 The earlier proof records remain accessible through [previous work](./feasibility/previous-work/README.md). The [partial exercises and received Annex T](./feasibility/partial-experiments/received/2026-10-04/README.md) are preparation annexes, not canonical proofs or executed technology validation. Historical hash discrepancies remain P08; do not overwrite their manifests.
 
@@ -177,12 +177,12 @@ The current reading edition separates the base and case documents; the earlier c
 
 ## Trilemma feasibility — work in progress
 
-The study is gathered in its own R01 subfolder. Scenarios, reductions, results and exports remain intact. Previous queue contents are preserved in [the snapshot](./feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json); the only current order is in [WORKPLAN.md](./feasibility/WORKPLAN.md): four active tasks and three subsequent deliverables.
+The study is gathered in its own R01 subfolder. Scenarios, reductions, results and exports remain intact. Previous queue contents are preserved in [the snapshot](./feasibility/previous-work/QUEUE_SNAPSHOT_2026-10-04.json); the only current order is in [WORKPLAN.md](./feasibility/WORKPLAN.md): five active tasks and two subsequent deliverables.
 
 | Work | Entry point | Status and next step |
 |---|---|---|
 | Feasibility document | [Full study](./feasibility/README.md) · [Base mathematical proof](./feasibility/PURE_MATHEMATICAL_TRILEMMA.md) | Trilemma by families and viable regions; not impossibility in every configuration. F derivation available, independent review and bridge to R01 pending. |
-| Pending work | [Current plan and 55 tasks](./feasibility/WORKPLAN.md) · [Status register](./feasibility/WORKPLAN_STATUS.json) | Core and self-review published; continue with human escalation and whispering within the technology protocol. Oracle and harness after the contract. |
+| Pending work | [Current plan and 55 tasks](./feasibility/WORKPLAN.md) · [Status register](./feasibility/WORKPLAN_STATUS.json) | Core and self-review published; continue M13 while C02 has limited Stage-0 instrumentation in progress. C11/T03 remain gated. |
 | Partial experiments | [Separate inventory](./feasibility/partial-experiments/README.md) | Scripts, fixtures, outputs and additional material preserved. Bounded diagnostics; they are not the independent oracle/harness. |
 | Drafts and preservation | [Previous work](./feasibility/previous-work/README.md) · [Relocation map](./feasibility/RELOCATION_MANIFEST.json) · [Verification](./feasibility/PRESERVATION_CHECKS.json) | History preserved; previous results are not replaced and the corpus is not deleted. |
 | Continuation | [Full prompt](./feasibility/CONTINUATION_PROMPT.md) | Keep work within this subfolder and tracking at the end of the READMEs. |
@@ -222,13 +222,13 @@ The study is gathered in its own R01 subfolder. Scenarios, reductions, results a
 | Three existing extensions | [Consistency review](./feasibility/EXTENSION_CONSISTENCY_REVIEW.md); scopes preserved and inherited hash discrepancies recorded, without executing checkers. |
 | Ordered technology extension | [Protocol](./feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md): first isomorphic core, then additional mechanisms and acceptance/persistence proofs. |
 | Human escalation and whispering | [First mathematical fiche](./feasibility/HUMAN_ESCALATION_WHISPERING.md): bound with shared information, sufficient-alert frontier and controls; conditioned cost and deadline. |
-| Pending validation | M16 OPEN, M17 IN_PROGRESS; P08 retains the documentary discrepancies; integration, harness and campaign unexecuted. |
-| Status | Four current tasks and three subsequent deliverables; all 55 IDs and historical criteria remain traceable. No new scientific validation is declared. |
+| Pending validation | M16 OPEN, M17 IN_PROGRESS; P08 retains the documentary discrepancies; C02 instrumentation is active while real-technology integration and campaign remain unexecuted. |
+| Status | Five current tasks and two subsequent deliverables; all 55 IDs and historical criteria remain traceable. No new scientific validation is declared. |
 
 
 | Virtual technology traversals — update at the end | Status |
 |---|---|
 | [Human escalation and whispering](./feasibility/HUMAN_ESCALATION_WHISPERING.md#virtual-traversals) | General explanation incorporated before the traversals; R1/R2/R3 examined under contract with positive controls. R2 recovers scenarios and R3-A preserves a residual region. |
-| Continuation | Same queue: four active workstreams and three later stages. The first virtual delivery is complete; subsequent candidates reuse its structure. |
+| Continuation | Same queue: five active workstreams and two later stages. The first virtual delivery is complete; subsequent candidates reuse its structure. |
 | Scope | Author's mathematical/virtual review; no real technology, campaign or new scientific execution. Previous rehearsals remain noncanonical partial annexes. |
 | Document language | Current technology-extension profile, protocol, workplan and continuation are in English. Historical originals and prior README content retain their provenance and content. |
