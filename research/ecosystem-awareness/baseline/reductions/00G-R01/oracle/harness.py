@@ -157,7 +157,13 @@ def _authoritative_batch_measurement(world: Mapping[str, Any]) -> dict[str, int]
     return out
 
 
-def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path: Path) -> dict[str, Any]:
+def run_case(
+    world: Mapping[str, Any],
+    sidecar: Mapping[str, Any],
+    adapter_path: Path,
+    *,
+    gate_policy: Mapping[str, Any],
+) -> dict[str, Any]:
     observation = deepcopy(world["participant_view"])
     assert_oracle_blind(observation)
 
@@ -177,7 +183,7 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
         "experiment_id": sidecar["uc4_link"]["experiment_id"],
         "test_vector_id": world["test_vector_id"],
         "assessment_time": sidecar["assessment_time"],
-        "acceptance": deepcopy(sidecar["r01"]["acceptance"]),
+        "acceptance": deepcopy(gate_policy["acceptance"]),
         "required_capabilities": deepcopy(expected_adapter["required_capabilities"]),
     }
 
@@ -281,7 +287,7 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
         evaluation = evaluate_candidate(
             candidate,
             primary,
-            sidecar["r01"]["acceptance"],
+            gate_policy["acceptance"],
             execution_verified=False,
             evaluation_scope="BATCH_CONFORMANCE",
         )
