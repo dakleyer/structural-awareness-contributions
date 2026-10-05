@@ -52,6 +52,8 @@ def load_adapter(path: Path):
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     validate_manifest(module.ADAPTER_MANIFEST)
+    if module.ADAPTER_MANIFEST.get("interaction_mode") != "BATCH_RESULT":
+        raise ValueError("batch harness requires adapter interaction_mode=BATCH_RESULT")
     if not callable(getattr(module, "invoke", None)):
         raise ValueError("adapter must expose invoke(observation, context)")
     return module
@@ -166,6 +168,10 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
         or adapter.ADAPTER_MANIFEST["adapter_version"] != expected_adapter["version"]
     ):
         raise ValueError("adapter identity/version does not match frozen sidecar")
+    if set(adapter.ADAPTER_MANIFEST["required_capabilities"]) != set(
+        expected_adapter["required_capabilities"]
+    ):
+        raise ValueError("adapter capabilities do not match frozen sidecar")
 
     context = {
         "experiment_id": sidecar["uc4_link"]["experiment_id"],
