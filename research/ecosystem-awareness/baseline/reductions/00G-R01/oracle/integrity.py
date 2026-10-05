@@ -22,8 +22,14 @@ def git_blob_sha1(data: bytes) -> str:
     return hashlib.sha1(header + data).hexdigest()
 
 
+SUPPORTED_FREEZE_SCHEMAS = {
+    "R01-C02-FREEZE-MANIFEST-0.4",
+    "R01-C02-FREEZE-MANIFEST-0.5",
+}
+
+
 def verify_freeze_manifest(root: Path, manifest: Mapping[str, Any]) -> dict[str, Any]:
-    if manifest.get("schema") != "R01-C02-FREEZE-MANIFEST-0.4":
+    if manifest.get("schema") not in SUPPORTED_FREEZE_SCHEMAS:
         raise IntegrityError("unsupported freeze manifest schema")
     files = manifest.get("files")
     if not isinstance(files, list) or not files:
