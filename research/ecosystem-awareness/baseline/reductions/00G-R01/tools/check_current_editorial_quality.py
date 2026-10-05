@@ -9,7 +9,7 @@ from __future__ import annotations
 import re
 import sys
 
-from check_current_route_preservation import CURRENT_ROUTE_FILES, R01
+from check_current_route_preservation import CURRENT_ROUTE_FILES, EXTERNAL_ROUTE_FILES, REPO, R01
 
 HEADING = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 TABLE = re.compile(r"^\s*\|.*\|\s*$")
@@ -66,8 +66,10 @@ def main() -> int:
     files_checked = 0
     tables_checked = 0
 
-    for rel in CURRENT_ROUTE_FILES:
-        path = R01 / rel
+    targets = [(rel, R01 / rel) for rel in CURRENT_ROUTE_FILES]
+    targets.extend((repo_rel, REPO / repo_rel) for repo_rel in EXTERNAL_ROUTE_FILES)
+
+    for rel, path in targets:
         text = path.read_text(encoding="utf-8")
         lines = text.splitlines()
         visible = outside_fences(lines)
