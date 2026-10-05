@@ -26,7 +26,7 @@
     "world_bundle": {
       "path": "fixtures/stage0/worlds.json",
       "integrity_policy": "GIT_BLOB_SHA_MANIFEST",
-      "integrity_manifest": "STAGE0_FREEZE_v0.7.json"
+      "integrity_manifest": "STAGE0_FREEZE_v0.8.json"
     },
     "participant_view_policy": {
       "forbidden_keys": [
