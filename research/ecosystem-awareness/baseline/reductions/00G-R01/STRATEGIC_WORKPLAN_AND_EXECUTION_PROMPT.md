@@ -14,13 +14,13 @@ The mathematical core v0.2, its self-review and repairs are published. The consi
 The first technology is **human escalation and whispering**, within the [chapter of technologies to study](./feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study). Continue its existing fiche and then the other candidates. Begin with isomorphic correspondence E1–E7, then examine additional mechanisms one by one, followed by composition, recovered scenarios and a residual region when justified. Retain complete cost and deadline and the same acceptance thresholds.
 
 <!-- R01_BOT_WORKPLAN_START version="0.4" scope="STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md" role="queue-pointer" -->
-Read [WORKPLAN.md](./feasibility/WORKPLAN.md) and [CONTINUATION_PROMPT.md](./feasibility/CONTINUATION_PROMPT.md). Work on current technology M13; M16/M17/P08 have delimited remaining obligations. C02 oracle/harness, C11 registration and T03 adaptation/campaign are subsequent stages. Sources, counterexamples, consistency, visuals and preservation are reviewed within each deliverable. Do not reactivate historical queues or partial trials as though they were pending canonical work.
+Read [WORKPLAN.md](./feasibility/WORKPLAN.md) and [CONTINUATION_PROMPT.md](./feasibility/CONTINUATION_PROMPT.md). Work on current technology M13; M16/M17/P08 have delimited remaining obligations. C02 now has limited Stage-0 oracle/harness instrumentation in progress; C11 registration and T03 adaptation/campaign remain subsequent gated stages. Sources, counterexamples, consistency, visuals and preservation are reviewed within each deliverable. Do not reactivate historical queues or partial trials as though they were pending canonical work.
 <!-- R01_BOT_WORKPLAN_END -->
 
 <a id="registro-de-la-depuración"></a>
 
 ## Cleanup record
 
-55 IDs preserved: 4 active tasks, 3 subsequent deliverables, 4 historical closures, 3 deliverables complete within their own scope, 37 consolidated obligations and 4 items outside the current scope. No new independent validation or implementation is declared. The prospective selector is not a requirement for this technology review.
+55 IDs preserved: 5 active tasks, 2 subsequent deliverables, 4 historical closures, 3 deliverables complete within their own scope, 37 consolidated obligations and 4 items outside the current scope. No new independent validation or real-technology implementation is declared. The prospective selector is not a requirement for this technology review.
 
 The four specialized plans and all their previous instructions are intact in the linked snapshot. Mathematical bodies, contracts and results retain their evidence. Previous trials and received materials remain as [partial annexes](./feasibility/partial-experiments/README.md).
