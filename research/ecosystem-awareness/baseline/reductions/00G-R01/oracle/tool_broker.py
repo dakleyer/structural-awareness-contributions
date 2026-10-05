@@ -2,6 +2,12 @@
 
 The broker exposes only manifest-declared participant responses. Private effect
 and adjudication data are retained for the later oracle/evaluator.
+
+A profile may enable the bounded R01 decision-state guard. When enabled, the
+broker enforces the minimal causal order used by the current interactive
+instrumentation profile: observation -> review -> commitment -> execution.
+Profiles that deliberately disable this guard are behavioural/instrumentation
+variants and must declare that fact explicitly.
 """
 
 from __future__ import annotations
@@ -23,6 +29,13 @@ class R01ToolBroker:
         self.clock = 0
         self.request_counter = 0
         self.terminated = False
+        sm = profile.get("state_machine", {})
+        self.state_machine_enabled = bool(sm.get("enabled", True))
+        self.require_mandate_before_commit = bool(
+            sm.get("require_mandate_before_commit", False)
+        )
+        self.target_state: dict[str, set[str]] = {}
+        self.global_state: set[str] = set()
         self.public_trace: list[dict[str, Any]] = []
         self._private_trace: list[dict[str, Any]] = []
 
@@ -36,6 +49,125 @@ class R01ToolBroker:
         if target_id not in catalog:
             raise ToolBrokerError(f"unknown {catalog_name} target: {target_id}")
         return catalog[target_id]
+
+    def _target_has(self, target_id: str | None, state: str) -> bool:
+        return target_id is not None and state in self.target_state.get(target_id, set())
+
+    def _set_target(self, target_id: str, state: str) -> None:
+        self.target_state.setdefault(target_id, set()).add(state)
+
+    def _charged_rejection(
+        self,
+        *,
+        operation: str,
+        request: Mapping[str, Any],
+        status: str,
+        reason: str,
+        charge: int,
+        duration: int,
+        before_cost: int,
+        before_clock: int,
+    ) -> dict[str, Any]:
+        self.cost += charge
+        self.clock += duration
+        event = {
+            "request_index": self.request_counter,
+            "operation": operation,
+            "request": deepcopy(dict(request)),
+            "status": status,
+            "reason": reason,
+            "charge": charge,
+            "duration": duration,
+            "cost_before": before_cost,
+            "cost_after": self.cost,
+            "clock_before": before_clock,
+            "clock_after": self.clock,
+        }
+        self.public_trace.append(deepcopy(event))
+        self._private_trace.append(deepcopy(event))
+        return {
+            "status": status,
+            "operation": operation,
+            "reason": reason,
+            "remaining_budget": self.budget - self.cost,
+            "remaining_time": self.deadline - self.clock,
+        }
+
+    def _state_rejection_reason(
+        self,
+        operation: str,
+        request: Mapping[str, Any],
+        response: Mapping[str, Any],
+    ) -> str | None:
+        if not self.state_machine_enabled:
+            return None
+
+        if operation == "inspect_relation":
+            scope = response.get("scope")
+            if not isinstance(scope, str) or not self._target_has(scope, "OBSERVED"):
+                return "relation review requires an observed candidate"
+
+        if operation == "decide":
+            target_id = request.get("target_id")
+            decision = request.get("decision")
+            if decision == "COMMIT":
+                if not self._target_has(target_id, "REVIEW_CLEAR"):
+                    return "commit requires completed review without detected incompatibility"
+                if self.require_mandate_before_commit and "MANDATE_SEEN" not in self.global_state:
+                    return "commit requires the declared mandate check"
+            elif decision == "REJECT":
+                if not (
+                    self._target_has(target_id, "REVIEW_REJECTED")
+                    or self._target_has(target_id, "REVIEW_CLEAR")
+                ):
+                    return "rejection requires a completed review"
+            else:
+                return "unsupported decision value"
+
+        if operation == "execute":
+            target_id = request.get("target_id")
+            if not self._target_has(target_id, "COMMITTED"):
+                return "execution requires a matching commitment"
+
+        return None
+
+    def _apply_public_state(
+        self,
+        operation: str,
+        request: Mapping[str, Any],
+        response: Mapping[str, Any],
+    ) -> None:
+        if not self.state_machine_enabled:
+            return
+
+        if operation == "explore":
+            target = response.get("candidate_id")
+            if isinstance(target, str):
+                self._set_target(target, "OBSERVED")
+
+        elif operation == "inspect_relation":
+            target = response.get("scope")
+            if isinstance(target, str):
+                if response.get("compatibility") == "INCOMPATIBILITY_DETECTED":
+                    self._set_target(target, "REVIEW_REJECTED")
+                else:
+                    self._set_target(target, "REVIEW_CLEAR")
+
+        elif operation == "query_mandate":
+            self.global_state.add("MANDATE_SEEN")
+
+        elif operation == "decide":
+            target = request.get("target_id")
+            if isinstance(target, str):
+                if request.get("decision") == "COMMIT":
+                    self._set_target(target, "COMMITTED")
+                elif request.get("decision") == "REJECT":
+                    self._set_target(target, "REJECTED")
+
+        elif operation == "execute":
+            target = request.get("target_id")
+            if isinstance(target, str):
+                self._set_target(target, "EXECUTED")
 
     def call(self, request: Mapping[str, Any]) -> dict[str, Any]:
         if self.terminated:
@@ -52,6 +184,8 @@ class R01ToolBroker:
         duration = int(spec["duration"])
         self.request_counter += 1
 
+        # Hard resource barrier is checked before any semantic/catalog lookup:
+        # it reveals no hidden datum and does not consume the operation charge.
         if self.cost + charge > self.budget or self.clock + duration > self.deadline:
             event = {
                 "request_index": self.request_counter,
@@ -77,33 +211,32 @@ class R01ToolBroker:
         try:
             entry = self._catalog_entry(operation, target_id)
         except ToolBrokerError as exc:
-            self.cost += charge
-            self.clock += duration
-            event = {
-                "request_index": self.request_counter,
-                "operation": operation,
-                "request": deepcopy(dict(request)),
-                "status": "REQUEST_REJECTED",
-                "reason": str(exc),
-                "charge": charge,
-                "duration": duration,
-                "cost_before": before_cost,
-                "cost_after": self.cost,
-                "clock_before": before_clock,
-                "clock_after": self.clock,
-            }
-            self.public_trace.append(deepcopy(event))
-            self._private_trace.append(deepcopy(event))
-            return {
-                "status": "REQUEST_REJECTED",
-                "operation": operation,
-                "reason": str(exc),
-                "remaining_budget": self.budget - self.cost,
-                "remaining_time": self.deadline - self.clock,
-            }
+            return self._charged_rejection(
+                operation=operation,
+                request=request,
+                status="REQUEST_REJECTED",
+                reason=str(exc),
+                charge=charge,
+                duration=duration,
+                before_cost=before_cost,
+                before_clock=before_clock,
+            )
 
         response = deepcopy(entry.get("response", spec.get("response", {})))
         private = deepcopy(entry.get("private", {}))
+
+        state_reason = self._state_rejection_reason(operation, request, response)
+        if state_reason is not None:
+            return self._charged_rejection(
+                operation=operation,
+                request=request,
+                status="STATE_REJECTED",
+                reason=state_reason,
+                charge=charge,
+                duration=duration,
+                before_cost=before_cost,
+                before_clock=before_clock,
+            )
 
         self.cost += charge
         self.clock += duration
@@ -122,6 +255,8 @@ class R01ToolBroker:
         elif operation == "stop":
             self.terminated = True
             response = {**response, "terminated": True}
+
+        self._apply_public_state(operation, request, response)
 
         public_event = {
             "request_index": self.request_counter,
@@ -150,6 +285,7 @@ class R01ToolBroker:
             "clock": self.clock,
             "request_count": self.request_counter,
             "terminated": self.terminated,
+            "state_machine_enabled": self.state_machine_enabled,
             "events": deepcopy(self.public_trace),
         }
 
