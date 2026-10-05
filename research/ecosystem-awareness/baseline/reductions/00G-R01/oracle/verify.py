@@ -68,7 +68,7 @@ REQUIRED_FREEZE_PATHS = {
 
 
 def verify_stage0_freeze():
-    manifest_path = HERE / "STAGE0_FREEZE_v0.8.json"
+    manifest_path = HERE / "STAGE0_FREEZE_v0.9.json"
     result = load_and_verify(HERE, manifest_path)
     manifest = load_json(manifest_path)
     frozen_paths = {entry["path"] for entry in manifest["files"]}
