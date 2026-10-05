@@ -186,6 +186,9 @@ def validate_world_bundle(
         if not isinstance(participant, Mapping):
             raise ContractError(f"{vector_id}: participant_view is required")
         _walk_public(participant, ("participant_view",))
+        for identity_key in ("task_id", "receiver_id", "principal_id"):
+            if not isinstance(participant.get(identity_key), str) or not participant[identity_key]:
+                raise ContractError(f"{vector_id}: participant_view.{identity_key} is required")
 
         candidates = participant.get("candidates")
         if not isinstance(candidates, list) or not candidates:
@@ -329,6 +332,9 @@ def validate_interactive_case(
     if not isinstance(participant, Mapping) or not isinstance(private_world, Mapping):
         raise ContractError("interactive case requires participant_view and private_world")
     _walk_public(participant, ("interactive_participant_view",))
+    for identity_key in ("task_id", "receiver_id", "principal_id"):
+        if not isinstance(participant.get(identity_key), str) or not participant[identity_key]:
+            raise ContractError(f"interactive participant_view.{identity_key} is required")
 
     handles = participant.get("candidate_handles")
     if not isinstance(handles, list) or not handles:
