@@ -55,15 +55,16 @@ Until Nelson's schema package itself is vendored or directly consumed, this dire
 
 ## Executed self-test evidence
 
-The current instrument was executed in the repository CI and its complete workflow concluded **success**:
+The frozen v0.4 instrument was executed in the repository CI and its complete workflow concluded **success**:
 
-https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37240286062
+https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37260588073
 
-Evidence:
-- [Stage-0 self-test record v0.3](./SELFTEST_RECORD_v0.3.md)
-- [Machine-readable result v0.3](./selftest_result_v0.3.json)
+Current recorded evidence:
+- [Stage-0 self-test record v0.4](./SELFTEST_RECORD_v0.4.md)
+- [Machine-readable result v0.4](./selftest_result_v0.4.json)
+- [Frozen executable-set manifest v0.4](./STAGE0_FREEZE_v0.4.json)
 
-This is evidence about the **instrumentation path**, not about any real technology.
+The earlier [v0.3 record](./SELFTEST_RECORD_v0.3.md) remains preserved as historical instrumentation evidence. None of these records is evidence about a real technology.
 
 ## What is executable now
 
@@ -82,7 +83,11 @@ The current Stage-0 self-test is intentionally small and now reuses several cont
 11. preserve case results under case-order reversal;
 12. preserve substantive results when neutral trajectory identifiers are permuted;
 13. return `INCONCLUSIVE` when a bounded reference cannot be established rather than manufacturing truth;
-14. expose the §2.6 operation surface through a bounded [tool broker](./TOOL_BROKER_CONTRACT.md), keeping participant-visible and private environment traces separate.
+14. expose the §2.6 operation surface through a bounded [tool broker](./TOOL_BROKER_CONTRACT.md), keeping participant-visible and private environment traces separate;
+15. verify the exact Git blob identities of the 22 frozen Stage-0 executable/schema/fixture artifacts before execution;
+16. reject malformed or semantically inconsistent Stage-0 inputs before candidate execution;
+17. treat harness-observed batch resources as authoritative rather than trusting candidate self-report; and
+18. enforce the declared review/commitment execution state in the strict interactive profile.
 
 Run locally from this directory:
 
@@ -103,6 +108,9 @@ oracle/
   TOOL_BROKER_CONTRACT.md
   TECHNOLOGY_ADAPTER_GUIDE.md
   REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json
+  SELFTEST_RECORD_v0.4.md
+  selftest_result_v0.4.json
+  STAGE0_FREEZE_v0.4.json
   SELFTEST_RECORD_v0.3.md
   selftest_result_v0.3.json
   adapter_api.py
