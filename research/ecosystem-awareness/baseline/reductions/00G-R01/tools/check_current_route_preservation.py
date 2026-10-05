@@ -45,7 +45,7 @@ BASELINE_BY_FILE = {
 
 EXTERNAL_ROUTE_FILES = {
     "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md":
-        "a8902d7c215557a665d0bc697c334a6d9fc52afb",
+        "13203ac89c59b8c19dd89bf50f4c5ee2aeddb8fd",
 }
 
 CURRENT_ROUTE_FILES = (
