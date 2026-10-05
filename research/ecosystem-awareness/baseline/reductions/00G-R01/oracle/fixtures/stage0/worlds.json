@@ -427,5 +427,6 @@
         "source": "HARNESS_FIXED_FOR_STAGE0_BATCH_INSTRUMENTATION"
       }
     }
-  ]
+  ],
+  "benefit_regime": "NONNEGATIVE_BASE"
 }
