@@ -399,6 +399,25 @@ def validate_interactive_case(
         if not isinstance(participant.get(identity_key), str) or not participant[identity_key]:
             raise ContractError(f"interactive participant_view.{identity_key} is required")
 
+    mandate_id = participant.get("mandate_id")
+    state_machine = tool_profile.get("state_machine", {})
+    if state_machine.get("require_mandate_before_commit") is True:
+        required_mandate_id = state_machine.get("required_mandate_id")
+        if mandate_id != required_mandate_id:
+            raise ContractError(
+                "interactive case mandate_id must match strict profile required_mandate_id"
+            )
+        mandate_entry = tool_profile.get("catalogs", {}).get("mandates", {}).get(
+            required_mandate_id
+        )
+        if not isinstance(mandate_entry, Mapping):
+            raise ContractError("required interactive mandate entry is missing")
+        mandate_response = mandate_entry.get("response", {})
+        if mandate_response.get("principal") != participant.get("principal_id"):
+            raise ContractError("required mandate principal does not match participant principal")
+        if mandate_response.get("recipient") != participant.get("receiver_id"):
+            raise ContractError("required mandate recipient does not match participant receiver")
+
     handles = participant.get("candidate_handles")
     if not isinstance(handles, list) or not handles:
         raise ContractError("interactive case requires candidate_handles")
