@@ -165,5 +165,10 @@
         }
       }
     }
+  },
+  "state_machine": {
+    "enabled": false,
+    "purpose": "LOW_LEVEL_BROKER_INSTRUMENTATION_AND_BEHAVIOURAL_ERROR_CONTROL_ONLY",
+    "admissible_for_standard_operational_result": false
   }
 }
