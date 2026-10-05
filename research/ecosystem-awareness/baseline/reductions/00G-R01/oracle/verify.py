@@ -18,6 +18,7 @@ from tool_broker import R01ToolBroker
 from interactive_harness import run_interactive_case
 from contracts import (
     ContractError,
+    validate_gate_policy,
     validate_interactive_case,
     validate_sidecar,
     validate_tool_profile,
@@ -51,6 +52,7 @@ REQUIRED_FREEZE_PATHS = {
     "fixtures/stage0/experiment_sidecar.json",
     "fixtures/stage0/worlds.json",
     "fixtures/stage0/expected_selftest.json",
+    "fixtures/stage0/gate_policy.json",
     "fixtures/stage0/tool_profile.json",
     "fixtures/stage0/interactive_tool_profile.json",
     "fixtures/stage0/interactive_case.json",
@@ -188,6 +190,57 @@ def run_tool_broker_controls():
     if "private_adjudication" in strict_private:
         raise AssertionError("state-rejected execution exposed or applied private effect")
 
+    # A wrong mandate must not satisfy the strict single-task mandate gate.
+    wrong_mandate = R01ToolBroker(strict_profile)
+    wrong_mandate.call({"operation": "explore", "target_id": "cand-01"})
+    wrong_mandate.call({"operation": "inspect_relation", "target_id": "rel-01"})
+    wrong_mandate.call({"operation": "query_mandate", "target_id": "other-mission"})
+    wrong_commit = wrong_mandate.call(
+        {"operation": "decide", "target_id": "cand-01", "decision": "COMMIT"}
+    )
+    if wrong_commit.get("status") != "STATE_REJECTED":
+        raise AssertionError("an unrelated mandate incorrectly satisfied the commit gate")
+
+    # Message lineage is explicit: relay does not silently become independent evidence.
+    messaging = R01ToolBroker(profile)
+    original = messaging.call({
+        "operation": "communicate",
+        "message_id": "msg-001",
+        "sender_id": "agent-1",
+        "recipient": "agent-2",
+        "payload_ref": "payload-001",
+        "provenance_refs": ["observation-001"],
+        "source_message_id": None,
+    })
+    if original.get("lineage_kind") != "ORIGINAL":
+        raise AssertionError("original message lineage was not recorded")
+    relay = messaging.call({
+        "operation": "communicate",
+        "message_id": "msg-002",
+        "sender_id": "agent-2",
+        "recipient": "agent-3",
+        "payload_ref": "payload-001",
+        "provenance_refs": ["observation-001"],
+        "source_message_id": "msg-001",
+    })
+    if relay.get("lineage_kind") != "RELAY" or relay.get("source_message_id") != "msg-001":
+        raise AssertionError("relay lineage was not preserved")
+    if "independent_evidence" in relay:
+        raise AssertionError("broker manufactured evidence independence from message relay")
+    duplicate = messaging.call({
+        "operation": "communicate",
+        "message_id": "msg-002",
+        "sender_id": "agent-2",
+        "recipient": "agent-3",
+        "payload_ref": "payload-002",
+        "provenance_refs": ["observation-002"],
+        "source_message_id": None,
+    })
+    if duplicate.get("status") != "REQUEST_REJECTED":
+        raise AssertionError("duplicate message id was not rejected")
+    if messaging.cost != 3 or messaging.clock != 3:
+        raise AssertionError("message lineage controls did not preserve declared accounting")
+
     # A valid commitment is consumed by execution; it cannot be replayed.
     flow = R01ToolBroker(strict_profile)
     flow.call({"operation": "explore", "target_id": "cand-01"})
@@ -292,12 +345,23 @@ def main() -> None:
     sidecar = load_json(HERE / "fixtures/stage0/experiment_sidecar.json")
     bundle = load_json(HERE / "fixtures/stage0/worlds.json")
     expected = load_json(HERE / "fixtures/stage0/expected_selftest.json")["expected_status"]
+    gate_policy = load_json(HERE / "fixtures/stage0/gate_policy.json")
     worlds = list(bundle["worlds"])
     normal_adapter = HERE / sidecar["r01"]["adapter"]["path"]
 
     # Semantic admission precedes any candidate execution.
     validate_sidecar(sidecar)
+    validate_gate_policy(gate_policy, sidecar=sidecar)
     validate_world_bundle(bundle, sidecar=sidecar, expected_status=expected)
+
+    mismatched_gate = deepcopy(gate_policy)
+    mismatched_gate["acceptance"]["epsilon"] = gate_policy["acceptance"]["epsilon"] + 1
+    try:
+        validate_gate_policy(mismatched_gate, sidecar=sidecar)
+    except ContractError:
+        pass
+    else:
+        raise AssertionError("gate-policy/sidecar acceptance mismatch was admitted")
 
     first = run_bundle(worlds, sidecar, normal_adapter)
 
@@ -661,7 +725,12 @@ def main() -> None:
             "nonnegative_base_rejects_negative_benefit": "PASS",
             "graph_reference_fixed_controls": "PASS",
             "graph_reference_generated_64": "PASS",
+            "gate_policy_matches_sidecar": "PASS",
+            "gate_policy_mismatch_rejected": "PASS",
             "strict_state_machine_blocks_uncommitted_execution": "PASS",
+            "strict_state_machine_rejects_unrelated_mandate": "PASS",
+            "message_lineage_and_relay_preserved": "PASS",
+            "duplicate_message_id_rejected": "PASS",
             "strict_state_machine_consumes_commitment": "PASS",
             "strict_state_machine_invalidates_stale_review": "PASS",
             "real_t03_incomplete_registration_rejected": "PASS",
