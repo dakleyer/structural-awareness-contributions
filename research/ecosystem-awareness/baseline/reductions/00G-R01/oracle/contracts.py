@@ -104,6 +104,15 @@ def validate_sidecar(sidecar: Mapping[str, Any]) -> None:
     if not isinstance(oracle, Mapping) or oracle.get("candidate_blind") is not True:
         raise ContractError("oracle must explicitly be candidate_blind")
 
+    gate_policy = r01.get("gate_policy")
+    if not isinstance(gate_policy, Mapping):
+        raise ContractError("r01.gate_policy is required")
+    gate_path = _safe_relative_path(gate_policy.get("path"), "r01.gate_policy.path")
+    if gate_path != "fixtures/stage0/gate_policy.json":
+        raise ContractError("Stage-0 sidecar must reference the frozen gate-policy path")
+    if gate_policy.get("must_match_acceptance_copy") is not True:
+        raise ContractError("gate policy must match the sidecar acceptance copy")
+
     acceptance = r01.get("acceptance")
     if not isinstance(acceptance, Mapping):
         raise ContractError("r01.acceptance is required")
