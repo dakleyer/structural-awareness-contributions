@@ -81,11 +81,11 @@ def outcome(result):
     return result.get("post_run_evaluation", {}).get("status", result.get("status"))
 
 
-def run_bundle(worlds, sidecar, adapter_path):
+def run_bundle(worlds, sidecar, adapter_path, gate_policy):
     results = {}
     for world in worlds:
         assert_oracle_blind(world["participant_view"])
-        result = run_case(world, sidecar, adapter_path)
+        result = run_case(world, sidecar, adapter_path, gate_policy=gate_policy)
         status = outcome(result)
         results[world["test_vector_id"]] = {
             "status": status,
@@ -364,7 +364,7 @@ def main() -> None:
     else:
         raise AssertionError("gate-policy/sidecar acceptance mismatch was admitted")
 
-    first = run_bundle(worlds, sidecar, normal_adapter)
+    first = run_bundle(worlds, sidecar, normal_adapter, gate_policy)
 
     for vector_id, expected_status in expected.items():
         if first[vector_id]["status"] != expected_status:
@@ -385,7 +385,7 @@ def main() -> None:
                 raise AssertionError("candidate trace was not sealed")
 
     # Nelson-inspired deterministic replay: same frozen case -> same sealed candidate trace.
-    replay = run_bundle(worlds, sidecar, normal_adapter)
+    replay = run_bundle(worlds, sidecar, normal_adapter, gate_policy)
     for vector_id in first:
         if first[vector_id]["status"] != replay[vector_id]["status"]:
             raise AssertionError(f"{vector_id}: replay status changed")
@@ -395,7 +395,7 @@ def main() -> None:
             raise AssertionError(f"{vector_id}: deterministic replay post-run result hash changed")
 
     # Nelson-inspired metamorphic control: case order must not alter a stateless Stage-0 result.
-    reversed_run = run_bundle(list(reversed(worlds)), sidecar, normal_adapter)
+    reversed_run = run_bundle(list(reversed(worlds)), sidecar, normal_adapter, gate_policy)
     for vector_id in first:
         if first[vector_id]["status"] != reversed_run[vector_id]["status"]:
             raise AssertionError(f"{vector_id}: case-order reversal changed status")
@@ -404,7 +404,7 @@ def main() -> None:
 
     # R01 §2.17 accidental-hint control: identifier permutation must not alter
     # the substantive evaluation for this benefit-driven instrumentation adapter.
-    permuted_run = run_bundle([permute_world_ids(w) for w in worlds], sidecar, normal_adapter)
+    permuted_run = run_bundle([permute_world_ids(w) for w in worlds], sidecar, normal_adapter, gate_policy)
     for vector_id in first:
         if first[vector_id]["status"] != permuted_run[vector_id]["status"]:
             raise AssertionError(f"{vector_id}: identifier permutation changed substantive status")
@@ -427,12 +427,13 @@ def main() -> None:
         worlds[0],
         malformed_sidecar,
         HERE / malformed_sidecar["r01"]["adapter"]["path"],
+        gate_policy=gate_policy,
     )
     if malformed.get("status") != "FAIL" or malformed.get("reason") != "CANDIDATE_CONTRACT_REJECTED":
         raise AssertionError("malformed candidate record was not explicitly rejected")
 
     # Rejection of one malformed result must not contaminate a valid vector.
-    after_malformed = run_case(worlds[0], sidecar, normal_adapter)
+    after_malformed = run_case(worlds[0], sidecar, normal_adapter, gate_policy=gate_policy)
     if outcome(after_malformed) != expected[worlds[0]["test_vector_id"]]:
         raise AssertionError("malformed-record control contaminated subsequent valid execution")
 
@@ -446,6 +447,7 @@ def main() -> None:
         worlds[0],
         hidden_sidecar,
         HERE / hidden_sidecar["r01"]["adapter"]["path"],
+        gate_policy=gate_policy,
     )
     if (
         hidden_selection.get("status") != "FAIL"
@@ -463,6 +465,7 @@ def main() -> None:
         worlds[0],
         abstain_sidecar,
         HERE / abstain_sidecar["r01"]["adapter"]["path"],
+        gate_policy=gate_policy,
     )
     abstain_eval = abstain.get("post_run_evaluation", {})
     if abstain_eval.get("status") != "FAIL" or abstain_eval.get("completion") is not False:
@@ -484,6 +487,7 @@ def main() -> None:
         cost_world,
         misreport_sidecar,
         HERE / misreport_sidecar["r01"]["adapter"]["path"],
+        gate_policy=gate_policy,
     )
     if outcome(misreport) != "FAIL":
         raise AssertionError("adapter resource self-report changed authoritative batch outcome")
@@ -495,7 +499,7 @@ def main() -> None:
     # Without an authoritative batch measurement the result must be inconclusive.
     unmeasured_world = deepcopy(worlds[0])
     unmeasured_world.pop("harness_resource_measurement", None)
-    unmeasured = run_case(unmeasured_world, sidecar, normal_adapter)
+    unmeasured = run_case(unmeasured_world, sidecar, normal_adapter, gate_policy=gate_policy)
     if unmeasured.get("status") != "INCONCLUSIVE" or unmeasured.get("reason") != "NO_AUTHORITATIVE_BATCH_RESOURCE_MEASUREMENT":
         raise AssertionError("batch result without harness measurement was not kept inconclusive")
 
@@ -673,6 +677,7 @@ def main() -> None:
         interactive_sidecar,
         interactive_profile,
         HERE / interactive_sidecar["r01"]["adapter"]["path"],
+        gate_policy=gate_policy,
     )
     interactive_eval = interactive.get("post_run_evaluation", {})
     if interactive_eval.get("status") != "PASS":
@@ -690,6 +695,7 @@ def main() -> None:
         interactive_sidecar,
         interactive_profile,
         HERE / interactive_sidecar["r01"]["adapter"]["path"],
+        gate_policy=gate_policy,
     )
     if (
         interactive["candidate_trace_sha256_before_oracle"]
@@ -710,6 +716,7 @@ def main() -> None:
         interactive_sidecar,
         interactive_profile,
         HERE / interactive_sidecar["r01"]["adapter"]["path"],
+        gate_policy=gate_policy,
         release_private_evidence=True,
     )
     if released_interactive.get("private_evidence_released") is not True:
