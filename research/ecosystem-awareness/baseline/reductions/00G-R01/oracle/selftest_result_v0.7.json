@@ -1,0 +1,81 @@
+{
+  "schema": "R01-C02-SELFTEST-RESULT-0.7",
+  "executed": "2026-10-05",
+  "workflow_run": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37261489729",
+  "head_commit": "1d12460edcbecc56e6ee1e1aa35d8b8f1caeef5b",
+  "freeze_manifest": "STAGE0_FREEZE_v0.7.json",
+  "frozen_artifacts": 27,
+  "instrument": "R01-C02-neutral-harness-0.7",
+  "result": "SELFTEST_PASS",
+  "claim": "instrumentation self-test only; no real technology executed",
+  "vectors": [
+    {
+      "test_vector_id": "R01-POSITIVE-01",
+      "status": "PASS"
+    },
+    {
+      "test_vector_id": "R01-BOUNDARY-CONNECTOR-01",
+      "status": "FAIL"
+    },
+    {
+      "test_vector_id": "R01-REJECTION-01",
+      "status": "FAIL"
+    },
+    {
+      "test_vector_id": "R01-TIE-01",
+      "status": "PASS"
+    },
+    {
+      "test_vector_id": "R01-INCONCLUSIVE-01",
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "test_vector_id": "R01-COST-LIMIT-01",
+      "status": "FAIL"
+    }
+  ],
+  "controls": {
+    "freeze_manifest_integrity": "PASS:27",
+    "two_reference_methods_agree": "PASS",
+    "deterministic_replay_candidate_hash": "PASS",
+    "deterministic_replay_post_run_hash": "PASS",
+    "case_order_reversal": "PASS",
+    "identifier_permutation": "PASS",
+    "oracle_blindness_negative_control": "PASS",
+    "malformed_candidate_explicit_rejection": "PASS",
+    "malformed_record_isolation": "PASS",
+    "always_abstain_not_success": "PASS",
+    "batch_resource_self_report_non_authoritative": "PASS",
+    "batch_missing_measurement_inconclusive": "PASS",
+    "semantic_admission_contracts": "PASS",
+    "reference_rejects_ambiguous_types": "PASS",
+    "nonnegative_base_rejects_negative_benefit": "PASS",
+    "graph_reference_fixed_controls": "PASS",
+    "graph_reference_generated_64": "PASS",
+    "strict_state_machine_blocks_uncommitted_execution": "PASS",
+    "strict_state_machine_consumes_commitment": "PASS",
+    "strict_state_machine_invalidates_stale_review": "PASS",
+    "real_t03_incomplete_registration_rejected": "PASS",
+    "real_t03_isolated_registration_admitted": "PASS",
+    "real_t03_oracle_visible_isolation_rejected": "PASS",
+    "tool_broker_visibility_accounting": "PASS",
+    "interactive_adapter_broker_oracle_path": "PASS",
+    "interactive_adapter_replay_hash": "PASS"
+  },
+  "repository_gates": {
+    "version_aware_documentary_gate": "PASS_KNOWN_DRIFT_ONLY",
+    "canonical_navigation": "PASS",
+    "current_route_preservation": "PASS_34_FILES_1311_PARAGRAPH_PAIRS",
+    "editorial_quality": "PASS_146_TABLES_0_ERRORS_0_WARNINGS",
+    "unrecorded_documentary_drift_negative_probe": "PASS"
+  },
+  "limits": [
+    "complete R01 C-V evaluator not established",
+    "independent validation of reference methods not established",
+    "no real technology executed",
+    "no human-escalation calibration",
+    "no comparative EA benefit established",
+    "no production scalability claim",
+    "no FG-TIDA approval or adoption claim"
+  ]
+}
