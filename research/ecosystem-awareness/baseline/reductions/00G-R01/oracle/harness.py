@@ -165,6 +165,8 @@ def run_case(
     *,
     gate_policy: Mapping[str, Any],
 ) -> dict[str, Any]:
+    if gate_policy.get("acceptance") != sidecar.get("r01", {}).get("acceptance"):
+        raise ValueError("gate policy does not match the frozen sidecar acceptance")
     observation = deepcopy(world["participant_view"])
     assert_oracle_blind(observation)
 
