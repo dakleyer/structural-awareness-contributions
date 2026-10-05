@@ -37,7 +37,8 @@
     "declared_permissions": [],
     "native_to_r01_mapping_hash": null,
     "raw_native_trace_retained": null,
-    "in_process_python_loader_allowed_for_real_t03": false
+    "trusted_testbed_shim_may_run_in_process": true,
+    "candidate_decision_logic_in_process_with_oracle": false
   },
   "execution": {
     "physical_budget_R": null,
