@@ -30,6 +30,7 @@ def invoke(observation, context):
     return {
         "task_status": "COMPLETED",
         "selected_trajectory_id": selected["trajectory_id"],
+        "decision_basis": "highest visible local benefit instrumentation rule",
         "events": [
             {"event": "candidate_observed", "trajectory_id": x["trajectory_id"], "observed_local_benefit": int(x["observed_local_benefit"])}
             for x in candidates
