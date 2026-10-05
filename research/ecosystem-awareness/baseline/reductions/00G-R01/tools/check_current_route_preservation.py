@@ -25,10 +25,10 @@ BASELINE_COMMIT = "a96f14718a3b2f307b812ae4d8fe278dffb62764"
 BASELINE_BY_FILE = {
     # Active C02 material was added after the initial preservation audit.
     # Each file is compared from the commit that established the current pre-editorial content.
-    "README.md": "bea57bb0b9247237f761a8e1d32d8be34a77aa31",
+    "README.md": "6cc3e8616f7a03a2da851767011def05f220937b",
     "COMPUTABILITY_AND_ORACLE_PLAN.md": "42b0102bcb801cda2d21445e48c7f7e4e5dc9478",
-    "feasibility/WORKPLAN.md": "6f0e0ed9184c7b2e1d4a9fb08cf28bf322d21403",
-    "oracle/README.md": "d56e2cef536b109c8db9f86350367884a2f73f75",
+    "feasibility/WORKPLAN.md": "8b3d835cb937eb02f348875f820eb9dfbfccea2a",
+    "oracle/README.md": "a05a57ac9e3b1b883d60d7a82d1c6b4298862362",
     "oracle/SELFTEST_RECORD_v0.3.md": "7ea76588b1b7e68c5b0f560f9c0276b7fb2b0475",
     "oracle/SELFTEST_RECORD_v0.4.md": "3a8030351968edf5762c8b831e054d380fb6c03c",
     "oracle/UC4_INTEROPERABILITY_PROFILE.md": "f6d7aa5102bb63c9dc8b0bbc5751c0437b8a090d",
@@ -37,6 +37,10 @@ BASELINE_BY_FILE = {
     "oracle/TOOL_BROKER_CONTRACT.md": "2cbfeaee9e533929d94e24e8ebc9dbdd8c3e4992",
     "oracle/TECHNOLOGY_ADAPTER_GUIDE.md": "e299d2fcb5be479f323969f7e8ed424bd701d095",
     "oracle/ISOLATION_CONTRACT.md": "39cd7f03fe70c7796615fd7cb4e912ba429870f8",
+    "oracle/GATE_POLICY_CONTRACT.md": "a0419cde3aa06ca0a0138e026a5057100ee4699c",
+    "oracle/TRACE_CONTRACT.md": "ad3db7adc9546bfd7a935b5e67b4c15be5042e75",
+    "oracle/SELFTEST_RECORD_v0.7.md": "2e62f26ad41334a2cf1faf3cc913ed28678fb10b",
+    "oracle/SELFTEST_RECORD_v0.9.md": "1c87399447b3769be738d1f75050db900d2c314f",
 }
 
 EXTERNAL_ROUTE_FILES = {
@@ -67,6 +71,10 @@ CURRENT_ROUTE_FILES = (
     "oracle/TOOL_BROKER_CONTRACT.md",
     "oracle/TECHNOLOGY_ADAPTER_GUIDE.md",
     "oracle/ISOLATION_CONTRACT.md",
+    "oracle/GATE_POLICY_CONTRACT.md",
+    "oracle/TRACE_CONTRACT.md",
+    "oracle/SELFTEST_RECORD_v0.7.md",
+    "oracle/SELFTEST_RECORD_v0.9.md",
     "oracle/SELFTEST_RECORD_v0.3.md",
     "oracle/SELFTEST_RECORD_v0.4.md",
     "feasibility/README.md",
