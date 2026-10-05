@@ -25,16 +25,22 @@ BASELINE_COMMIT = "a96f14718a3b2f307b812ae4d8fe278dffb62764"
 BASELINE_BY_FILE = {
     # Active C02 material was added after the initial preservation audit.
     # Each file is compared from the commit that established the current pre-editorial content.
-    "README.md": "3eee0e588d3d7e0021c3747d8f3eea906e9af576",
-    "COMPUTABILITY_AND_ORACLE_PLAN.md": "e029b7cf6ac284a6348237fa1f92132385595f44",
-    "feasibility/WORKPLAN.md": "45001db4bdf655765e0202eea60ce02d139afda2",
-    "oracle/README.md": "3ed8011d83a83d8dbfc4dab2a286dbb069862a95",
+    "README.md": "bea57bb0b9247237f761a8e1d32d8be34a77aa31",
+    "COMPUTABILITY_AND_ORACLE_PLAN.md": "42b0102bcb801cda2d21445e48c7f7e4e5dc9478",
+    "feasibility/WORKPLAN.md": "6f0e0ed9184c7b2e1d4a9fb08cf28bf322d21403",
+    "oracle/README.md": "d56e2cef536b109c8db9f86350367884a2f73f75",
     "oracle/SELFTEST_RECORD_v0.3.md": "7ea76588b1b7e68c5b0f560f9c0276b7fb2b0475",
+    "oracle/SELFTEST_RECORD_v0.4.md": "3a8030351968edf5762c8b831e054d380fb6c03c",
     "oracle/UC4_INTEROPERABILITY_PROFILE.md": "f6d7aa5102bb63c9dc8b0bbc5751c0437b8a090d",
     "oracle/NELSON_REVIEW_REQUEST.md": "045a8a233431e8bb67cd93b3a7d5169d1c3163e3",
     "oracle/NELSON_BASELINE_IMPORT.md": "c3ed9a55dd6d5b642107ef6a0baa15320cce1b2e",
     "oracle/TOOL_BROKER_CONTRACT.md": "2cbfeaee9e533929d94e24e8ebc9dbdd8c3e4992",
     "oracle/TECHNOLOGY_ADAPTER_GUIDE.md": "e299d2fcb5be479f323969f7e8ed424bd701d095",
+}
+
+EXTERNAL_ROUTE_FILES = {
+    "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/ESTADO_00G-R01.md":
+        "a8902d7c215557a665d0bc697c334a6d9fc52afb",
 }
 
 CURRENT_ROUTE_FILES = (
@@ -60,6 +66,7 @@ CURRENT_ROUTE_FILES = (
     "oracle/TOOL_BROKER_CONTRACT.md",
     "oracle/TECHNOLOGY_ADAPTER_GUIDE.md",
     "oracle/SELFTEST_RECORD_v0.3.md",
+    "oracle/SELFTEST_RECORD_v0.4.md",
     "feasibility/README.md",
     "feasibility/WORKPLAN.md",
     "feasibility/CONTINUATION_PROMPT.md",
@@ -188,42 +195,54 @@ def main() -> int:
     checked = 0
     paragraph_pairs = 0
 
-    for rel in CURRENT_ROUTE_FILES:
-        current_path = R01 / rel
+    def check_target(label: str, current_path: Path, baseline: str) -> None:
+        nonlocal checked, paragraph_pairs
         if not current_path.exists():
-            errors.append(f"{rel}: current file missing")
-            continue
-        baseline = git_show(rel)
+            errors.append(f"{label}: current file missing")
+            return
         current = current_path.read_text(encoding="utf-8")
         b = structural_lines(baseline)
-        c = structural_lines(current)
+        current_struct = structural_lines(current)
 
         baseline_heading_titles = [title for _, title in b["headings"]]
-        current_heading_titles = [title for _, title in c["headings"]]
+        current_heading_titles = [title for _, title in current_struct["headings"]]
         if baseline_heading_titles != current_heading_titles:
-            errors.append(f"{rel}: heading titles/order changed")
+            errors.append(f"{label}: heading titles/order changed")
 
         for key in ("anchors", "links", "numbers", "code_blocks", "math_blocks", "table_lines", "list_lines"):
-            if b[key] != c[key]:
-                errors.append(f"{rel}: protected structure changed: {key}")
+            if b[key] != current_struct[key]:
+                errors.append(f"{label}: protected structure changed: {key}")
 
         bp = prose_paragraphs(baseline)
         cp = prose_paragraphs(current)
         if len(bp) != len(cp):
-            errors.append(f"{rel}: prose paragraph count changed {len(bp)} -> {len(cp)}")
+            errors.append(f"{label}: prose paragraph count changed {len(bp)} -> {len(cp)}")
         else:
             for index, (before, after) in enumerate(zip(bp, cp), start=1):
                 paragraph_pairs += 1
                 if protected_paragraph_tokens(before) != protected_paragraph_tokens(after):
-                    errors.append(f"{rel}: paragraph {index} protected tokens changed")
+                    errors.append(f"{label}: paragraph {index} protected tokens changed")
                 before_len = max(1, len(before))
                 ratio = len(after) / before_len
                 if not 0.80 <= ratio <= 1.20:
                     errors.append(
-                        f"{rel}: paragraph {index} changed length too much "
+                        f"{label}: paragraph {index} changed length too much "
                         f"({before_len} -> {len(after)}, ratio={ratio:.3f})"
                     )
         checked += 1
+
+    for rel in CURRENT_ROUTE_FILES:
+        check_target(rel, R01 / rel, git_show(rel))
+
+    for repo_rel, baseline_commit in EXTERNAL_ROUTE_FILES.items():
+        completed = subprocess.run(
+            ["git", "show", f"{baseline_commit}:{repo_rel}"],
+            cwd=REPO, capture_output=True, text=True, encoding="utf-8"
+        )
+        if completed.returncode:
+            errors.append(f"{repo_rel}: cannot read external baseline {baseline_commit}")
+            continue
+        check_target(repo_rel, REPO / repo_rel, completed.stdout)
 
     result = {
         "status": "PASS" if not errors else "FAIL",
