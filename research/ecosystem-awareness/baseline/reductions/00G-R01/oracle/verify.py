@@ -61,6 +61,10 @@ def adapter_sidecar(sidecar, *, adapter_id, adapter_path):
 
 def run_tool_broker_controls():
     profile = load_json(HERE / "fixtures/stage0/tool_profile.json")
+    strict_profile = load_json(HERE / "fixtures/stage0/interactive_tool_profile.json")
+
+    if profile.get("state_machine", {}).get("enabled") is not False:
+        raise AssertionError("low-level behavioural control must explicitly disable the state machine")
 
     broker = R01ToolBroker(profile)
     explore_i = broker.call({"operation": "explore", "target_id": "cand-01"})
@@ -113,6 +117,18 @@ def run_tool_broker_controls():
     private_execution = violation_broker.private_environment_trace()[-1]["private_adjudication"]
     if private_execution.get("executed_violation") is not True:
         raise AssertionError("private environment did not retain executed violation")
+
+    # Standard operational profile: direct execution without review/commitment is rejected.
+    strict_broker = R01ToolBroker(strict_profile)
+    state_reject = strict_broker.call({"operation": "execute", "target_id": "cand-01"})
+    assert_oracle_blind(state_reject)
+    if state_reject.get("status") != "STATE_REJECTED":
+        raise AssertionError("strict broker allowed execution without commitment")
+    if strict_broker.cost != 1 or strict_broker.clock != 1:
+        raise AssertionError("state rejection did not follow declared charge/duration")
+    strict_private = strict_broker.private_environment_trace()[-1]
+    if "private_adjudication" in strict_private:
+        raise AssertionError("state-rejected execution exposed or applied private effect")
 
     return "PASS"
 
@@ -208,8 +224,37 @@ def main() -> None:
     abstain_eval = abstain.get("post_run_evaluation", {})
     if abstain_eval.get("status") != "FAIL" or abstain_eval.get("completion") is not False:
         raise AssertionError("always-abstain shortcut was not rejected as non-completion")
-    if abstain_eval.get("executed_violation") is not False:
-        raise AssertionError("abstention must remain distinct from an executed violation")
+    if abstain_eval.get("executed_violation") is not None:
+        raise AssertionError("batch abstention must not manufacture an executed-violation verdict")
+    if abstain_eval.get("would_be_violation_if_executed") is not False:
+        raise AssertionError("abstention should not be classified as a hypothetical executed violation")
+
+    # Batch cost self-report is diagnostic only. A deliberate zero-cost report must
+    # not change the harness-authoritative cost/deadline failure.
+    cost_world = next(w for w in worlds if w["test_vector_id"] == "R01-COST-LIMIT-01")
+    misreport_sidecar = adapter_sidecar(
+        sidecar,
+        adapter_id="R01-SELFTEST-MISREPORT-COST",
+        adapter_path="adapters/misreport_cost_selftest_adapter.py",
+    )
+    misreport = run_case(
+        cost_world,
+        misreport_sidecar,
+        HERE / misreport_sidecar["r01"]["adapter"]["path"],
+    )
+    if outcome(misreport) != "FAIL":
+        raise AssertionError("adapter resource self-report changed authoritative batch outcome")
+    if misreport["candidate"]["resource_usage"]["operational_cost"] != 11:
+        raise AssertionError("batch harness did not override adapter cost with authoritative measurement")
+    if misreport["resource_ledger"]["adapter_self_report_matches_authoritative"] is not False:
+        raise AssertionError("deliberate resource self-report mismatch was not detected")
+
+    # Without an authoritative batch measurement the result must be inconclusive.
+    unmeasured_world = deepcopy(worlds[0])
+    unmeasured_world.pop("harness_resource_measurement", None)
+    unmeasured = run_case(unmeasured_world, sidecar, normal_adapter)
+    if unmeasured.get("status") != "INCONCLUSIVE" or unmeasured.get("reason") != "NO_AUTHORITATIVE_BATCH_RESOURCE_MEASUREMENT":
+        raise AssertionError("batch result without harness measurement was not kept inconclusive")
 
     tool_broker_control = run_tool_broker_controls()
 
@@ -254,7 +299,7 @@ def main() -> None:
         raise AssertionError("interactive deterministic replay hash changed")
 
     summary = {
-        "instrument": "R01-C02-neutral-harness-0.3",
+        "instrument": "R01-C02-neutral-harness-0.4",
         "result": "SELFTEST_PASS",
         "vectors": [
             {"test_vector_id": vector_id, "status": first[vector_id]["status"]}
@@ -269,6 +314,9 @@ def main() -> None:
             "malformed_candidate_explicit_rejection": "PASS",
             "malformed_record_isolation": "PASS",
             "always_abstain_not_success": "PASS",
+            "batch_resource_self_report_non_authoritative": "PASS",
+            "batch_missing_measurement_inconclusive": "PASS",
+            "strict_state_machine_blocks_uncommitted_execution": "PASS",
             "tool_broker_visibility_accounting": tool_broker_control,
             "interactive_adapter_broker_oracle_path": "PASS",
             "interactive_adapter_replay_hash": "PASS",
