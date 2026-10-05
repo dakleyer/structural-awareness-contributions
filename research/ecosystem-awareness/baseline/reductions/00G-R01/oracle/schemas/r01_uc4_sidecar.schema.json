@@ -5,103 +5,264 @@
   "description": "R01-private evaluator extension linked to, but not replacing, a Nelson UC-4 experiment package.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema", "status", "uc4_link", "assessment_time", "reviews", "r01"],
+  "required": [
+    "schema",
+    "status",
+    "uc4_link",
+    "assessment_time",
+    "reviews",
+    "r01"
+  ],
   "properties": {
-    "schema": {"const": "R01-UC4-SIDECAR-0.1"},
-    "status": {"enum": ["R01-BRIDGE-DRAFT", "UC4-SOURCE-REVIEWED", "UC4-SCHEMA-VALIDATED", "STAGE0-ADMITTED", "STAGE1-ADMITTED"]},
+    "schema": {
+      "const": "R01-UC4-SIDECAR-0.1"
+    },
+    "status": {
+      "enum": [
+        "R01-BRIDGE-DRAFT",
+        "UC4-SOURCE-REVIEWED",
+        "UC4-SCHEMA-VALIDATED",
+        "STAGE0-ADMITTED",
+        "STAGE1-ADMITTED"
+      ]
+    },
     "uc4_link": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["use_case", "upstream_schema_version", "experiment_id", "test_vector_ids"],
+      "required": [
+        "use_case",
+        "upstream_schema_version",
+        "experiment_id",
+        "test_vector_ids"
+      ],
       "properties": {
-        "use_case": {"const": "FG-TIDA/use-cases#4"},
-        "upstream_schema_version": {"type": "string", "minLength": 1},
-        "experiment_id": {"type": "string", "minLength": 1},
-        "test_vector_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true}
+        "use_case": {
+          "const": "FG-TIDA/use-cases#4"
+        },
+        "upstream_schema_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "experiment_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "test_vector_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
       }
     },
-    "assessment_time": {"type": "string", "minLength": 1},
+    "assessment_time": {
+      "type": "string",
+      "minLength": 1
+    },
     "consumed_determinations": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["determination_id", "source_owner", "source_version", "meaning_preserved"],
+        "required": [
+          "determination_id",
+          "source_owner",
+          "source_version",
+          "meaning_preserved"
+        ],
         "properties": {
-          "determination_id": {"type": "string"},
-          "source_owner": {"type": "string"},
-          "source_version": {"type": "string"},
-          "meaning_preserved": {"const": true}
+          "determination_id": {
+            "type": "string"
+          },
+          "source_owner": {
+            "type": "string"
+          },
+          "source_version": {
+            "type": "string"
+          },
+          "meaning_preserved": {
+            "const": true
+          }
         }
       }
     },
     "reviews": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["technical", "preparer", "source_contributor"],
+      "required": [
+        "technical",
+        "preparer",
+        "source_contributor"
+      ],
       "properties": {
-        "technical": {"enum": ["PENDING", "PASS", "FAIL"]},
-        "preparer": {"enum": ["PENDING", "PASS", "FAIL"]},
-        "source_contributor": {"enum": ["PENDING", "ACCEPTED", "CHANGES_REQUESTED"]}
+        "technical": {
+          "enum": [
+            "PENDING",
+            "PASS",
+            "FAIL"
+          ]
+        },
+        "preparer": {
+          "enum": [
+            "PENDING",
+            "PASS",
+            "FAIL"
+          ]
+        },
+        "source_contributor": {
+          "enum": [
+            "PENDING",
+            "ACCEPTED",
+            "CHANGES_REQUESTED"
+          ]
+        }
       }
     },
     "r01": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["scenario_version", "world_bundle", "participant_view_policy", "adapter", "oracle", "acceptance", "resource_ledger"],
+      "required": [
+        "scenario_version",
+        "world_bundle",
+        "participant_view_policy",
+        "adapter",
+        "oracle",
+        "acceptance",
+        "resource_ledger"
+      ],
       "properties": {
-        "scenario_version": {"type": "string"},
+        "scenario_version": {
+          "type": "string"
+        },
         "world_bundle": {
           "type": "object",
-          "required": ["path", "sha256_policy"],
+          "additionalProperties": false,
+          "required": [
+            "path",
+            "integrity_policy",
+            "integrity_manifest"
+          ],
           "properties": {
-            "path": {"type": "string"},
-            "sha256_policy": {"enum": ["REQUIRED_BEFORE_EXECUTION"]}
+            "path": {
+              "type": "string"
+            },
+            "integrity_policy": {
+              "const": "GIT_BLOB_SHA_MANIFEST"
+            },
+            "integrity_manifest": {
+              "type": "string",
+              "minLength": 1
+            }
           }
         },
         "participant_view_policy": {
           "type": "object",
-          "required": ["forbidden_keys"],
+          "required": [
+            "forbidden_keys"
+          ],
           "properties": {
-            "forbidden_keys": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+            "forbidden_keys": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            }
           }
         },
         "adapter": {
           "type": "object",
-          "required": ["id", "version", "path", "required_capabilities"],
+          "required": [
+            "id",
+            "version",
+            "path",
+            "required_capabilities"
+          ],
           "properties": {
-            "id": {"type": "string"},
-            "version": {"type": "string"},
-            "path": {"type": "string"},
-            "required_capabilities": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+            "id": {
+              "type": "string"
+            },
+            "version": {
+              "type": "string"
+            },
+            "path": {
+              "type": "string"
+            },
+            "required_capabilities": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            }
           }
         },
         "oracle": {
           "type": "object",
-          "required": ["primary_method", "secondary_method", "candidate_blind"],
+          "required": [
+            "primary_method",
+            "secondary_method",
+            "candidate_blind"
+          ],
           "properties": {
-            "primary_method": {"type": "string"},
-            "secondary_method": {"type": "string"},
-            "candidate_blind": {"const": true}
+            "primary_method": {
+              "type": "string"
+            },
+            "secondary_method": {
+              "type": "string"
+            },
+            "candidate_blind": {
+              "const": true
+            }
           }
         },
         "acceptance": {
           "type": "object",
-          "required": ["epsilon", "economic_cost_target_b", "physical_budget_R", "deadline_T"],
+          "required": [
+            "epsilon",
+            "economic_cost_target_b",
+            "physical_budget_R",
+            "deadline_T"
+          ],
           "properties": {
-            "epsilon": {"type": "integer", "minimum": 0},
-            "economic_cost_target_b": {"type": "integer", "minimum": 0},
-            "physical_budget_R": {"type": "integer", "minimum": 0},
-            "deadline_T": {"type": "integer", "minimum": 0}
+            "epsilon": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "economic_cost_target_b": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "physical_budget_R": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "deadline_T": {
+              "type": "integer",
+              "minimum": 0
+            }
           }
         },
         "resource_ledger": {
           "type": "object",
-          "required": ["separate_candidate_operational", "separate_oracle_evaluator", "coordination_counted_once"],
+          "required": [
+            "separate_candidate_operational",
+            "separate_oracle_evaluator",
+            "coordination_counted_once"
+          ],
           "properties": {
-            "separate_candidate_operational": {"const": true},
-            "separate_oracle_evaluator": {"const": true},
-            "coordination_counted_once": {"const": true}
+            "separate_candidate_operational": {
+              "const": true
+            },
+            "separate_oracle_evaluator": {
+              "const": true
+            },
+            "coordination_counted_once": {
+              "const": true
+            }
           }
         }
       }
