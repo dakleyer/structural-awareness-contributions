@@ -12,6 +12,8 @@ This library contains material already transmitted to, acknowledged by or public
 | [ITU-T FG-AI4SSC](./itu-fg-ai4ssc/FGAI4SSC-I-097/) | Minimum Sufficient Control | Word and PDF submitted | Received and posted by the Secretariat as `FGAI4SSC-I-097`; no adoption or endorsement claim |
 | [ITU-T FG-TIDA](./itu-fg-tida/2026-theme-contributions/) | Regime awareness for operational human oversight; intervention sufficiency for ecosystem defence | Public Markdown contribution and exact public comment record | Public discussion contributions; not formal ITU input documents or adopted text |
 
+| [NIST AI 200-2](./nist-ai-200-2/2026-public-comment/) | Compositional Evidence Sufficiency and Multi-Scenario TEVV for Composed and Agentic Systems | Public Markdown verification mirror of v0.10 | Public pre-submission draft for external review; not yet a NIST submission or adopted text |
+
 ## Release controls
 
 - Binary files are preserved by SHA-256 so a future public release can be checked against the audited package.
