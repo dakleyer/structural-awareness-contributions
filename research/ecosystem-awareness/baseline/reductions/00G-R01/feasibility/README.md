@@ -13,7 +13,7 @@
 | Three extensions | [Consistency verdict](./EXTENSION_CONSISTENCY_REVIEW.md) | Self-review performed; documentary discrepancies in P08. |
 | Extension protocol | [Protocol and technologies to study](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) | Defined; first isomorphic core, then additional mechanisms. |
 | First technology | [Human escalation and whispering](./HUMAN_ESCALATION_WHISPERING.md) | Existing mathematical fiche; complete technology correspondence and composition. Not a validated implementation. |
-| Pending work | [Current queue](./WORKPLAN.md) · [register](./WORKPLAN_STATUS.json) · [continuation](./CONTINUATION_PROMPT.md) | Four active tasks and three subsequent deliverables; 55 historical IDs traceable. |
+| Pending work | [Current queue](./WORKPLAN.md) · [register](./WORKPLAN_STATUS.json) · [continuation](./CONTINUATION_PROMPT.md) | Five active tasks and two subsequent deliverables; 55 historical IDs traceable. |
 | Preparation trials | [Partial annexes](./partial-experiments/README.md) · [received material](./partial-experiments/received/2026-10-04/README.md) | Noncanonical; do not prove a real technology. |
 | Previous work | [Historical index](./previous-work/README.md) · [snapshot of previous queues](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json) | Evidence preserved; not the current execution order. |
 
