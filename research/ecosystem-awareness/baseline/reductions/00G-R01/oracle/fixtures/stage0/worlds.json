@@ -87,7 +87,7 @@
             ],
             "connectors": [
               {
-                "benefit": -3,
+                "benefit": 0,
                 "admissible": true
               }
             ]
@@ -102,7 +102,7 @@
             ],
             "connectors": [
               {
-                "benefit": 0,
+                "benefit": 3,
                 "admissible": true
               }
             ]
@@ -114,7 +114,8 @@
         "coordination_cost": 0,
         "latency_steps": 3,
         "source": "HARNESS_FIXED_FOR_STAGE0_BATCH_INSTRUMENTATION"
-      }
+      },
+      "fixture_note": "Base-regime nonnegative benefits: route-01 is locally more attractive (8) but route-02 is globally optimal through a +3 connector (9 total)."
     },
     {
       "test_vector_id": "R01-REJECTION-01",
