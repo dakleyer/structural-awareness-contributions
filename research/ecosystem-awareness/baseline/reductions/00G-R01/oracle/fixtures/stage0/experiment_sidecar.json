@@ -25,7 +25,8 @@
     "scenario_version": "00G-R01 current main at preparation time",
     "world_bundle": {
       "path": "fixtures/stage0/worlds.json",
-      "sha256_policy": "REQUIRED_BEFORE_EXECUTION"
+      "integrity_policy": "GIT_BLOB_SHA_MANIFEST",
+      "integrity_manifest": "STAGE0_FREEZE_v0.4.json"
     },
     "participant_view_policy": {
       "forbidden_keys": [
