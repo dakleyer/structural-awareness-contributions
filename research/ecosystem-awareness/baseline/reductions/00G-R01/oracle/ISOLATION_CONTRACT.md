@@ -2,7 +2,7 @@
 
 Working contract v0.1 · 5 October 2026.
 
-This contract applies to **real T03 technology execution**. The Python adapters under `adapters/` are author-constructed instrumentation controls and run in-process; they are **not** an acceptable placement for real candidate decision logic. A small trusted testbed shim may run in-process when its only role is protocol/mapping mediation to an isolated candidate runtime and its code is version-pinned/reviewed.
+This contract applies to **real T03 technology execution**. The Python adapters under `adapters/` are author-constructed instrumentation controls that run in-process; they are **not** an acceptable placement for real candidate decision logic. A small trusted testbed shim may run in-process only when its role is limited to protocol/mapping mediation for an isolated candidate runtime and its code is version-pinned/reviewed.
 
 ## Why this boundary is required
 
