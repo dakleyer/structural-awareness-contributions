@@ -61,6 +61,7 @@ def run_interactive_case(
     tool_profile: Mapping[str, Any],
     adapter_path: Path,
     *,
+    gate_policy: Mapping[str, Any],
     release_private_evidence: bool = False,
 ) -> dict[str, Any]:
     observation = deepcopy(case["participant_view"])
@@ -85,7 +86,7 @@ def run_interactive_case(
         "experiment_id": sidecar["uc4_link"]["experiment_id"],
         "test_vector_id": case["test_vector_id"],
         "assessment_time": sidecar["assessment_time"],
-        "acceptance": deepcopy(sidecar["r01"]["acceptance"]),
+        "acceptance": deepcopy(gate_policy["acceptance"]),
         "available_operations": {
             name: {
                 "charge": int(spec["charge"]),
@@ -161,7 +162,7 @@ def run_interactive_case(
         evaluation = evaluate_candidate(
             candidate,
             primary,
-            sidecar["r01"]["acceptance"],
+            gate_policy["acceptance"],
             execution_verified=evidence["found"],
             evaluation_scope="INTERACTIVE_OPERATIONAL",
         )
