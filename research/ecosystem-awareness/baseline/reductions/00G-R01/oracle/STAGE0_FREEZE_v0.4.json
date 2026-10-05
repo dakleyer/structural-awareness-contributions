@@ -1,0 +1,119 @@
+{
+  "schema": "R01-C02-FREEZE-MANIFEST-0.4",
+  "status": "FROZEN_STAGE0_INSTRUMENTATION_INPUTS",
+  "input_snapshot_commit": "7c6c25938dc3ccea49ee4679a570253efacc7b6d",
+  "content_identity": "Git blob SHA-1 over exact file bytes; verified locally before execution",
+  "claim_boundary": "Instrumentation self-test only; no real technology executed",
+  "files": [
+    {
+      "path": "adapter_api.py",
+      "role": "adapter-contract",
+      "git_blob_sha1": "adb99c1a6188d77de6152a5a0dcf3f70033ee4df"
+    },
+    {
+      "path": "canonical_trace_v1.py",
+      "role": "trace-canonicalization",
+      "git_blob_sha1": "36ffd9768011270961d6d96aa97483578a3f0097"
+    },
+    {
+      "path": "contracts.py",
+      "role": "semantic-admission",
+      "git_blob_sha1": "47e32942d57f0948281fea6ce605337959d9cf7e"
+    },
+    {
+      "path": "harness.py",
+      "role": "batch-harness",
+      "git_blob_sha1": "9c7e5449fed35ca3c6d098311b35376f2d982212"
+    },
+    {
+      "path": "integrity.py",
+      "role": "freeze-verifier",
+      "git_blob_sha1": "6cc1e922f4ff446c84098cae373260d78a1983b7"
+    },
+    {
+      "path": "interactive_harness.py",
+      "role": "interactive-harness",
+      "git_blob_sha1": "7278ef67ec0f066241986c10827c7c4f2724e3ee"
+    },
+    {
+      "path": "reference.py",
+      "role": "primary-reference",
+      "git_blob_sha1": "0da5e9b092e953e100cb6f66103285f43a6c21cc"
+    },
+    {
+      "path": "reference_secondary.py",
+      "role": "secondary-reference",
+      "git_blob_sha1": "b1cb5a2b51699fb7a4a93eeb0dd7375762189d09"
+    },
+    {
+      "path": "tool_broker.py",
+      "role": "tool-broker",
+      "git_blob_sha1": "7e560d4f54368258b5fb8a420cb26e90d0c9d4ad"
+    },
+    {
+      "path": "verify.py",
+      "role": "selftest-runner",
+      "git_blob_sha1": "baf3404b4816a679fd90029cf49552407d0fc48f"
+    },
+    {
+      "path": "schemas/r01_uc4_sidecar.schema.json",
+      "role": "sidecar-schema",
+      "git_blob_sha1": "fed7aaa390f91986352061bcb5d95d44a33969c9"
+    },
+    {
+      "path": "fixtures/stage0/experiment_sidecar.json",
+      "role": "sidecar-fixture",
+      "git_blob_sha1": "1621935d9993e92c6fe1a58a77a2cf4c5b2cca24"
+    },
+    {
+      "path": "fixtures/stage0/worlds.json",
+      "role": "batch-worlds",
+      "git_blob_sha1": "838c959137eaf7bc358b76437cfaec875f8d6026"
+    },
+    {
+      "path": "fixtures/stage0/expected_selftest.json",
+      "role": "expected-outcomes",
+      "git_blob_sha1": "ed8a541201188110fedcc6d4bda6f24131af14dd"
+    },
+    {
+      "path": "fixtures/stage0/tool_profile.json",
+      "role": "low-level-control-profile",
+      "git_blob_sha1": "a4ac2047766a8c26ff217128b54550653965254b"
+    },
+    {
+      "path": "fixtures/stage0/interactive_tool_profile.json",
+      "role": "strict-interactive-profile",
+      "git_blob_sha1": "99e84425140ae9cf3dbfd1938132665b45454235"
+    },
+    {
+      "path": "fixtures/stage0/interactive_case.json",
+      "role": "interactive-case",
+      "git_blob_sha1": "96d01ce92668fa9933b6b9dbeda16a94c7c057dc"
+    },
+    {
+      "path": "adapters/selftest_adapter.py",
+      "role": "batch-selftest-adapter",
+      "git_blob_sha1": "5b237b8125221be989f249d39bc06d42308c223b"
+    },
+    {
+      "path": "adapters/malformed_selftest_adapter.py",
+      "role": "malformed-negative-control",
+      "git_blob_sha1": "6e384afe0d517ed26370ef327e6bfe7aa2fbb3ba"
+    },
+    {
+      "path": "adapters/abstain_selftest_adapter.py",
+      "role": "abstention-negative-control",
+      "git_blob_sha1": "3865338ef4e1c0fcc819788572da3f4cd41a979b"
+    },
+    {
+      "path": "adapters/misreport_cost_selftest_adapter.py",
+      "role": "cost-misreport-negative-control",
+      "git_blob_sha1": "d78110beb719146a46ba2cad3be9f47dbcbb9a6d"
+    },
+    {
+      "path": "adapters/interactive_selftest_adapter.py",
+      "role": "interactive-selftest-adapter",
+      "git_blob_sha1": "011e0a5df89da69093495dfc64b17b77dbcd5cef"
+    }
+  ]
+}
