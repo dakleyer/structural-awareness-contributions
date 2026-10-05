@@ -112,8 +112,12 @@ def validate_real_registration(reg: Mapping[str, Any]) -> None:
     )
     if adapter.get("interaction_mode") not in ALLOWED_INTERACTION_MODES:
         raise AdmissionError("unsupported real adapter interaction mode")
-    if adapter.get("in_process_python_loader_allowed_for_real_t03") is not False:
-        raise AdmissionError("in-process Python loader is not an admitted real-T03 isolation boundary")
+    if adapter.get("candidate_decision_logic_in_process_with_oracle") is not False:
+        raise AdmissionError(
+            "candidate decision logic may not execute inside the oracle trust boundary"
+        )
+    if type(adapter.get("trusted_testbed_shim_may_run_in_process")) is not bool:
+        raise AdmissionError("trusted testbed shim placement must be declared explicitly")
 
     isolation = reg.get("candidate_isolation")
     if not isinstance(isolation, Mapping):
