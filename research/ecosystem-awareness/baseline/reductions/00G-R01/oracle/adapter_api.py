@@ -56,7 +56,7 @@ def validate_manifest(manifest: Mapping[str, Any]) -> None:
 
 
 def validate_candidate_result(result: Mapping[str, Any]) -> None:
-    required = {"task_status", "selected_trajectory_id", "events", "resource_usage"}
+    required = {"task_status", "selected_trajectory_id", "decision_basis", "events", "resource_usage"}
     missing = sorted(required - set(result))
     if missing:
         raise ValueError(f"candidate result missing fields: {missing}")
@@ -65,6 +65,8 @@ def validate_candidate_result(result: Mapping[str, Any]) -> None:
     selected = result["selected_trajectory_id"]
     if selected is not None and not isinstance(selected, str):
         raise ValueError("selected_trajectory_id must be a string or null")
+    if not isinstance(result["decision_basis"], str) or not result["decision_basis"].strip():
+        raise ValueError("decision_basis must be a non-empty string")
     if not isinstance(result["events"], list):
         raise ValueError("events must be a list")
     usage = result["resource_usage"]
