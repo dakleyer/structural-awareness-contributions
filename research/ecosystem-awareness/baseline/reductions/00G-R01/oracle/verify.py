@@ -62,6 +62,7 @@ REQUIRED_FREEZE_PATHS = {
     "adapters/abstain_selftest_adapter.py",
     "adapters/misreport_cost_selftest_adapter.py",
     "adapters/interactive_selftest_adapter.py",
+    "adapters/hidden_selection_selftest_adapter.py",
 }
 
 
@@ -435,6 +436,23 @@ def main() -> None:
     if outcome(after_malformed) != expected[worlds[0]["test_vector_id"]]:
         raise AssertionError("malformed-record control contaminated subsequent valid execution")
 
+    # A batch adapter cannot select a route outside its participant-visible set.
+    hidden_sidecar = adapter_sidecar(
+        sidecar,
+        adapter_id="R01-SELFTEST-HIDDEN-SELECTION",
+        adapter_path="adapters/hidden_selection_selftest_adapter.py",
+    )
+    hidden_selection = run_case(
+        worlds[0],
+        hidden_sidecar,
+        HERE / hidden_sidecar["r01"]["adapter"]["path"],
+    )
+    if (
+        hidden_selection.get("status") != "FAIL"
+        or hidden_selection.get("reason") != "CANDIDATE_SELECTION_OUTSIDE_VISIBLE_SET"
+    ):
+        raise AssertionError("hidden-route selection was not rejected before oracle evaluation")
+
     # Anti-shortcut: permanent abstention on a case with a valid attainable result is not success.
     abstain_sidecar = adapter_sidecar(
         sidecar,
@@ -633,6 +651,15 @@ def main() -> None:
     interactive_profile = load_json(HERE / "fixtures/stage0/interactive_tool_profile.json")
     validate_tool_profile(interactive_profile)
     validate_interactive_case(interactive_case, tool_profile=interactive_profile)
+
+    bad_mandate_case = deepcopy(interactive_case)
+    bad_mandate_case["participant_view"]["principal_id"] = "principal-other"
+    try:
+        validate_interactive_case(bad_mandate_case, tool_profile=interactive_profile)
+    except ContractError:
+        pass
+    else:
+        raise AssertionError("mismatched principal/receiver mandate binding was admitted")
     interactive_sidecar = adapter_sidecar(
         sidecar,
         adapter_id="R01-SELFTEST-INTERACTIVE-REVIEW",
@@ -717,6 +744,7 @@ def main() -> None:
             "oracle_blindness_negative_control": leak_control,
             "malformed_candidate_explicit_rejection": "PASS",
             "malformed_record_isolation": "PASS",
+            "hidden_batch_selection_rejected_pre_oracle": "PASS",
             "always_abstain_not_success": "PASS",
             "batch_resource_self_report_non_authoritative": "PASS",
             "batch_missing_measurement_inconclusive": "PASS",
@@ -727,6 +755,7 @@ def main() -> None:
             "graph_reference_generated_64": "PASS",
             "gate_policy_matches_sidecar": "PASS",
             "gate_policy_mismatch_rejected": "PASS",
+            "interactive_mandate_identity_mismatch_rejected": "PASS",
             "strict_state_machine_blocks_uncommitted_execution": "PASS",
             "strict_state_machine_rejects_unrelated_mandate": "PASS",
             "message_lineage_and_relay_preserved": "PASS",
