@@ -25,6 +25,7 @@ def git_blob_sha1(data: bytes) -> str:
 SUPPORTED_FREEZE_SCHEMAS = {
     "R01-C02-FREEZE-MANIFEST-0.4",
     "R01-C02-FREEZE-MANIFEST-0.5",
+    "R01-C02-FREEZE-MANIFEST-0.6",
 }
 
 
