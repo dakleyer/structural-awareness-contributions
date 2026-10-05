@@ -63,6 +63,10 @@
       "separate_candidate_operational": true,
       "separate_oracle_evaluator": true,
       "coordination_counted_once": true
+    },
+    "gate_policy": {
+      "path": "fixtures/stage0/gate_policy.json",
+      "must_match_acceptance_copy": true
     }
   }
 }
