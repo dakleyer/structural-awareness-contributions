@@ -27,7 +27,7 @@ https://github.com/dakleyer/structural-awareness-contributions/blob/main/researc
 Sidecar schema:
 https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/schemas/r01_uc4_sidecar.schema.json
 
-The current Stage-0 package is still only an instrumentation self-test, but it now contains six synthetic vectors (positive, connector boundary, rejection, tied optima, no-reference/inconclusive and cost/deadline failure), two separately coded exact reference paths, oracle-blind trace sealing, deterministic replay, case-order and identifier-permutation controls, malformed-record isolation, an abstention negative control, and an interactive adapter → tool broker → private oracle path. **No real technology or EA differential is claimed.**
+The current Stage-0 package remains only an instrumentation self-test. It now contains six synthetic vectors (positive, connector boundary, rejection, tied optima, no-reference/inconclusive and cost/deadline failure), two separately coded exact reference paths, oracle-blind trace sealing, deterministic replay, case-order and identifier-permutation controls, malformed-record isolation, an abstention negative control, and an interactive adapter → tool broker → private oracle path. **No real technology or EA differential is claimed.**
 
 The instrument self-test completed successfully in GitHub Actions:
 https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37240286062
