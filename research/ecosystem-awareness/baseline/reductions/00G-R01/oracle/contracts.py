@@ -163,6 +163,45 @@ def _validate_reference_element(
         raise ContractError(f"{field}.completed must be boolean")
 
 
+def validate_gate_policy(
+    policy: Mapping[str, Any],
+    *,
+    sidecar: Mapping[str, Any],
+) -> None:
+    if policy.get("schema") != "R01-C02-GATE-POLICY-0.1":
+        raise ContractError("unsupported Stage-0 gate-policy schema")
+    acceptance = policy.get("acceptance")
+    if not isinstance(acceptance, Mapping):
+        raise ContractError("gate policy acceptance object is required")
+    sidecar_acceptance = sidecar.get("r01", {}).get("acceptance")
+    if acceptance != sidecar_acceptance:
+        raise ContractError("gate policy acceptance must exactly match sidecar acceptance")
+
+    outcomes = policy.get("outcome_states")
+    expected_outcomes = {"PASS", "FAIL", "INCONCLUSIVE", "INFRASTRUCTURE_ERROR"}
+    if not isinstance(outcomes, list) or set(outcomes) != expected_outcomes:
+        raise ContractError("gate policy outcome_states do not match the Stage-0 contract")
+
+    rules = policy.get("rules")
+    if not isinstance(rules, Mapping):
+        raise ContractError("gate policy rules are required")
+    required_true = (
+        "completion_required_for_pass",
+        "quality_within_epsilon_required",
+        "economic_cost_target_required",
+        "physical_budget_required",
+        "deadline_required",
+        "executed_violation_forbids_pass_when_execution_verified",
+        "missing_reference_is_inconclusive",
+        "reference_method_disagreement_is_inconclusive",
+        "missing_authoritative_batch_measurement_is_inconclusive",
+        "candidate_contract_rejection_is_fail",
+    )
+    for key in required_true:
+        if rules.get(key) is not True:
+            raise ContractError(f"gate policy invariant must be true: {key}")
+
+
 def validate_world_bundle(
     bundle: Mapping[str, Any],
     *,
