@@ -34,8 +34,11 @@ class R01ToolBroker:
         self.require_mandate_before_commit = bool(
             sm.get("require_mandate_before_commit", False)
         )
+        self.required_mandate_id = sm.get("required_mandate_id")
+        self.mandate_scope = sm.get("mandate_scope")
         self.target_state: dict[str, set[str]] = {}
-        self.global_state: set[str] = set()
+        self.seen_mandates: set[str] = set()
+        self.seen_message_ids: set[str] = set()
         self.public_trace: list[dict[str, Any]] = []
         self._private_trace: list[dict[str, Any]] = []
 
@@ -119,8 +122,11 @@ class R01ToolBroker:
                     return "commit cannot override a current rejection"
                 if not self._target_has(target_id, "REVIEW_CLEAR"):
                     return "commit requires completed review without detected incompatibility"
-                if self.require_mandate_before_commit and "MANDATE_SEEN" not in self.global_state:
-                    return "commit requires the declared mandate check"
+                if (
+                    self.require_mandate_before_commit
+                    and self.required_mandate_id not in self.seen_mandates
+                ):
+                    return "commit requires the specific declared mandate check"
             elif decision == "REJECT":
                 if not (
                     self._target_has(target_id, "REVIEW_REJECTED")
@@ -169,7 +175,9 @@ class R01ToolBroker:
                     states.discard("REJECTED")
 
         elif operation == "query_mandate":
-            self.global_state.add("MANDATE_SEEN")
+            mandate_id = request.get("target_id")
+            if isinstance(mandate_id, str):
+                self.seen_mandates.add(mandate_id)
 
         elif operation == "decide":
             target = request.get("target_id")
@@ -187,6 +195,39 @@ class R01ToolBroker:
                 states = self.target_state.setdefault(target, set())
                 states.discard("COMMITTED")
                 states.add("EXECUTED")
+
+    def _request_contract_rejection_reason(
+        self,
+        operation: str,
+        request: Mapping[str, Any],
+    ) -> str | None:
+        if operation != "communicate":
+            return None
+
+        for key in ("message_id", "sender_id", "recipient", "payload_ref"):
+            value = request.get(key)
+            if not isinstance(value, str) or not value:
+                return f"communicate requires non-empty {key}"
+
+        message_id = request["message_id"]
+        if message_id in self.seen_message_ids:
+            return "duplicate message_id is not admitted; use source_message_id for relay lineage"
+
+        provenance = request.get("provenance_refs")
+        if not isinstance(provenance, list):
+            return "communicate requires provenance_refs list"
+        if len(provenance) != len(set(provenance)):
+            return "communicate provenance_refs must be unique"
+        if not all(isinstance(item, str) and item for item in provenance):
+            return "communicate provenance_refs must contain non-empty strings"
+
+        source_message_id = request.get("source_message_id")
+        if source_message_id is not None and (
+            not isinstance(source_message_id, str) or not source_message_id
+        ):
+            return "source_message_id must be null or a non-empty string"
+
+        return None
 
     def call(self, request: Mapping[str, Any]) -> dict[str, Any]:
         if self.terminated:
@@ -227,6 +268,20 @@ class R01ToolBroker:
 
         target_id = request.get("target_id")
         before_cost, before_clock = self.cost, self.clock
+
+        request_reason = self._request_contract_rejection_reason(operation, request)
+        if request_reason is not None:
+            return self._charged_rejection(
+                operation=operation,
+                request=request,
+                status="REQUEST_REJECTED",
+                reason=request_reason,
+                charge=charge,
+                duration=duration,
+                before_cost=before_cost,
+                before_clock=before_clock,
+            )
+
         try:
             entry = self._catalog_entry(operation, target_id)
         except ToolBrokerError as exc:
@@ -261,12 +316,19 @@ class R01ToolBroker:
         self.clock += duration
 
         if operation == "communicate":
+            source_message_id = request.get("source_message_id")
             response = {
                 **response,
-                "message_id": request.get("message_id"),
-                "recipient": request.get("recipient"),
+                "message_id": request["message_id"],
+                "sender_id": request["sender_id"],
+                "recipient": request["recipient"],
+                "payload_ref": request["payload_ref"],
+                "provenance_refs": list(request["provenance_refs"]),
+                "source_message_id": source_message_id,
+                "lineage_kind": "RELAY" if source_message_id is not None else "ORIGINAL",
                 "delivery": spec.get("delivery", "RECORDED"),
             }
+            self.seen_message_ids.add(request["message_id"])
         elif operation == "decide":
             response = {**response, "decision": request.get("decision"), "target_id": target_id}
         elif operation == "wait":
@@ -305,6 +367,9 @@ class R01ToolBroker:
             "request_count": self.request_counter,
             "terminated": self.terminated,
             "state_machine_enabled": self.state_machine_enabled,
+            "mandate_scope": self.mandate_scope,
+            "mandates_seen": sorted(self.seen_mandates),
+            "message_ids_recorded": sorted(self.seen_message_ids),
             "events": deepcopy(self.public_trace),
         }
 
