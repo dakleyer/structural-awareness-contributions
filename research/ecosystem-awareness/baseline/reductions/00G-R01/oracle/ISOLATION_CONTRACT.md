@@ -2,7 +2,7 @@
 
 Working contract v0.1 · 5 October 2026.
 
-This contract applies to **real T03 technology execution**. The Python adapters under `adapters/` are author-constructed instrumentation controls and run in-process; they are **not** an acceptable isolation boundary for a real technology campaign.
+This contract applies to **real T03 technology execution**. The Python adapters under `adapters/` are author-constructed instrumentation controls and run in-process; they are **not** an acceptable placement for real candidate decision logic. A small trusted testbed shim may run in-process when its only role is protocol/mapping mediation to an isolated candidate runtime and its code is version-pinned/reviewed.
 
 ## Why this boundary is required
 
@@ -24,7 +24,7 @@ A T03 registration must select one of:
 - `CONTAINER_NO_ORACLE_MOUNT` — local/container runtime with no oracle, private-world or expected-outcome mount;
 - `EXTERNAL_SANDBOX_NO_ORACLE_FS` — external sandbox/process boundary with evidence that the oracle filesystem is not visible.
 
-An in-process Python loader is allowed only for local harness instrumentation.
+Candidate decision logic is never admitted in-process with oracle storage. A trusted testbed-owned adapter shim may be in-process if the actual candidate runtime remains behind one of the isolation modes above and the shim cannot turn oracle data into candidate input.
 
 ## Required negative properties
 
