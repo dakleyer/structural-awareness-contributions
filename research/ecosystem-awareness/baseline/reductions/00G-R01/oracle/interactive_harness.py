@@ -64,6 +64,8 @@ def run_interactive_case(
     gate_policy: Mapping[str, Any],
     release_private_evidence: bool = False,
 ) -> dict[str, Any]:
+    if gate_policy.get("acceptance") != sidecar.get("r01", {}).get("acceptance"):
+        raise ValueError("gate policy does not match the frozen sidecar acceptance")
     observation = deepcopy(case["participant_view"])
     assert_oracle_blind(observation)
 
