@@ -128,6 +128,14 @@
           "resource": "mission",
           "rule_version": "m1"
         }
+      },
+      "other-mission": {
+        "response": {
+          "principal": "principal-2",
+          "recipient": "agent-1",
+          "resource": "other-mission",
+          "rule_version": "m-other"
+        }
       }
     },
     "evidence": {},
@@ -161,6 +169,8 @@
     "enabled": true,
     "require_mandate_before_commit": true,
     "purpose": "STANDARD_INTERACTIVE_STAGE0_CAUSAL_GUARD",
-    "admissible_for_standard_operational_result": true
+    "admissible_for_standard_operational_result": true,
+    "required_mandate_id": "mission",
+    "mandate_scope": "SESSION_SINGLE_TASK"
   }
 }
