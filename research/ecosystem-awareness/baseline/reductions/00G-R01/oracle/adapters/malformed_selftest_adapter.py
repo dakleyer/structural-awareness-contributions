@@ -6,6 +6,7 @@ ADAPTER_MANIFEST = {
     "implementation_kind": "NEGATIVE_CONTROL_NOT_A_REAL_TECHNOLOGY",
     "source_owner": "R01 maintainer",
     "source_contract_version": "R01 participant-view 0.1",
+    "interaction_mode": "BATCH_RESULT",
     "required_capabilities": ["read_frozen_observation", "emit_candidate_result"],
 }
 
