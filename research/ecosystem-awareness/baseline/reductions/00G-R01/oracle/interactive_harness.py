@@ -118,6 +118,7 @@ def run_interactive_case(
     }
     try:
         validate_candidate_result(candidate)
+        assert_oracle_blind(candidate)
     except Exception as exc:
         rejected = {
             "schema": "R01-C02-INTERACTIVE-REJECTED-CANDIDATE-0.1",
