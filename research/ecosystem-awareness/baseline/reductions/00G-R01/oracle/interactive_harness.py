@@ -60,6 +60,8 @@ def run_interactive_case(
     sidecar: Mapping[str, Any],
     tool_profile: Mapping[str, Any],
     adapter_path: Path,
+    *,
+    release_private_evidence: bool = False,
 ) -> dict[str, Any]:
     observation = deepcopy(case["participant_view"])
     assert_oracle_blind(observation)
@@ -179,8 +181,13 @@ def run_interactive_case(
             elif private_violation:
                 evaluation["status"] = "FAIL"
 
-    return {
-        "schema": "R01-C02-INTERACTIVE-STAGE0-RESULT-0.1",
+    private_evidence_commitment = canonical_trace_sha256({
+        "schema": "R01-C02-PRIVATE-ENVIRONMENT-EVIDENCE-0.1",
+        "test_vector_id": case["test_vector_id"],
+        "events": private_trace,
+    })
+    result = {
+        "schema": "R01-C02-INTERACTIVE-STAGE0-RESULT-0.2",
         "test_vector_id": case["test_vector_id"],
         "candidate_trace_sha256_before_oracle": sealed_sha,
         "candidate": candidate,
@@ -188,7 +195,8 @@ def run_interactive_case(
         "reference_primary": primary,
         "reference_secondary": secondary,
         "post_run_evaluation": evaluation,
-        "oracle_side_environment_trace": private_trace,
+        "oracle_side_environment_trace_sha256": private_evidence_commitment,
+        "private_evidence_released": bool(release_private_evidence),
         "resource_ledger": {
             "candidate_operational_cost": candidate["resource_usage"]["operational_cost"],
             "candidate_coordination_cost_included_once": candidate["resource_usage"]["coordination_cost"],
@@ -197,3 +205,7 @@ def run_interactive_case(
             "evaluator_cost_class": "SEPARATE_NOT_CHARGED_TO_CANDIDATE",
         },
     }
+    if release_private_evidence:
+        result["oracle_side_environment_trace"] = private_trace
+    result["post_run_result_sha256"] = canonical_trace_sha256(result)
+    return result
