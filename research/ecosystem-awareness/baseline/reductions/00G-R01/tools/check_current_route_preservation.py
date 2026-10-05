@@ -25,9 +25,12 @@ BASELINE_COMMIT = "a96f14718a3b2f307b812ae4d8fe278dffb62764"
 BASELINE_BY_FILE = {
     # Active C02 material was added after the initial preservation audit.
     # Each file is compared from the commit that established the current pre-editorial content.
-    "README.md": "6cc3e8616f7a03a2da851767011def05f220937b",
+    "README.md": "9d644d0702022d93978a43520deb157ba2e1661e",
     "COMPUTABILITY_AND_ORACLE_PLAN.md": "42b0102bcb801cda2d21445e48c7f7e4e5dc9478",
-    "feasibility/WORKPLAN.md": "8b3d835cb937eb02f348875f820eb9dfbfccea2a",
+    "STRATEGIC_WORKPLAN_AND_EXECUTION_PROMPT.md": "cfbff4801f4ba24fb4be6e17fcd8a38104fe39d8",
+    "feasibility/README.md": "9a0b6024d59511af87e56764d544c69b4ffad0c5",
+    "feasibility/CONTINUATION_PROMPT.md": "1ef1eab2c842299a05a6b448182bdec0a3f81c95",
+    "feasibility/WORKPLAN.md": "50a0ae48b8bc9c0077119e104c0fdd997d7a2f84",
     "oracle/README.md": "a05a57ac9e3b1b883d60d7a82d1c6b4298862362",
     "oracle/SELFTEST_RECORD_v0.3.md": "7ea76588b1b7e68c5b0f560f9c0276b7fb2b0475",
     "oracle/SELFTEST_RECORD_v0.4.md": "3a8030351968edf5762c8b831e054d380fb6c03c",
