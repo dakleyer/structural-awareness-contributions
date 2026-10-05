@@ -14,7 +14,7 @@ Preserve that package. Build a versioned R01 evaluator with explicit projections
 
 ## Current claim boundary
 
-This revision starts **design preparation for C02 by explicit maintainer instruction**. It does not satisfy the C02 entry criteria, does not authorize C11 registration or T03 execution, and does not report a real-technology result.
+This revision now contains a **limited Stage-0 C02 instrumentation implementation**. It does not satisfy C02 closure criteria, does not authorize C11 registration or T03 execution, and does not report a real-technology result.
 
 The limits are deliberately strict:
 
@@ -35,12 +35,15 @@ The first neutral instrument now lives at [`oracle/`](./oracle/README.md). It im
 - two separately coded exact reference paths over the first finite trajectory representation;
 - oracle-blind candidate invocation and candidate-trace sealing before reference evaluation;
 - separate candidate-operational and evaluator/oracle accounting;
-- four author-constructed Stage-0 vectors: positive, connector boundary, rejection and tied optima;
+- six author-constructed Stage-0 vectors: positive, connector boundary, rejection, tied optima, no-reference and cost/deadline;
 - an instrumentation-only self-test adapter and `verify.py`;
 - Nelson-inspired deterministic replay, case-order reversal, malformed-record isolation and explicit source-attributed baseline reuse;
 - R01-specific identifier-permutation and no-reference `INCONCLUSIVE` controls;
-- a bounded §2.6 [tool broker](./oracle/TOOL_BROKER_CONTRACT.md) separating public participant responses from private effect/adjudication traces;
+- semantic admission checks, ambiguous-type rejection and a declared nonnegative-base control;
+- harness-authoritative batch resource measurement, including a deliberate self-report mismatch control;
+- a bounded §2.6 [tool broker](./oracle/TOOL_BROKER_CONTRACT.md) separating public participant responses from private effect/adjudication traces and enforcing the strict review/commitment state in the interactive profile;
 - batch and interactive technology-adapter modes plus a [real-technology registration template](./oracle/REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json);
+- a [frozen Stage-0 executable manifest](./oracle/STAGE0_FREEZE_v0.4.json) verified before the recorded v0.4 run;
 - CI invocation through `.github/workflows/r01-audit-v2.yml`.
 
 This is **not C02 completion**. The current second reference path is a separate implementation by the same maintainer, not independent external validation. The UC-4 bridge is `R01-BRIDGE-DRAFT` until Nelson reviews/corrects the mapping, and the exact upstream UC-4 schema package has not been vendored into this repository. C11/T03 remain blocked.
