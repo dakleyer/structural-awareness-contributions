@@ -24,8 +24,45 @@ from contracts import (
 )
 from reference import evaluate_world
 from reference_secondary import evaluate_world_secondary
+from integrity import load_and_verify
 
 HERE = Path(__file__).resolve().parent
+
+REQUIRED_FREEZE_PATHS = {
+    "adapter_api.py",
+    "canonical_trace_v1.py",
+    "contracts.py",
+    "harness.py",
+    "integrity.py",
+    "interactive_harness.py",
+    "reference.py",
+    "reference_secondary.py",
+    "tool_broker.py",
+    "verify.py",
+    "schemas/r01_uc4_sidecar.schema.json",
+    "fixtures/stage0/experiment_sidecar.json",
+    "fixtures/stage0/worlds.json",
+    "fixtures/stage0/expected_selftest.json",
+    "fixtures/stage0/tool_profile.json",
+    "fixtures/stage0/interactive_tool_profile.json",
+    "fixtures/stage0/interactive_case.json",
+    "adapters/selftest_adapter.py",
+    "adapters/malformed_selftest_adapter.py",
+    "adapters/abstain_selftest_adapter.py",
+    "adapters/misreport_cost_selftest_adapter.py",
+    "adapters/interactive_selftest_adapter.py",
+}
+
+
+def verify_stage0_freeze():
+    manifest_path = HERE / "STAGE0_FREEZE_v0.4.json"
+    result = load_and_verify(HERE, manifest_path)
+    manifest = load_json(manifest_path)
+    frozen_paths = {entry["path"] for entry in manifest["files"]}
+    missing = sorted(REQUIRED_FREEZE_PATHS - frozen_paths)
+    if missing:
+        raise AssertionError(f"freeze manifest omitted required Stage-0 paths: {missing}")
+    return result
 
 
 def outcome(result):
@@ -145,6 +182,7 @@ def run_tool_broker_controls():
 
 
 def main() -> None:
+    freeze_result = verify_stage0_freeze()
     sidecar = load_json(HERE / "fixtures/stage0/experiment_sidecar.json")
     bundle = load_json(HERE / "fixtures/stage0/worlds.json")
     expected = load_json(HERE / "fixtures/stage0/expected_selftest.json")["expected_status"]
@@ -351,6 +389,7 @@ def main() -> None:
             for vector_id in expected
         ],
         "controls": {
+            "freeze_manifest_integrity": f"PASS:{freeze_result['files_checked']}",
             "two_reference_methods_agree": "PASS",
             "deterministic_replay_hash": "PASS",
             "case_order_reversal": "PASS",
