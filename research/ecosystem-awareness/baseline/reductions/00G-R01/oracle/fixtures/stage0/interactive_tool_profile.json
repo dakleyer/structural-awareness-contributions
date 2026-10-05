@@ -107,6 +107,17 @@
         "private": {
           "admissible": false
         }
+      },
+      "rel-01-reject": {
+        "response": {
+          "relation_id": "rel-01-reject",
+          "scope": "cand-01",
+          "compatibility": "INCOMPATIBILITY_DETECTED",
+          "version": "v2-control"
+        },
+        "private": {
+          "admissible": false
+        }
       }
     },
     "mandates": {
