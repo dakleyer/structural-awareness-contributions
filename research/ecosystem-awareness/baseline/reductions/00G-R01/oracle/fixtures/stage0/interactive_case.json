@@ -6,14 +6,38 @@
     "task_id": "same-mission-improvement",
     "mandate_id": "mission",
     "candidate_handles": [
-      {"candidate_id": "cand-01", "relation_id": "rel-01"},
-      {"candidate_id": "cand-02", "relation_id": "rel-02"}
-    ]
+      {
+        "candidate_id": "cand-01",
+        "relation_id": "rel-01"
+      },
+      {
+        "candidate_id": "cand-02",
+        "relation_id": "rel-02"
+      }
+    ],
+    "receiver_id": "agent-1",
+    "principal_id": "principal-1"
   },
   "private_world": {
     "trajectories": [
-      {"trajectory_id": "cand-01", "steps": [{"benefit": 6, "admissible": true}]},
-      {"trajectory_id": "cand-02", "steps": [{"benefit": 9, "admissible": false}]}
+      {
+        "trajectory_id": "cand-01",
+        "steps": [
+          {
+            "benefit": 6,
+            "admissible": true
+          }
+        ]
+      },
+      {
+        "trajectory_id": "cand-02",
+        "steps": [
+          {
+            "benefit": 9,
+            "admissible": false
+          }
+        ]
+      }
     ]
   }
 }
