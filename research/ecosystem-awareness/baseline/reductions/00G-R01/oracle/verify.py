@@ -64,7 +64,7 @@ REQUIRED_FREEZE_PATHS = {
 
 
 def verify_stage0_freeze():
-    manifest_path = HERE / "STAGE0_FREEZE_v0.6.json"
+    manifest_path = HERE / "STAGE0_FREEZE_v0.7.json"
     result = load_and_verify(HERE, manifest_path)
     manifest = load_json(manifest_path)
     frozen_paths = {entry["path"] for entry in manifest["files"]}
@@ -637,7 +637,7 @@ def main() -> None:
         raise AssertionError("post-campaign evidence release altered candidate trace seal")
 
     summary = {
-        "instrument": "R01-C02-neutral-harness-0.6",
+        "instrument": "R01-C02-neutral-harness-0.7",
         "result": "SELFTEST_PASS",
         "vectors": [
             {"test_vector_id": vector_id, "status": first[vector_id]["status"]}
