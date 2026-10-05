@@ -87,6 +87,7 @@ def run_bundle(worlds, sidecar, adapter_path):
         results[world["test_vector_id"]] = {
             "status": status,
             "candidate_trace_sha256": result.get("candidate_trace_sha256_before_oracle"),
+            "post_run_result_sha256": result.get("post_run_result_sha256"),
             "result": result,
         }
     return results
@@ -324,7 +325,9 @@ def main() -> None:
         if first[vector_id]["status"] != replay[vector_id]["status"]:
             raise AssertionError(f"{vector_id}: replay status changed")
         if first[vector_id]["candidate_trace_sha256"] != replay[vector_id]["candidate_trace_sha256"]:
-            raise AssertionError(f"{vector_id}: deterministic replay hash changed")
+            raise AssertionError(f"{vector_id}: deterministic replay candidate hash changed")
+        if first[vector_id]["post_run_result_sha256"] != replay[vector_id]["post_run_result_sha256"]:
+            raise AssertionError(f"{vector_id}: deterministic replay post-run result hash changed")
 
     # Nelson-inspired metamorphic control: case order must not alter a stateless Stage-0 result.
     reversed_run = run_bundle(list(reversed(worlds)), sidecar, normal_adapter)
@@ -601,7 +604,37 @@ def main() -> None:
         interactive["candidate_trace_sha256_before_oracle"]
         != interactive_replay["candidate_trace_sha256_before_oracle"]
     ):
-        raise AssertionError("interactive deterministic replay hash changed")
+        raise AssertionError("interactive deterministic replay candidate hash changed")
+    if interactive["post_run_result_sha256"] != interactive_replay["post_run_result_sha256"]:
+        raise AssertionError("interactive deterministic replay post-run result hash changed")
+    if interactive.get("private_evidence_released") is not False:
+        raise AssertionError("interactive private evidence was released by default")
+    if "oracle_side_environment_trace" in interactive:
+        raise AssertionError("interactive private environment trace escaped default result")
+    if not interactive.get("oracle_side_environment_trace_sha256"):
+        raise AssertionError("interactive private evidence commitment missing")
+
+    released_interactive = run_interactive_case(
+        interactive_case,
+        interactive_sidecar,
+        interactive_profile,
+        HERE / interactive_sidecar["r01"]["adapter"]["path"],
+        release_private_evidence=True,
+    )
+    if released_interactive.get("private_evidence_released") is not True:
+        raise AssertionError("authorized private-evidence release was not marked")
+    if "oracle_side_environment_trace" not in released_interactive:
+        raise AssertionError("authorized private-evidence release omitted the trace")
+    if (
+        released_interactive["oracle_side_environment_trace_sha256"]
+        != interactive["oracle_side_environment_trace_sha256"]
+    ):
+        raise AssertionError("private evidence commitment changed on authorized release")
+    if (
+        released_interactive["candidate_trace_sha256_before_oracle"]
+        != interactive["candidate_trace_sha256_before_oracle"]
+    ):
+        raise AssertionError("post-campaign evidence release altered candidate trace seal")
 
     summary = {
         "instrument": "R01-C02-neutral-harness-0.6",
@@ -613,7 +646,8 @@ def main() -> None:
         "controls": {
             "freeze_manifest_integrity": f"PASS:{freeze_result['files_checked']}",
             "two_reference_methods_agree": "PASS",
-            "deterministic_replay_hash": "PASS",
+            "deterministic_replay_candidate_hash": "PASS",
+            "deterministic_replay_post_run_hash": "PASS",
             "case_order_reversal": "PASS",
             "identifier_permutation": "PASS",
             "oracle_blindness_negative_control": leak_control,
@@ -636,6 +670,7 @@ def main() -> None:
             "tool_broker_visibility_accounting": tool_broker_control,
             "interactive_adapter_broker_oracle_path": "PASS",
             "interactive_adapter_replay_hash": "PASS",
+            "private_evidence_commitment_and_deferred_release": "PASS",
         },
         "claim": "instrumentation self-test only; no real technology executed",
     }
