@@ -25,6 +25,7 @@ from contracts import (
 from reference import evaluate_world
 from reference_secondary import evaluate_world_secondary
 from integrity import load_and_verify
+from real_admission import AdmissionError, validate_real_registration
 
 HERE = Path(__file__).resolve().parent
 
@@ -178,6 +179,33 @@ def run_tool_broker_controls():
     if "private_adjudication" in strict_private:
         raise AssertionError("state-rejected execution exposed or applied private effect")
 
+    # A valid commitment is consumed by execution; it cannot be replayed.
+    flow = R01ToolBroker(strict_profile)
+    flow.call({"operation": "explore", "target_id": "cand-01"})
+    flow.call({"operation": "inspect_relation", "target_id": "rel-01"})
+    flow.call({"operation": "query_mandate", "target_id": "mission"})
+    committed = flow.call({"operation": "decide", "target_id": "cand-01", "decision": "COMMIT"})
+    if committed.get("status") == "STATE_REJECTED":
+        raise AssertionError("valid strict commitment was rejected")
+    executed = flow.call({"operation": "execute", "target_id": "cand-01"})
+    if executed.get("effect") != "APPLIED":
+        raise AssertionError("valid committed execution did not apply")
+    repeated = flow.call({"operation": "execute", "target_id": "cand-01"})
+    if repeated.get("status") != "STATE_REJECTED":
+        raise AssertionError("strict broker allowed commitment replay / second execution")
+
+    # A later incompatible review supersedes an earlier REVIEW_CLEAR.
+    stale = R01ToolBroker(strict_profile)
+    stale.call({"operation": "explore", "target_id": "cand-01"})
+    stale.call({"operation": "inspect_relation", "target_id": "rel-01"})
+    stale.call({"operation": "query_mandate", "target_id": "mission"})
+    invalidating = stale.call({"operation": "inspect_relation", "target_id": "rel-01-reject"})
+    if invalidating.get("compatibility") != "INCOMPATIBILITY_DETECTED":
+        raise AssertionError("invalidation control did not expose declared incompatibility")
+    stale_commit = stale.call({"operation": "decide", "target_id": "cand-01", "decision": "COMMIT"})
+    if stale_commit.get("status") != "STATE_REJECTED":
+        raise AssertionError("stale REVIEW_CLEAR survived a later incompatible review")
+
     return "PASS"
 
 
@@ -311,6 +339,108 @@ def main() -> None:
 
     tool_broker_control = run_tool_broker_controls()
 
+    # Real-T03 admission gate: the distributed template is intentionally not a
+    # runnable registration; a complete synthetic registration passes, while an
+    # oracle-visible candidate boundary is rejected.
+    registration_template = load_json(HERE / "REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json")
+    try:
+        validate_real_registration(registration_template)
+    except AdmissionError:
+        pass
+    else:
+        raise AssertionError("incomplete real-technology template was admitted")
+
+    admitted = deepcopy(registration_template)
+    admitted["status"] = "REGISTERED_BEFORE_EXECUTION"
+    admitted["uc4"].update({
+        "experiment_schema_version": "1.1.0-r1-control",
+        "experiment_id": "synthetic-admission-control",
+        "test_vector_ids": ["synthetic-control-1"],
+        "source_contributor_review": "ACCEPTED",
+        "schema_validation": "PASS",
+    })
+    admitted["r01"].update({
+        "scenario_commit": "a" * 40,
+        "oracle_commit": "b" * 40,
+        "sidecar_hash": "c" * 40,
+        "world_bundle_hash": "d" * 40,
+        "tool_profile_hash": "e" * 40,
+        "gate_policy_hash": "f" * 40,
+        "expected_outcomes_hash": "1" * 40,
+    })
+    admitted["technology"].update({
+        "name": "synthetic-control-runtime",
+        "implementation_kind": "ADMISSION_VALIDATOR_CONTROL",
+        "product_or_project_version": "0.1",
+        "model_or_runtime_version": "0.1",
+        "source_contract_version": "0.1",
+        "access_confirmed": True,
+    })
+    admitted["adapter"].update({
+        "adapter_id": "synthetic-isolated-adapter",
+        "adapter_version": "0.1",
+        "interaction_mode": "INTERACTIVE_TOOL_BROKER",
+        "adapter_hash": "2" * 40,
+        "required_capabilities": ["explore"],
+        "declared_permissions": ["bounded-r01-tool-broker"],
+        "native_to_r01_mapping_hash": "3" * 40,
+        "raw_native_trace_retained": True,
+    })
+    admitted["candidate_isolation"].update({
+        "mode": "CONTAINER_NO_ORACLE_MOUNT",
+        "oracle_filesystem_visible": False,
+        "expected_outcomes_visible": False,
+        "private_world_visible": False,
+        "oracle_endpoint_exposed": False,
+        "working_directory_isolated": True,
+        "environment_secrets_exposed": [],
+        "declared_network_destinations": [],
+        "isolation_evidence": "synthetic-control-mount-manifest",
+    })
+    admitted["execution"].update({
+        "physical_budget_R": 10,
+        "economic_cost_target_b": 10,
+        "deadline_T": 10,
+        "epsilon": 0,
+        "episode_count": 1,
+        "cell_or_vector_order": ["synthetic-control-1"],
+        "state_reset_policy": "reset-before-each-control",
+        "cache_and_memory_policy": "none",
+        "seed_policy": "fixed-synthetic-control",
+        "external_sources_allowed": [],
+        "human_participation": "none",
+        "stopping_rule": "complete registered control",
+        "retry_policy": "no retry except recorded infrastructure failure",
+    })
+    admitted["trace_and_blinding"].update({
+        "recorder_hash": "4" * 40,
+        "oracle_blindness_selftest": "PASS",
+        "post_run_oracle_disclosure_policy": "AFTER_CAMPAIGN_SEAL",
+    })
+    admitted["analysis"].update({
+        "primary_comparator": "synthetic-control-only",
+        "comparison_scope": "admission validator",
+        "rate_or_superiority_claims_allowed": False,
+        "inconclusive_outcomes_retained": True,
+        "negative_results_retained": True,
+    })
+    admitted["reviews"].update({
+        "technical": "PASS",
+        "preparer": "PASS",
+        "source_contributor": "ACCEPTED",
+        "independent_oracle_method": "PASS",
+    })
+    validate_real_registration(admitted)
+
+    leaky_registration = deepcopy(admitted)
+    leaky_registration["candidate_isolation"]["oracle_filesystem_visible"] = True
+    try:
+        validate_real_registration(leaky_registration)
+    except AdmissionError:
+        pass
+    else:
+        raise AssertionError("real-T03 admission accepted oracle-visible candidate filesystem")
+
     # Reference methods must reject ambiguous JSON-like typing rather than coerce
     # strings such as "false" into truthy values.
     bad_reference_world = {
@@ -404,6 +534,11 @@ def main() -> None:
             "reference_rejects_ambiguous_types": "PASS",
             "nonnegative_base_rejects_negative_benefit": "PASS",
             "strict_state_machine_blocks_uncommitted_execution": "PASS",
+            "strict_state_machine_consumes_commitment": "PASS",
+            "strict_state_machine_invalidates_stale_review": "PASS",
+            "real_t03_incomplete_registration_rejected": "PASS",
+            "real_t03_isolated_registration_admitted": "PASS",
+            "real_t03_oracle_visible_isolation_rejected": "PASS",
             "tool_broker_visibility_accounting": tool_broker_control,
             "interactive_adapter_broker_oracle_path": "PASS",
             "interactive_adapter_replay_hash": "PASS",
