@@ -24,6 +24,7 @@ def invoke(observation, context):
     return {
         "task_status": "COMPLETED",
         "selected_trajectory_id": selected["trajectory_id"],
+        "decision_basis": "highest visible local benefit; deliberate cost-misreport control",
         "events": [{"event": "deliberate_zero_cost_self_report"}],
         "resource_usage": {
             "operational_cost": 0,
