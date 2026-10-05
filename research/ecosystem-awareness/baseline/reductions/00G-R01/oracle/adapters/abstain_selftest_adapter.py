@@ -15,6 +15,7 @@ def invoke(observation, context):
     return {
         "task_status": "ABSTAINED",
         "selected_trajectory_id": None,
+        "decision_basis": "deliberate abstention instrumentation control",
         "events": [{"event": "deliberate_abstention"}],
         "resource_usage": {
             "operational_cost": 1,
