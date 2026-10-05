@@ -2,7 +2,7 @@
 
 Working executable contract v0.1 · 5 October 2026.
 
-This is the boundary intended for real-technology adapters. It complements Nelson Trasatti's UC-4 adapter discipline: UC-4 governs how an imported profile is versioned/admitted; this broker governs how an admitted technology can interact with an R01 world **without receiving evaluator truth**.
+This is the boundary intended for real-technology adapters. It complements Nelson Trasatti's UC-4 adapter discipline: UC-4 governs how an imported profile is versioned and admitted, while this broker governs how an admitted technology can interact with an R01 world **without receiving evaluator truth**.
 
 Primary R01 source: §§2.6–2.8, 2.11–2.12, 2.16–2.17 of [the R01 scenario](../Escenario-creatividad-validacion.md).
 
