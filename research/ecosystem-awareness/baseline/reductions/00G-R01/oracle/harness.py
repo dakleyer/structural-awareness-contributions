@@ -262,8 +262,8 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
             evaluation_scope="BATCH_CONFORMANCE",
         )
 
-    return {
-        "schema": "R01-C02-STAGE0-RESULT-0.2",
+    result = {
+        "schema": "R01-C02-STAGE0-RESULT-0.3",
         "test_vector_id": world["test_vector_id"],
         "candidate_trace_sha256_before_oracle": sealed_candidate_sha256,
         "candidate": candidate,
@@ -283,6 +283,8 @@ def run_case(world: Mapping[str, Any], sidecar: Mapping[str, Any], adapter_path:
             "evaluator_cost_class": "SEPARATE_NOT_CHARGED_TO_CANDIDATE",
         },
     }
+    result["post_run_result_sha256"] = canonical_trace_sha256(result)
+    return result
 
 
 def load_json(path: Path):
