@@ -40,6 +40,7 @@ REQUIRED_MANIFEST_FIELDS = {
     "source_owner",
     "source_contract_version",
     "required_capabilities",
+    "interaction_mode",
 }
 
 
