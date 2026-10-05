@@ -11,6 +11,7 @@ from __future__ import annotations
 from copy import deepcopy
 import json
 from pathlib import Path
+import random
 
 from harness import assert_oracle_blind, load_json, run_case
 from tool_broker import R01ToolBroker
@@ -26,6 +27,8 @@ from reference import evaluate_world
 from reference_secondary import evaluate_world_secondary
 from integrity import load_and_verify
 from real_admission import AdmissionError, validate_real_registration
+from reference_graph_exhaustive import evaluate_graph_exhaustive
+from reference_graph_dp import evaluate_graph_dp
 
 HERE = Path(__file__).resolve().parent
 
@@ -207,6 +210,75 @@ def run_tool_broker_controls():
         raise AssertionError("stale REVIEW_CLEAR survived a later incompatible review")
 
     return "PASS"
+
+
+def _compare_graph_references(graph):
+    exhaustive = evaluate_graph_exhaustive(graph)
+    dynamic = evaluate_graph_dp(graph)
+    keys = ("reference_status", "optimum_J", "optimum_path_ids")
+    if any(exhaustive.get(k) != dynamic.get(k) for k in keys):
+        raise AssertionError(
+            f"graph references disagree: exhaustive={exhaustive} dynamic={dynamic}"
+        )
+    return exhaustive, dynamic
+
+
+def _generated_graph_controls(count=64):
+    rng = random.Random(1701)
+    results = []
+    for index in range(count):
+        a_nodes = [f"A{j}" for j in range(3)]
+        b_nodes = [f"B{j}" for j in range(3)]
+        order = ["S"] + a_nodes + b_nodes + ["T"]
+        nodes = [{"id": "S", "benefit": 0, "admissible": True}]
+        for nid in a_nodes + b_nodes:
+            nodes.append({
+                "id": nid,
+                "benefit": rng.randint(0, 7),
+                "admissible": bool(rng.randint(0, 4)),
+            })
+        nodes.append({"id": "T", "benefit": 0, "admissible": True})
+
+        edges = []
+        for a in a_nodes:
+            edges.append({
+                "from": "S",
+                "to": a,
+                "benefit": rng.randint(0, 3),
+                "admissible": bool(rng.randint(0, 5)),
+            })
+        for a in a_nodes:
+            for b in b_nodes:
+                if rng.randint(0, 1):
+                    edges.append({
+                        "from": a,
+                        "to": b,
+                        "benefit": rng.randint(0, 3),
+                        "admissible": bool(rng.randint(0, 5)),
+                    })
+        for b in b_nodes:
+            edges.append({
+                "from": b,
+                "to": "T",
+                "benefit": rng.randint(0, 3),
+                "admissible": bool(rng.randint(0, 5)),
+            })
+
+        graph = {
+            "control_id": f"GENERATED-{index:03d}",
+            "start": "S",
+            "terminals": ["T"],
+            "topological_order": order,
+            "nodes": nodes,
+            "edges": edges,
+        }
+        exhaustive, dynamic = _compare_graph_references(graph)
+        results.append({
+            "control_id": graph["control_id"],
+            "status": exhaustive["reference_status"],
+            "optimum_J": exhaustive.get("optimum_J"),
+        })
+    return results
 
 
 def main() -> None:
@@ -469,6 +541,21 @@ def main() -> None:
     else:
         raise AssertionError("NONNEGATIVE_BASE admission accepted a negative benefit")
 
+    # Cross-representation oracle hardening: exhaustive path enumeration and
+    # dynamic programming must agree on fixed and generated nonnegative DAGs.
+    graph_controls = load_json(HERE / "fixtures/stage0/graph_reference_controls.json")
+    if graph_controls.get("benefit_regime") != "NONNEGATIVE_BASE":
+        raise AssertionError("graph oracle controls must stay in the nonnegative base regime")
+    for graph in graph_controls["graphs"]:
+        exhaustive, dynamic = _compare_graph_references(graph)
+        if exhaustive.get("optimum_J") != graph["expected_optimum_J"]:
+            raise AssertionError(f"{graph['control_id']}: fixed graph optimum mismatch")
+        if exhaustive.get("optimum_path_ids") != graph["expected_optimum_path_ids"]:
+            raise AssertionError(f"{graph['control_id']}: fixed graph tie/path mismatch")
+    generated_graph_results = _generated_graph_controls(64)
+    if len(generated_graph_results) != 64:
+        raise AssertionError("generated graph cross-check count mismatch")
+
     # End-to-end interactive adapter -> broker -> sealed trace -> private oracle.
     interactive_case = load_json(HERE / "fixtures/stage0/interactive_case.json")
     interactive_profile = load_json(HERE / "fixtures/stage0/interactive_tool_profile.json")
@@ -533,6 +620,8 @@ def main() -> None:
             "semantic_admission_contracts": "PASS",
             "reference_rejects_ambiguous_types": "PASS",
             "nonnegative_base_rejects_negative_benefit": "PASS",
+            "graph_reference_fixed_controls": "PASS",
+            "graph_reference_generated_64": "PASS",
             "strict_state_machine_blocks_uncommitted_execution": "PASS",
             "strict_state_machine_consumes_commitment": "PASS",
             "strict_state_machine_invalidates_stale_review": "PASS",
