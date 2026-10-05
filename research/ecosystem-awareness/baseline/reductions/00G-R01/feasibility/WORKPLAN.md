@@ -14,7 +14,7 @@ The author's review of kernel v0.2, repairs and consistency review of the three 
 | M17 | Complete clause-level fidelity and technology-correspondence audit. | [Theorem v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md), [author's audit](./R01_AUDIT_CONTINUITY_AND_REPAIRS.md) and [extension review](./EXTENSION_CONSISTENCY_REVIEW.md). Preserve existing development; check only channels, policies or costs whose coverage remains unverified. |
 | P08 | Verify the current edition without changing historical manifests. | Hash differences already recorded. Report correspondence by version; do not overwrite historical records or claim joint reproduction without verification. |
 
-## Later stages — three deliveries, no premature execution
+## Instrument and later campaign stages — C02 active, C11/T03 gated
 
 | ID | Delivery | Entry condition |
 |---|---|---|
@@ -32,7 +32,7 @@ Source, counterexample, readability, visual, link and preservation reviews belon
 
 ## Removed from the active queue
 
-All 55 IDs and their historical criteria remain in the registry. There are 4 active tasks, 3 later deliveries, 4 historical closures, 3 works complete within their own scope, 37 consolidated obligations and 4 works outside current scope. Consolidated or out of scope does not mean validated or executed.
+All 55 IDs and their historical criteria remain in the registry. There are 5 active tasks, 2 later deliveries, 4 historical closures, 3 works complete within their own scope, 37 consolidated obligations and 4 works outside current scope. Consolidated or out of scope does not mean validated or executed.
 
 M03/M04/M12 do not require the base proof to be rebuilt: the [canonical theorem](./R01_CONDITIONED_TRILEMMA_THEOREM.md) and its repairs cover their own delivery, while M16/M17 retain outstanding coverage. Prospective selection and broad replication C14/P11/P12/T12 are not scheduled in this work; their criteria remain for a different scope.
 
