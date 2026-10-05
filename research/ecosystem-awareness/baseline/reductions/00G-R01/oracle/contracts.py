@@ -82,6 +82,13 @@ def validate_sidecar(sidecar: Mapping[str, Any]) -> None:
     if not isinstance(world_bundle, Mapping):
         raise ContractError("r01.world_bundle is required")
     _safe_relative_path(world_bundle.get("path"), "r01.world_bundle.path")
+    if world_bundle.get("integrity_policy") != "GIT_BLOB_SHA_MANIFEST":
+        raise ContractError("world bundle must use GIT_BLOB_SHA_MANIFEST integrity")
+    manifest_path = _safe_relative_path(
+        world_bundle.get("integrity_manifest"), "r01.world_bundle.integrity_manifest"
+    )
+    if "/" in manifest_path:
+        raise ContractError("Stage-0 integrity manifest must be at oracle package root")
 
     adapter = r01.get("adapter")
     if not isinstance(adapter, Mapping):
