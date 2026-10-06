@@ -1,0 +1,403 @@
+{
+  "edition": "0.5",
+  "date": "2026-10-06",
+  "input_commit": "7124d256713c19e9be8ea353c66354f75426ca5c",
+  "owner_authorized_scope": "Canonical HEW mechanism/DDS research incorporation and first bounded model tests",
+  "current_run": "HEW-DDS-MODEL-20261006-04",
+  "software_model": "HEW-DDS-SQLITE-MODEL-0.2",
+  "assertions": 48,
+  "calendar_references": 42,
+  "new_math_theorem_or_native_campaign": false,
+  "real_human_or_native_vendor_execution": false,
+  "source_false_counterexample": "FAIL_VIOLATION retained",
+  "full_DDS_or_production_acceptance": false,
+  "self_hash_rule": "This manifest excludes its own SHA to avoid a circular hash; the Git tree identifies it.",
+  "files": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/DDS_CONTROLS.json",
+      "bytes": 6103,
+      "chars": 6103,
+      "sha256": "2b73c59eda6c37d89bcae282dac72ec9a3f0f7b465f5a7e21e9e1f0069663fc1",
+      "git_blob_sha": "43d4640c1fa9b5307816c4291deb83d8ac550fe8"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/DELIVERY_MAP.json",
+      "bytes": 1732,
+      "chars": 1732,
+      "sha256": "c926045b678b3c70f092d1ca395104690274f1d03aade3f08910e5d2555b740f",
+      "git_blob_sha": "73e29290249cf6a94799b7da1662c99867b67add"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/EXECUTIVE_REPORT.md",
+      "bytes": 3396,
+      "chars": 3390,
+      "sha256": "fc9b64b0871877692ad2f8d82d589e7e4982f79a4ad82da377b1d6c0c43f7f44",
+      "git_blob_sha": "1955f58d01c89fcccadadd2a63d25d8c6ca7d726"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/FREEZE.json",
+      "bytes": 1227,
+      "chars": 1227,
+      "sha256": "fc978ba94f62e82883b3ae09d30a35f4dbf8a8f1c7c6e5be67e68e2d7b64050c",
+      "git_blob_sha": "9b913259eaf631bf3e366984f19827c06b70ba3c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/hew_oracle.py",
+      "bytes": 4386,
+      "chars": 4386,
+      "sha256": "79388fb9fc31f396712f427faff5a29db51c4397e6e23f91c0945774fc20aa2c",
+      "git_blob_sha": "a32cb98477394c877edd7b0d3c108bf0a4c3ec66"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/hew_runtime.py",
+      "bytes": 21464,
+      "chars": 21464,
+      "sha256": "d485a1b6e231123b1f1f6e3bb1c1ce5c6d1ac10c36cc2b0b33f2b51cb6c4a233",
+      "git_blob_sha": "3695a58f8acd208e3491a7643f8c6a0e8b8aee13"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/PRESTANDARDISATION_INPUT_DRAFT.md",
+      "bytes": 3096,
+      "chars": 3089,
+      "sha256": "38255f3f40b7f08d49a3a08fdc86b35c3f32079b4aad3e9bd45b8b77e186c16b",
+      "git_blob_sha": "e042e7deae24f28e18cbd0cf05475489096183fe"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/analytical_fixture_results_2026-10-06.json",
+      "bytes": 14397,
+      "chars": 14397,
+      "sha256": "8153a155ebb548c6004d7f74ab71c50306c1dba3efc85a0f223986a727071428",
+      "git_blob_sha": "4b922b70f45f11e82158d68cb48765ab4088e1ef"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.2_2026-10-06.json",
+      "bytes": 17172,
+      "chars": 17172,
+      "sha256": "bb43ff3c23721a002d26f4b8302eb96887f996748626b1feb03ce4eb035ea7e3",
+      "git_blob_sha": "31cb20cb2f9666f75be0281912706288c57aa677"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.3_2026-10-06.json",
+      "bytes": 17340,
+      "chars": 17340,
+      "sha256": "a33b37ebd650f60e71b155a97b2d0b227daba3fc1ecddf9b84540172e232dd1c",
+      "git_blob_sha": "f91edd3b1cf9a10b95a660226bb31bef0c0a5fa6"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/check_analytical_fixture_2026-10-06.py",
+      "bytes": 8896,
+      "chars": 8896,
+      "sha256": "ccf3dd0f30fdfe2a26304073aba86768766bab277e5abca163383b92d2af3461",
+      "git_blob_sha": "23a5b9ed99021db79a47d1750656e254d064009b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/check_analytical_fixture_v0.2_2026-10-06.py",
+      "bytes": 9468,
+      "chars": 9468,
+      "sha256": "52fbdacbf096ad0f54d613f9ca7894ffffeaba3947ec4c0b01b8684bea070c99",
+      "git_blob_sha": "fd24866c6d6cfa7a5a64979c1da2f4de081f4ae2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/check_analytical_fixture_v0.3_2026-10-06.py",
+      "bytes": 9496,
+      "chars": 9496,
+      "sha256": "bfdfce6a5b3c0cc497b4529485ee933ed5b0a42ca69f25f18c58f5dbc219dbc8",
+      "git_blob_sha": "6b9e715f053a654530b553c791287b82b6265dbd"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/check_fencing_deputy_fixture_v0.1_2026-10-06.py",
+      "bytes": 8148,
+      "chars": 8148,
+      "sha256": "50cf96e0803ef165b2ea034cb1105bd4b574419700f94a1ac441169c905a71ca",
+      "git_blob_sha": "459145b15eb3bd02546997b5e0741b058f1a213b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/document_verification_2026-10-06.json",
+      "bytes": 296,
+      "chars": 296,
+      "sha256": "00cc6d349d6fb7dade51e257363ffbc8108fd8307cd97f9965fdda58657810e9",
+      "git_blob_sha": "291956f128a8e9a2e93e5b1476265404d8f4e080"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/fencing_deputy_results_v0.1_2026-10-06.json",
+      "bytes": 29079,
+      "chars": 29079,
+      "sha256": "233ba5b209828cee4dbbdb63f51d383b2f0af61bf2097924a1c49f823797deb8",
+      "git_blob_sha": "99c76f7bdef12dd56e9f87ee5939943a51e720c1"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/fencing_deputy_run_card_v0.1_2026-10-06.json",
+      "bytes": 6442,
+      "chars": 6442,
+      "sha256": "88fadb19a13fc8319fecea70b21030e70f1d83959584a831e48a4591b55957ee",
+      "git_blob_sha": "4731e891e7cdac6f5856a37f745ebc3a7e5d0da0"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/PROVENANCE.json",
+      "bytes": 4018,
+      "chars": 4018,
+      "sha256": "8b4624b68b004aff22bd902ebef45ee21c449b11f3be8810d04982c64d5096d1",
+      "git_blob_sha": "477fe466e91d23e30dfcfdb5875f23e01a3a7ca7"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/run_card_2026-10-06.json",
+      "bytes": 12708,
+      "chars": 12708,
+      "sha256": "8db12e9a6de6fa07f5905adc5c2f3008cce2a26935f6d7c2ddcb8f477da0e64a",
+      "git_blob_sha": "006e561b24d41e89655952e222ed9bf1291d7ae9"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/run_card_v0.2_2026-10-06.json",
+      "bytes": 16174,
+      "chars": 16174,
+      "sha256": "04d1af407c79b3372ed47a020015b9991dc7435e31317ebced6615b313e40b63",
+      "git_blob_sha": "5c9c931d6b86bbf67d9eb9a5fad4d1b008e8524b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/run_card_v0.3_2026-10-06.json",
+      "bytes": 16049,
+      "chars": 16049,
+      "sha256": "cac96cefc2be7f0c86f5298bac13dbad1b20629d1f3d4b7615d45caa558f1d5d",
+      "git_blob_sha": "ba4f892c7095f401969e4c1be70bd86a2eaf2765"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/SOURCE_REGISTER_2026-10-06.json",
+      "bytes": 5346,
+      "chars": 5346,
+      "sha256": "57bdd7e7d1ba8bb7f1b5dc1f0d06ee0452d33277c13da4bc1a3908df662c9703",
+      "git_blob_sha": "326c3cbca7ed3328bfaa4dfa1ccc8195c565902c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/RELEASE_VERIFICATION.json",
+      "bytes": 3407,
+      "chars": 3407,
+      "sha256": "4bfdbf7728f7e7384de963cb123a6cffe15920ea3cd10faa2b1b9cad7ef0b8eb",
+      "git_blob_sha": "3d35c8d8ea89a8730157dafeb3f48ea17df4cad3"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/RUN_CARD.json",
+      "bytes": 94704,
+      "chars": 94648,
+      "sha256": "aa29c3dfb0bdbf157a68f71ee560761bdcbd3703fc8d7de93d7ee5c7f026882b",
+      "git_blob_sha": "f65bf868f4d212da2421cfa742006523c9a80c6a"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/run_study.py",
+      "bytes": 18720,
+      "chars": 18720,
+      "sha256": "3ef36f043a7cc314cfa2d205433efd64ea05ae82504ed4633915e120d2513a06",
+      "git_blob_sha": "719acff3dc8ae8d461809d215b7a8d06e49a97ec"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-01/RESULTS.json",
+      "bytes": 115242,
+      "chars": 115186,
+      "sha256": "7085c1560d719eedf4259a5da219f5182f0d5647a48934827ad7d1916c750321",
+      "git_blob_sha": "dceec8b5ff7daab42a3a92eb85e8a75c65a032a6"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-02/RESULTS.json",
+      "bytes": 177541,
+      "chars": 177485,
+      "sha256": "c8ab8682fc4ee41ecf7f102c7ed6c5cf21c56eea74c069cf88effc11534e91fb",
+      "git_blob_sha": "71afa405527ae3fce547a8f3d9e263972ecf4708"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-03/RESULTS.json",
+      "bytes": 178154,
+      "chars": 178098,
+      "sha256": "a56c1e140481e5f617cd121d793bea07140b3caf7f7120f90d269ab97f6cd36e",
+      "git_blob_sha": "0262297fb0214db92cc31ae3c9d8f75762fb7760"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/SCENARIO_BATTERY.json",
+      "bytes": 36161,
+      "chars": 36103,
+      "sha256": "c0a1137e871470b6df105148d2cac49913b7308864370cace0133ac9ba0a8c5c",
+      "git_blob_sha": "569ad99c7a95eb36abe62f2cddceb17e489fb149"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/SCOPING_RECORD.json",
+      "bytes": 2376,
+      "chars": 2376,
+      "sha256": "065949a3d2f2769518a3b44e79c3cb246f2bd8a4282d2ba89e5cd5f067de036d",
+      "git_blob_sha": "b834db596ad4554d769b1671bddcd25f5e0c4186"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/SOURCE_REGISTER.json",
+      "bytes": 4592,
+      "chars": 4592,
+      "sha256": "03af3383599829443f50824621b7fe645384371035c9970b107456d96a5f30c0",
+      "git_blob_sha": "395ea1e1f5f699063fbbc9fc3df98623c0ad240c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/TECHNICAL_REPORT.md",
+      "bytes": 15775,
+      "chars": 15741,
+      "sha256": "eaf91a2f479cd519401b03accb42d3a7f65ccbd45f6b133a4b7244c932cfb016",
+      "git_blob_sha": "76443bdecaba1d69601d25787b1baa60852dff1e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/DDS_CANONICAL_PRESERVATION_2026-10-06.json",
+      "bytes": 5738,
+      "chars": 5738,
+      "sha256": "cb0e581c739ac00eb10b2e5bf46b43a2bc3591e3487215dce8fbbdda47092ff2",
+      "git_blob_sha": "f881e456f3e5a84ae88478e3b1e7dd1d31fd9260"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION.md",
+      "bytes": 34256,
+      "chars": 34157,
+      "sha256": "def988866d2eda2373daf9281044cd716385b9c81c7263ab2eff074afa88fe5c",
+      "git_blob_sha": "c61c810ec255ee78415caead8fadeec87ffe20a3"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
+      "bytes": 17760,
+      "chars": 17655,
+      "sha256": "813d3be0f116b6a6266a6741a1135bf1fc14c5503e8b935f3ae7eefb9ad22b9e",
+      "git_blob_sha": "29a1524e911f7822e9aab5e858dcb058b958f1d2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HEW_DDS_STUDY_2026-10-06.md",
+      "bytes": 11077,
+      "chars": 11046,
+      "sha256": "c215bf71a43318e0579d2686a398199192393d94b86504f808639478867132f4",
+      "git_blob_sha": "af249b12b9dff62ae5e46329050b67fd9ba3890c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md",
+      "bytes": 49361,
+      "chars": 49028,
+      "sha256": "a299b4b235858237991f5e4433f15f47f2dfc0e48166460154962fb7003838db",
+      "git_blob_sha": "b53cc318875b849475d26452aaa8fe2d089ce748"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md",
+      "bytes": 21141,
+      "chars": 20975,
+      "sha256": "a1d1b6468986dcc9085b53291c814476c5f6b068649631fa4e0845771fff7a6d",
+      "git_blob_sha": "2f769881fad1da67ee551990b040d136bee84b48"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION.md",
+      "bytes": 18873,
+      "chars": 18813,
+      "sha256": "c6de428f854a42c365b8a87a53f2c9f41ecc042fd4de7400e2311c54956b8882",
+      "git_blob_sha": "f872f7971f3e650b9a04e048c6310db2c9fd573b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md",
+      "bytes": 11286,
+      "chars": 11233,
+      "sha256": "796b6a42279930a562ae99d4b1dbcaa02bc5cfe13b5159cbe9cb0d0ba610738a",
+      "git_blob_sha": "d7341c4e97517b43fca31fa31d9e9f7c2c886be9"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION.md",
+      "bytes": 19894,
+      "chars": 19846,
+      "sha256": "30dc42c1d51a74d9765c3005385736791560fd9d32f9c4af1389cbcda026e90e",
+      "git_blob_sha": "b99b163824f444927a8bb294ba5177d227421dab"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md",
+      "bytes": 11090,
+      "chars": 11039,
+      "sha256": "a23e7b2ac055cc148ed1ad093aeb52bb4859e19f24a702de0dfbd25f72141b98",
+      "git_blob_sha": "0eaafc5d22d92de3a66d29309973a26b9c5196a8"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION.md",
+      "bytes": 24344,
+      "chars": 24290,
+      "sha256": "5564a6323c5a934fbeff2f122ebbd80da0a4dc2158217992222e23615c200040",
+      "git_blob_sha": "f72213f3af5f849ea36a67d0afb93cb2331042de"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md",
+      "bytes": 14966,
+      "chars": 14879,
+      "sha256": "4510e83877e4f599c131fbfc96ff3bc1b9f307ef61407d231be619650ed1accd",
+      "git_blob_sha": "a5e98581cc6eff8df55c34b344b5ad45d6962c75"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+      "bytes": 17741,
+      "chars": 17645,
+      "sha256": "e56530c555fe81f795632bc0adcaebedf2520d5b419e663321ab10f5e4041d22",
+      "git_blob_sha": "f6c33a3fbf76a1cda2705bd1395953a14547611e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+      "bytes": 15782,
+      "chars": 15675,
+      "sha256": "33587f2d06a0b428cb746ec3a379e7b4ea34965295ca89cf93f0fdd3cebe8872",
+      "git_blob_sha": "4412a8d7bd0e7add26861de91e23c913f0bfa1fd"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md",
+      "bytes": 7863,
+      "chars": 7838,
+      "sha256": "2611b780915f25fba89a43bc649557e1f3116d02d8b78a0c0c0984bc64ee6520",
+      "git_blob_sha": "bfa07c6dde8877edf1b2a7507d0309ebb4279e0f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN_STATUS.json",
+      "bytes": 74315,
+      "chars": 74228,
+      "sha256": "53e8347563b59f04836c484ff5f47590ae211bfa425b0c2e838eee81c74a0443",
+      "git_blob_sha": "fd66178cc02402ce3b950b8db578dbeafa4d08f3"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-04/RESULTS.json",
+      "bytes": 178156,
+      "chars": 178100,
+      "sha256": "2a63415c388b77b30e2fd884d2d5f48f2bc38237954850f289bd37ce1c56d929",
+      "git_blob_sha": "320f6ecbed59a42fa7c2aeaa683d8df6da64d684"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/PUBLIC_DISTRIBUTION.md",
+      "bytes": 2138,
+      "chars": 2133,
+      "sha256": "8cdd345fb6aedd0fad4022e5014e4e792bda825434ad7e24871c2f10833a314c",
+      "git_blob_sha": "2bfd456e2c10791073a75eac2feea413ddf829d8"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/DDS_PROFILE_COVERAGE.json",
+      "bytes": 2712,
+      "chars": 2711,
+      "sha256": "ba92db1edf60c81cd831567a46957792dc3cca43b81c8691ac63de484bac0cf8",
+      "git_blob_sha": "7fdde666d7df29b02ad47e3d2cb2cd0b846c9fc3"
+    }
+  ],
+  "publication_parent": "f107eb178157fbf58d07418ce648510cf25756ea",
+  "current_review_procedure": "1.11, scoped compatibility/literal pair and priority record; no global sixth-pass closure",
+  "publication_safety_scope": {
+    "version": "0.4",
+    "reason": "Automatic approval review rejected internal continuation instructions and one historical case containing a private Drive-resource link. Both exact payloads are excluded; A3 creates a separate public-safe catalogue before a new frozen run.",
+    "excluded_paths": [
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/COMMON_HEW_CASE_v0.1_2026-10-06.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/README_VNext.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README_VNext.md",
+      "DOCUMENT_CONTROL.md"
+    ],
+    "public_review_scope": "Technical existing public source and current research outputs only; complete earlier internal exchange preserved locally",
+    "indirect_republication_of_rejected_payload": false,
+    "public_ref_changed_so_far": false,
+    "excluded_prefixes": [
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-01/frozen/",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-02/frozen/"
+    ],
+    "historical_result_policy": "Original result JSON remains unmodified. Original frozen inputs remain complete locally; earlier private-linked catalogues are not published. A3 supplies the self-contained public reproduction.",
+    "reader_index_hold": "Automatic approval review rejected republication of existing navigable continuation links even after current public-source verification. Both index proposals and their owning review proposals remain prepared locally; existing public index blobs are unchanged.",
+    "document_control_hold": "Automatic approval review also rejected the control-document upload as indirect continuity disclosure. Exact candidate stays local; public control unchanged. Specific publication authorization question remains pending."
+  },
+  "public_distribution": "PUBLIC_DISTRIBUTION.md",
+  "reader_index_candidates_published": false,
+  "common_DDS_profile_coverage": "DDS_PROFILE_COVERAGE.json",
+  "public_document_control_candidate_published": false
+}

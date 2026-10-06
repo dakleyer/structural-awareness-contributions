@@ -1,6 +1,6 @@
 # R01 — Human escalation and whispering, mechanism by mechanism
 
-Mathematical version 0.1 · Virtual traversals 0.3 · First technology in the extension protocol · 4 October 2026 · No integration executed.
+Mathematical version 0.1 · Virtual traversals 0.3 · DDS research document addition 0.1 · 6 October 2026 · First deterministic model self-test; no native human/vendor integration.
 [Protocol technologies](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) · [Single base theorem](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 
 ## DDS profile status
@@ -25,6 +25,8 @@ This study is a **rich virtual DDS implementation profile over R01**, not a sepa
 **Remaining DDS completion work** is therefore not to invent another test: preserve the R01 contract, make the I/M/P/Ø crosswalk explicit for reporting, freeze the future harness trace schema, and add Business Value only when a real deployment interpretation exists.
 
 Whispering here means notifying the rest of the group when an agent identifies a problem. Any agent can initiate direct escalation. The human examines the evidence and can order a pause or a legitimate alternative. This is the mechanism requested by the user; no specific quotation is attributed to Nell, and no claim is made that a particular product implements it.
+
+DDS correspondence. This mechanism profile supplies analytical technical evidence for a Deployment Differential Study. Preserve R01 Cost–Risk–Effectiveness and the original q/h/p laws; a declared deployment adds a separate Business Value–Risk–Cost interpretation. The first [canonical HEW DDS research record](./HEW_DDS_STUDY_2026-10-06.md) now includes human-readable scenario selection, scope, freeze, exact reconstructions and a bounded SQLite model integration. These are neither measured human effectiveness nor a completed commissioned DDS.
 
 <a id="why-it-can-help"></a>
 ## 0. Why this technology can help before its traversal
@@ -352,3 +354,34 @@ A simulated human tests the harness under a registered law; it does not calibrat
 | “A residual region always remains” | Not universal; q=1 can resolve this profile. |
 | Real detectors, human and framework | Neither executed nor calibrated. |
 | Oracle / harness / campaign | Later stages, open. |
+
+
+## 9. DDS study correspondence — scenario, deployment value and first model controls
+
+The [HEW DDS study](./HEW_DDS_STUDY_2026-10-06.md) is the current reader entry for the scenario battery, configuration, technical/executive reports, controls, original sources and reproduction command. The existing mathematics and virtual R1/R2/R3 above remain unchanged in meaning. The mathematical version and virtual revision are not replaced by the model's version.
+
+### 9.1 Scenario vocabulary and the90/95 distinction
+
+A scenario joins a human problem description to concrete formal conditions. Problem/environment parameters, acceptance thresholds, technology configuration/controller, comparison arm, virtual traversal and run are separate. R01 R1/R2/R3 are traversals; with/without the studied mechanism are arms within them.00D B0–B3 and DBC-R# keep their own namespaces.
+
+q=0.9 in§7.2 is useful-source certificate coverage conditional onχ=1, with no false positives and the stated a=0.99 law. p=0.95 is the efficacy threshold, and s is legitimate sufficient-delivery probability for the declared controller/law. Human correct review on an applicable witness is assumed, not calibrated. Neither number is a measured human resolution rate, nor can they be multiplied as independent success rates.
+
+The [narrative catalogue](./dds-hew-v0.1/SCENARIO_BATTERY.json) proposes10 local problem-family types and20 paired descriptions. The [current Run Card](./dds-hew-v0.1/RUN_CARD.json) selects exact analytical and finite model instantiations. Parameter sensitivity inside one law is not the same as diversity of human problems. New predicates/error/capacity laws do not inherit H1 without new correspondence/proof.
+
+### 9.2 Action and human-response boundary
+
+For transferable execution ownership, distinguish approval from the resource effect. Declare the resource generation/handover enforcement and the principal/deputy/resource/action delegation policy. A current token or authenticated identity does not grant the principal's action authority. Recheck current applicability at the admitted effect boundary; keep acknowledgement, eligible review, adequate basis, authority, application and effect knowledge separate.
+
+The first model reserves acknowledgement and review against shared physical-person capacity, records scoped whispering through a durable local outbox, checks current provisioned authority and resource floors, and confirms the local digital effect before recording delivery. Existing legitimate alternatives, continuity constraints, case history, cost and useful time remain explicit. A source appraisal is a scoped input, not world truth.
+
+### 9.3 Exact achieved evidence and outstanding realization
+
+HEW-DDS-MODEL-20261006-04 passes48 functional assertions and42 first-slot/exhaustive calendar comparisons.18 SQLite scenario instances cover20 operation instances; one additional false-source diagnostic yields21 operations:11 sufficient deliveries,9 unresolved/not-delivered and1 retained violation. Two existing H1 profiles are reconstructed separately. This is a designed set, not an empirical human success rate or vendor ranking.
+
+The [results](./dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-04/RESULTS.json), [model source](./dds-hew-v0.1/hew_runtime.py), [private adjudicator](./dds-hew-v0.1/hew_oracle.py) and [freeze](./dds-hew-v0.1/FREEZE.json) distinguish actual local effects from controller summaries. Native SPIRE/RATS/STS, real humans, source truth/tariffs, physical or distributed effects, protected OS trust roots and independent review remain open. This addition does not close full C02/UC-4/schema admission or C11/T03.
+
+### 9.4 Established mechanisms and the DDS finding
+
+[STAMP/STPA](./STAMP_STPA_EXTENSION.md), [SPIFFE/SPIRE](./SPIFFE_SPIRE_EXTENSION.md), [RATS](./RATS_EXTENSION.md) and [fencing/confused deputy](./FENCING_CONFUSED_DEPUTY_EXTENSION.md) are separate bounded studies. Their native methods/specification objects and prior contributions are credited. A competent conventional combination may obtain the same case outcome at equal/lower burden; no incremental benefit is presumed.
+
+**Differential Contribution Finding:** H1 gives an analytical recovery for its declared contract; the model establishes a reproducible case/authority/capacity/effect composition and retains its failure limits. It does not demonstrate native/human superiority or business ROI. Deployment value, lifecycle cost, factual review and release/recognition follow their own scoped DDS records. A hard-gate failure cannot be compensated by aggregate value.

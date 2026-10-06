@@ -1,10 +1,10 @@
 # R01 — Current pending tasks
 
-4 October 2026 · Queue cleaned up on the user's instruction. [Registry and criteria](./WORKPLAN_STATUS.json) · [Complete previous state](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json) · [Cleanup review](./QUEUE_CLEANUP_REVIEW_2026-10-04.md).
+6 October 2026 · DDS research addition0.1; original cleaned queue retained. [Registry and criteria](./WORKPLAN_STATUS.json) · [Complete previous state](./previous-work/QUEUE_SNAPSHOT_2026-10-04.json) · [Cleanup review](./QUEUE_CLEANUP_REVIEW_2026-10-04.md).
 
 The author's review of kernel v0.2, repairs and consistency review of the three extensions are complete. The extension protocol is defined. Do not schedule them again as initial work. The first technology review is **human escalation and whispering**, within the [protocol's technology chapter](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study).
 
-<!-- R01_BOT_WORKPLAN_START version="0.4" scope="feasibility/WORKPLAN.md" role="active-queue-owner" -->
+<!-- R01_BOT_WORKPLAN_START version="0.5" scope="feasibility/WORKPLAN.md" role="active-queue-owner" -->
 ## Current queue — four workstreams
 
 | ID | Concrete outstanding work | Available evidence and exit criterion |
@@ -58,3 +58,10 @@ M03/M04/M12 do not require the base proof to be rebuilt: the [canonical theorem]
 | Chain and cost | Recognition, channel, case, human, intervention and delivery explicit; high cost is a condition to verify, not a measured rate. |
 | Restart and critical mission | R3-E/F/G and proposition H5 incorporated: stopping must be admissible; reentry requires a sufficient basis and preserves ledger/clock/V. |
 | Queue | Same M13 and four workstreams; no new campaign or duplicate task. The first virtual profile remains delivered with this extension. |
+
+
+## Owner-authorized DDS/HEW incorporation —6 October2026
+
+The existing M13 mechanism now has [canonical DDS correspondence and first model packet](./HEW_DDS_STUDY_2026-10-06.md): source/duplication/reuse, human scenarios/parameters, scope, freeze, exact reconstruction, scoped reports and controls. HEW-DDS-MODEL-20261006-04 records48 functional assertions/42 calendar references under the explicit local model. Native/human results, population rates and independent review are not claimed.
+
+This is supporting M13/C02 development, not a new active queue or automatic full C02 admission. Existing UC-4/native schema/source-owner obligations and immutable oracle freezes remain. M16/M17/P08 retain their current states; C11/T03 stay deferred/gated for real-technology work. A false-source diagnostic remains FAIL_VIOLATION, and every native transfer must reconstruct source/basis/authority/capacity/time/effect conditions.

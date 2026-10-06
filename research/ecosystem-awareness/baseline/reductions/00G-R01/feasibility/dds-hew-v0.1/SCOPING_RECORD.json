@@ -1,0 +1,47 @@
+{
+  "schema": "DDS-RESEARCH-SCOPE-0.1",
+  "study_id": "DDS-HEW-RESEARCH-20261006",
+  "date": "2026-10-06",
+  "status": "canonical self-research example; no client commission",
+  "programme_name": "Deployment Differential Study",
+  "track": "Technology / Solution Provider method correspondence, with deployment-owner questions; no commissioned track selected",
+  "commissioning_organization": null,
+  "provider_factual_review": false,
+  "contract_or_payment": false,
+  "source_owner_authorization": "Ivan explicitly authorized canonical mechanism/DDS incorporation and first tests in this chat",
+  "subject": "Existing Human Escalation/Whispering profile and concrete finite SQLite control model0.2",
+  "decisions": [
+    "Is the explicit case/capacity/authority/effect composition internally testable?",
+    "Which positive and unresolved outcomes occur under the admitted model?",
+    "What source/native/calibration gaps prevent deployment transfer?"
+  ],
+  "evidence_modes": [
+    "exact analytical reconstruction",
+    "deterministic model integration instrumentation"
+  ],
+  "native_products_executed": false,
+  "SQLite_backend_executed": true,
+  "humans_executed": false,
+  "frozen_run": "HEW-DDS-MODEL-20261006-04",
+  "scenario_families": 10,
+  "narratives": 20,
+  "native_population_or_workload": null,
+  "business_value": {
+    "meaning": "Useful legitimate sufficient delivery, timely accountable response, continuity, reporting protection per scenario",
+    "monetized": false,
+    "weighted_population_score": false
+  },
+  "risk": "Per-case violations/unresolved conditions; one retained false-source diagnostic; no population frequency",
+  "cost": "Frozen abstract work ledger plus separate prospective lifecycle cost; source/preparation values synthetic, DDS fee separate",
+  "baseline": "Competent existing case, identity/state, grant, reservation, resource-ordering and recovery mechanisms credited; no vendor comparative arm executed",
+  "excluded": [
+    "production approval",
+    "native conformance",
+    "real human calibration",
+    "independent validation",
+    "Sponsor/DOI/forum issuance",
+    "all-policy theorem transfer to changed laws",
+    "malicious-code/OS isolation"
+  ],
+  "continuation": "existing M13/C02 supporting work; M16/M17/P08 and full C02/C11/T03 gates remain their actual states"
+}

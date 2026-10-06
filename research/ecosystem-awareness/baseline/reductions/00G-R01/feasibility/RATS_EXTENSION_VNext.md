@@ -1,0 +1,103 @@
+# Owning VNext — RATS_EXTENSION.md
+
+Edition0.1 ·6 October2026 · one review for this logical source. Author:Codex, same assistant. Scope:canonical successor and its DDS model/source/consumer relationships, not a full independent validation.
+
+## 1. Substance and logic
+
+Reviewed the existing bounded study and its current delivery addition. The model rejects stale/inapplicable supplied state results but does not generate trustworthy evidence. A false accepted basis still causes the retained source-truth diagnostic violation. Actual attestation and source correctness remain open. The result remains conditional on actual supplied facts; abstract source success cannot grant mission authority or reviewer capacity. Original bounds/model laws are not changed.
+
+## 2. Evidence and consumer relations
+
+RFC9334 architecture/freshness source retained and official RFC route refreshed. Conceptual SoftwareState-AP remains an internal semantic profile, not an IETF wire profile. Checked current results/control/card links, source role meanings, prior numerical evidence and unexecuted native assumptions. Source-truth violation is retained and is not offset by successful nominal outcomes. Study reader routes lead to the same versioned DDS packet.
+
+## 3. Editing and structure
+
+Existing source text/history retained with a versioned current-integration notice, corrected canonical links and a current correspondence section. Proposed old deltas remain historical. No new public README layer or copied handbook/code. The authentic local draft is preserved before adaptation.
+
+## 4. Reader comprehension
+
+Same-assistant simulated reading:the reader must distinguish method/specification, abstract source assertion, model control and native realization. The notification/identity/appraisal success is not substantive review or global mission success. A failed/unresolved case remains visible; no human-rate conversion.
+
+## 5. External work, differential and reuse
+
+Question:Evidence/appraisal/result consumption, freshness and policy ownership. Primary source/version/coverage above and SOURCE_REGISTER are fixed. Relevant existing control is credited as reusable with conditions; no differential over a competent combined peer is established. Source-owner fidelity/native execution and wider prior-art/FG-TIDA coverage remain pending. Original ideas/terminology are used with attribution; no third-party code/data/book artifact imported.
+
+## Owner-authorized incorporation and exact change disposition — at the end
+
+Iván requested canonical mechanism/DDS incorporation and first tests. Before:the authentic local analytical draft cited in the preservation record. After:canonical pathRATS_EXTENSION.md, current-integration notice, canonical evidence links and the exact scoped delivery/comparison section present in this release. Native/independent/production acceptance is not authorized by this wording. Original draft SHA256:bcb8f6d2c9f127f5ef4f68085819a58ad2131bb48a8c0da44250d32316d25455.
+
+
+## Scoped compatibility reconciliation —6 October2026
+
+Auditoría unificadora realizada por Codex, same assistant, only for this authorized HEW/DDS change set. The repository-wide sixth pass is not launched/closed:its full-corpus conditions remain open. Mechanism, protocol, indexes, source studies, scope, card/freeze/results, controls and workplan were contrasted. Old mathematical law/units remain analytical; the new SQLite profile has separate time/work/observations. Wrong-source violation and missing delivery remain visible; no native/human/provider/Sponsor/DOI/campaign claims are inferred.
+
+Procedure1.9/1.11 was read at publication-parent5c8024b8e86f01151d204ecc6b568173ffebd8e4. Full literal blocks, source units, impact/risk/effort and owner decision follow. Further native/factual/independent engineering remains by concretar:impact high,risk high,effort not estimable without chosen scope/source/implementation/reviewers. It is First to prepare/contrast, not automatically authorized execution, and no fake old/new paragraph is invented for it.
+
+## Literal change plan — at the end
+### DDS-RATS_EXTENSION-01 — scoped DDS incorporation
+
+What changes and why:Localized document edition/link clarity; native/theorem meanings are retained. Where:replacement of this complete literal block;source`research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION.md` and its exact retained predecessor. Impact positive expected:medium;risk:low;effort:low, including consumer/preservation checks. Priority:First;batch:owner-authorized research incorporation. Expected impact is not measured technology efficacy.
+
+**Texto antes — viejo**
+
+````text
+Analytical extension v0.1 · 6 October 2026 · conceptual appraisal/consumption profile.
+Primary reference: RFC9334, January2023, Informational.
+Proposed profile name: RATS-HEW-SoftwareState-AP/v0.1, an internal semantic study profile, not an IETF profile or wire format.
+Evidence: primary architecture-clause review, scoped logical construction and exact analytical case checks. No trusted device, native verifier, attestation protocol or human campaign executed.
+[Shared case](./COMMON_HEW_CASE_v0.1_2026-10-06.md) · [Run Card](./run_card_v0.3_2026-10-06.json) · [results](./analytical_fixture_results_v0.3_2026-10-06.json).
+````
+
+**Texto después — propuesto**
+
+````text
+**Canonical research integration — 6 October2026, document edition0.2.** The initial source/analytical text below remains its historical scoped analysis. [Current DDS study and controls](./HEW_DDS_STUDY_2026-10-06.md) record the new deterministic model integration. Native technology, real humans and independent review remain unexecuted/open. The original numerical results are not rewritten or pooled into a success rate.
+
+
+Canonical research document0.2 / analytical predecessor0.1 · 6 October 2026 · conceptual appraisal/consumption profile.
+Primary reference: RFC9334, January2023, Informational.
+Proposed profile name: RATS-HEW-SoftwareState-AP/v0.1, an internal semantic study profile, not an IETF profile or wire format.
+Evidence: primary architecture-clause review, scoped logical construction and exact analytical case checks. No trusted device, native verifier, attestation protocol or human campaign executed.
+[Shared case](./dds-hew-v0.1/TECHNICAL_REPORT.md) · [Run Card](./dds-hew-v0.1/prior-analytical/run_card_v0.3_2026-10-06.json) · [results](./dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.3_2026-10-06.json).
+````
+
+Relations/order:mechanism↔protocol↔existing indexes↔DDS scope/card/freeze/results; native methods and task gates preserve their owners. Instruction/decision:Iván requested canonical mechanism/DDS incorporation and first tests. Disposition:authorized for this release; native/provider/independent/recognition gates are not closed. Earlier pair/intermediate versions are preserved in task custody; this is the candidate against the actual source, not a replacement of old scientific results.
+
+### DDS-RATS_EXTENSION-02 — scoped DDS incorporation
+
+What changes and why:Scope/evidence/authority interpretation and consumers need reconciliation. Where:replacement of this complete literal block;source`research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION.md` and its exact retained predecessor. Impact positive expected:high;risk:medium;effort:medium, including consumer/preservation checks. Priority:First;batch:owner-authorized research incorporation. Expected impact is not measured technology efficacy.
+
+**Texto antes — viejo**
+
+````text
+Open before an applied study: wire/measurement profile, trust and implementation fidelity, owner factual review, capacity/source calibration, protected-channel controls, prospective comparison and independent/applied evidence. No automatic DBC-EL, assurance opinion, external-body adoption or product certification.
+
+````
+
+**Texto después — propuesto**
+
+````text
+Open before an applied study: wire/measurement profile, trust and implementation fidelity, owner factual review, capacity/source calibration, protected-channel controls, prospective comparison and independent/applied evidence. No automatic DBC-EL, assurance opinion, external-body adoption or product certification.
+
+
+## Current DDS model delivery and scoped external comparison —6 October2026
+
+Auditoría realizada por Codex, same assistant, on this study's source/consumer boundary and the current frozen HEW model. Prior four-pass/source records above remain historical; this is a scoped current comparison/reuse judgement, not retrospective native conformance or a global corpus closure.
+
+Question:Evidence/appraisal/result consumption, freshness and policy ownership.
+
+Source coverage:RFC9334 architecture/freshness source retained and official RFC route refreshed. Conceptual SoftwareState-AP remains an internal semantic profile, not an IETF wire profile.
+
+Current evidence boundary:The model rejects stale/inapplicable supplied state results but does not generate trustworthy evidence. A false accepted basis still causes the retained source-truth diagnostic violation. Actual attestation and source correctness remain open.
+
+The [HEW DDS study](./HEW_DDS_STUDY_2026-10-06.md), [Run Card](./dds-hew-v0.1/RUN_CARD.json), [controls](./dds-hew-v0.1/DDS_CONTROLS.json) and [actual results](./dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-04/RESULTS.json) retain sufficient delivery, unresolved response and violation separately.48 instrument assertions/42 reference checks do not become a native performance result for this subject. No population human rate or comparator superiority is established.
+
+Reuse judgement:existing relevant native concepts/control techniques are reusable with their scope/authority/version conditions. A competent conventional composition may obtain the same outcome; a new field or combined diagram is not a differential. Code here is independently authored; code/data/full-text copying from a source would require its exact license/attribution review. No third-party artifact imported.
+
+FG-TIDA scope:Theme13/16 and UC21 relevant comments were consulted; the grant-existence/purpose-applicability distinction is retained. Discussion and contributor review are not adoption. The original URL for the human-supplied STAMP duplication-check fragment is still not established. Further native/source-owner/independent comparison remains open.
+
+Consumer compatibility:the original mathematical/calendar/event fixtures retain their laws; this document consumes their actual limited results. The new SQLite profile is separately declared. Any native adapter must preserve source claims/results, current grant and effect meanings and return through the existing M13/M17/C02 owners before stronger claims.
+
+````
+
+Relations/order:mechanism↔protocol↔existing indexes↔DDS scope/card/freeze/results; native methods and task gates preserve their owners. Instruction/decision:Iván requested canonical mechanism/DDS incorporation and first tests. Disposition:authorized for this release; native/provider/independent/recognition gates are not closed. Earlier pair/intermediate versions are preserved in task custody; this is the candidate against the actual source, not a replacement of old scientific results.

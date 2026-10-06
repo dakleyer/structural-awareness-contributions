@@ -1,5 +1,5 @@
 {
-  "version": "0.6-chain-and-reentry",
+  "version": "0.7-dds-research-model",
   "input_commit": "d8fbfa48581df366081143872ec4c16360c51635",
   "actual_utc": "2026-10-04T14:04:11.946875+00:00",
   "plan_editor": "Codex, on user instruction",
@@ -303,6 +303,20 @@
         "independent_review": false,
         "revision": "0.3",
         "stage_chain_calibrated": false
+      },
+      "dds_supporting_delivery": {
+        "date": "2026-10-06",
+        "study": "HEW_DDS_STUDY_2026-10-06.md",
+        "run_id": "HEW-DDS-MODEL-20261006-04",
+        "mode": "exact reconstruction + deterministic model instrumentation",
+        "assertions": 48,
+        "calendar_reference_checks": 42,
+        "native_products_executed": false,
+        "human_calibration": false,
+        "independent_review": false,
+        "full_C02_C11_T03_admission": false,
+        "own_source_and_review_scope": "bounded additions and composition; not global corpus closure",
+        "retained_false_source_counterexample": true
       }
     },
     "M14": {
@@ -432,7 +446,8 @@
       ],
       "current_implementation": "Limited neutral C02 Stage-0 instrumentation exists under ../oracle/: UC-4-aligned sidecar, batch/interactive adapters, bounded tool broker, dual exact reference paths, semantic admission, frozen gate policy, trace/isolation contracts and negative/metamorphic controls.",
       "current_evidence": "Latest successful repository run: instrument R01-C02-neutral-harness-0.7 under immutable STAGE0_FREEZE_v0.9.json; 30 frozen dependencies verified before execution. This is instrumentation evidence only, not a real-technology result.",
-      "remaining_scope": "C02 is not closed. Nelson source-contributor review and exact UC-4 schema validation remain pending; independent external second-method review and fuller R01 profile semantics remain open. C11 registration and T03 real-technology execution remain gated."
+      "remaining_scope": "C02 is not closed. Nelson source-contributor review and exact UC-4 schema validation remain pending; independent external second-method review and fuller R01 profile semantics remain open. C11 registration and T03 real-technology execution remain gated.",
+      "additional_supporting_model": "HEW DDS SQLite case/authority/capacity/effect model0.2; independent-method scheduling and event-derived outcome; not a replacement for the frozen UC-4 sidecar or full C02 admission"
     },
     "C03": {
       "status": "CONSOLIDATED",
@@ -1056,7 +1071,7 @@
   },
   "active_mathematical_document": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
   "historical_task_criteria_source": "previous-work/R01_MATH_WORKPLAN_2026-10-04.json",
-  "no_new_scientific_experiments": true,
+  "no_new_scientific_experiments": false,
   "independent_manuscript": "CONDITIONED_TRILEMMA.md",
   "manuscript_own_review": "CONDITIONED_TRILEMMA_SELF_REVIEW.md",
   "independent_mathematical_review_received": true,
@@ -1187,7 +1202,7 @@
     ],
     "canonical_validation_structure_preserved": true
   },
-  "latest_input_commit": "275d78822a40b2d887909a018c26f047df1a6cc2",
+  "latest_input_commit": "7124d256713c19e9be8ea353c66354f75426ca5c",
   "technology_mechanism_development": {
     "protocol": "TECHNOLOGY_EXTENSION_PROTOCOL.md",
     "first_case": "HUMAN_ESCALATION_WHISPERING.md",
@@ -1255,5 +1270,23 @@
     "conversation_language": "es",
     "received_originals_and_historical_snapshots": "preserve original language",
     "revision": "Language correction only; no task closure, mathematical scope or execution change"
+  },
+  "preserved_previous_documentary_flags": {
+    "no_new_scientific_experiments": true
+  },
+  "no_new_real_technology_campaigns": true,
+  "dds_hew_research": {
+    "date": "2026-10-06",
+    "study": "HEW_DDS_STUDY_2026-10-06.md",
+    "run_id": "HEW-DDS-MODEL-20261006-04",
+    "mode": "exact reconstruction + deterministic model instrumentation",
+    "assertions": 48,
+    "calendar_reference_checks": 42,
+    "native_products_executed": false,
+    "human_calibration": false,
+    "independent_review": false,
+    "full_C02_C11_T03_admission": false,
+    "own_source_and_review_scope": "bounded additions and composition; not global corpus closure",
+    "retained_false_source_counterexample": true
   }
 }

@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-06",
+  "files": [
+    {
+      "path": "COMMON_HEW_CASE_v0.1_2026-10-06.md",
+      "sha256": "90f3c5e30749fb8d26f7110b66798e3ffbc63d2d905289ca53d0cdc1b7c34828",
+      "source_class": "original bounded analytical predecessor; not native technology",
+      "availability": "original preserved locally; excluded from public distribution because of a private process-resource link"
+    },
+    {
+      "path": "SOURCE_REGISTER_2026-10-06.json",
+      "sha256": "57bdd7e7d1ba8bb7f1b5dc1f0d06ee0452d33277c13da4bc1a3908df662c9703",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "analytical_fixture_results_2026-10-06.json",
+      "sha256": "8153a155ebb548c6004d7f74ab71c50306c1dba3efc85a0f223986a727071428",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "analytical_fixture_results_v0.2_2026-10-06.json",
+      "sha256": "bb43ff3c23721a002d26f4b8302eb96887f996748626b1feb03ce4eb035ea7e3",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "analytical_fixture_results_v0.3_2026-10-06.json",
+      "sha256": "a33b37ebd650f60e71b155a97b2d0b227daba3fc1ecddf9b84540172e232dd1c",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "check_analytical_fixture_2026-10-06.py",
+      "sha256": "ccf3dd0f30fdfe2a26304073aba86768766bab277e5abca163383b92d2af3461",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "check_analytical_fixture_v0.2_2026-10-06.py",
+      "sha256": "52fbdacbf096ad0f54d613f9ca7894ffffeaba3947ec4c0b01b8684bea070c99",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "check_analytical_fixture_v0.3_2026-10-06.py",
+      "sha256": "bfdfce6a5b3c0cc497b4529485ee933ed5b0a42ca69f25f18c58f5dbc219dbc8",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "check_fencing_deputy_fixture_v0.1_2026-10-06.py",
+      "sha256": "50cf96e0803ef165b2ea034cb1105bd4b574419700f94a1ac441169c905a71ca",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "document_verification_2026-10-06.json",
+      "sha256": "00cc6d349d6fb7dade51e257363ffbc8108fd8307cd97f9965fdda58657810e9",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "fencing_deputy_results_v0.1_2026-10-06.json",
+      "sha256": "233ba5b209828cee4dbbdb63f51d383b2f0af61bf2097924a1c49f823797deb8",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "fencing_deputy_run_card_v0.1_2026-10-06.json",
+      "sha256": "88fadb19a13fc8319fecea70b21030e70f1d83959584a831e48a4591b55957ee",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "run_card_2026-10-06.json",
+      "sha256": "8db12e9a6de6fa07f5905adc5c2f3008cce2a26935f6d7c2ddcb8f477da0e64a",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "run_card_v0.2_2026-10-06.json",
+      "sha256": "04d1af407c79b3372ed47a020015b9991dc7435e31317ebced6615b313e40b63",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    },
+    {
+      "path": "run_card_v0.3_2026-10-06.json",
+      "sha256": "cac96cefc2be7f0c86f5298bac13dbad1b20629d1f3d4b7615d45caa558f1d5d",
+      "source_class": "original bounded analytical predecessor; not native technology"
+    }
+  ],
+  "handbook_binary_or_text_redistributed": false,
+  "old_results_recalculated": false,
+  "edition": "0.2",
+  "public_case_parameters": "Current public Run Card and technical report contain the declared illustrative model coordinates."
+}

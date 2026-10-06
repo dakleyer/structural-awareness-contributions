@@ -1,6 +1,6 @@
 # R01 — Mathematical extension protocol by technology mechanisms
 
-Documentary version 0.3 · 4 October 2026 · M13 in development.
+Documentary version 0.4 · 6 October 2026 · M13 in development; DDS research correspondence and first model packet.
 Single base: [R01 mathematical validation v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 Reviewed precedent: [consistency of the three extensions](./EXTENSION_CONSISTENCY_REVIEW.md).
 First mathematical application: [human escalation with whispering](./HUMAN_ESCALATION_WHISPERING.md).
@@ -133,6 +133,15 @@ A harness does not turn finite sampling into universal proof. Running a real tec
 
 Archived scripts may inspire controls and tests for the future harness. Their parameters do not calibrate the product and their outputs are not technology campaigns.
 
+
+### 7.1 Deployment Differential Study correspondence
+
+These stages can support a Deployment Differential Study under a declared evidence mode. Preserve technical R01 C–R–E, task/world/mandate, outcomes and numerical results. A concrete deployment adds a separate bounded BV–R–C interpretation, strongest-native or actual-deployment baseline reconstruction, scenario-specific cost/value, factual review and a versioned Differential Contribution Finding. R01 acceptance, DBC hard-gate conformance and commissioned DDS completion are separate conclusions.
+
+Record problem/family, human scenario, problem/environment parameters, acceptance thresholds, technology configuration/controller, arms, virtual traversal and run separately. R1/R2/R3 do not name the scenario. An inferred q or latency needs its source/context/measurement provenance. A rate over a modeled law is not measured human performance.
+
+The first [HEW DDS study](./HEW_DDS_STUDY_2026-10-06.md) supplies scoped reports, an original scenario catalogue, prospective cards/amendments, source/controls/delivery maps and reproducible model results. Actual native adapters/humans, full C02/C11/T03 admission and independent review remain open. Supporting SQLite model self-tests are not native technology comparative arms.
+
 <a id="technologies-to-study"></a>
 ## 8. Technologies to study and work order
 
@@ -185,3 +194,10 @@ These annexes remain subordinate to protocol profiles. Their results are preserv
 | Other technologies | Candidates registered for successive mechanism review. |
 | Oracle / harness / campaign | Later stages; no real implementation validated by this cleanup. |
 | Tasks | [Single queue](./WORKPLAN.md): M13, M16, M17 and P08; previous rehearsals remain partial annexes. |
+
+
+### 8.4 Supporting studies for the HEW DDS research example
+
+The current [Human escalation/whispering DDS record](./HEW_DDS_STUDY_2026-10-06.md) links four separately scoped supporting studies: [STAMP/STPA](./STAMP_STPA_EXTENSION.md), [SPIFFE/SPIRE](./SPIFFE_SPIRE_EXTENSION.md), [RATS](./RATS_EXTENSION.md) and [fencing tokens/confused deputy](./FENCING_CONFUSED_DEPUTY_EXTENSION.md). These are method/specification/consumption-control subjects, not interchangeable products or a new parallel execution queue. Native implementation and calibration are not inferred from their names or model booleans.
+
+Source/duplication/reuse checks, explanation, scope/law, E1–E7 questions, positive/boundary cases and lifecycle burden remain within M13/M17 and the existing later-stage owners. The first public model packet preserves the original H0/H1/H5 and archived results; every later native realization still requires its own admitted contract and freeze.

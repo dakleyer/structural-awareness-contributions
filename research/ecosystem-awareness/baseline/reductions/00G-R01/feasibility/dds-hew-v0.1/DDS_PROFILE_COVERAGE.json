@@ -1,0 +1,40 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "DDS_profile": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "profile_source_commit": "f107eb178157fbf58d07418ce648510cf25756ea",
+  "challenge": "Legitimate sufficient delivery with timely accountable escalation and independent protected reporting duties",
+  "scenario": "20 selected narrative instances from10 local families plus one false-source diagnostic; original H1 profiles reconstructed separately",
+  "technology_configuration": "HEW-DDS-SQLITE-MODEL-0.2 / run HEW-DDS-MODEL-20261006-04",
+  "correspondence": "Declared bounded local realization; no proved isomorphism to a native product or inherited all-policy bound",
+  "surfaces_used": [
+    "frozen selected inputs and private-world adjudication",
+    "enumerated local mechanisms and guards",
+    "deterministic segments and gates",
+    "persisted SQLite events and event-derived judgments",
+    "declared per-operation work and logical ticks",
+    "preregistered instrument assertions and expected selected outcomes"
+  ],
+  "surfaces_unscored_or_collapsed": [
+    "no evaluated market/reference M route",
+    "no representative population C/R/E estimates from the designed case counts",
+    "no commissioned deployment Business Value or financial ROI",
+    "no full UC-4 trace/schema admission",
+    "no native cryptographic or real human calibration"
+  ],
+  "route_crosswalk": {
+    "DELIVERED": "I for the declared sufficient legitimate outcome of this local profile",
+    "FAIL_VIOLATION": "P for the explicit incorrect-effect violation",
+    "UNRESOLVED_OR_NOT_DELIVERED": "Ø under this profile; incompletion is not automatically material Risk",
+    "M": "Not evaluated; absence of a selected comparator is not zero reference performance"
+  },
+  "crosswalk_provenance": "Additive documentary reporting interpretation prepared after run04. It changes neither original output labels, outcomes, thresholds nor scoring. Future differentiated I/M weights require a new preregistration.",
+  "evidence_mode": [
+    "exact analytical reconstruction",
+    "executed local deterministic SQLite model instrument test by the same author"
+  ],
+  "acceptance_rule": "Instrument assertions against selected frozen instances; deployment/configuration-level population acceptance is not established. Original R01 profiles retain their quantitative A_b_delta_p.",
+  "base_frozen_artifact": "R01 mathematical0.1/virtual0.3 and preserved prior HEW model runs01-03",
+  "successor_status": "A3 public distribution successor; no original result relabelled",
+  "business_value_projection": "Declared process indicators for this illustrative case only; deployment-owner validation/calibration pending"
+}

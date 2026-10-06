@@ -1,0 +1,438 @@
+{
+  "result": "BOUNDED_ANALYTICAL_CHECK_PASS",
+  "run_card_id": "DDS-HEW-ANALYTICAL-FIXTURE-20261006-01",
+  "run_card_sha256": "8db12e9a6de6fa07f5905adc5c2f3008cce2a26935f6d7c2ddcb8f477da0e64a",
+  "checker_sha256": "ccf3dd0f30fdfe2a26304073aba86768766bab277e5abca163383b92d2af3461",
+  "registered_cases": 12,
+  "calendar_grid_cases": 6048,
+  "grid_integer_start_options_checked": 117936,
+  "case_results": [
+    {
+      "case_id": "HEW-DDS-01-NOMINAL",
+      "reference_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "calendar_reference_feasible": true,
+      "observed_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "capacity_report": "AVAILABLE",
+      "gates_stipulated_satisfied": true,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": true,
+      "guarded_completion_supported_by_capacity_observation": true,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-02-ONE-BUSY",
+      "reference_calendar": null,
+      "calendar_reference_feasible": false,
+      "observed_calendar": null,
+      "capacity_report": "UNAVAILABLE",
+      "gates_stipulated_satisfied": true,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": false,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 10,
+        "ack_at": 10,
+        "decision_at": 13,
+        "application_at": 14,
+        "mission_at": 15
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-03-QUALIFIED-BACKUP",
+      "reference_calendar": {
+        "reviewer": "H2",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "calendar_reference_feasible": true,
+      "observed_calendar": {
+        "reviewer": "H2",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "capacity_report": "AVAILABLE",
+      "gates_stipulated_satisfied": true,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": true,
+      "guarded_completion_supported_by_capacity_observation": true,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 10,
+        "ack_at": 10,
+        "decision_at": 13,
+        "application_at": 14,
+        "mission_at": 15
+      },
+      "exhaustive_start_options_checked": 32,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-04-UNQUALIFIED-BACKUP",
+      "reference_calendar": null,
+      "calendar_reference_feasible": false,
+      "observed_calendar": null,
+      "capacity_report": "UNAVAILABLE",
+      "gates_stipulated_satisfied": true,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": false,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 10,
+        "ack_at": 10,
+        "decision_at": 13,
+        "application_at": 14,
+        "mission_at": 15
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-05-UNAUTHORIZED-BACKUP",
+      "reference_calendar": null,
+      "calendar_reference_feasible": false,
+      "observed_calendar": null,
+      "capacity_report": "UNAVAILABLE",
+      "gates_stipulated_satisfied": true,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": false,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 10,
+        "ack_at": 10,
+        "decision_at": 13,
+        "application_at": 14,
+        "mission_at": 15
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-06-UNKNOWN-CAPACITY",
+      "reference_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "calendar_reference_feasible": true,
+      "observed_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "capacity_report": "UNKNOWN",
+      "gates_stipulated_satisfied": true,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": true,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-07-STALE-BUT-FRESH",
+      "reference_calendar": null,
+      "calendar_reference_feasible": false,
+      "observed_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "capacity_report": "UNKNOWN",
+      "gates_stipulated_satisfied": true,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": false,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 10,
+        "ack_at": 10,
+        "decision_at": 13,
+        "application_at": 14,
+        "mission_at": 15
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false,
+      "attestation_within_declared_age_bound": true,
+      "snapshot_false_available": true
+    },
+    {
+      "case_id": "HEW-DDS-08-VALID-ID-REVOKED-AUTHORITY",
+      "reference_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "calendar_reference_feasible": true,
+      "observed_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "capacity_report": "AVAILABLE",
+      "gates_stipulated_satisfied": false,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": false,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-09-VALID-ID-INSUFFICIENT-BASIS",
+      "reference_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "calendar_reference_feasible": true,
+      "observed_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "capacity_report": "AVAILABLE",
+      "gates_stipulated_satisfied": false,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": false,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-10-EXPIRED-PRECONDITION",
+      "reference_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "calendar_reference_feasible": true,
+      "observed_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "capacity_report": "AVAILABLE",
+      "gates_stipulated_satisfied": false,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": false,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-11-PROTECTED-GOODFAITH-OBJECTION",
+      "reference_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "calendar_reference_feasible": true,
+      "observed_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "capacity_report": "AVAILABLE",
+      "gates_stipulated_satisfied": false,
+      "application_observed_stipulation": true,
+      "completion_possible_under_model_stipulations": false,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    },
+    {
+      "case_id": "HEW-DDS-12-CORRECT-DECISION-FAILED-APPLICATION",
+      "reference_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "calendar_reference_feasible": true,
+      "observed_calendar": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "capacity_report": "AVAILABLE",
+      "gates_stipulated_satisfied": true,
+      "application_observed_stipulation": false,
+      "completion_possible_under_model_stipulations": false,
+      "guarded_completion_supported_by_capacity_observation": false,
+      "named_primary_earliest": {
+        "reviewer": "H1",
+        "start": 2,
+        "ack_at": 2,
+        "decision_at": 5,
+        "application_at": 6,
+        "mission_at": 7
+      },
+      "exhaustive_start_options_checked": 16,
+      "crypto_validation_executed": false,
+      "nonretaliation_or_immutable_storage_implementation_tested": false
+    }
+  ],
+  "indistinguishable_world_algebra": [
+    {
+      "available_output_probability": "0",
+      "true_available_rate": "0",
+      "false_available_rate": "0",
+      "binary_accuracy_under_equal_prior": "1/2"
+    },
+    {
+      "available_output_probability": "1/4",
+      "true_available_rate": "1/4",
+      "false_available_rate": "1/4",
+      "binary_accuracy_under_equal_prior": "1/2"
+    },
+    {
+      "available_output_probability": "1/2",
+      "true_available_rate": "1/2",
+      "false_available_rate": "1/2",
+      "binary_accuracy_under_equal_prior": "1/2"
+    },
+    {
+      "available_output_probability": "3/4",
+      "true_available_rate": "3/4",
+      "false_available_rate": "3/4",
+      "binary_accuracy_under_equal_prior": "1/2"
+    },
+    {
+      "available_output_probability": "1",
+      "true_available_rate": "1",
+      "false_available_rate": "1",
+      "binary_accuracy_under_equal_prior": "1/2"
+    }
+  ],
+  "scope": "Calendar necessity/sufficiency and stipulated logical gates in the declared finite model",
+  "limits": [
+    "No STPA tool or native SPIRE/RATS implementation executed",
+    "No actual crypto, device, attestation or human validation",
+    "No empirical risk/latency/prices calibrated",
+    "No all-domain proof, superiority, conformance or official C02 admission",
+    "Protected storage and no-retaliation remain design obligations"
+  ],
+  "native_technologies_executed": false,
+  "new_human_campaigns": 0
+}
