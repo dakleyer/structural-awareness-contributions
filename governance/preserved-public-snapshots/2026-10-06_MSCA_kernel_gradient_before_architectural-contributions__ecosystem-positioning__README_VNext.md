@@ -877,27 +877,3 @@ El registro de prioridades añade **52/53/54** sin modificar las 51 entradas ant
 El [registro](../../governance/review/change-priorities-2026-10-06/priorities.json) conserva todas las entradas originales; aplica reevaluaciones fechadas antes de obtener el top. La [tabla CSV](../../governance/review/change-priorities-2026-10-06/priorities.csv) muestra valoración vigente y el [extractor](../../governance/review/change-priorities-2026-10-06/extract_top.py) usa esas mismas actualizaciones.52/53/54 permanecen pendientes opcionales de prioridad Siguiente. Esto evita que la conversación nueva y el ranking técnico den prioridades contradictorias.
 
 **Actualización concurrente conservada:** la base de publicación avanzó a `6881dfe920a30ef6d00334f15059ab1dd931c8d4` con materiales DDS/HEW y sus expedientes de otro trabajo. Role/Composition y los destinos de esta revisión no cambiaron. No se ejecutan ni califican esos nuevos programas/resultados en esta pasada, ni se cuenta su presencia como auditoría concluida. El árbol contiene 39 expedientes VNext/candidato benchmark identificables;33 pertenecen al programa ya registrado y 6 nuevos no fueron examinados aquí.
-
-
----
-
-## Continuación sustantiva — kernel, ACC y comparación del gradiente
-
-**Auditoría realizada por Codex, 6 de octubre de 2026; mismo asistente de IA.** Cinco fuentes principales nuevas leídas completas: Architecture, perfilACC, Operation,01I y Gradient. Fondo/lógica, edición textual y legibilidad simulada registrados por separado; evidencia cruzada ampliada a sus extremos y quinta específica realizada en los nuevos expedientes/Operation. Segundas pasadas abiertas por perfiles y evidencia aún pendientes; no cierre del corpus ni sexta lanzada.
-
-**El nuevo hallazgo de fondo:** admitir varios objetivos y un riesgo vectorial no suministra por sí solo un “mejor” movimiento. Gradient§§5/7/9 abrevia signo/argmax y Operation§9 repite dualidad fuera de su condición binaria explícita. El contraejemplo propio y los viejos/nuevos están en [Gradient VNext](01_GRADIENT_VNext.md); el receptor en [Operation VNext](../../standards/minimum-sufficient-control/04_OPERATION_VNext.md).57/58/59 se preparan juntos: **impactoAlto, riesgoAlto, esfuerzoMedio, prioridad Primera**. Es insuficiencia de especificación para los perfiles generales admitidos, no fallo runtime observado ni refutación de la idea.
-
-[Architecture](../../standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md) y [ACC](../../standards/minimum-sufficient-control/01_ACC_VNext.md) preservan kernel/linaje; [01I](../../research/ecosystem-awareness/baseline/01I_VNext.md) mantiene gobernanza y preguntas colectivas futuras. Role/Composition reciben comentarios de la relación, sin rehacer pasadas ya realizadas.60 aclara opcionalmenteP3;61 propone corregir un título duplicado. Toda incorporación permanece pendiente de decisión concreta de Iván.
-
-**Fuentes externas y límites:** comparación específica deRATS/credenciales/delegación/organizaciones normativas/optimización vectorial en los expedientes respectivos. ATHENA body/comentarios públicos leídos; elWord deTD236-WP1 está restringido y no leído. No se confunde metadata/propuesta con contenido técnico, adopción o ensayo realizado. Fuente urbanaTegrity no recuperada en este intento; seguirá visible como pendiente.
-
-El índice de prioridades conserva los 56 registros anteriores y añade cinco pares técnicos y dos adiciones de navegación de esta entrega; estas últimas se marcan ya publicadas sólo tras publicar y leer de vuelta. Los expedientes nuevos son fuentes principales/integraciones materiales, no auditorías nuevas de los documentos sueltos. READMEEP/estrategia, fuentes, freezes, binarios, resultados y programas intactos; índices propietarios sólo reciben las breves rutas de fichas.
-
-
-## Reapertura por actualización concurrente — capacidad humana y preservación
-
-**Codex, mismo asistente,6 de octubre de 2026.** Main avanzó a`8757ba614c94f962206912d4896c119a18a924fa` añadiendo01K y sus fronteras enOperation/01J/índices. Se conserva esa versión; Operation§4.1 y01K completos leídos,01J§5.2 contrastado. [01K VNext](../../research/ecosystem-awareness/baseline/01K_VNext.md) publica la nueva pregunta de ledger y64/67; [01J VNext](../../research/ecosystem-awareness/baseline/01J_VNext.md) registra el receptor con lectura restante pendiente.65/66 son precisiones del índice, publicadas como propuestas.
-
-**Comprobación de preservación:** el cambio concurrente deEP insertó01K dentro del cuerpo; la versión anterior no es un prefijo byteexacto de la actual. En esta revisión no se escribió eseREADME ni se revierte el nuevo material. La autorización particular de ese otro trabajo no fue examinada aquí; la política append-only de Iván sigue vigente y la excepción necesita quedar explícita antes de validar ese cambio comoconforme. Se conserva la fuente actual y se registra la pregunta; no bloquea otras lecturas independientes.
-
-Los pares59/60 anteriores siguen visibles y vuelven amostrarse contra el nuevo blob de Operation; lospasajes son literalmente iguales, pero se examina el nuevo contexto de escalada. Eltrabajo pendiente siguevisible: perfiles/materiales,quinta deRole/Composition/Signalling y demás fuentes principales, ysexta global. Ningún número de fichas/pasadas parciales certifica elcierre.

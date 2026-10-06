@@ -139,14 +139,3 @@ No se estableció diferencial mediante comparación. Reutilizaría procedencia/r
 ```
 
 Viejo único en la fuente actual, nuevo título ausente. Incorporación pendiente; ni heading ni enlaces históricos corregidos.
-
-
----
-
-## Continuación de evidencia — contrato y comparación de objetivos
-
-**Auditoría cruzada realizada por Codex, 6 de octubre de 2026; mismo asistente.** Se leyeron completos Architecture, ACC, Operation,01I y Gradient. La composición permite varios MSCAs con sus propios envelopes y no los fusiona por compartir un agente. Una dependencia material transfiere relevancia, no propiedad del objetivo o mandato. El rol vinculado y el observado permanecen distintos al actualizar el mapa; una revisión de fuente no canoniza conducta.
-
-[Architecture](00_ARCHITECTURE_VNext.md), [ACC](01_ACC_VNext.md), [01I](../../research/ecosystem-awareness/baseline/01I_VNext.md), [Operation](04_OPERATION_VNext.md) y [Gradient](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md) contienen el otro extremo. El hallazgo57/58/59 importa al comparar candidatos de distintos objetivos: el mapa no suministra una scalarización universal. Se conserva 53 opcional y56 editorial; no se aplica ninguna propuesta ni se cambia Cart_i.
-
-La quinta anterior de procedencia permanece parcial; el catálogo de identidad externo no demuestra una dependencia material. La segunda sigue abierta por perfiles/consumidores restantes; no se repiten primera/tercera/cuarta como auditoría independiente. [Fuentes y alcance de esta continuación](../../governance/review/MSCA-kernel-lineage-gradient-2026-10-06/evidence.json).

@@ -161,12 +161,3 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Fuente congelada intacta; justificar fallback seguro o conservar salida unresolved.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](UC-EA-03_VNext.md#calificar-el-fallback-de-la-rama-b); el viejo tiene una coincidencia en [la fuente actual](UC-EA-03_v0.4_MAINTENANCE_FREEZE.md), blob `7d940f33d011bb234f98e5d03a408dbeca34d92d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
-
-## Dependencia nueva de capacidad humana01K — revisión acotada
-
-**Auditoría cruzada porCodex, 6 de octubre de 2026; mismo asistente.** Se leyó01K completo y la nueva frontera deOperation§4.1/Signalling§5.2. [01K VNext](01K_VNext.md) registra posible dobleconteo de compromisos y condiciones de escala HIT (64/67). Unnombre/cola humana no garantiza revisiónútil; AVAILABLE debeconservar evidencia, ventana, competencia yautoridad.
-
-Este cotejo no convierte UC03 congelado, HEW analítico o comentariosFG en calibración de HIT. Se mantienen fuente/resultado/estadoanterior y laspasadas pendientes; no se recalcula, ejecuta, demueve o reinterpreta evidencia. Elcontraste deTheme16 como antecedente deoversight no redefine por sísolo la semántica actual deΔ_RA.

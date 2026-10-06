@@ -94,14 +94,3 @@ El propósito más amplio de Role no establece novedad o ventaja. Reutilizaría 
 ### Continuación
 
 [Fuentes y cobertura](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). Completar perfiles concretos y las relaciones todavía pendientes; no repetir el contraste sin nueva pregunta. No hay cambio nuevo para el cuerpo de Role. Candidato54 sigue en01C como opcional; quinto examen completo/sexta pendientes.
-
-
----
-
-## Continuación de evidencia — kernel, contrato y operación completos
-
-**Auditoría cruzada realizada por Codex, 6 de octubre de 2026; mismo asistente.** Nueva pregunta: ¿conserva el rol sus fronteras al leer completos Architecture, ACC, Operation y01I? Sí, textualmente: disponibilidad deACC no vincula sujeto; sujeto identificado no concede permiso; observación del rol efectivo no modifica su binding. Operation§§2/14/23 tiene el proceso legítimo que Role remite. [Architecture](00_ARCHITECTURE_VNext.md), [ACC](01_ACC_VNext.md), [01I](../../research/ecosystem-awareness/baseline/01I_VNext.md) y [Operation](04_OPERATION_VNext.md) reciben el contraste.
-
-No se adopta54, cuyo alcance opcional ya se reevaluó. El nuevo problema de comparación57/58/59 no redefine el rol; un perfil debe conservar alternativas en lugar de elevar una preferencia a permiso. Los perfiles/realizaciones aún faltantes mantienen abierta la segunda; primera/tercera/cuarta anteriores no se repiten como trabajo nuevo.
-
-**Ampliación específica de quinta:** [OAP RFC0030, Draft, Fengler, corte7ea15ed](https://github.com/openagentprotocol-OAP/oap-spec/blob/7ea15eda0beec0914feaee12474f4b7bf70a2f14/rfcs/RFC-0030-agent-organizations.md) propone Role y enactment con normas. Candidato de vocabulario, no equivalencia automática con función/S/ACC MSCA. Ranking/inheritance requieren mapping legítimo; implementación declarada no verificada. Derechos por pieza y juicio se registran en01I VNext. No novedad de roles establecida, código y datos importados o transición ejecutada; quinta continúa parcial en el conjunto de sus fuentes.

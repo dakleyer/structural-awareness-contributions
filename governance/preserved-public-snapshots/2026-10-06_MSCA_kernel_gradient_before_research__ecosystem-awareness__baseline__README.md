@@ -332,12 +332,3 @@ These materials are deliberately linked as **examples, source cases or standards
 ## Additional work and complementary reading
 
 The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-
----
-
-## Review workspace for the ACC participation source
-
-The [ACC participation review note](./01I_REVIEW_CARD.md) leads to the single VNext for01I and its relationships with the lineage profile, Role and MSCA Operation. The source remains preserved; the review does not turn this governance extension into an EA core, legal framework or validated collective effect.
-
-The [Human Intelligence 01K review note](./01K_REVIEW_CARD.md) records its capacity-ledger review, and the [Signalling 01J review note](./01J_REVIEW_CARD.md) records the related partial boundary review. Original sources and their validation status remain preserved.

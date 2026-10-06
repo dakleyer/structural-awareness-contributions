@@ -1,0 +1,47 @@
+# VNext — Arquitectura canónica de MSCA
+
+> **Expediente de revisión; no sustituye la fuente actual.** Una sola VNext del documento lógico. Auditoría realizada por **Codex, asistente de IA**, 6 de octubre de 2026. Se escribe para que una persona entienda el argumento y pueda continuar la revisión; no es una lectura humana independiente.
+
+**Fuente:** [Arquitectura canónica de MSCA](00_CANONICAL_MSCA_ARCHITECTURE.md), texto completo, §§1–15; commit `26eb9ee1e5cccb348abe26a71f37d18a947af6bb`, blob `ab03b11a6b91a156eaa22f76f4959d5ac530f52b`. [Plan de trabajo de Iván](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) y [alcance y fuentes consultadas](../../governance/review/MSCA-kernel-lineage-gradient-2026-10-06/evidence.json). Cuerpo original preservado. Publicar auditorías está autorizado; incorporar propuestas requiere decisión concreta de Iván.
+
+## Primera pasada — qué problema y argumento sostiene
+
+**Lectura de fondo y lógica realizada.** MSCA pregunta qué configuración autorizable sostiene un objetivo declarado bajo ciertas condiciones, y cuál de las alternativas evaluadas tiene una carga justificada menor. Sus cinco elementos describen el problema; rellenar esos elementos no demuestra que funcione una configuración. Una representación vacía es válida como representación y no como respuesta suficiente.
+
+La distinción importante está en §§3–6: SUPPORTED depende del objetivo, condiciones, alcance, versión y tiempo. El conjunto de configuraciones suficiente no se presume enumerable ni dotado de un mínimo global. Eso evita definir como ganador lo que todavía no se evaluó. Un perfil tiene que suministrar evidencia y comparación; el documento no proporciona un estimador, algoritmo, criterio universal de seguridad o prueba de eficacia.
+
+Un objetivo puede reunir compromisos de un mismo proceso si su dueño puede declararlos. Compartir un participante no fusiona procesos. La legitimidad del dueño no se obtiene del propio objeto MSCA: es una premisa externa que debe establecerse en el dominio correspondiente.
+
+**Hallazgo de fondo relacionado:** §5 permite múltiples alternativas y evita un coste escalar obligatorio. La ley de gradiente, §§5/7/9, permite comparación vectorial pero abrevia después con signo único y argmax. Dos opciones que intercambian ventajas requieren una comparación declarada; este documento ya admite esa pluralidad. Los candidatos57/58/59 pertenecen a la fuente matemática y su consumidor, no a una redefinición de S/E/C/P/M.
+
+## Segunda pasada — evidencia y relaciones
+
+**Examen ampliado; no cierre de toda la evidencia.** El argumento es una arquitectura normativa: identifica condiciones que un perfil tendría que conservar. No hay aquí prueba de que cualquier perfil compatible controle un sistema real. §14 lo dice expresamente. No se deduce adopción del carácter canónico interno ni de la cita de una contribución pública.
+
+Se leyeron íntegramente ACC, Role, Composition, Operation, 01I y Gradient en sus versiones actuales. Architecture §§7.4/8 → ACC §§4/9 y 01I nota de reconciliación conservan ACC como extensión, separando disponibilidad de vinculación a sujeto. Architecture §11.6 → Role mantiene un lugar funcional estático; Operation §§2/14 conserva la observación de conducta y el proceso legítimo de cambio. Architecture §11.7 → Composition conserva cartografía persistente y el retorno RA; no convierte un mapa recibido en permiso.
+
+La fuente urbana enlazada en §13 no fue recuperable mediante la herramienta web en este intento. Sus resultados/hand-offs no se califican por el título o una cita. Article II, 01B, 01H, 01J, las realizaciones y las trazas completas de las contribuciones todavía requieren su examen material. Esos límites mantienen abierta esta segunda pasada; una relación textual compatible no verifica ejecución.
+
+**Conversación de auditoría:** no hay razón demostrada para alterar el kernel. El problema encontrado está al pasar de pluralidad de objetivos a una regla de selección abreviada. Lo registro también en Gradient y Operation; el receptor no debe corregirlo inventando pesos. [Architecture VNext](00_ARCHITECTURE_VNext.md) · [ACC VNext](01_ACC_VNext.md) · [Role VNext](02_ROLE_VNext.md) · [Composition VNext](03_COMPOSITION_VNext.md) · [Operation VNext](04_OPERATION_VNext.md) · [Gradient VNext](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md) · [01I VNext](../../research/ecosystem-awareness/baseline/01I_VNext.md).
+
+## Tercera pasada — exposición, estructura y formato
+
+**Examen del texto completo realizado.** El orden pregunta → kernel → estados → capas → extensiones → vecinos → conformance resulta útil. Las tablas distinguen qué representa cada elemento y qué autoridad no posee. SHOULD de perfiles y ejemplo de instancia no son una API implementada.
+
+A/B/C/D sobre la configuración añade otra capa de símbolos junto a S/E/C/P/M; el documento la separa expresamente del esquema y del estado de assessment. No se justifica renombrarla o proliferar conceptos. Las citas antiguas conservan su fecha y papel de procedencia. No preparo una corrección ornamental sin beneficio localizado.
+
+## Cuarta pasada — lectura para una persona
+
+**Relectura simulada por el mismo asistente.** El ejemplo de transporte permite distinguir objetivos compatibles dentro del mismo proceso de otros meramente coexistentes. La frase de §4.5 — suficiencia, permiso, ejecución y efecto son distintos — permite contar la idea sin aprender todos los símbolos.
+
+Una persona puede equivocarse si salta de “mínimo” a “óptimo demostrado” o de “compatible” a “legítimo”. La fuente ya explica ambas fronteras. Para continuar conviene leer ACC cuando la pregunta sea quién puede cambiar el contrato, y Operation cuando sea cómo cambia el rol. El README propietario debe conservar esa explicación; un listado de hashes no la reemplaza.
+
+## Quinta pasada — contraste externo específico
+
+**Contraste realizado en alcance acotado; no ensayo de implementación.** [RFC9334, Birkholz, Thaler, Richardson, Smith y Pan, enero2023](https://www.rfc-editor.org/rfc/rfc9334.html), arquitectura RATS **Informational**, §§3/8.4/8.5/10 y aviso de derechos consultados. Separa evidencia, evaluación y decisión del receptor; freshness depende de política y admite carreras. Puede alimentar E/M y referencias de evidencia, no resolver el problema de suficiencia MSCA completo. Pieza reutilizable propuesta: frontera entre resultado de evaluación y política receptora; requiere perfil de alcance, vigencia e invalidación. Texto sujeto a IETF Trust/BCP78; componentes de código, a la licencia indicada por el RFC. No se importa código/texto/datos, ni se probó una implementación. Coincidencia conceptual no demuestra novedad o superioridad MSCA.
+
+El estado público de ATHENA se examina en ACC VNext. Su propuesta sobre origen y delegación podría suministrar referencias externas, sin sustituir S/E/C/P/M. No se infiere adopción ni contenido del documento restringido XSTR.ATHENA. La comparación específica está hecha; evaluar productos, derechos de una implementación elegida o rendimiento sería trabajo posterior, no resultado de esta lectura.
+
+## Plan de cambios y continuidad
+
+**Sin cambio propuesto al cuerpo de Architecture en este corte.** Conserva multi-optima y no impone una política única. Dependencia de revisión: conciliar57/58/59 antes de presentar una selección como ejecutable. Riesgo alto de un parche aislado al ranking, esfuerzo medio de cotejo de perfiles; no autoriza aplicar candidatos. Primera, tercera y cuarta pasadas textuales realizadas; segunda abierta; quinta específica realizada con límites visibles. La sexta global sigue pendiente.

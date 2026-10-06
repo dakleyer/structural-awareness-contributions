@@ -174,10 +174,3 @@ The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains pres
 ## Review workspaces for Role and Composition
 
 The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.
-
-
----
-
-## Review workspaces for Architecture and ACC lineage
-
-The [Architecture review note](./00_ARCHITECTURE_REVIEW_CARD.md) and [ACC lineage review note](./01_ACC_REVIEW_CARD.md) lead to the separate audit workspaces for the current kernel and its canonical extension profile. Their original texts remain preserved; audit findings and proposed changes do not establish implementation validation or adoption.

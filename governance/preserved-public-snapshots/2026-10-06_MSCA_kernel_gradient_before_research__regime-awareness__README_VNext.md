@@ -191,12 +191,3 @@ La explicación, cobertura y viejos/nuevos están en [01C VNext](../ecosystem-aw
 **Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** El contexto completo Role/Composition protege ya las calificaciones y la distinción contractual/observacional. Las aclaraciones52–54 reducen urgencia; no cambia la semántica de Δ_RA ni se adopta la propuesta anterior del resumen RA.
 
 [Role VNext](../../standards/minimum-sufficient-control/02_ROLE_VNext.md#pasadas-propias-de-role--lectura-completa-y-contraste-del-rol-estático) · [Composition VNext](../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md#pasadas-propias-de-composition--leer-el-mapa-completo-y-sus-límites) · [Fuentes/cobertura](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). La conversación anterior permanece visible; relectura del mismo agente no es independencia externa.
-
-
----
-
-## Dependencia nueva de capacidad humana01K — revisión acotada
-
-**Auditoría cruzada porCodex, 6 de octubre de 2026; mismo asistente.** Se leyó01K completo y la nueva frontera deOperation§4.1/Signalling§5.2. [01K VNext](../ecosystem-awareness/baseline/01K_VNext.md) registra posible dobleconteo de compromisos y condiciones de escala HIT (64/67). Unnombre/cola humana no garantiza revisiónútil; AVAILABLE debeconservar evidencia, ventana, competencia yautoridad.
-
-Este cotejo no convierte UC03 congelado, HEW analítico o comentariosFG en calibración de HIT. Se mantienen fuente/resultado/estadoanterior y laspasadas pendientes; no se recalcula, ejecuta, demueve o reinterpreta evidencia. Elcontraste deTheme16 como antecedente deoversight no redefine por sísolo la semántica actual deΔ_RA.

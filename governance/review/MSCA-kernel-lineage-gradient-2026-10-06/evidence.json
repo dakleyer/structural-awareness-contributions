@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "date": "2026-10-06",
+  "review_commit": "26eb9ee1e5cccb348abe26a71f37d18a947af6bb",
+  "reviewer": "Codex, same AI assistant; no independent human review",
+  "sources": [
+    {
+      "path": "standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md",
+      "blob": "ab03b11a6b91a156eaa22f76f4959d5ac530f52b",
+      "read_scope": "Complete current textual source",
+      "logic": "Performed",
+      "edition": "Performed",
+      "readability": "Simulated, same assistant",
+      "evidence_relations": "Expanded; source/profile/realization gaps remain",
+      "external_comparison": "Specific comparison performed in declared scope; no implementation imported or differential proved"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/01_ACC_LINEAGE_IDENTITY_AUTHORITY_BINDING_PROFILE.md",
+      "blob": "6059423eb0e2eca5a1281225e117f9f5017e3286",
+      "read_scope": "Complete current textual source",
+      "logic": "Performed",
+      "edition": "Performed",
+      "readability": "Simulated, same assistant",
+      "evidence_relations": "Expanded; source/profile/realization gaps remain",
+      "external_comparison": "Specific comparison performed in declared scope; no implementation imported or differential proved"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md",
+      "blob": "88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c",
+      "read_scope": "Complete current textual source",
+      "logic": "Performed",
+      "edition": "Performed",
+      "readability": "Simulated, same assistant",
+      "evidence_relations": "Expanded; source/profile/realization gaps remain",
+      "external_comparison": "Specific comparison performed in declared scope; no implementation imported or differential proved"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md",
+      "blob": "9477861ecb59f991a5bcc6957459c3332cb714f1",
+      "read_scope": "Complete current textual source",
+      "logic": "Performed",
+      "edition": "Performed",
+      "readability": "Simulated, same assistant",
+      "evidence_relations": "Expanded; source/profile/realization gaps remain",
+      "external_comparison": "Specific comparison performed in declared scope; no implementation imported or differential proved"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md",
+      "blob": "330cbdab2fa8ca0cb162f480f2ab83b06485a1f8",
+      "read_scope": "Complete current textual source",
+      "logic": "Performed",
+      "edition": "Performed",
+      "readability": "Simulated, same assistant",
+      "evidence_relations": "Expanded; source/profile/realization gaps remain",
+      "external_comparison": "Specific comparison performed in declared scope; no implementation imported or differential proved"
+    }
+  ],
+  "findings": [
+    {
+      "title": "Comparación vectorial sin orden declarado",
+      "source": "Gradient §§5/7/9",
+      "reason": "§5 admite Φ vector/Pareto, pero §7 positivo/negativo y §9 argmax necesitan orden, perfil y conjunto de selección; dos riesgos (-0.1,+0.2) no tienen signo único.",
+      "related": [
+        "Architecture §5",
+        "Operation §9"
+      ]
+    },
+    {
+      "title": "P3 identifica necesidad, no autoriza transición",
+      "source": "Operation §11.3",
+      "before": "P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.",
+      "reason": "Auth verb can mislead in isolated reading; §§13–14/25 already protect external authority, so clarification does not establish implementation flaw."
+    }
+  ],
+  "proposal_ids": [
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "navigation_ids": [
+    62,
+    63
+  ],
+  "conceptual_counterexample": {
+    "origin": "Own constructed example, not corpus experimental results",
+    "current": [
+      0.3,
+      0.3
+    ],
+    "candidate_A": [
+      0.2,
+      0.5
+    ],
+    "candidate_B": [
+      0.4,
+      0.2
+    ],
+    "judgment": "Neither dominates the other componentwise; selection requires declared order/trade-off and hard-constraint gate"
+  },
+  "external": [
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9334.html",
+      "author": "Birkholz, Thaler, Richardson, Smith, Pan",
+      "version_date": "January 2023",
+      "status": "Informational RFC",
+      "read_scope": "§§3,8.4,8.5,10 and rights notice",
+      "piece": "Boundary between evidence evaluation and receiving policy",
+      "text_rights": "IETF Trust / BCP78 notice read",
+      "code_rights": "RFC code-component notice; no component selected",
+      "data_rights": "No external dataset selected or imported"
+    },
+    {
+      "url": "https://www.w3.org/TR/2025/REC-vc-data-model-2.0-20250515/",
+      "author": "W3C VC WG; editors Sporny, Thibodeau, Herman, Cohen, Jones",
+      "version_date": "2025-05-15",
+      "status": "Recommendation",
+      "read_scope": "§§4.9,4.10,5.9 and rights header",
+      "piece": "Subject/issuer/validity/status assertion profile, pending adapter design",
+      "text_rights": "W3C permissive document license referenced and consulted",
+      "code_rights": "No implementation selected",
+      "data_rights": "No external data selected"
+    },
+    {
+      "url": "https://www.rfc-editor.org/info/rfc8693/",
+      "author": "Campbell (editor), Bradley, Jones, Nadalin, Mortimore",
+      "version_date": "January 2020",
+      "status": "Proposed Standard RFC",
+      "read_scope": "§§1,1.1,2.1 and rights notice",
+      "piece": "Subject/actor/scope references, not ACC lineage proof",
+      "text_rights": "IETF Trust / BCP78 notice",
+      "code_rights": "Code-component notice applies; no copied component",
+      "data_rights": "No external data selected"
+    },
+    {
+      "url": "https://github.com/openagentprotocol-OAP/oap-spec/blob/7ea15eda0beec0914feaee12474f4b7bf70a2f14/rfcs/RFC-0030-agent-organizations.md",
+      "author": "T. Fengler (Editor)",
+      "version_date": "Draft created 2026-05-05; read commit7ea15eda",
+      "status": "Draft, target1.2; implementation statements not reproduced",
+      "read_scope": "§§1–3.8 and final sections",
+      "piece": "Role/norm/enactment vocabulary; precedence/inheritance require compatible owner profile",
+      "text_rights": "LICENSE-SPEC and NOTICE, CC BY4.0",
+      "code_rights": "LICENSE-CODE and NOTICE, Apache2.0; no component imported",
+      "data_rights": "No dataset selected"
+    },
+    {
+      "url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
+      "author": "Stephen Boyd and Lieven Vandenberghe",
+      "version_date": "2004; corrected seventh printing2009 per consulted copyright page",
+      "status": "Published book",
+      "read_scope": "§§4.7.1–4.7.3, printed174–178, pertinent passages; not whole book/algorithms",
+      "piece": "Specify comparison order before selecting vector candidates",
+      "text_rights": "Cambridge2004 copyright; no republication permission asserted; no text/figures imported",
+      "code_rights": "No code selected",
+      "data_rights": "No external dataset selected"
+    },
+    {
+      "url": "https://github.com/FG-TIDA/themes/issues/34",
+      "author": "Gianpaolo Angelo Scalone/flyingeng",
+      "version_date": "Created 2026-10-01; read public body and two current comments",
+      "status": "Open proposal; no adoption inferred",
+      "read_scope": "Body and comments5929502139/5936893268",
+      "piece": "Potential constrained authority-chain requirements; no experiment initiated",
+      "text_rights": "Import rights not established; attributed discussion only",
+      "code_rights": "No implementation examined",
+      "data_rights": "No dataset imported"
+    },
+    {
+      "url": "https://www.itu.int/md/T25-SG17-260601-TD-WP1-0236/en",
+      "author": "Co-Rapporteur Q10/17",
+      "version_date": "2026-06-07",
+      "status": "Temporary-document proposal metadata; not adoption",
+      "read_scope": "Public metadata only; Word restricted toTIES, not read",
+      "piece": "Unassessed; no technical content inferred",
+      "text_rights": "Restricted document not imported",
+      "code_rights": "Not examined",
+      "data_rights": "Not examined"
+    },
+    {
+      "url": "https://www.nasa.gov/human-systems-integration-division/nasa-task-load-index-tlx/",
+      "author": "NASA Ames; SandraHart",
+      "version_date": "Historical official page updated2026-03-11",
+      "read_scope": "Description, subscales and tool permissions;1988paper/manual not read",
+      "piece": "Subjective workload observations, not HIT capacity stock",
+      "text_rights": "Tool-use/modification permission stated; no paper republication claimed",
+      "code_rights": "No implementation selected/imported",
+      "data_rights": "No human/external dataset gathered"
+    },
+    {
+      "url": "https://github.com/FG-TIDA/themes/issues/16#issuecomment-5462496736",
+      "author": "dakleyer",
+      "version_date": "2026-08-29",
+      "status": "Contributor proposal; no adoption assumed",
+      "read_scope": "Full comment; cited studies not thereby read",
+      "piece": "Capacity/response-window requirements",
+      "text_rights": "Import license not established; attributed comparison",
+      "code_rights": "None selected",
+      "data_rights": "None selected"
+    },
+    {
+      "url": "https://github.com/FG-TIDA/themes/issues/13#issuecomment-5985312999",
+      "author": "NellInc/NellWatson",
+      "version_date": "2026-10-04",
+      "status": "Proposed requirement; no adoption assumed",
+      "read_scope": "Full comment; incident papers not examined here",
+      "piece": "Objection channel and accountable receiver",
+      "text_rights": "Import license not established; attributed comparison",
+      "code_rights": "None selected",
+      "data_rights": "None selected"
+    }
+  ],
+  "outstanding": [
+    "Urban/smart-city Tegrity working-paper URL not recovered by web tool in this attempt",
+    "Full material 01B/01D/01H/01J/EHD relationships and relevant realizations still to examine",
+    "Complete claims/provenance of ArticleII/submissions/runtime00G not certified by this review",
+    "Existing Role/Composition fifth-source ensemble remains partial",
+    "Other concurrent DDS/HEW studies not assessed here",
+    "Five-pass principal corpus coverage and global sixth not complete"
+  ],
+  "preservation": {
+    "canonical_sources_changed": false,
+    "ep_readme_and_strategy_changed": false,
+    "frozen_results_code_binaries_changed": false,
+    "new_readme_levels": 0,
+    "source_classification": "Principal sources/material integrations; loose additional documents untouched"
+  },
+  "publication_base": "8757ba614c94f962206912d4896c119a18a924fa",
+  "incoming_source_review": {
+    "read01K": "Complete§§1–13",
+    "read01J": "New§5.2 only",
+    "readOperation": "New§4.1; other text unchanged",
+    "counterexample": {
+      "nominal": 10,
+      "committed": 6,
+      "degradation": 0,
+      "available": 4,
+      "oldHID": 2,
+      "evidence": "Own conceptual accounting case, not human measurements"
+    },
+    "proposal_ids": [
+      64,
+      65,
+      66,
+      67
+    ],
+    "ep_append_only": "Concurrent insertion is not old-byte-prefix; authorization exception not assessed; preserved latest, no revert"
+  }
+}

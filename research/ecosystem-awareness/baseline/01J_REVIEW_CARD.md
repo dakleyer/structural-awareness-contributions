@@ -1,0 +1,3 @@
+# Nota de revisión — Ecosystem Signalling 01J
+
+**Versión1.0,6 de octubre de 2026.** [Fuente actual](01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) intacta. [Única VNext](01J_VNext.md): nueva §5.2 y relaciones; lectura completa todavía pendiente. Auditoría del mismo asistente IA; no revisiónhumana independiente, validación oadopción. [Plan de Iván](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md). Fuente `8757ba614c94f962206912d4896c119a18a924fa`, blob `e736d4bb6233e39de323ff0aa38553b74001469e`. Incorporación de propuestas pendiente de decisión concreta; sexta global pendiente.

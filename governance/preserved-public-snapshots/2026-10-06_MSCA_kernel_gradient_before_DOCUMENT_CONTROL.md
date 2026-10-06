@@ -507,16 +507,3 @@ Navigation execution and literal index-link additions are recorded in the existi
 **Control addition version:** 2026-10-06.5. Existing canonical Role/Composition sources retain their exact blobs. Their unique VNext are [Role](standards/minimum-sufficient-control/02_ROLE_VNext.md) and [Composition](standards/minimum-sufficient-control/03_COMPOSITION_VNext.md), with external review cards to preserve the originals. The MSCA owner README receives only an appended link to those review notes. No source move, rename, deletion, new README or canonical level is introduced.
 
 The current 01C review records partial producer–consumer findings in both endpoints and the owning README VNext. Candidate 52/53 clarifies qualification of a shared cartographic slice; 54 distinguishes role binding and observed behaviour. Publication of these candidates does not authorize incorporation. Additional-work catalogues, frozen sources, results, code and binaries are preserved.
-
-
----
-
-## 17. 6 October 2026 — review records for MSCA kernel, ACC and Gradient
-
-**Control addition version:** 2026-10-06.6. The owner-authorized review now has unique external cards and VNext for [Architecture](standards/minimum-sufficient-control/00_ARCHITECTURE_REVIEW_CARD.md), [ACC lineage](standards/minimum-sufficient-control/01_ACC_REVIEW_CARD.md), [Gradient](architectural-contributions/ecosystem-positioning/01_GRADIENT_REVIEW_CARD.md) and [ACC participation01I](research/ecosystem-awareness/baseline/01I_REVIEW_CARD.md). These are current principal sources/material integrations, not loose-document audit proliferation. Sources retain their exact blobs; no substantive canonical proposal is applied.
-
-The MSCA owner README and EA baseline owner README receive only appended review-card links. Their VNext preserve literal old context and the full navigation additions. EP README VNext relates the new comparison finding and source/consumer proposals. EP canonical README, EA entry-point README, development strategy, canonical specifications, frozen evidence, results, code and binaries remain unchanged. No README created, removed, renamed or reordered; canonical reading levels remain the three already recorded in§14. Existing auxiliary catalogues remain unchanged.
-
-Authenticated predecessor blobs are preserved before adding to existing records. Required verification covers byte-prefix preservation, exact changed scope, new link/anchor resolution and VNext uniqueness. Publication requires head/scope checks and exact public readback. A reference to external research or an inaccessible ITU document does not establish adoption, a performed experiment or authority.
-
-The same publication also records the newly incoming [Human Intelligence 01K review](research/ecosystem-awareness/baseline/01K_REVIEW_CARD.md) and a [partial01J Signalling review](research/ecosystem-awareness/baseline/01J_REVIEW_CARD.md). The canonical source update at `8757ba614c94f962206912d4896c119a18a924fa` is preserved in full. Observed EP source blob is `117324cfaf8cb6978f33f2923f9151479ec1c918`; this observation does not approve an exception to the append-only instruction. The prior source was not a byte-prefix of the concurrent mid-body insertion, and EP README VNext records the pending provenance/authorization check. This review itself does not edit or revert the EP canonical source.

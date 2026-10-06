@@ -106,3 +106,164 @@ La explicación, cobertura y viejos/nuevos están en [01C VNext](../../research/
 **Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** Role§13.1 contiene también la frase usada en01C; por eso la atribución anterior de la ambigüedad solo al consumidor era incompleta. Operation mantiene bound/effective.54 pasa a claridad opcional;52/53 no crean otro esquema ni acreditan fallo runtime.
 
 [Role VNext](02_ROLE_VNext.md#pasadas-propias-de-role--lectura-completa-y-contraste-del-rol-estático) · [Composition VNext](03_COMPOSITION_VNext.md#pasadas-propias-de-composition--leer-el-mapa-completo-y-sus-límites) · [Fuentes/cobertura](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). La conversación anterior permanece visible; relectura del mismo agente no es independencia externa.
+
+
+---
+
+## Lectura completa de Operation — comparación, deriva y límites
+
+**Auditoría realizada por Codex, 6 de octubre de 2026; mismo asistente de IA. Fuente completa §§1–26, commit `26eb9ee1e5cccb348abe26a71f37d18a947af6bb`, blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`.** Continúa las revisiones parciales anteriores; no se elimina ninguna valoración o propuesta.
+
+### Primera pasada — cerrar sin autoautorizar
+
+Se leyó el ciclo completo. Comienza observando el rol efectivo y cotejando su legitimidad antes de optimizar desde un estado ficticio. Clasificar deriva no canoniza la conducta; un gradiente favorable no concede autoridad. Después de un cambio legítimo debe actualizarse rol/ACC/Cart antes de emitir el siguiente ciclo. Las solicitudes de contención e aislamiento se distinguen de su ejecución.
+
+§21 explica una posibilidad de self-healing y niega prueba de convergencia o seguridad global. §22 permite corrección local sin consenso; no es evidencia de una recuperación garantizada. El ejemplo Bar-to-Napoleon ilustra una falsa transición de misión, no prueba cualquier adversario. Su§16 aclara que confianza alta aislada no diagnostica Type 2: hace falta promoción indebida de incertidumbre material.
+
+§11.3 usa “It authorizes the need...” paraP3 mientras los otros gates niegan que una postura cree permiso. Se propone60 como precisión opcional de lectura, no reparación de una autorización ejecutada demostrada.
+
+### Segunda pasada — comparación fuente/receptor
+
+Se cotejaron íntegramente Architecture, ACC, Role, Composition,01I y Gradient. Role ligado/efectivo (§§2/14) conserva su diferencia; ACC (§§12–14) conserva linaje/sucesor/autoridad; Cart sigue en Composition. Sus consecuencias están en [Architecture](00_ARCHITECTURE_VNext.md), [ACC](01_ACC_VNext.md), [Role](02_ROLE_VNext.md), [Composition](03_COMPOSITION_VNext.md) y [01I](../../research/ecosystem-awareness/baseline/01I_VNext.md) VNext.
+
+El nuevo hallazgo es§9: repite igualdad de reducción de riesgo y aumento de cumplimiento sin la condición binaria normalizada de la fuente. Gradient admite comparación vector/Pareto y su selección queda insuficientemente especificada para ese caso. Dos vectores que mejoran componentes diferentes no tienen ganador único por el símboloG. [Gradient VNext](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md) contiene el contraejemplo y57/58;59 conserva en el receptor la comparación declarada. Tanda conjunta, sin algoritmo/pesos/permisos nuevos.
+
+No se leyeron aún completos todos los perfiles 01D/01H/01J, modelos de riesgo, fuente00G ni sus contratos y resultados. La segunda sigue abierta. No se relanza una ejecución para suplir lectura; la conciliación global tampoco se inicia por este contraste parcial.
+
+### Tercera pasada — estructura y formato
+
+Texto completo examinado: deriva → oportunidades → posturas → gates → resultados → feedback es un orden inteligible. Los distintos catálogos de estado no deben mezclarse; el resultado compuesto no es un permiso. La ambigüedad de autorizaciónP3 y la abreviatura de comparación son propuestas localizadas; no hay razón para reordenar toda la fuente.
+
+### Cuarta pasada — lectura humana
+
+Simulación del mismo asistente: el camarero puede creer que otra misión es atractiva, pero sigue vinculado al bar salvo transición legítima. Si ya cambió de conducta, hay que partir de lo observado y devolver la decisión al dueño adecuado. El cierre de escalada requiere destino, plazo, fallback y presupuesto (§13.2); esperar sin fin no es seguridad.
+
+Una persona necesita ver la comparación de objetivos cuando el movimiento favorece uno y perjudica otro.59 protege esa pregunta; no obliga al lector a interpretar un argmax como consenso.
+
+### Quinta pasada — delegación como frontera externa
+
+**Contraste específico realizado.** [RFC8693, Campbell/editor, Bradley, Jones, Nadalin y Mortimore, enero2020, Proposed Standard](https://www.rfc-editor.org/info/rfc8693/), §§1/1.1/2.1 y derechos consultados. Distingue actor y sujeto; el intercambio depende del servidor/política y no fija un trust model universal. Pieza candidata: referencia actor/sujeto/scope de la autoridad que el ciclo verifica, sin transformar una intención en grant ni demostrar linaje ACC. Texto sujeto aIETF Trust/BCP78; componentes de código requieren el aviso de licencia indicado. Implementación/datos no seleccionados ni importados. No se prueba seguridad, ventaja o runtime compatible por el contraste.
+
+ATHENA y su solicitud pública de cadena/revocación se contrastan en ACC VNext: propuesta pendiente, no experimento ejecutado. La quinta está realizada para esta pregunta acotada; adaptar un protocolo exige versión, autoridad y evidencia propios. La segunda material y sexta global siguen abiertas.
+
+## Propuestas de esta lectura — fuente y consumidor juntos
+
+### Cambio 59 — Mantener en Operation el perfil de comparación del gradiente
+
+**Fuente/ubicación:** [fuente actual](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`; el viejo aparece exactamente una vez. **Impacto esperado: Alto. Riesgo: Alto. Esfuerzo: Medio. Prioridad: Primera. Tanda: 2 — Coherencia entre RA, EA y MSCA.**
+
+**Beneficio esperado:** Que el consumidor no universalice lo que la fuente delimita. No es eficacia medida. **Riesgo concreto:** Puede desactualizar perfiles y decisiones esperadas; no cambia permisos y posturas. **Trabajo necesario:** Cotejo conjunto57/58,01D y contratos de selección.
+
+**Texto antes — viejo literal completo:**
+
+```markdown
+For each candidate transition τ:
+
+~~~text
+G_i(τ | Δ_RA, Cart_i, X_i)
+=
+expected reduction in objective-conditioned risk
+=
+expected increase in Objective-Envelope fulfilment
+~~~
+
+as defined by the [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
+```
+
+**Texto después — propuesto completo:**
+
+```markdown
+For each candidate transition τ, the gradient compares current and candidate outcomes using the declared Objective-Envelope risk profile:
+
+~~~text
+G_i(τ | Δ_RA, Cart_i, X_i)
+= profile-qualified comparison of current and candidate objective-conditioned risk
+~~~
+
+For a supported scalar expectation this comparison may be expressed as expected risk reduction. Equivalence to an expected increase in fulfilment applies to the normalized binary reading V_i = 1 - R_i. Vector/Pareto profiles preserve their declared comparison relation and incomparable alternatives; they do not imply a unique scalar ranking.
+
+The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) owns that comparison. Operation preserves its evidence limits, hard constraints and candidate-selection state; it does not fabricate a gain, maximum or execution permit.
+```
+
+**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Tanda compatible57/58/59 y decisión de Iván. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
+
+### Cambio 60 — Decir que P3 identifica una necesidad, sin verbo de autorización
+
+**Fuente/ubicación:** [fuente actual](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`; el viejo aparece exactamente una vez. **Impacto esperado: Medio. Riesgo: Medio. Esfuerzo: Bajo. Prioridad: Siguiente. Tanda: 3 — Contratos y protocolo.**
+
+**Beneficio esperado:** Evitar que authorize se lea como autoridad creada por la postura. No es eficacia medida. **Riesgo concreto:** §§13/14/25 ya protegen la autoridad externa; no transformar la nota en nuevo gate. **Trabajo necesario:** Pasaje corto con cotejo de Gradient§8 y ACC§§5/7; preservación.
+
+**Texto antes — viejo literal completo:**
+
+```markdown
+P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
+```
+
+**Texto después — propuesto completo:**
+
+```markdown
+P3 identifies the **need to qualify a legitimate transition path**. It grants no destination or execution authority; approval and execution remain subject to the applicable ACC and external authority mechanisms.
+```
+
+**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Aclaración opcional, decisión de Iván y consumidores comprobados. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
+
+
+## Reapertura por nueva capacidad humana — fuente vigente
+
+**Codex, mismo asistente,6 de octubre de 2026.** La fuente cambió a `8757ba614c94f962206912d4896c119a18a924fa`, blob `e11731c36e207d11631ade1a60ee521537840801`: se leyó íntegra la nueva §4.1 y su productor01K completo. Los demás pasajes no cambiaron. Se conservan la lectura y pares anteriores contra 26eb; no se reescribe suviejo.
+
+La nueva entrada preserva cualificación,Cart/RA,ACC/autoridad y no convierte el avisohumano eninterruptprivilegiado. Su consumo deAVAILABLE exige unledger consistente;01K§4 puede contar dosveces lareserva si committed y demand_committed son elmismo volumen, y susclasesordinales no acreditan restas. [01K VNext](../../research/ecosystem-awareness/baseline/01K_VNext.md) y [01J VNext](../../research/ecosystem-awareness/baseline/01J_VNext.md) registran64/67 y otroextremo. No se da porprobada capacidad real ocalibración.
+
+59/60 conservan exactamente viejo y propuesta, presentes una vez en la nueva fuente. Revalidación publicada a continuación; siguen pendientes de Iván, sin cambiar el input de37 ni resultados.
+
+### Revalidación del cambio59 contra la nueva fuente
+
+Blob vigente `e11731c36e207d11631ade1a60ee521537840801`; viejo único, contexto nuevo §4.1 examinado. **Texto antes — viejo completo:**
+
+```markdown
+For each candidate transition τ:
+
+~~~text
+G_i(τ | Δ_RA, Cart_i, X_i)
+=
+expected reduction in objective-conditioned risk
+=
+expected increase in Objective-Envelope fulfilment
+~~~
+
+as defined by the [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
+
+```
+
+**Texto después — propuesto completo:**
+
+```markdown
+For each candidate transition τ, the gradient compares current and candidate outcomes using the declared Objective-Envelope risk profile:
+
+~~~text
+G_i(τ | Δ_RA, Cart_i, X_i)
+= profile-qualified comparison of current and candidate objective-conditioned risk
+~~~
+
+For a supported scalar expectation this comparison may be expressed as expected risk reduction. Equivalence to an expected increase in fulfilment applies to the normalized binary reading V_i = 1 - R_i. Vector/Pareto profiles preserve their declared comparison relation and incomparable alternatives; they do not imply a unique scalar ranking.
+
+The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) owns that comparison. Operation preserves its evidence limits, hard constraints and candidate-selection state; it does not fabricate a gain, maximum or execution permit.
+```
+
+Valoración/dependencias originales se conservan. Esta segunda localización no aplica la propuesta ni declara terminada la conciliación global.
+
+### Revalidación del cambio60 contra la nueva fuente
+
+Blob vigente `e11731c36e207d11631ade1a60ee521537840801`; viejo único, contexto nuevo §4.1 examinado. **Texto antes — viejo completo:**
+
+```markdown
+P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
+```
+
+**Texto después — propuesto completo:**
+
+```markdown
+P3 identifies the **need to qualify a legitimate transition path**. It grants no destination or execution authority; approval and execution remain subject to the applicable ACC and external authority mechanisms.
+```
+
+Valoración/dependencias originales se conservan. Esta segunda localización no aplica la propuesta ni declara terminada la conciliación global.
