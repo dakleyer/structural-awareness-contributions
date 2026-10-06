@@ -1,6 +1,6 @@
 # Continuación del plan — lectura del README y fundamentos
 
-**6 de octubre de 2026 · revisión acumulativa 1.5.** La revisión sigue en este mismo chat con una continuación programada cada hora. El objetivo es completar las pasadas de todos los documentos del alcance y la conciliación final; publicar avances no cierra ese objetivo. Los estados siguientes describen trabajo real, no la mera existencia de una VNext.
+**6 de octubre de 2026 · revisión acumulativa 1.4.** La revisión sigue en este mismo chat con una continuación programada cada hora. El objetivo es completar las pasadas de todos los documentos del alcance y la conciliación final; publicar avances no cierra ese objetivo. Los estados siguientes describen trabajo real, no la mera existencia de una VNext.
 
 | Documento | Fondo y lógica | Evidencia y relaciones | Edición/formato | Lectura humana |
 |---|---|---|---|---|
@@ -263,21 +263,6 @@ La referencia a 00M sostiene el significado actual de A/B/C/D, no un certificado
 La diferencia de hashes de 00M también fue rastreada: el registro corresponde al payload publicado en d855f8d, mientras el actual incorpora la adopción semántica de 135d8ff. Ambos estados son reconstruibles y se explican en 00M VNext; un filename v0.8 por sí solo no identifica esos bytes. No se modifica el manifest histórico.
 
 Esta segunda pasada sigue **parcial**. La cuenta de casos/regresiones es reconstruible como registro, pero no sustituye el examen de fidelidad de cada fórmula, cada oracle y cada comparación. Tampoco implica replicación independiente de una hipótesis completa.
-
-
-### Conciliación del alcance R01 — tareas 1 y 2, 6 de octubre de 2026
-
-**Codex /root, chat 01a11096-57f0-72b2-bd57-7d8816673410; mismo asistente, no revisor externo.** Instrucción de Iván: «realiza las tareas 1 y 2», referida al plan del oráculo. Se registra la consecuencia en este router según el procedimiento 1.2; no modifica el alcance de la continuación global de este expediente.
-
-La [VNext del oráculo R01](../../research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#r01-tasks12-status) contiene cuatro pasadas diferenciadas del README, publicadas en orden, y una matriz de transferencia para Q1a/CTv1, 00K, 00L, 00I/S5, C3, primer R01, runners 00G-HF y Nelson/UC4. La cuarta pasada es relectura simulada del mismo asistente. Doce fuentes vecinas tienen registro cruzado parcial en sus únicas VNext; sus restantes pasadas no se dan por terminadas.
-
-La conciliación mantiene el argumento: comparar una realización con referencia acotada y recursos, conservando observación/autoridad/decisión/intento/efecto. Detecta tres pérdidas posibles al pasar de fuente a router: confundir un PASS batch con entrega real; tratar normalización CTv1 como identidad total de contratos; presentar controles o redes correlacionadas como población independiente. La matriz impide esas promociones y reconoce resultados convencionales favorables.
-
-Se conserva la época de versiones y evidencia. El paquete dinámico 00G-HF tiene resultados posteriores que completan la campaña, pese al README de preparación “pendiente”; las métricas de su malla y los limits de continuidad no validan R01/EA. Los pointers de freeze v0.4/v0.8/v0.9 identifican objetos o épocas diferentes y no se renumeran para uniformarlos.
-
-**Resultado para este README de conjunto:** R01 dispone ahora de revisión documental y contrato de transferencia acotados; no oracle universal, validación UC4, aceptación de fuente, campaña real ni ventaja EA. Se conservan los originales y siete deltas del README R01 pendientes. **La conciliación global de todo el corpus continúa abierta**: este registro concilia únicamente el alcance local, sin sustituir las cuatro pasadas de los demás documentos.
-
-[Fuentes y comprobaciones](../../governance/review/r01-oracle-tasks12-2026-10-06/REVIEW_EVIDENCE.json). La microcomprobación CTv1 comprende 28 ejemplos/propiedades de un prototipo de importación; no nuevo run científico de los harness ni adapter admitido.
 
 ## Tercera pasada del README — edición, estructura y formato
 

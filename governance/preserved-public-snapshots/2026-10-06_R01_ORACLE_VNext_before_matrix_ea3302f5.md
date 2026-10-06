@@ -16,7 +16,7 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.6 · **Fecha:** 6 de octubre de 2026  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.5 · **Fecha:** 6 de octubre de 2026  
 **Estado:** cuatro pasadas del README realizadas en el alcance declarado; relaciones vecinas parcialmente revisadas; siete propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
@@ -273,7 +273,7 @@ Su correo del 6 de octubre sobre trabajo científico/Lifecycle fue leído como c
 | ID | Instrucción / decisión auténtica | Alcance | Estado |
 |---|---|---|---|
 | IVAN-R01-ORACLE-20261006-01 | Documentar los comentarios en la VNext del oráculo según el procedimiento EP. | Crear/reutilizar el expediente, registrar auditoría, conversación y propuestas. | Ejecutada por esta entrega documental; no adopción de deltas técnicos. |
-| IVAN-R01-ORACLE-20261006-03 | Realizar tareas 1 y 2 del plan. | Cuatro pasadas del README y matriz de compatibilidad, con registro cruzado. | Realizadas en alcance documental/de contrato; simulación de lectura identificada; adapters/campañas/deltas no ejecutados. |
+| IVAN-R01-ORACLE-20261006-03 | Realizar tareas 1 y 2 del plan. | Cuatro pasadas del README y matriz de compatibilidad, con registro cruzado. | En ejecución; sin incorporar deltas ni ejecutar campañas. |
 | IVAN-R01-ORACLE-20261006-02 | Añadir un plan de trabajo recomendado dentro de esta VNext. | Secuencia, entregables, dependencias y criterios de cierre; mantener la cola propietaria. | Ejecutada como documentación del plan; trabajo futuro pendiente. |
 | R01-ORACLE-DELTA-001–004 | No hay decisión de incorporación por ID en este chat. | Corrección del README o successor protegido. | **Pendiente de Iván.** |
 | Campañas C11/T03 y comunicaciones | No autorizadas por esta instrucción documental. | Experimentos nuevos, integración/aceptación de contribuyentes y mensajes. | No ejecutados. |
@@ -288,8 +288,6 @@ La cola activa sigue en [WORKPLAN.md](../feasibility/WORKPLAN.md). Las recomenda
 Mi recomendación es consolidar una frontera común de experimento y trazas, con adaptadores pequeños y evaluadores específicos por escenario. Hay suficiente infraestructura propia para evitar empezar de cero. El trabajo decisivo es demostrar qué significado conserva cada adaptación: una ejecución stateful correcta de S5 y una ruta óptima admisible de R01 responden a preguntas distintas.
 
 Priorizaría la compatibilidad comprobable en un dominio pequeño, antes de extender el evaluador a todas las familias o conectar una tecnología real. Nelson aporta la envolvente experimental y la revisión de su contrato; nuestros harness aportan backends, controles y evidencia histórica. La composición debe permitir usar ambos sin trasladar automáticamente sus conclusiones.
-
-**Actualización del 6 de octubre:** tareas 1 y 2 realizadas en el alcance registrado en [§5.3](#r01-tasks12-status). La tabla siguiente conserva la recomendación original; los pasos 3–8 continúan pendientes.
 
 ### Orden, entregables y criterios de cierre
 
@@ -333,109 +331,6 @@ Se avanza al siguiente dominio cuando el mapping conserva significado y los cont
 Si falla aislamiento, referencia, capacidades o contabilidad, el perfil no se admite para la campaña afectada. Si un comparador convencional resuelve la pregunta, se conserva el resultado y se limita la conclusión; cualquier criterio de aborto establecido por Iván para esa campaña se respeta. La ejecución manual anterior no se reactiva desde este plan ni se convierte en evidencia de EA.
 
 El cierre recomendado tiene tres niveles: **documento revisado en su alcance**, **perfil compatible y admitido con evidencia** y **campaña real evaluada**. Cada uno necesita su propio resultado. Añadir este plan deja completa la petición documental de hoy; los tres niveles futuros mantienen sus estados reales y las cuatro propuestas siguientes continúan pendientes.
-
-
-<a id="r01-compatibility-matrix"></a>
-## 5.2. Tarea 2 realizada — matriz de compatibilidad y contrato de transferencia
-
-**Codex /root, 6 de octubre de 2026 · revisión de contrato 1.0.** Se fijan correspondencias por fuente y dominio. Los nombres normalizados siguientes son **propuestas de frontera de importación**, no campos añadidos al schema UC4 ni cambios al instrumento congelado. Tarea 2 queda realizada como matriz y resolución acotada del contrato CTv1; instalar los adapters corresponde al paso 4. La tabla distingue infraestructura existente, transformación definida y admisión todavía pendiente.
-
-### Frontera común: qué hay que conservar
-
-| Dimensión | Registro de transferencia propuesto | Regla de conservación y falta de equivalente |
-|---|---|---|
-| Identidad del caso | source_corpus, source_path/commit/blob, native_case_id, native_arm_id, native_event_ref | Mantener namespace y revisión. Un P1 Q1a, un P1 de principios 00K y una postura P1 no se fusionan. Un ID generado de import lleva vínculo al ID nativo. |
-| Personas/componentes | receiver_id, principal_id, source_owner, resource_id, task_id | Copiar solo identidades existentes y su rol. Un producer Q1a no se convierte en principal R01; un owner de metadata no es prueba de mandato. Ausente: null y razón. |
-| Observación visible | visible_observation + source event/ref + available_at | Solo lo que el candidato recibió o podía consultar por contrato. Separar observation_at, recepción y evaluación. No inyectar expectativas, calendario futuro ni optimum. |
-| Verdad privada | private_reference_ref + scope/version + reference_status | Conservar el evaluator propietario y su pregunta. El artefacto privado se consulta después del sellado; su ausencia no se suplanta por un resultado del candidato. |
-| Operación | native_operation, normalized_operation, admitted_scope | Mapear por efecto y contrato, no por etiqueta. repair/restore de S5 no equivale a inspect de C3. Operación fuera de dominio: proyección no admitida. |
-| Autoridad/aplicabilidad | issuer/subject/task/resource/operation/version + validity interval + native determination ref | Mandato, evidencia aplicable, calidad técnica y aprobación humana son registros diferentes. No convertir una fotografía o TTL en lease de autoridad. |
-| Tiempo | native_time, clock_kind, unit, origin, observation_at/received_at/effect_at/deadline | Orden causal conservado, sin equiparar tick, step, segundo lógico y UTC declarado. Conversión solo si existe función y origen documentados. Espera y reintentos conservan horizonte. |
-| Decisión/commitment | disposition, decision_basis, commitment_ref, candidate_state | COMMIT, permiso/permit y decisión EXECUTE no son effects. Preservar rechazo, residuo y supersesión de revisión; no importar postura como aceptación final. |
-| Intento y efecto | attempt_ref/status, effect_ref/status, native_state_before/after, evidence_origin | Diferenciar propuesta, solicitud bloqueada, intento aceptado y cambio observado. Falta de cobertura no se vuelve false; no contar efectos a partir de confianza o texto de éxito. |
-| Estado final | native_task_status y normalized_task_status separados de evaluation_status | Un queue_closed o branch_status no acredita completar toda la misión R01. Mantener INCOMPLETE/UNKNOWN y la causa; completion batch se conserva como declaration/conformance. |
-| Recursos | value + unit + measured_or_modelled + source + scope, para cada magnitud | Reads, modelled_time_steps, enumeration_units, ticks y moneda no se suman como si fueran la misma unidad. Ausencia es null, nunca coste cero imputado. |
-| Ledger | candidate_operations, coordination_subset, evaluator_work, infrastructure | Candidato/evaluador separados. Coordinación pertenece al coste del candidato una vez; conservar discards/retries/reuse/maintenance si la fuente los aporta y señalar lo omitido. |
-| Calidad/riesgo | native_metric_definition + derivation/evidence + target_metric_status | No mapear PASS, un test count o final_generation a q/ε/riesgo. q/a requieren entrega efectiva, admisible y dentro de T; f usa campañas y no porcentaje de agentes. |
-| Sellos y replay | native_artifact_hash, normalized_trace_hash, pre_oracle_seal, post_run_seal | Conservar ambos payloads; un hash normalizado nuevo no reemplaza al original. Arrays de eventos mantienen orden. Replay determinista y campaña estocástica tienen contratos distintos. |
-| Resultado | native_status, normalized_status, reason, evaluated_predicates, missing_fields | Resultado nativo, error de import y verdict R01 son ejes separados. Regresión verde puede conservar un escenario fallido. Unknown nunca se convierte en PASS por normalizar. |
-
-### Matriz por familia — observación, identidad, operación y verdad
-
-| Fuente fijada | Correspondencia concreta | Autoridad/tiempo y límite de la proyección |
-|---|---|---|
-| **Q1a / CTv1** — source blobs del registro; pre-registration v0.5 y replay corregido | observation.proposition_id/scope_id/reports/registry → observación visible; report_id/producer_id/upstream_source_id → IDs tipados de reporte/productor/fuente. candidate.dependency_assessment y posture → assessment/disposition nativos; oracle_reference_v05 → verdad de dependencia, separada. | processing/deadline/freshness **steps**. Registro de fuentes no es mandato. configuration_id B1/B3 es brazo del fixture, no tecnología externa ni posture R01. Operación: recepción, registry join y handoff; no ejecución de una ruta material. |
-| **00K P1–P6** — suite, manifest y fixture propio | principle/fixture/test identity → namespace de control. La pregunta/expectativa del fixture permanece con su evaluator. run_all.Harness(label,directory,expected,evidence_class) describe agregación de pytest, no candidate_result. | No hay un único receiver/principal/reloj/API de toda la suite. Se elige un kernel y sus entradas; los campos de actor/efecto ausentes se declaran. Regla anti deny-all o falsifier es propiedad del control, no una observación universal. |
-| **00L** — A08 y paquete 00E–00J | F/O/K/E → hechos, observación, regla y oracle separados. source_id/source_version/observed_at/depends_on/authority_id/gate_id/disposition/owner/deadline/residual conservan su papel. D, X y ? mantienen respectivamente deducción, posibilidad no ejecutada y no-determinado. | Congelar scope/ventana/arm por anexo. Un action_effect de una tabla de papel no se convierte en evento server-observed. H0/H1/H2 son brazos locales. Parámetros no fijados siguen ?/null con razón. |
-| **00I/S5 stateful** — model/reproduce y resultados | case.id/mode → caso/brazo. Intent.id/target/desired_generation/grant_expires y Permit.id/intent/revision/expires → intent/permit vinculados. trace[].event/at → eventos; Sources.read y manifest → evidencia visible. oracle.expectations y reproduce.evaluate → predicados privados de disposition/applied/final_generation. | Autoridad/owners y grant son estipulados; no autenticados contra organización real. Segundo lógico con origen 120; guard a 2520, dispatch por caso y horizonte 2525 en recovery. Operación restore de generación, no inspect. Reset de World por caso; SQLite testigo tiene otra frontera. |
-| **C3** — README/core y estado de adaptación | world.grants/applicability/messages/original_authority → hechos de referencia; trace.events/coverage/closed/observed_until → observación y cobertura; event.id/kind/decision/attempt/basis → relaciones causales. subject R, tasks T0/T1, resources X/Y, operation inspect quedan explícitos. | Validez from/until/revoked_at y applicability.at se conserva. bool/None y record_status COMPLETE/INCOMPLETE no se aplastan. evidence_rule/minimum_roots son del perfil. C3 no suministra optimum_J ni completo ledger R01. |
-| **Primer R01** — M02/M10/F-W históricos | M02 graph.nodes/edges/benefit, worlds.id/chi/weight, thresholds y profiles/operations → un perfil histórico etiquetado. chi y I/P siguen ocultos; query_state/certificate solo entregan evidencia pagada. M10 distingue z_complete, a, q, J_partial y v_exec. | Costes/duraciones racionales **strings**; world law/AVG/WC son definiciones, no muestreo real. M02 H=32 es cap de ese submodelo. TRILEMMA_CONTRACT extiende F/W con su propio alcance; no se extrapola el cap ni se adjudica una tecnología por nombre. |
-| **00G-HF runners** — representante dinámico congelado y receiver nativo | run_episode.condition/profile/seed; messages/transmissions/decisions/ledger/effects/records/epoch_states. project devuelve agent/epoch/route/world/trace/result: se conserva cada vínculo y la proyección inspect C3. Native journal es evidencia distinta de normalized TRACE. | draw indexa seed/agent/step/purpose. Cache snapshots no son permisos actuales. Cuatro checkpoints comparten historia; red es unidad de repetición. population_result NOT_ASSESSED y A25 PENDING_REVIEW no cambian al importarse. Los demás runners requieren su perfil específico. |
-| **Nelson UC4/UC6** — schema 1.1.0, ZIP 1.1.0-r1 y mapping atribuido | UC4 submission_id/cases[].id/adapters[].id/version/source_ref_ids/semantic_owner → identidad del experimento/import. cases[].source_records[].data son records del contributor; cases[].events tienen logical_time/actor_id/type/origin/payload; assertions se mantienen privadas durante ejecución según perfil. | timeValue conserva clock/origin/role; un timestamp sintético no pasa a medición humana real. field_mappings permite copy/enum_map y target_pointer bajo /adapters/: transformaciones compuestas precisan reviewed_plugin y revisión propia. R01 sidecar no se incrusta arbitrariamente en root con additionalProperties=false. |
-
-### Matriz por familia — intento, efecto, recursos y resultado
-
-| Fuente | Datos nativos que se conservan | Transformación permitida y hueco que impide admisión completa |
-|---|---|---|
-| Q1a | runtime_events y candidate_status; burden.processing_steps/modelled_time_steps; resolución de roots, residual y handoff. | Se transfiere evidencia de assessment, no completion/quality de ruta. RUNTIME_ERROR se conserva como error del run original; no se transforma retrospectivamente en fallo sustantivo del producto. |
-| 00K | test expectation, reparaciones/ablaciones, exit code y counts por family. | No hay efecto material común ni coste empírico por candidato. Se preserva el resultado del falsifier/TRUE SUBSTITUTE; no se suma 379 como población de R01. |
-| 00L | disposition/plazo/owner/residual, etiquetas D/X/?, campos de recursos declarados o ausentes. | Observación ejecutada exige source event real. NO CONCLUSION permanece; null con razón en compute/communication/wait/human cost. H1/H2 requieren mapping y fairness por anexo. |
-| 00I/S5 | guard_decision, executor events, queue_closed; applied/effects/final_generation/final_state; control_burden.source_reads/elapsed_seconds. | EXECUTE es disposición y APPLIED requiere writes/effect; DENY puede ser continuidad fallida. No conversion de reads a operational_cost sin tariff declarado; elapsed_seconds es lógico. 44/8 escenarios y 49 regresiones son denominadores diferentes. |
-| C3 | unsupported_commitment/unauthorized_attempt/inadmissible_attempt/unauthorized_effect/inadmissible_effect/task_completed/legitimate_completion/safety_pass/operational_pass. | Conservar cada predicado y unknown por cobertura. operational_pass depende de seguridad+continuidad de su misión; no calcula la calidad óptima o el coste de una repair S5. hc_causal_claim NOT_ASSESSED sigue fuera. |
-| Primer R01 | Costes setup/review/decide/execute/query/reuse/wait; cadenas de efectos/violación permanente; success y condiciones de M10 por contrato. | Parsear racionales exactamente a una representación declarada, sin float CTv1 ni redondeo silencioso. Permiso conocido M incluido en setup no da gratis el binding oculto. Countercontrols no son la campaña actual. |
-| 00G-HF | Intentos, environment effects, recibos, C3 y ledger por agente/checkpoint; usage/tiempo nativo cuando realmente registrado. | Segundos/tokens reales del receiver, ticks del simulador y costes estipulados no se equiparan. C3 por checkpoint no define estadística colectiva. Campaña dinámica completada conserva éxito convencional FRESH y sus límites de continuidad. |
-| Nelson UC4/UC6 | Assertions esperadas/observadas, mapping source-owner, resultado y errores por caso, review statuses y capacidades. | Un assertion-pass indica preservación de un predicado suministrado; no ejecución/authority/human authenticity nueva. Técnica, preparer y contributor review se registran por separado. No validator-pass ni source-approval de R01 por esta matriz. |
-
-### Ejemplo verificable de conservación de significado — S5
-
-Se leen tres filas **ya registradas** en results/results.json; no se ejecuta un caso nuevo:
-
-| Caso nativo | Observación preservada | Import correcto |
-|---|---|---|
-| continuity | disposition EXECUTE; applied=true; generation 216; scenario_pass=true | Acción legítima efectivamente aplicada en el modelo. No inferir optimum_J ni coste monetario. |
-| patch_b_supersedes | disposition DENY; applied=false; generation 218; scenario_pass=true | Protección de la corrección nueva; el rechazo forma parte del resultado esperado. No marcar tarea R01 COMPLETED solo por DENY. |
-| unbound_race | esperado DENY/no effect/217; observado EXECUTE/applied/216; scenario_pass=false | Conservar intento/efecto indebido y fallo de escenario. regression_pass del lote no lo transforma en seguro. |
-
-La proyección registra native_case_id y las tres afirmaciones separadas. Los predicados de una futura ruta R01 quedan no evaluados hasta fijar un mundo, objetivo/beneficios, referencia, recursos y deadline correspondientes. Este es el ejemplo de transformación de la tarea 2; no el paquete completo UC4 de la tarea 3.
-
-### CTv1: diferencias resueltas en una frontera acotada
-
-**Decisión de contrato documentada:** usar el perfil de revisión **R01-CTv1-IMPORT-REVIEW-1** antes de cualquiera de los dos helpers. Mantener ambos helpers y sus bytes congelados. No se fuerza la equivalencia de sus entradas generales.
-
-| Condición | Conducta nativa observada/inspeccionada | Resolución de import |
-|---|---|---|
-| Root objeto/mapping | Ambos serializan; añaden/reescriben canonicalization_version CTv1 en copia. | Exigir objeto; conservar payload y metadata del origen. No mutar al caller. |
-| Root lista de pares | Q1a CanonicalTraceError; R01 dict-conversion acepta. | Rechazar antes de serializar con REJECTED_INPUT / ROOT_NOT_OBJECT. La aceptación nativa de R01 no autoriza importar ese shape. |
-| Set-like sin stable key / item no objeto | Q1a encapsula TypeError/KeyError; R01 puede propagarlos. | Prevalidar y usar MISSING_STABLE_KEY común. Preservar clase nativa como diagnóstico, no como status de tecnología. |
-| Claves heterogéneas/duplicadas de colección | El helper puede ordenar o fallar según tipos; empates preservan orden de entrada. | En este perfil exigir stable key string no vacío y único; rechazar STABLE_KEY_NOT_STRING o DUPLICATE_STABLE_KEY. Restricción propia de import, no corrección retrospectiva de CTv1. |
-| Dict con keys no-string | sorted puede fallar antes de la validación individual. | Validar keys antes de ordenar; NON_STRING_KEY común. |
-| Float/tuple/objetos en payload semántico | Float rechazado; tuples aceptadas por helpers pero fuera de este perfil JSON. | Payload de import usa objetos/listas, strings, bool, null e ints. Decimales semánticos como string bajo formato del productor; sin coerción ni redondeo. |
-| Arrays de eventos | Ambos conservan orden salvo rule explícita set-like. | Nunca ordenar cronología. Solo colecciones declaradas como sets con key válida; una regla que no encuentra su colección se rechaza. |
-| Metadata excluida / paths | Mismo closed excluded set y paths relativos POSIX. | No añadir nuevas exclusiones; observed_at/receipt/effect time siguen semánticos. Rechazar absolute/local path y ..; preservar hash de bytes nativos aparte. |
-| Fallo inesperado del serializador | Distinto de dato inválido prevalidado. | SERIALIZER_ERROR con diagnóstico; no PASS ni error sustantivo del candidato atribuido. |
-
-[Prototipo de revisión](../../../../../../governance/review/r01-oracle-tasks12-2026-10-06/ctv1_import_contract_review.py) y [28 comprobaciones](../../../../../../governance/review/r01-oracle-tasks12-2026-10-06/CTv1_IMPORT_REVIEW_RESULT.json) quedaron publicados durante la pasada de evidencia. Se verificaron diez ejemplos válidos, catorce inválidos y cuatro propiedades conductuales. Las dos diferencias históricas se reprodujeron en los helpers originales y quedan amortiguadas por prevalidación en el prototipo. No equivale a una prueba para todos los objetos de Python/CTv1 ni a instalación o admisión en C02.
-
-### Resultado de la tarea y pendientes de ingeniería
-
-La correspondencia documental queda fijada para las ocho familias representadas: cada dimensión tiene origen, transformación o ausencia explícita. Son compatibles para composición **con perfiles y adapters**, con reutilización ya observada de CTv1 y patrones; no intercambiables íntegramente como runners/oracles.
-
-Antes de instalar un perfil habrá que validar su paquete UC4, obtener la revisión semántica requerida, congelar su adapter y probar la correspondence con controles del dominio. Esa es la tarea 3/4 y las obligaciones de C02/M17, no trabajo declarado ejecutado por esta matriz. La independencia, contabilidad completa y campaña real siguen en los pasos siguientes.
-
-<a id="r01-tasks12-status"></a>
-## 5.3. Cierre de las tareas 1 y 2 y conciliación acotada
-
-**Tarea 1 realizada:** cuatro pasadas diferentes del README publicadas en orden, con relaciones materiales registradas en doce VNext vecinas. Comprensión humana significa aquí simulación del mismo asistente; revisión humana/externa no realizada.
-
-**Tarea 2 realizada:** matriz por dimensión/familia, ejemplo conservador de S5 y contrato CTv1 resuelto en el perfil acotado de revisión, con prototipo y 28 comprobaciones. La instalación del adapter y su admisión permanecen pendientes.
-
-La conciliación entre argumento, fuentes, formas de lectura y matriz mantiene una idea común: evaluar lo que una realización pudo observar y causar frente a una referencia acotada, cobrando sus recursos sin regalarle verdad privada. Se conservan cuatro límites: diseño no es ejecución; serialización no es semántica; campo de resultado no es entrega efectiva; controles correlacionados no son población independiente.
-
-No se encontraron destinos locales ausentes en las adiciones de esta entrega tras su comprobación estática. Sí hay **trazas de versión temporal** que requieren interpretación: README dinámico frente a resultados posteriores; pointers históricos de freeze; trackers de primer R01 frente a la cola vigente. Se documentan, sin reemplazar resultados o editar originales.
-
-La consecuencia para la lectura de conjunto queda registrada en la [VNext de Ecosystem Positioning](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md). Esta es conciliación del alcance README/matriz y sus relaciones seleccionadas, **no la conciliación final del corpus entero**: los vecinos solo recibieron examen cruzado parcial y las otras tareas globales siguen abiertas.
-
-**Siguiente tarea del plan:** 3, paquete UC4 y revisión de su mapping. Siete deltas del README esperan decisión por ID. C02/C11/T03 no cambian de estado técnico por finalizar esta documentación.
 
 ## 6. Propuestas quirúrgicas — al final, incorporación pendiente
 

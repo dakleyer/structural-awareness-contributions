@@ -236,26 +236,6 @@
     {
       "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/run.py",
       "sha": "475c597e482ba7f8bbdd5850e3e0689130a069d9"
-    },
-    {
-      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M02_CONJUNCTION_FIXTURE.json",
-      "sha": "e774d27d0a5cd9052f0027d49177608c179a603b",
-      "read_scope": "Matrix fields / queue criteria"
-    },
-    {
-      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/M10_RECONCILED_CONTRACT.json",
-      "sha": "88e6dc339b547a613bea06767e67a5292c7753d6",
-      "read_scope": "Matrix fields / queue criteria"
-    },
-    {
-      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/historical/TRILEMMA_CONTRACT.json",
-      "sha": "2a004ea32735b3e869a26b542dc6a1ef3bb0cf14",
-      "read_scope": "Matrix fields / queue criteria"
-    },
-    {
-      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md",
-      "sha": "14ed35afe0d568e605aca96b120ea38f5561b176",
-      "read_scope": "Matrix fields / queue criteria"
     }
   ],
   "cross_relations": [
@@ -402,46 +382,5 @@
       "url": "https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5871266911",
       "scope": "Schema 1.1.0/package 1.1.0-r1 and separation of technical validation/semantic review"
     }
-  ],
-  "documentary_passes": {
-    "substance_logic": {
-      "status": "DONE_DECLARED_README_SCOPE",
-      "commit": "55505144748fedbbffd29512ca396fd71cad316f"
-    },
-    "evidence_relationships": {
-      "status": "DONE_DECLARED_README_RELATIONS_SCOPE",
-      "commit": "aa9e077cdbef5a38af4bb78f94552981459f16ad"
-    },
-    "editing_structure": {
-      "status": "DONE_MARKDOWN_INSPECTION",
-      "commit": "64ef5f8d059ec0cb944915f779f000baadaa8b89"
-    },
-    "human_readability": {
-      "status": "DONE_SAME_ASSISTANT_SIMULATION",
-      "commit": "ea3302f51bb0252ce6889eedf61b4e7ac74460b1",
-      "human_participant": false
-    }
-  },
-  "task2": {
-    "status": "DOCUMENTARY_MAPPING_AND_BOUNDED_IMPORT_CONTRACT_DONE",
-    "families": 8,
-    "adapter_installed": false,
-    "full_conformance": false
-  },
-  "source_proposals_pending": [
-    "R01-ORACLE-DELTA-001",
-    "R01-ORACLE-DELTA-002",
-    "R01-ORACLE-DELTA-003",
-    "R01-ORACLE-DELTA-004",
-    "R01-ORACLE-DELTA-005",
-    "R01-ORACLE-DELTA-006",
-    "R01-ORACLE-DELTA-007"
-  ],
-  "global_reconciliation": "OPEN; local README/matrix scope reconciliation recorded in EP",
-  "inbound_scan_scope": "Recovered source text only; no whole-repository inbound completeness claimed",
-  "drive_orientation": {
-    "url": "https://docs.google.com/document/d/1Y8l6-c7zxYrStVrzNxF016vk4EAHYq4mXKmSQz4EyKs/edit",
-    "modified": "2026-10-01T16:19:56.224Z",
-    "version": "Version: 2026-09-11 / external exchange, folder-map and canonical public-corpus controls v1.4"
-  }
+  ]
 }
