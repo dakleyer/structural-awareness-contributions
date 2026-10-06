@@ -16,7 +16,7 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.8 · **Fecha:** 6 de octubre de 2026  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.7 · **Fecha:** 6 de octubre de 2026  
 **Estado:** cuatro pasadas del README realizadas en el alcance declarado; relaciones vecinas parcialmente revisadas; siete propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
@@ -49,15 +49,6 @@ Se añade el plan recomendado en §5.1. La instrucción solicita una recomendaci
 
 
 **IVAN-R01-ORACLE-20261006-03 · instrucción auténtica de este chat:** «realiza las tareas 1 y 2». Se ejecutan las cuatro pasadas del README del oráculo y la matriz de correspondencia. La revisión cruzada se registra en los expedientes propietarios; las integraciones, validación UC4, campañas y aplicación de deltas siguen separadas.
-
-
-**IVAN-R01-ORACLE-20261006-04 · instrucción auténtica de este chat, 6 de octubre de 2026:**
-
-> «Todos estos comentarios están dentro del VNS del oráculo. O sea, quiero una revisión a fondo y que lo coloques ahí perfectamente para poder retomar el tema posteriormente con esta revisión.»
-
-Interpretación operativa: «VNS» se refiere a esta única VNext. Se incorpora y revisa la explicación general del turno anterior, incluidos límites de UC4, compatibilidad histórica y opciones de pruebas de terceros. La petición autoriza esta documentación; no es una decisión de incorporación de los siete deltas al README protegido.
-
-**Método actualizado leído:** EP 1.2 con adiciones 1.3 y 1.4, corte `e80846a0f9cf3b97cf222ed3d1e28b31d145ad3e`, blob `08ec7eb7c22f5d5fe9b86b1936115f45039b0ad2`. Se publican las cuatro lecturas de esta ampliación por separado. La aclaración 1.4 mantiene abiertos los consumidores, fuentes o hallazgos que no hayan recibido respuesta suficiente; los cierres acotados anteriores no significan cierre completo del documento, de C02 ni del corpus.
 
 ## 3. Auditoría del documento y sus relaciones — R01-ORACLE-AUD-001
 
@@ -100,17 +91,6 @@ Hay cuatro distinciones lógicas que el lector debe conservar:
 **Resultado de esta pasada.** No se localiza un salto que obligue a retirar la conclusión limitada del README. Sí se necesita hacer más visibles el propósito para una persona, el dominio de cada modo y la diferencia entre serialización, semántica y admisión. Las propuestas 001–004 conservadas y las adiciones editoriales de las pasadas posteriores cubren esa exposición; la fidelidad completa y la revisión externa continúan en C02/M16/M17.
 
 **Estado:** realizada en el alcance lógico declarado del README. La comprobación de cada afirmación frente a código, registros y fuentes corresponde a la siguiente pasada y no se da por hecha aquí.
-
-
-#### Ampliación 2026-10-06 — fondo y lógica de la visión general
-
-**Codex /root, mismo asistente.** Nueva pregunta: ¿se entiende qué sistema estamos construyendo, cómo se relaciona con los anteriores y qué argumento permite reutilizarlo sin confundir sus resultados? Leídos README completo, matriz §5.2, perfil UC4, registro v0.9 y plan de computabilidad; corte de partida `e80846a0`.
-
-El problema de lectura es concreto: «oráculo», «harness», «C3», «C02» y «UC4» pueden parecer nombres del mismo evaluador. Son piezas con funciones distintas. El oráculo responde una pregunta desde una referencia; el harness organiza la ejecución y su evidencia; UC4 organiza la composición experimental y sus fronteras. La explicación incorporada en [§5.4](#r01-overview-review) desarrolla esa distinción y un ejemplo de transferencia.
-
-La compatibilidad tiene tres preguntas separadas: ¿podemos leer los registros?, ¿conservamos su significado?, ¿se ha admitido y probado ese perfil en el destino? La matriz responde documentalmente parte de las dos primeras. No responde la tercera. El caso S5 obliga a distinguir una decisión DENY de un destino que realmente no cambió; un benchmark de herramientas añade estados observables, pero no crea por sí mismo un óptimo admisible R01.
-
-**Resultado:** argumento de composición aprovechable por perfiles, con límites explícitos; no se justifica un oráculo universal ni importar tasas de éxito históricas. «C4» se conserva como interpretación provisional UC4 de Nelson, pendiente de corrección si Iván pretendía otro objeto. Evidencia externa y opciones de terceros se examinan en la siguiente pasada. No se atribuye revisión humana o externa a esta lectura.
 
 ### Evidencia y relaciones entre documentos — parcial
 
@@ -459,100 +439,6 @@ La consecuencia para la lectura de conjunto queda registrada en la [VNext de Eco
 **Verificación del método al cierre:** se leyó también la adición vigente 1.3 del procedimiento, blob `f046348549232e05f85d008abdb49b65f8815b5e`, presente en el corte de cierre `2db5a8c17f58008f9268c23c681ba6e14c8dfbdc`. Conserva el ciclo de cuatro pasadas y añade tres niveles de lectura/redistribución examinada en los README propietarios. Esta entrega no redistribuye archivos, no cambia propiedad y no crea nuevos niveles de navegación: las doce fichas/VNext son controles locales de documentos existentes. Las propuestas de la matriz son fronteras de importación; no reorganización del corpus. El cambio paralelo del procedimiento se preserva y se registra en evidencia.
 
 **Siguiente tarea del plan:** 3, paquete UC4 y revisión de su mapping. Siete deltas del README esperan decisión por ID. C02/C11/T03 no cambian de estado técnico por finalizar esta documentación.
-
-
-<a id="r01-overview-review"></a>
-## 5.4. Visión general revisada para retomar el oráculo
-
-**Revisión de la conversación, Codex /root, 6 de octubre de 2026.** Esta sección reúne los comentarios que antes quedaron en el chat. Explica el conjunto; la [matriz](#r01-compatibility-matrix) conserva el detalle de campos y los registros de §3 explican cada lectura. Las recomendaciones son propuestas de trabajo.
-
-### Qué tenemos y qué queremos llegar a tener
-
-Tenemos un **instrumento R01 parcial, ejecutado sobre controles construidos**, varias baterías y harness propios aprovechables y un puente documental hacia UC4. El resultado que buscamos es poder ejecutar una tecnología en un escenario definido, registrar qué pudo ver, decidir y hacer, y valorar después la entrega permitida, su calidad y sus recursos frente a una referencia apropiada. Esa cadena integrada todavía necesita ingeniería y verificación.
-
-El **oráculo** es el evaluador que conoce la referencia y juzga la evidencia. El **harness** prepara el caso, invoca el candidato, registra el recorrido y entrega evidencia al evaluador. El **adaptador** conecta una tecnología o un escenario con ese contrato. El **sidecar** guarda información R01 adicional, incluida la referencia privada, vinculada al experimento. Un **perfil** declara el dominio en que esas piezas y sus criterios tienen sentido.
-
-| Pieza disponible | Para qué sirve | Qué falta para utilizarla en la cadena siguiente |
-|---|---|---|
-| Especificación y contratos R01 | Definen tarea, autoridad, observaciones, operaciones, presupuesto y plazo. | Correspondencia cláusula → predicado → evidencia en el perfil elegido; M17 conserva la fidelidad pendiente. |
-| Referencia privada y evaluador C02 limitado | Calculan admisibilidad y óptimo en los mundos finitos implementados. | Completar y contrastar únicamente el dominio que vaya a evaluarse; revisión independiente faltante M16. |
-| Harness batch, interactivo y broker | Ejecutan controles, restringen vistas y registran operaciones según su modo. | Conectar un backend/adaptador admitido; el self-test no representa una tecnología real. |
-| Trazas, sellos y contabilidad | Permiten identificar evidencia y distinguir recursos del candidato y del evaluador. | Mediciones y unidades válidas para el backend real, aislamiento efectivo y evidencia fiable del destino. |
-| Baterías Q1a, 00K, 00L, S5, C3 y antecedentes R01/00G-HF | Aportan controles de procedencia, invariantes, temporalidad, estado, recuperación y contrapruebas. | Adaptadores y correspondencia por predicado; conservar el resultado original y explicar el nuevo. |
-| Trabajo UC4/UC6 y calibraciones de Nelson | Aporta contrato experimental, mappings y patrones de controles reproducibles. | Paquete R01 contra schema fijado, revisión semántica y admisión explícita del perfil. |
-| Contrato y plantilla de tecnología real | Preparan la admisión de una realización identificada. | Registro completo, aislamiento y capacidades comprobados; C11/T03 permanecen posteriores. |
-
-El [registro v0.9](SELFTEST_RECORD_v0.9.md) conserva SELFTEST_PASS, con resultados intencionalmente mezclados: dos PASS, tres FAIL y un INCONCLUSIVE. El instrumento pasó porque reconoció también los controles negativos y la falta de referencia. No son seis éxitos de una tecnología. Los 28 microchecks del contrato de importación de §5.2 son otra evidencia, documental y de prototipo: no se suman a ese run ni acreditan un adaptador instalado.
-
-### Qué significa C4 aquí y para qué utilizar UC4
-
-La conversación empleó «C4». **Esta revisión lo interpreta como UC4 de Nelson**, por el contexto; no como C02 de R01 ni como el C3 antiguo. Si el referente era otro, se debe corregir esta interpretación antes de implementar una correspondencia.
-
-UC4 plantea defensa federada entre organizaciones que conservan su gobierno. Propone conectar hallazgos, evidencia y decisiones locales mediante contratos y adaptadores versionados, con casos positivos, de frontera y rechazo. Su roadmap distingue Stage0–1 iniciales de extensiones posteriores. El issue presenta una implementación de referencia planificada; no acredita una federación Stage1 desplegada. [Fuente: UC4, requisitos 22–24 y madurez](https://github.com/FG-TIDA/use-cases/issues/4).
-
-**Uso recomendado para R01, inferencia de esta revisión:** que UC4 sea la envolvente del experimento y R01 un perfil importado con su sidecar privado. Así se pueden atribuir fuentes, declarar capacidades y revisiones, conservar determinaciones ajenas y conectar casos sin imponer a Nelson todo el formato R01. [Puente existente](UC4_INTEROPERABILITY_PROFILE.md).
-
-UC4 no reemplaza la referencia matemática de R01, no determina el mejor recorrido por sí mismo y no concede autoridad para actuar sobre otra organización. Tampoco prueba capacidad humana efectiva, eficacia EA, corrección universal o preparación para producción. Un PASS de schema confirma estructura dentro del contrato validado; una revisión de contributor confirma un mapping en su alcance; la admisión y la ejecución requieren evidencia adicional. Esta separación procede del puente actual y de sus estados, no de una garantía atribuida a Nelson.
-
-### Qué piezas hay que conectar
-
-```text
-Pregunta, perfil y expectativas fijados antes del run
-                 |
-        Paquete experimental UC4
-                 |
-       Adaptador de caso/tecnología
-                 |
-     Harness + broker + entorno de destino
-                 |
-       Registro nativo y mediciones
-                 |
-        Mapping y traza sellada
-                 |
-    Evaluación R01 con referencia privada
-                 |
-  Resultado por predicado + recursos + límites
-```
-
-Es una **composición propuesta**. La referencia privada se fija o compromete antes del run, queda fuera del candidato y se utiliza para evaluar después de registrar/sellar su recorrido. El diagrama no implica calcular expectativas mirando lo que hizo el candidato.
-
-Las conexiones que necesitan evidencia son estas:
-
-1. **Experimento → sidecar:** identidades inequívocas de experimento, caso, versión y evidencia; schema UC4 y campos R01 sin filtración de verdad privada.
-2. **Contrato → entorno:** capacidad realmente disponible para observar, revisar, comprometerse y ejecutar en ese dominio. Una capacidad declarada no demuestra que esté implementada.
-3. **Entorno → registro:** decisión, intento, efecto y estado final diferenciados. El relato del candidato no sustituye la medición del destino.
-4. **Registro nativo → traza común:** mantener tiempos, orden causal, autoridad, referencias y datos ausentes; conservar el original para examinar discrepancias.
-5. **Traza → evaluación:** aplicar únicamente los predicados justificados para el perfil. Si falta evidencia o referencia, conservar el resultado no resuelto.
-6. **Medición → conclusión:** recursos del candidato, del evaluador y de infraestructura separados, con unidades y plazo explícitos. Los costes sintéticos anteriores no son euros, tokens ni latencia de producción.
-
-### Compatibilidad con los harness anteriores
-
-No hace falta rehacer todo lo anterior ni sustituir sus oráculos. Hace falta reutilizar mecanismos compartidos y demostrar la correspondencia del caso elegido.
-
-| Material propio | Reutilización razonable | Límite que debe conservarse |
-|---|---|---|
-| Q1a / CTv1 | Serialización, hashes, replay y testigos de dependencia de fuentes. | Compartir bytes válidos no equivale a compartir todos los errores ni todos los predicados. El perfil de importación de §5.2 sigue siendo un prototipo separado. |
-| 00K | Regresiones semánticas, falsadores y controles frente a alternativas convencionales. | Su runner y sus invariantes no constituyen un adaptador R01 genérico; las 379 comprobaciones no son 379 agentes evaluados. |
-| 00L | Diseño emparejado, trazabilidad y separación de hechos, observaciones, reglas y evaluación. | Lo deducido, posible, desconocido y ejecutado mantiene estados distintos; no importar costes como una unidad universal. |
-| 00I / S5 | Backend con estado, supersesión, reparación, recuperación y continuidad legítima. | Mantener decisión/intento/efecto; la simulación local no prueba atomicidad distribuida ni rendimiento de producción. |
-| C3 anterior asociado al corpus de UC21 | Predicados de autoridad, compromiso, intento, efecto y completion en su dominio inspect. | No es el óptimo R01 ni un ledger completo; no confundir el instrumento C3 con un brazo comparador que también se llame C3. |
-| Primer R01 y anexos parciales | Contrapruebas, diagnósticos y controles acotados ya preservados. | Son antecedentes y ensayos de su versión; no reinstauran la cola antigua ni prueban realización real. |
-| 00G-HF dinámico y nativo | Diseño experimental, redes/relays, replay y evidencia preservada por campaña. | Hay resultados dinámicos posteriores al README preparatorio: no repetirlos como «no ejecutados». Tampoco convertir simulación o baseline en comparación EA. |
-| Nelson UC6 / Themes13–16 | Patrones de corrupción, malformed, bindings ausentes, replay y orden. | Los resultados y la autoridad semántica siguen siendo de su escenario; no transferirlos como resultados R01. |
-
-La compatibilidad documental es considerable para infraestructura y selectiva para semántica. La compatibilidad de una **integración ejecutada** permanece por demostrar. El ejemplo S5 de §5.2 es la prueba de lectura de la correspondencia, no una ejecución nueva de esta entrega.
-
-### Límites que condicionan el siguiente paso
-
-- **Dominio:** mundos finitos y referencias actuales no cubren por defecto ciclos, dinámica colectiva, todos los canales o políticas. Cada ampliación necesita contrato de terminación y cobertura.
-- **Efecto:** el batch contrasta conformidad de selección; no acredita entrega ejecutada. El interactivo requiere evidencia privada coherente del entorno.
-- **Calidad y coste:** ruta elegida, entrega admisible a tiempo, calidad y recursos son preguntas distintas. Un agente que bloquea todo puede fallar continuidad legítima.
-- **Aislamiento:** un sello prueba identidad de la traza; no prueba que el candidato estuviera aislado del evaluador.
-- **Referencia:** dos implementaciones del mismo mantenedor permiten contraste, con posibilidad de omisión común. M16 conserva la cobertura externa faltante.
-- **Interoperabilidad:** alineación documental, schema validado, source-review y admisión no son equivalentes.
-- **Transferencia:** desconocido permanece desconocido; no traducirlo a false, cero, permiso o éxito.
-- **Conclusión:** self-test, campaña sintética, integración de perfil y realización real tienen alcances distintos. Este expediente no cierra C02 ni el corpus global.
-
 
 ## 6. Propuestas quirúrgicas — al final, incorporación pendiente
 
