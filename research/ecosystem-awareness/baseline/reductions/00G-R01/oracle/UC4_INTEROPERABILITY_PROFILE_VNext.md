@@ -43,3 +43,16 @@ Las otras tres pasadas propias y la auditoría completa de este perfil siguen pe
 ## Propuestas de modificación — al final
 
 No se propone aplicar cambios al cuerpo de esta fuente desde esta entrega. Sus discrepancias o mejoras futuras necesitan antes/después exactos y la decisión correspondiente; la matriz de R01 conserva las condiciones de transferencia.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Comparar el perfil local con el caso externo y sus actualizaciones, los contratos de otros contributors y las realizaciones accesibles. Revisar qué observaciones son intercambiables y qué correspondencia/admisión aún necesita prueba.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.

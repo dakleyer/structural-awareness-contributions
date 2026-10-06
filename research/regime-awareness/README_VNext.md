@@ -71,3 +71,16 @@ Antes de incorporar el cambio se revisarán implementaciones/perfiles que utilic
 ```
 
 **Razón:** conciliar el resumen con 01C y 00M sin cambiar nombres de payload. **Dependencias:** 01C, MSCA 03/04, perfiles de signalling y consumidores RA; VNext de sus README. **Compatibilidad:** pendiente, revisar declaraciones históricas y significado recibido. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Ampliar la literatura de detección, contextualización y cambios de fundamento, con atención a desarrollos posteriores y sus supuestos. Identificar qué puede alimentar la rama RA y qué requeriría otras evidencias o fuentes.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.

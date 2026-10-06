@@ -492,3 +492,25 @@ DBC-C02 provides an applied-validation route for this distinction. The committed
 ### Cobertura restante
 
 Auditoría documental parcial: 176-row revalidation, Appendix-A route conformance, adapter execution, costo/latencia, estados de salida de F1–F9 y evidencia externa quedan abiertos. No se promueve ningún successor de 04.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Contrastar interfaces generales con protocolos y planos de control actuales. Identificar qué transporte, estados y mecanismos de seguridad son reutilizables y qué semántica de calificación necesita un mapping explícito; no presentar una propuesta como protocolo desplegado.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.
+
+
+### Primer contraste preparatorio de infraestructura externa
+
+**Auditoría realizada por Codex, 6 de octubre de 2026. Alcance parcial:** apartados de las especificaciones, sin tests de interoperabilidad.
+
+[A2A 1.0.0](https://a2a-protocol.org/latest/specification/) ofrece tareas, comunicación y acceso definidos por el agente; [MCP 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) acota autorización por recurso/audiencia. Son candidatos de infraestructura y peer, con versiones/licencias por examinar en la pieza elegida.
+
+**Juicio del documento:** reutilizar transporte/seguridad requiere conservar semántica del productor y el binding decisional; identificar esos mecanismos existentes tampoco prueba que el EHD propuesto tenga diferencial o esté implementado. El mapping, total burden y consumidores quedan pendientes. No se cambió un payload ni se ejecutó un SDK.

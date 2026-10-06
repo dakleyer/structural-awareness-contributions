@@ -444,3 +444,27 @@ Los expedientes de los README afectados son [EA](../../research/ecosystem-awaren
 Las propuestas deben mantener trazables los inputs, outputs y retornos: misma decisión/operación, scope, versiones, vigencia, dependencias, dueño, permiso y carga. 01D deja claro que SUPPORTED no es un permiso y que un RA no requerido no debe vetar una acción independiente. Documentarlo no demuestra que la integración ya esté ejecutada.
 
 La ampliación no transfiere autoridad entre ramas ni abre una jerarquía nueva: se conservan **EP → Awareness → índices técnicos** y los enlaces laterales. El README canónico EP, la estrategia y los contratos originales permanecen intactos. La revisión total y la compatibilidad de todos los consumidores siguen abiertas.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Comparar la composición del conjunto con arquitecturas externas de confianza, autorización, evaluación y coordinación. Identificar qué ya resuelven los vecinos y si el beneficio alegado depende de una integración efectivamente distinta, con la misma tarea, autoridad, recursos y plazo.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.
+
+
+### Continuidad del plan con cinco pasadas
+
+Iván añade la investigación externa después de las cuatro lecturas: **fondo/lógica → evidencia/relaciones → edición/formato → legibilidad → trabajos externos/diferencial/reutilización**, y después la conciliación del conjunto. El alcance sigue siendo todo Contributions.
+
+Esta actualización incorpora la obligación a los 31 expedientes activos identificados, incluido el benchmark v0.3 existente. Sus preguntas son propias de cada documento. Tres expedientes reciben un contraste preparatorio adicional (oráculo R01, 04 Interfaces y 00M); no se declara terminada la quinta ni las cuatro anteriores cuando estaban abiertas.
+
+El [mapa externo](../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) distingue propuestas FG-TIDA, trabajos cerrados como fuera de alcance, investigación, protocolos y derechos por pieza. La aportación propia, una fuente citada o un código disponible no se convierte en evidencia independiente del diferencial. Las piezas seleccionadas podrán orientar prioridades de desarrollo después del cotejo de sus condiciones y consumidores.
+
+Ningún original técnico, field, fixture o resultado cambia por esta preparación. Las propuestas previas conservan su estado y cualquier candidato nuevo requiere fuente exacta, antes/después y decisión concreta de Iván.

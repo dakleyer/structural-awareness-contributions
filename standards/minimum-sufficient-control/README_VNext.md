@@ -71,3 +71,16 @@ No se cambia la jerarquía, el ownership o una interfaz para corregir una frase.
 ```
 
 **Razón:** conciliar la tabla con la descripción actual de 03; no cambiar A_Cart/B_Cart ni crear campos obligatorios. **Dependencias:** 03, 04, EA/RA y perfiles consumidores. **Compatibilidad:** pendiente; el campo compartido no garantiza interpretación idéntica. **Decisión:** pendiente. **Incorporación:** no ejecutada.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Comparar suficiencia, objetivos, carga y control con arquitecturas y estándares externos. Identificar ingredientes aprovechables y límites de los óptimos o garantías; no atribuir novedad a disponer de estados o un lifecycle.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.

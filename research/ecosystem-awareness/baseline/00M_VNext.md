@@ -167,3 +167,25 @@ If the evidence fits no admitted state, that indicates inconsistency or model in
 ## Referencia de la fuente revisada
 
 Fuente: commit `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`, blob `c97353991117f63983feba24bf8344cf52e9f1e7`, versión v0.8. Se usa ficha externa porque el registro de publicación conserva hashes de 00M/00N. El texto canónico y esos hashes permanecen intactos. Esta referencia técnica identifica la revisión; no reemplaza las explicaciones anteriores.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Buscar formalizaciones alternativas de abstracción, composición, correspondencia de scopes y calificación parcial. Identificar construcciones reutilizables y cuáles de sus premisas y preguntas son distintas de los roles A/B/C/D de este documento.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.
+
+
+### Vecino formal identificado — lectura preparatoria
+
+**Auditoría realizada por Codex, 6 de octubre de 2026. Alcance parcial:** pasajes del [preprint de Louck v1](https://arxiv.org/html/2606.24322v1), sin reproducir su artefacto.
+
+La construcción conserva origen y autoridad a través de memoria transformada. Depende de monitor, canales y atribución de valores; la prueba acotada no equivale a una demostración universal. Su [código](https://github.com/yedidel/mem-inv-bench) es candidato a inspección, no una pieza ya admitida.
+
+**Juicio para 00M:** la existencia de esa realización invita a comparar operaciones y premisas, pero no hace equivalentes sus etiquetas de integridad y nuestros roles funcionales A/B/C/D. Se estudiará qué puede aprovecharse y qué claims de conservación ya tienen precedente; no se afirma novedad ni se trasladan sus resultados al corpus.

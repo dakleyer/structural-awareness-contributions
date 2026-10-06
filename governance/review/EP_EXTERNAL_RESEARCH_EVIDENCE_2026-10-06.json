@@ -1,0 +1,277 @@
+{
+  "consultationDate": "2026-10-06",
+  "corpusCommit": "fdb530e739a7647d70ab258071d03f1941844c6a",
+  "scope": "Preparatory external research, not completed fifth audit for every document",
+  "fgTida": [
+    {
+      "number": 35,
+      "title": "[Theme] Supply Chain",
+      "author": "sparrell",
+      "url": "https://github.com/FG-TIDA/themes/issues/35",
+      "created_at": "2026-10-03T14:06:15Z",
+      "updated_at": "2026-10-03T14:16:33Z",
+      "state": "open",
+      "sourceRead": "Issue body; selected comments listed separately"
+    },
+    {
+      "number": 34,
+      "title": "[Theme] ATHENA: Telco-Grade Identity and Delegation Architecture for Agentic AI",
+      "author": "flyingeng",
+      "url": "https://github.com/FG-TIDA/themes/issues/34",
+      "created_at": "2026-10-01T08:19:05Z",
+      "updated_at": "2026-10-01T17:31:59Z",
+      "state": "open",
+      "sourceRead": "Issue body; selected comments listed separately"
+    },
+    {
+      "number": 33,
+      "title": "Non-Monotonic Eligibility: re-evaluating governed decisions when evidence arrives late",
+      "author": "zhaoxinghua09-cell",
+      "url": "https://github.com/FG-TIDA/themes/issues/33",
+      "created_at": "2026-10-01T07:30:06Z",
+      "updated_at": "2026-10-02T07:57:26Z",
+      "state": "closed",
+      "sourceRead": "Issue body; selected comments listed separately"
+    },
+    {
+      "number": 31,
+      "title": "[Theme] Preserving Authority Boundaries across Agent Memory and Context Handoffs",
+      "author": "oneman233",
+      "url": "https://github.com/FG-TIDA/themes/issues/31",
+      "created_at": "2026-09-30T14:45:19Z",
+      "updated_at": "2026-10-01T17:24:15Z",
+      "state": "open",
+      "sourceRead": "Issue body; selected comments listed separately"
+    },
+    {
+      "number": 30,
+      "title": "Contribution: Prior-Art Review — Negative-Control Method for Verifier-Side Silent-Failure Detection",
+      "author": "zhaoxinghua09-cell",
+      "url": "https://github.com/FG-TIDA/themes/issues/30",
+      "created_at": "2026-09-30T08:57:53Z",
+      "updated_at": "2026-10-02T07:57:25Z",
+      "state": "closed",
+      "sourceRead": "Issue body; selected comments listed separately"
+    },
+    {
+      "number": 16,
+      "title": "[Theme] Operational Human Oversight Integration for Agentic AI Trust Systems",
+      "author": "leigao-research",
+      "url": "https://github.com/FG-TIDA/themes/issues/16",
+      "created_at": "2026-08-27T20:00:02Z",
+      "updated_at": "2026-10-06T08:10:11Z",
+      "state": "open",
+      "sourceRead": "Issue body; selected comments listed separately"
+    },
+    {
+      "number": 13,
+      "title": "[Theme] Ecosystem-level Agent Defense",
+      "author": "wardduchamps",
+      "url": "https://github.com/FG-TIDA/themes/issues/13",
+      "created_at": "2026-08-21T15:21:51Z",
+      "updated_at": "2026-10-06T10:21:08Z",
+      "state": "open",
+      "sourceRead": "Issue body; selected comments listed separately"
+    }
+  ],
+  "comments": [
+    {
+      "issue": 30,
+      "id": 5907795210,
+      "author": "zhaoxinghua09-cell",
+      "created_at": "2026-09-30T08:59:08Z",
+      "updated_at": "2026-10-01T23:46:04Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/30#issuecomment-5907795210",
+      "disposition": null
+    },
+    {
+      "issue": 30,
+      "id": 5908990456,
+      "author": "zhaoxinghua09-cell",
+      "created_at": "2026-09-30T10:05:33Z",
+      "updated_at": "2026-09-30T10:05:33Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/30#issuecomment-5908990456",
+      "disposition": null
+    },
+    {
+      "issue": 30,
+      "id": 5909676587,
+      "author": "zhaoxinghua09-cell",
+      "created_at": "2026-09-30T10:49:11Z",
+      "updated_at": "2026-10-01T23:46:06Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/30#issuecomment-5909676587",
+      "disposition": null
+    },
+    {
+      "issue": 30,
+      "id": 5936757419,
+      "author": "T-n-Nelson",
+      "created_at": "2026-10-01T17:23:36Z",
+      "updated_at": "2026-10-01T17:23:36Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/30#issuecomment-5936757419",
+      "disposition": null
+    },
+    {
+      "issue": 30,
+      "id": 5943094633,
+      "author": "zhaoxinghua09-cell",
+      "created_at": "2026-10-02T00:10:18Z",
+      "updated_at": "2026-10-02T00:10:18Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/30#issuecomment-5943094633",
+      "disposition": null
+    },
+    {
+      "issue": 30,
+      "id": 5943692725,
+      "author": "zhaoxinghua09-cell",
+      "created_at": "2026-10-02T01:09:25Z",
+      "updated_at": "2026-10-02T01:09:25Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/30#issuecomment-5943692725",
+      "disposition": null
+    },
+    {
+      "issue": 30,
+      "id": 5947715148,
+      "author": "debora-com",
+      "created_at": "2026-10-02T07:52:19Z",
+      "updated_at": "2026-10-02T07:52:19Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/30#issuecomment-5947715148",
+      "disposition": "Comment says out of scope; no adoption inferred"
+    },
+    {
+      "issue": 31,
+      "id": 5936767315,
+      "author": "T-n-Nelson",
+      "created_at": "2026-10-01T17:24:14Z",
+      "updated_at": "2026-10-01T17:24:14Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/31#issuecomment-5936767315",
+      "disposition": null
+    },
+    {
+      "issue": 33,
+      "id": 5926965016,
+      "author": "zhaoxinghua09-cell",
+      "created_at": "2026-10-01T07:38:40Z",
+      "updated_at": "2026-10-01T07:46:58Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/33#issuecomment-5926965016",
+      "disposition": null
+    },
+    {
+      "issue": 33,
+      "id": 5927911042,
+      "author": "zhaoxinghua09-cell",
+      "created_at": "2026-10-01T08:43:46Z",
+      "updated_at": "2026-10-01T08:47:20Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/33#issuecomment-5927911042",
+      "disposition": null
+    },
+    {
+      "issue": 33,
+      "id": 5928150010,
+      "author": "zhaoxinghua09-cell",
+      "created_at": "2026-10-01T08:58:59Z",
+      "updated_at": "2026-10-01T08:58:59Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/33#issuecomment-5928150010",
+      "disposition": null
+    },
+    {
+      "issue": 33,
+      "id": 5936791411,
+      "author": "T-n-Nelson",
+      "created_at": "2026-10-01T17:25:46Z",
+      "updated_at": "2026-10-01T17:25:46Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/33#issuecomment-5936791411",
+      "disposition": null
+    },
+    {
+      "issue": 33,
+      "id": 5947703119,
+      "author": "debora-com",
+      "created_at": "2026-10-02T07:51:22Z",
+      "updated_at": "2026-10-02T07:51:22Z",
+      "url": "https://github.com/FG-TIDA/themes/issues/33#issuecomment-5947703119",
+      "disposition": "Comment says out of scope; no adoption inferred"
+    }
+  ],
+  "papers": [
+    {
+      "author": "Yedidel Louck",
+      "url": "https://arxiv.org/html/2606.24322v1",
+      "version": "v1; 2026-06-23",
+      "read": "Selected sections I-IV, evaluation, related work and limitations",
+      "replication": false
+    },
+    {
+      "author": "Anne Helby Petersen",
+      "url": "https://arxiv.org/html/2412.10039v1",
+      "version": "v1; 2024-12-13",
+      "publishedRecord": "https://proceedings.mlr.press/v286/petersen25a.html",
+      "read": "Problem, distributional setup, central metrics and controls; final PDF unavailable",
+      "replication": false
+    }
+  ],
+  "protocols": [
+    {
+      "url": "https://a2a-protocol.org/latest/specification/",
+      "versionReported": "1.0.0",
+      "read": "Versioning, concepts and security/authorization sections; not full specification"
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization",
+      "versionReported": "2026-07-28",
+      "read": "Resource, audience, token, authorization challenge sections; no implementation tested"
+    }
+  ],
+  "institutionalSources": [
+    {
+      "url": "https://www.nccoe.nist.gov/projects/software-and-si-agent-identity-and-authorization",
+      "read": "Project page",
+      "statusRead": "Soliciting Comments; no finished standard or demonstrated complete implementation inferred"
+    }
+  ],
+  "licenseFiles": [
+    {
+      "repo": "a2aproject/A2A",
+      "path": "LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "url": "https://github.com/a2aproject/A2A/blob/main/LICENSE",
+      "releasePinValidated": false
+    },
+    {
+      "repo": "modelcontextprotocol/modelcontextprotocol",
+      "path": "LICENSE",
+      "sha": "4a93985763241755401a10678395303de4e720ba",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/LICENSE",
+      "releasePinValidated": false
+    },
+    {
+      "repo": "yedidel/mem-inv-bench",
+      "path": "LICENSE",
+      "sha": "42d51f266ef3f81b2111ffbf29aa2a47c142908b",
+      "url": "https://github.com/yedidel/mem-inv-bench/blob/main/LICENSE",
+      "releasePinValidated": false
+    },
+    {
+      "repo": "zhaoxinghua09-cell/silent-failure-catalog",
+      "path": "LICENSE",
+      "sha": "25082b0222f8d2053d99d1ed3cf46b78d9fcceb1",
+      "url": "https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/main/LICENSE",
+      "releasePinValidated": false
+    },
+    {
+      "repo": "zhaoxinghua09-cell/silent-failure-catalog",
+      "path": "LICENSE-CONTENT",
+      "sha": "dfb1e271e4ff929658e7e9d1c5722d07f407cfff",
+      "url": "https://github.com/zhaoxinghua09-cell/silent-failure-catalog/blob/main/LICENSE-CONTENT",
+      "releasePinValidated": false
+    }
+  ],
+  "unresolved": [
+    {
+      "object": "silent-failure-catalog tag v0.1.0",
+      "status": "Read did not complete; source release pin remains pending. Main is not equated to the tag."
+    }
+  ],
+  "codeOrDatasetsImported": false,
+  "testsExecuted": false
+}

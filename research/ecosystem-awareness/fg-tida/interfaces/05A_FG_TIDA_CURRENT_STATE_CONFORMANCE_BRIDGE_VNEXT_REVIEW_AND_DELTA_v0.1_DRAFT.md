@@ -555,3 +555,16 @@ La navegación actual dirige a interfaces; la copia de baseline no se alcanza en
 Se devuelve a [baseline README VNext](../../baseline/README_VNext.md) y [EP README VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md). No se mueve, borra, fusiona ni corrige ninguna de las dos fuentes. La auditoría de primera pasada y las propuestas anteriores conservan su estado; esta entrada no termina las cuatro pasadas de 05A ni su contraste externo.
 
 **Conversación — Codex:** un número igual no basta para identificar la edición auditada. En esta época se requieren ruta y commit. La propuesta concreta de aviso y su fuente anterior exacta quedan pendientes del cotejo histórico; no se incorpora una declaración de autoridad por inferencia.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Actualizar las propuestas, comentarios y materiales posteriores de FG-TIDA. Calificar qué llegó realmente a artefacto o prueba, qué campos siguen sin acuerdo y qué reutilización exige revisión del owner; una discusión no promueve una fila a contrato adoptado.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.

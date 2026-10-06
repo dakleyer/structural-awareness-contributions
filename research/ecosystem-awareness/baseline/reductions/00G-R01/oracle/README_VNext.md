@@ -931,3 +931,27 @@ Corpus reuse:
 **Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
 
 **Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Contrastar oráculos, known-answer controls, separación de observación/evaluación y métricas de utilidad con métodos externos. Identificar piezas reutilizables sin convertir acuerdo de implementaciones en independencia ni victoria en una campaña real.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.
+
+
+### Primer contraste externo preparatorio del oráculo
+
+**Auditoría realizada por Codex, 6 de octubre de 2026. Alcance parcial de quinta pasada:** métodos y disposición externa; no reproducción de campañas. Se conservan los pendientes de correspondencia e implementación de las lecturas previas.
+
+[Petersen](https://arxiv.org/html/2412.10039v1) aporta una razón para comparar métricas con un control sin efecto esperado. Su distribución trata skeletons de grafos, no mandatos, decisiones o entrega admisible en R01; esas fórmulas no se transfieren sin un modelo nuevo.
+
+La [contribución FG-TIDA #30](https://github.com/FG-TIDA/themes/issues/30) añade controles de respuesta conocida como vecino metodológico. Su [cierre](https://github.com/FG-TIDA/themes/issues/30#issuecomment-5947715148) indica fuera de alcance, y el catálogo distingue código de contenido reservado. La pieza aprovechable sería una técnica o código delimitado tras revisar versión y licencia; no se importaron casos o prosa.
+
+**Diferencial:** disponer de negativos, known answers o scoring mecánico no es una novedad demostrada por este README. Falta comparar el mismo dominio, control positivo, carga y aislamiento del evaluador; los perfiles distintos no equivalen. La quinta queda abierta. Si interesa una pieza concreta, su propuesta tendrá fuente exacta, adaptación y texto antes/después dentro de este expediente.

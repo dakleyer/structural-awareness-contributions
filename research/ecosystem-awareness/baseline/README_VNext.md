@@ -56,3 +56,16 @@ Primero se contrastarán las afirmaciones de prueba y evidencia con sus fuentes 
 [Registro conjunto](../../../governance/review/EP_REVIEW_INTEGRATIONS_2026-10-06.md) · [01C VNext](./01C_VNext.md) · [MSCA Operation VNext](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md) · [RA README VNext](../../regime-awareness/README_VNext.md) · [MSCA README VNext](../../../standards/minimum-sufficient-control/README_VNext.md).
 
 La revisión integral de este README continúa pendiente. Se conservan las entradas anteriores y las propuestas opcionales; no se ejecuta redistribución, cambio de propietario, renombrado de fields, ni nuevas pruebas o campañas. Los tres niveles acordados y las funciones propias de cada rama siguen vigentes.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Revisar la ruta externa de fundamentos, casos, interfaces y evidencia y su actualización. Mostrar al lector dónde un método es antecedente, alternativa o pieza aprovechable, sin crear nuevos niveles de README ni inflar evidencia.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.

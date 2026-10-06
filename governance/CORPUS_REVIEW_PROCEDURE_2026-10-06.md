@@ -310,3 +310,48 @@ Antes de incorporar una propuesta se necesita un análisis concreto de sus consu
 El alcance global no transfiere autoridad: EA, RA, MSCA, ACC y los propietarios externos conservan sus funciones. Las referencias entre ellos son relaciones de integración y lectura, no subordinación universal. Se mantienen los tres niveles acordados: **Ecosystem Positioning → Awareness → índices técnicos**, con enlaces laterales entre ramas.
 
 Esta adición no declara que las integraciones estén todas revisadas ni que exista una validación de ejecución conjunta. Sus fuentes, evidencias y excepciones deben quedar cubiertas antes del cierre global. Los documentos canónicos se preservan y sus propuestas siguen pendientes de Iván.
+
+
+---
+
+## Quinta pasada — trabajos externos, diferencial y reutilización
+
+**Adición al plan, revisión 1.6 · instrucción de Iván del 6 de octubre de 2026.** Después de las cuatro pasadas se añade una quinta en **la misma VNext de cada documento lógico**: revisar investigaciones, trabajos y desarrollos externos relacionados, incluidos FG-TIDA y trabajos posteriores, para entender qué aportan, si existe un diferencial y qué puede reutilizarse. Se conserva todo el procedimiento anterior; la conciliación final del corpus se realiza tras cubrir también esta quinta pasada.
+
+La quinta amplía el contraste de fuentes: busca vecinos, alternativas, antecedentes, actualizaciones y realizaciones que el documento no haya citado. La segunda pasada conserva la comprobación de sus afirmaciones y referencias existentes. Una misma fuente puede servir a ambas, con preguntas y resultados distintos; consultar otra vez una bibliografía no completa la quinta.
+
+### La pregunta humana de esta pasada
+
+Para cada documento se responde: **¿qué trabajo relacionado existe fuera, qué resuelve realmente, qué aporta o limita respecto de este texto, y qué convendría aprovechar sin romper sus integraciones?** No se presupone que nuestra solución sea nueva o superior. Si un trabajo externo ya cubre la función, se dice; si la comparación no permite concluir, se identifica qué falta.
+
+La búsqueda se orienta por el propósito real del documento: teoría, requisitos, integración, caso, método de evaluación, figura o evidencia. Los documentos de apoyo pueden comparar métodos de representación, interpretación o reproducción; no necesitan inventar una contribución científica propia.
+
+### Qué se consulta y cómo se fija
+
+En FG-TIDA se leen propuestas, comentarios, casos, PR, materiales de reuniones y documentos efectivamente accesibles. Se distingue el trabajo del proponente, una discusión, un diseño, un artefacto publicado, una ejecución y una decisión del grupo. El cierre de una issue o un comentario favorable no equivale a adopción. Las aportaciones propias publicadas fuera del repositorio no se cuentan como validación externa independiente.
+
+Fuera de FG-TIDA se buscan fuentes primarias relevantes: papers y sus versiones, trabajos anteriores o posteriores, especificaciones, protocolos, estándares, código, datasets y métodos comparativos. Se registran fecha del trabajo, versión/commit y fecha de consulta; “posterior” requiere comparar esas fechas. No se extrapola un resumen, título o anuncio a una revisión del artículo completo. Las afirmaciones normativas se contrastan con su fuente competente antes de utilizarlas.
+
+La búsqueda tiene límites explícitos: pregunta, términos/rutas explorados, fuentes leídas y accesos pendientes. “No encontrado en este alcance” no demuestra ausencia mundial de antecedentes. Un índice compartido puede evitar repetir búsquedas, pero el juicio de relevancia y reutilización queda escrito dentro de la VNext del documento.
+
+### Qué queda escrito dentro de cada VNext
+
+La entrada empieza por **«Auditoría realizada por…»**, con identidad real, fecha, fuente del corpus y alcance externo leído. Incluye una explicación comprensible y, cuando ayude, una tabla breve:
+
+| Trabajo externo | Qué sostiene y con qué evidencia | Relación con este documento | Qué puede aprovecharse y bajo qué condiciones | Qué queda por comprobar |
+|---|---|---|---|---|
+| Autor, enlace primario, fecha y versión | Problema, premisas, método y resultado realmente consultados | Coincidencia, alternativa, límite, complemento o diferencia posible | Idea, definición, método, prueba, interfaz, código o datos; atribución/licencia, adaptación y compatibilidad | Acceso, reproducción, scope, dependencia, carga o permiso pendiente |
+
+**El diferencial se examina sobre la misma función y condiciones comparables.** Terminología, una combinación de temas o más campos no bastan. Se conserva el alcance de las pruebas y se revisan premisas, fuentes disponibles, autoridad, recursos, plazo y resultado útil. Se distingue diferencia conceptual propuesta de ventaja demostrada. Un comparador equivalente o mejor cuenta contra el diferencial y puede orientar la reutilización.
+
+**La reutilización debe ser concreta.** Se nombra qué pieza interesa, qué parte se conserva, qué debe adaptarse y qué obligaciones de atribución/licencia afectan al archivo o versión exactos. Un repositorio accesible no concede permiso para copiar todo; código, texto y datos pueden tener condiciones diferentes. Identificar un candidato no autoriza importarlo, ejecutar su código, redistribuir material restringido o cambiar el contrato del corpus.
+
+Cada candidato vuelve a los productores, consumidores y retornos afectados. Se preservan significado, identidad de decisión/operación, scope, versiones, vigencia, evidencia y autoridad. La incorporación requiere la revisión de compatibilidad y una propuesta exacta **antes/después**, situada al final de la misma VNext, con las instrucciones y decisión de Iván.
+
+### Orden, repetición y cierre
+
+La búsqueda preparatoria puede reunir fuentes mientras se terminan las cuatro lecturas, pero la quinta se documenta como pasada propia después de ellas. Preparar una lista no es realizarla. Si una fuente nueva contradice una premisa, se reabre la pasada afectada y se conserva la conversación anterior.
+
+La quinta termina en un alcance declarado cuando la comparación y la decisión sobre cada pieza estén justificadas: reutilizable con condiciones, candidata pendiente, no pertinente, diferencial no establecido o cambio propuesto. No termina por acumular citas. Sus resultados se concilian entre documentos y orientan prioridades de desarrollo sin sustituir los originales.
+
+El [primer mapa externo](./review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) registra fuentes consultadas y preguntas iniciales; los [expedientes activos](./review/EP_EXTERNAL_RESEARCH_STATUS_2026-10-06.tsv) mantienen pendiente la quinta cuando falte su contraste específico. La obligación se aplica también a las VNext que se creen después, para todo Contributions. No se crean VNext adicionales por esta nueva pasada.

@@ -77,3 +77,16 @@ La dificultad principal es entrar por una versión antigua sin advertencia actua
 ```
 
 **Efecto:** conservar procedencia y hacer visible la ruta actual. No reinterpreta resultados históricos. **Dependencias:** README de baseline y EP; 00M/00N. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
+
+
+---
+
+## Quinta pasada — investigación externa, diferencial y reutilización
+
+**Instrucción de Iván, 6 de octubre de 2026. Estado: contraste específico pendiente.** Esta quinta pasada se realiza después de las cuatro y queda dentro de esta misma VNext. No se crea otro expediente ni se incorporan propuestas a la fuente por esta anotación.
+
+**Pregunta de este documento:** Actualizar los vecinos intelectuales y experimentales, incluida evidencia posterior sobre ubicación de conocimiento/capacidad. Separar mejora de acceso, uso de información y resultado final; localizar métodos comparativos reutilizables con sus límites.
+
+Se fijarán trabajos primarios de FG-TIDA y de otras líneas relevantes, incluidos antecedentes y actualizaciones posteriores, con autor, versión, fecha y alcance realmente leído. Aquí se justificará qué coincide, qué diferencia podría sostenerse y qué pieza concreta conviene reutilizar, con sus condiciones de atribución, adaptación y compatibilidad.
+
+El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) aporta fuentes iniciales; no completa esta pasada. El [plan 1.6](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#quinta-pasada--trabajos-externos-diferencial-y-reutilización) gobierna método y cierre. Las cuatro lecturas previas mantienen sus estados reales y se reabren si aparece evidencia que las afecte. Codex, mismo asistente de IA; anotación de alcance, sin independencia externa.
