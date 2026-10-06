@@ -264,3 +264,31 @@ El trabajo nativo, una evaluación con otros responsables o una medición operac
 Durante la preparación entró `a2cee52fed3db130f2acfe3ece7d2106e3c66362`. Se preservan íntegros la fuente y la única VNext de esa entrega. Se leyeron sus cuatro nuevos pares: cadena Stage1/Stage2, inserción13.1, filaHEW e inserción14.1. Los cuatro después están presentes una vez; sus viejos son historia, no nuevas tareas. Impacto Alto, riesgo Medio, esfuerzo Medio: la disciplina de transferencia y el estado de la evidencia requieren cotejo, aunque el texto sea aditivo. La narración fuera de los pares también añade introducción, cobertura y campos de cita: el plan literal no es exhaustivo para todo ese delta. No se presenta esa reserva como una prueba fallida ni como trabajo nativo hecho.
 
 Stage1 conserva sólo la correspondencia probada en su kernel/base; Stage2 requiere justificar el compuesto. La referencia a SQLite/JWT-SVID/JWS no acredita humanos calibrados, implementación nativa, ventaja comparativa o auditor independiente. Las31 fichas de pares de las siete VNext DDS/tecnología quedan en la época de este mismo registro de prioridades, sin otra VNext ni otro método.
+
+## Owner-authorized proportionate DDS clarification0.1.4
+
+Version0.4 review addition; source fa2c411c810950fb94924caae38938c52dfd5014. Ivan requested strengthening only where it adds real value, keeping DDS deliberately simple, versatile and within the promised scope. The same canonical source and owning VNext continue; all concurrent assessments above remain.
+
+**Logic.** Partial coverage says what is omitted, but needs a practical rule for choosing enough work and closing the analysis. A supported finding also needs its decisive assumptions and limits visible. Two short paragraphs in section10B connect those existing principles; no new scoring, stage, mandatory grid or commercial output.
+
+**Evidence/relationship.** Sections3/4 already require material assumptions and parameter changes; sections8/15 require frozen acceptance/falsifiers and allow no differential or insufficient evidence; section10B separates coverage from delivery. The addition requires a bounded material-assumption check and honest conditional conclusion rather than extrapolating from one favorable configuration. It neither demands a full campaign for documentary studies nor exempts agreed output delivery.
+
+**Editing.** One insertion before the existing preparation-record paragraph. Its full literal before/after follows. No intro change, new source file, maths, acceptance threshold, stage, fixture or evidence-grade change.
+
+**Reader review.** Same-assistant reading: the user can see when enough analysis has been done and what could overturn its finding. Impact medium/high for useful, economical conclusions; risk medium if 'close analysis' were mistaken for completed service, explicitly excluded; effort low. Scope-relative checklist, not universal validation or independent acceptance.
+
+**Texto antes — viejo**
+
+~~~~text
+A preparation record may leave execution or acceptance pending, but must not report that pending work as an established result.
+~~~~
+
+**Texto después — autorizado**
+
+~~~~text
+**Proportionality clarification0.1.4.** Select the DDS surfaces and evidence depth needed to answer the agreed question. Close the analysis when it has an evidence-bounded answer, including no differential or insufficient evidence; this does not close undelivered contractual outputs. More work is justified by an unresolved issue material to that question, and work beyond the agreed scope requires explicit re-scoping.
+
+**Material assumption check.** Before result-producing work, identify the assumptions or operating limits whose plausible change could reverse the finding. Check the relevant boundary with available evidence where feasible within scope, and report what would invalidate or narrow the conclusion. If that dependency cannot be checked, state the conditional finding or what remains unestablished. Record this briefly in the existing scope/run/report; it adds no deliverable or universal test battery.
+
+A preparation record may leave execution or acceptance pending, but must not report that pending work as an established result.
+~~~~

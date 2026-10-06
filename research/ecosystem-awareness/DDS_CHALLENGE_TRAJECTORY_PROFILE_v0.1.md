@@ -395,6 +395,10 @@ Its minimum traceability record identifies:
 5. the source/trace basis, evidence mode and scoped finding or acceptance rule;
 6. the supported conclusion, exclusions and remaining uncertainty.
 
+**Proportionality clarification0.1.4.** Select the DDS surfaces and evidence depth needed to answer the agreed question. Close the analysis when it has an evidence-bounded answer, including no differential or insufficient evidence; this does not close undelivered contractual outputs. More work is justified by an unresolved issue material to that question, and work beyond the agreed scope requires explicit re-scoping.
+
+**Material assumption check.** Before result-producing work, identify the assumptions or operating limits whose plausible change could reverse the finding. Check the relevant boundary with available evidence where feasible within scope, and report what would invalidate or narrow the conclusion. If that dependency cannot be checked, state the conditional finding or what remains unestablished. Record this briefly in the existing scope/run/report; it adds no deliverable or universal test battery.
+
 A preparation record may leave execution or acceptance pending, but must not report that pending work as an established result. An unscored dimension is not zero, not a passed control and not evidence of absence of risk. A reduced study does not establish full-profile validation, native product performance or deployment Business Value merely by citing DDS.
 
 Current UC21 traversals can be traced to this profile without rerunning the entire battery or rewriting their originals. A later crosswalk records correspondence outside the frozen original; it does not confer a higher evidence grade. A stronger test or additional scored dimension belongs to a declared successor/extension with its own sources, scope and prospective test contract.
