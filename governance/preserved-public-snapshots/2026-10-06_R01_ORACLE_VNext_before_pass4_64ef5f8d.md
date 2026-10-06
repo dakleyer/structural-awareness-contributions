@@ -11,13 +11,13 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 | Fondo y lógica | Realizada como pasada diferenciada del README y sus límites; validación externa y código completo fuera de este cierre. |
 | Evidencia y relaciones entre documentos | Realizada para las afirmaciones del README y cadenas materiales declaradas; fuentes vecinas tienen revisión cruzada parcial, no auditoría íntegra. |
 | Edición, estructura y formato | Inspección completa del Markdown realizada; siete propuestas exactas pendientes, sin incorporación. |
-| Legibilidad y comprensión humana | Relectura simulada terminada por el mismo asistente; participación humana independiente no realizada. |
+| Legibilidad y comprensión humana | Pendiente como pasada separada; no ha participado un lector humano independiente. |
 
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.5 · **Fecha:** 6 de octubre de 2026  
-**Estado:** cuatro pasadas del README realizadas en el alcance declarado; relaciones vecinas parcialmente revisadas; siete propuestas pendientes de decisión por ID.  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.4 · **Fecha:** 6 de octubre de 2026  
+**Estado:** auditoría documental y de relaciones parcial; propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
 ## 1. Identidad, fuente y límites
@@ -186,34 +186,6 @@ El orden actual favorece al mantenedor: estado, atribución, composición UC4, e
 ### Legibilidad y comprensión humana — pendiente como pasada separada
 
 Un lector que llega sin los chats necesita entender qué significa evaluar una ruta permitida y por qué reaprovechar un harness no transfiere sus conclusiones. El README comienza con C02, Stage 0 y UC4; la VNext añade arriba una explicación para situar esa pregunta. Esto es una observación y simulación de lectura por el mismo asistente, no una prueba con otra persona ni una pasada completa de comprensión humana.
-
-
-#### Pasada 4 realizada — legibilidad y comprensión humana, 6 de octubre de 2026
-
-**Codex /root, mismo asistente.** Relectura del README vigente desde su inicio hasta el límite final, después de publicar la inspección editorial en `64ef5f8d059ec0cb944915f779f000baadaa8b89`. Pregunta distinta: ¿qué podría reconstruir una persona nueva sin los chats? Se trata de **simulación de lectura por el asistente que ya conoce el trabajo**; no lectura ciega, participante humano ni validación independiente.
-
-**Recorrido de lectura.** El primer párrafo permite saber que el instrumento es limitado y que no hubo campaña de tecnología. El segundo presenta UC4 como destino preferido, pero presupone entender C02, sidecar y Theme #13. La lista de atribuciones aporta procedencia antes de explicar una tarea concreta. El diagrama aclara que la envolvente experimental y el evaluador privado son piezas distintas. La sección de evidencia permite encontrar un run y sus registros, aunque una persona podría leer “successful” como éxito de todos los casos. La lista de funciones explica lo que comprueba el mantenedor; al llegar al comando, todavía cuesta distinguir una selección batch de un efecto registrado. El cierre limita las conclusiones correctamente, pero llega después de la parte que más podría generalizarse.
-
-### Preguntas de comprensión examinadas
-
-| Pregunta de una persona nueva | Respuesta reconstruible de la fuente | Dificultad y propuesta |
-|---|---|---|
-| ¿Para qué sirve? | Para evaluar un slice R01 con vistas privadas/públicas, referencia y recursos. | Falta una frase concreta sobre una buena ruta permitida: DELTA-005. |
-| ¿Qué tendría que entregar mi tecnología? | Una respuesta/traza a través de un adapter; batch o interacción con broker. | La forma precisa vive en la guía. Mantener esa ruta; no prometer conexión directa de cualquier producto. |
-| ¿Qué recibe el candidato y qué sabe el evaluador? | Vista permitida frente a mundo/referencia privada. | El diagrama ayuda. Añadir explicación de “oráculo” como referencia de este mundo, no verdad universal. |
-| ¿Qué significa el verde? | Self-test con los resultados esperados; no campaña real. | DELTA-003 muestra PASS/FAIL/INCONCLUSIVE juntos y evita la lectura “todos aprobaron”. |
-| ¿Ya es compatible con Nelson? | Hay alineamiento semántico; schema/review/admission siguen pendientes. | DELTA-001 separa versión del esquema y del ZIP; la matriz explica los tres cierres. |
-| ¿Qué puedo reutilizar del trabajo antiguo? | C3, diseño A01/A03 y CTv1 están citados. | DELTA-002 y la matriz hacen visibles 00K/00L/00I/primer R01 sin transferir resultados. |
-| ¿PASS demuestra una ejecución segura, barata y eficaz? | Depende del modo y dominio; la fuente limita su claim. | DELTA-006 sitúa efecto/métrica/aislamiento antes de reproducir. El coste sintético conserva su unidad. |
-| ¿Cuál es el siguiente trabajo? | C11/T03 son posteriores; el README remite a contratos y registros. | La VNext añade una secuencia recomendada y separa revisión documental de ingeniería/campaña. |
-
-**Ejemplo explicativo de revisión, no nueva fixture.** Imaginemos que una ruta más atractiva tiene una conexión prohibida y otra ruta permite completar la misma misión. El evaluador conoce la conexión; el candidato debe descubrir o comprobar lo que su vista y herramientas le permiten. Elegir la atractiva no se vuelve correcto porque su relato diga “seguro”; impedir todas las rutas tampoco entrega la misión. Este ejemplo ilustra por qué se separan observación, permiso, elección, efecto y evaluación. No modifica los seis mundos congelados ni demuestra qué elegiría un producto.
-
-**Vocabulario mínimo propuesto para la lectura.** El *harness* organiza y registra la prueba; el *oráculo de referencia* calcula lo que puede decidir del mundo acotado; el *adapter* traduce una frontera declarada; el *sidecar* conserva información específica de R01 junto al experimento UC4. Ninguna de esas piezas hereda la autoridad de un contribuyente ni hace independiente al mismo autor por cambiar de archivo.
-
-**Resultado:** la fuente comunica bien su límite técnico a un lector del proyecto; necesita las aclaraciones de propósito, modos y antecedentes para una persona que llega de fuera. Se han preparado propuestas concretas 001–007 para esas dificultades. Su comprensión posterior a incorporación no se ha probado con una persona; no se asigna puntuación ficticia ni se afirma accesibilidad validada.
-
-**Estado:** relectura simulada terminada en el alcance del README Markdown. Las cuatro pasadas son ahora registros diferentes, publicados en orden. Una evaluación externa de legibilidad queda explícitamente separada; no impide completar esta simulación autorizada ni se declara realizada.
 
 ### Apoyo técnico de la revisión
 
