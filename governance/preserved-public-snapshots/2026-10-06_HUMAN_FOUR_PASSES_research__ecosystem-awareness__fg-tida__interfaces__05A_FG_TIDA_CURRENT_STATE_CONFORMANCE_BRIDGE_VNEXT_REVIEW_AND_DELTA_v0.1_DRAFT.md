@@ -1,21 +1,4 @@
 > [!NOTE]
-> **Revisión para personas · instrucción de Iván del 6 de octubre de 2026.** El [plan de trabajo](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) exige cuatro pasadas diferentes, registradas en esta misma VNext: **fondo y lógica; evidencia y relaciones; edición y formato; legibilidad humana**. Después habrá una conciliación del corpus, con consecuencias en cada VNext afectada. El centro es comprender y cuestionar la idea; códigos y comprobaciones técnicas quedan como apoyo. La exploración mixta publicada antes se conserva, pero no se cuenta como cuatro pasadas terminadas.
-
-### Estado del ciclo de revisión de este documento
-
-| Pasada | Estado al adoptar el plan |
-|---|---|
-| Fondo y lógica | Parcial: hay observaciones exploratorias; falta su examen diferenciado completo. |
-| Evidencia y relaciones entre documentos | Parcial: relaciones seleccionadas; faltan revisiones cruzadas completas. |
-| Edición, estructura y formato | Pendiente como pasada propia. |
-| Legibilidad y comprensión humana | Pendiente como pasada propia. |
-| Conciliación final del corpus | Pendiente. |
-
-**Cómo se continúa:** añadir cada pasada y sus respuestas en la sección de auditoría de esta VNext, explicando hallazgos y consecuencias para un lector. Conservar los registros anteriores y terminar con propuestas antes/después. Esta nota organiza el trabajo; no afirma que esas pasadas se hayan realizado ni altera el texto canónico.
-
----
-
-> [!NOTE]
 > **VNext · auditoría acumulativa R1 · 6 de octubre de 2026.** Se preserva el filtro histórico completo. Las comprobaciones públicas de esta pasada se limitan a anchors nombrados en la auditoría final; no actualizan en bloque todos los estados de FG-TIDA. No se modifica el bridge de 19 de septiembre. [Procedimiento](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) · [visión general](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md).
 
 # 05A Current-State vNext Review & Delta — FG-TIDA

@@ -1,21 +1,4 @@
 > [!NOTE]
-> **Revisión para personas · instrucción de Iván del 6 de octubre de 2026.** El [plan de trabajo](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) exige cuatro pasadas diferentes, registradas en esta misma VNext: **fondo y lógica; evidencia y relaciones; edición y formato; legibilidad humana**. Después habrá una conciliación del corpus, con consecuencias en cada VNext afectada. El centro es comprender y cuestionar la idea; códigos y comprobaciones técnicas quedan como apoyo. La exploración mixta publicada antes se conserva, pero no se cuenta como cuatro pasadas terminadas.
-
-### Estado del ciclo de revisión de este documento
-
-| Pasada | Estado al adoptar el plan |
-|---|---|
-| Fondo y lógica | Parcial: hay observaciones exploratorias; falta su examen diferenciado completo. |
-| Evidencia y relaciones entre documentos | Parcial: relaciones seleccionadas; faltan revisiones cruzadas completas. |
-| Edición, estructura y formato | Pendiente como pasada propia. |
-| Legibilidad y comprensión humana | Pendiente como pasada propia. |
-| Conciliación final del corpus | Pendiente. |
-
-**Cómo se continúa:** añadir cada pasada y sus respuestas en la sección de auditoría de esta VNext, explicando hallazgos y consecuencias para un lector. Conservar los registros anteriores y terminar con propuestas antes/después. Esta nota organiza el trabajo; no afirma que esas pasadas se hayan realizado ni altera el texto canónico.
-
----
-
-> [!NOTE]
 > **VNext · auditoría acumulativa R1 · 6 de octubre de 2026.** Se reutiliza este expediente; su texto anterior queda íntegro debajo. La auditoría, conversación e instrucciones actuales y las propuestas literales están al final. El cierre W1 fechado en el texto histórico no cierra la nueva revisión. No se modifica el Requirements congelado. [Procedimiento](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) · [visión general y secuencia](../../../architectural-contributions/ecosystem-positioning/README_VNext.md).
 
 # Requirements vNext Review & Delta — Ecosystem Positioning
