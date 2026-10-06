@@ -261,9 +261,9 @@ The sender-side trigger may originate from:
 - an agent/system alert;
 - a material `Δ_RA` / regime-change warning or requalification request;
 - effective-role drift, unresolved ACC/authority transition or another material Repositioning condition;
-- an optional [Human Capacity / Human Intelligence Debt](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) determination showing that a planned human-review path is degraded, unavailable or unknown.
+- an optional [Human Capacity / Human Intelligence Debt](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) result. The reusable [01K-A01 component](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md) may expose a normal process-relative qualified position such as `[A_HC,B_HC,C_HC,D_HC]` for runtime capacity or `[A_HID,B_HID,C_HID,D_HID]` for architecture/debt, plus an optional DDS-compatible cost projection.
 
-The receiving side still performs normal qualification. Where material, the alert may update `Cart_i`, trigger Regime Awareness or local requalification, and then alter the downstream Repositioning surface. Transport success, human authorship or the word "alert" does not make the payload true or authoritative.
+The receiving side still performs normal qualification. A_HC/A_HID are producer results, not receiver truth. Their B/C/D qualifiers preserve support, characterized reserve, exploration frontier and residual under the declared HC-HID process. Where material, the receiver may update `Cart_i`, trigger Regime Awareness or local requalification, and then alter the downstream Repositioning surface. Transport success, human authorship, an AVAILABLE state or the word "alert" does not make the payload true or authoritative.
 
 A human may be a receiver where an applicable ACC, policy or signalling profile routes that class of signal to a human/role. A deployment may implement that relationship as subscription, notification, queue membership or another delivery mechanism. Such routing does not make the human a central interrupt for Ecosystem Awareness or Repositioning, and receipt does not establish that the human has sufficient review capacity.
 
