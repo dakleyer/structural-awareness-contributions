@@ -1,6 +1,6 @@
 # Review note — 01K Human Capacity / Human Intelligence Debt
 
-**Current source:** [01K Human Capacity / Human Intelligence Debt](01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md), public working extension v0.2. Current integration commit `9f397df86fb66217937fbf08b3c99e0f46bc60a6`, content blob `cbdf679dd396ed4bf5e13d3368c6834349b31962`.
+**Current source:** [01K Human Capacity / Human Intelligence Debt](01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md), public working extension v0.2. Current public source blob `e52ed065c5d217da73634c7eb28d26c5d990abae`.
 
 **6 October 2026 — source-series reconciliation.** Iván explicitly corrected the earlier interpretation of Human Intelligence Debt as a runtime human-capacity deficit and instructed a deep review of the complete Tegrity.AI Human Intelligence Debt / Human Intelligence Gap series and its cross-series bridges. The source has now been rewritten around the controlling HICR/HICT/HID framework, Paper-5 GIC/NEO/ACW operationalisation, organisational measurement stack, recovery/velocity proposals and bridge map. Runtime Human Capacity remains a separate surface consumed by Human Escalation/Repositioning.
 
@@ -20,6 +20,8 @@ The source review incorporated these Tegrity.AI materials:
 - AI Operational Integrity ↔ HID bridge;
 - HID ↔ AI Integrity Management bridge;
 - Structural Awareness / Regime Awareness bridge context.
+
+**Reusable component package:** [01K-A01 component specification](01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md) is the subordinate implementation contract for 01K. Current blobs: component `6d37001df1a82623eb4bf7a9d70a7a7ac7a5247b`; schema `8d6850cff955175bf4226fd101f3567bba07c487`; semantic controls `b79253493ab1bd2da020a9af3d7a00257fec51f9`; verification `a7b92744291f58d27e1dee84dccf0f828c33589d`. A01 does not become a second semantic owner: 01K retains the source/measurement semantics, while A01 defines the reusable component contract and its subordinate machine-readable/testing artefacts.
 
 **Evidence boundary:** this is corpus integration and source reconciliation by the same AI assistant, not independent scientific validation. Paper 5 remains a proposed measurement programme; no empirical HID value is claimed here, `rho` remains unproven, population-level decay remains open, and the Evidence Notes' rule **deficit is not decay** remains controlling.
 
