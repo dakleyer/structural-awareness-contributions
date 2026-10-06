@@ -128,3 +128,18 @@ P5 must be reopened if a repair can:
 5. do all of that without comparing, binding, invalidating from or otherwise representing the current material decision basis or an operational equivalent.
 
 Such a mechanism is a **TRUE SUBSTITUTE**.
+
+---
+
+## 6. Audit clarification — 6 October 2026
+
+The phrase **“all 16 subsets”** means the complete `2^4` power set of inclusion/omission configurations for the four declared material-basis fields, including the empty and full sets. It does **not** claim exhaustive coverage of field values, temporal orderings, timestamps, latency regimes or the space of all possible repair algorithms.
+
+The **47/47** headline is a regression/check count. It means 47 pytest checks matched their frozen expected outcomes; it does not mean that 47 candidate defences succeeded. The serious-repair layer intentionally includes expected rejections and false-continuation demonstrations.
+
+Field attribution in the 16-subset grid is structurally isolated: every `MUTATIONS[field]` branch changes exactly one material field and keeps the other declared basis fields at the continuity value. Accordingly, the grid does not infer field attribution from the original stale branch where several facts change together.
+
+A machine-readable fixture contract and agreement validator are being added to guard the reduced branch oracle against silent code/spec drift. This is a meta-integrity control and is not added to the 47/379 counts. It also does not claim independent adjudication: the expected contract remains part of the same research corpus.
+
+Finally, event-invalidation and material-epoch repairs are **conditional compressed mechanisms** in this symbolic surface. Their passing result assumes the event/epoch representation actually changes on every declared material change; a real implementation must establish that mapping separately.
+
