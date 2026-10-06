@@ -16,7 +16,7 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.9 · **Fecha:** 6 de octubre de 2026  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.8 · **Fecha:** 6 de octubre de 2026  
 **Estado:** cuatro pasadas del README realizadas en el alcance declarado; relaciones vecinas parcialmente revisadas; siete propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
@@ -177,21 +177,6 @@ Las correspondencias completas se concretan en la matriz de la tarea 2; aquí se
 **Cobertura de cierre.** Todas las afirmaciones importantes del README se contrastaron contra sus fuentes de instrumento, evidencia registrada, upstream citado y receptores materiales descritos arriba. Los 57 archivos recuperados son fuentes, no 57 auditorías completas. Quedan fuera: todos los papers externos completos; todos los nueve perfiles de 00L; universalidad de kernels; todas las variantes de cada runner; reproducción de binarios/resultados comprimidos; prueba de aislamiento real y validación externa. El inventario de enlaces entrantes se registra por separado, sin tratar presencia de un link como dependencia semántica comprobada.
 
 **Estado:** pasada realizada para el README y las relaciones materiales declaradas, con discrepancias y obligaciones de ingeniería abiertas. Una auditoría puede terminar encontrando brechas; no se cierran C02/M16/M17 con este registro.
-
-
-#### Ampliación 2026-10-06 — evidencia y relaciones de la visión general
-
-**Codex /root, mismo asistente; segunda pregunta de revisión.** ¿Qué respalda el estado descrito y qué autorizan a concluir las baterías externas? Contraste del README con SELFTEST_RECORD_v0.9, perfil UC4, NELSON_BASELINE_IMPORT, plan de computabilidad y WORKPLAN vigente; fuentes primarias externas leídas el 6 de octubre. El [anexo de evidencia de esta ampliación](../../../../../../governance/review/R01_ORACLE_OVERVIEW_REVIEW_2026-10-06.json) registra corte y límites.
-
-El pasaje «instrumentation only; no real technology executed» del registro v0.9 limita el alcance de la primera fila de §5.4. La tabla de niveles del perfil mantiene R01-BRIDGE-DRAFT y evita convertir la envolvente propuesta en un paquete admitido. WORKPLAN mantiene C02 activo y C11/T03 posteriores. La evidencia CTv1 ya publicada respalda 28 microchecks de un prototipo de importación; no respalda conformance universal ni rollout.
-
-**Diferencia entre fuente antigua y acceso actual:** NELSON_BASELINE_IMPORT contiene una limitación de acceso al attachment de su fecha. La revisión previa recuperó y preservó el paquete original y registró el hash del schema. Ese acceso posterior no demuestra que el perfil R01 haya pasado su validador ni que el contributor lo haya aceptado. No reescribir la nota histórica como si siempre hubiera existido ese acceso.
-
-**Terceros:** JSON Schema Test Suite prueba el comportamiento del validador; Hypothesis genera secuencias contra invariantes que debemos escribir; ToolSandbox evalúa estados e hitos; AgentDojo evalúa ataques y defensas de prompt injection; τ-bench aporta dominios con políticas y herramientas; CP-SAT resuelve un modelo formalizado y distingue sus estados de resolución. Cada una apoya una función distinta. No se ha instalado, ejecutado o certificado una integración R01 de estas alternativas. Las fuentes y condiciones concretas quedan en §5.4.
-
-**Relación cruzada:** el límite UC4 ↔ R01 vuelve a la VNext del perfil, ampliando R01-X12 sin cerrar sus otras pasadas. Las demás familias conservan sus revisiones cruzadas previas y sus límites; esta ampliación no contiene una auditoría íntegra de cada una. Las fuentes externas son opciones técnicas, no nuevas dependencias normativas ni cambios de organización del corpus.
-
-**Resultado:** la visión general conserva el grado de evidencia de sus fuentes. La selección y orden de reutilización son recomendaciones razonadas del mismo asistente. Faltan versiones de implementación fijadas, mapping, ejecución y revisión de los perfiles futuros.
 
 ### Edición, estructura y formato — pendiente como pasada separada
 
@@ -567,49 +552,6 @@ La compatibilidad documental es considerable para infraestructura y selectiva pa
 - **Interoperabilidad:** alineación documental, schema validado, source-review y admisión no son equivalentes.
 - **Transferencia:** desconocido permanece desconocido; no traducirlo a false, cero, permiso o éxito.
 - **Conclusión:** self-test, campaña sintética, integración de perfil y realización real tienen alcances distintos. Este expediente no cierra C02 ni el corpus global.
-
-
-
-### Qué reutilizar de terceros y qué conservar como trabajo propio
-
-La selección siguiente fue contrastada con documentación primaria el **6 de octubre de 2026**. Son opciones para paquetes de trabajo dentro de C02/M17; ninguna está integrada por esta revisión. Antes de implementar se fijarán release o commit, dependencias, licencia del código y de los datos elegidos, subconjunto de casos y capacidades del entorno. Las páginas vivas enlazadas no equivalen a una versión congelada de ejecución.
-
-<a id="r01-thirdparty-test-reuse"></a>
-| Opción y función | Qué podemos aprovechar | Trabajo necesario y límite | Prioridad recomendada |
-|---|---|---|---|
-| [JSON Schema Test Suite](https://github.com/json-schema-org/JSON-Schema-Test-Suite) + [python-jsonschema](https://python-jsonschema.readthedocs.io/en/stable/) | Suite de conformidad del validador y biblioteca para comprobar documentos contra el schema exacto. | Seleccionar el dialecto que declara el schema UC4 y configurar sus referencias/formatos. La suite no contiene nuestras expectativas de dominio ni valida semántica R01. | Primera: evitar inventar un validador general. |
-| [Hypothesis, pruebas con estado](https://hypothesis.readthedocs.io/en/latest/stateful.html) | Generación de secuencias y reducción de un fallo a un testigo pequeño. | Definir modelo, operaciones e invariantes propios, por ejemplo revisión → supersesión → intento. No es una batería R01 lista para ejecutar ni garantía de cobertura exhaustiva. | Primera, tras fijar el perfil y sus invariantes. |
-| [ToolSandbox](https://github.com/apple-aiml-research/ToolSandbox) | Herramientas con estado y evaluación por snapshots e hitos ordenados en un DAG. | Elegir un caso y mapear operaciones/efectos. Su score de similitud de hitos no es el óptimo admisible R01; conservar ambas evaluaciones. | Segundo bloque: caso pequeño con efectos observables. |
-| [AgentDojo](https://github.com/ethz-spylab/agentdojo) | Tareas y controles de ataques/defensas de prompt injection. | Separar éxito de tarea legítima y éxito del ataque; adaptar fronteras de confianza y registrar capacidades/modelo. Su API evoluciona y requiere versión fijada. | Cuando el perfil incluya esa amenaza. |
-| [τ-bench, repositorio tau2-bench](https://github.com/sierra-research/tau2-bench) | Simulación de interacción usuario–agente–herramientas con políticas y tareas por dominio. | Elegir dominio y modo, fijar simulador y política, registrar efectos y coste de cada parte. El cumplimiento del benchmark no es autorización general ni medida equivalente R01. | Después del piloto propio; solo si añade una pregunta necesaria. |
-| [OR-Tools CP-SAT](https://developers.google.com/optimization/cp/cp_solver) | Posible referencia adicional para optimización discreta acotada. | Formalizar fielmente restricciones y objetivo; su aritmética es entera. Una solución FEASIBLE no acredita OPTIMAL; límite o UNKNOWN no acredita inexistencia de solución. No determina autoridad ni hechos omitidos del modelo. | Condicionada a un perfil que justifique ese modelo. |
-
-Podemos reutilizar **implementaciones, motores, casos y métodos de evaluación**. Debemos definir nosotros la correspondencia con R01, la verdad privada del caso, los permisos temporales aplicables, la entrega admisible, los recursos y el criterio de conclusión. Eso evita construir toda la infraestructura desde cero y evita importar un significado que la prueba externa nunca examinó.
-
-No recomiendo descargar e integrar todas las opciones a la vez. Empezaría por validación estructural y generación de secuencias, conservaría S5 como primer caso de correspondencia y elegiría después **una** fuente de escenarios externos. ToolSandbox sería la primera candidata si se necesita observar cambios de estado; AgentDojo si la pregunta concreta es prompt injection; τ-bench si la pregunta requiere políticas y cooperación con un usuario. CP-SAT solo se justifica si ofrece un contraste pertinente del modelo, no por sumar un segundo solver.
-
-### Cómo decidir si una batería se transfiere correctamente
-
-El expediente de cada importación deberá conservar versión y caso original, licencia aplicable, entrada y resultado nativos, mapping, traza normalizada, expectativas privadas y resultados separados por predicado. Debe permitir explicar una discrepancia sin cambiar las expectativas después de ver el resultado. La comparación es **original → transformación → predicado destino**, no una suma de todos los PASS.
-
-Propongo esta batería mínima de correspondencia, todavía no ejecutada:
-
-| Control | Qué debe distinguir o conservar |
-|---|---|
-| Positivo legítimo | Permiso, efecto esperado y entrega dentro del contrato; bloquearlo no es éxito. |
-| Frontera temporal | Mismo acto antes y después de expiración/supersesión; preservar evaluación al tiempo aplicable. |
-| Rechazo | Intento fuera de mandato o contexto; decisión y efecto examinados por separado. |
-| Abstención permanente | Ausencia de daño no se convierte en tarea completada. |
-| Orden causal y reset | No ordenar una secuencia cronológica como un conjunto; declarar cuándo reordenar casos independientes es válido. |
-| Replay | Repetir bajo el estado/reset declarado y comparar los campos prometidos, sin reclamar determinismo de cualquier tecnología. |
-| Binding/identidad ausente | Rechazo o no resolución explícitos según contrato; no desaparición silenciosa del caso. |
-| Dato ausente o malformed | Separar incertidumbre, entrada rechazada y fallo de infraestructura. |
-| Referencia ausente o limitada | Mantener INCONCLUSIVE cuando no se puede decidir el predicado; no fabricar un óptimo. |
-| Coste y plazo | Contrastar medición con declaración y conservar candidato/evaluador/infraestructura en ledgers distintos. |
-| Aislamiento y verdad privada | El candidato no recibe expectativas ni referencia; el sello solo cubre integridad de la traza. |
-| Resultado nativo frente al importado | Misma conclusión solo donde el mapping conserva el mismo predicado; justificar diferencia legítima o registrar fallo. |
-
-**Ejemplo para retomar:** escoger el caso S5 ya documentado en §5.2, conservando la evidencia anterior. Una reparación vigente debe poder actuar; la misma reparación después de supersesión debe ser rechazada sin efecto; el control de carrera que antes produjo efecto indebido debe seguir visible como fallo histórico. La nueva adaptación añade sus controles y su resultado con una nueva versión. La fidelidad consiste en detectar esa diferencia, no en convertir el fallo preservado en PASS.
 
 
 ## 6. Propuestas quirúrgicas — al final, incorporación pendiente
