@@ -272,12 +272,3 @@ The [Human Intelligence 01K review note](./01K_REVIEW_CARD.md) records its capac
 ```
 
 Preservación del cuerpo vigente como prefijo exacto, y confirmación posterior por commit/readback. No repetir la adición publicada.
-
-
----
-
-## Recepción de 01J y significado de D — contraste cruzado
-
-**Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. El índice propietario recibe una consecuencia de significado en una extensión actual: no una nueva jerarquía ni reorganización. La VNext existente de01J acumula la lectura completa y mantiene los límites materiales pendientes.
-
-[01J VNext](01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../../governance/review/Signalling-full-2026-10-06/evidence.json).

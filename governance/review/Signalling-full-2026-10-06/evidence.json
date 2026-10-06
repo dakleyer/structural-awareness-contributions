@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "date": "2026-10-06",
+  "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
+  "reviewer": "Codex, sameAI assistant; no independent human review",
+  "source": {
+    "path": "research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md",
+    "blob": "e736d4bb6233e39de323ff0aa38553b74001469e",
+    "read_scope": "Complete §§1–13"
+  },
+  "semantic_owner": {
+    "path": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+    "blob": "c97353991117f63983feba24bf8344cf52e9f1e7",
+    "read_scope": "§§1.4/1.5"
+  },
+  "finding": {
+    "source": "research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md",
+    "source_blob": "e736d4bb6233e39de323ff0aa38553b74001469e",
+    "owner": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+    "owner_blob": "c97353991117f63983feba24bf8344cf52e9f1e7",
+    "claim": "01J generic bounded-compatibility paragraphs promote mapping uncertainty toD; 01J§3.1 and telemetry example plus00M1.4 require effective evaluation barrier",
+    "read_scope": "01J complete43,548chars §§1–13 inthree parts",
+    "no_runtime_failure_asserted": true
+  },
+  "proposals": [
+    68,
+    69,
+    70
+  ],
+  "counterexamples": "Known check reserve=B; unestablished scope/capability=UNKNOWN; established effective barrier=D. Constructed cases, no implementation results.",
+  "external": [
+    {
+      "url": "https://github.com/cloudevents/spec/blob/fc1f6f31f5f011a72183f1bcea20c987cb683ade/cloudevents/spec.md",
+      "author": "CloudEvents group/CNCF",
+      "version": "1.0.2; observedtagcommit2025-08-19",
+      "status": "Published specification; no EP/EHD adoption inferred",
+      "read_scope": "Overview/types/context/extension attributes; no whole protocol binding or SDK verified",
+      "text_and_code_rights": "Root LICENSE Apache2.0 observed; no text/code component imported",
+      "data_rights": "No external data selected",
+      "piece": "Event envelope/schema references; material qualification requires explicit consumer profile"
+    },
+    {
+      "url": "https://github.com/FG-TIDA/themes/issues/13#issuecomment-5985312999",
+      "author": "NellInc/NellWatson",
+      "date": "2026-10-04",
+      "status": "Proposed requirement; adoption not established",
+      "read_scope": "Public body; cited incidents not examined here",
+      "piece": "Bounded objection/owner/response-window profile",
+      "rights": "Import rights not established; attributed comparison only; no code/data selected"
+    }
+  ],
+  "pass_state": {
+    "first": "Performed, full source",
+    "second": "Expanded; material-profile gaps remain",
+    "third": "Performed, full source",
+    "fourth": "Simulated sameassistant, full source",
+    "fifth": "Specific comparison performed, no adapter/implementation claim",
+    "sixth": "Pending global"
+  },
+  "preservation": {
+    "canonical_source_unchanged": true,
+    "old67priorityEntriesExact": true,
+    "no_experiments": true,
+    "no_new_readme_levels": true
+  }
+}

@@ -214,12 +214,3 @@ La propuesta no introduce una implementación ni un formato obligatorio. El ante
 **Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** La lectura íntegra de Role/Composition matiza52/53/54: Role§13.1 ya usa what actually does dentro del objeto estático; Composition§10.1 y conformance conserva qualifiers. Son aclaraciones de lectura aislada, no contradicciones operativas demostradas. Valoración vigente: impacto Medio/riesgo Medio/esfuerzo Medio/prioridad Siguiente, conservando viejo/nuevo y rating anterior.
 
 [Role VNext](../../../standards/minimum-sufficient-control/02_ROLE_VNext.md#pasadas-propias-de-role--lectura-completa-y-contraste-del-rol-estático) · [Composition VNext](../../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md#pasadas-propias-de-composition--leer-el-mapa-completo-y-sus-límites) · [Fuentes/cobertura](../../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). La conversación anterior permanece visible; relectura del mismo agente no es independencia externa.
-
-
----
-
-## Recepción de 01J y significado de D — contraste cruzado
-
-**Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. La recepción RA debe conservar clasificación y límites del productor. Un mapping aún no caracterizado no debe llegar como D demostrado por transporte o traducción; preservarlo UNKNOWN no crea nueva evidencia, permiso o estado RA.
-
-[01J VNext](01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../../governance/review/Signalling-full-2026-10-06/evidence.json).

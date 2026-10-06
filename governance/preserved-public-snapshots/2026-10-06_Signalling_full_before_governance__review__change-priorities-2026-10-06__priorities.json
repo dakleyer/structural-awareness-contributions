@@ -1,7 +1,7 @@
 {
-  "version": "1.4",
+  "version": "1.3",
   "date": "2026-10-06",
-  "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
+  "source_commit": "26eb9ee1e5cccb348abe26a71f37d18a947af6bb",
   "scope": {
     "expedientsReviewed": 31,
     "pairedProposals": 42,
@@ -2432,105 +2432,6 @@
       "authorized_to_apply": false,
       "positive_impact_proven": false,
       "assessment_basis": "Lectura de actualización concurrente; contraejemplo contable propio, sin medidas o ejecución."
-    },
-    {
-      "vnext": "research/ecosystem-awareness/baseline/01J_VNext.md",
-      "source": "research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md",
-      "source_sha": "e736d4bb6233e39de323ff0aa38553b74001469e",
-      "review_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
-      "state": "Pendiente de decisión",
-      "impact": "Alto",
-      "risk": "Alto",
-      "effort": "Medio",
-      "priority": "Primera",
-      "wave": "2 — Coherencia entre RA, EA y MSCA",
-      "benefit": "Conservar el significado process-relative deD y no tratar UNKNOWN o trabajo evaluable no hecho como barrera estructural.",
-      "riskReason": "Afecta clasificación de ReceivedSignals, EHD/Cart/RA y perfiles de compatibilidad; una precisión aislada deja reglas contradictorias.",
-      "costReason": "Conciliar los tres pasajes, ejemplos y consumidores/material test mappings; no basta renombrar un field ni recalcular resultados.",
-      "dependencies": [
-        "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
-        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
-        "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
-        "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md"
-      ],
-      "gate": "Tanda68/69/70, semántica y consumidores conciliados; decisión concreta deIván antes deincorporar. No añade primitivo/protocolo o campo universal.",
-      "preparation": "Conciliar significado y perfiles",
-      "decision_ready": false,
-      "authorized_to_apply": false,
-      "positive_impact_proven": false,
-      "assessment_basis": "Lectura completa01J; contraste literal con00M1.4/1.5 y su propio ejemplo. No runtime/certificación.",
-      "id": 68,
-      "title": "Condicionar el residualD a una barrera efectiva",
-      "before": "When the receiver translates, adapts or infers meaning across a different protocol, schema, capability level or legacy interface, the receiver MUST preserve the uncertainty introduced by that mapping. For the receiver's local epistemic position of the contact, this creates a **compatibility residual in D**: a structural UNKNOWN associated with what may have been lost, collapsed, omitted or differently encoded by the compatibility mapping.",
-      "after": "When the receiver translates, adapts or infers meaning across a different protocol, schema, capability level or legacy interface, it MUST preserve any uncertainty or semantic loss introduced by that mapping. Its A/B/C/D role is established relative to the receiving process, question, scope, capability and response horizon. A characterized verification reserve remains B, a grounded but uncharacterized exploration avenue may be C, and a potentially material effect belongs to D only when an effective evaluation barrier is established. If the scope or capability boundary is not yet established, retain UNKNOWN / NOT ESTABLISHED rather than assigning D by default.",
-      "before_matches": 1,
-      "after_matches": 0
-    },
-    {
-      "vnext": "research/ecosystem-awareness/baseline/01J_VNext.md",
-      "source": "research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md",
-      "source_sha": "e736d4bb6233e39de323ff0aa38553b74001469e",
-      "review_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
-      "state": "Pendiente de decisión",
-      "impact": "Alto",
-      "risk": "Alto",
-      "effort": "Medio",
-      "priority": "Primera",
-      "wave": "2 — Coherencia entre RA, EA y MSCA",
-      "benefit": "Conservar el significado process-relative deD y no tratar UNKNOWN o trabajo evaluable no hecho como barrera estructural.",
-      "riskReason": "Afecta clasificación de ReceivedSignals, EHD/Cart/RA y perfiles de compatibilidad; una precisión aislada deja reglas contradictorias.",
-      "costReason": "Conciliar los tres pasajes, ejemplos y consumidores/material test mappings; no basta renombrar un field ni recalcular resultados.",
-      "dependencies": [
-        "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
-        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
-        "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
-        "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md"
-      ],
-      "gate": "Tanda68/69/70, semántica y consumidores conciliados; decisión concreta deIván antes deincorporar. No añade primitivo/protocolo o campo universal.",
-      "preparation": "Conciliar significado y perfiles",
-      "decision_ready": false,
-      "authorized_to_apply": false,
-      "positive_impact_proven": false,
-      "assessment_basis": "Lectura completa01J; contraste literal con00M1.4/1.5 y su propio ejemplo. No runtime/certificación.",
-      "id": 69,
-      "title": "Conservar UNKNOWN en perfiles sintetizados todavía no calificados",
-      "before": "A profile synthesized by an SLM or other reasoning component SHOULD default to bounded compatibility until independently validated. Where semantic ambiguity is material, the mapping residual remains in D and the signal may be restricted to observation, corroboration or requalification rather than direct control use.",
-      "after": "A profile synthesized by an SLM or other reasoning component SHOULD default to bounded compatibility until independently validated. Where semantic ambiguity is material, preserve the unresolved mapping condition and restrict use to what the receiving decision can justify. Assign a compatibility residual to D only when the effective evaluation barrier is established; otherwise retain its qualified process-relative role or UNKNOWN. Observation, corroboration or requalification may remain appropriate without assuming that an unverified mapping is intrinsically D.",
-      "before_matches": 1,
-      "after_matches": 0
-    },
-    {
-      "vnext": "research/ecosystem-awareness/baseline/01J_VNext.md",
-      "source": "research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md",
-      "source_sha": "e736d4bb6233e39de323ff0aa38553b74001469e",
-      "review_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
-      "state": "Pendiente de decisión",
-      "impact": "Alto",
-      "risk": "Alto",
-      "effort": "Medio",
-      "priority": "Primera",
-      "wave": "2 — Coherencia entre RA, EA y MSCA",
-      "benefit": "Conservar el significado process-relative deD y no tratar UNKNOWN o trabajo evaluable no hecho como barrera estructural.",
-      "riskReason": "Afecta clasificación de ReceivedSignals, EHD/Cart/RA y perfiles de compatibilidad; una precisión aislada deja reglas contradictorias.",
-      "costReason": "Conciliar los tres pasajes, ejemplos y consumidores/material test mappings; no basta renombrar un field ni recalcular resultados.",
-      "dependencies": [
-        "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
-        "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md",
-        "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
-        "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md"
-      ],
-      "gate": "Tanda68/69/70, semántica y consumidores conciliados; decisión concreta deIván antes deincorporar. No añade primitivo/protocolo o campo universal.",
-      "preparation": "Conciliar significado y perfiles",
-      "decision_ready": false,
-      "authorized_to_apply": false,
-      "positive_impact_proven": false,
-      "assessment_basis": "Lectura completa01J; contraste literal con00M1.4/1.5 y su propio ejemplo. No runtime/certificación.",
-      "id": 70,
-      "title": "Hacer condicionalD_compatibility en el esquema de recepción",
-      "before": "Conceptually:\n\nsender signal\n-> handshake / frame coupling\n-> bounded compatibility mapping\n-> receiver-qualified signal\n   + D_compatibility = UNKNOWN\n-> receiver-local contact position",
-      "after": "Conceptually:\n\nsender signal\n-> handshake / frame coupling\n-> bounded compatibility mapping\n-> receiver-qualified signal\n   + explicit mapping limits / uncertainty\n   + D_compatibility only where an effective evaluation barrier is established\n-> receiver-local contact position",
-      "before_matches": 1,
-      "after_matches": 0
     }
   ],
   "audit_coverage": [
@@ -2915,63 +2816,29 @@
         ]
       },
       "publication_base_commit": "285a0ffe66beff637eb69175cdcab0d54bb1c521"
-    },
-    {
-      "version": "1.3",
-      "source_commit": "26eb9ee1e5cccb348abe26a71f37d18a947af6bb",
-      "current_scope": {
-        "active_expedients": 45,
-        "paired_proposals": 58,
-        "pending_paired": 50,
-        "already_published": 7,
-        "withdrawn": 1,
-        "planning_without_literal_pair": 9,
-        "added_here": [
-          57,
-          58,
-          59,
-          60,
-          61,
-          62,
-          63,
-          64,
-          65,
-          66,
-          67
-        ],
-        "review": "Complete Architecture/ACC/Operation/01I/Gradient/01K text readings and partial01J5.2. Second-source gaps and global sixth remain.",
-        "reassessed_here": [
-          52,
-          53,
-          54
-        ],
-        "tracked_in_this_program": 39,
-        "other_vnext_not_assessed_here": 6,
-        "additional_paths_not_assessed_here": [
-          "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
-          "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md",
-          "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md",
-          "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md",
-          "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md",
-          "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md"
-        ]
-      },
-      "publication_base_commit": "8757ba614c94f962206912d4896c119a18a924fa"
     }
   ],
   "current_scope": {
     "active_expedients": 45,
-    "paired_proposals": 61,
-    "pending_paired": 53,
+    "paired_proposals": 58,
+    "pending_paired": 50,
     "already_published": 7,
     "withdrawn": 1,
     "planning_without_literal_pair": 9,
     "added_here": [
-      68,
-      69,
-      70
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
     ],
-    "review": "01J full text §§1–13 read; 00M owner and telemetry example contrasted; fifth specific performed; evidence/realizations and global sixth remain",
+    "review": "Complete Architecture/ACC/Operation/01I/Gradient/01K text readings and partial01J5.2. Second-source gaps and global sixth remain.",
     "reassessed_here": [
       52,
       53,
@@ -3120,18 +2987,6 @@
       "complete_source_read": false,
       "first_four_pass_closure": false,
       "fifth": "Pending"
-    },
-    {
-      "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
-      "path": "research/ecosystem-awareness/baseline/01J_VNext.md",
-      "source_blob": "e736d4bb6233e39de323ff0aa38553b74001469e",
-      "read_scope": "Full §§1–13",
-      "fondo_logica": "Text complete examined; D inconsistency found",
-      "edicion_formato": "Text complete examined",
-      "lectura_humana": "Simulated by same AI assistant",
-      "evidencia_relaciones": "00M1.4/1.5 and own example; full EHD/01H/profiles remain",
-      "investigacion_externa": "Specific CloudEvents1.0.2 and FGTheme13 comparison performed",
-      "sexta": "Pending global"
     }
   ],
   "rating_updates": [
@@ -3194,7 +3049,7 @@
       ]
     }
   ],
-  "publication_base_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
+  "publication_base_commit": "8757ba614c94f962206912d4896c119a18a924fa",
   "publication_rebases": [
     {
       "from": "6881dfe920a30ef6d00334f15059ab1dd931c8d4",

@@ -268,12 +268,3 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Conservar cita original/historia y la fecha de consulta; ficha o successor.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](00M_VNext.md#facilitar-el-acceso-a-r4); el viejo tiene una coincidencia en [la fuente actual](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
-
-## Recepción de 01J y significado de D — contraste cruzado
-
-**Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. La definición propietaria no se propone cambiar: §1.4/1.5 ya distingue barrera efectiva, reserva evaluable, exploración y UNKNOWN sin clasificación. El conflicto está en el consumidor genérico 01J, mientras su ejemplo ya conserva el significado.
-
-[01J VNext](01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../../governance/review/Signalling-full-2026-10-06/evidence.json).

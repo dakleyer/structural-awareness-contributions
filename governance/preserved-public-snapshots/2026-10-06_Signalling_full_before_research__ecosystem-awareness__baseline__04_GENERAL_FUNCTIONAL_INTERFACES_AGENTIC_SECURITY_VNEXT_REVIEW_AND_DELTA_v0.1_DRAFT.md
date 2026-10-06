@@ -567,12 +567,3 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. H06, 176 filas y ejemplos de acceso/freshness/binding pendientes; successor y controles por perfil, sin promover baseline.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if04-r1-delta-002--h06-candidato-de-lectura-del-elemento4-para-un-successor); el viejo tiene una coincidencia en [la fuente actual](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md), blob `2b563c102f62d029c6037b47b047e4ac21755e5b`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
-
-## Recepción de 01J y significado de D — contraste cruzado
-
-**Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. La correspondencia signalling/EHD debe conservar tanto un residual efectivo como un campo no establecido, sin convertirlos automáticamente en lo mismo. No se propone nuevo EHD/O#/IF-S ni se certifican todos los adapters por esta lectura.
-
-[01J VNext](01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../../governance/review/Signalling-full-2026-10-06/evidence.json).

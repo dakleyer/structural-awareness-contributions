@@ -901,12 +901,3 @@ El índice de prioridades conserva los 56 registros anteriores y añade cinco pa
 **Comprobación de preservación:** el cambio concurrente deEP insertó01K dentro del cuerpo; la versión anterior no es un prefijo byteexacto de la actual. En esta revisión no se escribió eseREADME ni se revierte el nuevo material. La autorización particular de ese otro trabajo no fue examinada aquí; la política append-only de Iván sigue vigente y la excepción necesita quedar explícita antes de validar ese cambio comoconforme. Se conserva la fuente actual y se registra la pregunta; no bloquea otras lecturas independientes.
 
 Los pares59/60 anteriores siguen visibles y vuelven amostrarse contra el nuevo blob de Operation; lospasajes son literalmente iguales, pero se examina el nuevo contexto de escalada. Eltrabajo pendiente siguevisible: perfiles/materiales,quinta deRole/Composition/Signalling y demás fuentes principales, ysexta global. Ningún número de fichas/pasadas parciales certifica elcierre.
-
-
----
-
-## Recepción de 01J y significado de D — contraste cruzado
-
-**Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. La lectura completa de01J añade un problema de fondo concreto: tres reglas genéricas fuerzan D por incertidumbre de traducción, mientras la definición y el ejemplo requieren barrera efectiva. No se corrige la teoría central para acomodar un consumidor; se prepara una tanda compatible68/69/70.
-
-[01J VNext](../../research/ecosystem-awareness/baseline/01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../governance/review/Signalling-full-2026-10-06/evidence.json).
