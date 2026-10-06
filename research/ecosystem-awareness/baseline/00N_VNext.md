@@ -385,3 +385,15 @@ La valoración actual distingue una mejora documental de una modificación conce
 F2/APQ,F4,F5 y F9leídos completos sostienen la utilidad condicionada:hay que comparar carga/tiempo yconservar la diferencia entre vía,mensaje ylinaje. ArticleIV plantea señal calificada sincooperación, no ventaja observada.73de Foundation conectaS5/S14/T4 conno-perder respuesta legítima oinventar certeza en scope fijo; esta relación no sustituye las fuentes/campañas pendientes de 00N.
 
 Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
+
+---
+
+## Foundation completa — qué comparación tendría sentido
+
+**6 octubre 2026, Codex, mismo asistente; `409bfa9eff2b3e24e7350021db9e587861583de8`.** [Foundation VNext](01_FOUNDATIONAL_VNext.md) registra lectura completa del integrado y contraste externo propio; amplía el comentario focal anterior.
+
+Las hipótesis H1–H6 del integrado siguen siendo preguntas, con comparación competente y recursos/alcance igualados. Distinguir ahora dos beneficios evita un contraste mal planteado: una representación puede hacer más aprovechable información retenida y, a la vez, perder cualificadores materiales. Mejorar una de esas dimensiones no demuestra mejorar la otra. Para 00N importa declarar la pregunta del receptor, su capacidad y el coste de preservar/verificar los límites.
+
+PropUQ-MAS aporta un antecedente de propagación, sin validar el contrato completo. La lectura nueva exige comprobar correlaciones y realización antes de reutilizar resultados. El README de código observado distingue replay de scores del paper; no se replica ni se importa. Autor/versiones/derechos y límites específicos quedan en Foundation, con conclusiones publicadas aquí.
+
+Esta evidencia no adopta 73, no demuestra sinergia universal ni cierra campañas/matrices. Las fuentes nuevas de estudios DDS observadas concurrentemente siguen con evidencia propia, pendiente de examen material dentro de esta revisión. Originales intactos.

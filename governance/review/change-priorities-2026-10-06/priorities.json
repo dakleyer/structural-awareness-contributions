@@ -1,5 +1,5 @@
 {
-  "version": "1.7",
+  "version": "1.8",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -3061,12 +3061,58 @@
         ]
       },
       "publication_base_commit": "8757ba614c94f962206912d4896c119a18a924fa"
+    },
+    {
+      "version": "1.7",
+      "source_commit": "f7d8ed0846b301617197ade855d5237cbd2280f9",
+      "current_scope": {
+        "date": "2026-10-06",
+        "source_commit": "f7d8ed0846b301617197ade855d5237cbd2280f9",
+        "active_expedients": 52,
+        "paired_proposals": 64,
+        "pending_paired": 49,
+        "already_published": 7,
+        "withdrawn": 1,
+        "superseded": 2,
+        "resolved_by_other_source_edition": 2,
+        "reformulated": 3,
+        "planning_without_literal_pair": 9,
+        "other_preserved_pairs_assessed": 32,
+        "documents_without_own_literal_pair": 19,
+        "registered_rows": 73,
+        "documentary_review_candidates": 12,
+        "review": "03 completo y relación focalFoundation; primera/tercera/cuarta textual03; evidencia material/quinta ampliada abiertas; Foundation completa yquinta propia pendientes. No cierre de cinco/sexta.",
+        "added_here": [
+          73
+        ],
+        "reformulated_here": [
+          3,
+          4,
+          5
+        ],
+        "reassessed_here": [
+          8,
+          17,
+          22,
+          23,
+          30,
+          32,
+          38,
+          57,
+          58,
+          59,
+          68,
+          69,
+          70
+        ]
+      },
+      "reason": "Estado anterior a la lectura completa de Foundation; conservado."
     }
   ],
   "current_scope": {
     "date": "2026-10-06",
-    "source_commit": "f7d8ed0846b301617197ade855d5237cbd2280f9",
-    "active_expedients": 52,
+    "source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+    "active_expedients": 53,
     "paired_proposals": 64,
     "pending_paired": 49,
     "already_published": 7,
@@ -3079,30 +3125,18 @@
     "documents_without_own_literal_pair": 19,
     "registered_rows": 73,
     "documentary_review_candidates": 12,
-    "review": "03 completo y relación focalFoundation; primera/tercera/cuarta textual03; evidencia material/quinta ampliada abiertas; Foundation completa yquinta propia pendientes. No cierre de cinco/sexta.",
-    "added_here": [
-      73
-    ],
+    "review": "Foundation integrada completa135021;pasadas1/3/4textuales ycontraste5propio;segunda material,quinta ampliada ysexta global abiertas. Nueva lectura sustantiva,no nuevos pares.",
+    "added_here": [],
     "reformulated_here": [
       3,
       4,
       5
     ],
     "reassessed_here": [
-      8,
-      17,
-      22,
-      23,
-      30,
-      32,
-      38,
-      57,
-      58,
-      59,
-      68,
-      69,
-      70
-    ]
+      73
+    ],
+    "observed_concurrent_workspace": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md",
+    "scope_count_limit": "53 nombres de expediente activos observados,incluido benchmarkv0.3;no prueba de cobertura científica/unicidad lógica de material nuevo."
   },
   "dependency_epochs": [
     {
@@ -3387,6 +3421,47 @@
       "global_sixth_launched": false,
       "original_sources_unchanged": true,
       "other_concurrent_owner": "DDSsourcebook VNext publicada por trabajo concurrente se preserva; no se cuenta examinada aquí"
+    },
+    {
+      "date": "2026-10-06",
+      "source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+      "reason": "Foundation integrada completa ycontraste específico externo; sustancia publicada enVNext existentes",
+      "source_blob": "2cee8af601c89a8785bba9f48974061f0a5dc102",
+      "read_chars": 135021,
+      "textual_passes_completed": [
+        1,
+        3,
+        4
+      ],
+      "second_material_open": true,
+      "fifth_specific_performed": true,
+      "fifth_expansion_open": true,
+      "global_five_passes_closed": false,
+      "global_sixth_launched": false,
+      "canonical_incorporation": false,
+      "new_workspaces": [],
+      "new_candidates": [],
+      "reassessed_candidates": [
+        73
+      ],
+      "cross_review_paths": [
+        "research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md",
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/00N_VNext.md",
+        "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+        "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+        "research/regime-awareness/README_VNext.md",
+        "architectural-contributions/ecosystem-positioning/README_VNext.md"
+      ],
+      "material_next": [
+        "02A/02B derivaciones",
+        "fidelidadv0.4/01A→v0.5",
+        "matrices/perfiles/realizaciones",
+        "Rice/Cover fuentes completas",
+        "DDScompletion concurrente:material no examinado"
+      ],
+      "publication_revalidation_commit": "f0ebdd1031eb740b181c6a405fba6beb7f29ff6d",
+      "dds_receptor_revalidation": "Pasajesnuevos completos y contexto;perfiles/denominadorespendientes"
     }
   ],
   "rating_updates": [
@@ -3447,9 +3522,44 @@
           "rationale": "Role §13.1 usa exactamente el mismo what actually does y §14 mantiene objeto estático; la descripción 01C hereda una expresión de su fuente. Se matiza la urgencia inicial sin borrar la observación."
         }
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+      "reason": "Contexto completo deFoundation;sin borrar valoración focal.",
+      "updates": [
+        {
+          "id": 73,
+          "date": "2026-10-06",
+          "review_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+          "impact": "Alto",
+          "risk": "Alto",
+          "effort": "Alto",
+          "priority": "Primera",
+          "wave": "3 — Contratos y protocolo de evaluación",
+          "preparation": "Foundation v0.5 leída completa; derivaciones/conservación y perfiles pendientes; no listo para incorporar",
+          "costReason": "Lectura integral de v0.5 realizada: 135.021 caracteres. Falta cotejar conservación v0.4/01A, derivaciones 02A/02B y consumidores 03/Requirements/DDS/perfiles, incluidos M disponible, causalidad y cierre legítimo. Validación y mantenimiento de esfuerzo Alto; no basta redactar.",
+          "gate": "Lectura completa del integrado y viejo literal actual comprobados. Conciliar derivaciones y perfiles; conservar Type 0, respuestas no resueltas legítimas, M y causalidad de DDS, y lectura alternativa metafórica. Revalidar DDS actual a44bf26ff0bab1792aef1bc7d115850532e592cb §§5.3/7.1A/7.4 en cada perfil; M en un mapa privado no sustituye fundamento causal. Decisión concreta de Iván pendiente; originales y resultados intactos.",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Pendiente de decisión",
+          "quality": "Propuesta conceptual acoplada; no lista para incorporación",
+          "rationale": "§§2/3/17/18 completos refuerzan fallos en scopefijo,pero elcontexto protege causalidad/Type0 ygestión legítima. Aclaración humana potencial,no refutación formal oruntime. Mismo par73 histórico,no nuevo candidato.",
+          "acceptance": "Compatibilidad de casos fijos y expandidos con consumidores; preservar fundamentoType0/Malcanzable, autoridad y versiones. No aplicar por publicar auditoría.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+            "source_sha": "2cee8af601c89a8785bba9f48974061f0a5dc102",
+            "before_matches": 1,
+            "after_matches": 0,
+            "line": 33,
+            "scope": "Fuente integrada actual completa135021 caracteres; no reconocimiento de quotes como incorporación",
+            "note": "Mismo viejo/propuesto publicado, originales intactos."
+          }
+        }
+      ]
     }
   ],
-  "publication_base_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
+  "publication_base_commit": "f0ebdd1031eb740b181c6a405fba6beb7f29ff6d",
   "publication_rebases": [
     {
       "from": "6881dfe920a30ef6d00334f15059ab1dd931c8d4",
@@ -3461,6 +3571,11 @@
       "from": "26eb9ee1e5cccb348abe26a71f37d18a947af6bb",
       "to": "8757ba614c94f962206912d4896c119a18a924fa",
       "reason": "Incoming01K extension; newOperation4.1 read; source and old pairs preserved"
+    },
+    {
+      "from": "409bfa9eff2b3e24e7350021db9e587861583de8",
+      "to": "f0ebdd1031eb740b181c6a405fba6beb7f29ff6d",
+      "reason": "DDS fuente actual cambió durante preparación;targets iguales,casos nuevos leídos y añadidos enFoundation/DDS/EP;sin reescribir pares."
     }
   ],
   "source_revalidations": [
@@ -3499,6 +3614,16 @@
       "before_matches": 1,
       "old_pair_preserved": true,
       "context": "Operation4.1 and01K read; latest baseline index preserved; no adoption"
+    },
+    {
+      "date": "2026-10-06",
+      "source_commit": "f0ebdd1031eb740b181c6a405fba6beb7f29ff6d",
+      "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+      "previous_sha": "c0e14e8401e1c9783dbfcb4863816d7ef0c0a9b1",
+      "current_sha": "a44bf26ff0bab1792aef1bc7d115850532e592cb",
+      "read_scope": "§§3.1/5.3/7.1A/7.4 nuevos completos ycontexto §§4–10",
+      "consequence": "Mantener admisión exante deM,fronteraoracle privado/alcanzable ycausalidad;Pregunta deperfilpendiente,no fórmula como diagnóstico universal",
+      "canonical_source_changed_by_this_review": false
     }
   ],
   "navigation_readback_scope": [
@@ -3511,7 +3636,7 @@
       "old_pair_preserved": true
     }
   ],
-  "review_source_commit": "f7d8ed0846b301617197ade855d5237cbd2280f9",
+  "review_source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -7344,6 +7469,42 @@
           "from": "a2cee52fed3db130f2acfe3ece7d2106e3c66362",
           "to": "06931f0b19b8df777e251091eccf5e3ee4ca9fbb",
           "changes": "Contrato/fichaHC-HID modificados y unaVNext existente añadida por trabajo concurrente; su plan completo examinado e incluido. PrimerCAS no publicado; nuevoparent preservado."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+      "reviewer": "Codex mismo asistente; revisión del candidato73 después de lectura integral",
+      "scope": "Sólo73 y su contexto nuevo; no repetir ranking de todo elcorpus",
+      "proposal_assessments": [
+        {
+          "id": 73,
+          "date": "2026-10-06",
+          "review_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+          "impact": "Alto",
+          "risk": "Alto",
+          "effort": "Alto",
+          "priority": "Primera",
+          "wave": "3 — Contratos y protocolo de evaluación",
+          "preparation": "Foundation v0.5 leída completa; derivaciones/conservación y perfiles pendientes; no listo para incorporar",
+          "costReason": "Lectura integral de v0.5 realizada: 135.021 caracteres. Falta cotejar conservación v0.4/01A, derivaciones 02A/02B y consumidores 03/Requirements/DDS/perfiles, incluidos M disponible, causalidad y cierre legítimo. Validación y mantenimiento de esfuerzo Alto; no basta redactar.",
+          "gate": "Lectura completa del integrado y viejo literal actual comprobados. Conciliar derivaciones y perfiles; conservar Type 0, respuestas no resueltas legítimas, M y causalidad de DDS, y lectura alternativa metafórica. Revalidar DDS actual a44bf26ff0bab1792aef1bc7d115850532e592cb §§5.3/7.1A/7.4 en cada perfil; M en un mapa privado no sustituye fundamento causal. Decisión concreta de Iván pendiente; originales y resultados intactos.",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "state": "Pendiente de decisión",
+          "quality": "Propuesta conceptual acoplada; no lista para incorporación",
+          "rationale": "§§2/3/17/18 completos refuerzan fallos en scopefijo,pero elcontexto protege causalidad/Type0 ygestión legítima. Aclaración humana potencial,no refutación formal oruntime. Mismo par73 histórico,no nuevo candidato.",
+          "acceptance": "Compatibilidad de casos fijos y expandidos con consumidores; preservar fundamentoType0/Malcanzable, autoridad y versiones. No aplicar por publicar auditoría.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md",
+            "source_sha": "2cee8af601c89a8785bba9f48974061f0a5dc102",
+            "before_matches": 1,
+            "after_matches": 0,
+            "line": 33,
+            "scope": "Fuente integrada actual completa135021 caracteres; no reconocimiento de quotes como incorporación",
+            "note": "Mismo viejo/propuesto publicado, originales intactos."
+          }
         }
       ]
     }

@@ -342,3 +342,15 @@ La explicación de origen y los límites están en [01H VNext](01H_VNext.md) y [
 Las notas actuales de 03remiten a 00M alinterpretar rótulos históricos dentro/fuera de ventana; no se renombra elmapaI/O/Type. F2/APQ conserva vía suficiente distinta de mensaje válido; F5 noinfieredeindependencia por diversidad detransportes. La nueva Foundation 1.1AconservaA probabilístico legítimo yrework separado,pero debe leer los casos Type 1/2 concausalidad y scope:73propone no exigir ampliación. NingúnA/B/C/D oproofse adopta de nuevoporesta lectura.
 
 Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
+
+---
+
+## Foundation integrada completa — alcance del proceso y del observador
+
+**6 octubre 2026, Codex, mismo asistente; `409bfa9eff2b3e24e7350021db9e587861583de8`.** Foundation v0.5 completa, 135.021 caracteres, cotejada con 00M §1 actual. [Origen y límites](01_FOUNDATIONAL_VNext.md).
+
+Foundation §16 distingue campo representado de ventana activa, y su diccionario conserva sujeto/proposición/dominio. Eso concuerda con fijar productor, función, pregunta, scope, capacidad y tiempo en 00M: el resultado de un monitor puede ser A de ese proceso sin tornar evaluable D del receptor. No se reconstruye un reparto porcentual ni se actualizan pruebas antiguas con nuevas definiciones.
+
+La quinta de Foundation añade un contraste útil para una lectura abreviada de §1.7: procesar información ya disponible puede mejorar su aprovechamiento por un observador limitado; no recuperar información descartada. Utilidad del resultado y preservación de sus límites se examinan por separado. No transforma C en reserva B calculada ni un indicator en capacidad efectiva; no añade una métrica universal.
+
+73 sigue siendo propuesta de exposición/taxonomía en su fuente, no una modificación de A/B/C/D. Se cumple la lectura integral del sucesor pero faltan derivaciones y consumidores; no se cierra una prueba o H06 por esta relación. Ningún texto original se modifica.

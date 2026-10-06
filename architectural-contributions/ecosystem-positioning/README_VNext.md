@@ -1188,3 +1188,19 @@ La lectura confirma tresdistinciones útiles:una buena víadeadquisición no val
 ArticleIVy sus precedentes biológicos ayudan a formularhipótesis, no avalidar seguridad digital. PROV-DM ofrece linaje;ByzantineGenerals tiene otros supuestos/objetivos;FG-TIDA13 sigue siendo propuesta/discusión. Derechos/versiones/pasajes realmenteleídos yreutilización condicionada figuran en 03VNext. No se importócódigo/datos,noexperimentó ni atribuyó adopción.
 
 **Continuidad:** completar Foundation integrada y su sfuentes materialmenteusadas,matrices deinterfaces/UC/perfiles y fuente urbana pendiente. La segunda material yquinta ampliada siguen abiertas; no se lanza lasexta global ni se marcaelcorpus concluido. Primeraonda 26/31/32 y 72 siguen sinincorporar;73es preparación deconciliación de riesgoalto,otra decisióndistinta.
+
+---
+
+## Continuación sustantiva — Foundation leída completa
+
+**6 octubre 2026, Codex, mismo asistente; snapshot `409bfa9eff2b3e24e7350021db9e587861583de8`.** Se completó la lectura de los 135.021 caracteres del integrado Foundation, incluidos §§1–18, hipótesis, diccionario y procedencia. [Su única VNext](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md) conserva la auditoría focal anterior y añade las lecturas distintas, contraste externo propio, casos humanos y juicio actualizado del plan.
+
+La explicación común queda más precisa: gestionar incertidumbre y conservar la vigencia del marco son problemas relacionados pero distintos; una alerta, un HOLD o un resultado adverso no diagnostican por sí solos Type 0/1/2 ni crean permiso. Procesar información retenida puede ayudar a un receptor limitado sin recuperar lo descartado. La utilidad y la preservación requieren comparaciones diferentes.
+
+**73 se mantiene pendiente, con impacto/riesgo/esfuerzo Alto.** Leer todo el integrado refuerza los casos de scope fijo, pero también sus reservas de causalidad y cierre legítimo. La lectura integral deja de ser un gate pendiente; derivaciones y conciliación de perfiles siguen pendientes. Viejo/propuesto completos se conservan, sin nueva propuesta ni incorporación. Primera onda 26/31/32 sigue sin aplicar.
+
+Los comentarios materiales se publican también en 03, 00M, 00N, Requirements, DDS y README RA VNext. No se abre una VNext, ficha, índice, helper o README. El corte actual contiene una VNext del paquete DDS de finalización añadida concurrentemente: se identifica como lectura material pendiente de esta revisión, no como cierre científico por existir.
+
+**Continuidad concreta:** derivaciones 02A/02B, matrices/perfiles y fidelidad de v0.4/01A respecto al sucesor; fuentes primarias formales completas aún inaccesibles. Quinta ampliada y segunda material siguen abiertas. La sexta global no se lanza y no se cierra el corpus por este avance. Todos los originales permanecen en sólo lectura.
+
+**Revalidación antes de publicar:** el head avanzó a `f0ebdd1031eb740b181c6a405fba6beb7f29ff6d`; cambió sólo la fuente DDS. Se leyeron sus nuevas §§3.1/5.3/7.1A/7.4: M admitido previamente, frontera de información del evaluador, mínimo privado frente a accesible y exclusión de P del numerador Type 1. Se preserva esa edición y se deja en Foundation/DDS la pregunta sobre el mecanismo y evidencia de cada diagnóstico. No es conciliación global ni auditoría completa de los estudios nuevos.

@@ -60,3 +60,15 @@ Juicio: hay precedentes concretos para linaje, consistencia yobservación indire
 **Codex, auto-revisión:** no encontré una razón para modificar el cuerpo funcional en esta entrega. La lectura aporta soporte ylímites para 01H/01B yabre 73 en su fuente Foundation. Preparar controles deforma independiente no permite afirmar independencia del mismo revisor.
 
 Primera/tercera/cuarta textuales realizadas; segunda yquinta ampliada abiertas; sexta global pendiente. Originales y partes en lectura.19/57–59/68–70 no se incorporan por esta revisión. Seguir Foundation completa ylas matrices/validación pendientes.
+
+---
+
+## Foundation completa — compresión, utilidad y diagnóstico
+
+**6 octubre 2026, Codex, mismo asistente; snapshot `409bfa9eff2b3e24e7350021db9e587861583de8`.** Se leyó todo el integrado Foundation (135.021 caracteres); esta relación nueva amplía el contraste focal anterior. [Auditoría íntegra y límites](01_FOUNDATIONAL_VNext.md).
+
+Foundation §6.3 limita el argumento a información descartada; §§17.1/17.1.1 mantienen Type 0 fundamentado, causalidad y respuestas legítimas. F2/F4 no deben confundir vía suficiente con contenido cierto; F5 debe conservar dependencia; F6/F7 no diagnostican por rework o outcome aislado. El candidato 73 mantiene el viejo/propuesto ya publicados, sin requerir crecimiento del scope para los casos fijos; aún falta conciliar los perfiles.
+
+El contraste específico con información utilizable distingue ayuda del procesamiento para un receptor limitado de recuperación de estado perdido. Un resumen estructurado puede facilitar una decisión sin reponer una dependencia omitida. No se pide eliminar F2, exportar todo S_A o cambiar la fuente funcional. La auditoría de origen documenta autor, versión, lectura y derechos; no importación o eficacia nueva.
+
+Para comprobar H3/H4/H6 hace falta preservar cualificadores y medir utilidad/coste con un comparador competente; no basta que la señal parezca más limpia. Quinta ampliada y matrices/realizaciones siguen abiertas, sexta global pendiente. Canon y conversaciones anteriores conservados.

@@ -738,3 +738,15 @@ La valoración actual distingue una mejora documental de una modificación conce
 Nueva relaciónS5/S14/T4 con 03/Foundation: cierre legítimo acotado, residual explícito yventana/capacidad deben conservarse antes de clasificar fallos.03F6/F7ya distingue Type 0 de Type 1/2 ygestión de postura.73requiere cotejar los casos deespera/falsa aprobación en scope fijo; no añadeS15/T5/H7 ni obtiene resultados de una matriz de correspondencia. La fuente completa Foundation/perfiles aún falta;16/43–45 mantienen sus gates.
 
 Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
+
+---
+
+## Foundation completa frente a S5, S14 y T4
+
+**6 octubre 2026, Codex, mismo asistente; `409bfa9eff2b3e24e7350021db9e587861583de8`.** Foundation integrada completa (135.021 caracteres) y pasajes actuales S5/S14/T4 de la fuente congelada, cotejados. [Auditoría en la fuente del argumento](01_FOUNDATIONAL_VNext.md).
+
+S5 conserva hechos incompletos sin promoverlos a permiso y evita UNKNOWN como veto universal. S14 declara evidencia y regla para cada transición; T4 pide una postura aún útil con capacidad/tiempo finitos. Foundation §§3.4–3.5/17.1.1/18 mantiene los casos de espera sin cierre y falsa certeza dentro de un scope fijo. 73 puede aclarar esa exposición, pero no cambia obligaciones S/T ni diagnostica Type 1 por coste aislado.
+
+La lectura completa también exige preservar §17.4: una salida observable no establece por sí sola invalidación de la decisión de misión. Ninguna señal de régimen crea autoridad. Para un ensayo, fijar la proposición, M/escape legítimo y respuesta todavía disponible; para la teoría, mantener el fundamento Type 0 y las respuestas no resueltas correctas.
+
+No se preparan S15/T5 ni otro KPI. 02A/02B, matrices y perfiles siguen por leer; 16/43–45 conservan sus gates. El contraste externo en Foundation delimita preservación frente a utilidad para un receptor limitado, sin demostrar H1–H6. Quinta ampliada y sexta global abiertas; canon intacto.

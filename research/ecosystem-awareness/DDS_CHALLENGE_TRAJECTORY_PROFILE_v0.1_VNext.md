@@ -332,3 +332,23 @@ Impact high for claim accuracy and useful scoped closure; risk medium for reinte
 **Texto antes — viejo:** current executed-companion references and programme-parity paragraph without a current completion route (preserved source above).
 
 **Texto después — autorizado:** one current scoped-completion navigation paragraph before the existing parity paragraph. All method mathematics, source semantics, quantitative acceptance and existing evidence grades remain unchanged. The new packet owns its own review in README_VNext.md. This is an authorized scoped completion, not global review closure.
+
+---
+
+## Foundation completa frente al crosswalk DDS
+
+**6 octubre 2026, Codex, mismo asistente; `409bfa9eff2b3e24e7350021db9e587861583de8`.** [Foundation completa](baseline/01_FOUNDATIONAL_VNext.md) y DDS actual §§5.1–5.2 cotejados. Esto actualiza el alcance focal anterior, sin repetir ni recalificar estudios.
+
+El texto general de Foundation distingue Type 0 fundamentado, fallos causales y respuestas legítimas. DDS concreta una firma discriminativa sólo cuando M fue definido ex ante y permanecía legítimamente alcanzable bajo el mismo contrato; Ø/HOLD o P en cualquier estudio no son taxonomía automática. El después de 73 deberá conservar esa frontera, no imponer alcanzabilidad por retrospectiva.
+
+El procesamiento útil de información retenida y la conservación de cualificadores materiales deben distinguirse en un comparador; rework sigue en Cost, no es Type 1 por sí solo. No se cambia la ley C/R/E, se congela otro test, importa un baseline o ejecuta una campaña.
+
+Se identificó el paquete de finalización DDS añadido antes de este snapshot y sus AgentSync; la revisión de Foundation no certifica sus informes/resultados ni la independencia de sus comprobaciones. Debe incorporarse a la lectura material pendiente según sus fuentes y VNext existentes. Originales/evidencia/ediciones preservados; quinta ampliada y sexta global pendientes.
+
+### Revalidación del avance concurrente — admisión y frontera de información
+
+Antes de publicar, head `f0ebdd1031eb740b181c6a405fba6beb7f29ff6d` añadió §§3.1/5.3/7.1A/7.4 al original; blob `a44bf26ff0bab1792aef1bc7d115850532e592cb`. Esta auditoría conserva esa fuente sin editarla ni inferir autorización de su commit. Se leyeron esos pasajes completos y contexto §§4–10; §§5.1–5.2 siguen conservados.
+
+La admisión de M precedente al resultado, la distinción mínimo privado/accesible y la exclusión de P del numerador Type 1 son condiciones pertinentes para leer Foundation. El exceso frente a un optimum informado no es negligencia automática de un sistema ciego. Hay que verificar la admisión y exclusiones en los perfiles, y justificar el mecanismo de falta de cierre dentro del mismo contrato de información/capacidad; existencia de M en un mapa privado no basta para esa inferencia universal.
+
+[Foundation VNext](baseline/01_FOUNDATIONAL_VNext.md) registra la pregunta y mantiene73 pendiente. No se reetiqueta un resultado, verifica una campaña, abre una batería o prepara otro par sólo por existir una fórmula. La incorporación y las lecturas materiales pendientes conservan sus gates.

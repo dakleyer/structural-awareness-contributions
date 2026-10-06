@@ -234,3 +234,15 @@ La valoración actual distingue una mejora documental de una modificación conce
 [Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
 **Revisión cruzada de la nueva alternativa 71:** 71 describe RA como examen de cambio calificado del fundamento/régimen, sin elegir postura o permiso. Su lectura depende de 35/37/38 y de preservar B/C/D/UNKNOWN en los receptores; no promete cadena operacional validada. [Viejo y propuesto completos en EP](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026).
+
+---
+
+## Foundation completa — salida dinámica y validez del marco
+
+**6 octubre 2026, Codex, mismo asistente; `409bfa9eff2b3e24e7350021db9e587861583de8`.** Se leyó Foundation v0.5 íntegra y este README actual completo, sin modificarlos. [Contraste de origen](../ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md).
+
+Foundation §17.4 separa salida dinámica observable de invalidación del marco de decisión para una misión. El README RA distingue detector mínimo, delta cualificado y Operation como dueño de postura/ejecución. La coincidencia permite formular dos preguntas distintas: ¿se detectó una salida bajo Ψ/contexto/baseline declarados?, ¿afecta materialmente el soporte de esta decisión? Responder la primera no contesta automáticamente la segunda ni concede permiso.
+
+§17.1 reserva Type 0 a un fundamento declarado; la alerta no es un certificado estructural por sí sola. La representación y el indicador deben conservar incertidumbre sobre su efecto. La comparación externa de Foundation no establece calibración del detector ni garantiza un horizonte útil.
+
+35/37/38 sobre B/C/D siguen pendientes con 01C/01D/Operation; esta relación no resuelve su semántica. No se elige postura, se mueve el programa o incorpora un candidato. Registrar ambas proposiciones y sus límites en el examen material pendiente; sexta global aún no lanzada.
