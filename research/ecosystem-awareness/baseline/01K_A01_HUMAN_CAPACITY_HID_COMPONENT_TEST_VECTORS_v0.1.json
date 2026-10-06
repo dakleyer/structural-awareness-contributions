@@ -196,6 +196,115 @@
         "skip_required_review": false,
         "semantic_finding": "architecture debt triggers redesign, not automatic suppression of current necessary oversight"
       }
+    },
+    {
+      "id": "HC-HID-TV-09",
+      "name": "process-relative A B C D mapping for runtime capacity",
+      "input": {
+        "evaluation_id": "eval-09",
+        "input_bundle_version": "v1",
+        "runtime_result": {
+          "state": "AVAILABLE",
+          "predicted_completion_interval_min": [
+            12,
+            16
+          ],
+          "selected_route": "pool-A"
+        },
+        "support": {
+          "schedule_snapshot": "current",
+          "timing_model": "validated-for-class",
+          "fallback_route": "pool-B-characterized"
+        },
+        "exploration": "external specialist pool known but service/authority/cost not characterized",
+        "residual": "off-system commitments may exist but cannot be evaluated"
+      },
+      "expected": {
+        "A_HC": [
+          "AVAILABLE",
+          "predicted completion interval [12,16]",
+          "selected route pool-A"
+        ],
+        "B_HC": [
+          "schedule snapshot",
+          "timing model",
+          "characterized fallback pool-B"
+        ],
+        "C_HC": [
+          "external specialist pool"
+        ],
+        "D_HC": [
+          "off-system commitments beyond effective evaluation"
+        ],
+        "semantic_finding": "the interval is A because producing a bounded completion estimate is part of the declared runtime-capacity function; its calibration and limits are B"
+      }
+    },
+    {
+      "id": "HC-HID-TV-10",
+      "name": "same-operation circular self-support is rejected",
+      "input": {
+        "evaluation_id": "eval-10",
+        "input_bundle_version": "v3",
+        "premise": "EA says human route exists only because HC-HID eval-10 says AVAILABLE",
+        "self_result_reused_as_independent_evidence": true
+      },
+      "expected": {
+        "same_operation_self_support_detected": true,
+        "runtime_state": "UNKNOWN",
+        "requalification_request": true,
+        "emit_command": false,
+        "semantic_finding": "feedback is allowed only through a new version/cycle or through independently observed effects"
+      }
+    },
+    {
+      "id": "HC-HID-TV-11",
+      "name": "human readiness cost is charged even when no alert fires",
+      "dds_input": {
+        "challenge_route": "I1",
+        "human_route": {
+          "alert_fired": false,
+          "human_runtime_cost": 0,
+          "human_readiness_alloc": 100,
+          "component_operation": 10,
+          "latency": 0,
+          "effectiveness_region": "I1",
+          "risk_gate": "PASS"
+        },
+        "peer_route": {
+          "cost": 50,
+          "effectiveness_region": "I1",
+          "risk_gate": "PASS"
+        }
+      },
+      "expected": {
+        "human_total_cost": 110,
+        "peer_total_cost": 50,
+        "delta_cost_human_vs_peer": 60,
+        "same_challenge_I_region": true,
+        "peer_receives_full_credit": true,
+        "semantic_finding": "unused maintained human capacity is not free in DDS"
+      }
+    },
+    {
+      "id": "HC-HID-TV-12",
+      "name": "cheaper lower-quality peer is not a matched substitute",
+      "dds_input": {
+        "human_route": {
+          "cost": 120,
+          "effectiveness_region": "I1",
+          "risk_gate": "PASS"
+        },
+        "peer_route": {
+          "cost": 20,
+          "effectiveness_region": "M1",
+          "risk_gate": "PASS"
+        }
+      },
+      "expected": {
+        "same_challenge_I_region": false,
+        "cost_dominance_claim_allowed": false,
+        "semantic_finding": "a cheaper M-route does not prove that the human I-route is inefficient"
+      }
     }
   ]
 }
