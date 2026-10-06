@@ -16,7 +16,7 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.7 · **Fecha:** 6 de octubre de 2026  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.6 · **Fecha:** 6 de octubre de 2026  
 **Estado:** cuatro pasadas del README realizadas en el alcance declarado; relaciones vecinas parcialmente revisadas; siete propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
@@ -434,9 +434,6 @@ La conciliación entre argumento, fuentes, formas de lectura y matriz mantiene u
 No se encontraron destinos locales ausentes en las adiciones de esta entrega tras su comprobación estática. Sí hay **trazas de versión temporal** que requieren interpretación: README dinámico frente a resultados posteriores; pointers históricos de freeze; trackers de primer R01 frente a la cola vigente. Se documentan, sin reemplazar resultados o editar originales.
 
 La consecuencia para la lectura de conjunto queda registrada en la [VNext de Ecosystem Positioning](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md). Esta es conciliación del alcance README/matriz y sus relaciones seleccionadas, **no la conciliación final del corpus entero**: los vecinos solo recibieron examen cruzado parcial y las otras tareas globales siguen abiertas.
-
-
-**Verificación del método al cierre:** se leyó también la adición vigente 1.3 del procedimiento, blob `f046348549232e05f85d008abdb49b65f8815b5e`, presente en el corte de cierre `2db5a8c17f58008f9268c23c681ba6e14c8dfbdc`. Conserva el ciclo de cuatro pasadas y añade tres niveles de lectura/redistribución examinada en los README propietarios. Esta entrega no redistribuye archivos, no cambia propiedad y no crea nuevos niveles de navegación: las doce fichas/VNext son controles locales de documentos existentes. Las propuestas de la matriz son fronteras de importación; no reorganización del corpus. El cambio paralelo del procedimiento se preserva y se registra en evidencia.
 
 **Siguiente tarea del plan:** 3, paquete UC4 y revisión de su mapping. Siete deltas del README esperan decisión por ID. C02/C11/T03 no cambian de estado técnico por finalizar esta documentación.
 
