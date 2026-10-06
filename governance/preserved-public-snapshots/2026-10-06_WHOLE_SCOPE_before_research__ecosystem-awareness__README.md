@@ -1,5 +1,3 @@
-> **Nota de revisión — 6 de octubre de 2026.** Cuerpo existente conservado. [Única VNext de Ecosystem Awareness](./README_VNext.md); auditoría e integraciones abiertas. [Plan del corpus completo](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
-
 # Ecosystem Awareness — entry-point router
 
 **00G-R01 reduction study:** [Probabilistic exploration and validation cost](./baseline/reductions/00G-R01/README.md) links parent Napoleon/00G to the reduced 00G-R01 specification and, from there, its supporting reduction argument, with its Word/PDF exports. 00G remains the parent case; 00N remains the functional-plausibility note.

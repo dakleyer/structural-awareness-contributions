@@ -421,26 +421,3 @@ El [plan, adición 1.4](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#c
 **Codex responde a su registro anterior:** las lecturas atribuidas siguen conservadas, pero no autorizan declarar coherencia total. La bibliografía y la conciliación avanzan con excepciones precisas. Sigue pendiente el traslado semántico desde definiciones actuales a las pruebas anteriores, la lectura completa de los índices y consumidores restantes y la revisión de binarios/evidencia.
 
 Las nuevas propuestas antes/después están al final de las VNext de cada documento. Las anteriores siguen pendientes salvo una decisión auténtica de Iván; publicar el examen no las incorpora.
-
-
----
-
-## Alcance global confirmado por Iván — todo Contributions
-
-**Instrucción del 6 de octubre de 2026:** el corpus comprende todo `dakleyer/structural-awareness-contributions`, también los documentos que salen del README de Ecosystem Awareness, MSCA y Regime Awareness. Se revisan todas las ramas, no solo lo alcanzado desde esta página. La [adición 1.5 al plan](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#alcance-confirmado-todo-contributions-y-sus-integraciones) lo establece.
-
-El [mapa del árbol completo](../../governance/review/EP_REVIEW_REPOSITORY_SCOPE_2026-10-06.md) inventaría 1.203 archivos en el snapshot anterior a esta adición. Los documentos sin una ruta textual también están incluidos; “no alcanzado” no equivale a “fuera de revisión”. Copias históricas, binarios, código, manifests y evidencia conservan su clase y procedencia.
-
-### Auditoría realizada por Codex — continuidad de integración
-
-Mismo asistente de IA. Se contrastaron los pasajes de la ruta EA ↔ RA ↔ MSCA y se leyó completo el perfil conjunto 01D. La [conciliación de integraciones](../../governance/review/EP_REVIEW_INTEGRATIONS_2026-10-06.md) distingue comparación documental de ejecución validada.
-
-Un hallazgo concreto afecta a RA: su README aún resume B_RA como confianza/intensidad, mientras 01C v0.2 explica fundamento y reserva evaluable y separa confianza de magnitud física. MSCA Operation conserva también un resumen corto “direction/intensity/capability/residual”. Los campos conservan el nombre; el significado del resumen necesita conciliación con las definiciones actuales. No se corrige la fuente ni se declara incompatibilidad de todas las implementaciones por esas frases.
-
-Los expedientes de los README afectados son [EA](../../research/ecosystem-awareness/README_VNext.md), [RA](../../research/regime-awareness/README_VNext.md) y [MSCA](../../standards/minimum-sufficient-control/README_VNext.md); el [README técnico EA](../../research/ecosystem-awareness/baseline/README_VNext.md) conserva su expediente existente. Las revisiones de [01C](../../research/ecosystem-awareness/baseline/01C_VNext.md) y [MSCA Operation](../../standards/minimum-sufficient-control/04_OPERATION_VNext.md) registran el cotejo de productor y consumidor. Ninguna se presenta como ciclo completo cuando falta lectura o evidencia.
-
-### Protección de las relaciones
-
-Las propuestas deben mantener trazables los inputs, outputs y retornos: misma decisión/operación, scope, versiones, vigencia, dependencias, dueño, permiso y carga. 01D deja claro que SUPPORTED no es un permiso y que un RA no requerido no debe vetar una acción independiente. Documentarlo no demuestra que la integración ya esté ejecutada.
-
-La ampliación no transfiere autoridad entre ramas ni abre una jerarquía nueva: se conservan **EP → Awareness → índices técnicos** y los enlaces laterales. El README canónico EP, la estrategia y los contratos originales permanecen intactos. La revisión total y la compatibilidad de todos los consumidores siguen abiertas.

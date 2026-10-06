@@ -43,16 +43,3 @@ Primero se contrastarán las afirmaciones de prueba y evidencia con sus fuentes 
 ```
 
 **Dependencias:** 00M/00N/00M-A01 y EP README VNext. **Antes verificado:** una coincidencia. **Decisión:** pendiente. **Incorporación:** no ejecutada. Las propuestas sobre las partes de UC-EA-03 y la copia vieja de 05A no están todavía adjudicadas.
-
-
----
-
-## Alcance y conciliación con las otras ramas — instrucción de Iván
-
-**6 de octubre de 2026.** Todo Contributions queda dentro del programa de revisión, incluidas las rutas de este índice, MSCA y Regime Awareness, y los documentos sin enlace textual desde EP. [Plan 1.5](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#alcance-confirmado-todo-contributions-y-sus-integraciones) · [inventario del árbol completo](../../../governance/review/EP_REVIEW_REPOSITORY_SCOPE_2026-10-06.md).
-
-**Auditoría realizada por Codex; cotejo parcial de integraciones.** Se comprobó la relación entre 01C, los README RA/MSCA y el input de MSCA Operation; 01D se leyó completo para revisar operación/scope/versiones/tiempo y permiso separados. Los resúmenes de B_RA y de “direction/intensity/capability/residual” necesitan conciliarse con sus definiciones fuente, sin cambiar los contratos durante la auditoría.
-
-[Registro conjunto](../../../governance/review/EP_REVIEW_INTEGRATIONS_2026-10-06.md) · [01C VNext](./01C_VNext.md) · [MSCA Operation VNext](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md) · [RA README VNext](../../regime-awareness/README_VNext.md) · [MSCA README VNext](../../../standards/minimum-sufficient-control/README_VNext.md).
-
-La revisión integral de este README continúa pendiente. Se conservan las entradas anteriores y las propuestas opcionales; no se ejecuta redistribución, cambio de propietario, renombrado de fields, ni nuevas pruebas o campañas. Los tres niveles acordados y las funciones propias de cada rama siguen vigentes.

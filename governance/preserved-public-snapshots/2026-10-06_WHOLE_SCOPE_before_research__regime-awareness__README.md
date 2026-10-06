@@ -1,5 +1,3 @@
-> **Nota de revisión — 6 de octubre de 2026.** Cuerpo existente conservado. [Única VNext de Regime Awareness](./README_VNext.md); auditoría e integraciones abiertas. [Plan del corpus completo](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
-
 # Regime Awareness — corpus index
 
 > **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.

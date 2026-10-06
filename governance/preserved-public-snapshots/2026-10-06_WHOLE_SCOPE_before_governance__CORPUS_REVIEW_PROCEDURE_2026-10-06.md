@@ -285,28 +285,3 @@ La conciliación completa no consiste solo en probar que existe una ruta. Debe c
 La [conciliación de navegación](./review/EP_REVIEW_NAVIGATION_2026-10-06.md) amplía el recorrido transitorio y sus excepciones. El [inventario existente](./review/EP_REVIEW_COVERAGE_2026-10-06.tsv) conserva las épocas de cobertura. Ninguno afirma que la lectura semántica de todos los documentos esté terminada.
 
 El avance se publica dentro de las VNext únicas y continúa desde el pendiente real. Se conservan originales, fuentes congeladas, instrucciones de Iván y propuestas exactas; no se aplican correcciones al canon, no se simula un revisor humano y no se repiten firmas como prueba de independencia.
-
-
----
-
-## Alcance confirmado: todo Contributions y sus integraciones
-
-**Adición al plan, revisión 1.5 · 6 de octubre de 2026.** Iván aclara que el corpus incluye todos los documentos que salen del README de Ecosystem Awareness y **todo el repositorio `dakleyer/structural-awareness-contributions`**, incluidas Ecosystem Positioning, Ecosystem Awareness, la rama de control MSCA y Regime Awareness. Esta instrucción amplía el criterio de alcance de §2: no se excluye un archivo por no ser alcanzable desde el README de EP.
-
-El inventario debe cubrir el árbol completo del repositorio, no solo los enlaces de una entrada. Entran documentos vigentes, borradores, antecedentes, anexos, casos, submissions, interfaces, imágenes, presentaciones, PDF/DOCX, manifiestos, datos, resultados y código de soporte relevante. Cada archivo mantiene su clase y procedencia; inventariarlo no equivale a auditarlo ni lo convierte en canon.
-
-Las copias históricas y los fragmentos se relacionan con su documento lógico y se examinan como procedencia/presentación. Los instrumentos de esta revisión permanecen sujetos a control de conservación y coherencia; no generan VNext de VNext ni una auditoría duplicada por copia. No se borran ni se descartan por esta clasificación.
-
-Los candidatos antes descritos como “fuera del recorrido textual” quedan **incluidos en el alcance de revisión**. La ausencia de enlace es un hallazgo de navegación que hay que explicar, no una autorización para excluirlos. El [inventario de cobertura existente](./review/EP_REVIEW_COVERAGE_2026-10-06.tsv) recibe una época del árbol completo; el [mapa de alcance](./review/EP_REVIEW_REPOSITORY_SCOPE_2026-10-06.md) explica su lectura.
-
-### Preservar las integraciones que ya existen
-
-La revisión de una relación se hace en ambos extremos: qué produce la fuente, qué entiende el consumidor y qué conserva el retorno o feedback. Se cotejan significado, propietario, identidad de la operación/decisión, scope, versiones, tiempo/validez, dependencias, evidencia, autoridad y carga. Que un enlace resuelva o un campo conserve el nombre no prueba compatibilidad semántica.
-
-La [conciliación de integraciones](./review/EP_REVIEW_INTEGRATIONS_2026-10-06.md) empieza por EA ↔ MSCA, EA ↔ RA y la composición conjunta 01D, y se extiende a Cartografía, signalling, ACC, operación/repositioning, interfaces de aplicación y pruebas. Cada hallazgo vuelve a las VNext de fuentes y consumidores afectados y a las VNext de los README propietarios.
-
-Antes de incorporar una propuesta se necesita un análisis concreto de sus consumidores: qué comportamientos preserva, qué interpretaciones cambiarían y qué comprobaciones de compatibilidad hacen falta. Se conserva el contrato y la evidencia originales; no se renombran campos, cambian estados, recalculan manifests ni sustituyen interfaces durante la auditoría. Una precisión editorial también necesita este cotejo si altera el significado de una integración.
-
-El alcance global no transfiere autoridad: EA, RA, MSCA, ACC y los propietarios externos conservan sus funciones. Las referencias entre ellos son relaciones de integración y lectura, no subordinación universal. Se mantienen los tres niveles acordados: **Ecosystem Positioning → Awareness → índices técnicos**, con enlaces laterales entre ramas.
-
-Esta adición no declara que las integraciones estén todas revisadas ni que exista una validación de ejecución conjunta. Sus fuentes, evidencias y excepciones deben quedar cubiertas antes del cierre global. Los documentos canónicos se preservan y sus propuestas siguen pendientes de Iván.
