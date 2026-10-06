@@ -281,3 +281,21 @@ Preservación del cuerpo vigente como prefijo exacto, y confirmación posterior 
 **Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. El índice propietario recibe una consecuencia de significado en una extensión actual: no una nueva jerarquía ni reorganización. La VNext existente de01J acumula la lectura completa y mantiene los límites materiales pendientes.
 
 [01J VNext](01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../../governance/review/Signalling-full-2026-10-06/evidence.json).
+
+
+---
+
+## 01K source-series reconciliation — supersedes HIT-ledger proposals
+
+**6 October 2026 · explicit Iván instruction.** The current [01K Human Capacity / Human Intelligence Debt](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) has been reconciled with the complete Tegrity.AI Human Intelligence Debt / Human Intelligence Gap source series and cross-series bridges.
+
+The earlier Change 64 / Change 67 proposals preserved in this VNext were based on the first, incorrect treatment of HID as a runtime HIT-capacity ledger. They are now **SUPERSEDED / NOT PENDING**. Historical text remains visible for audit traceability; it must not be re-applied.
+
+Current semantics:
+- HID = architecture-level HICR/HICT gap, with Paper-5 GIC/NEO/ACW measurement;
+- runtime Human Capacity = separate operational surface;
+- HIT = not a canonical HID unit;
+- organisational measurement remains gated by Study 0 and its evidence conditions;
+- deficit is not decay; rho/irreversibility, longitudinal decay and the oversight threshold remain empirical questions.
+
+The baseline README, Ecosystem Positioning README, 01J, MSCA Operation and Regime Awareness navigation were reconciled to the new 01K name and boundary. No frozen UC result was rewritten by this integration.
