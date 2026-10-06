@@ -139,7 +139,7 @@ The **47/47** headline is a regression/check count. It means 47 pytest checks ma
 
 Field attribution in the 16-subset grid is structurally isolated: every `MUTATIONS[field]` branch changes exactly one material field and keeps the other declared basis fields at the continuity value. Accordingly, the grid does not infer field attribution from the original stale branch where several facts change together.
 
-A machine-readable fixture contract and agreement validator are being added to guard the reduced branch oracle against silent code/spec drift. This is a meta-integrity control and is not added to the 47/379 counts. It also does not claim independent adjudication: the expected contract remains part of the same research corpus.
+A machine-readable [fixture contract](./fixtures/00K-A5-P5-00I/fixture_spec.json) and [agreement validator](./fixtures/00K-A5-P5-00I/validate_fixture_spec.py) now guard the reduced branch oracle against silent code/spec drift. This is a meta-integrity control and is not added to the 47/379 counts. It also does not claim independent adjudication: the expected contract remains part of the same research corpus.
 
 Finally, event-invalidation and material-epoch repairs are **conditional compressed mechanisms** in this symbolic surface. Their passing result assumes the event/epoch representation actually changes on every declared material change; a real implementation must establish that mapping separately.
 
