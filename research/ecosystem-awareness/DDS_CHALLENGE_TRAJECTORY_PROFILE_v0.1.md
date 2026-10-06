@@ -602,6 +602,7 @@ That block is sufficient to show which part of DDS is being used without inventi
 - [Human escalation / whispering](./baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md)
 - [00I Semantic TOCTOU](./baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_DRAFT.md)
 - [00I AWS implementation profile](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md)
+- [DDS research basis and documentary benchmarking dossier](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md) — supporting literature/comparison; not a second method or executed market benchmark.
 
 ---
 

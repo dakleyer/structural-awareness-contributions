@@ -292,3 +292,22 @@ A preparation record may leave execution or acceptance pending, but must not rep
 
 A preparation record may leave execution or acceptance pending, but must not report that pending work as an established result.
 ~~~~
+
+## Owner-authorized bibliography and documentary benchmarking route
+
+Source 9eee9efdffbea22d2abe27e4eb66144455077cfb; same assistant,2026-10-06. Ivan requested a well-studied primary bibliography and clear benchmarking material for third parties, retaining one deliberately simple DDS. The supporting [dossier](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md), [reference library](./DDS_REFERENCES_2026-10-06.bib) and [typed source register](./DDS_SOURCE_REGISTER_2026-10-06.json) add research/navigation only. Current source/maths/coverage/stages and evidence grades unchanged. New dossier has its sole owning review. It compares documented scope, not measured market superiority, and does not imply independent validation or a global novelty proof.
+
+Impact high for explainability/research provenance; risk medium for evidence amplification, addressed by access classes, competitor credit and explicit current-evidence limits; effort substantial. This is a scoped authorized addition, not global corpus review closure.
+
+**Texto antes — viejo**
+
+~~~~text
+- [00I AWS implementation profile](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md)
+~~~~
+
+**Texto después — autorizado**
+
+~~~~text
+- [00I AWS implementation profile](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md)
+- [DDS research basis and documentary benchmarking dossier](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md) — supporting literature/comparison; not a second method or executed market benchmark.
+~~~~
