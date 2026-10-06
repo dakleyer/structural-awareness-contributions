@@ -541,6 +541,9 @@ The preceding virtual-core questions do not imply that no trace or local executi
 
 The [separate STAMP/STPA, SPIFFE and RATS exercises](./baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/EXERCISES_REPORT.md) likewise consume this one profile. Their evidence is respectively a finite control model, authored selected-profile JWT-SVID/RSA validation, and local file-hash/JWS appraisal/consumption with synthetic trust/source assumptions. Their different predicates and denominators are not pooled. Native SPIRE/TPM conformance, real human calibration, matched superiority and external independence remain unestablished.
 
+
+The [current scoped completion edition](./baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md) reviews all four existing studies against this one profile, records both extension stages and proportional closure, reproduces the frozen results, and adds15 separately preregistered local/analytical boundary checks. It corrects evidence interpretation where needed (including simulated RATS application confirmation) without changing original cards, thresholds or results. Scope-complete research is not full native, independent or commissioned delivery.
+
 Programme master, scope/run cards, reports and delivery records must preserve these same source/version, coverage, stage and evidence distinctions. A later mirror or explanatory mapping does not alter frozen originals. The public research example records a partial research delivery, not an issued client SOW, Sponsor/seal, DOI deposit or completed international presentation. Method alignment is not proof of full commercial fulfilment.
 
 ## 15. Differential contribution

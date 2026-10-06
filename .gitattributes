@@ -55,3 +55,6 @@
 
 # Independent DDS exercise freezes bind exact bytes on every checkout platform.
 /research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/** -text
+
+# Exact bytes of the additive scoped DDS completion packet, including frozen source/results.
+research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/** -text

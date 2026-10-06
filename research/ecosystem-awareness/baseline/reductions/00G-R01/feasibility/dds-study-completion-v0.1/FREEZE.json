@@ -1,0 +1,19 @@
+{
+  "version": "0.1",
+  "registered_before_execution": true,
+  "frozen_at_utc": "2026-10-06T19:30:57.000339+00:00",
+  "own_files": [
+    {
+      "path": "BOUNDARY_RUN_CARD.json",
+      "bytes": 5699,
+      "sha256": "0ef03db7f98813174c4aa8eeecb033cc9386a40186139864caf3f5b4d1f59766"
+    },
+    {
+      "path": "run_completion_checks.py",
+      "bytes": 9846,
+      "sha256": "4b26433f12ef077a6d5cd31539145c8fbbfb3f9ebf1ed7c0d269c1baa6db342d"
+    }
+  ],
+  "source_rule": "Original source blobs checked against pinned23d3a720; no source mutation",
+  "claim_ceiling": "Same-author analytical/local-model boundary expectations; no native/human/comparative population acceptance"
+}

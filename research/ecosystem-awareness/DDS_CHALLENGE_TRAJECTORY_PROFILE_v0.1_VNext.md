@@ -322,3 +322,13 @@ Impact high for explainability/research provenance; risk medium for evidence amp
 Elcontraste de Foundation 1.1Acon 03/ § §3.4/3.5 permite evaluar una taxonomía sinexigircrecimiento observable delscope. Rework sigue siendo coste/no-Type 1automático; Ø/Pno son clasificaciones universales,pues manda elcontrato causal delChallenge yla disponibilidad real deunM definidoexante.73es una propuesta pendiente en Foundation,no orden para recalificar resultados DDS históricos ni activar unabatería. Se conserva la fuente DDScurrente ysus epocas previas.
 
 Elorigen delcontraste está en [03 Functional VNext](baseline/03_FUNCTIONAL_VNext.md) y [Foundation VNext](baseline/01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
+
+## Owner-authorized completion of current scoped DDS studies
+
+Source f7d8ed0846b301617197ade855d5237cbd2280f9; same author,6 October2026. Ivan requested completion of HEW/Whispering and other authored DDS studies against the sole canonical method. The additive [completion edition](./baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md) supplies4 current reports, both stage maps, all-surface coverage, bounded decision/closure/delivery and15 prospective material-boundary checks. Original packages/cards/freezes/results remain intact. Current M-floor/Type1–2 guidance is preserved; no universal failure-type grading or new method stage. Sourcebook and existing01K-A01 remain supporting/reference roles.
+
+Impact high for claim accuracy and useful scoped closure; risk medium for reinterpreting old evidence, addressed by immutable original/result pins and separately frozen new checks; effort bounded local analysis. No native/human/matched/independent result, expanded SOW promise, recognition, DOI or forum submission inferred.
+
+**Texto antes — viejo:** current executed-companion references and programme-parity paragraph without a current completion route (preserved source above).
+
+**Texto después — autorizado:** one current scoped-completion navigation paragraph before the existing parity paragraph. All method mathematics, source semantics, quantitative acceptance and existing evidence grades remain unchanged. The new packet owns its own review in README_VNext.md. This is an authorized scoped completion, not global review closure.
