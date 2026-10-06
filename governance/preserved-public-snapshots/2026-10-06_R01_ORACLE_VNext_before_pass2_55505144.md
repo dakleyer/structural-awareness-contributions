@@ -9,14 +9,14 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 | Pasada | Estado de esta VNext |
 |---|---|
 | Fondo y lógica | Realizada como pasada diferenciada del README y sus límites; validación externa y código completo fuera de este cierre. |
-| Evidencia y relaciones entre documentos | Realizada para las afirmaciones del README y cadenas materiales declaradas; fuentes vecinas tienen revisión cruzada parcial, no auditoría íntegra. |
+| Evidencia y relaciones entre documentos | Parcial: principales antecedentes y contratos contrastados; frontera transitiva y revisión cruzada completa pendientes. |
 | Edición, estructura y formato | Pendiente como pasada separada; las observaciones y propuestas existentes son insumos. |
 | Legibilidad y comprensión humana | Pendiente como pasada separada; no ha participado un lector humano independiente. |
 
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.3 · **Fecha:** 6 de octubre de 2026  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.2 · **Fecha:** 6 de octubre de 2026  
 **Estado:** auditoría documental y de relaciones parcial; propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
@@ -103,60 +103,6 @@ El caso de Canonical Trace es reutilización efectiva: en la comprobación puntu
 Nelson/UC6 aporta una calibración de preservación de significado. El schema público sí fue accesible y sus hashes se comprobaron en la revisión previa, pero R01 todavía necesita una envolvente UC4 completa y su mapping. Los dos documentos no son formatos intercambiables por compartir la palabra «adapter».
 
 La consecuencia si falla una de estas relaciones es concreta: se pierde la afirmación de compatibilidad o la interpretación heredada, aunque el instrumento pueda seguir siendo útil en su propio dominio. El registro posterior conserva los pasajes y fuentes. No se ha completado la revisión cruzada formal en todas las VNext vecinas; sus consecuencias se señalan aquí como dependencias pendientes, sin modificar aquellas fuentes.
-
-
-#### Pasada 2 realizada — evidencia y relaciones, 6 de octubre de 2026
-
-**Codex /root, mismo asistente; examen diferente del lógico anterior.** Pregunta: ¿qué respalda cada afirmación importante del README y qué se pierde al trasladarla entre documentos? Corte principal `715027943eefb372fdb4541a23d288bffdedbdb2`; fuentes y blobs en el [registro de esta revisión](../../../../../../governance/review/r01-oracle-tasks12-2026-10-06/REVIEW_EVIDENCE.json). Pasada 1 publicada previamente en `55505144748fedbbffd29512ca396fd71cad316f`. Se leen fuentes actuales y evidencia conservada; no se ejecutan verify.py ni campañas de los harness.
-
-### Afirmaciones del README frente a sus fuentes
-
-| Afirmación o funciones enumeradas | Evidencia contrastada | Qué permite concluir y qué no |
-|---|---|---|
-| Estado de implementación parcial y self-test exitoso | SELFTEST_RECORD_v0.9, resultado JSON y consulta directa del run 37265543867: completed/success, head 4ec2006e76b1e212ba8b99230a3d71bd3564aeb5. | Instrumentación ejecutada el 5 de octubre; no se sustituye ese run por el CI documental de hoy. Seis resultados mixtos, no seis candidatos exitosos. |
-| **1–3, 10–12, 20, 23:** vistas, orden, sellos, replay, permutación, selección y evidencia privada | harness.run_case; interactive_harness.run_interactive_case; verify.main; controles y contrato de aislamiento. | El flujo consulta referencias después del sellado y contiene controles de campos/IDs y replay. La inspección estática y los controles construidos no prueban aislamiento de un candidato real. |
-| **4–6, 13, 24–25:** referencia, empate, no-reference y DAG | reference/secondary; reference_agreement; contratos de admisión; verificaciones y registro v0.9. | Enumeración de trayectorias y comparación exhaustiva/DP de DAGs en dominios finitos declarados. El acuerdo corriente de trayectorias compara status, optimum y IDs óptimos; no compara cada predicado de todas las filas. No es cobertura universal o revisión externa. |
-| **7, 17:** recursos | harness._authoritative_batch_measurement y ledger; recibos del broker y contador de coordinación. | Se sustituye self-report por la medición fijada del harness. Es autoritativa para ese control sintético; no es medición empírica de CPU, moneda o latencia real. |
-| **8–9:** abstención y malformación | Controles always_abstain_not_success, malformed_candidate_explicit_rejection y malformed_record_isolation; rechazo registrado antes de evaluar. | Control de no-completion y de error por vector. No permite borrar fallos ni declarar segura una abstención que impide la tarea. |
-| **14, 18, 21–22:** broker, revisión, mandato, mensajes y commitment | TOOL_BROKER_CONTRACT; tool_broker._state_rejection_reason/_apply_public_state/_request_contract_rejection_reason; verify y registro. | Máquina estricta de un perfil. Sus estados no implementan todas las estrategias R01 que admiten actuar con residuo. Mensaje relayed conserva procedencia; no crea una determinación independiente. |
-| **15–16, 19:** identidad de inputs y admisión | Manifest v0.9, árbol Git del corte y contracts/verify. Las 30 entradas tienen el blob declarado. | Igualdad documental estática de 30 blobs comprobada hoy; no nueva ejecución del self-test. Gate y copia del sidecar se contrastan; un manifest intacto no prueba verdad del escenario. |
-| **26:** admisión T03 | real_admission y registro/verify. El registro admitido del self-test usa valores sintéticos, incluida aceptación de fuente y evidencia de aislamiento. | Prueba de ramas del validador, no una revisión recibida de Nelson ni un aislamiento físico realizado. No se concede admisión a un candidato real. |
-| UC4-first y versión del schema | Comentario público de Nelson 5871266911 y schema del ZIP público conservado; const=1.1.0 y additionalProperties=false. SHA256 del schema reconfirmado. | Schema 1.1.0 y paquete 1.1.0-r1 son ejes distintos. El sidecar no es la envolvente UC4. No se ejecutó validador UC4 ni se obtuvo revisión de fuente en esta tarea. |
-| Antecedentes A01/A03/Q1a/C3 | A01 como diseño acotado, A03 como diseño de un harness, Q1a como ejecución descriptiva corregida, C3 como evaluador inspect. | Método, utility y predicados específicos son reutilizables. Diseño y resultados tienen estados distintos; los PASS de esos corpora no evalúan las rutas R01. |
-
-### Relaciones cruzadas examinadas y consecuencias
-
-Las correspondencias completas se concretan en la matriz de la tarea 2; aquí se revisa su fundamento. Cada examen se registra también en la VNext del documento receptor/origen enlazada, con estado parcial de esa fuente: **no se declaran cuatro pasadas de los vecinos**.
-
-| Fuente y expediente cruzado | Afirmación que llega a R01 y condición | Consecuencia de la revisión |
-|---|---|---|
-| [Escenario R01 / VNext](../Escenario-creatividad-validacion_VNext.md) | §§1.4/2.6/2.15–2.17 requieren entrega legítima a tiempo, observaciones acotadas, trazas causales y contraste competente. | El batch valida selección/conformidad. Sus campos completion y legitimate_q no se importan como a/q de entrega efectiva. Conserva la tesis, pero la cobertura métrica plena sigue abierta. |
-| [Computabilidad / VNext](../COMPUTABILITY_AND_ORACLE_PLAN_VNext.md) | Separación G0–G3 y ledger; dominio finito y segunda referencia. | Diseño bien alineado con el slice, sin cierre total. Referencias históricas a freeze v0.4 y el sidecar que cita v0.8 no se renumeran; el entry point verificó v0.9. El import debe fijar el paquete efectivo y registrar cada eje. |
-| [A01 / VNext](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md) | O_ref es limitado al universo representado; residuo explícito. | R01 preserva esa distinción cuando responde INCONCLUSIVE. No convierte el diseño A01 en un resultado R01 ni al evaluador en productor de autoridad. |
-| [A03 / VNext](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md) y [Q1a / VNext](../../../fixtures/RS-00E-Q1a/README_VNext.md) | Roles separados, control inverso, carga estipulada y CTv1 con arrays semánticos ordenados. | Hay utility real reutilizada, con diferencias en entradas inválidas. La solución es una frontera de importación acotada, no decir que ambos helpers son idénticos. B1/B3 de lógica compartida no validan superioridad. |
-| [C3 / VNext](../../../fixtures/00G-HF-ORACLE-v0.4/README_VNext.md) | Autoridad/aplicabilidad, commitment, intento, efecto y completion en inspect T0/X–T1/Y. | Se conserva verdad trivaluada y cobertura de traza. Una operación S5 de repair no tiene proyección inspect automática; optimum y ledger R01 no aparecen en C3. |
-| [00K / VNext](../../../fixtures/00K-SUITE/README_VNext.md) | Invariantes P1–P6, controles positivos, fuertes reparaciones y falsadores retenidos. | Fuente de controles, no un runtime API. El runner agrega pytest por carpeta; no produce el candidate_result común. Los sustitutos verdaderos limitan las tesis de necesidad. |
-| [00L / VNext](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md) | F/O/K/E y disposición con scope, owner, plazo y residual. | Preserva orden experimental y fairness. Deducción D no se convierte en observación ejecutada; los campos de coste ausentes continúan null con razón. |
-| [00I/S5 / VNext](../../../fixtures/00I-STATEFUL/README_VNext.md) | Modelo, fuentes, guard, permiso, executor y post-run evaluate separado. | Backend stateful útil. EXECUTE es una disposición, applied/final_generation son evidencias diferentes. Sin transformarlo en una ruta óptima ni importar sus 44/8 como tasa R01. |
-| [Primer R01 / VNext](../feasibility/partial-experiments/README_VNext.md) | Checks iniciales y countercontrols con su contrato y época. | Sirven para atacar errores del nuevo perfil. No sustituyen el teorema v0.2 ni el evaluador C02; títulos antiguos de tracking se leen históricamente. |
-| [00G-HF dinámico / VNext](../../../traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md) | Protocolo/runner, seed por evento y proyección C3; resultados posteriores. | **Campaña sí ejecutada:** RESULTS registra 1.056 redes/50.688 registros y replay, sin EA/LLM. README de preparación conserva «pendiente». Se registra esa discrepancia temporal; no se usa el header antiguo para negar los resultados. FRESH evita efectos indebidos en esa malla; continuity y A25 siguen limitados. |
-| [UC4 / VNext](./UC4_INTEROPERABILITY_PROFILE_VNext.md) | Adapters versionados, expectativas privadas, capacidades y tres clases de revisión separadas. | Coincidencia de intención y estructura parcial; schema exacto, semántica y admisión son verificaciones diferentes. R01 no fabrica las determinaciones del source owner. |
-| [Ecosystem Positioning / VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md) | El router presenta el corpus y sus evidencias. | Esta revisión aporta un README inspeccionado y una matriz acotada; no cierre general del corpus, prueba universal, aceptación FG-TIDA ni eficacia de EA. |
-
-### Hallazgos nuevos y límites conservados
-
-- **F011 — modo y efecto:** un PASS batch declara su carácter de conformidad; execution_verified=false y executed_violation=null. En consecuencia no se rellena «efecto seguro» con false. El interactivo exige efecto coincidente y conserva contradicción de referencia/entorno como INCONCLUSIVE.
-- **F012 — sellado e independencia:** hash de traza, ausencia de claves en la vista y aislamiento externo son propiedades distintas. Se necesita mantener sus fuentes de evidencia separadas.
-- **F013 — versiones de manifest:** v0.9 mantiene inputs de épocas previas; el sidecar referencia v0.8. Esos punteros se retienen. Una adaptación futura debe fijar el entry point efectivo y los hashes, sin asumir que todos los campos de versión describen el mismo objeto.
-- **F014 — ámbito de comparación de referencias:** reference_agreement mira status/optimum/ties. La equivalencia de filas, predicados y effects no se concluye solo de esos tres campos. Añadirlos al contrato de correspondence precede a ampliar el dominio.
-- **F015 — preparación y resultado dinámico:** el estado de campaña del README 00G-HF dinámico quedó histórico; existe un resultado posterior. Se rectifica cualquier lectura actual de «campaña no ejecutada» derivada solo del router. No se transfiere ese resultado a R01.
-- **F016 — métricas:** evaluate_candidate calcula completion de la declaración y completitud de la trayectoria, y legitimate_q antes de comprobar plazo. §1.4 define a/q sobre entrega completa admisible dentro de T. Los nombres son próximos, pero los predicados difieren. El import conserva valores nativos y separa los derivados que pueda sostener; sin efecto/tiempo suficiente deja q/a desconocidos.
-
-**Comprobación CTv1 adicional, alcance de contrato.** Se creó fuera del instrumento un prototipo de frontera de importación: diez ejemplos válidos con bytes coincidentes, catorce inválidos con rechazo común y cuatro propiedades de orden/exclusión/no-mutación, **28 comprobaciones acotadas**. Los helpers originales siguen distintos. Esto resuelve la decisión de contrato para la tarea 2 y no instala un adaptador, cambia el freeze, ejecuta una campaña ni demuestra conformidad universal. [Prototipo y resultados](../../../../../../governance/review/r01-oracle-tasks12-2026-10-06/CTv1_IMPORT_REVIEW_RESULT.json).
-
-**Cobertura de cierre.** Todas las afirmaciones importantes del README se contrastaron contra sus fuentes de instrumento, evidencia registrada, upstream citado y receptores materiales descritos arriba. Los 57 archivos recuperados son fuentes, no 57 auditorías completas. Quedan fuera: todos los papers externos completos; todos los nueve perfiles de 00L; universalidad de kernels; todas las variantes de cada runner; reproducción de binarios/resultados comprimidos; prueba de aislamiento real y validación externa. El inventario de enlaces entrantes se registra por separado, sin tratar presencia de un link como dependencia semántica comprobada.
-
-**Estado:** pasada realizada para el README y las relaciones materiales declaradas, con discrepancias y obligaciones de ingeniería abiertas. Una auditoría puede terminar encontrando brechas; no se cierran C02/M16/M17 con este registro.
 
 ### Edición, estructura y formato — pendiente como pasada separada
 

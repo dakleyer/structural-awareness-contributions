@@ -1,0 +1,162 @@
+{
+  "profile": "R01-CTv1-IMPORT-REVIEW-1",
+  "status": "BOUNDED_REVIEW_PROTOTYPE_CHECKS_PASS",
+  "shared_valid_examples": 10,
+  "invalid_examples": 14,
+  "behavioural_properties": 4,
+  "total_checks": 28,
+  "raw_helpers_still_differ": {
+    "pairs_root": [
+      "CanonicalTraceError",
+      "ACCEPTED"
+    ],
+    "missing_key": [
+      "CanonicalTraceError",
+      "KeyError"
+    ]
+  },
+  "rows": [
+    {
+      "id": "unicode",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "1b661d54ff5cda678b12f1f453e02c3b7aa14b67ef25f9b77ec7cb9a364093ff"
+    },
+    {
+      "id": "nested",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "932d407594be7081cc797befee2f60dad1810c9988d6ad0dd3f5ea2ba7809a39"
+    },
+    {
+      "id": "integer",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "9e992542df87cb1ef422db56178ee2ca95bed61f144107e6f56f45f35a3110b7"
+    },
+    {
+      "id": "decimal_string",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "876735884d34515edff386bfc448e845afa0f96e69f7f00a1b908d02e6217560"
+    },
+    {
+      "id": "excluded_metadata",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "5ae59a499c22decb8f4781abd8e647d3cc5d1c558a99fe3f7cfe31393f2045d6"
+    },
+    {
+      "id": "relative_path",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "33dd8ab7692eefd0abb38a527423e919bda63ace377187e743d5dac0b47b80d4"
+    },
+    {
+      "id": "path_separators",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "7708843c3925a4a8d929fd0879a1df33d1fd81aaa9b3781259d5f8f14b8e6099"
+    },
+    {
+      "id": "dot_path",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "868c56f2509a71d5bb2f5208c93cf0119d56733a7c3e6f0300508aca18a624e0"
+    },
+    {
+      "id": "set_order",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "390ee41b148535599104a13cd85dd33c39b37124835d0dd1eb9f6b17147c603b"
+    },
+    {
+      "id": "version_overwrite",
+      "status": "MATCHED_VALID_BYTES",
+      "sha256": "2a71756b19d0ff943aa33b8aa51cb1097b441e72431b6ed16112ee9d6a9609c9"
+    },
+    {
+      "id": "pairs_root",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "ROOT_NOT_OBJECT"
+    },
+    {
+      "id": "none_root",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "ROOT_NOT_OBJECT"
+    },
+    {
+      "id": "missing_key",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "MISSING_STABLE_KEY"
+    },
+    {
+      "id": "non_object_set_item",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "MISSING_STABLE_KEY"
+    },
+    {
+      "id": "heterogeneous_key",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "STABLE_KEY_NOT_STRING"
+    },
+    {
+      "id": "duplicate_key",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "DUPLICATE_STABLE_KEY"
+    },
+    {
+      "id": "unused_rule",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "SET_RULE_PATH_NOT_PRESENT"
+    },
+    {
+      "id": "float",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "VALUE_OUTSIDE_IMPORT_PROFILE"
+    },
+    {
+      "id": "absolute_path",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "UNSAFE_PATH"
+    },
+    {
+      "id": "windows_absolute",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "UNSAFE_PATH"
+    },
+    {
+      "id": "parent_path",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "UNSAFE_PATH"
+    },
+    {
+      "id": "path_type",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "PATH_NOT_STRING"
+    },
+    {
+      "id": "mixed_keys",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "NON_STRING_KEY"
+    },
+    {
+      "id": "tuple_outside_profile",
+      "status": "MATCHED_IMPORT_REJECTION",
+      "reason": "VALUE_OUTSIDE_IMPORT_PROFILE"
+    },
+    {
+      "id": "chronology_not_sorted",
+      "status": "PROPERTY_VERIFIED"
+    },
+    {
+      "id": "declared_set_reordering_invariant",
+      "status": "PROPERTY_VERIFIED"
+    },
+    {
+      "id": "metadata_exclusion_invariant",
+      "status": "PROPERTY_VERIFIED"
+    },
+    {
+      "id": "caller_not_mutated",
+      "status": "PROPERTY_VERIFIED"
+    }
+  ],
+  "limits": [
+    "review prototype only; not installed/admitted",
+    "not universal conformance",
+    "no candidate campaign or scientific harness executed",
+    "same agent; no independent review"
+  ]
+}
