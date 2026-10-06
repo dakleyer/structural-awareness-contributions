@@ -549,6 +549,16 @@ The complete architecture is composed from separately owned mechanisms. The link
 | **MSCA Operation & Repositioning** | Checks bound versus effective role, Type 0/1/2 state, P1/P2/P3 posture, then filters candidate transitions through ACC, lineage, authority, capacity and response horizon. | [MSCA Operation & Repositioning](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) |
 | **Human / institutional authority** | Owns legitimate objectives, permissions, policy and final decision rights. The architecture can qualify or request; it does not create authority. | External legitimate owner; consumed through ACC / authority references and signalling |
 
+
+### Additive Human Intelligence / Human Escalation extension
+
+[**01K — Human Intelligence Capacity, Escalation and Debt Profile**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is an additive positioning extension, not a new EA/EP core mechanism. It separates **Human Time** from **Human Intelligence Tokens (HIT)**, defines a bounded working notion of **Human Intelligence Debt**, and connects finite human-review capacity to the existing Signalling/EHD and Repositioning paths.
+
+The extension deliberately gives the human **no privileged architectural interrupt**. Human- or system-originated alerts, material Regime Awareness warnings and repositioning-time conditions may use the same bounded **Human / Systemic Alert** signalling profile. The receiver requalifies the signal, updates `Cart_i` where material and may re-enter RA/Repositioning. A human can be a subscribed/routed consumer under an applicable ACC, policy or signalling profile, but receipt does not establish authority or cognitive capacity.
+
+Where a repositioning transition depends on human review, Ecosystem Positioning / MSCA Operation may consume 01K before emitting a human-directed trigger. Repositioning can remain `HOLD` / `UNRESOLVED` while a successor ACC, re-contracting decision or authority response is pending; the alert does not bypass that gate.
+
+
 ## How the pieces divide responsibility
 
 | Component | Responsibility |
