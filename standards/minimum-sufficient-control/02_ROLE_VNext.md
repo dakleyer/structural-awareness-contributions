@@ -105,3 +105,20 @@ El propósito más amplio de Role no establece novedad o ventaja. Reutilizaría 
 No se adopta54, cuyo alcance opcional ya se reevaluó. El nuevo problema de comparación57/58/59 no redefine el rol; un perfil debe conservar alternativas en lugar de elevar una preferencia a permiso. Los perfiles/realizaciones aún faltantes mantienen abierta la segunda; primera/tercera/cuarta anteriores no se repiten como trabajo nuevo.
 
 **Ampliación específica de quinta:** [OAP RFC0030, Draft, Fengler, corte7ea15ed](https://github.com/openagentprotocol-OAP/oap-spec/blob/7ea15eda0beec0914feaee12474f4b7bf70a2f14/rfcs/RFC-0030-agent-organizations.md) propone Role y enactment con normas. Candidato de vocabulario, no equivalencia automática con función/S/ACC MSCA. Ranking/inheritance requieren mapping legítimo; implementación declarada no verificada. Derechos por pieza y juicio se registran en01I VNext. No novedad de roles establecida, código y datos importados o transición ejecutada; quinta continúa parcial en el conjunto de sus fuentes.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](02_MSCA_ARCHITECTURAL_ROLE.md), blob `9f6aef99c9f65888f10ce4b27f2e081388f3403c`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+**Juicio del plan: No modificar rol: justificado en el texto leído.** Role usa what actually does pero conserva objeto estático.54 es aclaración opcional; el primer juicio de urgencia se corrigió.
+
+**Trabajo necesario para un plan adecuado:** Comprobar si el contexto basta.57–59 no hacen de optimización o conducta un binding autorizado.
+
+No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/después para llenar una tabla. La ausencia de candidato sólo se justifica en el alcance leído; no significa auditoría integral concluida. Si aparece una laguna material, su par literal, alcance, beneficio, riesgo, coste y decisión quedarán en esta misma VNext.
+
+**Consecuencia entre documentos:** [54](../../research/ecosystem-awareness/baseline/01C_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [57](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [58](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [59](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [60](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

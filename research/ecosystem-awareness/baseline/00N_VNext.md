@@ -324,3 +324,53 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Conservar edición fijada y separar elección de medida de evidencia operacional.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#documentar-la-elección-de-medida-en-23); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 11 | Bien sustentado; condicionado; Pendiente de decisión | Alto | Medio | Medio | Primera |
+| 12 | Aclaración opcional; Pendiente de decisión | Medio | Bajo | Bajo | Después |
+| 13 | Documental condicionado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
+| 42 | Aclaración opcional; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
+
+**Cambio 11 — Bien sustentado; condicionado.** «Small» puede prometer economía que el argumento condiciona. La sustitución prioriza distinciones relevantes y coste total, coherente con los límites de 00M/00N.
+
+**Beneficio esperado:** Evitar que small se lea como garantía universal de metadatos pequeños y baratos. **Riesgo concreto:** Cambiar una frase sin conciliar métricas, README y comparaciones deja una promesa de coste implícita en otros lugares. **Coste de preparar y mantener:** Revisión de alcance en 00N y consumidores de la afirmación; no se conoce coste operativo universal.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Leer la apertura con§ §3/4: tamaño, tiempo, acceso y carga no se vuelven garantías. Conservar original identificado; no cerrar evidencia operacional. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 12 — Aclaración opcional.** Adelantar la ruta al ejemplo facilita comprensión; no es necesario duplicarlo ni reordenar capítulos.
+
+**Beneficio esperado:** Orientar desde el ejemplo de dos ready signals hacia T1–T4. **Riesgo concreto:** Ancla o sección puede cambiar; una ruta didáctica no sustituye límites ni prueba de utilidad. **Coste de preparar y mantener:** Una frase, comprobación de ancla y lectura simulada indicada como tal.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** El ancla del caso ready resuelve y se mantiene la regla de compatibilidad; conservar edición identificada y ruta opcional. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 13 — Documental condicionado.** Aclarar accesibilidad pública frente a procedencia local no asciende madurez ni convierte la nota en resultado validado.
+
+**Beneficio esperado:** Que local draft no oculte que el documento ya es público, sin afirmar validación. **Riesgo concreto:** Confundir publicación con Requirements successor o registro operativo; alterar encabezado de payload fijado. **Coste de preparar y mantener:** Una etiqueta de estado con decisión editorial del autor.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Conservar fecha/procedencia y la reserva de investigación; decisión de edición futura del original identificado. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 42 — Aclaración opcional.** 00N ya advierte que no hay medida universal. La cita alternativa apoya esa reserva; no repara una medida operacional implementada.
+
+**Beneficio esperado:** Dar antecedente primario para por qué sinergia no tiene una medida universal transferible. **Riesgo concreto:** Añadir una referencia no selecciona automáticamente una medida correcta; perfiles/métricas pueden interpretar sinergia de modos distintos. **Coste de preparar y mantener:** Verificar referencia y coherencia con §2.3/00M/métricas que la consuman; sin cálculo nuevo.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Conservar la edición primaria y separar lenguaje de sinergia de cálculo elegido/distribución/fidelidad; decidir si la cita mejora la nota. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

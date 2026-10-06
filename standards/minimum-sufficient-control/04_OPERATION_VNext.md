@@ -267,3 +267,46 @@ P3 identifies the **need to qualify a legitimate transition path**. It grants no
 ```
 
 Valoración/dependencias originales se conservan. Esta segunda localización no aplica la propuesta ni declara terminada la conciliación global.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 37 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Medio | Primera |
+| 59 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+| 60 | Aclaración opcional preparada; Pendiente de decisión | Medio | Medio | Bajo | Siguiente |
+
+**Cambio 37 — Cambio acoplado; no listo.** La fila de Operation abrevia la entradaRA. Su contexto conserva scope/autoridad, pero no explica por sí solo todos los papelesB/C/D.
+
+**Beneficio esperado:** Que el consumidor reciba la semántica y condiciones del productor. **Riesgo concreto:** Cambiar entrada puede alterar decisiones esperadas o interpretación histórica; un resumen más largo no prueba equivalencia de ejecución. **Coste de preparar y mantener:** Cotejar 01C, RA, 03, 04, 01D y perfiles; ningún nuevo resultado runtime.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Revisar35/38 conjuntamente y comprobar que el retornoCart/RA conserva qualifiers y vigencia. No afirmar que una implementación ya perdió esa información. Revisar junto con 17, 35, 38. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 59 — Cambio acoplado; no listo.** Operation universaliza equivalencia riesgo/cumplimiento que sólo es directa en lectura binaria normalizada. La propuesta preserva el perfil de comparación.
+
+**Beneficio esperado:** Que el consumidor no universalice lo que la fuente delimita. **Riesgo concreto:** Puede desactualizar perfiles y decisiones esperadas; no cambia permisos/posturas. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** 57/58 antes o junto a 59; mantener evidencia, hard constraints y permiso externos. No prometer algoritmo computable o ganador único. Revisar junto con 57, 58. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 60 — Aclaración opcional preparada.** La palabraauthorizes puede confundir necesidad de cualificar con potestad. El contexto ya exigeACC/autoridad; es precisión preventiva.
+
+**Beneficio esperado:** Evitar que authorize se lea como autoridad creada por la postura. **Riesgo concreto:** § §13/14/25 ya protegen la autoridad externa; no transformar la nota en nuevo gate. **Coste de preparar y mantener:** Pasaje corto con cotejo de Gradient §8 y ACC§ §5/7; preservación.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** LeerP3 ygatesACC/autoridad, con Role/ACC. La decisión puede ser no añadir porque la frontera ya está protegida. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Consecuencia entre documentos:** [35](../../research/regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [38](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [64](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [67](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [68](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [69](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [70](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). 64/67 ya no describen la fuente vigente de HID: las antiguas observaciones del ledger quedan como historia, sin volver a la cola. El nuevo componente HC-HID/01K-A01 y sus fuentes mantienen revisión material pendiente dentro del mismo propietario 01K. Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

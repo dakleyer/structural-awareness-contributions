@@ -223,3 +223,35 @@ La propuesta no introduce una implementación ni un formato obligatorio. El ante
 **Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. La recepción RA debe conservar clasificación y límites del productor. Un mapping aún no caracterizado no debe llegar como D demostrado por transporte o traducción; preservarlo UNKNOWN no crea nueva evidencia, permiso o estado RA.
 
 [01J VNext](01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../../governance/review/Signalling-full-2026-10-06/evidence.json).
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md), blob `95adebcd98c443f16d96feda1e2a7962853e7e93`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 52 | Aclaración opcional; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
+| 54 | Aclaración opcional; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
+
+**Cambio 52 — Aclaración opcional.** El contexto completo ya exige scope, evidencia, freshness y residual. La precisión previene lectura abreviada, no repara un fallo runtime probado.
+
+**Beneficio esperado:** Hacer explícita en la frase de frontera una calificación ya prevista por el contexto de la fuente. **Riesgo concreto:** Una nota repetida puede agregar carga o leerse como contrato nuevo aunque Composition ya conserva scope/evidencia/vigencia; mantenerlo como claridad de lectura. **Coste de preparar y mantener:** Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** 52/53 deben concordar si se eligen; admitir que no incorporar ninguna adición. Mantener qualifiers sin ampliar el payload universal. Revisar junto con 53. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 54 — Aclaración opcional.** Role §13.1 también dicewhat actually does y §14 conserva objeto estático;01C hereda la expresión. No se demostró sustitución de contrato por conducta.
+
+**Beneficio esperado:** Aclarar para un lector la distinción ya establecida de rol contractual y conducta efectiva. **Riesgo concreto:** Modificar aisladamente la frase puede parecer corrección de un significado que el propio Role/Operation ya distingue; evitar nueva semántica obligatoria. **Coste de preparar y mantener:** Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** CotejarRole/Operation/01C juntos; no confundir binding legítimo con función observada. Mantener la opción de no incorporar. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

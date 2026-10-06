@@ -256,3 +256,57 @@ The [Architecture review note](./00_ARCHITECTURE_REVIEW_CARD.md) and [ACC lineag
 ```
 
 El cuerpo anterior completo se conserva como prefijo exacto. La publicación se confirma mediante commit/readback de esta entrega; no repetir luego la adición.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](README.md), blob `767b75b7670d248d40289776a1dabd000dc5d95d`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 38 | Aclaración contextual acoplada; Pendiente de decisión | Medio | Medio | Medio | Primera |
+| 39 | Ya publicado; Ya publicado | Medio | Bajo | No nuevo | Histórico |
+| 55 | Ya publicado; Ya publicado | Medio | Bajo | Bajo | Histórico |
+| 62 | Ya publicado; Ya publicado | Medio | Bajo | Bajo | Histórico |
+
+**Cambio 38 — Aclaración contextual acoplada.** El propioREADME/Composition ya contempla soporte y reserva. La filaconfidence-only es una abreviatura potencialmente confusa, no prueba de omisión en todo el sistema.
+
+**Beneficio esperado:** Que la tabla no reduzca B a confianza numérica. **Riesgo concreto:** Otros resúmenes o consumers pueden continuar con confidence-only; el cambio debe referir 03 sin añadir campos obligatorios. **Coste de preparar y mantener:** Una celda y lectura cruzada de 03/04/EA/RA.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Coordinar35/37 y el contexto entero; decidir si ampliar la fila mejora lectura sin volverla un contrato obligatorio nuevo. Revisar junto con 35, 37. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 39 — Ya publicado.** Distinguir notas de dominio, historia y especificación vigente.
+
+**Beneficio esperado:** Distinguir notas de dominio, historia y especificación vigente. **Riesgo concreto:** Duplicar el bloque confunde lectura canónica y adicional. **Coste de preparar y mantener:** Publicado y verificado; no nueva incorporación.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** No volver a ejecutar. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 55 — Ya publicado.** Acceder a los dos expedientes sin alterar sus fuentes.
+
+**Beneficio esperado:** Acceder a los dos expedientes sin alterar sus fuentes. **Riesgo concreto:** Evitar duplicar ruta o convertir una nota de revisión en fuente normativa; fuente/cuerpo actual preservados. **Coste de preparar y mantener:** Dos enlaces y comprobación de rutas/preservación.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. Texto incorporado con separación de líneas distinta; conservar como histórico. Se verificó además la sección publicada de Role/Composition; el cambio de líneas separadoras no la convierte en pendiente. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Adición de navegación autorizada, verificación de publicación y texto; no decisión de incorporación técnica. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 62 — Ya publicado.** Acceso humano a la revisión sin modificar la fuente.
+
+**Beneficio esperado:** Acceso humano a la revisión sin modificar la fuente. **Riesgo concreto:** No duplicar notas de navegación; fichas no conceden autoridad o cierre. **Coste de preparar y mantener:** Adición corta y comprobación de enlaces/preservación.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 1 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** No volver a ejecutar tras publicación/readback; sólo navegación ya autorizada. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Consecuencia entre documentos:** [57](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [58](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [59](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [68](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [69](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [70](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+**Revisión cruzada de la nueva alternativa 71:** 71 conserva la pregunta de suficiencia MSCA y separa permiso, ejecución y efecto. 57/58/59 siguen necesarios en perfiles con gradiente; una síntesis legible no decide entre opciones incomparables ni concede autoridad. [Viejo y propuesto completos en EP](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026).

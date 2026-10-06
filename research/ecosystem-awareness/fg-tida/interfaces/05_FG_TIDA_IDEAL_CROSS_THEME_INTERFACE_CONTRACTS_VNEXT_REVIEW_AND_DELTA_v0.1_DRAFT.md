@@ -913,3 +913,35 @@ El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prio
 **Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Mantener reserva de fuentes no revisadas; actualizar con evidencia si hubo confirmación posterior.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05-r1-delta-002--carácter-propuesto-de-los-peers); el viejo tiene una coincidencia en [la fuente actual](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `dea87c75816959f6749c6922e1e9a9b2c3cfd013`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_v0.4.part01.md), blob `23eedba4c8f552313393d475eeb886de0b08e1ab`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 33 | Plan parcial; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
+| 34 | Documental condicionado; Pendiente de decisión | Alto | Medio | Medio | Primera |
+
+**Cambio 33 — Plan parcial.** La filaNone committed contradice00I existente, pero el candidato sólo cubre una de las apariciones.
+
+**Beneficio esperado:** Corregir la contradicción committed/future sin convertir 00I en use case FG. **Riesgo concreto:** Una celda actualizada deja contradictorios § §6/8/10A/18 y 05A; el mapping a UC6 sigue sin probar. **Coste de preparar y mantener:** Revisión de varios pasajes y puente con 04/05A, preservar material histórico.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Preparar los pares de§ §6/8/10A/18 junto con 18/05A; ningún escenario interno asciende a evidenciaFG por su existencia. Revisar junto con 18. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 34 — Documental condicionado.** La propuesta de dos peers puede ser defendible sin presentarse como arquitecturaFG adoptada. El alcance de la reserva depende de anchors concretos.
+
+**Beneficio esperado:** Conservar la diferencia entre placement, proceso de revisión y confirmación arquitectónica. **Riesgo concreto:** La declaración podría quedar anticuada por fuente posterior no leída; los owners de otros Themes no se adquieren por silencio. **Coste de preparar y mantener:** Consultar los pins usados y buscar cambios relevantes antes de decidir wording; no outreach.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Distinguirplacement, prueba independiente posible y confirmación arquitectónica; no afirmar ausencia mundial de adopción a partir de ocho comentarios antiguos. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

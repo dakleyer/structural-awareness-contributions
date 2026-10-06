@@ -41,3 +41,18 @@ Review: [sole owning component VNext](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPE
 
 ## 0. Why this file exists
 ~~~~
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Codex, mismo asistente de IA, evaluación para decisión humana.** Fuente `06931f0b19b8df777e251091eccf5e3ee4ca9fbb`, blob `58ab2ec309bbf7e2b615cc2f99b7d468ca537144`. Se leyó este expediente completo, el par de identidad y sus responsabilidades frente a 01K y DDS. La revisión de identidad no se cuenta como cinco pasadas técnicas o validación independiente. Todos los viejos y propuestas anteriores se conservan.
+
+**Plan literal:** el viejo es un ancla única antes de§0 y el después incluye el bloque íntegro añadido. Viejo 1, después 1 coincidencia(s) en la fuente actual. Estado: ya incorporado; no ejecutar de nuevo. **Impacto esperado Alto, riesgo Medio, esfuerzo Medio, prioridad Histórica.** El bloque de identidad identifica el contrato de implementación y conserva01K como fuente de investigación/medición; schema/vectores son subordinados, sin canon competidor. El después completo ya está presente. Riesgo Medio: declarar una autoridad de referencia influye en implementadores, aunque no cambie una fórmula.
+
+**Criterio de una futura revisión:** Conservar dos motores y responsabilidades separadas, Runtime Capacity frente a HID Architecture. Cotejar versión/snapshot de controles con la ficha; twelve controls es una atribución al registro, sin reproducción o validación independiente aquí. Lectura de método DDS no sustituye contrato componente ni fuente01K. Nada se aplica otra vez. La verificación/controles citados no se reejecutan en esta evaluación de planes. El actual bloque no tiene que convertirse en API o certificación.
+
+**Relación con las otras propuestas:**64/67 quedan superadas, no son fórmulas para HID vigente.68/69/70 siguen afectando la clasificación genérica en 01J; publicar un inputHC/HID calificado no resuelve esas frases. La revisión de investigación continúa en [01K VNext](01K_VNext.md); este expediente es el contrato de componente, no una segundaVNext de 01K. No se crea ningún otro espacio de revisión.
+
+[Imagen conjunta y tandas en EP](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Original del componente intacto en esta entrega; cualquier cambio posterior necesita par contra fuente vigente y decisión concreta de Iván.

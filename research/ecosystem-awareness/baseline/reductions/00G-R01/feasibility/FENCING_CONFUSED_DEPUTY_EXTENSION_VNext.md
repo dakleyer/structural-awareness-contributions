@@ -159,3 +159,34 @@ Consumer compatibility:the original mathematical/calendar/event fixtures retain 
 ````
 
 Relations/order:mechanism↔protocol↔existing indexes↔DDS scope/card/freeze/results; native methods and task gates preserve their owners. Instruction/decision:Iván requested canonical mechanism/DDS incorporation and first tests. Disposition:authorized for this release; native/provider/independent/recognition gates are not closed. Earlier pair/intermediate versions are preserved in task custody; this is the candidate against the actual source, not a replacement of old scientific results.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](FENCING_CONFUSED_DEPUTY_EXTENSION.md), blob `c61c810ec255ee78415caead8fadeec87ffe20a3`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+No se confunden los pares históricos con trabajo pendiente. En particular, promoción a «canonical research document» y nuevas afirmaciones de evidencia no reciben riesgo Bajo sólo por estar en prosa. La valoración siguiente es del alcance documental; la presencia de texto no verifica autorización original, réplica o resultado nativo.
+
+| Par conservado | Estado comprobado | Impacto esperado | Riesgo | Esfuerzo |
+|---|---|---|---|---|
+| DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-01 — scoped DDS incorporation | Texto ya incorporado | Alto | Medio | Medio |
+| DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-02 — scoped DDS incorporation | Texto ya incorporado | Medio | Bajo | Bajo |
+| DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-03 — scoped DDS incorporation | Texto ya incorporado | Medio | Bajo | Bajo |
+| DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-04 — scoped DDS incorporation | Texto ya incorporado | Medio | Bajo | Bajo |
+| DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-05 — scoped DDS incorporation | Texto ya incorporado | Medio | Medio | Medio |
+
+**DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-01 — scoped DDS incorporation.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. Cambiar analytical draft a canonical research document0.2 modifica la lectura de autoridad/estado, además de enlaces; el riesgo no es Bajo por ser prosa. **Comprobación:** viejo 0, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones. Comprobar versión del documento frente a versión matemática y denominadores de los resultados, sin mezclarlos.
+
+**DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-02 — scoped DDS incorporation.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. **Comprobación:** viejo 0, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones.
+
+**DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-03 — scoped DDS incorporation.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. **Comprobación:** viejo 0, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones.
+
+**DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-04 — scoped DDS incorporation.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. **Comprobación:** viejo 0, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones.
+
+**DDS-FENCING_CONFUSED_DEPUTY_EXTENSION-05 — scoped DDS incorporation.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. **Comprobación:** viejo 1, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones.
+
+El trabajo nativo, una evaluación con otros responsables o una medición operacional siguen por concretar con alcance/recursos; no son nuevos pares que puedan ejecutarse. No se crea otra VNext por ejercicio, anexo o instrumento.
+
+[Visión conjunta y tandas en EP README VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

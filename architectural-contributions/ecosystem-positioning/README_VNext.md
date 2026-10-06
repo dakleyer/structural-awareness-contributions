@@ -1026,3 +1026,133 @@ Fuera de las 46 fuentes asignadas, también hay adiciones dentro de 00K-A11, 00K
 Se corrigen los 7 hipervínculos dentro de VNext, sin ampliar sus afirmaciones de validación. Las 35 cajas ausentes en originales y los cambios de contenido permanecen diagnosticados, **sin insertar, restaurar o reescribir originales**. Para una restauración haría falta elegir cada versión/pasaje concreto y conservar antes/después; no se usa esta verificación como permiso de rollback, movimiento o eliminación.
 
 Esta verificación documental no cierra las cinco pasadas ni la sexta unificadora. La continuidad de revisión mantiene originales en lectura, una VNext por unidad y resultados/fuentes/código congelados preservados. Ninguna modificación de fuente se oculta bajo la expresión “solamente navegación” o “solamente caja”.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `06931f0b19b8df777e251091eccf5e3ee4ca9fbb`, [documento propietario](README.md), blob `641693f5a56e610fc1e76ae79ad41b96bd903f00`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 1 | Ya publicado; Ya publicado | Medio | Bajo | Bajo | Histórico |
+| 2 | Descartado; Descartado | No vigente | Alto | No procede | Histórico |
+| 3 | Reformular; Reformulado; alternativa conjunta 71 | Medio | Medio | Bajo | Siguiente |
+| 4 | Reformular; Reformulado; alternativa conjunta 71 | Alto | Medio | Medio | Primera |
+| 5 | Reformular; Reformulado; alternativa conjunta 71 | Medio | Medio | Bajo | Siguiente |
+
+**Cambio 1 — Ya publicado.** Hacer visible el expediente de auditoría.
+
+**Beneficio esperado:** Hacer visible el expediente de auditoría. **Riesgo concreto:** Repetir la nota ya publicada duplicaría la entrada del README. **Coste de preparar y mantener:** No requiere nueva edición; mantener el vínculo.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 1 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** No volver a ejecutar: el texto después está presente. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 2 — Descartado.** No se evalúa como beneficio actual: contradice los tres niveles canónicos acordados.
+
+**Beneficio esperado:** No se evalúa como beneficio actual: contradice los tres niveles canónicos acordados. **Riesgo concreto:** Reabrirla expandiría la jerarquía y confundiría los catálogos auxiliares con canon. **Coste de preparar y mantener:** No invertir en ejecución; conservar la historia.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Retirada por la instrucción de tres niveles; los tres catálogos auxiliares no la reactivan. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 3 — Reformular.** No intervenir en el bloque central: el hallazgo de comprensión es válido, pero el lugar propuesto incumple append-only. Se integra con 4/5 en 71.
+
+**Beneficio esperado:** Dar a una persona una pregunta corriente antes de los índices. **Riesgo concreto:** La inserción literal propuesta toca el cuerpo EP protegido; el texto debe adaptarse a una adición al final y evitar repetición con la introducción. **Coste de preparar y mantener:** Una explicación breve y comprobación de lectura; la adaptación de ubicación tiene que mostrarse antes/después.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Antes de decidir71, cotejar la explicación con 00M y los propietarios EA/RA/MSCA; conservar3 como historia. Revisar junto con 71. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 4 — Reformular.** La separación entre lectura semántica actual y evidencia histórica es importante. Insertarla dentro de la lista del README dejaría de conservar sus bytes;71 ofrece adición al final.
+
+**Beneficio esperado:** Evitar que enlazar la nueva definición A/B/C/D parezca revalidar pruebas antiguas. **Riesgo concreto:** Una precisión local puede dejar que otros README, decks o pruebas continúen amplificando el resultado; tampoco autoriza reescribir evidencia histórica. **Coste de preparar y mantener:** Adición explicativa de EP y cotejo de notas 00M/00N y proof map; no repetir o modificar pruebas.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Verificar que71 no renueva pruebas, freezes ni adopción y que el texto previo completo permanece idéntico. Revisar junto con 71. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 5 — Reformular.** P1–P6 y posturasP1–P3 son listas distintas. La precisión sirve al lector, pero no debe sustituir o interrumpir el apartado anterior;71 reúne la aclaración.
+
+**Beneficio esperado:** Impedir que una etiqueta de postura se lea como principio demostrado. **Riesgo concreto:** Cambiar IDs o solo una explicación dejaría referencias incompatibles; la inserción propuesta está en el cuerpo EP protegido. **Coste de preparar y mantener:** Nota breve con lectura cruzada de Requirements y Operation; no renombrar etiquetas.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Leer ambos usos deP y decidir la nota conjunta al final; ninguna renumeración. Revisar junto con 71. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+### Imagen conjunta: qué planes son adecuados y cuáles todavía no
+
+Se examinaron **las 47 VNext existentes**:22 contienen los 70 renglones del registro (61 pares y 9 líneas por concretar); otras 8 contienen 32 pares DDS/tecnología que no estaban incluidos en la vista anterior;17 no contienen un candidato literal propio. Los títulos y tablas no se contaron como lecturas científicas terminadas. Las aportaciones DDS0.1.2 y0.1.3 publicadas durante esta revisión también se cotejaron. Los cuatro nuevos pares0.1.3 y sus límites se documentan en la misma VNext DDS.
+
+El registro anterior conserva 49 pares pendientes, aunque su resumen aún decía 53. Cuatro renglones ya habían pasado a superados/resueltos:64/67 y 65/66. En esta evaluación3/4/5 quedan reformulados en una **sola alternativa 71**, aditiva al final de EP. La cola efectiva queda en **47 pares pendientes**,7 ya publicados,1 descartado,2 superados,2 resueltos por otra edición y 3 reformulados; siguen 9 líneas sin par. El historial anterior de 70 entradas no se borra.
+
+En las ocho VNext DDS/tecnología hay 32 pares históricos:25 coinciden literalmente con un después actual,3 tienen la sección incorporada con un separador diferente,1 mantiene su contenido con una adición posterior al preámbulo,1 quedó sustituido por otro preámbulo y 2 son bloques idénticos de conservación. No son 32 nuevos trabajos pendientes. En DDS, la sección 10B sí tiene par; la adición introductoria se describe aparte y no debe presentarse ese par como delta exhaustivo.
+
+La lectura de los planes revela tres límites concretos:
+
+- **Planes parciales:**18/33 corrigen sólo algunas frases de una misma época;40 corrige un estado W1 pero deja otras secciones por conciliar.25 es una tabla de reutilización, no una adaptación ya especificada.43–51 y parte de los expedientes sin candidato necesitan decisiones de alcance antes de un par. No están listos para aplicar.
+- **Propuestas conceptuales acopladas:**35/37/38,57/58/59 y 68/69/70 están motivadas y tienen viejos localizados, pero requieren cotejo de los receptores y casos límite. El esfuerzo de 17,22/23,57–59 y 68–70 sube a **Alto** por lectura, validación y mantenimiento; redactar pocas líneas no mide ese coste.
+- **Aclaraciones opcionales:**8 y 38 bajan a impacto **Medio** porque el contexto ya contiene parte de la reserva;52/53/54 mantienen su valoración vigente Medio/Medio/Medio.42/60 también pueden no incorporarse si el contexto basta. No se presume que toda adición sea mejor.
+
+Un escaneo de texto completo encontraba el después en las citas de las propias propuestas 14/15/18/31/32/33/34/40/41. Se cotejaron los pasajes originales **fuera de esos bloques**: cada viejo sigue localizado una vez y el después no está aplicado allí.56/61 tienen un título limpio como subcadena de otro defectuoso; tampoco eso prueba incorporación.
+
+### Tandas pequeñas y orden estratégico
+
+| Tanda | Preparación que aporta valor | Impacto / riesgo / esfuerzo | Condición antes de una decisión |
+|---|---|---|---|
+|1 — Claridad de evidencia y estado |26/27: self-test y falta de independencia;31/32: reporte externo y fuente fechada;71: lectura conjunta al final de EP |Alto; riesgo Bajo/Medio; esfuerzo Bajo/Medio |Viejo actual, evidencia atribuida y límites completos. Son candidatos documentales; ninguna publicación de auditoría autoriza incorporarlos.|
+|2 — Coherencia entre RA, EA y MSCA |35→37/38 y 01D;68/69/70 con 00M y el mismo receptor |Alto; riesgo Alto en cambios de clasificación; esfuerzo Alto para la conciliación |B reserva evaluable,C exploración fundada,D barrera efectiva y UNKNOWN sin forzar rol; mismo proceso/pregunta/scope/versión/tiempo.38 contextual no prueba fallo de todo el sistema.|
+|3 — Contratos y protocolo |57→58→59;16/19 y candidatos 43–45;22/23 en successor;41 y pasos46–51 según gates |Alto; riesgo Alto; esfuerzo Alto o no estimable para campaña/realización |Comparación/empates/incomparabilidad/no máximo, autoridad y evidence limits; admisión anterior al outcome y fallos retenidos. No pesos, nuevos permisos, APIs o fallback universales.|
+|4 — Lectura y rutas |6/7/9/10/12/13/20/28/30;56/61 y aclaraciones opcionales |Medio/Bajo; riesgo Bajo salvo anclas/autoridad; esfuerzo Bajo/Medio |Ediciones identificadas se preservan; navegación no promueve autoridad.56/61 necesitan compatibilidad de ancla.30 tiene cinco destinos, corrigiendo el cálculo anterior de cuatro.|
+
+**Dos vistas, dos usos:** mayor impacto pendiente muestra qué preparar primero; candidato a revisión documental muestra pares con alcance concreto para leer/decidir. Un cambio de alto impacto/alto riesgo puede aparecer primero en la primera vista y seguir fuera de la segunda. Las precedencias57→58→59 y 46→47→48→49→50→51 prevalecen sobre un ranking individual;35/37/38 y 68/69/70 se leen juntos. El nuevo componente HC-HID se conserva y debe examinarse con su fuente vigente: no se vuelve al antiguo ledger64/67.
+
+**Límite del cierre de esta entrega:** queda concluida esta evaluación de los planes disponibles en el corte, con un juicio publicado en cada una de las 47 VNext. **Las cinco pasadas materiales de todo el corpus y la sexta unificadora siguen abiertas.** Ni los 47 pares pendientes ni las fuentes nuevas se consideran validados o incorporados. Se mantiene la continuación sustantiva del programa.
+
+
+**Revalidación del último avance concurrente:** `06931f0b19b8df777e251091eccf5e3ee4ca9fbb` añadió la VNext del contrato01K-A01. Se revisó su único par y se conserva la distinción fuente01K de investigación frente a contratoA01 de implementación; no son dos VNext de una misma fuente lógica. El corte final contiene47 expedientes y32 pares DDS/tecnología/componente adicionales al registro. El riesgo de esa aclaración de autoridad se valoraMedio; no se infiere implementación, calibración humana o réplica externa de nombrar un canon interno.
+
+### Plan vigente para EP: alternativa aditiva conjunta71
+
+Las propuestas 3/4/5 conservan sus textos anteriores y propuestos históricos, pero se dejan fuera de la cola de incorporación por su ubicación dentro del cuerpo protegido.71 reúne las aclaraciones al final: **impacto esperado Alto, riesgo Medio, esfuerzo Medio, prioridad Primera, tanda 1**. Beneficio: leer responsabilidades, evidencia y las dos listasP sin alterar lo anterior. Riesgo: abreviar de más la arquitectura o aparentar renovación de evidencia; coste: cotejar fuentes y comprensión, además de la redacción.
+
+**Instrucciones de Iván:** sólo añadir al README y estrategia hasta su revisión; después, originales en sólo lectura, una VNext por fuente, siempre viejo completo y decisión concreta para incorporar. Este par es una propuesta futura; no modifica el README.
+
+**Fuente y ubicación:** `architectural-contributions/ecosystem-positioning/README.md`, blob `641693f5a56e610fc1e76ae79ad41b96bd903f00`, commit `06931f0b19b8df777e251091eccf5e3ee4ca9fbb`. El bloque viejo es toda la sección final Development strategy; aparece una vez y llega al fin del archivo. Se conservaría completo y se añadiría el bloque nuevo después. No se sustituye la estrategia ni se crea otro README.
+
+**Texto antes — viejo literal completo del contexto final**
+
+~~~~markdown
+## Development strategy and next advances
+
+The next phase focuses on clarifying the evidence behind the architecture, developing a small end-to-end profile, defining a demanding comparison and extending only what can be supported. The [development strategy and priorities](./DEVELOPMENT_STRATEGY.md) (Spanish working proposal) explains these directions, where specialist knowledge can help and the external research that informs them.
+
+This is a separate strategy document. It complements the architecture and its review programme; it does not replace the explanations above or turn planned work into a validation result.
+~~~~
+
+**Texto después — contexto conservado completo y adición propuesta**
+
+~~~~markdown
+## Development strategy and next advances
+
+The next phase focuses on clarifying the evidence behind the architecture, developing a small end-to-end profile, defining a demanding comparison and extending only what can be supported. The [development strategy and priorities](./DEVELOPMENT_STRATEGY.md) (Spanish working proposal) explains these directions, where specialist knowledge can help and the external research that informs them.
+
+This is a separate strategy document. It complements the architecture and its review programme; it does not replace the explanations above or turn planned work into a validation result.
+
+
+## Reading the architecture and its evidence
+
+A participant can receive an apparently correct output while the conditions that made it relevant have changed. Ecosystem Awareness qualifies what a process can support for a declared question and scope; Regime Awareness examines qualified changes in the applicable basis or regime; MSCA assesses sufficient configurations and possible repositioning. Qualification, permission, execution and confirmed effect remain separate responsibilities.
+
+Use the current semantic notes to understand the architecture, and keep each frozen proof, scenario and result attached to its own assumptions, version and evidence limits. A current reading does not retrospectively validate an older proof or turn symbolic execution into a completed comparative experiment. The requirements express obligations to examine; traceability to them does not itself demonstrate fulfilment.
+
+The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 in the positioning discussion name operating postures. Read each label with its own definition and owner; they are different lists, and neither grants authority to act. The [review workspace](./README_VNext.md) records proposed clarifications and the decisions still needed.
+~~~~
+
+**Comprobación y decisión pendiente:** igualdad del viejo actual y del prefijo de todos los bytes originales; lectura conjunta con 00M,RA y MSCA y sus VNext; mismo significado de responsabilidades y límites. Iván puede aceptar la adición, pedir otro texto o decidir no incorporarla. El original permanece intacto durante esta revisión.

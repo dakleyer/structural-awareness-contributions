@@ -200,3 +200,37 @@ La explicación, cobertura y viejos/nuevos están en [01C VNext](../ecosystem-aw
 **Auditoría cruzada porCodex, 6 de octubre de 2026; mismo asistente.** Se leyó01K completo y la nueva frontera deOperation§4.1/Signalling§5.2. [01K VNext](../ecosystem-awareness/baseline/01K_VNext.md) registra posible dobleconteo de compromisos y condiciones de escala HIT (64/67). Unnombre/cola humana no garantiza revisiónútil; AVAILABLE debeconservar evidencia, ventana, competencia yautoridad.
 
 Este cotejo no convierte UC03 congelado, HEW analítico o comentariosFG en calibración de HIT. Se mantienen fuente/resultado/estadoanterior y laspasadas pendientes; no se recalcula, ejecuta, demueve o reinterpreta evidencia. Elcontraste deTheme16 como antecedente deoversight no redefine por sísolo la semántica actual deΔ_RA.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](README.md), blob `83a4b004bd2d795122f9c212e0d5d4901e200c1f`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 35 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Medio | Primera |
+| 36 | Ya publicado; Ya publicado | Medio | Bajo | No nuevo | Histórico |
+
+**Cambio 35 — Cambio acoplado; no listo.** El resumenRA atribuyeC a capacidad caracterizada yD aunknown residual; no conserva las definiciones de 00M/01C. Debe corregirse con receptores.
+
+**Beneficio esperado:** Que B sea soporte/reserva, C exploración y D barrera efectiva, sin confundir UNKNOWN. **Riesgo concreto:** Cambiar solo el resumen puede dejar Operation, Cartografía, perfiles y lectores con otra interpretación; campos con mismo nombre no garantizan compatibilidad. **Coste de preparar y mantener:** Revisión coordinada de productor y consumidores, antes/después y significado recibido.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Cotejo35/37/38 más 01C/01D/Composition/01J: reserva evaluable→B, exploración fundada→C, barrera efectiva→D y clasificación incierta→UNKNOWN; ninguna API nueva. Revisar junto con 17, 37, 38, 68, 69, 70. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 36 — Ya publicado.** Separar contexto/revisión adicional de detector validado.
+
+**Beneficio esperado:** Separar contexto/revisión adicional de detector validado. **Riesgo concreto:** Duplicar el enlace ya publicado crea otra ruta aparente. **Coste de preparar y mantener:** Ya publicado y verificado; solo mantener vínculo.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** No volver a ejecutar. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+**Revisión cruzada de la nueva alternativa 71:** 71 describe RA como examen de cambio calificado del fundamento/régimen, sin elegir postura o permiso. Su lectura depende de 35/37/38 y de preservar B/C/D/UNKNOWN en los receptores; no promete cadena operacional validada. [Viejo y propuesto completos en EP](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026).

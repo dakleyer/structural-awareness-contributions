@@ -576,3 +576,35 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. La correspondencia signalling/EHD debe conservar tanto un residual efectivo como un campo no establecido, sin convertirlos automáticamente en lo mismo. No se propone nuevo EHD/O#/IF-S ni se certifican todos los adapters por esta lectura.
 
 [01J VNext](01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../../governance/review/Signalling-full-2026-10-06/evidence.json).
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md), blob `2b563c102f62d029c6037b47b047e4ac21755e5b`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 18 | Plan parcial; Pendiente de decisión | Medio | Medio | Bajo | Siguiente |
+| 19 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+
+**Cambio 18 — Plan parcial.** La referencia a 00I futuro está desactualizada. Corregir sólo esta oración deja otras épocas/versiones discordantes en 04/05.
+
+**Beneficio esperado:** Eliminar la reserva future 00I sin atribuir una ejecución que no existe. **Riesgo concreto:** Si 05/05A mantienen None committed o future, la cadena queda desactualizada; la existencia no acredita un mapping. **Coste de preparar y mantener:** Precisar esta frase y revisar textos temporales relacionados en 04/05/05A.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** 18/33 juntos; concretar las demás frases afectadas de 04/05/05A y conservar00I interno separado de ejecución/adopciónFG. Revisar junto con 33. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 19 — Cambio acoplado; no listo.** A_ref sólo conserva el resultado si el receptor puede resolver e interpretar la referencia aplicable. Una cita sintáctica no cierraH06.
+
+**Beneficio esperado:** Permitir perfiles de referencia útiles sin fingir acceso al valor ni fabricar B. **Riesgo concreto:** Cambiar el kernel EHD puede afectar los 176 mappings, privacidad, permisos y decisiones que exigen resultado; una referencia unavailable no vale como A. **Coste de preparar y mantener:** Adjudicar H06, revisar perfiles full-result/metadata-only, consumers y correspondencia del contrato de entrada.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Seleccionar perfil/successor; binding productor/perfil/versión/instancia, missing/stale y decisiones que requieren el valor. Examinar176 filas y 44 casos pertinentes; registrar excepciones. Revisar junto con 16, 43. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

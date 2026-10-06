@@ -67,3 +67,20 @@ Los hallazgos concretos se comentarán aquí y en las VNext de los documentos re
 El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
 
 **No hay un cambio quirúrgico listo que valorar en este expediente.** La auditoría existente mantiene su alcance real y preguntas abiertas. No se crea un antes/después para llenar una tabla. Las relaciones materiales examinadas pueden requerir preparación en otros expedientes; este registro no modifica la fuente ni inicia una auditoría del material adicional.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md), blob `3d080df5b8d12b1c697115f02cbadffa63427c95`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+**Juicio del plan: Sin candidato; revisión propia pendiente.** R01-X03 protege oráculo relativo, residual y ausencia de autoridad runtime. No parchear A01 para hacer completo aR01.
+
+**Trabajo necesario para un plan adecuado:** Completar lectura propia; residual insuficiente sigue INCONCLUSIVE. Preparar46–48 en el receptor, conservando diseño original.
+
+No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/después para llenar una tabla. La ausencia de candidato sólo se justifica en el alcance leído; no significa auditoría integral concluida. Si aparece una laguna material, su par literal, alcance, beneficio, riesgo, coste y decisión quedarán en esta misma VNext.
+
+**Consecuencia entre documentos:** [25](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [46](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [48](reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

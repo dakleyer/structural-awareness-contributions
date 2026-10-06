@@ -170,3 +170,35 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Auditoría cruzada porCodex, 6 de octubre de 2026; mismo asistente.** Se leyó01K completo y la nueva frontera deOperation§4.1/Signalling§5.2. [01K VNext](01K_VNext.md) registra posible dobleconteo de compromisos y condiciones de escala HIT (64/67). Unnombre/cola humana no garantiza revisiónútil; AVAILABLE debeconservar evidencia, ventana, competencia yautoridad.
 
 Este cotejo no convierte UC03 congelado, HEW analítico o comentariosFG en calibración de HIT. Se mantienen fuente/resultado/estadoanterior y laspasadas pendientes; no se recalcula, ejecuta, demueve o reinterpreta evidencia. Elcontraste deTheme16 como antecedente deoversight no redefine por sísolo la semántica actual deΔ_RA.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](UC-EA-03_v0.4_MAINTENANCE_FREEZE.md), blob `7d940f33d011bb234f98e5d03a408dbeca34d92d`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 22 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+| 23 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+
+**Cambio 22 — Cambio acoplado; no listo.** F7 puede calificar la necesidad de respuesta, pero no apropiarse de la decisión/actuación. La fuente congelada ya protege parte de esa frontera.
+
+**Beneficio esperado:** Que F7 oriente revisión pero no se apropie de permiso, contención o ejecución. **Riesgo concreto:** El perfil congelado y sus consumidores pueden atribuir facultades distintas; modificar solo un párrafo deja la interfaz inconsistente. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Successor explícito y revisión con 23, Requirements,Operation,01K actual y dueño legítimo. Una indicación no concede permiso ni confirma efecto. Revisar junto con 23, 16, 60. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 23 — Cambio acoplado; no listo.** El fallback humano no es automáticamente seguro, autorizado o oportuno. Un hold también puede tener coste/daño.
+
+**Beneficio esperado:** Impedir que reviewer indisponible se resuelva con fallback indefinido o aprobación curativa. **Riesgo concreto:** Puede cambiar el resultado esperado y exigir capacidad/tiempo no representados; no todos los fallback son equivalentes o autorizados. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** En successor, contrastar22 y ramasB/C/H: autoridad, plazo, contexto, competencia, capacidad compartida y continuidad. Preservar casos y fallos previos. Revisar junto con 22. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

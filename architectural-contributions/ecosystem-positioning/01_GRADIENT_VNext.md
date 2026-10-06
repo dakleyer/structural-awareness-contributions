@@ -142,3 +142,44 @@ If the relevant set is empty, candidates remain incomparable, no maximum is atta
 ```
 
 **Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Decisión de Iván y control de anclas, como56 sin unificar fuentes. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md), blob `330cbdab2fa8ca0cb162f480f2ab83b06485a1f8`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 57 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+| 58 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+| 61 | Editorial condicionado; Pendiente de decisión | Bajo | Medio | Bajo | Después |
+
+**Cambio 57 — Cambio acoplado; no listo.** El argumento admite vector/Pareto y luego usa signo escalar. La propuesta explica el orden declarado sin inventar pesos universales.
+
+**Beneficio esperado:** Evitar declarar positiva una alternativa que mejora un objetivo y empeora otro sin regla legítima. **Riesgo concreto:** Afecta significado matemático y rankings de Gradient/Operation/Architecture/01D. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** 57→58→59; casos escalar,vector incomparable, empate y restricciones duras, sin probabilidades fabricadas sobreC/D; revisar perfiles consumidores. Revisar junto con 58, 59. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 58 — Cambio acoplado; no listo.** argmax puede ser conjunto, vacío o no alcanzar máximo. Selección y ejecución siguen siendo decisiones distintas.
+
+**Beneficio esperado:** Evitar que argmax implique ganador único o existente cuando falta orden, candidatos o evidencia. **Riesgo concreto:** Empates y fallback pueden alterar contratos/resultados; conjuntos sujetos a ACC/autoridad vigentes. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Depende de 57; conservar conjuntos/incomparabilidad/no máximo y fallback del perfil legítimo, no regla global; cotejar 59/Architecture. Revisar junto con 57, 59. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 61 — Editorial condicionado.** Duplicar el títuloD dificulta lectura. Que el título limpio aparezca dentro del duplicado no equivale a corrección aplicada.
+
+**Beneficio esperado:** Leer una vez el título del apartado D. **Riesgo concreto:** Cambia el slug; comprobar referencias o preservar ancla compatible. **Coste de preparar y mantener:** Título y enlaces de fragmento, preservación; semántica intacta.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 2 coincidencia(s), fuente actual completa. El después puede aparecer como subcadena del título defectuoso; no prueba incorporación. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Comprobar slug y referencias antes de un cambio futuro. No tocar significadoD ni deducir cierre de 57/58. Revisar junto con 56. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

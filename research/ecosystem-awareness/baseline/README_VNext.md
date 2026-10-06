@@ -299,3 +299,62 @@ Current semantics:
 - deficit is not decay; rho/irreversibility, longitudinal decay and the oversight threshold remain empirical questions.
 
 The baseline README, Ecosystem Positioning README, 01J, MSCA Operation and Regime Awareness navigation were reconciled to the new 01K name and boundary. No frozen UC result was rewritten by this integration.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](README.md), blob `a764abcf9330575c1a4b9a078856dfb83affc950`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 20 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
+| 21 | Ya publicado; Ya publicado | Medio | Bajo | No nuevo | Histórico |
+| 63 | Ya publicado; Ya publicado | Medio | Bajo | Bajo | Histórico |
+| 65 | Resuelto mediante otra edición; RESOLVED BY LATER INTEGRATION | Medio | Bajo | Bajo | Histórico |
+| 66 | Resuelto mediante otra edición; RESOLVED BY LATER INTEGRATION | Medio | Medio | Bajo | Histórico |
+
+**Cambio 20 — Documental preparado.** La orientación opcional a 00M-A01 ayuda a leer la matriz sin hacerla estación obligatoria ni fuente canónica.
+
+**Beneficio esperado:** Explicar para qué sirven ayudas visuales y cómo continuar hacia argumento/pruebas. **Riesgo concreto:** Un resumen demasiado largo puede repetir el índice o perder límites; los enlaces deben seguir vigentes. **Coste de preparar y mantener:** Un párrafo con revisión de lectura y rutas, sin reordenar el README.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Verificar destino/alcance opcional y que no añade nivel de README. La futura adición al original requiere decisión concreta, aunque la propuesta esté completa. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 21 — Ya publicado.** Dar ruta a materiales adicionales sin convertirlos en canon.
+
+**Beneficio esperado:** Dar ruta a materiales adicionales sin convertirlos en canon. **Riesgo concreto:** Duplicar el bloque ya publicado confunde al lector. **Coste de preparar y mantener:** Adición ya realizada y leída de vuelta.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** No volver a ejecutar; diferencia de espacios en blanco del contexto, mismo bloque publicado. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 63 — Ya publicado.** Acceso humano a la revisión sin modificar la fuente.
+
+**Beneficio esperado:** Acceso humano a la revisión sin modificar la fuente. **Riesgo concreto:** No duplicar notas de navegación; fichas no conceden autoridad o cierre. **Coste de preparar y mantener:** Adición corta y comprobación de enlaces/preservación.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 1 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** No volver a ejecutar tras publicación/readback; sólo navegación ya autorizada. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 65 — Resuelto mediante otra edición.** El índice actual tiene líneas01K y predecessor01J separadas; incorporó otra redacción, no el después literal65.
+
+**Beneficio esperado:** Que01K y el predecessor01J se lean como entradas separadas. **Riesgo concreto:** No alterar status/links o confundir successor y predecessor al corregir el separador. **Coste de preparar y mantener:** Línea concreta y readback visual/Markdown; fuente previa preservada.
+
+**Localización actual:** viejo completo 0 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** No ejecutar65 otra vez ni copiar su descripción obsoletaHIT/HID. Registro funcional resuelto; la coincidencia exacta vieja/después es0/0. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 66 — Resuelto mediante otra edición.** El párrafo actual nombra01K, propietarios separados y HC/HID; no coincide exactamente con el después antiguo.
+
+**Beneficio esperado:** Que el relato incluya01K y conserve su dueño sin volverlo coreEA. **Riesgo concreto:** Puede quedar incoherente con EP/EA entry/Operation/01J si se presenta como validado o kernel. **Coste de preparar y mantener:** Cotejo breve del estado/owner de 01K y rutas relacionadas; no nueva jerarquía.
+
+**Localización actual:** viejo completo 0 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** No volver a ejecutar66 ni tratar la redacción anterior como autoridad de la versión actual. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

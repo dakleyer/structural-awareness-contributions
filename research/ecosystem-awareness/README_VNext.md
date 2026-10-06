@@ -75,3 +75,20 @@ Los antes/después de las tres adiciones de navegación están en las VNext prop
 El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
 
 **No hay un cambio quirúrgico listo que valorar en este expediente.** La auditoría existente mantiene su alcance real y preguntas abiertas. No se crea un antes/después para llenar una tabla. Las relaciones materiales examinadas pueden requerir preparación en otros expedientes; este registro no modifica la fuente ni inicia una auditoría del material adicional.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](README.md), blob `5d4ed36df01775c58b5aa3521db9094e937853a5`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+**Juicio del plan: Plan propio incompleto.** La página mantiene lectura parcial y no tiene candidato sustentado para sus largas secciones de pruebas. Las nuevas rutas DDS/HC-HID no completan esa evidencia.
+
+**Trabajo necesario para un plan adecuado:** Cotejar prueba/madurez y sus fuentes; recibir las consecuencias de 35/37/38 y 68–70.
+
+No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/después para llenar una tabla. La ausencia de candidato sólo se justifica en el alcance leído; no significa auditoría integral concluida. Si aparece una laguna material, su par literal, alcance, beneficio, riesgo, coste y decisión quedarán en esta misma VNext.
+
+**Consecuencia entre documentos:** [35](../regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [37](../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [38](../../standards/minimum-sufficient-control/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [68](baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [69](baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [70](baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [71](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

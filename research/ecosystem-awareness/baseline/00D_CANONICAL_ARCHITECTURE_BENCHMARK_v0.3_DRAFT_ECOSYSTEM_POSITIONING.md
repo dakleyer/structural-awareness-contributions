@@ -570,3 +570,35 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Protocolo preregistrado, owners y tratamiento de run admitido fallido, timeout/datos ausentes y fallo del comparador.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#bench-r1-delta-002--q0-antes-del-resultado-y-conservación-de-fallos); el viejo tiene una coincidencia en [la fuente actual](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), blob `34720bc29438b51b733dcb233102869c52abf695`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md), blob `1e3c5dd34d431049eb555386e8430dfb6c575278`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 40 | Plan parcial; Pendiente de decisión | Alto | Medio | Bajo | Primera |
+| 41 | Cambio de protocolo; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+
+**Cambio 40 — Plan parcial.** W1 tiene una tabla, pero el borrador conserva estados atrasados en otros apartados. La frase propuesta corrige sólo uno.
+
+**Beneficio esperado:** Que una entrega de mapping no parezca adopción/validación de benchmark v0.3. **Riesgo concreto:** Corregir solo §12 deja estados desfasados en § §4/9/13/WORKPLAN; gates pendientes no se cumplen al redactarlos. **Coste de preparar y mantener:** Una precisión y revisar estado documental en cuatro lugares.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Concretar§ §4/9/13 y WORKPLAN afectados; separar entrega de tabla, revisión de requisitos, promoción, bibliografía y ejecución. No promoverv0.3. Revisar junto con 41. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 41 — Cambio de protocolo; no listo.** Excluir retrospectivamente fallos de una configuración admitida protegería la hipótesis del falsador. El protocolo debe distinguir admisión y fallo observado.
+
+**Beneficio esperado:** Evitar descartar retrospectivamente resultados adversos bajo non-conforming. **Riesgo concreto:** Afecta protocolo, denominadores, estados y dueño de adjudicación; no cambia resultados congelados ni limpia pérdidas del candidato. **Coste de preparar y mantener:** Adjudicación del protocolo y revisión de varios tipos de fallo antes de freeze; no ejecutar experimentos ahora.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Preregistrar criterio de exclusión y dueño de adjudicación antes de outcomes, conservar fallos/timeouts/missing y comparadores competentes. Perfil/freeze futuro, ninguna campaña activada. Revisar junto con 40, 46, 47, 48. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

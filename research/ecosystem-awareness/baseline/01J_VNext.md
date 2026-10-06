@@ -143,3 +143,46 @@ sender signal
 ```
 
 **Dependencias/decisión:** 00M/04/EHD, Composition, 01C y perfiles de recepción. Tanda68/69/70, semántica y consumidores conciliados; decisión concreta deIván antes deincorporar. No añade primitivo/protocolo o campo universal. Instrucciones de Iván: revisión para personas, conservación de viejos y conversaciones, publicación parcial y decisión concreta antes de aplicar. Estado: pendiente de incorporación y conciliación material.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), blob `ac9728b5821abb8300bc147fc4a8c02841831fa4`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 68 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+| 69 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+| 70 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+
+**Cambio 68 — Cambio acoplado; no listo.** El §9 convierte incertidumbre de mapping enD aunque00M defineD por barrera efectiva. Nueva §5.2HC/HID no elimina esa contradicción.
+
+**Beneficio esperado:** Conservar el significado process-relative deD y no tratar UNKNOWN o trabajo evaluable no hecho como barrera estructural. **Riesgo concreto:** Afecta clasificación de ReceivedSignals, EHD/Cart/RA y perfiles de compatibilidad; una precisión aislada deja reglas contradictorias. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** 68/69/70, ejemplo detelemetry y HC-HID: pregunta/process/scope/capability/time; conservar desconocimiento sin prometer cierre ni añadir campo obligatorio. Revisar junto con 69, 70, 35, 37. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 69 — Cambio acoplado; no listo.** El perfilSLM presumeD para todaambigüedad material. Puede ser reserva evaluableB o exploraciónC; una barreraD requiere justificación.
+
+**Beneficio esperado:** Conservar el significado process-relative deD y no tratar UNKNOWN o trabajo evaluable no hecho como barrera estructural. **Riesgo concreto:** Afecta clasificación de ReceivedSignals, EHD/Cart/RA y perfiles de compatibilidad; una precisión aislada deja reglas contradictorias. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Revisar junto 68/70; no reducirUNKNOWN a éxito ni la validación independiente a declaración del autor. Fuente/compatibilidad actualHC-HID también consumida. Revisar junto con 68, 70. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 70 — Cambio acoplado; no listo.** La figuraD_compat=structuralUNKNOWN refuerza la lectura que los otros dos candidatos corrigen. No basta retocar prosa.
+
+**Beneficio esperado:** Conservar el significado process-relative deD y no tratar UNKNOWN o trabajo evaluable no hecho como barrera estructural. **Riesgo concreto:** Afecta clasificación de ReceivedSignals, EHD/Cart/RA y perfiles de compatibilidad; una precisión aislada deja reglas contradictorias. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Figura y§ §9/10 deben concordar con 68/69 y el ejemplo. Distinguir representación conceptual de wire/schema nuevo; contraste con receptores. Revisar junto con 68, 69. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Consecuencia entre documentos:** [35](../../regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [37](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [64](01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [67](01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). 64/67 ya no describen la fuente vigente de HID: las antiguas observaciones del ledger quedan como historia, sin volver a la cola. El nuevo componente HC-HID/01K-A01 y sus fuentes mantienen revisión material pendiente dentro del mismo propietario 01K. Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

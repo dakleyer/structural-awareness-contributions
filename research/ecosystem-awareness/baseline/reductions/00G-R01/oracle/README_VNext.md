@@ -1108,3 +1108,134 @@ El [plan 1.11](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.m
 **Evaluar una realización real elegida.** Producir evidencia real en vez de transferir self-test de instrumento. **Riesgo:** Aislamiento, capacidad humana, comparadores, coste real y recursos pueden invalidar la interpretación. **Coste:** No estimable sin realización/configuración y autorización; presupuesto y disponibilidad no asumidos. **Condición:** T03/M13/C11 y alcance explícito; no ejecución, envío o reactivación de campaña abortada.
 
 Los pasos 1 y 2 conservan el cierre acotado que ya consta en §5.3. Los pasos 3–8 siguen como recomendaciones de las tareas existentes, sin nueva campaña ni ejecución por este ranking.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 24 | Documental condicionado; Pendiente de decisión | Medio | Medio | Bajo | Siguiente |
+| 25 | Plan de lectura; incompleto; Pendiente de decisión | Alto | Medio | Medio | Siguiente |
+| 26 | Documental preparado; Pendiente de decisión | Alto | Bajo | Bajo | Primera |
+| 27 | Documental preparado; Pendiente de decisión | Alto | Medio | Medio | Primera |
+| 28 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
+| 29 | Documental preparado; Pendiente de decisión | Alto | Medio | Medio | Siguiente |
+| 30 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Después |
+| 46 | Etapa posterior; no parche; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
+| 47 | Etapa posterior; no parche; Por concretar; sin par literal | Alto | Alto | Alto | Siguiente |
+| 48 | Etapa posterior; no parche; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
+| 49 | Etapa posterior; condicional; Por concretar; sin par literal | Medio | Alto | Alto | Después |
+| 50 | Etapa posterior; coste no estimable; Por concretar; sin par literal | Alto | Alto | No estimable todavía | Después |
+| 51 | Etapa posterior; coste no estimable; Por concretar; sin par literal | Alto | Alto | No estimable todavía | Después |
+
+**Cambio 24 — Documental condicionado.** Versión de schema 1.1.0 y del paquete1.1.0-r1 son objetos distintos; la precisión no supone validator-pass o admisión.
+
+**Beneficio esperado:** No mezclar schema 1.1.0 con release 1.1.0-r1. **Riesgo concreto:** Companion mutable, sidecar y validador pueden usar versiones distintas; corregir solo el README deja el perfil o import note desfasados. **Coste de preparar y mantener:** Cotejo del manifest pin y dos documentos receptores; no cambiar sidecars congelados.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Confirmar pin/metadata del paquete y perfilUC4, manteniendo fecha de consulta; no extrapolar a futuras releases. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 25 — Plan de lectura; incompleto.** La tabla ofrece siete familias reutilizables. El nombre de una familia no establece que todo su contenido sea transferible aR01.
+
+**Beneficio esperado:** Hacer visible qué puede usarse de Q1a/00K/00L/00I/C3 y qué sigue sin mapping. **Riesgo concreto:** La tabla puede quedar vieja o sumar campañas distintas como evidencia R01; desarrollar un adapter es otra acción. **Coste de preparar y mantener:** Siete familias con owners/versiones y comparación de límites; no importación ni ejecución.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Cada fila necesita contrato/pin, parte reutilizada, resultado que no transfiere y gate propio;43/46–49 no se cierran por publicar la tabla. Revisar junto con 46, 48, 49. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 26 — Documental preparado.** PASS/FAIL/INCONCLUSIVE del self-test son resultados esperados del instrumento, no seis tecnologías exitosas. La advertencia ataca una lectura materialmente errónea.
+
+**Beneficio esperado:** Evitar que seis controles esperados se presenten como seis éxitos de tecnologías. **Riesgo concreto:** Números o estados del lote pueden quedar desactualizados; la explicación debe citar v0.9 en vez de decir siempre current. **Coste de preparar y mantener:** Un párrafo y cotejo de las seis entradas fijadas; no recalcular evidencia.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** CotejarSELFTEST_RECORD_v0.9/resultv0.9 y mantener dominio, denominador y expectativas; ningún rerun o eficacia comparativa. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 27 — Documental preparado.** Dos rutas codificadas por el mismo mantenedor son cross-check, no validación independiente. El dominioDAG finito no cubre todoR01.
+
+**Beneficio esperado:** Impedir que acuerdo de dos implementaciones o un DAG finito parezca validación externa del R01 completo. **Riesgo concreto:** Si otros README/métricas mantienen esa extrapolación el efecto queda incompleto; futuras ampliaciones pueden cambiar el dominio. **Coste de preparar y mantener:** Cotejo del dominio/premisas y recibos ya existentes, M16/M17, sin nuevas campañas.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Conservar dominio no negativo/conjuntivo, atribución y límites de perfiles. No presentar el cotejo como independencia, escalabilidad o ejecución tecnológica. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 28 — Documental preparado.** Explicar propósito antes del detalle facilita lectura. No crea un segundo oráculo ni desplaza la aceptación del escenario.
+
+**Beneficio esperado:** Que una persona entienda entrada, evaluación y resultado antes de fuentes técnicas. **Riesgo concreto:** La apertura debe concordar con el modo del instrumento y no parecer servicio desplegado. **Coste de preparar y mantener:** Un párrafo y cotejo con interfaces actuales.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** La inserción queda antes de instrucciones técnicas, conserva fuentes y no convierteREADME en contrato nuevo. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 29 — Documental preparado.** Separar batch, ejecución interactive y métricas nativas evita acreditar efecto por una selección o una regresión verde.
+
+**Beneficio esperado:** Que una instrucción de reproducción no confunda intento, efecto y aceptación. **Riesgo concreto:** El texto puede prometer métricas o aislamiento que el runner no produce; datos instrumentales no son costes reales. **Coste de preparar y mantener:** Leer contrato/mode y etiquetas de salida del instrumento; ninguna ejecución de programa.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** LeerTRACE_CONTRACT/ISOLATION_CONTRACT y las métricas originales; conservar deadline/efecto/legitimidad como verificaciones diferentes, sin activar ejecución. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 30 — Documental preparado.** Son cinco rutas propias, no cuatro como decía el cálculo antiguo de esfuerzo. La mejora es navegación y no adopción de los resultados enlazados.
+
+**Beneficio esperado:** Que el lector abra la fuente correcta desde Corpus reuse. **Riesgo concreto:** Enlaces y versiones pueden quedar viejos; ruta existente no demuestra conservación semántica. **Coste de preparar y mantener:** Son cinco enlaces; revisar cinco destinos y atribuciones, no cuatro. Esfuerzo Bajo para navegación.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Abrir los cinco destinos, mantener texto de atribución y scope; revisar desde el directoriooracle, no desde el de laVNext. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 46 — Etapa posterior; no parche.** Paso3 combina envolventeUC4 con sidecarR01. El trabajo es perfil de compatibilidad, no cambio autorizado por el ranking.
+
+**Beneficio esperado:** Hacer revisable la correspondencia completa con UC4. **Riesgo concreto:** Confundir sidecar con experiment.json o validator-pass con admisión; contrato externo/versiones pueden cambiar. **Coste de preparar y mantener:** Mapping/ejemplo completo, validador fijado y preguntas de owner; coste externo aún no estimable.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Contrato/source pin, mapping sintáctico y semántico, estadosunknown y source review; definir sucesor/alcance antes de 47. Tareas1/2 mantienen su cierre acotado. Revisar junto con 24, 19. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 47 — Etapa posterior; no parche.** Paso4 exige un perfil piloto y aislamiento. Sin objetivo/law/configuración admitidos no existe experimento ejecutable.
+
+**Beneficio esperado:** Comprobar una conservación de predicados en un dominio pequeño antes de extender. **Riesgo concreto:** Un adapter puede perder verdad, operación o efecto y mezclar resultados históricos; controles verdes no lo justifican solos. **Coste de preparar y mantener:** Perfil/adaptador acotado, correspondencia y controles; ingeniería/ejecución fuera de esta revisión.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Depende de 46; declarar entradas, operador, efecto, oráculo privado, costes y stop/acceptance antes de instrumentar. Nada se ejecuta en esta revisión. Revisar junto con 46. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 48 — Etapa posterior; no parche.** La fidelidad M16/M17/P08 decide qué mide el evaluador. Un self-test correcto no la resuelve.
+
+**Beneficio esperado:** Evitar que un instrumento evalúe otra pregunta o compare costes incompatibles. **Riesgo concreto:** Ampliar fidelidad más allá del dominio o atribuir independencia al mismo autor sesga el comparador. **Coste de preparar y mantener:** Cláusula–predicado–referencia–control, ledger y revisión que falte; calendario externo desconocido.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Depende de 46/47; contrastar contrato del escenario, métricas/efecto/tiempo y control positivo/negativo. No renombrarcompletion como entrega legítima. Revisar junto con 46, 47. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 49 — Etapa posterior; condicional.** Añadirfamilias sin necesidad material crea alcance y mantenimiento innecesarios.
+
+**Beneficio esperado:** Reutilizar una propiedad necesaria sin empezar otro instrumento. **Riesgo concreto:** Scope creep, duplicación de campañas y trasvase de resultados de 00L/C3/00G-HF; versiones divergen. **Coste de preparar y mantener:** Perfiles/versiones y controles por familia, después del piloto; no estimar coste global sin elegir necesidad.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Sólo extender tras48 y por una laguna concreta; conservar leyes/resultados originales y declarar interfaz/versiones. No ampliar por completar una lista. Revisar junto con 48. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 50 — Etapa posterior; coste no estimable.** Una campaña requiere pregunta, comparator, población/escenarios y recursos; el texto actual no los fija.
+
+**Beneficio esperado:** Fijar comparadores, recursos, fallos y parada antes de observar resultados. **Riesgo concreto:** Registro mal planteado puede sesgar la comparación o reabrir un trabajo abortado. **Coste de preparar y mantener:** Depende de tecnología, alcance, fuente/modelo y revisión humana elegidos; sin importe ni horas inventados.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Cerrar46–49 pertinentes, preregistro/freeze, adjudicación y autoridad de ejecución. Mantener como plan futuro sin inventar par ni presupuesto. Revisar junto con 46, 47, 48, 49. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 51 — Etapa posterior; coste no estimable.** Realización/native execution exige fuentes, implementación y responsables seleccionados. No se deduce de que el método esté documentado.
+
+**Beneficio esperado:** Producir evidencia real en vez de transferir self-test de instrumento. **Riesgo concreto:** Aislamiento, capacidad humana, comparadores, coste real y recursos pueden invalidar la interpretación. **Coste de preparar y mantener:** No estimable sin realización/configuración y autorización; presupuesto y disponibilidad no asumidos.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Membresía/fidelidad, derechos, autoridad, trust roots y alcance elegido; sólo después de los gates anteriores aplicables. No asignar/mandar trabajo a terceros. Revisar junto con 50. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

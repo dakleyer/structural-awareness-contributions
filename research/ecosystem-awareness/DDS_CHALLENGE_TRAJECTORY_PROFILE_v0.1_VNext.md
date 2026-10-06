@@ -233,3 +233,34 @@ Programme master, scope/run cards, reports and delivery records must preserve th
 
 ## 15. Differential contribution
 ~~~~
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `947f0ee3ac887160b19ddeff25ca73ba721697b7`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+No se confunden los pares históricos con trabajo pendiente. En particular, promoción a «canonical research document» y nuevas afirmaciones de evidencia no reciben riesgo Bajo sólo por estar en prosa. La valoración siguiente es del alcance documental; la presencia de texto no verifica autorización original, réplica o resultado nativo.
+
+| Par conservado | Estado comprobado | Impacto esperado | Riesgo | Esfuerzo |
+|---|---|---|---|---|
+| DDS canonical technical profile — VNext | Histórico; sustituido por época posterior | Alto | Medio | Medio |
+| Current-source epoch — preserve concurrent canonical-boundary/namespace clarification | Contenido incorporado; adición posterior en el preámbulo | Alto | Medio | Medio |
+| Owner-authorized reduced-coverage and delivery clarification0.1.2 | Texto ya incorporado | Alto | Medio | Medio |
+
+**DDS canonical technical profile — VNext.** Ni viejo ni propuesto aparecen en la fuente actual: la segunda época conserva una aclaración concurrente de qué significa canonical. No aplicar el primer preámbulo, que borraría esa reserva. **Comprobación:** viejo 0, después 0 coincidencia(s). **Antes de una revisión futura:** Mantener la época posterior y la declaración de canon interno; no atribuir aceptación externa.
+
+**Current-source epoch — preserve concurrent canonical-boundary/namespace clarification.** La aclaración Canonical identity sigue íntegra en la fuente y ya está publicada. El preámbulo completo dejó de coincidir porque se añadió Coverage/delivery clarification0.1.2; aplicar el después antiguo borraría esa aclaración. No es propuesta pendiente. **Comprobación:** viejo 0, después 0 coincidencia(s). **Antes de una revisión futura:** Conservar la época actual de preámbulo, identidad y cobertura/entrega; un cambio posterior requiere otro par literal contra esa fuente, no reescribir el antes histórico.
+
+**Owner-authorized reduced-coverage and delivery clarification0.1.2.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. El par cubre la sección 10B, pero la adición introductoria queda descrita fuera del par: el expediente debe reconocer esa cobertura literal parcial, no anunciar delta exhaustivo. **Comprobación:** viejo 1, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones. Las seis trazas mínimas, cobertura/evidencia/entrega y el contexto de la introducción deben conciliarse si se prepara una revisión futura.
+
+El trabajo nativo, una evaluación con otros responsables o una medición operacional siguen por concretar con alcance/recursos; no son nuevos pares que puedan ejecutarse. No se crea otra VNext por ejercicio, anexo o instrumento.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+### Revalidación concurrente de DDS0.1.3
+
+Durante la preparación entró `a2cee52fed3db130f2acfe3ece7d2106e3c66362`. Se preservan íntegros la fuente y la única VNext de esa entrega. Se leyeron sus cuatro nuevos pares: cadena Stage1/Stage2, inserción13.1, filaHEW e inserción14.1. Los cuatro después están presentes una vez; sus viejos son historia, no nuevas tareas. Impacto Alto, riesgo Medio, esfuerzo Medio: la disciplina de transferencia y el estado de la evidencia requieren cotejo, aunque el texto sea aditivo. La narración fuera de los pares también añade introducción, cobertura y campos de cita: el plan literal no es exhaustivo para todo ese delta. No se presenta esa reserva como una prueba fallida ni como trabajo nativo hecho.
+
+Stage1 conserva sólo la correspondencia probada en su kernel/base; Stage2 requiere justificar el compuesto. La referencia a SQLite/JWT-SVID/JWS no acredita humanos calibrados, implementación nativa, ventaja comparativa o auditor independiente. Las31 fichas de pares de las siete VNext DDS/tecnología quedan en la época de este mismo registro de prioridades, sin otra VNext ni otro método.

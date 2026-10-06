@@ -150,3 +150,37 @@ Viejo único en la fuente actual, nuevo título ausente. Incorporación pendient
 [Architecture](00_ARCHITECTURE_VNext.md), [ACC](01_ACC_VNext.md), [01I](../../research/ecosystem-awareness/baseline/01I_VNext.md), [Operation](04_OPERATION_VNext.md) y [Gradient](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md) contienen el otro extremo. El hallazgo57/58/59 importa al comparar candidatos de distintos objetivos: el mapa no suministra una scalarización universal. Se conserva 53 opcional y56 editorial; no se aplica ninguna propuesta ni se cambia Cart_i.
 
 La quinta anterior de procedencia permanece parcial; el catálogo de identidad externo no demuestra una dependencia material. La segunda sigue abierta por perfiles/consumidores restantes; no se repiten primera/tercera/cuarta como auditoría independiente. [Fuentes y alcance de esta continuación](../../governance/review/MSCA-kernel-lineage-gradient-2026-10-06/evidence.json).
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md), blob `0366cbd184149235005dc2236b3da7e4c394ed3e`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 53 | Aclaración opcional; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
+| 56 | Editorial condicionado; Pendiente de decisión | Bajo | Medio | Bajo | Después |
+
+**Cambio 53 — Aclaración opcional.** «Sin segunda traducción» puede referirse a la taxonomía compartida sin negar calificación. El propioComposition ya conserva esa calificación.
+
+**Beneficio esperado:** Hacer explícita en la frase de frontera una calificación ya prevista por el contexto de la fuente. **Riesgo concreto:** Una nota repetida puede agregar carga o leerse como contrato nuevo aunque Composition ya conserva scope/evidencia/vigencia; mantenerlo como claridad de lectura. **Coste de preparar y mantener:** Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Leer§ §3/8/10.1/10.4/13/18 con 52; añadir sólo si aporta claridad, no una nueva semántica obligatoria. Revisar junto con 52. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 56 — Editorial condicionado.** El título duplicado es un defecto visible. El título limpio ya existe como parte/cita, lo que no prueba que el encabezado defectuoso haya cambiado.
+
+**Beneficio esperado:** Que el encabezado de §3.4 sea legible sin duplicar el nombre del componente. **Riesgo concreto:** Cambiar el título cambia el slug del ancla; no se encontraron enlaces locales a ese fragmento en el grafo del corte, pero pueden existir referencias externas o históricas. **Coste de preparar y mantener:** Un encabezado, control de referencias/anclas y preservación de la versión previa; no cambios de significado.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 1 coincidencia(s), fuente actual completa. El después puede aparecer como subcadena del título defectuoso; no prueba incorporación. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Inventariar enlaces al slug anterior y resolver compatibilidad de ancla antes de decidir; no renombrar la sección por limpieza aislada. Revisar junto con 61. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Consecuencia entre documentos:** [35](../../research/regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [37](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [38](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

@@ -41,3 +41,20 @@ La propuesta ATHENA ofrece identidad/delegación como vecino externo, sin determ
 ## Plan y continuidad
 
 **Sin par nuevo al cuerpo de01I.** No hay defecto textual probado que requiera sustituir la metáfora o el modelo. Mantener su explicación y límites; incorporar OAP requeriría perfil y derechos de la pieza, no copiar schemas por estar publicados. Primera, tercera y cuarta realizadas; segunda abierta; quinta específica realizada. Sexta global pendiente, sin experimentar ni modificar originales.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](01I_AGENTIC_CITIZENSHIP_CONTRACT_HUMAN_GOVERNED_PARTICIPATION_PROFILE_v0.1.md), blob `9477861ecb59f991a5bcc6957459c3332cb714f1`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+**Juicio del plan: No modificar: justificado en el texto leído.** Ciudadanía está delimitada como metáfora y propiedades colectivas son futuras. OAP aporta una opción de perfil, no demuestra defecto.
+
+**Trabajo necesario para un plan adecuado:** Mantener participación/linaje/binding/permiso separados. Adaptación OAP necesita pieza, derechos y correspondencia; no es cambio listo.
+
+No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/después para llenar una tabla. La ausencia de candidato sólo se justifica en el alcance leído; no significa auditoría integral concluida. Si aparece una laguna material, su par literal, alcance, beneficio, riesgo, coste y decisión quedarán en esta misma VNext.
+
+**Consecuencia entre documentos:** [57](../../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [58](../../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [59](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [60](../../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

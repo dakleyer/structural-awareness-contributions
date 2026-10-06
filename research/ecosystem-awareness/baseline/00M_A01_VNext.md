@@ -128,3 +128,26 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Mantener la tabla y límites; confirmar preservación de la fuente fijada antes de incorporar.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](00M_A01_VNext.md#propuesta-quirúrgica--pendiente); el viejo tiene una coincidencia en [la fuente actual](00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md), blob `8832c255e3775116046273363c131c05878af16d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md), blob `8832c255e3775116046273363c131c05878af16d`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 6 | Documental condicionado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
+
+**Cambio 6 — Documental condicionado.** La matriz ya separa contribución y cumplimiento. DeclararM1–M4 como referencias locales reduce confusión, sin convertirlas en canon.
+
+**Beneficio esperado:** Separar obligación, condición, hipótesis y abreviatura local de la tabla. **Riesgo concreto:** Presentar M1–M4 como nueva familia normativa o confundir trazabilidad con conformidad. **Coste de preparar y mantener:** Un párrafo de orientación y cotejo de S/T/H; ningún nuevo campo.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Comprobar las cuatro filas y sus no-claims. Fuente identificada: mantener original; decisión sobre una edición futura/ficha, sin aplicar sobre el hash publicado. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

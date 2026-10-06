@@ -659,3 +659,71 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Hacer visible oportunidad, admisibilidad, autoridad y ejecución.** Mostrar una separación ya distribuida en los requisitos. **Riesgo:** Podría introducir una capa universal o confundir la ilustración con un nuevo requisito/permiso. **Coste:** Una ayuda de lectura y cotejo S/T/00H; elegir ficha o futura edición. **Condición:** Preparar un antes/después completo; no nuevo T5 ni adopción automática.
 
 **Aclarar autorización del efecto compuesto.** Evitar que autorizaciones atómicas legitimen una campaña fuera del grant. **Riesgo:** Elegir agregación universal o ledger central puede cambiar autoridad y scopes de otras ramas; el dueño legítimo fija la frontera. **Coste:** Precisar unidad material, conservar S/T y probar correspondencia de casos antes de una edición. **Condición:** CAND-R3 todavía sin par literal; no imponer ventana, ledger ni nueva familia.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 14 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
+| 15 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
+| 16 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+| 43 | Trabajo por concretar; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
+| 44 | Trabajo por concretar; Por concretar; sin par literal | Medio | Medio | Medio | Siguiente |
+| 45 | Trabajo por concretar; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
+
+**Cambio 14 — Documental preparado.** En el texto fuera de las citas hay un único título2→5 y cuatro familias nuevas00G–00J; la corrección a 2→6 es consistente con la lista.
+
+**Beneficio esperado:** Hacer que el encabezado corresponda a la enumeración E–J. **Riesgo concreto:** Corregir solo el título dejaría la frase de tres adicionales incoherente; emparejar con cambio 15. **Coste de preparar y mantener:** Dos correcciones documentales conjuntas, sin cambiar Requirements congelado.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Considerar14/15 juntos. Mantener el registro histórico de esta propuesta; no renumerar S/T/H ni inferir seis familias completamente auditadas. Revisar junto con 15. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 15 — Documental preparado.** «Adds three» contradice los cuatro escenarios listados. El número de familias no equivale a independencia estadística o auditoría externa.
+
+**Beneficio esperado:** Corregir el número G/H/I/J y evitar independencia estadística implícita. **Riesgo concreto:** Usar independent como propiedad inferida de nombres exagera evidencia; hay que mantener coherencia con el cambio 14. **Coste de preparar y mantener:** Una frase del registro y comprobación de la lista.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Cotejar00G–00J con 14 y mantener el significado de familias distintas; ninguna nueva obligación canónica. Revisar junto con 14. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 16 — Cambio acoplado; no listo.** La requalificación temporal necesita conexión al estado realmente usado. El párrafo solo expresa la obligación; no resuelve el binding técnico.
+
+**Beneficio esperado:** Cerrar documentalmente el hueco entre recheck y estado realmente usado. **Riesgo concreto:** Puede añadir una obligación nueva a S10 y cambiar la lectura de pruebas/consumidores existentes; timestamps no prueban binding y un freeze no se reescribe. **Coste de preparar y mantener:** Adjudicación normativa, successor y revisión de controles positivos/negativos e interfaces; la edición de una frase es la parte menor.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Elegir successor del freeze y verificar un caso vigente, uno stale y otro check-to-use inválido en 16/19/43 y el dueño de ejecución. No ejecutar pruebas por este ranking. Revisar junto con 19, 43. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 43 — Trabajo por concretar.** CAND-R1 debe distinguir evidencia efectiva del rol y obligación vigente. No hay aún pasaje viejo/propuesto completo: no es parche listo.
+
+**Beneficio esperado:** Detectar deriva funcional sin convertir conducta o capacidad en autoridad. **Riesgo concreto:** Puede ampliar S7/S10/S12/S13 y reinterpretar trazas previas; la observación no prueba legitimidad. **Coste de preparar y mantener:** Acordar obligación versus aclaración y fuente/consumidores; redactar antes/después de una edición futura.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Localizar la laguna real frente aS7/S10/S12/S13/S14 y Role/Operation; si ya cubierta, no crear nuevo requisito. Concretar sólo después de adjudicar obligación versus realización. Revisar junto con 16, 19. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 44 — Trabajo por concretar.** La cadena oportunidad→admisibilidad→autoridad→ejecución ayuda a explicar límites. No hay caso/pasaje que pruebe obligación ausente.
+
+**Beneficio esperado:** Mostrar una separación ya distribuida en los requisitos. **Riesgo concreto:** Podría introducir una capa universal o confundir la ilustración con un nuevo requisito/permiso. **Coste de preparar y mantener:** Una ayuda de lectura y cotejo S/T/00H; elegir ficha o futura edición.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** CotejarS1/S2/S8/S11/T3 y 60 antes de ampliar vocabulario. Seleccionar pasaje literal sólo si la exposición actual no basta. Revisar junto con 60. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 45 — Trabajo por concretar.** La autoridad compuesta no se obtiene agregando permisos por parecido. Falta regla/perfil concreto y un par literal.
+
+**Beneficio esperado:** Evitar que autorizaciones atómicas legitimen una campaña fuera del grant. **Riesgo concreto:** Elegir agregación universal o ledger central puede cambiar autoridad y scopes de otras ramas; el dueño legítimo fija la frontera. **Coste de preparar y mantener:** Precisar unidad material, conservar S/T y probar correspondencia de casos antes de una edición.
+
+**Plan todavía sin par literal:** esta línea describe trabajo por concretar; no se ofrece como edición ejecutable ni se inventa un viejo.
+
+**Condición y orden de decisión:** Caso de permisos incompatibles y dueño legítimo; comprobarS1/S8/ACC sin inventar regla universal de agregación ni consentimientos. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

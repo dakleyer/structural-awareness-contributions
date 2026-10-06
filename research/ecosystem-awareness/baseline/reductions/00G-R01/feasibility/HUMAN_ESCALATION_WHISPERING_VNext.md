@@ -209,3 +209,31 @@ This study is a **rich virtual DDS implementation profile over R01**, not a sepa
 ~~~~
 
 Disposition: preserve this block exactly while incorporating the separately reviewed, owner-authorized DDS research additions. Impact high for common-method and consumer clarity; risk medium from evidence amplification; effort medium; First. The existing quantitative R01 mathematics remains authoritative. The user requested the canonical mechanism/DDS incorporation and first tests; this does not authorize a native campaign or resolve the held reader-index publication links.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](HUMAN_ESCALATION_WHISPERING.md), blob `b53cc318875b849475d26452aaa8fe2d089ce748`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+No se confunden los pares históricos con trabajo pendiente. En particular, promoción a «canonical research document» y nuevas afirmaciones de evidencia no reciben riesgo Bajo sólo por estar en prosa. La valoración siguiente es del alcance documental; la presencia de texto no verifica autorización original, réplica o resultado nativo.
+
+| Par conservado | Estado comprobado | Impacto esperado | Riesgo | Esfuerzo |
+|---|---|---|---|---|
+| DDS-HUMAN_ESCALATION_WHISPERING-01 — scoped DDS incorporation | Texto ya incorporado | Medio | Medio | Medio |
+| DDS-HUMAN_ESCALATION_WHISPERING-02 — scoped DDS incorporation | Texto ya incorporado | Medio | Bajo | Bajo |
+| DDS-HUMAN_ESCALATION_WHISPERING-03 — scoped DDS incorporation | Texto ya incorporado | Medio | Bajo | Bajo |
+| Current-source epoch — concurrent DDS profile retained | Conservación; no es un cambio | Bajo | Bajo | No nuevo |
+
+**DDS-HUMAN_ESCALATION_WHISPERING-01 — scoped DDS incorporation.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. **Comprobación:** viejo 0, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones.
+
+**DDS-HUMAN_ESCALATION_WHISPERING-02 — scoped DDS incorporation.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. **Comprobación:** viejo 1, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones.
+
+**DDS-HUMAN_ESCALATION_WHISPERING-03 — scoped DDS incorporation.** El después literal está en la fuente actual. Valoración retrospectiva del alcance del cambio; no tarea para repetir. **Comprobación:** viejo 1, después 1 coincidencia(s). **Antes de una revisión futura:** Conservar sus límites de fuente/modelo, fecha y resultados nativos. Publicación presente no acredita independencia, autorización institucional o validez de todas las afirmaciones.
+
+**Current-source epoch — concurrent DDS profile retained.** Antes y después son idénticos. Este bloque documenta que se preservó la aportación concurrente; no tiene beneficio de incorporación nuevo ni debe aparecer como tarea pendiente. **Comprobación:** viejo 1, después 1 coincidencia(s). **Antes de una revisión futura:** Mantener ambos bloques como evidencia histórica, sin volver a aplicar ni sumar una mejora.
+
+El trabajo nativo, una evaluación con otros responsables o una medición operacional siguen por concretar con alcance/recursos; no son nuevos pares que puedan ejecutarse. No se crea otra VNext por ejercicio, anexo o instrumento.
+
+[Visión conjunta y tandas en EP README VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

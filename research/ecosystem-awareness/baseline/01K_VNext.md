@@ -141,3 +141,39 @@ The degradation term is a profile-defined capacity loss; its calibration, eviden
 ```
 
 **Dependencias/orden:** [01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md](01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md](01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). Tanda 64/67 y decisión de Iván; no se activa calibración o campaña. Estado: Pendiente de decisión; autorización existente sólo de publicación. Instrucciones de Iván: conservarviejo, relaciones, prioridades y decisión concreta antes deincorporar; ninguna aplicación por esta revisión.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md), blob `e52ed065c5d217da73634c7eb28d26c5d990abae`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 64 | Superado por la fuente; SUPERSEDED / NOT PENDING | Alto | Alto | Medio | Histórico |
+| 67 | Superado por la fuente; SUPERSEDED / NOT PENDING | Alto | Alto | Medio | Histórico |
+
+**Cambio 64 — Superado por la fuente.** El viejo ledgerHIT ya no está en 01K. La definición actual separa capacidad runtime de HICR/HICT/HID; el par64 no es aplicable.
+
+**Beneficio esperado:** Que una reserva dentro de capacidad no produzca deuda por contarla dos veces. **Riesgo concreto:** Puede cambiar clasificación/human routing y comparacionesHEW/UC03; requiere fijar total frente a incremental. **Coste de preparar y mantener:** Conciliar ledger, ventana, unidades y consumidores; no recalcular resultados congelados.
+
+**Localización actual:** viejo completo 0 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Conservar el antes histórico y no reutilizar su fórmula como HID. Examinar la nueva serie/componente dentro de 01K antes de proponer algo contra la fuente actual. Revisar junto con 67. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 67 — Superado por la fuente.** La restaHIT anterior dejó de ser la definiciónHID vigente. Corregirla como si siguiera gobernando mezclaría dos arquitecturas.
+
+**Beneficio esperado:** Que aceptar clases ordinales no legitime restas o precisión cognitiva inexistente. **Riesgo concreto:** Afecta medición y estados que consumenOperation/01J/UC03/HEW; no inventar conversión universal. **Coste de preparar y mantener:** Declarar escala, additivity/overlap y ventanas, contraste con calibración; sin pruebas con humanos.
+
+**Localización actual:** viejo completo 0 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Conservar historia y no recrear64/67. RevisarHC runtime y HID arquitectura separadamente, con fuentes del nuevo01K-A01 y sus consumidores. Revisar junto con 64. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Consecuencia entre documentos:** [64](01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [67](01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [68](01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [69](01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [70](01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). 64/67 ya no describen la fuente vigente de HID: las antiguas observaciones del ledger quedan como historia, sin volver a la cola. El nuevo componente HC-HID/01K-A01 y sus fuentes mantienen revisión material pendiente dentro del mismo propietario 01K. Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+**Recepción del plan de identidad01K-A01:** el contrato del componente tiene ahora [su VNext existente](01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md); se revisó su par, ya incorporado. Este expediente01K sigue siendo dueño de investigación/medición y sus fuentes, mientras A01 define implementación. La distinción no reabre 64/67 ni acredita un HID empírico; riesgos de transferir autoridad o evidencia se valoranMedio y requieren fuentes/receptores en una revisión futura.

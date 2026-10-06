@@ -131,3 +131,26 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** El cotejo de payloads 01C confirma que 01D §4 impide UNKNOWN→P_RA=0 y §§2/5/6 conserva operación/versión, dependencia condicional y coste. Los nuevos candidatos 52/53 no reemplazan el mapping P_RA/Δ_RA ya propuesto: un perfil amplio aún debe justificarlo. El candidato 54 conserva rol vinculado versus evidencia de conducta; no nueva autoridad ni permit.
 
 La explicación, cobertura y viejos/nuevos están en [01C VNext](01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](../../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md) y [Role VNext](../../../standards/minimum-sufficient-control/02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), blob `c9cb2d1326f016db89ec41f9945638e25ecbbead`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 17 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
+
+**Cambio 17 — Cambio acoplado; no listo.** Δ_RA amplio y P_RA mínimo no son intercambiables. La precisión exige explicar la especialización, no añadir una traducción ficticia.
+
+**Beneficio esperado:** Evitar que dos representaciones distintas se tomen como equivalentes por enlace. **Riesgo concreto:** Una correspondencia inventada pierde scope, certeza o condiciones de acción; varios perfiles consumen esas salidas. **Coste de preparar y mantener:** Esfuerzo Alto: además de redactar, leer y conciliar productor, receptores, perfiles/materiales y casos límite; comprobar compatibilidad y mantenimiento de versiones antes de una decisión.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Cotejar01C→01D→Operation y el retorno Composition para el mismo scope/versión/ventana; RA advisory no veta una acción que no dependa de él. Revisar junto con 35, 37, 38. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

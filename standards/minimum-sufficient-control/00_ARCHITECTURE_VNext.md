@@ -45,3 +45,20 @@ El estado público de ATHENA se examina en ACC VNext. Su propuesta sobre origen 
 ## Plan de cambios y continuidad
 
 **Sin cambio propuesto al cuerpo de Architecture en este corte.** Conserva multi-optima y no impone una política única. Dependencia de revisión: conciliar57/58/59 antes de presentar una selección como ejecutable. Riesgo alto de un parche aislado al ranking, esfuerzo medio de cotejo de perfiles; no autoriza aplicar candidatos. Primera, tercera y cuarta pasadas textuales realizadas; segunda abierta; quinta específica realizada con límites visibles. La sexta global sigue pendiente.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00_CANONICAL_MSCA_ARCHITECTURE.md), blob `ab03b11a6b91a156eaa22f76f4959d5ac530f52b`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+**Juicio del plan: No modificar kernel: justificado en el texto leído.** Architecture preserva multi-optima y costes no escalares. La laguna está en Gradient y su receptor, no enS/E/C/P/M.
+
+**Trabajo necesario para un plan adecuado:** Conciliar57→58→59: alternativas/incomparabilidad/constraints. Esfuerzo Alto de perfiles; no ampliar kernel por un resumen.
+
+No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/después para llenar una tabla. La ausencia de candidato sólo se justifica en el alcance leído; no significa auditoría integral concluida. Si aparece una laguna material, su par literal, alcance, beneficio, riesgo, coste y decisión quedarán en esta misma VNext.
+
+**Consecuencia entre documentos:** [57](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [58](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [59](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
+
+[Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.

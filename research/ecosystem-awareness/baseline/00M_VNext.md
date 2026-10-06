@@ -277,3 +277,46 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. La definición propietaria no se propone cambiar: §1.4/1.5 ya distingue barrera efectiva, reserva evaluable, exploración y UNKNOWN sin clasificación. El conflicto está en el consumidor genérico 01J, mientras su ejemplo ya conserva el significado.
 
 [01J VNext](01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../../governance/review/Signalling-full-2026-10-06/evidence.json).
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 7 | Documental condicionado; Pendiente de decisión | Medio | Bajo | Bajo | Después |
+| 8 | Aclaración opcional; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
+| 9 | Documental condicionado; Pendiente de decisión | Medio | Bajo | Bajo | Después |
+
+**Cambio 7 — Documental condicionado.** La ruta a 00N mejora lectura, no demuestra nueva utilidad ni cierraH06. El párrafo viejo sigue localizado.
+
+**Beneficio esperado:** Facilitar lectura independiente sin confundir representación y funcionamiento. **Riesgo concreto:** El enlace versionado puede quedar viejo cuando cambie la ruta 00N; un enlace nuevo dentro de 00M afecta un payload identificado. **Coste de preparar y mantener:** Texto corto y comprobar ruta/versión; la vía de incorporación debe conservar la edición anterior.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Destino00N correcto y opcional; conservar versión/hash de 00M y decidir una futura edición, sin cambiar la nota identificada. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 8 — Aclaración opcional.** La fuente ya exige un estado compatible no vacío. El ejemplo enseña esa condición; no corrige una inferencia matemática que antes fuera universalmente falsa.
+
+**Beneficio esperado:** Mostrar que una aproximación singleton no demuestra que exista un estado compatible. **Riesgo concreto:** Podría leerse como obligación de enumerar todos los estados o confundir consistencia con completitud; afecta el significado que lectores y pruebas reutilizan. **Coste de preparar y mantener:** Revisión lógica del ejemplo y correspondencia con premisas, manteniendo la edición 00M previa.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Verificar las tres respuestas y que la aproximación conservadora no prueba existencia. Considerar si el ejemplo agrega valor suficiente frente a longitud; original identificado preservado. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 9 — Documental condicionado.** El enlace alternativo puede mejorar acceso. Un fallo de recuperación anterior no prueba que la URL original esté rota para todos.
+
+**Beneficio esperado:** Hacer accesible el paper y distinguir copia y registro de publicación. **Riesgo concreto:** Una URL externa o edición puede cambiar; el fallo de acceso de una herramienta no prueba que la URL original esté rota para todos. **Coste de preparar y mantener:** Comprobar identidad/edición y acceso cuando se decida; no reproducir la prueba.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Confirmar URL/edición primaria y atribución antes de una futura edición; no presentar inaccesibilidad puntual como defecto científico. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+**Revisión cruzada de la nueva alternativa 71:** 71 resume el papel de la calificación para un lector del README. Concuerda con 00M §4.1 si conserva pregunta, scope y suficiencia condicional; no convierte una lectura nueva en prueba de resultados anteriores. El par nuevo no cambia 00M ni su evidencia. [Viejo y propuesto completos en EP](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026).

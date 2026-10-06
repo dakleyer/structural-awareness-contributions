@@ -621,3 +621,35 @@ El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prio
 **Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Registrar limitación si proveedor no ofrece pin; no renovar todo Current por una consulta parcial.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05a-r1-delta-002--fecharevisión-de-fuente-en-la-ficha-de-promoción); el viejo tiene una coincidencia en [la fuente actual](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `814e9843e237f42b3e1fe26db0a4d3ad41fe2a9c`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+
+---
+
+## Revisión a fondo de los planes de cambio — 6 octubre 2026
+
+**Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md), blob `71abf26cd885d8567ca7d87dfcb4e44a2a5709d5`. Los registros anteriores y sus viejos completos permanecen íntegros.
+
+La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
+
+| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
+|---|---|---|---|---|---|
+| 31 | Documental preparado; Pendiente de decisión | Alto | Bajo | Bajo | Primera |
+| 32 | Documental preparado; Pendiente de decisión | Alto | Bajo | Medio | Primera |
+
+**Cambio 31 — Documental preparado.** Las tasas deTheme21 son reporte de contributor con límites no-ground-truth/honest-judges. El cambio evita llamar reproducción independiente a esa lectura.
+
+**Beneficio esperado:** Que consulta de cifras no se lea como validación independiente del dataset. **Riesgo concreto:** Un reporte puede ser editado o corregido después; la precisión debe conservar el corte y honest-judges/no-ground-truth. **Coste de preparar y mantener:** Una frase de la VNext y cotejo del reporte fijado; no reproducir dataset.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Mantener autor/fecha/edición de los anchors ya consultados; si se pide estado externo actual, comprobar posteriores antes de afirmarlo. No recalcular dataset. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+**Cambio 32 — Documental preparado.** El registro Current necesita fecha y revisión identificable para poder reconstruir qué fue leído. La plantilla no prueba que todas las filas ya tengan soporte.
+
+**Beneficio esperado:** Hacer reconstructible qué fuente mutable sustentó una relación Current. **Riesgo concreto:** Si no hay revisionId, inventarlo falsearía procedencia; una fecha no garantiza inmutabilidad. **Coste de preparar y mantener:** Una regla de ficha y aplicación futura por fila, sin nuevo campo de payload.
+
+**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
+
+**Condición y orden de decisión:** Completar anchors por fila con fecha y revision/hash disponible; si no existe pin, declararlo sin inventarlo. Mantener estados de autor/revisión/adopción separados. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
+
+[Visión conjunta y tandas en EP README VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
