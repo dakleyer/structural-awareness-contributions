@@ -910,3 +910,18 @@ Los pares59/60 anteriores siguen visibles y vuelven amostrarse contra el nuevo b
 **Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. La lectura completa de01J añade un problema de fondo concreto: tres reglas genéricas fuerzan D por incertidumbre de traducción, mientras la definición y el ejemplo requieren barrera efectiva. No se corrige la teoría central para acomodar un consumidor; se prepara una tanda compatible68/69/70.
 
 [01J VNext](../../research/ecosystem-awareness/baseline/01J_VNext.md) conserva el relato, contraejemplos propios y pares68/69/70, con impactoAlto/riesgoAlto/esfuerzoMedio/prioridadPrimera. Misma regla en prosa, síntesis y esquema; cotejar campos materiales y consumidores antes de decidir. No se aplicó ninguna propuesta ni se transformó la relectura en auditoría independiente. Quinta específica de01J realizada en alcance declarado; segunda material y sexta global permanecen abiertas. [Evidencia](../../governance/review/Signalling-full-2026-10-06/evidence.json).
+
+
+---
+
+## Garantía de trabajo — una VNext y originales de sólo lectura
+
+**Instrucción reiterada de Iván, 6 de octubre de 2026:** «sólo hay un vnext para cada archivo» y «no cambias los archivos canónicos originales». Auditoría de unicidad realizada por Codex, mismo asistente de IA, contra el árbol `e08e4f12ffd3f1dff64bc08df6af62c943992831`.
+
+Se vincularon los **45 archivos con nombre VNext y el benchmark v0.3**, que ya es su propio expediente, a **46 fuentes lógicas distintas**. No se encontró una fuente con dos VNext activas. Las partes de una misma fuente y las versiones anteriores siguen dentro de su expediente existente. Las copias auténticas de preservación son historia, no nuevos espacios de auditoría; no se crean pasadas en ellas.
+
+Antes de abrir una VNext se comprobarán tanto ruta como fuente, versiones, partes y posibles nombres alternativos. Si ya existe, todas las pasadas, respuestas, evidencia, propuestas y repeticiones se añaden allí. No abrir una VNext por pasada, un segundo expediente de la misma fuente, una revisión de la VNext, otro README o fichas redundantes. El material adicional mantiene sus tres catálogos y la instrucción de no fabricar nuevas auditorías.
+
+**Originales en lectura:** no aplicar propuestas ni escribir dentro de archivos canónicos originales, incluso nuevas notas o enlaces. Las autorizaciones anteriores permitieron breves adiciones de navegación a índices; sus cuerpos previos se preservaron, pero esta instrucción más reciente impide continuar añadiendo al original. Las observaciones y nuevos accesos de revisión se acumulan en las VNext existentes. La estrategia y el README EP originales mantienen además su protección explícita; resultados, fuentes congeladas, código y binarios no se modifican por revisar.
+
+Los controles de las entregas de esta revisión verificaron diff acotado, predecesores auténticos y lectura pública de vuelta. Esa comprobación no certifica otros cambios concurrentes ni significa que se hayan terminado las cinco pasadas o la conciliación global. La revisión pendiente continúa con estos límites.
