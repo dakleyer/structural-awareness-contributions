@@ -355,18 +355,3 @@ La búsqueda preparatoria puede reunir fuentes mientras se terminan las cuatro l
 La quinta termina en un alcance declarado cuando la comparación y la decisión sobre cada pieza estén justificadas: reutilizable con condiciones, candidata pendiente, no pertinente, diferencial no establecido o cambio propuesto. No termina por acumular citas. Sus resultados se concilian entre documentos y orientan prioridades de desarrollo sin sustituir los originales.
 
 El [primer mapa externo](./review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md) registra fuentes consultadas y preguntas iniciales; los [expedientes activos](./review/EP_EXTERNAL_RESEARCH_STATUS_2026-10-06.tsv) mantienen pendiente la quinta cuando falte su contraste específico. La obligación se aplica también a las VNext que se creen después, para todo Contributions. No se crean VNext adicionales por esta nueva pasada.
-
-
----
-
-## Publicar el trabajo realizado dentro de las VNext — instrucción de Iván
-
-**Adición al plan, revisión 1.7 · 6 de octubre de 2026.** Iván pide publicar todo el trabajo ya hecho de esta revisión y no conservar auditorías o propuestas como un pendiente solo local.
-
-Cada resultado, lectura, hallazgo, conversación y propuesta preparada se publica dentro de la única VNext de su documento, con alcance y límites reales, sin esperar a completar las cinco pasadas o el corpus entero. Las síntesis y resultados comunes se explican también en README VNext propietario. Los soportes reproducibles pueden enlazarse desde allí; no sustituyen la explicación humana ni crean VNext adicionales.
-
-Se distingue **trabajo realizado todavía sin publicar**, **auditoría pendiente de hacer** y **propuesta publicada pendiente de incorporación**. La autorización de publicación cubre los resultados, incluidos los parciales, y las propuestas que ya estén preparados. Una auditoría pendiente de hacer sigue siendo trabajo futuro: no se fabrica contenido para presentarla como realizada ni se incorpora una propuesta canónica.
-
-Antes de entregar, conciliar los textos y evidencias de staging con el GitHub actual, conservar los predecessors, comprobar el diff y leer de vuelta. Un borrador anterior que ya fue desarrollado en el expediente público se relaciona con esa historia; no reemplaza estados posteriores. Los originales públicos y las copias operativas no se duplican como si fueran trabajo nuevo.
-
-[Conciliación publicada dentro de EP README VNext](../architectural-contributions/ecosystem-positioning/README_VNext.md#publicación-del-trabajo-preparado--instrucción-de-iván). Continúan la preservación, los tres niveles de lectura y la decisión concreta de Iván para incorporar cambios en el canon.

@@ -189,14 +189,3 @@ El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_R
 La construcción conserva origen y autoridad a través de memoria transformada. Depende de monitor, canales y atribución de valores; la prueba acotada no equivale a una demostración universal. Su [código](https://github.com/yedidel/mem-inv-bench) es candidato a inspección, no una pieza ya admitida.
 
 **Juicio para 00M:** la existencia de esa realización invita a comparar operaciones y premisas, pero no hace equivalentes sus etiquetas de integridad y nuestros roles funcionales A/B/C/D. Se estudiará qué puede aprovecharse y qué claims de conservación ya tienen precedente; no se afirma novedad ni se trasladan sus resultados al corpus.
-
-
----
-
-## Evidencia del contraste de publicación ya realizado — ahora pública
-
-**Auditoría realizada por Codex, 6 de octubre de 2026; conciliación de publicación.** Se incorpora el [resultado de comparación de procedencia](../../../governance/review/publication-reconciliation-2026-10-06/00M_provenance_comparison.json) preparado durante la revisión anterior.
-
-El authored payload de publicación y la lectura posterior no son idénticos: la comparación conserva hashes y los cambios exactos ya identificados. La nota de adopción/enlace y las precisiones de estado pertenecen a la época posterior; el hash histórico se mantiene válido para su fuente. No se modifica un manifest ni se reconstruye el original.
-
-Esta publicación hace accesible la evidencia del examen; no repite una auditoría independiente ni completa el traslado de pruebas antiguas a la semántica actual. El cuerpo de 00M, su VNext anterior y las propuestas permanecen conservados.

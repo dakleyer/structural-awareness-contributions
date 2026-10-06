@@ -1,0 +1,53 @@
+{
+  "source_snapshot": "2db5a8c17f58008f9268c23c681ba6e14c8dfbdc",
+  "scope": "Six literal before fragments; each matched once when prepared. No source delta applied.",
+  "checks": [
+    {
+      "draft": "research/ecosystem-awareness/baseline/00N_VNext.md",
+      "source": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+      "count": 1,
+      "before": "Work on partial information decomposition distinguishes redundant, unique and sy"
+    },
+    {
+      "draft": "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+      "source": "research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md",
+      "count": 1,
+      "before": "## 2. Compact traceability"
+    },
+    {
+      "draft": "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+      "source": "research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md",
+      "count": 1,
+      "before": "**Optional addendum · v0.1 · 2 October 2026 · local research draft.** Companion "
+    },
+    {
+      "draft": "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+      "source": "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md",
+      "count": 1,
+      "before": "F7 decides whether targeted human review is justified, whether another evidence "
+    },
+    {
+      "draft": "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+      "source": "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.md",
+      "count": 1,
+      "before": "A formally authorized reviewer exists but is unavailable or cannot respond in ti"
+    },
+    {
+      "draft": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "source": "research/ecosystem-awareness/baseline/README.md",
+      "count": 1,
+      "before": "[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B"
+    }
+  ],
+  "missing": [
+    {
+      "from": "research/ecosystem-awareness/baseline/UC-EA-03_v0.4_MAINTENANCE_FREEZE.part02.md",
+      "raw": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/submissions/it",
+      "to": "submissions/it",
+      "anchor": "",
+      "status": "missing",
+      "type": null
+    }
+  ],
+  "anchors": []
+}

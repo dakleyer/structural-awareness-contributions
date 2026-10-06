@@ -1,0 +1,514 @@
+{
+  "request": "Publish completed review work and proposals inside the sole document VNext; retain originals.",
+  "verified_head": "65517160658e6485f2dd63415a7365674e9bd6ea",
+  "current_prepared_paths": [
+    {
+      "path": "research/ecosystem-awareness/baseline/00N_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "a5103db1b52135740793d18c8b38e27f348357d8",
+      "currentBlob": "a5103db1b52135740793d18c8b38e27f348357d8"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "48f64a57ed6d36a93c2e661ba1b378af4ae1ab15",
+      "currentBlob": "48f64a57ed6d36a93c2e661ba1b378af4ae1ab15"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "c45895b78aea2f43686ea9499a673ecb3196e153",
+      "currentBlob": "c45895b78aea2f43686ea9499a673ecb3196e153"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/UC-EA-03_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "0bfc5c1c0115d14724311ac91f52e1df5fb69a03",
+      "currentBlob": "0bfc5c1c0115d14724311ac91f52e1df5fb69a03"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "92e8f322c2fd2ea1b0c9401ac48ba0e387f5911d",
+      "currentBlob": "92e8f322c2fd2ea1b0c9401ac48ba0e387f5911d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00N_ADDENDUM_REVIEW_CARD.md",
+      "pack": "plannedAuditChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "d262d88ec353dd130a08ffd3c527c44dbab5e10f",
+      "currentBlob": "d262d88ec353dd130a08ffd3c527c44dbab5e10f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/UC-EA-03_REVIEW_CARD.md",
+      "pack": "plannedAuditChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "7ea8fd6e3cf15bc8ba7dfa8894529739a6833662",
+      "currentBlob": "7ea8fd6e3cf15bc8ba7dfa8894529739a6833662"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/05A_BASELINE_COPY_REVIEW_CARD.md",
+      "pack": "plannedAuditChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "23acf66274e8a1522d2647335c25bef62f14f893",
+      "currentBlob": "23acf66274e8a1522d2647335c25bef62f14f893"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md",
+      "pack": "plannedAuditChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "8832c255e3775116046273363c131c05878af16d",
+      "currentBlob": "8832c255e3775116046273363c131c05878af16d"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/README.md",
+      "pack": "plannedAuditChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "54ddcc0f33d25e3adb0591d006b8f741ff68b0d6",
+      "currentBlob": "54ddcc0f33d25e3adb0591d006b8f741ff68b0d6"
+    },
+    {
+      "path": "governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "46e75c61edaf764fbf928a9c3f79de77701e4d3f",
+      "currentBlob": "46e75c61edaf764fbf928a9c3f79de77701e4d3f"
+    },
+    {
+      "path": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "4d0f1764d791d1fbd1da82d7f9473eb2f981b3f5",
+      "currentBlob": "4d0f1764d791d1fbd1da82d7f9473eb2f981b3f5"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "861ea2d8cedbf3e7ce9b2bdf3be27308e824416c",
+      "currentBlob": "861ea2d8cedbf3e7ce9b2bdf3be27308e824416c"
+    },
+    {
+      "path": "governance/review/EP_REVIEW_NAVIGATION_2026-10-06.md",
+      "pack": "plannedAuditChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "1b980d54bbcd11224a75135a70862639063d4e77",
+      "currentBlob": "1b980d54bbcd11224a75135a70862639063d4e77"
+    },
+    {
+      "path": "governance/review/EP_REVIEW_NAVIGATION_2026-10-06.json",
+      "pack": "plannedAuditChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "38dfb67bacdb8b6a5e5b78ce5e5bda98083149b9",
+      "currentBlob": "38dfb67bacdb8b6a5e5b78ce5e5bda98083149b9"
+    },
+    {
+      "path": "governance/review/EP_REVIEW_COVERAGE_2026-10-06.tsv",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "c5da93ee36bb50be5450ec268ebb0c6b2430ebfd",
+      "currentBlob": "c5da93ee36bb50be5450ec268ebb0c6b2430ebfd"
+    },
+    {
+      "path": "research/ecosystem-awareness/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "ec0b4b4b110fa606bdab1221d79a5ead8792f6d8",
+      "currentBlob": "ec0b4b4b110fa606bdab1221d79a5ead8792f6d8"
+    },
+    {
+      "path": "research/regime-awareness/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "33d1d2ff9a186c88e5dbf35f0184aef007f7b8c8",
+      "currentBlob": "33d1d2ff9a186c88e5dbf35f0184aef007f7b8c8"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "e3829acda351cef80d22273572b86142cf48f069",
+      "currentBlob": "e3829acda351cef80d22273572b86142cf48f069"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01C_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "57a0d79442e97efac81a242928f506da9bb90ea2",
+      "currentBlob": "57a0d79442e97efac81a242928f506da9bb90ea2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01D_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "91ddcd5125f629b6dbadb66eca005dd12df678d7",
+      "currentBlob": "91ddcd5125f629b6dbadb66eca005dd12df678d7"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "9fb1475e63b9e59f0999bbf07ef824aa7e1e8551",
+      "currentBlob": "9fb1475e63b9e59f0999bbf07ef824aa7e1e8551"
+    },
+    {
+      "path": "governance/review/EP_REVIEW_REPOSITORY_SCOPE_2026-10-06.md",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "53dfbd0e2a18c2e07b0f3e558827ecb1a014ef3e",
+      "currentBlob": "53dfbd0e2a18c2e07b0f3e558827ecb1a014ef3e"
+    },
+    {
+      "path": "governance/review/EP_REVIEW_REPOSITORY_SCOPE_2026-10-06.json",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "dbecb3eade605c7834f839c1d9deacc327ea0e19",
+      "currentBlob": "dbecb3eade605c7834f839c1d9deacc327ea0e19"
+    },
+    {
+      "path": "governance/review/EP_REVIEW_INTEGRATIONS_2026-10-06.md",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "a5efbca1943a2dbaf7046292ab2646351494f20d",
+      "currentBlob": "a5efbca1943a2dbaf7046292ab2646351494f20d"
+    },
+    {
+      "path": "research/ecosystem-awareness/README.md",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "202e86fcf1c153444d0b96188869978aef54b201",
+      "currentBlob": "202e86fcf1c153444d0b96188869978aef54b201"
+    },
+    {
+      "path": "research/regime-awareness/README.md",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "f021454aeb8359da468dbe4a2725851cce9c4d01",
+      "currentBlob": "f021454aeb8359da468dbe4a2725851cce9c4d01"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/README.md",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "6e964aae2fb3e15d3980fd4004a364b892a95cbf",
+      "currentBlob": "6e964aae2fb3e15d3980fd4004a364b892a95cbf"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01C_REVIEW_CARD.md",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "a5f8cfa3e20730ffb5aa1c4dbeebb86f03d8eb7e",
+      "currentBlob": "a5f8cfa3e20730ffb5aa1c4dbeebb86f03d8eb7e"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01D_REVIEW_CARD.md",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "927633b50b56bec60d75be6ce2a3c92edcd6314c",
+      "currentBlob": "927633b50b56bec60d75be6ce2a3c92edcd6314c"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/04_OPERATION_REVIEW_CARD.md",
+      "pack": "scopeChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "10977be6a3ac07e27642892eb87b2a7acfc0103b",
+      "currentBlob": "10977be6a3ac07e27642892eb87b2a7acfc0103b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00M_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "9a8a4f6b1ba6a379d47c1d0d84aa752795c0cbe2",
+      "currentBlob": "9a8a4f6b1ba6a379d47c1d0d84aa752795c0cbe2"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "a925f0f8b84693f5f58ce15381cf110be3861db1",
+      "currentBlob": "a925f0f8b84693f5f58ce15381cf110be3861db1"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "ac9f9d06ba0ced9aeb3b9afb81dd399cdaa51673",
+      "currentBlob": "ac9f9d06ba0ced9aeb3b9afb81dd399cdaa51673"
+    },
+    {
+      "path": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "b6ac1462cbb2ef7d20f105eef8bc9ee59b296139",
+      "currentBlob": "b6ac1462cbb2ef7d20f105eef8bc9ee59b296139"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "f9aed1b8cf58ba76b7ad1b4cafc50769fb7819ba",
+      "currentBlob": "f9aed1b8cf58ba76b7ad1b4cafc50769fb7819ba"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/COMPUTABILITY_AND_ORACLE_PLAN_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "d017c2d2b08ed0c065de2c4de2c1e6172a14aa5f",
+      "currentBlob": "d017c2d2b08ed0c065de2c4de2c1e6172a14aa5f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/Escenario-creatividad-validacion_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "02e1d3b895f33ab7856007e3cfc4e67bf1d580fe",
+      "currentBlob": "02e1d3b895f33ab7856007e3cfc4e67bf1d580fe"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "02235d733bd3494532987096eea983e9ba31ad3f",
+      "currentBlob": "02235d733bd3494532987096eea983e9ba31ad3f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "6e5611de39f5d554437dfc30898af107ad992058",
+      "currentBlob": "6e5611de39f5d554437dfc30898af107ad992058"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "916943cd6e827bcb19594ba4e3d17b389a9caabe",
+      "currentBlob": "916943cd6e827bcb19594ba4e3d17b389a9caabe"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "be5b1354a8ce0bd34aef2d80cb50b28d7760f6e1",
+      "currentBlob": "be5b1354a8ce0bd34aef2d80cb50b28d7760f6e1"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "e481b6464d0d21188a1f6da91252b7875cee412b",
+      "currentBlob": "e481b6464d0d21188a1f6da91252b7875cee412b"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "1c081ca2d1bdd977e79bfeb9a3d6fe628d085818",
+      "currentBlob": "1c081ca2d1bdd977e79bfeb9a3d6fe628d085818"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00G-HF-ORACLE-v0.4/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "1a6c7bd7a1e04f07021005072605b554ccdbb2da",
+      "currentBlob": "1a6c7bd7a1e04f07021005072605b554ccdbb2da"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "76a8aa2618d7d66d9129ca844f8b0d19c61191fd",
+      "currentBlob": "76a8aa2618d7d66d9129ca844f8b0d19c61191fd"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "2628499d7f1466f7674cb40d20831a8a7559ce2f",
+      "currentBlob": "2628499d7f1466f7674cb40d20831a8a7559ce2f"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README_VNext.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "0ac0a50b9788723555b8cc59c4efc484d95ed007",
+      "currentBlob": "0ac0a50b9788723555b8cc59c4efc484d95ed007"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "700e4eeeb265c96abf326595a989339cfd377c86",
+      "currentBlob": "700e4eeeb265c96abf326595a989339cfd377c86"
+    },
+    {
+      "path": "governance/review/EP_EXTERNAL_RESEARCH_REVIEW_2026-10-06.md",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "43d04be7a874d20e96f011949465a5cfca54cbd1",
+      "currentBlob": "43d04be7a874d20e96f011949465a5cfca54cbd1"
+    },
+    {
+      "path": "governance/review/EP_EXTERNAL_RESEARCH_EVIDENCE_2026-10-06.json",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "6504662d5866c24d0bda4dfcf569d2c928fe9779",
+      "currentBlob": "6504662d5866c24d0bda4dfcf569d2c928fe9779"
+    },
+    {
+      "path": "governance/review/EP_EXTERNAL_RESEARCH_STATUS_2026-10-06.tsv",
+      "pack": "fifthChanges",
+      "publishedAtCurrentHead": true,
+      "expectedBlob": "6f025f2a009f275ea355b1e95b1dbd9d177449bc",
+      "currentBlob": "6f025f2a009f275ea355b1e95b1dbd9d177449bc"
+    }
+  ],
+  "prior_publications": [
+    {
+      "commit": "e80846a0f9cf3b97cf222ed3d1e28b31d145ad3e",
+      "scope": "00N source continuation, 00M-A01, addendum, UC03 and navigation"
+    },
+    {
+      "commit": "fdb530e739a7647d70ab258071d03f1941844c6a",
+      "scope": "Full scope, integration, EA/RA/MSCA and 01C/01D/Operation VNext"
+    },
+    {
+      "commit": "65517160658e6485f2dd63415a7365674e9bd6ea",
+      "scope": "Fifth pass, 31 active expedientes, map and three partial contrasts"
+    }
+  ],
+  "additional_text_comparison": [
+    {
+      "target": "DOCUMENT_CONTROL.md",
+      "local_copy": "Tegrity.AI/gemini_process/corpus_review_setup_2026-10-06/DOCUMENT_CONTROL.md",
+      "normalized_text_present": true,
+      "remaining_difference": []
+    },
+    {
+      "target": "governance/review/EP_REVIEW_LINK_SCAN_2026-10-06.mjs",
+      "local_copy": "Tegrity.AI/gemini_process/corpus_audit_pass1_2026-10-06/EP_REVIEW_LINK_SCAN_2026-10-06.mjs",
+      "normalized_text_present": true,
+      "remaining_difference": []
+    },
+    {
+      "target": "research/ecosystem-awareness/baseline/00M_VNext.md",
+      "local_copy": "Tegrity.AI/gemini_process/continuous_corpus_review_2026-10-06/00M_VNext.md",
+      "normalized_text_present": false,
+      "remaining_difference": [
+        {
+          "kind": "delete",
+          "local_lines": [
+            ""
+          ],
+          "public_lines": []
+        }
+      ]
+    },
+    {
+      "target": "research/ecosystem-awareness/baseline/00N_VNext.md",
+      "local_copy": "Tegrity.AI/gemini_process/continuous_corpus_review_2026-10-06/00N_VNext.md",
+      "normalized_text_present": true,
+      "remaining_difference": []
+    },
+    {
+      "target": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "local_copy": "Tegrity.AI/gemini_process/continuous_corpus_review_2026-10-06/README_AUDIT_ADDITION.md",
+      "normalized_text_present": false,
+      "remaining_difference": [
+        {
+          "kind": "replace",
+          "local_lines": [
+            "**6 de octubre de 2026 · revisión acumulativa 1.4.** La revisión sigue en este mismo chat con una continuación programada cada hora. El objetivo es completar las pasadas de todos los documentos del alcance y la conciliación final; publicar avances no cierra ese objetivo. Los estados siguientes describen trabajo real, no la mera existencia de una VNext."
+          ],
+          "public_lines": [
+            "**6 de octubre de 2026 · revisión acumulativa 1.5.** La revisión sigue en este mismo chat con una continuación programada cada hora. El objetivo es completar las pasadas de todos los documentos del alcance y la conciliación final; publicar avances no cierra ese objetivo. Los estados siguientes describen trabajo real, no la mera existencia de una VNext."
+          ]
+        }
+      ]
+    },
+    {
+      "target": "governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md",
+      "local_copy": "Tegrity.AI/gemini_process/human_review_four_pass_plan_2026-10-06/ADDITION_FOR_PROCEDURE.md",
+      "normalized_text_present": true,
+      "remaining_difference": []
+    },
+    {
+      "target": "architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md",
+      "local_copy": "Tegrity.AI/gemini_process/ep_development_strategy_2026-10-06/DEVELOPMENT_STRATEGY.md",
+      "normalized_text_present": true,
+      "remaining_difference": []
+    },
+    {
+      "target": "architectural-contributions/ecosystem-positioning/README.md",
+      "local_copy": "Tegrity.AI/gemini_process/ep_development_strategy_2026-10-06/README_APPEND.md",
+      "normalized_text_present": true,
+      "remaining_difference": []
+    },
+    {
+      "target": "architectural-contributions/ecosystem-positioning/README_VNext.md",
+      "local_copy": "Tegrity.AI/gemini_process/readme_three_level_control_2026-10-06/architectural-contributions__ecosystem-positioning__README_VNext.md_ADDITION.md",
+      "normalized_text_present": true,
+      "remaining_difference": []
+    },
+    {
+      "target": "DOCUMENT_CONTROL.md",
+      "local_copy": "Tegrity.AI/gemini_process/readme_three_level_control_2026-10-06/DOCUMENT_CONTROL.md_ADDITION.md",
+      "normalized_text_present": true,
+      "remaining_difference": []
+    },
+    {
+      "target": "governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md",
+      "local_copy": "Tegrity.AI/gemini_process/readme_three_level_control_2026-10-06/governance__CORPUS_REVIEW_PROCEDURE_2026-10-06.md_ADDITION.md",
+      "normalized_text_present": true,
+      "remaining_difference": []
+    },
+    {
+      "target": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+      "local_copy": "status_notes/gemini_process/r01_vnext_workplan_2026-10-06/README_VNext_apply_patch_text_copy.md",
+      "normalized_text_present": false,
+      "remaining_difference": [
+        {
+          "kind": "replace",
+          "local_lines": [
+            "**Método vigente:** procedimiento EP 1.2, leído en commit `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`. Esta entrega incorpora los comentarios ya investigados, no certifica cuatro pasadas completadas."
+          ],
+          "public_lines": [
+            "**Método vigente:** procedimiento EP 1.2 con adiciones 1.3 y 1.4, releído en corte `e80846a0f9cf3b97cf222ed3d1e28b31d145ad3e`; §2 conserva la actualización y su identidad. La lectura anterior de EP 1.2 se fijó en `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`. Historia inicial: la entrega de comentarios no completó las cuatro pasadas. La instrucción posterior IVAN-R01-ORACLE-20261006-03 abre su ejecución diferenciada; la tabla muestra el avance actual."
+          ]
+        },
+        {
+          "kind": "replace",
+          "local_lines": [
+            "| Fondo y lógica | Parcial: argumento central y límites del evaluador examinados. |",
+            "| Evidencia y relaciones entre documentos | Parcial: principales antecedentes y contratos contrastados; frontera transitiva y revisión cruzada completa pendientes. |",
+            "| Edición, estructura y formato | Pendiente como pasada separada; las observaciones y propuestas existentes son insumos. |",
+            "| Legibilidad y comprensión humana | Pendiente como pasada separada; no ha participado un lector humano independiente. |"
+          ],
+          "public_lines": [
+            "| Fondo y lógica | Pasada previa del README y nueva lectura del conjunto/compatibilidad realizadas en sus alcances. Validación externa y código completo pendientes. |",
+            "| Evidencia y relaciones entre documentos | Contraste previo y ampliación UC4/terceros realizados; fuentes vecinas siguen parcialmente revisadas. |",
+            "| Edición, estructura y formato | Markdown y navegación de la ampliación inspeccionados; siete propuestas exactas pendientes, sin incorporación. |",
+            "| Legibilidad y comprensión humana | Relecturas previas y de la ampliación simuladas por el mismo asistente; participación humana independiente no realizada. |"
+          ]
+        },
+        {
+          "kind": "replace",
+          "local_lines": [
+            "**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.1 · **Fecha:** 6 de octubre de 2026  ",
+            "**Estado:** auditoría documental y de relaciones parcial; propuestas pendientes de decisión por ID.  "
+          ],
+          "public_lines": [
+            "**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.11 · **Fecha:** 6 de octubre de 2026  ",
+            "**Estado:** cuatro pasadas previas del README realizadas en su alcance; ampliación de la visión general revisada en cuatro lecturas diferenciadas por el mismo asistente; relaciones vecinas parcialmente revisadas y cierre completo abierto; siete propuestas pendientes de decisión por ID.  "
+          ]
+        }
+      ]
+    }
+  ],
+  "comparison_limits": "Whitespace/line endings normalized for text comparison only; original files not edited. Publication does not imply review completion.",
+  "remaining_audit_work": "Pending readings, primary access and integration checks remain open inside VNext; these are not completed work withheld from publication."
+}
