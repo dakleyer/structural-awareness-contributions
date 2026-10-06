@@ -218,9 +218,9 @@ A DDS profile may use full or reduced accounting. An unscored dimension is **not
 
 For trace `τ`:
 
-[
-C(τ)=sum_g c_g(τ)
-]
+$
+C(τ)=\\sum_g c_g(τ)
+$
 
 where the declared ledger may include:
 
@@ -244,15 +244,15 @@ Commercial engagement fees are never the technical `C`.
 
 The simplest DDS risk is:
 
-[
-R=P(τin P).
-]
+$
+R=P(τ\\in P).
+$
 
 Where P classes have declared different material severity:
 
-[
-R=sum_j P(P_j)L_j
-]
+$
+R=\\sum_j P(P_j)L_j
+$
 
 or another preregistered loss/risk function may be used.
 
@@ -262,15 +262,15 @@ A failed gate, HOLD or Ø outcome is not automatically Risk. Risk attaches to th
 
 The simplest DDS effectiveness is:
 
-[
-E=P(τin I).
-]
+$
+E=P(τ\\in I).
+$
 
 Where several I routes carry different declared value:
 
-[
-E=sum_k P(I_k)v_k
-]
+$
+E=\\sum_k P(I_k)v_k
+$
 
 may be used if the value weights are frozen before result inspection.
 
@@ -280,11 +280,11 @@ M remains admissible reference performance unless the Challenge states otherwise
 
 For the common C–R–E profile:
 
-[
-mathcal A_{b,delta,p}
+$
+\\mathcal A_{b,\\delta,p}
 =
-{(C,R,E): Cle b,;Rledelta,;Ege p}.
-]
+\\{(C,R,E): C\\le b,\\;R\\le\\delta,\\;E\\ge p\\}.
+$
 
 A trace does not itself “pass the DDS.” Traces generate evidence. The evaluated technology/configuration/campaign is then classified against the frozen acceptance policy as:
 
@@ -316,9 +316,9 @@ Business Value does not replace or retroactively rewrite the technical result.
 
 The management-facing deployment view may therefore be reported as:
 
-[
-(BV,;R,;C).
-]
+$
+(BV,\\;R,\\;C).
+$
 
 This is not a claim about total company ROI or universal product value.
 
