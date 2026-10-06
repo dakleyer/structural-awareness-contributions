@@ -18,7 +18,7 @@ The short router below sits inside the broader [Structural Awareness programme](
 
 - [Regime Awareness in Adaptive Systems](https://tegrity.ai/series/regime-awareness-in-adaptive-systems/) — the direct theoretical/field series for continued operating validity;
 - [The Cost of Clarity](https://tegrity.ai/series/cost_of_clarity/) — the upstream question of what was sufficiently established before commitment;
-- [Human Intelligence Debt](https://tegrity.ai/series/human-intelligence-gap/) — the finite human-capacity problem behind escalation and review;
+- [Human Intelligence Debt](https://tegrity.ai/series/human-intelligence-gap/) — the architecture-level allocation/debt problem of human cognition; runtime escalation capacity is a separate operational surface in the 01K Human Capacity / Human Intelligence Debt extension;
 - [Informational Friction](https://tegrity.ai/series/informational_friction/) — the map/flow mismatch that makes stale-but-locally-correct operation possible.
 
 [PROGRAMME_CONTEXT.md](./PROGRAMME_CONTEXT.md) retains the fuller explanation, including Attribution Gap, xSeil and Phylons. These are conceptual and engineering lineage, not validation of the detector or broader RA architecture.
