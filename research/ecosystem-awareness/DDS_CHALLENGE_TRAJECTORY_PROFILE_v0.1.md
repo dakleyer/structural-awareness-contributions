@@ -101,6 +101,26 @@ The Challenge definition should state, at minimum:
 
 The Challenge is then instantiated as a **bounded scenario, fixture or reduction**. A reduction may simplify the narrative or state space only if it preserves the relation needed for the stated claim.
 
+### 3.1 Blind challenge construction and evaluator-private map
+
+Where the DDS is intended to measure search, review, validation efficiency or route discrimination, the scenario should be constructed so that the evaluated technology does **not** receive the evaluator's route truth.
+
+The frozen evaluator map may contain the complete generated world: route membership, segment positions, left/right placement or other geometry, route-specific means and dispersion, admissibility, material prohibitions, complete connectors, the evaluator's I/M/P/Ø classification, and any minimum-work witness used only for later accounting. The evaluated technology receives only the observations, interfaces, costs, evidence and state that its mapped configuration is legitimately allowed to use.
+
+For a blind profile:
+
+- I/M/P/Ø labels are evaluator-private;
+- the location of the best admissible route is evaluator-private;
+- hidden segment relations or prohibitions are not exposed unless the declared technology can legitimately discover or query them;
+- route/segment generation, distributions, geometry, costs, budgets, horizons and stopping rules are frozen before result inspection;
+- the technology is followed according to its documented search, review, validation, retry, escalation and execution policy, rather than being given evaluator hints about where a route lies;
+- the evaluator records the actual discovered/inspected sequence and adjudicates the resulting trace after the fact.
+
+Blindness here is an experimental information boundary, not secrecy from the study owner. The evaluator may know the whole world in order to score it; the evaluated technology may not use that private map. A claim of blind execution must identify the exact information supplied to the technology and the exact evaluator-only fields withheld from it.
+
+This construction is especially useful when the generated world has stochastic or dispersed segments. A product may search right and left, inspect several candidates, revisit evidence or validate connections without ever being told which segment belongs to I, M or P. The resulting extra work is observable in the trace and can be charged without changing the hidden world to favour the product.
+
+
 ## 4. Technology mapping
 
 Before traversal, map the exact technology/version/configuration to the Challenge.
@@ -206,6 +226,24 @@ Rework is an efficiency diagnostic inside Cost. It may explain why a strategy mi
 
 Likewise, missing I is not automatically Type 1. A strategy may legitimately reach M because I was not discovered, was too costly, or was correctly rejected. That is lower effectiveness or a different tradeoff, not necessarily paralysis.
 
+### 5.3 M-admission rule for Type-1 estimation
+
+A DDS must not estimate Type 1 merely by counting every trace that fails to reach M. The Challenge must first establish that M is a meaningful **minimum legitimate closure floor** for the evaluated configuration.
+
+An M route is admitted for this diagnostic only when, before inspecting the evaluated result:
+
+1. M is legitimate and satisfies the Challenge's declared minimum/reference closure;
+2. M is non-trivial — it still requires the declared search, evidence, validation, connection and/or execution work rather than being a free default;
+3. M is plausible for the mapped technology: its documented capabilities and permitted interfaces are sufficient in principle to discover, validate and execute at least one M route under the same information-access contract;
+4. at least one M route fits inside the frozen physical budget and useful response horizon under the evaluator map;
+5. reaching M does not require access to evaluator-private I/M/P labels or other hidden oracle facts;
+6. no known Type-0 structural barrier makes legitimate closure unavailable in that generated world.
+
+The evaluator records M-admission independently of whether the technology actually finds M. If these conditions are not established, a non-M outcome remains incompletion/ineffectiveness and is **not** counted as a Type-1 estimate.
+
+Where several M_j routes exist, the Challenge may define a reference M region rather than one path. The admission test applies to the region: at least one legitimate reference closure must remain realistically reachable under the frozen contract.
+
+
 The authoritative Type 0/1/2 derivation remains the [Integrated Foundational Theory](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), read with [00M](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) for A/B/C/D semantics and [00N](./baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) for the mechanism-to-requirements bridge.
 
 ## 6. Segments, gates, traversals and traces
@@ -283,6 +321,29 @@ Commercial engagement fees are never the technical `C`.
 
 **Rework / excess-review diagnostic.** Where the frozen Challenge has a complete evaluator map, the evaluator may compute a hidden minimum-sufficient review witness for a declared route/outcome under the same information-access and action contract. The evaluated technology does not receive that witness. Actual inspected/search/validation work can then be compared with the minimum-sufficient witness to quantify redundant, circular or otherwise excess work. That difference is an efficiency diagnostic inside Cost; it is **not automatically Failure Type 1**. It becomes Type-1-relevant only when continued unresolved determination makes legitimate closure non-viable within the available budget/capacity/horizon.
 
+#### 7.1A Blind minimum-work witness and excess-cost reporting
+
+For a blind trajectory profile, the evaluator may additionally compute an **evaluator-only minimum-work witness** from the frozen complete map. This witness is never exposed to the technology and does not alter its decisions.
+
+The witness represents the shortest or least-cost sequence of search/inspection/validation operations needed, under the study's declared accounting convention, to locate and validate the relevant generated segment(s) or route from the same starting condition. It may use the evaluator's complete map to establish a theoretical lower bound. Because the product does not possess that map, the difference is reported as **excess work relative to the hidden optimum**, not automatically as avoidable negligence by the product.
+
+For each trace, report separately:
+
+- total observed technical Cost;
+- search/exploration work;
+- validation/review work;
+- repeated/reused/deduplicated work where distinguishable;
+- evaluator-only minimum-work witness;
+- excess search work above that witness;
+- excess validation/review work above that witness;
+- total excess Cost above the witness;
+- whether excess work contributed to budget/horizon exhaustion or merely reduced efficiency.
+
+Where a second minimum can be computed using only the same information legitimately accessible to the technology, report it separately as an **accessible-information lower bound**. Do not conflate that fair-policy bound with the stronger evaluator-private lower bound.
+
+The witness is a diagnostic baseline, not another DDS arm. It does not change C: all work actually performed by the technology remains charged. It explains how much of C lies above a frozen lower bound and whether that excess helped cause a later loss of I, fallback to M or non-closure.
+
+
 ### 7.2 Risk
 
 The simplest DDS risk is:
@@ -318,6 +379,49 @@ E=\sum_k P(I_k)v_k
 may be used if the value weights are frozen before result inspection.
 
 M remains admissible reference performance unless the Challenge states otherwise. Ø normally reduces completion/effectiveness.
+
+### 7.4 Type-1 and Type-2 diagnostic estimates
+
+Type 0/1/2 diagnostics are reported **in addition to** Cost, Risk and Effectiveness. They do not replace C–R–E and are not inferred from one aggregate confidence/error number.
+
+For a DDS profile that satisfies the M-admission rule in §5.3, define the Type-1-eligible population as traces/worlds in which at least one M closure was admitted and remained reachable under the frozen contract, excluding traces for which a genuine Type-0 structural barrier or declared exogenous unavailability removed that closure.
+
+A simple campaign estimate is then:
+
+~~~math
+\widehat{T1}
+=
+\frac{N(\text{eligible traces ending without I or M})}
+     {N(\text{Type-1-eligible traces})}.
+~~~
+
+The numerator may include Ø, unresolved HOLD, timeout or budget exhaustion when no legitimate closure was produced. Report the terminal cause and the observed rework/excess-cost ledger beside the estimate. Excess Cost can explain why closure was lost, but it is not itself counted as Type 1.
+
+For Type 2, define the eligible population and causal rule before execution. A simple estimate is:
+
+~~~math
+\widehat{T2}
+=
+\frac{N(\text{traces reaching a P outcome through the declared false-closure mechanism})}
+     {N(\text{Type-2-eligible traces})}.
+~~~
+
+If the Challenge defines every P route specifically as false closure produced by stale, insufficiently qualified or improperly promoted evidence, the P-rate may coincide with the Type-2 estimate. Otherwise report Type-2 as a diagnosed subset of P rather than equating the two.
+
+Report at minimum:
+
+- Type-1 eligible denominator;
+- no-I/no-M terminal count;
+- M-admission basis and any exclusions;
+- Type-1 estimate and uncertainty where statistical estimation is used;
+- Type-2 eligible denominator;
+- P count and the subset attributed to the declared Type-2 mechanism;
+- Type-2 estimate and uncertainty where used;
+- Type-0 / unresolved cases kept outside those estimates;
+- relationship, if any, between excess Cost and Type-1 non-closure.
+
+These diagnostics are primarily research/corpus outputs for cross-study comparison and mechanism tracking. They are not automatically the first executive headline. Executive reporting may surface them when material to the decision, while the technical report retains the complete denominators, exclusions and causal qualification.
+
 
 ## 8. Acceptance
 
@@ -382,6 +486,11 @@ A profile must declare coverage for:
 | I/M/P/Ø route model | full / reduced / collapsed |
 | Segment/gate model | deterministic / probabilistic / documentary / other |
 | Trace/oracle | defined / executed / pending |
+| Blind evaluator-private route map | declared / not used / pending; supplied-vs-withheld information pinned |
+| Minimum-work / rework witness | evaluator-private lower bound / accessible-information lower bound / not scored |
+| M-admission for Type-1 diagnostic | established / not established / not applicable |
+| Type-1 diagnostic | estimated / descriptive / not scored / not applicable |
+| Type-2 diagnostic | estimated / descriptive / not scored / not applicable |
 | Cost | scored / descriptive / unscored |
 | Risk | scored / descriptive / unscored |
 | Effectiveness | scored / descriptive / collapsed / unscored |
@@ -600,6 +709,10 @@ Challenge / scenario:
 Technology / version / configuration:
 DDS surfaces used:
 DDS surfaces unscored / collapsed:
+Blind information boundary / evaluator-private map:
+Minimum-work / rework witness:
+M-admission / Type-1 diagnostic status:
+Type-2 diagnostic status:
 Evidence mode:
 Acceptance rule:
 Base/frozen artefact:
