@@ -1,6 +1,8 @@
 # Deployment Differential Study (DDS) — Canonical Challenge–Trajectory Profile v0.1
 
-**Status:** canonical working DDS technical profile inside the Ecosystem Awareness research corpus; additive public methodology, not an adopted standard, certification scheme, assurance method or claim of product superiority.  
+**Status:** canonical working DDS technical profile inside the Ecosystem Awareness research corpus; additive public methodology, not an adopted standard, certification scheme, assurance method or claim of product superiority.
+
+> **Meaning of “canonical” here.** The word means only **current corpus reference for DDS terminology and profile coverage**. It does not mean independent acceptance, external validation, standards-body adoption, industry consensus or a claim that this v0.1 taxonomy is the unique possible test method. For third-party evaluation, treat it as the current **working harmonization profile** and score the compared packages against the same frozen checklist rather than treating this corpus's own prior results as an external acceptance authority.  
 **Date:** 6 October 2026.  
 **Scope:** technical/research definition of a DDS exercise and its profiles. Commercial packaging, fees, contracting, sponsor recognition and private commissioning records are governed separately and do not redefine this technical method.
 
@@ -348,6 +350,20 @@ A profile must declare coverage for:
 A **simplified DDS profile** is therefore not another method. It is a DDS implementation profile that deliberately uses a reduced coverage set.
 
 Evidence maturity and DDS coverage are orthogonal. A profile may cover many DDS surfaces only virtually, while a simpler profile may have stronger executed evidence.
+
+## 10A. Namespace safety for cross-corpus review
+
+Names are local unless their namespace is explicit. A third-party review must not merge similarly named IDs.
+
+- **DDS `I/M/P/Ø`** are route/outcome classes in this profile. They are not mutation IDs.
+- **R01 `M/I/P`** retain the source-native R01 route semantics; DDS may crosswalk them but does not silently rename historical results.
+- **Zhao mutant `M1–M4`** means mutation operators in the S5 runnable companion.
+- **Review/MUST `M1–M5`** in Zhao's review-round commit message means review items, not those mutants.
+- **FG-TIDA Annex/Profile `T08`** and Zhao's directory **`examples/T08-S5Q2`** are distinct artefacts even when the latter maps to the former.
+- **AWS-I0/I1/I2** in 00I-A01 and **I0/I1/I2** labels inside another local simulator are local implementation-profile namespaces, not globally identical arms.
+- **00K P5 / 00I** is the symbolic principle-ablation route; **S5/Q0–Q6** is a scenario/gate route. Similar failure semantics do not make their gate IDs interchangeable.
+
+A review report should therefore use qualified names such as `DDS-M`, `R01-M`, `ZHAO-M2-cache-read`, `00K-P5`, `00I-AWS-I1` and `ZHAO/T08-S5Q2` when ambiguity is possible.
 
 ## 11. Current profile mapping
 
