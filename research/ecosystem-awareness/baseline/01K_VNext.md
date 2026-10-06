@@ -1,5 +1,12 @@
 # VNext — Capacidad humana, escalada y deuda 01K
 
+> [!IMPORTANT]
+> **Superseding source decision — 6 October 2026.** The current 01K source has been reconciled with the complete Tegrity.AI Human Intelligence Debt / Human Intelligence Gap series under Iván's explicit instruction. Human Intelligence Debt is **not** a runtime queue/capacity deficit and is **not** defined in HIT. The controlling architecture is HICR/HICT/HID, operationalised at task level by GIC/NEO/ACW and the Paper-5 measurement programme. Runtime Human Capacity is a separate 01K surface.
+>
+> Therefore the earlier HIT-ledger findings and proposed Changes **64 and 67 below are SUPERSEDED / NOT PENDING**. They remain in this file only as audit history showing how the earlier interpretation was rejected. Do not implement them, do not put them back into the priority queue, and do not use their formulas as HID.
+>
+> Current source: [01K Human Capacity / Human Intelligence Debt](01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md), integration commit `9f397df86fb66217937fbf08b3c99e0f46bc60a6`, blob `cbdf679dd396ed4bf5e13d3368c6834349b31962`.
+
 > **Auditoría realizada por Codex, 6 de octubre de 2026; mismo asistente de IA.** Escrita para lectura y revisión posterior de una persona; no auditor humano independiente. [Fuente actual](01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md), v0.1, texto completo §§1–13 leído en `8757ba614c94f962206912d4896c119a18a924fa`, blob `38fcb757c662e2ea40ca24865f90cad2cca4bc98`. Original intacto. [Plan de Iván](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
 
 ## Primera pasada — tiempo, trabajo cognitivo y contabilidad
