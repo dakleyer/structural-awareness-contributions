@@ -688,16 +688,3 @@ El relato común explicará qué idea sostiene el conjunto, qué sigue abierto y
 Se dará prioridad a contradicciones o transferencias de evidencia que cambien una conclusión, a integraciones y decisiones que dependan unas de otras y, después, a la presentación. Ante un hallazgo nuevo se reabre la pasada afectada y se vuelve a conciliar esa relación. Las propuestas consolidadas tendrán antes literal de la versión vigente, después, razón, evidencia, dependencias y decisión pendiente; la historia anterior se conserva.
 
 La continuación programada mantendrá este orden y publicará los resultados parciales dentro de cada VNext. La autorización para publicar ya existe; el canon no recibe cambios por ejecutar la consolidación. Se mantienen los tres niveles EP → Awareness → índices técnicos y la revisión de toda redistribución en los README VNext afectados.
-
-
----
-
-## Plan de cambios — el texto viejo siempre permanece visible
-
-**Instrucción de Iván, 6 de octubre de 2026, registrada por Codex.** Después de las cinco pasadas y la unificadora, el plan de cambios quedará dentro de la única VNext de cada documento. Cada cambio mostrará **Texto antes — viejo**, literal y completo del pasaje afectado, seguido de **Texto después — propuesto**, también completo; después explicará razón, dependencias, prioridad e instrucciones y decisión de Iván.
-
-El viejo no se reemplazará por un resumen, un enlace o solo un diff. El original canónico y las propuestas anteriores se conservan. Si cambia la fuente, se añade un nuevo par identificado y se mantiene el anterior. Para adiciones se muestra el contexto existente y el bloque a añadir; README y estrategia siguen append-only hasta la revisión de Iván.
-
-Aquí se explicará el orden del conjunto y los cambios que deben decidirse juntos. Los pares concretos estarán en las VNext de sus documentos, con consecuencias en fuentes, consumidores y README afectados. El [plan 1.9](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#plan-de-cambios-dentro-de-cada-vnext--texto-viejo-siempre-visible) fija este formato para todo el corpus, incluidas las VNext que se abran después.
-
-**Estado real:** instrucción y método publicados; el plan consolidado final depende de completar las cinco pasadas y la sexta. Los pares ya preparados se publican como parciales. Esta adición no ejecuta cambios ni elimina texto anterior.
