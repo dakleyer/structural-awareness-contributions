@@ -4,11 +4,11 @@ El oráculo de R01 debe permitir comparar cómo distintas tecnologías encuentra
 
 La revisión encuentra una base propia considerable: los harness anteriores ya aportan trazas, replay, controles semánticos, ejecución con estado y recuperación. El nuevo R01 puede componer esas piezas mediante adaptadores. La dificultad es conservar el significado de cada escenario y sus costes, sin convertir los resultados anteriores en validación automática de R01 o de EA. Nelson aporta el contrato y el ciclo experimental UC4; ese trabajo complementa los harness propios.
 
-**Método vigente:** procedimiento EP 1.2, leído en commit `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`. Historia inicial: la entrega de comentarios no completó las cuatro pasadas. La instrucción posterior IVAN-R01-ORACLE-20261006-03 abre su ejecución diferenciada; la tabla muestra el avance actual.
+**Método vigente:** procedimiento EP 1.2, leído en commit `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`. Esta entrega incorpora los comentarios ya investigados, no certifica cuatro pasadas completadas.
 
 | Pasada | Estado de esta VNext |
 |---|---|
-| Fondo y lógica | Realizada como pasada diferenciada del README y sus límites; validación externa y código completo fuera de este cierre. |
+| Fondo y lógica | Parcial: argumento central y límites del evaluador examinados. |
 | Evidencia y relaciones entre documentos | Parcial: principales antecedentes y contratos contrastados; frontera transitiva y revisión cruzada completa pendientes. |
 | Edición, estructura y formato | Pendiente como pasada separada; las observaciones y propuestas existentes son insumos. |
 | Legibilidad y comprensión humana | Pendiente como pasada separada; no ha participado un lector humano independiente. |
@@ -16,7 +16,7 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.2 · **Fecha:** 6 de octubre de 2026  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.1 · **Fecha:** 6 de octubre de 2026  
 **Estado:** auditoría documental y de relaciones parcial; propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
@@ -47,9 +47,6 @@ Esta instrucción autoriza documentar la auditoría y preparar sus propuestas. *
 
 Se añade el plan recomendado en §5.1. La instrucción solicita una recomendación documentada; no cambia por sí sola los estados técnicos de C02/C11/T03 ni la decisión pendiente de cada delta.
 
-
-**IVAN-R01-ORACLE-20261006-03 · instrucción auténtica de este chat:** «realiza las tareas 1 y 2». Se ejecutan las cuatro pasadas del README del oráculo y la matriz de correspondencia. La revisión cruzada se registra en los expedientes propietarios; las integraciones, validación UC4, campañas y aplicación de deltas siguen separadas.
-
 ## 3. Auditoría del documento y sus relaciones — R01-ORACLE-AUD-001
 
 **Auditoría realizada por Codex, agente `/root`, chat `01a11096-57f0-72b2-bd57-7d8816673410`, 6 de octubre de 2026.** Identidad del modelo/backend y acreditación como auditor externo: no verificadas. Es el mismo agente de las revisiones previas; no es auditoría independiente.
@@ -67,30 +64,6 @@ La idea central es coherente: se congela un mundo pequeño, se limita la informa
 La reutilización tampoco exige un oráculo universal. S5 pregunta si una reparación obsoleta cambió el destino; Q1a pregunta si se conservó la dependencia de las fuentes; R01 añade óptimo admisible, calidad y coste. Un formato común puede conectarlos, pero sus criterios de verdad deben permanecer explícitos. Si esa diferencia se pierde, un resultado correcto de un componente puede convertirse en una conclusión injustificada sobre el conjunto.
 
 Queda por cerrar la fidelidad del evaluador a todos los perfiles R01, especialmente las relaciones, dinámica colectiva y contabilidad completa. Los dos caminos de referencia del mismo autor son un contraste de implementación, no un auditor externo. Estos comentarios proceden de la revisión previa; la pasada lógica completa del conjunto de dependencias permanece abierta.
-
-
-#### Pasada 1 realizada — fondo y lógica, 6 de octubre de 2026
-
-**Codex /root, mismo asistente; lectura diferenciada del README completo.** Fuente: corte `715027943eefb372fdb4541a23d288bffdedbdb2`, README blob `282d97ed967898a086303927872fbdfcaf37dd70`. Pregunta: ¿el argumento del documento conecta su propósito, su mecanismo y sus conclusiones sin convertir un control del instrumento en una validación de R01? Alcance: README, reglas de evaluación/trazas y cláusulas pertinentes del escenario; no prueba de todo el código ni revisión independiente.
-
-El argumento tiene cinco pasos. Se declara un mundo acotado; se entrega al candidato solo una vista permitida; se registra su actuación antes de evaluar; se calcula una referencia desde información privada; se compara lo registrado con esa referencia y con umbrales fijados. Esta cadena permite examinar una ruta sin tomar la confianza del candidato como verdad. También admite empate e insuficiencia de referencia. Es una base razonable para construir un instrumento neutral, siempre que el perfil de mundo, el recorder y el coste representen realmente la pregunta evaluada.
-
-**La conclusión que sí se sigue** es la que el README limita: hay una implementación parcial que se comportó como esperaba su autor en controles construidos. No se sigue que una tecnología encuentre el óptimo, que todo R01 sea ejecutable, que el evaluador sea correcto fuera de esos mundos ni que EA aporte ventaja. La lista de veintiséis funciones describe controles de mecanismos; no son veintiséis demostraciones independientes de esas conclusiones.
-
-Hay cuatro distinciones lógicas que el lector debe conservar:
-
-1. **Selección y efecto.** El batch puede contrastar una ruta seleccionada con el mundo privado; su contrato declara ese recorrido como conformance-only. No demuestra por sí mismo ejecución real ni ausencia de efecto prohibido. El modo interactivo puede usar evidencia privada del entorno después del sellado. El resultado se interpreta por modo y predicado, no mediante una etiqueta global idéntica.
-2. **Referencia y umbral.** La referencia determina qué rutas son admisibles y cuál es el óptimo acotado; la política fija calidad, coste, presupuesto y plazo. Que ambos métodos concuerden no decide los umbrales. Y una ruta óptima elegida no satisface automáticamente recursos, completion o autoridad.
-3. **Integridad y aislamiento.** El hash identifica la traza comprometida antes de la evaluación. No prueba que el proceso del candidato no pudiera leer otros archivos. Para una realización real hace falta el aislamiento declarado en su contrato. Las comprobaciones de vistas y nombres reservados aportan evidencia del instrumento; no sustituyen esa frontera.
-4. **Compatibilidad y propiedad del significado.** UC4 ofrece un contrato experimental; S5, C3 y Q1a ofrecen predicados de escenarios distintos. Traducir formatos es compatible con conservar esos predicados, pero no con sustituirlos silenciosamente por el óptimo R01. Un fallo de correspondence puede invalidar una afirmación de compatibilidad sin invalidar todos los resultados del instrumento original.
-
-**Contraejemplos examinados.** Un candidato que se abstiene siempre puede evitar una violación y seguir incumpliendo la tarea: por eso el control de abstención importa. Dos referencias del mismo mantenedor pueden compartir una omisión y concordar: su acuerdo aumenta el contraste, pero no acredita independencia externa. Un JSON bien formado puede atribuir un efecto a una mera decisión: supera sintaxis y falla significado. Un backend S5 puede impedir una reparación obsoleta y no tener ninguna noción de máximo de beneficio: su éxito no acredita el óptimo R01. Estos contraejemplos son razonamientos de auditoría, no nuevas ejecuciones.
-
-**Supuestos que sostienen la conclusión acotada.** Mundo y expectativas fijados antes del run; campos visibles correctamente proyectados; recorder y mediciones confiables para el perfil; referencia disponible en el dominio; reglas de aceptación previas; separación de coste del candidato y evaluador; alcance de los controles conocido. Un grafo finito no basta para todas las ejecuciones posibles: ciclos, eventos gratuitos o memoria sin límite requieren horizonte y contrato de terminación propios. El plan de computabilidad lo reconoce; el README no lo debe elevar a garantía de cualquier backend.
-
-**Resultado de esta pasada.** No se localiza un salto que obligue a retirar la conclusión limitada del README. Sí se necesita hacer más visibles el propósito para una persona, el dominio de cada modo y la diferencia entre serialización, semántica y admisión. Las propuestas 001–004 conservadas y las adiciones editoriales de las pasadas posteriores cubren esa exposición; la fidelidad completa y la revisión externa continúan en C02/M16/M17.
-
-**Estado:** realizada en el alcance lógico declarado del README. La comprobación de cada afirmación frente a código, registros y fuentes corresponde a la siguiente pasada y no se da por hecha aquí.
 
 ### Evidencia y relaciones entre documentos — parcial
 
@@ -170,7 +143,6 @@ Su correo del 6 de octubre sobre trabajo científico/Lifecycle fue leído como c
 | ID | Instrucción / decisión auténtica | Alcance | Estado |
 |---|---|---|---|
 | IVAN-R01-ORACLE-20261006-01 | Documentar los comentarios en la VNext del oráculo según el procedimiento EP. | Crear/reutilizar el expediente, registrar auditoría, conversación y propuestas. | Ejecutada por esta entrega documental; no adopción de deltas técnicos. |
-| IVAN-R01-ORACLE-20261006-03 | Realizar tareas 1 y 2 del plan. | Cuatro pasadas del README y matriz de compatibilidad, con registro cruzado. | En ejecución; sin incorporar deltas ni ejecutar campañas. |
 | IVAN-R01-ORACLE-20261006-02 | Añadir un plan de trabajo recomendado dentro de esta VNext. | Secuencia, entregables, dependencias y criterios de cierre; mantener la cola propietaria. | Ejecutada como documentación del plan; trabajo futuro pendiente. |
 | R01-ORACLE-DELTA-001–004 | No hay decisión de incorporación por ID en este chat. | Corrección del README o successor protegido. | **Pendiente de Iván.** |
 | Campañas C11/T03 y comunicaciones | No autorizadas por esta instrucción documental. | Experimentos nuevos, integración/aceptación de contribuyentes y mensajes. | No ejecutados. |
