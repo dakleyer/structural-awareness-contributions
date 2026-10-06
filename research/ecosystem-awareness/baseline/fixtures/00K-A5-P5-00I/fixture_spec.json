@@ -1,0 +1,101 @@
+{
+  "schema": "00K-A5-P5-00I/fixture-spec/v1",
+  "date": "2026-10-06",
+  "basis": {
+    "generation": 217,
+    "incident_open": true,
+    "freeze_active": false,
+    "source_version": "cfg-217"
+  },
+  "fields": [
+    "generation",
+    "incident_open",
+    "freeze_active",
+    "source_version"
+  ],
+  "branches": {
+    "continuity": {
+      "current": {
+        "generation": 217,
+        "incident_open": true,
+        "freeze_active": false,
+        "source_version": "cfg-217",
+        "source_available": true,
+        "irrelevant_metric": 10
+      },
+      "expected": "EXECUTE"
+    },
+    "unavailable": {
+      "current": {
+        "generation": 217,
+        "incident_open": true,
+        "freeze_active": false,
+        "source_version": "cfg-217",
+        "source_available": false,
+        "irrelevant_metric": 10
+      },
+      "expected": "HOLD"
+    },
+    "generation_change": {
+      "current": {
+        "generation": 218,
+        "incident_open": true,
+        "freeze_active": false,
+        "source_version": "cfg-217",
+        "source_available": true,
+        "irrelevant_metric": 10
+      },
+      "expected": "REQUALIFY",
+      "changed_field": "generation"
+    },
+    "incident_change": {
+      "current": {
+        "generation": 217,
+        "incident_open": false,
+        "freeze_active": false,
+        "source_version": "cfg-217",
+        "source_available": true,
+        "irrelevant_metric": 10
+      },
+      "expected": "REQUALIFY",
+      "changed_field": "incident_open"
+    },
+    "freeze_change": {
+      "current": {
+        "generation": 217,
+        "incident_open": true,
+        "freeze_active": true,
+        "source_version": "cfg-217",
+        "source_available": true,
+        "irrelevant_metric": 10
+      },
+      "expected": "REQUALIFY",
+      "changed_field": "freeze_active"
+    },
+    "source_version_change": {
+      "current": {
+        "generation": 217,
+        "incident_open": true,
+        "freeze_active": false,
+        "source_version": "policy-v2",
+        "source_available": true,
+        "irrelevant_metric": 10
+      },
+      "expected": "REQUALIFY",
+      "changed_field": "source_version"
+    },
+    "irrelevant_change": {
+      "current": {
+        "generation": 217,
+        "incident_open": true,
+        "freeze_active": false,
+        "source_version": "cfg-217",
+        "source_available": true,
+        "irrelevant_metric": 999
+      },
+      "expected": "EXECUTE",
+      "changed_field": "irrelevant_metric"
+    }
+  },
+  "boundary": "Reduced symbolic fixture contract. Not independent adjudication, live product evidence, or exhaustive value/timing coverage."
+}
