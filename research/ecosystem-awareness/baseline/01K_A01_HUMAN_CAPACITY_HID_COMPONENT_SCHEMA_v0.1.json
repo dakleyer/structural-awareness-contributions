@@ -117,6 +117,25 @@
             "string",
             "null"
           ]
+        },
+        "evaluation_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "input_bundle_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "previous_result_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
         }
       }
     },
@@ -664,6 +683,458 @@
         },
         "signal_is_command": {
           "const": false
+        },
+        "evaluation_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "input_bundle_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "qualified_positions": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "runtime_human_capacity": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "A": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "B": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "C": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "D": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "UNKNOWN": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "producer_process": {
+                  "type": "string"
+                },
+                "scope": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "time_ref": {
+                  "type": [
+                    "string",
+                    "number",
+                    "null"
+                  ]
+                },
+                "payload_ref": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "producer_process"
+              ]
+            },
+            "hid_architecture": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "A": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "B": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "C": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "D": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "UNKNOWN": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "producer_process": {
+                  "type": "string"
+                },
+                "scope": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "time_ref": {
+                  "type": [
+                    "string",
+                    "number",
+                    "null"
+                  ]
+                },
+                "payload_ref": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "producer_process"
+              ]
+            },
+            "cost_comparison": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "A": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "B": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "C": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "D": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "UNKNOWN": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "producer_process": {
+                  "type": "string"
+                },
+                "scope": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "time_ref": {
+                  "type": [
+                    "string",
+                    "number",
+                    "null"
+                  ]
+                },
+                "payload_ref": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "producer_process"
+              ]
+            }
+          }
+        },
+        "cost_profile": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "cost_unit": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "valuation_rule": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "allocation_rule": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "human_runtime": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "human_readiness_alloc": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "human_case_preparation": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "human_coordination": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "human_rework": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "hid_acw_alloc": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "component_operation": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "external_calls": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "compute": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "communication": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "latency_raw": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "latency_monetized": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "dds_total_cost": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "H_ACW": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "HID_observed": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 1
+            },
+            "NOI": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "H_releasable": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "answerability_cost": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "reconciliation_hours": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "repeated_review_hours": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "alternative_route_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "same_challenge_I_region": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "same_authority_boundary": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "delta_cost_human_vs_peer": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "delta_latency_human_vs_peer": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "delta_architecture_burden_human_vs_peer": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "material_unknowns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "requalification_request": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "requested": {
+              "type": "boolean"
+            },
+            "reason": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "missing_or_stale_inputs": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "target_owner": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "requested"
+          ]
+        },
+        "same_operation_self_support_detected": {
+          "type": [
+            "boolean",
+            "null"
+          ]
         }
       }
     }
