@@ -1,7 +1,4 @@
 > [!NOTE]
-> **VNext · revisión acumulativa 1.2 · 6 de octubre de 2026.** Primera pasada secuencial de seis expedientes publicada y comprobada. El resumen de cierre de pasada está después de las épocas anteriores y las propuestas continúan pendientes. Se conservan todos los textos previos; «primera pasada» no significa auditoría completa del corpus.
-
-> [!NOTE]
 > **VNext · revisión acumulativa 1.1 · 6 de octubre de 2026.** Primera pasada documental publicada con autorización de Iván. El expediente 1.0 que sigue se conserva íntegro como historia; sus estados «pendiente» describen aquella entrega. La nueva auditoría y las propuestas pendientes aparecen después de ese expediente. Fuente vigente del README auditado: commit `1d24b7bfe88fa366e6c619fa88f6f7904d1380db`, blob `9c31f225b5364d0d681df455d6e5d809786470e3`. No se cambia el README canónico.
 
 ## Visión general — qué se revisa y en qué orden
@@ -162,44 +159,3 @@ This page is intentionally the complete **Ecosystem Positioning architectural-co
 ### Otras propuestas
 
 No se propone cierre de A23, modificación de A/B/C/D ni promoción del benchmark. F008–F010 son obligaciones de revisión pendientes, no justificación para cambiar fuentes sin evidencia. La auditoría del README queda **parcial** por dependencias, fuentes externas y binarios pendientes, aunque su cuerpo fue leído completo.
-
-
----
-
-## Cierre de primera pasada secuencial — EP-README-AUD-003
-
-**Auditoría realizada por Codex:** auto-revisión de conservación y publicación del mismo agente, 6 de octubre de 2026. No hay segundo auditor independiente. Esta sección consolida estados; no amplía el alcance semántico de cada auditoría.
-
-| Orden | VNext existente | Commit de su auditoría | Estado |
-|---|---|---|---|
-| 1 | [README / visión general](../../architectural-contributions/ecosystem-positioning/README_VNext.md) | [c8294165](https://github.com/dakleyer/structural-awareness-contributions/commit/c82941651347dfa1294e27d66c3dda35a975c6b2) | Auditoría R1 publicada; source correction pendiente. |
-| 2 | [Requirements](../../research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | [400e1cc0](https://github.com/dakleyer/structural-awareness-contributions/commit/400e1cc048e26652b46e6276e7c9b365961c2bad) | Auditoría R1 publicada; source correction pendiente. |
-| 3 | [04 genérico](../../research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | [9e785ab7](https://github.com/dakleyer/structural-awareness-contributions/commit/9e785ab76f7cfacbccbfa8280f3ef0c4ef476c1d) | Auditoría R1 publicada; source correction pendiente. |
-| 4 | [05 Ideal](../../research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | [bf3e0109](https://github.com/dakleyer/structural-awareness-contributions/commit/bf3e0109843471ab7646141d3508fcc1b5e651b9) | Auditoría R1 publicada; source correction pendiente. |
-| 5 | [05A Current](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) | [b16bcba8](https://github.com/dakleyer/structural-awareness-contributions/commit/b16bcba8946c75eb608e2458fa5d4fe241fccc60) | Auditoría R1 publicada; source correction pendiente. |
-| 6 | [Benchmark v0.3](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) | [8c5d22fb](https://github.com/dakleyer/structural-awareness-contributions/commit/8c5d22fb81c0abf0b33f912ce4c40497f798771f) | Auditoría R1 publicada; source correction pendiente. |
-
-Cada auditoría fue publicada y leída de vuelta antes de editar la siguiente. Se conservaron los cuerpos anteriores y una copia exacta de cada expediente previo en el archivo público. No se abrió otro VNext para ninguno de esos seis documentos. Se verificaron **1.095 blobs originales distintos de esos expedientes** sin cambios frente al commit de inicio; entre ellos están el README canónico, Requirements congelado, 04 baseline, 05partes/05A bridge, presentaciones, resultados y fixtures.
-
-**Resultado de esta pasada:**
-
-- Navegación: discrepancia Level2/Level4 y mapa inicial de rutas, con frontera todavía abierta.
-- Requirements: recuento de escenarios y fecha de cobertura ambiguos; coverage mapping no implica suficiencia; CAND-R4 requiere adjudicación.
-- 04: H06/A_ref, roles producer-relative y 176 entradas pendientes de revalidación; no promotion por una tabla ilustrativa.
-- 05: 00I simultáneamente existente y «None committed»; peer characterization con reserva pública; owner/process approval no equivale a contrato adoptado.
-- 05A: consulta de comentarios separada de reproducción de cifras; fechas/revisiones porfila y sources faltantes pendientes.
-- Benchmark: W1mapping presente frente a gate declarado pendiente, Q0/exclusión post-outcome, C15 sin etapa y protocoloscomparativos aún sin freeze.
-
-Se leyeron catorce comentarios públicos identificados de Themes13/16/21/23. La comprobación se limita a sus afirmaciones y metadatos, sin afirmar revisión completa de threads, rawdatasets, attachments o implementaciones. [Registro de pasada](../../governance/review/EP_REVIEW_PASS1_2026-10-06.json).
-
-**Reproducción del mapa:** [verificador offline](../../governance/review/EP_REVIEW_LINK_SCAN_2026-10-06.mjs). Se ejecutó contra un export local de las fuentes del baseline y pasó: 212 links, 102 destinos locales, 95 Markdown, 16 anchors locales, 1.903 refs de primera frontera y420 destinos; sin rutas ausentes ni anclas directas sospechosas. El input guarda los95 textos de la primera frontera; la consulta adicional a DOCUMENT_CONTROL se registra porruta para reproducir el recuento229. El input público-local no se duplica completo en GitHub: se reconstruye desde las rutas/blobs y commit del ScopeJSON. El escáner es comprobación de enlaces, no prueba de semántica ni test experimental.
-
-### Instrucciones y siguiente profundidad
-
-La autorización de Iván para publicar las auditorías se ha ejecutado. Las propuestas de fuentes permanecen pendientes de aceptación por ID; no se asumió autorización de aplicar correcciones técnicas o editar fuentes congeladas.
-
-La próxima profundidad es por documento lógico: identificar VNext existente o crear una sola cuando no exista, fijar su fuente y propietario, auditar definiciones/argumentos/consumidores y conversar sobre los hallazgos ya abiertos. Primero son materiales 00M/00N/traceability y A23/00I/H06; el inventario de esta pasada no asigna aún ownership ni expediente a cada uno de los420 archivos. Binarios y frozen sources necesitan fichas externas. La frontera transitiva y los inboundlinks del repositorio completo quedan abiertos; no se declara revisión global terminada.
-
-## Consolidación de propuestas — siguen pendientes
-
-Las propuestas nuevas de esta pasada están al final de cada VNext propietario y tienen sus textos ANTES/DESPUÉS e instrucciones de Iván. En este README VNext permanece **EP-README-DELTA-002** sobre la frase Level2; no se ha incorporado. DELTA-001 de la época inicial fue la nota de navegación ya publicada. AUD-003 no añade un cambio técnico nuevo ni convierte una recomendación en aprobación.
