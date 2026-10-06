@@ -463,14 +463,3 @@ No README is created, removed or renamed. No existing section or reading route i
 Navigation addition: EP README → review procedure + EP README VNext. No existing reading route, programme hierarchy or presentation changes. No README created, removed or renamed; the README count delta is zero. Existing Requirements/04/05/05A vNext deltas remain intact and must be reused, not duplicated. Frozen, signed, submitted, hashed and binary sources receive external review cards rather than internal notes.
 
 This entry records the setup scope; it does not certify a complete corpus audit, substantive proposal approval or technical validation. Verification for this commit checks exact predecessor blobs, additive preservation, changed-path scope, VNext uniqueness and resolution of every added document link. Publication completion requires the branch update and content readback; the AgentSync records that outcome separately.
-
-
-## 13. 6 October 2026 — separate development strategy; append-only EP README
-
-**Control addition version:** 2026-10-06.2. Iván requested a separate, human-readable development strategy linked from the Ecosystem Positioning README. The [Development Strategy](./architectural-contributions/ecosystem-positioning/DEVELOPMENT_STRATEGY.md) presents proposed priorities, areas for specialist contribution and external research support. It complements the review procedure and technical WORKPLAN; it is not a new canonical specification, operational result or replacement task queue.
-
-**Owner preservation instruction:** until Iván reviews and explicitly authorizes a concrete change, the existing Ecosystem Positioning README and this additional strategy are append-only. Do not delete, replace, reorder, truncate, normalize or reformat prior content. General permission to continue audits or publish additions does not override this restriction. Detailed proposals remain in the appropriate VNext or review record. This dated restriction supersedes any broader reading of earlier incremental-maintenance permissions for these two files.
-
-Only a short strategy-link section is appended at the end of the README. Its prior text is an exact byte prefix. No bot procedure, audit ledger or internal code list is inserted into the public reading section. No README is created or removed, and existing navigation ownership is unchanged.
-
-**Current protected EP README blob for this addition:** `ed97dbe9f34758219863511717c4f237b48bedf3`, superseding the earlier EP blob records for the current file. **Predecessor blob:** `9c31f225b5364d0d681df455d6e5d809786470e3`. Exact predecessors are preserved as [EP README before the strategy link](./governance/preserved-public-snapshots/2026-10-06_EP_README_before_development_strategy.md) and [Document Control before the strategy entry](./governance/preserved-public-snapshots/2026-10-06_DOCUMENT_CONTROL_before_development_strategy.md).

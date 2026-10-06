@@ -860,12 +860,3 @@ The symbolic fixture/proof campaign has been executed and reproduced. It does **
 That distinction is deliberate: the corpus is designed so that a strong conventional peer can win.
 
 The purpose is not to prove Ecosystem Positioning by definition. It is to make the proposition precise enough that it can fail.
-
-
----
-
-## Development strategy and next advances
-
-The next phase focuses on clarifying the evidence behind the architecture, developing a small end-to-end profile, defining a demanding comparison and extending only what can be supported. The [development strategy and priorities](./DEVELOPMENT_STRATEGY.md) (Spanish working proposal) explains these directions, where specialist knowledge can help and the external research that informs them.
-
-This is a separate strategy document. It complements the architecture and its review programme; it does not replace the explanations above or turn planned work into a validation result.
