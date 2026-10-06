@@ -4,7 +4,7 @@ El oráculo de R01 debe permitir comparar cómo distintas tecnologías encuentra
 
 La revisión encuentra una base propia considerable: los harness anteriores ya aportan trazas, replay, controles semánticos, ejecución con estado y recuperación. El nuevo R01 puede componer esas piezas mediante adaptadores. La dificultad es conservar el significado de cada escenario y sus costes, sin convertir los resultados anteriores en validación automática de R01 o de EA. Nelson aporta el contrato y el ciclo experimental UC4; ese trabajo complementa los harness propios.
 
-**Método vigente:** procedimiento EP 1.2 con adiciones 1.3 y 1.4, releído en corte `e80846a0f9cf3b97cf222ed3d1e28b31d145ad3e`; §2 conserva la actualización y su identidad. La lectura anterior de EP 1.2 se fijó en `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`. Historia inicial: la entrega de comentarios no completó las cuatro pasadas. La instrucción posterior IVAN-R01-ORACLE-20261006-03 abre su ejecución diferenciada; la tabla muestra el avance actual.
+**Método vigente:** procedimiento EP 1.2, leído en commit `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`. Historia inicial: la entrega de comentarios no completó las cuatro pasadas. La instrucción posterior IVAN-R01-ORACLE-20261006-03 abre su ejecución diferenciada; la tabla muestra el avance actual.
 
 | Pasada | Estado de esta VNext |
 |---|---|
@@ -16,13 +16,9 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.10 · **Fecha:** 6 de octubre de 2026  
-**Estado:** cuatro pasadas previas del README realizadas en su alcance; ampliación de la visión general en curso de revisión diferenciada; relaciones vecinas parcialmente revisadas y cierre completo abierto; siete propuestas pendientes de decisión por ID.  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.9 · **Fecha:** 6 de octubre de 2026  
+**Estado:** cuatro pasadas del README realizadas en el alcance declarado; relaciones vecinas parcialmente revisadas; siete propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
-
-**Para retomar:** [visión general y piezas](#r01-overview-review) · [pruebas de terceros](#r01-thirdparty-test-reuse) · [siguiente bloque y pendientes](#r01-resume-work) · [matriz técnica](#r01-compatibility-matrix) · [estado de tareas1/2](#r01-tasks12-status).
-
-Las cabeceras «parcial» o «pendiente» dentro de las primeras entradas de §3 conservan el estado histórico de esas entradas. Los registros fechados posteriores y la tabla inicial describen lo que se realizó después. No confundir esa historia con cierre completo de los documentos vecinos.
 
 ## 1. Identidad, fuente y límites
 
@@ -221,17 +217,6 @@ El orden actual favorece al mantenedor: estado, atribución, composición UC4, e
 **Comprobación editorial de esta pasada.** El README no contiene ecuaciones, tablas propias o figuras externas que necesiten inspección aparte; el diagrama y árbol usan bloques cerrados. Sus links Markdown locales tienen destinos existentes; las rutas planas se revisan con su contexto real. El comando y el estado de instrumento no presentan una versión Python mínima propia: antes de una guía instalable habrá que fijar entorno; no se inventa un requisito nuevo en este comentario.
 
 **Resultado:** inspección de edición y estructura del Markdown terminada. Las correcciones 001–007 son propuestas al final, pendientes de decisión; el texto original y las cuatro propuestas anteriores se conservan. La siguiente pasada se centra en la experiencia de una persona que llega sin los chats.
-
-
-#### Ampliación 2026-10-06 — edición, estructura y formato
-
-**Codex /root, mismo asistente.** Pregunta: ¿puede un lector localizar y continuar la explicación sin reconstruir el chat ni confundir estados históricos y actuales? Inspección del Markdown completo de la VNext ampliada; se conserva el cuerpo de los siete deltas y su decisión pendiente.
-
-Se añade un acceso breve al principio hacia visión general, opciones de terceros, matriz y siguiente bloque. El relato distingue piezas, conexiones, límites y batería de correspondencia; las tablas sirven para comparar funciones. El diagrama es texto explícitamente propuesto, con verdad privada fijada antes del run. No crea un nivel público nuevo de README ni una reorganización del corpus.
-
-**Ambigüedades editoriales localizadas:** §5.1 conserva la tabla original con «todas sus ejecuciones pendientes», aunque tareas1/2 fueron realizadas documentalmente después; conserva también el primer bloque que aún proponía hacer la matriz. Esa historia se mantiene y se precisa en el nuevo apartado de reanudación: la matriz ya existe, el siguiente entregable recomendado es el paquete acotado, sin repetir tareas1/2. La palabra C4 se explica como interpretación UC4, no se rebautiza un componente.
-
-Se comprueban anclas únicas, tablas, pares de fences y rutas de apoyo; los resultados técnicos se registran aparte. La ampliación es una revisión y recomendación dentro de VNext, sin nuevas propuestas de sustitución al README canónico. Siguen siendo siete deltas, pendientes de Iván. Esta pasada inspecciona Markdown; no cuenta como prueba de lectura por una persona independiente.
 
 ### Legibilidad y comprensión humana — pendiente como pasada separada
 
@@ -625,30 +610,6 @@ Propongo esta batería mínima de correspondencia, todavía no ejecutada:
 | Resultado nativo frente al importado | Misma conclusión solo donde el mapping conserva el mismo predicado; justificar diferencia legítima o registrar fallo. |
 
 **Ejemplo para retomar:** escoger el caso S5 ya documentado en §5.2, conservando la evidencia anterior. Una reparación vigente debe poder actuar; la misma reparación después de supersesión debe ser rechazada sin efecto; el control de carrera que antes produjo efecto indebido debe seguir visible como fallo histórico. La nueva adaptación añade sus controles y su resultado con una nueva versión. La fidelidad consiste en detectar esa diferencia, no en convertir el fallo preservado en PASS.
-
-
-
-<a id="r01-resume-work"></a>
-### Cómo retomar: estado actual y siguiente bloque recomendado
-
-**Precisión respecto al plan original de §5.1:** tareas1/2 están realizadas en el alcance documental y del prototipo allí registrado. Las frases originales que presentaban toda ejecución pendiente o proponían comenzar por la matriz son historia del plan. No hay que repetir esos dos entregables como trabajo inicial; sí revisar la correspondencia si cambia la fuente o se implementa el adaptador.
-
-**Siguiente resultado que recomiendo preparar:** un paquete de ejemplo UC4/R01 vinculado a **un caso S5 pequeño**, con versión y expectativas fijadas. Pertenece al paso3 del plan, con el piloto del paso4 como dependencia posterior o trabajo coordinado. La matriz existente es la entrada; no se inventa otra cola.
-
-| Pendiente real | Entregable que permitiría avanzar | Criterio para declarar ese avance |
-|---|---|---|
-| Paquete y enlace al sidecar — paso3, C02 | Experimento completo contra schema UC4 fijado, mapping versionado e identidades de caso/sidecar/evidencia. | Informe del validador exacto y separación visible de cuestiones semánticas sin resolver. Un PASS estructural no cierra admisión. |
-| Revisión semántica de la frontera — C02/M17 | Respuesta sobre las cinco preguntas de UC4_INTEROPERABILITY_PROFILE y alcance mutuamente acordado. | Evidencia auténtica del contributor; no inferir respuesta desde un borrador o solicitud. Preparar el material; comunicación solo cuando esté autorizada. |
-| Piloto propio — paso4, C02/M17 | Adaptador S5 acotado, registro nativo y normalizado, controles y diferencias de resultado explicadas. | Correspondencia probada en los predicados declarados, incluidos rechazo y continuidad legítima. |
-| Fidelidad y referencia — paso5, M16/M17 | Tabla cláusula/predicado/evidencia, revisión faltante y ledger por unidad. | Cada afirmación del perfil tiene control y límite; reconocer revisiones recibidas, cubrir solo los vacíos. |
-| Generación y escenarios externos seleccionados | Perfil de mutaciones y, si aporta valor, un caso externo versionado. | Aporta una propiedad necesaria y mantiene la evaluación original separada de R01. No bloquea el piloto por una integración masiva. |
-| Ampliaciones de familias — paso6 | Perfiles adicionales únicamente cuando el siguiente experimento los necesite. | Sin pérdida silenciosa de significado ni importación de tasas agregadas. |
-| Registro y tecnología real — pasos7/8, C11/T03 | Campaña pre-registrada y realización identificada con capacidades/aislamiento. | C02 suficiente para su dominio, correspondencia admitida y condiciones de ejecución satisfechas antes del run. |
-| Decisiones sobre el README protegido — siete deltas | Decisión concreta por ID y revalidación del ANTES contra la fuente actual. | Incorporación posterior separada de esta auditoría. No es un requisito para que exista la presente revisión. |
-
-Antes de ejecutar el piloto, dejaría respondidas cinco preguntas en su expediente: **qué ve el candidato, qué queda privado, qué operación produce el efecto, qué evidencia lo confirma y qué recursos paga cada parte**. Si falta una respuesta, el hueco se conserva como condición pendiente; no se rellena con una suposición favorable.
-
-El primer bloque termina con **un ejemplo trazable y una lista corta de decisiones abiertas**, no con «UC4 compatible» en general. Su aceptación técnica y semántica puede permitir después admitir ese perfil. La extensión del evaluador y la campaña real conservan sus etapas propias. No se asigna aquí trabajo a Nelson, otro agente o una persona sin acuerdo.
 
 
 ## 6. Propuestas quirúrgicas — al final, incorporación pendiente
