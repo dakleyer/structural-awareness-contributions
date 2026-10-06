@@ -103,6 +103,206 @@ An HID architecture result is normally slower-moving and may be computed per pro
 
 ---
 
+
+# 2A. A/B/C/D mapping and EHD contract
+
+A/B/C/D is **process-relative**. The HC-HID component therefore does not emit one blended epistemic position for "human intelligence". It has two producer processes and each emits its own qualified position.
+
+## 2A.1 Runtime Human Capacity process
+
+Fix:
+
+~~~text
+producer = HC-HID Runtime Capacity Engine
+function = assess whether a declared human intervention path is usable
+question = HumanInterventionRequest i
+scope = declared decision / role / response window W
+time = t
+~~~
+
+Then the canonical 00M mapping is:
+
+| HC component | Meaning in Runtime Human Capacity |
+|---|---|
+| **A_HC** | The result actually delivered by the capacity process: e.g. AVAILABLE / DEGRADED / UNAVAILABLE / UNKNOWN, selected eligible route where established, predicted acknowledgement/completion, response margin, and any route-cost result that this process explicitly delivers. |
+| **B_HC** | Established basis and characterized reserve supporting/qualifying A_HC: competence and authority evidence, pool snapshot/version, timing model, prediction interval or bound, known exclusions, proof class, fallback already characterized, known alternative eligible routes left unused, cost assumptions/rates and validity/revalidation conditions. |
+| **C_HC** | Grounded but uncharacterized avenues for obtaining human capacity: e.g. another reviewer pool, another organisational unit or external specialist is known to be potentially reachable, but competence/authority/service/cost variables are not yet characterized enough for B-type evaluation. |
+| **D_HC** | Potentially material capacity influences beyond the process's effective evaluation route under current access/method/authority/time: e.g. hidden commitments or off-system constraints that may invalidate the schedule but cannot presently be evaluated. |
+| **UNKNOWN** | The component has not established enough scope/capability to assign an A/B/C/D role. UNKNOWN is not forced into C or D. |
+
+A probability, confidence interval, response-margin interval or cost estimate can be **A_HC** when producing that measure is part of the declared Runtime Capacity function. The calibration, coverage, model assumptions and limits that qualify that delivered measure are **B_HC**. This follows the canonical 00M rule that A/B is determined by function, not datatype.
+
+## 2A.2 HID Architecture process
+
+Fix:
+
+~~~text
+producer = HC-HID Architecture Engine
+function = assess human-intelligence allocation/debt for declared scope P
+question = HID architecture / measurement question
+scope = process / capability / portfolio / measurement window
+time = t
+~~~
+
+Then:
+
+| HID component | Meaning in HID Architecture |
+|---|---|
+| **A_HID** | The delivered HID result for the declared measurement function: qualitative architecture finding and, where admitted, measured/bounded H_GIC, H_NEO, H_ACW, HICR_time, HID_observed, HICT interval/point, F-HICT, HID_spent, NOI and declared architectural mechanism findings. |
+| **B_HID** | Established basis, limits and characterized reserve: Study-0 status, task-classification evidence, assessor agreement, counterfactual evidence tier, measurement window, technological period, tracer coverage, releasable-capacity bounds, measured/assumed rho status, known exclusions, uncertainty and already-characterized additional measurements that could be performed. |
+| **C_HID** | Grounded but not yet characterized architecture/measurement avenues: suspected ACW-generating process, candidate counterfactual, candidate automation/recovery intervention or new data source for which the variables/method/cost/yield are not yet sufficiently characterized. |
+| **D_HID** | Potentially material human-intelligence effects beyond effective evaluation: unobserved shadow work, effects outside the measurement boundary, unknown recovery/hysteresis mechanisms or capability losses for which no effective evaluation route presently exists. |
+| **UNKNOWN** | Scope, classification basis or capability boundary is not established enough to assign an A/B/C/D role. |
+
+Again, an interval is not automatically B. If the HID engine's declared output is a bounded HICT interval, that interval is **A_HID** and the evidence/calibration supporting it is **B_HID**.
+
+## 2A.3 EHD projection
+
+HC-HID uses the existing EHD/general-interface semantics; it does not create a competing handoff.
+
+A bounded HC-HID EHD/profile projection may carry:
+
+~~~text
+HC_HID_EHD_Profile = {
+  producer_process,
+  decision_or_measurement_ref,
+  scope,
+  time,
+  A_HC?, B_HC?, C_HC?, D_HC?,
+  A_HID?, B_HID?, C_HID?, D_HID?,
+  cost_projection?,
+  provenance,
+  validity,
+  revalidation_conditions
+}
+~~~
+
+All fields are optional according to the declared process/profile.
+
+The sender MAY transmit only A plus enough EHD metadata to bind the result. Missing B/C/D remains **NOT DECLARED / UNKNOWN to the receiver**, not zero.
+
+The receiver:
+
+~~~text
+received HC-HID EHD
+-> verifies identity / provenance / scope / freshness / compatibility
+-> preserves producer-native A/B/C/D roles
+-> performs receiver-local qualification
+-> decides whether the result is relevant to EA / Cartography / RA / MSCA / Repositioning
+~~~
+
+Transport does not make A_HC or A_HID true for the receiver.
+
+A_HC is a result about **capacity**, not a permission to act.
+
+A_HID is a result about **architectural allocation/debt**, not a current incident disposition.
+
+## 2A.4 Cost inside A/B/C/D
+
+Cost follows the same process-relative rule.
+
+If the HC-HID process is explicitly asked:
+
+> "What is the qualified cost of obtaining this human intervention / alternative information route?"
+
+then the delivered cost estimate or cost interval is **A_COST** of that cost-evaluation process.
+
+If cost is used only to qualify another delivered capacity result, it belongs to **B_HC** or **B_HID** as appropriate.
+
+A characterized alternative whose cost is already assessable but not selected remains B.
+
+A grounded alternative whose cost/effect basis is not yet characterized is C.
+
+A potentially material cost beyond effective evaluation is D.
+
+This distinction prevents "we have not priced it" from being silently rewritten as "it is cheap" or "it is residual risk."
+
+# 2B. Circularity and feedback control
+
+The HC-HID ↔ EA relation is a **feedback loop**, but it must not become a same-operation evidential circle.
+
+The legitimate loop is time/version indexed:
+
+~~~text
+EA / EHD / Cart / MSCA state at version n
+        |
+        v
+HC-HID evaluation n
+        |
+        v
+qualified HC-HID result n
+        |
+        v
+receiver-local requalification / Cart or RA update
+        |
+        v
+new decision/input bundle version n+1
+        |
+        v
+HC-HID re-evaluation n+1 where material
+~~~
+
+### Same-operation anti-circularity rule
+
+For one evaluation identifier `eval_id=n`:
+
+> **HC-HID output produced from InputBundle_n MUST NOT be reused as independent evidence to establish a premise of that same HC-HID evaluation n.**
+
+Examples of prohibited same-cycle circularity:
+
+- A_HC says the reviewer is AVAILABLE because EA says a human path exists, while EA says the human path exists only because A_HC says AVAILABLE.
+- B_HC uses a response margin derived from a schedule that itself assumes the availability conclusion being proven.
+- A_HID labels work as ACW because a policy already says "this interface creates HID", then uses the resulting HID score as evidence that the policy is correct.
+- repeated HC-HID messages are counted as independent corroboration of the same source state.
+
+### Permitted feedback
+
+A completed earlier result MAY become input to a later evaluation when it is treated as a **historical observation with provenance**, not as independent corroboration.
+
+For example:
+
+~~~text
+A_HC(n) = AVAILABLE
+actual effect later misses deadline
+        |
+        v
+effect record becomes new evidence
+        |
+        v
+B_HC / timing model is requalified at n+1
+~~~
+
+Likewise:
+
+~~~text
+A_HID(n) identifies high ACW
+architecture is changed
+new task ledger is observed
+        |
+        v
+A_HID(n+1) measures the new state
+~~~
+
+### When HC-HID causes escalation
+
+HC-HID itself does **not** own ESCALATE as a special interrupt.
+
+It emits an ordinary qualified result.
+
+A consuming policy/component may decide that:
+
+- A_HC = UNAVAILABLE;
+- A_HC = UNKNOWN for a mandatory human gate;
+- low/negative response margin;
+- material D_HC;
+- a material HID/NOI condition under an explicitly declared architecture-review policy;
+
+requires HOLD, fallback, requalification, ESCALATE or another Repositioning result.
+
+That decision remains owned by the consuming MSCA/Repositioning/authority process.
+
+The component may emit a bounded **requalification request** as an ordinary output when an input needed for its own function is missing or stale. A request is not a command and does not grant authority.
+
 # 3. Core typed objects
 
 ## 3.1 HumanInterventionRequest
@@ -577,6 +777,281 @@ The four combinations are meaningful:
 UNKNOWN remains distinct from FAIL.
 
 ---
+
+
+# 7A. DDS-compatible human cost model
+
+HC-HID contributes to the existing DDS ledger; it does not create a second Cost–Risk–Effectiveness method.
+
+The canonical DDS cost form is:
+
+~~~text
+C(tau) = sum_g c_g(tau)
+~~~
+
+and the declared ledger may include search/exploration, validation, external calls, communication, latency, human review, coordination, implementation/maintenance and repeated/recovery work.
+
+HC-HID refines the **human-related cost terms** so that human fallback is never treated as free.
+
+## 7A.1 Human cost vector
+
+For route tau and accounting window W:
+
+~~~text
+C_HC_HID(tau,W) = [
+  C_human_runtime,
+  C_human_readiness_alloc,
+  C_human_case_preparation,
+  C_human_coordination,
+  C_human_rework,
+  C_HID_ACW_alloc,
+  C_component_operation,
+  C_latency,
+  C_external_calls,
+  C_compute,
+  C_communication
+]
+~~~
+
+The vector is preferred when terms are not commensurable.
+
+A scalar DDS cost may be produced only when the profile declares the valuation/normalization rule and avoids double counting:
+
+~~~text
+C_DDS(tau)
+=
+sum_g c_g(tau)
+~~~
+
+## 7A.2 Runtime human cost
+
+For one intervention:
+
+~~~text
+C_human_runtime(tau)
+=
+C_discovery
++
+C_case_prep
++
+C_review
++
+C_coordination
++
+C_application_support
++
+C_rework
+~~~
+
+Queue delay is normally preserved as **latency/time**, not silently monetized.
+
+If a deployment monetizes latency, it MUST preserve the raw latency separately so the same delay is not counted twice without an explicit rule.
+
+## 7A.3 Cost of keeping human capacity available
+
+Human readiness has a cost even if no alert arrives.
+
+For maintained human-capacity pool J over accounting window W:
+
+~~~text
+C_human_readiness(J,W)
+=
+C_staffing
++
+C_on_call_or_reserve
++
+C_training
++
+C_context_currency
++
+C_tools_and_access
++
+C_governance
++
+C_capacity_telemetry
++
+C_maintenance
+~~~
+
+A route-level allocated readiness cost is:
+
+~~~text
+C_human_readiness_alloc(tau)
+=
+AllocationRule(
+  C_human_readiness(J,W),
+  tau,
+  W
+)
+~~~
+
+The allocation rule may be time-based, demand-based, reserved-capacity-based or another declared method.
+
+It MUST be stated.
+
+A profile MUST NOT charge readiness to zero merely because the person was not called in that trace.
+
+This preserves the R01/HEW discipline that a human/escalation phase can carry cost even when no alert occurs.
+
+## 7A.4 Architectural human cost / HID cost surface
+
+HID is primarily an architectural allocation measure, not a currency.
+
+For DDS, a deployment may expose the corresponding burden without forcing it into money:
+
+~~~text
+HumanArchitectureBurden(P,W) = [
+  H_ACW,
+  HID_observed,
+  NOI,
+  H_releasable?,
+  answerability_cost?,
+  reconciliation_hours?,
+  repeated_review_hours?
+]
+~~~
+
+If the deployment has a legitimate monetary conversion, it may additionally calculate:
+
+~~~text
+C_HID_ACW
+=
+sum_e (
+  H_ACW,e * DeclaredCostRate_e
+)
+~~~
+
+but the underlying H_ACW/HID values remain visible.
+
+The monetary projection MUST NOT replace the architectural metric.
+
+## 7A.5 Cost of the HC-HID component itself
+
+The component is not free.
+
+Where material, DDS should charge:
+
+~~~text
+C_component_operation
+=
+C_data_acquisition
++
+C_pool_telemetry
++
+C_classification
++
+C_model_or_scheduler
++
+C_storage
++
+C_signalling
++
+C_revalidation
++
+C_measurement_governance
+~~~
+
+Study-0/instrument-validation effort belongs to the architecture/measurement programme and may be amortized only under an explicit allocation rule.
+
+## 7A.6 Alternative information routes
+
+The human route MUST be compared with other routes capable of solving the **same frozen Challenge**.
+
+Candidate routes may include:
+
+~~~text
+R = {
+  human_review,
+  automated_rule_or_model,
+  direct_authoritative_source,
+  retrieval_or_measurement,
+  peer / external specialist,
+  mixed human-machine route,
+  bounded hold / requalification,
+  other admissible route
+}
+~~~
+
+For route r to be a fair peer for route h, the profile must preserve the same:
+
+- decision/problem scope;
+- authority boundary;
+- sufficient-quality objective / DDS I-route definition;
+- material facts and source access, except where route capability itself is the tested difference;
+- deadline/response horizon;
+- acceptance policy;
+- Risk and Effectiveness semantics.
+
+DDS already requires that the **I region is defined by the Challenge outcome, not by the mechanism**.
+
+Therefore:
+
+> a machine route that is cheaper but reaches a lower-quality M route does not prove that human review is inefficient;
+
+and:
+
+> a conventional non-human route reaching the same I route at equal or lower burden receives full credit.
+
+## 7A.7 Cost–Risk–Effectiveness comparison
+
+For each admissible route r:
+
+~~~text
+DDS_HC_HID(r) = [
+  C(r),
+  Risk(r),
+  Effectiveness(r),
+  Latency(r),
+  ResponseMargin(r),
+  Uncertainty(r),
+  HumanArchitectureBurden(r)
+]
+~~~
+
+No single scalar is required.
+
+Default comparison is Pareto-style:
+
+Route r1 dominates r2 only where, under the frozen comparison:
+
+- r1 reaches the same required I/quality region;
+- r1 does not worsen any declared hard Risk/authority constraint;
+- r1 does not worsen any declared material comparison dimension;
+- r1 improves at least one material dimension.
+
+Human review receives no preference merely because it is human.
+
+Automation receives no preference merely because it is cheaper.
+
+## 7A.8 Human-route differential
+
+A useful deployment differential for one matched information/decision task is:
+
+~~~text
+DeltaC_H = C(human_route) - C(best_admissible_peer_route)
+
+DeltaL_H = Latency(human_route) - Latency(best_admissible_peer_route)
+
+DeltaB_H = HumanArchitectureBurden(human_route)
+           - HumanArchitectureBurden(peer_route)
+~~~
+
+These deltas are reported only when the compared routes satisfy the same frozen Challenge/quality/authority conditions.
+
+A positive DeltaC_H does not by itself reject the human route if it produces lower material Risk or reaches an I route peers cannot reach.
+
+Conversely, a human route that reaches the same I route at higher cost, latency and architectural burden with no compensating Risk/Effectiveness advantage has no demonstrated deployment differential.
+
+## 7A.9 A/B/C/D of cost comparison
+
+The route-cost comparison itself is also a qualified process:
+
+- **A_COST** — delivered cost/burden comparison for the frozen routes;
+- **B_COST** — rates, allocation rules, uncertainty, known excluded costs, amortization and characterized alternatives;
+- **C_COST** — grounded alternative routes whose cost/effect basis is not yet characterized;
+- **D_COST** — potentially material costs beyond effective evaluation.
+
+This prevents an unpriced human-readiness or architectural-HID burden from being silently treated as zero.
 
 # 8. Integration with the existing architecture
 
