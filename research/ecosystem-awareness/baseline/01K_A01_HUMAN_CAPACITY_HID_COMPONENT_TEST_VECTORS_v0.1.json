@@ -1,0 +1,201 @@
+{
+  "title": "01K-A01 Human Capacity / HID semantic test vectors",
+  "version": "0.1",
+  "status": "deterministic semantic controls; not human-performance experiments",
+  "vectors": [
+    {
+      "id": "HC-HID-TV-01",
+      "name": "available human but debt-producing interface",
+      "runtime_input": {
+        "deadline_min": 30,
+        "required_competencies": [
+          "fraud"
+        ],
+        "required_authority": "refund",
+        "information_sufficiency": "TRUE",
+        "reviewer": {
+          "competencies": [
+            "fraud"
+          ],
+          "authority_state": "TRUE",
+          "availability_state": "TRUE",
+          "backlog_delay_min": 5,
+          "service_time_min": 10,
+          "available_until_min": 60
+        }
+      },
+      "hid_input": {
+        "Study0_status": "PASSED",
+        "H_GIC": 20,
+        "H_NEO": 10,
+        "H_ACW": 70,
+        "H_total": 100
+      },
+      "expected": {
+        "runtime_state": "AVAILABLE",
+        "response_margin_min": 15,
+        "HICR_time": 0.2,
+        "HID_observed": 0.7,
+        "semantic_finding": "runtime availability does not imply debt-neutral architecture"
+      }
+    },
+    {
+      "id": "HC-HID-TV-02",
+      "name": "architecturally justified human work but no current capacity",
+      "runtime_input": {
+        "deadline_min": 20,
+        "required_competencies": [
+          "safety"
+        ],
+        "required_authority": "emergency_release",
+        "information_sufficiency": "TRUE",
+        "reviewer": {
+          "competencies": [
+            "safety"
+          ],
+          "authority_state": "TRUE",
+          "availability_state": "TRUE",
+          "backlog_delay_min": 20,
+          "service_time_min": 10,
+          "available_until_min": 60
+        }
+      },
+      "hid_input": {
+        "Study0_status": "PASSED",
+        "H_GIC": 70,
+        "H_NEO": 25,
+        "H_ACW": 5,
+        "H_total": 100
+      },
+      "expected": {
+        "runtime_state": "UNAVAILABLE",
+        "HICR_time": 0.7,
+        "HID_observed": 0.05,
+        "semantic_finding": "low architectural debt does not manufacture incident-time capacity"
+      }
+    },
+    {
+      "id": "HC-HID-TV-03",
+      "name": "unknown authority must remain unknown",
+      "runtime_input": {
+        "deadline_min": 30,
+        "required_competencies": [
+          "finance"
+        ],
+        "required_authority": "approve_payment",
+        "information_sufficiency": "TRUE",
+        "reviewer": {
+          "competencies": [
+            "finance"
+          ],
+          "authority_state": "UNKNOWN",
+          "availability_state": "TRUE",
+          "backlog_delay_min": 0,
+          "service_time_min": 5,
+          "available_until_min": 60
+        }
+      },
+      "expected": {
+        "runtime_state": "UNKNOWN",
+        "semantic_finding": "time and competence cannot compensate for unresolved authority"
+      }
+    },
+    {
+      "id": "HC-HID-TV-04",
+      "name": "fallback route with low margin is degraded",
+      "runtime_input": {
+        "deadline_min": 20,
+        "warning_response_margin_min": 5,
+        "required_competencies": [
+          "ops"
+        ],
+        "required_authority": "containment_review",
+        "information_sufficiency": "TRUE",
+        "reviewer": {
+          "competencies": [
+            "ops"
+          ],
+          "authority_state": "TRUE",
+          "availability_state": "TRUE",
+          "backlog_delay_min": 6,
+          "service_time_min": 10,
+          "available_until_min": 60,
+          "fallback": true
+        }
+      },
+      "expected": {
+        "runtime_state": "DEGRADED",
+        "response_margin_min": 4,
+        "semantic_finding": "feasible does not mean robust"
+      }
+    },
+    {
+      "id": "HC-HID-TV-05",
+      "name": "measurement gate closed",
+      "hid_input": {
+        "Study0_status": "NOT_PASSED",
+        "H_GIC": 30,
+        "H_NEO": 20,
+        "H_ACW": 50,
+        "H_total": 100
+      },
+      "expected": {
+        "quantitative_status": "RESEARCH_ONLY",
+        "publish_empirical_HID": false,
+        "semantic_finding": "raw observations may be retained but empirical HID must be withheld"
+      }
+    },
+    {
+      "id": "HC-HID-TV-06",
+      "name": "oversight adds more human work than it removes",
+      "hid_input": {
+        "Study0_status": "PASSED",
+        "H_GIC": 35,
+        "H_NEO": 25,
+        "H_ACW": 40,
+        "H_total": 100,
+        "H_added": 18,
+        "H_removed": 8
+      },
+      "expected": {
+        "NOI": 10,
+        "semantic_finding": "more oversight is not automatically less Human Intelligence Debt"
+      }
+    },
+    {
+      "id": "HC-HID-TV-07",
+      "name": "one qualified human two simultaneous obligations",
+      "runtime_input": {
+        "reviewer_pool": "one qualified reviewer",
+        "case_A": {
+          "service_time_min": 20,
+          "deadline_min": 20,
+          "non_preemptible": true
+        },
+        "case_B": {
+          "service_time_min": 10,
+          "deadline_min": 15
+        }
+      },
+      "expected": {
+        "batch_feasible": false,
+        "semantic_finding": "naming the same human for both obligations does not create additional qualified capacity"
+      }
+    },
+    {
+      "id": "HC-HID-TV-08",
+      "name": "high HID cannot remove necessary oversight",
+      "runtime_input": {
+        "human_intervention_class": "NEO",
+        "capacity_state": "AVAILABLE"
+      },
+      "hid_input": {
+        "HID_observed": 0.8
+      },
+      "expected": {
+        "skip_required_review": false,
+        "semantic_finding": "architecture debt triggers redesign, not automatic suppression of current necessary oversight"
+      }
+    }
+  ]
+}
