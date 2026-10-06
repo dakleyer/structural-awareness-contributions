@@ -95,6 +95,52 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
 
+  p5-reproducibility:
+    name: P5 reproducibility / Python ${{ matrix.python }} / hash ${{ matrix.hashseed }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - python: "3.9"
+            hashseed: "1"
+          - python: "3.12"
+            hashseed: "777"
+          - python: "3.13"
+            hashseed: "314159"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install pytest
+        run: python -m pip install --upgrade pytest
+
+      - name: Validate P5 fixture-spec agreement
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I
+        env:
+          PYTHONHASHSEED: ${{ matrix.hashseed }}
+        run: python validate_fixture_spec.py
+
+      - name: Re-run unchanged P5 regression surface
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I
+        env:
+          PYTHONHASHSEED: ${{ matrix.hashseed }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pytest -q | tee p5-output.txt
+          grep -Eq "47 passed" p5-output.txt
+
+      - name: Scope note
+        run: echo "Replay only; matrix runs do not add scientific cases to the canonical 47/379 counts."
+
+
   campaign-total:
     name: 00K full campaign (379)
     runs-on: ubuntu-latest
@@ -121,6 +167,10 @@ jobs:
       - name: Validate semantic traceability graph
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-TRACE
         run: python validate_traceability.py
+
+      - name: Validate P5 fixture-spec agreement
+        working-directory: research/ecosystem-awareness/baseline/fixtures/00K-A5-P5-00I
+        run: python validate_fixture_spec.py
 
       - name: Validate P5 blind-signature certificate
         working-directory: research/ecosystem-awareness/baseline/fixtures/00K-FORMAL/p5-blind-signature
