@@ -186,11 +186,25 @@ Different P classes may represent different failure mechanisms or severities. Ex
 
 ### 5.1 EA Type 0/1/2 diagnostic crosswalk
 
-The EA Type 0/1/2 taxonomy is not identical to DDS I/M/P/Ø and must not be inferred mechanically from the final route label.
+The EA Type 0/1/2 taxonomy is not identical to DDS I/M/P/Ø and must not be inferred mechanically from a final label in an arbitrary study. A DDS can, however, be designed so that the trajectory outcomes provide discriminative operational signatures.
 
-- **Type 0** may coexist with legitimate I or M closure when the system correctly preserves residual non-determination instead of pretending it has been eliminated.
-- **Type 1** is not generic extra work. It is a failure of bounded determination: unresolved search, review, waiting, escalation or window expansion becomes non-viable and consumes the capacity or response horizon needed for legitimate closure. An Ø/HOLD outcome is therefore a candidate Type-1 signature only when a bounded admissible route or fallback remained available and the determination process prevented its timely use.
-- **Type 2** may be expressed by a P outcome when the prohibited result was enabled by false closure, stale-frame reuse, unjustified scope extension or suppressed residual uncertainty. Not every P outcome is automatically Type 2; the causal failure mechanism must be established.
+The preferred construction is to define **M ex ante as a legitimate, deliberately reachable minimum/reference closure**, not as a demanding benchmark. M should represent a realistic admissible procedure or market-reference outcome that a competent implementation can reach under the frozen world and resource contract. I then represents one or more higher-value admissible outcomes; P represents prohibited/materially incorrect outcomes; Ø represents no sufficient closure.
+
+Under that construction:
+
+- **Type 0** is compatible with legitimate I or M closure when residual uncertainty is correctly preserved rather than falsely eliminated. A/B/C/D remain qualified; the process need not resolve everything to act legitimately.
+- **Type 1** is indicated when the process fails to produce even the minimum legitimate M closure — ending in Ø/HOLD, timeout, budget exhaustion or equivalent — **despite M remaining reachable under the same frozen contract and absent a genuine Type-0 structural barrier**. The diagnostic target is failure to decide/close, not high cost by itself.
+- **Type 2** is indicated when the process does close but does so through a P route because insufficiently qualified state, stale qualification, missing scope or residual uncertainty has been promoted into permission or false certainty.
+
+This allows DDS to discriminate a key asymmetry that an aggregate confidence/error number may hide. Type-1 episodes can widen uncertainty or suppress delivery; Type-2 episodes can suppress apparent uncertainty and still yield confident-looking outputs. A mixed population may therefore show an apparently moderate aggregate margin while containing both failure classes. Route outcomes and the treatment of the epistemic boundary are the primary diagnostics.
+
+### 5.2 Rework, efficiency and failure type are separate
+
+The complete evaluator map may define a **minimum-sufficient search/review witness** for a route under the same information-access and action contract. This witness remains hidden from the evaluated technology. Actual search, validation, repeated reads, retries and circular review can then be compared with that witness to quantify rework or excess burden.
+
+Rework is an efficiency diagnostic inside Cost. It may explain why a strategy misses I, falls back to M or exhausts its budget, but **rework is not itself Failure Type 1**. A technology can perform unnecessary steps and still reach M or I. Type-1 classification requires the stronger outcome condition above: unresolved determination must prevent bounded legitimate closure that remained available.
+
+Likewise, missing I is not automatically Type 1. A strategy may legitimately reach M because I was not discovered, was too costly, or was correctly rejected. That is lower effectiveness or a different tradeoff, not necessarily paralysis.
 
 The authoritative Type 0/1/2 derivation remains the [Integrated Foundational Theory](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), read with [00M](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) for A/B/C/D semantics and [00N](./baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) for the mechanism-to-requirements bridge.
 
