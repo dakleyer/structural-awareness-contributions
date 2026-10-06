@@ -16,7 +16,7 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.1 · **Fecha:** 6 de octubre de 2026  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.0 · **Fecha:** 6 de octubre de 2026  
 **Estado:** auditoría documental y de relaciones parcial; propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
@@ -39,13 +39,6 @@ Cobertura: cuerpo del README y relaciones materiales identificadas con R01, C3, 
 Interpretación operativa identificada, no cita: la referencia apunta al procedimiento enlazado desde Ecosystem Positioning; el documento propietario de este expediente es el README del oráculo R01 C02. Se trasladan los comentarios de estado, compatibilidad y reaprovechamiento al espacio VNext del documento. Se conserva una sola VNext y se utiliza la ficha externa para respetar la fuente protegida.
 
 Esta instrucción autoriza documentar la auditoría y preparar sus propuestas. **No autoriza aplicar las correcciones técnicas propuestas**, cambiar freezes, ejecutar campañas, asumir aceptación de Nelson ni escribir a otros contribuyentes.
-
-
-**IVAN-R01-ORACLE-20261006-02 · instrucción auténtica de este chat, 6 de octubre de 2026:**
-
-> «crea un plan de trabajo (recomendación tuya) dentro de vnext»
-
-Se añade el plan recomendado en §5.1. La instrucción solicita una recomendación documentada; no cambia por sí sola los estados técnicos de C02/C11/T03 ni la decisión pendiente de cada delta.
 
 ## 3. Auditoría del documento y sus relaciones — R01-ORACLE-AUD-001
 
@@ -143,63 +136,10 @@ Su correo del 6 de octubre sobre trabajo científico/Lifecycle fue leído como c
 | ID | Instrucción / decisión auténtica | Alcance | Estado |
 |---|---|---|---|
 | IVAN-R01-ORACLE-20261006-01 | Documentar los comentarios en la VNext del oráculo según el procedimiento EP. | Crear/reutilizar el expediente, registrar auditoría, conversación y propuestas. | Ejecutada por esta entrega documental; no adopción de deltas técnicos. |
-| IVAN-R01-ORACLE-20261006-02 | Añadir un plan de trabajo recomendado dentro de esta VNext. | Secuencia, entregables, dependencias y criterios de cierre; mantener la cola propietaria. | Ejecutada como documentación del plan; trabajo futuro pendiente. |
 | R01-ORACLE-DELTA-001–004 | No hay decisión de incorporación por ID en este chat. | Corrección del README o successor protegido. | **Pendiente de Iván.** |
 | Campañas C11/T03 y comunicaciones | No autorizadas por esta instrucción documental. | Experimentos nuevos, integración/aceptación de contribuyentes y mensajes. | No ejecutados. |
 
 La cola activa sigue en [WORKPLAN.md](../feasibility/WORKPLAN.md). Las recomendaciones de esta auditoría no crean una cola paralela ni convierten tareas históricas en activas. No hay autorizaciones inferidas de silencio, resultado verde o nombre de archivo.
-
-
-## 5.1. Plan de trabajo recomendado para el oráculo y la reutilización
-
-**Recomendación de Codex, mismo agente, 6 de octubre de 2026 · revisión 1.1 del expediente.** Instrucción auténtica **IVAN-R01-ORACLE-20261006-02**: «crea un plan de trabajo (recomendación tuya) dentro de vnext». Se autoriza añadir esta recomendación al expediente; su publicación no ejecuta las integraciones ni incorpora las cuatro correcciones propuestas.
-
-Mi recomendación es consolidar una frontera común de experimento y trazas, con adaptadores pequeños y evaluadores específicos por escenario. Hay suficiente infraestructura propia para evitar empezar de cero. El trabajo decisivo es demostrar qué significado conserva cada adaptación: una ejecución stateful correcta de S5 y una ruta óptima admisible de R01 responden a preguntas distintas.
-
-Priorizaría la compatibilidad comprobable en un dominio pequeño, antes de extender el evaluador a todas las familias o conectar una tecnología real. Nelson aporta la envolvente experimental y la revisión de su contrato; nuestros harness aportan backends, controles y evidencia histórica. La composición debe permitir usar ambos sin trasladar automáticamente sus conclusiones.
-
-### Orden, entregables y criterios de cierre
-
-Las filas son paquetes recomendados dentro de las tareas existentes, **no nuevos IDs de la cola**. Todas sus ejecuciones están pendientes. La ruta propietaria sigue siendo [WORKPLAN](../feasibility/WORKPLAN.md), contrastada en commit `f065b99953b2f7fd9269950a381689e3ce550294). Los hallazgos F001–F010 explican su origen.
-
-| Orden y prioridad | Trabajo recomendado | Entregable verificable | Dependencia y criterio de cierre | Tarea propietaria |
-|---|---|---|---|---|
-| **1 · inmediata** | Completar la revisión del README con las cuatro preguntas del procedimiento. Terminar fondo/lógica; después evidencia/relaciones; después edición; finalmente comprensión. Publicar cada pasada en esta misma VNext antes de avanzar. | Cuatro registros diferenciados, con ejemplos y límites; revisión cruzada de las dependencias materiales en los expedientes afectados; propuestas exactas al final. | No dar por terminada una pasada con la exploración mixta anterior. La lectura humana debe explicar propósito, entrada, salida y límites; identificar si interviene una persona o solo este asistente. Conciliación del alcance revisado en EP al terminar sus cuatro pasadas. | Revisión documental de C02; M17/P08 para sus consecuencias. |
-| **2 · alta** | Fijar la correspondencia mínima entre cada harness y R01: observación visible, verdad privada, operación, identidad, autoridad, tiempo, intento, efecto, estado final, recursos y resultado. Separar las propiedades compartidas de las específicas. | Matriz por fuente y versión, con ejemplo de transformación, campos sin equivalente y pérdida de información explícita. Contrato CTv1 válido e inválido, incluidos los dos desacuerdos ya observados. | Depende de las fuentes actuales. Cierre: cada campo y predicado tiene origen y consumidor; un campo ausente conserva su condición desconocida. No sustituir los oráculos históricos ni reinterpretar sus resultados. | C02 + M17; F002/F003/F007/F008/F010. |
-| **3 · alta** | Preparar la envolvente UC4 y su vínculo al sidecar R01. Usar schema **1.1.0**, package **1.1.0-r1**, fijados por versión/hash. Resolver las cinco preguntas del perfil para Nelson. | Un paquete de ejemplo completo y mapping versionado de identidades, tiempos, estados, sellos y costes; informe del validador exacto; lista corta de decisiones semánticas pendientes. | La validación técnica puede prepararse mientras se completa la matriz. Source-review y validator-pass son evidencias distintas; la admisión exige ambas y sus capacidades/casos. Solicitar revisión a Nelson solo por una comunicación autorizada. | C02; F004/F005/F009. |
-| **4 · alta** | Integrar un primer perfil propio pequeño. Comenzar por CTv1/replay y controles 00K seleccionados; después adaptar un caso stateful 00I/S5 que exponga decisión, intento y efecto. | Adaptador acotado con traza nativa conservada, traza normalizada y mapping; controles positivo, frontera, rechazo, actividad legítima y dato ausente/malformado; comparación de resultados de origen y destino explicada. | Depende de la matriz; la admisión UC4 depende también del paquete. Cierre: conservar los predicados compartidos y justificar cualquier nuevo predicado R01. Las discrepancias se investigan; no se cambian expectativas para obtener verde. Piloto de instrumento, no primera tecnología T03 ni ejecución AWS. | C02 + M17; F003/F008/F009. |
-| **5 · alta** | Completar fidelidad del evaluador para el perfil admitido y sus recursos. Contrastar las referencias por algoritmo y encargar solo la revisión externa que siga faltando. | Tabla cláusula → predicado → referencia → control/contraejemplo; ledger con unidades, candidato/evaluador/infraestructura separados y tratamiento del no-reference. Resultado de revisión con versión, dominio y desacuerdos. | Puede avanzar en paralelo conceptual con 3–4, sin atribuir independencia al mismo autor. Cierre acotado por perfil; la falta de cobertura relacional, paridad, dinámica o costes impide ampliar la afirmación a esos dominios. Dar crédito a las revisiones ya recibidas. | C02 + M16/M17/P08; F001/F006/F010. |
-| **6 · media** | Extender el mismo mecanismo a 00L, proyección C3, diagnósticos del primer R01 y runners 00G-HF, solo cuando aporten una propiedad necesaria al siguiente perfil. | Perfiles separados, con versiones, capabilities, costes, evaluadores específicos y controles de correspondencia. Tabla de cobertura ampliada y exclusiones. | Depende del piloto y de la fidelidad demostrada. Una reparación no se renombra como inspect; una aserción UC6 no se cuenta como resultado R01. Los ensayos anteriores conservan su alcance. | C02 + M17; F002/F007/F009/F010. |
-| **7 · posterior** | Registrar una campaña concreta antes de ejecutarla: pregunta, tecnología, comparadores fuertes, recursos, reset/memoria/semillas, análisis, fallos, reintentos y parada. | Registro C11 completo con versiones/hashes, alcance del instrumento admitido y criterio de decisión fijado antes de ver resultados. | C02 verificado en el dominio de la campaña y correspondencia admitida. Las ampliaciones del paso 6 que no necesite esa campaña no bloquean su registro. No cerrar C02 universalmente por admitir un perfil. | C11. |
-| **8 · posterior** | Conectar y evaluar la primera realización real elegida en la cola vigente, con aislamiento comprobado. Mantener el orden de M13: human escalation/whispering y candidatos siguientes según el protocolo. | Adaptador T03 admitido; evidencia del aislamiento; trazas originales y normalizadas; resultados y costes por condición, incluidos fallos y resultados convencionales favorables. | Depende de C02/C11 y E1–E7/correspondencia de esa realización. Una ficha virtual no acredita capacidad humana real. Aplicar la regla de parada registrada; conservar y detener cuando corresponda. | M13 + T03. |
-
-El paso 1 ordena la revisión documental. Los pasos 2–6 describen el desarrollo futuro del instrumento; sus pruebas de integración se harán en ese trabajo, fuera de esta preparación documental. Los pasos 7–8 son campañas posteriores. El orden indica dependencias; no constituye una asignación a Nelson, a otro revisor o a otro chat.
-
-### Qué reaprovechar primero y por qué
-
-**Primero CTv1, replay y controles 00K.** Son la forma más pequeña de comprobar trazabilidad, rechazo de datos inválidos y conservación de invariantes. Las diez coincidencias válidas previas son un punto de partida; hace falta declarar el dominio y resolver el contrato de errores antes de afirmar conformidad completa.
-
-**Después 00I/S5 como backend de instrumento.** Permite comprobar algo que una etiqueta aislada no enseña: si una acción permitida o una reparación obsoleta llegó a producir un efecto. Mantendría su evaluador de estado/efecto y añadiría únicamente los predicados R01 que el mapping pueda justificar. Incluiría continuidad legítima para impedir que bloquearlo todo parezca éxito.
-
-**Luego 00L, C3 y primer R01 por necesidad del perfil.** 00L aporta diseño emparejado y separación entre hechos, observaciones, reglas y evaluación. C3 aporta autoridad y temporalidad en su dominio inspect. El primer R01 aporta contrapruebas y medición acotada. Los runners sociales/dinámicos se incorporan cuando exista una pregunta colectiva definida y un ledger suficiente, después de estabilizar el piloto.
-
-No sumaría las 379 regresiones 00K, las filas S5 y las aserciones de Nelson como una tasa de éxito R01. El entregable útil es una correspondencia verificable y una nueva evaluación con su dominio declarado.
-
-### Primer bloque concreto que recomiendo preparar
-
-El siguiente bloque debería producir **la matriz mínima del paso 2 y un ejemplo UC4 del paso 3**, después de publicar la pasada documental pertinente. Para mantenerlo manejable, elegiría un solo escenario 00I/S5 con cambio de autoridad o supersesión y continuidad legítima. El ejemplo incluiría la traza original, su proyección, expectativas privadas, resultado por predicado y coste por unidad.
-
-Antes de implementar, el bloque debe responder cinco preguntas: qué ve el candidato; qué conoce exclusivamente el evaluador; qué operación cambia el destino; qué evidencia distingue intención, intento y efecto; y qué coste se cobra a cada parte. Si alguna respuesta depende de una suposición nueva, se conserva como cuestión abierta.
-
-Como estimación de planificación, reservaría **dos bloques de trabajo** para revisar fuentes/matriz y preparar ese ejemplo. El tamaño de cada bloque y el calendario se ajustan al volumen real de discrepancias; no hay fecha comprometida ni estimación de respuesta de Nelson. El alcance de este primer bloque excluye la campaña real y la generalización a todos los backends.
-
-### Condiciones para avanzar, parar o reformular
-
-Se avanza al siguiente dominio cuando el mapping conserva significado y los controles apoyan el criterio anunciado. Si aparece una discrepancia, se conserva el testigo y se distingue error del adaptador, diferencia válida de contrato o falta de evidencia. Una diferencia legítima puede conducir a dos perfiles, en lugar de forzar un oráculo universal.
-
-Si falla aislamiento, referencia, capacidades o contabilidad, el perfil no se admite para la campaña afectada. Si un comparador convencional resuelve la pregunta, se conserva el resultado y se limita la conclusión; cualquier criterio de aborto establecido por Iván para esa campaña se respeta. La ejecución manual anterior no se reactiva desde este plan ni se convierte en evidencia de EA.
-
-El cierre recomendado tiene tres niveles: **documento revisado en su alcance**, **perfil compatible y admitido con evidencia** y **campaña real evaluada**. Cada uno necesita su propio resultado. Añadir este plan deja completa la petición documental de hoy; los tres niveles futuros mantienen sus estados reales y las cuatro propuestas siguientes continúan pendientes.
 
 ## 6. Propuestas quirúrgicas — al final, incorporación pendiente
 
