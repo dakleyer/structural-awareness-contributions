@@ -10,13 +10,13 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 |---|---|
 | Fondo y lógica | Realizada como pasada diferenciada del README y sus límites; validación externa y código completo fuera de este cierre. |
 | Evidencia y relaciones entre documentos | Realizada para las afirmaciones del README y cadenas materiales declaradas; fuentes vecinas tienen revisión cruzada parcial, no auditoría íntegra. |
-| Edición, estructura y formato | Inspección completa del Markdown realizada; siete propuestas exactas pendientes, sin incorporación. |
+| Edición, estructura y formato | Pendiente como pasada separada; las observaciones y propuestas existentes son insumos. |
 | Legibilidad y comprensión humana | Pendiente como pasada separada; no ha participado un lector humano independiente. |
 
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.4 · **Fecha:** 6 de octubre de 2026  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.3 · **Fecha:** 6 de octubre de 2026  
 **Estado:** auditoría documental y de relaciones parcial; propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
@@ -161,27 +161,6 @@ Las correspondencias completas se concretan en la matriz de la tarea 2; aquí se
 ### Edición, estructura y formato — pendiente como pasada separada
 
 La revisión mixta encontró insumos editoriales: diferenciar versión del schema y del ZIP, explicar el resultado mixto del self-test y hacer visible la infraestructura propia. Las cuatro propuestas exactas del final conservan esos comentarios. No se declara cerrada la edición completa del documento ni se modifica su cuerpo para corregirlos.
-
-
-#### Pasada 3 realizada — edición, estructura y formato, 6 de octubre de 2026
-
-**Codex /root, mismo asistente.** Lectura nueva del Markdown completo, todas sus secciones, listas, diagrama y directorio. Pasada de evidencia publicada primero en `aa9e077cdbef5a38af4bb78f94552981459f16ad`. Pregunta: ¿el orden y el formato permiten distinguir propósito, uso, evidencia y límite? No es una revisión de exportaciones PDF/DOCX ni de un código ejecutado.
-
-El orden actual favorece al mantenedor: estado, atribución, composición UC4, evidencia, lista de funciones, comando y directorio. La atribución es pertinente, pero precede a una explicación sencilla de qué recibe y devuelve el instrumento. Una persona nueva encuentra “C02”, “UC-4-first” y “sidecar” antes de poder describir la pregunta del test.
-
-**Propuestas localizadas y efecto en la lectura:**
-
-- Añadir después del estado dos frases sobre comparar una elección/ejecución con una ruta admisible, con recursos y plazo. Conserva la atribución y el diseño; **DELTA-005** añade propósito sin reordenar la fuente.
-- El bloque “Corpus reuse” tiene cinco rutas como texto plano. Convertirlas en enlaces Markdown con labels que distingan escenario, C3 y diseño hace posible seguir sus fuentes; **DELTA-007** es navegación, no cambio de propiedad semántica.
-- La lista de veintiséis controles sirve de inventario técnico, pero mezcla pruebas de vistas, referencias, contabilidad, integridad y admisión. En vez de sustituirla, el relato de esta VNext agrupa sus funciones en la tabla de evidencia. Una agrupación futura del README necesitaría su propio antes/después; no se presume aprobada.
-- La interpretación del resultado debe preceder al comando de reproducción. **DELTA-003** conserva el resultado mixto; **DELTA-006** explica batch/interactivo y métricas. El código **python3 verify.py** reproduce controles; una persona no debe leerlo como ejecución del producto que desea comparar.
-- El diagrama distingue envolvente y sidecar; el directorio facilita encontrar archivos. Ambos son texto preformateado. No se detectó pérdida de relaciones por su formato. El directorio no pretende enumerar los instrumentos de auditoría añadidos después; no se lo modifica para convertirlo en un registro vivo.
-- Versiones 0.7, v0.9, schema 1.1.0 y ZIP 1.1.0-r1 deben llevar el nombre del objeto. **DELTA-001** y la matriz evitan que el lector interprete varios ejes como una inconsistencia automática.
-- El título “Claim boundary” es adecuado, pero los límites decisivos también deben aparecer en la explicación inicial y junto al modo de ejecución. **DELTA-004/006** hacen visible el alcance antes de que una etiqueta PASS pueda interpretarse como validación general.
-
-**Comprobación editorial de esta pasada.** El README no contiene ecuaciones, tablas propias o figuras externas que necesiten inspección aparte; el diagrama y árbol usan bloques cerrados. Sus links Markdown locales tienen destinos existentes; las rutas planas se revisan con su contexto real. El comando y el estado de instrumento no presentan una versión Python mínima propia: antes de una guía instalable habrá que fijar entorno; no se inventa un requisito nuevo en este comentario.
-
-**Resultado:** inspección de edición y estructura del Markdown terminada. Las correcciones 001–007 son propuestas al final, pendientes de decisión; el texto original y las cuatro propuestas anteriores se conservan. La siguiente pasada se centra en la experiencia de una persona que llega sin los chats.
 
 ### Legibilidad y comprensión humana — pendiente como pasada separada
 
@@ -464,89 +443,3 @@ The two exact trajectory reference paths are separately coded by the same mainta
 ### Consolidación final
 
 Se recomienda preparar DELTA-001–004 como cambios documentales compatibles entre sí, únicamente después de decisión de Iván y revalidación sobre la fuente entonces vigente. No se propone aplicar deltas de código, modificar los 30 archivos del freeze, alterar resultados o cerrar C02. F003/F005/F007/F008/F010 mantienen verificaciones e integración pendientes; no se resuelven mediante estas mejoras del README.
-
-## Propuestas adicionales de las pasadas diferenciadas — incorporación pendiente
-
-Las propuestas 001–004 anteriores permanecen íntegramente como historia. Las siguientes se preparan por **IVAN-R01-ORACLE-20261006-03** sobre la misma fuente del README, blob `282d97ed967898a086303927872fbdfcaf37dd70`, ahora reconfirmado en corte `715027943eefb372fdb4541a23d288bffdedbdb2`. Ninguna se incorpora por esta entrega.
-
-### R01-ORACLE-DELTA-005 — Explicar el propósito antes de la atribución técnica
-
-**Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Párrafo de estado, después del título. **Hallazgos:** Pasadas 1/3 y futura lectura humana; límites F001/F011/F012.
-
-**TEXTO ANTES**
-
-```markdown
-**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
-
-This instrument compares a recorded candidate choice or execution with the best admissible route in a small frozen world, under declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations.
-```
-
-**Razón y efecto:** Añade la pregunta que responde el instrumento antes de los términos C02/UC4/sidecar. No cambia su estado ni amplía evidencia.
-
-**Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
-
-**Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
-
-### R01-ORACLE-DELTA-006 — Separar modo, efectos y métricas antes de reproducir
-
-**Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Antes del comando de reproducción. **Hallazgos:** F011/F012/F016; pasadas 1–3.
-
-**TEXTO ANTES**
-
-```markdown
-Run locally from this directory:
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-Interpret results by their declared mode. A batch PASS checks the candidate's declared selection against a bounded reference and frozen measurements; it is not proof of an executed effect. The interactive instrumentation additionally checks matching environment execution evidence. Native `completion` and `legitimate_q` fields do not automatically establish the scenario's timely admissible-delivery metrics: the current evaluator checks deadline separately. Full scenario metrics and real-runtime isolation remain profile-specific verification obligations.
-
-Run locally from this directory:
-```
-
-**Razón y efecto:** Hace explícita una frontera documentada en código/contratos. Evita importar choice, completion o q sintéticos como entrega/seguridad empírica. No corrige código ni recalcula evidencia.
-
-**Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
-
-**Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
-
-### R01-ORACLE-DELTA-007 — Hacer navegables las fuentes propias del bloque Corpus reuse
-
-**Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Bloque Corpus reuse, cinco referencias planas. **Hallazgos:** Pasada 3; consecuencias de trazabilidad de F002/F003/F007.
-
-**TEXTO ANTES**
-
-```markdown
-Corpus reuse:
-
-- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md
-- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md
-- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md
-- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md
-- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-Corpus reuse:
-
-- [R01 scenario §§1.4, 2.6, 2.15–2.17](../Escenario-creatividad-validacion.md)
-- [Existing partial C3 oracle](../../../fixtures/00G-HF-ORACLE-v0.4/README.md)
-- [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
-- [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
-- [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
-```
-
-**Razón y efecto:** Conserva los cinco destinos y su orden; modifica únicamente el formato de enlace para que la fuente sea accesible.
-
-**Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
-
-**Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
