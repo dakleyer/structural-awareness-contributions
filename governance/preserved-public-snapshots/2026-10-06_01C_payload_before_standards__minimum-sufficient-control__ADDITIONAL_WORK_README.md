@@ -79,12 +79,3 @@ Caso Riviera Maya y sus originales Word/PDF. Aporta contexto para control sufici
 - [WP5_Riviera_Maya_MSC_Case_Note_SENT_2026-08-28.pdf](../../submissions/unece-wp5/2026-riviera-maya-msc/WP5_Riviera_Maya_MSC_Case_Note_SENT_2026-08-28.pdf) — sin enlace previo.
 
 </details>
-
-
----
-
-## New review workspaces — 6 October continuation
-
-The [Role review](./02_ROLE_VNext.md) and [Composition review](./03_COMPOSITION_VNext.md), with [Role note](./02_ROLE_REVIEW_CARD.md) and [Composition note](./03_COMPOSITION_REVIEW_CARD.md), are auxiliary workspaces for principal specifications already routed by MSCA. They record a partial relation to the RA input bundle; the original sources retain their authority. This catalogue only explains and links these review instruments; no new audit is opened because they appear here.
-
-The [01C evidence record](../../governance/review/01C-payload-ownership-2026-10-06/evidence.json) identifies consulted sources and coverage. It supports the review explanation and is not another architecture or experimental result.

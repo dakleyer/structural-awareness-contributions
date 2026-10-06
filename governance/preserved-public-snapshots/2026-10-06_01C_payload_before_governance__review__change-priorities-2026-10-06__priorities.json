@@ -1,7 +1,7 @@
 {
-  "version": "1.1",
+  "version": "1.0",
   "date": "2026-10-06",
-  "source_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
+  "source_commit": "7500dd5ee05c1a5052a28d35a8cefaf2c530707f",
   "scope": {
     "expedientsReviewed": 31,
     "pairedProposals": 42,
@@ -1896,157 +1896,6 @@
       "authorized_to_apply": false,
       "positive_impact_proven": false,
       "assessment_basis": "Recomendación de planificación ya existente; valoración documental, sin ejecución ni nueva asignación."
-    },
-    {
-      "id": 52,
-      "title": "Calificar la cartografía al recibirla en RA",
-      "vnext": "research/ecosystem-awareness/baseline/01C_VNext.md",
-      "source": "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
-      "before": "| **Cart_i / Δ_Cart,i** | [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | Current qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]`, bounded dependency neighbourhood and material cartographic change-set. Because the cartography already uses the shared A/B/C/D semantics, RA may consume the relevant bounded slice without a second epistemic translation layer. |",
-      "after": "| **Cart_i / Δ_Cart,i** | [MSCA Ecosystem Composition & Control](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) | Current qualified Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]`, bounded dependency neighbourhood and material cartographic change-set. The shared A/B/C/D vocabulary permits reuse without a second role taxonomy. RA must still qualify the slice's source question, scope, versions, freshness and evidential basis for its declared regime decision; cartographic support is not automatically support for the RA observation/context/detection contract. |",
-      "benefit": "Evitar que un formato compartido sustituya la calificación de evidencia para otra pregunta.",
-      "riskReason": "El consumidor puede heredar soporte cartográfico como si probara representatividad/contexto/detección RA; cambiar solo esta tabla dejaría la frase equivalente de 03 sin conciliar.",
-      "dependencies": [
-        "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
-        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
-        "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
-        "research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md",
-        "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md"
-      ],
-      "gate": "Decidir junto con 53; cotejar un perfil que reuse el slice y uno donde el dato no distingue el régimen; sin nuevo payload ni algoritmo asumidos.",
-      "source_sha": "95adebcd98c443f16d96feda1e2a7962853e7e93",
-      "review_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
-      "state": "Pendiente de decisión",
-      "impact": "Alto",
-      "risk": "Alto",
-      "effort": "Medio",
-      "priority": "Primera",
-      "wave": "2 — Coherencia entre RA, EA y MSCA",
-      "preparation": "Conciliar productor, consumidor y perfil",
-      "source_guard": "Conservar fuente canónica; decisión concreta de incorporación",
-      "decision_ready": false,
-      "authorized_to_apply": false,
-      "positive_impact_proven": false,
-      "costReason": "Dos extremos y perfiles semánticos deben cotejarse; la redacción es corta, la validación de significado recibido es el trabajo principal.",
-      "assessment_basis": "Nueva lectura documental de 01C y relaciones delimitadas con 02/03/04/01D; no ejecución conjunta.",
-      "before_matches": 1,
-      "after_matches": 0,
-      "heading": "Cambio 52 — Calificar la cartografía al recibirla en RA",
-      "heading_line": 157,
-      "line": 167,
-      "source_scan_scope": "texto completo de la fuente en el nuevo corte"
-    },
-    {
-      "id": 53,
-      "title": "Conservar la calificación al enviar Cart_i a RA",
-      "vnext": "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
-      "source": "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
-      "before": "RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. Because Cart_i already uses A/B/C/D semantics, that bounded slice can enter RA without inventing a second epistemic translation layer.",
-      "after": "RA does not require the full Ecosystem Cartography. It may consume only the bounded dependency neighbourhood relevant to the declared decision/change family. The shared A/B/C/D vocabulary permits reuse without inventing a second role taxonomy. The receiving RA profile must nevertheless qualify the source question, scope, versions, freshness and evidential basis of that slice for its own declared observation/context/detection contract. Support for a cartographic element does not by itself establish that the element preserves the regime distinction or supplies support for A_RA.",
-      "benefit": "Que el productor mantenga visible que compartir roles no transfiere la justificación de un resultado.",
-      "riskReason": "Una precisión aislada en 01C o 03 deja productor y receptor con lecturas distintas; el texto puede ser leído como nueva obligación universal si no se preserva el scope del perfil.",
-      "dependencies": [
-        "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
-        "research/ecosystem-awareness/baseline/01C_VNext.md",
-        "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
-        "research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md"
-      ],
-      "gate": "Tanda conjunta 52/53 y revisión de perfiles/retorno; Composition & Control conserva Cart_i y RA sus contratos científicos.",
-      "source_sha": "0366cbd184149235005dc2236b3da7e4c394ed3e",
-      "review_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
-      "state": "Pendiente de decisión",
-      "impact": "Alto",
-      "risk": "Alto",
-      "effort": "Medio",
-      "priority": "Primera",
-      "wave": "2 — Coherencia entre RA, EA y MSCA",
-      "preparation": "Conciliar productor, consumidor y perfil",
-      "source_guard": "Conservar fuente canónica; decisión concreta de incorporación",
-      "decision_ready": false,
-      "authorized_to_apply": false,
-      "positive_impact_proven": false,
-      "costReason": "Dos extremos y perfiles semánticos deben cotejarse; la redacción es corta, la validación de significado recibido es el trabajo principal.",
-      "assessment_basis": "Nueva lectura documental de 01C y relaciones delimitadas con 02/03/04/01D; no ejecución conjunta.",
-      "before_matches": 1,
-      "after_matches": 0,
-      "heading": "Cambio 53 — Conservar la calificación al enviar Cart_i a RA",
-      "heading_line": 29,
-      "line": 39,
-      "source_scan_scope": "texto completo de la fuente en el nuevo corte"
-    },
-    {
-      "id": 54,
-      "title": "Separar rol vinculado y conducta observada al entrar en RA",
-      "vnext": "research/ecosystem-awareness/baseline/01C_VNext.md",
-      "source": "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
-      "before": "| **ArchitecturalRole_i** | [MSCA Architectural Role](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) | What this participant actually does, consumes, produces, depends on and is authorized/contracted to perform inside the focal MSCA. |",
-      "after": "| **ArchitecturalRole_i** | [MSCA Architectural Role](../../../standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md) | The participant's declared functional/contractual role in the focal MSCA, including assigned inputs, outputs, dependencies, ACC binding and authority references. Qualified observation of actual behaviour and action/effect history remains separate evidence for comparison with that bound role; it does not replace the role binding or establish authority. Dynamic role-drift classification remains owned by Operation & Repositioning. |",
-      "benefit": "Preservar la discrepancia entre rol declarado y efectivo que permite detectar deriva sin legitimar conducta nueva.",
-      "riskReason": "What actually does en la entrada del rol puede ocultar la diferencia que Operation representa como Role_bound/Role_effective; usar conducta para actualizar el rol sin owner puede ampliar autoridad.",
-      "dependencies": [
-        "standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md",
-        "standards/minimum-sufficient-control/02_ROLE_VNext.md",
-        "standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md",
-        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
-        "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md"
-      ],
-      "gate": "Confirmar el sentido de ArchitecturalRole_i con su fuente y perfiles; no nuevos fields obligatorios ni inferencia de permiso desde conducta.",
-      "source_sha": "95adebcd98c443f16d96feda1e2a7962853e7e93",
-      "review_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
-      "state": "Pendiente de decisión",
-      "impact": "Alto",
-      "risk": "Alto",
-      "effort": "Medio",
-      "priority": "Primera",
-      "wave": "2 — Coherencia entre RA, EA y MSCA",
-      "preparation": "Conciliar productor, consumidor y perfil",
-      "source_guard": "Conservar fuente canónica; decisión concreta de incorporación",
-      "decision_ready": false,
-      "authorized_to_apply": false,
-      "positive_impact_proven": false,
-      "costReason": "Dos extremos y perfiles semánticos deben cotejarse; la redacción es corta, la validación de significado recibido es el trabajo principal.",
-      "assessment_basis": "Nueva lectura documental de 01C y relaciones delimitadas con 02/03/04/01D; no ejecución conjunta.",
-      "before_matches": 1,
-      "after_matches": 0,
-      "heading": "Cambio 54 — Separar rol vinculado y conducta observada al entrar en RA",
-      "heading_line": 181,
-      "line": 191,
-      "source_scan_scope": "texto completo de la fuente en el nuevo corte"
-    },
-    {
-      "id": 55,
-      "title": "Acceso a revisión de Role y Composition",
-      "vnext": "standards/minimum-sufficient-control/README_VNext.md",
-      "source": "standards/minimum-sufficient-control/README.md",
-      "source_sha": "0cbbec3e934e25cfcd4e0e79f92fb5d3ab491605",
-      "review_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
-      "before": "The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.",
-      "after": "The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.\n\n---\n\n## Review workspaces for Role and Composition\n\nThe [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.\n",
-      "before_matches": 1,
-      "after_matches": 0,
-      "after_matches_in_candidate": true,
-      "state": "Ya publicado",
-      "state_note": "Adición de navegación de esta entrega; su publicación y readback se consignan en el recibo.",
-      "impact": "Medio",
-      "risk": "Bajo",
-      "effort": "Bajo",
-      "priority": "Histórico",
-      "wave": "Histórico",
-      "benefit": "Acceder a los dos expedientes sin alterar sus fuentes.",
-      "riskReason": "Evitar duplicar ruta o convertir una nota de revisión en fuente normativa; fuente/cuerpo actual preservados.",
-      "costReason": "Dos enlaces y comprobación de rutas/preservación.",
-      "dependencies": [
-        "standards/minimum-sufficient-control/02_ROLE_REVIEW_CARD.md",
-        "standards/minimum-sufficient-control/03_COMPOSITION_REVIEW_CARD.md"
-      ],
-      "gate": "Adición de navegación autorizada, verificación de publicación y texto; no decisión de incorporación técnica.",
-      "preparation": "Fuera de tandas técnicas pendientes",
-      "source_guard": "Adición al final, original como prefijo",
-      "decision_ready": false,
-      "authorized_to_apply": false,
-      "positive_impact_proven": false,
-      "heading": "Cambio 55 — adición de acceso a revisión de Role y Composition",
-      "heading_line": 186
     }
   ],
   "audit_coverage": [
@@ -2325,24 +2174,6 @@
       ],
       "coverage": "Se revisó lo ya registrado para priorizar; conserva el alcance y pendientes de sus auditorías; no cierre de cinco pasadas",
       "new_canonical_changes_proposed_here": 0
-    },
-    {
-      "path": "standards/minimum-sufficient-control/02_ROLE_VNext.md",
-      "source_sha": null,
-      "paired_changes": [],
-      "coverage": "Source Role §§1/6–7 and scope boundary; partial relation only; no four/five-pass closure.",
-      "source": "standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md",
-      "source_blob": "9f6aef99c9f65888f10ce4b27f2e081388f3403c"
-    },
-    {
-      "path": "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
-      "source_sha": null,
-      "paired_changes": [
-        53
-      ],
-      "coverage": "Composition §§10/13–15; producer–consumer partial relation; no full cycle closure.",
-      "source": "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
-      "source_blob": "0366cbd184149235005dc2236b3da7e4c394ed3e"
     }
   ],
   "support_reports_reviewed": [
@@ -2352,75 +2183,5 @@
     "governance/review/EP_REVIEW_REPOSITORY_SCOPE_2026-10-06.md"
   ],
   "historical_r01_tasks_1_2": "Conservar cierre acotado de §5.3; no duplicar su ejecución ni confundirlo con cierre global de cinco pasadas.",
-  "no_new_loose_document_audits": true,
-  "previous_epochs": [
-    {
-      "version": "1.0",
-      "source_commit": "7500dd5ee05c1a5052a28d35a8cefaf2c530707f",
-      "scope": {
-        "expedientsReviewed": 31,
-        "pairedProposals": 42,
-        "pendingPaired": 37,
-        "alreadyPublished": 4,
-        "withdrawn": 1,
-        "unpairedPlanningItems": 9,
-        "literalOldUniqueInCurrentSource": true,
-        "appliedNavigationCheckedSeparately": true,
-        "allDependenciesPresent": true,
-        "sourceChangesAuthorized": 0,
-        "scope": "priority review of existing audits/proposals; not completion of remaining five passes or sixth"
-      },
-      "entry_ids": [
-        1,
-        51
-      ],
-      "note": "Prioridades originales conservadas sin modificar sus entradas."
-    }
-  ],
-  "current_scope": {
-    "active_expedients": 33,
-    "paired_proposals": 46,
-    "pending_paired": 40,
-    "already_published": 5,
-    "withdrawn": 1,
-    "planning_without_literal_pair": 9,
-    "added_here": [
-      52,
-      53,
-      54,
-      55
-    ],
-    "review": "01C full text; partial related-source/evidence review, not five-pass or sixth completion"
-  },
-  "dependency_epochs": [
-    {
-      "source_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
-      "affected_change_ids": [
-        17,
-        35,
-        37,
-        38,
-        43
-      ],
-      "new_related_change_ids": [
-        52,
-        53,
-        54
-      ],
-      "note": "Revisar calificación de Cart_i en RA y rol vinculado/efectivo al preparar la tanda; los anteriores pares y ratings se conservan."
-    }
-  ],
-  "coverage_epochs": [
-    {
-      "source_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
-      "path": "research/ecosystem-awareness/baseline/01C_VNext.md",
-      "source_blob": "95adebcd98c443f16d96feda1e2a7962853e7e93",
-      "fondo_logica": "Texto completo examinado",
-      "evidencia_relaciones": "Ampliada, sigue parcial",
-      "edicion_formato": "Texto completo examinado",
-      "lectura_humana": "Simulada realizada",
-      "investigacion_externa": "Contraste preparatorio, quinta pendiente",
-      "sexta": "Pendiente global"
-    }
-  ]
+  "no_new_loose_document_audits": true
 }

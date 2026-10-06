@@ -173,37 +173,3 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 **Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#adición-de-navegación--texto-viejo-y-después-completo); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `0cbbec3e934e25cfcd4e0e79f92fb5d3ab491605`. El bloque añadido está presente; no se repite la ejecución.
-
-
----
-
-## Continuación de 01C — payloads y separación de propietarios
-
-**Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** Las fuentes Role y Composition conservan su texto; se abren sus únicas VNext y fichas externas para registrar esta relación principal. Role sigue siendo fuente estática/contractual y Operation distingue conducta efectiva. El candidato 53 corresponde a la frase de Composition sobre la entrada del slice RA y se prepara con 52 en 01C. Los enlaces de revisión nuevos son solo navegación.
-
-La explicación, cobertura y viejos/nuevos están en [01C VNext](../../research/ecosystem-awareness/baseline/01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](03_COMPOSITION_VNext.md) y [Role VNext](02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.
-
-### Cambio 55 — adición de acceso a revisión de Role y Composition
-
-**Solo navegación autorizada por el procedimiento. Impacto esperado: Medio. Riesgo: Bajo. Esfuerzo: Bajo.** Los originales Role/Composition permanecen intactos; el índice enlaza las fichas externas y no crea otro nivel canónico. El texto anterior entero es prefijo del índice ampliado.
-
-**Texto antes — viejo completo del último párrafo:**
-
-```markdown
-The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-```
-
-**Texto después — mismo contexto y adición al final:**
-
-```markdown
-The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
----
-
-## Review workspaces for Role and Composition
-
-The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.
-
-```
-
-El después muestra dónde se añade; no sustituye el párrafo viejo. Esta adición se publica con la entrega y se verifica por readback; queda fuera de tandas técnicas pendientes.

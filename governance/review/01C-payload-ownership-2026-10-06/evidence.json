@@ -1,0 +1,120 @@
+{
+  "source_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
+  "source": "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
+  "source_blob": "95adebcd98c443f16d96feda1e2a7962853e7e93",
+  "internal_sources": [
+    {
+      "path": "standards/minimum-sufficient-control/02_MSCA_ARCHITECTURAL_ROLE.md",
+      "sha": "9f6aef99c9f65888f10ce4b27f2e081388f3403c"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
+      "sha": "0366cbd184149235005dc2236b3da7e4c394ed3e"
+    },
+    {
+      "path": "standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md",
+      "sha": "88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md",
+      "sha": "c9cb2d1326f016db89ec41f9945638e25ecbbead"
+    }
+  ],
+  "external_sources": [
+    {
+      "title": "Minimalistic Regime-Aware Early Warning Systems",
+      "url": "https://tegrity.ai/minimalistic-regime-aware-early-warning-systems/",
+      "author": "Iván Abril / Tegrity.AI",
+      "observed_publication": "2026-06-14",
+      "observed_update": "2026-09-13",
+      "scope": "Texto recuperado de introducción y §§2–4/Table5; posteriores solicitudes de secciones devolvieron timeout/error. No certificación de lectura íntegra del paper o Appendix C.",
+      "status": "Fuente propia primaria, no contraste independiente; snapshot web sin pin de revisión immutable"
+    },
+    {
+      "title": "Learning from Time-Changing Data with Adaptive Windowing",
+      "url": "https://www.cs.upc.edu/~Gavalda/papers/adwin06.pdf",
+      "publication_record": "https://epubs.siam.org/doi/10.1137/1.9781611972771.42",
+      "authors": [
+        "Albert Bifet",
+        "Ricard Gavaldà"
+      ],
+      "version": "Extended manuscript dated 2006-10-17; separate SDM2007 record",
+      "scope": "Introducción y §3.1–3.3, modelo y enunciado Theorem3.1; no AppendixA completo ni reproducción.",
+      "status": "Antecedente/método comparador; no importación de código/datos"
+    },
+    {
+      "title": "Bayesian Online Changepoint Detection",
+      "url": "https://arxiv.org/pdf/0710.3742v1",
+      "record": "https://arxiv.org/abs/0710.3742v1",
+      "authors": [
+        "Ryan Prescott Adams",
+        "David J.C. MacKay"
+      ],
+      "version": "arXiv:0710.3742v1, 2007-10-19",
+      "scope": "PDF pp1–5: modelo, §2 recursión/hazard, §2.4 coste, resultados y discusión; referencias no revisadas individualmente, sin reproducción.",
+      "status": "Antecedente/método comparador; código y datasets no inspeccionados/importados"
+    },
+    {
+      "title": "Non-Monotonic Eligibility: re-evaluating governed decisions when evidence arrives late",
+      "url": "https://github.com/FG-TIDA/themes/issues/33",
+      "author": "zhaoxinghua09-cell",
+      "created": "2026-10-01T07:30:06Z",
+      "updated": "2026-10-02T07:57:26Z",
+      "state": "closed",
+      "scope": "Propuesta y comentarios públicos. Comparación de record/trigger/revisión, control no-change y restauración; no uso de afirmaciones jurídicas ni lectura de artefactos externos enlazados.",
+      "comments": [
+        {
+          "id": 5936791411,
+          "url": "https://github.com/FG-TIDA/themes/issues/33#issuecomment-5936791411"
+        },
+        {
+          "id": 5947703119,
+          "url": "https://github.com/FG-TIDA/themes/issues/33#issuecomment-5947703119"
+        }
+      ],
+      "status": "Propuesta cerrada con disposición Out of scope; no workstream adoptado"
+    }
+  ],
+  "proposals": [
+    {
+      "id": 52,
+      "source": "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
+      "blob": "95adebcd98c443f16d96feda1e2a7962853e7e93",
+      "old_matches": 1,
+      "after_matches": 0,
+      "owner_vnext": "research/ecosystem-awareness/baseline/01C_VNext.md",
+      "scope": "Nueva lectura documental de 01C y relaciones delimitadas con 02/03/04/01D; no ejecución conjunta."
+    },
+    {
+      "id": 53,
+      "source": "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
+      "blob": "0366cbd184149235005dc2236b3da7e4c394ed3e",
+      "old_matches": 1,
+      "after_matches": 0,
+      "owner_vnext": "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+      "scope": "Nueva lectura documental de 01C y relaciones delimitadas con 02/03/04/01D; no ejecución conjunta."
+    },
+    {
+      "id": 54,
+      "source": "research/ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md",
+      "blob": "95adebcd98c443f16d96feda1e2a7962853e7e93",
+      "old_matches": 1,
+      "after_matches": 0,
+      "owner_vnext": "research/ecosystem-awareness/baseline/01C_VNext.md",
+      "scope": "Nueva lectura documental de 01C y relaciones delimitadas con 02/03/04/01D; no ejecución conjunta."
+    }
+  ],
+  "states": {
+    "source_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
+    "path": "research/ecosystem-awareness/baseline/01C_VNext.md",
+    "source_blob": "95adebcd98c443f16d96feda1e2a7962853e7e93",
+    "fondo_logica": "Texto completo examinado",
+    "evidencia_relaciones": "Ampliada, sigue parcial",
+    "edicion_formato": "Texto completo examinado",
+    "lectura_humana": "Simulada realizada",
+    "investigacion_externa": "Contraste preparatorio, quinta pendiente",
+    "sexta": "Pendiente global"
+  },
+  "no_program_or_experiment_execution": true,
+  "no_canonical_proposal_applied": true
+}

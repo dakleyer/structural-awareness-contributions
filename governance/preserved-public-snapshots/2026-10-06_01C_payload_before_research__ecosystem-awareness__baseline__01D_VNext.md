@@ -122,12 +122,3 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 **Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Declarar qué mapping está justificado y qué sigue pendiente; no inventar wire fields.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](01D_VNext.md#propuesta-antesdespués--declarar-el-puente-de-representación); el viejo tiene una coincidencia en [la fuente actual](01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md), blob `c9cb2d1326f016db89ec41f9945638e25ecbbead`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
-
-## Continuación de 01C — payloads y separación de propietarios
-
-**Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** El cotejo de payloads 01C confirma que 01D §4 impide UNKNOWN→P_RA=0 y §§2/5/6 conserva operación/versión, dependencia condicional y coste. Los nuevos candidatos 52/53 no reemplazan el mapping P_RA/Δ_RA ya propuesto: un perfil amplio aún debe justificarlo. El candidato 54 conserva rol vinculado versus evidencia de conducta; no nueva autoridad ni permit.
-
-La explicación, cobertura y viejos/nuevos están en [01C VNext](01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](../../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md) y [Role VNext](../../../standards/minimum-sufficient-control/02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.

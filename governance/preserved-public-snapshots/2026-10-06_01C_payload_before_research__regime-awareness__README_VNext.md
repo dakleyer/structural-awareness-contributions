@@ -173,12 +173,3 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 **Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#adición-de-navegación--texto-viejo-y-después-completo); el viejo tiene una coincidencia en [la fuente actual](minimalistic-early-warning-systems/README.md), blob `8e24a311bb7c7a89a29df15909961e6ecf6967f1`. El bloque añadido está presente; no se repite la ejecución.
-
-
----
-
-## Continuación de 01C — payloads y separación de propietarios
-
-**Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** Se leyó 01C completo en texto y se amplió el contraste de entradas, payloads y owners. Los candidatos 52/53 impiden usar el esquema compartido como soporte automático de la pregunta RA; 54 separa rol contractual y conducta. El candidato anterior de resumen A/B/C/D no se adopta ni cambia su viejo. Evidencia del paper y realizaciones siguen abiertas.
-
-La explicación, cobertura y viejos/nuevos están en [01C VNext](../ecosystem-awareness/baseline/01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md) y [Role VNext](../../standards/minimum-sufficient-control/02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.

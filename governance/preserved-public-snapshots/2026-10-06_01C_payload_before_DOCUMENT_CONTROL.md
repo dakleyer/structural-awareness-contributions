@@ -498,12 +498,3 @@ This is an owner-authorized exception for three auxiliary reading sheets only. I
 The catalogues identify purpose, current reading relationship, exact duplicates where checked, versions, pointers and fragment presentation. Counts describe the fixed source tree, not completed audits. Canonical sources or material evidence are not excluded because a split part was individually unlinked. Additional documents receive explanation and links rather than a new five-pass audit/VNext by default, per the [latest plan addition](governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#trabajo-fuera-de-la-ruta-principal--lectura-adicional-sin-nuevas-auditorías).
 
 Navigation execution and literal index-link additions are recorded in the existing affected README VNext and EP README VNext. Authentic predecessor blobs are preserved before branch publication; the diff and new links are verified and public text read back.
-
-
----
-
-## 16. 6 October 2026 — separate review records for MSCA Role and Composition
-
-**Control addition version:** 2026-10-06.5. Existing canonical Role/Composition sources retain their exact blobs. Their unique VNext are [Role](standards/minimum-sufficient-control/02_ROLE_VNext.md) and [Composition](standards/minimum-sufficient-control/03_COMPOSITION_VNext.md), with external review cards to preserve the originals. The MSCA owner README receives only an appended link to those review notes. No source move, rename, deletion, new README or canonical level is introduced.
-
-The current 01C review records partial producer–consumer findings in both endpoints and the owning README VNext. Candidate 52/53 clarifies qualification of a shared cartographic slice; 54 distinguishes role binding and observed behaviour. Publication of these candidates does not authorize incorporation. Additional-work catalogues, frozen sources, results, code and binaries are preserved.

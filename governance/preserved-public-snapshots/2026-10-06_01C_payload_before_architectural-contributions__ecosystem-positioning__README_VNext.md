@@ -853,14 +853,3 @@ La tanda de correcciones **14/15** es pequeña y se decide junta; evita incohere
 La [tabla CSV](../../governance/review/change-priorities-2026-10-06/priorities.csv) permite filtrar Estado = pendiente y comparar impacto/riesgo/esfuerzo/tanda. El [registro JSON](../../governance/review/change-priorities-2026-10-06/priorities.json) incluye razones, fuentes, todos los viejos y nuevos y los límites de cobertura. El [extractor](../../governance/review/change-priorities-2026-10-06/extract_top.py) ofrece vistas **impact** y **decision**, y filtro por tanda; lee archivos, no ejecuta programas del corpus.
 
 La vista **decision** selecciona los candidatos a revisión documental concreta. Los trabajos sin par literal aparecen solo si se pide incluir planificación. Las adiciones ya publicadas y la propuesta descartada se excluyen por defecto. El ranking es provisional y se actualiza con nuevas entradas cuando cambien fuentes o decisiones.
-
-
----
-
-## Continuación de 01C — payloads y separación de propietarios
-
-**Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** Continuación sustantiva: 01C completo examinado en fondo/lógica, edición textual y relectura simulada; evidencia ampliada a los payloads y relaciones 01D/Role/Composition/Operation. Evidencia primaria completa/consumidores/perfiles y quinta siguen abiertas. Dos fronteras nuevas: compartir A/B/C/D no transfiere justificación de Cart_i a RA, y rol vinculado no es conducta observada. Candidatos 52/53/54, impacto alto/riesgo alto/esfuerzo medio, originales intactos. La sexta no se lanza.
-
-La explicación, cobertura y viejos/nuevos están en [01C VNext](../../research/ecosystem-awareness/baseline/01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md) y [Role VNext](../../standards/minimum-sufficient-control/02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.
-
-El registro de prioridades añade **52/53/54** sin modificar las 51 entradas anteriores; 55 identifica solo la adición de acceso a fichas de esta entrega. Los tres cambios técnicos nuevos siguen pendientes, dentro de la tanda de integración, no se ejecutan como correcciones aisladas. [Soporte del contraste](../../governance/review/01C-payload-ownership-2026-10-06/evidence.json). Los dos nuevos expedientes son de fuentes principales Role/Composition; su apertura no extiende la campaña a los materiales adicionales.
