@@ -1,3 +1,6 @@
+> [!NOTE]
+> **Fuente de este expediente · verificación del 6 de octubre de 2026.** [Documento de referencia](FENCING_CONFUSED_DEPUTY_EXTENSION.md). Ésta es su única VNext; el original permanece en lectura. Las auditorías, propuestas y textos anteriores se conservan íntegros debajo. Este enlace no certifica cierre de revisión, adopción o resultados.
+
 # Owning VNext — FENCING_CONFUSED_DEPUTY_EXTENSION.md
 
 Edition0.1 ·6 October2026 · one review for this logical source. Author:Codex, same assistant. Scope:canonical successor and its DDS model/source/consumer relationships, not a full independent validation.

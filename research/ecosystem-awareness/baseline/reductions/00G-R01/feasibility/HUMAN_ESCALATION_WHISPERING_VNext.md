@@ -1,3 +1,6 @@
+> [!NOTE]
+> **Fuente de este expediente · verificación del 6 de octubre de 2026.** [Documento de referencia](HUMAN_ESCALATION_WHISPERING.md). Ésta es su única VNext; el original permanece en lectura. Las auditorías, propuestas y textos anteriores se conservan íntegros debajo. Este enlace no certifica cierre de revisión, adopción o resultados.
+
 # Human escalation and whispering — owning technical VNext
 
 Public research review edition0.1 ·6 October2026 · continuation of the same logical owning review.
