@@ -248,6 +248,30 @@ Transport success alone never triggers a semantic update.
 
 Qualified `ReceivedSignals_i` may be included in the input bundle to [Regime Awareness 01C](./01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md). Regime Awareness remains free to consume additional qualified sources and may return a material `Δ_RA`; such an RA result can itself later be selectively disclosed as another bounded ecosystem signal.
 
+
+### 5.2 Human / systemic alert profile and mid-cycle escalation
+
+A **Human / Systemic Alert** may be carried as a bounded signalling profile when a material condition is raised by a human, an automated system, a qualified Regime Awareness output, or a condition discovered while Repositioning is already active.
+
+This is **not a fifth primitive signal class**. It is a routing/profile use of the existing epistemic, MSCA, ACC and authority projections plus the [EHD general handoff](./04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md).
+
+The sender-side trigger may originate from:
+
+- a human objection or anomaly report;
+- an agent/system alert;
+- a material `Δ_RA` / regime-change warning or requalification request;
+- effective-role drift, unresolved ACC/authority transition or another material Repositioning condition;
+- an optional [Human Intelligence Capacity / Escalation / Debt](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) determination showing that a planned human-review path is degraded, unavailable or unknown.
+
+The receiving side still performs normal qualification. Where material, the alert may update `Cart_i`, trigger Regime Awareness or local requalification, and then alter the downstream Repositioning surface. Transport success, human authorship or the word "alert" does not make the payload true or authoritative.
+
+A human may be a receiver where an applicable ACC, policy or signalling profile routes that class of signal to a human/role. A deployment may implement that relationship as subscription, notification, queue membership or another delivery mechanism. Such routing does not make the human a central interrupt for Ecosystem Awareness or Repositioning, and receipt does not establish that the human has sufficient review capacity.
+
+Signalling is also available **during** Repositioning. A mid-cycle alert can be consumed, qualified and reflected into Cartography/RA before the participant continues. Conversely, Repositioning may emit `RepositionIntent`, an escalation request or another bounded signal and then remain HOLD / UNRESOLVED while a legitimate ACC successor, authority decision or required evidence is pending.
+
+The [01K Human Intelligence extension](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) may be consulted before a specifically human-directed trigger so that a system does not equate "named human" with "usable human intelligence capacity". That calculation remains extension-owned; 01J owns only the bounded signalling semantics.
+
+
 ## 6. Signalling and the downstream agentic gradient
 
 The purpose of signalling is not only incident defence. It can alter the receiver's epistemic state, Ecosystem Cartography and downstream opportunity surface.
