@@ -2,7 +2,7 @@
 
 **Status:** additive public working extension, v0.1, 6 October 2026. This is an **Ecosystem Positioning-related Human Intelligence / Human Escalation extension hosted in the EA folder for lineage and routing**. It remains outside the EA core, outside the controlled/frozen baseline and outside the semantic ownership of Ecosystem Signalling, Regime Awareness, MSCA or Repositioning. It does not define a universal cognitive metric, a staffing standard, a mandatory human-in-the-loop architecture, an ITU-T deliverable or an adopted FG-TIDA requirement.
 
-**Terminology boundary:** humans are not tokens. **Human Intelligence Tokens (HIT)** are a working accounting unit for demand placed by a system on scarce, qualified human cognitive capacity. They are not a unit of human worth, headcount, labour time or legal responsibility.
+**Terminology and lineage boundary:** this annex does not redefine Human Intelligence Debt. **Human Intelligence Debt (HID)**, **Human Intelligence Contribution Ratio (HICR)** and **Human Intelligence Contribution Target (HICT)** are imported from the existing Tegrity.AI Human Intelligence Debt / Human Intelligence Gap series. The present annex only connects that architectural concept to Human Escalation and the Ecosystem Positioning signalling/repositioning interfaces.
 
 ## 1. Purpose and architectural boundary
 
@@ -35,97 +35,109 @@ FG-TIDA public lineage motivating the interface includes the Theme #16 capacity-
 
 These links establish contributor-level working lineage only; they do not imply FG-TIDA or ITU-T adoption of this annex.
 
-## 2. Human Time and Human Intelligence are different resources
+## 2. Human Intelligence Debt is an architectural gap
 
-For a human-review path, retain at least two different resource dimensions:
+The controlling conceptual source is [Human Intelligence Debt](https://tegrity.ai/human-intelligence-debt/), with the measurement refinement in [Measuring Human Intelligence Debt](https://tegrity.ai/meassuring-human-intelligence-debt/) and the accumulated/partly irreversible interpretation in [Architectural Entropy](https://tegrity.ai/architectural-entropy-how-mediated-systems-spend-human-exergy-and-the-partial-irreversibility-of-human-intelligence-debt/).
+
+The architectural question is not "how much human review demand is waiting in a queue?" It is:
+
+> **How much genuine human contribution could the current technological and architectural frontier make possible, and how much genuine human contribution does the actual socio-technical architecture elicit?**
+
+The source framework defines:
 
 ~~~text
-HumanCapacity_j(W) = [
-  HumanTime_j(W),
-  HumanIntelligenceCapacity_j(W)
+HICT_t = ideal Human Intelligence Contribution Target
+HICR   = actual Human Intelligence Contribution Ratio
+
+HID_t = HICT_t - HICR
+~~~
+
+At task granularity, the measurement programme operationalises the same distinction in cognitive hours and separates:
+
+- **GIC — genuine information contribution:** human work that creates new information/judgement not mechanically obtainable from the available data, rules, models and technology;
+- **NEO — necessary execution & oversight:** human work that remains structurally necessary even in a coherent architecture;
+- **ACW — avoidable compensatory work:** human work created by fixable architectural fragmentation or mediation; this is the observed debt surface.
+
+The measurement proposal expresses, among other quantities:
+
+~~~text
+HICR_time      = H_GIC / H_total
+HID_observed   = H_ACW / H_total
+HICT           = HICR + H_releasable / H_total
+F-HICT         = HICR + rho_inf * (H_releasable / H_total)
+HID_spent      = (1 - rho_inf) * (H_releasable / H_total)
+~~~
+
+This matters here because a Human Escalation interface can be fully operational in the narrow runtime sense and still be **architecturally debt-producing**.
+
+A person may have time, competence and authority available, and the system may successfully route one hundred low-value confirmations to that person. Runtime capacity has not been exceeded. Yet the architecture may still be using scarce human cognition as compensatory middleware instead of eliciting genuine judgement, strategy, interpretation or exception handling.
+
+That is Human Intelligence Debt in the sense relevant to this annex: **not a temporary queue deficit, but an architectural gap between feasible genuine human contribution and the contribution the designed system actually enables.**
+
+The debt may compound over time. The source series further distinguishes a recoverable component from a spent component: architecture can release some misallocated capacity, while capability that has gone unexercised may require deliberate rebuilding rather than returning automatically.
+
+## 3. Runtime Human Escalation capacity is a different variable
+
+Human Escalation still needs a runtime capacity check, but that check must not be called Human Intelligence Debt.
+
+For a reviewer or reviewer pool J inside response window W, a deployment may maintain a bounded operational state such as:
+
+~~~text
+HumanEscalationCapacity_J(W) = [
+  qualified reviewer availability,
+  Human Time available,
+  competence / case fit,
+  authority,
+  queue / committed work,
+  expected decision latency,
+  response horizon
 ]
 ~~~
 
-where W is the relevant response window.
+This answers:
 
-**Human Time** represents temporal availability consumed by the system.
+> **Can this human path meaningfully intervene now?**
 
-**Human Intelligence Capacity** represents qualified cognitive capacity usable for the required judgement in the declared case, including where relevant interpretation, synthesis, contradiction checking, contextual reasoning, evidence assessment and decision formation.
+It does not answer:
 
-The dimensions are deliberately non-fungible.
+> **Is the architecture using human intelligence well?**
 
-A person may spend sixty minutes repeatedly observing a screen and clicking "Yes" on routine cases. That can consume substantial Human Time while producing little new qualified human intelligence. Repetitive low-value monitoring may also reduce the effective cognitive reserve available for a later difficult intervention.
+Those are separate questions.
 
-Conversely, a short intervention may require high cognitive demand if it requires specialized competence, contextual reconstruction, conflicting evidence assessment or consequential judgement.
+A reviewer may be AVAILABLE at runtime while the surrounding architecture is generating high Human Intelligence Debt.
 
-Therefore:
+Conversely, an architecture may be well designed to reserve human cognition for genuine contribution while a particular incident still finds the qualified reviewer temporarily UNAVAILABLE.
 
-~~~text
-HumanTime consumed
-!=
-HumanIntelligence consumed or produced
-~~~
+## 4. Do not make Human Intelligence Tokens the HID metric
 
-and headcount alone establishes neither.
+This annex therefore does **not** define HID in Human Intelligence Tokens.
 
-## 3. Human Intelligence Tokens (HIT)
+The source framework already has a coherent metric family based on HICR, HICT, cognitive hours, GIC/NEO/ACW, releasable capacity and the recovery coefficient. Introducing a token unit as the definition of HID would create a second construct over the existing one and would blur the distinction between architectural debt and runtime escalation capacity.
 
-A **Human Intelligence Token (HIT)** is a normalized, deployment-relative accounting unit for demand on qualified human cognitive capacity.
+A deployment may still use a local normalized workload unit for scheduling or queue admission if useful. If such a unit is informally called a **Human Intelligence Token (HIT)**, it must remain an implementation-local operational ledger and MUST NOT be interpreted as:
 
-For case i:
+- a universal unit of human intelligence;
+- a unit of human worth;
+- the definition of Human Intelligence Debt;
+- a substitute for HICR/HICT;
+- evidence that high cognitive load equals high genuine contribution.
 
-~~~text
-Demand_i = [
-  t_i,
-  h_i
-]
-~~~
+The architectural design test is instead whether the interface moves human effort toward **GIC / necessary oversight** and away from **ACW / avoidable compensatory work**.
 
-where:
-
-- `t_i` = Human Time demand;
-- `h_i` = Human Intelligence Token demand.
-
-HIT is intentionally not defined as a universal biological or psychological constant. A deployment may calibrate it using its own task classes, reviewer competence, complexity, evidence volume, ambiguity, consequence and observed service characteristics.
-
-A useful implementation may initially use ordinal or normalized classes rather than pretending to possess a precise universal cognitive scale.
-
-The architectural requirement is the separation, not one mandatory numeric calibration.
-
-## 4. Qualified capacity, degradation and debt
-
-For a reviewer or reviewer pool J in response window W:
+For Human Escalation, the two gates are therefore:
 
 ~~~text
-HIT_available,J(W)
-=
-HIT_nominal,J(W)
--
-HIT_committed,J(W)
--
-HIT_degradation,J(W)
+Gate A — Runtime viability
+Can a qualified, authorized human intervene inside W?
+
+Gate B — Architectural intelligence use
+Is the interface designed to elicit genuine human contribution,
+or is it consuming people as compensatory middleware?
 ~~~
 
-The degradation term is a working representation of capacity loss associated with fatigue, sustained monitoring, context switching, repetitive approval work or other declared factors. This annex does not prescribe one physiological model.
+Passing Gate A does not imply passing Gate B.
 
-A bounded working definition of **Human Intelligence Debt (HID)** is:
-
-~~~text
-HID(W)
-=
-max(
-  0,
-  HIT_demand_committed(W) - HIT_available(W)
-)
-~~~
-
-Human Intelligence Debt means that the system has committed, queued or generated qualified cognitive demand that cannot presently be satisfied within the relevant response window under the declared reviewer pool and assumptions.
-
-It does not mean that the organization lacks employees.
-
-An organization may have enough nominal reviewers and reviewer-hours while still carrying Human Intelligence Debt.
-
-## 5. Human Escalation as an existing architectural consumer/producer
+## 5. Human Escalation as an existing architectural consumer/producer## 5. Human Escalation as an existing architectural consumer/producer
 
 Human Escalation is not owned by this annex and is not inserted as a new core EA function.
 
@@ -141,7 +153,7 @@ A Human Escalation path may:
 
 A successful route-to-human event is therefore not equivalent to a successful human intervention.
 
-The path remains subject to competence, authority, information sufficiency, Human Time, HIT capacity, latency and the useful response horizon.
+The path remains subject to competence, authority, information sufficiency, Human Time, qualified reviewer availability, latency and the useful response horizon. Separately, its interface design can be assessed against the HID framework to determine whether it elicits genuine contribution or creates avoidable compensatory work.
 
 ## 6. Human / systemic alert is a signalling profile, not a fifth signal class
 
@@ -209,11 +221,23 @@ HumanEscalationViable_i(τ,W)
 =
 qualified route exists
 AND applicable human authority exists
+AND qualified reviewer/case fit exists
 AND required HumanTime fits W
-AND required HIT fits W
+AND expected decision latency fits W
 ~~~
 
-If capacity is not established, Repositioning must not manufacture it by naming a human.
+This is deliberately a runtime-capacity test, not an HID formula.
+
+A second, architectural question may be evaluated before the escalation pattern is adopted or when the interface is reviewed:
+
+~~~text
+HumanIntelligenceArchitectureFit_i
+=
+does the interaction primarily elicit GIC / necessary oversight
+rather than ACW created by avoidable architectural fragmentation?
+~~~
+
+If runtime capacity is not established, Repositioning must not manufacture it by naming a human. If architectural fit is poor, the fact that a human happens to be available does not make the escalation design efficient or debt-neutral.
 
 Possible bounded outcomes remain the existing ones, including:
 
@@ -230,9 +254,13 @@ In particular, Repositioning may remain **HOLD / UNRESOLVED** while waiting for 
 
 An Ecosystem Positioning implementation may consume this extension **before** issuing a human-directed communication trigger.
 
-The question is not "is there a human?" but:
+The runtime question is not "is there a human?" but:
 
-> **Is there a qualified human path with enough time and Human Intelligence capacity for this alert to change the outcome inside the useful response window?**
+> **Is there a qualified, authorized human path with enough time and case-relevant capability for this alert to change the outcome inside the useful response window?**
+
+A separate design-time question precedes that:
+
+> **Should this interaction be asking a human at all, or is the architecture spending human cognition on ACW that a coherent system could remove?**
 
 A preliminary state may be:
 
@@ -289,7 +317,7 @@ An applicable ACC/signalling profile may specify, for example:
 - constraints on automated reliance on human approval;
 - limits or policies for consuming scarce human-review capacity.
 
-ACC does not calculate HIT.
+ACC does not calculate HID, HICR/HICT or runtime reviewer capacity.
 
 This annex does not issue ACC.
 
@@ -298,7 +326,7 @@ The coupling is:
 ~~~text
 ACC defines admissible participation / escalation obligations
 +
-01K qualifies human capacity where used
+01K qualifies runtime human-escalation capacity where used and imports the existing HID architecture test
 +
 01J/EHD transports the bounded signal
 +
@@ -309,13 +337,16 @@ Repositioning/authority consumes the result without bypassing legitimacy gates
 
 The existing [UC-EA-03](./UC-EA-03_v0.4_MAINTENANCE_FREEZE.md) remains the natural architecture-validation profile because it asks whether human oversight is actually authorized, informed, capacitated and timely and what the human action legitimately changes.
 
-The [R01 Human Escalation / Whispering](./reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md) line is the current richer virtual/analytical experimental route. It already accounts for human review, queue, time, cost and completion constraints. HIT/HID can be tested there as an additional declared capacity model without retroactively converting the existing virtual results into human-validated measurements.
+The [R01 Human Escalation / Whispering](./reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md) line is the current richer virtual/analytical experimental route. It already accounts for human review, queue, time, cost and completion constraints. It can therefore test two different propositions without conflating them:
 
-No claim is made here that HIT is empirically calibrated, that HID predicts real reviewer performance, or that this extension outperforms competent conventional queueing/workforce models.
+1. **runtime capacity:** whether a qualified human path is actually reachable and usable before the response window closes;
+2. **architectural debt tendency:** whether an escalation/interface pattern removes or creates ACW and whether it moves observed human contribution toward the HICT frontier.
 
-A useful falsifier is straightforward:
+The canonical HID measurement programme remains the Tegrity.AI series and requires its own instrument-validation gate before publishing empirical HID values. This annex does not claim that runtime queue measurements are HID measurements, or that a successful human-escalation path reduces Human Intelligence Debt.
 
-> If reviewer-minutes / conventional workload models explain the same bounded intervention outcomes with equal or lower burden, HIT adds no demonstrated differential for that case.
+A useful architectural falsifier is:
+
+> If an escalation design increases human review while the additional human work is predominantly ACW that a coherent architecture could remove, then successful routing has not demonstrated lower Human Intelligence Debt.
 
 ## 13. Canonical thesis
 
@@ -327,11 +358,13 @@ The useful architectural distinction is:
 
 > **Ecosystem Positioning may consume a Human Intelligence / Human Escalation extension to qualify whether a human-directed trigger is operationally meaningful. The trigger still travels through bounded signalling, is requalified by its receiver, may update Cartography and Regime Awareness, and remains subject to ACC, authority and response-window constraints during Repositioning.**
 
-Human Time and Human Intelligence are separate resources.
+Runtime Human Time/capacity and architectural Human Intelligence Debt are separate constructs.
 
-A system may consume much Human Time while obtaining little qualified Human Intelligence.
+A system may remain inside its current reviewer-time budget and still increase Human Intelligence Debt if the interface structurally allocates human cognition to avoidable compensatory work rather than genuine contribution.
 
-A named human does not create capacity.
+The architectural objective is not to "use more human intelligence" indiscriminately. It is to move actual contribution (HICR) toward the feasible architectural target (HICT) while preserving necessary execution/oversight and avoiding ACW.
+
+A named human does not create runtime capacity.
 
 A routed alert does not create authority.
 
