@@ -116,3 +116,45 @@ The [additional-work reading catalogue](non-canonical/README.md) explains preser
 ```
 
 El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 20 · Orientación humana del índice EA | Siguiente · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
+| 21 · Acceso a trabajo adicional desde baseline | Histórico · Histórico | Medio | Bajo | No nuevo | Ya publicado |
+
+### Cambio 20 — Orientación humana del índice EA
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Explicar para qué sirven ayudas visuales y cómo continuar hacia argumento/pruebas.
+
+**Qué podría quedar desactualizado o afectado:** Un resumen demasiado largo puede repetir el índice o perder límites; los enlaces deben seguir vigentes.
+
+**Qué cuesta prepararlo:** Un párrafo con revisión de lectura y rutas, sin reordenar el README.
+
+**Dependencias conocidas:** [README.md](README.md) · [README.md](visuals/README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Confirmar ubicación/adición preservando el texto antiguo y lectura humana.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#propuesta-antesdespués--orientación-opcional-pendiente); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `359dea888dac9778c1c49e17a091b8fe6fe89b00`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 21 — Acceso a trabajo adicional desde baseline
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: No nuevo. Prioridad: Histórico.** Dar ruta a materiales adicionales sin convertirlos en canon.
+
+**Qué podría quedar desactualizado o afectado:** Duplicar el bloque ya publicado confunde al lector.
+
+**Qué cuesta prepararlo:** Adición ya realizada y leída de vuelta.
+
+**Dependencias conocidas:** [README.md](non-canonical/README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar; diferencia de espacios en blanco del contexto, mismo bloque publicado.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#adición-de-navegación--texto-viejo-y-después-completo); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `359dea888dac9778c1c49e17a091b8fe6fe89b00`. El bloque añadido está presente; no se repite la ejecución.

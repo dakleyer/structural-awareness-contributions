@@ -966,3 +966,145 @@ La [contribución FG-TIDA #30](https://github.com/FG-TIDA/themes/issues/30) aña
 **Pregunta de consolidación de este documento:** Conciliar dominios, ground truth, controles y resultados de R01 con requisitos y benchmark; acuerdo de helpers, control finito o coste sintético no se convierte en independencia o eficacia causal.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 24 · Separar versión de schema y paquete UC4 | Siguiente · 1 — Claridad de evidencia y estado | Medio | Medio | Bajo | Pendiente de decisión |
+| 25 · Explicar reutilización por familia sin trasladar resultados | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
+| 26 · Self-test verde distinto de tecnología que pasa | Primera · 1 — Claridad de evidencia y estado | Alto | Bajo | Bajo | Pendiente de decisión |
+| 27 · Límite de dominio e independencia del oráculo | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
+| 28 · Propósito del oráculo antes de la atribución | Siguiente · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
+| 29 · Distinguir modo, efectos y métricas antes de reproducir | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
+| 30 · Convertir referencias propias en rutas navegables | Después · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
+
+### Cambio 24 — Separar versión de schema y paquete UC4
+
+**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** No mezclar schema 1.1.0 con release 1.1.0-r1.
+
+**Qué podría quedar desactualizado o afectado:** Companion mutable, sidecar y validador pueden usar versiones distintas; corregir solo el README deja el perfil o import note desfasados.
+
+**Qué cuesta prepararlo:** Cotejo del manifest pin y dos documentos receptores; no cambiar sidecars congelados.
+
+**Dependencias conocidas:** [UC4_INTEROPERABILITY_PROFILE.md](UC4_INTEROPERABILITY_PROFILE.md) · [NELSON_BASELINE_IMPORT.md](NELSON_BASELINE_IMPORT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Verificar vigencia del pin antes de incorporar; source-review no equivale a validator-pass.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-001--separar-versión-del-esquema-y-del-paquete-uc4); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 25 — Explicar reutilización por familia sin trasladar resultados
+
+**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Hacer visible qué puede usarse de Q1a/00K/00L/00I/C3 y qué sigue sin mapping.
+
+**Qué podría quedar desactualizado o afectado:** La tabla puede quedar vieja o sumar campañas distintas como evidencia R01; desarrollar un adapter es otra acción.
+
+**Qué cuesta prepararlo:** Siete familias con owners/versiones y comparación de límites; no importación ni ejecución.
+
+**Dependencias conocidas:** [README.md](../../../fixtures/RS-00E-Q1a/README.md) · [README.md](../../../fixtures/00K-SUITE/README.md) · [README.md](../../../00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) · [README.md](../../../fixtures/00I-STATEFUL/README.md) · [README.md](../../../fixtures/00G-HF-ORACLE-v0.4/README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Alinear con matriz existente, tareas 1/2 y workplan; tabla propuesta, no admisión.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-002--hacer-visible-la-reutilización-de-los-harness-propios); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 26 — Self-test verde distinto de tecnología que pasa
+
+**Impacto esperado: Alto. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Primera.** Evitar que seis controles esperados se presenten como seis éxitos de tecnologías.
+
+**Qué podría quedar desactualizado o afectado:** Números o estados del lote pueden quedar desactualizados; la explicación debe citar v0.9 en vez de decir siempre current.
+
+**Qué cuesta prepararlo:** Un párrafo y cotejo de las seis entradas fijadas; no recalcular evidencia.
+
+**Dependencias conocidas:** [SELFTEST_RECORD_v0.9.md](SELFTEST_RECORD_v0.9.md) · [selftest_result_v0.9.json](selftest_result_v0.9.json). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Fijar registro usado y distinguir control esperado, candidate status y conclusión.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-003--distinguir-self-test-del-instrumento-y-aceptación-del-candidato); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 27 — Límite de dominio e independencia del oráculo
+
+**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Impedir que acuerdo de dos implementaciones o un DAG finito parezca validación externa del R01 completo.
+
+**Qué podría quedar desactualizado o afectado:** Si otros README/métricas mantienen esa extrapolación el efecto queda incompleto; futuras ampliaciones pueden cambiar el dominio.
+
+**Qué cuesta prepararlo:** Cotejo del dominio/premisas y recibos ya existentes, M16/M17, sin nuevas campañas.
+
+**Dependencias conocidas:** [README.md](README.md) · [SELFTEST_RECORD_v0.9.md](SELFTEST_RECORD_v0.9.md) · [selftest_result_v0.9.json](selftest_result_v0.9.json) · [UC4_INTEROPERABILITY_PROFILE.md](UC4_INTEROPERABILITY_PROFILE.md) · [COMPUTABILITY_AND_ORACLE_PLAN.md](../COMPUTABILITY_AND_ORACLE_PLAN.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Conservar soporte acotado y límites; no declarar independencia por relectura de Codex.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-004--delimitar-diversidad-de-referencia-dominio-y-validación-externa); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 28 — Propósito del oráculo antes de la atribución
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Que una persona entienda entrada, evaluación y resultado antes de fuentes técnicas.
+
+**Qué podría quedar desactualizado o afectado:** La apertura debe concordar con el modo del instrumento y no parecer servicio desplegado.
+
+**Qué cuesta prepararlo:** Un párrafo y cotejo con interfaces actuales.
+
+**Dependencias conocidas:** [README.md](README.md) · [TRACE_CONTRACT.md](TRACE_CONTRACT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Mantener estado limited implementation y límites del lote.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-005--explicar-el-propósito-antes-de-la-atribución-técnica); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 29 — Distinguir modo, efectos y métricas antes de reproducir
+
+**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Que una instrucción de reproducción no confunda intento, efecto y aceptación.
+
+**Qué podría quedar desactualizado o afectado:** El texto puede prometer métricas o aislamiento que el runner no produce; datos instrumentales no son costes reales.
+
+**Qué cuesta prepararlo:** Leer contrato/mode y etiquetas de salida del instrumento; ninguna ejecución de programa.
+
+**Dependencias conocidas:** [README.md](README.md) · [TRACE_CONTRACT.md](TRACE_CONTRACT.md) · [ISOLATION_CONTRACT.md](ISOLATION_CONTRACT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Confirmar correspondencia documental con los modos; evitar nueva autorización de ejecución implícita.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-006--separar-modo-efectos-y-métricas-antes-de-reproducir); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 30 — Convertir referencias propias en rutas navegables
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Después.** Que el lector abra la fuente correcta desde Corpus reuse.
+
+**Qué podría quedar desactualizado o afectado:** Enlaces y versiones pueden quedar viejos; ruta existente no demuestra conservación semántica.
+
+**Qué cuesta prepararlo:** Cuatro enlaces y comprobar destinos fijados.
+
+**Dependencias conocidas:** [README.md](../../../fixtures/00G-HF-ORACLE-v0.4/README.md) · [00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) · [00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Mantener atribución y límites de cada origen.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-007--hacer-navegables-las-fuentes-propias-del-bloque-corpus-reuse); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Líneas de trabajo por concretar — no cambios ejecutables
+
+| Trabajo ya recomendado | Impacto esperado | Riesgo | Esfuerzo | Prioridad / preparación |
+|---|---|---|---|---|
+| 46 · Preparar envolvente UC4 y sidecar R01 (R01 §5.1, paso 3) | Alto | Alto | Alto | Primera; sin par literal |
+| 47 · Diseñar primer perfil propio de instrumento (R01 §5.1, paso 4) | Alto | Alto | Alto | Siguiente; sin par literal |
+| 48 · Completar fidelidad del evaluador en perfil admitido (R01 §5.1, paso 5) | Alto | Alto | Alto | Primera; sin par literal |
+| 49 · Extender solo lo necesario a otras familias (R01 §5.1, paso 6) | Medio | Alto | Alto | Después; sin par literal |
+| 50 · Registrar una campaña concreta (R01 §5.1, paso 7) | Alto | Alto | No estimable todavía | Después; sin par literal |
+| 51 · Evaluar una realización real elegida (R01 §5.1, paso 8) | Alto | Alto | No estimable todavía | Después; sin par literal |
+
+**Preparar envolvente UC4 y sidecar R01.** Hacer revisable la correspondencia completa con UC4. **Riesgo:** Confundir sidecar con experiment.json o validator-pass con admisión; contrato externo/versiones pueden cambiar. **Coste:** Mapping/ejemplo completo, validador fijado y preguntas de owner; coste externo aún no estimable. **Condición:** Paso 3 pendiente: no validator ejecutado ni comunicación autorizada por esta prioridad.
+
+**Diseñar primer perfil propio de instrumento.** Comprobar una conservación de predicados en un dominio pequeño antes de extender. **Riesgo:** Un adapter puede perder verdad, operación o efecto y mezclar resultados históricos; controles verdes no lo justifican solos. **Coste:** Perfil/adaptador acotado, correspondencia y controles; ingeniería/ejecución fuera de esta revisión. **Condición:** Depende de la matriz de tareas 1/2 y paquete del paso 3; registrar alcance antes de desarrollo.
+
+**Completar fidelidad del evaluador en perfil admitido.** Evitar que un instrumento evalúe otra pregunta o compare costes incompatibles. **Riesgo:** Ampliar fidelidad más allá del dominio o atribuir independencia al mismo autor sesga el comparador. **Coste:** Cláusula–predicado–referencia–control, ledger y revisión que falte; calendario externo desconocido. **Condición:** M16/M17/P08 y dominio fijado; no asignar revisión externa ni repetir pruebas existentes aquí.
+
+**Extender solo lo necesario a otras familias.** Reutilizar una propiedad necesaria sin empezar otro instrumento. **Riesgo:** Scope creep, duplicación de campañas y trasvase de resultados de 00L/C3/00G-HF; versiones divergen. **Coste:** Perfiles/versiones y controles por familia, después del piloto; no estimar coste global sin elegir necesidad. **Condición:** Condicionado a una propiedad requerida por el perfil y a fidelidad; no expansión automática.
+
+**Registrar una campaña concreta.** Fijar comparadores, recursos, fallos y parada antes de observar resultados. **Riesgo:** Registro mal planteado puede sesgar la comparación o reabrir un trabajo abortado. **Coste:** Depende de tecnología, alcance, fuente/modelo y revisión humana elegidos; sin importe ni horas inventados. **Condición:** C02/perfil admitido y mandato de campaña. No activa C11 ni experimentos por aparecer en el ranking.
+
+**Evaluar una realización real elegida.** Producir evidencia real en vez de transferir self-test de instrumento. **Riesgo:** Aislamiento, capacidad humana, comparadores, coste real y recursos pueden invalidar la interpretación. **Coste:** No estimable sin realización/configuración y autorización; presupuesto y disponibilidad no asumidos. **Condición:** T03/M13/C11 y alcance explícito; no ejecución, envío o reactivación de campaña abortada.
+
+Los pasos 1 y 2 conservan el cierre acotado que ya consta en §5.3. Los pasos 3–8 siguen como recomendaciones de las tareas existentes, sin nueva campaña ni ejecución por este ranking.

@@ -579,3 +579,45 @@ El [mapa externo preparatorio](../../../../governance/review/EP_EXTERNAL_RESEARC
 **Pregunta de consolidación de este documento:** Conciliar estado público de FG-TIDA, versiones históricas, contrato ideal 05 y perfiles: propuesta, discusión, artefacto, ejecución y adopción mantienen estados distintos.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 31 · Reporte Theme21 distinto de reproducción propia | Primera · 1 — Claridad de evidencia y estado | Alto | Bajo | Bajo | Pendiente de decisión |
+| 32 · Fecha y versión de fuente para promociones 05A | Primera · 1 — Claridad de evidencia y estado | Alto | Bajo | Bajo | Pendiente de decisión |
+
+### Cambio 31 — Reporte Theme21 distinto de reproducción propia
+
+**Impacto esperado: Alto. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Primera.** Que consulta de cifras no se lea como validación independiente del dataset.
+
+**Qué podría quedar desactualizado o afectado:** Un reporte puede ser editado o corregido después; la precisión debe conservar el corte y honest-judges/no-ground-truth.
+
+**Qué cuesta prepararlo:** Una frase de la VNext y cotejo del reporte fijado; no reproducir dataset.
+
+**Dependencias conocidas:** [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Fechar evidencia y conservar nivel contributor-reported/E4.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05a-r1-delta-001--precisión-de-la-evidencia-numérica); el viejo tiene una coincidencia en [la fuente actual](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `814e9843e237f42b3e1fe26db0a4d3ad41fe2a9c`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 32 — Fecha y versión de fuente para promociones 05A
+
+**Impacto esperado: Alto. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Primera.** Hacer reconstructible qué fuente mutable sustentó una relación Current.
+
+**Qué podría quedar desactualizado o afectado:** Si no hay revisionId, inventarlo falsearía procedencia; una fecha no garantiza inmutabilidad.
+
+**Qué cuesta prepararlo:** Una regla de ficha y aplicación futura por fila, sin nuevo campo de payload.
+
+**Dependencias conocidas:** [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Registrar limitación si proveedor no ofrece pin; no renovar todo Current por una consulta parcial.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05a-r1-delta-002--fecharevisión-de-fuente-en-la-ficha-de-promoción); el viejo tiene una coincidencia en [la fuente actual](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `814e9843e237f42b3e1fe26db0a4d3ad41fe2a9c`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.

@@ -528,3 +528,45 @@ El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_R
 **Pregunta de consolidación de este documento:** Conciliar módulos, métricas, comparadores y resultados citados con las funciones y contratos de origen; distinguir candidato, evidencia acotada y ventaja comparable establecida.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 40 · Tabla W1 presente distinta de todos los gates cerrados | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Bajo | Pendiente de decisión |
+| 41 · Fijar admisión antes de ver resultados y conservar fallos | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
+
+### Cambio 40 — Tabla W1 presente distinta de todos los gates cerrados
+
+**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Primera.** Que una entrega de mapping no parezca adopción/validación de benchmark v0.3.
+
+**Qué podría quedar desactualizado o afectado:** Corregir solo §12 deja estados desfasados en §§4/9/13/WORKPLAN; gates pendientes no se cumplen al redactarlos.
+
+**Qué cuesta prepararlo:** Una precisión y revisar estado documental en cuatro lugares.
+
+**Dependencias conocidas:** [00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) · [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [WORKPLAN.md](../WORKPLAN.md) · [pre_registration_v0.5.md](fixtures/RS-00E-Q1a/pre_registration_v0.5.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. No promover v0.3 ni cerrar bibliografía/comparadores/fixtures; completar pares de los otros estados si requieren edición.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#bench-r1-delta-001--distinguir-tablaw1-presente-de-gates-restantes); el viejo tiene una coincidencia en [la fuente actual](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), blob `34720bc29438b51b733dcb233102869c52abf695`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 41 — Fijar admisión antes de ver resultados y conservar fallos
+
+**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Alto. Prioridad: Primera.** Evitar descartar retrospectivamente resultados adversos bajo non-conforming.
+
+**Qué podría quedar desactualizado o afectado:** Afecta protocolo, denominadores, estados y dueño de adjudicación; no cambia resultados congelados ni limpia pérdidas del candidato.
+
+**Qué cuesta prepararlo:** Adjudicación del protocolo y revisión de varios tipos de fallo antes de freeze; no ejecutar experimentos ahora.
+
+**Dependencias conocidas:** [00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md) · [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [WORKPLAN.md](../WORKPLAN.md) · [pre_registration_v0.5.md](fixtures/RS-00E-Q1a/pre_registration_v0.5.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Protocolo preregistrado, owners y tratamiento de run admitido fallido, timeout/datos ausentes y fallo del comparador.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#bench-r1-delta-002--q0-antes-del-resultado-y-conservación-de-fallos); el viejo tiene una coincidencia en [la fuente actual](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), blob `34720bc29438b51b733dcb233102869c52abf695`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.

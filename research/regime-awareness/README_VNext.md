@@ -131,3 +131,45 @@ The [additional-work reading catalogue](../ADDITIONAL_WORK_README.md) explains p
 ```
 
 El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 35 · Conciliar los cuatro roles RA en su README | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Alto | Medio | Pendiente de decisión |
+| 36 · Acceso a trabajo adicional desde EWS | Histórico · Histórico | Medio | Bajo | No nuevo | Ya publicado |
+
+### Cambio 35 — Conciliar los cuatro roles RA en su README
+
+**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera.** Que B sea soporte/reserva, C exploración y D barrera efectiva, sin confundir UNKNOWN.
+
+**Qué podría quedar desactualizado o afectado:** Cambiar solo el resumen puede dejar Operation, Cartografía, perfiles y lectores con otra interpretación; campos con mismo nombre no garantizan compatibilidad.
+
+**Qué cuesta prepararlo:** Revisión coordinada de productor y consumidores, antes/después y significado recibido.
+
+**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md](../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [README.md](README.md) · [03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md](../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](../ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) · [01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Decidir con 37/38 y correspondencia 17; no renombrar payload ni autoridad.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#propuesta-antesdespués--conciliación-del-resumen-pendiente); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `f021454aeb8359da468dbe4a2725851cce9c4d01`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 36 — Acceso a trabajo adicional desde EWS
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: No nuevo. Prioridad: Histórico.** Separar contexto/revisión adicional de detector validado.
+
+**Qué podría quedar desactualizado o afectado:** Duplicar el enlace ya publicado crea otra ruta aparente.
+
+**Qué cuesta prepararlo:** Ya publicado y verificado; solo mantener vínculo.
+
+**Dependencias conocidas:** [ADDITIONAL_WORK_README.md](ADDITIONAL_WORK_README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#adición-de-navegación--texto-viejo-y-después-completo); el viejo tiene una coincidencia en [la fuente actual](minimalistic-early-warning-systems/README.md), blob `8e24a311bb7c7a89a29df15909961e6ecf6967f1`. El bloque añadido está presente; no se repite la ejecución.

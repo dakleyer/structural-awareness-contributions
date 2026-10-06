@@ -588,3 +588,74 @@ El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_R
 **Pregunta de consolidación de este documento:** Recorrer requisito → contrato → caso → prueba → afirmación de suficiencia y señalar dónde se pierde una condición, autoridad, capacidad o evidencia, en ambas VNext de la relación.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 14 · Corregir el total a seis familias de escenarios | Siguiente · 1 — Claridad de evidencia y estado | Medio | Bajo | Bajo | Pendiente de decisión |
+| 15 · Cuatro familias distintas sin afirmar independencia | Siguiente · 1 — Claridad de evidencia y estado | Medio | Bajo | Bajo | Pendiente de decisión |
+| 16 · Vincular la ejecución al estado recalificado | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
+
+### Cambio 14 — Corregir el total a seis familias de escenarios
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Hacer que el encabezado corresponda a la enumeración E–J.
+
+**Qué podría quedar desactualizado o afectado:** Corregir solo el título dejaría la frase de tres adicionales incoherente; emparejar con cambio 15.
+
+**Qué cuesta prepararlo:** Dos correcciones documentales conjuntas, sin cambiar Requirements congelado.
+
+**Dependencias conocidas:** [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Preparar junto con 15 y conservar el VNext anterior.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#req-r1-delta-001--recuento-interno-de-familias); el viejo tiene una coincidencia en [la fuente actual](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `a8ebfc8abe61fb569a658c722bcb714371f1693d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 15 — Cuatro familias distintas sin afirmar independencia
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Corregir el número G/H/I/J y evitar independencia estadística implícita.
+
+**Qué podría quedar desactualizado o afectado:** Usar independent como propiedad inferida de nombres exagera evidencia; hay que mantener coherencia con el cambio 14.
+
+**Qué cuesta prepararlo:** Una frase del registro y comprobación de la lista.
+
+**Dependencias conocidas:** [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Decidir junto con 14; ningún nuevo requisito.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#req-r1-delta-001--recuento-interno-de-familias); el viejo tiene una coincidencia en [la fuente actual](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `a8ebfc8abe61fb569a658c722bcb714371f1693d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 16 — Vincular la ejecución al estado recalificado
+
+**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Alto. Prioridad: Primera.** Cerrar documentalmente el hueco entre recheck y estado realmente usado.
+
+**Qué podría quedar desactualizado o afectado:** Puede añadir una obligación nueva a S10 y cambiar la lectura de pruebas/consumidores existentes; timestamps no prueban binding y un freeze no se reescribe.
+
+**Qué cuesta prepararlo:** Adjudicación normativa, successor y revisión de controles positivos/negativos e interfaces; la edición de una frase es la parte menor.
+
+**Dependencias conocidas:** [00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md](00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) · [00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md](00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Resolver aclaración versus obligación nueva, versión y consumidores; no reivindicar A23 probado ni editar freeze.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#req-r1-delta-002--cand-r4-texto-candidato-para-una-futura-edición); el viejo tiene una coincidencia en [la fuente actual](00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Líneas de trabajo por concretar — no cambios ejecutables
+
+| Trabajo ya recomendado | Impacto esperado | Riesgo | Esfuerzo | Prioridad / preparación |
+|---|---|---|---|---|
+| 43 · Precisar rol efectivo frente a rol vinculado (CAND-R1, §4) | Alto | Alto | Alto | Primera; sin par literal |
+| 44 · Hacer visible oportunidad, admisibilidad, autoridad y ejecución (CAND-R2, §4) | Medio | Medio | Medio | Siguiente; sin par literal |
+| 45 · Aclarar autorización del efecto compuesto (CAND-R3, §4) | Alto | Alto | Alto | Primera; sin par literal |
+
+**Precisar rol efectivo frente a rol vinculado.** Detectar deriva funcional sin convertir conducta o capacidad en autoridad. **Riesgo:** Puede ampliar S7/S10/S12/S13 y reinterpretar trazas previas; la observación no prueba legitimidad. **Coste:** Acordar obligación versus aclaración y fuente/consumidores; redactar antes/después de una edición futura. **Condición:** CAND-R1 no tiene aún par de cambio del Requirements congelado; no crear S15 por reflejo.
+
+**Hacer visible oportunidad, admisibilidad, autoridad y ejecución.** Mostrar una separación ya distribuida en los requisitos. **Riesgo:** Podría introducir una capa universal o confundir la ilustración con un nuevo requisito/permiso. **Coste:** Una ayuda de lectura y cotejo S/T/00H; elegir ficha o futura edición. **Condición:** Preparar un antes/después completo; no nuevo T5 ni adopción automática.
+
+**Aclarar autorización del efecto compuesto.** Evitar que autorizaciones atómicas legitimen una campaña fuera del grant. **Riesgo:** Elegir agregación universal o ledger central puede cambiar autoridad y scopes de otras ramas; el dueño legítimo fija la frontera. **Coste:** Precisar unidad material, conservar S/T y probar correspondencia de casos antes de una edición. **Condición:** CAND-R3 todavía sin par literal; no imponer ventana, ledger ni nueva familia.

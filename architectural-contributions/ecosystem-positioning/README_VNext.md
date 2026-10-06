@@ -723,3 +723,133 @@ RA no tiene Markdown local sin ruta; su catálogo distingue el contexto y la rev
 
 
 Los antes/después de las tres adiciones de navegación están en las VNext propietarias de baseline, RA y MSCA. Esta entrada relaciona la organización del conjunto y conserva toda la conversación anterior.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 1 · Nota de acceso a revisión de EP | Histórico · Histórico | Medio | Bajo | Bajo | Ya publicado |
+| 2 · Antigua propuesta de convertir EP en Level 4 | Histórico · Histórico | No vigente | Alto | No procede | Descartado |
+| 3 · Explicar la idea central antes de elegir una ruta | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Bajo | Pendiente de decisión |
+| 4 · Separar semántica actual y resultados históricos | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
+| 5 · Distinguir principios P1–P6 y posturas P1–P3 | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Bajo | Pendiente de decisión |
+
+### Cambio 1 — Nota de acceso a revisión de EP
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Histórico.** Hacer visible el expediente de auditoría.
+
+**Qué podría quedar desactualizado o afectado:** Repetir la nota ya publicada duplicaría la entrada del README.
+
+**Qué cuesta prepararlo:** No requiere nueva edición; mantener el vínculo.
+
+**Dependencias conocidas:** [CORPUS_REVIEW_PROCEDURE_2026-10-06.md](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar: el texto después está presente.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#ep-readme-delta-001--nota-de-versiónrevisión-y-enlace); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `ed97dbe9f34758219863511717c4f237b48bedf3`. El bloque añadido está presente; no se repite la ejecución.
+
+### Cambio 2 — Antigua propuesta de convertir EP en Level 4
+
+**Impacto esperado: No vigente. Riesgo: Alto. Coste/esfuerzo: No procede. Prioridad: Histórico.** No se evalúa como beneficio actual: contradice los tres niveles canónicos acordados.
+
+**Qué podría quedar desactualizado o afectado:** Reabrirla expandiría la jerarquía y confundiría los catálogos auxiliares con canon.
+
+**Qué cuesta prepararlo:** No invertir en ejecución; conservar la historia.
+
+**Dependencias conocidas:** [DOCUMENT_CONTROL.md](../../DOCUMENT_CONTROL.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Descartado. Fuera de tandas pendientes. Retirada por la instrucción de tres niveles; los tres catálogos auxiliares no la reactivan.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#ep-readme-delta-002--nivel-de-lectura-del-router); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `ed97dbe9f34758219863511717c4f237b48bedf3`. Se conserva la historia; este par queda fuera del top actual.
+
+### Cambio 3 — Explicar la idea central antes de elegir una ruta
+
+**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Dar a una persona una pregunta corriente antes de los índices.
+
+**Qué podría quedar desactualizado o afectado:** La inserción literal propuesta toca el cuerpo EP protegido; el texto debe adaptarse a una adición al final y evitar repetición con la introducción.
+
+**Qué cuesta prepararlo:** Una explicación breve y comprobación de lectura; la adaptación de ubicación tiene que mostrarse antes/después.
+
+**Dependencias conocidas:** [README.md](README.md) · [DEVELOPMENT_STRATEGY.md](DEVELOPMENT_STRATEGY.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Reformular como adición append-only. Reformular para append-only o recibir decisión concreta de Iván sobre el cuerpo.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#explicar-la-idea-antes-de-elegir-una-ruta); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `ed97dbe9f34758219863511717c4f237b48bedf3`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 4 — Separar semántica actual y resultados históricos
+
+**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Evitar que enlazar la nueva definición A/B/C/D parezca revalidar pruebas antiguas.
+
+**Qué podría quedar desactualizado o afectado:** Una precisión local puede dejar que otros README, decks o pruebas continúen amplificando el resultado; tampoco autoriza reescribir evidencia histórica.
+
+**Qué cuesta prepararlo:** Adición explicativa de EP y cotejo de notas 00M/00N y proof map; no repetir o modificar pruebas.
+
+**Dependencias conocidas:** [00M_VNext.md](../../research/ecosystem-awareness/baseline/00M_VNext.md) · [00N_VNext.md](../../research/ecosystem-awareness/baseline/00N_VNext.md) · [00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md](../../research/ecosystem-awareness/baseline/00K_A17_DOCUMENTATION_REPRODUCIBILITY_AND_PROOF_MAP_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Reformular como adición append-only. Adaptar a append-only en EP; mantener versión, premisas y límites de cada resultado.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#separar-plausibilidad-actual-de-resultados-bajo-vocabulario-anterior); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `ed97dbe9f34758219863511717c4f237b48bedf3`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 5 — Distinguir principios P1–P6 y posturas P1–P3
+
+**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Impedir que una etiqueta de postura se lea como principio demostrado.
+
+**Qué podría quedar desactualizado o afectado:** Cambiar IDs o solo una explicación dejaría referencias incompatibles; la inserción propuesta está en el cuerpo EP protegido.
+
+**Qué cuesta prepararlo:** Nota breve con lectura cruzada de Requirements y Operation; no renombrar etiquetas.
+
+**Dependencias conocidas:** [00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](../../research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Reformular como adición append-only. Adición append-only; conservar nombres y aclarar sus dueños.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#evitar-confusión-entre-principios-y-posturas); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `ed97dbe9f34758219863511717c4f237b48bedf3`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Qué cambios destacan y cómo decidir las tandas
+
+Se revisaron los 31 expedientes activos y 42 pares concretos. **37 siguen pendientes, cuatro son adiciones ya presentes y uno es la antigua propuesta canónica de Level 4 descartada.** Todos los viejos se localizaron una vez en su fuente vigente; en las tres adiciones de catálogos el bloque está publicado y solo difiere la separación en blanco del contexto del par. Nueve líneas de Requirements/oráculo permanecen por concretar, sin par literal. El corpus conserva las auditorías pendientes.
+
+Los cambios de mayor beneficio sustantivo se agrupan así:
+
+1. **Evidencia comprensible y bien atribuida:** self-test versus resultado de tecnología (26), límites de dominio/independencia del oráculo (27), reporte Theme21 versus reproducción (31), versión/fecha de fuentes (32), W1 versus adopción (40), semántica actual versus proofs históricos (4). Varios son precisiones acotadas; 4 requiere append-only y 40 cotejar estados relacionados.
+2. **Integración RA–EA–MSCA:** resumen RA, entrada Operation y B_Cart (35/37/38), junto al mapping P_RA/Δ_RA (17). Impacto alto; se preparan como tanda porque una corrección aislada puede dejar consumidores con otro significado.
+3. **Contratos de uso y evaluación:** binding recheck→ejecución (16), full-result/A_ref (19) y admisión previa con conservación de fallos (41). Son cambios de alto impacto y riesgo, con trabajo de adjudicación/versiones/perfiles; no se ejecutan como retoques editoriales.
+4. **Capacidad humana y dueño de la respuesta:** UC03 (22/23). Se necesita un successor o ficha que preserve el freeze y una conciliación con T3/T4 y Operation.
+5. **Comprensión y lectura:** orientación, ejemplos, versiones y rutas en EP/00M/00N/baseline/R01. Se eligen en bloques pequeños; las inserciones de EP deben adaptarse al permiso append-only.
+
+### Top del corte — vista de impacto
+
+Este orden usa impacto, prioridad y desempates de riesgo/esfuerzo. No libera una propuesta por figurar arriba; ver la preparación de la última columna.
+
+| Cambio | Impacto | Riesgo | Esfuerzo | Qué falta antes de decidir |
+|---|---|---|---|---|
+| [Self-test verde distinto de tecnología que pasa](../../research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#r01-oracle-delta-003--distinguir-self-test-del-instrumento-y-aceptación-del-candidato) (26) | Alto | Bajo | Bajo | Candidato para revisión documental concreta |
+| [Reporte Theme21 distinto de reproducción propia](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05a-r1-delta-001--precisión-de-la-evidencia-numérica) (31) | Alto | Bajo | Bajo | Candidato para revisión documental concreta |
+| [Fecha y versión de fuente para promociones 05A](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05a-r1-delta-002--fecharevisión-de-fuente-en-la-ficha-de-promoción) (32) | Alto | Bajo | Bajo | Candidato para revisión documental concreta |
+| [Tabla W1 presente distinta de todos los gates cerrados](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#bench-r1-delta-001--distinguir-tablaw1-presente-de-gates-restantes) (40) | Alto | Medio | Bajo | Completar comprobaciones específicas antes de decisión |
+| [Separar semántica actual y resultados históricos](README_VNext.md#separar-plausibilidad-actual-de-resultados-bajo-vocabulario-anterior) (4) | Alto | Medio | Medio | Reformular como adición append-only |
+| [Condicionar el tamaño y coste del contexto útil](../../research/ecosystem-awareness/baseline/00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada) (11) | Alto | Medio | Medio | Preparar ficha o successor preservando fuente |
+| [Límite de dominio e independencia del oráculo](../../research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#r01-oracle-delta-004--delimitar-diversidad-de-referencia-dominio-y-validación-externa) (27) | Alto | Medio | Medio | Candidato para revisión documental concreta |
+| [Dos peers como propuesta, no arquitectura FG adoptada](../../research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05-r1-delta-002--carácter-propuesto-de-los-peers) (34) | Alto | Medio | Medio | Completar comprobaciones específicas antes de decisión |
+| [Mostrar todo B_Cart en el índice MSCA](../../standards/minimum-sufficient-control/README_VNext.md#propuesta-antesdespués--expresar-todo-bcart) (38) | Alto | Medio | Medio | Conciliar contrato y consumidores |
+| [Explicar la correspondencia P_RA y delta RA](../../research/ecosystem-awareness/baseline/01D_VNext.md#propuesta-antesdespués--declarar-el-puente-de-representación) (17) | Alto | Alto | Medio | Conciliar contrato y consumidores |
+
+### Primera tanda para revisar contigo
+
+Empezaría por **26, 27, 31 y 32**: aclarar qué significa un self-test, hasta dónde llega la referencia, qué es un reporte de tercero y con qué fecha/versión se sustenta una relación. Son candidatos documentales de alto beneficio; 27 requiere cotejo de dominio y referencias, y el resto precisa fuentes fijadas. Pueden revisarse sin cambiar código, resultados ni contratos comunes.
+
+Después prepararía conjuntamente **35/37/38/17**, por su impacto en significado e integraciones. **16/19/41 y 22/23** necesitan una decisión sobre alcance y compatibilidad; tener su texto candidato no cierra ese trabajo.
+
+La tanda de correcciones **14/15** es pequeña y se decide junta; evita incoherencia de conteo e independencia implícita dentro del registro. Los accesos a catálogos y nota inicial EP ya publicados quedan fuera de la cola.
+
+### Cómo sacar otra lista top
+
+La [tabla CSV](../../governance/review/change-priorities-2026-10-06/priorities.csv) permite filtrar Estado = pendiente y comparar impacto/riesgo/esfuerzo/tanda. El [registro JSON](../../governance/review/change-priorities-2026-10-06/priorities.json) incluye razones, fuentes, todos los viejos y nuevos y los límites de cobertura. El [extractor](../../governance/review/change-priorities-2026-10-06/extract_top.py) ofrece vistas **impact** y **decision**, y filtro por tanda; lee archivos, no ejecuta programas del corpus.
+
+La vista **decision** selecciona los candidatos a revisión documental concreta. Los trabajos sin par literal aparecen solo si se pide incluir planificación. Las adiciones ya publicadas y la propuesta descartada se excluyen por defecto. El ranking es provisional y se actualiza con nuevas entradas cuando cambien fuentes o decisiones.

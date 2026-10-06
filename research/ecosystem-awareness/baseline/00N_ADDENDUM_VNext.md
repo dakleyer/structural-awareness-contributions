@@ -101,3 +101,30 @@ El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_R
 **Pregunta de consolidación de este documento:** Conciliar los avances y vecinos intelectuales del addendum con la hipótesis de 00N, sin equiparar acceso a información, uso efectivo y resultado útil ni reemplazar retrospectivamente su evidencia.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 10 · Distinguir versiones de origen y ruta actual del addendum | Siguiente · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
+
+### Cambio 10 — Distinguir versiones de origen y ruta actual del addendum
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Conservar companions v0.6/v0.5 y orientar hacia v0.8/v0.7.
+
+**Qué podría quedar desactualizado o afectado:** Sustituir las referencias históricas haría parecer que el texto se escribió con fuentes posteriores; los nuevos enlaces también envejecen.
+
+**Qué cuesta prepararlo:** Una frase y cotejo de cuatro enlaces de versión.
+
+**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) · [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md) · [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Identificar fecha de la ruta actual y preservar las referencias de origen.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_ADDENDUM_VNext.md#propuesta-antesdespués--aclarar-procedencia-sin-cambiar-referencias); el viejo tiene una coincidencia en [la fuente actual](00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md), blob `37a22b64bf81b5f1b80d9b85fe24fe5eba4fad63`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.

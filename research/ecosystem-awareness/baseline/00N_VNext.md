@@ -252,3 +252,75 @@ El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_R
 **Pregunta de consolidación de este documento:** Conciliar utilidad condicional, premisas, fuentes y comparadores de 00N con 00M, benchmark y README; conservar qué condiciones sostienen la hipótesis y qué ventaja sigue sin demostrar.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 11 · Condicionar el tamaño y coste del contexto útil | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
+| 12 · Ruta corta de lectura en 00N | Después · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
+| 13 · Publicación de 00N distinta de madurez | Siguiente · 1 — Claridad de evidencia y estado | Medio | Bajo | Bajo | Pendiente de decisión |
+| 42 · Justificar medida de información antes de usar sinergia | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Medio | Pendiente de decisión |
+
+### Cambio 11 — Condicionar el tamaño y coste del contexto útil
+
+**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Evitar que small se lea como garantía universal de metadatos pequeños y baratos.
+
+**Qué podría quedar desactualizado o afectado:** Cambiar una frase sin conciliar métricas, README y comparaciones deja una promesa de coste implícita en otros lugares.
+
+**Qué cuesta prepararlo:** Revisión de alcance en 00N y consumidores de la afirmación; no se conoce coste operativo universal.
+
+**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) · [00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Preservar fuente identificada; mantener tamaño, interpretación y suficiencia como preguntas condicionadas.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 12 — Ruta corta de lectura en 00N
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Después.** Orientar desde el ejemplo de dos ready signals hacia T1–T4.
+
+**Qué podría quedar desactualizado o afectado:** Ancla o sección puede cambiar; una ruta didáctica no sustituye límites ni prueba de utilidad.
+
+**Qué cuesta prepararlo:** Una frase, comprobación de ancla y lectura simulada indicada como tal.
+
+**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Ficha externa o successor; conservar fuente y comprobar #36-two-ready-signals-one-version-condition.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#una-ruta-corta-para-el-lector-humano); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 13 — Publicación de 00N distinta de madurez
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Que local draft no oculte que el documento ya es público, sin afirmar validación.
+
+**Qué podría quedar desactualizado o afectado:** Confundir publicación con Requirements successor o registro operativo; alterar encabezado de payload fijado.
+
+**Qué cuesta prepararlo:** Una etiqueta de estado con decisión editorial del autor.
+
+**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Registrar preferencia de Iván y conservar la edición anterior.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#estado-público-de-la-nota); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 42 — Justificar medida de información antes de usar sinergia
+
+**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Dar antecedente primario para por qué sinergia no tiene una medida universal transferible.
+
+**Qué podría quedar desactualizado o afectado:** Añadir una referencia no selecciona automáticamente una medida correcta; perfiles/métricas pueden interpretar sinergia de modos distintos.
+
+**Qué cuesta prepararlo:** Verificar referencia y coherencia con §2.3/00M/métricas que la consuman; sin cálculo nuevo.
+
+**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) · [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Conservar edición fijada y separar elección de medida de evidencia operacional.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#documentar-la-elección-de-medida-en-23); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.

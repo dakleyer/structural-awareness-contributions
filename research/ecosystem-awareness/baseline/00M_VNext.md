@@ -211,3 +211,60 @@ Esta publicación hace accesible la evidencia del examen; no repite una auditor�
 **Pregunta de consolidación de este documento:** Comprobar la fidelidad entre los roles relativos al proceso de 00M, las hipótesis de 00N, requisitos, interfaces y pruebas históricas; no transferir un resultado a una definición distinta por conservar su nombre.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 7 · Dar un siguiente paso de 00M a 00N | Después · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
+| 8 · Ejemplo de evidencia incompatible y falsa certeza | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
+| 9 · Acceso alternativo a la referencia R4 | Después · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
+
+### Cambio 7 — Dar un siguiente paso de 00M a 00N
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Después.** Facilitar lectura independiente sin confundir representación y funcionamiento.
+
+**Qué podría quedar desactualizado o afectado:** El enlace versionado puede quedar viejo cuando cambie la ruta 00N; un enlace nuevo dentro de 00M afecta un payload identificado.
+
+**Qué cuesta prepararlo:** Texto corto y comprobar ruta/versión; la vía de incorporación debe conservar la edición anterior.
+
+**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Ficha externa o successor que preserve el original identificado.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00M_VNext.md#orientar-la-lectura-y-señalar-el-siguiente-paso); el viejo tiene una coincidencia en [la fuente actual](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 8 — Ejemplo de evidencia incompatible y falsa certeza
+
+**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Mostrar que una aproximación singleton no demuestra que exista un estado compatible.
+
+**Qué podría quedar desactualizado o afectado:** Podría leerse como obligación de enumerar todos los estados o confundir consistencia con completitud; afecta el significado que lectores y pruebas reutilizan.
+
+**Qué cuesta prepararlo:** Revisión lógica del ejemplo y correspondencia con premisas, manteniendo la edición 00M previa.
+
+**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md](00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Confirmar que el ejemplo solo aclara una condición; conservar payload identificado.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00M_VNext.md#un-ejemplo-que-evita-una-falsa-certeza); el viejo tiene una coincidencia en [la fuente actual](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 9 — Acceso alternativo a la referencia R4
+
+**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Después.** Hacer accesible el paper y distinguir copia y registro de publicación.
+
+**Qué podría quedar desactualizado o afectado:** Una URL externa o edición puede cambiar; el fallo de acceso de una herramienta no prueba que la URL original esté rota para todos.
+
+**Qué cuesta prepararlo:** Comprobar identidad/edición y acceso cuando se decida; no reproducir la prueba.
+
+**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Conservar cita original/historia y la fecha de consulta; ficha o successor.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00M_VNext.md#facilitar-el-acceso-a-r4); el viejo tiene una coincidencia en [la fuente actual](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.

@@ -119,3 +119,45 @@ El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_R
 **Pregunta de consolidación de este documento:** Conciliar supervisión humana, capacidad efectiva, autorización y fallback con requisitos, Operation e interfaces; mantener las tres partes y el original congelado como una unidad de procedencia.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 22 · Mantener al dueño legítimo de la respuesta en UC03 | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Alto | Medio | Pendiente de decisión |
+| 23 · Calificar el fallback humano por autoridad y plazo | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Alto | Medio | Pendiente de decisión |
+
+### Cambio 22 — Mantener al dueño legítimo de la respuesta en UC03
+
+**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera.** Que F7 oriente revisión pero no se apropie de permiso, contención o ejecución.
+
+**Qué podría quedar desactualizado o afectado:** El perfil congelado y sus consumidores pueden atribuir facultades distintas; modificar solo un párrafo deja la interfaz inconsistente.
+
+**Qué cuesta prepararlo:** Cotejo UC03–Operation–01D y preparación de successor/ficha; no intervención en freeze.
+
+**Dependencias conocidas:** [UC-EA-03_v0.4_MAINTENANCE_FREEZE.md](UC-EA-03_v0.4_MAINTENANCE_FREEZE.md) · [00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Acordar owner de respuesta y conservar hechos/versión de UC03 y sus partes.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](UC-EA-03_VNext.md#aclarar-el-dueño-de-la-respuesta); el viejo tiene una coincidencia en [la fuente actual](UC-EA-03_v0.4_MAINTENANCE_FREEZE.md), blob `7d940f33d011bb234f98e5d03a408dbeca34d92d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 23 — Calificar el fallback humano por autoridad y plazo
+
+**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Medio. Prioridad: Primera.** Impedir que reviewer indisponible se resuelva con fallback indefinido o aprobación curativa.
+
+**Qué podría quedar desactualizado o afectado:** Puede cambiar el resultado esperado y exigir capacidad/tiempo no representados; no todos los fallback son equivalentes o autorizados.
+
+**Qué cuesta prepararlo:** Revisar ramas, T3/T4, capacidad y consumidores conjuntamente con cambio 22.
+
+**Dependencias conocidas:** [UC-EA-03_v0.4_MAINTENANCE_FREEZE.md](UC-EA-03_v0.4_MAINTENANCE_FREEZE.md) · [00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md](00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md](01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Fuente congelada intacta; justificar fallback seguro o conservar salida unresolved.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](UC-EA-03_VNext.md#calificar-el-fallback-de-la-rama-b); el viejo tiene una coincidencia en [la fuente actual](UC-EA-03_v0.4_MAINTENANCE_FREEZE.md), blob `7d940f33d011bb234f98e5d03a408dbeca34d92d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.

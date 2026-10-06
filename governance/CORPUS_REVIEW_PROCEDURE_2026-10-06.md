@@ -497,3 +497,47 @@ Los materiales claramente adicionales reciben **descripción y vínculo**, sin n
 Las fuentes vigentes, sus partes lógicas y evidencia material realmente utilizada por el argumento canónico mantienen el examen que les corresponde. No se elude ese trabajo etiquetando como “extra” una dependencia necesaria ni degradando una fuente por su ubicación. Cuando exista duda, explicar la relación y el límite.
 
 La quinta y la sexta siguen con sus condiciones reales para el corpus principal y sus integraciones materiales. Los catálogos sirven de lectura y conservación de lo adicional; no son una campaña paralela ni instrumentos que generen auditorías de auditorías. Mantener explicación humana y registrar en las VNext de README cualquier futura propuesta de redistribución.
+
+
+---
+
+## Prioridad de cada cambio — impacto, riesgo y esfuerzo
+
+**Adición al plan, revisión 1.11 · instrucción de Iván del 6 octubre de 2026.** Revisar las auditorías y el plan de cambios ya preparados, valorar cada cambio y organizar tandas para decidir cuáles conviene realizar primero. La prioridad queda junto a la propuesta en la VNext de su documento; EP README VNext reúne la explicación y la lista del conjunto. No aplica cambios al canon ni supone cerradas las cinco pasadas o la sexta.
+
+### Los tres juicios que necesita cada cambio
+
+| Etiqueta | Cómo se valora y explica |
+|---|---|
+| **Impacto positivo esperado — alto, medio o bajo** | Alto si corrige una interpretación que afecta la validez del argumento, evidencia, autoridad o integración material; medio si mejora comprensión, procedencia o mantenimiento local; bajo si el beneficio es menor. Explicar qué gana el lector o consumidor. Es beneficio esperado, no eficacia medida: puede resultar insuficiente o negativo tras el contraste. |
+| **Riesgo — alto, medio o bajo** | Qué podría quedar incoherente, desactualizado o afectado en otro documento, interfaz, fuente, resultado o lector. Alto si cambia una obligación/semántica/autoridad, toca una fuente congelada o exige conciliar varios consumidores; medio si depende de varias versiones o puede amplificar evidencia; bajo si el alcance documental está acotado y comprobable. Siempre nombrar el riesgo concreto y las relaciones afectadas; no basta la etiqueta. |
+| **Coste/esfuerzo — bajo, medio, alto o todavía no estimable** | Incluir lectura, preparación, validación de consumidores, preservación, revisión humana y mantenimiento posterior, además de redactar. Bajo para una precisión localizada y comprobable; medio para varias relaciones/versiones; alto para adjudicación de contratos, successor, perfiles o ingeniería. No inventar horas, dinero o disponibilidad. Si falta elegir alcance, tecnología o revisor, indicar qué falta para estimar. |
+
+Cada registro conserva el texto viejo y el propuesto, motivo, fuente vigente, hallazgo, dependencias e instrucciones de Iván. Añade prioridad **Primera / Siguiente / Después**, tanda propuesta, estado real y condiciones para decidir la incorporación. Los números del listado sirven para encontrar una entrada; no son otra teoría o jerarquía.
+
+### Mayor impacto y siguiente tanda revisable son preguntas distintas
+
+Una propuesta de alto impacto y alto riesgo puede ser la primera que convenga **preparar y contrastar**, pero no la primera que se pueda incorporar. Mantener dos vistas: **mayor impacto pendiente** y **candidatos para revisión documental concreta**. Ninguna equivale a autorización de aplicar.
+
+Para obtener el top del corte, excluir las adiciones ya publicadas y propuestas descartadas. Ordenar las que tienen par literal por impacto esperado, prioridad y, en igualdad, menor riesgo y menor esfuerzo. Mostrar siempre el motivo y la preparación pendiente. El orden es ordinal y revisable; no multiplica puntuaciones para fingir una precisión inexistente. Una dependencia necesaria conserva su precedencia aunque tenga menor posición individual.
+
+Los planes todavía sin antes/después se identifican **por concretar** y se muestran aparte. No se inventa un viejo para convertir un trabajo de ingeniería o una idea en cambio ejecutable. Los hallazgos sin propuesta concreta mantienen su auditoría pendiente y no se rellenan con cambios ficticios.
+
+### Tandas y prevención de incoherencias
+
+Agrupar cambios que comparten fuente, consumidor o decisión. Antes de proponer ejecución de una tanda:
+
+1. verificar el viejo contra la versión actual y conservar su predecessor;
+2. explicar productor, consumidor y retorno afectados, y qué seguirá siendo válido;
+3. preparar los antes/después faltantes en otros pasajes que deban actualizarse juntos;
+4. identificar cambios ya publicados, retirados o desplazados por nuevas instrucciones;
+5. fijar alcance de comprobación y preservación; no recalcular freezes ni reinterpretar resultados históricos;
+6. recibir la decisión concreta de Iván para esa incorporación.
+
+Las tandas iniciales del corte son **claridad de evidencia/estado; coherencia RA–EA–MSCA; contratos/protocolo; lectura humana/rutas**. Los pasos de campañas/tecnologías reales permanecen en sus tareas existentes y requieren su propio alcance/mandato. Priorizar no los activa, asigna a otro revisor ni envía comunicaciones.
+
+### Resultado publicable y actualización
+
+El [listado del corte](review/change-priorities-2026-10-06/priorities.json) y la [tabla filtrable](review/change-priorities-2026-10-06/priorities.csv) hacen posible sacar el top; el [extractor](review/change-priorities-2026-10-06/extract_top.py) solo lee ese registro. El relato humano está en [EP README VNext](../architectural-contributions/ecosystem-positioning/README_VNext.md#prioridades-del-plan-de-cambios--revisión-del-corte). Las VNext contienen la valoración particular y preservan las conversaciones y pares anteriores.
+
+Revalidar prioridad cuando cambie una fuente, consumidor, evidencia o instrucción, añadiendo una nueva entrada fechada. Una comprobación de coincidencia literal no cierra compatibilidad semántica. Material adicional de los tres catálogos mantiene explicación/enlace, sin nuevos ciclos de cinco auditorías.

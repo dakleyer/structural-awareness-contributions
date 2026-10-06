@@ -525,3 +525,45 @@ El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_R
 **Pregunta de consolidación de este documento:** Conciliar el contrato general con 05/05A, perfiles y protocolos externos: éxito de transporte, identidad o autorización no sustituye calificación, binding semántico ni efecto.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 18 · Actualizar la referencia de 04 a 00I existente | Siguiente · 1 — Claridad de evidencia y estado | Medio | Medio | Bajo | Pendiente de decisión |
+| 19 · Condicionar cuándo un A_ref conserva el resultado | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
+
+### Cambio 18 — Actualizar la referencia de 04 a 00I existente
+
+**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Eliminar la reserva future 00I sin atribuir una ejecución que no existe.
+
+**Qué podría quedar desactualizado o afectado:** Si 05/05A mantienen None committed o future, la cadena queda desactualizada; la existencia no acredita un mapping.
+
+**Qué cuesta prepararlo:** Precisar esta frase y revisar textos temporales relacionados en 04/05/05A.
+
+**Dependencias conocidas:** [00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md](00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Coordinación con cambio 33 y pasajes relacionados; conservar fechas y owners.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if04-r1-delta-001--referencia-temporal-a-00i); el viejo tiene una coincidencia en [la fuente actual](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `598ed9ea150f288b086dde7c6ea569cd9694fbf5`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 19 — Condicionar cuándo un A_ref conserva el resultado
+
+**Impacto esperado: Alto. Riesgo: Alto. Coste/esfuerzo: Alto. Prioridad: Primera.** Permitir perfiles de referencia útiles sin fingir acceso al valor ni fabricar B.
+
+**Qué podría quedar desactualizado o afectado:** Cambiar el kernel EHD puede afectar los 176 mappings, privacidad, permisos y decisiones que exigen resultado; una referencia unavailable no vale como A.
+
+**Qué cuesta prepararlo:** Adjudicar H06, revisar perfiles full-result/metadata-only, consumers y correspondencia del contrato de entrada.
+
+**Dependencias conocidas:** [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md) · [04_EA_ABCD_RECOGNITION_AND_INTERFACE_MAP_v0.1_WORKING_PROPOSAL.md](04_EA_ABCD_RECOGNITION_AND_INTERFACE_MAP_v0.1_WORKING_PROPOSAL.md) · [04_INPUT_INTERFACE_CONTRACT_v0.4.md](04_INPUT_INTERFACE_CONTRACT/04_INPUT_INTERFACE_CONTRACT_v0.4.md) · [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. H06, 176 filas y ejemplos de acceso/freshness/binding pendientes; successor y controles por perfil, sin promover baseline.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if04-r1-delta-002--h06-candidato-de-lectura-del-elemento4-para-un-successor); el viejo tiene una coincidencia en [la fuente actual](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_v0.5_INTEGRATED.md), blob `2b563c102f62d029c6037b47b047e4ac21755e5b`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.

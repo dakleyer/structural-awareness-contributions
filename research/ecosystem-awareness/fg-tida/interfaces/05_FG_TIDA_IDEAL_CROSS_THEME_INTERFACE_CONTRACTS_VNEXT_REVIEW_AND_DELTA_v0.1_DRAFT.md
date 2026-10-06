@@ -871,3 +871,45 @@ El [mapa externo preparatorio](../../../../governance/review/EP_EXTERNAL_RESEARC
 **Pregunta de consolidación de este documento:** Conciliar el diseño ideal con 04, 05A, aplicaciones y propietarios externos, explicando qué relación está propuesta y qué interoperabilidad tiene evidencia, sin reasignar funciones.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+
+---
+
+## Prioridades del plan de cambios — revisión del corte
+
+**Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
+
+El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
+
+| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
+|---|---|---|---|---|---|
+| 33 · Reconocer 00I como escenario interno en 05 | Siguiente · 1 — Claridad de evidencia y estado | Medio | Medio | Medio | Pendiente de decisión |
+| 34 · Dos peers como propuesta, no arquitectura FG adoptada | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
+
+### Cambio 33 — Reconocer 00I como escenario interno en 05
+
+**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Corregir la contradicción committed/future sin convertir 00I en use case FG.
+
+**Qué podría quedar desactualizado o afectado:** Una celda actualizada deja contradictorios §§6/8/10A/18 y 05A; el mapping a UC6 sigue sin probar.
+
+**Qué cuesta prepararlo:** Revisión de varios pasajes y puente con 04/05A, preservar material histórico.
+
+**Dependencias conocidas:** [00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Decidir conjuntamente con 18; completar antes/después de otros pasajes afectados.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05-r1-delta-001--c0200i-en-el-catálogo); el viejo tiene una coincidencia en [la fuente actual](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `dea87c75816959f6749c6922e1e9a9b2c3cfd013`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
+
+### Cambio 34 — Dos peers como propuesta, no arquitectura FG adoptada
+
+**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Conservar la diferencia entre placement, proceso de revisión y confirmación arquitectónica.
+
+**Qué podría quedar desactualizado o afectado:** La declaración podría quedar anticuada por fuente posterior no leída; los owners de otros Themes no se adquieren por silencio.
+
+**Qué cuesta prepararlo:** Consultar los pins usados y buscar cambios relevantes antes de decidir wording; no outreach.
+
+**Dependencias conocidas:** [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
+
+**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Mantener reserva de fuentes no revisadas; actualizar con evidencia si hubo confirmación posterior.
+
+**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05-r1-delta-002--carácter-propuesto-de-los-peers); el viejo tiene una coincidencia en [la fuente actual](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `dea87c75816959f6749c6922e1e9a9b2c3cfd013`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
