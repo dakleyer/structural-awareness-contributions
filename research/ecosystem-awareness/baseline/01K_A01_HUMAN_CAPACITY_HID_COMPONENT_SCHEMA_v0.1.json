@@ -1,0 +1,674 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/dakleyer/structural-awareness-contributions/research/ecosystem-awareness/baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SCHEMA_v0.1.json",
+  "title": "01K-A01 Human Capacity / Human Intelligence Debt Component Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "request_id",
+        "participant_id",
+        "decision_ref",
+        "scope",
+        "deadline",
+        "required_competencies",
+        "information_sufficiency"
+      ],
+      "properties": {
+        "request_id": {
+          "type": "string"
+        },
+        "participant_id": {
+          "type": "string"
+        },
+        "decision_ref": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "now": {
+          "type": [
+            "number",
+            "string"
+          ]
+        },
+        "deadline": {
+          "type": [
+            "number",
+            "string"
+          ]
+        },
+        "required_competencies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "required_authority": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "information_sufficiency": {
+          "enum": [
+            "TRUE",
+            "FALSE",
+            "UNKNOWN"
+          ]
+        },
+        "service_class": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "criticality": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ]
+        },
+        "EHD_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ACC_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "authority_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "RA_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Cart_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "RepositionIntent_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "valid_until": {
+          "type": [
+            "number",
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "human_pool_snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "snapshot_time",
+        "reviewers",
+        "telemetry_quality"
+      ],
+      "properties": {
+        "snapshot_time": {
+          "type": [
+            "number",
+            "string"
+          ]
+        },
+        "valid_until": {
+          "type": [
+            "number",
+            "string",
+            "null"
+          ]
+        },
+        "telemetry_quality": {
+          "enum": [
+            "ESTABLISHED",
+            "PARTIAL",
+            "UNKNOWN"
+          ]
+        },
+        "provenance": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "reviewer_or_pool_id",
+              "competence_set",
+              "authority_state",
+              "availability_state"
+            ],
+            "properties": {
+              "reviewer_or_pool_id": {
+                "type": "string"
+              },
+              "competence_set": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              },
+              "authority_state": {
+                "enum": [
+                  "TRUE",
+                  "FALSE",
+                  "UNKNOWN"
+                ]
+              },
+              "authority_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "uniqueItems": true
+              },
+              "availability_state": {
+                "enum": [
+                  "TRUE",
+                  "FALSE",
+                  "UNKNOWN"
+                ]
+              },
+              "available_from": {
+                "type": [
+                  "number",
+                  "string",
+                  "null"
+                ]
+              },
+              "available_until": {
+                "type": [
+                  "number",
+                  "string",
+                  "null"
+                ]
+              },
+              "backlog_delay": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "service_time": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "non_preemptible_commitment": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "fallback": {
+                "type": "boolean",
+                "default": false
+              },
+              "information_access": {
+                "enum": [
+                  "TRUE",
+                  "FALSE",
+                  "UNKNOWN"
+                ]
+              },
+              "freshness": {
+                "enum": [
+                  "CURRENT",
+                  "STALE",
+                  "UNKNOWN"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "hid_task_ledger": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "scope": {
+          "type": "string"
+        },
+        "measurement_window": {
+          "type": "string"
+        },
+        "technological_period": {
+          "type": "string"
+        },
+        "Study0_status": {
+          "enum": [
+            "PASSED",
+            "NOT_PASSED",
+            "NOT_RUN",
+            "UNKNOWN"
+          ]
+        },
+        "episodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "episode_id",
+              "hours",
+              "class"
+            ],
+            "properties": {
+              "episode_id": {
+                "type": "string"
+              },
+              "hours": {
+                "type": "number",
+                "minimum": 0
+              },
+              "class": {
+                "enum": [
+                  "GIC",
+                  "NEO",
+                  "ACW"
+                ]
+              },
+              "modifiers": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "ACW-AOV",
+                    "ACW-WFR",
+                    "ACW-TTC",
+                    "OTHER"
+                  ]
+                },
+                "uniqueItems": true
+              },
+              "capability_taxonomy": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "evidence": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "provenance": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "H_releasable": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "H_releasable_lower": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "H_releasable_upper": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "rho_inf": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "rho_lower": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "rho_upper": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "H_added": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "H_removed": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "policy_profile": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "warning_response_margin": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "required_prediction_quantile": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0,
+          "exclusiveMaximum": 1
+        },
+        "acceptable_proof_classes": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "EXACT",
+              "CONSERVATIVE_BOUND",
+              "HEURISTIC",
+              "UNKNOWN"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "capacity_revalidation_interval": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "privacy_profile": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "threshold_provenance": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "result": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "runtime_capacity": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "state": {
+              "enum": [
+                "AVAILABLE",
+                "DEGRADED",
+                "UNAVAILABLE",
+                "UNKNOWN"
+              ]
+            },
+            "selected_route": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "predicted_ack_time": {
+              "type": [
+                "number",
+                "string",
+                "null"
+              ]
+            },
+            "predicted_completion_time": {
+              "type": [
+                "number",
+                "string",
+                "null"
+              ]
+            },
+            "response_margin": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "fallback_used": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "proof_class": {
+              "enum": [
+                "EXACT",
+                "CONSERVATIVE_BOUND",
+                "HEURISTIC",
+                "UNKNOWN"
+              ]
+            },
+            "material_unknowns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "reasons": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "valid_until": {
+              "type": [
+                "number",
+                "string",
+                "null"
+              ]
+            },
+            "source_snapshot_ref": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "hid_architecture": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "quantitative_status": {
+              "enum": [
+                "NOT_MEASURED",
+                "RESEARCH_ONLY",
+                "MEASURED_BOUNDED"
+              ]
+            },
+            "scope": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "H_GIC": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "H_NEO": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "H_ACW": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "H_total": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "HICR_time": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 1
+            },
+            "HID_observed": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 1
+            },
+            "H_releasable": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "HICT": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "F_HICT": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "HID_spent": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "NOI": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "Study0_status": {
+              "enum": [
+                "PASSED",
+                "NOT_PASSED",
+                "NOT_RUN",
+                "UNKNOWN"
+              ]
+            },
+            "evidence_strength": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "material_unknowns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "authority_created": {
+          "const": false
+        },
+        "signal_is_command": {
+          "const": false
+        }
+      }
+    }
+  },
+  "required": [
+    "request"
+  ]
+}
