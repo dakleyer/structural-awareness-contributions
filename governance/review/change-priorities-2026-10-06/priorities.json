@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -2564,6 +2564,41 @@
       "authorized_to_apply": false,
       "positive_impact_proven": false,
       "source_commit": "06931f0b19b8df777e251091eccf5e3ee4ca9fbb"
+    },
+    {
+      "id": 72,
+      "vnext": "research/ecosystem-awareness/baseline/01B_VNext.md",
+      "source": "research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md",
+      "source_sha": "53c08ab1644d031ab0f7b53de5efa24ef5c8520f",
+      "source_commit": "fa2c411c810950fb94924caae38938c52dfd5014",
+      "heading": "01B-DELTA-072 — actualizar la explicación local de A",
+      "title": "Conservar A como resultado funcional en la explicación de x de 01B",
+      "before": "The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).",
+      "after": "The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already the delivered functional result component of the canonical EA qualified position, interpreted for the declared producer, process, question, scope, capability and time. A claim or scope declaration can be part of that result, but does not define the whole A component.",
+      "before_matches": 1,
+      "after_matches": 0,
+      "state": "Pendiente de decisión",
+      "impact": "Medio",
+      "risk": "Medio",
+      "effort": "Medio",
+      "priority": "Siguiente",
+      "wave": "2 — Coherencia entre RA, EA y MSCA",
+      "benefit": "Evitar que la explicación local de la notación reduzca el resultado funcional A a una aserción/scope, cuando la cabecera y el propio payload ya usan 00M vigente.",
+      "riskReason": "El contexto ya conserva la semántica actual; sustituir una frase no debe parecer una taxonomía nueva, cambiar el payload o renombrar A(t) histórico de ArticleII.",
+      "costReason": "Cotejar la cabecera, tabla §4,00M §1 y receptores antes de decidir si la precisión mejora lectura; mantener versiones y no cambiar pruebas antiguas.",
+      "dependencies": [
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/01D_VNext.md",
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md"
+      ],
+      "gate": "Viejo literal único en §2. Aclaración opcional, no error runtime probado. Original sólo lectura; decisión concreta deIván antes de incorporar.",
+      "preparation": "Par completo localizado; conciliación de lectura/contexto y decisión pendientes",
+      "quality": "Aclaración contextual opcional",
+      "decision_ready": false,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "source_guard": "Preservar original, aliasv0.1 yv0.2 en una solaVNext; ninguna incorporación por publicar auditoría",
+      "assessment_basis": "Codex mismo asistente; fuente completa y referencias semánticas contrastadas, sin ejecución"
     }
   ],
   "audit_coverage": [
@@ -2994,10 +3029,10 @@
   ],
   "current_scope": {
     "date": "2026-10-06",
-    "source_commit": "06931f0b19b8df777e251091eccf5e3ee4ca9fbb",
-    "active_expedients": 47,
-    "paired_proposals": 62,
-    "pending_paired": 47,
+    "source_commit": "fa2c411c810950fb94924caae38938c52dfd5014",
+    "active_expedients": 49,
+    "paired_proposals": 63,
+    "pending_paired": 48,
     "already_published": 7,
     "withdrawn": 1,
     "superseded": 2,
@@ -3005,12 +3040,12 @@
     "reformulated": 3,
     "planning_without_literal_pair": 9,
     "other_preserved_pairs_assessed": 32,
-    "documents_without_own_literal_pair": 17,
-    "registered_rows": 71,
+    "documents_without_own_literal_pair": 18,
+    "registered_rows": 72,
     "documentary_review_candidates": 12,
-    "review": "Evaluación de adecuación, literalidad, impacto/riesgo/esfuerzo, dependencias y criterios de aceptación de los planes disponibles; no cierre de cinco ni sexta global.",
+    "review": "Nuevas lecturas sustantivas01H/01B y cotejo01D; expansión material abierta, no cierre de cinco/sexta. Cola anterior conservada.",
     "added_here": [
-      71
+      72
     ],
     "reformulated_here": [
       3,
@@ -3177,6 +3212,78 @@
       "evidencia_relaciones": "00M1.4/1.5 and own example; full EHD/01H/profiles remain",
       "investigacion_externa": "Specific CloudEvents1.0.2 and FGTheme13 comparison performed",
       "sexta": "Pending global"
+    },
+    {
+      "date": "2026-10-06",
+      "source_commit": "fa2c411c810950fb94924caae38938c52dfd5014",
+      "reason": "Lectura sustantiva íntegra de01H/01B y relación con01D, no ranking repetido",
+      "previous_scope": {
+        "date": "2026-10-06",
+        "source_commit": "06931f0b19b8df777e251091eccf5e3ee4ca9fbb",
+        "active_expedients": 47,
+        "paired_proposals": 62,
+        "pending_paired": 47,
+        "already_published": 7,
+        "withdrawn": 1,
+        "superseded": 2,
+        "resolved_by_other_source_edition": 2,
+        "reformulated": 3,
+        "planning_without_literal_pair": 9,
+        "other_preserved_pairs_assessed": 32,
+        "documents_without_own_literal_pair": 17,
+        "registered_rows": 71,
+        "documentary_review_candidates": 12,
+        "review": "Evaluación de adecuación, literalidad, impacto/riesgo/esfuerzo, dependencias y criterios de aceptación de los planes disponibles; no cierre de cinco ni sexta global.",
+        "added_here": [
+          71
+        ],
+        "reformulated_here": [
+          3,
+          4,
+          5
+        ],
+        "reassessed_here": [
+          8,
+          17,
+          22,
+          23,
+          30,
+          32,
+          38,
+          57,
+          58,
+          59,
+          68,
+          69,
+          70
+        ]
+      },
+      "new_owning_workspaces": [
+        "research/ecosystem-awareness/baseline/01H_VNext.md",
+        "research/ecosystem-awareness/baseline/01B_VNext.md"
+      ],
+      "new_changes": [
+        72
+      ],
+      "cross_review_paths": [
+        "research/ecosystem-awareness/baseline/00M_VNext.md",
+        "research/ecosystem-awareness/baseline/01C_VNext.md",
+        "research/ecosystem-awareness/baseline/01D_VNext.md",
+        "standards/minimum-sufficient-control/00_ARCHITECTURE_VNext.md",
+        "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
+        "standards/minimum-sufficient-control/04_OPERATION_VNext.md",
+        "architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md"
+      ],
+      "scope": "Texto completo1H/1B/1D yArticleII; segunda material/quinta ampliada abiertas; pasadas tercera/cuarta textuales, no render/lector independiente",
+      "global_five_passes_closed": false,
+      "global_sixth_launched": false,
+      "original_sources_unchanged": true,
+      "already_proposed_first_wave_26_31_32": "Pendiente de decisión, sin incorporar",
+      "publication_rebase": {
+        "source_snapshot": "fa2c411c810950fb94924caae38938c52dfd5014",
+        "parent": "ba5e8081beff2d4728f043839cb2ea0376a94c57",
+        "reason": "Se preserva el avance DDS0.1.4; ninguno de los12 destinos o fuentes01H/01B/01D cambió. No se incorpora unplan anterior sobre unoriginalnuevo."
+      }
     }
   ],
   "rating_updates": [
@@ -3301,7 +3408,7 @@
       "old_pair_preserved": true
     }
   ],
-  "review_source_commit": "06931f0b19b8df777e251091eccf5e3ee4ca9fbb",
+  "review_source_commit": "fa2c411c810950fb94924caae38938c52dfd5014",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",

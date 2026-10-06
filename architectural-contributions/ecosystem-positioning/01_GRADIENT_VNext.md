@@ -183,3 +183,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Comprobar slug y referencias antes de un cambio futuro. No tocar significadoD ni deducir cierre de 57/58. Revisar junto con 56. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con posicionamiento local e interfaz EA/MSCA — 6 octubre 2026
+
+**Auditoría cruzada realizada por Codex, mismo asistente.** Fuente de esta ampliación: `fa2c411c810950fb94924caae38938c52dfd5014`;01H § §1–9,01B § §1–8 y 01D § §1–7 completos, ArticleII completo como procedencia; no experimentos o audiencia humana independiente.
+
+Se leyó 01H completo: §4.1 describe oportunidad deobservar/preguntar/verificar, no cambio autorizado derol. ArticleII § §5/6 preserva región suficiente, multiobjetivos yóptimos locales distintos de Pareto. Ambos son antecedentes, no prueba de unranking único.57/58/59 siguen la propuesta conjunta; la lectura no los incorpora ni deduce una esperanza probabilística sobre todoC/D.
+
+La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.

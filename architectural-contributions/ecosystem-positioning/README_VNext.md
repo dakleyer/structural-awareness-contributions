@@ -1156,3 +1156,20 @@ The labels P1–P6 name the semantic principles of Ecosystem Awareness. P1–P3 
 ~~~~
 
 **Comprobación y decisión pendiente:** igualdad del viejo actual y del prefijo de todos los bytes originales; lectura conjunta con 00M,RA y MSCA y sus VNext; mismo significado de responsabilidades y límites. Iván puede aceptar la adición, pedir otro texto o decidir no incorporarla. El original permanece intacto durante esta revisión.
+
+
+---
+
+## Continuación sustantiva — posicionamiento local e interfaz EA/MSCA
+
+**6 octubre 2026, Codex, mismo asistente; fuentes en `fa2c411c810950fb94924caae38938c52dfd5014`.** Se leyeron completos 01H,01B actual y 01D para examinar productor–consumidor–retorno; ArticleII completo se contrastó como procedencia. Las cuatro lecturas textuales propias de 01H/01B tienen explicaciones diferenciadas en sus únicas [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). Segunda material yquinta ampliada permanecen abiertas; no se declara cinco pasadas cerradas ni sexta global lanzada.
+
+La cadena conserva una idea humana: tener una representación, evaluar si basta elcontrol, tener permiso yhaber logrado efecto son cosas distintas. Elestado vacío puede ser válido como representación yseguir UNASSESSED. Una oportunidad para obtener evidencia tampoco decide unatransición autorizada. Se registró la consecuencia en 00M,01C,01D, Architecture, Composition, Gradient y Operation, sin convertir ArticleII histórico en otro kernel o dueño actual.
+
+**Hallazgo nuevo 72:**01B conserva enuna explicación local la antigua descripción deA como aserción/scope aunque cabecera ypayload ya usan elresultado funcional de 00M. Elpar literal íntegro está en 01B VNext: impacto/riesgo/esfuerzoMedio, prioridadSiguiente, aclaración opcional; original intacto. No se cambia la primera tanda 26/31/32 ni se acepta por defecto la propuesta nueva.
+
+El contraste externo de 01H distingue Distributed Situation Awareness, los dos artículos de ValueofInformation de 2022 y Knowledge Gradient;01B contrasta RFC9334 yla propuestaFG-TIDA ATHENA. Se declara elalcance leído, derechos ypiezas candidatas; no diferencial o adopción demostrado, imports o pruebas nuevas. Un registro NIST mezcla título Concepts/CaseStudies con DOI delartículo Behavioral/Social; se identificaron los originales del editor en la auditoría, sin inventar por ello uncambio a 01H.
+
+Se abrieron sólo dos VNext porque estas dos fuentes principales carecían deexpediente.01B v0.1/v0.2 comparten una unidad; no hay fichas, nuevos índices, otroREADME o VNext porpasada. Corpus actual 49 expedientes;48 pares pendientes y 9 líneas porconcretar enelregistro. Esos conteos no son cierre científico.
+
+**Siguiente examen sustantivo:** completar ArticleIV yla arquitectura funcional para esta cadena, obtener elpaper urbano o su fuente auténtica identificada, yexaminar los perfiles/realizaciones que materialmente usan las condiciones. La búsqueda limitada fallida del sitio no desacredita su contenido. Mantener elcanon enlectura ycontinuar trabajo no dependiente de decisiones deincorporación.

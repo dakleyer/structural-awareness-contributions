@@ -62,3 +62,14 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [57](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [58](../../architectural-contributions/ecosystem-positioning/01_GRADIENT_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [59](04_OPERATION_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con posicionamiento local e interfaz EA/MSCA — 6 octubre 2026
+
+**Auditoría cruzada realizada por Codex, mismo asistente.** Fuente de esta ampliación: `fa2c411c810950fb94924caae38938c52dfd5014`;01H § §1–9,01B § §1–8 y 01D § §1–7 completos, ArticleII completo como procedencia; no experimentos o audiencia humana independiente.
+
+01H §5 y 01B § §1/5, leídos completos, reciben la distinción delkernel entre representación/assessment, plantilla UNPOPULATED y UNASSESSED.01B §2 conserva multiobjetivo yalternativas realmente examinadas. ArticleII completo aporta procedencia; su A(t) deconfiguración ysu MCA amplio no sustituyen los símbolos/owners actuales. No hay razón nueva para editar S/E/C/P/M ni aplicar 57–59; fuentes/realizaciones aún abiertas.
+
+La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.

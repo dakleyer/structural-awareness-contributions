@@ -320,3 +320,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
 **Revisión cruzada de la nueva alternativa 71:** 71 resume el papel de la calificación para un lector del README. Concuerda con 00M §4.1 si conserva pregunta, scope y suficiencia condicional; no convierte una lectura nueva en prueba de resultados anteriores. El par nuevo no cambia 00M ni su evidencia. [Viejo y propuesto completos en EP](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026).
+
+
+---
+
+## Relación material con posicionamiento local e interfaz EA/MSCA — 6 octubre 2026
+
+**Auditoría cruzada realizada por Codex, mismo asistente.** Fuente de esta ampliación: `fa2c411c810950fb94924caae38938c52dfd5014`;01H § §1–9,01B § §1–8 y 01D § §1–7 completos, ArticleII completo como procedencia; no experimentos o audiencia humana independiente.
+
+Se leyó completo 01B v0.2. Su cabecera y tabla §4 conservan A como resultado funcional, pero el párrafo que distingue x deA aún dice «situated assertion/scope». El candidato 72 mantiene la distinción devariables y sustituye sólo ese parentético por el resultado funcional del proceso. Contexto protegido, no error runtime universal; impacto/riesgo/esfuerzoMedio y decisión opcional.01H § §2/2.1 ya usa la lectura actual. Ninguna prueba antigua ni la semántica adoptada de 00M se cambia.
+
+La explicación de origen y los límites están en [01H VNext](01H_VNext.md) y [01B VNext](01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.

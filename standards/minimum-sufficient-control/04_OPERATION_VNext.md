@@ -310,3 +310,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Consecuencia entre documentos:** [35](../../research/regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [38](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [64](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [67](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [68](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [69](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [70](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). 64/67 ya no describen la fuente vigente de HID: las antiguas observaciones del ledger quedan como historia, sin volver a la cola. El nuevo componente HC-HID/01K-A01 y sus fuentes mantienen revisión material pendiente dentro del mismo propietario 01K. Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con posicionamiento local e interfaz EA/MSCA — 6 octubre 2026
+
+**Auditoría cruzada realizada por Codex, mismo asistente.** Fuente de esta ampliación: `fa2c411c810950fb94924caae38938c52dfd5014`;01H § §1–9,01B § §1–8 y 01D § §1–7 completos, ArticleII completo como procedencia; no experimentos o audiencia humana independiente.
+
+01B § §5.1/6.4/7 y 01H § §4.1/5 separan obtener evidencia, evaluar configuración, elegir transición, autorizar, ejecutar ycomprobar efecto. La oportunidad epistemológica precursora no es la selección operativa delgradiente.57/58/59 conservan sus gates deorden/comparación y 12/14/ACC mantienen dueño legítimo. Costes/criterios/ventana siguen definidos porelperfil; no se suman por analogía.
+
+La explicación de origen y los límites están en [01H VNext](../../research/ecosystem-awareness/baseline/01H_VNext.md) y [01B VNext](../../research/ecosystem-awareness/baseline/01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.

@@ -255,3 +255,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** CotejarRole/Operation/01C juntos; no confundir binding legítimo con función observada. Mantener la opción de no incorporar. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con posicionamiento local e interfaz EA/MSCA — 6 octubre 2026
+
+**Auditoría cruzada realizada por Codex, mismo asistente.** Fuente de esta ampliación: `fa2c411c810950fb94924caae38938c52dfd5014`;01H § §1–9,01B § §1–8 y 01D § §1–7 completos, ArticleII completo como procedencia; no experimentos o audiencia humana independiente.
+
+01H §2.1 entrega posición/cambio local aCart_i y/o aesta interfaz, sin hacer del efecto local estabilidad delrégimen.01B §7.1 y 01D § §2/3 exigen mismo alcance, versión yventana cuando RA sea fundamento de la acción; monitor advisory fuera de la dependencia no es veto general. El contraste no convierte Π_EA local enΔ_RA ni aporta la especialización P_RA que 17 mantiene pendiente.
+
+La explicación de origen y los límites están en [01H VNext](01H_VNext.md) y [01B VNext](01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
