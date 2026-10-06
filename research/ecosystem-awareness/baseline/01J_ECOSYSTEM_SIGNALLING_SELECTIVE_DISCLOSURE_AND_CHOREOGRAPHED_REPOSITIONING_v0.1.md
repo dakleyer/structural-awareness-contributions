@@ -261,7 +261,7 @@ The sender-side trigger may originate from:
 - an agent/system alert;
 - a material `Δ_RA` / regime-change warning or requalification request;
 - effective-role drift, unresolved ACC/authority transition or another material Repositioning condition;
-- an optional [Human Intelligence Capacity / Escalation / Debt](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) determination showing that a planned human-review path is degraded, unavailable or unknown.
+- an optional [Human Capacity / Human Intelligence Debt](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) determination showing that a planned human-review path is degraded, unavailable or unknown.
 
 The receiving side still performs normal qualification. Where material, the alert may update `Cart_i`, trigger Regime Awareness or local requalification, and then alter the downstream Repositioning surface. Transport success, human authorship or the word "alert" does not make the payload true or authoritative.
 
