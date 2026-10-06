@@ -331,3 +331,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 Se leyó completo 01B v0.2. Su cabecera y tabla §4 conservan A como resultado funcional, pero el párrafo que distingue x deA aún dice «situated assertion/scope». El candidato 72 mantiene la distinción devariables y sustituye sólo ese parentético por el resultado funcional del proceso. Contexto protegido, no error runtime universal; impacto/riesgo/esfuerzoMedio y decisión opcional.01H § §2/2.1 ya usa la lectura actual. Ninguna prueba antigua ni la semántica adoptada de 00M se cambia.
 
 La explicación de origen y los límites están en [01H VNext](01H_VNext.md) y [01B VNext](01B_VNext.md). La segunda pasada se amplía en esta relación; fuentes urbanas/funcionales/perfiles pendientes siguen visibles. Un enlace compatible no establece ejecución. Se mantienen los originales y las conversaciones anteriores; quinta/sexta mantienen su estado real.
+
+
+---
+
+## Relación material con funciones y taxonomía — 6 octubre 2026
+
+**Codex, mismo asistente, contraste nuevo de evidencia.** Fuente `f7d8ed0846b301617197ade855d5237cbd2280f9`;03partes 1–3 completas,ArticleIVpartes 1–2 completas como procedencia y Foundation 1.1A/ § §2/3.4/3.5 focales. No otra firma independiente ni nueva ejecución.
+
+Las notas actuales de 03remiten a 00M alinterpretar rótulos históricos dentro/fuera de ventana; no se renombra elmapaI/O/Type. F2/APQ conserva vía suficiente distinta de mensaje válido; F5 noinfieredeindependencia por diversidad detransportes. La nueva Foundation 1.1AconservaA probabilístico legítimo yrework separado,pero debe leer los casos Type 1/2 concausalidad y scope:73propone no exigir ampliación. NingúnA/B/C/D oproofse adopta de nuevoporesta lectura.
+
+Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.

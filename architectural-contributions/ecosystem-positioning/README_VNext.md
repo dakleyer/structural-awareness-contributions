@@ -1173,3 +1173,18 @@ El contraste externo de 01H distingue Distributed Situation Awareness, los dos a
 Se abrieron sólo dos VNext porque estas dos fuentes principales carecían deexpediente.01B v0.1/v0.2 comparten una unidad; no hay fichas, nuevos índices, otroREADME o VNext porpasada. Corpus actual 49 expedientes;48 pares pendientes y 9 líneas porconcretar enelregistro. Esos conteos no son cierre científico.
 
 **Siguiente examen sustantivo:** completar ArticleIV yla arquitectura funcional para esta cadena, obtener elpaper urbano o su fuente auténtica identificada, yexaminar los perfiles/realizaciones que materialmente usan las condiciones. La búsqueda limitada fallida del sitio no desacredita su contenido. Mantener elcanon enlectura ycontinuar trabajo no dependiente de decisiones deincorporación.
+
+
+---
+
+## Continuación sustantiva — funciones, señales y límites de la taxonomía
+
+**6octubre 2026,Codex,mismo asistente; snapshot `f7d8ed0846b301617197ade855d5237cbd2280f9`.** Seleyeron las tres partes 03funcionales (45.622caracteres) y ArticleIVcompleto (20.849), yse cotejaron pasajes focales de Foundation actual. [03 Functional VNext](../../research/ecosystem-awareness/baseline/03_FUNCTIONAL_VNext.md) recibe las cuatro lecturas textuales diferenciadas yuncontraste externo particular; [Foundation VNext](../../research/ecosystem-awareness/baseline/01_FOUNDATIONAL_VNext.md) declara explícitamente revisiónparcial de una fuente 135.021caracteres,aún sinlectura completa oquinta propia. Se abrieron sólo esas dos VNext que no existían; la spartes/versiones de cadaunidad comparten expediente. No hay VNextnueva de ArticleIV,ficha,índice,READMEohelper adicional.
+
+La lectura confirma tresdistinciones útiles:una buena víadeadquisición no valida todos su smensajes,diferentestransportes no hacenindependientes fuentescompartidas,yuna petición no concedeautoridad. Se comentaron los doslados deesasrelaciones en 01H/01B/00M/00N/Requirements/04/DDS. No se cierra H06,lamatriz 176,perfiles orealizaciones por leerlos enlaces.
+
+**Nuevo candidato 73,altoimpacto/riesgo/esfuerzo:** elbloque 1.1Ade Foundation presenta ampliacióncomo rasgocomún de Type 1/2; su propio §3.4conserva espera poruninputdefinido sinlímite/escape y §3.5silencio/faltadeevidencia/stalestatus promovidos acerteza dentro deU.73 propone explicitar que expansión es uncaso,nocondición necesaria. Si el autorusaampliación metafóricamente,puede ser precisión deexposición; no se presume falloruntime. La fuente completa ylos consumidores tienen queconciliarse antes decualquierdecisión. Elviejo completo yelpropuesto están en su VNext; eloriginal conserva todos susbytes.
+
+ArticleIVy sus precedentes biológicos ayudan a formularhipótesis, no avalidar seguridad digital. PROV-DM ofrece linaje;ByzantineGenerals tiene otros supuestos/objetivos;FG-TIDA13 sigue siendo propuesta/discusión. Derechos/versiones/pasajes realmenteleídos yreutilización condicionada figuran en 03VNext. No se importócódigo/datos,noexperimentó ni atribuyó adopción.
+
+**Continuidad:** completar Foundation integrada y su sfuentes materialmenteusadas,matrices deinterfaces/UC/perfiles y fuente urbana pendiente. La segunda material yquinta ampliada siguen abiertas; no se lanza lasexta global ni se marcaelcorpus concluido. Primeraonda 26/31/32 y 72 siguen sinincorporar;73es preparación deconciliación de riesgoalto,otra decisióndistinta.

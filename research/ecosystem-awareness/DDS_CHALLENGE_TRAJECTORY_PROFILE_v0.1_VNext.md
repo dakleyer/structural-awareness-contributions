@@ -311,3 +311,14 @@ Impact high for explainability/research provenance; risk medium for evidence amp
 - [00I AWS implementation profile](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md)
 - [DDS research basis and documentary benchmarking dossier](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md) — supporting literature/comparison; not a second method or executed market benchmark.
 ~~~~
+
+
+---
+
+## Relación material con funciones y taxonomía — 6 octubre 2026
+
+**Codex, mismo asistente, contraste nuevo de evidencia.** Fuente `f7d8ed0846b301617197ade855d5237cbd2280f9`;03partes 1–3 completas,ArticleIVpartes 1–2 completas como procedencia y Foundation 1.1A/ § §2/3.4/3.5 focales. No otra firma independiente ni nueva ejecución.
+
+Elcontraste de Foundation 1.1Acon 03/ § §3.4/3.5 permite evaluar una taxonomía sinexigircrecimiento observable delscope. Rework sigue siendo coste/no-Type 1automático; Ø/Pno son clasificaciones universales,pues manda elcontrato causal delChallenge yla disponibilidad real deunM definidoexante.73es una propuesta pendiente en Foundation,no orden para recalificar resultados DDS históricos ni activar unabatería. Se conserva la fuente DDScurrente ysus epocas previas.
+
+Elorigen delcontraste está en [03 Functional VNext](baseline/03_FUNCTIONAL_VNext.md) y [Foundation VNext](baseline/01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.

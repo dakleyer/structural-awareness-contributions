@@ -608,3 +608,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Seleccionar perfil/successor; binding productor/perfil/versión/instancia, missing/stale y decisiones que requieren el valor. Examinar176 filas y 44 casos pertinentes; registrar excepciones. Revisar junto con 16, 43. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con funciones y taxonomía — 6 octubre 2026
+
+**Codex, mismo asistente, contraste nuevo de evidencia.** Fuente `f7d8ed0846b301617197ade855d5237cbd2280f9`;03partes 1–3 completas,ArticleIVpartes 1–2 completas como procedencia y Foundation 1.1A/ § §2/3.4/3.5 focales. No otra firma independiente ni nueva ejecución.
+
+Lectura completa de 03F3/F4/F8/ §5: califican operational result/claim yproducen statement/envelope acotados sin transferir autoridad. Elkernel genérico debe preservar lo relevante para elreceptor; A_ref sólo sirve conbinding/resolución/interpretación delperfil. Esta evidencia textual amplíaIF04-R1-F001,pero no cierra 19/H06,176assertions otests delInputContract. A/B/C/Dde 00M gobierna lectura actual sinrevalidar mapas/controles congelados.
+
+Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.

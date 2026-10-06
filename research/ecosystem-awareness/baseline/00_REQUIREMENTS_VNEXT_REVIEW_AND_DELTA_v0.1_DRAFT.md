@@ -727,3 +727,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Caso de permisos incompatibles y dueño legítimo; comprobarS1/S8/ACC sin inventar regla universal de agregación ni consentimientos. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con funciones y taxonomía — 6 octubre 2026
+
+**Codex, mismo asistente, contraste nuevo de evidencia.** Fuente `f7d8ed0846b301617197ade855d5237cbd2280f9`;03partes 1–3 completas,ArticleIVpartes 1–2 completas como procedencia y Foundation 1.1A/ § §2/3.4/3.5 focales. No otra firma independiente ni nueva ejecución.
+
+Nueva relaciónS5/S14/T4 con 03/Foundation: cierre legítimo acotado, residual explícito yventana/capacidad deben conservarse antes de clasificar fallos.03F6/F7ya distingue Type 0 de Type 1/2 ygestión de postura.73requiere cotejar los casos deespera/falsa aprobación en scope fijo; no añadeS15/T5/H7 ni obtiene resultados de una matriz de correspondencia. La fuente completa Foundation/perfiles aún falta;16/43–45 mantienen sus gates.
+
+Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.

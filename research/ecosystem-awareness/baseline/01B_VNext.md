@@ -75,3 +75,14 @@ The symbol **x** is deliberately used for a candidate control configuration. It 
 ~~~~
 
 **Instrucciones de Iván:** preservar originales, unaVNext por unidad lógica, viejo completo, impacto/riesgo/esfuerzo y propuesta quirúrgica. Ningún cambio incorporado a la fuente por esta publicación; la decisión puede ser no modificarla.
+
+
+---
+
+## Relación material con funciones y taxonomía — 6 octubre 2026
+
+**Codex, mismo asistente, contraste nuevo de evidencia.** Fuente `f7d8ed0846b301617197ade855d5237cbd2280f9`;03partes 1–3 completas,ArticleIVpartes 1–2 completas como procedencia y Foundation 1.1A/ § §2/3.4/3.5 focales. No otra firma independiente ni nueva ejecución.
+
+03F3/F4 consume resultado/claimademás de susqualifiers; esto apoya no sustituir unresultado por una referencia opaca sin perfil. F7 ylas interfaces de §5 separan petición depermit/ejecución, y F9 conserva mismatches. La recepción de estado parcial en 01B no crea control suficiente. La lectura completa de 03/ArticleIV amplía el contraste previo; fidelidad urbana, matrices yrealizaciones pendientes no se cierran.73no cambia la aclaración opcional 72 deA.
+
+Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.

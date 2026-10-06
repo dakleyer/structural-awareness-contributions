@@ -374,3 +374,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Conservar la edición primaria y separar lenguaje de sinergia de cálculo elegido/distribución/fidelidad; decidir si la cita mejora la nota. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Relación material con funciones y taxonomía — 6 octubre 2026
+
+**Codex, mismo asistente, contraste nuevo de evidencia.** Fuente `f7d8ed0846b301617197ade855d5237cbd2280f9`;03partes 1–3 completas,ArticleIVpartes 1–2 completas como procedencia y Foundation 1.1A/ § §2/3.4/3.5 focales. No otra firma independiente ni nueva ejecución.
+
+F2/APQ,F4,F5 y F9leídos completos sostienen la utilidad condicionada:hay que comparar carga/tiempo yconservar la diferencia entre vía,mensaje ylinaje. ArticleIV plantea señal calificada sincooperación, no ventaja observada.73de Foundation conectaS5/S14/T4 conno-perder respuesta legítima oinventar certeza en scope fijo; esta relación no sustituye las fuentes/campañas pendientes de 00N.
+
+Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.

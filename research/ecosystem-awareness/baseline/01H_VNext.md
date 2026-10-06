@@ -59,3 +59,14 @@ Juicio para 01H: los vecinos cubren varias ideas nucleares. Su diferencial de co
 **Codex, auto-revisión:** no encontré motivo sustentado para cambiar el cuerpo de 01H en esta lectura. Las fronteras están explícitas; conservarlas es una decisión válida. No se inventa un antes/después para llenar el expediente. El hallazgo 72 pertenece a 01B, que contiene un parentético antiguo paraA mientras 01H ya conserva resultado funcional.
 
 Primera, tercera y cuarta textuales realizadas; segunda material y quinta ampliada abiertas. Sexta global pendiente. Seguir ArticleIV/arquitectura funcional y los perfiles materiales; conservar la pregunta de selección en sus dueños. Original en sólo lectura, sin experimento ni incorporación.
+
+
+---
+
+## Relación material con funciones y taxonomía — 6 octubre 2026
+
+**Codex, mismo asistente, contraste nuevo de evidencia.** Fuente `f7d8ed0846b301617197ade855d5237cbd2280f9`;03partes 1–3 completas,ArticleIVpartes 1–2 completas como procedencia y Foundation 1.1A/ § §2/3.4/3.5 focales. No otra firma independiente ni nueva ejecución.
+
+Se leyó ArticleIV entero como procedencia:señales yhuellas pueden ser informativas sin intención cooperativa,pero su valor no es automático. Las tres partes 03 confirman APQ≠calificación deunmensaje,F9historia≠confianza global ylinaje≠transporte diferente. F2 sigue siendo dueño de ventana; F7 pide acciones sin crearsuautoridad. La ampliación actual de Foundation requiere conservar fallos en scope fijo:73queda en la fuente,con fuentecompleta aún pendiente. Se supera elpendiente de lectura propia de ArticleIV/funciones en esta relación; siguen los perfiles/realizaciones y fuentes externas completas.
+
+Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
