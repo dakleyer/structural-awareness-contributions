@@ -514,3 +514,14 @@ El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_R
 [A2A 1.0.0](https://a2a-protocol.org/latest/specification/) ofrece tareas, comunicación y acceso definidos por el agente; [MCP 2026-07-28](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) acota autorización por recurso/audiencia. Son candidatos de infraestructura y peer, con versiones/licencias por examinar en la pieza elegida.
 
 **Juicio del documento:** reutilizar transporte/seguridad requiere conservar semántica del productor y el binding decisional; identificar esos mecanismos existentes tampoco prueba que el EHD propuesto tenga diferencial o esté implementado. El mapping, total burden y consumidores quedan pendientes. No se cambió un payload ni se ejecutó un SDK.
+
+
+---
+
+## Sexta pasada unificadora — preparación y continuidad
+
+**Instrucción de Iván, 6 de octubre de 2026. Preparación registrada por Codex, mismo asistente de IA. Estado: pendiente de lanzamiento después de las cinco pasadas del corpus.** Esta anotación organiza el trabajo futuro; no declara una auditoría unificadora realizada ni cambia el estado de las lecturas anteriores.
+
+**Pregunta de consolidación de este documento:** Conciliar el contrato general con 05/05A, perfiles y protocolos externos: éxito de transporte, identidad o autorización no sustituye calificación, binding semántico ni efecto.
+
+Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.

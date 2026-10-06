@@ -667,3 +667,24 @@ El grafo y sus resultados pertenecen al commit que indican. Un archivo encontrad
 **Pendiente de hacer:** completar lecturas, fuentes y consumidores, la quinta comparación específica y la conciliación global. **Pendiente de decisión de Iván:** incorporación de los candidatos exactos. Esos pendientes no significan que se retengan auditorías ya terminadas o propuestas preparadas sin publicar.
 
 Las próximas entregas publicarán su trabajo sustantivo en la VNext correspondiente aunque el ciclo siga parcial, con alcance y límites reales. Los canónicos se preservan; la revisión continua no espera al cierre de todo el corpus para hacerse visible.
+
+
+---
+
+## Sexta pasada unificadora — preparación y continuidad
+
+**Instrucción de Iván, 6 de octubre de 2026. Preparación registrada por Codex, mismo asistente de IA. Estado: pendiente de lanzamiento después de las cinco pasadas del corpus.** Esta anotación organiza el trabajo futuro; no declara una auditoría unificadora realizada ni cambia el estado de las lecturas anteriores.
+
+**Pregunta de consolidación de este documento:** Reconstruir la idea central del conjunto, sus ramas y sus límites, y conciliar las propuestas de todos los propietarios sin convertir enlaces laterales en subordinación.
+
+Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
+
+### Consolidación del conjunto
+
+Esta será la conciliación final ya prevista, ahora explícita como sexta pasada. Se lanzará después de completar los cinco exámenes reales del corpus completo, incluidas sus ramas e integraciones. Los 31 expedientes existentes conservan una sola VNext y reciben preguntas propias; su existencia no representa todo Contributions auditado.
+
+El relato común explicará qué idea sostiene el conjunto, qué sigue abierto y qué propuestas resultan compatibles o alternativas. Cada comentario material volverá a la VNext del origen y del receptor; los README propietarios conservarán sus consecuencias. No basta un mapa de enlaces ni una lista de etiquetas.
+
+Se dará prioridad a contradicciones o transferencias de evidencia que cambien una conclusión, a integraciones y decisiones que dependan unas de otras y, después, a la presentación. Ante un hallazgo nuevo se reabre la pasada afectada y se vuelve a conciliar esa relación. Las propuestas consolidadas tendrán antes literal de la versión vigente, después, razón, evidencia, dependencias y decisión pendiente; la historia anterior se conserva.
+
+La continuación programada mantendrá este orden y publicará los resultados parciales dentro de cada VNext. La autorización para publicar ya existe; el canon no recibe cambios por ejecutar la consolidación. Se mantienen los tres niveles EP → Awareness → índices técnicos y la revisión de toda redistribución en los README VNext afectados.

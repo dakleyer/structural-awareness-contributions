@@ -370,3 +370,60 @@ Se distingue **trabajo realizado todavía sin publicar**, **auditoría pendiente
 Antes de entregar, conciliar los textos y evidencias de staging con el GitHub actual, conservar los predecessors, comprobar el diff y leer de vuelta. Un borrador anterior que ya fue desarrollado en el expediente público se relaciona con esa historia; no reemplaza estados posteriores. Los originales públicos y las copias operativas no se duplican como si fueran trabajo nuevo.
 
 [Conciliación publicada dentro de EP README VNext](../architectural-contributions/ecosystem-positioning/README_VNext.md#publicación-del-trabajo-preparado--instrucción-de-iván). Continúan la preservación, los tres niveles de lectura y la decisión concreta de Iván para incorporar cambios en el canon.
+
+
+---
+
+## Sexta pasada unificadora y consolidación
+
+**Adición al plan, revisión 1.8 · instrucción de Iván del 6 de octubre de 2026.** Iván pide: «Luego de que hayas realizado las 5 pasadas, lanza una unificadora (que también coloca comentarios en vnext) para hacer una consolidación». Esta sexta pasada concreta la conciliación final ya prevista: es el mismo examen conjunto, después de las cinco, y mantiene este plan, este programa de revisión y las únicas VNext existentes.
+
+**La pregunta central es humana:** ¿puede una persona leer el corpus como un argumento comprensible, distinguir lo que está sustentado de lo abierto y utilizar sus relaciones sin mezclar significados, versiones, evidencia o responsabilidades? La consolidación trata el fondo y las propuestas. Las comprobaciones de enlaces y conservación la apoyan.
+
+### Cuándo se lanza
+
+Se lanza cuando las cinco pasadas estén realmente cubiertas en el alcance del corpus completo de Contributions, incluidas EA, RA, MSCA y las integraciones. Antes se coteja el inventario de documentos lógicos con el árbol actual, versiones, fuentes, consumidores y estado de cada pasada. Las copias y partes se relacionan con su unidad; archivos congelados o binarios mantienen ficha externa. Los instrumentos de revisión se comprueban como instrumentos, sin VNext de VNext.
+
+Tener una VNext, cinco títulos, un mapa de fuentes o enlaces correctos no cumple esta condición. Las fuentes materiales que todavía no pudieron examinarse y las lecturas pendientes se explican y conservan como pendientes; no se excluyen documentos del repositorio por estar sueltos. La investigación externa conserva su alcance justificado: no promete agotar toda la literatura, pero necesita un juicio específico y contrastado para cada documento. Las limitaciones conocidas se presentan con su efecto real.
+
+El cierre de una pasada significa que se realizó su examen declarado, no que la hipótesis resulte verdadera o que todos los hallazgos estén resueltos. Las propuestas y decisiones de incorporación todavía abiertas son entradas de la consolidación, no autorización para cambiar el canon. No se espera una nueva autorización de publicación para lanzar el examen cuando reúna sus condiciones.
+
+**Estado al registrar esta adición:** preparación publicada; sexta pendiente de lanzamiento. Hay lecturas, contrastes específicos y consumidores por revisar. Los 31 expedientes activos reciben la instrucción y su pregunta de consolidación; no representan la totalidad auditada del repositorio ni 31 ciclos terminados.
+
+### Qué concilia
+
+| Pregunta de conjunto | Trabajo que queda explicado |
+|---|---|
+| ¿La idea conserva su significado? | Contrastar definiciones, supuestos y conclusiones entre ramas. Distinguir extensión deliberada, alternativa, antecedente y conflicto; no forzar equivalencias ni descartar una rama porque difiera. |
+| ¿Una relación conserva su contrato? | Seguir fuente, productor, consumidor y retorno: misma decisión u operación, scope, versión, vigencia, evidencia, autoridad, capacidad y carga. Los propietarios semánticos conservan su función. |
+| ¿La evidencia sostiene el relato común? | Conservar diseño, prueba relativa, ejemplo, ejecución y comparación en su alcance. Evitar que independencia, eficacia, adopción o superioridad aparezcan por amplificación al cambiar de documento. |
+| ¿Los trabajos externos cambian nuestras prioridades? | Conciliar antecedentes, alternativas, diferencial sustentado o no establecido y piezas reutilizables. Fijar fuente, versión, atribución, derechos y adaptación antes de proponer una incorporación. |
+| ¿Las propuestas son compatibles entre sí? | Cotejar todas las propuestas vigentes contra la fuente actual y sus consumidores. Relacionar coincidencias, cambios que se necesitan mutuamente, alternativas incompatibles, decisiones y efectos; conservar las entradas anteriores. |
+| ¿Una persona puede recorrer el conjunto? | Revisar README, enlaces, trazas intelectuales, documentos sueltos y confusión de canonicidad. Toda propuesta de redistribución vuelve a las VNext de los README afectados, dentro de los tres niveles acordados. |
+
+### Comentarios dentro de las VNext
+
+Cada consecuencia concreta se registra dentro de la única VNext del documento afectado, también en el receptor si nace en una relación. La entrada empieza por **«Auditoría unificadora realizada por…»**, identifica fecha, fuente y alcance, y explica en prosa:
+
+- qué dos o más textos se han contrastado y qué sostiene cada uno;
+- qué coincide, contradice, falta o cambia al relacionarlos, con pasajes y evidencia;
+- qué consecuencia tiene para este documento y sus consumidores;
+- qué respuesta, desacuerdo o decisión sigue pendiente, enlazando las otras VNext.
+
+Otro auditor puede responder en el mismo expediente y rebatir la conclusión. Se conserva la conversación y la identidad real de quien intervino. Una relectura de Codex sigue siendo trabajo del mismo asistente de IA, no una auditoría humana o independiente.
+
+El relato común y las prioridades se explican en [EP README VNext](../architectural-contributions/ecosystem-positioning/README_VNext.md#sexta-pasada-unificadora--preparación-y-continuidad). Los README propietarios reciben sus consecuencias. Ese relato relaciona las propuestas; no sustituye los comentarios particulares ni copia páginas idénticas a cada expediente.
+
+### Qué significa consolidar las propuestas
+
+Al final de cada VNext se prepara, cuando proceda, un candidato consolidado con **texto antes exacto de la fuente actual**, **texto después propuesto**, razón, evidencia, dependencias, compatibilidad pendiente e instrucciones de Iván. Si una propuesta anterior quedó desfasada, se explica y conserva como historia; no se aplica su “antes” a otra versión. Si hay alternativas incompatibles, se muestran para decidirlas, sin inventar consenso.
+
+Las prioridades se organizan por efecto sobre comprensión, validez del argumento e integraciones: primero contradicciones o evidencia que alteran la conclusión, después correspondencias y decisiones necesarias, y luego mejoras de presentación. El resultado permite revisar qué cambiaría, por qué y qué depende de ello.
+
+Consolidar no aplica cambios canónicos, fusiona archivos ni modifica jerarquías por sí solo. EP README y estrategia siguen append-only hasta la revisión de Iván; las fuentes congeladas, resultados y binarios se preservan. La incorporación de un candidato requiere su decisión concreta.
+
+### Reaperturas y cierre
+
+Si la sexta descubre un problema nuevo, reabre la pasada y los documentos afectados, con su nueva pregunta y límite; después repite la conciliación de esa relación. Los avances parciales y los comentarios se publican inmediatamente conforme al plan 1.7, sin esperar al cierre global.
+
+La sexta se da por realizada en un alcance fijado cuando las relaciones materiales y las propuestas tienen una conclusión comprensible, sus comentarios están en los expedientes afectados y los límites pendientes permanecen visibles. Un problema material sin revisar impide declarar el corpus completamente conciliado. Auditoría concluida, teoría verdadera, propuesta incorporada y sistema validado son estados distintos.

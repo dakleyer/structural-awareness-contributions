@@ -955,3 +955,14 @@ El [mapa externo preparatorio](../../../../../../governance/review/EP_EXTERNAL_R
 La [contribución FG-TIDA #30](https://github.com/FG-TIDA/themes/issues/30) añade controles de respuesta conocida como vecino metodológico. Su [cierre](https://github.com/FG-TIDA/themes/issues/30#issuecomment-5947715148) indica fuera de alcance, y el catálogo distingue código de contenido reservado. La pieza aprovechable sería una técnica o código delimitado tras revisar versión y licencia; no se importaron casos o prosa.
 
 **Diferencial:** disponer de negativos, known answers o scoring mecánico no es una novedad demostrada por este README. Falta comparar el mismo dominio, control positivo, carga y aislamiento del evaluador; los perfiles distintos no equivalen. La quinta queda abierta. Si interesa una pieza concreta, su propuesta tendrá fuente exacta, adaptación y texto antes/después dentro de este expediente.
+
+
+---
+
+## Sexta pasada unificadora — preparación y continuidad
+
+**Instrucción de Iván, 6 de octubre de 2026. Preparación registrada por Codex, mismo asistente de IA. Estado: pendiente de lanzamiento después de las cinco pasadas del corpus.** Esta anotación organiza el trabajo futuro; no declara una auditoría unificadora realizada ni cambia el estado de las lecturas anteriores.
+
+**Pregunta de consolidación de este documento:** Conciliar dominios, ground truth, controles y resultados de R01 con requisitos y benchmark; acuerdo de helpers, control finito o coste sintético no se convierte en independencia o eficacia causal.
+
+Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.

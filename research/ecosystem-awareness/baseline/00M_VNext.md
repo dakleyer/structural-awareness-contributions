@@ -200,3 +200,14 @@ La construcción conserva origen y autoridad a través de memoria transformada. 
 El authored payload de publicación y la lectura posterior no son idénticos: la comparación conserva hashes y los cambios exactos ya identificados. La nota de adopción/enlace y las precisiones de estado pertenecen a la época posterior; el hash histórico se mantiene válido para su fuente. No se modifica un manifest ni se reconstruye el original.
 
 Esta publicación hace accesible la evidencia del examen; no repite una auditoría independiente ni completa el traslado de pruebas antiguas a la semántica actual. El cuerpo de 00M, su VNext anterior y las propuestas permanecen conservados.
+
+
+---
+
+## Sexta pasada unificadora — preparación y continuidad
+
+**Instrucción de Iván, 6 de octubre de 2026. Preparación registrada por Codex, mismo asistente de IA. Estado: pendiente de lanzamiento después de las cinco pasadas del corpus.** Esta anotación organiza el trabajo futuro; no declara una auditoría unificadora realizada ni cambia el estado de las lecturas anteriores.
+
+**Pregunta de consolidación de este documento:** Comprobar la fidelidad entre los roles relativos al proceso de 00M, las hipótesis de 00N, requisitos, interfaces y pruebas históricas; no transferir un resultado a una definición distinta por conservar su nombre.
+
+Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
