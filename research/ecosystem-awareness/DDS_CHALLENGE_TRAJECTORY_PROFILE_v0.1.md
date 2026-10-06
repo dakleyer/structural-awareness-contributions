@@ -184,6 +184,16 @@ Different P classes may represent different failure mechanisms or severities. Ex
 
 Ø is not automatically Risk. It may reduce Effectiveness or completion. It enters Risk only if the Challenge explicitly defines that incompletion as a material violation.
 
+### 5.1 EA Type 0/1/2 diagnostic crosswalk
+
+The EA Type 0/1/2 taxonomy is not identical to DDS I/M/P/Ø and must not be inferred mechanically from the final route label.
+
+- **Type 0** may coexist with legitimate I or M closure when the system correctly preserves residual non-determination instead of pretending it has been eliminated.
+- **Type 1** is not generic extra work. It is a failure of bounded determination: unresolved search, review, waiting, escalation or window expansion becomes non-viable and consumes the capacity or response horizon needed for legitimate closure. An Ø/HOLD outcome is therefore a candidate Type-1 signature only when a bounded admissible route or fallback remained available and the determination process prevented its timely use.
+- **Type 2** may be expressed by a P outcome when the prohibited result was enabled by false closure, stale-frame reuse, unjustified scope extension or suppressed residual uncertainty. Not every P outcome is automatically Type 2; the causal failure mechanism must be established.
+
+The authoritative Type 0/1/2 derivation remains the [Integrated Foundational Theory](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), read with [00M](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) for A/B/C/D semantics and [00N](./baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) for the mechanism-to-requirements bridge.
+
 ## 6. Segments, gates, traversals and traces
 
 These terms are distinct.
@@ -256,6 +266,8 @@ where the declared ledger may include:
 Aggregate Cost is defined before execution: expected cost, hard ceiling, percentile, total campaign cost or another explicit rule.
 
 Commercial engagement fees are never the technical `C`.
+
+**Rework / excess-review diagnostic.** Where the frozen Challenge has a complete evaluator map, the evaluator may compute a hidden minimum-sufficient review witness for a declared route/outcome under the same information-access and action contract. The evaluated technology does not receive that witness. Actual inspected/search/validation work can then be compared with the minimum-sufficient witness to quantify redundant, circular or otherwise excess work. That difference is an efficiency diagnostic inside Cost; it is **not automatically Failure Type 1**. It becomes Type-1-relevant only when continued unresolved determination makes legitimate closure non-viable within the available budget/capacity/horizon.
 
 ### 7.2 Risk
 
