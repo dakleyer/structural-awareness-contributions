@@ -552,11 +552,11 @@ The complete architecture is composed from separately owned mechanisms. The link
 
 ### Additive Human Intelligence / Human Escalation extension
 
-[**01K — Human Intelligence Capacity, Escalation and Debt Profile**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is an additive positioning extension, not a new EA/EP core mechanism. It separates **Human Time** from **Human Intelligence Tokens (HIT)**, defines a bounded working notion of **Human Intelligence Debt**, and connects finite human-review capacity to the existing Signalling/EHD and Repositioning paths.
+[**01K — Human Intelligence Capacity, Escalation and Debt Profile**](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) is an additive positioning extension, not a new EA/EP core mechanism. It imports the existing **Human Intelligence Debt** framework — HICR, HICT and the architectural gap between feasible genuine human contribution and actual contribution — and connects it to a separate runtime Human Escalation capacity check over the existing Signalling/EHD and Repositioning paths.
 
 The extension deliberately gives the human **no privileged architectural interrupt**. Human- or system-originated alerts, material Regime Awareness warnings and repositioning-time conditions may use the same bounded **Human / Systemic Alert** signalling profile. The receiver requalifies the signal, updates `Cart_i` where material and may re-enter RA/Repositioning. A human can be a subscribed/routed consumer under an applicable ACC, policy or signalling profile, but receipt does not establish authority or cognitive capacity.
 
-Where a repositioning transition depends on human review, Ecosystem Positioning / MSCA Operation may consume 01K before emitting a human-directed trigger. Repositioning can remain `HOLD` / `UNRESOLVED` while a successor ACC, re-contracting decision or authority response is pending; the alert does not bypass that gate.
+Where a repositioning transition depends on human review, Ecosystem Positioning / MSCA Operation may consume 01K before emitting a human-directed trigger. The runtime question is whether a qualified human path is actually usable inside the response window; the architectural question is whether the interface is eliciting genuine human contribution or generating avoidable compensatory work. Repositioning can remain `HOLD` / `UNRESOLVED` while a successor ACC, re-contracting decision or authority response is pending; the alert does not bypass that gate.
 
 
 ## How the pieces divide responsibility
