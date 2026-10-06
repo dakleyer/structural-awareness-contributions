@@ -1,0 +1,109 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "input_corpus_commit": "7124d256713c19e9be8ea353c66354f75426ca5c",
+  "source_object_rule": "Source validity and scope are retained; documentary reading does not supply native conformance or human calibration",
+  "stpa": {
+    "title": "STPA Handbook (MIT-STAMP-001)",
+    "authors": [
+      "Nancy Leveson",
+      "John Thomas"
+    ],
+    "edition": "March 2018",
+    "source_url": "https://psas.scripts.mit.edu/home/get_file.php?name=STPA_handbook.pdf",
+    "bytes": 5585018,
+    "pages": 188,
+    "sha256": "63091747b6746766d3b20c6181125bb8168b4f4030300bd61ee76c52daf7d336",
+    "coverage": "Basic STPA chapter2 pages14-53 read, foundation pages11-13 and organizational opening pages86-87; figures24/36 rendered and inspected. Not a full-book review.",
+    "source_not_modified": true,
+    "rendered_source_figures": [
+      24,
+      36
+    ]
+  },
+  "spiffe_spec_commit": "f97c46dfd0ff0d4e412cce5c73846a9ca32a99a2",
+  "source_specs": [
+    {
+      "path": "standards/JWT-SVID.md",
+      "blob": "8f0f39c1007ce786b5a7214ac02e21c453081270"
+    },
+    {
+      "path": "standards/SPIFFE-ID.md",
+      "blob": "caa1bef4671a9f825cffc342d5802f430c7e1258"
+    },
+    {
+      "path": "standards/SPIFFE.md",
+      "blob": "90b77a5e5cf933d8c0b107a07cee7c589744dee2"
+    },
+    {
+      "path": "standards/SPIFFE_Workload_API.md",
+      "blob": "f56a8761f9f906bc54e3541636253afc700f7696"
+    },
+    {
+      "path": "standards/STABILITY.md",
+      "blob": "8d6427320a4ebc0b4867c4601af623963a667d65"
+    },
+    {
+      "path": "standards/X509-SVID.md",
+      "blob": "cec8b73004a5ea4c90c18478999dfddb1ef841bc"
+    }
+  ],
+  "spire_reference": {
+    "version": "v1.15.3",
+    "url": "https://github.com/spiffe/spire/releases/tag/v1.15.3",
+    "published_at": "2026-08-21T14:26:18Z",
+    "installed": false
+  },
+  "rats": {
+    "reference": "RFC 9334",
+    "status": "Informational",
+    "url": "https://datatracker.ietf.org/doc/html/rfc9334",
+    "profile": "Proposed conceptual software-state appraisal/consumption profile; no standardized wire format or trusted-device implementation admitted"
+  },
+  "fencing_deputy_sources": [
+    {
+      "title": "Hazelcast FencedLock",
+      "version": "documentation branch5.6",
+      "url": "https://docs.hazelcast.com/hazelcast/5.6/data-structures/fencedlock",
+      "coverage": "official page read; no installation"
+    },
+    {
+      "title": "The Chubby lock service for loosely-coupled distributed systems",
+      "author": "Mike Burrows",
+      "year": 2006,
+      "url": "https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf",
+      "coverage": "selected sections2.1 and2.3-2.6; not all16 pages"
+    },
+    {
+      "title": "The Confused Deputy",
+      "author": "Norm Hardy",
+      "year": 1988,
+      "url": "https://people.csail.mit.edu/alinush/6.858-fall-2014/papers/confused-deputy.pdf",
+      "coverage": "complete3-page mirror read"
+    },
+    {
+      "title": "AWS IAM confused-deputy prevention",
+      "version": "living official documentation consulted2026-10-06",
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/confused-deputy.html",
+      "coverage": "official page read; no AWS policy/role/runtime"
+    },
+    {
+      "title": "OAuth2 Token Exchange",
+      "version": "RFC8693 January2020 Standards Track",
+      "url": "https://www.rfc-editor.org/rfc/rfc8693.html",
+      "coverage": "targeted2.1/2.1.1 and delegation claims/examples, not a full implementation review"
+    }
+  ],
+  "FG_TIDA_search": {
+    "consulted": "Theme13,Theme16 and UC21 comments on2026-10-06",
+    "coverage": "55,91,19 comments respectively returned in first100-comment pages; selected relevant comments read",
+    "duplication_quote_original_url": "not established; human-supplied fragment remains unattributed externally",
+    "related_source": "https://github.com/FG-TIDA/themes/issues/13#issuecomment-5916002901",
+    "related_meaning": "Grant existence remains distinct from purpose applicability; synthetic timing is not measured latency",
+    "own_related_comment": "https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5998599001",
+    "own_comment_is_independent_validation": false
+  },
+  "reuse": "Established control ideas and native terminology credited; own code and analytical fixtures only; no third-party code/data/book redistribution",
+  "model_run": "HEW-DDS-MODEL-20261006-04",
+  "native_products_or_humans_executed": false
+}

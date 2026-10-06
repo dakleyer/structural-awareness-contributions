@@ -1,0 +1,413 @@
+{
+  "schema": "DDS-EXTENSION-RESULT-0.1",
+  "study": "DDS-DURABLE-WORKFLOW-RETRY-20261006",
+  "status": "PASS_REGISTERED_LOCAL_EXPECTATIONS",
+  "case_count": 9,
+  "assertions": 20,
+  "outcome_counts": {
+    "I": 3,
+    "M": 1,
+    "Ø": 4,
+    "P": 1
+  },
+  "results": [
+    {
+      "id": "WF-01",
+      "narrative": "The local worker is ready and one admitted effect is durably recorded as completed.",
+      "outcome": "I",
+      "actual_effects": 1,
+      "persisted_state": [
+        "DONE",
+        1,
+        1
+      ],
+      "current_resource_grant": [
+        1,
+        1
+      ],
+      "controller": {
+        "attempts": 1,
+        "tick": 1,
+        "reported_status": "DONE"
+      },
+      "operational_sql_statements": 4,
+      "trace": [
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "select allowed,epoch from grant_state"
+        },
+        {
+          "sql": "insert or ignore into effects values(?)"
+        },
+        {
+          "sql": "update workflow set status=?,tick=?"
+        }
+      ],
+      "same_contract_bounded_M_witness": null,
+      "EA_Type1_operational_signature_established_in_this_case": false,
+      "diagnostic": null,
+      "logical_ticks_are_not_real_service_times": true
+    },
+    {
+      "id": "WF-02",
+      "narrative": "Two observable transient failures precede a successful third attempt within the selected useful window.",
+      "outcome": "I",
+      "actual_effects": 1,
+      "persisted_state": [
+        "DONE",
+        3,
+        3
+      ],
+      "current_resource_grant": [
+        1,
+        1
+      ],
+      "controller": {
+        "attempts": 3,
+        "tick": 3,
+        "reported_status": "DONE"
+      },
+      "operational_sql_statements": 6,
+      "trace": [
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "select allowed,epoch from grant_state"
+        },
+        {
+          "sql": "insert or ignore into effects values(?)"
+        },
+        {
+          "sql": "update workflow set status=?,tick=?"
+        }
+      ],
+      "same_contract_bounded_M_witness": null,
+      "EA_Type1_operational_signature_established_in_this_case": false,
+      "diagnostic": null,
+      "logical_ticks_are_not_real_service_times": true
+    },
+    {
+      "id": "WF-03",
+      "narrative": "The service remains unavailable. After two attempts the owner admits a recorded deferment that closes the minimum route in time.",
+      "outcome": "M",
+      "actual_effects": 0,
+      "persisted_state": [
+        "DEFERRED",
+        3,
+        2
+      ],
+      "current_resource_grant": [
+        1,
+        1
+      ],
+      "controller": {
+        "attempts": 2,
+        "tick": 3,
+        "reported_status": "DEFERRED"
+      },
+      "operational_sql_statements": 3,
+      "trace": [
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "update workflow set status=?,tick=?"
+        }
+      ],
+      "same_contract_bounded_M_witness": null,
+      "EA_Type1_operational_signature_established_in_this_case": false,
+      "diagnostic": null,
+      "logical_ticks_are_not_real_service_times": true
+    },
+    {
+      "id": "WF-04",
+      "narrative": "Under the same permanent outage/admitted deferment, the selected retry-to-horizon policy consumes the useful window and never closes M.",
+      "outcome": "Ø",
+      "actual_effects": 0,
+      "persisted_state": [
+        "RUNNING",
+        5,
+        5
+      ],
+      "current_resource_grant": [
+        1,
+        1
+      ],
+      "controller": {
+        "attempts": 5,
+        "tick": 5,
+        "reported_status": "RUNNING"
+      },
+      "operational_sql_statements": 5,
+      "trace": [
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        }
+      ],
+      "same_contract_bounded_M_witness": {
+        "outcome": "M",
+        "actual_effects": 0,
+        "persisted_state": [
+          "DEFERRED",
+          3,
+          2
+        ],
+        "current_resource_grant": [
+          1,
+          1
+        ],
+        "instrumented_execute_calls": 3,
+        "trace": [
+          {
+            "sql": "update workflow set tick=?,attempts=?"
+          },
+          {
+            "sql": "update workflow set tick=?,attempts=?"
+          },
+          {
+            "sql": "update workflow set status=?,tick=?"
+          }
+        ]
+      },
+      "EA_Type1_operational_signature_established_in_this_case": true,
+      "diagnostic": null,
+      "logical_ticks_are_not_real_service_times": true
+    },
+    {
+      "id": "WF-05",
+      "narrative": "The resource effect commits but the worker loses its acknowledgement. Restart/retry uses the same resource key and produces one effect.",
+      "outcome": "I",
+      "actual_effects": 1,
+      "persisted_state": [
+        "DONE",
+        2,
+        2
+      ],
+      "current_resource_grant": [
+        1,
+        1
+      ],
+      "controller": {
+        "attempts": 2,
+        "tick": 2,
+        "reported_status": "DONE"
+      },
+      "operational_sql_statements": 7,
+      "trace": [
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "select allowed,epoch from grant_state"
+        },
+        {
+          "sql": "insert or ignore into effects values(?)"
+        },
+        {
+          "event": "EFFECT_COMMITTED_ACK_LOST",
+          "tick": 1
+        },
+        {
+          "event": "CONNECTION_REOPENED"
+        },
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "select allowed,epoch from grant_state"
+        },
+        {
+          "sql": "insert or ignore into effects values(?)"
+        },
+        {
+          "sql": "update workflow set status=?,tick=?"
+        }
+      ],
+      "same_contract_bounded_M_witness": null,
+      "EA_Type1_operational_signature_established_in_this_case": false,
+      "diagnostic": null,
+      "logical_ticks_are_not_real_service_times": true
+    },
+    {
+      "id": "WF-06",
+      "narrative": "The same lost acknowledgement occurs against a non-idempotent resource. Retrying creates two actual local effects.",
+      "outcome": "P",
+      "actual_effects": 2,
+      "persisted_state": [
+        "DONE",
+        2,
+        2
+      ],
+      "current_resource_grant": [
+        1,
+        1
+      ],
+      "controller": {
+        "attempts": 2,
+        "tick": 2,
+        "reported_status": "DONE"
+      },
+      "operational_sql_statements": 7,
+      "trace": [
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "select allowed,epoch from grant_state"
+        },
+        {
+          "sql": "insert into effects values(?)"
+        },
+        {
+          "event": "EFFECT_COMMITTED_ACK_LOST",
+          "tick": 1
+        },
+        {
+          "event": "CONNECTION_REOPENED"
+        },
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "select allowed,epoch from grant_state"
+        },
+        {
+          "sql": "insert into effects values(?)"
+        },
+        {
+          "sql": "update workflow set status=?,tick=?"
+        }
+      ],
+      "same_contract_bounded_M_witness": null,
+      "EA_Type1_operational_signature_established_in_this_case": false,
+      "diagnostic": "outside the resource-idempotency condition; not a Temporal platform defect",
+      "logical_ticks_are_not_real_service_times": true
+    },
+    {
+      "id": "WF-07",
+      "narrative": "A stale worker's generation1 meets resource generation2 after cancellation/replacement.",
+      "outcome": "Ø",
+      "actual_effects": 0,
+      "persisted_state": [
+        "RUNNING",
+        1,
+        1
+      ],
+      "current_resource_grant": [
+        1,
+        2
+      ],
+      "controller": {
+        "attempts": 1,
+        "tick": 1,
+        "reported_status": "RUNNING"
+      },
+      "operational_sql_statements": 2,
+      "trace": [
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "select allowed,epoch from grant_state"
+        }
+      ],
+      "same_contract_bounded_M_witness": null,
+      "EA_Type1_operational_signature_established_in_this_case": false,
+      "diagnostic": null,
+      "logical_ticks_are_not_real_service_times": true
+    },
+    {
+      "id": "WF-08",
+      "narrative": "Declared service latency10 exceeds the useful logical deadline5 and no fallback is admitted.",
+      "outcome": "Ø",
+      "actual_effects": 0,
+      "persisted_state": [
+        "RUNNING",
+        0,
+        0
+      ],
+      "current_resource_grant": [
+        1,
+        1
+      ],
+      "controller": {
+        "attempts": 0,
+        "tick": 0,
+        "reported_status": "RUNNING"
+      },
+      "operational_sql_statements": 0,
+      "trace": [],
+      "same_contract_bounded_M_witness": null,
+      "EA_Type1_operational_signature_established_in_this_case": false,
+      "diagnostic": null,
+      "logical_ticks_are_not_real_service_times": true
+    },
+    {
+      "id": "WF-09",
+      "narrative": "An initially admitted grant is revoked before resource effect. The current resource check must refuse execution.",
+      "outcome": "Ø",
+      "actual_effects": 0,
+      "persisted_state": [
+        "RUNNING",
+        1,
+        1
+      ],
+      "current_resource_grant": [
+        0,
+        1
+      ],
+      "controller": {
+        "attempts": 1,
+        "tick": 1,
+        "reported_status": "RUNNING"
+      },
+      "operational_sql_statements": 3,
+      "trace": [
+        {
+          "sql": "update workflow set tick=?,attempts=?"
+        },
+        {
+          "sql": "update grant_state set allowed=0"
+        },
+        {
+          "sql": "select allowed,epoch from grant_state"
+        }
+      ],
+      "same_contract_bounded_M_witness": null,
+      "EA_Type1_operational_signature_established_in_this_case": false,
+      "diagnostic": null,
+      "logical_ticks_are_not_real_service_times": true
+    }
+  ],
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "card_sha256": "70d94e994bd2de9c1e291328b2126affd27eabbc52e929e7bd71dbaffb1993f9",
+  "freeze_sha256": "6b27c334aa6f6efae59b0d2725ec8358399fd3f6c6071930eccf5d917a5618e5",
+  "population_estimate": false,
+  "native_Temporal_or_real_human": false,
+  "independent_validation": false
+}

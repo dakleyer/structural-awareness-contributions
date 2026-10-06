@@ -1,0 +1,286 @@
+{
+  "schema": "DDS-EXTENSION-RESULT-0.1",
+  "study": "DDS-RAG-RETRIEVAL-20261006",
+  "status": "PASS_REGISTERED_LOCAL_EXPECTATIONS",
+  "evidence_mode": "actual SQLite FTS5 with own deterministic qualification/extraction model",
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "assertions": 16,
+  "case_count": 8,
+  "outcome_counts": {
+    "I": 2,
+    "M": 3,
+    "Ø": 2,
+    "P": 1
+  },
+  "results": [
+    {
+      "id": "RAG-01",
+      "narrative": "A procurement analyst asks for the current purchasing limit of tenant-a. One admitted current policy supplies the required fact.",
+      "outcome": "I",
+      "response": {
+        "kind": "ANSWER",
+        "disclosed": [
+          {
+            "tenant": "tenant-a",
+            "revision": 1,
+            "expires": 20
+          }
+        ],
+        "value": 1000
+      },
+      "first_hit_misuse_outcome": "I",
+      "operational_sql_statements_including_diagnostic": 3,
+      "fixture_setup_sql_statements": 2,
+      "structured_rows_parsed": 1,
+      "trace": [
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ? and tenant=? and cast(expires as integer)>?"
+        },
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ?"
+        },
+        {
+          "operation": "select",
+          "sql": "select revision,expires,tenant from docs where rowid=?"
+        }
+      ],
+      "diagnostic": null,
+      "source_truth_available_in_actor_API": false,
+      "OS_or_malicious_code_isolation": false,
+      "generation_model_executed": false
+    },
+    {
+      "id": "RAG-02",
+      "narrative": "The policy is absent from the searchable corpus. The owner explicitly admits a recorded manual-review deferment.",
+      "outcome": "M",
+      "response": {
+        "kind": "DEFER",
+        "disclosed": [],
+        "value": null
+      },
+      "first_hit_misuse_outcome": "Ø",
+      "operational_sql_statements_including_diagnostic": 2,
+      "fixture_setup_sql_statements": 1,
+      "structured_rows_parsed": 0,
+      "trace": [
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ? and tenant=? and cast(expires as integer)>?"
+        },
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ?"
+        }
+      ],
+      "diagnostic": null,
+      "source_truth_available_in_actor_API": false,
+      "OS_or_malicious_code_isolation": false,
+      "generation_model_executed": false
+    },
+    {
+      "id": "RAG-03",
+      "narrative": "The only matching policy expired before this request. The owner has not admitted a fallback.",
+      "outcome": "Ø",
+      "response": {
+        "kind": "UNRESOLVED",
+        "disclosed": [],
+        "value": null
+      },
+      "first_hit_misuse_outcome": "P",
+      "operational_sql_statements_including_diagnostic": 2,
+      "fixture_setup_sql_statements": 2,
+      "structured_rows_parsed": 0,
+      "trace": [
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ? and tenant=? and cast(expires as integer)>?"
+        },
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ?"
+        }
+      ],
+      "diagnostic": null,
+      "source_truth_available_in_actor_API": false,
+      "OS_or_malicious_code_isolation": false,
+      "generation_model_executed": false
+    },
+    {
+      "id": "RAG-04",
+      "narrative": "Only another tenant's matching policy exists. A correct lookup must not disclose that row to tenant-a.",
+      "outcome": "Ø",
+      "response": {
+        "kind": "UNRESOLVED",
+        "disclosed": [],
+        "value": null
+      },
+      "first_hit_misuse_outcome": "P",
+      "operational_sql_statements_including_diagnostic": 2,
+      "fixture_setup_sql_statements": 2,
+      "structured_rows_parsed": 0,
+      "trace": [
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ? and tenant=? and cast(expires as integer)>?"
+        },
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ?"
+        }
+      ],
+      "diagnostic": null,
+      "source_truth_available_in_actor_API": false,
+      "OS_or_malicious_code_isolation": false,
+      "generation_model_executed": false
+    },
+    {
+      "id": "RAG-05",
+      "narrative": "Two admitted current policies disagree. A recorded deferment is legitimate; selecting the first conflicting fact is not sufficient.",
+      "outcome": "M",
+      "response": {
+        "kind": "DEFER",
+        "disclosed": [],
+        "value": null
+      },
+      "first_hit_misuse_outcome": "P",
+      "operational_sql_statements_including_diagnostic": 2,
+      "fixture_setup_sql_statements": 3,
+      "structured_rows_parsed": 2,
+      "trace": [
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ? and tenant=? and cast(expires as integer)>?"
+        },
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ?"
+        }
+      ],
+      "diagnostic": null,
+      "source_truth_available_in_actor_API": false,
+      "OS_or_malicious_code_isolation": false,
+      "generation_model_executed": false
+    },
+    {
+      "id": "RAG-06",
+      "narrative": "A trusted current producer publishes a false policy value. Metadata authenticity/currentness do not establish the fact's truth.",
+      "outcome": "P",
+      "response": {
+        "kind": "ANSWER",
+        "disclosed": [
+          {
+            "tenant": "tenant-a",
+            "revision": 1,
+            "expires": 20
+          }
+        ],
+        "value": 2000
+      },
+      "first_hit_misuse_outcome": "P",
+      "operational_sql_statements_including_diagnostic": 3,
+      "fixture_setup_sql_statements": 2,
+      "structured_rows_parsed": 1,
+      "trace": [
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ? and tenant=? and cast(expires as integer)>?"
+        },
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ?"
+        },
+        {
+          "operation": "select",
+          "sql": "select revision,expires,tenant from docs where rowid=?"
+        }
+      ],
+      "diagnostic": "outside stipulated source-truth condition",
+      "source_truth_available_in_actor_API": false,
+      "OS_or_malicious_code_isolation": false,
+      "generation_model_executed": false
+    },
+    {
+      "id": "RAG-07",
+      "narrative": "The policy changes after retrieval and before use. The receiver rechecks the admitted version and records a permitted deferment.",
+      "outcome": "M",
+      "response": {
+        "kind": "DEFER",
+        "disclosed": [],
+        "value": null
+      },
+      "first_hit_misuse_outcome": "P",
+      "operational_sql_statements_including_diagnostic": 4,
+      "fixture_setup_sql_statements": 2,
+      "structured_rows_parsed": 1,
+      "trace": [
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ? and tenant=? and cast(expires as integer)>?"
+        },
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ?"
+        },
+        {
+          "operation": "update",
+          "sql": "update docs set revision=2,value=2000 where tenant=?"
+        },
+        {
+          "operation": "select",
+          "sql": "select revision,expires,tenant from docs where rowid=?"
+        }
+      ],
+      "diagnostic": null,
+      "source_truth_available_in_actor_API": false,
+      "OS_or_malicious_code_isolation": false,
+      "generation_model_executed": false
+    },
+    {
+      "id": "RAG-08",
+      "narrative": "A document includes hostile instruction-like text plus the correct structured fact. This extractor treats it as data; no generative model is tested.",
+      "outcome": "I",
+      "response": {
+        "kind": "ANSWER",
+        "disclosed": [
+          {
+            "tenant": "tenant-a",
+            "revision": 1,
+            "expires": 20
+          }
+        ],
+        "value": 1000
+      },
+      "first_hit_misuse_outcome": "I",
+      "operational_sql_statements_including_diagnostic": 3,
+      "fixture_setup_sql_statements": 2,
+      "structured_rows_parsed": 1,
+      "trace": [
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ? and tenant=? and cast(expires as integer)>?"
+        },
+        {
+          "operation": "select",
+          "sql": "select rowid,body,tenant,revision,expires,value from docs where docs match ?"
+        },
+        {
+          "operation": "select",
+          "sql": "select revision,expires,tenant from docs where rowid=?"
+        }
+      ],
+      "diagnostic": null,
+      "source_truth_available_in_actor_API": false,
+      "OS_or_malicious_code_isolation": false,
+      "generation_model_executed": false
+    }
+  ],
+  "card_sha256": "d6b2972ae1ea2e7e4e9940eefd0ec3fe71c907f5891745af00cbc99bd282877a",
+  "freeze_sha256": "9697e0851a258f2d2d29aab66874306b667abb3b0d146760c6dc7e4fd932d82b",
+  "population_estimate": false,
+  "native_RAG_or_generation_execution": false,
+  "independent_validation": false,
+  "strong_comparator_or_superiority_established": false
+}

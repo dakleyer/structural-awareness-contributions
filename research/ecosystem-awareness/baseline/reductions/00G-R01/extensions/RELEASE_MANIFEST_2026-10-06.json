@@ -1,0 +1,455 @@
+{
+  "version": "0.2",
+  "date": "2026-10-06",
+  "scope": "five serially prepared scoped extensions plus preserved extension documentation home",
+  "original_source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "current_canonical_review_commit": "09b8fe09082f15612114ebe0fd3be8418be7a061",
+  "files": [
+    {
+      "path": "CATALOGUE_2026-10-06.json",
+      "bytes": 8502,
+      "sha256": "c9f88c07128bab9ea27166f8f0b6d92eda1413dbedf479e63cfcbf73b8518643"
+    },
+    {
+      "path": "COMMON_TECHNOLOGY_SOURCES_2026-10-06.json",
+      "bytes": 5062,
+      "sha256": "e2f91e20b5a1cc1fd765f1f7038d10a5147390841fa5ead35a8176bec6332dda"
+    },
+    {
+      "path": "CURRENT_DDS_COMPATIBILITY_2026-10-06.json",
+      "bytes": 2877,
+      "sha256": "3227d71691e52f9212d4a2c549d37de09fc92d171f4fb0e366e0d87fe3952f30"
+    },
+    {
+      "path": "DELIVERY_SCOPE_2026-10-06.json",
+      "bytes": 1356,
+      "sha256": "4fb2220f678d88a74ba9140e216df392c48b6c012f2b4c6322f530290dee8d9d"
+    },
+    {
+      "path": "DRIVE_PARITY_VERIFICATION_2026-10-06.json",
+      "bytes": 3283,
+      "sha256": "bde2dfc31cd9555b570ce263e10797919b61c4b19aa265f97eadeb6c07489057"
+    },
+    {
+      "path": "durable-workflows-retries/CURRENT_DDS_COVERAGE_2026-10-06.json",
+      "bytes": 2157,
+      "sha256": "526e6b5b407f42cf61c84a64baccfcc5850f6a33da778d60c18ab94e26cf274d"
+    },
+    {
+      "path": "durable-workflows-retries/DDS_STUDY.md",
+      "bytes": 8315,
+      "sha256": "667fe242c8bcbbf9721babb8acf6409d2a88f9e0346f15789d93a743b438dce4"
+    },
+    {
+      "path": "durable-workflows-retries/EXTENSION.md",
+      "bytes": 6489,
+      "sha256": "a20c71a8cbd00f2c8706ba2b9705d96fd0bd030848b262353549002699d477c6"
+    },
+    {
+      "path": "durable-workflows-retries/FREEZE.json",
+      "bytes": 590,
+      "sha256": "6b27c334aa6f6efae59b0d2725ec8358399fd3f6c6071930eccf5d917a5618e5"
+    },
+    {
+      "path": "durable-workflows-retries/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md.txt",
+      "bytes": 6709,
+      "sha256": "35c643f180f24635c556d00aef38556585ed98828b7e5be643bb4ec0052da1cb",
+      "source_path": "durable-workflows-retries/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "durable-workflows-retries/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md.txt",
+      "bytes": 6489,
+      "sha256": "d86d7e3c7332ec846362ccd42e80d0b51f35249116a5abddb4cfce0bdde70104",
+      "source_path": "durable-workflows-retries/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "durable-workflows-retries/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md.txt",
+      "bytes": 1380,
+      "sha256": "f06f32121cbcac748cc64ed4b566598f7d66317acb13a69e9ea29479c6db175e",
+      "source_path": "durable-workflows-retries/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "durable-workflows-retries/README_VNext.md",
+      "bytes": 1745,
+      "sha256": "38a721099b33dd49aa6abf38a3f6f204338bc3478db57fa12b6ebc033d5f97c9"
+    },
+    {
+      "path": "durable-workflows-retries/RUN_CARD.json",
+      "bytes": 6412,
+      "sha256": "70d94e994bd2de9c1e291328b2126affd27eabbc52e929e7bd71dbaffb1993f9"
+    },
+    {
+      "path": "durable-workflows-retries/runs/2026-10-06-01/RESULTS.json",
+      "bytes": 10919,
+      "sha256": "af262852ec389be0cb07e016ecba211faf5031bc5d9545c4c015fd43371aadb9"
+    },
+    {
+      "path": "durable-workflows-retries/study.py",
+      "bytes": 6195,
+      "sha256": "16d62b6cf4720400e50230e3868dca08f3db6600b34f0b8e10e2624aaea3339d"
+    },
+    {
+      "path": "LOCAL_VERIFICATION_2026-10-06.json",
+      "bytes": 1079,
+      "sha256": "c182af55ece01f333207b5152b3c7aace6d90275adaa2f2a4a8736557b28e4ac"
+    },
+    {
+      "path": "mcp-tool-calling/CURRENT_DDS_COVERAGE_2026-10-06.json",
+      "bytes": 2156,
+      "sha256": "8f69a2fbb9b603f3ac553a6bfb0f7242cedddc0707fb63d4aad130f1142b80ae"
+    },
+    {
+      "path": "mcp-tool-calling/DDS_STUDY.md",
+      "bytes": 7564,
+      "sha256": "03efbeb0e39ab2e309bbb5bcff01f5c0d1df46383ddf11ae5d08acf0560f9bd5"
+    },
+    {
+      "path": "mcp-tool-calling/EXTENSION.md",
+      "bytes": 6134,
+      "sha256": "3e6f22a74502557c37caf1c42282cb94a0024dbde6b35da7b727b567003bd05e"
+    },
+    {
+      "path": "mcp-tool-calling/FREEZE.json",
+      "bytes": 559,
+      "sha256": "89bfe77f37104669ac65b458937befb99bd7b62268e3c0adde7e9a574cd78c7d"
+    },
+    {
+      "path": "mcp-tool-calling/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md.txt",
+      "bytes": 5958,
+      "sha256": "770a5a5ccdd79329c0d57c2114b47c6ffd9bd8deaefb3f114e6417de4fd98e34",
+      "source_path": "mcp-tool-calling/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "mcp-tool-calling/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md.txt",
+      "bytes": 6134,
+      "sha256": "23123fd5bd735077a9ab7fda940c419912bba14d8206e2610330fa79bbdbf158",
+      "source_path": "mcp-tool-calling/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "mcp-tool-calling/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md.txt",
+      "bytes": 1357,
+      "sha256": "6d43514d719f0cc5e22191877ad6997616fc19e0ba7e5fef5e7fbef32c3b99ed",
+      "source_path": "mcp-tool-calling/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "mcp-tool-calling/README_VNext.md",
+      "bytes": 1722,
+      "sha256": "16cb1371ce94da779f85bd06396f8149aeee1e3dc4920d7bad7f6d9f8a1d150b"
+    },
+    {
+      "path": "mcp-tool-calling/RUN_CARD.json",
+      "bytes": 5975,
+      "sha256": "384d69162b41bcb39d81e6e0b8612a6af6ec59bdf91d07c6225a950a98788423"
+    },
+    {
+      "path": "mcp-tool-calling/runs/2026-10-06-01/RESULTS.json",
+      "bytes": 8499,
+      "sha256": "be6fd211a3a2a20b6ac64bb5838374ba7456d5322ade186c6a982a90b07299fe"
+    },
+    {
+      "path": "mcp-tool-calling/study.py",
+      "bytes": 6245,
+      "sha256": "2ef9b8b383eed99ea988ec13bdef01feb9825743999fe61ed4219b846d5334dc"
+    },
+    {
+      "path": "oauth-oidc/CURRENT_DDS_COVERAGE_2026-10-06.json",
+      "bytes": 2157,
+      "sha256": "216f89b87f7ecd762e09d044002a22833043df3e2e16d0346af5eb2d7efa5c70"
+    },
+    {
+      "path": "oauth-oidc/DDS_STUDY.md",
+      "bytes": 7993,
+      "sha256": "d7d36901dc1a26b4b98785c2c1a9b667321857eecdb9150b829f0248d430e8d2"
+    },
+    {
+      "path": "oauth-oidc/EXTENSION.md",
+      "bytes": 6841,
+      "sha256": "e52fde546dce495659ba0d17c4fa28965bb6d06d6ca2059c0aedc05313a1004c"
+    },
+    {
+      "path": "oauth-oidc/FREEZE.json",
+      "bytes": 575,
+      "sha256": "020eb74fa78e62740e68f7b2f7fc9db601a976ff95ed806518bf5fe722ff91eb"
+    },
+    {
+      "path": "oauth-oidc/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md.txt",
+      "bytes": 6387,
+      "sha256": "cdfd3e1ff186f12bde0c46caff11b70564269debd8f7e9b97b723fba55e93bb0",
+      "source_path": "oauth-oidc/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "oauth-oidc/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md.txt",
+      "bytes": 6841,
+      "sha256": "c4d1f9a39fc5a8fa8f6ebf27aabb092e22bdc09c6faef1a1b7c032048e98f10e",
+      "source_path": "oauth-oidc/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "oauth-oidc/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md.txt",
+      "bytes": 1321,
+      "sha256": "5e156be3cc305d9f9c6801be36c81bbfe7e5cf4c68a5615ef706347b93e16db4",
+      "source_path": "oauth-oidc/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "oauth-oidc/README_VNext.md",
+      "bytes": 1686,
+      "sha256": "f3a848e18171b77436a2fca270661185c750cd5dcd676ac0ba02ff04103eec29"
+    },
+    {
+      "path": "oauth-oidc/RUN_CARD.json",
+      "bytes": 6671,
+      "sha256": "903f7e03defb7487889768ab97dbfac2641e10a71271a939335fa0707ed379b4"
+    },
+    {
+      "path": "oauth-oidc/runs/2026-10-06-01/RESULTS.json",
+      "bytes": 7494,
+      "sha256": "4812d7c14d6b08a0482534bf448c6604516890d140ba01edeea84f7fef6e3fcd"
+    },
+    {
+      "path": "oauth-oidc/study.py",
+      "bytes": 7200,
+      "sha256": "950c8a9a00dd8eecf4b4becd8bc26989ce230d43d31df408e0444b038cee6cea"
+    },
+    {
+      "path": "old/2026-10-06_catalogue0.1_before_current_DDS_crosswalk/CATALOGUE_2026-10-06.json",
+      "bytes": 7530,
+      "sha256": "e8e4f5438ec33e43504e09c6a5e26c6ebf0a53aaf3f212947a34f1b5bfbefbdd"
+    },
+    {
+      "path": "old/2026-10-06_catalogue0.1_before_current_DDS_crosswalk/DRIVE_PARITY_VERIFICATION_2026-10-06.json",
+      "bytes": 1831,
+      "sha256": "b2339ff6ebcd2c6d9f01340e43fa8d6eb85112bc7cd38a98825a27e6426ddf92"
+    },
+    {
+      "path": "old/2026-10-06_catalogue0.1_before_current_DDS_crosswalk/README.md.txt",
+      "bytes": 7557,
+      "sha256": "3d9f8aa847bd098b7dcb92f9d72aae0e09317993fdce7e9ff1b0d250f82fb3c1",
+      "source_path": "old/2026-10-06_catalogue0.1_before_current_DDS_crosswalk/README.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "old/2026-10-06_catalogue0.1_before_current_DDS_crosswalk/README_VNext.md.txt",
+      "bytes": 2223,
+      "sha256": "e384119e0d19ca1743b38674bca47016ab4bf8e2103726b30c7ea832be8f06cc",
+      "source_path": "old/2026-10-06_catalogue0.1_before_current_DDS_crosswalk/README_VNext.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "partial-experiments/README.md",
+      "bytes": 537,
+      "sha256": "12f5784017d8075dbf5ee243c5afbb3ef6f849633235cd262967cd201006dedb"
+    },
+    {
+      "path": "partial-experiments/received/2026-10-04/README.md",
+      "bytes": 557,
+      "sha256": "d70381e7eafbf384fcb331f5d819eb994653642581fafce0cfcf12b75a7af344"
+    },
+    {
+      "path": "R01_AUDIT_CONTINUITY_AND_REPAIRS.md",
+      "bytes": 543,
+      "sha256": "e4ba545aa46f536ffcf2c811b91743c31f9468ce308f0e149b644373eb92fd35"
+    },
+    {
+      "path": "R01_CONDITIONED_TRILEMMA_THEOREM.md",
+      "bytes": 543,
+      "sha256": "32a96699ba915d50df20463dc9e02c992eee83cd3129ae7e160e6cebcc9c8779"
+    },
+    {
+      "path": "rag/CURRENT_DDS_COVERAGE_2026-10-06.json",
+      "bytes": 2147,
+      "sha256": "6208ea2547809a8323d65b1a12402e34eb5c1c7a82dc6921569622930fb24ca2"
+    },
+    {
+      "path": "rag/DDS_STUDY.md",
+      "bytes": 9027,
+      "sha256": "0ef57d7c9e5448bd69ebd4d973f7ba7cae3aa249b280b6c0d7ba374195cbaea4"
+    },
+    {
+      "path": "rag/EXTENSION.md",
+      "bytes": 7088,
+      "sha256": "2d43f99d3087a1dc647c99568a332b90bdbbc355f5031eb10331b33d46a1ce6f"
+    },
+    {
+      "path": "rag/FREEZE.json",
+      "bytes": 697,
+      "sha256": "9697e0851a258f2d2d29aab66874306b667abb3b0d146760c6dc7e4fd932d82b"
+    },
+    {
+      "path": "rag/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md.txt",
+      "bytes": 7421,
+      "sha256": "c21bdd3966f22303d53363ee842d6660e41c35445cc7595a1628c3e570a61cec",
+      "source_path": "rag/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "rag/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md.txt",
+      "bytes": 7088,
+      "sha256": "304a6eb0cda5d4fdf7571a90605ab970c3ecce896afae6fd3f3e3c1ce84608a7",
+      "source_path": "rag/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "rag/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md.txt",
+      "bytes": 1600,
+      "sha256": "5aff7cc5cb3701ed77219665074c1b637ee442835e308dac71ac46033a6d460c",
+      "source_path": "rag/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "rag/old/2026-10-06_preexecution_serialization/FREEZE.json",
+      "bytes": 486,
+      "sha256": "267106ac23e1b05ac07c41a5950908896275ffb2b9be57006355390c7f1a86bc"
+    },
+    {
+      "path": "rag/old/2026-10-06_preexecution_serialization/PREEXECUTION_FAILURE.json",
+      "bytes": 206,
+      "sha256": "cd6462a1cb058008ca5b7c67532a88d5833234316604b6a88c51ac53ceb59796"
+    },
+    {
+      "path": "rag/old/2026-10-06_preexecution_serialization/RUN_CARD.json",
+      "bytes": 6578,
+      "sha256": "7d2538d2aeef192fc493f16029f374e78df2413db7da02d6c1c36930ea169822"
+    },
+    {
+      "path": "rag/old/2026-10-06_preexecution_serialization/study.py",
+      "bytes": 6206,
+      "sha256": "4fca541daeb336d419f2e1905ab308672ce0fdc1668dd10d2d7ea924c921954e"
+    },
+    {
+      "path": "rag/README_VNext.md",
+      "bytes": 1965,
+      "sha256": "fa88f91dccdeae9d4f4d0645a5af1d2fdb06a7904622b7040f948ce8bdd5afcc"
+    },
+    {
+      "path": "rag/RUN_CARD.json",
+      "bytes": 7082,
+      "sha256": "d6b2972ae1ea2e7e4e9940eefd0ec3fe71c907f5891745af00cbc99bd282877a"
+    },
+    {
+      "path": "rag/runs/2026-10-06-01/frozen/FREEZE.json",
+      "bytes": 830,
+      "sha256": "5b734e9fdae8e6975c3fbdd69121798d02307293355d3868aea9ebcd02d27550"
+    },
+    {
+      "path": "rag/runs/2026-10-06-01/frozen/RUN_CARD.json",
+      "bytes": 6578,
+      "sha256": "7d2538d2aeef192fc493f16029f374e78df2413db7da02d6c1c36930ea169822"
+    },
+    {
+      "path": "rag/runs/2026-10-06-01/frozen/study.py",
+      "bytes": 6206,
+      "sha256": "4fca541daeb336d419f2e1905ab308672ce0fdc1668dd10d2d7ea924c921954e"
+    },
+    {
+      "path": "rag/runs/2026-10-06-01/RESULTS.json",
+      "bytes": 9442,
+      "sha256": "095c8c293b09fdde560c168af973e6eb7c4410205f4cc049a40ed27518d04700"
+    },
+    {
+      "path": "rag/runs/2026-10-06-02/RESULTS.json",
+      "bytes": 9899,
+      "sha256": "de618e8ddd8cfe7c4792a9f57d3a13102c8776a445f223b7947d879d7476e009"
+    },
+    {
+      "path": "rag/study.py",
+      "bytes": 6403,
+      "sha256": "83f5a38bd22f777cae4f322032589986a2c11a35b24d7914421479d360f268d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8179,
+      "sha256": "3482a2cbec4ee1113650a8b5bc58ef459890b5c9d3151e0ec2f3c4985891befe"
+    },
+    {
+      "path": "README_VNext.md",
+      "bytes": 2845,
+      "sha256": "d107c3966364e0bff8817a9d8787cf58d6316fa27aa3a5a1de3d7d65686de03e"
+    },
+    {
+      "path": "SOURCE_CUSTODY_2026-10-06.json",
+      "bytes": 47559,
+      "sha256": "6ad64393e39aad0e253fae62a660e8cbe846786fd6eab491ede5842cd037a74e"
+    },
+    {
+      "path": "sql-transactions-idempotency/CURRENT_DDS_COVERAGE_2026-10-06.json",
+      "bytes": 2160,
+      "sha256": "d27bcb2de926287e6628fb8a184d145470b1770e2d4c7b7cf2d07b8ace158ccb"
+    },
+    {
+      "path": "sql-transactions-idempotency/DDS_STUDY.md",
+      "bytes": 7623,
+      "sha256": "518e6f402fdb542ff7c53a77268b788a7cc579aaf0dee257fcd931a9398b242a"
+    },
+    {
+      "path": "sql-transactions-idempotency/EXTENSION.md",
+      "bytes": 6569,
+      "sha256": "385405b75c1c2de788b6b4d9c9c8b5f2bfb48a8d12a05053cdfdeacae9973cb9"
+    },
+    {
+      "path": "sql-transactions-idempotency/FREEZE.json",
+      "bytes": 587,
+      "sha256": "0b4f6442b9c7f22907fdde7b962036233eea650de0037f434142bb3f8f0c8b4e"
+    },
+    {
+      "path": "sql-transactions-idempotency/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md.txt",
+      "bytes": 6017,
+      "sha256": "c7c359d167e1fd423795595295dfcb418a96d48edb6e95579406fa57941fce24",
+      "source_path": "sql-transactions-idempotency/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/DDS_STUDY.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "sql-transactions-idempotency/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md.txt",
+      "bytes": 6569,
+      "sha256": "4a095a5da7d7eef022ad688e430ec1aa76220bc9193a20ea1d6461dd43baed59",
+      "source_path": "sql-transactions-idempotency/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/EXTENSION.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "sql-transactions-idempotency/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md.txt",
+      "bytes": 1426,
+      "sha256": "ab9615aa45b4534121f3f4d188e62813fbc0b407525d7af1f7076c388e3e3d5a",
+      "source_path": "sql-transactions-idempotency/old/2026-10-06_documentation0.1_before_current_DDS_crosswalk/README_VNext.md",
+      "archive_representation": "unchanged original Markdown bytes as literal .md.txt; original .md preserved locally/Drive"
+    },
+    {
+      "path": "sql-transactions-idempotency/README_VNext.md",
+      "bytes": 1791,
+      "sha256": "fd72b1ae50ecf2514db003b756f3384081c73e07e60ba2955b1589e8ac73015a"
+    },
+    {
+      "path": "sql-transactions-idempotency/RUN_CARD.json",
+      "bytes": 6583,
+      "sha256": "8de8e6075b6debb42c7922b5cdfe728c168bc5f0b3cb2ddf8832e0718cee80cd"
+    },
+    {
+      "path": "sql-transactions-idempotency/runs/2026-10-06-01/RESULTS.json",
+      "bytes": 14056,
+      "sha256": "e69921d45ab4234a876cc0966ed52db5b69b2fb72fca162840ab9c343394659d"
+    },
+    {
+      "path": "sql-transactions-idempotency/study.py",
+      "bytes": 5870,
+      "sha256": "b283451a9fab6397af7861e8b73d487a61942dc929039eace6b20c6426efcfb2"
+    },
+    {
+      "path": "WORKPLAN.md",
+      "bytes": 519,
+      "sha256": "0cd9b2df6f6e14b8852a7d82d160efc61b2ff29f503e058fe674f14d28c7316e"
+    }
+  ],
+  "manifest_self_excluded": true,
+  "binary_sqlite_outputs": "local custody and Drive source bundles; source/run JSON is the GitHub reproducible record",
+  "originals_regraded_or_deleted": false,
+  "native_product_full_acceptance": false,
+  "independent_validation": false,
+  "one_canonical_DDS": true,
+  "literal_archive_rule": "Old documentation Markdown is published as exact-byte .md.txt to preserve authentic history without treating old relative links as live navigation. Original local/Drive archive names/bytes unchanged."
+}

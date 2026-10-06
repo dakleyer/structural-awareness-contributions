@@ -1,0 +1,179 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "study_id": "DDS-HEW-RESEARCH-20261006",
+  "model_control_assertions": 48,
+  "calendar_reference_checks": 42,
+  "full_DDS_or_production_acceptance": false,
+  "controls": [
+    {
+      "id": "DDS-C01",
+      "status": "PASS",
+      "meaning": "Scenario/configuration/threshold/traversal/run namespaces separated",
+      "evidence": [
+        "RUN_CARD.json",
+        "../HEW_DDS_STUDY_2026-10-06.md"
+      ],
+      "scope": "Declared research documents, not universal source glossary"
+    },
+    {
+      "id": "DDS-C02",
+      "status": "PASS",
+      "meaning": "Human narrative and formal selected inputs per scenario",
+      "evidence": [
+        "RUN_CARD.json",
+        "SCENARIO_BATTERY.json"
+      ],
+      "scope": "20 selected descriptions; not exhaustive or representative families"
+    },
+    {
+      "id": "DDS-C03",
+      "status": "PASS",
+      "meaning": "Freeze and prospective amendments retained",
+      "evidence": [
+        "FREEZE.json",
+        "runs/HEW-DDS-MODEL-20261006-01/frozen/FREEZE.json",
+        "runs/HEW-DDS-MODEL-20261006-02/frozen/FREEZE.json"
+      ],
+      "scope": "Each run bounded to its version; no independent evidence from reruns"
+    },
+    {
+      "id": "DDS-C04",
+      "status": "PASS",
+      "meaning": "Two methods and private post-run effect/cost adjudication",
+      "evidence": [
+        "hew_oracle.py",
+        "run_study.py",
+        "runs/HEW-DDS-MODEL-20261006-04/RESULTS.json"
+      ],
+      "scope": "42 calendar checks, same author; API projection, not malicious-code isolation"
+    },
+    {
+      "id": "DDS-C05",
+      "status": "PASS",
+      "meaning": "Functional positive/negative/continuation controls",
+      "evidence": [
+        "runs/HEW-DDS-MODEL-20261006-04/RESULTS.json"
+      ],
+      "scope": "48 instrument assertions; negative/unresolved outcomes not converted to successful missions"
+    },
+    {
+      "id": "DDS-C06",
+      "status": "PASS",
+      "meaning": "Current source authority, purpose, generation, command identity, receipt and deadline consumption",
+      "evidence": [
+        "hew_runtime.py",
+        "RUN_CARD.json"
+      ],
+      "scope": "SQLite model API/local effect boundary; authority/identity source authenticity stipulated"
+    },
+    {
+      "id": "DDS-C07",
+      "status": "PASS",
+      "meaning": "C-R-E retained; bounded BV-R-C and cost limits explicit",
+      "evidence": [
+        "TECHNICAL_REPORT.md",
+        "SCOPING_RECORD.json"
+      ],
+      "scope": "No money, real tariffs, population rates or risk compensation by benefit"
+    },
+    {
+      "id": "DDS-C08",
+      "status": "PASS",
+      "meaning": "Strong conventional controls and potential equivalence credited",
+      "evidence": [
+        "TECHNICAL_REPORT.md",
+        "SOURCE_REGISTER.json"
+      ],
+      "scope": "No native/product superiority claimed; no executed vendor comparator"
+    },
+    {
+      "id": "DDS-C09",
+      "status": "PASS",
+      "meaning": "Predecessor source/result preservation and navigation verified",
+      "evidence": [
+        "RELEASE_MANIFEST.json",
+        "prior-analytical/PROVENANCE.json"
+      ],
+      "scope": "Specific release only; historical manifests unchanged"
+    },
+    {
+      "id": "DDS-C10",
+      "status": "PASS",
+      "meaning": "Six-primary-deliverable mapping recorded",
+      "evidence": [
+        "DELIVERY_MAP.json"
+      ],
+      "scope": "Method structure; full commissioned deliverables not issued"
+    },
+    {
+      "id": "DDS-SOURCE-TRUTH",
+      "status": "FAIL_DIAGNOSTIC",
+      "meaning": "A false appraised sufficient-source claim can cause a wrong effect",
+      "evidence": [
+        "runs/HEW-DDS-MODEL-20261006-04/RESULTS.json"
+      ],
+      "scope": "Deliberate outside-contract diagnostic retained as FAIL_VIOLATION; no native source truth established"
+    },
+    {
+      "id": "DDS-PENDING-NATIVE",
+      "status": "PENDING",
+      "meaning": "SPIRE/SVID, RATS attester/verifier, STS/lock and external actuator conformance",
+      "evidence": [
+        "SOURCE_REGISTER.json",
+        "SCOPING_RECORD.json"
+      ],
+      "scope": "Not inherited from instrument/model checks or owner publication authorization"
+    },
+    {
+      "id": "DDS-PENDING-HUMAN",
+      "status": "PENDING",
+      "meaning": "Actual competence/service-time/error and capacity calibration",
+      "evidence": [
+        "SOURCE_REGISTER.json",
+        "SCOPING_RECORD.json"
+      ],
+      "scope": "Not inherited from instrument/model checks or owner publication authorization"
+    },
+    {
+      "id": "DDS-PENDING-SOURCE",
+      "status": "PENDING",
+      "meaning": "Real source producer/access/coverage/preparation tariff",
+      "evidence": [
+        "SOURCE_REGISTER.json",
+        "SCOPING_RECORD.json"
+      ],
+      "scope": "Not inherited from instrument/model checks or owner publication authorization"
+    },
+    {
+      "id": "DDS-PENDING-PROTECTION",
+      "status": "PENDING",
+      "meaning": "OS/admin trust roots, actual institutional privacy and non-retaliation",
+      "evidence": [
+        "SOURCE_REGISTER.json",
+        "SCOPING_RECORD.json"
+      ],
+      "scope": "Not inherited from instrument/model checks or owner publication authorization"
+    },
+    {
+      "id": "DDS-PENDING-INDEPENDENT",
+      "status": "PENDING",
+      "meaning": "Independent/provider/source-owner review",
+      "evidence": [
+        "SOURCE_REGISTER.json",
+        "SCOPING_RECORD.json"
+      ],
+      "scope": "Not inherited from instrument/model checks or owner publication authorization"
+    },
+    {
+      "id": "DDS-PENDING-ADMISSION",
+      "status": "PENDING",
+      "meaning": "Full C02/UC-4/schema and C11/T03 native campaign admission",
+      "evidence": [
+        "SOURCE_REGISTER.json",
+        "SCOPING_RECORD.json"
+      ],
+      "scope": "Not inherited from instrument/model checks or owner publication authorization"
+    }
+  ]
+}

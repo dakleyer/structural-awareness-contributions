@@ -1,0 +1,42 @@
+{
+  "schema": "DDS-EXTENSION-BATCH-DELIVERY-0.1",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "scope": "five practical scoped research extensions plus preserved documentation home",
+  "commissioned_full_SOW": false,
+  "owner": "IMSV/Tegrity.AI, owner-authorized same-author research",
+  "objects": [
+    {
+      "object": 1,
+      "status": "SPONSOR_NOT_APPLICABLE_SELF_RESEARCH"
+    },
+    {
+      "object": 2,
+      "status": "SCOPED_EXECUTIVE_FINDINGS_IN_EACH_DDS_STUDY",
+      "full_client_page_package": false
+    },
+    {
+      "object": 3,
+      "status": "SCOPED_TECHNICAL_RECORD_AND_EXTENSION_PER_LEAF",
+      "full_client_page_package": false
+    },
+    {
+      "object": 4,
+      "status": "SOURCE_RUN_RESULT_AND_CUSTODY_RECORDS_IN_EXTENSION_HOME",
+      "publication_verified_separately": true
+    },
+    {
+      "object": 5,
+      "status": "DOI_NOT_REQUESTED_OR_ISSUED"
+    },
+    {
+      "object": 6,
+      "status": "NO_NEW_FORUM_SUBMISSION"
+    }
+  ],
+  "cost_rule": "Commercial fee is not technical C; unscored lifecycle/primitives/prices are not free",
+  "method_rule": "one DDS, partial coverage allowed with explicit two-stage/trace/evidence/claim limits",
+  "closure_rule": "Supported bounded finding including insufficient evidence; contractual outputs remain governed by an agreed SOW.",
+  "no_new_service_object_or_fee": true
+}
+

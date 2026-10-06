@@ -1,0 +1,183 @@
+{
+  "schema": "DDS-EXTENSION-CATALOGUE-0.1",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "single_canonical_DDS": "../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "profile_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "home": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions",
+  "selection": "First practical common-component batch, not a measured popularity ranking or exhaustive catalogue. No optional preference reply received; proceeded with the stated five-family scope.",
+  "studies": [
+    {
+      "id": "rag",
+      "name": "RAG retrieval and evidence admission",
+      "case_count": 8,
+      "assertions": 16,
+      "current_run": "2026-10-06-02",
+      "evidence": "actual SQLite FTS5; authored deterministic extraction/admission, generator not executed",
+      "outcomes": {
+        "I": 2,
+        "M": 3,
+        "Ø": 2,
+        "P": 1
+      },
+      "scope_status": "COMPLETE_WITHIN_DECLARED_PARTIAL_RESEARCH_SCOPE",
+      "extension": "rag/EXTENSION.md",
+      "report": "rag/DDS_STUDY.md",
+      "card": "rag/RUN_CARD.json",
+      "freeze": "rag/FREEZE.json",
+      "source": "rag/study.py",
+      "current_result": "rag/runs/2026-10-06-02/RESULTS.json",
+      "owning_review": "rag/README_VNext.md",
+      "drive_mirror": {
+        "id": "16XUxQvWlZuBjZVxJfOLZjJ2uSZkwhBVytffn0v_k3rQ",
+        "url": "https://docs.google.com/document/d/16XUxQvWlZuBjZVxJfOLZjJ2uSZkwhBVytffn0v_k3rQ/edit",
+        "folder_id": "1h0NwckJy7bhKukYH4S0vpztbhSmtlES6"
+      },
+      "population_estimate": false,
+      "independent_validation": false,
+      "full_commissioned_SOW_delivery": false
+    },
+    {
+      "id": "oauth-oidc",
+      "name": "OAuth/OIDC identity and local resource admission",
+      "case_count": 11,
+      "assertions": 22,
+      "current_run": "2026-10-06-01",
+      "evidence": "actual RSA2048/RS256 + local SQLite selected-profile effect; native flow not executed",
+      "outcomes": {
+        "I": 2,
+        "M": 1,
+        "Ø": 8,
+        "P": 0
+      },
+      "scope_status": "COMPLETE_WITHIN_DECLARED_PARTIAL_RESEARCH_SCOPE",
+      "extension": "oauth-oidc/EXTENSION.md",
+      "report": "oauth-oidc/DDS_STUDY.md",
+      "card": "oauth-oidc/RUN_CARD.json",
+      "freeze": "oauth-oidc/FREEZE.json",
+      "source": "oauth-oidc/study.py",
+      "current_result": "oauth-oidc/runs/2026-10-06-01/RESULTS.json",
+      "owning_review": "oauth-oidc/README_VNext.md",
+      "drive_mirror": {
+        "id": "10Wb_hgEdj5IW8lQNQDBIYYDh7rLyfE24et33QSuREhk",
+        "url": "https://docs.google.com/document/d/10Wb_hgEdj5IW8lQNQDBIYYDh7rLyfE24et33QSuREhk/edit",
+        "folder_id": "1xmA1yJnPP2RsmnXDZySNrLtzuLc6mw9D"
+      },
+      "population_estimate": false,
+      "independent_validation": false,
+      "full_commissioned_SOW_delivery": false
+    },
+    {
+      "id": "mcp-tool-calling",
+      "name": "MCP selected tool-call admission",
+      "case_count": 9,
+      "assertions": 18,
+      "current_run": "2026-10-06-01",
+      "outcomes": {
+        "I": 3,
+        "M": 0,
+        "Ø": 6,
+        "P": 0
+      },
+      "evidence": "actual serialized request parser/local SQLite effect; official SDK/transport/full conformance absent",
+      "scope_status": "COMPLETE_WITHIN_DECLARED_PARTIAL_RESEARCH_SCOPE",
+      "extension": "mcp-tool-calling/EXTENSION.md",
+      "report": "mcp-tool-calling/DDS_STUDY.md",
+      "card": "mcp-tool-calling/RUN_CARD.json",
+      "freeze": "mcp-tool-calling/FREEZE.json",
+      "source": "mcp-tool-calling/study.py",
+      "current_result": "mcp-tool-calling/runs/2026-10-06-01/RESULTS.json",
+      "owning_review": "mcp-tool-calling/README_VNext.md",
+      "drive_mirror": {
+        "id": "1dHNa75wkPZFPMjZQj_VqryBUlmQl8hXdIXG-PlcsFFE",
+        "url": "https://docs.google.com/document/d/1dHNa75wkPZFPMjZQj_VqryBUlmQl8hXdIXG-PlcsFFE/edit",
+        "folder_id": "1pCuK0QUzuLKPt8gCAttfwtAgJIZX-2eS"
+      },
+      "population_estimate": false,
+      "independent_validation": false,
+      "full_commissioned_SOW_delivery": false
+    },
+    {
+      "id": "sql-transactions-idempotency",
+      "name": "SQL transactions and resource idempotency",
+      "case_count": 9,
+      "assertions": 18,
+      "current_run": "2026-10-06-01",
+      "outcomes": {
+        "I": 4,
+        "M": 0,
+        "Ø": 4,
+        "P": 1
+      },
+      "evidence": "actual SQLite transactions/two connections/second local file; distributed products not executed",
+      "scope_status": "COMPLETE_WITHIN_DECLARED_PARTIAL_RESEARCH_SCOPE",
+      "extension": "sql-transactions-idempotency/EXTENSION.md",
+      "report": "sql-transactions-idempotency/DDS_STUDY.md",
+      "card": "sql-transactions-idempotency/RUN_CARD.json",
+      "freeze": "sql-transactions-idempotency/FREEZE.json",
+      "source": "sql-transactions-idempotency/study.py",
+      "current_result": "sql-transactions-idempotency/runs/2026-10-06-01/RESULTS.json",
+      "owning_review": "sql-transactions-idempotency/README_VNext.md",
+      "drive_mirror": {
+        "id": "1f8zPoJ8AcXZHhsS84Mb2KXiOxLmufEna9RhDs43r1AU",
+        "url": "https://docs.google.com/document/d/1f8zPoJ8AcXZHhsS84Mb2KXiOxLmufEna9RhDs43r1AU/edit",
+        "folder_id": "1lYwy4oQmQph37zfnd29XFWrxpJ-GgaVJ"
+      },
+      "population_estimate": false,
+      "independent_validation": false,
+      "full_commissioned_SOW_delivery": false
+    },
+    {
+      "id": "durable-workflows-retries",
+      "name": "Durable workflow/retry and useful closure",
+      "case_count": 9,
+      "assertions": 20,
+      "current_run": "2026-10-06-01",
+      "outcomes": {
+        "I": 3,
+        "M": 1,
+        "Ø": 4,
+        "P": 1
+      },
+      "evidence": "actual SQLite persisted model/restart, same-contract M witness; Temporal native not executed",
+      "scope_status": "COMPLETE_WITHIN_DECLARED_PARTIAL_RESEARCH_SCOPE",
+      "extension": "durable-workflows-retries/EXTENSION.md",
+      "report": "durable-workflows-retries/DDS_STUDY.md",
+      "card": "durable-workflows-retries/RUN_CARD.json",
+      "freeze": "durable-workflows-retries/FREEZE.json",
+      "source": "durable-workflows-retries/study.py",
+      "current_result": "durable-workflows-retries/runs/2026-10-06-01/RESULTS.json",
+      "owning_review": "durable-workflows-retries/README_VNext.md",
+      "drive_mirror": {
+        "id": "1YdNtmPb2Cth9E7f-7CHmaeViPvs0_7-3ZZdF8asyXls",
+        "url": "https://docs.google.com/document/d/1YdNtmPb2Cth9E7f-7CHmaeViPvs0_7-3ZZdF8asyXls/edit",
+        "folder_id": "1aojFVIJ6SWe2WYY_c6E14DGcnuAE9r-Q"
+      },
+      "population_estimate": false,
+      "independent_validation": false,
+      "full_commissioned_SOW_delivery": false
+    }
+  ],
+  "existing_sources": "SOURCE_CUSTODY_2026-10-06.json",
+  "existing_study_mirror": "https://docs.google.com/document/d/1YbshiBIQvNqyORGptsCX84E5xIOlOs7yzA-wUqqRQ0c/edit",
+  "future_candidates": [
+    {
+      "family": "Caching and TTL/invalidation",
+      "status": "not prepared or executed in this batch"
+    },
+    {
+      "family": "Message queues/acknowledgement/redelivery",
+      "status": "not prepared or executed in this batch"
+    },
+    {
+      "family": "Structured LLM outputs and task validation",
+      "status": "not prepared or executed in this batch"
+    },
+    {
+      "family": "Observability and alert/response",
+      "status": "not prepared or executed in this batch"
+    }
+  ],
+  "future_rule": "Continue serially for a selected material question, retaining one DDS, declared base/evidence and no mandatory universal grid or new service promise."
+}
+

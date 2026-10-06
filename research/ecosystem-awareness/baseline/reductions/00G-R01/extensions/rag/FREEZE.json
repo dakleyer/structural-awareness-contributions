@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "amendment": "A2",
+  "registered_before_execution": true,
+  "frozen_at_utc": "2026-10-06T20:17:57.425145+00:00",
+  "files": {
+    "RUN_CARD.json": "d6b2972ae1ea2e7e4e9940eefd0ec3fe71c907f5891745af00cbc99bd282877a",
+    "study.py": "83f5a38bd22f777cae4f322032589986a2c11a35b24d7914421479d360f268d9"
+  },
+  "previous_run": "runs/2026-10-06-01/RESULTS.json",
+  "previous_source": "runs/2026-10-06-01/frozen",
+  "expectations_changed": false,
+  "claim_ceiling": "Actual embedded SQLite full-text retrieval; authored qualification/extraction model; no vector-embedding/native RAG provider, generated answer, human campaign or comparative superiority."
+}

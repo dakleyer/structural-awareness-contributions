@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-06",
+  "status": "AUTHORIZED_RELEASE_STRUCTURE_CUSTODY_AND_RESULT_BINDING_PASS",
+  "input_commit": "7124d256713c19e9be8ea353c66354f75426ca5c",
+  "publication_parent": "f107eb178157fbf58d07418ce648510cf25756ea",
+  "changed_existing_paths": [
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md",
+    "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN_STATUS.json"
+  ],
+  "new_files": 48,
+  "relative_links_resolving": 130,
+  "new_broken_links": 0,
+  "inherited_unrelated_link_exceptions": [],
+  "new_README_nodes": 0,
+  "old_math_and_oracle_files_changed": false,
+  "old_native_aborted_evidence_included": false,
+  "task_ids_states_preserved": true,
+  "frozen_source_data_matches_run": true,
+  "source_violation_retained": true,
+  "checks_do_not_establish_native_human_or_full_DDS_acceptance": true,
+  "publication_safety_scope": {
+    "version": "0.4",
+    "reason": "Automatic approval review rejected internal continuation instructions and one historical case containing a private Drive-resource link. Both exact payloads are excluded; A3 creates a separate public-safe catalogue before a new frozen run.",
+    "excluded_paths": [
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/CONTINUATION_PROMPT.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/COMMON_HEW_CASE_v0.1_2026-10-06.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/README.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/README_VNext.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README.md",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/README_VNext.md",
+      "DOCUMENT_CONTROL.md"
+    ],
+    "public_review_scope": "Technical existing public source and current research outputs only; complete earlier internal exchange preserved locally",
+    "indirect_republication_of_rejected_payload": false,
+    "public_ref_changed_so_far": false,
+    "excluded_prefixes": [
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-01/frozen/",
+      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-02/frozen/"
+    ],
+    "historical_result_policy": "Original result JSON remains unmodified. Original frozen inputs remain complete locally; earlier private-linked catalogues are not published. A3 supplies the self-contained public reproduction.",
+    "reader_index_hold": "Automatic approval review rejected republication of existing navigable continuation links even after current public-source verification. Both index proposals and their owning review proposals remain prepared locally; existing public index blobs are unchanged.",
+    "document_control_hold": "Automatic approval review also rejected the control-document upload as indirect continuity disclosure. Exact candidate stays local; public control unchanged. Specific publication authorization question remains pending."
+  },
+  "public_input_private_google_links": 0
+}

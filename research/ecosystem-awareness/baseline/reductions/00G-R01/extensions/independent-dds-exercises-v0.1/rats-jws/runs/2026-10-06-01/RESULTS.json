@@ -1,0 +1,380 @@
+{
+  "status": "PASS_REGISTERED_FIXTURE_ASSERTIONS",
+  "cases": [
+    {
+      "id": "R01",
+      "narrative": "Current software evidence meets the selected reference and the receiving policy.",
+      "verifier_accepted": true,
+      "relying_reason": "delivery-confirmed",
+      "qualified_effect": {
+        "applied_software_sha256": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d",
+        "subject": "case-service",
+        "policy": "software-policy-v1"
+      },
+      "qualified_outcome": "I",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 2,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "c6fd5043ab1344fb9b915b7170497b17a86fb71ec7c6e9c550df663194fb95c5",
+      "attestation_result_sha256": "179fd1441167c8700b636832b717827216ef5044edef5c042ab85c2f42dfab30",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R02",
+      "narrative": "The measured file differs from the reference.",
+      "verifier_accepted": false,
+      "relying_reason": "measurement-reference",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "fc25814d4517b3e9fcf27f44848b5b8eec1d0477d0e6653fe36af80c44a3bbf2",
+      "attestation_result_sha256": null,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R03",
+      "narrative": "An unauthorized attester signs matching-looking claims.",
+      "verifier_accepted": false,
+      "relying_reason": "invalid-signature",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "a90b4974a91ca456e348fb6e1e4f4c0057ea5d3a3dbd4b3444152d46369a849e",
+      "attestation_result_sha256": null,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R04",
+      "narrative": "Evidence is for another software subject.",
+      "verifier_accepted": false,
+      "relying_reason": "evidence-subject",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "55460fb4787563fc33743c168c56559cbfd6b63a7fffbde6a512bbec80abdab6",
+      "attestation_result_sha256": null,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R05",
+      "narrative": "The challenge nonce is for another request.",
+      "verifier_accepted": false,
+      "relying_reason": "evidence-nonce",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "d8f05791780ffe740fc4e5ca1ca6df6edbb2359e114f7518a8332341d30747d8",
+      "attestation_result_sha256": null,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R06",
+      "narrative": "Evidence has expired before appraisal.",
+      "verifier_accepted": false,
+      "relying_reason": "expired",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "ae7fd074421a353ee9c9f62eb183d4e9eb483bb0f3f203aba5ce6a1e12b21bc8",
+      "attestation_result_sha256": null,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R07",
+      "narrative": "The appraised reference policy is not the selected policy.",
+      "verifier_accepted": false,
+      "relying_reason": "evidence-policy",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "d6d2558e966d947017200fbf12588e2d758c528cd50212ea1fac4a24af651db3",
+      "attestation_result_sha256": null,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R08",
+      "narrative": "Signed measurements omit the admitted software digest.",
+      "verifier_accepted": false,
+      "relying_reason": "measurement-reference",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "a88eb7c8933db24fc45574f18b4611c2cd19551dac4a14efc286647b9570ef1b",
+      "attestation_result_sha256": null,
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R09",
+      "narrative": "The result is signed by an untrusted verifier.",
+      "verifier_accepted": true,
+      "relying_reason": "invalid-signature",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 2,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "44c69d1e2acddacfa7da8ac0de80565f2e2484c6e63d4d063ef88f16ad5d3fea",
+      "attestation_result_sha256": "e96a03d4b13817ffc57c7e3680b43b1725e2cca68a3a4857b4be1a668d93df5f",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R10",
+      "narrative": "The result is addressed to a different relying party.",
+      "verifier_accepted": true,
+      "relying_reason": "audience-required-or-mismatch",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 2,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "e205aed3c8911c8a35cd63db860c5c0fff9ea0cd8d0c979d5f111adc153363e8",
+      "attestation_result_sha256": "ea5ba7243db7b85e293e57aee53e34465f8647e60c0d443c56569cf3febf00b8",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R11",
+      "narrative": "A result is outside its selected receiving window.",
+      "verifier_accepted": true,
+      "relying_reason": "expired",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 2,
+        "application_policy_checks": 0
+      },
+      "evidence_sha256": "9079b6ec5e3a052bf20cd9c8cf6faa8b51d681edac14aba3d5d9b115cf858094",
+      "attestation_result_sha256": "428ef9975b3a335775272ccc923f23aa2b9317513acef61861aa5be311eef8f9",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R12",
+      "narrative": "Software changes after correct appraisal while the result is still recent.",
+      "verifier_accepted": true,
+      "relying_reason": "current-state-does-not-match-result",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": true,
+      "work": {
+        "file_hash_reads": 2,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "ed0d1549448f63091e09ddedbbe1e7c5d58801b327c7c02c694a9d7bf8e6b1d3",
+      "attestation_result_sha256": "d66d41c41f0c7e5ee3f28f2f4d8b731efe52d214d43230d8a0270137e3d03a5b",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R13",
+      "narrative": "A trusted fixture attester lies about a bad file.",
+      "verifier_accepted": true,
+      "relying_reason": "current-state-does-not-match-result",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": true,
+      "work": {
+        "file_hash_reads": 2,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "10ab35b8e005674f2c0080c6410ac110aef15aca78ffa730773beb44bfec5e2e",
+      "attestation_result_sha256": "01685e1dd67020dd18af877c4a8c8a5079d065343f38c8dcb232394de11af182",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R14",
+      "narrative": "The receiving policy changes after appraisal.",
+      "verifier_accepted": true,
+      "relying_reason": "current-policy",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "50149e26e7764b8ec9c52965b3e57fed3e2904912b773ce626ada222e61d0202",
+      "attestation_result_sha256": "236eba0e8dcdbfe173b9697a811734ae7349cd9d0b80871b8ade726968ca1054",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R15",
+      "narrative": "An acceptable software result does not create a revoked mission grant.",
+      "verifier_accepted": true,
+      "relying_reason": "grant-revoked",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "b3b61d45df38d4409722a907da01427ef75c761b321cd74ddc9c605fc0217fb7",
+      "attestation_result_sha256": "78e7060be0b9fd08d08f47be81c53c34432a7c727de1ef7865c933dd06b042af",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R16",
+      "narrative": "The correct result cannot be queried for current state.",
+      "verifier_accepted": true,
+      "relying_reason": "current-state-unknown",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "814262d484d560f987ac104b084509e80a19b93b3ff5c6c2636531b096041fe0",
+      "attestation_result_sha256": "e73458fce19924d14eff96f25d2b2cc942d89338f3ab3b617b5a5d5b71493075",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R17",
+      "narrative": "Current state and policy are restored through a separately qualified new measurement.",
+      "verifier_accepted": true,
+      "relying_reason": "delivery-confirmed",
+      "qualified_effect": {
+        "applied_software_sha256": "dfcef967d26599ce90b90f1532d93fa2b10ba5353dded1a7b0c20bf194f09e2d",
+        "subject": "case-service",
+        "policy": "software-policy-v1"
+      },
+      "qualified_outcome": "I",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 2,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "3dfbc7f6cf50ef922665b3950fe258f86529e5311f27d80e47692c14c7f7de29",
+      "attestation_result_sha256": "f61591287535e7a976658373f445f7dacd29aad5effe3eaa1b233e649d51be30",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R18",
+      "narrative": "A result records UNKNOWN instead of a good-state decision.",
+      "verifier_accepted": true,
+      "relying_reason": "result-not-pass",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "cc17590f3be057cb090858908f6312bc23c3ff2f79c8e9e30501ad66d637acae",
+      "attestation_result_sha256": "e528a98c41b73ae8f95db6d247dff5c8d46b2247f10f18af3b989327d818b3f3",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R19",
+      "narrative": "A software result supplies no currently available human review.",
+      "verifier_accepted": true,
+      "relying_reason": "useful-human-review-not-established",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 1,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "bd4c9c9c2017839ff2dece69b1af00459378bd01b1ca4cb37278edcaef61c623",
+      "attestation_result_sha256": "b7c5b26e8e7c45430a730a020f93162524b7e84921b2b1be8044e505e7ff8230",
+      "keys_or_compact_tokens_exported": false
+    },
+    {
+      "id": "R20",
+      "narrative": "A correct sending decision has no confirmed actuation.",
+      "verifier_accepted": true,
+      "relying_reason": "no-confirmed-application",
+      "qualified_effect": null,
+      "qualified_outcome": "incomplete",
+      "snapshot_only_diagnostic_wrong_effect": false,
+      "work": {
+        "file_hash_reads": 2,
+        "signature_verifications": 2,
+        "application_policy_checks": 1
+      },
+      "evidence_sha256": "de057a1efbc20cba98a645897503e2bd2fd760a157607c5170d6b0ca8b7a8fd8",
+      "attestation_result_sha256": "e7da7df4c76b043bb46162dbe0c0f9ecdbd9b186ee434444c1e682d510b598b1",
+      "keys_or_compact_tokens_exported": false
+    }
+  ],
+  "assertions": 60,
+  "qualified_outcome_counts": {
+    "I": 2,
+    "M": 0,
+    "P": 0,
+    "incomplete": 18
+  },
+  "diagnostic_wrong_effects": 2,
+  "elapsed_local_seconds": 0.05574090010486543,
+  "scope": "Own RFC9334-informed software-state/JWS local roles; actual cryptography/hashes, stipulated trust provenance, no TPM/EAT/native verifier product",
+  "risk_of_false_trusted_measurements": "Current file-source query helps only under this declared local trust/source assumption",
+  "external_matched_differential": "not established",
+  "run_id": "DDS-RATS-JWS-20261006-01",
+  "canonical_DDS_profile": {
+    "path": "../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+    "logical_identity": "single canonical DDS technical profile",
+    "method_version": "0.1"
+  },
+  "implementation_profile": "RATS-informed local software-state produce/appraise/consume profile with generic JWS",
+  "software_version": "DDS-INDEPENDENT-EXERCISES-0.1",
+  "python": "3.12.14",
+  "cryptography_version": "50.0.1",
+  "run_card_sha256": "00ee78b2064d8faa8abaaa8a169a268681ddb641c2e8ddf3fded4a00d4763508",
+  "freeze_sha256": "581be4ddb705ece97b0bc6197d894724b7cf4cd6cd672f17a465da79fffc1d3c",
+  "evidence": "same-author bounded executed fixture; no production or independent validation",
+  "population_rates_established": false,
+  "native_SPIRE_TPM_or_verifier_product_executed": false
+}

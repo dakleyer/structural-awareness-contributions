@@ -1,0 +1,1045 @@
+{
+  "run_id": "DDS-HEW-FENCING-DEPUTY-ANALYTICAL-20261006-01",
+  "version": "0.1",
+  "executed_at_utc": "2026-10-06T12:23:38.078405+00:00",
+  "checker_sha256": "50cf96e0803ef165b2ea034cb1105bd4b574419700f94a1ac441169c905a71ca",
+  "card_sha256": "88fadb19a13fc8319fecea70b21030e70f1d83959584a831e48a4591b55957ee",
+  "status": "PASS within the declared analytical model",
+  "cases_matched": 20,
+  "cases": [
+    {
+      "id": "F01",
+      "name": "current legitimate continuation",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": true
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": true
+      },
+      "matched": true
+    },
+    {
+      "id": "F02",
+      "name": "old generation after barrier",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 42,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": false,
+        "delegation_only": true,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": false,
+        "delegation_only": true,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F03",
+      "name": "current generation wrong principal",
+      "floor": 43,
+      "request": {
+        "principal": "principal-B",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F04",
+      "name": "current generation wrong tenant",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "B",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F05",
+      "name": "deputy has genuine token for other resource",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-B",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-B",
+        "epoch": 43,
+        "token_resource": "actuator-B",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F06",
+      "name": "wrong action under current ownership",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "delete-record",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F07",
+      "name": "wrong declared purpose",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "unrelated-billing",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F08",
+      "name": "wrong audience",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "other-service",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F09",
+      "name": "expired delegation",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 6,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F10",
+      "name": "action grant revoked while identity remains accepted",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": false,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F11",
+      "name": "approval for another decision",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-002",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F12",
+      "name": "unverified large generation",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 9999,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": false,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": false,
+        "delegation_only": true,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": false,
+        "delegation_only": true,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F13",
+      "name": "old holder before resource learns new generation",
+      "floor": 42,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 42,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": true
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": true
+      },
+      "matched": true
+    },
+    {
+      "id": "F14",
+      "name": "same old request after resource barrier",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 42,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": false,
+        "delegation_only": true,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": false,
+        "delegation_only": true,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F15",
+      "name": "unknown receiving policy",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": false,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F16",
+      "name": "fence token bound to another resource",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-B",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": false,
+        "delegation_only": true,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": false,
+        "delegation_only": true,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F17",
+      "name": "deputy actor not admitted",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "other-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "other-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": false,
+        "combined": false,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F18",
+      "name": "authorized current operation with insufficient review basis",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": false,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F19",
+      "name": "authorized current operation without human review capacity",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 43,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": false
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": false
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": false
+      },
+      "matched": true
+    },
+    {
+      "id": "F20",
+      "name": "legitimate return after fresh grant",
+      "floor": 43,
+      "request": {
+        "principal": "principal-A",
+        "actor": "case-service",
+        "tenant": "A",
+        "case": "HEW-001",
+        "decision": "D-001",
+        "resource": "actuator-A",
+        "action": "apply-safe-pause",
+        "purpose": "HEW-remediation",
+        "audience": "actuator-A",
+        "epoch": 44,
+        "token_resource": "actuator-A",
+        "token_actor": "case-service",
+        "token_verified": true,
+        "identity_accepted": true,
+        "delegation_verified": true,
+        "grant_active": true,
+        "policy_known": true,
+        "now": 6,
+        "expires": 20,
+        "request_id": "request-1",
+        "basis_sufficient": true,
+        "human_capacity": true
+      },
+      "actual": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": true
+      },
+      "expected": {
+        "fencing_only": true,
+        "delegation_only": true,
+        "combined": true,
+        "conditional_hew_path": true
+      },
+      "matched": true
+    }
+  ],
+  "trace_grid": {
+    "sequences": 1296,
+    "events_evaluated": 5184,
+    "accepted_writes_across_grid": 1704,
+    "rejected_writes_across_grid": 888,
+    "generation_regressions_under_atomic_guard": 0
+  },
+  "races": {
+    "legal_interleavings": 6,
+    "regressions_with_check_then_unchecked_commit": 2,
+    "regressions_with_atomic_resource_recheck": 0,
+    "traces": [
+      {
+        "order": [
+          "check42",
+          "commit42",
+          "check43",
+          "commit43"
+        ],
+        "check_then_unchecked_commit": {
+          "writes": [
+            42,
+            43
+          ],
+          "generation_regression": false
+        },
+        "atomic_resource_recheck": {
+          "writes": [
+            42,
+            43
+          ],
+          "generation_regression": false
+        }
+      },
+      {
+        "order": [
+          "check42",
+          "check43",
+          "commit42",
+          "commit43"
+        ],
+        "check_then_unchecked_commit": {
+          "writes": [
+            42,
+            43
+          ],
+          "generation_regression": false
+        },
+        "atomic_resource_recheck": {
+          "writes": [
+            42,
+            43
+          ],
+          "generation_regression": false
+        }
+      },
+      {
+        "order": [
+          "check42",
+          "check43",
+          "commit43",
+          "commit42"
+        ],
+        "check_then_unchecked_commit": {
+          "writes": [
+            43,
+            42
+          ],
+          "generation_regression": true
+        },
+        "atomic_resource_recheck": {
+          "writes": [
+            43
+          ],
+          "generation_regression": false
+        }
+      },
+      {
+        "order": [
+          "check43",
+          "check42",
+          "commit42",
+          "commit43"
+        ],
+        "check_then_unchecked_commit": {
+          "writes": [
+            42,
+            43
+          ],
+          "generation_regression": false
+        },
+        "atomic_resource_recheck": {
+          "writes": [
+            42,
+            43
+          ],
+          "generation_regression": false
+        }
+      },
+      {
+        "order": [
+          "check43",
+          "check42",
+          "commit43",
+          "commit42"
+        ],
+        "check_then_unchecked_commit": {
+          "writes": [
+            43,
+            42
+          ],
+          "generation_regression": true
+        },
+        "atomic_resource_recheck": {
+          "writes": [
+            43
+          ],
+          "generation_regression": false
+        }
+      },
+      {
+        "order": [
+          "check43",
+          "commit43",
+          "check42",
+          "commit42"
+        ],
+        "check_then_unchecked_commit": {
+          "writes": [
+            43
+          ],
+          "generation_regression": false
+        },
+        "atomic_resource_recheck": {
+          "writes": [
+            43
+          ],
+          "generation_regression": false
+        }
+      }
+    ]
+  },
+  "additional_witnesses": {
+    "same_generation_distinct_operations": {
+      "floor": 43,
+      "writes": [
+        43,
+        43
+      ],
+      "rejects": []
+    },
+    "repeated_request_ids": {
+      "without_idempotency_effect_count": 3,
+      "with_request_id_deduplication_effect_count": 2
+    },
+    "floor_preserved": {
+      "floor": 43,
+      "writes": [],
+      "rejects": [
+        42
+      ]
+    },
+    "floor_rolled_back": {
+      "floor": 42,
+      "writes": [
+        42
+      ],
+      "rejects": []
+    },
+    "later_fence_preserves_earlier_effect_history": {
+      "floor": 43,
+      "writes": [
+        42
+      ],
+      "rejects": []
+    },
+    "effect_path_coverage": {
+      "guarded": [],
+      "unguarded": [
+        42
+      ]
+    }
+  },
+  "unexecuted": [
+    "no consensus implementation",
+    "no disk durability test",
+    "no Hazelcast/Chubby/AWS/OAuth runtime",
+    "no real delegation validation",
+    "no protected channel conformance",
+    "no population risk or measured human effectiveness",
+    "no native product comparison"
+  ],
+  "field_warning": "conditional_hew_path is only the combined predicate plus two stipulated gates, not protected-channel or full mission conformance",
+  "comparative_warning": "mechanism ablations are explanatory constructions; a competent peer with both guards can obtain the same outcomes"
+}

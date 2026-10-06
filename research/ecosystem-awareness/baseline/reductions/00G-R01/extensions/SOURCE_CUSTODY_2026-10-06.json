@@ -1,0 +1,692 @@
+{
+  "schema": "DDS-EXTENSION-HOME-SOURCE-CUSTODY-0.1",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "origin_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "method_authority": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "canonical_DDS_profiles": 1,
+  "extension_home": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions",
+  "rule": "Existing extension source/cards/code/results mirrored without deleting or modifying origin paths. Originals stay pinned historical custody; copies are identified replicas, not new canonical authorities or evidence grades. Shared-base reference stubs route to immutable origin and are not replacement proofs.",
+  "mirrored_files": [
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/EXTENSION_CONSISTENCY_REVIEW.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/EXTENSION_CONSISTENCY_REVIEW.md",
+      "origin_git_blob": "dfc3a146ee1c8a46b9f3972f511b3b280307b2c4",
+      "expected_mirror_git_blob": "dfc3a146ee1c8a46b9f3972f511b3b280307b2c4",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION.md",
+      "origin_git_blob": "c61c810ec255ee78415caead8fadeec87ffe20a3",
+      "expected_mirror_git_blob": "c61c810ec255ee78415caead8fadeec87ffe20a3",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
+      "origin_git_blob": "22c36572d805bef8bd29955c3613e966a9dec2fb",
+      "expected_mirror_git_blob": "22c36572d805bef8bd29955c3613e966a9dec2fb",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HEW_DDS_STUDY_2026-10-06.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HEW_DDS_STUDY_2026-10-06.md",
+      "origin_git_blob": "af249b12b9dff62ae5e46329050b67fd9ba3890c",
+      "expected_mirror_git_blob": "af249b12b9dff62ae5e46329050b67fd9ba3890c",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md",
+      "origin_git_blob": "b53cc318875b849475d26452aaa8fe2d089ce748",
+      "expected_mirror_git_blob": "b53cc318875b849475d26452aaa8fe2d089ce748",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING_VNext.md",
+      "origin_git_blob": "6d03b35914df824db6a71b1b00522903672c5321",
+      "expected_mirror_git_blob": "6d03b35914df824db6a71b1b00522903672c5321",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION.md",
+      "origin_git_blob": "9ae7a0ba305b2594c7ab8226d371e4ed90360e40",
+      "expected_mirror_git_blob": "9ae7a0ba305b2594c7ab8226d371e4ed90360e40",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/RATS_EXTENSION_VNext.md",
+      "origin_git_blob": "ac2abc33fc995400a1f91d5ff39c7660be33c268",
+      "expected_mirror_git_blob": "ac2abc33fc995400a1f91d5ff39c7660be33c268",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION.md",
+      "origin_git_blob": "9bfef1ef5fb3a1b09b173e136e05bb7fdd7677cc",
+      "expected_mirror_git_blob": "9bfef1ef5fb3a1b09b173e136e05bb7fdd7677cc",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/SPIFFE_SPIRE_EXTENSION_VNext.md",
+      "origin_git_blob": "96ba56ee8a925967ce5aab1da94bede4055613bd",
+      "expected_mirror_git_blob": "96ba56ee8a925967ce5aab1da94bede4055613bd",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION.md",
+      "origin_git_blob": "5574832dcc15f6db8910497d21e3f3c5de3e1db5",
+      "expected_mirror_git_blob": "5574832dcc15f6db8910497d21e3f3c5de3e1db5",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/STAMP_STPA_EXTENSION_VNext.md",
+      "origin_git_blob": "f2af758a35bfcaed8c7e18df60c3e84373f1ed21",
+      "expected_mirror_git_blob": "f2af758a35bfcaed8c7e18df60c3e84373f1ed21",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md",
+      "origin_git_blob": "f6c33a3fbf76a1cda2705bd1395953a14547611e",
+      "expected_mirror_git_blob": "f6c33a3fbf76a1cda2705bd1395953a14547611e",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md",
+      "origin_git_blob": "62e8e6555ff077ef164d11b64a1327cf338c0e7a",
+      "expected_mirror_git_blob": "62e8e6555ff077ef164d11b64a1327cf338c0e7a",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/DDS_CONTROLS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/DDS_CONTROLS.json",
+      "origin_git_blob": "43d4640c1fa9b5307816c4291deb83d8ac550fe8",
+      "expected_mirror_git_blob": "43d4640c1fa9b5307816c4291deb83d8ac550fe8",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/DDS_PROFILE_COVERAGE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/DDS_PROFILE_COVERAGE.json",
+      "origin_git_blob": "7fdde666d7df29b02ad47e3d2cb2cd0b846c9fc3",
+      "expected_mirror_git_blob": "7fdde666d7df29b02ad47e3d2cb2cd0b846c9fc3",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/DELIVERY_MAP.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/DELIVERY_MAP.json",
+      "origin_git_blob": "73e29290249cf6a94799b7da1662c99867b67add",
+      "expected_mirror_git_blob": "73e29290249cf6a94799b7da1662c99867b67add",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/EXECUTIVE_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/EXECUTIVE_REPORT.md",
+      "origin_git_blob": "1955f58d01c89fcccadadd2a63d25d8c6ca7d726",
+      "expected_mirror_git_blob": "1955f58d01c89fcccadadd2a63d25d8c6ca7d726",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/FREEZE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/FREEZE.json",
+      "origin_git_blob": "9b913259eaf631bf3e366984f19827c06b70ba3c",
+      "expected_mirror_git_blob": "9b913259eaf631bf3e366984f19827c06b70ba3c",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/PRESTANDARDISATION_INPUT_DRAFT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/PRESTANDARDISATION_INPUT_DRAFT.md",
+      "origin_git_blob": "e042e7deae24f28e18cbd0cf05475489096183fe",
+      "expected_mirror_git_blob": "e042e7deae24f28e18cbd0cf05475489096183fe",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/PUBLIC_DISTRIBUTION.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/PUBLIC_DISTRIBUTION.md",
+      "origin_git_blob": "2bfd456e2c10791073a75eac2feea413ddf829d8",
+      "expected_mirror_git_blob": "2bfd456e2c10791073a75eac2feea413ddf829d8",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/RELEASE_MANIFEST.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/RELEASE_MANIFEST.json",
+      "origin_git_blob": "f0925b2474dc139ced979dd558e8f987aa2262ac",
+      "expected_mirror_git_blob": "f0925b2474dc139ced979dd558e8f987aa2262ac",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/RELEASE_VERIFICATION.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/RELEASE_VERIFICATION.json",
+      "origin_git_blob": "3d35c8d8ea89a8730157dafeb3f48ea17df4cad3",
+      "expected_mirror_git_blob": "3d35c8d8ea89a8730157dafeb3f48ea17df4cad3",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/RUN_CARD.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/RUN_CARD.json",
+      "origin_git_blob": "f65bf868f4d212da2421cfa742006523c9a80c6a",
+      "expected_mirror_git_blob": "f65bf868f4d212da2421cfa742006523c9a80c6a",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/SCENARIO_BATTERY.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/SCENARIO_BATTERY.json",
+      "origin_git_blob": "569ad99c7a95eb36abe62f2cddceb17e489fb149",
+      "expected_mirror_git_blob": "569ad99c7a95eb36abe62f2cddceb17e489fb149",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/SCOPING_RECORD.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/SCOPING_RECORD.json",
+      "origin_git_blob": "b834db596ad4554d769b1671bddcd25f5e0c4186",
+      "expected_mirror_git_blob": "b834db596ad4554d769b1671bddcd25f5e0c4186",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/SOURCE_REGISTER.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/SOURCE_REGISTER.json",
+      "origin_git_blob": "395ea1e1f5f699063fbbc9fc3df98623c0ad240c",
+      "expected_mirror_git_blob": "395ea1e1f5f699063fbbc9fc3df98623c0ad240c",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/TECHNICAL_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/TECHNICAL_REPORT.md",
+      "origin_git_blob": "76443bdecaba1d69601d25787b1baa60852dff1e",
+      "expected_mirror_git_blob": "76443bdecaba1d69601d25787b1baa60852dff1e",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/hew_oracle.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/hew_oracle.py",
+      "origin_git_blob": "a32cb98477394c877edd7b0d3c108bf0a4c3ec66",
+      "expected_mirror_git_blob": "a32cb98477394c877edd7b0d3c108bf0a4c3ec66",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/hew_runtime.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/hew_runtime.py",
+      "origin_git_blob": "3695a58f8acd208e3491a7643f8c6a0e8b8aee13",
+      "expected_mirror_git_blob": "3695a58f8acd208e3491a7643f8c6a0e8b8aee13",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/PROVENANCE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/PROVENANCE.json",
+      "origin_git_blob": "477fe466e91d23e30dfcfdb5875f23e01a3a7ca7",
+      "expected_mirror_git_blob": "477fe466e91d23e30dfcfdb5875f23e01a3a7ca7",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/SOURCE_REGISTER_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/SOURCE_REGISTER_2026-10-06.json",
+      "origin_git_blob": "326c3cbca7ed3328bfaa4dfa1ccc8195c565902c",
+      "expected_mirror_git_blob": "326c3cbca7ed3328bfaa4dfa1ccc8195c565902c",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/analytical_fixture_results_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/analytical_fixture_results_2026-10-06.json",
+      "origin_git_blob": "4b922b70f45f11e82158d68cb48765ab4088e1ef",
+      "expected_mirror_git_blob": "4b922b70f45f11e82158d68cb48765ab4088e1ef",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.2_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.2_2026-10-06.json",
+      "origin_git_blob": "31cb20cb2f9666f75be0281912706288c57aa677",
+      "expected_mirror_git_blob": "31cb20cb2f9666f75be0281912706288c57aa677",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.3_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.3_2026-10-06.json",
+      "origin_git_blob": "f91edd3b1cf9a10b95a660226bb31bef0c0a5fa6",
+      "expected_mirror_git_blob": "f91edd3b1cf9a10b95a660226bb31bef0c0a5fa6",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/check_analytical_fixture_2026-10-06.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/check_analytical_fixture_2026-10-06.py",
+      "origin_git_blob": "23a5b9ed99021db79a47d1750656e254d064009b",
+      "expected_mirror_git_blob": "23a5b9ed99021db79a47d1750656e254d064009b",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/check_analytical_fixture_v0.2_2026-10-06.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/check_analytical_fixture_v0.2_2026-10-06.py",
+      "origin_git_blob": "fd24866c6d6cfa7a5a64979c1da2f4de081f4ae2",
+      "expected_mirror_git_blob": "fd24866c6d6cfa7a5a64979c1da2f4de081f4ae2",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/check_analytical_fixture_v0.3_2026-10-06.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/check_analytical_fixture_v0.3_2026-10-06.py",
+      "origin_git_blob": "6b9e715f053a654530b553c791287b82b6265dbd",
+      "expected_mirror_git_blob": "6b9e715f053a654530b553c791287b82b6265dbd",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/check_fencing_deputy_fixture_v0.1_2026-10-06.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/check_fencing_deputy_fixture_v0.1_2026-10-06.py",
+      "origin_git_blob": "459145b15eb3bd02546997b5e0741b058f1a213b",
+      "expected_mirror_git_blob": "459145b15eb3bd02546997b5e0741b058f1a213b",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/document_verification_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/document_verification_2026-10-06.json",
+      "origin_git_blob": "291956f128a8e9a2e93e5b1476265404d8f4e080",
+      "expected_mirror_git_blob": "291956f128a8e9a2e93e5b1476265404d8f4e080",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/fencing_deputy_results_v0.1_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/fencing_deputy_results_v0.1_2026-10-06.json",
+      "origin_git_blob": "99c76f7bdef12dd56e9f87ee5939943a51e720c1",
+      "expected_mirror_git_blob": "99c76f7bdef12dd56e9f87ee5939943a51e720c1",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/fencing_deputy_run_card_v0.1_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/fencing_deputy_run_card_v0.1_2026-10-06.json",
+      "origin_git_blob": "4731e891e7cdac6f5856a37f745ebc3a7e5d0da0",
+      "expected_mirror_git_blob": "4731e891e7cdac6f5856a37f745ebc3a7e5d0da0",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/run_card_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/run_card_2026-10-06.json",
+      "origin_git_blob": "006e561b24d41e89655952e222ed9bf1291d7ae9",
+      "expected_mirror_git_blob": "006e561b24d41e89655952e222ed9bf1291d7ae9",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/run_card_v0.2_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/run_card_v0.2_2026-10-06.json",
+      "origin_git_blob": "5c9c931d6b86bbf67d9eb9a5fad4d1b008e8524b",
+      "expected_mirror_git_blob": "5c9c931d6b86bbf67d9eb9a5fad4d1b008e8524b",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/prior-analytical/run_card_v0.3_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/prior-analytical/run_card_v0.3_2026-10-06.json",
+      "origin_git_blob": "ba4f892c7095f401969e4c1be70bd86a2eaf2765",
+      "expected_mirror_git_blob": "ba4f892c7095f401969e4c1be70bd86a2eaf2765",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/run_study.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/run_study.py",
+      "origin_git_blob": "719acff3dc8ae8d461809d215b7a8d06e49a97ec",
+      "expected_mirror_git_blob": "719acff3dc8ae8d461809d215b7a8d06e49a97ec",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-01/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-01/RESULTS.json",
+      "origin_git_blob": "dceec8b5ff7daab42a3a92eb85e8a75c65a032a6",
+      "expected_mirror_git_blob": "dceec8b5ff7daab42a3a92eb85e8a75c65a032a6",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-02/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-02/RESULTS.json",
+      "origin_git_blob": "71afa405527ae3fce547a8f3d9e263972ecf4708",
+      "expected_mirror_git_blob": "71afa405527ae3fce547a8f3d9e263972ecf4708",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-03/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-03/RESULTS.json",
+      "origin_git_blob": "0262297fb0214db92cc31ae3c9d8f75762fb7760",
+      "expected_mirror_git_blob": "0262297fb0214db92cc31ae3c9d8f75762fb7760",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-04/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-04/RESULTS.json",
+      "origin_git_blob": "320f6ecbed59a42fa7c2aeaa683d8df6da64d684",
+      "expected_mirror_git_blob": "320f6ecbed59a42fa7c2aeaa683d8df6da64d684",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/BOUNDARY_RUN_CARD.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/BOUNDARY_RUN_CARD.json",
+      "origin_git_blob": "eebc6bd08515bdf599fab7b53d5c6b7a01d4601b",
+      "expected_mirror_git_blob": "eebc6bd08515bdf599fab7b53d5c6b7a01d4601b",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/DDS_PROFILE_COVERAGE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/DDS_PROFILE_COVERAGE.json",
+      "origin_git_blob": "18bda14a2c9b30351c6f6dbd0e7be05fd0235993",
+      "expected_mirror_git_blob": "18bda14a2c9b30351c6f6dbd0e7be05fd0235993",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/DELIVERY_MAP.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/DELIVERY_MAP.json",
+      "origin_git_blob": "6deaa761ec14894eb8b178f3ca7dd0b14eb1ad77",
+      "expected_mirror_git_blob": "6deaa761ec14894eb8b178f3ca7dd0b14eb1ad77",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/FREEZE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/FREEZE.json",
+      "origin_git_blob": "728d4c8f0485364bde35c0e3091c02f9fe4d9b76",
+      "expected_mirror_git_blob": "728d4c8f0485364bde35c0e3091c02f9fe4d9b76",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md",
+      "origin_git_blob": "d0ff729f173cad9277c928c1891690efb6e8f0e0",
+      "expected_mirror_git_blob": "d0ff729f173cad9277c928c1891690efb6e8f0e0",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/PUBLICATION_VERIFICATION_2026-10-06.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/PUBLICATION_VERIFICATION_2026-10-06.json",
+      "origin_git_blob": "3b009eae3a299f42d20aee3f46c859c98ba59cdd",
+      "expected_mirror_git_blob": "3b009eae3a299f42d20aee3f46c859c98ba59cdd",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md",
+      "origin_git_blob": "e04b8682249289915438ac435e72aec27c4d73f9",
+      "expected_mirror_git_blob": "e04b8682249289915438ac435e72aec27c4d73f9",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README.md",
+      "origin_git_blob": "fc0caf071937a0bf1426fb320f776ee2cf1ff5e5",
+      "expected_mirror_git_blob": "fc0caf071937a0bf1426fb320f776ee2cf1ff5e5",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/README_VNext.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/README_VNext.md",
+      "origin_git_blob": "f362d7916dc26202600e6617038f1bfcf5beb0d1",
+      "expected_mirror_git_blob": "f362d7916dc26202600e6617038f1bfcf5beb0d1",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/RELEASE_MANIFEST.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/RELEASE_MANIFEST.json",
+      "origin_git_blob": "0567b7a9ba2663e2366b9a500a6fafb069c56e56",
+      "expected_mirror_git_blob": "0567b7a9ba2663e2366b9a500a6fafb069c56e56",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/REPRODUCTION_REVIEW.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/REPRODUCTION_REVIEW.json",
+      "origin_git_blob": "3a0521fa667aabc347674ad335fd0cc3bf8452b0",
+      "expected_mirror_git_blob": "3a0521fa667aabc347674ad335fd0cc3bf8452b0",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md",
+      "origin_git_blob": "547d019b95343e384297f66d87262d045d92e895",
+      "expected_mirror_git_blob": "547d019b95343e384297f66d87262d045d92e895",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md",
+      "origin_git_blob": "ce27999bfd3cf204aa4371d2c2ad405b5e1636fd",
+      "expected_mirror_git_blob": "ce27999bfd3cf204aa4371d2c2ad405b5e1636fd",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/run_completion_checks.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/run_completion_checks.py",
+      "origin_git_blob": "d0a9a5f1574f0c9343c169a8b679b2659c680dcd",
+      "expected_mirror_git_blob": "d0a9a5f1574f0c9343c169a8b679b2659c680dcd",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/2026-10-06-01/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/2026-10-06-01/RESULTS.json",
+      "origin_git_blob": "8f6a1b7f84c5944aa8dd16c85549785e6eba82f1",
+      "expected_mirror_git_blob": "8f6a1b7f84c5944aa8dd16c85549785e6eba82f1",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/hew/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/hew/RESULTS.json",
+      "origin_git_blob": "ff932def7ec4919817436acc513aadedbf53e869",
+      "expected_mirror_git_blob": "ff932def7ec4919817436acc513aadedbf53e869",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/rats-jws/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/rats-jws/RESULTS.json",
+      "origin_git_blob": "656315ea02b63e677926eff04fc6bdff9b16ade0",
+      "expected_mirror_git_blob": "656315ea02b63e677926eff04fc6bdff9b16ade0",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/spiffe-jwt/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/spiffe-jwt/RESULTS.json",
+      "origin_git_blob": "fbe1a9529620ed3fc4c4fc309afd9862f2510433",
+      "expected_mirror_git_blob": "fbe1a9529620ed3fc4c4fc309afd9862f2510433",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/runs/reproductions/stamp-stpa/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1/runs/reproductions/stamp-stpa/RESULTS.json",
+      "origin_git_blob": "6300c76f714f0c7d9579c6c30e6f6c47a3c42284",
+      "expected_mirror_git_blob": "6300c76f714f0c7d9579c6c30e6f6c47a3c42284",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/EXERCISES_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/EXERCISES_REPORT.md",
+      "origin_git_blob": "b9486ad065c85d032cc6a3c9bb15434cc9bd73c2",
+      "expected_mirror_git_blob": "b9486ad065c85d032cc6a3c9bb15434cc9bd73c2",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/HISTORY_AND_SCOPE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/HISTORY_AND_SCOPE.json",
+      "origin_git_blob": "515ac8a3ec3c347ab98d6b56b228447c5e948a70",
+      "expected_mirror_git_blob": "515ac8a3ec3c347ab98d6b56b228447c5e948a70",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/IMPLEMENTATION_COVERAGE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/IMPLEMENTATION_COVERAGE.json",
+      "origin_git_blob": "df979f1cf0125f9c1f8e9defe101c2dc837e5fc2",
+      "expected_mirror_git_blob": "df979f1cf0125f9c1f8e9defe101c2dc837e5fc2",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/crypto_fixture.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/crypto_fixture.py",
+      "origin_git_blob": "51b6878e6b519c0faf5ea744dd535e474c795621",
+      "expected_mirror_git_blob": "51b6878e6b519c0faf5ea744dd535e474c795621",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/exercise_common.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/exercise_common.py",
+      "origin_git_blob": "3ab960b3df493198156496080e2afc4409b41b0b",
+      "expected_mirror_git_blob": "3ab960b3df493198156496080e2afc4409b41b0b",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/rats-jws/EXERCISE_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/EXERCISE_REPORT.md",
+      "origin_git_blob": "fa6a58d2aba71f29d5ca178d6c0577652ce25cd8",
+      "expected_mirror_git_blob": "fa6a58d2aba71f29d5ca178d6c0577652ce25cd8",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/rats-jws/FREEZE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/FREEZE.json",
+      "origin_git_blob": "d0ebe4960748a570c1dbeb3eb3e5429b28c2811f",
+      "expected_mirror_git_blob": "d0ebe4960748a570c1dbeb3eb3e5429b28c2811f",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/rats-jws/RUN_CARD.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/RUN_CARD.json",
+      "origin_git_blob": "510972a8bce95774f5e28b44dd40f2eb0ee7a610",
+      "expected_mirror_git_blob": "510972a8bce95774f5e28b44dd40f2eb0ee7a610",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/rats-jws/fixture_changed.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/fixture_changed.py",
+      "origin_git_blob": "f699ee5331e05e31731afd67372b459d55bda317",
+      "expected_mirror_git_blob": "f699ee5331e05e31731afd67372b459d55bda317",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/rats-jws/fixture_good.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/fixture_good.py",
+      "origin_git_blob": "5488101d406730db8b5d42b942639139f8c8cdad",
+      "expected_mirror_git_blob": "5488101d406730db8b5d42b942639139f8c8cdad",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/rats-jws/run.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/run.py",
+      "origin_git_blob": "b024f1ca7aa523494750b7b96da7b63db91e396f",
+      "expected_mirror_git_blob": "b024f1ca7aa523494750b7b96da7b63db91e396f",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/rats-jws/runs/2026-10-06-01/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/rats-jws/runs/2026-10-06-01/RESULTS.json",
+      "origin_git_blob": "d3df13c22c959b2be5e804677e19f136ea4c27ff",
+      "expected_mirror_git_blob": "d3df13c22c959b2be5e804677e19f136ea4c27ff",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/spiffe-jwt/EXERCISE_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/EXERCISE_REPORT.md",
+      "origin_git_blob": "fba32e04c2d44068205f11b618e0e0e2a5188a20",
+      "expected_mirror_git_blob": "fba32e04c2d44068205f11b618e0e0e2a5188a20",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/spiffe-jwt/FREEZE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/FREEZE.json",
+      "origin_git_blob": "a8c8bf00e9a4b8b17fcc6d8a12ff03635f5d1ed1",
+      "expected_mirror_git_blob": "a8c8bf00e9a4b8b17fcc6d8a12ff03635f5d1ed1",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/spiffe-jwt/RUN_CARD.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/RUN_CARD.json",
+      "origin_git_blob": "9e1d8f5405de40d93ff3dbd1806ab2c6ca7341f8",
+      "expected_mirror_git_blob": "9e1d8f5405de40d93ff3dbd1806ab2c6ca7341f8",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/spiffe-jwt/run.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/run.py",
+      "origin_git_blob": "fb6ab3445626a3cdb8d16277eb694bd8ab556b2a",
+      "expected_mirror_git_blob": "fb6ab3445626a3cdb8d16277eb694bd8ab556b2a",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/spiffe-jwt/runs/2026-10-06-01/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/runs/2026-10-06-01/RESULTS.json",
+      "origin_git_blob": "dafda1f5755df4ee7133bf347b3da64462c4b652",
+      "expected_mirror_git_blob": "dafda1f5755df4ee7133bf347b3da64462c4b652",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/stamp-stpa/EXERCISE_REPORT.md",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/EXERCISE_REPORT.md",
+      "origin_git_blob": "8be770cd3e61f71fea34e9fe8c5c7da7357f82ec",
+      "expected_mirror_git_blob": "8be770cd3e61f71fea34e9fe8c5c7da7357f82ec",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/stamp-stpa/FREEZE.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/FREEZE.json",
+      "origin_git_blob": "6bc0ae430a1147ec54ecd2689ee1590f601cb175",
+      "expected_mirror_git_blob": "6bc0ae430a1147ec54ecd2689ee1590f601cb175",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/stamp-stpa/RUN_CARD.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/RUN_CARD.json",
+      "origin_git_blob": "10ccb25f10e57f9cf364497688cc47ca0e3ad5a0",
+      "expected_mirror_git_blob": "10ccb25f10e57f9cf364497688cc47ca0e3ad5a0",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/stamp-stpa/run.py",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/run.py",
+      "origin_git_blob": "d0634a4398df71929e8ecf33514f916b26fb831c",
+      "expected_mirror_git_blob": "d0634a4398df71929e8ecf33514f916b26fb831c",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/stamp-stpa/runs/2026-10-06-01/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/runs/2026-10-06-01/RESULTS.json",
+      "origin_git_blob": "3936ff6ac80dc74bee03bd833aaf4dac47269201",
+      "expected_mirror_git_blob": "3936ff6ac80dc74bee03bd833aaf4dac47269201",
+      "kind": "unchanged-source-replica"
+    },
+    {
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/stamp-stpa/runs/2026-10-06-02/RESULTS.json",
+      "extension_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/runs/2026-10-06-02/RESULTS.json",
+      "origin_git_blob": "a4607b5885aa9ccb773536511c3c37be10ddcf7a",
+      "expected_mirror_git_blob": "a4607b5885aa9ccb773536511c3c37be10ddcf7a",
+      "kind": "unchanged-source-replica"
+    }
+  ],
+  "shared_reference_routes": [
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/R01_CONDITIONED_TRILEMMA_THEOREM.md",
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_CONDITIONED_TRILEMMA_THEOREM.md",
+      "kind": "reference-only routing, not source replacement"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/R01_AUDIT_CONTINUITY_AND_REPAIRS.md",
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/R01_AUDIT_CONTINUITY_AND_REPAIRS.md",
+      "kind": "reference-only routing, not source replacement"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/partial-experiments/README.md",
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/README.md",
+      "kind": "reference-only routing, not source replacement"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/partial-experiments/received/2026-10-04/README.md",
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/partial-experiments/received/2026-10-04/README.md",
+      "kind": "reference-only routing, not source replacement"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/WORKPLAN.md",
+      "origin_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/WORKPLAN.md",
+      "kind": "reference-only routing, not source replacement"
+    }
+  ],
+  "excluded_content_republished": false,
+  "protected_excluded_contents": [
+    "CONTINUATION_PROMPT",
+    "COMMON_HEW_CASE"
+  ],
+  "third_party_received_annex_republished": false,
+  "originals_preserved": true,
+  "prior_scores_regraded": false
+}
+

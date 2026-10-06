@@ -1,0 +1,309 @@
+{
+  "schema": "DDS-EXTENSION-RESULT-0.1",
+  "study": "DDS-MCP-TOOL-ADMISSION-20261006",
+  "status": "PASS_REGISTERED_LOCAL_EXPECTATIONS",
+  "case_count": 9,
+  "assertions": 18,
+  "outcome_counts": {
+    "I": 3,
+    "Ø": 6
+  },
+  "results": [
+    {
+      "id": "MCP-01",
+      "narrative": "An admitted caller requests the declared write tool with valid typed arguments and current application authority.",
+      "outcome": "I",
+      "actual_local_effect_count": 1,
+      "rpc_responses": [
+        {
+          "jsonrpc": "2.0",
+          "id": "MCP-01",
+          "result": {
+            "content": [
+              {
+                "type": "text",
+                "text": "local effect admitted"
+              }
+            ],
+            "isError": false
+          }
+        }
+      ],
+      "request_bytes": 365,
+      "operational_sql_statements": 4,
+      "trace": [
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        },
+        {
+          "sql": "begin immediate",
+          "event": "begin"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        },
+        {
+          "sql": "insert or ignore into effects values(?,?,?)",
+          "event": "insert"
+        }
+      ],
+      "readOnly_hint": false,
+      "annotation_enforced_as_authority": false,
+      "native_transport_executed": false
+    },
+    {
+      "id": "MCP-02",
+      "narrative": "The request omits a required selected protocol metadata field.",
+      "outcome": "Ø",
+      "actual_local_effect_count": 0,
+      "rpc_responses": [
+        {
+          "error": -32602
+        }
+      ],
+      "request_bytes": 317,
+      "operational_sql_statements": 0,
+      "trace": [],
+      "readOnly_hint": false,
+      "annotation_enforced_as_authority": false,
+      "native_transport_executed": false
+    },
+    {
+      "id": "MCP-03",
+      "narrative": "The caller invokes an unsupported JSON-RPC method.",
+      "outcome": "Ø",
+      "actual_local_effect_count": 0,
+      "rpc_responses": [
+        {
+          "error": -32601
+        }
+      ],
+      "request_bytes": 372,
+      "operational_sql_statements": 0,
+      "trace": [],
+      "readOnly_hint": false,
+      "annotation_enforced_as_authority": false,
+      "native_transport_executed": false
+    },
+    {
+      "id": "MCP-04",
+      "narrative": "The tool arguments use a number where the selected schema requires a tenant string.",
+      "outcome": "Ø",
+      "actual_local_effect_count": 0,
+      "rpc_responses": [
+        {
+          "error": -32602
+        }
+      ],
+      "request_bytes": 357,
+      "operational_sql_statements": 0,
+      "trace": [],
+      "readOnly_hint": false,
+      "annotation_enforced_as_authority": false,
+      "native_transport_executed": false
+    },
+    {
+      "id": "MCP-05",
+      "narrative": "The caller self-reports an admin-like clientInfo name but has no admitted resource grant.",
+      "outcome": "Ø",
+      "actual_local_effect_count": 0,
+      "rpc_responses": [
+        {
+          "error": -32000,
+          "reason": "local-authority"
+        }
+      ],
+      "request_bytes": 363,
+      "operational_sql_statements": 1,
+      "trace": [
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        }
+      ],
+      "readOnly_hint": false,
+      "annotation_enforced_as_authority": false,
+      "native_transport_executed": false
+    },
+    {
+      "id": "MCP-06",
+      "narrative": "The caller relies on catalog revision1 after the selected tool contract changes to revision2.",
+      "outcome": "Ø",
+      "actual_local_effect_count": 0,
+      "rpc_responses": [
+        {
+          "error": -32000,
+          "reason": "local-contract"
+        }
+      ],
+      "request_bytes": 365,
+      "operational_sql_statements": 0,
+      "trace": [],
+      "readOnly_hint": false,
+      "annotation_enforced_as_authority": false,
+      "native_transport_executed": false
+    },
+    {
+      "id": "MCP-07",
+      "narrative": "An authorized write tool advertises a readOnly hint. The local write still occurs under its actual contract; the hint does not enforce read-only behavior.",
+      "outcome": "I",
+      "actual_local_effect_count": 1,
+      "rpc_responses": [
+        {
+          "jsonrpc": "2.0",
+          "id": "MCP-07",
+          "result": {
+            "content": [
+              {
+                "type": "text",
+                "text": "local effect admitted"
+              }
+            ],
+            "isError": false
+          }
+        }
+      ],
+      "request_bytes": 365,
+      "operational_sql_statements": 4,
+      "trace": [
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        },
+        {
+          "sql": "begin immediate",
+          "event": "begin"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        },
+        {
+          "sql": "insert or ignore into effects values(?,?,?)",
+          "event": "insert"
+        }
+      ],
+      "readOnly_hint": true,
+      "annotation_enforced_as_authority": false,
+      "native_transport_executed": false
+    },
+    {
+      "id": "MCP-08",
+      "narrative": "The same admitted operation is submitted twice and the actual local resource must deduplicate it.",
+      "outcome": "I",
+      "actual_local_effect_count": 1,
+      "rpc_responses": [
+        {
+          "jsonrpc": "2.0",
+          "id": "MCP-08",
+          "result": {
+            "content": [
+              {
+                "type": "text",
+                "text": "local effect admitted"
+              }
+            ],
+            "isError": false
+          }
+        },
+        {
+          "jsonrpc": "2.0",
+          "id": "MCP-08",
+          "result": {
+            "content": [
+              {
+                "type": "text",
+                "text": "local effect admitted"
+              }
+            ],
+            "isError": false
+          }
+        }
+      ],
+      "request_bytes": 365,
+      "operational_sql_statements": 8,
+      "trace": [
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        },
+        {
+          "sql": "begin immediate",
+          "event": "begin"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        },
+        {
+          "sql": "insert or ignore into effects values(?,?,?)",
+          "event": "insert"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        },
+        {
+          "sql": "begin immediate",
+          "event": "begin"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        },
+        {
+          "sql": "insert or ignore into effects values(?,?,?)",
+          "event": "insert"
+        }
+      ],
+      "readOnly_hint": false,
+      "annotation_enforced_as_authority": false,
+      "native_transport_executed": false
+    },
+    {
+      "id": "MCP-09",
+      "narrative": "A local grant is revoked after initial admission and before the resource effect; resource-side current checking must refuse it.",
+      "outcome": "Ø",
+      "actual_local_effect_count": 0,
+      "rpc_responses": [
+        {
+          "error": -32000,
+          "reason": "current-local-authority"
+        }
+      ],
+      "request_bytes": 365,
+      "operational_sql_statements": 4,
+      "trace": [
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        },
+        {
+          "sql": "update grants set allowed=0",
+          "event": "update"
+        },
+        {
+          "sql": "begin immediate",
+          "event": "begin"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "event": "select"
+        }
+      ],
+      "readOnly_hint": false,
+      "annotation_enforced_as_authority": false,
+      "native_transport_executed": false
+    }
+  ],
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "protocol_reference": "2026-07-28",
+  "card_sha256": "384d69162b41bcb39d81e6e0b8612a6af6ec59bdf91d07c6225a950a98788423",
+  "freeze_sha256": "89bfe77f37104669ac65b458937befb99bd7b62268e3c0adde7e9a574cd78c7d",
+  "population_estimate": false,
+  "native_MCP_SDK_transport_or_full_conformance": false,
+  "independent_validation": false
+}

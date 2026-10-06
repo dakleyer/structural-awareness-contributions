@@ -1,0 +1,431 @@
+{
+  "status": "PASS_REGISTERED_FIXTURE_ASSERTIONS",
+  "cases": [
+    {
+      "id": "S01",
+      "narrative": "A valid client presents a token for the intended batch endpoint.",
+      "identity_accepted": true,
+      "receiving_reason": "delivery-confirmed",
+      "effects": [
+        {
+          "tenant": "tenant-A",
+          "purpose": "batch-remediation",
+          "action": "apply-batch"
+        }
+      ],
+      "qualified_outcome": "I",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_sha256": "faeea2f31be7a5db9f119a61be9d89d0c4f5e5bf9f4eaa55f1db4b6ab9f21648",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S02",
+      "narrative": "The intended service is one entry in a multi-audience credential.",
+      "identity_accepted": true,
+      "receiving_reason": "delivery-confirmed",
+      "effects": [
+        {
+          "tenant": "tenant-A",
+          "purpose": "batch-remediation",
+          "action": "apply-batch"
+        }
+      ],
+      "qualified_outcome": "I",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_sha256": "b4acf1242f3b03570f5eef80e27e8129fe8cbaf3fa6617e19e774f10a15ea993",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S03",
+      "narrative": "A validly signed identity token is addressed to another service.",
+      "identity_accepted": false,
+      "receiving_reason": "audience-required-or-mismatch",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "baea332bca8cfa5bb161fcee4b2b856677c4e78dc1c5a98e6f4dc394151676ef",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S04",
+      "narrative": "The service receives the credential exactly at its expiry.",
+      "identity_accepted": false,
+      "receiving_reason": "expired",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "faeea2f31be7a5db9f119a61be9d89d0c4f5e5bf9f4eaa55f1db4b6ab9f21648",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S05",
+      "narrative": "A credential has no audience.",
+      "identity_accepted": false,
+      "receiving_reason": "audience-required-or-mismatch",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "749d2cfedb8238c82d6b349df340b77f339438262a9dacc14d44cfb2ed68cf4b",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S06",
+      "narrative": "A credential has no expiration.",
+      "identity_accepted": false,
+      "receiving_reason": "expiration-required",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "ed3751713db71fa2f79deea2e3f22359a0feecdbb237683fc36e284bd16cb172",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S07",
+      "narrative": "An untrusted issuer uses a familiar key name.",
+      "identity_accepted": false,
+      "receiving_reason": "invalid-signature",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "041c0514bb7225b82807612ceab2e401357d5662e3fc64f34c9304458e620e14",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S08",
+      "narrative": "A key identifier is absent from the admitted bundle.",
+      "identity_accepted": false,
+      "receiving_reason": "unknown-key",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 0,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "219e883b9973eb3facea14cc3853b20cf1f90a8fc506aa0255657dce9b8da17b",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S09",
+      "narrative": "A header names a symmetric algorithm outside this selected RSA profile.",
+      "identity_accepted": false,
+      "receiving_reason": "algorithm-outside-selected-rs256-profile",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 0,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "50fcbd02f4af5c6a70f29c9674561ac37bd79ae39fda9654640cd7b0ff0b26ff",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S10",
+      "narrative": "A token tries to supply its own remote key location.",
+      "identity_accepted": false,
+      "receiving_reason": "unsupported-header",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 0,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "cd8efbaa5c2c539b285b9503b709e13423c8bfae1ebd7ba90ba7def26190f302",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S11",
+      "narrative": "A signature-valid payload repeats an expiration member.",
+      "identity_accepted": false,
+      "receiving_reason": "duplicate-json-member",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 0,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "ac9e93edf9ab92e42aea059145c953936ad31d9553216b614f9d687ade416028",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S12",
+      "narrative": "The subject is an ordinary URL rather than a workload identifier.",
+      "identity_accepted": false,
+      "receiving_reason": "invalid-selected-spiffe-id",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 0,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "631f6d753446d32eed2b1852165d377c576b5f559e0ddf3bac3966ede5415bc9",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S13",
+      "narrative": "The subject belongs to a trust domain for which no bundle is admitted.",
+      "identity_accepted": false,
+      "receiving_reason": "untrusted-domain",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 0,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "aba882f76f00ef599dd4e5572f9289b11875cd0a5909f1d6a23d48e4ab0ce8fb",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S14",
+      "narrative": "The workload ID includes a forbidden query component.",
+      "identity_accepted": false,
+      "receiving_reason": "invalid-selected-spiffe-id",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 0,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "625721a2d5256340bc1e9365a0bed37a39780e360e0f9b051b323bb426d83e23",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S15",
+      "narrative": "The signature bytes are changed after issuance.",
+      "identity_accepted": false,
+      "receiving_reason": "invalid-signature",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "96b6d278b528be9578b201fd5525fe54a6c11fb8b02559fa5cc8c326cacbb5de",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S16",
+      "narrative": "A successfully authenticated client has a revoked application grant.",
+      "identity_accepted": true,
+      "receiving_reason": "grant-revoked",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": true,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_sha256": "faeea2f31be7a5db9f119a61be9d89d0c4f5e5bf9f4eaa55f1db4b6ab9f21648",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S17",
+      "narrative": "A valid identity is mapped to a different tenant operation.",
+      "identity_accepted": true,
+      "receiving_reason": "tenant-mismatch",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": true,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_sha256": "faeea2f31be7a5db9f119a61be9d89d0c4f5e5bf9f4eaa55f1db4b6ab9f21648",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S18",
+      "narrative": "A valid identity is offered for a purpose outside its application grant.",
+      "identity_accepted": true,
+      "receiving_reason": "purpose-mismatch",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": true,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_sha256": "faeea2f31be7a5db9f119a61be9d89d0c4f5e5bf9f4eaa55f1db4b6ab9f21648",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S19",
+      "narrative": "Another genuine workload is not the sender permitted by this case.",
+      "identity_accepted": true,
+      "receiving_reason": "sender-mismatch",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": true,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_sha256": "67afadefb3fe7c2b11e051b1aa4c7f03755d484a0929539ac86194bfdc99813d",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S20",
+      "narrative": "An old token remains signed while its signing key is retired from the bundle.",
+      "identity_accepted": false,
+      "receiving_reason": "unknown-key",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 0,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "faeea2f31be7a5db9f119a61be9d89d0c4f5e5bf9f4eaa55f1db4b6ab9f21648",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S21",
+      "narrative": "A new signing key is published before a new token is consumed.",
+      "identity_accepted": true,
+      "receiving_reason": "delivery-confirmed",
+      "effects": [
+        {
+          "tenant": "tenant-A",
+          "purpose": "batch-remediation",
+          "action": "apply-batch"
+        }
+      ],
+      "qualified_outcome": "I",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_sha256": "d187ac3c522d44d51c85a133921b445d595010110540747363a12861489f733b",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S22",
+      "narrative": "A declared not-before interval has not started.",
+      "identity_accepted": false,
+      "receiving_reason": "not-yet-valid",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "1b251b0f49484e99ab230d15865922e81c6ff3abe223c346f3427bccc41164df",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S23",
+      "narrative": "The admitted library is asked to parse an oversized token.",
+      "identity_accepted": false,
+      "receiving_reason": "token-size",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 0,
+        "application_policy_checks": 0
+      },
+      "compact_token_sha256": "e5c8309afda18ec4ec225ada92dab2d5768f7d845d8cebf2b9968392a6bfd6de",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S24",
+      "narrative": "A duplicate operation is authenticated but must not be applied twice.",
+      "identity_accepted": true,
+      "receiving_reason": "delivery-confirmed",
+      "effects": [
+        {
+          "tenant": "tenant-A",
+          "purpose": "batch-remediation",
+          "action": "apply-batch"
+        }
+      ],
+      "qualified_outcome": "I",
+      "identity_only_misuse_wrong_effect": false,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 2
+      },
+      "compact_token_sha256": "faeea2f31be7a5db9f119a61be9d89d0c4f5e5bf9f4eaa55f1db4b6ab9f21648",
+      "secret_or_compact_token_exported": false
+    },
+    {
+      "id": "S25",
+      "narrative": "A named human owner exists but useful reviewer capacity is unavailable.",
+      "identity_accepted": true,
+      "receiving_reason": "useful-review-unavailable",
+      "effects": [],
+      "qualified_outcome": "incomplete",
+      "identity_only_misuse_wrong_effect": true,
+      "work": {
+        "signature_verifications": 1,
+        "application_policy_checks": 1
+      },
+      "compact_token_sha256": "faeea2f31be7a5db9f119a61be9d89d0c4f5e5bf9f4eaa55f1db4b6ab9f21648",
+      "secret_or_compact_token_exported": false
+    }
+  ],
+  "assertions": 75,
+  "qualified_outcome_counts": {
+    "I": 4,
+    "M": 0,
+    "P": 0,
+    "incomplete": 21
+  },
+  "diagnostic_wrong_effects": 5,
+  "diagnostic_is_not_a_strong_SPIFFE_comparator": true,
+  "elapsed_local_seconds": 0.038904499961063266,
+  "scope": "Own selected RS256 JWT-SVID/app validation fixture using cryptography, no native SPIRE/Workload API execution",
+  "external_matched_differential": "not established",
+  "run_id": "DDS-SPIFFE-JWT-20261006-01",
+  "canonical_DDS_profile": {
+    "path": "../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+    "logical_identity": "single canonical DDS technical profile",
+    "method_version": "0.1"
+  },
+  "implementation_profile": "SPIFFE JWT-SVID RS256 local validation and qualified batch receiver",
+  "software_version": "DDS-INDEPENDENT-EXERCISES-0.1",
+  "python": "3.12.14",
+  "cryptography_version": "50.0.1",
+  "run_card_sha256": "8cc0ea51200bc6812dc0bc7f9a826ec096ada3076acc87bdd316563b73092e65",
+  "freeze_sha256": "e484d4bbe2960e55a18cbfa2d5989ac9991a102aa82e5393064df5c1d6adb861",
+  "evidence": "same-author bounded executed fixture; no production or independent validation",
+  "population_rates_established": false,
+  "native_SPIRE_TPM_or_verifier_product_executed": false
+}

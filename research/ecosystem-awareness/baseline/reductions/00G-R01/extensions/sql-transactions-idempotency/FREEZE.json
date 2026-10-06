@@ -1,0 +1,10 @@
+{
+  "version": "0.1",
+  "registered_before_execution": true,
+  "frozen_at_utc": "2026-10-06T20:27:58.381840+00:00",
+  "files": {
+    "RUN_CARD.json": "8de8e6075b6debb42c7922b5cdfe728c168bc5f0b3cb2ddf8832e0718cee80cd",
+    "study.py": "b283451a9fab6397af7861e8b73d487a61942dc929039eace6b20c6426efcfb2"
+  },
+  "claim_ceiling": "Actual embedded SQLite transactions and digital rows, including two connections and a second separately committed SQLite file. No PostgreSQL, distributed transaction/broker/service, physical effect, power-loss durability campaign or comparative superiority."
+}

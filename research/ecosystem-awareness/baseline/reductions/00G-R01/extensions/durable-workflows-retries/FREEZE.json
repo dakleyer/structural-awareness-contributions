@@ -1,0 +1,10 @@
+{
+  "version": "0.1",
+  "registered_before_execution": true,
+  "frozen_at_utc": "2026-10-06T20:31:36.759618+00:00",
+  "files": {
+    "RUN_CARD.json": "70d94e994bd2de9c1e291328b2126affd27eabbc52e929e7bd71dbaffb1993f9",
+    "study.py": "16d62b6cf4720400e50230e3868dca08f3db6600b34f0b8e10e2624aaea3339d"
+  },
+  "claim_ceiling": "Actual local SQLite persistence/close-reopen/resource writes, authored worker/retry/latency/grant model. No Temporal SDK/service, distributed failure campaign, actual human availability, physical deadline calibration, population rate or independent validation."
+}

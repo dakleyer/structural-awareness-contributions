@@ -1,0 +1,89 @@
+{
+  "version": "0.2",
+  "date": "2026-10-06",
+  "profiles": {
+    "rag": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "16XUxQvWlZuBjZVxJfOLZjJ2uSZkwhBVytffn0v_k3rQ",
+      "source_paragraphs": 65,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 77,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "oauth-oidc": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "10Wb_hgEdj5IW8lQNQDBIYYDh7rLyfE24et33QSuREhk",
+      "source_paragraphs": 66,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 73,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "mcp-tool-calling": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "1dHNa75wkPZFPMjZQj_VqryBUlmQl8hXdIXG-PlcsFFE",
+      "source_paragraphs": 62,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 76,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "sql-transactions-idempotency": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "1f8zPoJ8AcXZHhsS84Mb2KXiOxLmufEna9RhDs43r1AU",
+      "source_paragraphs": 63,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 82,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "durable-workflows-retries": {
+      "status": "PASS_NATIVE_SOURCE_CONTENT_AND_STRUCTURE",
+      "document_id": "1YdNtmPb2Cth9E7f-7CHmaeViPvs0_7-3ZZdF8asyXls",
+      "source_paragraphs": 66,
+      "native_date": 1,
+      "tables": 4,
+      "cells": 79,
+      "all_table_cells_match_source": true,
+      "rendered_PDF_visual_inspection": false,
+      "documentation_version": "0.2",
+      "original_source_paragraphs_preserved_with_version_update": true,
+      "current_canonical_crosswalk_verified": true,
+      "original_native_doc_backup_preserved": true
+    },
+    "catalogue": {
+      "status": "PASS",
+      "documentation_version": "0.2",
+      "native_tables": 2,
+      "native_cells": 51,
+      "all_cells_match": true,
+      "date_chip": 1,
+      "rich_links": 7,
+      "native_header_and_resource_structure_preserved": true
+    }
+  },
+  "canonical_review": "09b8fe09082f15612114ebe0fd3be8418be7a061",
+  "old_source_grade_not_upgraded": true,
+  "rendered_PDF_visual_QA": false
+}

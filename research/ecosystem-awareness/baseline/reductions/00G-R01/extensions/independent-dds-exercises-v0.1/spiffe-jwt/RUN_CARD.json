@@ -1,0 +1,286 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "canonical_DDS_profile": {
+    "path": "../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+    "logical_identity": "single canonical DDS technical profile",
+    "method_version": "0.1"
+  },
+  "acceptance": "Each registered assertion must pass; failures/denials and deliberate unsafe diagnostic effects remain outcomes. This is instrument acceptance, not deployment or population C/R/E acceptance.",
+  "cost": "Count actual local signature checks/hash reads/policy operations; record local elapsed time separately. No tariffs, salaries or production SLA inferred.",
+  "coverage": {
+    "challenge": "technology-specific bounded synthetic task",
+    "correspondence": "declared local realization, no operational isomorphism proved",
+    "I": "sufficient legitimate task delivery",
+    "M": "explicitly allowed lower-value outcome only when chosen/completed",
+    "P": "materially wrong/unauthorized effect",
+    "incomplete": "no sufficient route within the registered horizon",
+    "probability_law": "designed finite cases; no population probability fitted",
+    "effectiveness_and_risk_rates": "unscored",
+    "business_value": "illustrative process objective; owner calibration pending"
+  },
+  "private_state": "Expected flags and actual-world facts belong only to the evaluator; participant functions receive observations/claims and admitted current policy sources.",
+  "credential_policy": "Ephemeral fixture signing keys and compact tokens remain in memory; no credential or private key in output.",
+  "implementation_profile": "SPIFFE JWT-SVID RS256 local validation and qualified batch receiver",
+  "run_id": "DDS-SPIFFE-JWT-20261006-01",
+  "cases": [
+    {
+      "id": "S01",
+      "narrative": "A valid client presents a token for the intended batch endpoint.",
+      "mutations": {},
+      "expected_identity_accept": true,
+      "expected_qualified_delivery": true
+    },
+    {
+      "id": "S02",
+      "narrative": "The intended service is one entry in a multi-audience credential.",
+      "mutations": {
+        "claims": {
+          "aud": [
+            "audit-service",
+            "batch-service"
+          ]
+        }
+      },
+      "expected_identity_accept": true,
+      "expected_qualified_delivery": true
+    },
+    {
+      "id": "S03",
+      "narrative": "A validly signed identity token is addressed to another service.",
+      "mutations": {
+        "claims": {
+          "aud": "other-service"
+        }
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S04",
+      "narrative": "The service receives the credential exactly at its expiry.",
+      "mutations": {
+        "now": 1791298920
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S05",
+      "narrative": "A credential has no audience.",
+      "mutations": {
+        "remove_claims": [
+          "aud"
+        ]
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S06",
+      "narrative": "A credential has no expiration.",
+      "mutations": {
+        "remove_claims": [
+          "exp"
+        ]
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S07",
+      "narrative": "An untrusted issuer uses a familiar key name.",
+      "mutations": {
+        "wrong_signer": true
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S08",
+      "narrative": "A key identifier is absent from the admitted bundle.",
+      "mutations": {
+        "headers": {
+          "kid": "unknown"
+        }
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S09",
+      "narrative": "A header names a symmetric algorithm outside this selected RSA profile.",
+      "mutations": {
+        "headers": {
+          "alg": "HS256"
+        }
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S10",
+      "narrative": "A token tries to supply its own remote key location.",
+      "mutations": {
+        "headers": {
+          "jku": "https://example.org/untrusted-keys"
+        }
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S11",
+      "narrative": "A signature-valid payload repeats an expiration member.",
+      "mutations": {
+        "duplicate_claims": true
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S12",
+      "narrative": "The subject is an ordinary URL rather than a workload identifier.",
+      "mutations": {
+        "claims": {
+          "sub": "https://example.org/client"
+        }
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S13",
+      "narrative": "The subject belongs to a trust domain for which no bundle is admitted.",
+      "mutations": {
+        "claims": {
+          "sub": "spiffe://foreign.example/batch/client"
+        }
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S14",
+      "narrative": "The workload ID includes a forbidden query component.",
+      "mutations": {
+        "claims": {
+          "sub": "spiffe://example.org/batch/client?role=admin"
+        }
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S15",
+      "narrative": "The signature bytes are changed after issuance.",
+      "mutations": {
+        "tamper_signature": true
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S16",
+      "narrative": "A successfully authenticated client has a revoked application grant.",
+      "mutations": {
+        "grant_active": false
+      },
+      "expected_identity_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S17",
+      "narrative": "A valid identity is mapped to a different tenant operation.",
+      "mutations": {
+        "grant_tenant": "other"
+      },
+      "expected_identity_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S18",
+      "narrative": "A valid identity is offered for a purpose outside its application grant.",
+      "mutations": {
+        "grant_purpose": "other"
+      },
+      "expected_identity_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S19",
+      "narrative": "Another genuine workload is not the sender permitted by this case.",
+      "mutations": {
+        "claims": {
+          "sub": "spiffe://example.org/batch/other"
+        }
+      },
+      "expected_identity_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S20",
+      "narrative": "An old token remains signed while its signing key is retired from the bundle.",
+      "mutations": {
+        "retired_key": true
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S21",
+      "narrative": "A new signing key is published before a new token is consumed.",
+      "mutations": {
+        "rotated_key": true
+      },
+      "expected_identity_accept": true,
+      "expected_qualified_delivery": true
+    },
+    {
+      "id": "S22",
+      "narrative": "A declared not-before interval has not started.",
+      "mutations": {
+        "claims": {
+          "nbf": 1791298830
+        }
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S23",
+      "narrative": "The admitted library is asked to parse an oversized token.",
+      "mutations": {
+        "oversized": true
+      },
+      "expected_identity_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "S24",
+      "narrative": "A duplicate operation is authenticated but must not be applied twice.",
+      "mutations": {
+        "replay": true
+      },
+      "expected_identity_accept": true,
+      "expected_qualified_delivery": true
+    },
+    {
+      "id": "S25",
+      "narrative": "A named human owner exists but useful reviewer capacity is unavailable.",
+      "mutations": {
+        "capacity": false
+      },
+      "expected_identity_accept": true,
+      "expected_qualified_delivery": false
+    }
+  ],
+  "claim_base": {
+    "sub": "spiffe://example.org/batch/client",
+    "aud": "batch-service",
+    "exp": 1791298920,
+    "iat": 1791298800
+  },
+  "reference_time": 1791298800,
+  "selected_signature_profile": "RS256 only; other supported SPIFFE signature suites are not tested"
+}

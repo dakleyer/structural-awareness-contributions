@@ -58,3 +58,6 @@
 
 # Exact bytes of the additive scoped DDS completion packet, including frozen source/results.
 research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-study-completion-v0.1/** -text
+
+# DDS extension-home source/run replicas and prospectively frozen study bytes.
+research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/** -text

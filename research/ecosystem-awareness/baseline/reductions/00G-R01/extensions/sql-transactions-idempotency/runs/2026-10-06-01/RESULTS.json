@@ -1,0 +1,526 @@
+{
+  "schema": "DDS-EXTENSION-RESULT-0.1",
+  "study": "DDS-SQL-TRANSACTION-IDEMPOTENCY-20261006",
+  "status": "PASS_REGISTERED_LOCAL_EXPECTATIONS",
+  "case_count": 9,
+  "assertions": 18,
+  "outcome_counts": {
+    "I": 4,
+    "Ø": 4,
+    "P": 1
+  },
+  "results": [
+    {
+      "id": "TX-01",
+      "narrative": "A permitted local ledger change and its receipt commit in the same SQLite transaction.",
+      "outcome": "I",
+      "actual": {
+        "ledger": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "receipt": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "outbox": []
+      },
+      "external_local_database_effects": 0,
+      "current_requested_payload": "payload-a",
+      "matching_current_receipt": true,
+      "controller_history": [
+        "COMMITTED"
+      ],
+      "operational_sql_statements": 5,
+      "trace": [
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into ledger values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into receipt values(?,?)",
+          "connection": "second"
+        }
+      ],
+      "setup_sql_statements": 7,
+      "diagnostic": null,
+      "native_distributed_service_executed": false
+    },
+    {
+      "id": "TX-02",
+      "narrative": "The application fails after inserting the local effect but before commit. Rollback must leave no effect or receipt.",
+      "outcome": "Ø",
+      "actual": {
+        "ledger": [],
+        "receipt": [],
+        "outbox": []
+      },
+      "external_local_database_effects": 0,
+      "current_requested_payload": "payload-a",
+      "matching_current_receipt": false,
+      "controller_history": [
+        "ABORTED"
+      ],
+      "operational_sql_statements": 5,
+      "trace": [
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into ledger values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into receipt values(?,?)",
+          "connection": "second"
+        }
+      ],
+      "setup_sql_statements": 7,
+      "diagnostic": null,
+      "native_distributed_service_executed": false
+    },
+    {
+      "id": "TX-03",
+      "narrative": "The same admitted operation/payload is retried. Its stable resource key must preserve one effect and recover the receipt.",
+      "outcome": "I",
+      "actual": {
+        "ledger": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "receipt": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "outbox": []
+      },
+      "external_local_database_effects": 0,
+      "current_requested_payload": "payload-a",
+      "matching_current_receipt": true,
+      "controller_history": [
+        "COMMITTED",
+        "RECOVERED"
+      ],
+      "operational_sql_statements": 8,
+      "trace": [
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into ledger values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into receipt values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        }
+      ],
+      "setup_sql_statements": 7,
+      "diagnostic": null,
+      "native_distributed_service_executed": false
+    },
+    {
+      "id": "TX-04",
+      "narrative": "Two actual connections both read initial absence before sequential admitted writes. The unique transaction key must reject a second effect.",
+      "outcome": "I",
+      "actual": {
+        "ledger": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "receipt": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "outbox": []
+      },
+      "external_local_database_effects": 0,
+      "current_requested_payload": "payload-a",
+      "matching_current_receipt": true,
+      "controller_history": [
+        {
+          "both_initial_absent": [
+            true,
+            true
+          ]
+        },
+        "COMMITTED",
+        "RECOVERED"
+      ],
+      "operational_sql_statements": 10,
+      "trace": [
+        {
+          "sql": "select count(*) from ledger",
+          "connection": "primary"
+        },
+        {
+          "sql": "select count(*) from ledger",
+          "connection": "second"
+        },
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into ledger values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into receipt values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        }
+      ],
+      "setup_sql_statements": 7,
+      "diagnostic": null,
+      "native_distributed_service_executed": false
+    },
+    {
+      "id": "TX-05",
+      "narrative": "An earlier operation exists. A new request reuses its identifier with a different payload; its old receipt must not authorize the changed request.",
+      "outcome": "Ø",
+      "actual": {
+        "ledger": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "receipt": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "outbox": []
+      },
+      "external_local_database_effects": 0,
+      "current_requested_payload": "payload-b",
+      "matching_current_receipt": false,
+      "controller_history": [
+        "COMMITTED",
+        "REFUSED_PAYLOAD_CONFLICT"
+      ],
+      "operational_sql_statements": 8,
+      "trace": [
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into ledger values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into receipt values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        }
+      ],
+      "setup_sql_statements": 7,
+      "diagnostic": null,
+      "native_distributed_service_executed": false
+    },
+    {
+      "id": "TX-06",
+      "narrative": "The local effect and an outbox record commit, but the selected task additionally requires downstream consumption. No consumer has completed it.",
+      "outcome": "Ø",
+      "actual": {
+        "ledger": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "receipt": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "outbox": [
+          [
+            "operation-a",
+            0
+          ]
+        ]
+      },
+      "external_local_database_effects": 0,
+      "current_requested_payload": "payload-a",
+      "matching_current_receipt": true,
+      "controller_history": [
+        "COMMITTED"
+      ],
+      "operational_sql_statements": 6,
+      "trace": [
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into ledger values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into receipt values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into outbox values(?,0)",
+          "connection": "second"
+        }
+      ],
+      "setup_sql_statements": 7,
+      "diagnostic": null,
+      "native_distributed_service_executed": false
+    },
+    {
+      "id": "TX-07",
+      "narrative": "A separate local database commits an effect, then the primary business transaction aborts. Its rollback cannot undo that out-of-domain effect.",
+      "outcome": "P",
+      "actual": {
+        "ledger": [],
+        "receipt": [],
+        "outbox": []
+      },
+      "external_local_database_effects": 1,
+      "current_requested_payload": "payload-a",
+      "matching_current_receipt": false,
+      "controller_history": [
+        "ABORTED"
+      ],
+      "operational_sql_statements": 5,
+      "trace": [
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into ledger values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into receipt values(?,?)",
+          "connection": "second"
+        }
+      ],
+      "setup_sql_statements": 7,
+      "diagnostic": "outside the one-database atomicity contract",
+      "native_distributed_service_executed": false
+    },
+    {
+      "id": "TX-08",
+      "narrative": "The current admitted local grant denies the requested operation.",
+      "outcome": "Ø",
+      "actual": {
+        "ledger": [],
+        "receipt": [],
+        "outbox": []
+      },
+      "external_local_database_effects": 0,
+      "current_requested_payload": "payload-a",
+      "matching_current_receipt": false,
+      "controller_history": [
+        "REFUSED"
+      ],
+      "operational_sql_statements": 3,
+      "trace": [
+        {
+          "sql": "update grants set allowed=0",
+          "connection": "primary"
+        },
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        }
+      ],
+      "setup_sql_statements": 7,
+      "diagnostic": null,
+      "native_distributed_service_executed": false
+    },
+    {
+      "id": "TX-09",
+      "narrative": "The effect/receipt committed but the caller missed the acknowledgement. A later connection recovers the one durable local receipt.",
+      "outcome": "I",
+      "actual": {
+        "ledger": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "receipt": [
+          [
+            "operation-a",
+            "payload-a"
+          ]
+        ],
+        "outbox": []
+      },
+      "external_local_database_effects": 0,
+      "current_requested_payload": "payload-a",
+      "matching_current_receipt": true,
+      "controller_history": [
+        "COMMITTED",
+        "RECOVERED"
+      ],
+      "operational_sql_statements": 8,
+      "trace": [
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into ledger values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "insert into receipt values(?,?)",
+          "connection": "second"
+        },
+        {
+          "sql": "begin immediate",
+          "connection": "second"
+        },
+        {
+          "sql": "select allowed from grants where tenant=?",
+          "connection": "second"
+        },
+        {
+          "sql": "select payload from ledger where operation=?",
+          "connection": "second"
+        }
+      ],
+      "setup_sql_statements": 7,
+      "diagnostic": null,
+      "native_distributed_service_executed": false
+    }
+  ],
+  "python": "3.12.14",
+  "sqlite": "3.53.1",
+  "card_sha256": "8de8e6075b6debb42c7922b5cdfe728c168bc5f0b3cb2ddf8832e0718cee80cd",
+  "freeze_sha256": "0b4f6442b9c7f22907fdde7b962036233eea650de0037f434142bb3f8f0c8b4e",
+  "population_estimate": false,
+  "independent_validation": false,
+  "all_concurrency_interleavings_proved": false
+}

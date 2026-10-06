@@ -1,0 +1,13 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "registered_before_execution": true,
+  "files": {
+    "RUN_CARD.json": "7d2538d2aeef192fc493f16029f374e78df2413db7da02d6c1c36930ea169822",
+    "study.py": "4fca541daeb336d419f2e1905ab308672ce0fdc1668dd10d2d7ea924c921954e"
+  },
+  "claim_ceiling": "Actual embedded SQLite full-text retrieval; authored qualification/extraction model; no vector-embedding/native RAG provider, generated answer, human campaign or comparative superiority.",
+  "amendment": "A1 pre-execution byte-serialization correction",
+  "frozen_at_utc": "2026-10-06T20:16:30.750966+00:00",
+  "reason": "First attempt aborted before output creation/cases because apply_patch added a trailing newline beyond the precomputed string hash. Card, expected results and code semantics unchanged; actual bytes now frozen."
+}

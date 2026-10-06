@@ -1,0 +1,10 @@
+{
+  "version": "0.1",
+  "registered_before_execution": true,
+  "frozen_at_utc": "2026-10-06T20:24:41.590445+00:00",
+  "files": {
+    "RUN_CARD.json": "384d69162b41bcb39d81e6e0b8612a6af6ec59bdf91d07c6225a950a98788423",
+    "study.py": "2ef9b8b383eed99ea988ec13bdef01feb9825743999fe61ed4219b846d5334dc"
+  },
+  "claim_ceiling": "Actual JSON serialization/parsing and local SQLite digital effect with own selected MCP-related scalar profile. No official SDK, stdio/HTTP connection, OAuth transport, MCP Apps, complete JSON Schema or native server conformance."
+}
