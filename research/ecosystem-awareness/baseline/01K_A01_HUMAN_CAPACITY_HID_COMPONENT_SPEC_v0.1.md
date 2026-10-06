@@ -303,6 +303,120 @@ That decision remains owned by the consuming MSCA/Repositioning/authority proces
 
 The component may emit a bounded **requalification request** as an ordinary output when an input needed for its own function is missing or stale. A request is not a command and does not grant authority.
 
+
+# 2C. Receiver-side requalification — producer A/B/C/D is not copied
+
+The EHD preserves the producer's semantic role; it does not make that role universal.
+
+For receiver process R:
+
+~~~text
+ProducerQualifiedPosition
+=
+[A_HC, B_HC, C_HC, D_HC]
+
+-- EHD -->
+
+Receiver R
+=
+requalify(
+  producer,
+  scope,
+  provenance,
+  freshness,
+  compatibility,
+  own capability,
+  own question
+)
+~~~
+
+The receiver MUST NOT apply:
+
+~~~text
+A_HC -> A_R
+B_HC -> B_R
+C_HC -> C_R
+D_HC -> D_R
+~~~
+
+as a mechanical identity.
+
+Examples:
+
+- `A_HC = AVAILABLE` is the delivered result of the Runtime Capacity process. For an EA process deciding whether the current frame has an effective intervention path, that result is **input evidence**. After receiver-side qualification it may support the EA result or its basis; it is not automatically `A_EA`.
+- `B_HC` may become B of the receiving process when it qualifies a receiver result, or it may remain source evidence without being adopted.
+- `C_HC` becomes C for the receiver only if the receiver itself has a grounded but still uncharacterized route to explore it.
+- `D_HC` remains D for the receiver only if the relevant effect is also beyond the receiver's effective evaluation route. A specialist receiver may convert a source-side D aspect into its own C, B or A.
+- the same rule applies to `A_HID/B_HID/C_HID/D_HID`.
+
+This is the canonical 00M "same phenomenon, different actor/process" rule applied to HC-HID.
+
+## 2C.1 Mapping into Cartography
+
+When HC-HID is material to the local ecosystem representation, Composition & Control may represent a dependency such as:
+
+~~~text
+Decision / Role / Process
+  -> depends on
+HumanReviewCapability(
+  competence,
+  authority,
+  response_window,
+  capacity_state
+)
+~~~
+
+HC-HID does not directly write `A_Cart/B_Cart/C_Cart/D_Cart`.
+
+The Cartography process requalifies the received result and assigns its own process-relative position.
+
+Therefore:
+
+~~~text
+A_HC != A_Cart
+B_HC != B_Cart
+...
+~~~
+
+unless the Cartography process independently establishes that correspondence for its own declared function.
+
+## 2C.2 Mapping into Regime Awareness
+
+HC-HID capacity/debt changes are not automatically regime changes.
+
+A material change in Human Capacity, answerability, reviewer dependency or architecture burden may become an RA input **only when it is relevant to the operating-frame question**.
+
+RA then produces its own `Delta_RA=[A_RA,B_RA,C_RA,D_RA]`.
+
+Therefore:
+
+~~~text
+A_HC != A_RA
+A_HID != A_RA
+~~~
+
+by default.
+
+A capacity drop may be evidence of regime departure; it is not itself the regime-position output.
+
+## 2C.3 Mapping into Repositioning
+
+Repositioning may consume the receiver-qualified HC-HID evidence together with Cartography, RA, MSCA, ACC and authority.
+
+The HC-HID output does not select P1/P2/P3 and does not choose ESCALATE.
+
+The normal decision table is:
+
+| HC-HID runtime result | HC-HID own action | Typical downstream consequence when human intervention is mandatory |
+|---|---|---|
+| **AVAILABLE** with adequate margin | Return normal qualified result | Human path may remain candidate; ACC/authority and other gates still apply. |
+| **DEGRADED** | Return qualified result + reasons/fallback/margin | Consumer may use fallback, requalify, reduce reliance or escalate according to policy. |
+| **UNAVAILABLE** | Return qualified result | Consumer must not treat the human gate as satisfied; HOLD/fallback/alternative/ESCALATE belongs downstream. |
+| **UNKNOWN** | Return qualified result and optionally request missing/stale inputs | Consumer must not assume availability; if the human gate is mandatory and time is material, HOLD/requalification/ESCALATE may follow downstream. |
+| **High HID / positive NOI** without incident-capacity failure | Return architecture/debt result | Architecture/design review; **no automatic incident escalation**. |
+
+This keeps 01K a normal component rather than a privileged safety interrupt.
+
 # 3. Core typed objects
 
 ## 3.1 HumanInterventionRequest
