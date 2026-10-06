@@ -1,5 +1,7 @@
 # Deployment Differential Study (DDS) — Canonical Challenge–Trajectory Profile v0.1
 
+Coverage/delivery clarification0.1.2: reduced implementations remain traceable to this one working corpus reference; technical coverage and delivery completion are distinct. No frozen evidence or mathematics changes.
+
 Review/navigation addition0.1: [sole owning VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Identity clarification is owner-authorized; method version0.1 and historical instance evidence remain unchanged.
 
 **Status:** canonical working DDS technical profile inside the Ecosystem Awareness research corpus; additive public methodology, not an adopted standard, certification scheme, assurance method or claim of product superiority.
@@ -372,6 +374,25 @@ Names are local unless their namespace is explicit. A third-party review must no
 - **00K P5 / 00I** is the symbolic principle-ablation route; **S5/Q0–Q6** is a scenario/gate route. Similar failure semantics do not make their gate IDs interchangeable.
 
 A review report should therefore use qualified names such as `DDS-M`, `R01-M`, `ZHAO-M2-cache-read`, `00K-P5`, `00I-AWS-I1` and `ZHAO/T08-S5Q2` when ambiguity is possible.
+
+## 10B. Reduced coverage, minimum traceability and delivery
+
+A study need not instantiate the whole DDS chain or score every dimension. A bounded documentary, analytical or executed study may be complete **within its declared technical scope** while using only part of this one canonical profile.
+
+Its minimum traceability record identifies:
+
+1. this canonical source and the version/commit actually used;
+2. the inherited source/frozen artefact and its original evidence status;
+3. the bounded question, scenario and technology/configuration;
+4. the surfaces selected, simplified, collapsed or not evaluated, with reasons;
+5. the source/trace basis, evidence mode and scoped finding or acceptance rule;
+6. the supported conclusion, exclusions and remaining uncertainty.
+
+A preparation record may leave execution or acceptance pending, but must not report that pending work as an established result. An unscored dimension is not zero, not a passed control and not evidence of absence of risk. A reduced study does not establish full-profile validation, native product performance or deployment Business Value merely by citing DDS.
+
+Current UC21 traversals can be traced to this profile without rerunning the entire battery or rewriting their originals. A later crosswalk records correspondence outside the frozen original; it does not confer a higher evidence grade. A stronger test or additional scored dimension belongs to a declared successor/extension with its own sources, scope and prospective test contract.
+
+**Technical coverage and delivery completion are separate.** A reduced technical scope can support a completely delivered engagement. It does not waive promised outputs. The accepted scope governs which outputs are due; each included output needs a responsible delivering owner, feasible dependencies and observable completion evidence. Prepared, reserved, planned, submitted, published and externally accepted are different states. Changes to promised outputs require explicit agreed re-scoping; commercial fees and recognition never alter technical Cost, evidence grades or acceptance.
 
 ## 11. Current profile mapping
 
