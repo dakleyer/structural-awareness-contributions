@@ -4,6 +4,16 @@
 **Parent:** [01K — Human Capacity / Human Intelligence Debt](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md).  
 **Architectural position:** additive component consumed by Ecosystem Positioning / MSCA / Signalling where material; not an EA core function, not an authority source, not an adopted standard.
 
+## Canonical component identity — one HC-HID contract
+
+**Component identity clarification0.1.1.** This file is the **single canonical working component contract for HC-HID (01K-A01) in this corpus**. “Canonical” identifies the current component reference for implementation; it does not mean empirical validation, native readiness, external acceptance or an adopted standard.
+
+[01K](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) remains the research/source/measurement owner. This specification supplies the reusable implementation contract. The schema, test vectors and verification record are subordinate reference/evidence artefacts; R01/HEW studies and Theme13–16 working notes are consumers or bounded instances. They do not create another canonical HC-HID component. Future component revisions continue this logical source and explicitly identify their version while preserving historical instances.
+
+Human Escalation may consume the Runtime Capacity engine alone. The optional HID Architecture engine remains a distinct function; runtime capacity/queue deficit is not HID, and no universal HIT unit is introduced. [The single DDS profile](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) governs study coverage, the two extension-review stages and evidence/claim limits. Its method authority does not replace this component's contract or 01K's research semantics.
+
+Review: [sole owning component VNext](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md). This is a scoped owner-authorized identity clarification; the existing technical specification and evidence boundaries remain below.
+
 ## 0. Why this file exists
 
 01K defines the research and architectural meaning of Human Capacity and Human Intelligence Debt. This file turns that material into a **reusable component contract**.
