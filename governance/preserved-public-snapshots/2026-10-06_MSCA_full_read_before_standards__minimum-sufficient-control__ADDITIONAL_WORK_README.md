@@ -88,10 +88,3 @@ Caso Riviera Maya y sus originales Word/PDF. Aporta contexto para control sufici
 The [Role review](./02_ROLE_VNext.md) and [Composition review](./03_COMPOSITION_VNext.md), with [Role note](./02_ROLE_REVIEW_CARD.md) and [Composition note](./03_COMPOSITION_REVIEW_CARD.md), are auxiliary workspaces for principal specifications already routed by MSCA. They record a partial relation to the RA input bundle; the original sources retain their authority. This catalogue only explains and links these review instruments; no new audit is opened because they appear here.
 
 The [01C evidence record](../../governance/review/01C-payload-ownership-2026-10-06/evidence.json) identifies consulted sources and coverage. It supports the review explanation and is not another architecture or experimental result.
-
-
----
-
-## Further reading record — Role and Composition
-
-The [full-text review evidence record](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json) identifies what was read and why three earlier clarification candidates were reassessed. It is support for the same workspaces, with partial external comparison; it does not create another architecture or an audit of additional material.

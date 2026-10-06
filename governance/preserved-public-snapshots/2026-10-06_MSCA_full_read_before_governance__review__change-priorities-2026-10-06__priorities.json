@@ -1,7 +1,7 @@
 {
-  "version": "1.2",
+  "version": "1.1",
   "date": "2026-10-06",
-  "source_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
+  "source_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
   "scope": {
     "expedientsReviewed": 31,
     "pairedProposals": 42,
@@ -20,8 +20,7 @@
     "risk": "Alto/Medio/Bajo según semántica, consumidores, versiones, evidencia, autoridad y preservación; cada entrada explica riesgo concreto.",
     "effort": "Bajo/Medio/Alto o No estimable todavía; trabajo de validación y mantenimiento incluido, sin horas/importes inventados.",
     "ordering": "Pendientes con par literal: impacto, prioridad, menor riesgo y menor esfuerzo como desempates; ids solo desempate final. Vista decision filtra candidatos de revisión documental, sin autorizar ejecución.",
-    "waves": "Cuatro tandas propuestas; tareas de ingeniería/campaña permanecen por concretar. No nuevo programa o owner.",
-    "rating_updates": "Apply dated rating_updates in array order before ranking; preserve source/before/after/state/authorization from entries. Original 55 records remain exact."
+    "waves": "Cuatro tandas propuestas; tareas de ingeniería/campaña permanecen por concretar. No nuevo programa o owner."
   },
   "entries": [
     {
@@ -2048,41 +2047,6 @@
       "positive_impact_proven": false,
       "heading": "Cambio 55 — adición de acceso a revisión de Role y Composition",
       "heading_line": 186
-    },
-    {
-      "id": 56,
-      "title": "Corregir el título duplicado de D_Cart",
-      "vnext": "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
-      "source": "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
-      "source_sha": "0366cbd184149235005dc2236b3da7e4c394ed3e",
-      "review_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
-      "before": "### 3.4 D_Cart### 3.4 D_Cart — cartographic residual",
-      "after": "### 3.4 D_Cart — cartographic residual",
-      "before_matches": 1,
-      "after_matches": 0,
-      "state": "Pendiente de decisión",
-      "impact": "Bajo",
-      "risk": "Medio",
-      "effort": "Bajo",
-      "priority": "Después",
-      "wave": "4 — Lectura humana y rutas",
-      "benefit": "Que el encabezado de §3.4 sea legible sin duplicar el nombre del componente.",
-      "riskReason": "Cambiar el título cambia el slug del ancla; no se encontraron enlaces locales a ese fragmento en el grafo del corte, pero pueden existir referencias externas o históricas.",
-      "costReason": "Un encabezado, control de referencias/anclas y preservación de la versión previa; no cambios de significado.",
-      "dependencies": [
-        "standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md",
-        "standards/minimum-sufficient-control/README.md"
-      ],
-      "gate": "Verificar referencias externas relevantes o conservar un ancla de compatibilidad en la edición aprobada; decisión de Iván antes de tocar la fuente.",
-      "preparation": "Corrección editorial pendiente; revisar ancla",
-      "source_guard": "Canon preservado hasta decisión",
-      "decision_ready": false,
-      "authorized_to_apply": false,
-      "positive_impact_proven": false,
-      "assessment_basis": "Lectura textual completa de Composition y revisión de enlaces del corte, sin inspección de todas las referencias externas.",
-      "heading": "Cambio 56 — Corregir el título duplicado de D_Cart",
-      "heading_line": 125,
-      "line": 129
     }
   ],
   "audit_coverage": [
@@ -2411,58 +2375,22 @@
         51
       ],
       "note": "Prioridades originales conservadas sin modificar sus entradas."
-    },
-    {
-      "version": "1.1",
-      "source_commit": "5c8024b8e86f01151d204ecc6b568173ffebd8e4",
-      "scope": {
-        "active_expedients": 33,
-        "paired_proposals": 46,
-        "pending_paired": 40,
-        "already_published": 5,
-        "withdrawn": 1,
-        "planning_without_literal_pair": 9,
-        "added_here": [
-          52,
-          53,
-          54,
-          55
-        ],
-        "review": "01C full text; partial related-source/evidence review, not five-pass or sixth completion"
-      },
-      "entry_ids": [
-        1,
-        55
-      ],
-      "note": "Entradas y ratings originales conservados; nuevas evaluaciones se aplican como override al leer."
     }
   ],
   "current_scope": {
-    "active_expedients": 39,
-    "paired_proposals": 47,
-    "pending_paired": 41,
+    "active_expedients": 33,
+    "paired_proposals": 46,
+    "pending_paired": 40,
     "already_published": 5,
     "withdrawn": 1,
     "planning_without_literal_pair": 9,
     "added_here": [
-      56
-    ],
-    "review": "Role/Composition reading at ee55859; publication rebased over concurrent DDS additions without assessing them",
-    "reassessed_here": [
       52,
       53,
-      54
+      54,
+      55
     ],
-    "tracked_in_this_program": 33,
-    "other_vnext_not_assessed_here": 6,
-    "additional_paths_not_assessed_here": [
-      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/FENCING_CONFUSED_DEPUTY_EXTENSION_VNext.md",
-      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/HUMAN_ESCALATION_WHISPERING_VNext.md",
-      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/RATS_EXTENSION_VNext.md",
-      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/SPIFFE_SPIRE_EXTENSION_VNext.md",
-      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/STAMP_STPA_EXTENSION_VNext.md",
-      "research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL_VNext.md"
-    ]
+    "review": "01C full text; partial related-source/evidence review, not five-pass or sixth completion"
   },
   "dependency_epochs": [
     {
@@ -2493,97 +2421,6 @@
       "lectura_humana": "Simulada realizada",
       "investigacion_externa": "Contraste preparatorio, quinta pendiente",
       "sexta": "Pendiente global"
-    },
-    {
-      "source_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
-      "path": "standards/minimum-sufficient-control/02_ROLE_VNext.md",
-      "source_blob": "9f6aef99c9f65888f10ce4b27f2e081388f3403c",
-      "fondo_logica": "Texto completo examinado",
-      "evidencia_relaciones": "Contraste por pasajes; perfiles y fuentes aún parciales",
-      "edicion_formato": "Texto completo examinado",
-      "lectura_humana": "Simulada por el mismo asistente",
-      "investigacion_externa": "Contraste específico parcial",
-      "sexta": "Pendiente global"
-    },
-    {
-      "source_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
-      "path": "standards/minimum-sufficient-control/03_COMPOSITION_VNext.md",
-      "source_blob": "0366cbd184149235005dc2236b3da7e4c394ed3e",
-      "fondo_logica": "Texto completo examinado",
-      "evidencia_relaciones": "Contraste por pasajes; perfiles y fuentes aún parciales",
-      "edicion_formato": "Texto completo examinado",
-      "lectura_humana": "Simulada por el mismo asistente",
-      "investigacion_externa": "Contraste específico parcial",
-      "sexta": "Pendiente global"
-    }
-  ],
-  "rating_updates": [
-    {
-      "date": "2026-10-06",
-      "source_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
-      "reason": "Lectura completa de Role/Composition; el contexto protege las distinciones y se matiza la urgencia previa.",
-      "updates": [
-        {
-          "id": 52,
-          "review_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
-          "date": "2026-10-06",
-          "impact": "Medio",
-          "risk": "Medio",
-          "effort": "Medio",
-          "priority": "Siguiente",
-          "wave": "2 — Coherencia entre RA, EA y MSCA",
-          "preparation": "Aclaración opcional; comprobar necesidad con lectura completa",
-          "decision_ready": false,
-          "benefit": "Hacer explícita en la frase de frontera una calificación ya prevista por el contexto de la fuente.",
-          "riskReason": "Una nota repetida puede agregar carga o leerse como contrato nuevo aunque Composition ya conserva scope/evidencia/vigencia; mantenerlo como claridad de lectura.",
-          "costReason": "Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.",
-          "gate": "No hay contradicción operativa demostrada. Decidir necesidad editorial y correspondencia en contexto; conservar los pares anteriores y las reservas de perfil.",
-          "rationale": "Composition §§3/8/10.1/10.4/13/18 exige soporte, scope, freshness y residual. Sin segunda traducción puede significar taxonomía compartida, sin negar calificación. El riesgo inicial era de lectura abreviada, no una omisión universal."
-        },
-        {
-          "id": 53,
-          "review_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
-          "date": "2026-10-06",
-          "impact": "Medio",
-          "risk": "Medio",
-          "effort": "Medio",
-          "priority": "Siguiente",
-          "wave": "2 — Coherencia entre RA, EA y MSCA",
-          "preparation": "Aclaración opcional; comprobar necesidad con lectura completa",
-          "decision_ready": false,
-          "benefit": "Hacer explícita en la frase de frontera una calificación ya prevista por el contexto de la fuente.",
-          "riskReason": "Una nota repetida puede agregar carga o leerse como contrato nuevo aunque Composition ya conserva scope/evidencia/vigencia; mantenerlo como claridad de lectura.",
-          "costReason": "Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.",
-          "gate": "No hay contradicción operativa demostrada. Decidir necesidad editorial y correspondencia en contexto; conservar los pares anteriores y las reservas de perfil.",
-          "rationale": "Composition §§3/8/10.1/10.4/13/18 exige soporte, scope, freshness y residual. Sin segunda traducción puede significar taxonomía compartida, sin negar calificación. El riesgo inicial era de lectura abreviada, no una omisión universal."
-        },
-        {
-          "id": 54,
-          "review_commit": "ee55859f6a398249196db218ba6bbdad569692a4",
-          "date": "2026-10-06",
-          "impact": "Medio",
-          "risk": "Medio",
-          "effort": "Medio",
-          "priority": "Siguiente",
-          "wave": "2 — Coherencia entre RA, EA y MSCA",
-          "preparation": "Aclaración opcional; comprobar necesidad con lectura completa",
-          "decision_ready": false,
-          "benefit": "Aclarar para un lector la distinción ya establecida de rol contractual y conducta efectiva.",
-          "riskReason": "Modificar aisladamente la frase puede parecer corrección de un significado que el propio Role/Operation ya distingue; evitar nueva semántica obligatoria.",
-          "costReason": "Lectura/cotejo de los dos extremos y decidir si el contexto actual basta; no requiere integración nueva por la sola frase.",
-          "gate": "No hay contradicción operativa demostrada. Decidir necesidad editorial y correspondencia en contexto; conservar los pares anteriores y las reservas de perfil.",
-          "rationale": "Role §13.1 usa exactamente el mismo what actually does y §14 mantiene objeto estático; la descripción 01C hereda una expresión de su fuente. Se matiza la urgencia inicial sin borrar la observación."
-        }
-      ]
-    }
-  ],
-  "publication_base_commit": "285a0ffe66beff637eb69175cdcab0d54bb1c521",
-  "publication_rebases": [
-    {
-      "from": "6881dfe920a30ef6d00334f15059ab1dd931c8d4",
-      "to": "285a0ffe66beff637eb69175cdcab0d54bb1c521",
-      "targets_unchanged": true,
-      "note": "Publication base advanced; source-reading snapshot unchanged."
     }
   ]
 }

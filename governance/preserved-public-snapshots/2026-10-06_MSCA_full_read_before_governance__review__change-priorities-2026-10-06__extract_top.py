@@ -1,4 +1,3 @@
-# Priority extractor v1.1 — applies dated assessments; source proposals stay immutable.
 """Extrae prioridades documentales sin modificar el corpus ni ejecutar sus programas."""
 import argparse
 import json
@@ -14,24 +13,8 @@ ORDER = {
 def key(item):
     return tuple(ORDER[name].get(item[name], 99) for name in ("impact", "priority", "risk", "effort")) + (item["id"],)
 
-RATING_FIELDS = {"impact", "risk", "effort", "priority", "wave", "benefit",
-                 "riskReason", "costReason", "gate", "preparation", "decision_ready"}
-
-def effective_entries(data):
-    # Keep the original proposal/source/state immutable; only use current assessments.
-    rows = [dict(item) for item in data["entries"]]
-    by_id = {item["id"]: item for item in rows}
-    for epoch in data.get("rating_updates", []):
-        for update in epoch["updates"]:
-            if update["id"] not in by_id:
-                raise ValueError("Assessment targets an unknown proposal")
-            for field in RATING_FIELDS:
-                if field in update:
-                    by_id[update["id"]][field] = update[field]
-    return rows
-
 def select(data, view="impact", wave=None, limit=10, include_planning=False):
-    rows = [item for item in effective_entries(data) if item["state"] == "Pendiente de decisión"
+    rows = [item for item in data["entries"] if item["state"] == "Pendiente de decisión"
             or include_planning and item["state"] == "Por concretar; sin par literal"]
     if view == "decision":
         rows = [item for item in rows if item["decision_ready"]]

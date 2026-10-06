@@ -97,12 +97,3 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 **Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** 01C distingue ahora explícitamente en su propuesta el input de rol vinculado y la observación de comportamiento. Operation §§2–4 ya mantiene esa diferencia; el cambio 54 corrige una ambigüedad del consumidor, no crea un nuevo owner. Los cambios 52/53 separan vocabulario Cart_i compartido de calificación del resultado RA. La entrada Δ_RA y su propuesta anterior conservan su compatibilidad pendiente.
 
 La explicación, cobertura y viejos/nuevos están en [01C VNext](../../research/ecosystem-awareness/baseline/01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](03_COMPOSITION_VNext.md) y [Role VNext](02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.
-
-
----
-
-## Lectura completa de Role y Composition — reevaluación de la auditoría
-
-**Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** Role§13.1 contiene también la frase usada en01C; por eso la atribución anterior de la ambigüedad solo al consumidor era incompleta. Operation mantiene bound/effective.54 pasa a claridad opcional;52/53 no crean otro esquema ni acreditan fallo runtime.
-
-[Role VNext](02_ROLE_VNext.md#pasadas-propias-de-role--lectura-completa-y-contraste-del-rol-estático) · [Composition VNext](03_COMPOSITION_VNext.md#pasadas-propias-de-composition--leer-el-mapa-completo-y-sus-límites) · [Fuentes/cobertura](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). La conversación anterior permanece visible; relectura del mismo agente no es independencia externa.

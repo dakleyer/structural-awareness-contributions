@@ -207,12 +207,3 @@ The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](.
 ```
 
 El después muestra dónde se añade; no sustituye el párrafo viejo. Esta adición se publica con la entrega y se verifica por readback; queda fuera de tandas técnicas pendientes.
-
-
----
-
-## Lectura completa de Role y Composition — reevaluación de la auditoría
-
-**Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** Role y Composition recibieron lecturas completas de lógica, edición y comprensión simulada, con contraste de fuentes/relaciones delimitado.52–54 se reevalúan a prioridad Siguiente, impacto/riesgo Medio; pares y ratings originales preservados.56 es solo título duplicado y necesita revisar el ancla.
-
-[Role VNext](02_ROLE_VNext.md#pasadas-propias-de-role--lectura-completa-y-contraste-del-rol-estático) · [Composition VNext](03_COMPOSITION_VNext.md#pasadas-propias-de-composition--leer-el-mapa-completo-y-sus-límites) · [Fuentes/cobertura](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). La conversación anterior permanece visible; relectura del mismo agente no es independencia externa.

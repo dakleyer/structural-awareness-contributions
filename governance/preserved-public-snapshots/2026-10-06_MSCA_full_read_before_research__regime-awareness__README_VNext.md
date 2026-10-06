@@ -182,12 +182,3 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 **Auditoría cruzada realizada por Codex, 6 octubre de 2026; mismo asistente de IA.** Se leyó 01C completo en texto y se amplió el contraste de entradas, payloads y owners. Los candidatos 52/53 impiden usar el esquema compartido como soporte automático de la pregunta RA; 54 separa rol contractual y conducta. El candidato anterior de resumen A/B/C/D no se adopta ni cambia su viejo. Evidencia del paper y realizaciones siguen abiertas.
 
 La explicación, cobertura y viejos/nuevos están en [01C VNext](../ecosystem-awareness/baseline/01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md) y [Role VNext](../../standards/minimum-sufficient-control/02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.
-
-
----
-
-## Lectura completa de Role y Composition — reevaluación de la auditoría
-
-**Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** El contexto completo Role/Composition protege ya las calificaciones y la distinción contractual/observacional. Las aclaraciones52–54 reducen urgencia; no cambia la semántica de Δ_RA ni se adopta la propuesta anterior del resumen RA.
-
-[Role VNext](../../standards/minimum-sufficient-control/02_ROLE_VNext.md#pasadas-propias-de-role--lectura-completa-y-contraste-del-rol-estático) · [Composition VNext](../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md#pasadas-propias-de-composition--leer-el-mapa-completo-y-sus-límites) · [Fuentes/cobertura](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). La conversación anterior permanece visible; relectura del mismo agente no es independencia externa.

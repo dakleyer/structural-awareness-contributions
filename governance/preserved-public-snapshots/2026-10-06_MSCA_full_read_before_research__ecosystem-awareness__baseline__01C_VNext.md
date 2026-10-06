@@ -205,12 +205,3 @@ La propuesta no introduce una implementación ni un formato obligatorio. El ante
 ```
 
 La propuesta no introduce una implementación ni un formato obligatorio. El antes permanece en la fuente; no se incorpora el candidato.
-
-
----
-
-## Lectura completa de Role y Composition — reevaluación de la auditoría
-
-**Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** La lectura íntegra de Role/Composition matiza52/53/54: Role§13.1 ya usa what actually does dentro del objeto estático; Composition§10.1 y conformance conserva qualifiers. Son aclaraciones de lectura aislada, no contradicciones operativas demostradas. Valoración vigente: impacto Medio/riesgo Medio/esfuerzo Medio/prioridad Siguiente, conservando viejo/nuevo y rating anterior.
-
-[Role VNext](../../../standards/minimum-sufficient-control/02_ROLE_VNext.md#pasadas-propias-de-role--lectura-completa-y-contraste-del-rol-estático) · [Composition VNext](../../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md#pasadas-propias-de-composition--leer-el-mapa-completo-y-sus-límites) · [Fuentes/cobertura](../../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). La conversación anterior permanece visible; relectura del mismo agente no es independencia externa.

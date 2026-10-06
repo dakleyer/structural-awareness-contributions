@@ -864,16 +864,3 @@ La vista **decision** selecciona los candidatos a revisión documental concreta.
 La explicación, cobertura y viejos/nuevos están en [01C VNext](../../research/ecosystem-awareness/baseline/01C_VNext.md#lectura-de-los-payloads-y-sus-propietarios--continuación-sustantiva-de-01c), con el extremo productor en [Composition VNext](../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md) y [Role VNext](../../standards/minimum-sufficient-control/02_ROLE_VNext.md). Se preservan todas las conversaciones anteriores, decisiones y riesgos. No se declara ejecución o nueva validación independiente.
 
 El registro de prioridades añade **52/53/54** sin modificar las 51 entradas anteriores; 55 identifica solo la adición de acceso a fichas de esta entrega. Los tres cambios técnicos nuevos siguen pendientes, dentro de la tanda de integración, no se ejecutan como correcciones aisladas. [Soporte del contraste](../../governance/review/01C-payload-ownership-2026-10-06/evidence.json). Los dos nuevos expedientes son de fuentes principales Role/Composition; su apertura no extiende la campaña a los materiales adicionales.
-
-
----
-
-## Lectura completa de Role y Composition — reevaluación de la auditoría
-
-**Auditoría/reevaluación realizada por Codex, 6 octubre de2026; mismo asistente de IA.** Se avanzó en dos fuentes principales completas: Role y Composition. El contexto matiza la auditoría previa: Role también usa la frase del consumidor y Composition conserva los qualifiers por input.52–54 bajan a impacto/riesgo Medio, prioridad Siguiente, esfuerzo Medio. El registro y exportador aplican la evaluación vigente conservando historia.56 es candidato editorial de título. Fuentes intactas, evidencia/quinta parciales y sexta pendiente.
-
-[Role VNext](../../standards/minimum-sufficient-control/02_ROLE_VNext.md#pasadas-propias-de-role--lectura-completa-y-contraste-del-rol-estático) · [Composition VNext](../../standards/minimum-sufficient-control/03_COMPOSITION_VNext.md#pasadas-propias-de-composition--leer-el-mapa-completo-y-sus-límites) · [Fuentes/cobertura](../../governance/review/MSCA-role-composition-2026-10-06/evidence.json). La conversación anterior permanece visible; relectura del mismo agente no es independencia externa.
-
-El [registro](../../governance/review/change-priorities-2026-10-06/priorities.json) conserva todas las entradas originales; aplica reevaluaciones fechadas antes de obtener el top. La [tabla CSV](../../governance/review/change-priorities-2026-10-06/priorities.csv) muestra valoración vigente y el [extractor](../../governance/review/change-priorities-2026-10-06/extract_top.py) usa esas mismas actualizaciones.52/53/54 permanecen pendientes opcionales de prioridad Siguiente. Esto evita que la conversación nueva y el ranking técnico den prioridades contradictorias.
-
-**Actualización concurrente conservada:** la base de publicación avanzó a `6881dfe920a30ef6d00334f15059ab1dd931c8d4` con materiales DDS/HEW y sus expedientes de otro trabajo. Role/Composition y los destinos de esta revisión no cambiaron. No se ejecutan ni califican esos nuevos programas/resultados en esta pasada, ni se cuenta su presencia como auditoría concluida. El árbol contiene 39 expedientes VNext/candidato benchmark identificables;33 pertenecen al programa ya registrado y 6 nuevos no fueron examinados aquí.
