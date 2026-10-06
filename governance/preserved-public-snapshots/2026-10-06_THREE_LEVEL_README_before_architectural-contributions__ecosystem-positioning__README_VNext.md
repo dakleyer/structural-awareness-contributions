@@ -349,22 +349,3 @@ Reading note: the six epistemic principles P1–P6 and the MSCA posture labels P
 ```
 
 **Por qué:** la colisión de letras no debe confundir una decisión operacional con una invariance claim. **Pendiente:** comprobar vocabulario con los propietarios de principios y MSCA; podría ser suficiente una nota local sin cambiar los IDs históricos. No aplicado.
-
-
----
-
-## Organización del corpus — tres niveles y revisión desde los README
-
-**Instrucción de Iván, 6 de octubre de 2026.** La lectura del corpus se organiza en tres niveles: **Ecosystem Positioning → Awareness → índices técnicos del corpus**. Una carpeta adicional o un README de paquete no crea otro nivel de lectura.
-
-Cualquier propuesta de redistribuir archivos o cambiar su jerarquía, ubicación o relación se examina en **la VNext del README que los organiza**. Si afecta a varias rutas, se documenta también en las VNext de los otros README afectados; aquí se mantiene la explicación del conjunto cuando corresponda. Debe explicar el problema para el lector, la relación actual y la propuesta, la evidencia, las dependencias y cómo se conservarán enlaces, trazas y versiones.
-
-La [adición al plan de trabajo](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#redistribución-de-archivos-y-tres-niveles-de-readme--instrucción-de-iván) recoge la regla. La auditoría de un archivo puede aportar un hallazgo, pero no decide por sí sola una redistribución. La estructura real y los textos canónicos quedan intactos hasta una revisión concreta de Iván.
-
-### Qué ocurre con la propuesta anterior de niveles
-
-La propuesta **EP-README-DELTA-002** que sugería describir esta entrada como “Level 4” se conserva en su registro anterior, pero queda **sin efecto para incorporación** tras esta aclaración de Iván. Surgía del control antiguo de navegación; el criterio vigente para este corpus es el de tres niveles. No se corrige el README por sustitución ni se oculta la discrepancia histórica.
-
-### Resultado de esta anotación
-
-Se actualiza la regla de revisión y se enlaza el plan; no se mueve, renombra, divide, elimina o reordena ningún archivo. Las futuras propuestas estructurales se registrarán aquí o en la VNext del README propietario, con sus consecuencias en las demás rutas. La conciliación final verificará también que no se haya reconstruido una jerarquía infinita de README.

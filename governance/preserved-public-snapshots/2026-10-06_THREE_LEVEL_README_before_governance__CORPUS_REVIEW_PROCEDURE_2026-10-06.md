@@ -237,34 +237,3 @@ La revisión global solo puede declararse completa con inventario cerrado, fuent
 
 
 </details>
-
-
-## Redistribución de archivos y tres niveles de README — instrucción de Iván
-
-**Adición vigente del plan, revisión 1.3 · 6 de octubre de 2026.** Esta aclaración conserva el texto anterior y gobierna las propuestas de organización del corpus.
-
-Toda intención de redistribuir archivos, cambiar su ubicación, dividir o reunir documentos, modificar jerarquías o cambiar relaciones de lectura, dependencia o propiedad se examina **dentro de la revisión de los README**, en la **VNext del README que organiza los documentos afectados**. No se ejecuta como limpieza automática ni se decide solo en el VNext de un archivo aislado.
-
-El corpus se entiende con **tres niveles de lectura**:
-
-1. **Ecosystem Positioning:** entrada y explicación del conjunto.
-2. **Awareness:** entrada a la parte correspondiente de la arquitectura y sus preguntas.
-3. **Índices técnicos del corpus:** acceso ordenado a documentos, pruebas, casos y evidencia, como el índice del corpus de Ecosystem Awareness.
-
-Los otros corpus vinculados conservan su función y su propietario; no se trasladan ni se subordinan de nuevo por esta nota. Sus rutas deben respetar ese límite de profundidad. Las referencias al programa padre o a fuentes externas dan contexto; no justifican una escalera interminable de README. Los README existentes de paquetes, fixtures o archivos históricos pueden ser documentación local, pero no crean automáticamente niveles cuarto, quinto o siguientes de navegación pública.
-
-Cuando una propuesta afecte varias rutas, se registra en **las VNext de todos los README afectados**, con una explicación conjunta en README VNext de Ecosystem Positioning si cambia la organización del conjunto. Se reutiliza el expediente existente; se crea uno solo si hace falta. DOCUMENT_CONTROL registra el resultado autorizado y la conservación, sin reemplazar el lugar donde se examina la propuesta.
-
-La revisión debe explicar para una persona:
-
-- qué problema de comprensión o de relación se quiere resolver;
-- cómo se lee y se relaciona el material hoy, y cómo se propone leerlo después;
-- qué documentos, definiciones, pruebas y consumidores resultan afectados;
-- qué enlaces y trazas podrían romperse, y cómo se conservarán los originales y la distinción entre vigente, borrador y antecedente;
-- cuál es el cambio concreto antes/después y qué decisión de Iván permite incorporarlo.
-
-La auditoría de un documento puede detectar una relación errónea y explicarla en su VNext. **Si propone cambiar la organización o relación entre archivos, debe devolver esa propuesta al README VNext propietario y a los demás README VNext afectados.** Una relación de contenido revisada no autoriza por sí sola mover archivos o crear nuevos niveles.
-
-No se crea un README por cada carpeta ni un nuevo nivel por cada paquete. Cuando falte una ruta legible, se propone una adición al índice apropiado dentro de los tres niveles. Cualquier redistribución real sigue pendiente de la revisión y autorización concreta de Iván. El README de Ecosystem Positioning permanece solo-adición hasta esa revisión; no se borra, sustituye, reorganiza ni reformatea su texto existente.
-
-Las denominaciones de niveles guardadas en controles o auditorías anteriores quedan como historia y deben conciliarse con esta instrucción actual. La propuesta antigua de describir Ecosystem Positioning como “Level 4” no debe aplicarse al modelo de lectura de este corpus. Esta adición no ejecuta ninguna redistribución ni cambia los documentos técnicos.
