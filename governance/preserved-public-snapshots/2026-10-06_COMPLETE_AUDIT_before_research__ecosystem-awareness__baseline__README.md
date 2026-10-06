@@ -1,5 +1,3 @@
-> **Nota de revisión — 6 de octubre de 2026.** Texto existente conservado. [Única VNext de este README](./README_VNext.md); revisión de relaciones y lectura aún parcial. [Procedimiento](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
-
 # Ecosystem Awareness — canonical corpus
 
 **00G-R01 reduction study:** [Probabilistic exploration and validation cost](./reductions/00G-R01/README.md) — full specification, Word/PDF, and the parent 00G → reduced scenario 00G-R01 → supporting reduction argument reading route. Research specification; experimental results pending.

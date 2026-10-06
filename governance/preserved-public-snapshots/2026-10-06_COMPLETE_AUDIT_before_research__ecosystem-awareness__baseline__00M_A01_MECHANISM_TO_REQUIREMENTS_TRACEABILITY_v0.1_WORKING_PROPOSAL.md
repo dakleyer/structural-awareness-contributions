@@ -1,5 +1,3 @@
-> **Nota de revisión — 6 de octubre de 2026.** Cuerpo original preservado. [Única VNext de 00M-A01](./00M_A01_VNext.md); auditoría abierta y propuestas pendientes. [Procedimiento](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
-
 # 00M-A01 — Mechanism-to-Requirements Traceability — Working Proposal
 
 > **Status:** v0.1 Working Proposal · 2 October 2026.  

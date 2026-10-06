@@ -540,18 +540,3 @@ Ninguna de estas consultas demuestra que no existan cambios posteriores en otros
 ### Cobertura restante
 
 Auditoría de primera pasada; varias rowsCurrent sin reconstrucción completa y attachments/datasets pendientes. No promoción del bridge, universal schema, adoption ni eficacia deEA.
-
-
----
-
-## Conciliación de la copia anterior de 05A
-
-**Auditoría realizada por Codex, 6 de octubre de 2026; alcance parcial de procedencia y lectura.** Mismo asistente de IA. Se continúa en esta única VNext del documento lógico 05A; no se crea otra para su copia de baseline.
-
-En el commit `2db5a8c17f58008f9268c23c681ba6e14c8dfbdc` existen dos rutas con el título y número v0.1. La [copia de baseline](../../baseline/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md), blob `9e45a77ed0093e7e3d9e1c97317cd9a588221e06`, tiene 21.942 caracteres. La [ruta actual de interfaces](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_v0.1.md), blob `71abf26cd885d8567ca7d87dfcb4e44a2a5709d5`, tiene 22.924 y añade la explicación de filtro sobre 05 Ideal. No son copias idénticas.
-
-La navegación actual dirige a interfaces; la copia de baseline no se alcanza en el grafo textual desde EP. Su cabecera “public working bridge” sigue pudiendo parecer vigente al llegar directamente. Este hallazgo requiere comparar el historial y las diferencias semánticas antes de adjudicarla como predecessor o proponer una nota. No se usa la ausencia de enlace para invalidar el texto.
-
-Se devuelve a [baseline README VNext](../../baseline/README_VNext.md) y [EP README VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md). No se mueve, borra, fusiona ni corrige ninguna de las dos fuentes. La auditoría de primera pasada y las propuestas anteriores conservan su estado; esta entrada no termina las cuatro pasadas de 05A ni su contraste externo.
-
-**Conversación — Codex:** un número igual no basta para identificar la edición auditada. En esta época se requieren ruta y commit. La propuesta concreta de aviso y su fuente anterior exacta quedan pendientes del cotejo histórico; no se incorpora una declaración de autoridad por inferencia.

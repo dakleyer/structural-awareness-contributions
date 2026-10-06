@@ -268,20 +268,3 @@ La auditoría de un documento puede detectar una relación errónea y explicarla
 No se crea un README por cada carpeta ni un nuevo nivel por cada paquete. Cuando falte una ruta legible, se propone una adición al índice apropiado dentro de los tres niveles. Cualquier redistribución real sigue pendiente de la revisión y autorización concreta de Iván. El README de Ecosystem Positioning permanece solo-adición hasta esa revisión; no se borra, sustituye, reorganiza ni reformatea su texto existente.
 
 Las denominaciones de niveles guardadas en controles o auditorías anteriores quedan como historia y deben conciliarse con esta instrucción actual. La propuesta antigua de describir Ecosystem Positioning como “Level 4” no debe aplicarse al modelo de lectura de este corpus. Esta adición no ejecuta ninguna redistribución ni cambia los documentos técnicos.
-
-
----
-
-## Cuándo puede darse por terminada una revisión
-
-**Adición al plan, revisión 1.4 · 6 de octubre de 2026.** Iván exige continuar ahora y comprobar la coherencia y vinculación del conjunto. Esta aclaración conserva todas las entradas anteriores.
-
-Una pasada no se termina por rellenar cuatro casillas. Cada registro debe decir qué texto se leyó, qué pregunta distinta examinó, qué fuentes contrastó y qué queda pendiente. “Lectura de fondo realizada” puede ser cierta mientras evidencia, consumidores o figuras sigan abiertos. Ese documento no está cerrado.
-
-Para el cierre de cada documento lógico hacen falta las cuatro lecturas documentadas, el contraste de sus afirmaciones con sus fuentes, el examen de quienes lo consumen y de los límites que conserva, y una respuesta concreta a cada hallazgo. Cuando el acceso solo permite un abstract o un fragmento, se registra ese alcance; no se cuenta como lectura completa del paper. No se borra una obligación pendiente bajo una etiqueta de aprobado.
-
-La conciliación completa no consiste solo en probar que existe una ruta. Debe conservar significado, autoridad, versión y grado de evidencia a lo largo de cada relación material; explicar copias antiguas y documentos fuera de ruta; y revisar los README para una persona. Una fuente histórica válida puede seguir confundiendo al lector si parece actual.
-
-La [conciliación de navegación](./review/EP_REVIEW_NAVIGATION_2026-10-06.md) amplía el recorrido transitorio y sus excepciones. El [inventario existente](./review/EP_REVIEW_COVERAGE_2026-10-06.tsv) conserva las épocas de cobertura. Ninguno afirma que la lectura semántica de todos los documentos esté terminada.
-
-El avance se publica dentro de las VNext únicas y continúa desde el pendiente real. Se conservan originales, fuentes congeladas, instrucciones de Iván y propuestas exactas; no se aplican correcciones al canon, no se simula un revisor humano y no se repiten firmas como prueba de independencia.
