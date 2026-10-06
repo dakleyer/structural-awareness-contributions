@@ -135,6 +135,22 @@ The list is extensible.
 
 No single input is sufficient by itself.
 
+
+### 4.1 Mid-cycle signalling, Human / Systemic Alerts and finite human capacity
+
+Repositioning may receive new qualified information while a repositioning cycle is already open. This includes ordinary `ReceivedSignals_i`, a human-originated objection, a system-originated alert, a selectively signalled material Regime Awareness output, or a bounded **Human / Systemic Alert** profile as described by [01J Ecosystem Signalling](../../research/ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md).
+
+Such a signal is not a privileged interrupt and does not bypass the sequence of qualification, Cartography, RA, ACC/lineage or authority gates.
+
+Where the new signal changes a material represented dependency or frame, the participant updates/requalifies `Cart_i` and the relevant RA/local state before continuing the affected repositioning decision. Where it is immaterial to the current decision, it may be preserved without reopening unrelated state.
+
+A human may be one legitimate receiver of signalling, including `RepositionIntent`, where the applicable ACC/policy/signalling profile routes the request to that human or role. Human receipt does not establish capacity or authority by itself.
+
+For transitions that materially depend on human review, Repositioning MAY consume the additive [01K Human Intelligence Capacity / Escalation / Debt profile](../../research/ecosystem-awareness/baseline/01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) to distinguish Human Time from qualified Human Intelligence demand and to determine whether the planned escalation is AVAILABLE, DEGRADED, UNAVAILABLE or UNKNOWN inside the response horizon. This is a consumed extension, not an MSCA/EA core semantic.
+
+If a candidate transition requires a new or successor ACC, approval or authority response, Repositioning may remain `HOLD` / `UNRESOLVED` while the request is pending. A human/systemic alert cannot manufacture the missing ACC or authority, and silence cannot be interpreted as approval unless an externally legitimate rule explicitly defines that consequence.
+
+
 ## 5. Repositioning qualification gate — A/B/C/D → Type 0/1/2
 
 Repositioning does not average heterogeneous A/B/C/D inputs into one scalar and then act.
