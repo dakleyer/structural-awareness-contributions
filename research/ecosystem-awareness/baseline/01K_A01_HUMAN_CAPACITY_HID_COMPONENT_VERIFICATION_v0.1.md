@@ -220,3 +220,135 @@ The component is **not** considered fully engineered or empirically validated un
 The current justified claim is therefore:
 
 > 01K-A01 is a reusable, internally specified HC-HID component contract with explicit formulas, states, inputs/outputs, architectural integration points and falsification obligations. It is not yet a validated production component or empirical Human Intelligence Debt instrument.
+
+
+---
+
+## 8. A/B/C/D / EHD reconciliation update
+
+**Update 6 October 2026.** The component now explicitly follows the canonical 00M process-relative semantics.
+
+Two different producer processes are retained:
+
+~~~text
+Runtime Capacity Engine
+-> [A_HC,B_HC,C_HC,D_HC]
+
+HID Architecture Engine
+-> [A_HID,B_HID,C_HID,D_HID]
+~~~
+
+Verification points:
+
+- a delivered capacity state / completion interval / declared route-cost result is A of the HC producer when producing that result is the declared function;
+- timing-model calibration, schedule snapshot, known exclusions, proof class and characterized unused alternatives are B_HC;
+- a grounded but uncharacterized capacity avenue is C_HC;
+- a material capacity effect beyond effective evaluation is D_HC;
+- equivalent rules apply to the HID engine;
+- EHD preserves the producer's role but the receiving process **requalifies** it; `A_HC` is not automatically `A_EA`, `A_Cart` or `A_RA`;
+- source-side D is not copied as receiver-side D when the receiver has a stronger evaluation route.
+
+This closes the principal semantic ambiguity identified in the follow-up discussion.
+
+## 9. Circularity control update
+
+The component now declares a versioned feedback rule:
+
+~~~text
+InputBundle_n
+-> HC-HID evaluation n
+-> qualified result n
+-> receiver-local requalification
+-> new InputBundle_(n+1)
+~~~
+
+Within one `evaluation_id`, the component output cannot be reused as independent evidence for a premise of the same evaluation.
+
+The new semantic control **HC-HID-TV-10** requires detection of same-operation self-support and expects:
+
+- circularity flag = true;
+- runtime result = UNKNOWN;
+- requalification request = true;
+- no command / no privileged escalation.
+
+Feedback through later observed effects remains permitted when provenance and cycle/version are preserved.
+
+## 10. DDS cost reconciliation update
+
+The component now imports the existing DDS cost form:
+
+~~~text
+C(tau) = sum_g c_g(tau)
+~~~
+
+and refines only the human-related ledger.
+
+Explicit cost surfaces include:
+
+- human runtime;
+- maintained/readiness capacity;
+- case preparation;
+- coordination;
+- rework;
+- ACW/HID architecture burden;
+- HC-HID component operation;
+- communication / external calls / compute;
+- raw latency plus any separately declared monetised latency.
+
+Readiness capacity is not free when unused.
+
+A scalar DDS cost is allowed only with a declared valuation/allocation rule; otherwise the burden remains a vector.
+
+Fair comparison requires the same frozen Challenge and sufficient-quality / I-region semantics. A cheaper M-route is not treated as a substitute for an I-route.
+
+### New deterministic controls
+
+**HC-HID-TV-09 — A/B/C/D mapping**
+
+Checks that a completion interval can be A_HC when it is the component's deliverable, while schedule/calibration evidence remains B_HC, an uncharacterized specialist route is C_HC and hidden off-system commitments remain D_HC.
+
+**HC-HID-TV-11 — readiness cost even with no alert**
+
+Recomputed:
+
+~~~text
+human total
+=
+0 runtime
++ 100 readiness allocation
++ 10 component operation
+= 110
+
+peer total = 50
+
+DeltaC_H = +60
+~~~
+
+Both routes declare the same DDS I-region and Risk gate, so the peer receives full credit.
+
+**HC-HID-TV-12 — cheaper but lower-quality peer**
+
+Human route reaches I1 at cost 120.
+
+Peer route reaches M1 at cost 20.
+
+The test correctly marks:
+
+~~~text
+same_challenge_I_region = false
+cost_dominance_claim_allowed = false
+~~~
+
+This prevents price-only comparison across different effectiveness regions.
+
+## 11. Updated verification verdict
+
+**A/B/C/D integration:** explicit and process-relative.  
+**EHD mapping:** explicit; receiver-side requalification required.  
+**Same-operation circularity:** explicit prohibition + deterministic control.  
+**DDS cost integration:** explicit human-runtime/readiness/architecture/component ledger.  
+**Matched alternative-route comparison:** explicit same-Challenge/I-region requirement.  
+**Machine-readable schema:** updated with evaluation/version, qualified positions and cost profile.  
+**Semantic controls:** twelve registered; new A/B/C/D, circularity and DDS-cost controls recomputed where arithmetic applies.
+
+Remaining empirical/engineering obligations from the previous verdict still apply.
