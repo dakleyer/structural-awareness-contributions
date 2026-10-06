@@ -1,0 +1,48 @@
+{
+  "version": "0.1",
+  "canonical_DDS_profile": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "canonical_profile_count": 1,
+  "description": "Three implementation instances of the single canonical method; not three new canonical profiles.",
+  "instances": [
+    {
+      "subject": "STAMP/STPA",
+      "current_run": "DDS-STAMP-STPA-20261006-02",
+      "challenge": "Safe maintenance decision with admitted critical-supply continuity",
+      "evidence": "four-step analyst model and executed finite discrete control/feedback cases",
+      "route_model": "I/M/P/incomplete; explicitly admitted deferment is M",
+      "horizon": "one executed decision/actuator-feedback cycle; full numerical timing and maintained-control duration are unscored",
+      "cost": "abstract model query/command/feedback counts; engineering/sensor/operating costs unscored",
+      "risk_effectiveness": "per-case outcomes, no population probabilities",
+      "acceptance": "registered fixture assertions only"
+    },
+    {
+      "subject": "SPIFFE",
+      "current_run": "DDS-SPIFFE-JWT-20261006-01",
+      "challenge": "Authenticate intended workload and qualify a legitimate batch operation",
+      "evidence": "own RS256/JWT-SVID selected-profile code with actual cryptography; no SPIRE/Workload API",
+      "route_model": "I/P/incomplete; M unevaluated",
+      "horizon": "frozen validation clock and token validity predicates; network/application response time unscored",
+      "cost": "actual signature verification/policy calls; setup/source/transport/staffing costs not priced",
+      "risk_effectiveness": "per-case outcomes; designed negative-heavy vectors are not population rates",
+      "acceptance": "registered fixture assertions only"
+    },
+    {
+      "subject": "RATS",
+      "current_run": "DDS-RATS-JWS-20261006-01",
+      "challenge": "Qualified consumption of appraised software-state evidence for a receiving operation",
+      "evidence": "actual local file hashes and JWS with synthetic trusted role/source profile; no hardware/native verifier product",
+      "route_model": "I/P/incomplete; M unevaluated",
+      "horizon": "frozen appraisal/result validity clock; no physical/distributed atomicity or calibrated end-to-end timing",
+      "cost": "actual hash reads/signature checks/policy calls; production acquisition/trust/maintenance unscored",
+      "risk_effectiveness": "per-case outcomes; current-file source trust is an explicit local assumption",
+      "acceptance": "registered fixture assertions only"
+    }
+  ],
+  "common": {
+    "correspondence": "declared realization; operational isomorphism and inherited R01 bounds not established",
+    "business_value": "illustrative process objectives; deployment-owner interpretation/calibration pending",
+    "matched_external_peer": "not executed; competent native/conventional policy receives full credit",
+    "independence": "same author; no external expert/provider validation",
+    "old_frozen_R01_HEW_inputs": "unchanged"
+  }
+}

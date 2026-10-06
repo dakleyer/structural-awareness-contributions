@@ -41,6 +41,31 @@ PRESENTATIONS = {
 }
 
 
+def navigation_text(body: str) -> str:
+    """Exclude literal fenced/inline code from rendered-link checks."""
+    visible = []
+    fence = None
+    for line in body.splitlines(keepends=True):
+        opening = re.match(r"^ {0,3}(\x60{3,}|~{3,})(.*)$", line.rstrip("\n\r"))
+        if fence is None and opening:
+            token = opening.group(1)
+            # A backtick info string cannot contain a backtick (CommonMark).
+            if token[0] == "\x60" and "\x60" in opening.group(2):
+                visible.append(line)
+                continue
+            fence = (token[0],len(token))
+            continue
+        if fence is not None:
+            closing = re.match(r"^ {0,3}([\x60~]{3,})[ \t]*$",line.rstrip("\n\r"))
+            if closing and set(closing.group(1)) == {fence[0]} and len(closing.group(1)) >= fence[1]:
+                fence = None
+            continue
+        visible.append(line)
+    value = "".join(visible)
+    # A matching backtick run bounds a CommonMark code span; unmatched runs remain prose.
+    return re.sub(r"(?<!`)(`+)(?!`)([\s\S]*?)(?<!`)\1(?!`)", "", value)
+
+
 def main() -> int:
     errors: list[str] = []
     checked_links = 0
@@ -48,7 +73,7 @@ def main() -> int:
         if ".git" in source.parts or "preserved-public-snapshots" in source.parts:
             continue
         body = source.read_text(encoding="utf-8")
-        for raw in MARKDOWN_LINK.findall(body) + HTML_LINK.findall(body):
+        for raw in MARKDOWN_LINK.findall(navigation_text(body)) + HTML_LINK.findall(navigation_text(body)):
             target = raw.split(" ")[0].strip("<>")
             if not target or target.startswith(EXTERNAL):
                 continue

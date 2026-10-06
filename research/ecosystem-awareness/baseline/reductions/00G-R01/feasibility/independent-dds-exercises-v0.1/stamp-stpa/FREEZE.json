@@ -1,0 +1,31 @@
+{
+  "version": "0.3",
+  "frozen_at_utc": "2026-10-06T15:44:47.946875+00:00",
+  "registered_before_execution": true,
+  "amendment": "A2",
+  "parent_freeze_sha256": "031172208e582fdcf7d6dce6a3a5dc8fd5589af222ca070a439cf2e06c8a256b",
+  "cryptography_version": "50.0.1",
+  "canonical_DDS_profile": "single method0.1; scoped implementation instance",
+  "files": [
+    {
+      "path": "run.py",
+      "bytes": 6679,
+      "sha256": "6ca29a5c76e253533eb32d9f4f213ced93d5738a73df17494039c1856edf2449"
+    },
+    {
+      "path": "RUN_CARD.json",
+      "bytes": 7076,
+      "sha256": "37370ce2faf74dd8747f6f1fe60cf068787579830d46566a42acae359bff17c7"
+    },
+    {
+      "path": "../crypto_fixture.py",
+      "bytes": 3417,
+      "sha256": "b29c79864d0c3b711d1327f9c556e6fc823ba68c3612a59eac78798c8321708f"
+    },
+    {
+      "path": "../exercise_common.py",
+      "bytes": 1835,
+      "sha256": "2dfd0dcdd2227dbc6861a53f9583c93947d7ab97f02ae459ce7664db5bcec194"
+    }
+  ]
+}

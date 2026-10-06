@@ -52,3 +52,6 @@
 /research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/runs/HEW-DDS-MODEL-20261006-04/RESULTS.json -text
 /research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/PUBLIC_DISTRIBUTION.md -text
 /research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/dds-hew-v0.1/DDS_PROFILE_COVERAGE.json -text
+
+# Independent DDS exercise freezes bind exact bytes on every checkout platform.
+/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/** -text

@@ -1,0 +1,207 @@
+{
+  "version": "0.1",
+  "date": "2026-10-06",
+  "canonical_DDS_profile": {
+    "path": "../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+    "logical_identity": "single canonical DDS technical profile",
+    "method_version": "0.1"
+  },
+  "acceptance": "Each registered assertion must pass; failures/denials and deliberate unsafe diagnostic effects remain outcomes. This is instrument acceptance, not deployment or population C/R/E acceptance.",
+  "cost": "Count actual local signature checks/hash reads/policy operations; record local elapsed time separately. No tariffs, salaries or production SLA inferred.",
+  "coverage": {
+    "challenge": "technology-specific bounded synthetic task",
+    "correspondence": "declared local realization, no operational isomorphism proved",
+    "I": "sufficient legitimate task delivery",
+    "M": "explicitly allowed lower-value outcome only when chosen/completed",
+    "P": "materially wrong/unauthorized effect",
+    "incomplete": "no sufficient route within the registered horizon",
+    "probability_law": "designed finite cases; no population probability fitted",
+    "effectiveness_and_risk_rates": "unscored",
+    "business_value": "illustrative process objective; owner calibration pending"
+  },
+  "private_state": "Expected flags and actual-world facts belong only to the evaluator; participant functions receive observations/claims and admitted current policy sources.",
+  "credential_policy": "Ephemeral fixture signing keys and compact tokens remain in memory; no credential or private key in output.",
+  "implementation_profile": "RATS-informed local software-state produce/appraise/consume profile with generic JWS",
+  "run_id": "DDS-RATS-JWS-20261006-01",
+  "cases": [
+    {
+      "id": "R01",
+      "narrative": "Current software evidence meets the selected reference and the receiving policy.",
+      "mutations": {},
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": true
+    },
+    {
+      "id": "R02",
+      "narrative": "The measured file differs from the reference.",
+      "mutations": {
+        "software": "bad"
+      },
+      "expected_verifier_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R03",
+      "narrative": "An unauthorized attester signs matching-looking claims.",
+      "mutations": {
+        "wrong_attester": true
+      },
+      "expected_verifier_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R04",
+      "narrative": "Evidence is for another software subject.",
+      "mutations": {
+        "evidence_subject": "other"
+      },
+      "expected_verifier_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R05",
+      "narrative": "The challenge nonce is for another request.",
+      "mutations": {
+        "evidence_nonce": "other"
+      },
+      "expected_verifier_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R06",
+      "narrative": "Evidence has expired before appraisal.",
+      "mutations": {
+        "evidence_expired": true
+      },
+      "expected_verifier_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R07",
+      "narrative": "The appraised reference policy is not the selected policy.",
+      "mutations": {
+        "evidence_policy": "other"
+      },
+      "expected_verifier_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R08",
+      "narrative": "Signed measurements omit the admitted software digest.",
+      "mutations": {
+        "omit_measurement": true
+      },
+      "expected_verifier_accept": false,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R09",
+      "narrative": "The result is signed by an untrusted verifier.",
+      "mutations": {
+        "wrong_verifier": true
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R10",
+      "narrative": "The result is addressed to a different relying party.",
+      "mutations": {
+        "result_audience": "other"
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R11",
+      "narrative": "A result is outside its selected receiving window.",
+      "mutations": {
+        "result_expired": true
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R12",
+      "narrative": "Software changes after correct appraisal while the result is still recent.",
+      "mutations": {
+        "change_after_appraisal": true
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R13",
+      "narrative": "A trusted fixture attester lies about a bad file.",
+      "mutations": {
+        "software": "bad",
+        "false_measurement": true
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R14",
+      "narrative": "The receiving policy changes after appraisal.",
+      "mutations": {
+        "receiving_policy": "new-policy"
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R15",
+      "narrative": "An acceptable software result does not create a revoked mission grant.",
+      "mutations": {
+        "grant_active": false
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R16",
+      "narrative": "The correct result cannot be queried for current state.",
+      "mutations": {
+        "current_source": false
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R17",
+      "narrative": "Current state and policy are restored through a separately qualified new measurement.",
+      "mutations": {},
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": true
+    },
+    {
+      "id": "R18",
+      "narrative": "A result records UNKNOWN instead of a good-state decision.",
+      "mutations": {
+        "result_status": "UNKNOWN"
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R19",
+      "narrative": "A software result supplies no currently available human review.",
+      "mutations": {
+        "capacity": false
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    },
+    {
+      "id": "R20",
+      "narrative": "A correct sending decision has no confirmed actuation.",
+      "mutations": {
+        "applied": false
+      },
+      "expected_verifier_accept": true,
+      "expected_qualified_delivery": false
+    }
+  ],
+  "reference_time": 1791298800,
+  "wire_profile": "Private synthetic software-state claims carried in JWS; not standardized EAT, hardware attestation or an interoperable verifier product"
+}

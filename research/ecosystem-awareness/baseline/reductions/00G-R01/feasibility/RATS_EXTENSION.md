@@ -223,3 +223,10 @@ Reuse judgement:existing relevant native concepts/control techniques are reusabl
 FG-TIDA scope:Theme13/16 and UC21 relevant comments were consulted; the grant-existence/purpose-applicability distinction is retained. Discussion and contributor review are not adoption. The original URL for the human-supplied STAMP duplication-check fragment is still not established. Further native/source-owner/independent comparison remains open.
 
 Consumer compatibility:the original mathematical/calendar/event fixtures retain their laws; this document consumes their actual limited results. The new SQLite profile is separately declared. Any native adapter must preserve source claims/results, current grant and effect meanings and return through the existing M13/M17/C02 owners before stronger claims.
+
+## Independent exercise successor —6 October2026
+
+Documentary addition0.3. There is **one canonical DDS technical profile**, [DDS Challenge–Trajectory](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). This study consumes it as a technology-specific implementation instance; it does not define another canonical DDS method. The earlier analytical text above retains its original stage and claim limits.
+
+[Independent exercise report](./independent-dds-exercises-v0.1/rats-jws/EXERCISE_REPORT.md), [frozen Run Card](./independent-dds-exercises-v0.1/rats-jws/RUN_CARD.json) and [executed result](./independent-dds-exercises-v0.1/rats-jws/runs/2026-10-06-01/RESULTS.json) give this subject its own scenarios, source/configuration, control results, costs and limitations. No old result is overwritten or pooled. Fixture assertion success includes expected denials; it is not native/product/human or deployment acceptance. Production calibration and matched/independent evidence remain open.
+

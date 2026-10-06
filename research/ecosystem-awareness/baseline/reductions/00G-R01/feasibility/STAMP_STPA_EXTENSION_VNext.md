@@ -135,3 +135,32 @@ Consumer compatibility:the original mathematical/calendar/event fixtures retain 
 ````
 
 Relations/order:mechanism↔protocol↔existing indexes↔DDS scope/card/freeze/results; native methods and task gates preserve their owners. Instruction/decision:Iván requested canonical mechanism/DDS incorporation and first tests. Disposition:authorized for this release; native/provider/independent/recognition gates are not closed. Earlier pair/intermediate versions are preserved in task custody; this is the candidate against the actual source, not a replacement of old scientific results.
+
+## Independent exercise and DDS identity — current-source review6 October2026
+
+Codex, same author; source at285a0ff, unchanged through current26eb9ee1. Owner instruction: execute independent STAMP/STPA, SPIFFE and RATS exercises, and make the single canonical DDS profile clear. Prior records remain historical. Logic/evidence review: separate actual cryptographic/file/model execution from product, hardware and human evidence; all inputs are frozen before execution. Current-source body is preserved as an exact prefix.
+
+Impact high for scope/evidence/identity clarity; risk medium from amplification of fixture assertions; effort medium including source/body custody, preregistration, execution and reader report. First. Native/independent/deployment and commercial recognition gates remain open. Disposition:current owner-authorized documentary incorporation, not a global review closure.
+
+**Texto antes — viejo — exact final paragraph/block anchor**
+
+~~~~text
+Consumer compatibility:the original mathematical/calendar/event fixtures retain their laws; this document consumes their actual limited results. The new SQLite profile is separately declared. Any native adapter must preserve source claims/results, current grant and effect meanings and return through the existing M13/M17/C02 owners before stronger claims.
+
+~~~~
+
+**Texto después — propuesto — append after that anchor**
+
+~~~~text
+Consumer compatibility:the original mathematical/calendar/event fixtures retain their laws; this document consumes their actual limited results. The new SQLite profile is separately declared. Any native adapter must preserve source claims/results, current grant and effect meanings and return through the existing M13/M17/C02 owners before stronger claims.
+
+
+## Independent exercise successor —6 October2026
+
+Documentary addition0.3. There is **one canonical DDS technical profile**, [DDS Challenge–Trajectory](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). This study consumes it as a technology-specific implementation instance; it does not define another canonical DDS method. The earlier analytical text above retains its original stage and claim limits.
+
+[Independent exercise report](./independent-dds-exercises-v0.1/stamp-stpa/EXERCISE_REPORT.md), [frozen Run Card](./independent-dds-exercises-v0.1/stamp-stpa/RUN_CARD.json) and [executed result](./independent-dds-exercises-v0.1/stamp-stpa/runs/2026-10-06-02/RESULTS.json) give this subject its own scenarios, source/configuration, control results, costs and limitations. No old result is overwritten or pooled. Fixture assertion success includes expected denials; it is not native/product/human or deployment acceptance. Production calibration and matched/independent evidence remain open.
+
+
+~~~~
+
