@@ -95,39 +95,3 @@ El [mapa externo preparatorio](../../governance/review/EP_EXTERNAL_RESEARCH_REVI
 **Pregunta de consolidación de este documento:** Conciliar el resumen del delta con 01C, 00M y los consumidores MSCA: soporte, reserva evaluable, exploración y barrera efectiva deben seguir distinguiéndose; UNKNOWN no pasa a ser D ni permiso.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
-
-
----
-
-## Organización autorizada del trabajo adicional — 6 octubre de 2026
-
-**Lectura y registro realizados por Codex, mismo asistente de IA.** Iván pide explicar y enlazar el material fuera de la ruta principal y conservar los documentos sueltos, sin abrir nuevas auditorías de cada uno. Se mantienen las tres capas canónicas y se usan tres hojas auxiliares no canónicas: [EA y transversal](../ecosystem-awareness/baseline/non-canonical/README.md), [RA](ADDITIONAL_WORK_README.md) y [MSCA](../../standards/minimum-sufficient-control/ADDITIONAL_WORK_README.md). EA reutiliza su índice existente; RA y MSCA añaden hojas de trabajo, sin crear propietarios nuevos.
-
-El [plan 1.10](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#trabajo-fuera-de-la-ruta-principal--lectura-adicional-sin-nuevas-auditorías) registra la instrucción más reciente. El inventario del corte 4ebb0c89722f1dc36adc11bec031c9d88b07737c tiene 1.306 archivos, 155 snapshots y 1.151 vivos: 800 alcanzables por enlaces de archivo y 351 sin esa ruta, incluidos 62 Markdown. Las fichas, partes y mirrors no se cuentan como 62 nuevas teorías. Los catálogos explican propósito, relaciones y límites y enlazan todos los archivos del corte; las listas exhaustivas quedan plegadas.
-
-Los originales sueltos, canon, código, datos, freezes y binarios no reciben correcciones. Estar en el catálogo no altera autoridad. La lectura es de orientación y organización; no sustituye las cinco pasadas de una fuente vigente ni una dependencia material del argumento.
-
-### Adición de navegación — texto viejo y después completo
-
-**Fuente:** [índice propietario](minimalistic-early-warning-systems/README.md), blob `235f27142650f4adb48711648dbfe3652cd1eb38`. **Instrucción de Iván:** enlazar trabajo adicional desde el último índice sin tocar los documentos sueltos. **Tipo:** solo navegación; no cambio de contenido técnico. La autorización del usuario cubre esta adición.
-
-**Texto antes — viejo (último párrafo, literal):**
-
-```markdown
-**Claim status:** conditional theory and a test programme. Pointwise Non-Inferiority is a demanding action-design requirement for a declared admissible domain, not automatic real-world safety; practical context identification, economic value, H1–H3 performance and independent replication remain open.
-```
-
-**Texto después — adición al final, manteniendo el viejo:**
-
-```markdown
-**Claim status:** conditional theory and a test programme. Pointwise Non-Inferiority is a demanding action-design requirement for a declared admissible domain, not automatic real-world safety; practical context identification, economic value, H1–H3 performance and independent replication remain open.
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](../ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-```
-
-El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.

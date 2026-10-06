@@ -701,25 +701,3 @@ El viejo no se reemplazará por un resumen, un enlace o solo un diff. El origina
 Aquí se explicará el orden del conjunto y los cambios que deben decidirse juntos. Los pares concretos estarán en las VNext de sus documentos, con consecuencias en fuentes, consumidores y README afectados. El [plan 1.9](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#plan-de-cambios-dentro-de-cada-vnext--texto-viejo-siempre-visible) fija este formato para todo el corpus, incluidas las VNext que se abran después.
 
 **Estado real:** instrucción y método publicados; el plan consolidado final depende de completar las cinco pasadas y la sexta. Los pares ya preparados se publican como parciales. Esta adición no ejecuta cambios ni elimina texto anterior.
-
-
----
-
-## Organización autorizada del trabajo adicional — 6 octubre de 2026
-
-**Lectura y registro realizados por Codex, mismo asistente de IA.** Iván pide explicar y enlazar el material fuera de la ruta principal y conservar los documentos sueltos, sin abrir nuevas auditorías de cada uno. Se mantienen las tres capas canónicas y se usan tres hojas auxiliares no canónicas: [EA y transversal](../../research/ecosystem-awareness/baseline/non-canonical/README.md), [RA](../../research/regime-awareness/ADDITIONAL_WORK_README.md) y [MSCA](../../standards/minimum-sufficient-control/ADDITIONAL_WORK_README.md). EA reutiliza su índice existente; RA y MSCA añaden hojas de trabajo, sin crear propietarios nuevos.
-
-El [plan 1.10](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#trabajo-fuera-de-la-ruta-principal--lectura-adicional-sin-nuevas-auditorías) registra la instrucción más reciente. El inventario del corte 4ebb0c89722f1dc36adc11bec031c9d88b07737c tiene 1.306 archivos, 155 snapshots y 1.151 vivos: 800 alcanzables por enlaces de archivo y 351 sin esa ruta, incluidos 62 Markdown. Las fichas, partes y mirrors no se cuentan como 62 nuevas teorías. Los catálogos explican propósito, relaciones y límites y enlazan todos los archivos del corte; las listas exhaustivas quedan plegadas.
-
-Los originales sueltos, canon, código, datos, freezes y binarios no reciben correcciones. Estar en el catálogo no altera autoridad. La lectura es de orientación y organización; no sustituye las cinco pasadas de una fuente vigente ni una dependencia material del argumento.
-
-### Hallazgos de lectura que orientan la organización
-
-Los cinco pares NIST entre raíz y submissions son copias exactas por versión. Huella pública, Public Provenance, EA-ITP-01 y partes 2/3 de 05 también tienen pares exactos. 05A, parte 1 de 05 y masterclass DAOS no son idénticos como blobs: conservar sus rutas y versiones, no fusionar por título.
-
-Las partes de UC-EA-04 y de la familia de perfiles concatenan exactamente al lector completo. UC-EA-01 y UC-EA-02 difieren; el lector completo contiene banners semánticos que no están en ese punto del split. La falta de enlace de una parte no basta para excluir su fuente lógica de la ruta vigente.
-
-RA no tiene Markdown local sin ruta; su catálogo distingue el contexto y la revisión cuantitativa ya accesibles. En MSCA la nota UNECE WP.5 y sus originales son práctica adicional que faltaba conectar. Las propuestas y auditorías previas se conservan; la nueva instrucción evita abrir ciclos adicionales sobre los sueltos.
-
-
-Los antes/después de las tres adiciones de navegación están en las VNext propietarias de baseline, RA y MSCA. Esta entrada relaciona la organización del conjunto y conserva toda la conversación anterior.

@@ -80,39 +80,3 @@ El [mapa externo preparatorio](../../../governance/review/EP_EXTERNAL_RESEARCH_R
 **Pregunta de consolidación de este documento:** Hacer que la ruta de fundamentos, casos, interfaces y evidencia conserve versiones y límites y sea legible, incluyendo documentos sueltos sin abrir más niveles de README.
 
 Los hallazgos concretos se comentarán aquí y en las VNext de los documentos relacionados, conservando respuestas y desacuerdos. Se cotejarán las propuestas con la fuente actual y sus consumidores antes de presentar candidatos consolidados antes/después. La [sexta pasada del plan](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#sexta-pasada-unificadora-y-consolidación) fija el lanzamiento y el método. Se preservan fuente, historia y decisión de Iván para incorporar cambios.
-
-
----
-
-## Organización autorizada del trabajo adicional — 6 octubre de 2026
-
-**Lectura y registro realizados por Codex, mismo asistente de IA.** Iván pide explicar y enlazar el material fuera de la ruta principal y conservar los documentos sueltos, sin abrir nuevas auditorías de cada uno. Se mantienen las tres capas canónicas y se usan tres hojas auxiliares no canónicas: [EA y transversal](non-canonical/README.md), [RA](../../regime-awareness/ADDITIONAL_WORK_README.md) y [MSCA](../../../standards/minimum-sufficient-control/ADDITIONAL_WORK_README.md). EA reutiliza su índice existente; RA y MSCA añaden hojas de trabajo, sin crear propietarios nuevos.
-
-El [plan 1.10](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#trabajo-fuera-de-la-ruta-principal--lectura-adicional-sin-nuevas-auditorías) registra la instrucción más reciente. El inventario del corte 4ebb0c89722f1dc36adc11bec031c9d88b07737c tiene 1.306 archivos, 155 snapshots y 1.151 vivos: 800 alcanzables por enlaces de archivo y 351 sin esa ruta, incluidos 62 Markdown. Las fichas, partes y mirrors no se cuentan como 62 nuevas teorías. Los catálogos explican propósito, relaciones y límites y enlazan todos los archivos del corte; las listas exhaustivas quedan plegadas.
-
-Los originales sueltos, canon, código, datos, freezes y binarios no reciben correcciones. Estar en el catálogo no altera autoridad. La lectura es de orientación y organización; no sustituye las cinco pasadas de una fuente vigente ni una dependencia material del argumento.
-
-### Adición de navegación — texto viejo y después completo
-
-**Fuente:** [índice propietario](README.md), blob `54ddcc0f33d25e3adb0591d006b8f741ff68b0d6`. **Instrucción de Iván:** enlazar trabajo adicional desde el último índice sin tocar los documentos sueltos. **Tipo:** solo navegación; no cambio de contenido técnico. La autorización del usuario cubre esta adición.
-
-**Texto antes — viejo (último párrafo, literal):**
-
-```markdown
-**Status:** a public working architecture and test programme. Publication, contributor discussion and an internal freeze do not establish adoption, deployed interoperability or completed comparative validation. Controlled Drive-revision/SHA parity for all public mirror artefacts remains open.
-```
-
-**Texto después — adición al final, manteniendo el viejo:**
-
-```markdown
-**Status:** a public working architecture and test programme. Publication, contributor discussion and an internal freeze do not establish adoption, deployed interoperability or completed comparative validation. Controlled Drive-revision/SHA parity for all public mirror artefacts remains open.
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-```
-
-El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.

@@ -483,18 +483,3 @@ Only a short strategy-link section is appended at the end of the README. Its pri
 Any proposed redistribution, move, split/merge, hierarchy change or change of inter-file reading/dependency/ownership relationships belongs in the **owning README's sole VNext**, with corresponding entries in every affected README VNext. The EP [README VNext](./architectural-contributions/ecosystem-positioning/README_VNext.md) holds a joint account when corpus-level organization is affected. A document's own VNext may identify the issue but does not independently authorize changing the file structure. This applies before execution, with source preservation, concrete before/after scope and Iván's decision.
 
 The [work-plan addition](./governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#redistribución-de-archivos-y-tres-niveles-de-readme--instrucción-de-iván) makes this instruction operative. The earlier EP Level-4 proposal is not adopted under the new corpus-level rule; its history is preserved. The public EP README and development strategy retain their append-only guard. This entry modifies review guidance only: no redistribution, rename, deletion, hierarchy implementation, new README navigation node or canonical technical change is executed.
-
-
----
-
-## 15. 6 October 2026 — three non-canonical additional-work catalogues
-
-**Control addition version:** 2026-10-06.4. Iván explicitly requested that material outside the canonical reading route be explained and linked as additional work, without modifying the loose documents or starting a new audit of each. The canonical three-level reading model remains: EP → Awareness → technical indexes. The owner's “fourth-level README” wording designates an **optional non-canonical leaf**, not a fourth canonical navigation level.
-
-Exactly three catalogues are used: [EA and cross-cutting work](research/ecosystem-awareness/baseline/non-canonical/README.md) expands the existing non-canonical index; [RA](research/regime-awareness/ADDITIONAL_WORK_README.md) and [MSCA](standards/minimum-sufficient-control/ADDITIONAL_WORK_README.md) are two new auxiliary reading documents. The technical indexes [EA baseline](./research/ecosystem-awareness/baseline/README.md), [EWS](./research/regime-awareness/minimalistic-early-warning-systems/README.md) and [MSCA](./standards/minimum-sufficient-control/README.md) receive only an appended optional-reading link. No canonical owner, route, source or presentation is moved, renamed, demoted or replaced; no old text is removed.
-
-This is an owner-authorized exception for three auxiliary reading sheets only. It does not authorize further README hierarchy proliferation or reduce the protected-README rules. EP README, EA entry-point README and development strategy remain unchanged. Frozen sources, evidence, data, code and binaries are untouched. All originals retain their own authority; catalogue membership does not promote or demote them.
-
-The catalogues identify purpose, current reading relationship, exact duplicates where checked, versions, pointers and fragment presentation. Counts describe the fixed source tree, not completed audits. Canonical sources or material evidence are not excluded because a split part was individually unlinked. Additional documents receive explanation and links rather than a new five-pass audit/VNext by default, per the [latest plan addition](governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#trabajo-fuera-de-la-ruta-principal--lectura-adicional-sin-nuevas-auditorías).
-
-Navigation execution and literal index-link additions are recorded in the existing affected README VNext and EP README VNext. Authentic predecessor blobs are preserved before branch publication; the diff and new links are verified and public text read back.

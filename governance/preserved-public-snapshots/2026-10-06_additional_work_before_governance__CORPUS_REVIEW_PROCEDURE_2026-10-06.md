@@ -465,35 +465,3 @@ Para un documento congelado o binario, mantener el original y su ficha externa. 
 Publicar los pares parciales ya sustentados conforme al plan 1.7. Después de la sexta, el plan de cambios reúne las propuestas compatibles y explica orden, dependencias y opciones que necesitan decisión. Si el examen no justifica un cambio, decirlo y conservar sus razones; no inventar un par para rellenar una plantilla.
 
 El objetivo de esta fase es que Iván pueda leer **lo viejo y lo propuesto**, comprender sus consecuencias y decidir. Plan preparado, incorporación autorizada y cambio aplicado son estados diferentes. La incorporación permanece fuera de esta revisión hasta su decisión concreta; el plan no marca la quinta o la sexta realizadas por existir.
-
-
----
-
-## Trabajo fuera de la ruta principal — lectura adicional sin nuevas auditorías
-
-**Adición al plan, revisión 1.10 · nueva instrucción de Iván del 6 octubre de 2026.** Identificar lo que quedó fuera de la ruta canónica de tres niveles, leer para explicar qué es, para qué sirve, duplicación visible y relación con el corpus, y enlazarlo como trabajo o lectura adicional. **Iván precisa que no se modifiquen los documentos sueltos y que no necesitan abrir una auditoría nueva: hace falta organizarlos y enlazarlos.** Esta instrucción más reciente acota para esos materiales la obligación anterior de cinco pasadas sobre todo archivo.
-
-### Tres catálogos auxiliares, fuera de la jerarquía canónica
-
-Se reutiliza el [catálogo existente de EA](../research/ecosystem-awareness/baseline/non-canonical/README.md) y se añaden [RA](../research/regime-awareness/ADDITIONAL_WORK_README.md) y [MSCA](../standards/minimum-sufficient-control/ADDITIONAL_WORK_README.md). El primero incluye también trabajo transversal de EP, programa padre, mantenimiento y submissions que no tienen otro owner de lectura. Son **tres hojas no canónicas**, enlazadas desde los índices propietarios del nivel 3. Lo que Iván llama “como un README de cuarto nivel” es esta salida auxiliar autorizada, no otro nivel canónico ni permiso para producir README infinitos por carpeta.
-
-La lectura principal y los propietarios permanecen. No se mueve, renombra, fusiona, elimina o corrige el material adicional. La ampliación del índice EA preserva íntegro su texto anterior; los otros dos catálogos son nuevos documentos de organización. La ejecución autorizada queda registrada en las VNext de los README afectados y en EP README VNext.
-
-### Qué distingue la clasificación
-
-- **Ya enlazado por un índice propietario:** no declarar sueltos o no canónicos a todos los destinos de esa ruta. Su estado permanece en la fuente.
-- **Apoyo accesible por una cadena secundaria:** explicar utilidad y relación sin promoverlo a canon.
-- **Sin ruta individual desde EP:** explicar qué archivo es y enlazarlo; un enlace a una carpeta no se cuenta como explicación de cada archivo.
-- **Parte o presentación de una unidad:** relacionar con lector completo y versión. Ausencia de enlace a una parte no excluye del canon a la fuente lógica que sí está en uso.
-- **Copia exacta, versión, pointer, extracción o registro:** indicar cuál de estas relaciones realmente se comprobó; parecido de título no demuestra igualdad.
-- **Preservación, código, datos, figuras y binarios:** explicar función desde su índice/manifest y conservar su original; este trabajo no ejecuta ni reexporta los artefactos.
-
-Un enlace no cambia autoridad o evidencia. Un borrador bien estructurado sigue siendo borrador; un self-test sigue siendo evidencia de instrumento; el estado de envío se conserva con su alcance. No dar un visto bueno científico a todo por haberlo ordenado.
-
-### Efecto sobre la revisión continua
-
-Los materiales claramente adicionales reciben **descripción y vínculo**, sin nueva VNext ni ciclo de cinco auditorías por colocarse aquí. Se conservan auditorías y propuestas ya publicadas; no se borran ni se declaran realizadas las pasadas que estaban pendientes.
-
-Las fuentes vigentes, sus partes lógicas y evidencia material realmente utilizada por el argumento canónico mantienen el examen que les corresponde. No se elude ese trabajo etiquetando como “extra” una dependencia necesaria ni degradando una fuente por su ubicación. Cuando exista duda, explicar la relación y el límite.
-
-La quinta y la sexta siguen con sus condiciones reales para el corpus principal y sus integraciones materiales. Los catálogos sirven de lectura y conservación de lo adicional; no son una campaña paralela ni instrumentos que generen auditorías de auditorías. Mantener explicación humana y registrar en las VNext de README cualquier futura propuesta de redistribución.

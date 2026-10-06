@@ -323,10 +323,3 @@ These materials are deliberately linked as **examples, source cases or standards
 - [Regime Awareness](../../regime-awareness/README.md): programme index for continued operating-validity work, including the [Minimalistic Regime-Aware Early Warning Systems](../../regime-awareness/minimalistic-early-warning-systems/README.md) corpus and the [Regime Change Detection / QAVA–UV review route](../../regime-awareness/regime-change-qava-uv.md); related by 01C/01D.
 
 **Status:** a public working architecture and test programme. Publication, contributor discussion and an internal freeze do not establish adoption, deployed interoperability or completed comparative validation. Controlled Drive-revision/SHA parity for all public mirror artefacts remains open.
-
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.

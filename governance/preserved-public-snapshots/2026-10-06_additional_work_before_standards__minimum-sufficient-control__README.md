@@ -160,10 +160,3 @@ This README is the controlled entry point for the MSCA corpus. Whenever an MSCA 
 Historical submissions and provenance records should remain stable. New architecture should be added through the canonical MSCA documents and explicit profiles/interfaces rather than by retroactively rewriting the meaning of earlier public submissions.
 
 **Claim status:** standards-oriented research and a posted focus-group input; no adopted ITU position, universal minimum, completed comparative validation or production certification.
-
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.

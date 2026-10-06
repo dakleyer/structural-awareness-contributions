@@ -22,10 +22,3 @@ This folder is the **public reading index for the EWS anchor line**. The article
 [EA annex 01C v0.2](../../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) is the current report-contract route: the public minimal detector remains bounded, while the broader RA integration may additionally project the qualified delta `Δ_RA=[A_RA,B_RA,C_RA,D_RA]`, where A_RA is direction, B_RA is established support and characterized reserve, C_RA is the exploration frontier and D_RA is residual beyond effective evaluation, for EA/MSCA consumption. [Joint EA/MSCA/RA annex 01D](../../ecosystem-awareness/baseline/01D_EA_MSCA_RA_OPERATION_COMPOSITION_PROFILE_v0.1.md) tests version and permit compatibility before an RA-triggered action. [MSCA](../../../standards/minimum-sufficient-control/README.md) owns control-sufficiency assessment; [DAOS](../../../submissions/itu-fg-tida/2026-theme-contributions/delegated-authority-os-under-context-change/README.md) is an independent extensible case source.
 
 **Claim status:** conditional theory and a test programme. Pointwise Non-Inferiority is a demanding action-design requirement for a declared admissible domain, not automatic real-world safety; practical context identification, economic value, H1–H3 performance and independent replication remain open.
-
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](../ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
