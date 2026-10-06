@@ -90,3 +90,17 @@ The [blind-signature proof supplement](../00K-FORMAL/p5-blind-signature/README.m
 It proves the projection-separation result directly: STALE and FRESH are identical on token validity, scope and elapsed time but require opposite dispositions because the current material condition differs. No deterministic policy restricted to that blind surface can classify both correctly.
 
 The supplement passes **18/18** tests but is deliberately **not counted** in the canonical P5 total (**47/47**) or the registered 00K campaign (**379/379**). Its role is mathematical readability; A11 remains the stronger exhaustive operational P5 audit.
+
+## Audit clarification — 6 October 2026
+
+This section records a third-party-review clarification. It does not change the frozen P5 invariant, the 47-test canonical count, or any historical result.
+
+1. **What 47/47 means.** The number is a pytest regression count: 47 declared checks produced their expected outcome. Some checks expect EXECUTE, some REQUALIFY/HOLD, and some expect a candidate repair to fail a branch. It is not “47 successful defences”, 47 independent experiments, or product evidence.
+2. **What is exhaustive.** The 16-case claim is exhaustive only over the inclusion/omission power set of the four declared material-basis fields `generation`, `incident_open`, `freeze_active`, and `source_version` in this reduced model. It is not exhaustive over each field's value domain, temporal ordering, timestamps, latency, or all possible repair algorithms.
+3. **Attribution in the serious grid.** The single-field mutation branches change exactly one declared material field while keeping the other declared basis fields fixed. Therefore a full-basis REQUALIFY on those branches is attributable to the sole changed field by construction. This is not a stage-tagged mutation-kill framework like the S5 harness; the original multi-change stale branch is not used to infer which individual field caused requalification.
+4. **Specification agreement.** A machine-readable fixture contract and agreement validator are being added as meta-integrity controls. They prevent silent spec/code drift but do not constitute independent human adjudication because the corpus remains author-produced.
+5. **Compressed peers are conditional models.** State-hash, version-vector, event-invalidation and material-epoch peers count as passing only under the explicit condition that their compressed representation changes on every declared material-basis change. The symbolic tests do not establish that a real product's epoch/event source satisfies that condition.
+6. **Blind-signature supplement.** The STALE/FRESH blind-signature package is executed in CI as a separate mathematical certificate and remains excluded from both the 47 canonical P5 checks and the 379 registered 00K campaign.
+
+The planned cross-version/hash-seed replays are reproducibility checks, not additional scientific test cases.
+
