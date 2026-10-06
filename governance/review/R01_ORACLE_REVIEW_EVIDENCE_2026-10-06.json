@@ -1,0 +1,85 @@
+{
+  "schema": "R01-ORACLE-REVIEW-EVIDENCE-1.0",
+  "date": "2026-10-06",
+  "source_commit": "40cb19682fd1211d2c07e81ecd0242b56d425918",
+  "source_path": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+  "source_blob": "282d97ed967898a086303927872fbdfcaf37dd70",
+  "scope": "Document and relationship audit; no new scientific execution in this documentation task",
+  "prior_reviews": [
+    {
+      "source_commit": "1d24b7bfe88fa366e6c619fa88f6f7904d1380db",
+      "note": "R01 status, UC4/UC6 and Nelson review"
+    },
+    {
+      "source_commit": "9e785ab76f7cfacbccbfa8280f3ef0c4ef476c1d",
+      "note": "Harness reuse and 16 pointwise CTv1 serialization comparisons"
+    }
+  ],
+  "schema_companion": {
+    "url": "https://github.com/user-attachments/files/32751569/UC4_Public_Experiment_Schema_1.1.0-r1.zip",
+    "schema_version": "1.1.0",
+    "package_version": "1.1.0-r1",
+    "schema_sha256": "2fc6b7f923ae3c8ff3e6fdadde82c47194e7758d390728cf9406dd688dc48bda",
+    "zip_sha256": "427188F9A7E544DDC303CE103FBDDB5E276C3238F1857688E3D66EDC9314B496",
+    "verification": "Downloaded in preceding review; schema and README bytes matched companion manifest; schema in both Nelson results ZIPs matched the companion",
+    "uc4_validator_pass": false,
+    "nelson_specific_r01_acceptance_established": false
+  },
+  "ctv1_comparison": {
+    "execution_context": "Prior local review in this chat, before current VNext documentation instruction",
+    "test_count": 16,
+    "valid_shared_domain_cases": 10,
+    "valid_byte_matches": 10,
+    "source_blobs": {
+      "q1a": "ab3926be4d22058b2712eec1502e28734b413900",
+      "r01": "36ffd9768011270961d6d96aa97483578a3f0097"
+    },
+    "acceptance_difference": "Non-Mapping list-of-pairs root: Q1a rejects, R01 converts through dict and accepts",
+    "rejection_type_difference": "set-like collection lacking stable key: Q1a CanonicalTraceError, R01 KeyError",
+    "limits": [
+      "Pointwise comparison, not universal conformance",
+      "No established exploit of current caller",
+      "Same agent, not independent reviewer"
+    ]
+  },
+  "instrument": {
+    "identifier": "R01-C02-neutral-harness-0.7",
+    "freeze": "STAGE0_FREEZE_v0.9.json",
+    "frozen_artifact_count": 30,
+    "verified_at_prior_cut": true,
+    "workflow": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/37265543867",
+    "scope": "Author-constructed instrumentation only; not complete C02, real technology, human calibration or EA differential"
+  },
+  "referenced_registered_evidence": {
+    "k00": {
+      "core": 346,
+      "supplemental": 33,
+      "total": 379,
+      "scope": "Symbolic regressions; no new rerun in this task"
+    },
+    "i00_stateful": {
+      "scenario_rows": 52,
+      "scenario_acceptance": 44,
+      "retained_scenario_failures": 8,
+      "regressions": 49,
+      "scope": "Source-recorded synthetic/local SQLite evidence; no new rerun"
+    }
+  },
+  "dispositions": {
+    "source_correction": "PENDING_IVAN_DECISION_BY_DELTA_ID",
+    "source_body": "UNMODIFIED",
+    "code_and_freezes": "UNMODIFIED",
+    "audit_coverage": "PARTIAL_RELATIONSHIP_REVIEW"
+  },
+  "procedure": {
+    "version": "1.2",
+    "read_at_commit": "2f72751fef47d9f4cf1d270a1f7fa498a26f5760",
+    "passes": {
+      "substance_logic": "PARTIAL",
+      "evidence_relationships": "PARTIAL",
+      "editing_structure": "PENDING_SEPARATE_PASS",
+      "human_readability": "PENDING_SEPARATE_PASS"
+    },
+    "global_reconciliation": "NOT_CLOSED"
+  }
+}
