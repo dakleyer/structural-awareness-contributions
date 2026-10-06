@@ -8,16 +8,16 @@ La revisión encuentra una base propia considerable: los harness anteriores ya a
 
 | Pasada | Estado de esta VNext |
 |---|---|
-| Fondo y lógica | Pasada previa del README y nueva lectura del conjunto/compatibilidad realizadas en sus alcances. Validación externa y código completo pendientes. |
-| Evidencia y relaciones entre documentos | Contraste previo y ampliación UC4/terceros realizados; fuentes vecinas siguen parcialmente revisadas. |
-| Edición, estructura y formato | Markdown y navegación de la ampliación inspeccionados; siete propuestas exactas pendientes, sin incorporación. |
-| Legibilidad y comprensión humana | Relecturas previas y de la ampliación simuladas por el mismo asistente; participación humana independiente no realizada. |
+| Fondo y lógica | Realizada como pasada diferenciada del README y sus límites; validación externa y código completo fuera de este cierre. |
+| Evidencia y relaciones entre documentos | Realizada para las afirmaciones del README y cadenas materiales declaradas; fuentes vecinas tienen revisión cruzada parcial, no auditoría íntegra. |
+| Edición, estructura y formato | Inspección completa del Markdown realizada; siete propuestas exactas pendientes, sin incorporación. |
+| Legibilidad y comprensión humana | Relectura simulada terminada por el mismo asistente; participación humana independiente no realizada. |
 
 Los comentarios se explican primero en lenguaje corriente. El registro de fuentes, códigos y hashes posterior permite continuar la revisión sin sustituir su contenido.
 
 **ID del documento lógico:** `R01-ORACLE-C02-README`  
-**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.11 · **Fecha:** 6 de octubre de 2026  
-**Estado:** cuatro pasadas previas del README realizadas en su alcance; ampliación de la visión general revisada en cuatro lecturas diferenciadas por el mismo asistente; relaciones vecinas parcialmente revisadas y cierre completo abierto; siete propuestas pendientes de decisión por ID.  
+**Expediente único:** `README_VNext.md` · **Revisión acumulativa:** 1.10 · **Fecha:** 6 de octubre de 2026  
+**Estado:** cuatro pasadas previas del README realizadas en su alcance; ampliación de la visión general en curso de revisión diferenciada; relaciones vecinas parcialmente revisadas y cierre completo abierto; siete propuestas pendientes de decisión por ID.  
 **Nota externa:** [ficha de acceso](./README_REVIEW.md) · **Procedimiento:** [revisión segura del corpus](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md)
 
 **Para retomar:** [visión general y piezas](#r01-overview-review) · [pruebas de terceros](#r01-thirdparty-test-reuse) · [siguiente bloque y pendientes](#r01-resume-work) · [matriz técnica](#r01-compatibility-matrix) · [estado de tareas1/2](#r01-tasks12-status).
@@ -264,30 +264,6 @@ Un lector que llega sin los chats necesita entender qué significa evaluar una r
 **Resultado:** la fuente comunica bien su límite técnico a un lector del proyecto; necesita las aclaraciones de propósito, modos y antecedentes para una persona que llega de fuera. Se han preparado propuestas concretas 001–007 para esas dificultades. Su comprensión posterior a incorporación no se ha probado con una persona; no se asigna puntuación ficticia ni se afirma accesibilidad validada.
 
 **Estado:** relectura simulada terminada en el alcance del README Markdown. Las cuatro pasadas son ahora registros diferentes, publicados en orden. Una evaluación externa de legibilidad queda explícitamente separada; no impide completar esta simulación autorizada ni se declara realizada.
-
-
-#### Ampliación 2026-10-06 — legibilidad y comprensión humana
-
-**Codex /root, mismo asistente; simulación de lectura de una persona nueva.** Pregunta: ¿puede alguien retomar el tema desde esta página y decidir cuál es el trabajo pendiente sin recordar nuestra conversación? Se releen apertura, §5.4 completo, matriz y tabla de reanudación después de las tres publicaciones previas. No participó una persona independiente.
-
-La primera lectura permite ahora contar el sistema: hay un instrumento parcial, backends y pruebas anteriores, una envolvente UC4 propuesta y conexiones aún pendientes. El vocabulario básico aparece antes del diagrama. «C4» conserva su interpretación explícita; los alcances del batch, de los sellos y de los resultados históricos no se presentan como hechos de una campaña real.
-
-**Preguntas de comprensión resueltas en la página:**
-
-| Pregunta del lector | Respuesta que puede reconstruir |
-|---|---|
-| ¿Qué tenemos realmente? | Instrumentación limitada y controles ejecutados; integración completa y tecnología real siguen pendientes. |
-| ¿Qué pieza juzga y cuál ejecuta? | El oráculo evalúa desde referencia; el harness organiza ejecución y evidencia; el adaptador conserva el contrato del caso. |
-| ¿Para qué entra UC4? | Envolvente experimental y frontera de interoperabilidad propuesta, con revisión/admisión separadas. |
-| ¿Puedo usar el C3 antiguo? | Sus predicados de inspect y su evidencia, mediante mapping acotado; no como óptimo R01. |
-| ¿Qué no tengo que volver a hacer? | Tareas1/2 documentales, controles ya preservados y entregas virtuales reconocidas por la cola. |
-| ¿Qué puedo aprovechar de terceros? | Validador, suite de conformidad, generador y escenarios seleccionados, con su función y límite. |
-| ¿Cuál es el siguiente entregable? | Un ejemplo UC4/R01 de un caso S5, trazable y validado estructuralmente, con cuestiones semánticas visibles. |
-| ¿Qué falta para una campaña real? | Perfil suficiente, mapping admitido, registro, capacidades y aislamiento; C11/T03. |
-
-**Dificultad que persiste:** la VNext acumula historia, auditorías y propuestas y sigue siendo larga. El acceso inicial y §5.4 permiten leer primero el relato y volver después a detalle y antecedentes. No ocultar o borrar la historia para simular un documento corto. La repetición de estados antiguos queda explicada; las siete propuestas al canon permanecen al final.
-
-**Resultado de comprensión:** las preguntas de esta conversación encuentran respuesta y próximo paso dentro del expediente. La lectura por una persona independiente, la auditoría completa de fuentes vecinas y el cierre global siguen abiertos. La revisión documental permite retomar el tema; no certifica implementación, aceptación UC4 o verdad universal.
 
 ### Apoyo técnico de la revisión
 
@@ -673,16 +649,6 @@ Propongo esta batería mínima de correspondencia, todavía no ejecutada:
 Antes de ejecutar el piloto, dejaría respondidas cinco preguntas en su expediente: **qué ve el candidato, qué queda privado, qué operación produce el efecto, qué evidencia lo confirma y qué recursos paga cada parte**. Si falta una respuesta, el hueco se conserva como condición pendiente; no se rellena con una suposición favorable.
 
 El primer bloque termina con **un ejemplo trazable y una lista corta de decisiones abiertas**, no con «UC4 compatible» en general. Su aceptación técnica y semántica puede permitir después admitir ese perfil. La extensión del evaluador y la campaña real conservan sus etapas propias. No se asigna aquí trabajo a Nelson, otro agente o una persona sin acuerdo.
-
-
-
-### Cierre de esta ampliación y asuntos que permanecen abiertos
-
-La petición IVAN-R01-ORACLE-20261006-04 queda atendida como **revisión documentada de estos comentarios**: cuatro lecturas distintas, publicadas sucesivamente, relato del conjunto, límites, reutilización propia y de terceros, controles de correspondencia y siguiente bloque. Es trabajo de este mismo asistente, con relectura simulada; no se cuenta como participación humana ni auditoría independiente.
-
-Se verificaron navegación añadida, anclas y preservación. El [registro técnico de esta ampliación](../../../../../../governance/review/R01_ORACLE_OVERVIEW_REVIEW_2026-10-06.json) permite volver al corte y a sus fuentes. Las 58 fuentes técnicas contrastadas y los 30 artefactos del freeze conservan sus blobs; el bloque original de siete deltas permanece íntegro. No se ejecutó el harness científico, instalaron benchmarks ni realizaron llamadas de modelo por esta revisión.
-
-Quedan abiertos: confirmar el referente si «C4» no era UC4; paquete/validator R01, review del contributor y admisión; piloto y fidelidad por perfil; cobertura independiente faltante; mediciones y aislamiento de realización real; las siete decisiones sobre el canon; examen completo de consumidores/fuentes vecinas y conciliación global. Ninguno se elimina por haber terminado esta entrega documental.
 
 
 ## 6. Propuestas quirúrgicas — al final, incorporación pendiente
