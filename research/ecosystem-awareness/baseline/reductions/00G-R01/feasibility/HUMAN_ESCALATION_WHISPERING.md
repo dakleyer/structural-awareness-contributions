@@ -3,6 +3,27 @@
 Mathematical version 0.1 · Virtual traversals 0.3 · First technology in the extension protocol · 4 October 2026 · No integration executed.
 [Protocol technologies](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) · [Single base theorem](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 
+## DDS profile status
+
+This study is a **rich virtual DDS implementation profile over R01**, not a separate test method. The canonical DDS terminology is defined in the [DDS Challenge–Trajectory Profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); the R01 mathematics below remains source-native and unchanged.
+
+| DDS surface | Current Human Escalation / Whispering coverage |
+|---|---|
+| Challenge / scenario | R01 AVG family and the fixed R1/R2/R3 contracts |
+| Preserved correspondence | §1 / E1–E7 mapping; complete-system R2 correctly identified as non-isomorphic to R1 where observation/enablement changes |
+| Additional mechanisms | H0–H4 information, notification, pause, human evidence/authority, dissemination and composition |
+| Route space | X/Y/M plus irreversible V and incomplete/timeout branches; DDS I/M/P/Ø normalization is additive and must not rename the R01 source semantics |
+| Segments / gates | detect → escalate → pause → human resolution → resumption → delivery; gate coverage and restart conditions explicit |
+| Probability / observation law | q, conditional histories and R3 availability/validity changes |
+| Cost | h, C_H, repeated work, budget and deadline |
+| Risk | r / material violation V |
+| Effectiveness | s / sufficient legitimate delivery |
+| Acceptance | `A_{b,δ,p}` |
+| Business Value | not defined; requires a concrete deployment-specific projection |
+| Evidence | mathematical/analytical + virtual traversals; no calibrated human or real technology campaign |
+
+**Remaining DDS completion work** is therefore not to invent another test: preserve the R01 contract, make the I/M/P/Ø crosswalk explicit for reporting, freeze the future harness trace schema, and add Business Value only when a real deployment interpretation exists.
+
 Whispering here means notifying the rest of the group when an agent identifies a problem. Any agent can initiate direct escalation. The human examines the evidence and can order a pause or a legitimate alternative. This is the mechanism requested by the user; no specific quotation is attributed to Nell, and no claim is made that a particular product implements it.
 
 <a id="why-it-can-help"></a>

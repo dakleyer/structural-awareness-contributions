@@ -231,6 +231,12 @@ The compact status statement appears above the scenario walkthroughs. The dashbo
 
 The benchmark is therefore presentable as an inspectable test programme and market/architecture gap analysis. It is not yet evidence of comparative superiority.
 
+## Deployment Differential Study (DDS) — canonical Challenge–Trajectory profile
+
+The [**Deployment Differential Study (DDS) — Canonical Challenge–Trajectory Profile v0.1**](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) is the programme-wide technical method for binding a declared Challenge to a technology/configuration, mapping preserved correspondence plus additional mechanisms, defining I/M/P/Ø route classes, recording traversals/traces, and — where the selected profile requires it — accounting Cost, Risk and Effectiveness before applying a frozen acceptance policy and any deployment Business Value projection.
+
+There is **one DDS method**. Concrete artefacts use DDS implementation profiles with declared coverage. The current frozen positive/negative technology trajectories are simplified DDS profiles; R01 is the richest current probabilistic reference instantiation; Human Escalation / Whispering is a richer virtual DDS profile. This classification is additive and does not rewrite any frozen result.
+
 ## Applied validation route — Decision Boundary Challenge
 
 The [**Decision Boundary Challenge — Applied Agentic Validation Protocol v0.2**](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) is a separate applied-evidence route for reviewing what happens when an agent reaches the boundary between capability, sufficient evidence, admissibility, authority, opportunity and actuation.

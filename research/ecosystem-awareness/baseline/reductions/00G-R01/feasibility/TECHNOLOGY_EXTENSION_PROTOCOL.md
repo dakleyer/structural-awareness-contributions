@@ -5,6 +5,25 @@ Single base: [R01 mathematical validation v0.2](./R01_CONDITIONED_TRILEMMA_THEOR
 Reviewed precedent: [consistency of the three extensions](./EXTENSION_CONSISTENCY_REVIEW.md).
 First mathematical application: [human escalation with whispering](./HUMAN_ESCALATION_WHISPERING.md).
 
+## DDS profile relationship
+
+This protocol remains the controlling extension method **inside R01**. The programme-wide [DDS Canonical Challenge–Trajectory Profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) reuses its discipline — preserved correspondence before parameter changes and additional mechanisms — as one methodological source, but does not import R01's mathematical conclusions into other Challenges.
+
+For a technology extension to be represented as a richer DDS implementation profile, record after the existing R01 obligations:
+
+- Challenge / bounded scenario;
+- correspondence type and proof status;
+- declared parameter changes;
+- additional mechanisms/information;
+- complete I/M/P/Ø route interpretation;
+- segment/gate and probability/observation model;
+- trace ledger for C, R and E;
+- frozen acceptance policy;
+- evidence mode;
+- any E→Business Value projection only when a concrete deployment interpretation exists.
+
+The R01 equations and acceptance region remain authoritative wherever this protocol is used.
+
 ## 1. What is compared
 
 Fix problem x: task, mandate, worlds and their law, sufficient quality, evaluation horizon, actual violation and accounting rule. Declare technology t and complete manifest θ_t=θ(x,t). Admissible strategies are Π(θ_t), without access to the evaluator's private state.
