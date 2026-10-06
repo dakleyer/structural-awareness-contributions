@@ -1204,3 +1204,17 @@ Los comentarios materiales se publican también en 03, 00M, 00N, Requirements, D
 **Continuidad concreta:** derivaciones 02A/02B, matrices/perfiles y fidelidad de v0.4/01A respecto al sucesor; fuentes primarias formales completas aún inaccesibles. Quinta ampliada y segunda material siguen abiertas. La sexta global no se lanza y no se cierra el corpus por este avance. Todos los originales permanecen en sólo lectura.
 
 **Revalidación antes de publicar:** el head avanzó a `f0ebdd1031eb740b181c6a405fba6beb7f29ff6d`; cambió sólo la fuente DDS. Se leyeron sus nuevas §§3.1/5.3/7.1A/7.4: M admitido previamente, frontera de información del evaluador, mínimo privado frente a accesible y exclusión de P del numerador Type 1. Se preserva esa edición y se deja en Foundation/DDS la pregunta sobre el mecanismo y evidencia de cada diagnóstico. No es conciliación global ni auditoría completa de los estudios nuevos.
+
+---
+
+## Estado real de cobertura y recomendaciones — respuesta a Iván
+
+**6 octubre 2026 · Codex, mismo asistente.** Comprobación documental del árbol y los expedientes en `fc6bc0406bd1e9ee4711914225b23c379ba0cb5e`; no otra pasada científica. **No están concluidas seis pasadas en cada expediente ni el plan consolidado de todo el corpus.**
+
+Hay **52 archivos llamados VNext y el benchmark v0.3 reutilizado: 53 expedientes activos**. Frente al corte previo `b8f935f2a1fbac17f8aac24be60a3e65cd2c2b98`, que tenía cuatro VNext y ese benchmark, se añadieron 48 nombres VNext. Se excluyen copias de preservación; el conteo no atribuye cada creación a un agente ni certifica por sí solo unicidad lógica o revisión completa.
+
+**32 expedientes contienen bloques literales emparejados de antes/después; 21 no los contienen.** Hay 101 pares visibles, incluidos históricos, navegación, incorporaciones y alternativas repetidas: no se presentan como 101 recomendaciones nuevas. Algunas ausencias se explican como conservación sin cambio; otras mantienen revisión propia, fuentes o plan pendientes. Tener un par tampoco acredita un plan final completo o un viejo vigente.
+
+El registro conserva **73 entradas: 64 con par y 9 líneas por concretar**. Entre las primeras, 49 están pendientes de decisión, siete ya publicadas y ocho descartadas, reformuladas, desplazadas o resueltas por otra edición. Doce pares pendientes están preparados para revisión documental concreta, sin autorización de incorporación. Los tres cambios 26/31/32 eran una primera tanda de riesgo bajo; no el total.
+
+**La entrega sigue incompleta:** faltan lecturas materiales, contrastes externos y consolidación; la sexta global continúa pendiente. La estructura de expedientes avanzó antes que su cierre. No se puede interpretar “sin candidato” provisional como documento exhaustivamente aprobado, ni completar un plan inventando cambios. Completar el examen sustentará los pares que procedan y las razones concretas para conservar los demás. El temporizador sigue eliminado; esta comprobación no lo reactiva ni modifica originales.
