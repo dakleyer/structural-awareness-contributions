@@ -397,6 +397,9 @@ A simple campaign estimate is then:
 
 The numerator may include Ø, unresolved HOLD, timeout or budget exhaustion when no legitimate closure was produced. Report the terminal cause and the observed rework/excess-cost ledger beside the estimate. Excess Cost can explain why closure was lost, but it is not itself counted as Type 1.
 
+**Type-1 numerator clarification.** In this estimator, “ending without I or M” means **ending without a legitimate closure**: Ø, unresolved HOLD, timeout, budget exhaustion or another preregistered no-closure state. A trace that closes on P is **excluded from the Type-1 numerator** and remains available for the separate Type-2/P analysis below. This prevents one failed trajectory from being counted simultaneously as Type 1 merely because it did not reach I/M and as Type 2 because it falsely closed on P.
+
+
 For Type 2, define the eligible population and causal rule before execution. A simple estimate is:
 
 ~~~math
