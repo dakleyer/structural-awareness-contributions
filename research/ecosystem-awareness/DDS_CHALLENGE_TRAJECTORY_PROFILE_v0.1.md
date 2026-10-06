@@ -1,5 +1,7 @@
 # Deployment Differential Study (DDS) — Canonical Challenge–Trajectory Profile v0.1
 
+Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
+
 Coverage/delivery clarification0.1.2: reduced implementations remain traceable to this one working corpus reference; technical coverage and delivery completion are distinct. No frozen evidence or mathematics changes.
 
 Review/navigation addition0.1: [sole owning VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Identity clarification is owner-authorized; method version0.1 and historical instance evidence remain unchanged.
@@ -44,10 +46,13 @@ CHALLENGE
    ↓
 BOUNDED SCENARIO / REDUCTION
    ↓
-TECHNOLOGY / CONFIGURATION MAPPING
-   ├─ preserved correspondence / kernel
-   ├─ declared parameter changes
-   └─ additional mechanisms / information
+TECHNOLOGY–PROBLEM EXTENSION + ISOMORPHISM PROFILE
+   ├─ preserved correspondence / kernel + proof status
+   └─ declared parameter changes
+   ↓
+STUDY OF NON-ISOMORPHIC MECHANISMS
+   ├─ additional mechanisms / information
+   └─ composition with the preserved part
    ↓
 ROUTE + GATE MODEL
    ├─ I_k  high-value admissible routes
@@ -345,6 +350,8 @@ A profile must declare coverage for:
 | Challenge / frozen scenario | used / inherited / not used |
 | Technology mapping | full / partial / documentary |
 | Preserved correspondence | proved / parameterized / one-way / analogy / none |
+| Technology–problem extension / isomorphism profile (Stage1) | performed within scope / partial or pending / outside scope or not applicable with reason; relation and transfer basis linked |
+| Non-isomorphic mechanism study (Stage2) | performed within scope / partial or pending / outside scope or not applicable with reason; mechanism and composition findings linked |
 | Additional mechanisms | enumerated / none / pending |
 | I/M/P/Ø route model | full / reduced / collapsed |
 | Segment/gate model | deterministic / probabilistic / documentary / other |
@@ -404,7 +411,7 @@ The table below is a **classification aid**. It does not modify the cited artefa
 | 00I AWS ordinary → defended → same frozen defended-under-drift trajectory | Simplified DDS profile with strong continuity and drift controls | unscored as DDS C | stale/prohibited action is primary | I/M not separately priced/scored | gate-based | not part of frozen route | design / fixture evidence as stated by 00I |
 | R01 core | Rich probabilistic DDS reference profile | explicit | explicit | explicit I/M/P and sufficient-delivery `s` | quantitative `A_{b,δ,p}` | optional downstream projection | mathematical / virtual / harness stages separately stated |
 | R01 technology-extension protocol | DDS-compatible extension discipline | explicit | explicit | explicit | quantitative | not intrinsic | protocol / proof / traversal stages |
-| Human escalation + whispering | Rich DDS implementation profile over R01: kernel mapping + additional mechanisms + stochastic C/R/E + R1/R2/R3 | explicit virtual ledger | explicit `r` | explicit `s`, X/Y/M and incompletion | quantitative | not yet defined | virtual/analytical; no real integration/campaign |
+| Human escalation + whispering | Rich DDS implementation profile over R01: kernel mapping + additional mechanisms + stochastic C/R/E + R1/R2/R3 | explicit virtual and finite local model ledgers | explicit `r` | explicit `s`, X/Y/M and incompletion | quantitative | deployment BV not calibrated | virtual/analytical core + published finite SQLite companion; no native/human campaign |
 | 01K-A01 Human Capacity / HID component | DDS-compatible reusable component: process-relative A/B/C/D + EHD profile + runtime human-capacity scheduling + HID architecture burden | explicit human runtime/readiness/ACW/component ledger; `C(τ)=Σ_g c_g(τ)` retained | inherited from frozen Challenge / route; HC-HID adds no private Risk definition | inherited from frozen Challenge I/M/P/Ø; matched-route comparison only | component states + Challenge acceptance remain separate | deployment-specific only | specification + JSON schema + deterministic semantic controls; no real human calibration |
 | DBC | Optional DDS evidence/adjudication companion | burden vector | branch-specific outcomes | value/continuity gates as preregistered | hard gates + comparative rule | may consume deployment value rule | evidence ladder DBC-EL# |
 | 00D | Optional DDS comparator contract | matched burden | measured outcome | matched outcome | preregistered comparison | not intrinsic | benchmark design / execution as stated |
@@ -461,6 +468,26 @@ A DDS technology extension should proceed in this order:
 
 The current R01 technology-extension protocol remains the controlling source for R01-specific isomorphism, bounds and acceptance mathematics.
 
+### 13.1 Two explicit DDS extension-review stages
+
+These two stages are part of DDS, not a separate method or an R01-only annex. The base may be R01 or another declared scenario, fixture or reduction. Every technology-extension study records both stages, their scope, evidence references and status. A reduced study may perform only part of them, but must declare the remaining work and restrict its conclusion accordingly.
+
+**Stage 1 — Technology–problem extension and isomorphism profile.**
+
+Define the exact technology/version/configuration and how it extends the technology–problem relation relative to the pinned base. Identify the preserved part and the declared parameter changes. Provide a correspondence record for material objects, relations, events/actions, observations/information, authority, cost, timing, quality and outcomes, together with applicable preservation obligations, supporting evidence and unresolved conditions.
+
+The profile states the actual relation: proved isomorphism on a declared kernel, parameterized correspondence, proved projection/homomorphism, one-way simulation, analogy/pending proof or no inherited kernel. Partial preservation does not make the complete technology/configuration isomorphic. Where R01 is the base, its E1–E7 and transfer obligations remain controlling. Another base requires its own preservation and transfer justification; it does not inherit R01's theorems. Record which conclusions can transfer, in which direction and under which assumptions.
+
+**Stage 2 — Study of non-isomorphic mechanisms.**
+
+Study the mechanisms or information that lie outside the established preserved kernel. Identify each mechanism, its operation/invoker, producer/source and validity, authority, new information or transition, resource/latency/maintenance burden, failure boundary and interaction with the other mechanisms. An unresolved correspondence is labelled unresolved rather than silently treated as a proved kernel or established new capability.
+
+Explain how these mechanisms can change reachable admissible, prohibited or incomplete routes, acceptance and any in-scope Cost/Risk/Effectiveness or Business Value interpretation. Examine useful operation, boundary/failure cases and the configured composition. Where feasible and in scope, use a baseline, mechanism removal or strong-peer control to distinguish the added contribution; state what remains untested. Freeze the test/finding rules before result-producing execution. Report documentary, analytical, virtual and executed evidence separately.
+
+The Stage1 result applies only to its declared preserved part. Stage2 does not automatically inherit the base bounds or acceptance result: composition may change information, authority, resources, sufficient quality or the attainable region, and must be justified for the composed configuration. In HEW, information/whispering, pause, human resolution and resumption are candidate mechanisms to examine under this rule; their names alone establish neither non-isomorphism nor effectiveness.
+
+**Required stage record:** base/version; scope; correspondence/mechanism inventory; preservation/transfer basis; evidence and permitted conclusion; omissions/open obligations; status **performed within scope / pending / outside scope with reason / not applicable with reason**. If no mechanism outside the preserved kernel is introduced, Stage2 records that finding and its basis instead of inventing one. A partial DDS can remain valid, but citation of DDS never turns a pending stage into a completed review or upgrades frozen historical evidence.
+
 ## 14. Human escalation / whispering profile status
 
 The current Human Escalation / Whispering study is already substantially richer than the simplified technology traversals:
@@ -477,6 +504,14 @@ Its remaining DDS completion questions are primarily:
 - state the exact DDS trace schema generated by the future harness;
 - define any deployment-specific `E → BV` projection only when a concrete deployment owner/problem exists;
 - execute/calibrate a real technology implementation before making empirical claims.
+
+### 14.1 Current executed companions and source parity
+
+The preceding virtual-core questions do not imply that no trace or local execution exists. The [HEW DDS research example](./baseline/reductions/00G-R01/feasibility/HEW_DDS_STUDY_2026-10-06.md) now supplies a frozen finite SQLite companion, declared scenario battery, trace/oracle contract, source/result records and scoped controls. Its model outcomes include sufficient delivery, incompletion and a retained false-source violation. M remains unevaluated in that finite profile. Fixture human/source conditions and illustrative work charges are not observed human performance, native integration or calibrated deployment Cost/Business Value.
+
+The [separate STAMP/STPA, SPIFFE and RATS exercises](./baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/EXERCISES_REPORT.md) likewise consume this one profile. Their evidence is respectively a finite control model, authored selected-profile JWT-SVID/RSA validation, and local file-hash/JWS appraisal/consumption with synthetic trust/source assumptions. Their different predicates and denominators are not pooled. Native SPIRE/TPM conformance, real human calibration, matched superiority and external independence remain unestablished.
+
+Programme master, scope/run cards, reports and delivery records must preserve these same source/version, coverage, stage and evidence distinctions. A later mirror or explanatory mapping does not alter frozen originals. The public research example records a partial research delivery, not an issued client SOW, Sponsor/seal, DOI deposit or completed international presentation. Method alignment is not proof of full commercial fulfilment.
 
 ## 15. Differential contribution
 
@@ -525,6 +560,9 @@ Future DDS implementation profiles should link this document and state, in one c
 
 ~~~text
 DDS profile:
+Base scenario / version:
+Technology–problem extension / isomorphism profile and status:
+Non-isomorphic mechanism study and status:
 Challenge / scenario:
 Technology / version / configuration:
 DDS surfaces used:
