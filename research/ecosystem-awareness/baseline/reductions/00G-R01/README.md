@@ -17,7 +17,7 @@ The dated plans and state snapshots below are retained as history. For the curre
 
 [Differential and value of the experiment](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md): the technology–problem suitability map, cost/risk/effectiveness, related work, candidate contribution, oracle priorities and remaining review passes.
 
-**DDS relationship:** [DDS Canonical Challenge–Trajectory Profile v0.1](../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) treats R01 as the richest current probabilistic DDS reference instantiation. This does **not** change R01's theorem, I/M/P semantics, accepted region, extension protocol or historical results. R01 supplies a full C–R–E profile; other DDS implementation profiles may deliberately score fewer dimensions and must declare that reduction.
+**DDS relationship:** the [DDS Canonical Method Index v0.1](../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) is the single method entry point. R01 is currently the richest probabilistic **DDS Gate-A — Specification Discovery** reference instantiation and continues to be governed by its own theorem, I/M/P semantics, accepted region and extension protocol. This classification does **not** rewrite any historical R01 result. The [R01 C02 Oracle/harness](./oracle/README.md) is incorporated as shared DDS test-infrastructure qualification, not a Gate result; C11 remains campaign registration and T03 is the prepared real-technology execution route used for future Gate-C validation when admitted. R01 supplies a full C–R–E Gate-A profile; Simplified Gate-A profiles may deliberately score fewer dimensions and must declare that reduction.
 
 <a id="bot-start-here"></a>
 ## Start here — current work
