@@ -80,6 +80,111 @@ Theme #13 / EA consumer view
 
 If authority, delegation, identity, oversight capacity or another imported state changes, the adapter preserves that source meaning. R01 may evaluate whether reliance remains supported in its scenario, but actual re-determination remains with the semantic owner.
 
+
+## 4.1 Working design note — one DDS, three validation gates
+
+> **Review status only.** This section is a design proposal for discussion before any amendment to the canonical DDS. It does not change Nelson's UC-4 stages, the existing DDS extension-review Stage 1/Stage 2 terminology, any frozen R01 result, or the current oracle implementation.
+
+The same DDS may mature through three different validation gates. They reuse one oracle/testbed framework, but **the object being adjudicated and the reference used by the oracle are different at each gate**. The gates are therefore not three names for stronger evidence of the same claim.
+
+```text
+Challenge / failure family
+        |
+        v
+Gate A — Specification Discovery
+        |     freezes the surviving specification package
+        v
+Gate B — Architecture Conformance
+        |     freezes a conformant architecture/reference realization
+        v
+Gate C — Implementation / Problem Validation
+              tests a pinned executable implementation against the Challenge
+```
+
+### Shared oracle substrate
+
+The three gates may reuse the same infrastructure for version pins, hashes, private evaluator state, candidate-visible projections, source ownership, resource ledgers, trace sealing and post-run adjudication. A gate-specific oracle contract determines **which reference is authoritative for that gate** and which evidence is admissible.
+
+A future machine-readable profile could therefore add a gate selector such as `A_SPEC_DISCOVERY | B_ARCH_CONFORMANCE | C_PROBLEM_VALIDATION` plus the hashes of the candidate artifact, reference contract and acceptance policy. This is only a design direction at this stage; no schema change is proposed here.
+
+### Gate A — Specification Discovery
+
+**Object under test:** candidate requirements/specification packages.
+
+**Question:** given the frozen Challenge, which specification or combination of specifications removes or reduces the material failure route while preserving legitimate/high-value routes and respecting the declared Cost/Risk/Effectiveness and authority constraints?
+
+**Oracle reference:** the frozen Challenge/world truth, evaluator-private I/M/P/Ø relation or equivalent acceptance facts, positive/continuity controls, falsifiers and the declared strong conventional/reference alternatives.
+
+Gate A may use documentary mappings, analytical or mathematical checks, virtual traversals, deterministic fixtures, model checking or other evidence modes appropriate to the bounded question. It does **not** require that the candidate specification already exist as a production implementation.
+
+The oracle should be able to distinguish at least:
+
+- a candidate specification that leaves the target P/failure route reachable;
+- a candidate that closes P only by destroying legitimate I/M continuity;
+- competing specifications that are non-dominated under the frozen acceptance policy;
+- a conventional/reference specification that closes the problem at equal or lower burden;
+- insufficient evidence.
+
+**Gate-A product:** a versioned **candidate specification package** with explicit surviving requirements, assumptions, exclusions, falsifiers and evidence status. Gate A is the most developed of the three gates in the current DDS work.
+
+### Gate B — Architecture Conformance
+
+**Object under test:** a candidate architecture, reference model or executable conformance layer intended to realize the Gate-A specification package.
+
+**Question:** does the architecture actually realize the frozen specification, including its interfaces, semantic ownership, negative requirements and boundary behavior?
+
+**Oracle reference:** the **frozen Gate-A specification package**, its requirement-to-architecture mapping, conformance fixtures, negative controls and counterexamples. The Gate-B oracle must not silently substitute the desired Challenge outcome for specification conformance.
+
+Typical Gate-B checks may include:
+
+- every mandatory selected requirement has an identified realization or an explicit unsupported status;
+- source/authority semantics are preserved across interfaces rather than locally reinvented;
+- required state, provenance, timing and residual information survive the declared transformations;
+- positive controls remain possible;
+- negative controls, mutations and counterexamples are rejected for the right reason;
+- no hidden oracle/private truth is required by the candidate architecture;
+- architecture-level bypasses do not make a nominally present requirement ineffective.
+
+A failure at Gate B normally triggers architecture revision. If the architecture exposes a contradiction, impossibility or missing requirement in the frozen specification, the process returns explicitly to **a new Gate-A specification version**; Gate B must not rewrite Gate A in place after seeing the result.
+
+**Gate-B product:** a versioned **conformant architecture/reference realization** or a bounded non-conformance/partial-conformance finding. Passing Gate B does not establish that the architecture solves the real Challenge in deployment.
+
+### Gate C — Implementation / Problem Validation
+
+**Object under test:** a pinned executable implementation/configuration of the architecture.
+
+**Question:** when the implementation is exposed to the frozen Challenge or a justified representative/real instantiation of it, does it actually produce the required outcomes within the declared resource, timing, authority and continuity envelope?
+
+**Oracle reference:** the Challenge and independently observed environment/target state. Gate-A specifications and Gate-B conformance records remain provenance and diagnostic evidence; they are **not themselves proof of Gate-C success**.
+
+Gate C therefore requires evidence of actual effects appropriate to its evidence mode, for example:
+
+- pinned executable configuration and dependencies;
+- candidate-visible versus evaluator-only information separation;
+- matched comparator conditions where comparison is claimed;
+- attempted action, actual effect and resulting target state observed separately;
+- real/representative Cost, Risk and Effectiveness traces within the declared scope;
+- continuity/positive controls so safety is not obtained only by blanket blocking;
+- explicit treatment of infrastructure failure and unavailable evidence.
+
+A Gate-C failure must not be repaired by changing the frozen Challenge, acceptance rule or implementation after inspecting the failing run. It opens a successor cycle. The diagnosis may point back to an implementation defect (repeat C), an architecture-realization defect (return to B), or an inadequate specification (return to A), but the failed evidence remains preserved.
+
+**Gate-C product:** bounded empirical problem-validation evidence for the pinned implementation and evidence mode. It does not retroactively upgrade Gate A or Gate B, nor does a Gate-A/B success imply Gate C.
+
+### Gate separation and progression
+
+The default research-development path is **A → B → C**, but the gates are orthogonal to UC-4's current compatibility levels and to DDS evidence labels. A pre-existing product may enter B/C through an explicit mapping to a frozen specification and Challenge; it does not need to have been built by this programme. Conversely, an analytical Gate-A result does not become a product claim merely because a local harness exists.
+
+The oracle should preserve a separate result record for each gate:
+
+| Gate | Primary reference | Candidate object | What a pass establishes | What it does not establish |
+|---|---|---|---|---|
+| **A** | Frozen Challenge / acceptance truth | Specification package | The candidate specification survives the bounded architecture test under the declared evidence mode. | Architecture realization or product effectiveness. |
+| **B** | Frozen Gate-A specification | Architecture / reference realization | The architecture conforms to the selected specification within the tested contract. | Real-world/representative Challenge effectiveness. |
+| **C** | Frozen Challenge + observed effects | Executable implementation | The pinned implementation meets the bounded problem-validation acceptance rule. | Universal product safety, certification or unrestricted transfer. |
+
+No gate result is silently promoted into another. A shared oracle implementation may host all three, but its **authoritative reference and admissible claim change with the selected gate**.
+
 ## 5. Compatibility levels
 
 | Level | Meaning |
