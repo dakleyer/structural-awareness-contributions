@@ -6,7 +6,7 @@
 
 **Owner route:** [R01 Hugging Face extension](./README.md) → this historical reconstruction → [public evidence/workplan](./PUBLIC_EVIDENCE_AND_DDS_WORKPLAN.md).
 
-**Machine-readable companion:** [HISTORICAL_INCIDENT_EVIDENCE_v0.1.json](./HISTORICAL_INCIDENT_EVIDENCE_v0.1.json). **First detailed packets:** [FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md). **Cross-source reconciliation:** [CROSS_SOURCE_EVENT_MATRIX_v0.1.md](./CROSS_SOURCE_EVENT_MATRIX_v0.1.md). **Population context-shift model:** [POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
+**Machine-readable companion:** [HISTORICAL_INCIDENT_EVIDENCE_v0.1.json](./HISTORICAL_INCIDENT_EVIDENCE_v0.1.json). **First detailed packets:** [FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md). **Cross-source reconciliation:** [CROSS_SOURCE_EVENT_MATRIX_v0.1.md](./CROSS_SOURCE_EVENT_MATRIX_v0.1.md). **A/B/C/D requirements + repositioning trace:** [ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md](./ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md). **Population context-shift model:** [POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
 
 **Historical predecessor preserved:** [00G-HF documentary review, 1 October 2026](../../../../traversals/00G-HF-HISTORICAL-REVIEW-2026-10-01/README.md). That earlier record remains evidence of the earlier, narrower review and is not rewritten by this document.
 
