@@ -1,6 +1,6 @@
 # DDS Stage A — VNext
 
-<!-- DDS terminology revision 3 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+<!-- DDS terminology revision 2 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 **Owning source:** [DDS Stage A — Specification Discovery / Challenge–Trajectory Profile v0.1](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)  
 **DDS method router:** [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md)  
@@ -14,7 +14,7 @@ Stage A is now explicitly separated from the complete DDS method.
 The live Stage A source currently provides:
 
 - canonical identity as **DDS Stage A — Specification Discovery**;
-- explicit A/B/C stage taxonomy for a reader entering this file;
+- explicit A/B/C gate taxonomy for a reader entering this file;
 - distinction between **DDS Stages** and local **trajectory gates**;
 - full versus **Simplified DDS Stage A** coverage semantics;
 - Challenge and bounded reduction;
@@ -107,7 +107,7 @@ Any future Stage A change should pass all of these:
 1. **Object check:** the object under test is still a candidate specification/mechanism/control profile, not architecture realization or product validation.
 2. **Reference check:** the authoritative reference remains the frozen Challenge / Stage A acceptance and falsifier contract.
 3. **Namespace check:** DDS Stage A/B/C is not confused with trajectory gates, gate policy, Stage-0/Stage-1 or C02/C11/T03.
-4. **Evidence check:** evidence mode does not silently change Stage identity.
+4. **Evidence check:** evidence mode does not silently change Gate identity.
 5. **Conservation check:** no frozen result, hash, theorem or historical evidence is strengthened or erased.
 6. **Coverage check:** a Simplified Stage A profile declares selected and omitted surfaces.
 7. **Handoff check:** any Stage B-ready result identifies a sufficiently frozen Stage A specification package.
