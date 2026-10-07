@@ -129,6 +129,8 @@ The oracle should be able to distinguish at least:
 
 ### Gate B — Architecture Conformance
 
+**Working systems-engineering alias:** **verification of specification realization**. This is deliberately close to established verification terminology rather than a new DDS-specific meaning.
+
 **Object under test:** a candidate architecture, reference model or executable conformance layer intended to realize the Gate-A specification package.
 
 **Question:** does the architecture actually realize the frozen specification, including its interfaces, semantic ownership, negative requirements and boundary behavior?
@@ -149,7 +151,47 @@ A failure at Gate B normally triggers architecture revision. If the architecture
 
 **Gate-B product:** a versioned **conformant architecture/reference realization** or a bounded non-conformance/partial-conformance finding. Passing Gate B does not establish that the architecture solves the real Challenge in deployment.
 
+#### Gate B — external lineage, reusable machinery and limits
+
+Gate B should reuse established **verification** practice rather than invent a parallel discipline.
+
+- **IEEE 1012-2024 — System, Software, and Hardware Verification and Validation.** IEEE frames verification and validation as distinct questions: development products are checked for conformance to the requirements of the activity, while validation asks whether the product satisfies intended use and user needs. Gate B aligns with the first question.  
+  https://standards.ieee.org/ieee/1012/10784/
+- **NASA Systems Engineering Handbook — Product Verification versus Product Validation.** NASA states the same distinction operationally: verification demonstrates compliance with requirements; validation demonstrates intended purpose in the intended environment. NASA also uses a Requirements Verification Matrix linking each shall-requirement to its verification evidence/method. Gate B can reuse this traceability shape.  
+  https://www.nasa.gov/reference/2-4-distinctions-between-product-verification-and-product-validation/  
+  https://www.nasa.gov/reference/system-engineering-handbook-appendix/
+- **ISO/IEC/IEEE 29148:2018 — Requirements engineering.** Reuse requirements identification, lifecycle discipline and traceability where applicable. DDS does not claim clause-level conformance without licensed normative review.  
+  https://www.iso.org/standard/72089.html
+- **ISO/IEC/IEEE 42010:2022 — Architecture description.** Reuse architecture-description concepts, viewpoints, model kinds, correspondences and its explicit conformance treatment for architecture descriptions/frameworks/languages. Important boundary: 42010 conformance is not by itself proof that the entity architecture realizes the Gate-A functional requirements or solves the Challenge.  
+  https://www.iso.org/standard/74393.html
+- **TLA+ refinement / formal implementation.** Where Gate A and the candidate realization admit formal behavioural specifications, refinement mappings can be used to test/prove that a lower-level specification implements a higher-level one. This is a powerful optional Gate-B method, not a universal requirement and not evidence beyond the proved properties/direction.  
+  https://lamport.azurewebsites.net/pubs/simple.pdf  
+  https://lamport.azurewebsites.net/tla/book-02-02-27.pdf
+- **ETSI TTCN-3.** Where the realization exposes an executable protocol/interface and the question is black-box conformance, TTCN-3 offers standardized test-case, verdict, timer and distributed-execution machinery and is used in standards conformance suites. It is an execution/conformance technology, not an oracle for whether the Gate-A specification itself is the right one.  
+  https://ttcn-3.etsi.org/index.php/about/introduction
+
+**What DDS adds at Gate B:** not a new definition of verification. DDS binds the verification target to the exact Gate-A package that survived the frozen Challenge, preserves the Challenge falsifiers/positive controls as regression pressure, keeps source semantic ownership explicit, and prevents a verified architecture from being relabelled as empirically validated.
+
+A minimal future Gate-B machine-readable contract could contain:
+
+```text
+gate = B_ARCH_CONFORMANCE
+reference_spec_hash
+candidate_architecture_hash
+requirements_trace_map
+verification_method_by_requirement
+positive_controls
+negative_controls / counterexamples
+source_semantic_owner_refs
+verification_evidence_refs
+result = VERIFIED | PARTIALLY_VERIFIED | NONCONFORMANT | NOT_ESTABLISHED
+```
+
+This is a design sketch only; it does not amend the current schema.
+
 ### Gate C — Implementation / Problem Validation
+
+**Working systems-engineering alias:** **validation against intended problem/use**. This is deliberately close to established validation terminology.
 
 **Object under test:** a pinned executable implementation/configuration of the architecture.
 
@@ -170,6 +212,57 @@ Gate C therefore requires evidence of actual effects appropriate to its evidence
 A Gate-C failure must not be repaired by changing the frozen Challenge, acceptance rule or implementation after inspecting the failing run. It opens a successor cycle. The diagnosis may point back to an implementation defect (repeat C), an architecture-realization defect (return to B), or an inadequate specification (return to A), but the failed evidence remains preserved.
 
 **Gate-C product:** bounded empirical problem-validation evidence for the pinned implementation and evidence mode. It does not retroactively upgrade Gate A or Gate B, nor does a Gate-A/B success imply Gate C.
+
+#### Gate C — external lineage, reusable machinery and limits
+
+Gate C should reuse established **validation / TEVV / test execution** machinery.
+
+- **IEEE 1012-2024 and NASA Systems Engineering.** These provide the closest conceptual boundary: validation asks whether the realized product satisfies intended use/user needs in the intended environment. NASA explicitly permits validation by test, analysis, inspection and demonstration and links validation planning to ConOps/stakeholder objectives. Gate C reuses that distinction rather than redefining validation.  
+  https://standards.ieee.org/ieee/1012/10784/  
+  https://www.nasa.gov/reference/2-4-distinctions-between-product-verification-and-product-validation/  
+  https://www.nasa.gov/reference/system-engineering-handbook-appendix/
+- **ISO/IEC/IEEE 15288:2023 — system life-cycle processes.** Reuse the system-lifecycle process frame and the distinction between development artefacts and the system of interest across its lifecycle. DDS does not claim full 15288 process alignment from this working note.  
+  https://www.iso.org/standard/81702.html
+- **ISO/IEC/IEEE 29119-2:2021 — software test processes.** Reuse generic governance/management/implementation structure for testing when appropriate. It does not supply the DDS Challenge, acceptance region or substantive oracle.  
+  https://www.iso.org/standard/79428.html
+- **NIST TEVV-Athlon (NIST AI 200-2 draft).** This is especially close to the Gate-C concern for AI: NIST frames TEVV-Athlon as a structured, extensible approach for assessing real-world impact/outcomes and explicitly includes agentic systems. DDS can reuse compatible evaluation planning/execution concepts while keeping its own bounded Challenge and differential claim.  
+  https://www.nist.gov/artificial-intelligence/ai-research/tevv-athlon-framework-evaluating-ai-systems
+- **NIST ARIA Evaluation Planning Manual (NIST AI 200-3, 2026).** ARIA combines model testing, red teaming and user testing for application-level trustworthiness evaluation. Those can become Gate-C evidence modules when material to the Challenge; DDS does not require all three for every profile.  
+  https://www.nist.gov/publications/aria-evaluation-planning-manual-elements-aria-style-ai-evaluations
+- **ETSI TTCN-3 / Inspect AI / other execution substrates.** These may host repeatable test execution, adapters, scoring and standardized protocol conformance. They do not decide whether the selected Challenge, acceptance rule or deployment interpretation is correct.  
+  https://ttcn-3.etsi.org/  
+  https://inspect.aisi.org.uk/
+
+**What DDS adds at Gate C:** not a new definition of validation. DDS carries forward the exact Challenge/failure family that generated Gate A, the verified realization lineage from Gate B, matched comparator/fairness conditions, the I/M/P/Ø or equivalent outcome model, and explicit Cost/Risk/Effectiveness accounting. The purpose is to prevent a generic test pass from being promoted into evidence that the original problem was solved.
+
+A minimal future Gate-C machine-readable contract could contain:
+
+```text
+gate = C_PROBLEM_VALIDATION
+challenge_hash
+gate_A_spec_hash
+gate_B_architecture_hash
+implementation/configuration_pin
+environment_or_fixture_pin
+candidate_visible_information_contract
+comparator_contract
+target/effect_observer_contract
+C_R_E_ledger
+acceptance_policy_hash
+result = VALIDATED_WITHIN_SCOPE | FAILED | NONDOMINATED | NOT_ESTABLISHED | INFRASTRUCTURE_ERROR
+```
+
+Again this is a design sketch only.
+
+### Gate A/B/C — reuse map and non-duplication boundary
+
+| DDS gate | Closest established discipline | Reuse directly | DDS-specific differential | Do **not** claim |
+|---|---|---|---|---|
+| **A — Specification Discovery** | Requirements/design exploration, hazard/failure analysis, formal modelling, experimental design | Existing DDS bibliography: STPA, NIST/ISO risk/quality, formal methods, benchmark/evaluation practice | Select competing specification packages against one frozen Challenge with strong-peer credit, positive/negative routes and C/R/E where in scope | That DDS invented requirements engineering, hazard analysis or design-space exploration |
+| **B — Architecture Conformance** | Verification / refinement / requirements traceability | IEEE 1012, NASA verification matrices, ISO 29148, ISO 42010 architecture-description machinery, TLA+ refinement, TTCN-3 where appropriate | Verify the architecture/reference realization specifically against the Gate-A winner(s), retaining semantic ownership and Challenge-derived falsifiers | That 42010 AD conformance proves architecture functionality; that a formal proof transfers beyond proved properties; that B validates intended use |
+| **C — Problem Validation** | System/product validation, TEVV, testing | IEEE 1012/NASA validation, ISO 15288/29119, NIST TEVV-Athlon/ARIA, TTCN-3/Inspect as execution substrates | Validate the pinned implementation against the originating Challenge with observed effects, matched comparators and DDS differential accounting | That a generic benchmark score, conformance suite or TEVV framework by itself proves the DDS problem solved |
+
+This three-gate structure is therefore best understood as a **DDS orchestration of existing verification/validation disciplines around a Challenge-derived specification-discovery stage**, not a claim to have invented a new universal V&V architecture.
 
 ### Gate separation and progression
 
