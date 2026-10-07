@@ -6,6 +6,8 @@
 > **Owner context:** Structural Awareness Programme / Ecosystem Awareness / Ecosystem Positioning.  
 > **Rule:** this file records what is **not yet complete**. It is not a canonical architecture specification, benchmark result, standards claim or validation result.
 
+> **DDS routing — 7 October 2026.** All substantive test/evaluation work in this workplan is interpreted through the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md). W2 “Benchmark vNext” and W3 “Testbed coverage vNext” are programme workstreams, not parallel testing methods. 00D supplies DDS comparator/fairness support; fixture/oracle/harness work supplies evidence/infrastructure; Stage-0/1/2 labels retain their historical testbed/evidence-maturity meanings and are orthogonal to DDS Gate A/B/C. Existing W2/W3 identifiers are preserved for continuity.
+
 ## How to maintain this workplan
 
 This is a **living queue**, not a dated backlog that accumulates forever.
