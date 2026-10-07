@@ -1,4 +1,4 @@
-# Deployment Differential Study (DDS) — Canonical Challenge–Trajectory Profile v0.1
+# Deployment Differential Study (DDS) — Gate A: Specification Discovery / Challenge–Trajectory Profile v0.1
 
 Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
 
@@ -6,40 +6,41 @@ Coverage/delivery clarification0.1.2: reduced implementations remain traceable t
 
 Review/navigation addition0.1: [sole owning VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Identity clarification is owner-authorized; method version0.1 and historical instance evidence remain unchanged.
 
-**Status:** canonical working DDS technical profile inside the Ecosystem Awareness research corpus; additive public methodology, not an adopted standard, certification scheme, assurance method or claim of product superiority.
+**Canonical DDS method index:** [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) · [Gate B — Architecture Verification](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) · [Gate C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
 
-> **Meaning of “canonical” here.** The word means only **current corpus reference for DDS terminology and profile coverage**. It does not mean independent acceptance, external validation, standards-body adoption, industry consensus or a claim that this v0.1 taxonomy is the unique possible test method. For third-party evaluation, treat it as the current **working harmonization profile** and score the compared packages against the same frozen checklist rather than treating this corpus's own prior results as an external acceptance authority.  
-**Date:** 6 October 2026.  
-**Scope:** technical/research definition of a DDS exercise and its profiles. Commercial packaging, fees, contracting, sponsor recognition and private commissioning records are governed separately and do not redefine this technical method.
+**Status:** canonical working **DDS Gate-A** technical profile inside the Ecosystem Awareness research corpus. The complete DDS method is routed by the [canonical three-gate index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md). This Gate-A source is additive public methodology, not an adopted standard, certification scheme, assurance method or claim of product superiority.
+
+> **Meaning of “canonical” here.** This file is canonical only for **DDS Gate A — Specification Discovery** terminology, coverage and challenge–trajectory mechanics. The full DDS method authority is the [three-gate index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md). “Canonical” does not mean independent acceptance, external validation, standards-body adoption, industry consensus or a claim that this v0.1 taxonomy is the unique possible test method. For third-party evaluation, treat Gate A as a working harmonization profile and score compared packages against the same frozen checklist rather than treating this corpus's own prior results as an external acceptance authority.  
+**Date:** 7 October 2026.  
+**Scope:** technical/research definition of **DDS Gate A** and its full or simplified specification-discovery profiles. Commercial packaging, fees, contracting, sponsor recognition and private commissioning records are governed separately and do not redefine this technical method.
 
 > **Conservation rule.** This profile does not amend, strengthen or reinterpret frozen scenario traversals, R01 proofs, DBC results, 00D benchmark results or historical execution records. It supplies a common DDS vocabulary and coverage map so those artefacts can be described as fuller or simplified DDS implementation profiles without changing their original evidence.
 
-## Canonical identity — one technical profile
+## Canonical identity — DDS Gate A
 
-**Authority clarification0.1.1 ·6 October2026.** This file is the **single canonical DDS technical profile** in this corpus. “DDS implementation profile” means a scoped application of this one profile; it does not designate another canonical DDS method. R01, Human Escalation/Whispering, STAMP/STPA, SPIFFE, RATS and other technology studies declare the surfaces they instantiate, collapse or leave unscored. Their source-native mathematics, evidence and acceptance contracts retain their own owners.
+**Authority clarification0.1.1 · updated 7 October 2026.** This file is the canonical **DDS Gate-A** source in this corpus. The full DDS method is defined by the [canonical method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md), with separate canonical sources for [Gate B](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Gate C](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
 
-The internal programme master, commercial tracks, templates, scope/run cards and individual exercises consume this technical profile. They do not create competing technical authorities. DBC and00D keep their separate evidence/comparator functions. Future method revisions continue this logical source and explicitly identify their version; historical/frozen instances are never relabelled or strengthened by that revision.
+A “DDS Gate-A implementation profile” means a scoped application of this Gate-A profile; it does not designate another DDS method. R01, Human Escalation/Whispering, STAMP/STPA, SPIFFE, RATS and other current studies retain their source-native mathematics, evidence and acceptance contracts. Their corpus-wide Gate classification is a separate migration step and does not alter historical results.
 
-## 1. What a DDS is
+The internal programme master, commercial tracks, templates, scope/run cards and individual exercises consume the DDS method through the applicable Gate. They do not create competing technical authorities. DBC and 00D retain their semantic ownership as support artefacts. Historical/frozen instances are never relabelled in a way that strengthens their evidence.
 
-A **Deployment Differential Study (DDS)** is a bounded challenge–trajectory evaluation of a technology, technology combination, configuration or deployment.
+## 1. What DDS Gate A is
 
-A DDS asks:
+**DDS Gate A — Specification Discovery** is the challenge–trajectory gate that evaluates candidate specifications, mechanisms, control profiles or technology/configuration trajectories against a bounded Challenge before architecture realization or product validation is claimed.
+
+Gate A asks:
 
 > Given a declared Challenge, a frozen scenario and a specific technology/configuration, which admissible, prohibited or incomplete routes remain reachable; what evidence, cost and uncertainty are accumulated while traversing them; and does the resulting configuration fall inside the preregistered acceptance region?
 
-Where a concrete deployment decision exists, the technical result may then be projected into bounded **Business Value–Risk–Cost (BV–R–C)**.
+Where a concrete deployment decision exists, the Gate-A technical result may then be projected into bounded **Business Value–Risk–Cost (BV–R–C)** when that projection is in scope.
 
-DDS is the method envelope. R01, the current technology trajectories, DBC and 00D keep their own semantics:
+The complete DDS method has three gates: [Gate A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Gate B — Architecture Verification](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Gate C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
 
-- **R01** is the richest current probabilistic DDS reference instantiation and retains its own mathematics.
-- **DBC** is an applied evidence/adjudication route and evidence-maturity framework; it does not redefine DDS route semantics.
-- **00D** is a fair-comparison/benchmark contract; it does not define DDS trace accounting.
-- The frozen positive/negative technology traversals associated with the current UC21 challenge family are **simplified DDS implementation profiles**. They remain valid in their original form.
+Within Gate A, R01 and current technology trajectories retain their own semantics. DBC may supply Challenge/adjudication material and 00D may supply comparator/fairness discipline; neither changes the Gate-A route semantics. The current frozen positive/negative technology traversals remain valid in their original form. Their detailed corpus-wide Gate classification is handled prospectively and does not rewrite frozen evidence.
 
-## 2. Canonical DDS chain
+## 2. DDS Gate-A canonical chain
 
-The canonical chain is:
+The Gate-A chain is:
 
 ~~~text
 CHALLENGE
@@ -54,7 +55,7 @@ STUDY OF NON-ISOMORPHIC MECHANISMS
    ├─ additional mechanisms / information
    └─ composition with the preserved part
    ↓
-ROUTE + GATE MODEL
+ROUTE + TRAJECTORY-GATE MODEL
    ├─ I_k  high-value admissible routes
    ├─ M_j  market/reference admissible routes
    ├─ P_l  prohibited/material-violation routes
@@ -77,7 +78,7 @@ OPTIONAL DEPLOYMENT PROJECTION
 DIFFERENTIAL CONTRIBUTION FINDING
 ~~~
 
-Every DDS implementation profile must state which parts of this chain it actually instantiates and which are intentionally unscored, collapsed, documentary or out of scope.
+Every DDS Gate-A implementation profile must state which parts of this chain it actually instantiates and which are intentionally unscored, collapsed, documentary or out of scope. A Gate-A result may produce a candidate specification package eligible for Gate B; it does not establish Gate B or Gate C.
 
 ## 3. Challenge first
 
@@ -246,20 +247,20 @@ Where several M_j routes exist, the Challenge may define a reference M region ra
 
 The authoritative Type 0/1/2 derivation remains the [Integrated Foundational Theory](./baseline/01_FOUNDATIONAL_THEORY_v0.5_INTEGRATED.md), read with [00M](./baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) for A/B/C/D semantics and [00N](./baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) for the mechanism-to-requirements bridge.
 
-## 6. Segments, gates, traversals and traces
+## 6. Segments, trajectory gates, traversals and traces
 
-These terms are distinct.
+These terms are distinct. **DDS Gate A/B/C** is reserved for the three development gates of the canonical method. The local decision boundaries in this document are called **trajectory gates**.
 
 - **Segment** — a unit of search, observation, action or transition.
-- **Gate** — a decision/validation boundary over a partial history.
+- **Trajectory gate** — a decision/validation boundary over a partial history.
 - **Traversal** — an analytical, virtual or executed passage through the configured route/gate model.
 - **Trace** — the recorded realized history of one traversal/execution.
 - **DDS implementation profile** — one concrete mapping of the DDS method to a Challenge + technology/configuration.
 - **DDS battery / campaign** — a preregistered set of profiles/traversals/executions used to estimate or compare results.
 
-A gate need not correspond to one segment. A gate may cover one operation, a bundle of evidence, or thousands of candidate segments.
+A trajectory gate need not correspond to one segment. It may cover one operation, a bundle of evidence, or thousands of candidate segments.
 
-A gate also need not be binary. Depending on the Challenge it may:
+A trajectory gate also need not be binary. Depending on the Challenge it may:
 
 - continue toward I;
 - continue toward M;
@@ -272,7 +273,7 @@ A gate also need not be binary. Depending on the Challenge it may:
 - resume;
 - terminate at Ø.
 
-Probability, transition and observation laws may be defined per segment, group of segments or gate.
+Probability, transition and observation laws may be defined per segment, group of segments or trajectory gate.
 
 A trace should preserve, where material:
 
@@ -472,11 +473,11 @@ The management-facing deployment view may therefore be reported as:
 
 This is not a claim about total company ROI or universal product value.
 
-## 10. DDS profile coverage
+## 10. DDS Gate-A profile coverage
 
-There is one DDS method. Concrete implementations may instantiate all or only part of it.
+There is one DDS method with three substantive development gates. This file defines **Gate A**. Concrete Gate-A implementations may instantiate all or only part of the Gate-A surfaces below.
 
-A profile must declare coverage for:
+A Gate-A profile must declare coverage for:
 
 | DDS surface | Required declaration |
 |---|---|
@@ -502,9 +503,9 @@ A profile must declare coverage for:
 | Evidence mode | documentary / analytical / virtual / sandbox / live / matched / replicated |
 | Reproducibility | source pins / fixture / harness / traces / DOI as applicable |
 
-A **simplified DDS profile** is therefore not another method. It is a DDS implementation profile that deliberately uses a reduced coverage set.
+A **Simplified DDS Gate-A profile** is therefore not another method or another gate. It is a Gate-A implementation profile that deliberately uses a reduced coverage set.
 
-Evidence maturity and DDS coverage are orthogonal. A profile may cover many DDS surfaces only virtually, while a simpler profile may have stronger executed evidence.
+Evidence maturity and Gate identity are orthogonal. A Gate-A profile may contain executable model evidence without becoming Gate B or Gate C. Likewise, a simplified Gate-A profile may have stronger executed evidence than a broader analytical profile.
 
 ## 10A. Namespace safety for cross-corpus review
 
@@ -522,7 +523,7 @@ A review report should therefore use qualified names such as `DDS-M`, `R01-M`, `
 
 ## 10B. Reduced coverage, minimum traceability and delivery
 
-A study need not instantiate the whole DDS chain or score every dimension. A bounded documentary, analytical or executed study may be complete **within its declared technical scope** while using only part of this one canonical profile.
+A Gate-A study need not instantiate the whole Gate-A chain or score every dimension. A bounded documentary, analytical or executed study may be complete **within its declared technical scope** while using only part of this one canonical profile.
 
 Its minimum traceability record identifies:
 
@@ -701,10 +702,14 @@ This profile does not establish that:
 
 ## 17. Minimum citation rule
 
-Future DDS implementation profiles should link this document and state, in one compact block:
+Future **DDS Gate-A** implementation profiles should link the [canonical DDS method index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) and this Gate-A source, then state in one compact block:
 
 ~~~text
 DDS profile:
+DDS Gate: A
+Gate coverage: full declared Gate-A scope | Simplified
+Object under test:
+Authoritative reference:
 Base scenario / version:
 Technology–problem extension / isomorphism profile and status:
 Non-isomorphic mechanism study and status:
@@ -722,10 +727,13 @@ Base/frozen artefact:
 Successor/extension status:
 ~~~
 
-That block is sufficient to show which part of DDS is being used without inventing an ad hoc test vocabulary.
+That block is sufficient to show which part of **Gate A** is being used without inventing an ad hoc test vocabulary. Gate-B and Gate-C profiles use their own canonical citation blocks.
 
 ## 18. Source relationships
 
+- [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md)
+- [DDS Gate B — Architecture Verification v0.1](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md)
+- [DDS Gate C — Implementation / Problem Validation v0.1](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
 - [Ecosystem Awareness router](./README.md)
 - [Canonical corpus manifest](./baseline/CANONICAL_CORPUS_MANIFEST.md)
 - [Decision Boundary Challenge v0.2](./DECISION_BOUNDARY_CHALLENGE_v0.2.md)
@@ -739,4 +747,4 @@ That block is sufficient to show which part of DDS is being used without inventi
 
 ---
 
-**Working status:** v0.1 defines the common DDS technical profile and classification vocabulary. It does not modify frozen source artefacts. Future profiles should cite it and declare their coverage rather than create parallel test taxonomies.
+**Working status:** v0.1 now defines the canonical **DDS Gate-A** challenge–trajectory profile. The complete DDS method is routed through the three-gate index and the separate Gate-B/Gate-C sources. This split does not modify frozen source artefacts or strengthen historical evidence.
