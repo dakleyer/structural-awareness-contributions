@@ -2,7 +2,7 @@
 
 Version0.2 ·6 October2026 · scoped own implementation profile.
 
-[Sole DDS](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Base TOKEN-PURPOSE-AND-RESOURCE0.1 is an authored finite local Challenge. This is not a complete R01 kernel, browser login or native authorization-server test.
+**DDS classification:** Simplified **Gate A — Specification Discovery** under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Base TOKEN-PURPOSE-AND-RESOURCE0.1 is an authored finite local Challenge. This is not a complete R01 kernel, browser login, Gate-B architecture verification, Gate-C product validation or native authorization-server test.
 
 ## Problem, technology and useful outcome
 
