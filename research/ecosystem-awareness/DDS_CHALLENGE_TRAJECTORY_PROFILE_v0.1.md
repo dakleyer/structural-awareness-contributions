@@ -669,22 +669,21 @@ Current UC21 traversals can be traced to this profile without rerunning the enti
 
 **Technical coverage and delivery completion are separate.** A reduced technical scope can support a completely delivered engagement. It does not waive promised outputs. The accepted scope governs which outputs are due; each included output needs a responsible delivering owner, feasible dependencies and observable completion evidence. Prepared, reserved, planned, submitted, published and externally accepted are different states. Changes to promised outputs require explicit agreed re-scoping; commercial fees and recognition never alter technical Cost, evidence grades or acceptance.
 
-## 11. Current profile mapping
+## 11. Gate-A examples and global registry
 
-> **Three-gate migration note — 7 October 2026.** This pre-existing table is retained during the first, method-splitting step. Its corpus-wide Gate A/B/C reclassification is a separate second migration step. Until that migration is applied, this table must not be read as establishing Gate-B or Gate-C status for any listed artefact.
+The authoritative cross-gate/current-corpus classification now lives in the [DDS Canonical Method Index — Current DDS profile and support registry](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#8-current-dds-profile-and-support-registry). This Gate-A section keeps only examples whose current object under test is specification/mechanism/configuration discovery.
 
-The table below is a **classification aid**. It does not modify the cited artefacts or transfer evidence among them.
+The table is a **Gate-A reading aid**. It does not modify the cited artefacts or transfer evidence among them.
 
-| Current artefact / family | DDS profile reading | Cost | Risk | Effectiveness / I-vs-M | Acceptance | BV projection | Evidence state |
-|---|---|---:|---:|---:|---|---|---|
-| 00E–00J positive/negative technology trajectories and their product profiles | Simplified DDS profiles: Challenge + technology mapping + quality gates + positive/negative routes | generally unscored | primary / branch-specific | generally collapsed into legitimate continuity / expected outcome | binary / gate-based | not part of frozen route | documentary / symbolic / fixture-specific as individually stated |
-| 00I AWS ordinary → defended → same frozen defended-under-drift trajectory | Simplified DDS profile with strong continuity and drift controls | unscored as DDS C | stale/prohibited action is primary | I/M not separately priced/scored | gate-based | not part of frozen route | design / fixture evidence as stated by 00I |
-| R01 core | Rich probabilistic DDS reference profile | explicit | explicit | explicit I/M/P and sufficient-delivery `s` | quantitative `A_{b,δ,p}` | optional downstream projection | mathematical / virtual / harness stages separately stated |
-| R01 technology-extension protocol | DDS-compatible extension discipline | explicit | explicit | explicit | quantitative | not intrinsic | protocol / proof / traversal stages |
-| Human escalation + whispering | Rich DDS implementation profile over R01: kernel mapping + additional mechanisms + stochastic C/R/E + R1/R2/R3 | explicit virtual and finite local model ledgers | explicit `r` | explicit `s`, X/Y/M and incompletion | quantitative | deployment BV not calibrated | virtual/analytical core + published finite SQLite companion; no native/human campaign |
-| 01K-A01 Human Capacity / HID component | DDS-compatible reusable component: process-relative A/B/C/D + EHD profile + runtime human-capacity scheduling + HID architecture burden | explicit human runtime/readiness/ACW/component ledger; `C(τ)=Σ_g c_g(τ)` retained | inherited from frozen Challenge / route; HC-HID adds no private Risk definition | inherited from frozen Challenge I/M/P/Ø; matched-route comparison only | component states + Challenge acceptance remain separate | deployment-specific only | specification + JSON schema + deterministic semantic controls; no real human calibration |
-| DBC | Optional DDS evidence/adjudication companion | burden vector | branch-specific outcomes | value/continuity gates as preregistered | hard gates + comparative rule | may consume deployment value rule | evidence ladder DBC-EL# |
-| 00D | Optional DDS comparator contract | matched burden | measured outcome | matched outcome | preregistered comparison | not intrinsic | benchmark design / execution as stated |
+| Current Gate-A artefact / family | Gate-A reading | Evidence state |
+|---|---|---|
+| 00E–00J positive/negative technology trajectories and current product profiles | **Simplified DDS Gate A**: Challenge + technology/configuration mapping + trajectory/quality gates + positive/negative routes | documentary / symbolic / fixture-specific as individually stated; no Gate-B/C promotion |
+| [00I AWS Step Functions/RDS](./baseline/00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) | **Simplified DDS Gate A** with strong continuity and drift controls | source-reviewed design + inspectable skeleton/fixture evidence; no AWS product execution |
+| [R01 core](./baseline/reductions/00G-R01/README.md) | **Rich DDS Gate A** probabilistic reference instantiation | mathematical / virtual / harness stages separately stated |
+| [R01 technology-extension protocol](./baseline/reductions/00G-R01/extensions/TECHNOLOGY_EXTENSION_PROTOCOL.md) | Gate-A internal Stage1/Stage2 extension discipline | protocol / proof / traversal stages |
+| [Human Escalation / Whispering](./baseline/reductions/00G-R01/extensions/HUMAN_ESCALATION_WHISPERING.md) | **Rich DDS Gate A** over R01 | virtual/analytical core + published finite SQLite companion; no native/human Gate-C campaign |
+| [Current common technology-extension studies](./baseline/reductions/00G-R01/extensions/README.md) | **Simplified DDS Gate A** bounded mechanism/configuration studies | local executed/model evidence with profile-specific ceilings |
+| [01K-A01 Human Capacity / HID](./baseline/01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1.md) | Gate-A support/reusable component where consumed by a Gate-A profile | specification + JSON schema + deterministic semantic controls; no real human calibration |
 
 ### 11.1 Frozen simplified profiles
 
