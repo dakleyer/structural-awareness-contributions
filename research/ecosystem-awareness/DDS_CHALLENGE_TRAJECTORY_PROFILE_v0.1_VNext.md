@@ -58,52 +58,45 @@ Their detailed historical text remains available in Git history. They are not ac
 
 ## 3. Pending Gate-A changes
 
-There is **no pending scientific rewrite of Gate A** after the 7 October incorporation.
+**None.**
 
-One structural item remains intentionally deferred:
+Gate-A science, reader taxonomy, entry/exit boundary, Simplified coverage semantics, Gate-B handoff contract and profile mapping are all incorporated in the live source.
 
-### GA-P01 — relocate the cross-gate profile registry after corpus taxonomy
+The former `GA-P01` is complete:
 
-**Current location:** Gate A §11, `Current profile mapping`.  
-**Current state:** retained with an explicit migration warning.  
-**Reason to defer:** the table predates the three-gate split and mixes Gate-A examples with DBC/00D/support/component roles. Rewriting it before the corpus-wide taxonomy would guess classifications that have not yet been applied to the active profiles.
+- the authoritative cross-gate/current-corpus registry now lives in the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#8-current-dds-profile-and-support-registry);
+- Gate A §11 now contains Gate-A examples only and links to that registry;
+- the previous detailed Cost/Risk/Effectiveness/Acceptance/BV/evidence information was moved into the Index registry rather than discarded;
+- frozen historical results were not rewritten.
 
-**Later action, during taxonomy phase:**
+## 4. Cross-corpus work status — outside Gate-A ownership
 
-1. move the authoritative cross-gate profile/support registry to the DDS Canonical Method Index;
-2. classify active artefacts as Gate A / Gate B / Gate C / support / infrastructure;
-3. keep in Gate A only Gate-A examples plus a link to the canonical registry;
-4. do not rewrite frozen historical results merely to apply the new taxonomy.
+The following taxonomy/routing work has now been incorporated and is **not pending**:
 
-**Status:** PENDING — intentionally blocked on corpus taxonomy, not on Gate-A science.
-
-## 4. Cross-corpus work status — keep only real pending items
-
-Several taxonomy/routing items that were pending when this VNext was pruned have now been incorporated and are **not pending anymore**:
-
-- EA router and canonical-corpus README now enter through the DDS Canonical Method Index;
+- EA router and canonical-corpus README enter through the DDS Canonical Method Index;
 - Canonical Corpus Manifest registers Index + Gates A/B/C as the DDS method set;
-- DBC and 00D are explicitly classified as DDS support artefacts rather than parallel methods;
+- DBC and 00D are classified as DDS support artefacts rather than parallel methods;
 - R01 is routed as the richest current probabilistic Gate-A reference instantiation;
 - R01 C02 Oracle/harness is classified as shared DDS test-infrastructure qualification;
-- RS-00E-Q1a Stage-0 is classified as bounded Simplified Gate-A deterministic evidence while preserving its historical version lineage;
+- RS-00E-Q1a Stage-0 is classified as bounded Simplified Gate-A deterministic evidence while preserving historical version lineage;
 - 00D-A01/A03 are classified as DDS test-design/support infrastructure;
-- HEW, STAMP/STPA, SPIFFE, RATS and the current common technology-extension studies are routed through Gate A with their original evidence ceilings preserved;
-- WORKPLAN and VISUAL_GUIDE now state that W2/W3 and Stage-0/1/2 are workstream/evidence-maturity axes, not parallel DDS methods or DDS Gates;
-- the public Ecosystem Positioning README points technical reviewers to the DDS Canonical Method Index.
+- HEW, STAMP/STPA, SPIFFE, RATS and the current RAG/OAuth/MCP/SQL/durable-workflow studies are routed through Gate A with their evidence ceilings preserved;
+- current 00E/00F/00G/00H/00I/00J technology/implementation trajectories are explicitly classified as Gate-A or Gate-A Challenge inputs as applicable;
+- current human-readable study/completion/exercise reports point to the DDS Index while frozen Run Cards/FREEZE/RESULTS keep their execution-time identity;
+- WORKPLAN and VISUAL_GUIDE state that W2/W3 and Stage-0/1/2 are workstream/evidence-maturity axes, not parallel DDS methods or DDS Gates;
+- the public Ecosystem Positioning README points technical reviewers to the DDS Canonical Method Index;
+- the authoritative global profile/support registry has moved from Gate A §11 to the DDS Index.
 
-### Still pending outside Gate-A science
+### Remaining work belongs elsewhere
 
-| Pending work | Owner / phase |
+| Remaining work | Owner |
 |---|---|
-| **GA-P01:** relocate Gate A §11 cross-gate profile registry to the DDS Canonical Method Index after the active-profile taxonomy is complete | DDS Index + Gate A |
-| Add explicit DDS Gate/full-or-Simplified classification headers to the remaining active 00E/00F/00G/00H/00I/00J product/technology profiles that have not yet been migrated | corpus taxonomy phase |
-| Finish any remaining active human-readable leaf/report references that still point to the pre-split Gate-A path as “the whole DDS”, without modifying frozen evidence records | corpus taxonomy cleanup |
-| Gate-B contract evolution and 00I/S5 architecture-verification pilot | DDS Gate B |
+| Gate-B contract evolution and first 00I/S5 architecture-verification pilot | DDS Gate B |
 | Gate-C contract evolution and C11/T03 real-implementation validation route | DDS Gate C |
-| Common cross-gate rule consolidation that belongs in the method Index rather than Gate A | DDS Canonical Method Index |
+| Any further common cross-gate rule consolidation | DDS Canonical Method Index |
+| Any future repository-wide stale-link cleanup discovered outside the current active routes | owning document / corpus maintenance |
 
-Future substantive changes to the Index, Gate B or Gate C should use their own owning review/VNext rather than being appended here.
+None of these is a Gate-A pending item.
 
 ## 5. Gate-A review checks before any future incorporation
 
@@ -120,8 +113,8 @@ Any future Gate-A change should pass all of these:
 
 ## 6. Current decision
 
-**Gate A is ready for the next phase without another canonical rewrite.**
+**Gate A has no active pending change in this VNext.**
 
-The next repository-wide task is the **remaining active-profile taxonomy cleanup**: finish explicit Gate/full-or-Simplified labels on current product/technology profiles, then move the authoritative cross-gate registry out of Gate A §11 into the DDS Index.
+The live Gate-A source is ready to be consumed as the canonical Specification-Discovery Gate. Future work should open a new concrete Gate-A proposal only when a real scientific or structural change is identified; incorporated history stays in Git rather than returning here as a zombie task.
 
-Gate-A science itself has no pending rewrite. GA-P01 remains the only Gate-A structural pending item; the other open items belong to the Index, Gate B, Gate C or corpus-taxonomy owners.
+Current next work belongs to the DDS Index, Gate B or Gate C, not to Gate A.
