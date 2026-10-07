@@ -2,7 +2,7 @@
 
 Version0.1 · 6 October2026 · current audited study edition.
 
-These four studies now have an explicit current correspondence to the [one canonical DDS](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), including both extension-review stages, proportional closure, material assumptions, Cost/Risk/Effectiveness, conditional Business Value and delivery boundaries. They are complete **within their declared analytical/local scope**; none is a complete native/independent/population validation or commissioned SOW fulfilment.
+These four studies now have an explicit current correspondence to the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its [Gate-A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), including both Gate-A extension-review stages, proportional closure, material assumptions, Cost/Risk/Effectiveness, conditional Business Value and delivery boundaries. They are complete **within their declared analytical/local Gate-A scope**; none is Gate-B architecture verification, complete Gate-C native/independent/population validation or commissioned SOW fulfilment.
 
 |Study / current report|Original results freshly reproduced|New completed boundary review|
 |---|---|---|
