@@ -960,3 +960,33 @@ DDS
 ~~~~
 
 This gives the corpus one testing language without erasing the distinct scientific ownership of its component artefacts.
+
+
+---
+
+## Owner-authorized three-gate DDS split — 7 October 2026
+
+Iván authorized the first phase of the corpus-wide DDS normalization: split the canonical method into a navigation/index authority plus three substantive Gate sources before applying taxonomy changes to the rest of the repository.
+
+### Applied structure
+
+- [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) — method router and common three-gate rules.
+- [DDS Gate A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) — the pre-existing challenge–trajectory source, surgically re-identified as Gate A while preserving its path and substantive Gate-A body.
+- [DDS Gate B — Architecture Verification v0.1](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) — new canonical Gate-B source.
+- [DDS Gate C — Implementation / Problem Validation v0.1](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) — new canonical Gate-C source.
+
+### Conservation rule
+
+The widely referenced Gate-A path was not renamed or moved. Historical/frozen results, mathematics, thresholds, manifests and evidence were not reclassified or strengthened. Section 11 of Gate A is explicitly marked as a pre-existing classification table pending the separate second-phase corpus taxonomy migration.
+
+### Applied commits
+
+- canonical index creation: `eb4f3f7a5fd6389cb4f4c9d406c157c0f2e0aba9`;
+- Gate B creation: `42e1e6603b465bca93646124fc6e911f11954c84`;
+- Gate C creation: `1acd3074fc359761a685196724afdcdd15ee4920`;
+- Gate-A split/identity update: `bb7e1457ae4278c35da8877f5c431ae4c04ecb73`;
+- residual Gate-A identity cleanup/migration note: `e32672d2bde3e9cb950969b6669248096c792203`.
+
+### Boundary of this phase
+
+This phase does **not** yet modify the current technology profiles, DBC/00D routers, R01/HEW classifications, Stage-0 labels, Oracle source, WORKPLAN or VISUAL_GUIDE. Those changes belong to the second phase requested by Iván: corpus-wide taxonomy and surgical references to full or Simplified DDS Gate A/B/C.
