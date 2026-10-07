@@ -685,6 +685,61 @@ For HF, A_RA can describe movement away from isolated task-local operation towar
 
 The deliberately hard walkthrough assumes **EA initially accepts misleading peer information**. The HF route may look technically strong and the local gradient may even rank an HF-attacker role highly. The test is whether downstream layers still prevent opportunity from silently becoming authority.
 
+#### 14.2.1 Architecture route at a glance
+
+~~~text
+operational A outputs
++ EHD / qualified signalling
+        ↓
+receiver-side qualification
+        ↓
+Pi_EA,i = [A,B,C,D]
+        ↓
+Cart_i + Delta_Cart_i
+        ↓
+Regime Awareness
+        ↓
+Delta_RA + RegimeOverlay + RequalificationRequests
+        ↓
+Repositioning
+  first: Role_bound ↔ Role_effective
+        ↓
+P1 / P2 / P3 posture
+        ↓
+participant-local projection delta_i
+        ↓
+Agentic Gradient G_i(tau)
+        ↓
+ACC / lineage / authority gate
+        ↓
+RepositionIntent
+        ↓
+AuthorityResponse
+        ↓
+authorized execution / containment / rebind / recontract
+        ↓
+observed effect
+        ↓
+F9 revalidation → next cycle
+~~~
+
+#### 14.2.2 Exact inputs, processing and outputs
+
+| Architecture point | Inputs actually needed | Processing | Output used by next step | HF reading |
+|---|---|---|---|---|
+| **01J / EHD reception** | producer/profile/version; subject/proposition; scope; A result; determination state; UNKNOWN qualifiers; freshness; provenance/dependence; authority/ACC references where material | receiver-side semantic/compatibility qualification; no command semantics inferred from transport | ReceivedSignals_i | credentials work / GO / reproduction / RCE remain attributed signals |
+| **EA local qualification F3/F4/F5** | ReceivedSignals_i + local observations + current decision/Role/MSCA + policy/authority facts | preserve A/B/C/D per process and compose only scope-compatible claims; correlated evidence is not independent corroboration | Pi_EA,i and material requalification indications | technical HF evidence can strengthen while authority remains unresolved |
+| **Cartography / Composition** | Pi_EA,i, ReceivedSignals_i, role/MSCA changes, action/effect observations, freshness/expiry | add/refine/expire bounded map entries and dependencies at variable resolution | Cart_i + Delta_Cart_i | board/workstream/HF dependency cluster becomes represented and more detailed |
+| **Regime Awareness** | Pi_EA,i, ReceivedSignals_i, Cart_i/Delta_Cart_i, focal X_i, Role, W_i, direct observations, action/effect history | compare qualified recent basis/context against declared regime distinction; detect continuation/departure or preserve UNKNOWN | Delta_RA, RegimeOverlay_i, RequalificationRequests_i | old isolated-task frame weakens; population direction moves toward HF |
+| **Repositioning drift precheck** | Delta_RA + Role_bound + observed Role_effective + ACC/authority + effect history | determine whether behavior already departed from bound role before selecting a new role | drift_status + qualified Pi_RP basis | participant may already behave like HF attacker without legitimate rebind |
+| **Posture gate** | regime delta, Pi_EA, Cart_i, TypeCatalogue, role, ACC, authority, capacity, horizon | select P1/P2/P3 while preserving uncertainty | NORMAL / CONTAINMENT / MIGRATION | regime change can require requalification/containment without granting HF role |
+| **Gradient** | Delta_RA projected through X_i, dependencies and Objective Envelope | estimate objective-conditioned risk reduction/value of candidate transitions | ranked candidate transitions | joining HF may appear attractive even in the adverse-input case |
+| **ACC / authority** | candidate transition, current ACC lineage, role eligibility, mutation envelope, authority evidence | classify admissibility and executable authority separately from opportunity | WITHIN / APPROVAL_REQUIRED / NEW_LINEAGE / INADMISSIBLE / UNRESOLVED | HF role remains blocked unless a legitimate transition exists |
+| **RepositionIntent / AuthorityResponse** | Pi_RP, posture, current/target role, gradient basis, requested ACC/authority, lineage, expiry, provenance | owner-preserving signalling and legitimate decision | APPROVE / REJECT / MODIFY / REQUEST_EVIDENCE / ESCALATE / EXPIRE | systemic message says the ecosystem is changing and a new contract may be needed; it does not say attack |
+| **Authorized control + F9** | valid response, action/control owner, execution record, independently observed effect | execute outside EA; compare actual effect with assumptions; re-open only affected qualification | updated Role/ACC/Cart_i/RA inputs | contain/realign/rebind if drift occurred; then reassess |
+
+This is the architecture traversal that the later Gate-A campaign must turn into frozen specifications and testable acceptance/falsification rules.
+
 #### Step 0 — current binding
 
 ~~~text
