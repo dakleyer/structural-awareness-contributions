@@ -88,4 +88,4 @@ The next native study chooses one concrete implementation, legitimate authority/
 
 ## Common-method coverage
 
-[Canonical DDS Challenge-Trajectory profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [this model coverage](./dds-hew-v0.1/DDS_PROFILE_COVERAGE.json) define the method correspondence. R1/R2/R3 remain source-native virtual traversals. Model outcome reporting is I/P/incomplete with M unevaluated, without a new success-rate or deployment-acceptance claim.
+The [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), [Gate-A challenge–trajectory profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [this model coverage](./dds-hew-v0.1/DDS_PROFILE_COVERAGE.json) define the current method correspondence. This is Gate-A specification-discovery evidence; R1/R2/R3 remain source-native virtual traversals. Model outcome reporting is I/P/incomplete with M unevaluated, without a new success-rate, Gate-B architecture-verification or Gate-C deployment-acceptance claim.
