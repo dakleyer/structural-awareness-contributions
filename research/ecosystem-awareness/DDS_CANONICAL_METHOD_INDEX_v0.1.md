@@ -93,7 +93,32 @@ No gate result automatically proves a later gate.
 
 A failure may diagnose a problem at the current gate or justify opening a successor of an earlier gate, but the failed record is preserved.
 
-## 7. Canonical navigation
+## 7. Historical and pre-DDS evidence incorporation
+
+DDS was introduced after several bounded fixture, oracle, harness and benchmark artefacts already existed. Those artefacts are **not abandoned and are not parallel testing methods**. They are incorporated into DDS according to the object they tested and the evidence they actually produced.
+
+This incorporation is classificatory and preservational:
+
+- historical versions, commits, pre-registrations, freezes, traces and results remain authoritative for their own recorded runs;
+- an artefact version such as `v0.4`, `v0.5` or an oracle freeze such as `v0.9` is the version of **that artefact**, not a DDS method version and not a later/higher DDS Gate;
+- incorporation into DDS does not retroactively strengthen a result, make a descriptive fixture comparative, or convert instrumentation evidence into product validation;
+- the applicable DDS Gate is determined by the **object under test**, not by whether Python, a harness or an executable fixture was used.
+
+Current legacy incorporation map:
+
+| Historical / pre-split artefact family | Original role and evidence | Current DDS reading |
+|---|---|---|
+| **00D-A01 bounded oracle / test construction** | Test-design discipline for frozen facts, oracle and controls | DDS support infrastructure usable by Gate A/B/C as applicable; not a substantive Gate result by itself |
+| **00D-A03 RS-00E-Q1a Stage-0 harness design** | One deterministic harness design for one fixture family | DDS test-infrastructure design supporting a bounded Simplified Gate-A execution; not Gate B/C |
+| **RS-00E-Q1a v0.5 / Stage-0 execution** | Descriptive deterministic fixture run; B1/B3 tie; no independent reviewer | Historical **Simplified DDS Gate-A deterministic evidence** for its bounded specification/trajectory question; Stage-0 remains the source testbed maturity label |
+| **00L paper/symbolic traversals and correction runs** | Analytical/symbolic paired controls and regression evidence | Simplified DDS Gate-A analytical/symbolic evidence within each declared scope |
+| **R01 C02 oracle/harness, freezes v0.3–v0.9** | Instrument qualification, blinding, replay, resource and reference controls | Shared DDS **test-infrastructure qualification**; not itself Gate A/B/C substantive evidence |
+| **00D v0.2 / v0.3 benchmark work** | Strong-peer, matched-resource and comparison discipline | DDS comparator/fairness support, primarily for Gate A and Gate C; not a second method |
+| **DBC** | Decision-boundary challenge/adjudication vocabulary | Cross-gate DDS support module; not a second method |
+
+Where an older record says “Stage-0”, “benchmark”, “oracle”, “harness”, “testbed” or another historical local term, preserve that term for the source record and use this index to understand its current DDS role.
+
+## 8. Canonical navigation
 
 1. [Gate A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)
 2. [Gate B — Architecture Verification](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md)
@@ -102,7 +127,7 @@ A failure may diagnose a problem at the current gate or justify opening a succes
 5. [DDS source register](./DDS_SOURCE_REGISTER_2026-10-06.json)
 6. [DDS bibliography](./DDS_REFERENCES_2026-10-06.bib)
 
-## 8. Migration note
+## 9. Migration note
 
 The pre-existing Gate-A file path is intentionally preserved because it is widely referenced throughout the corpus. From this revision forward it is the canonical **Gate-A** source, not the complete DDS method router.
 
