@@ -12,6 +12,8 @@
 | **Interoperability reference** | [TEMS Trial 7 — How Rights Travel Across Systems](https://tems-dataspace.eu/tems-trial-7-how-rights-travel-across-systems/) |
 | **Public FG-TIDA reference** | [Theme #17 — Digital Rights Infrastructure for Text](https://github.com/FG-TIDA/themes/issues/17), proposer: Alexandre Leforestier (Panodyssey) |
 
+> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Gate-A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Gate-B architecture verification or Gate-C native product validation.
+
 > **Unexecuted implementation-path analysis.** This profile asks how a standard competent Panodyssey-side implementation, a defended top implementation extended through the agent/interoperability boundary, and that exact frozen top implementation under a latent downstream rights-resolution regime change interact with 00J Q0–Q5. It does **not** report that Panodyssey, TEMS, ODRL or any named AI/right-management system fails 00J.
 
 The purpose of 00J-A01 is not to benchmark Panodyssey or TEMS as products. It is to use a comparatively strong public rights-and-portability context to ask a more difficult implementation question: what happens when an already competent system is frozen, the final business question remains the same, and the external resolver or lineage contract that made the earlier answer sufficient is no longer semantically stable?
