@@ -231,15 +231,23 @@ The compact status statement appears above the scenario walkthroughs. The dashbo
 
 The benchmark is therefore presentable as an inspectable test programme and market/architecture gap analysis. It is not yet evidence of comparative superiority.
 
-## Deployment Differential Study (DDS) — canonical Challenge–Trajectory profile
+## Deployment Differential Study (DDS) — canonical three-gate method
 
-The [**Deployment Differential Study (DDS) — Canonical Challenge–Trajectory Profile v0.1**](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) is the programme-wide technical method for binding a declared Challenge to a technology/configuration, mapping preserved correspondence plus additional mechanisms, defining I/M/P/Ø route classes, recording traversals/traces, and — where the selected profile requires it — accounting Cost, Risk and Effectiveness before applying a frozen acceptance policy and any deployment Business Value projection.
+**Single entry point:** [**DDS Canonical Method Index v0.1**](./DDS_CANONICAL_METHOD_INDEX_v0.1.md).
 
-There is **one DDS method**. Concrete artefacts use DDS implementation profiles with declared coverage. The current frozen positive/negative technology trajectories are simplified DDS profiles; R01 is the richest current probabilistic reference instantiation; Human Escalation / Whispering is a richer virtual DDS profile. This classification is additive and does not rewrite any frozen result.
+DDS is the programme-wide testing/evaluation method for this corpus. It is now explicitly separated into:
 
-## Applied validation route — Decision Boundary Challenge
+1. [**Gate A — Specification Discovery**](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) — Challenge → candidate specifications/mechanisms/configuration trajectories → bounded differential finding / candidate specification package;
+2. [**Gate B — Architecture Verification**](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) — frozen Gate-A specification → architecture/reference realization → verified/partial/nonconformant architecture finding;
+3. [**Gate C — Implementation / Problem Validation**](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) — pinned implementation/configuration → observed execution/effect against the originating Challenge → bounded empirical validation finding.
 
-The [**Decision Boundary Challenge — Applied Agentic Validation Protocol v0.2**](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) is a separate applied-evidence route for reviewing what happens when an agent reaches the boundary between capability, sufficient evidence, admissibility, authority, opportunity and actuation.
+A profile may use a **Simplified DDS Gate A/B/C** route when only a declared subset of that Gate is needed. “Simplified” describes coverage, not evidence weakness. Documentary, analytical, symbolic, deterministic-fixture, harness and native execution are evidence modes; they do not by themselves determine the Gate.
+
+**Historical evidence incorporation.** The corpus predates this three-gate organization. Earlier Stage-0 fixtures, 00L symbolic runs, 00D-A01/A03 oracle/harness designs, R01 C02 oracle/harness work and related testbed records remain valid for their original scope and are now incorporated into DDS as Gate-specific partial evidence or support/infrastructure, as mapped in the [canonical DDS index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#7-historical-and-pre-dds-evidence-incorporation). Their local version numbers and freezes are not DDS versions, and incorporation does not retroactively upgrade their claims.
+
+## DDS support module — Decision Boundary Challenge
+
+The [**Decision Boundary Challenge — Applied Agentic Validation Protocol v0.2**](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) supplies reusable decision-boundary Challenge/adjudication material inside DDS. It is not a second corpus testing method. Its cases may support Gate-A specification discovery, Gate-B architecture controls or Gate-C implementation adjudication according to the registered object under test and evidence scope.
 
 It is designed to be **cross-platform and sector-agnostic**: the initial unit under review is an agent stack, framework, control plane or research platform rather than a logistics, energy or other vertical application. The protocol begins with a standard challenge pack and offline trace audit; sandbox/sidecar execution is admitted only after a material signal exists and the comparison is preregistered.
 
@@ -259,7 +267,7 @@ The protocol:
 
 **FG-TIDA projection:** the programme-independent protocol is projected into the [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md) and is bidirectionally mapped into [Specification Preparation v0.3](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md). The current public test route starts with UC-6 semantic mapping and may then enter Nelson's bounded UC-4 executable profile after contributor review and scope agreement.
 
-**Boundary:** this is not part of the frozen/canonical EA baseline, does not supersede the 00D benchmark, and currently contains no executed comparative result or vendor ranking. It runs in parallel with W2 and may later contribute admitted fixtures/evidence through the normal W3 or external-owner process. [v0.1](./DECISION_BOUNDARY_CHALLENGE_v0.1.md) remains preserved as the predecessor.
+**Boundary:** DBC is not part of the frozen/canonical EA baseline, does not supersede 00D comparator/fairness support and currently contains no executed comparative result or vendor ranking. Within the current DDS method it is a support module, not a parallel method; concrete DBC-derived evidence is classified under Gate A, B or C by the object actually tested. [v0.1](./DECISION_BOUNDARY_CHALLENGE_v0.1.md) remains preserved as the predecessor.
 
 ## Reading routes
 
