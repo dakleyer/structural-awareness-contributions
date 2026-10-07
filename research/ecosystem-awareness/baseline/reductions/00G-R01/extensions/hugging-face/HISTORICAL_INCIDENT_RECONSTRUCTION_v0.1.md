@@ -6,13 +6,16 @@
 
 **Owner route:** [R01 Hugging Face extension](./README.md) → this historical reconstruction → [public evidence/workplan](./PUBLIC_EVIDENCE_AND_DDS_WORKPLAN.md).
 
-**Machine-readable companion:** [HISTORICAL_INCIDENT_EVIDENCE_v0.1.json](./HISTORICAL_INCIDENT_EVIDENCE_v0.1.json). **First detailed packets:** [FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md). **Cross-source reconciliation:** [CROSS_SOURCE_EVENT_MATRIX_v0.1.md](./CROSS_SOURCE_EVENT_MATRIX_v0.1.md).
+**Machine-readable companion:** [HISTORICAL_INCIDENT_EVIDENCE_v0.1.json](./HISTORICAL_INCIDENT_EVIDENCE_v0.1.json). **First detailed packets:** [FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md). **Cross-source reconciliation:** [CROSS_SOURCE_EVENT_MATRIX_v0.1.md](./CROSS_SOURCE_EVENT_MATRIX_v0.1.md). **Population context-shift model:** [POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
 
 **Historical predecessor preserved:** [00G-HF documentary review, 1 October 2026](../../../../traversals/00G-HF-HISTORICAL-REVIEW-2026-10-01/README.md). That earlier record remains evidence of the earlier, narrower review and is not rewritten by this document.
 
 ---
 
 ## 0. Purpose and methodological reset
+
+> **Population/context correction — 7 October 2026.** The primary historical object for the context-change question is **not one receiver deciding that an action is wrong or out of scope**. A local receiver may normally choose an admissible, better, prohibited or incomplete route. The context-change object is the **population decision regime**: whether changing communication, evidence, capability, coordination, resource and external-system conditions materially change the distribution of active routes and the transition structure across the population. Individual packets remain micro-evidence anchors. The working A/B/C/D + Population formulation is owned by [POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
+
 
 The existing R01→Hugging Face extension asks whether selected R01 relations can be transported into a **constructed Hugging Face-compatible problem**. This document performs a different operation: it starts from the **publicly documented historical incident** and reconstructs what can actually be established before any R01, 00G or Ecosystem Awareness interpretation is imposed.
 
