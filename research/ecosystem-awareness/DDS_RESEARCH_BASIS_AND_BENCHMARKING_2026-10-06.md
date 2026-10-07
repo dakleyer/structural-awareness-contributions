@@ -2,7 +2,7 @@
 
 Supporting dossier v0.1 · Reviewed:2026-10-06 · Written for technology providers, deployment owners and reviewers.
 
-Review/navigation: [sole owning sourcebook review](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md). Supporting research; the DDS technical profile remains the method authority.
+Review/navigation: [sole owning sourcebook review](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md). Supporting research; the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) is the method authority, with Gate-specific technical detail owned by Gates A/B/C.
 
 This dossier explains the research basis and documentary positioning of the Deployment Differential Study. The current method entry point is the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md), with [Gate A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) retaining the challenge–trajectory material reviewed in this dossier at source pin [ba5e8081](https://github.com/dakleyer/structural-awareness-contributions/commit/ba5e8081beff2d4728f043839cb2ea0376a94c57). It is an annotated literature/benchmarking companion, not another canonical method or the 00D comparator/fairness source.
 
@@ -143,7 +143,7 @@ First distinguish three comparison objects: the study method, the studied techno
 
 For an empirical technology differential, use the accepted scope and current00D/DBC comparison contracts when applicable: declare the question and comparison arms, use a strong reference, freeze common conditions and acceptance/falsifiers, execute only admitted cases, retain source/trace and unexpected findings, then report the resulting trade-off or insufficiency. A cheap, material boundary check can be enough; a larger campaign is justified only by the agreed question and evidence claim.
 
-The [current00D benchmark](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) remains its own fair-comparison/evidence source, and [DBC](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) remains the optional applied-adjudication companion. This supporting dossier creates neither a second00D nor another DDS profile. New claims do not rewrite frozen UC21, R01 or existing run results.
+The [current 00D benchmark](./baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) remains the owned DDS comparator/fairness source for its scope, and [DBC](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) remains a cross-gate DDS Challenge/adjudication support module. This supporting dossier creates neither a second 00D nor another DDS method/profile. New claims do not rewrite frozen UC21, R01 or existing run results.
 
 For commercial delivery, compare the accepted outputs and their real closure evidence, not bibliography length. The existing programme's full package includes Sponsor verification/seal, executive report, technical research report, reproducible technical record, DOI research object where disclosure permits and the agreed eligible international contribution. A reduced technical study can support that package; it does not silently remove outputs. The accepted SOW governs inclusion and completion.
 
@@ -445,6 +445,6 @@ Sociotechnical risk assessments, context-specific reporting and mitigations are 
 
 ## 14. Public source and continuation map
 
-Method authority: [DDS canonical profile](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). This dossier is a supporting sourcebook with a [single owning review](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md); it creates no new method. R01 retains its [technology-extension protocol](./baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md) and mathematical contracts. The selected research execution records are associated with public releasee08e4f12ffd3f1dff64bc08df6af62c943992831; later source/route edits do not add empirical evidence.
+Method authority: [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md), with [Gate A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Gate B](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Gate C](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) owning their respective technical contracts. This dossier is a supporting sourcebook with a [single owning review](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md); it creates no new method. R01 retains its [technology-extension protocol](./baseline/reductions/00G-R01/feasibility/TECHNOLOGY_EXTENSION_PROTOCOL.md) and mathematical contracts. The selected research execution records are associated with public releasee08e4f12ffd3f1dff64bc08df6af62c943992831; later source/route edits do not add empirical evidence.
 
 The practical next validation, when commissioned and admitted, is one end-to-end reference case under a concrete provider/deployment scope, with an appropriately strong alternative, source-owner factual review and the exact included deliveries. Its prospective criteria belong to the existing instruments. This bibliography does not launch that case or expand every study into a full campaign.
