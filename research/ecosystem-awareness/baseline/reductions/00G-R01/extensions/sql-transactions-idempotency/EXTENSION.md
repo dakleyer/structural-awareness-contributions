@@ -2,7 +2,7 @@
 
 Version0.2 ·6 October2026 · actual embedded SQLite plus authored task profile.
 
-[Sole DDS](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Base LOCAL-EFFECT-RECEIPT-ATOMICITY0.1 is the declared local ledger/receipt task; no R01 isomorphism or native distributed-system result is inherited.
+**DDS classification:** Simplified **Gate A — Specification Discovery** under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Base LOCAL-EFFECT-RECEIPT-ATOMICITY0.1 is the declared local ledger/receipt task; no R01 isomorphism, Gate-B architecture verification or Gate-C native distributed-system result is inherited.
 
 ## Problem and configured technology
 
