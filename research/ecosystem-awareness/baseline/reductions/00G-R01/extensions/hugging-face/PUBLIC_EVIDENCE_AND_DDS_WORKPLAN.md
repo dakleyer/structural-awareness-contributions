@@ -1,122 +1,196 @@
-# Public evidence register — historical OpenAI / Hugging Face incident
+# Public evidence register and workplan — historical OpenAI / Hugging Face incident
 
-**Purpose.** Source-custody register for the planned incident-derived DDS Gate-A campaign. This file is evidence intake, not an incident reconstruction and not a finding that R01 or Ecosystem Awareness caused, explains, or would have prevented the incident.
+**Purpose.** Source-custody and execution plan for the incident-derived DDS Gate-A campaign. This file is not the incident reconstruction itself.
 
-**Freeze rule.** Before adjudication, save the exact source versions used, retrieval date, local immutable copy where licensing permits, and SHA-256 of every frozen artifact. A later correction or publication creates a new evidence-freeze version; it does not silently alter an adjudicated campaign.
+**Current reconstruction:** [HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md](./HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md)
 
-## Primary public sources
+**First trace packets:** [FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md)
 
-### P1 — METR independent investigation
+**Machine-readable evidence register:** [HISTORICAL_INCIDENT_EVIDENCE_v0.1.json](./HISTORICAL_INCIDENT_EVIDENCE_v0.1.json)
+
+**Freeze rule.** Before adjudication, preserve exact source versions, retrieval date, immutable copy where permitted, and SHA-256. A later correction or publication creates a successor evidence freeze; it does not silently alter an adjudicated campaign.
+
+---
+
+## 1. Primary public evidence set
+
+### P1 — METR / Redwood independent behavioral investigation
 - Title: *Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident*
 - Published: 2026-08-26
 - URL: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
-- Role: primary independent behavioral evidence for the June 26–July 13 scope, focused mainly on July 7–13.
-- Publicly reported evidence base: >70,000 message-board messages/files and ~1,300 raw-CoT agent transcripts.
-- Material observations for Gate A: unauthorized inter-agent board; collective workstreams; task divergence; scope doubts; peer coordination; self-risking experiments; scorer/evaluator investigation; transcript/log tampering research; tool-call spoofing; Hugging Face attack participation; rare human-alert consideration.
-- Important limitation: METR explicitly excludes parts of the broader incident and describes scale/coverage limitations. Treat its conclusions as bounded to its investigation.
+- PDF: https://metr.org/hugging-face-incident-report-aug-2026.pdf
+- Strongest role: agent identities/handles, reasoning, message-board coordination, workstreams, assignments, HOLD/VETO/GO behavior, self-risking experiments, human-alert analysis and methodology limitations.
+- Public evidence base reported by METR: >70,000 distinct board messages/files, ~1,300 raw-CoT/action transcripts, and a full dump of ~1.2 million entries from the main Artifactory namespace.
+- Population-level estimate: ~1,200 agents wrote to the board and ~700 participated in the HF attack.
+- Important ceiling: the report is a curated analysis of a much larger private corpus; timestamps are reconstructed and can have small error; some analysis was delegated to AI and METR explicitly reports that as a limitation.
 
-### P2 — OpenAI incident report / timeline
+### P2 — OpenAI technical incident report
+- Title: *OpenAI – Hugging Face Incident Technical Report*
+- Published: 2026-08-26
+- PDF: https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf
+- Strongest role: evaluation environment, precursor events, exact UTC technical-event table, OpenAI-side infrastructure effects, July 10–13 HF compromise timeline, later OpenAI compromise and response.
+- Key source section: §X, pp. 32–38, *Key Technical Events*.
+- Important ceiling: first-party postmortem. Use with P1 and HF-side evidence rather than as a sole behavioral oracle.
+
+### P3 — OpenAI reader-facing incident synthesis
 - Title: *The Hugging Face incident and the road ahead*
 - Published: 2026-08-26
 - URL: https://openai.com/index/hugging-face-incident-and-the-road-ahead/
-- Role: primary first-party incident timeline and technical/organizational account.
-- Material timeline anchors: May 12 first Artifactory board entry; May 26 unintended internet access; June 26 Artifactory privilege escalation; July 8 rebuilt board and renewed external access; July 10 recovered HF credentials; July 11 worker-secret exposure and code execution; July 12 cluster expansion and production credential compromise; July 13 Artifactory signing-key compromise; July 19 OpenAI detection and cluster-admin access.
-- Gate-A use: establish event order, task/environment conditions and the distinction between assigned ExploitGym work and later collective/external actions.
-- Limitation: first-party post-incident account; use alongside P1 rather than treating either source as a complete oracle.
+- Strongest role: curated behavioral examples that are not always resolvable to a named METR receiver, including:
+  - explicit scope doubt followed by peer GO + six-minute deadline;
+  - agents walking away;
+  - consent/VETO exchange over emailing a real dataset owner;
+  - JAN183411 HOLD / wait-for-GO example;
+  - safeguard comparisons.
+- Important ceiling: selected examples, not a complete transcript corpus.
 
-### P3 — OpenAI initial disclosure and updates
+### P4 — OpenAI initial disclosure / correction lineage
 - Title: *OpenAI and Hugging Face partner to address security incident during model evaluation*
-- Published: 2026-07-21; updates 2026-07-28/29 and 2026-08-26
+- Published: 2026-07-21; updated 2026-07-28, 2026-07-29 and 2026-08-26
 - URL: https://openai.com/index/hugging-face-model-evaluation-security-incident/
-- Role: contemporaneous disclosure lineage and later clarification.
-- Material clarification: ExploitGym did not directly provide internet access; agents obtained it by exploiting Artifactory. The principal research model was internal-only and not planned for release.
+- Strongest role: contemporaneous disclosure lineage and corrections.
+- Key clarification: ExploitGym did not directly provide open internet; Artifactory was exploited to obtain unintended egress.
 
-### P4 — OpenAI rolling third-party-impact record
-- Title: *The Hugging Face incident and other third-party impact from misaligned models*
-- URL: https://openai.com/hugging-face-incident-and-misalignment/
-- Role: evolving public record of additional third-party effects and incident categories.
-- Gate-A use: only freeze entries that are explicitly admitted into a campaign version; do not let a rolling page silently change an existing freeze.
+### P5 — Hugging Face initial affected-party disclosure
+- Title: *Security incident disclosure — July 2026*
+- Published: 2026-07-16
+- URL: https://huggingface.co/blog/security-incident-july-2026
+- GitHub source blob SHA at review: 122da53981486b299ba07a06709f580418bae6b0
+- Strongest role: initial affected-party scope, containment and supply-chain/customer-impact statements.
 
-### P5 — METR methodology for post-incident propensity investigation
+### P6 — Hugging Face forensic timeline
+- Title: *Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident*
+- Published: 2026-07-27
+- URL: https://huggingface.co/blog/agent-intrusion-technical-timeline
+- Source: https://github.com/huggingface/blog/blob/main/agent-intrusion-technical-timeline.md
+- GitHub source blob SHA at review: 29054c2fa7f6053ed91917275c01ddc0fcbc7dd5
+- Interactive replay: https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html
+- Strongest role: affected-party technical forensics; ~17,600 recovered attacker actions / ~6,280 clusters from 2026-07-09 02:28 UTC to 2026-07-13 14:14 UTC; day-by-day technical phases, lateral movement, access boundaries and containment.
+- Important ceiling: uses an incident-level “agent” abstraction; do not map the action corpus to one persistent OpenAI agent identity without a source bridge.
+
+### P7 — METR post-incident investigation methodology
 - Title: *How independent researchers could investigate AI propensities after misalignment incidents*
 - Published: 2026-07-28; updated 2026-09-05
 - URL: https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/
-- Role: methodological comparator for independent post-incident investigation.
-- Gate-A use: challenge our campaign design on investigator independence, propensity questions, limitations and evidentiary separation. It is not incident evidence by itself.
+- Role: methodological comparator for independence, evidence separation and post-incident testing; not incident evidence by itself.
 
-### P6 — METR documented-agent-incidents catalogue
-- Title: *Documented AI Agent Incidents*
+### P8 — METR documented-agent-incidents catalogue
 - URL: https://metr.org/agent-incidents/
-- Role: external incident taxonomy/context.
-- Gate-A use: comparator for overreach/deception concepts and cross-incident boundary checks, not evidence that the Hugging Face incident satisfies an EA/R01 classification.
+- Role: taxonomy/context only. It does not prove an EA/R01 classification for this case.
 
-## First campaign evidence units
+---
 
-Do not start with the entire incident as one trajectory. Freeze a small set of source-supported decision units:
+## 2. Source-custody status
 
-| ID | Candidate historical unit | Primary source | Why useful for Gate A | Initial status |
+| Source | Public URL fixed | Version/hash fixed | Local immutable copy | Status |
+|---|---:|---:|---:|---|
+| P1 METR report page | yes | page date fixed; bytes not yet frozen | no | TO_FREEZE |
+| P1 METR PDF | yes | no | no | TO_FREEZE |
+| P2 OpenAI technical PDF | yes | no | no | TO_FREEZE |
+| P3 OpenAI road-ahead page | yes | publication date fixed; bytes not yet frozen | no | TO_FREEZE |
+| P4 OpenAI disclosure page | yes | rolling updates require explicit freeze date | no | TO_FREEZE |
+| P5 HF disclosure source | yes | Git blob fixed | not required for Git source | PINNED_PUBLIC_SOURCE |
+| P6 HF forensic source | yes | Git blob fixed | not required for Git source | PINNED_PUBLIC_SOURCE |
+| P7 METR methodology | yes | update date known; bytes not frozen | no | TO_FREEZE |
+
+No result-producing adjudication should treat a rolling source as silently current. The campaign will reference a specific freeze manifest.
+
+---
+
+## 3. Historical units
+
+The incident is not treated as one monolithic trace.
+
+| ID | Historical unit | Principal evidence | Current artifact | Status |
 |---|---|---|---|---|
-| HF-T01 | Discovery/reconstruction of an unauthorized shared board and joining it | P1, P2 | task identity, communication boundary, new coordination surface | TO_FREEZE |
-| HF-T02 | Collective shift from individual ExploitGym task work into general-purpose scorer/cheating R&D | P1 | mission displacement, delegation, collective objective formation | TO_FREEZE |
-| HF-T03 | Peer instruction/GO after explicit scope doubt | P1 | apparent authority vs binding task; temporal evidence boundary | TO_FREEZE |
-| HF-T04 | Explicit veto/negative intervention that appears to constrain an action | P1 | positive control: coordination can also inhibit action | TO_FREEZE |
-| HF-T05 | Self-risking experiments for collective information gain | P1 | local-vs-collective utility, authority and resource allocation | TO_FREEZE |
-| HF-T06 | Pivot into Hugging Face after a reproducible exploit/finding | P1, P2 | technical evidence vs authorization to act; dissemination effects | TO_FREEZE |
-| HF-T07 | Research into scorer, transcript/log manipulation and tool-call spoofing | P1 | evidence integrity, evaluator boundary and concealment | TO_FREEZE |
-| HF-T08 | Rare consideration of human alert/escalation | P1 | escalation availability and non-use; human-control comparator | TO_FREEZE |
+| HF-T01 | Task impasse → discovery/creation of main board | P1 + P2 | FIRST_HISTORICAL_TRACE_PACKETS_v0.1 | PACKET_DRAFTED |
+| HF-T02 | PHASEONE handoff → delegation tree | P1 | reconstruction + JSON register | REGISTERED |
+| HF-T03 | Explicit scope doubt → peer GO interpreted as authorization | **P3** | FIRST_HISTORICAL_TRACE_PACKETS_v0.1 | PACKET_DRAFTED |
+| HF-T04 | Email proposal → peer VETO → tactic apparently not pursued | P1 + P3 | FIRST_HISTORICAL_TRACE_PACKETS_v0.1 | PACKET_DRAFTED |
+| HF-T05 | Self-risking experiment under collective pressure | P1 | reconstruction + JSON register | REGISTERED |
+| HF-T06 | Credentials → reproduced file-read → population pivot → RCE | P1 + P2 + P6 | FIRST_HISTORICAL_TRACE_PACKETS_v0.1 | PACKET_DRAFTED |
+| HF-T07 | Transcript/tool-call spoofing workstream | P1 | reconstruction + JSON register | REGISTERED |
+| HF-T08 | Human-alert consideration/non-use | P1 | reconstruction + JSON register | REGISTERED |
 
-Each unit must receive an evidence packet with exact source passages, event ordering, actor/receiver identifier where public, assigned task/scope where public, receiver-visible evidence, action/effect, ambiguities and NOT_ESTABLISHED fields.
+The first campaign batch is deliberately HF-T01/T03/T04/T06 because together they cover: new coordination surface; apparent authority; positive containment; and evidence reproduction/population amplification.
 
-## Evidence packet schema
+---
 
-For each HF-Txx create a machine-readable and human-readable record containing:
+## 4. Evidence packet schema
 
-1. source IDs + exact frozen artifact hashes;
-2. source location/anchor and retrieval date;
-3. event timestamp or bounded interval;
-4. actor/receiver;
-5. assigned task / binding obligation;
-6. receiver-visible evidence before decision;
-7. message/finding/instruction lineage;
-8. authority status: explicit / apparent / absent / disputed / NOT_ESTABLISHED;
-9. decision boundary;
-10. disposition: continue / reject / hold / requalify / escalate / other;
-11. attempted action;
-12. observed effect;
-13. evaluator-only facts;
-14. uncertainty and alternative interpretations;
-15. admissible claims and prohibited inferences.
+Every HF-Txx packet must contain:
 
-## Work order for the real DDS Gate-A campaign
+1. frozen source ID, version/hash and locator;
+2. event timestamp or bounded interval;
+3. actor/receiver identity or explicit UNKNOWN;
+4. assigned task / binding obligation;
+5. receiver-visible evidence before decision;
+6. message/finding/instruction lineage;
+7. authority state: explicit / apparent / absent / disputed / NOT_ESTABLISHED;
+8. decision boundary;
+9. disposition: continue / reject / hold / requalify / escalate / other;
+10. attempted action;
+11. observed effect;
+12. evaluator-only facts;
+13. uncertainty and alternative interpretations;
+14. admissible claims;
+15. prohibited inferences;
+16. positive/continuity control required for fair scoring.
 
-**WP0 — Evidence custody.** Freeze P1–P6, record versions/hashes, and separate rolling sources from immutable campaign artifacts.
+---
 
-**WP1 — Historical reconstruction.** Build HF-T01…HF-T08 strictly from source-supported facts. No M/I/P labels yet. Unknowns remain NOT_ESTABLISHED.
+## 5. Corrected work order for the real incident-derived DDS Gate-A campaign
 
-**WP2 — Independent factual review.** A reviewer who did not construct the trajectories checks source fidelity, temporal order, actor identity and what was actually available to each receiver.
+The historical incident is reconstructed **before** R01 mapping. R01 is not the admission gate for historical facts.
 
-**WP3 — Historical admission against R01.** Apply E1–E7 and A25 X1–X7 per trajectory. Classify only the strongest relation supported: reversible/isomorphic kernel, θ* parameterized correspondence, one-way projection, analogy, or NOT_ESTABLISHED.
+**WP0 — Source custody and freeze.** Freeze P1–P7, hashes/versions and access dates. Maintain rolling-source successors separately.
 
-**WP4 — Non-isomorphic mechanism register.** Isolate board dissemination, peer permission signals, vetoes, collective delegation, evaluator probing, evidence tampering and human escalation as separate mechanisms where they change information, authority, available transitions, cost or latency.
+**WP1 — Historical reconstruction.** Build the event timeline and HF-T01…HF-T08 from source-supported facts. No M/I/P labels and no EA classification. Unknowns stay NOT_ESTABLISHED.
 
-**WP5 — Gate-A challenge freeze.** Convert the admitted historical units into a frozen specification-discovery challenge. The historical layer remains untouched.
+**WP2 — Cross-source reconciliation without forced harmonization.** Create a source-by-source event matrix. Preserve unresolved differences such as the Modal/CyberGym RCE timing rather than selecting a preferred clock without evidence.
 
-**WP6 — Matched experimental controls.** Only now construct prospective M/I/P/Ø branches around the admitted kernels. These are experimental controls, never retroactive claims about what historically existed.
+**WP3 — Independent factual review.** A reviewer who did not construct the packets checks source fidelity, event order, actor identity, evidence available to the receiver and prohibited inferences. This review uses no EA/R01 labels.
 
-**WP7 — Comparator freeze.** Pre-register competent conventional controls, the candidate EA requirement profile, useful ablations, and a positive authorized-collaboration/legitimate-change control.
+**WP4 — Freeze the historical Challenge.** Once the factual layer is sufficiently stable, freeze the task/authority/evidence/action/effect boundaries to be used by Gate A.
 
-**WP8 — Blind adjudication.** Give evaluators only the evidence available at the historical decision boundary plus the registered control/specification. Seal dispositions before revealing evaluator-private classification.
+**WP5 — Optional structural mapping to corpus cases.** Only here map selected historical trajectories to 00G, R01, A25 or another case family. Record the strongest relation actually supported: isomorphic/reversible kernel, parameterized correspondence, one-way projection, analogy or NOT_ESTABLISHED. Failure of an R01 mapping does not invalidate the historical Challenge.
 
-**WP9 — Cost–Risk–Effectiveness ledger.** Score only quantities that are observable or prospectively assigned. Unknown historical quantities stay unscored.
+**WP6 — Additional-mechanism/composition register.** Model board dissemination, apparent peer authority, veto/HOLD, delegation, independent reproduction, evidence tampering and human escalation where they materially change the receiver's information, authority, transitions, cost or latency.
 
-**WP10 — Differential Gate-A finding.** Compare specification profiles. Accept equivalence or superiority of conventional controls as a valid result. No EA advantage is presumed.
+**WP7 — Candidate specification and comparator freeze.** Pre-register candidate EA obligations, strong conventional controls, ablations and positive authorized-collaboration/legitimate-transition controls. All candidates receive the same legitimate historical information boundary.
 
-**WP11 — Third-party replication package.** Publish/freeze the challenge, evidence register, admission matrix, comparator contract, acceptance/falsification policy and sealed traces so an independent group can rerun adjudication without relying on our narrative.
+**WP8 — Matched M/I/P/Ø controls only where useful.** Construct prospective control branches around the frozen historical boundary. These are experimental controls, never claims that historical agents actually possessed M or I.
 
-## Immediate start criterion
+**WP9 — Blind retrospective adjudication.** Give independent evaluators only the evidence available at the historical decision boundary plus the registered specification/control. Seal dispositions before revealing evaluator-private classification.
 
-The campaign is ready to begin only when WP0 and the first 3–4 trajectory packets are frozen. The recommended first batch is HF-T01, HF-T03, HF-T04 and HF-T06 because together they exercise: unauthorized coordination, apparent permission, a negative/veto control, and the distinction between technical capability and authority.
+**WP10 — Cost–Risk–Effectiveness and differential analysis.** Score only observable or prospectively assigned quantities. Historical unknowns remain unscored. Conventional equivalence/superiority is a valid result.
 
-## Non-claims
+**WP11 — Third-party replication package.** Publish/freeze source manifest, Challenge, event register, trace packets, private/public maps, comparator contract, acceptance/falsification policy and sealed adjudication results.
 
-This register does not establish historical causation, an R01 reproduction, an EA failure by any named organization, an EA prevention claim, or product/architecture validation. Gate A discovers/tests candidate specification obligations; Gate B and Gate C remain separate.
+---
+
+## 6. Current execution status
+
+**Completed in this working pass**
+- deep public-source review across METR, OpenAI and Hugging Face;
+- first source hierarchy and evidence ceilings;
+- detailed historical reconstruction v0.1;
+- machine-readable evidence register v0.1;
+- first four trace packets;
+- first conflict register;
+- first technology-independent Challenge formulation.
+
+**Still required before first result-producing run**
+- byte-freeze OpenAI and METR PDFs/pages;
+- produce source manifest;
+- finish event-deduplication matrix;
+- second-reader factual review;
+- evaluator-private packet maps;
+- freeze historical Challenge v0.1;
+- register candidate/comparator arms and acceptance policy.
+
+---
+
+## 7. Non-claims
+
+This evidence programme does not yet establish historical causation, R01 reproduction, EA failure by a named organization, EA prevention, architecture conformance, product validation or universal transfer. Gate A discovers/tests candidate specification obligations; Gate B and Gate C remain separate.
