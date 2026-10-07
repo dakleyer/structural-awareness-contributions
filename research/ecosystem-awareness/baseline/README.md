@@ -4,7 +4,7 @@
 
 **00G-R01 reduction study:** [Probabilistic exploration and validation cost](./reductions/00G-R01/README.md) — full specification, Word/PDF, and the parent 00G → reduced scenario 00G-R01 → supporting reduction argument reading route. Research specification; experimental results pending.
 
-**DDS technical profile:** [Deployment Differential Study — Canonical Challenge–Trajectory Profile v0.1](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) defines the common programme-wide Challenge → technology mapping → I/M/P/Ø → trace accounting → acceptance → optional Business Value projection method. Existing scenario/product trajectories retain their own frozen semantics and are classified against DDS by declared coverage rather than rewritten.
+**DDS canonical method:** use the [DDS Canonical Method Index v0.1](../DDS_CANONICAL_METHOD_INDEX_v0.1.md) as the single entry point. It routes to [Gate A — Specification Discovery](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Gate B — Architecture Verification](../DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Gate C — Implementation / Problem Validation](../DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md), including full and Simplified gate routes. Existing scenario/product trajectories, Stage-0 fixtures, oracle/harness artefacts and historical testbed records retain their frozen source semantics and versions; the DDS index classifies how those partial results/support artefacts are incorporated without rewriting or upgrading them.
 
 ## Mathematical and functional plausibility — current reading route
 
