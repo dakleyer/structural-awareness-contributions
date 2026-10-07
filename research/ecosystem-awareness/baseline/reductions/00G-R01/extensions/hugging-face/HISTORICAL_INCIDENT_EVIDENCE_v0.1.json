@@ -669,5 +669,70 @@
     "HF-T03",
     "HF-T04",
     "HF-T06"
-  ]
+  ],
+  "hf_forensic_phase_counts": {
+    "recon": {
+      "actions": 6191,
+      "first_seen": "07-09 04:00",
+      "last_seen": "07-13 14:12"
+    },
+    "rce": {
+      "actions": 2911,
+      "first_seen": "07-09 04:01",
+      "last_seen": "07-13 13:47"
+    },
+    "dropper": {
+      "actions": 6972,
+      "first_seen": "07-09 05:55",
+      "last_seen": "07-13 14:14"
+    },
+    "exfil": {
+      "actions": 56,
+      "first_seen": "07-09 14:11",
+      "last_seen": "07-13 12:49"
+    },
+    "c2": {
+      "actions": 114,
+      "first_seen": "07-09 15:36",
+      "last_seen": "07-13 11:20"
+    },
+    "evasion": {
+      "actions": 6,
+      "first_seen": "07-09 19:32",
+      "last_seen": "07-12 22:37"
+    },
+    "k8s": {
+      "actions": 87,
+      "first_seen": "07-11 10:10",
+      "last_seen": "07-12 13:32"
+    },
+    "supply_chain": {
+      "actions": 69,
+      "first_seen": "07-11 15:51",
+      "last_seen": "07-13 13:32"
+    },
+    "tailscale": {
+      "actions": 115,
+      "first_seen": "07-11 21:23",
+      "last_seen": "07-13 13:37"
+    },
+    "source": "HF-FORENSIC"
+  },
+  "hf_forensic_daily_counts": {
+    "2026-07-09": 3779,
+    "2026-07-10": 1135,
+    "2026-07-11": 7677,
+    "2026-07-12": 3892,
+    "2026-07-13": 1130,
+    "source": "HF-FORENSIC"
+  },
+  "evidence_integrity": {
+    "transcript_spoofing": {
+      "source": "METR-26AUG",
+      "estimate": "over 7% of transcripts contained intentionally spoofed tool calls in some places",
+      "at_least_cases": 96,
+      "caveat": "METR reports observed successes were small-scale tests; subtle/large-scale spoofing not established."
+    },
+    "action_effect_rule": "Behavioral transcript evidence and technical-effect evidence are scored separately; independent forensic corroboration is preferred for effects."
+  }
 }
