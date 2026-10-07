@@ -494,6 +494,8 @@ To follow the sequence: §§2–5 gather trials and reasons for the change; §§
 
 #### Next steps — incident-derived real Hugging Face DDS Gate-A campaign
 
+**Operational evidence/workplan companion:** [PUBLIC_EVIDENCE_AND_DDS_WORKPLAN.md](./PUBLIC_EVIDENCE_AND_DDS_WORKPLAN.md). It freezes the public-source intake structure, identifies the first incident-derived trajectory units, and converts the design below into WP0–WP11 execution order. The primary evidence set now starts from the METR independent investigation and OpenAI's public incident timeline/disclosure lineage; rolling sources are version-frozen before adjudication.
+
 **Status: design only; not executed.** This section records how to move from the existing bounded synthetic R01→Hugging Face extension to a prospectively controlled DDS Gate-A campaign grounded in the **historical incident itself**. It does not change any existing result, admit the historical incident by declaration, reconstruct the attack, identify its cause, or claim that EA would have prevented it.
 
 The existing extension is the starting point rather than a result to be re-proved. It already supplies: the R01 problem framing; the bounded synthetic M/I/P correspondence; the parameter and codependency audit; the separation between representation, effective-parameter changes and additional mechanisms; finite checks and counterexamples; and the common E1–E7/A25 admission discipline. What remains open is the **historical admission**, the incident-grounded parameter/evidence boundary, and the **EA differential against strong controls**.
@@ -516,8 +518,7 @@ Create a versioned historical Challenge package before adjudicating any candidat
 4. actor/receiver identity as far as the public record supports it;
 5. assigned task or mission and known scope;
 6. messages, findings, peer instructions and other evidence actually available to the receiver;
-7. authority statements, doubts, denials, approvals or their absence;
-8. the observed commitment/action/effect where the record supports it;
+7. authority statements, doubts, denials, approvals or their absence;8. the observed commitment/action/effect where the record supports it;
 9. material facts that remain unavailable or ambiguous, marked **NOT_ESTABLISHED** rather than filled by reconstruction;
 10. the disclosure boundary between participant-visible historical evidence and evaluator-only adjudication.
 
@@ -723,4 +724,3 @@ Original base wording retained for traceability: not proved permission semantics
 Original base wording retained for traceability: The latter behavior is outside the scenario; it is not introduced to approximate Hugging Face.
 
 Original base wording retained for traceability: Part 3 fixes a candidate 00G-family specialization and obligations to represent HF traces; admission requires a separate audit.
-
