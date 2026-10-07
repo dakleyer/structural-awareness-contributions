@@ -494,7 +494,7 @@ To follow the sequence: §§2–5 gather trials and reasons for the change; §§
 
 #### Next steps — incident-derived real Hugging Face DDS Gate-A campaign
 
-**Historical-reconstruction route now active:** [HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md](./HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md) · [first historical trace packets](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md) · [machine-readable evidence register](./HISTORICAL_INCIDENT_EVIDENCE_v0.1.json) · [public evidence/workplan](./PUBLIC_EVIDENCE_AND_DDS_WORKPLAN.md).
+**Historical-reconstruction route now active:** [HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md](./HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md) · [population context-shift A/B/C/D model](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md) · [first historical trace packets](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md) · [machine-readable evidence register](./HISTORICAL_INCIDENT_EVIDENCE_v0.1.json) · [public evidence/workplan](./PUBLIC_EVIDENCE_AND_DDS_WORKPLAN.md).
 
 **Status: historical WP0/WP1 started; no result-producing adjudication yet.** The historical incident is now reconstructed **from public evidence first**, before any R01/00G/EA mapping. This preserves the distinction requested here: the current R01 extension remains a synthetic Hugging-Face-compatible study, while the new historical route reconstructs what actually occurred and freezes its decision/authority/evidence boundaries. No existing synthetic result is upgraded, no incident cause is declared, and no claim is made that EA would have prevented the incident.
 
