@@ -2,7 +2,7 @@
 
 Version0.2 ·6 October2026 · own persisted local model.
 
-[Sole DDS](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Base DURABLE-LOCAL-CLOSURE0.1 is a declared local workflow/resource task; it does not inherit R01's laws or instantiate native Temporal.
+**DDS classification:** Simplified **Gate A — Specification Discovery** under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Base DURABLE-LOCAL-CLOSURE0.1 is a declared local workflow/resource task; it does not inherit R01's laws, establish Gate-B architecture verification or instantiate/validate native Temporal under Gate C.
 
 ## Problem and configured technology
 
