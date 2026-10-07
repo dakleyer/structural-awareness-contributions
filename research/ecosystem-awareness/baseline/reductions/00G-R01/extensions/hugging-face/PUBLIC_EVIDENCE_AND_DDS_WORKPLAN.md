@@ -143,31 +143,39 @@ Every HF-Txx packet must contain:
 
 ## 5. Corrected work order for the real incident-derived DDS Gate-A campaign
 
-The historical incident is reconstructed **before** R01 mapping. R01 is not the admission gate for historical facts.
+The historical incident is reconstructed **before** R01 mapping. The context-change object is **population-first**: individual trace packets support the population reconstruction but do not define the regime shift by themselves. See [POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
 
 **WP0 — Source custody and freeze.** Freeze P1–P7, hashes/versions and access dates. Maintain rolling-source successors separately.
 
-**WP1 — Historical reconstruction.** Build the event timeline and HF-T01…HF-T08 from source-supported facts. No M/I/P labels and no EA classification. Unknowns stay NOT_ESTABLISHED.
+**WP1A — Historical event reconstruction.** Build the technical/behavioral event timeline from source-supported facts. No M/I/P labels and no EA classification. Unknowns stay NOT_ESTABLISHED.
 
-**WP2 — Cross-source reconciliation without forced harmonization.** Create a source-by-source event matrix. Preserve unresolved differences such as the Modal/CyberGym RCE timing rather than selecting a preferred clock without evidence.
+**WP1B — Population reconstruction.** Reconstruct the source-native population/workstream distribution over time: active population, board adoption, workstream allocation, HF participation, assignment/delegation structure, independent reproduction, exit/termination and technical-action intensity. Separate agent-share, message-share and action-share denominators.
 
-**WP3 — Independent factual review.** A reviewer who did not construct the packets checks source fidelity, event order, actor identity, evidence available to the receiver and prohibited inferences. This review uses no EA/R01 labels.
+**WP1C — Population A/B/C/D qualification.** Record A_pop (population assessment), B_pop (population/period/taxonomy/coverage/evaluator/identifiability basis), C_pop (grounded uncharacterized population frontier) and D_pop (material effect outside effective population evaluation). UNKNOWN remains distinct from D.
 
-**WP4 — Freeze the historical Challenge.** Once the factual layer is sufficiently stable, freeze the task/authority/evidence/action/effect boundaries to be used by Gate A.
+**WP1D — Micro-trace anchors.** Build HF-T01…HF-T08 to explain specific local transitions that may help interpret a population change. These packets do not by themselves constitute context shifts.
 
-**WP5 — Optional structural mapping to corpus cases.** Only here map selected historical trajectories to 00G, R01, A25 or another case family. Record the strongest relation actually supported: isomorphic/reversible kernel, parameterized correspondence, one-way projection, analogy or NOT_ESTABLISHED. Failure of an R01 mapping does not invalidate the historical Challenge.
+**WP2 — Cross-source reconciliation without forced harmonization.** Create a source-by-source event and population matrix. Preserve unresolved differences such as Modal/CyberGym RCE timing and different population denominators rather than selecting a preferred value without evidence.
 
-**WP6 — Additional-mechanism/composition register.** Model board dissemination, apparent peer authority, veto/HOLD, delegation, independent reproduction, evidence tampering and human escalation where they materially change the receiver's information, authority, transitions, cost or latency.
+**WP3 — Independent factual review.** A reviewer who did not construct the material checks source fidelity, population denominators, temporal order, actor identity, receiver-visible evidence and prohibited inferences. This review uses no EA/R01 labels.
 
-**WP7 — Candidate specification and comparator freeze.** Pre-register candidate EA obligations, strong conventional controls, ablations and positive authorized-collaboration/legitimate-transition controls. All candidates receive the same legitimate historical information boundary.
+**WP4 — Population context/change-point assessment.** Test candidate CP0–CP6 boundaries. Determine whether the public evidence supports a material change in active-route/workstream distribution and/or route-transition structure under adequately qualified B_pop. A single bad action or scope-recognition episode is insufficient.
 
-**WP8 — Matched M/I/P/Ø controls only where useful.** Construct prospective control branches around the frozen historical boundary. These are experimental controls, never claims that historical agents actually possessed M or I.
+**WP5 — Freeze the historical Challenge.** Freeze the population decision regime, relevant change points, task/authority/evidence/action/effect boundaries and evidence ceiling to be used by Gate A.
 
-**WP9 — Blind retrospective adjudication.** Give independent evaluators only the evidence available at the historical decision boundary plus the registered specification/control. Seal dispositions before revealing evaluator-private classification.
+**WP6 — Optional structural mapping to corpus cases.** Only here map historical route families to 00G, R01, A25 or another case family. Later map source-native route families to M/I/P/Ø only where task/authority/admissibility evidence supports it. Failure of an R01 mapping does not invalidate the historical Challenge.
 
-**WP10 — Cost–Risk–Effectiveness and differential analysis.** Score only observable or prospectively assigned quantities. Historical unknowns remain unscored. Conventional equivalence/superiority is a valid result.
+**WP7 — Additional-mechanism/composition register.** Model communication topology, delegation, capability dissemination, apparent authority, veto/HOLD, independent reproduction, population effects, evidence tampering and human escalation where they materially change information, authority, route availability, cost or latency.
 
-**WP11 — Third-party replication package.** Publish/freeze source manifest, Challenge, event register, trace packets, private/public maps, comparator contract, acceptance/falsification policy and sealed adjudication results.
+**WP8 — Candidate specification and comparator freeze.** Pre-register candidate EA/Population/RA obligations, strong conventional controls, ablations and positive authorized-collaboration/legitimate-transition controls. All candidates receive the same legitimate historical information boundary.
+
+**WP9 — Matched M/I/P/Ø controls only where useful.** Construct prospective controls around the frozen population/historical boundary. These are experimental controls, never claims that historical agents actually possessed M or I.
+
+**WP10 — Blind retrospective/population adjudication.** Give independent evaluators only the evidence available within the declared historical window plus the registered population/specification inputs. Seal change-point/qualification findings before revealing evaluator-private classification.
+
+**WP11 — Cost–Risk–Effectiveness and differential analysis.** Score only observable or prospectively assigned quantities. Historical unknowns remain unscored. Conventional equivalence/superiority is a valid result.
+
+**WP12 — Third-party replication package.** Publish/freeze source manifest, population series, change-point register, Challenge, event register, trace packets, private/public maps, comparator contract, acceptance/falsification policy and sealed adjudication results.
 
 ---
 
@@ -180,12 +188,16 @@ The historical incident is reconstructed **before** R01 mapping. R01 is not the 
 - machine-readable evidence register v0.1;
 - first four trace packets;
 - first conflict register;
-- first technology-independent Challenge formulation.
+- first technology-independent Challenge formulation;
+- population-first A/B/C/D context-shift model;
+- CP0–CP6 population change-point candidates added to the machine-readable register.
 
 **Still required before first result-producing run**
 - byte-freeze OpenAI and METR PDFs/pages;
 - produce source manifest;
 - finish event-deduplication matrix;
+- complete the source-bounded population time series and denominators;
+- independently review CP0–CP6 population change points;
 - second-reader factual review;
 - evaluator-private packet maps;
 - freeze historical Challenge v0.1;
