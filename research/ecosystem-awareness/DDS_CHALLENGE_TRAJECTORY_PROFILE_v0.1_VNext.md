@@ -990,3 +990,241 @@ The widely referenced Gate-A path was not renamed or moved. Historical/frozen re
 ### Boundary of this phase
 
 This phase does **not** yet modify the current technology profiles, DBC/00D routers, R01/HEW classifications, Stage-0 labels, Oracle source, WORKPLAN or VISUAL_GUIDE. Those changes belong to the second phase requested by Iván: corpus-wide taxonomy and surgical references to full or Simplified DDS Gate A/B/C.
+
+
+---
+
+## 7 October 2026 — post-split VNext disposition and active DDS change plan
+
+**Purpose of this section.** After the owner-authorized split of DDS into a canonical method index plus Gate A/B/C sources, this VNext is no longer a queue in which every historical proposal should be copied into one monolithic DDS file. It is now a **decision ledger for the former all-in-one Gate-A source and for the split migration**. The active plan below separates already-incorporated material from the few remaining DDS-level changes.
+
+### 1. Assessment of the VNext as it stands
+
+The VNext contains four different kinds of material that must no longer be treated as one pending change set:
+
+1. **historical before/after pairs already incorporated** — useful provenance only;
+2. **scientific/method clarifications already present in current Gate A** — no further action;
+3. **three-gate split material already applied** — supersedes the former single-document authority model;
+4. **corpus taxonomy/router changes not yet applied** — separate second phase, outside this first DDS-only consolidation.
+
+The VNext is therefore valuable as an audit/decision record but should **not** be promoted wholesale into any canonical source.
+
+### 2. Already incorporated — keep as history, do not reapply
+
+The following VNext blocks are confirmed present in the current Gate-A source and require no new canonical edit:
+
+| VNext block | Current disposition |
+|---|---|
+| canonical-boundary clarification / meaning of canonical | **INCORPORATED**, later refined by the Gate-A split |
+| reduced coverage and delivery clarification 0.1.2 | **INCORPORATED** in Gate A §10B |
+| extension/isomorphism + non-isomorphic mechanism stages 0.1.3 | **INCORPORATED** in Gate A chain, coverage, §13.1 and citation |
+| HEW / executed-companion evidence parity | **INCORPORATED** in Gate A §14/14.1 |
+| proportionality clarification 0.1.4 | **INCORPORATED** in Gate A §10B |
+| material-assumption check | **INCORPORATED** in Gate A §10B |
+| bibliography / documentary benchmarking route | **INCORPORATED** in Gate A source relationships |
+| current scoped DDS study completion route | **INCORPORATED** in Gate A evidence/navigation |
+| Type-0/1/2 and M-admission refinements | **INCORPORATED** in the current Gate-A route/outcome material |
+| owner-authorized three-gate split | **INCORPORATED** through the canonical index + Gate A/B/C sources |
+
+These blocks remain in VNext as provenance. Their old “before” text must not be reused against the current source.
+
+### 3. Superseded — do not pass to a canonical V
+
+The following VNext ideas were valid at their time but are now superseded by the three-gate split:
+
+- “single canonical DDS technical profile” meaning one long file;
+- “canonical DDS chain” as if Gate A were the whole DDS method;
+- any proposal that inserts Gate B and Gate C as subsections inside the long Gate-A document;
+- any method-wide A/B/C taxonomy table embedded inside Gate A as the permanent authority;
+- any wording that treats the old Gate-A VNext as the sole VNext for all future DDS Gates.
+
+These remain historical evidence of the transition and should not be deleted.
+
+### 4. Active DDS-only change plan
+
+The remaining canonical work should be divided by document authority.
+
+#### PLAN-DDS-01 — strengthen the canonical method index with the common rules
+
+**Owner:** DDS_CANONICAL_METHOD_INDEX_v0.1.md  
+**Priority:** high  
+**Reason:** after the split, some rules that apply equally to A/B/C still live only in Gate A because of historical inheritance.
+
+Move or summarize in the index, without duplicating Gate-specific technical detail:
+
+- conservation / no retroactive evidence upgrade;
+- proportionality;
+- material-assumption rule;
+- technical coverage versus delivery completion;
+- common meaning of Simplified DDS Gate A/B/C;
+- evidence-mode versus gate-identity orthogonality;
+- common successor/versioning rule;
+- common requirement to retain NOT_ESTABLISHED / negative evidence;
+- common profile identity fields.
+
+**Before — current index concept**
+
+~~~~text
+One method, three gates
+Evidence mode is orthogonal
+Full and Simplified profiles
+Support artefacts
+Namespace
+Claim propagation
+Navigation
+~~~~
+
+**After — proposed common-method index**
+
+~~~~text
+One method, three gates
+Common conservation and evidence-boundary rules
+Evidence mode is orthogonal to Gate
+Full and Simplified gate profiles
+Proportionality and material-assumption rule
+Coverage vs delivery completion
+Support artefacts
+Namespace
+Claim propagation / successor rules
+Common minimum profile identity
+Navigation
+~~~~
+
+The index must stay concise. Detailed C/R/E, route, architecture and execution semantics remain in the Gate documents.
+
+#### PLAN-DDS-02 — make Gate A purely Gate A
+
+**Owner:** DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md  
+**Priority:** high  
+**Reason:** the file has been surgically re-identified as Gate A, but it still carries a few inherited cross-method responsibilities.
+
+Changes:
+
+1. keep Challenge, reduction, technology mapping, Stage1/Stage2 extension analysis, I/M/P/Ø, trajectory gates, C/R/E, acceptance, Gate-A differential and current Gate-A examples;
+2. replace generic “DDS implementation profile” language with “DDS Gate-A profile” where the text clearly refers to this document's object;
+3. keep the current coverage table as Gate-A coverage;
+4. keep HEW/R01/technology-extension material here because it is Gate-A scientific content;
+5. move the **cross-gate/current-corpus registry role** out of §11 and into the canonical index during the taxonomy phase;
+6. leave in §11 only Gate-A examples or a temporary migration pointer until the corpus taxonomy is applied;
+7. retain links to Gate B/C rather than duplicating their contracts.
+
+**Do not move:** Gate-A mathematics, Type diagnostics, R01 Stage1/Stage2 mapping, Cost/Risk/Effectiveness, or Gate-A blind reference rules.
+
+#### PLAN-DDS-03 — finalize Gate B as an autonomous canonical contract
+
+**Owner:** DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md  
+**Priority:** high  
+**Current quality:** good first canonical version; conceptually coherent.
+
+Add only the common index-linked items that are still useful:
+
+- explicit common-profile identity block;
+- conservation/no-retroactive-promotion reference to the index;
+- proportionality rule for a bounded architecture subset;
+- coverage-vs-delivery distinction;
+- optional C/R/E note only where architecture-verification burden is intentionally scored, without importing Gate-A outcome semantics;
+- explicit requirement that a Simplified Gate B list the unverified Gate-A requirements;
+- Gate-B successor/version rule;
+- direct pointer to the Oracle VNext implementation plan and 00I/S5 pilot.
+
+Do **not** import the Gate-A I/M/P/Ø machinery as mandatory Gate-B semantics.
+
+#### PLAN-DDS-04 — finalize Gate C as an autonomous canonical contract
+
+**Owner:** DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md  
+**Priority:** high  
+**Current quality:** good first canonical version; already reuses C11/T03 instead of inventing another execution framework.
+
+Add:
+
+- common profile identity/conservation reference to the index;
+- proportionality/material-assumption rule for bounded real implementation campaigns;
+- coverage-vs-delivery distinction;
+- explicit requirement that Gate-C results identify whether Gate-B lineage is applicable, unavailable or intentionally not claimed;
+- successor/version rule for implementation/configuration changes;
+- clearer distinction between representative sandbox effect and live deployment effect;
+- common no-retroactive-promotion rule.
+
+Do **not** make real production deployment mandatory for every Gate C; bounded executable validation can remain sandbox/representative if the evidence ceiling is explicit.
+
+#### PLAN-DDS-05 — relocate the current profile mapping authority
+
+**Current owner:** Gate A §11  
+**Future owner:** canonical method index  
+**Priority:** medium/high, but execute together with the corpus taxonomy phase.
+
+The existing Gate-A §11 table was written before the A/B/C split. It currently mixes:
+
+- Gate-A studies;
+- DBC/00D support;
+- components;
+- evidence states.
+
+It should not remain the permanent cross-gate authority.
+
+**Temporary state:** retain it with the migration warning already inserted.
+
+**Final state after corpus taxonomy:**
+
+- canonical index contains the authoritative **Current DDS profile / support registry** with Gate A/B/C/support/infrastructure classification;
+- Gate A keeps only Gate-A examples and links to the registry;
+- Gate B and Gate C link to the same registry.
+
+#### PLAN-DDS-06 — separate method VNext ownership prospectively
+
+The old VNext path remains the historical/owning VNext for Gate A and the split decision history.
+
+Prospectively:
+
+- changes to the **method index** should be reviewed in a dedicated index VNext;
+- changes to **Gate B** should use a dedicated Gate-B VNext;
+- changes to **Gate C** should use a dedicated Gate-C VNext;
+- this Gate-A VNext should no longer accumulate every future method-wide change.
+
+No new VNext file is required merely to preserve the split history, but before the next substantive modification to Index/B/C, create their own owning review files rather than extending this 68k-line ledger indefinitely.
+
+### 5. Material that belongs to phase 2, not to this DDS-only consolidation
+
+Do not apply from this VNext yet:
+
+- product-profile headers (Simplified DDS Gate A);
+- DBC router wording;
+- 00D router wording;
+- R01/HEW classification labels;
+- 00L / RS-00E-Q1a classification;
+- extension-study taxonomy;
+- Oracle README / gate-policy namespace edits;
+- WORKPLAN/VISUAL_GUIDE taxonomy.
+
+Those are the **second phase: corpus-wide taxonomy and surgical references**, after the four canonical DDS documents are internally stable.
+
+### 6. Recommended order of canonical incorporation
+
+1. **Index common rules** — PLAN-DDS-01.
+2. **Gate A cleanup** — PLAN-DDS-02.
+3. **Gate B common-contract completion** — PLAN-DDS-03.
+4. **Gate C common-contract completion** — PLAN-DDS-04.
+5. Read all four together and verify no rule has two owners.
+6. Only then execute PLAN-DDS-05 together with corpus taxonomy.
+7. Create prospective Index/B/C VNext ownership before their next substantive revision.
+
+### 7. Acceptance checks for the DDS-only consolidation
+
+The DDS canonical set is internally stable when:
+
+1. the index is the only source that defines **one method / three gates**;
+2. Gate A does not present itself as the whole DDS method;
+3. Gate B's authoritative reference is always a frozen Gate-A specification package;
+4. Gate C's authoritative reference is the Challenge plus observed implementation effects;
+5. evidence mode is never used to infer Gate identity;
+6. “Simplified” has the same coverage meaning in A/B/C;
+7. proportionality, conservation and evidence-upgrade rules have one common owner;
+8. trajectory gates, gate policy, Stage-0/Stage-1 and C02/C11/T03 remain namespace-safe;
+9. no frozen result or hash changes merely because the method was split;
+10. every Gate has a compact minimum citation/profile block.
+
+### 8. Recommendation
+
+Do **not** copy the old VNext body into the new canonical DDS set.
+
+Promote only the active common rules above. Keep the rest as a historical decision ledger. After this consolidation, the next task is the corpus taxonomy migration already planned: classify current active profiles as full/Simplified DDS Gate A/B/C or support/infrastructure, without rewriting frozen evidence.
