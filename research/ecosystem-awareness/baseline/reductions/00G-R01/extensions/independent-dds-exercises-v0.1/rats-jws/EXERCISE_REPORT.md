@@ -2,7 +2,7 @@
 
 Document version0.1 ·6 October2026 ·Codex, same fixture author.
 
-There is **one canonical DDS technical profile**: [DDS Challenge–Trajectory](../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). This is a technology-specific implementation instance with declared coverage, not another canonical DDS method. Its binary fixture assertions do not establish deployment/population acceptance. I/M/P/incomplete meanings are those declared in the Run Card; no representative sampling or success probability is inferred.
+The current method entry point is the [DDS Canonical Method Index](../../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md). This report is incorporated as a **Simplified DDS Gate-A** technology-specific implementation instance under the [Gate-A challenge–trajectory contract](../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), not another DDS method. Its frozen Run Card retains the pre-split DDS identity used at execution time. Its binary fixture assertions do not establish Gate-B architecture verification, Gate-C deployment/population acceptance, representative sampling or a success probability.
 
 [Run Card](./RUN_CARD.json) · [frozen source/data](./FREEZE.json) · [actual result](./runs/2026-10-06-01/RESULTS.json). Cryptography50.0.1 is the pinned installed dependency. R01 mathematical0.1/virtual0.3 and the prior HEW runs remain unchanged. No source-native theorem is inherited by these different laws.
 
