@@ -2,6 +2,9 @@
 
 Version0.2 ·6 October2026 · completed within declared local/analytical scope.
 
+> **DDS classification — 7 October 2026.** This is a **Simplified DDS Gate-A — Specification Discovery** study under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md). Executed local code/fixtures strengthen its evidence mode but do not make it Gate-B architecture verification or Gate-C native/product validation. Frozen Run Cards, FREEZE files and RESULTS retain their original execution-time identity and are not rewritten by this classification.
+
+
 ## Executive finding and decision question
 
 The local pipeline can return a sufficient current authorized structured fact or an explicitly admitted deferment. It cannot establish source truth merely from source metadata, and it says nothing yet about generative-answer performance. A retained false-source P shows the boundary.
