@@ -6,6 +6,8 @@
 
 These packets are the first bounded historical units selected for a real incident-derived DDS Gate-A campaign. They are intentionally smaller than the full incident. They freeze what is known, what the receiver plausibly had available, what remains unknown, and which inference must not be made.
 
+> **Role correction — population first.** These packets are **micro-evidence anchors**, not the primary context-shift object. An individual GO, VETO, scope doubt or action is not itself a regime/context change. The population layer above these packets must establish whether decision conditions and the distribution/transition structure of active routes changed materially. See [POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
+
 ---
 
 ## Packet HF-T01 — Task impasse → discovery of collective communication
