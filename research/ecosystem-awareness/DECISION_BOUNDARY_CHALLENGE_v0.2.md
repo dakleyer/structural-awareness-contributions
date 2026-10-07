@@ -1,5 +1,7 @@
 # Decision Boundary Challenge (Not a ranking) — Applied Agentic Validation Protocol
 
+> **DDS incorporation note — 7 October 2026.** DBC v0.2 retains its original Challenge families, dispositions, evidence vocabulary and working-status boundaries. Under the current [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md), DBC is a **cross-gate DDS support module**, not a second testing method: its material may supply Gate-A Challenge/specification-discovery cases, Gate-B architecture controls or Gate-C implementation adjudication according to the registered object under test. Its v0.1/v0.2 numbering is DBC lineage, not a DDS method/Gate version, and this incorporation does not create an executed comparative result.
+
 > **Applied validation design — working v0.2.** This document defines a cross-platform research challenge for reviewing what happens when an agent reaches the boundary between what it can do, what is sufficiently established, what is admissible, what is authorized and what is finally executed. It is an additive applied-research route hosted by the Ecosystem Awareness corpus. It is **not** part of the frozen/canonical EA baseline, not a replacement for the 00D benchmark, not an adopted standard, not a completed pilot and not a vendor ranking.
 
 | | |
@@ -50,7 +52,7 @@ The main EA benchmark asks whether the architecture adds measurable value agains
 - admit an online/sandbox EP-sidecar experiment only if the offline signal justifies it;
 - create a repeatable applied-evidence route that can be used across heterogeneous agent platforms.
 
-This route therefore runs **in parallel** with the W2 Benchmark-vNext programme. It may reuse C9, C12, Type 0/1/2, EHD and other corpus semantics, but it does not inherit a comparative-success claim from them.
+Within the current DDS method, DBC and the 00D Benchmark-vNext work are complementary support artefacts rather than parallel methods: DBC supplies boundary Challenge/adjudication material and 00D supplies comparator/fairness discipline. A concrete DDS profile may reuse C9, C12, Type 0/1/2, EHD and other corpus semantics, but it does not inherit a comparative-success claim from them.
 
 ---
 
