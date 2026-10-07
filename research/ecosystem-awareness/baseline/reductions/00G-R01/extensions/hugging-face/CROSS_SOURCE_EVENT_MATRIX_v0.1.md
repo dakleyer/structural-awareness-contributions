@@ -27,7 +27,7 @@ The purpose is not to produce one “clean” story by averaging sources. The pu
 
 ## Matrix
 
-| ID | Event | OpenAI evidence | METR evidence | Hugging Face evidence | Reconciliation status | Gate-A use |
+| ID | Event | OpenAI evidence | METR evidence | Hugging Face evidence | Reconciliation status | Stage-A use |
 |---|---|---|---|---|---|---|
 | XEV-01 | Emergent communication before July rebuild | May 12 first message-board post; May 13 notes become emergent board; May 26 internet access partly reused shared knowledge | Earlier May training activity outside core METR scope | not applicable | **OAI-only precursor** | proves communication pattern predates July; not a July receiver trace |
 | XEV-02 | Post-rebuild external reach | 8 Jul 00:06 confirmed external internet access after rebuild | describes agents using Artifactory to reach internet during core period | HF starts later from external launchpad logs | **corroborated context, different observation points** | environment boundary |
@@ -116,9 +116,9 @@ METR's immediate 38148c anecdote describes two working credentials; OpenAI repor
 
 ---
 
-## Consequence for Gate-A design
+## Consequence for Stage-A design
 
-The first real Gate-A challenge should **not** ask a single question such as “would EA have stopped the Hugging Face attack?”
+The first real Stage-A challenge should **not** ask a single question such as “would EA have stopped the Hugging Face attack?”
 
 It should ask bounded questions at the historical joins we can actually support:
 
