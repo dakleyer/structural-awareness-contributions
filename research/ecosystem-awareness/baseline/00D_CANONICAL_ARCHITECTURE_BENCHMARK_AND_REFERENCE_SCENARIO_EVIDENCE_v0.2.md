@@ -1,5 +1,7 @@
 # Canonical Architecture Benchmark and Reference-Scenario Evidence — Ecosystem Awareness
 
+> **DDS incorporation note — 7 October 2026.** 00D v0.2 remains the canonical benchmark/comparator source for its own EA-H1–EA-H4 scope and retains its original version, evidence grades, B0–B3 fairness contract and claim boundary. Under the current [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), 00D is **DDS comparator/fairness support**, primarily reusable by Gate A specification comparisons and Gate C matched implementation comparisons, and as control material where Gate B requires it. It is not a second corpus testing method. This classification does not convert pending comparative execution into completed evidence or change the separate v0.3 adoption status.
+
 | | |
 |---|---|
 | **ID** | 00D |
