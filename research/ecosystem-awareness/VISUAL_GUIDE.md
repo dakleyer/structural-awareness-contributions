@@ -141,8 +141,8 @@ flowchart LR
 | A01 test/oracle construction | **Designed** |
 | A03 Q1a harness design | **Designed** |
 | RS-00E-Q1a pre-registration | **Published** |
-| Stage-0 descriptive execution | **Pending** |
-| Observable B0–B3 comparative execution | **Pending** |
+| Stage-0 descriptive execution | **Published for RS-00E-Q1a only** — historical Simplified DDS Gate-A deterministic evidence; corrected replay tracked separately |
+| Observable B0–B3 comparative execution | **Pending** — no independent comparative EA/product result |
 | Independent validation / replication | **Pending** |
 
 **Coverage warning:** A01/A03 are selected fixture work, not an exhaustive testbed for all S1–S14 or all later positioning layers.
