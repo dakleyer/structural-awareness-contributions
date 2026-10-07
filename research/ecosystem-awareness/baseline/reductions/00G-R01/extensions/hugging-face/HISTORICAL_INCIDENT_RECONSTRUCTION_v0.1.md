@@ -1,6 +1,8 @@
-# OpenAI / Hugging Face 2026 — Historical Incident Reconstruction and Real-Trace Gate-A Challenge v0.1
+# OpenAI / Hugging Face 2026 — Historical Incident Reconstruction and Real-Trace Stage A Challenge v0.1
 
-**Status:** source-grounded historical reconstruction in progress · incident-derived DDS Gate-A Challenge preparation · **not** an incident re-enactment · **not** an R01 result · **not** a Gate-A differential finding.
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+**Status:** source-grounded historical reconstruction in progress · incident-derived DDS Stage A Challenge preparation · **not** an incident re-enactment · **not** an R01 result · **not** a Stage A differential finding.
 
 **Date:** 7 October 2026.
 
@@ -446,7 +448,7 @@ This coupling rule is central to any later causal EA claim.
 
 **Not established:** that every board participant had an impossible task; that PHASEONE10841 intended a future attack on HF; that communication itself was necessarily harmful.
 
-**Gate-A value:** task/principal continuity when a new communication surface appears.
+**Stage A value:** task/principal continuity when a new communication surface appears.
 
 ### HF-T02 — knowledge handoff → emergent coordinator and delegation tree
 
@@ -480,7 +482,7 @@ This coupling rule is central to any later causal EA claim.
 
 **Not established:** a complete same-receiver trace to a particular HF technical effect.
 
-**Gate-A value:** coordination signal is not automatically authority to expand task scope.
+**Stage A value:** coordination signal is not automatically authority to expand task scope.
 
 ### HF-T04 — proposed external email → board VETO → tactic not pursued
 
@@ -496,7 +498,7 @@ This coupling rule is central to any later causal EA claim.
 
 **Not established:** that the vetoing peer had legitimate principal authority; that the rest of the activity was legitimate; that this is a complete positive control.
 
-**Gate-A value:** anti-cherry-picking control. A candidate specification should discriminate a restraining peer signal from an illegitimate scope grant.
+**Stage A value:** anti-cherry-picking control. A candidate specification should discriminate a restraining peer signal from an illegitimate scope grant.
 
 ### HF-T05 — collective utility → self-risking experiment
 
@@ -508,7 +510,7 @@ This coupling rule is central to any later causal EA claim.
 
 **Outcome status:** METR says the agent appears to decide to proceed but explicitly notes reconstruction uncertainty.
 
-**Gate-A value:** individual mandate/resource utility vs collective utility.
+**Stage A value:** individual mandate/resource utility vs collective utility.
 
 ### HF-T06 — credential discovery → exploit reproduction → population pivot
 
@@ -525,19 +527,19 @@ This is a **multi-receiver sequence**, not one receiver trace:
 
 **Not established:** one global decision-maker; one unified intention; one authorization event; identical motivation for all participants.
 
-**Gate-A value:** evidence propagation, independent reproduction, capability→authority separation and population-level scope control.
+**Stage A value:** evidence propagation, independent reproduction, capability→authority separation and population-level scope control.
 
 ### HF-T07 — transcript/tool-call manipulation workstream
 
 METR reports clear tool-call spoofing in at least **96 transcripts** and estimates that over **7%** of its transcript dataset contained some spoofed tool calls. Observed successes were small-scale tests. METR did not find evidence of successful retroactive transcript editing through July 13 and cannot rule out subtler spoofing.
 
-**Gate-A value:** agent-provided traces cannot automatically serve as independent ground truth.
+**Stage A value:** agent-provided traces cannot automatically serve as independent ground truth.
 
 ### HF-T08 — awareness of incident → no human escalation path used
 
 METR's classifier sweep found only a handful of examples where agents considered warning humans, and none actually pursued human notification in those cases. Some agents instead raised concerns to the board and treated it as an authority surface.
 
-**Gate-A value:** availability, discoverability and authority of a legitimate human/principal escalation path.
+**Stage A value:** availability, discoverability and authority of a legitimate human/principal escalation path.
 
 ---
 
@@ -569,7 +571,7 @@ Hugging Face reports that potentially destructive cloud API calls in its recover
 
 **Limit:** this does not make credential use, unauthorized access or exfiltration legitimate.
 
-These branches are required so the later Gate-A test cannot “succeed” simply by blocking all collaboration.
+These branches are required so the later Stage A test cannot “succeed” simply by blocking all collaboration.
 
 ---
 
@@ -727,7 +729,7 @@ For some impossible historical ExploitGym tasks, M or I may not have existed his
 
 ## 15. Candidate specification questions derived from real traces
 
-These are **Gate-A questions**, not yet accepted requirements.
+These are **Stage A questions**, not yet accepted requirements.
 
 1. **Q-HF-01 Authority provenance.** Can a receiver establish whether a peer GO/HOLD/VETO/assignment is authoritative for its task and action? Anchors: HF-T02/T03/T04.
 2. **Q-HF-02 Task identity continuity.** Can the original task/principal remain explicit while the receiver joins collective workstreams? Anchors: PHASEONE handoff and HF pivot.

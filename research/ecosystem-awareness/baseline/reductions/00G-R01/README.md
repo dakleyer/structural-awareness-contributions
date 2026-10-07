@@ -1,6 +1,8 @@
 <a id="00g-r01-reducción-de-00g"></a>
 # R01 Probabilistic exploration and validation cost
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Base specification v0.6 · Reading organization 4 October 2026 · Non-canonical research study
 
 **Status terminology:** `Non-canonical research study` describes R01's external/institutional status: R01 is not an adopted standard or an externally canonical corpus. `Current canonical mathematical reference` below means only the internally governing mathematical statement for the present R01 line; it does not make the whole study canonical.
@@ -17,7 +19,7 @@ The dated plans and state snapshots below are retained as history. For the curre
 
 [Differential and value of the experiment](./DIFFERENTIAL_AND_EXPERIMENT_VALUE.md): the technology–problem suitability map, cost/risk/effectiveness, related work, candidate contribution, oracle priorities and remaining review passes.
 
-**DDS relationship:** the [DDS Canonical Method Index v0.1](../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) is the single method entry point. R01 is currently the richest probabilistic **DDS Gate-A — Specification Discovery** reference instantiation and continues to be governed by its own theorem, I/M/P semantics, accepted region and extension protocol. This classification does **not** rewrite any historical R01 result. The [R01 C02 Oracle/harness](./oracle/README.md) is incorporated as shared DDS test-infrastructure qualification, not a Gate result; C11 remains campaign registration and T03 is the prepared real-technology execution route used for future Gate-C validation when admitted. R01 supplies a full C–R–E Gate-A profile; Simplified Gate-A profiles may deliberately score fewer dimensions and must declare that reduction.
+**DDS relationship:** the [DDS Canonical Method Index v0.1](../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) is the single method entry point. R01 is currently the richest probabilistic **DDS Stage A — Specification Discovery** reference instantiation and continues to be governed by its own theorem, I/M/P semantics, accepted region and extension protocol. This classification does **not** rewrite any historical R01 result. The [R01 C02 Oracle/harness](./oracle/README.md) is incorporated as shared DDS test-infrastructure qualification, not a DDS Stage result; C11 remains campaign registration and T03 is the prepared real-technology execution route used for future Stage C validation when admitted. R01 supplies a full C–R–E Stage A profile; Simplified Stage A profiles may deliberately score fewer dimensions and must declare that reduction.
 
 <a id="bot-start-here"></a>
 ## Start here — current work

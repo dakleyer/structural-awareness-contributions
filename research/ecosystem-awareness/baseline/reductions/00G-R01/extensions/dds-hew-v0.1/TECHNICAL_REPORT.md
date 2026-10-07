@@ -1,5 +1,7 @@
 # Human escalation and whispering — first DDS technical research record
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Study edition0.1 · 6 October2026 · DDS-HEW-RESEARCH-20261006.
 Evidence: exact analytical reconstruction and a frozen deterministic SQLite model self-test. This is an owner-authorized canonical research example, not a commissioned client DDS, native product test, human-performance study or assurance opinion.
 
@@ -119,4 +121,4 @@ Native identity/attestation/STS, actual humans, genuine producer tariffs, protec
 
 ## Common DDS profile coverage
 
-This is a partial executed **DDS Gate-A** implementation under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and [Gate-A challenge–trajectory profile](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), with [explicit coverage and route crosswalk](./DDS_PROFILE_COVERAGE.json). For the selected local outcomes, sufficient legitimate delivery maps to I, incorrect effect to P, and non-delivery to the incomplete region. Market/reference M is not evaluated. This additive reporting interpretation was prepared after run04; it does not rescore original results, establish Gate-B architecture verification or create a Gate-C population/deployment success/risk estimate. A current trace can pass its instrument assertion while its scenario remains undelivered; full deployment acceptance remains not established.
+This is a partial executed **DDS Stage A** implementation under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and [Stage A challenge–trajectory profile](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), with [explicit coverage and route crosswalk](./DDS_PROFILE_COVERAGE.json). For the selected local outcomes, sufficient legitimate delivery maps to I, incorrect effect to P, and non-delivery to the incomplete region. Market/reference M is not evaluated. This additive reporting interpretation was prepared after run04; it does not rescore original results, establish Stage B architecture verification or create a Stage C population/deployment success/risk estimate. A current trace can pass its instrument assertion while its scenario remains undelivered; full deployment acceptance remains not established.

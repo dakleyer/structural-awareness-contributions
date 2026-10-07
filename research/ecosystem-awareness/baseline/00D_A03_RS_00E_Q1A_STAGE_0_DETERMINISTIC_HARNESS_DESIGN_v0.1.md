@@ -1,6 +1,8 @@
 # RS-00E-Q1a Stage-0 Deterministic Harness Design
 
-> **DDS incorporation note — 7 October 2026.** This 19 September design is preserved as the historical harness design for RS-00E-Q1a. In the current [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), it is **DDS test-infrastructure design supporting a bounded Simplified Gate-A fixture**, not a parallel method, not Gate B and not Gate C. Its `v0.1` is the version of this design document; the later RS pre-registration/execution and audit-replay versions belong to their own artefacts. This note changes navigation/classification only and does not alter the original design claim.
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+> **DDS incorporation note — 7 October 2026.** This 19 September design is preserved as the historical harness design for RS-00E-Q1a. In the current [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), it is **DDS test-infrastructure design supporting a bounded Simplified Stage A fixture**, not a parallel method, not Stage B and not Stage C. Its `v0.1` is the version of this design document; the later RS pre-registration/execution and audit-replay versions belong to their own artefacts. This note changes navigation/classification only and does not alter the original design claim.
 
 | | |
 |---|---|

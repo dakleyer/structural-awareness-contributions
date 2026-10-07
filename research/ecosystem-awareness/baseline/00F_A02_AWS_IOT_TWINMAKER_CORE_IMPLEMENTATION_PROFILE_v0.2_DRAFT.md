@@ -1,5 +1,7 @@
 # Annex 00F-A02 — AWS IoT TwinMaker / IoT Core implementation profile for the smart-city mobility quality plan
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 | | |
 |---|---|
 | **ID** | 00F-A02 |
@@ -13,7 +15,7 @@
 | **External-corroboration route** | [00F §9A external corroboration](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) · reviewed 2026-09-24 · technology-agnostic neighboring evidence only; not evidence of failure by this product |
 | **Predecessor** | [v0.1 — preserved public profile](./00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.1.md) |
 
-> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Gate-A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Gate-B architecture verification or Gate-C native product validation.
+> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Stage A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Stage A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Stage B architecture verification or Stage C native product validation.
 
 > **Product-implementation successor draft; original product analysis 17 September 2026, quality-plan synchronization and external-corroboration routing reviewed 24 September 2026.** This annex applies the frozen [00F smart-city mobility case and Q0–Q5 quality plan](./00F_FAILURE_MODE_SMART_CITY_MOBILITY_SYSTEMIC_DIVERGENCE_v0.2_DRAFT.md) to an AWS architecture using AWS IoT Core, AWS IoT TwinMaker, Amazon EventBridge and implementation-defined analytics/workflows. It compares a standard implementation, an excellent implementation and the excellent implementation after a gradual or initially unrecognised regime change. It is not a product benchmark, certification, endorsement or claim that AWS technology causes the failure.
 

@@ -1,5 +1,7 @@
 # Annex 00H-A02 — Stripe Radar implementation trajectories for Batch Opportunity Beyond Authority
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 | | |
 |---|---|
 | **ID** | 00H-A02 |
@@ -11,7 +13,7 @@
 | **Companion trajectory** | [00H-A01 — Claude Agent SDK v0.4 Draft](./00H_A01_CLAUDE_AGENT_SDK_IMPLEMENTATION_PROFILE_v0.4_DRAFT.md) |
 | **Predecessor** | [v0.3 Draft](./00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.3_DRAFT.md) · [v0.2 Draft](./00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) · [v0.1 Draft](./00H_A02_STRIPE_RADAR_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |
 
-> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Gate-A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Gate-B architecture verification or Gate-C native product validation.
+> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Stage A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Stage A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Stage B architecture verification or Stage C native product validation.
 
 > **Important scope correction.** Stripe Radar is a strong, mature payment-fraud/risk engine, but the reviewed Stripe documentation says Radar risk/rules evaluate **Charges, PaymentIntents and SetupIntents**. It does not establish Radar as an inline authorization engine for `POST /v1/refunds`. This profile therefore treats Radar as a **strong neighboring aggregate-risk peer**, not as if it natively guards every refund call.
 

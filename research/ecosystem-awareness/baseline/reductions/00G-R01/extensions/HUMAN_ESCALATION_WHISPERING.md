@@ -1,11 +1,13 @@
 # R01 — Human escalation and whispering, mechanism by mechanism
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Mathematical version 0.1 · Virtual traversals 0.3 · DDS research document addition 0.1 · 6 October 2026 · First deterministic model self-test; no native human/vendor integration.
 [Protocol technologies](./TECHNOLOGY_EXTENSION_PROTOCOL.md#technologies-to-study) · [Single base theorem](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 
 ## DDS profile status
 
-This study is a **rich DDS Gate-A — Specification Discovery profile over R01**, with virtual/analytical and finite-model evidence as stated; it is not a separate test method, Gate-B architecture verification or Gate-C native human/vendor validation. The complete method is routed by the [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), while the [Gate-A challenge–trajectory profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) governs this study's specification-discovery coverage. The R01 mathematics below remains source-native and unchanged.
+This study is a **rich DDS Stage A — Specification Discovery profile over R01**, with virtual/analytical and finite-model evidence as stated; it is not a separate test method, Stage B architecture verification or Stage C native human/vendor validation. The complete method is routed by the [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), while the [Stage A challenge–trajectory profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) governs this study's specification-discovery coverage. The R01 mathematics below remains source-native and unchanged.
 
 | DDS surface | Current Human Escalation / Whispering coverage |
 |---|---|

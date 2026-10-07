@@ -1,26 +1,28 @@
-# Deployment Differential Study (DDS) — Gate B: Architecture Verification v0.1
+# Deployment Differential Study (DDS) — Stage B: Architecture Verification v0.1
 
-**Status:** canonical working Gate-B profile inside the DDS method; no current claim that a production architecture has passed this gate.  
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+**Status:** canonical working Stage B profile inside the DDS method; no current claim that a production architecture has completed this stage.  
 **Date:** 7 October 2026.  
 **Canonical method index:** [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md)  
-**Upstream gate:** [DDS Gate A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)  
-**Downstream gate:** [DDS Gate C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
+**Upstream stage:** [DDS Stage A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)  
+**Downstream stage:** [DDS Stage C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md)
 
 ## 1. Purpose
 
-DDS Gate B answers a verification question:
+DDS Stage B answers a verification question:
 
-> **Does a declared architecture or reference realization actually implement the frozen specification selected or retained by DDS Gate A, within the registered architecture scope?**
+> **Does a declared architecture or reference realization actually implement the frozen specification selected or retained by DDS Stage A, within the registered architecture scope?**
 
-Gate B does not rediscover the specification and does not validate a product against the real/representative Challenge. Its authoritative reference is the **Gate-A specification package**.
+Stage B does not rediscover the specification and does not validate a product against the real/representative Challenge. Its authoritative reference is the **Stage A specification package**.
 
-Gate B reuses established verification, requirements-traceability, architecture-description, conformance-testing and formal-refinement practices where appropriate. DDS does not claim to invent verification. Its contribution is to preserve lineage from the Challenge-derived Gate-A result into a bounded architecture-verification package without promoting that verification into Gate-C empirical validation.
+Stage B reuses established verification, requirements-traceability, architecture-description, conformance-testing and formal-refinement practices where appropriate. DDS does not claim to invent verification. Its contribution is to preserve lineage from the Challenge-derived Stage A result into a bounded architecture-verification package without promoting that verification into Stage C empirical validation.
 
 ## 2. Entry condition
 
-A Gate-B profile must identify a frozen Gate-A package or an equivalent prospectively frozen specification package containing, at minimum:
+A Stage B profile must identify a frozen Stage A package or an equivalent prospectively frozen specification package containing, at minimum:
 
-- Challenge and Gate-A package identity/version/hash;
+- Challenge and Stage A package identity/version/hash;
 - selected requirement/specification identifiers;
 - scope and preconditions;
 - required behavior;
@@ -28,13 +30,13 @@ A Gate-B profile must identify a frozen Gate-A package or an equivalent prospect
 - positive/continuity controls;
 - falsifiers/boundary conditions;
 - material assumptions and exclusions;
-- Gate-A evidence mode and finding.
+- Stage A evidence mode and finding.
 
-If a pre-existing architecture is being evaluated, the Gate-A package may be constructed retrospectively from an already declared Challenge, but it must be frozen **before Gate-B result-producing adjudication**.
+If a pre-existing architecture is being evaluated, the Stage A package may be constructed retrospectively from an already declared Challenge, but it must be frozen **before Stage B result-producing adjudication**.
 
 ## 3. Object under test
 
-The Gate-B candidate is an **architecture package**, not merely prose and not necessarily a production product.
+The Stage B candidate is an **architecture package**, not merely prose and not necessarily a production product.
 
 A candidate package should contain, where material:
 
@@ -48,7 +50,7 @@ A candidate package should contain, where material:
    - operations and effect boundaries;
 
 2. **requirements verification matrix**
-   - Gate-A requirement identifier;
+   - Stage A requirement identifier;
    - architecture element(s) claimed to realize it;
    - verification method;
    - expected observable behavior;
@@ -64,21 +66,21 @@ A candidate package should contain, where material:
 5. **normalized trace/evidence projection**
    - only the common fields required by the admitted DDS/Oracle profile, retaining links to the native evidence.
 
-A Gate-B candidate may be a finite-state model, reference implementation, workflow model, architecture simulator, protocol adapter, deterministic harness or other bounded realization if that representation is adequate for the frozen verification claim.
+A Stage B candidate may be a finite-state model, reference implementation, workflow model, architecture simulator, protocol adapter, deterministic harness or other bounded realization if that representation is adequate for the frozen verification claim.
 
 ## 4. Authoritative reference
 
-The Gate-B oracle/reference is:
+The Stage B oracle/reference is:
 
 ~~~text
-frozen Gate-A specification package
+frozen Stage A specification package
 + requirement-to-architecture trace contract
 + specification-derived positive controls
 + boundary/rejection vectors
 + deliberately defective architecture mutations/counterexamples
 ~~~
 
-The originating Challenge may supply regression pressure and explanatory lineage, but Challenge/world truth must not silently replace the Gate-A specification as the Gate-B conformance reference.
+The originating Challenge may supply regression pressure and explanatory lineage, but Challenge/world truth must not silently replace the Stage A specification as the Stage B conformance reference.
 
 ## 5. Verification methods
 
@@ -94,9 +96,9 @@ One requirement may need more than one method. A method that does not establish 
 
 Related practices and sources are catalogued in the [DDS research basis](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06.md), including IEEE/NASA V&V distinctions, ISO/IEC/IEEE requirements/architecture work, TLA+ refinement and TTCN-3-style conformance execution.
 
-## 6. Gate-B oracle duties
+## 6. Stage B oracle duties
 
-For each mandatory selected requirement, Gate B asks:
+For each mandatory selected requirement, Stage B asks:
 
 1. Is the requirement mapped to an architecture element?
 2. Is the relevant source/semantic owner preserved rather than recreated locally?
@@ -111,7 +113,7 @@ For each mandatory selected requirement, Gate B asks:
 
 ## 7. Positive, boundary, rejection and mutation controls
 
-A credible Gate-B suite requires more than a happy path.
+A credible Stage B suite requires more than a happy path.
 
 At minimum, the profile should consider:
 
@@ -128,7 +130,7 @@ Mutation testing is especially important: if a verification suite also passes a 
 
 ## 8. Result semantics
 
-Gate B uses requirement-level results before any overall package result:
+Stage B uses requirement-level results before any overall package result:
 
 - **VERIFIED** — the declared method establishes the selected requirement within scope;
 - **PARTIALLY_VERIFIED** — only part of the requirement/scope is established;
@@ -137,11 +139,11 @@ Gate B uses requirement-level results before any overall package result:
 
 A profile may define stricter local statuses, but it must map them without erasing NOT_ESTABLISHED or partial coverage.
 
-A Gate-B package may be considered verified within scope only when its declared mandatory set satisfies the registered verification rule and all required positive/mutation controls behave as expected.
+A Stage B package may be considered verified within scope only when its declared mandatory set satisfies the registered verification rule and all required positive/mutation controls behave as expected.
 
-## 9. Simplified DDS Gate B
+## 9. Simplified DDS Stage B
 
-A **Simplified DDS Gate B** profile intentionally verifies only a declared subset of the Gate-A package or only selected architecture surfaces.
+A **Simplified DDS Stage B** profile intentionally verifies only a declared subset of the Stage A package or only selected architecture surfaces.
 
 It must state:
 
@@ -152,11 +154,11 @@ It must state:
 - controls/mutations omitted;
 - exact claim allowed by the reduced scope.
 
-A simplified Gate-B result may be complete for its bounded question. It may not be reported as complete architecture verification outside that scope.
+A simplified Stage B result may be complete for its bounded question. It may not be reported as complete architecture verification outside that scope.
 
 ## 10. Trace, integrity and Oracle integration
 
-Gate B should reuse existing DDS/R01 infrastructure where applicable:
+Stage B should reuse existing DDS/R01 infrastructure where applicable:
 
 - source/version pins;
 - candidate-visible versus evaluator-only separation;
@@ -166,15 +168,15 @@ Gate B should reuse existing DDS/R01 infrastructure where applicable:
 - replay/order/malformed controls where applicable;
 - explicit NOT_ESTABLISHED handling.
 
-The current R01 C02 Stage-0 self-tests are **test-infrastructure qualification**, not Gate-B results. Existing BATCH_CONFORMANCE results are not retroactively reclassified as Gate B.
+The current R01 C02 Stage-0 self-tests are **test-infrastructure qualification**, not Stage B results. Existing BATCH_CONFORMANCE results are not retroactively reclassified as Stage B.
 
-A gate-aware Oracle successor should use a separate Gate-B adjudicator whose authoritative reference is the frozen Gate-A package.
+A stage-aware Oracle successor should use a separate Stage B adjudicator whose authoritative reference is the frozen Stage A package.
 
 ## 11. UC-4 and first bounded pilot
 
-UC-4 Stage-0/Stage-1 remain source-owned testbed maturity/integration terms and are orthogonal to DDS Gate B.
+UC-4 Stage-0/Stage-1 remain source-owned testbed maturity/integration terms and are orthogonal to DDS Stage B.
 
-The preferred first bounded Gate-B pilot is the existing **00I / S5 semantic-TOCTOU architecture slice**, because the corpus already contains:
+The preferred first bounded Stage B pilot is the existing **00I / S5 semantic-TOCTOU architecture slice**, because the corpus already contains:
 
 - queued action/remediation;
 - source/version state;
@@ -187,16 +189,16 @@ The preferred first bounded Gate-B pilot is the existing **00I / S5 semantic-TOC
 - deterministic/stateful fixture assets;
 - external contributor/testbed mappings.
 
-The pilot should reuse the existing Q0–Q6 and mapped S/T/H obligations rather than create a new Gate-B requirement family.
+The pilot should reuse the existing Q0–Q6 and mapped S/T/H obligations rather than create a new Stage B requirement family.
 
 ## 12. Exit package
 
-A Gate-B output should identify at least:
+A Stage B output should identify at least:
 
 ~~~text
-DDS Gate: B
-Gate-B profile / version
-Gate-A specification package / hash
+DDS Stage: B
+Stage B profile / version
+Stage A specification package / hash
 candidate architecture package / hash
 requirements verification matrix / hash
 verification methods
@@ -212,17 +214,17 @@ omissions / NOT_ESTABLISHED
 successor / feedback disposition
 ~~~
 
-A successful Gate B produces a versioned architecture package eligible for downstream Gate-C registration. It does not establish Gate C.
+A successful Stage B produces a versioned architecture package eligible for downstream Stage C registration. It does not establish Stage C.
 
 ## 13. Failure and feedback
 
-A Gate-B failure normally triggers architecture revision.
+A Stage B failure normally triggers architecture revision.
 
-If Gate B exposes a contradiction, missing requirement or unrealizable specification assumption, it may justify a **new Gate-A successor**. Gate B must not silently rewrite Gate A after observing results. The failed Gate-B record remains preserved.
+If Stage B exposes a contradiction, missing requirement or unrealizable specification assumption, it may justify a **new Stage A successor**. Stage B must not silently rewrite Stage A after observing results. The failed Stage B record remains preserved.
 
 ## 14. Claim boundary
 
-Gate B does **not** establish:
+Stage B does **not** establish:
 
 - production effectiveness;
 - real-world safety/security;
@@ -235,9 +237,9 @@ Gate B does **not** establish:
 
 ~~~text
 DDS profile:
-DDS Gate: B
-Gate coverage: full declared Gate-B scope | Simplified
-Gate-A specification package / version / hash:
+DDS Stage: B
+Stage coverage: full declared Stage B scope | Simplified
+Stage A specification package / version / hash:
 Architecture package / version / hash:
 Object under test:
 Authoritative reference:

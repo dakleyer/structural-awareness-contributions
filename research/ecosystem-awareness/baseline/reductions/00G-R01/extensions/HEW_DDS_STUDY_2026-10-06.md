@@ -1,5 +1,7 @@
 # Human escalation and whispering — Deployment Differential Study research example
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Canonical research edition0.1 · 6 October2026 · owner-authorized incorporation.
 Subject: the existing Human Escalation/Whispering mechanism, its proposed control interfaces and first bounded model integration. Status: analytical research with reproducible model evidence; native/human and commissioned-study obligations remain open.
 
@@ -88,4 +90,4 @@ The next native study chooses one concrete implementation, legitimate authority/
 
 ## Common-method coverage
 
-The [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), [Gate-A challenge–trajectory profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [this model coverage](./dds-hew-v0.1/DDS_PROFILE_COVERAGE.json) define the current method correspondence. This is Gate-A specification-discovery evidence; R1/R2/R3 remain source-native virtual traversals. Model outcome reporting is I/P/incomplete with M unevaluated, without a new success-rate, Gate-B architecture-verification or Gate-C deployment-acceptance claim.
+The [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), [Stage A challenge–trajectory profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [this model coverage](./dds-hew-v0.1/DDS_PROFILE_COVERAGE.json) define the current method correspondence. This is Stage A specification-discovery evidence; R1/R2/R3 remain source-native virtual traversals. Model outcome reporting is I/P/incomplete with M unevaluated, without a new success-rate, Stage B architecture-verification or Stage C deployment-acceptance claim.

@@ -1,6 +1,8 @@
 <a id="extensión-de-r01-openai--hugging-face"></a>
 # R01 extension Hugging Face
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 **Historical proof-subfolder status.** The linked `proof/README.md` is retained for provenance and reproduction of the finite checker that accompanied earlier extension editions. It is **outside the current canonical R01 route**. Any `verify_audit.py --verify` common-command text inside that retained guide is historical; the current package gate is [`verify_audit_v2.py --verify`](../verify_audit_v2.py). Preserving the checker and its bounded results does not reactivate superseded or abandoned experimental work.
 
 [R01 base scenario](../../Escenario-creatividad-validacion.md) · [Three extensions](../../README.md#extensiones)
@@ -492,7 +494,7 @@ The [00G-HF development and experimental history annex](../../../../annexes/00G-
 
 To follow the sequence: §§2–5 gather trials and reasons for the change; §§7–12, executions and pending limits; §§13–17, design corrections and the relationship with creativity, validation and 00G. The annex links the original packages, traces and results. Historical pending items are read as of their date; the status of 00G-R01 and its oracle is consulted in this scenario and the status document linked above. This navigation does not turn earlier trials into 00G-R01 results or declare the historical incident reproduced.
 
-#### Next steps — incident-derived real Hugging Face DDS Gate-A campaign
+#### Next steps — incident-derived real Hugging Face DDS Stage A campaign
 
 **Historical-reconstruction route now active:** [HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md](./HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md) · [A/B/C/D requirements + repositioning trace](./ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md) · [population context-shift model](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md) · [first historical trace packets](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md) · [machine-readable evidence register](./HISTORICAL_INCIDENT_EVIDENCE_v0.1.json) · [public evidence/workplan](./PUBLIC_EVIDENCE_AND_DDS_WORKPLAN.md).
 
@@ -502,7 +504,7 @@ R01 is therefore a **later structural-mapping and control-design resource**, not
 
 ##### A. Campaign question
 
-The campaign should ask a Gate-A specification-discovery question:
+The campaign should ask a Stage A specification-discovery question:
 
 > Given one or more frozen, source-supported Hugging Face incident trajectories, which candidate specification or control profile would have classified the material decision boundaries correctly, preserved legitimate continuation and authorized change, and prevented unsupported evidence, peer coordination or apparent authority from silently displacing the receiver's binding task — within the declared evidence, cost, capacity and response horizon?
 
@@ -642,7 +644,7 @@ Use the DDS/R01 ledger on each trajectory and arm.
 
 Unknown or historically unmeasurable quantities remain **unscored**, not zero.
 
-##### J. Freeze the Gate-A acceptance and falsification policy
+##### J. Freeze the Stage A acceptance and falsification policy
 
 Before result-producing adjudication, freeze:
 
@@ -677,14 +679,14 @@ The preferred order is:
 11. Blind/independent retrospective trajectory adjudication
 12. Matched experimental-control traversals
 13. Differential analysis and falsifier review
-14. Gate-A candidate specification package or bounded no-differential / trade-off / insufficient-evidence finding
+14. Stage A candidate specification package or bounded no-differential / trade-off / insufficient-evidence finding
 ~~~
 
 A probabilistic R01 campaign should be added only after the historical admission and control construction are frozen. It should vary declared parameters systematically; it must not tune the world after observing which configuration favors EA.
 
-##### L. Minimum evidence needed to call this a full DDS Gate-A campaign within scope
+##### L. Minimum evidence needed to call this a full DDS Stage A campaign within scope
 
-The campaign can be described as a **full DDS Gate-A profile within its declared Hugging Face scope** only if the applicable Gate-A chain is actually instantiated, including:
+The campaign can be described as a **full DDS Stage A profile within its declared Hugging Face scope** only if the applicable Stage A chain is actually instantiated, including:
 
 - frozen Challenge and historical evidence boundary;
 - bounded scenario/reduction;
@@ -699,20 +701,20 @@ The campaign can be described as a **full DDS Gate-A profile within its declared
 - bounded differential finding;
 - a versioned candidate specification package stating required/prohibited behavior, assumptions, exclusions and NOT_ESTABLISHED items.
 
-If selected surfaces are intentionally omitted or unscored, report the result as a **Simplified DDS Gate A** rather than upgrading the label.
+If selected surfaces are intentionally omitted or unscored, report the result as a **Simplified DDS Stage A** rather than upgrading the label.
 
 ##### M. Explicit non-claims
 
-Even after a successful incident-derived Gate-A campaign, do not infer without separate evidence that:
+Even after a successful incident-derived Stage A campaign, do not infer without separate evidence that:
 
 - the historical Hugging Face incident was caused by the modeled R01 mechanism;
 - EA would in fact have prevented the incident in the original systems;
 - OpenAI, Hugging Face, METR or any specific product failed a complete EA requirement set;
-- a candidate architecture realizes the specification — Gate B remains separate;
-- a deployed implementation solves the historical problem — Gate C remains separate;
+- a candidate architecture realizes the specification — Stage B remains separate;
+- a deployed implementation solves the historical problem — Stage C remains separate;
 - the result transfers to Infoblox, the extended family or another incident without its own correspondence/admission analysis.
 
-**Planned output if this work is later commissioned/executed:** a frozen incident-derived Challenge package, historical trajectory/evidence register, E1–E7/A25 admission matrix, θ* and additional-mechanism register, prospective campaign card, M/I/P/Ø control pack, comparator/fairness contract, C–R–E ledger, acceptance/falsification policy, sealed adjudication traces, differential finding and Gate-A candidate specification package.
+**Planned output if this work is later commissioned/executed:** a frozen incident-derived Challenge package, historical trajectory/evidence register, E1–E7/A25 admission matrix, θ* and additional-mechanism register, prospective campaign card, M/I/P/Ø control pack, comparator/fairness contract, C–R–E ledger, acceptance/falsification policy, sealed adjudication traces, differential finding and Stage A candidate specification package.
 
 
 #### Original framing retained

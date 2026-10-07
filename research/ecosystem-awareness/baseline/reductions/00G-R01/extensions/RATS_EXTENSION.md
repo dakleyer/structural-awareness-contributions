@@ -1,5 +1,7 @@
 # R01/DDS extension study — RATS evidence consumption and effective human escalation
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 **Canonical research integration — 6 October2026, document edition0.2.** The initial source/analytical text below remains its historical scoped analysis. [Current DDS study and controls](./HEW_DDS_STUDY_2026-10-06.md) record the new deterministic model integration. Native technology, real humans and independent review remain unexecuted/open. The original numerical results are not rewritten or pooled into a success rate.
 
 
@@ -226,7 +228,7 @@ Consumer compatibility:the original mathematical/calendar/event fixtures retain 
 
 ## Independent exercise successor —6 October2026
 
-Documentary addition0.3. The [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) is the single DDS method entry point. This study is incorporated as a **Simplified DDS Gate-A** technology-specific implementation instance under the [Gate-A challenge–trajectory contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); it does not define another DDS method, Gate-B architecture verification or Gate-C native validation. The earlier analytical text above retains its original stage and claim limits.
+Documentary addition0.3. The [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) is the single DDS method entry point. This study is incorporated as a **Simplified DDS Stage A** technology-specific implementation instance under the [Stage A challenge–trajectory contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); it does not define another DDS method, Stage B architecture verification or Stage C native validation. The earlier analytical text above retains its original stage and claim limits.
 
 [Independent exercise report](./independent-dds-exercises-v0.1/rats-jws/EXERCISE_REPORT.md), [frozen Run Card](./independent-dds-exercises-v0.1/rats-jws/RUN_CARD.json) and [executed result](./independent-dds-exercises-v0.1/rats-jws/runs/2026-10-06-01/RESULTS.json) give this subject its own scenarios, source/configuration, control results, costs and limitations. No old result is overwritten or pooled. Fixture assertion success includes expected denials; it is not native/product/human or deployment acceptance. Production calibration and matched/independent evidence remain open.
 

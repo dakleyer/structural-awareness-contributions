@@ -1,6 +1,8 @@
 # R01 C02 — neutral oracle / harness
 
-> **DDS incorporation note — 7 October 2026.** This Oracle/harness work predates the canonical three-gate DDS split and retains its original C02, Stage-0, instrument and freeze identities. It is now incorporated into the [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) as **shared test-infrastructure qualification**, not as a separate method and not as a substantive Gate-A/B/C result. The historical instrument/freeze labels (`0.3`, `0.4`, `0.7`, freeze `v0.9`) are versions of this Oracle artefact family; they are not DDS method/Gate versions. No old result is re-scored or upgraded by this incorporation. Gate-aware successor work reuses these controls while preserving the frozen v0.9 evidence.
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+> **DDS incorporation note — 7 October 2026.** This Oracle/harness work predates the canonical three-stage DDS split and retains its original C02, Stage-0, instrument and freeze identities. It is now incorporated into the [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) as **shared test-infrastructure qualification**, not as a separate method and not as a substantive Stage A/B/C result. The historical instrument/freeze labels (`0.3`, `0.4`, `0.7`, freeze `v0.9`) are versions of this Oracle artefact family; they are not DDS method/Stage versions. No old result is re-scored or upgraded by this incorporation. Stage-aware successor work reuses these controls while preserving the frozen v0.9 evidence.
 
 **Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
 

@@ -1,6 +1,8 @@
 # Historical A/B/C/D Requirement Traceability and Repositioning Hypothesis — Hugging Face 2026 v0.1
 
-**Status:** working incident-derived DDS Gate-A analytical profile · source-grounded reconstruction + canonical-corpus interpretation · not an executed EA result · not a historical causality claim.
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+**Status:** working incident-derived DDS Stage A analytical profile · source-grounded reconstruction + canonical-corpus interpretation · not an executed EA result · not a historical causality claim.
 
 **Date:** 7 October 2026.
 
@@ -93,7 +95,7 @@ Instead:
 2. S1–S14 tell us which qualification the receiving decision would have required;
 3. public evidence tells us whether any of that qualification was actually available/preserved;
 4. missing or unresolved qualification is recorded, not invented;
-5. the Gate-A candidate asks whether an EA-conforming handoff/requalification mechanism could have preserved or acquired the needed B/C/D in useful time.
+5. the Stage A candidate asks whether an EA-conforming handoff/requalification mechanism could have preserved or acquired the needed B/C/D in useful time.
 
 ---
 
@@ -175,7 +177,7 @@ Therefore a mass transition toward HF is not merely “many bad choices.” It i
 
 A signal should carry enough qualification to make source, scope and trust status interpretable without full-state disclosure.
 
-The historical board transported A very efficiently. The Gate-A question is whether selected B/C/D could have accompanied or been recoverable around those A outputs.
+The historical board transported A very efficiently. The Stage A question is whether selected B/C/D could have accompanied or been recoverable around those A outputs.
 
 ### S9 — multi-principal composition and unsupported convergence
 
@@ -536,7 +538,7 @@ It is:
 
 ## 14. Architecture plausibility walkthrough — detecting and processing the Hugging Face regime shift
 
-**Status.** This is a **pre-Gate-B architecture plausibility walkthrough**, not DDS Gate-B evidence. Canonical Gate B requires a frozen Gate-A specification package. Here the existing EA/EP architecture is walked prospectively against the reconstructed incident to identify the mechanism that the later Gate-A campaign must specify and falsify.
+**Status.** This is a **pre-Stage B architecture plausibility walkthrough**, not DDS Stage B evidence. Canonical Stage B requires a frozen Stage A specification package. Here the existing EA/EP architecture is walked prospectively against the reconstructed incident to identify the mechanism that the later Stage A campaign must specify and falsify.
 
 The walkthrough has two parts: **(I) detect that the operating frame is changing from bounded A/B/C/D qualification; (II) process that change through Signalling, Cartography, Regime Awareness, Repositioning, Gradient, ACC/authority and feedback.**
 
@@ -738,7 +740,7 @@ F9 revalidation → next cycle
 | **RepositionIntent / AuthorityResponse** | Pi_RP, posture, current/target role, gradient basis, requested ACC/authority, lineage, expiry, provenance | owner-preserving signalling and legitimate decision | APPROVE / REJECT / MODIFY / REQUEST_EVIDENCE / ESCALATE / EXPIRE | systemic message says the ecosystem is changing and a new contract may be needed; it does not say attack |
 | **Authorized control + F9** | valid response, action/control owner, execution record, independently observed effect | execute outside EA; compare actual effect with assumptions; re-open only affected qualification | updated Role/ACC/Cart_i/RA inputs | contain/realign/rebind if drift occurred; then reassess |
 
-This is the architecture traversal that the later Gate-A campaign must turn into frozen specifications and testable acceptance/falsification rules.
+This is the architecture traversal that the later Stage A campaign must turn into frozen specifications and testable acceptance/falsification rules.
 
 #### Step 0 — current binding
 
@@ -922,9 +924,9 @@ The architectural property being tested is **non-substitution between technical 
 | Repair / containment request | S5, S10, S12; T3 | bounded correction with external execution owner |
 | F9 re-entry | S3, S10, S12, S14; T4 | verify effect and reopen only the affected basis in time |
 
-### 14.5 What this gives to the later Gate-A design
+### 14.5 What this gives to the later Stage A design
 
-This walkthrough does not prove EA. It identifies the specific mechanisms the later incident-derived Gate-A campaign must test:
+This walkthrough does not prove EA. It identifies the specific mechanisms the later incident-derived Stage A campaign must test:
 
 1. Can bounded source qualification distinguish old-frame-valid from material-regime-shift worlds without full-state reconstruction?
 2. Can historically relevant C→B and B→A changes be recognized while authority remains a separate qualification?
@@ -935,7 +937,7 @@ This walkthrough does not prove EA. It identifies the specific mechanisms the la
 7. Can the complete chain satisfy T1–T4 inside the useful response horizon?
 8. Does a strong conventional comparator achieve the same result at equal or lower burden?
 
-Those are specification-discovery questions for the later Gate-A campaign.
+Those are specification-discovery questions for the later Stage A campaign.
 
 ---
 
@@ -945,6 +947,6 @@ This document is a candidate architectural interpretation of the source-grounded
 
 It does not establish that historical agents actually carried canonical B/C/D metadata, that every peer GO was a Type-2 failure, that a regime detector would have fired in time, that a new ACC could have been issued historically, that EA/MSCA/ACC would have prevented the attack, that automatic rollback is owned by Repositioning, or that population convergence itself proves invalidity.
 
-It defines the **specific Gate-A mechanism now to test**:
+It defines the **specific Stage A mechanism now to test**:
 
 > preserve or acquire the required qualification around A; detect material population/frame change; convert that change into requalification rather than permission; and require a legitimate ACC/authority transition before role repositioning.

@@ -1,8 +1,10 @@
 # STAMP/STPA independent DDS exercise — maintenance and critical supply
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Document version0.1 ·6 October2026 ·Codex, same analyst/model author.
 
-The current method entry point is the [DDS Canonical Method Index](../../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md). This report is incorporated as a **Simplified DDS Gate-A** technology-specific implementation instance under the [Gate-A challenge–trajectory contract](../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), not another DDS method. Its frozen Run Card retains the pre-split DDS identity used at execution time. Its binary fixture assertions do not establish Gate-B architecture verification, Gate-C deployment/population acceptance, representative sampling or a success probability.
+The current method entry point is the [DDS Canonical Method Index](../../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md). This report is incorporated as a **Simplified DDS Stage A** technology-specific implementation instance under the [Stage A challenge–trajectory contract](../../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), not another DDS method. Its frozen Run Card retains the pre-split DDS identity used at execution time. Its binary fixture assertions do not establish Stage B architecture verification, Stage C deployment/population acceptance, representative sampling or a success probability.
 
 [Run Card](./RUN_CARD.json) · [frozen source/data](./FREEZE.json) · [actual result](./runs/2026-10-06-02/RESULTS.json). Cryptography50.0.1 is the pinned installed dependency. R01 mathematical0.1/virtual0.3 and the prior HEW runs remain unchanged. No source-native theorem is inherited by these different laws.
 

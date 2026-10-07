@@ -1,5 +1,7 @@
 # Annex 00E-A02 — LangGraph/LangSmith implementation profile for the 100-million-token quality plan
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 | | |
 |---|---|
 | **ID** | 00E-A02 |
@@ -12,7 +14,7 @@
 | **External-corroboration route** | [00E §9A external corroboration](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · reviewed 2026-09-24 · technology-agnostic neighboring evidence only; not evidence of failure by this product |
 | **Predecessor** | [v0.1 — preserved public profile](./00E_A02_LANGGRAPH_LANGSMITH_IMPLEMENTATION_PROFILE_v0.1.md) |
 
-> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Gate-A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Gate-B architecture verification or Gate-C native product validation.
+> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Stage A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Stage A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Stage B architecture verification or Stage C native product validation.
 
 > **Product-implementation successor draft; original product analysis 17 September 2026, quality-plan synchronization and external-corroboration routing reviewed 24 September 2026.** This annex applies the [00E quality plan](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) to LangGraph with LangSmith observability and evaluation. It compares a standard implementation, an excellent implementation and an excellent implementation under regime change. It is not a product ranking, certification, endorsement or claim that LangGraph causes the 00E failure.
 

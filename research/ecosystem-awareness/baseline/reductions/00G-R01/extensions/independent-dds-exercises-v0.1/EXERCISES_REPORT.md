@@ -1,8 +1,10 @@
 # Independent technology exercises — historical partial DDS evidence
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Document version0.1 ·6 October2026 ·same author, no external independence.
 
-> **DDS incorporation note — 7 October 2026.** These exercises were executed when the then-current DDS source was the single Challenge–Trajectory profile. Their frozen Run Cards and RESULTS therefore preserve historical fields such as `canonical_DDS_profile` / `single canonical DDS technical profile`; those fields are not rewritten after execution. The current method entry point is the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), and these exercises are incorporated as **Simplified DDS Gate-A** bounded evidence because the object under test is mechanism/specification suitability under authored Challenges. Their executable local code/crypto evidence strengthens evidence mode but does not make them Gate B or Gate C.
+> **DDS incorporation note — 7 October 2026.** These exercises were executed when the then-current DDS source was the single Challenge–Trajectory profile. Their frozen Run Cards and RESULTS therefore preserve historical fields such as `canonical_DDS_profile` / `single canonical DDS technical profile`; those fields are not rewritten after execution. The current method entry point is the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), and these exercises are incorporated as **Simplified DDS Stage A** bounded evidence because the object under test is mechanism/specification suitability under authored Challenges. Their executable local code/crypto evidence strengthens evidence mode but does not make them Stage B or Stage C.
 
 These are separate implementation instances under one DDS method, not additional canonical methods. They use different predicates, fixtures and evidence modes. Their counts are not pooled into a success rate.
 

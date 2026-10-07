@@ -1,5 +1,7 @@
 # Ecosystem Awareness — Canonical Corpus Manifest
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 > **Canonical semantic source — 2 October 2026.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) is the adopted definition for A/B/C/D. Its scientific argument retains mathematical-plausibility status. 00N is the conditional mechanism-to-requirements bridge; neither note establishes requirements fulfilment.
 
 > **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
@@ -152,9 +154,9 @@ The controlled baseline is complete in Google Drive. All six are now publicly pr
 ## A.5a Canonical working DDS method set (outside the controlled release baseline)
 
 - [`DDS_CANONICAL_METHOD_INDEX_v0.1.md`](../DDS_CANONICAL_METHOD_INDEX_v0.1.md) — canonical method router: one DDS method, three substantive Gates, full/Simplified coverage semantics, namespace rules, claim propagation and the incorporation map for pre-DDS/legacy test artefacts.
-- [`DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md`](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) — canonical **DDS Gate A — Specification Discovery** source. It retains the established Challenge → bounded scenario/reduction → technology/mechanism mapping → I/M/P/Ø/trajectory-gate → trace accounting → acceptance → optional Business Value machinery and produces bounded Gate-A findings/specification packages.
-- [`DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md`](../DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) — canonical **DDS Gate B — Architecture Verification** source.
-- [`DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md`](../DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) — canonical **DDS Gate C — Implementation / Problem Validation** source.
+- [`DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md`](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) — canonical **DDS Stage A — Specification Discovery** source. It retains the established Challenge → bounded scenario/reduction → technology/mechanism mapping → I/M/P/Ø/trajectory-gate → trace accounting → acceptance → optional Business Value machinery and produces bounded Stage A findings/specification packages.
+- [`DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md`](../DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) — canonical **DDS Stage B — Architecture Verification** source.
+- [`DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md`](../DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) — canonical **DDS Stage C — Implementation / Problem Validation** source.
 
 Existing frozen technology traversals, Stage-0 fixture records, 00L symbolic evidence, 00D-A01/A03 oracle/harness designs and R01 C02 oracle/harness evidence retain their own versions and original claim boundaries. Their current DDS role is classificatory: partial Gate evidence or support/infrastructure as recorded in the DDS index; no historical result is rewritten or strengthened. R01 remains controlling for its own mathematics and extension proofs. DBC and 00D retain semantic ownership as **DDS support artefacts** (Challenge/adjudication and comparator/fairness respectively), not parallel corpus testing methods. The DDS method set is not part of the controlled v0.4 release baseline, an adopted standard, certification scheme or empirical product result.
 

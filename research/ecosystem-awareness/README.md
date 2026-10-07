@@ -2,6 +2,8 @@
 
 # Ecosystem Awareness — entry-point router
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 **00G-R01 reduction study:** [Probabilistic exploration and validation cost](./baseline/reductions/00G-R01/README.md) links parent Napoleon/00G to the reduced 00G-R01 specification and, from there, its supporting reduction argument, with its Word/PDF exports. 00G remains the parent case; 00N remains the functional-plausibility note.
 
 ## Mathematical and functional plausibility — current reading route
@@ -237,17 +239,17 @@ The benchmark is therefore presentable as an inspectable test programme and mark
 
 DDS is the programme-wide testing/evaluation method for this corpus. It is now explicitly separated into:
 
-1. [**Gate A — Specification Discovery**](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) — Challenge → candidate specifications/mechanisms/configuration trajectories → bounded differential finding / candidate specification package;
-2. [**Gate B — Architecture Verification**](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) — frozen Gate-A specification → architecture/reference realization → verified/partial/nonconformant architecture finding;
-3. [**Gate C — Implementation / Problem Validation**](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) — pinned implementation/configuration → observed execution/effect against the originating Challenge → bounded empirical validation finding.
+1. [**Stage A — Specification Discovery**](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) — Challenge → candidate specifications/mechanisms/configuration trajectories → bounded differential finding / candidate specification package;
+2. [**Stage B — Architecture Verification**](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) — frozen Stage A specification → architecture/reference realization → verified/partial/nonconformant architecture finding;
+3. [**Stage C — Implementation / Problem Validation**](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) — pinned implementation/configuration → observed execution/effect against the originating Challenge → bounded empirical validation finding.
 
-A profile may use a **Simplified DDS Gate A/B/C** route when only a declared subset of that Gate is needed. “Simplified” describes coverage, not evidence weakness. Documentary, analytical, symbolic, deterministic-fixture, harness and native execution are evidence modes; they do not by themselves determine the Gate.
+A profile may use a **Simplified DDS Stage A/B/C** route when only a declared subset of that Stage is needed. “Simplified” describes coverage, not evidence weakness. Documentary, analytical, symbolic, deterministic-fixture, harness and native execution are evidence modes; they do not by themselves determine the Stage.
 
 **Historical evidence incorporation.** The corpus predates this three-gate organization. Earlier Stage-0 fixtures, 00L symbolic runs, 00D-A01/A03 oracle/harness designs, R01 C02 oracle/harness work and related testbed records remain valid for their original scope and are now incorporated into DDS as Gate-specific partial evidence or support/infrastructure, as mapped in the [canonical DDS index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#7-historical-and-pre-dds-evidence-incorporation). Their local version numbers and freezes are not DDS versions, and incorporation does not retroactively upgrade their claims.
 
 ## DDS support module — Decision Boundary Challenge
 
-The [**Decision Boundary Challenge — Applied Agentic Validation Protocol v0.2**](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) supplies reusable decision-boundary Challenge/adjudication material inside DDS. It is not a second corpus testing method. Its cases may support Gate-A specification discovery, Gate-B architecture controls or Gate-C implementation adjudication according to the registered object under test and evidence scope.
+The [**Decision Boundary Challenge — Applied Agentic Validation Protocol v0.2**](./DECISION_BOUNDARY_CHALLENGE_v0.2.md) supplies reusable decision-boundary Challenge/adjudication material inside DDS. It is not a second corpus testing method. Its cases may support Stage A specification discovery, Stage B architecture controls or Stage C implementation adjudication according to the registered object under test and evidence scope.
 
 It is designed to be **cross-platform and sector-agnostic**: the initial unit under review is an agent stack, framework, control plane or research platform rather than a logistics, energy or other vertical application. The protocol begins with a standard challenge pack and offline trace audit; sandbox/sidecar execution is admitted only after a material signal exists and the comparison is preregistered.
 
@@ -267,7 +269,7 @@ The protocol:
 
 **FG-TIDA projection:** the programme-independent protocol is projected into the [FG-TIDA Decision Boundary Evaluation Profile v0.1 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.1_DRAFT.md) and is bidirectionally mapped into [Specification Preparation v0.3](./fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md). The current public test route starts with UC-6 semantic mapping and may then enter Nelson's bounded UC-4 executable profile after contributor review and scope agreement.
 
-**Boundary:** DBC is not part of the frozen/canonical EA baseline, does not supersede 00D comparator/fairness support and currently contains no executed comparative result or vendor ranking. Within the current DDS method it is a support module, not a parallel method; concrete DBC-derived evidence is classified under Gate A, B or C by the object actually tested. [v0.1](./DECISION_BOUNDARY_CHALLENGE_v0.1.md) remains preserved as the predecessor.
+**Boundary:** DBC is not part of the frozen/canonical EA baseline, does not supersede 00D comparator/fairness support and currently contains no executed comparative result or vendor ranking. Within the current DDS method it is a support module, not a parallel method; concrete DBC-derived evidence is classified under Stage A, B or C by the object actually tested. [v0.1](./DECISION_BOUNDARY_CHALLENGE_v0.1.md) remains preserved as the predecessor.
 
 ## Reading routes
 

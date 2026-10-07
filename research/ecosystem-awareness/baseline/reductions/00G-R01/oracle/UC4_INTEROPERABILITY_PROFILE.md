@@ -1,5 +1,7 @@
 # R01 ↔ Nelson UC-4 interoperability profile
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Working bridge v0.1 · 4 October 2026 · source-contributor review requested before calling it UC-4-compatible.
 
 ## 1. Design intent
@@ -91,13 +93,13 @@ The same DDS may mature through three different validation gates. They reuse one
 Challenge / failure family
         |
         v
-Gate A — Specification Discovery
+Stage A — Specification Discovery
         |     freezes the surviving specification package
         v
-Gate B — Architecture Conformance
+Stage B — Architecture Conformance
         |     freezes a conformant architecture/reference realization
         v
-Gate C — Implementation / Problem Validation
+Stage C — Implementation / Problem Validation
               tests a pinned executable implementation against the Challenge
 ```
 
@@ -107,7 +109,7 @@ The three gates may reuse the same infrastructure for version pins, hashes, priv
 
 A future machine-readable profile could therefore add a gate selector such as `A_SPEC_DISCOVERY | B_ARCH_CONFORMANCE | C_PROBLEM_VALIDATION` plus the hashes of the candidate artifact, reference contract and acceptance policy. This is only a design direction at this stage; no schema change is proposed here.
 
-### Gate A — Specification Discovery
+### Stage A — Specification Discovery
 
 **Object under test:** candidate requirements/specification packages.
 
@@ -115,7 +117,7 @@ A future machine-readable profile could therefore add a gate selector such as `A
 
 **Oracle reference:** the frozen Challenge/world truth, evaluator-private I/M/P/Ø relation or equivalent acceptance facts, positive/continuity controls, falsifiers and the declared strong conventional/reference alternatives.
 
-Gate A may use documentary mappings, analytical or mathematical checks, virtual traversals, deterministic fixtures, model checking or other evidence modes appropriate to the bounded question. It does **not** require that the candidate specification already exist as a production implementation.
+Stage A may use documentary mappings, analytical or mathematical checks, virtual traversals, deterministic fixtures, model checking or other evidence modes appropriate to the bounded question. It does **not** require that the candidate specification already exist as a production implementation.
 
 The oracle should be able to distinguish at least:
 
@@ -125,19 +127,19 @@ The oracle should be able to distinguish at least:
 - a conventional/reference specification that closes the problem at equal or lower burden;
 - insufficient evidence.
 
-**Gate-A product:** a versioned **candidate specification package** with explicit surviving requirements, assumptions, exclusions, falsifiers and evidence status. Gate A is the most developed of the three gates in the current DDS work.
+**Stage A product:** a versioned **candidate specification package** with explicit surviving requirements, assumptions, exclusions, falsifiers and evidence status. Stage A is the most developed of the three gates in the current DDS work.
 
-### Gate B — Architecture Conformance
+### Stage B — Architecture Conformance
 
 **Working systems-engineering alias:** **verification of specification realization**. This is deliberately close to established verification terminology rather than a new DDS-specific meaning.
 
-**Object under test:** a candidate architecture, reference model or executable conformance layer intended to realize the Gate-A specification package.
+**Object under test:** a candidate architecture, reference model or executable conformance layer intended to realize the Stage A specification package.
 
 **Question:** does the architecture actually realize the frozen specification, including its interfaces, semantic ownership, negative requirements and boundary behavior?
 
-**Oracle reference:** the **frozen Gate-A specification package**, its requirement-to-architecture mapping, conformance fixtures, negative controls and counterexamples. The Gate-B oracle must not silently substitute the desired Challenge outcome for specification conformance.
+**Oracle reference:** the **frozen Stage A specification package**, its requirement-to-architecture mapping, conformance fixtures, negative controls and counterexamples. The Stage B oracle must not silently substitute the desired Challenge outcome for specification conformance.
 
-Typical Gate-B checks may include:
+Typical Stage B checks may include:
 
 - every mandatory selected requirement has an identified realization or an explicit unsupported status;
 - source/authority semantics are preserved across interfaces rather than locally reinvented;
@@ -147,32 +149,32 @@ Typical Gate-B checks may include:
 - no hidden oracle/private truth is required by the candidate architecture;
 - architecture-level bypasses do not make a nominally present requirement ineffective.
 
-A failure at Gate B normally triggers architecture revision. If the architecture exposes a contradiction, impossibility or missing requirement in the frozen specification, the process returns explicitly to **a new Gate-A specification version**; Gate B must not rewrite Gate A in place after seeing the result.
+A failure at Stage B normally triggers architecture revision. If the architecture exposes a contradiction, impossibility or missing requirement in the frozen specification, the process returns explicitly to **a new Stage A specification version**; Stage B must not rewrite Stage A in place after seeing the result.
 
-**Gate-B product:** a versioned **conformant architecture/reference realization** or a bounded non-conformance/partial-conformance finding. Passing Gate B does not establish that the architecture solves the real Challenge in deployment.
+**Stage B product:** a versioned **conformant architecture/reference realization** or a bounded non-conformance/partial-conformance finding. Passing Stage B does not establish that the architecture solves the real Challenge in deployment.
 
-#### Gate B — external lineage, reusable machinery and limits
+#### Stage B — external lineage, reusable machinery and limits
 
-Gate B should reuse established **verification** practice rather than invent a parallel discipline.
+Stage B should reuse established **verification** practice rather than invent a parallel discipline.
 
-- **IEEE 1012-2024 — System, Software, and Hardware Verification and Validation.** IEEE frames verification and validation as distinct questions: development products are checked for conformance to the requirements of the activity, while validation asks whether the product satisfies intended use and user needs. Gate B aligns with the first question.  
+- **IEEE 1012-2024 — System, Software, and Hardware Verification and Validation.** IEEE frames verification and validation as distinct questions: development products are checked for conformance to the requirements of the activity, while validation asks whether the product satisfies intended use and user needs. Stage B aligns with the first question.  
   https://ieeexplore.ieee.org/document/11134780
-- **NASA Systems Engineering Handbook — Product Verification versus Product Validation.** NASA states the same distinction operationally: verification demonstrates compliance with requirements; validation demonstrates intended purpose in the intended environment. NASA also uses a Requirements Verification Matrix linking each shall-requirement to its verification evidence/method. Gate B can reuse this traceability shape.  
+- **NASA Systems Engineering Handbook — Product Verification versus Product Validation.** NASA states the same distinction operationally: verification demonstrates compliance with requirements; validation demonstrates intended purpose in the intended environment. NASA also uses a Requirements Verification Matrix linking each shall-requirement to its verification evidence/method. Stage B can reuse this traceability shape.  
   https://www.nasa.gov/reference/2-4-distinctions-between-product-verification-and-product-validation/  
   https://www.nasa.gov/reference/system-engineering-handbook-appendix/
 - **ISO/IEC/IEEE 29148:2018 — Requirements engineering.** Reuse requirements identification, lifecycle discipline and traceability where applicable. DDS does not claim clause-level conformance without licensed normative review.  
   https://www.iso.org/standard/72089.html
-- **ISO/IEC/IEEE 42010:2022 — Architecture description.** Reuse architecture-description concepts, viewpoints, model kinds, correspondences and its explicit conformance treatment for architecture descriptions/frameworks/languages. Important boundary: 42010 conformance is not by itself proof that the entity architecture realizes the Gate-A functional requirements or solves the Challenge.  
+- **ISO/IEC/IEEE 42010:2022 — Architecture description.** Reuse architecture-description concepts, viewpoints, model kinds, correspondences and its explicit conformance treatment for architecture descriptions/frameworks/languages. Important boundary: 42010 conformance is not by itself proof that the entity architecture realizes the Stage A functional requirements or solves the Challenge.  
   https://www.iso.org/standard/74393.html
-- **TLA+ refinement / formal implementation.** Where Gate A and the candidate realization admit formal behavioural specifications, refinement mappings can be used to test/prove that a lower-level specification implements a higher-level one. This is a powerful optional Gate-B method, not a universal requirement and not evidence beyond the proved properties/direction.  
+- **TLA+ refinement / formal implementation.** Where Stage A and the candidate realization admit formal behavioural specifications, refinement mappings can be used to test/prove that a lower-level specification implements a higher-level one. This is a powerful optional Stage B method, not a universal requirement and not evidence beyond the proved properties/direction.  
   https://lamport.azurewebsites.net/pubs/simple.pdf  
   https://lamport.azurewebsites.net/tla/book-02-02-27.pdf
-- **ETSI TTCN-3.** Where the realization exposes an executable protocol/interface and the question is black-box conformance, TTCN-3 offers standardized test-case, verdict, timer and distributed-execution machinery and is used in standards conformance suites. It is an execution/conformance technology, not an oracle for whether the Gate-A specification itself is the right one.  
+- **ETSI TTCN-3.** Where the realization exposes an executable protocol/interface and the question is black-box conformance, TTCN-3 offers standardized test-case, verdict, timer and distributed-execution machinery and is used in standards conformance suites. It is an execution/conformance technology, not an oracle for whether the Stage A specification itself is the right one.  
   https://ttcn-3.etsi.org/index.php/about/introduction
 
-**What DDS adds at Gate B:** not a new definition of verification. DDS binds the verification target to the exact Gate-A package that survived the frozen Challenge, preserves the Challenge falsifiers/positive controls as regression pressure, keeps source semantic ownership explicit, and prevents a verified architecture from being relabelled as empirically validated.
+**What DDS adds at Stage B:** not a new definition of verification. DDS binds the verification target to the exact Stage A package that survived the frozen Challenge, preserves the Challenge falsifiers/positive controls as regression pressure, keeps source semantic ownership explicit, and prevents a verified architecture from being relabelled as empirically validated.
 
-A minimal future Gate-B machine-readable contract could contain:
+A minimal future Stage B machine-readable contract could contain:
 
 ```text
 gate = B_ARCH_CONFORMANCE
@@ -189,7 +191,7 @@ result = VERIFIED | PARTIALLY_VERIFIED | NONCONFORMANT | NOT_ESTABLISHED
 
 This is a design sketch only; it does not amend the current schema.
 
-### Gate C — Implementation / Problem Validation
+### Stage C — Implementation / Problem Validation
 
 **Working systems-engineering alias:** **validation against intended problem/use**. This is deliberately close to established validation terminology.
 
@@ -197,9 +199,9 @@ This is a design sketch only; it does not amend the current schema.
 
 **Question:** when the implementation is exposed to the frozen Challenge or a justified representative/real instantiation of it, does it actually produce the required outcomes within the declared resource, timing, authority and continuity envelope?
 
-**Oracle reference:** the Challenge and independently observed environment/target state. Gate-A specifications and Gate-B conformance records remain provenance and diagnostic evidence; they are **not themselves proof of Gate-C success**.
+**Oracle reference:** the Challenge and independently observed environment/target state. Stage A specifications and Stage B conformance records remain provenance and diagnostic evidence; they are **not themselves proof of Stage C success**.
 
-Gate C therefore requires evidence of actual effects appropriate to its evidence mode, for example:
+Stage C therefore requires evidence of actual effects appropriate to its evidence mode, for example:
 
 - pinned executable configuration and dependencies;
 - candidate-visible versus evaluator-only information separation;
@@ -209,15 +211,15 @@ Gate C therefore requires evidence of actual effects appropriate to its evidence
 - continuity/positive controls so safety is not obtained only by blanket blocking;
 - explicit treatment of infrastructure failure and unavailable evidence.
 
-A Gate-C failure must not be repaired by changing the frozen Challenge, acceptance rule or implementation after inspecting the failing run. It opens a successor cycle. The diagnosis may point back to an implementation defect (repeat C), an architecture-realization defect (return to B), or an inadequate specification (return to A), but the failed evidence remains preserved.
+A Stage C failure must not be repaired by changing the frozen Challenge, acceptance rule or implementation after inspecting the failing run. It opens a successor cycle. The diagnosis may point back to an implementation defect (repeat C), an architecture-realization defect (return to B), or an inadequate specification (return to A), but the failed evidence remains preserved.
 
-**Gate-C product:** bounded empirical problem-validation evidence for the pinned implementation and evidence mode. It does not retroactively upgrade Gate A or Gate B, nor does a Gate-A/B success imply Gate C.
+**Stage C product:** bounded empirical problem-validation evidence for the pinned implementation and evidence mode. It does not retroactively upgrade Stage A or Stage B, nor does a Stage A/B success imply Stage C.
 
-#### Gate C — external lineage, reusable machinery and limits
+#### Stage C — external lineage, reusable machinery and limits
 
-Gate C should reuse established **validation / TEVV / test execution** machinery.
+Stage C should reuse established **validation / TEVV / test execution** machinery.
 
-- **IEEE 1012-2024 and NASA Systems Engineering.** These provide the closest conceptual boundary: validation asks whether the realized product satisfies intended use/user needs in the intended environment. NASA explicitly permits validation by test, analysis, inspection and demonstration and links validation planning to ConOps/stakeholder objectives. Gate C reuses that distinction rather than redefining validation.  
+- **IEEE 1012-2024 and NASA Systems Engineering.** These provide the closest conceptual boundary: validation asks whether the realized product satisfies intended use/user needs in the intended environment. NASA explicitly permits validation by test, analysis, inspection and demonstration and links validation planning to ConOps/stakeholder objectives. Stage C reuses that distinction rather than redefining validation.  
   https://ieeexplore.ieee.org/document/11134780  
   https://www.nasa.gov/reference/2-4-distinctions-between-product-verification-and-product-validation/  
   https://www.nasa.gov/reference/system-engineering-handbook-appendix/
@@ -225,17 +227,17 @@ Gate C should reuse established **validation / TEVV / test execution** machinery
   https://www.iso.org/standard/81702.html
 - **ISO/IEC/IEEE 29119-2:2021 — software test processes.** Reuse generic governance/management/implementation structure for testing when appropriate. It does not supply the DDS Challenge, acceptance region or substantive oracle.  
   https://www.iso.org/standard/79428.html
-- **NIST TEVV-Athlon (NIST AI 200-2 draft).** This is especially close to the Gate-C concern for AI: NIST frames TEVV-Athlon as a structured, extensible approach for assessing real-world impact/outcomes and explicitly includes agentic systems. DDS can reuse compatible evaluation planning/execution concepts while keeping its own bounded Challenge and differential claim.  
+- **NIST TEVV-Athlon (NIST AI 200-2 draft).** This is especially close to the Stage C concern for AI: NIST frames TEVV-Athlon as a structured, extensible approach for assessing real-world impact/outcomes and explicitly includes agentic systems. DDS can reuse compatible evaluation planning/execution concepts while keeping its own bounded Challenge and differential claim.  
   https://www.nist.gov/artificial-intelligence/ai-research/tevv-athlon-framework-evaluating-ai-systems
-- **NIST ARIA Evaluation Planning Manual (NIST AI 200-3, 2026).** ARIA combines model testing, red teaming and user testing for application-level trustworthiness evaluation. Those can become Gate-C evidence modules when material to the Challenge; DDS does not require all three for every profile.  
+- **NIST ARIA Evaluation Planning Manual (NIST AI 200-3, 2026).** ARIA combines model testing, red teaming and user testing for application-level trustworthiness evaluation. Those can become Stage C evidence modules when material to the Challenge; DDS does not require all three for every profile.  
   https://www.nist.gov/publications/aria-evaluation-planning-manual-elements-aria-style-ai-evaluations
 - **ETSI TTCN-3 / Inspect AI / other execution substrates.** These may host repeatable test execution, adapters, scoring and standardized protocol conformance. They do not decide whether the selected Challenge, acceptance rule or deployment interpretation is correct.  
   https://ttcn-3.etsi.org/  
   https://inspect.aisi.org.uk/
 
-**What DDS adds at Gate C:** not a new definition of validation. DDS carries forward the exact Challenge/failure family that generated Gate A, the verified realization lineage from Gate B, matched comparator/fairness conditions, the I/M/P/Ø or equivalent outcome model, and explicit Cost/Risk/Effectiveness accounting. The purpose is to prevent a generic test pass from being promoted into evidence that the original problem was solved.
+**What DDS adds at Stage C:** not a new definition of validation. DDS carries forward the exact Challenge/failure family that generated Stage A, the verified realization lineage from Stage B, matched comparator/fairness conditions, the I/M/P/Ø or equivalent outcome model, and explicit Cost/Risk/Effectiveness accounting. The purpose is to prevent a generic test pass from being promoted into evidence that the original problem was solved.
 
-A minimal future Gate-C machine-readable contract could contain:
+A minimal future Stage C machine-readable contract could contain:
 
 ```text
 gate = C_PROBLEM_VALIDATION
@@ -254,26 +256,26 @@ result = VALIDATED_WITHIN_SCOPE | FAILED | NONDOMINATED | NOT_ESTABLISHED | INFR
 
 Again this is a design sketch only.
 
-### Gate A/B/C — reuse map and non-duplication boundary
+### Stage A/B/C — reuse map and non-duplication boundary
 
-| DDS gate | Closest established discipline | Reuse directly | DDS-specific differential | Do **not** claim |
+| DDS stage | Closest established discipline | Reuse directly | DDS-specific differential | Do **not** claim |
 |---|---|---|---|---|
 | **A — Specification Discovery** | Requirements/design exploration, hazard/failure analysis, formal modelling, experimental design | Existing DDS bibliography: STPA, NIST/ISO risk/quality, formal methods, benchmark/evaluation practice | Select competing specification packages against one frozen Challenge with strong-peer credit, positive/negative routes and C/R/E where in scope | That DDS invented requirements engineering, hazard analysis or design-space exploration |
-| **B — Architecture Conformance** | Verification / refinement / requirements traceability | IEEE 1012, NASA verification matrices, ISO 29148, ISO 42010 architecture-description machinery, TLA+ refinement, TTCN-3 where appropriate | Verify the architecture/reference realization specifically against the Gate-A winner(s), retaining semantic ownership and Challenge-derived falsifiers | That 42010 AD conformance proves architecture functionality; that a formal proof transfers beyond proved properties; that B validates intended use |
+| **B — Architecture Conformance** | Verification / refinement / requirements traceability | IEEE 1012, NASA verification matrices, ISO 29148, ISO 42010 architecture-description machinery, TLA+ refinement, TTCN-3 where appropriate | Verify the architecture/reference realization specifically against the Stage A winner(s), retaining semantic ownership and Challenge-derived falsifiers | That 42010 AD conformance proves architecture functionality; that a formal proof transfers beyond proved properties; that B validates intended use |
 | **C — Problem Validation** | System/product validation, TEVV, testing | IEEE 1012/NASA validation, ISO 15288/29119, NIST TEVV-Athlon/ARIA, TTCN-3/Inspect as execution substrates | Validate the pinned implementation against the originating Challenge with observed effects, matched comparators and DDS differential accounting | That a generic benchmark score, conformance suite or TEVV framework by itself proves the DDS problem solved |
 
 This three-gate structure is therefore best understood as a **DDS orchestration of existing verification/validation disciplines around a Challenge-derived specification-discovery stage**, not a claim to have invented a new universal V&V architecture.
 
 ### Gate separation and progression
 
-The default research-development path is **A → B → C**, but the gates are orthogonal to UC-4's current compatibility levels and to DDS evidence labels. A pre-existing product may enter B/C through an explicit mapping to a frozen specification and Challenge; it does not need to have been built by this programme. Conversely, an analytical Gate-A result does not become a product claim merely because a local harness exists.
+The default research-development path is **A → B → C**, but the gates are orthogonal to UC-4's current compatibility levels and to DDS evidence labels. A pre-existing product may enter B/C through an explicit mapping to a frozen specification and Challenge; it does not need to have been built by this programme. Conversely, an analytical Stage A result does not become a product claim merely because a local harness exists.
 
 The oracle should preserve a separate result record for each gate:
 
 | Gate | Primary reference | Candidate object | What a pass establishes | What it does not establish |
 |---|---|---|---|---|
 | **A** | Frozen Challenge / acceptance truth | Specification package | The candidate specification survives the bounded architecture test under the declared evidence mode. | Architecture realization or product effectiveness. |
-| **B** | Frozen Gate-A specification | Architecture / reference realization | The architecture conforms to the selected specification within the tested contract. | Real-world/representative Challenge effectiveness. |
+| **B** | Frozen Stage A specification | Architecture / reference realization | The architecture conforms to the selected specification within the tested contract. | Real-world/representative Challenge effectiveness. |
 | **C** | Frozen Challenge + observed effects | Executable implementation | The pinned implementation meets the bounded problem-validation acceptance rule. | Universal product safety, certification or unrestricted transfer. |
 
 No gate result is silently promoted into another. A shared oracle implementation may host all three, but its **authoritative reference and admissible claim change with the selected gate**.

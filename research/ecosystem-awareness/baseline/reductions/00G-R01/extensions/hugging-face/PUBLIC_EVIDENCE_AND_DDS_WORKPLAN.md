@@ -1,6 +1,8 @@
 # Public evidence register and workplan — historical OpenAI / Hugging Face incident
 
-**Purpose.** Source-custody and execution plan for the incident-derived DDS Gate-A campaign. This file is not the incident reconstruction itself.
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+**Purpose.** Source-custody and execution plan for the incident-derived DDS Stage A campaign. This file is not the incident reconstruction itself.
 
 **Current reconstruction:** [HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md](./HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md)
 
@@ -143,7 +145,7 @@ Every HF-Txx packet must contain:
 
 ---
 
-## 5. Corrected work order for the real incident-derived DDS Gate-A campaign
+## 5. Corrected work order for the real incident-derived DDS Stage A campaign
 
 The historical incident is reconstructed **before** R01 mapping. The context-change object is **population-first**: individual trace packets support the population reconstruction but do not define the regime shift by themselves. See [POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
 
@@ -163,7 +165,7 @@ The historical incident is reconstructed **before** R01 mapping. The context-cha
 
 **WP4 — Population context/change-point assessment.** Test candidate CP0–CP6 boundaries. Determine whether the public evidence supports a material change in active-route/workstream distribution and/or route-transition structure under adequately qualified B_pop. A single bad action or scope-recognition episode is insufficient.
 
-**WP5 — Freeze the historical Challenge.** Freeze the population decision regime, relevant change points, task/authority/evidence/action/effect boundaries and evidence ceiling to be used by Gate A.
+**WP5 — Freeze the historical Challenge.** Freeze the population decision regime, relevant change points, task/authority/evidence/action/effect boundaries and evidence ceiling to be used by Stage A.
 
 **WP6 — Optional structural mapping to corpus cases.** Only here map historical route families to 00G, R01, A25 or another case family. Later map source-native route families to M/I/P/Ø only where task/authority/admissibility evidence supports it. Failure of an R01 mapping does not invalidate the historical Challenge.
 
@@ -193,7 +195,7 @@ The historical incident is reconstructed **before** R01 mapping. The context-cha
 - first technology-independent Challenge formulation;
 - population-first A/B/C/D context-shift model;
 - CP0–CP6 population change-point candidates added to the machine-readable register.
-- pre-Gate-B architecture plausibility walkthrough completed: 00M/00N detection logic, Cartography→RA→Repositioning→Gradient→ACC/authority→F9 data flow, adverse-input case and requirements trace.
+- pre-Stage B architecture plausibility walkthrough completed: 00M/00N detection logic, Cartography→RA→Repositioning→Gradient→ACC/authority→F9 data flow, adverse-input case and requirements trace.
 
 **Still required before first result-producing run**
 - byte-freeze OpenAI and METR PDFs/pages;
@@ -210,4 +212,4 @@ The historical incident is reconstructed **before** R01 mapping. The context-cha
 
 ## 7. Non-claims
 
-This evidence programme does not yet establish historical causation, R01 reproduction, EA failure by a named organization, EA prevention, architecture conformance, product validation or universal transfer. Gate A discovers/tests candidate specification obligations; Gate B and Gate C remain separate.
+This evidence programme does not yet establish historical causation, R01 reproduction, EA failure by a named organization, EA prevention, architecture conformance, product validation or universal transfer. Stage A discovers/tests candidate specification obligations; Stage B and Stage C remain separate.

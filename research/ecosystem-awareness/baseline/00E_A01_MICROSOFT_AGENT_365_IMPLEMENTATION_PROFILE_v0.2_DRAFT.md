@@ -1,5 +1,7 @@
 # Annex 00E-A01 — Microsoft Agent 365 implementation profile for the 100-million-token quality plan
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 > **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
 
 | | |
@@ -14,7 +16,7 @@
 | **External-corroboration route** | [00E §9A external corroboration](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md) · reviewed 2026-09-24 · technology-agnostic neighboring evidence only; not evidence of failure by this product |
 | **Predecessor** | [v0.1 — preserved public profile](./00E_A01_MICROSOFT_AGENT_365_IMPLEMENTATION_PROFILE_v0.1.md) |
 
-> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Gate-A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Gate-B architecture verification or Gate-C native product validation.
+> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Stage A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Stage A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Stage B architecture verification or Stage C native product validation.
 
 > **Product-implementation successor draft; original product analysis 17 September 2026, quality-plan synchronization and external-corroboration routing reviewed 24 September 2026.** This annex asks how Microsoft Agent 365—the control plane for agents—can mitigate the four concrete failure modes in [00E](./00E_FAILURE_MODES_100M_TOKEN_COMPOUNDING_v0.1.md), and what an implementation must add to execute that case's Q0–Q5 quality plan. It is not a product benchmark, certification, endorsement or claim that Microsoft Agent 365 causes those failures.
 

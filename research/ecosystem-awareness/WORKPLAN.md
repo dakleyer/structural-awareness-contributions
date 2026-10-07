@@ -1,12 +1,14 @@
 # Ecosystem Awareness / Positioning — Living Workplan
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 > **A/B/C/D semantic reference.** [00M §1 — canonical A/B/C/D definitions](baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical) governs these process-relative roles. A known assessable option left unused is B; C requires a grounded but uncharacterized exploration avenue; D requires an effective evaluation barrier. This reference does not rename local test arms, change requirements or revalidate recorded proofs/results.
 
 > **Status:** live control document for pending research, architecture, validation and publication work.  
 > **Owner context:** Structural Awareness Programme / Ecosystem Awareness / Ecosystem Positioning.  
 > **Rule:** this file records what is **not yet complete**. It is not a canonical architecture specification, benchmark result, standards claim or validation result.
 
-> **DDS routing — 7 October 2026.** All substantive test/evaluation work in this workplan is interpreted through the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md). W2 “Benchmark vNext” and W3 “Testbed coverage vNext” are programme workstreams, not parallel testing methods. 00D supplies DDS comparator/fairness support; fixture/oracle/harness work supplies evidence/infrastructure; Stage-0/1/2 labels retain their historical testbed/evidence-maturity meanings and are orthogonal to DDS Gate A/B/C. Existing W2/W3 identifiers are preserved for continuity.
+> **DDS routing — 7 October 2026.** All substantive test/evaluation work in this workplan is interpreted through the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md). W2 “Benchmark vNext” and W3 “Testbed coverage vNext” are programme workstreams, not parallel testing methods. 00D supplies DDS comparator/fairness support; fixture/oracle/harness work supplies evidence/infrastructure; Stage-0/1/2 labels retain their historical testbed/evidence-maturity meanings and are orthogonal to DDS Stage A/B/C. Existing W2/W3 identifiers are preserved for continuity.
 
 ## How to maintain this workplan
 

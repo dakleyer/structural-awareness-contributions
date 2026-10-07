@@ -1,5 +1,7 @@
 # R01 — Mathematical extension protocol by technology mechanisms
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Documentary version 0.4 · 6 October 2026 · M13 in development; DDS research correspondence and first model packet.
 Single base: [R01 mathematical validation v0.2](./R01_CONDITIONED_TRILEMMA_THEOREM.md).
 Reviewed precedent: [consistency of the three extensions](./EXTENSION_CONSISTENCY_REVIEW.md).
@@ -7,7 +9,7 @@ First mathematical application: [human escalation with whispering](./HUMAN_ESCAL
 
 ## DDS profile relationship
 
-This protocol remains the controlling extension method **inside R01**. The programme-wide [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) routes the overall A/B/C method, while [DDS Gate A — Specification Discovery](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) reuses this protocol's discipline — preserved correspondence before parameter changes and additional mechanisms — as one Gate-A methodological source. Neither the Index nor Gate A imports R01's mathematical conclusions into other Challenges.
+This protocol remains the controlling extension method **inside R01**. The programme-wide [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) routes the overall A/B/C method, while [DDS Stage A — Specification Discovery](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) reuses this protocol's discipline — preserved correspondence before parameter changes and additional mechanisms — as one Stage A methodological source. Neither the Index nor Stage A imports R01's mathematical conclusions into other Challenges.
 
 For a technology extension to be represented as a richer DDS implementation profile, record after the existing R01 obligations:
 

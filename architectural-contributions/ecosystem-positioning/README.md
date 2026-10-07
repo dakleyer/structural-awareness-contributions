@@ -4,6 +4,8 @@
 <div align="center">
 
 # Ecosystem Positioning
+
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 ### Agentic Architecture for staying situated as the ecosystem changes
 
 [![Requirements & Evidence](https://img.shields.io/badge/OPEN-REQUIREMENTS%20%26%20EVIDENCE-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/main/presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx)
@@ -110,7 +112,7 @@ Control sufficiency, Ecosystem Cartography and bounded repositioning under legit
 
 | **5 minutes** | **20 minutes** | **Technical review** |
 |---|---|---|
-| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Gate A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Stage A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
 
 ```mermaid
 flowchart LR
@@ -766,7 +768,7 @@ The [DAOS / Delegated Authority OS masterclass](../../research/ecosystem-awarene
 
 # From scenarios to executable fixtures
 
-> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Gate-A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Gate-B and Gate-C claims require their own upstream packages and cannot be inferred from these earlier records.
+> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Stage A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Stage B and Stage C claims require their own upstream packages and cannot be inferred from these earlier records.
 
 A narrative scenario is not evidence by itself. The corpus therefore separates **scenario**, **fixture**, **oracle**, **harness**, **pre-registration** and **execution**.
 

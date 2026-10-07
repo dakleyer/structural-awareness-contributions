@@ -1,8 +1,10 @@
 # DDS — Durable workflow/retry and useful closure
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Version0.2 ·6 October2026 · completed within declared persisted local-model scope.
 
-> **DDS classification — 7 October 2026.** This is a **Simplified DDS Gate-A — Specification Discovery** study under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md). Executed local code/fixtures strengthen its evidence mode but do not make it Gate-B architecture verification or Gate-C native/product validation. Frozen Run Cards, FREEZE files and RESULTS retain their original execution-time identity and are not rewritten by this classification.
+> **DDS classification — 7 October 2026.** This is a **Simplified DDS Stage A — Specification Discovery** study under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md). Executed local code/fixtures strengthen its evidence mode but do not make it Stage B architecture verification or Stage C native/product validation. Frozen Run Cards, FREEZE files and RESULTS retain their original execution-time identity and are not rewritten by this classification.
 
 
 ## Executive finding
@@ -30,7 +32,7 @@ The result counts are designed cases, not probabilities of reliability or human 
 
 WF04 declares M in advance, makes it available under the same permanent outage/deadline5/fallback contract and actually executes the bounded witness: two failed attempts plus a deferment tick close M at3. The retry-to-horizon controller uses all5 ticks and ends Ø. No structural barrier prevents M in that selected model; its persistent unresolved retries prevent useful closure.
 
-That is the local operational signature specified by the current DDS Gate-A M-floor/Type1 diagnostic. It does not classify all retry failures or all Ø as Type1, and it proves no population EA theory. Duplicate effect P is not automatically called Type2; causal false-qualification evidence would need its own review. No hidden minimum-sufficient work witness/excess-work optimum is computed; the bounded M witness is an available legitimate route, not a global optimum.
+That is the local operational signature specified by the current DDS Stage A M-floor/Type1 diagnostic. It does not classify all retry failures or all Ø as Type1, and it proves no population EA theory. Duplicate effect P is not automatically called Type2; causal false-qualification evidence would need its own review. No hidden minimum-sufficient work witness/excess-work optimum is computed; the bounded M witness is an available legitimate route, not a global optimum.
 
 ## Source, freeze, trace and oracle
 

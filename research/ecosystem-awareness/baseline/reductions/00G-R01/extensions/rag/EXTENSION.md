@@ -1,8 +1,10 @@
 # RAG retrieval and evidence admission — technology extension
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Version0.2 ·6 October2026 · own scoped research profile.
 
-This extension is a **Simplified DDS Gate-A** specification-discovery profile under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its base is the authored current-policy retrieval Challenge, not R01's probability law. Folder placement under R01 does not establish R01 membership or transfer any all-policy theorem.
+This extension is a **Simplified DDS Stage A** specification-discovery profile under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Stage A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its base is the authored current-policy retrieval Challenge, not R01's probability law. Folder placement under R01 does not establish R01 membership or transfer any all-policy theorem.
 
 ## Purpose and configured technology
 

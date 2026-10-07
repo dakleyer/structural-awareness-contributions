@@ -1,8 +1,10 @@
 # DDS scoped completion — Human Escalation / Whispering, STPA, SPIFFE and RATS
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 Version0.1 · 6 October2026 · current audited study edition.
 
-These four studies now have an explicit current correspondence to the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its [Gate-A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), including both Gate-A extension-review stages, proportional closure, material assumptions, Cost/Risk/Effectiveness, conditional Business Value and delivery boundaries. They are complete **within their declared analytical/local Gate-A scope**; none is Gate-B architecture verification, complete Gate-C native/independent/population validation or commissioned SOW fulfilment.
+These four studies now have an explicit current correspondence to the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its [Stage A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), including both Stage A extension-review stages, proportional closure, material assumptions, Cost/Risk/Effectiveness, conditional Business Value and delivery boundaries. They are complete **within their declared analytical/local Stage A scope**; none is Stage B architecture verification, complete Stage C native/independent/population validation or commissioned SOW fulfilment.
 
 |Study / current report|Original results freshly reproduced|New completed boundary review|
 |---|---|---|

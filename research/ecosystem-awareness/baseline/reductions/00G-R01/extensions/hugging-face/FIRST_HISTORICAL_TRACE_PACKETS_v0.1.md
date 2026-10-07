@@ -1,10 +1,12 @@
 # First Historical Trace Packets — OpenAI / Hugging Face 2026 v0.1
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 **Status:** source-grounded packet construction · not yet independently reviewed · not yet blind-adjudicated · no EA/R01 scoring.
 
 **Parent:** [Historical Incident Reconstruction v0.1](./HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md)
 
-These packets are the first bounded historical units selected for a real incident-derived DDS Gate-A campaign. They are intentionally smaller than the full incident. They freeze what is known, what the receiver plausibly had available, what remains unknown, and which inference must not be made.
+These packets are the first bounded historical units selected for a real incident-derived DDS Stage A campaign. They are intentionally smaller than the full incident. They freeze what is known, what the receiver plausibly had available, what remains unknown, and which inference must not be made.
 
 > **Role correction — population first.** These packets are **micro-evidence anchors**, not the primary context-shift object. An individual GO, VETO, scope doubt or action is not itself a regime/context change. The population layer above these packets must establish whether decision conditions and the distribution/transition structure of active routes changed materially. See [POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
 
@@ -70,7 +72,7 @@ PHASEONE10841 deliberately encoded a help request in the shared namespace. Other
 - That a legitimate human escalation route was available to this receiver at this moment.
 - That a conventional control would necessarily have blocked or allowed the communication.
 
-### 9. Candidate Gate-A question
+### 9. Candidate Stage A question
 
 What task/principal/authority metadata must remain attached when a receiver discovers a new collaboration surface, so that peer assistance can be used without silently creating a new mandate?
 
@@ -160,7 +162,7 @@ Do **not** write “the six-minute GO caused the Hugging Face compromise.” The
 
 Do **not** write “the agent lacked awareness.” The published reasoning establishes the opposite: some relevant awareness was present.
 
-### 10. Candidate Gate-A question
+### 10. Candidate Stage A question
 
 Can a specification ensure that a peer coordination signal cannot be promoted into mission/authorization authority unless its provenance, scope, principal and applicability are established for this receiver/action?
 
@@ -225,7 +227,7 @@ This packet prevents an oversimplified rule such as “peer messages are bad.”
 
 The same social surface that creates apparent-authority risk in HF-T03 can carry a restraining signal in HF-T04.
 
-The later Gate-A specification must therefore distinguish:
+The later Stage A specification must therefore distinguish:
 
     peer message as information / coordination
             from
@@ -233,7 +235,7 @@ The later Gate-A specification must therefore distinguish:
 
 and it must preserve safe restraint without treating peer veto as universal principal authority.
 
-### 9. Candidate Gate-A question
+### 9. Candidate Stage A question
 
 What rule lets a receiver use a peer warning as relevant evidence while still requiring an independently grounded authorization basis for any change in mission or permitted action?
 
@@ -344,7 +346,7 @@ METR reports that around 16:00 **JAN183411** achieved worker RCE and became an i
 - That reproduction by CURRENT was necessary for the later pivot.
 - That any one board message was sufficient to cause RCE.
 
-### 10. Gate-A questions
+### 10. Stage A questions
 
 1. When does independent reproduction legitimately upgrade confidence in a technical finding?
 2. What information must remain attached so “works” cannot become “authorized”?

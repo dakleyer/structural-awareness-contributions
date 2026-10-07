@@ -1,5 +1,7 @@
 # Oráculo / harness R01 C02 — VNext de auditoría
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 El oráculo de R01 debe permitir comparar cómo distintas tecnologías encuentran una buena solución permitida, cuánto esfuerzo necesitan y si actúan dentro de su autoridad y plazo. Para hacerlo, separa lo que sabe el evaluador de lo que puede observar el candidato. Un bloqueo no es éxito si también impide la actividad legítima; una etiqueta correcta tampoco demuestra que el efecto sobre el destino haya sido correcto.
 
 La revisión encuentra una base propia considerable: los harness anteriores ya aportan trazas, replay, controles semánticos, ejecución con estado y recuperación. El nuevo R01 puede componer esas piezas mediante adaptadores. La dificultad es conservar el significado de cada escenario y sus costes, sin convertir los resultados anteriores en validación automática de R01 o de EA. Nelson aporta el contrato y el ciclo experimental UC4; ese trabajo complementa los harness propios.
@@ -1245,41 +1247,41 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 ## 7 October 2026 — A/B/C gate integration workstream
 
-**New design instruction from Iván.** The Oracle VNext must now track how the current neutral oracle/harness can support three DDS development gates without reclassifying historical evidence:
+**New design instruction from Iván.** The Oracle VNext must now track how the current neutral oracle/harness can support three DDS development stages without reclassifying historical evidence:
 
-- **Gate A — Specification Discovery:** select/compare candidate specifications against the frozen Challenge.
-- **Gate B — Architecture Verification:** verify a candidate architecture/reference realization against the frozen Gate-A specification package.
-- **Gate C — Implementation / Problem Validation:** validate a pinned executable implementation against the Challenge and observed effects.
+- **Stage A — Specification Discovery:** select/compare candidate specifications against the frozen Challenge.
+- **Stage B — Architecture Verification:** verify a candidate architecture/reference realization against the frozen Stage A specification package.
+- **Stage C — Implementation / Problem Validation:** validate a pinned executable implementation against the Challenge and observed effects.
 
-The concrete design is recorded in the [UC-4 interoperability VNext](./UC4_INTEROPERABILITY_PROFILE_VNext.md#7-october-2026-design-continuation--concrete-abc-integration-into-the-current-r01-oracle). It includes current-asset reuse, first Gate-B pilot, required vectors/mutations, proposed Oracle VNext structure, C11 lineage and T03 reuse.
+The concrete design is recorded in the [UC-4 interoperability VNext](./UC4_INTEROPERABILITY_PROFILE_VNext.md#7-october-2026-design-continuation--concrete-abc-integration-into-the-current-r01-oracle). It includes current-asset reuse, first Stage B pilot, required vectors/mutations, proposed Oracle VNext structure, C11 lineage and T03 reuse.
 
 ### Current maturity interpretation
 
 | Layer | Current status | Main missing item |
 |---|---|---|
 | **Shared C02 substrate** | Limited Stage-0 implementation exists and v0.9 self-test is frozen/passing. | Full C02 closure, external second-method review, Nelson source review/schema validation and fuller R01 semantic coverage. |
-| **Gate A** | Substantially represented by current Challenge/reference/acceptance, technology mappings, virtual traversals and specification work. | Explicit versioned Gate-A specification package and lineage export. |
-| **Gate B** | Pieces exist: adapters, CTv1, deterministic controls, stateful S5/00I assets, mutation/replay/malformed patterns. No actual Gate-B adjudication yet. | Frozen spec-to-architecture trace matrix, architecture manifest, Gate-B policy and first deterministic conformance campaign. |
-| **Gate C** | Admission skeleton already exists through C11/T03 registration, isolation, interactive broker, native/normalized trace and effect observation. | A real admitted implementation/campaign; no current self-test is Gate-C product validation. |
+| **Stage A** | Substantially represented by current Challenge/reference/acceptance, technology mappings, virtual traversals and specification work. | Explicit versioned Stage A specification package and lineage export. |
+| **Stage B** | Pieces exist: adapters, CTv1, deterministic controls, stateful S5/00I assets, mutation/replay/malformed patterns. No actual Stage B adjudication yet. | Frozen spec-to-architecture trace matrix, architecture manifest, Stage B policy and first deterministic conformance campaign. |
+| **Stage C** | Admission skeleton already exists through C11/T03 registration, isolation, interactive broker, native/normalized trace and effect observation. | A real admitted implementation/campaign; no current self-test is Stage C product validation. |
 
 ### Non-negotiable interpretation boundary
 
-- Existing evaluation_scope="BATCH_CONFORMANCE" is **not** retroactively Gate B.
-- Existing interactive synthetic effects are **not** retroactively Gate C.
-- T03 should be reused as the real-implementation admission path for Gate C rather than duplicated.
-- Gate B should first be piloted on the bounded 00I/S5 stateful slice, reusing existing Q0–Q6/S-T-H obligations rather than creating a new requirement family.
+- Existing evaluation_scope="BATCH_CONFORMANCE" is **not** retroactively Stage B.
+- Existing interactive synthetic effects are **not** retroactively Stage C.
+- T03 should be reused as the real-implementation admission path for Stage C rather than duplicated.
+- Stage B should first be piloted on the bounded 00I/S5 stateful slice, reusing existing Q0–Q6/S-T-H obligations rather than creating a new requirement family.
 - The frozen v0.9 instrument remains the regression anchor; A/B/C support belongs to a successor implementation.
 
 ### Next engineering slice
 
 The next implementable slice, if authorized, is:
 
-1. export one Gate-A specification package from the frozen 00I/S5 material;
+1. export one Stage A specification package from the frozen 00I/S5 material;
 2. define one architecture manifest and requirements-verification matrix;
-3. build the Gate-B deterministic runner over existing Stage-0 trace/integrity machinery;
+3. build the Stage B deterministic runner over existing Stage-0 trace/integrity machinery;
 4. include clean continuity plus supersession, drift, unavailable evidence, source-owner mismatch, post-verdict change and malformed/replay/order controls;
 5. add deliberate architecture mutations so a weak verification suite cannot pass;
 6. preserve NOT_ESTABLISHED and semantic-owner boundaries;
-7. keep Gate C unexecuted until C02/C11/T03 admission and real implementation access exist.
+7. keep Stage C unexecuted until C02/C11/T03 admission and real implementation access exist.
 
 This workstream is a proposal in VNext, not an incorporated change to the frozen oracle or canonical DDS.

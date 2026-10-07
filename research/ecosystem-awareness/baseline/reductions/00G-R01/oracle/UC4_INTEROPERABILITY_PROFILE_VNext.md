@@ -1,5 +1,7 @@
 # Revisión cruzada con el oráculo R01 — UC4_INTEROPERABILITY_PROFILE.md
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 **6 de octubre de 2026 · revisión acumulativa 1.1 · Codex /root, mismo asistente.**
 Fuente: [documento original](UC4_INTEROPERABILITY_PROFILE.md), corte `715027943eefb372fdb4541a23d288bffdedbdb2`, blob `cc3ed878212bdc02eb4aff7149bb80b3db018d1e`.
 Esta es la única VNext de ese documento lógico. El original permanece intacto. [Método](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md).
@@ -101,20 +103,20 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 
 ## 7 October 2026 design continuation — concrete A/B/C integration into the current R01 oracle
 
-**Instruction context.** Iván asked to move beyond a bibliography of verification/validation references and specify how the three DDS gates would actually connect to the current R01 oracle, Nelson's UC-4 testbed, the existing Stage-0 instrument, the Oracle VNext, C02/C11/T03, and the first practical tests. This section is a design proposal only. It does not alter the frozen v0.9 instrument, any historical result, Nelson's UC-4 semantics, or the canonical DDS.
+**Instruction context.** Iván asked to move beyond a bibliography of verification/validation references and specify how the three DDS stages would actually connect to the current R01 oracle, Nelson's UC-4 testbed, the existing Stage-0 instrument, the Oracle VNext, C02/C11/T03, and the first practical tests. This section is a design proposal only. It does not alter the frozen v0.9 instrument, any historical result, Nelson's UC-4 semantics, or the canonical DDS.
 
 ### 1. The gates classify what is being adjudicated, not how mature the UC-4 testbed is
 
-The existing UC-4 levels and the proposed DDS gates are orthogonal axes.
+The existing UC-4 levels and the proposed DDS stages are orthogonal axes.
 
 - Nelson Stage-0 is primarily a deterministic mapping/calibration and testbed-semantics layer.
 - Nelson Stage-1 is a separately agreed federated/runtime integration.
-- DDS Gate A/B/C identify the object and claim under adjudication:
+- DDS Stage A/B/C identify the object and claim under adjudication:
   - A: candidate specification package against a Challenge;
-  - B: architecture/reference realization against the frozen Gate-A specification;
+  - B: architecture/reference realization against the frozen Stage A specification;
   - C: executable implementation against the Challenge/observed effects.
 
-Therefore a Gate-B architecture test can legitimately run inside a UC-4 Stage-0 deterministic profile. A Gate-C federated campaign may require UC-4 Stage-1. A UC-4 Stage-1 integration is not automatically Gate C if it is only exercising synthetic reference components.
+Therefore a Stage B architecture test can legitimately run inside a UC-4 Stage-0 deterministic profile. A Stage C federated campaign may require UC-4 Stage-1. A UC-4 Stage-1 integration is not automatically Stage C if it is only exercising synthetic reference components.
 
 ### 2. C02/C11/T03 are retained, not renamed as A/B/C
 
@@ -128,12 +130,12 @@ C11 — preregistered campaign/resources/comparators/analysis
 T03 — admitted real-technology adapter and campaign
 ~~~~
 
-The three DDS gates sit inside that chain:
+The three DDS stages sit inside that chain:
 
 ~~~~text
-                         ┌────────────── Gate A
-C02 shared oracle ───────┼────────────── Gate B
-                         └────────────── Gate C
+                         ┌────────────── Stage A
+C02 shared oracle ───────┼────────────── Stage B
+                         └────────────── Stage C
                                   |
                                   v
                          C11 freezes the chosen
@@ -142,46 +144,46 @@ C02 shared oracle ───────┼────────────�
                                   v
                          T03 is required when the
                          candidate is a real technology
-                         (normally Gate C)
+                         (normally Stage C)
 ~~~~
 
-C02 is therefore not Gate A. It qualifies shared evaluator machinery that can later host A, B or C profiles. C11 remains the campaign-registration layer. T03 already provides most of Gate-C admission and should be extended only with A/B lineage, not replaced by another real-execution framework.
+C02 is therefore not Stage A. It qualifies shared evaluator machinery that can later host A, B or C profiles. C11 remains the campaign-registration layer. T03 already provides most of Stage C admission and should be extended only with A/B lineage, not replaced by another real-execution framework.
 
 ### 3. Current oracle maturity mapped to A/B/C
 
-| Existing R01 oracle asset | Current maturity | Gate A reuse | Gate B reuse | Gate C reuse |
+| Existing R01 oracle asset | Current maturity | Stage A reuse | Stage B reuse | Stage C reuse |
 |---|---|---|---|---|
-| reference.py + reference_secondary.py | Two exact bounded reference paths; same maintainer, not independent external validation | Primary Challenge/world reference | Regression source only; not the Gate-B truth source | Challenge/world reference after actual execution |
-| GATE_POLICY_CONTRACT.md + frozen gate_policy.json | Separates world truth from acceptance thresholds | Directly reusable for Challenge/spec-selection profiles | Only for Challenge-derived regression vectors; Gate B needs a separate spec-conformance policy | Directly reusable as problem-validation acceptance where the profile matches |
+| reference.py + reference_secondary.py | Two exact bounded reference paths; same maintainer, not independent external validation | Primary Challenge/world reference | Regression source only; not the Stage B truth source | Challenge/world reference after actual execution |
+| GATE_POLICY_CONTRACT.md + frozen gate_policy.json | Separates world truth from acceptance thresholds | Directly reusable for Challenge/spec-selection profiles | Only for Challenge-derived regression vectors; Stage B needs a separate spec-conformance policy | Directly reusable as problem-validation acceptance where the profile matches |
 | TRACE_CONTRACT.md / CTv1 | Candidate trace sealing, post-run seal, public/private evidence | Reuse | Reuse, adding requirement/architecture-element IDs | Reuse; add native trace/effect evidence |
-| UC-4 sidecar schema | Version/source/review/adapter/oracle/acceptance linkage | Reuse | Reuse with Gate-A spec lineage + architecture package refs | Reuse with A/B lineage + implementation refs |
+| UC-4 sidecar schema | Version/source/review/adapter/oracle/acceptance linkage | Reuse | Reuse with Stage A spec lineage + architecture package refs | Reuse with A/B lineage + implementation refs |
 | BATCH_RESULT adapter | Deterministic Stage-0 mapping/instrumentation | Suitable for analytical/virtual specification projections | Suitable for deterministic architecture/reference-model profiles | Not sufficient by itself for a real product claim |
 | INTERACTIVE_TOOL_BROKER | Stateful action surface + private effect evidence | Optional | Useful for stateful reference architectures | Preferred for real agents/workflows needing actual action/effect evidence |
 | TOOL_BROKER_CONTRACT.md | Declared operations, visibility, charge, time, state transition, effect | Reuse in richer A profiles | Reuse when architecture semantics include stateful operations | Reuse as neutral execution service |
 | ISOLATION_CONTRACT.md | Strong boundary for real T03 candidate | Not normally required for analytical A | Required only if B uses an external executable model that must be isolated | Required for real candidate decision logic |
-| REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json + real_admission.py | Strict pre-execution T03 admission | No | No, unless Gate B evaluates an already-existing executable as a conformance target | Primary Gate-C admission path |
-| Nelson positive/boundary/rejection, malformed, replay, order, sensitivity controls | Already imported as testbed patterns | Reuse | Core Gate-B regression and mutation pattern | Reuse where applicable to campaign hygiene |
+| REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json + real_admission.py | Strict pre-execution T03 admission | No | No, unless Stage B evaluates an already-existing executable as a conformance target | Primary Stage C admission path |
+| Nelson positive/boundary/rejection, malformed, replay, order, sensitivity controls | Already imported as testbed patterns | Reuse | Core Stage B regression and mutation pattern | Reuse where applicable to campaign hygiene |
 
-### 4. Important correction: current BATCH_CONFORMANCE is not Gate B
+### 4. Important correction: current BATCH_CONFORMANCE is not Stage B
 
-The current harness.py uses evaluation_scope="BATCH_CONFORMANCE" to compare a candidate-selected trajectory against R01's private reference and frozen acceptance rule. That label describes the current instrumentation mode; it does not mean "architecture conforms to Gate-A specifications".
+The current harness.py uses evaluation_scope="BATCH_CONFORMANCE" to compare a candidate-selected trajectory against R01's private reference and frozen acceptance rule. That label describes the current instrumentation mode; it does not mean "architecture conforms to Stage A specifications".
 
 Therefore:
 
-- do not relabel existing v0.9 results as Gate B;
+- do not relabel existing v0.9 results as Stage B;
 - do not infer architecture verification from current PASS results;
 - preserve all old hashes/statuses;
-- introduce a separate Gate-B adjudication contract in a successor instrument.
+- introduce a separate Stage B adjudication contract in a successor instrument.
 
-The current batch path is still valuable because it already implements candidate-first execution, hidden expected/reference state, authoritative resource measurement, trace sealing, replay and no-reference behavior. Gate B can reuse those mechanics while changing the authoritative reference from the Challenge optimum to the frozen specification package.
+The current batch path is still valuable because it already implements candidate-first execution, hidden expected/reference state, authoritative resource measurement, trace sealing, replay and no-reference behavior. Stage B can reuse those mechanics while changing the authoritative reference from the Challenge optimum to the frozen specification package.
 
-### 5. Gate A — make the existing specification-discovery work explicit without rebuilding it
+### 5. Stage A — make the existing specification-discovery work explicit without rebuilding it
 
-Gate A is already the most mature layer. The missing work is principally packaging and lineage, not a new evaluator.
+Stage A is already the most mature layer. The missing work is principally packaging and lineage, not a new evaluator.
 
-#### Gate-A input
+#### Stage A input
 
-A Gate-A profile freezes:
+A Stage A profile freezes:
 
 1. Challenge/scenario/reduction version;
 2. incumbent/native documented configuration;
@@ -191,7 +193,7 @@ A Gate-A profile freezes:
 6. admitted information/authority/resources;
 7. acceptance policy and evidence mode.
 
-#### Gate-A candidate object
+#### Stage A candidate object
 
 The candidate is not prose alone. Each candidate specification must have an operational projection sufficient for the selected Challenge. That projection may be:
 
@@ -204,13 +206,13 @@ The candidate is not prose alone. Each candidate specification must have an oper
 
 This projection is evidence about the specification under the reduction, not an implementation of a production architecture.
 
-#### Gate-A oracle use
+#### Stage A oracle use
 
 The existing R01 Challenge/world reference remains authoritative. Candidate specification projections are compared under the same frozen facts and strong-peer rules. Existing I/M/P/Ø, positive/negative routes, C/R/E where in scope, and INCONCLUSIVE behavior remain valid.
 
-#### Gate-A output to freeze before B
+#### Stage A output to freeze before B
 
-A successor Gate-A package should emit one versioned object containing at least:
+A successor Stage A package should emit one versioned object containing at least:
 
 ~~~~text
 challenge_hash
@@ -224,26 +226,26 @@ positive_control_refs
 falsifier_refs
 assumptions/exclusions
 evidence_mode
-Gate-A finding per requirement/package
+Stage A finding per requirement/package
 ~~~~
 
-This package becomes the truth reference for Gate B. Gate B may find the package unrealizable or incomplete, but may not silently edit it.
+This package becomes the truth reference for Stage B. Stage B may find the package unrealizable or incomplete, but may not silently edit it.
 
-### 6. Gate B — concrete architecture-verification design
+### 6. Stage B — concrete architecture-verification design
 
-Gate B is the missing middle layer. It should be implemented as a verification package over an architecture/reference realization, not as a product benchmark.
+Stage B is the missing middle layer. It should be implemented as a verification package over an architecture/reference realization, not as a product benchmark.
 
-#### 6.1 Gate-B candidate
+#### 6.1 Stage B candidate
 
-A Gate-B candidate consists of:
+A Stage B candidate consists of:
 
-1. architecture manifest — components, interfaces, state variables, semantic owners, operations, dependencies and trust boundaries relevant to the selected Gate-A requirements;
-2. requirement-to-architecture trace matrix — every selected mandatory Gate-A requirement maps to one or more architecture elements and a declared verification method;
+1. architecture manifest — components, interfaces, state variables, semantic owners, operations, dependencies and trust boundaries relevant to the selected Stage A requirements;
+2. requirement-to-architecture trace matrix — every selected mandatory Stage A requirement maps to one or more architecture elements and a declared verification method;
 3. reference realization — enough executable/formal/deterministic behavior to exercise those mappings;
 4. native architecture trace — the realization's own events/state transitions;
 5. normalized CTv1-compatible projection for common oracle/testbed handling.
 
-It is acceptable for the reference realization to be a finite state model, deterministic harness, formal model or narrow executable reference component. Gate B does not require a production-quality product.
+It is acceptable for the reference realization to be a finite state model, deterministic harness, formal model or narrow executable reference component. Stage B does not require a production-quality product.
 
 #### 6.2 Verification methods
 
@@ -257,12 +259,12 @@ Reuse established verification categories rather than inventing DDS-specific one
 
 One requirement may use several methods. A method that cannot establish the clause is recorded as insufficient rather than upgraded.
 
-#### 6.3 Gate-B oracle contract
+#### 6.3 Stage B oracle contract
 
-The authoritative Gate-B reference is:
+The authoritative Stage B reference is:
 
 ~~~~text
-frozen Gate-A specification package
+frozen Stage A specification package
 + requirement-to-architecture trace map
 + specification-derived positive controls
 + specification-derived rejection/boundary vectors
@@ -271,7 +273,7 @@ frozen Gate-A specification package
 
 It is not reference.py's optimum world by itself.
 
-The Gate-B evaluator asks, requirement by requirement:
+The Stage B evaluator asks, requirement by requirement:
 
 1. is the requirement mapped to an architecture element?
 2. is the semantic owner/source preserved?
@@ -282,7 +284,7 @@ The Gate-B evaluator asks, requirement by requirement:
 7. does the realization depend on private/oracle truth unavailable to a legitimate implementation?
 8. are unsupported clauses explicit rather than silently passed?
 
-#### 6.4 Gate-B result semantics
+#### 6.4 Stage B result semantics
 
 Use requirement-level results first; avoid one seductive scalar score.
 
@@ -293,18 +295,18 @@ Proposed bounded statuses:
 - NONCONFORMANT — the architecture contradicts or fails the frozen requirement;
 - NOT_ESTABLISHED — evidence/method is insufficient.
 
-Overall Gate-B acceptance requires:
+Overall Stage B acceptance requires:
 
-- every mandatory selected requirement to be VERIFIED, unless the Gate-A package explicitly permits a profile subset;
+- every mandatory selected requirement to be VERIFIED, unless the Stage A package explicitly permits a profile subset;
 - all mandatory positive controls to pass;
 - every targeted mutation/counterexample to be detected by the expected verification obligation or an explicitly credited stronger one;
 - no architecture bypass that makes a nominal requirement ineffective;
 - no hidden oracle/private-world dependency;
 - all source-semantic ownership mappings preserved.
 
-A Gate-B failure normally revises the architecture. If the failure demonstrates that the Gate-A specification itself is contradictory, incomplete or unimplementable, the process opens Gate-A successor version A+1. The failed B record remains immutable.
+A Stage B failure normally revises the architecture. If the failure demonstrates that the Stage A specification itself is contradictory, incomplete or unimplementable, the process opens Stage A successor version A+1. The failed B record remains immutable.
 
-### 7. First Gate-B pilot: 00I / S5 / UC21 through the UC-4 Stage-0 envelope
+### 7. First Stage B pilot: 00I / S5 / UC21 through the UC-4 Stage-0 envelope
 
 Do not start with all R01. Use the smallest stateful slice that already has mature evidence and external contributor interaction.
 
@@ -328,7 +330,7 @@ This is enough to verify an architecture realization without claiming AWS execut
 
 #### Pilot requirements
 
-Reuse the existing 00I Q0–Q6 / mapped S/T/H requirements. Do not create a new Gate-B requirement family.
+Reuse the existing 00I Q0–Q6 / mapped S/T/H requirements. Do not create a new Stage B requirement family.
 
 The pilot architecture must show where it realizes the relevant existing obligations, including current-source/use-time checking, supersession/lineage handling, action-boundary binding/recheck, separation of decision from effect and legitimate continuity.
 
@@ -354,7 +356,7 @@ target-state observer
 
 The specific names are local to the pilot. They do not become canonical EA component names.
 
-#### Gate-B vectors
+#### Stage B vectors
 
 At minimum run:
 
@@ -367,7 +369,7 @@ At minimum run:
 7. malformed mapping — reject one bad record without corrupting valid cases;
 8. replay/order controls — deterministic profiles retain expected hashes/statuses under registered replay/order invariants.
 
-#### Gate-B architecture mutations
+#### Stage B architecture mutations
 
 Deliberately create broken realizations and require the suite to catch them:
 
@@ -379,7 +381,7 @@ Deliberately create broken realizations and require the suite to catch them:
 - remove source/scope/version binding;
 - blanket-deny all action, which must fail the legitimate-continuity control.
 
-This mutation suite is crucial. A verification suite that also passes these broken architectures is not sufficient Gate-B evidence.
+This mutation suite is crucial. A verification suite that also passes these broken architectures is not sufficient Stage B evidence.
 
 #### Pilot output
 
@@ -424,17 +426,17 @@ A VNext oracle should make the reference explicit:
 ~~~~text
 shared run/trace/integrity substrate
       |
-      +-- Gate A adjudicator
+      +-- Stage A adjudicator
       |      reference = Challenge/world + acceptance
       |
-      +-- Gate B adjudicator
+      +-- Stage B adjudicator
       |      reference = frozen specification + verification matrix
       |
-      +-- Gate C adjudicator
+      +-- Stage C adjudicator
              reference = Challenge/world + observed actual effects
 ~~~~
 
-This need not be one monolithic oracle.py. Separate modules are safer because accidental use of Challenge truth inside Gate B would be detectable.
+This need not be one monolithic oracle.py. Separate modules are safer because accidental use of Challenge truth inside Stage B would be detectable.
 
 A practical successor layout could be:
 
@@ -467,15 +469,15 @@ The current gate_policy.json remains the frozen acceptance rule for its existing
 
 A successor profile should instead reference one gate-specific policy object.
 
-#### Gate A policy
+#### Stage A policy
 
 Carries the existing Challenge acceptance and candidate-specification selection/finding rule.
 
-#### Gate B policy
+#### Stage B policy
 
 Carries:
 
-- Gate-A package hash;
+- Stage A package hash;
 - selected mandatory requirement IDs;
 - allowed verification methods per row;
 - positive-control set;
@@ -483,9 +485,9 @@ Carries:
 - treatment of partial/not-established evidence;
 - overall conformance rule.
 
-No I/M/P optimum is required merely to verify architecture realization. Challenge-derived vectors can remain regression pressure without becoming the Gate-B truth source.
+No I/M/P optimum is required merely to verify architecture realization. Challenge-derived vectors can remain regression pressure without becoming the Stage B truth source.
 
-#### Gate C policy
+#### Stage C policy
 
 Carries the Challenge acceptance rule, actual-effect requirement, matched-comparator contract and C/R/E accounting appropriate to the campaign. Where the existing R01 gate policy already represents this bounded problem, reuse it by hash.
 
@@ -493,12 +495,12 @@ Carries the Challenge acceptance rule, actual-effect requirement, matched-compar
 
 C11 already owns campaign registration, resources, comparators and analysis. Do not create an A/B/C replacement.
 
-When a result-producing Gate-B or Gate-C campaign is registered, extend the registration record with gate lineage:
+When a result-producing Stage B or Stage C campaign is registered, extend the registration record with stage lineage:
 
 ~~~~text
 dds_gate
-Gate-A specification package hash
-Gate-B architecture package hash (if C)
+Stage A specification package hash
+Stage B architecture package hash (if C)
 verification report hash (if C)
 Challenge hash
 gate-policy hash
@@ -506,13 +508,13 @@ vector/mutation-set hash
 evidence-mode declaration
 ~~~~
 
-For a Gate-A documentary/analytical study already frozen under its own DDS profile, C11 may remain unnecessary until a campaign is actually being registered. The canonical workplan should decide this explicitly rather than retroactively calling every historical analysis a C11 campaign.
+For a Stage A documentary/analytical study already frozen under its own DDS profile, C11 may remain unnecessary until a campaign is actually being registered. The canonical workplan should decide this explicitly rather than retroactively calling every historical analysis a C11 campaign.
 
-### 11. Gate C — reuse T03 instead of inventing a fourth execution framework
+### 11. Stage C — reuse T03 instead of inventing a fourth execution framework
 
 The present REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json, real_admission.py, ISOLATION_CONTRACT.md, TECHNOLOGY_ADAPTER_GUIDE.md, INTERACTIVE_TOOL_BROKER and effect recorder already form the correct skeleton.
 
-Gate C therefore needs primarily lineage, not a new execution design.
+Stage C therefore needs primarily lineage, not a new execution design.
 
 Add to a future T03 registration:
 
@@ -527,9 +529,9 @@ comparator pin
 effect-observer pin
 ~~~~
 
-For a pre-existing product that was not designed through Gate A/B, Gate B can be performed retrospectively as an architecture-to-specification mapping/verification exercise before the C campaign. It is not necessary that DDS designed the product.
+For a pre-existing product that was not designed through Stage A/B, Stage B can be performed retrospectively as an architecture-to-specification mapping/verification exercise before the C campaign. It is not necessary that DDS designed the product.
 
-The current real_admission.py checks already cover most Gate-C admission:
+The current real_admission.py checks already cover most Stage C admission:
 
 - real implementation/version/access;
 - UC-4 source review/schema validation;
@@ -545,11 +547,11 @@ The current real_admission.py checks already cover most Gate-C admission:
 - negative/inconclusive retention;
 - technical/preparer/source/independent-oracle review.
 
-That code should not be duplicated. A later revision would only verify the new A/B lineage hashes and the selected Gate-C profile.
+That code should not be duplicated. A later revision would only verify the new A/B lineage hashes and the selected Stage C profile.
 
-### 12. Gate C test logic
+### 12. Stage C test logic
 
-Gate C is where the implementation is allowed to claim empirical problem evidence.
+Stage C is where the implementation is allowed to claim empirical problem evidence.
 
 The candidate:
 
@@ -576,28 +578,28 @@ Add test-only metadata to successor fixtures/results:
 
 - gate identity;
 - authoritative reference kind;
-- Gate-A spec hash where applicable;
-- Gate-B architecture hash where applicable.
+- Stage A spec hash where applicable;
+- Stage B architecture hash where applicable.
 
 Re-run every current v0.9 self-test. Expected substantive outcomes must remain identical.
 
-#### VNext-2 — explicit Gate-A package export
+#### VNext-2 — explicit Stage A package export
 
-Take one already mature 00I/S5 or R01 specification-discovery result and emit the frozen Gate-A package. No product claim.
+Take one already mature 00I/S5 or R01 specification-discovery result and emit the frozen Stage A package. No product claim.
 
-#### VNext-3 — implement the 00I/S5 Gate-B pilot
+#### VNext-3 — implement the 00I/S5 Stage B pilot
 
-Implement the architecture manifest, verification matrix, vectors and mutations above. Run only the deterministic/reference-model verification campaign. This is the first genuine Gate-B evidence.
+Implement the architecture manifest, verification matrix, vectors and mutations above. Run only the deterministic/reference-model verification campaign. This is the first genuine Stage B evidence.
 
 #### VNext-4 — UC-4 packaging/review
 
-Map the Gate-B pilot through the pinned UC-4 schema/package, preserve source-owner semantics, and request Nelson review only when authorized. UC4-SOURCE-REVIEWED, schema validation and Stage-0 admission remain distinct.
+Map the Stage B pilot through the pinned UC-4 schema/package, preserve source-owner semantics, and request Nelson review only when authorized. UC4-SOURCE-REVIEWED, schema validation and Stage-0 admission remain distinct.
 
 #### VNext-5 — C11 registration profile
 
 Freeze resources, comparator, analysis and gate lineage for the first actual result-producing campaign.
 
-#### VNext-6 — T03 / Gate-C real implementation
+#### VNext-6 — T03 / Stage C real implementation
 
 Only after C02/C11 admission and implementation access exist. Use the existing real-admission/isolation/broker route. This is where a real framework/product/API can be tested against the Challenge.
 
@@ -605,23 +607,23 @@ Only after C02/C11 admission and implementation access exist. Use the existing r
 
 Before calling the three-gate design implementable, the next slice should demonstrate all of the following without touching a production technology:
 
-1. one Gate-A specification package can be generated from an existing frozen case;
+1. one Stage A specification package can be generated from an existing frozen case;
 2. one architecture manifest maps every selected mandatory requirement;
-3. the Gate-B verification matrix identifies method and evidence for each mapped requirement;
+3. the Stage B verification matrix identifies method and evidence for each mapped requirement;
 4. clean continuity passes;
 5. at least five deliberately broken architecture mutations are rejected;
 6. one NOT_ESTABLISHED condition is retained rather than converted into PASS/FAIL;
-7. no Gate-B evaluator reads Challenge-only private truth that the specification does not authorize as a conformance reference;
+7. no Stage B evaluator reads Challenge-only private truth that the specification does not authorize as a conformance reference;
 8. CTv1/native trace links remain reconstructable;
 9. replay/order/malformed controls remain valid;
-10. no old v0.9 result/hash is reinterpreted as Gate-B evidence.
+10. no old v0.9 result/hash is reinterpreted as Stage B evidence.
 
-If these ten conditions hold, Gate B has a credible first implementation path. Gate C can then remain deliberately unexecuted until a real technology and C11/T03 campaign are available.
+If these ten conditions hold, Stage B has a credible first implementation path. Stage C can then remain deliberately unexecuted until a real technology and C11/T03 campaign are available.
 
 ### 15. What this design reuses and what it deliberately does not
 
 **Reused:** Nelson's versioned adapters/reviews/cases; current R01 sidecar; CTv1; trace sealing; malformed/replay/order controls; authoritative resource accounting; tool broker; isolation; T03 registration; requirements traceability; verification-by-test/analysis/inspection/demonstration; formal refinement where justified; external execution substrates where useful.
 
-**Not reused as a false equivalence:** UC-4 Stage-0 as proof of R01; ISO 42010 architecture-description conformance as proof of functional realization; a generic benchmark score as Gate-C validation; a batch harness PASS as evidence of actual effects; a formal proof beyond its properties; a source-owner statement as independent empirical validation.
+**Not reused as a false equivalence:** UC-4 Stage-0 as proof of R01; ISO 42010 architecture-description conformance as proof of functional realization; a generic benchmark score as Stage C validation; a batch harness PASS as evidence of actual effects; a formal proof beyond its properties; a source-owner statement as independent empirical validation.
 
 **DDS differential:** the same Challenge lineage is preserved across specification discovery, architecture verification and eventual implementation validation, while each stage has a different authoritative reference and a non-promotable claim boundary.

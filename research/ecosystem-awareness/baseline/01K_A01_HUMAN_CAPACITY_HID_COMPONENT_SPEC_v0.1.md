@@ -1,5 +1,7 @@
 # 01K-A01 — Human Capacity / Human Intelligence Debt Reusable Component Specification
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 **Status:** public working component specification v0.1 · 6 October 2026.  
 **Parent:** [01K — Human Capacity / Human Intelligence Debt](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md).  
 **Architectural position:** additive component consumed by Ecosystem Positioning / MSCA / Signalling where material; not an EA core function, not an authority source, not an adopted standard.
@@ -10,7 +12,7 @@
 
 [01K](./01K_HUMAN_INTELLIGENCE_CAPACITY_ESCALATION_AND_DEBT_PROFILE_v0.1.md) remains the research/source/measurement owner. This specification supplies the reusable implementation contract. The schema, test vectors and verification record are subordinate reference/evidence artefacts; R01/HEW studies and Theme13–16 working notes are consumers or bounded instances. They do not create another canonical HC-HID component. Future component revisions continue this logical source and explicitly identify their version while preserving historical instances.
 
-Human Escalation may consume the Runtime Capacity engine alone. The optional HID Architecture engine remains a distinct function; runtime capacity/queue deficit is not HID, and no universal HIT unit is introduced. The [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md) governs the overall A/B/C test taxonomy; [DDS Gate A](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) governs the specification-discovery coverage, two extension-review stages and evidence/claim limits used by the current HC-HID studies. DDS method authority does not replace this component's contract or 01K's research semantics.
+Human Escalation may consume the Runtime Capacity engine alone. The optional HID Architecture engine remains a distinct function; runtime capacity/queue deficit is not HID, and no universal HIT unit is introduced. The [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md) governs the overall A/B/C test taxonomy; [DDS Stage A](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) governs the specification-discovery coverage, two extension-review stages and evidence/claim limits used by the current HC-HID studies. DDS method authority does not replace this component's contract or 01K's research semantics.
 
 Review: [sole owning component VNext](./01K_A01_HUMAN_CAPACITY_HID_COMPONENT_SPEC_v0.1_VNext.md). This is a scoped owner-authorized identity clarification; the existing technical specification and evidence boundaries remain below.
 

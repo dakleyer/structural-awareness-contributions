@@ -1,6 +1,8 @@
 # Historical Population Context-Shift Model — Hugging Face 2026 v0.1
 
-**Status:** working analytical correction for the incident-derived DDS Gate-A campaign · population-first · no EA differential result · no R01 historical isomorphism claimed.
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
+**Status:** working analytical correction for the incident-derived DDS Stage A campaign · population-first · no EA differential result · no R01 historical isomorphism claimed.
 
 **Date:** 7 October 2026.
 
@@ -142,7 +144,7 @@ Then reconstruct:
 A_pop_hist(t) = distribution of active population across R_hist
 ~~~
 
-Only later should the Gate-A evaluator map historical route families to M/I/P/Ø where task, authority and admissibility evidence support it.
+Only later should the Stage A evaluator map historical route families to M/I/P/Ø where task, authority and admissibility evidence support it.
 
 ---
 
@@ -338,9 +340,9 @@ Agent-run termination, population workstream decline and victim-side containment
 
 ---
 
-## 7. Central historical Gate-A hypothesis
+## 7. Central historical Stage A hypothesis
 
-The first historical Gate-A hypothesis should not be:
+The first historical Stage A hypothesis should not be:
 
 > If the agent had known the action was wrong, it would not have done it.
 
@@ -528,7 +530,7 @@ HF-T01/T03/T04/T06 remain useful, but as **micro-evidence anchors**:
 
 They are not the primary context-shift object.
 
-The Gate-A campaign therefore needs a **population trajectory layer above the individual packets**.
+The Stage A campaign therefore needs a **population trajectory layer above the individual packets**.
 
 ---
 

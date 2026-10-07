@@ -1,5 +1,7 @@
 # Annex 00I-A01 — AWS Step Functions / RDS implementation trajectories for Semantic TOCTOU
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 | | |
 |---|---|
 | **ID** | 00I-A01 |
@@ -11,7 +13,7 @@
 | **Predecessor** | [v0.1 Draft](./00I_A01_AWS_STEP_FUNCTIONS_RDS_IMPLEMENTATION_PROFILE_v0.1_DRAFT.md) |
 | **Implementation skeletons** | [00I-AWS fixture package](./fixtures/00I-AWS/README.md) |
 
-> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Gate-A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Gate-B architecture verification or Gate-C native product validation. The published ASL/fixture skeleton strengthens inspectability but does not by itself constitute Gate-B architecture verification.
+> **DDS classification — 7 October 2026.** This current implementation-trajectory profile is a **Simplified DDS Stage A — Specification Discovery** profile under the [DDS Canonical Method Index](../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Stage A challenge–trajectory contract](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Its object under test is the candidate technology/configuration trajectory against the parent Challenge; its source-reviewed design/fixture evidence does not establish Stage B architecture verification or Stage C native product validation. The published ASL/fixture skeleton strengthens inspectability but does not by itself constitute Stage B architecture verification.
 
 > **Three-trajectory implementation analysis.** This profile compares (1) an ordinary console-first workflow, (2) a defended state-of-the-art implementation that must first prove it can close the base 00I case, and (3) that exact defended implementation, frozen before results, after an observable regime/source/dependency change. It does not report that AWS Step Functions, Amazon RDS, Systems Manager, DynamoDB or EventBridge fails 00I.
 

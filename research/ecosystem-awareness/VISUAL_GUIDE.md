@@ -1,8 +1,10 @@
 # Visual Guide — Structural / Ecosystem Awareness Corpus
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 > **Navigation aid — not a normative source.** This page visualizes the current public reading routes and ownership boundaries of the corpus as of 24 September 2026. The linked source documents remain authoritative for semantics, status, evidence and scope. A diagram never upgrades a working proposal, frozen source, application package or unexecuted test into validation.
 
-> **Current DDS test taxonomy — 7 October 2026.** Use the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) as the single test/evaluation entry point: **Gate A — Specification Discovery → Gate B — Architecture Verification → Gate C — Implementation / Problem Validation**, with full or Simplified routes. Historical labels in this guide such as Benchmark, Test programme and Stage 0→1→2 remain useful workstream/evidence-maturity labels; they are not additional DDS methods or DDS Gates. Published RS-00E-Q1a Stage-0 is bounded Simplified Gate-A evidence, while its harness/oracle material remains support/infrastructure.
+> **Current DDS test taxonomy — 7 October 2026.** Use the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) as the single test/evaluation entry point: **Stage A — Specification Discovery → Stage B — Architecture Verification → Stage C — Implementation / Problem Validation**, with full or Simplified routes. Historical labels in this guide such as Benchmark, Test programme and Stage 0→1→2 remain useful workstream/evidence-maturity labels; they are not additional DDS methods or DDS Stages. Published RS-00E-Q1a Stage-0 is bounded Simplified Stage A evidence, while its harness/oracle material remains support/infrastructure.
 
 **Programme-level theory bridge (draft):** [Map, Flow, Epistemic Distance and the Lineage to Ecosystem Positioning](../structural-awareness/MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md) — a non-canonical synthesis connecting the mathematical lineage, Field Notes and current architecture while preserving their separate claim boundaries.
 
@@ -143,7 +145,7 @@ flowchart LR
 | A01 test/oracle construction | **Designed** |
 | A03 Q1a harness design | **Designed** |
 | RS-00E-Q1a pre-registration | **Published** |
-| Stage-0 descriptive execution | **Published for RS-00E-Q1a only** — historical Simplified DDS Gate-A deterministic evidence; corrected replay tracked separately |
+| Stage-0 descriptive execution | **Published for RS-00E-Q1a only** — historical Simplified DDS Stage A deterministic evidence; corrected replay tracked separately |
 | Observable B0–B3 comparative execution | **Pending** — no independent comparative EA/product result |
 | Independent validation / replication | **Pending** |
 

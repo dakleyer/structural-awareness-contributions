@@ -2,9 +2,11 @@
 
 # Ecosystem Awareness — canonical corpus
 
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+
 **00G-R01 reduction study:** [Probabilistic exploration and validation cost](./reductions/00G-R01/README.md) — full specification, Word/PDF, and the parent 00G → reduced scenario 00G-R01 → supporting reduction argument reading route. Research specification; experimental results pending.
 
-**DDS canonical method:** use the [DDS Canonical Method Index v0.1](../DDS_CANONICAL_METHOD_INDEX_v0.1.md) as the single entry point. It routes to [Gate A — Specification Discovery](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Gate B — Architecture Verification](../DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Gate C — Implementation / Problem Validation](../DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md), including full and Simplified gate routes. Existing scenario/product trajectories, Stage-0 fixtures, oracle/harness artefacts and historical testbed records retain their frozen source semantics and versions; the DDS index classifies how those partial results/support artefacts are incorporated without rewriting or upgrading them.
+**DDS canonical method:** use the [DDS Canonical Method Index v0.1](../DDS_CANONICAL_METHOD_INDEX_v0.1.md) as the single entry point. It routes to [Stage A — Specification Discovery](../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B — Architecture Verification](../DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C — Implementation / Problem Validation](../DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md), including full and Simplified stage routes. Existing scenario/product trajectories, Stage-0 fixtures, oracle/harness artefacts and historical testbed records retain their frozen source semantics and versions; the DDS index classifies how those partial results/support artefacts are incorporated without rewriting or upgrading them.
 
 ## Mathematical and functional plausibility — current reading route
 
