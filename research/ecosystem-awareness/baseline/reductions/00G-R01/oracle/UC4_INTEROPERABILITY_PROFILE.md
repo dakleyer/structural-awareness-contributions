@@ -156,7 +156,7 @@ A failure at Gate B normally triggers architecture revision. If the architecture
 Gate B should reuse established **verification** practice rather than invent a parallel discipline.
 
 - **IEEE 1012-2024 — System, Software, and Hardware Verification and Validation.** IEEE frames verification and validation as distinct questions: development products are checked for conformance to the requirements of the activity, while validation asks whether the product satisfies intended use and user needs. Gate B aligns with the first question.  
-  https://standards.ieee.org/ieee/1012/10784/
+  https://ieeexplore.ieee.org/document/11134780
 - **NASA Systems Engineering Handbook — Product Verification versus Product Validation.** NASA states the same distinction operationally: verification demonstrates compliance with requirements; validation demonstrates intended purpose in the intended environment. NASA also uses a Requirements Verification Matrix linking each shall-requirement to its verification evidence/method. Gate B can reuse this traceability shape.  
   https://www.nasa.gov/reference/2-4-distinctions-between-product-verification-and-product-validation/  
   https://www.nasa.gov/reference/system-engineering-handbook-appendix/
@@ -218,7 +218,7 @@ A Gate-C failure must not be repaired by changing the frozen Challenge, acceptan
 Gate C should reuse established **validation / TEVV / test execution** machinery.
 
 - **IEEE 1012-2024 and NASA Systems Engineering.** These provide the closest conceptual boundary: validation asks whether the realized product satisfies intended use/user needs in the intended environment. NASA explicitly permits validation by test, analysis, inspection and demonstration and links validation planning to ConOps/stakeholder objectives. Gate C reuses that distinction rather than redefining validation.  
-  https://standards.ieee.org/ieee/1012/10784/  
+  https://ieeexplore.ieee.org/document/11134780  
   https://www.nasa.gov/reference/2-4-distinctions-between-product-verification-and-product-validation/  
   https://www.nasa.gov/reference/system-engineering-handbook-appendix/
 - **ISO/IEC/IEEE 15288:2023 — system life-cycle processes.** Reuse the system-lifecycle process frame and the distinction between development artefacts and the system of interest across its lifecycle. DDS does not claim full 15288 process alignment from this working note.  
