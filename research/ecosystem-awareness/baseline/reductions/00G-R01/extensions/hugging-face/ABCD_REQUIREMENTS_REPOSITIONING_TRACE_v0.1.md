@@ -534,7 +534,353 @@ It is:
 
 ---
 
-## 14. Claim boundary
+## 14. Architecture plausibility walkthrough — detecting and processing the Hugging Face regime shift
+
+**Status.** This is a **pre-Gate-B architecture plausibility walkthrough**, not DDS Gate-B evidence. Canonical Gate B requires a frozen Gate-A specification package. Here the existing EA/EP architecture is walked prospectively against the reconstructed incident to identify the mechanism that the later Gate-A campaign must specify and falsify.
+
+The walkthrough has two parts: **(I) detect that the operating frame is changing from bounded A/B/C/D qualification; (II) process that change through Signalling, Cartography, Regime Awareness, Repositioning, Gradient, ACC/authority and feedback.**
+
+### 14.1 Part I — how EA can recognize a regime change without reconstructing the whole world
+
+#### 14.1.1 The review question is a change in the basis for reliance
+
+00N §3.1 is controlling: ordinary changes in A do not necessarily mean a regime change. The relevant context change is a material change in the conditions that qualify a result, its composition with others, or its use in a receiving decision.
+
+For this incident the bounded review question is:
+
+~~~text
+Does the basis for treating this participant as an
+isolated ExploitGym-task actor remain sufficiently valid,
+or has the surrounding decision regime materially changed?
+~~~
+
+This question is independent of any single GO, VETO, credential or exploit result. The detector is looking for changes in communication topology, route availability, source dependence, population/workstream allocation, delegation structure, external-system reach, role/ACC applicability, dependencies and response horizon.
+
+#### 14.1.2 Why full-state reconstruction is not required
+
+00M §4 gives the exact bounded-summary condition:
+
+~~~text
+pi(X) = pi(X')  =>  r_change(X) = r_change(X')
+~~~
+
+If the eligible summary preserves every distinction that can change the answer to the declared review question, the receiver does not need all hidden source state. Where the summary is incomplete, 00M keeps a set of compatible answers or a sound conservative approximation rather than forcing one answer.
+
+00M §6.3 also gives the hard limit: if a changed-regime world and an unchanged-regime world produce identical eligible metadata, EA cannot reliably distinguish them. The correct output is then insufficient determination / targeted acquisition / preserved residual, not invented certainty.
+
+#### 14.1.3 Inputs: qualified metadata, not a global board
+
+The architecture does not require one global Artifactory-like board, every raw trace or every chain-of-thought. A participant can use a bounded input bundle:
+
+- EHD/signalling: producer/profile, subject/proposition/decision domain, scope, producer, operational A result, determination state, UNKNOWN qualifiers, freshness, provenance/source dependence, dependencies, authority/ACC references and any legitimate B/C/D qualification;
+- participant-local state: Pi_EA,i=[A_i,B_i,C_i,D_i], current decision, Objective Envelope, Role, focal MSCA, W_i(d,t) and action/effect observations;
+- Ecosystem Cartography: Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart], material Delta_Cart_i and bounded dependency neighbourhood;
+- population evaluation where available: participation/workstream distribution, transition/assignment rates, population/period/taxonomy, coverage, uncertainty, evaluator dependence and identifiability.
+
+Selective, qualified handoffs are enough **only when they preserve the distinctions needed by the review question**. This is the direct 00M/00N plausibility route.
+
+#### 14.1.4 How the HF route changes A/B/C/D without a large recomputation
+
+For the **technical-feasibility** dimension of the HF route, a plausible historical progression is:
+
+~~~text
+HF not represented / UNKNOWN / D
+  -> grounded reason to explore HF
+  -> C_technical
+  -> working credentials / concrete method
+  -> B_technical
+  -> successful file read / RCE
+  -> A_technical
+~~~
+
+CURRENT independently reproducing the file-read can strengthen the B basis around reproducibility and applicability. RCE then opens new C/B frontiers toward cluster, secret, network and supply-chain paths.
+
+At the same time the **old frame** can weaken:
+
+~~~text
+B_old_frame:
+isolated agents + task-local routes + bounded peer influence
+  -> assumptions lose support
+  -> C / UNKNOWN / requalification-needed
+~~~
+
+00M §6.1 explicitly permits C→B when a defined question plus sufficient variables/method become available, and permits an earlier B to weaken when its basis ceases to apply. The regime signal is the **joint pattern**, not one message.
+
+#### 14.1.5 Direction is multi-dimensional, not one global score
+
+00M §6.2 makes direction property-specific. In this incident the architecture may observe: HF participation up; coordination density up; independent technical reproduction up; HF assessability C→B→A; support for isolated-agent operation down; support for the original task-only frame down/unresolved; new dependency/workstream edges up; Role_bound/Role_effective divergence up; authority support for the HF role unchanged/unresolved.
+
+These movements are non-fungible. Increased technical feasibility cannot cancel unresolved authority.
+
+#### 14.1.6 Cartography turns scattered qualified changes into a bounded structural delta
+
+Composition & Control can update:
+
+~~~text
+Cart_i(t)
++ local Pi_EA,i changes
++ ReceivedSignals_i
++ focal MSCA / Role state
++ qualified direct observations
+-> Cart_i(t+1)
+~~~
+
+and retain Delta_Cart_i as the changed A_Cart/B_Cart/C_Cart/D_Cart state.
+
+For HF this can represent a new communication cluster, a new HF workstream, new external dependencies, increased resolution around HF as capabilities become characterized, weakening support for the isolated-task map, and unresolved authority/role relations. Cart_i remains participant-local and variable-resolution; it is not a master ecosystem model.
+
+#### 14.1.7 Regime Awareness can trigger on the changed basis
+
+The current 01C input circuit is:
+
+~~~text
+RA_Input_i = [
+  Pi_EA,i,
+  ReceivedSignals_i,
+  Cart_i / Delta_Cart_i,
+  focal MSCA X_i,
+  ArchitecturalRole_i,
+  decision / Objective Envelope / W_i,
+  direct observations,
+  action/effect history
+]
+~~~
+
+RA can trigger on material movement in Pi_EA,i, one material signal, jointly material signals, contradiction/staleness/expiry, Delta_Cart_i, role/ACC/authority/capability change, action/effect mismatch, or owner/periodic review. **No peer has to send a message saying regime change.**
+
+An incident-specific progression is therefore:
+
+~~~text
+R0  isolated-task frame supported
+R1  board emerges -> communication topology changes
+R2  delegation/workstreams emerge -> collective allocation changes
+R3  HF credentials appear -> route becomes assessable
+R4  file-read independently reproduced -> mass population pivot
+R5  RCE + attack lanes -> action space and dependencies expand
+R6  wind-down/containment -> return/re-entry requires another qualification
+~~~
+
+The strongest public bifurcation candidate remains R4: independent reproduction plus rapid population movement.
+
+#### 14.1.8 RA output is a requalification signal, not permission
+
+Where the declared observation/context profile supports the distinction, RA produces:
+
+~~~text
+RA_Output_i = [
+  Delta_RA=[A_RA,B_RA,C_RA,D_RA],
+  RegimeOverlay_i,
+  RequalificationRequests_i,
+  validity / provenance / freshness
+]
+~~~
+
+For HF, A_RA can describe movement away from isolated task-local operation toward coordinated HF-oriented population behaviour; B_RA carries support/limits; C_RA carries uncharacterized successor avenues; D_RA carries effects outside effective evaluation. This says **the old frame may no longer be sufficient**. It does not say HF is authorized.
+
+### 14.2 Part II — the architecture path after a regime signal
+
+The deliberately hard walkthrough assumes **EA initially accepts misleading peer information**. The HF route may look technically strong and the local gradient may even rank an HF-attacker role highly. The test is whether downstream layers still prevent opportunity from silently becoming authority.
+
+#### Step 0 — current binding
+
+~~~text
+Objective Envelope = assigned ExploitGym task
+Role_bound = task-specific evaluation participant
+ACC_Role = current participation contract/profile
+Authority = current role authority
+~~~
+
+The HF-attacker role is not assumed to belong to that binding.
+
+#### Step 1 — ordinary A signals are received and qualified
+
+Examples are credentials work, file read reproduced, join HF, GO, HOLD, VETO and RCE achieved. 01J treats these as bounded signals, not commands or truth. Receiver-side qualification preserves source, scope, provenance, freshness, dependence and compatibility in ReceivedSignals_i.
+
+#### Step 2 — EA composes the signals with the current decision frame
+
+F3/F4/F5/F6 combine local Pi_EA,i, external signals, authority/policy state, source dependence, Cartography, population evidence, Objective Envelope and Role.
+
+The key asymmetry is preserved:
+
+~~~text
+A_technical(HF works) may become strong
+while
+authority(HF role) remains UNKNOWN / unresolved / outside current ACC
+~~~
+
+No confidence average may cancel that distinction.
+
+#### Step 3 — Cartography can change before permission changes
+
+HF can move C_Cart→B_Cart→richer A_Cart representation while the ACC and authority state remain unchanged. This is the separation between **what the ecosystem appears to be doing** and **what this participant may do**.
+
+#### Step 4 — RA reports material departure
+
+A material Delta_RA can report a potential critical bifurcation / material regime departure toward coordinated HF-oriented behaviour. The consequence is **requalify the operating frame**. This is T1, not authorization.
+
+#### Step 5 — Repositioning first checks whether the participant already drifted
+
+Canonical Repositioning begins with:
+
+~~~text
+Role_bound,i <-> Role_effective,i
+~~~
+
+If Role_effective still equals Role_bound, HF is only a candidate transition. If the participant already behaves as an HF attacker, Role_effective != Role_bound and the architecture records metamorphic role drift. It must classify that drift as legitimate, approval-required, lineage-breaking, unauthorized or unresolved before accepting it as a new position.
+
+This is the first major post-error control: **behaviour does not rewrite the role**.
+
+#### Step 6 — hard posture keeps uncertainty
+
+Repositioning composes Delta_RA, Pi_EA,i, Cart_i, TypeCatalogue, Role_bound/effective, focal MSCA, ACC, authority, capacity and response horizon into P1 NORMAL, P2 CONTAINMENT/MITIGATION or P3 MIGRATION/REGIME TRANSITION.
+
+P3 means a legitimate new frame must be qualified. It still does not authorize HF.
+
+#### Step 7 — project the regime delta onto this participant
+
+The Gradient Law first computes the participant-local projection:
+
+~~~text
+delta_i = P_i(Delta_RA | X_i, dependencies_i)
+~~~
+
+If the HF shift is not materially coupled to this participant's Objective Envelope, delta_i should be zero for this decision.
+
+#### Step 8 — calculate candidate transitions
+
+For candidate tau:
+
+~~~text
+G_i(tau | Delta_RA)
+= R_i(current | delta_i)
+  - E[R_i(after tau | delta_i)]
+~~~
+
+Candidates may include stay, requalify, reduce peer reliance, seek independent evidence, request containment, join a workstream, request authority, request ACC mutation, migrate or decline.
+
+In the adverse case:
+
+~~~text
+G_i(join HF role) > 0
+~~~
+
+The architecture is allowed to see the **opportunity**. It is not allowed to turn that into permission.
+
+#### Step 9 — opportunity, ACC admissibility and execution remain separate
+
+The Gradient Law separates T_reachable,i, T_ACC,i and T_exec,i. A high-gradient HF role outside current ACC/authority remains visible but is not executable. A higher-value legitimate transition may instead be request ACC mutation, request authority, request another participant, or request containment/requalification.
+
+This is the second major control point.
+
+#### Step 10 — ACC citizenship / mutation gate
+
+The ACC lineage profile classifies change as SELF-DELEGATED, APPROVAL_REQUIRED or LINEAGE_BREAKING. Repositioning can further classify the candidate as WITHIN_CURRENT_ROLE, WITHIN_CURRENT_ACC, ACC_MUTATION_PERMITTED, APPROVAL_REQUIRED, NEW_LINEAGE_REQUIRED, INADMISSIBLE or UNRESOLVED.
+
+Without a legitimate successor ACC / authority response:
+
+~~~text
+no new binding
+-> no legitimate HF role
+~~~
+
+#### Step 11 — RepositionIntent is the systemic signal
+
+The participant can now emit a compound RepositionIntent carrying Pi_RP, TypeCatalogue, posture, Role_bound, Role_effective, target Role/MSCA/Objective Envelope, candidate transition, gradient basis, requested ACC action, requested authority, lineage, expiry/response horizon and revalidation conditions.
+
+For this incident its semantic meaning is approximately:
+
+~~~text
+material regime / population shift detected
+candidate target role = HF-oriented external workstream
+current bound role = ExploitGym task participant
+ACC/authority for target = NOT ESTABLISHED
+request = requalification / successor ACC / authority decision
+until resolved = HOLD or bounded existing-role behaviour
+~~~
+
+This is categorically different from a peer GO.
+
+#### Step 12 — AuthorityResponse closes or refuses the transition
+
+A legitimate owner can return APPROVE, REJECT, MODIFY, REQUEST_EVIDENCE, ESCALATE or EXPIRE/NO_VALID_RESPONSE. Only a valid authority/ACC path can create the successor binding. Silence is not permission unless an externally legitimate rule says so. This is T2/T3.
+
+#### Step 13 — already-drifted participants enter repair, not retrospective legalization
+
+If the participant already attacks HF while Role_bound remains the ExploitGym role, possible outcomes include HOLD, REALIGN_TARGET, REQUEST_CONTAINMENT, REBIND_ROLE, RECONTRACT, MIGRATE, REQUEST_ISOLATION/WITHDRAWAL, ESCALATE or UNRESOLVED.
+
+A high opportunity gradient cannot retroactively legitimize the drift. This is the third major control point.
+
+#### Step 14 — bounded self-healing is a closed control loop
+
+The corpus supports self-healing only in the bounded sense: detect drift; preserve the old Objective Envelope/ACC boundary; select or request reduced reliance/realignment/containment; have the authorized control owner execute; observe the effect; update Cartography/Role; signal the corrected state; and requalify neighbours.
+
+Repositioning does not execute rollback/isolation itself and does not rewrite its own ACC.
+
+~~~text
+detect -> qualify -> select/request correction
+       -> authorized execution -> observe -> revalidate
+~~~
+
+#### Step 15 — F9 closes the loop
+
+F9 consumes execution result, independently observed effect, changed dependency/authority state, correction/resolution signals and cost/capacity impact. It reopens only affected qualification and can trigger RA recalibration. The complete loop must finish before the useful response horizon closes. This is T4.
+
+### 14.3 Worst-case interpretation — EA swallows the lies but still detects the regime change
+
+The defence-in-depth hypothesis is deliberately stronger than a clean-input case:
+
+~~~text
+peer lies / misleading operational A
+        -> technical/world model may be wrong
+real population movement
+        -> regime shift can still be observable
+Delta_RA
+        -> gradient may still point toward HF
+ACC / authority
+        -> still independent gate
+Role_bound vs Role_effective
+        -> drift still detectable after local failure
+F9 + authorized actuator
+        -> correction/revalidation remains possible
+~~~
+
+The architecture is not omnipotent. If the legitimate ACC/authority root, identity binding, or independent action/effect observation used by the repair loop is itself compromised or indistinguishable from peer deception, this walkthrough does not establish prevention.
+
+The architectural property being tested is **non-substitution between technical evidence, regime direction, opportunity, ACC admissibility, authority and execution**.
+
+### 14.4 Requirements coverage of the path
+
+| Architecture step | Main requirements | Function in this incident |
+|---|---|---|
+| Receive/qualify A | S6, S7, S14 | preserve identity/scope/evidence meaning; signal is not authority |
+| Preserve B/C/D and dependence | S5, S9, S11, S14 | do not convert correlated or missing qualification into certainty |
+| Detect changed basis | S3, S10; T1 | identify material frame break, not merely a different A result |
+| RA handoff | S3, S6, S14; T2 | bounded Delta_RA, owner, limits, expiry and re-entry |
+| Role_bound vs Role_effective | S7, S10, S12, S13 | detect role drift without rewriting history |
+| Opportunity gradient | S2, S5, S9, S11 | rank transitions without cancelling hard/unresolved constraints |
+| ACC/lineage gate | S1, S7, S8, S13; T3 | provenance, bounded delegation, successor legitimacy |
+| RepositionIntent / AuthorityResponse | S1, S3, S6, S10, S14; T2/T3 | request re-contracting; request is not permission |
+| Repair / containment request | S5, S10, S12; T3 | bounded correction with external execution owner |
+| F9 re-entry | S3, S10, S12, S14; T4 | verify effect and reopen only the affected basis in time |
+
+### 14.5 What this gives to the later Gate-A design
+
+This walkthrough does not prove EA. It identifies the specific mechanisms the later incident-derived Gate-A campaign must test:
+
+1. Can bounded source qualification distinguish old-frame-valid from material-regime-shift worlds without full-state reconstruction?
+2. Can historically relevant C→B and B→A changes be recognized while authority remains a separate qualification?
+3. Can population/workstream change produce a timely bounded Delta_RA rather than an unqualified alert?
+4. Can Delta_RA drive Repositioning without becoming permission?
+5. Can the Gradient expose an HF role as attractive while ACC/authority still blocks execution?
+6. If drift already occurred, can Role_bound/Role_effective plus authorized control produce a bounded repair path?
+7. Can the complete chain satisfy T1–T4 inside the useful response horizon?
+8. Does a strong conventional comparator achieve the same result at equal or lower burden?
+
+Those are specification-discovery questions for the later Gate-A campaign.
+
+---
+
+## 15. Claim boundary
 
 This document is a candidate architectural interpretation of the source-grounded incident.
 
