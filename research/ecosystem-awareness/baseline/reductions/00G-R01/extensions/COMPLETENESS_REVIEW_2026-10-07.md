@@ -1,6 +1,6 @@
 # DDS study completeness review — 7 October2026
 
-Documentation0.1. Reviewed against the [single DDS Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its Stage A/B/C contracts at source head `3ab9c56a6c2b3240341e32c6466da3f2cc09335d`.
+Documentation0.2. All zero fractions retain their actual denominators; original case results are unchanged. Reviewed against the [single DDS Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its Stage A/B/C contracts at source head `3ab9c56a6c2b3240341e32c6466da3f2cc09335d`.
 
 ## Decision
 
@@ -18,14 +18,14 @@ The local models' I/M floor and synthetic useful windows are declared finite abs
 
 | Study | Named operations | Type 1 eligible fraction | Type 2 named fraction | Actual evidence ceiling | Current reading |
 |---|---:|---|---|---|---|
-| [hew](./dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md) | 21 | 0 | 1/21 | finite SQLite/analytical human-escalation companion; no actual human/native campaign | [record](./dds-hew-v0.1/CURRENT_STUDY_RECORD.json) |
-| [stamp-stpa](./dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md) | 10 | 0 | 0 | derived finite controller/plant; no deployed plant/expert method-completeness validation | [record](./independent-dds-exercises-v0.1/stamp-stpa/CURRENT_STUDY_RECORD.json) |
-| [spiffe-jwt](./dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md) | 25 | 0 | 0 | actual RSA/JWS selected fixture/application; no native SPIRE/workload API | [record](./independent-dds-exercises-v0.1/spiffe-jwt/CURRENT_STUDY_RECORD.json) |
-| [rats-jws](./dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md) | 20 | 0 | 0 | actual file hash/JWS plus local trust/application model; no TPM/EAT/native verifier product | [record](./independent-dds-exercises-v0.1/rats-jws/CURRENT_STUDY_RECORD.json) |
-| [rag](./rag/DDS_STUDY.md) | 8 | 0 | 1/8 | actual SQLite FTS5; authored deterministic extraction/admission, generator not executed | [record](./rag/CURRENT_STUDY_RECORD.json) |
-| [oauth-oidc](./oauth-oidc/DDS_STUDY.md) | 11 | 0 | 0 | actual RSA2048/RS256 + local SQLite selected-profile effect; native flow not executed | [record](./oauth-oidc/CURRENT_STUDY_RECORD.json) |
-| [mcp-tool-calling](./mcp-tool-calling/DDS_STUDY.md) | 9 | 0 | 0 | actual serialized request parser/local SQLite effect; official SDK/transport/full conformance absent | [record](./mcp-tool-calling/CURRENT_STUDY_RECORD.json) |
-| [sql-transactions-idempotency](./sql-transactions-idempotency/DDS_STUDY.md) | 9 | 0 | 0 | actual SQLite transactions/two connections/second local file; distributed products not executed | [record](./sql-transactions-idempotency/CURRENT_STUDY_RECORD.json) |
+| [hew](./dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md) | 21 | 0/11 | 1/21 | finite SQLite/analytical human-escalation companion; no actual human/native campaign | [record](./dds-hew-v0.1/CURRENT_STUDY_RECORD.json) |
+| [stamp-stpa](./dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md) | 10 | 0/6 | 0/10 | derived finite controller/plant; no deployed plant/expert method-completeness validation | [record](./independent-dds-exercises-v0.1/stamp-stpa/CURRENT_STUDY_RECORD.json) |
+| [spiffe-jwt](./dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md) | 25 | 0/4 | 0/25 | actual RSA/JWS selected fixture/application; no native SPIRE/workload API | [record](./independent-dds-exercises-v0.1/spiffe-jwt/CURRENT_STUDY_RECORD.json) |
+| [rats-jws](./dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md) | 20 | 0/2 | 0/20 | actual file hash/JWS plus local trust/application model; no TPM/EAT/native verifier product | [record](./independent-dds-exercises-v0.1/rats-jws/CURRENT_STUDY_RECORD.json) |
+| [rag](./rag/DDS_STUDY.md) | 8 | 0/5 | 1/8 | actual SQLite FTS5; authored deterministic extraction/admission, generator not executed | [record](./rag/CURRENT_STUDY_RECORD.json) |
+| [oauth-oidc](./oauth-oidc/DDS_STUDY.md) | 11 | 0/3 | 0/11 | actual RSA2048/RS256 + local SQLite selected-profile effect; native flow not executed | [record](./oauth-oidc/CURRENT_STUDY_RECORD.json) |
+| [mcp-tool-calling](./mcp-tool-calling/DDS_STUDY.md) | 9 | 0/3 | 0/9 | actual serialized request parser/local SQLite effect; official SDK/transport/full conformance absent | [record](./mcp-tool-calling/CURRENT_STUDY_RECORD.json) |
+| [sql-transactions-idempotency](./sql-transactions-idempotency/DDS_STUDY.md) | 9 | 0/4 | 0/9 | actual SQLite transactions/two connections/second local file; distributed products not executed | [record](./sql-transactions-idempotency/CURRENT_STUDY_RECORD.json) |
 | [durable-workflows-retries](./durable-workflows-retries/DDS_STUDY.md) | 9 | 1/5 | 1/9 | actual SQLite persisted model/restart, same-contract M witness; Temporal native not executed | [record](./durable-workflows-retries/CURRENT_STUDY_RECORD.json) |
 | [cache-ttl](./cache-ttl/DDS_STUDY.md) | 9 | 0/6 | 1/9 | actual SQLite-backed cache/origin/grant; fixed clock, no Redis/HTTP/Azure execution | [record](./cache-ttl/CURRENT_STUDY_RECORD.json) |
 | [queues-ack-redelivery](./queues-ack-redelivery/DDS_STUDY.md) | 11 | 2/6 | 2/11 | actual SQLite message/effect/receipt state with authored broker/channel/redelivery model; no RabbitMQ/AMQP product execution | [record](./queues-ack-redelivery/CURRENT_STUDY_RECORD.json) |

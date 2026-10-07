@@ -1,6 +1,6 @@
 {
   "schema": "DDS-CURRENT-CATALOGUE-0.1",
-  "version": "0.2",
+  "version": "0.1",
   "date": "2026-10-07",
   "one_canonical_method": "../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
   "studies": [
@@ -10,7 +10,7 @@
       "report": "dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md",
       "evidence_ceiling": "finite SQLite/analytical human-escalation companion; no actual human/native campaign",
       "cases": 21,
-      "Type1": "0/11",
+      "Type1": "0",
       "Type2": "1/21"
     },
     {
@@ -19,8 +19,8 @@
       "report": "dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md",
       "evidence_ceiling": "derived finite controller/plant; no deployed plant/expert method-completeness validation",
       "cases": 10,
-      "Type1": "0/6",
-      "Type2": "0/10"
+      "Type1": "0",
+      "Type2": "0"
     },
     {
       "id": "spiffe-jwt",
@@ -28,8 +28,8 @@
       "report": "dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md",
       "evidence_ceiling": "actual RSA/JWS selected fixture/application; no native SPIRE/workload API",
       "cases": 25,
-      "Type1": "0/4",
-      "Type2": "0/25"
+      "Type1": "0",
+      "Type2": "0"
     },
     {
       "id": "rats-jws",
@@ -37,8 +37,8 @@
       "report": "dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md",
       "evidence_ceiling": "actual file hash/JWS plus local trust/application model; no TPM/EAT/native verifier product",
       "cases": 20,
-      "Type1": "0/2",
-      "Type2": "0/20"
+      "Type1": "0",
+      "Type2": "0"
     },
     {
       "id": "rag",
@@ -46,7 +46,7 @@
       "report": "rag/DDS_STUDY.md",
       "evidence_ceiling": "actual SQLite FTS5; authored deterministic extraction/admission, generator not executed",
       "cases": 8,
-      "Type1": "0/5",
+      "Type1": "0",
       "Type2": "1/8"
     },
     {
@@ -55,8 +55,8 @@
       "report": "oauth-oidc/DDS_STUDY.md",
       "evidence_ceiling": "actual RSA2048/RS256 + local SQLite selected-profile effect; native flow not executed",
       "cases": 11,
-      "Type1": "0/3",
-      "Type2": "0/11"
+      "Type1": "0",
+      "Type2": "0"
     },
     {
       "id": "mcp-tool-calling",
@@ -64,8 +64,8 @@
       "report": "mcp-tool-calling/DDS_STUDY.md",
       "evidence_ceiling": "actual serialized request parser/local SQLite effect; official SDK/transport/full conformance absent",
       "cases": 9,
-      "Type1": "0/3",
-      "Type2": "0/9"
+      "Type1": "0",
+      "Type2": "0"
     },
     {
       "id": "sql-transactions-idempotency",
@@ -73,8 +73,8 @@
       "report": "sql-transactions-idempotency/DDS_STUDY.md",
       "evidence_ceiling": "actual SQLite transactions/two connections/second local file; distributed products not executed",
       "cases": 9,
-      "Type1": "0/4",
-      "Type2": "0/9"
+      "Type1": "0",
+      "Type2": "0"
     },
     {
       "id": "durable-workflows-retries",
@@ -166,6 +166,5 @@
   ],
   "prior_catalogue": "CATALOGUE_2026-10-06.json",
   "evidence_fractions_not_population_probabilities": true,
-  "drive_current_review": "https://docs.google.com/document/d/14zmnJo84ej3t-46v3bbXadmuzVSFvF2OudVRxlcACEc/edit",
-  "reading_revision": "Expose all existing numerators/denominators, including zeros; no rescore"
+  "drive_current_review": "https://docs.google.com/document/d/14zmnJo84ej3t-46v3bbXadmuzVSFvF2OudVRxlcACEc/edit"
 }
