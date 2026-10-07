@@ -77,20 +77,31 @@ One structural item remains intentionally deferred:
 
 **Status:** PENDING — intentionally blocked on corpus taxonomy, not on Gate-A science.
 
-## 4. Not Gate-A work — do not accumulate here
+## 4. Cross-corpus work status — keep only real pending items
 
-The following belong to other owners and must not turn this VNext into another monolithic DDS backlog:
+Several taxonomy/routing items that were pending when this VNext was pruned have now been incorporated and are **not pending anymore**:
 
-| Work | Owning source / phase |
+- EA router and canonical-corpus README now enter through the DDS Canonical Method Index;
+- Canonical Corpus Manifest registers Index + Gates A/B/C as the DDS method set;
+- DBC and 00D are explicitly classified as DDS support artefacts rather than parallel methods;
+- R01 is routed as the richest current probabilistic Gate-A reference instantiation;
+- R01 C02 Oracle/harness is classified as shared DDS test-infrastructure qualification;
+- RS-00E-Q1a Stage-0 is classified as bounded Simplified Gate-A deterministic evidence while preserving its historical version lineage;
+- 00D-A01/A03 are classified as DDS test-design/support infrastructure;
+- HEW, STAMP/STPA, SPIFFE, RATS and the current common technology-extension studies are routed through Gate A with their original evidence ceilings preserved;
+- WORKPLAN and VISUAL_GUIDE now state that W2/W3 and Stage-0/1/2 are workstream/evidence-maturity axes, not parallel DDS methods or DDS Gates;
+- the public Ecosystem Positioning README points technical reviewers to the DDS Canonical Method Index.
+
+### Still pending outside Gate-A science
+
+| Pending work | Owner / phase |
 |---|---|
-| Common cross-gate conservation, proportionality and profile-identity rules | DDS Canonical Method Index |
+| **GA-P01:** relocate Gate A §11 cross-gate profile registry to the DDS Canonical Method Index after the active-profile taxonomy is complete | DDS Index + Gate A |
+| Add explicit DDS Gate/full-or-Simplified classification headers to the remaining active 00E/00F/00G/00H/00I/00J product/technology profiles that have not yet been migrated | corpus taxonomy phase |
+| Finish any remaining active human-readable leaf/report references that still point to the pre-split Gate-A path as “the whole DDS”, without modifying frozen evidence records | corpus taxonomy cleanup |
 | Gate-B contract evolution and 00I/S5 architecture-verification pilot | DDS Gate B |
 | Gate-C contract evolution and C11/T03 real-implementation validation route | DDS Gate C |
-| Product-profile labels such as Simplified DDS Gate A | corpus taxonomy phase |
-| DBC / 00D role normalization | corpus taxonomy phase |
-| R01 / HEW / 00L / Stage-0 classification labels | corpus taxonomy phase |
-| Oracle README and local gate-policy namespace cleanup | Oracle/corpus taxonomy phase |
-| WORKPLAN / VISUAL_GUIDE migration | corpus taxonomy phase |
+| Common cross-gate rule consolidation that belongs in the method Index rather than Gate A | DDS Canonical Method Index |
 
 Future substantive changes to the Index, Gate B or Gate C should use their own owning review/VNext rather than being appended here.
 
@@ -111,6 +122,6 @@ Any future Gate-A change should pass all of these:
 
 **Gate A is ready for the next phase without another canonical rewrite.**
 
-The next repository-wide task is **corpus taxonomy and surgical referencing**: identify each active testing artefact as DDS Gate A/B/C or support/infrastructure, and add the corresponding full/Simplified classification without modifying frozen evidence.
+The next repository-wide task is the **remaining active-profile taxonomy cleanup**: finish explicit Gate/full-or-Simplified labels on current product/technology profiles, then move the authoritative cross-gate registry out of Gate A §11 into the DDS Index.
 
-Until that phase reaches Gate A §11, GA-P01 is the only pending item in this VNext.
+Gate-A science itself has no pending rewrite. GA-P01 remains the only Gate-A structural pending item; the other open items belong to the Index, Gate B, Gate C or corpus-taxonomy owners.
