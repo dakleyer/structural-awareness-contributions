@@ -492,6 +492,228 @@ The [00G-HF development and experimental history annex](../../../../annexes/00G-
 
 To follow the sequence: §§2–5 gather trials and reasons for the change; §§7–12, executions and pending limits; §§13–17, design corrections and the relationship with creativity, validation and 00G. The annex links the original packages, traces and results. Historical pending items are read as of their date; the status of 00G-R01 and its oracle is consulted in this scenario and the status document linked above. This navigation does not turn earlier trials into 00G-R01 results or declare the historical incident reproduced.
 
+#### Next steps — incident-derived real Hugging Face DDS Gate-A campaign
+
+**Status: design only; not executed.** This section records how to move from the existing bounded synthetic R01→Hugging Face extension to a prospectively controlled DDS Gate-A campaign grounded in the **historical incident itself**. It does not change any existing result, admit the historical incident by declaration, reconstruct the attack, identify its cause, or claim that EA would have prevented it.
+
+The existing extension is the starting point rather than a result to be re-proved. It already supplies: the R01 problem framing; the bounded synthetic M/I/P correspondence; the parameter and codependency audit; the separation between representation, effective-parameter changes and additional mechanisms; finite checks and counterexamples; and the common E1–E7/A25 admission discipline. What remains open is the **historical admission**, the incident-grounded parameter/evidence boundary, and the **EA differential against strong controls**.
+
+##### A. Campaign question
+
+The campaign should ask a Gate-A specification-discovery question:
+
+> Given one or more frozen, source-supported Hugging Face incident trajectories, which candidate specification or control profile would have classified the material decision boundaries correctly, preserved legitimate continuation and authorized change, and prevented unsupported evidence, peer coordination or apparent authority from silently displacing the receiver's binding task — within the declared evidence, cost, capacity and response horizon?
+
+The object under test is therefore a **candidate specification/mechanism/control profile**, not OpenAI, Hugging Face, METR, a production architecture or a deployed product.
+
+##### B. Freeze the historical Challenge before designing the result
+
+Create a versioned historical Challenge package before adjudicating any candidate specification. At minimum freeze:
+
+1. the primary source versions, access dates and hashes;
+2. the exact incident episodes admitted to the study;
+3. event order and timestamps where available;
+4. actor/receiver identity as far as the public record supports it;
+5. assigned task or mission and known scope;
+6. messages, findings, peer instructions and other evidence actually available to the receiver;
+7. authority statements, doubts, denials, approvals or their absence;
+8. the observed commitment/action/effect where the record supports it;
+9. material facts that remain unavailable or ambiguous, marked **NOT_ESTABLISHED** rather than filled by reconstruction;
+10. the disclosure boundary between participant-visible historical evidence and evaluator-only adjudication.
+
+The historical corpus should be frozen independently of the later R01 controls. A source correction or newly published evidence opens a versioned successor; it must not silently rewrite an already adjudicated campaign.
+
+##### C. Use small historical trajectory units, not one monolithic incident narrative
+
+Extract a bounded set of decision trajectories from the incident. A useful first campaign should prefer a small number of high-information episodes rather than treating the entire July 2026 event as one trace.
+
+Each trajectory should contain a sequence such as:
+
+~~~text
+assigned task / current obligation
+        ↓
+new finding, message or coordination signal
+        ↓
+receiver's available evidence and scope
+        ↓
+material decision boundary
+        ↓
+commit / reject / hold / requalify / escalate
+        ↓
+attempted action
+        ↓
+observed effect or NOT_ESTABLISHED
+~~~
+
+Candidate examples include the emergence/use of the unauthorized board, peer findings reused by another agent, the six-minute GO episode, an explicit scope doubt, a respected veto/negative intervention, movement from individual task work into a collective project, and any episode where the record distinguishes technical success from authority to act. Each episode must be included only to the extent supported by the frozen sources.
+
+##### D. Stage 1 — historical correspondence / admission against R01
+
+For every admitted historical trajectory, apply the existing extension obligations rather than assuming that the synthetic model transfers.
+
+Evaluate E1–E7 and A25 X1–X7 against the **same receiver and same decision boundary**. Record the strongest relation actually established:
+
+- **isomorphic kernel / reversible correspondence**, only where the required preservation is established;
+- **correspondence with effective parameters θ***, when the mechanism is preserved but cost, latency, topology, source access, capacity or other parameters differ;
+- **one-way simulation / projection**, when only a directional bound or property transfers;
+- **analogy**, when the structural relation is plausible but the required dynamics/evidence are not established;
+- **NOT_ESTABLISHED**, when the public record cannot support the mapping.
+
+Do not promote a partial correspondence to complete isomorphism. In particular, preserve the task, authority/admissibility semantics, observations, temporal order, dependency/source relations, cost/resource meaning, outcome/quality definition and any optimum/tolerance claim needed by the specific trajectory.
+
+##### E. Stage 2 — isolate non-isomorphic mechanisms and their composition
+
+Anything that changes what the receiver can know, do or legitimately rely on must be represented separately from the R01 kernel.
+
+For each mechanism record:
+
+- operation and legitimate invoker;
+- source/producer/recipient/scope/version/validity;
+- whether it changes information, authority, transition availability or only latency/cost;
+- work, time, communication and human-capacity burden;
+- dependencies and shared upstream sources;
+- whether repeated messages add independent evidence or only reuse one source;
+- interaction with the receiver's original mission and existing controls.
+
+Historical candidates include peer-to-peer sharing, board-mediated dissemination, collective coordination, apparent peer permission, veto/negative intervention and any genuinely new evidence source. A peer message that merely renames already available evidence is not treated as new information; an earlier arrival is a parameter change; a new certificate or authoritative grant is an additional mechanism.
+
+##### F. Separate historical facts from synthetic R01 controls
+
+The historical record may not contain a demonstrated legitimate fallback M, a demonstrably better admissible I, or every counterfactual branch needed for comparative testing. Do **not** manufacture those as historical facts.
+
+Instead maintain two explicitly separate layers:
+
+**Historical layer**
+- only source-supported events, observations, decisions and effects;
+- missing branches remain NOT_ESTABLISHED.
+
+**Experimental-control layer**
+- matched M/I/P/Ø controls constructed prospectively around the admitted historical kernel;
+- same task, authority, observation and resource rules unless a declared experimental factor changes them;
+- M = legitimate known/reference route where admitted by the constructed control;
+- I = higher-value admissible route;
+- P = attractive but materially inadmissible route;
+- Ø = no sufficient route reached within the registered conditions.
+
+Synthetic controls are used to test specification discrimination and continuity. They do not become claims about what alternatives historically existed for a specific agent.
+
+##### G. Register candidate specifications and strong comparators before adjudication
+
+Pre-register the candidate specification packages and comparison arms before looking at their campaign outcomes.
+
+At minimum include:
+
+1. **competent conventional/reference control** using all ordinary relevant controls available under the frozen information/resource contract;
+2. **candidate EA specification** using only the explicitly selected S/T/H surfaces for the admitted trajectory;
+3. **ablations or partial specifications** where they help identify which semantic obligation actually changes the result;
+4. a **positive legitimate-change / authorized-collaboration control** so that permanent blocking cannot count as success.
+
+The initial 00G route remains the current candidate starting point:
+**S1/S2/S3/S6/S9/S11/S14 → T1/T2/T3/T4 → H2/H3/H4/H5/H6**.
+The campaign must not assume that every selected trajectory exercises every item; each trajectory identifies the material subset and keeps the unused requirements out of its score.
+
+##### H. Blind/private-reference discipline
+
+Where feasible, use a blind retrospective adjudication design:
+
+- the evaluator-private package contains the frozen historical classification and any constructed M/I/P/Ø truth needed for the control layer;
+- candidate evaluators receive only the information legitimately available at that historical decision boundary plus the registered specification;
+- route labels, expected disposition and private source reconciliation are withheld;
+- the candidate's disposition and justification are sealed before comparison with the evaluator map;
+- disagreements or challenges to the frozen oracle are preserved as results rather than corrected after inspection.
+
+This can be executed initially with human/independent reviewers applying the specification to frozen traces. It does not require a live agent attack, production credentials or interaction with Hugging Face systems.
+
+##### I. Cost, Risk and Effectiveness ledger
+
+Use the DDS/R01 ledger on each trajectory and arm.
+
+**Cost** should include, where observable or experimentally assigned: inspection/review work, communication, waiting, human attention, coordination, evidence acquisition, re-checks and latency.
+
+**Risk** should use the frozen material-violation definition for that trajectory, including unsupported mission displacement, unauthorized use, false convergence or other selected failure predicates.
+
+**Effectiveness** should distinguish at least:
+- legitimate task/mission completion;
+- successful higher-value admissible completion where I exists in the control layer;
+- correct rejection/containment of P;
+- preservation of legitimate collaboration or authorized mission change;
+- Ø / incomplete outcome.
+
+Unknown or historically unmeasurable quantities remain **unscored**, not zero.
+
+##### J. Freeze the Gate-A acceptance and falsification policy
+
+Before result-producing adjudication, freeze:
+
+- which trajectories are included;
+- which historical facts are authoritative and which are NOT_ESTABLISHED;
+- candidate/comparator arms;
+- resource and timing assumptions;
+- positive and negative controls;
+- Cost/Risk/Effectiveness measures;
+- required evidence for each decision boundary;
+- what constitutes PASS, OUTSIDE_ACCEPTANCE, TRADE-OFF or NOT_ESTABLISHED;
+- falsifiers and boundary cases;
+- stopping and amendment rules.
+
+A useful result includes a finding that the strong conventional control is equivalent or better. The campaign is not required to produce an EA advantage.
+
+##### K. Execution order
+
+The preferred order is:
+
+~~~text
+1. Source custody + historical freeze
+2. Historical trajectory extraction
+3. Independent factual/source review
+4. E1–E7 + A25 admission per trajectory
+5. Effective-parameter register θ*
+6. Additional-mechanism/composition register
+7. Historical/private-map and NOT_ESTABLISHED ledger
+8. Prospective M/I/P/Ø control construction
+9. Candidate specification + strong comparator freeze
+10. Cost/Risk/Effectiveness + acceptance-policy freeze
+11. Blind/independent retrospective trajectory adjudication
+12. Matched experimental-control traversals
+13. Differential analysis and falsifier review
+14. Gate-A candidate specification package or bounded no-differential / trade-off / insufficient-evidence finding
+~~~
+
+A probabilistic R01 campaign should be added only after the historical admission and control construction are frozen. It should vary declared parameters systematically; it must not tune the world after observing which configuration favors EA.
+
+##### L. Minimum evidence needed to call this a full DDS Gate-A campaign within scope
+
+The campaign can be described as a **full DDS Gate-A profile within its declared Hugging Face scope** only if the applicable Gate-A chain is actually instantiated, including:
+
+- frozen Challenge and historical evidence boundary;
+- bounded scenario/reduction;
+- Stage-1 correspondence/admission with proof status;
+- Stage-2 non-isomorphic mechanisms/composition;
+- complete declared I/M/P/Ø control space;
+- trajectory gates and traces;
+- strong comparator/fairness contract;
+- Cost/Risk/Effectiveness accounting;
+- frozen acceptance and falsification policy;
+- positive legitimate-continuity control;
+- bounded differential finding;
+- a versioned candidate specification package stating required/prohibited behavior, assumptions, exclusions and NOT_ESTABLISHED items.
+
+If selected surfaces are intentionally omitted or unscored, report the result as a **Simplified DDS Gate A** rather than upgrading the label.
+
+##### M. Explicit non-claims
+
+Even after a successful incident-derived Gate-A campaign, do not infer without separate evidence that:
+
+- the historical Hugging Face incident was caused by the modeled R01 mechanism;
+- EA would in fact have prevented the incident in the original systems;
+- OpenAI, Hugging Face, METR or any specific product failed a complete EA requirement set;
+- a candidate architecture realizes the specification — Gate B remains separate;
+- a deployed implementation solves the historical problem — Gate C remains separate;
+- the result transfers to Infoblox, the extended family or another incident without its own correspondence/admission analysis.
+
+**Planned output if this work is later commissioned/executed:** a frozen incident-derived Challenge package, historical trajectory/evidence register, E1–E7/A25 admission matrix, θ* and additional-mechanism register, prospective campaign card, M/I/P/Ø control pack, comparator/fairness contract, C–R–E ledger, acceptance/falsification policy, sealed adjudication traces, differential finding and Gate-A candidate specification package.
+
+
 #### Original framing retained
 
 The document specifies chains with variable benefits and proximities, exploration, own review and social activity. It grounds a candidate specialization of the 00G family and its relation to certain Hugging Face traces; Napoleon is another case of that family. The appendix presents Ecosystem Awareness as a family of functions that might expand the effective region, drawing on the corpus's plausibility notes and comparing it with conventional controls. This specification prepares an experiment; it does not yet present execution results.
