@@ -10,6 +10,8 @@
 
 **Candidate mechanism basis:** [A/B/C/D Requirements + Repositioning Trace](./ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md) · [Population Context-Shift Model](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
 
+**Deterministic Run Card / evaluator-oracle design:** [DDS_STAGE_A_RUN_CARD_v0.1.json](./DDS_STAGE_A_RUN_CARD_v0.1.json).
+
 ---
 
 ## 0. Why this is Stage A, and why it is Simplified
