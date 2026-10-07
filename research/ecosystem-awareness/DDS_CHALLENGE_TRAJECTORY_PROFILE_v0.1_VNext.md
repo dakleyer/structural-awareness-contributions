@@ -352,3 +352,611 @@ Antes de publicar, head `f0ebdd1031eb740b181c6a405fba6beb7f29ff6d` añadió §§
 La admisión de M precedente al resultado, la distinción mínimo privado/accesible y la exclusión de P del numerador Type 1 son condiciones pertinentes para leer Foundation. El exceso frente a un optimum informado no es negligencia automática de un sistema ciego. Hay que verificar la admisión y exclusiones en los perfiles, y justificar el mecanismo de falta de cierre dentro del mismo contrato de información/capacidad; existencia de M en un mapa privado no basta para esa inferencia universal.
 
 [Foundation VNext](baseline/01_FOUNDATIONAL_VNext.md) registra la pregunta y mantiene73 pendiente. No se reetiqueta un resultado, verifica una campaña, abre una batería o prepara otro par sólo por existir una fórmula. La incorporación y las lecturas materiales pendientes conservan sus gates.
+
+
+---
+
+## 7 October 2026 — corpus-wide DDS Gate normalization plan
+
+**Owner instruction interpreted.** Iván wants one testing method across the Ecosystem Awareness corpus. Existing experiments, paper traversals, technology profiles, deterministic fixtures, oracle work and future real-technology campaigns must no longer read as ad hoc test families. The intended normalization is:
+
+- **DDS is the single substantive testing/evaluation method of this corpus.**
+- **DDS Gate A — Specification Discovery:** compare candidate specifications/mechanisms against a frozen Challenge and determine what specification package survives.
+- **DDS Gate B — Architecture Verification:** verify an architecture/reference realization against the frozen Gate-A specification package.
+- **DDS Gate C — Implementation / Problem Validation:** validate a pinned executable implementation against the Challenge and observed effects.
+- A bounded profile may be labelled **Simplified DDS Gate A/B/C** when it intentionally exercises only selected surfaces of that gate and declares the omissions.
+- Evidence mode is separate from gate identity: documentary, analytical, virtual, symbolic, deterministic fixture, controlled harness, native execution, matched campaign and independent replication do not by themselves determine whether the profile is Gate A, B or C.
+- DBC, 00D, the R01 oracle, UC-4 adapters, Stage-0, C02/C11/T03, CTv1 and individual Q#/S#/T#/H# gates retain their source-native meanings. They become DDS support artefacts, infrastructure, lifecycle states or local trajectory gates; they are **not parallel methods**.
+
+This is a migration plan only. It does not rewrite frozen results, historical records, source-owned external work or the canonical DDS source until Iván authorizes the exact change set.
+
+### A. Namespace rule that must be fixed first
+
+The current DDS already uses the word **Gate** for a decision/validation boundary inside a trajectory. The new A/B/C labels are a higher-level development namespace.
+
+Use:
+
+- **DDS Gate A / DDS Gate B / DDS Gate C** — reserved for the three corpus-wide development gates.
+- **trajectory gate** — local decision/validation boundary inside a Challenge, e.g. Q0–Q6 or another scenario gate.
+- **R01 gate policy** — local acceptance-policy artefact; not a DDS Gate.
+- **UC-4 Stage-0 / Stage-1** — Nelson's testbed maturity/integration terms; not DDS Gate names.
+- **C02 / C11 / T03** — R01 instrument/campaign lifecycle deliveries; not DDS Gate names.
+
+This namespace change is necessary before any mass relabelling.
+
+### B. What is already integrated, and how it should be classified
+
+| Current family | Proposed DDS classification | Why |
+|---|---|---|
+| 00E/00F current product implementation profiles | **Simplified DDS Gate A** | They compare ordinary/top/EA-qualified specification/configuration trajectories against a frozen failure/quality plan; they do not verify a built architecture against a frozen Gate-A package or execute the product. |
+| 00G-A01 OpenAI, 00H-A01 Claude, 00H-A02 Stripe, 00I-A01 AWS Step Functions/RDS, 00J-A01 Panodyssey current trajectories | **Simplified DDS Gate A** | Same object: specification/configuration discovery under a Challenge, mostly documentary/design/fixture evidence. |
+| 00L reinforced paper traversals | **Simplified DDS Gate A — analytical/symbolic evidence** | The candidate object remains the specification/trajectory rule; symbolic execution does not turn it into Gate B/C. |
+| RS-00E-Q1a Stage-0 fixture | **Simplified DDS Gate A — deterministic Stage-0 evidence** | It executes a bounded Gate-A specification/trajectory comparison. Stage-0 is evidence/testbed maturity, not the DDS gate. |
+| R01 core | **Rich DDS Gate A reference instantiation** | R01 is the richest current specification-discovery/technology-mechanism study, with explicit C/R/E and acceptance. |
+| R01 technology extension Stage 1/Stage 2 | **DDS Gate A internal extension-review stages** | These stages discover/map preserved correspondence and added mechanisms before architecture realization. They are not DDS Gate B/C. |
+| Human Escalation / Whispering | **Rich DDS Gate A profile** | Its mathematical/virtual/finite-model work studies candidate mechanisms/specifications; no production architecture/product validation exists. |
+| Current RAG, OAuth/OIDC, MCP tool-calling, durable-workflow/retry and SQL/idempotency DDS studies | **Simplified DDS Gate A** unless a future edition explicitly changes the object under test | Their current bounded models study mechanism/configuration contribution under authored Challenges. |
+| STAMP/STPA, SPIFFE/JWT, RATS/JWS finite exercises | **Simplified DDS Gate A** under current questions | Actual local code/crypto execution strengthens the evidence mode but the object remains mechanism/specification suitability under a bounded Challenge. |
+| 00K requirement/principle proofs and regression suites | **DDS Gate-A specification-quality support** | They test consistency/sufficiency/traceability of the specification basis itself; no architecture realization is being verified. |
+| 00D benchmark/fairness material | **DDS comparator/fairness support contract, primarily Gates A/C** | It defines strong-peer/resource symmetry and comparative discipline; it is not a second method. |
+| DBC | **DDS Challenge/adjudication support module, usable across A/B/C** | It supplies boundary questions, dispositions, vectors and evidence vocabulary; it is not a second method. |
+| R01 C02 oracle/harness self-tests | **DDS test-infrastructure qualification** | They test the instrument itself. They are not substantive Gate A/B/C findings. |
+| C11 | **DDS campaign registration support** | It freezes resources/comparators/analysis for a result-producing DDS profile; it is not a gate result. |
+| T03 real-technology path | **Gate-C execution/admission infrastructure** | It is the prepared route for a real implementation, but no existing T03 run is currently a Gate-C result. |
+| First planned 00I/S5 architecture realization | **First intended DDS Gate B pilot** | This is where a candidate architecture will be verified against a frozen Gate-A specification package. |
+| Real product/API campaign after C11/T03 | **DDS Gate C** | Only here is a pinned executable implementation validated against the Challenge and actual/representative effects. |
+
+### C. Surgical canonical change 1 — make A/B/C first-class in DDS
+
+**File:** `research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md`
+
+**Before**
+
+~~~~text
+DDS is the method envelope. R01, the current technology trajectories, DBC and 00D keep their own semantics:
+
+- R01 is the richest current probabilistic DDS reference instantiation and retains its own mathematics.
+- DBC is an applied evidence/adjudication route and evidence-maturity framework; it does not redefine DDS route semantics.
+- 00D is a fair-comparison/benchmark contract; it does not define DDS trace accounting.
+- The frozen positive/negative technology traversals associated with the current UC21 challenge family are simplified DDS implementation profiles.
+~~~~
+
+**After**
+
+~~~~text
+DDS is the single substantive testing/evaluation method used by this corpus. It has three development gates with different objects under test and different authoritative references:
+
+- DDS Gate A — Specification Discovery: candidate specifications/mechanisms are tested against a frozen Challenge to identify the specification package that survives the declared controls, comparators and acceptance rule.
+- DDS Gate B — Architecture Verification: a candidate architecture/reference realization is verified against the frozen Gate-A specification package.
+- DDS Gate C — Implementation / Problem Validation: a pinned executable implementation is validated against the originating Challenge and observed effects.
+
+A profile may be a Simplified DDS Gate A/B/C profile when it deliberately exercises only selected surfaces of that gate and declares the omissions. Evidence mode is orthogonal to gate identity.
+
+R01, DBC, 00D, UC-4 mappings and the current oracle retain their source-native semantics and roles inside DDS:
+- R01 is the richest current probabilistic DDS Gate-A reference instantiation and retains its own mathematics.
+- DBC is a reusable DDS Challenge/adjudication support module; it does not define a second test method.
+- 00D is a DDS comparator/fairness support contract; it does not define a second test method.
+- the current frozen positive/negative technology trajectories are Simplified DDS Gate-A profiles unless a successor explicitly changes the object under test.
+~~~~
+
+**Impact:** very high conceptual clarity.  
+**Risk:** medium because this changes the classification of existing active material; no historical result is changed.  
+**Verification:** every active profile must map to A/B/C or support/infrastructure without inventing a fourth substantive test method.
+
+### D. Surgical canonical change 2 — current DDS chain becomes explicitly Gate A
+
+**File:** same canonical DDS source.
+
+**Before**
+
+~~~~text
+## 2. Canonical DDS chain
+
+CHALLENGE
+   ↓
+BOUNDED SCENARIO / REDUCTION
+   ↓
+TECHNOLOGY–PROBLEM EXTENSION + ISOMORPHISM PROFILE
+...
+DIFFERENTIAL CONTRIBUTION FINDING
+~~~~
+
+**After**
+
+~~~~text
+## 2. DDS Gate A — Specification Discovery
+
+CHALLENGE
+   ↓
+BOUNDED SCENARIO / REDUCTION
+   ↓
+INCUMBENT / STRONG-PEER / CANDIDATE-SPECIFICATION MAPPING
+   ↓
+TECHNOLOGY–PROBLEM EXTENSION + ISOMORPHISM PROFILE
+   ↓
+STUDY OF NON-ISOMORPHIC MECHANISMS
+   ↓
+ROUTE + TRAJECTORY-GATE MODEL
+   ↓
+DOCUMENTARY / ANALYTICAL / VIRTUAL / EXECUTED SPECIFICATION TRACES
+   ↓
+TRACE ACCOUNTING WHERE IN SCOPE
+   ↓
+FROZEN ACCEPTANCE / FALSIFIERS
+   ↓
+GATE-A DIFFERENTIAL FINDING
+   ↓
+VERSIONED CANDIDATE SPECIFICATION PACKAGE
+
+### 2A. DDS Gate B — Architecture Verification
+GATE-A SPECIFICATION PACKAGE
+   ↓
+ARCHITECTURE MANIFEST + REQUIREMENT TRACE
+   ↓
+VERIFICATION METHOD PER REQUIREMENT
+   ↓
+POSITIVE / BOUNDARY / REJECTION / MUTATION CONTROLS
+   ↓
+ARCHITECTURE / REFERENCE-REALIZATION TRACE
+   ↓
+VERIFIED / PARTIALLY VERIFIED / NONCONFORMANT / NOT ESTABLISHED
+   ↓
+VERSIONED VERIFIED ARCHITECTURE PACKAGE
+
+### 2B. DDS Gate C — Implementation / Problem Validation
+ORIGINATING CHALLENGE + GATE-A/B LINEAGE
+   ↓
+PINNED IMPLEMENTATION / CONFIGURATION
+   ↓
+REGISTERED ENVIRONMENT / COMPARATOR / RESOURCES
+   ↓
+NATIVE EXECUTION + ACTUAL EFFECT / TARGET-STATE OBSERVATION
+   ↓
+COST / RISK / EFFECTIVENESS
+   ↓
+FROZEN ACCEPTANCE
+   ↓
+BOUNDED EMPIRICAL VALIDATION FINDING
+~~~~
+
+**Important:** existing sections 3–15 that define Challenge, mapping, routes and accounting remain reusable. The edit must state which surfaces apply to A, B or C instead of duplicating the whole method three times.
+
+### E. Surgical canonical change 3 — resolve the word “gate”
+
+**Before**
+
+~~~~text
+## 6. Segments, gates, traversals and traces
+
+- Gate — a decision/validation boundary over a partial history.
+~~~~
+
+**After**
+
+~~~~text
+## 6. Segments, trajectory gates, traversals and traces
+
+Namespace rule:
+- DDS Gate A/B/C = corpus-wide development gates.
+- trajectory gate = a decision/validation boundary inside one Challenge/profile, including Q0–Q6 and similar local gates.
+
+- Trajectory gate — a decision/validation boundary over a partial history.
+~~~~
+
+This prevents a Q3 gate from being confused with DDS Gate B.
+
+### F. Surgical canonical change 4 — make gate identity mandatory in coverage
+
+**Before**
+
+~~~~text
+## 10. DDS profile coverage
+
+There is one DDS method. Concrete implementations may instantiate all or only part of it.
+
+A profile must declare coverage for:
+~~~~
+
+**After**
+
+~~~~text
+## 10. DDS gate and profile coverage
+
+There is one DDS method and three substantive development gates. Every result-producing DDS profile must declare:
+
+- DDS Gate: A | B | C;
+- object under test;
+- authoritative reference for that gate;
+- whether the profile is Simplified DDS Gate A/B/C or exercises the gate without that reduction qualifier;
+- evidence mode;
+- DDS surfaces selected, collapsed, unscored or outside scope;
+- support artefacts used, including DBC, 00D, UC-4 and oracle infrastructure where applicable.
+
+A Simplified profile is not another method and is not a lower-quality label by itself; it means only that the bounded question intentionally uses a subset of the gate's surfaces.
+~~~~
+
+### G. Surgical canonical change 5 — evidence grades do not define the gate
+
+**Insert at the start of current §16 Evidence and claim boundary**
+
+~~~~text
+DDS Gate identity and evidence mode are orthogonal. A Gate-A specification study may contain deterministic or executable model evidence; that does not make it Gate B or C. A Gate-B verification may be analytical/formal or executable. Gate C requires an implementation/configuration claim against the Challenge, but its evidence may still be sandbox, matched or independently replicated. No evidence mode silently changes the object under test.
+~~~~
+
+This is essential to stop “Python = Gate C”.
+
+### H. Surgical canonical change 6 — minimum citation block
+
+**Before**
+
+~~~~text
+DDS profile:
+Base scenario / version:
+Technology–problem extension / isomorphism profile and status:
+...
+Evidence mode:
+Acceptance rule:
+~~~~
+
+**After**
+
+~~~~text
+DDS profile:
+DDS Gate: A | B | C
+Gate coverage: full declared gate scope | Simplified
+Object under test:
+Authoritative reference:
+Base Challenge / version:
+Gate-A specification package / hash: [required for B/C]
+Gate-B architecture package / hash: [required for C]
+Technology–problem extension / isomorphism profile and status:
+Non-isomorphic mechanism study and status:
+DDS surfaces used:
+DDS surfaces unscored / collapsed:
+Support artefacts used: DBC | 00D | UC-4 | Oracle | other
+Evidence mode:
+Acceptance / verification rule:
+Base/frozen artefact:
+Successor/extension status:
+~~~~
+
+Historical profiles are not rewritten solely to add this block; current/successor profiles add it prospectively.
+
+### I. Surgical change 7 — current-profile table gets a DDS Gate column
+
+**File:** canonical DDS §11.
+
+Current rows such as:
+
+~~~~text
+| 00E–00J positive/negative technology trajectories ... | Simplified DDS profiles ... |
+| 00I AWS ordinary → defended → same frozen defended-under-drift trajectory | Simplified DDS profile ... |
+| R01 core | Rich probabilistic DDS reference profile |
+| Human escalation + whispering | Rich DDS implementation profile over R01 ... |
+~~~~
+
+become conceptually:
+
+~~~~text
+| Artefact / family | DDS role | DDS Gate | Coverage | Evidence |
+| 00E–00J current technology trajectories | product/technology specification discovery | A | Simplified | documentary / analytical / symbolic as stated |
+| 00I AWS Step Functions/RDS | technology/configuration specification discovery | A | Simplified | source-reviewed design + fixture skeleton; no AWS execution |
+| R01 core | probabilistic specification-discovery reference | A | Rich | mathematical / virtual / harness stages separately stated |
+| HEW / Whispering | mechanism/specification-discovery profile | A | Rich | analytical/virtual + finite model; no native human/vendor campaign |
+| 00K requirements proofs | specification-quality support | A-support | support, not standalone profile | formal/symbolic |
+| DBC | Challenge/adjudication support | cross-gate support | n/a | design/evidence vocabulary |
+| 00D | comparator/fairness support | primarily A/C support | n/a | design/comparison contract |
+| R01 C02 oracle self-test | test-infrastructure qualification | infrastructure | n/a | deterministic Stage-0 self-test |
+| 00I/S5 Gate-B successor | architecture verification | B | first bounded pilot | planned |
+| T03 real implementation campaign | implementation/problem validation | C | profile-specific | pending |
+~~~~
+
+This table becomes the authoritative crosswalk instead of adding another classification document.
+
+### J. Surgical router change — remove “separate applied-evidence route”
+
+**File:** `research/ecosystem-awareness/README.md`
+
+**Before**
+
+~~~~text
+There is one DDS method. Concrete artefacts use DDS implementation profiles with declared coverage. The current frozen positive/negative technology trajectories are simplified DDS profiles; R01 is the richest current probabilistic reference instantiation; Human Escalation / Whispering is a richer virtual DDS profile.
+
+## Applied validation route — Decision Boundary Challenge
+
+The Decision Boundary Challenge ... is a separate applied-evidence route ...
+~~~~
+
+**After**
+
+~~~~text
+There is one DDS method with three substantive gates: Gate A Specification Discovery, Gate B Architecture Verification and Gate C Implementation / Problem Validation.
+
+Current classification:
+- current positive/negative technology trajectories: Simplified DDS Gate A;
+- R01: richest current probabilistic DDS Gate-A reference instantiation;
+- Human Escalation / Whispering: rich DDS Gate-A profile;
+- first Gate-B architecture-verification pilot: planned on 00I/S5;
+- Gate-C real-implementation validation: not yet established.
+
+## DDS support module — Decision Boundary Challenge
+
+The Decision Boundary Challenge is a reusable Challenge/adjudication and evidence vocabulary consumed by DDS profiles. It is not a second testing method. Its cases may supply Gate-A discovery vectors, Gate-B conformance controls and Gate-C observed-boundary/adjudication semantics where the registered profile justifies that use.
+~~~~
+
+### K. Surgical manifest change — remove explicit second-method wording
+
+**File:** `baseline/CANONICAL_CORPUS_MANIFEST.md`
+
+**Before**
+
+~~~~text
+R01 remains the controlling source for its own mathematics and extension proofs; DBC and 00D remain separate evidence/comparison methods.
+~~~~
+
+**After**
+
+~~~~text
+R01 remains the controlling source for its own mathematics and extension proofs. DBC and 00D retain separate semantic ownership as DDS support artefacts: DBC supplies Challenge/adjudication vocabulary and 00D supplies comparator/fairness contracts. Neither is a second corpus testing method.
+~~~~
+
+### L. Surgical DBC change
+
+**File:** `DECISION_BOUNDARY_CHALLENGE_v0.2.md`
+
+Do not rename DBC or destroy its current identity.
+
+**Insert after the opening status paragraph:**
+
+~~~~text
+**DDS classification.** DBC is a cross-gate DDS support module, not a parallel testing method. It supplies reusable boundary questions, dispositions, challenge families and evidence/adjudication vocabulary. A concrete result is reported under the DDS Gate of the object being tested: Gate A for specification discovery, Gate B for architecture verification or Gate C for implementation/problem validation.
+~~~~
+
+**Replace in §2**
+
+~~~~text
+This route therefore runs in parallel with the W2 Benchmark-vNext programme.
+~~~~
+
+with
+
+~~~~text
+DBC and 00D are complementary support artefacts inside DDS. DBC supplies boundary/challenge/adjudication material; 00D supplies comparator/fairness discipline. A registered DDS profile may consume either or both according to its Gate and scope.
+~~~~
+
+### M. Surgical 00D change
+
+**File:** current 00D v0.3 draft; do not rewrite frozen v0.2 solely for nomenclature.
+
+**Insert in metadata:**
+
+~~~~text
+| DDS role | Comparator/fairness support contract. Primarily supports Gate A specification comparison and Gate C matched implementation comparison; may provide regression controls to Gate B. Not a separate testing method. |
+~~~~
+
+**Change Q0 heading prospectively**
+
+~~~~text
+Q0 — conformance precondition
+~~~~
+
+to
+
+~~~~text
+Q0 — local comparator/admission conformance precondition
+
+This local Q0 is a trajectory/admission gate inside 00D. It is not DDS Gate B. When the object under test is an architecture realization against a frozen Gate-A specification, that work belongs to DDS Gate B and may reuse this Q0 material as a control.
+~~~~
+
+This avoids a second use of “conformance” being mistaken for Gate B.
+
+### N. Surgical active-profile header template
+
+Apply only to **current active profiles**, not every predecessor.
+
+Insert into the metadata/header of:
+
+- 00E-A01 Microsoft Agent 365 v0.2 Draft;
+- 00E-A02 LangGraph/LangSmith v0.2 Draft;
+- 00F-A01 FIWARE v0.2 Draft;
+- 00F-A02 AWS IoT/TwinMaker v0.2 Draft;
+- 00G-A01 OpenAI Agents current draft;
+- 00H-A01 Claude Agent SDK v0.4 Draft;
+- 00H-A02 Stripe Radar v0.4 Draft;
+- 00I-A01 AWS Step Functions/RDS v0.2 Draft;
+- 00J-A01 Panodyssey/TEMS current draft.
+
+**Template after existing Status row:**
+
+~~~~text
+| DDS classification | Simplified DDS Gate A — Specification Discovery |
+| DDS object under test | Candidate technology/configuration specification trajectory against the parent Challenge |
+| Evidence mode | Documentary / source-reviewed design / fixture evidence as stated in this profile |
+| Gate B | Not established by this profile |
+| Gate C | Not established by this profile; no native product execution unless explicitly recorded otherwise |
+~~~~
+
+For 00I-A01 specifically this makes the current status unambiguous: the ASL skeleton and S5/T08 companion evidence strengthen Gate-A evidence; they do not constitute Gate-B architecture verification or Gate-C AWS validation.
+
+### O. 00L and RS-00E-Q1a
+
+**00L README — insert after current Status paragraph**
+
+~~~~text
+**DDS classification:** Simplified DDS Gate A — Specification Discovery, with analytical/paper and bounded symbolic evidence. The symbolic runner executes candidate specification/trajectory rules; it does not verify a Gate-B architecture package or validate a Gate-C product.
+~~~~
+
+**RS-00E-Q1a README — current status**
+
+Before:
+
+~~~~text
+Status: descriptive Stage-0 execution published for Q1a only...
+~~~~
+
+After:
+
+~~~~text
+Status: Simplified DDS Gate A deterministic fixture execution for Q1a; local evidence/testbed maturity = Stage-0. B1 and B3 tie in this fixture. This is not Gate-B architecture verification, Gate-C product validation or a comparative EA/product result.
+~~~~
+
+Historical execution records remain unchanged; the index supplies the new classification.
+
+### P. R01 and HEW
+
+**R01 README before**
+
+~~~~text
+DDS relationship: ... treats R01 as the richest current probabilistic DDS reference instantiation.
+~~~~
+
+**After**
+
+~~~~text
+DDS relationship: ... treats R01 as the richest current probabilistic DDS Gate-A reference instantiation. Its current mathematical, virtual and finite-harness work remains specification/mechanism discovery unless a successor profile explicitly enters Gate B or Gate C.
+~~~~
+
+**HEW before**
+
+~~~~text
+This study is a rich virtual DDS implementation profile over R01, not a separate test method.
+~~~~
+
+**After**
+
+~~~~text
+This study is a rich DDS Gate-A implementation profile over R01, with virtual/analytical and finite-model evidence as stated. It studies candidate mechanism/specification contribution; it is not a Gate-B architecture-verification result or Gate-C native human/vendor validation.
+~~~~
+
+The current deterministic model self-test stays Gate A because the object being tested has not changed.
+
+### Q. Current extension studies under R01
+
+For current RAG, OAuth/OIDC, MCP tool-calling, durable-workflows/retries, SQL/idempotency, STAMP/STPA, SPIFFE and RATS leaves:
+
+- add one classification line in the current `DDS_STUDY.md` or current extension entry point;
+- default classification = **Simplified DDS Gate A** under the current bounded question;
+- retain every original run/hash/result;
+- do not edit `old/**` copies;
+- if a later study freezes a Gate-A package and verifies an architecture realization against it, create a Gate-B successor rather than retroactively relabeling the old run.
+
+### R. Oracle / harness surgical changes
+
+**R01 oracle README — insert near Status**
+
+~~~~text
+**DDS role:** test-infrastructure qualification under C02. The current Stage-0 self-tests verify oracle/harness mechanics and are not themselves DDS Gate-A, Gate-B or Gate-C substantive results.
+~~~~
+
+**GATE_POLICY_CONTRACT.md — insert namespace note**
+
+~~~~text
+Namespace: this file's "gate policy" is the frozen local R01 acceptance policy applied to a profile. It is not DDS Gate A/B/C. Future gate-aware Oracle successors should record both the DDS Gate and the profile-specific acceptance/verification policy.
+~~~~
+
+**Oracle VNext:** retain the already documented A/B/C integration workstream. Do not modify the frozen v0.9 instrument in place.
+
+**Future successor only:**
+- Gate-A package export;
+- Gate-B architecture manifest + verification matrix + mutation suite;
+- C11 gate-lineage fields;
+- T03 Gate-C lineage.
+
+### S. Workplan / visual/navigation edits
+
+Current W2/W3 language often reads as if Benchmark, DBC and Stage-0 were separate test programmes.
+
+Prospective router rule:
+
+~~~~text
+W2 — DDS Gate-A comparator/fairness and specification discovery
+W3-A — executable/symbolic evidence for Simplified DDS Gate-A profiles
+W3-B — architecture verification coverage under DDS Gate B
+W3-C — real-implementation/problem validation under DDS Gate C
+~~~~
+
+Do not rename historical W2/W3 identifiers in frozen records. Update only current workplan headings/explanatory paragraphs and visual guides.
+
+### T. What must be left concretely untouched
+
+Do **not** mass-edit:
+
+1. `governance/preserved-public-snapshots/**`;
+2. any `old/**`, `previous-work/**` or explicit preserved predecessor;
+3. frozen execution records, pre-registrations, result JSON, manifests, trace hashes or CI evidence;
+4. Freeze Editions whose role is immutable evidence conservation;
+5. source-owned external artefacts, including Nelson's UC-4 terminology and Steven/Xinghua's catalogue; our adapter/crosswalk may classify our use, not rename their work;
+6. old v0.1 product profiles when a current successor exists, unless a navigation-only note is separately justified;
+7. native namespaces such as Q0–Q6, S#/T#/H#, DBC-C#, UC-4 Stage-0/Stage-1, C02/C11/T03 or AWS-I0/I1/I2;
+8. current mathematical theorems/results merely to insert the word Gate.
+
+The migration is **classification and routing first**, scientific changes only where a Gate definition exposes a real missing contract.
+
+### U. Order of surgery
+
+**Batch 1 — canonical terminology only**
+1. DDS canonical source: three Gates, namespace, coverage, evidence orthogonality, citation block, current-profile table.
+2. EA README router.
+3. Canonical corpus manifest.
+4. DBC and current 00D role notes.
+
+Stop and verify navigation/meaning before touching profiles.
+
+**Batch 2 — active profile classification**
+5. Current 00E/00F/00G/00H/00I/00J technology profiles.
+6. R01 and HEW.
+7. Current extension-study entry points.
+8. 00L and RS-00E-Q1a current indexes.
+
+No scientific result changes in this batch.
+
+**Batch 3 — oracle namespace/integration**
+9. Oracle README classification.
+10. GATE_POLICY namespace note.
+11. Keep Oracle VNext A/B/C plan as successor design.
+12. Do not change v0.9 executable/schema/results.
+
+**Batch 4 — planning/navigation**
+13. WORKPLAN/VISUAL_GUIDE/current routers.
+14. Add Gate B first-pilot route and Gate C future T03 route.
+
+### V. Migration acceptance checks
+
+Before the normalization is complete, repository search should establish:
+
+1. every current substantive test/profile is classified as DDS Gate A/B/C;
+2. every current reduced profile says Simplified DDS Gate A/B/C when appropriate;
+3. DBC and 00D are nowhere described as parallel/second corpus testing methods in current active routers;
+4. "Stage-0" never appears as a substitute for Gate A/B/C;
+5. "BATCH_CONFORMANCE" is not described as Gate B;
+6. no existing artifact is called Gate C without a pinned real implementation/configuration and Challenge/effect claim;
+7. Gate-B claims require a frozen Gate-A specification reference;
+8. Gate-C claims require Gate-A lineage and, where the DDS-designed architecture is claimed, Gate-B lineage;
+9. all historical hashes/results remain unchanged;
+10. source-native external terminology remains intact.
+
+### W. Proposed decision
+
+The recommended migration is **not** to create another testing taxonomy. It is to make the existing DDS statement "there is one DDS method" operationally true throughout the corpus.
+
+Under this plan the repository becomes readable as:
+
+~~~~text
+DDS
+├── Gate A — Specification Discovery
+│   ├── rich: R01
+│   └── simplified: product trajectories, 00L, Stage-0 fixtures, bounded extension studies
+├── Gate B — Architecture Verification
+│   └── first planned pilot: 00I/S5 reference architecture
+├── Gate C — Implementation / Problem Validation
+│   └── future real technology through C11/T03
+└── Support / infrastructure
+    ├── DBC — Challenge/adjudication vocabulary
+    ├── 00D — comparator/fairness contract
+    ├── UC-4 — external testbed/interoperability envelope
+    ├── C02 Oracle — test-infrastructure qualification
+    ├── CTv1 / tool broker / isolation
+    └── C11/T03 — campaign registration and real-execution admission
+~~~~
+
+This gives the corpus one testing language without erasing the distinct scientific ownership of its component artefacts.
