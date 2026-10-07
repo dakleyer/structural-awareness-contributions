@@ -10,6 +10,8 @@
 
 **Cross-source matrix:** [CROSS_SOURCE_EVENT_MATRIX_v0.1.md](./CROSS_SOURCE_EVENT_MATRIX_v0.1.md)
 
+**Refinement:** [ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md](./ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md) owns the more precise 00N reading: historical traces are mainly A outputs of their source processes; B/C/D are not invented population bins but qualification that must be preserved/acquired around those A outputs. The population distribution below is therefore an A result of a population evaluator, while its B/C/D qualify that population result and the route dimensions it composes.
+
 ---
 
 ## 0. Conceptual correction
