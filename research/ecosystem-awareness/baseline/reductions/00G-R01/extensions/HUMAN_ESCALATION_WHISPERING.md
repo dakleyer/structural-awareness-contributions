@@ -5,7 +5,7 @@ Mathematical version 0.1 · Virtual traversals 0.3 · DDS research document addi
 
 ## DDS profile status
 
-This study is a **rich virtual DDS implementation profile over R01**, not a separate test method. The canonical DDS terminology is defined in the [DDS Challenge–Trajectory Profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); the R01 mathematics below remains source-native and unchanged.
+This study is a **rich DDS Gate-A — Specification Discovery profile over R01**, with virtual/analytical and finite-model evidence as stated; it is not a separate test method, Gate-B architecture verification or Gate-C native human/vendor validation. The complete method is routed by the [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), while the [Gate-A challenge–trajectory profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) governs this study's specification-discovery coverage. The R01 mathematics below remains source-native and unchanged.
 
 | DDS surface | Current Human Escalation / Whispering coverage |
 |---|---|
