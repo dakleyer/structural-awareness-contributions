@@ -4,7 +4,7 @@ Supporting dossier v0.1 · Reviewed:2026-10-06 · Written for technology provide
 
 Review/navigation: [sole owning sourcebook review](./DDS_RESEARCH_BASIS_AND_BENCHMARKING_2026-10-06_VNext.md). Supporting research; the DDS technical profile remains the method authority.
 
-This dossier explains the research basis and documentary positioning of the Deployment Differential Study. It consumes the [single working DDS technical profile](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), clarification0.1.4, source pin [ba5e8081](https://github.com/dakleyer/structural-awareness-contributions/commit/ba5e8081beff2d4728f043839cb2ea0376a94c57). It is an annotated literature/benchmarking companion, not another canonical method or the00D benchmark.
+This dossier explains the research basis and documentary positioning of the Deployment Differential Study. The current method entry point is the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md), with [Gate A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) retaining the challenge–trajectory material reviewed in this dossier at source pin [ba5e8081](https://github.com/dakleyer/structural-awareness-contributions/commit/ba5e8081beff2d4728f043839cb2ea0376a94c57). It is an annotated literature/benchmarking companion, not another canonical method or the 00D comparator/fairness source.
 
 Read the overview and comparison tables first; use the reference annotations for technical due diligence. The review is by the same Codex assistant. Source selection and documentary comparison were completed; shared-fixture commercial/vendor performance comparison and independent validation were not performed.
 
