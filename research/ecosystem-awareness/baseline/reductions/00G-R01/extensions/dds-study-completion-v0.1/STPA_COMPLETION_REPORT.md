@@ -1,5 +1,7 @@
 # STAMP/STPA — completed scoped DDS review
 
+**Current reading — documentation0.4, 7 October2026.** The [current study record](../independent-dds-exercises-v0.1/stamp-stpa/CURRENT_STUDY_RECORD.json) governs navigation, Stage/coverage and the executed cost/type successor. Dated coverage sections below retain their original evidence date; their previously unscored diagnostics are superseded only by the linked prospective successor, not by regrading original results.
+
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 Version0.1 · 6 October2026 · scoped completion edition, same author. This record was prepared against the then-current Stage A source at commitf7d8ed0846b301617197ade855d5237cbd2280f9 (method0.1, clarifications through0.1.4 and current M-floor/failure-type distinction). Under the current [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), it is a **Stage A scoped completion record** using the [Stage A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); it is not another DDS method, Stage B architecture verification or Stage C native validation. Its crosswalk and conclusions are retrospective; only the separately frozen [boundary Run Card](./BOUNDARY_RUN_CARD.json) was registered before the new result-producing checks. Original cards, freezes, thresholds, scripts and results remain immutable.

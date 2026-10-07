@@ -1,0 +1,177 @@
+{
+  "schema": "SIMPLIFIED-DDS-STAGE-A-RUN-CARD-0.1",
+  "version": "0.2",
+  "registered_at_utc": "2026-10-07T14:04:56.484729+00:00",
+  "study": "DDS-SERIES2-QUEUES-ACK-REDELIVERY-20261007",
+  "profile": "queues-ack-redelivery",
+  "canonical_stage": "A",
+  "coverage": "Simplified",
+  "method_commit": "3ab9c56a6c2b3240341e32c6466da3f2cc09335d",
+  "runtime": {
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "pydantic": "2.13.5"
+  },
+  "question": "When do broker acknowledgement, redelivery and an application receipt establish sufficient local completion?",
+  "base": "QUEUES-ACK-REDELIVERY-BOUNDED-RECEIVER-0.1",
+  "extension_steps": {
+    "step1": "Local bounded correspondence/profile; no formal R01/native isomorphism claimed",
+    "step2": "Scoped source/authority/currentness/effect-feedback/closure mechanisms; producers, burdens, interactions and falsifiers documented"
+  },
+  "cost": "Frozen selected actual SQLite API calls including commit/rollback and explicit policy entries, unit weights1; fixture/evaluator separated; no pricing or global minimum",
+  "minimum_G": "Exact minimum of two frozen qualifying/reference procedures only; no global algorithm optimum",
+  "Type1": "No closure only where nontrivial M remained admitted/reachable under the same interfaces and budget/horizon; P excluded",
+  "Type2": "P only through declared false qualification/closure; authored-case fraction, no population claim",
+  "budget": {
+    "selected_api_units": 256,
+    "clock": "synthetic now10; useful timing/expiry/for boundaries declared per case"
+  },
+  "information_boundary": "Receiver gets permitted request and source/resource observations; expected labels/private truth remain in driver/evaluator; no malicious-code/OS isolation Scenario/policy simulation-kind markers remain visible to these local models; no blind generated-world search claim.",
+  "sources": [
+    {
+      "title": "RabbitMQ consumer acknowledgements/publisher confirms",
+      "url": "https://www.rabbitmq.com/docs/confirms",
+      "type": "primary",
+      "reviewed": "2026-10-07",
+      "native_product_executed": false
+    },
+    {
+      "title": "RabbitMQ reliability",
+      "url": "https://www.rabbitmq.com/docs/reliability",
+      "type": "primary",
+      "reviewed": "2026-10-07",
+      "native_product_executed": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "Q01",
+      "kind": "nominal",
+      "human_scenario": "A consumer must apply an admitted tenant-a operation and acknowledge its delivery after a durable effect receipt.",
+      "expected": "I",
+      "world": {
+        "allowed": true
+      },
+      "fallback": false,
+      "T2_cause": false
+    },
+    {
+      "id": "Q02",
+      "kind": "publisher-only",
+      "human_scenario": "A publisher has confirmation from the broker while consumer processing is still absent; the same consumer capability is available but this configuration stops early.",
+      "expected": "Ø",
+      "world": {
+        "allowed": true
+      },
+      "fallback": false,
+      "T2_cause": false
+    },
+    {
+      "id": "Q03",
+      "kind": "lost-ack",
+      "human_scenario": "A local effect commits, the first acknowledgement is lost, and redelivery must recover one idempotent effect/receipt.",
+      "expected": "I",
+      "world": {
+        "allowed": true
+      },
+      "fallback": false,
+      "T2_cause": false
+    },
+    {
+      "id": "Q04",
+      "kind": "non-idempotent",
+      "human_scenario": "The same lost acknowledgement meets a resource without the required stable operation key; two effects are retained.",
+      "expected": "P",
+      "world": {
+        "allowed": true
+      },
+      "fallback": false,
+      "T2_cause": true
+    },
+    {
+      "id": "Q05",
+      "kind": "early-ack-loss",
+      "human_scenario": "The message is acknowledged and discarded before the application effect; a crash loses the task.",
+      "expected": "Ø",
+      "world": {
+        "allowed": true
+      },
+      "fallback": false,
+      "T2_cause": false
+    },
+    {
+      "id": "Q06",
+      "kind": "wrong-channel",
+      "human_scenario": "A committed application receipt is followed by an acknowledgement on another delivery channel; the declared end-to-end task remains incomplete.",
+      "expected": "Ø",
+      "world": {
+        "allowed": true
+      },
+      "fallback": false,
+      "T2_cause": false
+    },
+    {
+      "id": "Q07",
+      "kind": "poison",
+      "human_scenario": "The payload is not admitted; a tenant-scoped dead-letter record is the explicitly accepted minimum closure.",
+      "expected": "M",
+      "world": {
+        "allowed": true
+      },
+      "fallback": true,
+      "T2_cause": false
+    },
+    {
+      "id": "Q08",
+      "kind": "revoked",
+      "human_scenario": "The current resource grant denies the requested effect.",
+      "expected": "Ø",
+      "world": {
+        "allowed": false
+      },
+      "fallback": false,
+      "T2_cause": false
+    },
+    {
+      "id": "Q09",
+      "kind": "expired",
+      "human_scenario": "The message has expired at the processing boundary.",
+      "expected": "Ø",
+      "world": {
+        "allowed": true
+      },
+      "fallback": false,
+      "T2_cause": false
+    },
+    {
+      "id": "Q10",
+      "kind": "other-tenant",
+      "human_scenario": "Only tenant-b data is delivered to the tenant-a processing request.",
+      "expected": "Ø",
+      "world": {
+        "allowed": true
+      },
+      "fallback": false,
+      "T2_cause": false
+    },
+    {
+      "id": "Q11",
+      "kind": "false-ack-closure",
+      "human_scenario": "An application falsely promotes a broker acknowledgement into completed business processing with no observed effect.",
+      "expected": "P",
+      "world": {
+        "allowed": true
+      },
+      "fallback": false,
+      "T2_cause": true
+    }
+  ],
+  "controls": {
+    "review-only": "Q01",
+    "false-closure": "Q11"
+  },
+  "acceptance": "All qualified case expectations and separately declared Type1/Type2 sensitivity controls match; expected P/Ø retained; no deployment acceptance",
+  "statistical_rule": "Report n/d over named authored cases only; no representative sample, population rate or confidence interval",
+  "Stage_B_C": "NOT_ESTABLISHED",
+  "amendment": "Before remaining studies execute: withhold expected/world/T2 cause fields from all receiver APIs; compute observability for interval from timestamps; conventional queue reference recovers its local receipt before redelivery effects."
+}

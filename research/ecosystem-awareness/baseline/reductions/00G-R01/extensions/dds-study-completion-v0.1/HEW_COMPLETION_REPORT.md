@@ -1,5 +1,7 @@
 # Human Escalation / Whispering — completed scoped DDS review
 
+**Current reading — documentation0.4, 7 October2026.** The [current study record](../dds-hew-v0.1/CURRENT_STUDY_RECORD.json) governs navigation, Stage/coverage and the executed cost/type successor. Dated coverage sections below retain their original evidence date; their previously unscored diagnostics are superseded only by the linked prospective successor, not by regrading original results.
+
 <!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->
 
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->

@@ -1,0 +1,63 @@
+{
+  "schema": "DDS-CURRENT-STUDY-RECORD-0.1",
+  "documentation_revision": "0.2",
+  "date": "2026-10-07",
+  "canonical_method_index": "../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "stage": "A",
+  "coverage": "Simplified",
+  "state": "COMPLETE_WITHIN_DECLARED_LOCAL_QUESTION",
+  "question": "When do broker acknowledgement, redelivery and an application receipt establish sufficient local completion?",
+  "base": "QUEUES-ACK-REDELIVERY-BOUNDED-RECEIVER-0.1",
+  "technology_configuration": "actual SQLite message/effect/receipt state with authored broker/channel/redelivery model; no RabbitMQ/AMQP product execution",
+  "human_scenarios_and_parameters": "CURRENT_RUN_CARD.json#cases",
+  "step1": {
+    "state": "PERFORMED_WITHIN_SCOPE",
+    "isomorphism": "NOT_ESTABLISHED",
+    "transfer_limits": "EXTENSION.md"
+  },
+  "step2": {
+    "state": "PERFORMED_WITHIN_SCOPE",
+    "mechanisms": [
+      "separate publisher/consumer/application receipts",
+      "channel-scoped delivery acknowledgement",
+      "resource operation-key deduplication",
+      "receipt recovery under redelivery",
+      "scoped dead-letter closure/current authority/TTL"
+    ],
+    "producers_costs_interactions_falsifiers": "EXTENSION.md"
+  },
+  "baseline": "same-information qualified/reference procedures with conventional native mechanisms credited",
+  "evidence": {
+    "registration": "CURRENT_RUN_CARD.json",
+    "freeze": "CURRENT_FREEZE.json",
+    "run": "runs/2026-10-07-03/RESULTS.json",
+    "cases": 11,
+    "separate_controls": 2,
+    "native_named_product_or_human": false,
+    "independence": false
+  },
+  "cost": {
+    "selected_unit_sum": 71,
+    "private_minimum": "frozen G only",
+    "global_accessible_lower_bound": "NOT_ESTABLISHED",
+    "money_human_network_lifecycle": "UNSCORED",
+    "ledger": "runs/2026-10-07-03/RESULTS.json",
+    "interpretation": "COST_INTERPRETATION.json"
+  },
+  "risk_effectiveness": "registered per-case I/M/P/Ø predicates; no population probability",
+  "Type1": {
+    "n": 2,
+    "d": 6
+  },
+  "Type2": {
+    "n": 2,
+    "d": 11
+  },
+  "business_value": "A team can distinguish transport progress from fulfilled business work and identify which local effect/receipt obligations prevent loss or duplication.",
+  "residual_limits": "Publisher confirmation, delivery acknowledgement and business completion have different boundaries. Local atomicity does not establish distributed exactly-once or broker product reliability.",
+  "candidate_specification": "CANDIDATE_SPECIFICATION_PACKAGE.json",
+  "Stage_B_C": "NOT_ESTABLISHED",
+  "delivery": "scoped research report/dossier complete; commissioned six-output delivery not implied",
+  "source_bibliography": "EXTENSION.md",
+  "historical_records_rewritten": false
+}

@@ -1,0 +1,162 @@
+{
+  "schema": "SIMPLIFIED-DDS-GATE-A-RUN-CARD-0.1",
+  "version": "0.1",
+  "date": "2026-10-07",
+  "DDS_method_index": "../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "DDS_gate": "A",
+  "Gate_A_profile": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "method_commit": "457ad05e5ed851e41a3d2b68d9d5d55272fd3bcf",
+  "object_under_test": "candidate mechanism/specification profile, not architecture or production implementation",
+  "profile_kind": "Simplified",
+  "runtime": {
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "two_extension_stages": {
+    "stage1": "performed within declared scope: explicit local map, no inherited R01/native isomorphism",
+    "stage2": "performed within declared scope: additional mechanisms, producer validity/burden, interactions and falsifiers"
+  },
+  "blind_route_map": "not used as blind search/efficiency experiment; selected receiver inputs and evaluator-only fields documented, no OS isolation",
+  "minimum_work_rework": "not scored; no private optimum or accessible-information bound",
+  "T1_M_admission": "not established as estimator population/physical-budget/horizon/capability admission",
+  "T1_estimate": null,
+  "T2_estimate": null,
+  "T2_rule": "selected P not automatically Type2; no eligible population or causal estimator preregistered",
+  "Gate_B_status": "NOT_ESTABLISHED",
+  "Gate_C_status": "NOT_ESTABLISHED",
+  "cost_rule": "trace-callback actual SQLite statements separated by setup/operation; evaluator inspection separate; prices, physical service time and lifecycle unscored",
+  "acceptance": "frozen actual-response/effect expectations qualify instrumented specification pilots only; expected P/Ø retained",
+  "information_rule": "no expected labels/private world truth passed into receiver APIs; driver/local process is not a blind hostile-code boundary",
+  "study": "DDS-CACHE-TTL-20261007",
+  "technology": "cache-aside, TTL and current-source/key admission",
+  "base": "CURRENT-SCOPED-CACHE-REPLY-0.1",
+  "configuration": "actual SQLite-backed cache/origin/grant and fixed logical clock; authored cache/admission policy",
+  "actor_inputs": [
+    "requested tenant/key",
+    "logical clock",
+    "fallback mandate",
+    "cache/origin/grant observations"
+  ],
+  "evaluator_only": [
+    "world-correct value/epoch for returned-response adjudication",
+    "expected case labels"
+  ],
+  "outcomes": {
+    "I": "current authorized sufficient local reply",
+    "M": "explicitly admitted recorded deferment, not human response",
+    "P": "foreign-tenant/false/stale or revoked-basis disclosure",
+    "Ø": "no sufficient admitted reply"
+  },
+  "parameters": {
+    "tenant": "tenant-a",
+    "key": "policy",
+    "now": 10,
+    "cache_expires": 11
+  },
+  "sources": [
+    {
+      "id": "C01",
+      "title": "RFC9111 HTTP Caching",
+      "url": "https://www.rfc-editor.org/rfc/rfc9111.html",
+      "access": "selected freshness/key/validation/authorization sections, no HTTP implementation test",
+      "type": "primary",
+      "reviewed": "2026-10-07",
+      "independent_validation": false
+    },
+    {
+      "id": "C02",
+      "title": "Redis EXPIRE",
+      "url": "https://redis.io/docs/latest/commands/expire/",
+      "access": "selected expiration semantics; Redis not executed",
+      "type": "primary",
+      "reviewed": "2026-10-07",
+      "independent_validation": false
+    },
+    {
+      "id": "C03",
+      "title": "Azure Cache-Aside",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside",
+      "access": "selected consistency/invalidation/source pattern; Azure not executed",
+      "type": "primary",
+      "reviewed": "2026-10-07",
+      "independent_validation": false
+    },
+    {
+      "id": "D01",
+      "title": "SQLite transaction control",
+      "url": "https://www.sqlite.org/lang_transaction.html",
+      "access": "local model persistence/inspection; actual SQLite3.53.1",
+      "type": "primary",
+      "reviewed": "2026-10-07",
+      "independent_validation": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "CACHE-01",
+      "kind": "hit",
+      "story": "An authorized application reuses a live, correctly scoped cached policy value.",
+      "expected": "I",
+      "answer": 1000
+    },
+    {
+      "id": "CACHE-02",
+      "kind": "miss",
+      "story": "The cache is empty; a current admitted source supplies and caches the policy.",
+      "expected": "I",
+      "answer": 1000
+    },
+    {
+      "id": "CACHE-03",
+      "kind": "expired",
+      "story": "The request arrives exactly at TTL expiry. The receiver refreshes from the current source.",
+      "expected": "I",
+      "answer": 1000
+    },
+    {
+      "id": "CACHE-04",
+      "kind": "revoked",
+      "story": "A still-live cache entry exists after the current access grant is revoked.",
+      "expected": "Ø",
+      "answer": null
+    },
+    {
+      "id": "CACHE-05",
+      "kind": "tenant-collision",
+      "story": "Only another tenant's same-named object is cached. It must not be disclosed to tenant-a.",
+      "expected": "Ø",
+      "answer": null
+    },
+    {
+      "id": "CACHE-06",
+      "kind": "source-new-generation",
+      "story": "The origin changes to version2/value2000 while version1 remains within TTL.",
+      "expected": "I",
+      "answer": 2000
+    },
+    {
+      "id": "CACHE-07",
+      "kind": "false-source",
+      "story": "Admitted source and cache agree on a false value. Freshness and matching metadata do not establish truth.",
+      "expected": "P",
+      "answer": 9999,
+      "diagnostic": "outside truthful-source assumption"
+    },
+    {
+      "id": "CACHE-08",
+      "kind": "offline-defer",
+      "story": "A stale entry cannot be refreshed because the origin is unavailable; the owner explicitly admits recorded deferment.",
+      "expected": "M",
+      "answer": null
+    },
+    {
+      "id": "CACHE-09",
+      "kind": "change-at-use",
+      "story": "Origin generation changes after cache qualification but before use. A final local check defers without disclosing the old value.",
+      "expected": "M",
+      "answer": null
+    }
+  ],
+  "evidence_ceiling": "Actual local SQLite cache/source data and traces; own specified policy, no Redis/HTTP/Azure cache, distributed atomicity or measured performance win."
+}
+

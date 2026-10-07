@@ -1,5 +1,7 @@
 # DDS technology extensions — study home
 
+**Current reading — documentation0.4, 7 October2026.** [Completeness review](./COMPLETENESS_REVIEW_2026-10-07.md) and the [current study catalogue](./CURRENT_STUDY_CATALOGUE.json) route thirteen executed scoped studies. Dated statements below retain their original batch scope; the four second-series studies now have their own prospective execution records.
+
 <!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->
 
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
@@ -64,3 +66,14 @@ The current sole DDS source 09b8fe09082f15612114ebe0fd3be8418be7a061 adds blind/
 Documentation addition0.3. The [executed cost/type packet](cost-type-diagnostics-v0.1/README.md) prospectively replays this profile's original-world outcomes with a finer selected actor/source/evaluator ledger, prior M-admission, minimum-work witnesses over frozen G and separate Type1/Type2 causal counts. It includes the current scoped SPIFFE accessible-G bound and conventional reference improvement. Original registered source results/thresholds remain unchanged; this successor does not establish global minimum, monetary calibration, population probabilities, real human accuracy, Stage B/C or independent validation. Per-case records retain exclusions and deliberate defect controls as a separate cohort.
 
 All nine current executed study families have an in-folder `COST_TYPE_DIAGNOSTICS_2026-10-07.md` and `CURRENT_COST_TYPE_COVERAGE_2026-10-07.json`, linked to run DDS-COST-TYPE-20261007-03. The earlier metering runs and their exact inputs remain in the full local/Drive archive. One DDS method remains canonical.
+
+## Second practical common-component series — completed scoped Stage A
+
+| Study | Cases | Current report / record |
+|---|---:|---|
+| cache-ttl | 9 | [report](./cache-ttl/DDS_STUDY.md) · [record](./cache-ttl/CURRENT_STUDY_RECORD.json) |
+| queues-ack-redelivery | 11 | [report](./queues-ack-redelivery/DDS_STUDY.md) · [record](./queues-ack-redelivery/CURRENT_STUDY_RECORD.json) |
+| structured-output | 10 | [report](./structured-output/DDS_STUDY.md) · [record](./structured-output/CURRENT_STUDY_RECORD.json) |
+| observability-response | 10 | [report](./observability-response/DDS_STUDY.md) · [record](./observability-response/CURRENT_STUDY_RECORD.json) |
+
+Forty selected cases and eight separate deliberate controls pass registered expectations, including expected failures. Local SQLite/Pydantic/model evidence is scoped as documented; native provider execution, Stage B/C, population inference and commissioned fulfilment are not established.

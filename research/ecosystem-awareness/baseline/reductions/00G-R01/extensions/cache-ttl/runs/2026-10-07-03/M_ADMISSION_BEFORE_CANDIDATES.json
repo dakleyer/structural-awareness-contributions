@@ -1,0 +1,74 @@
+{
+  "CACHE-01": {
+    "M_admitted_in_G": true,
+    "witness_policies": 2,
+    "minimum_in_frozen_G": 6,
+    "global_accessible_information_lower_bound": null,
+    "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+    "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+  },
+  "CACHE-02": {
+    "M_admitted_in_G": true,
+    "witness_policies": 2,
+    "minimum_in_frozen_G": 9,
+    "global_accessible_information_lower_bound": null,
+    "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+    "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+  },
+  "CACHE-03": {
+    "M_admitted_in_G": true,
+    "witness_policies": 2,
+    "minimum_in_frozen_G": 9,
+    "global_accessible_information_lower_bound": null,
+    "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+    "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+  },
+  "CACHE-04": {
+    "M_admitted_in_G": false,
+    "witness_policies": 0,
+    "minimum_in_frozen_G": null,
+    "global_accessible_information_lower_bound": null,
+    "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+    "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+  },
+  "CACHE-05": {
+    "M_admitted_in_G": false,
+    "witness_policies": 0,
+    "minimum_in_frozen_G": null,
+    "global_accessible_information_lower_bound": null,
+    "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+    "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+  },
+  "CACHE-06": {
+    "M_admitted_in_G": true,
+    "witness_policies": 2,
+    "minimum_in_frozen_G": 9,
+    "global_accessible_information_lower_bound": null,
+    "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+    "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+  },
+  "CACHE-07": {
+    "M_admitted_in_G": false,
+    "witness_policies": 0,
+    "minimum_in_frozen_G": null,
+    "global_accessible_information_lower_bound": null,
+    "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+    "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+  },
+  "CACHE-08": {
+    "M_admitted_in_G": true,
+    "witness_policies": 2,
+    "minimum_in_frozen_G": 5,
+    "global_accessible_information_lower_bound": null,
+    "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+    "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+  },
+  "CACHE-09": {
+    "M_admitted_in_G": true,
+    "witness_policies": 2,
+    "minimum_in_frozen_G": 6,
+    "global_accessible_information_lower_bound": null,
+    "floor": "legitimate nontrivial current response/effect or explicitly admitted recorded deferment",
+    "information_and_physical_scope": "same functional APIs; budget256 selected units; fixed synthetic clock/registered useful horizon; no population calibration"
+  }
+}

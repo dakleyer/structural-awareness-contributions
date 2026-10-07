@@ -1,0 +1,117 @@
+{
+  "schema": "DDS-COST-INTERPRETATION-0.1",
+  "source_run": "runs/2026-10-07-03/RESULTS.json",
+  "frozen_results_changed": false,
+  "rows": [
+    {
+      "id": "Q01",
+      "outcome": "I",
+      "C_actual_selected_units": 10,
+      "minimum_legitimate_in_G": 10,
+      "signed_gap_to_legitimate_G": 0,
+      "qualified_excess_work": 0,
+      "efficiency_credit": true,
+      "reason": "Qualified closure within finite G"
+    },
+    {
+      "id": "Q02",
+      "outcome": "Ø",
+      "C_actual_selected_units": 2,
+      "minimum_legitimate_in_G": 11,
+      "signed_gap_to_legitimate_G": -9,
+      "qualified_excess_work": null,
+      "efficiency_credit": false,
+      "reason": "Incomplete/incorrect trace is not credited as a cheaper legitimate closure"
+    },
+    {
+      "id": "Q03",
+      "outcome": "I",
+      "C_actual_selected_units": 15,
+      "minimum_legitimate_in_G": 15,
+      "signed_gap_to_legitimate_G": 0,
+      "qualified_excess_work": 0,
+      "efficiency_credit": true,
+      "reason": "Qualified closure within finite G"
+    },
+    {
+      "id": "Q04",
+      "outcome": "P",
+      "C_actual_selected_units": 15,
+      "minimum_legitimate_in_G": 16,
+      "signed_gap_to_legitimate_G": -1,
+      "qualified_excess_work": null,
+      "efficiency_credit": false,
+      "reason": "Incomplete/incorrect trace is not credited as a cheaper legitimate closure"
+    },
+    {
+      "id": "Q05",
+      "outcome": "Ø",
+      "C_actual_selected_units": 4,
+      "minimum_legitimate_in_G": null,
+      "signed_gap_to_legitimate_G": null,
+      "qualified_excess_work": null,
+      "efficiency_credit": false,
+      "reason": "Incomplete/incorrect trace is not credited as a cheaper legitimate closure"
+    },
+    {
+      "id": "Q06",
+      "outcome": "Ø",
+      "C_actual_selected_units": 8,
+      "minimum_legitimate_in_G": 11,
+      "signed_gap_to_legitimate_G": -3,
+      "qualified_excess_work": null,
+      "efficiency_credit": false,
+      "reason": "Incomplete/incorrect trace is not credited as a cheaper legitimate closure"
+    },
+    {
+      "id": "Q07",
+      "outcome": "M",
+      "C_actual_selected_units": 4,
+      "minimum_legitimate_in_G": 4,
+      "signed_gap_to_legitimate_G": 0,
+      "qualified_excess_work": 0,
+      "efficiency_credit": true,
+      "reason": "Qualified closure within finite G"
+    },
+    {
+      "id": "Q08",
+      "outcome": "Ø",
+      "C_actual_selected_units": 5,
+      "minimum_legitimate_in_G": null,
+      "signed_gap_to_legitimate_G": null,
+      "qualified_excess_work": null,
+      "efficiency_credit": false,
+      "reason": "Incomplete/incorrect trace is not credited as a cheaper legitimate closure"
+    },
+    {
+      "id": "Q09",
+      "outcome": "Ø",
+      "C_actual_selected_units": 2,
+      "minimum_legitimate_in_G": null,
+      "signed_gap_to_legitimate_G": null,
+      "qualified_excess_work": null,
+      "efficiency_credit": false,
+      "reason": "Incomplete/incorrect trace is not credited as a cheaper legitimate closure"
+    },
+    {
+      "id": "Q10",
+      "outcome": "Ø",
+      "C_actual_selected_units": 2,
+      "minimum_legitimate_in_G": null,
+      "signed_gap_to_legitimate_G": null,
+      "qualified_excess_work": null,
+      "efficiency_credit": false,
+      "reason": "Incomplete/incorrect trace is not credited as a cheaper legitimate closure"
+    },
+    {
+      "id": "Q11",
+      "outcome": "P",
+      "C_actual_selected_units": 4,
+      "minimum_legitimate_in_G": null,
+      "signed_gap_to_legitimate_G": null,
+      "qualified_excess_work": null,
+      "efficiency_credit": false,
+      "reason": "Incomplete/incorrect trace is not credited as a cheaper legitimate closure"
+    }
+  ]
+}

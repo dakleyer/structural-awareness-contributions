@@ -1,0 +1,3 @@
+# structured-output — owning documentation review
+
+Review0.1 · 7 October2026. [Current record](./CURRENT_STUDY_RECORD.json) is the reading authority for this bounded Simplified Stage A question. [Study](./DDS_STUDY.md) and [extension](./EXTENSION.md) retain both extension-review steps. Actual-byte source/card/spec freeze and current run03 qualify only the selected local evidence. Conventional peer credit, prior M-admission, signed cost gaps, causal Type 1/2 counts, retained failures and unscored native/economic/population surfaces are explicit. Frozen predecessors remain authentic; no Stage B/C or commissioned fulfilment is inferred.
