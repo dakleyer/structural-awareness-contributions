@@ -110,7 +110,7 @@ Control sufficiency, Ecosystem Cartography and bounded repositioning under legit
 
 | **5 minutes** | **20 minutes** | **Technical review** |
 |---|---|---|
-| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Follow Requirements → interfaces → fixtures/harness → benchmark → applied validation / evidence maturity. |
+| Read the six scenarios and open either [Requirements & Evidence](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Requirements_Evidence_Canonical_v1.2.pptx) or [Architecture & Implementation](../../presentations/ecosystem-positioning/Ecosystem_Positioning_Architecture_Implementation_Canonical_v1.2.pptx). | Continue through the [validation journey](#the-validation-journey) and [Awareness → Positioning → Agent Defense](#awareness--positioning--agent-defense). | Start at the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md), then follow the applicable Gate A/B/C route and its supporting requirements, interfaces, fixtures/oracle/harness and comparator evidence. |
 
 ```mermaid
 flowchart LR
@@ -766,6 +766,8 @@ The [DAOS / Delegated Authority OS masterclass](../../research/ecosystem-awarene
 
 # From scenarios to executable fixtures
 
+> **Current DDS route — 7 October 2026.** The historical scenario → fixture → oracle → harness → pre-registration → execution material below is now incorporated under the [DDS Canonical Method Index](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md). The original artefact names, versions and evidence ceilings remain intact. Stage-0 fixture execution and 00L symbolic work are bounded Gate-A evidence; 00D-A01/A03 and R01 C02 are support/test-infrastructure; 00D supplies comparator/fairness discipline; future Gate-B and Gate-C claims require their own upstream packages and cannot be inferred from these earlier records.
+
 A narrative scenario is not evidence by itself. The corpus therefore separates **scenario**, **fixture**, **oracle**, **harness**, **pre-registration** and **execution**.
 
 [**00D-A01 — Reference-Scenario Test Artifacts and Bounded Oracle Construction & Test Design**](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) defines how a scenario becomes a bounded reproducible fixture: frozen facts, authority, hidden dependencies, positive/negative controls, deterministic oracle, residual and regime-change limits, and Stage 0–2 progression.
@@ -774,9 +776,9 @@ A narrative scenario is not evidence by itself. The corpus therefore separates *
 
 [**RS-00E-Q1a fixture and pre-registration**](../../research/ecosystem-awareness/baseline/fixtures/RS-00E-Q1a/README.md) pins the operative fixture family, branches, requirements, oracle, KPI definitions, harness version and execution conditions **before** a result is produced.
 
-[**Testbed Method / Canonical Benchmark v0.2 — comparative execution method**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Comparative execution and independent replication remain pending.
+[**00D Canonical Benchmark v0.2 — DDS comparator/fairness support**](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) defines matched B0–B3 comparator arms, frozen facts and decision conditions, continuity and failure branches, pre-registered measures, and a common resource and burden ledger. Within the current DDS method it is comparator/fairness support rather than a parallel method. Comparative execution and independent replication remain pending.
 
-The comparative method freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published sources.
+The 00D support contract freezes the decision boundary, runs peer and EA configurations fairly, follows the downstream consequences of PASS/FAIL, and records tokens/compute, calls, time, human interventions, disclosure and containment burden. The [benchmark execution and decision rule](../../research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md#12-benchmark-execution-and-decision-rule) and [bounded oracle/test design](../../research/ecosystem-awareness/baseline/00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) are the published supporting sources.
 
 ### Execution records
 
