@@ -2,7 +2,7 @@
 
 Version0.2 ·6 October2026 · own partial protocol/application profile.
 
-[Sole DDS](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Base DECLARED-TOOL-AND-CURRENT-RESOURCE0.1 is an authored finite local Challenge. Placement under R01 is navigation, not mathematical membership.
+**DDS classification:** Simplified **Gate A — Specification Discovery** under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), using the [Gate-A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). Base DECLARED-TOOL-AND-CURRENT-RESOURCE0.1 is an authored finite local Challenge. Placement under R01 is navigation, not mathematical membership; this profile is not Gate B or Gate C.
 
 ## Problem and configured technology
 
