@@ -2,6 +2,9 @@
 
 Version0.2 ·6 October2026 · completed within declared local-database scope.
 
+> **DDS classification — 7 October 2026.** This is a **Simplified DDS Gate-A — Specification Discovery** study under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md). Executed local code/fixtures strengthen its evidence mode but do not make it Gate-B architecture verification or Gate-C native/product validation. Frozen Run Cards, FREEZE files and RESULTS retain their original execution-time identity and are not rewritten by this classification.
+
+
 ## Executive finding
 
 The selected conventional transaction/key/receipt composition closes the local task under its declared domain. It cannot provide atomicity for an effect committed elsewhere or turn an outbox entry into completed downstream service. Correctly preserving an old operation can also mean refusing a changed current request.
