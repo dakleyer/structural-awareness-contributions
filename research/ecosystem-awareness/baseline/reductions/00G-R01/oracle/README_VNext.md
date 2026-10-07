@@ -1239,3 +1239,47 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Membresía/fidelidad, derechos, autoridad, trust roots y alcance elegido; sólo después de los gates anteriores aplicables. No asignar/mandar trabajo a terceros. Revisar junto con 50. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## 7 October 2026 — A/B/C gate integration workstream
+
+**New design instruction from Iván.** The Oracle VNext must now track how the current neutral oracle/harness can support three DDS development gates without reclassifying historical evidence:
+
+- **Gate A — Specification Discovery:** select/compare candidate specifications against the frozen Challenge.
+- **Gate B — Architecture Verification:** verify a candidate architecture/reference realization against the frozen Gate-A specification package.
+- **Gate C — Implementation / Problem Validation:** validate a pinned executable implementation against the Challenge and observed effects.
+
+The concrete design is recorded in the [UC-4 interoperability VNext](./UC4_INTEROPERABILITY_PROFILE_VNext.md#7-october-2026-design-continuation--concrete-abc-integration-into-the-current-r01-oracle). It includes current-asset reuse, first Gate-B pilot, required vectors/mutations, proposed Oracle VNext structure, C11 lineage and T03 reuse.
+
+### Current maturity interpretation
+
+| Layer | Current status | Main missing item |
+|---|---|---|
+| **Shared C02 substrate** | Limited Stage-0 implementation exists and v0.9 self-test is frozen/passing. | Full C02 closure, external second-method review, Nelson source review/schema validation and fuller R01 semantic coverage. |
+| **Gate A** | Substantially represented by current Challenge/reference/acceptance, technology mappings, virtual traversals and specification work. | Explicit versioned Gate-A specification package and lineage export. |
+| **Gate B** | Pieces exist: adapters, CTv1, deterministic controls, stateful S5/00I assets, mutation/replay/malformed patterns. No actual Gate-B adjudication yet. | Frozen spec-to-architecture trace matrix, architecture manifest, Gate-B policy and first deterministic conformance campaign. |
+| **Gate C** | Admission skeleton already exists through C11/T03 registration, isolation, interactive broker, native/normalized trace and effect observation. | A real admitted implementation/campaign; no current self-test is Gate-C product validation. |
+
+### Non-negotiable interpretation boundary
+
+- Existing evaluation_scope="BATCH_CONFORMANCE" is **not** retroactively Gate B.
+- Existing interactive synthetic effects are **not** retroactively Gate C.
+- T03 should be reused as the real-implementation admission path for Gate C rather than duplicated.
+- Gate B should first be piloted on the bounded 00I/S5 stateful slice, reusing existing Q0–Q6/S-T-H obligations rather than creating a new requirement family.
+- The frozen v0.9 instrument remains the regression anchor; A/B/C support belongs to a successor implementation.
+
+### Next engineering slice
+
+The next implementable slice, if authorized, is:
+
+1. export one Gate-A specification package from the frozen 00I/S5 material;
+2. define one architecture manifest and requirements-verification matrix;
+3. build the Gate-B deterministic runner over existing Stage-0 trace/integrity machinery;
+4. include clean continuity plus supersession, drift, unavailable evidence, source-owner mismatch, post-verdict change and malformed/replay/order controls;
+5. add deliberate architecture mutations so a weak verification suite cannot pass;
+6. preserve NOT_ESTABLISHED and semantic-owner boundaries;
+7. keep Gate C unexecuted until C02/C11/T03 admission and real implementation access exist.
+
+This workstream is a proposal in VNext, not an incorporated change to the frozen oracle or canonical DDS.
