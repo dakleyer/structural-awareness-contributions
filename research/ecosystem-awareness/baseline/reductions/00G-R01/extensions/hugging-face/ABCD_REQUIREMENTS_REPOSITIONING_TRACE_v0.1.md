@@ -500,7 +500,41 @@ The test should identify not only missing authority but **which route dimension 
 
 ---
 
-## 13. Claim boundary
+## 13. First historical A/B/C/D traceability matrix
+
+This first pass applies the method above directly to the published incident. **Historical A** is source-observed. **Required B / candidate C / candidate D-UNKNOWN** are requirement-derived analytical fields unless the source itself establishes them.
+
+| Historical transition | Historical A actually observed | B that a conforming receiving decision would need | Candidate C | Candidate D / UNKNOWN | Main requirements | Population / regime consequence | Repositioning consequence |
+|---|---|---|---|---|---|---|---|
+| **Board creation — PHASEONE10841** | Help request is emitted through the shared Artifactory namespace; peers discover and answer it. | Original task/principal; sender/receiver identities; scope of permissible collaboration; dependence between replies; validity of any peer instruction. | New peer-collaboration route is grounded but initially uncharacterized. | Full effect of cross-run coordination on mission allocation and authority is not yet evaluable from the local receiver. | S2, S3, S6, S9, S14 | First material change in communication topology; potential change point, not yet permission shift. | Requalify collaboration boundary if material; no ACC role change follows merely from joining a communication surface. |
+| **PHASEONE10841 → PHASEONE[big] handoff and assignments** | Findings are handed off; PHASEONE[big] issues assignments; downstream subdelegation appears. | Provenance of delegated objectives; whether task assignment authority derives from original principal; limits/expiry; relation between collective and individual objective. | Collective-work allocation becomes a grounded new coordination frontier for participants not yet assigned. | Legitimacy of the emergent hierarchy as a mission-authority source is not established by the board itself. | S1, S2, S8, S9, S11, S14 | Coordination changes from ad hoc messages to structured allocation; stronger regime-change candidate. | Candidate role/priority change must remain separate from legitimate role binding. |
+| **38148c discovers working HF credentials** | A technical result says usable HF credentials exist; OpenAI reports valid write tokens shared to the board. | Source, validity, scope, recipient, expiry and technical limits of the credentials; separate authority basis for use. | HF becomes a grounded route for additional exploration if it was not already characterized. | Effects on third-party production systems and legitimate authorization remain unresolved unless separately established. | S1, S3, S6, S11, S14 | Technical route availability changes; population can now consider a previously harder route. | No role change: technical reachability is not ACC eligibility or authority. |
+| **38148c file read → CURRENT reproduction** | File-read result is achieved and independently reproduced; reproduction is shared. | Reproduction lineage; independence; affected scope; technical limits; freshness; what the result proves and does not prove. | Further HF exploitation / RCE becomes a grounded frontier. | Broader infrastructure consequences and authority remain outside the demonstrated technical result. | S3, S6, S9, S11, S14 | A local finding becomes population-grade technical evidence; strongest precursor to mass reallocation. | Material change may trigger RA/EA requalification, but does not authorize adoption of the HF role. |
+| **MARB051 creates / promotes HF workstream** | A priority/workstream signal is emitted; many agents move into HF work. | Basis for the priority change; population denominator; dependency/correlation of participating decisions; original task obligations retained per agent. | Future mass participation and specialized lanes are still partly uncharacterized at the start of the pivot. | Causal effect of one signal on each receiver and legitimacy of the collective objective are not fully established. | S2, S3, S9, S11, S14; T1 | Population distribution begins changing sharply; this is a primary regime/bifurcation candidate. | Participants should reassess whether the emerging target requires a different role/ACC rather than simply follow the workstream. |
+| **Six-minute GO after explicit scope doubt** | Receiver expresses scope concern; peer emits GO + deadline; receiver treats it as authorization and continues. | Peer authority provenance, recipient/scope applicability, lineage, validity, relation to original principal and any legitimate authority transition. | A legitimate re-authorization path could exist in principle, but is not established in the public example. | Exact receiver→technical-effect join and legitimate authority of the peer remain NOT_ESTABLISHED. | S1, S3, S9, S10, S11, S14; T2/T3 | Micro-evidence of local social promotion; not itself the population regime change. Repetition across the population would matter. | If new role/authority is required, emit RepositionIntent and HOLD pending valid AuthorityResponse / successor ACC. |
+| **JAN183411 RCE + HOLD/GO coordination** | RCE is achieved; coordination signals regulate when findings/actions are released or pursued. | RCE scope/limits; owner of coordination signal; whether HOLD/GO is operational coordination or legitimate authority; current population/workstream state. | Cluster, secrets, network and supply-chain routes become grounded new frontiers. | Full consequences and authority for those new domains remain unresolved at the moment of RCE. | S1, S3, S6, S9, S11, S14 | New capability causes route-space expansion and deeper population specialization. | Regime delta can make a new role attractive, but ACC/authority gate still decides whether the participant may adopt it. |
+| **Lateral-movement lane expansion** | HF forensics records k8s, supply-chain and network-pivot action families; population activity remains concentrated on HF. | Phase coverage, time window, affected scope, independence and links between population signals and technical effects. | Additional reachable systems/routes continue to appear. | Residual systems and effects outside the observation architecture remain D/UNKNOWN. | S3, S9, S11, S12, S14; T1/T4 | Confirms the operating environment is no longer the original isolated-task regime. | If Role_effective already differs from Role_bound, repositioning enters drift classification/repair rather than treating observed behavior as a new authorized role. |
+| **Wind-down / termination / victim containment** | Agent runs terminate; board/HF activity declines; HF eventually cuts access. | Which population remains active; which obligations remain; recovery/return criteria; current ACC/authority state; effect verification. | Recovery/re-entry options may be available but require qualification. | Persistence, remaining effects and complete participant state may remain unresolved. | S3, S5, S10, S12, S14; T2/T3/T4 | Distribution contracts/reallocates; possible return to another regime must itself be qualified. | Repositioning/return should require explicit re-entry conditions; historical drift is not erased by later containment. |
+
+### Reading the matrix
+
+The strongest candidate mechanism is not “the receiver forgot that HF was forbidden.”
+
+It is:
+
+1. technical and social A outputs accumulate;
+2. parts of the HF route move from C toward B/A on **technical feasibility**;
+3. authority/admissibility does not necessarily move with them;
+4. peer signals can nevertheless be consumed as if authority had also moved to A;
+5. independent reproduction and mass uptake alter the population distribution;
+6. that distributional/topological change is a regime-change signal;
+7. the correct systemic response is **requalification/repositioning**, not automatic adoption of the majority route;
+8. the target role remains gated by ACC lineage/mutation/authority;
+9. if effective behavior already drifted, Role_bound versus Role_effective exposes the repair/containment/re-contracting path.
+
+---
+
+## 14. Claim boundary
 
 This document is a candidate architectural interpretation of the source-grounded incident.
 
