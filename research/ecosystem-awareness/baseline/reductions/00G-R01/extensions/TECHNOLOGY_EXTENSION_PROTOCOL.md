@@ -7,7 +7,7 @@ First mathematical application: [human escalation with whispering](./HUMAN_ESCAL
 
 ## DDS profile relationship
 
-This protocol remains the controlling extension method **inside R01**. The programme-wide [DDS Canonical Challenge–Trajectory Profile](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) reuses its discipline — preserved correspondence before parameter changes and additional mechanisms — as one methodological source, but does not import R01's mathematical conclusions into other Challenges.
+This protocol remains the controlling extension method **inside R01**. The programme-wide [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) routes the overall A/B/C method, while [DDS Gate A — Specification Discovery](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) reuses this protocol's discipline — preserved correspondence before parameter changes and additional mechanisms — as one Gate-A methodological source. Neither the Index nor Gate A imports R01's mathematical conclusions into other Challenges.
 
 For a technology extension to be represented as a richer DDS implementation profile, record after the existing R01 obligations:
 
