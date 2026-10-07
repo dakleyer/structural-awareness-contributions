@@ -156,8 +156,12 @@ This is the authoritative **cross-gate classification registry** for current DDS
 5. [DDS source register](./DDS_SOURCE_REGISTER_2026-10-06.json)
 6. [DDS bibliography](./DDS_REFERENCES_2026-10-06.bib)
 
-## 10. Migration note
+## 10. Migration and preservation status
 
-The pre-existing Gate-A file path is intentionally preserved because it is widely referenced throughout the corpus. From this revision forward it is the canonical **Gate-A** source, not the complete DDS method router.
+The pre-existing Gate-A file path is intentionally preserved because it is widely referenced throughout the corpus. It is now the canonical **Gate-A** source, not the complete DDS method router.
 
-Existing historical results, freezes, hashes and source-native terminology are not rewritten by this split. Corpus-wide profile relabelling and router updates are a separate migration step.
+As of 7 October 2026, the active canonical routers, R01/extension entry points, legacy Oracle/harness/testbed indexes, current technology studies/profiles, DBC/00D support routes, WORKPLAN/VISUAL_GUIDE and Ecosystem Positioning review route have been cross-referenced to this Index and the applicable DDS Gate.
+
+Existing historical results, Run Cards, FREEZE files, traces, manifests, hashes and source-native terminology are **not rewritten by the migration**. Where a frozen record contains the former identity/path “single canonical DDS technical profile” / `DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md`, that field remains evidence of the method identity used when the run was registered/executed; current entry points explain that the old path is Gate A and this Index is now the complete method router.
+
+Any later stale-link correction is corpus maintenance, not a scientific regrading or a new DDS method version.
