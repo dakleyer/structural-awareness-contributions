@@ -229,7 +229,7 @@ Consumer compatibility:the original mathematical/calendar/event fixtures retain 
 
 ## Independent exercise successor —6 October2026
 
-Documentary addition0.3. There is **one canonical DDS technical profile**, [DDS Challenge–Trajectory](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). This study consumes it as a technology-specific implementation instance; it does not define another canonical DDS method. The earlier analytical text above retains its original stage and claim limits.
+Documentary addition0.3. The [DDS Canonical Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) is the single DDS method entry point. This study is incorporated as a **Simplified DDS Gate-A** technology-specific implementation instance under the [Gate-A challenge–trajectory contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); it does not define another DDS method, Gate-B architecture verification or Gate-C native validation. The earlier analytical text above retains its original stage and claim limits.
 
 [Independent exercise report](./independent-dds-exercises-v0.1/spiffe-jwt/EXERCISE_REPORT.md), [frozen Run Card](./independent-dds-exercises-v0.1/spiffe-jwt/RUN_CARD.json) and [executed result](./independent-dds-exercises-v0.1/spiffe-jwt/runs/2026-10-06-01/RESULTS.json) give this subject its own scenarios, source/configuration, control results, costs and limitations. No old result is overwritten or pooled. Fixture assertion success includes expected denials; it is not native/product/human or deployment acceptance. Production calibration and matched/independent evidence remain open.
 
