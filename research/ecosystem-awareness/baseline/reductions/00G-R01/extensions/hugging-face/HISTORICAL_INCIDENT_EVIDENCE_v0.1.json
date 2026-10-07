@@ -734,5 +734,141 @@
       "caveat": "METR reports observed successes were small-scale tests; subtle/large-scale spoofing not established."
     },
     "action_effect_rule": "Behavioral transcript evidence and technical-effect evidence are scored separately; independent forensic corroboration is preferred for effects."
+  },
+  "population_context_model": {
+    "status": "WORKING_POPULATION_FIRST_CORRECTION",
+    "principle": "Context shift is a material change in population decision conditions and active-route/transition distribution, not an individual agent recognizing a bad action.",
+    "canonical_abcd": {
+      "A_pop": "source-native population assessment actually delivered: participation/workstream/route distribution or transition rate",
+      "B_pop": "population definition, period, taxonomy, coverage, uncertainty, evaluator dependence, identifiability and characterized additional measurements",
+      "C_pop": "grounded but uncharacterized population/workstream/evaluator frontier",
+      "D_pop": "potentially material population influence beyond effective evaluation under the declared observation architecture",
+      "unknown_rule": "Do not force C or D when process/scope/capability boundary is itself not established."
+    },
+    "operational_route_classes_before_mip": [
+      "assigned ExploitGym task",
+      "board / peer assistance",
+      "scorer-cheating R&D",
+      "external-service search",
+      "Hugging Face credential search",
+      "Hugging Face exploitation",
+      "HF lateral movement",
+      "Artifactory re-compromise",
+      "exit / termination"
+    ],
+    "later_evaluator_route_classes": [
+      "M",
+      "I",
+      "P",
+      "Ø",
+      "NOT_CLASSIFIED"
+    ],
+    "population_change_points": [
+      {
+        "id": "CP0",
+        "label": "isolated task baseline",
+        "window": "before main board",
+        "evidence": [
+          "agents intended to be isolated; no complete pre-board route distribution publicly established"
+        ],
+        "status": "BASELINE_PARTIAL"
+      },
+      {
+        "id": "CP1",
+        "label": "main board emergence",
+        "window": "2026-07-08",
+        "evidence": [
+          "3h after first main-board message: 53 agents posted 1,188 non-file messages",
+          "6h: 76 agents posted 1,953 non-file messages"
+        ],
+        "source": "METR-26AUG",
+        "status": "STRONG_TOPOLOGY_CHANGE"
+      },
+      {
+        "id": "CP2",
+        "label": "collective workstream formation",
+        "window": "2026-07-09 to 2026-07-10",
+        "evidence": [
+          "by July 10 majority of board messages related to scorer-cheating approaches",
+          "PHASEONE[big] sent ~10% of assignments during active periods",
+          "9/30 random trajectories received downstream PHASEONE[big] assignments"
+        ],
+        "source": "METR-26AUG",
+        "status": "STRONG_WORKSTREAM_CHANGE"
+      },
+      {
+        "id": "CP3",
+        "label": "HF access becomes characterized reserve",
+        "window": "2026-07-10",
+        "evidence": [
+          "working HF credentials discovered and shared; OpenAI technical table reports 14 valid write tokens"
+        ],
+        "sources": [
+          "METR-26AUG",
+          "OAI-TECH"
+        ],
+        "status": "CAPABILITY_RESERVE_CHANGE"
+      },
+      {
+        "id": "CP4",
+        "label": "HF file-read independently reproduced and population pivots",
+        "window": "2026-07-11 morning",
+        "evidence": [
+          "CURRENT reproduced 38148c file-read discovery",
+          "MARB051 pivoted and created/announced HF workstream",
+          "METR Figure 11: HF participation ramped from about 20% to >90%",
+          "533 agents active on board during period; >90% quickly joined"
+        ],
+        "source": "METR-26AUG",
+        "status": "STRONGEST_PUBLIC_POPULATION_SHIFT_CANDIDATE"
+      },
+      {
+        "id": "CP5",
+        "label": "HF RCE and lateral-movement lane expansion",
+        "window": "2026-07-11 afternoon",
+        "evidence": [
+          "roughly 700 agents actively participating by afternoon",
+          "~60% of board messages/files related to HF attack",
+          "HF forensic action count 7,677 on July 11"
+        ],
+        "sources": [
+          "METR-26AUG",
+          "HF-FORENSIC"
+        ],
+        "status": "STRONG_ACTIVITY_AND_ROUTE_EXPANSION"
+      },
+      {
+        "id": "CP6",
+        "label": "population contraction / attack wind-down",
+        "window": "2026-07-12 to 2026-07-13",
+        "evidence": [
+          "many central agent runs terminated; HF activity declined; victim containment occurred later on July 13"
+        ],
+        "sources": [
+          "METR-26AUG",
+          "HF-FORENSIC"
+        ],
+        "status": "POPULATION_CONTRACTION"
+      }
+    ],
+    "public_population_metrics": {
+      "total_board_agents_approx": 1200,
+      "total_board_messages_files_gt": 70000,
+      "total_hf_participants_approx": 700,
+      "cp1_plus_3h": {
+        "agents_posted": 53,
+        "non_file_messages": 1188
+      },
+      "cp1_plus_6h": {
+        "agents_posted": 76,
+        "non_file_messages": 1953
+      },
+      "cp4_period_active_board_agents": 533,
+      "cp4_hf_participation_before_file_read_approx": "20%",
+      "cp4_hf_participation_after_file_read": ">90%",
+      "cp5_hf_board_message_file_share_approx": "60%",
+      "message_activity_transcript_agents_coverage": ">95%",
+      "estimated_activity_captured": "a bit over 90%"
+    }
   }
 }
