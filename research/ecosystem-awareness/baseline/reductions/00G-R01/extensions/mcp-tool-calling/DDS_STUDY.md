@@ -2,6 +2,9 @@
 
 Version0.2 ·6 October2026 · completed within scoped request/application-model coverage.
 
+> **DDS classification — 7 October 2026.** This is a **Simplified DDS Gate-A — Specification Discovery** study under the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md). Executed local code/fixtures strengthen its evidence mode but do not make it Gate-B architecture verification or Gate-C native/product validation. Frozen Run Cards, FREEZE files and RESULTS retain their original execution-time identity and are not rewritten by this classification.
+
+
 ## Executive finding and scope
 
 A correctly framed selected request can reach an admitted local effect when its actual tool contract and current resource mandate hold. Self-reported client identity and tool hints do not establish permission or no-effect guarantees. One legitimate local tool path and its failure boundaries are tested; native MCP interoperability/conformance remains unestablished.
