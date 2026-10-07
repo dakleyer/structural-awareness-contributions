@@ -1,0 +1,544 @@
+{
+  "status": "PASS_PROSPECTIVE_SELECTED_COST_AND_TYPE_DIAGNOSTICS",
+  "canonical_stage": "A",
+  "mode": "same-author selected native/local/finite-model evidence",
+  "source_commit": "5fc517a071b61c2a49d2b953f9b129cdc985f6a4",
+  "run_card_sha256": "6009d50411650167416118fe0ecfc209701e6d21bbceb2a4d5c2c1871724c58e",
+  "freeze_sha256": "7cf14de2684b38d04ed83999ddd470fc392057021f305e88f1a0e095401884cc",
+  "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252",
+  "native_product_or_human_validation": false,
+  "Stage_B_or_C_established": false,
+  "case_fractions_are_not_population_rates": true,
+  "global_minimum_or_superiority_established": false,
+  "original_frozen_results_changed": false,
+  "profiles": {
+    "hew": {
+      "original_world_replay": {
+        "cases": 21,
+        "outcomes": {
+          "I": 11,
+          "Ø": 9,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 0,
+          "denominator": 11,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 21,
+          "fraction": "1/21",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 10,
+        "total_selected_api_units": 1366,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "fault_controls": {
+        "cases": 2,
+        "outcomes": {
+          "Ø": 1,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 1,
+          "fraction": "1",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 1,
+        "total_selected_api_units": 209,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    },
+    "stamp-stpa": {
+      "original_world_replay": {
+        "cases": 10,
+        "outcomes": {
+          "I": 4,
+          "M": 2,
+          "Ø": 4
+        },
+        "Type1": {
+          "numerator": 0,
+          "denominator": 6,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 0,
+          "denominator": 10,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 4,
+        "total_selected_api_units": 14,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "fault_controls": {
+        "cases": 2,
+        "outcomes": {
+          "Ø": 1,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 0,
+        "total_selected_api_units": 15,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    },
+    "spiffe-jwt": {
+      "original_world_replay": {
+        "cases": 25,
+        "outcomes": {
+          "I": 4,
+          "Ø": 21
+        },
+        "Type1": {
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 0,
+          "denominator": 25,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 21,
+        "total_selected_api_units": 109,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "fault_controls": {
+        "cases": 2,
+        "outcomes": {
+          "Ø": 1,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 1,
+          "fraction": "1",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 1,
+        "total_selected_api_units": 66,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    },
+    "rats-jws": {
+      "original_world_replay": {
+        "cases": 20,
+        "outcomes": {
+          "I": 2,
+          "Ø": 18
+        },
+        "Type1": {
+          "numerator": 0,
+          "denominator": 2,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 0,
+          "denominator": 20,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 18,
+        "total_selected_api_units": 135,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "fault_controls": {
+        "cases": 2,
+        "outcomes": {
+          "Ø": 1,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 1,
+          "fraction": "1",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 1,
+        "total_selected_api_units": 56,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    },
+    "rag": {
+      "original_world_replay": {
+        "cases": 8,
+        "outcomes": {
+          "I": 2,
+          "M": 3,
+          "Ø": 2,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 0,
+          "denominator": 5,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 8,
+          "fraction": "1/8",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 3,
+        "total_selected_api_units": 20,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "fault_controls": {
+        "cases": 2,
+        "outcomes": {
+          "Ø": 1,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 1,
+          "fraction": "1",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 1,
+        "total_selected_api_units": 15,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    },
+    "oauth-oidc": {
+      "original_world_replay": {
+        "cases": 11,
+        "outcomes": {
+          "I": 2,
+          "Ø": 8,
+          "M": 1
+        },
+        "Type1": {
+          "numerator": 0,
+          "denominator": 3,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 0,
+          "denominator": 11,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 8,
+        "total_selected_api_units": 33,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "fault_controls": {
+        "cases": 2,
+        "outcomes": {
+          "Ø": 1,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 1,
+          "fraction": "1",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 1,
+        "total_selected_api_units": 29,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    },
+    "mcp-tool-calling": {
+      "original_world_replay": {
+        "cases": 9,
+        "outcomes": {
+          "I": 3,
+          "Ø": 6
+        },
+        "Type1": {
+          "numerator": 0,
+          "denominator": 3,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 0,
+          "denominator": 9,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 6,
+        "total_selected_api_units": 35,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "fault_controls": {
+        "cases": 2,
+        "outcomes": {
+          "Ø": 1,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 1,
+          "fraction": "1",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 1,
+        "total_selected_api_units": 15,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    },
+    "sql-transactions-idempotency": {
+      "original_world_replay": {
+        "cases": 9,
+        "outcomes": {
+          "I": 4,
+          "Ø": 4,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 0,
+          "denominator": 4,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 0,
+          "denominator": 9,
+          "fraction": "0",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 1,
+        "Type1_exclusions": 5,
+        "total_selected_api_units": 92,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "fault_controls": {
+        "cases": 2,
+        "outcomes": {
+          "Ø": 1,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 1,
+          "fraction": "1",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 1,
+        "total_selected_api_units": 20,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    },
+    "durable-workflows-retries": {
+      "original_world_replay": {
+        "cases": 9,
+        "outcomes": {
+          "I": 3,
+          "M": 1,
+          "Ø": 4,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 5,
+          "fraction": "1/5",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 9,
+          "fraction": "1/9",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 4,
+        "total_selected_api_units": 79,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "fault_controls": {
+        "cases": 2,
+        "outcomes": {
+          "Ø": 1,
+          "P": 1
+        },
+        "Type1": {
+          "numerator": 1,
+          "denominator": 1,
+          "fraction": "1",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "Type2": {
+          "numerator": 1,
+          "denominator": 2,
+          "fraction": "1/2",
+          "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+          "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+        },
+        "P_without_Type2": 0,
+        "Type1_exclusions": 1,
+        "total_selected_api_units": 27,
+        "sum_is_not_money_or_a_cross_technology_ranking": true
+      },
+      "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+    }
+  },
+  "current_run": "2026-10-07-03",
+  "original_world_cases": 122,
+  "deliberate_fault_controls": 18,
+  "source_snapshot_is_not_a_second_canonical_method": true,
+  "preflight": {
+    "native_verify_calls_after_bad_signature_decode": 0,
+    "native_verify_calls_on_valid_signature": 1,
+    "run01_and_run02_registered_summaries_equal": true
+  },
+  "SPIFFE_accessible_G_certificate": [
+    {
+      "case": "S01",
+      "observed": 6,
+      "minimum_G": 5,
+      "accessible_G": 5,
+      "excess": 1,
+      "Type1": false
+    },
+    {
+      "case": "S02",
+      "observed": 6,
+      "minimum_G": 5,
+      "accessible_G": 5,
+      "excess": 1,
+      "Type1": false
+    },
+    {
+      "case": "S21",
+      "observed": 6,
+      "minimum_G": 5,
+      "accessible_G": 5,
+      "excess": 1,
+      "Type1": false
+    },
+    {
+      "case": "S24",
+      "observed": 7,
+      "minimum_G": 6,
+      "accessible_G": 6,
+      "excess": 1,
+      "Type1": false
+    }
+  ]
+}

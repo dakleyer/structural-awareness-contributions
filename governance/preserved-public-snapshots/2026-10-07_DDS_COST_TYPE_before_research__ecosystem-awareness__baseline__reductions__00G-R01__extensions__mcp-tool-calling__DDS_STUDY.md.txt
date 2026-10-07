@@ -1,7 +1,5 @@
 # DDS — MCP selected tool-call admission
 
-<!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->
-
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 Version0.2 ·6 October2026 · completed within scoped request/application-model coverage.
@@ -83,8 +81,3 @@ Reviewed canonical source 09b8fe09082f15612114ebe0fd3be8418be7a061 after these r
 - **Type0/unresolved:** kept outside such estimates. No universal diagnosis or probability is assigned.
 
 These explicit omissions are permitted by the single DDS's partial-coverage rule. [Machine-readable current-surface crosswalk](./CURRENT_DDS_COVERAGE_2026-10-06.json) records the boundary. No original source/result/threshold is changed; useful local findings and scoped closure remain.
-
-
-## Cost and Type1 / Type2 successor — 7 October2026
-
-Documentation addition0.3. The [executed cost/type packet](../cost-type-diagnostics-v0.1/README.md) prospectively replays this profile's original-world outcomes with a finer selected actor/source/evaluator ledger, prior M-admission, minimum-work witnesses over frozen G and separate Type1/Type2 causal counts. It includes the current scoped SPIFFE accessible-G bound and conventional reference improvement. Original registered source results/thresholds remain unchanged; this successor does not establish global minimum, monetary calibration, population probabilities, real human accuracy, Stage B/C or independent validation. Per-case records retain exclusions and deliberate defect controls as a separate cohort.

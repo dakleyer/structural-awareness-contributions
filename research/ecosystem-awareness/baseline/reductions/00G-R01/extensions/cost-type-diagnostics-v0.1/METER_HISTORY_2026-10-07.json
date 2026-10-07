@@ -1,0 +1,16 @@
+{
+  "initial_run": "2026-10-07-01",
+  "current_run": "2026-10-07-03",
+  "initial_status": "PASS_PROSPECTIVE_SELECTED_COST_AND_TYPE_DIAGNOSTICS",
+  "current_status": "PASS_PROSPECTIVE_SELECTED_COST_AND_TYPE_DIAGNOSTICS",
+  "current_meter_change": "Counter moved from the source signature-attempt increment to actual native verify method invocation after argument decoding",
+  "summaries_identical": true,
+  "initial_run_preserved": "full local/Drive archive with29 original frozen input files; no old byte overwritten without preservation",
+  "initial_freeze_sha256": "89c411d4a0977770058462c8edc32dae11ed4e47a811552c0cecef2642c9f7fc",
+  "prior_runs": [
+    "2026-10-07-01",
+    "2026-10-07-02"
+  ],
+  "reference_improvement": "Single-domain SPIFFE verifies before subject qualification and reuses signed claims; scoped accessible-G lower bound achieved prospectively",
+  "initial_runs_preserved": "Complete input snapshots, outputs and SQLite evidence retained in local/Drive archive"
+}

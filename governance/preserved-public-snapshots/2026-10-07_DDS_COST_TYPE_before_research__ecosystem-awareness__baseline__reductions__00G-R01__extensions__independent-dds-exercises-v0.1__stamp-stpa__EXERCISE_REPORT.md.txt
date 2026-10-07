@@ -1,7 +1,5 @@
 # STAMP/STPA independent DDS exercise — maintenance and critical supply
 
-<!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->
-
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 Document version0.1 ·6 October2026 ·Codex, same analyst/model author.
@@ -72,8 +70,3 @@ Primary method source: [MIT STPA handbook route](https://psas.scripts.mit.edu/ho
 
 
 Recorded successorA2 separates controller observations from private actuator-failure facts. Stop application is now obtained through a plant callback after command selection. Original run01 and its source/card/freeze are preserved; run02 changes no narrative, law or expected delivery threshold. Public run02 is self-contained; complete older source sets remain in local custody.
-
-
-## Cost and Type1 / Type2 successor — 7 October2026
-
-Documentation addition0.3. The [executed cost/type packet](../../cost-type-diagnostics-v0.1/README.md) prospectively replays this profile's original-world outcomes with a finer selected actor/source/evaluator ledger, prior M-admission, minimum-work witnesses over frozen G and separate Type1/Type2 causal counts. It includes the current scoped SPIFFE accessible-G bound and conventional reference improvement. Original registered source results/thresholds remain unchanged; this successor does not establish global minimum, monetary calibration, population probabilities, real human accuracy, Stage B/C or independent validation. Per-case records retain exclusions and deliberate defect controls as a separate cohort.

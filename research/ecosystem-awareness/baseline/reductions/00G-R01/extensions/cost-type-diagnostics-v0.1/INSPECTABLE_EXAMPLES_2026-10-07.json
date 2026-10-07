@@ -1,0 +1,159 @@
+{
+  "workflow_WF04": {
+    "source_case_id": "WF-04",
+    "M_admission": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "C_observed_primary": 11,
+    "primary_unit": "selected API operation units",
+    "C_private_min_G": 7,
+    "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+    "witness_policy": "reference",
+    "witness_api_cost": 7,
+    "private_excess_signed": 4,
+    "private_excess_nonnegative": 4,
+    "lower_cost_without_closure_is_not_a_saving": false,
+    "accessible_information_global_lower_bound": null,
+    "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+    "accessible_information_lower_bound_G": null,
+    "accessible_G_certificate": null,
+    "accessible_feasible_witness_cost": 7,
+    "accessible_witness_uses_evaluator_labels": false,
+    "witness_is_not_claimed_global_optimum": true,
+    "Type1_eligible": true,
+    "Type1": true,
+    "Type2_eligible": true,
+    "Type2": false,
+    "P_without_diagnosed_Type2": false,
+    "terminal_cause": "RUNNING",
+    "ineligible_no_closure_is_not_Type1": false,
+    "search_and_validation_components": {
+      "workflow.policy": 1,
+      "sqlite.UPDATE": 5,
+      "sqlite.commit": 5
+    },
+    "excess_by_component_against_witness": {
+      "sqlite.UPDATE": 2,
+      "sqlite.commit": 2,
+      "workflow.policy": 0
+    }
+  },
+  "sql_TX01": {
+    "source_case_id": "TX-01",
+    "M_admission": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "C_observed_primary": 7,
+    "primary_unit": "selected API operation units",
+    "C_private_min_G": 7,
+    "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+    "witness_policy": "baseline",
+    "witness_api_cost": 7,
+    "private_excess_signed": 0,
+    "private_excess_nonnegative": 0,
+    "lower_cost_without_closure_is_not_a_saving": false,
+    "accessible_information_global_lower_bound": null,
+    "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+    "accessible_information_lower_bound_G": null,
+    "accessible_G_certificate": null,
+    "accessible_feasible_witness_cost": 7,
+    "accessible_witness_uses_evaluator_labels": false,
+    "witness_is_not_claimed_global_optimum": true,
+    "Type1_eligible": true,
+    "Type1": false,
+    "Type2_eligible": true,
+    "Type2": false,
+    "P_without_diagnosed_Type2": false,
+    "terminal_cause": "COMMITTED",
+    "ineligible_no_closure_is_not_Type1": false,
+    "search_and_validation_components": {
+      "transaction.policy": 1,
+      "sqlite.BEGIN": 1,
+      "sqlite.SELECT": 2,
+      "sqlite.INSERT": 2,
+      "sqlite.commit": 1
+    },
+    "excess_by_component_against_witness": {
+      "sqlite.BEGIN": 0,
+      "sqlite.INSERT": 0,
+      "sqlite.SELECT": 0,
+      "sqlite.commit": 0,
+      "transaction.policy": 0
+    }
+  },
+  "HEW_02A": {
+    "source_case_id": "HEW-SC-02A",
+    "M_admission": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "C_observed_primary": 18,
+    "primary_unit": "declared HEW model work",
+    "C_private_min_G": 18,
+    "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+    "witness_policy": "baseline",
+    "witness_api_cost": 71,
+    "private_excess_signed": 0,
+    "private_excess_nonnegative": 0,
+    "lower_cost_without_closure_is_not_a_saving": false,
+    "accessible_information_global_lower_bound": null,
+    "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+    "accessible_information_lower_bound_G": null,
+    "accessible_G_certificate": null,
+    "accessible_feasible_witness_cost": 18,
+    "accessible_witness_uses_evaluator_labels": false,
+    "witness_is_not_claimed_global_optimum": true,
+    "Type1_eligible": true,
+    "Type1": false,
+    "Type2_eligible": true,
+    "Type2": false,
+    "P_without_diagnosed_Type2": false,
+    "terminal_cause": [],
+    "ineligible_no_closure_is_not_Type1": false,
+    "search_and_validation_components": {
+      "sqlite.BEGIN": 11,
+      "sqlite.INSERT": 22,
+      "sqlite.SELECT": 24,
+      "sqlite.COMMIT": 11,
+      "sqlite.UPDATE": 3
+    },
+    "excess_by_component_against_witness": {
+      "sqlite.BEGIN": 0,
+      "sqlite.COMMIT": 0,
+      "sqlite.INSERT": 0,
+      "sqlite.SELECT": 0,
+      "sqlite.UPDATE": 0
+    }
+  }
+}

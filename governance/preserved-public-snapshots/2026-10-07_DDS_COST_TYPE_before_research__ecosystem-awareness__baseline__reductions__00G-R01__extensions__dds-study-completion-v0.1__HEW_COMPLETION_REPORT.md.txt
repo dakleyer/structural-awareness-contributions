@@ -1,7 +1,5 @@
 # Human Escalation / Whispering — completed scoped DDS review
 
-<!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->
-
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 Version0.1 · 6 October2026 · scoped completion edition, same author. This record was prepared against the then-current Stage A source at commitf7d8ed0846b301617197ade855d5237cbd2280f9 (method0.1, clarifications through0.1.4 and current M-floor/failure-type distinction). Under the current [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), it is a **Stage A scoped completion record** using the [Stage A challenge–trajectory contract](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md); it is not another DDS method, Stage B architecture verification or Stage C native validation. Its crosswalk and conclusions are retrospective; only the separately frozen [boundary Run Card](./BOUNDARY_RUN_CARD.json) was registered before the new result-producing checks. Original cards, freezes, thresholds, scripts and results remain immutable.
@@ -70,8 +68,3 @@ Evidence: [new actual checks](./runs/2026-10-06-01/RESULTS.json), [repeat review
 ## EA failure diagnostics and rework scope
 
 M is not evaluated in this executed profile. An available minimum legitimate closure was therefore not demonstrated for its Ø cases, so they are not automatically EA Type1. I/M/P/Ø and EA Type0/1/2 are different namespaces. P is classified here by the declared material violation; a causal false-qualification finding is required before calling it Type2. This edition retains any residual nondetermination and does not assign population failure-type rates. A hidden minimum-sufficient search/review witness and excess-work estimate are not computed; the reported ledger is actual model work, not proved optimal work. Omitting that optional diagnostic is proportionate to this edition's decision question.
-
-
-## Cost and Type1 / Type2 successor — 7 October2026
-
-Documentation addition0.3. The [executed cost/type packet](../cost-type-diagnostics-v0.1/README.md) prospectively replays this profile's original-world outcomes with a finer selected actor/source/evaluator ledger, prior M-admission, minimum-work witnesses over frozen G and separate Type1/Type2 causal counts. It includes the current scoped SPIFFE accessible-G bound and conventional reference improvement. Original registered source results/thresholds remain unchanged; this successor does not establish global minimum, monetary calibration, population probabilities, real human accuracy, Stage B/C or independent validation. Per-case records retain exclusions and deliberate defect controls as a separate cohort.

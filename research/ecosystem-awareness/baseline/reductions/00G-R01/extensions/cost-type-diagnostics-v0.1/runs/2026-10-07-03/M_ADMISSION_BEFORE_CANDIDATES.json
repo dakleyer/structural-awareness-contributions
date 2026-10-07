@@ -1,0 +1,1490 @@
+{
+  "hew": {
+    "HEW-SC-02A": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-02B": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-03A-1": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-03A-2": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-03B-1": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-03B-2": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-04A": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-04B": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-05A": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-05B": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-06A": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-06B": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-07A": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-07B": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-08A": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-08B": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-09A": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-09B": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-10A": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-SC-10B": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "HEW-DIAG-FALSE-APPRAISAL": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    }
+  },
+  "stamp-stpa": {
+    "T01": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "T02": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "T03": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "T04": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "T05": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "T06": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "T07": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "T08": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "T09": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "T10": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    }
+  },
+  "spiffe-jwt": {
+    "S01": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S02": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S03": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S04": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S05": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S06": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S07": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S08": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S09": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S10": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S11": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S12": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S13": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S14": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S15": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S16": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S17": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S18": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S19": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S20": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S21": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S22": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S23": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S24": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "S25": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    }
+  },
+  "rats-jws": {
+    "R01": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R02": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R03": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R04": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R05": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R06": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R07": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R08": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R09": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R10": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R11": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R12": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R13": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R14": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R15": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R16": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R17": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R18": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R19": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "R20": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    }
+  },
+  "rag": {
+    "RAG-01": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "RAG-02": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "RAG-03": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "RAG-04": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "RAG-05": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "RAG-06": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "RAG-07": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "RAG-08": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    }
+  },
+  "oauth-oidc": {
+    "AUTH-01": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-02": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-03": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-04": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-05": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-06": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-07": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-08": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-09": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-10": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "AUTH-11": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    }
+  },
+  "mcp-tool-calling": {
+    "MCP-01": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "MCP-02": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "MCP-03": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "MCP-04": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "MCP-05": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "MCP-06": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "MCP-07": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "MCP-08": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "MCP-09": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    }
+  },
+  "sql-transactions-idempotency": {
+    "TX-01": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "TX-02": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "TX-03": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "TX-04": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "TX-05": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "TX-06": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "TX-07": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "TX-08": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "TX-09": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    }
+  },
+  "durable-workflows-retries": {
+    "WF-01": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "WF-02": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "WF-03": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "WF-04": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "WF-05": {
+      "M_admitted": true,
+      "nontrivial_qualification_work": true,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [
+        "baseline",
+        "reference"
+      ],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": true,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "WF-06": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "WF-07": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "WF-08": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    },
+    "WF-09": {
+      "M_admitted": false,
+      "nontrivial_qualification_work": null,
+      "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+      "witness_policies": [],
+      "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+      "within_registered_budget_and_horizon": false,
+      "private_expected_outcome_sent_to_actor": false,
+      "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+      "admission_not_based_on_candidate_outcome": true
+    }
+  }
+}

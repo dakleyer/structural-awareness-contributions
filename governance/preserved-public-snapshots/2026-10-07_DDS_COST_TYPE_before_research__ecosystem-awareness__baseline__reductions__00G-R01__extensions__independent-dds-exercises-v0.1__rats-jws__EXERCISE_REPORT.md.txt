@@ -1,7 +1,5 @@
 # RATS independent DDS exercise — software evidence, appraisal and consumption
 
-<!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->
-
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 Document version0.1 ·6 October2026 ·Codex, same fixture author.
@@ -37,8 +35,3 @@ Potential bounded value: more supportable admission decisions and explicit refus
 No compact token or private key is exported. Original evidence/result are represented by hashes in the result record; rerunning creates new in-memory keys, so token digests need not match across repeats. Input/source hashes and registered assertions remain reproducible.
 
 Primary architecture: [RFC9334](https://www.rfc-editor.org/info/rfc9334/), especially role/policy/freshness and privacy boundaries. This original local application copies no external verifier implementation.
-
-
-## Cost and Type1 / Type2 successor — 7 October2026
-
-Documentation addition0.3. The [executed cost/type packet](../../cost-type-diagnostics-v0.1/README.md) prospectively replays this profile's original-world outcomes with a finer selected actor/source/evaluator ledger, prior M-admission, minimum-work witnesses over frozen G and separate Type1/Type2 causal counts. It includes the current scoped SPIFFE accessible-G bound and conventional reference improvement. Original registered source results/thresholds remain unchanged; this successor does not establish global minimum, monetary calibration, population probabilities, real human accuracy, Stage B/C or independent validation. Per-case records retain exclusions and deliberate defect controls as a separate cohort.

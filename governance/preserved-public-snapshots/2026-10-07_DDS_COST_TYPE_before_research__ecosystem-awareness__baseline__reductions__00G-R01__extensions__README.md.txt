@@ -1,7 +1,5 @@
 # DDS technology extensions — study home
 
-<!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->
-
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 Version0.2 ·6 October2026.
@@ -57,10 +55,3 @@ Next candidate families are caching/TTL, queues/redelivery, structured LLM outpu
 ## Current-source reporting clarification0.2
 
 The current sole DDS source 09b8fe09082f15612114ebe0fd3be8418be7a061 adds blind/private-map, minimum-work, M-admission and Type1/Type2 reporting surfaces. [Current compatibility record](./CURRENT_DDS_COMPATIBILITY_2026-10-06.json) and one coverage sidecar per new leaf declare these unscored/not established as estimates. The workflow M witness is descriptive local evidence; complete current-rule eligibility/physical budget admission is not established. No blind/population estimate or old score upgrade. Documentation0.1 preserved; cards/code/freezes/runs stay unchanged.
-
-
-## Cost and Type1 / Type2 successor — 7 October2026
-
-Documentation addition0.3. The [executed cost/type packet](cost-type-diagnostics-v0.1/README.md) prospectively replays this profile's original-world outcomes with a finer selected actor/source/evaluator ledger, prior M-admission, minimum-work witnesses over frozen G and separate Type1/Type2 causal counts. It includes the current scoped SPIFFE accessible-G bound and conventional reference improvement. Original registered source results/thresholds remain unchanged; this successor does not establish global minimum, monetary calibration, population probabilities, real human accuracy, Stage B/C or independent validation. Per-case records retain exclusions and deliberate defect controls as a separate cohort.
-
-All nine current executed study families have an in-folder `COST_TYPE_DIAGNOSTICS_2026-10-07.md` and `CURRENT_COST_TYPE_COVERAGE_2026-10-07.json`, linked to run DDS-COST-TYPE-20261007-03. The earlier metering runs and their exact inputs remain in the full local/Drive archive. One DDS method remains canonical.

@@ -1,0 +1,3029 @@
+{
+  "original_world_replay": {
+    "cases": 9,
+    "outcomes": {
+      "I": 4,
+      "Ø": 4,
+      "P": 1
+    },
+    "Type1": {
+      "numerator": 0,
+      "denominator": 4,
+      "fraction": "0",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 0,
+      "denominator": 9,
+      "fraction": "0",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 1,
+    "Type1_exclusions": 5,
+    "total_selected_api_units": 92,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "fault_controls": {
+    "cases": 2,
+    "outcomes": {
+      "Ø": 1,
+      "P": 1
+    },
+    "Type1": {
+      "numerator": 1,
+      "denominator": 1,
+      "fraction": "1",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "Type2": {
+      "numerator": 1,
+      "denominator": 2,
+      "fraction": "1/2",
+      "meaning": "descriptive fraction over named authored fixtures; no deployment/population probability",
+      "statistical_uncertainty": "NOT_APPLICABLE_NO_RANDOM_POPULATION_SAMPLE"
+    },
+    "P_without_Type2": 0,
+    "Type1_exclusions": 1,
+    "total_selected_api_units": 20,
+    "sum_is_not_money_or_a_cross_technology_ranking": true
+  },
+  "rows": [
+    {
+      "id": "TX-01",
+      "narrative": "A permitted local ledger change and its receipt commit in the same SQLite transaction.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "COMMITTED",
+        "effects": {
+          "ledger": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "receipt": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 7,
+          "candidate_components": {
+            "transaction.policy": 1,
+            "sqlite.BEGIN": 1,
+            "sqlite.SELECT": 2,
+            "sqlite.INSERT": 2,
+            "sqlite.commit": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 68595400,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "5f04ab0fc909f968c49b2429529268b7222d184be8730906357be2c9f4240460",
+          "role_inclusive_wall_ns": {
+            "fixture": 52385800,
+            "candidate": 10138800,
+            "evaluator": 5463900
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-01",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-01",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 7,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 7,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 7,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 7,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "COMMITTED",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "transaction.policy": 1,
+          "sqlite.BEGIN": 1,
+          "sqlite.SELECT": 2,
+          "sqlite.INSERT": 2,
+          "sqlite.commit": 1
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.BEGIN": 0,
+          "sqlite.INSERT": 0,
+          "sqlite.SELECT": 0,
+          "sqlite.commit": 0,
+          "transaction.policy": 0
+        }
+      }
+    },
+    {
+      "id": "TX-02",
+      "narrative": "The application fails after inserting the local effect but before commit. Rollback must leave no effect or receipt.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "ABORTED",
+        "effects": {
+          "ledger": [],
+          "receipt": [],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 7,
+          "candidate_components": {
+            "transaction.policy": 1,
+            "sqlite.BEGIN": 1,
+            "sqlite.SELECT": 2,
+            "sqlite.INSERT": 2,
+            "sqlite.rollback": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 105041800,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.rollback",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "83e6744774c54a1a49d3014d93513152f864b07f834f1679fa084466f7233163",
+          "role_inclusive_wall_ns": {
+            "fixture": 90889700,
+            "candidate": 7506300,
+            "evaluator": 6086800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-02",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-02",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 7,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "ABORTED",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "transaction.policy": 1,
+          "sqlite.BEGIN": 1,
+          "sqlite.SELECT": 2,
+          "sqlite.INSERT": 2,
+          "sqlite.rollback": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "TX-03",
+      "narrative": "The same admitted operation/payload is retried. Its stable resource key must preserve one effect and recover the receipt.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "RECOVERED",
+        "effects": {
+          "ledger": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "receipt": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 12,
+          "candidate_components": {
+            "transaction.policy": 2,
+            "sqlite.BEGIN": 2,
+            "sqlite.SELECT": 4,
+            "sqlite.INSERT": 2,
+            "sqlite.commit": 1,
+            "sqlite.rollback": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 74883900,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "sqlite.rollback",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "d8b648b9db2e87cc7e685353799d3e50378ecce696b88b4b2cac071b84129d03",
+          "role_inclusive_wall_ns": {
+            "fixture": 55188900,
+            "candidate": 14127100,
+            "evaluator": 5049200
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-03",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-03",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 12,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 12,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 12,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 12,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "RECOVERED",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "transaction.policy": 2,
+          "sqlite.BEGIN": 2,
+          "sqlite.SELECT": 4,
+          "sqlite.INSERT": 2,
+          "sqlite.commit": 1,
+          "sqlite.rollback": 1
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.BEGIN": 0,
+          "sqlite.INSERT": 0,
+          "sqlite.SELECT": 0,
+          "sqlite.commit": 0,
+          "sqlite.rollback": 0,
+          "transaction.policy": 0
+        }
+      }
+    },
+    {
+      "id": "TX-04",
+      "narrative": "Two actual connections both read initial absence before sequential admitted writes. The unique transaction key must reject a second effect.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "RECOVERED",
+        "effects": {
+          "ledger": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "receipt": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 16,
+          "candidate_components": {
+            "sqlite.connect": 1,
+            "sqlite.SELECT": 6,
+            "transaction.policy": 2,
+            "sqlite.BEGIN": 2,
+            "sqlite.INSERT": 2,
+            "sqlite.commit": 1,
+            "sqlite.rollback": 1,
+            "sqlite.close": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 90019600,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "candidate",
+              "operation": "sqlite.rollback",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "candidate",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 27,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 28,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 29,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 30,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "afec2c9ad81f923ace9d51a4e7863c12d665dab1c631111d1bb2ef5124022ca3",
+          "role_inclusive_wall_ns": {
+            "fixture": 72295000,
+            "candidate": 15637000,
+            "evaluator": 1548900
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-04",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-04",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 16,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 16,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 16,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 16,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "RECOVERED",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.connect": 1,
+          "sqlite.SELECT": 6,
+          "transaction.policy": 2,
+          "sqlite.BEGIN": 2,
+          "sqlite.INSERT": 2,
+          "sqlite.commit": 1,
+          "sqlite.rollback": 1,
+          "sqlite.close": 1
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.BEGIN": 0,
+          "sqlite.INSERT": 0,
+          "sqlite.SELECT": 0,
+          "sqlite.close": 0,
+          "sqlite.commit": 0,
+          "sqlite.connect": 0,
+          "sqlite.rollback": 0,
+          "transaction.policy": 0
+        }
+      }
+    },
+    {
+      "id": "TX-05",
+      "narrative": "An earlier operation exists. A new request reuses its identifier with a different payload; its old receipt must not authorize the changed request.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "REFUSED_PAYLOAD_CONFLICT",
+        "effects": {
+          "ledger": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "receipt": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 12,
+          "candidate_components": {
+            "transaction.policy": 2,
+            "sqlite.BEGIN": 2,
+            "sqlite.SELECT": 4,
+            "sqlite.INSERT": 2,
+            "sqlite.commit": 1,
+            "sqlite.rollback": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 79202200,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "sqlite.rollback",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "d8b648b9db2e87cc7e685353799d3e50378ecce696b88b4b2cac071b84129d03",
+          "role_inclusive_wall_ns": {
+            "fixture": 57952000,
+            "candidate": 14249100,
+            "evaluator": 6377500
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-05",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-05",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 12,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "REFUSED_PAYLOAD_CONFLICT",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "transaction.policy": 2,
+          "sqlite.BEGIN": 2,
+          "sqlite.SELECT": 4,
+          "sqlite.INSERT": 2,
+          "sqlite.commit": 1,
+          "sqlite.rollback": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "TX-06",
+      "narrative": "The local effect and an outbox record commit, but the selected task additionally requires downstream consumption. No consumer has completed it.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "COMMITTED",
+        "effects": {
+          "ledger": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "receipt": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "outbox": [
+            [
+              "operation-a",
+              0
+            ]
+          ]
+        },
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "transaction.policy": 1,
+            "sqlite.BEGIN": 1,
+            "sqlite.SELECT": 2,
+            "sqlite.INSERT": 3,
+            "sqlite.commit": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 113841900,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "aec7534fdb2d93f634e6135796edc5d2276dfde1ea7a41251e31349b4146a943",
+          "role_inclusive_wall_ns": {
+            "fixture": 96513700,
+            "candidate": 10391200,
+            "evaluator": 6323300
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-06",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-06",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "COMMITTED",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "transaction.policy": 1,
+          "sqlite.BEGIN": 1,
+          "sqlite.SELECT": 2,
+          "sqlite.INSERT": 3,
+          "sqlite.commit": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "TX-07",
+      "narrative": "A separate local database commits an effect, then the primary business transaction aborts. Its rollback cannot undo that out-of-domain effect.",
+      "candidate": {
+        "outcome": "P",
+        "cause": "ABORTED",
+        "effects": {
+          "ledger": [],
+          "receipt": [],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 12,
+          "candidate_components": {
+            "sqlite.connect": 1,
+            "sqlite.CREATE": 1,
+            "sqlite.INSERT": 3,
+            "sqlite.commit": 1,
+            "sqlite.close": 1,
+            "transaction.policy": 1,
+            "sqlite.BEGIN": 1,
+            "sqlite.SELECT": 2,
+            "sqlite.rollback": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 102482800,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "sqlite.rollback",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "ef3796988ab99f29eb8b485fa93d1635df68b59f750fecbd48f20ddd2336e1e2",
+          "role_inclusive_wall_ns": {
+            "fixture": 54095600,
+            "candidate": 41390800,
+            "evaluator": 6359800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": true,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 1,
+        "source_case_id": "TX-07",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-07",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 12,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": true,
+        "terminal_cause": "ABORTED",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.connect": 1,
+          "sqlite.CREATE": 1,
+          "sqlite.INSERT": 3,
+          "sqlite.commit": 1,
+          "sqlite.close": 1,
+          "transaction.policy": 1,
+          "sqlite.BEGIN": 1,
+          "sqlite.SELECT": 2,
+          "sqlite.rollback": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "TX-08",
+      "narrative": "The current admitted local grant denies the requested operation.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "REFUSED",
+        "effects": {
+          "ledger": [],
+          "receipt": [],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 4,
+          "candidate_components": {
+            "transaction.policy": 1,
+            "sqlite.BEGIN": 1,
+            "sqlite.SELECT": 1,
+            "sqlite.rollback": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 2,
+              "sqlite.UPDATE": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 73473200,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "fixture",
+              "operation": "sqlite.UPDATE",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.rollback",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "353ffc5cbb5a2e151279eecdc7145658d4d08d9b43cecad82ad69b8578a549b5",
+          "role_inclusive_wall_ns": {
+            "fixture": 66554300,
+            "candidate": 398800,
+            "evaluator": 6033900
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-08",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-08",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 4,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "REFUSED",
+        "ineligible_no_closure_is_not_Type1": true,
+        "search_and_validation_components": {
+          "transaction.policy": 1,
+          "sqlite.BEGIN": 1,
+          "sqlite.SELECT": 1,
+          "sqlite.rollback": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    },
+    {
+      "id": "TX-09",
+      "narrative": "The effect/receipt committed but the caller missed the acknowledgement. A later connection recovers the one durable local receipt.",
+      "candidate": {
+        "outcome": "I",
+        "cause": "RECOVERED",
+        "effects": {
+          "ledger": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "receipt": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 14,
+          "candidate_components": {
+            "transaction.policy": 2,
+            "sqlite.BEGIN": 2,
+            "sqlite.SELECT": 4,
+            "sqlite.INSERT": 2,
+            "sqlite.commit": 1,
+            "sqlite.close": 1,
+            "sqlite.connect": 1,
+            "sqlite.rollback": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 79780300,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.close",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "candidate",
+              "operation": "sqlite.rollback",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 27,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 28,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "46dcea292cf484db281240ebf08ebf3ab22e7d1bb6465afa79988fac81b50fd3",
+          "role_inclusive_wall_ns": {
+            "fixture": 60045400,
+            "candidate": 17720600,
+            "evaluator": 1622800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-09",
+        "policy": "baseline"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-09",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 14,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 14,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 14,
+        "private_excess_signed": 0,
+        "private_excess_nonnegative": 0,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 14,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "RECOVERED",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "transaction.policy": 2,
+          "sqlite.BEGIN": 2,
+          "sqlite.SELECT": 4,
+          "sqlite.INSERT": 2,
+          "sqlite.commit": 1,
+          "sqlite.close": 1,
+          "sqlite.connect": 1,
+          "sqlite.rollback": 1
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.BEGIN": 0,
+          "sqlite.INSERT": 0,
+          "sqlite.SELECT": 0,
+          "sqlite.close": 0,
+          "sqlite.commit": 0,
+          "sqlite.connect": 0,
+          "sqlite.rollback": 0,
+          "transaction.policy": 0
+        }
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "TX-01-review_only",
+      "narrative": "Deliberate defect control; not the native technology or qualified actor performance.",
+      "candidate": {
+        "outcome": "Ø",
+        "cause": "unresolved review",
+        "effects": {
+          "ledger": [],
+          "receipt": [],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 12,
+          "candidate_components": {
+            "sqlite.SELECT": 12
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 58079200,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 23,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 24,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 25,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 26,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "2f079f629fca493d460198b53162242f5ddb584a8174931826fe5f7e0b96706e",
+          "role_inclusive_wall_ns": {
+            "fixture": 50840700,
+            "candidate": 1525300,
+            "evaluator": 5221800
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": false,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-01",
+        "policy": "review_only"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-01",
+        "M_admission": {
+          "M_admitted": true,
+          "nontrivial_qualification_work": true,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [
+            "baseline",
+            "reference"
+          ],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": true,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 12,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": 7,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": "baseline",
+        "witness_api_cost": 7,
+        "private_excess_signed": 5,
+        "private_excess_nonnegative": 5,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": 7,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": true,
+        "Type1": true,
+        "Type2_eligible": true,
+        "Type2": false,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "unresolved review",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "sqlite.SELECT": 12
+        },
+        "excess_by_component_against_witness": {
+          "sqlite.BEGIN": -1,
+          "sqlite.INSERT": -2,
+          "sqlite.SELECT": 10,
+          "sqlite.commit": -1,
+          "transaction.policy": -1
+        }
+      }
+    },
+    {
+      "id": "TX-05-false_closure",
+      "narrative": "Deliberate defect control; not the native technology or qualified actor performance.",
+      "candidate": {
+        "outcome": "P",
+        "cause": "OLD_RECEIPT_IS_PROMOTED_TO_CURRENT_CLOSURE",
+        "effects": {
+          "ledger": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "receipt": [
+            [
+              "operation-a",
+              "payload-a"
+            ]
+          ],
+          "outbox": []
+        },
+        "cost": {
+          "C_selected_api_units": 8,
+          "candidate_components": {
+            "transaction.policy": 1,
+            "sqlite.BEGIN": 1,
+            "sqlite.SELECT": 3,
+            "sqlite.INSERT": 2,
+            "sqlite.commit": 1
+          },
+          "other_roles": {
+            "fixture": {
+              "sqlite.connect": 1,
+              "sqlite.PRAGMA": 2,
+              "sqlite.CREATE": 4,
+              "sqlite.INSERT": 1,
+              "sqlite.commit": 1
+            },
+            "evaluator": {
+              "sqlite.connect": 1,
+              "sqlite.SELECT": 3,
+              "sqlite.close": 1
+            }
+          },
+          "elapsed_instrumented_wall_ns": 63066700,
+          "events": [
+            {
+              "seq": 1,
+              "role": "fixture",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 2,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 3,
+              "role": "fixture",
+              "operation": "sqlite.PRAGMA",
+              "units": 1
+            },
+            {
+              "seq": 4,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 5,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 6,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 7,
+              "role": "fixture",
+              "operation": "sqlite.CREATE",
+              "units": 1
+            },
+            {
+              "seq": 8,
+              "role": "fixture",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 9,
+              "role": "fixture",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 10,
+              "role": "candidate",
+              "operation": "transaction.policy",
+              "units": 1
+            },
+            {
+              "seq": 11,
+              "role": "candidate",
+              "operation": "sqlite.BEGIN",
+              "units": 1
+            },
+            {
+              "seq": 12,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 13,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 14,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 15,
+              "role": "candidate",
+              "operation": "sqlite.INSERT",
+              "units": 1
+            },
+            {
+              "seq": 16,
+              "role": "candidate",
+              "operation": "sqlite.commit",
+              "units": 1
+            },
+            {
+              "seq": 17,
+              "role": "candidate",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 18,
+              "role": "evaluator",
+              "operation": "sqlite.connect",
+              "units": 1
+            },
+            {
+              "seq": 19,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 20,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 21,
+              "role": "evaluator",
+              "operation": "sqlite.SELECT",
+              "units": 1
+            },
+            {
+              "seq": 22,
+              "role": "evaluator",
+              "operation": "sqlite.close",
+              "units": 1
+            }
+          ],
+          "money_cost": null,
+          "candidate_trace_sha256_before_adjudication": "f94a42ccd7808924d2bf696ad1fce5676d46b75e333f729ad08cc1a65a16066b",
+          "role_inclusive_wall_ns": {
+            "fixture": 47975200,
+            "candidate": 9214000,
+            "evaluator": 5282300
+          },
+          "nested_role_durations_are_not_additive": true,
+          "unscored": [
+            "tokens",
+            "real human service",
+            "network",
+            "lifecycle",
+            "money pricing"
+          ],
+          "duration_is_not_in_the_unit_sum": true
+        },
+        "T2_mechanism": true,
+        "P_without_T2": false,
+        "actor_inputs": [
+          "operation/payload",
+          "current grant",
+          "local receipt and ledger"
+        ],
+        "external_effect": 0,
+        "source_case_id": "TX-05",
+        "policy": "false_closure"
+      },
+      "diagnostics": {
+        "source_case_id": "TX-05",
+        "M_admission": {
+          "M_admitted": false,
+          "nontrivial_qualification_work": null,
+          "closure_floor": "original sufficient legitimate closure; original I/M may collapse the value distinction",
+          "witness_policies": [],
+          "capability_and_interface_basis": "same original selected actor APIs; reference policy removes only declared redundant restarts or chooses admitted bounded deferment",
+          "within_registered_budget_and_horizon": false,
+          "private_expected_outcome_sent_to_actor": false,
+          "exclusion_if_not_admitted": "no qualifying closure in frozen G: source/scope/state/authority/capacity/effect-contract barrier; no Type1 label",
+          "admission_not_based_on_candidate_outcome": true
+        },
+        "C_observed_primary": 8,
+        "primary_unit": "selected API operation units",
+        "C_private_min_G": null,
+        "minimum_domain": "two frozen admitted qualification graphs G; not all software/algorithms",
+        "witness_policy": null,
+        "witness_api_cost": null,
+        "private_excess_signed": null,
+        "private_excess_nonnegative": null,
+        "lower_cost_without_closure_is_not_a_saving": false,
+        "accessible_information_global_lower_bound": null,
+        "accessible_information_global_bound_status": "NOT_ESTABLISHED",
+        "accessible_information_lower_bound_G": null,
+        "accessible_G_certificate": null,
+        "accessible_feasible_witness_cost": null,
+        "accessible_witness_uses_evaluator_labels": false,
+        "witness_is_not_claimed_global_optimum": true,
+        "Type1_eligible": false,
+        "Type1": false,
+        "Type2_eligible": true,
+        "Type2": true,
+        "P_without_diagnosed_Type2": false,
+        "terminal_cause": "OLD_RECEIPT_IS_PROMOTED_TO_CURRENT_CLOSURE",
+        "ineligible_no_closure_is_not_Type1": false,
+        "search_and_validation_components": {
+          "transaction.policy": 1,
+          "sqlite.BEGIN": 1,
+          "sqlite.SELECT": 3,
+          "sqlite.INSERT": 2,
+          "sqlite.commit": 1
+        },
+        "excess_by_component_against_witness": null
+      }
+    }
+  ],
+  "M_admission_artifact_sha256": "3e28f8986a22042b1f70faa2207b852aa23016480645007aca98ecaac3947252"
+}

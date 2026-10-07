@@ -1,0 +1,172 @@
+{
+  "schema": "DDS-EXTENSION-RUN-CARD-0.1",
+  "study": "DDS-SQL-TRANSACTION-IDEMPOTENCY-20261006",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "canonical_DDS": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "canonical_source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "base": {
+    "id": "LOCAL-EFFECT-RECEIPT-ATOMICITY-0.1",
+    "scope": "authored finite local ledger/receipt task; outbox/end-to-end and cross-database cases declare their changed atomic/delivery scope"
+  },
+  "technology": {
+    "id": "SQL transactions and resource idempotency",
+    "configuration": "actual SQLite BEGIN IMMEDIATE/COMMIT/ROLLBACK + primary operation key + payload binding + receipt/outbox model",
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "journal_mode": "DELETE",
+    "foreign_keys": true
+  },
+  "stage1": {
+    "status": "performed within scope",
+    "relation": "native local SQL semantics plus authored task correspondence; no R01/global-system isomorphism",
+    "transfer": "single-transaction database observations only; external delivery/side effects need separate contract"
+  },
+  "stage2": {
+    "status": "performed within scope",
+    "mechanisms": [
+      "atomic local effect and receipt",
+      "resource operation uniqueness",
+      "request-payload binding",
+      "receipt recovery",
+      "outbox/effect-domain separation"
+    ],
+    "assumptions": [
+      "defined atomicity domain",
+      "stable operation/payload identity",
+      "valid local permission source",
+      "sufficient committed receipt meaning",
+      "no unobserved external effect path"
+    ]
+  },
+  "parameters": {
+    "operation": "operation-a",
+    "payload": "payload-a",
+    "tenant": "tenant-a"
+  },
+  "outcomes": {
+    "I": "one admitted effect and sufficient receipt for the current requested payload/task",
+    "M": "not evaluated",
+    "P": "out-of-domain material effect after primary abort or wrong/duplicate committed effect",
+    "Ø": "no sufficient receipt/closure for current task"
+  },
+  "acceptance": "frozen actual outcome and total ledger/external effect counts; distinguishes prior effect from new request; instrument not field acceptance",
+  "cost": "actual operational SQL statements, including resource checks and recovery; setup separate; infrastructure, logs/storage, retries, network, producer, integration and tariffs unscored",
+  "oracle": "fresh post-operation connections inspect ledger/receipt/outbox/external records; no expected outcome passed to transaction implementation",
+  "sampling": "9 authored cases, one bounded two-connection schedule; no every-interleaving or probability guarantee",
+  "sources": [
+    {
+      "id": "DB01",
+      "url": "https://www.sqlite.org/isolation.html",
+      "title": "SQLite isolation",
+      "access": "official selected semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "DB02",
+      "url": "https://www.sqlite.org/lang_transaction.html",
+      "title": "SQLite transaction control",
+      "access": "official selected semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "DB03",
+      "url": "https://www.sqlite.org/lang_conflict.html",
+      "title": "SQLite conflict resolution",
+      "access": "official selected semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "WF03",
+      "url": "https://docs.temporal.io/activity-definition",
+      "title": "Temporal activity definition/idempotency",
+      "access": "official mechanism; no Temporal execution",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "TX-01",
+      "narrative": "A permitted local ledger change and its receipt commit in the same SQLite transaction.",
+      "kind": "nominal",
+      "expected": "I",
+      "ledger": 1,
+      "external": 0
+    },
+    {
+      "id": "TX-02",
+      "narrative": "The application fails after inserting the local effect but before commit. Rollback must leave no effect or receipt.",
+      "kind": "rollback",
+      "expected": "Ø",
+      "ledger": 0,
+      "external": 0
+    },
+    {
+      "id": "TX-03",
+      "narrative": "The same admitted operation/payload is retried. Its stable resource key must preserve one effect and recover the receipt.",
+      "kind": "duplicate",
+      "expected": "I",
+      "ledger": 1,
+      "external": 0
+    },
+    {
+      "id": "TX-04",
+      "narrative": "Two actual connections both read initial absence before sequential admitted writes. The unique transaction key must reject a second effect.",
+      "kind": "stale-precheck",
+      "expected": "I",
+      "ledger": 1,
+      "external": 0
+    },
+    {
+      "id": "TX-05",
+      "narrative": "An earlier operation exists. A new request reuses its identifier with a different payload; its old receipt must not authorize the changed request.",
+      "kind": "payload-conflict",
+      "expected": "Ø",
+      "ledger": 1,
+      "external": 0
+    },
+    {
+      "id": "TX-06",
+      "narrative": "The local effect and an outbox record commit, but the selected task additionally requires downstream consumption. No consumer has completed it.",
+      "kind": "outbox-pending",
+      "expected": "Ø",
+      "ledger": 1,
+      "external": 0
+    },
+    {
+      "id": "TX-07",
+      "narrative": "A separate local database commits an effect, then the primary business transaction aborts. Its rollback cannot undo that out-of-domain effect.",
+      "kind": "outside-domain",
+      "expected": "P",
+      "ledger": 0,
+      "external": 1,
+      "diagnostic": "outside the one-database atomicity contract"
+    },
+    {
+      "id": "TX-08",
+      "narrative": "The current admitted local grant denies the requested operation.",
+      "kind": "no-grant",
+      "expected": "Ø",
+      "ledger": 0,
+      "external": 0
+    },
+    {
+      "id": "TX-09",
+      "narrative": "The effect/receipt committed but the caller missed the acknowledgement. A later connection recovers the one durable local receipt.",
+      "kind": "lost-ack",
+      "expected": "I",
+      "ledger": 1,
+      "external": 0
+    }
+  ],
+  "evidence_ceiling": "Actual embedded SQLite transactions and digital rows, including two connections and a second separately committed SQLite file. No PostgreSQL, distributed transaction/broker/service, physical effect, power-loss durability campaign or comparative superiority."
+}
+

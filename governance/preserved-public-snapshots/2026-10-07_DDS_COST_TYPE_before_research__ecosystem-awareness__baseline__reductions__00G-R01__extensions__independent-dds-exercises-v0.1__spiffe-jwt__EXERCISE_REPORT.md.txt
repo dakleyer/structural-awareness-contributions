@@ -1,7 +1,5 @@
 # SPIFFE independent DDS exercise — JWT-SVID and receiving application
 
-<!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->
-
 <!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 Document version0.1 ·6 October2026 ·Codex, same fixture author.
@@ -35,8 +33,3 @@ Potential bounded value: authenticated provenance plus legitimate controlled del
 Private signing keys and compact tokens remain in memory. Results contain token digests and scoped outcomes only. The clock is explicitly fixed in the Run Card; credentials are synthetic exercise material, not live workload access.
 
 Primary source: [pinned JWT-SVID standard](https://github.com/spiffe/spiffe/blob/f97c46dfd0ff0d4e412cce5c73846a9ca32a99a2/standards/JWT-SVID.md). Strict duplicate-member rejection and RS256-only selection are fixture implementation choices; not every SPIFFE implementation is required to use this exact parser/profile.
-
-
-## Cost and Type1 / Type2 successor — 7 October2026
-
-Documentation addition0.3. The [executed cost/type packet](../../cost-type-diagnostics-v0.1/README.md) prospectively replays this profile's original-world outcomes with a finer selected actor/source/evaluator ledger, prior M-admission, minimum-work witnesses over frozen G and separate Type1/Type2 causal counts. It includes the current scoped SPIFFE accessible-G bound and conventional reference improvement. Original registered source results/thresholds remain unchanged; this successor does not establish global minimum, monetary calibration, population probabilities, real human accuracy, Stage B/C or independent validation. Per-case records retain exclusions and deliberate defect controls as a separate cohort.
