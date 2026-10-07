@@ -568,6 +568,8 @@ If the eligible summary preserves every distinction that can change the answer t
 
 00M §6.3 also gives the hard limit: if a changed-regime world and an unchanged-regime world produce identical eligible metadata, EA cannot reliably distinguish them. The correct output is then insufficient determination / targeted acquisition / preserved residual, not invented certainty.
 
+The RA interface adds a second economy: it may use a finite contextual support H_t(m) and a **Contextual Sufficiency Boundary T*_t** for the declared regime distinction. The architecture does not require replaying all history if a shorter qualified trailing context remains sufficient. If no sufficient finite context can be established, that is itself a bounded UNKNOWN/non-identifiability result rather than a reason to fabricate a fixed look-back.
+
 #### 14.1.3 Inputs: qualified metadata, not a global board
 
 The architecture does not require one global Artifactory-like board, every raw trace or every chain-of-thought. A participant can use a bounded input bundle:
@@ -578,6 +580,8 @@ The architecture does not require one global Artifactory-like board, every raw t
 - population evaluation where available: participation/workstream distribution, transition/assignment rates, population/period/taxonomy, coverage, uncertainty, evaluator dependence and identifiability.
 
 Selective, qualified handoffs are enough **only when they preserve the distinctions needed by the review question**. This is the direct 00M/00N plausibility route.
+
+EA may carry or reference the producer's A so the qualification is bound to the correct result, but the architectural differential here is **not recomputing source A**. It is preserving, composing and requalifying the B/C/D needed to know whether that A can still be relied upon for the receiving decision. No raw chain-of-thought or global participant state is required unless the declared review actually needs it.
 
 #### 14.1.4 How the HF route changes A/B/C/D without a large recomputation
 
