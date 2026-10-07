@@ -1,8 +1,10 @@
-# Independent technology exercises under the single canonical DDS profile
+# Independent technology exercises — historical partial DDS evidence
 
 Document version0.1 ·6 October2026 ·same author, no external independence.
 
-The unique method source is [DDS Canonical Challenge–Trajectory Profile](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md). These are separate implementation instances, not additional canonical DDS profiles. They use different predicates, fixtures and evidence modes. Their counts are not pooled into a success rate.
+> **DDS incorporation note — 7 October 2026.** These exercises were executed when the then-current DDS source was the single Challenge–Trajectory profile. Their frozen Run Cards and RESULTS therefore preserve historical fields such as `canonical_DDS_profile` / `single canonical DDS technical profile`; those fields are not rewritten after execution. The current method entry point is the [DDS Canonical Method Index](../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), and these exercises are incorporated as **Simplified DDS Gate-A** bounded evidence because the object under test is mechanism/specification suitability under authored Challenges. Their executable local code/crypto evidence strengthens evidence mode but does not make them Gate B or Gate C.
+
+These are separate implementation instances under one DDS method, not additional canonical methods. They use different predicates, fixtures and evidence modes. Their counts are not pooled into a success rate.
 
 | Implementation instance | Narrative cases | Registered assertions | Qualified outcomes | Misuse diagnostic |
 |---|---:|---:|---|---:|
