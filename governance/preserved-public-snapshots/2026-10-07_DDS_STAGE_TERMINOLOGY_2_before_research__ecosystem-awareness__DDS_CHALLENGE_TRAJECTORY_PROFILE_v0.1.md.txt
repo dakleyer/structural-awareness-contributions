@@ -1,6 +1,6 @@
 # Deployment Differential Study (DDS) — Stage A: Specification Discovery / Challenge–Trajectory Profile v0.1
 
-<!-- DDS terminology revision 2 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
 
@@ -137,7 +137,7 @@ Stage A asks:
 
 Where a concrete deployment decision exists, the Stage A technical result may then be projected into bounded **Business Value–Risk–Cost (BV–R–C)** when that projection is in scope.
 
-The complete DDS method has three stages: [Stage A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B — Architecture Verification](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
+The complete DDS method has three gates: [Stage A — Specification Discovery](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B — Architecture Verification](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C — Implementation / Problem Validation](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md).
 
 Within Stage A, R01 and current technology trajectories retain their own semantics. DBC may supply Challenge/adjudication material and 00D may supply comparator/fairness discipline; neither changes the Stage A route semantics. The current frozen positive/negative technology traversals remain valid in their original form. Their detailed corpus-wide Stage classification is handled prospectively and does not rewrite frozen evidence.
 

@@ -2,7 +2,7 @@
 
 # Ecosystem Awareness — entry-point router
 
-<!-- DDS terminology revision 2 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 **00G-R01 reduction study:** [Probabilistic exploration and validation cost](./baseline/reductions/00G-R01/README.md) links parent Napoleon/00G to the reduced 00G-R01 specification and, from there, its supporting reduction argument, with its Word/PDF exports. 00G remains the parent case; 00N remains the functional-plausibility note.
 
@@ -233,7 +233,7 @@ The compact status statement appears above the scenario walkthroughs. The dashbo
 
 The benchmark is therefore presentable as an inspectable test programme and market/architecture gap analysis. It is not yet evidence of comparative superiority.
 
-## Deployment Differential Study (DDS) — canonical three-stage method
+## Deployment Differential Study (DDS) — canonical three-gate method
 
 **Single entry point:** [**DDS Canonical Method Index v0.1**](./DDS_CANONICAL_METHOD_INDEX_v0.1.md).
 
@@ -245,7 +245,7 @@ DDS is the programme-wide testing/evaluation method for this corpus. It is now e
 
 A profile may use a **Simplified DDS Stage A/B/C** route when only a declared subset of that Stage is needed. “Simplified” describes coverage, not evidence weakness. Documentary, analytical, symbolic, deterministic-fixture, harness and native execution are evidence modes; they do not by themselves determine the Stage.
 
-**Historical evidence incorporation.** The corpus predates this three-stage organization. Earlier Stage-0 fixtures, 00L symbolic runs, 00D-A01/A03 oracle/harness designs, R01 C02 oracle/harness work and related testbed records remain valid for their original scope and are now incorporated into DDS as Stage-specific partial evidence or support/infrastructure, as mapped in the [canonical DDS index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#7-historical-and-pre-dds-evidence-incorporation). Their local version numbers and freezes are not DDS versions, and incorporation does not retroactively upgrade their claims.
+**Historical evidence incorporation.** The corpus predates this three-gate organization. Earlier Stage-0 fixtures, 00L symbolic runs, 00D-A01/A03 oracle/harness designs, R01 C02 oracle/harness work and related testbed records remain valid for their original scope and are now incorporated into DDS as Gate-specific partial evidence or support/infrastructure, as mapped in the [canonical DDS index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md#7-historical-and-pre-dds-evidence-incorporation). Their local version numbers and freezes are not DDS versions, and incorporation does not retroactively upgrade their claims.
 
 ## DDS support module — Decision Boundary Challenge
 

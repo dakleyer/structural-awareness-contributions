@@ -1,6 +1,6 @@
 # R01 ↔ Nelson UC-4 interoperability profile
 
-<!-- DDS terminology revision 2 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 Working bridge v0.1 · 4 October 2026 · source-contributor review requested before calling it UC-4-compatible.
 
@@ -83,11 +83,11 @@ Theme #13 / EA consumer view
 If authority, delegation, identity, oversight capacity or another imported state changes, the adapter preserves that source meaning. R01 may evaluate whether reliance remains supported in its scenario, but actual re-determination remains with the semantic owner.
 
 
-## 4.1 Working design note — one DDS, three validation stages
+## 4.1 Working design note — one DDS, three validation gates
 
 > **Review status only.** This section is a design proposal for discussion before any amendment to the canonical DDS. It does not change Nelson's UC-4 stages, the existing DDS extension-review Stage 1/Stage 2 terminology, any frozen R01 result, or the current oracle implementation.
 
-The same DDS may mature through three different validation stages. They reuse one oracle/testbed framework, but **the object being adjudicated and the reference used by the oracle are different at each stage**. The stages are therefore not three names for stronger evidence of the same claim.
+The same DDS may mature through three different validation gates. They reuse one oracle/testbed framework, but **the object being adjudicated and the reference used by the oracle are different at each gate**. The gates are therefore not three names for stronger evidence of the same claim.
 
 ```text
 Challenge / failure family
@@ -127,7 +127,7 @@ The oracle should be able to distinguish at least:
 - a conventional/reference specification that closes the problem at equal or lower burden;
 - insufficient evidence.
 
-**Stage A product:** a versioned **candidate specification package** with explicit surviving requirements, assumptions, exclusions, falsifiers and evidence status. Stage A is the most developed of the three stages in the current DDS work.
+**Stage A product:** a versioned **candidate specification package** with explicit surviving requirements, assumptions, exclusions, falsifiers and evidence status. Stage A is the most developed of the three gates in the current DDS work.
 
 ### Stage B — Architecture Conformance
 
@@ -264,11 +264,11 @@ Again this is a design sketch only.
 | **B — Architecture Conformance** | Verification / refinement / requirements traceability | IEEE 1012, NASA verification matrices, ISO 29148, ISO 42010 architecture-description machinery, TLA+ refinement, TTCN-3 where appropriate | Verify the architecture/reference realization specifically against the Stage A winner(s), retaining semantic ownership and Challenge-derived falsifiers | That 42010 AD conformance proves architecture functionality; that a formal proof transfers beyond proved properties; that B validates intended use |
 | **C — Problem Validation** | System/product validation, TEVV, testing | IEEE 1012/NASA validation, ISO 15288/29119, NIST TEVV-Athlon/ARIA, TTCN-3/Inspect as execution substrates | Validate the pinned implementation against the originating Challenge with observed effects, matched comparators and DDS differential accounting | That a generic benchmark score, conformance suite or TEVV framework by itself proves the DDS problem solved |
 
-This three-stage structure is therefore best understood as a **DDS orchestration of existing verification/validation disciplines around a Challenge-derived specification-discovery stage**, not a claim to have invented a new universal V&V architecture.
+This three-gate structure is therefore best understood as a **DDS orchestration of existing verification/validation disciplines around a Challenge-derived specification-discovery stage**, not a claim to have invented a new universal V&V architecture.
 
 ### Gate separation and progression
 
-The default research-development path is **A → B → C**, but the stages are orthogonal to UC-4's current compatibility levels and to DDS evidence labels. A pre-existing product may enter B/C through an explicit mapping to a frozen specification and Challenge; it does not need to have been built by this programme. Conversely, an analytical Stage A result does not become a product claim merely because a local harness exists.
+The default research-development path is **A → B → C**, but the gates are orthogonal to UC-4's current compatibility levels and to DDS evidence labels. A pre-existing product may enter B/C through an explicit mapping to a frozen specification and Challenge; it does not need to have been built by this programme. Conversely, an analytical Stage A result does not become a product claim merely because a local harness exists.
 
 The oracle should preserve a separate result record for each gate:
 

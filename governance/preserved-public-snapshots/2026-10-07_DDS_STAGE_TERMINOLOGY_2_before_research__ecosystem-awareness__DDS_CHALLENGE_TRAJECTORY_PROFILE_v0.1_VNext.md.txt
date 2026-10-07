@@ -1,6 +1,6 @@
 # DDS Stage A — VNext
 
-<!-- DDS terminology revision 2 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
+<!-- DDS terminology revision 1 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
 **Owning source:** [DDS Stage A — Specification Discovery / Challenge–Trajectory Profile v0.1](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)  
 **DDS method router:** [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md)  
@@ -95,7 +95,7 @@ The following taxonomy/routing work has now been incorporated and is **not pendi
 |---|---|
 | Stage B contract evolution and first 00I/S5 architecture-verification pilot | DDS Stage B |
 | Stage C contract evolution and C11/T03 real-implementation validation route | DDS Stage C |
-| Any further common cross-stage rule consolidation | DDS Canonical Method Index |
+| Any further common cross-gate rule consolidation | DDS Canonical Method Index |
 | Any future repository-wide stale-link cleanup discovered outside the current active routes | owning document / corpus maintenance |
 
 None of these is a Stage A pending item.
