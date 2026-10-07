@@ -24,6 +24,107 @@ A “DDS Gate-A implementation profile” means a scoped application of this Gat
 
 The internal programme master, commercial tracks, templates, scope/run cards and individual exercises consume the DDS method through the applicable Gate. They do not create competing technical authorities. DBC and 00D retain their semantic ownership as support artefacts. Historical/frozen instances are never relabelled in a way that strengthens their evidence.
 
+## Reader orientation — what you are opening
+
+This file is **DDS Gate A — Specification Discovery**. It is **not** the complete DDS method, not an architecture-verification specification and not an implementation/product-validation protocol.
+
+Use the [DDS Canonical Method Index](./DDS_CANONICAL_METHOD_INDEX_v0.1.md) when the question is “what is DDS as a whole?”. Use this file when the question is:
+
+> **What specification, mechanism, control profile or technology/configuration rule survives a bounded Challenge strongly enough to be frozen as a candidate specification package?**
+
+### DDS gate taxonomy at a glance
+
+| DDS gate | Object under test | Authoritative reference | What the gate may establish | What it does not establish |
+|---|---|---|---|---|
+| **Gate A — Specification Discovery** — **this file** | Candidate specification, mechanism, control profile or technology/configuration trajectory | Frozen Challenge / bounded scenario or reduction, strong peers, falsifiers and Gate-A acceptance rule | Which candidate specification/package survives the declared Gate-A test within scope | That an architecture realizes it; that a product works |
+| **Gate B — Architecture Verification** | Candidate architecture / reference realization | Frozen Gate-A specification package | Whether the architecture realizes the selected specification within the registered architecture scope | Implementation effectiveness against the Challenge |
+| **Gate C — Implementation / Problem Validation** | Pinned executable implementation/configuration | Originating Challenge plus observed execution/effect/target state | Whether the implementation meets the bounded registered problem-validation rule | Universal safety, certification or unrestricted transfer |
+
+The default maturation path is **A → B → C**, but a pre-existing architecture or product may enter later gates through an explicit mapping to the required upstream package. No gate result silently proves the next gate.
+
+### Gate A in one line
+
+**Gate A discovers and freezes the specification; Gate B verifies the architecture; Gate C validates the implementation.**
+
+### What belongs inside Gate A
+
+Gate A owns the challenge–trajectory work needed to decide what should be specified:
+
+- Challenge definition and bounded reduction;
+- technology/configuration mapping;
+- preserved correspondence / isomorphism or other declared relation;
+- parameter changes;
+- non-isomorphic mechanisms and composition;
+- strong conventional/reference peers;
+- I/M/P/Ø route/outcome space where used;
+- local **trajectory gates** such as Q0–Q6;
+- analytical, virtual, symbolic or executed specification-level traversals;
+- Cost/Risk/Effectiveness when in scope;
+- blind evaluator/private-reference discipline where used;
+- acceptance, falsifiers and material-assumption checks;
+- the bounded differential finding;
+- the versioned candidate specification package that may be handed to Gate B.
+
+### What does not become Gate A evidence merely by being present
+
+The following can support Gate A without becoming separate test methods or automatically increasing evidence:
+
+- **DBC** — Challenge/adjudication vocabulary and case material;
+- **00D** — comparator/fairness discipline;
+- **R01 oracle / C02** — test-infrastructure qualification and oracle/harness machinery;
+- **UC-4 Stage-0 / Stage-1** — source-owned testbed maturity/integration vocabulary;
+- **CTv1, tool broker, isolation and sidecar contracts** — evidence/instrument infrastructure;
+- **C11 / T03** — later campaign registration and real-technology admission/execution infrastructure.
+
+A local runner, symbolic checker, finite model or Python program can still be **Gate A** when the object under test remains a candidate specification/mechanism. Executability alone does not convert work into Gate B or Gate C.
+
+### Full versus Simplified DDS Gate A
+
+A **DDS Gate-A profile** may cover the full declared Gate-A question for its scope.
+
+A **Simplified DDS Gate-A profile** intentionally uses only a bounded subset of Gate-A surfaces. It must identify what is selected, collapsed, unscored or outside scope. “Simplified” is a coverage statement, not a weaker-evidence label and not another method.
+
+Evidence mode and Gate identity are orthogonal: documentary, analytical, mathematical, virtual, symbolic, deterministic-fixture and controlled-harness evidence can all occur inside Gate A.
+
+### Gate-A entry and exit boundary
+
+**Minimum entry:** a declared Challenge or bounded scenario/reduction with enough frozen facts, scope, authority/admissibility conditions, outcome/violation meaning and evidence boundary to test candidate specifications fairly.
+
+**Primary object under test:** the candidate specification/mechanism/control profile or mapped technology/configuration trajectory — not the production implementation.
+
+**Authoritative reference:** the frozen Challenge and Gate-A acceptance/falsifier contract, with strong peers credited under the same relevant conditions.
+
+**Primary exit:** a versioned **Gate-A candidate specification package** or a bounded finding of no differential / trade-off / insufficient evidence. A useful Gate-A package should identify, as applicable:
+
+- Challenge/version/hash;
+- selected specification/requirement identifiers;
+- scope and preconditions;
+- required behavior;
+- prohibited behavior;
+- positive/continuity controls;
+- falsifiers and boundary cases;
+- assumptions and exclusions;
+- evidence mode and evidence ceiling;
+- Gate-A finding;
+- what remains NOT_ESTABLISHED;
+- the handoff conditions, if any, for Gate B.
+
+A Gate-A result that has not produced or identified a sufficiently frozen specification package can still be a valid bounded study, but it is **not yet a Gate-B entry package**.
+
+### Reading map for this document
+
+- **§§1–2:** purpose and Gate-A chain;
+- **§§3–4:** Challenge construction and technology/configuration mapping;
+- **§5:** route/outcome semantics and Type diagnostics where admitted;
+- **§6:** local trajectory gates, traversals and traces;
+- **§§7–9:** Cost/Risk/Effectiveness, acceptance and optional Business Value;
+- **§10:** full/simplified Gate-A coverage and minimum traceability;
+- **§§11–14:** current examples, R01, extensions and HEW evidence;
+- **§15:** differential contribution;
+- **§16:** evidence and claim boundary;
+- **§17:** minimum Gate-A citation block;
+- **§18:** source relationships.
+
 ## 1. What DDS Gate A is
 
 **DDS Gate A — Specification Discovery** is the challenge–trajectory gate that evaluates candidate specifications, mechanisms, control profiles or technology/configuration trajectories against a bounded Challenge before architecture realization or product validation is claimed.
@@ -79,6 +180,30 @@ DIFFERENTIAL CONTRIBUTION FINDING
 ~~~
 
 Every DDS Gate-A implementation profile must state which parts of this chain it actually instantiates and which are intentionally unscored, collapsed, documentary or out of scope. A Gate-A result may produce a candidate specification package eligible for Gate B; it does not establish Gate B or Gate C.
+
+### 2.1 Gate-A handoff contract to Gate B
+
+Gate A closes its own question before Gate B begins. The handoff is not “the test passed, therefore build it”; it is a frozen record of **what must be realized and under what conditions**.
+
+For a Gate-B-ready handoff, Gate A should identify:
+
+~~~text
+Gate-A profile / version
+Challenge / scenario / reduction identity
+candidate specification package / version / hash
+selected requirements or normative statements
+scope / preconditions
+required behavior
+prohibited behavior
+positive / continuity controls
+falsifiers / boundary conditions
+material assumptions / exclusions
+evidence mode / evidence ceiling
+Gate-A finding
+NOT_ESTABLISHED / unresolved items
+~~~
+
+Gate B may discover that this package is incomplete, contradictory or unrealizable. That does not authorize Gate B to rewrite Gate A in place. It opens a successor Gate-A version while preserving the failed Gate-B evidence.
 
 ## 3. Challenge first
 
