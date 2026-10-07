@@ -1,0 +1,190 @@
+{
+  "schema": "DDS-EXTENSION-RUN-CARD-0.1",
+  "study": "DDS-OAUTH-OIDC-20261006",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "canonical_DDS": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "canonical_source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "base": {
+    "id": "TOKEN-PURPOSE-AND-RESOURCE-0.1",
+    "scope": "authored finite token-validation and local resource-admission Challenge; no inherited R01 kernel"
+  },
+  "technology": {
+    "id": "OAuth2.0 access-token / OIDC identity-token selected profile",
+    "configuration": "own compact JWS RS256 verifier + selected issuer/audience/type/expiry/nonce checks + current application grant + actual SQLite local idempotent effect",
+    "python": "3.12.14",
+    "sqlite": "3.53.1",
+    "cryptography": "50.0.1"
+  },
+  "stage1": {
+    "status": "performed within scope",
+    "relation": "selected normative-profile correspondence; not complete OAuth/OIDC or R01 isomorphism",
+    "transfer": "token/trace semantics in this fixture only"
+  },
+  "stage2": {
+    "status": "performed within scope",
+    "mechanisms": [
+      "separate authentication and resource authorization",
+      "recipient/token-type binding",
+      "current grant/scope",
+      "use-time validity",
+      "resource idempotency"
+    ],
+    "assumptions": [
+      "admitted issuer/key binding",
+      "fixed clock/nonce",
+      "current grant-source meaning",
+      "local digital effect only"
+    ]
+  },
+  "parameters": {
+    "issuer": "https://issuer.example.invalid/",
+    "client": "client-a",
+    "resource": "resource-a",
+    "tenant": "tenant-a",
+    "scope": "write",
+    "nonce": "nonce-a",
+    "now": 1000,
+    "expires": 1010
+  },
+  "outcomes": {
+    "I": "one legitimate sufficient local SQLite operation",
+    "M": "explicitly admitted authenticated local identity return; not completed external login/operation",
+    "P": "unauthorized/expired/incorrect/duplicate local effect",
+    "Ø": "no sufficient admitted route"
+  },
+  "cost": "actual signature-verification and operational SQL counts; key provisioning/token generation/setup separate; tariffs/lifecycle/server/network/human costs unscored",
+  "acceptance": "two frozen assertions per case: actual outcome and local effect count; no native/population acceptance",
+  "oracle": "driver retains intended purpose and authority/time conditions; adjudicator checks actual SQLite effects or identity result against those conditions, not controller outcome labels",
+  "sampling": "11 designed cases; no probability estimate",
+  "sources": [
+    {
+      "id": "DB01",
+      "url": "https://www.sqlite.org/isolation.html",
+      "title": "SQLite isolation",
+      "access": "official selected semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "AUTH01",
+      "url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+      "title": "RFC9700 OAuth security BCP",
+      "access": "selected security guidance",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "AUTH02",
+      "url": "https://openid.net/specs/openid-connect-core-1_0.html",
+      "title": "OpenID Connect Core1.0 errata set2",
+      "access": "selected identity validation semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "AUTH03",
+      "url": "https://www.rfc-editor.org/rfc/rfc9068.html",
+      "title": "JWT access-token profile for OAuth2.0",
+      "access": "selected token type/audience validation",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "AUTH-01",
+      "narrative": "A tenant-a application submits a valid signed access token for the resource and admitted write grant.",
+      "kind": "nominal",
+      "purpose": "resource",
+      "expected": "I",
+      "effects": 1
+    },
+    {
+      "id": "AUTH-02",
+      "narrative": "The same signed token names another resource audience.",
+      "kind": "wrong-audience",
+      "purpose": "resource",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "AUTH-03",
+      "narrative": "The request arrives at the exact access-token expiration boundary.",
+      "kind": "expired",
+      "purpose": "resource",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "AUTH-04",
+      "narrative": "The claims are signed by a key outside the admitted local issuer bundle.",
+      "kind": "wrong-signer",
+      "purpose": "resource",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "AUTH-05",
+      "narrative": "The caller asks only for an admitted authenticated local identity result from an ID Token; no resource operation is requested.",
+      "kind": "id-token",
+      "purpose": "login",
+      "expected": "M",
+      "effects": 0
+    },
+    {
+      "id": "AUTH-06",
+      "narrative": "A valid client ID Token is offered as permission to perform a resource write.",
+      "kind": "id-token",
+      "purpose": "resource",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "AUTH-07",
+      "narrative": "The access token is authentic but lacks the selected write scope.",
+      "kind": "missing-scope",
+      "purpose": "resource",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "AUTH-08",
+      "narrative": "The resource's current operation grant has been revoked despite the token remaining valid.",
+      "kind": "revoked-grant",
+      "purpose": "resource",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "AUTH-09",
+      "narrative": "An access token validated at tick1000 is consumed at tick1011 after its expiration1010.",
+      "kind": "late-use",
+      "purpose": "resource",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "AUTH-10",
+      "narrative": "The same admitted operation is requested twice. A local resource-side idempotency key must preserve one effect.",
+      "kind": "duplicate",
+      "purpose": "resource",
+      "expected": "I",
+      "effects": 1
+    },
+    {
+      "id": "AUTH-11",
+      "narrative": "An ID Token's nonce does not match the admitted relying-party request.",
+      "kind": "wrong-nonce",
+      "purpose": "login",
+      "expected": "Ø",
+      "effects": 0
+    }
+  ],
+  "evidence_ceiling": "Actual RSA2048 signing/verification and local SQLite digital effect. Own selected validation/application profile, not browser flow, native issuer/SDK, Authorization Code/PKCE, full OIDC/OAuth conformance, real identity or independent validation."
+}
+

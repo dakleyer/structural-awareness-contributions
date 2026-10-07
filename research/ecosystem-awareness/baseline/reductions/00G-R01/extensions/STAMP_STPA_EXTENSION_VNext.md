@@ -1,4 +1,6 @@
 > [!NOTE]
+
+**Routing audit0.2 — 7 October2026.** Public relocated targets now use the in-folder corpus route. References to excluded historical COMMON_HEW_CASE/source-intake records remain as their existing public references; their contents are not republished. Use the [current public model case](./dds-hew-v0.1/TECHNICAL_REPORT.md) and [current audit](./TECHNICAL_AUDIT_2026-10-07.md) for executable/current interpretation. This retained source review is not independent validation.
 > **Fuente de este expediente · verificación del 6 de octubre de 2026.** [Documento de referencia](STAMP_STPA_EXTENSION.md). Ésta es su única VNext; el original permanece en lectura. Las auditorías, propuestas y textos anteriores se conservan íntegros debajo. Este enlace no certifica cierre de revisión, adopción o resultados.
 
 # Owning VNext — STAMP_STPA_EXTENSION.md
@@ -47,7 +49,7 @@ What changes and why:Localized document edition/link clarity; native/theorem mea
 Analytical extension v0.1 · Editorial revision0.1.1 · 6 October 2026 · author-constructed research draft.
 Subject: STAMP as a causal model and STPA as an analysis method, applied to a bounded human-escalation control structure.
 Evidence: primary-source basic-method review; four-step draft analysis; exact finite calendar checks. No native STPA tool, human process or deployed controller executed.
-[Shared case](./COMMON_HEW_CASE_v0.1_2026-10-06.md) · [current Run Card](./run_card_v0.3_2026-10-06.json) · [results](./analytical_fixture_results_v0.3_2026-10-06.json).
+[Shared case](./COMMON_HEW_CASE_v0.1_2026-10-06.md) · [current Run Card](./dds-hew-v0.1/prior-analytical/run_card_v0.3_2026-10-06.json) · [results](./dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.3_2026-10-06.json).
 ````
 
 **Texto después — propuesto**
@@ -89,7 +91,7 @@ What changes and why:Localized document edition/link clarity; native/theorem mea
 **Texto antes — viejo**
 
 ````text
-[Exact fixture result](./analytical_fixture_results_v0.3_2026-10-06.json) checks 14 cases and 6,048 calendar instances against exhaustive starts. It validates the declared slice, not human service predictions or all STPA analysis.
+[Exact fixture result](./dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.3_2026-10-06.json) checks 14 cases and 6,048 calendar instances against exhaustive starts. It validates the declared slice, not human service predictions or all STPA analysis.
 ````
 
 **Texto después — propuesto**

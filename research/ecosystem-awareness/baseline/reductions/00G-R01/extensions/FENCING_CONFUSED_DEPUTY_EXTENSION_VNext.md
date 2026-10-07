@@ -1,4 +1,6 @@
 > [!NOTE]
+
+**Routing audit0.2 — 7 October2026.** Public relocated targets now use the in-folder corpus route. References to excluded historical COMMON_HEW_CASE/source-intake records remain as their existing public references; their contents are not republished. Use the [current public model case](./dds-hew-v0.1/TECHNICAL_REPORT.md) and [current audit](./TECHNICAL_AUDIT_2026-10-07.md) for executable/current interpretation. This retained source review is not independent validation.
 > **Fuente de este expediente · verificación del 6 de octubre de 2026.** [Documento de referencia](FENCING_CONFUSED_DEPUTY_EXTENSION.md). Ésta es su única VNext; el original permanece en lectura. Las auditorías, propuestas y textos anteriores se conservan íntegros debajo. Este enlace no certifica cierre de revisión, adopción o resultados.
 
 # Owning VNext — FENCING_CONFUSED_DEPUTY_EXTENSION.md
@@ -46,7 +48,7 @@ What changes and why:Localized document edition/link clarity; native/theorem mea
 ````text
 Analytical draft v0.1 / editorial clarification0.1.1 · 6 October 2026 · local internal research.
 Prepared by Codex under Ivan's instruction: “añade esto también como extensión: fencing tokens, and work on the confused-deputy problem”.
-Fourth study in the [extension register](./EXTENSION_REGISTER_2026-10-06.md), continuing the same [Human Escalation VNext](../2026-10-06_DDS_R01_Human_Escalation_Mapping/HUMAN_ESCALATION_WHISPERING_VNext.md).
+Fourth study in the [extension register](./CURRENT_STUDY_CATALOGUE.json), continuing the same [Human Escalation VNext](./HUMAN_ESCALATION_WHISPERING_VNext.md).
 ````
 
 **Texto después — propuesto**
@@ -89,9 +91,9 @@ What changes and why:Localized document edition/link clarity; native/theorem mea
 ````text
 | Study | Useful contribution in this composition | What this fourth study adds as a question |
 |---|---|---|
-| [STAMP/STPA](./STAMP_STPA_EXTENSION_v0.1_2026-10-06.md) | analyze unsafe control actions, causal assumptions and feedback | old executor acts after handover; deputy uses wrong principal/purpose; check/write and missing effect feedback scenarios |
-| [SPIFFE/SPIRE](./SPIFFE_SPIRE_EXTENSION_v0.1_2026-10-06.md) | authenticated workload origin and native assertion interpretation | identity versus applicable delegation; identity remains accepted while grant changes |
-| [RATS](./RATS_EXTENSION_v0.1_2026-10-06.md) | appraised evidence with declared scope/time/policy | an acceptable result is not the principal's grant or a resource-enforced execution fence |
+| [STAMP/STPA](./STAMP_STPA_EXTENSION.md) | analyze unsafe control actions, causal assumptions and feedback | old executor acts after handover; deputy uses wrong principal/purpose; check/write and missing effect feedback scenarios |
+| [SPIFFE/SPIRE](./SPIFFE_SPIRE_EXTENSION.md) | authenticated workload origin and native assertion interpretation | identity versus applicable delegation; identity remains accepted while grant changes |
+| [RATS](./RATS_EXTENSION.md) | appraised evidence with declared scope/time/policy | an acceptable result is not the principal's grant or a resource-enforced execution fence |
 ````
 
 **Texto después — propuesto**
@@ -113,7 +115,7 @@ What changes and why:Localized document edition/link clarity; native/theorem mea
 **Texto antes — viejo**
 
 ````text
-Prospective [Run Card](./fencing_deputy_run_card_v0.1_2026-10-06.json), [checker](./check_fencing_deputy_fixture_v0.1_2026-10-06.py), [result](./fencing_deputy_results_v0.1_2026-10-06.json).
+Prospective [Run Card](./dds-hew-v0.1/prior-analytical/fencing_deputy_run_card_v0.1_2026-10-06.json), [checker](./dds-hew-v0.1/prior-analytical/check_fencing_deputy_fixture_v0.1_2026-10-06.py), [result](./dds-hew-v0.1/prior-analytical/fencing_deputy_results_v0.1_2026-10-06.json).
 ````
 
 **Texto después — propuesto**

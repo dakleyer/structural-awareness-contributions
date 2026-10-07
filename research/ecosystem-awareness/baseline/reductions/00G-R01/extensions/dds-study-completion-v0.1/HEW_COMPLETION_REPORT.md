@@ -1,5 +1,7 @@
 # Human Escalation / Whispering — completed scoped DDS review
 
+**Technical audit — documentation0.5.** Resource and epoch are now checked by the independent-in-code effect grader. q means useful-source certificate coverage, not measured human resolution; analytical stipulated ACK and executed serial ACK are distinct. The [audit report](../TECHNICAL_AUDIT_2026-10-07.md) and [current repaired evidence](../extension-audit-v0.1/runs/2026-10-07-03/metrics/hew.json) supersede generic input/oracle robustness claims; original named-case outcomes, selected costs and Type diagnostics are reproduced unchanged. Known-defect controls are separate. The predecessor nine-case-family seal covers the selected cost ledger only; four repaired profiles additionally seal response/local committed-file state before grading.
+
 **Current reading — documentation0.4, 7 October2026.** The [current study record](../dds-hew-v0.1/CURRENT_STUDY_RECORD.json) governs navigation, Stage/coverage and the executed cost/type successor. Dated coverage sections below retain their original evidence date; their previously unscored diagnostics are superseded only by the linked prospective successor, not by regrading original results.
 
 <!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->
@@ -55,7 +57,7 @@ New preregistered checks answer material margin questions:
 |H-SOURCE-WORK3|I, work20|Two extra source-work units consume the nominal remaining work margin|
 |H-SOURCE-WORK4|Ø, observed work18, no effect|The projected successful path would cost21 against budget20; refusal occurs before that total is spent|
 
-These are four analytical and four local checks, not representative sampling or a new all-policy theorem. In particular, q=.90 is a stipulated conditional human-resolution parameter, not an observed90% human success rate; s=.95 is the composed analytical sufficient-delivery probability under that law.
+These are four analytical and four local checks, not representative sampling or a new all-policy theorem. In particular, q=.90 is the stipulated useful-source certificate coverage conditional onχ=1; correct human review on the applicable witness is a separate assumption, not an observed90% human success rate; s=.95 is the composed analytical sufficient-delivery probability under that law.
 
 The prior false-source diagnostic remains a genuine local P result despite successful identity/state/grant guards. Accurate, available evidence production is a material assumption. Current work charges and logical calendars are synthetic, not calibrated cost/service distributions.
 
@@ -77,3 +79,7 @@ M is not evaluated in this executed profile. An available minimum legitimate clo
 ## Cost and Type1 / Type2 successor — 7 October2026
 
 Documentation addition0.3. The [executed cost/type packet](../cost-type-diagnostics-v0.1/README.md) prospectively replays this profile's original-world outcomes with a finer selected actor/source/evaluator ledger, prior M-admission, minimum-work witnesses over frozen G and separate Type1/Type2 causal counts. It includes the current scoped SPIFFE accessible-G bound and conventional reference improvement. Original registered source results/thresholds remain unchanged; this successor does not establish global minimum, monetary calibration, population probabilities, real human accuracy, Stage B/C or independent validation. Per-case records retain exclusions and deliberate defect controls as a separate cohort.
+
+## Audited calendar interpretation
+
+The analytical review-only calendar stipulates a separate authorized owner ACK at tick2 and does not charge its service against the reviewer calendar: review can finish5, application6, delivery7. The executed SQLite companion reserves one ACK tick before the three-tick review, giving the nominal6/7/8 path. These are distinct registered configurations; the latter has no spare gate tick. Do not transfer the analytical calendar margin or q to measured human performance.

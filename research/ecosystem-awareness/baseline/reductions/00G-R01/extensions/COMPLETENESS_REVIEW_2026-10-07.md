@@ -1,5 +1,7 @@
 # DDS study completeness review — 7 October2026
 
+**Current technical audit — documentation0.5.** The [technical audit](./TECHNICAL_AUDIT_2026-10-07.md) identifies and repairs prototype input/oracle defects. All162 original named-case outcomes, selected costs and Type diagnostics reproduce unchanged;40 known-defect/positive controls remain separate. Current study records link the repaired successor. Previous completeness meant bounded documentary/research closure, not generic parser/oracle robustness or native product validation.
+
 Documentation0.2. All zero fractions retain their actual denominators; original case results are unchanged. Reviewed against the [single DDS Method Index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) and its Stage A/B/C contracts at source head `3ab9c56a6c2b3240341e32c6466da3f2cc09335d`.
 
 ## Decision

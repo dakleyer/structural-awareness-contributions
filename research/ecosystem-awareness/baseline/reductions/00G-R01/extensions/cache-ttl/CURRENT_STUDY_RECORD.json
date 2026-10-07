@@ -1,6 +1,6 @@
 {
   "schema": "DDS-CURRENT-STUDY-RECORD-0.1",
-  "documentation_revision": "0.2",
+  "documentation_revision": "0.5",
   "date": "2026-10-07",
   "canonical_method_index": "../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
   "stage": "A",
@@ -34,7 +34,8 @@
     "cases": 9,
     "separate_controls": 2,
     "native_named_product_or_human": false,
-    "independence": false
+    "independence": false,
+    "audited_successor": "../extension-audit-v0.1/runs/2026-10-07-03/cache-ttl/RESULTS.json"
   },
   "cost": {
     "selected_unit_sum": 57,
@@ -59,5 +60,13 @@
   "Stage_B_C": "NOT_ESTABLISHED",
   "delivery": "scoped research report/dossier complete; commissioned six-output delivery not implied",
   "source_bibliography": "EXTENSION.md",
-  "historical_records_rewritten": false
+  "historical_records_rewritten": false,
+  "audit": {
+    "status": "REPLAY_PRESERVED_AND_KNOWN_DEFECT_CONTROLS_PASSED",
+    "report": "../TECHNICAL_AUDIT_2026-10-07.md",
+    "current_repaired_evidence": "../extension-audit-v0.1/runs/2026-10-07-03/cache-ttl/RESULTS.json",
+    "successor_registration": "../extension-audit-v0.1/RUN_CARD.json",
+    "original_frozen_sources_results_changed": false,
+    "known_defect_controls_not_product_population_rates": true
+  }
 }

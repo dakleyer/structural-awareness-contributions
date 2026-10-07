@@ -1,5 +1,7 @@
 # DDS — Cache/TTL and current scoped reply
 
+**Technical audit — documentation0.5.** An empty response/source binding cannot establish I; current successor seals cost trace, response and committed local file separately. The [audit report](../TECHNICAL_AUDIT_2026-10-07.md) and [current repaired evidence](../extension-audit-v0.1/runs/2026-10-07-03/cache-ttl/RESULTS.json) supersede generic input/oracle robustness claims; original named-case outcomes, selected costs and Type diagnostics are reproduced unchanged. Known-defect controls are separate. The predecessor nine-case-family seal covers the selected cost ledger only; four repaired profiles additionally seal response/local committed-file state before grading.
+
 Documentation 0.2 · 7 October 2026 · complete within the declared local Stage-A question.
 
 ## Finding and decision

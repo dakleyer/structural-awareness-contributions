@@ -1,0 +1,249 @@
+{
+  "status": "PASS_KNOWN_DEFECT_REPAIR_CONTROLS",
+  "cases": 40,
+  "rows": [
+    {
+      "id": "schema-shape-0",
+      "expected": "Ø",
+      "actual": "Ø",
+      "pass": true
+    },
+    {
+      "id": "schema-shape-1",
+      "expected": "Ø",
+      "actual": "Ø",
+      "pass": true
+    },
+    {
+      "id": "schema-shape-2",
+      "expected": "Ø",
+      "actual": "Ø",
+      "pass": true
+    },
+    {
+      "id": "schema-shape-3",
+      "expected": "Ø",
+      "actual": "Ø",
+      "pass": true
+    },
+    {
+      "id": "schema-shape-4",
+      "expected": "Ø",
+      "actual": "Ø",
+      "pass": true
+    },
+    {
+      "id": "schema-shape-5",
+      "expected": "Ø",
+      "actual": "Ø",
+      "pass": true
+    },
+    {
+      "id": "mcp-shape-0",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "mcp-shape-1",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "mcp-shape-2",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "mcp-shape-3",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "mcp-shape-4",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "oauth-shape-0",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "oauth-shape-1",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "oauth-shape-2",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "oauth-shape-3",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "oauth-positive",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "oauth-signature-invalid-base64url",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "jws-nonfinite-0",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "jws-nonfinite-1",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "jws-nonfinite-2",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "jws-kid-shape",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "jws-positive",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "spiffe-token-type",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "spiffe-malformed-uri",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "rats-missing-result-measurement",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "queue-illegitimate-Q08",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "queue-illegitimate-Q09",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "queue-illegitimate-Q10",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "queue-wrong-effect-operation",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "schema-ghost-effect",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "cache-no-source-binding",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "observe-unauthorized-effect",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "observe-for-reset",
+      "expected": "UNRESOLVED",
+      "actual": "UNRESOLVED",
+      "pass": true
+    },
+    {
+      "id": "observe-for-future",
+      "expected": "UNRESOLVED",
+      "actual": "UNRESOLVED",
+      "pass": true
+    },
+    {
+      "id": "observe-for-gap",
+      "expected": "UNRESOLVED",
+      "actual": "UNRESOLVED",
+      "pass": true
+    },
+    {
+      "id": "workflow-wrong-operation",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "rag-answer-no-evidence",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "sql-effect-without-grant",
+      "expected": "P",
+      "actual": "P",
+      "pass": true
+    },
+    {
+      "id": "hew-effect-resource",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "hew-effect-epoch",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    }
+  ],
+  "known_defects_used_to_select_controls": true,
+  "independent_blind_or_population_validation": false,
+  "model_native_product_execution": false
+}

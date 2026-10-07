@@ -1,4 +1,6 @@
 > [!NOTE]
+
+**Routing audit0.2 — 7 October2026.** Public relocated targets now use the in-folder corpus route. References to excluded historical COMMON_HEW_CASE/source-intake records remain as their existing public references; their contents are not republished. Use the [current public model case](./dds-hew-v0.1/TECHNICAL_REPORT.md) and [current audit](./TECHNICAL_AUDIT_2026-10-07.md) for executable/current interpretation. This retained source review is not independent validation.
 > **Fuente de este expediente · verificación del 6 de octubre de 2026.** [Documento de referencia](SPIFFE_SPIRE_EXTENSION.md). Ésta es su única VNext; el original permanece en lectura. Las auditorías, propuestas y textos anteriores se conservan íntegros debajo. Este enlace no certifica cierre de revisión, adopción o resultados.
 
 # Owning VNext — SPIFFE_SPIRE_EXTENSION.md
@@ -48,7 +50,7 @@ Analytical extension v0.1 · 6 October 2026 · specification/configuration study
 SPIFFE source revision: f97c46dfd0ff0d4e412cce5c73846a9ca32a99a2.
 SPIRE reference realization: v1.15.3, documentation only; not installed or executed.
 Scope: X.509/JWT identity profiles and an illustrative Unix workload-attestation configuration. WIT/broker and broad platform conformance are not admitted by this study.
-[Shared case](./COMMON_HEW_CASE_v0.1_2026-10-06.md) · [current results](./analytical_fixture_results_v0.3_2026-10-06.json).
+[Shared case](./COMMON_HEW_CASE_v0.1_2026-10-06.md) · [current results](./dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.3_2026-10-06.json).
 ````
 
 **Texto después — propuesto**

@@ -1,5 +1,7 @@
 # DDS — MCP selected tool-call admission
 
+**Technical audit — documentation0.5.** Non-object request/params/meta and boolean IDs reject before effect; local error handling is still not full protocol/transport conformance. The [audit report](../TECHNICAL_AUDIT_2026-10-07.md) and [current repaired evidence](../extension-audit-v0.1/runs/2026-10-07-03/metrics/mcp-tool-calling.json) supersede generic input/oracle robustness claims; original named-case outcomes, selected costs and Type diagnostics are reproduced unchanged. Known-defect controls are separate. The predecessor nine-case-family seal covers the selected cost ledger only; four repaired profiles additionally seal response/local committed-file state before grading.
+
 **Current reading — documentation0.4, 7 October2026.** The [current study record](CURRENT_STUDY_RECORD.json) governs navigation, Stage/coverage and the executed cost/type successor. Dated coverage sections below retain their original evidence date; their previously unscored diagnostics are superseded only by the linked prospective successor, not by regrading original results.
 
 <!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->

@@ -1,0 +1,161 @@
+{
+  "schema": "DDS-EXTENSION-RUN-CARD-0.1",
+  "study": "DDS-MCP-TOOL-ADMISSION-20261006",
+  "version": "0.1",
+  "date": "2026-10-06",
+  "canonical_DDS": "../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md",
+  "canonical_source_commit": "409bfa9eff2b3e24e7350021db9e587861583de8",
+  "base": {
+    "id": "DECLARED-TOOL-AND-CURRENT-RESOURCE-0.1",
+    "scope": "own finite serialized JSON-RPC/selected-tool admission Challenge; no R01 kernel inheritance"
+  },
+  "technology": {
+    "id": "MCP selected tool-call profile",
+    "protocol_revision": "2026-07-28",
+    "configuration": "own JSON-RPC serialization/parser and scalar tool schema subset + fixture authority source + local SQLite resource enforcement",
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "parameters": {
+    "tenant": "tenant-a",
+    "tool": "set_tier",
+    "catalog_revision": 1,
+    "tier": "silver"
+  },
+  "stage1": {
+    "status": "performed within scope",
+    "relation": "selected protocol/object correspondence and finite local model; no full protocol/product/R01 isomorphism",
+    "transfer": "declared wire/trace meaning only"
+  },
+  "stage2": {
+    "status": "performed within scope",
+    "mechanisms": [
+      "protocol metadata and tool/argument validation",
+      "source/caller scope separate from self-report",
+      "current tool contract binding",
+      "resource-side current authorization",
+      "idempotent effect"
+    ],
+    "assumptions": [
+      "correct trusted tool/permission source",
+      "same useful contract at use",
+      "complete effect path enforcement"
+    ],
+    "custom_fields": "expected_revision is this tool's own argument, not a new MCP core field"
+  },
+  "outcomes": {
+    "I": "one admitted local SQLite tool effect",
+    "M": "not evaluated in this leaf",
+    "P": "unauthorized/wrong/duplicate material local effect",
+    "Ø": "no sufficient admitted tool result"
+  },
+  "acceptance": "two frozen assertions per case: actual local effect-derived outcome and effect count; instrument only",
+  "cost": "actual serialized JSON request bytes and operational SQL count; setup/network/native auth/tool provisioning/schema maintenance unscored",
+  "oracle": "separate post-effect SQLite query + driver retained mandate/current conditions; no expected labels passed to handler; same-process, not hostile-code isolation",
+  "sampling": "9 constructed selected boundary cases",
+  "sources": [
+    {
+      "id": "DB01",
+      "url": "https://www.sqlite.org/isolation.html",
+      "title": "SQLite isolation",
+      "access": "official selected semantics",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "MCP01",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+      "title": "MCP2026-07-28 tools",
+      "access": "selected tools/schema/input obligations",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "MCP02",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic",
+      "title": "MCP2026-07-28 basic protocol",
+      "access": "selected JSON-RPC/_meta fields; no full conformance",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    },
+    {
+      "id": "MCP03",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization",
+      "title": "MCP2026-07-28 authorization",
+      "access": "documentary authorization/purpose boundary",
+      "reviewed": "2026-10-06",
+      "type": "primary",
+      "independent_validation": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "MCP-01",
+      "narrative": "An admitted caller requests the declared write tool with valid typed arguments and current application authority.",
+      "kind": "nominal",
+      "expected": "I",
+      "effects": 1
+    },
+    {
+      "id": "MCP-02",
+      "narrative": "The request omits a required selected protocol metadata field.",
+      "kind": "missing-meta",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "MCP-03",
+      "narrative": "The caller invokes an unsupported JSON-RPC method.",
+      "kind": "unknown-method",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "MCP-04",
+      "narrative": "The tool arguments use a number where the selected schema requires a tenant string.",
+      "kind": "wrong-args",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "MCP-05",
+      "narrative": "The caller self-reports an admin-like clientInfo name but has no admitted resource grant.",
+      "kind": "self-reported-admin",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "MCP-06",
+      "narrative": "The caller relies on catalog revision1 after the selected tool contract changes to revision2.",
+      "kind": "catalog-change",
+      "expected": "Ø",
+      "effects": 0
+    },
+    {
+      "id": "MCP-07",
+      "narrative": "An authorized write tool advertises a readOnly hint. The local write still occurs under its actual contract; the hint does not enforce read-only behavior.",
+      "kind": "misleading-annotation",
+      "expected": "I",
+      "effects": 1
+    },
+    {
+      "id": "MCP-08",
+      "narrative": "The same admitted operation is submitted twice and the actual local resource must deduplicate it.",
+      "kind": "duplicate",
+      "expected": "I",
+      "effects": 1
+    },
+    {
+      "id": "MCP-09",
+      "narrative": "A local grant is revoked after initial admission and before the resource effect; resource-side current checking must refuse it.",
+      "kind": "grant-change",
+      "expected": "Ø",
+      "effects": 0
+    }
+  ],
+  "evidence_ceiling": "Actual JSON serialization/parsing and local SQLite digital effect with own selected MCP-related scalar profile. No official SDK, stdio/HTTP connection, OAuth transport, MCP Apps, complete JSON Schema or native server conformance."
+}
+

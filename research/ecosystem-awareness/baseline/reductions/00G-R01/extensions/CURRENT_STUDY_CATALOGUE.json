@@ -1,6 +1,6 @@
 {
   "schema": "DDS-CURRENT-CATALOGUE-0.1",
-  "version": "0.2",
+  "version": "0.3",
   "date": "2026-10-07",
   "one_canonical_method": "../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
   "studies": [
@@ -11,7 +11,8 @@
       "evidence_ceiling": "finite SQLite/analytical human-escalation companion; no actual human/native campaign",
       "cases": 21,
       "Type1": "0/11",
-      "Type2": "1/21"
+      "Type2": "1/21",
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/metrics/hew.json"
     },
     {
       "id": "stamp-stpa",
@@ -20,7 +21,8 @@
       "evidence_ceiling": "derived finite controller/plant; no deployed plant/expert method-completeness validation",
       "cases": 10,
       "Type1": "0/6",
-      "Type2": "0/10"
+      "Type2": "0/10",
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/metrics/stamp-stpa.json"
     },
     {
       "id": "spiffe-jwt",
@@ -29,7 +31,8 @@
       "evidence_ceiling": "actual RSA/JWS selected fixture/application; no native SPIRE/workload API",
       "cases": 25,
       "Type1": "0/4",
-      "Type2": "0/25"
+      "Type2": "0/25",
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/metrics/spiffe-jwt.json"
     },
     {
       "id": "rats-jws",
@@ -38,7 +41,8 @@
       "evidence_ceiling": "actual file hash/JWS plus local trust/application model; no TPM/EAT/native verifier product",
       "cases": 20,
       "Type1": "0/2",
-      "Type2": "0/20"
+      "Type2": "0/20",
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/metrics/rats-jws.json"
     },
     {
       "id": "rag",
@@ -47,7 +51,8 @@
       "evidence_ceiling": "actual SQLite FTS5; authored deterministic extraction/admission, generator not executed",
       "cases": 8,
       "Type1": "0/5",
-      "Type2": "1/8"
+      "Type2": "1/8",
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/metrics/rag.json"
     },
     {
       "id": "oauth-oidc",
@@ -56,7 +61,8 @@
       "evidence_ceiling": "actual RSA2048/RS256 + local SQLite selected-profile effect; native flow not executed",
       "cases": 11,
       "Type1": "0/3",
-      "Type2": "0/11"
+      "Type2": "0/11",
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/metrics/oauth-oidc.json"
     },
     {
       "id": "mcp-tool-calling",
@@ -65,7 +71,8 @@
       "evidence_ceiling": "actual serialized request parser/local SQLite effect; official SDK/transport/full conformance absent",
       "cases": 9,
       "Type1": "0/3",
-      "Type2": "0/9"
+      "Type2": "0/9",
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/metrics/mcp-tool-calling.json"
     },
     {
       "id": "sql-transactions-idempotency",
@@ -74,7 +81,8 @@
       "evidence_ceiling": "actual SQLite transactions/two connections/second local file; distributed products not executed",
       "cases": 9,
       "Type1": "0/4",
-      "Type2": "0/9"
+      "Type2": "0/9",
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/metrics/sql-transactions-idempotency.json"
     },
     {
       "id": "durable-workflows-retries",
@@ -83,7 +91,8 @@
       "evidence_ceiling": "actual SQLite persisted model/restart, same-contract M witness; Temporal native not executed",
       "cases": 9,
       "Type1": "1/5",
-      "Type2": "1/9"
+      "Type2": "1/9",
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/metrics/durable-workflows-retries.json"
     },
     {
       "id": "cache-ttl",
@@ -96,7 +105,8 @@
       "drive_mirror": {
         "id": "10DjX1mwtVW_9iRQ9qm7ZNra9Ho1WGRHLoePfRo4wJi0",
         "url": "https://docs.google.com/document/d/10DjX1mwtVW_9iRQ9qm7ZNra9Ho1WGRHLoePfRo4wJi0/edit"
-      }
+      },
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/cache-ttl/RESULTS.json"
     },
     {
       "id": "queues-ack-redelivery",
@@ -109,7 +119,8 @@
       "drive_mirror": {
         "id": "1T7PaE9GpCbv9p2x1NoWAgZNEW0EBwUKNtAvBueyQslM",
         "url": "https://docs.google.com/document/d/1T7PaE9GpCbv9p2x1NoWAgZNEW0EBwUKNtAvBueyQslM/edit"
-      }
+      },
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/queues-ack-redelivery/RESULTS.json"
     },
     {
       "id": "structured-output",
@@ -122,7 +133,8 @@
       "drive_mirror": {
         "id": "1Bz08kRd_myQA4QwsAgkXd5nHV4iKXUkO06ppYhfdzHU",
         "url": "https://docs.google.com/document/d/1Bz08kRd_myQA4QwsAgkXd5nHV4iKXUkO06ppYhfdzHU/edit"
-      }
+      },
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/structured-output/RESULTS.json"
     },
     {
       "id": "observability-response",
@@ -135,7 +147,8 @@
       "drive_mirror": {
         "id": "1bywe8MDOew9XBdKThbObzQJheNEt5fB-Kv3O5891r78",
         "url": "https://docs.google.com/document/d/1bywe8MDOew9XBdKThbObzQJheNEt5fB-Kv3O5891r78/edit"
-      }
+      },
+      "audit_successor": "extension-audit-v0.1/runs/2026-10-07-03/observability-response/RESULTS.json"
     }
   ],
   "supporting_records": [
@@ -167,5 +180,7 @@
   "prior_catalogue": "CATALOGUE_2026-10-06.json",
   "evidence_fractions_not_population_probabilities": true,
   "drive_current_review": "https://docs.google.com/document/d/14zmnJo84ej3t-46v3bbXadmuzVSFvF2OudVRxlcACEc/edit",
-  "reading_revision": "Expose all existing numerators/denominators, including zeros; no rescore"
+  "reading_revision": "Expose all existing numerators/denominators, including zeros; no rescore",
+  "technical_audit": "TECHNICAL_AUDIT_2026-10-07.md",
+  "audit_controls_separate": 40
 }

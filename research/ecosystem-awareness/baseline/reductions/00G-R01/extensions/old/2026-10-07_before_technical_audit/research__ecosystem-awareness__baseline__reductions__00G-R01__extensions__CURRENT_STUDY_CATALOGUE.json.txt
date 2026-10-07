@@ -1,0 +1,171 @@
+{
+  "schema": "DDS-CURRENT-CATALOGUE-0.1",
+  "version": "0.2",
+  "date": "2026-10-07",
+  "one_canonical_method": "../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+  "studies": [
+    {
+      "id": "hew",
+      "record": "dds-hew-v0.1/CURRENT_STUDY_RECORD.json",
+      "report": "dds-study-completion-v0.1/HEW_COMPLETION_REPORT.md",
+      "evidence_ceiling": "finite SQLite/analytical human-escalation companion; no actual human/native campaign",
+      "cases": 21,
+      "Type1": "0/11",
+      "Type2": "1/21"
+    },
+    {
+      "id": "stamp-stpa",
+      "record": "independent-dds-exercises-v0.1/stamp-stpa/CURRENT_STUDY_RECORD.json",
+      "report": "dds-study-completion-v0.1/STPA_COMPLETION_REPORT.md",
+      "evidence_ceiling": "derived finite controller/plant; no deployed plant/expert method-completeness validation",
+      "cases": 10,
+      "Type1": "0/6",
+      "Type2": "0/10"
+    },
+    {
+      "id": "spiffe-jwt",
+      "record": "independent-dds-exercises-v0.1/spiffe-jwt/CURRENT_STUDY_RECORD.json",
+      "report": "dds-study-completion-v0.1/SPIFFE_COMPLETION_REPORT.md",
+      "evidence_ceiling": "actual RSA/JWS selected fixture/application; no native SPIRE/workload API",
+      "cases": 25,
+      "Type1": "0/4",
+      "Type2": "0/25"
+    },
+    {
+      "id": "rats-jws",
+      "record": "independent-dds-exercises-v0.1/rats-jws/CURRENT_STUDY_RECORD.json",
+      "report": "dds-study-completion-v0.1/RATS_COMPLETION_REPORT.md",
+      "evidence_ceiling": "actual file hash/JWS plus local trust/application model; no TPM/EAT/native verifier product",
+      "cases": 20,
+      "Type1": "0/2",
+      "Type2": "0/20"
+    },
+    {
+      "id": "rag",
+      "record": "rag/CURRENT_STUDY_RECORD.json",
+      "report": "rag/DDS_STUDY.md",
+      "evidence_ceiling": "actual SQLite FTS5; authored deterministic extraction/admission, generator not executed",
+      "cases": 8,
+      "Type1": "0/5",
+      "Type2": "1/8"
+    },
+    {
+      "id": "oauth-oidc",
+      "record": "oauth-oidc/CURRENT_STUDY_RECORD.json",
+      "report": "oauth-oidc/DDS_STUDY.md",
+      "evidence_ceiling": "actual RSA2048/RS256 + local SQLite selected-profile effect; native flow not executed",
+      "cases": 11,
+      "Type1": "0/3",
+      "Type2": "0/11"
+    },
+    {
+      "id": "mcp-tool-calling",
+      "record": "mcp-tool-calling/CURRENT_STUDY_RECORD.json",
+      "report": "mcp-tool-calling/DDS_STUDY.md",
+      "evidence_ceiling": "actual serialized request parser/local SQLite effect; official SDK/transport/full conformance absent",
+      "cases": 9,
+      "Type1": "0/3",
+      "Type2": "0/9"
+    },
+    {
+      "id": "sql-transactions-idempotency",
+      "record": "sql-transactions-idempotency/CURRENT_STUDY_RECORD.json",
+      "report": "sql-transactions-idempotency/DDS_STUDY.md",
+      "evidence_ceiling": "actual SQLite transactions/two connections/second local file; distributed products not executed",
+      "cases": 9,
+      "Type1": "0/4",
+      "Type2": "0/9"
+    },
+    {
+      "id": "durable-workflows-retries",
+      "record": "durable-workflows-retries/CURRENT_STUDY_RECORD.json",
+      "report": "durable-workflows-retries/DDS_STUDY.md",
+      "evidence_ceiling": "actual SQLite persisted model/restart, same-contract M witness; Temporal native not executed",
+      "cases": 9,
+      "Type1": "1/5",
+      "Type2": "1/9"
+    },
+    {
+      "id": "cache-ttl",
+      "record": "cache-ttl/CURRENT_STUDY_RECORD.json",
+      "report": "cache-ttl/DDS_STUDY.md",
+      "evidence_ceiling": "actual SQLite-backed cache/origin/grant; fixed clock, no Redis/HTTP/Azure execution",
+      "cases": 9,
+      "Type1": "0/6",
+      "Type2": "1/9",
+      "drive_mirror": {
+        "id": "10DjX1mwtVW_9iRQ9qm7ZNra9Ho1WGRHLoePfRo4wJi0",
+        "url": "https://docs.google.com/document/d/10DjX1mwtVW_9iRQ9qm7ZNra9Ho1WGRHLoePfRo4wJi0/edit"
+      }
+    },
+    {
+      "id": "queues-ack-redelivery",
+      "record": "queues-ack-redelivery/CURRENT_STUDY_RECORD.json",
+      "report": "queues-ack-redelivery/DDS_STUDY.md",
+      "evidence_ceiling": "actual SQLite message/effect/receipt state with authored broker/channel/redelivery model; no RabbitMQ/AMQP product execution",
+      "cases": 11,
+      "Type1": "2/6",
+      "Type2": "2/11",
+      "drive_mirror": {
+        "id": "1T7PaE9GpCbv9p2x1NoWAgZNEW0EBwUKNtAvBueyQslM",
+        "url": "https://docs.google.com/document/d/1T7PaE9GpCbv9p2x1NoWAgZNEW0EBwUKNtAvBueyQslM/edit"
+      }
+    },
+    {
+      "id": "structured-output",
+      "record": "structured-output/CURRENT_STUDY_RECORD.json",
+      "report": "structured-output/DDS_STUDY.md",
+      "evidence_ceiling": "actual Pydantic2.13.5 strict selected BaseModel plus JSON duplicate-member pre-parser and SQLite receiving state; no LLM/API generation or full JSON-Schema conformance test",
+      "cases": 10,
+      "Type1": "0/3",
+      "Type2": "1/10",
+      "drive_mirror": {
+        "id": "1Bz08kRd_myQA4QwsAgkXd5nHV4iKXUkO06ppYhfdzHU",
+        "url": "https://docs.google.com/document/d/1Bz08kRd_myQA4QwsAgkXd5nHV4iKXUkO06ppYhfdzHU/edit"
+      }
+    },
+    {
+      "id": "observability-response",
+      "record": "observability-response/CURRENT_STUDY_RECORD.json",
+      "report": "observability-response/DDS_STUDY.md",
+      "evidence_ceiling": "actual SQLite sample/notification/target/disposition state with selected threshold/for/receipt rules; no OpenTelemetry/Prometheus/exporter/live service or real on-call human executed",
+      "cases": 10,
+      "Type1": "1/4",
+      "Type2": "1/10",
+      "drive_mirror": {
+        "id": "1bywe8MDOew9XBdKThbObzQJheNEt5fB-Kv3O5891r78",
+        "url": "https://docs.google.com/document/d/1bywe8MDOew9XBdKThbObzQJheNEt5fB-Kv3O5891r78/edit"
+      }
+    }
+  ],
+  "supporting_records": [
+    {
+      "id": "fencing-confused-deputy",
+      "state": "SUPPORTING_ANALYTICAL_LOCAL_HEW_MECHANISMS",
+      "record": "FENCING_CONFUSED_DEPUTY_EXTENSION.md",
+      "limit": "No separate independent/native DDS or new canonical human component; executed supporting model results remain in HEW"
+    },
+    {
+      "id": "hugging-face",
+      "state": "DESIGN_ONLY_NOT_EXECUTED",
+      "record": "hugging-face/DDS_STAGE_A_RUN_CARD_v0.1.json",
+      "limit": "Deterministic card/source design present; per-branch horizons/freezes and current-route execution still required. Historical proof checkers are not current DDS run results."
+    },
+    {
+      "id": "infoblox",
+      "state": "BOUNDED_ANALYTICAL_CORRESPONDENCE",
+      "record": "infoblox/README.md",
+      "limit": "Constructed reference/local witness and scoped technology mapping; product integration and historical causation not established"
+    },
+    {
+      "id": "family",
+      "state": "CONSTRUCTED_REFERENCE_FRAMEWORK",
+      "record": "family/README.md",
+      "limit": "Constructed H/L/W family/kernel; no third vendor technology or new native-product result"
+    }
+  ],
+  "prior_catalogue": "CATALOGUE_2026-10-06.json",
+  "evidence_fractions_not_population_probabilities": true,
+  "drive_current_review": "https://docs.google.com/document/d/14zmnJo84ej3t-46v3bbXadmuzVSFvF2OudVRxlcACEc/edit",
+  "reading_revision": "Expose all existing numerators/denominators, including zeros; no rescore"
+}

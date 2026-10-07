@@ -1,4 +1,6 @@
 > [!NOTE]
+
+**Routing audit0.2 — 7 October2026.** Public relocated targets now use the in-folder corpus route. References to excluded historical COMMON_HEW_CASE/source-intake records remain as their existing public references; their contents are not republished. Use the [current public model case](./dds-hew-v0.1/TECHNICAL_REPORT.md) and [current audit](./TECHNICAL_AUDIT_2026-10-07.md) for executable/current interpretation. This retained source review is not independent validation.
 > **Fuente de este expediente · verificación del 6 de octubre de 2026.** [Documento de referencia](RATS_EXTENSION.md). Ésta es su única VNext; el original permanece en lectura. Las auditorías, propuestas y textos anteriores se conservan íntegros debajo. Este enlace no certifica cierre de revisión, adopción o resultados.
 
 # Owning VNext — RATS_EXTENSION.md
@@ -48,7 +50,7 @@ Analytical extension v0.1 · 6 October 2026 · conceptual appraisal/consumption 
 Primary reference: RFC9334, January2023, Informational.
 Proposed profile name: RATS-HEW-SoftwareState-AP/v0.1, an internal semantic study profile, not an IETF profile or wire format.
 Evidence: primary architecture-clause review, scoped logical construction and exact analytical case checks. No trusted device, native verifier, attestation protocol or human campaign executed.
-[Shared case](./COMMON_HEW_CASE_v0.1_2026-10-06.md) · [Run Card](./run_card_v0.3_2026-10-06.json) · [results](./analytical_fixture_results_v0.3_2026-10-06.json).
+[Shared case](./COMMON_HEW_CASE_v0.1_2026-10-06.md) · [Run Card](./dds-hew-v0.1/prior-analytical/run_card_v0.3_2026-10-06.json) · [results](./dds-hew-v0.1/prior-analytical/analytical_fixture_results_v0.3_2026-10-06.json).
 ````
 
 **Texto después — propuesto**

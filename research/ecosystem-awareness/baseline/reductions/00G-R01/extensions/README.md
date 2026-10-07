@@ -1,5 +1,7 @@
 # DDS technology extensions — study home
 
+**Current technical audit — documentation0.5.** The [technical audit](./TECHNICAL_AUDIT_2026-10-07.md) identifies and repairs prototype input/oracle defects. All162 original named-case outcomes, selected costs and Type diagnostics reproduce unchanged;40 known-defect/positive controls remain separate. Current study records link the repaired successor. Previous completeness meant bounded documentary/research closure, not generic parser/oracle robustness or native product validation.
+
 **Current reading — documentation0.4, 7 October2026.** [Completeness review](./COMPLETENESS_REVIEW_2026-10-07.md) and the [current study catalogue](./CURRENT_STUDY_CATALOGUE.json) route thirteen executed scoped studies. Dated statements below retain their original batch scope; the four second-series studies now have their own prospective execution records.
 
 <!-- Cost/type documentation addition0.3 (2026-10-07); original science/evidence edition retained. -->

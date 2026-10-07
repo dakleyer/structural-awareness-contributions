@@ -1,6 +1,6 @@
 {
   "schema": "DDS-CURRENT-STUDY-RECORD-0.1",
-  "documentation_revision": "0.4",
+  "documentation_revision": "0.5",
   "date": "2026-10-07",
   "canonical_method_index": "../../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md",
   "stage": "A",
@@ -22,7 +22,7 @@
   "report": "DDS_STUDY.md",
   "original_registration": "RUN_CARD.json",
   "original_freeze": "FREEZE.json",
-  "current_diagnostics": "../cost-type-diagnostics-v0.1/runs/2026-10-07-03/oauth-oidc.json",
+  "current_diagnostics": "../extension-audit-v0.1/runs/2026-10-07-03/metrics/oauth-oidc.json",
   "prior_M_admission": "../cost-type-diagnostics-v0.1/runs/2026-10-07-03/M_ADMISSION_BEFORE_CANDIDATES.json",
   "cost_type_explanation": "COST_TYPE_DIAGNOSTICS_2026-10-07.md",
   "selected_operations": 11,
@@ -56,5 +56,13 @@
   "population_estimate": false,
   "independent_validation": false,
   "historical_crosswalks": "Dated 6 October coverage and original cards describe their original evidence; this record supplies current navigation/diagnostics without rewriting them",
-  "sole_human_component": null
+  "sole_human_component": null,
+  "audit": {
+    "status": "REPLAY_PRESERVED_AND_KNOWN_DEFECT_CONTROLS_PASSED",
+    "report": "../TECHNICAL_AUDIT_2026-10-07.md",
+    "current_repaired_evidence": "../extension-audit-v0.1/runs/2026-10-07-03/metrics/oauth-oidc.json",
+    "successor_registration": "../extension-audit-v0.1/RUN_CARD.json",
+    "original_frozen_sources_results_changed": false,
+    "known_defect_controls_not_product_population_rates": true
+  }
 }

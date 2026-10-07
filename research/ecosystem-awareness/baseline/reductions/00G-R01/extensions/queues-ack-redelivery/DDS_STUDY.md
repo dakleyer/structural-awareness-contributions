@@ -1,5 +1,7 @@
 # DDS — Queues, acknowledgement and application closure
 
+**Technical audit — documentation0.5.** The grader checks scope/expiry/current grant and effect/receipt operation binding; wrong completion is not accepted merely because row counts match. The [audit report](../TECHNICAL_AUDIT_2026-10-07.md) and [current repaired evidence](../extension-audit-v0.1/runs/2026-10-07-03/queues-ack-redelivery/RESULTS.json) supersede generic input/oracle robustness claims; original named-case outcomes, selected costs and Type diagnostics are reproduced unchanged. Known-defect controls are separate. The predecessor nine-case-family seal covers the selected cost ledger only; four repaired profiles additionally seal response/local committed-file state before grading.
+
 Documentation 0.2 · 7 October 2026 · complete within the declared local Stage-A question.
 
 ## Finding and decision
