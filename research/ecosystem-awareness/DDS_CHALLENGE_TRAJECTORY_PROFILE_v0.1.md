@@ -14,7 +14,7 @@ Review/navigation addition0.1: [sole owning VNext](./DDS_CHALLENGE_TRAJECTORY_PR
 **Date:** 7 October 2026.  
 **Scope:** technical/research definition of **DDS Gate A** and its full or simplified specification-discovery profiles. Commercial packaging, fees, contracting, sponsor recognition and private commissioning records are governed separately and do not redefine this technical method.
 
-> **Conservation rule.** This profile does not amend, strengthen or reinterpret frozen scenario traversals, R01 proofs, DBC results, 00D benchmark results or historical execution records. It supplies a common DDS vocabulary and coverage map so those artefacts can be described as fuller or simplified DDS implementation profiles without changing their original evidence.
+> **Conservation rule.** This profile does not amend, strengthen or reinterpret frozen scenario traversals, R01 proofs, DBC results, 00D benchmark results or historical execution records. It supplies the Gate-A challenge–trajectory vocabulary and coverage map so those artefacts can later be classified without changing their original evidence.
 
 ## Canonical identity — DDS Gate A
 
@@ -255,7 +255,7 @@ These terms are distinct. **DDS Gate A/B/C** is reserved for the three developme
 - **Trajectory gate** — a decision/validation boundary over a partial history.
 - **Traversal** — an analytical, virtual or executed passage through the configured route/gate model.
 - **Trace** — the recorded realized history of one traversal/execution.
-- **DDS implementation profile** — one concrete mapping of the DDS method to a Challenge + technology/configuration.
+- **DDS Gate-A implementation profile** — one concrete Gate-A mapping of the DDS method to a Challenge + candidate specification/mechanism/technology configuration.
 - **DDS battery / campaign** — a preregistered set of profiles/traversals/executions used to estimate or compare results.
 
 A trajectory gate need not correspond to one segment. It may cover one operation, a bundle of evidence, or thousands of candidate segments.
@@ -523,7 +523,7 @@ A review report should therefore use qualified names such as `DDS-M`, `R01-M`, `
 
 ## 10B. Reduced coverage, minimum traceability and delivery
 
-A Gate-A study need not instantiate the whole Gate-A chain or score every dimension. A bounded documentary, analytical or executed study may be complete **within its declared technical scope** while using only part of this one canonical profile.
+A Gate-A study need not instantiate the whole Gate-A chain or score every dimension. A bounded documentary, analytical or executed study may be complete **within its declared technical scope** while using only part of this canonical Gate-A profile.
 
 Its minimum traceability record identifies:
 
@@ -545,6 +545,8 @@ Current UC21 traversals can be traced to this profile without rerunning the enti
 **Technical coverage and delivery completion are separate.** A reduced technical scope can support a completely delivered engagement. It does not waive promised outputs. The accepted scope governs which outputs are due; each included output needs a responsible delivering owner, feasible dependencies and observable completion evidence. Prepared, reserved, planned, submitted, published and externally accepted are different states. Changes to promised outputs require explicit agreed re-scoping; commercial fees and recognition never alter technical Cost, evidence grades or acceptance.
 
 ## 11. Current profile mapping
+
+> **Three-gate migration note — 7 October 2026.** This pre-existing table is retained during the first, method-splitting step. Its corpus-wide Gate A/B/C reclassification is a separate second migration step. Until that migration is applied, this table must not be read as establishing Gate-B or Gate-C status for any listed artefact.
 
 The table below is a **classification aid**. It does not modify the cited artefacts or transfer evidence among them.
 
