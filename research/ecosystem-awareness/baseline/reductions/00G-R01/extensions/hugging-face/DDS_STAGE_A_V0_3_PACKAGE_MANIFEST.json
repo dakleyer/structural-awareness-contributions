@@ -1,0 +1,78 @@
+{
+  "schema": "dds-stage-a-hf-v0.3-package-manifest-v0.1",
+  "date": "2026-10-08",
+  "status": "FROZEN_FOR_NEXT_BLIND_AND_MUTATION_RUN__NO_RESULT_YET",
+  "current_stage_a_status": "COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING",
+  "files": {
+    "route_v0_3": {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_HISTORICAL_ROUTE_v0.3_PREREGISTERED.md",
+      "blob_sha": "607599c10a42497d1ca61741a282decb100298b4",
+      "creation_commit": "64979a00013b3e2ca2cb43cccf8522f71847534a"
+    },
+    "prereg_contract_v0_3": {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md",
+      "blob_sha": "89c227175a17338b09d50d513b01195975bff1ae",
+      "creation_commit": "f567ec464dbbfca6dd635daf153c1ba387faed92"
+    },
+    "source_freeze_v0_3_1": {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_SOURCE_FREEZE_ADDENDUM_v0.3.1.md",
+      "blob_sha": "1efd5f92dbc8957afe020fd18af916cf6cfe0127",
+      "creation_commit": "7d4e8ab30e0b9aa8c9340b5ac2aef9556cef860a"
+    },
+    "mutation_contract_v0_1": {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_MUTATION_TEST_CONTRACT_v0.1.json",
+      "blob_sha": "de603f7f52f06291971ec0c6bfcb5377a1b143a1",
+      "creation_commit": "e4d49a0a1c09c6d40dfc8c4397cb67f1f3dabeda"
+    },
+    "blind_packet_v0_2": {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.2_NEUTRAL.md",
+      "blob_sha": "950a8f69c17cd91cee27122d02405759a0fcf725",
+      "creation_commit": "1a39eca3136182ed2d44e56872aabd8bdde6c5f1"
+    },
+    "run_card_v0_3": {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json",
+      "blob_sha": "63128a9f5a3e12ee90619ade13c32b62dc9ed393",
+      "creation_commit": "9e79274a3d8f098032766f26559f389b5ca78a70"
+    },
+    "audit_input_3": {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/EXTERNAL_AUDIT_INPUT_3_2026-10-08.md",
+      "blob_sha": "e9c1e623d02f9a356da385833c062b14298955f3",
+      "creation_commit": "1a46f6acb6f2e8f2013efd955e1c027166cf6c3f"
+    },
+    "audit_response_3": {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/EXTERNAL_AUDIT_RESPONSE_3_2026-10-08.md",
+      "blob_sha": "02ca2178e7d05071f318c3465b2ed9d5fcbe66d1",
+      "creation_commit": "105f057caa6e822ab2ebfd5162df3c001d8e0ec9"
+    }
+  },
+  "specification_inputs": {
+    "requirements": {
+      "commit": "96cbc94921aa5f2f16463faaf4a2f165175383a0",
+      "blob_sha": "4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c"
+    },
+    "ownership_maturity_map": {
+      "commit": "a18bb0f32bed",
+      "blob_sha": "38d64f61ef81a300a20d9d89cda65e5bb6ba5b22"
+    }
+  },
+  "historical_source_blobs": {
+    "reconstruction": "56754a0a63a351448fdbd14dfd754816dc42bc43",
+    "matrix": "20db58f335227cbf9ff830aab7d33967a15629a3",
+    "packets": "a5c0c4ba7c499d92b89fc8748dec1a1e8c88ec22",
+    "evidence_register": "a7f5f234e091777864f578d54fb4e67e25d9cbde"
+  },
+  "preserved_exact_v0_1": {
+    "route": "df8733c3cdd8193a4c5aa88d9af8b03d208d06f9",
+    "run_card": "fcb2ae7cd0c40d44c7e57b7496ceb96e3ebcd296",
+    "adjudication": "9fb85288cc7b1cd0dfb9e6976d419ecb79bdc1d8",
+    "result": "9e36ccb609e8489a9d4c8ff120c7f052454ef6a1"
+  },
+  "amendment_rule": "Any change to case facts, verdict definitions, Q0–Q9, author predictions, mutant kill sets, specification input blobs or ownership/maturity interpretation requires a successor manifest/preregistration before a result is accepted.",
+  "execution_status": {
+    "blind_reader": false,
+    "mutation_test": false,
+    "stage_a_acceptance": false,
+    "stage_b": false,
+    "stage_c": false
+  }
+}
