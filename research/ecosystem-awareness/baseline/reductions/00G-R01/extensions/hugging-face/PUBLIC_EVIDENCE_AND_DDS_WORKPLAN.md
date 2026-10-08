@@ -14,13 +14,13 @@
 
 **Architecture plausibility walkthrough:** [ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md#14-architecture-plausibility-walkthrough--detecting-and-processing-the-hugging-face-regime-shift](./ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md#14-architecture-plausibility-walkthrough--detecting-and-processing-the-hugging-face-regime-shift)
 
-**Current Simplified DDS Stage A route:** [DDS_STAGE_A_HISTORICAL_ROUTE_v0.2_AUDIT_CORRECTED.md](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.2_AUDIT_CORRECTED.md) · [Run Card v0.2](./DDS_STAGE_A_RUN_CARD_v0.2_AUDIT_CORRECTED.json) · [freeze/version lineage](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md)
+**Current next-run DDS Stage A package:** [Route v0.3](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.3_PREREGISTERED.md) · [Preregistration Contract v0.3](./DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md) · [Source Freeze Addendum v0.3.1](./DDS_STAGE_A_SOURCE_FREEZE_ADDENDUM_v0.3.1.md) · [Mutation Test Contract](./DDS_STAGE_A_MUTATION_TEST_CONTRACT_v0.1.json) · [Neutral Blind Packet v0.2](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.2_NEUTRAL.md) · [Run Card v0.3](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json) · [freeze/version lineage](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md)
 
 **Pre-audit v0.1 snapshots:** [route](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md) · [Run Card](./DDS_STAGE_A_RUN_CARD_v0.1.json) · [adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) · [result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json). Exact blob lineage is recorded in [STAGE_A_FREEZE_AND_VERSION_LINEAGE.md](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md).
 
 **Current Stage A status after external audit:** [v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md) · [v0.2 result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json) · [blind second-reader packet](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.1.md). Current status: `COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`; v0.1 self-adjudication is preserved as historical audit record.
 
-**External-audit response:** [EXTERNAL_AUDIT_RESPONSE_2026-10-08.md](./EXTERNAL_AUDIT_RESPONSE_2026-10-08.md)
+**External-audit responses:** [Audits 1/2 response](./EXTERNAL_AUDIT_RESPONSE_2026-10-08.md) · [Audit 3 response](./EXTERNAL_AUDIT_RESPONSE_3_2026-10-08.md)
 
 **Freeze rule.** Before adjudication, preserve exact source versions, retrieval date, immutable copy where permitted, and SHA-256. A later correction or publication creates a successor evidence freeze; it does not silently alter an adjudicated campaign.
 
