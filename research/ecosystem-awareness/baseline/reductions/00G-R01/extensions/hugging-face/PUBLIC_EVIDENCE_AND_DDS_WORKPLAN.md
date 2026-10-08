@@ -16,6 +16,8 @@
 
 **Simplified DDS Stage A route:** [DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md)
 
+**EA requirement-level Stage A adjudication:** [DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) · [result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json)
+
 **Freeze rule.** Before adjudication, preserve exact source versions, retrieval date, immutable copy where permitted, and SHA-256. A later correction or publication creates a successor evidence freeze; it does not silently alter an adjudicated campaign.
 
 ---
@@ -198,6 +200,7 @@ The historical incident is reconstructed **before** R01 mapping. The context-cha
 - population-first A/B/C/D context-shift model;
 - CP0–CP6 population change-point candidates added to the machine-readable register.
 - Simplified DDS Stage A historical route designed: frozen Challenge, reduced I/M/P/Ø, HF-Q0–HF-Q9 trajectory gates, historical-vs-conforming route, BPMN-style flow, deterministic B1–B6 controls, 100% hard-gate quality plan, candidate HF-SA-S01–S12 package and falsifiers.
+- EA requirement-level specification adjudicated against the strengthened HF-N0…HF-N9 family under an autonomous-minimum profile; result: INSIDE_STAGE_A_ACCEPTANCE_WITHIN_THIS_DECLARED_SCOPE (documentary/symbolic). Architecture mechanisms, human rescue, signalling/EHD and enforcement receive no Stage A credit.
 - pre-Stage B architecture plausibility walkthrough completed: 00M/00N detection logic, Cartography→RA→Repositioning→Gradient→ACC/authority→F9 data flow, adverse-input case and requirements trace.
 
 **Still required before first result-producing run**
