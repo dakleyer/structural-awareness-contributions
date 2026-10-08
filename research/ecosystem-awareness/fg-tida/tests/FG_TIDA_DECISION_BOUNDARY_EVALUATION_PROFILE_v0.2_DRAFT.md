@@ -43,24 +43,34 @@ Minimum columns:
 ```text
 gate_id
 applicability
-verdict
+test_role
+own_verdict
 level
+required_min_level
 dependency_status
+effective_status
 candidate_surfaces
 case_ids
 blocker_root
 downstream_impacted
+unlock_candidates
 stage_a_remediation
 stage_b_handoff
 evidence_ceiling
 ```
 
-Permitted verdicts:
+Permitted own verdicts:
 
 - PASS
 - FAIL
 - NOT_ESTABLISHED
 - NOT_APPLICABLE
+
+Permitted test roles:
+
+- DISCRIMINATING
+- COVERAGE_CONTROL
+- BOUNDARY_CONTROL
 
 Permitted levels:
 
@@ -75,6 +85,8 @@ Dependency state:
 - SATISFIED
 - CONDITIONAL_ON(...)
 - BLOCKED_BY(...)
+
+Effective status is the claim-usable result after hard-prerequisite and minimum-level checks. It may be PASS / FAIL / NOT_ESTABLISHED / NOT_APPLICABLE / CONDITIONAL_ON(...) / BLOCKED_BY(...).
 
 An overall summary may follow, but it cannot replace the gate table.
 
@@ -108,160 +120,17 @@ A fixture may preregister NOT_APPLICABLE gates. It may not remove a difficult ga
 
 ## 4. Dependency-aware adjudication
 
-The evaluator scores the candidate's own text/behavioral contract first, then applies the frozen dependency graph.
+The evaluator first records the candidate's **own verdict** and specification-strength level, then applies the frozen dependency graph and the preregistered minimum level.
+
+A basic gate and a stronger multi-gate claim are not the same thing.
 
 Example:
 
 ```text
-SA-G03 identity root              NOT_ESTABLISHED @ L1
-SA-G04 authority applicability    own-text PASS @ L3
-dependency                        CONDITIONAL_ON(SA-G03)
-effective Stage A diagnostic      CONDITIONAL_ON(SA-G03)
+SA-G03 identity root                 NOT_ESTABLISHED @ L1
+SA-G04 authority applicability       own verdict PASS @ L3
+SA-G04 basic dependency              SATISFIED
+CLAIM-AUTHORITY-RESOLVED             CONDITIONAL_ON(SA-G03)
 ```
 
-This means the candidate has a strong authority-applicability rule but cannot support the full claim until identity/representation is independently rooted.
-
-The same root blocker may condition SA-G05 and SA-G09. The report must show that relationship rather than count three independent defects.
-
----
-
-
-### 4.2 Typed dependency rule
-
-The dependency graph distinguishes `requires`, `claim_requires` and `supports`. Only `requires` blocks basic gate adjudication. `claim_requires` is applied only when making the corresponding stronger multi-gate claim; `supports` is non-blocking. This prevents a missing auxiliary mechanism from turning an otherwise scoreable gate into a false failure.
-
-## 5. Automatic audit recommendations
-
-After adjudication, produce two recommendation classes.
-
-### 5.1 Stage A remediation
-
-Only specification/test changes count here, for example:
-
-- make owner/scope explicit;
-- distinguish message authentication from represented authority;
-- state action-time expiry/revocation semantics;
-- preserve UNKNOWN rather than defaulting;
-- add a positive continuity case;
-- define a falsifier/ablation for a gate.
-
-### 5.2 Stage B handoff
-
-Architecture recommendations are generated from the gate gap but do not increase the Stage A result.
-
-Examples:
-
-- bind identity/representation to an independently governed trust/delegation source;
-- add effect evidence outside the acting agent's self-report;
-- bind a disposition to an enforcement owner;
-- implement targeted hold/requalification instead of global stop;
-- expose the minimum trace needed to reconstruct the decision basis.
-
-The report must label these as **Stage B handoff**, never “Stage A fixed”.
-
----
-
-## 6. Minimum remediation cut set
-
-For a failed/conditional profile:
-
-1. identify earliest root blockers in the dependency DAG;
-2. compute which downstream gates each root blocks;
-3. rank the smallest remediation sets by unlock yield;
-4. show residual unresolved gates after each proposed set;
-5. separate specification-only work from architecture realization.
-
-Illustrative output:
-
-```text
-Priority 1: SA-G03 -> target L3
-Potentially unlocks: SA-G04, SA-G05, SA-G09
-Stage A change: specify independent identity/representation root
-Stage B realization: implement auditable trust/delegation binding
-
-Priority 2: SA-G06 -> target L3
-Potentially unlocks: SA-G07, SA-G11, SA-G12
-Stage A change: preserve unresolved state explicitly
-Stage B realization: implement state propagation/hold semantics
-```
-
-This is a diagnostic recommendation, not a guarantee that the resulting architecture will pass Stage B/C.
-
----
-
-## 7. Relationship to UC-6 / UC-4 and other FG-TIDA routes
-
-The v0.1 UC-6 → UC-4 route remains valid.
-
-v0.2 changes only the evaluation/reporting layer:
-
-- UC-6 or another source owns the facts and source-domain expected outcomes;
-- Theme contributors own their native semantics;
-- UC-4 or another testbed may host an executable profile;
-- the Stage A gate profile evaluates whether the composed candidate specification preserves the required distinctions;
-- Stage B later verifies whether the architecture realizes the selected gate requirements;
-- Stage C later validates pinned implementation behavior.
-
-The gate catalog is therefore reusable for UC-4, UC-6, UC-21, future Challenges and non-FG-TIDA frameworks without renaming their native outputs.
-
----
-
-## 8. Preregistration requirements
-
-Before result-producing adjudication, freeze:
-
-- gate-catalog version;
-- applicable gates;
-- local gates, if any;
-- minimum level required per applicable gate;
-- dependency graph changes, if any;
-- positive controls;
-- falsifiers;
-- boundary cases;
-- NOT_APPLICABLE declarations;
-- author predictions/ablations where used;
-- blind-reader packet;
-- disagreement rule;
-- acceptance wording.
-
-A gate introduced because a framework failed a case belongs only to a successor profile/version.
-
----
-
-## 9. Comparison rule
-
-Comparative reports use the same frozen gate profile across all arms.
-
-Do not report a single vendor/framework score. Publish:
-
-1. hard gate outcomes;
-2. PASS/FAIL/NOT_ESTABLISHED/N/A counts;
-3. level distribution;
-4. dependency/root-blocker graph;
-5. burden/accountability vectors;
-6. Stage-B handoff queue;
-7. evidence maturity (DBC-EL#) separately.
-
-A framework with more PASS gates is not automatically “better” if it fails a preregistered hard gate.
-
----
-
-## 10. Current evidence state
-
-This v0.2 file defines the successor evaluation design only.
-
-It does not assert that:
-
-- any FG-TIDA use case has been rerun with SA-G00…SA-G14;
-- Hugging Face validates the generic gate catalog;
-- UC-4/UC-6 contributors accepted this successor;
-- any framework passes or fails;
-- Stage A recommendations are implemented in architecture;
-- FG-TIDA adopted the profile.
-
-The next evidence step is to freeze at least three materially different validation families against the same gate-catalog version before promoting the catalog from draft.
-
-
-### 4.1 NOT_APPLICABLE prerequisites
-
-A preregistered `NOT_APPLICABLE` prerequisite does not automatically block a downstream gate. It counts as satisfied-by-profile only when the fixture explains why that mechanism is irrelevant and freezes the substitute fact required by the downstream decision. This is required for abstract/reduced fixtures where, for example, principal identity is a fixed evaluator fact rather than a property under test.
+This means the candidate has a strong authority-applicability rule. SA-G04 itself is not rewritten as a failure merely because the actor/role trust root is unresolved. The stronger authority-resolved claim remains conditional when the frozen claim contract requires SA-G03.
