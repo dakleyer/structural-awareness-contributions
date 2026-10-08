@@ -783,7 +783,7 @@ The current documentary coverage object is the canonical S/T requirement-level s
 
 ### What remains stronger evidence work inside Stage A
 
-- deterministic fixture execution of the strengthened HF-N0…HF-N10 family;
+- deterministic fixture execution of the strengthened HF-N0…HF-N10 family **under a prospectively frozen requirement-level scoring contract**;
 - independent adjudication / second-reader review;
 - exact visible-versus-evaluator-private branch cards;
 - stronger empirical or executable evidence where useful.
