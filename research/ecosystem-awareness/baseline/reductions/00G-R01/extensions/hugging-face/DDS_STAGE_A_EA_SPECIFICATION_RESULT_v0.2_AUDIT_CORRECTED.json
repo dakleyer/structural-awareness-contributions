@@ -1,0 +1,80 @@
+{
+  "schema": "dds-stage-a-ea-specification-audit-corrected-v0.2",
+  "date": "2026-10-08",
+  "status": "COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING",
+  "supersedes_current_status_of": "DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json",
+  "prior_record_preserved": true,
+  "evidence_mode": "DOCUMENTARY_SYMBOLIC_RETROSPECTIVE_COVERAGE",
+  "current_claim": "Selected EA requirements map to the declared HF negative variants and controls under externally supplied identity/authority truth; acceptance is pending prospectively frozen falsifiable scoring, deterministic execution where claimed, and independent/blind adjudication.",
+  "preregistration": {
+    "negative_family_hf_n0_n9_predated_requirement_adjudication": true,
+    "full_requirement_level_scoring_contract_predated_adjudication": false,
+    "chronology": [
+      {
+        "commit": "e0794209b9fda1b954599401a6a174ba6a725ce2",
+        "event": "initial deterministic Stage A Run Card/oracle design"
+      },
+      {
+        "commit": "37f87c1fbad84b07478d14e11b33b1ca3a89a16e",
+        "event": "HF-N0…HF-N9 anti-overfitting family added"
+      },
+      {
+        "commit": "4cb91a614bc7fdd07e2015f6c51d161d7309c2da",
+        "event": "requirement-level EA-SA-Q0…Q8 adjudication and verdicts created"
+      },
+      {
+        "commit": "f2cb8113b55f839c123e7eacaa243285cdfc4e0f",
+        "event": "architecture/specification ownership correction"
+      }
+    ]
+  },
+  "temporal_independence": {
+    "current_requirements_file_first_visible_commit_date": "2026-09-17",
+    "incident_date": "2026-07",
+    "major_public_reports_before_requirements_freeze": [
+      "Hugging Face disclosure 2026-07-16",
+      "OpenAI disclosure 2026-07-21",
+      "METR/OpenAI detailed reports 2026-08-26"
+    ],
+    "conclusion": "INDEPENDENCE_FROM_INCIDENT_NOT_ESTABLISHED",
+    "study_type": "RETROSPECTIVE_SPECIFICATION_COVERAGE"
+  },
+  "pending_counterexamples": [
+    "HF-CX1 valid mission authority but missing/conflicting third-party/resource-owner authority",
+    "HF-CX2 material change outside declared observation boundary",
+    "HF-CX3 authority valid at qualification but expired/revoked at action",
+    "HF-CX4 optional conscious out-of-scope collective-utility continuation without apparent-authority promotion"
+  ],
+  "pending_requirement_ablations": [
+    "S1",
+    "S3/S10",
+    "S5",
+    "S9",
+    "S11",
+    "S12/S13",
+    "S14",
+    "T4"
+  ],
+  "independent_review": {
+    "blind_second_reader_completed": false,
+    "packet_required": true,
+    "disagreements_must_be_preserved": true
+  },
+  "deterministic_execution": {
+    "required_if_100_percent_hard_gate_claim_retained": true,
+    "completed": false
+  },
+  "historical_audit_corrections": {
+    "metr_evidence_ceiling_expanded": true,
+    "cp4_denominator_corrected_to_533_active_board_agents": true,
+    "hf_worker_rce_timing_conflict_opened": true,
+    "motivation_disagreement_opened": true,
+    "phaseone10841_hf_credential_search_precursor_added": true,
+    "july12_mass_exit_external_process_hypothesis_added": true,
+    "mkcol_1601_phaseone_possible_join_kept_not_established": true
+  },
+  "stage_boundaries": {
+    "stage_B": "NOT_RUN__HF_ORACLE_INCOMPLETE_UNFROZEN",
+    "stage_C": "NOT_STARTED"
+  }
+}
