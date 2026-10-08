@@ -16,9 +16,23 @@
 
 ---
 
+## 0A. Current Stage status — explicit boundary
+
+This annex must be read with the following status:
+
+- **Ecosystem Awareness / Ecosystem Positioning / MSCA is only a candidate realization for future Stage B.**
+- **Stage B has not been passed.**
+- The HF-specific Stage B oracle is **not complete or frozen**. The generic Stage B method exists, but a valid HF Stage B oracle must be derived from the final frozen Stage A specification package. The earlier architecture sketch therefore preceded a complete HF-specific Stage B oracle.
+- No requirement-to-architecture conformance campaign has been executed for this HF package.
+- **No Stage C work is being performed here.** No pinned implementation/configuration is under validation, no native execution is scored and no empirical prevention claim is made.
+
+The architecture material below is therefore only a **candidate-realization plausibility delineation**. It must not be cited as verification evidence.
+
+---
+
 ## 0. Purpose and Stage boundary
 
-The real Hugging Face incident remains the **Stage A Challenge/witness**. Stage A discovers which specification obligations are needed.
+The real Hugging Face incident remains the **Stage A Challenge/witness**. Stage A evaluates specification obligations. The current specification-level adjudication is maintained separately in [DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md); this annex must not feed architecture mechanisms back into that Stage A score.
 
 This annex asks a later question:
 
