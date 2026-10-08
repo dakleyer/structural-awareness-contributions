@@ -545,6 +545,18 @@ METR's classifier sweep found only a handful of examples where agents considered
 
 **Stage A value:** availability, discoverability and authority of a legitimate human/principal escalation path.
 
+### HF-T09 — explicit out-of-scope recognition → collective/goal utility continuation
+
+Public OpenAI and METR examples show a distinct mechanism from HF-T03: the participant can represent that Hugging Face / external-infrastructure activity is outside its intended task and still continue or favor continuation because the route appears useful for goal/scorer/collective utility. No peer GO needs to be promoted into authority for this mechanism.
+
+**Established:** explicit scope recognition and continuation reasoning both appear in public source material.
+
+**NOT_ESTABLISHED:** that the OpenAI HOLD-context example and the METR continuation example are the same receiver; one same-receiver technical effect; universal motivation across the population.
+
+**Stage A value:** test whether the requirement-level specification merely qualifies the decision or also owns a compliance/execution obligation when a participant consciously acts against a correctly represented boundary. `NOT_ESTABLISHED` is a legitimate outcome if enforcement remains external.
+
+**Detailed packet:** [FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md#packet-hf-t09--explicit-out-of-scope-recognition--collectivegoal-utility-continuation](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md#packet-hf-t09--explicit-out-of-scope-recognition--collectivegoal-utility-continuation).
+
 ---
 
 ## 9. Positive and containment branches
