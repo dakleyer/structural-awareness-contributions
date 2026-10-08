@@ -346,3 +346,23 @@ This draft does not establish:
 - FG-TIDA, ITU-T, NIST or other standards-body adoption.
 
 **Current status:** draft diagnostic layer ready for audit and cross-framework validation; no framework result is created by this document alone.
+
+
+### 4.3 Prerequisite NOT_APPLICABLE rule
+
+A hard prerequisite marked `NOT_APPLICABLE` does **not** automatically block a downstream gate.
+
+It may be treated as dependency-satisfied only when the preregistered Challenge/profile states why the prerequisite mechanism is irrelevant **and** supplies the frozen fact/assumption that the downstream gate needs instead.
+
+Example: a mathematical reduction may freeze principal/mandate identity as an evaluator fact and contain no identity-resolution problem. In that profile, SA-G03 may be `NOT_APPLICABLE` while SA-G04 remains directly adjudicable. If the authority claim depends on resolving a real-world actor/key/role binding, SA-G03 is applicable and cannot be bypassed.
+
+Therefore dependency evaluation uses:
+
+```text
+PASS prerequisite -> satisfied
+NOT_APPLICABLE + preregistered substitute/frozen assumption -> satisfied-by-profile
+NOT_APPLICABLE without that justification -> BLOCKED_BY(prerequisite-profile-gap)
+FAIL / NOT_ESTABLISHED below threshold -> conditional or blocked as registered
+```
+
+This rule prevents the generic catalog from forcing implementation-specific identity or authority machinery into reductions where those facts are intentionally abstracted away.
