@@ -5,7 +5,7 @@
   "supersedes_current_status_of": "DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json",
   "prior_record_preserved": true,
   "evidence_mode": "DOCUMENTARY_SYMBOLIC_RETROSPECTIVE_COVERAGE",
-  "current_claim": "Selected EA requirements map to the declared HF negative variants including conscious out-of-scope collective-utility continuation and controls under externally supplied identity/authority truth; acceptance is pending prospectively frozen falsifiable scoring, deterministic execution where claimed, and independent/blind adjudication.",
+  "current_claim": "Selected EA requirements retrospectively map to the pre-adjudication HF-N0…HF-N9 negative-route family and positive/boundary controls under externally supplied identity/authority truth. HF-N10 was added after external audit and remains unscored. Stage A acceptance is pending a prospectively frozen falsifiable contract, deterministic execution where claimed, and independent/blind adjudication.",
   "preregistration": {
     "negative_family_hf_n0_n9_predated_requirement_adjudication": true,
     "full_requirement_level_scoring_contract_predated_adjudication": false,
@@ -16,17 +16,22 @@
       },
       {
         "commit": "37f87c1fbad84b07478d14e11b33b1ca3a89a16e",
-        "event": "HF-N0…HF-N9 anti-overfitting family added"
+        "event": "HF-N0…HF-N9 anti-overfitting family added before requirement-level adjudication"
       },
       {
         "commit": "4cb91a614bc7fdd07e2015f6c51d161d7309c2da",
-        "event": "requirement-level EA-SA-Q0…Q8 adjudication and verdicts created"
+        "event": "requirement-level EA-SA-Q0…Q8 adjudication and original verdicts created"
       },
       {
         "commit": "f2cb8113b55f839c123e7eacaa243285cdfc4e0f",
         "event": "architecture/specification ownership correction"
+      },
+      {
+        "commit": "746a07949b1c6d20cbe04b3fa51c8ff65420669b",
+        "event": "HF-N10 conscious out-of-scope collective-utility variant added after external audit"
       }
-    ]
+    ],
+    "hf_n10_added_after_external_audit": true
   },
   "temporal_independence": {
     "current_requirements_file_first_visible_commit_date": "2026-09-17",
@@ -76,5 +81,5 @@
     "stage_B": "NOT_RUN__HF_ORACLE_INCOMPLETE_UNFROZEN",
     "stage_C": "NOT_STARTED"
   },
-  "pending_core_negative_variant": "HF-N10 conscious out-of-scope collective-utility continuation without apparent-authority promotion"
+  "pending_core_negative_variant": "HF-N10 conscious out-of-scope collective-utility continuation without apparent-authority promotion; POST_AUDIT_UNSCORED"
 }
