@@ -16,6 +16,7 @@ After this pack was first published, external review identified material correct
 - [Stage A v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md)
 - [Stage A v0.2 current result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json)
 - [Blind second-reader packet](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.1.md)
+- [Freeze and Version Lineage](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md)
 
 **Current Stage A status is NOT the original v0.1 PASS.** It is:
 
@@ -72,8 +73,9 @@ Primary public sources used by the historical reconstruction:
 
 ## E. Stage A — Challenge, route family, oracle design and result
 
-17. [Stage A Historical Hugging Face Route v0.1](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md) — frozen Challenge, strengthened negative-route family, anti-overfitting design, HF-N0…HF-N10, trajectory gates and positive/boundary controls.
-18. [Stage A Run Card / evaluator-oracle design](./DDS_STAGE_A_RUN_CARD_v0.1.json) — machine-readable branches, expected dispositions, negative-family kernel and acceptance rule. **Design artifact; deterministic execution remains pending.**
+17. [Stage A Historical Hugging Face Route v0.2 — Audit-Corrected](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.2_AUDIT_CORRECTED.md) — current route/family document after audit; preserves the 7 October architecture-flavoured material explicitly as pre-Stage-B lineage.
+18. [Stage A Run Card v0.2 — Audit-Corrected](./DDS_STAGE_A_RUN_CARD_v0.2_AUDIT_CORRECTED.json) — current machine-readable successor; preserves the original architecture-flavoured gate/branch design as lineage and records the corrected preregistration chronology. Deterministic execution remains pending.
+18A. [Exact pre-audit v0.1 snapshots](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md) — route, Run Card, adjudication and result restored to the exact blobs present at commit `420d1b84...`.
 19. [Canonical EA Requirements S1–S14 / T1–T4](../../../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) — authoritative frozen requirement source used by the Stage A adjudication.
 20. [EA FG-TIDA Specification Preparation v0.3 Draft](../../../../../fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) — specification-level projection and ownership classification. The Stage A adjudication pins the pre-hardening blob identified in the adjudication file; later escalation hardening is explicitly not retroactive Stage A credit.
 21. [EA Requirement-Level Stage A Adjudication v0.1](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) — preserved original self-adjudication record; superseded for current claim wording by the audit-corrected v0.2 document linked above.
