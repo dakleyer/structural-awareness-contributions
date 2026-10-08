@@ -8,7 +8,7 @@
 
 **External audit response:** [EXTERNAL_AUDIT_RESPONSE_2026-10-08.md](./EXTERNAL_AUDIT_RESPONSE_2026-10-08.md).
 
-**Challenge / negative family:** [DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md) · [Run Card v0.1](./DDS_STAGE_A_RUN_CARD_v0.1.json).
+**Pre-adjudication Challenge / negative-family snapshot used by the original v0.1 coverage exercise:** [Route v0.1](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md) · [Run Card v0.1](./DDS_STAGE_A_RUN_CARD_v0.1.json). **Current audit-corrected successors:** [Route v0.2](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.2_AUDIT_CORRECTED.md) · [Run Card v0.2](./DDS_STAGE_A_RUN_CARD_v0.2_AUDIT_CORRECTED.json).
 
 **Requirements source:** [00 Canonical Requirements](../../../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md), frozen source blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`.
 
