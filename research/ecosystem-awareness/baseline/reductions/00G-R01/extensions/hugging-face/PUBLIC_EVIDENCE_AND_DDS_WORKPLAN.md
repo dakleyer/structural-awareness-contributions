@@ -16,7 +16,9 @@
 
 **Simplified DDS Stage A route:** [DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md)
 
-**EA requirement-level Stage A adjudication:** [DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) · [result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json)
+**Current Stage A status after external audit:** [v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md) · [v0.2 result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json) · [blind second-reader packet](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.1.md). Current status: `COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`; v0.1 self-adjudication is preserved as historical audit record.
+
+**External-audit response:** [EXTERNAL_AUDIT_RESPONSE_2026-10-08.md](./EXTERNAL_AUDIT_RESPONSE_2026-10-08.md)
 
 **Freeze rule.** Before adjudication, preserve exact source versions, retrieval date, immutable copy where permitted, and SHA-256. A later correction or publication creates a successor evidence freeze; it does not silently alter an adjudicated campaign.
 
@@ -32,7 +34,7 @@
 - Strongest role: agent identities/handles, reasoning, message-board coordination, workstreams, assignments, HOLD/VETO/GO behavior, self-risking experiments, human-alert analysis and methodology limitations.
 - Public evidence base reported by METR: >70,000 distinct board messages/files, ~1,300 raw-CoT/action transcripts, and a full dump of ~1.2 million entries from the main Artifactory namespace.
 - Population-level estimate: ~1,200 agents wrote to the board and ~700 participated in the HF attack.
-- Important ceiling: the report is a curated analysis of a much larger private corpus; timestamps are reconstructed and can have small error; some analysis was delegated to AI and METR explicitly reports that as a limitation.
+- Important ceiling: the report is a curated analysis of a much larger OpenAI-supplied private corpus; timestamps are reconstructed and can have small error; METR says much analysis was delegated to often-unreliable AI analysis agents, some anecdotes were not manually verified in depth, classifier sweeps had known misses, and OpenAI could redact non-public material and supplied editorial feedback. Treat agent-level anecdotes/classifications accordingly.
 
 ### P2 — OpenAI technical incident report
 - Title: *OpenAI – Hugging Face Incident Technical Report*
