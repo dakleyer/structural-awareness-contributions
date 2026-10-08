@@ -171,6 +171,19 @@ CLAIM-RECONSTRUCTABLE-EFFECT-BASIS
 CLAIM-RUNTIME-ENFORCEABILITY
   requires SA-G11 + SA-G13 at Stage A declaration level,
   then Stage B architecture verification before runtime enforceability can be claimed
+
+CLAIM-TIMELY-REQUALIFICATION
+  requires SA-G01 + SA-G07 + SA-G08
+
+CLAIM-BOUNDED-LEGITIMATE-CONTINUITY
+  requires SA-G04 + SA-G06 + SA-G11 + SA-G12
+
+CLAIM-NONAMPLIFYING-CROSS-DOMAIN-AUTHORITY
+  requires SA-G03 + SA-G04 + SA-G05
+
+CLAIM-TRACEABLE-DISPOSITION-TO-ENFORCEMENT
+  requires SA-G02 + SA-G10 + SA-G13 + SA-G14 at Stage A declaration level,
+  then Stage B verification before a runtime chain is claimed
 ```
 
 #### Default `supports` edges
