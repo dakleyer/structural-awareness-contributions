@@ -18,7 +18,7 @@
 
 The strongest supported Stage A statement is now:
 
-> **Stage A retrospective coverage finding:** the selected canonical EA requirements contain clauses that map to the declared HF-N0…HF-N10 negative-route variants and positive/boundary controls under an externally supplied identity/authority truth model. This is documentary/symbolic coverage. It is **not yet an accepted Stage A execution result** because the requirement-level scoring contract was not prospectively frozen before the v0.1 adjudication, the deterministic branch contract remains unexecuted, and no operationally blind independent adjudication has been completed.
+> **Stage A retrospective coverage finding:** the selected canonical EA requirements contain clauses that map to the **pre-adjudication HF-N0…HF-N9** negative-route family and positive/boundary controls under an externally supplied identity/authority truth model. This is documentary/symbolic coverage. **HF-N10 was added only after the external audit and remains UNSCORED pending the blind/falsifiable rerun.** This is **not yet an accepted Stage A execution result** because the requirement-level scoring contract was not prospectively frozen before the v0.1 adjudication, the deterministic branch contract remains unexecuted, and no operationally blind independent adjudication has been completed.
 
 Machine status:
 
@@ -30,16 +30,17 @@ Machine status:
 
 ### 2.1 Object/scoring-contract shift
 
-The original Run Card (7 October) named an architecture-flavored object and HF-Q0…Q9. On 8 October the negative family HF-N0…HF-N10 was strengthened before the requirement-level adjudication, but the **EA-SA-Q0…Q8 gates and their requirement-level acceptance rule were introduced in the adjudication itself**.
+The original Run Card (7 October) named an architecture-flavored object and HF-Q0…Q9. On 8 October the negative family **HF-N0…HF-N9** was strengthened before the requirement-level adjudication, but the **EA-SA-Q0…Q8 gates and their requirement-level acceptance rule were introduced in the adjudication itself**. **HF-N10 was added only after the external audit** and therefore was not part of the v0.1 adjudication.
 
 Chronology:
 
 - `e0794209…` — deterministic Run Card/oracle design;
-- `37f87c1f…` — HF-N0…HF-N10 anti-overfitting family added;
+- `37f87c1f…` — HF-N0…HF-N9 anti-overfitting family added before adjudication;
 - `4cb91a61…` — requirement-level EA adjudication plus EA-SA-Q0…Q8 created;
-- `f2cb8113…` — architecture/specification ownership corrected.
+- `f2cb8113…` — architecture/specification ownership corrected;
+- `746a0794…` — HF-N10 conscious out-of-scope collective-utility variant added **after external audit**.
 
-The negative family was frozen before adjudication, but the complete requirement-level scoring contract was not.
+HF-N0…HF-N9 were frozen before adjudication, but the complete requirement-level scoring contract was not. HF-N10 is a post-audit extension and remains pending adjudication.
 
 ### 2.2 Documentary coverage is not the declared deterministic 100% execution
 
@@ -176,7 +177,7 @@ The original adjudication was too close to restating requirement text. A stronge
 | remove **S3/S10** material-change requalification | capability/population shift can remain under stale frame | HF-N5/HF-N6 loses required requalification semantics |
 | remove **S5** UNKNOWN preservation | unresolved authority/context can collapse to permission or blanket veto | HF-N6 / indeterminate control should fail |
 | remove **S9** composition/non-substitution | repeated/population evidence may be counted as independent/authoritative | HF-N3/HF-N6 should fail or become under-specified |
-| remove **S11** cross-domain objective/policy integrity | technical/scorer utility can silently replace original hard boundary | HF-CX4 / historical conscious-out-of-scope route loses protection |
+| remove **S11** cross-domain objective/policy integrity | technical/scorer utility can silently replace original hard boundary | HF-N10 / historical conscious-out-of-scope route loses protection |
 | remove **S12/S13** history separation | already-effective behavior can rewrite prior legitimacy | HF-N7 should fail |
 | remove **S14** evidence-to-decision assessment | no explicit rule connecting evidence sufficiency to decision consequence | multiple branches become under-specified |
 | remove **T4** finite useful horizon | indefinite review can masquerade as safety | timeout/indeterminate branches become unbounded |
@@ -190,7 +191,7 @@ These ablations must be frozen before result-producing adjudication.
 A new reviewer should receive, before seeing v0.1/v0.2 verdicts:
 
 1. frozen canonical requirements source/hash;
-2. the HF-N0…HF-N10 branch definitions;
+2. the HF-N0…HF-N10 branch definitions, with HF-N10 explicitly marked as post-audit and previously unscored;
 3. positive/no-change/UNKNOWN controls;
 4. HF-CX1…CX3 (and optional CX4);
 5. decision-scope and evaluator-private facts;
