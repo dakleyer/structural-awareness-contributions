@@ -1,6 +1,6 @@
 # DDS Stage A — Historical Hugging Face 2026 Specification-Discovery Route v0.1
 
-**Status:** Simplified DDS Stage A historical/control route · strengthened negative-family design · **EA requirement-level Stage A adjudication completed separately within declared documentary/symbolic scope** · deterministic fixture execution still pending · not Stage B architecture verification · not Stage C implementation validation.
+**Status:** Simplified DDS Stage A historical/control route · strengthened negative-family design · **requirement-level retrospective coverage argument completed, Stage A acceptance pending after external audit** · deterministic fixture execution and independent/blind adjudication pending · not Stage B architecture verification · not Stage C implementation validation.
 
 **Date:** 7 October 2026.
 
