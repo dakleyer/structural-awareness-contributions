@@ -31,15 +31,15 @@ The current result is therefore downgraded from `INSIDE_STAGE_A_ACCEPTANCE_WITHI
 Accepted with chronology precision.
 
 - deterministic Run Card created: commit `e0794209…`, 2026-10-07 13:41 UTC;
-- strengthened negative family HF-N0…HF-N9 added: commit `37f87c1f…`, 2026-10-08 06:05 UTC;
+- strengthened negative family HF-N0…HF-N10 added: commit `37f87c1f…`, 2026-10-08 06:05 UTC;
 - requirement-level adjudication created: commit `4cb91a61…`, 2026-10-08 06:39 UTC;
 - architecture/specification ownership correction: commit `f2cb8113…`, 2026-10-08 06:41 UTC.
 
-Thus HF-N0…HF-N9 predate the requirement adjudication, but the **EA-SA-Q0…Q8 scoring gates and the lighter requirement-level acceptance rule were introduced inside the adjudication document itself**. That is insufficient for a strong preregistered Stage A acceptance claim.
+Thus HF-N0…HF-N10 predate the requirement adjudication, but the **EA-SA-Q0…Q8 scoring gates and the lighter requirement-level acceptance rule were introduced inside the adjudication document itself**. That is insufficient for a strong preregistered Stage A acceptance claim.
 
 ### A3 — negative variants are partly redundant at requirement level
 
-Accepted. HF-N0…HF-N9 are valuable anti-overfitting controls for an implementation/detector, but several collapse to the same requirement-level non-substitution rule once architecture is removed. Future Stage A work must include semantic ablations and counterexamples that can actually distinguish requirement gaps.
+Accepted. HF-N0…HF-N10 are valuable anti-overfitting controls for an implementation/detector, but several collapse to the same requirement-level non-substitution rule once architecture is removed. Future Stage A work must include semantic ablations and counterexamples that can actually distinguish requirement gaps.
 
 ### A4 — oracle supplies material authority facts
 
