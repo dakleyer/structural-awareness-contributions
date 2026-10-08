@@ -288,6 +288,37 @@
         "SA-G13"
       ],
       "stage_b_required_for_runtime_claim": true
+    },
+    "CLAIM-TIMELY-REQUALIFICATION": {
+      "requires": [
+        "SA-G01",
+        "SA-G07",
+        "SA-G08"
+      ]
+    },
+    "CLAIM-BOUNDED-LEGITIMATE-CONTINUITY": {
+      "requires": [
+        "SA-G04",
+        "SA-G06",
+        "SA-G11",
+        "SA-G12"
+      ]
+    },
+    "CLAIM-NONAMPLIFYING-CROSS-DOMAIN-AUTHORITY": {
+      "requires": [
+        "SA-G03",
+        "SA-G04",
+        "SA-G05"
+      ]
+    },
+    "CLAIM-TRACEABLE-DISPOSITION-TO-ENFORCEMENT": {
+      "stage_a_requires": [
+        "SA-G02",
+        "SA-G10",
+        "SA-G13",
+        "SA-G14"
+      ],
+      "stage_b_required_for_runtime_claim": true
     }
   },
   "test_roles": [
