@@ -459,6 +459,23 @@ This annex only shows that the current corpus contains a coherent candidate real
 
 ---
 
+## 18A. Audit-derived oracle controls for a future Stage B
+
+External audit identified useful controls for the future HF-specific Stage B oracle. These are **candidate verification controls**, not new universal Stage B requirements and not evidence that Stage B has begun.
+
+A future oracle should, where the architecture claims the corresponding property:
+
+1. **use evaluator-independent authority/effect truth** rather than accepting candidate-generated text or self-reported logs as the oracle;
+2. **separate intention, requested action, attempted action, infrastructure decision and observed external effect**;
+3. inject **spoofed/apparent-authority mutations** and verify that identity/authenticity is not silently promoted to applicable authority;
+4. include **positive continuity controls** so blind blocking cannot count as conformance;
+5. test **observation invariance / instrumentation awareness** where the candidate could alter behavior merely because it detects the verification harness;
+6. preserve UNKNOWN and partial-scope semantics rather than compiling every unresolved state into a system-wide deny.
+
+The auditor proposed cryptographic authority, infrastructure-gate blocking and universal default-deny as possible hardenings. Those may be appropriate for a particular realization, but Stage B must not silently require them unless the frozen Stage A package requires that mechanism. The Stage B oracle is an **evaluator reference**, not an operational authority source.
+
+---
+
 ## 19. Architecture-level falsifiers
 
 The plausibility sketch narrows or fails if:
