@@ -10,7 +10,10 @@
 
 ## 0. External-audit correction — 8 October 2026
 
-After this pack was first published, external review identified material corrections. **Read these before the original audit order:**
+After this pack was first published, external review identified material corrections. The original auditor wording is now preserved separately so that the response can be checked against the critique rather than against an author summary. **Read these before the original audit order:**
+
+- [External Audit Input 1 — preserved wording](./EXTERNAL_AUDIT_INPUT_1_2026-10-08.md)
+- [External Audit Input 2 — preserved wording](./EXTERNAL_AUDIT_INPUT_2_2026-10-08.md)
 
 - [External Audit Response 2026-10-08](./EXTERNAL_AUDIT_RESPONSE_2026-10-08.md)
 - [Stage A v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md)
