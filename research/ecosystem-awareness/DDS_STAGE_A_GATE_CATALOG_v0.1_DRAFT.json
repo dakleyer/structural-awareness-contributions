@@ -25,112 +25,129 @@
     {
       "id": "SA-G00",
       "name": "decision boundary and scope",
-      "requires_all": []
+      "requires_all": [],
+      "supports": []
     },
     {
       "id": "SA-G01",
       "name": "observation boundary and freshness",
-      "requires_all": []
+      "requires_all": [],
+      "supports": [
+        "SA-G07",
+        "SA-G08"
+      ]
     },
     {
       "id": "SA-G02",
       "name": "evidence provenance and effect basis",
-      "requires_all": []
+      "requires_all": [],
+      "supports": [
+        "SA-G10",
+        "SA-G14"
+      ]
     },
     {
       "id": "SA-G03",
       "name": "identity and representation root",
-      "requires_all": []
+      "requires_all": [],
+      "supports": [
+        "SA-G04"
+      ]
     },
     {
       "id": "SA-G04",
       "name": "authority applicability and currentness",
       "requires_all": [
-        "SA-G00",
-        "SA-G03"
+        "SA-G00"
+      ],
+      "supports": [
+        "SA-G05",
+        "SA-G09"
       ]
     },
     {
       "id": "SA-G05",
       "name": "domain/principal non-substitution",
       "requires_all": [
-        "SA-G00",
-        "SA-G04"
-      ]
+        "SA-G00"
+      ],
+      "supports": []
     },
     {
       "id": "SA-G06",
       "name": "indeterminacy preservation",
-      "requires_all": []
+      "requires_all": [],
+      "supports": [
+        "SA-G07",
+        "SA-G11",
+        "SA-G12"
+      ]
     },
     {
       "id": "SA-G07",
       "name": "material-change requalification",
       "requires_all": [
-        "SA-G00",
-        "SA-G01",
-        "SA-G06"
-      ]
+        "SA-G00"
+      ],
+      "supports": []
     },
     {
       "id": "SA-G08",
       "name": "time/default/expiry discipline",
       "requires_all": [
-        "SA-G00",
-        "SA-G01",
-        "SA-G04"
-      ]
+        "SA-G00"
+      ],
+      "supports": []
     },
     {
       "id": "SA-G09",
       "name": "objective/mandate integrity",
       "requires_all": [
-        "SA-G00",
-        "SA-G04",
-        "SA-G05"
-      ]
+        "SA-G00"
+      ],
+      "supports": []
     },
     {
       "id": "SA-G10",
       "name": "history and non-retroactive legitimation",
       "requires_all": [
-        "SA-G00",
-        "SA-G02"
-      ]
+        "SA-G00"
+      ],
+      "supports": []
     },
     {
       "id": "SA-G11",
       "name": "bounded disposition / least affected scope",
       "requires_all": [
-        "SA-G00",
-        "SA-G06",
-        "SA-G07"
+        "SA-G00"
+      ],
+      "supports": [
+        "SA-G13"
       ]
     },
     {
       "id": "SA-G12",
       "name": "positive continuity / no deny-all",
       "requires_all": [
-        "SA-G00",
-        "SA-G04",
-        "SA-G06"
-      ]
+        "SA-G00"
+      ],
+      "supports": []
     },
     {
       "id": "SA-G13",
       "name": "execution/compliance ownership declaration",
       "requires_all": [
-        "SA-G00",
-        "SA-G11"
-      ]
+        "SA-G00"
+      ],
+      "supports": []
     },
     {
       "id": "SA-G14",
       "name": "decision-basis reconstructability",
       "requires_all": [
-        "SA-G00",
-        "SA-G02"
-      ]
+        "SA-G00"
+      ],
+      "supports": []
     }
   ],
   "output_record": {
@@ -152,11 +169,68 @@
     ]
   },
   "recommendation_algorithm": {
-    "root_cause": "walk upstream over hard prerequisites to earliest FAIL/NOT_ESTABLISHED/L0-L1 blockers",
+    "root_cause": "walk upstream over requires edges; include claim_requires only for the selected named claim; stop at earliest FAIL/NOT_ESTABLISHED/L0-L1 blockers",
     "remediation_cut_set": "rank smallest root-blocker sets by number of conditional/blocked downstream gates potentially unlocked, without crediting Stage B realization as Stage A evidence"
   },
   "prerequisite_na_policy": {
     "rule": "NOT_APPLICABLE prerequisite may satisfy a dependency only when the preregistered profile explains why it is irrelevant and supplies the frozen substitute fact/assumption required by the downstream gate.",
     "otherwise": "BLOCKED_BY_PREREQUISITE_PROFILE_GAP"
+  },
+  "dependency_types": {
+    "requires": "logical prerequisite for basic gate adjudication",
+    "claim_requires": "prerequisite only for a stronger named multi-gate claim",
+    "supports": "non-blocking relation that improves or operationalizes another gate"
+  },
+  "named_claims": {
+    "CLAIM-AUTHORITY-RESOLVED": {
+      "requires": [
+        "SA-G04"
+      ],
+      "conditional_requires": [
+        {
+          "gate": "SA-G03",
+          "when": "identity/representation is not frozen as an evaluator fact"
+        }
+      ]
+    },
+    "CLAIM-MATERIAL-CHANGE-DETECTED-AND-REQUALIFIED": {
+      "requires": [
+        "SA-G01",
+        "SA-G07"
+      ]
+    },
+    "CLAIM-UNRESOLVED-STATE-BOUNDED": {
+      "requires": [
+        "SA-G06",
+        "SA-G11"
+      ]
+    },
+    "CLAIM-MANDATE-INTEGRITY-ACROSS-DOMAINS": {
+      "requires": [
+        "SA-G04",
+        "SA-G05",
+        "SA-G09"
+      ]
+    },
+    "CLAIM-VALID-CONTINUITY": {
+      "requires": [
+        "SA-G04",
+        "SA-G06",
+        "SA-G12"
+      ]
+    },
+    "CLAIM-RECONSTRUCTABLE-EFFECT-BASIS": {
+      "requires": [
+        "SA-G02",
+        "SA-G14"
+      ]
+    },
+    "CLAIM-RUNTIME-ENFORCEABILITY": {
+      "stage_a_requires": [
+        "SA-G11",
+        "SA-G13"
+      ],
+      "stage_b_required_for_runtime_claim": true
+    }
   }
 }
