@@ -1,0 +1,158 @@
+{
+  "schema": "dds-stage-a-gate-catalog-v0.1-draft",
+  "date": "2026-10-08",
+  "status": "DRAFT_FOR_AUDIT_AND_CROSS_FRAMEWORK_VALIDATION",
+  "method_owner": "DDS Stage A — Specification Discovery / Challenge–Trajectory Profile v0.1",
+  "verdicts": [
+    "PASS",
+    "FAIL",
+    "NOT_ESTABLISHED",
+    "NOT_APPLICABLE"
+  ],
+  "levels": {
+    "L0": "absent",
+    "L1": "declared",
+    "L2": "normative_candidate",
+    "L3": "scoped_and_owned",
+    "L4": "falsifiable_test_ready"
+  },
+  "dependency_status": [
+    "SATISFIED",
+    "CONDITIONAL_ON",
+    "BLOCKED_BY"
+  ],
+  "gates": [
+    {
+      "id": "SA-G00",
+      "name": "decision boundary and scope",
+      "requires_all": []
+    },
+    {
+      "id": "SA-G01",
+      "name": "observation boundary and freshness",
+      "requires_all": []
+    },
+    {
+      "id": "SA-G02",
+      "name": "evidence provenance and effect basis",
+      "requires_all": []
+    },
+    {
+      "id": "SA-G03",
+      "name": "identity and representation root",
+      "requires_all": []
+    },
+    {
+      "id": "SA-G04",
+      "name": "authority applicability and currentness",
+      "requires_all": [
+        "SA-G00",
+        "SA-G03"
+      ]
+    },
+    {
+      "id": "SA-G05",
+      "name": "domain/principal non-substitution",
+      "requires_all": [
+        "SA-G00",
+        "SA-G04"
+      ]
+    },
+    {
+      "id": "SA-G06",
+      "name": "indeterminacy preservation",
+      "requires_all": []
+    },
+    {
+      "id": "SA-G07",
+      "name": "material-change requalification",
+      "requires_all": [
+        "SA-G00",
+        "SA-G01",
+        "SA-G06"
+      ]
+    },
+    {
+      "id": "SA-G08",
+      "name": "time/default/expiry discipline",
+      "requires_all": [
+        "SA-G00",
+        "SA-G01",
+        "SA-G04"
+      ]
+    },
+    {
+      "id": "SA-G09",
+      "name": "objective/mandate integrity",
+      "requires_all": [
+        "SA-G00",
+        "SA-G04",
+        "SA-G05"
+      ]
+    },
+    {
+      "id": "SA-G10",
+      "name": "history and non-retroactive legitimation",
+      "requires_all": [
+        "SA-G00",
+        "SA-G02"
+      ]
+    },
+    {
+      "id": "SA-G11",
+      "name": "bounded disposition / least affected scope",
+      "requires_all": [
+        "SA-G00",
+        "SA-G06",
+        "SA-G07"
+      ]
+    },
+    {
+      "id": "SA-G12",
+      "name": "positive continuity / no deny-all",
+      "requires_all": [
+        "SA-G00",
+        "SA-G04",
+        "SA-G06"
+      ]
+    },
+    {
+      "id": "SA-G13",
+      "name": "execution/compliance ownership declaration",
+      "requires_all": [
+        "SA-G00",
+        "SA-G11"
+      ]
+    },
+    {
+      "id": "SA-G14",
+      "name": "decision-basis reconstructability",
+      "requires_all": [
+        "SA-G00",
+        "SA-G02"
+      ]
+    }
+  ],
+  "output_record": {
+    "required_fields": [
+      "gate_id",
+      "applicability",
+      "verdict",
+      "level",
+      "dependency_status",
+      "candidate_surfaces",
+      "case_ids",
+      "missing_fact_or_owner",
+      "blocker_root",
+      "downstream_impacted",
+      "stage_a_remediation",
+      "stage_b_handoff",
+      "evidence_ceiling",
+      "reviewer_rationale"
+    ]
+  },
+  "recommendation_algorithm": {
+    "root_cause": "walk upstream over hard prerequisites to earliest FAIL/NOT_ESTABLISHED/L0-L1 blockers",
+    "remediation_cut_set": "rank smallest root-blocker sets by number of conditional/blocked downstream gates potentially unlocked, without crediting Stage B realization as Stage A evidence"
+  }
+}
