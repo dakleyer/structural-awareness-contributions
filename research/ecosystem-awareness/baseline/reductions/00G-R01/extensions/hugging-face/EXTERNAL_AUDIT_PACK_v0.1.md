@@ -20,6 +20,7 @@ After this pack was first published, external review identified material correct
 - [Stage A v0.2 current result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json)
 - [Blind second-reader packet](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.1.md)
 - [Freeze and Version Lineage](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md)
+- [Post-Audit Integrity Check](./POST_AUDIT_INTEGRITY_CHECK_2026-10-08.md)
 
 **Current Stage A status is NOT the original v0.1 PASS.** It is:
 
