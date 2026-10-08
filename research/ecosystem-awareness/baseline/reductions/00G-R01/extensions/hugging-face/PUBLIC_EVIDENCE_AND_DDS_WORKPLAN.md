@@ -18,7 +18,7 @@
 
 **Pre-audit v0.1 snapshots:** [route](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md) · [Run Card](./DDS_STAGE_A_RUN_CARD_v0.1.json) · [adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) · [result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json). Exact blob lineage is recorded in [STAGE_A_FREEZE_AND_VERSION_LINEAGE.md](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md).
 
-**Current Stage A status after external audit:** [v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md) · [v0.2 result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json) · [blind second-reader packet](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.1.md). Current status: `COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`; v0.1 self-adjudication is preserved as historical audit record.
+**Preserved current coverage finding:** [v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md) · [v0.2 result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json). Current status remains `COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`. The **next result-producing run** is governed by the v0.3 preregistration package above; the exposed v0.1 blind packet is historical only.
 
 **External-audit responses:** [Audits 1/2 response](./EXTERNAL_AUDIT_RESPONSE_2026-10-08.md) · [Audit 3 response](./EXTERNAL_AUDIT_RESPONSE_3_2026-10-08.md)
 
@@ -204,10 +204,10 @@ The historical incident is reconstructed **before** R01 mapping. The context-cha
 - population-first A/B/C/D context-shift model;
 - CP0–CP6 population change-point candidates added to the machine-readable register.
 - Simplified DDS Stage A historical route designed: frozen Challenge, reduced I/M/P/Ø, HF-Q0–HF-Q9 trajectory gates, historical-vs-conforming route, BPMN-style flow, deterministic B1–B6 controls, 100% hard-gate quality plan, candidate HF-SA-S01–S12 package and falsifiers.
-- EA requirement-level retrospective coverage mapped against the strengthened HF-N0…HF-N10 family under an autonomous-minimum profile; current status after external audit: `COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`. Architecture mechanisms, human rescue, signalling/EHD and enforcement receive no Stage A credit.
+- EA requirement-level retrospective coverage mapped against the **pre-adjudication HF-N0…HF-N9** family under an autonomous-minimum profile; current status: `COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`. **HF-N10 is post-audit and previously unscored; it is admitted only to the preregistered v0.3 run.** Architecture mechanisms, human rescue, signalling/EHD and enforcement receive no Stage A credit.
 - pre-Stage B architecture plausibility walkthrough completed: 00M/00N detection logic, Cartography→RA→Repositioning→Gradient→ACC/authority→F9 data flow, adverse-input case and requirements trace.
 
-**Still required before first result-producing run**
+**Still required before the v0.3 result-producing run**
 - byte-freeze OpenAI and METR PDFs/pages;
 - produce source manifest;
 - finish event-deduplication matrix;
@@ -215,8 +215,10 @@ The historical incident is reconstructed **before** R01 mapping. The context-cha
 - independently review CP0–CP6 population change points;
 - second-reader factual review;
 - evaluator-private packet maps;
-- freeze historical Challenge v0.1;
-- register candidate/comparator arms and acceptance policy.
+- preserve the v0.3 source/specification freezes;
+- complete the eligible blind-reader adjudication;
+- execute the preregistered Stage A mutation test;
+- preserve any disagreement as unresolved rather than harmonizing it post hoc.
 
 ---
 
