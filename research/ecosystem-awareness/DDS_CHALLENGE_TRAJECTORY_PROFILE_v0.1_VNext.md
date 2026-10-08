@@ -4,7 +4,7 @@
 
 **Owning source:** [DDS Stage A — Specification Discovery / Challenge–Trajectory Profile v0.1](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md)  
 **DDS method router:** [DDS Canonical Method Index v0.1](./DDS_CANONICAL_METHOD_INDEX_v0.1.md)  
-**Current review date:** 7 October 2026.  
+**Current review date:** 8 October 2026.  
 **Status:** current Stage A review ledger only. Historical incorporated proposals have been removed from this VNext because Git history already preserves them.
 
 ## 1. Current Stage A state
@@ -133,8 +133,13 @@ Current draft artefacts:
 - [DDS Stage A Gate Diagnostic Profile v0.1 Draft](./DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.1_DRAFT.md)
 - [DDS Stage A Gate Catalog v0.1 Draft](./DDS_STAGE_A_GATE_CATALOG_v0.1_DRAFT.json)
 - [DDS Stage A Gate Diagnostic Validation Plan v0.1](./DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_PLAN_v0.1.md)
+- [DDS Stage A Gate Diagnostic Validation Run v0.1](./DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_RUN_v0.1.md)
+- [DDS Stage A Gate Diagnostic Result Template v0.1](./DDS_STAGE_A_GATE_DIAGNOSTIC_RESULT_TEMPLATE_v0.1.json)
+- [Deterministic gate checker](./gate-diagnostic/check_gate_profile.py)
 - [FG-TIDA Decision Boundary Evaluation Profile v0.2 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.2_DRAFT.md)
 
-The proposal is **not another DDS method and does not modify frozen Stage A results**. It adds a gate-by-gate output layer with independent verdict, level and dependency status; root-blocker analysis; and a Stage-B handoff queue. The core catalog is technology-neutral and must be validated across historical, mathematical/reduction and non-HF technology families before promotion.
+The proposal is **not another DDS method and does not modify frozen Stage A results**. It adds a gate-by-gate output layer with separate own verdict, specification level, dependency/effective status, test role, root-blocker analysis, potential-unlock diagnosis and a Stage-B handoff queue. The core catalog is technology-neutral.
+
+An initial maintainer-side structural portability run now covers the planned historical, mathematical/reduction and non-HF technology families. It found and repaired one false-blocking defect in the first dependency example. Promotion still requires independent review and actual frozen result tables; the catalog therefore remains draft.
 
 No canonical v0.1 gate semantics are changed by this VNext entry.
