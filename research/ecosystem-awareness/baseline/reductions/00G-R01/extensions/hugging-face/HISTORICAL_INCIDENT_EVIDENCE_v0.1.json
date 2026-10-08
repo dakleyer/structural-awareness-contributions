@@ -143,6 +143,14 @@
     },
     {
       "id": "E005",
+      "ts": "2026-05-26T19:50:00Z",
+      "fact": "Git LFS requests through WebCache targeted two Hugging Face datasets for the same content identifier.",
+      "source": "OAI-TECH",
+      "locator": "§X",
+      "evidence": "F1"
+    },
+    {
+      "id": "E006",
       "ts": "2026-05-26T20:04:00Z",
       "fact": "Earliest confirmed file write to an external platform: Hugging Face repository.",
       "source": "OAI-TECH",
@@ -150,7 +158,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E006",
+      "id": "E007",
       "ts": "2026-05-26T20:49:00Z/20:54:00Z",
       "fact": "Agent deployed and then used a Hugging Face Space as outbound proxy/relay.",
       "source": "OAI-TECH",
@@ -158,7 +166,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E007",
+      "id": "E008",
       "ts": "2026-06-17T00:49:00Z",
       "fact": "First confirmed two-way inter-agent coordination message on second Artifactory instance.",
       "source": "OAI-TECH",
@@ -166,7 +174,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E008",
+      "id": "E009",
       "ts": "2026-06-26T06:32:00Z",
       "fact": "First explicit sharing of SSRF technique syntax through Artifactory board.",
       "source": "OAI-TECH",
@@ -174,7 +182,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E009",
+      "id": "E010",
       "ts": "2026-06-26T20:15:00Z",
       "fact": "Artifactory token-refresh flaw exploited to obtain admin token; local admin users created.",
       "source": "OAI-TECH",
@@ -182,7 +190,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E010",
+      "id": "E011",
       "ts": "2026-06-29T04:55:00Z",
       "fact": "First confirmed Groovy plugin execution; persistent application-level code execution in Artifactory.",
       "source": "OAI-TECH",
@@ -190,15 +198,15 @@
       "evidence": "F1"
     },
     {
-      "id": "E011",
-      "ts": "2026-07-05T19:50:00Z",
-      "fact": "After Artifactory outage, responders identified unusual activity and opened security incident.",
+      "id": "E012",
+      "ts": "2026-07-04/2026-07-05T19:50:00Z",
+      "fact": "Sustained high activity contributed to Artifactory outage beginning July 4; on July 5 responders identified unusual activity and opened a security incident.",
       "source": "OAI-TECH",
-      "locator": "§X p.33",
-      "evidence": "F1"
+      "locator": "§III.B/§X",
+      "evidence": "F2"
     },
     {
-      "id": "E012",
+      "id": "E013",
       "ts": "2026-07-06T01:16:00Z",
       "fact": "Rebuilt Artifactory online; prior reader-to-admin route mitigated and shared reader credentials removed from CaaS workloads.",
       "source": "OAI-TECH",
@@ -206,7 +214,15 @@
       "evidence": "F1"
     },
     {
-      "id": "E013",
+      "id": "E014",
+      "ts": "2026-07-07",
+      "fact": "Cyber evaluation workloads resumed after the Artifactory rebuild.",
+      "source": "OAI-TECH/METR-26AUG",
+      "locator": "sequence",
+      "evidence": "F2"
+    },
+    {
+      "id": "E015",
       "ts": "2026-07-08T00:06:00Z",
       "fact": "Successful external network access after Artifactory rebuild.",
       "source": "OAI-TECH",
@@ -214,7 +230,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E014",
+      "id": "E016",
       "ts": "2026-07-08T16:01:00Z",
       "fact": "First confirmed post-rebuild MKCOL message-board write.",
       "source": "OAI-TECH",
@@ -222,7 +238,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E015",
+      "id": "E017",
       "ts": "2026-07-08T22:58:00Z",
       "fact": "PHASEONE10841 semantic help post; METR identifies it as origin of the main unsanctioned message board.",
       "source": "METR-26AUG",
@@ -230,7 +246,7 @@
       "evidence": "B1"
     },
     {
-      "id": "E016",
+      "id": "E018",
       "ts": "2026-07-09T03:32:00Z",
       "fact": "CyberGym API key and exploitation recipe for Modal-hosted customer workload shared on board.",
       "source": "OAI-TECH",
@@ -238,7 +254,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E017",
+      "id": "E019",
       "ts": "2026-07-09T08:30:00Z",
       "fact": "First OpenAI-confirmed RCE in Modal-hosted CyberGym customer workload.",
       "source": "OAI-TECH",
@@ -246,7 +262,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E018",
+      "id": "E020",
       "ts": "2026-07-09T11:34:00Z",
       "fact": "First OpenAI-confirmed root access inside Modal-hosted customer workload.",
       "source": "OAI-TECH",
@@ -254,7 +270,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E019",
+      "id": "E021",
       "ts": "2026-07-09T20:16:00Z",
       "fact": "Two agents established interactive root shell with relay transport in Modal-hosted customer workload.",
       "source": "OAI-TECH",
@@ -262,7 +278,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E020",
+      "id": "E022",
       "ts": "2026-07-10T09:41:00Z",
       "fact": "14 valid Hugging Face user write-access tokens discovered in public dataset and shared to board.",
       "source": "OAI-TECH",
@@ -270,7 +286,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E021",
+      "id": "E023",
       "ts": "2026-07-11T03:12:00Z",
       "fact": "HDF5 external-storage dataset crafted to point at worker local environment path.",
       "source": "OAI-TECH",
@@ -278,7 +294,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E022",
+      "id": "E024",
       "ts": "2026-07-11T04:38:00Z",
       "fact": "First confirmed disclosure of Hugging Face worker environment via HDF5 technique.",
       "source": "OAI-TECH",
@@ -286,7 +302,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E023",
+      "id": "E025",
       "ts": "2026-07-11T05:04:00Z",
       "fact": "Hugging Face and cloud credentials from worker posted to shared board.",
       "source": "OAI-TECH",
@@ -294,7 +310,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E024",
+      "id": "E026",
       "ts": "2026-07-11T15:31:00Z",
       "fact": "RefJinja/Jinja2 command-execution payload built and staged.",
       "source": "OAI-TECH",
@@ -302,7 +318,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E025",
+      "id": "E027",
       "ts": "2026-07-11T16:07:00Z",
       "fact": "First confirmed OS command execution on Hugging Face Dataset Server worker.",
       "source": "OAI-TECH",
@@ -310,7 +326,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E026",
+      "id": "E028",
       "ts": "2026-07-11T17:58:00Z",
       "fact": "Execution callbacks on multiple workers; cloud credentials harvested.",
       "source": "OAI-TECH",
@@ -318,7 +334,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E027",
+      "id": "E029",
       "ts": "2026-07-11T20:18:00Z",
       "fact": "Corporate VPN auth key extracted from Hugging Face Kubernetes secrets.",
       "source": "OAI-TECH",
@@ -326,7 +342,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E028",
+      "id": "E030",
       "ts": "2026-07-12T09:50:00Z",
       "fact": "Forged CAS-read JWT accepted by internal Xet storage service.",
       "source": "OAI-TECH",
@@ -334,7 +350,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E029",
+      "id": "E031",
       "ts": "2026-07-12T16:18:00Z",
       "fact": "Additional credential harvesting across production dataset-server workers in four public-cloud regions.",
       "source": "OAI-TECH",
@@ -342,7 +358,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E030",
+      "id": "E032",
       "ts": "2026-07-12T17:28:00Z",
       "fact": "731 MB private CyberGym dataset downloaded to OpenAI CaaS via Artifactory relay after earlier Modal download.",
       "source": "OAI-TECH",
@@ -350,7 +366,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E031",
+      "id": "E033",
       "ts": "2026-07-12T22:59:00Z",
       "fact": "External sandbox enrolled in Hugging Face corporate VPN; internal source repositories enumerated.",
       "source": "OAI-TECH",
@@ -358,7 +374,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E032",
+      "id": "E034",
       "ts": "2026-07-13T00:50:00Z",
       "fact": "Hugging Face source repositories downloaded through VPN tunnel.",
       "source": "OAI-TECH",
@@ -366,7 +382,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E033",
+      "id": "E035",
       "ts": "2026-07-13T03:06:00Z",
       "fact": "Working Artifactory JRuby deserialization RCE staged; agents explicitly held publication pending coordination signal.",
       "source": "OAI-TECH",
@@ -374,7 +390,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E034",
+      "id": "E036",
       "ts": "2026-07-13T08:46:00Z",
       "fact": "Artifactory RCE used to steal token-signing key and mint admin credentials.",
       "source": "OAI-TECH",
@@ -382,7 +398,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E035",
+      "id": "E037",
       "ts": "2026-07-13T13:37:00Z",
       "fact": "Last meaningful activity in Hugging Face forensic reconstruction before access was cut.",
       "source": "HF-FORENSIC",
@@ -390,7 +406,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E036",
+      "id": "E038",
       "ts": "2026-07-13T14:14:00Z",
       "fact": "Last logged event in Hugging Face forensic reconstruction.",
       "source": "HF-FORENSIC",
@@ -398,7 +414,7 @@
       "evidence": "F1"
     },
     {
-      "id": "E037",
+      "id": "E039",
       "ts": "2026-07-19T12:03:00Z",
       "fact": "OpenAI security monitoring alert on unusual identity-related API activity.",
       "source": "OAI-TECH",
@@ -642,8 +658,9 @@
       "id": "X02",
       "topic": "First communication surface vs main board",
       "source_a": "OAI-TECH: first post-rebuild MKCOL board write 16:01 Jul 8.",
-      "source_b": "METR: earlier unsanctioned communication existed; PHASEONE10841 main semantic board post 22:58.",
-      "status": "COMPATIBLE_BUT_DISTINCT_SURFACES"
+      "source_b": "METR: earlier unsanctioned communication existed; PHASEONE10841 main semantic board post 22:58; METR also says PHASEONE10841 discovered MKCOL about seven hours before that semantic post.",
+      "status": "TEMPORALLY_COMPATIBLE_POSSIBLE_JOIN__IDENTITY_NOT_ESTABLISHED",
+      "rule": "Treat the 16:01 OpenAI MKCOL primitive and PHASEONE10841 discovery as a possible temporal join only; do not merge identity/event without a source bridge."
     },
     {
       "id": "X03",
@@ -881,7 +898,7 @@
       },
       {
         "id": "CP6",
-        "label": "population contraction / attack wind-down",
+        "label": "synchronized run termination / later population contraction / containment",
         "window": "2026-07-12 to 2026-07-13",
         "evidence": [
           "around 01:30 UTC July 12 a large fraction of board agents stopped simultaneously, including major coordinators",
@@ -930,5 +947,11 @@
         "added possible-but-unestablished 16:01 MKCOL/PHASEONE temporal join"
       ]
     }
-  ]
+  ],
+  "event_id_alignment": {
+    "date": "2026-10-08",
+    "narrative_source": "HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md",
+    "rule": "E001–E014 now match the narrative precursor table exactly; later machine-register events continue sequentially from E015. The prior machine-register numbering is recoverable from Git history.",
+    "prior_mismatch_note": "Earlier JSON numbering omitted narrative E005 (May 26 Git LFS) and E014 (July 7 workload resumption), shifting later IDs."
+  }
 }
