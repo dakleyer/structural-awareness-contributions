@@ -88,23 +88,29 @@ Primary public sources used by the historical reconstruction:
 
 ---
 
-## E. Stage A — Challenge, route family, oracle design and result
+## E. Stage A — preserved coverage record and current preregistered next run
 
-17. [Stage A Historical Hugging Face Route v0.2 — Audit-Corrected](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.2_AUDIT_CORRECTED.md) — current route/family document after audit; preserves the 7 October architecture-flavoured material explicitly as pre-Stage-B lineage.
-18. [Stage A Run Card v0.2 — Audit-Corrected](./DDS_STAGE_A_RUN_CARD_v0.2_AUDIT_CORRECTED.json) — current machine-readable successor; preserves the original architecture-flavoured gate/branch design as lineage and records the corrected preregistration chronology. Deterministic execution remains pending.
-18A. [Exact pre-audit v0.1 snapshots](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md) — route, Run Card, adjudication and result restored to the exact blobs present at commit `420d1b84...`.
-19. [Canonical EA Requirements S1–S14 / T1–T4](../../../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) — authoritative frozen requirement source used by the Stage A adjudication.
-20. [EA FG-TIDA Specification Preparation v0.3 Draft](../../../../../fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) — specification-level projection and ownership classification. The Stage A adjudication pins the pre-hardening blob identified in the adjudication file; later escalation hardening is explicitly not retroactive Stage A credit.
-21. [EA Requirement-Level Stage A Adjudication v0.1](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) — preserved original self-adjudication record; superseded for current claim wording by the audit-corrected v0.2 document linked above.
-22. [Stage A Machine-Readable Result v0.1](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json) — preserved original result record; superseded for current claim wording by the audit-corrected v0.2 result linked above.
+17. [Stage A Route v0.3 — Preregistered](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.3_PREREGISTERED.md) — current next-run Challenge/route; explicitly includes apparent-authority and conscious-mandate-displacement mechanisms and corrected H8.
+18. [Preregistration Contract v0.3](./DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md) — freezes verdict definitions, EA-SA-Q0…Q9, falsifiers, boundary controls, ablation predictions and disagreement rule before the new blind result.
+19. [Source Freeze Addendum v0.3.1](./DDS_STAGE_A_SOURCE_FREEZE_ADDENDUM_v0.3.1.md) — freezes the Audit-3-corrected historical evidence without changing v0.3 scoring semantics.
+20. [Mutation Test Contract](./DDS_STAGE_A_MUTATION_TEST_CONTRACT_v0.1.json) — freezes BR-01…BR-17 author predictions and M-01…M-10 mutation kill sets; **do not provide this file to the blind reader before sealing**.
+21. [Neutral Blind Reader Packet v0.2](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.2_NEUTRAL.md) — reviewer-facing packet with neutral case IDs and no author mappings/predictions.
+22. [Run Card v0.3](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json) — machine-readable router/status for the current preregistered package.
+23. [Canonical EA Requirements S1–S14 / T1–T4](../../../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) — pinned in v0.3 to commit/blob recorded in the preregistration contract.
+24. [EA FG-TIDA Specification Preparation v0.3 Draft](../../../../../fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) — **moving file for reader context only**. The v0.3 run uses the pinned pre-HF-hardening blob `38d64f61...` at commit `a18bb0f32bed`, not the later §15A edit.
+25. [Preserved v0.2 coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md) · [v0.2 result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json) — retrospective coverage record only; not the new preregistration.
+26. [Exact pre-audit v0.1 snapshots](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md) — exact route/Run Card/adjudication/result blobs present at commit `420d1b84...`.
 
 Auditor should verify especially:
 
-- the object under test is the requirement-level specification, not the architecture;
-- external-owner requirements are treated as frozen facts/non-invention constraints rather than EA-created authority;
-- HF-N0…HF-N10 preserve the negative-family kernel and are not historical-path patches;
-- genuine authorized change and no-change/UNKNOWN controls prevent a deny-all shortcut;
-- the result is bounded to documentary/symbolic Stage A evidence and does not claim architecture realization or prevention.
+- HF-N0…HF-N9 were the pre-adjudication family; HF-N10 is post-audit and previously unscored;
+- the v0.3 question and EA-SA-Q9 admit `NOT_ESTABLISHED` when qualification exists but compliance/execution is externally owned;
+- PASS / FAIL / NOT_ESTABLISHED were defined before the next blind result;
+- the neutral blind packet does not expose author mappings or predictions;
+- mutation testing is Stage-A specification sensitivity, not Stage-B architecture execution;
+- S11 is treated as mixed and the pinned preparation map's N2/ownership limits are respected;
+- genuine authorized continuity and unaffected work prevent a deny-all shortcut;
+- Stage B and Stage C remain unclaimed.
 
 ---
 
@@ -149,12 +155,13 @@ For a time-limited independent reviewer, the minimum defensible sequence is:
 3. Cross-Source Event Matrix + Evidence Register;
 4. 00M + 00N;
 5. DDS Method Index + Stage A method;
-6. Stage A Historical Route;
-7. Canonical Requirements;
-8. Stage A Adjudication + Result JSON;
-9. Stage B method;
-10. Pre-Stage-B plausibility annex;
-11. Stage C method only to confirm that Stage C is not claimed.
+6. Stage A Route v0.3 + Preregistration Contract + Source Freeze;
+7. Canonical Requirements + pinned ownership/maturity map;
+8. Neutral blind packet (for reviewer) or mutation contract (for meta-auditor, never for blind reviewer before sealing);
+9. Preserved v0.2 coverage record;
+10. Stage B method;
+11. Pre-Stage-B plausibility annex;
+12. Stage C method only to confirm that Stage C is not claimed.
 
 Anything beyond this sequence is supporting depth, not a substitute for these sources.
 
@@ -169,7 +176,7 @@ An external reviewer should be able to answer independently:
 3. Are the Stage A gates derived from the frozen requirements rather than from the desired outcome?
 4. Does the Stage A adjudication improperly import architecture mechanisms or human rescue?
 5. Do positive/no-change/indeterminate controls prevent trivial deny-all solutions?
-6. Does `INSIDE_STAGE_A_ACCEPTANCE_WITHIN_DECLARED_SCOPE` follow from the declared documentary/symbolic oracle and branch facts?
+6. Is the current claim correctly limited to `COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`, and are the v0.3 prerequisites sufficient to make a later acceptance claim falsifiable rather than circular?
 7. Are external-owner authority/identity/delegation facts clearly separated from EA-owned requirements?
 8. Is the pre-Stage-B annex correctly limited to plausibility rather than verification?
 9. Is the absence of a complete HF-specific Stage B oracle clearly stated?
