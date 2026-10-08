@@ -18,7 +18,7 @@
 
 The strongest supported Stage A statement is now:
 
-> **Stage A retrospective coverage finding:** the selected canonical EA requirements contain clauses that map to the declared HF-N0…HF-N9 negative-route variants and positive/boundary controls under an externally supplied identity/authority truth model. This is documentary/symbolic coverage. It is **not yet an accepted Stage A execution result** because the requirement-level scoring contract was not prospectively frozen before the v0.1 adjudication, the deterministic branch contract remains unexecuted, and no operationally blind independent adjudication has been completed.
+> **Stage A retrospective coverage finding:** the selected canonical EA requirements contain clauses that map to the declared HF-N0…HF-N10 negative-route variants and positive/boundary controls under an externally supplied identity/authority truth model. This is documentary/symbolic coverage. It is **not yet an accepted Stage A execution result** because the requirement-level scoring contract was not prospectively frozen before the v0.1 adjudication, the deterministic branch contract remains unexecuted, and no operationally blind independent adjudication has been completed.
 
 Machine status:
 
@@ -30,12 +30,12 @@ Machine status:
 
 ### 2.1 Object/scoring-contract shift
 
-The original Run Card (7 October) named an architecture-flavored object and HF-Q0…Q9. On 8 October the negative family HF-N0…HF-N9 was strengthened before the requirement-level adjudication, but the **EA-SA-Q0…Q8 gates and their requirement-level acceptance rule were introduced in the adjudication itself**.
+The original Run Card (7 October) named an architecture-flavored object and HF-Q0…Q9. On 8 October the negative family HF-N0…HF-N10 was strengthened before the requirement-level adjudication, but the **EA-SA-Q0…Q8 gates and their requirement-level acceptance rule were introduced in the adjudication itself**.
 
 Chronology:
 
 - `e0794209…` — deterministic Run Card/oracle design;
-- `37f87c1f…` — HF-N0…HF-N9 anti-overfitting family added;
+- `37f87c1f…` — HF-N0…HF-N10 anti-overfitting family added;
 - `4cb91a61…` — requirement-level EA adjudication plus EA-SA-Q0…Q8 created;
 - `f2cb8113…` — architecture/specification ownership corrected.
 
@@ -148,7 +148,7 @@ Question:
 
 Expected status before blind adjudication: **UNSCORED**.
 
-### Optional HF-CX4 — conscious out-of-scope collective utility
+### HF-N10 — conscious out-of-scope collective utility
 
 Facts:
 
@@ -161,6 +161,8 @@ Question:
 > Does the specification cover conscious objective/mandate displacement rather than only apparent-authority promotion?
 
 Expected status before blind adjudication: **UNSCORED**.
+
+This case is now part of the core negative family, not merely an optional counterexample.
 
 ---
 
@@ -188,7 +190,7 @@ These ablations must be frozen before result-producing adjudication.
 A new reviewer should receive, before seeing v0.1/v0.2 verdicts:
 
 1. frozen canonical requirements source/hash;
-2. the HF-N0…HF-N9 branch definitions;
+2. the HF-N0…HF-N10 branch definitions;
 3. positive/no-change/UNKNOWN controls;
 4. HF-CX1…CX3 (and optional CX4);
 5. decision-scope and evaluator-private facts;
