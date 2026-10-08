@@ -125,6 +125,11 @@ The same root blocker may condition SA-G05 and SA-G09. The report must show that
 
 ---
 
+
+### 4.2 Typed dependency rule
+
+The dependency graph distinguishes `requires`, `claim_requires` and `supports`. Only `requires` blocks basic gate adjudication. `claim_requires` is applied only when making the corresponding stronger multi-gate claim; `supports` is non-blocking. This prevents a missing auxiliary mechanism from turning an otherwise scoreable gate into a false failure.
+
 ## 5. Automatic audit recommendations
 
 After adjudication, produce two recommendation classes.
