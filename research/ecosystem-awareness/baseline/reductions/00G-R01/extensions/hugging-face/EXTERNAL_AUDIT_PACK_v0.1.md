@@ -4,7 +4,7 @@
 
 **Repository:** `dakleyer/structural-awareness-contributions`
 
-**Current status:** Stage A requirement-level adjudication completed within a declared documentary/symbolic autonomous-minimum profile; deterministic fixture execution and independent adjudication remain pending. Stage B has not been passed; the HF-specific Stage B oracle is not complete/frozen. Stage C has not started.
+**Current status:** retrospective requirement-level **coverage argument completed; Stage A acceptance pending**. Deterministic execution under a prospectively frozen falsifiable contract and independent/blind adjudication remain pending. Stage B has not been passed; the HF-specific Stage B oracle is not complete/frozen. Stage C has not started.
 
 ---
 
