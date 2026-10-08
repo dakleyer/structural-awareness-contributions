@@ -255,3 +255,8 @@ It does not assert that:
 - FG-TIDA adopted the profile.
 
 The next evidence step is to freeze at least three materially different validation families against the same gate-catalog version before promoting the catalog from draft.
+
+
+### 4.1 NOT_APPLICABLE prerequisites
+
+A preregistered `NOT_APPLICABLE` prerequisite does not automatically block a downstream gate. It counts as satisfied-by-profile only when the fixture explains why that mechanism is irrelevant and freezes the substitute fact required by the downstream decision. This is required for abstract/reduced fixtures where, for example, principal identity is a fixed evaluator fact rather than a property under test.
