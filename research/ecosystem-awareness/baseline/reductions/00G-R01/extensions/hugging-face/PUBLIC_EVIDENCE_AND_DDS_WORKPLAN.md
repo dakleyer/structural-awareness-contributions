@@ -14,7 +14,9 @@
 
 **Architecture plausibility walkthrough:** [ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md#14-architecture-plausibility-walkthrough--detecting-and-processing-the-hugging-face-regime-shift](./ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md#14-architecture-plausibility-walkthrough--detecting-and-processing-the-hugging-face-regime-shift)
 
-**Simplified DDS Stage A route:** [DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md)
+**Current Simplified DDS Stage A route:** [DDS_STAGE_A_HISTORICAL_ROUTE_v0.2_AUDIT_CORRECTED.md](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.2_AUDIT_CORRECTED.md) · [Run Card v0.2](./DDS_STAGE_A_RUN_CARD_v0.2_AUDIT_CORRECTED.json) · [freeze/version lineage](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md)
+
+**Pre-audit v0.1 snapshots:** [route](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md) · [Run Card](./DDS_STAGE_A_RUN_CARD_v0.1.json) · [adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) · [result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json). Exact blob lineage is recorded in [STAGE_A_FREEZE_AND_VERSION_LINEAGE.md](./STAGE_A_FREEZE_AND_VERSION_LINEAGE.md).
 
 **Current Stage A status after external audit:** [v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md) · [v0.2 result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json) · [blind second-reader packet](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.1.md). Current status: `COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`; v0.1 self-adjudication is preserved as historical audit record.
 
