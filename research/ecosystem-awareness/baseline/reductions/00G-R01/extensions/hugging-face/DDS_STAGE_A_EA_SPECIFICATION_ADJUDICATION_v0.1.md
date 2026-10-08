@@ -1,7 +1,5 @@
 # DDS Stage A — Ecosystem Awareness Specification Adjudication on the Hugging Face Negative-Route Family v0.1
 
-**Audit status — superseded for current claim wording:** external review identified that this self-adjudication overclaimed Stage A acceptance relative to its unexecuted deterministic contract and non-preregistered requirement-level scoring gates. Preserve this file as the original record. Current status is governed by [v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md) and [v0.2 result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json).
-
 **Status:** Simplified DDS Stage A — specification-level adjudication · documentary/symbolic evidence · autonomous-minimum profile · no architecture verification · no implementation validation.
 
 **Date:** 8 October 2026.
