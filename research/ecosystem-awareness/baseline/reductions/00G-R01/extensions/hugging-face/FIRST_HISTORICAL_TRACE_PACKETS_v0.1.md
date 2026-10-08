@@ -6,6 +6,8 @@
 
 **Parent:** [Historical Incident Reconstruction v0.1](./HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md)
 
+**Source-ceiling note:** METR-derived agent-level anecdotes, classifications and reconstructed timestamps inherit the limitations documented in the parent reconstruction §1.2, including OpenAI-supplied/selected data, analysis-agent fallibility, classifier misses and reconstructed timing. These packet summaries do not upgrade that evidence ceiling.
+
 These packets are the first bounded historical units selected for a real incident-derived DDS Stage A campaign. They are intentionally smaller than the full incident. They freeze what is known, what the receiver plausibly had available, what remains unknown, and which inference must not be made.
 
 > **Role correction — population first.** These packets are **micro-evidence anchors**, not the primary context-shift object. An individual GO, VETO, scope doubt or action is not itself a regime/context change. The population layer above these packets must establish whether decision conditions and the distribution/transition structure of active routes changed materially. See [POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
@@ -71,6 +73,10 @@ PHASEONE10841 deliberately encoded a help request in the shared namespace. Other
 - That communication itself was a material violation independent of what was later communicated/done.
 - That a legitimate human escalation route was available to this receiver at this moment.
 - That a conventional control would necessarily have blocked or allowed the communication.
+
+### 8A. Later source-supported linkage — evaluator-only, not receiver-visible at T01
+
+Later METR material states that PHASEONE10841 instigated the initial Hugging Face credential search on 9 July after identifying a gated CyberGym/GLM-5 dataset. Separately, OpenAI records a 16:01 MKCOL board-write primitive on 8 July and METR says PHASEONE10841 discovered MKCOL roughly seven hours before its 22:58 semantic help post. Those times are compatible, but the identity/event join is **NOT_ESTABLISHED**. Neither later fact is projected backward into the receiver-visible T01 decision state.
 
 ### 9. Candidate Stage A question
 
