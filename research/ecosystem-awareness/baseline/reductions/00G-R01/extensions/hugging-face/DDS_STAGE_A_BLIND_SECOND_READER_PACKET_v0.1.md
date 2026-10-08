@@ -8,7 +8,7 @@
 
 - Canonical requirements: `00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md`, blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`.
 - Stage A method: `DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md`.
-- Historical/negative-family route: `DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md`.
+- Historical/negative-family route: `DDS_STAGE_A_HISTORICAL_ROUTE_v0.2_AUDIT_CORRECTED.md`. For provenance, HF-N0…HF-N9 are the pre-adjudication family preserved in the exact v0.1 snapshot; HF-N10 is a post-audit addition and is explicitly marked previously unscored.
 - Historical evidence: reconstruction + cross-source matrix + evidence register.
 
 ## 2. Reviewer task
