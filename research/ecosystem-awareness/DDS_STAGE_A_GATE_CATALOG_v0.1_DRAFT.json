@@ -315,5 +315,9 @@
     "coverage_controls_must_be_labeled_as_such": true,
     "positive_continuity_control_required_where_blanket_denial_could_win": true,
     "no_aggregate_score_may_replace_gate_table": true
-  }
+  },
+  "applicability_values": [
+    "APPLICABLE",
+    "NOT_APPLICABLE"
+  ]
 }
