@@ -31,15 +31,16 @@ The current result is therefore downgraded from `INSIDE_STAGE_A_ACCEPTANCE_WITHI
 Accepted with chronology precision.
 
 - deterministic Run Card created: commit `e0794209…`, 2026-10-07 13:41 UTC;
-- strengthened negative family HF-N0…HF-N10 added: commit `37f87c1f…`, 2026-10-08 06:05 UTC;
+- strengthened negative family **HF-N0…HF-N9** added: commit `37f87c1f…`, 2026-10-08 06:05 UTC;
 - requirement-level adjudication created: commit `4cb91a61…`, 2026-10-08 06:39 UTC;
-- architecture/specification ownership correction: commit `f2cb8113…`, 2026-10-08 06:41 UTC.
+- architecture/specification ownership correction: commit `f2cb8113…`, 2026-10-08 06:41 UTC;
+- **HF-N10 added later, after external audit:** commit `746a0794…`.
 
-Thus HF-N0…HF-N10 predate the requirement adjudication, but the **EA-SA-Q0…Q8 scoring gates and the lighter requirement-level acceptance rule were introduced inside the adjudication document itself**. That is insufficient for a strong preregistered Stage A acceptance claim.
+Thus **HF-N0…HF-N9** predate the requirement adjudication, but the **EA-SA-Q0…Q8 scoring gates and the lighter requirement-level acceptance rule were introduced inside the adjudication document itself**. HF-N10 does **not** predate that adjudication and must not be counted as already adjudicated. That is insufficient for a strong preregistered Stage A acceptance claim.
 
 ### A3 — negative variants are partly redundant at requirement level
 
-Accepted. HF-N0…HF-N10 are valuable anti-overfitting controls for an implementation/detector, but several collapse to the same requirement-level non-substitution rule once architecture is removed. Future Stage A work must include semantic ablations and counterexamples that can actually distinguish requirement gaps.
+Accepted. The pre-adjudication HF-N0…HF-N9 family is valuable as anti-overfitting control for an implementation/detector, but several variants collapse to the same requirement-level non-substitution rule once architecture is removed. HF-N10 was added only after audit to cover a distinct conscious out-of-scope collective-utility mechanism and remains unscored. Future Stage A work must include semantic ablations and counterexamples that can actually distinguish requirement gaps.
 
 ### A4 — oracle supplies material authority facts
 
