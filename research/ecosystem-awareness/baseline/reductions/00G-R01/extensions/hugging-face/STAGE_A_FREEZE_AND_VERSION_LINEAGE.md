@@ -57,3 +57,13 @@ Therefore:
 - Factual corrections to working historical evidence may remain in-place only while the document explicitly remains a working/in-progress evidence product.
 - Any material change to a frozen route, Run Card, oracle, acceptance policy, negative-family kernel or scored specification creates a successor version.
 - Earlier versions remain readable and auditable.
+
+
+## 5. External-audit source preservation
+
+The externally supplied audit wording is preserved separately from the maintainer response:
+
+- [External Audit Input 1 — 8 October 2026](./EXTERNAL_AUDIT_INPUT_1_2026-10-08.md)
+- [External Audit Input 2 — 8 October 2026](./EXTERNAL_AUDIT_INPUT_2_2026-10-08.md)
+
+These files are provenance records of the text supplied to the project. They are not independently authenticated by the repository and are not rewritten into the corpus's own voice.
