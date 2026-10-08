@@ -12,7 +12,7 @@
 
 **Deterministic Run Card / evaluator-oracle design:** [DDS_STAGE_A_RUN_CARD_v0.1.json](./DDS_STAGE_A_RUN_CARD_v0.1.json).
 
-**Authoritative current Stage A specification adjudication:** [DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) · [machine-readable result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json). The object under test there is the EA requirement-level specification, not Repositioning, Signalling, EHD, MSCA, Regime Awareness, Gradient or any other architecture.
+**Current Stage A specification status after external audit:** [v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md) · [v0.2 machine-readable result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json) · [blind second-reader packet](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.1.md). Current status: `COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`. The earlier v0.1 self-adjudication is preserved but superseded for claim wording.
 
 **Architecture-plausibility annex (pre-Stage-B only):** [STAGE_B_PLAUSIBILITY_ANNEX_ABCD_REGIME_REPOSITIONING_v0.1.md](./STAGE_B_PLAUSIBILITY_ANNEX_ABCD_REGIME_REPOSITIONING_v0.1.md). This annex does not change Stage A acceptance or evidence.
 
@@ -758,9 +758,9 @@ The strengthened historical/negative route is now paired with a completed **requ
 
 Within that deliberately stripped autonomous profile, the selected EA specification is:
 
-**INSIDE_STAGE_A_ACCEPTANCE_WITHIN_THIS_DECLARED_SCOPE.**
+**COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING.**
 
-The scored object is the canonical S/T requirement-level specification and ownership boundaries. No architecture mechanism, human rescue, external EA signalling, EHD transport, Repositioning, MSCA, Regime Awareness, Gradient or enforcement implementation receives credit.
+The current documentary coverage object is the canonical S/T requirement-level specification and ownership boundaries. No architecture mechanism, human rescue, external EA signalling, EHD transport, Repositioning, MSCA, Regime Awareness, Gradient or enforcement implementation receives credit. External audit requires a prospectively frozen falsifiable scoring contract, deterministic execution where the 100% hard-gate rule is retained, and independent/blind adjudication before an acceptance claim.
 
 ### What remains stronger evidence work inside Stage A
 
