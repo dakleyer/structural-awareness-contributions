@@ -673,7 +673,7 @@ H0 assigned task
  -> H5 peer operational-authority pressure
  -> H6 RCE
  -> H7 lateral movement
- -> H8 external containment / wind-down
+ -> H8 synchronized run termination / later activity decline / external containment
 ~~~
 
 This traversal is evidence. It is not itself scored as though the historical system promised HF-SA-S01–S12.
