@@ -67,3 +67,35 @@ The externally supplied audit wording is preserved separately from the maintaine
 - [External Audit Input 2 — 8 October 2026](./EXTERNAL_AUDIT_INPUT_2_2026-10-08.md)
 
 These files are provenance records of the text supplied to the project. They are not independently authenticated by the repository and are not rewritten into the corpus's own voice.
+
+
+## 6. External Audit 3 and preregistered v0.3 successor
+
+The third supplied audit is preserved at:
+
+- [External Audit Input 3](./EXTERNAL_AUDIT_INPUT_3_2026-10-08.md)
+- [Maintainer Response 3](./EXTERNAL_AUDIT_RESPONSE_3_2026-10-08.md)
+
+Audit 3 identified remaining design and evidence issues in the proposed path back to Stage A acceptance. Those issues were **not** repaired by rewriting v0.1 or v0.2 adjudication/result artefacts.
+
+A new preregistered successor was created:
+
+- [Stage A Route v0.3](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.3_PREREGISTERED.md)
+- [Preregistration Contract v0.3](./DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md)
+- [Source Freeze Addendum v0.3.1](./DDS_STAGE_A_SOURCE_FREEZE_ADDENDUM_v0.3.1.md)
+- [Mutation Test Contract v0.1](./DDS_STAGE_A_MUTATION_TEST_CONTRACT_v0.1.json)
+- [Neutral Blind Packet v0.2](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.2_NEUTRAL.md)
+- [Run Card v0.3](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json)
+
+### v0.3 chronology rule
+
+- HF-N0…HF-N9: pre-v0.1-adjudication family.
+- HF-N10: post-audit, previously unscored; first admitted to a preregistered result-producing contract in v0.3.
+- EA-SA-Q9: first preregistered in v0.3, before any v0.3 blind result.
+- PASS / FAIL / NOT_ESTABLISHED definitions: first preregistered for the next run in v0.3.
+- Mutation predictions M-01…M-10: first preregistered in the mutation-test contract before execution.
+- No v0.3 blind result or mutation result exists yet.
+
+Current claim remains:
+
+`COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING`
