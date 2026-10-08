@@ -65,15 +65,29 @@ Independently of verdict, assign a level:
 
 Level is not evidence maturity and is not architecture realization. A documentary candidate can be L4 if its semantic rule is falsifiable; a running product can remain L1 if the relevant rule is not specified.
 
-### 2.3 Derived dependency status
+### 2.3 Derived dependency and effective status
 
-Dependency is reported separately:
+The gate record separates what the candidate says from what the dependency graph allows the evaluator to claim.
 
-- **SATISFIED** — all preregistered hard prerequisites for this gate meet the profile threshold.
-- **CONDITIONAL_ON(...)** — the gate's own text may be adequate, but one or more hard prerequisites are not yet established.
-- **BLOCKED_BY(...)** — the missing/failed prerequisite makes the requested downstream conclusion invalid under the current profile.
+- **own_verdict** — PASS / FAIL / NOT_ESTABLISHED / NOT_APPLICABLE from the frozen candidate and case, before dependency propagation.
+- **dependency_status** — SATISFIED / CONDITIONAL_ON(...) / BLOCKED_BY(...), using only preregistered `requires` edges for a gate and `claim_requires` edges for the named stronger claim being evaluated.
+- **effective_status** — the claim-usable result after dependency and minimum-level checks: PASS / FAIL / NOT_ESTABLISHED / NOT_APPLICABLE / CONDITIONAL_ON(...) / BLOCKED_BY(...).
 
-A conditional result is not promoted to PASS by arithmetic.
+A `supports` edge is explanatory only. It can improve another property but can never turn that property into a failure or conditional result.
+
+A gate can therefore have strong own text while the stronger claim remains conditional. For example, an action-specific authority rule can receive `own_verdict=PASS @ L3`, while `CLAIM-AUTHORITY-RESOLVED` remains `CONDITIONAL_ON(SA-G03)` if the actor/role binding is not frozen as an evaluator fact.
+
+A conditional or blocked status is never promoted to PASS by arithmetic, and remediation of a prerequisite is reported as **potentially unlocking** downstream conclusions, not as guaranteeing them.
+
+### 2.4 Test role
+
+Every exercised gate/case is labelled before adjudication as one of:
+
+- **DISCRIMINATING** — the frozen case can genuinely make the gate PASS or FAIL under the registered candidate.
+- **COVERAGE_CONTROL** — verifies that an explicit required distinction exists, but the case itself is not a meaningful falsifier.
+- **BOUNDARY_CONTROL** — verifies correct NOT_ESTABLISHED / NOT_APPLICABLE / external-owner handling and prevents forced closure.
+
+A gate that cannot fail under any preregistered case cannot be advertised as a discriminating test merely because the requirement text restates the expected answer.
 
 ---
 
@@ -174,243 +188,22 @@ A profile may add/remove typed edges only prospectively, with rationale and vers
 
 ### 4.2 Reading a conditional result
 
+The basic gate verdict and a stronger multi-gate claim are deliberately separate.
+
 Example:
 
-- candidate text has a strong action-specific authority rule: SA-G04 reaches L3;
-- identity/representation root is only self-asserted: SA-G03 is NOT_ESTABLISHED @ L1.
+- SA-G04 has a strong action-specific authority rule: `own_verdict=PASS @ L3`;
+- SA-G03 identity/representation root is `NOT_ESTABLISHED @ L1`;
+- the profile is evaluating `CLAIM-AUTHORITY-RESOLVED`, whose preregistered `claim_requires` includes SA-G03 when identity/representation is not frozen as an evaluator fact.
 
 Result:
 
 ```text
-SA-G04 own-text verdict: PASS @ L3
-dependency status: CONDITIONAL_ON(SA-G03)
-effective diagnostic: CONDITIONAL_ON(SA-G03), not unconditional PASS
+SA-G04 own verdict: PASS @ L3
+SA-G04 basic dependency status: SATISFIED
+CLAIM-AUTHORITY-RESOLVED: CONDITIONAL_ON(SA-G03)
 ```
 
-The same missing SA-G03 may also block SA-G05 and SA-G09. This is exactly why the graph is diagnostically useful.
+SA-G04 is not rewritten as a failure. The stronger authority-resolved claim remains conditional until SA-G03 is established or the profile preregisters identity/representation as a frozen evaluator fact.
 
----
-
-## 5. Profile-specific admission and acceptance
-
-The core catalog does not impose one universal “all 15 gates must pass” rule.
-
-Before adjudication, each Challenge/profile freezes:
-
-- applicable core gates;
-- any local gates;
-- minimum acceptable level per gate;
-- hard prerequisites;
-- positive/continuity controls;
-- falsifiers;
-- boundary cases;
-- allowed NOT_APPLICABLE gates;
-- whether NOT_ESTABLISHED is claim-narrowing or acceptance-blocking for each gate;
-- Stage A acceptance wording.
-
-Therefore Stage A may legitimately conclude:
-
-- accepted for a bounded specification package;
-- partially accepted / conditional;
-- no material differential against a peer;
-- outside acceptance;
-- insufficient evidence / NOT_ESTABLISHED.
-
-A global PASS without the gate table is non-conforming to this diagnostic profile.
-
----
-
-## 6. Gate test design
-
-Every applicable gate should have, where meaningful:
-
-1. **positive control** — valid behavior must remain possible;
-2. **negative/falsifier** — a materially wrong closure must be detectable;
-3. **boundary case** — insufficient or external-owner facts must not be forced into PASS/FAIL;
-4. **ablation/mutation target** — removing or weakening the relevant specification rule should change the correct case outcome;
-5. **evidence ceiling** — what Stage A can and cannot conclude.
-
-A gate that cannot fail under any preregistered case is a **coverage control**, not a discriminating test. Report it as such.
-
----
-
-## 7. Standard Stage A diagnostic record
-
-For every evaluated candidate, produce one row per gate:
-
-| Field | Meaning |
-|---|---|
-| gate_id | core or local gate ID |
-| applicability | applicable / not applicable with preregistered reason |
-| verdict | PASS / FAIL / NOT_ESTABLISHED / NOT_APPLICABLE |
-| level | L0…L4 |
-| dependency_status | SATISFIED / CONDITIONAL_ON(...) / BLOCKED_BY(...) |
-| candidate_surfaces | exact clauses/features/configuration evidence |
-| case_ids | frozen cases that exercise the gate |
-| missing_fact_or_owner | if any |
-| blocker_root | earliest unresolved prerequisite(s) |
-| downstream_impacted | gates whose conclusions are blocked/conditional |
-| stage_a_remediation | minimum specification/test change |
-| stage_b_handoff | architecture capability that would later need realization |
-| evidence_ceiling | maximum supported claim |
-| reviewer_rationale | concise and reproducible |
-
-The report then publishes a graph view and a matrix view. No opaque weighted score is required.
-
----
-
-## 8. Automatic recommendation logic
-
-The recommendation engine operates on the frozen dependency graph and the observed gate table.
-
-### 8.1 Root-cause closure
-
-For each non-PASS/conditional gate:
-
-1. walk upstream through `requires` edges, and through `claim_requires` only when the report is evaluating that named stronger claim;
-2. stop at the earliest FAIL/NOT_ESTABLISHED/L0-L1 prerequisite;
-3. record that gate as a root blocker;
-4. propagate the impact to all dependent gates.
-
-This prevents five downstream symptoms from being reported as five unrelated defects.
-
-### 8.2 Minimum remediation cut set
-
-Compute the smallest set of root blockers whose remediation to the preregistered threshold would unlock the largest number of conditional gates or named claims.
-
-Report, for each candidate remediation:
-
-- gate to improve;
-- current verdict/level;
-- target minimum level;
-- direct gates unlocked;
-- transitive gates potentially unlocked;
-- whether the change is specification-only or requires Stage B realization;
-- residual gates still unresolved.
-
-This is an architectural audit recommendation, not proof that the architecture has been fixed.
-
-### 8.3 Example
-
-```text
-Root blocker: SA-G03 Identity/representation root — NOT_ESTABLISHED @ L1
-
-Potential unlock:
-  SA-G04 Authority applicability/currentness
-  SA-G05 Domain/principal non-substitution
-  SA-G09 Objective/mandate integrity
-
-Stage A recommendation:
-  define a reviewable external trust/delegation root and distinguish it from message signature/authentication.
-
-Stage B handoff:
-  realize that root with an independently governed identity/delegation mechanism and auditable binding.
-
-Claim boundary:
-  Stage A may recommend the capability; it may not credit the architecture as implemented.
-```
-
----
-
-## 9. Stage A versus Stage B/C boundary
-
-Stage A tests the **specified semantics and declared ownership**.
-
-It may establish that a candidate:
-
-- requires an external stop owner;
-- requires effect evidence independent of self-report;
-- requires action-time authority validation;
-- requires bounded requalification.
-
-Stage A does **not** establish that those mechanisms exist, are correctly connected, meet latency, resist spoofing or actually stop an action.
-
-Those questions move to:
-
-- **Stage B** — architecture realization and interfaces;
-- **Stage C** — pinned implementation behavior against the originating Challenge.
-
-The Stage A report should therefore contain a Stage-B handoff queue generated from the gate table, but never count that queue as Stage A PASS evidence.
-
----
-
-## 10. Cross-framework comparison
-
-When comparing frameworks/platforms under the same frozen Challenge:
-
-- use the same gate catalog version;
-- use the same applicable-gate profile and minimum levels;
-- use the same facts, authority states, horizons and evaluator-private information;
-- allow each framework its strongest admissible native configuration;
-- preserve framework-native semantics;
-- report gate-by-gate profiles side by side;
-- report burden separately;
-- do not average hard-gate failure into a utility score.
-
-A useful comparison can therefore say:
-
-```text
-Framework A: 9 gates PASS, 3 conditional, 2 NOT_ESTABLISHED, 1 N/A
-Framework B: 11 gates PASS, 1 FAIL, 2 conditional, 1 N/A
-No global winner: B covers more properties but fails a hard continuity case.
-```
-
-The exact counts are illustrative; only executed/frozen studies may publish actual counts.
-
----
-
-## 11. Validation of this gate model
-
-Before treating this diagnostic profile as stable, validate it against at least three materially different families:
-
-1. one historical/incident-derived family;
-2. one synthetic or mathematical/reduction family;
-3. one independent technology/framework family not used to derive the gates.
-
-For each family, record:
-
-- gates exercised;
-- gates not applicable;
-- whether any gate is impossible to falsify;
-- whether dependencies created false blocking;
-- whether a local gate was needed;
-- whether the recommendation engine identified a useful root blocker;
-- whether the profile changed after seeing outcomes.
-
-Any material change produces v0.2; historical runs remain tied to their catalog version.
-
----
-
-## 12. Explicit non-claims
-
-This draft does not establish:
-
-- that the 15-gate catalog is complete or unique;
-- that a framework with more PASS gates is universally safer/better;
-- that Stage A predicts production behavior;
-- that Stage A architecture recommendations are implemented;
-- that Hugging Face or another historical case validates the catalog by itself;
-- that a local gate automatically belongs in the core catalog;
-- FG-TIDA, ITU-T, NIST or other standards-body adoption.
-
-**Current status:** draft diagnostic layer ready for audit and cross-framework validation; no framework result is created by this document alone.
-
-
-### 4.3 Prerequisite NOT_APPLICABLE rule
-
-A hard prerequisite marked `NOT_APPLICABLE` does **not** automatically block a downstream gate.
-
-It may be treated as dependency-satisfied only when the preregistered Challenge/profile states why the prerequisite mechanism is irrelevant **and** supplies the frozen fact/assumption that the downstream gate needs instead.
-
-Example: a mathematical reduction may freeze principal/mandate identity as an evaluator fact and contain no identity-resolution problem. In that profile, SA-G03 may be `NOT_APPLICABLE` while SA-G04 remains directly adjudicable. If the authority claim depends on resolving a real-world actor/key/role binding, SA-G03 is applicable and cannot be bypassed.
-
-Therefore dependency evaluation uses:
-
-```text
-PASS prerequisite -> satisfied
-NOT_APPLICABLE + preregistered substitute/frozen assumption -> satisfied-by-profile
-NOT_APPLICABLE without that justification -> BLOCKED_BY(prerequisite-profile-gap)
-FAIL / NOT_ESTABLISHED below threshold -> conditional or blocked as registered
-```
-
-This rule prevents the generic catalog from forcing implementation-specific identity or authority machinery into reductions where those facts are intentionally abstracted away.
+The same rule applies to other named claims. `supports` edges may explain likely remediation value, but they never create blocking by themselves.
