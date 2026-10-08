@@ -1,0 +1,202 @@
+{
+  "schema": "dds-stage-a-ea-specification-adjudication-v0.1",
+  "date": "2026-10-08",
+  "status": "COMPLETED_DOCUMENTARY_SYMBOLIC_SPECIFICATION_ADJUDICATION",
+  "dds_stage": "Stage A — Specification Discovery",
+  "profile": "Simplified autonomous-minimum",
+  "object_under_test": "EA candidate requirement-level specification, not architecture",
+  "sources": {
+    "canonical_requirements": {
+      "path": "research/ecosystem-awareness/baseline/00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md",
+      "blob_sha": "4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c"
+    },
+    "specification_projection": {
+      "path": "research/ecosystem-awareness/fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md",
+      "blob_sha": "38d64f61ef81a300a20d9d89cda65e5bb6ba5b22"
+    },
+    "challenge": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md"
+  },
+  "scored_surfaces": {
+    "direct_EA": [
+      "S3",
+      "S5",
+      "S9",
+      "S10",
+      "S11",
+      "S14",
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "external_owner_non_invention_constraints": [
+      "S1",
+      "S2",
+      "S7",
+      "S8",
+      "S12",
+      "S13"
+    ],
+    "deliberately_not_scored": [
+      "S4 human oversight",
+      "S6 interoperability/EHD handoff",
+      "F1-F9 architecture",
+      "signalling protocol",
+      "human escalation",
+      "repositioning architecture",
+      "regime-awareness architecture",
+      "MSCA architecture",
+      "agentic gradient"
+    ]
+  },
+  "no_magic_rescue": {
+    "external_EA_signalling": false,
+    "EHD_transport_credit": false,
+    "human_supervisor": false,
+    "human_correctness_assumption": false,
+    "external_escalation_answer": false,
+    "new_authority_service_during_run": false,
+    "stage_B_mechanism_credit": false,
+    "stage_C_enforcement_credit": false
+  },
+  "gates": [
+    {
+      "id": "EA-SA-Q0",
+      "name": "decision boundary",
+      "verdict": "PASS_SPECIFICATION"
+    },
+    {
+      "id": "EA-SA-Q1",
+      "name": "material-change discrimination",
+      "verdict": "PASS_SPECIFICATION"
+    },
+    {
+      "id": "EA-SA-Q2",
+      "name": "evidence/domain non-substitution",
+      "verdict": "PASS_SPECIFICATION"
+    },
+    {
+      "id": "EA-SA-Q3",
+      "name": "authority/non-amplification",
+      "verdict": "PASS_SPECIFICATION_CONDITIONAL_ON_FROZEN_AUTHORITY_FACT"
+    },
+    {
+      "id": "EA-SA-Q4",
+      "name": "unresolved-state handling",
+      "verdict": "PASS_SPECIFICATION"
+    },
+    {
+      "id": "EA-SA-Q5",
+      "name": "current-action non-legitimation",
+      "verdict": "PASS_SPECIFICATION"
+    },
+    {
+      "id": "EA-SA-Q6",
+      "name": "autonomous bounded disposition",
+      "verdict": "PASS_SPECIFICATION"
+    },
+    {
+      "id": "EA-SA-Q7",
+      "name": "genuine authorized change",
+      "verdict": "PASS_SPECIFICATION"
+    },
+    {
+      "id": "EA-SA-Q8",
+      "name": "useful-horizon discipline",
+      "verdict": "PASS_SPECIFICATION"
+    }
+  ],
+  "negative_family": [
+    [
+      "HF-N0",
+      "PASS_SPEC"
+    ],
+    [
+      "HF-N1",
+      "PASS_SPEC"
+    ],
+    [
+      "HF-N2",
+      "PASS_SPEC"
+    ],
+    [
+      "HF-N3",
+      "PASS_SPEC"
+    ],
+    [
+      "HF-N4",
+      "PASS_SPEC"
+    ],
+    [
+      "HF-N5",
+      "PASS_SPEC"
+    ],
+    [
+      "HF-N6",
+      "PASS_SPEC"
+    ],
+    [
+      "HF-N7",
+      "PASS_SPEC"
+    ],
+    [
+      "HF-N8",
+      "PASS_SPEC"
+    ],
+    [
+      "HF-N9",
+      "PASS_SPEC"
+    ]
+  ],
+  "controls": [
+    {
+      "id": "P1",
+      "name": "no material regime change",
+      "verdict": "PASS_SPEC"
+    },
+    {
+      "id": "P2",
+      "name": "genuine authorized change",
+      "verdict": "PASS_SPEC"
+    },
+    {
+      "id": "P3",
+      "name": "indistinguishable evidence",
+      "verdict": "PASS_SPEC_EPISTEMIC_BEHAVIOR_MISSION_COMPLETION_NOT_ESTABLISHED"
+    },
+    {
+      "id": "P4",
+      "name": "valid current work during unresolved alternative",
+      "verdict": "PASS_SPEC"
+    }
+  ],
+  "acceptance": {
+    "result": "INSIDE_STAGE_A_ACCEPTANCE_WITHIN_DECLARED_SCOPE",
+    "evidence_mode": "DOCUMENTARY_SYMBOLIC_SPECIFICATION_ADJUDICATION",
+    "meaning": "Selected EA requirements are sufficiently discriminative to specify required behavior over the frozen HF negative-route family and controls.",
+    "not_established": [
+      "architecture realization",
+      "runtime detector accuracy",
+      "runtime computation",
+      "EHD/signalling operation",
+      "human availability or correctness",
+      "enforcement",
+      "historical incident prevention",
+      "Stage B",
+      "Stage C"
+    ]
+  },
+  "deferred_public_spec_hardening": [
+    "dedicated bounded escalation/reporting path distinct from ordinary task/peer coordination",
+    "named destination/owner, requested decision, evidence bundle, deadline and no-response fallback",
+    "avoid incentives/score or reward penalties that predictably suppress legitimate safety escalation where scoring exists",
+    "qualify human/institutional responses rather than treating human authorship as truth",
+    "preserve legitimate task continuity where escalation is appropriate",
+    "account for capacity/latency of escalation",
+    "separate escalation signal, authority grant and executed intervention"
+  ],
+  "later_stage_boundary": {
+    "stage_B": "EA/EP/MSCA architecture is only a candidate; HF-specific Stage B oracle is not complete/frozen and no Stage B campaign has been passed.",
+    "stage_C": "Not started; no pinned implementation/native execution/problem-validation result."
+  }
+}
