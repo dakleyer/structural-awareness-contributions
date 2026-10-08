@@ -1,9 +1,10 @@
 # DDS Stage A — Gate Diagnostic Validation Plan v0.1
 
-**Status:** preregistered validation plan for the draft gate diagnostic profile · no completed validation claim.  
+**Status:** preregistered validation plan for the draft gate diagnostic profile · initial maintainer-side structural portability run completed; independent/candidate result validation still open.  
 **Date:** 8 October 2026.  
 **Gate profile:** [DDS Stage A Gate Diagnostic Profile v0.1 Draft](./DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.1_DRAFT.md)  
-**Gate catalog:** [DDS Stage A Gate Catalog v0.1 Draft](./DDS_STAGE_A_GATE_CATALOG_v0.1_DRAFT.json)
+**Gate catalog:** [DDS Stage A Gate Catalog v0.1 Draft](./DDS_STAGE_A_GATE_CATALOG_v0.1_DRAFT.json)  
+**Initial structural run:** [Gate Diagnostic Validation Run v0.1](./DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_RUN_v0.1.md)
 
 ## 1. Purpose
 
