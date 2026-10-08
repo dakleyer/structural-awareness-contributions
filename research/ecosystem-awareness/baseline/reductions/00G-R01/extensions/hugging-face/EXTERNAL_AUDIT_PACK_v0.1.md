@@ -76,8 +76,8 @@ Primary public sources used by the historical reconstruction:
 18. [Stage A Run Card / evaluator-oracle design](./DDS_STAGE_A_RUN_CARD_v0.1.json) — machine-readable branches, expected dispositions, negative-family kernel and acceptance rule. **Design artifact; deterministic execution remains pending.**
 19. [Canonical EA Requirements S1–S14 / T1–T4](../../../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) — authoritative frozen requirement source used by the Stage A adjudication.
 20. [EA FG-TIDA Specification Preparation v0.3 Draft](../../../../../fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) — specification-level projection and ownership classification. The Stage A adjudication pins the pre-hardening blob identified in the adjudication file; later escalation hardening is explicitly not retroactive Stage A credit.
-21. [EA Requirement-Level Stage A Adjudication v0.1](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) — authoritative current Stage A scoring document. Deliberately strips signalling, EHD, Regime Awareness, MSCA, Gradient, Repositioning, human rescue and Stage-B controls.
-22. [Stage A Machine-Readable Result v0.1](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json) — gate-by-gate and branch-by-branch result: `INSIDE_STAGE_A_ACCEPTANCE_WITHIN_DECLARED_SCOPE`, evidence mode `DOCUMENTARY_SYMBOLIC_SPECIFICATION_ADJUDICATION`.
+21. [EA Requirement-Level Stage A Adjudication v0.1](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) — preserved original self-adjudication record; superseded for current claim wording by the audit-corrected v0.2 document linked above.
+22. [Stage A Machine-Readable Result v0.1](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json) — preserved original result record; superseded for current claim wording by the audit-corrected v0.2 result linked above.
 
 Auditor should verify especially:
 
