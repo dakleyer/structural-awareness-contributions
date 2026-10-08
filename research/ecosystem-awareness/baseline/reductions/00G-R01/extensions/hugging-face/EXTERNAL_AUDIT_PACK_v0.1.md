@@ -8,6 +8,23 @@
 
 ---
 
+## 0. External-audit correction — 8 October 2026
+
+After this pack was first published, external review identified material corrections. **Read these before the original audit order:**
+
+- [External Audit Response 2026-10-08](./EXTERNAL_AUDIT_RESPONSE_2026-10-08.md)
+- [Stage A v0.2 audit-corrected coverage adjudication](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.2_AUDIT_CORRECTED.md)
+- [Stage A v0.2 current result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json)
+- [Blind second-reader packet](./DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.1.md)
+
+**Current Stage A status is NOT the original v0.1 PASS.** It is:
+
+    COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING
+
+The v0.1 adjudication/result remain preserved as audit history. Historical source corrections also update the reconstruction, event matrix, evidence register and trace packets.
+
+---
+
 ## A. Start here — extension identity and scope
 
 1. [Hugging Face extension README](./README.md) — entry point; relation to R01, historical-vs-constructed scope, extension claims and current DDS route.
