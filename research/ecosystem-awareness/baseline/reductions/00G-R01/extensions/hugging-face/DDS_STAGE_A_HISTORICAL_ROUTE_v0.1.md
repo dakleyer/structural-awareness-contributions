@@ -1,6 +1,6 @@
 # DDS Stage A — Historical Hugging Face 2026 Specification-Discovery Route v0.1
 
-**Status:** Simplified DDS Stage A design / pre-registration candidate · deterministic historical/control route · not executed as a Stage A campaign · not Stage B architecture verification · not Stage C implementation validation.
+**Status:** Simplified DDS Stage A historical/control route · strengthened negative-family design · **EA requirement-level Stage A adjudication completed separately within declared documentary/symbolic scope** · deterministic fixture execution still pending · not Stage B architecture verification · not Stage C implementation validation.
 
 **Date:** 7 October 2026.
 
@@ -8,9 +8,11 @@
 
 **Historical basis:** [Historical Incident Reconstruction](./HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md) · [Cross-Source Event Matrix](./CROSS_SOURCE_EVENT_MATRIX_v0.1.md) · [Evidence Register](./HISTORICAL_INCIDENT_EVIDENCE_v0.1.json) · [First Historical Trace Packets](./FIRST_HISTORICAL_TRACE_PACKETS_v0.1.md).
 
-**Candidate mechanism basis:** [A/B/C/D Requirements + Repositioning Trace](./ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md) · [Population Context-Shift Model](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md).
+**Architecture-plausibility lineage only:** [A/B/C/D Requirements + Repositioning Trace](./ABCD_REQUIREMENTS_REPOSITIONING_TRACE_v0.1.md) · [Population Context-Shift Model](./POPULATION_CONTEXT_SHIFT_ABCD_MODEL_v0.1.md). These architecture-specific mechanisms are **not** the object scored in the current Stage A specification adjudication.
 
 **Deterministic Run Card / evaluator-oracle design:** [DDS_STAGE_A_RUN_CARD_v0.1.json](./DDS_STAGE_A_RUN_CARD_v0.1.json).
+
+**Authoritative current Stage A specification adjudication:** [DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md) · [machine-readable result](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json). The object under test there is the EA requirement-level specification, not Repositioning, Signalling, EHD, MSCA, Regime Awareness, Gradient or any other architecture.
 
 **Architecture-plausibility annex (pre-Stage-B only):** [STAGE_B_PLAUSIBILITY_ANNEX_ABCD_REGIME_REPOSITIONING_v0.1.md](./STAGE_B_PLAUSIBILITY_ANNEX_ABCD_REGIME_REPOSITIONING_v0.1.md). This annex does not change Stage A acceptance or evidence.
 
@@ -44,7 +46,7 @@ That makes it a **Simplified DDS Stage A profile** under the canonical method.
 
 The Stage A question is:
 
-> **What minimum specification would have been sufficient, on the frozen Hugging Face incident route, to detect that the operating regime was materially changing, prevent technical/population evidence from silently becoming authority, and force a legitimate requalification/repositioning path before a participant adopted an HF-attacker-like role — while still allowing a genuine authorized regime/role change?**
+> **What minimum requirement-level specification is sufficient, on the frozen Hugging Face route family, to distinguish material frame change from ordinary variation, prevent technical/population evidence from silently becoming authority, preserve unresolved state, and constrain the affected decision to a legitimate bounded disposition — while still allowing a genuinely authorized material change?**
 
 This question is deliberately stronger than:
 
@@ -574,7 +576,17 @@ These are **deterministic fixture targets for this Stage A profile**, not univer
 
 ## 10. Stage A candidate specification package — HF-SA-SPEC-v0.1
 
-The candidate specification to be tested is:
+### Stage ownership correction — 8 October 2026
+
+The HF-SA-S01–S12 material below is preserved as **pre-Stage-B architecture-plausibility lineage** from the 7 October design pass. It is **not the authoritative object scored by the current Stage A adjudication**, because it names architecture-specific constructs such as Cartography, Regime Awareness, Gradient, RepositionIntent and ACC transition machinery.
+
+The authoritative Stage A object is now the requirement-level S/T specification and ownership boundaries adjudicated in [DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md). No architecture mechanism receives Stage A credit there.
+
+The candidate architecture concepts below remain useful only as a future Stage B mapping hypothesis.
+
+
+
+The retained architecture-plausibility candidate was:
 
 ### HF-SA-S01 — bind current role/objective/ACC before interpreting regime change
 
@@ -737,41 +749,37 @@ The candidate Stage A specification is falsified or materially narrowed if any o
 
 ## 15. Stage A output status
 
-### What is now specified
+### Current Stage A result
 
-- frozen Challenge meaning;
-- historical route H0–H8;
-- reduced I/M/P/Ø semantics;
-- HF-Q0–HF-Q9 trajectory gates;
-- BPMN-style candidate process;
-- positive/negative deterministic branch set;
-- hard quality plan;
-- candidate HF-SA-S01–S12 specification;
-- requirements mapping;
-- falsifiers and evidence ceiling.
+The strengthened historical/negative route is now paired with a completed **requirement-level documentary/symbolic adjudication**:
 
-### What is not yet established
+- [DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md](./DDS_STAGE_A_EA_SPECIFICATION_ADJUDICATION_v0.1.md)
+- [DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json](./DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json)
 
-- an executed deterministic Stage A fixture;
-- independent adjudication;
-- a quantitative population change-point detector;
-- that the architecture can realize HF-SA-S01–S12;
-- that any current product implements them;
-- that the historical attack would have been prevented;
-- comparative superiority over strong conventional controls;
-- Stage B readiness until this Stage A package is frozen/reviewed and its acceptance policy is accepted.
+Within that deliberately stripped autonomous profile, the selected EA specification is:
 
-### Next Stage A work
+**INSIDE_STAGE_A_ACCEPTANCE_WITHIN_THIS_DECLARED_SCOPE.**
 
-1. freeze exact historical inputs for the selected H0–H8 / HF-Q boundaries;
-2. create evaluator-private branch cards B1–B6;
-3. define the exact visible inputs at each trajectory gate;
-4. create deterministic expected dispositions for HF-Q0–HF-Q9;
-5. create a machine-readable Run Card / oracle for the Simplified Stage A;
-6. execute the historical-pressure branch and positive controls;
-7. independently review gate correctness and source fidelity;
-8. freeze HF-SA-SPEC-v0.1 only after the deterministic route is stable;
-9. only then prepare a Stage B entry package.
+The scored object is the canonical S/T requirement-level specification and ownership boundaries. No architecture mechanism, human rescue, external EA signalling, EHD transport, Repositioning, MSCA, Regime Awareness, Gradient or enforcement implementation receives credit.
+
+### What remains stronger evidence work inside Stage A
+
+- deterministic fixture execution of the strengthened HF-N0…HF-N9 family;
+- independent adjudication / second-reader review;
+- exact visible-versus-evaluator-private branch cards;
+- stronger empirical or executable evidence where useful.
+
+Those items can strengthen the Stage A evidence mode but are **not required to reinterpret the current documentary/symbolic specification result as Stage B**.
+
+### What is not established
+
+- that any architecture realizes the accepted Stage A specification;
+- a completed/frozen HF-specific Stage B oracle;
+- Stage B verification;
+- any current product implementation;
+- Stage C native implementation/problem validation;
+- historical prevention;
+- comparative superiority over a strong conventional architecture.
 
 ---
 
