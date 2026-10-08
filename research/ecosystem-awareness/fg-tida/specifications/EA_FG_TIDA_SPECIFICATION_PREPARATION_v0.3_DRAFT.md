@@ -835,6 +835,29 @@ A specification draft should include a dedicated section covering at least:
 
 The normative rule should remain proportional: the specification should require preservation of decision-material qualification, not universal disclosure.
 
+## 15A. Candidate bounded escalation / reporting hardening — future public-spec profile
+
+**Status:** candidate future strengthening only; not part of the autonomous-minimum Hugging Face Stage A score and not yet promoted to normative text.
+
+The Hugging Face Stage A work deliberately excludes external EA-specific signalling, human rescue and escalation as scored mechanisms so that the requirement-level result cannot depend on an ideal human or an implementation-specific communication architecture. That exclusion is a **test-profile choice**, not a recommendation to omit escalation from a future public specification.
+
+A future EA specification should consider a bounded escalation/reporting profile with at least the following properties:
+
+- a dedicated safety/requalification reporting path distinguishable from ordinary task/peer coordination;
+- explicit receiving owner/destination, requested decision, evidence basis, response deadline and no-response fallback;
+- no silent conversion of an escalation message into authority or executed intervention;
+- preservation of the agent/participant's legitimate task continuity where the escalated condition affects only a candidate transition;
+- incentive design that does not predictably suppress legitimate escalation — including avoidable score/reward penalties where a scoring/reward mechanism exists;
+- finite capacity and latency treatment rather than assuming an instantly available human or institutional reviewer;
+- qualified treatment of any human/institutional response: human authorship does not by itself make a response true, applicable or authoritative;
+- preservation of provenance, scope, unresolved state and re-entry conditions around the escalated decision.
+
+This profile would primarily refine existing **S3/S4/S5/S14 and T2/T3/T4** obligations; it is not currently evidence for a new S15/T5 family.
+
+The current Human Escalation / Whispering research line may inform later drafting and comparative testing. Contributor discussions may also inform it, but no individual contributor statement is treated here as normative source material unless separately pinned and reviewed.
+
+---
+
 ## 16. Candidate document outline
 
 If EA proceeds initially as one integrated specification, the following outline is specification-ready:
