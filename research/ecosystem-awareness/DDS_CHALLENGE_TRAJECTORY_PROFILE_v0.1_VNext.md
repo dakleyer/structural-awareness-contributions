@@ -120,3 +120,21 @@ Any future Stage A change should pass all of these:
 The live Stage A source is ready to be consumed as the canonical Specification-Discovery Stage. Future work should open a new concrete Stage A proposal only when a real scientific or structural change is identified; incorporated history stays in Git rather than returning here as a zombie task.
 
 Current next work belongs to the DDS Index, Stage B or Stage C, not to Stage A.
+
+
+---
+
+## Gate-diagnostic successor work — 8 October 2026
+
+A new additive Stage A diagnostic subprofile has been drafted to address a limitation exposed by the current requirement-level audits: a single Stage A acceptance state does not show which properties pass, which are merely declared, which depend on unresolved prerequisites, or what minimum remediation would unlock downstream properties.
+
+Current draft artefacts:
+
+- [DDS Stage A Gate Diagnostic Profile v0.1 Draft](./DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.1_DRAFT.md)
+- [DDS Stage A Gate Catalog v0.1 Draft](./DDS_STAGE_A_GATE_CATALOG_v0.1_DRAFT.json)
+- [DDS Stage A Gate Diagnostic Validation Plan v0.1](./DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_PLAN_v0.1.md)
+- [FG-TIDA Decision Boundary Evaluation Profile v0.2 Draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.2_DRAFT.md)
+
+The proposal is **not another DDS method and does not modify frozen Stage A results**. It adds a gate-by-gate output layer with independent verdict, level and dependency status; root-blocker analysis; and a Stage-B handoff queue. The core catalog is technology-neutral and must be validated across historical, mathematical/reduction and non-HF technology families before promotion.
+
+No canonical v0.1 gate semantics are changed by this VNext entry.
