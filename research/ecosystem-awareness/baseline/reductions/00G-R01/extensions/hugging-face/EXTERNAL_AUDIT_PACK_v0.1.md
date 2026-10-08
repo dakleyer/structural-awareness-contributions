@@ -72,7 +72,7 @@ Primary public sources used by the historical reconstruction:
 
 ## E. Stage A — Challenge, route family, oracle design and result
 
-17. [Stage A Historical Hugging Face Route v0.1](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md) — frozen Challenge, strengthened negative-route family, anti-overfitting design, HF-N0…HF-N9, trajectory gates and positive/boundary controls.
+17. [Stage A Historical Hugging Face Route v0.1](./DDS_STAGE_A_HISTORICAL_ROUTE_v0.1.md) — frozen Challenge, strengthened negative-route family, anti-overfitting design, HF-N0…HF-N10, trajectory gates and positive/boundary controls.
 18. [Stage A Run Card / evaluator-oracle design](./DDS_STAGE_A_RUN_CARD_v0.1.json) — machine-readable branches, expected dispositions, negative-family kernel and acceptance rule. **Design artifact; deterministic execution remains pending.**
 19. [Canonical EA Requirements S1–S14 / T1–T4](../../../../00_CANONICAL_REQUIREMENTS_CHALLENGES_SUFFICIENCY_HYPOTHESES_KPIS.md) — authoritative frozen requirement source used by the Stage A adjudication.
 20. [EA FG-TIDA Specification Preparation v0.3 Draft](../../../../../fg-tida/specifications/EA_FG_TIDA_SPECIFICATION_PREPARATION_v0.3_DRAFT.md) — specification-level projection and ownership classification. The Stage A adjudication pins the pre-hardening blob identified in the adjudication file; later escalation hardening is explicitly not retroactive Stage A credit.
@@ -83,7 +83,7 @@ Auditor should verify especially:
 
 - the object under test is the requirement-level specification, not the architecture;
 - external-owner requirements are treated as frozen facts/non-invention constraints rather than EA-created authority;
-- HF-N0…HF-N9 preserve the negative-family kernel and are not historical-path patches;
+- HF-N0…HF-N10 preserve the negative-family kernel and are not historical-path patches;
 - genuine authorized change and no-change/UNKNOWN controls prevent a deny-all shortcut;
 - the result is bounded to documentary/symbolic Stage A evidence and does not claim architecture realization or prevention.
 
