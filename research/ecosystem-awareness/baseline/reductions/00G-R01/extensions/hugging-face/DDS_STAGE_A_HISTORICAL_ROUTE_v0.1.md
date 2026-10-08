@@ -12,6 +12,8 @@
 
 **Deterministic Run Card / evaluator-oracle design:** [DDS_STAGE_A_RUN_CARD_v0.1.json](./DDS_STAGE_A_RUN_CARD_v0.1.json).
 
+**Architecture-plausibility annex (pre-Stage-B only):** [STAGE_B_PLAUSIBILITY_ANNEX_ABCD_REGIME_REPOSITIONING_v0.1.md](./STAGE_B_PLAUSIBILITY_ANNEX_ABCD_REGIME_REPOSITIONING_v0.1.md). This annex does not change Stage A acceptance or evidence.
+
 ---
 
 ## 0. Why this is Stage A, and why it is Simplified
