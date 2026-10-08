@@ -60,9 +60,9 @@ Their detailed historical text remains available in Git history. They are not ac
 
 ## 3. Pending Stage A changes
 
-**None.**
+**No rewrite of the canonical v0.1 source is pending. One additive successor proposal is active: the gate-diagnostic subprofile described below.**
 
-Stage A science, reader taxonomy, entry/exit boundary, Simplified coverage semantics, Stage B handoff contract and profile mapping are all incorporated in the live source.
+The existing Stage A science, reader taxonomy, entry/exit boundary, Simplified coverage semantics, Stage B handoff contract and profile mapping are incorporated in the live source. The gate-diagnostic proposal adds a result/diagnostic layer without changing those frozen semantics.
 
 The former `GA-P01` is complete:
 
@@ -115,11 +115,11 @@ Any future Stage A change should pass all of these:
 
 ## 6. Current decision
 
-**Stage A has no active pending change in this VNext.**
+**The canonical Stage A v0.1 source remains unchanged. The only active Stage A successor work is the additive gate-diagnostic subprofile below.**
 
-The live Stage A source is ready to be consumed as the canonical Specification-Discovery Stage. Future work should open a new concrete Stage A proposal only when a real scientific or structural change is identified; incorporated history stays in Git rather than returning here as a zombie task.
+The live Stage A source remains the canonical Specification-Discovery Stage. The gate-diagnostic work is deliberately isolated in versioned draft artefacts so no historical Stage A result, theorem or acceptance record is silently reinterpreted.
 
-Current next work belongs to the DDS Index, Stage B or Stage C, not to Stage A.
+After the gate-diagnostic subprofile is independently reviewed and exercised with frozen result tables, a separate promotion decision can determine whether any part belongs in a future Stage A version. Stage B and Stage C work remain independently owned.
 
 
 ---
