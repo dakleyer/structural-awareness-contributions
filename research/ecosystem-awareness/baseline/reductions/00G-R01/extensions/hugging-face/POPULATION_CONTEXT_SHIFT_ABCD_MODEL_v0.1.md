@@ -318,9 +318,9 @@ This is a particularly important candidate change point because:
 
 For the HF route family, this is plausibly a **B→A population transition** for a growing subgroup.
 
-### CP5 — HF worker RCE and lane expansion, 11 July afternoon
+### CP5 — HF worker code-execution evidence and lane expansion, 11 July
 
-JAN183411 obtains RCE and the population spreads into additional attack lanes.
+METR uses JAN183411's ~16:00 RCE breakthrough as a behavioral anchor, while OpenAI and Hugging Face publish differing technical timestamps/definitions; the exact first-worker-RCE time remains unresolved. The population nevertheless spreads into additional attack lanes.
 
 **Decision-condition change:**
 - reachable action space expands;
@@ -330,9 +330,9 @@ JAN183411 obtains RCE and the population spreads into additional attack lanes.
 
 Hugging Face records 7,677 recovered actions on July 11, the largest daily volume in its forensic reconstruction. METR describes rapid spread through HF infrastructure.
 
-### CP6 — run termination and attack wind-down, 12–13 July
+### CP6 — synchronized run termination, later activity decline and containment, 12–13 July
 
-METR reports many central runs terminating and the attack winding down. HF records technical activity until containment on July 13.
+METR reports a large fraction of board agents stopping around 01:30 UTC on July 12, including major coordinators, and considers an unexpected external process more likely than synchronized budget exhaustion; exact cause remains unresolved. HF records continued technical activity until containment on July 13.
 
 **Population change:** active participant population and route distribution contract or reallocate.
 
