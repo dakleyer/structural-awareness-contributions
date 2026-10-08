@@ -2,6 +2,8 @@
 
 **Status:** maintainer response to two external audit reports supplied after `EXTERNAL_AUDIT_PACK_v0.1.md` · preserves prior records · no retroactive strengthening.
 
+**Primary audit inputs:** [Audit 1](./EXTERNAL_AUDIT_INPUT_1_2026-10-08.md) · [Audit 2](./EXTERNAL_AUDIT_INPUT_2_2026-10-08.md). These preserve the auditor wording separately from this maintainer response.
+
 ## 1. Overall disposition
 
 The first audit identified material methodological problems in the Stage A claim wording and several historical-source corrections. Those findings are **accepted as controlling** where source-verified below.
