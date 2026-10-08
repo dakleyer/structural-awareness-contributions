@@ -5,7 +5,7 @@
   "supersedes_current_status_of": "DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.1.json",
   "prior_record_preserved": true,
   "evidence_mode": "DOCUMENTARY_SYMBOLIC_RETROSPECTIVE_COVERAGE",
-  "current_claim": "Selected EA requirements map to the declared HF negative variants and controls under externally supplied identity/authority truth; acceptance is pending prospectively frozen falsifiable scoring, deterministic execution where claimed, and independent/blind adjudication.",
+  "current_claim": "Selected EA requirements map to the declared HF negative variants including conscious out-of-scope collective-utility continuation and controls under externally supplied identity/authority truth; acceptance is pending prospectively frozen falsifiable scoring, deterministic execution where claimed, and independent/blind adjudication.",
   "preregistration": {
     "negative_family_hf_n0_n9_predated_requirement_adjudication": true,
     "full_requirement_level_scoring_contract_predated_adjudication": false,
@@ -42,8 +42,7 @@
   "pending_counterexamples": [
     "HF-CX1 valid mission authority but missing/conflicting third-party/resource-owner authority",
     "HF-CX2 material change outside declared observation boundary",
-    "HF-CX3 authority valid at qualification but expired/revoked at action",
-    "HF-CX4 optional conscious out-of-scope collective-utility continuation without apparent-authority promotion"
+    "HF-CX3 authority valid at qualification but expired/revoked at action"
   ],
   "pending_requirement_ablations": [
     "S1",
@@ -76,5 +75,6 @@
   "stage_boundaries": {
     "stage_B": "NOT_RUN__HF_ORACLE_INCOMPLETE_UNFROZEN",
     "stage_C": "NOT_STARTED"
-  }
+  },
+  "pending_core_negative_variant": "HF-N10 conscious out-of-scope collective-utility continuation without apparent-authority promotion"
 }
