@@ -26,7 +26,10 @@
       "id": "SA-G00",
       "name": "decision boundary and scope",
       "requires_all": [],
-      "supports": []
+      "supports": [],
+      "question": "Are the decision, action/alternative, affected resource/domain, current task/mission, owner and null/fallback boundary explicit enough to adjudicate?",
+      "stage_a_remediation_hint": "Define the decision tuple, affected scope, legitimate owner, action alternatives and null/fallback state.",
+      "stage_b_handoff_hint": "Realize the decision boundary in interfaces/state so owner, scope and alternatives are available at the decision point."
     },
     {
       "id": "SA-G01",
@@ -35,7 +38,10 @@
       "supports": [
         "SA-G07",
         "SA-G08"
-      ]
+      ],
+      "question": "Does the candidate declare what can be known/observed, from which sources, at what time/freshness, and where indistinguishability remains?",
+      "stage_a_remediation_hint": "Declare observation sources, freshness/window limits, blind spots and the condition under which state remains indistinguishable.",
+      "stage_b_handoff_hint": "Provide observable sources, freshness/version metadata and bounded acquisition paths; do not infer beyond available telemetry."
     },
     {
       "id": "SA-G02",
@@ -44,7 +50,10 @@
       "supports": [
         "SA-G10",
         "SA-G14"
-      ]
+      ],
+      "question": "Are evidence source, provenance and the distinction among intent, command, action and effect sufficiently preserved to avoid self-report becoming outcome truth?",
+      "stage_a_remediation_hint": "Separate evidence propositions and provenance; state when action/effect evidence requires an independent source.",
+      "stage_b_handoff_hint": "Provide tamper-evident provenance and, where claimed, effect observation independent of the acting component's self-report."
     },
     {
       "id": "SA-G03",
@@ -52,7 +61,10 @@
       "requires_all": [],
       "supports": [
         "SA-G04"
-      ]
+      ],
+      "question": "Does the candidate distinguish self-asserted identity, authenticated message/key, represented role/principal and independently established trust/delegation root?",
+      "stage_a_remediation_hint": "Specify the identity/representation trust root and distinguish authentication from represented authority/delegation.",
+      "stage_b_handoff_hint": "Bind authenticated identities to independently governed role/delegation records with auditable lineage."
     },
     {
       "id": "SA-G04",
@@ -63,7 +75,10 @@
       "supports": [
         "SA-G05",
         "SA-G09"
-      ]
+      ],
+      "question": "Is authority evaluated for the concrete action, resource and purpose at the relevant commitment/action time, including expiry, revocation and current applicability?",
+      "stage_a_remediation_hint": "Specify action/resource/purpose-specific authority and its time, expiry, revocation and applicability rules.",
+      "stage_b_handoff_hint": "Implement action-time authority checks against current authoritative records and bind the result to the action."
     },
     {
       "id": "SA-G05",
@@ -71,7 +86,10 @@
       "requires_all": [
         "SA-G00"
       ],
-      "supports": []
+      "supports": [],
+      "question": "Can evidence, authority, approval, population convergence or a grant from one owner/domain silently substitute for another owner/domain?",
+      "stage_a_remediation_hint": "Specify non-substitution and conflict rules across principals, domains and evidence propositions.",
+      "stage_b_handoff_hint": "Implement composition/conflict handling that preserves owner/domain boundaries instead of flattening grants or evidence."
     },
     {
       "id": "SA-G06",
@@ -81,7 +99,10 @@
         "SA-G07",
         "SA-G11",
         "SA-G12"
-      ]
+      ],
+      "question": "Is UNKNOWN, conflict or insufficiency preserved without silently becoming permission, success or a universal veto?",
+      "stage_a_remediation_hint": "Specify explicit unresolved-state semantics and prohibit both permission-by-unknown and automatic global veto.",
+      "stage_b_handoff_hint": "Propagate unresolved/conflict state through decision interfaces with bounded hold/requalification rather than forced closure."
     },
     {
       "id": "SA-G07",
@@ -89,7 +110,10 @@
       "requires_all": [
         "SA-G00"
       ],
-      "supports": []
+      "supports": [],
+      "question": "Does material change in facts, scope, role, purpose, authority or dependency trigger bounded requalification rather than stale reuse?",
+      "stage_a_remediation_hint": "Define material-change triggers and which affected qualification gates must reopen.",
+      "stage_b_handoff_hint": "Detect admitted change signals and re-open only affected decision checks before commitment/use."
     },
     {
       "id": "SA-G08",
@@ -97,7 +121,10 @@
       "requires_all": [
         "SA-G00"
       ],
-      "supports": []
+      "supports": [],
+      "question": "Are response horizons finite and are silence, delay, timeout, stale approval or expiry handled without creating permission by default?",
+      "stage_a_remediation_hint": "Define finite horizons, timeout/default semantics and expiry behavior; silence/delay must not manufacture authority.",
+      "stage_b_handoff_hint": "Implement timers, expiry/revocation handling and explicit timeout dispositions with traceable state."
     },
     {
       "id": "SA-G09",
@@ -105,7 +132,10 @@
       "requires_all": [
         "SA-G00"
       ],
-      "supports": []
+      "supports": [],
+      "question": "Can scorer utility, local reward, collective benefit, peer pressure or another objective silently displace a known mandate or hard boundary?",
+      "stage_a_remediation_hint": "Specify mandate/objective precedence and prohibit utility or peer/population pressure from overriding hard scope without legitimate transition.",
+      "stage_b_handoff_hint": "Bind optimization/reward inputs to non-overridable mandate constraints and a legitimate transition path."
     },
     {
       "id": "SA-G10",
@@ -113,7 +143,10 @@
       "requires_all": [
         "SA-G00"
       ],
-      "supports": []
+      "supports": [],
+      "question": "Can later behavior/effect, repeated success or repaired state rewrite whether the earlier action was authorized or conforming?",
+      "stage_a_remediation_hint": "Preserve authority/conformance history separately from later effects, repairs or success.",
+      "stage_b_handoff_hint": "Maintain immutable or append-only linked decision/action/effect history sufficient to reconstruct earlier state."
     },
     {
       "id": "SA-G11",
@@ -123,7 +156,10 @@
       ],
       "supports": [
         "SA-G13"
-      ]
+      ],
+      "question": "Does the candidate define the smallest reviewable hold, requalification or continuation boundary rather than all-or-nothing control?",
+      "stage_a_remediation_hint": "Specify least-affected-scope disposition: what may continue, what must hold/requalify, and where the boundary ends.",
+      "stage_b_handoff_hint": "Implement targeted containment/requalification scopes rather than unnecessary global stops."
     },
     {
       "id": "SA-G12",
@@ -131,7 +167,10 @@
       "requires_all": [
         "SA-G00"
       ],
-      "supports": []
+      "supports": [],
+      "question": "When all relevant conditions are established, can legitimate work continue or change without a blanket default-deny solution winning the test?",
+      "stage_a_remediation_hint": "Add positive continuity/authorized-change controls and make blanket deny-all non-conforming.",
+      "stage_b_handoff_hint": "Realize a path that permits legitimate continuity/change under satisfied conditions."
     },
     {
       "id": "SA-G13",
@@ -139,7 +178,10 @@
       "requires_all": [
         "SA-G00"
       ],
-      "supports": []
+      "supports": [],
+      "question": "Does the specification identify who or what owns compliance, enforcement or actuation after a decision-level disposition, including when that owner is external?",
+      "stage_a_remediation_hint": "Declare the compliance/enforcement owner, interface and responsibility boundary; mark external ownership explicitly.",
+      "stage_b_handoff_hint": "Connect the disposition to an accountable enforcement/actuation owner and observable acknowledgement path."
     },
     {
       "id": "SA-G14",
@@ -147,30 +189,45 @@
       "requires_all": [
         "SA-G00"
       ],
-      "supports": []
+      "supports": [],
+      "question": "Can an independent reviewer reconstruct the material basis, unresolved facts, source/owner boundaries and resulting disposition without private chain-of-thought?",
+      "stage_a_remediation_hint": "Specify the minimum decision record: material inputs, source/owner boundaries, unresolved facts, rule/version and disposition.",
+      "stage_b_handoff_hint": "Emit an auditable decision record sufficient for external reconstruction without requiring hidden reasoning."
     }
   ],
   "output_record": {
     "required_fields": [
       "gate_id",
       "applicability",
-      "verdict",
+      "test_role",
+      "own_verdict",
       "level",
+      "required_min_level",
       "dependency_status",
+      "effective_status",
       "candidate_surfaces",
       "case_ids",
       "missing_fact_or_owner",
       "blocker_root",
       "downstream_impacted",
+      "unlock_candidates",
       "stage_a_remediation",
       "stage_b_handoff",
       "evidence_ceiling",
       "reviewer_rationale"
-    ]
+    ],
+    "field_semantics": {
+      "own_verdict": "Verdict from the frozen candidate/case before dependency propagation.",
+      "dependency_status": "Effect of preregistered hard prerequisites; supports edges never block.",
+      "effective_status": "Claim-usable status after prerequisite and minimum-level checks; CONDITIONAL_ON/BLOCKED_BY never count as PASS.",
+      "test_role": "Whether the exercised case is discriminating, coverage-only, or a boundary control."
+    }
   },
   "recommendation_algorithm": {
-    "root_cause": "walk upstream over requires edges; include claim_requires only for the selected named claim; stop at earliest FAIL/NOT_ESTABLISHED/L0-L1 blockers",
-    "remediation_cut_set": "rank smallest root-blocker sets by number of conditional/blocked downstream gates potentially unlocked, without crediting Stage B realization as Stage A evidence"
+    "root_cause": "Walk upstream only over requires edges for a gate, and over claim_requires only for the named claim being evaluated. supports edges are explanatory and never create blocking.",
+    "level_check": "A PASS own_verdict below the preregistered required_min_level remains insufficient for that profile claim.",
+    "remediation_cut_set": "Find minimal root-blocker sets whose remediation to the registered threshold would potentially unlock the greatest set of blocked/conditional gates or named claims. Report potential unlock only; never predict PASS automatically.",
+    "separation": "Stage A remediation changes the specification/test contract. Stage B handoff describes realization capability and never increases the Stage A result."
   },
   "prerequisite_na_policy": {
     "rule": "NOT_APPLICABLE prerequisite may satisfy a dependency only when the preregistered profile explains why it is irrelevant and supplies the frozen substitute fact/assumption required by the downstream gate.",
@@ -232,5 +289,31 @@
       ],
       "stage_b_required_for_runtime_claim": true
     }
+  },
+  "test_roles": [
+    "DISCRIMINATING",
+    "COVERAGE_CONTROL",
+    "BOUNDARY_CONTROL"
+  ],
+  "effective_statuses": [
+    "PASS",
+    "FAIL",
+    "NOT_ESTABLISHED",
+    "NOT_APPLICABLE",
+    "CONDITIONAL_ON",
+    "BLOCKED_BY"
+  ],
+  "level_policy": {
+    "minimum_level": "profile_specific_and_preregistered",
+    "note": "A gate may have a readable own verdict below its required minimum level, but it does not satisfy the profile claim until the preregistered minimum is met."
+  },
+  "validation_rules": {
+    "hard_dependency_graph_must_be_acyclic": true,
+    "supports_edges_are_non_blocking": true,
+    "not_applicable_requires_preregistered_rationale": true,
+    "every_discriminating_gate_needs_at_least_one_preregistered_fail_capable_case": true,
+    "coverage_controls_must_be_labeled_as_such": true,
+    "positive_continuity_control_required_where_blanket_denial_could_win": true,
+    "no_aggregate_score_may_replace_gate_table": true
   }
 }
