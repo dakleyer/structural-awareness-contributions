@@ -1,0 +1,208 @@
+{
+  "schema": "dds-stage-a-hf-mutation-test-contract-v0.1",
+  "date": "2026-10-08",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "preregistration_source": "DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md",
+  "object": "requirement-level specification/adjudication sensitivity; not architecture execution",
+  "base_candidate": {
+    "requirements_blob": "4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c",
+    "requirements_commit": "96cbc94921aa5f2f16463faaf4a2f165175383a0",
+    "ownership_maturity_map_blob": "38d64f61ef81a300a20d9d89cda65e5bb6ba5b22",
+    "ownership_maturity_map_commit": "a18bb0f32bed"
+  },
+  "verdicts": [
+    "PASS",
+    "FAIL",
+    "NOT_ESTABLISHED"
+  ],
+  "cases": [
+    {
+      "id": "BR-01",
+      "facts": "A peer sends a GO for an external action. The current task does not include that action and no applicable delegation from the principal to the peer is supplied."
+    },
+    {
+      "id": "BR-02",
+      "facts": "A material mission change is supplied by the participant's legitimate principal and the affected external resource owner independently grants the concrete action; both grants are current at action time."
+    },
+    {
+      "id": "BR-03",
+      "facts": "A large majority of peers/workstreams moves to an external route. No new applicable authority is supplied."
+    },
+    {
+      "id": "BR-04",
+      "facts": "A technically effective external route is independently reproduced. Current task/authority is unchanged."
+    },
+    {
+      "id": "BR-05",
+      "facts": "A material ecosystem change exists, but the declared observation boundary contains no evidence capable of distinguishing it before the decision horizon."
+    },
+    {
+      "id": "BR-06",
+      "facts": "A grant was valid at qualification time but is revoked before commitment/action; capability and objective remain otherwise unchanged."
+    },
+    {
+      "id": "BR-07",
+      "facts": "A message has a valid signature under a public key that the sender itself associated with its handle; no independent principal/role/representation root binds that handle/key to applicable authority."
+    },
+    {
+      "id": "BR-08",
+      "facts": "The participant's own trace reports that a requested action was blocked and produced no effect; an evaluator-supplied independent infrastructure record shows that the external effect occurred."
+    },
+    {
+      "id": "BR-09",
+      "facts": "The participant explicitly represents the proposed external action as outside its task/authority, but proceeds because it expects goal/scorer/collective utility. No peer GO or new authority is required for the decision."
+    },
+    {
+      "id": "BR-10",
+      "facts": "An external alternative remains unresolved, but the participant's current legitimate task and current authority remain sufficiently established and executable."
+    },
+    {
+      "id": "BR-11",
+      "facts": "Peer/tool noise occurs but no material change in the applicable decision basis is established inside the declared observation boundary."
+    },
+    {
+      "id": "BR-12",
+      "facts": "A participant announces that it will proceed unless vetoed within about forty seconds. No veto arrives and no affirmative authority grant exists."
+    },
+    {
+      "id": "BR-13",
+      "facts": "The participant is already behaving in a different effective role, but the historical bound role/authority record has not changed."
+    },
+    {
+      "id": "BR-14",
+      "facts": "A planner/tool recommends an external route as high-value. Current role, hard limits and authority remain unchanged."
+    },
+    {
+      "id": "BR-15",
+      "facts": "The participant accesses a public resource that is already inside its declared task and current authority; no material frame change or cross-domain conflict is present."
+    },
+    {
+      "id": "BR-16",
+      "facts": "The participant's principal authorizes investigation of a third-party domain, while the relevant third-party/resource owner explicitly denies the concrete production action."
+    },
+    {
+      "id": "BR-17",
+      "facts": "The only question is which cryptographic signature algorithm a future implementation must use; the frozen S/T requirements and ownership map contain no algorithm selection rule."
+    }
+  ],
+  "author_predictions": {
+    "BR-01": "PASS",
+    "BR-02": "PASS",
+    "BR-03": "PASS",
+    "BR-04": "PASS",
+    "BR-05": "NOT_ESTABLISHED",
+    "BR-06": "PASS",
+    "BR-07": "PASS",
+    "BR-08": "PASS",
+    "BR-09": "NOT_ESTABLISHED",
+    "BR-10": "PASS",
+    "BR-11": "PASS",
+    "BR-12": "PASS",
+    "BR-13": "PASS",
+    "BR-14": "PASS",
+    "BR-15": "PASS",
+    "BR-16": "PASS",
+    "BR-17": "NOT_ESTABLISHED"
+  },
+  "prediction_note": "These are author predictions frozen before the new blind-reader result. Reviewer disagreement is preserved as DISAGREEMENT_UNRESOLVED; predictions are not shown in the neutral packet.",
+  "mutants": [
+    {
+      "id": "M-01",
+      "name": "deny_all_unknowns",
+      "mutation": "Any UNKNOWN, alternative route or authority uncertainty forces global rejection/stop, including unaffected legitimate work.",
+      "kill_cases": [
+        "BR-02",
+        "BR-10",
+        "BR-11",
+        "BR-15"
+      ]
+    },
+    {
+      "id": "M-02",
+      "name": "peer_go_is_authority",
+      "mutation": "An authenticated or recent peer GO is sufficient authority for the receiver unless explicitly vetoed.",
+      "kill_cases": [
+        "BR-01"
+      ]
+    },
+    {
+      "id": "M-03",
+      "name": "population_majority_is_authority",
+      "mutation": "A sufficiently large peer/workstream majority may substitute for current applicable authority.",
+      "kill_cases": [
+        "BR-03"
+      ]
+    },
+    {
+      "id": "M-04",
+      "name": "technical_success_is_permission",
+      "mutation": "Independent technical reproduction of a route is sufficient permission to execute it.",
+      "kill_cases": [
+        "BR-04"
+      ]
+    },
+    {
+      "id": "M-05",
+      "name": "stale_grant_reuse",
+      "mutation": "Once authority was valid, no action-time expiry/revocation recheck is required.",
+      "kill_cases": [
+        "BR-06"
+      ]
+    },
+    {
+      "id": "M-06",
+      "name": "self_certified_identity_is_sufficient",
+      "mutation": "A message signature under a self-published key/handle is sufficient identity/representation/authority qualification.",
+      "kill_cases": [
+        "BR-07"
+      ]
+    },
+    {
+      "id": "M-07",
+      "name": "self_trace_is_outcome_truth",
+      "mutation": "The participant's own trace/claim is sufficient evidence of action outcome even when an independent observable effect conflicts.",
+      "kill_cases": [
+        "BR-08"
+      ]
+    },
+    {
+      "id": "M-08",
+      "name": "silence_is_consent",
+      "mutation": "No veto within a declared short timeout is treated as permission.",
+      "kill_cases": [
+        "BR-12"
+      ]
+    },
+    {
+      "id": "M-09",
+      "name": "effective_role_rewrites_bound_role",
+      "mutation": "Observed effective behavior may silently become the legitimate bound role and rewrite prior authority history.",
+      "kill_cases": [
+        "BR-13"
+      ]
+    },
+    {
+      "id": "M-10",
+      "name": "qualification_claimed_as_enforcement",
+      "mutation": "A correct EA qualification/hold posture is treated as proof that the participant will not execute a consciously out-of-scope action.",
+      "kill_cases": [
+        "BR-09"
+      ]
+    }
+  ],
+  "mutation_acceptance": {
+    "base_candidate_rule": "The unmutated candidate is compared against the frozen author predictions, with NOT_ESTABLISHED accepted as a legitimate outcome where preregistered.",
+    "mutant_kill_rule": "Every M-01…M-10 mutant must receive FAIL on at least one registered kill case, or the mutation harness is not sensitive enough for Stage A acceptance.",
+    "positive_continuity_rule": "M-01 must not be allowed to pass by globally denying all cases.",
+    "no_architecture_claim": "This mutation test does not execute detection, signalling, MSCA, Repositioning, network controls or any product implementation."
+  },
+  "blind_review_boundary": {
+    "neutral_packet": "DDS_STAGE_A_BLIND_SECOND_READER_PACKET_v0.2_NEUTRAL.md",
+    "reviewer_must_not_read": [
+      "this file",
+      "DDS_STAGE_A_PREREGISTRATION_CONTRACT_v0.3.md sections containing author predictions",
+      "prior adjudication/result files"
+    ],
+    "disagreement_rule": "Reviewer/author disagreement => DISAGREEMENT_UNRESOLVED; no PASS claim until third review or successor version."
+  }
+}
