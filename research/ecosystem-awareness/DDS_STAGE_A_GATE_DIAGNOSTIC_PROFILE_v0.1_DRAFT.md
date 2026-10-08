@@ -107,22 +107,70 @@ These gates are properties of the test. They are not synonyms for any one EA S#/
 
 Dependencies are preregistered as a directed graph. They express logical diagnostic prerequisites, not implementation architecture.
 
-### 4.1 Default hard prerequisites
+### 4.1 Typed dependency edges
+
+The graph uses three edge types. Only `requires` blocks basic gate adjudication.
+
+- **requires** — logical prerequisite to adjudicate the downstream gate at all.
+- **claim_requires** — prerequisite only for a stronger named claim built from several gates.
+- **supports** — upstream property that improves or operationalizes the downstream property but is not logically necessary to score it.
+
+#### Default `requires` edges
 
 ```text
-SA-G04 <- SA-G00 + SA-G03
-SA-G05 <- SA-G00 + SA-G04
-SA-G07 <- SA-G00 + SA-G01 + SA-G06
-SA-G08 <- SA-G00 + SA-G01 + SA-G04
-SA-G09 <- SA-G00 + SA-G04 + SA-G05
-SA-G10 <- SA-G00 + SA-G02
-SA-G11 <- SA-G00 + SA-G06 + SA-G07
-SA-G12 <- SA-G00 + SA-G04 + SA-G06
-SA-G13 <- SA-G00 + SA-G11
-SA-G14 <- SA-G00 + SA-G02
+SA-G04 <- SA-G00
+SA-G05 <- SA-G00
+SA-G07 <- SA-G00
+SA-G08 <- SA-G00
+SA-G09 <- SA-G00
+SA-G10 <- SA-G00
+SA-G11 <- SA-G00
+SA-G12 <- SA-G00
+SA-G13 <- SA-G00
+SA-G14 <- SA-G00
 ```
 
-A Challenge may narrow these dependencies only by preregistered profile/version, with rationale. It may not delete a prerequisite after seeing the result.
+SA-G01, SA-G02, SA-G03 and SA-G06 are independently adjudicable.
+
+#### Default named `claim_requires`
+
+```text
+CLAIM-AUTHORITY-RESOLVED
+  requires SA-G04
+  plus SA-G03 when identity/representation is not frozen as an evaluator fact
+
+CLAIM-MATERIAL-CHANGE-DETECTED-AND-REQUALIFIED
+  requires SA-G01 + SA-G07
+
+CLAIM-UNRESOLVED-STATE-BOUNDED
+  requires SA-G06 + SA-G11
+
+CLAIM-MANDATE-INTEGRITY-ACROSS-DOMAINS
+  requires SA-G04 + SA-G05 + SA-G09
+
+CLAIM-VALID-CONTINUITY
+  requires SA-G04 + SA-G06 + SA-G12
+
+CLAIM-RECONSTRUCTABLE-EFFECT-BASIS
+  requires SA-G02 + SA-G14
+
+CLAIM-RUNTIME-ENFORCEABILITY
+  requires SA-G11 + SA-G13 at Stage A declaration level,
+  then Stage B architecture verification before runtime enforceability can be claimed
+```
+
+#### Default `supports` edges
+
+```text
+SA-G03 supports SA-G04
+SA-G04 supports SA-G05 and SA-G09
+SA-G01 supports SA-G07 and SA-G08
+SA-G06 supports SA-G07, SA-G11 and SA-G12
+SA-G02 supports SA-G10 and SA-G14
+SA-G11 supports SA-G13
+```
+
+A profile may add/remove typed edges only prospectively, with rationale and versioning.
 
 ### 4.2 Reading a conditional result
 
@@ -219,7 +267,7 @@ The recommendation engine operates on the frozen dependency graph and the observ
 
 For each non-PASS/conditional gate:
 
-1. walk upstream through hard prerequisites;
+1. walk upstream through `requires` edges, and through `claim_requires` only when the report is evaluating that named stronger claim;
 2. stop at the earliest FAIL/NOT_ESTABLISHED/L0-L1 prerequisite;
 3. record that gate as a root blocker;
 4. propagate the impact to all dependent gates.
@@ -228,7 +276,7 @@ This prevents five downstream symptoms from being reported as five unrelated def
 
 ### 8.2 Minimum remediation cut set
 
-Compute the smallest set of root blockers whose remediation to the preregistered threshold would unlock the largest number of conditional gates.
+Compute the smallest set of root blockers whose remediation to the preregistered threshold would unlock the largest number of conditional gates or named claims.
 
 Report, for each candidate remediation:
 
