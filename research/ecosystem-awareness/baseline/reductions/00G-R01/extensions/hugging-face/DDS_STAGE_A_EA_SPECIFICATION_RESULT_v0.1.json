@@ -198,5 +198,8 @@
   "later_stage_boundary": {
     "stage_B": "EA/EP/MSCA architecture is only a candidate; HF-specific Stage B oracle is not complete/frozen and no Stage B campaign has been passed.",
     "stage_C": "Not started; no pinned implementation/native execution/problem-validation result."
-  }
+  },
+  "audit_status": "SUPERSEDED_FOR_CURRENT_CLAIM_WORDING",
+  "superseded_by": "DDS_STAGE_A_EA_SPECIFICATION_RESULT_v0.2_AUDIT_CORRECTED.json",
+  "note": "Preserved original self-adjudication result. External audit downgraded current status to COVERAGE_ARGUMENT_COMPLETE__STAGE_A_ACCEPTANCE_PENDING."
 }
