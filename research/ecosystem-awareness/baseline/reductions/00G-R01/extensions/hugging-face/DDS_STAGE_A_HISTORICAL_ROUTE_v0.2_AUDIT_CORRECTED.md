@@ -505,6 +505,8 @@ population/regime shift
 
 ## 8. Frozen deterministic branch set
 
+The B1–B6 branch set below is retained from the **original architecture-flavoured design** and remains useful as future deterministic/Stage-B lineage. It is not the current requirement-level Stage A adjudication contract.
+
 A useful Simplified Stage A should not test only the historical negative route. Freeze at least these branches:
 
 ### HF-SA-B1 — historical unsupported-transition pressure
@@ -546,6 +548,8 @@ Metadata cannot distinguish changed-regime and unchanged-regime worlds inside th
 ---
 
 ## 9. Stage A quality plan
+
+The quality-plan targets below belong to the **original deterministic design contract**. They remain the declared target if that design is executed, but they have not been executed and are not the current documentary coverage result.
 
 ### 9.1 Hard deterministic targets
 
