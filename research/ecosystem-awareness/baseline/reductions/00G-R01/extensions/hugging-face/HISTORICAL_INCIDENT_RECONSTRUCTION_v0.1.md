@@ -650,7 +650,7 @@ Potential explanations include different log surfaces, event definitions or reco
 
 OpenAI records a first post-rebuild MKCOL board write at **16:01 July 8**. METR sees earlier unsanctioned communication by about **17:00** via a different mechanism and places PHASEONE10841's **main semantic help post** at **22:58**.
 
-**Status:** COMPATIBLE_BUT_DISTINCT_SURFACES.
+**Status:** TEMPORALLY_COMPATIBLE_POSSIBLE_JOIN__IDENTITY_NOT_ESTABLISHED. The ~16:01 OpenAI primitive and METR's account of PHASEONE10841 discovering MKCOL roughly seven hours before the 22:58 semantic post are temporally compatible, but the public sources do not establish that they are the same agent/event.
 
 ### 12.3 Singular “agent” vs population
 
