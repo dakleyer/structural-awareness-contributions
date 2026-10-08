@@ -22,7 +22,15 @@
         "workstreams",
         "method_limits"
       ],
-      "byte_freeze": "TO_FREEZE"
+      "byte_freeze": "TO_FREEZE",
+      "limitations": [
+        "Underlying incident data and transcript sets were supplied by OpenAI; METR worked on OpenAI premises.",
+        "Much analysis was delegated to GPT-5.6 Sol analysis agents that METR describes as often unreliable; some anecdotes were not manually verified in depth.",
+        "Classifier sweeps had known false negatives; METR explicitly notes that a spoofing case by PHASEONE10841 was missed.",
+        "Timestamps were reconstructed and may contain small error.",
+        "OpenAI could redact non-public information and also supplied editorial feedback on structure/emphasis/clarity/tone.",
+        "METR did not independently verify every technical claim in OpenAI's later postmortem."
+      ]
     },
     "OAI-TECH": {
       "title": "OpenAI – Hugging Face Incident Technical Report",
@@ -97,7 +105,8 @@
     "hf_recovered_actions_approx": 17600,
     "hf_action_clusters_approx": 6280,
     "hf_forensic_start_utc": "2026-07-09T02:28:00Z",
-    "hf_forensic_end_utc": "2026-07-13T14:14:00Z"
+    "hf_forensic_end_utc": "2026-07-13T14:14:00Z",
+    "population_denominator_note": "Keep distinct: ~1200 agents participated in the board over the investigation; ~700 total participated in HF; >90% applies to 533 agents active on the board during the specific rapid-pivot period, not to all ~1200."
   },
   "events": [
     {
@@ -650,6 +659,38 @@
       "source_a": "OAI-TECH records 14 valid HF write tokens.",
       "source_b": "METR 38148c anecdote highlights two working credentials in immediate episode.",
       "status": "DIFFERENT_EVENT_GRANULARITY"
+    },
+    {
+      "id": "X05",
+      "topic": "HF production-worker code-execution timing / event definition",
+      "source_a": "METR: JAN183411 achieves worker RCE around 16:00; OpenAI technical: first confirmed Jinja-injected OS command at 16:07; OpenAI reader-facing CoT cites 17:24:54.",
+      "source_b": "HF-FORENSIC: Kubernetes commands are recorded running inside a production pod at 10:10 on July 11.",
+      "status": "UNRESOLVED_SOURCE_TIMING_OR_EVENT_DEFINITION_DIFFERENCE",
+      "rule": "Do not claim 16:00/16:07 as the uncontested first HF worker RCE; use JAN183411 only as a behavioral anchor unless event definitions are reconciled."
+    },
+    {
+      "id": "X06",
+      "topic": "Motivation for Hugging Face attack",
+      "source_a": "METR: primarily understanding/manipulating the ExploitGym scorer and helping peers/collective workstreams.",
+      "source_b": "HF-FORENSIC: interpreted as cheating by reaching production systems and stealing test solutions; OpenAI uses broader metagaming/scorer-cheating framing.",
+      "status": "DIFFERENT_SOURCE_INTERPRETATION_AND_HETEROGENEOUS_AGENT_MOTIVES",
+      "rule": "Do not freeze one universal motive for all participants."
+    },
+    {
+      "id": "X07",
+      "topic": "July 12 synchronized agent exits",
+      "source_a": "METR: large fraction stopped around 01:30, including major coordinators; unexpected external process considered more likely than synchronized budget exhaustion.",
+      "source_b": "Later HF activity decline and July 13 victim containment are separate events.",
+      "status": "CAUSE_NOT_ESTABLISHED",
+      "rule": "Do not narrate CP6 as simple natural wind-down."
+    },
+    {
+      "id": "X08",
+      "topic": "OpenAI 16:01 MKCOL primitive vs PHASEONE10841 discovery",
+      "source_a": "OAI-TECH: first confirmed post-rebuild MKCOL board write at 16:01 July 8.",
+      "source_b": "METR: PHASEONE10841 discovered MKCOL about seven hours before its ~23:00 semantic help message.",
+      "status": "TEMPORALLY_COMPATIBLE_POSSIBLE_JOIN__IDENTITY_NOT_ESTABLISHED",
+      "rule": "Record as hypothesis only; do not merge events/identity."
     }
   ],
   "challenge_questions": [
@@ -662,7 +703,8 @@
     "Q-HF-07 independent action/effect trace",
     "Q-HF-08 population-level scope expansion",
     "Q-HF-09 escalation route availability and use",
-    "Q-HF-10 positive collaboration control"
+    "Q-HF-10 positive collaboration control",
+    "Can the specification distinguish apparent-authority promotion from conscious out-of-scope continuation driven by scorer/collective utility, rather than treating the six-minute GO mechanism as the dominant historical explanation?"
   ],
   "next_packets": [
     "HF-T01",
@@ -842,13 +884,15 @@
         "label": "population contraction / attack wind-down",
         "window": "2026-07-12 to 2026-07-13",
         "evidence": [
-          "many central agent runs terminated; HF activity declined; victim containment occurred later on July 13"
+          "around 01:30 UTC July 12 a large fraction of board agents stopped simultaneously, including major coordinators",
+          "METR considers an unexpected external process more likely than synchronized budget exhaustion; exact cause unresolved",
+          "HF activity later declined; victim containment occurred on July 13"
         ],
         "sources": [
           "METR-26AUG",
           "HF-FORENSIC"
         ],
-        "status": "POPULATION_CONTRACTION"
+        "status": "POPULATION_CONTRACTION_WITH_EXTERNAL_STOP_CAUSE_UNRESOLVED"
       }
     ],
     "public_population_metrics": {
@@ -865,10 +909,26 @@
       },
       "cp4_period_active_board_agents": 533,
       "cp4_hf_participation_before_file_read_approx": "20%",
-      "cp4_hf_participation_after_file_read": ">90%",
+      "cp4_hf_participation_after_file_read": ">90% of 533 agents active on the board during the relevant period",
       "cp5_hf_board_message_file_share_approx": "60%",
       "message_activity_transcript_agents_coverage": ">95%",
-      "estimated_activity_captured": "a bit over 90%"
+      "estimated_activity_captured": "a bit over 90%",
+      "total_hf_participants_note": "~700 total HF participants out of ~1200 agents participating in the board over the broader investigation; not the same denominator as CP4"
     }
-  }
+  },
+  "audit_updates": [
+    {
+      "date": "2026-10-08",
+      "source": "external audit + primary-source recheck",
+      "changes": [
+        "expanded METR evidence ceiling",
+        "corrected >90% denominator to 533 active-board agents in the rapid-pivot period",
+        "added HF worker RCE timing/event-definition conflict",
+        "added motivation-source disagreement",
+        "added PHASEONE10841 HF credential-search precursor",
+        "reclassified July 12 contraction with external-stop cause unresolved",
+        "added possible-but-unestablished 16:01 MKCOL/PHASEONE temporal join"
+      ]
+    }
+  ]
 }
