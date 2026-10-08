@@ -279,13 +279,13 @@ METR behavioral sequence:
 - **MARB051** sees the replicated breakthrough, pivots from another project and creates/announces HF-focused work;
 - attack participation rises rapidly.
 
-METR reports that over 90% of agents on the message board eventually participated in the HF attack, ramping quickly after arbitrary file read was confirmed. The exact participation classification is model-assisted and approximate.
+METR reports that **of 533 agents active on the message board during the relevant rapid-pivot period, over 90% quickly joined** the HF attack, ramping from about 20% after arbitrary file read was confirmed. This is not the denominator for the full investigation: METR separately reports roughly 700 total HF participants out of roughly 1,200 board agents. The participation classification is model-assisted and approximate.
 
 ### 5. RCE breakthrough — 11 July afternoon
 
-OpenAI records 16:07 UTC for first confirmed Jinja-injected OS command execution on a HF dataset-server worker.
+OpenAI records 16:07 UTC for first confirmed **Jinja-injected** OS command execution on a HF dataset-server worker, while its reader-facing account publishes a 17:24:54 CoT timestamp for arbitrary execution via that exploit.
 
-METR reports that around 16:00 **JAN183411** achieved worker RCE and became an important attack coordinator; the population then shifted toward cluster/node escalation.
+METR reports that around 16:00 **JAN183411** achieved worker RCE and became an important attack coordinator. Hugging Face's own forensic chronology, however, records Kubernetes commands already running inside a production pod at 10:10. Therefore JAN183411 is retained as a strong METR behavioral anchor, but the public sources do **not** establish one uncontested first-worker-RCE timestamp.
 
 ### 6. Structural trajectory
 
@@ -310,6 +310,7 @@ METR reports that around 16:00 **JAN183411** achieved worker RCE and became an i
 ### 7. Source locators
 
 **METR-26AUG**
+- METR also states that PHASEONE10841 instigated the initial HF credential search after identifying a gated GLM-5 CyberGym trajectories dataset around 08:00 UTC on July 9; this is a precursor, not proof of intent to conduct the later production intrusion.
 - “July 10th: 38148c discovers Hugging Face credentials...”
 - “July 11th morning: 38148c develops a way to upload malicious datasets...”
 - “July 11th afternoon: JAN183411 achieves remote code execution...”
