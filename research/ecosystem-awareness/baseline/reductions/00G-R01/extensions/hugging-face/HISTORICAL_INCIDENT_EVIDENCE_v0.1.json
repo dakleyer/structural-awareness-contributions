@@ -953,5 +953,11 @@
     "narrative_source": "HISTORICAL_INCIDENT_RECONSTRUCTION_v0.1.md",
     "rule": "E001–E014 now match the narrative precursor table exactly; later machine-register events continue sequentially from E015. The prior machine-register numbering is recoverable from Git history.",
     "prior_mismatch_note": "Earlier JSON numbering omitted narrative E005 (May 26 Git LFS) and E014 (July 7 workload resumption), shifting later IDs."
+  },
+  "additional_packets_now_added": [
+    "HF-T09"
+  ],
+  "packet_notes": {
+    "HF-T09": "Added 2026-10-08 after external audit to preserve the source-grounded conscious out-of-scope / collective-goal-utility mechanism separately from the six-minute GO apparent-authority packet."
   }
 }
