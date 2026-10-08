@@ -12,7 +12,7 @@
 
 **Canonical semantic basis:** [00M — A/B/C/D and Mathematical Plausibility](../../../../00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [00N — From Mechanism to Requirements](../../../../00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md)
 
-**Architecture basis:** [Canonical MSCA Architecture](../../../../../../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) · [Operation & Repositioning](../../../../../../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [Ecosystem Signalling 01J](../../../../01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) · [EA↔RA 01C](../../../../01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [Agentic Gradient Law](../../../../../../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
+**Architecture basis:** [Canonical MSCA Architecture](../../../../../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) · [Operation & Repositioning](../../../../../../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [Ecosystem Signalling 01J](../../../../01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) · [EA↔RA 01C](../../../../01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) · [Agentic Gradient Law](../../../../../../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
 
 ---
 
