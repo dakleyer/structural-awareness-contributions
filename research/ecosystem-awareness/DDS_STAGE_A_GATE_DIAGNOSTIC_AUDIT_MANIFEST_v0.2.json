@@ -1,0 +1,75 @@
+{
+  "schema": "dds-stage-a-gate-diagnostic-audit-manifest-v0.2",
+  "date": "2026-10-09",
+  "status": "FROZEN_FOR_EXTERNAL_AUDIT__NO_EXTERNAL_RESULT_YET",
+  "scope": "Generic DDS Stage A gate-diagnostic design; not Hugging Face-specific and not a Stage B/C result.",
+  "predecessor_policy": "v0.1 draft and historical Stage A/HF artefacts are preserved; this manifest freezes only the v0.2 audit-candidate successor package.",
+  "files": {
+    "profile": {
+      "path": "research/ecosystem-awareness/DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.2_AUDIT_CANDIDATE.md",
+      "blob_sha": "dacce9580af70cf883ff0a6b36c68850fd08390a"
+    },
+    "catalog": {
+      "path": "research/ecosystem-awareness/DDS_STAGE_A_GATE_CATALOG_v0.2_AUDIT_CANDIDATE.json",
+      "blob_sha": "92e1c2b1f4316f77636f669c8b62a1d53091c372"
+    },
+    "result_template": {
+      "path": "research/ecosystem-awareness/DDS_STAGE_A_GATE_DIAGNOSTIC_RESULT_TEMPLATE_v0.2.json",
+      "blob_sha": "8a5b6c1843ca0f47768315ec22b8d40ef0166fa5"
+    },
+    "checker": {
+      "path": "research/ecosystem-awareness/gate-diagnostic/check_gate_profile_v0.2.py",
+      "blob_sha": "0aa51e7b050123c4a09967a5fae52bf290b6c8a5"
+    },
+    "regression": {
+      "path": "research/ecosystem-awareness/gate-diagnostic/CONDITIONAL_DEPENDENCY_REGRESSION_v0.2.json",
+      "blob_sha": "80beea844d6650bc7556826f3dc4c1625a2b27dd"
+    }
+  },
+  "frozen_design": {
+    "core_gates": 15,
+    "gate_ids": "SA-G00..SA-G14",
+    "base_verdicts": [
+      "PASS",
+      "FAIL",
+      "NOT_ESTABLISHED",
+      "NOT_APPLICABLE"
+    ],
+    "levels": [
+      "L0",
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "test_roles": [
+      "DISCRIMINATING",
+      "COVERAGE_CONTROL",
+      "BOUNDARY_CONTROL"
+    ],
+    "dependency_types": [
+      "requires",
+      "claim_requires",
+      "supports"
+    ],
+    "profile_outcomes": [
+      "PROFILE_PASS",
+      "PROFILE_PARTIAL",
+      "PROFILE_FAIL",
+      "PROFILE_COVERAGE_ONLY"
+    ],
+    "scalar_score_replaces_gate_table": false
+  },
+  "acceptance_safeguards": [
+    "Applicability and required_for_profile are frozen before adjudication.",
+    "Every DISCRIMINATING gate requires at least one preregistered fail-capable case.",
+    "Conditional named-claim dependencies must be machine-evaluable from frozen profile facts.",
+    "No Stage B handoff or remediation recommendation grants Stage A credit.",
+    "A coverage-only profile cannot be reported as a discriminating PASS."
+  ],
+  "known_regression": {
+    "id": "CONDITIONAL_DEPENDENCY_REGRESSION_v0.2",
+    "intended_result": "SA-G04 may remain PASS while CLAIM-AUTHORITY-RESOLVED is CONDITIONAL_ON(SA-G03); required-profile outcome is therefore PROFILE_PARTIAL rather than PROFILE_PASS when SA-G03 is unresolved."
+  },
+  "evidence_ceiling": "Design/structural freeze. No independent reviewer agreement, real candidate adjudication, Stage B verification or Stage C implementation validation is claimed."
+}
