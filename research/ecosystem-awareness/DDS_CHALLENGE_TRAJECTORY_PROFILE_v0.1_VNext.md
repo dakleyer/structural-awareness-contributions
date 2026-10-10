@@ -439,3 +439,73 @@ def compile_successor(catalog: dict[str, Any], result: dict[str, Any]) -> dict[s
 5. **Readability/semantic review:** native Stage A result remains in `stage_a_declaration_status`; runtime-named claim `status` is conditional rather than plain PASS; profile-wide result carries `profile_outcome_scope=DDS_STAGE_A_ONLY`; T06 NA-rationale rule remains. A separate full 15-gate frozen catalog replay and named external review remain open.
 
 **External reviewer/agent needed:** inspect original catalog and compare emitted Stage A data with Stage B handoff requirements, test consumer interpretation, sign the source pins and audit the new projection contract. `PROFILE_PASS` explicitly remains *a Stage A profile result only*.
+
+---
+
+## G02.b / T04 — Prospective review, freeze, amendment and dispute envelope (Change Plan 4.0; 10 October 2026)
+
+**Status:** EDITORIAL_PROPOSAL_PUBLISHED; prospective template only; NOT_FROZEN; NOT_INDEPENDENTLY_REVIEWED; T04_NOT_CLOSED. This section is an append-only governance proposal in the *owning Stage A VNext*, not a change to Stage A v0.1, the frozen v0.2 diagnostic instrument, DDS Stage B/C, a scientific result, or an external source-owner contract.
+
+**Why this is proposed:** The reconciled audit v3.1 classifies G02.b/T04 as a review/freeze/dispute minimum-envelope gap. G02.a/T03 separately concerns attributable reviewer independence. The documentary strategy v3.3 calls for source-owned, minimal, conserved revisions (DS-12), without retroactively rewriting frozen material. The controlling full audit and strategy must be read before asserting formal T04 closure.
+
+### T04-E1. Minimum prospective review record (one version per frozen review)
+
+For each future review, create a dated record using the following *field names and null semantics*. Empty values, `UNKNOWN`, `NOT_ESTABLISHED`, and merely author-reported claims cannot be promoted into evidence of independence, freeze, or acceptance.
+
+```yaml
+review_id: REQUIRED_UNIQUE_ID
+review_version: 0.1
+object_stage: STAGE_A | STAGE_B | STAGE_C | MIXED_UNCLASSIFIED
+review_target: REPOSITORY_PATH_OR_STABLE_EXTERNAL_ID
+target_git_commit: REQUIRED_PINNED_COMMIT_OR_NOT_ESTABLISHED
+target_blob_sha: REQUIRED_PINNED_BLOB_OR_NOT_ESTABLISHED
+review_question_and_claim_ceiling: REQUIRED_BEFORE_FREEZE
+review_owner: REQUIRED_NAMED_RESPONSIBLE_PARTY
+reviewer_identity: NOT_ESTABLISHED
+reviewer_affiliation_and_role: NOT_ESTABLISHED
+reviewer_relationship_to_authors: NOT_ESTABLISHED
+conflict_of_interest_declaration: NOT_ESTABLISHED
+independence_status: NOT_ESTABLISHED
+criteria_and_acceptance_ref: NOT_ESTABLISHED
+criteria_version_or_hash: NOT_ESTABLISHED
+frozen_inputs_and_versions: []
+freeze_time_utc: NOT_ESTABLISHED
+freeze_actor: NOT_ESTABLISHED
+blind_information_boundary: NOT_ESTABLISHED
+adversarial_and_positive_controls: []
+execution_or_document_review_record: NOT_RUN
+raw_input_hashes: []
+raw_output_hashes: []
+findings_and_dispositions: []
+reviewer_dissent_and_objections: []
+dispute_resolution_authority: NOT_ESTABLISHED
+amendment_history: []
+reviewer_signoff: NOT_ESTABLISHED
+owner_disposition: PENDING
+external_acceptance: NOT_ESTABLISHED
+```
+
+The record is a proposed *minimum information envelope*, not an executable validation claim and not a declaration that a reviewer has been engaged. If `object_stage=MIXED_UNCLASSIFIED`, the review must separately identify the tested objects and governing references before any stage-specific acceptance.
+
+### T04-E2. Freeze and change-control rules
+
+1. **Before outcomes:** identify the review target, acceptance criteria, input versions, positive/adversarial controls, reviewer relationship, and information boundary; record the freeze timestamp, responsible actor and immutable source pins. If any necessary field is missing, classify the review `ENVELOPE_INCOMPLETE`, not accepted.
+2. **During review:** distinguish the original raw observations from interpretations; preserve reviewer dissent even when the owner disagrees. A second script, separate prompt or repeated author pass does **not** establish a second independent reviewer.
+3. **After freeze:** a changed target, criterion, fixture, input, reviewer identity, or material conflict opens an explicitly linked **successor review version**; do not alter the predecessor to make its earlier result look preregistered.
+4. **Dispute:** log objected-to claim, evidence pins, disagreeing parties, proposed resolution, authorized decision maker and the final status. An unanswered objection stays `UNRESOLVED`, even if editorial text was published.
+5. **Promotion:** publishing this template does not close G02.b/T04. A future claim of closure requires a named reviewer, dated pre-outcome freeze, independently held raw inputs and outputs as applicable, adjudication of dissent, owner disposition and an attributable signed acceptance record. No Stage B/C, UC-4 or product result follows from Stage A documentary review.
+
+### T04-E3. Adversarial acceptance checks (future execution; NOT_RUN here)
+
+- **A — retroactive freeze mutant:** change a criterion after the first observed outcome; expected result: `INVALID_PRE_REGISTRATION` and a new version required.
+- **B — nominal reviewer mutant:** omit conflict/relationship or reuse author identity while asserting independence; expected result: `INDEPENDENCE_NOT_ESTABLISHED`.
+- **C — disappearing dissent mutant:** omit a recorded objection from a later summary; expected result: `LOSS_OF_REVIEW_HISTORY`.
+- **D — silent input replacement mutant:** change a source blob without changing its pin; expected result: `SOURCE_MISMATCH`.
+- **E — false-stage promotion mutant:** interpret Stage A document PASS as realized runtime assurance; expected result: `STAGE_BOUNDARY_VIOLATION`.
+- **F — controlled positive review:** freeze a complete, accurately attributable record, preserve controls and disagreement status, and report only the claim ceiling actually examined; expected result: `ELIGIBLE_FOR_REVIEWER_DECISION`, **not** automatic approval.
+
+### T04-E4. Acceptance and ownership limits
+
+**Present effect:** a review-envelope proposal is available in the existing owner-ledger, with no historical text replaced. **Still open:** a direct reading of the full v3.1 T04 audit card by a named independent reviewer; final selection of required/optional fields, actual freeze/adversarial runs, raw evidence custody, dispute resolution and source-owner acceptance. T03 reviewer-independence questions remain separately open. Future T04 implementers must compare the proposal with those primary sources, preserve this version, and record an exact BEFORE/AFTER successor before any normative incorporation.
+
+**Result:** `T04_PROPOSAL_PUBLISHED_IN_VNEXT`; `T04_AUDIT_CLOSURE=NOT_ESTABLISHED`; `SCIENTIFIC_CORPUS_UNCHANGED_BY_THIS_EDITORIAL_INSERTION`.
