@@ -8,7 +8,7 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-CHECKER = ROOT / 'T05_PROPOSED_CHECKER.py'
+CHECKER = ROOT / 'check_gate_profile_v0.3_audit_candidate.py'
 spec = importlib.util.spec_from_file_location('dds_t05_candidate', CHECKER)
 checker = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(checker)
