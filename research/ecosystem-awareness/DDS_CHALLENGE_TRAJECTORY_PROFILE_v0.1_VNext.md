@@ -153,3 +153,144 @@ A **v0.2 audit-candidate successor package is now frozen for external review**, 
 This successor makes profile-required gates explicit, requires fail-capable preregistered cases for discriminating gates, machine-evaluates conditional named-claim dependencies, and defines PROFILE_PASS / PROFILE_PARTIAL / PROFILE_FAIL / PROFILE_COVERAGE_ONLY without introducing an aggregate score. It is frozen for **instrument audit**, not yet independently accepted and not a candidate-technology result.
 
 No canonical v0.1 gate semantics are changed by this VNext entry.
+
+
+---
+
+## Audit implementation follow-up — G03.b / T06 (Plan 2.0, executed 10 October 2026)
+
+**Source:** Reconciled audit v3.1 `G03.b / T06`, confirmed source defect. **Strategy:** v3.3 DS-12 source conservation, DS-02 one DDS method, B-minimal scoped changes. **Priority:** P1 for a Stage A instrument result, not an assertion of runtime product failure. **Decision:** programme owner requested immediate application of audit-derived corrections. **Actual status:** candidate successor and seven unit controls published; **T06 remains PARTIAL** pending end-to-end original-catalog replay, frozen preregistration evidence and external source-owner acceptance.
+
+**Immutable predecessor:** [v0.2 checker](./gate-diagnostic/check_gate_profile_v0.2.py) blob `0aa51e7b050123c4a09967a5fae52bf290b6c8a5`, unchanged.
+
+### TEXTO ANTES — existing v0.2 rule (complete affected validation passage)
+
+```python
+            raise ContractError(f"invalid_required_min_level:{gid}:{row.get('required_min_level')}")
+        if not isinstance(row.get("required_for_profile"), bool):
+            raise ContractError(f"required_for_profile_must_be_boolean:{gid}")
+        if row.get("applicability") == "NOT_APPLICABLE" and row.get("own_verdict") != "NOT_APPLICABLE":
+            raise ContractError(f"na_applicability_requires_na_verdict:{gid}")
+        if row.get("applicability") == "APPLICABLE" and row.get("own_verdict") == "NOT_APPLICABLE":
+            raise ContractError(f"applicable_gate_cannot_have_na_verdict:{gid}")
+        if row.get("required_for_profile") and row.get("applicability") != "APPLICABLE":
+            raise ContractError(f"required_gate_must_be_applicable:{gid}")
+        if row.get("test_role") == "DISCRIMINATING":
+            fail_cases = row.get("fail_capable_case_ids", [])
+            if not isinstance(fail_cases, list) or not fail_cases:
+                raise ContractError(f"discriminating_gate_requires_fail_capable_case:{gid}")
+        rows[gid] = deepcopy(row)
+
+    missing = sorted(set(gates) - set(rows))
+    if missing:
+        raise ContractError("missing_gate_rows:" + ",".join(missing))
+
+    required_claims = result.get("profile", {}).get("required_named_claims", [])
+    known_claims = set(catalog.get("named_claims", {}))
+```
+
+In this passage, N/A is checked for enum/verdict consistency but `applicability_rationale` is not checked.
+
+### TEXTO DESPUÉS — successor candidate (complete new source)
+
+The original v0.2 file has **not** been replaced. The proposed rule lives in a separately versioned, explicitly non-canonical successor.
+
+```python
+#!/usr/bin/env python3
+"""Proposed DDS Stage A v0.3 checker successor for audit T06.
+
+Preserves frozen v0.2 untouched. Adds a result-row completeness check:
+NOT_APPLICABLE requires a nonempty, human-readable applicability rationale.
+This checks existence of a reason, not that it was preregistered or true.
+NOT a promoted or independently accepted DDS instrument.
+"""
+from __future__ import annotations
+
+import argparse
+import importlib.util
+import json
+import sys
+from pathlib import Path
+from typing import Any
+
+FROZEN_BASE = Path(__file__).with_name("check_gate_profile_v0.2.py")
+
+
+class ApplicabilityContractError(ValueError):
+    """New v0.3 result-admission condition failed."""
+
+
+def require_na_rationale(result: dict[str, Any]) -> None:
+    """Enforce per-row NA rationale presence before running frozen v0.2.
+
+    Whether a reason predates the inspected outcomes remains a separate
+    preregistration and reviewer obligation.
+    """
+    for position, row in enumerate(result.get("gates", [])):
+        if not isinstance(row, dict):
+            raise ApplicabilityContractError(f"non_object_gate_row:{position}")
+        if (row.get("applicability") == "NOT_APPLICABLE"
+                or row.get("own_verdict") == "NOT_APPLICABLE"):
+            rationale = row.get("applicability_rationale")
+            if not isinstance(rationale, str) or not rationale.strip():
+                gid = row.get("gate_id", f"row-{position}")
+                raise ApplicabilityContractError(
+                    f"not_applicable_requires_rationale:{gid}"
+                )
+
+
+def load_frozen_checker():
+    """Load the original source file without editing it."""
+    spec = importlib.util.spec_from_file_location("dds_stage_a_checker_v02", FROZEN_BASE)
+    if spec is None or spec.loader is None:
+        raise RuntimeError("frozen_v02_checker_unavailable")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def compile_successor(catalog: dict[str, Any], result: dict[str, Any]) -> dict[str, Any]:
+    require_na_rationale(result)
+    base = load_frozen_checker()
+    compiled = base.compile_result(catalog, result)
+    compiled["diagnostic_checker_successor"] = {
+        "revision": "v0.3-audit-candidate",
+        "additional_control": "T06-not-applicable-rationale-present",
+        "pre_registration_verified": False,
+        "independent_review_status": "NOT_ESTABLISHED",
+        "stage_b_or_c_validation": "NOT_ESTABLISHED",
+    }
+    return compiled
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("catalog")
+    parser.add_argument("result")
+    parser.add_argument("--output")
+    args = parser.parse_args()
+    try:
+        catalog = json.loads(Path(args.catalog).read_text(encoding="utf-8"))
+        result = json.loads(Path(args.result).read_text(encoding="utf-8"))
+        payload = json.dumps(compile_successor(catalog, result), indent=2, ensure_ascii=False) + "\n"
+        if args.output:
+            Path(args.output).write_text(payload, encoding="utf-8")
+        else:
+            sys.stdout.write(payload)
+        return 0
+    except (ApplicabilityContractError, ValueError, OSError, ImportError, RuntimeError) as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+```
+
+**Source pin:** [proposed v0.3 checker](./gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py), blob `97430b0cd933f080a31bc3118d6871f7256c61ed` and [commit](https://github.com/dakleyer/structural-awareness-contributions/commit/f76c732d8dafd72263df1fca4fd39a8fe6f1576f).
+
+**Negative controls:** [seven tests](./gate-diagnostic/test_na_rationale_v03.py), blob `9b73180f5aef82b0e38fe790d0e6278cc619db5c`, [test commit](https://github.com/dakleyer/structural-awareness-contributions/commit/e1b7619e702775ed38ef7f7a1a159c93e75d0121). Author-side isolated pre-check tests returned `Ran 7 tests ... OK`; this is **not** a full v0.2 catalog replay or independently signed audit.
+
+**Unchanged scientific/technical claims:** The v0.2 catalog, checker, audit manifest, Stage A v0.1 profile, all frozen fixtures and historical results retain their original bytes. `NOT_APPLICABLE` still needs a preregistered, materially justified out-of-scope decision: the successor verifies a nonblank text field only and **cannot** establish when the rationale was written. It does not close G03.a runtime-claim propagation, G03.c positive fixture/multihop work or G03.d L4 calibration.
+
+**Next actual gate:** execute both v0.2 and v0.3 against the same fully registered catalog and input, with a PASS control, missing-rationale mutant, raw input/output hashes and named reviewer. Only then propose promotion; no freeze is overwritten.
