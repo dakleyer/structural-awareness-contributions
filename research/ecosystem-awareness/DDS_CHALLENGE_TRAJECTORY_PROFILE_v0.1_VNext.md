@@ -294,3 +294,148 @@ if __name__ == "__main__":
 **Unchanged scientific/technical claims:** The v0.2 catalog, checker, audit manifest, Stage A v0.1 profile, all frozen fixtures and historical results retain their original bytes. `NOT_APPLICABLE` still needs a preregistered, materially justified out-of-scope decision: the successor verifies a nonblank text field only and **cannot** establish when the rationale was written. It does not close G03.a runtime-claim propagation, G03.c positive fixture/multihop work or G03.d L4 calibration.
 
 **Next actual gate:** execute both v0.2 and v0.3 against the same fully registered catalog and input, with a PASS control, missing-rationale mutant, raw input/output hashes and named reviewer. Only then propose promotion; no freeze is overwritten.
+
+---
+
+## T05 — applied G03.a cross-stage claim output projection (Plan de Cambios 2.1, 10 October 2026)
+
+**Source/audit**: [Reconciled audit G03.a/T05](https://github.com/dakleyer/structural-awareness-contributions/tree/main/research/ecosystem-awareness) · objective: prevent Stage A specification PASS from being read as Stage B runtime enforceability. **Strategy:** DS-02, DS-08 and DS-12: one DDS method, affirmative scoped result, add an auditable successor rather than revising frozen evidence.
+
+**Authority:** User explicitly authorized the five-phase change process. **State:** `T05_IMPLEMENTED_AUTHOR_TESTED; INDEPENDENT_AGENT_REVIEW_NOT_PERFORMED`. This is not Stage B approval or independent external audit.
+
+**Old checker blob:** `97430b0cd933f080a31bc3118d6871f7256c61ed` (v0.3 T06 predecessor). **New checker blob:** `69c3bafe024d99a534ba8896ef12e0ba277ab8f6`, [commit](https://github.com/dakleyer/structural-awareness-contributions/commit/9393375a5a459ca9c55fd4acb81fff2cd7676990).
+
+### TEXTO ANTES — original module description
+
+```python
+"""Proposed DDS Stage A v0.3 checker successor for audit T06.
+
+Preserves frozen v0.2 untouched. Adds a result-row completeness check:
+NOT_APPLICABLE requires a nonempty, human-readable applicability rationale.
+This checks existence of a reason, not that it was preregistered or true.
+NOT a promoted or independently accepted DDS instrument.
+"""
+```
+
+### TEXTO DESPUÉS — published module description
+
+```python
+"""Proposed DDS Stage A v0.3 checker successor for audit T05 and T06.
+
+Preserves frozen v0.2 unchanged. T06 checks that every NOT_APPLICABLE
+result provides a nonblank rationale (not its preregistration). T05 projects
+Stage A declaration separately from Stage B realization/runtime assurance
+for runtime-named claims. A Stage A pass is not runtime verification.
+This remains an unadmitted audit candidate, not an independently accepted
+instrument or a Stage B/C implementation result.
+"""
+```
+
+### TEXTO ANTES — insertion location after `load_frozen_checker()`
+
+**No cross-stage projection function existed** between `load_frozen_checker()` and `compile_successor()`.
+
+### TEXTO DESPUÉS — full new cross-stage projection function
+
+```python
+def project_cross_stage_claims(compiled: dict[str, Any], catalog: dict[str, Any]) -> None:
+    """Separate Stage A declaration from runtime assurance in named claims.
+
+    Preserve v0.2's Stage A profile_outcome. Its authoritative reference is
+    the frozen Challenge/specification, not a Stage B/C execution trace.
+    Never trust participant-supplied Stage B status in a Stage A result.
+    """
+    catalog_claims = catalog.get("named_claims", {})
+    runtime_named = (
+        "CLAIM-RUNTIME-ENFORCEABILITY",
+        "CLAIM-TRACEABLE-DISPOSITION-TO-ENFORCEMENT",
+    )
+    for name in runtime_named:
+        if name in catalog_claims and not catalog_claims[name].get(
+                "stage_b_required_for_runtime_claim"):
+            raise RuntimeError(f"stage_b_requirement_missing_for:{name}")
+
+    projected = []
+    for claim in compiled.get("named_claims", []):
+        name = claim.get("claim")
+        source_claim = catalog_claims.get(name, {})
+        if not source_claim.get("stage_b_required_for_runtime_claim", False):
+            continue
+        stage_a = claim["status"]
+        claim["stage_a_declaration_status"] = stage_a
+        claim["stage_b_realization_status"] = "NOT_ESTABLISHED"
+        claim["runtime_assurance_status"] = "NOT_ESTABLISHED"
+        claim["claim_scope"] = "STAGE_A_DECLARATION_ONLY"
+        claim["runtime_assurance_note"] = (
+            "Stage A evaluates the declared rule, not Stage B architecture "
+            "realization or observed Stage C effects."
+        )
+        # A consumer inspecting only 'status' can no longer mistake a
+        # Stage A declaration PASS for runtime enforcement verification.
+        if stage_a == "PASS":
+            claim["status"] = "CONDITIONAL_ON(STAGE_B_VERIFICATION)"
+        elif stage_a.startswith("FAIL"):
+            claim["status"] = stage_a
+        else:
+            claim["status"] = (
+                "CONDITIONAL_ON(STAGE_A_DECLARATION,STAGE_B_VERIFICATION)"
+            )
+        projected.append(name)
+
+    summary = compiled.setdefault("summary", {})
+    summary["profile_outcome_scope"] = "DDS_STAGE_A_ONLY"
+    summary["stage_b_realization_status"] = "NOT_ESTABLISHED"
+    summary["runtime_assurance_status"] = "NOT_ESTABLISHED"
+    summary["cross_stage_claims_projected"] = sorted(projected)
+```
+
+### TEXTO ANTES — complete previous `compile_successor`
+
+```python
+def compile_successor(catalog: dict[str, Any], result: dict[str, Any]) -> dict[str, Any]:
+    require_na_rationale(result)
+    base = load_frozen_checker()
+    compiled = base.compile_result(catalog, result)
+    compiled["diagnostic_checker_successor"] = {
+        "revision": "v0.3-audit-candidate",
+        "additional_control": "T06-not-applicable-rationale-present",
+        "pre_registration_verified": False,
+        "independent_review_status": "NOT_ESTABLISHED",
+        "stage_b_or_c_validation": "NOT_ESTABLISHED",
+    }
+    return compiled
+```
+
+### TEXTO DESPUÉS — complete published `compile_successor`
+
+```python
+def compile_successor(catalog: dict[str, Any], result: dict[str, Any]) -> dict[str, Any]:
+    require_na_rationale(result)
+    base = load_frozen_checker()
+    compiled = base.compile_result(catalog, result)
+    project_cross_stage_claims(compiled, catalog)
+    compiled["diagnostic_checker_successor"] = {
+        "revision": "v0.3-audit-candidate",
+        "additional_control": "T06-not-applicable-rationale-present",
+        "additional_controls": [
+            "T05-stage-a-declaration-versus-stage-b-runtime-claim-projection",
+            "T06-not-applicable-rationale-present",
+        ],
+        "pre_registration_verified": False,
+        "independent_review_status": "NOT_ESTABLISHED",
+        "stage_b_or_c_validation": "NOT_ESTABLISHED",
+    }
+    return compiled
+```
+
+### Regression source and five-phase record
+
+**Test file:** [T05 16-test module](./gate-diagnostic/test_t05_cross_stage_v03.py) at blob `2146b303e2a17719cd98ec95f8f1847a67ba40b8`, initially published in [commit 246b0311](https://github.com/dakleyer/structural-awareness-contributions/commit/246b03119ffc00a8e45568234b689bdbb6330a12) and corrected in [commit 2b0b7872](https://github.com/dakleyer/structural-awareness-contributions/commit/2b0b7872d8143a3ae84a2c7502c4d8590cf49c23) to use the **actual published checker filename**. The only change in the test correction was that import target.
+
+1. **Exact plan:** unchanged old description and function documented above; additional helper and full replacement shown, unmodified frozen v0.2 and v0.2 catalog.
+2. **Pre-application challenge:** local author tests 16/16 and six injected mutants detected 6/6, performed in separate subprocesses. This is an independent *execution process*, not an independent agent or external review.
+3. **Application:** 3 GitHub commits changed only the v0.3 checker and the new T05 test file. Source-owner promotion has not occurred.
+4. **Source integrity:** old/new file blobs re-read; frozen v0.2 checker `0aa51e7b050123c4a09967a5fae52bf290b6c8a5`, catalog `92e1c2b1f4316f77636f669c8b62a1d53091c372` and Stage A v0.1 remain unchanged.
+5. **Readability/semantic review:** native Stage A result remains in `stage_a_declaration_status`; runtime-named claim `status` is conditional rather than plain PASS; profile-wide result carries `profile_outcome_scope=DDS_STAGE_A_ONLY`; T06 NA-rationale rule remains. A separate full 15-gate frozen catalog replay and named external review remain open.
+
+**External reviewer/agent needed:** inspect original catalog and compare emitted Stage A data with Stage B handoff requirements, test consumer interpretation, sign the source pins and audit the new projection contract. `PROFILE_PASS` explicitly remains *a Stage A profile result only*.
