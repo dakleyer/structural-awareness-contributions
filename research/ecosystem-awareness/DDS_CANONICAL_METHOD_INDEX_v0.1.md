@@ -85,6 +85,7 @@ To prevent collision with existing scenario terminology:
 - **gate policy** means a profile-specific acceptance/verification policy; it is not a DDS Stage.
 - **Stage-0 / Stage-1** retain the meaning assigned by the source testbed that owns them.
 - **C02 / C11 / T03** retain their R01 lifecycle/delivery meaning.
+- **Cross-corpus examples:** UC-21 `R0/R1/R2` are comparison routes; `T08/S5` identifies the AWS Step Functions/RDS profile for the delayed repair, while `T09/S6` identifies the Panodyssey/TEMS rights profile. AWS `AWS-I0/I1/I2`, Steven Zhao's local `I0/I1/I2`, R01 `M/I/P` and DDS `I/M/P/Ø` retain distinct source-specific meanings. For the full translation discipline, consult [Stage A §10A — namespace safety](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#10a-namespace-safety-for-cross-corpus-review).
 
 ## 6. Claim propagation rule
 
