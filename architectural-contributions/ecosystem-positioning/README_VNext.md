@@ -1218,3 +1218,27 @@ Hay **52 archivos llamados VNext y el benchmark v0.3 reutilizado: 53 expedientes
 El registro conserva **73 entradas: 64 con par y 9 líneas por concretar**. Entre las primeras, 49 están pendientes de decisión, siete ya publicadas y ocho descartadas, reformuladas, desplazadas o resueltas por otra edición. Doce pares pendientes están preparados para revisión documental concreta, sin autorización de incorporación. Los tres cambios 26/31/32 eran una primera tanda de riesgo bajo; no el total.
 
 **La entrega sigue incompleta:** faltan lecturas materiales, contrastes externos y consolidación; la sexta global continúa pendiente. La estructura de expedientes avanzó antes que su cierre. No se puede interpretar “sin candidato” provisional como documento exhaustivamente aprobado, ni completar un plan inventando cambios. Completar el examen sustentará los pares que procedan y las razones concretas para conservar los demás. El temporizador sigue eliminado; esta comprobación no lo reactiva ni modifica originales.
+
+---
+
+## Implementation record — Plan de Cambios 1.0 / PC1.0-01A — 10 October 2026
+
+**Decision:** Source update authorized by the programme owner in the instruction to apply the first tactical stage. **Method:** additive only; no scientific or historical content rewritten.
+
+**Source:** [EP README](./README.md) · before blob `a0a7f27842c13c409c4664bd1bda066860a98f83` · after blob `a5a3f6d8c0d142c8926708f405d1e72a7cb45814` · [commit](https://github.com/dakleyer/structural-awareness-contributions/commit/f77668d3dbc871bb0c84f365505492e7a9974108).
+
+### TEXTO ANTES — viejo (complete affected paragraph)
+
+> For an external technical review, start with the **Requirements & Evidence** deck above, then use this README as the single evidence route. The [technical proof map](#technical-proof-map) separates derivation, requirement closure, adversarial ablation, independence, Boolean diagnostic minimality, requirement-conformance sufficiency and case extensibility; the [canonical reuse route](#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases) shows how the same requirements-conforming path is tested beyond the six minimum fixtures.
+
+### TEXTO DESPUÉS — publicado (complete affected local unit)
+
+> For an external technical review, start with the **Requirements & Evidence** deck above, then use this README as the single evidence route. The [technical proof map](#technical-proof-map) separates derivation, requirement closure, adversarial ablation, independence, Boolean diagnostic minimality, requirement-conformance sufficiency and case extensibility; the [canonical reuse route](#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases) shows how the same requirements-conforming path is tested beyond the six minimum fixtures.
+>
+> **Research and test route.** The [Deployment Differential Study (DDS)](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) organizes three different questions: which specification addresses a frozen challenge, whether an architecture realizes that specification, and how a particular implementation behaves against the original challenge and observed effects. [UC-21](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md) contributes six failure scenarios, their quality gates and an R0/R1/R2 comparison protocol; [A26](../../research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) develops positive success-case counterparts. [R01](../../research/ecosystem-awareness/baseline/reductions/00G-R01/README.md) investigates a reduced probabilistic model of exploration, validation and cost. In the [local S5 stateful study](../../research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md), a conventional dynamic-manifest guard successfully handles the declared D1 source-set change. Each linked document remains the authority for its own evidence and scope.
+
+**Scope and status:** New reader route to DDS, UC-21, A26, R01 and the bounded S5 synthetic witness. The previous paragraph and following pre-standardization / external review paragraphs were preserved exactly. The remote GitHub content was re-read after the commit and verified against the expected insertion.
+
+**Interpretation:** The new text attributes no Stage B/C success, real-product result, UC-4 admission or universal 00G→R01 transfer. The study's original scientific/evidence status stays with its owning source.
+
+**Review still due:** Independent cold-reader 60–90-second comprehension test and maintenance-cost observation were not completed before user-authorized publication. If they show duplication or confusion, propose an additive successor correction; preserve this edition and its old text.
