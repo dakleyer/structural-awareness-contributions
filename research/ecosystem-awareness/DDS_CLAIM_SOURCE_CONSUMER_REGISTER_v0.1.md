@@ -89,6 +89,7 @@ The Cxx identifiers preserve the v3.3 editorial inventory numbering. Each entry 
 - **Observed reader routes:** [EA UC-4 external testbed route](https://github.com/dakleyer/structural-awareness-contributions/blob/b297e3cc1cf287c3fdbb9413e643653043d28554/research/ecosystem-awareness/README.md).
 - **Invalid inference to prevent:** An interoperability offer, source-reviewed adapter or mock self-test is not UC-4 admission.
 
+
 **Additional source for C16:** [UC-21 T09 / S6](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/technology/T09.md). A two-source statement requires inspection of **both** annexes.
 
 ## Minimal editorial maintenance contract
