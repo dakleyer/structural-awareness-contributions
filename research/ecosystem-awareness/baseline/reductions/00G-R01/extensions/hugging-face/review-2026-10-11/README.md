@@ -15,6 +15,10 @@ This folder preserves the evolution of an incident-derived research question: **
 
 Read the [complete present assessment](./CURRENT_ASSESSMENT.md) and the [evidence navigation matrix](./EVIDENCE_MATRIX.md).
 
+## New 12 October Stage A finding — local awareness before Repositioning
+
+[Read the **recipient-local EA / first-unsanctioned-channel review**](./EA_LOCAL_CONTEXT_CHANNEL_FIRST_STAGE_A_FINDING_2026-10-12.md). Research question initiated by Iván Abril Palma and documented/audited by ChatGPT GPT-6 as an **AI-assisted same-side** review. **Finding:** S3/S10/T1 and EA F2.APQ/F4–F7 already provide a candidate agent-local material-context/channel-use requalification path. **S1 and S14 are authority/assessment obligations, not sensors or actuators**; Repositioning is conditional, not mandatory after every observed change. The v0.3 blind cases have a concrete *first-channel-use* test coverage gap; a prospective CH-01…CH-08 Stage A successor is proposed, **not adopted, executed or inserted into v0.3**. Do not show this post-freeze finding to v0.3 blind reviewers before sealing.
+
 ## Four distinct reading / review routes
 
 | Route | Start | Important boundary |
