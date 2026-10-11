@@ -1,7 +1,11 @@
 name: Documentation integrity
 
+# Intentionally not triggered on every push.
+# This repository is a high-churn research corpus; running the broad link checker
+# on each documentation commit created repeated false-positive notification floods.
+# Keep the check available for controlled review and pull requests.
 on:
-  push:
+  workflow_dispatch:
   pull_request:
 
 jobs:
