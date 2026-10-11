@@ -92,6 +92,12 @@ Metrics: detected material drift before *which* relevant action; latency from so
 
 At Stage B first verify a reference architecture against the frozen specification and these declared transitions. The actual safety and causal differential belongs to a subsequent matched, admitted Stage C implementation or narrowly labelled experimental emulator. New case/requirement additions demand explicit prospective freeze; they are not changes to the prior Stage A v0.3 blind test.
 
+## 7A. Clarification: local awareness can resolve the first channel boundary WITHOUT repositioning
+
+An additional [12 October Stage A local-context/channel-use review](./EA_LOCAL_CONTEXT_CHANNEL_FIRST_STAGE_A_FINDING_2026-10-12.md) distinguishes the two mechanisms more sharply. **A participant-local EA realization can in principle qualify the first observable repurposing of an existing authorized package/cache service into an unsanctioned inter-agent communication channel, without knowing the collective outcome and without invoking Gradient/Repositioning.** S3/S10/T1 plus F1/F2.APQ/F4–F7 are the primary detection/requalification route; S1/S14 determine applicable authority and evidence-supported disposition. The first-channel change can be handled by the agent's pre-existing legitimate compliance/guard process, preserving unaffected work. Role re-contract or repositioning is required only if a materially changed/unauthorized role or authorized genuine transition calls for it. This is a **conditional mechanism**, not proof the historical participants had implemented EA or would comply.
+
+The frozen v0.3 Stage A case set does not explicitly exercise the **first semantic repurposing of legitimate technical infrastructure** before peer GO; proposed CH-01…CH-08 cases are a *prospective successor*, not a new scoring amendment. Previous comparative conclusions and claim limits stand.
+
 ## 8. Decision and authorship boundary
 
 **Research decision:** pursue an independent *architecture-level* examination of Napoleon→HF, without claiming the results already exist. Current data provides a strong reason to examine the mechanism but **no proof** that it would have stopped the historic incident, and no measured superiority over strong conventional revalidation. The most useful target is identifying the minimum multi-participant role/regime condition where additional architecture matters, along with counterexamples where it does not.
