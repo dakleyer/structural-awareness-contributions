@@ -1,4 +1,4 @@
-# Hugoing Face / EA / DDS — evidence matrix and reproducibility map
+# Hugging Face / EA / DDS — evidence matrix and reproducibility map
 
 **Source-link reconciliation, 11 October 2026. Auditor/compiler:** OpenAI ChatGPT GPT-6, AI-assisted, not a blind/independent external reviewer. This is a navigation document. The original source record remains the authority for each measured result.
 
