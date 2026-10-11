@@ -5,6 +5,10 @@
 
 This folder preserves the evolution of an incident-derived research question: **can Ecosystem Awareness (EA) materially qualify decisions and requalification needs before harmful downstream effects, and can it add value beyond competent conventional controls?** The existing experiments provide some conditional positive evidence, several negative comparisons, and major open questions. No original experiment or frozen Stage A requirement is rewritten here.
 
+## New cross-family audit: 00G → R01 → HF and full repositioning
+
+**[Read the Napoleon → R01 → Hugging Face architectural cross-review](./NAPOLEON_R01_HF_FULL_POSITIONING_CROSS_REVIEW.md)** — an attributed AI-assisted, non-blind analysis of what the 00G success path actually requires, what R01 preserves, why the existing Stage A S/T coverage does not test the entire EA–RA–MSCA/Repositioning cycle, and where early detection/authorized realignment could or could not have helped Hugging Face. It proposes a separately frozen Stage B architecture comparison. This is a **research hypothesis and documented synthesis**, not a new executed result or an authenticated external audit.
+
 ## Current result / resultado actual
 
 **EA helps in selected author-scripted cases with stale policy or source-dependency information. It has NOT shown an exclusive differential against a strong conventional baseline, nor that it would have anticipated or prevented the actual July 2026 Hugging Face incident.** In a strong-native paired fixture the native system completed 8/8 tasks and native+EA 7/8; ordinary revalidation also repaired cached-lineage and Casbin-polling failures, faster than the tested EA path. These are separate bounded studies, not a pooled sample or a product score.
