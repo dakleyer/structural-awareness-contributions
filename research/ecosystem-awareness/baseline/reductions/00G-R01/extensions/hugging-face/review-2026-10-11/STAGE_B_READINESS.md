@@ -11,6 +11,8 @@
 
 Stage B design can progress in parallel without declaring the Stage A acceptance gate passed.
 
+For eventual independent implementation reporting, use the [unexecuted Stage B run-card template](./FUTURE_STAGE_B_RUN_CARD_TEMPLATE.json); this template contains no measured results.
+
 ## Architecture claim that still needs a test
 
 For every material decision: identify the legitimate owner and current authority; explicitly bound the observation source, its evidence and time validity; qualify uncertainty; transmit a minimal accountable signal; verify what the receiver actually understood; preserve legitimate changes; establish an authorized response; separately observe attempted and real effects and the actual consumed resources. EA cannot create an external authority grant or enforce a model's obedience simply by producing a correctly qualified signal.
