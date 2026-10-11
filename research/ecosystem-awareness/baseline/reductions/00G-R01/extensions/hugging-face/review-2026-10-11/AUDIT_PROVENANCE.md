@@ -41,6 +41,14 @@
 - **Not performed:** independent scientist's blind adjudication, fresh multi-agent execution, full code-suite replay, matched Stage B architecture verification or empirical incident prevention.
 - **Independence class:** AI-assisted maintainer-side, **not independent external**, with all architecture-benefit claims prospective and conventional counterexamples preserved.
 
+## Additional 12 October recipient-local EA / channel-use review
+
+- **Audit ID:** HF-EA-LOCAL-20261012-01. **Research question/initiating conceptual distinction:** Iván Abril Palma — local ecosystem awareness, requirements and conditional/non-mandatory Repositioning. **Review writer:** OpenAI ChatGPT GPT-6.
+- **Source:** [recipient-local EA, first unsanctioned communication pathway and Stage A proposed new cases](./EA_LOCAL_CONTEXT_CHANNEL_FIRST_STAGE_A_FINDING_2026-10-12.md).
+- **Actual work:** read S1–S14/T1–T4, EA local topology/F1–F9/F2.APQ, 00G Napoleon, HF Stage A v0.3, historic METR/OpenAI reporting and MSCA Repositioning; derived a requirements-to-local-reaction mapping and a **draft-only** prospective CH-01…CH-08 case list.
+- **Not performed:** independent reviewer blind scoring, external human audit, actual agent/EA runtime test, Stage B architecture verification, Stage C effect observation or historical prevention.
+- **Status:** same-side, AI-assisted, non-blind textual audit. Does not change frozen cases/results or invent original auditor identities.
+
 ## Required record for EACH future audit
 
 Copy these ten fields into the header of every submitted reviewer report:
