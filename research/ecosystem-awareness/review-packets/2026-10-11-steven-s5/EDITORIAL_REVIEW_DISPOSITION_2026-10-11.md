@@ -1,0 +1,41 @@
+# UC-21 Steven / Nelson Comment — Source-Checked Editorial Reconciliation
+
+**Prepared:** 11 October 2026  
+**Scope:** Review of the existing `COMMENT_FOR_UC21_POST.md` at GitHub commit `a430ddd810616490444cbbbca66303f306ad35a4` against the supplied third-party critique, publicly documented UC-21/UC-4 source claims, the pinned Steven source, and the independent-replay ZIP's exact bytes.  
+**Status:** Reviewer-authored editorial/source reconciliation only. Not an accepted FG-TIDA position, not a formal independent audit, and not a publication to FG-TIDA/use-cases#21. The original comment remains historically intact.
+
+## Summary
+
+The supplied critique is substantially useful, but its suggested replacement of the `I1-defended` attribution would create a different factual ambiguity. The new successor draft separates the local *ineffective-control* example of Steven Zhao from UC-21/T08's genuinely strong `AWS-I1` baseline, and correctly credits Nelson's existing offer to lead the CDA candidate's UC-4 experimental cycle without reassigning that offer to a full Steven S5 or R2 run.
+
+## Findings and editorial disposition
+
+| Review observation | Disposition and source-grounded basis |
+|---|---|
+| ZIP hash not independently checked | **CLOSED:** Read and hashed the local ZIP: SHA-256 `9ea1ac54378018e60809f6dff63613fc41d6c0cf53c4ac952345f1e927c51bb8`; ZIP CRC passes. The re-extracted archive's `python3 verify_archive.py` reported 24 registered files passing; `python3 run_all.py` regenerated 18 focused cases, 15 targeted second-pass cases, 6,480 *synthetic sensitivity cases*, and 6 negative controls. This is *reproducibility of the provided focused review*, not independent AWS, Steven's entire CI, or UC-4 campaign validation. |
+| Packet title: independent vs external review | **ACCEPT:** use “External-review packet (prepared for independent examination; not a signed independent audit)”, matching the public packet README. Prepared *for* external review and *completed by* an independent third party are separate statuses. |
+| “Steven's deliberately defective local `I1-defended`” | **CORRECT, but NOT using the critique's suggested ownership formulation:** Steven's local simulator labels an intentionally ineffective-control profile `I1-defended`; this is aligned with the UC-21 S5 §10.2 diagnostic *ineffective-control trace*. UC-21/T08's `AWS-I1` is the *strongly defended R1* baseline that must pass original S5 before being frozen for R2. They have different roles and are not interchangeable. |
+| “dishonest”, even denied | **ACCEPT:** remove entirely. No suggestion of dishonesty is supported or helpful. Replace with precise statement that broader Q0/Q3/Q4/Q6 adversarial probes do not invalidate the model's originally declared six-branch tests. |
+| Nelson's existing leadership offer | **ACCEPT:** in [UC-21 comment 6089067288](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6089067288), Nelson proposed leading the UC-4-linked *CDA* experimental cycle, leaving implementation ownership with Matías and requesting later agreement on resources/window. In [UC-4](https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-5846988611), he also described the broader experimental-cycle method. Support leadership *for CDA from our side*, not automatic admission of S5. |
+| Matías's timeline | **ACCEPT with scope boundary:** in [UC-21 comment 6089199114](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6089199114), Matías said 2–3 weeks for a bounded CDA R0/R1 simulator and asked Nelson for an initial test contract. Not a completed test, not a 2–3-week S5 promise, and not an R2 result. |
+| Reviewer overlooked experiment preparation sequence | **NEW CORRECTION:** do not demand Nelson wait for the completed R0/R1 package before outlining the UC-4 contract. A preparatory contract can be drafted now, with capability assessment and frozen final inputs after source delivery. Matías explicitly requested that contract before providing some frozen source semantics. |
+| Six scorer limitations target 15 October | **QUALIFIED:** [Steven's own report](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6071668399) discloses six particularly relevant further issues, targeted 15 October. The exact pinned `impl-mutation.py` and the latest fetched copy have identical Git blob `208fc6978244454098c194521bf1a3ebdf00049b`, so those scorer-specific concerns were not silently resolved in that file. The latest defect ledger's previously logged entries all say closed; that fact is **not** closure of future issues disclosed separately in prose. A diagnostic model-level conclusion can be scoped without waiting for unrelated scorer housekeeping; a claim of audited scorer coverage cannot. |
+| `second-pass` vs Steven's third/fourth/fifth pass | **ACCEPT:** remove ordinal to avoid collision; call this an “adversarial source-and-replay review” distinct from Steven's review cycles. |
+| Why Matías not tagged | **DECISION:** tag `@matiascloudarch` once; the successor expressly discusses his CDA ownership and timeline. Participation remains voluntary and bounded. |
+| Historical ZIP link points to commit before the comment | **VALID AND DESIRABLE:** the audit ZIP and README are immutable at GitHub commit `2c7f545e2610e154b2e7d11fe827722bbf3c5658`; the previous draft was added in `a430ddd...`. The successor preserves these evidence pins, not a mutable `main` branch link. |
+| Terms of Reference | **SOURCE-VERIFIED:** [FG-TIDA Terms of Reference](https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/ToR.aspx), especially §2 and §4, authorises a pre-standardisation study of trust/identity mechanisms, use-case requirements, reference architectures, trust information/metadata, security assessment criteria and benchmarks. Agentic AI protocols, AI governance and national digital ID content are outside scope. FG outputs require their own consensus/approval procedures; test-based specification discovery is a **research procedure**, not a stage formally adopted by FG-TIDA. |
+
+## Evidence locations and exact limits
+
+- [Frozen UC-21 original case](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md) and [S5 scenario](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/scenarios/S5.md), particularly §10.2's ineffective-control trace.
+- [T08 technology document](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/annexes/technology/T08.md), with `AWS-I0/I1/I2` separate from local simulator labels.
+- [Steven's original pinned S5 simulator](https://github.com/zhaoxinghua09-cell/silent-failure-catalog/tree/b59a686b887c2a2545dd22808fb67e629bc95f18/examples/S5-Qregister).
+- [UC-4 source request to Steven](https://github.com/FG-TIDA/use-cases/issues/4#issuecomment-6088846416) — one version-pinned catalogue adapter is a **different candidate review**, not UC-4 campaign admission.
+- [Nelson's earlier S5 bounded proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-5936720586) — Patch B/legitimate continuity/G1/G4/guard-attempt-target, with capability assessment before an agreed run.
+- [Steven's outstanding scorer disclosure](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6071668399) — self-reported next work, target 15 October.
+- [CDA implementation owner's timeline and acceptance](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6089199114).
+- [Published external-review ZIP and reproduction instructions](https://github.com/dakleyer/structural-awareness-contributions/blob/2c7f545e2610e154b2e7d11fe827722bbf3c5658/research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/README.md).
+
+## Publishing boundary
+
+The revised comment is a **successor draft** to be reviewed before posting in FG-TIDA/use-cases#21. The earlier draft and public ZIP are not changed. The previously encountered GitHub application permission error 403 for comments in `FG-TIDA/use-cases` is separate from our repository write access; no claim of posting to the FG-TIDA issue is made.
