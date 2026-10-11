@@ -19,6 +19,10 @@ The existing extension README body is preserved. The only change to it is a shor
 ## 4. Legibilidad y comprensión humana — simulated reader only
 The same ChatGPT model performed a human-oriented reading simulation. This does **not** count as an actual independent human comprehension exercise. A new reader needs one place to understand the claim, negative evidence, limitations, provenance and available reviewer routes. The hub provides these. Independent usability/readability checks and full four-pass source-by-source reconciliation remain open.
 
+## Additional cross-document review — Napoleon, R01 and Repositioning (11 October 2026)
+
+**Reviewer:** OpenAI ChatGPT GPT-6 (same assistant, not a second independent scientist or model). **Work:** compared 00G v0.4 and its Success Model, 00K P6's original confounded pair, the 00G→R01 reduction, Hugging Face's historical/Stage A limits, EA F1–F9, Regime Awareness, Cartography, MSCA Role/ACC/Repositioning and recorded comparisons with conventional controls. **Finding:** the narrow EA software comparisons do not measure the proposed full architecture; the full architecture also remains unexecuted for this HF case. Positive/negative evidence and source-identity boundaries remain intact. **Deliverable:** [cross-review](./review-2026-10-11/NAPOLEON_R01_HF_FULL_POSITIONING_CROSS_REVIEW.md). **Status:** partial supplemental logic and evidence audit only, no new independent assessor or four-pass completion.
+
 ## Concrete outcomes and still-open actions
 - Positive EA scripted repairs and negative/no-differential results are explicitly linked side by side.
 - Three 8 October audit inputs retain their original content; a separate registry identifies their source as user-supplied without authenticated auditor/bot name.
