@@ -1,3 +1,5 @@
+> **Public Hugging Face / EA / DDS independent-review navigation (11 October 2026):** [Review hub](./review-2026-10-11/README.md) · [Existing evidence and adverse/positive results](./review-2026-10-11/EVIDENCE_MATRIX.md) · [Current scientific assessment](./review-2026-10-11/CURRENT_ASSESSMENT.md) · [Who performed each audit, including AI bots](./review-2026-10-11/AUDIT_PROVENANCE.md) · [Single README review VNext](./README_VNext.md). Stage A blind reviewers must receive **only** the [separately scoped blind folder](./review-2026-10-11/blind/START_HERE.md), not the author evaluation history. The original source body below is preserved without alteration.
+
 <a id="extensión-de-r01-openai--hugging-face"></a>
 # R01 extension Hugging Face
 
