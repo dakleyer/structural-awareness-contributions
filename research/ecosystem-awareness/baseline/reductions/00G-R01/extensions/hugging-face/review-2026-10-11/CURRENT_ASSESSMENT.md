@@ -2,6 +2,10 @@
 
 **As of 11 October 2026.** Compiled by **OpenAI ChatGPT, GPT-6**, AI-assisted maintainer-side critical reader. Task authorized by Iván Abril Palma. The assistant reviewed public repository documents, comparison tables, frozen input manifests and reported results; it **did not** independently execute live models, reproduce all historical transcripts, conduct a blind Stage A adjudication or independently rerun every code suite. This is not an external institutional audit.
 
+## Scope clarification after the Napoleon → R01 → HF cross-review
+
+The [full architecture and repositioning cross-review](./NAPOLEON_R01_HF_FULL_POSITIONING_CROSS_REVIEW.md) shows why **a weak/negative differential from partial EA components does not evaluate, validate or falsify the full composition** EA F1–F9 + Ecosystem Cartography + Regime Awareness + MSCA/ACC + role-drift-first Repositioning. That architecture is described in the public working sources and has no executed HF-specific Stage B conformance result. The present document's comparison verdict remains valid **only for the instantiated narrow EA components and arms**. The claimed additional role/regime intervention value is a distinct, prospective question. This note changes no historical results.
+
 ## One-paragraph verdict
 
 **EA contributes a conditional decision-qualification mechanism, but no demonstrated industrial comparative advantage in these published tests.** Author-coded semantic components and scripted receiver arms do use an EA signal to avoid specific stale-evidence / stale-authority mistakes. Yet competent conventional controls given current source information avoid the same errors, often faster. When existing native controls were already adequate, EA added no changed decision and lost a legitimate deadline. Real historical early warning and prevention, complete EA/EP/MSCA architecture execution and independent blind scientific validation remain **NOT_ESTABLISHED**.
