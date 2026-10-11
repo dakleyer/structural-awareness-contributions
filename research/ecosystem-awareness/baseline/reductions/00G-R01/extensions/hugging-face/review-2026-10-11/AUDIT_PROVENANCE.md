@@ -31,6 +31,16 @@
 
 **Preservation rule:** do not edit older frozen audit texts to retroactively attribute them to a model, organization or human, or to upgrade their evidentiary rank. This registry is a separate, overt corrective annotation.
 
+## Additional 11 October architectural cross-review — accountable bot attribution
+
+- **Review ID:** HF-RP-CROSS-20261011-01.
+- **Source:** [Napoleon → R01 → HF full positioning cross-review](./NAPOLEON_R01_HF_FULL_POSITIONING_CROSS_REVIEW.md).
+- **Original intellectual contribution:** 00G/R01/EA/MSCA research corpus led by Iván Abril Palma, with separately credited cited investigators for the historical incident and other original sources.
+- **Review writer:** OpenAI ChatGPT GPT-6; AI assistant under Iván's instructions. No other human/bot co-reviewer is asserted.
+- **Work performed:** comparative reading of 00G success and falsifier, R01 reduction/transfer limits, the historical HF and Stage A/Stage B texts, EA F1–F9, RA, signalling, MSCA role/Repositioning and authored test reports.
+- **Not performed:** independent scientist's blind adjudication, fresh multi-agent execution, full code-suite replay, matched Stage B architecture verification or empirical incident prevention.
+- **Independence class:** AI-assisted maintainer-side, **not independent external**, with all architecture-benefit claims prospective and conventional counterexamples preserved.
+
 ## Required record for EACH future audit
 
 Copy these ten fields into the header of every submitted reviewer report:
