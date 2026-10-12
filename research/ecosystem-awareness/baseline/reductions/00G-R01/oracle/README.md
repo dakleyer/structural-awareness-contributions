@@ -169,3 +169,19 @@ oracle/
 ## Claim boundary
 
 The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
+
+
+## Reading sequence from registration to result
+
+Follow the record in the order in which its evidence is created:
+
+| Step | Read | What it fixes |
+|---|---|---|
+| 1. Imported question and semantics | [UC-4 bridge](./UC4_INTEROPERABILITY_PROFILE.md) | Source/version, mapping, capabilities and distinct review states. |
+| 2. Candidate and execution envelope | [Adapter guide](./TECHNOLOGY_ADAPTER_GUIDE.md) and [registration template](./REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json) | Implementation, native mapping, comparisons, resources, reset/cache and disclosure policy. |
+| 3. Candidate visibility | [Isolation contract](./ISOLATION_CONTRACT.md) | What the candidate can access and the evidence for that runtime boundary. |
+| 4. Actions and acceptance | [Tool broker](./TOOL_BROKER_CONTRACT.md) and [gate policy](./GATE_POLICY_CONTRACT.md) | Available operations, charges, durations, effects and frozen acceptance conditions. |
+| 5. Evidence before and after evaluation | [Trace contract](./TRACE_CONTRACT.md) | Candidate/native evidence, attempted action, observed effect, pre-oracle seal and result seal. |
+| 6. Instrument calibration | [v0.9 record](./SELFTEST_RECORD_v0.9.md), [result](./selftest_result_v0.9.json) and [freeze](./STAGE0_FREEZE_v0.9.json) | The published calibration of the instrument0.7 under freeze0.9, preserving each control's expected PASS, FAIL or INCONCLUSIVE outcome. |
+
+Use the [DDS method index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) for the study stage and its authoritative reference. C11 registers the selected campaign; T03 admits its pinned real-technology adapter. The registration template is completed and evidenced before that execution. The existing self-test records remain the calibration history of the instrument.

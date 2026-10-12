@@ -589,35 +589,9 @@ El diseño general mantiene referencias y ownership coherentes. Dos mejoras de l
 
 La relación se registra en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [oracle VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md), [UC4 bridge VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/5c2a969bfbfc5eb8065537f3fade718e756dcdad/contributions/when-controls-work-system-fails/README_VNext.md). Se conservan desacuerdos/propuestas anteriores; estas entradas corresponden al mismo asistente.
 
-### Plan pendiente — Selección legible de perfiles e instrumentos
 
-Fuente `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, commit `269d60cc478d2756516c631f587efc074e822eed`, blob `d24ef6090ad98d458b9e549eb2efb9196f4ff1b6`. Ubicación: al final, después del contexto completo. El método y la infraestructura se conectan por la pregunta y referencia correctas; no por el número de una versión o un PASS de calibración.
+## Tanda 4 aplicada y publicación en main — decisión de Iván, 12 octubre 2026
 
-Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; orden2; estado pendiente del GO de tanda4. Beneficio: lectura/admisión basada en objeto y evidencia. Riesgo acotado a navigation/prosa, conservando referencias y reglas actuales; coste incluye lectura, cotejo y mantenimiento. Dependencias: los cuatro añadidos se verifican conjuntamente por enlaces; la decisión de tanda3 no los aplica. Instrucción de Iván: preparar y continuar la siguiente; no perder contenido; PDF al final.
+Iván autoriza continuar después de la tanda4 y pide que todas las tandas aprobadas estén en main. Se incorporan exactamente las cuatro adiciones a DDSIndex, oracle README, UC4 bridge y adapter guide. Sus bytes anteriores y enlaces permanecen íntegros. Las cuatro fichas incorporadas salen de pendientes; los pares completos quedan en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/bb432e8a9e2809612d2b721b3660974362c34879/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Se conservan auditorías y otras decisiones abiertas.
 
-**Texto antes — viejo literal completo del contexto**
-
-````markdown
-For S4, a research campaign remains distinct from the refund campaign whose business authority is being assessed. Record unauthorized aggregate action and loss of the material finding separately. For an existing exercise, follow its original registration and evidence; a prospective successor declares its own question and changed scope before a new run.
-````
-
-**Texto después — contexto íntegro y adición completa**
-
-````markdown
-For S4, a research campaign remains distinct from the refund campaign whose business authority is being assessed. Record unauthorized aggregate action and loss of the material finding separately. For an existing exercise, follow its original registration and evidence; a prospective successor declares its own question and changed scope before a new run.
-
-
-## 14. Select the method profile and its instruments
-
-Select the study's object and authoritative reference first. Then use the instruments admitted for that question.
-
-| Question | Profile or instrument | Reference and use |
-|---|---|---|
-| Which specification distinctions survive the Challenge? | [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [gate diagnostic v0.2 audit candidate](./DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.2_AUDIT_CANDIDATE.md) | The frozen Challenge and candidate specification; the diagnostic keeps gate verdict, level and dependency separate. Use the [v0.2 instrument freeze](./DDS_STAGE_A_GATE_DIAGNOSTIC_AUDIT_MANIFEST_v0.2.json) for that audit candidate. |
-| Does an architecture realize the selected specification? | [Stage B](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) | The frozen specification package and requirement-to-architecture evidence. |
-| Does the implementation satisfy the problem under the registered conditions? | [Stage C](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) | The Challenge, observed target/effect, acceptance policy and matched comparator contract. |
-| How are candidate execution, private evaluation and resources recorded? | [R01 C02 reading sequence](./baseline/reductions/00G-R01/oracle/README.md#reading-sequence-from-registration-to-result) | Adapter, broker, frozen policy and sealed traces within the selected R01 profile. |
-| How is the HF authority/evidence fixture evaluated? | [HF oracle C3](./baseline/fixtures/00G-HF-ORACLE-v0.4/README.md) | Its own frozen family predicates and controls; select its profile rather than substituting C02 labels. |
-
-For a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.
-````
+Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en main de use-cases con sus54archivos existentes: fuentes, anexos, assets, fixtures y las seis VNext del paquete. La rama anterior permanece como historia. Los23archivos preexistentes de main se conservan; el README raíz recibe sólo un enlace añadido. No se altera un código, dato, manifiesto, resultado o PDF, ni se borra/mueve un archivo. Las revisiones siguientes de UC-21 usan main. Continúa tanda5: campañas e informes, con candidatos nuevos sujetos a su propioGO.

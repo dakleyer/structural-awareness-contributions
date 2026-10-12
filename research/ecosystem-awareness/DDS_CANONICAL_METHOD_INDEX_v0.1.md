@@ -252,3 +252,18 @@ A case supplies the question and acceptance conditions. DDS supplies the study m
 Keep labels qualified in cross-study comparisons. UC-21 R0/R1/R2, AWS-I0/I1/I2, the external S5 simulator's I0/I1/I2, causal conditions A–D, and DDS Stages A/B/C describe different dimensions. The [existing namespace rule](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#10a-namespace-safety-for-cross-corpus-review) preserves those meanings. In particular, the external S5 `I2-complete` selects a supplied-model correction; AWS-I2/R2 tests the retained corrected implementation under admitted drift.
 
 For S4, a research campaign remains distinct from the refund campaign whose business authority is being assessed. Record unauthorized aggregate action and loss of the material finding separately. For an existing exercise, follow its original registration and evidence; a prospective successor declares its own question and changed scope before a new run.
+
+
+## 14. Select the method profile and its instruments
+
+Select the study's object and authoritative reference first. Then use the instruments admitted for that question.
+
+| Question | Profile or instrument | Reference and use |
+|---|---|---|
+| Which specification distinctions survive the Challenge? | [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) and [gate diagnostic v0.2 audit candidate](./DDS_STAGE_A_GATE_DIAGNOSTIC_PROFILE_v0.2_AUDIT_CANDIDATE.md) | The frozen Challenge and candidate specification; the diagnostic keeps gate verdict, level and dependency separate. Use the [v0.2 instrument freeze](./DDS_STAGE_A_GATE_DIAGNOSTIC_AUDIT_MANIFEST_v0.2.json) for that audit candidate. |
+| Does an architecture realize the selected specification? | [Stage B](./DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) | The frozen specification package and requirement-to-architecture evidence. |
+| Does the implementation satisfy the problem under the registered conditions? | [Stage C](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md) | The Challenge, observed target/effect, acceptance policy and matched comparator contract. |
+| How are candidate execution, private evaluation and resources recorded? | [R01 C02 reading sequence](./baseline/reductions/00G-R01/oracle/README.md#reading-sequence-from-registration-to-result) | Adapter, broker, frozen policy and sealed traces within the selected R01 profile. |
+| How is the HF authority/evidence fixture evaluated? | [HF oracle C3](./baseline/fixtures/00G-HF-ORACLE-v0.4/README.md) | Its own frozen family predicates and controls; select its profile rather than substituting C02 labels. |
+
+For a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.

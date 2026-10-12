@@ -658,27 +658,9 @@ El diseño general mantiene referencias y ownership coherentes. Dos mejoras de l
 
 La relación se registra en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [oracle VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md), [UC4 bridge VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/5c2a969bfbfc5eb8065537f3fade718e756dcdad/contributions/when-controls-work-system-fails/README_VNext.md). Se conservan desacuerdos/propuestas anteriores; estas entradas corresponden al mismo asistente.
 
-### Plan pendiente — Relacionar diseño histórico UC-4 con los perfiles DDS vigentes
 
-Fuente `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE.md`, commit `269d60cc478d2756516c631f587efc074e822eed`, blob `680e7f221b2c0e6182a227704997c2c232583cdf`. Ubicación: al final, después del contexto completo. La nota histórica todavía habla de una enmienda DDS futura. La adición dirige al método mantenido y conserva intacta la revisión/compatibilidad de UC-4.
+## Tanda 4 aplicada y publicación en main — decisión de Iván, 12 octubre 2026
 
-Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; orden3; estado pendiente del GO de tanda4. Beneficio: lectura/admisión basada en objeto y evidencia. Riesgo acotado a navigation/prosa, conservando referencias y reglas actuales; coste incluye lectura, cotejo y mantenimiento. Dependencias: los cuatro añadidos se verifican conjuntamente por enlaces; la decisión de tanda3 no los aplica. Instrucción de Iván: preparar y continuar la siguiente; no perder contenido; PDF al final.
+Iván autoriza continuar después de la tanda4 y pide que todas las tandas aprobadas estén en main. Se incorporan exactamente las cuatro adiciones a DDSIndex, oracle README, UC4 bridge y adapter guide. Sus bytes anteriores y enlaces permanecen íntegros. Las cuatro fichas incorporadas salen de pendientes; los pares completos quedan en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/bb432e8a9e2809612d2b721b3660974362c34879/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md). Se conservan auditorías y otras decisiones abiertas.
 
-**Texto antes — viejo literal completo del contexto**
-
-````markdown
-Until that review, this profile deliberately avoids claiming exact UC-4 schema compatibility.
-````
-
-**Texto después — contexto íntegro y adición completa**
-
-````markdown
-Until that review, this profile deliberately avoids claiming exact UC-4 schema compatibility.
-
-
-## Current DDS reading route — 12 October 2026
-
-Section4.1 retains the earlier three-stage design discussion. For the maintained DDS method, use the [method index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md), [Stage A](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), [Stage B Architecture Verification](../../../../DDS_GATE_B_ARCHITECTURE_VERIFICATION_v0.1.md) and [Stage C Implementation / Problem Validation](../../../../DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md). Their objects and authoritative references govern the selected study; the earlier sketches remain their design history.
-
-UC-4's imported schema, contributor review, validation and execution capabilities retain their own versioned records. The R01 bridge's listed status remains R01-BRIDGE-DRAFT. The [adapter evidence guide](./TECHNOLOGY_ADAPTER_GUIDE.md#evidence-attached-to-an-admission-record) connects declared admission fields to their supporting artifacts. DDS stage selection and UC-4 compatibility are recorded separately.
-````
+Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en main de use-cases con sus54archivos existentes: fuentes, anexos, assets, fixtures y las seis VNext del paquete. La rama anterior permanece como historia. Los23archivos preexistentes de main se conservan; el README raíz recibe sólo un enlace añadido. No se altera un código, dato, manifiesto, resultado o PDF, ni se borra/mueve un archivo. Las revisiones siguientes de UC-21 usan main. Continúa tanda5: campañas e informes, con candidatos nuevos sujetos a su propioGO.

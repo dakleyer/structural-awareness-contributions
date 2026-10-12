@@ -1182,61 +1182,9 @@ El diseño general mantiene referencias y ownership coherentes. Dos mejoras de l
 
 La relación se registra en ambos extremos: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [oracle VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md), [UC4 bridge VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/269d60cc478d2756516c631f587efc074e822eed/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) y [caso VNext](https://github.com/dakleyer/use-cases/blob/5c2a969bfbfc5eb8065537f3fade718e756dcdad/contributions/when-controls-work-system-fails/README_VNext.md). Se conservan desacuerdos/propuestas anteriores; estas entradas corresponden al mismo asistente.
 
-### Plan pendiente — Cadena completa registro→instrumentos→traza→resultado
 
-Fuente `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`, commit `269d60cc478d2756516c631f587efc074e822eed`, blob `3084deb7473af19026f0f635987f63f5c23c18dc`. Ubicación: al final, después del contexto completo. El lector puede recorrer los contratos actualmente separados y ver cuándo se produce cada evidencia, sin ejecutar una tecnología por seguir los enlaces.
+## Tanda 4 aplicada y publicación en main — decisión de Iván, 12 octubre 2026
 
-Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; orden1; estado pendiente del GO de tanda4. Beneficio: lectura/admisión basada en objeto y evidencia. Riesgo acotado a navigation/prosa, conservando referencias y reglas actuales; coste incluye lectura, cotejo y mantenimiento. Dependencias: los cuatro añadidos se verifican conjuntamente por enlaces; la decisión de tanda3 no los aplica. Instrucción de Iván: preparar y continuar la siguiente; no perder contenido; PDF al final.
+Iván autoriza continuar después de la tanda4 y pide que todas las tandas aprobadas estén en main. Se incorporan exactamente las cuatro adiciones a DDSIndex, oracle README, UC4 bridge y adapter guide. Sus bytes anteriores y enlaces permanecen íntegros. Las cuatro fichas incorporadas salen de pendientes; los pares completos quedan en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/bb432e8a9e2809612d2b721b3660974362c34879/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md). Se conservan auditorías y otras decisiones abiertas.
 
-**Texto antes — viejo literal completo del contexto**
-
-````markdown
-The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
-````
-
-**Texto después — contexto íntegro y adición completa**
-
-````markdown
-The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
-
-
-## Reading sequence from registration to result
-
-Follow the record in the order in which its evidence is created:
-
-| Step | Read | What it fixes |
-|---|---|---|
-| 1. Imported question and semantics | [UC-4 bridge](./UC4_INTEROPERABILITY_PROFILE.md) | Source/version, mapping, capabilities and distinct review states. |
-| 2. Candidate and execution envelope | [Adapter guide](./TECHNOLOGY_ADAPTER_GUIDE.md) and [registration template](./REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json) | Implementation, native mapping, comparisons, resources, reset/cache and disclosure policy. |
-| 3. Candidate visibility | [Isolation contract](./ISOLATION_CONTRACT.md) | What the candidate can access and the evidence for that runtime boundary. |
-| 4. Actions and acceptance | [Tool broker](./TOOL_BROKER_CONTRACT.md) and [gate policy](./GATE_POLICY_CONTRACT.md) | Available operations, charges, durations, effects and frozen acceptance conditions. |
-| 5. Evidence before and after evaluation | [Trace contract](./TRACE_CONTRACT.md) | Candidate/native evidence, attempted action, observed effect, pre-oracle seal and result seal. |
-| 6. Instrument calibration | [v0.9 record](./SELFTEST_RECORD_v0.9.md), [result](./selftest_result_v0.9.json) and [freeze](./STAGE0_FREEZE_v0.9.json) | The published calibration of the instrument0.7 under freeze0.9, preserving each control's expected PASS, FAIL or INCONCLUSIVE outcome. |
-
-Use the [DDS method index](../../../../DDS_CANONICAL_METHOD_INDEX_v0.1.md) for the study stage and its authoritative reference. C11 registers the selected campaign; T03 admits its pinned real-technology adapter. The registration template is completed and evidenced before that execution. The existing self-test records remain the calibration history of the instrument.
-````
-
-### Plan pendiente — Conectar declaraciones T03 con sus evidencias verificables
-
-Fuente `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/TECHNOLOGY_ADAPTER_GUIDE.md`, commit `269d60cc478d2756516c631f587efc074e822eed`, blob `ab28cd93a92746fdcd181eb5b9944773d047f5c6`. Ubicación: al final, después del contexto completo. La lectura estática distingue presencia de referencias de comprobación de los artefactos referidos. La aclaración concreta evita llamar verificación de evidencia al control sintético de admisión.
-
-Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; orden4; estado pendiente del GO de tanda4. Beneficio: lectura/admisión basada en objeto y evidencia. Riesgo acotado a navigation/prosa, conservando referencias y reglas actuales; coste incluye lectura, cotejo y mantenimiento. Dependencias: los cuatro añadidos se verifican conjuntamente por enlaces; la decisión de tanda3 no los aplica. Instrucción de Iván: preparar y continuar la siguiente; no perder contenido; PDF al final.
-
-**Texto antes — viejo literal completo del contexto**
-
-````markdown
-Use [REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json](./REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json) as the R01-side registration checklist; it does not replace Nelson's UC-4 experiment package.
-````
-
-**Texto después — contexto íntegro y adición completa**
-
-````markdown
-Use [REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json](./REAL_TECHNOLOGY_REGISTRATION_TEMPLATE.json) as the R01-side registration checklist; it does not replace Nelson's UC-4 experiment package.
-
-
-## Evidence attached to an admission record
-
-Resolve the registered source versions and hashes to the actual frozen artifacts before execution. Keep the schema-validator result, contributor-review evidence, isolation record, native mapping and comparator/resource contract with the registration. The campaign record identifies where each supporting artifact can be inspected.
-
-The current `validate_real_registration` checks required field presence and declared admission values. It does not fetch the artifacts named by their hashes or authenticate a contributor's review. Its synthetically complete admission control tests that checker path. Actual artifact resolution and the supporting review/isolation evidence remain part of preparing the real campaign under the contracts above.
-````
+Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en main de use-cases con sus54archivos existentes: fuentes, anexos, assets, fixtures y las seis VNext del paquete. La rama anterior permanece como historia. Los23archivos preexistentes de main se conservan; el README raíz recibe sólo un enlace añadido. No se altera un código, dato, manifiesto, resultado o PDF, ni se borra/mueve un archivo. Las revisiones siguientes de UC-21 usan main. Continúa tanda5: campañas e informes, con candidatos nuevos sujetos a su propioGO.
