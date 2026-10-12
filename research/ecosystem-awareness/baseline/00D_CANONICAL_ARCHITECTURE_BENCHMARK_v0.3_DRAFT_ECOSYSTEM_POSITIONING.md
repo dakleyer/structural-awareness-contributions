@@ -149,7 +149,7 @@ Human/institutional governance and physical/digital actuation are **not EP compo
 
 To avoid collision with the canonical requirements hypotheses H1–H6, v0.3 uses the namespace **EP-BH# = Ecosystem Positioning Benchmark Hypothesis**.
 
-These hypotheses remain **provisional until W1 Requirements-vNext maps them explicitly to S1–S14 / T1–T4 / H1–H6 / KPI or identifies a justified requirements extension**.
+The W1 mapping to S1–S14 / T1–T4 / H1–H6 / KPI is recorded in §9. These hypotheses remain provisional while the source, comparator, protocol and fixture-admission gates in §13 are completed.
 
 | ID | Provisional benchmark hypothesis | Primary modules | Decisive falsifier |
 |---|---|---|---|
@@ -309,7 +309,7 @@ Do not declare “simpler” using an arbitrary two-of-four rule. Compare arms o
 
 ## 9. Requirements traceability gate
 
-Before this draft can replace v0.2, W1 Requirements-vNext must produce a delta table for every EP-BH#:
+The W1 delta table for every EP-BH# is recorded below. It maps this draft to the current requirements; benchmark adoption additionally requires the gates in §13:
 
 | Benchmark hypothesis | Current S/T/H/KPI route | W1 finding | Requirements disposition |
 |---|---|---|---|
@@ -391,7 +391,7 @@ Not supported now:
 - that choreography converges;
 - that EP improves safety;
 - that 00G, C9–C15 or the v0.3 comparator families have executed;
-- that this draft has passed the Requirements-vNext or bibliographic gate.
+- completion of bibliographic review, fixture admission or benchmark adoption on the basis of the W1 mapping alone.
 
 ---
 
@@ -399,7 +399,7 @@ Not supported now:
 
 v0.3 becomes the canonical benchmark only after all of the following are complete:
 
-1. **W1 Requirements-vNext delta:** every EP-BH# is mapped to the current requirement system or a justified versioned requirements change.
+1. **W1 Requirements-vNext delta — recorded:** the completed mapping review in §9 uses the current requirement system; any later versioned change requires an updated mapping.
 2. **Prior-art source audit:** PA-1…PA-5/OR bibliography and claimed mechanism boundaries are verified against primary sources.
 3. **Industry comparator audit:** B2 capabilities are pinned to dated primary vendor/standard documentation.
 4. **Ablation protocol:** build-up, leave-one-module-out and selected interaction tests are frozen.

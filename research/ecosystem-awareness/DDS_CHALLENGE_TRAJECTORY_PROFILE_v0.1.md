@@ -2,7 +2,7 @@
 
 <!-- DDS terminology revision 2 (2026-10-07): Stage A/B/C only; source scientific version and evidence unchanged. -->
 
-Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
+Extension-review clarification0.1.3: DDS has three development stages: A, B and C. Technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal phases of Stage A, historically labelled Stage1 and Stage2. Completion and evidence are recorded for each declared base and scope.
 
 Coverage/delivery clarification0.1.2: reduced implementations remain traceable to this one working corpus reference; technical coverage and delivery completion are distinct. No frozen evidence or mathematics changes.
 

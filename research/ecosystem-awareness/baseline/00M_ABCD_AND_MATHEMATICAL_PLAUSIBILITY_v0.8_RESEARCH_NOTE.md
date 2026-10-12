@@ -200,7 +200,7 @@ A justified abstraction may instead supply a **sound conservative approximation*
 
 Even without recovering the hidden answer, a review indication may report a lost bound, an unresolved overlap or an available exploration direction.
 
-If the evidence fits no admitted state, that indicates inconsistency or model inadequacy, not certainty. Establishing this inconsistency can itself require further analysis: a conservative approximation need not detect that the exact set is empty. Because it is a superset, the approximation can still contain candidate answers even when no modeled source state is compatible with the available summary. Abstract interpretation provides an established mathematical precedent [R2]; applying it soundly to EA remains a separate task.
+Evidence that fits no admitted state indicates an inconsistency or an inadequate model. For example, a model admitting only red and blue observations cannot account for a green observation. A candidate answer retained by a conservative approximation needs a compatible source state to support it. Establishing this inconsistency can itself require further analysis: a conservative approximation need not detect that the exact set is empty. Because it is a superset, the approximation can still contain candidate answers even when no modeled source state is compatible with the available summary. Abstract interpretation provides an established mathematical precedent [R2]; applying it soundly to EA remains a separate task.
 
 ### 4.3 What aggregation can preserve, and what it costs
 

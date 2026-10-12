@@ -135,7 +135,7 @@ No layer substitutes for another.
 | Objective-conditioned agentic gradient | **DEFINED in Ecosystem Positioning canonical working law; consumed by Canonical MSCA Operation & Repositioning** |
 | MSCA Ecosystem Composition & Control | **CURRENT — [v0.1](./03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md)** |
 | Ecosystem Cartography `Cart_i=[A_Cart,B_Cart,C_Cart,D_Cart]` | **DEFINED in Composition & Control v0.1** |
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
+| Semantic/dependency/process structures inside `A_Cart`, qualified element-wise by `B_Cart` support, validity limits and characterized assessment reserve; confidence is one qualifier | **DEFINED in Composition & Control v0.1** |
 | Composition update inputs/triggers/outputs (`Π_EA,i`, `ReceivedSignals_i`, `Cart_i/Δ_Cart,i`, RA feedback) | **DEFINED in Composition & Control v0.1** |
 | Peer-MSCAs vs legitimate higher-order composite MSCA | **DEFINED in Composition & Control v0.1** |
 | Canonical MSCA Operation & Repositioning specification | **CURRENT — [v0.1](./04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md)** |

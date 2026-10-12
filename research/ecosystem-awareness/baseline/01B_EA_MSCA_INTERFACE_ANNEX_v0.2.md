@@ -46,7 +46,7 @@ The public FG-AI4SSC input [FGAI4SSC-I-097](../../../submissions/itu-fg-ai4ssc/F
 
 The sufficiency problem is **conditional and multi-objective**. For a candidate configuration x=(C,P,M), MSCA assesses x against the applicable S and E and distinguishes SUPPORTED, FAILED and UNRESOLVED. Selection or preference among supported alternatives may consider burden, reach, latency, human capacity, infrastructure, privacy, intervention intensity, switching cost and other owner-authorized trade-offs. A finite tested set cannot prove a global minimum, and one scalar burden score must not silently erase non-compensable constraints.
 
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
+The symbol **x** denotes a candidate control configuration. **A** denotes the functional result delivered by the declared producer and process for a specified question, scope, capability and time. A claim or scope declaration may be part of that result.
 
 ## 3. Source-profile mapping from the published urban/smart-city working paper
 

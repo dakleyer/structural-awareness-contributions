@@ -2,7 +2,7 @@
 
 ## From compressed agent outputs to qualified context: scientific plausibility and requirements alignment
 
-**A network of agents can keep exchanging locally adequate answers while losing the context needed to know whether those answers still work together.** EA investigates whether a small, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost.
+**A network of agents can keep exchanging locally adequate answers while losing the context needed to know whether those answers still work together.** EA investigates whether task-relevant, qualified context can be preserved in metadata and composed to identify a reason to reassess while a useful response remains possible. Useful size, interpretation cost and sufficiency are assessed for the declared review question and source conditions.
 
 **A local blind spot need not be a collective blind spot:** another participant may already have a relevant assessment, or a characterized capability to obtain one. Making that correspondence visible offers a direct reason to investigate the architecture.
 

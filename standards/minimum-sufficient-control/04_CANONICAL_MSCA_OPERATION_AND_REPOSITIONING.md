@@ -395,7 +395,7 @@ Typical conditions include:
 - a new ACC lineage / membership is required;
 - invariant controls can be preserved but the operating frame must be replaced.
 
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
+P3 identifies the need to qualify a legitimate transition path. ACC and the applicable authority mechanisms govern approval of the destination and execution.
 
 ### 11.4 Hard decision, soft epistemics
 

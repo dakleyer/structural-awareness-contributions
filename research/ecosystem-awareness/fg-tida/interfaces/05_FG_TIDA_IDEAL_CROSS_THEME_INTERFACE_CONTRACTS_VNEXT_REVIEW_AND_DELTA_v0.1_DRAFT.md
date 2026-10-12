@@ -144,7 +144,7 @@ Public anchors:
 
 ### Ideal 05 consequence
 
-Theme #13-derived work should contain **two peer mechanisms**:
+This ideal projection proposes **two peer mechanisms** for Theme #13-derived work: **Incident / Signal Lifecycle** and **Ecosystem Awareness**. The table specifies their responsibilities and bidirectional interfaces.
 
 | Peer mechanism | Ideal responsibility |
 |---|---|
