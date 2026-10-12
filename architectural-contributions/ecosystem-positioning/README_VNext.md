@@ -1442,3 +1442,10 @@ El vocabulario común debe relacionar significados que ya existen, no imponer po
 
 
 **Hallazgo de versión:** el paquete de revisión S5 enlazado en la discusión no está en el árbol main90a3135. Su README sí se recupera íntegro en el pin2c7f545 citado originalmente. La nueva ruta conserva ese enlace inmutable y no inventa una copia vigente. La segunda tanda debe registrar también dependencias de commits anteriores, no sólo archivos del head.
+
+
+## Incorporación de la primera tanda de lectura — 12 octubre 2026
+
+Iván autoriza ejecutar la ruta UC-21→objetivos→Challenges→DDS→campañas→resultados. Las adiciones descritas aquí se incorporan conservando todos los bytes previos y vínculos de las fuentes. La terminología de lectura remite a sus propietarios: Challenge, escenario base, escenario de evaluación/perfil tecnológico y campañas/operaciones mantienen sus contextos. No se renombra un archivo, se modifica un contrato o se ejecuta una campaña.
+
+La ficha de esta tanda aplicada se retira de la cola activa; sus textos completos están en la [versión de preparación](https://github.com/dakleyer/structural-awareness-contributions/blob/ccf0d4b897eb56498de8fd64d97bf94af496e614/architectural-contributions/ecosystem-positioning/README_VNext.md). El plan de las tandas 2–6 sigue vigente: inventario de dependencias/versiones, agrupación con unidad explícita, informes de campaña y conciliación. La entrada de Issue se actualiza después de verificar las fuentes publicadas. Sus enlaces de envío se conservan.
