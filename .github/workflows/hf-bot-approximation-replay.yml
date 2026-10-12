@@ -1,0 +1,37 @@
+name: HF bot-approximation deterministic replay
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/**"
+      - "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/review-2026-10-11/traversals/**"
+      - ".github/workflows/hf-bot-approximation-replay.yml"
+  pull_request:
+    paths:
+      - "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/**"
+      - "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/review-2026-10-11/traversals/**"
+      - ".github/workflows/hf-bot-approximation-replay.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce-authored-explorations:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run and compare archived deterministic exercises
+        run: python "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/BOT_AUTORUN_REPLAY.py" --report "$RUNNER_TEMP/hf-bot-replay-report.json"
+      - name: Retain machine report, not independent scientific review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hf-bot-approximation-replay
+          path: ${{ runner.temp }}/hf-bot-replay-report.json
+          if-no-files-found: warn
+          retention-days: 14
