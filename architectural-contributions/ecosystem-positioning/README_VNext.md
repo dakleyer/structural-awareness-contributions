@@ -1499,4 +1499,17 @@ Todos los pares completos están al final de las VNext existentes. Esta ola mejo
 
 **Orden:** trazabilidad y propósito/controles del oráculo primero; después enlaces, rutas y estados de lectura.00M→00N→addendum conserva las versiones históricas y la ruta vigente. Las cinco rutas del oráculo y el ancla§3.6 se comprobaron contra el árbol actual; R4 se comprobó en la fuente primaria del autor.
 
-**Decisión:** Ola3 preparada, pendiente de su go. Cuando se incorpore cada pasaje, se marcará aplicado y se retirará de pendientes en la misma entrega, conservando el antes/después y las auditorías.
+**Decisión:** Ola3 aplicada y verificada en `09fc270abfcc8efc3efdcee2279b80e145db55d5`: diez cambios en seis documentos. Los estados de las propietarias y la cola se actualizan en esta entrega; sus pares y auditorías permanecen.
+
+
+---
+
+<a id="ola4-interfaces-escenarios"></a>
+
+## Ola 4 — coherencia de interfaces y escenarios, fuera de DDS
+
+Ola3 ya está aplicada en [09fc270abfcc8efc3efdcee2279b80e145db55d5](https://github.com/dakleyer/structural-awareness-contributions/commit/09fc270abfcc8efc3efdcee2279b80e145db55d5). Esta ola adicional prepara seis sustituciones coordinadas en04GeneralVNext,05IdealVNext y05ACurrentVNext, usando los cambios18/33 existentes.
+
+Se reconoce00I existente, se conserva su ruta paralela aUC6→matrices→UC4, se añadenI/J al catálogo interno y se sincronizan los resúmenes. ImpactoMedio/riesgoMedio/esfuerzoMedio; alcance documental acoplado, sin modificar casos, evidencia, contratos o código.
+
+Pares completos en [04](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j), [05Ideal](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j) y [05ACurrent](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j). La orden actual de Iván autoriza preparar y aplicar esta ola adicional; se publica primero el plan y luego su incorporación/estado verificado.

@@ -1378,7 +1378,7 @@ Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://gith
 
 ## Ola 3 — cambio 8: Leer correctamente los controles del self-test
 
-**Estado: pendiente del go de Iván.** Propuesta existente26 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
+**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente26 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
 
 **Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** What is executable now, antes de la enumeración; línea75, viejo localizado una vez fuera de quotes.
 
@@ -1398,7 +1398,7 @@ The [v0.9 calibration record](./SELFTEST_RECORD_v0.9.md) has expected PASS outco
 The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
 ~~~~
 
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
 **Evidencia:** SELFTEST_RECORD_v0.9 mantiene dosPASS, tresFAIL y unINCONCLUSIVE como outcomes registrados; la frase explica esa calibración, con seis controles. El registro fuente se conserva.
 
@@ -1409,7 +1409,7 @@ The current Stage-0 self-test is intentionally small and now reuses several cont
 
 ## Ola 3 — cambio 9: Propósito del oráculo en una frase operativa
 
-**Estado: pendiente del go de Iván.** Propuesta existente28 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
+**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente28 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
 
 **Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** Párrafo Status inicial; línea7, viejo localizado una vez fuera de quotes.
 
@@ -1427,7 +1427,7 @@ The current Stage-0 self-test is intentionally small and now reuses several cont
 **Status: limited implementation with a successful Stage-0 instrumentation self-test · 5 October 2026.** This directory implements the C02 instrument slice for R01. It compares a recorded candidate choice or execution with the best admissible route in a frozen world, using declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations.
 ~~~~
 
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
 
 ---
@@ -1436,7 +1436,7 @@ The current Stage-0 self-test is intentionally small and now reuses several cont
 
 ## Ola 3 — cambio 10: Cinco referencias convertidas en enlaces
 
-**Estado: pendiente del go de Iván.** Propuesta existente30 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
+**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente30 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
 
 **Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** Bloque Corpus reuse; línea30, viejo localizado una vez fuera de quotes.
 
@@ -1466,4 +1466,4 @@ Corpus reuse:
 - [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
 ~~~~
 
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.

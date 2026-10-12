@@ -1031,3 +1031,114 @@ This ideal projection proposes **two peer mechanisms** for Theme #13-derived wor
 - **Aplicado:** Ola2 cambio4 / propuesta34.
 
 Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+
+---
+
+<a id="ola4-integracion-00i-00j"></a>
+
+## Ola 4 — coherencia de escenarios internos y rutas de interfaces
+
+**12 octubre2026.** Iván autoriza preparar y aplicar una ola adicional fuera de DDS. Paquete conjunto de los cambios18/33: seis sustituciones en tres espacios de trabajo existentes. **Impacto Medio, riesgo Medio, esfuerzo Medio, prioridad Primera.**
+
+**Razón:**04/05 contienen referencias futuras o ausencia de00I que contradicen el enlace existente de05§6 y05A§6.2. El catálogo interno y su resumen se amplían deE–H/E–I aE–J conforme a Requirements; cada ruta conserva su dueño. El riesgo es desalinear referencias entre los tres documentos; el paquete se verifica completo y mantiene el ancla histórica del encabezado.
+
+**Fuentes leídas:**00I Freeze Edition blob`9478116e0e7d1ce6d875312f13b52e83cb3685c8`;00J Draft blob`17616f2495ccfc08828fed49d4f566f718e67eee`;Requirements y05A como receptores. Se consultó identidad, estado y alcance pertinentes; los originales de escenarios no se editan.
+
+### Pasaje 2 — §8, bloque completo de separación de rutas
+
+Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea391. Viejo único fuera de citas.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+### Future 00I / UC #6 route-separation reservation
+
+If a dedicated **00I Semantic TOCTOU** scenario is later committed and reviewed, it must remain **parallel to**, not a stage of, the public **UC #6 → Theme #16 matrices → UC #4 executable mapping** route.
+
+- **UC #6** remains the public FG-TIDA semantic case for changed-purpose/current-authority applicability.
+- **00I**, if created, would remain an EA/DBC reference failure scenario testing the broader stale-semantic-applicability pattern.
+- **UC #4** remains the downstream executable/testbed mapping layer only after the originating semantic owners review the mapping.
+
+The routes may inform one another and may share fixtures or boundary questions, but neither replaces the other's ownership or provenance. This reservation mirrors the existing separation discipline used for 00H versus FG-TIDA case/test routes and prevents a later internal scenario from being mistaken for the source case.
+
+
+
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+<a id="future-00i--uc-6-route-separation-reservation"></a>
+
+### 00I and UC #6 — parallel provenance routes
+
+The committed [00I Semantic TOCTOU v0.5 Freeze Edition](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) supplies an EA/DBC scenario for stale semantic applicability. It is a parallel source to the public **UC #6 → Theme #16 matrices → UC #4 executable mapping** route.
+
+- **UC #6** supplies public FG-TIDA semantic facts about changed-purpose/current-authority applicability.
+- **00I** supplies the internal EA/DBC reference scenario with its own frozen scenario provenance.
+- **UC #4** supplies executable/testbed mapping after semantic-owner review.
+
+The routes can inform each other and share fixtures or boundary questions. Each retains its source ownership and provenance.
+
+
+
+~~~~
+
+### Pasaje 3 — §10A, lista de escenarios internos
+
+Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea456. Viejo único fuera de citas.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+- **00E — 100 Million Tokens / compounded epistemic collapse**
+- **00F — Smart-City Mobility / systemic divergence**
+- **00G — Collective False-Context Convergence**
+- **00H — Batch Opportunity Beyond Authority**
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+- **00E — 100 Million Tokens / compounded epistemic collapse**
+- **00F — Smart-City Mobility / systemic divergence**
+- **00G — Collective False-Context Convergence**
+- **00H — Batch Opportunity Beyond Authority**
+- **[00I — Semantic TOCTOU / The Patch That Undid the Fix](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md)**
+- **[00J — Rights-Provenance Inversion / The Author Pays for Their Own Work](../../baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md)**
+~~~~
+
+### Pasaje 4 — §10B, fila C02
+
+Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea470. Viejo único fuera de citas.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+| **C02 semantic TOCTOU** | **None committed** | UC #6 exercises changed applicability; a future 00I has been discussed as a possible dedicated scenario but is not a repository source and is not assumed here. |
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+| **C02 semantic TOCTOU** | **[00I v0.5 Freeze Edition](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md), internal EA scenario** | UC #6 supplies FG-TIDA changed-applicability semantics; 00I supplies a parallel internal stress scenario. Use as FG-TIDA execution evidence requires a reviewed fixture mapping. |
+~~~~
+
+### Pasaje 5 — §18, punto8
+
+Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea752. Viejo único fuera de citas.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+8. integrate 00E–00H, DBC-C01…C12, EA-ITP-01, DAOS and UC #4 staged testing into one requirement-first conformance pipeline;
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+8. integrate 00E–00J, DBC-C01…C12, EA-ITP-01, DAOS and UC #4 staged testing into one requirement-first conformance pipeline;
+~~~~
+
+**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** preparada para incorporación inmediata; se marcará aplicada tras verificar publicación y fuente.

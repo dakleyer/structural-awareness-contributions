@@ -619,3 +619,34 @@ La valoración actual distingue una mejora documental de una modificación conce
 Lectura completa de 03F3/F4/F8/ §5: califican operational result/claim yproducen statement/envelope acotados sin transferir autoridad. Elkernel genérico debe preservar lo relevante para elreceptor; A_ref sólo sirve conbinding/resolución/interpretación delperfil. Esta evidencia textual amplíaIF04-R1-F001,pero no cierra 19/H06,176assertions otests delInputContract. A/B/C/Dde 00M gobierna lectura actual sinrevalidar mapas/controles congelados.
 
 Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [Foundation VNext](01_FOUNDATIONAL_VNext.md). Allí se conserva laversión/fuente,explicación humana ylímites. Las demás lecturas previas no se repiten como si fueran nuevas; quinta ysexta mantienen sus estados reales. Canon,programas y resultados intactos.
+
+
+---
+
+<a id="ola4-integracion-00i-00j"></a>
+
+## Ola 4 — coherencia de escenarios internos y rutas de interfaces
+
+**12 octubre2026.** Iván autoriza preparar y aplicar una ola adicional fuera de DDS. Paquete conjunto de los cambios18/33: seis sustituciones en tres espacios de trabajo existentes. **Impacto Medio, riesgo Medio, esfuerzo Medio, prioridad Primera.**
+
+**Razón:**04/05 contienen referencias futuras o ausencia de00I que contradicen el enlace existente de05§6 y05A§6.2. El catálogo interno y su resumen se amplían deE–H/E–I aE–J conforme a Requirements; cada ruta conserva su dueño. El riesgo es desalinear referencias entre los tres documentos; el paquete se verifica completo y mantiene el ancla histórica del encabezado.
+
+**Fuentes leídas:**00I Freeze Edition blob`9478116e0e7d1ce6d875312f13b52e83cb3685c8`;00J Draft blob`17616f2495ccfc08828fed49d4f566f718e67eee`;Requirements y05A como receptores. Se consultó identidad, estado y alcance pertinentes; los originales de escenarios no se editan.
+
+### Pasaje 1 — §6, Delta disposition
+
+Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`a310cb7574560fbeb64ee43827398bcc9d6a29e7`, línea283. Viejo único fuera de citas.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+DBC-C02 provides the applied-validation route for this distinction now. If a future 00I Semantic TOCTOU scenario is committed, it should be cited here as an additional scenario-level stressor only after its repository text is reviewed; it must not be presumed from a chat-only draft.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+DBC-C02 supplies the semantic-TOCTOU validation route. The committed [00I Semantic TOCTOU v0.5 Freeze Edition](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) supplies the internal EA scenario; its requirements coverage and action-time binding candidates are recorded in the [Requirements vNext review](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+~~~~
+
+**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** preparada para incorporación inmediata; se marcará aplicada tras verificar publicación y fuente.

@@ -159,7 +159,7 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 ## Ola 3 — cambio 1: Cómo leer la trazabilidad
 
-**Estado: pendiente del go de Iván.** Propuesta existente6 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
+**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente6 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
 
 **Fuente:** [research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md), blob `8832c255e3775116046273363c131c05878af16d`. **Ubicación:** §2, después del encabezado; línea25, viejo localizado una vez fuera de quotes.
 
@@ -179,4 +179,4 @@ La valoración actual distingue una mejora documental de una modificación conce
 Read each row as a research route from a proposed operation to its requirement, sufficiency condition and hypothesis. S1–S14 are specification obligations, T1–T4 are jointly constraining sufficiency conditions, and H1–H6 are hypotheses to test. M1–M4 label the four operations in this note. The table records proposed traceability; conformance is established by the corresponding evidence.
 ~~~~
 
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.

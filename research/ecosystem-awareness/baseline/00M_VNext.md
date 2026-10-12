@@ -447,7 +447,7 @@ Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://gith
 
 ## Ola 3 — cambio 2: Enlazar la pregunta matemática con la funcional
 
-**Estado: pendiente del go de Iván.** Propuesta existente7 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
+**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente7 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
 
 **Fuente:** [research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `9fcdb8df36aba2e5cceac36564bc5bf12ab70fe8`. **Ubicación:** §1, frase de companion note; línea25, viejo localizado una vez fuera de quotes.
 
@@ -465,7 +465,7 @@ This vocabulary is specific to the present proposal; its connection to establish
 This vocabulary is specific to the present proposal. Its connection to exploration–exploitation literature is discussed in [the companion note, 00N](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), which examines how the representations can support a receiving decision under declared timing, authority and cost conditions.
 ~~~~
 
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
 
 ---
@@ -474,7 +474,7 @@ This vocabulary is specific to the present proposal. Its connection to explorati
 
 ## Ola 3 — cambio 3: Acceso directo a la fuente primaria R4
 
-**Estado: pendiente del go de Iván.** Propuesta existente9 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
+**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente9 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
 
 **Fuente:** [research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `9fcdb8df36aba2e5cceac36564bc5bf12ab70fe8`. **Ubicación:** Lista de referencias, R4; línea295, viejo localizado una vez fuera de quotes.
 
@@ -492,6 +492,6 @@ This vocabulary is specific to the present proposal. Its connection to explorati
 - R4: [author-hosted full text](https://www.math.tau.ac.il/~nogaa/PDFS/amsz4.pdf). Copy dated 22 February 2002; access checked 12 October 2026.
 ~~~~
 
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
 **Fuente externa comprobada:** PDF alojado por el autor, portada de Alon/Matias/Szegedy con fecha22febrero2002. Lectura para comprobar identidad/ruta/edición el12octubre2026. La fecha de esa copia se indica como tal; la página de registro bibliográfico mostró una respuesta intermitente. Se propone sólo el enlace primario comprobado.

@@ -1,5 +1,5 @@
 {
-  "version": "1.12",
+  "version": "1.13",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -8519,6 +8519,258 @@
           "joint_changes": []
         }
       ]
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Ola3 aplicada",
+      "source_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+      "proposal_assessments": [
+        {
+          "id": 6,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md",
+            "source_sha": "1aafa27b9594ab62c88f6ed770f8cc14685a1e39",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        },
+        {
+          "id": 7,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+            "source_sha": "073f8c331fdd10312cb180d39be5a73150c4844f",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        },
+        {
+          "id": 9,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+            "source_sha": "073f8c331fdd10312cb180d39be5a73150c4844f",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        },
+        {
+          "id": 10,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md",
+            "source_sha": "27ffa495bf780cd9177006d8b05a7b93b515a267",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        },
+        {
+          "id": 12,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+            "source_sha": "490a41655d5e38b526f282cccbcb13e65606f1ff",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        },
+        {
+          "id": 13,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+            "source_sha": "490a41655d5e38b526f282cccbcb13e65606f1ff",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        },
+        {
+          "id": 20,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/README.md",
+            "source_sha": "8185505674665135b7fd99879420c797ac726a70",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        },
+        {
+          "id": 26,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+            "source_sha": "3084deb7473af19026f0f635987f63f5c23c18dc",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        },
+        {
+          "id": 28,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+            "source_sha": "3084deb7473af19026f0f635987f63f5c23c18dc",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        },
+        {
+          "id": 30,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Aplicado",
+          "quality": "Ola3 aplicada y verificada",
+          "priority": "Histórico",
+          "wave": "Ola3 aplicada",
+          "decision_ready": false,
+          "authorized_to_apply": false,
+          "preparation": "Hecho; fuera de pendientes",
+          "gate": "Aplicado y verificado; no volver a ejecutar.",
+          "current_literal_check": {
+            "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+            "source_sha": "3084deb7473af19026f0f635987f63f5c23c18dc",
+            "after_native_matches": 1,
+            "scope": "Publicado en 09fc270abfcc8efc3efdcee2279b80e145db55d5"
+          },
+          "joint_changes": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Ola4 preparada y autorizada",
+      "source_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+      "proposal_assessments": [
+        {
+          "id": 18,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Pendiente de decisión",
+          "quality": "Paquete Ola4 completo y autorizado para incorporación",
+          "impact": "Medio",
+          "risk": "Medio",
+          "effort": "Medio",
+          "priority": "Primera",
+          "wave": "1 — Claridad de evidencia y estado",
+          "decision_ready": true,
+          "authorized_to_apply": true,
+          "preparation": "Seis pares coordinados; autorización de Iván recibida",
+          "gate": "Preparar y aplicar una ola adicional según la orden actual de Iván; preservar rutas y propietarios.",
+          "joint_changes": [
+            33
+          ]
+        },
+        {
+          "id": 33,
+          "date": "2026-10-12",
+          "review_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "state": "Pendiente de decisión",
+          "quality": "Paquete Ola4 completo y autorizado para incorporación",
+          "impact": "Medio",
+          "risk": "Medio",
+          "effort": "Medio",
+          "priority": "Primera",
+          "wave": "1 — Claridad de evidencia y estado",
+          "decision_ready": true,
+          "authorized_to_apply": true,
+          "preparation": "Seis pares coordinados; autorización de Iván recibida",
+          "gate": "Preparar y aplicar una ola adicional según la orden actual de Iván; preservar rutas y propietarios.",
+          "joint_changes": [
+            18
+          ]
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -8651,11 +8903,12 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Primera",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "Relaciona las cuatro operaciones con obligaciones, condiciones e hipótesis sin exigir al lector conocer las siglas.",
-      "anchor": "ola3-cambio-01"
+      "anchor": "ola3-cambio-01",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
     },
     {
       "base_change_id": 7,
@@ -8671,11 +8924,12 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Siguiente",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "Permite continuar de 00M a 00N y entender para qué sirve cada nota.",
-      "anchor": "ola3-cambio-02"
+      "anchor": "ola3-cambio-02",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
     },
     {
       "base_change_id": 9,
@@ -8691,11 +8945,12 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Siguiente",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "Da un enlace primario comprobado y distingue la fecha de esta copia de otras ediciones.",
-      "anchor": "ola3-cambio-03"
+      "anchor": "ola3-cambio-03",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
     },
     {
       "base_change_id": 10,
@@ -8711,11 +8966,12 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Siguiente",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "Conserva las versiones usadas al escribir el addendum y añade la ruta actual de lectura.",
-      "anchor": "ola3-cambio-04"
+      "anchor": "ola3-cambio-04",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
     },
     {
       "base_change_id": 12,
@@ -8731,11 +8987,12 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Siguiente",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "Ofrece un caso concreto antes de volver a las condiciones T1–T4.",
-      "anchor": "ola3-cambio-05"
+      "anchor": "ola3-cambio-05",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
     },
     {
       "base_change_id": 13,
@@ -8751,11 +9008,12 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Siguiente",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "El estado actual coincide con la publicación pública y conserva fecha y versión.",
-      "anchor": "ola3-cambio-06"
+      "anchor": "ola3-cambio-06",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
     },
     {
       "base_change_id": 20,
@@ -8771,11 +9029,12 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Siguiente",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "Conecta el índice con una tabla útil de operaciones y requisitos sin crear otro nivel de README.",
-      "anchor": "ola3-cambio-07"
+      "anchor": "ola3-cambio-07",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
     },
     {
       "base_change_id": 26,
@@ -8791,11 +9050,12 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Primera",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "Explica por qué el self-test es correcto aunque sus controles produzcan PASS, FAIL e INCONCLUSIVE.",
-      "anchor": "ola3-cambio-08"
+      "anchor": "ola3-cambio-08",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
     },
     {
       "base_change_id": 28,
@@ -8811,11 +9071,12 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Primera",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "Explica entrada, comparación y condiciones antes de atribución y detalles técnicos.",
-      "anchor": "ola3-cambio-09"
+      "anchor": "ola3-cambio-09",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
     },
     {
       "base_change_id": 30,
@@ -8831,11 +9092,104 @@
       "risk": "Bajo",
       "effort": "Bajo",
       "priority": "Primera",
-      "state": "Pendiente de decisión",
-      "decision_ready": true,
+      "state": "Aplicado",
+      "decision_ready": false,
       "authorized_to_apply": false,
       "benefit": "El lector puede abrir directamente escenarios, métodos y trazas desde el oráculo.",
-      "anchor": "ola3-cambio-10"
+      "anchor": "ola3-cambio-10",
+      "applied_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+    },
+    {
+      "base_change_id": 18,
+      "name": "Ola4 — referencia de00I existente",
+      "date": "2026-10-12",
+      "source_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+      "pairs": [
+        {
+          "number": 1,
+          "id": 18,
+          "source": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "location": "§6, Delta disposition",
+          "before": "DBC-C02 provides the applied-validation route for this distinction now. If a future 00I Semantic TOCTOU scenario is committed, it should be cited here as an additional scenario-level stressor only after its repository text is reviewed; it must not be presumed from a chat-only draft.",
+          "after": "DBC-C02 supplies the semantic-TOCTOU validation route. The committed [00I Semantic TOCTOU v0.5 Freeze Edition](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) supplies the internal EA scenario; its requirements coverage and action-time binding candidates are recorded in the [Requirements vNext review](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).",
+          "vnext": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "source_sha": "a310cb7574560fbeb64ee43827398bcc9d6a29e7",
+          "offset": 15602,
+          "line": 283
+        }
+      ],
+      "state": "Preparada; autorizada",
+      "authorized_to_apply": true
+    },
+    {
+      "base_change_id": 33,
+      "name": "Ola4 — catálogo y rutasI/J coherentes",
+      "date": "2026-10-12",
+      "source_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+      "pairs": [
+        {
+          "number": 2,
+          "id": 33,
+          "source": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "location": "§8, bloque completo de separación de rutas",
+          "before": "### Future 00I / UC #6 route-separation reservation\n\nIf a dedicated **00I Semantic TOCTOU** scenario is later committed and reviewed, it must remain **parallel to**, not a stage of, the public **UC #6 → Theme #16 matrices → UC #4 executable mapping** route.\n\n- **UC #6** remains the public FG-TIDA semantic case for changed-purpose/current-authority applicability.\n- **00I**, if created, would remain an EA/DBC reference failure scenario testing the broader stale-semantic-applicability pattern.\n- **UC #4** remains the downstream executable/testbed mapping layer only after the originating semantic owners review the mapping.\n\nThe routes may inform one another and may share fixtures or boundary questions, but neither replaces the other's ownership or provenance. This reservation mirrors the existing separation discipline used for 00H versus FG-TIDA case/test routes and prevents a later internal scenario from being mistaken for the source case.\n\n\n",
+          "after": "<a id=\"future-00i--uc-6-route-separation-reservation\"></a>\n\n### 00I and UC #6 — parallel provenance routes\n\nThe committed [00I Semantic TOCTOU v0.5 Freeze Edition](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) supplies an EA/DBC scenario for stale semantic applicability. It is a parallel source to the public **UC #6 → Theme #16 matrices → UC #4 executable mapping** route.\n\n- **UC #6** supplies public FG-TIDA semantic facts about changed-purpose/current-authority applicability.\n- **00I** supplies the internal EA/DBC reference scenario with its own frozen scenario provenance.\n- **UC #4** supplies executable/testbed mapping after semantic-owner review.\n\nThe routes can inform each other and share fixtures or boundary questions. Each retains its source ownership and provenance.\n\n\n",
+          "vnext": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "source_sha": "dfd24efa753df37da583fcb0cde883002297a031",
+          "offset": 27714,
+          "line": 391
+        },
+        {
+          "number": 3,
+          "id": 33,
+          "source": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "location": "§10A, lista de escenarios internos",
+          "before": "- **00E — 100 Million Tokens / compounded epistemic collapse**\n- **00F — Smart-City Mobility / systemic divergence**\n- **00G — Collective False-Context Convergence**\n- **00H — Batch Opportunity Beyond Authority**",
+          "after": "- **00E — 100 Million Tokens / compounded epistemic collapse**\n- **00F — Smart-City Mobility / systemic divergence**\n- **00G — Collective False-Context Convergence**\n- **00H — Batch Opportunity Beyond Authority**\n- **[00I — Semantic TOCTOU / The Patch That Undid the Fix](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md)**\n- **[00J — Rights-Provenance Inversion / The Author Pays for Their Own Work](../../baseline/00J_FAILURE_MODE_RIGHTS_PROVENANCE_INVERSION_v0.1_DRAFT.md)**",
+          "vnext": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "source_sha": "dfd24efa753df37da583fcb0cde883002297a031",
+          "offset": 31101,
+          "line": 456
+        },
+        {
+          "number": 4,
+          "id": 33,
+          "source": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "location": "§10B, fila C02",
+          "before": "| **C02 semantic TOCTOU** | **None committed** | UC #6 exercises changed applicability; a future 00I has been discussed as a possible dedicated scenario but is not a repository source and is not assumed here. |",
+          "after": "| **C02 semantic TOCTOU** | **[00I v0.5 Freeze Edition](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md), internal EA scenario** | UC #6 supplies FG-TIDA changed-applicability semantics; 00I supplies a parallel internal stress scenario. Use as FG-TIDA execution evidence requires a reviewed fixture mapping. |",
+          "vnext": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "source_sha": "dfd24efa753df37da583fcb0cde883002297a031",
+          "offset": 31924,
+          "line": 470
+        },
+        {
+          "number": 5,
+          "id": 33,
+          "source": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "location": "§18, punto8",
+          "before": "8. integrate 00E–00H, DBC-C01…C12, EA-ITP-01, DAOS and UC #4 staged testing into one requirement-first conformance pipeline;",
+          "after": "8. integrate 00E–00J, DBC-C01…C12, EA-ITP-01, DAOS and UC #4 staged testing into one requirement-first conformance pipeline;",
+          "vnext": "research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "source_sha": "dfd24efa753df37da583fcb0cde883002297a031",
+          "offset": 42503,
+          "line": 752
+        },
+        {
+          "number": 6,
+          "id": 33,
+          "source": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "location": "§8, punto6 de current determination",
+          "before": "6. DBC, 00E–00I and 01I/ACC remain test/internal architecture sources unless independently supported by FG-TIDA public semantics.",
+          "after": "6. DBC, 00E–00J and 01I/ACC are internal architecture/test sources. Their use as FG-TIDA current-state evidence requires independently supported public FG-TIDA semantics.",
+          "vnext": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+          "source_sha": "bdc9429143a4b500af334480d173966515bffa7f",
+          "offset": 29926,
+          "line": 446
+        }
+      ],
+      "state": "Preparada; autorizada",
+      "authorized_to_apply": true
     }
   ],
   "decision_waves": [
@@ -9051,6 +9405,70 @@
         }
       ],
       "changes_applied": 0
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Ola3 aplicada",
+      "status": "Aplicada y verificada",
+      "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+      "items": [
+        {
+          "id": 6,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        },
+        {
+          "id": 7,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        },
+        {
+          "id": 9,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        },
+        {
+          "id": 10,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        },
+        {
+          "id": 12,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        },
+        {
+          "id": 13,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        },
+        {
+          "id": 20,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        },
+        {
+          "id": 26,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        },
+        {
+          "id": 28,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        },
+        {
+          "id": 30,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Ola4 autorizada — coherencia de interfaces",
+      "status": "Preparada; incorporación autorizada",
+      "items": [
+        {
+          "id": 18
+        },
+        {
+          "id": 33
+        }
+      ],
+      "passages": 6,
+      "documents": 3,
+      "authorization": "Iván: luego prepara aplica otra ola; no tiene porqué ser dentro de DDS"
     }
   ],
   "application_epochs": [
@@ -9344,11 +9762,353 @@
       },
       "variant75_applied": true,
       "pending_history75": true
+    },
+    {
+      "date": "2026-10-12",
+      "source_commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+      "application_commits": [
+        "09fc270abfcc8efc3efdcee2279b80e145db55d5"
+      ],
+      "entries": [
+        {
+          "id": 6,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md",
+          "source_sha": "1aafa27b9594ab62c88f6ed770f8cc14685a1e39",
+          "pairs": [
+            {
+              "before": "## 2. Compact traceability",
+              "after": "## 2. Compact traceability\n\nRead each row as a research route from a proposed operation to its requirement, sufficiency condition and hypothesis. S1–S14 are specification obligations, T1–T4 are jointly constraining sufficiency conditions, and H1–H6 are hypotheses to test. M1–M4 label the four operations in this note. The table records proposed traceability; conformance is established by the corresponding evidence."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+          "source_sha": "073f8c331fdd10312cb180d39be5a73150c4844f",
+          "pairs": [
+            {
+              "before": "This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in the companion note.",
+              "after": "This vocabulary is specific to the present proposal. Its connection to exploration–exploitation literature is discussed in [the companion note, 00N](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), which examines how the representations can support a receiving decision under declared timing, authority and cost conditions."
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+          "source_sha": "073f8c331fdd10312cb180d39be5a73150c4844f",
+          "pairs": [
+            {
+              "before": "- R4: https://www.tau.ac.il/~nogaa/PDFS/amsz4.pdf",
+              "after": "- R4: [author-hosted full text](https://www.math.tau.ac.il/~nogaa/PDFS/amsz4.pdf). Copy dated 22 February 2002; access checked 12 October 2026."
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md",
+          "source_sha": "27ffa495bf780cd9177006d8b05a7b93b515a267",
+          "pairs": [
+            {
+              "before": "**Optional addendum · v0.1 · 2 October 2026 · local research draft.** Companion to [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). It identifies useful precedents and bounded research comparisons. It reports no EA experiment and adds no canonical requirements or hypotheses.",
+              "after": "**Optional addendum · v0.1 · 2 October 2026 · research draft.** Written alongside [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). Those links identify its source versions. The current reading route is [00M v0.8](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), then [00N v0.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). This addendum identifies research precedents and comparisons."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+          "source_sha": "490a41655d5e38b526f282cccbcb13e65606f1ff",
+          "pairs": [
+            {
+              "before": "The A/B/C/D meanings are those of the preceding note; older shorthand elsewhere in the corpus is not an alternative definition for this argument.",
+              "after": "The A/B/C/D meanings are those of the preceding note. Start with [the two ready signals in §3.6](#36-two-ready-signals-one-version-condition), then use the T1–T4 table to connect the example with information quality, response, timing and cost conditions."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+          "source_sha": "490a41655d5e38b526f282cccbcb13e65606f1ff",
+          "pairs": [
+            {
+              "before": "**Research note · v0.7 · 2 October 2026 · local draft for review.**",
+              "after": "**Research note · v0.7 · 2 October 2026 · publicly available working draft for review.**"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/README.md",
+          "source_sha": "8185505674665135b7fd99879420c797ac726a70",
+          "pairs": [
+            {
+              "before": "[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.",
+              "after": "[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route. Read [00M-A01, mechanism-to-requirements traceability](./00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md) for the proposed routes from the four operations to requirements, sufficiency conditions and test hypotheses."
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+          "source_sha": "3084deb7473af19026f0f635987f63f5c23c18dc",
+          "pairs": [
+            {
+              "before": "The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:",
+              "after": "The [v0.9 calibration record](./SELFTEST_RECORD_v0.9.md) has expected PASS outcomes for positive and tied-optimum controls, expected FAIL outcomes for connector-boundary, inadmissible-route and cost/deadline controls, and an expected INCONCLUSIVE outcome for the no-reference control. The self-test succeeds when each control returns its registered outcome.\n\nThe current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+          "source_sha": "3084deb7473af19026f0f635987f63f5c23c18dc",
+          "pairs": [
+            {
+              "before": "**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.",
+              "after": "**Status: limited implementation with a successful Stage-0 instrumentation self-test · 5 October 2026.** This directory implements the C02 instrument slice for R01. It compares a recorded candidate choice or execution with the best admissible route in a frozen world, using declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations."
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "wave": 3,
+          "commit": "09fc270abfcc8efc3efdcee2279b80e145db55d5",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+          "source_sha": "3084deb7473af19026f0f635987f63f5c23c18dc",
+          "pairs": [
+            {
+              "before": "Corpus reuse:\n\n- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md\n- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md\n- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md\n- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md\n- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py",
+              "after": "Corpus reuse:\n\n- [R01 scenario §§1.4, 2.6, 2.15–2.17](../Escenario-creatividad-validacion.md)\n- [Existing partial C3 oracle](../../../fixtures/00G-HF-ORACLE-v0.4/README.md)\n- [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)\n- [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)\n- [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)"
+            }
+          ]
+        }
+      ],
+      "previous_variants": [
+        {
+          "base_change_id": 6,
+          "name": "Ola3 — Cómo leer la trazabilidad",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md",
+          "source_sha": "8832c255e3775116046273363c131c05878af16d",
+          "vnext": "research/ecosystem-awareness/baseline/00M_A01_VNext.md",
+          "before": "## 2. Compact traceability",
+          "after": "## 2. Compact traceability\n\nRead each row as a research route from a proposed operation to its requirement, sufficiency condition and hypothesis. S1–S14 are specification obligations, T1–T4 are jointly constraining sufficiency conditions, and H1–H6 are hypotheses to test. M1–M4 label the four operations in this note. The table records proposed traceability; conformance is established by the corresponding evidence.",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Relaciona las cuatro operaciones con obligaciones, condiciones e hipótesis sin exigir al lector conocer las siglas.",
+          "anchor": "ola3-cambio-01"
+        },
+        {
+          "base_change_id": 7,
+          "name": "Ola3 — Enlazar la pregunta matemática con la funcional",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+          "source_sha": "9fcdb8df36aba2e5cceac36564bc5bf12ab70fe8",
+          "vnext": "research/ecosystem-awareness/baseline/00M_VNext.md",
+          "before": "This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in the companion note.",
+          "after": "This vocabulary is specific to the present proposal. Its connection to exploration–exploitation literature is discussed in [the companion note, 00N](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), which examines how the representations can support a receiving decision under declared timing, authority and cost conditions.",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Permite continuar de 00M a 00N y entender para qué sirve cada nota.",
+          "anchor": "ola3-cambio-02"
+        },
+        {
+          "base_change_id": 9,
+          "name": "Ola3 — Acceso directo a la fuente primaria R4",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md",
+          "source_sha": "9fcdb8df36aba2e5cceac36564bc5bf12ab70fe8",
+          "vnext": "research/ecosystem-awareness/baseline/00M_VNext.md",
+          "before": "- R4: https://www.tau.ac.il/~nogaa/PDFS/amsz4.pdf",
+          "after": "- R4: [author-hosted full text](https://www.math.tau.ac.il/~nogaa/PDFS/amsz4.pdf). Copy dated 22 February 2002; access checked 12 October 2026.",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Da un enlace primario comprobado y distingue la fecha de esta copia de otras ediciones.",
+          "anchor": "ola3-cambio-03"
+        },
+        {
+          "base_change_id": 10,
+          "name": "Ola3 — Separar procedencia histórica y ruta vigente",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md",
+          "source_sha": "37a22b64bf81b5f1b80d9b85fe24fe5eba4fad63",
+          "vnext": "research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md",
+          "before": "**Optional addendum · v0.1 · 2 October 2026 · local research draft.** Companion to [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). It identifies useful precedents and bounded research comparisons. It reports no EA experiment and adds no canonical requirements or hypotheses.",
+          "after": "**Optional addendum · v0.1 · 2 October 2026 · research draft.** Written alongside [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). Those links identify its source versions. The current reading route is [00M v0.8](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), then [00N v0.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). This addendum identifies research precedents and comparisons.",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Conserva las versiones usadas al escribir el addendum y añade la ruta actual de lectura.",
+          "anchor": "ola3-cambio-04"
+        },
+        {
+          "base_change_id": 12,
+          "name": "Ola3 — Entrada por el ejemplo de dos señales ready",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+          "source_sha": "1e130611b0447df3e5ba02dbc9b77e2d9938889c",
+          "vnext": "research/ecosystem-awareness/baseline/00N_VNext.md",
+          "before": "The A/B/C/D meanings are those of the preceding note; older shorthand elsewhere in the corpus is not an alternative definition for this argument.",
+          "after": "The A/B/C/D meanings are those of the preceding note. Start with [the two ready signals in §3.6](#36-two-ready-signals-one-version-condition), then use the T1–T4 table to connect the example with information quality, response, timing and cost conditions.",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Ofrece un caso concreto antes de volver a las condiciones T1–T4.",
+          "anchor": "ola3-cambio-05"
+        },
+        {
+          "base_change_id": 13,
+          "name": "Ola3 — Estado de publicación claro",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md",
+          "source_sha": "1e130611b0447df3e5ba02dbc9b77e2d9938889c",
+          "vnext": "research/ecosystem-awareness/baseline/00N_VNext.md",
+          "before": "**Research note · v0.7 · 2 October 2026 · local draft for review.**",
+          "after": "**Research note · v0.7 · 2 October 2026 · publicly available working draft for review.**",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "El estado actual coincide con la publicación pública y conserva fecha y versión.",
+          "anchor": "ola3-cambio-06"
+        },
+        {
+          "base_change_id": 20,
+          "name": "Ola3 — Ruta humana desde el índice a la trazabilidad",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/README.md",
+          "source_sha": "fa320b88a1553280c5815c01f8bb8c0fb1c049b9",
+          "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+          "before": "[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.",
+          "after": "[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route. Read [00M-A01, mechanism-to-requirements traceability](./00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md) for the proposed routes from the four operations to requirements, sufficiency conditions and test hypotheses.",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Siguiente",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Conecta el índice con una tabla útil de operaciones y requisitos sin crear otro nivel de README.",
+          "anchor": "ola3-cambio-07"
+        },
+        {
+          "base_change_id": 26,
+          "name": "Ola3 — Leer correctamente los controles del self-test",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+          "source_sha": "29a11f9e4e5b6446b34e014c92513271e0d75f14",
+          "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+          "before": "The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:",
+          "after": "The [v0.9 calibration record](./SELFTEST_RECORD_v0.9.md) has expected PASS outcomes for positive and tied-optimum controls, expected FAIL outcomes for connector-boundary, inadmissible-route and cost/deadline controls, and an expected INCONCLUSIVE outcome for the no-reference control. The self-test succeeds when each control returns its registered outcome.\n\nThe current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Explica por qué el self-test es correcto aunque sus controles produzcan PASS, FAIL e INCONCLUSIVE.",
+          "anchor": "ola3-cambio-08"
+        },
+        {
+          "base_change_id": 28,
+          "name": "Ola3 — Propósito del oráculo en una frase operativa",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+          "source_sha": "29a11f9e4e5b6446b34e014c92513271e0d75f14",
+          "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+          "before": "**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.",
+          "after": "**Status: limited implementation with a successful Stage-0 instrumentation self-test · 5 October 2026.** This directory implements the C02 instrument slice for R01. It compares a recorded candidate choice or execution with the best admissible route in a frozen world, using declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations.",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "Explica entrada, comparación y condiciones antes de atribución y detalles técnicos.",
+          "anchor": "ola3-cambio-09"
+        },
+        {
+          "base_change_id": 30,
+          "name": "Ola3 — Cinco referencias convertidas en enlaces",
+          "date": "2026-10-12",
+          "source_commit": "a27679dc451ce2db77432df2b206bb08339b24ef",
+          "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md",
+          "source_sha": "29a11f9e4e5b6446b34e014c92513271e0d75f14",
+          "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md",
+          "before": "Corpus reuse:\n\n- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md\n- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md\n- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md\n- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md\n- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py",
+          "after": "Corpus reuse:\n\n- [R01 scenario §§1.4, 2.6, 2.15–2.17](../Escenario-creatividad-validacion.md)\n- [Existing partial C3 oracle](../../../fixtures/00G-HF-ORACLE-v0.4/README.md)\n- [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)\n- [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)\n- [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)",
+          "impact": "Medio",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "state": "Pendiente de decisión",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "benefit": "El lector puede abrir directamente escenarios, métodos y trazas desde el oráculo.",
+          "anchor": "ola3-cambio-10"
+        }
+      ]
     }
   ],
   "current_wave_status": {
     "1": "Aplicada",
     "2": "Aplicada",
-    "3": "Preparada; espera go"
+    "3": "Aplicada",
+    "4": "Preparada; incorporación autorizada por Iván"
   }
 }

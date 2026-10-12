@@ -713,3 +713,34 @@ Los dos cambios actúan sobre cómo se interpreta y documenta evidencia: no modi
 - **Aplicado:** Ola1 cambios31/32.
 
 Publicación comprobada: [908fdc6c9372b533d1a383d490227333ce4756be](https://github.com/dakleyer/structural-awareness-contributions/commit/908fdc6c9372b533d1a383d490227333ce4756be). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+
+---
+
+<a id="ola4-integracion-00i-00j"></a>
+
+## Ola 4 — coherencia de escenarios internos y rutas de interfaces
+
+**12 octubre2026.** Iván autoriza preparar y aplicar una ola adicional fuera de DDS. Paquete conjunto de los cambios18/33: seis sustituciones en tres espacios de trabajo existentes. **Impacto Medio, riesgo Medio, esfuerzo Medio, prioridad Primera.**
+
+**Razón:**04/05 contienen referencias futuras o ausencia de00I que contradicen el enlace existente de05§6 y05A§6.2. El catálogo interno y su resumen se amplían deE–H/E–I aE–J conforme a Requirements; cada ruta conserva su dueño. El riesgo es desalinear referencias entre los tres documentos; el paquete se verifica completo y mantiene el ancla histórica del encabezado.
+
+**Fuentes leídas:**00I Freeze Edition blob`9478116e0e7d1ce6d875312f13b52e83cb3685c8`;00J Draft blob`17616f2495ccfc08828fed49d4f566f718e67eee`;Requirements y05A como receptores. Se consultó identidad, estado y alcance pertinentes; los originales de escenarios no se editan.
+
+### Pasaje 6 — §8, punto6 de current determination
+
+Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`bdc9429143a4b500af334480d173966515bffa7f`, línea446. Viejo único fuera de citas.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+6. DBC, 00E–00I and 01I/ACC remain test/internal architecture sources unless independently supported by FG-TIDA public semantics.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+6. DBC, 00E–00J and 01I/ACC are internal architecture/test sources. Their use as FG-TIDA current-state evidence requires independently supported public FG-TIDA semantics.
+~~~~
+
+**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** preparada para incorporación inmediata; se marcará aplicada tras verificar publicación y fuente.
