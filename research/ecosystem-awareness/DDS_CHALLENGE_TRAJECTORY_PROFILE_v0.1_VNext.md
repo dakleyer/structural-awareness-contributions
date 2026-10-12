@@ -644,3 +644,19 @@ Extension-review clarification0.1.3: technology–problem extension/isomorphism 
 ~~~~
 
 **Riesgo y coste concretos:** preservar Stage1/Stage2, §13.1 y sus anchors, contratos, versiones y resultados. El trabajo es una relectura/localización y custodia de un párrafo, con contraste Index §5/Stage A §6 y lector HC-HID; no requiere un nuevo test o expediente. **Dependencia/orden:** precisión documental separable de 74/75; no los resuelve. **Decisión de Iván:** pendiente sobre este pasaje exacto; candidato preparado para leer y decidir, no autorizado ni aplicado. Instrucción vigente: originales sólo en lectura y una VNext acumulativa. No se propone otro cambio canónico cuando el contexto actual ya mantiene la frontera.
+
+
+---
+
+## Registro de aportaciones y frontera del método — 12 octubre 2026
+
+**Codex, mismo asistente; nuevo corte `f437c95cce3645a05ba45f52f521f6b9692e0aa7`.** Tras la publicación del cotejo anterior entró el [registro de veinte aportaciones potenciales](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md), leído completo. El Index incorpora un banner de ruta hacia él; Index anterior recuperable por su snapshot y por retirada exacta del único banner. A/B/C, checker, catálogo, resultados y requisitos no cambiaron en ese merge.
+
+**Consistencia mantenida:** todas las propuestas se vinculan a un propietario actual; un mecanismo o prueba no hereda automáticamente una aceptación. Las piezas de suficiencia, permiso receptor, mapas parciales, contradicción, computabilidad, cierre, cache/dependencias y cambio temporal mantienen sus distintos objetos y restricciones. Los tres ejemplos son construcciones ilustrativas con costes hipotéticos, no ahorros medidos o demostraciones de los artículos originales. Un peer fuerte puede empatar o ganar. [EA VNext](./README_VNext.md#nuevo-registro-de-aportaciones-dds--cotejo-del-merge-del-12-octubre-2026) registra el juicio específico de cada familia y sus fuentes pendientes.
+
+**Dos condiciones a explicitar al concretar perfiles, sin cambiar el texto ahora:**
+
+1. **DDS-PC-010, “C measured instrument if admitted”.** Si se califica el instrumento usado para medir otra tecnología, es infraestructura y no un resultado sustantivo C de esa tecnología. Si la tecnología objeto del Challenge es un instrumento real, su implementación puede ser objeto de C bajo el contrato de Stage C. La tabla común §2 mantiene esa frontera, pero la tarjeta deberá escoger y nombrar el objeto antes de SPECIFICATION_READY. Pregunta pendiente: ¿se prueba el evaluador o una implementación de medición como tecnología candidata? No se fabrica un par de reemplazo mientras no se haya elegido ese alcance.
+2. **DDS-PC-011/012/020, humanos.** Un scheduler o ledger técnico puede evaluarse bajo un perfil declarado; disponibilidad, causalidad de carga y retención reales exigen validación de constructo, fuentes humanas y protocolo propios. Stage C de software no cierra ese estudio. Las tarjetas ya conservan esta separación; no añadir un requisito universal o un precio/hora sintético para suplir datos.
+
+P1/P2/P3 son prioridad de desarrollo, no DDS Stage ni autorización de ejecución o cambios mínimos de bajo riesgo. Las veinte PROPOSED no son veinte modificaciones quirúrgicas listas y no subsanan T03/T04/T05/T06, ni 74/75/76. La propuesta 76 sigue contra el mismo blob de Stage A; el nuevo banner del Index no cambia su viejo. No se modifica el register adicional, se crea otro expediente o se activa campaña. Canon en lectura y pasadas científicas pendientes conservan su estado real.

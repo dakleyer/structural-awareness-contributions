@@ -365,3 +365,41 @@ Los datos y límites están en [EP VNext](../../architectural-contributions/ecos
 La nota inicial de Stage A conserva un uso ambiguo de “DDS stages” para Stage1/Stage2. El [cambio 76 y cotejo en DDS VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#consistencia-de-dds-y-sus-receptores--12-octubre-2026) propone explicar que son fases internas de A, conservando nombres y obligaciones. No se altera el índice ni el README original por la revisión; no hace falta duplicar la taxonomía en otra hoja.
 
 Los textos HF nuevos distinguen recalificación local, papel de sensores/autoridad y Repositioning condicionado. El [extremo HF](./baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md#consistencia-con-dds-y-msca--12-octubre-2026) y el [extremo Operation](../../standards/minimum-sufficient-control/04_OPERATION_VNext.md#consistencia-con-dds-y-recalificación-local--12-octubre-2026) explican la relación. Los casos futuros y software sintético no se promueven a prevención, B/C o nuevos requisitos. Los antiguos nombres congelados siguen documentando su época. 74/75 mantienen pendientes reales; el comentario no cierra el piloto Cxx, T03/T04, fuentes externas o pasadas globales.
+
+
+---
+
+## Nuevo registro de aportaciones DDS — cotejo del merge del 12 octubre 2026
+
+**Codex, mismo asistente; fuente `f437c95cce3645a05ba45f52f521f6b9692e0aa7`, blob `d42bbcbf0e14a2694923e31defaae7887794d2dc`.** Este commit llegó después del cotejo publicado en `6f9c9f903a5c800740be77844c3fd4064ec16f59`. Se leyó completo el [registro de aportaciones potenciales](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md), incluidos los veinte desarrollos, tres ejemplos, fuentes y condiciones de continuación. No se abre otra VNext para esta hoja adicional: su relación con el método y la ruta se registra aquí y en DDS/EP, sin modificar la hoja.
+
+**Juicio de consistencia:** es un backlog de investigación, no otra autoridad. Las veinte familias siguen PROPOSED. §§2/3/9 mantienen objeto, referencia, información visible, comparador fuerte, congelación y evidencia. Las 41 identidades R/D son expedientes disponibles, no 41 originales demostrados o nuevas corridas. R02 parcial y D15 incompleto siguen explícitos. Un nulo o un incumbent suficiente es un resultado válido.
+
+| DDS-PC | Juicio específico y condición que permanece |
+|---|---|
+| [001](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-001) | Suficiencia para una pregunta, no conocimiento completo; acceso del receptor y coste del certificado por demostrar. |
+| [002](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-002) | PASS del productor no crea permiso de uso; falta congelar el contrato y comprobar el receptor. |
+| [003](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-003) | Traducción parcial admite UNKNOWN y perspectivas legítimas; composición sólo dentro del dominio compatible. |
+| [004](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-004) | Conflicto de informes y autorización se mantienen separados; falta semántica de los joins y lectura R02 pendiente. |
+| [005](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-005) | Timeout no prueba divergencia ni una barrera universal; deben fijarse promesas, lenguaje y testigos. |
+| [006](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-006) | Cierre exacto y estimación poblacional son salidas distintas; cero-captura, cota y terminal necesitan supuestos propios. |
+| [007](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-007) | Cache no vuelve gratis ni independiente una evidencia; mantiene derechos, versión, invalidación y coste total. |
+| [008](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-008) | Cita no equivale a dependencia de prueba; alternativas válidas deben sobrevivir a una retractación y al nuevo contexto. |
+| [009](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-009) | Nuevo marco/población no significa automáticamente fallo; precisa regla de transferencia y comparación temporal. |
+| [010](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-010) | Métrica uniforme puede perder una pregunta; aclarar el objeto del eventual C y no promover calificación del instrumento. |
+| [011](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-011) | Horas libres, saber, autoridad, plazo y efecto son distintos; datos del scheduler no validan humanos. |
+| [012](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-012) | Carga bruta y compensación evitable no se compensan indiscriminadamente; constructo/rater/cola siguen abiertos. |
+| [013](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-013) | LOOK/DECIDE/ABSORB refinan costes declarados, no añaden DDS Stage 0 ni convierten honorarios en C. |
+| [014](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-014) | Descubrir un dueño oculto y declarar una obligación nueva no son lo mismo; D15 aún requiere fuente íntegra. |
+| [015](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-015) | Retirar o conservar se juzga por capacidad legítima y reemplazo; conteo/centralidad no prueba valor. |
+| [016](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-016) | Desvío observado no prueba desvío necesario; falsificador D11 y objetivo/acciones autorizadas deben resolverse. |
+| [017](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-017) | Federación legítima no es fragmentación dañina; no impone autoridad central ni suma deuda por aplicaciones. |
+| [018](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-018) | Log, declaración, intervención y efecto tienen fuentes/tiempos distintos; repetición no prueba independencia. |
+| [019](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-019) | Predicción requiere sello temporal, cohortes/horizonte y resultados futuros; retrospectiva no prueba causalidad. |
+| [020](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md#dds-pc-020) | Retención humana requiere competencia previa y seguimiento propio; rendimiento técnico no demuestra conservación de habilidades. |
+
+La prioridad P1/P2/P3 del backlog organiza investigación; no equivale a Primera/Siguiente/Después del plan quirúrgico ni a riesgo Bajo. Ninguna familia se añade como incorporación preparada al registro de cambios por tener ese ranking. Los 76 cambios existentes mantienen sus viejos, estados y decisiones. Un desarrollo que realmente proponga modificar un contrato deberá localizar su pasaje y usar la VNext propietaria; ahora sólo se evalúa la compatibilidad de las ideas.
+
+**Comprobación documental:** veinte IDs de familia y 41 identidades de fuente únicos; veinte estados PROPOSED; 138 enlaces internos y sus fragmentos resueltos. Las noventa rutas externas incluyen fuentes controladas/privadas: resolver un enlace local no verifica permisos, disponibilidad externa o fidelidad del manuscrito. No se releyeron aquí íntegros los 41 originales ni se reprodujeron R01/R16 o los baselines externos. Las afirmaciones de actualidad de §7 conservan la fecha de la propia fuente, sin constituir otro refresco externo en este cotejo.
+
+El merge cambió tres archivos: añadió esta hoja y un snapshot auténtico del Index anterior, y añadió dos líneas de navegación al Index. Retirando únicamente el banner fechado se recuperan exactamente los bytes anteriores del Index. Eso verifica conservación del cuerpo; esta auditoría no ejecutó esa adición canónica ni modifica/revierte su origen. No nuevo README ni nivel de jerarquía. [DDS VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#registro-de-aportaciones-y-frontera-del-método--12-octubre-2026) y [EP VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#ampliación-por-el-nuevo-registro-dds--12-octubre-2026) reciben la consecuencia. No cierre científico global por esta síntesis.
