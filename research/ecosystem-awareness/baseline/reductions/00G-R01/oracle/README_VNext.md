@@ -1110,3 +1110,11 @@ Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas d
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Instrumentos en la ruta caso–método–evidencia — 12 octubre 2026
+
+El nuevo acceso DDS remite a este oráculo/harness y su freeze v0.9 e interoperability profile. Se conserva la distinción entre referencia del evaluador, observaciones del candidato, control, decisión, acción intentada y efecto. R01 usa también oráculos de acceso a información: no se traduce ese rol automáticamente a un juez de aceptación o proveedor de verdad. El self-test y sus fuentes quedan intactos. C11/T03 y UC-4 conservan sus registros y admisión; añadir un vínculo no ejecuta una campaña. [DDS VNext](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) y [EP VNext](../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md) registran el cambio de lectura. No hay modificación de código, thresholds, result JSON, freezes o instrumentos.
+
+**Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
+

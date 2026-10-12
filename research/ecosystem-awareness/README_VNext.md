@@ -247,3 +247,13 @@ Por autorización de Iván del12octubre2026 se retiran las fichas de incorporaci
 [Consultar las fichas retiradas](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/README_VNext.md).
 
 </details>
+
+
+## Entrada UC-21 y semántica de lectura — 12 octubre 2026
+
+**Comprobación terminológica previa.** Se leyeron UC-21 Conventions/Extensionality, DDS A §3/§6/§10A, DDS B/C, R01, el protocolo de extensiones, kernel E1–E7, HEW Technical Report, DBC, 00D, Requirements y los índices RA/MSCA pertinentes. La búsqueda pública de usos complementó esas lecturas; no equivale a leer cada documento histórico. Challenge define problema/familia; el escenario delimitado lo instancia. UC-21 mantiene S1–S6 y sus familias 00E–00J. HEW usa escenario como descripción humana con instancia formal. Campaña de investigación, campaña operativa de S4 y unidad de campaña R01 no son intercambiables. Ejercicio se usa como entrada de lectura para estudios/recorridos existentes, no como nuevo tipo normativo. A/B/C DDS, A–D causales, A/B/C/D epistemológicos, R0/R1/R2 UC-21 y R01-R1/R2/R3 siguen con sus fuentes. La adición inicial que identificaba escenario con problema se corrigió antes de publicarse.
+
+La entrada principal pública del caso mantiene su snapshot y añade el seguimiento. EA conserva sus fuentes y función; DDS no absorbe UC-21. [EP VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) contiene las seis tandas, y [DDS VNext](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) el par completo del índice. Los objetivos del caso se resumen en su propia edición; caso aceptación, HR, HC y HS mantienen distintos protocolos y resultados. No se reescribe EA README ni RA/MSCA por esta primera tanda.
+
+**Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
+

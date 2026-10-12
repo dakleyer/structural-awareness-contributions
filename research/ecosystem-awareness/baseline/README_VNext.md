@@ -234,3 +234,13 @@ La propuesta se revisa también en [extensiones VNext](./reductions/00G-R01/exte
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Escenarios, fuentes y ejercicios en la ruta UC-21 — 12 octubre 2026
+
+**Comprobación terminológica previa.** Se leyeron UC-21 Conventions/Extensionality, DDS A §3/§6/§10A, DDS B/C, R01, el protocolo de extensiones, kernel E1–E7, HEW Technical Report, DBC, 00D, Requirements y los índices RA/MSCA pertinentes. La búsqueda pública de usos complementó esas lecturas; no equivale a leer cada documento histórico. Challenge define problema/familia; el escenario delimitado lo instancia. UC-21 mantiene S1–S6 y sus familias 00E–00J. HEW usa escenario como descripción humana con instancia formal. Campaña de investigación, campaña operativa de S4 y unidad de campaña R01 no son intercambiables. Ejercicio se usa como entrada de lectura para estudios/recorridos existentes, no como nuevo tipo normativo. A/B/C DDS, A–D causales, A/B/C/D epistemológicos, R0/R1/R2 UC-21 y R01-R1/R2/R3 siguen con sus fuentes. La adición inicial que identificaba escenario con problema se corrigió antes de publicarse.
+
+Los escenarios/familias 00E–00J y sus mínimos/variantes conservan texto, admisión y gates. Un reporte reducido o modelo local no es una nueva versión del caso. La primera tanda añade acceso desde UC-21 al método y registros existentes; baseline original no cambia. La segunda tanda cotejará los enlaces de los 2.200 archivos y sus freezes/aliases, incluidos 00K/00L/00G-HF, versiones y lecturas adicionales, sin excluir evidencia material por no tener enlace directo. El [plan EP](../../../architectural-contributions/ecosystem-positioning/README_VNext.md) fija los controles y las propuestas de relación; no se mueve ninguna fuente.
+
+**Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
+

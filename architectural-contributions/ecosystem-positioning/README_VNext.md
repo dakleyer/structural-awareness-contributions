@@ -1395,3 +1395,50 @@ Quedan fuera de Ola1: checker74 y sus pruebas prospectivas; restitución histór
 Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/architectural-contributions/ecosystem-positioning/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
 </details>
+
+
+## Plan gradual de navegación UC-21 → objetivos → Challenges → DDS → campañas y resultados
+
+**12 octubre 2026 · instrucción vigente de Iván.** Hacer la navegación realmente accesible y publicada, conservar cada texto y enlace previo, organizar paso a paso sin perder campañas, ejercicios, reducciones, extensiones o archivos. Se reutilizan los índices y VNext actuales. La primera entrega añade orientación y enlaces; ninguna redistribución física queda implícitamente ejecutada.
+
+**Comprobación terminológica previa.** Se leyeron UC-21 Conventions/Extensionality, DDS A §3/§6/§10A, DDS B/C, R01, el protocolo de extensiones, kernel E1–E7, HEW Technical Report, DBC, 00D, Requirements y los índices RA/MSCA pertinentes. La búsqueda pública de usos complementó esas lecturas; no equivale a leer cada documento histórico. Challenge define problema/familia; el escenario delimitado lo instancia. UC-21 mantiene S1–S6 y sus familias 00E–00J. HEW usa escenario como descripción humana con instancia formal. Campaña de investigación, campaña operativa de S4 y unidad de campaña R01 no son intercambiables. Ejercicio se usa como entrada de lectura para estudios/recorridos existentes, no como nuevo tipo normativo. A/B/C DDS, A–D causales, A/B/C/D epistemológicos, R0/R1/R2 UC-21 y R01-R1/R2/R3 siguen con sus fuentes. La adición inicial que identificaba escenario con problema se corrigió antes de publicarse.
+
+### Qué debe poder recorrer una persona
+
+Entrada pública UC-21 → objetivos y protocolos → Challenges/familias → DDS y escenario de evaluación tecnológico → campañas/estudios y runs → resultados → conclusión para su objetivo y posible selección posterior de especificaciones. DDS también ofrece acceso desde otros casos. Una reducción, un anexo, un simulador o una nueva versión no crea automáticamente una campaña.
+
+### Tandas y criterio de salida
+
+| Tanda | Trabajo concreto | Salida y comprobación | Impacto / riesgo / esfuerzo |
+|---|---|---|---|
+| 1. Entrada y objetivos | Añadir en la Issue UC-21 una ruta al seguimiento; reunir cinco preguntas ya existentes en README y USE_CASE; enlazar escenarios, protocolos, DDS, instrumentos e informes actuales. | Entrada publicada y lectura de vuelta; viejo de cada fuente recuperable íntegro; conservar el envío aec08fb5. | Alto / Bajo para enlaces, Medio para síntesis de objetivos / Medio |
+| 2. Inventario y relaciones | Inventariar por repo/ref/ruta/blob; extraer enlaces y referencias de método/código/manifests; distinguir originales, fuentes congeladas, versiones, copias, supports y adicionales. | Cada archivo tiene tratamiento y propietario visible; no descartar una dependencia por parecer suelta. Inventario actual no sustituye versiones consumidas por un freeze. | Alto / Medio / Alto |
+| 3. Escenarios y ejercicios | Contrastar UC-21 S1–S6 y sus familias; registrar objetivo, fuente, admisión, reducción/extension, tecnología/configuración, instrumentos y estado de cada estudio. | Antes de agrupar, aclarar unidad y relación. S5 existente se conserva; S4/CDA sigue propuesta; HF v0.3 no se mezcla con exploraciones bot. | Alto / Medio / Alto |
+| 4. Método e instrumentos | Facilitar DDS A/B/C, R01, comparator/fairness, oráculo/harness, C11/T03 y UC-4 desde un propietario técnico. | Fuente metodológica única y herramientas con su función y versión. Un self-test de instrumento no es resultado del candidato. | Alto / Medio / Medio–Alto |
+| 5. Campañas y resultados | Reutilizar informes y registros reales; completar explicación de pregunta, contrato, inputs, runs, resultados, costes, límites, desacuerdos y sucesor. Crear documento de campaña sólo si una campaña registrada realmente carece de informe legible. | Lectura caso↔campaña↔evidencia↔conclusión. Conservar casos positivos, negativos, nulos y no entrega, sin sumar denominadores incompatibles. | Alto / Medio–Alto / según cada expediente |
+| 6. Conciliación | Revisar todas las rutas principales, enlaces de ida/vuelta, versiones/autoridad, unidades de resultado y acceso a materiales históricos/adicionales. | Cero pérdida de archivos/texto/links previos por la tanda, límites y pendientes visibles. Alcance de cierre fijado; no cierre científico por un scan. | Alto / Medio / Alto |
+
+### Primera tanda concreta autorizada
+
+Tres fuentes reciben sólo adiciones: README y USE_CASE de la rama propietaria de UC-21; DDS Canonical Method Index de Contributions main. Pares completos en [README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md), [USE_CASE VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE_VNext.md) y [DDS VNext](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Los enlaces de la Issue siguen apuntando al envío original; se les añade seguimiento a la edición publicada. La Issue se vuelve a leer justo antes de escribir para no sustituir un cambio concurrente.
+
+La síntesis reúne: corrección/continuidad; eficacia de defensas existentes; recurrencia HR después de corrección R1; causalidad HC; respuesta suficiente HS. H1–H6 siguen siendo contrastes separados. No se crean EO obligatorios, H7, ruta R3 UC-21, gates nuevos ni resultados.
+
+La navegación de DDS enlaza trece registros de estudios locales existentes, cada uno con informe, preregistro, freeze y evidencia, y mantiene accesos a trabajos simbólicos/fixtures y reducciones desde sus índices previos. La tabla es del catálogo de extensiones, no todas las campañas del corpus. La carpeta dds/ y su registro futuro siguen como diseño hasta reconciliar identidad, versiones y dependencias. No se crean copias, se mueven archivos ni se cambian contratos por esta tanda.
+
+### Conservación y controles de cada entrega
+
+Antes de editar se conserva la predecesora auténtica. Para estas adiciones, quitar únicamente los bloques añadidos debe reconstruir todos los bytes previos de las fuentes. Cada URL/fragmento previo se conserva. Se comparan árboles completos: sólo paths acordados, cero archivos perdidos/renombrados, código/resultados/manifests/fuentes congeladas intactos. La publicación usa head fijado, scope y readback, sin force. Las fichas aplicadas salen de la cola activa y quedan en Git; auditorías y decisiones abiertas permanecen.
+
+Fuentes de partida: Contributions `90a31353528d777d0b617152ed54a67991239612` (2.200 blobs) y la rama UC-21 `f0701670e5beb8d97cfff3bbf3796bdf80e869ec` (77 blobs). Esos conteos son el universo de rutas de este corte; no una declaración de lectura semántica de los 2.277 archivos ni de ausencia previa de huérfanos. La comprobación de la tanda impide perder contenido; la conciliación completa de rutas actuales continúa en las tandas 2–6.
+
+### Propietarios y términos compartidos
+
+Mantener EP→Awareness→índices técnicos como los tres niveles. UC-21 conserva su entrada propia. EA, RA, MSCA, R01, cada estudio y el testbed conservan responsabilidad por sus significados y evidencias. Registrar una relación entre ellos no transfiere propiedad o validación. Antes de renombrar o dividir, plantear aquí y en cada README VNext afectada el antes/después de rutas, qué enlaces cambian, quién mantiene la nueva relación y cómo se conserva el original.
+
+El vocabulario común debe relacionar significados que ya existen, no imponer por nombre equivalencias entre unidades distintas. La siguiente pasada terminológica contrastará especialmente campaña R01 frente a campaña DDS; escenario narrativo/familia frente a instancia congelada; oracle de información frente a instrumento de referencia; y extension de familia UC-21 frente a transferencia/isomorfismo R01. Las adiciones actuales remiten a sus definiciones propietarias, sin reescribirlas.
+
+**Aclaración de Iván — ruta ratificada:** UC-21→objetivos→Challenges→DDS→campañas→resultados. Dentro de DDS, escenario de evaluación designa la aplicación de una tecnología/configuración a un Challenge. Se conserva la distinción de la fuente entre instancia/base delimitada y technology mapping/profile; no se sustituyen los nombres de los originales ni se transforma la campaña operativa S4 en campaña de investigación.
+
+
+**Hallazgo de versión:** el paquete de revisión S5 enlazado en la discusión no está en el árbol main90a3135. Su README sí se recupera íntegro en el pin2c7f545 citado originalmente. La nueva ruta conserva ese enlace inmutable y no inventa una copia vigente. La segunda tanda debe registrar también dependencias de commits anteriores, no sólo archivos del head.
