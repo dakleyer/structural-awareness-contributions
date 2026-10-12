@@ -1336,3 +1336,31 @@ Las épocas de los tres bindings SHA/README siguen por aclarar, con hashes intac
 
 
 **Base de publicación revalidada:** main avanzó a `bb3e5c449f3638bfe806a53d4302e547a0923fe8` por una adición de navegación de artículos y su anexo. Los seis destinos de esta tanda conservan exactamente sus blobs previos; los tres viejos y sus contextos siguen iguales. Se preserva esa publicación ajena y se mantiene `21c3946009af4a14433d7240eddce939e4ff9599` como corte de lectura del plan. La incorporación de sus propuestas no se infiere de este rebase.
+
+
+---
+
+## Revisión del otro agente sobre UC-21 — 12 octubre 2026
+
+**Codex, asistente de IA; contraste documental para decisión humana.** Se revisó el informe aportado por Iván y las seis VNext de UC-21 publicadas en `ee680a019a0cbd7270415f44237c894d370d275c`, rama `when-controls-work-system-fails-v0.9.3` de dakleyer/use-cases. Se leyeron las seis auditorías completas y contratos centrales, con pasajes de hipótesis/preregistro, status/admisión de los nueve perfiles y versión S3/S6; no una nueva revisión científica íntegra de todas las APIs/escenarios o ejecución de producto.
+
+**Lo que se sostiene:** ocho propuestas literales con viejos localizados una vez; seis expedientes de una misma auditoría con cuatro apartados PARCIALES, no seis auditores. EO-01…05 son un mapa editorial propuesto: gates no prueban HC; HR requiere R1 corregida con defensas retenidas; HS necesita respuesta/continuidad y no establece minimalidad o exclusividad. H1–H6 no son seis etiquetas de escenario. Es compatible con el método DDS, sin probar A/B/C por añadir esta trazabilidad.
+
+**Lo que el resumen no cubría:**
+
+- El commit sólo añadió seis VNext y no cambió sus fuentes. Pero S3 ya tenía un aviso de copia histórica y S6 había pasado a pointer de Contributions **antes** del commit auditado. La rama viva no es idéntica al envío aec08fb5 que sigue enlazado desde FG-TIDA. Los seis documentos fuente directos sí coinciden con el envío; ese hecho no acredita igualdad de todos los anexos.
+- En 23 bindings de texto verificados con bytes Git, USE_CASE/S3/S6 difieren del SHA256 conservado. Los antiguos S3/S6 congelados sí coinciden; USE_CASE tampoco coincide en el snapshot congelado, por lo que su época exacta queda pendiente. No implica error de todos los argumentos, pero conservar un manifest no equivale a validarlo para la rama actual. No se cambian hashes ni se certifican los otros bindings/binarios.
+- La Issue pública marca once sectores y SUBMISSION cuatro. Hace falta confirmar intención del propietario; no se infiere validación de sectores, error científico o permiso para corregir la Issue.
+- Los planes del otro auditor no valoraban impacto/riesgo/esfuerzo. Se añadieron valoraciones y dependencias; la matriz y el registro tienen acoplamientos, por eso no son todos cambios de Bajo riesgo. Se precisó también distinguir hipótesis de requisitos y refutación de claim frente a respuesta a un objetivo.
+
+Los comentarios y planes al final se publicaron en **las mismas seis VNext**, [commit 76ac39bae74d10f4586f5fb787f69deaf7f59add](https://github.com/dakleyer/use-cases/commit/76ac39bae74d10f4586f5fb787f69deaf7f59add). Se conservaron todos sus bytes previos; cero nuevas VNext, cambios en escenarios, fuente, manifest, main de use-cases o Issue FG-TIDA. El actual source 00J consultado se identifica por `68d406d6d22d1a6099b91810737cde06e521df02` y blob `17616f2495ccfc08828fed49d4f566f718e67eee`; su pin y el snapshot presentado tienen funciones distintas. No se sustituye o migra evidencia de uno al otro.
+
+## Plan al final — orden de revisión de UC-21
+
+**Primero:** declarar si se trabaja contra el paquete enviado congelado o la rama que consume escenarios externos. La propuesta mínima de [README VNext](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/README_VNext.md#plan-al-final--prioridad-y-variante-mínima-de-lectura), Alto impacto/Bajo riesgo/Bajo esfuerzo, aclara esa expectativa sin reconstruir anexos ni recertificar hashes.
+
+**Después:** preparar la matriz de [USE_CASE VNext](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/USE_CASE_VNext.md#plan-al-final--matriz-y-conclusiones), Alto impacto/Medio riesgo/Medio esfuerzo, y cotejar lectores y [Run record](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/templates/RUN_RECORD_VNext.md#plan-al-final--pregunta-previa-conclusión-por-claim). Una sola matriz propietaria; EO/claim/route/criterio se fijan antes del resultado, con Evidence E.6 concordante. Los lectores no necesitan tres copias completas de la tabla.
+
+**Decisiones separadas:** la edición/destino y los sectores de [SUBMISSION VNext](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/SUBMISSION_VNext.md#plan-al-final--versión-y-destino); hipótesis en [HYPOTHESES VNext](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/annexes/HYPOTHESES_VNext.md#plan-al-final--tipo-y-dueño-de-la-afirmación); localizador HR opcional en [RECURRENCE VNext](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/annexes/RECURRENCE_PROTOCOL_VNext.md#plan-al-final--localizador-opcional). Se mantienen viejos completos, atribución, desacuerdos y límites. Nada se incorpora a canon/envío sin la decisión concreta.
+
+La primera tanda textual31/32/75 y su registro76 IDs mantienen su alcance anterior: no se añaden aquí ocho “nuevos fallos” ni se renumera el plan de Contributions por recibir un expediente externo. Este contraste tampoco cierra la quinta/sexta científica, crea otra jerarquía/expediente, activa pruebas, contacto o temporizador.
