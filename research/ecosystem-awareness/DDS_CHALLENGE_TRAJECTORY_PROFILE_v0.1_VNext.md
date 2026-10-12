@@ -501,3 +501,51 @@ Iván autoriza ejecutar adiciones de navegación conservando contenido. El índi
 Iván autoriza ejecutar la ruta UC-21→objetivos→Challenges→DDS→campañas→resultados. Las adiciones descritas aquí se incorporan conservando todos los bytes previos y vínculos de las fuentes. La terminología de lectura remite a sus propietarios: Challenge, escenario base, escenario de evaluación/perfil tecnológico y campañas/operaciones mantienen sus contextos. No se renombra un archivo, se modifica un contrato o se ejecuta una campaña.
 
 La ficha de esta tanda aplicada se retira de la cola activa; sus textos completos están en la [versión de preparación](https://github.com/dakleyer/structural-awareness-contributions/blob/ccf0d4b897eb56498de8fd64d97bf94af496e614/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). El plan de las tandas 2–6 sigue vigente: inventario de dependencias/versiones, agrupación con unidad explícita, informes de campaña y conciliación. La entrada de Issue se actualiza después de verificar las fuentes publicadas. Sus enlaces de envío se conservan.
+
+
+## Tanda 2 — inventario de rutas, versiones y dependencias · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván confirma que «no cambiar nada» significa conservar la información: autoriza continuar las ayudas de navegación, sin borrar contenido. El UC-21 en PDF y su entrada pública quedan para el final. La ruta de trabajo sigue UC-21 → objetivos → Challenges → DDS → campañas → resultados.
+
+Se obtuvieron los árboles completos y los bytes de los cortes Contributions `af344bd93d8e0ae0e9912dbc08055ded3b25cd25` (2.200 archivos) y rama UC-21 `aafc9a49346a7b2030563d3b8c1bde51de3c6446` (77 archivos). Cada uno de los 2.277 blobs se cotejó contra su identidad Git. Se extrajeron enlaces Markdown de las 967 páginas de Contributions y las 38 de la rama del caso; el análisis distingue documentos actuales, VNext y archivos preservados. Las rutas explícitas y fragmentos examinados en los Markdown actuales resolvieron; no se extiende ese resultado a todos los enlaces web, comandos o formatos de manifiesto.
+
+La lectura humana detecta 19 documentos actuales sin enlace Markdown entrante: dos documentos del diagnóstico, un perfil FG-TIDA, cuatro guías de la segunda serie, tres guías/recapitulaciones compartidas y nueve explicaciones de coste/tipos. Las nueve últimas ya están referidas por los registros JSON; falta acceso directo para el lector. Se añaden tres accesos desde el índice DDS y dieciséis desde el índice de extensiones. La modificación es navegación, no una nueva prueba científica.
+
+Los trece CURRENT_STUDY_RECORD conservan su pregunta y Stage A/Simplified. Se comprobaron 186 referencias de archivo explícitas dentro de esos registros, con cero ausentes. Se verificaron 173 bindings SHA-256 de los mapas `files` de FREEZE/MANIFEST en extensiones, sin divergencias en ese alcance, y los cinco blobs del instrumento diagnóstico v0.2 coinciden con su freeze. El perfil FG-TIDA v0.2 consume expresamente el diagnóstico v0.1: se explica esa relación, sin reemplazar su dependencia por v0.2 o v0.3.
+
+La custodia de 92 copias al pin409bfa9 sigue identificando su origen auténtico. En el receptor actual, 70 permanecen idénticas y 22 evolucionaron: 16 documentos y seis revisiones. Se cotejaron las diferencias documentales: lectura A/B/C, sucesores coste/tipos y aclaraciones de resultados, sin convertir las copias en campañas independientes. Las 16 fuentes correspondientes en feasibility mantienen sus blobs originales. Las seis VNext tienen evolución propia; no se abre otro expediente ni se declara independencia por duplicación.
+
+Se verificaron los árboles de 39 referencias históricas de estos dos repositorios, recuperando cada destino citado por Markdown actual. Incluyen el envío UC-21 aec08fb5, la custodia409bfa9 y el paquete S5 en2c7f545, ausente del main actual. La existencia y ubicación del paquete S5 están comprobadas; su ZIP no se ejecutó aquí. Los enlaces externos de otros propietarios mantienen sus versiones y quedan para la revisión de las relaciones materiales, sin asimilarlos a archivos del head.
+
+**Prioridad Primera; impacto Alto; riesgo Bajo para estas adiciones; esfuerzo Medio.** Beneficio: el lector llega a guías, evidencia y versiones sin depender de claves JSON o de adivinar carpetas. Riesgo concreto: confundir un documento actualizado con el input de un run; se conserva el pin/freeze y se explica la distinción. Coste: lectura de los materiales identificados, cotejo de destinos y mantenimiento de tres pequeñas adiciones. La auditoría de identidad no cierra las pasadas científicas ni las tandas 3–6.
+
+El [plan común](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) sigue fijando el orden. No se reubica, renombra o elimina un archivo; el contenido previo se conserva byte por byte. Los before/after completos se registran en las VNext propietarias antes de incorporar las adiciones. La ficha aplicada se retira de la cola activa y permanece en Git history.
+
+### Plan quirúrgico de la tanda 2 — Acceso humano a tres documentos de diagnóstico y sus versiones
+
+Fuente vigente: `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, commit `af344bd93d8e0ae0e9912dbc08055ded3b25cd25`, blob `fcf4f21d8e3d42617834282971a2fcfe4f9b7561`. Ubicación: inmediatamente después del último párrafo existente, sin sustituirlo. Instrucción de Iván: continuar la siguiente tanda, mejorar navegación y conservar toda la información; PDF al final. Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; dependencia: destinos existentes, freeze y fuente literal comprobados. Estado: preparado y autorizado para incorporar esta adición; no aplicado todavía en esta versión.
+
+**Texto antes — viejo literal y completo del contexto final**
+
+````markdown
+Earlier symbolic campaigns, fixtures and reduction records remain reachable through the [EA baseline index](./baseline/README.md), [R01 index](./baseline/reductions/00G-R01/README.md), [00K symbolic campaign summary](./baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_CAMPAIGN_SUMMARY_v0.1.md) and [00L traversal records](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md). Each record retains its original version, unit of assessment and evidence limits. The thirteen-study table is an entry to the extension catalogue, not an inventory of every campaign in the repository.
+````
+
+**Texto después — contexto íntegro seguido de la adición completa**
+
+````markdown
+Earlier symbolic campaigns, fixtures and reduction records remain reachable through the [EA baseline index](./baseline/README.md), [R01 index](./baseline/reductions/00G-R01/README.md), [00K symbolic campaign summary](./baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_CAMPAIGN_SUMMARY_v0.1.md) and [00L traversal records](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md). Each record retains its original version, unit of assessment and evidence limits. The thirteen-study table is an entry to the extension catalogue, not an inventory of every campaign in the repository.
+
+
+## 12. Versions and supporting reading
+
+Choose the method stage first, then the study record and the exact inputs used by its run. The [extension-package reading map](./baseline/reductions/00G-R01/extensions/README.md#complete-package-reading-map--12-october-2026) provides the study guides, cost explanations, shared repair evidence and retained source versions behind the thirteen reports above.
+
+| Question | Reading route | Version and purpose |
+|---|---|---|
+| How was the diagnostic instrument first checked across different families? | [Validation plan v0.1](./DDS_STAGE_A_GATE_DIAGNOSTIC_VALIDATION_PLAN_v0.1.md) | The original three-family portability plan; its findings retain their registered version. |
+| What should an instrument reviewer examine? | [External-audit checklist v0.2](./DDS_STAGE_A_GATE_DIAGNOSTIC_EXTERNAL_AUDIT_CHECKLIST_v0.2.md) and [frozen instrument manifest](./DDS_STAGE_A_GATE_DIAGNOSTIC_AUDIT_MANIFEST_v0.2.json) | Review of the v0.2 instrument package, separate from a candidate-technology verdict. |
+| How is the cross-theme decision-boundary profile prepared? | [FG-TIDA evaluation profile v0.2 draft](./fg-tida/tests/FG_TIDA_DECISION_BOUNDARY_EVALUATION_PROFILE_v0.2_DRAFT.md) | This draft deliberately consumes the v0.1 diagnostic design. Its links identify that dependency; a newer instrument does not silently replace it. |
+
+The submitted UC-21 snapshot, the maintained case branch, a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and the maintained index for current reading. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and any unresolved version decisions.
+````

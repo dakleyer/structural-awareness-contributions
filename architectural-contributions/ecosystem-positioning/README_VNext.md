@@ -1458,3 +1458,45 @@ Publicados [objetivos y Challenges de UC-21](https://github.com/dakleyer/use-cas
 La edición de la Issue21 fue autorizada e intentada, pero la integración devuelve403 Resource not accessible by integration. El navegador tampoco pudo inicializarse. El [README VNext de UC-21](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md) ofrece el texto exacto antes/después para incorporar con una cuenta con permiso. El cuerpo de la Issue no cambió. Fuente/documents listos no equivale a entrada FG-TIDA actualizada.
 
 Próximo trabajo del plan: inventario por rutas/commits y enlace de todos los ejercicios, versiones, reducciones/extensiones y registros con unidad y propietario explícitos. El corte incluye2.200blobs enContributions y77enla rama delcaso, además de dependencias históricas como el paquete S5pin2c7f545. La tabla de13estudios es sólo una entrada de catálogo. No se declara conciliación final ni ausencia previa de huérfanos por esta tanda.
+
+
+## Tanda 2 — inventario de rutas, versiones y dependencias · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván confirma que «no cambiar nada» significa conservar la información: autoriza continuar las ayudas de navegación, sin borrar contenido. El UC-21 en PDF y su entrada pública quedan para el final. La ruta de trabajo sigue UC-21 → objetivos → Challenges → DDS → campañas → resultados.
+
+Se obtuvieron los árboles completos y los bytes de los cortes Contributions `af344bd93d8e0ae0e9912dbc08055ded3b25cd25` (2.200 archivos) y rama UC-21 `aafc9a49346a7b2030563d3b8c1bde51de3c6446` (77 archivos). Cada uno de los 2.277 blobs se cotejó contra su identidad Git. Se extrajeron enlaces Markdown de las 967 páginas de Contributions y las 38 de la rama del caso; el análisis distingue documentos actuales, VNext y archivos preservados. Las rutas explícitas y fragmentos examinados en los Markdown actuales resolvieron; no se extiende ese resultado a todos los enlaces web, comandos o formatos de manifiesto.
+
+La lectura humana detecta 19 documentos actuales sin enlace Markdown entrante: dos documentos del diagnóstico, un perfil FG-TIDA, cuatro guías de la segunda serie, tres guías/recapitulaciones compartidas y nueve explicaciones de coste/tipos. Las nueve últimas ya están referidas por los registros JSON; falta acceso directo para el lector. Se añaden tres accesos desde el índice DDS y dieciséis desde el índice de extensiones. La modificación es navegación, no una nueva prueba científica.
+
+Los trece CURRENT_STUDY_RECORD conservan su pregunta y Stage A/Simplified. Se comprobaron 186 referencias de archivo explícitas dentro de esos registros, con cero ausentes. Se verificaron 173 bindings SHA-256 de los mapas `files` de FREEZE/MANIFEST en extensiones, sin divergencias en ese alcance, y los cinco blobs del instrumento diagnóstico v0.2 coinciden con su freeze. El perfil FG-TIDA v0.2 consume expresamente el diagnóstico v0.1: se explica esa relación, sin reemplazar su dependencia por v0.2 o v0.3.
+
+La custodia de 92 copias al pin409bfa9 sigue identificando su origen auténtico. En el receptor actual, 70 permanecen idénticas y 22 evolucionaron: 16 documentos y seis revisiones. Se cotejaron las diferencias documentales: lectura A/B/C, sucesores coste/tipos y aclaraciones de resultados, sin convertir las copias en campañas independientes. Las 16 fuentes correspondientes en feasibility mantienen sus blobs originales. Las seis VNext tienen evolución propia; no se abre otro expediente ni se declara independencia por duplicación.
+
+Se verificaron los árboles de 39 referencias históricas de estos dos repositorios, recuperando cada destino citado por Markdown actual. Incluyen el envío UC-21 aec08fb5, la custodia409bfa9 y el paquete S5 en2c7f545, ausente del main actual. La existencia y ubicación del paquete S5 están comprobadas; su ZIP no se ejecutó aquí. Los enlaces externos de otros propietarios mantienen sus versiones y quedan para la revisión de las relaciones materiales, sin asimilarlos a archivos del head.
+
+**Prioridad Primera; impacto Alto; riesgo Bajo para estas adiciones; esfuerzo Medio.** Beneficio: el lector llega a guías, evidencia y versiones sin depender de claves JSON o de adivinar carpetas. Riesgo concreto: confundir un documento actualizado con el input de un run; se conserva el pin/freeze y se explica la distinción. Coste: lectura de los materiales identificados, cotejo de destinos y mantenimiento de tres pequeñas adiciones. La auditoría de identidad no cierra las pasadas científicas ni las tandas 3–6.
+
+El [plan común](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) sigue fijando el orden. No se reubica, renombra o elimina un archivo; el contenido previo se conserva byte por byte. Los before/after completos se registran en las VNext propietarias antes de incorporar las adiciones. La ficha aplicada se retira de la cola activa y permanece en Git history.
+
+### Inventario completo por ámbito y ruta de lectura
+
+Los grupos siguientes cubren los 2.277 archivos sin exclusiones por extensión. La carpeta permite consultar cada miembro; la función y autoridad del material las conserva su propietario. Los recuentos fijan este corte, no una auditoría de cada resultado.
+
+| Ámbito | Archivos | Lectura y tratamiento |
+|---|---:|---|
+| corpus: [(root)](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/) | 12 | Presentación y controles del repositorio; no otro corpus técnico. |
+| corpus: [.github](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/.github) | 9 | Automatización y plantillas; preservar código/configuración. |
+| corpus: [applied-research](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/applied-research) | 1 | Trabajo aplicado, con su alcance propio. |
+| corpus: [architectural-contributions](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/architectural-contributions) | 36 | EP: explicación, gradiente, documentos de apoyo y VNext. |
+| corpus: [governance](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/governance) | 382 | Procedimientos, revisión e historia auténtica; no nuevas autoridades científicas. |
+| corpus: [presentations](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/presentations) | 8 | Presentaciones/binaries preservados en su versión. |
+| corpus: [research](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research) | 1699 | EA, RA y trabajo transversal, según sus índices propietarios. |
+| corpus: [scripts](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/scripts) | 7 | Herramientas de mantenimiento, no campañas. |
+| corpus: [standards](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/standards) | 19 | MSCA y sus fuentes/revisiones. |
+| corpus: [submissions](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/submissions) | 27 | Paquetes y registros de envío; conservar su época. |
+| case: [(root)](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/) | 2 | Presentación y controles del repositorio; no otro corpus técnico. |
+| case: [.github](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/.github) | 2 | Automatización y plantillas; preservar código/configuración. |
+| case: [contributions](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions) | 54 | Paquete UC-21, original y lector vigente diferenciados. |
+| case: [use-case-register](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/use-case-register) | 19 | Infraestructura de registro, schema/ejemplos; no otro ejercicio UC-21. |
+
+La carpeta research contiene1.690 archivos EA,6 RA y3 de structural-awareness. Dentro de EA, extensiones tiene584 archivos con los21 grupos de ubicación del índice existente. En la rama del caso,54 pertenecen al paquete UC-21 y23 a raíz/automatización/registro. Las hojas adicionales ya acordadas y la historia se conservan; no se crea un nivel canónico nuevo.
