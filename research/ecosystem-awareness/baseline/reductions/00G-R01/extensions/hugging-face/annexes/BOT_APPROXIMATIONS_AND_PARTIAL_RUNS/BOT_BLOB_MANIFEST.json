@@ -1,5 +1,5 @@
 {
-  "schema": "HF_BOT_APPROXIMATIONS_SOURCE_BLOB_INDEX_v0.1",
+  "schema": "HF_BOT_APPROXIMATIONS_SOURCE_BLOB_INDEX_v0.2",
   "date": "2026-10-12",
   "baseline_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
   "author": "OpenAI ChatGPT GPT-6 — navigation compiler, not independent scientific reviewer",
@@ -236,13 +236,19 @@
       "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md",
       "git_blob_sha1": "790e19d82ce0258bde910f60901be6a4d3ad72de",
       "bytes": 82143,
-      "kind": "MAIN_DOC_OR_VNEXT"
+      "kind": "NAVIGATION_ONLY_EDIT__BASELINE_SHA_RETAINED",
+      "baseline_navigation_sha1": "790e19d82ce0258bde910f60901be6a4d3ad72de",
+      "current_navigation_sha1": "52781750bef95aab29d28331feacbfd7f98d215e",
+      "editorial_note": "Only presentation/navigation updated in PR #13; the original historical Git blob remains available at baseline commit."
     },
     {
       "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README_VNext.md",
       "git_blob_sha1": "fbcd7b3cda2b41d82bd73ffc758860e919cd2c2f",
       "bytes": 11197,
-      "kind": "MAIN_DOC_OR_VNEXT"
+      "kind": "NAVIGATION_ONLY_EDIT__BASELINE_SHA_RETAINED",
+      "baseline_navigation_sha1": "fbcd7b3cda2b41d82bd73ffc758860e919cd2c2f",
+      "current_navigation_sha1": "dbfef1b493f5ee674abc4e3a6a06ce48978cb6f4",
+      "editorial_note": "Only presentation/navigation updated in PR #13; the original historical Git blob remains available at baseline commit."
     },
     {
       "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/REMAINING_TASKS.txt",
@@ -350,7 +356,10 @@
       "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/review-2026-10-11/README.md",
       "git_blob_sha1": "7733d10e375a3c06fa7ac8f61f41d951b8bfb4f1",
       "bytes": 10416,
-      "kind": "BOT_APPROX_OR_DRAFT"
+      "kind": "NAVIGATION_ONLY_EDIT__BASELINE_SHA_RETAINED",
+      "baseline_navigation_sha1": "7733d10e375a3c06fa7ac8f61f41d951b8bfb4f1",
+      "current_navigation_sha1": "7d3ed0ea51fc6cd1b4142a842db00eac2411bcf4",
+      "editorial_note": "Only presentation/navigation updated in PR #13; the original historical Git blob remains available at baseline commit."
     },
     {
       "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/review-2026-10-11/STAGE_B_READINESS.md",
@@ -772,5 +781,18 @@
       "bytes": 6879,
       "kind": "ORIGINAL_RESEARCH_REFERENCE"
     }
-  ]
+  ],
+  "verification": {
+    "verified_date": "2026-10-12",
+    "baseline_commit": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
+    "observed_after_merge": "bc36c491c92963413ec264c3f9a507d0ba80301f",
+    "baseline_blobs_indexed": 127,
+    "unchanged_blobs": 124,
+    "intentional_navigation_only_edits": 3,
+    "current_navigation_git_shas_recorded": true,
+    "historical_sha_pins_preserved": true,
+    "original_test_traces_and_frozen_Stage_A_unmodified": true,
+    "status": "PASS_WITH_THREE_DOCUMENTED_NAVIGATION_EDITS",
+    "note": "git_blob_sha1 is a historical baseline pin, not an assertion that all three intentionally edited navigation README files have unchanged live Git blobs."
+  }
 }
