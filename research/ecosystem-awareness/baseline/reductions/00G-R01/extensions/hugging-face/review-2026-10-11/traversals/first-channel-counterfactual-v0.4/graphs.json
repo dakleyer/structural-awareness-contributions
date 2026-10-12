@@ -1,0 +1,866 @@
+[
+  {
+    "arm": "NATIVE_POINT",
+    "edges": [],
+    "graph_case": "GG01_NO_PEER_CHANNEL",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE",
+    "edges": [],
+    "graph_case": "GG01_NO_PEER_CHANNEL",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE_SHARE",
+    "edges": [],
+    "graph_case": "GG01_NO_PEER_CHANNEL",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL",
+    "edges": [],
+    "graph_case": "GG01_NO_PEER_CHANNEL",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_GATED",
+    "edges": [],
+    "graph_case": "GG01_NO_PEER_CHANNEL",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_OPEN",
+    "edges": [
+      {
+        "authorized": false,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": false,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG01_NO_PEER_CHANNEL",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 1,
+    "unauthorized_messages": 2,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL_HARD_GUARD",
+    "edges": [],
+    "graph_case": "GG01_NO_PEER_CHANNEL",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_POINT",
+    "edges": [],
+    "graph_case": "GG02_PRIVATE_APPROVED",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE",
+    "edges": [],
+    "graph_case": "GG02_PRIVATE_APPROVED",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE_SHARE",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG02_PRIVATE_APPROVED",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL",
+    "edges": [],
+    "graph_case": "GG02_PRIVATE_APPROVED",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_GATED",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG02_PRIVATE_APPROVED",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_OPEN",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG02_PRIVATE_APPROVED",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL_HARD_GUARD",
+    "edges": [],
+    "graph_case": "GG02_PRIVATE_APPROVED",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_POINT",
+    "edges": [],
+    "graph_case": "GG03_ALLOWED_TRANSPORT_CONTENT_NO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE",
+    "edges": [],
+    "graph_case": "GG03_ALLOWED_TRANSPORT_CONTENT_NO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE_SHARE",
+    "edges": [],
+    "graph_case": "GG03_ALLOWED_TRANSPORT_CONTENT_NO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL",
+    "edges": [],
+    "graph_case": "GG03_ALLOWED_TRANSPORT_CONTENT_NO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_GATED",
+    "edges": [],
+    "graph_case": "GG03_ALLOWED_TRANSPORT_CONTENT_NO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_OPEN",
+    "edges": [
+      {
+        "authorized": false,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": false,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG03_ALLOWED_TRANSPORT_CONTENT_NO",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 1,
+    "unauthorized_messages": 2,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL_HARD_GUARD",
+    "edges": [],
+    "graph_case": "GG03_ALLOWED_TRANSPORT_CONTENT_NO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_POINT",
+    "edges": [],
+    "graph_case": "GG04_OWNER_KNOWLEDGE_UNKNOWN",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE",
+    "edges": [],
+    "graph_case": "GG04_OWNER_KNOWLEDGE_UNKNOWN",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE_SHARE",
+    "edges": [],
+    "graph_case": "GG04_OWNER_KNOWLEDGE_UNKNOWN",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL",
+    "edges": [],
+    "graph_case": "GG04_OWNER_KNOWLEDGE_UNKNOWN",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_GATED",
+    "edges": [],
+    "graph_case": "GG04_OWNER_KNOWLEDGE_UNKNOWN",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_OPEN",
+    "edges": [
+      {
+        "authorized": false,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": false,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG04_OWNER_KNOWLEDGE_UNKNOWN",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 1,
+    "unauthorized_messages": 2,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL_HARD_GUARD",
+    "edges": [],
+    "graph_case": "GG04_OWNER_KNOWLEDGE_UNKNOWN",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_POINT",
+    "edges": [],
+    "graph_case": "GG05_BAD_POLICY_MISLABELS_ALLOWED",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE",
+    "edges": [],
+    "graph_case": "GG05_BAD_POLICY_MISLABELS_ALLOWED",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE_SHARE",
+    "edges": [
+      {
+        "authorized": false,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": false,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG05_BAD_POLICY_MISLABELS_ALLOWED",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 1,
+    "unauthorized_messages": 2,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL",
+    "edges": [],
+    "graph_case": "GG05_BAD_POLICY_MISLABELS_ALLOWED",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_GATED",
+    "edges": [
+      {
+        "authorized": false,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": false,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG05_BAD_POLICY_MISLABELS_ALLOWED",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 1,
+    "unauthorized_messages": 2,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_OPEN",
+    "edges": [
+      {
+        "authorized": false,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": false,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG05_BAD_POLICY_MISLABELS_ALLOWED",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 1,
+    "unauthorized_messages": 2,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL_HARD_GUARD",
+    "edges": [],
+    "graph_case": "GG05_BAD_POLICY_MISLABELS_ALLOWED",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 1,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_POINT",
+    "edges": [],
+    "graph_case": "GG06_DEPENDENT_ECHO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE",
+    "edges": [],
+    "graph_case": "GG06_DEPENDENT_ECHO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE_SHARE",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "C",
+        "round": 1,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG06_DEPENDENT_ECHO",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL",
+    "edges": [],
+    "graph_case": "GG06_DEPENDENT_ECHO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_GATED",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "C",
+        "round": 1,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG06_DEPENDENT_ECHO",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_OPEN",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "C",
+        "round": 1,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG06_DEPENDENT_ECHO",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL_HARD_GUARD",
+    "edges": [],
+    "graph_case": "GG06_DEPENDENT_ECHO",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_POINT",
+    "edges": [],
+    "graph_case": "GG07_INDEPENDENT_UNCERTAINTY",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 3
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE",
+    "edges": [],
+    "graph_case": "GG07_INDEPENDENT_UNCERTAINTY",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 3
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE_SHARE",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "C",
+        "round": 1,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG07_INDEPENDENT_UNCERTAINTY",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 3
+  },
+  {
+    "arm": "EA_LOCAL",
+    "edges": [],
+    "graph_case": "GG07_INDEPENDENT_UNCERTAINTY",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 3
+  },
+  {
+    "arm": "EA_EHD_GATED",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "C",
+        "round": 1,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG07_INDEPENDENT_UNCERTAINTY",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 3
+  },
+  {
+    "arm": "EA_EHD_OPEN",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "C",
+        "round": 1,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG07_INDEPENDENT_UNCERTAINTY",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 3
+  },
+  {
+    "arm": "EA_LOCAL_HARD_GUARD",
+    "edges": [],
+    "graph_case": "GG07_INDEPENDENT_UNCERTAINTY",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 3,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 3
+  },
+  {
+    "arm": "NATIVE_POINT",
+    "edges": [],
+    "graph_case": "GG08_FALSE_HUMAN_CLAIM",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 2,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE",
+    "edges": [],
+    "graph_case": "GG08_FALSE_HUMAN_CLAIM",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 2,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE_SHARE",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG08_FALSE_HUMAN_CLAIM",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 2,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL",
+    "edges": [],
+    "graph_case": "GG08_FALSE_HUMAN_CLAIM",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 2,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_GATED",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG08_FALSE_HUMAN_CLAIM",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 2,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_EHD_OPEN",
+    "edges": [
+      {
+        "authorized": true,
+        "from": "A",
+        "round": 1,
+        "to": "D"
+      },
+      {
+        "authorized": true,
+        "from": "D",
+        "round": 2,
+        "to": "E"
+      }
+    ],
+    "graph_case": "GG08_FALSE_HUMAN_CLAIM",
+    "messages": 2,
+    "reached_receivers": 2,
+    "source_claim_count": 2,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "EA_LOCAL_HARD_GUARD",
+    "edges": [],
+    "graph_case": "GG08_FALSE_HUMAN_CLAIM",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 2,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 1
+  },
+  {
+    "arm": "NATIVE_POINT",
+    "edges": [],
+    "graph_case": "GG09_SILENT_PRIVATE",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 0,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 0
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE",
+    "edges": [],
+    "graph_case": "GG09_SILENT_PRIVATE",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 0,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 0
+  },
+  {
+    "arm": "NATIVE_ADAPTIVE_SHARE",
+    "edges": [],
+    "graph_case": "GG09_SILENT_PRIVATE",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 0,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 0
+  },
+  {
+    "arm": "EA_LOCAL",
+    "edges": [],
+    "graph_case": "GG09_SILENT_PRIVATE",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 0,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 0
+  },
+  {
+    "arm": "EA_EHD_GATED",
+    "edges": [],
+    "graph_case": "GG09_SILENT_PRIVATE",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 0,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 0
+  },
+  {
+    "arm": "EA_EHD_OPEN",
+    "edges": [],
+    "graph_case": "GG09_SILENT_PRIVATE",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 0,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 0
+  },
+  {
+    "arm": "EA_LOCAL_HARD_GUARD",
+    "edges": [],
+    "graph_case": "GG09_SILENT_PRIVATE",
+    "messages": 0,
+    "reached_receivers": 0,
+    "source_claim_count": 0,
+    "unauthorized_messages": 0,
+    "unique_source_roots": 0
+  }
+]
