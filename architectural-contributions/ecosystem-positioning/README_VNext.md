@@ -1500,3 +1500,10 @@ Los grupos siguientes cubren los 2.277 archivos sin exclusiones por extensión. 
 | case: [use-case-register](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/use-case-register) | 19 | Infraestructura de registro, schema/ejemplos; no otro ejercicio UC-21. |
 
 La carpeta research contiene1.690 archivos EA,6 RA y3 de structural-awareness. Dentro de EA, extensiones tiene584 archivos con los21 grupos de ubicación del índice existente. En la rama del caso,54 pertenecen al paquete UC-21 y23 a raíz/automatización/registro. Las hojas adicionales ya acordadas y la historia se conservan; no se crea un nivel canónico nuevo.
+
+
+## Estado publicado de la tanda 2 — adiciones pendientes de incorporación
+
+La auditoría de inventario y los pares literales están publicados el12octubre2026. La comprobación abarca los2.277blobs del corte, rutas Markdown y las dependencias especificadas en esta entrada. Las tres ayudas de navegación están preparadas; todavía no se han añadido a los lectores originales.
+
+La revisión automática rechazó el commit de incorporación porque interpreta la restricción anterior como permiso exclusivo para VNext. Iván aclaró en esta conversación que conservar significa no borrar información; se solicitó confirmar por nombre las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Mientras llega esa decisión, los originales mantienen sus blobs y los pares siguen pendientes, sin marcarse aplicados. El PDF y la entrada externa quedan para el final. La revisión documental y las siguientes lecturas pueden continuar.
