@@ -224,3 +224,48 @@ A repeated original or replay is a linked execution of that evidence, not anothe
 ## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
 
 Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.
+
+
+## Tanda 6 — conciliación de navegación UC-21 / DDS · 12 octubre 2026
+
+Revisión por Codex, mismo asistente. Iván pide preparar y continuar la siguiente tanda. Corte: Contributions `582a1b87b18c651beff8dd8a8f2d590cf50aace6` y use-cases main `e9efbda5e0cc002793a4df82484a6b3f47a79976`. Las 31 incorporaciones anteriores están publicadas; esta tanda prepara seis ajustes nuevos, sin incorporarlos a las fuentes. Es la sexta tanda del plan de navegación, no la sexta auditoría científica del corpus.
+
+### Reutilización y propietario de los informes
+
+Se revisó el recorrido desde la pregunta hacia CURRENT_STUDY_RECORD, reporte, registro, freeze, run y evidencia sucesora de los trece estudios. COMPLETE_WITHIN_DECLARED_LOCAL_QUESTION conserva su cierre local de Simplified Stage A. La cohorte de nueve perfiles de coste/tipos y la de trece perfiles de reparación mantienen sus unidades y registros. Las 186 referencias comprobadas conservan destino y los 173 bindings seleccionados conservan identidad.
+
+El cambio80 lleva una referencia de admisión X1–X7 a main de UC-21 y conserva su ruta anterior. Kernel, predicado de fallo, control positivo, condiciones, recursos y límites de transferencia siguen definidos por sus propietarios. La rama anterior existe: el ajuste orienta al lector a la copia adecuada. El método recibe este comentario en DDS VNext y el caso mantiene su objetivo y claim. El hipervínculo no transfiere resultados entre preguntas.
+
+### Revisiones en ambos extremos
+
+[Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).
+
+### Cambio 80 — Conectar la reutilización de los trece estudios con el caso vigente
+
+**Fuente:** `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md`, repositorio `dakleyer/structural-awareness-contributions`, commit `582a1b87b18c651beff8dd8a8f2d590cf50aace6`, blob `aa895d3f1e9493bb036d911c2f44c6c056f59aee`. **Estado:** preparado, pendiente del GO de esta nueva tanda. **Impacto positivo esperado:** Alto. **Riesgo:** Bajo. **Esfuerzo:** Bajo. **Prioridad:** Primera.
+
+**Beneficio concreto:** La admisiónX1–X7 se consulta en main sin cambiar ninguna pregunta, caso, resultado o contrato de transferencia.
+
+**Riesgo concreto:** Heredar un resultado desde otro caso por actualizar el enlace; conservar todos los límites de transferencia.
+
+**Lectura/validación/mantenimiento:** Dos enlaces cotejados, sin editar registros o freezes.
+
+**Dependencias y orden:** Sin dependencia de incorporación nueva; conservar snapshot y contextos existentes. **Instrucción de Iván:** Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.
+
+#### Pasaje 1 de 1
+
+**Texto antes — viejo literal completo**
+
+````markdown
+For UC-21 reuse, select the case objective and Challenge, then document the correspondence using its [family-admission tests](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS mapping contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping). These records are Simplified Stage A studies with their own local closure. A new UC-21 comparison preserves the selected family's failure predicate, positive control, timing and response obligations and cites the evidence it actually uses.
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+For UC-21 reuse, select the case objective and Challenge, then document the correspondence using its [family-admission tests](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS mapping contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping). These records are Simplified Stage A studies with their own local closure. A new UC-21 comparison preserves the selected family's failure predicate, positive control, timing and response obligations and cites the evidence it actually uses.
+
+The [earlier family-admission reading](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) remains available for the preceding case preparation.
+````
+
+**Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.

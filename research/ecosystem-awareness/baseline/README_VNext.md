@@ -392,3 +392,48 @@ La variante literal y el seguimiento de las ejecuciones están en la [única VNe
 ## Tanda 5 aplicada — autorización completa de Iván, 12 octubre 2026
 
 Se incorporaron las cuatro adiciones aprobadas: historia de los conteos 00K, linaje de los trece estudios, mapa de informes DDS y comparaciones HF. La versión de 00K incluye los tres estados 128/134/379 comprobados en Git y CI. Todos los bytes anteriores de las cuatro fuentes permanecen como prefijo exacto. Las fichas incorporadas salen de pendientes; auditorías y evidencia permanecen. La autorización de hoy comprende también las propuestas literales anteriores que sigan vigentes; se están conciliando por fuente y dependencias. No se lanzó una campaña.
+
+
+## Tanda 6 — conciliación de navegación UC-21 / DDS · 12 octubre 2026
+
+Revisión por Codex, mismo asistente. Iván pide preparar y continuar la siguiente tanda. Corte: Contributions `582a1b87b18c651beff8dd8a8f2d590cf50aace6` y use-cases main `e9efbda5e0cc002793a4df82484a6b3f47a79976`. Las 31 incorporaciones anteriores están publicadas; esta tanda prepara seis ajustes nuevos, sin incorporarlos a las fuentes. Es la sexta tanda del plan de navegación, no la sexta auditoría científica del corpus.
+
+### Coherencia del enlace S4 / 00H
+
+La nota 00H conserva v0.5 como lectura actual y v0.2 como predecessor, los dos resultados S4 y los 37 gates locales del caso. Su enlace a EXTENSIONALITY abre la antigua rama, cuyo texto sigue disponible. El cambio79 orienta a main y conserva la URI anterior. Se mantienen literalmente los enunciados sobre acción no autorizada, pérdida del hallazgo, campaña autorizada y casos independientes. No se renumeran Q/S/T ni se modifica 00H o sus resultados.
+
+Requirements y UC-EA-03 conservan sus freezes y los sucesores de trabajo aprobados. Actualizar el enlace de lectura no promueve un successor a otro baseline. El caso y DDS reciben el mismo cotejo de llegada y retorno en sus VNext.
+
+### Revisiones en ambos extremos
+
+[Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).
+
+### Cambio 79 — Llevar la familia S4 vigente a main sin perder su ruta anterior
+
+**Fuente:** `research/ecosystem-awareness/baseline/README.md`, repositorio `dakleyer/structural-awareness-contributions`, commit `582a1b87b18c651beff8dd8a8f2d590cf50aace6`, blob `c3e163e99d37b47d1b21475a874d1bbba5fdf713`. **Estado:** preparado, pendiente del GO de esta nueva tanda. **Impacto positivo esperado:** Alto. **Riesgo:** Bajo. **Esfuerzo:** Bajo. **Prioridad:** Primera.
+
+**Beneficio concreto:** El enlace del sucesor 00H llega al paquete UC-21 mantenido y conserva los dos resultados de la familia.
+
+**Riesgo concreto:** Desligar preservación del hallazgo y autoridad del efecto; mantener literalmente los tres enunciados y el namespaceQ0–Q5.
+
+**Lectura/validación/mantenimiento:** Un enlace de entrada y conservación de la referencia anterior.
+
+**Dependencias y orden:** Sin dependencia de incorporación nueva; conservar snapshot y contextos existentes. **Instrucción de Iván:** Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.
+
+#### Pasaje 1 de 1
+
+**Texto antes — viejo literal completo**
+
+````markdown
+The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.
+
+The [earlier S4 branch reading](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) remains available with its original preparation context.
+````
+
+**Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.

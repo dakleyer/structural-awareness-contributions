@@ -1672,3 +1672,39 @@ RA y Operation comparten la lectura A/B/C/D: B conserva soporte/reserva evaluabl
 No quedan pares actuales incorporables por aplicar.43–51 requieren concretar un perfil, contrato o investigación y no representan texto aprobado abandonado.3/4/5 fueron reformulados en71;64/67 superados;65/66 resueltos;75 superado por la instrucción posterior de retirar fichas aplicadas. Las tablasEO originales de UC-21 quedan históricas porque la guía de cincoobjetivos y el formulario existente ya resolvieron esa navegación; no se agrega una segunda1.1. Las fichas aplicadas y la repetición de59 se retiran de la cola, manteniendo auditorías, atribución, desacuerdos y predecessor Git.
 
 La entradaFG-TIDA conserva el envío congelado. Su propuesta de enlace queda preparada en UC-21 VNext; la integración GitHub devuelve403para modificar esa Issue. PDF y futuros experimentos no se sustituyen por esta publicación. La navegación ya incorporada funciona en main de ambos repositorios y apunta a los expedientes propietarios.
+
+
+## Tanda 6 — conciliación de navegación UC-21 / DDS · 12 octubre 2026
+
+Revisión por Codex, mismo asistente. Iván pide preparar y continuar la siguiente tanda. Corte: Contributions `582a1b87b18c651beff8dd8a8f2d590cf50aace6` y use-cases main `e9efbda5e0cc002793a4df82484a6b3f47a79976`. Las 31 incorporaciones anteriores están publicadas; esta tanda prepara seis ajustes nuevos, sin incorporarlos a las fuentes. Es la sexta tanda del plan de navegación, no la sexta auditoría científica del corpus.
+
+### Qué se mantiene y qué necesita ajuste
+
+La ruta es **UC-21 → objetivos → Challenges → DDS → campañas → resultados**. El caso conserva sus preguntas y afirmaciones; DDS, el método; cada estudio, su contrato y evidencia. Se recorrieron dos entradas. La Issue 21 conserva el envío `aec08fb5`; main contiene las ayudas de lectura añadidas después. El envío mantiene una lectura íntegra de su edición. Los comentarios S5 y S4 enlazan DDS en el commit `2c7f545`; esa referencia histórica no lleva al índice actual. La adición al cuerpo de la Issue sigue preparada por separado, con el permiso de edición pendiente de resolver.
+
+El árbol de ambos repositorios contiene 2.281 archivos Git. Se autentican 2.218 textos UTF-8 contra sus blobs, incluidos 1.007 Markdown. El análisis extrae 15.437 relaciones y no detecta destinos o fragmentos faltantes en el subconjunto activo, excluyendo referencias históricas y VNext. Esto verifica navegación; las URLs externas y la verdad científica de las fuentes tienen otras comprobaciones. Además, se cotejaron 186 referencias de estudio y 173 bindings SHA256 congelados seleccionados: todos conservan destino e identidad. Los trece registros mantienen su pregunta, registro, freeze y evidencia sucesora. No se reejecutó una campaña.
+
+Diez enlaces activos apuntan a la rama anterior de UC-21: siete en DDS, uno en la nota S4 de baseline, uno en extensiones y uno en la fuente histórica 00G. Sus destinos y fragmentos se leyeron en el head real `188f319`: existen. El README de esa rama conserva la redacción anterior a la precisión de snapshot incorporada en main. Se propone actualizar nueve enlaces de orientación, conservando sus URI anteriores. El enlace de 00G mantiene su contexto histórico y no se reescribe el escenario. El inventario de 54 archivos sigue correcto, pero el rótulo “maintained package” identifica el antiguo corte `aafc9a`; debe distinguirse de main.
+
+Los 32 Markdown del paquete UC-21 están conectados por sus índices y guías. Los seis Markdown sin entrada activa encontrados fuera de ese paquete corresponden al root, la plantilla de Issue y el software de registro de use-cases. No son documentos abandonados de UC-21. Los assets conservan sus rutas y acceso por carpeta; el inventario no cuenta como una lectura científica de los binarios.
+
+### Nueva relación material UC-4 ↔ UC-21
+
+El [comentario de Iván del 12 de octubre](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997), último de los 33 consultados, propone recibir una determinación con sus condiciones, examinar su aplicabilidad, formular un hallazgo acotado y devolver un control candidato a otra prueba. El PASS original conserva su ámbito; una aplicabilidad posterior no establecida no borra ese resultado. Un límite de observación también puede ser una conclusión válida. Sus pasos A–F son la secuencia propuesta, no etapas DDS. EA figura como una posible capa complementaria y el control convencional competente conserva su resultado. No aparece una respuesta posterior en el hilo consultado. La revisión de esta relación queda registrada en el caso, DDS y el puente UC4.
+
+### Seis cambios nuevos propuestos
+
+| ID | Cambio | Impacto esperado | Riesgo | Esfuerzo | Orden |
+|---|---|---|---|---|---|
+| 77 | Leer UC-21 desde main en las siete rutas DDS | Alto | Bajo | Medio | Primera |
+| 78 | Distinguir el inventario histórico de la lectura actual | Alto | Bajo | Bajo | Primera |
+| 79 | Llevar la familia S4 vigente a main sin perder su ruta anterior | Alto | Bajo | Bajo | Primera |
+| 80 | Conectar la reutilización de los trece estudios con el caso vigente | Alto | Bajo | Bajo | Primera |
+| 81 | Dar acceso al checker corregido manteniendo la edición congelada | Alto | Bajo | Medio | Tras 77 |
+| 82 | Enlazar el nuevo ciclo bidireccional propuesto UC4–UC21 | Alto | Bajo | Bajo | Tras 78/81 |
+
+Los pares completos están al final de las VNext propietarias: DDS 77/81, UC-21 README 78/82, baseline 79 y extensiones 80. Son seis cambios lógicos, trece pasajes y cuatro fuentes. En copias de análisis se verificaron la sustitución inversa exacta, la conservación de todas las URI HTTP anteriores y diecisiete enlaces actuales nuevos o modificados. **Estado: preparados, pendientes del GO de esta nueva tanda.** La autorización anterior incorporó sus propios pendientes.
+
+### Revisiones en ambos extremos
+
+[Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).

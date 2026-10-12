@@ -634,3 +634,189 @@ Iván acepta y autoriza incorporar las propuestas pendientes concretas. Se cotej
 
 El checker v0.4 conserva la delegación a v0.2 y las proyecciones T05/T06 de v0.3. Treinta controles locales pasan: siete C74 con los tipos y la dependencia real true/false/ausente, siete T06 y dieciséis T05. El string `false` se rechaza antes de la compilación; el booleano false bloquea la dependencia y true la satisface. Los dos checkers previos, registros y resultados permanecen intactos. No se ejecuta una campaña DDS. [Código sucesor](./gate-diagnostic/check_gate_profile_v0.4_audit_candidate.py) · [controles C74](./gate-diagnostic/test_na_substitute_v04.py).
 
+
+
+## Tanda 6 — conciliación de navegación UC-21 / DDS · 12 octubre 2026
+
+Revisión por Codex, mismo asistente. Iván pide preparar y continuar la siguiente tanda. Corte: Contributions `582a1b87b18c651beff8dd8a8f2d590cf50aace6` y use-cases main `e9efbda5e0cc002793a4df82484a6b3f47a79976`. Las 31 incorporaciones anteriores están publicadas; esta tanda prepara seis ajustes nuevos, sin incorporarlos a las fuentes. Es la sexta tanda del plan de navegación, no la sexta auditoría científica del corpus.
+
+### Lectura desde el caso y retorno de evidencia
+
+DDS conserva los trece estudios y sus rutas a 00K, 00L, 00I, HF y R01. En §§11/13, siete referencias presentadas como actuales abren aún la rama anterior de UC-21. Sus destinos existen en `188f319`; el README mantiene allí la redacción anterior al cambio de snapshot en main. El cambio77 lleva esas entradas a main y conserva las siete URI como historia. El cambio81 distingue envío, paquete mantenido, freeze del estudio y versión del instrumento, y enlaza el checker v0.4 ya publicado. El manifest v0.2 y el perfil FG-TIDA que consume v0.1 mantienen sus contratos.
+
+El retorno al caso conserva scope y claims. El S5 externo mantiene el pin v0.1.3 y sus predicados asumidos upstream; su autor recomienda cierre acotado. S4/CDA sigue siendo una propuesta separada del baseline R0/R1. El comentario nuevo de Iván plantea transformar un hallazgo delimitado en otro control candidato; sus pasos A–F no son etapas DDS. Una versión posterior del checker no rediagnostica los runs anteriores.
+
+Las 186 referencias y 173 bindings congelados seleccionados conservan sus destinos y bytes. El cotejo de enlaces apoya esta conciliación de navegación; el ciclo científico completo se sigue evaluando en sus expedientes.
+
+### Revisiones en ambos extremos
+
+[Visión conjunta EP](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md) · [DDS](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) · [baseline](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md) · [extensiones](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md) · [puente UC4](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/UC4_INTEROPERABILITY_PROFILE_VNext.md) · [UC-21 README](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README_VNext.md) · [caso](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE_VNext.md).
+
+### Cambio 77 — Leer UC-21 desde main en las siete rutas DDS
+
+**Fuente:** `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, repositorio `dakleyer/structural-awareness-contributions`, commit `582a1b87b18c651beff8dd8a8f2d590cf50aace6`, blob `14515ea24b80c929ffe6e392e4614a4f8c346f7e`. **Estado:** preparado, pendiente del GO de esta nueva tanda. **Impacto positivo esperado:** Alto. **Riesgo:** Bajo. **Esfuerzo:** Medio. **Prioridad:** Primera.
+
+**Beneficio concreto:** El lector llega al paquete publicado y su aclaración vigente de snapshot. Las siete rutas anteriores siguen disponibles como historia.
+
+**Riesgo concreto:** Un fragmento o rol de referencia podría cambiar al sustituir la rama; comprobar sus destinos y preservar los siete enlaces anteriores.
+
+**Lectura/validación/mantenimiento:** Siete enlaces y un bloque histórico; cotejo de blobs, anclas y lectura de cada destino. Sin cambios de método o prueba.
+
+**Dependencias y orden:** Sin dependencia de incorporación nueva; conservar snapshot y contextos existentes. **Instrucción de Iván:** Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.
+
+#### Pasaje 1 de 8
+
+**Texto antes — viejo literal completo**
+
+````markdown
+[current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README.md#research-objectives)
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+[current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives)
+````
+
+#### Pasaje 2 de 8
+
+**Texto antes — viejo literal completo**
+
+````markdown
+[UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/README.md)
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+[UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/README.md)
+````
+
+#### Pasaje 3 de 8
+
+**Texto antes — viejo literal completo**
+
+````markdown
+[UC-21 conventions](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md)
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+[UC-21 conventions](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md)
+````
+
+#### Pasaje 4 de 8
+
+**Texto antes — viejo literal completo**
+
+````markdown
+[UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario)
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+[UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario)
+````
+
+#### Pasaje 5 de 8
+
+**Texto antes — viejo literal completo**
+
+````markdown
+[UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection)
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+[UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection)
+````
+
+#### Pasaje 6 de 8
+
+**Texto antes — viejo literal completo**
+
+````markdown
+[Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension)
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+[Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension)
+````
+
+#### Pasaje 7 de 8
+
+**Texto antes — viejo literal completo**
+
+````markdown
+[UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment)
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+[UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment)
+````
+
+#### Pasaje 8 de 8
+
+**Texto antes — viejo literal completo**
+
+````markdown
+[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.
+
+<details>
+<summary>Earlier UC-21 branch routes — retained reading history</summary>
+
+- [current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README.md#research-objectives)
+- [UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/README.md)
+- [UC-21 conventions](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md)
+- [UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario)
+- [UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection)
+- [Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension)
+- [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment)
+
+</details>
+````
+
+**Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.
+
+### Cambio 81 — Dar acceso al checker corregido manteniendo la edición congelada
+
+**Fuente:** `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, repositorio `dakleyer/structural-awareness-contributions`, commit `582a1b87b18c651beff8dd8a8f2d590cf50aace6`, blob `14515ea24b80c929ffe6e392e4614a4f8c346f7e`. **Estado:** preparado, pendiente del GO de esta nueva tanda. **Impacto positivo esperado:** Alto. **Riesgo:** Bajo. **Esfuerzo:** Medio. **Prioridad:** Primera.
+
+**Beneficio concreto:** Un lector encuentra v0.4 desde el índice del método y distingue código candidato, freeze y edición consumida.
+
+**Riesgo concreto:** Promover 30 controles locales a admisión independiente o cambiar el checker de un estudio ya registrado; el texto mantiene esas identidades.
+
+**Lectura/validación/mantenimiento:** Cotejar tres códigos, controles y manifest; sólo orientación documental.
+
+**Dependencias y orden:** Cambios 77. **Instrucción de Iván:** Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.
+
+#### Pasaje 1 de 1
+
+**Texto antes — viejo literal completo**
+
+````markdown
+The submitted UC-21 snapshot, the maintained case branch, a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and the maintained index for current reading. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and any unresolved version decisions.
+````
+
+**Texto después — propuesto completo**
+
+````markdown
+The [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails), the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails), a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and main for current reading. The [earlier case branch](https://github.com/dakleyer/use-cases/tree/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails) retains its preceding preparation. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and version decisions.
+
+For instrument review, inspect [checker v0.3](./gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py) and the [typed-substitution successor v0.4](./gate-diagnostic/check_gate_profile_v0.4_audit_candidate.py) with its [C74 controls](./gate-diagnostic/test_na_substitute_v04.py). These are audit candidates extending the retained v0.2 implementation; their local controls do not replace its frozen audit manifest or establish independent instrument admission. A study names the exact checker it consumes.
+````
+
+**Comprobación de candidatura:** viejo localizado exactamente una vez por pasaje. Los13pares de la tanda se aplicaron sólo a copias de análisis: sustitución inversa exacta y todas las URI HTTP anteriores conservadas. Las fuentes públicas siguen iguales en esta publicación de revisión. Incorporación pendiente del GO de Iván sobre esta tanda.

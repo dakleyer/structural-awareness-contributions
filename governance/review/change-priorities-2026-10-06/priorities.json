@@ -3831,6 +3831,269 @@
         "scope": "Fuente en a27679dc451ce2db77432df2b206bb08339b24ef; se excluyen quotes"
       },
       "joint_changes": []
+    },
+    {
+      "id": 77,
+      "scope": "corpus",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "14515ea24b80c929ffe6e392e4614a4f8c346f7e",
+      "source_commit": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "title": "Leer UC-21 desde main en las siete rutas DDS",
+      "state": "Preparado; pendiente GO de esta tanda",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "Tanda6 — conciliación de navegación",
+      "benefit": "El lector llega al paquete publicado y su aclaración vigente de snapshot. Las siete rutas anteriores siguen disponibles como historia.",
+      "riskReason": "Un fragmento o rol de referencia podría cambiar al sustituir la rama; comprobar sus destinos y preservar los siete enlaces anteriores.",
+      "costReason": "Siete enlaces y un bloque histórico; cotejo de blobs, anclas y lectura de cada destino. Sin cambios de método o prueba.",
+      "dependencies": [],
+      "pairs": [
+        {
+          "before": "[current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README.md#research-objectives)",
+          "after": "[current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#research-objectives)",
+          "before_matches": 1,
+          "after_matches": 0
+        },
+        {
+          "before": "[UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/README.md)",
+          "after": "[UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/README.md)",
+          "before_matches": 1,
+          "after_matches": 0
+        },
+        {
+          "before": "[UC-21 conventions](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md)",
+          "after": "[UC-21 conventions](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md)",
+          "before_matches": 1,
+          "after_matches": 0
+        },
+        {
+          "before": "[UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario)",
+          "after": "[UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario)",
+          "before_matches": 1,
+          "after_matches": 0
+        },
+        {
+          "before": "[UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection)",
+          "after": "[UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection)",
+          "before_matches": 1,
+          "after_matches": 0
+        },
+        {
+          "before": "[Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension)",
+          "after": "[Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension)",
+          "before_matches": 1,
+          "after_matches": 0
+        },
+        {
+          "before": "[UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment)",
+          "after": "[UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment)",
+          "before_matches": 1,
+          "after_matches": 0
+        },
+        {
+          "before": "[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.",
+          "after": "[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.\n\n<details>\n<summary>Earlier UC-21 branch routes — retained reading history</summary>\n\n- [current objectives and reader guide](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README.md#research-objectives)\n- [UC-21 scenarios](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/README.md)\n- [UC-21 conventions](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/CONVENTIONS.md)\n- [UC-21 Challenge guide](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README.md#choose-a-challenge-and-its-evaluation-scenario)\n- [UC-21 claim selection](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/HYPOTHESES.md#13-claim-selection)\n- [Family admission X1–X7](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension)\n- [UC-21 R0/R1/R2](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/USE_CASE.md#5-select-prepare-and-run-one-experiment)\n\n</details>",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "positive_impact_proven": false,
+      "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
+      "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
+      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+    },
+    {
+      "id": 78,
+      "scope": "case",
+      "source": "contributions/when-controls-work-system-fails/README.md",
+      "source_sha": "8e5a0d7be914dd514c212eb4ceb294eb7e1de7bf",
+      "source_commit": "e9efbda5e0cc002793a4df82484a6b3f47a79976",
+      "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+      "title": "Distinguir el inventario histórico de la lectura actual",
+      "state": "Preparado; pendiente GO de esta tanda",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Tanda6 — conciliación de navegación",
+      "benefit": "El paquete de54archivos permanece accesible en su corte y main se identifica como entrada vigente.",
+      "riskReason": "Confundir la edición actual con el manifest firmado/congelado; mantener SHA256SUMS y el enlace aec08fb5 sin cambios.",
+      "costReason": "Un párrafo y una guía corta; confirmar54rutas actuales y el fragmento de objetivos.",
+      "dependencies": [],
+      "pairs": [
+        {
+          "before": "The [maintained case package](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails) contains 54 files at this inventory cut: the case, submission text, six existing review records, annexes, templates, assets and integrity snapshot. Browse the [annex directory](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/annexes), [run-record template](templates/RUN_RECORD.md) and [original reading diagrams](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/assets/reading) alongside the reading sequence above.",
+          "after": "The [package inventory snapshot](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails) contains 54 files at this inventory cut: the case, submission text, six existing review records, annexes, templates, assets and integrity snapshot. Browse the [annex directory](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/annexes), [run-record template](templates/RUN_RECORD.md) and [original reading diagrams](https://github.com/dakleyer/use-cases/tree/aafc9a49346a7b2030563d3b8c1bde51de3c6446/contributions/when-controls-work-system-fails/assets/reading) alongside the reading sequence above.\n\nFor current reading, open the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails) and its [case objectives](USE_CASE.md#11-research-objectives-and-evidence). The inventory above records its cited earlier commit; main contains the subsequently approved reader updates. The submitted snapshot and each study's frozen inputs retain their own version.",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
+      "repository_full_name": "dakleyer/use-cases",
+      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "positive_impact_proven": false,
+      "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
+      "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
+      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+    },
+    {
+      "id": 79,
+      "scope": "corpus",
+      "source": "research/ecosystem-awareness/baseline/README.md",
+      "source_sha": "c3e163e99d37b47d1b21475a874d1bbba5fdf713",
+      "source_commit": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
+      "vnext": "research/ecosystem-awareness/baseline/README_VNext.md",
+      "title": "Llevar la familia S4 vigente a main sin perder su ruta anterior",
+      "state": "Preparado; pendiente GO de esta tanda",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Tanda6 — conciliación de navegación",
+      "benefit": "El enlace del sucesor00H llega al paquete UC-21 mantenido y conserva los dos resultados de la familia.",
+      "riskReason": "Desligar preservación del hallazgo y autoridad del efecto; mantener literalmente los tres enunciados y el namespaceQ0–Q5.",
+      "costReason": "Un enlace de entrada y conservación de la referencia anterior.",
+      "dependencies": [],
+      "pairs": [
+        {
+          "before": "The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.",
+          "after": "The [UC-21 S4 family](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) keeps two distinct outcomes: unauthorized aggregate action and silent loss of the material finding. Its full-family assessment covers both; a narrower trial identifies the selected outcome. This reader update retains the existing Q0–Q5 namespace and all previous scenario versions.\n\nThe [earlier S4 branch reading](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#extension-s4) remains available with its original preparation context.",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "positive_impact_proven": false,
+      "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
+      "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
+      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+    },
+    {
+      "id": 80,
+      "scope": "corpus",
+      "source": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md",
+      "source_sha": "aa895d3f1e9493bb036d911c2f44c6c056f59aee",
+      "source_commit": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
+      "vnext": "research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md",
+      "title": "Conectar la reutilización de los trece estudios con el caso vigente",
+      "state": "Preparado; pendiente GO de esta tanda",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Tanda6 — conciliación de navegación",
+      "benefit": "La admisiónX1–X7 se consulta en main sin cambiar ninguna pregunta, caso, resultado o contrato de transferencia.",
+      "riskReason": "Heredar un resultado desde otro caso por actualizar el enlace; conservar todos los límites de transferencia.",
+      "costReason": "Dos enlaces cotejados, sin editar registros o freezes.",
+      "dependencies": [],
+      "pairs": [
+        {
+          "before": "For UC-21 reuse, select the case objective and Challenge, then document the correspondence using its [family-admission tests](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS mapping contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping). These records are Simplified Stage A studies with their own local closure. A new UC-21 comparison preserves the selected family's failure predicate, positive control, timing and response obligations and cites the evidence it actually uses.",
+          "after": "For UC-21 reuse, select the case objective and Challenge, then document the correspondence using its [family-admission tests](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) and [DDS mapping contract](../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md#4-technology-mapping). These records are Simplified Stage A studies with their own local closure. A new UC-21 comparison preserves the selected family's failure predicate, positive control, timing and response obligations and cites the evidence it actually uses.\n\nThe [earlier family-admission reading](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/annexes/EXTENSIONALITY.md#4-admission-test-for-an-extension) remains available for the preceding case preparation.",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "positive_impact_proven": false,
+      "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
+      "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
+      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+    },
+    {
+      "id": 81,
+      "scope": "corpus",
+      "source": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+      "source_sha": "14515ea24b80c929ffe6e392e4614a4f8c346f7e",
+      "source_commit": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "title": "Dar acceso al checker corregido manteniendo la edición congelada",
+      "state": "Preparado; pendiente GO de esta tanda",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Medio",
+      "priority": "Primera",
+      "wave": "Tanda6 — conciliación de navegación",
+      "benefit": "Un lector encuentra v0.4 desde el índice del método y distingue código candidato, freeze y edición consumida.",
+      "riskReason": "Promover30controles locales a admisión independiente o cambiar el checker de un estudio ya registrado; el texto mantiene esas identidades.",
+      "costReason": "Cotejar tres códigos, controles y manifest; sólo orientación documental.",
+      "dependencies": [
+        "77"
+      ],
+      "pairs": [
+        {
+          "before": "The submitted UC-21 snapshot, the maintained case branch, a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and the maintained index for current reading. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and any unresolved version decisions.",
+          "after": "The [submitted UC-21 snapshot](https://github.com/dakleyer/use-cases/tree/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails), the [maintained package on main](https://github.com/dakleyer/use-cases/tree/main/contributions/when-controls-work-system-fails), a registered study freeze and an instrument successor answer different version questions. Follow the cited snapshot for a recorded result and main for current reading. The [earlier case branch](https://github.com/dakleyer/use-cases/tree/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails) retains its preceding preparation. The [existing DDS review](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) records the inventory and version decisions.\n\nFor instrument review, inspect [checker v0.3](./gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py) and the [typed-substitution successor v0.4](./gate-diagnostic/check_gate_profile_v0.4_audit_candidate.py) with its [C74 controls](./gate-diagnostic/test_na_substitute_v04.py). These are audit candidates extending the retained v0.2 implementation; their local controls do not replace its frozen audit manifest or establish independent instrument admission. A study names the exact checker it consumes.",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
+      "repository_full_name": "dakleyer/structural-awareness-contributions",
+      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "positive_impact_proven": false,
+      "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
+      "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
+      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+    },
+    {
+      "id": 82,
+      "scope": "case",
+      "source": "contributions/when-controls-work-system-fails/README.md",
+      "source_sha": "8e5a0d7be914dd514c212eb4ceb294eb7e1de7bf",
+      "source_commit": "e9efbda5e0cc002793a4df82484a6b3f47a79976",
+      "vnext": "contributions/when-controls-work-system-fails/README_VNext.md",
+      "title": "Enlazar el nuevo ciclo bidireccional propuesto UC4–UC21",
+      "state": "Preparado; pendiente GO de esta tanda",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "wave": "Tanda6 — conciliación de navegación",
+      "benefit": "La discusión pública reciente queda dentro de la ruta del caso; distingue resultado original, aplicabilidad posterior y retorno a un control candidato.",
+      "riskReason": "Presentar la propuesta como un experimento ya registrado o adopción deEA/CDA; conservar la naturaleza propuesta y los límites observacionales.",
+      "costReason": "Una fila de lectura; revisar el comentario completo, fuente/fecha y contratos de ambos receptores.",
+      "dependencies": [
+        "78",
+        "81"
+      ],
+      "pairs": [
+        {
+          "before": "| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |",
+          "after": "| Proposed S4/CDA follow-up | [S4/CDA discussion](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6111953753). A proposed follow-up after the agreed baseline, with its own scope/freeze decision. |\n| Proposed UC-4 ↔ UC-21 feedback cycle | [12 October proposal](https://github.com/FG-TIDA/use-cases/issues/21#issuecomment-6127959997). A source determination and its conditions inform the receiving-decision question; a bounded finding may return as a candidate control for a separately registered test. Its Steps A–F describe the proposed feedback sequence, independently of DDS Stages A/B/C. Existing control success and unresolved observation limits remain valid findings. |",
+          "before_matches": 1,
+          "after_matches": 0
+        }
+      ],
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "instructions": "Iván: preparar y continuar la siguiente tanda; aplicar cambios nuevos únicamente tras su GO, conservar información, rutas y versiones; PDF al final.",
+      "repository_full_name": "dakleyer/use-cases",
+      "preparation": "Texto literal publicado; pendiente GO de tanda6",
+      "positive_impact_proven": false,
+      "source_scan_scope": "Texto completo de la fuente actual; varios rangos identificados por pares cuando procede",
+      "source_guard": "Los cuatro originales no se modifican al publicar estas propuestas",
+      "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
     }
   ],
   "audit_coverage": [
@@ -4410,7 +4673,7 @@
     "logical_candidates_excluding_known_replicas": 65,
     "scope_count_limit": "Raw72 names, seven declared copies; not certification ofsource-by-source scientific completeness or independent reviewers.",
     "paired_proposals": 67,
-    "pending_paired": 0,
+    "pending_paired": 6,
     "already_published": 7,
     "withdrawn": 1,
     "superseded": 2,
@@ -4425,8 +4688,8 @@
     "added_files_from_previous_cut": 665,
     "textual_wave_interventions": 3,
     "limited_variants": 1,
-    "pending_reason": "The outstanding concrete pairs have been incorporated or applied in named working successors; research lines without literal pairs remain separately classified.",
-    "application_cut": "00ea3174c10a7e7cad84905d5642aa74eba35b18"
+    "pending_reason": "Six new navigation candidates prepared after the previous complete application; 13 literal passages across four sources. The nine old research lines remain separate.",
+    "application_cut": "582a1b87b18c651beff8dd8a8f2d590cf50aace6"
   },
   "dependency_epochs": [
     {
@@ -5050,6 +5313,21 @@
       "before": "The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.\n",
       "after": "The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.\n\n\n---\n\n## Review workspace for the ACC participation source\n\nThe [ACC participation review note](./01I_REVIEW_CARD.md) leads to the single VNext for01I and its relationships with the lineage profile, Role and MSCA Operation. The source remains preserved; the review does not turn this governance extension into an EA core, legal framework or validated collective effect.\n\nThe [Human Intelligence 01K review note](./01K_REVIEW_CARD.md) records its capacity-ledger review, and the [Signalling 01J review note](./01J_REVIEW_CARD.md) records the related partial boundary review. Original sources and their validation status remain preserved.\n",
       "old_pair_preserved": true
+    },
+    {
+      "date": "2026-10-12",
+      "corpus_head": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
+      "case_head": "e9efbda5e0cc002793a4df82484a6b3f47a79976",
+      "blobs": 2281,
+      "authenticated_utf8": 2218,
+      "markdown": 1007,
+      "active_missing_paths": 0,
+      "active_missing_fragments": 0,
+      "selected_study_refs": 186,
+      "selected_frozen_bindings": 173,
+      "actual_old_case_branch": "188f31921202d0beb06cfd15eea5008829f60e29",
+      "old_branch_links_verified": 10,
+      "limits": "Static paths/fragments and selected intellectual relations, not scientific review completion or verification of every remote destination"
     }
   ],
   "review_source_commit": "21c3946009af4a14433d7240eddce939e4ff9599",
@@ -10201,6 +10479,79 @@
       "superseded": [
         75
       ]
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Tanda6 navegación — seis candidatos nuevos preparados",
+      "source_commit": "582a1b87b18c651beff8dd8a8f2d590cf50aace6",
+      "proposal_assessments": [
+        {
+          "id": 77,
+          "state": "Preparado; pendiente GO de esta tanda",
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Medio",
+          "priority": "Primera",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+        },
+        {
+          "id": 78,
+          "state": "Preparado; pendiente GO de esta tanda",
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+        },
+        {
+          "id": 79,
+          "state": "Preparado; pendiente GO de esta tanda",
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+        },
+        {
+          "id": 80,
+          "state": "Preparado; pendiente GO de esta tanda",
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+        },
+        {
+          "id": 81,
+          "state": "Preparado; pendiente GO de esta tanda",
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Medio",
+          "priority": "Primera",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+        },
+        {
+          "id": 82,
+          "state": "Preparado; pendiente GO de esta tanda",
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "priority": "Primera",
+          "decision_ready": true,
+          "authorized_to_apply": false,
+          "gate": "GO de Iván sobre esta tanda; revalidar los13viejos y head antes de incorporar, conservar todos los enlaces y estudios"
+        }
+      ]
     }
   ],
   "plan_order": {
@@ -11720,7 +12071,7 @@
     "prior_registry_changes": 26,
     "tranche5_additions": 4,
     "case_reading_clarification": 1,
-    "remaining_executable_literal_pairs_waiting_for_permission": 0,
+    "remaining_executable_literal_pairs_waiting_for_permission": 6,
     "remaining_research_lines": [
       43,
       44,
@@ -11743,6 +12094,20 @@
       "RESOLVED BY LATER INTEGRATION": 2
     },
     "case_EO_alternatives": "Superseded by the approved five-objective guide and existing form; no duplicate section1.1 or EO mandate",
-    "publication_verification": "All 53 changed-path readbacks matched across the three application commits; original frozen blobs preserved"
+    "publication_verification": "All 53 changed-path readbacks matched across the three application commits; original frozen blobs preserved",
+    "new_navigation_wave": {
+      "proposals": 6,
+      "literal_pairs": 13,
+      "source_files": 4,
+      "ids": [
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "state": "Prepared; GO required for this new wave"
+    }
   }
 }
