@@ -103,85 +103,9 @@ El [plan común](https://github.com/dakleyer/structural-awareness-contributions/
 | [independent-dds-exercises-v0.1/spiffe-jwt/EXERCISE_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/spiffe-jwt/EXERCISE_REPORT.md) | [independent-dds-exercises-v0.1/spiffe-jwt/EXERCISE_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/409bfa9eff2b3e24e7350021db9e587861583de8/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/spiffe-jwt/EXERCISE_REPORT.md) | Explicación mantenida; original documental aún coincide con el pin. |
 | [independent-dds-exercises-v0.1/stamp-stpa/EXERCISE_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1/stamp-stpa/EXERCISE_REPORT.md) | [independent-dds-exercises-v0.1/stamp-stpa/EXERCISE_REPORT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/409bfa9eff2b3e24e7350021db9e587861583de8/research/ecosystem-awareness/baseline/reductions/00G-R01/feasibility/independent-dds-exercises-v0.1/stamp-stpa/EXERCISE_REPORT.md) | Explicación mantenida; original documental aún coincide con el pin. |
 
-### Plan quirúrgico de la tanda 2 — Dieciséis accesos directos y mapa de paquetes sin mover archivos
 
-Fuente vigente: `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README.md`, commit `af344bd93d8e0ae0e9912dbc08055ded3b25cd25`, blob `0afd3ba241e9687f18b22dece75e41cd6dffca19`. Ubicación: inmediatamente después del último párrafo existente, sin sustituirlo. Instrucción de Iván: continuar la siguiente tanda, mejorar navegación y conservar toda la información; PDF al final. Impacto Alto / riesgo Bajo / esfuerzo Medio; prioridad Primera; dependencia: destinos existentes, freeze y fuente literal comprobados. Estado: preparado y autorizado para incorporar esta adición; no aplicado todavía en esta versión.
+## Tanda 2 aplicada — decisión concreta de Iván, 12 octubre 2026
 
-**Texto antes — viejo literal y completo del contexto final**
+Iván responde «Adelante, muy bien» a la solicitud que identifica las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Se incorporan exactamente esos bloques y se conserva cada byte anterior de las fuentes. Esta decisión resuelve el bloqueo registrado antes; el PDF y la entrada externa siguen para el final.
 
-````markdown
-Forty selected cases and eight separate deliberate controls pass registered expectations, including expected failures. Local SQLite/Pydantic/model evidence is scoped as documented; native provider execution, Stage B/C, population inference and commissioned fulfilment are not established.
-````
-
-**Texto después — contexto íntegro seguido de la adición completa**
-
-````markdown
-Forty selected cases and eight separate deliberate controls pass registered expectations, including expected failures. Local SQLite/Pydantic/model evidence is scoped as documented; native provider execution, Stage B/C, population inference and commissioned fulfilment are not established.
-
-
-## Complete package reading map — 12 October 2026
-
-For a study, start with its report and current study record. Then inspect the registered inputs and the evidence actually used. The following guides make the shared and supplementary material directly readable:
-
-| Material | Guide | What it adds |
-|---|---|---|
-| Four earlier studies | [Scoped completion guide](./dds-study-completion-v0.1/README.md) | HEW, STPA, SPIFFE and RATS reports, boundary registration, freeze and results. |
-| Original technology exercises | [Exercise report](./independent-dds-exercises-v0.1/EXERCISES_REPORT.md) | The separately implemented STPA, SPIFFE and RATS exercises and their original evidence. |
-| Repaired successor evidence | [Audit package](./extension-audit-v0.1/README.md) | Its own registration, frozen source copies, deliberate controls and recorded repair results. |
-| Second-series package guides | [Cache](./cache-ttl/README.md), [queues](./queues-ack-redelivery/README.md), [structured output](./structured-output/README.md), [observability](./observability-response/README.md) | The local package guides behind their already linked reports and records. |
-
-### Cost and failure-type explanations
-
-The nine earlier profiles have separate explanations for their executed cost/type successor. Read each profile's own units, admission and denominator with its result:
-
-| Profile | Explanation |
-|---|---|
-| Human escalation / whispering | [Cost/type addendum](./dds-hew-v0.1/COST_TYPE_DIAGNOSTICS_2026-10-07.md) |
-| STPA | [Cost/type addendum](./independent-dds-exercises-v0.1/stamp-stpa/COST_TYPE_DIAGNOSTICS_2026-10-07.md) |
-| SPIFFE | [Cost/type addendum](./independent-dds-exercises-v0.1/spiffe-jwt/COST_TYPE_DIAGNOSTICS_2026-10-07.md) |
-| RATS | [Cost/type addendum](./independent-dds-exercises-v0.1/rats-jws/COST_TYPE_DIAGNOSTICS_2026-10-07.md) |
-| RAG | [Cost/type addendum](./rag/COST_TYPE_DIAGNOSTICS_2026-10-07.md) |
-| OAuth/OIDC | [Cost/type addendum](./oauth-oidc/COST_TYPE_DIAGNOSTICS_2026-10-07.md) |
-| MCP | [Cost/type addendum](./mcp-tool-calling/COST_TYPE_DIAGNOSTICS_2026-10-07.md) |
-| SQL / idempotency | [Cost/type addendum](./sql-transactions-idempotency/COST_TYPE_DIAGNOSTICS_2026-10-07.md) |
-| Durable workflows | [Cost/type addendum](./durable-workflows-retries/COST_TYPE_DIAGNOSTICS_2026-10-07.md) |
-
-The four second-series studies report these dimensions in their own DDS_STUDY and current record. Their units remain profile-specific.
-
-### Historical originals and maintained documents
-
-The [source-custody register](./SOURCE_CUSTODY_2026-10-06.json) records 92 original-to-replica bindings at commit409bfa9. At the 12 October inventory cut, 70 receiving files still match those historical blobs; 22 have evolved: 16 explanatory documents and six review records. All 16 corresponding source documents in feasibility still match the original pin. Use the historical source for the original edition and the linked current study record for subsequent explanation or repaired evidence. The register retains the original copy event; it is not a statement that every present-day receiving document remains byte-identical.
-
-[Historical source home](../feasibility/README.md) · [current study catalogue](./CURRENT_STUDY_CATALOGUE.json) · [owning review and exact version comparison](./README_VNext.md).
-
-<details>
-<summary>Browse every package in the fixed inventory: 584 files</summary>
-
-This is a file-location map, not a campaign count. Each directory opens all its existing files, including code, inputs, results and local history. The shared packets retain their own frozen copies and do not add new study observations.
-
-| Package or support | Files at inventory cut | Purpose |
-|---|---:|---|
-| [Shared documents and registers](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions) | 39 | Catalogue, extension protocols, custody and shared explanations. |
-| [_series2_support](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/_series2_support) | 2 | Shared runner infrastructure for the four second-series studies. |
-| [cache-ttl](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cache-ttl) | 16 | Cache/TTL scoped study. |
-| [cost-type-diagnostics-v0.1](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/cost-type-diagnostics-v0.1) | 44 | Frozen cost/type successor, source copies and recorded ledgers. |
-| [dds-hew-v0.1](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-hew-v0.1) | 39 | Local HEW study and analytical antecedents. |
-| [dds-study-completion-v0.1](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/dds-study-completion-v0.1) | 19 | Four-study completion and boundary-check records. |
-| [durable-workflows-retries](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/durable-workflows-retries) | 14 | Workflow/retry scoped study. |
-| [extension-audit-v0.1](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/extension-audit-v0.1) | 91 | Shared repair successor, controlled sources and evidence. |
-| [family](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/family) | 6 | Constructed reference family and its kernel proof. |
-| [hugging-face](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face) | 121 | Historical case, constructed research, frozen Stage A package and separately attributed bot annex. |
-| [independent-dds-exercises-v0.1](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/independent-dds-exercises-v0.1) | 32 | Selected STPA/SPIFFE/RATS technology exercises. |
-| [infoblox](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/infoblox) | 6 | Declared technology correspondence and finite witness. |
-| [mcp-tool-calling](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/mcp-tool-calling) | 14 | Tool-call admission scoped study. |
-| [oauth-oidc](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/oauth-oidc) | 14 | Identity/resource-admission scoped study. |
-| [observability-response](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/observability-response) | 13 | Notification versus actual response scoped study. |
-| [old](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/old) | 50 | Preserved predecessors; consult their original dates and context. |
-| [partial-experiments](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/partial-experiments) | 2 | Pointers to immutable original evidence. |
-| [queues-ack-redelivery](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/queues-ack-redelivery) | 13 | Acknowledgement/redelivery scoped study. |
-| [rag](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/rag) | 22 | Retrieval/evidence-admission scoped study. |
-| [sql-transactions-idempotency](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/sql-transactions-idempotency) | 14 | Transaction/idempotency scoped study. |
-| [structured-output](https://github.com/dakleyer/structural-awareness-contributions/tree/af344bd93d8e0ae0e9912dbc08055ded3b25cd25/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/structured-output) | 13 | Output-shape versus meaningful closure scoped study. |
-
-</details>
-````
+Se retiran únicamente las fichas literales de esas adiciones ya incorporadas. Sus pares completos siguen en la edición de preparación publicada: https://github.com/dakleyer/structural-awareness-contributions/blob/b8729701ff0303363d48fe63a629587d4b12a6e2/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md. Auditoría, explicaciones, instrucciones y propuestas anteriores abiertas permanecen. Cero archivos creados, eliminados, movidos o renombrados; código, resultados, fuentes congeladas y manifiestos íntegros. Continúa la tanda 3 sobre objetivos, Challenges y escenarios/ejercicios, dentro de las VNext actuales.

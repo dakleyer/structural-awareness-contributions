@@ -1507,3 +1507,10 @@ La carpeta research contiene1.690 archivos EA,6 RA y3 de structural-awareness. D
 La auditoría de inventario y los pares literales están publicados el12octubre2026. La comprobación abarca los2.277blobs del corte, rutas Markdown y las dependencias especificadas en esta entrada. Las tres ayudas de navegación están preparadas; todavía no se han añadido a los lectores originales.
 
 La revisión automática rechazó el commit de incorporación porque interpreta la restricción anterior como permiso exclusivo para VNext. Iván aclaró en esta conversación que conservar significa no borrar información; se solicitó confirmar por nombre las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Mientras llega esa decisión, los originales mantienen sus blobs y los pares siguen pendientes, sin marcarse aplicados. El PDF y la entrada externa quedan para el final. La revisión documental y las siguientes lecturas pueden continuar.
+
+
+## Tanda 2 aplicada — decisión concreta de Iván, 12 octubre 2026
+
+Iván responde «Adelante, muy bien» a la solicitud que identifica las tres adiciones a DDS_CANONICAL_METHOD_INDEX_v0.1.md, extensions/README.md y README UC-21. Se incorporan exactamente esos bloques y se conserva cada byte anterior de las fuentes. Esta decisión resuelve el bloqueo registrado antes; el PDF y la entrada externa siguen para el final.
+
+Se retiran únicamente las fichas literales de esas adiciones ya incorporadas. Sus pares completos siguen en la edición de preparación publicada: https://github.com/dakleyer/structural-awareness-contributions/blob/b8729701ff0303363d48fe63a629587d4b12a6e2/architectural-contributions/ecosystem-positioning/README_VNext.md. Auditoría, explicaciones, instrucciones y propuestas anteriores abiertas permanecen. Cero archivos creados, eliminados, movidos o renombrados; código, resultados, fuentes congeladas y manifiestos íntegros. Continúa la tanda 3 sobre objetivos, Challenges y escenarios/ejercicios, dentro de las VNext actuales.
