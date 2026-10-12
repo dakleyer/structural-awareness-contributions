@@ -469,17 +469,7 @@ El diseño separa Q0 conformance, Q1 requirement coverage, Q2 module contributio
 
 **Objeto:** este borrador§12. **Hallazgo:** F001. **Instrucción:** autoriza preparación/publicación de auditoría, no adopción del benchmark.
 
-**TEXTO ANTES**
 
-```markdown
-- that this draft has passed the Requirements-vNext or bibliographic gate.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-- that this draft has passed all adoption gates: the W1 traceability table is recorded in §9, while prior-art bibliography, comparator capability/configuration, frozen ablation/complexity protocols and fixture admission remain to be completed; recorded mapping does not establish empirical conformance or comparative support.
-```
 
 **Efecto:** estado de proceso más preciso. **Dependencias:** §4/§9/§13/WORKPLAN deberán revisarse juntos antes de incorporar. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
 
@@ -626,65 +616,25 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 Viejo verificado una vez fuera de citas de propuestas, línea 152 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-These hypotheses remain **provisional until W1 Requirements-vNext maps them explicitly to S1–S14 / T1–T4 / H1–H6 / KPI or identifies a justified requirements extension**.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The W1 mapping to S1–S14 / T1–T4 / H1–H6 / KPI is recorded in §9. These hypotheses remain provisional until the remaining source, comparator, protocol and fixture-admission gates in §13 are completed.
-~~~~
 
 ### Pasaje 2 — §9
 
 Viejo verificado una vez fuera de citas de propuestas, línea 312 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-Before this draft can replace v0.2, W1 Requirements-vNext must produce a delta table for every EP-BH#:
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The W1 delta table for every EP-BH# is recorded below. It maps this draft to the current requirements; benchmark adoption additionally requires the gates in §13:
-~~~~
 
 ### Pasaje 3 — §12
 
 Viejo verificado una vez fuera de citas de propuestas, línea 394 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-- that this draft has passed the Requirements-vNext or bibliographic gate.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-- that the recorded W1 mapping alone establishes bibliographic review, fixture admission or benchmark adoption.
-~~~~
 
 ### Pasaje 4 — §13
 
 Viejo verificado una vez fuera de citas de propuestas, línea 402 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-1. **W1 Requirements-vNext delta:** every EP-BH# is mapped to the current requirement system or a justified versioned requirements change.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-1. **W1 Requirements-vNext delta — recorded:** the completed mapping review in §9 uses the current requirement system; any later versioned change requires an updated mapping.
-~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
@@ -709,59 +659,19 @@ Este paquete reemplaza la variante antigua que sólo tocaba §12; no se aplican 
 
 ### §4
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-These hypotheses remain **provisional until W1 Requirements-vNext maps them explicitly to S1–S14 / T1–T4 / H1–H6 / KPI or identifies a justified requirements extension**.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The W1 mapping to S1–S14 / T1–T4 / H1–H6 / KPI is recorded in §9. These hypotheses remain provisional while the source, comparator, protocol and fixture-admission gates in §13 are completed.
-~~~~
 
 ### §9
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-Before this draft can replace v0.2, W1 Requirements-vNext must produce a delta table for every EP-BH#:
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The W1 delta table for every EP-BH# is recorded below. It maps this draft to the current requirements; benchmark adoption additionally requires the gates in §13:
-~~~~
 
 ### §12
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-- that this draft has passed the Requirements-vNext or bibliographic gate.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-- completion of bibliographic review, fixture admission or benchmark adoption on the basis of the W1 mapping alone.
-~~~~
 
 ### §13
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-1. **W1 Requirements-vNext delta:** every EP-BH# is mapped to the current requirement system or a justified versioned requirements change.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-1. **W1 Requirements-vNext delta — recorded:** the completed mapping review in §9 uses the current requirement system; any later versioned change requires an updated mapping.
-~~~~
 
 **Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio40 hecho y retirado de pendientes; se conserva el par completo.
 
@@ -771,3 +681,8 @@ The W1 delta table for every EP-BH# is recorded below. It maps this draft to the
 - **Aplicado:** Ola2 cambio5 / propuesta40.
 
 Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md).

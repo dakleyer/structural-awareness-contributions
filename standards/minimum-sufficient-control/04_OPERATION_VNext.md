@@ -193,17 +193,7 @@ The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributio
 
 **Beneficio esperado:** Evitar que authorize se lea como autoridad creada por la postura. No es eficacia medida. **Riesgo concreto:** §§13/14/25 ya protegen la autoridad externa; no transformar la nota en nuevo gate. **Trabajo necesario:** Pasaje corto con cotejo de Gradient§8 y ACC§§5/7; preservación.
 
-**Texto antes — viejo literal completo:**
 
-```markdown
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-P3 identifies the **need to qualify a legitimate transition path**. It grants no destination or execution authority; approval and execution remain subject to the applicable ACC and external authority mechanisms.
-```
 
 **Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Aclaración opcional, decisión de Iván y consumidores comprobados. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
 
@@ -254,17 +244,7 @@ Valoración/dependencias originales se conservan. Esta segunda localización no 
 
 ### Revalidación del cambio60 contra la nueva fuente
 
-Blob vigente `e11731c36e207d11631ade1a60ee521537840801`; viejo único, contexto nuevo §4.1 examinado. **Texto antes — viejo completo:**
-
-```markdown
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-P3 identifies the **need to qualify a legitimate transition path**. It grants no destination or execution authority; approval and execution remain subject to the applicable ACC and external authority mechanisms.
-```
+Blob vigente `e11731c36e207d11631ade1a60ee521537840801`; viejo único, contexto nuevo §4.1 examinado. 
 
 Valoración/dependencias originales se conservan. Esta segunda localización no aplica la propuesta ni declara terminada la conciliación global.
 
@@ -358,17 +338,7 @@ El coste HC-HID sigue siendo vector sin conversión declarada; comparar exige el
 
 Viejo verificado una vez fuera de citas de propuestas, línea 398 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-P3 identifies the **need to qualify a legitimate transition path**. It grants no destination or execution authority; approval and execution remain subject to the applicable ACC and external authority mechanisms.
-~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
@@ -389,17 +359,7 @@ P3 identifies the **need to qualify a legitimate transition path**. It grants no
 
 ### §11.3, última oración
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-P3 identifies the need to qualify a legitimate transition path. ACC and the applicable authority mechanisms govern approval of the destination and execution.
-~~~~
 
 **Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio60 hecho y retirado de pendientes; se conserva el par completo.
 
@@ -409,3 +369,8 @@ P3 identifies the need to qualify a legitimate transition path. ACC and the appl
 - **Aplicado:** Ola2 cambio1 / propuesta60.
 
 Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/standards/minimum-sufficient-control/04_OPERATION_VNext.md).

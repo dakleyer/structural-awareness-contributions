@@ -457,17 +457,7 @@ IVAN-20261006-START-SEQUENTIAL-AUDITS autoriza la publicación secuencial de aud
 
 **Objeto:** este VNext §6. **Hallazgo:** F003. **Fuente:** blob de la cabecera. **Tipo:** corrección documental propuesta, no aplicada. **Instrucción:** IVAN-20261006-START-SEQUENTIAL-AUDITS.
 
-**TEXTO ANTES**
 
-```markdown
-DBC-C02 provides the applied-validation route for this distinction now. If a future 00I Semantic TOCTOU scenario is committed, it should be cited here as an additional scenario-level stressor only after its repository text is reviewed; it must not be presumed from a chat-only draft.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-DBC-C02 provides an applied-validation route for this distinction. The committed [00I Semantic TOCTOU v0.5 Freeze Edition](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) is an additional scenario-level stressor; its requirements and action-time binding candidates are recorded in the Requirements vNext review. Inclusion here does not certify the scenario's implementation, close H06 or promote this interface delta.
-```
 
 **Efecto:** actualizar procedencia temporal y mantener límites; no nuevo O/IF-S. **Dependencias:** 00I y Requirements VNext; los enlaces antiguos a 00G/00H deberán revisarse por separado antes de una edición. **Decisión:** pendiente. **Incorporación:** no ejecutada.
 
@@ -637,17 +627,7 @@ Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [
 
 Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`a310cb7574560fbeb64ee43827398bcc9d6a29e7`, línea283. Viejo único fuera de citas.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-DBC-C02 provides the applied-validation route for this distinction now. If a future 00I Semantic TOCTOU scenario is committed, it should be cited here as an additional scenario-level stressor only after its repository text is reviewed; it must not be presumed from a chat-only draft.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-DBC-C02 supplies the semantic-TOCTOU validation route. The committed [00I Semantic TOCTOU v0.5 Freeze Edition](./00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) supplies the internal EA scenario; its requirements coverage and action-time binding candidates are recorded in the [Requirements vNext review](./00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
-~~~~
 
 **Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** aplicada y verificada el 12 de octubre de 2026 en `dcdb42d9814f690a40e79c28ec7f5de0d98af8f0`. Cambios18/33 fuera de pendientes; pares y auditorías conservados.
 
@@ -655,3 +635,8 @@ DBC-C02 supplies the semantic-TOCTOU validation route. The committed [00I Semant
 ## Cierre de Ola 4 — aplicado
 
 Los pasajes de este documento coinciden con el después publicado. El conjunto de seis sustituciones se aplicó en [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0). Se mantiene el ancla histórica de la ruta00I/UC6 y los tres documentos registran la misma incorporación.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).

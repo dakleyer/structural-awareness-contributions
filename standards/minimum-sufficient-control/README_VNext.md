@@ -58,17 +58,7 @@ No se cambia la jerarquía, el ownership o una interfaz para corregir una frase.
 
 **Localización:** fila única de canonicalización. **Preparación:** autorización de auditoría de Iván. **Tipo:** precisión semántica de explicación; revisar consumidores antes de incorporar.
 
-**Texto antes:**
 
-```markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
-```
-
-**Texto después:**
-
-```markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` established support, validity limits and characterized assessment reserve; confidence is one qualification within that basis | **DEFINED in Composition & Control v0.1** |
-```
 
 **Razón:** conciliar la tabla con la descripción actual de 03; no cambiar A_Cart/B_Cart ni crear campos obligatorios. **Dependencias:** 03, 04, EA/RA y perfiles consumidores. **Compatibilidad:** pendiente; el campo compartido no garantiza interpretación idéntica. **Decisión:** pendiente. **Incorporación:** no ejecutada.
 
@@ -111,24 +101,7 @@ Los originales sueltos, canon, código, datos, freezes y binarios no reciben cor
 
 **Fuente:** [índice propietario](README.md), blob `6e964aae2fb3e15d3980fd4004a364b892a95cbf`. **Instrucción de Iván:** enlazar trabajo adicional desde el último índice sin tocar los documentos sueltos. **Tipo:** solo navegación; no cambio de contenido técnico. La autorización del usuario cubre esta adición.
 
-**Texto antes — viejo (último párrafo, literal):**
 
-```markdown
-**Claim status:** standards-oriented research and a posted focus-group input; no adopted ITU position, universal minimum, completed comparative validation or production certification.
-```
-
-**Texto después — adición al final, manteniendo el viejo:**
-
-```markdown
-**Claim status:** standards-oriented research and a posted focus-group input; no adopted ITU position, universal minimum, completed comparative validation or production certification.
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-```
 
 El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.
 
@@ -187,24 +160,7 @@ La explicación, cobertura y viejos/nuevos están en [01C VNext](../../research/
 
 **Solo navegación autorizada por el procedimiento. Impacto esperado: Medio. Riesgo: Bajo. Esfuerzo: Bajo.** Los originales Role/Composition permanecen intactos; el índice enlaza las fichas externas y no crea otro nivel canónico. El texto anterior entero es prefijo del índice ampliado.
 
-**Texto antes — viejo completo del último párrafo:**
 
-```markdown
-The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-```
-
-**Texto después — mismo contexto y adición al final:**
-
-```markdown
-The [additional-work reading catalogue](ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
----
-
-## Review workspaces for Role and Composition
-
-The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.
-
-```
 
 El después muestra dónde se añade; no sustituye el párrafo viejo. Esta adición se publica con la entrega y se verifica por readback; queda fuera de tandas técnicas pendientes.
 
@@ -234,26 +190,7 @@ El README canónico recibe sólo una breve adición de navegación a fichas exte
 
 **Instrucción de Iván:** publicar auditoría y adiciones de navegación, conservando cuerpos. ImpactoMedio/riesgoBajo/esfuerzoBajo; adición autorizada de esta entrega, fuera de propuestas sustantivas pendientes. Fuente actual `64a82af9d51515f21fc5300636e844beeceffcab`, viejo único. No cambio de jerarquía/canon.
 
-**Texto antes — contexto viejo literal completo al final:**
 
-```markdown
-The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.
-
-```
-
-**Texto después — contexto conservado y adición completa:**
-
-```markdown
-The [Role review note](./02_ROLE_REVIEW_CARD.md) and [Composition review note](./03_COMPOSITION_REVIEW_CARD.md) lead to their separate audit workspaces. They record proposed clarifications at the RA boundary; both original specifications retain their current text and status.
-
-
----
-
-## Review workspaces for Architecture and ACC lineage
-
-The [Architecture review note](./00_ARCHITECTURE_REVIEW_CARD.md) and [ACC lineage review note](./01_ACC_REVIEW_CARD.md) lead to the separate audit workspaces for the current kernel and its canonical extension profile. Their original texts remain preserved; audit findings and proposed changes do not establish implementation validation or adoption.
-
-```
 
 El cuerpo anterior completo se conserva como prefijo exacto. La publicación se confirma mediante commit/readback de esta entrega; no repetir luego la adición.
 
@@ -334,17 +271,7 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 Viejo verificado una vez fuera de citas de propuestas, línea 138 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` support, validity limits and characterized assessment reserve (including confidence) | **DEFINED in Composition & Control v0.1** |
-~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
@@ -367,17 +294,7 @@ Viejo verificado una vez fuera de citas de propuestas, línea 138 de la fuente f
 
 ### Tabla de estado del README MSCA, fila Semantic/dependency/process structures
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-| Semantic/dependency/process structures inside `A_Cart`, qualified element-wise by `B_Cart` support, validity limits and characterized assessment reserve; confidence is one qualifier | **DEFINED in Composition & Control v0.1** |
-~~~~
 
 **Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio38 hecho y retirado de pendientes; se conserva el par completo.
 
@@ -387,3 +304,8 @@ Viejo verificado una vez fuera de citas de propuestas, línea 138 de la fuente f
 - **Aplicado:** Ola2 cambio8 / propuesta38.
 
 Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/standards/minimum-sufficient-control/README_VNext.md).

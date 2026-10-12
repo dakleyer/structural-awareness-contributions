@@ -62,19 +62,7 @@ La propuesta de ruta se registra también en la [VNext del README de baseline](.
 
 **Localización:** §2, encabezado único. **Fuente:** blob anterior. **Instrucción:** preparación autorizada por la revisión de Iván. **Tipo:** orientación añadida, sin cambio de tabla.
 
-**Texto antes:**
 
-```markdown
-## 2. Compact traceability
-```
-
-**Texto después:**
-
-```markdown
-## 2. Compact traceability
-
-Read each row as a research route: what the operation may contribute, which conditions it needs, and what it cannot establish. S1–S14 are specification obligations, T1–T4 are jointly constraining sufficiency conditions, and H1–H6 are hypotheses to test. M1–M4 are local shorthand for the four operations listed above; they are not a new canonical function family. The table does not report conformance.
-```
 
 **Efecto:** facilitar lectura sin cambiar S/T/H ni afirmar ejecución. **Dependencias:** ninguna redistribución; 04 y README reciben el límite de autoridad de esta ayuda. **Antes verificado:** una coincidencia. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
 
@@ -165,18 +153,11 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 **Razón:** Relaciona las cuatro operaciones con obligaciones, condiciones e hipótesis sin exigir al lector conocer las siglas.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-## 2. Compact traceability
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-## 2. Compact traceability
-
-Read each row as a research route from a proposed operation to its requirement, sufficiency condition and hypothesis. S1–S14 are specification obligations, T1–T4 are jointly constraining sufficiency conditions, and H1–H6 are hypotheses to test. M1–M4 label the four operations in this note. The table records proposed traceability; conformance is established by the corresponding evidence.
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/00M_A01_VNext.md).

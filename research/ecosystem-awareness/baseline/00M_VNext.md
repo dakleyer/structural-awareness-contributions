@@ -116,17 +116,7 @@ Todas se preparan bajo la instrucción de Iván de seguir el plan humano. La dec
 
 **Lugar:** oración única de §1 que alude al companion note.
 
-**Texto antes**
 
-```text
-This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in the companion note.
-```
-
-**Texto después**
-
-```markdown
-This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in [the companion note, 00N](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). Read 00N next for the functional question: when could these representations help a receiving decision, and which timing, authority and cost obligations still have to be met?
-```
 
 **Por qué:** la nota puede leerse sin pasar por el README. El enlace conserva la diferencia entre representación y funcionamiento. **Pendiente:** comprobar el lugar más claro para el siguiente paso en una edición de autor. No aplicado.
 
@@ -134,33 +124,13 @@ This vocabulary is specific to the present proposal; its connection to establish
 
 **Lugar:** §4.2, oración única sobre evidencia que no encaja en estados admitidos.
 
-**Texto antes**
 
-```text
-If the evidence fits no admitted state, that indicates inconsistency or model inadequacy, not certainty.
-```
-
-**Texto después**
-
-```text
-If the evidence fits no admitted state, that indicates inconsistency or model inadequacy, not certainty. For example, a model admitting only red and blue observations has no compatible state for a green observation. A conservative approximation may still retain one candidate answer; that does not make the answer supported. Before using a singleton approximation as a determination, the review must also justify that a compatible source state exists.
-```
 
 **Por qué:** hace visible una condición lógica ya presente, sin atribuir un algoritmo para decidir consistencia. **Pendiente:** revisar que el ejemplo no se lea como obligación de enumerar todos los estados. No aplicado.
 
 ### Facilitar el acceso a R4
 
-**Texto antes**
 
-```text
-- R4: https://www.tau.ac.il/~nogaa/PDFS/amsz4.pdf
-```
-
-**Texto después**
-
-```markdown
-- R4: [author-hosted full text](https://www.math.tau.ac.il/~nogaa/PDFS/amsz4.pdf); [journal publication record](https://cris.tau.ac.il/en/publications/the-space-complexity-of-approximating-the-frequency-moments/). Access checked 6 October 2026; the copy's internal date and the journal publication date should not be conflated.
-```
 
 **Por qué:** la ruta original no se abrió con la herramienta usada; la copia alternativa y el registro de publicación sí se localizaron. No se declara rota universalmente la ruta original ni se cambia bibliografía sin revisar la correspondencia. No aplicado.
 
@@ -386,17 +356,7 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 Viejo verificado una vez fuera de citas de propuestas, línea 203 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-If the evidence fits no admitted state, that indicates inconsistency or model inadequacy, not certainty.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-If the evidence fits no admitted state, that indicates inconsistency or model inadequacy, not certainty. For example, a model admitting only red and blue observations has no compatible state for a green observation. A conservative approximation may still retain one candidate answer; that does not make the answer supported.
-~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
@@ -419,17 +379,7 @@ If the evidence fits no admitted state, that indicates inconsistency or model in
 
 ### 00M §4.2, oración inicial del párrafo de inconsistencia
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-If the evidence fits no admitted state, that indicates inconsistency or model inadequacy, not certainty.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-Evidence that fits no admitted state indicates an inconsistency or an inadequate model. For example, a model admitting only red and blue observations cannot account for a green observation. A candidate answer retained by a conservative approximation needs a compatible source state to support it.
-~~~~
 
 **Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio8 hecho y retirado de pendientes; se conserva el par completo.
 
@@ -453,17 +403,7 @@ Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://gith
 
 **Razón:** Permite continuar de 00M a 00N y entender para qué sirve cada nota.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-This vocabulary is specific to the present proposal; its connection to established exploration–exploitation literature is discussed in the companion note.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-This vocabulary is specific to the present proposal. Its connection to exploration–exploitation literature is discussed in [the companion note, 00N](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), which examines how the representations can support a receiving decision under declared timing, authority and cost conditions.
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
@@ -480,18 +420,13 @@ This vocabulary is specific to the present proposal. Its connection to explorati
 
 **Razón:** Da un enlace primario comprobado y distingue la fecha de esta copia de otras ediciones.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-- R4: https://www.tau.ac.il/~nogaa/PDFS/amsz4.pdf
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-- R4: [author-hosted full text](https://www.math.tau.ac.il/~nogaa/PDFS/amsz4.pdf). Copy dated 22 February 2002; access checked 12 October 2026.
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
 **Fuente externa comprobada:** PDF alojado por el autor, portada de Alon/Matias/Szegedy con fecha22febrero2002. Lectura para comprobar identidad/ruta/edición el12octubre2026. La fecha de esa copia se indica como tal; la página de registro bibliográfico mostró una respuesta intermitente. Se propone sólo el enlace primario comprobado.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/00M_VNext.md).

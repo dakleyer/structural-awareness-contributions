@@ -62,17 +62,7 @@ El hallazgo de la referencia NIST en 01H se resuelve identificando en la auditor
 **Coste:** Cotejar la cabecera, tabla §4,00M §1 y receptores antes de decidir si la precisión mejora lectura; mantener versiones y no cambiar pruebas antiguas.
 **Orden/compatibilidad:** cotejar cabecera, tabla §4,00M §1 y 01D/Architecture; no alterar ArticleII ni tipos locales de pruebas. Decisión concreta pendiente; publicación de auditoría autorizada, incorporación no.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already the delivered functional result component of the canonical EA qualified position, interpreted for the declared producer, process, question, scope, capability and time. A claim or scope declaration can be part of that result, but does not define the whole A component.
-~~~~
 
 **Instrucciones de Iván:** preservar originales, unaVNext por unidad lógica, viejo completo, impacto/riesgo/esfuerzo y propuesta quirúrgica. Ningún cambio incorporado a la fuente por esta publicación; la decisión puede ser no modificarla.
 
@@ -110,17 +100,7 @@ Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [
 
 Viejo verificado una vez fuera de citas de propuestas, línea 49 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already the delivered functional result component of the canonical EA qualified position, interpreted for the declared producer, process, question, scope, capability and time. A claim or scope declaration can be part of that result, but does not define the whole A component.
-~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
@@ -143,17 +123,7 @@ The symbol **x** is deliberately used for a candidate control configuration. It 
 
 ### §2, párrafo de notación x frente a A
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The symbol **x** denotes a candidate control configuration. **A** denotes the functional result delivered by the declared producer and process for a specified question, scope, capability and time. A claim or scope declaration may be part of that result.
-~~~~
 
 **Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio72 hecho y retirado de pendientes; se conserva el par completo.
 
@@ -163,3 +133,8 @@ The symbol **x** denotes a candidate control configuration. **A** denotes the fu
 - **Aplicado:** Ola2 cambio7 / propuesta72.
 
 Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/01B_VNext.md).

@@ -521,29 +521,9 @@ No hay auditor externo adicional en esta pasada. Otro auditor debe citar estos I
 
 **Objeto:** este VNext, no la fuente congelada. **Hallazgo:** F001. **Preparación:** IVAN-20261006-START-SEQUENTIAL-AUDITS. Son dos cambios localizados únicos:
 
-**TEXTO ANTES**
 
-```markdown
-## Reference failure-scenario expansion — two scenarios to five
-```
 
-**TEXTO DESPUÉS**
 
-```markdown
-## Reference failure-scenario expansion — two scenarios to six
-```
-
-**TEXTO ANTES**
-
-```markdown
-The post-freeze corpus now adds three independent reference scenarios:
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-The post-freeze corpus now adds four distinct reference failure-scenario families:
-```
 
 **Razón:** el conjunto enumerado es G/H/I/J; «distinct» evita inferir independencia estadística a partir de nombres de escenarios. **Efecto:** aclaración editorial del registro. **Estado:** propuesto, no aplicado; las frases antiguas permanecen en el cuerpo y en la copia preservada.
 
@@ -814,33 +794,13 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 Viejo verificado una vez fuera de citas de propuestas, línea 90 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-## Reference failure-scenario expansion — two scenarios to five
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-## Reference failure-scenario expansion — two scenarios to six
-~~~~
 
 ### Pasaje 2 — Oración post-freeze
 
 Viejo verificado una vez fuera de citas de propuestas, línea 97 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-The post-freeze corpus now adds three independent reference scenarios:
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The post-freeze corpus now adds four distinct reference failure-scenario families:
-~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambios14/15 fuera de pendientes. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
@@ -850,3 +810,8 @@ The post-freeze corpus now adds four distinct reference failure-scenario familie
 - **Aplicado:** Ola2 cambio9 / propuesta14/15.
 
 Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).

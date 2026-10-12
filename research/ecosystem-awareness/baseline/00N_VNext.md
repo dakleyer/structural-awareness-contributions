@@ -98,49 +98,19 @@ Preparación autorizada por Iván al pedir que continúe el plan. No se aplican 
 
 ### Presentar el tamaño del contexto como una posibilidad condicionada
 
-**Texto antes — primera oración introductoria completa**
 
-```text
-EA investigates whether a small, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost.
-```
-
-**Texto después**
-
-```text
-EA investigates whether a task-relevant, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost. Its useful size, interpretation cost and sufficiency depend on the declared review question and source conditions; they are not established for every agentic exchange.
-```
 
 **Por qué:** preservar la idea y evitar que “small” se lea como una garantía universal de payload y costo. **Pendiente:** decidir si el añadido aporta claridad o repite demasiado los límites posteriores. No aplicado.
 
 ### Una ruta corta para el lector humano
 
-**Texto antes — oración única de la apertura**
 
-```text
-The A/B/C/D meanings are those of the preceding note; older shorthand elsewhere in the corpus is not an alternative definition for this argument.
-```
-
-**Texto después**
-
-```markdown
-The A/B/C/D meanings are those of the preceding note; older shorthand elsewhere in the corpus is not an alternative definition for this argument. For a concrete reading route, start with [the two “ready” signals in §3.6](#36-two-ready-signals-one-version-condition), then use the T1–T4 table to see what the informational mechanism could contribute and which response, timing and cost obligations remain separate.
-```
 
 **Por qué:** orientar sin mover ni eliminar la discusión científica. **Pendiente:** probar la ruta con un lector y comprobar el ancla antes de incorporar. No aplicado.
 
 ### Estado público de la nota
 
-**Texto antes**
 
-```text
-**Research note · v0.7 · 2 October 2026 · local draft for review.**
-```
-
-**Texto después**
-
-```text
-**Research note · v0.7 · 2 October 2026 · publicly available working draft for review; not an operational validation or a Requirements successor.**
-```
 
 **Por qué:** distinguir publicación de madurez. **Pendiente:** confirmar la denominación preferida por Iván como autor. No aplicado.
 
@@ -421,17 +391,7 @@ Esta evidencia no adopta 73, no demuestra sinergia universal ni cierra campañas
 
 Viejo verificado una vez fuera de citas de propuestas, línea 5 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-EA investigates whether a small, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-EA investigates whether a task-relevant, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost. Its useful size, interpretation cost and sufficiency depend on the declared review question and source conditions; they are not established for every agentic exchange.
-~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
@@ -452,17 +412,7 @@ EA investigates whether a task-relevant, qualified part of that context can surv
 
 ### Apertura, segunda oración del primer párrafo
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-EA investigates whether a small, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-EA investigates whether task-relevant, qualified context can be preserved in metadata and composed to identify a reason to reassess while a useful response remains possible. Useful size, interpretation cost and sufficiency are assessed for the declared review question and source conditions.
-~~~~
 
 **Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio11 hecho y retirado de pendientes; se conserva el par completo.
 
@@ -486,17 +436,7 @@ Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://gith
 
 **Razón:** Ofrece un caso concreto antes de volver a las condiciones T1–T4.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-The A/B/C/D meanings are those of the preceding note; older shorthand elsewhere in the corpus is not an alternative definition for this argument.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The A/B/C/D meanings are those of the preceding note. Start with [the two ready signals in §3.6](#36-two-ready-signals-one-version-condition), then use the T1–T4 table to connect the example with information quality, response, timing and cost conditions.
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
@@ -513,16 +453,11 @@ The A/B/C/D meanings are those of the preceding note. Start with [the two ready 
 
 **Razón:** El estado actual coincide con la publicación pública y conserva fecha y versión.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-**Research note · v0.7 · 2 October 2026 · local draft for review.**
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-**Research note · v0.7 · 2 October 2026 · publicly available working draft for review.**
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/00N_VNext.md).

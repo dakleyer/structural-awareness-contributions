@@ -122,20 +122,7 @@ Esta sección acumulará entradas identificadas y fechadas. Las respuestas citar
 
 **Tipo:** inserción de navegación al inicio. **Fuente:** ruta, commit y blob indicados en la cabecera. **Localización:** antes de la primera línea exacta `<div align="center">`. **Instrucción:** IVAN-20261006-EP-REVIEW-SETUP y corrección IVAN-20261006-VNEXT-NAME. **Hallazgos relacionados:** F002, F004 y F005.
 
-**TEXTO ANTES**
 
-```markdown
-<div align="center">
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-> [!NOTE]
-> **Review note · 6 October 2026 · navigation addition only.** The existing text below is preserved verbatim. Read the [corpus review procedure](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md) before proposing a change. This README has one [VNext audit and before/after workspace](./README_VNext.md), kept separate from the current canonical text. Audits and proposals do not change the canonical corpus; substantive changes require Iván's explicit instruction.
-
-<div align="center">
-```
 
 **Razón:** dar acceso humano al método y al único expediente de este documento. **Efecto semántico técnico:** ninguno; no se modifica ninguna afirmación existente. **Dependencias afectadas:** dos enlaces nuevos, este expediente y el procedimiento; DOCUMENT_CONTROL registra el blob resultante. **Comprobaciones:** igualdad exacta del cuerpo anterior, resolución de rutas nuevas, ninguna eliminación/alteración de líneas anteriores, diff limitado al alcance autorizado y ausencia de VNext duplicada.
 
@@ -1523,3 +1510,8 @@ Pares completos en [04](https://github.com/dakleyer/structural-awareness-contrib
 - **Ola4 hecha:** seis sustituciones coordinadas en04/05Ideal/05A, [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0).18/33 cerrados mediante el paquete publicado; los antes/después quedan como historia.
 
 Se verificaron los segmentos exteriores a cada sustitución, predecesoras auténticas, árboles completos y contenidos publicados. La ola adicional aclara00I existente y catálogoI/J manteniendo sus rutas y propietarios. Ningún archivo o expediente nuevo ni eliminación; fuentes de casos, código y resultados conservados. Las siguientes olas vuelven a su decisión de incorporación.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/architectural-contributions/ecosystem-positioning/README_VNext.md).

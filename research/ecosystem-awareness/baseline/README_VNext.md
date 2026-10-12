@@ -30,17 +30,7 @@ Primero se contrastarán las afirmaciones de prueba y evidencia con sus fuentes 
 
 **Preparación:** instrucción de Iván sobre lectura y relaciones dentro del README VNext. **Localización:** párrafo de ayudas visuales, único; fuente blob `1616dde3df4352d15288091b78f4d3b6315116c5`. **Tipo:** adición de ruta opcional; no cambia la ruta canónica ni crea otro nivel.
 
-**Texto antes:**
 
-```markdown
-[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.
-```
-
-**Texto después:**
-
-```markdown
-[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route. For an optional map of which obligations the four operations might help address, read [00M-A01, mechanism-to-requirements traceability](./00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md); it is a working aid, not a conformance result or a replacement for Requirements.
-```
 
 **Dependencias:** 00M/00N/00M-A01 y EP README VNext. **Antes verificado:** una coincidencia. **Decisión:** pendiente. **Incorporación:** no ejecutada. Las propuestas sobre las partes de UC-EA-03 y la copia vieja de 05A no están todavía adjudicadas.
 
@@ -96,24 +86,7 @@ Los originales sueltos, canon, código, datos, freezes y binarios no reciben cor
 
 **Fuente:** [índice propietario](README.md), blob `54ddcc0f33d25e3adb0591d006b8f741ff68b0d6`. **Instrucción de Iván:** enlazar trabajo adicional desde el último índice sin tocar los documentos sueltos. **Tipo:** solo navegación; no cambio de contenido técnico. La autorización del usuario cubre esta adición.
 
-**Texto antes — viejo (último párrafo, literal):**
 
-```markdown
-**Status:** a public working architecture and test programme. Publication, contributor discussion and an internal freeze do not establish adoption, deployed interoperability or completed comparative validation. Controlled Drive-revision/SHA parity for all public mirror artefacts remains open.
-```
-
-**Texto después — adición al final, manteniendo el viejo:**
-
-```markdown
-**Status:** a public working architecture and test programme. Publication, contributor discussion and an internal freeze do not establish adoption, deployed interoperability or completed comparative validation. Controlled Drive-revision/SHA parity for all public mirror artefacts remains open.
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-```
 
 El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.
 
@@ -172,26 +145,7 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 
 **Instrucción de Iván:** publicar auditoría y adiciones de navegación, conservando cuerpos. ImpactoMedio/riesgoBajo/esfuerzoBajo; adición autorizada de esta entrega, fuera de propuestas sustantivas pendientes. Fuente actual `e8e2c21f5cc90da6f19f3ba6b637d56e9a8b7c0c`, viejo único. No cambio de jerarquía/canon.
 
-**Texto antes — contexto viejo literal completo al final:**
 
-```markdown
-The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-```
-
-**Texto después — contexto conservado y adición completa:**
-
-```markdown
-The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-
----
-
-## Review workspace for the ACC participation source
-
-The [ACC participation review note](./01I_REVIEW_CARD.md) leads to the single VNext for01I and its relationships with the lineage profile, Role and MSCA Operation. The source remains preserved; the review does not turn this governance extension into an EA core, legal framework or validated collective effect.
-
-```
 
 El cuerpo anterior completo se conserva como prefijo exacto. La publicación se confirma mediante commit/readback de esta entrega; no repetir luego la adición.
 
@@ -248,28 +202,7 @@ La base cambió a`8757ba614c94f962206912d4896c119a18a924fa`. Se conservan todas 
 
 Se conserva el par inicial y se añade esta versión contra `8757ba614c94f962206912d4896c119a18a924fa`, blob `7ed07825cb83779afc83ca609fce12f145d808dc`; viejo único. Incorpora las fichas01I,01K y01J como navegación autorizada, sin editar sus fuentes o corregir las propuestas65/66.
 
-**Texto antes — contexto viejo literal completo:**
 
-```markdown
-The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-```
-
-**Texto después — contexto y adición completa:**
-
-```markdown
-The [additional-work reading catalogue](non-canonical/README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-
----
-
-## Review workspace for the ACC participation source
-
-The [ACC participation review note](./01I_REVIEW_CARD.md) leads to the single VNext for01I and its relationships with the lineage profile, Role and MSCA Operation. The source remains preserved; the review does not turn this governance extension into an EA core, legal framework or validated collective effect.
-
-The [Human Intelligence 01K review note](./01K_REVIEW_CARD.md) records its capacity-ledger review, and the [Signalling 01J review note](./01J_REVIEW_CARD.md) records the related partial boundary review. Original sources and their validation status remain preserved.
-
-```
 
 Preservación del cuerpo vigente como prefijo exacto, y confirmación posterior por commit/readback. No repetir la adición publicada.
 
@@ -380,16 +313,11 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 **Razón:** Conecta el índice con una tabla útil de operaciones y requisitos sin crear otro nivel de README.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route. Read [00M-A01, mechanism-to-requirements traceability](./00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md) for the proposed routes from the four operations to requirements, sufficiency conditions and test hypotheses.
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/README_VNext.md).

@@ -785,19 +785,7 @@ R01 does **not** fork Nelson's experiment contract. The intended composition is:
 **Localización:** What is executable now · párrafo de apertura.  
 **Tipo:** inserción propuesta.
 
-**TEXTO ANTES**
 
-```markdown
-The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-The recorded self-test is successful because each control produces its frozen expected outcome. In the v0.9 record, the positive and tied-optimum vectors return PASS; the connector-boundary, inadmissible-route and cost/deadline vectors return FAIL; the no-reference vector remains INCONCLUSIVE. These are intentional instrumentation outcomes, not six successful technology trials. See [SELFTEST_RECORD_v0.9](./SELFTEST_RECORD_v0.9.md).
-
-The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
-```
 
 **Razón y efecto semántico:** Impide leer el resultado global verde como éxito de toda tecnología o de todos los escenarios. Conserva la lista de funciones existente.
 
@@ -819,19 +807,7 @@ The current Stage-0 self-test is intentionally small and now reuses several cont
 **Localización:** Claim boundary · párrafo único final.  
 **Tipo:** inserción propuesta.
 
-**TEXTO ANTES**
 
-```markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-
-The two exact trajectory reference paths are separately coded by the same maintainer; their agreement is an implementation cross-check, not independent external validation. The additional exhaustive-versus-dynamic-programming DAG controls cover their declared finite, nonnegative conjunctive domain. They do not establish all R01 relational/parity profiles, collective dynamics, stochastic performance or real operational resource measurements. Those require separately scoped correspondence and review before campaign admission.
-```
 
 **Razón y efecto semántico:** Aclara la relación entre dos implementaciones, un contraste algorítmico y la cobertura completa de R01. No retira el soporte acotado ni presupone errores fuera del dominio.
 
@@ -856,19 +832,7 @@ Las propuestas 001–004 anteriores permanecen íntegramente como historia. Las 
 
 **Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Párrafo de estado, después del título. **Hallazgos:** Pasadas 1/3 y futura lectura humana; límites F001/F011/F012.
 
-**TEXTO ANTES**
 
-```markdown
-**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
-
-This instrument compares a recorded candidate choice or execution with the best admissible route in a small frozen world, under declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations.
-```
 
 **Razón y efecto:** Añade la pregunta que responde el instrumento antes de los términos C02/UC4/sidecar. No cambia su estado ni amplía evidencia.
 
@@ -904,29 +868,7 @@ Run locally from this directory:
 
 **Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Bloque Corpus reuse, cinco referencias planas. **Hallazgos:** Pasada 3; consecuencias de trazabilidad de F002/F003/F007.
 
-**TEXTO ANTES**
 
-```markdown
-Corpus reuse:
-
-- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md
-- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md
-- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md
-- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md
-- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-Corpus reuse:
-
-- [R01 scenario §§1.4, 2.6, 2.15–2.17](../Escenario-creatividad-validacion.md)
-- [Existing partial C3 oracle](../../../fixtures/00G-HF-ORACLE-v0.4/README.md)
-- [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
-- [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
-- [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
-```
 
 **Razón y efecto:** Conserva los cinco destinos y su orden; modifica únicamente el formato de enlace para que la fuente sea accesible.
 
@@ -1317,19 +1259,7 @@ Los datos y límites están en [EP VNext](../../../../../../architectural-contri
 
 Viejo verificado una vez fuera de citas de propuestas, línea 169 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-
-The reference implementations provide internal cross-checks over their declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. Their agreement does not establish independent validation or coverage of other R01 profiles. Any broader evaluation must first document the corresponding domain and evidence.
-~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
@@ -1350,17 +1280,7 @@ The reference implementations provide internal cross-checks over their declared 
 
 ### §Claim boundary, párrafo completo
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
-~~~~
 
 **Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio27 hecho y retirado de pendientes; se conserva el par completo.
 
@@ -1384,19 +1304,7 @@ Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://gith
 
 **Razón:** Explica por qué el self-test es correcto aunque sus controles produzcan PASS, FAIL e INCONCLUSIVE.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-The [v0.9 calibration record](./SELFTEST_RECORD_v0.9.md) has expected PASS outcomes for positive and tied-optimum controls, expected FAIL outcomes for connector-boundary, inadmissible-route and cost/deadline controls, and an expected INCONCLUSIVE outcome for the no-reference control. The self-test succeeds when each control returns its registered outcome.
-
-The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
@@ -1415,17 +1323,7 @@ The current Stage-0 self-test is intentionally small and now reuses several cont
 
 **Razón:** Explica entrada, comparación y condiciones antes de atribución y detalles técnicos.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-**Status: limited implementation with a successful Stage-0 instrumentation self-test · 5 October 2026.** This directory implements the C02 instrument slice for R01. It compares a recorded candidate choice or execution with the best admissible route in a frozen world, using declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations.
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
 
@@ -1442,28 +1340,11 @@ The current Stage-0 self-test is intentionally small and now reuses several cont
 
 **Razón:** El lector puede abrir directamente escenarios, métodos y trazas desde el oráculo.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-Corpus reuse:
-
-- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md
-- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md
-- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md
-- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md
-- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-Corpus reuse:
-
-- [R01 scenario §§1.4, 2.6, 2.15–2.17](../Escenario-creatividad-validacion.md)
-- [Existing partial C3 oracle](../../../fixtures/00G-HF-ORACLE-v0.4/README.md)
-- [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
-- [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
-- [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md).

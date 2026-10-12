@@ -505,17 +505,7 @@ Ninguna de estas consultas demuestra que no existan cambios posteriores en otros
 
 **Objeto:** este VNext§2.10. **Hallazgo:** F004. **Preparación:** IVAN-20261006-START-SEQUENTIAL-AUDITS. **Tipo:** precisión de evidencia/atribución; no cambio de datos ni source Theme21.
 
-**TEXTO ANTES**
 
-```markdown
-- **Released matched-rate/item-disagreement analysis:** **Current public empirical evidence about Theme #21 measurement behaviour**, with the stated no-ground-truth limitation.
-```
-
-**TEXTO DESPUÉS**
-
-```markdown
-- **Released matched-rate/item-disagreement analysis:** **Contributor-reported public analysis of Theme #21 measurement behaviour**, with the stated no-ground-truth and honest-judges limitations. Source consultation establishes the public report; independent reproduction of its data and code must be recorded separately and is not implied by this status.
-```
 
 **Efecto:** evitar que consulta se lea como reproducción independiente. **Dependencias:** evidence grades/E4 y futuro conformance test21. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
 
@@ -523,17 +513,7 @@ Ninguna de estas consultas demuestra que no existan cambios posteriores en otros
 
 **Objeto:** este VNext§7, único item1. **Hallazgo:** F006. **Tipo:** control del expediente de revisión; no payload comúnFG.
 
-**TEXTO ANTES**
 
-```text
-1. public source anchor;
-```
-
-**TEXTO DESPUÉS**
-
-```text
-1. public source anchor, consultation date/time and source revision identifier or content hash where available, with the exact source-native statement and scope relied upon;
-```
 
 **Razón:** mantener la vigencia reconstruible de comentarios editables. **Gate:** no inventar revisionId si proveedor no lo expone; registrar limitación y created/updated como metadatos, no como prueba absoluta de inmutabilidad. **Decisión:** pendiente. **Incorporación:** no ejecutada.
 
@@ -669,17 +649,7 @@ Los dos cambios actúan sobre cómo se interpreta y documenta evidencia: no modi
 
 **Ubicación:** §2.10, viñeta “Released matched-rate/item-disagreement analysis”. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Estado: aplicado el 12 de octubre de 2026 en `908fdc6c9372b533d1a383d490227333ce4756be`; fuera de pendientes.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-- **Released matched-rate/item-disagreement analysis:** **Current public empirical evidence about Theme #21 measurement behaviour**, with the stated no-ground-truth limitation.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-- **Released matched-rate/item-disagreement analysis:** **Contributor-reported public analysis of Theme #21 measurement behaviour**, with the stated no-ground-truth and honest-judges limitations. Source consultation establishes the public report; independent reproduction of its data and code must be recorded separately and is not implied by this status.
-~~~~
 
 **Por qué importa:** evita promover una consulta de cifras a reproducción independiente o corrección establecida. Conserva el hallazgo F004, los límites no-ground-truth/honest-judges y la propiedad de Theme21. El beneficio es epistemológico/documental, no una nueva validación empírica.
 
@@ -689,17 +659,7 @@ Los dos cambios actúan sobre cómo se interpreta y documenta evidencia: no modi
 
 **Ubicación:** §7, punto1 de “Minimum record”. **Impacto esperado Alto; riesgo Bajo; esfuerzo Medio; prioridad Primera.** El texto afecta un solo punto. El esfuerzo Medio de mantener evidencias por fila se conserva: una frase corta no realiza ese trabajo.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-1. public source anchor;
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-1. public source anchor, consultation date/time and source revision identifier or content hash where available, with the exact source-native statement and scope relied upon;
-~~~~
 
 **Por qué importa:** permite reconstruir qué comentario o edición mutable sostuvo una promoción Current, sin que una consulta parcial renueve todo el mapa. Completa F006; §7 ya exige estado fuente, scope, dueño, review y test, que permanecen.
 
@@ -731,17 +691,7 @@ Publicación comprobada: [908fdc6c9372b533d1a383d490227333ce4756be](https://gith
 
 Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`bdc9429143a4b500af334480d173966515bffa7f`, línea446. Viejo único fuera de citas.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-6. DBC, 00E–00I and 01I/ACC remain test/internal architecture sources unless independently supported by FG-TIDA public semantics.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-6. DBC, 00E–00J and 01I/ACC are internal architecture/test sources. Their use as FG-TIDA current-state evidence requires independently supported public FG-TIDA semantics.
-~~~~
 
 **Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** aplicada y verificada el 12 de octubre de 2026 en `dcdb42d9814f690a40e79c28ec7f5de0d98af8f0`. Cambios18/33 fuera de pendientes; pares y auditorías conservados.
 
@@ -749,3 +699,8 @@ Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`bdc9429143a4b500af334480d
 ## Cierre de Ola 4 — aplicado
 
 Los pasajes de este documento coinciden con el después publicado. El conjunto de seis sustituciones se aplicó en [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0). Se mantiene el ancla histórica de la ruta00I/UC6 y los tres documentos registran la misma incorporación.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).

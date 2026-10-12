@@ -111,24 +111,7 @@ Los originales sueltos, canon, código, datos, freezes y binarios no reciben cor
 
 **Fuente:** [índice propietario](minimalistic-early-warning-systems/README.md), blob `235f27142650f4adb48711648dbfe3652cd1eb38`. **Instrucción de Iván:** enlazar trabajo adicional desde el último índice sin tocar los documentos sueltos. **Tipo:** solo navegación; no cambio de contenido técnico. La autorización del usuario cubre esta adición.
 
-**Texto antes — viejo (último párrafo, literal):**
 
-```markdown
-**Claim status:** conditional theory and a test programme. Pointwise Non-Inferiority is a demanding action-design requirement for a declared admissible domain, not automatic real-world safety; practical context identification, economic value, H1–H3 performance and independent replication remain open.
-```
-
-**Texto después — adición al final, manteniendo el viejo:**
-
-```markdown
-**Claim status:** conditional theory and a test programme. Pointwise Non-Inferiority is a demanding action-design requirement for a declared admissible domain, not automatic real-world safety; practical context identification, economic value, H1–H3 performance and independent replication remain open.
-
----
-
-## Additional work and complementary reading
-
-The [additional-work reading catalogue](../ADDITIONAL_WORK_README.md) explains preserved drafts, context, review notes, auxiliary evidence and related files. It is an optional, non-canonical reading leaf linked from this technical index; the original documents retain their location and status.
-
-```
 
 El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.
 
@@ -246,3 +229,8 @@ Foundation §17.4 separa salida dinámica observable de invalidación del marco 
 §17.1 reserva Type 0 a un fundamento declarado; la alerta no es un certificado estructural por sí sola. La representación y el indicador deben conservar incertidumbre sobre su efecto. La comparación externa de Foundation no establece calibración del detector ni garantiza un horizonte útil.
 
 35/37/38 sobre B/C/D siguen pendientes con 01C/01D/Operation; esta relación no resuelve su semántica. No se elige postura, se mueve el programa o incorpora un candidato. Registrar ambas proposiciones y sus límites en el examen material pendiente; sexta global aún no lanzada.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/regime-awareness/README_VNext.md).

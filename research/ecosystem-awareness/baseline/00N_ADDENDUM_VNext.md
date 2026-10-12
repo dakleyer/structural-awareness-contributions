@@ -64,17 +64,7 @@ La dificultad principal es entrar por una versión antigua sin advertencia actua
 
 **Instrucción:** revisión continua de Iván. **Localización:** primer párrafo, coincidencia única. **Fuente:** blob auditado. **Tipo:** orientación añadida. El original está hash-identificado; cualquier incorporación futura necesita un successor autorizado.
 
-**Texto antes:**
 
-```markdown
-**Optional addendum · v0.1 · 2 October 2026 · local research draft.** Companion to [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). It identifies useful precedents and bounded research comparisons. It reports no EA experiment and adds no canonical requirements or hypotheses.
-```
-
-**Texto después:**
-
-```markdown
-**Optional addendum · v0.1 · 2 October 2026 · local research draft.** Companion to [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). These companion links preserve the versions used when this addendum was written; the current reading route is [00M v0.8](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), then [00N v0.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). It identifies useful precedents and bounded research comparisons. It reports no EA experiment and adds no canonical requirements or hypotheses.
-```
 
 **Efecto:** conservar procedencia y hacer visible la ruta actual. No reinterpreta resultados históricos. **Dependencias:** README de baseline y EP; 00M/00N. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
 
@@ -165,16 +155,11 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 **Razón:** Conserva las versiones usadas al escribir el addendum y añade la ruta actual de lectura.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-**Optional addendum · v0.1 · 2 October 2026 · local research draft.** Companion to [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). It identifies useful precedents and bounded research comparisons. It reports no EA experiment and adds no canonical requirements or hypotheses.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-**Optional addendum · v0.1 · 2 October 2026 · research draft.** Written alongside [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). Those links identify its source versions. The current reading route is [00M v0.8](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), then [00N v0.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). This addendum identifies research precedents and comparisons.
-~~~~
 
 **Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md).

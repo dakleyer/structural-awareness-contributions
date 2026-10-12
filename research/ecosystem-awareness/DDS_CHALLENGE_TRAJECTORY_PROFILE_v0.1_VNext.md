@@ -590,17 +590,7 @@ def require_na_rationale(result: dict[str, Any]) -> None:
 **Coste:** Conciliar reglas, recuperar/citar las épocas auténticas y mantener su disposición actual. Redactar una línea no devuelve por sí solo las auditorías retiradas.
 **Dependencias y orden:** Conservar estados de incorporación y decisiones actuales; no reaplicar incorporados ni reconstruir viejos de memoria. Decidir presentación histórica y restitución auténtica dentro de la única VNext.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-8. **No-zombie check:** once a proposed change is incorporated, remove it from this VNext; Git history is the archive.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-8. **Closed-proposal check:** once a proposed change is incorporated, mark it as incorporated with its source version, decision and evidence. Retain its original before/after text, audit discussion and dissent in this VNext, in a clearly dated historical section or collapsed block, so it is excluded from the pending queue without losing the review record. Git history remains additional custody.
-~~~~
 
 **Instrucciones de Iván:** una VNext por unidad, originals en lectura, conservar conversaciones y viejo completo. Auditoría publicable, incorporación pendiente de su decisión concreta. Contradicción documental confirmada; regla propuesta, recuperación de épocas pendiente
 
@@ -631,17 +621,7 @@ La frase del Index fechada el 7 de octubre sobre HF preparado no invalida las ej
 
 **Fuente vigente:** [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `5b8517185308f75f57b8ce2096360e27d760438a`, línea 5 en el corte citado. Viejo literal completo: una coincidencia; propuesto: ninguna. **Impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente; tanda 1, claridad de evidencia y estado.** Beneficio: distinguir al primer vistazo las tres etapas DDS de las dos fases de extensión dentro de A. El índice y el cuerpo ya contienen la distinción correcta; no se demuestra un fallo técnico por la ambigüedad.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-Extension-review clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal extension-review phases within DDS Stage A for any declared base. Their historical labels Stage1 and Stage2 identify those phases, not DDS Stage B/C or additional development stages. Their completion and evidence remain scoped.
-~~~~
 
 **Riesgo y coste concretos:** preservar Stage1/Stage2, §13.1 y sus anchors, contratos, versiones y resultados. El trabajo es una relectura/localización y custodia de un párrafo, con contraste Index §5/Stage A §6 y lector HC-HID; no requiere un nuevo test o expediente. **Dependencia/orden:** precisión documental separable de 74/75; no los resuelve. **Decisión de Iván:** pendiente sobre este pasaje exacto; candidato preparado para leer y decidir, no autorizado ni aplicado. Instrucción vigente: originales sólo en lectura y una VNext acumulativa. No se propone otro cambio canónico cuando el contexto actual ya mantiene la frontera.
 
@@ -674,17 +654,7 @@ La alternativa siguiente se limita a evitar retiradas futuras mediante una regla
 
 **Ubicación:** §5, regla8 del cuerpo anterior, fuera de las citas de propuestas. Viejo: una coincidencia en ese contexto; propuesto: ninguna. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Aplicado el 12 de octubre de 2026 en `908fdc6c9372b533d1a383d490227333ce4756be`; variante fuera de pendientes.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-8. **No-zombie check:** once a proposed change is incorporated, remove it from this VNext; Git history is the archive.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-8. **Closed-proposal check:** retain incorporated proposals, their before/after text, audit discussion and dissent as dated history in this VNext, with source version and decision; exclude them from the pending queue.
-~~~~
 
 **Beneficio concreto:** impedir que cerrar una propuesta elimine el viejo/nuevo, la discusión o el desacuerdo de la única VNext. Fecha, versión y decisión separan historia de pendientes. No hace falta otro índice o una VNext por auditoría.
 
@@ -717,17 +687,7 @@ La alternativa siguiente se limita a evitar retiradas futuras mediante una regla
 
 Viejo verificado una vez fuera de citas de propuestas, línea 5 de la fuente fijada.
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-Extension-review clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal extension-review phases within DDS Stage A for any declared base. Their historical labels Stage1 and Stage2 identify those phases, not DDS Stage B/C or additional development stages. Their completion and evidence remain scoped.
-~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
@@ -748,17 +708,7 @@ Extension-review clarification0.1.3: technology–problem extension/isomorphism 
 
 ### Nota Extension-stage clarification0.1.3 al principio
 
-**Texto antes — viejo literal completo**
 
-~~~~markdown
-Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
-~~~~
-
-**Texto después — propuesto completo**
-
-~~~~markdown
-Extension-review clarification0.1.3: DDS has three development stages: A, B and C. Technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal phases of Stage A, historically labelled Stage1 and Stage2. Completion and evidence are recorded for each declared base and scope.
-~~~~
 
 **Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio76 hecho y retirado de pendientes; se conserva el par completo.
 
@@ -771,3 +721,8 @@ Extension-review clarification0.1.3: DDS has three development stages: A, B and 
 Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
 
 Continúan por separado el checker74 y la recuperación histórica75. La regla futura75 y la precisión DDS76 ya están aplicadas.
+
+
+## Bloques aplicados retirados
+
+Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md).
