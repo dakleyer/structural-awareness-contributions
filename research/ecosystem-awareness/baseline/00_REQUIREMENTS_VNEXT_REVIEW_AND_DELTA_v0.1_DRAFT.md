@@ -517,16 +517,6 @@ No hay auditor externo adicional en esta pasada. Otro auditor debe citar estos I
 
 ## Propuestas quirúrgicas — REQ-R1, pendientes
 
-### REQ-R1-DELTA-001 — recuento interno de familias
-
-**Objeto:** este VNext, no la fuente congelada. **Hallazgo:** F001. **Preparación:** IVAN-20261006-START-SEQUENTIAL-AUDITS. Son dos cambios localizados únicos:
-
-
-
-
-
-**Razón:** el conjunto enumerado es G/H/I/J; «distinct» evita inferir independencia estadística a partir de nombres de escenarios. **Efecto:** aclaración editorial del registro. **Estado:** propuesto, no aplicado; las frases antiguas permanecen en el cuerpo y en la copia preservada.
-
 ### REQ-R1-DELTA-002 — CAND-R4, texto candidato para una futura edición
 
 **Objeto:** Requirements §2, celda S10; source blob `4fe3d69b50fef1e82ba7f889324b70a7f6b1a81c`. **Hallazgos:** F003/F004. **Tipo:** propuesta potencialmente material de precisión de la obligación; no clasificada todavía como mero cambio editorial. No aplicable en-place a la fuente congelada. **Instrucción:** autoriza preparar la auditoría/propuesta, no incorporarla.
@@ -580,37 +570,7 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
-| 14 · Corregir el total a seis familias de escenarios | Siguiente · 1 — Claridad de evidencia y estado | Medio | Bajo | Bajo | Pendiente de decisión |
-| 15 · Cuatro familias distintas sin afirmar independencia | Siguiente · 1 — Claridad de evidencia y estado | Medio | Bajo | Bajo | Pendiente de decisión |
 | 16 · Vincular la ejecución al estado recalificado | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
-
-### Cambio 14 — Corregir el total a seis familias de escenarios
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Hacer que el encabezado corresponda a la enumeración E–J.
-
-**Qué podría quedar desactualizado o afectado:** Corregir solo el título dejaría la frase de tres adicionales incoherente; emparejar con cambio 15.
-
-**Qué cuesta prepararlo:** Dos correcciones documentales conjuntas, sin cambiar Requirements congelado.
-
-**Dependencias conocidas:** [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Preparar junto con 15 y conservar el VNext anterior.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#req-r1-delta-001--recuento-interno-de-familias); el viejo tiene una coincidencia en [la fuente actual](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `a8ebfc8abe61fb569a658c722bcb714371f1693d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 15 — Cuatro familias distintas sin afirmar independencia
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Corregir el número G/H/I/J y evitar independencia estadística implícita.
-
-**Qué podría quedar desactualizado o afectado:** Usar independent como propiedad inferida de nombres exagera evidencia; hay que mantener coherencia con el cambio 14.
-
-**Qué cuesta prepararlo:** Una frase del registro y comprobación de la lista.
-
-**Dependencias conocidas:** [00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Decidir junto con 14; ningún nuevo requisito.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#req-r1-delta-001--recuento-interno-de-familias); el viejo tiene una coincidencia en [la fuente actual](00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `a8ebfc8abe61fb569a658c722bcb714371f1693d`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
 
 ### Cambio 16 — Vincular la ejecución al estado recalificado
 
@@ -651,28 +611,10 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
-| 14 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
-| 15 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
 | 16 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
 | 43 | Trabajo por concretar; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
 | 44 | Trabajo por concretar; Por concretar; sin par literal | Medio | Medio | Medio | Siguiente |
 | 45 | Trabajo por concretar; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
-
-**Cambio 14 — Documental preparado.** En el texto fuera de las citas hay un único título2→5 y cuatro familias nuevas00G–00J; la corrección a 2→6 es consistente con la lista.
-
-**Beneficio esperado:** Hacer que el encabezado corresponda a la enumeración E–J. **Riesgo concreto:** Corregir solo el título dejaría la frase de tres adicionales incoherente; emparejar con cambio 15. **Coste de preparar y mantener:** Dos correcciones documentales conjuntas, sin cambiar Requirements congelado.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Considerar14/15 juntos. Mantener el registro histórico de esta propuesta; no renumerar S/T/H ni inferir seis familias completamente auditadas. Revisar junto con 15. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 15 — Documental preparado.** «Adds three» contradice los cuatro escenarios listados. El número de familias no equivale a independencia estadística o auditoría externa.
-
-**Beneficio esperado:** Corregir el número G/H/I/J y evitar independencia estadística implícita. **Riesgo concreto:** Usar independent como propiedad inferida de nombres exagera evidencia; hay que mantener coherencia con el cambio 14. **Coste de preparar y mantener:** Una frase del registro y comprobación de la lista.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Cotejar00G–00J con 14 y mantener el significado de familias distintas; ninguna nueva obligación canónica. Revisar junto con 14. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 16 — Cambio acoplado; no listo.** La requalificación temporal necesita conexión al estado realmente usado. El párrafo solo expresa la obligación; no resuelve el binding técnico.
 
@@ -776,42 +718,26 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 <a id="ola2-cambio-09"></a>
 
-## Ola 2 — cambio 9: Requirements: seis escenarios y cuatro incorporaciones distintas
 
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 14 ycambio 15; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
 
-**Fuente actual:** [research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `84c56cbe086368f85b6121f4b998e27f52889e4a`. **Ubicación:** Reference failure-scenario expansion: título e introducción post-freeze.
+## Propuestas aplicadas retiradas
 
-**Justificación:** La lista enumera E–J, pero el título dice cinco y la introducción tres independent. Corrige la cuenta y distingue diversidad de escenarios de independencia experimental.
-
-**Impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
-
-**Riesgo concreto:** Un cambio de conteo no establece revisiones independientes. Conservar lista, IDs S/T/H y distinguir cuatro familias distintas de independencia experimental. **Coste:** Localización, sustitución y verificación del pasaje y sus referencias inmediatas.
-
-**Dependencias y aceptación:** E/F previos + G/H/I/J nuevos = seis; conservar las familias S/T/H y los nombres/rutas.
-
-### Pasaje 1 — Título Reference failure-scenario expansion
-
-Viejo verificado una vez fuera de citas de propuestas, línea 90 de la fuente fijada.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
 
 
 
-### Pasaje 2 — Oración post-freeze
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
 
-Viejo verificado una vez fuera de citas de propuestas, línea 97 de la fuente fijada.
+<a id="req-r1-delta-001--recuento-interno-de-familias"></a>
+<a id="cambio-14--corregir-el-total-a-seis-familias-de-escenarios"></a>
+<a id="cambio-15--cuatro-familias-distintas-sin-afirmar-independencia"></a>
+<a id="ola-2--cambio-9-requirements-seis-escenarios-y-cuatro-incorporaciones-distintas"></a>
+<a id="pasaje-1--título-reference-failure-scenario-expansion"></a>
+<a id="pasaje-2--oración-post-freeze"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="bloques-aplicados-retirados"></a>
 
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
 
-
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambios14/15 fuera de pendientes. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola2 cambio9 / propuesta14/15.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+</details>

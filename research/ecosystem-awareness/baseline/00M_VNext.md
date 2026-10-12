@@ -112,28 +112,6 @@ Quedan abiertos el contraste con lectores reales, las figuras/exportaciones, la 
 
 Todas se preparan bajo la instrucción de Iván de seguir el plan humano. La decisión de incorporarlas a 00M permanece pendiente; su fuente no se modifica.
 
-### Orientar la lectura y señalar el siguiente paso
-
-**Lugar:** oración única de §1 que alude al companion note.
-
-
-
-**Por qué:** la nota puede leerse sin pasar por el README. El enlace conserva la diferencia entre representación y funcionamiento. **Pendiente:** comprobar el lugar más claro para el siguiente paso en una edición de autor. No aplicado.
-
-### Un ejemplo que evita una falsa certeza
-
-**Lugar:** §4.2, oración única sobre evidencia que no encaja en estados admitidos.
-
-
-
-**Por qué:** hace visible una condición lógica ya presente, sin atribuir un algoritmo para decidir consistencia. **Pendiente:** revisar que el ejemplo no se lea como obligación de enumerar todos los estados. No aplicado.
-
-### Facilitar el acceso a R4
-
-
-
-**Por qué:** la ruta original no se abrió con la herramienta usada; la copia alternativa y el registro de publicación sí se localizaron. No se declara rota universalmente la ruta original ni se cambia bibliografía sin revisar la correspondencia. No aplicado.
-
 ## Referencia de la fuente revisada
 
 Fuente: commit `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`, blob `c97353991117f63983feba24bf8344cf52e9f1e7`, versión v0.8. Se usa ficha externa porque el registro de publicación conserva hashes de 00M/00N. El texto canónico y esos hashes permanecen intactos. Esta referencia técnica identifica la revisión; no reemplaza las explicaciones anteriores.
@@ -191,56 +169,6 @@ Los hallazgos concretos se comentarán aquí y en las VNext de los documentos re
 
 El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
 
-| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
-|---|---|---|---|---|---|
-| 7 · Dar un siguiente paso de 00M a 00N | Después · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
-| 8 · Ejemplo de evidencia incompatible y falsa certeza | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
-| 9 · Acceso alternativo a la referencia R4 | Después · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
-
-### Cambio 7 — Dar un siguiente paso de 00M a 00N
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Después.** Facilitar lectura independiente sin confundir representación y funcionamiento.
-
-**Qué podría quedar desactualizado o afectado:** El enlace versionado puede quedar viejo cuando cambie la ruta 00N; un enlace nuevo dentro de 00M afecta un payload identificado.
-
-**Qué cuesta prepararlo:** Texto corto y comprobar ruta/versión; la vía de incorporación debe conservar la edición anterior.
-
-**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Ficha externa o successor que preserve el original identificado.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00M_VNext.md#orientar-la-lectura-y-señalar-el-siguiente-paso); el viejo tiene una coincidencia en [la fuente actual](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 8 — Ejemplo de evidencia incompatible y falsa certeza
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Mostrar que una aproximación singleton no demuestra que exista un estado compatible.
-
-**Qué podría quedar desactualizado o afectado:** Podría leerse como obligación de enumerar todos los estados o confundir consistencia con completitud; afecta el significado que lectores y pruebas reutilizan.
-
-**Qué cuesta prepararlo:** Revisión lógica del ejemplo y correspondencia con premisas, manteniendo la edición 00M previa.
-
-**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md) · [00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md](00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Confirmar que el ejemplo solo aclara una condición; conservar payload identificado.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00M_VNext.md#un-ejemplo-que-evita-una-falsa-certeza); el viejo tiene una coincidencia en [la fuente actual](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 9 — Acceso alternativo a la referencia R4
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Después.** Hacer accesible el paper y distinguir copia y registro de publicación.
-
-**Qué podría quedar desactualizado o afectado:** Una URL externa o edición puede cambiar; el fallo de acceso de una herramienta no prueba que la URL original esté rota para todos.
-
-**Qué cuesta prepararlo:** Comprobar identidad/edición y acceso cuando se decida; no reproducir la prueba.
-
-**Dependencias conocidas:** [00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Conservar cita original/historia y la fecha de consulta; ficha o successor.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00M_VNext.md#facilitar-el-acceso-a-r4); el viejo tiene una coincidencia en [la fuente actual](00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
 
 ## Recepción de 01J y significado de D — contraste cruzado
 
@@ -257,35 +185,6 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 
 La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
 
-| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
-|---|---|---|---|---|---|
-| 7 | Documental condicionado; Pendiente de decisión | Medio | Bajo | Bajo | Después |
-| 8 | Aclaración opcional; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
-| 9 | Documental condicionado; Pendiente de decisión | Medio | Bajo | Bajo | Después |
-
-**Cambio 7 — Documental condicionado.** La ruta a 00N mejora lectura, no demuestra nueva utilidad ni cierraH06. El párrafo viejo sigue localizado.
-
-**Beneficio esperado:** Facilitar lectura independiente sin confundir representación y funcionamiento. **Riesgo concreto:** El enlace versionado puede quedar viejo cuando cambie la ruta 00N; un enlace nuevo dentro de 00M afecta un payload identificado. **Coste de preparar y mantener:** Texto corto y comprobar ruta/versión; la vía de incorporación debe conservar la edición anterior.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Destino00N correcto y opcional; conservar versión/hash de 00M y decidir una futura edición, sin cambiar la nota identificada. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 8 — Aclaración opcional.** La fuente ya exige un estado compatible no vacío. El ejemplo enseña esa condición; no corrige una inferencia matemática que antes fuera universalmente falsa.
-
-**Beneficio esperado:** Mostrar que una aproximación singleton no demuestra que exista un estado compatible. **Riesgo concreto:** Podría leerse como obligación de enumerar todos los estados o confundir consistencia con completitud; afecta el significado que lectores y pruebas reutilizan. **Coste de preparar y mantener:** Revisión lógica del ejemplo y correspondencia con premisas, manteniendo la edición 00M previa.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Verificar las tres respuestas y que la aproximación conservadora no prueba existencia. Considerar si el ejemplo agrega valor suficiente frente a longitud; original identificado preservado. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 9 — Documental condicionado.** El enlace alternativo puede mejorar acceso. Un fallo de recuperación anterior no prueba que la URL original esté rota para todos.
-
-**Beneficio esperado:** Hacer accesible el paper y distinguir copia y registro de publicación. **Riesgo concreto:** Una URL externa o edición puede cambiar; el fallo de acceso de una herramienta no prueba que la URL original esté rota para todos. **Coste de preparar y mantener:** Comprobar identidad/edición y acceso cuando se decida; no reproducir la prueba.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Confirmar URL/edición primaria y atribución antes de una futura edición; no presentar inaccesibilidad puntual como defecto científico. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
@@ -338,95 +237,35 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 <a id="ola2-cambio-10"></a>
 
-## Ola 2 — cambio 10: Una respuesta única puede seguir sin respaldo
 
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 8; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
 
-**Fuente actual:** [research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`. **Ubicación:** 00M §4.2, oración inicial del párrafo de inconsistencia.
+## Propuestas aplicadas retiradas
 
-**Justificación:** Un ejemplo junto a la inferencia matemática permite entender por qué un singleton aproximado no demuestra que exista un estado fuente compatible.
-
-**Impacto esperado Medio; riesgo Medio; esfuerzo Medio; prioridad Siguiente.**
-
-**Riesgo concreto:** El ejemplo podría confundirse con una obligación de enumerar estados. Es una explicación del soporte vacío; conserva la demostración y el método de aproximación. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
-
-**Dependencias y aceptación:** Ejemplo de soporte vacío consistente con la aproximación conservadora; mantener el párrafo posterior y la derivación formal.
-
-### 00M §4.2, oración inicial del párrafo de inconsistencia
-
-Viejo verificado una vez fuera de citas de propuestas, línea 203 de la fuente fijada.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00M_VNext.md).
 
 
 
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
 
-**Relaciones conciliadas:** este ejemplo aclara §4.2 y conserva su premisa; 01B cambio72 remite a §1 para no reducir A a scope/claim, y MSCA cambio38 resume B conforme a Composition §3.2. Los propietarios 01B y MSCA registran sus pares en esta entrega. La apertura de 00N cambio11 mantiene pregunta/coste/suficiencia por perfil; el ejemplo no demuestra ahorro de contexto.
-
-
----
-
+<a id="orientar-la-lectura-y-señalar-el-siguiente-paso"></a>
+<a id="un-ejemplo-que-evita-una-falsa-certeza"></a>
+<a id="facilitar-el-acceso-a-r4"></a>
+<a id="cambio-7--dar-un-siguiente-paso-de-00m-a-00n"></a>
+<a id="cambio-8--ejemplo-de-evidencia-incompatible-y-falsa-certeza"></a>
+<a id="cambio-9--acceso-alternativo-a-la-referencia-r4"></a>
+<a id="ola-2--cambio-10-una-respuesta-única-puede-seguir-sin-respaldo"></a>
+<a id="00m-42-oración-inicial-del-párrafo-de-inconsistencia"></a>
+<a id="ola-2--redacción-directa-del-cambio-10"></a>
+<a id="00m-42-oración-inicial-del-párrafo-de-inconsistencia-1"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="ola-3--cambio-2-enlazar-la-pregunta-matemática-con-la-funcional"></a>
+<a id="ola-3--cambio-3-acceso-directo-a-la-fuente-primaria-r4"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-redaccion-10"></a>
-
-## Ola 2 — redacción directa del cambio 10
-
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 8; la anterior queda como antecedente.
-
-**Propósito:** Un ejemplo junto a la inferencia matemática permite entender por qué un singleton aproximado no demuestra que exista un estado fuente compatible.
-
-**Impacto Medio · Riesgo Medio · Esfuerzo Medio · Prioridad Siguiente.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`.
-
-### 00M §4.2, oración inicial del párrafo de inconsistencia
-
-
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio8 hecho y retirado de pendientes; se conserva el par completo.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola2 cambio10 / propuesta8.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-
----
-
 <a id="ola3-cambio-02"></a>
-
-## Ola 3 — cambio 2: Enlazar la pregunta matemática con la funcional
-
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente7 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `9fcdb8df36aba2e5cceac36564bc5bf12ab70fe8`. **Ubicación:** §1, frase de companion note; línea25, viejo localizado una vez fuera de quotes.
-
-**Razón:** Permite continuar de 00M a 00N y entender para qué sirve cada nota.
-
-
-
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-
----
-
 <a id="ola3-cambio-03"></a>
 
-## Ola 3 — cambio 3: Acceso directo a la fuente primaria R4
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00M_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente9 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `9fcdb8df36aba2e5cceac36564bc5bf12ab70fe8`. **Ubicación:** Lista de referencias, R4; línea295, viejo localizado una vez fuera de quotes.
-
-**Razón:** Da un enlace primario comprobado y distingue la fecha de esta copia de otras ediciones.
-
-
-
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-**Fuente externa comprobada:** PDF alojado por el autor, portada de Alon/Matias/Szegedy con fecha22febrero2002. Lectura para comprobar identidad/ruta/edición el12octubre2026. La fecha de esa copia se indica como tal; la página de registro bibliográfico mostró una respuesta intermitente. Se propone sólo el enlace primario comprobado.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/00M_VNext.md).
+</details>

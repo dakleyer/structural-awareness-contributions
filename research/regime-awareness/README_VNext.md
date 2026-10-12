@@ -107,17 +107,6 @@ El [plan 1.10](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#trabajo-fu
 
 Los originales sueltos, canon, código, datos, freezes y binarios no reciben correcciones. Estar en el catálogo no altera autoridad. La lectura es de orientación y organización; no sustituye las cinco pasadas de una fuente vigente ni una dependencia material del argumento.
 
-### Adición de navegación — texto viejo y después completo
-
-**Fuente:** [índice propietario](minimalistic-early-warning-systems/README.md), blob `235f27142650f4adb48711648dbfe3652cd1eb38`. **Instrucción de Iván:** enlazar trabajo adicional desde el último índice sin tocar los documentos sueltos. **Tipo:** solo navegación; no cambio de contenido técnico. La autorización del usuario cubre esta adición.
-
-
-
-El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.
-
-
----
-
 ## Prioridades del plan de cambios — revisión del corte
 
 **Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
@@ -127,7 +116,6 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
 | 35 · Conciliar los cuatro roles RA en su README | Primera · 2 — Coherencia entre RA, EA y MSCA | Alto | Alto | Medio | Pendiente de decisión |
-| 36 · Acceso a trabajo adicional desde EWS | Histórico · Histórico | Medio | Bajo | No nuevo | Ya publicado |
 
 ### Cambio 35 — Conciliar los cuatro roles RA en su README
 
@@ -142,23 +130,6 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 **Estado y condición:** Pendiente de decisión. Conciliar contrato y consumidores. Decidir con 37/38 y correspondencia 17; no renombrar payload ni autoridad.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#propuesta-antesdespués--conciliación-del-resumen-pendiente); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `f021454aeb8359da468dbe4a2725851cce9c4d01`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 36 — Acceso a trabajo adicional desde EWS
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: No nuevo. Prioridad: Histórico.** Separar contexto/revisión adicional de detector validado.
-
-**Qué podría quedar desactualizado o afectado:** Duplicar el enlace ya publicado crea otra ruta aparente.
-
-**Qué cuesta prepararlo:** Ya publicado y verificado; solo mantener vínculo.
-
-**Dependencias conocidas:** [ADDITIONAL_WORK_README.md](ADDITIONAL_WORK_README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#adición-de-navegación--texto-viejo-y-después-completo); el viejo tiene una coincidencia en [la fuente actual](minimalistic-early-warning-systems/README.md), blob `8e24a311bb7c7a89a29df15909961e6ecf6967f1`. El bloque añadido está presente; no se repite la ejecución.
-
-
----
 
 ## Continuación de 01C — payloads y separación de propietarios
 
@@ -196,7 +167,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
 | 35 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Medio | Primera |
-| 36 | Ya publicado; Ya publicado | Medio | Bajo | No nuevo | Histórico |
 
 **Cambio 35 — Cambio acoplado; no listo.** El resumenRA atribuyeC a capacidad caracterizada yD aunknown residual; no conserva las definiciones de 00M/01C. Debe corregirse con receptores.
 
@@ -205,14 +175,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
 
 **Condición y orden de decisión:** Cotejo35/37/38 más 01C/01D/Composition/01J: reserva evaluable→B, exploración fundada→C, barrera efectiva→D y clasificación incierta→UNKNOWN; ninguna API nueva. Revisar junto con 17, 37, 38, 68, 69, 70. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 36 — Ya publicado.** Separar contexto/revisión adicional de detector validado.
-
-**Beneficio esperado:** Separar contexto/revisión adicional de detector validado. **Riesgo concreto:** Duplicar el enlace ya publicado crea otra ruta aparente. **Coste de preparar y mantener:** Ya publicado y verificado; solo mantener vínculo.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** No volver a ejecutar. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
@@ -231,6 +193,19 @@ Foundation §17.4 separa salida dinámica observable de invalidación del marco 
 35/37/38 sobre B/C/D siguen pendientes con 01C/01D/Operation; esta relación no resuelve su semántica. No se elige postura, se mueve el programa o incorpora un candidato. Registrar ambas proposiciones y sus límites en el examen material pendiente; sexta global aún no lanzada.
 
 
-## Bloques aplicados retirados
+## Propuestas aplicadas retiradas
 
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/regime-awareness/README_VNext.md).
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/regime-awareness/README_VNext.md).
+
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="adición-de-navegación--texto-viejo-y-después-completo"></a>
+<a id="cambio-36--acceso-a-trabajo-adicional-desde-ews"></a>
+<a id="bloques-aplicados-retirados"></a>
+
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/regime-awareness/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
+
+</details>

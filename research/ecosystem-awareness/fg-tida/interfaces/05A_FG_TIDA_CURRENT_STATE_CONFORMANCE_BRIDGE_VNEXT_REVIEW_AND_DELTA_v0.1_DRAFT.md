@@ -501,22 +501,6 @@ Ninguna de estas consultas demuestra que no existan cambios posteriores en otros
 
 ## Propuestas quirúrgicas — IF05A-R1, pendientes
 
-### IF05A-R1-DELTA-001 — precisión de la evidencia numérica
-
-**Objeto:** este VNext§2.10. **Hallazgo:** F004. **Preparación:** IVAN-20261006-START-SEQUENTIAL-AUDITS. **Tipo:** precisión de evidencia/atribución; no cambio de datos ni source Theme21.
-
-
-
-**Efecto:** evitar que consulta se lea como reproducción independiente. **Dependencias:** evidence grades/E4 y futuro conformance test21. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
-### IF05A-R1-DELTA-002 — fecha/revisión de fuente en la ficha de promoción
-
-**Objeto:** este VNext§7, único item1. **Hallazgo:** F006. **Tipo:** control del expediente de revisión; no payload comúnFG.
-
-
-
-**Razón:** mantener la vigencia reconstruible de comentarios editables. **Gate:** no inventar revisionId si proveedor no lo expone; registrar limitación y created/updated como metadatos, no como prueba absoluta de inmutabilidad. **Decisión:** pendiente. **Incorporación:** no ejecutada.
-
 ### Cobertura restante
 
 Auditoría de primera pasada; varias rowsCurrent sin reconstrucción completa y attachments/datasets pendientes. No promoción del bridge, universal schema, adoption ni eficacia deEA.
@@ -569,41 +553,6 @@ Los hallazgos concretos se comentarán aquí y en las VNext de los documentos re
 
 El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
 
-| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
-|---|---|---|---|---|---|
-| 31 · Reporte Theme21 distinto de reproducción propia | Primera · 1 — Claridad de evidencia y estado | Alto | Bajo | Bajo | Pendiente de decisión |
-| 32 · Fecha y versión de fuente para promociones 05A | Primera · 1 — Claridad de evidencia y estado | Alto | Bajo | Bajo | Pendiente de decisión |
-
-### Cambio 31 — Reporte Theme21 distinto de reproducción propia
-
-**Impacto esperado: Alto. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Primera.** Que consulta de cifras no se lea como validación independiente del dataset.
-
-**Qué podría quedar desactualizado o afectado:** Un reporte puede ser editado o corregido después; la precisión debe conservar el corte y honest-judges/no-ground-truth.
-
-**Qué cuesta prepararlo:** Una frase de la VNext y cotejo del reporte fijado; no reproducir dataset.
-
-**Dependencias conocidas:** [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Fechar evidencia y conservar nivel contributor-reported/E4.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05a-r1-delta-001--precisión-de-la-evidencia-numérica); el viejo tiene una coincidencia en [la fuente actual](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `814e9843e237f42b3e1fe26db0a4d3ad41fe2a9c`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 32 — Fecha y versión de fuente para promociones 05A
-
-**Impacto esperado: Alto. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Primera.** Hacer reconstructible qué fuente mutable sustentó una relación Current.
-
-**Qué podría quedar desactualizado o afectado:** Si no hay revisionId, inventarlo falsearía procedencia; una fecha no garantiza inmutabilidad.
-
-**Qué cuesta prepararlo:** Una regla de ficha y aplicación futura por fila, sin nuevo campo de payload.
-
-**Dependencias conocidas:** [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Registrar limitación si proveedor no ofrece pin; no renovar todo Current por una consulta parcial.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05a-r1-delta-002--fecharevisión-de-fuente-en-la-ficha-de-promoción); el viejo tiene una coincidencia en [la fuente actual](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `814e9843e237f42b3e1fe26db0a4d3ad41fe2a9c`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
 
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
@@ -611,26 +560,6 @@ El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prio
 
 La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
 
-| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
-|---|---|---|---|---|---|
-| 31 | Documental preparado; Pendiente de decisión | Alto | Bajo | Bajo | Primera |
-| 32 | Documental preparado; Pendiente de decisión | Alto | Bajo | Medio | Primera |
-
-**Cambio 31 — Documental preparado.** Las tasas deTheme21 son reporte de contributor con límites no-ground-truth/honest-judges. El cambio evita llamar reproducción independiente a esa lectura.
-
-**Beneficio esperado:** Que consulta de cifras no se lea como validación independiente del dataset. **Riesgo concreto:** Un reporte puede ser editado o corregido después; la precisión debe conservar el corte y honest-judges/no-ground-truth. **Coste de preparar y mantener:** Una frase de la VNext y cotejo del reporte fijado; no reproducir dataset.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Mantener autor/fecha/edición de los anchors ya consultados; si se pide estado externo actual, comprobar posteriores antes de afirmarlo. No recalcular dataset. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 32 — Documental preparado.** El registro Current necesita fecha y revisión identificable para poder reconstruir qué fue leído. La plantilla no prueba que todas las filas ya tengan soporte.
-
-**Beneficio esperado:** Hacer reconstructible qué fuente mutable sustentó una relación Current. **Riesgo concreto:** Si no hay revisionId, inventarlo falsearía procedencia; una fecha no garantiza inmutabilidad. **Coste de preparar y mantener:** Una regla de ficha y aplicación futura por fila, sin nuevo campo de payload.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Completar anchors por fila con fecha y revision/hash disponible; si no existe pin, declararlo sin inventarlo. Mantener estados de autor/revisión/adopción separados. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
@@ -643,64 +572,29 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 Los dos cambios actúan sobre cómo se interpreta y documenta evidencia: no modifican el bridge canónico del 19 de septiembre, cifras, payloads, semánticas del productor o estados institucionales. Cada viejo aparece una vez en su sección de trabajo; las repeticiones dentro de los antiguos pares no cuentan como aplicación. Los propuestos no están incorporados en esas secciones.
 
-## Plan de cambios al final — primera tanda textual
+## Propuestas aplicadas retiradas
 
-### 31 — Una viñeta: reporte del contribuyente, no reproducción independiente
-
-**Ubicación:** §2.10, viñeta “Released matched-rate/item-disagreement analysis”. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Estado: aplicado el 12 de octubre de 2026 en `908fdc6c9372b533d1a383d490227333ce4756be`; fuera de pendientes.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
 
 
 
-**Por qué importa:** evita promover una consulta de cifras a reproducción independiente o corrección establecida. Conserva el hallazgo F004, los límites no-ground-truth/honest-judges y la propiedad de Theme21. El beneficio es epistemológico/documental, no una nueva validación empírica.
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
 
-**Riesgo y esfuerzo:** una viñeta, sin recalcular cifras ni tocar datos. Mantener el corte y atribución del reporte; no afirmar ausencia mundial de reproducciones posteriores. **Dependencias/aceptación:** §2.10, F004 y §7; el lector debe reconocer autoría, alcance y qué evidencia falta. 05 Ideal mantiene su diferencia población/decisión; no requiere cambiar sus contratos por esta precisión. **Iván:** go concedido; este pasaje está aplicado en `908fdc6c9372b533d1a383d490227333ce4756be`.
-
-### 32 — Un punto de lista: fecha y edición de la fuente
-
-**Ubicación:** §7, punto1 de “Minimum record”. **Impacto esperado Alto; riesgo Bajo; esfuerzo Medio; prioridad Primera.** El texto afecta un solo punto. El esfuerzo Medio de mantener evidencias por fila se conserva: una frase corta no realiza ese trabajo.
-
-
-
-**Por qué importa:** permite reconstruir qué comentario o edición mutable sostuvo una promoción Current, sin que una consulta parcial renueve todo el mapa. Completa F006; §7 ya exige estado fuente, scope, dueño, review y test, que permanecen.
-
-**Riesgo y coste:** no inventar revisionId o hash; donde no existe pin, dejar explícita la limitación. Registrar una fecha no hace inmutable la fuente. Revisión/mantenimiento por fila sigue siendo trabajo real y posterior; no se añade un campo a un payload común. **Dependencias/aceptación:** fuente/fecha/revisión o limitación visibles para la relación examinada; 05A conserva el filtro estrecho frente a 05 Ideal. **Iván:** go concedido; este punto está aplicado en `908fdc6c9372b533d1a383d490227333ce4756be`. El mantenimiento de evidencia por fila continúa como trabajo separado.
-
-**Orden y alcance de esta tanda:** 31 y32 son decisiones separables; leerlas juntas para que el reporte tenga alcance y edición, sin convertirlas en revisión de todo FG-TIDA. Los pares anteriores se conservan literalmente; éstos son la revalidación actual al final del expediente, con los mismos IDs. [Visión conjunta](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026). Originales sólo en lectura; sin nuevos resultados, cambios canónicos o cierre de pasadas pendientes.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola1 cambios31/32.
-
-Publicación comprobada: [908fdc6c9372b533d1a383d490227333ce4756be](https://github.com/dakleyer/structural-awareness-contributions/commit/908fdc6c9372b533d1a383d490227333ce4756be). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-
----
-
+<a id="if05a-r1-delta-001--precisión-de-la-evidencia-numérica"></a>
+<a id="if05a-r1-delta-002--fecharevisión-de-fuente-en-la-ficha-de-promoción"></a>
+<a id="cambio-31--reporte-theme21-distinto-de-reproducción-propia"></a>
+<a id="cambio-32--fecha-y-versión-de-fuente-para-promociones-05a"></a>
+<a id="plan-de-cambios-al-final--primera-tanda-textual"></a>
+<a id="31--una-viñeta-reporte-del-contribuyente-no-reproducción-independiente"></a>
+<a id="32--un-punto-de-lista-fecha-y-edición-de-la-fuente"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="ola-4--coherencia-de-escenarios-internos-y-rutas-de-interfaces"></a>
+<a id="pasaje-6--8-punto6-de-current-determination"></a>
+<a id="cierre-de-ola-4--aplicado"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola4-integracion-00i-00j"></a>
 
-## Ola 4 — coherencia de escenarios internos y rutas de interfaces
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
 
-**12 octubre2026.** Iván autoriza preparar y aplicar una ola adicional fuera de DDS. Paquete conjunto de los cambios18/33: seis sustituciones en tres espacios de trabajo existentes. **Impacto Medio, riesgo Medio, esfuerzo Medio, prioridad Primera.**
-
-**Razón:**04/05 contienen referencias futuras o ausencia de00I que contradicen el enlace existente de05§6 y05A§6.2. El catálogo interno y su resumen se amplían deE–H/E–I aE–J conforme a Requirements; cada ruta conserva su dueño. El riesgo es desalinear referencias entre los tres documentos; el paquete se verifica completo y mantiene el ancla histórica del encabezado.
-
-**Fuentes leídas:**00I Freeze Edition blob`9478116e0e7d1ce6d875312f13b52e83cb3685c8`;00J Draft blob`17616f2495ccfc08828fed49d4f566f718e67eee`;Requirements y05A como receptores. Se consultó identidad, estado y alcance pertinentes; los originales de escenarios no se editan.
-
-### Pasaje 6 — §8, punto6 de current determination
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`bdc9429143a4b500af334480d173966515bffa7f`, línea446. Viejo único fuera de citas.
-
-
-
-**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** aplicada y verificada el 12 de octubre de 2026 en `dcdb42d9814f690a40e79c28ec7f5de0d98af8f0`. Cambios18/33 fuera de pendientes; pares y auditorías conservados.
-
-
-## Cierre de Ola 4 — aplicado
-
-Los pasajes de este documento coinciden con el después publicado. El conjunto de seis sustituciones se aplicó en [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0). Se mantiene el ancla histórica de la ruta00I/UC6 y los tres documentos registran la misma incorporación.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+</details>

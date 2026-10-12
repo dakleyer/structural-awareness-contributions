@@ -96,24 +96,6 @@ La revisión de 00N sigue abierta. Que tres pasadas textuales tengan registros n
 
 Preparación autorizada por Iván al pedir que continúe el plan. No se aplican a la fuente v0.7 ni a Requirements.
 
-### Presentar el tamaño del contexto como una posibilidad condicionada
-
-
-
-**Por qué:** preservar la idea y evitar que “small” se lea como una garantía universal de payload y costo. **Pendiente:** decidir si el añadido aporta claridad o repite demasiado los límites posteriores. No aplicado.
-
-### Una ruta corta para el lector humano
-
-
-
-**Por qué:** orientar sin mover ni eliminar la discusión científica. **Pendiente:** probar la ruta con un lector y comprobar el ancla antes de incorporar. No aplicado.
-
-### Estado público de la nota
-
-
-
-**Por qué:** distinguir publicación de madurez. **Pendiente:** confirmar la denominación preferida por Iván como autor. No aplicado.
-
 ## Referencia técnica breve
 
 Fuente v0.7, commit `2f72751fef47d9f4cf1d270a1f7fa498a26f5760`, blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. El registro de publicación conserva el hash del authored payload; por eso esta revisión se enlaza mediante ficha externa y conserva el original intacto.
@@ -234,52 +216,7 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
-| 11 · Condicionar el tamaño y coste del contexto útil | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
-| 12 · Ruta corta de lectura en 00N | Después · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
-| 13 · Publicación de 00N distinta de madurez | Siguiente · 1 — Claridad de evidencia y estado | Medio | Bajo | Bajo | Pendiente de decisión |
 | 42 · Justificar medida de información antes de usar sinergia | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Medio | Pendiente de decisión |
-
-### Cambio 11 — Condicionar el tamaño y coste del contexto útil
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Evitar que small se lea como garantía universal de metadatos pequeños y baratos.
-
-**Qué podría quedar desactualizado o afectado:** Cambiar una frase sin conciliar métricas, README y comparaciones deja una promesa de coste implícita en otros lugares.
-
-**Qué cuesta prepararlo:** Revisión de alcance en 00N y consumidores de la afirmación; no se conoce coste operativo universal.
-
-**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md) · [00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Preservar fuente identificada; mantener tamaño, interpretación y suficiencia como preguntas condicionadas.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 12 — Ruta corta de lectura en 00N
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Después.** Orientar desde el ejemplo de dos ready signals hacia T1–T4.
-
-**Qué podría quedar desactualizado o afectado:** Ancla o sección puede cambiar; una ruta didáctica no sustituye límites ni prueba de utilidad.
-
-**Qué cuesta prepararlo:** Una frase, comprobación de ancla y lectura simulada indicada como tal.
-
-**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Ficha externa o successor; conservar fuente y comprobar #36-two-ready-signals-one-version-condition.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#una-ruta-corta-para-el-lector-humano); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 13 — Publicación de 00N distinta de madurez
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Que local draft no oculte que el documento ya es público, sin afirmar validación.
-
-**Qué podría quedar desactualizado o afectado:** Confundir publicación con Requirements successor o registro operativo; alterar encabezado de payload fijado.
-
-**Qué cuesta prepararlo:** Una etiqueta de estado con decisión editorial del autor.
-
-**Dependencias conocidas:** [00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Preparar ficha o successor preservando fuente. Registrar preferencia de Iván y conservar la edición anterior.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](00N_VNext.md#estado-público-de-la-nota); el viejo tiene una coincidencia en [la fuente actual](00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
 
 ### Cambio 42 — Justificar medida de información antes de usar sinergia
 
@@ -306,34 +243,7 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
-| 11 | Bien sustentado; condicionado; Pendiente de decisión | Alto | Medio | Medio | Primera |
-| 12 | Aclaración opcional; Pendiente de decisión | Medio | Bajo | Bajo | Después |
-| 13 | Documental condicionado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
 | 42 | Aclaración opcional; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
-
-**Cambio 11 — Bien sustentado; condicionado.** «Small» puede prometer economía que el argumento condiciona. La sustitución prioriza distinciones relevantes y coste total, coherente con los límites de 00M/00N.
-
-**Beneficio esperado:** Evitar que small se lea como garantía universal de metadatos pequeños y baratos. **Riesgo concreto:** Cambiar una frase sin conciliar métricas, README y comparaciones deja una promesa de coste implícita en otros lugares. **Coste de preparar y mantener:** Revisión de alcance en 00N y consumidores de la afirmación; no se conoce coste operativo universal.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Leer la apertura con§ §3/4: tamaño, tiempo, acceso y carga no se vuelven garantías. Conservar original identificado; no cerrar evidencia operacional. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 12 — Aclaración opcional.** Adelantar la ruta al ejemplo facilita comprensión; no es necesario duplicarlo ni reordenar capítulos.
-
-**Beneficio esperado:** Orientar desde el ejemplo de dos ready signals hacia T1–T4. **Riesgo concreto:** Ancla o sección puede cambiar; una ruta didáctica no sustituye límites ni prueba de utilidad. **Coste de preparar y mantener:** Una frase, comprobación de ancla y lectura simulada indicada como tal.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** El ancla del caso ready resuelve y se mantiene la regla de compatibilidad; conservar edición identificada y ruta opcional. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 13 — Documental condicionado.** Aclarar accesibilidad pública frente a procedencia local no asciende madurez ni convierte la nota en resultado validado.
-
-**Beneficio esperado:** Que local draft no oculte que el documento ya es público, sin afirmar validación. **Riesgo concreto:** Confundir publicación con Requirements successor o registro operativo; alterar encabezado de payload fijado. **Coste de preparar y mantener:** Una etiqueta de estado con decisión editorial del autor.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Conservar fecha/procedencia y la reserva de investigación; decisión de edición futura del original identificado. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 42 — Aclaración opcional.** 00N ya advierte que no hay medida universal. La cita alternativa apoya esa reserva; no repara una medida operacional implementada.
 
@@ -373,91 +283,35 @@ Esta evidencia no adopta 73, no demuestra sinergia universal ni cierra campañas
 
 <a id="ola2-cambio-02"></a>
 
-## Ola 2 — cambio 2: Contexto útil y coste: quitar la promesa implícita de «pequeño»
 
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 11; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
 
-**Fuente actual:** [research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`. **Ubicación:** Apertura, segunda oración del primer párrafo.
+## Propuestas aplicadas retiradas
 
-**Justificación:** La apertura debe prometer contexto pertinente, no un tamaño o coste universal. Permite contrastar la propuesta con límites reales de lectura, tiempo y capacidad.
-
-**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
-
-**Riesgo concreto:** Los resúmenes y comparadores podrían conservar una expectativa de coste pequeño; esta sustitución delimita la apertura sin medir costes ni cambiar T4. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
-
-**Dependencias y aceptación:** §§3/4 mantienen suficiencia por pregunta y T4; no cambiar cifras, experimentos o condiciones matemáticas.
-
-### Apertura, segunda oración del primer párrafo
-
-Viejo verificado una vez fuera de citas de propuestas, línea 5 de la fuente fijada.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00N_VNext.md).
 
 
 
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
 
-
----
-
+<a id="presentar-el-tamaño-del-contexto-como-una-posibilidad-condicionada"></a>
+<a id="una-ruta-corta-para-el-lector-humano"></a>
+<a id="estado-público-de-la-nota"></a>
+<a id="cambio-11--condicionar-el-tamaño-y-coste-del-contexto-útil"></a>
+<a id="cambio-12--ruta-corta-de-lectura-en-00n"></a>
+<a id="cambio-13--publicación-de-00n-distinta-de-madurez"></a>
+<a id="ola-2--cambio-2-contexto-útil-y-coste-quitar-la-promesa-implícita-de-pequeño"></a>
+<a id="apertura-segunda-oración-del-primer-párrafo"></a>
+<a id="ola-2--redacción-directa-del-cambio-2"></a>
+<a id="apertura-segunda-oración-del-primer-párrafo-1"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="ola-3--cambio-5-entrada-por-el-ejemplo-de-dos-señales-ready"></a>
+<a id="ola-3--cambio-6-estado-de-publicación-claro"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-redaccion-02"></a>
-
-## Ola 2 — redacción directa del cambio 2
-
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 11; la anterior queda como antecedente.
-
-**Propósito:** La apertura debe prometer contexto pertinente, no un tamaño o coste universal. Permite contrastar la propuesta con límites reales de lectura, tiempo y capacidad.
-
-**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`.
-
-### Apertura, segunda oración del primer párrafo
-
-
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio11 hecho y retirado de pendientes; se conserva el par completo.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola2 cambio2 / propuesta11.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-
----
-
 <a id="ola3-cambio-05"></a>
-
-## Ola 3 — cambio 5: Entrada por el ejemplo de dos señales ready
-
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente12 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `1e130611b0447df3e5ba02dbc9b77e2d9938889c`. **Ubicación:** Apertura, frase de significado A/B/C/D; línea15, viejo localizado una vez fuera de quotes.
-
-**Razón:** Ofrece un caso concreto antes de volver a las condiciones T1–T4.
-
-
-
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-
----
-
 <a id="ola3-cambio-06"></a>
 
-## Ola 3 — cambio 6: Estado de publicación claro
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/00N_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente13 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `1e130611b0447df3e5ba02dbc9b77e2d9938889c`. **Ubicación:** Línea Research note; línea11, viejo localizado una vez fuera de quotes.
-
-**Razón:** El estado actual coincide con la publicación pública y conserva fecha y versión.
-
-
-
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/00N_VNext.md).
+</details>

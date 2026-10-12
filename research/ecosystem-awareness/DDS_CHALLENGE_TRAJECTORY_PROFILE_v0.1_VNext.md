@@ -111,7 +111,7 @@ Any future Stage A change should pass all of these:
 5. **Conservation check:** no frozen result, hash, theorem or historical evidence is strengthened or erased.
 6. **Coverage check:** a Simplified Stage A profile declares selected and omitted surfaces.
 7. **Handoff check:** any Stage B-ready result identifies a sufficiently frozen Stage A specification package.
-8. **Closed-proposal check:** retain incorporated proposals, their before/after text, audit discussion and dissent as dated history in this VNext, with source version and decision; exclude them from the pending queue.
+8. **Closed-proposal check:** retire fully applied proposal fiches from this active VNext after preserving the exact predecessor and application decision in Git history. Keep substantive audit discussion, dissent and unresolved proposals visible.
 
 ## 6. Current decision
 
@@ -163,129 +163,9 @@ No canonical v0.1 gate semantics are changed by this VNext entry.
 
 **Immutable predecessor:** [v0.2 checker](./gate-diagnostic/check_gate_profile_v0.2.py) blob `0aa51e7b050123c4a09967a5fae52bf290b6c8a5`, unchanged.
 
-### TEXTO ANTES — existing v0.2 rule (complete affected validation passage)
-
-```python
-            raise ContractError(f"invalid_required_min_level:{gid}:{row.get('required_min_level')}")
-        if not isinstance(row.get("required_for_profile"), bool):
-            raise ContractError(f"required_for_profile_must_be_boolean:{gid}")
-        if row.get("applicability") == "NOT_APPLICABLE" and row.get("own_verdict") != "NOT_APPLICABLE":
-            raise ContractError(f"na_applicability_requires_na_verdict:{gid}")
-        if row.get("applicability") == "APPLICABLE" and row.get("own_verdict") == "NOT_APPLICABLE":
-            raise ContractError(f"applicable_gate_cannot_have_na_verdict:{gid}")
-        if row.get("required_for_profile") and row.get("applicability") != "APPLICABLE":
-            raise ContractError(f"required_gate_must_be_applicable:{gid}")
-        if row.get("test_role") == "DISCRIMINATING":
-            fail_cases = row.get("fail_capable_case_ids", [])
-            if not isinstance(fail_cases, list) or not fail_cases:
-                raise ContractError(f"discriminating_gate_requires_fail_capable_case:{gid}")
-        rows[gid] = deepcopy(row)
-
-    missing = sorted(set(gates) - set(rows))
-    if missing:
-        raise ContractError("missing_gate_rows:" + ",".join(missing))
-
-    required_claims = result.get("profile", {}).get("required_named_claims", [])
-    known_claims = set(catalog.get("named_claims", {}))
-```
 
 In this passage, N/A is checked for enum/verdict consistency but `applicability_rationale` is not checked.
 
-### TEXTO DESPUÉS — successor candidate (complete new source)
-
-The original v0.2 file has **not** been replaced. The proposed rule lives in a separately versioned, explicitly non-canonical successor.
-
-```python
-#!/usr/bin/env python3
-"""Proposed DDS Stage A v0.3 checker successor for audit T06.
-
-Preserves frozen v0.2 untouched. Adds a result-row completeness check:
-NOT_APPLICABLE requires a nonempty, human-readable applicability rationale.
-This checks existence of a reason, not that it was preregistered or true.
-NOT a promoted or independently accepted DDS instrument.
-"""
-from __future__ import annotations
-
-import argparse
-import importlib.util
-import json
-import sys
-from pathlib import Path
-from typing import Any
-
-FROZEN_BASE = Path(__file__).with_name("check_gate_profile_v0.2.py")
-
-
-class ApplicabilityContractError(ValueError):
-    """New v0.3 result-admission condition failed."""
-
-
-def require_na_rationale(result: dict[str, Any]) -> None:
-    """Enforce per-row NA rationale presence before running frozen v0.2.
-
-    Whether a reason predates the inspected outcomes remains a separate
-    preregistration and reviewer obligation.
-    """
-    for position, row in enumerate(result.get("gates", [])):
-        if not isinstance(row, dict):
-            raise ApplicabilityContractError(f"non_object_gate_row:{position}")
-        if (row.get("applicability") == "NOT_APPLICABLE"
-                or row.get("own_verdict") == "NOT_APPLICABLE"):
-            rationale = row.get("applicability_rationale")
-            if not isinstance(rationale, str) or not rationale.strip():
-                gid = row.get("gate_id", f"row-{position}")
-                raise ApplicabilityContractError(
-                    f"not_applicable_requires_rationale:{gid}"
-                )
-
-
-def load_frozen_checker():
-    """Load the original source file without editing it."""
-    spec = importlib.util.spec_from_file_location("dds_stage_a_checker_v02", FROZEN_BASE)
-    if spec is None or spec.loader is None:
-        raise RuntimeError("frozen_v02_checker_unavailable")
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    return module
-
-
-def compile_successor(catalog: dict[str, Any], result: dict[str, Any]) -> dict[str, Any]:
-    require_na_rationale(result)
-    base = load_frozen_checker()
-    compiled = base.compile_result(catalog, result)
-    compiled["diagnostic_checker_successor"] = {
-        "revision": "v0.3-audit-candidate",
-        "additional_control": "T06-not-applicable-rationale-present",
-        "pre_registration_verified": False,
-        "independent_review_status": "NOT_ESTABLISHED",
-        "stage_b_or_c_validation": "NOT_ESTABLISHED",
-    }
-    return compiled
-
-
-def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("catalog")
-    parser.add_argument("result")
-    parser.add_argument("--output")
-    args = parser.parse_args()
-    try:
-        catalog = json.loads(Path(args.catalog).read_text(encoding="utf-8"))
-        result = json.loads(Path(args.result).read_text(encoding="utf-8"))
-        payload = json.dumps(compile_successor(catalog, result), indent=2, ensure_ascii=False) + "\n"
-        if args.output:
-            Path(args.output).write_text(payload, encoding="utf-8")
-        else:
-            sys.stdout.write(payload)
-        return 0
-    except (ApplicabilityContractError, ValueError, OSError, ImportError, RuntimeError) as exc:
-        print(f"ERROR: {exc}", file=sys.stderr)
-        return 2
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
-```
 
 **Source pin:** [proposed v0.3 checker](./gate-diagnostic/check_gate_profile_v0.3_audit_candidate.py), blob `97430b0cd933f080a31bc3118d6871f7256c61ed` and [commit](https://github.com/dakleyer/structural-awareness-contributions/commit/f76c732d8dafd72263df1fca4fd39a8fe6f1576f).
 
@@ -305,128 +185,14 @@ if __name__ == "__main__":
 
 **Old checker blob:** `97430b0cd933f080a31bc3118d6871f7256c61ed` (v0.3 T06 predecessor). **New checker blob:** `69c3bafe024d99a534ba8896ef12e0ba277ab8f6`, [commit](https://github.com/dakleyer/structural-awareness-contributions/commit/9393375a5a459ca9c55fd4acb81fff2cd7676990).
 
-### TEXTO ANTES — original module description
 
-```python
-"""Proposed DDS Stage A v0.3 checker successor for audit T06.
-
-Preserves frozen v0.2 untouched. Adds a result-row completeness check:
-NOT_APPLICABLE requires a nonempty, human-readable applicability rationale.
-This checks existence of a reason, not that it was preregistered or true.
-NOT a promoted or independently accepted DDS instrument.
-"""
-```
-
-### TEXTO DESPUÉS — published module description
-
-```python
-"""Proposed DDS Stage A v0.3 checker successor for audit T05 and T06.
-
-Preserves frozen v0.2 unchanged. T06 checks that every NOT_APPLICABLE
-result provides a nonblank rationale (not its preregistration). T05 projects
-Stage A declaration separately from Stage B realization/runtime assurance
-for runtime-named claims. A Stage A pass is not runtime verification.
-This remains an unadmitted audit candidate, not an independently accepted
-instrument or a Stage B/C implementation result.
-"""
-```
 
 ### TEXTO ANTES — insertion location after `load_frozen_checker()`
 
 **No cross-stage projection function existed** between `load_frozen_checker()` and `compile_successor()`.
 
-### TEXTO DESPUÉS — full new cross-stage projection function
 
-```python
-def project_cross_stage_claims(compiled: dict[str, Any], catalog: dict[str, Any]) -> None:
-    """Separate Stage A declaration from runtime assurance in named claims.
 
-    Preserve v0.2's Stage A profile_outcome. Its authoritative reference is
-    the frozen Challenge/specification, not a Stage B/C execution trace.
-    Never trust participant-supplied Stage B status in a Stage A result.
-    """
-    catalog_claims = catalog.get("named_claims", {})
-    runtime_named = (
-        "CLAIM-RUNTIME-ENFORCEABILITY",
-        "CLAIM-TRACEABLE-DISPOSITION-TO-ENFORCEMENT",
-    )
-    for name in runtime_named:
-        if name in catalog_claims and not catalog_claims[name].get(
-                "stage_b_required_for_runtime_claim"):
-            raise RuntimeError(f"stage_b_requirement_missing_for:{name}")
-
-    projected = []
-    for claim in compiled.get("named_claims", []):
-        name = claim.get("claim")
-        source_claim = catalog_claims.get(name, {})
-        if not source_claim.get("stage_b_required_for_runtime_claim", False):
-            continue
-        stage_a = claim["status"]
-        claim["stage_a_declaration_status"] = stage_a
-        claim["stage_b_realization_status"] = "NOT_ESTABLISHED"
-        claim["runtime_assurance_status"] = "NOT_ESTABLISHED"
-        claim["claim_scope"] = "STAGE_A_DECLARATION_ONLY"
-        claim["runtime_assurance_note"] = (
-            "Stage A evaluates the declared rule, not Stage B architecture "
-            "realization or observed Stage C effects."
-        )
-        # A consumer inspecting only 'status' can no longer mistake a
-        # Stage A declaration PASS for runtime enforcement verification.
-        if stage_a == "PASS":
-            claim["status"] = "CONDITIONAL_ON(STAGE_B_VERIFICATION)"
-        elif stage_a.startswith("FAIL"):
-            claim["status"] = stage_a
-        else:
-            claim["status"] = (
-                "CONDITIONAL_ON(STAGE_A_DECLARATION,STAGE_B_VERIFICATION)"
-            )
-        projected.append(name)
-
-    summary = compiled.setdefault("summary", {})
-    summary["profile_outcome_scope"] = "DDS_STAGE_A_ONLY"
-    summary["stage_b_realization_status"] = "NOT_ESTABLISHED"
-    summary["runtime_assurance_status"] = "NOT_ESTABLISHED"
-    summary["cross_stage_claims_projected"] = sorted(projected)
-```
-
-### TEXTO ANTES — complete previous `compile_successor`
-
-```python
-def compile_successor(catalog: dict[str, Any], result: dict[str, Any]) -> dict[str, Any]:
-    require_na_rationale(result)
-    base = load_frozen_checker()
-    compiled = base.compile_result(catalog, result)
-    compiled["diagnostic_checker_successor"] = {
-        "revision": "v0.3-audit-candidate",
-        "additional_control": "T06-not-applicable-rationale-present",
-        "pre_registration_verified": False,
-        "independent_review_status": "NOT_ESTABLISHED",
-        "stage_b_or_c_validation": "NOT_ESTABLISHED",
-    }
-    return compiled
-```
-
-### TEXTO DESPUÉS — complete published `compile_successor`
-
-```python
-def compile_successor(catalog: dict[str, Any], result: dict[str, Any]) -> dict[str, Any]:
-    require_na_rationale(result)
-    base = load_frozen_checker()
-    compiled = base.compile_result(catalog, result)
-    project_cross_stage_claims(compiled, catalog)
-    compiled["diagnostic_checker_successor"] = {
-        "revision": "v0.3-audit-candidate",
-        "additional_control": "T06-not-applicable-rationale-present",
-        "additional_controls": [
-            "T05-stage-a-declaration-versus-stage-b-runtime-claim-projection",
-            "T06-not-applicable-rationale-present",
-        ],
-        "pre_registration_verified": False,
-        "independent_review_status": "NOT_ESTABLISHED",
-        "stage_b_or_c_validation": "NOT_ESTABLISHED",
-    }
-    return compiled
-```
 
 ### Regression source and five-phase record
 
@@ -591,7 +357,6 @@ def require_na_rationale(result: dict[str, Any]) -> None:
 **Dependencias y orden:** Conservar estados de incorporación y decisiones actuales; no reaplicar incorporados ni reconstruir viejos de memoria. Decidir presentación histórica y restitución auténtica dentro de la única VNext.
 
 
-
 **Instrucciones de Iván:** una VNext por unidad, originals en lectura, conservar conversaciones y viejo completo. Auditoría publicable, incorporación pendiente de su decisión concreta. Contradicción documental confirmada; regla propuesta, recuperación de épocas pendiente
 
 
@@ -617,17 +382,6 @@ La frase del Index fechada el 7 de octubre sobre HF preparado no invalida las ej
 
 **74** sigue siendo una propuesta de admisión booleana del futuro checker: el código publicado no cambió desde el corte anterior, no se reprodujo aquí el contraejemplo y no se invalidan retrospectivamente resultados. **75** sigue identificando pérdida de historia visible frente a la instrucción de conservación; T04 exige preservar desacuerdos pero no devuelve por sí mismo lo retirado. T05/T06 mantienen autoría, independencia no establecida y replay completo pendiente. No se reabre su incorporación como si no hubiera sucedido, ni se declara cierre de T03/T04 o de las cinco/sexta científicas.
 
-### Cambio 76 — precisión de la primera nota de Stage A
-
-**Fuente vigente:** [Stage A](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `5b8517185308f75f57b8ce2096360e27d760438a`, línea 5 en el corte citado. Viejo literal completo: una coincidencia; propuesto: ninguna. **Impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente; tanda 1, claridad de evidencia y estado.** Beneficio: distinguir al primer vistazo las tres etapas DDS de las dos fases de extensión dentro de A. El índice y el cuerpo ya contienen la distinción correcta; no se demuestra un fallo técnico por la ambigüedad.
-
-
-
-**Riesgo y coste concretos:** preservar Stage1/Stage2, §13.1 y sus anchors, contratos, versiones y resultados. El trabajo es una relectura/localización y custodia de un párrafo, con contraste Index §5/Stage A §6 y lector HC-HID; no requiere un nuevo test o expediente. **Dependencia/orden:** precisión documental separable de 74/75; no los resuelve. **Decisión de Iván:** pendiente sobre este pasaje exacto; candidato preparado para leer y decidir, no autorizado ni aplicado. Instrucción vigente: originales sólo en lectura y una VNext acumulativa. No se propone otro cambio canónico cuando el contexto actual ya mantiene la frontera.
-
-
----
-
 ## Registro de aportaciones y frontera del método — 12 octubre 2026
 
 **Codex, mismo asistente; nuevo corte `f437c95cce3645a05ba45f52f521f6b9692e0aa7`.** Tras la publicación del cotejo anterior entró el [registro de veinte aportaciones potenciales](./DDS_POTENTIAL_CONTRIBUTIONS_REGISTER_v0.1.md), leído completo. El Index incorpora un banner de ruta hacia él; Index anterior recuperable por su snapshot y por retirada exacta del único banner. A/B/C, checker, catálogo, resultados y requisitos no cambiaron en ese merge.
@@ -650,83 +404,11 @@ P1/P2/P3 son prioridad de desarrollo, no DDS Stage ni autorización de ejecució
 
 La alternativa siguiente se limita a evitar retiradas futuras mediante una regla. No recupera las propuestas ya retiradas, no convierte un antecedente reconstruido en auténtico, no reabre lo incorporado y no cierra75/T04. Es una variante del75, no un nuevo hallazgo ni otro expediente. Su impacto Alto corresponde a preservar evidencia visible para revisiones y decisiones futuras; su riesgo Bajo corresponde exclusivamente a ese alcance documental.
 
-## Plan de cambios al final — variante textual del 75
-
-**Ubicación:** §5, regla8 del cuerpo anterior, fuera de las citas de propuestas. Viejo: una coincidencia en ese contexto; propuesto: ninguna. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Aplicado el 12 de octubre de 2026 en `908fdc6c9372b533d1a383d490227333ce4756be`; variante fuera de pendientes.
 
 
+## Propuestas aplicadas retiradas
 
-**Beneficio concreto:** impedir que cerrar una propuesta elimine el viejo/nuevo, la discusión o el desacuerdo de la única VNext. Fecha, versión y decisión separan historia de pendientes. No hace falta otro índice o una VNext por auditoría.
-
-**Riesgo concreto:** la regla es prospectiva; no declara recuperadas las conversaciones antiguas ni altera el estado de una incorporación. Las notas fechadas sobre retiradas pasadas conservan su significado histórico. **Coste:** cotejo de una regla con conservación del procedimiento y T04, custodia y lectura de vuelta; restauración/adjudicación histórica sigue en el75 completo con riesgo/esfuerzo Medio.
-
-**Compatibilidad y orden:** esta variante y el75 amplio reemplazan la misma regla: escoger una redacción, no aplicar dos reemplazos. Decidir esta variante no descarta el trabajo histórico pendiente. No modifica Stage A, Stage B/C, checkers, pruebas, hashes o resultados. **Instrucción de Iván:** conservar originales y conversaciones, una VNext por unidad y viejo completo visible. **Decisión:** Iván aprobó y se incorporó esta regla en `908fdc6c9372b533d1a383d490227333ce4756be`. La recuperación histórica del75 mantiene su trabajo separado por concretar.
-
-**Fuera de esta tanda:** 74 necesita el sucesor/contrato y comprobaciones prospectivas; 75 histórico necesita custodia auténtica. Los tres SHA256/README requieren identificar épocas; no se corrigen hashes para simular conservación. Las siete réplicas conservan propietario/custodia y no se borran. Los resultados HF contrarios siguen válidos dentro de su scope. 76 es claridad de impacto Medio, riesgo Bajo; se conserva pero no se eleva artificialmente a Alto. [Primera tanda conjunta](../../architectural-contributions/ecosystem-positioning/README_VNext.md#primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026).
-
-
----
-
-<a id="ola2-cambio-06"></a>
-
-## Ola 2 — cambio 6: DDS: tres etapas y dos fases internas de Stage A
-
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 76; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
-
-**Fuente actual:** [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `5b8517185308f75f57b8ce2096360e27d760438a`. **Ubicación:** Nota Extension-stage clarification0.1.3 al principio.
-
-**Justificación:** La primera nota llama etapas DDS a dos fases internas. La corrección la alinea con el índice y evita que el lector infiera cinco etapas.
-
-**Impacto esperado Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
-
-**Riesgo concreto:** Mantener Stage1/Stage2, rutas y contenido técnico. Cambiar sólo la nota inicial no altera las etapas, obligaciones o resultados. **Coste:** Localización, sustitución y verificación del pasaje y sus referencias inmediatas.
-
-**Dependencias y aceptación:** Index §5 y Stage A §§6/13.1; conservar nombres históricos Stage1/Stage2 e identificadores.
-
-### Nota Extension-stage clarification0.1.3 al principio
-
-Viejo verificado una vez fuera de citas de propuestas, línea 5 de la fuente fijada.
-
-
-
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
-
-
----
-
-<a id="ola2-redaccion-06"></a>
-
-## Ola 2 — redacción directa del cambio 6
-
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 76; la anterior queda como antecedente.
-
-**Propósito:** La primera nota llama etapas DDS a dos fases internas. La corrección la alinea con el índice y evita que el lector infiera cinco etapas.
-
-**Impacto Medio · Riesgo Bajo · Esfuerzo Bajo · Prioridad Siguiente.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `5b8517185308f75f57b8ce2096360e27d760438a`.
-
-### Nota Extension-stage clarification0.1.3 al principio
-
-
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio76 hecho y retirado de pendientes; se conserva el par completo.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola1 variante limitada75.
-- **Aplicado:** Ola2 cambio6 / propuesta76.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-Continúan por separado el checker74 y la recuperación histórica75. La regla futura75 y la precisión DDS76 ya están aplicadas.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md).
-
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md).
 
 ## Revisión del diseño de consolidación DDS por campañas — 12 octubre 2026
 
@@ -773,3 +455,29 @@ Iván confirma continuar con UC-21→objetivos→ejercicios existentes→DDS→r
 Las dos fichas aplicadas se retiraron de sus VNext activas y quedaron en Git/custodia auténtica; las auditorías y otras propuestas pendientes permanecen. Sólo cuatro archivos cambiaron en la rama: los dos lectores y sus dos VNext;73otrosblobs idénticos,0 nuevos/eliminados. La plantilla RUN_RECORD y la matriz EO anteriores no se aplicaron. SHA256SUMS.txt conserva su época anterior y no certifica los dos lectores nuevos. Main use-cases y el envío congelado permanecen intactos.
 
 La Issue pública mantiene sus enlaces de envío. El [README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md) deja preparado un único párrafo adicional con antes/después literal, Alto impacto/Bajo riesgo/Bajo esfuerzo, para enlazar seguimiento y DDS manteniendo el snapshot. Es una edición externa pendiente de decisión concreta. No se modificó la Issue, abrió otra campaña S5, creó carpetaDDS ni ejecutó migración o experimento. Este estado supersede las menciones previas a esas dos inserciones como pendientes; no altera los otros gates abiertos.
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="texto-antes--existing-v02-rule-complete-affected-validation-passage"></a>
+<a id="texto-después--successor-candidate-complete-new-source"></a>
+<a id="texto-antes--original-module-description"></a>
+<a id="texto-después--published-module-description"></a>
+<a id="texto-después--full-new-cross-stage-projection-function"></a>
+<a id="texto-antes--complete-previous-compile_successor"></a>
+<a id="texto-después--complete-published-compile_successor"></a>
+<a id="cambio-76--precisión-de-la-primera-nota-de-stage-a"></a>
+<a id="plan-de-cambios-al-final--variante-textual-del-75"></a>
+<a id="ola-2--cambio-6-dds-tres-etapas-y-dos-fases-internas-de-stage-a"></a>
+<a id="nota-extension-stage-clarification013-al-principio"></a>
+<a id="ola-2--redacción-directa-del-cambio-6"></a>
+<a id="nota-extension-stage-clarification013-al-principio-1"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="bloques-aplicados-retirados"></a>
+<a id="ola2-cambio-06"></a>
+<a id="ola2-redaccion-06"></a>
+
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Los enlaces anteriores siguen llevando a este historial.
+
+</details>

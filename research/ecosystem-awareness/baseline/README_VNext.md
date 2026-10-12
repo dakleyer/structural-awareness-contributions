@@ -26,17 +26,6 @@ La leyenda de estados ayuda, pero “canonical working” no acredita una valida
 
 Primero se contrastarán las afirmaciones de prueba y evidencia con sus fuentes completas; después se examinará la organización para una persona. Se mantendrán los tres niveles acordados y una sola VNext por documento. Ninguna redistribución se ejecutó.
 
-## Propuesta antes/después — orientación opcional, pendiente
-
-**Preparación:** instrucción de Iván sobre lectura y relaciones dentro del README VNext. **Localización:** párrafo de ayudas visuales, único; fuente blob `1616dde3df4352d15288091b78f4d3b6315116c5`. **Tipo:** adición de ruta opcional; no cambia la ruta canónica ni crea otro nivel.
-
-
-
-**Dependencias:** 00M/00N/00M-A01 y EP README VNext. **Antes verificado:** una coincidencia. **Decisión:** pendiente. **Incorporación:** no ejecutada. Las propuestas sobre las partes de UC-EA-03 y la copia vieja de 05A no están todavía adjudicadas.
-
-
----
-
 ## Alcance y conciliación con las otras ramas — instrucción de Iván
 
 **6 de octubre de 2026.** Todo Contributions queda dentro del programa de revisión, incluidas las rutas de este índice, MSCA y Regime Awareness, y los documentos sin enlace textual desde EP. [Plan 1.5](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#alcance-confirmado-todo-contributions-y-sus-integraciones) · [inventario del árbol completo](../../../governance/review/EP_REVIEW_REPOSITORY_SCOPE_2026-10-06.md).
@@ -82,72 +71,18 @@ El [plan 1.10](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#trabajo
 
 Los originales sueltos, canon, código, datos, freezes y binarios no reciben correcciones. Estar en el catálogo no altera autoridad. La lectura es de orientación y organización; no sustituye las cinco pasadas de una fuente vigente ni una dependencia material del argumento.
 
-### Adición de navegación — texto viejo y después completo
-
-**Fuente:** [índice propietario](README.md), blob `54ddcc0f33d25e3adb0591d006b8f741ff68b0d6`. **Instrucción de Iván:** enlazar trabajo adicional desde el último índice sin tocar los documentos sueltos. **Tipo:** solo navegación; no cambio de contenido técnico. La autorización del usuario cubre esta adición.
-
-
-
-El cuerpo entero anterior permanece como prefijo exacto; no se sustituye el último párrafo al ejecutar esta adición. El después muestra el contexto viejo y el bloque nuevo para compararlos. La hoja es auxiliar, no otro nivel canónico.
-
-
----
-
 ## Prioridades del plan de cambios — revisión del corte
 
 **Revisión realizada por Codex, 6 octubre de 2026, mismo asistente de IA.** Se revisan las auditorías y propuestas ya registradas para valorar impacto esperado, riesgo y esfuerzo. La fuente pública del corte es `7500dd5ee05c1a5052a28d35a8cefaf2c530707f`; los viejos y pares anteriores permanecen íntegros. Esta revisión no completa las pasadas pendientes ni la sexta.
 
 El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
 
-| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
-|---|---|---|---|---|---|
-| 20 · Orientación humana del índice EA | Siguiente · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
-| 21 · Acceso a trabajo adicional desde baseline | Histórico · Histórico | Medio | Bajo | No nuevo | Ya publicado |
-
-### Cambio 20 — Orientación humana del índice EA
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Explicar para qué sirven ayudas visuales y cómo continuar hacia argumento/pruebas.
-
-**Qué podría quedar desactualizado o afectado:** Un resumen demasiado largo puede repetir el índice o perder límites; los enlaces deben seguir vigentes.
-
-**Qué cuesta prepararlo:** Un párrafo con revisión de lectura y rutas, sin reordenar el README.
-
-**Dependencias conocidas:** [README.md](README.md) · [README.md](visuals/README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Confirmar ubicación/adición preservando el texto antiguo y lectura humana.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#propuesta-antesdespués--orientación-opcional-pendiente); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `359dea888dac9778c1c49e17a091b8fe6fe89b00`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 21 — Acceso a trabajo adicional desde baseline
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: No nuevo. Prioridad: Histórico.** Dar ruta a materiales adicionales sin convertirlos en canon.
-
-**Qué podría quedar desactualizado o afectado:** Duplicar el bloque ya publicado confunde al lector.
-
-**Qué cuesta prepararlo:** Adición ya realizada y leída de vuelta.
-
-**Dependencias conocidas:** [README.md](non-canonical/README.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar; diferencia de espacios en blanco del contexto, mismo bloque publicado.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#adición-de-navegación--texto-viejo-y-después-completo); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `359dea888dac9778c1c49e17a091b8fe6fe89b00`. El bloque añadido está presente; no se repite la ejecución.
-
-
----
 
 ## Continuación de ACC01I — fuente de participación y perfil de linaje
 
 **Auditoría realizada por Codex, 6 de octubre de 2026; mismo asistente.**01I completo cotejado conArchitecture/ACC/Role/Composition/Operation. Conserva el modelo amplio de participación humana/institucional; su ubicaciónEA no lo convierte en kernelEA o autoridad jurídica. El perfil de linaje posee continuidad/validez/mutación; Operation posee el cambio legítimo de rol/contrato. Las propiedades colectivas de01I§9.1 siguen como preguntas futuras.
 
 [01I VNext](01I_VNext.md) registra sus cinco preguntas y límites reales. El índice recibe un enlace breve a su ficha externa: fuente intacta, sin nuevo README, jerarquía o migración. El contrasteOAP es de borrador y no acredita implementación, adopción o novelty; la segunda material queda abierta por01H/01J/EHD.
-
-### Adición de navegación 63 — Enlazar ficha externa de participación ACC01I
-
-**Instrucción de Iván:** publicar auditoría y adiciones de navegación, conservando cuerpos. ImpactoMedio/riesgoBajo/esfuerzoBajo; adición autorizada de esta entrega, fuera de propuestas sustantivas pendientes. Fuente actual `e8e2c21f5cc90da6f19f3ba6b637d56e9a8b7c0c`, viejo único. No cambio de jerarquía/canon.
-
-
-
-El cuerpo anterior completo se conserva como prefijo exacto. La publicación se confirma mediante commit/readback de esta entrega; no repetir luego la adición.
 
 ### Cambio 65 — Separar dos lecturas en el índice de extensiones
 
@@ -198,17 +133,6 @@ La base cambió a`8757ba614c94f962206912d4896c119a18a924fa`. Se conservan todas 
 [01K VNext](01K_VNext.md) publica lectura propia completa, contraejemplo contable y condiciones de escala; [01J VNext](01J_VNext.md) publica el pasaje material sin simular lectura total. Originales intactos.63 conserva supar inicial; el bloque de navegación nuevo incorpora las dos fichas adicionales y se confirma contra laversión vigente alpublicar.
 
 
-### Adición63 — bloque completo contra el índice vigente
-
-Se conserva el par inicial y se añade esta versión contra `8757ba614c94f962206912d4896c119a18a924fa`, blob `7ed07825cb83779afc83ca609fce12f145d808dc`; viejo único. Incorpora las fichas01I,01K y01J como navegación autorizada, sin editar sus fuentes o corregir las propuestas65/66.
-
-
-
-Preservación del cuerpo vigente como prefijo exacto, y confirmación posterior por commit/readback. No repetir la adición publicada.
-
-
----
-
 ## Recepción de 01J y significado de D — contraste cruzado
 
 **Auditoría realizada por Codex, mismo asistente de IA, 6 de octubre de 2026.** Se leyó completo01J y se cotejó con00M§§1.4–1.5 y su ejemplo de telemetría. El índice propietario recibe una consecuencia de significado en una extensión actual: no una nueva jerarquía ni reorganización. La VNext existente de01J acumula la lectura completa y mantiene los límites materiales pendientes.
@@ -244,35 +168,8 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
-| 20 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
-| 21 | Ya publicado; Ya publicado | Medio | Bajo | No nuevo | Histórico |
-| 63 | Ya publicado; Ya publicado | Medio | Bajo | Bajo | Histórico |
 | 65 | Resuelto mediante otra edición; RESOLVED BY LATER INTEGRATION | Medio | Bajo | Bajo | Histórico |
 | 66 | Resuelto mediante otra edición; RESOLVED BY LATER INTEGRATION | Medio | Medio | Bajo | Histórico |
-
-**Cambio 20 — Documental preparado.** La orientación opcional a 00M-A01 ayuda a leer la matriz sin hacerla estación obligatoria ni fuente canónica.
-
-**Beneficio esperado:** Explicar para qué sirven ayudas visuales y cómo continuar hacia argumento/pruebas. **Riesgo concreto:** Un resumen demasiado largo puede repetir el índice o perder límites; los enlaces deben seguir vigentes. **Coste de preparar y mantener:** Un párrafo con revisión de lectura y rutas, sin reordenar el README.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Verificar destino/alcance opcional y que no añade nivel de README. La futura adición al original requiere decisión concreta, aunque la propuesta esté completa. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 21 — Ya publicado.** Dar ruta a materiales adicionales sin convertirlos en canon.
-
-**Beneficio esperado:** Dar ruta a materiales adicionales sin convertirlos en canon. **Riesgo concreto:** Duplicar el bloque ya publicado confunde al lector. **Coste de preparar y mantener:** Adición ya realizada y leída de vuelta.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** No volver a ejecutar; diferencia de espacios en blanco del contexto, mismo bloque publicado. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 63 — Ya publicado.** Acceso humano a la revisión sin modificar la fuente.
-
-**Beneficio esperado:** Acceso humano a la revisión sin modificar la fuente. **Riesgo concreto:** No duplicar notas de navegación; fichas no conceden autoridad o cierre. **Coste de preparar y mantener:** Adición corta y comprobación de enlaces/preservación.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 1 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** No volver a ejecutar tras publicación/readback; sólo navegación ya autorizada. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 65 — Resuelto mediante otra edición.** El índice actual tiene líneas01K y predecessor01J separadas; incorporó otra redacción, no el después literal65.
 
@@ -305,23 +202,11 @@ Los datos y límites están en [EP VNext](../../../architectural-contributions/e
 
 <a id="ola3-cambio-07"></a>
 
-## Ola 3 — cambio 7: Ruta humana desde el índice a la trazabilidad
-
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente20 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/README.md), blob `fa320b88a1553280c5815c01f8bb8c0fb1c049b9`. **Ubicación:** Párrafo Three visual reading aids; línea15, viejo localizado una vez fuera de quotes.
-
-**Razón:** Conecta el índice con una tabla útil de operaciones y requisitos sin crear otro nivel de README.
 
 
+## Propuestas aplicadas retiradas
 
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/README_VNext.md).
-
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/README_VNext.md).
 
 ## Revisión del diseño de consolidación DDS por campañas — 12 octubre 2026
 
@@ -332,3 +217,20 @@ Una clasificación por campañas no elimina la función de baseline, Challenges,
 El inventario actual y la evidencia congelada son dos conjuntos diferentes. HF v0.3 consume requisitos del baseline y una versión anterior del mapa FG-TIDA; copiar solamente el subárbol HF o todos los archivos del head actual no reproduce ese cierre. La matriz debe incluir los pares commit/ruta/blob realmente usados, versiones de herramientas y referencias que quedan externas. Una copia de documentación con enlaces relativos sin su contexto sólo puede declararse archivística; no se presentará como paquete ejecutable autónomo.
 
 La propuesta se revisa también en [extensiones VNext](./reductions/00G-R01/extensions/README_VNext.md), [HF VNext](./reductions/00G-R01/extensions/hugging-face/README_VNext.md) y [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md). Primero indexación, impacto Alto/riesgo Bajo/esfuerzo Medio; copia posterior riesgo Medio–Alto/esfuerzo Alto hasta cerrar dependencias. Baseline y todas sus fuentes permanecen intactos.
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="propuesta-antesdespués--orientación-opcional-pendiente"></a>
+<a id="adición-de-navegación--texto-viejo-y-después-completo"></a>
+<a id="cambio-20--orientación-humana-del-índice-ea"></a>
+<a id="cambio-21--acceso-a-trabajo-adicional-desde-baseline"></a>
+<a id="adición-de-navegación-63--enlazar-ficha-externa-de-participación-acc01i"></a>
+<a id="adición63--bloque-completo-contra-el-índice-vigente"></a>
+<a id="ola-3--cambio-7-ruta-humana-desde-el-índice-a-la-trazabilidad"></a>
+<a id="bloques-aplicados-retirados"></a>
+
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
+
+</details>

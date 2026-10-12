@@ -187,17 +187,6 @@ The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributio
 
 **Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Tanda compatible57/58/59 y decisión de Iván. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
 
-### Cambio 60 — Decir que P3 identifica una necesidad, sin verbo de autorización
-
-**Fuente/ubicación:** [fuente actual](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `88a4ea7e1eec2c9f2b3f2dbe0d15f64087e1265c`; el viejo aparece exactamente una vez. **Impacto esperado: Medio. Riesgo: Medio. Esfuerzo: Bajo. Prioridad: Siguiente. Tanda: 3 — Contratos y protocolo.**
-
-**Beneficio esperado:** Evitar que authorize se lea como autoridad creada por la postura. No es eficacia medida. **Riesgo concreto:** §§13/14/25 ya protegen la autoridad externa; no transformar la nota en nuevo gate. **Trabajo necesario:** Pasaje corto con cotejo de Gradient§8 y ACC§§5/7; preservación.
-
-
-
-**Dependencias:** [01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) · [04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) · [00_CANONICAL_MSCA_ARCHITECTURE.md](00_CANONICAL_MSCA_ARCHITECTURE.md). **Estado/condición:** Pendiente de decisión; Aclaración opcional, decisión de Iván y consumidores comprobados. Instrucciones de Iván: cinco pasadas, conciliación y plan con viejo visible; esta propuesta parcial se publica para revisión, no aplica el cambio. Decisión concreta de incorporación aún pendiente.
-
-
 ## Reapertura por nueva capacidad humana — fuente vigente
 
 **Codex, mismo asistente,6 de octubre de 2026.** La fuente cambió a `8757ba614c94f962206912d4896c119a18a924fa`, blob `e11731c36e207d11631ade1a60ee521537840801`: se leyó íntegra la nueva §4.1 y su productor01K completo. Los demás pasajes no cambiaron. Se conservan la lectura y pares anteriores contra 26eb; no se reescribe suviejo.
@@ -242,15 +231,7 @@ The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributio
 
 Valoración/dependencias originales se conservan. Esta segunda localización no aplica la propuesta ni declara terminada la conciliación global.
 
-### Revalidación del cambio60 contra la nueva fuente
-
 Blob vigente `e11731c36e207d11631ade1a60ee521537840801`; viejo único, contexto nuevo §4.1 examinado. 
-
-Valoración/dependencias originales se conservan. Esta segunda localización no aplica la propuesta ni declara terminada la conciliación global.
-
-
----
-
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
 **Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`. Los registros anteriores y sus viejos completos permanecen íntegros.
@@ -261,7 +242,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 |---|---|---|---|---|---|
 | 37 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Medio | Primera |
 | 59 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
-| 60 | Aclaración opcional preparada; Pendiente de decisión | Medio | Medio | Bajo | Siguiente |
 
 **Cambio 37 — Cambio acoplado; no listo.** La fila de Operation abrevia la entradaRA. Su contexto conserva scope/autoridad, pero no explica por sí solo todos los papelesB/C/D.
 
@@ -278,14 +258,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
 
 **Condición y orden de decisión:** 57/58 antes o junto a 59; mantener evidencia, hard constraints y permiso externos. No prometer algoritmo computable o ganador único. Revisar junto con 57, 58. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 60 — Aclaración opcional preparada.** La palabraauthorizes puede confundir necesidad de cualificar con potestad. El contexto ya exigeACC/autoridad; es precisión preventiva.
-
-**Beneficio esperado:** Evitar que authorize se lea como autoridad creada por la postura. **Riesgo concreto:** § §13/14/25 ya protegen la autoridad externa; no transformar la nota en nuevo gate. **Coste de preparar y mantener:** Pasaje corto con cotejo de Gradient §8 y ACC§ §5/7; preservación.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** LeerP3 ygatesACC/autoridad, con Role/ACC. La decisión puede ser no añadir porque la frontera ya está protegida. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Consecuencia entre documentos:** [35](../../research/regime-awareness/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [38](README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [64](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [67](../../research/ecosystem-awareness/baseline/01K_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [68](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [69](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [70](../../research/ecosystem-awareness/baseline/01J_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). 64/67 ya no describen la fuente vigente de HID: las antiguas observaciones del ledger quedan como historia, sin volver a la cola. El nuevo componente HC-HID/01K-A01 y sus fuentes mantienen revisión material pendiente dentro del mismo propietario 01K. Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
@@ -320,57 +292,27 @@ El coste HC-HID sigue siendo vector sin conversión declarada; comparar exige el
 
 <a id="ola2-cambio-01"></a>
 
-## Ola 2 — cambio 1: P3 identifica una transición; no concede autoridad
 
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 60; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
 
-**Fuente actual:** [standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`. **Ubicación:** §11.3, última oración.
+## Propuestas aplicadas retiradas
 
-**Justificación:** Elimina la ambigüedad de un verbo que parece otorgar permiso. La postura P3 señala la necesidad; ACC y autoridad gobiernan aprobación y ejecución.
-
-**Impacto esperado Medio; riesgo Medio; esfuerzo Bajo; prioridad Primera.**
-
-**Riesgo concreto:** La formulación de P3 es consumida por reglas de transición y lectores de autoridad. Conservar las obligaciones ACC y no cambiar la selección o ejecución. **Coste:** Localización, sustitución y verificación del pasaje y sus referencias inmediatas.
-
-**Dependencias y aceptación:** Concordar con §11.2, §11.4 y el gate ACC/autoridad; conservar estados y contratos.
-
-### §11.3, última oración
-
-Viejo verificado una vez fuera de citas de propuestas, línea 398 de la fuente fijada.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/04_OPERATION_VNext.md).
 
 
 
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
 
-
----
-
+<a id="cambio-60--decir-que-p3-identifica-una-necesidad-sin-verbo-de-autorización"></a>
+<a id="revalidación-del-cambio60-contra-la-nueva-fuente"></a>
+<a id="ola-2--cambio-1-p3-identifica-una-transición-no-concede-autoridad"></a>
+<a id="113-última-oración"></a>
+<a id="ola-2--redacción-directa-del-cambio-1"></a>
+<a id="113-última-oración-1"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-redaccion-01"></a>
 
-## Ola 2 — redacción directa del cambio 1
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/standards/minimum-sufficient-control/04_OPERATION_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 60; la anterior queda como antecedente.
-
-**Propósito:** Elimina la ambigüedad de un verbo que parece otorgar permiso. La postura P3 señala la necesidad; ACC y autoridad gobiernan aprobación y ejecución.
-
-**Impacto Medio · Riesgo Medio · Esfuerzo Bajo · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`.
-
-### §11.3, última oración
-
-
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio60 hecho y retirado de pendientes; se conserva el par completo.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola2 cambio1 / propuesta60.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/standards/minimum-sufficient-control/04_OPERATION_VNext.md).
+</details>

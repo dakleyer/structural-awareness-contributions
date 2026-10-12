@@ -453,14 +453,6 @@ IVAN-20261006-START-SEQUENTIAL-AUDITS autoriza la publicación secuencial de aud
 
 ## Propuestas quirúrgicas — IF04-R1, pendientes
 
-### IF04-R1-DELTA-001 — referencia temporal a 00I
-
-**Objeto:** este VNext §6. **Hallazgo:** F003. **Fuente:** blob de la cabecera. **Tipo:** corrección documental propuesta, no aplicada. **Instrucción:** IVAN-20261006-START-SEQUENTIAL-AUDITS.
-
-
-
-**Efecto:** actualizar procedencia temporal y mantener límites; no nuevo O/IF-S. **Dependencias:** 00I y Requirements VNext; los enlaces antiguos a 00G/00H deberán revisarse por separado antes de una edición. **Decisión:** pendiente. **Incorporación:** no ejecutada.
-
 ### IF04-R1-DELTA-002 — H06: candidato de lectura del elemento4 para un successor
 
 **Objeto:** 04 v0.5 §2, único segmento del kernel EHD. **Hallazgo:** F001. **Tipo:** candidato semántico de perfil, no mera renumeración. **Estado:** pendiente de H06/end-to-end review y decisión de Iván; el baseline no se altera.
@@ -527,22 +519,7 @@ El [plan 1.11](../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#priorid
 
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
-| 18 · Actualizar la referencia de 04 a 00I existente | Siguiente · 1 — Claridad de evidencia y estado | Medio | Medio | Bajo | Pendiente de decisión |
 | 19 · Condicionar cuándo un A_ref conserva el resultado | Primera · 3 — Contratos y protocolo de evaluación | Alto | Alto | Alto | Pendiente de decisión |
-
-### Cambio 18 — Actualizar la referencia de 04 a 00I existente
-
-**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Eliminar la reserva future 00I sin atribuir una ejecución que no existe.
-
-**Qué podría quedar desactualizado o afectado:** Si 05/05A mantienen None committed o future, la cadena queda desactualizada; la existencia no acredita un mapping.
-
-**Qué cuesta prepararlo:** Precisar esta frase y revisar textos temporales relacionados en 04/05/05A.
-
-**Dependencias conocidas:** [00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md](00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Coordinación con cambio 33 y pasajes relacionados; conservar fechas y owners.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if04-r1-delta-001--referencia-temporal-a-00i); el viejo tiene una coincidencia en [la fuente actual](04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `598ed9ea150f288b086dde7c6ea569cd9694fbf5`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
 
 ### Cambio 19 — Condicionar cuándo un A_ref conserva el resultado
 
@@ -578,16 +555,7 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
-| 18 | Plan parcial; Pendiente de decisión | Medio | Medio | Bajo | Siguiente |
 | 19 | Cambio acoplado; no listo; Pendiente de decisión | Alto | Alto | Alto | Primera |
-
-**Cambio 18 — Plan parcial.** La referencia a 00I futuro está desactualizada. Corregir sólo esta oración deja otras épocas/versiones discordantes en 04/05.
-
-**Beneficio esperado:** Eliminar la reserva future 00I sin atribuir una ejecución que no existe. **Riesgo concreto:** Si 05/05A mantienen None committed o future, la cadena queda desactualizada; la existencia no acredita un mapping. **Coste de preparar y mantener:** Precisar esta frase y revisar textos temporales relacionados en 04/05/05A.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** 18/33 juntos; concretar las demás frases afectadas de 04/05/05A y conservar00I interno separado de ejecución/adopciónFG. Revisar junto con 33. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 19 — Cambio acoplado; no listo.** A_ref sólo conserva el resultado si el receptor puede resolver e interpretar la referencia aplicable. Una cita sintáctica no cierraH06.
 
@@ -615,28 +583,24 @@ Elorigen delcontraste está en [03 Functional VNext](03_FUNCTIONAL_VNext.md) y [
 
 <a id="ola4-integracion-00i-00j"></a>
 
-## Ola 4 — coherencia de escenarios internos y rutas de interfaces
 
-**12 octubre2026.** Iván autoriza preparar y aplicar una ola adicional fuera de DDS. Paquete conjunto de los cambios18/33: seis sustituciones en tres espacios de trabajo existentes. **Impacto Medio, riesgo Medio, esfuerzo Medio, prioridad Primera.**
 
-**Razón:**04/05 contienen referencias futuras o ausencia de00I que contradicen el enlace existente de05§6 y05A§6.2. El catálogo interno y su resumen se amplían deE–H/E–I aE–J conforme a Requirements; cada ruta conserva su dueño. El riesgo es desalinear referencias entre los tres documentos; el paquete se verifica completo y mantiene el ancla histórica del encabezado.
+## Propuestas aplicadas retiradas
 
-**Fuentes leídas:**00I Freeze Edition blob`9478116e0e7d1ce6d875312f13b52e83cb3685c8`;00J Draft blob`17616f2495ccfc08828fed49d4f566f718e67eee`;Requirements y05A como receptores. Se consultó identidad, estado y alcance pertinentes; los originales de escenarios no se editan.
-
-### Pasaje 1 — §6, Delta disposition
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`a310cb7574560fbeb64ee43827398bcc9d6a29e7`, línea283. Viejo único fuera de citas.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
 
 
 
-**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** aplicada y verificada el 12 de octubre de 2026 en `dcdb42d9814f690a40e79c28ec7f5de0d98af8f0`. Cambios18/33 fuera de pendientes; pares y auditorías conservados.
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
 
+<a id="if04-r1-delta-001--referencia-temporal-a-00i"></a>
+<a id="cambio-18--actualizar-la-referencia-de-04-a-00i-existente"></a>
+<a id="ola-4--coherencia-de-escenarios-internos-y-rutas-de-interfaces"></a>
+<a id="pasaje-1--6-delta-disposition"></a>
+<a id="cierre-de-ola-4--aplicado"></a>
+<a id="bloques-aplicados-retirados"></a>
 
-## Cierre de Ola 4 — aplicado
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
 
-Los pasajes de este documento coinciden con el después publicado. El conjunto de seis sustituciones se aplicó en [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0). Se mantiene el ancla histórica de la ruta00I/UC6 y los tres documentos registran la misma incorporación.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+</details>

@@ -776,50 +776,6 @@ R01 does **not** fork Nelson's experiment contract. The intended composition is:
 **Decisión de Iván:** pendiente sobre este ID concreto.  
 **Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
 
-### R01-ORACLE-DELTA-003 — Distinguir self-test del instrumento y aceptación del candidato
-
-**ID y estado:** R01-ORACLE-DELTA-003 · propuesta, incorporación pendiente.  
-**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
-**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
-**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F001, R01-ORACLE-F009.  
-**Localización:** What is executable now · párrafo de apertura.  
-**Tipo:** inserción propuesta.
-
-
-
-**Razón y efecto semántico:** Impide leer el resultado global verde como éxito de toda tecnología o de todos los escenarios. Conserva la lista de funciones existente.
-
-**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
-
-**Dependencias y otras VNext:** SELFTEST_RECORD_v0.9.md y selftest_result_v0.9.json como evidencia intacta; ninguno se modifica ni recalcula.
-
-**Comprobaciones necesarias y límites:** Leer las seis entradas del registro fijado; separar expected control result, candidate status y scientific conclusion. No añadir números a una tasa poblacional.
-
-**Decisión de Iván:** pendiente sobre este ID concreto.  
-**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
-
-### R01-ORACLE-DELTA-004 — Delimitar diversidad de referencia, dominio y validación externa
-
-**ID y estado:** R01-ORACLE-DELTA-004 · propuesta, incorporación pendiente.  
-**Documento/fuente:** `R01-ORACLE-C02-README`, `research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md`; commit `40cb19682fd1211d2c07e81ecd0242b56d425918`; blob `282d97ed967898a086303927872fbdfcaf37dd70`; versión editorial no declarada, estado 5 de octubre de 2026.  
-**Instrucción:** IVAN-R01-ORACLE-20261006-01.  
-**Auditorías/hallazgos:** AUD-001/AUD-002; R01-ORACLE-F006, R01-ORACLE-F010.  
-**Localización:** Claim boundary · párrafo único final.  
-**Tipo:** inserción propuesta.
-
-
-
-**Razón y efecto semántico:** Aclara la relación entre dos implementaciones, un contraste algorítmico y la cobertura completa de R01. No retira el soporte acotado ni presupone errores fuera del dominio.
-
-**Fuentes/evidencia:** hallazgos anteriores y [registro de evidencia](../../../../../../governance/review/R01_ORACLE_REVIEW_EVIDENCE_2026-10-06.json); fuente fijada de §1.
-
-**Dependencias y otras VNext:** reference.py, reference_secondary.py, reference_graph_exhaustive.py, reference_graph_dp.py, oracle/README y COMPUTABILITY_AND_ORACLE_PLAN; código y freeze permanecen intactos.
-
-**Comprobaciones necesarias y límites:** Revisar admisibilidad y codificación del dominio de cada método y manifest de controles; cotejar M16/M17 y C02 antes de cualquier afirmación más amplia. Sin nueva ejecución durante la preparación.
-
-**Decisión de Iván:** pendiente sobre este ID concreto.  
-**Incorporación:** no ejecutada. La fuente protegida requiere una ruta autorizada que conserve el guard vigente; no se cambia el guard para hacer pasar una corrección.
-
 ### Consolidación final
 
 Se recomienda preparar DELTA-001–004 como cambios documentales compatibles entre sí, únicamente después de decisión de Iván y revalidación sobre la fuente entonces vigente. No se propone aplicar deltas de código, modificar los 30 archivos del freeze, alterar resultados o cerrar C02. F003/F005/F007/F008/F010 mantienen verificaciones e integración pendientes; no se resuelven mediante estas mejoras del README.
@@ -827,18 +783,6 @@ Se recomienda preparar DELTA-001–004 como cambios documentales compatibles ent
 ## Propuestas adicionales de las pasadas diferenciadas — incorporación pendiente
 
 Las propuestas 001–004 anteriores permanecen íntegramente como historia. Las siguientes se preparan por **IVAN-R01-ORACLE-20261006-03** sobre la misma fuente del README, blob `282d97ed967898a086303927872fbdfcaf37dd70`, ahora reconfirmado en corte `715027943eefb372fdb4541a23d288bffdedbdb2`. Ninguna se incorpora por esta entrega.
-
-### R01-ORACLE-DELTA-005 — Explicar el propósito antes de la atribución técnica
-
-**Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Párrafo de estado, después del título. **Hallazgos:** Pasadas 1/3 y futura lectura humana; límites F001/F011/F012.
-
-
-
-**Razón y efecto:** Añade la pregunta que responde el instrumento antes de los términos C02/UC4/sidecar. No cambia su estado ni amplía evidencia.
-
-**Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
-
-**Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
 
 ### R01-ORACLE-DELTA-006 — Separar modo, efectos y métricas antes de reproducir
 
@@ -863,21 +807,6 @@ Run locally from this directory:
 **Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
 
 **Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
-
-### R01-ORACLE-DELTA-007 — Hacer navegables las fuentes propias del bloque Corpus reuse
-
-**Fuente:** README del oráculo C02, corte/blob anteriores; estado 5 de octubre de 2026. **Instrucción:** IVAN-R01-ORACLE-20261006-03. **Ancla:** Bloque Corpus reuse, cinco referencias planas. **Hallazgos:** Pasada 3; consecuencias de trazabilidad de F002/F003/F007.
-
-
-
-**Razón y efecto:** Conserva los cinco destinos y su orden; modifica únicamente el formato de enlace para que la fuente sea accesible.
-
-**Dependencias y comprobaciones:** revalidar la coincidencia única sobre la fuente entonces vigente, revisar los enlaces/predicados citados y conservar el guard. DELTA-005 no colisiona con 001–004. DELTA-006 comparte el tema de 003/004 pero usa otro ancla. DELTA-007 conserva el bloque que precede a la inserción 002.
-
-**Decisión de Iván:** pendiente por ID. **Incorporación:** no aplicada; la fuente protegida requiere ruta autorizada sin desactivar su guard.
-
-
----
 
 ## Quinta pasada — investigación externa, diferencial y reutilización
 
@@ -924,11 +853,7 @@ El [plan 1.11](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.m
 |---|---|---|---|---|---|
 | 24 · Separar versión de schema y paquete UC4 | Siguiente · 1 — Claridad de evidencia y estado | Medio | Medio | Bajo | Pendiente de decisión |
 | 25 · Explicar reutilización por familia sin trasladar resultados | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
-| 26 · Self-test verde distinto de tecnología que pasa | Primera · 1 — Claridad de evidencia y estado | Alto | Bajo | Bajo | Pendiente de decisión |
-| 27 · Límite de dominio e independencia del oráculo | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
-| 28 · Propósito del oráculo antes de la atribución | Siguiente · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
 | 29 · Distinguir modo, efectos y métricas antes de reproducir | Siguiente · 4 — Lectura humana y rutas | Alto | Medio | Medio | Pendiente de decisión |
-| 30 · Convertir referencias propias en rutas navegables | Después · 4 — Lectura humana y rutas | Medio | Bajo | Bajo | Pendiente de decisión |
 
 ### Cambio 24 — Separar versión de schema y paquete UC4
 
@@ -958,48 +883,6 @@ El [plan 1.11](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.m
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-002--hacer-visible-la-reutilización-de-los-harness-propios); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
 
-### Cambio 26 — Self-test verde distinto de tecnología que pasa
-
-**Impacto esperado: Alto. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Primera.** Evitar que seis controles esperados se presenten como seis éxitos de tecnologías.
-
-**Qué podría quedar desactualizado o afectado:** Números o estados del lote pueden quedar desactualizados; la explicación debe citar v0.9 en vez de decir siempre current.
-
-**Qué cuesta prepararlo:** Un párrafo y cotejo de las seis entradas fijadas; no recalcular evidencia.
-
-**Dependencias conocidas:** [SELFTEST_RECORD_v0.9.md](SELFTEST_RECORD_v0.9.md) · [selftest_result_v0.9.json](selftest_result_v0.9.json). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Fijar registro usado y distinguir control esperado, candidate status y conclusión.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-003--distinguir-self-test-del-instrumento-y-aceptación-del-candidato); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 27 — Límite de dominio e independencia del oráculo
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Impedir que acuerdo de dos implementaciones o un DAG finito parezca validación externa del R01 completo.
-
-**Qué podría quedar desactualizado o afectado:** Si otros README/métricas mantienen esa extrapolación el efecto queda incompleto; futuras ampliaciones pueden cambiar el dominio.
-
-**Qué cuesta prepararlo:** Cotejo del dominio/premisas y recibos ya existentes, M16/M17, sin nuevas campañas.
-
-**Dependencias conocidas:** [README.md](README.md) · [SELFTEST_RECORD_v0.9.md](SELFTEST_RECORD_v0.9.md) · [selftest_result_v0.9.json](selftest_result_v0.9.json) · [UC4_INTEROPERABILITY_PROFILE.md](UC4_INTEROPERABILITY_PROFILE.md) · [COMPUTABILITY_AND_ORACLE_PLAN.md](../COMPUTABILITY_AND_ORACLE_PLAN.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Conservar soporte acotado y límites; no declarar independencia por relectura de Codex.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-004--delimitar-diversidad-de-referencia-dominio-y-validación-externa); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 28 — Propósito del oráculo antes de la atribución
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Siguiente.** Que una persona entienda entrada, evaluación y resultado antes de fuentes técnicas.
-
-**Qué podría quedar desactualizado o afectado:** La apertura debe concordar con el modo del instrumento y no parecer servicio desplegado.
-
-**Qué cuesta prepararlo:** Un párrafo y cotejo con interfaces actuales.
-
-**Dependencias conocidas:** [README.md](README.md) · [TRACE_CONTRACT.md](TRACE_CONTRACT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Mantener estado limited implementation y límites del lote.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-005--explicar-el-propósito-antes-de-la-atribución-técnica); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
 ### Cambio 29 — Distinguir modo, efectos y métricas antes de reproducir
 
 **Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Que una instrucción de reproducción no confunda intento, efecto y aceptación.
@@ -1013,20 +896,6 @@ El [plan 1.11](../../../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.m
 **Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Confirmar correspondencia documental con los modos; evitar nueva autorización de ejecución implícita.
 
 **Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-006--separar-modo-efectos-y-métricas-antes-de-reproducir); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 30 — Convertir referencias propias en rutas navegables
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Después.** Que el lector abra la fuente correcta desde Corpus reuse.
-
-**Qué podría quedar desactualizado o afectado:** Enlaces y versiones pueden quedar viejos; ruta existente no demuestra conservación semántica.
-
-**Qué cuesta prepararlo:** Cuatro enlaces y comprobar destinos fijados.
-
-**Dependencias conocidas:** [README.md](../../../fixtures/00G-HF-ORACLE-v0.4/README.md) · [00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md) · [00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Candidato para revisión documental concreta. Mantener atribución y límites de cada origen.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#r01-oracle-delta-007--hacer-navegables-las-fuentes-propias-del-bloque-corpus-reuse); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `282d97ed967898a086303927872fbdfcaf37dd70`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
 
 ### Líneas de trabajo por concretar — no cambios ejecutables
 
@@ -1066,11 +935,7 @@ La valoración actual distingue una mejora documental de una modificación conce
 |---|---|---|---|---|---|
 | 24 | Documental condicionado; Pendiente de decisión | Medio | Medio | Bajo | Siguiente |
 | 25 | Plan de lectura; incompleto; Pendiente de decisión | Alto | Medio | Medio | Siguiente |
-| 26 | Documental preparado; Pendiente de decisión | Alto | Bajo | Bajo | Primera |
-| 27 | Documental preparado; Pendiente de decisión | Alto | Medio | Medio | Primera |
-| 28 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Siguiente |
 | 29 | Documental preparado; Pendiente de decisión | Alto | Medio | Medio | Siguiente |
-| 30 | Documental preparado; Pendiente de decisión | Medio | Bajo | Bajo | Después |
 | 46 | Etapa posterior; no parche; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
 | 47 | Etapa posterior; no parche; Por concretar; sin par literal | Alto | Alto | Alto | Siguiente |
 | 48 | Etapa posterior; no parche; Por concretar; sin par literal | Alto | Alto | Alto | Primera |
@@ -1094,30 +959,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 **Condición y orden de decisión:** Cada fila necesita contrato/pin, parte reutilizada, resultado que no transfiere y gate propio;43/46–49 no se cierran por publicar la tabla. Revisar junto con 46, 48, 49. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
-**Cambio 26 — Documental preparado.** PASS/FAIL/INCONCLUSIVE del self-test son resultados esperados del instrumento, no seis tecnologías exitosas. La advertencia ataca una lectura materialmente errónea.
-
-**Beneficio esperado:** Evitar que seis controles esperados se presenten como seis éxitos de tecnologías. **Riesgo concreto:** Números o estados del lote pueden quedar desactualizados; la explicación debe citar v0.9 en vez de decir siempre current. **Coste de preparar y mantener:** Un párrafo y cotejo de las seis entradas fijadas; no recalcular evidencia.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** CotejarSELFTEST_RECORD_v0.9/resultv0.9 y mantener dominio, denominador y expectativas; ningún rerun o eficacia comparativa. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 27 — Documental preparado.** Dos rutas codificadas por el mismo mantenedor son cross-check, no validación independiente. El dominioDAG finito no cubre todoR01.
-
-**Beneficio esperado:** Impedir que acuerdo de dos implementaciones o un DAG finito parezca validación externa del R01 completo. **Riesgo concreto:** Si otros README/métricas mantienen esa extrapolación el efecto queda incompleto; futuras ampliaciones pueden cambiar el dominio. **Coste de preparar y mantener:** Cotejo del dominio/premisas y recibos ya existentes, M16/M17, sin nuevas campañas.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Conservar dominio no negativo/conjuntivo, atribución y límites de perfiles. No presentar el cotejo como independencia, escalabilidad o ejecución tecnológica. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 28 — Documental preparado.** Explicar propósito antes del detalle facilita lectura. No crea un segundo oráculo ni desplaza la aceptación del escenario.
-
-**Beneficio esperado:** Que una persona entienda entrada, evaluación y resultado antes de fuentes técnicas. **Riesgo concreto:** La apertura debe concordar con el modo del instrumento y no parecer servicio desplegado. **Coste de preparar y mantener:** Un párrafo y cotejo con interfaces actuales.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** La inserción queda antes de instrucciones técnicas, conserva fuentes y no convierteREADME en contrato nuevo. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
 **Cambio 29 — Documental preparado.** Separar batch, ejecución interactive y métricas nativas evita acreditar efecto por una selección o una regresión verde.
 
 **Beneficio esperado:** Que una instrucción de reproducción no confunda intento, efecto y aceptación. **Riesgo concreto:** El texto puede prometer métricas o aislamiento que el runner no produce; datos instrumentales no son costes reales. **Coste de preparar y mantener:** Leer contrato/mode y etiquetas de salida del instrumento; ninguna ejecución de programa.
@@ -1125,14 +966,6 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
 
 **Condición y orden de decisión:** LeerTRACE_CONTRACT/ISOLATION_CONTRACT y las métricas originales; conservar deadline/efecto/legitimidad como verificaciones diferentes, sin activar ejecución. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 30 — Documental preparado.** Son cinco rutas propias, no cuatro como decía el cálculo antiguo de esfuerzo. La mejora es navegación y no adopción de los resultados enlazados.
-
-**Beneficio esperado:** Que el lector abra la fuente correcta desde Corpus reuse. **Riesgo concreto:** Enlaces y versiones pueden quedar viejos; ruta existente no demuestra conservación semántica. **Coste de preparar y mantener:** Son cinco enlaces; revisar cinco destinos y atribuciones, no cuatro. Esfuerzo Bajo para navegación.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Abrir los cinco destinos, mantener texto de atribución y scope; revisar desde el directoriooracle, no desde el de laVNext. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 46 — Etapa posterior; no parche.** Paso3 combina envolventeUC4 con sidecarR01. El trabajo es perfil de compatibilidad, no cambio autorizado por el ranking.
 
@@ -1241,110 +1074,39 @@ Los datos y límites están en [EP VNext](../../../../../../architectural-contri
 
 <a id="ola2-cambio-03"></a>
 
-## Ola 2 — cambio 3: Oráculo: declarar qué dominio respalda su acuerdo
 
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 27; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
 
-**Fuente actual:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `a467c6d60803bf0864dd23ba260bd92d67aec993`. **Ubicación:** §Claim boundary, párrafo completo.
+## Propuestas aplicadas retiradas
 
-**Justificación:** Hace visible que dos implementaciones concordantes son un cotejo interno sobre un dominio delimitado; ayuda a decidir qué tecnología o perfil puede compararse después.
-
-**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
-
-**Riesgo concreto:** Una explicación de dominio puede ser leída como nuevo aval. Mantener el dominio observado y los gates; no ampliar qué perfiles se consideran probados. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
-
-**Dependencias y aceptación:** Controles DAG, no negativos/conjuntivos, alcance R01, C11/T03 y autoría. No ejecutar pruebas ni alterar referencias/resultados.
-
-### §Claim boundary, párrafo completo
-
-Viejo verificado una vez fuera de citas de propuestas, línea 169 de la fuente fijada.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md).
 
 
 
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
 
-
----
-
+<a id="r01-oracle-delta-003--distinguir-self-test-del-instrumento-y-aceptación-del-candidato"></a>
+<a id="r01-oracle-delta-004--delimitar-diversidad-de-referencia-dominio-y-validación-externa"></a>
+<a id="r01-oracle-delta-005--explicar-el-propósito-antes-de-la-atribución-técnica"></a>
+<a id="r01-oracle-delta-007--hacer-navegables-las-fuentes-propias-del-bloque-corpus-reuse"></a>
+<a id="cambio-26--self-test-verde-distinto-de-tecnología-que-pasa"></a>
+<a id="cambio-27--límite-de-dominio-e-independencia-del-oráculo"></a>
+<a id="cambio-28--propósito-del-oráculo-antes-de-la-atribución"></a>
+<a id="cambio-30--convertir-referencias-propias-en-rutas-navegables"></a>
+<a id="ola-2--cambio-3-oráculo-declarar-qué-dominio-respalda-su-acuerdo"></a>
+<a id="claim-boundary-párrafo-completo"></a>
+<a id="ola-2--redacción-directa-del-cambio-3"></a>
+<a id="claim-boundary-párrafo-completo-1"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="ola-3--cambio-8-leer-correctamente-los-controles-del-self-test"></a>
+<a id="ola-3--cambio-9-propósito-del-oráculo-en-una-frase-operativa"></a>
+<a id="ola-3--cambio-10-cinco-referencias-convertidas-en-enlaces"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-redaccion-03"></a>
-
-## Ola 2 — redacción directa del cambio 3
-
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 27; la anterior queda como antecedente.
-
-**Propósito:** Hace visible que dos implementaciones concordantes son un cotejo interno sobre un dominio delimitado; ayuda a decidir qué tecnología o perfil puede compararse después.
-
-**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `a467c6d60803bf0864dd23ba260bd92d67aec993`.
-
-### §Claim boundary, párrafo completo
-
-
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio27 hecho y retirado de pendientes; se conserva el par completo.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola2 cambio3 / propuesta27.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-
----
-
 <a id="ola3-cambio-08"></a>
-
-## Ola 3 — cambio 8: Leer correctamente los controles del self-test
-
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente26 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** What is executable now, antes de la enumeración; línea75, viejo localizado una vez fuera de quotes.
-
-**Razón:** Explica por qué el self-test es correcto aunque sus controles produzcan PASS, FAIL e INCONCLUSIVE.
-
-
-
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-**Evidencia:** SELFTEST_RECORD_v0.9 mantiene dosPASS, tresFAIL y unINCONCLUSIVE como outcomes registrados; la frase explica esa calibración, con seis controles. El registro fuente se conserva.
-
-
----
-
 <a id="ola3-cambio-09"></a>
-
-## Ola 3 — cambio 9: Propósito del oráculo en una frase operativa
-
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente28 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** Párrafo Status inicial; línea7, viejo localizado una vez fuera de quotes.
-
-**Razón:** Explica entrada, comparación y condiciones antes de atribución y detalles técnicos.
-
-
-
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-
----
-
 <a id="ola3-cambio-10"></a>
 
-## Ola 3 — cambio 10: Cinco referencias convertidas en enlaces
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
 
-**Estado: aplicado el 12 de octubre de 2026 en `09fc270abfcc8efc3efdcee2279b80e145db55d5`; fuera de pendientes.** Propuesta existente30 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
-
-**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** Bloque Corpus reuse; línea30, viejo localizado una vez fuera de quotes.
-
-**Razón:** El lector puede abrir directamente escenarios, métodos y trazas desde el oráculo.
-
-
-
-**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** Ola3 aprobada y aplicada; se conserva el par completo.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md).
+</details>

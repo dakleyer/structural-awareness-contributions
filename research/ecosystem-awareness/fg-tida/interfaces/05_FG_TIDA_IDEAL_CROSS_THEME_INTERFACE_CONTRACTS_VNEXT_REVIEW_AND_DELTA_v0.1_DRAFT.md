@@ -812,22 +812,6 @@ Estas fechas describen los comentarios, no fecha de adopción. Lectura hecha el 
 
 ## Propuestas quirúrgicas — IF05-R1, pendientes
 
-### IF05-R1-DELTA-001 — C02/00I en el catálogo
-
-**Objeto:** este VNext §10B; blob de esta época. **Hallazgo:** F001. **Preparación:** IVAN-20261006-START-SEQUENTIAL-AUDITS; incorporación pendiente.
-
-
-
-**Efecto:** reconocer archivo existente y preservar source ownership. **Dependencias:** §6/§8/§10A/§18 y 05A; esos pasajes requieren revisión coordinada antes de aplicar para no dejar la reserva «future00I» contradictoria. No se afirma ejecución. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
-### IF05-R1-DELTA-002 — carácter propuesto de los peers
-
-**Objeto:** este VNext §3, una frase única. **Hallazgo:** F003. **Tipo:** precisión de status y attribution, no cambio de funciones.
-
-
-
-**Gate:** si otras fuentes posteriores cierran esa confirmación, añadir sus referencias exactas y registrar fecha/scope antes de adjudicar este wording. No se proclama ausencia definitiva de confirmación. **Decisión de Iván:** pendiente. **Incorporación:** no ejecutada.
-
 ### Cobertura restante
 
 Partes2/3 del contrato congelado, todos los mappings de Themes, cada use case nativo, datos de testbed, historia completa de13 y revisión source-to-profile quedan pendientes. Esta es una primera auditoría documental de la VNext y algunos anchors críticos; no una validación del mapa ideal entero.
@@ -865,41 +849,6 @@ Los hallazgos concretos se comentarán aquí y en las VNext de los documentos re
 
 El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-de-cada-cambio--impacto-riesgo-y-esfuerzo) explica los criterios y el [listado completo](../../../../governance/review/change-priorities-2026-10-06/priorities.json) conserva las fuentes y los pares. La prioridad sirve para preparar tandas de decisión; la incorporación depende de Iván y de las comprobaciones indicadas.
 
-| Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
-|---|---|---|---|---|---|
-| 33 · Reconocer 00I como escenario interno en 05 | Siguiente · 1 — Claridad de evidencia y estado | Medio | Medio | Medio | Pendiente de decisión |
-| 34 · Dos peers como propuesta, no arquitectura FG adoptada | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
-
-### Cambio 33 — Reconocer 00I como escenario interno en 05
-
-**Impacto esperado: Medio. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Siguiente.** Corregir la contradicción committed/future sin convertir 00I en use case FG.
-
-**Qué podría quedar desactualizado o afectado:** Una celda actualizada deja contradictorios §§6/8/10A/18 y 05A; el mapping a UC6 sigue sin probar.
-
-**Qué cuesta prepararlo:** Revisión de varios pasajes y puente con 04/05A, preservar material histórico.
-
-**Dependencias conocidas:** [00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md](../../baseline/00I_FAILURE_MODE_SEMANTIC_TOCTOU_v0.5_FREEZE_EDITION.md) · [04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](../../baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Decidir conjuntamente con 18; completar antes/después de otros pasajes afectados.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05-r1-delta-001--c0200i-en-el-catálogo); el viejo tiene una coincidencia en [la fuente actual](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `dea87c75816959f6749c6922e1e9a9b2c3cfd013`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-### Cambio 34 — Dos peers como propuesta, no arquitectura FG adoptada
-
-**Impacto esperado: Alto. Riesgo: Medio. Coste/esfuerzo: Medio. Prioridad: Primera.** Conservar la diferencia entre placement, proceso de revisión y confirmación arquitectónica.
-
-**Qué podría quedar desactualizado o afectado:** La declaración podría quedar anticuada por fuente posterior no leída; los owners de otros Themes no se adquieren por silencio.
-
-**Qué cuesta prepararlo:** Consultar los pins usados y buscar cambios relevantes antes de decidir wording; no outreach.
-
-**Dependencias conocidas:** [05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md) · [05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Pendiente de decisión. Completar comprobaciones específicas antes de decisión. Mantener reserva de fuentes no revisadas; actualizar con evidencia si hubo confirmación posterior.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#if05-r1-delta-002--carácter-propuesto-de-los-peers); el viejo tiene una coincidencia en [la fuente actual](05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `dea87c75816959f6749c6922e1e9a9b2c3cfd013`. Localizar el viejo no prueba compatibilidad de la propuesta ni autoriza incorporación.
-
-
----
 
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
@@ -907,26 +856,6 @@ El [plan 1.11](../../../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prio
 
 La valoración actual distingue una mejora documental de una modificación conceptual o de contrato. **Candidato para revisión documental significa preparado para leer y decidir, no autorizado para incorporar.** Los originales siguen en sólo lectura; no se ejecuta ninguno de estos pares.
 
-| Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
-|---|---|---|---|---|---|
-| 33 | Plan parcial; Pendiente de decisión | Medio | Medio | Medio | Siguiente |
-| 34 | Documental condicionado; Pendiente de decisión | Alto | Medio | Medio | Primera |
-
-**Cambio 33 — Plan parcial.** La filaNone committed contradice00I existente, pero el candidato sólo cubre una de las apariciones.
-
-**Beneficio esperado:** Corregir la contradicción committed/future sin convertir 00I en use case FG. **Riesgo concreto:** Una celda actualizada deja contradictorios § §6/8/10A/18 y 05A; el mapping a UC6 sigue sin probar. **Coste de preparar y mantener:** Revisión de varios pasajes y puente con 04/05A, preservar material histórico.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Preparar los pares de§ §6/8/10A/18 junto con 18/05A; ningún escenario interno asciende a evidenciaFG por su existencia. Revisar junto con 18. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
-
-**Cambio 34 — Documental condicionado.** La propuesta de dos peers puede ser defendible sin presentarse como arquitecturaFG adoptada. El alcance de la reserva depende de anchors concretos.
-
-**Beneficio esperado:** Conservar la diferencia entre placement, proceso de revisión y confirmación arquitectónica. **Riesgo concreto:** La declaración podría quedar anticuada por fuente posterior no leída; los owners de otros Themes no se adquieren por silencio. **Coste de preparar y mantener:** Consultar los pins usados y buscar cambios relevantes antes de decidir wording; no outreach.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 0 coincidencia(s), sólo pasajes fuera de bloques de cita de propuestas. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** Distinguirplacement, prueba independiente posible y confirmación arquitectónica; no afirmar ausencia mundial de adopción a partir de ocho comentarios antiguos. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
 
@@ -946,101 +875,36 @@ La [tanda conjunta en EP VNext](../../../../architectural-contributions/ecosyste
 
 <a id="ola2-cambio-04"></a>
 
-## Ola 2 — cambio 4: Dos mecanismos de Theme 13: atribuir claramente la propuesta
 
-**12 octubre 2026 · Codex.** Propuesta derivada de cambio 34; conserva los planes anteriores. Propuesta preparada; pendiente del go de Iván para esta ola.
 
-**Fuente actual:** [research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `1d2b8c7a95a8e6c5570e4765081391a2e5d44824`. **Ubicación:** §3, Ideal 05 consequence, oración anterior a la tabla.
+## Propuestas aplicadas retiradas
 
-**Justificación:** Conserva el diseño lifecycle/EA y atribuye su relación a esta proyección. Una propuesta de interoperación se entiende sin presentarla como arquitectura adoptada por el grupo.
-
-**Impacto esperado Alto; riesgo Medio; esfuerzo Medio; prioridad Primera.**
-
-**Riesgo concreto:** La relación propuesta puede confundirse con estatus de Theme. Esta variante atribuye el diseño al propio documento, sin resolver ni negar decisiones externas posteriores. **Coste:** Lectura de relaciones y validación del texto con los consumidores indicados; el coste no se limita a redactar.
-
-**Dependencias y aceptación:** Conservar las responsabilidades de la tabla, límites y anchors; no alterar estados públicos de FG-TIDA.
-
-### §3, Ideal 05 consequence, oración anterior a la tabla
-
-Viejo verificado una vez fuera de citas de propuestas, línea 147 de la fuente fijada.
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
 
 
 
-**Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
 
-
----
-
+<a id="if05-r1-delta-001--c0200i-en-el-catálogo"></a>
+<a id="if05-r1-delta-002--carácter-propuesto-de-los-peers"></a>
+<a id="cambio-33--reconocer-00i-como-escenario-interno-en-05"></a>
+<a id="cambio-34--dos-peers-como-propuesta-no-arquitectura-fg-adoptada"></a>
+<a id="ola-2--cambio-4-dos-mecanismos-de-theme-13-atribuir-claramente-la-propuesta"></a>
+<a id="3-ideal-05-consequence-oración-anterior-a-la-tabla"></a>
+<a id="ola-2--redacción-directa-del-cambio-4"></a>
+<a id="3-ideal-05-consequence-oración-anterior-a-la-tabla-1"></a>
+<a id="aplicaciones-confirmadas--12-octubre-2026"></a>
+<a id="ola-4--coherencia-de-escenarios-internos-y-rutas-de-interfaces"></a>
+<a id="pasaje-2--8-bloque-completo-de-separación-de-rutas"></a>
+<a id="pasaje-3--10a-lista-de-escenarios-internos"></a>
+<a id="pasaje-4--10b-fila-c02"></a>
+<a id="pasaje-5--18-punto8"></a>
+<a id="cierre-de-ola-4--aplicado"></a>
+<a id="bloques-aplicados-retirados"></a>
 <a id="ola2-redaccion-04"></a>
-
-## Ola 2 — redacción directa del cambio 4
-
-**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 34; la anterior queda como antecedente.
-
-**Propósito:** Conserva el diseño lifecycle/EA y atribuye su relación a esta proyección. Una propuesta de interoperación se entiende sin presentarla como arquitectura adoptada por el grupo.
-
-**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
-
-**Fuente:** [research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `9c3923599d07a248e206bf87e120927b99bcfa7c`.
-
-### §3, Ideal 05 consequence, oración anterior a la tabla
-
-
-
-**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio34 hecho y retirado de pendientes; se conserva el par completo.
-
-
-## Aplicaciones confirmadas — 12 octubre 2026
-
-- **Aplicado:** Ola2 cambio4 / propuesta34.
-
-Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
-
-
----
-
 <a id="ola4-integracion-00i-00j"></a>
 
-## Ola 4 — coherencia de escenarios internos y rutas de interfaces
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md). Los enlaces anteriores siguen llevando a este historial.
 
-**12 octubre2026.** Iván autoriza preparar y aplicar una ola adicional fuera de DDS. Paquete conjunto de los cambios18/33: seis sustituciones en tres espacios de trabajo existentes. **Impacto Medio, riesgo Medio, esfuerzo Medio, prioridad Primera.**
-
-**Razón:**04/05 contienen referencias futuras o ausencia de00I que contradicen el enlace existente de05§6 y05A§6.2. El catálogo interno y su resumen se amplían deE–H/E–I aE–J conforme a Requirements; cada ruta conserva su dueño. El riesgo es desalinear referencias entre los tres documentos; el paquete se verifica completo y mantiene el ancla histórica del encabezado.
-
-**Fuentes leídas:**00I Freeze Edition blob`9478116e0e7d1ce6d875312f13b52e83cb3685c8`;00J Draft blob`17616f2495ccfc08828fed49d4f566f718e67eee`;Requirements y05A como receptores. Se consultó identidad, estado y alcance pertinentes; los originales de escenarios no se editan.
-
-### Pasaje 2 — §8, bloque completo de separación de rutas
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea391. Viejo único fuera de citas.
-
-
-
-### Pasaje 3 — §10A, lista de escenarios internos
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea456. Viejo único fuera de citas.
-
-
-
-### Pasaje 4 — §10B, fila C02
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea470. Viejo único fuera de citas.
-
-
-
-### Pasaje 5 — §18, punto8
-
-Fuente`09fc270abfcc8efc3efdcee2279b80e145db55d5`, blob`dfd24efa753df37da583fcb0cde883002297a031`, línea752. Viejo único fuera de citas.
-
-
-
-**Conciliación:** leer este paquete con las VNext de04,05Ideal y05A. Las seis ubicaciones y enlaces se comprobaron; el mapping de ejecución y la revisión de propietarios mantienen su alcance. La autorización de esta ola viene del mensaje actual de Iván. **Estado:** aplicada y verificada el 12 de octubre de 2026 en `dcdb42d9814f690a40e79c28ec7f5de0d98af8f0`. Cambios18/33 fuera de pendientes; pares y auditorías conservados.
-
-
-## Cierre de Ola 4 — aplicado
-
-Los pasajes de este documento coinciden con el después publicado. El conjunto de seis sustituciones se aplicó en [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0). Se mantiene el ancla histórica de la ruta00I/UC6 y los tres documentos registran la misma incorporación.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md).
+</details>

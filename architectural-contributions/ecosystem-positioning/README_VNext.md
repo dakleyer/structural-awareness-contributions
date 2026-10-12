@@ -118,16 +118,6 @@ Esta sección acumulará entradas identificadas y fechadas. Las respuestas citar
 
 ## 5. Propuesta quirúrgica final
 
-### EP-README-DELTA-001 — nota de versión/revisión y enlace
-
-**Tipo:** inserción de navegación al inicio. **Fuente:** ruta, commit y blob indicados en la cabecera. **Localización:** antes de la primera línea exacta `<div align="center">`. **Instrucción:** IVAN-20261006-EP-REVIEW-SETUP y corrección IVAN-20261006-VNEXT-NAME. **Hallazgos relacionados:** F002, F004 y F005.
-
-
-
-**Razón:** dar acceso humano al método y al único expediente de este documento. **Efecto semántico técnico:** ninguno; no se modifica ninguna afirmación existente. **Dependencias afectadas:** dos enlaces nuevos, este expediente y el procedimiento; DOCUMENT_CONTROL registra el blob resultante. **Comprobaciones:** igualdad exacta del cuerpo anterior, resolución de rutas nuevas, ninguna eliminación/alteración de líneas anteriores, diff limitado al alcance autorizado y ausencia de VNext duplicada.
-
-**Decisión de Iván:** la adición de conexión está autorizada por la petición de este chat. **Incorporación:** consultar el registro de publicación/verificación de esta entrega en DOCUMENT_CONTROL; si no existe confirmación de commit y readback, no dar la publicación por realizada.
-
 ### Propuestas sustantivas
 
 **Ninguna preparada o autorizada en esta entrega.** Los hallazgos técnicos futuros se auditarán y propondrán aquí con sus propios IDs, texto antes/después, evidencia, dependencias e instrucción de Iván. Esta ausencia no equivale a que el corpus carezca de defectos.
@@ -722,25 +712,10 @@ El [plan 1.11](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md#prioridad-
 
 | Cambio | Prioridad / tanda | Impacto esperado | Riesgo | Esfuerzo | Estado |
 |---|---|---|---|---|---|
-| 1 · Nota de acceso a revisión de EP | Histórico · Histórico | Medio | Bajo | Bajo | Ya publicado |
 | 2 · Antigua propuesta de convertir EP en Level 4 | Histórico · Histórico | No vigente | Alto | No procede | Descartado |
 | 3 · Explicar la idea central antes de elegir una ruta | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Bajo | Pendiente de decisión |
 | 4 · Separar semántica actual y resultados históricos | Primera · 1 — Claridad de evidencia y estado | Alto | Medio | Medio | Pendiente de decisión |
 | 5 · Distinguir principios P1–P6 y posturas P1–P3 | Siguiente · 4 — Lectura humana y rutas | Medio | Medio | Bajo | Pendiente de decisión |
-
-### Cambio 1 — Nota de acceso a revisión de EP
-
-**Impacto esperado: Medio. Riesgo: Bajo. Coste/esfuerzo: Bajo. Prioridad: Histórico.** Hacer visible el expediente de auditoría.
-
-**Qué podría quedar desactualizado o afectado:** Repetir la nota ya publicada duplicaría la entrada del README.
-
-**Qué cuesta prepararlo:** No requiere nueva edición; mantener el vínculo.
-
-**Dependencias conocidas:** [CORPUS_REVIEW_PROCEDURE_2026-10-06.md](../../governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md). La lista es el mapa conocido para preparar la decisión, no certificación de todos los consumidores.
-
-**Estado y condición:** Ya publicado. Fuera de tandas pendientes. No volver a ejecutar: el texto después está presente.
-
-**Viejo y nuevo:** el par literal sigue en [la entrada anterior](README_VNext.md#ep-readme-delta-001--nota-de-versiónrevisión-y-enlace); el viejo tiene una coincidencia en [la fuente actual](README.md), blob `ed97dbe9f34758219863511717c4f237b48bedf3`. El bloque añadido está presente; no se repite la ejecución.
 
 ### Cambio 2 — Antigua propuesta de convertir EP en Level 4
 
@@ -1025,19 +1000,10 @@ La valoración actual distingue una mejora documental de una modificación conce
 
 | Cambio | Calidad/estado actual | Impacto esperado | Riesgo | Esfuerzo | Prioridad |
 |---|---|---|---|---|---|
-| 1 | Ya publicado; Ya publicado | Medio | Bajo | Bajo | Histórico |
 | 2 | Descartado; Descartado | No vigente | Alto | No procede | Histórico |
 | 3 | Reformular; Reformulado; alternativa conjunta 71 | Medio | Medio | Bajo | Siguiente |
 | 4 | Reformular; Reformulado; alternativa conjunta 71 | Alto | Medio | Medio | Primera |
 | 5 | Reformular; Reformulado; alternativa conjunta 71 | Medio | Medio | Bajo | Siguiente |
-
-**Cambio 1 — Ya publicado.** Hacer visible el expediente de auditoría.
-
-**Beneficio esperado:** Hacer visible el expediente de auditoría. **Riesgo concreto:** Repetir la nota ya publicada duplicaría la entrada del README. **Coste de preparar y mantener:** No requiere nueva edición; mantener el vínculo.
-
-**Localización actual:** viejo completo 1 coincidencia(s); texto propuesto 1 coincidencia(s), fuente actual completa. No se interpreta una cita o una subcadena del encabezado como modificación aplicada.
-
-**Condición y orden de decisión:** No volver a ejecutar: el texto después está presente. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 **Cambio 2 — Descartado.** No se evalúa como beneficio actual: contradice los tres niveles canónicos acordados.
 
@@ -1214,15 +1180,9 @@ El registro conserva **73 entradas: 64 con par y 9 líneas por concretar**. Entr
 
 **Source:** [EP README](./README.md) · before blob `a0a7f27842c13c409c4664bd1bda066860a98f83` · after blob `a5a3f6d8c0d142c8926708f405d1e72a7cb45814` · [commit](https://github.com/dakleyer/structural-awareness-contributions/commit/f77668d3dbc871bb0c84f365505492e7a9974108).
 
-### TEXTO ANTES — viejo (complete affected paragraph)
 
-> For an external technical review, start with the **Requirements & Evidence** deck above, then use this README as the single evidence route. The [technical proof map](#technical-proof-map) separates derivation, requirement closure, adversarial ablation, independence, Boolean diagnostic minimality, requirement-conformance sufficiency and case extensibility; the [canonical reuse route](#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases) shows how the same requirements-conforming path is tested beyond the six minimum fixtures.
 
-### TEXTO DESPUÉS — publicado (complete affected local unit)
 
-> For an external technical review, start with the **Requirements & Evidence** deck above, then use this README as the single evidence route. The [technical proof map](#technical-proof-map) separates derivation, requirement closure, adversarial ablation, independence, Boolean diagnostic minimality, requirement-conformance sufficiency and case extensibility; the [canonical reuse route](#canonical-reuse-route--from-one-successful-traversal-to-a-family-of-cases) shows how the same requirements-conforming path is tested beyond the six minimum fixtures.
->
-> **Research and test route.** The [Deployment Differential Study (DDS)](../../research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md) organizes three different questions: which specification addresses a frozen challenge, whether an architecture realizes that specification, and how a particular implementation behaves against the original challenge and observed effects. [UC-21](https://github.com/dakleyer/use-cases/blob/aec08fb5b0fac2ee399372370e9ee2a82a2d5779/contributions/when-controls-work-system-fails/USE_CASE.md) contributes six failure scenarios, their quality gates and an R0/R1/R2 comparison protocol; [A26](../../research/ecosystem-awareness/baseline/00K_A26_FAILURE_TO_SUCCESS_MODEL_CASE_AND_EXTENSIBILITY_v0.1.md) develops positive success-case counterparts. [R01](../../research/ecosystem-awareness/baseline/reductions/00G-R01/README.md) investigates a reduced probabilistic model of exploration, validation and cost. In the [local S5 stateful study](../../research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md), a conventional dynamic-manifest guard successfully handles the declared D1 source-set change. Each linked document remains the authority for its own evidence and scope.
 
 **Scope and status:** New reader route to DDS, UC-21, A26, R01 and the bounded S5 synthetic witness. The previous paragraph and following pre-standardization / external review paragraphs were preserved exactly. The remote GitHub content was re-read after the commit and verified against the expected insertion.
 
@@ -1295,38 +1255,6 @@ Se comprueban 138 enlaces internos del registro, veinte IDs y 41 fuentes únicas
 
 ---
 
-## Primera tanda textual de alto impacto y bajo riesgo — 12 octubre 2026
-
-**Instrucción de Iván:** actualizar las VNext existentes tal como están organizadas y dejar al final modificaciones de alto impacto y bajo riesgo muy acotadas en texto. **Codex, mismo asistente; corte `21c3946009af4a14433d7240eddce939e4ff9599`.** Se conservan todos los planes y auditorías anteriores. Se revalidan los textos de31/32 y se acota una alternativa del75; ninguna propuesta se incorpora a su fuente de trabajo por publicar este plan.
-
-### Visión conjunta y decisión
-
-| Intervención | Texto afectado | Impacto esperado | Riesgo | Esfuerzo | Qué resuelve |
-|---|---|---|---|---|---|
-| 31 · Atribuir el reporte Theme21 | Una viñeta de05A VNext §2.10 | Alto | Bajo | Bajo | Consulta de un reporte no se lee como reproducción independiente/correctness |
-| 32 · Identificar edición de fuente | Un punto de la ficha05A VNext §7 | Alto | Bajo | Medio | Saber qué fuente mutable sustentó la relación; texto corto, mantenimiento por fila real |
-| 75 · Variante prospectiva mínima | Una regla de DDS VNext §5 | Alto | Bajo sólo para esta variante | Bajo | No retirar en adelante viejos/discusiones/desacuerdos; historia separada de pendientes |
-
-**Tres intervenciones en dos VNext propietarias, no tres nuevos hallazgos o expedientes.** Los [pares completos31/32 al final de05A](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-de-cambios-al-final--primera-tanda-textual) y la [variante75 al final deDDS](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-de-cambios-al-final--variante-textual-del-75) muestran el viejo literal y el propuesto, ubicación actual, beneficio, riesgo, coste, dependencias, aceptación e instrucciones de Iván. Son texto de las VNext; no requieren cambiar originales canónicos, código, datos o freezes. Cada pasaje antiguo se localiza una vez en su contexto de trabajo, sin contar citas históricas como modificaciones aplicadas.
-
-### Por qué se mantiene el impacto y cómo se limita el riesgo
-
-31 evita una promoción indebida de evidencia;32 vuelve reconstruible su procedencia;75 protege la evidencia de revisión que futuras decisiones necesitarán. Son consecuencias de evidencia/autoridad/preservación, no maquillaje de formato. El impacto es esperado, no un beneficio empírico medido. El riesgo es Bajo porque la intervención no cambia algoritmo, contrato técnico, cifras o resultado y tiene contexto/alcance declarado. Los lectores afectados conservan sus significados: [05 Ideal VNext](../../research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-al-final--relación-con-la-tanda-textual-de-05a) recibe el contraste y mantiene intacta su frontera.
-
-**Orden:** leer31+32 juntas por atribución/procedencia, decidir cada pasaje, y leer por separado75 mínimo. Su variante y la redacción amplia75 comparten viejo: no aplicar ambas. Preparar la regla futura no restaura la historia perdida ni cierraT04; ese trabajo mantiene riesgo/esfuerzo Medio. El74 del checker también mantiene riesgo Medio y su sucesor/pruebas pendientes. No se cambia una etiqueta para forzarlo dentro de una tanda segura.
-
-### Lo que no se convierte en parche por esta selección
-
-Las épocas de los tres bindings SHA/README siguen por aclarar, con hashes intactos. Las siete parejas VNext se conservan como réplicas con propietario, no se borran o cuentan como independencia. HF sigue reteniendo el comparador convencional y resultados adversos; no se reescriben para fabricar ventaja EA. Esos hallazgos necesitan su trabajo propio y no se presentan como “resueltos” por tres frases.76 permanece de impacto Medio/Bajo riesgo, fuera del filtro estricto Alto/Bajo.
-
-**Estado:** tanda textual preparada para tu decisión; originales sin cambios. Registro: mismos76 IDs, mismos52 pares pendientes y9 líneas por concretar; una variante acotada del75, no un nuevo ID. El registro conserva el75 completo con riesgo Medio y muestra esta variante por separado. No se declara cerrado el ciclo científico de cinco/sexta, se abre campaña o se activa temporizador.
-
-
-**Base de publicación revalidada:** main avanzó a `bb3e5c449f3638bfe806a53d4302e547a0923fe8` por una adición de navegación de artículos y su anexo. Los seis destinos de esta tanda conservan exactamente sus blobs previos; los tres viejos y sus contextos siguen iguales. Se preserva esa publicación ajena y se mantiene `21c3946009af4a14433d7240eddce939e4ff9599` como corte de lectura del plan. La incorporación de sus propuestas no se infiere de este rebase.
-
-
----
-
 ## Revisión del otro agente sobre UC-21 — 12 octubre 2026
 
 **Codex, asistente de IA; contraste documental para decisión humana.** Se revisó el informe aportado por Iván y las seis VNext de UC-21 publicadas en `ee680a019a0cbd7270415f44237c894d370d275c`, rama `when-controls-work-system-fails-v0.9.3` de dakleyer/use-cases. Se leyeron las seis auditorías completas y contratos centrales, con pasajes de hipótesis/preregistro, status/admisión de los nueve perfiles y versión S3/S6; no una nueva revisión científica íntegra de todas las APIs/escenarios o ejecución de producto.
@@ -1355,167 +1283,11 @@ La primera tanda textual31/32/75 y su registro76 IDs mantienen su alcance anteri
 
 ---
 
-## Ola 1 propuesta — alta prioridad, alto impacto y bajo riesgo
-
-**12 octubre 2026 · Codex, asistente de IA, plan para decisión de Iván.** Se revalidó el registro1.11 y los pasajes contra `0cc02548fe0eb8d31e5a2a4dc3e18d26a9f2b979`; UC-21 se consultó en `76ac39bae74d10f4586f5fb787f69deaf7f59add`. Los planes y auditorías anteriores permanecen. Este plan selecciona y ordena cambios existentes, sin crear IDs, VNext, teoría o campaña.
-
-**Filtro estricto:** entre las propuestas completas pendientes del registro,31 y32 son Alto impacto/Bajo riesgo/Primera prioridad. Se añade la variante prospectiva y acotada75, también Alto/Bajo, sin rebajar el75 completo.26 y76 conservan impacto Medio;74 y la recuperación histórica75 conservan riesgo Medio. La cantidad de VNext no obliga a fabricar más candidatos que cumplan el filtro.
-
-### Tres pasajes, dos VNext, una tanda pequeña
-
-| Orden | Cambio y ubicación | Sustitución concreta | Impacto esperado | Riesgo | Esfuerzo |
-|---|---|---|---|---|---|
-| 1 | **75 limitado · DDS VNext §5, regla8** | En lugar de retirar propuestas incorporadas, retener viejo/nuevo, discusión y desacuerdo como historia fechada con versión/decisión; excluirlos de pendientes | Alto | Bajo, sólo regla futura | Bajo |
-| 2 | **31 · 05A VNext §2.10, una viñeta** | “Current public empirical evidence” pasa a análisis reportado por el contribuyente; la consulta no acredita reproducción independiente; conservar no-ground-truth/honest-judges | Alto | Bajo | Bajo |
-| 3 | **32 · 05A VNext §7, punto1 de ficha** | Anchor público pasa a anchor + fecha/hora de consulta + revisión/hash disponibles + proposición/scope; declarar ausencia de pin cuando corresponda | Alto | Bajo | Medio |
-
-**Los pares exactos, con viejo completo y propuesto, se conservan en sus propietarios:** [75, variante mínima](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-de-cambios-al-final--variante-textual-del-75) y [31/32, primera tanda textual](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-de-cambios-al-final--primera-tanda-textual). Los tres viejos siguen únicos dentro de sus contextos de trabajo, excluidas las citas de propuesta; los después no están incorporados. No se sustituye aquí el viejo por un resumen ni se duplica el expediente.
-
-### Ejecución que propongo después de una decisión concreta
-
-1. **Preservar y fijar la base:** comprobar head y únicos viejos de los dos documentos; conservar sus predecesoras auténticas y las discusiones. Si cambia un pasaje, preparar un par contra la nueva edición; no sobrescribir el viejo anterior.
-2. **Aplicar sólo75 prospectivo:** escoger esta variante o la regla del75 amplio, nunca ambos reemplazos. El cambio protege revisiones futuras; no restaura las conversaciones ya retiradas ni cierraT04. La recuperación histórica sigue fuera de esta ola.
-3. **Aplicar31 y32 como bloque de claridad de evidencia:** son dos pasajes separados de la misma05A VNext. Mantener autor, corte, límites y nivel contributor-reported; no reproducir datos, renovar todo Current, inventar pins o cambiar semánticas del productor. El texto de32 es corto, pero completar/mantener evidencias por fila exige esfuerzo Medio y se registra aparte; la frase no prueba que esa tarea esté hecha.
-4. **Comprobar y cerrar sólo la tanda:** diff limitado a esas tres unidades textuales y sus estados de revisión, sin cambiar fuentes canónicas, payloads, código, datos, resultados o hashes. Releer los dos documentos publicados, comprobar links/literalidad y distinguir propuesta incorporada en la VNext de adopción canónica. Marcar los candidatos con fecha y decisión; mantener la historia completa, sin otra VNext.
-
-**Criterio de aceptación humano:** el lector distingue reporte de reproducción, encuentra la edición de evidencia que fue consultada, y puede leer una propuesta cerrada sin verla como pendiente ni perder su discusión. Beneficios esperados, no eficacia empírica acreditada. Estas modificaciones son del cuerpo de trabajo/control de las VNext; no reescriben el bridge fuente congelado ni el método DDS.
-
-### Reserva y ola siguiente
-
-La precisión del [README UC-21](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/README_VNext.md#variante-acotada--envío-congelado-y-rama-viva), Alto impacto/Bajo riesgo textual/Bajo esfuerzo, es buena candidata de lectura. Su incorporación todavía necesita escoger un lector de revisión/sucesor: el README original continúa protegido. **No entra automáticamente como cuarto reemplazo ni se modifica el envío de FG-TIDA.**
-
-Quedan fuera de Ola1: checker74 y sus pruebas prospectivas; restitución histórica75; recertificación o cambio de manifiestos; sectores de Issue21 sin decisión del propietario; matriz científica y campos del Run record UC-21, con riesgo Medio y dependencias. Tampoco se borra una réplica o se reinterpreta el resultado adverso de HF por aprobar esta ola. Las tareas científicas de cinco/sexta mantienen su estado.
-
-**Decisión propuesta:** aprobar exactamente31,32 y75 variante mínima para trabajo en las dos VNext, con el alcance y verificaciones anteriores. Ahora sólo se publica el plan; no se ejecutan esos reemplazos. La autorización previa de publicar auditorías no se convierte en incorporación por esta nota. Los76 IDs y valoraciones históricas del registro se conservan.
 
 
----
+## Propuestas aplicadas retiradas
 
-<a id="ola2-diez-cambios"></a>
-
-## Ola 2 — diez cambios concretos para decidir
-
-**12 octubre 2026 · Codex.** Iván solicita diez cambios concretos, con viejo, propuesto y razón publicados primero en la VNext propietaria. La incorporación espera su go de esta ola. Se revalidaron fuentes y auditorías en `908fdc6c9372b533d1a383d490227333ce4756be`.
-
-La Ola 1 ya se aplicó en [908fdc6c9372b533d1a383d490227333ce4756be](https://github.com/dakleyer/structural-awareness-contributions/commit/908fdc6c9372b533d1a383d490227333ce4756be): 31/32 y variante limitada75. Sus notas anteriores de preparación describen aquella época; no vuelven a la cola. Para Ola 2 se reutilizan propuestas existentes y se acotan variantes, sin nuevos IDs ni expedientes.
-
-### Orden y alcance
-
-| Orden | Cambio | Propuesta previa | Impacto | Riesgo | Esfuerzo | Par completo en propietaria |
-|---|---|---|---|---|---|---|
-| 1 | P3 identifica una transición; no concede autoridad | 60 | Medio | Medio | Bajo | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/04_OPERATION_VNext.md#ola2-cambio-01) |
-| 2 | Contexto útil y coste: quitar la promesa implícita de «pequeño» | 11 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola2-cambio-02) |
-| 3 | Oráculo: declarar qué dominio respalda su acuerdo | 27 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola2-cambio-03) |
-| 4 | Dos mecanismos de Theme 13: atribuir claramente la propuesta | 34 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-04) |
-| 5 | Benchmark: conciliar W1 ya registrado y adopción pendiente | 40 | Alto | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#ola2-cambio-05) |
-| 6 | DDS: tres etapas y dos fases internas de Stage A | 76 | Medio | Bajo | Bajo | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#ola2-cambio-06) |
-| 7 | A significa resultado funcional, no sólo aserción o alcance | 72 | Medio | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01B_VNext.md#ola2-cambio-07) |
-| 8 | B_Cart: soporte y reserva evaluable, además de confianza | 38 | Medio | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/README_VNext.md#ola2-cambio-08) |
-| 9 | Requirements: seis escenarios y cuatro incorporaciones distintas | 14/15 | Medio | Bajo | Bajo | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-09) |
-| 10 | Una respuesta única puede seguir sin respaldo | 8 | Medio | Medio | Medio | [Viejo / propuesto](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola2-cambio-10) |
-
-**Diez cambios, catorce pasajes:** el benchmark40 requiere cuatro sustituciones coordinadas; Requirements14/15 dos. Cada otro candidato tiene un par. Los viejos completos se localizaron una vez en su cuerpo fuente, excluidas las citas históricas. Se conservan los planes anteriores, sus discrepancias y sus valoraciones. Esta selección actual define variantes cuando el texto se acota; el registro76IDs conserva su historia.
-
-Los primeros cinco mejoran la atribución de autoridad, el alcance de utilidad/coste, el dominio evaluado y la consistencia del estado documental. Los siguientes alinean DDS y los resúmenes A/B con sus definiciones, corrigen el inventario de escenarios y aclaran la inferencia matemática. Cuatro tienen impacto esperado Alto y seis Medio; dos riesgo Bajo y ocho Medio. Los riesgos concretos y el coste de lectura/validación están en cada propietaria.
-
-### Conciliación material de esta propuesta
-
-- **P3 y autoridad:** Operation ya mantiene ACC y permiso separados;60 retira la ambigüedad «authorizes the need» sin modificar selección o ejecución.
-- **00N y 00M:**11 condiciona tamaño/coste a la pregunta y perfil. El ejemplo8 preserva la premisa de compatibilidad; no demuestra ahorro ni suficiencia operacional.
-- **00M, 01B y MSCA:**72 mantiene A como resultado del proceso;38 resume el B_Cart que Composition§3.2 ya define. Son aclaraciones locales; las propuestas acopladas de RA conservan su propio plan.
-- **Benchmark, Requirements y WORKPLAN:**§9 registra el mapping W1 y WORKPLAN W2/Track D lo trata como revisión concluida.40 armoniza§§4/9/12/13 con ese estado y mantiene pendientes las condiciones de adopción.14/15 ajustan la cuenta E–J y evitan llamar independientes a cuatro familias distintas.
-- **DDS:**76 alinea la primera nota con Index§5 y las fases internas de StageA; no cambia identificadores históricos.
-
-### Decisión y aplicación
-
-Los pares están publicados al final de las diez VNext existentes. Sólo se añadieron planes y esta visión conjunta: ninguna sustitución de fuente se ejecutó. Iván puede decidir la ola completa o un subconjunto identificando sus números;40 se trata como un paquete de cuatro pasajes y14/15 como uno de dos. Los originales y fuentes congeladas mantienen su custodia, con la edición de revisión separada. Antes de la incorporación se vuelve a comprobar fuente/destino y se conserva el predecessor auténtico.
-
-
----
-
-<a id="ola2-redaccion-directa"></a>
-
-## Ola 2 — textos directos y asertivos
-
-**12 octubre 2026.** La instrucción de Iván se aplica a la redacción de las propuestas: afirmar primero qué hace el mecanismo, qué evidencia respalda la afirmación y qué condición guía su uso. Se eliminan las reservas repetidas; se mantienen autoridad, alcance y condiciones que determinan el significado técnico.
-
-Nueve candidatos tienen una redacción más breve y directa, con viejo completo y propuesto al final de su VNext. El9, cuenta y diversidad de escenarios, ya tiene redacción directa y se conserva. Esta revisión editorial mantiene los diez cambios y catorce pasajes de Ola2; los planes anteriores quedan como antecedentes.
-
-| Cambio | Texto propuesto vigente |
-|---|---|
-| 1 — P3 identifica una transición; no concede autoridad | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/04_OPERATION_VNext.md#ola2-redaccion-01) |
-| 2 — Contexto útil y coste: quitar la promesa implícita de «pequeño» | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola2-redaccion-02) |
-| 3 — Oráculo: declarar qué dominio respalda su acuerdo | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola2-redaccion-03) |
-| 4 — Dos mecanismos de Theme 13: atribuir claramente la propuesta | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-redaccion-04) |
-| 5 — Benchmark: conciliar W1 ya registrado y adopción pendiente | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#ola2-redaccion-05) |
-| 6 — DDS: tres etapas y dos fases internas de Stage A | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#ola2-redaccion-06) |
-| 7 — A significa resultado funcional, no sólo aserción o alcance | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01B_VNext.md#ola2-redaccion-07) |
-| 8 — B_Cart: soporte y reserva evaluable, además de confianza | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/README_VNext.md#ola2-redaccion-08) |
-| 9 — Requirements: seis escenarios y cuatro incorporaciones distintas | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-09) |
-| 10 — Una respuesta única puede seguir sin respaldo | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola2-redaccion-10) |
-
-**Decisión:** Ola2 aprobada por Iván y aplicada en `a27679dc451ce2db77432df2b206bb08339b24ef`: diez cambios y catorce sustituciones. Su cola pendiente está cerrada. Las futuras olas requieren su go.
-
-
----
-
-## Olas aplicadas y pendientes vigentes — 12 octubre 2026
-
-**Ola1 aplicada:**31,32 y regla prospectiva75, commit[908fdc6c9372b533d1a383d490227333ce4756be](https://github.com/dakleyer/structural-awareness-contributions/commit/908fdc6c9372b533d1a383d490227333ce4756be). **Ola2 aplicada:**60,11,27variante,34variante,40paquete,76,72,38variante,14/15 y8variante, commit[a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Sus fuentes coinciden con los después aprobados; quedan fuera de pendientes. La recuperación histórica75 se prepara aparte; la regla no se reaplica.
-
-Las VNext propietarias muestran «aplicado» con fecha y publicación. Las propuestas anteriores permanecen como antecedentes; el listado operativo y el extractor consultan los estados más recientes. El cierre de una ola incluye siempre verificación y actualización de su VNext.
-
-<a id="ola3-diez-cambios"></a>
-
-## Ola 3 — diez mejoras quirúrgicas de lectura y trazabilidad
-
-Todos los pares completos están al final de las VNext existentes. Esta ola mejora cómo se entra al corpus, se siguen los argumentos y se leen los controles. Los diez candidatos tienen impacto Medio, riesgo Bajo y esfuerzo Bajo; se conserva su valoración documental y su alcance concreto.
-
-| Número | Cambio | Propuesta | Texto completo |
-|---|---|---|---|
-| 1 | Cómo leer la trazabilidad | 6 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_A01_VNext.md#ola3-cambio-01) |
-| 2 | Enlazar la pregunta matemática con la funcional | 7 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola3-cambio-02) |
-| 3 | Acceso directo a la fuente primaria R4 | 9 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola3-cambio-03) |
-| 4 | Separar procedencia histórica y ruta vigente | 10 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md#ola3-cambio-04) |
-| 5 | Entrada por el ejemplo de dos señales ready | 12 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola3-cambio-05) |
-| 6 | Estado de publicación claro | 13 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola3-cambio-06) |
-| 7 | Ruta humana desde el índice a la trazabilidad | 20 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#ola3-cambio-07) |
-| 8 | Leer correctamente los controles del self-test | 26 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola3-cambio-08) |
-| 9 | Propósito del oráculo en una frase operativa | 28 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola3-cambio-09) |
-| 10 | Cinco referencias convertidas en enlaces | 30 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola3-cambio-10) |
-
-**Orden:** trazabilidad y propósito/controles del oráculo primero; después enlaces, rutas y estados de lectura.00M→00N→addendum conserva las versiones históricas y la ruta vigente. Las cinco rutas del oráculo y el ancla§3.6 se comprobaron contra el árbol actual; R4 se comprobó en la fuente primaria del autor.
-
-**Decisión:** Ola3 aplicada y verificada en `09fc270abfcc8efc3efdcee2279b80e145db55d5`: diez cambios en seis documentos. Los estados de las propietarias y la cola se actualizan en esta entrega; sus pares y auditorías permanecen.
-
-
----
-
-<a id="ola4-interfaces-escenarios"></a>
-
-## Ola 4 — coherencia de interfaces y escenarios, fuera de DDS
-
-Ola3 ya está aplicada en [09fc270abfcc8efc3efdcee2279b80e145db55d5](https://github.com/dakleyer/structural-awareness-contributions/commit/09fc270abfcc8efc3efdcee2279b80e145db55d5). Esta ola adicional prepara seis sustituciones coordinadas en04GeneralVNext,05IdealVNext y05ACurrentVNext, usando los cambios18/33 existentes.
-
-Se reconoce00I existente, se conserva su ruta paralela aUC6→matrices→UC4, se añadenI/J al catálogo interno y se sincronizan los resúmenes. ImpactoMedio/riesgoMedio/esfuerzoMedio; alcance documental acoplado, sin modificar casos, evidencia, contratos o código.
-
-Pares completos en [04](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j), [05Ideal](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j) y [05ACurrent](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola4-integracion-00i-00j). La orden actual de Iván autoriza preparar y aplicar esta ola adicional; se publica primero el plan y luego su incorporación/estado verificado.
-
-
----
-
-## Olas 3 y 4 aplicadas — 12 octubre2026
-
-- **Ola3 hecha:** diez sustituciones en seis documentos, [09fc270abfcc8efc3efdcee2279b80e145db55d5](https://github.com/dakleyer/structural-awareness-contributions/commit/09fc270abfcc8efc3efdcee2279b80e145db55d5). Estados actualizados y cambios fuera de pendientes.
-- **Ola4 hecha:** seis sustituciones coordinadas en04/05Ideal/05A, [dcdb42d9814f690a40e79c28ec7f5de0d98af8f0](https://github.com/dakleyer/structural-awareness-contributions/commit/dcdb42d9814f690a40e79c28ec7f5de0d98af8f0).18/33 cerrados mediante el paquete publicado; los antes/después quedan como historia.
-
-Se verificaron los segmentos exteriores a cada sustitución, predecesoras auténticas, árboles completos y contenidos publicados. La ola adicional aclara00I existente y catálogoI/J manteniendo sus rutas y propietarios. Ningún archivo o expediente nuevo ni eliminación; fuentes de casos, código y resultados conservados. Las siguientes olas vuelven a su decisión de incorporación.
-
-
-## Bloques aplicados retirados
-
-Por instrucción de Iván, los pares literales ya incorporados se retiran de esta VNext. Se conservan las auditorías y los cambios pendientes. Los textos cerrados y sus decisiones se consultan en el [historial anterior a la retirada](https://github.com/dakleyer/structural-awareness-contributions/blob/590198efd529ffd302fba2d982a126ee51a07068/architectural-contributions/ecosystem-positioning/README_VNext.md).
-
+Por autorización de Iván del 12 octubre 2026 se retiran las fichas completas de cambios ya incorporados: textos, títulos, justificaciones, valoraciones y filas de prioridad. Las auditorías y las propuestas pendientes permanecen. Las decisiones y fichas completas se consultan en la [predecesora de esta limpieza](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/architectural-contributions/ecosystem-positioning/README_VNext.md).
 
 ## Revisión del diseño de consolidación DDS por campañas — 12 octubre 2026
 
@@ -1572,3 +1344,54 @@ Iván confirma continuar con UC-21→objetivos→ejercicios existentes→DDS→r
 Las dos fichas aplicadas se retiraron de sus VNext activas y quedaron en Git/custodia auténtica; las auditorías y otras propuestas pendientes permanecen. Sólo cuatro archivos cambiaron en la rama: los dos lectores y sus dos VNext;73otrosblobs idénticos,0 nuevos/eliminados. La plantilla RUN_RECORD y la matriz EO anteriores no se aplicaron. SHA256SUMS.txt conserva su época anterior y no certifica los dos lectores nuevos. Main use-cases y el envío congelado permanecen intactos.
 
 La Issue pública mantiene sus enlaces de envío. El [README VNext](https://github.com/dakleyer/use-cases/blob/when-controls-work-system-fails-v0.9.3/contributions/when-controls-work-system-fails/README_VNext.md) deja preparado un único párrafo adicional con antes/después literal, Alto impacto/Bajo riesgo/Bajo esfuerzo, para enlazar seguimiento y DDS manteniendo el snapshot. Es una edición externa pendiente de decisión concreta. No se modificó la Issue, abrió otra campaña S5, creó carpetaDDS ni ejecutó migración o experimento. Este estado supersede las menciones previas a esas dos inserciones como pendientes; no altera los otros gates abiertos.
+
+
+## Trabajo complementario todavía pendiente
+
+Las épocas de los tres bindings SHA/README siguen por aclarar, con hashes intactos. Las siete parejas VNext se conservan como réplicas con propietario, no se borran o cuentan como independencia. HF sigue reteniendo el comparador convencional y resultados adversos; no se reescriben para fabricar ventaja EA. Esos hallazgos necesitan su trabajo propio y no se presentan como “resueltos” por tres frases.
+
+
+
+## Reserva pendiente fuera de las olas aplicadas
+
+La precisión del [README UC-21](https://github.com/dakleyer/use-cases/blob/76ac39bae74d10f4586f5fb787f69deaf7f59add/contributions/when-controls-work-system-fails/README_VNext.md#variante-acotada--envío-congelado-y-rama-viva), Alto impacto/Bajo riesgo textual/Bajo esfuerzo, es buena candidata de lectura. Su incorporación todavía necesita escoger un lector de revisión/sucesor: el README original continúa protegido. **No entra automáticamente como cuarto reemplazo ni se modifica el envío de FG-TIDA.**
+
+Quedan fuera de Ola1: checker74 y sus pruebas prospectivas; restitución histórica75; recertificación o cambio de manifiestos; sectores de Issue21 sin decisión del propietario; matriz científica y campos del Run record UC-21, con riesgo Medio y dependencias. Tampoco se borra una réplica o se reinterpreta el resultado adverso de HF por aprobar esta ola. Las tareas científicas de cinco/sexta mantienen su estado.
+
+
+
+
+
+<details>
+<summary>Historial de las propuestas incorporadas</summary>
+
+<a id="ep-readme-delta-001--nota-de-versiónrevisión-y-enlace"></a>
+<a id="cambio-1--nota-de-acceso-a-revisión-de-ep"></a>
+<a id="texto-antes--viejo-complete-affected-paragraph"></a>
+<a id="texto-después--publicado-complete-affected-local-unit"></a>
+<a id="primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026"></a>
+<a id="visión-conjunta-y-decisión"></a>
+<a id="por-qué-se-mantiene-el-impacto-y-cómo-se-limita-el-riesgo"></a>
+<a id="lo-que-no-se-convierte-en-parche-por-esta-selección"></a>
+<a id="ola-1-propuesta--alta-prioridad-alto-impacto-y-bajo-riesgo"></a>
+<a id="tres-pasajes-dos-vnext-una-tanda-pequeña"></a>
+<a id="ejecución-que-propongo-después-de-una-decisión-concreta"></a>
+<a id="reserva-y-ola-siguiente"></a>
+<a id="ola-2--diez-cambios-concretos-para-decidir"></a>
+<a id="orden-y-alcance"></a>
+<a id="conciliación-material-de-esta-propuesta"></a>
+<a id="decisión-y-aplicación"></a>
+<a id="ola-2--textos-directos-y-asertivos"></a>
+<a id="olas-aplicadas-y-pendientes-vigentes--12-octubre-2026"></a>
+<a id="ola-3--diez-mejoras-quirúrgicas-de-lectura-y-trazabilidad"></a>
+<a id="ola-4--coherencia-de-interfaces-y-escenarios-fuera-de-dds"></a>
+<a id="olas-3-y-4-aplicadas--12-octubre2026"></a>
+<a id="bloques-aplicados-retirados"></a>
+<a id="ola2-diez-cambios"></a>
+<a id="ola2-redaccion-directa"></a>
+<a id="ola3-diez-cambios"></a>
+<a id="ola4-interfaces-escenarios"></a>
+
+Las fichas retiradas se conservan completas en la [edición anterior](https://github.com/dakleyer/structural-awareness-contributions/blob/884e892a6fe1d0deffea493931c9fc5acf8e0258/architectural-contributions/ecosystem-positioning/README_VNext.md). Los enlaces anteriores siguen llevando a este historial.
+
+</details>
