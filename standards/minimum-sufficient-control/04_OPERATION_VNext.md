@@ -145,41 +145,8 @@ La nueva entrada preserva cualificación,Cart/RA,ACC/autoridad y no convierte el
 
 ### Revalidación del cambio59 contra la nueva fuente
 
-Blob vigente `e11731c36e207d11631ade1a60ee521537840801`; viejo único, contexto nuevo §4.1 examinado. **Texto antes — viejo completo:**
+**Aplicado en main — cambio59.** La variante revalidada coincide con el texto ya incorporado en `00ea3174c10a7e7cad84905d5642aa74eba35b18`. Se retira también esta ficha repetida de la cola. Su par histórico completo permanece en Git `00ea3174c10a7e7cad84905d5642aa74eba35b18`.
 
-```markdown
-For each candidate transition τ:
-
-~~~text
-G_i(τ | Δ_RA, Cart_i, X_i)
-=
-expected reduction in objective-conditioned risk
-=
-expected increase in Objective-Envelope fulfilment
-~~~
-
-as defined by the [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md).
-
-```
-
-**Texto después — propuesto completo:**
-
-```markdown
-For each candidate transition τ, the gradient compares current and candidate outcomes using the declared Objective-Envelope risk profile:
-
-~~~text
-G_i(τ | Δ_RA, Cart_i, X_i)
-= profile-qualified comparison of current and candidate objective-conditioned risk
-~~~
-
-For a supported scalar expectation this comparison may be expressed as expected risk reduction. Equivalence to an expected increase in fulfilment applies to the normalized binary reading V_i = 1 - R_i. Vector/Pareto profiles preserve their declared comparison relation and incomparable alternatives; they do not imply a unique scalar ranking.
-
-The [Objective-Conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) owns that comparison. Operation preserves its evidence limits, hard constraints and candidate-selection state; it does not fabricate a gain, maximum or execution permit.
-```
-
-Valoración/dependencias originales se conservan. Esta segunda localización no aplica la propuesta ni declara terminada la conciliación global.
-
-Blob vigente `e11731c36e207d11631ade1a60ee521537840801`; viejo único, contexto nuevo §4.1 examinado. 
 ## Revisión a fondo de los planes de cambio — 6 octubre 2026
 
 **Evaluación realizada por Codex, mismo asistente de IA, para que una persona pueda decidir.** Se revisan el plan, sus motivos de auditoría, pares literales, impacto, riesgo, esfuerzo y dependencias; no es la sexta pasada científica global ni acredita el cierre de las cinco. Fuente de este cotejo: commit `03db21016d6a0831a43d7a99d3640854ab549777`, [documento propietario](04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`. Los registros anteriores y sus viejos completos permanecen íntegros.

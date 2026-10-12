@@ -1,3 +1,5 @@
+> **Estado vigente — 12 octubre 2026.** Aplicadas y verificadas en main: cuatro adiciones de tanda5 y26cambios anteriores; UC-21 recibe su precisión de snapshot y conciliación de propuestas en su main. Ningún par vigente y ejecutable queda esperando otra autorización. Las nueve líneas43–51 describen investigación/perfiles/campañas sin un cambio literal definido. Sus estados permanecen separados. Las auditorías antiguas que dicen «pendiente» se leen por su fecha; la cola actual está en el registro de prioridades y este cierre.
+
 # Continuación del plan — lectura del README y fundamentos
 
 **6 de octubre de 2026 · revisión acumulativa 1.5.** La revisión sigue en este mismo chat con una continuación programada cada hora. El objetivo es completar las pasadas de todos los documentos del alcance y la conciliación final; publicar avances no cierra ese objetivo. Los estados siguientes describen trabajo real, no la mera existencia de una VNext.
@@ -1661,3 +1663,12 @@ RA y Operation comparten la lectura A/B/C/D: B conserva soporte/reserva evaluabl
 ### Líneas sin cambio literal ejecutable
 
 43–45 son tareas para localizar obligaciones/realización, y46–51 perfiles, fidelidad, campañas y evaluación de una realización. Continúan como trabajo de investigación definido por sus fuentes, no como cambios de texto esperando permiso.64/67 están superadas por01K vigente;65/66 resueltas por integración posterior;75 contradice la posterior instrucción de Iván de retirar fichas aplicadas y no tiene viejo vigente: no se restaura la cola retirada. Las propuestas descartadas o históricas no se reejecutan. La revisión científica completa del corpus y sus fuentes no se cierra por esta aplicación.
+
+
+## Cierre de aplicación autorizada — 12 octubre 2026
+
+**31 cambios de fuente incorporados:** tanda5(4) en [main9fb942](https://github.com/dakleyer/structural-awareness-contributions/commit/9fb9421711521decde6843b04914a143a1f04c35), anteriores(26) en [main00ea317](https://github.com/dakleyer/structural-awareness-contributions/commit/00ea3174c10a7e7cad84905d5642aa74eba35b18), ysnapshotUC-21(1) en [use-cases maine9efbda](https://github.com/dakleyer/use-cases/commit/e9efbda5e0cc002793a4df82484a6b3f47a79976). Se verificaron los10+36+7archivos de esas publicaciones por lectura completa de vuelta. Los cambios16/22/23 tienen dos sucesores de trabajo;74 tienechecker/testv0.4. Los tres originales permanecen con sus blobs exactos; los resultados/manifest/binaries se preservan. Se verificó la sustitución inversa del párrafoUC-21 y la identidad de los70otrosblobs de use-cases.
+
+No quedan pares actuales incorporables por aplicar.43–51 requieren concretar un perfil, contrato o investigación y no representan texto aprobado abandonado.3/4/5 fueron reformulados en71;64/67 superados;65/66 resueltos;75 superado por la instrucción posterior de retirar fichas aplicadas. Las tablasEO originales de UC-21 quedan históricas porque la guía de cincoobjetivos y el formulario existente ya resolvieron esa navegación; no se agrega una segunda1.1. Las fichas aplicadas y la repetición de59 se retiran de la cola, manteniendo auditorías, atribución, desacuerdos y predecessor Git.
+
+La entradaFG-TIDA conserva el envío congelado. Su propuesta de enlace queda preparada en UC-21 VNext; la integración GitHub devuelve403para modificar esa Issue. PDF y futuros experimentos no se sustituyen por esta publicación. La navegación ya incorporada funciona en main de ambos repositorios y apunta a los expedientes propietarios.
