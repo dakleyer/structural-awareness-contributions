@@ -434,3 +434,34 @@ EA investigates whether a task-relevant, qualified part of that context can surv
 ~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+
+
+---
+
+<a id="ola2-redaccion-02"></a>
+
+## Ola 2 — redacción directa del cambio 2
+
+**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 11; la anterior queda como antecedente.
+
+**Propósito:** La apertura debe prometer contexto pertinente, no un tamaño o coste universal. Permite contrastar la propuesta con límites reales de lectura, tiempo y capacidad.
+
+**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
+
+**Fuente:** [research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `b4e011d8e0d9a5beb8258ca572e504520140c883`.
+
+### Apertura, segunda oración del primer párrafo
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+EA investigates whether a small, qualified part of that context can survive in metadata—and whether composing it can reveal a reason to reassess before the opportunity to respond is lost.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+EA investigates whether task-relevant, qualified context can be preserved in metadata and composed to identify a reason to reassess while a useful response remains possible. Useful size, interpretation cost and sufficiency are assessed for the declared review question and source conditions.
+~~~~
+
+**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.

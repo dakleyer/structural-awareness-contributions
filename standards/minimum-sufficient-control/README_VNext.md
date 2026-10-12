@@ -349,3 +349,34 @@ Viejo verificado una vez fuera de citas de propuestas, línea 138 de la fuente f
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
 **Conciliación con Composition:** §3.2 ya contiene soporte, límites y reserva; no se propone modificar su definición. Las propuestas 35/37 y 52/53 mantienen su alcance propio; esta fila no las incorpora.
+
+
+---
+
+<a id="ola2-redaccion-08"></a>
+
+## Ola 2 — redacción directa del cambio 8
+
+**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 38; la anterior queda como antecedente.
+
+**Propósito:** El resumen MSCA reduce B_Cart a confidence; Composition §3.2 ya establece soporte, límites y reserva. Alinear esa fila evita perder parte de la arquitectura en la entrada.
+
+**Impacto Medio · Riesgo Medio · Esfuerzo Medio · Prioridad Siguiente.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
+
+**Fuente:** [standards/minimum-sufficient-control/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/standards/minimum-sufficient-control/README.md), blob `767b75b7670d248d40289776a1dabd000dc5d95d`.
+
+### Tabla de estado del README MSCA, fila Semantic/dependency/process structures
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+| Semantic/dependency/process structures inside `A_Cart` with element-wise `B_Cart` confidence | **DEFINED in Composition & Control v0.1** |
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+| Semantic/dependency/process structures inside `A_Cart`, qualified element-wise by `B_Cart` support, validity limits and characterized assessment reserve; confidence is one qualifier | **DEFINED in Composition & Control v0.1** |
+~~~~
+
+**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.

@@ -401,3 +401,34 @@ If the evidence fits no admitted state, that indicates inconsistency or model in
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
 **Relaciones conciliadas:** este ejemplo aclara §4.2 y conserva su premisa; 01B cambio72 remite a §1 para no reducir A a scope/claim, y MSCA cambio38 resume B conforme a Composition §3.2. Los propietarios 01B y MSCA registran sus pares en esta entrega. La apertura de 00N cambio11 mantiene pregunta/coste/suficiencia por perfil; el ejemplo no demuestra ahorro de contexto.
+
+
+---
+
+<a id="ola2-redaccion-10"></a>
+
+## Ola 2 — redacción directa del cambio 10
+
+**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 8; la anterior queda como antecedente.
+
+**Propósito:** Un ejemplo junto a la inferencia matemática permite entender por qué un singleton aproximado no demuestra que exista un estado fuente compatible.
+
+**Impacto Medio · Riesgo Medio · Esfuerzo Medio · Prioridad Siguiente.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
+
+**Fuente:** [research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), blob `c97353991117f63983feba24bf8344cf52e9f1e7`.
+
+### 00M §4.2, oración inicial del párrafo de inconsistencia
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+If the evidence fits no admitted state, that indicates inconsistency or model inadequacy, not certainty.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+Evidence that fits no admitted state indicates an inconsistency or an inadequate model. For example, a model admitting only red and blue observations cannot account for a green observation. A candidate answer retained by a conservative approximation needs a compatible source state to support it.
+~~~~
+
+**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.

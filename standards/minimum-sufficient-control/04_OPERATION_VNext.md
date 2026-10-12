@@ -371,3 +371,34 @@ P3 identifies the **need to qualify a legitimate transition path**. It grants no
 ~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+
+
+---
+
+<a id="ola2-redaccion-01"></a>
+
+## Ola 2 — redacción directa del cambio 1
+
+**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 60; la anterior queda como antecedente.
+
+**Propósito:** Elimina la ambigüedad de un verbo que parece otorgar permiso. La postura P3 señala la necesidad; ACC y autoridad gobiernan aprobación y ejecución.
+
+**Impacto Medio · Riesgo Medio · Esfuerzo Bajo · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
+
+**Fuente:** [standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md), blob `eb89ff9925434ba8480929da70871bbbf4cd1af9`.
+
+### §11.3, última oración
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+P3 does not authorize the destination. It authorizes the **need to qualify/execute a legitimate transition path** subject to ACC/authority.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+P3 identifies the need to qualify a legitimate transition path. ACC and the applicable authority mechanisms govern approval of the destination and execution.
+~~~~
+
+**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.

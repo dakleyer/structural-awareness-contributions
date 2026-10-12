@@ -730,3 +730,34 @@ Extension-review clarification0.1.3: technology–problem extension/isomorphism 
 ~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+
+
+---
+
+<a id="ola2-redaccion-06"></a>
+
+## Ola 2 — redacción directa del cambio 6
+
+**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 76; la anterior queda como antecedente.
+
+**Propósito:** La primera nota llama etapas DDS a dos fases internas. La corrección la alinea con el índice y evita que el lector infiera cinco etapas.
+
+**Impacto Medio · Riesgo Bajo · Esfuerzo Bajo · Prioridad Siguiente.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
+
+**Fuente:** [research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md), blob `5b8517185308f75f57b8ce2096360e27d760438a`.
+
+### Nota Extension-stage clarification0.1.3 al principio
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+Extension-stage clarification0.1.3: technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are explicit DDS stages for any declared base. Their completion and evidence remain scoped.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+Extension-review clarification0.1.3: DDS has three development stages: A, B and C. Technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal phases of Stage A, historically labelled Stage1 and Stage2. Completion and evidence are recorded for each declared base and scope.
+~~~~
+
+**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.

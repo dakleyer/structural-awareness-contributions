@@ -125,3 +125,34 @@ The symbol **x** is deliberately used for a candidate control configuration. It 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
 
 **Conciliación con 00M:** §1 entrega el resultado A del proceso; la corrección de la notación x se cotejó con esa definición. La VNext de 00M registra la misma relación en esta entrega.
+
+
+---
+
+<a id="ola2-redaccion-07"></a>
+
+## Ola 2 — redacción directa del cambio 7
+
+**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 72; la anterior queda como antecedente.
+
+**Propósito:** La notación de 01B reduce A a assertion/scope. Precisarla conecta correctamente el componente con la definición compartida de 00M y con los distintos tipos de resultado.
+
+**Impacto Medio · Riesgo Medio · Esfuerzo Medio · Prioridad Siguiente.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
+
+**Fuente:** [research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/01B_EA_MSCA_INTERFACE_ANNEX_v0.2.md), blob `53c08ab1644d031ab0f7b53de5efa24ef5c8520f`.
+
+### §2, párrafo de notación x frente a A
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+The symbol **x** is deliberately used for a candidate control configuration. It must not be called **A**, because A is already a component of the canonical EA qualified-position tuple (situated assertion/scope).
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The symbol **x** denotes a candidate control configuration. **A** denotes the functional result delivered by the declared producer and process for a specified question, scope, capability and time. A claim or scope declaration may be part of that result.
+~~~~
+
+**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.

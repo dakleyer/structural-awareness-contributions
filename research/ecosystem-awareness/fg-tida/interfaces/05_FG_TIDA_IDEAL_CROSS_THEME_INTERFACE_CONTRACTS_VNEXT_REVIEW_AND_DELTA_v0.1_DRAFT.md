@@ -993,3 +993,34 @@ This ideal projection proposes **two peer mechanisms** for Theme #13-derived wor
 ~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+
+
+---
+
+<a id="ola2-redaccion-04"></a>
+
+## Ola 2 — redacción directa del cambio 4
+
+**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 34; la anterior queda como antecedente.
+
+**Propósito:** Conserva el diseño lifecycle/EA y atribuye su relación a esta proyección. Una propuesta de interoperación se entiende sin presentarla como arquitectura adoptada por el grupo.
+
+**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
+
+**Fuente:** [research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md), blob `9c3923599d07a248e206bf87e120927b99bcfa7c`.
+
+### §3, Ideal 05 consequence, oración anterior a la tabla
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+Theme #13-derived work should contain **two peer mechanisms**:
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+This ideal projection proposes **two peer mechanisms** for Theme #13-derived work: **Incident / Signal Lifecycle** and **Ecosystem Awareness**. The table specifies their responsibilities and bidirectional interfaces.
+~~~~
+
+**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.

@@ -1332,3 +1332,34 @@ The reference implementations provide internal cross-checks over their declared 
 ~~~~
 
 **Instrucción de Iván:** presentar los pares en la VNext antes de traerlos al chat y ejecutar sólo después del go de cada ola. **Decisión:** pendiente. Originales y fuentes congeladas conservados; estos pares preparan la redacción de revisión. Las variantes anteriores quedan como historia; esta selección no autoriza aplicarlas conjuntamente.
+
+
+---
+
+<a id="ola2-redaccion-03"></a>
+
+## Ola 2 — redacción directa del cambio 3
+
+**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 27; la anterior queda como antecedente.
+
+**Propósito:** Hace visible que dos implementaciones concordantes son un cotejo interno sobre un dominio delimitado; ayuda a decidir qué tecnología o perfil puede compararse después.
+
+**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
+
+**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `a467c6d60803bf0864dd23ba260bd92d67aec993`.
+
+### §Claim boundary, párrafo completo
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+A passing self-test means only that this first instrument path behaves as specified on author-constructed synthetic controls. It does not establish the correctness of the complete R01 C-V evaluator, scalability, statistical performance, an EA differential or suitability of any real technology. C11 registration and T03 real-technology execution remain later gates.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
+~~~~
+
+**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.

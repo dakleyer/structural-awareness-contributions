@@ -1442,3 +1442,29 @@ Los primeros cinco mejoran la atribución de autoridad, el alcance de utilidad/c
 ### Decisión y aplicación
 
 Los pares están publicados al final de las diez VNext existentes. Sólo se añadieron planes y esta visión conjunta: ninguna sustitución de fuente se ejecutó. Iván puede decidir la ola completa o un subconjunto identificando sus números;40 se trata como un paquete de cuatro pasajes y14/15 como uno de dos. Los originales y fuentes congeladas mantienen su custodia, con la edición de revisión separada. Antes de la incorporación se vuelve a comprobar fuente/destino y se conserva el predecessor auténtico.
+
+
+---
+
+<a id="ola2-redaccion-directa"></a>
+
+## Ola 2 — textos directos y asertivos
+
+**12 octubre 2026.** La instrucción de Iván se aplica a la redacción de las propuestas: afirmar primero qué hace el mecanismo, qué evidencia respalda la afirmación y qué condición guía su uso. Se eliminan las reservas repetidas; se mantienen autoridad, alcance y condiciones que determinan el significado técnico.
+
+Nueve candidatos tienen una redacción más breve y directa, con viejo completo y propuesto al final de su VNext. El9, cuenta y diversidad de escenarios, ya tiene redacción directa y se conserva. Esta revisión editorial mantiene los diez cambios y catorce pasajes de Ola2; los planes anteriores quedan como antecedentes.
+
+| Cambio | Texto propuesto vigente |
+|---|---|
+| 1 — P3 identifica una transición; no concede autoridad | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/04_OPERATION_VNext.md#ola2-redaccion-01) |
+| 2 — Contexto útil y coste: quitar la promesa implícita de «pequeño» | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola2-redaccion-02) |
+| 3 — Oráculo: declarar qué dominio respalda su acuerdo | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola2-redaccion-03) |
+| 4 — Dos mecanismos de Theme 13: atribuir claramente la propuesta | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-redaccion-04) |
+| 5 — Benchmark: conciliar W1 ya registrado y adopción pendiente | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md#ola2-redaccion-05) |
+| 6 — DDS: tres etapas y dos fases internas de Stage A | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#ola2-redaccion-06) |
+| 7 — A significa resultado funcional, no sólo aserción o alcance | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01B_VNext.md#ola2-redaccion-07) |
+| 8 — B_Cart: soporte y reserva evaluable, además de confianza | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/standards/minimum-sufficient-control/README_VNext.md#ola2-redaccion-08) |
+| 9 — Requirements: seis escenarios y cuatro incorporaciones distintas | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-09) |
+| 10 — Una respuesta única puede seguir sin respaldo | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola2-redaccion-10) |
+
+**Decisión:** Ola2 espera su go. Los originales mantienen su texto. La edición de las propuestas y el tono se realizaron en las VNext existentes.

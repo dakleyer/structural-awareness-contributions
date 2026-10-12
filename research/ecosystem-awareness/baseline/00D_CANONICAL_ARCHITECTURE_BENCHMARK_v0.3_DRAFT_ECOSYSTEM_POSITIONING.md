@@ -691,3 +691,76 @@ Viejo verificado una vez fuera de citas de propuestas, línea 402 de la fuente f
 Este paquete reemplaza la variante antigua que sólo tocaba §12; no se aplican ambas. Se cotejó WORKPLAN W2/Track D, blob `fe793085dadd4695b2163f8de844196911d15907`: ya dice «W1 Requirements review is complete» y «W1 traceability already closed». No necesita cambio para estos cuatro pares. La revisión W1 registrada se mantiene; la adopción y ejecución del benchmark siguen con sus propios gates.
 
 **Fuente receptora cotejada:** [WORKPLAN, W2](https://github.com/dakleyer/structural-awareness-contributions/blob/908fdc6c9372b533d1a383d490227333ce4756be/research/ecosystem-awareness/WORKPLAN.md). Su estado de mapping concuerda con §9; la corrección devuelve esa misma lectura a §§4/9/12/13, sin reiniciar W1 ni cerrar el ciclo científico del corpus.
+
+
+---
+
+<a id="ola2-redaccion-05"></a>
+
+## Ola 2 — redacción directa del cambio 5
+
+**12 octubre 2026.** Iván solicita textos asertivos y concretos. Esta es la redacción propuesta vigente del cambio 40; la anterior queda como antecedente.
+
+**Propósito:** §9 ya contiene el mapping, mientras §§4/9 siguen tratándolo como futuro. Cuatro precisiones coordinadas eliminan esa inconsistencia sin cerrar los demás gates.
+
+**Impacto Alto · Riesgo Medio · Esfuerzo Medio · Prioridad Primera.** Se mantienen las dependencias, aceptación y valoración del plan de Ola2.
+
+**Fuente:** [research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md](https://github.com/dakleyer/structural-awareness-contributions/blob/ef0b8c1ef489226bbb6f81b0fb6028f2c32c50f8/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_v0.3_DRAFT_ECOSYSTEM_POSITIONING.md), blob `4f4eb69989edab9663614d407661b20ecb23f8e5`.
+
+### §4
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+These hypotheses remain **provisional until W1 Requirements-vNext maps them explicitly to S1–S14 / T1–T4 / H1–H6 / KPI or identifies a justified requirements extension**.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The W1 mapping to S1–S14 / T1–T4 / H1–H6 / KPI is recorded in §9. These hypotheses remain provisional while the source, comparator, protocol and fixture-admission gates in §13 are completed.
+~~~~
+
+### §9
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+Before this draft can replace v0.2, W1 Requirements-vNext must produce a delta table for every EP-BH#:
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The W1 delta table for every EP-BH# is recorded below. It maps this draft to the current requirements; benchmark adoption additionally requires the gates in §13:
+~~~~
+
+### §12
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+- that this draft has passed the Requirements-vNext or bibliographic gate.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+- completion of bibliographic review, fixture admission or benchmark adoption on the basis of the W1 mapping alone.
+~~~~
+
+### §13
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+1. **W1 Requirements-vNext delta:** every EP-BH# is mapped to the current requirement system or a justified versioned requirements change.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+1. **W1 Requirements-vNext delta — recorded:** the completed mapping review in §9 uses the current requirement system; any later versioned change requires an updated mapping.
+~~~~
+
+**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.
