@@ -123,3 +123,64 @@ El paquete neutral del lector ciego se entrega separado de los enlaces a adjudic
 Los resultados negativos permanecen en lectura principal de la ficha: v0.6 registra siete efectos conocidos prohibidos para el control convencional fuerte y ocho para EA meta-local en ese conjunto sintético. No seleccionar sólo victorias ni agregar versiones con contratos distintos. Los scripts escriben junto a sí mismos: check.py regenera results.json; v0.6 run.py escribe registros, resumen y hashes. No ejecutarlos sobre el archivo preservado para comprobar una migración.
 
 Prioridad: ficha e índice con fuentes exactas, impacto Alto/riesgo Bajo/esfuerzo Medio. Copia de los121 archivos actuales HF no basta para preservar sus dependencias congeladas externas al subárbol. [Extensiones VNext](../README_VNext.md), [DDS VNext](../../../../../DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) y [EP VNext](../../../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md) contienen las consecuencias recíprocas. Sin cambios de resultados, código, contratos o clasificación retroactiva.
+
+
+## Tanda 5 — campañas, estudios e informes · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda4 y pide que todas las tandas aprobadas estén en main. Contributions `1897ed9424f58b95a10f2839c8e5b9f7bf741935` incorpora la4; use-cases main `d4fad875d12c1542fff8236ec484d68c6e641327` publica los54archivos UC-21 ya existentes en su rama y una entrada raíz añadida conservando los23archivos previos. Se reutilizan las seis VNext del paquete: ningún expediente nuevo. Continúa este trabajo en main de ambos repositorios. La rama anterior queda como historia. Esta tanda publica revisión y cuatro candidatos nuevos; no los aplica. PDF y entradaFG-TIDA siguen al final.
+
+### Relación de pregunta, registro, ejecución y retorno
+
+Se cotejaron los13CURRENT_STUDY_RECORD y su evidence successor con catalogue/reportes; las47fuentes materiales seleccionadas conservan sus blobs en el head. Se leyeron cierres, scope, resultados y pasajes de accounting de los reportes para contrastar unidades/epochs; no se declara otra auditoría completa de todos los anexos/código ni se rerun ningún experimento. En los13 registros coinciden case count y ambas fraccionesType1/Type2 con la evidencia sucesora. El conjunto descriptivo contiene162operaciones/casos:122 del primercohorte y40 del segundo. No es una tasa común ni162observaciones independientes de una misma tecnología.
+
+El linaje distingue resultado original, sucesor coste/tipos de nueve perfiles y repair successor de trece. Se preservan26controles originales y40controles de reparación/positivos, elegidos tras conocer defectos. Un replay no duplica la muestra. Los antiguos párrafos no puntuados pertenecen a su versión; los nuevos diagnósticos tienen su registro, inputs yadmisiónM propios. RawP no se fuerza aType2 yØ no se fuerza aType1: el SQL conserva unP fuera deType2 yHEW tiene9Ø sin convertirlas en9Type1.
+
+### Comparaciones y trabajos separados
+
+Las fuentes HF conservan éxitos convencionales y límites: strong-native8/8 frente a7/8native+EA; cachedlineage EA8/10 frente a9/10revalidación; Casbin-polling mejora con recarga convencional tick15 frente a17EA. Los rapports de access-check para native/model-receiver declaran cero model requests/episodes y bloqueo antes de ejecución. No se hereda ejecución de modelos desde los nombres de directorio. El botv0.6 conserva30casos×10arms=300trazas sintéticas y7efectos known-denied del comparatorstrong-assurance frente a8EA-meta-local; no se convierte en aceptación del paquete StageAv0.3, que registra blind-reader/mutations pendientes.
+
+Los lotes R123(480redes), socialcontinuo(960) ydynamicreview(1056) se leen por sus protocolos propios: redes y receiver/checkpoint records no son muestras deLLM. En esos lotes no se ejecutó un brazoEA; se conservan revalidación convencional y pendientes de admisión/continuidad. El00I-STATEFUL aporta efecto/recovery local por contrato separado;00L combina trazas en papel, evidencia simbólica y correcciones. No se crea una campaña por fichero, repetición o réplica.
+
+### Inconsistencia material encontrada
+
+00K-A04 anuncia379 al principio y conserva en§6 un bloque101+27=128 presentado como expected regression contract. El runner actual fija42+58+49+76+47+74=346core y10+11+12=33supplemental,379total; el router coincide. Se propone una aclaración vigente al final y enlace directo desde DDS a ella. Los números anteriores, código, historial, resultados adversos yfalsifiers permanecen. No se ejecutaron los379tests aquí ni se los usa como score científico.
+
+### Prioridad y siguientes pasos
+
+Cuatro candidatos de impactoAlto/riesgoBajo/esfuerzoMedio: primero00Kconteo, luego linaje de estudios, mapa de informes DDS ycomparaciones HF. El beneficio es reconocer el trabajo ya ejecutado y qué conclusión puede usarse. Riesgos concretos: duplicar cohortes, mezclar unidades/versiones o asociar un pendingaunresult; las adiciones enlazan el registro eidentifican alcance. No cambian thresholds, datos, hipótesis o experimentos. PendingGOtanda5. Después corresponde conciliación de navegación; esta tanda no equivale al cierre de las cinco/sexta pasadas científicas de todo el corpus.
+
+
+Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
+
+### Plan pendiente — Selección directa de comparaciones HF y resultados adversos
+
+Fuente `research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/hugging-face/README.md`, commit `1897ed9424f58b95a10f2839c8e5b9f7bf741935`, blob `52781750bef95aab29d28331feacbfd7f98d215e`. Ubicación: al final, después del contexto completo. Hace visibles los informes completos y controles convencionales favorables junto a las reparaciones EA, sin copiar el anexo bot ni promover preregistros a ejecuciones.
+
+ImpactoAlto / riesgoBajo / esfuerzoMedio; prioridadPrimera; orden4; estado pendiente del GOtanda5. Beneficio: lectura de unidades/linajes yconclusiones correctas. Riesgo: enlaces/síntesis oconfusión deversión, controlado por fuente/pin/contexto yconservación. Dependencias: cuatroadiciones compatibles, enlace DDS a00K/HF/extensiones se valida enconjunto. Instrucción deIván: todaslastandas aprobadas enmain; avanzar por lotes, conservar información yPDFalfinal. El GOtanda4 no incorpora esta5.
+
+**Texto antes — contexto viejo literal y completo**
+
+````markdown
+Original base wording retained for traceability: Part 3 fixes a candidate 00G-family specialization and obligations to represent HF traces; admission requires a separate audit.
+````
+
+**Texto después — contexto íntegro y adición completa**
+
+````markdown
+Original base wording retained for traceability: Part 3 fixes a candidate 00G-family specialization and obligations to represent HF traces; admission requires a separate audit.
+
+
+## Recorded comparisons and their results
+
+Select the report for the receiver configuration actually tested:
+
+| Study | Recorded finding | Complete report |
+|---|---|---|
+| Strong programmed native reference and native+EA | Native completes8/8 tasks; native+EA7/8. The added EA processing loses the short-deadline continuity branch. | [Paired results](../../../../traversals/00G-HF-SCRIPTED-PAIRED-v0.1/RESULTS.md) |
+| Cached source lineage | EA repairs the selected stale-lineage failures; conventional current-source revalidation also repairs them. Across the ten authored cases, EA completes8/10 and conventional revalidation9/10. | [Cached-lineage results](../../../../traversals/00G-HF-CACHED-LINEAGE-v0.1/RESULTS.md) |
+| PyCasbin1.43.0 with selected polling interval | Timely EA and conventional reload prevent the selected stale-policy effect. Conventional reload completes at logical tick15 versus17 for EA. | [Casbin-polling results](../../../../traversals/00G-HF-CASBIN-POLLING-v0.1/RESULTS.md) |
+
+Each report links its registration, inputs, raw outcomes, verification and retained limits. These are different programmed studies; their task counts and logical ticks stay attached to their own contracts.
+
+For later bot approximations and v0.2–v0.6 counterfactuals, use the [single BOT-APPROX annex](./annexes/BOT_APPROXIMATIONS_AND_PARTIAL_RUNS/README.md). For the prospective specification adjudication, use the [Stage A v0.3 preregistration](./DDS_STAGE_A_RUN_CARD_v0.3_PREREGISTERED.json), which records its pending blind-reader and mutation work. The proposed study and the exploratory bot records retain separate identities.
+````

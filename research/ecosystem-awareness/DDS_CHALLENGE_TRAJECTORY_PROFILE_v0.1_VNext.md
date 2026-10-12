@@ -595,3 +595,66 @@ La relación se registra en ambos extremos: [plan EP](https://github.com/dakleye
 Iván autoriza continuar después de la tanda4 y pide que todas las tandas aprobadas estén en main. Se incorporan exactamente las cuatro adiciones a DDSIndex, oracle README, UC4 bridge y adapter guide. Sus bytes anteriores y enlaces permanecen íntegros. Las cuatro fichas incorporadas salen de pendientes; los pares completos quedan en la [preparación publicada](https://github.com/dakleyer/structural-awareness-contributions/blob/bb432e8a9e2809612d2b721b3660974362c34879/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md). Se conservan auditorías y otras decisiones abiertas.
 
 Contributions ya contiene en main las tandas1–3. UC-21 se publica ahora en main de use-cases con sus54archivos existentes: fuentes, anexos, assets, fixtures y las seis VNext del paquete. La rama anterior permanece como historia. Los23archivos preexistentes de main se conservan; el README raíz recibe sólo un enlace añadido. No se altera un código, dato, manifiesto, resultado o PDF, ni se borra/mueve un archivo. Las revisiones siguientes de UC-21 usan main. Continúa tanda5: campañas e informes, con candidatos nuevos sujetos a su propioGO.
+
+
+## Tanda 5 — campañas, estudios e informes · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda4 y pide que todas las tandas aprobadas estén en main. Contributions `1897ed9424f58b95a10f2839c8e5b9f7bf741935` incorpora la4; use-cases main `d4fad875d12c1542fff8236ec484d68c6e641327` publica los54archivos UC-21 ya existentes en su rama y una entrada raíz añadida conservando los23archivos previos. Se reutilizan las seis VNext del paquete: ningún expediente nuevo. Continúa este trabajo en main de ambos repositorios. La rama anterior queda como historia. Esta tanda publica revisión y cuatro candidatos nuevos; no los aplica. PDF y entradaFG-TIDA siguen al final.
+
+### Relación de pregunta, registro, ejecución y retorno
+
+Se cotejaron los13CURRENT_STUDY_RECORD y su evidence successor con catalogue/reportes; las47fuentes materiales seleccionadas conservan sus blobs en el head. Se leyeron cierres, scope, resultados y pasajes de accounting de los reportes para contrastar unidades/epochs; no se declara otra auditoría completa de todos los anexos/código ni se rerun ningún experimento. En los13 registros coinciden case count y ambas fraccionesType1/Type2 con la evidencia sucesora. El conjunto descriptivo contiene162operaciones/casos:122 del primercohorte y40 del segundo. No es una tasa común ni162observaciones independientes de una misma tecnología.
+
+El linaje distingue resultado original, sucesor coste/tipos de nueve perfiles y repair successor de trece. Se preservan26controles originales y40controles de reparación/positivos, elegidos tras conocer defectos. Un replay no duplica la muestra. Los antiguos párrafos no puntuados pertenecen a su versión; los nuevos diagnósticos tienen su registro, inputs yadmisiónM propios. RawP no se fuerza aType2 yØ no se fuerza aType1: el SQL conserva unP fuera deType2 yHEW tiene9Ø sin convertirlas en9Type1.
+
+### Comparaciones y trabajos separados
+
+Las fuentes HF conservan éxitos convencionales y límites: strong-native8/8 frente a7/8native+EA; cachedlineage EA8/10 frente a9/10revalidación; Casbin-polling mejora con recarga convencional tick15 frente a17EA. Los rapports de access-check para native/model-receiver declaran cero model requests/episodes y bloqueo antes de ejecución. No se hereda ejecución de modelos desde los nombres de directorio. El botv0.6 conserva30casos×10arms=300trazas sintéticas y7efectos known-denied del comparatorstrong-assurance frente a8EA-meta-local; no se convierte en aceptación del paquete StageAv0.3, que registra blind-reader/mutations pendientes.
+
+Los lotes R123(480redes), socialcontinuo(960) ydynamicreview(1056) se leen por sus protocolos propios: redes y receiver/checkpoint records no son muestras deLLM. En esos lotes no se ejecutó un brazoEA; se conservan revalidación convencional y pendientes de admisión/continuidad. El00I-STATEFUL aporta efecto/recovery local por contrato separado;00L combina trazas en papel, evidencia simbólica y correcciones. No se crea una campaña por fichero, repetición o réplica.
+
+### Inconsistencia material encontrada
+
+00K-A04 anuncia379 al principio y conserva en§6 un bloque101+27=128 presentado como expected regression contract. El runner actual fija42+58+49+76+47+74=346core y10+11+12=33supplemental,379total; el router coincide. Se propone una aclaración vigente al final y enlace directo desde DDS a ella. Los números anteriores, código, historial, resultados adversos yfalsifiers permanecen. No se ejecutaron los379tests aquí ni se los usa como score científico.
+
+### Prioridad y siguientes pasos
+
+Cuatro candidatos de impactoAlto/riesgoBajo/esfuerzoMedio: primero00Kconteo, luego linaje de estudios, mapa de informes DDS ycomparaciones HF. El beneficio es reconocer el trabajo ya ejecutado y qué conclusión puede usarse. Riesgos concretos: duplicar cohortes, mezclar unidades/versiones o asociar un pendingaunresult; las adiciones enlazan el registro eidentifican alcance. No cambian thresholds, datos, hipótesis o experimentos. PendingGOtanda5. Después corresponde conciliación de navegación; esta tanda no equivale al cierre de las cinco/sexta pasadas científicas de todo el corpus.
+
+
+Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
+
+### Plan pendiente — Mapa de informes por unidad de investigación
+
+Fuente `research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md`, commit `1897ed9424f58b95a10f2839c8e5b9f7bf741935`, blob `3d675e351107ced4aac6061c6746a95c0f34fe5a`. Ubicación: al final, después del contexto completo. El lector encuentra los informes existentes desde el método y conserva estudios, tests, redes y calibraciones como unidades distintas. Incluye la nueva entrada UC-21 en main.
+
+ImpactoAlto / riesgoBajo / esfuerzoMedio; prioridadPrimera; orden3; estado pendiente del GOtanda5. Beneficio: lectura de unidades/linajes yconclusiones correctas. Riesgo: enlaces/síntesis oconfusión deversión, controlado por fuente/pin/contexto yconservación. Dependencias: cuatroadiciones compatibles, enlace DDS a00K/HF/extensiones se valida enconjunto. Instrucción deIván: todaslastandas aprobadas enmain; avanzar por lotes, conservar información yPDFalfinal. El GOtanda4 no incorpora esta5.
+
+**Texto antes — contexto viejo literal y completo**
+
+````markdown
+For a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.
+````
+
+**Texto después — contexto íntegro y adición completa**
+
+````markdown
+For a comparative study, freeze the task, facts, information access, authority, tools, resources, human capacity, timing and intended differences between arms. Read [Stage C comparator conditions](./DDS_GATE_C_IMPLEMENTATION_PROBLEM_VALIDATION_v0.1.md#8-comparators-and-fairness) with the selected stage's own contract. The campaign retains both successful conventional controls and adverse or inconclusive findings.
+
+
+## 15. Recorded work and its owning reports
+
+Read the report that owns the question before its run data. The routes below collect existing work without making a new campaign out of a folder, replay or file count.
+
+| Recorded work | Owning report / evidence route | Unit and reading purpose |
+|---|---|---|
+| Thirteen local technology studies | [Study and successor lineage](./baseline/reductions/00G-R01/extensions/README.md#follow-the-evidence-from-original-study-to-successor) | Bounded questions, original cases, cost/type and repair successors. |
+| Six-principle symbolic work | [00K campaign summary](./baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_CAMPAIGN_SUMMARY_v0.1.md#current-regression-count--12-october-2026) and [execution router](./baseline/fixtures/00K-SUITE/README.md) | Regression assertions over declared fixtures and their retained falsifiers. |
+| Six-family paper/symbolic traversals | [00L reports](./baseline/00L_REINFORCED_PAPER_TRAVERSALS_00E_00J_v0.1/README.md) | Conditional paper traces, symbolic records and correction/reproduction history. |
+| S5 state/effect and recovery | [00I-STATEFUL report](./baseline/fixtures/00I-STATEFUL/README.md) | Local synthetic stateful execution and its SQLite/process-recovery companion. |
+| HF receiver comparisons | [HF report-selection guide](./baseline/reductions/00G-R01/extensions/hugging-face/README.md#recorded-comparisons-and-their-results) | Paired programmed receiver paths, cached-lineage and configured Casbin-polling findings. |
+| HF probabilistic/social/dynamic work | [R123](./baseline/traversals/00G-HF-PROBABILISTIC-R123-v0.1/RESULTS.md), [social propagation](./baseline/traversals/00G-HF-CONTINUOUS-SOCIAL-v0.1/RESULTS.md), [dynamic review](./baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/results/RESULTS.md) | Networks and receiver/checkpoint records in different constructed campaigns; these lots contain no EA arm. |
+| Instrument calibration | [R01 calibration v0.9](./baseline/reductions/00G-R01/oracle/SELFTEST_RECORD_v0.9.md) | Controls of the evaluator infrastructure, kept separate from technology-study outcomes. |
+
+[UC-21's maintained package on main](https://github.com/dakleyer/use-cases/blob/main/contributions/when-controls-work-system-fails/README.md) connects objectives and Challenges to these routes. A case conclusion cites the particular report/version and evidence it uses. Existing registrations retain the names, units and stopping rules under which their work was recorded.
+````

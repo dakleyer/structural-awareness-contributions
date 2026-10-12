@@ -84,3 +84,37 @@ No se asigna impacto o riesgo a un cambio inexistente ni se fabrica un antes/des
 **Consecuencia entre documentos:** [25](../../reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [47](../../reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026), [48](../../reductions/00G-R01/oracle/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Estas conexiones conservan el desacuerdo y las condiciones de cada fuente; no fabrican consenso ni permiso de ejecución.
 
 [Visión conjunta y tandas en EP README VNext](../../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+## Tanda 5 — campañas, estudios e informes · 12 octubre 2026
+
+**Revisión realizada por Codex, mismo asistente.** Iván autoriza la tanda4 y pide que todas las tandas aprobadas estén en main. Contributions `1897ed9424f58b95a10f2839c8e5b9f7bf741935` incorpora la4; use-cases main `d4fad875d12c1542fff8236ec484d68c6e641327` publica los54archivos UC-21 ya existentes en su rama y una entrada raíz añadida conservando los23archivos previos. Se reutilizan las seis VNext del paquete: ningún expediente nuevo. Continúa este trabajo en main de ambos repositorios. La rama anterior queda como historia. Esta tanda publica revisión y cuatro candidatos nuevos; no los aplica. PDF y entradaFG-TIDA siguen al final.
+
+El runner leído estáticamente y su README coinciden en346+33=379. 00K-A04 aún contiene128 en§6 aunque su intro/tablas dan379. La discrepancia afecta la lectura del contrato, no prueba una ejecución fallida. Los32archivados históricos y77correctionchecks de00L son grupos separados. Candidato de aclaración en el informeA04, sin cambiar runner/manifest/fixtures ni otroprincipio.
+
+Revisión cruzada: [plan EP](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/architectural-contributions/ecosystem-positioning/README_VNext.md), [DDS VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md), [extensiones VNext](https://github.com/dakleyer/structural-awareness-contributions/blob/1897ed9424f58b95a10f2839c8e5b9f7bf741935/research/ecosystem-awareness/baseline/reductions/00G-R01/extensions/README_VNext.md), [UC-21 VNext en main](https://github.com/dakleyer/use-cases/blob/d4fad875d12c1542fff8236ec484d68c6e641327/contributions/when-controls-work-system-fails/README_VNext.md). Cada registro conserva su propietario; estas notas son del mismo asistente.
+
+### Plan pendiente — Conciliar el contrato actual379 con el bloque128 conservado
+
+Fuente `research/ecosystem-awareness/baseline/00K_A04_SIX_PRINCIPLE_SYMBOLIC_EXECUTION_CAMPAIGN_SUMMARY_v0.1.md`, commit `1897ed9424f58b95a10f2839c8e5b9f7bf741935`, blob `55259d1863e062e02f40d0bf50e91b50788c7e4a`. Ubicación: al final, después del contexto completo. El mismo informe dice379 al principio y128 en§6. Runner/router y tabla de core/supplemental corroboran346+33; la adición aclara el valor vigente conservando todos los números y resultados previos.
+
+ImpactoAlto / riesgoBajo / esfuerzoMedio; prioridadPrimera; orden1; estado pendiente del GOtanda5. Beneficio: lectura de unidades/linajes yconclusiones correctas. Riesgo: enlaces/síntesis oconfusión deversión, controlado por fuente/pin/contexto yconservación. Dependencias: cuatroadiciones compatibles, enlace DDS a00K/HF/extensiones se valida enconjunto. Instrucción deIván: todaslastandas aprobadas enmain; avanzar por lotes, conservar información yPDFalfinal. El GOtanda4 no incorpora esta5.
+
+**Texto antes — contexto viejo literal y completo**
+
+````markdown
+The next evidence level is external/independent reproduction of the symbolic fixtures and then matched-resource execution against concrete implementation profiles.
+````
+
+**Texto después — contexto íntegro y adición completa**
+
+````markdown
+The next evidence level is external/independent reproduction of the symbolic fixtures and then matched-resource execution against concrete implementation profiles.
+
+
+## Current regression count — 12 October 2026
+
+The [current runner](./fixtures/00K-SUITE/run_all.py) and [execution router](./fixtures/00K-SUITE/README.md) specify **346 core +33 supplemental =379 regression tests**. The `101/27/128` block retained in Section6 does not describe that current execution contract. Read the current counts with the individual fixture records; the retained smaller block remains visible in this document's history.
+
+The379 tests are regression assertions over the declared symbolic fixtures. Their count is separate from the32 archived historical assertions, the77 later correction checks and any technology-study case count. This reading clarification changes no runner, fixture, expected outcome or recorded result.
+````
