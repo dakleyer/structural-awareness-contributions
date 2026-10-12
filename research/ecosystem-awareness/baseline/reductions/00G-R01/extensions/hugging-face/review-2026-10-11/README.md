@@ -1,3 +1,5 @@
+> **12 October reproducibility update:** [First-channel EA/policy synthetic experiment, v0.3](./traversals/first-channel-counterfactual-v0.3/README.md) (18 cases × 7 arms; 10 modelled communication traversals). Source, complete per-case outputs and digests are published. The v0.2 first attempt is preserved; v0.3 separates unknown permission from actual denied permission and includes a matched strong native control. **No real-model or incident replication; no proven EA differential.**
+
 # Hugging Face / Ecosystem Awareness / DDS — Public Review Hub
 
 **Public research notebook and independent-review entry point, 11 October 2026 — v0.1.**
