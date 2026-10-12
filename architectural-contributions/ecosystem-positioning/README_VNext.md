@@ -1467,4 +1467,36 @@ Nueve candidatos tienen una redacción más breve y directa, con viejo completo 
 | 9 — Requirements: seis escenarios y cuatro incorporaciones distintas | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00_REQUIREMENTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#ola2-cambio-09) |
 | 10 — Una respuesta única puede seguir sin respaldo | [Texto antes / después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola2-redaccion-10) |
 
-**Decisión:** Ola2 espera su go. Los originales mantienen su texto. La edición de las propuestas y el tono se realizaron en las VNext existentes.
+**Decisión:** Ola2 aprobada por Iván y aplicada en `a27679dc451ce2db77432df2b206bb08339b24ef`: diez cambios y catorce sustituciones. Su cola pendiente está cerrada. Las futuras olas requieren su go.
+
+
+---
+
+## Olas aplicadas y pendientes vigentes — 12 octubre 2026
+
+**Ola1 aplicada:**31,32 y regla prospectiva75, commit[908fdc6c9372b533d1a383d490227333ce4756be](https://github.com/dakleyer/structural-awareness-contributions/commit/908fdc6c9372b533d1a383d490227333ce4756be). **Ola2 aplicada:**60,11,27variante,34variante,40paquete,76,72,38variante,14/15 y8variante, commit[a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Sus fuentes coinciden con los después aprobados; quedan fuera de pendientes. La recuperación histórica75 se prepara aparte; la regla no se reaplica.
+
+Las VNext propietarias muestran «aplicado» con fecha y publicación. Las propuestas anteriores permanecen como antecedentes; el listado operativo y el extractor consultan los estados más recientes. El cierre de una ola incluye siempre verificación y actualización de su VNext.
+
+<a id="ola3-diez-cambios"></a>
+
+## Ola 3 — diez mejoras quirúrgicas de lectura y trazabilidad
+
+Todos los pares completos están al final de las VNext existentes. Esta ola mejora cómo se entra al corpus, se siguen los argumentos y se leen los controles. Los diez candidatos tienen impacto Medio, riesgo Bajo y esfuerzo Bajo; se conserva su valoración documental y su alcance concreto.
+
+| Número | Cambio | Propuesta | Texto completo |
+|---|---|---|---|
+| 1 | Cómo leer la trazabilidad | 6 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_A01_VNext.md#ola3-cambio-01) |
+| 2 | Enlazar la pregunta matemática con la funcional | 7 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola3-cambio-02) |
+| 3 | Acceso directo a la fuente primaria R4 | 9 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00M_VNext.md#ola3-cambio-03) |
+| 4 | Separar procedencia histórica y ruta vigente | 10 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_ADDENDUM_VNext.md#ola3-cambio-04) |
+| 5 | Entrada por el ejemplo de dos señales ready | 12 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola3-cambio-05) |
+| 6 | Estado de publicación claro | 13 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/00N_VNext.md#ola3-cambio-06) |
+| 7 | Ruta humana desde el índice a la trazabilidad | 20 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/README_VNext.md#ola3-cambio-07) |
+| 8 | Leer correctamente los controles del self-test | 26 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola3-cambio-08) |
+| 9 | Propósito del oráculo en una frase operativa | 28 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola3-cambio-09) |
+| 10 | Cinco referencias convertidas en enlaces | 30 | [Antes/después](https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README_VNext.md#ola3-cambio-10) |
+
+**Orden:** trazabilidad y propósito/controles del oráculo primero; después enlaces, rutas y estados de lectura.00M→00N→addendum conserva las versiones históricas y la ruta vigente. Las cinco rutas del oráculo y el ancla§3.6 se comprobaron contra el árbol actual; R4 se comprobó en la fuente primaria del autor.
+
+**Decisión:** Ola3 preparada, pendiente de su go. Cuando se incorpore cada pasaje, se marcará aplicado y se retirará de pendientes en la misma entrega, conservando el antes/después y las auditorías.

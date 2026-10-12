@@ -155,4 +155,11 @@ The symbol **x** is deliberately used for a candidate control configuration. It 
 The symbol **x** denotes a candidate control configuration. **A** denotes the functional result delivered by the declared producer and process for a specified question, scope, capability and time. A claim or scope declaration may be part of that result.
 ~~~~
 
-**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.
+**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio72 hecho y retirado de pendientes; se conserva el par completo.
+
+
+## Aplicaciones confirmadas — 12 octubre 2026
+
+- **Aplicado:** Ola2 cambio7 / propuesta72.
+
+Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.

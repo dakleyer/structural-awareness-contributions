@@ -672,7 +672,7 @@ La alternativa siguiente se limita a evitar retiradas futuras mediante una regla
 
 ## Plan de cambios al final — variante textual del 75
 
-**Ubicación:** §5, regla8 del cuerpo anterior, fuera de las citas de propuestas. Viejo: una coincidencia en ese contexto; propuesto: ninguna. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Preparado para decisión; no aplicado.
+**Ubicación:** §5, regla8 del cuerpo anterior, fuera de las citas de propuestas. Viejo: una coincidencia en ese contexto; propuesto: ninguna. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Aplicado el 12 de octubre de 2026 en `908fdc6c9372b533d1a383d490227333ce4756be`; variante fuera de pendientes.
 
 **Texto antes — viejo literal completo**
 
@@ -690,7 +690,7 @@ La alternativa siguiente se limita a evitar retiradas futuras mediante una regla
 
 **Riesgo concreto:** la regla es prospectiva; no declara recuperadas las conversaciones antiguas ni altera el estado de una incorporación. Las notas fechadas sobre retiradas pasadas conservan su significado histórico. **Coste:** cotejo de una regla con conservación del procedimiento y T04, custodia y lectura de vuelta; restauración/adjudicación histórica sigue en el75 completo con riesgo/esfuerzo Medio.
 
-**Compatibilidad y orden:** esta variante y el75 amplio reemplazan la misma regla: escoger una redacción, no aplicar dos reemplazos. Decidir esta variante no descarta el trabajo histórico pendiente. No modifica Stage A, Stage B/C, checkers, pruebas, hashes o resultados. **Instrucción de Iván:** conservar originales y conversaciones, una VNext por unidad y viejo completo visible. **Decisión:** pendiente sobre este texto exacto; publicación de auditoría y plan autorizada, incorporación no ejecutada.
+**Compatibilidad y orden:** esta variante y el75 amplio reemplazan la misma regla: escoger una redacción, no aplicar dos reemplazos. Decidir esta variante no descarta el trabajo histórico pendiente. No modifica Stage A, Stage B/C, checkers, pruebas, hashes o resultados. **Instrucción de Iván:** conservar originales y conversaciones, una VNext por unidad y viejo completo visible. **Decisión:** Iván aprobó y se incorporó esta regla en `908fdc6c9372b533d1a383d490227333ce4756be`. La recuperación histórica del75 mantiene su trabajo separado por concretar.
 
 **Fuera de esta tanda:** 74 necesita el sucesor/contrato y comprobaciones prospectivas; 75 histórico necesita custodia auténtica. Los tres SHA256/README requieren identificar épocas; no se corrigen hashes para simular conservación. Las siete réplicas conservan propietario/custodia y no se borran. Los resultados HF contrarios siguen válidos dentro de su scope. 76 es claridad de impacto Medio, riesgo Bajo; se conserva pero no se eleva artificialmente a Alto. [Primera tanda conjunta](../../architectural-contributions/ecosystem-positioning/README_VNext.md#primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026).
 
@@ -760,4 +760,14 @@ Extension-stage clarification0.1.3: technology–problem extension/isomorphism p
 Extension-review clarification0.1.3: DDS has three development stages: A, B and C. Technology–problem extension/isomorphism profiling and non-isomorphic mechanism study are two internal phases of Stage A, historically labelled Stage1 and Stage2. Completion and evidence are recorded for each declared base and scope.
 ~~~~
 
-**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.
+**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio76 hecho y retirado de pendientes; se conserva el par completo.
+
+
+## Aplicaciones confirmadas — 12 octubre 2026
+
+- **Aplicado:** Ola1 variante limitada75.
+- **Aplicado:** Ola2 cambio6 / propuesta76.
+
+Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+Continúan por separado el checker74 y la recuperación histórica75. La regla futura75 y la precisión DDS76 ya están aplicadas.

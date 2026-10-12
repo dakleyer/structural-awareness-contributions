@@ -151,3 +151,30 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Abrir ambos pares históricos/actuales, conservar fecha y papel de cada nota; original identificado sólo por edición futura/ficha. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+<a id="ola3-cambio-04"></a>
+
+## Ola 3 — cambio 4: Separar procedencia histórica y ruta vigente
+
+**Estado: pendiente del go de Iván.** Propuesta existente10 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
+
+**Fuente:** [research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md), blob `37a22b64bf81b5f1b80d9b85fe24fe5eba4fad63`. **Ubicación:** Párrafo de estado del addendum; línea3, viejo localizado una vez fuera de quotes.
+
+**Razón:** Conserva las versiones usadas al escribir el addendum y añade la ruta actual de lectura.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+**Optional addendum · v0.1 · 2 October 2026 · local research draft.** Companion to [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). It identifies useful precedents and bounded research comparisons. It reports no EA experiment and adds no canonical requirements or hypotheses.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+**Optional addendum · v0.1 · 2 October 2026 · research draft.** Written alongside [00M v0.6](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.6_RESEARCH_NOTE.md) and [00N v0.5](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.5_RESEARCH_NOTE.md). Those links identify its source versions. The current reading route is [00M v0.8](./00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md), then [00N v0.7](./00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md). This addendum identifies research precedents and comparisons.
+~~~~
+
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.

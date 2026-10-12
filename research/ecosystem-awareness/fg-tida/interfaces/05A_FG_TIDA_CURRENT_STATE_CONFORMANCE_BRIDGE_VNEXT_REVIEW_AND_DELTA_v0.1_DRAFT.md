@@ -667,7 +667,7 @@ Los dos cambios actúan sobre cómo se interpreta y documenta evidencia: no modi
 
 ### 31 — Una viñeta: reporte del contribuyente, no reproducción independiente
 
-**Ubicación:** §2.10, viñeta “Released matched-rate/item-disagreement analysis”. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Estado: preparado para decisión; no aplicado.
+**Ubicación:** §2.10, viñeta “Released matched-rate/item-disagreement analysis”. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Estado: aplicado el 12 de octubre de 2026 en `908fdc6c9372b533d1a383d490227333ce4756be`; fuera de pendientes.
 
 **Texto antes — viejo literal completo**
 
@@ -683,7 +683,7 @@ Los dos cambios actúan sobre cómo se interpreta y documenta evidencia: no modi
 
 **Por qué importa:** evita promover una consulta de cifras a reproducción independiente o corrección establecida. Conserva el hallazgo F004, los límites no-ground-truth/honest-judges y la propiedad de Theme21. El beneficio es epistemológico/documental, no una nueva validación empírica.
 
-**Riesgo y esfuerzo:** una viñeta, sin recalcular cifras ni tocar datos. Mantener el corte y atribución del reporte; no afirmar ausencia mundial de reproducciones posteriores. **Dependencias/aceptación:** §2.10, F004 y §7; el lector debe reconocer autoría, alcance y qué evidencia falta. 05 Ideal mantiene su diferencia población/decisión; no requiere cambiar sus contratos por esta precisión. **Iván:** decisión pendiente sobre este pasaje; autorización de publicar el plan no aplica la propuesta.
+**Riesgo y esfuerzo:** una viñeta, sin recalcular cifras ni tocar datos. Mantener el corte y atribución del reporte; no afirmar ausencia mundial de reproducciones posteriores. **Dependencias/aceptación:** §2.10, F004 y §7; el lector debe reconocer autoría, alcance y qué evidencia falta. 05 Ideal mantiene su diferencia población/decisión; no requiere cambiar sus contratos por esta precisión. **Iván:** go concedido; este pasaje está aplicado en `908fdc6c9372b533d1a383d490227333ce4756be`.
 
 ### 32 — Un punto de lista: fecha y edición de la fuente
 
@@ -703,6 +703,13 @@ Los dos cambios actúan sobre cómo se interpreta y documenta evidencia: no modi
 
 **Por qué importa:** permite reconstruir qué comentario o edición mutable sostuvo una promoción Current, sin que una consulta parcial renueve todo el mapa. Completa F006; §7 ya exige estado fuente, scope, dueño, review y test, que permanecen.
 
-**Riesgo y coste:** no inventar revisionId o hash; donde no existe pin, dejar explícita la limitación. Registrar una fecha no hace inmutable la fuente. Revisión/mantenimiento por fila sigue siendo trabajo real y posterior; no se añade un campo a un payload común. **Dependencias/aceptación:** fuente/fecha/revisión o limitación visibles para la relación examinada; 05A conserva el filtro estrecho frente a 05 Ideal. **Iván:** decisión concreta pendiente; no migración retrospectiva de todas las filas por aprobar este texto.
+**Riesgo y coste:** no inventar revisionId o hash; donde no existe pin, dejar explícita la limitación. Registrar una fecha no hace inmutable la fuente. Revisión/mantenimiento por fila sigue siendo trabajo real y posterior; no se añade un campo a un payload común. **Dependencias/aceptación:** fuente/fecha/revisión o limitación visibles para la relación examinada; 05A conserva el filtro estrecho frente a 05 Ideal. **Iván:** go concedido; este punto está aplicado en `908fdc6c9372b533d1a383d490227333ce4756be`. El mantenimiento de evidencia por fila continúa como trabajo separado.
 
 **Orden y alcance de esta tanda:** 31 y32 son decisiones separables; leerlas juntas para que el reporte tenga alcance y edición, sin convertirlas en revisión de todo FG-TIDA. Los pares anteriores se conservan literalmente; éstos son la revalidación actual al final del expediente, con los mismos IDs. [Visión conjunta](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026). Originales sólo en lectura; sin nuevos resultados, cambios canónicos o cierre de pasadas pendientes.
+
+
+## Aplicaciones confirmadas — 12 octubre 2026
+
+- **Aplicado:** Ola1 cambios31/32.
+
+Publicación comprobada: [908fdc6c9372b533d1a383d490227333ce4756be](https://github.com/dakleyer/structural-awareness-contributions/commit/908fdc6c9372b533d1a383d490227333ce4756be). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.

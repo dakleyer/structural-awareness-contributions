@@ -763,4 +763,11 @@ The W1 delta table for every EP-BH# is recorded below. It maps this draft to the
 1. **W1 Requirements-vNext delta — recorded:** the completed mapping review in §9 uses the current requirement system; any later versioned change requires an updated mapping.
 ~~~~
 
-**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.
+**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio40 hecho y retirado de pendientes; se conserva el par completo.
+
+
+## Aplicaciones confirmadas — 12 octubre 2026
+
+- **Aplicado:** Ola2 cambio5 / propuesta40.
+
+Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.

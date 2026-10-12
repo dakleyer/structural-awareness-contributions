@@ -379,4 +379,11 @@ Viejo verificado una vez fuera de citas de propuestas, línea 138 de la fuente f
 | Semantic/dependency/process structures inside `A_Cart`, qualified element-wise by `B_Cart` support, validity limits and characterized assessment reserve; confidence is one qualifier | **DEFINED in Composition & Control v0.1** |
 ~~~~
 
-**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.
+**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio38 hecho y retirado de pendientes; se conserva el par completo.
+
+
+## Aplicaciones confirmadas — 12 octubre 2026
+
+- **Aplicado:** Ola2 cambio8 / propuesta38.
+
+Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.

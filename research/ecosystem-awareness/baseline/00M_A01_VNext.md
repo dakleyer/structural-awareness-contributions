@@ -151,3 +151,32 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Comprobar las cuatro filas y sus no-claims. Fuente identificada: mantener original; decisión sobre una edición futura/ficha, sin aplicar sobre el hash publicado. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+<a id="ola3-cambio-01"></a>
+
+## Ola 3 — cambio 1: Cómo leer la trazabilidad
+
+**Estado: pendiente del go de Iván.** Propuesta existente6 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
+
+**Fuente:** [research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md), blob `8832c255e3775116046273363c131c05878af16d`. **Ubicación:** §2, después del encabezado; línea25, viejo localizado una vez fuera de quotes.
+
+**Razón:** Relaciona las cuatro operaciones con obligaciones, condiciones e hipótesis sin exigir al lector conocer las siglas.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+## 2. Compact traceability
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+## 2. Compact traceability
+
+Read each row as a research route from a proposed operation to its requirement, sufficiency condition and hypothesis. S1–S14 are specification obligations, T1–T4 are jointly constraining sufficiency conditions, and H1–H6 are hypotheses to test. M1–M4 label the four operations in this note. The table records proposed traceability; conformance is established by the corresponding evidence.
+~~~~
+
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.

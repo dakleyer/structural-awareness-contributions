@@ -464,4 +464,65 @@ EA investigates whether a small, qualified part of that context can survive in m
 EA investigates whether task-relevant, qualified context can be preserved in metadata and composed to identify a reason to reassess while a useful response remains possible. Useful size, interpretation cost and sufficiency are assessed for the declared review question and source conditions.
 ~~~~
 
-**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.
+**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio11 hecho y retirado de pendientes; se conserva el par completo.
+
+
+## Aplicaciones confirmadas — 12 octubre 2026
+
+- **Aplicado:** Ola2 cambio2 / propuesta11.
+
+Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+
+---
+
+<a id="ola3-cambio-05"></a>
+
+## Ola 3 — cambio 5: Entrada por el ejemplo de dos señales ready
+
+**Estado: pendiente del go de Iván.** Propuesta existente12 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
+
+**Fuente:** [research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `1e130611b0447df3e5ba02dbc9b77e2d9938889c`. **Ubicación:** Apertura, frase de significado A/B/C/D; línea15, viejo localizado una vez fuera de quotes.
+
+**Razón:** Ofrece un caso concreto antes de volver a las condiciones T1–T4.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+The A/B/C/D meanings are those of the preceding note; older shorthand elsewhere in the corpus is not an alternative definition for this argument.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The A/B/C/D meanings are those of the preceding note. Start with [the two ready signals in §3.6](#36-two-ready-signals-one-version-condition), then use the T1–T4 table to connect the example with information quality, response, timing and cost conditions.
+~~~~
+
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
+
+
+---
+
+<a id="ola3-cambio-06"></a>
+
+## Ola 3 — cambio 6: Estado de publicación claro
+
+**Estado: pendiente del go de Iván.** Propuesta existente13 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
+
+**Fuente:** [research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/00N_FROM_MECHANISM_TO_REQUIREMENTS_SCIENTIFIC_PLAUSIBILITY_v0.7_RESEARCH_NOTE.md), blob `1e130611b0447df3e5ba02dbc9b77e2d9938889c`. **Ubicación:** Línea Research note; línea11, viejo localizado una vez fuera de quotes.
+
+**Razón:** El estado actual coincide con la publicación pública y conserva fecha y versión.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+**Research note · v0.7 · 2 October 2026 · local draft for review.**
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+**Research note · v0.7 · 2 October 2026 · publicly available working draft for review.**
+~~~~
+
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.

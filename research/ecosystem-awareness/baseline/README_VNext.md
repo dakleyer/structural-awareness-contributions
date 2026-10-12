@@ -366,3 +366,30 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Codex, mismo asistente; `17b597bf91acb0f37daebc716e8f23f65daa23eb`.** Se cotejó cada delta de clasificación de 00E–00J: añadieron contexto DDS, no resultados nativos. Los límites anteriores permanecen; no se renombra S/T/H ni se revalida una edición congelada. Tres README de extensiones necesitan una época SHA clara. No corregir pruebas o resultados para obtener éxito.
 
 Los datos y límites están en [EP VNext](../../../architectural-contributions/ecosystem-positioning/README_VNext.md#nueva-revisión-integral-de-cambios-y-consistencia--12-octubre-2026). Los 49 pares pendientes mantienen su viejo localizado; eso no prueba compatibilidad o cierre científico. Sin otra firma independiente, experimentos o cambios a originales.
+
+
+---
+
+<a id="ola3-cambio-07"></a>
+
+## Ola 3 — cambio 7: Ruta humana desde el índice a la trazabilidad
+
+**Estado: pendiente del go de Iván.** Propuesta existente20 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Siguiente.**
+
+**Fuente:** [research/ecosystem-awareness/baseline/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/README.md), blob `fa320b88a1553280c5815c01f8bb8c0fb1c049b9`. **Ubicación:** Párrafo Three visual reading aids; línea15, viejo localizado una vez fuera de quotes.
+
+**Razón:** Conecta el índice con una tabla útil de operaciones y requisitos sin crear otro nivel de README.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+[**Three visual reading aids and downloads**](./visuals/README.md) summarize A/B/C/D, the four mathematical tasks, and selected requirement routes. The full notes govern their interpretation. The [**optional research-neighbour and experimental-precedent addendum**](./00N_RESEARCH_NEIGHBOURS_AND_EXPERIMENTAL_PRECEDENTS_v0.1_ADDENDUM.md) is retained with its original historical companion links; use 00M v0.8 and 00N v0.7 for the current reading route. Read [00M-A01, mechanism-to-requirements traceability](./00M_A01_MECHANISM_TO_REQUIREMENTS_TRACEABILITY_v0.1_WORKING_PROPOSAL.md) for the proposed routes from the four operations to requirements, sufficiency conditions and test hypotheses.
+~~~~
+
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.

@@ -1362,4 +1362,108 @@ A passing self-test means only that this first instrument path behaves as specif
 The self-test checks the instrument against author-constructed synthetic controls. Its reference implementations cross-check the declared synthetic trajectory and finite, nonnegative conjunctive DAG domains. C11 registers the evaluation profile; T03 evaluates a pinned real-technology implementation. Coverage of other R01 profiles and independent validation require their corresponding evidence.
 ~~~~
 
-**Decisión de ola:** pendiente del go de Iván. Aplicar esta redacción en lugar de la variante anterior cuando se autorice la incorporación.
+**Decisión de ola:** aprobada por Iván y aplicada el 12 de octubre de 2026 en `a27679dc451ce2db77432df2b206bb08339b24ef`. Cambio27 hecho y retirado de pendientes; se conserva el par completo.
+
+
+## Aplicaciones confirmadas — 12 octubre 2026
+
+- **Aplicado:** Ola2 cambio3 / propuesta27.
+
+Publicación comprobada: [a27679dc451ce2db77432df2b206bb08339b24ef](https://github.com/dakleyer/structural-awareness-contributions/commit/a27679dc451ce2db77432df2b206bb08339b24ef). Estos cambios están hechos y quedan fuera de pendientes. Se conservan sus textos antes/después y las auditorías.
+
+
+---
+
+<a id="ola3-cambio-08"></a>
+
+## Ola 3 — cambio 8: Leer correctamente los controles del self-test
+
+**Estado: pendiente del go de Iván.** Propuesta existente26 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
+
+**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** What is executable now, antes de la enumeración; línea75, viejo localizado una vez fuera de quotes.
+
+**Razón:** Explica por qué el self-test es correcto aunque sus controles produzcan PASS, FAIL e INCONCLUSIVE.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+The [v0.9 calibration record](./SELFTEST_RECORD_v0.9.md) has expected PASS outcomes for positive and tied-optimum controls, expected FAIL outcomes for connector-boundary, inadmissible-route and cost/deadline controls, and an expected INCONCLUSIVE outcome for the no-reference control. The self-test succeeds when each control returns its registered outcome.
+
+The current Stage-0 self-test is intentionally small and now reuses several control patterns already demonstrated in Nelson's Stage-0 calibration. It verifies that the harness can:
+~~~~
+
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
+
+**Evidencia:** SELFTEST_RECORD_v0.9 mantiene dosPASS, tresFAIL y unINCONCLUSIVE como outcomes registrados; la frase explica esa calibración, con seis controles. El registro fuente se conserva.
+
+
+---
+
+<a id="ola3-cambio-09"></a>
+
+## Ola 3 — cambio 9: Propósito del oráculo en una frase operativa
+
+**Estado: pendiente del go de Iván.** Propuesta existente28 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
+
+**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** Párrafo Status inicial; línea7, viejo localizado una vez fuera de quotes.
+
+**Razón:** Explica entrada, comparación y condiciones antes de atribución y detalles técnicos.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+**Status: limited implementation + successful Stage-0 instrumentation self-test · 5 October 2026.** This directory contains the executable C02 instrument slice requested for R01. It is not a real-technology campaign, not an externally validated oracle, and not an FG-TIDA deliverable.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+**Status: limited implementation with a successful Stage-0 instrumentation self-test · 5 October 2026.** This directory implements the C02 instrument slice for R01. It compares a recorded candidate choice or execution with the best admissible route in a frozen world, using declared quality, resource and deadline conditions. The evaluator's private information is kept separate from the candidate's observations.
+~~~~
+
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
+
+
+---
+
+<a id="ola3-cambio-10"></a>
+
+## Ola 3 — cambio 10: Cinco referencias convertidas en enlaces
+
+**Estado: pendiente del go de Iván.** Propuesta existente30 revalidada el 12 octubre2026. **Impacto Medio; riesgo Bajo; esfuerzo Bajo; prioridad Primera.**
+
+**Fuente:** [research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/a27679dc451ce2db77432df2b206bb08339b24ef/research/ecosystem-awareness/baseline/reductions/00G-R01/oracle/README.md), blob `29a11f9e4e5b6446b34e014c92513271e0d75f14`. **Ubicación:** Bloque Corpus reuse; línea30, viejo localizado una vez fuera de quotes.
+
+**Razón:** El lector puede abrir directamente escenarios, métodos y trazas desde el oráculo.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+Corpus reuse:
+
+- R01 scenario §§1.4, 2.6, 2.15–2.17: ../Escenario-creatividad-validacion.md
+- Existing partial C3 oracle: ../../../fixtures/00G-HF-ORACLE-v0.4/README.md
+- Bounded oracle / fixture method: ../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md
+- Deterministic harness pattern: ../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md
+- Canonical Trace v1 source implementation: ../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+Corpus reuse:
+
+- [R01 scenario §§1.4, 2.6, 2.15–2.17](../Escenario-creatividad-validacion.md)
+- [Existing partial C3 oracle](../../../fixtures/00G-HF-ORACLE-v0.4/README.md)
+- [Bounded oracle / fixture method](../../../00D_A01_REFERENCE_SCENARIO_TEST_ARTIFACTS_AND_BOUNDED_ORACLE_CONSTRUCTION_AND_TEST_DESIGN_v0.1.md)
+- [Deterministic harness pattern](../../../00D_A03_RS_00E_Q1A_STAGE_0_DETERMINISTIC_HARNESS_DESIGN_v0.1.md)
+- [Canonical Trace v1 source implementation](../../../fixtures/RS-00E-Q1a/canonical_trace_v1.py)
+~~~~
+
+**Riesgo y coste:** comprobar versión, referencias y alcance de esta precisión; conservar el resto del documento. El trabajo consiste en una sustitución delimitada y verificar sus destinos. **Aceptación:** el lector llega al ejemplo/fuente o entiende la función y su condición, con el mismo significado técnico. **Decisión:** pendiente para Ola3; las olas anteriores están aplicadas.
