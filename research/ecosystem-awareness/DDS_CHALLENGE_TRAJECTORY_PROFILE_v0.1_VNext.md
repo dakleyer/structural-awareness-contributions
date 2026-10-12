@@ -660,3 +660,36 @@ Extension-review clarification0.1.3: technology–problem extension/isomorphism 
 2. **DDS-PC-011/012/020, humanos.** Un scheduler o ledger técnico puede evaluarse bajo un perfil declarado; disponibilidad, causalidad de carga y retención reales exigen validación de constructo, fuentes humanas y protocolo propios. Stage C de software no cierra ese estudio. Las tarjetas ya conservan esta separación; no añadir un requisito universal o un precio/hora sintético para suplir datos.
 
 P1/P2/P3 son prioridad de desarrollo, no DDS Stage ni autorización de ejecución o cambios mínimos de bajo riesgo. Las veinte PROPOSED no son veinte modificaciones quirúrgicas listas y no subsanan T03/T04/T05/T06, ni 74/75/76. La propuesta 76 sigue contra el mismo blob de Stage A; el nuevo banner del Index no cambia su viejo. No se modifica el register adicional, se crea otro expediente o se activa campaña. Canon en lectura y pasadas científicas pendientes conservan su estado real.
+
+
+---
+
+## Acotar el cambio de conservación — 12 octubre 2026
+
+**Codex, mismo asistente; corte `21c3946009af4a14433d7240eddce939e4ff9599`, este ledger blob `83bf1e5cb96805669c803a2bba3dc2cf7ce895c1`.** Iván pide planes al final de las VNext, alto impacto y bajo riesgo con muy poco texto. El cambio75 completo incluye recuperar/reconciliar historia auténtica y mantiene riesgo/esfuerzo Medio. El74 cambia admisión del checker y sigue riesgo Medio; no se presenta como arreglo textual de bajo riesgo. T04 y las auditorías anteriores permanecen.
+
+La alternativa siguiente se limita a evitar retiradas futuras mediante una regla. No recupera las propuestas ya retiradas, no convierte un antecedente reconstruido en auténtico, no reabre lo incorporado y no cierra75/T04. Es una variante del75, no un nuevo hallazgo ni otro expediente. Su impacto Alto corresponde a preservar evidencia visible para revisiones y decisiones futuras; su riesgo Bajo corresponde exclusivamente a ese alcance documental.
+
+## Plan de cambios al final — variante textual del 75
+
+**Ubicación:** §5, regla8 del cuerpo anterior, fuera de las citas de propuestas. Viejo: una coincidencia en ese contexto; propuesto: ninguna. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Preparado para decisión; no aplicado.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+8. **No-zombie check:** once a proposed change is incorporated, remove it from this VNext; Git history is the archive.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+8. **Closed-proposal check:** retain incorporated proposals, their before/after text, audit discussion and dissent as dated history in this VNext, with source version and decision; exclude them from the pending queue.
+~~~~
+
+**Beneficio concreto:** impedir que cerrar una propuesta elimine el viejo/nuevo, la discusión o el desacuerdo de la única VNext. Fecha, versión y decisión separan historia de pendientes. No hace falta otro índice o una VNext por auditoría.
+
+**Riesgo concreto:** la regla es prospectiva; no declara recuperadas las conversaciones antiguas ni altera el estado de una incorporación. Las notas fechadas sobre retiradas pasadas conservan su significado histórico. **Coste:** cotejo de una regla con conservación del procedimiento y T04, custodia y lectura de vuelta; restauración/adjudicación histórica sigue en el75 completo con riesgo/esfuerzo Medio.
+
+**Compatibilidad y orden:** esta variante y el75 amplio reemplazan la misma regla: escoger una redacción, no aplicar dos reemplazos. Decidir esta variante no descarta el trabajo histórico pendiente. No modifica Stage A, Stage B/C, checkers, pruebas, hashes o resultados. **Instrucción de Iván:** conservar originales y conversaciones, una VNext por unidad y viejo completo visible. **Decisión:** pendiente sobre este texto exacto; publicación de auditoría y plan autorizada, incorporación no ejecutada.
+
+**Fuera de esta tanda:** 74 necesita el sucesor/contrato y comprobaciones prospectivas; 75 histórico necesita custodia auténtica. Los tres SHA256/README requieren identificar épocas; no se corrigen hashes para simular conservación. Las siete réplicas conservan propietario/custodia y no se borran. Los resultados HF contrarios siguen válidos dentro de su scope. 76 es claridad de impacto Medio, riesgo Bajo; se conserva pero no se eleva artificialmente a Alto. [Primera tanda conjunta](../../architectural-contributions/ecosystem-positioning/README_VNext.md#primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026).

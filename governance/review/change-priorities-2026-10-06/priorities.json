@@ -1,5 +1,5 @@
 {
-  "version": "1.10",
+  "version": "1.11",
   "date": "2026-10-06",
   "source_commit": "de681e8d88b6d810502df2ea813f59058ed5934d",
   "scope": {
@@ -3276,11 +3276,41 @@
         "added_files_from_previous_cut": 665
       },
       "note": "Época anterior preservada antes del cotejo DDS del mismo 12 de octubre."
+    },
+    {
+      "version": "1.10",
+      "current_scope": {
+        "date": "2026-10-12",
+        "source_commit": "eb5d66d7e22dc18f093ee33fcd564e1fac6d2338",
+        "active_expedients": 72,
+        "vnext_names": 71,
+        "reused_benchmark": 1,
+        "declared_replica_pairs": 7,
+        "logical_candidates_excluding_known_replicas": 65,
+        "scope_count_limit": "Raw72 names, seven declared copies; not certification ofsource-by-source scientific completeness or independent reviewers.",
+        "paired_proposals": 67,
+        "pending_paired": 52,
+        "already_published": 7,
+        "withdrawn": 1,
+        "superseded": 2,
+        "resolved_by_other_source_edition": 2,
+        "reformulated": 3,
+        "planning_without_literal_pair": 9,
+        "registered_rows": 76,
+        "documentary_review_candidates": 13,
+        "new_candidates": [
+          76
+        ],
+        "review": "Consistency rereading of DDS definitions and selected material consumers; no closure of unfinished five/sixth campaign.",
+        "all_files_examined": 2194,
+        "added_files_from_previous_cut": 665
+      },
+      "note": "Época anterior preservada antes de preparar la primera tanda textual."
     }
   ],
   "current_scope": {
     "date": "2026-10-12",
-    "source_commit": "eb5d66d7e22dc18f093ee33fcd564e1fac6d2338",
+    "source_commit": "21c3946009af4a14433d7240eddce939e4ff9599",
     "active_expedients": 72,
     "vnext_names": 71,
     "reused_benchmark": 1,
@@ -3297,12 +3327,12 @@
     "planning_without_literal_pair": 9,
     "registered_rows": 76,
     "documentary_review_candidates": 13,
-    "new_candidates": [
-      76
-    ],
-    "review": "Consistency rereading of DDS definitions and selected material consumers; no closure of unfinished five/sixth campaign.",
+    "new_candidates": [],
+    "review": "Preparation of three narrowly bounded text interventions:31/32 and prospective variant75; not scientific closure.",
     "all_files_examined": 2194,
-    "added_files_from_previous_cut": 665
+    "added_files_from_previous_cut": 665,
+    "textual_wave_interventions": 3,
+    "limited_variants": 1
   },
   "dependency_epochs": [
     {
@@ -3804,7 +3834,7 @@
       ]
     }
   ],
-  "publication_base_commit": "eb5d66d7e22dc18f093ee33fcd564e1fac6d2338",
+  "publication_base_commit": "bb3e5c449f3638bfe806a53d4302e547a0923fe8",
   "publication_rebases": [
     {
       "from": "6881dfe920a30ef6d00334f15059ab1dd931c8d4",
@@ -3826,6 +3856,12 @@
       "from": "17b597bf91acb0f37daebc716e8f23f65daa23eb",
       "to": "c36da6745c3893b0200014358c48178778d8cee9",
       "reason": "Concurrent PR14HF clarification preserved;11changed/new files read, HFVNext rebased append-only; sourcechecker/history pair unchanged"
+    },
+    {
+      "from": "21c3946009af4a14433d7240eddce939e4ff9599",
+      "to": "bb3e5c449f3638bfe806a53d4302e547a0923fe8",
+      "targets_unchanged": true,
+      "scope": "Unrelated article-navigation/additional annex preserved; six wave targets unchanged; reading snapshot retained."
     }
   ],
   "source_revalidations": [
@@ -3874,6 +3910,42 @@
       "read_scope": "§§3.1/5.3/7.1A/7.4 nuevos completos ycontexto §§4–10",
       "consequence": "Mantener admisión exante deM,fronteraoracle privado/alcanzable ycausalidad;Pregunta deperfilpendiente,no fórmula como diagnóstico universal",
       "canonical_source_changed_by_this_review": false
+    },
+    {
+      "id": 31,
+      "date": "2026-10-12",
+      "source_commit": "21c3946009af4a14433d7240eddce939e4ff9599",
+      "source": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "current_sha": "1647f592484463ddb33c6dbcc4467f1bd105093c",
+      "before_matches": 1,
+      "after_matches": 0,
+      "scope": "§2.10 native working bullet",
+      "old_pair_preserved": true,
+      "note": "Nuevo plan al final; fuente y pares anteriores intactos."
+    },
+    {
+      "id": 32,
+      "date": "2026-10-12",
+      "source_commit": "21c3946009af4a14433d7240eddce939e4ff9599",
+      "source": "research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
+      "current_sha": "1647f592484463ddb33c6dbcc4467f1bd105093c",
+      "before_matches": 1,
+      "after_matches": 0,
+      "scope": "§7 minimum record item1",
+      "old_pair_preserved": true,
+      "note": "Nuevo plan al final; fuente y pares anteriores intactos."
+    },
+    {
+      "id": 75,
+      "date": "2026-10-12",
+      "source_commit": "21c3946009af4a14433d7240eddce939e4ff9599",
+      "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "current_sha": "83bf1e5cb96805669c803a2bba3dc2cf7ce895c1",
+      "before_matches": 1,
+      "after_matches": 0,
+      "scope": "§5 rule8 outside quoted proposals",
+      "old_pair_preserved": true,
+      "note": "Nuevo plan al final; fuente y pares anteriores intactos."
     }
   ],
   "navigation_readback_scope": [
@@ -3886,7 +3958,7 @@
       "old_pair_preserved": true
     }
   ],
-  "review_source_commit": "eb5d66d7e22dc18f093ee33fcd564e1fac6d2338",
+  "review_source_commit": "21c3946009af4a14433d7240eddce939e4ff9599",
   "plan_quality_review_epochs": [
     {
       "date": "2026-10-06",
@@ -7960,6 +8032,76 @@
       "canonical_edits": 0,
       "new_vnext": 0,
       "experiments": 0
+    }
+  ],
+  "candidate_variants": [
+    {
+      "base_change_id": 75,
+      "name": "Regla futura de conservación — variante textual acotada",
+      "date": "2026-10-12",
+      "source_commit": "21c3946009af4a14433d7240eddce939e4ff9599",
+      "source": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "source_sha": "83bf1e5cb96805669c803a2bba3dc2cf7ce895c1",
+      "vnext": "research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md",
+      "location": "§5, regla8 delcuerpo, fuera de citas de propuestas",
+      "before": "8. **No-zombie check:** once a proposed change is incorporated, remove it from this VNext; Git history is the archive.",
+      "after": "8. **Closed-proposal check:** retain incorporated proposals, their before/after text, audit discussion and dissent as dated history in this VNext, with source version and decision; exclude them from the pending queue.",
+      "impact": "Alto",
+      "risk": "Bajo",
+      "effort": "Bajo",
+      "priority": "Primera",
+      "state": "Pendiente de decisión; variante preparada",
+      "decision_ready": true,
+      "authorized_to_apply": false,
+      "positive_impact_proven": false,
+      "benefit": "Evitar nuevas pérdidas de auditorías visibles sin reabrir propuestas incorporadas.",
+      "riskReason": "Sólo regla documental futura de la VNext. No recupera archivos antiguos, adjudica incorporaciones pasadas, cambia canon, código o resultados.",
+      "costReason": "Un pasaje y cotejo del procedimiento/T04; la recuperación histórica del75 completo mantiene esfuerzo y riesgoMedio.",
+      "dependencies": [
+        "governance/CORPUS_REVIEW_PROCEDURE_2026-10-06.md"
+      ],
+      "gate": "Decisión concreta deIván sobre esta variante. No aplicar junto al reemplazo de regla del75 completo: comparten viejo. Restitución auténtica, cierreT04 y estados históricos fuera delalcance.",
+      "acceptance": "Una propuesta incorporada queda fechada y trazable en historia, con viejo/nuevo/discusión/desacuerdo; no vuelve a la cola pendiente."
+    }
+  ],
+  "decision_waves": [
+    {
+      "date": "2026-10-12",
+      "source_commit": "21c3946009af4a14433d7240eddce939e4ff9599",
+      "title": "Primera tanda textual: alto impacto y bajo riesgo",
+      "status": "Preparada, incorporación pendiente de decisión concreta",
+      "items": [
+        {
+          "id": 31,
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "passage": "§2.10 una viñeta",
+          "source_sha": "1647f592484463ddb33c6dbcc4467f1bd105093c"
+        },
+        {
+          "id": 32,
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Medio",
+          "passage": "§7 un punto de ficha",
+          "source_sha": "1647f592484463ddb33c6dbcc4467f1bd105093c"
+        },
+        {
+          "id": 75,
+          "variant": "Regla futura de conservación — variante textual acotada",
+          "impact": "Alto",
+          "risk": "Bajo",
+          "effort": "Bajo",
+          "passage": "§5 una regla prospectiva",
+          "source_sha": "83bf1e5cb96805669c803a2bba3dc2cf7ce895c1"
+        }
+      ],
+      "exclusions": "No checker74, restauración histórica75, actualización de hashes, borrado de réplicas o reinterpretación de resultadosHF.76 conserva impactoMedio.",
+      "canonical_edits": 0,
+      "new_vnext": 0,
+      "new_ids": 0,
+      "independence": "Mismo asistente deIA; preparación documental para decisión humana"
     }
   ]
 }

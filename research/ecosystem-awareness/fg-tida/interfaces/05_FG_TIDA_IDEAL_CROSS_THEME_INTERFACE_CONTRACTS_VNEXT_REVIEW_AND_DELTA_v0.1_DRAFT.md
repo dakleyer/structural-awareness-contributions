@@ -945,3 +945,14 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Distinguirplacement, prueba independiente posible y confirmación arquitectónica; no afirmar ausencia mundial de adopción a partir de ocho comentarios antiguos. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Plan al final — relación con la tanda textual de 05A
+
+**Codex, 12 octubre 2026; mismo asistente, corte `21c3946009af4a14433d7240eddce939e4ff9599`.** Se cotejó §7.1/§17 y la regla del filtro Current frente a05A §2.10/§7. Los cambios31/32 precisan atribución y edición de evidencia en la única [05A VNext](./05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-de-cambios-al-final--primera-tanda-textual). No amplían el contrato ideal05, transfieren dueño de medición, crean un payload o promueven adopciónFG.
+
+**Consecuencia para este plan:** no hay un pasaje de05 Ideal que deba cambiar junto a31/32; sus fronteras de población/decisión y promoción mediante fuentes ya son compatibles. Se conserva el cuerpo y las propuestas33/34 con sus riesgos. No se fabrica un par adicional para duplicar la precisión. Las cuatro/cinco lecturas y sexta mantienen sus pendientes.
+
+La [tanda conjunta en EP VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026) distingue preparación y decisión de incorporación. Texto científico, requisitos, datos y originales intactos.

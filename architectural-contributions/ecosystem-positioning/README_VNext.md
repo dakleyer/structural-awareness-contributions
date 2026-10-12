@@ -1304,3 +1304,35 @@ Los comentarios de ambos extremos quedan en [EA VNext](../../research/ecosystem-
 **No confundir cantidades:** veinte líneas de investigación no son veinte nuevos cambios canónicos listos. P1/P2/P3 no declara riesgo Bajo ni sustituye el ranking de impacto/riesgo/esfuerzo. Los 76 candidatos del plan, incluidos 74/75/76, conservan sus disposiciones; no se fabrican viejos/nuevos para rellenar cada tarjeta. No se propone otra VNext para una hoja adicional ni se altera el modelo de tres niveles.
 
 Se comprueban 138 enlaces internos del registro, veinte IDs y 41 fuentes únicas. Disponibilidad, permisos, fidelidad de los originales y novedades externas no se certifican por esos enlaces; R02 y D15 conservan límites de fuente. Esta ampliación publica comentarios en las mismas tres VNext y preserva todas sus auditorías previas. Sin originales, código o resultados editados por el cotejo, nuevas pruebas, contacto o temporizador; no cierre de quinta/sexta científica global.
+
+
+---
+
+## Primera tanda textual de alto impacto y bajo riesgo — 12 octubre 2026
+
+**Instrucción de Iván:** actualizar las VNext existentes tal como están organizadas y dejar al final modificaciones de alto impacto y bajo riesgo muy acotadas en texto. **Codex, mismo asistente; corte `21c3946009af4a14433d7240eddce939e4ff9599`.** Se conservan todos los planes y auditorías anteriores. Se revalidan los textos de31/32 y se acota una alternativa del75; ninguna propuesta se incorpora a su fuente de trabajo por publicar este plan.
+
+### Visión conjunta y decisión
+
+| Intervención | Texto afectado | Impacto esperado | Riesgo | Esfuerzo | Qué resuelve |
+|---|---|---|---|---|---|
+| 31 · Atribuir el reporte Theme21 | Una viñeta de05A VNext §2.10 | Alto | Bajo | Bajo | Consulta de un reporte no se lee como reproducción independiente/correctness |
+| 32 · Identificar edición de fuente | Un punto de la ficha05A VNext §7 | Alto | Bajo | Medio | Saber qué fuente mutable sustentó la relación; texto corto, mantenimiento por fila real |
+| 75 · Variante prospectiva mínima | Una regla de DDS VNext §5 | Alto | Bajo sólo para esta variante | Bajo | No retirar en adelante viejos/discusiones/desacuerdos; historia separada de pendientes |
+
+**Tres intervenciones en dos VNext propietarias, no tres nuevos hallazgos o expedientes.** Los [pares completos31/32 al final de05A](../../research/ecosystem-awareness/fg-tida/interfaces/05A_FG_TIDA_CURRENT_STATE_CONFORMANCE_BRIDGE_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-de-cambios-al-final--primera-tanda-textual) y la [variante75 al final deDDS](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#plan-de-cambios-al-final--variante-textual-del-75) muestran el viejo literal y el propuesto, ubicación actual, beneficio, riesgo, coste, dependencias, aceptación e instrucciones de Iván. Son texto de las VNext; no requieren cambiar originales canónicos, código, datos o freezes. Cada pasaje antiguo se localiza una vez en su contexto de trabajo, sin contar citas históricas como modificaciones aplicadas.
+
+### Por qué se mantiene el impacto y cómo se limita el riesgo
+
+31 evita una promoción indebida de evidencia;32 vuelve reconstruible su procedencia;75 protege la evidencia de revisión que futuras decisiones necesitarán. Son consecuencias de evidencia/autoridad/preservación, no maquillaje de formato. El impacto es esperado, no un beneficio empírico medido. El riesgo es Bajo porque la intervención no cambia algoritmo, contrato técnico, cifras o resultado y tiene contexto/alcance declarado. Los lectores afectados conservan sus significados: [05 Ideal VNext](../../research/ecosystem-awareness/fg-tida/interfaces/05_FG_TIDA_IDEAL_CROSS_THEME_INTERFACE_CONTRACTS_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md#plan-al-final--relación-con-la-tanda-textual-de-05a) recibe el contraste y mantiene intacta su frontera.
+
+**Orden:** leer31+32 juntas por atribución/procedencia, decidir cada pasaje, y leer por separado75 mínimo. Su variante y la redacción amplia75 comparten viejo: no aplicar ambas. Preparar la regla futura no restaura la historia perdida ni cierraT04; ese trabajo mantiene riesgo/esfuerzo Medio. El74 del checker también mantiene riesgo Medio y su sucesor/pruebas pendientes. No se cambia una etiqueta para forzarlo dentro de una tanda segura.
+
+### Lo que no se convierte en parche por esta selección
+
+Las épocas de los tres bindings SHA/README siguen por aclarar, con hashes intactos. Las siete parejas VNext se conservan como réplicas con propietario, no se borran o cuentan como independencia. HF sigue reteniendo el comparador convencional y resultados adversos; no se reescriben para fabricar ventaja EA. Esos hallazgos necesitan su trabajo propio y no se presentan como “resueltos” por tres frases.76 permanece de impacto Medio/Bajo riesgo, fuera del filtro estricto Alto/Bajo.
+
+**Estado:** tanda textual preparada para tu decisión; originales sin cambios. Registro: mismos76 IDs, mismos52 pares pendientes y9 líneas por concretar; una variante acotada del75, no un nuevo ID. El registro conserva el75 completo con riesgo Medio y muestra esta variante por separado. No se declara cerrado el ciclo científico de cinco/sexta, se abre campaña o se activa temporizador.
+
+
+**Base de publicación revalidada:** main avanzó a `bb3e5c449f3638bfe806a53d4302e547a0923fe8` por una adición de navegación de artículos y su anexo. Los seis destinos de esta tanda conservan exactamente sus blobs previos; los tres viejos y sus contextos siguen iguales. Se preserva esa publicación ajena y se mantiene `21c3946009af4a14433d7240eddce939e4ff9599` como corte de lectura del plan. La incorporación de sus propuestas no se infiere de este rebase.

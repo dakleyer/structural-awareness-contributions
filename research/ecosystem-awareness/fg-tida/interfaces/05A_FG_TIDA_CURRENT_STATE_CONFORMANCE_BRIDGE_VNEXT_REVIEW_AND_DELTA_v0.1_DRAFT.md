@@ -653,3 +653,56 @@ La valoración actual distingue una mejora documental de una modificación conce
 **Condición y orden de decisión:** Completar anchors por fila con fecha y revision/hash disponible; si no existe pin, declararlo sin inventarlo. Mantener estados de autor/revisión/adopción separados. La decisión concreta de Iván sigue siendo necesaria para incorporar; publicar esta evaluación no la sustituye.
 
 [Visión conjunta y tandas en EP README VNext](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#revisión-a-fondo-de-los-planes-de-cambio--6-octubre-2026). Mantener tres niveles de README, fuentes congeladas, resultados y binarios. Reorganización, nueva campaña, experimentos e incorporación canónica permanecen fuera de esta entrega.
+
+
+---
+
+## Revisión para la primera tanda textual — 12 octubre 2026
+
+**Codex, mismo asistente de IA, para decisión humana.** Iván pide actualizar las VNext tal como están organizadas y terminar con cambios de alto impacto y bajo riesgo muy acotados en texto. Se releyeron §2.10, §7 y los hallazgos F004/F006, la relación con 05 Ideal y los planes 31/32. Corte `21c3946009af4a14433d7240eddce939e4ff9599`; fuente de los pasajes: esta única VNext, blob `1647f592484463ddb33c6dbcc4467f1bd105093c`. Se mantienen las auditorías, pares y valoraciones anteriores. No se refresca todo FG-TIDA ni se reproduce el dataset.
+
+Los dos cambios actúan sobre cómo se interpreta y documenta evidencia: no modifican el bridge canónico del 19 de septiembre, cifras, payloads, semánticas del productor o estados institucionales. Cada viejo aparece una vez en su sección de trabajo; las repeticiones dentro de los antiguos pares no cuentan como aplicación. Los propuestos no están incorporados en esas secciones.
+
+## Plan de cambios al final — primera tanda textual
+
+### 31 — Una viñeta: reporte del contribuyente, no reproducción independiente
+
+**Ubicación:** §2.10, viñeta “Released matched-rate/item-disagreement analysis”. **Impacto esperado Alto; riesgo Bajo; esfuerzo Bajo; prioridad Primera.** Estado: preparado para decisión; no aplicado.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+- **Released matched-rate/item-disagreement analysis:** **Current public empirical evidence about Theme #21 measurement behaviour**, with the stated no-ground-truth limitation.
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+- **Released matched-rate/item-disagreement analysis:** **Contributor-reported public analysis of Theme #21 measurement behaviour**, with the stated no-ground-truth and honest-judges limitations. Source consultation establishes the public report; independent reproduction of its data and code must be recorded separately and is not implied by this status.
+~~~~
+
+**Por qué importa:** evita promover una consulta de cifras a reproducción independiente o corrección establecida. Conserva el hallazgo F004, los límites no-ground-truth/honest-judges y la propiedad de Theme21. El beneficio es epistemológico/documental, no una nueva validación empírica.
+
+**Riesgo y esfuerzo:** una viñeta, sin recalcular cifras ni tocar datos. Mantener el corte y atribución del reporte; no afirmar ausencia mundial de reproducciones posteriores. **Dependencias/aceptación:** §2.10, F004 y §7; el lector debe reconocer autoría, alcance y qué evidencia falta. 05 Ideal mantiene su diferencia población/decisión; no requiere cambiar sus contratos por esta precisión. **Iván:** decisión pendiente sobre este pasaje; autorización de publicar el plan no aplica la propuesta.
+
+### 32 — Un punto de lista: fecha y edición de la fuente
+
+**Ubicación:** §7, punto1 de “Minimum record”. **Impacto esperado Alto; riesgo Bajo; esfuerzo Medio; prioridad Primera.** El texto afecta un solo punto. El esfuerzo Medio de mantener evidencias por fila se conserva: una frase corta no realiza ese trabajo.
+
+**Texto antes — viejo literal completo**
+
+~~~~markdown
+1. public source anchor;
+~~~~
+
+**Texto después — propuesto completo**
+
+~~~~markdown
+1. public source anchor, consultation date/time and source revision identifier or content hash where available, with the exact source-native statement and scope relied upon;
+~~~~
+
+**Por qué importa:** permite reconstruir qué comentario o edición mutable sostuvo una promoción Current, sin que una consulta parcial renueve todo el mapa. Completa F006; §7 ya exige estado fuente, scope, dueño, review y test, que permanecen.
+
+**Riesgo y coste:** no inventar revisionId o hash; donde no existe pin, dejar explícita la limitación. Registrar una fecha no hace inmutable la fuente. Revisión/mantenimiento por fila sigue siendo trabajo real y posterior; no se añade un campo a un payload común. **Dependencias/aceptación:** fuente/fecha/revisión o limitación visibles para la relación examinada; 05A conserva el filtro estrecho frente a 05 Ideal. **Iván:** decisión concreta pendiente; no migración retrospectiva de todas las filas por aprobar este texto.
+
+**Orden y alcance de esta tanda:** 31 y32 son decisiones separables; leerlas juntas para que el reporte tenga alcance y edición, sin convertirlas en revisión de todo FG-TIDA. Los pares anteriores se conservan literalmente; éstos son la revalidación actual al final del expediente, con los mismos IDs. [Visión conjunta](../../../../architectural-contributions/ecosystem-positioning/README_VNext.md#primera-tanda-textual-de-alto-impacto-y-bajo-riesgo--12-octubre-2026). Originales sólo en lectura; sin nuevos resultados, cambios canónicos o cierre de pasadas pendientes.
